@@ -232,5 +232,8 @@
  },
  "hk-hoi-on-road-noise-barrier": {
   "prio": "hoch"
+ },
+ "hk-172-176-queen-s-road-central": {
+  "prio": "gering"
  }
 }
