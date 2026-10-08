@@ -115,5 +115,8 @@
  },
  "hk-checkerboard-hill-lion-rock-drone-spot": {
   "prio": "hoch"
+ },
+ "hk-lugard-road-peak-rollercoaster-view": {
+  "prio": "gering"
  }
 }
