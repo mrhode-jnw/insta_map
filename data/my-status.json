@@ -106,5 +106,8 @@
  },
  "hk-170-yee-kuk-street": {
   "prio": "gering"
+ },
+ "hk-lei-yue-mun-fishing-village": {
+  "prio": "hoch"
  }
 }
