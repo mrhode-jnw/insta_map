@@ -94,5 +94,8 @@
  },
  "hk-mirador-mansion": {
   "prio": "gering"
+ },
+ "hk-shek-kip-mei-estate": {
+  "prio": "mittel"
  }
 }
