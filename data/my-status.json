@@ -196,5 +196,8 @@
  },
  "hk-peony-house-west-block": {
   "prio": "mittel"
+ },
+ "hk-lucky-building": {
+  "prio": "hoch"
  }
 }
