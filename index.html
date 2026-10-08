@@ -142,6 +142,8 @@
   .pop .pnav span { font-size: 12.5px; color: #6b7280; }
   .leaflet-popup-close-button { z-index: 3; }
   .pop .claude-note { background: #ede9fe; color: #5b21b6; border-radius: 8px; padding: 5px 8px; font-size: 12px; margin-bottom: 6px; }
+  .pop .generic { font-size: 12px; color: #6b7280; margin-bottom: 6px; }
+  .pop .generic a { color: var(--accent) !important; text-decoration: none; }
   .pop .credit { font-size: 10.5px; color: #6b7280; padding: 2px 12px 0; }
   .pop .credit a { color: #6b7280 !important; }
   .tag .ct, .cap2 .ct { color: #a78bfa; }
@@ -342,7 +344,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function popupHtml(p) {
     const d = here() ? `<div class="dist">📍 ${fmt(dist(me, p))} entfernt</div>` : "";
     const nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
-    const posts = p.posts && p.posts.length ? p.posts : null;
+    const imgPosts = (p.posts || []).filter(x => x.image);
+    const generic = (p.posts || []).filter(x => !x.image);
+    const posts = imgPosts.length ? imgPosts : null;
     const hero = !posts || posts.length === 1;
     const gal = posts && posts.length > 1 ? `<div class="gal">${posts.map((x, i) => `
         <figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}
@@ -367,10 +371,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${d}
         ${p.note ? `<div class="note">${esc(p.note)}</div>` : ""}
         ${gal}
+        ${generic.length ? `<div class="generic">${posts ? "Außerdem erwähnt in" : "Kein eigenes Foto – erwähnt in"} ${generic.map(x =>
+          `Sammel-Post von <a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a> · <a href="${esc(x.url)}" target="_blank" rel="noopener">Post ↗</a>`).join(", ")}</div>` : ""}
         <div class="addr">${esc(p.address)}<br><small>${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}</small></div>
-        ${hero && p.caption ? `<div class="cap">${esc(p.caption)}</div>` : ""}
+        ${hero && p.caption && (p.image || !generic.length) ? `<div class="cap">${esc(p.caption)}</div>` : ""}
         <div class="links">
-          ${hero && p.post_url ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Post</a>
+          ${hero && p.post_url && (p.image || !generic.length) ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Post</a>
           ${p.profile_url ? `<a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>` : ""}` : ""}
           ${p.wiki_url ? `<a class="wiki" href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
           <a href="${nav}" target="_blank" rel="noopener">Route</a>

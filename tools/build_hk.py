@@ -82,6 +82,9 @@ def spot_post(spot, i):
                 p["url"] = p["url"] + f"?img_index={m[0] + 1}"
             except Exception as e:  # noqa: BLE001
                 print(f"  Slide {code}#{m[0] + 1}: {e}", file=sys.stderr)
+    if p["match"] == "cover":
+        # Sammel-Post ohne passendes Einzelbild: Titelbild zeigt meist einen anderen Ort → nicht als Foto des Spots verwenden
+        p["image"], p["generic"] = None, True
     return p
 
 
@@ -105,7 +108,7 @@ for n, s in enumerate(S):
     # Markerbild: zum Spot passendes Slide > Post nur dieses Spots > Titelbild
     first = (next((p for p in ps if p["match"] == "slide"), None)
              or next((p for p in ps if p["match"] == "single"), None)
-             or next((p for p in ps if p["image"]), ps[0]))
+             or ps[0])
     places.append({
         "id": spot_id(s["name"]),
         "name": s["name"],
@@ -165,6 +168,8 @@ from collections import Counter  # noqa: E402
 dup = Counter(p["image"] for p in places if p["image"])
 shared = sum(n for n in dup.values() if n > 1)
 print(f"Markerbilder: {len(dup)} verschiedene, {shared} Spots teilen sich ein Bild mit anderen")
+nophoto = [p["name"] for p in places if not p["image"] and not p.get("by_claude")]
+print(f"Spots ohne eigenes Foto (nur Sammel-Post): {len(nophoto)}")
 missing = [p["url"] for p in posts.values() if not p["image"]]
 if missing:
     print(f"⚠ {len(missing)} Posts ohne Bild (erneut ausführen):", *missing, sep="\n  ")
