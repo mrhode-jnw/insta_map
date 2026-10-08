@@ -205,5 +205,8 @@
  },
  "hk-ma-tau-wai-estate-lion-rock": {
   "prio": "mittel"
+ },
+ "hk-harbour-place-drone": {
+  "prio": "hoch"
  }
 }
