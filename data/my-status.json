@@ -277,5 +277,8 @@
  },
  "hk-ma-tau-wai-road": {
   "prio": "mittel"
+ },
+ "hk-ngau-chi-wan-kam-chi-path": {
+  "prio": "hoch"
  }
 }
