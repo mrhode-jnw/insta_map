@@ -142,5 +142,8 @@
  },
  "hk-third-street": {
   "prio": "mittel"
+ },
+ "hk-north-point-road-tram-station": {
+  "prio": "hoch"
  }
 }
