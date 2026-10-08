@@ -262,5 +262,8 @@
  },
  "hk-southern-building-north-point": {
   "prio": "hoch"
+ },
+ "hk-majestic-apartments-north-point": {
+  "prio": "hoch"
  }
 }
