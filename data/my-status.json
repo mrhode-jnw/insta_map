@@ -190,5 +190,8 @@
  },
  "hk-shek-kip-mei-street": {
   "prio": "mittel"
+ },
+ "hk-nam-cheong-lau": {
+  "prio": "gering"
  }
 }
