@@ -28,5 +28,14 @@
  },
  "hk-tai-ping-shan-street": {
   "prio": "gering"
+ },
+ "hk-jardine-s-lookout": {
+  "prio": "hoch"
+ },
+ "hk-red-incense-burner-summit-braemar-hill": {
+  "prio": "mittel"
+ },
+ "hk-the-murray-hotel": {
+  "prio": "gering"
  }
 }
