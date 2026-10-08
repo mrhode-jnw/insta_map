@@ -40,5 +40,14 @@
  },
  "hk-the-henderson": {
   "prio": "gering"
+ },
+ "hk-st-john-s-cathedral": {
+  "prio": "gering"
+ },
+ "hk-kung-lee-sugar-cane-drink": {
+  "prio": "mittel"
+ },
+ "hk-hill-road-flyover": {
+  "prio": "mittel"
  }
 }
