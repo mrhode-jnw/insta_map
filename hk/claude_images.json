@@ -134,5 +134,13 @@
     "artist": "Shanghai88",
     "license": "CC BY-SA 4.0",
     "wiki_url": "https://en.wikipedia.org/wiki/Repulse_Bay"
+  },
+  "stanley-murray-house-blake-pier": {
+    "image": "images/claude_stanley-murray-house-blake-pier.jpg",
+    "file": "Murray_House_Stanley_Hong_Kong.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Murray_House_Stanley_Hong_Kong.jpg",
+    "artist": "Hankt",
+    "license": "CC BY 3.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Murray_House"
   }
 }
