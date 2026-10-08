@@ -42,15 +42,15 @@
   "type": "place_of_worship"
  },
  "172 Queen's Road Central, Hong Kong": {
-  "lat": 22.2847,
-  "lon": 114.1534,
-  "name": "172, 皇后大道中 Queen's Road Central, 蘇豪 SoHo, 上環 Sheung Wan, 中西區 Central a",
+  "lat": 22.284651,
+  "lon": 114.1533661,
+  "name": "172, Queen's Road Central, SoHo, Sheung Wan, Central and Western District, Hong Kong Island, Hong Kong, China",
   "type": "yes"
  },
  "60 Hollywood Road, Central, Hong Kong": {
-  "lat": 22.2828,
-  "lon": 114.1528,
-  "name": "60, 荷李活道 Hollywood Road, 蘇豪 SoHo, 上環 Sheung Wan, 中西區 Central and Weste",
+  "lat": 22.2828374,
+  "lon": 114.1527625,
+  "name": "60, Hollywood Road, SoHo, Sheung Wan, Central and Western District, Hong Kong Island, Hong Kong, China",
   "type": "yes"
  },
  "Murray Road, Central, Hong Kong": {
@@ -84,10 +84,10 @@
   "type": "yes"
  },
  "Tai Ping Shan Street, Sheung Wan, Hong Kong": {
-  "lat": 22.2853,
-  "lon": 114.1476,
-  "name": "太平山街 Tai Ping Shan Street, 太平山 Tai Ping Shan, 上環 Sheung Wan, 中西區 Centr",
-  "type": "residential"
+  "lat": 22.2845757,
+  "lon": 114.1485143,
+  "name": "Tai Ping Shan Street, Tai Ping Shan, Sheung Wan, Central and Western District, Hong Kong Island, Hong Kong, China",
+  "type": "unclassified"
  },
  "Shun Tak Centre, Connaught Road Central, Sheung Wan, Hong Kong": {
   "lat": 22.2879276,
@@ -102,9 +102,9 @@
   "type": "mall"
  },
  "1 Queen's Road West, Sheung Wan, Hong Kong": {
-  "lat": 22.2863,
-  "lon": 114.1488,
-  "name": "1, 皇后大道西 Queen's Road West, 太平山 Tai Ping Shan, 上環 Sheung Wan, 中西區 Cent",
+  "lat": 22.2862965,
+  "lon": 114.1487604,
+  "name": "1, Queen's Road West, Tai Ping Shan, Sheung Wan, Central and Western District, Hong Kong Island, Hong Kong, China",
   "type": "yes"
  },
  "112 Jervois Street, Sheung Wan, Hong Kong": {
@@ -132,9 +132,9 @@
   "type": "yes"
  },
  "Shing Wong Street, Central, Hong Kong": {
-  "lat": 22.2842,
-  "lon": 114.1516,
-  "name": "城皇街 Shing Wong Street, 蘇豪 SoHo, 上環 Sheung Wan, 中西區 Central and Western",
+  "lat": 22.2841807,
+  "lon": 114.1516429,
+  "name": "Shing Wong Street, SoHo, Sheung Wan, Central and Western District, Hong Kong Island, Hong Kong, China",
   "type": "residential"
  },
  "Mid-Levels, Hong Kong": {
@@ -144,9 +144,9 @@
   "type": "suburb"
  },
  "207 Des Voeux Road West, Sai Ying Pun, Hong Kong": {
-  "lat": 22.2881,
-  "lon": 114.1423,
-  "name": "207, 德輔道西 Des Voeux Road West, 西營盤 Sai Ying Pun, 中西區 Central and Weste",
+  "lat": 22.2880859,
+  "lon": 114.1422576,
+  "name": "207, Des Voeux Road West, Sai Ying Pun, Central and Western District, Hong Kong Island, Hong Kong, China",
   "type": "yes"
  },
  "20 High Street, Sai Ying Pun, Hong Kong": {
@@ -222,15 +222,15 @@
   "type": "residential"
  },
  "Portland Street, Mong Kok, Hong Kong": {
-  "lat": 22.3243,
-  "lon": 114.1677,
-  "name": "砵蘭街 Portland Street, 旺角 Mong Kok, 油尖旺區 Yau Tsim Mong District, 九龍 Kowl",
+  "lat": 22.3242558,
+  "lon": 114.1677047,
+  "name": "Portland Street, Mong Kok, Yau Tsim Mong District, Kowloon, Hong Kong, China",
   "type": "secondary"
  },
  "Langham Place, Mong Kok, Hong Kong": {
-  "lat": 22.3183,
-  "lon": 114.1686,
-  "name": "朗豪坊 Langham Place, 18, 旺角 Mong Kok, 油尖旺區 Yau Tsim Mong District, 九龍 Ko",
+  "lat": 22.3182538,
+  "lon": 114.1686084,
+  "name": "Langham Place, 18, Mong Kok, Yau Tsim Mong District, Kowloon, Hong Kong, China",
   "type": "commercial"
  },
  "Argyle Street, Mong Kok, Hong Kong": {
@@ -252,9 +252,9 @@
   "type": "unclassified"
  },
  "Fa Yuen Street, Mong Kok, Hong Kong": {
-  "lat": 22.3204,
-  "lon": 114.1709,
-  "name": "花園街 Fa Yuen Street, 旺角 Mong Kok, 油尖旺區 Yau Tsim Mong District, 九龍 Kowlo",
+  "lat": 22.3232576,
+  "lon": 114.1703263,
+  "name": "Fa Yuen Street, Mong Kok, Yau Tsim Mong District, Kowloon, Hong Kong, China",
   "type": "residential"
  },
  "Kam Lam Street, Mong Kok, Hong Kong": {
@@ -312,15 +312,15 @@
   "type": "secondary"
  },
  "United Mansion, Jordan, Hong Kong": {
-  "lat": 22.3058,
-  "lon": 114.1692,
-  "name": "A座 Block A, 上海街 Shanghai Street, 官涌 Kwun Chung, 油麻地 Yau Ma Tei, 油尖旺區 Y",
+  "lat": 22.3057657,
+  "lon": 114.1691574,
+  "name": "Block A, Shanghai Street, Kwun Chung, Yau Ma Tei, Yau Tsim Mong District, Kowloon, Hong Kong, China",
   "type": "residential"
  },
  "Mirador Mansion, Nathan Road, Tsim Sha Tsui, Hong Kong": {
-  "lat": 22.2973,
-  "lon": 114.1726,
-  "name": "美麗都大廈 Mirador Mansion, 58, 彌敦道 Nathan Road, 尖沙咀 Tsim Sha Tsui, 油尖旺區 Ya",
+  "lat": 22.2972939,
+  "lon": 114.172638,
+  "name": "Mirador Mansion, 58, Nathan Road, Tsim Sha Tsui, Yau Tsim Mong District, Kowloon, Hong Kong, China",
   "type": "apartments"
  },
  "K11 Musea, Salisbury Road, Tsim Sha Tsui, Hong Kong": {
@@ -420,9 +420,9 @@
   "type": "residential"
  },
  "Nam Cheong Street, Sham Shui Po, Hong Kong": {
-  "lat": 22.3264,
-  "lon": 114.1609,
-  "name": "南昌街 Nam Cheong Street, 塘尾 Tong Mi, 深水埗 Sham Shui Po, 深水埗區 Sham Shui Po",
+  "lat": 22.3298642,
+  "lon": 114.1640102,
+  "name": "Nam Cheong Street, Un Chau, Sham Shui Po, Sham Shui Po District, Kowloon, Hong Kong, China",
   "type": "secondary"
  },
  "Kim Shin Lane, Cheung Sha Wan, Hong Kong": {
@@ -438,9 +438,9 @@
   "type": "residential"
  },
  "Peony House, Tai Kok Tsui, Hong Kong": {
-  "lat": 22.3193,
-  "lon": 114.1616,
-  "name": "富貴大廈 Peony House, 大角咀 Tai Kok Tsui, 油尖旺區 Yau Tsim Mong District, 九龍 Ko",
+  "lat": 22.3192823,
+  "lon": 114.1615736,
+  "name": "Peony House, Tai Kok Tsui, Yau Tsim Mong District, Kowloon, Hong Kong, China",
   "type": "residential"
  },
  "To Kwa Wan Road, Hong Kong": {
@@ -456,9 +456,9 @@
   "type": "residential"
  },
  "Mei King Street, To Kwa Wan, Hong Kong": {
-  "lat": 22.3167,
-  "lon": 114.1908,
-  "name": "美景街 Mei King Street, 土瓜灣 To Kwa Wan, 九龍城區 Kowloon City District, 九龍 Ko",
+  "lat": 22.3167408,
+  "lon": 114.190841,
+  "name": "Mei King Street, To Kwa Wan, Kowloon City District, Kowloon, Hong Kong, China",
   "type": "residential"
  },
  "Ma Tau Wai Estate, Hong Kong": {
@@ -522,9 +522,9 @@
   "type": "residential"
  },
  "Wong Tai Sin Plaza, Hong Kong": {
-  "lat": 22.3414,
-  "lon": 114.1943,
-  "name": "黃大仙中心 Temple Mall, 正德街 Ching Tak Street, 樂富 Lok Fu, 黃大仙 Wong Tai Sin,",
+  "lat": 22.3413757,
+  "lon": 114.1943294,
+  "name": "Temple Mall, Lung Cheung Road, Fung Wong New Village, Wong Tai Sin, Wong Tai Sin District, Kowloon, Hong Kong, China",
   "type": "mall"
  },
  "Chuk Yuen South Estate, Wong Tai Sin, Hong Kong": {
@@ -534,9 +534,9 @@
   "type": "school"
  },
  "Tsui Chuk Garden, Wong Tai Sin, Hong Kong": {
-  "lat": 22.3461,
-  "lon": 114.1879,
-  "name": "翠竹花園 Tsui Chuk Garden, 8, 馬仔坑 Ma Chai Hang, 黃大仙區 Wong Tai Sin District",
+  "lat": 22.3460944,
+  "lon": 114.1879363,
+  "name": "Tsui Chuk Garden, 8, Ma Chai Hang, Wong Tai Sin District, Kowloon, Hong Kong, China",
   "type": "residential"
  },
  "Ngau Chi Wan, Hong Kong": {
@@ -558,9 +558,9 @@
   "type": "hotel"
  },
  "Kam Hong Street, North Point, Hong Kong": {
-  "lat": 22.2918,
-  "lon": 114.2016,
-  "name": "琴行街 Kam Hong Street, 丹拿山 Tanner Hill, 北角 North Point, 東區 Eastern Distr",
+  "lat": 22.2923062,
+  "lon": 114.2014571,
+  "name": "Kam Hong Street, Tanner Hill, North Point, Eastern District, Hong Kong Island, Hong Kong, China",
   "type": "tertiary"
  },
  "Kowloon Walled City Park, Hong Kong": {

@@ -92,7 +92,9 @@ def spot_id(name):
 places, used = [], set()
 for n, s in enumerate(S):
     if isinstance(s["q"], tuple):
-        (lat, lng), approx, addr = s["q"], True, s["district"]
+        # (lat, lon) = von Hand gesetzt (ungefähr), (lat, lon, "OSM") = exakt aus OpenStreetMap
+        lat, lng = s["q"][:2]
+        approx, addr = len(s["q"]) < 3, s["district"]
     else:
         g = geo[s["q"]]
         lat, lng, approx, addr = g["lat"], g["lon"], False, g.get("name") or s["q"]

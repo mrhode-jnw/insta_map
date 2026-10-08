@@ -31,12 +31,12 @@
 
   /* Bottom-Sheet mit Liste */
   #sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1001; background: var(--bg);
-    border-radius: 16px 16px 0 0; box-shadow: var(--shadow); max-height: 72vh; display: flex;
+    border-radius: 16px 16px 0 0; box-shadow: var(--shadow); height: 88vh; height: 88dvh; display: flex;
     flex-direction: column; transform: translateY(calc(100% - 76px - env(safe-area-inset-bottom)));
-    transition: transform .25s ease; padding-bottom: env(safe-area-inset-bottom); }
-  #sheet.open { transform: none; }
-  #sheet header { padding: 8px 14px 10px; cursor: pointer; }
-  #sheet .grip { width: 40px; height: 4px; border-radius: 2px; background: var(--line); margin: 0 auto 8px; }
+    transition: transform .28s cubic-bezier(.2,.8,.2,1); padding-bottom: env(safe-area-inset-bottom); will-change: transform; }
+  #sheet header { padding: 8px 14px 10px; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; }
+  #list { overscroll-behavior: contain; }
+  #sheet .grip { width: 40px; height: 5px; border-radius: 3px; background: var(--muted); opacity: .5; margin: 0 auto 10px; }
   #sheet .row { display: flex; gap: 8px; align-items: center; }
   #search { flex: 1; min-width: 0; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line);
     background: transparent; color: var(--fg); font-size: 16px; }
@@ -64,8 +64,9 @@
     background: linear-gradient(transparent, rgba(0,0,0,.7)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
   @media (min-width: 800px) {
-    #sheet { left: 14px; right: auto; top: 14px; bottom: 14px; width: 360px; max-height: none;
-      border-radius: 16px; transform: none; }
+    #sheet { left: 14px; right: auto; top: 14px; bottom: 14px; width: 360px; height: auto;
+      border-radius: 16px; transform: none !important; }
+    #sheet header { cursor: default; }
     #sheet .grip { display: none; }
     #locate { bottom: 28px; }
     }
@@ -270,6 +271,7 @@ function startApp(unlockedKey) {
   const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45 });
   const markers = new Map();
   let me = null;
+  let sheetSnap = "peek";
   let status = {};  // id -> { prio: "hoch"|"mittel"|"gering", done: true } – aus data/my-status.json
   const st = id => status[id] || {};
   const PRIOS = ["hoch", "mittel", "gering"];
@@ -356,7 +358,7 @@ function startApp(unlockedKey) {
     }
     view = b.dataset.v; try { localStorage.setItem("view", view); } catch {}
     renderList();
-    if (view === "grid") $("#sheet").classList.add("open");
+    if (view === "grid" && sheetSnap === "peek") setSnap("full");
   });
   const allCats = () => [...new Set(places.map(p => p.category).filter(Boolean))].sort();
   function renderChips() {
@@ -448,12 +450,88 @@ function startApp(unlockedKey) {
   $("#list").addEventListener("click", e => {
     const li = e.target.closest("li[data-id]"); if (!li) return;
     const m = markers.get(li.dataset.id);
-    if (window.innerWidth < 800) $("#sheet").classList.remove("open");
+    setSnap("peek");
     cluster.zoomToShowLayer(m, () => m.openPopup());
   });
   $("#search").addEventListener("input", renderList);
-  $("#search").addEventListener("focus", () => $("#sheet").classList.add("open"));
-  $("#sheetHead").addEventListener("click", e => { if (!e.target.closest("button, input")) $("#sheet").classList.toggle("open"); });
+  $("#search").addEventListener("focus", () => { if (sheetSnap === "peek") setSnap("half"); });
+
+  // ---------- Bottom-Sheet ziehen (Handy): Stufen eingeklappt / halb / voll
+  const sheet = $("#sheet"), head = $("#sheetHead"), listEl = $("#list");
+  const mobile = () => window.innerWidth < 800;
+  const ORDER = ["full", "half", "peek"];
+  function snapY(name) {
+    const H = sheet.offsetHeight, row = head.querySelector(".row");
+    const pad = parseFloat(getComputedStyle(sheet).paddingBottom) || 0;
+    const peek = head.offsetTop + row.offsetTop + row.offsetHeight + 12 + pad;
+    return { full: 0, half: Math.max(0, H - Math.round(window.innerHeight * 0.55)), peek: Math.max(0, H - peek) }[name];
+  }
+  function moveTo(y, animate) {
+    sheet.style.transition = animate ? "" : "none";
+    sheet.style.transform = `translateY(${y}px)`;
+  }
+  function setSnap(name, animate = true) {
+    sheetSnap = name;
+    if (!mobile()) { sheet.style.transform = ""; return; }
+    moveTo(snapY(name), animate);
+  }
+  function release(y, v) {  // v: px/ms, positiv = nach unten
+    const ys = ORDER.map(n => [n, snapY(n)]);
+    let target;
+    if (v > 0.45) target = (ys.filter(([, sy]) => sy > y + 4).sort((a, b) => a[1] - b[1])[0] || ys[2])[0];
+    else if (v < -0.45) target = (ys.filter(([, sy]) => sy < y - 4).sort((a, b) => b[1] - a[1])[0] || ys[0])[0];
+    else target = ys.reduce((a, b) => Math.abs(b[1] - y) < Math.abs(a[1] - y) ? b : a)[0];
+    setSnap(target);
+  }
+  function tracker(y0, base) {
+    let last = y0, lastT = performance.now(), v = 0, y = base;
+    return {
+      move(cy) {
+        const now = performance.now();
+        v = 0.7 * ((cy - last) / Math.max(1, now - lastT)) + 0.3 * v; last = cy; lastT = now;
+        y = Math.min(Math.max(base + (cy - y0), 0), snapY("peek"));
+        moveTo(y, false);
+        return y;
+      },
+      end() { release(y, performance.now() - lastT > 120 ? 0 : v); }
+    };
+  }
+  // Ziehen am Kopfbereich (Griff, Suchzeile, Leerräume)
+  let hd = null;
+  head.addEventListener("pointerdown", e => {
+    if (!mobile() || e.button > 0 || e.target.closest("button, input, #chips, #chips2")) return;
+    hd = { y0: e.clientY, moved: false, t: tracker(e.clientY, snapY(sheetSnap)) };
+    head.setPointerCapture(e.pointerId);
+  });
+  head.addEventListener("pointermove", e => {
+    if (!hd) return;
+    if (Math.abs(e.clientY - hd.y0) > 6) hd.moved = true;
+    if (hd.moved) hd.t.move(e.clientY);
+  });
+  const headEnd = () => {
+    if (!hd) return;
+    if (hd.moved) hd.t.end(); else setSnap(sheetSnap === "peek" ? "half" : "peek");
+    hd = null;
+  };
+  head.addEventListener("pointerup", headEnd);
+  head.addEventListener("pointercancel", headEnd);
+  // Aus der Liste heraus: oben angekommen nach unten ziehen klappt ein, nach oben wischen in „halb“ öffnet voll
+  let ld = null;
+  listEl.addEventListener("touchstart", e => {
+    if (!mobile()) return;
+    ld = { y0: e.touches[0].clientY, top: listEl.scrollTop <= 0, t: null };
+  }, { passive: true });
+  listEl.addEventListener("touchmove", e => {
+    if (!ld) return;
+    const cy = e.touches[0].clientY, dy = cy - ld.y0;
+    if (!ld.t && sheetSnap !== "full" && dy < -8) { ld.t = tracker(ld.y0, snapY(sheetSnap)); }
+    if (!ld.t && ld.top && listEl.scrollTop <= 0 && dy > 8) { ld.t = tracker(ld.y0, snapY(sheetSnap)); }
+    if (ld.t) { e.preventDefault(); ld.t.move(cy); }
+  }, { passive: false });
+  listEl.addEventListener("touchend", () => { if (ld && ld.t) ld.t.end(); ld = null; });
+  listEl.addEventListener("touchcancel", () => { if (ld && ld.t) ld.t.end(); ld = null; });
+  window.addEventListener("resize", () => setSnap(sheetSnap, false));
+  setSnap("peek", false);
   renderList();
 
   // ---------- Standort
@@ -575,7 +653,7 @@ function startApp(unlockedKey) {
     } catch { return ""; }
   }
   function openAdd(latlng) {
-    dlg.hidden = false; $("#sheet").classList.remove("open");
+    dlg.hidden = false; setSnap("peek");
     $("#addCat").innerHTML = [...new Set([...allCats(), "Eigene"])].map(c => `<option${c === "Eigene" ? " selected" : ""}>${esc(c)}</option>`).join("");
     $("#tokenRow").hidden = !!store.get(TOKEN_KEY);
     $("#addErr").textContent = "";

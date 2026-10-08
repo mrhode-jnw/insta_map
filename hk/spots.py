@@ -43,12 +43,12 @@ def add(name, q, district, cat, posts, note=""):
     S.append(dict(name=name, q=q, district=district, cat=cat, posts=posts, note=note))
 
 # --- Aussichtspunkte ---
-add("Victoria Peak – Lugard Road Lookout 盧吉道觀景台", (22.2769,114.1460), "The Peak", "Aussicht", [6,64,81,29], "Taxi/Tram bis Peak Station, dann Lugard Road; Skyline-Klassiker")
-add("Jardine's Lookout 渣甸山", (22.2672,114.2003), "Hong Kong Island", "Aussicht", [25,28,29], "Blick über Happy Valley & Harbour")
-add("Red Incense Burner Summit 紅香爐峰 (Braemar Hill)", (22.2862,114.2010), "North Point", "Aussicht", [29,72], "Braemar Hill Instagram Spot; Uber bis Braemar Hill Mansions / Chinese International School, ca. 20 Min bergauf; kurz vor Sonnenuntergang")
-add("Suicide Cliff, Kowloon Peak 飛鵝山自殺崖", (22.3357,114.2196), "Kowloon Peak", "Aussicht", [29,71], "Steiler Hike, Panorama über Kowloon")
-add("Lion Rock 獅子山 (Gipfel)", (22.3523,114.1870), "Kowloon", "Aussicht", [29,20], "")
-add("Checkerboard Hill (Lion Rock Drone-Spot)", (22.3300,114.1950), "Kowloon Tong", "Aussicht", [20], "Drone")
+add("Victoria Peak – Lugard Road Lookout 盧吉道觀景台", (22.27817,114.14681,"OSM"), "The Peak", "Aussicht", [6,64,81,29], "Taxi/Tram bis Peak Station, dann Lugard Road; Skyline-Klassiker")
+add("Jardine's Lookout 渣甸山", (22.26636,114.19833,"OSM"), "Hong Kong Island", "Aussicht", [25,28,29], "Blick über Happy Valley & Harbour")
+add("Red Incense Burner Summit 紅香爐峰 (Braemar Hill)", (22.28225,114.19699,"OSM"), "North Point", "Aussicht", [29,72], "Braemar Hill Instagram Spot; Uber bis Braemar Hill Mansions / Chinese International School, ca. 20 Min bergauf; kurz vor Sonnenuntergang")
+add("Suicide Cliff, Kowloon Peak 飛鵝山自殺崖", (22.33834,114.22307,"OSM"), "Kowloon Peak", "Aussicht", [29,71], "Steiler Hike, Panorama über Kowloon")
+add("Lion Rock 獅子山 (Gipfel)", (22.35301,114.18717,"OSM"), "Kowloon", "Aussicht", [29,20], "")
+add("Checkerboard Hill (Lion Rock Drone-Spot)", (22.33569,114.18428,"OSM"), "Kowloon Tong", "Aussicht", [20], "Drone")
 add("Victoria Harbour (Neon + Regen + Nacht)", (22.2905,114.1700), "Harbour", "Aussicht", [49], "")
 
 # --- Central / Sheung Wan / Mid-levels / Sai Ying Pun / Kennedy Town ---
@@ -87,16 +87,16 @@ add("Hill Road Flyover 山道天橋", "Hill Road, Shek Tong Tsui, Hong Kong", "S
 add("Tung Hing Mansion 東興樓", "Tung Hing Mansion, Kennedy Town, Hong Kong", "Kennedy Town", "Architektur", [26], "")
 
 # --- Hong Kong Island Ost ---
-add("Monster Building / Yick Cheong Building 怪獸大廈", (22.2854,114.2111), "Quarry Bay", "Architektur", [17,18,25,38,52,57,78], "Tai Koo Station; Koordinaten aus Caption 22°17'07.5\"N 114°12'39.9\"E")
+add("Monster Building / Yick Cheong Building 怪獸大廈", (22.28403,114.21233,"OSM"), "Quarry Bay", "Architektur", [17,18,25,38,52,57,78], "Tai Koo Station; Koordinaten aus Caption 22°17'07.5\"N 114°12'39.9\"E")
 add("Oceanic Building 海景樓 (Monster Building, Tram-Seite)", "Oceanic Mansion, King's Road, Quarry Bay, Hong Kong", "Quarry Bay", "Tram", [28,52], "")
 add("Swiss House, Quarry Bay (abgerissen)", "Quarry Bay, Hong Kong", "Quarry Bay", "Architektur", [75], "abgerissen – nur Archiv")
 add("King's Road 英皇道", (22.2900,114.1990), "North Point", "Tram", [52], "")
-add("North Point Road Tram Station 北角道電車站", (22.2922,114.1975), "North Point", "Tram", [52], "")
+add("North Point Road Tram Station 北角道電車站", (22.29055,114.19712,"OSM"), "North Point", "Tram", [52], "")
 add("Chun Yeung Street Market 春秧街街市", "Chun Yeung Street, North Point, Hong Kong", "North Point", "Markt", [25,28,52], "Tram fährt durch den Markt")
 add("North Point Fire Station 北角消防局 + Sunbeam Theatre", (22.2910,114.1958), "North Point", "Architektur", [60,70], "Rot als Farbthema")
 add("Southern Building, North Point", "Southern Building, North Point, Hong Kong", "North Point", "Architektur", [24], "Orange")
-add("Majestic Apartments, North Point", (22.2905,114.1985), "North Point", "Architektur", [27], "bunte Wand")
-add("East Coast Boardwalk (Lion Rock view)", (22.2918,114.1932), "Fortress Hill", "Aussicht", [20], "")
+add("Majestic Apartments, North Point", (22.2905,114.19612,"OSM"), "North Point", "Architektur", [27], "bunte Wand")
+add("East Coast Boardwalk (Lion Rock view)", (22.2933,114.19674,"OSM"), "Fortress Hill", "Aussicht", [20], "")
 add("Percival Street 波斯富街", "Percival Street, Causeway Bay, Hong Kong", "Causeway Bay", "Tram", [17,52], "")
 add("Wong Nai Chung Road 黃泥涌道", "Wong Nai Chung Road, Happy Valley, Hong Kong", "Happy Valley", "Tram", [52,60], "")
 add("Lai Tak Estate 勵德邨", "Lai Tak Tsuen, Tai Hang, Hong Kong", "Tai Hang", "Architektur", [60], "runde Wohnblöcke")
@@ -120,7 +120,7 @@ add("Saigon Street 西貢街", "Saigon Street, Jordan, Hong Kong", "Jordan", "St
 add("Austin Road, Jordan", "Austin Road, Jordan, Hong Kong", "Jordan", "Street", [24], "Orange")
 add("United Mansion, Jordan", "United Mansion, Jordan, Hong Kong", "Jordan", "Architektur", [24], "")
 add("Mirador Mansion 美麗都大廈", "Mirador Mansion, Nathan Road, Tsim Sha Tsui, Hong Kong", "Tsim Sha Tsui", "Architektur", [17,18], "")
-add("Carnival Mansion, Tsim Sha Tsui", (22.2985,114.1725), "Tsim Sha Tsui", "Architektur", [18], "")
+add("Carnival Mansion, Tsim Sha Tsui", (22.30241,114.17509,"OSM"), "Tsim Sha Tsui", "Architektur", [18], "")
 add("K11 Musea", "K11 Musea, Salisbury Road, Tsim Sha Tsui, Hong Kong", "Tsim Sha Tsui", "Architektur", [24], "")
 add("China Hong Kong City 中港城", "China Hong Kong City, Canton Road, Tsim Sha Tsui, Hong Kong", "Tsim Sha Tsui", "Architektur", [24], "Orange")
 add("Ming Fat Mansion, Prince Edward", "Ming Fat Mansion, Prince Edward, Hong Kong", "Prince Edward", "Architektur", [75], "Eckhaus")
@@ -135,7 +135,7 @@ add("Central Restaurant, Sham Shui Po", "Sham Shui Po, Hong Kong", "Sham Shui Po
 add("Tung Lo Court 東廬大廈", "Tung Lo Court, Sham Shui Po, Hong Kong", "Sham Shui Po", "Architektur", [25,28,75], "")
 add("Dragon Centre 西九龍中心", "Dragon Centre, Yen Chow Street, Sham Shui Po, Hong Kong", "Sham Shui Po", "Architektur", [25,28], "")
 add("Mia Casa Apartment, 14 Nam Cheong Street", "14 Nam Cheong Street, Sham Shui Po, Hong Kong", "Sham Shui Po", "Architektur", [24,75], "Orange, Eckhaus")
-add("Wing Wah Building, Sham Shui Po", (22.3300,114.1625), "Sham Shui Po", "Architektur", [27], "bunte Wand")
+add("Wing Wah Building, Sham Shui Po", (22.32997,114.16503,"OSM"), "Sham Shui Po", "Architektur", [27], "bunte Wand")
 add("Pak Far Building, Sham Shui Po", "Pak Far Building, Sham Shui Po, Hong Kong", "Sham Shui Po", "Architektur", [75], "Eckhaus")
 add("170 Yee Kuk Street 醫局街", "170 Yee Kuk Street, Sham Shui Po, Hong Kong", "Sham Shui Po", "Street", [35], "")
 add("130-132 Ki Lung Street 基隆街", "132 Ki Lung Street, Sham Shui Po, Hong Kong", "Sham Shui Po", "Street", [35,75], "")
@@ -148,7 +148,7 @@ add("Peony House West Block 牡丹樓", "Peony House, Tai Kok Tsui, Hong Kong", 
 # --- To Kwa Wan / Hung Hom / Kowloon City / Ost-Kowloon ---
 add("To Kwa Wan Road – Apartment Complex", "To Kwa Wan Road, Hong Kong", "To Kwa Wan", "Architektur", [19,24], "")
 add("Lucky Building 吉祥樓", "Lucky Building, To Kwa Wan, Hong Kong", "To Kwa Wan", "Architektur", [19,27,60], "bunte Wand")
-add("I Feng Mansion 益豐大廈", (22.3190,114.1885), "To Kwa Wan", "Architektur", [19], "")
+add("I Feng Mansion 益豐大廈", (22.31533,114.18941,"OSM"), "To Kwa Wan", "Architektur", [19], "")
 add("Mei King Street 美景街", "Mei King Street, To Kwa Wan, Hong Kong", "To Kwa Wan", "Street", [19], "")
 add("Ma Tau Wai Estate 馬頭圍邨 (+ Lion Rock)", "Ma Tau Wai Estate, Hong Kong", "To Kwa Wan", "Architektur", [19], "")
 add("Kowloon City Road 九龍城道", "Kowloon City Road, To Kwa Wan, Hong Kong", "To Kwa Wan", "Street", [19], "")
@@ -171,9 +171,9 @@ add("Kam Hong Street / Shu Kuk Street (Lion Rock view)", "Kam Hong Street, North
 add("Kowloon Walled City Park 九龍寨城公園", "Kowloon Walled City Park, Hong Kong", "Kowloon City", "Street", [41,51,68], "historisch; llittlepig 'The walled city'; Greg Girard Archiv")
 
 # --- New Territories / Lantau / Outlying ---
-add("Tai O Fishing Village 大澳", (22.2536,113.8617), "Lantau", "Dorf", [16,21,62], "Ältestes Fischerdorf, Stelzenhäuser")
+add("Tai O Fishing Village 大澳", (22.25415,113.86362,"OSM"), "Lantau", "Dorf", [16,21,62], "Ältestes Fischerdorf, Stelzenhäuser")
 add("Lei Yue Mun Fishing Village 鯉魚門", (22.2893,114.2380), "Lei Yue Mun", "Dorf", [21], "")
-add("Wonderland Villas 華景山莊", (22.3572,114.1255), "Kwai Chung", "Architektur", [77], "Wohnwand auf dem Berg")
+add("Wonderland Villas 華景山莊", (22.35362,114.13563,"OSM"), "Kwai Chung", "Architektur", [77], "Wohnwand auf dem Berg")
 add("Hoi On Road Noise Barrier 海安路隔音屏障", "Hoi On Road, Tsuen Wan, Hong Kong", "Tsuen Wan", "Architektur", [24,60], "Orange")
 add("Ping Shan 屏山 (Lion Rock view)", (22.3292,114.2158), "Ngau Tau Kok", "Aussicht", [20], "")
 add("Tuen Mun – Cha Chaan Teng & Strand", "Tuen Mun, Hong Kong", "Tuen Mun", "Food", [56], "25 Min Taxi von Central zum Strand")
