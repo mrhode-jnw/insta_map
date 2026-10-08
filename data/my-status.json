@@ -160,5 +160,8 @@
  },
  "hk-20-nullah-road-pre-war-shophouses": {
   "prio": "gering"
+ },
+ "hk-alhambra-building-yau-ma-tei": {
+  "prio": "hoch"
  }
 }
