@@ -68,7 +68,7 @@
       border-radius: 16px; transform: none; }
     #sheet .grip { display: none; }
     #locate { bottom: 28px; }
-  }
+    }
 
   /* Popup */
   .leaflet-popup-content-wrapper { border-radius: 14px; padding: 0; overflow: hidden; }
@@ -98,12 +98,32 @@
     box-shadow: 0 0 0 0 rgba(37,99,235,.5); animation: pulse 2s infinite; }
   @keyframes pulse { 70% { box-shadow: 0 0 0 14px rgba(37,99,235,0); } 100% { box-shadow: 0 0 0 0 rgba(37,99,235,0); } }
 
+  #gate { position: fixed; inset: 0; z-index: 2000; background: var(--bg); display: grid; place-items: center; padding: 16px; }
+  #gate[hidden] { display: none; }
+  #gateForm { width: min(320px, 100%); display: flex; flex-direction: column; gap: 10px; text-align: center; }
+  #gateForm h1 { margin: 0; font-size: 22px; }
+  #gateForm p { margin: 0 0 6px; color: var(--muted); }
+  #gateForm input[type=password] { padding: 12px; border-radius: 10px; border: 1px solid var(--line); background: transparent;
+    color: var(--fg); font-size: 18px; text-align: center; }
+  #gateForm label { font-size: 13px; color: var(--muted); }
+  #gateForm button { padding: 12px; border: 0; border-radius: 10px; background: var(--accent); color: #fff; font-size: 16px; }
+  #gateErr { color: #dc2626; min-height: 1.2em; font-size: 14px; }
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
 </style>
 </head>
 <body>
+<div id="gate" hidden>
+  <form id="gateForm">
+    <h1>Insta Map</h1>
+    <p>Bitte Zugangscode eingeben</p>
+    <input id="gateCode" type="password" inputmode="text" autocomplete="current-password" autofocus required>
+    <label><input id="gateRemember" type="checkbox" checked> auf diesem Gerät merken</label>
+    <button type="submit">Öffnen</button>
+    <div id="gateErr"></div>
+  </form>
+</div>
 <div id="map"></div>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
 
@@ -122,18 +142,45 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+<script src="config.js"></script>
 <script src="data/places.js"></script>
+<script src="crypto.js"></script>
 <script>
-(() => {
+function startApp(unlockedKey) {
   const places = (window.PLACES || []).filter(p => isFinite(p.lat) && isFinite(p.lng));
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-  const map = L.map("map", { zoomControl: false, tap: true }).setView([22.3, 114.17], 12);
+  const map = L.map("map", { zoomControl: false, tap: true, maxZoom: 21 }).setView([22.3, 114.17], 12);
   L.control.zoom({ position: "topright" }).addTo(map);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-  }).addTo(map);
+  const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 21, maxNativeZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  });
+
+  // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
+  const gKey = (unlockedKey || "").trim();
+  const loadScript = src => new Promise((ok, fail) => {
+    const el = document.createElement("script"); el.src = src; el.onload = ok; el.onerror = fail; document.head.appendChild(el);
+  });
+  if (gKey) {
+    window.gm_authFailure = () => {
+      toast("Google-Maps-Key ungültig oder nicht freigegeben – zeige OpenStreetMap.", 6000);
+      Object.values(layers).forEach(l => map.removeLayer(l)); osm.addTo(map);
+    };
+    const layers = {};
+    loadScript(`https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(gKey)}&v=weekly&language=de`)
+      .then(() => loadScript("https://cdn.jsdelivr.net/npm/leaflet.gridlayer.googlemutant@0.16.0/dist/Leaflet.GoogleMutant.js"))
+      .then(() => {
+        layers["Google Karte"] = L.gridLayer.googleMutant({ type: "roadmap", maxZoom: 21 });
+        layers["Google Satellit"] = L.gridLayer.googleMutant({ type: "hybrid", maxZoom: 21 });
+        layers["OpenStreetMap"] = osm;
+        layers["Google Karte"].addTo(map);
+        L.control.layers(layers, null, { position: "topright" }).addTo(map);
+      })
+      .catch(() => { toast("Google Maps konnte nicht geladen werden – zeige OpenStreetMap.", 5000); osm.addTo(map); });
+  } else {
+    osm.addTo(map);
+  }
 
   // ---------- Marker
   const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45 });
@@ -215,7 +262,7 @@
     const mid = arr => arr.slice().sort((a, b) => a - b)[arr.length >> 1];
     const c = { lat: mid(places.map(p => p.lat)), lng: mid(places.map(p => p.lng)) };
     const near = places.filter(p => dist(c, p) < 100e3);
-    map.fitBounds(L.latLngBounds(near.map(p => [p.lat, p.lng])), { padding: [40, 40] });
+    map.fitBounds(L.latLngBounds(near.map(p => [p.lat, p.lng])), { padding: [40, 40], animate: false });
   }
 
   // ---------- Liste
@@ -263,7 +310,8 @@
       meMarker = L.marker(ll, { icon: L.divIcon({ className: "", html: '<div class="me-dot"></div>', iconSize: [18, 18], iconAnchor: [9, 9] }),
         zIndexOffset: 1000, interactive: false }).addTo(map);
     } else { meMarker.setLatLng(ll); meCircle.setLatLng(ll).setRadius(pos.coords.accuracy); }
-    if (first || follow) map.setView(ll, first ? Math.max(map.getZoom(), 15) : map.getZoom());
+    if (first) map.setView(ll, Math.max(map.getZoom(), 15));
+    else if (follow) map.panTo(ll);
     if (Date.now() - lastListUpdate > 5000) { lastListUpdate = Date.now(); renderList(); }
   }
   function onErr(err) {
@@ -290,6 +338,34 @@
   // Standort automatisch starten, wenn die Berechtigung bereits erteilt ist
   if (navigator.permissions) navigator.permissions.query({ name: "geolocation" })
     .then(s => { if (s.state === "granted") startWatch(); }).catch(() => {});
+}
+
+// ---------- Zugangscode: entschlüsselt den Google-Maps-Key; ohne Code startet die Karte nicht
+(async () => {
+  const enc = (window.GOOGLE_MAPS_KEY_ENC || "").trim();
+  if (!enc) return startApp(null);
+  const STORE = "mapCode";
+  const get = () => { try { return localStorage.getItem(STORE); } catch { return null; } };
+  const set = v => { try { v ? localStorage.setItem(STORE, v) : localStorage.removeItem(STORE); } catch {} };
+  const tryCode = async code => { try { return await InstaMapCrypto.decrypt(enc, code); } catch { return null; } };
+
+  const saved = get();
+  if (saved) { const key = await tryCode(saved); if (key) return startApp(key); set(null); }
+
+  const gate = document.getElementById("gate");
+  gate.hidden = false;
+  document.getElementById("gateCode").focus();
+  document.getElementById("gateForm").addEventListener("submit", async e => {
+    e.preventDefault();
+    const code = document.getElementById("gateCode").value;
+    const err = document.getElementById("gateErr");
+    err.textContent = "…";
+    const key = await tryCode(code);
+    if (!key) { err.textContent = "Falscher Code"; return; }
+    if (document.getElementById("gateRemember").checked) set(code);
+    gate.hidden = true;
+    startApp(key);
+  });
 })();
 </script>
 </body>
