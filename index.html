@@ -108,6 +108,59 @@
   #gateForm label { font-size: 13px; color: var(--muted); }
   #gateForm button { padding: 12px; border: 0; border-radius: 10px; background: var(--accent); color: #fff; font-size: 16px; }
   #gateErr { color: #dc2626; min-height: 1.2em; font-size: 14px; }
+  #add { bottom: calc(env(safe-area-inset-bottom) + 152px); background: var(--accent); color: #fff; font-size: 28px; }
+  .pin.mine { background: #f59e0b; display: grid; place-items: center; font-size: 16px; }
+  #addDlg { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1500; background: var(--bg); color: var(--fg);
+    border-radius: 16px 16px 0 0; box-shadow: var(--shadow); max-height: 62vh; overflow-y: auto;
+    padding: 14px 16px calc(env(safe-area-inset-bottom) + 14px); }
+  #addDlg[hidden] { display: none; }
+  #addDlg h2 { margin: 0 0 8px; font-size: 18px; }
+  #addDlg form { display: flex; flex-direction: column; gap: 8px; }
+  #addDlg input, #addDlg select, #addDlg textarea { width: 100%; padding: 9px 11px; border-radius: 10px; border: 1px solid var(--line);
+    background: transparent; color: var(--fg); font: inherit; font-size: 16px; }
+  #addDlg textarea { min-height: 60px; resize: vertical; }
+  #addDlg .row { display: flex; gap: 6px; }
+  #addDlg button { padding: 9px 14px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 15px; }
+  #addDlg button.primary { background: var(--accent); border-color: var(--accent); color: #fff; flex: 1; }
+  #addResults { list-style: none; margin: 0; padding: 0; }
+  #addResults li { padding: 7px 4px; border-bottom: 1px solid var(--line); font-size: 14px; cursor: pointer; }
+  #addPos { font-size: 13px; color: var(--muted); }
+  #addErr { color: #dc2626; font-size: 14px; min-height: 1em; }
+  #addDlg small { color: var(--muted); }
+  #addDlg small a { color: var(--accent); }
+  .pop .links button.del { flex: 1; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #fee2e2; color: #991b1b; }
+  @media (min-width: 800px) { #addDlg { left: auto; right: 14px; bottom: 14px; width: 380px; border-radius: 16px; } #add { bottom: 140px; } }
+  .pin.p-hoch { border-color: #dc2626; } .pin.p-mittel { border-color: #f59e0b; } .pin.p-gering { border-color: #9ca3af; }
+  .pin.done { filter: grayscale(.8); opacity: .8; position: relative; }
+  .pin.done::after { content: "✓"; position: absolute; right: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
+    background: #16a34a; color: #fff; font-size: 11px; line-height: 16px; text-align: center; }
+  .prio-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; vertical-align: 1px; }
+  .prio-dot.hoch { background: #dc2626; } .prio-dot.mittel { background: #f59e0b; } .prio-dot.gering { background: #9ca3af; }
+  .done-badge { color: #16a34a; font-weight: 600; }
+  #view { display: flex; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; flex: none; }
+  #view button { border: 0; background: transparent; color: var(--fg); padding: 7px 10px; font-size: 16px; cursor: pointer; }
+  #view button.on { background: var(--fg); color: var(--bg); }
+  #chips2 { display: flex; gap: 6px; overflow-x: auto; padding-top: 6px; scrollbar-width: none; }
+  #chips2 button { flex: none; border: 1px solid var(--line); background: transparent; color: var(--fg);
+    border-radius: 999px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
+  #chips2 button.on { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+  #list.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; padding: 6px 8px 10px; }
+  @media (min-width: 800px) { #list.grid { grid-template-columns: repeat(2, 1fr); } }
+  #list.grid li.gi { display: block; position: relative; padding: 0; border: 0; aspect-ratio: 1; border-radius: 10px; overflow: hidden; background: var(--line); }
+  #list.grid li.gi img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
+  #list.grid li.gi .cap2 { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 8px 6px; color: #fff; font-size: 13px; font-weight: 600;
+    background: linear-gradient(transparent, rgba(0,0,0,.75)); line-height: 1.25; }
+  #list.grid li.gi .cap2 small { display: block; font-weight: 400; opacity: .85; }
+  #list.grid li.gi .badge { position: absolute; top: 6px; left: 6px; display: flex; gap: 4px; }
+  #list.grid li.gi .badge span { background: rgba(0,0,0,.6); color: #fff; border-radius: 999px; padding: 1px 7px; font-size: 11px; }
+  #list.grid li.gi.done img { filter: grayscale(.6); }
+  #list.grid #empty { grid-column: 1 / -1; }
+  .pop .status { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; margin: 4px 0 8px; }
+  .pop .status button { border: 1px solid #d1d5db; background: #fff; color: #111827; border-radius: 999px; padding: 3px 9px; font-size: 12px; cursor: pointer; }
+  .pop .status button.on[data-prio="hoch"] { background: #dc2626; border-color: #dc2626; color: #fff; }
+  .pop .status button.on[data-prio="mittel"] { background: #f59e0b; border-color: #f59e0b; color: #fff; }
+  .pop .status button.on[data-prio="gering"] { background: #6b7280; border-color: #6b7280; color: #fff; }
+  .pop .status label { font-size: 12.5px; margin-left: auto; display: flex; gap: 4px; align-items: center; color: #111827; }
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
@@ -126,6 +179,27 @@
 </div>
 <div id="map"></div>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
+<button id="add" class="fab" title="Spot hinzufügen" aria-label="Spot hinzufügen">+</button>
+<div id="addDlg" hidden>
+  <form id="addForm" autocomplete="off">
+    <h2>Neuer Spot</h2>
+    <div class="row"><input id="addSearch" type="search" placeholder="Ort oder Adresse suchen"><button type="button" id="addSearchBtn">Suchen</button></div>
+    <ul id="addResults"></ul>
+    <div id="addPos">Ort suchen oder lange auf die Karte tippen.</div>
+    <input id="addName" placeholder="Name des Spots" required>
+    <select id="addCat"></select>
+    <textarea id="addNote" placeholder="Notiz (optional)"></textarea>
+    <input id="addLink" type="url" placeholder="Instagram-Link (optional)">
+    <div id="tokenRow" hidden>
+      <input id="addToken" type="password" placeholder="GitHub-Token (einmalig)">
+      <small>Fine-grained Token mit <b>Contents: Read and write</b> nur für <i>insta_map</i> –
+        <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">hier erstellen</a>.
+        Wird nur auf diesem Gerät gespeichert.</small>
+    </div>
+    <div class="row"><button type="button" id="addCancel">Abbrechen</button><button type="submit" class="primary" id="addSave">Speichern</button></div>
+    <div id="addErr"></div>
+  </form>
+</div>
 
 <section id="sheet">
   <header id="sheetHead">
@@ -133,8 +207,16 @@
     <div class="row">
       <input id="search" type="search" placeholder="Orte durchsuchen …" autocomplete="off">
       <span id="count"></span>
+      <div id="view"><button data-v="list" class="on" title="Liste" aria-label="Liste">☰</button><button data-v="grid" title="Bilder" aria-label="Bilder">▦</button></div>
     </div>
     <div id="chips"></div>
+    <div id="chips2">
+      <button data-f="hoch"><span class="prio-dot hoch"></span>Hoch</button>
+      <button data-f="mittel"><span class="prio-dot mittel"></span>Mittel</button>
+      <button data-f="gering"><span class="prio-dot gering"></span>Gering</button>
+      <button data-f="open">Noch offen</button>
+      <button data-f="done">✓ Fotografiert</button>
+    </div>
   </header>
   <ul id="list"></ul>
 </section>
@@ -151,7 +233,7 @@ function startApp(unlockedKey) {
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-  const map = L.map("map", { zoomControl: false, tap: true, maxZoom: 21 }).setView([22.3, 114.17], 12);
+  const map = L.map("map", { zoomControl: false, tap: true, tapHold: true, maxZoom: 21 }).setView([22.3, 114.17], 12);
   L.control.zoom({ position: "topright" }).addTo(map);
   const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 21, maxNativeZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -186,6 +268,10 @@ function startApp(unlockedKey) {
   const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45 });
   const markers = new Map();
   let me = null;
+  let status = {};  // id -> { prio: "hoch"|"mittel"|"gering", done: true } – aus data/my-status.json
+  const st = id => status[id] || {};
+  const PRIOS = ["hoch", "mittel", "gering"];
+  const PRIO_LABEL = { hoch: "Hoch", mittel: "Mittel", gering: "Gering" };
 
   const dist = (a, b) => {
     const R = 6371e3, r = Math.PI / 180;
@@ -209,7 +295,11 @@ function startApp(unlockedKey) {
       ${hero && p.image ? `<a href="${esc(p.post_url)}" target="_blank" rel="noopener"><img src="${esc(p.image)}" alt="" loading="lazy"></a>` : ""}
       <div class="b">
         <h3>${esc(p.name)}</h3>
-        ${p.category ? `<div class="meta">${esc(p.category)} · ${esc(p.district)}</div>` : ""}
+        <div class="status" data-id="${esc(p.id)}">
+          ${PRIOS.map(k => `<button data-prio="${k}" class="${st(p.id).prio === k ? "on" : ""}">${PRIO_LABEL[k]}</button>`).join("")}
+          <label><input type="checkbox" data-done ${st(p.id).done ? "checked" : ""}> Fotografiert</label>
+        </div>
+        ${p.category ? `<div class="meta">${esc([p.mine ? "★ Eigener Spot" : "", p.category, p.district].filter(Boolean).join(" · "))}</div>` : ""}
         ${p.approx ? `<div class="approx">Pin ungefähr</div>` : ""}
         ${d}
         ${p.note ? `<div class="note">${esc(p.note)}</div>` : ""}
@@ -217,41 +307,69 @@ function startApp(unlockedKey) {
         <div class="addr">${esc(p.address)}<br><small>${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}</small></div>
         ${hero && p.caption ? `<div class="cap">${esc(p.caption)}</div>` : ""}
         <div class="links">
-          ${hero ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Post</a>
+          ${hero && p.post_url ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Post</a>
           ${p.profile_url ? `<a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>` : ""}` : ""}
           <a href="${nav}" target="_blank" rel="noopener">Route</a>
+          ${p.mine ? `<button class="del" data-del="${esc(p.id)}">Löschen</button>` : ""}
         </div>
       </div></div>`;
   }
 
-  places.forEach(p => {
-    const icon = L.divIcon({
+  function iconFor(p) {
+    const s = st(p.id), cls = ["pin", p.mine && !p.image ? "mine" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : ""].join(" ");
+    return L.divIcon({
       className: "", iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -14],
-      html: `<div class="pin" style="${p.image ? `background-image:url('${esc(p.image)}')` : ""}"></div>`
+      html: p.mine && !p.image ? `<div class="${cls}">★</div>`
+        : `<div class="${cls}" style="${p.image ? `background-image:url('${esc(p.image)}')` : ""}"></div>`
     });
-    const m = L.marker([p.lat, p.lng], { icon, title: p.name });
+  }
+  function addMarker(p) {
+    const m = L.marker([p.lat, p.lng], { icon: iconFor(p), title: p.name });
     m.bindPopup(() => popupHtml(p), { maxWidth: 260, autoPanPaddingTopLeft: [10, 60] });
     markers.set(p.id, m);
-  });
+  }
+  places.forEach(addMarker);
   map.addLayer(cluster);
 
   // ---------- Filter (Suche + Kategorie)
-  const cats = [...new Set(places.map(p => p.category).filter(Boolean))].sort();
-  let cat = null;
-  if (cats.length > 1) {
-    $("#chips").innerHTML = ["Alle", ...cats].map((c, i) => `<button class="${i ? "" : "on"}" data-cat="${i ? esc(c) : ""}">${esc(c)}</button>`).join("");
-    $("#chips").addEventListener("click", e => {
-      const b = e.target.closest("button"); if (!b) return;
-      cat = b.dataset.cat || null;
-      $("#chips").querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b));
-      renderList();
-    });
+  let cat = null, doneF = null, view = "list";
+  const prioF = new Set();
+  $("#chips2").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    const f = b.dataset.f;
+    if (PRIOS.includes(f)) prioF.has(f) ? prioF.delete(f) : prioF.add(f);
+    else doneF = doneF === f ? null : f;
+    $("#chips2").querySelectorAll("button").forEach(x => x.classList.toggle("on",
+      prioF.has(x.dataset.f) || doneF === x.dataset.f));
+    renderList();
+  });
+  try { view = localStorage.getItem("view") || "list"; } catch {}
+  $("#view").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    view = b.dataset.v; try { localStorage.setItem("view", view); } catch {}
+    renderList();
+    if (view === "grid") $("#sheet").classList.add("open");
+  });
+  const allCats = () => [...new Set(places.map(p => p.category).filter(Boolean))].sort();
+  function renderChips() {
+    const cats = allCats();
+    if (places.some(p => p.mine)) cats.unshift("★ Meine");
+    $("#chips").innerHTML = cats.length > 1 ? ["Alle", ...cats].map((c, i) =>
+      `<button class="${(i ? c === cat : !cat) ? "on" : ""}" data-cat="${i ? esc(c) : ""}">${esc(c)}</button>`).join("") : "";
   }
+  $("#chips").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    cat = b.dataset.cat || null;
+    renderChips(); renderList();
+  });
+  renderChips();
   const matches = p => {
     const q = $("#search").value.trim().toLowerCase();
     const hay = [p.name, p.address, p.district, p.category, p.note, p.caption, p.username,
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
-    return (!cat || p.category === cat) && (!q || hay.includes(q));
+    const s = st(p.id);
+    return (!cat || p.category === cat || (cat === "★ Meine" && p.mine)) && (!q || hay.includes(q))
+      && (!prioF.size || prioF.has(s.prio)) && (!doneF || (doneF === "done" ? s.done : !s.done));
   };
   function syncMarkers(items) {
     cluster.clearLayers();
@@ -267,20 +385,36 @@ function startApp(unlockedKey) {
 
   // ---------- Liste
   const unplaced = window.UNPLACED_POSTS || [];
+  const prioRank = p => ({ hoch: 0, mittel: 1, gering: 2 })[st(p.id).prio] ?? 3;
   function renderList() {
     let items = places.filter(matches);
     syncMarkers(items);
-    if (me) items = items.map(p => ({ ...p, _d: dist(me, p) })).sort((a, b) => a._d - b._d);
+    items = items.map(p => ({ ...p, _d: me ? dist(me, p) : 0 }))
+      .sort((a, b) => me ? a._d - b._d : prioRank(a) - prioRank(b));
     $("#count").textContent = `${items.length} Orte`;
-    const extra = unplaced.length && !cat && !$("#search").value.trim() ? `
+    $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === view));
+    $("#list").classList.toggle("grid", view === "grid");
+    const filtered = cat || prioF.size || doneF || $("#search").value.trim();
+    const badges = p => { const s = st(p.id);
+      return `${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
+    if (view === "grid") {
+      $("#list").innerHTML = items.length ? items.map(p => { const s = st(p.id); return `
+        <li class="gi${s.done ? " done" : ""}" data-id="${esc(p.id)}">
+          ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}
+          <div class="badge">${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
+          <div class="cap2">${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, me ? fmt(p._d) : ""].filter(Boolean).join(" · "))}</small></div>
+        </li>`; }).join("") : `<li id="empty">Keine Treffer.</li>`;
+      return;
+    }
+    const extra = unplaced.length && !filtered ? `
       <li class="sec">Ohne konkreten Ort <small>(${unplaced.length} Posts – Inspiration)</small></li>
       <li class="sec" style="padding:0;border:0"><div class="grid">${unplaced.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
         ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>@${esc(x.username)}</span></a>`).join("")}</div></li>` : "";
     $("#list").innerHTML = (items.length ? items.map(p => `
       <li data-id="${esc(p.id)}">
-        ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg"></div>`}
-        <div style="min-width:0"><div class="t">${esc(p.name)}</div>
-          ${p.category ? `<div class="tag">${esc(p.category)} · ${esc(p.district)}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
+        ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : ""}</div>`}
+        <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
+          ${p.category ? `<div class="tag">${p.mine ? "★ " : ""}${esc([p.category, p.district].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
         ${me ? `<div class="d">${fmt(p._d)}</div>` : ""}
       </li>`).join("")
       : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`) + extra;
@@ -338,6 +472,225 @@ function startApp(unlockedKey) {
   // Standort automatisch starten, wenn die Berechtigung bereits erteilt ist
   if (navigator.permissions) navigator.permissions.query({ name: "geolocation" })
     .then(s => { if (s.state === "granted") startWatch(); }).catch(() => {});
+
+  // ---------- Eigene Spots: gespeichert in data/my-spots.json im GitHub-Repo
+  const GH = { repo: "mrhode-jnw/insta_map", branch: "claude/sweet-mayer-wqdght", path: "data/my-spots.json" };
+  const TOKEN_KEY = "ghToken";
+  const store = { get: k => { try { return localStorage.getItem(k); } catch { return null; } },
+                  set: (k, v) => { try { v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch {} } };
+  const b64enc = str => btoa(unescape(encodeURIComponent(str)));
+  const b64dec = b64 => decodeURIComponent(escape(atob(b64.replace(/\s/g, ""))));
+  const ghUrl = path => `https://api.github.com/repos/${GH.repo}/contents/${path}`;
+
+  function toPlace(s) {
+    const m = (s.link || "").match(/instagram\.com\/([A-Za-z0-9_.]+)\/(?:p|reel|tv)\//);
+    return { ...s, mine: true, district: s.district || "", address: s.address || "",
+      post_url: s.link || "", username: m ? m[1] : "", profile_url: m ? `https://www.instagram.com/${m[1]}/` : "" };
+  }
+  function showMine(list) {
+    for (let i = places.length - 1; i >= 0; i--) if (places[i].mine) { markers.delete(places[i].id); places.splice(i, 1); }
+    list.forEach(s => { const p = toPlace(s); places.push(p); addMarker(p); });
+    renderChips(); renderList();
+  }
+  async function ghGet(token, path = GH.path, empty = []) {
+    const r = await fetch(`${ghUrl(path)}?ref=${encodeURIComponent(GH.branch)}&t=${Date.now()}`, {
+      headers: { Accept: "application/vnd.github+json", ...(token ? { Authorization: `Bearer ${token}` } : {}) }, cache: "no-store" });
+    if (r.status === 404) return { list: empty, sha: null };
+    if (r.status === 401) throw new Error("GitHub-Token ungültig");
+    if (!r.ok) throw new Error(`GitHub ${r.status}`);
+    const j = await r.json();
+    return { list: JSON.parse(b64dec(j.content) || JSON.stringify(empty)), sha: j.sha };
+  }
+  async function loadMine() {
+    try {
+      const token = store.get(TOKEN_KEY);
+      // mit Token frisch über die API, sonst die veröffentlichte Datei
+      const list = token ? (await ghGet(token)).list
+        : await fetch(`data/my-spots.json?t=${Date.now()}`, { cache: "no-store" }).then(r => r.ok ? r.json() : []);
+      showMine(Array.isArray(list) ? list : []);
+    } catch (e) { console.warn("Eigene Spots:", e); }
+  }
+  // Liste frisch holen, ändern, zurückschreiben (bei Konflikt einmal wiederholen)
+  async function mutate(fn, message, path = GH.path, empty = []) {
+    const token = store.get(TOKEN_KEY);
+    if (!token) throw new Error("Kein GitHub-Token");
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const { list, sha } = await ghGet(token, path, empty);
+      const next = fn(list);
+      const r = await fetch(ghUrl(path), { method: "PUT", headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ message, branch: GH.branch, content: b64enc(JSON.stringify(next, null, 1) + "\n"), ...(sha ? { sha } : {}) }) });
+      if (r.ok) return next;
+      if (r.status === 401 || r.status === 403) throw new Error("GitHub-Token ungültig oder ohne Schreibrecht");
+      if (r.status !== 409 && r.status !== 422) throw new Error(`GitHub ${r.status}`);
+    }
+    throw new Error("Speichern fehlgeschlagen (Konflikt)");
+  }
+
+  // --- Dialog
+  const dlg = $("#addDlg");
+  let draft = null, draftAddr = "";
+  const draftIcon = L.divIcon({ className: "", html: '<div class="pin mine">★</div>', iconSize: [34, 34], iconAnchor: [17, 17] });
+  function setDraft(latlng, label) {
+    if (!draft) {
+      draft = L.marker(latlng, { icon: draftIcon, draggable: true, zIndexOffset: 2000 }).addTo(map);
+      draft.on("dragend", () => setDraft(draft.getLatLng()));
+    } else draft.setLatLng(latlng);
+    const ll = draft.getLatLng();
+    $("#addPos").textContent = `📍 ${label || "Position"} (${ll.lat.toFixed(5)}, ${ll.lng.toFixed(5)}) – Marker verschiebbar`;
+    draftAddr = label || "";
+    if (!label) reverse(ll).then(a => { if (a && draft && draft.getLatLng().equals(ll)) { draftAddr = a;
+      $("#addPos").textContent = `📍 ${a} – Marker verschiebbar`; } });
+  }
+  async function reverse(ll) {
+    try {
+      const r = await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&accept-language=de,en&lat=${ll.lat}&lon=${ll.lng}`);
+      return (await r.json()).display_name || "";
+    } catch { return ""; }
+  }
+  function openAdd(latlng) {
+    dlg.hidden = false; $("#sheet").classList.remove("open");
+    $("#addCat").innerHTML = [...new Set([...allCats(), "Eigene"])].map(c => `<option${c === "Eigene" ? " selected" : ""}>${esc(c)}</option>`).join("");
+    $("#tokenRow").hidden = !!store.get(TOKEN_KEY);
+    $("#addErr").textContent = "";
+    if (latlng) { setDraft(latlng); map.panTo(latlng); }
+  }
+  function closeAdd() {
+    dlg.hidden = true; $("#addForm").reset(); $("#addResults").innerHTML = "";
+    $("#addPos").textContent = "Ort suchen oder lange auf die Karte tippen.";
+    if (draft) { map.removeLayer(draft); draft = null; }
+  }
+  $("#add").addEventListener("click", () => openAdd(me ? null : null));
+  $("#addCancel").addEventListener("click", closeAdd);
+  map.on("contextmenu", e => openAdd(e.latlng));
+  map.on("click", e => { if (!dlg.hidden) setDraft(e.latlng); });
+
+  // Ortssuche: Google Geocoder (falls freigeschaltet), sonst OpenStreetMap/Nominatim
+  async function geocode(q) {
+    if (window.google && google.maps && google.maps.Geocoder) {
+      try {
+        const b = map.getBounds();
+        const res = await new google.maps.Geocoder().geocode({ address: q,
+          bounds: new google.maps.LatLngBounds({ lat: b.getSouth(), lng: b.getWest() }, { lat: b.getNorth(), lng: b.getEast() }) });
+        if (res.results.length) return res.results.slice(0, 5).map(r => ({ label: r.formatted_address,
+          lat: r.geometry.location.lat(), lng: r.geometry.location.lng() }));
+      } catch (e) { /* Geocoding API nicht freigeschaltet → OSM */ }
+    }
+    const b = map.getBounds();
+    const r = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&limit=5&accept-language=de,en&q=${encodeURIComponent(q)}` +
+      `&viewbox=${b.getWest()},${b.getNorth()},${b.getEast()},${b.getSouth()}`);
+    return (await r.json()).map(x => ({ label: x.display_name, lat: +x.lat, lng: +x.lon }));
+  }
+  async function runSearch() {
+    const q = $("#addSearch").value.trim(); if (!q) return;
+    $("#addResults").innerHTML = "<li>Suche …</li>";
+    try {
+      const res = await geocode(q);
+      $("#addResults").innerHTML = res.length ? res.map((x, i) => `<li data-i="${i}">${esc(x.label)}</li>`).join("") : "<li>Nichts gefunden.</li>";
+      $("#addResults").onclick = e => {
+        const li = e.target.closest("li[data-i]"); if (!li) return;
+        const x = res[+li.dataset.i];
+        setDraft(L.latLng(x.lat, x.lng), x.label); map.setView([x.lat, x.lng], Math.max(map.getZoom(), 17));
+        if (!$("#addName").value) $("#addName").value = x.label.split(",")[0];
+        $("#addResults").innerHTML = "";
+      };
+    } catch { $("#addResults").innerHTML = "<li>Suche fehlgeschlagen.</li>"; }
+  }
+  $("#addSearchBtn").addEventListener("click", runSearch);
+  $("#addSearch").addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); runSearch(); } });
+
+  $("#addForm").addEventListener("submit", async e => {
+    e.preventDefault();
+    if (!draft) { $("#addErr").textContent = "Bitte zuerst einen Ort suchen oder auf die Karte tippen."; return; }
+    const tok = $("#addToken").value.trim();
+    if (tok) store.set(TOKEN_KEY, tok);
+    if (!store.get(TOKEN_KEY)) { $("#tokenRow").hidden = false; $("#addErr").textContent = "GitHub-Token fehlt."; return; }
+    const ll = draft.getLatLng();
+    const spot = { id: "my-" + Date.now().toString(36), name: $("#addName").value.trim(), category: $("#addCat").value,
+      note: $("#addNote").value.trim(), link: $("#addLink").value.trim(), address: draftAddr,
+      lat: +ll.lat.toFixed(6), lng: +ll.lng.toFixed(6), created: new Date().toISOString() };
+    $("#addSave").disabled = true; $("#addErr").textContent = "Speichere …";
+    try {
+      const list = await mutate(l => [...l, spot], `Spot hinzugefügt: ${spot.name}`);
+      showMine(list); closeAdd();
+      toast("Spot gespeichert ✓");
+      const m = markers.get(spot.id); if (m) cluster.zoomToShowLayer(m, () => m.openPopup());
+    } catch (err) {
+      $("#addErr").textContent = err.message;
+      if (/Token/.test(err.message)) { store.set(TOKEN_KEY, null); $("#tokenRow").hidden = false; }
+    } finally { $("#addSave").disabled = false; }
+  });
+
+  map.on("popupopen", ev => {
+    const btn = ev.popup.getElement().querySelector("button.del"); if (!btn) return;
+    btn.onclick = async () => {
+      const id = btn.dataset.del, p = places.find(x => x.id === id);
+      if (!confirm(`„${p ? p.name : id}“ löschen?`)) return;
+      if (!store.get(TOKEN_KEY)) { const t = prompt("GitHub-Token zum Löschen:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+      try { showMine(await mutate(l => l.filter(x => x.id !== id), `Spot gelöscht: ${p ? p.name : id}`)); map.closePopup(); toast("Gelöscht"); }
+      catch (err) { toast(err.message, 5000); }
+    };
+  });
+  // ---------- Priorität & „fotografiert“: data/my-status.json im Repo
+  const STATUS_PATH = "data/my-status.json";
+  let pending = {}, saveTimer = null;
+  async function loadStatus() {
+    try {
+      const token = store.get(TOKEN_KEY);
+      const obj = token ? (await ghGet(token, STATUS_PATH, {})).list
+        : await fetch(`${STATUS_PATH}?t=${Date.now()}`, { cache: "no-store" }).then(r => r.ok ? r.json() : {});
+      status = Object.assign(obj && typeof obj === "object" ? obj : {}, pending);
+      refreshAll();
+    } catch (e) { console.warn("Status:", e); }
+  }
+  function refreshAll() {
+    places.forEach(p => { const m = markers.get(p.id); if (m) m.setIcon(iconFor(p)); });
+    renderList();
+  }
+  function setStatus(id, patch) {
+    const next = { ...st(id), ...patch };
+    if (!next.prio) delete next.prio;
+    if (!next.done) delete next.done;
+    if (Object.keys(next).length) status[id] = next; else delete status[id];
+    pending[id] = status[id] || null;
+    const p = places.find(x => x.id === id), m = markers.get(id);
+    if (p && m) m.setIcon(iconFor(p));
+    renderList();
+    if (!store.get(TOKEN_KEY)) {
+      const t = prompt("Zum Speichern im Repo einmalig GitHub-Token eingeben (Contents: Read and write, nur insta_map):");
+      if (!t) { toast("Nicht gespeichert – ohne Token nur bis zum Neuladen sichtbar.", 5000); return; }
+      store.set(TOKEN_KEY, t.trim());
+    }
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(flushStatus, 1500);
+  }
+  async function flushStatus() {
+    const batch = pending; pending = {};
+    if (!Object.keys(batch).length) return;
+    try {
+      await mutate(obj => { const o = { ...obj };
+        for (const [id, v] of Object.entries(batch)) v ? (o[id] = v) : delete o[id];
+        return o; }, `Status aktualisiert (${Object.keys(batch).length} Spot${Object.keys(batch).length > 1 ? "s" : ""})`, STATUS_PATH, {});
+      toast("Gespeichert ✓", 1500);
+    } catch (err) {
+      pending = { ...batch, ...pending };
+      toast(err.message, 5000);
+      if (/Token/.test(err.message)) store.set(TOKEN_KEY, null);
+    }
+  }
+  map.on("popupopen", ev => {
+    const box = ev.popup.getElement().querySelector(".status"); if (!box) return;
+    const id = box.dataset.id;
+    box.querySelectorAll("button[data-prio]").forEach(b => b.onclick = () => {
+      const prio = st(id).prio === b.dataset.prio ? null : b.dataset.prio;
+      setStatus(id, { prio });
+      box.querySelectorAll("button[data-prio]").forEach(x => x.classList.toggle("on", x.dataset.prio === prio));
+    });
+    box.querySelector("input[data-done]").onchange = e => setStatus(id, { done: e.target.checked });
+  });
+  window.addEventListener("pagehide", () => { if (Object.keys(pending).length) flushStatus(); });
+
+  loadMine();
+  loadStatus();
 }
 
 // ---------- Zugangscode: entschlüsselt den Google-Maps-Key; ohne Code startet die Karte nicht

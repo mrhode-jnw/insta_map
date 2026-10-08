@@ -12,6 +12,7 @@ und in images/ bzw. data/cache.json gespeichert.
   python3 tools/build_hk.py
 """
 import json
+import re
 import os
 import sys
 import time
@@ -82,6 +83,12 @@ def spot_post(spot, i):
     return p
 
 
+def spot_id(name):
+    """Stabile ID aus dem Namen (Status in data/my-status.json hängt daran)."""
+    slug = re.sub(r"[^a-z0-9]+", "-", re.sub(r"[^\x00-\x7f]", "", name.lower())).strip("-")
+    return "hk-" + slug[:48]
+
+
 places, used = [], set()
 for n, s in enumerate(S):
     if isinstance(s["q"], tuple):
@@ -96,7 +103,7 @@ for n, s in enumerate(S):
              or next((p for p in ps if p["match"] == "single"), None)
              or next((p for p in ps if p["image"]), ps[0]))
     places.append({
-        "id": f"hk-{n}",
+        "id": spot_id(s["name"]),
         "name": s["name"],
         "district": s["district"],
         "category": s["cat"],
