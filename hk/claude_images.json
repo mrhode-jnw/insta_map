@@ -70,5 +70,21 @@
     "artist": "Prosperity Horizons",
     "license": "CC BY-SA 4.0",
     "wiki_url": "https://en.wikipedia.org/wiki/Blue_House_%28Hong_Kong%29"
+  },
+  "former-kcr-clock-tower": {
+    "image": "images/claude_former-kcr-clock-tower.jpg",
+    "file": "Former_Kowloon-Canton_Railway_Clock_Tower_2013-08.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Former_Kowloon-Canton_Railway_Clock_Tower_2013-08.JPG",
+    "artist": "Warko",
+    "license": "CC BY-SA 3.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Former_Kowloon-Canton_Railway_Clock_Tower"
+  },
+  "temple-street-night-market": {
+    "image": "images/claude_temple-street-night-market.jpg",
+    "file": "GateOfTempleInHongKong.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:GateOfTempleInHongKong.jpg",
+    "artist": "hkgalbert",
+    "license": "CC0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Temple_Street%2C_Hong_Kong"
   }
 }

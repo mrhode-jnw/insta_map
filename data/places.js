@@ -4357,7 +4357,7 @@ window.PLACES = [
   "lat": 22.293593,
   "lng": 114.169538,
   "approx": false,
-  "image": null,
+  "image": "images/claude_former-kcr-clock-tower.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4366,7 +4366,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Former Kowloon-Canton Railway Clock Tower",
   "pop": 4,
-  "pop_reason": "Wahrzeichen am Hafen, beliebtes Fotomotiv"
+  "pop_reason": "Wahrzeichen am Hafen, beliebtes Fotomotiv",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Former_Kowloon-Canton_Railway_Clock_Tower_2013-08.JPG",
+  "image_credit": "Warko · CC BY-SA 3.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Former_Kowloon-Canton_Railway_Clock_Tower"
  },
  {
   "id": "claude-temple-street-night-market",
@@ -4378,7 +4381,7 @@ window.PLACES = [
   "lat": 22.30423,
   "lng": 114.169693,
   "approx": false,
-  "image": null,
+  "image": "images/claude_temple-street-night-market.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4387,7 +4390,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Temple Street, Hong Kong",
   "pop": 5,
-  "pop_reason": "Berühmtester Nachtmarkt Hongkongs"
+  "pop_reason": "Berühmtester Nachtmarkt Hongkongs",
+  "image_page": "https://commons.wikimedia.org/wiki/File:GateOfTempleInHongKong.jpg",
+  "image_credit": "hkgalbert · CC0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Temple_Street%2C_Hong_Kong"
  },
  {
   "id": "claude-ladies-market",
