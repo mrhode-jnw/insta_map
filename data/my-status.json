@@ -97,5 +97,11 @@
  },
  "hk-shek-kip-mei-estate": {
   "prio": "mittel"
+ },
+ "hk-nam-cheong-pawn-shop": {
+  "prio": "hoch"
+ },
+ "hk-pei-ho-street-market-58-pei-ho-street": {
+  "prio": "mittel"
  }
 }
