@@ -124,5 +124,8 @@
  },
  "hk-footbridge-at-peel-street": {
   "prio": "gering"
+ },
+ "hk-hong-kong-macau-ferry-tram-station": {
+  "prio": "hoch"
  }
 }
