@@ -1,0 +1,494 @@
+{
+ "hk-1-queen-s-road-west-shophouse": {
+  "score": 2,
+  "reason": "Renoviertes Vorkriegshaus, nur auf Gwulo dokumentiert"
+ },
+ "hk-112-jervois-street-shophouse": {
+  "score": 1,
+  "reason": "Altes Ladenhaus, online kaum dokumentiert"
+ },
+ "hk-113-bonham-strand-shophouse": {
+  "score": 1,
+  "reason": "Altes Ladenhaus, online kaum dokumentiert"
+ },
+ "hk-130-132-ki-lung-street": {
+  "score": 2,
+  "reason": "Tong-Lau-Ecke, gelegentlich in Fotoarchiven zu sehen"
+ },
+ "hk-153-queen-s-road-west-shophouse": {
+  "score": 1,
+  "reason": "Online praktisch keine Erwähnung als Sehenswürdigkeit gefunden"
+ },
+ "hk-170-yee-kuk-street": {
+  "score": 3,
+  "reason": "Time Out und Discover HK, fotogenes Grade-II-Tong-Lau"
+ },
+ "hk-172-176-queen-s-road-central": {
+  "score": 1,
+  "reason": "Online praktisch nicht dokumentiert"
+ },
+ "hk-190-prince-edward-road-west": {
+  "score": 3,
+  "reason": "Denkmalgeschützte Shophouses, bei Discover Hong Kong gelistet"
+ },
+ "hk-20-high-street-shophouse": {
+  "score": 2,
+  "reason": "Nahe Old Mental Hospital, gelegentlich in Heritage-Blogs"
+ },
+ "hk-20-nullah-road-pre-war-shophouses": {
+  "score": 2,
+  "reason": "Vorkriegs-Shophouses, nur in Heritage-Archiven wie Gwulo"
+ },
+ "hk-207-des-voeux-road-west-shophouse": {
+  "score": 2,
+  "reason": "Trockenfischstraße bekannt, einzelnes Shophouse nur Nischenmotiv"
+ },
+ "hk-2a-shing-wong-street-shophouse": {
+  "score": 2,
+  "reason": "Shing Wong Street bekannt bei Fotografen, Einzelhaus kaum erwähnt"
+ },
+ "hk-301-303-castle-peak-road": {
+  "score": 1,
+  "reason": "Keine Erwähnungen als Fotospot gefunden"
+ },
+ "hk-35-bonham-road-shophouse": {
+  "score": 1,
+  "reason": "Einzelnes Tong-Lau-Gebäude, online kaum als Fotospot dokumentiert"
+ },
+ "hk-88-90-staunton-street-shophouse": {
+  "score": 2,
+  "reason": "Denkmalgeschütztes Shophouse nahe SoHo, nur vereinzelt in Architekturblogs"
+ },
+ "hk-aberdeen-street-steps": {
+  "score": 2,
+  "reason": "Typische Treppengasse, selten gezielt erwähnt"
+ },
+ "hk-alhambra-building-yau-ma-tei": {
+  "score": 2,
+  "reason": "Nur auf Geschichtsseiten wie Gwulo erwähnt"
+ },
+ "hk-argyle-street-henge": {
+  "score": 1,
+  "reason": "Sonnenausrichtung online nicht dokumentiert, temporäres Ereignis"
+ },
+ "hk-austin-road-jordan": {
+  "score": 2,
+  "reason": "Normale Durchgangsstraße, kaum als Fotospot dokumentiert"
+ },
+ "hk-bank-of-china-tower-fahnenmasten": {
+  "score": 4,
+  "reason": "Weltbekanntes Wahrzeichen; Fahnenmast-Winkel selbst kaum dokumentiert"
+ },
+ "hk-bourke-on-peel-street": {
+  "score": 1,
+  "reason": "Kleine Nachbarschaftsbar, kaum als Fotospot erwähnt"
+ },
+ "hk-carnival-mansion-tsim-sha-tsui": {
+  "score": 2,
+  "reason": "Nur vereinzelt auf Gwulo und Fotoportalen erwähnt"
+ },
+ "hk-central-restaurant-sham-shui-po": {
+  "score": 2,
+  "reason": "Lokales Cha Chaan Teng, kaum als Fotospot dokumentiert"
+ },
+ "hk-checkerboard-hill-lion-rock-drone-spot": {
+  "score": 2,
+  "reason": "Nischiger Kai-Tak-Hügel, nur in Hike-Blogs erwähnt"
+ },
+ "hk-cheung-hing-house-portland-street-neon-ecke": {
+  "score": 2,
+  "reason": "Portland-Street-Neon bekannt, konkrete Ecke kaum dokumentiert"
+ },
+ "hk-china-hong-kong-city": {
+  "score": 2,
+  "reason": "Fähr-Terminal-Mall, als Fotomotiv nur gelegentlich genannt"
+ },
+ "hk-choi-hung-estate": {
+  "score": 5,
+  "reason": "Ikonischer Instagram-Spot, in fast jedem Reiseführer"
+ },
+ "hk-chuk-yuen-north-south-estate": {
+  "score": 2,
+  "reason": "Estate mit Lion-Rock-Kulisse, vereinzelt fotografiert"
+ },
+ "hk-chun-yeung-street-market": {
+  "score": 4,
+  "reason": "Tram durch Markt, Discover Hong Kong und viele Reiseblogs"
+ },
+ "hk-des-voeux-road-central": {
+  "score": 3,
+  "reason": "Bekannte Tram-Fotostraße, in Street-Photography-Listen"
+ },
+ "hk-dragon-centre": {
+  "score": 2,
+  "reason": "Lokale Mall, als Fotomotiv nur selten genannt"
+ },
+ "hk-east-coast-boardwalk-lion-rock-view": {
+  "score": 3,
+  "reason": "Neue Promenade, Time Out und Discover HK, beliebt bei Sonnenuntergang"
+ },
+ "hk-fa-yuen-street-market": {
+  "score": 3,
+  "reason": "Straßenmarkt in mehreren Reiseführern, mittlere Bekanntheit"
+ },
+ "hk-footbridge-at-peel-street": {
+  "score": 2,
+  "reason": "Kaum online dokumentiert, nur lokale Fotografen"
+ },
+ "hk-footbridge-kwun-tong-road-kai-yip-estate": {
+  "score": 1,
+  "reason": "Fußgängerbrücke ohne Erwähnung in Fotospot-Listen"
+ },
+ "hk-harbour-place-drone": {
+  "score": 2,
+  "reason": "Drohnenmotiv, gelegentlich auf Instagram, nicht in Reiseführern"
+ },
+ "hk-hill-road-flyover": {
+  "score": 3,
+  "reason": "In einigen Architektur-Instagram-Listen, bei Fotografen bekannt"
+ },
+ "hk-hoi-on-road-noise-barrier": {
+  "score": 2,
+  "reason": "Nischenmotiv, vereinzelt auf Instagram, kaum Artikel"
+ },
+ "hk-hong-kong-macau-ferry-tram-station": {
+  "score": 2,
+  "reason": "Nischiger Tram-Fotospot, selten erwähnt"
+ },
+ "hk-hung-kwong-street": {
+  "score": 1,
+  "reason": "Unbekannte Seitenstraße, keine Fotospot-Erwähnungen gefunden"
+ },
+ "hk-i-feng-mansion": {
+  "score": 2,
+  "reason": "Vereinzelt Fotoprints und Instagram-Posts, keine Reiseführer"
+ },
+ "hk-jardine-s-lookout": {
+  "score": 3,
+  "reason": "Beliebte Wanderung, in Hike-Blogs und Locationscout gelistet"
+ },
+ "hk-k11-musea": {
+  "score": 4,
+  "reason": "Viel beworbene Kunst-Mall, in vielen Guides und Instagram-Listen"
+ },
+ "hk-kai-tak-tunnel": {
+  "score": 1,
+  "reason": "Verkehrstunnel, als Fotomotiv kaum dokumentiert"
+ },
+ "hk-kam-hong-street-shu-kuk-street-lion-rock-view": {
+  "score": 2,
+  "reason": "Telefoto-Straßenblick, nur in Fotografenkreisen bekannt"
+ },
+ "hk-kam-lam-street": {
+  "score": 1,
+  "reason": "Kleine Seitenstraße, online praktisch nicht als Spot erwähnt"
+ },
+ "hk-kau-kee-gough-street": {
+  "score": 4,
+  "reason": "Kultiges Brisket-Lokal, in fast jedem Food-Guide"
+ },
+ "hk-kim-shin-lane": {
+  "score": 1,
+  "reason": "Kaum Online-Erwähnungen gefunden"
+ },
+ "hk-king-s-road": {
+  "score": 3,
+  "reason": "Hauptstraße mit Tram, häufiges Street-Fotomotiv, kein Reiseziel"
+ },
+ "hk-kowloon-city-road": {
+  "score": 1,
+  "reason": "Normale Durchgangsstraße, online kaum als Fotospot erwähnt"
+ },
+ "hk-kowloon-walled-city-park": {
+  "score": 4,
+  "reason": "In vielen Reiseführern, Discover Hong Kong, viele Bewertungen"
+ },
+ "hk-kung-lee-sugar-cane-drink": {
+  "score": 3,
+  "reason": "Traditionsladen seit 1948, Discover Hong Kong gelistet"
+ },
+ "hk-lai-tak-estate": {
+  "score": 4,
+  "reason": "Zylindrisches Estate, in vielen Top-Instagram-Spot-Listen"
+ },
+ "hk-lan-fong-yuen": {
+  "score": 4,
+  "reason": "Berühmtes Cha Chaan Teng, in vielen Food-Guides"
+ },
+ "hk-langham-place": {
+  "score": 3,
+  "reason": "Bekannte Mall mit Rolltreppen, mäßig als Fotospot genannt"
+ },
+ "hk-lei-yue-mun-fishing-village": {
+  "score": 3,
+  "reason": "Bekanntes Fischerdorf, mehrere Guides, moderate Bewertungszahlen"
+ },
+ "hk-lin-heung-tea-house": {
+  "score": 3,
+  "reason": "Legendäres Teehaus, Standort Wellington Street 2026 geschlossen"
+ },
+ "hk-lion-rock-gipfel": {
+  "score": 4,
+  "reason": "Bekannte Wanderung, Discover Hong Kong, viele Fotolisten"
+ },
+ "hk-lotus-garden-ngau-tau-kok": {
+  "score": 1,
+  "reason": "Online kaum auffindbar, echter Geheimtipp"
+ },
+ "hk-lucky-building": {
+  "score": 2,
+  "reason": "Unter Architekturfotografen gelegentlich geteilt, sonst unbekannt"
+ },
+ "hk-lugard-road-peak-rollercoaster-view": {
+  "score": 4,
+  "reason": "Bekannter kostenloser Peak-Aussichtspunkt, viele Guides und Posts"
+ },
+ "hk-ma-tau-wai-estate-lion-rock": {
+  "score": 2,
+  "reason": "Älteres Estate, selten in Fotospot-Listen genannt"
+ },
+ "hk-ma-tau-wai-road": {
+  "score": 1,
+  "reason": "Hauptstraße ohne Bekanntheit als Fotospot"
+ },
+ "hk-majestic-apartments-north-point": {
+  "score": 1,
+  "reason": "Kaum online dokumentiert, reiner Geheimtipp"
+ },
+ "hk-mei-king-street": {
+  "score": 1,
+  "reason": "Gewöhnliche Wohnstraße, keine Erwähnung als Fotospot"
+ },
+ "hk-merit-industrial-centre": {
+  "score": 1,
+  "reason": "Industriegebäude, als Fotospot online nicht dokumentiert"
+ },
+ "hk-mia-casa-apartment-14-nam-cheong-street": {
+  "score": 2,
+  "reason": "Eckgebäude mit Wikipedia-Eintrag, sonst wenig Erwähnung"
+ },
+ "hk-mid-levels-allgemein": {
+  "score": 4,
+  "reason": "Mid-Levels Escalator in fast allen Reiseführern präsent"
+ },
+ "hk-ming-fat-mansion-prince-edward": {
+  "score": 1,
+  "reason": "Online praktisch nicht dokumentiert"
+ },
+ "hk-mirador-mansion": {
+  "score": 3,
+  "reason": "Bekanntes Nathan-Road-Gebäude, Innenhof bei Fotografen beliebt"
+ },
+ "hk-monster-building-yick-cheong-building": {
+  "score": 5,
+  "reason": "Weltberühmter Instagram-Spot, in nahezu jedem Reiseführer"
+ },
+ "hk-murray-road-tram-station": {
+  "score": 1,
+  "reason": "Online praktisch nicht als Fotospot dokumentiert"
+ },
+ "hk-nam-cheong-lau": {
+  "score": 2,
+  "reason": "Alter Wohnblock, gelegentlich in Architekturfotografie erwähnt"
+ },
+ "hk-nam-cheong-pawn-shop": {
+  "score": 3,
+  "reason": "Denkmalgeschütztes Pfandhaus mit Neon, in Heritage-Archiven dokumentiert"
+ },
+ "hk-nam-cheong-street-shek-kip-mei": {
+  "score": 2,
+  "reason": "Lokale Straße, selten als Fotospot erwähnt"
+ },
+ "hk-neon-hop-hing-lung-ceramics-sanitaryware": {
+  "score": 1,
+  "reason": "Einzelnes Neonschild, online praktisch nicht dokumentiert"
+ },
+ "hk-neon-pat-chun-yau-woo-building": {
+  "score": 1,
+  "reason": "Einzelnes Neonschild, kaum Online-Erwähnungen"
+ },
+ "hk-newport-centre-block-2-neon-abgerissen": {
+  "score": 1,
+  "reason": "Neonschild abgerissen, kaum Online-Dokumentation"
+ },
+ "hk-ngau-chi-wan-kam-chi-path": {
+  "score": 1,
+  "reason": "Kleiner Pfad, online praktisch nicht dokumentiert"
+ },
+ "hk-north-point-fire-station-sunbeam-theatre": {
+  "score": 2,
+  "reason": "Sunbeam Theatre lokal bekannt, als Fotospot selten genannt"
+ },
+ "hk-north-point-road-tram-station": {
+  "score": 2,
+  "reason": "Einzelne Tramhaltestelle, nur von Tram-Fotografen beachtet"
+ },
+ "hk-oceanic-building-monster-building-tram-seite": {
+  "score": 3,
+  "reason": "Teil des Monster-Komplexes, Tram-Seite deutlich weniger fotografiert"
+ },
+ "hk-pak-far-building-sham-shui-po": {
+  "score": 1,
+  "reason": "Online kaum dokumentiert, Geheimtipp"
+ },
+ "hk-peel-street-retro-neon-filmset-highlander": {
+  "score": 1,
+  "reason": "Temporäres Filmset August 2026, bereits abgebaut"
+ },
+ "hk-pei-ho-street-market-58-pei-ho-street": {
+  "score": 3,
+  "reason": "Bei Discover HK gelistet, beliebter Sham-Shui-Po-Markt"
+ },
+ "hk-peony-house-west-block": {
+  "score": 2,
+  "reason": "Nischiges Wohnhaus, kaum in Fotospot-Listen erwähnt"
+ },
+ "hk-percival-street": {
+  "score": 3,
+  "reason": "Klassisches Causeway-Bay-Tram-Motiv, häufig auf Instagram"
+ },
+ "hk-ping-shan-lion-rock-view": {
+  "score": 1,
+  "reason": "Kaum dokumentierter Aussichtspunkt, Geheimtipp"
+ },
+ "hk-reclamation-street-alte-lden": {
+  "score": 2,
+  "reason": "Historische Straße, vor allem auf Gwulo und Heritage-Seiten"
+ },
+ "hk-red-incense-burner-summit-braemar-hill": {
+  "score": 3,
+  "reason": "Bei Fotografen beliebter Sonnenuntergangsspot, wenige Reiseführer"
+ },
+ "hk-royal-plaza-hotel-lion-rock-view": {
+  "score": 1,
+  "reason": "Hotel-Aussicht, als Fotospot kaum dokumentiert"
+ },
+ "hk-saigon-street": {
+  "score": 2,
+  "reason": "Lokale Straße, selten in Fotolisten erwähnt"
+ },
+ "hk-shanghai-street-jordanyau-ma-teimong-kok": {
+  "score": 3,
+  "reason": "Bekannte Altstadtstraße, in Streetfotografie-Touren oft genannt"
+ },
+ "hk-shek-kip-mei-estate": {
+  "score": 3,
+  "reason": "Historisches Estate nahe Mei Ho House, in Estate-Fotolisten"
+ },
+ "hk-shek-kip-mei-street": {
+  "score": 2,
+  "reason": "Lokale Straße, nur gelegentlich in Fotoposts"
+ },
+ "hk-southern-building-north-point": {
+  "score": 1,
+  "reason": "Kaum online dokumentiert, reiner Geheimtipp"
+ },
+ "hk-soy-street-tunnel": {
+  "score": 1,
+  "reason": "Tunnel als Fotospot online nicht dokumentiert"
+ },
+ "hk-st-john-s-cathedral": {
+  "score": 3,
+  "reason": "Historische Kirche, in Reiseführern, mäßig fotografiert"
+ },
+ "hk-suicide-cliff-kowloon-peak": {
+  "score": 4,
+  "reason": "Durch Social Media bekannt, viele Hike-Blogs, SCMP-Berichte"
+ },
+ "hk-swiss-house-quarry-bay-abgerissen": {
+  "score": 1,
+  "reason": "Ende 2024 abgerissen, nur auf Gwulo dokumentiert"
+ },
+ "hk-tai-o-fishing-village": {
+  "score": 4,
+  "reason": "Klassiker in fast allen Reiseführern, tausende Bewertungen"
+ },
+ "hk-tai-ping-shan-street": {
+  "score": 4,
+  "reason": "Time Out: Platz 7 coolste Straßen weltweit, Discover Hong Kong"
+ },
+ "hk-the-henderson": {
+  "score": 3,
+  "reason": "Neues Zaha-Hadid-Gebäude, Discover Hong Kong empfiehlt Fotospot"
+ },
+ "hk-the-murray-hotel": {
+  "score": 3,
+  "reason": "Bekanntes Designhotel, Architekturpresse, kaum in Instagram-Spotlisten"
+ },
+ "hk-third-street": {
+  "score": 2,
+  "reason": "Wikipedia-Eintrag, aber selten in Instagram-Spot-Listen"
+ },
+ "hk-to-kwa-wan-road-apartment-complex": {
+  "score": 1,
+  "reason": "Unbenannter Wohnblock, online praktisch nicht dokumentiert"
+ },
+ "hk-tsui-chuk-garden-drone": {
+  "score": 2,
+  "reason": "Drohnenmotiv unter Lion Rock, gelegentlich auf Instagram"
+ },
+ "hk-tuen-mun-cha-chaan-teng-strand": {
+  "score": 1,
+  "reason": "Lokales Café am Strand, kaum Online-Präsenz als Spot"
+ },
+ "hk-tung-hing-mansion": {
+  "score": 1,
+  "reason": "Keine Erwähnung in Reise- oder Fotospot-Listen gefunden"
+ },
+ "hk-tung-lo-court": {
+  "score": 1,
+  "reason": "Keine Online-Erwähnungen als Fotospot gefunden"
+ },
+ "hk-twist-new-italian": {
+  "score": 1,
+  "reason": "Neue Pastabar seit 2025, wenige Bewertungen"
+ },
+ "hk-united-mansion-jordan": {
+  "score": 1,
+  "reason": "Keine Erwähnungen als Fotospot gefunden"
+ },
+ "hk-victoria-harbour-neon-regen-nacht": {
+  "score": 5,
+  "reason": "Weltberühmtes Hafenpanorama, in jedem Reiseführer"
+ },
+ "hk-victoria-peak-lugard-road-lookout": {
+  "score": 5,
+  "reason": "Top-Sehenswürdigkeit, in jedem Reiseführer, klassischer Skyline-Blick"
+ },
+ "hk-wah-tak-building-yau-ma-tei": {
+  "score": 3,
+  "reason": "Rot gestreifte Fassade, auf Locationscout und unter Fotografen bekannt"
+ },
+ "hk-western-market-tram-station": {
+  "score": 2,
+  "reason": "Tram-Endhaltestelle, gelegentlich bei Tramfans erwähnt"
+ },
+ "hk-wing-sun-pawn-shop": {
+  "score": 2,
+  "reason": "Pfandhaus-Neon, nur in Neon-Nischenlisten erwähnt"
+ },
+ "hk-wing-wah-building-sham-shui-po": {
+  "score": 1,
+  "reason": "Online kaum dokumentiert, Geheimtipp"
+ },
+ "hk-wonderland-villas": {
+  "score": 3,
+  "reason": "Bei Drohnen- und Architekturfotografen beliebt, wenige Guides"
+ },
+ "hk-wong-nai-chung-road": {
+  "score": 3,
+  "reason": "Tramkurve am Happy-Valley-Rennplatz, bei Fotografen beliebt"
+ },
+ "hk-wong-tai-sin-plaza-lion-rock-view": {
+  "score": 2,
+  "reason": "Lion-Rock-Blick unter Lokalfotografen bekannt, sonst selten"
+ },
+ "hk-yat-lok-stanley-street": {
+  "score": 4,
+  "reason": "Michelin-Stern-Gänsebraten, in vielen Reiseführern"
+ },
+ "hk-yau-ma-tei-fruit-market": {
+  "score": 4,
+  "reason": "Time Out und Discover HK, beliebter Streetfoto-Spot"
+ }
+}
