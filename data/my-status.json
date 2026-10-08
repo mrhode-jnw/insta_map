@@ -295,5 +295,8 @@
  },
  "hk-ming-fat-mansion-prince-edward": {
   "prio": "gering"
+ },
+ "hk-tung-lo-court": {
+  "prio": "hoch"
  }
 }
