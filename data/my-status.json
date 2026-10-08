@@ -304,5 +304,8 @@
  },
  "hk-pak-far-building-sham-shui-po": {
   "prio": "mittel"
+ },
+ "hk-kim-shin-lane": {
+  "prio": "gering"
  }
 }
