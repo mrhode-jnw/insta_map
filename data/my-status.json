@@ -88,5 +88,8 @@
  },
  "hk-wah-tak-building-yau-ma-tei": {
   "prio": "hoch"
+ },
+ "hk-190-prince-edward-road-west": {
+  "prio": "gering"
  }
 }
