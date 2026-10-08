@@ -260,7 +260,7 @@
 </script>
 <script src="crypto.js"></script>
 <script>
-function startApp(unlockedKey) {
+function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const places = (window.PLACES || []).filter(p => isFinite(p.lat) && isFinite(p.lng));
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -661,6 +661,8 @@ function startApp(unlockedKey) {
   // ---------- Eigene Spots: gespeichert in data/my-spots.json im GitHub-Repo
   const GH = { repo: "mrhode-jnw/insta_map", branch: "claude/sweet-mayer-wqdght", path: "data/my-spots.json" };
   const TOKEN_KEY = "ghToken";
+  // Hinterlegter Token aus config.js hat Vorrang – dann muss auf keinem Gerät mehr etwas eingegeben werden
+  if (ghTokenFromConfig) { try { localStorage.setItem(TOKEN_KEY, ghTokenFromConfig); } catch {} }
   const store = { get: k => { try { return localStorage.getItem(k); } catch { return null; } },
                   set: (k, v) => { try { v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch {} } };
   const b64enc = str => btoa(unescape(encodeURIComponent(str)));
@@ -705,11 +707,36 @@ function startApp(unlockedKey) {
       const next = fn(list);
       const r = await fetch(ghUrl(path), { method: "PUT", headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` },
         body: JSON.stringify({ message, branch: GH.branch, content: b64enc(JSON.stringify(next, null, 1) + "\n"), ...(sha ? { sha } : {}) }) });
-      if (r.ok) return next;
+      if (r.ok) { depositToken(token); return next; }
       if (r.status === 401 || r.status === 403) throw new Error("GitHub-Token ungültig oder ohne Schreibrecht");
       if (r.status !== 409 && r.status !== 422) throw new Error(`GitHub ${r.status}`);
     }
     throw new Error("Speichern fehlgeschlagen (Konflikt)");
+  }
+
+  // Token nach dem ersten erfolgreichen Speichern verschlüsselt in config.js hinterlegen,
+  // damit alle Geräte (nach Eingabe des Zugangscodes) ihn automatisch verwenden
+  let depositing = false;
+  async function depositToken(token) {
+    if (!accessCode || depositing || token === ghTokenFromConfig) return;
+    depositing = true;
+    try {
+      const enc = await InstaMapCrypto.encrypt(token, accessCode);
+      const r = await fetch(`${ghUrl("config.js")}?ref=${encodeURIComponent(GH.branch)}&t=${Date.now()}`,
+        { headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` }, cache: "no-store" });
+      if (!r.ok) return;
+      const j = await r.json();
+      let txt = b64dec(j.content);
+      const line = `window.GITHUB_TOKEN_ENC = "${enc}";`;
+      txt = /window\.GITHUB_TOKEN_ENC\s*=/.test(txt)
+        ? txt.replace(/^.*window\.GITHUB_TOKEN_ENC\s*=.*$/m, line)
+        : txt.replace(/\s*$/, "\n// Verschlüsselter GitHub-Token zum Speichern (gleicher Zugangscode); wird von der Karte selbst hinterlegt.\n" + line + "\n");
+      const put = await fetch(ghUrl("config.js"), { method: "PUT",
+        headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ message: "GitHub-Token verschlüsselt hinterlegt", branch: GH.branch, content: b64enc(txt), sha: j.sha }) });
+      if (put.ok) { ghTokenFromConfig = token; toast("Token für alle Geräte hinterlegt ✓", 2500); }
+    } catch (e) { console.warn("Token hinterlegen:", e); }
+    finally { depositing = false; }
   }
 
   // --- Dialog
@@ -914,7 +941,9 @@ function startApp(unlockedKey) {
   const tryCode = async code => { try { return await InstaMapCrypto.decrypt(enc, code); } catch { return null; } };
 
   const saved = get();
-  if (saved) { const key = await tryCode(saved); if (key) return startApp(key); set(null); }
+  // GitHub-Token (zum Speichern) liegt mit demselben Zugangscode verschlüsselt in config.js
+  const ghToken = async code => { try { return window.GITHUB_TOKEN_ENC ? await InstaMapCrypto.decrypt(window.GITHUB_TOKEN_ENC, code) : null; } catch { return null; } };
+  if (saved) { const key = await tryCode(saved); if (key) return startApp(key, saved, await ghToken(saved)); set(null); }
 
   const gate = document.getElementById("gate");
   gate.hidden = false;
@@ -928,7 +957,7 @@ function startApp(unlockedKey) {
     if (!key) { err.textContent = "Falscher Code"; return; }
     if (document.getElementById("gateRemember").checked) set(code);
     gate.hidden = true;
-    startApp(key);
+    startApp(key, code, await ghToken(code));
   });
 })();
 </script>
