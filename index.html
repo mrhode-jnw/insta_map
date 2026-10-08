@@ -509,7 +509,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   renderChips();
   $("#chips2").querySelector('[data-f="noclaude"]').classList.toggle("on", claudeF === "hide");
   $("#chips2").querySelector('[data-f="claude-only"]').classList.toggle("on", claudeF === "only");
-  const matches = p => {
+  // Der gerade geöffnete Spot bleibt sichtbar, auch wenn er durch Bewerten nicht mehr zum Filter passt
+  let stickyId = null;
+  const matches = p => p.id === stickyId || matchesFilter(p);
+  const matchesFilter = p => {
     const q = $("#search").value.trim().toLowerCase();
     const hay = [p.name, p.address, p.district, p.category, p.note, p.caption, p.username,
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
@@ -543,8 +546,18 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return { top, bottomPad: window.innerHeight - bottom + 8, maxH: Math.max(260, Math.round(bottom - top - 40)) };
   }
   // Zoom-/Ebenen-Knöpfe würden das breite Popup auf dem Handy verdecken → solange ausblenden
-  map.on("popupopen", () => document.body.classList.add("popup-open"));
-  map.on("popupclose", () => document.body.classList.remove("popup-open"));
+  map.on("popupopen", ev => {
+    document.body.classList.add("popup-open");
+    const box = ev.popup.getElement().querySelector(".status"); stickyId = box ? box.dataset.id : null;
+  });
+  map.on("popupclose", ev => {
+    document.body.classList.remove("popup-open");
+    const box = ev.popup.getElement() && ev.popup.getElement().querySelector(".status");
+    if (box && box.dataset.id === stickyId) {
+      const p = places.find(x => x.id === stickyId); stickyId = null;
+      if (p && !matchesFilter(p)) setTimeout(renderList, 0);  // jetzt erst aus der gefilterten Liste nehmen
+    }
+  });
   map.on("popupopen", ev => {
     const sp = popupSpace(), o = ev.popup.options;
     if (o.maxHeight !== sp.maxH || o.autoPanPaddingTopLeft[1] !== sp.top) {
