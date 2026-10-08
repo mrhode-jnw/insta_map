@@ -163,5 +163,8 @@
  },
  "hk-alhambra-building-yau-ma-tei": {
   "prio": "hoch"
+ },
+ "hk-saigon-street": {
+  "prio": "mittel"
  }
 }
