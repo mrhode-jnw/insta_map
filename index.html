@@ -38,7 +38,7 @@
   #sheet header { padding: 8px 14px 10px; cursor: pointer; }
   #sheet .grip { width: 40px; height: 4px; border-radius: 2px; background: var(--line); margin: 0 auto 8px; }
   #sheet .row { display: flex; gap: 8px; align-items: center; }
-  #search { flex: 1; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line);
+  #search { flex: 1; min-width: 0; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line);
     background: transparent; color: var(--fg); font-size: 16px; }
   #count { color: var(--muted); font-size: 13px; white-space: nowrap; }
   #list { overflow-y: auto; list-style: none; margin: 0; padding: 0 0 8px; -webkit-overflow-scrolling: touch; }
@@ -138,8 +138,10 @@
   .prio-dot.hoch { background: #dc2626; } .prio-dot.mittel { background: #f59e0b; } .prio-dot.gering { background: #9ca3af; }
   .done-badge { color: #16a34a; font-weight: 600; }
   #view { display: flex; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; flex: none; }
-  #view button { border: 0; background: transparent; color: var(--fg); padding: 7px 10px; font-size: 16px; cursor: pointer; }
+  #view button { border: 0; background: transparent; color: var(--fg); padding: 7px 9px; font-size: 16px; cursor: pointer; }
   #view button.on { background: var(--fg); color: var(--bg); }
+  #view button[data-v="area"] { border-right: 1px solid var(--line); }
+  #view button[data-v="area"].on { background: var(--me); color: #fff; }
   #chips2 { display: flex; gap: 6px; overflow-x: auto; padding-top: 6px; scrollbar-width: none; }
   #chips2 button { flex: none; border: 1px solid var(--line); background: transparent; color: var(--fg);
     border-radius: 999px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
@@ -207,7 +209,7 @@
     <div class="row">
       <input id="search" type="search" placeholder="Orte durchsuchen …" autocomplete="off">
       <span id="count"></span>
-      <div id="view"><button data-v="list" class="on" title="Liste" aria-label="Liste">☰</button><button data-v="grid" title="Bilder" aria-label="Bilder">▦</button></div>
+      <div id="view"><button data-v="area" title="Nur Spots im Kartenausschnitt" aria-label="Nur Spots im Kartenausschnitt">⌖</button><button data-v="list" class="on" title="Liste" aria-label="Liste">☰</button><button data-v="grid" title="Bilder" aria-label="Bilder">▦</button></div>
     </div>
     <div id="chips"></div>
     <div id="chips2">
@@ -343,9 +345,15 @@ function startApp(unlockedKey) {
       prioF.has(x.dataset.f) || doneF === x.dataset.f));
     renderList();
   });
-  try { view = localStorage.getItem("view") || "list"; } catch {}
+  let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
+  try { view = localStorage.getItem("view") || "list"; inView = localStorage.getItem("inView") === "1"; } catch {}
   $("#view").addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.v === "area") {
+      inView = !inView; try { localStorage.setItem("inView", inView ? "1" : ""); } catch {}
+      toast(inView ? "Nur Spots im Kartenausschnitt" : "Alle Spots", 1500);
+      return renderList();
+    }
     view = b.dataset.v; try { localStorage.setItem("view", view); } catch {}
     renderList();
     if (view === "grid") $("#sheet").classList.add("open");
@@ -391,15 +399,28 @@ function startApp(unlockedKey) {
   // ---------- Liste
   const unplaced = window.UNPLACED_POSTS || [];
   const prioRank = p => ({ hoch: 0, mittel: 1, gering: 2 })[st(p.id).prio] ?? 3;
+  // Sichtbarer Kartenbereich ohne die Fläche, die das Panel verdeckt
+  function visibleBounds() {
+    const r = map.getContainer().getBoundingClientRect(), sh = $("#sheet").getBoundingClientRect();
+    let x0 = 0, y0 = 0, x1 = r.width, y1 = r.height;
+    if (window.innerWidth >= 800) x0 = Math.min(Math.max(sh.right - r.left, 0), x1 - 60);
+    else y1 = Math.max(sh.top - r.top, 60);
+    return L.latLngBounds(map.containerPointToLatLng([x0, y1]), map.containerPointToLatLng([x1, y0]));
+  }
+  let moveTimer = null;
+  const rerenderIfArea = () => { if (inView) { clearTimeout(moveTimer); moveTimer = setTimeout(renderList, 120); } };
+  map.on("moveend", rerenderIfArea);
+  $("#sheet").addEventListener("transitionend", e => { if (e.target.id === "sheet") rerenderIfArea(); });
   function renderList() {
     let items = places.filter(matches);
     syncMarkers(items);
+    if (inView) { const vb = visibleBounds(); items = items.filter(p => vb.contains([p.lat, p.lng])); }
     items = items.map(p => ({ ...p, _d: me ? dist(me, p) : 0 }))
       .sort((a, b) => me ? a._d - b._d : prioRank(a) - prioRank(b));
-    $("#count").textContent = `${items.length} Orte`;
-    $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === view));
+    $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
+    $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     if (view === "grid") {
