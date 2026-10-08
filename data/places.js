@@ -4897,7 +4897,7 @@ window.PLACES = [
   "profile_url": "",
   "posts": [],
   "by_claude": true,
-  "wiki": "Dragon's Back (Hong Kong)",
+  "wiki": "Shek O Country Park",
   "pop": 4,
   "pop_reason": "Beliebteste Stadtwanderung Hongkongs"
  },

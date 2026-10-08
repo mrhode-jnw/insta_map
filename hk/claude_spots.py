@@ -48,7 +48,7 @@ CLAUDE_SPOTS = [
     ("Ten Thousand Buddhas Monastery 萬佛寺", "Ten Thousand Buddhas Monastery", "Sha Tin", "Tempel", 4,
      "Hunderte goldene Buddha-Statuen am Treppenweg", "Ten Thousand Buddhas Monastery", ""),
     ("Dragon's Back 龍脊", "Dragon's Back", "Shek O", "Aussicht", 4,
-     "Beliebteste Stadtwanderung Hongkongs", "Dragon's Back (Hong Kong)", "Endet am Big Wave Bay Strand"),
+     "Beliebteste Stadtwanderung Hongkongs", "Shek O Country Park", "Endet am Big Wave Bay Strand"),
     ("Repulse Bay 淺水灣", "Repulse Bay Beach", "Repulse Bay", "Strand", 4,
      "Bekanntester Stadtstrand, Gebäude mit Loch", "Repulse Bay", "The Repulse Bay Gebäude mit Drachenloch"),
     ("Stanley – Murray House & Blake Pier 赤柱", "Murray House, Stanley", "Stanley", "Dorf", 4,
