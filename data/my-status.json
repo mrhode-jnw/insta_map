@@ -121,5 +121,8 @@
  },
  "hk-aberdeen-street-steps": {
   "prio": "mittel"
+ },
+ "hk-footbridge-at-peel-street": {
+  "prio": "gering"
  }
 }
