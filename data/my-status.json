@@ -319,5 +319,8 @@
  },
  "hk-kowloon-city-road": {
   "prio": "gering"
+ },
+ "hk-merit-industrial-centre": {
+  "prio": "hoch"
  }
 }
