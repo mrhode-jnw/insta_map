@@ -127,5 +127,8 @@
  },
  "hk-hong-kong-macau-ferry-tram-station": {
   "prio": "hoch"
+ },
+ "hk-western-market-tram-station": {
+  "prio": "mittel"
  }
 }
