@@ -146,6 +146,10 @@
   #chips2 { display: flex; gap: 6px; overflow-x: auto; padding-top: 6px; scrollbar-width: none; }
   #chips2 button { flex: none; border: 1px solid var(--line); background: transparent; color: var(--fg);
     border-radius: 999px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
+  #chips2 select { flex: none; border: 1px solid var(--line); background: transparent; color: var(--fg);
+    border-radius: 999px; padding: 4px 8px; font-size: 12.5px; }
+  .pop .popularity { font-size: 12px; color: #92400e; margin-bottom: 4px; }
+  .pop .popularity small { color: #6b7280; }
   #chips2 button.on { background: var(--fg); border-color: var(--fg); color: var(--bg); }
   #list.grid { display: grid; grid-template-columns: repeat(2, 1fr); grid-auto-rows: max-content; align-content: start; gap: 6px; padding: 6px 8px 10px; }
   @media (min-width: 800px) { #list.grid { grid-template-columns: repeat(2, 1fr); } }
@@ -219,6 +223,12 @@
       <button data-f="gering"><span class="prio-dot gering"></span>Gering</button>
       <button data-f="open">Noch offen</button>
       <button data-f="done">✓ Fotografiert</button>
+      <button data-f="pop">🔥 Beliebt</button>
+      <select id="sort" aria-label="Sortierung">
+        <option value="auto">Sortierung: Entfernung</option>
+        <option value="prio">Sortierung: Priorität</option>
+        <option value="pop">Sortierung: Beliebtheit</option>
+      </select>
     </div>
   </header>
   <ul id="list"></ul>
@@ -304,6 +314,7 @@ function startApp(unlockedKey) {
           <label><input type="checkbox" data-done ${st(p.id).done ? "checked" : ""}> Fotografiert</label>
         </div>
         ${p.category ? `<div class="meta">${esc([p.mine ? "★ Eigener Spot" : "", p.category, p.district].filter(Boolean).join(" · "))}</div>` : ""}
+        ${p.pop ? `<div class="popularity">${"🔥".repeat(p.pop)}${"<span style=\"opacity:.25\">🔥</span>".repeat(5 - p.pop)} Beliebtheit ${p.pop}/5${p.pop_reason ? `<br><small>${esc(p.pop_reason)}</small>` : ""}</div>` : ""}
         ${p.approx ? `<div class="approx">Pin ungefähr</div>` : ""}
         ${d}
         ${p.note ? `<div class="note">${esc(p.note)}</div>` : ""}
@@ -336,15 +347,19 @@ function startApp(unlockedKey) {
   map.addLayer(cluster);
 
   // ---------- Filter (Suche + Kategorie)
-  let cat = null, doneF = null, view = "list";
+  let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto";
+  try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
+  $("#sort").value = sortBy;
+  $("#sort").addEventListener("change", e => { sortBy = e.target.value; try { localStorage.setItem("sort", sortBy); } catch {} renderList(); });
   const prioF = new Set();
   $("#chips2").addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
     const f = b.dataset.f;
     if (PRIOS.includes(f)) prioF.has(f) ? prioF.delete(f) : prioF.add(f);
+    else if (f === "pop") popF = !popF;
     else doneF = doneF === f ? null : f;
     $("#chips2").querySelectorAll("button").forEach(x => x.classList.toggle("on",
-      prioF.has(x.dataset.f) || doneF === x.dataset.f));
+      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF)));
     renderList();
   });
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
@@ -379,7 +394,8 @@ function startApp(unlockedKey) {
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
     const s = st(p.id);
     return (!cat || p.category === cat || (cat === "★ Meine" && p.mine)) && (!q || hay.includes(q))
-      && (!prioF.size || prioF.has(s.prio)) && (!doneF || (doneF === "done" ? s.done : !s.done));
+      && (!prioF.size || prioF.has(s.prio)) && (!doneF || (doneF === "done" ? s.done : !s.done))
+      && (!popF || (p.pop || 0) >= 4);
   };
   const shown = new Set();
   function syncMarkers(items) {  // nur Unterschiede anwenden, damit offene Popups offen bleiben
@@ -418,11 +434,13 @@ function startApp(unlockedKey) {
     syncMarkers(items);
     if (inView) { const vb = visibleBounds(); items = items.filter(p => vb.contains([p.lat, p.lng])); }
     items = items.map(p => ({ ...p, _d: me ? dist(me, p) : 0 }))
-      .sort((a, b) => me ? a._d - b._d : prioRank(a) - prioRank(b));
+      .sort((a, b) => sortBy === "pop" ? (b.pop || 0) - (a.pop || 0) || a._d - b._d
+        : sortBy === "prio" ? prioRank(a) - prioRank(b) || a._d - b._d
+        : me ? a._d - b._d : prioRank(a) - prioRank(b));
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = popF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     if (view === "grid") {
@@ -430,7 +448,7 @@ function startApp(unlockedKey) {
         <li class="gi${s.done ? " done" : ""}" data-id="${esc(p.id)}">
           ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}
           <div class="badge">${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
-          <div class="cap2">${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, me ? fmt(p._d) : ""].filter(Boolean).join(" · "))}</small></div>
+          <div class="cap2">${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : "", me ? fmt(p._d) : ""].filter(Boolean).join(" · "))}</small></div>
         </li>`; }).join("") : `<li id="empty">Keine Treffer.</li>`;
       return;
     }
@@ -442,7 +460,7 @@ function startApp(unlockedKey) {
       <li data-id="${esc(p.id)}">
         ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : ""}</div>`}
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
-          ${p.category ? `<div class="tag">${p.mine ? "★ " : ""}${esc([p.category, p.district].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
+          ${p.category ? `<div class="tag">${p.mine ? "★ " : ""}${esc([p.category, p.district].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
         ${me ? `<div class="d">${fmt(p._d)}</div>` : ""}
       </li>`).join("")
       : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`) + extra;

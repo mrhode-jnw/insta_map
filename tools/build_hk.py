@@ -26,6 +26,8 @@ import build_places as bp  # noqa: E402
 import slides as sl  # noqa: E402
 from spots import POSTS, S  # noqa: E402
 
+POP_FILE = os.path.join(ROOT, "hk", "popularity.json")  # Beliebtheit 1–5 aus Web-Recherche
+popularity = json.load(open(POP_FILE, encoding="utf-8")) if os.path.exists(POP_FILE) else {}
 geo = json.load(open(os.path.join(ROOT, "hk", "geocache.json"), encoding="utf-8"))
 cache = bp.load_json(bp.CACHE_FILE, {"posts": {}, "geo": {}})
 ctx = cache.get("ctx", {})  # von tools/fetch_slides.py
@@ -122,6 +124,10 @@ for n, s in enumerate(S):
         "profile_url": first["profile_url"],
         "posts": ps,
     })
+    pop = popularity.get(places[-1]["id"])
+    if pop:
+        places[-1]["pop"] = pop["score"]
+        places[-1]["pop_reason"] = pop.get("reason", "")
 
 unplaced = [posts[i] for i in sorted(POSTS) if i not in used]
 
