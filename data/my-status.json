@@ -217,5 +217,8 @@
  },
  "hk-chuk-yuen-north-south-estate": {
   "prio": "mittel"
+ },
+ "hk-tsui-chuk-garden-drone": {
+  "prio": "hoch"
  }
 }
