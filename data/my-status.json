@@ -172,5 +172,8 @@
  },
  "hk-carnival-mansion-tsim-sha-tsui": {
   "prio": "gering"
+ },
+ "hk-china-hong-kong-city": {
+  "prio": "gering"
  }
 }
