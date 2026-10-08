@@ -82,5 +82,8 @@
  },
  "hk-fa-yuen-street-market": {
   "prio": "mittel"
+ },
+ "hk-shanghai-street-jordanyau-ma-teimong-kok": {
+  "prio": "hoch"
  }
 }
