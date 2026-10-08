@@ -139,5 +139,8 @@
  },
  "hk-207-des-voeux-road-west-shophouse": {
   "prio": "gering"
+ },
+ "hk-third-street": {
+  "prio": "mittel"
  }
 }
