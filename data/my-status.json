@@ -4,5 +4,17 @@
  },
  "hk-victoria-harbour-neon-regen-nacht": {
   "prio": "mittel"
+ },
+ "hk-choi-hung-estate": {
+  "prio": "hoch"
+ },
+ "hk-victoria-peak-lugard-road-lookout": {
+  "prio": "hoch"
+ },
+ "hk-monster-building-yick-cheong-building": {
+  "prio": "hoch"
+ },
+ "hk-tai-o-fishing-village": {
+  "prio": "hoch"
  }
 }
