@@ -4698,7 +4698,7 @@ window.PLACES = [
   "lat": 22.303379,
   "lng": 114.160226,
   "approx": false,
-  "image": null,
+  "image": "images/claude_sky100-100.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4707,7 +4707,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Sky100",
   "pop": 4,
-  "pop_reason": "Höchste Aussichtsplattform Hongkongs (393 m)"
+  "pop_reason": "Höchste Aussichtsplattform Hongkongs (393 m)",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Sky100-wikimania2013-1.jpg",
+  "image_credit": "Staeiou · CC BY-SA 3.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Sky100"
  },
  {
   "id": "claude-m-museum-west-kowloon-art-park-m",
@@ -4743,7 +4746,7 @@ window.PLACES = [
   "lat": 22.301649,
   "lng": 114.155398,
   "approx": false,
-  "image": null,
+  "image": "images/claude_hong-kong-palace-museum.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4752,7 +4755,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Hong Kong Palace Museum",
   "pop": 4,
-  "pop_reason": "Neues Wahrzeichen in West Kowloon"
+  "pop_reason": "Neues Wahrzeichen in West Kowloon",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Palace_Museum_2022.jpg",
+  "image_credit": "xiquinhosilva · CC BY 2.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Hong_Kong_Palace_Museum"
  },
  {
   "id": "claude-wong-tai-sin-temple",
@@ -4836,7 +4842,7 @@ window.PLACES = [
   "lat": 22.29017,
   "lng": 113.93864,
   "approx": false,
-  "image": null,
+  "image": "images/claude_ngong-ping-360-360.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4845,7 +4851,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Ngong Ping 360",
   "pop": 4,
-  "pop_reason": "Seilbahn mit Glasboden-Kabinen"
+  "pop_reason": "Seilbahn mit Glasboden-Kabinen",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Ngong_Ping_360_Cable_Car_and_HKG_2021-09.jpg",
+  "image_credit": "Sparktour · CC BY-SA 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Ngong_Ping_360"
  },
  {
   "id": "claude-ten-thousand-buddhas-monastery",
@@ -4857,7 +4866,7 @@ window.PLACES = [
   "lat": 22.387997,
   "lng": 114.184949,
   "approx": false,
-  "image": null,
+  "image": "images/claude_ten-thousand-buddhas-monastery.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4866,7 +4875,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Ten Thousand Buddhas Monastery",
   "pop": 4,
-  "pop_reason": "Hunderte goldene Buddha-Statuen am Treppenweg"
+  "pop_reason": "Hunderte goldene Buddha-Statuen am Treppenweg",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Pagoda_view.jpg",
+  "image_credit": "Mitchan14 · CC BY-SA 3.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Ten_Thousand_Buddhas_Monastery"
  },
  {
   "id": "claude-dragon-s-back",

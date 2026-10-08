@@ -158,5 +158,37 @@
     "artist": "Man77",
     "license": "CC BY-SA 3.0",
     "wiki_url": "https://en.wikipedia.org/wiki/Cheung_Chau"
+  },
+  "sky100-100": {
+    "image": "images/claude_sky100-100.jpg",
+    "file": "Sky100-wikimania2013-1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sky100-wikimania2013-1.jpg",
+    "artist": "Staeiou",
+    "license": "CC BY-SA 3.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sky100"
+  },
+  "hong-kong-palace-museum": {
+    "image": "images/claude_hong-kong-palace-museum.jpg",
+    "file": "Hong_Kong_Palace_Museum_2022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Palace_Museum_2022.jpg",
+    "artist": "xiquinhosilva",
+    "license": "CC BY 2.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hong_Kong_Palace_Museum"
+  },
+  "ngong-ping-360-360": {
+    "image": "images/claude_ngong-ping-360-360.jpg",
+    "file": "Ngong_Ping_360_Cable_Car_and_HKG_2021-09.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ngong_Ping_360_Cable_Car_and_HKG_2021-09.jpg",
+    "artist": "Sparktour",
+    "license": "CC BY-SA 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ngong_Ping_360"
+  },
+  "ten-thousand-buddhas-monastery": {
+    "image": "images/claude_ten-thousand-buddhas-monastery.jpg",
+    "file": "Pagoda_view.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pagoda_view.jpg",
+    "artist": "Mitchan14",
+    "license": "CC BY-SA 3.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ten_Thousand_Buddhas_Monastery"
   }
 }
