@@ -316,5 +316,8 @@
  },
  "hk-mei-king-street": {
   "prio": "mittel"
+ },
+ "hk-kowloon-city-road": {
+  "prio": "gering"
  }
 }
