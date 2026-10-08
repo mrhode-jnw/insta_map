@@ -187,5 +187,8 @@
  },
  "hk-130-132-ki-lung-street": {
   "prio": "gering"
+ },
+ "hk-shek-kip-mei-street": {
+  "prio": "mittel"
  }
 }
