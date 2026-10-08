@@ -4899,7 +4899,7 @@ window.PLACES = [
   "lat": 22.236549,
   "lng": 114.19654,
   "approx": false,
-  "image": null,
+  "image": "images/claude_repulse-bay.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4908,7 +4908,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Repulse Bay",
   "pop": 4,
-  "pop_reason": "Bekanntester Stadtstrand, Gebäude mit Loch"
+  "pop_reason": "Bekanntester Stadtstrand, Gebäude mit Loch",
+  "image_page": "https://commons.wikimedia.org/wiki/File:View_of_Repulse_Bay_from_Sir_Cecil%27s_Ride.jpg",
+  "image_credit": "Shanghai88 · CC BY-SA 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Repulse_Bay"
  },
  {
   "id": "claude-stanley-murray-house-blake-pier",

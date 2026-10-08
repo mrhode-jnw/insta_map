@@ -126,5 +126,13 @@
     "artist": "Huangdan2060",
     "license": "CC BY 4.0",
     "wiki_url": "https://en.wikipedia.org/wiki/Tian_Tan_Buddha"
+  },
+  "repulse-bay": {
+    "image": "images/claude_repulse-bay.jpg",
+    "file": "View_of_Repulse_Bay_from_Sir_Cecil's_Ride.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_Repulse_Bay_from_Sir_Cecil%27s_Ride.jpg",
+    "artist": "Shanghai88",
+    "license": "CC BY-SA 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Repulse_Bay"
   }
 }
