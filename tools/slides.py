@@ -10,7 +10,6 @@ import os
 import re
 import sys
 import time
-import urllib.error
 
 import build_places as bp
 
@@ -22,9 +21,9 @@ def fetch_context(code):
     for attempt in range(5):
         try:
             page = bp.http_get(f"https://www.instagram.com/p/{code}/embed/captioned/", ua=UA)
-        except urllib.error.HTTPError as e:
+        except Exception as e:  # noqa: BLE001 – HTTP-Fehler, Timeouts
             page = ""
-            print(f"    HTTP {e.code}", file=sys.stderr)
+            print(f"    {e}", file=sys.stderr)
         m = re.search(r'"contextJSON":("(?:[^"\\]|\\.)*")', page or "")
         if m:
             raw = json.loads(m.group(1))
