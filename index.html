@@ -578,20 +578,21 @@ function startApp(unlockedKey) {
         const res = await new google.maps.Geocoder().geocode({ address: q,
           bounds: new google.maps.LatLngBounds({ lat: b.getSouth(), lng: b.getWest() }, { lat: b.getNorth(), lng: b.getEast() }) });
         if (res.results.length) return res.results.slice(0, 5).map(r => ({ label: r.formatted_address,
-          lat: r.geometry.location.lat(), lng: r.geometry.location.lng() }));
-      } catch (e) { /* Geocoding API nicht freigeschaltet → OSM */ }
+          lat: r.geometry.location.lat(), lng: r.geometry.location.lng(), via: "Google" }));
+      } catch (e) { console.warn("Google Geocoding nicht verfügbar → OpenStreetMap", e); }
     }
     const b = map.getBounds();
     const r = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&limit=5&accept-language=de,en&q=${encodeURIComponent(q)}` +
       `&viewbox=${b.getWest()},${b.getNorth()},${b.getEast()},${b.getSouth()}`);
-    return (await r.json()).map(x => ({ label: x.display_name, lat: +x.lat, lng: +x.lon }));
+    return (await r.json()).map(x => ({ label: x.display_name, lat: +x.lat, lng: +x.lon, via: "OpenStreetMap" }));
   }
   async function runSearch() {
     const q = $("#addSearch").value.trim(); if (!q) return;
     $("#addResults").innerHTML = "<li>Suche …</li>";
     try {
       const res = await geocode(q);
-      $("#addResults").innerHTML = res.length ? res.map((x, i) => `<li data-i="${i}">${esc(x.label)}</li>`).join("") : "<li>Nichts gefunden.</li>";
+      $("#addResults").innerHTML = res.length ? res.map((x, i) => `<li data-i="${i}">${esc(x.label)}</li>`).join("") +
+        `<li style="cursor:default;border:0"><small>Suche über ${res[0].via}</small></li>` : "<li>Nichts gefunden.</li>";
       $("#addResults").onclick = e => {
         const li = e.target.closest("li[data-i]"); if (!li) return;
         const x = res[+li.dataset.i];
