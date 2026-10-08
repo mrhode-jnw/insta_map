@@ -63,6 +63,7 @@ def download_slide(code, idx, src):
 # ---------------------------------------------------------------- Caption-Liste → Slide
 
 ENTRY_RE = re.compile(r"^\s*(\d{1,2})(?:\s*[-–&,]\s*(\d{1,2}))?\s*[.)：:]\s*(.+)$")
+LOC_RE = re.compile(r"^\s*(?:location|ort)\s*[:：]\s*(.+?)\s*📍?\s*$", re.I | re.M)
 STOP = {"the", "at", "of", "and", "in", "on", "near", "hong", "kong", "hk", "drone", "view",
         "street", "st", "road", "rd", "building", "bldg"}
 
@@ -79,7 +80,11 @@ def list_entries(caption):
         if not (1 <= a <= b <= 20):
             continue
         out.append((m.group(3).strip(), list(range(a - 1, b))))
-    return out
+    if out:
+        return out
+    # Alternative: „Location: Name📍“-Zeilen in Slide-Reihenfolge
+    locs = [m.group(1).strip() for m in LOC_RE.finditer(caption)]
+    return [(name, [i]) for i, name in enumerate(locs)]
 
 
 def tokens(s):

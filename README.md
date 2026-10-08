@@ -15,7 +15,10 @@ keinen konkreten Ort; sie stehen in der Liste unter „Ohne konkreten Ort“.
 - `hk/geocode.py` – geocodiert neue Suchbegriffe über Nominatim → `hk/geocache.json`.
 - `tools/build_hk.py` – lädt Fotos/Captions und schreibt `data/places.js`.
 
-      python3 hk/geocode.py && python3 tools/build_hk.py
+      python3 hk/geocode.py && python3 tools/fetch_slides.py && python3 tools/build_hk.py
+
+`tools/fetch_slides.py` lädt die Karussell-Bilder; jeder Spot bekommt das Bild, das laut
+nummerierter Caption-Liste („1. …“ bzw. „Location: …“) genau diesen Ort zeigt.
 
 Spots mit „Pin ungefähr“ haben von Hand gesetzte Koordinaten.
 
