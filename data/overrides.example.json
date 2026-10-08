@@ -1,0 +1,7 @@
+{
+  "_hinweis": "Kopiere Einträge nach data/overrides.json. Schlüssel = Post-Shortcode (aus instagram.com/p/<shortcode>/). Mit lat/lng wird nicht geocodiert.",
+  "C1a2B3c4D5e": [
+    { "name": "Tim Ho Wan", "address": "9-11 Fuk Wing Street, Sham Shui Po" },
+    { "name": "Star Ferry Pier", "address": "Salisbury Road, Tsim Sha Tsui", "lat": 22.29354, "lng": 114.16799 }
+  ]
+}
