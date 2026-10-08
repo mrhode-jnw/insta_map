@@ -4923,7 +4923,7 @@ window.PLACES = [
   "lat": 22.217934,
   "lng": 114.209744,
   "approx": false,
-  "image": null,
+  "image": "images/claude_stanley-murray-house-blake-pier.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4932,7 +4932,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Murray House",
   "pop": 4,
-  "pop_reason": "Uferpromenade, Markt, viktorianisches Murray House"
+  "pop_reason": "Uferpromenade, Markt, viktorianisches Murray House",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Murray_House_Stanley_Hong_Kong.jpg",
+  "image_credit": "Hankt · CC BY 3.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Murray_House"
  },
  {
   "id": "claude-high-island-reservoir-east-dam",
@@ -4944,7 +4947,7 @@ window.PLACES = [
   "lat": 22.361976,
   "lng": 114.371535,
   "approx": false,
-  "image": null,
+  "image": "images/claude_high-island-reservoir-east-dam.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4953,7 +4956,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "High Island Reservoir",
   "pop": 4,
-  "pop_reason": "UNESCO-Geopark mit sechseckigen Basaltsäulen"
+  "pop_reason": "UNESCO-Geopark mit sechseckigen Basaltsäulen",
+  "image_page": "https://commons.wikimedia.org/wiki/File:High_Island_Reservoir_3.jpg",
+  "image_credit": "Minghong · CC BY-SA 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/High_Island_Reservoir"
  },
  {
   "id": "claude-cheung-chau",
@@ -4965,7 +4971,7 @@ window.PLACES = [
   "lat": 22.208584,
   "lng": 114.028342,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cheung-chau.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4974,7 +4980,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Cheung Chau",
   "pop": 4,
-  "pop_reason": "Autofreie Insel, Fischerdorf & Bun Festival"
+  "pop_reason": "Autofreie Insel, Fischerdorf & Bun Festival",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Blick_%C3%BCber_Cheung_Chau.JPG",
+  "image_credit": "Man77 · CC BY-SA 3.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Cheung_Chau"
  }
 ];
 window.UNPLACED_POSTS = [

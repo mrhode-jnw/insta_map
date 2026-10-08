@@ -150,5 +150,13 @@
     "artist": "Minghong",
     "license": "CC BY-SA 4.0",
     "wiki_url": "https://en.wikipedia.org/wiki/High_Island_Reservoir"
+  },
+  "cheung-chau": {
+    "image": "images/claude_cheung-chau.jpg",
+    "file": "Blick_über_Cheung_Chau.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Blick_%C3%BCber_Cheung_Chau.JPG",
+    "artist": "Man77",
+    "license": "CC BY-SA 3.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Cheung_Chau"
   }
 }
