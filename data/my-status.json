@@ -49,5 +49,11 @@
  },
  "hk-hill-road-flyover": {
   "prio": "mittel"
+ },
+ "hk-oceanic-building-monster-building-tram-seite": {
+  "prio": "hoch"
+ },
+ "hk-north-point-fire-station-sunbeam-theatre": {
+  "prio": "mittel"
  }
 }
