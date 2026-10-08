@@ -14,5 +14,21 @@
     "artist": "Baycrest",
     "license": "CC BY-SA 2.5",
     "wiki_url": "https://en.wikipedia.org/wiki/Star_Ferry"
+  },
+  "ladies-market": {
+    "image": "images/claude_ladies-market.jpg",
+    "file": "Tung_Choi_Street_201705.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Tung_Choi_Street_201705.JPG",
+    "artist": "Wpcpey",
+    "license": "CC BY-SA 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ladies%27_Market"
+  },
+  "tai-kwun": {
+    "image": "images/claude_tai-kwun.jpg",
+    "file": "Tai_Kwun_Police_Headquarters_Block_201806.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tai_Kwun_Police_Headquarters_Block_201806.jpg",
+    "artist": "Wpcpey",
+    "license": "CC BY-SA 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tai_Kwun"
   }
 }

@@ -4333,7 +4333,7 @@ window.PLACES = [
   "lat": 22.293541,
   "lng": 114.167987,
   "approx": false,
-  "image": null,
+  "image": "images/claude_star-ferry-pier-tsim-sha-tsui.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4342,7 +4342,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Star Ferry",
   "pop": 5,
-  "pop_reason": "Kult-Fähre seit 1888, in jedem Reiseführer"
+  "pop_reason": "Kult-Fähre seit 1888, in jedem Reiseführer",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Tsim_Sha_Tsui_Ferry_Pier.jpg",
+  "image_credit": "Baycrest · CC BY-SA 2.5 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Star_Ferry"
  },
  {
   "id": "claude-former-kcr-clock-tower",
@@ -4396,7 +4399,7 @@ window.PLACES = [
   "lat": 22.317051,
   "lng": 114.171037,
   "approx": false,
-  "image": null,
+  "image": "images/claude_ladies-market.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4405,7 +4408,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Ladies' Market",
   "pop": 4,
-  "pop_reason": "Bekanntester Straßenmarkt in Mong Kok"
+  "pop_reason": "Bekanntester Straßenmarkt in Mong Kok",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Tung_Choi_Street_201705.JPG",
+  "image_credit": "Wpcpey · CC BY-SA 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Ladies%27_Market"
  },
  {
   "id": "claude-man-mo-temple",
@@ -4438,7 +4444,7 @@ window.PLACES = [
   "lat": 22.281942,
   "lng": 114.15426,
   "approx": false,
-  "image": null,
+  "image": "images/claude_tai-kwun.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4447,7 +4453,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Tai Kwun",
   "pop": 4,
-  "pop_reason": "Preisgekröntes Kulturzentrum im alten Polizeirevier"
+  "pop_reason": "Preisgekröntes Kulturzentrum im alten Polizeirevier",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Tai_Kwun_Police_Headquarters_Block_201806.jpg",
+  "image_credit": "Wpcpey · CC BY-SA 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Tai_Kwun"
  },
  {
   "id": "claude-peak-tram",

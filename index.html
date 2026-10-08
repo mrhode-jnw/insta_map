@@ -135,6 +135,12 @@
   .pin.claude { border-color: #7c3aed; position: relative; }
   .pin.claude::before { content: "✦"; position: absolute; left: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
     background: #7c3aed; color: #fff; font-size: 10px; line-height: 16px; text-align: center; }
+  .pop .pnav { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between;
+    padding: 6px 8px; background: rgba(255,255,255,.95); border-bottom: 1px solid #e5e7eb; }
+  .pop .pnav button { width: 38px; height: 34px; border-radius: 10px; border: 1px solid #d1d5db; background: #fff; color: #111827;
+    font-size: 22px; line-height: 1; cursor: pointer; }
+  .pop .pnav span { font-size: 12.5px; color: #6b7280; }
+  .leaflet-popup-close-button { z-index: 3; }
   .pop .claude-note { background: #ede9fe; color: #5b21b6; border-radius: 8px; padding: 5px 8px; font-size: 12px; margin-bottom: 6px; }
   .pop .credit { font-size: 10.5px; color: #6b7280; padding: 2px 12px 0; }
   .pop .credit a { color: #6b7280 !important; }
@@ -294,6 +300,7 @@ function startApp(unlockedKey) {
   const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45, removeOutsideVisibleBounds: false });
   const markers = new Map();
   let me = null;
+  let order = [];  // aktuelle Listen-Reihenfolge (Filter + Sortierung) für ‹ › im Popup
   let sheetSnap = "peek";
   let status = {};  // id -> { prio: "hoch"|"mittel"|"gering", done: true } – aus data/my-status.json
   const st = id => status[id] || {};
@@ -318,7 +325,11 @@ function startApp(unlockedKey) {
     const gal = posts && posts.length > 1 ? `<div class="gal">${posts.map(x => `
         <figure><a href="${esc(x.url)}" target="_blank" rel="noopener">${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : `<img alt="">`}</a>
         <figcaption><a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a></figcaption></figure>`).join("")}</div>` : "";
-    return `<div class="pop">
+    const idx = order.indexOf(p.id);
+    const pnav = idx >= 0 && order.length > 1 ? `<div class="pnav">
+        <button data-go="-1" aria-label="Vorheriger Spot">‹</button><span>${idx + 1} / ${order.length}</span>
+        <button data-go="1" aria-label="Nächster Spot">›</button><span style="width:28px"></span></div>` : "";
+    return `<div class="pop">${pnav}
       ${hero && p.image ? `<a href="${esc(p.post_url || p.wiki_url || "#")}" target="_blank" rel="noopener"><img src="${esc(p.image)}" alt="" loading="lazy"></a>` : ""}
       ${p.by_claude && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
       <div class="b">
@@ -430,6 +441,25 @@ function startApp(unlockedKey) {
       else if (tries < 3) focusMarker(m, tries + 1);
     }, 350));
   }
+  // ‹ › im Popup: zum vorherigen/nächsten Spot der aktuellen Liste
+  function stepSpot(fromId, dir) {
+    if (!order.length) return;
+    const i = order.indexOf(fromId);
+    const next = order[((i < 0 ? 0 : i + dir) + order.length) % order.length];
+    const m = markers.get(next); if (!m) return;
+    map.closePopup();
+    focusMarker(m);
+  }
+  map.on("popupopen", ev => {
+    const el = ev.popup.getElement(), box = el.querySelector(".status");
+    const id = box && box.dataset.id;
+    el.querySelectorAll(".pnav button").forEach(b => b.onclick = e => { e.stopPropagation(); stepSpot(id, +b.dataset.go); });
+  });
+  document.addEventListener("keydown", e => {
+    if (!["ArrowLeft", "ArrowRight"].includes(e.key) || e.target.closest("input, textarea, select")) return;
+    const box = document.querySelector(".leaflet-popup .status"); if (!box) return;
+    stepSpot(box.dataset.id, e.key === "ArrowRight" ? 1 : -1);
+  });
   function syncMarkers(items) {  // nur Unterschiede anwenden, damit offene Popups offen bleiben
     const want = new Set(items.map(p => p.id));
     const out = [...shown].filter(id => !want.has(id));
@@ -469,6 +499,7 @@ function startApp(unlockedKey) {
       .sort((a, b) => sortBy === "pop" ? (b.pop || 0) - (a.pop || 0) || a._d - b._d
         : sortBy === "prio" ? prioRank(a) - prioRank(b) || a._d - b._d
         : me ? a._d - b._d : prioRank(a) - prioRank(b));
+    order = items.map(p => p.id);
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
