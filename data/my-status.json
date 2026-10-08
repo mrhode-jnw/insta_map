@@ -157,5 +157,8 @@
  },
  "hk-reclamation-street-alte-lden": {
   "prio": "mittel"
+ },
+ "hk-20-nullah-road-pre-war-shophouses": {
+  "prio": "gering"
  }
 }
