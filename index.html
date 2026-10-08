@@ -831,7 +831,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     .then(s => { if (s.state === "granted") startWatch(); }).catch(() => {});
 
   // ---------- Eigene Spots: gespeichert in data/my-spots.json im GitHub-Repo
-  const GH = { repo: "mrhode-jnw/insta_map", branch: "claude/sweet-mayer-wqdght", path: "data/my-spots.json" };
+  // Bewertungen & eigene Spots liegen im eigenen Branch „map-data“: Schreiben dort löst keinen Neubau der Seite aus.
+  // Fehlt der Branch noch, wird aus dem Seiten-Branch gelesen und er beim ersten Speichern angelegt.
+  const GH = { repo: "mrhode-jnw/insta_map", branch: "claude/sweet-mayer-wqdght", dataBranch: "map-data", path: "data/my-spots.json" };
   const TOKEN_KEY = "ghToken";
   // Hinterlegter Token aus config.js hat Vorrang – dann muss auf keinem Gerät mehr etwas eingegeben werden
   if (ghTokenFromConfig) { try { localStorage.setItem(TOKEN_KEY, ghTokenFromConfig); } catch {} }
@@ -840,7 +842,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const b64enc = str => btoa(unescape(encodeURIComponent(str)));
   const b64dec = b64 => decodeURIComponent(escape(atob(b64.replace(/\s/g, ""))));
   // Ohne Token direkt aus dem Repo lesen (die Pages-Kopie wird bei Bewertungen nicht neu gebaut)
-  const rawUrl = path => `https://raw.githubusercontent.com/${GH.repo}/${GH.branch}/${path}`;
+  const rawUrl = (path, branch = GH.dataBranch) => `https://raw.githubusercontent.com/${GH.repo}/${branch}/${path}`;
+  const rawJson = async (path, empty) => {
+    for (const br of [GH.dataBranch, GH.branch]) {
+      const r = await fetch(`${rawUrl(path, br)}?t=${Date.now()}`, { cache: "no-store" });
+      if (r.ok) return r.json();
+    }
+    return empty;
+  };
   const ghUrl = path => `https://api.github.com/repos/${GH.repo}/contents/${path}`;
 
   function toPlace(s) {
@@ -854,9 +863,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     list.forEach(s => { const p = toPlace(s); places.push(p); addMarker(p); });
     renderChips(); renderList();
   }
-  async function ghGet(token, path = GH.path, empty = []) {
-    const r = await fetch(`${ghUrl(path)}?ref=${encodeURIComponent(GH.branch)}&t=${Date.now()}`, {
+  let dataBranchExists = null;  // unbekannt / true / false
+  async function ghGet(token, path = GH.path, empty = [], branch = GH.dataBranch) {
+    const r = await fetch(`${ghUrl(path)}?ref=${encodeURIComponent(branch)}&t=${Date.now()}`, {
       headers: { Accept: "application/vnd.github+json", ...(token ? { Authorization: `Bearer ${token}` } : {}) }, cache: "no-store" });
+    if (r.status === 404 && branch === GH.dataBranch && dataBranchExists !== true) {
+      // Branch fehlt (noch) → Daten aus dem Seiten-Branch
+      const br = await fetch(`https://api.github.com/repos/${GH.repo}/branches/${encodeURIComponent(GH.dataBranch)}`,
+        { headers: { Accept: "application/vnd.github+json", ...(token ? { Authorization: `Bearer ${token}` } : {}) } });
+      dataBranchExists = br.ok;
+      if (!br.ok) { const g = await ghGet(token, path, empty, GH.branch); return { ...g, sha: null, fromMain: true }; }
+    }
     if (r.status === 404) return { list: empty, sha: null };
     if (r.status === 401) throw new Error("GitHub-Token ungültig");
     if (!r.ok) throw new Error(`GitHub ${r.status}`);
@@ -868,19 +885,31 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const token = store.get(TOKEN_KEY);
       // mit Token frisch über die API, sonst die veröffentlichte Datei
       const list = token ? (await ghGet(token)).list
-        : await fetch(`${rawUrl(GH.path)}?t=${Date.now()}`, { cache: "no-store" }).then(r => r.ok ? r.json() : []);
+        : await rawJson(GH.path, []);
       showMine(Array.isArray(list) ? list : []);
     } catch (e) { console.warn("Eigene Spots:", e); }
   }
   // Liste frisch holen, ändern, zurückschreiben (bei Konflikt einmal wiederholen)
+  // „map-data“ beim ersten Speichern vom Seiten-Branch abzweigen (übernimmt die bisherigen Bewertungen)
+  async function ensureDataBranch(token) {
+    const h = { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` };
+    const br = await fetch(`https://api.github.com/repos/${GH.repo}/branches/${encodeURIComponent(GH.dataBranch)}`, { headers: h });
+    if (br.ok) { dataBranchExists = true; return; }
+    const ref = await fetch(`https://api.github.com/repos/${GH.repo}/git/ref/heads/${encodeURIComponent(GH.branch)}`, { headers: h }).then(r => r.json());
+    const c = await fetch(`https://api.github.com/repos/${GH.repo}/git/refs`, { method: "POST", headers: h,
+      body: JSON.stringify({ ref: `refs/heads/${GH.dataBranch}`, sha: ref.object.sha }) });
+    if (!c.ok && c.status !== 422) throw new Error(`Daten-Branch anlegen: GitHub ${c.status}`);
+    dataBranchExists = true;
+  }
   async function mutate(fn, message, path = GH.path, empty = []) {
     const token = store.get(TOKEN_KEY);
     if (!token) throw new Error("Kein GitHub-Token");
     for (let attempt = 0; attempt < 2; attempt++) {
+      if (dataBranchExists === false || dataBranchExists === null) await ensureDataBranch(token);
       const { list, sha } = await ghGet(token, path, empty);
       const next = fn(list);
       const r = await fetch(ghUrl(path), { method: "PUT", headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` },
-        body: JSON.stringify({ message, branch: GH.branch, content: b64enc(JSON.stringify(next, null, 1) + "\n"), ...(sha ? { sha } : {}) }) });
+        body: JSON.stringify({ message, branch: GH.dataBranch, content: b64enc(JSON.stringify(next, null, 1) + "\n"), ...(sha ? { sha } : {}) }) });
       if (r.ok) { depositToken(token); return next; }
       if (r.status === 401 || r.status === 403) throw new Error("GitHub-Token ungültig oder ohne Schreibrecht");
       if (r.status !== 409 && r.status !== 422) throw new Error(`GitHub ${r.status}`);
@@ -1027,7 +1056,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     try {
       const token = store.get(TOKEN_KEY);
       const obj = token ? (await ghGet(token, STATUS_PATH, {})).list
-        : await fetch(`${rawUrl(STATUS_PATH)}?t=${Date.now()}`, { cache: "no-store" }).then(r => r.ok ? r.json() : {});
+        : await rawJson(STATUS_PATH, {});
       status = Object.assign(obj && typeof obj === "object" ? obj : {}, pending);
       refreshAll();
     } catch (e) { console.warn("Status:", e); }

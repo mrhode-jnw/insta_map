@@ -142,5 +142,13 @@
     "artist": "Hankt",
     "license": "CC BY 3.0",
     "wiki_url": "https://en.wikipedia.org/wiki/Murray_House"
+  },
+  "high-island-reservoir-east-dam": {
+    "image": "images/claude_high-island-reservoir-east-dam.jpg",
+    "file": "High_Island_Reservoir_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:High_Island_Reservoir_3.jpg",
+    "artist": "Minghong",
+    "license": "CC BY-SA 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/High_Island_Reservoir"
   }
 }
