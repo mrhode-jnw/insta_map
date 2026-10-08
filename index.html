@@ -238,7 +238,7 @@
 </div>
 <div id="map"></div>
 <div id="group" role="tablist" aria-label="Bereich">
-  <button data-g="" class="on">Alle</button><button data-g="fotos">📷 Fotos</button><button data-g="food">🍜 Food</button>
+  <button data-g="">Alle</button><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button>
 </div>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
 <button id="add" class="fab" title="Spot hinzufügen" aria-label="Spot hinzufügen">+</button>
@@ -452,12 +452,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // ---------- Filter (Suche + Kategorie)
   // Oberste Ebene: Bereich (Fotos / Food); Kategorien darunter gehören zum gewählten Bereich
   const GROUPS = { food: p => p.category === "Food", fotos: p => p.category !== "Food" };
-  let group = "";
-  try { group = localStorage.getItem("group") || ""; } catch {}
+  let group = "fotos";  // beim Öffnen immer „Fotos“
   const inGroup = p => !group || GROUPS[group](p);
   $("#group").addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
-    group = b.dataset.g; try { localStorage.setItem("group", group); } catch {}
+    group = b.dataset.g;
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
     renderChips(); renderList();
   });
