@@ -61,5 +61,8 @@
  },
  "hk-bank-of-china-tower-fahnenmasten": {
   "prio": "gering"
+ },
+ "hk-mid-levels-allgemein": {
+  "prio": "gering"
  }
 }
