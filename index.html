@@ -57,10 +57,10 @@
   #list .tag { color: var(--muted); font-size: 12px; }
   #list li.sec { display: block; cursor: default; font-weight: 600; padding-top: 14px; }
   #list li.sec small { font-weight: 400; color: var(--muted); }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 6px; padding: 0 14px 14px; }
-  .grid a { position: relative; display: block; aspect-ratio: 1; border-radius: 8px; overflow: hidden; background: var(--line); }
-  .grid img { width: 100%; height: 100%; object-fit: cover; }
-  .grid span { position: absolute; left: 0; right: 0; bottom: 0; padding: 2px 5px; font-size: 11px; color: #fff;
+  .ugrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 6px; padding: 0 14px 14px; }
+  .ugrid a { position: relative; display: block; aspect-ratio: 1; border-radius: 8px; overflow: hidden; background: var(--line); }
+  .ugrid img { width: 100%; height: 100%; object-fit: cover; }
+  .ugrid span { position: absolute; left: 0; right: 0; bottom: 0; padding: 2px 5px; font-size: 11px; color: #fff;
     background: linear-gradient(transparent, rgba(0,0,0,.7)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
   @media (min-width: 800px) {
@@ -144,7 +144,7 @@
   #chips2 button { flex: none; border: 1px solid var(--line); background: transparent; color: var(--fg);
     border-radius: 999px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
   #chips2 button.on { background: var(--fg); border-color: var(--fg); color: var(--bg); }
-  #list.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; padding: 6px 8px 10px; }
+  #list.grid { display: grid; grid-template-columns: repeat(2, 1fr); grid-auto-rows: max-content; align-content: start; gap: 6px; padding: 6px 8px 10px; }
   @media (min-width: 800px) { #list.grid { grid-template-columns: repeat(2, 1fr); } }
   #list.grid li.gi { display: block; position: relative; padding: 0; border: 0; aspect-ratio: 1; border-radius: 10px; overflow: hidden; background: var(--line); }
   #list.grid li.gi img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
@@ -152,7 +152,7 @@
     background: linear-gradient(transparent, rgba(0,0,0,.75)); line-height: 1.25; }
   #list.grid li.gi .cap2 small { display: block; font-weight: 400; opacity: .85; }
   #list.grid li.gi .badge { position: absolute; top: 6px; left: 6px; display: flex; gap: 4px; }
-  #list.grid li.gi .badge span { background: rgba(0,0,0,.6); color: #fff; border-radius: 999px; padding: 1px 7px; font-size: 11px; }
+  #list.grid li.gi .badge > span { background: rgba(0,0,0,.6); color: #fff; border-radius: 999px; padding: 1px 7px; font-size: 11px; }
   #list.grid li.gi.done img { filter: grayscale(.6); }
   #list.grid #empty { grid-column: 1 / -1; }
   .pop .status { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; margin: 4px 0 8px; }
@@ -371,9 +371,14 @@ function startApp(unlockedKey) {
     return (!cat || p.category === cat || (cat === "★ Meine" && p.mine)) && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio)) && (!doneF || (doneF === "done" ? s.done : !s.done));
   };
-  function syncMarkers(items) {
-    cluster.clearLayers();
-    cluster.addLayers(items.map(p => markers.get(p.id)));
+  const shown = new Set();
+  function syncMarkers(items) {  // nur Unterschiede anwenden, damit offene Popups offen bleiben
+    const want = new Set(items.map(p => p.id));
+    const out = [...shown].filter(id => !want.has(id));
+    const inn = [...want].filter(id => !shown.has(id));
+    cluster.removeLayers(out.map(id => markers.get(id)).filter(Boolean));
+    cluster.addLayers(inn.map(id => markers.get(id)).filter(Boolean));
+    out.forEach(id => shown.delete(id)); inn.forEach(id => shown.add(id));
   }
   // Startansicht: Hauptcluster (Ausreißer wie Shanghai nicht einbeziehen)
   if (places.length) {
@@ -408,7 +413,7 @@ function startApp(unlockedKey) {
     }
     const extra = unplaced.length && !filtered ? `
       <li class="sec">Ohne konkreten Ort <small>(${unplaced.length} Posts – Inspiration)</small></li>
-      <li class="sec" style="padding:0;border:0"><div class="grid">${unplaced.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
+      <li class="sec" style="padding:0;border:0"><div class="ugrid">${unplaced.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
         ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>@${esc(x.username)}</span></a>`).join("")}</div></li>` : "";
     $("#list").innerHTML = (items.length ? items.map(p => `
       <li data-id="${esc(p.id)}">
@@ -427,7 +432,7 @@ function startApp(unlockedKey) {
   });
   $("#search").addEventListener("input", renderList);
   $("#search").addEventListener("focus", () => $("#sheet").classList.add("open"));
-  $("#sheetHead").addEventListener("click", e => { if (e.target.id !== "search") $("#sheet").classList.toggle("open"); });
+  $("#sheetHead").addEventListener("click", e => { if (!e.target.closest("button, input")) $("#sheet").classList.toggle("open"); });
   renderList();
 
   // ---------- Standort
@@ -488,7 +493,8 @@ function startApp(unlockedKey) {
       post_url: s.link || "", username: m ? m[1] : "", profile_url: m ? `https://www.instagram.com/${m[1]}/` : "" };
   }
   function showMine(list) {
-    for (let i = places.length - 1; i >= 0; i--) if (places[i].mine) { markers.delete(places[i].id); places.splice(i, 1); }
+    for (let i = places.length - 1; i >= 0; i--) if (places[i].mine) {
+      const id = places[i].id; cluster.removeLayer(markers.get(id)); shown.delete(id); markers.delete(id); places.splice(i, 1); }
     list.forEach(s => { const p = toPlace(s); places.push(p); addMarker(p); });
     renderChips(); renderList();
   }
