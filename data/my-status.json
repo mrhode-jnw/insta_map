@@ -181,5 +181,8 @@
  },
  "hk-central-restaurant-sham-shui-po": {
   "prio": "hoch"
+ },
+ "hk-dragon-centre": {
+  "prio": "mittel"
  }
 }
