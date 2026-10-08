@@ -94,5 +94,13 @@
     "artist": "Minghong",
     "license": "CC BY-SA 4.0",
     "wiki_url": "https://en.wikipedia.org/wiki/Happy_Valley_Racecourse"
+  },
+  "m-museum-west-kowloon-art-park-m": {
+    "image": "images/claude_m-museum-west-kowloon-art-park-m.jpg",
+    "file": "WKCD_M+,_2021.11.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:WKCD_M%2B,_2021.11.jpg",
+    "artist": "Lord Jaraxxus",
+    "license": "CC BY-SA 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/M%2B"
   }
 }

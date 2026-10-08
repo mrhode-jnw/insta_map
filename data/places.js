@@ -4663,7 +4663,7 @@ window.PLACES = [
   "lat": 22.301709,
   "lng": 114.162984,
   "approx": false,
-  "image": null,
+  "image": "images/claude_m-museum-west-kowloon-art-park-m.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4672,7 +4672,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "M+",
   "pop": 4,
-  "pop_reason": "Neues Museum, Sonnenuntergang am Art Park"
+  "pop_reason": "Neues Museum, Sonnenuntergang am Art Park",
+  "image_page": "https://commons.wikimedia.org/wiki/File:WKCD_M%2B,_2021.11.jpg",
+  "image_credit": "Lord Jaraxxus · CC BY-SA 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/M%2B"
  },
  {
   "id": "claude-hong-kong-palace-museum",

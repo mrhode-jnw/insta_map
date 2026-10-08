@@ -199,6 +199,11 @@
   #lb .bottom a { color: #fff; }
   #lb .bottom a.btn { flex: none; background: var(--accent); padding: 9px 14px; border-radius: 10px; text-decoration: none; font-size: 14px; }
   .pop img[data-lb], .gal img[data-lb] { cursor: zoom-in; }
+  #group { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 12px; z-index: 1000; display: flex;
+    background: var(--bg); border-radius: 999px; box-shadow: var(--shadow); padding: 3px; }
+  #group button { border: 0; background: transparent; color: var(--fg); padding: 7px 12px; border-radius: 999px; font-size: 14px; cursor: pointer; }
+  #group button.on { background: var(--accent); color: #fff; }
+  @media (min-width: 800px) { #group { left: 390px; } }
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
@@ -216,6 +221,9 @@
   </form>
 </div>
 <div id="map"></div>
+<div id="group" role="tablist" aria-label="Bereich">
+  <button data-g="" class="on">Alle</button><button data-g="fotos">📷 Fotos</button><button data-g="food">🍜 Food</button>
+</div>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
 <button id="add" class="fab" title="Spot hinzufügen" aria-label="Spot hinzufügen">+</button>
 <div id="addDlg" hidden>
@@ -403,6 +411,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   map.addLayer(cluster);
 
   // ---------- Filter (Suche + Kategorie)
+  // Oberste Ebene: Bereich (Fotos / Food); Kategorien darunter gehören zum gewählten Bereich
+  const GROUPS = { food: p => p.category === "Food", fotos: p => p.category !== "Food" };
+  let group = "";
+  try { group = localStorage.getItem("group") || ""; } catch {}
+  const inGroup = p => !group || GROUPS[group](p);
+  $("#group").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    group = b.dataset.g; try { localStorage.setItem("group", group); } catch {}
+    if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
+    renderChips(); renderList();
+  });
   let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto", claudeF = null;  // claudeF: null | "only" | "hide"
   try { claudeF = localStorage.getItem("claudeF") || null; } catch {}
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
@@ -436,7 +455,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     renderList();
     if (view === "grid" && sheetSnap === "peek") setSnap("full");
   });
-  const allCats = () => [...new Set(places.map(p => p.category).filter(Boolean))].sort();
+  const allCats = () => [...new Set(places.filter(inGroup).map(p => p.category).filter(Boolean))].sort();
   function renderChips() {
     const cats = allCats();
     if (places.some(p => p.mine)) cats.unshift("★ Meine");
@@ -456,7 +475,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const hay = [p.name, p.address, p.district, p.category, p.note, p.caption, p.username,
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
     const s = st(p.id);
-    return (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
+    return inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
       && (claudeF === "only" ? p.by_claude : claudeF === "hide" ? !p.by_claude : true) && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio)) && (!doneF || (doneF === "done" ? s.done : !s.done))
       && (!popF || (p.pop || 0) >= 4);
@@ -580,10 +599,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         : sortBy === "prio" ? prioRank(a) - prioRank(b) || a._d - b._d
         : here() ? a._d - b._d : prioRank(a) - prioRank(b));
     order = items.map(p => p.id);
+    $("#group").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.g === group));
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = claudeF === "only" || popF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = group === "food" || claudeF === "only" || popF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     if (view === "grid") {
@@ -846,7 +866,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   function openAdd(latlng) {
     dlg.hidden = false; setSnap("peek");
-    $("#addCat").innerHTML = [...new Set([...allCats(), "Eigene"])].map(c => `<option${c === "Eigene" ? " selected" : ""}>${esc(c)}</option>`).join("");
+    const pre = group === "food" ? "Food" : "Eigene";
+    $("#addCat").innerHTML = [...new Set([...places.map(p => p.category).filter(Boolean).sort(), "Food", "Eigene"])]
+      .map(c => `<option${c === pre ? " selected" : ""}>${esc(c)}</option>`).join("");
     $("#tokenRow").hidden = !!store.get(TOKEN_KEY);
     $("#addErr").textContent = "";
     if (latlng) { setDraft(latlng); map.panTo(latlng); }
