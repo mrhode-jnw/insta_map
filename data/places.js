@@ -4516,7 +4516,7 @@ window.PLACES = [
   "lat": 22.284208,
   "lng": 114.173771,
   "approx": false,
-  "image": null,
+  "image": "images/claude_golden-bauhinia-square.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4525,7 +4525,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Golden Bauhinia Square",
   "pop": 4,
-  "pop_reason": "Fahnenzeremonie, Wahrzeichen der Übergabe 1997"
+  "pop_reason": "Fahnenzeremonie, Wahrzeichen der Übergabe 1997",
+  "image_page": "https://commons.wikimedia.org/wiki/File:GoldenBauhiniaSquare.jpg",
+  "image_credit": "No machine-readable author provided. Ilmari Karonen assumed (based on copyright  · CC BY 2.5 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Golden_Bauhinia_Square"
  },
  {
   "id": "claude-hong-kong-observation-wheel",
@@ -4537,7 +4540,7 @@ window.PLACES = [
   "lat": 22.285317,
   "lng": 114.161772,
   "approx": false,
-  "image": null,
+  "image": "images/claude_hong-kong-observation-wheel.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4546,7 +4549,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Hong Kong Observation Wheel",
   "pop": 4,
-  "pop_reason": "Riesenrad am Central Harbourfront"
+  "pop_reason": "Riesenrad am Central Harbourfront",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Observation_Wheel_Sept_2018.jpg",
+  "image_credit": "Erc Chw · CC BY-SA 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Hong_Kong_Observation_Wheel"
  },
  {
   "id": "claude-blue-house",

@@ -46,5 +46,21 @@
     "artist": "WiNG",
     "license": "CC BY 3.0",
     "wiki_url": "https://en.wikipedia.org/wiki/Peak_Tower"
+  },
+  "golden-bauhinia-square": {
+    "image": "images/claude_golden-bauhinia-square.jpg",
+    "file": "GoldenBauhiniaSquare.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:GoldenBauhiniaSquare.jpg",
+    "artist": "No machine-readable author provided. Ilmari Karonen assumed (based on copyright ",
+    "license": "CC BY 2.5",
+    "wiki_url": "https://en.wikipedia.org/wiki/Golden_Bauhinia_Square"
+  },
+  "hong-kong-observation-wheel": {
+    "image": "images/claude_hong-kong-observation-wheel.jpg",
+    "file": "Hong_Kong_Observation_Wheel_Sept_2018.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Observation_Wheel_Sept_2018.jpg",
+    "artist": "Erc Chw",
+    "license": "CC BY-SA 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hong_Kong_Observation_Wheel"
   }
 }
