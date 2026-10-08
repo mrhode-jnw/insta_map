@@ -107,12 +107,25 @@ def score(spot_text, entry):
     return 0.7 * hit_e + 0.3 * hit_s
 
 
+# Zusätze in Spot-Namen, die in Captions nie vorkommen
+GENERIC = {"shophouse", "allgemein", "abgerissen", "gipfel", "spot", "lion", "rock"}
+
+
+def complete(spot_text, entry):
+    """Alle markanten Wörter des Spots stehen im Eintrag (z.B. „King's Road“ ↔ „King’s Road, North Point“)."""
+    st = [t for t in tokens(spot_text) if t not in GENERIC]
+    et = tokens(entry)
+    return bool(st) and all(any(similar(s, e) for e in et) for s in st)
+
+
 def match_slide(spot, entries):
     """Bester Listeneintrag für einen Spot → (slide-index, eintrag, score) oder None."""
     texts = [spot["name"]] + ([spot["q"]] if isinstance(spot["q"], str) else [])
     best = None
     for name, idxs in entries:
         sc = max(score(t, name) for t in texts)
+        if sc < 0.6 and complete(spot["name"], name):
+            sc = 0.6
         if not best or sc > best[2]:
             best = (idxs[0], name, sc)
     return best if best and best[2] >= 0.6 else None
