@@ -73,8 +73,8 @@
 
   /* Popup */
   .leaflet-popup-content-wrapper { border-radius: 14px; padding: 0; overflow: hidden; }
-  .leaflet-popup-content { margin: 0; width: 260px !important; }
-  .pop img { width: 100%; height: 180px; object-fit: cover; display: block; background: #eee; }
+  .leaflet-popup-content { margin: 0; width: min(380px, calc(100vw - 36px)) !important; }
+  .pop img { width: 100%; height: 220px; object-fit: cover; display: block; background: #eee; }
   .pop .b { padding: 10px 12px 12px; }
   .pop h3 { margin: 0 0 4px; font-size: 16px; }
   .pop .addr { color: #4b5563; font-size: 13px; margin-bottom: 6px; }
@@ -87,8 +87,8 @@
   .pop .approx { display: inline-block; background: #fef3c7; color: #92400e; border-radius: 6px; padding: 1px 6px; font-size: 11.5px; margin-bottom: 6px; }
   .pop .note { font-size: 13px; color: #111827; margin-bottom: 6px; }
   .gal { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 0 0 8px; }
-  .gal figure { margin: 0; flex: none; width: 112px; scroll-snap-align: start; }
-  .gal figure img { width: 112px; height: 112px; border-radius: 8px; object-fit: cover; display: block; background: #eee; }
+  .gal figure { margin: 0; flex: none; width: 140px; scroll-snap-align: start; }
+  .gal figure img { width: 140px; height: 140px; border-radius: 8px; object-fit: cover; display: block; background: #eee; }
   .gal figcaption { font-size: 11.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .gal figcaption a { color: var(--accent) !important; text-decoration: none; }
   .pop .dist { color: var(--me); font-size: 12px; margin-bottom: 4px; }
@@ -183,6 +183,11 @@
   .pop .status button.on[data-prio="hoch"] { background: #dc2626; border-color: #dc2626; color: #fff; }
   .pop .status button.on[data-prio="mittel"] { background: #f59e0b; border-color: #f59e0b; color: #fff; }
   .pop .status button.on[data-prio="gering"] { background: #6b7280; border-color: #6b7280; color: #fff; }
+  .pop .status { flex-wrap: nowrap; }
+  .pop .status button.shot { margin-left: auto; position: relative; width: 40px; height: 32px; padding: 0; border-radius: 10px; font-size: 18px; filter: grayscale(1); opacity: .55; }
+  .pop .status button.shot.on { filter: none; opacity: 1; background: #dcfce7; border-color: #16a34a; }
+  .pop .status button.shot.on::after { content: "✓"; position: absolute; right: -6px; top: -6px; width: 16px; height: 16px; border-radius: 50%;
+    background: #16a34a; color: #fff; font-size: 11px; line-height: 16px; }
   .pop .status label { font-size: 12.5px; margin-left: auto; display: flex; gap: 4px; align-items: center; color: #111827; }
   #lb { position: fixed; inset: 0; z-index: 3000; background: #000; color: #fff; display: flex; flex-direction: column;
     touch-action: none; user-select: none; -webkit-user-select: none; }
@@ -285,6 +290,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
 <script>
+  // Neue Version der Seite? Dann einmal neu laden (Safari/Home-Bildschirm halten die Seite sonst lange im Cache)
+  (async () => {
+    try {
+      const u = location.pathname;
+      const [cached, fresh] = await Promise.all([
+        fetch(u, { cache: "force-cache" }).then(r => r.text()),
+        fetch(u, { cache: "reload" }).then(r => r.ok ? r.text() : null)]);
+      if (fresh && cached !== fresh && !sessionStorage.getItem("updReload")) {
+        sessionStorage.setItem("updReload", "1"); location.reload();
+      } else sessionStorage.removeItem("updReload");
+    } catch {}
+  })();
+</script>
+<script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
   const v = Date.now();
   document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script>`);
@@ -372,7 +391,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${p.by_claude ? `<div class="claude-note">✦ Claude-Tipp – nicht aus deiner Sammlung, von Claude als besonders beliebter Spot ergänzt</div>` : ""}
         <div class="status" data-id="${esc(p.id)}">
           ${PRIOS.map(k => `<button data-prio="${k}" class="${st(p.id).prio === k ? "on" : ""}">${PRIO_LABEL[k]}</button>`).join("")}
-          <label><input type="checkbox" data-done ${st(p.id).done ? "checked" : ""}> Fotografiert</label>
+          <button class="shot${st(p.id).done ? " on" : ""}" data-done title="Fotografiert" aria-label="Fotografiert" aria-pressed="${!!st(p.id).done}">📷</button>
         </div>
         ${p.category ? `<div class="meta">${esc([p.mine ? "★ Eigener Spot" : "", p.category, p.district].filter(Boolean).join(" · "))}</div>` : ""}
         ${p.pop ? `<div class="popularity">${"🔥".repeat(p.pop)}${"<span style=\"opacity:.25\">🔥</span>".repeat(5 - p.pop)} Beliebtheit ${p.pop}/5${p.pop_reason ? `<br><small>${esc(p.pop_reason)}</small>` : ""}</div>` : ""}
@@ -404,8 +423,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   function addMarker(p) {
     const m = L.marker([p.lat, p.lng], { icon: iconFor(p), title: p.name });
-    m.bindPopup(() => popupHtml(p), { maxWidth: 260, maxHeight: Math.round(window.innerHeight * 0.62),
-      autoPanPaddingTopLeft: [10, 60], autoPanPaddingBottomRight: [10, 90] });
+    m.bindPopup(() => popupHtml(p), { maxWidth: 400, maxHeight: Math.round(window.innerHeight * 0.62),
+      autoPanPaddingTopLeft: [10, 78], autoPanPaddingBottomRight: [10, 90] });
     markers.set(p.id, m);
   }
   places.forEach(addMarker);
@@ -1006,7 +1025,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       setStatus(id, { prio });
       box.querySelectorAll("button[data-prio]").forEach(x => x.classList.toggle("on", x.dataset.prio === prio));
     });
-    box.querySelector("input[data-done]").onchange = e => setStatus(id, { done: e.target.checked });
+    const shot = box.querySelector("button[data-done]");
+    shot.onclick = () => { const done = !st(id).done; setStatus(id, { done }); shot.classList.toggle("on", done); shot.setAttribute("aria-pressed", done); };
   });
   window.addEventListener("pagehide", () => { if (Object.keys(pending).length) flushStatus(); });
 

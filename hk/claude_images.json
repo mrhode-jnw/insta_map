@@ -102,5 +102,13 @@
     "artist": "Lord Jaraxxus",
     "license": "CC BY-SA 4.0",
     "wiki_url": "https://en.wikipedia.org/wiki/M%2B"
+  },
+  "wong-tai-sin-temple": {
+    "image": "images/claude_wong-tai-sin-temple.jpg",
+    "file": "HK_WongTaiSinTemple.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:HK_WongTaiSinTemple.JPG",
+    "artist": "Chong Fat",
+    "license": "Public domain",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wong_Tai_Sin_Temple_%28Hong_Kong%29"
   }
 }
