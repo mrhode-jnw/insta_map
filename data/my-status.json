@@ -64,5 +64,8 @@
  },
  "hk-mid-levels-allgemein": {
   "prio": "gering"
+ },
+ "hk-chun-yeung-street-market": {
+  "prio": "hoch"
  }
 }
