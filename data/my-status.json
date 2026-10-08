@@ -64,5 +64,17 @@
  },
  "hk-mid-levels-allgemein": {
   "prio": "gering"
+ },
+ "hk-chun-yeung-street-market": {
+  "prio": "hoch"
+ },
+ "hk-lai-tak-estate": {
+  "prio": "gering"
+ },
+ "hk-k11-musea": {
+  "prio": "gering"
+ },
+ "hk-east-coast-boardwalk-lion-rock-view": {
+  "prio": "mittel"
  }
 }
