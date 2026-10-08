@@ -118,5 +118,11 @@
  },
  "hk-lugard-road-peak-rollercoaster-view": {
   "prio": "gering"
+ },
+ "hk-aberdeen-street-steps": {
+  "prio": "mittel"
+ },
+ "hk-footbridge-at-peel-street": {
+  "prio": "gering"
  }
 }
