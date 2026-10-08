@@ -143,6 +143,10 @@
   .pop .pnav span { font-size: 12.5px; color: #6b7280; }
   .leaflet-popup-close-button { display: none !important; }
   .pop .pnav { gap: 8px; }
+  .pop .hero { position: relative; }
+  .pop .hero button.side { position: absolute; top: 50%; transform: translateY(-50%); width: 42px; height: 42px; border-radius: 50%;
+    border: 0; background: rgba(0,0,0,.45); color: #fff; font-size: 26px; line-height: 1; cursor: pointer; }
+  .pop .hero button.side.prev { left: 8px; } .pop .hero button.side.next { right: 8px; }
   .pop .pnav button.pclose { background: #111827; border-color: #111827; color: #fff; font-size: 17px; }
   .pop .claude-note { background: #ede9fe; color: #5b21b6; border-radius: 8px; padding: 5px 8px; font-size: 12px; margin-bottom: 6px; }
   .pop .generic { font-size: 12px; color: #6b7280; margin-bottom: 6px; }
@@ -397,12 +401,15 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           <a class="postlink" href="${esc(x.url)}" target="_blank" rel="noopener">Instagram-Post ↗</a></figcaption></figure>`).join("")}</div>` : "";
     const idx = order.indexOf(p.id);
     const multi = idx >= 0 && order.length > 1;
+    const onImg = multi && p.image;  // Pfeile mittig über dem großen Bild
     const pnav = `<div class="pnav">
         <button class="pclose" aria-label="Schließen">✕</button>
-        ${multi ? `<button data-go="-1" aria-label="Vorheriger Spot">‹</button><span>${idx + 1} / ${order.length}</span>
-        <button data-go="1" aria-label="Nächster Spot">›</button>` : `<span></span>`}</div>`;
+        ${multi && !onImg ? `<button data-go="-1" aria-label="Vorheriger Spot">‹</button>` : ""}
+        ${multi ? `<span>${idx + 1} / ${order.length}</span>` : `<span></span>`}
+        ${multi && !onImg ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : `<span style="width:38px"></span>`}</div>`;
     return `<div class="pop">${pnav}
-      ${hero && p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy" data-lb="0">` : ""}
+      ${p.image ? `<div class="hero"><img src="${esc(p.image)}" alt="" loading="lazy" data-lb="${Math.max(0, imgPosts.findIndex(x => x.image === p.image))}">
+        ${onImg ? `<button class="side prev" data-go="-1" aria-label="Vorheriger Spot">‹</button><button class="side next" data-go="1" aria-label="Nächster Spot">›</button>` : ""}</div>` : ""}
       ${p.by_claude && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
       <div class="b">
         <h3>${esc(p.name)}</h3>
@@ -567,7 +574,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   map.on("popupopen", ev => {
     const el = ev.popup.getElement(), box = el.querySelector(".status");
     const id = box && box.dataset.id;
-    el.querySelectorAll(".pnav button[data-go]").forEach(b => b.onclick = e => { e.stopPropagation(); stepSpot(id, +b.dataset.go); });
+    el.querySelectorAll("button[data-go]").forEach(b => b.onclick = e => { e.stopPropagation(); stepSpot(id, +b.dataset.go); });
     const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); map.closePopup(); };
   });
   document.addEventListener("keydown", e => {
