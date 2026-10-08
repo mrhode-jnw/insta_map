@@ -208,5 +208,8 @@
  },
  "hk-harbour-place-drone": {
   "prio": "hoch"
+ },
+ "hk-wing-sun-pawn-shop": {
+  "prio": "gering"
  }
 }
