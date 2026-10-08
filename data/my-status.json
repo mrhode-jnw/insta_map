@@ -238,5 +238,8 @@
  },
  "hk-murray-road-tram-station": {
   "prio": "gering"
+ },
+ "hk-112-jervois-street-shophouse": {
+  "prio": "gering"
  }
 }
