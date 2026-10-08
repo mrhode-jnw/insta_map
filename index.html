@@ -840,6 +840,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
                   set: (k, v) => { try { v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch {} } };
   const b64enc = str => btoa(unescape(encodeURIComponent(str)));
   const b64dec = b64 => decodeURIComponent(escape(atob(b64.replace(/\s/g, ""))));
+  // Ohne Token direkt aus dem Repo lesen (die Pages-Kopie wird bei Bewertungen nicht neu gebaut)
+  const rawUrl = path => `https://raw.githubusercontent.com/${GH.repo}/${GH.branch}/${path}`;
   const ghUrl = path => `https://api.github.com/repos/${GH.repo}/contents/${path}`;
 
   function toPlace(s) {
@@ -867,7 +869,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const token = store.get(TOKEN_KEY);
       // mit Token frisch über die API, sonst die veröffentlichte Datei
       const list = token ? (await ghGet(token)).list
-        : await fetch(`data/my-spots.json?t=${Date.now()}`, { cache: "no-store" }).then(r => r.ok ? r.json() : []);
+        : await fetch(`${rawUrl(GH.path)}?t=${Date.now()}`, { cache: "no-store" }).then(r => r.ok ? r.json() : []);
       showMine(Array.isArray(list) ? list : []);
     } catch (e) { console.warn("Eigene Spots:", e); }
   }
@@ -1026,7 +1028,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     try {
       const token = store.get(TOKEN_KEY);
       const obj = token ? (await ghGet(token, STATUS_PATH, {})).list
-        : await fetch(`${STATUS_PATH}?t=${Date.now()}`, { cache: "no-store" }).then(r => r.ok ? r.json() : {});
+        : await fetch(`${rawUrl(STATUS_PATH)}?t=${Date.now()}`, { cache: "no-store" }).then(r => r.ok ? r.json() : {});
       status = Object.assign(obj && typeof obj === "object" ? obj : {}, pending);
       refreshAll();
     } catch (e) { console.warn("Status:", e); }
