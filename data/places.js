@@ -88,10 +88,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DYj0h9MEdqD_1.jpg",
+    "image": null,
     "caption": "Here’re 10 photography spots that I highly recommend in Hong Kong 🇭🇰📸 Which one do you like the most?\n\nLocation📍\n1. Jardines Lookout 渣甸山\n2. Aberdeen Street Steps, Central 中環鴨巴甸街樓梯\n3. Nam Cheong Street, Shek Kip Mei 石硤尾南昌街\n4. Oceanic Building, Quarry Bay 鰂魚涌海景樓 (怪獸大廈)\n5. Tung Lo Court, Sham Shui Po 深水埗東廬大廈\n6. Dragon Centre, Sham Shui Po 深水埗西九龍中心\n7. Fa Yuen Street Market, Mongkok 旺角花園街街市\n8. Hill Road Flyover, Shek Tong Tsui 石塘咀山道天橋\n9. Chun Yeung Street Market, North Point 北角春秧街街市 \n10. Portland Street, Mongkok 旺角砵蘭街\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more vis",
     "match": "slide",
-    "slide": 1
+    "slide": 1,
+    "generic": true,
+    "dup": true
    },
    {
     "url": "https://www.instagram.com/mansonyms/p/DdENtaBn9SW/?img_index=1",
@@ -294,9 +296,9 @@ window.PLACES = [
   "lat": 22.283705,
   "lng": 114.152691,
   "approx": false,
-  "image": "images/Dac1mg7FJvW_1.jpg",
-  "caption": "Even as the skyline changes, the spirit of Hong Kong never truly disappears 🕰️🇭🇰 These photos are a reminder of the local neighbourhoods that continue to pulse with that classic energy from the good old times 📻 Which one is your favourite?\n\nLocation: Aberdeen Street Steps, Central📍\n\nLike, Share, and Save if you like this post ❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong\n\nLocation: 58 Pei Ho Street, Shan Shui Po📍\n\nLocation: Tai O Fishing Village📍\n\nLocation: Lei Yue Mun fishing village📍\n\nLocati",
-  "post_url": "https://www.instagram.com/mansonyms/p/Dac1mg7FJvW/?img_index=1",
+  "image": "images/DT5IqoPkTEv_1.jpg",
+  "caption": "Location below⬇️ 5 Hong Kong style streets that I highly recommend to photograph 📸 which one do you like the most? \n\nLocation📍\n1. Aberdeen Street Steps, Central\n2. Reclamation Street, Mongkok\n3. Tung Hing Mansion, Kennedy Town\n4. Shek Kip Mei Street, Sham Shui Po\n5. Nam Cheong Pawn Shop, Sham Shui Po\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
+  "post_url": "https://www.instagram.com/mansonyms/p/DT5IqoPkTEv/?img_index=1",
   "username": "mansonyms",
   "profile_url": "https://www.instagram.com/mansonyms/",
   "posts": [
@@ -305,10 +307,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/Dac1mg7FJvW_1.jpg",
+    "image": null,
     "caption": "Even as the skyline changes, the spirit of Hong Kong never truly disappears 🕰️🇭🇰 These photos are a reminder of the local neighbourhoods that continue to pulse with that classic energy from the good old times 📻 Which one is your favourite?\n\nLocation: Aberdeen Street Steps, Central📍\n\nLike, Share, and Save if you like this post ❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong\n\nLocation: 58 Pei Ho Street, Shan Shui Po📍\n\nLocation: Tai O Fishing Village📍\n\nLocation: Lei Yue Mun fishing village📍\n\nLocati",
     "match": "slide",
-    "slide": 1
+    "slide": 1,
+    "generic": true,
+    "dup": true
    },
    {
     "url": "https://www.instagram.com/mansonyms/p/DT5IqoPkTEv/?img_index=1",
@@ -335,20 +339,24 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/Db-sGDrFBkf_2.jpg",
+    "image": null,
     "caption": "Here’re 10 photography spots that I highly recommend in Central, the pulsing heart of Hong Kong that beautifully showcases the ultimate contrast between modern skyscrapers and historic streets🌐📻 Which one do you like the most?\n\nLocation📍\n1. Des Voeux Road Central\n中環德輔道中\n2. Aberdeen Street Steps\n中環鴨巴甸街樓梯\n3. The Murray Hotel\n美利酒店\n4. Footbridge at Peel Street\n卑利街天橋\n5. Flag poles of Bank of China Tower\n中銀大廈旗桿\n6. The Henderson\n7. St. John’s Cathedral\n聖約翰座堂\n8. 172-176 Queen’s Road Central\n皇后大道中172-176號\n9. Old shops (Kung Lee Sugar Cane Drink)\n公利真料竹蔗水\n10. Murray Road Tram Station\n美利道電車站\n\nLike, Repost",
     "match": "slide",
-    "slide": 2
+    "slide": 2,
+    "generic": true,
+    "dup": true
    },
    {
     "url": "https://www.instagram.com/mansonyms/p/DcI_XIcFNNt/?img_index=2",
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcI_XIcFNNt_2.jpg",
+    "image": null,
     "caption": "The hidden time-capsules of old Hong Kong 🇭🇰⏳Even as the city rushes into the future, there are still pockets of space where time stands still 🕰️ Which one is your favourite?\n\nLocation📍\n1. Tai O Fishing Village\n2. Aberdeen Street Steps\n3. Shek Kip Mei Street\n4. Pei Ho Street Market\n5. Nam Cheong Pawn Shop\n6. Saigon Street\n7. 190 Prince Edward Road Weat\n8. Reclamation Street\n9. Tai Ping Shan Street\n10. Nam Cheong Lau\n\nLike, Repost, and Share if you like this post ❤️‍🔥\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong",
     "match": "slide",
-    "slide": 2
+    "slide": 2,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 2,
@@ -415,10 +423,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcgLuGhFNuF_9.jpg",
+    "image": null,
     "caption": "Every corner of Hong Kong breathes in its own unique color palette 🇭🇰🎨Which one is your favourite?\n\nLocation📍\n1. Choi Hung Estate 彩虹邨🌈\n2. North Point Fire Station 北角消防局🚒\n3. Hoi On Road Noise Barrier 海安路隔音屏障🔸\n4. St. John’s Cathedral 聖約翰座堂🔔\n5. Wong Nai Chung Road 黃泥涌路🌳\n6. Lucky Building 吉祥樓🧢\n7. Shek Kip Mei Estate 石硤尾邨🪁\n8. Lai Tak Estate 勵德邨🎟️\n9. The Murray Hotel 美利酒店◻️\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong\n\n#madewithlightroom #voyaged #disco",
     "match": "slide",
-    "slide": 9
+    "slide": 9,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 3,
@@ -574,10 +584,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcgLuGhFNuF_4.jpg",
+    "image": null,
     "caption": "Every corner of Hong Kong breathes in its own unique color palette 🇭🇰🎨Which one is your favourite?\n\nLocation📍\n1. Choi Hung Estate 彩虹邨🌈\n2. North Point Fire Station 北角消防局🚒\n3. Hoi On Road Noise Barrier 海安路隔音屏障🔸\n4. St. John’s Cathedral 聖約翰座堂🔔\n5. Wong Nai Chung Road 黃泥涌路🌳\n6. Lucky Building 吉祥樓🧢\n7. Shek Kip Mei Estate 石硤尾邨🪁\n8. Lai Tak Estate 勵德邨🎟️\n9. The Murray Hotel 美利酒店◻️\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong\n\n#madewithlightroom #voyaged #disco",
     "match": "slide",
-    "slide": 4
+    "slide": 4,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 3,
@@ -924,10 +936,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcYcTxTlOub_8.jpg",
+    "image": null,
     "caption": "You can’t think of Hong Kong’s streets without picturing the historic Ding Ding tram 🚋🇭🇰 Which one is your favourite?\n\nLocation📍\n1. Oceanic Building, Quarry Bay\n鰂魚涌海景樓 (怪獸大廈)\n2. King’s Road, North Point\n北角英皇道\n3. Percival Street, Causeway Bay\n銅鑼灣波斯富街\n4. Wong Nai Chung Road, Happy Valley\n跑馬地黃泥涌道\n5. Oceanic Building, Quarry Bay\n鰂魚涌海景樓 (怪獸大廈)\n6. Monster Building, Quarry Bay\n鰂魚涌怪獸大廈 (益昌大廈 / 海景樓)\n7. Western Market Tram Station, Sheung Wan\n上環西港城電車總站\n8. Hong Kong Macau Ferry Tram Station, Sheung Wan\n上環港澳碼頭電車站\n9. North Point Road Tram Station, North Point\n北角北角道電車站\n10. Chun Yeung Street, North Point\n北角春",
     "match": "slide",
-    "slide": 8
+    "slide": 8,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 2,
@@ -1324,10 +1338,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DYj0h9MEdqD_8.jpg",
+    "image": null,
     "caption": "Here’re 10 photography spots that I highly recommend in Hong Kong 🇭🇰📸 Which one do you like the most?\n\nLocation📍\n1. Jardines Lookout 渣甸山\n2. Aberdeen Street Steps, Central 中環鴨巴甸街樓梯\n3. Nam Cheong Street, Shek Kip Mei 石硤尾南昌街\n4. Oceanic Building, Quarry Bay 鰂魚涌海景樓 (怪獸大廈)\n5. Tung Lo Court, Sham Shui Po 深水埗東廬大廈\n6. Dragon Centre, Sham Shui Po 深水埗西九龍中心\n7. Fa Yuen Street Market, Mongkok 旺角花園街街市\n8. Hill Road Flyover, Shek Tong Tsui 石塘咀山道天橋\n9. Chun Yeung Street Market, North Point 北角春秧街街市 \n10. Portland Street, Mongkok 旺角砵蘭街\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more vis",
     "match": "slide",
-    "slide": 8
+    "slide": 8,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 3,
@@ -1481,10 +1497,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcYcTxTlOub_1.jpg",
+    "image": null,
     "caption": "You can’t think of Hong Kong’s streets without picturing the historic Ding Ding tram 🚋🇭🇰 Which one is your favourite?\n\nLocation📍\n1. Oceanic Building, Quarry Bay\n鰂魚涌海景樓 (怪獸大廈)\n2. King’s Road, North Point\n北角英皇道\n3. Percival Street, Causeway Bay\n銅鑼灣波斯富街\n4. Wong Nai Chung Road, Happy Valley\n跑馬地黃泥涌道\n5. Oceanic Building, Quarry Bay\n鰂魚涌海景樓 (怪獸大廈)\n6. Monster Building, Quarry Bay\n鰂魚涌怪獸大廈 (益昌大廈 / 海景樓)\n7. Western Market Tram Station, Sheung Wan\n上環西港城電車總站\n8. Hong Kong Macau Ferry Tram Station, Sheung Wan\n上環港澳碼頭電車站\n9. North Point Road Tram Station, North Point\n北角北角道電車站\n10. Chun Yeung Street, North Point\n北角春",
     "match": "slide",
-    "slide": 1
+    "slide": 1,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 3,
@@ -1611,20 +1629,24 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DYj0h9MEdqD_9.jpg",
+    "image": null,
     "caption": "Here’re 10 photography spots that I highly recommend in Hong Kong 🇭🇰📸 Which one do you like the most?\n\nLocation📍\n1. Jardines Lookout 渣甸山\n2. Aberdeen Street Steps, Central 中環鴨巴甸街樓梯\n3. Nam Cheong Street, Shek Kip Mei 石硤尾南昌街\n4. Oceanic Building, Quarry Bay 鰂魚涌海景樓 (怪獸大廈)\n5. Tung Lo Court, Sham Shui Po 深水埗東廬大廈\n6. Dragon Centre, Sham Shui Po 深水埗西九龍中心\n7. Fa Yuen Street Market, Mongkok 旺角花園街街市\n8. Hill Road Flyover, Shek Tong Tsui 石塘咀山道天橋\n9. Chun Yeung Street Market, North Point 北角春秧街街市 \n10. Portland Street, Mongkok 旺角砵蘭街\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more vis",
     "match": "slide",
-    "slide": 9
+    "slide": 9,
+    "generic": true,
+    "dup": true
    },
    {
     "url": "https://www.instagram.com/mansonyms/p/DcYcTxTlOub/?img_index=10",
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcYcTxTlOub_10.jpg",
+    "image": null,
     "caption": "You can’t think of Hong Kong’s streets without picturing the historic Ding Ding tram 🚋🇭🇰 Which one is your favourite?\n\nLocation📍\n1. Oceanic Building, Quarry Bay\n鰂魚涌海景樓 (怪獸大廈)\n2. King’s Road, North Point\n北角英皇道\n3. Percival Street, Causeway Bay\n銅鑼灣波斯富街\n4. Wong Nai Chung Road, Happy Valley\n跑馬地黃泥涌道\n5. Oceanic Building, Quarry Bay\n鰂魚涌海景樓 (怪獸大廈)\n6. Monster Building, Quarry Bay\n鰂魚涌怪獸大廈 (益昌大廈 / 海景樓)\n7. Western Market Tram Station, Sheung Wan\n上環西港城電車總站\n8. Hong Kong Macau Ferry Tram Station, Sheung Wan\n上環港澳碼頭電車站\n9. North Point Road Tram Station, North Point\n北角北角道電車站\n10. Chun Yeung Street, North Point\n北角春",
     "match": "slide",
-    "slide": 10
+    "slide": 10,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 4,
@@ -1831,10 +1853,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcgLuGhFNuF_5.jpg",
+    "image": null,
     "caption": "Every corner of Hong Kong breathes in its own unique color palette 🇭🇰🎨Which one is your favourite?\n\nLocation📍\n1. Choi Hung Estate 彩虹邨🌈\n2. North Point Fire Station 北角消防局🚒\n3. Hoi On Road Noise Barrier 海安路隔音屏障🔸\n4. St. John’s Cathedral 聖約翰座堂🔔\n5. Wong Nai Chung Road 黃泥涌路🌳\n6. Lucky Building 吉祥樓🧢\n7. Shek Kip Mei Estate 石硤尾邨🪁\n8. Lai Tak Estate 勵德邨🎟️\n9. The Murray Hotel 美利酒店◻️\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong\n\n#madewithlightroom #voyaged #disco",
     "match": "slide",
-    "slide": 5
+    "slide": 5,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 2,
@@ -2130,10 +2154,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DTDDiuDEUXv_6.jpg",
+    "image": null,
     "caption": "Location below ⬇️ 10 photography spots that I highly recommend in Hong Kong 🇭🇰📸 Which one do you like the most?\n\nLocation📍\n1. Jardines Lookout\n2. Nam Cheong Street, Shek Kip Mei\n3. Tung Lo Court, Sham Shui Po\n4. ⁠Choi Hung Estate, Choi Hung\n5. Dragon Centre, Sham Shui Po\n6. Fa Yuen Street Market, Mongkok\n7. Hill Road Flyover, Shek Tong Tsui\n8. Monster Building, Quarry Bay\n9. Chun Yeung Street Market, North Point\n10. Portland Street, Mongkok\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
     "match": "slide",
-    "slide": 6
+    "slide": 6,
+    "generic": true,
+    "dup": true
    },
    {
     "url": "https://www.instagram.com/mansonyms/p/DYj0h9MEdqD/?img_index=7",
@@ -2379,10 +2405,12 @@ window.PLACES = [
     "username": "awesomehongkong",
     "profile_url": "https://www.instagram.com/awesomehongkong/",
     "kind": "p",
-    "image": "images/DJWewK0yIqi_3.jpg",
+    "image": null,
     "caption": "Repost @mansonyms The colourful walls of wonder in Hong Kong 🚗 Which one is your favourite? (Location below⬇️)\n\nLocation📍\n1. Lucky Building, To Kwa Wan\n2. Wah Tak Building, Yau Ma Tei\n3. Alhambra Building, Yau Ma Tei\n4. Wing Wah Building, Sham Shui Po\n5. Majestic Apartments, North Point\n\nCanon EOS R6 + RF10-20mm F4 📷\n\nLike, Share, and Save if you like this post ❤️‍🔥\nFollow @mansonyms for more 💡\n\nMore Hong Kong photography guides \n▶️ #mansonyms_hongkong\n#AwesomeHongKong",
     "match": "slide",
-    "slide": 3
+    "slide": 3,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 2,
@@ -2538,10 +2566,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DOiq6REjEzN_8.jpg",
+    "image": null,
     "caption": "Location below⬇️ Places that remind me of the Kowloon Walled City 🧱 Which one do you like the most? \n\nLocation📍\n1. Wah Tak Building, Yau Ma Tei\n2-3. Kim Shin Lane, Cheung Sha Wan\n4-5. Private location\n6. Carnival Mansion, Tsim Sha Tsui\n7. Monster Building, Quarry Bay\n8. Mirador Mansion, Tsim Sha Tsui\n\nLike, Share, and Save if you like this post ❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
     "match": "slide",
-    "slide": 8
+    "slide": 8,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 3,
@@ -2728,20 +2758,24 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DYj0h9MEdqD_3.jpg",
+    "image": null,
     "caption": "Here’re 10 photography spots that I highly recommend in Hong Kong 🇭🇰📸 Which one do you like the most?\n\nLocation📍\n1. Jardines Lookout 渣甸山\n2. Aberdeen Street Steps, Central 中環鴨巴甸街樓梯\n3. Nam Cheong Street, Shek Kip Mei 石硤尾南昌街\n4. Oceanic Building, Quarry Bay 鰂魚涌海景樓 (怪獸大廈)\n5. Tung Lo Court, Sham Shui Po 深水埗東廬大廈\n6. Dragon Centre, Sham Shui Po 深水埗西九龍中心\n7. Fa Yuen Street Market, Mongkok 旺角花園街街市\n8. Hill Road Flyover, Shek Tong Tsui 石塘咀山道天橋\n9. Chun Yeung Street Market, North Point 北角春秧街街市 \n10. Portland Street, Mongkok 旺角砵蘭街\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more vis",
     "match": "slide",
-    "slide": 3
+    "slide": 3,
+    "generic": true,
+    "dup": true
    },
    {
     "url": "https://www.instagram.com/mansonyms/p/DdL7fZ6n5yB/?img_index=1",
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DdL7fZ6n5yB_1.jpg",
+    "image": null,
     "caption": "The elements that make Hong Kong unique 🇭🇰 From the nostalgic neon signs to the classic red taxis rushing through the streets, this city has an character you can’t find anywhere else in the world ✨ Which one is your favourite?\n\nLocation📍\n1. Nam Cheong Street, Shek Kip Mei 🦁\n石硤尾南昌街\n2. 170 Yee Kuk Street, Sham Shui Po 🎋\n深水埗醫局街170號 \n3. 130-132 Ki Lung Street, Sham Shui Po 🏠\n深水埗基隆街130-132號\n4. Third Street, Sai Ying Pun 🚗\n西營盤第三街\n5. Old shops 📻\n舊式店舖\n6. Shop cats 😼\n舖頭貓\n7. Hong Kong Macau Ferry Tram station, Sheung Wan 🚋\n上環港澳碼頭電車站\n8. Portland Street, Mongkok 🚥\n旺角砵蘭街\n9. Wing Sun Pawn Shop, Hung Hom 🦇\n紅",
     "match": "slide",
-    "slide": 1
+    "slide": 1,
+    "generic": true,
+    "dup": true
    },
    {
     "url": "https://www.instagram.com/mansonyms/p/DSPlkfhERa6/?img_index=9",
@@ -2818,10 +2852,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcI_XIcFNNt_4.jpg",
+    "image": null,
     "caption": "The hidden time-capsules of old Hong Kong 🇭🇰⏳Even as the city rushes into the future, there are still pockets of space where time stands still 🕰️ Which one is your favourite?\n\nLocation📍\n1. Tai O Fishing Village\n2. Aberdeen Street Steps\n3. Shek Kip Mei Street\n4. Pei Ho Street Market\n5. Nam Cheong Pawn Shop\n6. Saigon Street\n7. 190 Prince Edward Road Weat\n8. Reclamation Street\n9. Tai Ping Shan Street\n10. Nam Cheong Lau\n\nLike, Repost, and Share if you like this post ❤️‍🔥\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong",
     "match": "slide",
-    "slide": 4
+    "slide": 4,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 3,
@@ -2868,10 +2904,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcI_XIcFNNt_5.jpg",
+    "image": null,
     "caption": "The hidden time-capsules of old Hong Kong 🇭🇰⏳Even as the city rushes into the future, there are still pockets of space where time stands still 🕰️ Which one is your favourite?\n\nLocation📍\n1. Tai O Fishing Village\n2. Aberdeen Street Steps\n3. Shek Kip Mei Street\n4. Pei Ho Street Market\n5. Nam Cheong Pawn Shop\n6. Saigon Street\n7. 190 Prince Edward Road Weat\n8. Reclamation Street\n9. Tai Ping Shan Street\n10. Nam Cheong Lau\n\nLike, Repost, and Share if you like this post ❤️‍🔥\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong",
     "match": "slide",
-    "slide": 5
+    "slide": 5,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 3,
@@ -2938,20 +2976,24 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DYj0h9MEdqD_5.jpg",
+    "image": null,
     "caption": "Here’re 10 photography spots that I highly recommend in Hong Kong 🇭🇰📸 Which one do you like the most?\n\nLocation📍\n1. Jardines Lookout 渣甸山\n2. Aberdeen Street Steps, Central 中環鴨巴甸街樓梯\n3. Nam Cheong Street, Shek Kip Mei 石硤尾南昌街\n4. Oceanic Building, Quarry Bay 鰂魚涌海景樓 (怪獸大廈)\n5. Tung Lo Court, Sham Shui Po 深水埗東廬大廈\n6. Dragon Centre, Sham Shui Po 深水埗西九龍中心\n7. Fa Yuen Street Market, Mongkok 旺角花園街街市\n8. Hill Road Flyover, Shek Tong Tsui 石塘咀山道天橋\n9. Chun Yeung Street Market, North Point 北角春秧街街市 \n10. Portland Street, Mongkok 旺角砵蘭街\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more vis",
     "match": "slide",
-    "slide": 5
+    "slide": 5,
+    "generic": true,
+    "dup": true
    },
    {
     "url": "https://www.instagram.com/mansonyms/p/DbInTfuAcpp/?img_index=7",
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DbInTfuAcpp_7.jpg",
+    "image": null,
     "caption": "Hong Kong’s historic corner buildings are hidden masterpieces in the concrete jungle 📐 They are unique architectural gems that perfectly preserve the soul of old Hong Kong 🕰️🇭🇰 Which one is your favourite?\n\nLocation: Pak Far Building, Sham Shui Po📍\n\nLike, Repost, and Save if you like this post ❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong\n\nLocation: Ming Fat Mansion, Prince Edward📍\n\nLocation: 132 Ki Lung Street, Sham Shui Po📍\n\nLocation: Swiss House, Quarry Bay (demolished)📍\n\nLocation: Mia Casa",
     "match": "slide",
-    "slide": 7
+    "slide": 7,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 1,
@@ -2988,10 +3030,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DYj0h9MEdqD_6.jpg",
+    "image": null,
     "caption": "Here’re 10 photography spots that I highly recommend in Hong Kong 🇭🇰📸 Which one do you like the most?\n\nLocation📍\n1. Jardines Lookout 渣甸山\n2. Aberdeen Street Steps, Central 中環鴨巴甸街樓梯\n3. Nam Cheong Street, Shek Kip Mei 石硤尾南昌街\n4. Oceanic Building, Quarry Bay 鰂魚涌海景樓 (怪獸大廈)\n5. Tung Lo Court, Sham Shui Po 深水埗東廬大廈\n6. Dragon Centre, Sham Shui Po 深水埗西九龍中心\n7. Fa Yuen Street Market, Mongkok 旺角花園街街市\n8. Hill Road Flyover, Shek Tong Tsui 石塘咀山道天橋\n9. Chun Yeung Street Market, North Point 北角春秧街街市 \n10. Portland Street, Mongkok 旺角砵蘭街\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more vis",
     "match": "slide",
-    "slide": 6
+    "slide": 6,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 2,
@@ -3158,10 +3202,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DbInTfuAcpp_3.jpg",
+    "image": null,
     "caption": "Hong Kong’s historic corner buildings are hidden masterpieces in the concrete jungle 📐 They are unique architectural gems that perfectly preserve the soul of old Hong Kong 🕰️🇭🇰 Which one is your favourite?\n\nLocation: Pak Far Building, Sham Shui Po📍\n\nLike, Repost, and Save if you like this post ❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong\n\nLocation: Ming Fat Mansion, Prince Edward📍\n\nLocation: 132 Ki Lung Street, Sham Shui Po📍\n\nLocation: Swiss House, Quarry Bay (demolished)📍\n\nLocation: Mia Casa",
     "match": "slide",
-    "slide": 3
+    "slide": 3,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 2,
@@ -3198,10 +3244,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcI_XIcFNNt_3.jpg",
+    "image": null,
     "caption": "The hidden time-capsules of old Hong Kong 🇭🇰⏳Even as the city rushes into the future, there are still pockets of space where time stands still 🕰️ Which one is your favourite?\n\nLocation📍\n1. Tai O Fishing Village\n2. Aberdeen Street Steps\n3. Shek Kip Mei Street\n4. Pei Ho Street Market\n5. Nam Cheong Pawn Shop\n6. Saigon Street\n7. 190 Prince Edward Road Weat\n8. Reclamation Street\n9. Tai Ping Shan Street\n10. Nam Cheong Lau\n\nLike, Repost, and Share if you like this post ❤️‍🔥\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong",
     "match": "slide",
-    "slide": 3
+    "slide": 3,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 2,
@@ -3398,20 +3446,24 @@ window.PLACES = [
     "username": "awesomehongkong",
     "profile_url": "https://www.instagram.com/awesomehongkong/",
     "kind": "p",
-    "image": "images/DJWewK0yIqi_1.jpg",
+    "image": null,
     "caption": "Repost @mansonyms The colourful walls of wonder in Hong Kong 🚗 Which one is your favourite? (Location below⬇️)\n\nLocation📍\n1. Lucky Building, To Kwa Wan\n2. Wah Tak Building, Yau Ma Tei\n3. Alhambra Building, Yau Ma Tei\n4. Wing Wah Building, Sham Shui Po\n5. Majestic Apartments, North Point\n\nCanon EOS R6 + RF10-20mm F4 📷\n\nLike, Share, and Save if you like this post ❤️‍🔥\nFollow @mansonyms for more 💡\n\nMore Hong Kong photography guides \n▶️ #mansonyms_hongkong\n#AwesomeHongKong",
     "match": "slide",
-    "slide": 1
+    "slide": 1,
+    "generic": true,
+    "dup": true
    },
    {
     "url": "https://www.instagram.com/mansonyms/p/DcgLuGhFNuF/?img_index=6",
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcgLuGhFNuF_6.jpg",
+    "image": null,
     "caption": "Every corner of Hong Kong breathes in its own unique color palette 🇭🇰🎨Which one is your favourite?\n\nLocation📍\n1. Choi Hung Estate 彩虹邨🌈\n2. North Point Fire Station 北角消防局🚒\n3. Hoi On Road Noise Barrier 海安路隔音屏障🔸\n4. St. John’s Cathedral 聖約翰座堂🔔\n5. Wong Nai Chung Road 黃泥涌路🌳\n6. Lucky Building 吉祥樓🧢\n7. Shek Kip Mei Estate 石硤尾邨🪁\n8. Lai Tak Estate 勵德邨🎟️\n9. The Murray Hotel 美利酒店◻️\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong\n\n#madewithlightroom #voyaged #disco",
     "match": "slide",
-    "slide": 6
+    "slide": 6,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 2,
@@ -4126,10 +4178,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcI_XIcFNNt_1.jpg",
+    "image": null,
     "caption": "The hidden time-capsules of old Hong Kong 🇭🇰⏳Even as the city rushes into the future, there are still pockets of space where time stands still 🕰️ Which one is your favourite?\n\nLocation📍\n1. Tai O Fishing Village\n2. Aberdeen Street Steps\n3. Shek Kip Mei Street\n4. Pei Ho Street Market\n5. Nam Cheong Pawn Shop\n6. Saigon Street\n7. 190 Prince Edward Road Weat\n8. Reclamation Street\n9. Tai Ping Shan Street\n10. Nam Cheong Lau\n\nLike, Repost, and Share if you like this post ❤️‍🔥\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong",
     "match": "slide",
-    "slide": 1
+    "slide": 1,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 4,
@@ -4226,10 +4280,12 @@ window.PLACES = [
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DcgLuGhFNuF_3.jpg",
+    "image": null,
     "caption": "Every corner of Hong Kong breathes in its own unique color palette 🇭🇰🎨Which one is your favourite?\n\nLocation📍\n1. Choi Hung Estate 彩虹邨🌈\n2. North Point Fire Station 北角消防局🚒\n3. Hoi On Road Noise Barrier 海安路隔音屏障🔸\n4. St. John’s Cathedral 聖約翰座堂🔔\n5. Wong Nai Chung Road 黃泥涌路🌳\n6. Lucky Building 吉祥樓🧢\n7. Shek Kip Mei Estate 石硤尾邨🪁\n8. Lai Tak Estate 勵德邨🎟️\n9. The Murray Hotel 美利酒店◻️\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong\n\n#madewithlightroom #voyaged #disco",
     "match": "slide",
-    "slide": 3
+    "slide": 3,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 2,
@@ -4708,7 +4764,7 @@ window.PLACES = [
   "lat": 22.342818,
   "lng": 114.193551,
   "approx": false,
-  "image": null,
+  "image": "images/claude_wong-tai-sin-temple.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4717,7 +4773,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Wong Tai Sin Temple (Hong Kong)",
   "pop": 5,
-  "pop_reason": "Meistbesuchter Tempel Hongkongs"
+  "pop_reason": "Meistbesuchter Tempel Hongkongs",
+  "image_page": "https://commons.wikimedia.org/wiki/File:HK_WongTaiSinTemple.JPG",
+  "image_credit": "Chong Fat · Public domain · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Wong_Tai_Sin_Temple_%28Hong_Kong%29"
  },
  {
   "id": "claude-chi-lin-nunnery-nan-lian-garden",
@@ -4729,7 +4788,7 @@ window.PLACES = [
   "lat": 22.339355,
   "lng": 114.204853,
   "approx": false,
-  "image": null,
+  "image": "images/claude_chi-lin-nunnery-nan-lian-garden.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4738,7 +4797,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Nan Lian Garden",
   "pop": 4,
-  "pop_reason": "Goldener Pavillon im Tang-Stil"
+  "pop_reason": "Goldener Pavillon im Tang-Stil",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Nan_Lian_Garden_Overview_201807.jpg",
+  "image_credit": "Wpcpey · CC BY-SA 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Nan_Lian_Garden"
  },
  {
   "id": "claude-tian-tan-buddha-big-buddha",
@@ -4750,7 +4812,7 @@ window.PLACES = [
   "lat": 22.253963,
   "lng": 113.905012,
   "approx": false,
-  "image": null,
+  "image": "images/claude_tian-tan-buddha-big-buddha.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4759,7 +4821,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Tian Tan Buddha",
   "pop": 5,
-  "pop_reason": "Weltberühmte Bronzestatue, Top-Attraktion"
+  "pop_reason": "Weltberühmte Bronzestatue, Top-Attraktion",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Tian_Tan_Buddha_2023081302.jpg",
+  "image_credit": "Huangdan2060 · CC BY 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Tian_Tan_Buddha"
  },
  {
   "id": "claude-ngong-ping-360-360",

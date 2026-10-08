@@ -94,6 +94,27 @@ def spot_id(name):
     return "hk-" + slug[:48]
 
 
+def dhash(rel, n=8):
+    """Wahrnehmungs-Hash: gleiche Fotos (auch mit Schrift-Overlay/leichtem Zuschnitt) liegen nah beieinander."""
+    from PIL import Image
+    im = Image.open(os.path.join(ROOT, rel)).convert("L").resize((n + 1, n), Image.LANCZOS)
+    px = im.load()
+    return sum(1 << (r * n + c) for r in range(n) for c in range(n) if px[c, r] > px[c + 1, r])
+
+
+def dedupe(ps):
+    """Gleiches Foto aus mehreren Posts nur einmal zeigen – bevorzugt ein Karussell-Bild ohne Titel-Overlay."""
+    rank = lambda p: 0 if p["match"] == "slide" and p.get("slide", 1) > 1 else 1 if p["match"] == "slide" else 2
+    kept = []
+    for p in sorted([p for p in ps if p["image"]], key=rank):
+        h = dhash(p["image"])
+        if any(bin(h ^ k).count("1") <= 16 for k in kept):
+            p["image"], p["generic"], p["dup"] = None, True, True
+        else:
+            kept.append(h)
+    return ps
+
+
 places, used = [], set()
 for n, s in enumerate(S):
     if isinstance(s["q"], tuple):
@@ -104,10 +125,10 @@ for n, s in enumerate(S):
         g = geo[s["q"]]
         lat, lng, approx, addr = g["lat"], g["lon"], False, g.get("name") or s["q"]
     used.update(s["posts"])
-    ps = [spot_post(s, i) for i in s["posts"]]
+    ps = dedupe([spot_post(s, i) for i in s["posts"]])
     # Markerbild: zum Spot passendes Slide > Post nur dieses Spots > Titelbild
-    first = (next((p for p in ps if p["match"] == "slide"), None)
-             or next((p for p in ps if p["match"] == "single"), None)
+    first = (next((p for p in ps if p["image"] and p["match"] == "slide"), None)
+             or next((p for p in ps if p["image"]), None)
              or ps[0])
     places.append({
         "id": spot_id(s["name"]),

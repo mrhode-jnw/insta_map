@@ -405,8 +405,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${d}
         ${p.note ? `<div class="note">${esc(p.note)}</div>` : ""}
         ${gal}
-        ${generic.length ? `<div class="generic">${posts ? "Außerdem erwähnt in" : "Kein eigenes Foto – erwähnt in"} ${generic.map(x =>
-          `Sammel-Post von <a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a> · <a href="${esc(x.url)}" target="_blank" rel="noopener">Post ↗</a>`).join(", ")}</div>` : ""}
+        ${generic.length ? `<div class="generic">${posts ? "Außerdem in" : "Kein eigenes Foto – erwähnt in"} ${generic.map(x =>
+          `${x.dup ? "Post (gleiches Foto)" : "Sammel-Post"} von <a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a> · <a href="${esc(x.url)}" target="_blank" rel="noopener">Post ↗</a>`).join("; ")}</div>` : ""}
         <div class="addr">${esc(p.address)}<br><small>${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}</small></div>
         ${hero && p.caption && (p.image || !generic.length) ? `<div class="cap">${esc(p.caption)}</div>` : ""}
         <div class="links">
