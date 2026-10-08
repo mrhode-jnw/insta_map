@@ -56,6 +56,23 @@ Posts und Geocodes kommen aus `data/cache.json`.
 Optionen: `--region "Hong Kong"` (wird an Adressen angehängt), `--delay 3` (Pause
 zwischen Instagram-Abrufen; bei HTTP 429 erhöhen).
 
+## Google Maps & Zugangscode
+
+Ohne Key zeigt die Karte OpenStreetMap. Für Google Maps (Karte + Satellit):
+
+1. In der [Google Cloud Console](https://console.cloud.google.com/) ein Projekt anlegen,
+   Abrechnung aktivieren und die **Maps JavaScript API** einschalten.
+2. Unter *APIs & Dienste → Anmeldedaten* einen API-Key erstellen und einschränken:
+   *Websites* → `https://mrhode-jnw.github.io/*`, *API-Einschränkung* → Maps JavaScript API.
+3. Optional unter *Kontingente* die Ladevorgänge pro Tag begrenzen (z.B. 500) – das ist
+   die eigentliche Kostenbremse.
+4. `setup.html` öffnen (z.B. https://mrhode-jnw.github.io/insta_map/setup.html), Key und
+   einen Zugangscode eingeben, die erzeugte Zeile in `config.js` eintragen und pushen.
+
+Ab dann fragt die Karte beim Öffnen nach dem Code. Der Key liegt nur verschlüsselt im
+Repo und wird erst mit dem richtigen Code entschlüsselt; ohne Code wird Google Maps nie
+geladen. Die Spot-Daten und Bilder selbst sind im öffentlichen Repo weiterhin lesbar.
+
 ## Karte öffnen
 
 Der Standort funktioniert nur über HTTPS. Am einfachsten mit **GitHub Pages**:
