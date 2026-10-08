@@ -235,5 +235,8 @@
  },
  "hk-172-176-queen-s-road-central": {
   "prio": "gering"
+ },
+ "hk-murray-road-tram-station": {
+  "prio": "gering"
  }
 }
