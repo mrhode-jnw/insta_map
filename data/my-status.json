@@ -271,5 +271,8 @@
  },
  "hk-kam-lam-street": {
   "prio": "gering"
+ },
+ "hk-neon-hop-hing-lung-ceramics-sanitaryware": {
+  "prio": "hoch"
  }
 }
