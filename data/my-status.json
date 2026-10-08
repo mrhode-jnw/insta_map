@@ -67,5 +67,8 @@
  },
  "hk-chun-yeung-street-market": {
   "prio": "hoch"
+ },
+ "hk-lai-tak-estate": {
+  "prio": "gering"
  }
 }
