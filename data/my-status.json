@@ -268,5 +268,8 @@
  },
  "hk-soy-street-tunnel": {
   "prio": "gering"
+ },
+ "hk-kam-lam-street": {
+  "prio": "gering"
  }
 }
