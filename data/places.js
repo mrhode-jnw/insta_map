@@ -4594,7 +4594,7 @@ window.PLACES = [
   "lat": 22.272605,
   "lng": 114.180642,
   "approx": false,
-  "image": null,
+  "image": "images/claude_happy-valley-racecourse.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4603,7 +4603,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Happy Valley Racecourse",
   "pop": 4,
-  "pop_reason": "Pferderennen mittwochabends inmitten der Hochhäuser"
+  "pop_reason": "Pferderennen mittwochabends inmitten der Hochhäuser",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Happy_Valley_Racecourse_1.jpg",
+  "image_credit": "Minghong · CC BY-SA 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Happy_Valley_Racecourse"
  },
  {
   "id": "claude-sky100-100",

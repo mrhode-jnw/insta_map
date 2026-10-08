@@ -86,5 +86,13 @@
     "artist": "hkgalbert",
     "license": "CC0",
     "wiki_url": "https://en.wikipedia.org/wiki/Temple_Street%2C_Hong_Kong"
+  },
+  "happy-valley-racecourse": {
+    "image": "images/claude_happy-valley-racecourse.jpg",
+    "file": "Happy_Valley_Racecourse_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Happy_Valley_Racecourse_1.jpg",
+    "artist": "Minghong",
+    "license": "CC BY-SA 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Happy_Valley_Racecourse"
   }
 }

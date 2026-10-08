@@ -319,7 +319,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // ---------- Marker
   const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45, removeOutsideVisibleBounds: false });
   const markers = new Map();
-  let me = null;
+  let me = null, nearSpots = false;
+  // Entfernungen nur zeigen, wenn man vor Ort ist (nächster Spot < 50 km) – von zu Hause aus sind sie sinnlos
+  const here = () => !!me && nearSpots;
   let order = [];  // aktuelle Listen-Reihenfolge (Filter + Sortierung) für ‹ › im Popup
   let sheetSnap = "peek";
   let status = {};  // id -> { prio: "hoch"|"mittel"|"gering", done: true } – aus data/my-status.json
@@ -338,7 +340,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const postLinks = p => `<a href="${esc(p.url)}" target="_blank" rel="noopener">Post</a> · <a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>`;
 
   function popupHtml(p) {
-    const d = me ? `<div class="dist">📍 ${fmt(dist(me, p))} entfernt</div>` : "";
+    const d = here() ? `<div class="dist">📍 ${fmt(dist(me, p))} entfernt</div>` : "";
     const nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
     const posts = p.posts && p.posts.length ? p.posts : null;
     const hero = !posts || posts.length === 1;
@@ -567,10 +569,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     let items = places.filter(matches);
     syncMarkers(items);
     if (inView) { const vb = visibleBounds(); items = items.filter(p => vb.contains([p.lat, p.lng])); }
-    items = items.map(p => ({ ...p, _d: me ? dist(me, p) : 0 }))
+    items = items.map(p => ({ ...p, _d: here() ? dist(me, p) : 0 }))
       .sort((a, b) => sortBy === "pop" ? (b.pop || 0) - (a.pop || 0) || a._d - b._d
         : sortBy === "prio" ? prioRank(a) - prioRank(b) || a._d - b._d
-        : me ? a._d - b._d : prioRank(a) - prioRank(b));
+        : here() ? a._d - b._d : prioRank(a) - prioRank(b));
     order = items.map(p => p.id);
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
@@ -583,7 +585,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <li class="gi${s.done ? " done" : ""}" data-id="${esc(p.id)}">
           ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}
           <div class="badge">${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
-          <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : "", me ? fmt(p._d) : ""].filter(Boolean).join(" · "))}</small></div>
+          <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : "", here() ? fmt(p._d) : ""].filter(Boolean).join(" · "))}</small></div>
         </li>`; }).join("") : `<li id="empty">Keine Treffer.</li>`;
       return;
     }
@@ -596,7 +598,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
           ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${esc([p.category, p.district].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
-        ${me ? `<div class="d">${fmt(p._d)}</div>` : ""}
+        ${here() ? `<div class="d">${fmt(p._d)}</div>` : ""}
       </li>`).join("")
       : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`) + extra;
   }
@@ -701,8 +703,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       meMarker = L.marker(ll, { icon: L.divIcon({ className: "", html: '<div class="me-dot"></div>', iconSize: [18, 18], iconAnchor: [9, 9] }),
         zIndexOffset: 1000, interactive: false }).addTo(map);
     } else { meMarker.setLatLng(ll); meCircle.setLatLng(ll).setRadius(pos.coords.accuracy); }
-    if (first) map.setView(ll, Math.max(map.getZoom(), 15));
-    else if (follow) map.panTo(ll);
+    const nearest = places.reduce((m, p) => Math.min(m, dist(me, p)), Infinity);
+    const wasNear = nearSpots; nearSpots = nearest < 50e3;
+    if (first && nearSpots) map.setView(ll, Math.max(map.getZoom(), 15));
+    if (first && !nearSpots && places.length) toast(`Du bist ${fmt(nearest)} vom nächsten Spot entfernt – Entfernungen erscheinen vor Ort.`, 4500);
+    if (wasNear !== nearSpots) lastListUpdate = 0;
+    if (!first && follow) map.panTo(ll);
     if (Date.now() - lastListUpdate > 5000) { lastListUpdate = Date.now(); renderList(); }
   }
   function onErr(err) {
