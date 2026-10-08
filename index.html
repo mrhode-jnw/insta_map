@@ -218,6 +218,8 @@
     body.popup-open #sheet { transform: translateY(105%) !important; }
     .pop img { height: 190px; }
   }
+  #update { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 110px); z-index: 2500;
+    background: #111827; color: #fff; border: 0; border-radius: 999px; padding: 10px 16px; font-size: 14px; box-shadow: var(--shadow); }
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
@@ -290,6 +292,7 @@
   <ul id="list"></ul>
 </section>
 <div id="toast"></div>
+<button id="update" hidden>Neue Version verfügbar – tippen zum Laden</button>
 <div id="lb" hidden>
   <div class="top"><span id="lbCount"></span><button id="lbClose" aria-label="Schließen">✕</button></div>
   <div class="stage"><img id="lbImg" alt=""><button class="nav prev" id="lbPrev" aria-label="Vorheriges Bild">‹</button><button class="nav next" id="lbNext" aria-label="Nächstes Bild">›</button></div>
@@ -299,18 +302,22 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
 <script>
-  // Neue Version der Seite? Dann einmal neu laden (Safari/Home-Bildschirm halten die Seite sonst lange im Cache)
-  (async () => {
+  // Neue Version der Seite? Hinweis zeigen (kein automatisches Neuladen).
+  // Vergleich über die Inline-Skripte: die ändert JavaScript nie, anders als das DOM.
+  window.addEventListener("load", () => setTimeout(async () => {
     try {
-      const u = location.pathname;
-      const [cached, fresh] = await Promise.all([
-        fetch(u, { cache: "force-cache" }).then(r => r.text()),
-        fetch(u, { cache: "reload" }).then(r => r.ok ? r.text() : null)]);
-      if (fresh && cached !== fresh && !sessionStorage.getItem("updReload")) {
-        sessionStorage.setItem("updReload", "1"); location.reload();
-      } else sessionStorage.removeItem("updReload");
+      const fp = t => { let h = 0; for (let i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) | 0; return h; };
+      const inline = doc => [...doc.querySelectorAll("script:not([src])")].map(x => x.textContent).join("\n");
+      const html = await fetch(location.pathname + "?check=" + Date.now(), { cache: "no-store" }).then(r => r.ok ? r.text() : "");
+      if (!html) return;
+      const fresh = new DOMParser().parseFromString(html, "text/html");
+      if (fp(inline(fresh)) !== fp(inline(document))) {
+        const bar = document.getElementById("update");
+        bar.hidden = false;
+        bar.onclick = () => location.replace(location.pathname + "?v=" + Date.now());
+      }
     } catch {}
-  })();
+  }, 1500));
 </script>
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
@@ -392,9 +399,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const idx = order.indexOf(p.id);
     const multi = idx >= 0 && order.length > 1;
     const pnav = `<div class="pnav">
+        <button class="pclose" aria-label="Schließen">✕</button>
         ${multi ? `<button data-go="-1" aria-label="Vorheriger Spot">‹</button><span>${idx + 1} / ${order.length}</span>
-        <button data-go="1" aria-label="Nächster Spot">›</button>` : `<span></span>`}
-        <button class="pclose" aria-label="Schließen">✕</button></div>`;
+        <button data-go="1" aria-label="Nächster Spot">›</button>` : `<span></span>`}</div>`;
     return `<div class="pop">${pnav}
       ${hero && p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy" data-lb="0">` : ""}
       ${p.by_claude && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
