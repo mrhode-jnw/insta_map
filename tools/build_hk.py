@@ -132,6 +132,7 @@ for n, s in enumerate(S):
 # Claude-Tipps: ergänzende Top-Spots, nicht aus der Sammlung (Bild lädt die Karte von Wikipedia)
 from claude_spots import CLAUDE_SPOTS  # noqa: E402
 cgeo = json.load(open(os.path.join(ROOT, "hk", "claude_geo.json"), encoding="utf-8"))
+cimg = bp.load_json(os.path.join(ROOT, "hk", "claude_images.json"), {})  # von tools/fetch_claude_images.py
 for name, q, district, cat, pop, reason, wiki, note in CLAUDE_SPOTS:
     g = cgeo.get(q)
     if not g:
@@ -144,6 +145,10 @@ for name, q, district, cat, pop, reason, wiki, note in CLAUDE_SPOTS:
         "image": None, "caption": "", "post_url": "", "username": "", "profile_url": "", "posts": [],
         "by_claude": True, "wiki": wiki, "pop": pop, "pop_reason": reason,
     })
+    ci = cimg.get(spot_id(name)[3:])
+    if ci and os.path.exists(os.path.join(ROOT, ci["image"])):
+        credit = "Foto: " + " · ".join(x for x in [ci.get("artist"), ci.get("license"), "Wikimedia Commons"] if x)
+        places[-1].update(image=ci["image"], image_page=ci.get("page"), image_credit=credit[6:], wiki_url=ci.get("wiki_url"))
 
 unplaced = [posts[i] for i in sorted(POSTS) if i not in used]
 

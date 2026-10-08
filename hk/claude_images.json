@@ -1,0 +1,18 @@
+{
+  "avenue-of-stars-tst-promenade": {
+    "image": "images/claude_avenue-of-stars-tst-promenade.jpg",
+    "file": "Avenue_of_Stars_201901.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Avenue_of_Stars_201901.jpg",
+    "artist": "Wpcpey",
+    "license": "CC BY-SA 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Avenue_of_Stars%2C_Hong_Kong"
+  },
+  "star-ferry-pier-tsim-sha-tsui": {
+    "image": "images/claude_star-ferry-pier-tsim-sha-tsui.jpg",
+    "file": "Tsim_Sha_Tsui_Ferry_Pier.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tsim_Sha_Tsui_Ferry_Pier.jpg",
+    "artist": "Baycrest",
+    "license": "CC BY-SA 2.5",
+    "wiki_url": "https://en.wikipedia.org/wiki/Star_Ferry"
+  }
+}

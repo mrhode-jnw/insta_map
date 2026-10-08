@@ -4309,7 +4309,7 @@ window.PLACES = [
   "lat": 22.294147,
   "lng": 114.175789,
   "approx": false,
-  "image": null,
+  "image": "images/claude_avenue-of-stars-tst-promenade.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4318,7 +4318,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Avenue of Stars, Hong Kong",
   "pop": 5,
-  "pop_reason": "Klassischer Skyline-Blick, abends Symphony of Lights"
+  "pop_reason": "Klassischer Skyline-Blick, abends Symphony of Lights",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Avenue_of_Stars_201901.jpg",
+  "image_credit": "Wpcpey · CC BY-SA 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Avenue_of_Stars%2C_Hong_Kong"
  },
  {
   "id": "claude-star-ferry-pier-tsim-sha-tsui",

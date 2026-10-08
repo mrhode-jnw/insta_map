@@ -232,6 +232,7 @@
       <button data-f="open">Noch offen</button>
       <button data-f="done">✓ Fotografiert</button>
       <button data-f="pop">🔥 Beliebt</button>
+      <button data-f="claude-only">✦ Nur Claude-Tipps</button>
       <button data-f="noclaude">✦ Tipps ausblenden</button>
       <select id="sort" aria-label="Sortierung">
         <option value="auto">Sortierung: Entfernung</option>
@@ -319,7 +320,7 @@ function startApp(unlockedKey) {
         <figcaption><a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a></figcaption></figure>`).join("")}</div>` : "";
     return `<div class="pop">
       ${hero && p.image ? `<a href="${esc(p.post_url || p.wiki_url || "#")}" target="_blank" rel="noopener"><img src="${esc(p.image)}" alt="" loading="lazy"></a>` : ""}
-      ${p.by_claude && p.image ? `<div class="credit">Foto: <a href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia / Wikimedia Commons</a></div>` : ""}
+      ${p.by_claude && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
       <div class="b">
         <h3>${esc(p.name)}</h3>
         ${p.by_claude ? `<div class="claude-note">✦ Claude-Tipp – nicht aus deiner Sammlung, von Claude als besonders beliebter Spot ergänzt</div>` : ""}
@@ -363,8 +364,8 @@ function startApp(unlockedKey) {
   map.addLayer(cluster);
 
   // ---------- Filter (Suche + Kategorie)
-  let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto", hideClaude = false;
-  try { hideClaude = localStorage.getItem("hideClaude") === "1"; } catch {}
+  let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto", claudeF = null;  // claudeF: null | "only" | "hide"
+  try { claudeF = localStorage.getItem("claudeF") || null; } catch {}
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
   $("#sort").addEventListener("change", e => { sortBy = e.target.value; try { localStorage.setItem("sort", sortBy); } catch {} renderList(); });
@@ -374,10 +375,13 @@ function startApp(unlockedKey) {
     const f = b.dataset.f;
     if (PRIOS.includes(f)) prioF.has(f) ? prioF.delete(f) : prioF.add(f);
     else if (f === "pop") popF = !popF;
-    else if (f === "noclaude") { hideClaude = !hideClaude; try { localStorage.setItem("hideClaude", hideClaude ? "1" : ""); } catch {} }
+    else if (f === "claude-only" || f === "noclaude") {
+      const v = f === "claude-only" ? "only" : "hide";
+      claudeF = claudeF === v ? null : v; try { localStorage.setItem("claudeF", claudeF || ""); } catch {}
+    }
     else doneF = doneF === f ? null : f;
     $("#chips2").querySelectorAll("button").forEach(x => x.classList.toggle("on",
-      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF) || (x.dataset.f === "noclaude" && hideClaude)));
+      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF) || (x.dataset.f === "noclaude" && claudeF === "hide") || (x.dataset.f === "claude-only" && claudeF === "only")));
     renderList();
   });
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
@@ -396,7 +400,6 @@ function startApp(unlockedKey) {
   const allCats = () => [...new Set(places.map(p => p.category).filter(Boolean))].sort();
   function renderChips() {
     const cats = allCats();
-    if (places.some(p => p.by_claude)) cats.unshift("✦ Claude-Tipps");
     if (places.some(p => p.mine)) cats.unshift("★ Meine");
     $("#chips").innerHTML = cats.length > 1 ? ["Alle", ...cats].map((c, i) =>
       `<button class="${(i ? c === cat : !cat) ? "on" : ""}" data-cat="${i ? esc(c) : ""}">${esc(c)}</button>`).join("") : "";
@@ -407,14 +410,15 @@ function startApp(unlockedKey) {
     renderChips(); renderList();
   });
   renderChips();
-  $("#chips2").querySelector('[data-f="noclaude"]').classList.toggle("on", hideClaude);
+  $("#chips2").querySelector('[data-f="noclaude"]').classList.toggle("on", claudeF === "hide");
+  $("#chips2").querySelector('[data-f="claude-only"]').classList.toggle("on", claudeF === "only");
   const matches = p => {
     const q = $("#search").value.trim().toLowerCase();
     const hay = [p.name, p.address, p.district, p.category, p.note, p.caption, p.username,
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
     const s = st(p.id);
-    return (!cat || p.category === cat || (cat === "★ Meine" && p.mine) || (cat === "✦ Claude-Tipps" && p.by_claude))
-      && !(hideClaude && p.by_claude && cat !== "✦ Claude-Tipps") && (!q || hay.includes(q))
+    return (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
+      && (claudeF === "only" ? p.by_claude : claudeF === "hide" ? !p.by_claude : true) && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio)) && (!doneF || (doneF === "done" ? s.done : !s.done))
       && (!popF || (p.pop || 0) >= 4);
   };
@@ -468,7 +472,7 @@ function startApp(unlockedKey) {
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = popF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = claudeF === "only" || popF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     if (view === "grid") {
@@ -843,9 +847,9 @@ function startApp(unlockedKey) {
 
   // ---------- Fotos der Claude-Tipps direkt von Wikipedia (im Browser, mit Cache)
   async function loadWikiImages() {
-    const todo = places.filter(p => p.by_claude && p.wiki);
+    const todo = places.filter(p => p.by_claude && p.wiki && !p.image);
     await Promise.all(todo.map(async p => {
-      const key = "wiki:" + p.wiki;
+      const key = "wiki2:" + p.wiki;
       let d = null;
       try { d = JSON.parse(localStorage.getItem(key) || "null"); } catch {}
       if (!d) {
@@ -854,7 +858,7 @@ function startApp(unlockedKey) {
           if (!r.ok) return;
           const j = await r.json();
           const img = j.thumbnail && j.thumbnail.source;
-          d = { img: img ? img.replace(/\/\d+px-/, "/640px-") : null, url: j.content_urls && j.content_urls.desktop.page };
+          d = { img: img || null, url: j.content_urls && j.content_urls.desktop.page };
           try { localStorage.setItem(key, JSON.stringify(d)); } catch {}
         } catch { return; }
       }
