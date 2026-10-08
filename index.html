@@ -213,7 +213,7 @@
   .pop img[data-lb], .gal img[data-lb] { cursor: zoom-in; }
   #group { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 12px; z-index: 1000; display: flex;
     background: var(--bg); border-radius: 999px; box-shadow: var(--shadow); padding: 3px; }
-  #group button { border: 0; background: transparent; color: var(--fg); padding: 7px 12px; border-radius: 999px; font-size: 14px; cursor: pointer; }
+  #group button { border: 0; background: transparent; color: var(--fg); padding: 7px 10px; border-radius: 999px; font-size: 14px; cursor: pointer; }
   #group button.on { background: var(--accent); color: #fff; }
   @media (min-width: 800px) { #group { left: 390px; } }
   /* Handy: solange ein Spot offen ist, gehört ihm der ganze Bildschirm unter dem Bereichs-Umschalter */
@@ -241,7 +241,7 @@
 </div>
 <div id="map"></div>
 <div id="group" role="tablist" aria-label="Bereich">
-  <button data-g="">Alle</button><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button>
+  <button data-g="">Alle</button><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button>
 </div>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
 <button id="add" class="fab" title="Spot hinzufügen" aria-label="Spot hinzufügen">+</button>
@@ -283,8 +283,6 @@
       <button data-f="open">Noch offen</button>
       <button data-f="done">✓ Fotografiert</button>
       <button data-f="pop">🔥 Beliebt</button>
-      <button data-f="claude-only">✦ Nur Claude-Tipps</button>
-      <button data-f="noclaude">✦ Tipps ausblenden</button>
       <select id="sort" aria-label="Sortierung">
         <option value="auto">Sortierung: Entfernung</option>
         <option value="prio">Sortierung: Priorität</option>
@@ -457,7 +455,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
 
   // ---------- Filter (Suche + Kategorie)
   // Oberste Ebene: Bereich (Fotos / Food); Kategorien darunter gehören zum gewählten Bereich
-  const GROUPS = { food: p => p.category === "Food", fotos: p => p.category !== "Food" };
+  // Fotos/Food = deine Spots aus der Sammlung (+ eigene); Tipps = von Claude ergänzte Spots
+  const GROUPS = { food: p => !p.by_claude && p.category === "Food", fotos: p => !p.by_claude && p.category !== "Food", claude: p => p.by_claude };
   let group = "fotos";  // beim Öffnen immer „Fotos“
   const inGroup = p => !group || GROUPS[group](p);
   $("#group").addEventListener("click", e => {
@@ -466,8 +465,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
     renderChips(); renderList();
   });
-  let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto", claudeF = null;  // claudeF: null | "only" | "hide"
-  try { claudeF = localStorage.getItem("claudeF") || null; } catch {}
+  let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto";
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
   $("#sort").addEventListener("change", e => { sortBy = e.target.value; try { localStorage.setItem("sort", sortBy); } catch {} renderList(); });
@@ -477,13 +475,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const f = b.dataset.f;
     if (PRIOS.includes(f) || f === "none") prioF.has(f) ? prioF.delete(f) : prioF.add(f);
     else if (f === "pop") popF = !popF;
-    else if (f === "claude-only" || f === "noclaude") {
-      const v = f === "claude-only" ? "only" : "hide";
-      claudeF = claudeF === v ? null : v; try { localStorage.setItem("claudeF", claudeF || ""); } catch {}
-    }
     else doneF = doneF === f ? null : f;
     $("#chips2").querySelectorAll("button").forEach(x => x.classList.toggle("on",
-      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF) || (x.dataset.f === "noclaude" && claudeF === "hide") || (x.dataset.f === "claude-only" && claudeF === "only")));
+      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF)));
     renderList();
   });
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
@@ -512,8 +506,6 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     renderChips(); renderList();
   });
   renderChips();
-  $("#chips2").querySelector('[data-f="noclaude"]').classList.toggle("on", claudeF === "hide");
-  $("#chips2").querySelector('[data-f="claude-only"]').classList.toggle("on", claudeF === "only");
   // Der gerade geöffnete Spot bleibt sichtbar, auch wenn er durch Bewerten nicht mehr zum Filter passt
   let stickyId = null;
   const matches = p => p.id === stickyId || matchesFilter(p);
@@ -523,7 +515,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
     const s = st(p.id);
     return inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
-      && (claudeF === "only" ? p.by_claude : claudeF === "hide" ? !p.by_claude : true) && (!q || hay.includes(q))
+      && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio || "none")) && (!doneF || (doneF === "done" ? s.done : !s.done))
       && (!popF || (p.pop || 0) >= 4);
   };
@@ -678,7 +670,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = group === "food" || claudeF === "only" || popF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = group === "food" || group === "claude" || popF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     if (view === "grid") {
