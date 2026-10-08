@@ -19,5 +19,14 @@
  },
  "hk-kowloon-walled-city-park": {
   "prio": "hoch"
+ },
+ "hk-yau-ma-tei-fruit-market": {
+  "prio": "mittel"
+ },
+ "hk-suicide-cliff-kowloon-peak": {
+  "prio": "hoch"
+ },
+ "hk-tai-ping-shan-street": {
+  "prio": "gering"
  }
 }
