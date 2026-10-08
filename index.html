@@ -223,6 +223,10 @@
   }
   #update { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 110px); z-index: 2500;
     background: #111827; color: #fff; border: 0; border-radius: 999px; padding: 10px 16px; font-size: 14px; box-shadow: var(--shadow); }
+  /* Seitliches Wischen gehört der Karte (Spot-Navigation), nicht dem Browser („zurück“) */
+  html, body { overscroll-behavior: none; }
+  .pop { touch-action: pan-y; }
+  .pop .gal { touch-action: pan-x pan-y; }
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
@@ -566,6 +570,31 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   map.on("popupopen", ev => {
     const el = ev.popup.getElement(), box = el.querySelector(".status");
     const id = box && box.dataset.id;
+    // Wischen über dem Spot: links = nächster, rechts = vorheriger (Galerie-Leiste scrollt weiter normal)
+    const pop = el.querySelector(".pop");
+    if (pop && order.length > 1) {
+      let t0 = null;
+      pop.addEventListener("touchstart", e => {
+        if (e.touches.length !== 1 || e.target.closest(".gal, button, input, a")) { t0 = null; return; }
+        t0 = { x: e.touches[0].clientX, y: e.touches[0].clientY, t: Date.now() };
+      }, { passive: true });
+      pop.addEventListener("touchmove", e => {
+        if (!t0) return;
+        const dx = e.touches[0].clientX - t0.x, dy = e.touches[0].clientY - t0.y;
+        if (Math.abs(dx) > Math.abs(dy) * 1.2 && Math.abs(dx) > 10) {
+          pop.style.transition = "none"; pop.style.transform = `translateX(${dx * 0.6}px)`; pop.style.opacity = String(1 - Math.min(Math.abs(dx) / 600, .4));
+        }
+      }, { passive: true });
+      pop.addEventListener("touchend", e => {
+        if (!t0) return;
+        const dx = e.changedTouches[0].clientX - t0.x, dy = e.changedTouches[0].clientY - t0.y; t0 = null;
+        pop.style.transition = "transform .15s, opacity .15s"; pop.style.transform = ""; pop.style.opacity = "";
+        if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+          pop.dataset.swiped = "1"; setTimeout(() => delete pop.dataset.swiped, 400);  // Tipp-Aktion (Vollbild) unterdrücken
+          stepSpot(id, dx < 0 ? 1 : -1);
+        }
+      });
+    }
     el.querySelectorAll("button[data-go]").forEach(b => b.onclick = e => { e.stopPropagation(); stepSpot(id, +b.dataset.go); });
     const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); map.closePopup(); };
   });
@@ -624,7 +653,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   map.on("popupopen", ev => {
     const el = ev.popup.getElement(), box = el.querySelector(".status");
     const p = box && places.find(x => x.id === box.dataset.id); if (!p) return;
-    el.querySelectorAll("img[data-lb]").forEach(img => img.onclick = e => { e.stopPropagation(); lbOpen(p, +img.dataset.lb); });
+    el.querySelectorAll("img[data-lb]").forEach(img => img.onclick = e => {
+      e.stopPropagation(); if (img.closest(".pop") && img.closest(".pop").dataset.swiped) return; lbOpen(p, +img.dataset.lb); });
   });
   function syncMarkers(items) {  // nur Unterschiede anwenden, damit offene Popups offen bleiben
     const want = new Set(items.map(p => p.id));
