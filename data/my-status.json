@@ -175,5 +175,8 @@
  },
  "hk-china-hong-kong-city": {
   "prio": "gering"
+ },
+ "hk-nam-cheong-street-shek-kip-mei": {
+  "prio": "hoch"
  }
 }
