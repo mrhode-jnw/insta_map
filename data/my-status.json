@@ -76,5 +76,17 @@
  },
  "hk-east-coast-boardwalk-lion-rock-view": {
   "prio": "mittel"
+ },
+ "hk-langham-place": {
+  "prio": "gering"
+ },
+ "hk-fa-yuen-street-market": {
+  "prio": "mittel"
+ },
+ "hk-shanghai-street-jordanyau-ma-teimong-kok": {
+  "prio": "hoch"
+ },
+ "hk-wah-tak-building-yau-ma-tei": {
+  "prio": "hoch"
  }
 }
