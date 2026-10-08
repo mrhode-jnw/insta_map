@@ -182,6 +182,21 @@
   .pop .status button.on[data-prio="mittel"] { background: #f59e0b; border-color: #f59e0b; color: #fff; }
   .pop .status button.on[data-prio="gering"] { background: #6b7280; border-color: #6b7280; color: #fff; }
   .pop .status label { font-size: 12.5px; margin-left: auto; display: flex; gap: 4px; align-items: center; color: #111827; }
+  #lb { position: fixed; inset: 0; z-index: 3000; background: #000; color: #fff; display: flex; flex-direction: column;
+    touch-action: none; user-select: none; -webkit-user-select: none; }
+  #lb[hidden] { display: none; }
+  #lb .stage { flex: 1; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+  #lb .stage img { max-width: 100%; max-height: 100%; object-fit: contain; transition: transform .2s ease; }
+  #lb .top { display: flex; justify-content: space-between; align-items: center; padding: calc(env(safe-area-inset-top) + 8px) 12px 8px; }
+  #lb .top span { font-size: 14px; opacity: .8; }
+  #lb button { background: rgba(255,255,255,.15); color: #fff; border: 0; border-radius: 50%; width: 44px; height: 44px; font-size: 24px; cursor: pointer; }
+  #lb .nav { position: absolute; top: 50%; transform: translateY(-50%); }
+  #lb .nav.prev { left: 8px; } #lb .nav.next { right: 8px; }
+  #lb .bottom { padding: 10px 14px calc(env(safe-area-inset-bottom) + 12px); display: flex; gap: 10px; align-items: center; justify-content: space-between; }
+  #lb .bottom .who { font-size: 14px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  #lb .bottom a { color: #fff; }
+  #lb .bottom a.btn { flex: none; background: var(--accent); padding: 9px 14px; border-radius: 10px; text-decoration: none; font-size: 14px; }
+  .pop img[data-lb], .gal img[data-lb] { cursor: zoom-in; }
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
@@ -250,6 +265,11 @@
   <ul id="list"></ul>
 </section>
 <div id="toast"></div>
+<div id="lb" hidden>
+  <div class="top"><span id="lbCount"></span><button id="lbClose" aria-label="Schließen">✕</button></div>
+  <div class="stage"><img id="lbImg" alt=""><button class="nav prev" id="lbPrev" aria-label="Vorheriges Bild">‹</button><button class="nav next" id="lbNext" aria-label="Nächstes Bild">›</button></div>
+  <div class="bottom"><div class="who" id="lbWho"></div><a class="btn" id="lbPost" target="_blank" rel="noopener">Post öffnen ↗</a></div>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
@@ -322,15 +342,15 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
     const posts = p.posts && p.posts.length ? p.posts : null;
     const hero = !posts || posts.length === 1;
-    const gal = posts && posts.length > 1 ? `<div class="gal">${posts.map(x => `
-        <figure><a href="${esc(x.url)}" target="_blank" rel="noopener">${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : `<img alt="">`}</a>
-        <figcaption><a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a></figcaption></figure>`).join("")}</div>` : "";
+    const gal = posts && posts.length > 1 ? `<div class="gal">${posts.map((x, i) => `
+        <figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}
+        <figcaption><a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a> · <a href="${esc(x.url)}" target="_blank" rel="noopener">Post ↗</a></figcaption></figure>`).join("")}</div>` : "";
     const idx = order.indexOf(p.id);
     const pnav = idx >= 0 && order.length > 1 ? `<div class="pnav">
         <button data-go="-1" aria-label="Vorheriger Spot">‹</button><span>${idx + 1} / ${order.length}</span>
         <button data-go="1" aria-label="Nächster Spot">›</button><span style="width:28px"></span></div>` : "";
     return `<div class="pop">${pnav}
-      ${hero && p.image ? `<a href="${esc(p.post_url || p.wiki_url || "#")}" target="_blank" rel="noopener"><img src="${esc(p.image)}" alt="" loading="lazy"></a>` : ""}
+      ${hero && p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy" data-lb="0">` : ""}
       ${p.by_claude && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
       <div class="b">
         <h3>${esc(p.name)}</h3>
@@ -459,6 +479,58 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (!["ArrowLeft", "ArrowRight"].includes(e.key) || e.target.closest("input, textarea, select")) return;
     const box = document.querySelector(".leaflet-popup .status"); if (!box) return;
     stepSpot(box.dataset.id, e.key === "ArrowRight" ? 1 : -1);
+  });
+  // ---------- Vollbild-Ansicht der Bilder eines Spots
+  const lb = { el: $("#lb"), list: [], i: 0 };
+  function spotImages(p) {
+    const ps = (p.posts || []).filter(x => x.image);
+    if (ps.length) return ps.map(x => ({ src: x.image, url: x.url, label: "@" + x.username, profile: x.profile_url }));
+    return p.image ? [{ src: p.image, url: p.post_url || p.image_page || p.wiki_url, label: p.by_claude ? (p.image_credit || "Wikimedia Commons") : (p.username ? "@" + p.username : ""), profile: p.profile_url }] : [];
+  }
+  function lbShow(i) {
+    const n = lb.list.length; if (!n) return;
+    lb.i = (i + n) % n;
+    const it = lb.list[lb.i];
+    $("#lbImg").src = it.src;
+    $("#lbCount").textContent = `${lb.name} · ${lb.i + 1} / ${n}`;
+    $("#lbWho").innerHTML = it.profile ? `<a href="${esc(it.profile)}" target="_blank" rel="noopener">${esc(it.label)}</a>` : esc(it.label);
+    $("#lbPost").hidden = !it.url; if (it.url) $("#lbPost").href = it.url;
+    $("#lbPost").textContent = it.url && /wiki/.test(it.url) ? "Quelle ↗" : "Post öffnen ↗";
+    $("#lbPrev").hidden = $("#lbNext").hidden = n < 2;
+  }
+  function lbOpen(p, i) { lb.list = spotImages(p); lb.name = p.name.replace(/\s[\u3000-\u9fff].*$/, ""); lb.el.hidden = false; lbShow(i); }
+  const lbClose = () => { lb.el.hidden = true; $("#lbImg").src = ""; };
+  $("#lbClose").onclick = lbClose;
+  $("#lbPrev").onclick = e => { e.stopPropagation(); lbShow(lb.i - 1); };
+  $("#lbNext").onclick = e => { e.stopPropagation(); lbShow(lb.i + 1); };
+  document.addEventListener("keydown", e => {
+    if (lb.el.hidden) return;
+    if (e.key === "Escape") lbClose();
+    if (e.key === "ArrowLeft") { e.stopImmediatePropagation(); lbShow(lb.i - 1); }
+    if (e.key === "ArrowRight") { e.stopImmediatePropagation(); lbShow(lb.i + 1); }
+  }, true);
+  // Wischen: links/rechts = blättern, nach unten = schließen
+  let sw = null;
+  $("#lb .stage").addEventListener("pointerdown", e => { if (e.target.closest("button")) return; sw = { x: e.clientX, y: e.clientY }; });
+  $("#lb .stage").addEventListener("pointermove", e => {
+    if (!sw) return;
+    const dx = e.clientX - sw.x, dy = e.clientY - sw.y;
+    $("#lbImg").style.transition = "none";
+    $("#lbImg").style.transform = Math.abs(dx) > Math.abs(dy) ? `translateX(${dx}px)` : `translateY(${Math.max(0, dy)}px)`;
+  });
+  const swEnd = e => {
+    if (!sw) return;
+    const dx = e.clientX - sw.x, dy = e.clientY - sw.y; sw = null;
+    $("#lbImg").style.transition = ""; $("#lbImg").style.transform = "";
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) lbShow(lb.i + (dx < 0 ? 1 : -1));
+    else if (dy > 90) lbClose();
+  };
+  $("#lb .stage").addEventListener("pointerup", swEnd);
+  $("#lb .stage").addEventListener("pointercancel", swEnd);
+  map.on("popupopen", ev => {
+    const el = ev.popup.getElement(), box = el.querySelector(".status");
+    const p = box && places.find(x => x.id === box.dataset.id); if (!p) return;
+    el.querySelectorAll("img[data-lb]").forEach(img => img.onclick = e => { e.stopPropagation(); lbOpen(p, +img.dataset.lb); });
   });
   function syncMarkers(items) {  // nur Unterschiede anwenden, damit offene Popups offen bleiben
     const want = new Set(items.map(p => p.id));
