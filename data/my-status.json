@@ -301,5 +301,8 @@
  },
  "hk-wing-wah-building-sham-shui-po": {
   "prio": "hoch"
+ },
+ "hk-pak-far-building-sham-shui-po": {
+  "prio": "mittel"
  }
 }
