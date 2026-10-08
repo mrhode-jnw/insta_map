@@ -110,5 +110,21 @@
     "artist": "Chong Fat",
     "license": "Public domain",
     "wiki_url": "https://en.wikipedia.org/wiki/Wong_Tai_Sin_Temple_%28Hong_Kong%29"
+  },
+  "chi-lin-nunnery-nan-lian-garden": {
+    "image": "images/claude_chi-lin-nunnery-nan-lian-garden.jpg",
+    "file": "Nan_Lian_Garden_Overview_201807.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nan_Lian_Garden_Overview_201807.jpg",
+    "artist": "Wpcpey",
+    "license": "CC BY-SA 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Nan_Lian_Garden"
+  },
+  "tian-tan-buddha-big-buddha": {
+    "image": "images/claude_tian-tan-buddha-big-buddha.jpg",
+    "file": "Tian_Tan_Buddha_2023081302.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tian_Tan_Buddha_2023081302.jpg",
+    "artist": "Huangdan2060",
+    "license": "CC BY 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tian_Tan_Buddha"
   }
 }
