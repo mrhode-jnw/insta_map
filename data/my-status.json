@@ -325,5 +325,8 @@
  },
  "hk-hung-kwong-street": {
   "prio": "gering"
+ },
+ "hk-kai-tak-tunnel": {
+  "prio": "gering"
  }
 }
