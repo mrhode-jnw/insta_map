@@ -1073,8 +1073,8 @@ window.PLACES = [
     "slide": 3
    }
   ],
-  "pop": 1,
-  "pop_reason": "Einzelnes Tong-Lau-Gebäude, online kaum als Fotospot dokumentiert"
+  "pop": 2,
+  "pop_reason": "Grade-II-Denkmal, in Heritage-Archiven, kaum als Fotospot genannt"
  },
  {
   "id": "hk-88-90-staunton-street-shophouse",
@@ -1102,8 +1102,8 @@ window.PLACES = [
     "match": "cover"
    }
   ],
-  "pop": 2,
-  "pop_reason": "Denkmalgeschütztes Shophouse nahe SoHo, nur vereinzelt in Architekturblogs"
+  "pop": 1,
+  "pop_reason": "Adresse online praktisch nicht dokumentiert"
  },
  {
   "id": "hk-2a-shing-wong-street-shophouse",
@@ -1132,8 +1132,8 @@ window.PLACES = [
     "slide": 9
    }
   ],
-  "pop": 2,
-  "pop_reason": "Shing Wong Street bekannt bei Fotografen, Einzelhaus kaum erwähnt"
+  "pop": 1,
+  "pop_reason": "Nur Straße bekannt, Gebäude selbst online nicht dokumentiert"
  },
  {
   "id": "hk-mid-levels-allgemein",
@@ -1193,7 +1193,7 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Trockenfischstraße bekannt, einzelnes Shophouse nur Nischenmotiv"
+  "pop_reason": "Grade-2-Denkmal, nur auf Gwulo dokumentiert"
  },
  {
   "id": "hk-20-high-street-shophouse",
@@ -1222,8 +1222,8 @@ window.PLACES = [
     "slide": 5
    }
   ],
-  "pop": 2,
-  "pop_reason": "Nahe Old Mental Hospital, gelegentlich in Heritage-Blogs"
+  "pop": 1,
+  "pop_reason": "Online keine Erwähnung des Gebäudes gefunden"
  },
  {
   "id": "hk-153-queen-s-road-west-shophouse",
@@ -1535,8 +1535,8 @@ window.PLACES = [
     "match": "cover"
    }
   ],
-  "pop": 3,
-  "pop_reason": "Hauptstraße mit Tram, häufiges Street-Fotomotiv, kein Reiseziel"
+  "pop": 2,
+  "pop_reason": "Tram-Hauptstraße, fast nur historische Fotoarchive, kein Fotospot-Listing"
  },
  {
   "id": "hk-north-point-road-tram-station",
@@ -1654,8 +1654,8 @@ window.PLACES = [
     "match": "cover"
    }
   ],
-  "pop": 2,
-  "pop_reason": "Sunbeam Theatre lokal bekannt, als Fotospot selten genannt"
+  "pop": 3,
+  "pop_reason": "Feuerwache auf Locationscout als beliebter Urban-Fotospot"
  },
  {
   "id": "hk-southern-building-north-point",
@@ -1783,8 +1783,8 @@ window.PLACES = [
     "slide": 3
    }
   ],
-  "pop": 3,
-  "pop_reason": "Klassisches Causeway-Bay-Tram-Motiv, häufig auf Instagram"
+  "pop": 2,
+  "pop_reason": "Kein Fotospot-Listing gefunden, nur Wikipedia und Archive"
  },
  {
   "id": "hk-wong-nai-chung-road",
@@ -1823,8 +1823,8 @@ window.PLACES = [
     "slide": 5
    }
   ],
-  "pop": 3,
-  "pop_reason": "Tramkurve am Happy-Valley-Rennplatz, bei Fotografen beliebt"
+  "pop": 2,
+  "pop_reason": "Tramstrecke nur in historischen Archiven, kaum Fotospot-Listen"
  },
  {
   "id": "hk-lai-tak-estate",
@@ -1959,7 +1959,7 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bekannte Mall mit Rolltreppen, mäßig als Fotospot genannt"
+  "pop_reason": "Discover Hong Kong gelistet, Rolltreppe bekannt, mäßig als Fotospot"
  },
  {
   "id": "hk-argyle-street-henge",
@@ -2125,7 +2125,7 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Straßenmarkt in mehreren Reiseführern, mittlere Bekanntheit"
+  "pop_reason": "TripAdvisor-Seite, Culture Trip, mehrere Reiseführer"
  },
  {
   "id": "hk-kam-lam-street",
@@ -2185,7 +2185,7 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Vorkriegs-Shophouses, nur in Heritage-Archiven wie Gwulo"
+  "pop_reason": "Nur Gwulo-Eintrag, kaum touristische Erwähnung"
  },
  {
   "id": "hk-neon-hop-hing-lung-ceramics-sanitaryware",
