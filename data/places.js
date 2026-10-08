@@ -4564,7 +4564,7 @@ window.PLACES = [
   "lat": 22.273898,
   "lng": 114.174146,
   "approx": false,
-  "image": null,
+  "image": "images/claude_blue-house.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4573,7 +4573,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Blue House (Hong Kong)",
   "pop": 4,
-  "pop_reason": "Denkmalgeschütztes Tong Lau, beliebtes Fotomotiv"
+  "pop_reason": "Denkmalgeschütztes Tong Lau, beliebtes Fotomotiv",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Blue_House,_Hong_Kong.jpg",
+  "image_credit": "Prosperity Horizons · CC BY-SA 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Blue_House_%28Hong_Kong%29"
  },
  {
   "id": "claude-happy-valley-racecourse",

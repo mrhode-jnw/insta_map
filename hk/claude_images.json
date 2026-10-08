@@ -62,5 +62,13 @@
     "artist": "Erc Chw",
     "license": "CC BY-SA 4.0",
     "wiki_url": "https://en.wikipedia.org/wiki/Hong_Kong_Observation_Wheel"
+  },
+  "blue-house": {
+    "image": "images/claude_blue-house.jpg",
+    "file": "Blue_House,_Hong_Kong.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_House,_Hong_Kong.jpg",
+    "artist": "Prosperity Horizons",
+    "license": "CC BY-SA 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Blue_House_%28Hong_Kong%29"
   }
 }
