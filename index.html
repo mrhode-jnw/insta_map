@@ -212,6 +212,12 @@
   #group button { border: 0; background: transparent; color: var(--fg); padding: 7px 12px; border-radius: 999px; font-size: 14px; cursor: pointer; }
   #group button.on { background: var(--accent); color: #fff; }
   @media (min-width: 800px) { #group { left: 390px; } }
+  /* Handy: solange ein Spot offen ist, gehört ihm der ganze Bildschirm unter dem Bereichs-Umschalter */
+  @media (max-width: 799px) {
+    body.popup-open .leaflet-top.leaflet-right, body.popup-open #add, body.popup-open #locate { display: none; }
+    body.popup-open #sheet { transform: translateY(105%) !important; }
+    .pop img { height: 190px; }
+  }
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
@@ -523,6 +529,23 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     map.closePopup();
     focusMarker(m);
   }
+  // Popup so hoch wie der freie Platz zwischen Bereichs-Umschalter oben und Liste unten
+  function popupSpace() {
+    const top = $("#group").getBoundingClientRect().bottom + 8;
+    const bottom = window.innerHeight - (mobile() ? parseFloat(getComputedStyle(sheet).paddingBottom) || 0 : 0);
+    return { top, bottomPad: window.innerHeight - bottom + 8, maxH: Math.max(260, Math.round(bottom - top - 40)) };
+  }
+  // Zoom-/Ebenen-Knöpfe würden das breite Popup auf dem Handy verdecken → solange ausblenden
+  map.on("popupopen", () => document.body.classList.add("popup-open"));
+  map.on("popupclose", () => document.body.classList.remove("popup-open"));
+  map.on("popupopen", ev => {
+    const sp = popupSpace(), o = ev.popup.options;
+    if (o.maxHeight !== sp.maxH || o.autoPanPaddingTopLeft[1] !== sp.top) {
+      o.maxHeight = sp.maxH; o.autoPanPaddingTopLeft = [10, sp.top]; o.autoPanPaddingBottomRight = [10, sp.bottomPad];
+      ev.popup.update();
+      if (ev.popup._adjustPan) ev.popup._adjustPan();
+    }
+  });
   map.on("popupopen", ev => {
     const el = ev.popup.getElement(), box = el.querySelector(".status");
     const id = box && box.dataset.id;
