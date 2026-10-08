@@ -260,6 +260,7 @@
       <button data-f="hoch"><span class="prio-dot hoch"></span>Hoch</button>
       <button data-f="mittel"><span class="prio-dot mittel"></span>Mittel</button>
       <button data-f="gering"><span class="prio-dot gering"></span>Gering</button>
+      <button data-f="none">○ Unbewertet</button>
       <button data-f="open">Noch offen</button>
       <button data-f="done">✓ Fotografiert</button>
       <button data-f="pop">🔥 Beliebt</button>
@@ -431,7 +432,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   $("#chips2").addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
     const f = b.dataset.f;
-    if (PRIOS.includes(f)) prioF.has(f) ? prioF.delete(f) : prioF.add(f);
+    if (PRIOS.includes(f) || f === "none") prioF.has(f) ? prioF.delete(f) : prioF.add(f);
     else if (f === "pop") popF = !popF;
     else if (f === "claude-only" || f === "noclaude") {
       const v = f === "claude-only" ? "only" : "hide";
@@ -477,7 +478,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const s = st(p.id);
     return inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
       && (claudeF === "only" ? p.by_claude : claudeF === "hide" ? !p.by_claude : true) && (!q || hay.includes(q))
-      && (!prioF.size || prioF.has(s.prio)) && (!doneF || (doneF === "done" ? s.done : !s.done))
+      && (!prioF.size || prioF.has(s.prio || "none")) && (!doneF || (doneF === "done" ? s.done : !s.done))
       && (!popF || (p.pop || 0) >= 4);
   };
   const shown = new Set();
