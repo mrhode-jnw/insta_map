@@ -4468,7 +4468,7 @@ window.PLACES = [
   "lat": 22.27772,
   "lng": 114.15955,
   "approx": false,
-  "image": null,
+  "image": "images/claude_peak-tram.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4477,7 +4477,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Peak Tram",
   "pop": 5,
-  "pop_reason": "Historische Standseilbahn, Top-Attraktion"
+  "pop_reason": "Historische Standseilbahn, Top-Attraktion",
+  "image_page": "https://commons.wikimedia.org/wiki/File:CWA_6th_Generation_Peak_Tram.jpg",
+  "image_credit": "Samson Ng . D201@EAL · CC BY-SA 4.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Peak_Tram"
  },
  {
   "id": "claude-sky-terrace-428-peak-tower",
@@ -4489,7 +4492,7 @@ window.PLACES = [
   "lat": 22.271255,
   "lng": 114.149986,
   "approx": false,
-  "image": null,
+  "image": "images/claude_sky-terrace-428-peak-tower.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4498,7 +4501,10 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Peak Tower",
   "pop": 5,
-  "pop_reason": "Höchste Aussichtsplattform am Peak"
+  "pop_reason": "Höchste Aussichtsplattform am Peak",
+  "image_page": "https://commons.wikimedia.org/wiki/File:The_Peak_Tower_201108.jpg",
+  "image_credit": "WiNG · CC BY 3.0 · Wikimedia Commons",
+  "wiki_url": "https://en.wikipedia.org/wiki/Peak_Tower"
  },
  {
   "id": "claude-golden-bauhinia-square",

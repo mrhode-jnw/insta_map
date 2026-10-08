@@ -30,5 +30,21 @@
     "artist": "Wpcpey",
     "license": "CC BY-SA 4.0",
     "wiki_url": "https://en.wikipedia.org/wiki/Tai_Kwun"
+  },
+  "peak-tram": {
+    "image": "images/claude_peak-tram.jpg",
+    "file": "CWA_6th_Generation_Peak_Tram.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CWA_6th_Generation_Peak_Tram.jpg",
+    "artist": "Samson Ng . D201@EAL",
+    "license": "CC BY-SA 4.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Peak_Tram"
+  },
+  "sky-terrace-428-peak-tower": {
+    "image": "images/claude_sky-terrace-428-peak-tower.jpg",
+    "file": "The_Peak_Tower_201108.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Peak_Tower_201108.jpg",
+    "artist": "WiNG",
+    "license": "CC BY 3.0",
+    "wiki_url": "https://en.wikipedia.org/wiki/Peak_Tower"
   }
 }
