@@ -22,6 +22,11 @@ nummerierter Caption-Liste („1. …“ bzw. „Location: …“) genau diesen 
 
 Spots mit „Pin ungefähr“ haben von Hand gesetzte Koordinaten.
 
+**Claude-Tipps** (`hk/claude_spots.py`, ✦ violett markiert) sind ergänzte Top-Spots, die nicht aus
+der Sammlung stammen. Koordinaten: `python3 tools/fetch_claude_spots.py` → `hk/claude_geo.json`;
+das Foto lädt die Karte im Browser von Wikipedia. **Beliebtheit** (1–5 🔥) steht in
+`hk/popularity.json` (Web-Recherche).
+
 ## Andere Sammlungen
 
 ### 1. Posts einlesen

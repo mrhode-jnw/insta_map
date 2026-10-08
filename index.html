@@ -132,6 +132,14 @@
   .pop .links button.del { flex: 1; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #fee2e2; color: #991b1b; }
   @media (min-width: 800px) { #addDlg { left: auto; right: 14px; bottom: 14px; width: 380px; border-radius: 16px; } #add { bottom: 140px; } }
   .pin.p-hoch { border-color: #dc2626; } .pin.p-mittel { border-color: #f59e0b; } .pin.p-gering { border-color: #9ca3af; }
+  .pin.claude { border-color: #7c3aed; position: relative; }
+  .pin.claude::before { content: "✦"; position: absolute; left: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
+    background: #7c3aed; color: #fff; font-size: 10px; line-height: 16px; text-align: center; }
+  .pop .claude-note { background: #ede9fe; color: #5b21b6; border-radius: 8px; padding: 5px 8px; font-size: 12px; margin-bottom: 6px; }
+  .pop .credit { font-size: 10.5px; color: #6b7280; padding: 2px 12px 0; }
+  .pop .credit a { color: #6b7280 !important; }
+  .tag .ct, .cap2 .ct { color: #a78bfa; }
+  .pop .links a.wiki { background: #ede9fe; color: #5b21b6 !important; }
   .pin.done { filter: grayscale(.8); opacity: .8; position: relative; }
   .pin.done::after { content: "✓"; position: absolute; right: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
     background: #16a34a; color: #fff; font-size: 11px; line-height: 16px; text-align: center; }
@@ -224,6 +232,7 @@
       <button data-f="open">Noch offen</button>
       <button data-f="done">✓ Fotografiert</button>
       <button data-f="pop">🔥 Beliebt</button>
+      <button data-f="noclaude">✦ Tipps ausblenden</button>
       <select id="sort" aria-label="Sortierung">
         <option value="auto">Sortierung: Entfernung</option>
         <option value="prio">Sortierung: Priorität</option>
@@ -281,7 +290,7 @@ function startApp(unlockedKey) {
   }
 
   // ---------- Marker
-  const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45 });
+  const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45, removeOutsideVisibleBounds: false });
   const markers = new Map();
   let me = null;
   let sheetSnap = "peek";
@@ -309,9 +318,11 @@ function startApp(unlockedKey) {
         <figure><a href="${esc(x.url)}" target="_blank" rel="noopener">${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : `<img alt="">`}</a>
         <figcaption><a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a></figcaption></figure>`).join("")}</div>` : "";
     return `<div class="pop">
-      ${hero && p.image ? `<a href="${esc(p.post_url)}" target="_blank" rel="noopener"><img src="${esc(p.image)}" alt="" loading="lazy"></a>` : ""}
+      ${hero && p.image ? `<a href="${esc(p.post_url || p.wiki_url || "#")}" target="_blank" rel="noopener"><img src="${esc(p.image)}" alt="" loading="lazy"></a>` : ""}
+      ${p.by_claude && p.image ? `<div class="credit">Foto: <a href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia / Wikimedia Commons</a></div>` : ""}
       <div class="b">
         <h3>${esc(p.name)}</h3>
+        ${p.by_claude ? `<div class="claude-note">✦ Claude-Tipp – nicht aus deiner Sammlung, von Claude als besonders beliebter Spot ergänzt</div>` : ""}
         <div class="status" data-id="${esc(p.id)}">
           ${PRIOS.map(k => `<button data-prio="${k}" class="${st(p.id).prio === k ? "on" : ""}">${PRIO_LABEL[k]}</button>`).join("")}
           <label><input type="checkbox" data-done ${st(p.id).done ? "checked" : ""}> Fotografiert</label>
@@ -327,6 +338,7 @@ function startApp(unlockedKey) {
         <div class="links">
           ${hero && p.post_url ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Post</a>
           ${p.profile_url ? `<a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>` : ""}` : ""}
+          ${p.wiki_url ? `<a class="wiki" href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
           <a href="${nav}" target="_blank" rel="noopener">Route</a>
           ${p.mine ? `<button class="del" data-del="${esc(p.id)}">Löschen</button>` : ""}
         </div>
@@ -334,7 +346,7 @@ function startApp(unlockedKey) {
   }
 
   function iconFor(p) {
-    const s = st(p.id), cls = ["pin", p.mine && !p.image ? "mine" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : ""].join(" ");
+    const s = st(p.id), cls = ["pin", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : ""].join(" ");
     return L.divIcon({
       className: "", iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -14],
       html: p.mine && !p.image ? `<div class="${cls}">★</div>`
@@ -343,14 +355,16 @@ function startApp(unlockedKey) {
   }
   function addMarker(p) {
     const m = L.marker([p.lat, p.lng], { icon: iconFor(p), title: p.name });
-    m.bindPopup(() => popupHtml(p), { maxWidth: 260, autoPanPaddingTopLeft: [10, 60] });
+    m.bindPopup(() => popupHtml(p), { maxWidth: 260, maxHeight: Math.round(window.innerHeight * 0.62),
+      autoPanPaddingTopLeft: [10, 60], autoPanPaddingBottomRight: [10, 90] });
     markers.set(p.id, m);
   }
   places.forEach(addMarker);
   map.addLayer(cluster);
 
   // ---------- Filter (Suche + Kategorie)
-  let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto";
+  let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto", hideClaude = false;
+  try { hideClaude = localStorage.getItem("hideClaude") === "1"; } catch {}
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
   $("#sort").addEventListener("change", e => { sortBy = e.target.value; try { localStorage.setItem("sort", sortBy); } catch {} renderList(); });
@@ -360,9 +374,10 @@ function startApp(unlockedKey) {
     const f = b.dataset.f;
     if (PRIOS.includes(f)) prioF.has(f) ? prioF.delete(f) : prioF.add(f);
     else if (f === "pop") popF = !popF;
+    else if (f === "noclaude") { hideClaude = !hideClaude; try { localStorage.setItem("hideClaude", hideClaude ? "1" : ""); } catch {} }
     else doneF = doneF === f ? null : f;
     $("#chips2").querySelectorAll("button").forEach(x => x.classList.toggle("on",
-      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF)));
+      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF) || (x.dataset.f === "noclaude" && hideClaude)));
     renderList();
   });
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
@@ -381,6 +396,7 @@ function startApp(unlockedKey) {
   const allCats = () => [...new Set(places.map(p => p.category).filter(Boolean))].sort();
   function renderChips() {
     const cats = allCats();
+    if (places.some(p => p.by_claude)) cats.unshift("✦ Claude-Tipps");
     if (places.some(p => p.mine)) cats.unshift("★ Meine");
     $("#chips").innerHTML = cats.length > 1 ? ["Alle", ...cats].map((c, i) =>
       `<button class="${(i ? c === cat : !cat) ? "on" : ""}" data-cat="${i ? esc(c) : ""}">${esc(c)}</button>`).join("") : "";
@@ -391,16 +407,25 @@ function startApp(unlockedKey) {
     renderChips(); renderList();
   });
   renderChips();
+  $("#chips2").querySelector('[data-f="noclaude"]').classList.toggle("on", hideClaude);
   const matches = p => {
     const q = $("#search").value.trim().toLowerCase();
     const hay = [p.name, p.address, p.district, p.category, p.note, p.caption, p.username,
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
     const s = st(p.id);
-    return (!cat || p.category === cat || (cat === "★ Meine" && p.mine)) && (!q || hay.includes(q))
+    return (!cat || p.category === cat || (cat === "★ Meine" && p.mine) || (cat === "✦ Claude-Tipps" && p.by_claude))
+      && !(hideClaude && p.by_claude && cat !== "✦ Claude-Tipps") && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio)) && (!doneF || (doneF === "done" ? s.done : !s.done))
       && (!popF || (p.pop || 0) >= 4);
   };
   const shown = new Set();
+  // Zum Marker zoomen und Popup öffnen – erst wenn die Cluster-Neuberechnung nach dem Zoom durch ist
+  function focusMarker(m, tries = 0) {
+    cluster.zoomToShowLayer(m, () => setTimeout(() => {
+      if (cluster.getVisibleParent(m) === m) m.openPopup();
+      else if (tries < 3) focusMarker(m, tries + 1);
+    }, 350));
+  }
   function syncMarkers(items) {  // nur Unterschiede anwenden, damit offene Popups offen bleiben
     const want = new Set(items.map(p => p.id));
     const out = [...shown].filter(id => !want.has(id));
@@ -451,7 +476,7 @@ function startApp(unlockedKey) {
         <li class="gi${s.done ? " done" : ""}" data-id="${esc(p.id)}">
           ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}
           <div class="badge">${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
-          <div class="cap2">${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : "", me ? fmt(p._d) : ""].filter(Boolean).join(" · "))}</small></div>
+          <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : "", me ? fmt(p._d) : ""].filter(Boolean).join(" · "))}</small></div>
         </li>`; }).join("") : `<li id="empty">Keine Treffer.</li>`;
       return;
     }
@@ -461,9 +486,9 @@ function startApp(unlockedKey) {
         ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>@${esc(x.username)}</span></a>`).join("")}</div></li>` : "";
     $("#list").innerHTML = (items.length ? items.map(p => `
       <li data-id="${esc(p.id)}">
-        ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : ""}</div>`}
+        ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
-          ${p.category ? `<div class="tag">${p.mine ? "★ " : ""}${esc([p.category, p.district].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
+          ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${esc([p.category, p.district].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
         ${me ? `<div class="d">${fmt(p._d)}</div>` : ""}
       </li>`).join("")
       : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`) + extra;
@@ -472,7 +497,7 @@ function startApp(unlockedKey) {
     const li = e.target.closest("li[data-id]"); if (!li) return;
     const m = markers.get(li.dataset.id);
     setSnap("peek");
-    cluster.zoomToShowLayer(m, () => m.openPopup());
+    focusMarker(m);
   });
   $("#search").addEventListener("input", renderList);
   $("#search").addEventListener("focus", () => { if (sheetSnap === "peek") setSnap("half"); });
@@ -740,7 +765,7 @@ function startApp(unlockedKey) {
       const list = await mutate(l => [...l, spot], `Spot hinzugefügt: ${spot.name}`);
       showMine(list); closeAdd();
       toast("Spot gespeichert ✓");
-      const m = markers.get(spot.id); if (m) cluster.zoomToShowLayer(m, () => m.openPopup());
+      const m = markers.get(spot.id); if (m) focusMarker(m);
     } catch (err) {
       $("#addErr").textContent = err.message;
       if (/Token/.test(err.message)) { store.set(TOKEN_KEY, null); $("#tokenRow").hidden = false; }
@@ -816,8 +841,32 @@ function startApp(unlockedKey) {
   });
   window.addEventListener("pagehide", () => { if (Object.keys(pending).length) flushStatus(); });
 
+  // ---------- Fotos der Claude-Tipps direkt von Wikipedia (im Browser, mit Cache)
+  async function loadWikiImages() {
+    const todo = places.filter(p => p.by_claude && p.wiki);
+    await Promise.all(todo.map(async p => {
+      const key = "wiki:" + p.wiki;
+      let d = null;
+      try { d = JSON.parse(localStorage.getItem(key) || "null"); } catch {}
+      if (!d) {
+        try {
+          const r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(p.wiki.replace(/ /g, "_"))}`);
+          if (!r.ok) return;
+          const j = await r.json();
+          const img = j.thumbnail && j.thumbnail.source;
+          d = { img: img ? img.replace(/\/\d+px-/, "/640px-") : null, url: j.content_urls && j.content_urls.desktop.page };
+          try { localStorage.setItem(key, JSON.stringify(d)); } catch {}
+        } catch { return; }
+      }
+      p.image = d.img; p.wiki_url = d.url;
+      const m = markers.get(p.id); if (m) m.setIcon(iconFor(p));
+    }));
+    renderList();
+  }
+
   loadMine();
   loadStatus();
+  loadWikiImages();
 }
 
 // ---------- Zugangscode: entschlüsselt den Google-Maps-Key; ohne Code startet die Karte nicht

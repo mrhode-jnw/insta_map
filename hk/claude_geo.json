@@ -1,0 +1,158 @@
+{
+ "Avenue of Stars, Tsim Sha Tsui": {
+  "lat": 22.2941468,
+  "lon": 114.1757887,
+  "name": "Avenue of Stars, Salisbury Road, Tsim Sha Tsui, Yau Tsim Mong District, Kowloon, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Star Ferry Pier, Tsim Sha Tsui": {
+  "lat": 22.2935413,
+  "lon": 114.167987,
+  "name": "Tsim Sha Tsui Star Ferry Pier, Salisbury Road, Tsim Sha Tsui, Yau Tsim Mong District, Kowloon, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Former Kowloon-Canton Railway Clock Tower": {
+  "lat": 22.2935926,
+  "lon": 114.1695378,
+  "name": "Tsim Sha Tsui Clock Tower, Salisbury Road, Yau Tsim Mong District",
+  "via": "photon"
+ },
+ "Temple Street, Yau Ma Tei": {
+  "lat": 22.3042299,
+  "lon": 114.1696932,
+  "name": "Temple Street, Kwun Chung, Yau Ma Tei, Yau Tsim Mong District, Kowloon, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Tung Choi Street, Mong Kok": {
+  "lat": 22.3170507,
+  "lon": 114.1710372,
+  "name": "Tung Choi Street, Mong Kok, Yau Tsim Mong District, Kowloon, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Man Mo Temple, Hollywood Road": {
+  "lat": 22.2838713,
+  "lon": 114.1501584,
+  "name": "Man Mo Temple, 124-126, Hollywood Road, Tai Ping Shan, Sheung Wan, Central and Western District, Hong Kong Island, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Tai Kwun, Hollywood Road": {
+  "lat": 22.281942,
+  "lon": 114.15426,
+  "name": "Tai Kwun, Hollywood Road, SoHo, Central, Central and Western District, Hong Kong Island, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Peak Tram Garden Road Lower Terminus": {
+  "lat": 22.27772,
+  "lon": 114.15955,
+  "name": "Garden Road Peak Tram Station, Tramway Lane, Central and Western District",
+  "via": "photon"
+ },
+ "Peak Tower": {
+  "lat": 22.2712551,
+  "lon": 114.1499858,
+  "name": "Peak Tower, 128, Peak Road, Victoria Gap, Central and Western District, Hong Kong Island, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Golden Bauhinia Square": {
+  "lat": 22.2842082,
+  "lon": 114.1737705,
+  "name": "Golden Bauhinia Square, Wan Chai North, Wan Chai District, Hong Kong Island, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Hong Kong Observation Wheel": {
+  "lat": 22.2853165,
+  "lon": 114.1617716,
+  "name": "The Hong Kong Observation Wheel, Central, Central and Western District, Hong Kong Island, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Blue House, Stone Nullah Lane": {
+  "lat": 22.2738976,
+  "lon": 114.1741463,
+  "name": "Blue House, Stone Nullah Lane, Wan Chai District",
+  "via": "photon"
+ },
+ "Happy Valley Racecourse": {
+  "lat": 22.2726048,
+  "lon": 114.1806419,
+  "name": "Happy Valley Racecourse, Aberdeen Tunnel, Mount Nicholson, Happy Valley Mid-Levels, Wan Chai District, Hong Kong Island, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "International Commerce Centre": {
+  "lat": 22.3033792,
+  "lon": 114.1602256,
+  "name": "International Commerce Centre, 1, Austin Road West, West Kowloon, Yau Ma Tei, Yau Tsim Mong District, Kowloon, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "M+, West Kowloon Cultural District": {
+  "lat": 22.3017093,
+  "lon": 114.1629845,
+  "name": "West Kowloon Cultural District, West Kowloon, Yau Ma Tei, Yau Tsim Mong District, Kowloon, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Hong Kong Palace Museum": {
+  "lat": 22.3016491,
+  "lon": 114.1553984,
+  "name": "Hong Kong Palace Museum, 8, Museum Drive, Yau Ma Tei, Yau Tsim Mong District, Kowloon, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Wong Tai Sin Temple": {
+  "lat": 22.3428184,
+  "lon": 114.1935509,
+  "name": "Wong Tai Sin Temple, 2, Wong Tai Sin, Wong Tai Sin District, Kowloon, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Nan Lian Garden": {
+  "lat": 22.3393548,
+  "lon": 114.2048532,
+  "name": "Nam Lian Garden, Hammer Hill, Wong Tai Sin District, Kowloon, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Tian Tan Buddha": {
+  "lat": 22.253963,
+  "lon": 113.905012,
+  "name": "Tian Tan Buddha, Ngong Ping, Lantau Island",
+  "via": "photon"
+ },
+ "Ngong Ping 360 Tung Chung Terminal": {
+  "lat": 22.29017,
+  "lon": 113.93864,
+  "name": "Tung Chung Cable Car Terminal, Tat Tung Road, Tung Chung",
+  "via": "nominatim"
+ },
+ "Ten Thousand Buddhas Monastery": {
+  "lat": 22.387997,
+  "lon": 114.1849485,
+  "name": "Ten Thousand Buddha's Monastery, Ten Thousand Buddhas Monastery Access Path, Ngong Tong Shan, Tin Liu, Sha Tin District, New Territories, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Dragon's Back": {
+  "lat": 22.2392576,
+  "lon": 114.2419933,
+  "name": "Dragon's Back, Tai Long Wan, Southern District, Hong Kong Island, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Repulse Bay Beach": {
+  "lat": 22.2365494,
+  "lon": 114.19654,
+  "name": "Repulse Bay Beach, Repulse Bay, Southern District, Hong Kong Island, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Murray House, Stanley": {
+  "lat": 22.2179337,
+  "lon": 114.2097443,
+  "name": "Murray House, Stanley Main Street, Stanley Village, Southern District, Hong Kong Island, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "High Island Reservoir East Dam": {
+  "lat": 22.361976,
+  "lon": 114.3715347,
+  "name": "East Dam of High Island Reservoir, Sai Kung Man Yee Road, High Island, Sai Kung District, New Territories, Hong Kong, China",
+  "via": "nominatim"
+ },
+ "Cheung Chau Ferry Pier": {
+  "lat": 22.208584,
+  "lon": 114.0283421,
+  "name": "Cheung Chau Ferry Pier, San Hing Praya Street, Cheung Chau, Islands District, New Territories, Hong Kong, China",
+  "via": "nominatim"
+ }
+}

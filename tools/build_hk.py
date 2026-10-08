@@ -129,6 +129,22 @@ for n, s in enumerate(S):
         places[-1]["pop"] = pop["score"]
         places[-1]["pop_reason"] = pop.get("reason", "")
 
+# Claude-Tipps: ergänzende Top-Spots, nicht aus der Sammlung (Bild lädt die Karte von Wikipedia)
+from claude_spots import CLAUDE_SPOTS  # noqa: E402
+cgeo = json.load(open(os.path.join(ROOT, "hk", "claude_geo.json"), encoding="utf-8"))
+for name, q, district, cat, pop, reason, wiki, note in CLAUDE_SPOTS:
+    g = cgeo.get(q)
+    if not g:
+        print("  Claude-Tipp ohne Koordinaten:", name, file=sys.stderr)
+        continue
+    places.append({
+        "id": "claude-" + spot_id(name)[3:],
+        "name": name, "district": district, "category": cat, "note": note,
+        "address": g["name"], "lat": round(g["lat"], 6), "lng": round(g["lon"], 6), "approx": False,
+        "image": None, "caption": "", "post_url": "", "username": "", "profile_url": "", "posts": [],
+        "by_claude": True, "wiki": wiki, "pop": pop, "pop_reason": reason,
+    })
+
 unplaced = [posts[i] for i in sorted(POSTS) if i not in used]
 
 with open(bp.OUT_FILE, "w", encoding="utf-8") as f:
@@ -139,9 +155,9 @@ with open(bp.OUT_FILE, "w", encoding="utf-8") as f:
     json.dump(unplaced, f, ensure_ascii=False, indent=1)
     f.write(";\n")
 
-print(f"✔ {len(places)} Orte, {len(unplaced)} Posts ohne konkreten Ort → data/places.js")
+print(f"✔ {len(places)} Orte (inkl. Claude-Tipps), {len(unplaced)} Posts ohne konkreten Ort → data/places.js")
 from collections import Counter  # noqa: E402
-dup = Counter(p["image"] for p in places)
+dup = Counter(p["image"] for p in places if p["image"])
 shared = sum(n for n in dup.values() if n > 1)
 print(f"Markerbilder: {len(dup)} verschiedene, {shared} Spots teilen sich ein Bild mit anderen")
 missing = [p["url"] for p in posts.values() if not p["image"]]
