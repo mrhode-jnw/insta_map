@@ -237,8 +237,11 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
-<script src="config.js"></script>
-<script src="data/places.js"></script>
+<script>
+  // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
+  const v = Date.now();
+  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script>`);
+</script>
 <script src="crypto.js"></script>
 <script>
 function startApp(unlockedKey) {
