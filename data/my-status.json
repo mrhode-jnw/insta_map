@@ -79,5 +79,8 @@
  },
  "hk-langham-place": {
   "prio": "gering"
+ },
+ "hk-fa-yuen-street-market": {
+  "prio": "mittel"
  }
 }
