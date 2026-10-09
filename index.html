@@ -215,6 +215,7 @@
     background: var(--bg); border-radius: 999px; box-shadow: var(--shadow); padding: 3px; }
   #group button { border: 0; background: transparent; color: var(--fg); padding: 7px 10px; border-radius: 999px; font-size: 14px; cursor: pointer; }
   #group button.on { background: var(--accent); color: #fff; }
+  #group button[data-r] { font-size: 18px; padding: 5px 9px; border-right: 1px solid var(--line, #ccc); border-radius: 999px 0 0 999px; }
   @media (min-width: 800px) { #group { left: 390px; } }
   /* Handy: solange ein Spot offen ist, gehört ihm der ganze Bildschirm unter dem Bereichs-Umschalter */
   @media (max-width: 799px) {
@@ -255,7 +256,7 @@
 </div>
 <div id="map"></div>
 <div id="group" role="tablist" aria-label="Bereich">
-  <button data-g="">Alle</button><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button>
+  <button data-r title="Region wechseln (Hongkong / China)" aria-label="Region wechseln">🇭🇰</button><button data-g="">Alle</button><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button>
 </div>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
 <button id="add" class="fab" title="Spot hinzufügen" aria-label="Spot hinzufügen">+</button>
@@ -340,12 +341,12 @@
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
   const v = Date.now();
-  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script>`);
+  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script>`);
 </script>
 <script src="crypto.js"></script>
 <script>
 function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
-  const places = (window.PLACES || []).filter(p => isFinite(p.lat) && isFinite(p.lng));
+  const places = [...(window.PLACES || []), ...(window.PLACES_CN || [])].filter(p => isFinite(p.lat) && isFinite(p.lng));
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
@@ -490,9 +491,39 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Fotos/Food = deine Spots aus der Sammlung (+ eigene); Tipps = von Claude ergänzte Spots
   const GROUPS = { food: p => !p.by_claude && p.category === "Food", fotos: p => !p.by_claude && p.category !== "Food", claude: p => p.by_claude };
   let group = "fotos";  // beim Öffnen immer „Fotos“
-  const inGroup = p => !group || GROUPS[group](p);
+  // Region: Hongkong oder China (eigene Spots nach Lage)
+  const REGIONS = { hk: { flag: "🇭🇰", name: "Hongkong" }, cn: { flag: "🇨🇳", name: "China" } };
+  const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
+  let region = "hk";
+  try { region = REGIONS[localStorage.getItem("region")] ? localStorage.getItem("region") : "hk"; } catch {}
+  const inGroup = p => regionOf(p) === region && (!group || GROUPS[group](p));
+  function fitRegion() {  // Hauptcluster der Region zeigen (Ausreißer nicht einbeziehen)
+    const ps = places.filter(p => regionOf(p) === region); if (!ps.length) return;
+    const mid = arr => arr.slice().sort((a, b) => a - b)[arr.length >> 1];
+    const c = { lat: mid(ps.map(p => p.lat)), lng: mid(ps.map(p => p.lng)) };
+    const near = region === "hk" ? ps.filter(p => dist(c, p) < 100e3) : ps;
+    map.fitBounds(L.latLngBounds(near.map(p => [p.lat, p.lng])), { padding: [40, 40], animate: false });
+  }
+  function showRegion() {
+    const b = $("#group [data-r]"); b.textContent = REGIONS[region].flag;
+    b.hidden = !places.some(p => regionOf(p) !== "hk");
+    $("#group").querySelectorAll("[data-g=food],[data-g=claude]").forEach(x =>
+      x.hidden = !places.some(p => regionOf(p) === region && GROUPS[x.dataset.g](p)));
+  }
+  showRegion();
+  function setRegion(r) {
+    region = r;
+    try { localStorage.setItem("region", region); } catch {}
+    map.closePopup(); savedView = null;
+    if (group && !places.some(p => regionOf(p) === region && GROUPS[group](p))) group = "fotos";
+    cat = null; showRegion(); renderChips(); renderList();
+  }
   $("#group").addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
+    if (b.hasAttribute("data-r")) {
+      setRegion(region === "hk" ? "cn" : "hk"); fitRegion();
+      return toast(`${REGIONS[region].flag} ${REGIONS[region].name}: ${places.filter(inGroup).length} Spots`, 2000);
+    }
     group = b.dataset.g;
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
     renderChips(); renderList();
@@ -712,16 +743,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     cluster.addLayers(inn.map(id => markers.get(id)).filter(Boolean));
     out.forEach(id => shown.delete(id)); inn.forEach(id => shown.add(id));
   }
-  // Startansicht: Hauptcluster (Ausreißer wie Shanghai nicht einbeziehen)
-  if (places.length) {
-    const mid = arr => arr.slice().sort((a, b) => a - b)[arr.length >> 1];
-    const c = { lat: mid(places.map(p => p.lat)), lng: mid(places.map(p => p.lng)) };
-    const near = places.filter(p => dist(c, p) < 100e3);
-    map.fitBounds(L.latLngBounds(near.map(p => [p.lat, p.lng])), { padding: [40, 40], animate: false });
-  }
+  // Startansicht: Hauptcluster der gewählten Region
+  fitRegion();
 
   // ---------- Liste
-  const unplaced = window.UNPLACED_POSTS || [];
+  const unplacedAll = [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])];
   const prioRank = p => ({ hoch: 0, mittel: 1, gering: 2 })[st(p.id).prio] ?? 3;
   // Sichtbarer Kartenbereich ohne die Fläche, die das Panel verdeckt
   function visibleBounds() {
@@ -760,6 +786,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         </li>`; }).join("") : `<li id="empty">Keine Treffer.</li>`;
       return;
     }
+    const unplaced = unplacedAll.filter(x => (x.region || "hk") === region);
     const extra = unplaced.length && !filtered ? `
       <li class="sec">Ohne konkreten Ort <small>(${unplaced.length} Posts – Inspiration)</small></li>
       <li class="sec" style="padding:0;border:0"><div class="ugrid">${unplaced.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
@@ -875,8 +902,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       meMarker = L.marker(ll, { icon: L.divIcon({ className: "", html: '<div class="me-dot"></div>', iconSize: [18, 18], iconAnchor: [9, 9] }),
         zIndexOffset: 1000, interactive: false }).addTo(map);
     } else { meMarker.setLatLng(ll); meCircle.setLatLng(ll).setRadius(pos.coords.accuracy); }
-    const nearest = places.reduce((m, p) => Math.min(m, dist(me, p)), Infinity);
+    const np = places.reduce((m, p) => !m || dist(me, p) < dist(me, m) ? p : m, null);
+    const nearest = np ? dist(me, np) : Infinity;
     const wasNear = nearSpots; nearSpots = nearest < 50e3;
+    if (first && nearSpots && regionOf(np) !== region) setRegion(regionOf(np));  // vor Ort automatisch die passende Region
     if (first && nearSpots) map.setView(ll, Math.max(map.getZoom(), 15));
     if (first && !nearSpots && places.length) toast(`Du bist ${fmt(nearest)} vom nächsten Spot entfernt – Entfernungen erscheinen vor Ort.`, 4500);
     if (wasNear !== nearSpots) lastListUpdate = 0;
