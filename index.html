@@ -235,6 +235,8 @@
       transform: translateX(-50%) !important; margin: 0 !important; z-index: 1600; }
     .leaflet-popup.card .leaflet-popup-tip-container { display: none; }
   }
+  .hotel-pin { width: 40px; height: 40px; border-radius: 12px; background: #1d4ed8; border: 3px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    display: grid; place-items: center; font-size: 20px; line-height: 1; }
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
@@ -466,6 +468,20 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   places.forEach(addMarker);
   map.addLayer(cluster);
 
+  // ---------- Unser Hotel (immer sichtbar, nicht gefiltert)
+  const HOTEL = { name: "The Harbourview", zh: "灣景國際 · 香港中華基督教青年會", lat: 22.280201, lng: 114.171109,
+    address: "4 Harbour Road, Wan Chai, Hong Kong", addressZh: "香港灣仔港灣道4號", dates: "10.–14. Okt. (4 Nächte)", room: "Executive Zimmer" };
+  const hotelIcon = L.divIcon({ className: "", iconSize: [40, 40], iconAnchor: [20, 20], popupAnchor: [0, -18],
+    html: '<div class="hotel-pin" title="Hotel">🏨</div>' });
+  L.marker([HOTEL.lat, HOTEL.lng], { icon: hotelIcon, zIndexOffset: 900, title: HOTEL.name }).addTo(map)
+    .bindPopup(() => `<div class="pop"><div class="pnav"><button class="pclose" aria-label="Schließen">✕</button><span>Unser Hotel</span><span style="width:38px"></span></div>
+      <div class="b"><h3>🏨 ${HOTEL.name}</h3><div class="meta">${HOTEL.zh}</div>
+        <div class="note">${HOTEL.dates} · ${HOTEL.room}</div>
+        <div class="addr">${HOTEL.address}<br>${HOTEL.addressZh}<br><small>${HOTEL.lat.toFixed(5)}, ${HOTEL.lng.toFixed(5)}</small></div>
+        <div class="links"><a href="https://www.google.com/maps/dir/?api=1&destination=${HOTEL.lat},${HOTEL.lng}" target="_blank" rel="noopener">Route</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(HOTEL.name + " " + HOTEL.address)}" target="_blank" rel="noopener">In Google Maps</a></div>
+      </div></div>`, { maxWidth: 400, autoPan: window.innerWidth >= 800 });
+
   // ---------- Filter (Suche + Kategorie)
   // Oberste Ebene: Bereich (Fotos / Food); Kategorien darunter gehören zum gewählten Bereich
   // Fotos/Food = deine Spots aus der Sammlung (+ eigene); Tipps = von Claude ergänzte Spots
@@ -601,7 +617,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const id = box && box.dataset.id;
     // Wischen über dem Spot: links = nächster, rechts = vorheriger (Galerie-Leiste scrollt weiter normal)
     const pop = el.querySelector(".pop");
-    if (pop && order.length > 1) {
+    if (pop && id && order.length > 1) {
       let t0 = null;
       pop.addEventListener("touchstart", e => {
         if (e.touches.length !== 1 || e.target.closest(".gal, button, input, a")) { t0 = null; return; }
