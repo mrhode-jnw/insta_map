@@ -63,9 +63,16 @@ def spot_post(x):
     p = dict(posts[n])
     code = POSTS[n][2]
     p["match"] = "single" if usage[n] == 1 else "cover"
-    c = ctx.get(code)
-    if slide and c and slide <= len(c["slides"]):
-        p["image"] = sl.download_slide(code, slide - 1, c["slides"][slide - 1])
+    rel = f"images/{code}_{slide}.jpg" if slide else None
+    if slide and not os.path.exists(os.path.join(ROOT, rel)):  # Slide noch nicht geladen → Karussell holen
+        c = ctx.get(code) or sl.fetch_context(code)
+        if c:
+            ctx[code] = c
+            bp.save_json(bp.CACHE_FILE, cache)
+            if slide <= len(c["slides"]):
+                sl.download_slide(code, slide - 1, c["slides"][slide - 1])
+    if slide and os.path.exists(os.path.join(ROOT, rel)):
+        p["image"] = rel
         p["match"], p["slide"] = "slide", slide
         p["url"] += f"?img_index={slide}"
     if p["match"] == "cover":
