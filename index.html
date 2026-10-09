@@ -546,9 +546,21 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const i = order.indexOf(fromId);
     const next = order[((i < 0 ? 0 : i + dir) + order.length) % order.length];
     const m = markers.get(next); if (!m) return;
+    navigating = true;
     map.closePopup();
+    navigating = false;
     focusMarker(m);
   }
+  // Kartenausschnitt vor dem ersten geöffneten Spot merken und beim Schließen wiederherstellen
+  // (Blättern zwischen Spots darf die Karte bewegen, danach steht sie wieder wie vorher)
+  let savedView = null, navigating = false;
+  const saveView = () => { if (!savedView) savedView = { c: map.getCenter(), z: map.getZoom() }; };
+  map.on("popupopen", saveView);
+  map.on("popupclose", () => {
+    if (navigating || !savedView) return;
+    const v = savedView; savedView = null;
+    map.setView(v.c, v.z, { animate: false });
+  });
   // Popup so hoch wie der freie Platz zwischen Bereichs-Umschalter oben und Liste unten
   function popupSpace() {
     const top = $("#group").getBoundingClientRect().bottom + 8;
@@ -744,6 +756,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   $("#list").addEventListener("click", e => {
     const li = e.target.closest("li[data-id]"); if (!li) return;
+    if (!map._popup || !map.hasLayer(map._popup)) saveView();
     const m = markers.get(li.dataset.id);
     setSnap("peek");
     focusMarker(m);
