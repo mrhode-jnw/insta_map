@@ -390,6 +390,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Entfernungen nur zeigen, wenn man vor Ort ist (nächster Spot < 50 km) – von zu Hause aus sind sie sinnlos
   const here = () => !!me && nearSpots;
   let order = [];  // aktuelle Listen-Reihenfolge (Filter + Sortierung) für ‹ › im Popup
+  // ‹ › blättern nur durch Spots im Kartenausschnitt, der vor dem Öffnen zu sehen war
+  const navOrder = cur => {
+    const b = savedView ? savedView.b : visibleBounds();
+    return order.filter(id => { if (id === cur) return true; const q = places.find(x => x.id === id); return q && b.contains([q.lat, q.lng]); });
+  };
   let sheetSnap = "peek";
   let status = {};  // id -> { prio: "hoch"|"mittel"|"gering", done: true } – aus data/my-status.json
   const st = id => status[id] || {};
@@ -417,13 +422,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}
         <figcaption><a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a>
           <a class="postlink" href="${esc(x.url)}" target="_blank" rel="noopener">Instagram-Post ↗</a></figcaption></figure>`).join("")}</div>` : "";
-    const idx = order.indexOf(p.id);
-    const multi = idx >= 0 && order.length > 1;
+    const navIds = navOrder(p.id), idx = navIds.indexOf(p.id);
+    const multi = idx >= 0 && navIds.length > 1;
     const onImg = multi && p.image;  // Pfeile mittig über dem großen Bild
     const pnav = `<div class="pnav">
         <button class="pclose" aria-label="Schließen">✕</button>
         ${multi && !onImg ? `<button data-go="-1" aria-label="Vorheriger Spot">‹</button>` : ""}
-        ${multi ? `<span>${idx + 1} / ${order.length}</span>` : `<span></span>`}
+        ${multi ? `<span>${idx + 1} / ${navIds.length}</span>` : `<span></span>`}
         ${multi && !onImg ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : `<span style="width:38px"></span>`}</div>`;
     return `<div class="pop">${pnav}
       ${p.image ? `<div class="hero"><img src="${esc(p.image)}" alt="" loading="lazy" data-lb="${Math.max(0, imgPosts.findIndex(x => x.image === p.image))}">
@@ -634,9 +639,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   // ‹ › im Popup: zum vorherigen/nächsten Spot der aktuellen Liste
   function stepSpot(fromId, dir) {
-    if (!order.length) return;
-    const i = order.indexOf(fromId);
-    const next = order[((i < 0 ? 0 : i + dir) + order.length) % order.length];
+    const nav = navOrder(fromId); if (nav.length < 2) return;
+    const i = nav.indexOf(fromId);
+    const next = nav[((i < 0 ? 0 : i + dir) + nav.length) % nav.length];
     const m = markers.get(next); if (!m) return;
     navigating = true;
     map.closePopup();
@@ -646,7 +651,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Kartenausschnitt vor dem ersten geöffneten Spot merken und beim Schließen wiederherstellen
   // (Blättern zwischen Spots darf die Karte bewegen, danach steht sie wieder wie vorher)
   let savedView = null, navigating = false;
-  const saveView = () => { if (!savedView) savedView = { c: map.getCenter(), z: map.getZoom() }; };
+  const saveView = () => { if (!savedView) savedView = { c: map.getCenter(), z: map.getZoom(), b: visibleBounds() }; };
   map.on("popupopen", saveView);
   map.on("popupclose", () => {
     if (navigating || !savedView) return;
