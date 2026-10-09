@@ -215,8 +215,12 @@
     background: var(--bg); border-radius: 999px; box-shadow: var(--shadow); padding: 3px; }
   #group button { border: 0; background: transparent; color: var(--fg); padding: 7px 10px; border-radius: 999px; font-size: 14px; cursor: pointer; }
   #group button.on { background: var(--accent); color: #fff; }
-  #group button[data-route] { font-size: 17px; padding: 5px 8px; }
-  #group button[data-r] { font-size: 18px; padding: 5px 9px; border-right: 1px solid var(--line, #ccc); border-radius: 999px 0 0 999px; }
+  #group { align-items: center; }
+  #group .where { position: relative; display: flex; align-items: center; padding: 7px 10px; border-radius: 999px; font-size: 14px; font-weight: 600; white-space: nowrap; }
+  #group .where::after { content: "▾"; margin-left: 4px; font-size: 11px; opacity: .6; }
+  #group .where select { position: absolute; inset: 0; opacity: 0; font-size: 16px; cursor: pointer; }
+  #group .sep { width: 1px; align-self: stretch; margin: 6px 2px; background: var(--line, #ccc); }
+  @media (max-width: 799px) { .leaflet-top.leaflet-right { margin-top: 56px; } }
   @media (min-width: 800px) { #group { left: 390px; } }
   /* Handy: solange ein Spot offen ist, gehört ihm der ganze Bildschirm unter dem Bereichs-Umschalter */
   @media (max-width: 799px) {
@@ -261,7 +265,9 @@
 </div>
 <div id="map"></div>
 <div id="group" role="tablist" aria-label="Bereich">
-  <button data-r title="Region wechseln (Hongkong / China / beide)" aria-label="Region wechseln">🇭🇰</button><button data-route title="Unsere Route" aria-label="Unsere Route">🧭</button><button data-g="">Alle</button><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button>
+  <label class="where"><span id="whereLbl">🧭 Route</span><select id="where" aria-label="Bereich wählen">
+    <option value="route">🧭 Route</option><option value="hk">🇭🇰 Hongkong</option><option value="cn">🇨🇳 China</option><option value="all">🌏 Alles</option></select></label>
+  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button>
 </div>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
 <button id="add" class="fab" title="Spot hinzufügen" aria-label="Spot hinzufügen">+</button>
@@ -299,7 +305,6 @@
     </div>
     <div id="chips"></div>
     <div id="chips2">
-      <button data-f="route">🧭 Route</button>
       <button data-f="hoch"><span class="prio-dot hoch"></span>Hoch</button>
       <button data-f="mittel"><span class="prio-dot mittel"></span>Mittel</button>
       <button data-f="gering"><span class="prio-dot gering"></span>Gering</button>
@@ -560,14 +565,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Oberste Ebene: Bereich (Fotos / Food); Kategorien darunter gehören zum gewählten Bereich
   // Fotos/Food = deine Spots aus der Sammlung (+ eigene); Tipps = von Claude ergänzte Spots
   const GROUPS = { food: p => !p.by_claude && p.category === "Food", fotos: p => !p.by_claude && p.category !== "Food", claude: p => p.by_claude };
-  let group = "fotos";  // beim Öffnen immer „Fotos“
-  // Region: Hongkong oder China (eigene Spots nach Lage)
-  const REGIONS = { hk: { flag: "🇭🇰", name: "Hongkong" }, cn: { flag: "🇨🇳", name: "China" }, all: { flag: "🌏", name: "Hongkong + China" } };
-  const inRegion = p => region === "all" || regionOf(p) === region;
+  let group = "fotos";  // beim Öffnen immer „Fotos“; nochmal tippen = alle Kategorien
+  // Bereich oben links: 🧭 Route (nur Spots an unserer Route) · 🇭🇰 Hongkong · 🇨🇳 China · 🌏 Alles
+  const WHERE = { route: "🧭 Route", hk: "🇭🇰 Hongkong", cn: "🇨🇳 China", all: "🌏 Alles" };
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
-  let region = "hk";
-  try { region = REGIONS[localStorage.getItem("region")] ? localStorage.getItem("region") : "hk"; } catch {}
-  const inGroup = p => (routeF ? routeStop(p) >= 0 : inRegion(p)) && (!group || GROUPS[group](p));
+  let where = "route";
+  try { where = WHERE[localStorage.getItem("where")] ? localStorage.getItem("where") : "route"; } catch {}
+  let routeF = where === "route";
+  let region = routeF ? "hk" : where;  // für die Startansicht
+  const inRegion = p => region === "all" || regionOf(p) === region;
+  const inScope = p => routeF ? routeStop(p) >= 0 : inRegion(p);
+  const inGroup = p => inScope(p) && (!group || GROUPS[group](p));
   function fitRegion() {  // Hauptcluster der Region zeigen (Ausreißer nicht einbeziehen)
     const ps = places.filter(inRegion); if (!ps.length) return;
     const mid = arr => arr.slice().sort((a, b) => a - b)[arr.length >> 1];
@@ -575,33 +583,30 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const near = region === "hk" ? ps.filter(p => dist(c, p) < 100e3) : ps;
     map.fitBounds(L.latLngBounds(near.map(p => [p.lat, p.lng])), { padding: [40, 40], animate: false });
   }
-  function showRegion() {
-    const b = $("#group [data-r]"); b.textContent = REGIONS[region].flag;
-    b.hidden = !places.some(p => regionOf(p) !== "hk");
+  function showWhere() {
+    $("#where").value = where; $("#whereLbl").textContent = WHERE[where];
     $("#group").querySelectorAll("[data-g=food],[data-g=claude]").forEach(x =>
-      x.hidden = !places.some(p => inRegion(p) && GROUPS[x.dataset.g](p)));
+      x.hidden = !places.some(p => inScope(p) && GROUPS[x.dataset.g](p)));
   }
-  showRegion();
-  function setRegion(r) {
-    region = r;
-    try { localStorage.setItem("region", region); } catch {}
+  function setWhere(w, fit = true) {
+    where = w; routeF = w === "route"; if (!routeF) region = w;
+    try { localStorage.setItem("where", where); } catch {}
+    routeF ? routeLayer.addTo(map) : routeLayer.remove();
     map.closePopup(); savedView = null;
-    if (group && !places.some(p => inRegion(p) && GROUPS[group](p))) group = "fotos";
-    cat = null; showRegion(); renderChips(); renderList();
+    if (group && !places.some(p => inScope(p) && GROUPS[group](p))) group = "fotos";
+    cat = null; showWhere(); renderChips(); renderList();
+    if (!fit) return;
+    if (routeF) map.fitBounds(L.latLngBounds(ROUTE.map(r => [r.lat, r.lng])), { padding: [40, 40], animate: false });
+    else fitRegion();
+    toast(`${WHERE[where]}: ${places.filter(inScope).length} Spots`, 2000);
   }
+  $("#where").addEventListener("change", e => setWhere(e.target.value));
   $("#group").addEventListener("click", e => {
-    const b = e.target.closest("button"); if (!b) return;
-    if (b.hasAttribute("data-route")) return $("#chips2 [data-f=route]").click();
-    if (b.hasAttribute("data-r")) {
-      setRegion({ hk: "cn", cn: "all", all: "hk" }[region]); fitRegion();
-      return toast(`${REGIONS[region].flag} ${REGIONS[region].name}: ${places.filter(inGroup).length} Spots`, 2000);
-    }
-    group = b.dataset.g;
+    const b = e.target.closest("button[data-g]"); if (!b) return;
+    group = group === b.dataset.g ? "" : b.dataset.g;  // aktive Kategorie nochmal tippen = alle
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
     renderChips(); renderList();
   });
-  let routeF = true;  // Route standardmäßig an (Ausschalten wird gemerkt)
-  try { routeF = localStorage.getItem("route") !== "0"; } catch {}
   let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto";
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
@@ -612,21 +617,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const f = b.dataset.f;
     if (PRIOS.includes(f) || f === "none") prioF.has(f) ? prioF.delete(f) : prioF.add(f);
     else if (f === "pop") popF = !popF;
-    else if (f === "route") {
-      routeF = !routeF; routeF ? routeLayer.addTo(map) : routeLayer.remove();
-      try { localStorage.setItem("route", routeF ? "1" : "0"); } catch {}
-      if (routeF) map.fitBounds(L.latLngBounds(ROUTE.map(r => [r.lat, r.lng])), { padding: [40, 40] });
-      else fitRegion();
-    }
     else doneF = doneF === f ? null : f;
     $("#chips2").querySelectorAll("button").forEach(x => x.classList.toggle("on",
-      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF) || (x.dataset.f === "route" && routeF)));
-    $("#group [data-route]").classList.toggle("on", routeF);
+      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF)));
     renderList();
   });
   if (routeF) routeLayer.addTo(map);
-  $("#chips2 [data-f=route]").classList.toggle("on", routeF);
-  $("#group [data-route]").classList.toggle("on", routeF);
+  showWhere();
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
   try { view = localStorage.getItem("view") || "list"; inView = localStorage.getItem("inView") === "1"; } catch {}
   $("#view").addEventListener("click", e => {
@@ -883,7 +880,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         </li>`; }).join("") : `<li id="empty">Keine Treffer.</li>`;
       return;
     }
-    const unplaced = unplacedAll.filter(x => region === "all" || (x.region || "hk") === region);
+    const unplaced = unplacedAll.filter(x => routeF || region === "all" || (x.region || "hk") === region);
     const extra = unplaced.length && !filtered ? `
       <li class="sec">Ohne konkreten Ort <small>(${unplaced.length} Posts – Inspiration)</small></li>
       <li class="sec" style="padding:0;border:0"><div class="ugrid">${unplaced.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
@@ -1002,7 +999,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const np = places.reduce((m, p) => !m || dist(me, p) < dist(me, m) ? p : m, null);
     const nearest = np ? dist(me, np) : Infinity;
     const wasNear = nearSpots; nearSpots = nearest < 50e3;
-    if (first && nearSpots && region !== "all" && regionOf(np) !== region) setRegion(regionOf(np));  // vor Ort automatisch die passende Region
+    if (first && nearSpots && (where === "hk" || where === "cn") && regionOf(np) !== where) setWhere(regionOf(np), false);  // vor Ort automatisch die passende Region
     if (first && nearSpots) map.setView(ll, Math.max(map.getZoom(), 15));
     if (first && !nearSpots && places.length) toast(`Du bist ${fmt(nearest)} vom nächsten Spot entfernt – Entfernungen erscheinen vor Ort.`, 4500);
     if (wasNear !== nearSpots) lastListUpdate = 0;
