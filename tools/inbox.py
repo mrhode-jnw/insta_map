@@ -21,6 +21,7 @@ import build_places as bp  # noqa: E402
 import slides as sl  # noqa: E402
 
 SPOTS = os.path.join(ROOT, "hk", "spots.py")
+SPOTS_CN = os.path.join(ROOT, "cn", "spots_cn.py")  # China-Sammlung (tools/build_cn.py)
 SKIPPED = os.path.join(ROOT, "hk", "inbox_skipped.json")
 DATA_BRANCH = "map-data"
 
@@ -33,7 +34,7 @@ def inbox():
 
 
 def known_codes():
-    txt = open(SPOTS, encoding="utf-8").read()
+    txt = open(SPOTS, encoding="utf-8").read() + open(SPOTS_CN, encoding="utf-8").read()
     return set(re.findall(r'\(\s*"[^"]*"\s*,\s*"[^"]*"\s*,\s*"([A-Za-z0-9_-]+)"\s*\)', txt))
 
 
