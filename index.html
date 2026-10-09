@@ -239,8 +239,10 @@
     .leaflet-popup.card { transition: none !important; opacity: 1 !important; }
     .leaflet-popup.card.ghost { pointer-events: none; z-index: 1599; }
   }
-  .hotel-pin { width: 40px; height: 40px; border-radius: 12px; background: #1d4ed8; border: 3px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,.4);
-    display: grid; place-items: center; font-size: 20px; line-height: 1; }
+  /* Hotels dezent: klein, weiß mit blauem Rand; weit herausgezoomt nur ein Punkt */
+  .hotel-pin { width: 24px; height: 24px; border-radius: 7px; background: #fff; border: 2px solid #2563eb; box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    display: grid; place-items: center; font-size: 13px; line-height: 1; opacity: .9; transition: transform .2s; }
+  .zoom-far .hotel-pin { transform: scale(.45); font-size: 0; background: #2563eb; border-color: #fff; }
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
@@ -540,9 +542,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     { name: "Hyatt on the Bund", zh: "上海外滩茂悦大酒店", lat: 31.247314, lng: 121.488386,
       address: "199 Huangpu Road, Hongkou, Shanghai", dates: "28. Okt.–1. Nov. (4 Nächte)", room: "" },
   ];
-  const hotelIcon = L.divIcon({ className: "", iconSize: [40, 40], iconAnchor: [20, 20], popupAnchor: [0, -18],
+  const hotelIcon = L.divIcon({ className: "", iconSize: [24, 24], iconAnchor: [12, 12], popupAnchor: [0, -12],
     html: '<div class="hotel-pin" title="Hotel">🏨</div>' });
-  HOTELS.forEach(H => L.marker([H.lat, H.lng], { icon: hotelIcon, zIndexOffset: 900, title: H.name }).addTo(map)
+  const farZoom = () => map.getContainer().classList.toggle("zoom-far", map.getZoom() < 10);
+  map.on("zoomend", farZoom); farZoom();
+  HOTELS.forEach(H => L.marker([H.lat, H.lng], { icon: hotelIcon, zIndexOffset: -500, title: H.name }).addTo(map)
     .bindPopup(() => `<div class="pop"><div class="pnav"><button class="pclose" aria-label="Schließen">✕</button><span>Unser Hotel</span><span style="width:38px"></span></div>
       <div class="b"><h3>🏨 ${esc(H.name)}</h3><div class="meta">${esc(H.zh)}</div>
         <div class="note">${esc([H.dates, H.room].filter(Boolean).join(" · "))}</div>
