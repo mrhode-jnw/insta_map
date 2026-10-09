@@ -294,6 +294,7 @@
     </div>
     <div id="chips"></div>
     <div id="chips2">
+      <button data-f="route">🧭 Route</button>
       <button data-f="hoch"><span class="prio-dot hoch"></span>Hoch</button>
       <button data-f="mittel"><span class="prio-dot mittel"></span>Mittel</button>
       <button data-f="gering"><span class="prio-dot gering"></span>Gering</button>
@@ -434,7 +435,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           ${PRIOS.map(k => `<button data-prio="${k}" class="${st(p.id).prio === k ? "on" : ""}">${PRIO_LABEL[k]}</button>`).join("")}
           <button class="shot${st(p.id).done ? " on" : ""}" data-done title="Fotografiert" aria-label="Fotografiert" aria-pressed="${!!st(p.id).done}">📷</button>
         </div>
-        ${p.category ? `<div class="meta">${esc([p.mine ? "★ Eigener Spot" : "", p.category, p.district].filter(Boolean).join(" · "))}</div>` : ""}
+        ${p.category ? `<div class="meta">${esc([p.mine ? "★ Eigener Spot" : "", p.category, p.district, routeLabel(p)].filter(Boolean).join(" · "))}</div>` : ""}
         ${p.pop ? `<div class="popularity">${"🔥".repeat(p.pop)}${"<span style=\"opacity:.25\">🔥</span>".repeat(5 - p.pop)} Beliebtheit ${p.pop}/5${p.pop_reason ? `<br><small>${esc(p.pop_reason)}</small>` : ""}</div>` : ""}
         ${p.approx ? `<div class="approx">Pin ungefähr</div>` : ""}
         ${d}
@@ -473,6 +474,37 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   map.addLayer(cluster);
 
   // ---------- Unser Hotel (immer sichtbar, nicht gefiltert)
+  // ---------- Reiseroute (Stationen mit Umkreis in km): Filter „🧭 Route“ zeigt Spots in der Nähe
+  const ROUTE = [
+    { d: "10.–14.10.", name: "Hongkong", lat: 22.30, lng: 114.17, r: 40 },
+    { d: "14.10.", name: "Shenzhen", lat: 22.54, lng: 114.06, r: 25 },
+    { d: "15.10.", name: "Xingping (Fischer)", lat: 24.9198, lng: 110.5278, r: 15 },
+    { d: "15.–18.10.", name: "Yangshuo (Secret Glen Hotel)", lat: 24.7883, lng: 110.4275, r: 30 },
+    { d: "16.10.", name: "Longji-Reisterrassen", lat: 25.7734, lng: 110.1429, r: 15 },
+    { d: "19.10.", name: "Zhanli & Huanggang Village", lat: 25.85, lng: 108.95, r: 25 },
+    { d: "20.10.", name: "Dali Dong Village", lat: 26.0415, lng: 108.6394, r: 15 },
+    { d: "21.10.", name: "Langde Miao & Maliao Village", lat: 26.474, lng: 108.0575, r: 25 },
+    { d: "22.10.", name: "Kaili", lat: 26.6065, lng: 107.9718, r: 20 },
+    { d: "23.–25.10.", name: "Zhangjiajie (Yuanjiajie, Tianzi, Tianmen)", lat: 29.3501, lng: 110.4355, r: 45 },
+    { d: "26.–27.10.", name: "Chongqing", lat: 29.5601, lng: 106.5734, r: 35 },
+    { d: "28.10.–1.11.", name: "Shanghai", lat: 31.2353, lng: 121.4876, r: 70 },
+  ];
+  const routeCache = new Map();
+  const routeStop = p => {  // nächstgelegene Station im Umkreis (Index) oder -1
+    const k = p.id + p.lat + p.lng;
+    if (!routeCache.has(k)) {
+      let best = -1, bd = Infinity;
+      ROUTE.forEach((r, i) => { const d = dist(r, p); if (d <= r.r * 1000 && d < bd) { best = i; bd = d; } });
+      routeCache.set(k, best);
+    }
+    return routeCache.get(k);
+  };
+  const routeLabel = p => { const i = routeStop(p); return i < 0 ? "" : `🧭 ${ROUTE[i].d}`; };
+  const routeLayer = L.layerGroup([
+    L.polyline(ROUTE.map(r => [r.lat, r.lng]), { color: "#2563eb", weight: 3, opacity: .55, dashArray: "6 8", interactive: false }),
+    ...ROUTE.map(r => L.circleMarker([r.lat, r.lng], { radius: 6, color: "#fff", weight: 2, fillColor: "#2563eb", fillOpacity: 1 })
+      .bindTooltip(`${r.d} · ${r.name}`, { direction: "top", offset: [0, -6] })),
+  ]);
   const HOTEL = { name: "The Harbourview", zh: "灣景國際 · 香港中華基督教青年會", lat: 22.280201, lng: 114.171109,
     address: "4 Harbour Road, Wan Chai, Hong Kong", addressZh: "香港灣仔港灣道4號", dates: "10.–14. Okt. (4 Nächte)", room: "Executive Zimmer" };
   const hotelIcon = L.divIcon({ className: "", iconSize: [40, 40], iconAnchor: [20, 20], popupAnchor: [0, -18],
@@ -496,7 +528,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
   let region = "hk";
   try { region = REGIONS[localStorage.getItem("region")] ? localStorage.getItem("region") : "hk"; } catch {}
-  const inGroup = p => regionOf(p) === region && (!group || GROUPS[group](p));
+  const inGroup = p => (routeF ? routeStop(p) >= 0 : regionOf(p) === region) && (!group || GROUPS[group](p));
   function fitRegion() {  // Hauptcluster der Region zeigen (Ausreißer nicht einbeziehen)
     const ps = places.filter(p => regionOf(p) === region); if (!ps.length) return;
     const mid = arr => arr.slice().sort((a, b) => a - b)[arr.length >> 1];
@@ -528,6 +560,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
     renderChips(); renderList();
   });
+  let routeF = false;
   let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto";
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
@@ -538,9 +571,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const f = b.dataset.f;
     if (PRIOS.includes(f) || f === "none") prioF.has(f) ? prioF.delete(f) : prioF.add(f);
     else if (f === "pop") popF = !popF;
+    else if (f === "route") {
+      routeF = !routeF; routeF ? routeLayer.addTo(map) : routeLayer.remove();
+      if (routeF) map.fitBounds(L.latLngBounds(ROUTE.map(r => [r.lat, r.lng])), { padding: [40, 40] });
+      else fitRegion();
+    }
     else doneF = doneF === f ? null : f;
     $("#chips2").querySelectorAll("button").forEach(x => x.classList.toggle("on",
-      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF)));
+      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF) || (x.dataset.f === "route" && routeF)));
     renderList();
   });
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
@@ -766,7 +804,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     syncMarkers(items);
     if (inView) { const vb = visibleBounds(); items = items.filter(p => vb.contains([p.lat, p.lng])); }
     items = items.map(p => ({ ...p, _d: here() ? dist(me, p) : 0 }))
-      .sort((a, b) => sortBy === "pop" ? (b.pop || 0) - (a.pop || 0) || a._d - b._d
+      .sort((a, b) => routeF && sortBy === "auto" ? routeStop(a) - routeStop(b) || (b.pop || 0) - (a.pop || 0)
+        : sortBy === "pop" ? (b.pop || 0) - (a.pop || 0) || a._d - b._d
         : sortBy === "prio" ? prioRank(a) - prioRank(b) || a._d - b._d
         : here() ? a._d - b._d : prioRank(a) - prioRank(b));
     order = items.map(p => p.id);
@@ -774,7 +813,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = group === "food" || group === "claude" || popF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = group === "food" || group === "claude" || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     if (view === "grid") {
@@ -795,7 +834,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <li data-id="${esc(p.id)}">
         ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
-          ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${esc([p.category, p.district].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
+          ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${esc([p.category, p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
         ${here() ? `<div class="d">${fmt(p._d)}</div>` : ""}
       </li>`).join("")
       : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`) + extra;
