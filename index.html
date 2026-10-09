@@ -261,7 +261,10 @@
 <button id="add" class="fab" title="Spot hinzufügen" aria-label="Spot hinzufügen">+</button>
 <div id="addDlg" hidden>
   <form id="addForm" autocomplete="off">
-    <h2>Neuer Spot</h2>
+    <h2>Instagram-Post übernehmen</h2>
+    <div class="row"><input id="impLink" type="url" placeholder="Instagram-Link einfügen"><button type="button" id="impBtn">Übernehmen</button></div>
+    <small>Wird automatisch verarbeitet: Orte, Bilder und Beliebtheit erscheinen innerhalb von ca. 1 Stunde auf der Karte.</small>
+    <h2 style="margin-top:10px">Oder eigenen Spot setzen</h2>
     <div class="row"><input id="addSearch" type="search" placeholder="Ort oder Adresse suchen"><button type="button" id="addSearchBtn">Suchen</button></div>
     <ul id="addResults"></ul>
     <div id="addPos">Ort suchen oder lange auf die Karte tippen.</div>
@@ -1206,6 +1209,39 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     }));
     renderList();
   }
+
+  // ---------- Eingang für neue Instagram-Posts (data/inbox.json im Branch map-data)
+  // Eine stündliche Claude-Routine verarbeitet neue Links (siehe ROUTINE.md).
+  const INBOX_PATH = "data/inbox.json";
+  const igCode = url => (String(url).match(/instagram\.com\/(?:[A-Za-z0-9_.]+\/)?(?:p|reel|reels|tv)\/([A-Za-z0-9_-]+)/) || [])[1];
+  async function addToInbox(url) {
+    const code = igCode(url);
+    if (!code) { toast("Das ist kein Instagram-Post-Link.", 4000); return false; }
+    if (!store.get(TOKEN_KEY)) {
+      const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return false; store.set(TOKEN_KEY, t.trim());
+    }
+    try {
+      let added = false;
+      await mutate(list => {
+        if (list.some(x => x.code === code)) return list;
+        added = true;
+        return [...list, { code, url: url.split("?")[0], added: new Date().toISOString() }];
+      }, `Eingang: Instagram-Post ${code}`, INBOX_PATH, []);
+      toast(added ? "📥 Zur Karte hinzugefügt – erscheint in ca. 1 Stunde" : "Dieser Post ist schon im Eingang.", 4500);
+      return true;
+    } catch (err) { toast(err.message, 5000); return false; }
+  }
+  $("#impBtn").addEventListener("click", async () => {
+    const v = $("#impLink").value.trim(); if (!v) return;
+    if (await addToInbox(v)) { $("#impLink").value = ""; closeAdd(); }
+  });
+  // Teilen-Menü / Kurzbefehl: …/insta_map/?add=<Instagram-Link>
+  (() => {
+    const add = new URLSearchParams(location.search).get("add");
+    if (!add) return;
+    history.replaceState(null, "", location.pathname);
+    addToInbox(add);
+  })();
 
   loadMine();
   loadStatus();

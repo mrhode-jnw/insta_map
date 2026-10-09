@@ -27,6 +27,12 @@ der Sammlung stammen. Koordinaten: `python3 tools/fetch_claude_spots.py` → `hk
 das Foto lädt die Karte im Browser von Wikipedia. **Beliebtheit** (1–5 🔥) steht in
 `hk/popularity.json` (Web-Recherche).
 
+## Neue Posts automatisch übernehmen
+
+Post in Instagram teilen → Kurzbefehl „Zur Karte“ (öffnet `…/insta_map/?add=<Link>`) oder in der Karte
+＋ → „Instagram-Post übernehmen“. Der Link landet in `data/inbox.json` (Branch `map-data`); eine
+stündliche Claude-Routine verarbeitet ihn nach `ROUTINE.md` (Hilfswerkzeug: `tools/inbox.py`).
+
 ## Andere Sammlungen
 
 ### 1. Posts einlesen
