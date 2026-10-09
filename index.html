@@ -230,6 +230,11 @@
   html, body { overscroll-behavior: none; }
   .pop { touch-action: pan-y; }
   .pop .gal { touch-action: pan-x pan-y; }
+  @media (max-width: 799px) {
+    .leaflet-popup.card { position: fixed !important; left: 50% !important; top: var(--cardTop, 80px) !important; bottom: auto !important;
+      transform: translateX(-50%) !important; margin: 0 !important; z-index: 1600; }
+    .leaflet-popup.card .leaflet-popup-tip-container { display: none; }
+  }
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
@@ -454,6 +459,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function addMarker(p) {
     const m = L.marker([p.lat, p.lng], { icon: iconFor(p), title: p.name });
     m.bindPopup(() => popupHtml(p), { maxWidth: 400, maxHeight: Math.round(window.innerHeight * 0.62),
+      autoPan: window.innerWidth >= 800,  // Handy: Spot als feste Karte, die Karte im Hintergrund bleibt stehen
       autoPanPaddingTopLeft: [10, 78], autoPanPaddingBottomRight: [10, 90] });
     markers.set(p.id, m);
   }
@@ -564,6 +570,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   });
   map.on("popupopen", ev => {
     const sp = popupSpace(), o = ev.popup.options;
+    if (mobile()) {
+      // feste Karte über der Karte: aus dem Karten-Pane lösen, damit Verschieben/Zoomen sie nicht bewegt
+      const el = ev.popup.getElement();
+      document.documentElement.style.setProperty("--cardTop", sp.top + "px");
+      el.classList.add("card"); document.body.appendChild(el);
+      o.maxHeight = sp.maxH; ev.popup.update();
+      return;
+    }
     if (o.maxHeight !== sp.maxH || o.autoPanPaddingTopLeft[1] !== sp.top) {
       o.maxHeight = sp.maxH; o.autoPanPaddingTopLeft = [10, sp.top]; o.autoPanPaddingBottomRight = [10, sp.bottomPad];
       ev.popup.update();
