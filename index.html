@@ -218,8 +218,11 @@
   @media (min-width: 800px) { #group { left: 390px; } }
   /* Handy: solange ein Spot offen ist, gehört ihm der ganze Bildschirm unter dem Bereichs-Umschalter */
   @media (max-width: 799px) {
-    body.popup-open .leaflet-top.leaflet-right, body.popup-open #add, body.popup-open #locate { display: none; }
-    body.popup-open #sheet { transform: translateY(105%) !important; }
+    /* nur aus-/einblenden, nichts bewegt sich (vorher fuhr die Liste weg und wieder hoch) */
+    .leaflet-top.leaflet-right, #add, #locate, #sheet { transition: opacity .18s ease; }
+    #sheet { transition: transform .28s cubic-bezier(.2,.8,.2,1), opacity .18s ease; }
+    body.popup-open .leaflet-top.leaflet-right, body.popup-open #add, body.popup-open #locate,
+    body.popup-open #sheet { opacity: 0; pointer-events: none; }
   }
   #update { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 110px); z-index: 2500;
     background: #111827; color: #fff; border: 0; border-radius: 999px; padding: 10px 16px; font-size: 14px; box-shadow: var(--shadow); }
