@@ -35,8 +35,13 @@ Für jeden Eintrag (`code`):
      - Den **Namen** möglichst so wählen wie in der nummerierten Liste der Caption (dann findet
        `build_hk.py` das passende Karussell-Bild automatisch).
      - Kategorie: Aussicht, Architektur, Street, Neon, Tram, Markt, Dorf, Food, Tempel oder Strand.
-   - Kein konkreter Ort, oder Ort außerhalb Hongkongs → nichts eintragen (der Post erscheint dann
-     unter „Ohne konkreten Ort“).
+   - Kein konkreter Ort → nichts eintragen (der Post erscheint dann unter „Ohne konkreten Ort“).
+4. **Orte in Festland-China** (Shanghai, Chongqing, Guilin …) gehören nicht in `hk/spots.py`, sondern in
+   `cn/spots_cn.py` (Region 🇨🇳). Dort den Post in `POSTS` mit der nächsten freien Nummer eintragen (den
+   Eintrag aus `hk/spots.py`, den `add-post` angelegt hat, wieder entfernen) und je Ort eine Zeile in
+   `SPOTS` mit festen Koordinaten (Photon/Nominatim, Name auf Chinesisch suchen). Posts als `(nr, slide)`
+   angeben, wenn ein Karussell-Bild den Ort zeigt – Slides vorher ansehen (Bildbeschriftung/Inhalt), nie
+   raten; Beliebtheit unter `POP` ergänzen. Danach `python3 tools/build_cn.py`.
 
 ## 3. Verorten, Bilder, Karte bauen
 ```bash
