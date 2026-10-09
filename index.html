@@ -391,8 +391,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const here = () => !!me && nearSpots;
   let order = [];  // aktuelle Listen-Reihenfolge (Filter + Sortierung) für ‹ › im Popup
   // ‹ › blättern nur durch Spots im Kartenausschnitt, der vor dem Öffnen zu sehen war
+  // Ausschnitt wird beim Öffnen eines Spots gemerkt (nach dem Zoomen dorthin), beim Blättern bleibt er
+  let navBounds = null, navFor = null, stepping = false;
   const navOrder = cur => {
-    const b = savedView ? savedView.b : visibleBounds();
+    if ((!stepping && navFor !== cur) || !navBounds) navBounds = visibleBounds();
+    navFor = cur;
+    const b = navBounds;
     return order.filter(id => { if (id === cur) return true; const q = places.find(x => x.id === id); return q && b.contains([q.lat, q.lng]); });
   };
   let sheetSnap = "peek";
@@ -644,6 +648,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   // ‹ › im Popup: zum vorherigen/nächsten Spot der aktuellen Liste
   function stepSpot(fromId, dir) {
+    stepping = true;  // gilt bis der nächste Spot offen ist
     const nav = navOrder(fromId); if (nav.length < 2) return;
     const i = nav.indexOf(fromId);
     const next = nav[((i < 0 ? 0 : i + dir) + nav.length) % nav.length];
@@ -656,9 +661,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Kartenausschnitt vor dem ersten geöffneten Spot merken und beim Schließen wiederherstellen
   // (Blättern zwischen Spots darf die Karte bewegen, danach steht sie wieder wie vorher)
   let savedView = null, navigating = false;
-  const saveView = () => { if (!savedView) savedView = { c: map.getCenter(), z: map.getZoom(), b: visibleBounds() }; };
-  map.on("popupopen", saveView);
+  const saveView = () => { if (!savedView) savedView = { c: map.getCenter(), z: map.getZoom() }; };
+  map.on("popupopen", () => { saveView(); stepping = false; });
   map.on("popupclose", () => {
+    if (!navigating) { navFor = null; stepping = false; }
     if (navigating || !savedView) return;
     const v = savedView; savedView = null;
     map.setView(v.c, v.z, { animate: false });

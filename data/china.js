@@ -97,21 +97,21 @@ window.PLACES_CN = [
   "lat": 29.0499,
   "lng": 110.4789,
   "approx": false,
-  "image": null,
+  "image": "images/DeKUZY_k8EI_3.jpg",
   "caption": "you should prepare your visit to the legendary movie location of Avatar aka Zhangjiajie well👇🏻\n\n1. it is not just a single attraction with an entrance and an exit, it covers the two main scenic areas Tianmen mountain and the national forest park. The combined area is about 360km2\n\n2. you should take 2 days for the national forest park and 1 day for tianmen, and 1 day as buffer because weather is really random. Avoid the chinese holidays, yes the videos you see on insta are real, not funny. \n\n3. Best time visiting zhangjiajie is april or surprisingly june until august, the weather is humid enou",
-  "post_url": "https://www.instagram.com/hanontheroad/p/DeKUZY_k8EI/",
+  "post_url": "https://www.instagram.com/hanontheroad/p/DeKUZY_k8EI/?img_index=3",
   "username": "hanontheroad",
   "profile_url": "https://www.instagram.com/hanontheroad/",
   "posts": [
    {
-    "url": "https://www.instagram.com/hanontheroad/p/DeKUZY_k8EI/",
+    "url": "https://www.instagram.com/hanontheroad/p/DeKUZY_k8EI/?img_index=3",
     "username": "hanontheroad",
     "profile_url": "https://www.instagram.com/hanontheroad/",
     "kind": "p",
-    "image": null,
+    "image": "images/DeKUZY_k8EI_3.jpg",
     "caption": "you should prepare your visit to the legendary movie location of Avatar aka Zhangjiajie well👇🏻\n\n1. it is not just a single attraction with an entrance and an exit, it covers the two main scenic areas Tianmen mountain and the national forest park. The combined area is about 360km2\n\n2. you should take 2 days for the national forest park and 1 day for tianmen, and 1 day as buffer because weather is really random. Avoid the chinese holidays, yes the videos you see on insta are real, not funny. \n\n3. Best time visiting zhangjiajie is april or surprisingly june until august, the weather is humid enou",
-    "match": "cover",
-    "generic": true
+    "match": "slide",
+    "slide": 3
    }
   ],
   "pop": 5,
@@ -581,25 +581,87 @@ window.PLACES_CN = [
   "lat": 29.5633,
   "lng": 106.5699,
   "approx": true,
-  "image": null,
+  "image": "images/DcyCL4RD7-D_2.jpg",
   "caption": "Easily one of the most confusing cities i’ve ever visited but one i reallyyyy enjoyed exploring.   Barely scratched the surface in a few days but some highlights:\n\n- Kuixing Building (where the 1st floor is also the 22nd…)\n- Linhua Road Residential Complex\n- Wulong District\n- Elingzhan Bridge \nDefinitely prepare for lots and lots and lots of stairs and possibly getting lost... also, i didn’t eat the train \nSave this for your next trip! \n📍Chongqing, China\n#chongqing #chinatravel #architecture #urbandesign",
-  "post_url": "https://www.instagram.com/alvinzhuxiyao/p/DcyCL4RD7-D/",
+  "post_url": "https://www.instagram.com/alvinzhuxiyao/p/DcyCL4RD7-D/?img_index=2",
   "username": "alvinzhuxiyao",
   "profile_url": "https://www.instagram.com/alvinzhuxiyao/",
   "posts": [
    {
-    "url": "https://www.instagram.com/alvinzhuxiyao/p/DcyCL4RD7-D/",
+    "url": "https://www.instagram.com/alvinzhuxiyao/p/DcyCL4RD7-D/?img_index=2",
     "username": "alvinzhuxiyao",
     "profile_url": "https://www.instagram.com/alvinzhuxiyao/",
     "kind": "p",
-    "image": null,
+    "image": "images/DcyCL4RD7-D_2.jpg",
     "caption": "Easily one of the most confusing cities i’ve ever visited but one i reallyyyy enjoyed exploring.   Barely scratched the surface in a few days but some highlights:\n\n- Kuixing Building (where the 1st floor is also the 22nd…)\n- Linhua Road Residential Complex\n- Wulong District\n- Elingzhan Bridge \nDefinitely prepare for lots and lots and lots of stairs and possibly getting lost... also, i didn’t eat the train \nSave this for your next trip! \n📍Chongqing, China\n#chongqing #chinatravel #architecture #urbandesign",
-    "match": "cover",
-    "generic": true
+    "match": "slide",
+    "slide": 2
    }
   ],
   "pop": 3,
   "pop_reason": "Kurioses 8D-Gebäude, bei Bloggern beliebt"
+ },
+ {
+  "id": "cn-linhua-road-residential-complex",
+  "region": "cn",
+  "name": "Linhua Road Residential Complex 临华路",
+  "district": "Yuzhong, Chongqing",
+  "category": "Architektur",
+  "note": "Bunter Spielplatz zwischen Wohntürmen – ruhiger Einblick ins Alltagsleben.",
+  "address": "Yuzhong, Chongqing",
+  "lat": 29.559721,
+  "lng": 106.557113,
+  "approx": true,
+  "image": "images/DcyCL4RD7-D_4.jpg",
+  "caption": "Easily one of the most confusing cities i’ve ever visited but one i reallyyyy enjoyed exploring.   Barely scratched the surface in a few days but some highlights:\n\n- Kuixing Building (where the 1st floor is also the 22nd…)\n- Linhua Road Residential Complex\n- Wulong District\n- Elingzhan Bridge \nDefinitely prepare for lots and lots and lots of stairs and possibly getting lost... also, i didn’t eat the train \nSave this for your next trip! \n📍Chongqing, China\n#chongqing #chinatravel #architecture #urbandesign",
+  "post_url": "https://www.instagram.com/alvinzhuxiyao/p/DcyCL4RD7-D/?img_index=4",
+  "username": "alvinzhuxiyao",
+  "profile_url": "https://www.instagram.com/alvinzhuxiyao/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/alvinzhuxiyao/p/DcyCL4RD7-D/?img_index=4",
+    "username": "alvinzhuxiyao",
+    "profile_url": "https://www.instagram.com/alvinzhuxiyao/",
+    "kind": "p",
+    "image": "images/DcyCL4RD7-D_4.jpg",
+    "caption": "Easily one of the most confusing cities i’ve ever visited but one i reallyyyy enjoyed exploring.   Barely scratched the surface in a few days but some highlights:\n\n- Kuixing Building (where the 1st floor is also the 22nd…)\n- Linhua Road Residential Complex\n- Wulong District\n- Elingzhan Bridge \nDefinitely prepare for lots and lots and lots of stairs and possibly getting lost... also, i didn’t eat the train \nSave this for your next trip! \n📍Chongqing, China\n#chongqing #chinatravel #architecture #urbandesign",
+    "match": "slide",
+    "slide": 4
+   }
+  ],
+  "pop": 2,
+  "pop_reason": "Geheimtipp, kaum in Reiseführern"
+ },
+ {
+  "id": "cn-eling-park-skywalk",
+  "region": "cn",
+  "name": "Eling Park Skywalk 鹅岭栈桥",
+  "district": "Yuzhong, Chongqing",
+  "category": "Aussicht",
+  "note": "Geschwungener Holzsteg am Hang mit Blick auf die Stadt und den Fluss.",
+  "address": "Yuzhong, Chongqing",
+  "lat": 29.55246,
+  "lng": 106.53204,
+  "approx": true,
+  "image": "images/DcyCL4RD7-D_8.jpg",
+  "caption": "Easily one of the most confusing cities i’ve ever visited but one i reallyyyy enjoyed exploring.   Barely scratched the surface in a few days but some highlights:\n\n- Kuixing Building (where the 1st floor is also the 22nd…)\n- Linhua Road Residential Complex\n- Wulong District\n- Elingzhan Bridge \nDefinitely prepare for lots and lots and lots of stairs and possibly getting lost... also, i didn’t eat the train \nSave this for your next trip! \n📍Chongqing, China\n#chongqing #chinatravel #architecture #urbandesign",
+  "post_url": "https://www.instagram.com/alvinzhuxiyao/p/DcyCL4RD7-D/?img_index=8",
+  "username": "alvinzhuxiyao",
+  "profile_url": "https://www.instagram.com/alvinzhuxiyao/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/alvinzhuxiyao/p/DcyCL4RD7-D/?img_index=8",
+    "username": "alvinzhuxiyao",
+    "profile_url": "https://www.instagram.com/alvinzhuxiyao/",
+    "kind": "p",
+    "image": "images/DcyCL4RD7-D_8.jpg",
+    "caption": "Easily one of the most confusing cities i’ve ever visited but one i reallyyyy enjoyed exploring.   Barely scratched the surface in a few days but some highlights:\n\n- Kuixing Building (where the 1st floor is also the 22nd…)\n- Linhua Road Residential Complex\n- Wulong District\n- Elingzhan Bridge \nDefinitely prepare for lots and lots and lots of stairs and possibly getting lost... also, i didn’t eat the train \nSave this for your next trip! \n📍Chongqing, China\n#chongqing #chinatravel #architecture #urbandesign",
+    "match": "slide",
+    "slide": 8
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Aussichtspark, bei Fotografen bekannt"
  },
  {
   "id": "cn-chongqing-skyline-rooftops",
@@ -724,6 +786,16 @@ window.PLACES_CN = [
     "image": "images/DWRbAhzETzA.jpg",
     "caption": "Just three hours away from the city of Chongqing lies the Three Natural Bridges in Wulong Karst National Geology Park. To get to this specific spot, it’s quite an easy hour walk (2 hour in total), and there’s also a spinning elevator that takes you down to the start. We left the city at 7am in the morning, got to the park at 10AM (we had a private tour guide), explored until noon, and got back around 3PM, just in time to refresh and explore the cyberpunk city for sunset!\n\n#chongqing #china #china🇨🇳 #travel #wulong",
     "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/alvinzhuxiyao/p/DcyCL4RD7-D/?img_index=6",
+    "username": "alvinzhuxiyao",
+    "profile_url": "https://www.instagram.com/alvinzhuxiyao/",
+    "kind": "p",
+    "image": "images/DcyCL4RD7-D_6.jpg",
+    "caption": "Easily one of the most confusing cities i’ve ever visited but one i reallyyyy enjoyed exploring.   Barely scratched the surface in a few days but some highlights:\n\n- Kuixing Building (where the 1st floor is also the 22nd…)\n- Linhua Road Residential Complex\n- Wulong District\n- Elingzhan Bridge \nDefinitely prepare for lots and lots and lots of stairs and possibly getting lost... also, i didn’t eat the train \nSave this for your next trip! \n📍Chongqing, China\n#chongqing #chinatravel #architecture #urbandesign",
+    "match": "slide",
+    "slide": 6
    }
   ],
   "pop": 5,

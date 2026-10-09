@@ -28,7 +28,7 @@ SPOTS = [
  ("Zhangjiajie National Forest Park 张家界国家森林公园", 29.3499, 110.4352, True, "Wulingyuan, Hunan", "Natur",
   [1, 6, 15, 24, 31, 32, (30, 7)], "„Avatar“-Felssäulen. 2 Tage einplanen + 1 Puffertag; Seilbahn lohnt sich; beste Zeit April oder Juni–Aug (Nebel in den Tälern). Abseits der Hauptwege suchen."),
  ("Tianmen Mountain 天门山", 29.0499, 110.4789, False, "Zhangjiajie, Hunan", "Natur",
-  [1], "1 Tag einplanen, Seilbahn direkt ab der Stadt."),
+  [(1, 3)], "1 Tag einplanen, Seilbahn direkt ab der Stadt."),
  ("Furong Town 芙蓉镇", 28.7731, 109.9819, False, "Yongshun, Hunan", "Dorf",
   [(30, 1)], "Dorf am Wasserfall, nachts beleuchtet."),
  ("Fenghuang Ancient Town 凤凰古城", 27.9509, 109.5998, False, "Xiangxi, Hunan", "Dorf",
@@ -59,13 +59,17 @@ SPOTS = [
  ("Qiansimen Bridge 千厮门大桥", 29.565378, 106.576378, False, "Yuzhong, Chongqing", "Neon",
   [20], "Rote Fachwerkbrücke mit Skyline, nachts."),
  ("Kuixing Building 魁星楼", 29.5633, 106.5699, True, "Jiefangbei, Chongqing", "Architektur",
-  [14], "Das Erdgeschoss ist zugleich der 22. Stock."),
+  [(14, 2)], "Das Erdgeschoss ist zugleich der 22. Stock."),
+ ("Linhua Road Residential Complex 临华路", 29.559721, 106.557113, True, "Yuzhong, Chongqing", "Architektur",
+  [(14, 4)], "Bunter Spielplatz zwischen Wohntürmen – ruhiger Einblick ins Alltagsleben."),
+ ("Eling Park Skywalk 鹅岭栈桥", 29.55246, 106.53204, True, "Yuzhong, Chongqing", "Aussicht",
+  [(14, 8)], "Geschwungener Holzsteg am Hang mit Blick auf die Stadt und den Fluss."),
  ("Chongqing Skyline & Rooftops 解放碑", 29.5578, 106.5771, True, "Jiefangbei, Chongqing", "Neon",
   [12, 17, (30, 3), (30, 5), 5], "Cyberpunk-Blick von Dächern; ab ca. 20 Uhr geht das Licht an."),
  ("Hongen Temple 鸿恩寺", 29.5728, 106.5029, True, "Jiangbei, Chongqing", "Tempel",
   [19], "Laternenweg zur Pagode (Ort nach Bild geschätzt)."),
  ("Three Natural Bridges 天生三桥", 29.4399, 107.7863, False, "Wulong, Chongqing", "Natur",
-  [27], "3 h ab Chongqing; 1 h Rundweg, Glas-Aufzug hinunter. Tagestour: 7 Uhr los, 15 Uhr zurück."),
+  [27, (14, 6)], "3 h ab Chongqing; 1 h Rundweg, Glas-Aufzug hinunter. Tagestour: 7 Uhr los, 15 Uhr zurück."),
  # Shanghai
  ("Dongchangzhi Rd × Lushun Rd 东长治路旅顺路", 31.2518, 121.4923, False, "Hongkou, Shanghai", "Street",
   [(21, 3)], "North-Bund-Streetfoto-Spot: Alltag vor Oriental Pearl Tower und Shanghai Tower."),
@@ -118,6 +122,8 @@ SPOTS = [
 
 # Beliebtheit 1–5 (5 = Wahrzeichen, 4 = in vielen Guides, 3 = bei Fotografen bekannt)
 POP = {
+ "Linhua": (2, "Geheimtipp, kaum in Reiseführern"),
+ "Eling": (3, "Aussichtspark, bei Fotografen bekannt"),
  "North Bund": (3, "Ruhiger Skyline-Blick abseits des Bund"),
  "RockBund": (4, "Historisches Viertel am Nordende des Bund"),
  "Bvlgari": (3, "Bekannte Rooftop-Bar mit Bund-Blick"),
