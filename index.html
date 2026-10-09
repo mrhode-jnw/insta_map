@@ -496,7 +496,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // ---------- Reiseroute (Stationen mit Umkreis in km): Filter „🧭 Route“ zeigt Spots in der Nähe
   const ROUTE = [
     { d: "10.–14.10.", name: "Hongkong", lat: 22.30, lng: 114.17, r: 40 },
-    { d: "14.10.", name: "Shenzhen", lat: 22.54, lng: 114.06, r: 25 },
+    { d: "14.10.", name: "Shenzhen (Nantou Old Town)", lat: 22.5459, lng: 113.9163, r: 25 },
     { d: "15.10.", name: "Xingping (Fischer)", lat: 24.9198, lng: 110.5278, r: 15 },
     { d: "15.–18.10.", name: "Yangshuo (Secret Glen Hotel)", lat: 24.7883, lng: 110.4275, r: 30 },
     { d: "16.10.", name: "Longji-Reisterrassen", lat: 25.7734, lng: 110.1429, r: 15 },
@@ -528,6 +528,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const HOTELS = [
     { name: "The Harbourview", zh: "灣景國際 · 香港中華基督教青年會", lat: 22.280201, lng: 114.171109,
       address: "4 Harbour Road, Wan Chai, Hong Kong · 香港灣仔港灣道4號", dates: "10.–14. Okt. (4 Nächte)", room: "Executive Zimmer" },
+    { name: "Jiangnan House Nantou", zh: "深圳南头古城", lat: 22.545944, lng: 113.916275,
+      address: "No. 22, Le Ping Street, Nantou Old Town, Nanshan, Shenzhen · 乐平街22号", dates: "14.–15. Okt. (1 Nacht) · Check-in ab 15 Uhr", room: "" },
     { name: "The Secret Glen Hotel", zh: "阳朔", lat: 24.7738, lng: 110.4639, approx: true,
       address: "Tieling Village, Jima, Yangshuo – ca. 660 m vom Guilin Songcheng Show Park, 5 km zum Yulong River", dates: "15.–18. Okt. (3 Nächte)", room: "Mushan Panoramaterrassenzimmer, King-Bett" },
     { name: "Valley View Hotel", zh: "龙脊·田间阁（九龙五虎观景台店）", lat: 25.758937, lng: 110.121129, approx: true,
