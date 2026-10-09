@@ -568,7 +568,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
     renderChips(); renderList();
   });
-  let routeF = false;
+  let routeF = true;  // Route standardmäßig an (Ausschalten wird gemerkt)
+  try { routeF = localStorage.getItem("route") !== "0"; } catch {}
   let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto";
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
@@ -581,6 +582,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     else if (f === "pop") popF = !popF;
     else if (f === "route") {
       routeF = !routeF; routeF ? routeLayer.addTo(map) : routeLayer.remove();
+      try { localStorage.setItem("route", routeF ? "1" : "0"); } catch {}
       if (routeF) map.fitBounds(L.latLngBounds(ROUTE.map(r => [r.lat, r.lng])), { padding: [40, 40] });
       else fitRegion();
     }
@@ -590,6 +592,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#group [data-route]").classList.toggle("on", routeF);
     renderList();
   });
+  if (routeF) routeLayer.addTo(map);
+  $("#chips2 [data-f=route]").classList.toggle("on", routeF);
+  $("#group [data-route]").classList.toggle("on", routeF);
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
   try { view = localStorage.getItem("view") || "list"; inView = localStorage.getItem("inView") === "1"; } catch {}
   $("#view").addEventListener("click", e => {
