@@ -262,7 +262,7 @@
 <div id="addDlg" hidden>
   <form id="addForm" autocomplete="off">
     <h2>Instagram-Post übernehmen</h2>
-    <div class="row"><input id="impLink" type="url" placeholder="Instagram-Link einfügen"><button type="button" id="impBtn">Übernehmen</button></div>
+    <div class="row"><input id="impLink" type="url" placeholder="Instagram-Link (oder leer lassen)"><button type="button" id="impBtn">📋 Übernehmen</button></div>
     <small>Wird automatisch verarbeitet: Orte, Bilder und Beliebtheit erscheinen innerhalb von ca. 1 Stunde auf der Karte.</small>
     <h2 style="margin-top:10px">Oder eigenen Spot setzen</h2>
     <div class="row"><input id="addSearch" type="search" placeholder="Ort oder Adresse suchen"><button type="button" id="addSearchBtn">Suchen</button></div>
@@ -1232,7 +1232,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     } catch (err) { toast(err.message, 5000); return false; }
   }
   $("#impBtn").addEventListener("click", async () => {
-    const v = $("#impLink").value.trim(); if (!v) return;
+    let v = $("#impLink").value.trim();
+    if (!v) {  // leeres Feld: kopierten Link aus der Zwischenablage nehmen (iOS fragt „Einsetzen“)
+      try { v = (await navigator.clipboard.readText()).trim(); } catch { v = ""; }
+      if (!igCode(v)) { toast("Kein Instagram-Link kopiert. In Instagram: Teilen → Link kopieren.", 4500); return; }
+    }
     if (await addToInbox(v)) { $("#impLink").value = ""; closeAdd(); }
   });
   // Teilen-Menü / Kurzbefehl: …/insta_map/?add=<Instagram-Link>
