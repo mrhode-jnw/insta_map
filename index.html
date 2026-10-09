@@ -148,6 +148,7 @@
     border: 0; background: rgba(0,0,0,.45); color: #fff; font-size: 26px; line-height: 1; cursor: pointer; }
   .pop .hero button.side.prev { left: 8px; } .pop .hero button.side.next { right: 8px; }
   .pop .pnav button.pclose { background: #111827; border-color: #111827; color: #fff; font-size: 17px; }
+  .pop .phototip { background: #ecfeff; color: #155e75; border-radius: 8px; padding: 6px 8px; font-size: 13px; margin: 4px 0 8px; line-height: 1.4; }
   .pop .claude-note { background: #ede9fe; color: #5b21b6; border-radius: 8px; padding: 5px 8px; font-size: 12px; margin-bottom: 6px; }
   .pop .generic { font-size: 12px; color: #6b7280; margin-bottom: 6px; }
   .pop .generic a { color: var(--accent) !important; text-decoration: none; }
@@ -459,6 +460,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${p.approx ? `<div class="approx">Pin ungefähr</div>` : ""}
         ${d}
         ${p.note ? `<div class="note">${esc(p.note)}</div>` : ""}
+        ${p.tip ? `<div class="phototip"><b>📸 Foto-Tipp</b> ${esc(p.tip)}</div>` : ""}
         ${gal}
         ${generic.length ? `<div class="generic">${posts ? "Außerdem in" : "Kein eigenes Foto – erwähnt in"} ${generic.map(x =>
           `${x.dup ? "Post (gleiches Foto)" : "Sammel-Post"} von <a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a> · <a href="${esc(x.url)}" target="_blank" rel="noopener">Post ↗</a>`).join("; ")}</div>` : ""}
@@ -657,7 +659,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const matches = p => p.id === stickyId || matchesFilter(p);
   const matchesFilter = p => {
     const q = $("#search").value.trim().toLowerCase();
-    const hay = [p.name, p.address, p.district, p.category, p.note, p.caption, p.username,
+    const hay = [p.name, p.address, p.district, p.category, p.note, p.tip, p.caption, p.username,
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
     const s = st(p.id);
     return inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))

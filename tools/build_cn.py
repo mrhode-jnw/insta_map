@@ -119,6 +119,16 @@ for name, lat, lng, approx, region, cat, plist, note in SPOTS:
         **({"pop": pop[0], "pop_reason": pop[1]} if pop else {}),
     })
 
+# Claude-Tipps entlang der Route (Web-Recherche): cn/claude_spots_cn.json, Bild optional unter images/
+for c in bp.load_json(os.path.join(ROOT, "cn", "claude_spots_cn.json"), []):
+    places.append({
+        "id": "claude-cn-" + spot_id(c["name"])[3:], "region": "cn", "by_claude": True,
+        "name": c["name"], "district": c["district"], "category": c["cat"], "note": "",
+        "tip": c.get("tip", ""), "address": c["district"], "lat": c["lat"], "lng": c["lng"],
+        "approx": c.get("approx", False), "image": c.get("image"), "caption": "", "post_url": "",
+        "username": "", "profile_url": "", "posts": [], "pop": c.get("pop"), "pop_reason": c.get("reason", ""),
+    })
+
 used = {x if isinstance(x, int) else x[0] for s in SPOTS for x in s[6]}
 unplaced = [dict(posts[n], region=UNPLACED_REGION.get(n, "cn")) for n in sorted(POSTS) if n not in used]
 
