@@ -172,6 +172,13 @@
   .pop .credit a { color: #6b7280 !important; }
   .tag .ct, .cap2 .ct { color: #a78bfa; }
   .pop .links a.wiki { background: #ede9fe; color: #5b21b6 !important; }
+  .pin .favb { position: absolute; left: -7px; bottom: -7px; width: 18px; height: 18px; border-radius: 50%; background: #fff; color: #e11d48;
+    font-size: 11px; line-height: 18px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,.35); font-style: normal; }
+  .pin.fav { border-color: #e11d48; box-shadow: 0 0 0 2px #e11d48, 0 2px 6px rgba(0,0,0,.35); position: relative; }
+  .pop .status button.fav { width: 40px; height: 32px; padding: 0; border-radius: 10px; font-size: 17px; color: #9ca3af; }
+  .pop .status button.fav.on { color: #e11d48; background: #ffe4e6; border-color: #e11d48; }
+  #area { flex: none; border: 1px solid var(--line); background: var(--bg); color: var(--fg); border-radius: 999px; padding: 5px 9px; font-size: 13px; max-width: 170px; }
+  .fav-badge { color: #e11d48; }
   .pin.done { filter: grayscale(.8); opacity: .8; position: relative; }
   .pin.done::after { content: "✓"; position: absolute; right: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
     background: #16a34a; color: #fff; font-size: 11px; line-height: 16px; text-align: center; }
@@ -193,6 +200,7 @@
   #chips2 button.on { background: var(--fg); border-color: var(--fg); color: var(--bg); }
   #list.grid { display: grid; grid-template-columns: repeat(2, 1fr); grid-auto-rows: max-content; align-content: start; gap: 6px; padding: 6px 8px 10px; }
   @media (min-width: 800px) { #list.grid { grid-template-columns: repeat(2, 1fr); } }
+  #list.grid li.areahead { grid-column: 1 / -1; border: 0; padding: 10px 4px 2px; }
   #list.grid li.gi { display: block; position: relative; padding: 0; border: 0; aspect-ratio: 4 / 5; border-radius: 10px; overflow: hidden; background: var(--line); }
   #list.grid li.gi img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
   #list.grid li.gi .cap2 { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 8px 6px; color: #fff; font-size: 13px; font-weight: 600;
@@ -322,6 +330,7 @@
     </div>
     <div id="chips"></div>
     <div id="chips2">
+      <button data-f="fav">❤️ Favoriten</button>
       <button data-f="hoch"><span class="prio-dot hoch"></span>Hoch</button>
       <button data-f="mittel"><span class="prio-dot mittel"></span>Mittel</button>
       <button data-f="gering"><span class="prio-dot gering"></span>Gering</button>
@@ -333,7 +342,9 @@
         <option value="auto">Sortierung: Entfernung</option>
         <option value="prio">Sortierung: Priorität</option>
         <option value="pop">Sortierung: Beliebtheit</option>
+        <option value="area">Sortierung: Viertel</option>
       </select>
+      <select id="area" aria-label="Viertel"><option value="">Alle Viertel</option></select>
     </div>
   </header>
   <ul id="list"></ul>
@@ -491,6 +502,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${p.by_claude ? `<div class="claude-note">✦ Claude-Tipp – nicht aus deiner Sammlung, von Claude als besonders beliebter Spot ergänzt</div>` : ""}
         <div class="status" data-id="${esc(p.id)}">
           ${PRIOS.map(k => `<button data-prio="${k}" class="${st(p.id).prio === k ? "on" : ""}">${PRIO_LABEL[k]}</button>`).join("")}
+          <button class="fav${st(p.id).fav ? " on" : ""}" data-fav title="Favorit – will ich fotografieren" aria-label="Favorit" aria-pressed="${!!st(p.id).fav}">❤</button>
           <button class="shot${st(p.id).done ? " on" : ""}" data-done title="Fotografiert" aria-label="Fotografiert" aria-pressed="${!!st(p.id).done}">📷</button>
         </div>
         ${p.category ? `<div class="meta">${esc([p.mine ? "★ Eigener Spot" : "", p.category, p.district, routeLabel(p)].filter(Boolean).join(" · "))}</div>` : ""}
@@ -516,11 +528,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
 
   function iconFor(p) {
-    const s = st(p.id), cls = ["pin", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : ""].join(" ");
+    const s = st(p.id), cls = ["pin", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : "", s.fav ? "fav" : ""].join(" ");
+    const fb = s.fav ? '<i class="favb">❤</i>' : "";
     return L.divIcon({
       className: "", iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -14],
-      html: p.mine && !p.image ? `<div class="${cls}">★</div>`
-        : `<div class="${cls}" style="${p.image ? `background-image:url('${esc(p.image)}')` : ""}"></div>`
+      html: p.mine && !p.image ? `<div class="${cls}">★${fb}</div>`
+        : `<div class="${cls}" style="${p.image ? `background-image:url('${esc(p.image)}')` : ""}">${fb}</div>`
     });
   }
   function addMarker(p) {
@@ -650,9 +663,19 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
     renderChips(); renderList();
   });
+  let favF = false, areaF = "";
+  // Viertel/Bereich: Hongkong-Bezirke vereinheitlicht, China als „Stadt – Viertel“
+  const AREA_ALIAS = { "Mongkok": "Mong Kok", "Mongkok / Yau Ma Tei": "Mong Kok", "Mong Kok East": "Mong Kok", "Mid-levels": "Mid-Levels", "Harbour": "Victoria Harbour" };
+  const areaOf = p => {
+    const d = (p.district || "").trim(); if (!d) return "Sonstige";
+    if (regionOf(p) === "hk") return AREA_ALIAS[d] || d;
+    const parts = d.split(",").map(x => x.trim()).filter(Boolean);
+    return parts.length > 1 ? parts[parts.length - 1] + " – " + parts.slice(0, -1).join(", ") : d;
+  };
   let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto";
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
+  $("#area").addEventListener("change", e => { areaF = e.target.value; renderList(); });
   $("#sort").addEventListener("change", e => { sortBy = e.target.value; try { localStorage.setItem("sort", sortBy); } catch {} renderList(); });
   const prioF = new Set();
   $("#chips2").addEventListener("click", e => {
@@ -660,9 +683,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const f = b.dataset.f;
     if (PRIOS.includes(f) || f === "none") prioF.has(f) ? prioF.delete(f) : prioF.add(f);
     else if (f === "pop") popF = !popF;
+    else if (f === "fav") favF = !favF;
     else doneF = doneF === f ? null : f;
     $("#chips2").querySelectorAll("button").forEach(x => x.classList.toggle("on",
-      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF)));
+      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF) || (x.dataset.f === "fav" && favF)));
     renderList();
   });
   if (routeF) routeLayer.addTo(map);
@@ -704,7 +728,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
       && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio || "none")) && (!doneF || (doneF === "done" ? s.done : !s.done))
-      && (!popF || (p.pop || 0) >= 4);
+      && (!popF || (p.pop || 0) >= 4) && (!favF || s.fav) && (!areaF || areaOf(p) === areaF);
   };
   const shown = new Set();
   // Zum Marker zoomen und Popup öffnen – erst wenn die Cluster-Neuberechnung nach dem Zoom durch ist
@@ -922,11 +946,19 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   map.on("moveend", rerenderIfArea);
   $("#sheet").addEventListener("transitionend", e => { if (e.target.id === "sheet") rerenderIfArea(); });
   function renderList() {
+    // Viertel-Auswahl: nur Viertel, die mit den übrigen Filtern Treffer haben
+    const sel = $("#area"), af = areaF; areaF = "";
+    const counts = {}; places.filter(p => p.id === stickyId || matchesFilter(p)).forEach(p => { const a = areaOf(p); counts[a] = (counts[a] || 0) + 1; });
+    areaF = af;
+    if (areaF && !counts[areaF]) areaF = "";
+    sel.innerHTML = `<option value="">📍 Alle Viertel</option>` + Object.keys(counts).sort((a, b) => a.localeCompare(b, "de"))
+      .map(a => `<option value="${esc(a)}"${a === areaF ? " selected" : ""}>${esc(a)} (${counts[a]})</option>`).join("");
     let items = places.filter(matches);
     syncMarkers(items);
     if (inView) { const vb = visibleBounds(); items = items.filter(p => vb.contains([p.lat, p.lng])); }
-    items = items.map(p => ({ ...p, _d: here() ? dist(me, p) : 0 }))
-      .sort((a, b) => routeF && sortBy === "auto" ? routeStop(a) - routeStop(b) || (b.pop || 0) - (a.pop || 0)
+    items = items.map(p => ({ ...p, _d: here() ? dist(me, p) : 0, _a: areaOf(p) }))
+      .sort((a, b) => sortBy === "area" ? a._a.localeCompare(b._a, "de") || (routeF ? routeStop(a) - routeStop(b) : 0) || (b.pop || 0) - (a.pop || 0)
+        : routeF && sortBy === "auto" ? routeStop(a) - routeStop(b) || (b.pop || 0) - (a.pop || 0)
         : sortBy === "pop" ? (b.pop || 0) - (a.pop || 0) || a._d - b._d
         : sortBy === "prio" ? prioRank(a) - prioRank(b) || a._d - b._d
         : here() ? a._d - b._d : prioRank(a) - prioRank(b));
@@ -935,14 +967,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = group === "food" || group === "claude" || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = favF || areaF || group === "food" || group === "claude" || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
-      return `${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
+      return `${s.fav ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
+    // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
+    const head = (p, i) => sortBy === "area" && (i === 0 || items[i - 1]._a !== p._a)
+      ? `<li class="sec areahead">${esc(p._a)} <small>(${items.filter(x => x._a === p._a).length})</small></li>` : "";
     if (view === "grid") {
-      $("#list").innerHTML = items.length ? items.map(p => { const s = st(p.id); return `
+      $("#list").innerHTML = items.length ? items.map((p, i) => { const s = st(p.id); return `${head(p, i)}
         <li class="gi${s.done ? " done" : ""}" data-id="${esc(p.id)}">
           ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}
-          <div class="badge">${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
+          <div class="badge">${s.fav ? "<span class=\"fav-badge\">❤</span>" : ""}${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
           <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : "", here() ? fmt(p._d) : ""].filter(Boolean).join(" · "))}</small></div>
         </li>`; }).join("") : `<li id="empty">Keine Treffer.</li>`;
       return;
@@ -952,7 +987,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <li class="sec">Ohne konkreten Ort <small>(${unplaced.length} Posts – Inspiration)</small></li>
       <li class="sec" style="padding:0;border:0"><div class="ugrid">${unplaced.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
         ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>@${esc(x.username)}</span></a>`).join("")}</div></li>` : "";
-    $("#list").innerHTML = (items.length ? items.map(p => `
+    $("#list").innerHTML = (items.length ? items.map((p, i) => `${head(p, i)}
       <li data-id="${esc(p.id)}">
         ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
@@ -1390,6 +1425,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const next = { ...st(id), ...patch };
     if (!next.prio) delete next.prio;
     if (!next.done) delete next.done;
+    if (!next.fav) delete next.fav;
     if (Object.keys(next).length) status[id] = next; else delete status[id];
     pending[id] = status[id] || null;
     const p = places.find(x => x.id === id), m = markers.get(id);
@@ -1425,6 +1461,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       setStatus(id, { prio });
       box.querySelectorAll("button[data-prio]").forEach(x => x.classList.toggle("on", x.dataset.prio === prio));
     });
+    const fav = box.querySelector("button[data-fav]");
+    if (fav) fav.onclick = () => { const v = !st(id).fav; setStatus(id, { fav: v }); fav.classList.toggle("on", v); fav.setAttribute("aria-pressed", v); toast(v ? "❤️ Als Favorit markiert" : "Favorit entfernt", 1300); };
     const shot = box.querySelector("button[data-done]");
     shot.onclick = () => { const done = !st(id).done; setStatus(id, { done }); shot.classList.toggle("on", done); shot.setAttribute("aria-pressed", done); };
   });
