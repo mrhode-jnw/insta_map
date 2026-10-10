@@ -490,5 +490,21 @@
  "hk-yau-ma-tei-fruit-market": {
   "score": 4,
   "reason": "Time Out und Discover HK, beliebter Streetfoto-Spot"
+ },
+ "hk-fat-kwong-street-flyover": {
+  "score": 2,
+  "reason": "Bei Architekturfotografen bekannt, selten in Guides"
+ },
+ "hk-hoi-lai-estate": {
+  "score": 3,
+  "reason": "Bei Fotografen bekannte Drohnen-Location"
+ },
+ "hk-mei-foo-sun-chuen": {
+  "score": 3,
+  "reason": "Größte Privatsiedlung, bei Fotografen beliebt"
+ },
+ "hk-arsenal-street": {
+  "score": 3,
+  "reason": "Bekannter Tram-Fotospot in Wan Chai"
  }
 }

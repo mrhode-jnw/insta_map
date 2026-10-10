@@ -74,7 +74,8 @@ def spot_post(spot, i):
     c = ctx.get(code)
     p["match"] = "single" if usage[i] == 1 else "cover"
     if c and len(c["slides"]) > 1:
-        m = sl.match_slide(spot, sl.list_entries(c["caption"]))
+        fixed = spot.get("slides", {}).get(i)
+        m = (fixed - 1,) if fixed else sl.match_slide(spot, sl.list_entries(c["caption"]))
         if m and m[0] < len(c["slides"]):
             try:
                 p["image"] = sl.download_slide(code, m[0], c["slides"][m[0]])

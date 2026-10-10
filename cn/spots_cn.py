@@ -23,6 +23,7 @@ POSTS = {
  43: ("tchob_tchob", "p", "DUhpvJVkzt2"), 44: ("hey.lirules", "p", "DZUUOwzjCOx"), 45: ("blackmobil", "p", "DdyoIZJmsct"),
  46: ("minghan1004", "p", "DGNwBTCzT1N"), 47: ("hanaleytravel", "p", "DRo8DqWCiXB"), 48: ("jasmine_pirsch", "p", "C78YwHjtoLk"),
  49: ("davidlazarphoto", "p", "DDo2-MdTeS2"), 50: ("wyzhou22", "p", "DEaHiq2pJaL"),
+ 51: ("blackmobil", "p", "DRj2euBD9iL"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -103,7 +104,7 @@ SPOTS = [
  ("Jiulong Road Waterfront 九龙路", 31.251742, 121.488173, True, "Hongkou, Shanghai", "Architektur",
   [(35, 8), (43, 3), (46, 4)], "Rote Backsteinbauten am Wasser vor der Skyline."),
  ("1000 Trees 天安千树", 31.250871, 121.440889, False, "Putuo, Shanghai", "Architektur",
-  [(35, 11), (42, 10), (44, 7)], "Heatherwick-Bau mit 1000 Bäumen auf Säulen am Suzhou Creek."),
+  [(35, 11), (42, 10), (44, 7), 51], "Heatherwick-Bau mit 1000 Bäumen auf Säulen am Suzhou Creek."),
  ("Jing'an Temple 静安寺", 31.225215, 121.440792, False, "Jing'an, Shanghai", "Tempel",
   [(36, 3)], "Goldener Tempel zwischen Hochhäusern; Blick von der Fußgängerbrücke auf den Verkehr."),
  ("Cathay Cinema 国泰电影院", 31.220119, 121.456793, False, "Xuhui, Shanghai", "Neon",

@@ -580,5 +580,53 @@
   "lon": 113.973007,
   "name": "屯門 Tuen Mun, 仁政街 Yan Ching Street, 瓏門 Century Gateway, 屯門中 Tuen Mun Central, 屯門區 Tuen Mun District, 新界 New Territories, 香港 Hong Kong, 中国",
   "type": "station"
+ },
+ "Tai Kwun, Hollywood Road, Central, Hong Kong": {
+  "lat": 22.2819459,
+  "lon": 114.154245,
+  "name": "大館 Tai Kwun, 荷李活道 Hollywood Road, 蘇豪 SoHo, 中環 Central, 中西區 Central and Western District, 香港島 Hong Kong Island, 香港 Hong Kong, 中国",
+  "type": "bus_stop"
+ },
+ "Tsim Sha Tsui Star Ferry Pier, Hong Kong": {
+  "lat": 22.2935413,
+  "lon": 114.167987,
+  "name": "尖沙咀天星碼頭 Tsim Sha Tsui Star Ferry Pier, 梳士巴利道 Salisbury Road, 尖沙咀 Tsim Sha Tsui, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
+  "type": "ferry_terminal"
+ },
+ "Temple Street, Yau Ma Tei, Hong Kong": {
+  "lat": 22.3042299,
+  "lon": 114.1696932,
+  "name": "廟街 Temple Street, 官涌 Kwun Chung, 油麻地 Yau Ma Tei, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
+  "type": "residential"
+ },
+ "Fat Kwong Street, Ho Man Tin, Hong Kong": {
+  "lat": 22.313414,
+  "lon": 114.1818463,
+  "name": "佛光街 Fat Kwong Street, 老龍坑 Lo Lung Hang, 何文田 Ho Man Tin, 九龍城區 Kowloon City District, 九龍 Kowloon, 香港 Hong Kong, 中国",
+  "type": "secondary"
+ },
+ "Hoi Lai Estate, Sham Shui Po, Hong Kong": {
+  "lat": 22.332935,
+  "lon": 114.1458708,
+  "name": "海麗邨 Hoi Lai Estate, 100, 荔枝角 Lai Chi Kok, 深水埗區 Sham Shui Po District, 九龍 Kowloon, 香港 Hong Kong, 中国",
+  "type": "residential"
+ },
+ "Mei Foo Sun Chuen, Hong Kong": {
+  "lat": 22.3357979,
+  "lon": 114.1399613,
+  "name": "美孚新邨 Mei Foo Sun Chuen, 荔枝角 Lai Chi Kok, 深水埗區 Sham Shui Po District, 九龍 Kowloon, 香港 Hong Kong, 中国",
+  "type": "residential"
+ },
+ "Arsenal Street, Wan Chai, Hong Kong": {
+  "lat": 22.2784375,
+  "lon": 114.1686789,
+  "name": "軍器廠街 Arsenal Street, 灣仔 Wan Chai, 灣仔區 Wan Chai District, 香港島 Hong Kong Island, 香港 Hong Kong, 中国",
+  "type": "secondary"
+ },
+ "M+, West Kowloon Cultural District, Hong Kong": {
+  "lat": 22.3017093,
+  "lon": 114.1629845,
+  "name": "西九文化區 West Kowloon Cultural District, 西九龍 West Kowloon, 油麻地 Yau Ma Tei, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
+  "type": "city_block"
  }
 }
