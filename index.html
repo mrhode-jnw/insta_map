@@ -334,12 +334,12 @@
     </div>
     <div id="chips"></div>
     <div id="chips2">
+      <button data-f="open">🙈 Fotografierte ausblenden</button>
       <button data-f="fav">❤️ Favoriten</button>
       <button data-f="hoch"><span class="prio-dot hoch"></span>Hoch</button>
       <button data-f="mittel"><span class="prio-dot mittel"></span>Mittel</button>
       <button data-f="gering"><span class="prio-dot gering"></span>Gering</button>
       <button data-f="none">○ Unbewertet</button>
-      <button data-f="open">Noch offen</button>
       <button data-f="done">✓ Fotografiert</button>
       <button data-f="pop">🔥 Beliebt</button>
       <button data-f="trash">🗑 Gelöscht</button>
@@ -691,6 +691,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return parts.length > 1 ? parts[parts.length - 1] + " – " + parts.slice(0, -1).join(", ") : d;
   };
   let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto";
+  try { if (localStorage.getItem("hideDone") === "1") doneF = "open"; } catch {}  // „Fotografierte ausblenden“ bleibt eingeschaltet
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
   $("#area").addEventListener("change", e => { areaF = e.target.value; renderList(); });
@@ -703,11 +704,16 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     else if (f === "pop") popF = !popF;
     else if (f === "fav") favF = !favF;
     else if (f === "trash") trashF = !trashF;
-    else doneF = doneF === f ? null : f;
+    else {
+      doneF = doneF === f ? null : f;
+      try { localStorage.setItem("hideDone", doneF === "open" ? "1" : ""); } catch {}
+      if (f === "open") toast(doneF ? "📷 Fotografierte Spots ausgeblendet" : "Fotografierte Spots wieder sichtbar", 1800);
+    }
     $("#chips2").querySelectorAll("button").forEach(x => x.classList.toggle("on",
       prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF) || (x.dataset.f === "fav" && favF) || (x.dataset.f === "trash" && trashF)));
     renderList();
   });
+  $("#chips2 [data-f=open]").classList.toggle("on", doneF === "open");
   if (routeF) routeLayer.addTo(map);
   showWhere();
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
