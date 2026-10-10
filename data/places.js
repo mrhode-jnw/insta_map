@@ -52,6 +52,26 @@ window.PLACES = [
     "caption": "After years of exploring and shooting Hong Kong, these are the 5 spots I will never get tired of looking at 🇭🇰🌆 which one is your favourite? \n\nLocation📍\n1. Jardine’s Lookout 渣甸山\n2. Red Incense Burner Summit 紅香爐峰 (寶馬山)\n3. Suicide Cliff, Kowloon Peak 飛鵝山自殺崖\n4. Lion Rock 獅子山\n5. Lugard Road Lookout 太平山盧吉道觀景台\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong\n\n#madewithlightroom #voyaged #discoverhongkong #香港攝影",
     "match": "slide",
     "slide": 5
+   },
+   {
+    "url": "https://www.instagram.com/travelcroats/p/DcZHi62jqco/",
+    "username": "travelcroats",
+    "profile_url": "https://www.instagram.com/travelcroats/",
+    "kind": "p",
+    "image": null,
+    "caption": "Hong Kong might be a photographer’s dream 🇭🇰🤍\n\nWe also pinned our favourite spots in Hong Kong on Google Maps😍Comment “HK” and we’ll send it to your DMs!🫶🏻😊\n\nWe took SO many photos here, it was hard not to. One street is all skyscrapers, the next is tiny and full of neon and noise. It’s chaotic, but in the best way, and honestly a dream to shoot 📷\n\nA few of our favourite spots to shoot 👇\n\n📍 Choi Hung Estate - those pastel basketball courts (an absolute classic!) 📍 Quarry Bay’s “Monster Building” - walls of apartments that seem to go on forever 📍 Victoria Peak - the skyline view that never gets",
+    "match": "cover",
+    "generic": true
+   },
+   {
+    "url": "https://www.instagram.com/minghan1004/p/DHTSfnjTAKI/?img_index=4",
+    "username": "minghan1004",
+    "profile_url": "https://www.instagram.com/minghan1004/",
+    "kind": "p",
+    "image": "images/DHTSfnjTAKI_4.jpg",
+    "caption": "📸 My Favourite Photo Spots in Hong Kong 🇭🇰 \n\n1. Mong Kok\n2. Kennedy Town\n3. Quarry Bay\n4. The Peak\n5. Wan Chai\n6. North Point\n7. Arsenal Street\n8. Sai Ying Pun\n9. Montane Mansion\n10. M+ Gallery\n\nLet me know what did I miss out or where shall I try next! 🙌🏻\nAll these are without sequence.\n\n#hongkongstreet #hongkongstreetphotography #hongkong #hongkongphotography #hongkong🇭🇰 #hongkongtrip #hongkongtravel #hongkongexplore #hongkongphoto",
+    "match": "slide",
+    "slide": 4
    }
   ],
   "pop": 5,
@@ -1461,6 +1481,26 @@ window.PLACES = [
     "image": "images/DYeZStxEgx0.jpg",
     "caption": "Searching for the moment in Quarry Bay.\n\nSave this photo spot for your next Hong Kong trip 🇭🇰📸\n\n📍 Monster Building (Yick Cheong Building)\n📍 Tai Koo Station\n📍22°17’07.5”N 114°12‘39.9“E\n\n⌨️ Editing: Lightroom & Photoshop\n📌 Save this for your itinerary\n\n#hongkong #streetphotography #nikonz6iii #discoverhongkong🇭🇰 #travelhongkong",
     "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/travelcroats/p/DcZHi62jqco/",
+    "username": "travelcroats",
+    "profile_url": "https://www.instagram.com/travelcroats/",
+    "kind": "p",
+    "image": null,
+    "caption": "Hong Kong might be a photographer’s dream 🇭🇰🤍\n\nWe also pinned our favourite spots in Hong Kong on Google Maps😍Comment “HK” and we’ll send it to your DMs!🫶🏻😊\n\nWe took SO many photos here, it was hard not to. One street is all skyscrapers, the next is tiny and full of neon and noise. It’s chaotic, but in the best way, and honestly a dream to shoot 📷\n\nA few of our favourite spots to shoot 👇\n\n📍 Choi Hung Estate - those pastel basketball courts (an absolute classic!) 📍 Quarry Bay’s “Monster Building” - walls of apartments that seem to go on forever 📍 Victoria Peak - the skyline view that never gets",
+    "match": "cover",
+    "generic": true
+   },
+   {
+    "url": "https://www.instagram.com/minghan1004/p/DHTSfnjTAKI/",
+    "username": "minghan1004",
+    "profile_url": "https://www.instagram.com/minghan1004/",
+    "kind": "p",
+    "image": null,
+    "caption": "📸 My Favourite Photo Spots in Hong Kong 🇭🇰 \n\n1. Mong Kok\n2. Kennedy Town\n3. Quarry Bay\n4. The Peak\n5. Wan Chai\n6. North Point\n7. Arsenal Street\n8. Sai Ying Pun\n9. Montane Mansion\n10. M+ Gallery\n\nLet me know what did I miss out or where shall I try next! 🙌🏻\nAll these are without sequence.\n\n#hongkongstreet #hongkongstreetphotography #hongkong #hongkongphotography #hongkong🇭🇰 #hongkongtrip #hongkongtravel #hongkongexplore #hongkongphoto",
+    "match": "cover",
+    "generic": true
    }
   ],
   "pop": 5,
@@ -2028,6 +2068,15 @@ window.PLACES = [
     "caption": "Location below ⬇️ 10 photography spots that I highly recommend in Mongkok, the absolute definition of Hong Kong’s raw energy ❤️‍🔥🇭🇰 It’s dense, neon-drenched, and easily one of the most rewarding areas for street and urban photography 📸Which one do you like the most?\n\nLocation📍\n1. Cheung Hing House, Portland Street\n2. Langham Place @langhamplace \n3. Argyle Street henge (taken in late Feb)\n4. Old shops along Reclamation Street\n5. Soy Street tunnel\n6. Fa Yuen Street Market\n7. Kam Lam Street\n8. Pre-war shophouses (20 Nullah Road)\n9. Neon sign of Hop Hing Lung Ceramics Sanitaryware Co\n10. Neon sig",
     "match": "slide",
     "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/hltam/p/DPuoulFkynE/",
+    "username": "hltam",
+    "profile_url": "https://www.instagram.com/hltam/",
+    "kind": "p",
+    "image": "images/DPuoulFkynE.jpg",
+    "caption": "Hong Kong  Scenes : Mongkok Henge\n\n📍Argyle Street Pedestrian Footbridge\n\n”Mongkok Henge“ refers to the sunset scene captured by the Argyle Street pedestrian bridge in Mongkok on specific dates (the end of February and mid-October each year). \n\n#mongkokhenge #henge #hongkongsunset #discoverhongkong #hongkongtravel #hongkongtrip #hongkongtravelguide #hongkongphotography #zolimahongkong #awesomehongkong",
+    "match": "single"
    }
   ],
   "pop": 1,
@@ -2327,7 +2376,7 @@ window.PLACES = [
     "profile_url": "https://www.instagram.com/zolima_hongkong/",
     "kind": "p",
     "image": "images/Dci2CYBGUGe.jpg",
-    "caption": "An elderly locksmith works at his tiny stall on Shanghai Street in Mong Kok.⁠\n⁠\nThe street where this old neighbourhood stall is located is one of the oldest in Hong Kong, stretching from Austin Road to Prince Edward Road through the neighbourhoods of Jordan, Yau Ma Tei and Mong Kok. Built in 1887, it was one of several streets in Kowloon named after important ports in China and Southeast Asia, including Canton Road, Saigon Street and Haiphong Road.⁠\n⁠\nIn the last century, Shanghai Street was Kowloon’s main street, with mahjong houses, gold shops and herbal medicine stores lining the road and ",
+    "caption": "",
     "match": "single"
    }
   ],
@@ -3844,6 +3893,25 @@ window.PLACES = [
     "caption": "Location below ⬇️ My photo collection of the Lion Rock, the most photogenic mountain in Hong Kong 🦁⛰️Which one do you like the most? \n\nLocation📍\n1. Footbridge at Nam Cheong Street\n2. Chuk Yuen North Estate\n3. Chuk Yuen South Estate\n4. Checkerboard Hill (Drone)\n5. Tsui Chuk Garden (Drone) \n6. Royal Plaza Hotel\n7. Kam Hong Street\n8. Shu Kuk Street\n9. Nam Cheong Streer\n10. Ma Tau Wai Road\n11. Ngau Chi Wan Kam Chi Path\n12-13. Wong Tai Sin Plaza\n14. Ping Shan \n15. East Coast Boardwalk\n16. Choi Hung Estate (drone)\n17. Sham Shui Po (drone)\n18. Footbridge across Kwun Tong Road (near Kai Yip Estate)\n\nL",
     "match": "slide",
     "slide": 16
+   },
+   {
+    "url": "https://www.instagram.com/travelcroats/p/DcZHi62jqco/",
+    "username": "travelcroats",
+    "profile_url": "https://www.instagram.com/travelcroats/",
+    "kind": "p",
+    "image": null,
+    "caption": "Hong Kong might be a photographer’s dream 🇭🇰🤍\n\nWe also pinned our favourite spots in Hong Kong on Google Maps😍Comment “HK” and we’ll send it to your DMs!🫶🏻😊\n\nWe took SO many photos here, it was hard not to. One street is all skyscrapers, the next is tiny and full of neon and noise. It’s chaotic, but in the best way, and honestly a dream to shoot 📷\n\nA few of our favourite spots to shoot 👇\n\n📍 Choi Hung Estate - those pastel basketball courts (an absolute classic!) 📍 Quarry Bay’s “Monster Building” - walls of apartments that seem to go on forever 📍 Victoria Peak - the skyline view that never gets",
+    "match": "cover",
+    "generic": true
+   },
+   {
+    "url": "https://www.instagram.com/mart.lindner/p/Cohik58PVLp/",
+    "username": "mart.lindner",
+    "profile_url": "https://www.instagram.com/mart.lindner/",
+    "kind": "p",
+    "image": "images/Cohik58PVLp.jpg",
+    "caption": "Welcome to Choi Hung Estate 🌈\nI remember that this basketball court on top of a car park was super crowded with people taking pictures the first time I visited Hong Kong in summer 2019. Four years and a pandemic later, I was the only photographer around to snap some images.\n\nFor this set, I didn’t just want to show you the iconic rainbow facade which has famously been shared on Instagram, but to add a bit of different points of views from this location as well. Hope there’s something new for you here to see 👀\n\nCan you spot the person in the drone shot?\n\n#choihungestate #rainbow #basketballcour",
+    "match": "single"
    }
   ],
   "pop": 5,
@@ -4378,6 +4446,126 @@ window.PLACES = [
   ],
   "pop": 4,
   "pop_reason": "Bekannter kostenloser Peak-Aussichtspunkt, viele Guides und Posts"
+ },
+ {
+  "id": "hk-fat-kwong-street-flyover",
+  "name": "Fat Kwong Street Flyover 佛光街天橋",
+  "district": "Ho Man Tin",
+  "category": "Architektur",
+  "note": "Schwungvolle Hochstraße vor Wohntürmen",
+  "address": "佛光街 Fat Kwong Street, 老龍坑 Lo Lung Hang, 何文田 Ho Man Tin, 九龍城區 Kowloon City District, 九龍 Kowloon, 香港 Hong Kong, 中国",
+  "lat": 22.313414,
+  "lng": 114.181846,
+  "approx": false,
+  "image": "images/DPqw2_FEaAG_1.jpg",
+  "caption": "Location below⬇️ The scenic routes inside Hong Kong’s concrete jungle 🛣️ Which one do you like the most? \n\nLocation📍\n1. Fat Kwong Street Flyover\n2. Hoi Lai Estate (Drone)\n3. N/A\n4. Mei Foo Sun Chuen\n\nLike, Share, and Save if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
+  "post_url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/?img_index=1",
+  "username": "mansonyms",
+  "profile_url": "https://www.instagram.com/mansonyms/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/?img_index=1",
+    "username": "mansonyms",
+    "profile_url": "https://www.instagram.com/mansonyms/",
+    "kind": "p",
+    "image": "images/DPqw2_FEaAG_1.jpg",
+    "caption": "Location below⬇️ The scenic routes inside Hong Kong’s concrete jungle 🛣️ Which one do you like the most? \n\nLocation📍\n1. Fat Kwong Street Flyover\n2. Hoi Lai Estate (Drone)\n3. N/A\n4. Mei Foo Sun Chuen\n\nLike, Share, and Save if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
+    "match": "slide",
+    "slide": 1
+   }
+  ],
+  "pop": 2,
+  "pop_reason": "Bei Architekturfotografen bekannt, selten in Guides"
+ },
+ {
+  "id": "hk-hoi-lai-estate",
+  "name": "Hoi Lai Estate 海麗邨",
+  "district": "Sham Shui Po",
+  "category": "Architektur",
+  "note": "Drohnenblick auf Hochstraßen vor den Wohntürmen",
+  "address": "海麗邨 Hoi Lai Estate, 100, 荔枝角 Lai Chi Kok, 深水埗區 Sham Shui Po District, 九龍 Kowloon, 香港 Hong Kong, 中国",
+  "lat": 22.332935,
+  "lng": 114.145871,
+  "approx": false,
+  "image": "images/DPqw2_FEaAG_2.jpg",
+  "caption": "Location below⬇️ The scenic routes inside Hong Kong’s concrete jungle 🛣️ Which one do you like the most? \n\nLocation📍\n1. Fat Kwong Street Flyover\n2. Hoi Lai Estate (Drone)\n3. N/A\n4. Mei Foo Sun Chuen\n\nLike, Share, and Save if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
+  "post_url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/?img_index=2",
+  "username": "mansonyms",
+  "profile_url": "https://www.instagram.com/mansonyms/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/?img_index=2",
+    "username": "mansonyms",
+    "profile_url": "https://www.instagram.com/mansonyms/",
+    "kind": "p",
+    "image": "images/DPqw2_FEaAG_2.jpg",
+    "caption": "Location below⬇️ The scenic routes inside Hong Kong’s concrete jungle 🛣️ Which one do you like the most? \n\nLocation📍\n1. Fat Kwong Street Flyover\n2. Hoi Lai Estate (Drone)\n3. N/A\n4. Mei Foo Sun Chuen\n\nLike, Share, and Save if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
+    "match": "slide",
+    "slide": 2
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Bei Fotografen bekannte Drohnen-Location"
+ },
+ {
+  "id": "hk-mei-foo-sun-chuen",
+  "name": "Mei Foo Sun Chuen 美孚新邨",
+  "district": "Mei Foo",
+  "category": "Architektur",
+  "note": "Riesige Wohnsiedlung mit Fußgängerbrücken",
+  "address": "美孚新邨 Mei Foo Sun Chuen, 荔枝角 Lai Chi Kok, 深水埗區 Sham Shui Po District, 九龍 Kowloon, 香港 Hong Kong, 中国",
+  "lat": 22.335798,
+  "lng": 114.139961,
+  "approx": false,
+  "image": "images/DPqw2_FEaAG_4.jpg",
+  "caption": "Location below⬇️ The scenic routes inside Hong Kong’s concrete jungle 🛣️ Which one do you like the most? \n\nLocation📍\n1. Fat Kwong Street Flyover\n2. Hoi Lai Estate (Drone)\n3. N/A\n4. Mei Foo Sun Chuen\n\nLike, Share, and Save if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
+  "post_url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/?img_index=4",
+  "username": "mansonyms",
+  "profile_url": "https://www.instagram.com/mansonyms/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/?img_index=4",
+    "username": "mansonyms",
+    "profile_url": "https://www.instagram.com/mansonyms/",
+    "kind": "p",
+    "image": "images/DPqw2_FEaAG_4.jpg",
+    "caption": "Location below⬇️ The scenic routes inside Hong Kong’s concrete jungle 🛣️ Which one do you like the most? \n\nLocation📍\n1. Fat Kwong Street Flyover\n2. Hoi Lai Estate (Drone)\n3. N/A\n4. Mei Foo Sun Chuen\n\nLike, Share, and Save if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
+    "match": "slide",
+    "slide": 4
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Größte Privatsiedlung, bei Fotografen beliebt"
+ },
+ {
+  "id": "hk-arsenal-street",
+  "name": "Arsenal Street 軍器廠街",
+  "district": "Wan Chai",
+  "category": "Tram",
+  "note": "Tram vor dem alten Polizeihauptquartier",
+  "address": "軍器廠街 Arsenal Street, 灣仔 Wan Chai, 灣仔區 Wan Chai District, 香港島 Hong Kong Island, 香港 Hong Kong, 中国",
+  "lat": 22.278437,
+  "lng": 114.168679,
+  "approx": false,
+  "image": "images/DHTSfnjTAKI_8.jpg",
+  "caption": "📸 My Favourite Photo Spots in Hong Kong 🇭🇰 \n\n1. Mong Kok\n2. Kennedy Town\n3. Quarry Bay\n4. The Peak\n5. Wan Chai\n6. North Point\n7. Arsenal Street\n8. Sai Ying Pun\n9. Montane Mansion\n10. M+ Gallery\n\nLet me know what did I miss out or where shall I try next! 🙌🏻\nAll these are without sequence.\n\n#hongkongstreet #hongkongstreetphotography #hongkong #hongkongphotography #hongkong🇭🇰 #hongkongtrip #hongkongtravel #hongkongexplore #hongkongphoto",
+  "post_url": "https://www.instagram.com/minghan1004/p/DHTSfnjTAKI/?img_index=8",
+  "username": "minghan1004",
+  "profile_url": "https://www.instagram.com/minghan1004/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/minghan1004/p/DHTSfnjTAKI/?img_index=8",
+    "username": "minghan1004",
+    "profile_url": "https://www.instagram.com/minghan1004/",
+    "kind": "p",
+    "image": "images/DHTSfnjTAKI_8.jpg",
+    "caption": "📸 My Favourite Photo Spots in Hong Kong 🇭🇰 \n\n1. Mong Kok\n2. Kennedy Town\n3. Quarry Bay\n4. The Peak\n5. Wan Chai\n6. North Point\n7. Arsenal Street\n8. Sai Ying Pun\n9. Montane Mansion\n10. M+ Gallery\n\nLet me know what did I miss out or where shall I try next! 🙌🏻\nAll these are without sequence.\n\n#hongkongstreet #hongkongstreetphotography #hongkong #hongkongphotography #hongkong🇭🇰 #hongkongtrip #hongkongtravel #hongkongexplore #hongkongphoto",
+    "match": "slide",
+    "slide": 8
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Bekannter Tram-Fotospot in Wan Chai"
  },
  {
   "id": "claude-avenue-of-stars-tst-promenade",
@@ -5588,5 +5776,13 @@ window.UNPLACED_POSTS = [
   "kind": "p",
   "image": "images/DRePtKcETWC.jpg",
   "caption": "俯仰之間 HIGHS & LOWS - some of my favourite images from my new Hong Kong photobook! Images taken over the last 11 years between 2014-2025 #hongkong #highsandlows"
+ },
+ {
+  "url": "https://www.instagram.com/audityawijaya/p/DdtWI4PDz_s/",
+  "username": "audityawijaya",
+  "profile_url": "https://www.instagram.com/audityawijaya/",
+  "kind": "p",
+  "image": "images/DdtWI4PDz_s.jpg",
+  "caption": "Kennedy Town, Hong Kong and everything in between.\n\nMong Kok — Jewels of Hong Kong\n\nThe legendary Ding Ding tram of Hong Kong in blue — highlights of Hong Kong Island.\n\nThe star of Tsim Sha Tsui — Hong Kong iconic red and white taxi.\n\nA stop for the “I ❤️ Hong Kong” shops.\n\nHashtag B — always be on my A Tier (rather S Tier) Egg Tart favourite in Hong Kong. Best of the Best!\n\nMarouf and Puff’s glazy baby croissants are the best bites for a rainy day in Hong Kong.\n\nEgg Tarts over Egg Tarts — the Halal Certified Egg Tarts of Marouf and Puff. A must visit!\n\nThe infamous Bakehouse bakery — no Bakeh"
  }
 ];

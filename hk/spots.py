@@ -30,6 +30,12 @@ POSTS = {
  78:("sc_capture072","p","DYeZStxEgx0"), 79:("shaunbirley","reel","DV2B4UAgREF"), 80:("charliesheehann","reel","DWRk_HXkxTK"),
  81:("lolahubner","reel","DVcKPlAk2WF"), 82:("fpenta","p","DRkgylwDfR4"), 83:("kosnio","reel","DQOhjJNjfji"),
  84:("lostitalianos","p","DRSOTZWkqbP"), 85:("derryainsworth","p","DRePtKcETWC"),
+ 86:("audityawijaya","p","DdtWI4PDz_s"),
+ 87:("travelcroats","p","DcZHi62jqco"),
+ 88:("mansonyms","p","DPqw2_FEaAG"),
+ 89:("mart.lindner","p","Cohik58PVLp"),
+ 90:("minghan1004","p","DHTSfnjTAKI"),
+ 91:("hltam","p","DPuoulFkynE"),
 }
 
 def url(i):
@@ -39,11 +45,12 @@ def url(i):
 # Spots: (name, geocode query or (lat,lon), district, category, [post idx], note)
 # Categories: Aussicht, Neon, Architektur, Street, Markt, Tram, Dorf, Food
 S = []
-def add(name, q, district, cat, posts, note=""):
-    S.append(dict(name=name, q=q, district=district, cat=cat, posts=posts, note=note))
+# slides={post-idx: slide-nr} legt den Karussell-Slide fest, wenn die Caption-Liste nicht zur Slide-Reihenfolge passt
+def add(name, q, district, cat, posts, note="", slides=None):
+    S.append(dict(name=name, q=q, district=district, cat=cat, posts=posts, note=note, slides=slides or {}))
 
 # --- Aussichtspunkte ---
-add("Victoria Peak – Lugard Road Lookout 盧吉道觀景台", (22.27817,114.14681,"OSM"), "The Peak", "Aussicht", [6,64,81,29], "Taxi/Tram bis Peak Station, dann Lugard Road; Skyline-Klassiker")
+add("Victoria Peak – Lugard Road Lookout 盧吉道觀景台", (22.27817,114.14681,"OSM"), "The Peak", "Aussicht", [6,64,81,29,87,90], "Taxi/Tram bis Peak Station, dann Lugard Road; Skyline-Klassiker")
 add("Jardine's Lookout 渣甸山", (22.26636,114.19833,"OSM"), "Hong Kong Island", "Aussicht", [25,28,29], "Blick über Happy Valley & Harbour")
 add("Red Incense Burner Summit 紅香爐峰 (Braemar Hill)", (22.28225,114.19699,"OSM"), "North Point", "Aussicht", [29,72], "Braemar Hill Instagram Spot; Uber bis Braemar Hill Mansions / Chinese International School, ca. 20 Min bergauf; kurz vor Sonnenuntergang")
 add("Suicide Cliff, Kowloon Peak 飛鵝山自殺崖", (22.33834,114.22307,"OSM"), "Kowloon Peak", "Aussicht", [29,71], "Steiler Hike, Panorama über Kowloon")
@@ -87,7 +94,7 @@ add("Hill Road Flyover 山道天橋", "Hill Road, Shek Tong Tsui, Hong Kong", "S
 add("Tung Hing Mansion 東興樓", "Tung Hing Mansion, Kennedy Town, Hong Kong", "Kennedy Town", "Architektur", [26], "")
 
 # --- Hong Kong Island Ost ---
-add("Monster Building / Yick Cheong Building 怪獸大廈", (22.28403,114.21233,"OSM"), "Quarry Bay", "Architektur", [17,18,25,38,52,57,78], "Tai Koo Station; Koordinaten aus Caption 22°17'07.5\"N 114°12'39.9\"E")
+add("Monster Building / Yick Cheong Building 怪獸大廈", (22.28403,114.21233,"OSM"), "Quarry Bay", "Architektur", [17,18,25,38,52,57,78,87,90], "Tai Koo Station; Koordinaten aus Caption 22°17'07.5\"N 114°12'39.9\"E")
 add("Oceanic Building 海景樓 (Monster Building, Tram-Seite)", "Oceanic Mansion, King's Road, Quarry Bay, Hong Kong", "Quarry Bay", "Tram", [28,52], "")
 add("Swiss House, Quarry Bay (abgerissen)", "Quarry Bay, Hong Kong", "Quarry Bay", "Architektur", [75], "abgerissen – nur Archiv")
 add("King's Road 英皇道", (22.2900,114.1990), "North Point", "Tram", [52], "")
@@ -104,7 +111,7 @@ add("Lai Tak Estate 勵德邨", "Lai Tak Tsuen, Tai Hang, Hong Kong", "Tai Hang"
 # --- Mongkok / Yau Ma Tei / Jordan / TST / Prince Edward ---
 add("Cheung Hing House, Portland Street 旺角砵蘭街 (Neon-Ecke)", "Portland Street, Mong Kok, Hong Kong", "Mongkok", "Neon", [21,22,23,25,28,35], "Ikonische Neon-Ecke, bei Regen")
 add("Langham Place 朗豪坊", "Langham Place, Mong Kok, Hong Kong", "Mongkok", "Architektur", [23], "")
-add("Argyle Street 'henge'", "Argyle Street, Mong Kok, Hong Kong", "Mongkok", "Street", [23], "Sonne in Straßenachse, Ende Februar")
+add("Argyle Street 'henge'", "Argyle Street, Mong Kok, Hong Kong", "Mongkok", "Street", [23,91], "Sonne in Straßenachse, Ende Februar")
 add("Reclamation Street 新填地街 (alte Läden)", "Reclamation Street, Mong Kok, Hong Kong", "Mongkok / Yau Ma Tei", "Street", [21,23,26,62], "")
 add("Soy Street tunnel 豉油街", "Soy Street, Mong Kok, Hong Kong", "Mongkok", "Street", [23], "")
 add("Fa Yuen Street Market 花園街街市", "Fa Yuen Street, Mong Kok, Hong Kong", "Mongkok", "Markt", [23,25,28], "")
@@ -159,7 +166,7 @@ add("Newport Centre Block 2 (Neon abgerissen)", "Newport Centre, To Kwa Wan, Hon
 add("Ma Tau Wai Road 馬頭圍道", "Ma Tau Wai Road, Hong Kong", "To Kwa Wan", "Street", [20], "")
 add("Harbour Place 海濱南岸 (Drone)", "Harbour Place, Hung Hom, Hong Kong", "Hung Hom", "Architektur", [24], "")
 add("Wing Sun Pawn Shop 永生大押", "Hung Hom, Hong Kong", "Hung Hom", "Neon", [35], "genaue Lage nachrecherchieren")
-add("Choi Hung Estate 彩虹邨", "Choi Hung Estate, Hong Kong", "Choi Hung", "Architektur", [25,60,20], "Regenbogen-Basketballplatz")
+add("Choi Hung Estate 彩虹邨", "Choi Hung Estate, Hong Kong", "Choi Hung", "Architektur", [25,60,20,87,89], "Regenbogen-Basketballplatz")
 add("Lotus Garden, Ngau Tau Kok", "Lotus Tower, Ngau Tau Kok, Hong Kong", "Ngau Tau Kok", "Architektur", [70], "geometrische Türme")
 add("Wong Tai Sin Plaza (Lion Rock view)", "Wong Tai Sin Plaza, Hong Kong", "Wong Tai Sin", "Aussicht", [20], "")
 add("Chuk Yuen North / South Estate 竹園邨", "Chuk Yuen South Estate, Wong Tai Sin, Hong Kong", "Wong Tai Sin", "Aussicht", [20], "Lion Rock")
@@ -178,3 +185,9 @@ add("Hoi On Road Noise Barrier 海安路隔音屏障", "Hoi On Road, Tsuen Wan, 
 add("Ping Shan 屏山 (Lion Rock view)", (22.3292,114.2158), "Ngau Tau Kok", "Aussicht", [20], "")
 add("Tuen Mun – Cha Chaan Teng & Strand", "Tuen Mun, Hong Kong", "Tuen Mun", "Food", [56], "25 Min Taxi von Central zum Strand")
 add("Lugard Road / Peak Rollercoaster View (山頂)", (22.2740,114.1500), "The Peak", "Aussicht", [13], "'best rollercoaster view', Nacht")
+
+# --- Neu aus Eingang ---
+add("Fat Kwong Street Flyover 佛光街天橋", "Fat Kwong Street, Ho Man Tin, Hong Kong", "Ho Man Tin", "Architektur", [88], "Schwungvolle Hochstraße vor Wohntürmen")
+add("Hoi Lai Estate 海麗邨", "Hoi Lai Estate, Sham Shui Po, Hong Kong", "Sham Shui Po", "Architektur", [88], "Drohnenblick auf Hochstraßen vor den Wohntürmen")
+add("Mei Foo Sun Chuen 美孚新邨", "Mei Foo Sun Chuen, Hong Kong", "Mei Foo", "Architektur", [88], "Riesige Wohnsiedlung mit Fußgängerbrücken")
+add("Arsenal Street 軍器廠街", "Arsenal Street, Wan Chai, Hong Kong", "Wan Chai", "Tram", [90], "Tram vor dem alten Polizeihauptquartier", slides={90: 8})
