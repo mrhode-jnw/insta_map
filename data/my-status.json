@@ -337,5 +337,8 @@
  },
  "hk-argyle-street-henge": {
   "prio": "gering"
+ },
+ "hk-king-s-road": {
+  "prio": "hoch"
  }
 }
