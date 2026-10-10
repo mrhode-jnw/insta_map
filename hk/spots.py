@@ -97,7 +97,7 @@ add("Tung Hing Mansion 東興樓", "Tung Hing Mansion, Kennedy Town, Hong Kong",
 add("Monster Building / Yick Cheong Building 怪獸大廈", (22.28403,114.21233,"OSM"), "Quarry Bay", "Architektur", [17,18,25,38,52,57,78,87,90], "Tai Koo Station; Koordinaten aus Caption 22°17'07.5\"N 114°12'39.9\"E")
 add("Oceanic Building 海景樓 (Monster Building, Tram-Seite)", "Oceanic Mansion, King's Road, Quarry Bay, Hong Kong", "Quarry Bay", "Tram", [28,52], "")
 add("Swiss House, Quarry Bay (abgerissen)", (22.2870,114.2135), "Quarry Bay", "Architektur", [75], "abgerissen – nur Archiv")
-add("King's Road 英皇道", (22.2900,114.1990), "North Point", "Tram", [52], "")
+add("King's Road 英皇道", (22.29152,114.20180,"OSM"), "North Point", "Tram", [52], "Standpunkt: Fußgängerampel King's Road / Kam Hong Street (östlich der Tramhaltestelle Kam Hong Street), Blick nach Westen auf das rote 新光-Schild des Sunbeam Theatre (Ecke Shu Kuk Street, ca. 170 m) – Teleobjektiv (≥100 mm) für die gestapelten Trams vor den Wohntürmen. Kino seit März 2025 geschlossen, Schild hing zuletzt noch.")
 add("North Point Road Tram Station 北角道電車站", (22.29055,114.19712,"OSM"), "North Point", "Tram", [52], "")
 add("Chun Yeung Street Market 春秧街街市", "Chun Yeung Street, North Point, Hong Kong", "North Point", "Markt", [25,28,52], "Tram fährt durch den Markt")
 add("North Point Fire Station 北角消防局 + Sunbeam Theatre", "North Point Fire Station, 38 Healthy Street East, North Point", "North Point", "Architektur", [60,70], "Rot als Farbthema: rosa Fassade mit roten Falttoren, Feuerwache 38 Healthy Street East (Pin). Das Sunbeam Theatre (423 King's Road, 800 m westlich) ist seit März 2025 geschlossen.")
