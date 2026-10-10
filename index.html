@@ -699,11 +699,24 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   };
   const shown = new Set();
   // Zum Marker zoomen und Popup öffnen – erst wenn die Cluster-Neuberechnung nach dem Zoom durch ist
+  let focusToken = 0;
   function focusMarker(m, tries = 0) {
+    if (!m) return;
+    const tok = tries ? focusToken : ++focusToken;
     cluster.zoomToShowLayer(m, () => setTimeout(() => {
       if (cluster.getVisibleParent(m) === m) m.openPopup();
       else if (tries < 3) focusMarker(m, tries + 1);
     }, 350));
+    // Rückfall: Manchmal meldet sich zoomToShowLayer nicht zurück (z.B. wenn sich die Karte nicht bewegen muss) → direkt hin und öffnen
+    if (!tries) setTimeout(() => {
+      if (m.isPopupOpen() || tok !== focusToken || (map._popup && map.hasLayer(map._popup))) return;
+      map.setView(m.getLatLng(), Math.max(map.getZoom(), 19), { animate: false });
+      setTimeout(() => {
+        const par = cluster.getVisibleParent(m);
+        if (par && par !== m && par.spiderfy) par.spiderfy();
+        setTimeout(() => { if (!m.isPopupOpen()) m.openPopup(); }, 250);
+      }, 300);
+    }, 1600);
   }
   // ‹ › im Popup: zum vorherigen/nächsten Spot der aktuellen Liste
   function stepSpot(fromId, dir) {
@@ -1104,7 +1117,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const cone = meMarker && meMarker.getElement() && meMarker.getElement().querySelector(".me-cone");
     if (cone) { cone.classList.add("on"); cone.style.setProperty("--h", headingShown + "deg"); }
   }
-  if (ROTATE) { map.on("rotate", drawCone); window.__map = map; }
+  if (ROTATE) map.on("rotate", drawCone);
+  window.__map = map;  // für Tests
   async function startCompass() {
     if (compassOn || !window.DeviceOrientationEvent) return;
     try {
