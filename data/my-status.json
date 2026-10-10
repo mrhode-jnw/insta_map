@@ -15,7 +15,8 @@
  },
  "hk-monster-building-yick-cheong-building": {
   "prio": "hoch",
-  "fav": true
+  "fav": true,
+  "done": true
  },
  "hk-tai-o-fishing-village": {
   "prio": "hoch"
