@@ -174,7 +174,7 @@ add("Tsui Chuk Garden 翠竹花園 (Drone)", "Tsui Chuk Garden, Wong Tai Sin, Ho
 add("Ngau Chi Wan Kam Chi Path", (22.33508,114.20865,"OSM"), "Ngau Chi Wan", "Aussicht", [20], "Lion Rock; Gasse 金池徑 Kam Chi Path im Dorf Ngau Chi Wan")
 add("Footbridge Kwun Tong Road / Kai Yip Estate", "Kai Yip Estate, Kowloon Bay, Hong Kong", "Kowloon Bay", "Aussicht", [20], "Lion Rock")
 add("Royal Plaza Hotel 帝京酒店 (Lion Rock view)", "Royal Plaza Hotel, Prince Edward Road West, Hong Kong", "Mong Kok", "Aussicht", [20], "")
-add("Kam Hong Street / Shu Kuk Street (Lion Rock view)", "Kam Hong Street, North Point, Hong Kong", "North Point", "Aussicht", [20], "")
+add("Kam Hong Street / Shu Kuk Street (Lion Rock view)", (22.29085,114.20040,"OSM"), "North Point", "Aussicht", [20], "Standpunkt: Shu Kuk Street südlich der King's Road (Ecke Tsat Tsz Mui Road), Blick nach Norden über die Kreuzung: links das senkrechte 新光戲院-Schild des Sunbeam Theatre, am Straßenende Hafen und Lion Rock. Teleobjektiv, klare Sicht nötig. Gleicher Blick eine Straße weiter östlich: Kam Hong Street.")
 add("Kowloon Walled City Park 九龍寨城公園", "Kowloon Walled City Park, Hong Kong", "Kowloon City", "Street", [41,51,68], "historisch; llittlepig 'The walled city'; Greg Girard Archiv")
 
 # --- New Territories / Lantau / Outlying ---
