@@ -85,6 +85,9 @@
   .pop .addr { color: #4b5563; font-size: 13px; margin-bottom: 6px; }
   .pop .cap { color: #374151; font-size: 12.5px; max-height: 80px; overflow: auto; white-space: pre-line; margin-bottom: 8px; }
   .pop .links { display: flex; gap: 6px; flex-wrap: wrap; }
+  .pop .links .showmap { flex: 1.3; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #dbeafe; color: #1e3a8a; font-weight: 600; cursor: pointer; }
+  .leaflet-marker-icon.flash { animation: flashpin .65s ease-in-out 4; z-index: 9999 !important; }
+  @keyframes flashpin { 50% { transform-origin: center; filter: drop-shadow(0 0 10px #e1306c) brightness(1.2); } }
   .pop .links a { flex: 1; text-align: center; padding: 7px 6px; border-radius: 8px; font-size: 13px;
     text-decoration: none; background: #f3f4f6; color: #111827 !important; white-space: nowrap; }
   .pop .links a.ig { background: var(--accent); color: #fff !important; }
@@ -493,6 +496,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <div class="addr">${esc(p.address)}<br><small>${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}</small></div>
         ${hero && p.caption && (p.image || !generic.length) ? `<div class="cap">${esc(p.caption)}</div>` : ""}
         <div class="links">
+          <button class="showmap" data-show="${esc(p.id)}">📍 Auf Karte</button>
           ${hero && p.post_url && (p.image || !generic.length) ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Post</a>
           ${p.profile_url ? `<a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>` : ""}` : ""}
           ${p.wiki_url ? `<a class="wiki" href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
@@ -799,6 +803,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     }
     el.querySelectorAll("button[data-go]").forEach(b => b.onclick = e => { e.stopPropagation(); stepSpot(id, +b.dataset.go); });
     const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); map.closePopup(); };
+    // 📍 Auf Karte: Spot schließen, Karte auf den Spot zentrieren (nicht zurückspringen), Liste einklappen, Pin aufblinken
+    const sm = el.querySelector(".showmap"); if (sm) sm.onclick = e => {
+      e.stopPropagation();
+      const p = places.find(x => x.id === sm.dataset.show), m = markers.get(sm.dataset.show); if (!p) return;
+      savedView = null; map.closePopup();
+      if (mobile()) setSnap("peek");
+      cluster.zoomToShowLayer(m, () => {
+        map.setView([p.lat, p.lng], Math.max(map.getZoom(), 17));
+        setTimeout(() => { const ic = m.getElement(); if (ic) { ic.classList.add("flash"); setTimeout(() => ic.classList.remove("flash"), 2600); } }, 400);
+      });
+    };
   });
   document.addEventListener("keydown", e => {
     if (!["ArrowLeft", "ArrowRight"].includes(e.key) || e.target.closest("input, textarea, select")) return;
