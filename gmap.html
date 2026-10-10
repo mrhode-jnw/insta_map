@@ -28,12 +28,12 @@
     border-radius: 999px; box-shadow: var(--shadow); padding: 10px 14px; font-size: 13px; text-decoration: none; }
   #count { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 30px); z-index: 4;
     background: rgba(17,24,39,.75); color: #fff; padding: 4px 10px; border-radius: 999px; font-size: 12px; }
-  .pin { width: 36px; height: 36px; border-radius: 50%; border: 3px solid #fff; background: #e1306c center/cover; box-shadow: 0 2px 6px rgba(0,0,0,.4); position: relative; }
+  .pin { width: 36px; height: 36px; border-radius: 50%; border: 3px solid #fff; background: #e1306c center/cover; box-shadow: 0 2px 6px rgba(0,0,0,.4); position: relative; transform: translateY(50%); }
   .pin.claude { border-color: #7c3aed; } .pin.fav { box-shadow: 0 0 0 2px #e11d48, 0 2px 6px rgba(0,0,0,.4); }
   .pin.done { filter: grayscale(.8); opacity: .8; }
   .pin i { position: absolute; left: -7px; bottom: -7px; width: 18px; height: 18px; border-radius: 50%; background: #fff; color: #e11d48; font-size: 11px; line-height: 18px; text-align: center; font-style: normal; }
-  .hotel { width: 24px; height: 24px; border-radius: 7px; background: #fff; border: 2px solid #2563eb; display: grid; place-items: center; font-size: 13px; }
-  .me { position: relative; width: 80px; height: 80px; }
+  .hotel { width: 24px; height: 24px; border-radius: 7px; background: #fff; border: 2px solid #2563eb; display: grid; place-items: center; font-size: 13px; transform: translateY(50%); }
+  .me { position: relative; width: 80px; height: 80px; transform: translateY(50%); }
   .me .dot { position: absolute; left: 31px; top: 31px; width: 18px; height: 18px; border-radius: 50%; background: #2563eb; border: 3px solid #fff; box-shadow: 0 0 0 6px rgba(37,99,235,.2); }
   .me .cone { position: absolute; inset: 0; display: none; border-radius: 50%; transform: rotate(var(--h, 0deg));
     background: conic-gradient(from -35deg, rgba(37,99,235,.55) 0deg 70deg, transparent 70deg);
@@ -73,7 +73,7 @@
   #list li.it b { display: block; font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   #list li.it small { color: var(--muted); font-size: 12px; }
   #list li.it > div { min-width: 0; }
-  .hlring { width: 50px; height: 50px; border-radius: 50%; border: 4px solid #e1306c; box-shadow: 0 0 0 4px rgba(255,255,255,.9), 0 0 18px rgba(225,48,108,.8); transform: translateY(7px); pointer-events: none; }
+  .hlring { width: 50px; height: 50px; border-radius: 50%; border: 4px solid #e1306c; box-shadow: 0 0 0 4px rgba(255,255,255,.9), 0 0 18px rgba(225,48,108,.8); transform: translateY(50%); pointer-events: none; }
   #listBtn { display: none; }
   @media (min-width: 900px) {
     #map { left: 340px !important; width: auto; }
@@ -182,7 +182,7 @@ async function start(key) {
     m.addEventListener("gmp-click", () => openCard(p.id));
     markers.set(p.id, m);
   });
-  const clusterer = window.markerClusterer ? new markerClusterer.MarkerClusterer({ map, markers: [] }) : null;
+  const clusterer = window.markerClusterer ? new markerClusterer.MarkerClusterer({ map, markers: [], algorithm: new markerClusterer.SuperClusterAlgorithm({ radius: 60 }) }) : null;
 
   // Route & Hotels
   const routeLine = new google.maps.Polyline({ path: ROUTE.map(r => ({ lat: r.lat, lng: r.lng })), strokeColor: "#2563eb", strokeOpacity: 0,
