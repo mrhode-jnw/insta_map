@@ -361,8 +361,20 @@
 </div>
 
 <script>
-  // …/insta_map/?google (bzw. gmap.html): dieselbe App auf der drehbaren Google-Vektorkarte (gleaflet.js übersetzt die Leaflet-Aufrufe)
-  window.GMAP_MODE = /[?&]google\b/.test(location.search);
+  // Standard: drehbare Google-Vektorkarte (gleaflet.js übersetzt die Leaflet-Aufrufe).
+  // Klassische Karte (Leaflet, Google-Kacheln/OpenStreetMap): mit ?klassisch, automatisch wenn Google nicht lädt
+  // oder der letzte Standort in Festland-China liegt (Google ist dort gesperrt und seine Straßenkarte verschoben).
+  window.GMAP_MODE = (() => {
+    const q = location.search;
+    if (/[?&]google\b/.test(q)) return true;
+    if (/[?&](klassisch|drehbar)\b/.test(q)) return false;
+    try {
+      const p = JSON.parse(localStorage.getItem("lastPos") || "null");
+      const hkMo = p && p.lat > 22.05 && p.lat < 22.57 && p.lng > 113.5 && p.lng < 114.45;
+      if (p && p.lat > 18 && p.lat < 54 && p.lng > 73 && p.lng < 135 && !hkMo && !(p.lng > 119.3 && p.lat < 25.5)) return false;
+    } catch {}
+    return true;
+  })();
   document.write(GMAP_MODE ? '<script src="gleaflet.js"><\/script>'
     : '<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"><\/script><script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"><\/script>');
 </script>
@@ -391,7 +403,7 @@
       if (dataChanged || fp(inline(fresh)) !== fp(inline(document))) {
         const bar = document.getElementById("update");
         bar.hidden = false;
-        bar.onclick = () => location.replace(location.pathname + "?" + (GMAP_MODE ? "google&" : /[?&]drehbar/.test(location.search) ? "drehbar&" : "") + "v=" + Date.now());
+        bar.onclick = () => location.replace(location.pathname + "?" + ((location.search.match(/[?&](google|klassisch|drehbar)\b/) || [])[1] ? location.search.match(/[?&](google|klassisch|drehbar)\b/)[1] + "&" : "") + "v=" + Date.now());
       }
     } catch {}
   }
@@ -1117,6 +1129,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function onPos(pos) {
     const first = !me;
     me = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+    try { localStorage.setItem("lastPos", JSON.stringify({ lat: +me.lat.toFixed(2), lng: +me.lng.toFixed(2) })); } catch {}  // für die Kartenwahl beim nächsten Start
     const ll = [me.lat, me.lng];
     if (!meMarker) {
       meCircle = L.circle(ll, { radius: pos.coords.accuracy, color: "#2563eb", weight: 1, fillOpacity: .1 }).addTo(map);
@@ -1556,7 +1569,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const ready = async key => {
     if (!window.L || !L.isGoogle) return true;
     try { await L.load(key); return true; }
-    catch { alert("Google Maps nicht erreichbar – öffne die normale Karte."); location.replace(location.pathname); return false; }
+    catch { location.replace(location.pathname + "?klassisch"); return false; }
   };
   // GitHub-Token (zum Speichern) liegt mit demselben Zugangscode verschlüsselt in config.js
   const ghToken = async code => { try { return window.GITHUB_TOKEN_ENC ? await InstaMapCrypto.decrypt(window.GITHUB_TOKEN_ENC, code) : null; } catch { return null; } };
