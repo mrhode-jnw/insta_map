@@ -128,8 +128,8 @@ async function start(key) {
     return d;
   }
   places.forEach(p => {
-    const m = new AdvancedMarkerElement({ position: { lat: p.lat, lng: p.lng }, content: pinEl(p), title: p.name });
-    m.addListener("click", () => openCard(p.id));
+    const m = new AdvancedMarkerElement({ position: { lat: p.lat, lng: p.lng }, content: pinEl(p), title: p.name, gmpClickable: true });
+    m.addEventListener("gmp-click", () => openCard(p.id));
     markers.set(p.id, m);
   });
   const clusterer = window.markerClusterer ? new markerClusterer.MarkerClusterer({ map, markers: [] }) : null;
@@ -139,8 +139,8 @@ async function start(key) {
     icons: [{ icon: { path: "M 0,-1 0,1", strokeOpacity: .6, scale: 3 }, offset: "0", repeat: "14px" }] });
   HOTELS.forEach(H => {
     const d = document.createElement("div"); d.className = "hotel"; d.textContent = "🏨";
-    const m = new AdvancedMarkerElement({ map, position: { lat: H.lat, lng: H.lng }, content: d, title: H.name, zIndex: -1 });
-    m.addListener("click", () => { $("#card").hidden = false; $("#card").innerHTML = `<div class="top"><button class="x" onclick="this.closest('#card').hidden=true">✕</button><span>Unser Hotel</span><span></span></div>
+    const m = new AdvancedMarkerElement({ map, position: { lat: H.lat, lng: H.lng }, content: d, title: H.name, zIndex: -1, gmpClickable: true });
+    m.addEventListener("gmp-click", () => { $("#card").hidden = false; $("#card").innerHTML = `<div class="top"><button class="x" onclick="this.closest('#card').hidden=true">✕</button><span>Unser Hotel</span><span></span></div>
       <div class="b"><h3>🏨 ${esc(H.name)}</h3><div class="meta">${esc(H.zh)}</div><div class="note">${esc([H.dates, H.room].filter(Boolean).join(" · "))}</div>
       <div class="meta">${esc(H.address)}</div><div class="links"><a href="https://www.google.com/maps/dir/?api=1&destination=${H.lat},${H.lng}" target="_blank" rel="noopener">Route</a></div></div>`; });
   });
