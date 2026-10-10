@@ -342,6 +342,7 @@
       <button data-f="open">Noch offen</button>
       <button data-f="done">✓ Fotografiert</button>
       <button data-f="pop">🔥 Beliebt</button>
+      <button data-f="trash">🗑 Gelöscht</button>
       <select id="sort" aria-label="Sortierung">
         <option value="auto">Sortierung: Entfernung</option>
         <option value="prio">Sortierung: Priorität</option>
@@ -484,7 +485,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return order.filter(id => { if (id === cur) return true; const q = places.find(x => x.id === id); return q && b.contains([q.lat, q.lng]); });
   };
   let sheetSnap = "peek";
-  let status = {};  // id -> { prio: "hoch"|"mittel"|"gering", done: true } – aus data/my-status.json
+  let status = {};  // id -> { prio: "hoch"|"mittel"|"gering", done: true, fav: true, hidden: true (gelöscht) } – aus data/my-status.json
   const st = id => status[id] || {};
   const PRIOS = ["hoch", "mittel", "gering"];
   const PRIO_LABEL = { hoch: "Hoch", mittel: "Mittel", gering: "Gering" };
@@ -547,7 +548,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           ${p.profile_url ? `<a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>` : ""}` : ""}
           ${p.wiki_url ? `<a class="wiki" href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
           <a href="${nav}" target="_blank" rel="noopener">Route</a>
-          ${p.mine ? `<button class="del" data-del="${esc(p.id)}">Löschen</button>` : ""}
+          ${p.mine ? `<button class="del" data-del="${esc(p.id)}">Löschen</button>`
+            : `<button class="del" data-hide="${esc(p.id)}">${st(p.id).hidden ? "Wiederherstellen" : "Löschen"}</button>`}
         </div>
       </div></div>`;
   }
@@ -662,7 +664,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
     renderChips(); renderList();
   });
-  let favF = false, areaF = "";
+  let favF = false, trashF = false, areaF = "";
   // Viertel/Bereich: Hongkong-Bezirke vereinheitlicht, China als „Stadt – Viertel“
   const AREA_ALIAS = { "Mongkok": "Mong Kok", "Mongkok / Yau Ma Tei": "Mong Kok", "Mong Kok East": "Mong Kok", "Mid-levels": "Mid-Levels", "Harbour": "Victoria Harbour" };
   // Hongkong: Stadtteile zu größeren Bereichen zusammengefasst
@@ -700,9 +702,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (PRIOS.includes(f) || f === "none") prioF.has(f) ? prioF.delete(f) : prioF.add(f);
     else if (f === "pop") popF = !popF;
     else if (f === "fav") favF = !favF;
+    else if (f === "trash") trashF = !trashF;
     else doneF = doneF === f ? null : f;
     $("#chips2").querySelectorAll("button").forEach(x => x.classList.toggle("on",
-      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF) || (x.dataset.f === "fav" && favF)));
+      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF) || (x.dataset.f === "fav" && favF) || (x.dataset.f === "trash" && trashF)));
     renderList();
   });
   if (routeF) routeLayer.addTo(map);
@@ -744,7 +747,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
       && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio || "none")) && (!doneF || (doneF === "done" ? s.done : !s.done))
-      && (!popF || (p.pop || 0) >= 4) && (!favF || s.fav) && (!areaF || areaOf(p) === areaF);
+      && (!popF || (p.pop || 0) >= 4) && (!favF || s.fav) && (!areaF || areaOf(p) === areaF)
+      && (trashF ? s.hidden : !s.hidden);  // gelöschte Spots nur im Filter „Gelöscht“
   };
   const shown = new Set();
   // Zum Marker zoomen und Popup öffnen – erst wenn die Cluster-Neuberechnung nach dem Zoom durch ist
@@ -985,7 +989,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = favF || areaF || group === "food" || group === "claude" || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = favF || trashF || areaF || group === "food" || group === "claude" || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${s.fav ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
@@ -1426,8 +1430,19 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     } finally { $("#addSave").disabled = false; }
   });
 
+  // Spots aus der Sammlung/Claude-Tipps: nur ausblenden (bleibt beim Neubau der Karte ausgeblendet), wiederherstellbar über „🗑 Gelöscht“
   map.on("popupopen", ev => {
-    const btn = ev.popup.getElement().querySelector("button.del"); if (!btn) return;
+    const btn = ev.popup.getElement().querySelector("button[data-hide]"); if (!btn) return;
+    btn.onclick = () => {
+      const id = btn.dataset.hide, p = places.find(x => x.id === id), hidden = !st(id).hidden;
+      if (hidden && !confirm(`„${p ? p.name : id}“ löschen?\nWiederherstellen geht über den Filter „🗑 Gelöscht“.`)) return;
+      setStatus(id, { hidden });
+      map.closePopup();
+      toast(hidden ? "Gelöscht – wiederherstellbar unter „🗑 Gelöscht“" : "Wiederhergestellt ✓", 2500);
+    };
+  });
+  map.on("popupopen", ev => {
+    const btn = ev.popup.getElement().querySelector("button[data-del]"); if (!btn) return;
     btn.onclick = async () => {
       const id = btn.dataset.del, p = places.find(x => x.id === id);
       if (!confirm(`„${p ? p.name : id}“ löschen?`)) return;
@@ -1457,6 +1472,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (!next.prio) delete next.prio;
     if (!next.done) delete next.done;
     if (!next.fav) delete next.fav;
+    if (!next.hidden) delete next.hidden;
     if (Object.keys(next).length) status[id] = next; else delete status[id];
     pending[id] = status[id] || null;
     const p = places.find(x => x.id === id), m = markers.get(id);
