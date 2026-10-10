@@ -6,7 +6,8 @@
   "prio": "mittel"
  },
  "hk-choi-hung-estate": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "fav": true
  },
  "hk-victoria-peak-lugard-road-lookout": {
   "prio": "hoch"
