@@ -60,6 +60,28 @@
   #gate form { display: grid; gap: 10px; width: 260px; text-align: center; }
   #gate input, #gate button { padding: 12px; border-radius: 10px; border: 1px solid var(--line); font-size: 16px; }
   #gate button { background: var(--accent); color: #fff; border: 0; }
+  /* Liste links (Desktop fest, Handy als Overlay über ☰) */
+  #side { position: fixed; z-index: 7; top: 0; bottom: 0; left: 0; width: 340px; background: var(--bg); border-right: 1px solid var(--line); display: flex; flex-direction: column; }
+  #side .head { padding: 10px; display: flex; gap: 6px; align-items: center; border-bottom: 1px solid var(--line); padding-top: calc(env(safe-area-inset-top) + 10px); }
+  #side select { flex: 1; min-width: 0; padding: 8px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); font-size: 14px; }
+  #side .close { display: none; border: 0; background: #111827; color: #fff; border-radius: 10px; width: 38px; height: 36px; font-size: 16px; }
+  #list { list-style: none; margin: 0; padding: 0 0 20px; overflow-y: auto; flex: 1; }
+  #list li.sec { position: sticky; top: 0; background: var(--bg); padding: 10px 12px 4px; font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; z-index: 1; }
+  #list li.it { display: flex; gap: 10px; align-items: center; padding: 6px 12px; cursor: pointer; }
+  #list li.it:hover, #list li.it.cur { background: rgba(225,48,108,.09); }
+  #list li.it .th { flex: none; width: 46px; height: 46px; border-radius: 8px; background: #e5e7eb center/cover; display: grid; place-items: center; font-size: 18px; }
+  #list li.it b { display: block; font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #list li.it small { color: var(--muted); font-size: 12px; }
+  #list li.it > div { min-width: 0; }
+  .hlring { width: 50px; height: 50px; border-radius: 50%; border: 4px solid #e1306c; box-shadow: 0 0 0 4px rgba(255,255,255,.9), 0 0 18px rgba(225,48,108,.8); transform: translateY(7px); pointer-events: none; }
+  #listBtn { display: none; }
+  @media (min-width: 900px) {
+    #map { left: 340px !important; width: auto; }
+    #bar { left: 350px; } #back { left: 352px; } #count { left: calc(50% + 170px); } #card { left: calc(50% + 170px); }
+  }
+  @media (max-width: 899px) {
+    #side { width: 100%; display: none; } #side.open { display: flex; } #side .close { display: block; } #listBtn { display: inline-block; }
+  }
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 64px); left: 50%; transform: translateX(-50%); z-index: 30; background: #111827; color: #fff;
     border-radius: 999px; padding: 9px 14px; font-size: 13px; display: none; max-width: 90%; text-align: center; }
 </style>
@@ -67,9 +89,10 @@
 <body>
 <div id="gate" hidden><form id="gateForm"><b>Insta Map</b><input id="gateCode" type="password" placeholder="Zugangscode" autofocus><button>Öffnen</button><div id="gateErr"></div></form></div>
 <div id="map"></div>
+<aside id="side"><div class="head"><select id="area" aria-label="Bereich / Viertel"></select><button class="close" aria-label="Liste schließen">✕</button></div><ul id="list"></ul></aside>
 <div id="bar">
   <select id="where" aria-label="Bereich"><option value="route">🧭 Route</option><option value="hk">🇭🇰 Hongkong</option><option value="cn">🇨🇳 China</option><option value="all">🌏 Alles</option></select>
-  <button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-fav>❤️</button>
+  <button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-fav>❤️</button><button id="listBtn" aria-label="Liste">☰ Liste</button>
 </div>
 <button id="north" class="fab" title="Nach Norden ausrichten" aria-label="Nach Norden ausrichten"><span>🧭</span></button>
 <button id="locate" class="fab" title="Mein Standort – nochmal tippen: Karte folgt Blickrichtung" aria-label="Mein Standort">◎</button>
@@ -95,6 +118,32 @@ const dist = (a, b) => { const R = 6371e3, t = Math.PI / 180, dl = (b.lat - a.la
   const x = Math.sin(dl / 2) ** 2 + Math.cos(a.lat * t) * Math.cos(b.lat * t) * Math.sin(dn / 2) ** 2; return 2 * R * Math.asin(Math.sqrt(x)); };
 const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
 const routeStop = p => { let best = -1, bd = Infinity; ROUTE.forEach((r, i) => { const d = dist(r, p); if (d <= r.r * 1000 && d < bd) { best = i; bd = d; } }); return best; };
+const AREA_ALIAS = { "Mongkok": "Mong Kok", "Mongkok / Yau Ma Tei": "Mong Kok", "Mong Kok East": "Mong Kok", "Mid-levels": "Mid-Levels", "Harbour": "Victoria Harbour" };
+const HK_AREAS = {
+  "Central / Sheung Wan": ["Central", "SoHo (Central)", "Sheung Wan", "Mid-Levels"],
+  "Sai Ying Pun / Kennedy Town": ["Sai Ying Pun", "Shek Tong Tsui", "Kennedy Town"],
+  "The Peak": ["The Peak"],
+  "Wan Chai / Causeway Bay": ["Wan Chai", "Causeway Bay", "Happy Valley", "Tai Hang", "Jardine's Lookout"],
+  "North Point / Quarry Bay": ["North Point", "Fortress Hill", "Quarry Bay"],
+  "Südseite (Repulse Bay, Stanley)": ["Repulse Bay", "Stanley", "Shek O"],
+  "Tsim Sha Tsui / Jordan": ["Tsim Sha Tsui", "Jordan", "West Kowloon", "Victoria Harbour"],
+  "Yau Ma Tei / Mong Kok": ["Yau Ma Tei", "Mong Kok", "Prince Edward", "Tai Kok Tsui"],
+  "Sham Shui Po": ["Sham Shui Po", "Shek Kip Mei", "Cheung Sha Wan", "Mei Foo"],
+  "Kowloon City / To Kwa Wan": ["To Kwa Wan", "Kowloon City", "Hung Hom", "Ho Man Tin", "Kowloon Tong"],
+  "Ost-Kowloon / Wong Tai Sin": ["Wong Tai Sin", "Choi Hung", "Ngau Chi Wan", "Ngau Tau Kok", "Kowloon Bay", "Diamond Hill", "Kowloon Peak", "Lei Yue Mun", "Kowloon"],
+  "New Territories": ["Sai Kung", "Sha Tin", "Tsuen Wan", "Kwai Chung", "Tuen Mun", "Yuen Long", "Kam Tin"],
+  "Inseln (Lantau, Cheung Chau)": ["Lantau", "Cheung Chau"],
+};
+const HK_AREA = {}; Object.entries(HK_AREAS).forEach(([a, ds]) => ds.forEach(d => HK_AREA[d] = a));
+const areaOf = p => {
+  const d = (p.district || "").trim(); if (!d) return "Sonstige";
+  if (regionOf(p) === "hk") { const x = AREA_ALIAS[d] || d; return HK_AREA[x] || x; }
+  const parts = d.split(",").map(x => x.trim()).filter(Boolean);
+  return parts.length > 1 ? parts[parts.length - 1] + " – " + parts.slice(0, -1).join(", ") : d;
+};
+// Reihenfolge: HK-Bereiche wie oben, danach China entlang der Route
+const HK_ORDER = Object.keys(HK_AREAS);
+const areaRank = (a, p) => { const i = HK_ORDER.indexOf(a); if (i >= 0) return i; const rs = routeStop(p); return 100 + (rs >= 0 ? rs : 50); };
 const GROUPS = { food: p => !p.by_claude && p.category === "Food", fotos: p => !p.by_claude && p.category !== "Food", claude: p => p.by_claude };
 
 async function start(key) {
@@ -147,11 +196,13 @@ async function start(key) {
   });
 
   // Filter
-  let where = store.get("where") || "route", group = "fotos", favF = false;
+  let curId = null;
+  let where = store.get("where") || "route", group = "fotos", favF = false, areaF = "";
   if (!["route", "hk", "cn", "all"].includes(where)) where = "route";
   $("#where").value = where;
   const inScope = p => where === "route" ? routeStop(p) >= 0 : where === "all" || regionOf(p) === where;
-  const visible = p => inScope(p) && (!group || GROUPS[group](p)) && (!favF || st(p.id).fav);
+  const baseVis = p => inScope(p) && (!group || GROUPS[group](p)) && (!favF || st(p.id).fav);
+  const visible = p => baseVis(p) && (!areaF || areaOf(p) === areaF);
   let shown = [];
   function render() {
     shown = places.filter(visible);
@@ -162,12 +213,43 @@ async function start(key) {
     $("#count").textContent = `${shown.length} Orte`;
     document.querySelectorAll("#bar [data-g]").forEach(b => b.classList.toggle("on", b.dataset.g === group));
     $("#bar [data-fav]").classList.toggle("on", favF);
+    renderList();
   }
+  // Liste links, nach Bereichen gruppiert
+  function renderList() {
+    const counts = {}, rank = {};
+    places.filter(baseVis).forEach(p => { const a = areaOf(p); counts[a] = (counts[a] || 0) + 1; rank[a] ??= areaRank(a, p); });
+    const areas = Object.keys(counts).sort((a, b) => rank[a] - rank[b] || a.localeCompare(b));
+    if (areaF && !counts[areaF]) areaF = "";
+    $("#area").innerHTML = `<option value="">Alle Bereiche (${places.filter(baseVis).length})</option>` +
+      areas.map(a => `<option value="${esc(a)}"${a === areaF ? " selected" : ""}>${esc(a)} (${counts[a]})</option>`).join("");
+    const by = {}; shown.forEach(p => (by[areaOf(p)] ||= []).push(p));
+    $("#list").innerHTML = areas.filter(a => by[a]).map(a => `<li class="sec">${esc(a)} · ${by[a].length}</li>` +
+      by[a].sort((x, y) => (st(y.id).fav ? 1 : 0) - (st(x.id).fav ? 1 : 0) || (y.pop || 0) - (x.pop || 0) || x.name.localeCompare(y.name)).map(p => {
+        const s = st(p.id);
+        return `<li class="it${p.id === curId ? " cur" : ""}" data-id="${esc(p.id)}"><span class="th" style="${p.image ? `background-image:url('${esc(p.image)}')` : ""}">${p.image ? "" : (p.by_claude ? "✦" : "📍")}</span>
+          <div><b>${s.fav ? "❤ " : ""}${esc(p.name)}</b><small>${esc([p.district, p.pop ? "🔥" + p.pop : "", s.done ? "✓" : ""].filter(Boolean).join(" · "))}</small></div></li>`;
+      }).join("")).join("") || `<li class="sec">Keine Spots</li>`;
+  }
+  $("#area").onchange = e => { areaF = e.target.value; render(); if (areaF) { const b = new google.maps.LatLngBounds(); shown.forEach(p => b.extend({ lat: p.lat, lng: p.lng })); map.fitBounds(b, 60); if (shown.length === 1) map.setZoom(16); } };
+  // Hover → Ring um den Pin (auch wenn er gerade in einem Cluster steckt)
+  const ringEl = document.createElement("div"); ringEl.className = "hlring";
+  const ring = new AdvancedMarkerElement({ content: ringEl, zIndex: 9999, position: places[0] && { lat: places[0].lat, lng: places[0].lng } });
+  $("#list").addEventListener("mouseover", e => { const li = e.target.closest("li.it"); if (!li) return; const p = places.find(x => x.id === li.dataset.id); try { ring.position = { lat: p.lat, lng: p.lng }; ring.map = map; } catch {} });
+  $("#list").addEventListener("mouseleave", () => ring.map = null);
+  $("#list").addEventListener("click", e => {
+    const li = e.target.closest("li.it"); if (!li) return; const p = places.find(x => x.id === li.dataset.id);
+    $("#side").classList.remove("open"); ring.map = null;
+    map.moveCamera({ center: { lat: p.lat, lng: p.lng }, zoom: Math.max(map.getZoom(), 16) });
+    openCard(p.id);
+  });
+  $("#listBtn").onclick = () => $("#side").classList.add("open");
+  $("#side .close").onclick = () => $("#side").classList.remove("open");
   function fit() {
     const ps = where === "route" ? ROUTE : places.filter(inScope); if (!ps.length) return;
     const b = new google.maps.LatLngBounds(); ps.forEach(p => b.extend({ lat: p.lat, lng: p.lng })); map.fitBounds(b, 40);
   }
-  $("#where").onchange = e => { where = e.target.value; store.set("where", where); render(); fit(); };
+  $("#where").onchange = e => { where = e.target.value; areaF = ""; store.set("where", where); render(); fit(); };
   document.querySelectorAll("#bar [data-g]").forEach(b => b.onclick = () => { group = group === b.dataset.g ? "" : b.dataset.g; render(); });
   $("#bar [data-fav]").onclick = () => { favF = !favF; render(); toast(favF ? "Nur Favoriten" : "Alle Spots", 1200); };
   render();
@@ -175,7 +257,7 @@ async function start(key) {
   { const b = new google.maps.LatLngBounds(); places.filter(p => regionOf(p) === "hk" && dist(p, { lat: 22.3, lng: 114.17 }) < 30e3).forEach(p => b.extend({ lat: p.lat, lng: p.lng })); map.fitBounds(b, 30); }
 
   // Spot-Karte
-  let curId = null;
+
   function openCard(id) {
     const p = places.find(x => x.id === id); if (!p) return; curId = id;
     const s = st(id), rs = routeStop(p);
@@ -192,8 +274,13 @@ async function start(key) {
         <div class="links">${post ? `<a class="ig" href="${esc(post)}" target="_blank" rel="noopener">Post</a>` : ""}
           <a href="https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}" target="_blank" rel="noopener">Route</a>
           <a href="index.html">Bewerten in Hauptkarte</a></div></div>`;
-    $("#card [data-x]").onclick = () => { $("#card").hidden = true; curId = null; };
+    $("#card [data-x]").onclick = () => { $("#card").hidden = true; curId = null; markCur(); };
+    markCur();
     $("#card").querySelectorAll("[data-go]").forEach(b => b.onclick = () => step(+b.dataset.go));
+  }
+  function markCur() {
+    $("#list").querySelectorAll("li.it").forEach(li => li.classList.toggle("cur", li.dataset.id === curId));
+    const c = $("#list li.it.cur"); if (c) c.scrollIntoView({ block: "nearest" });
   }
   // ‹ › nur durch Spots im sichtbaren Ausschnitt
   function step(dir) {
