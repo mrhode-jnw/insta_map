@@ -628,5 +628,10 @@
   "lon": 114.1629845,
   "name": "西九文化區 West Kowloon Cultural District, 西九龍 West Kowloon, 油麻地 Yau Ma Tei, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
   "type": "city_block"
+ },
+ "North Point Fire Station, 38 Healthy Street East, North Point": {
+  "lat": 22.2925,
+  "lon": 114.2077,
+  "name": "北角消防局 North Point Fire Station, 38 健康東街 Healthy Street East, 北角 North Point, 東區 Eastern District, 香港島 Hong Kong Island, 香港 Hong Kong, 中国"
  }
 }

@@ -100,7 +100,7 @@ add("Swiss House, Quarry Bay (abgerissen)", "Quarry Bay, Hong Kong", "Quarry Bay
 add("King's Road 英皇道", (22.2900,114.1990), "North Point", "Tram", [52], "")
 add("North Point Road Tram Station 北角道電車站", (22.29055,114.19712,"OSM"), "North Point", "Tram", [52], "")
 add("Chun Yeung Street Market 春秧街街市", "Chun Yeung Street, North Point, Hong Kong", "North Point", "Markt", [25,28,52], "Tram fährt durch den Markt")
-add("North Point Fire Station 北角消防局 + Sunbeam Theatre", (22.2910,114.1958), "North Point", "Architektur", [60,70], "Rot als Farbthema")
+add("North Point Fire Station 北角消防局 + Sunbeam Theatre", "North Point Fire Station, 38 Healthy Street East, North Point", "North Point", "Architektur", [60,70], "Rot als Farbthema: rosa Fassade mit roten Falttoren, Feuerwache 38 Healthy Street East (Pin). Das Sunbeam Theatre (423 King's Road, 800 m westlich) ist seit März 2025 geschlossen.")
 add("Southern Building, North Point", "Southern Building, North Point, Hong Kong", "North Point", "Architektur", [24], "Orange")
 add("Majestic Apartments, North Point", (22.2905,114.19612,"OSM"), "North Point", "Architektur", [27], "bunte Wand")
 add("East Coast Boardwalk (Lion Rock view)", (22.2933,114.19674,"OSM"), "Fortress Hill", "Aussicht", [20], "")
