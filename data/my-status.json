@@ -55,7 +55,8 @@
  },
  "hk-oceanic-building-monster-building-tram-seite": {
   "prio": "hoch",
-  "fav": true
+  "fav": true,
+  "done": true
  },
  "hk-north-point-fire-station-sunbeam-theatre": {
   "prio": "mittel",
