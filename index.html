@@ -405,7 +405,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
   const ROTATE = /[?&]drehbar/.test(location.search) && !!L.Map.prototype.setBearing;
+  // Desktop (Maus/Trackpad): ohne Zoom-Animation, sonst laufen Pins und Google-Karte beim Zoomen auseinander
+  const fineMouse = window.matchMedia && matchMedia("(hover: hover) and (pointer: fine)").matches;
   const map = L.map("map", { zoomControl: false, tap: true, tapHold: true, maxZoom: 21,
+    ...(fineMouse ? { zoomAnimation: false, markerZoomAnimation: false, wheelPxPerZoomLevel: 120 } : {}),
     ...(ROTATE ? { rotate: true, touchRotate: true, bearing: 0, rotateControl: { closeOnZeroBearing: false, position: "topright" } } : {}) }).setView([22.3, 114.17], 12);
   L.control.zoom({ position: "topright" }).addTo(map);
   const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
