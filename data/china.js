@@ -2467,14 +2467,16 @@ window.PLACES_CN = [
   "lat": 22.5462,
   "lng": 113.9159,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_nantou-ancient-city.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "1700 Jahre alte Stadtmauer, Gassen mit Cafés und Alltagsleben"
+  "pop_reason": "1700 Jahre alte Stadtmauer, Gassen mit Cafés und Alltagsleben",
+  "image_page": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%A4%B4%E5%8F%A4%E5%9F%8E%E5%8D%97%E9%97%A82022.jpg",
+  "image_credit": "Iswzo · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-shenzhen-talent-park",
@@ -2489,14 +2491,16 @@ window.PLACES_CN = [
   "lat": 22.5137,
   "lng": 113.9442,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_shenzhen-talent-park.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Houhai-Skyline mit 'Spring Bamboo'-Tower spiegelt sich im See"
+  "pop_reason": "Houhai-Skyline mit 'Spring Bamboo'-Tower spiegelt sich im See",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Shenzhen_Nanshan_Houhai_skylines.png",
+  "image_credit": "YuCheinSYQ · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-sea-world-minghua-ship",
@@ -2511,14 +2515,16 @@ window.PLACES_CN = [
   "lat": 22.4864,
   "lng": 113.912,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_sea-world-minghua-ship.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "Beleuchtetes Kreuzfahrtschiff an Land, Plaza mit Bars, Musikbrunnen"
+  "pop_reason": "Beleuchtetes Kreuzfahrtschiff an Land, Plaza mit Bars, Musikbrunnen",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Minghua_Ship_of_Shekou_Sea_World_3.jpg",
+  "image_credit": "そらみみ · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-laozhai-hill",
@@ -2555,14 +2561,16 @@ window.PLACES_CN = [
   "lat": 24.9251,
   "lng": 110.5166,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_20-yuan-schein-motiv-yellow-cloth-shoal.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 5,
-  "pop_reason": "Motiv auf der 20-Yuan-Banknote, Karstspiegelung im Li-Fluss"
+  "pop_reason": "Motiv auf der 20-Yuan-Banknote, Karstspiegelung im Li-Fluss",
+  "image_page": "https://commons.wikimedia.org/wiki/File:XingPing,_GuangXi,_China.jpg",
+  "image_credit": "Michaeljscott93 · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-yulong-bridge",
@@ -2577,14 +2585,16 @@ window.PLACES_CN = [
   "lat": 24.8121,
   "lng": 110.3939,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_yulong-bridge.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Ming-zeitliche Steinbogenbrücke, Bambusflöße vor Karstbergen"
+  "pop_reason": "Ming-zeitliche Steinbogenbrücke, Bambusflöße vor Karstbergen",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Yulong_Bridge,_Yangshuo.jpg",
+  "image_credit": "Kevin Poh · CC BY 2.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-moon-hill",
@@ -2599,14 +2609,16 @@ window.PLACES_CN = [
   "lat": 24.7281,
   "lng": 110.4677,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_moon-hill.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Natürlicher Felsbogen mit Mondloch, Blick über Karstlandschaft"
+  "pop_reason": "Natürlicher Felsbogen mit Mondloch, Blick über Karstlandschaft",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Moon_Hill_-_Yangshuo,_China.jpg",
+  "image_credit": "Maria Ly · CC BY 2.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-west-street-yangshuo",
@@ -2621,14 +2633,16 @@ window.PLACES_CN = [
   "lat": 24.7782,
   "lng": 110.4906,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_west-street-yangshuo.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Älteste Gasse Yangshuos, Laternen und Neon vor Karstkulisse"
+  "pop_reason": "Älteste Gasse Yangshuos, Laternen und Neon vor Karstkulisse",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Yangshuo-4335.JPG",
+  "image_credit": "Emitchan · Public domain · Wikimedia Commons"
  },
  {
   "id": "claude-cn-nine-dragons-five-tigers-viewpoint",
@@ -2643,14 +2657,16 @@ window.PLACES_CN = [
   "lat": 25.7607,
   "lng": 110.1249,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_nine-dragons-five-tigers-viewpoint.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Höchster Aussichtspunkt in Ping'an, geschwungene Terrassengrate"
+  "pop_reason": "Höchster Aussichtspunkt in Ping'an, geschwungene Terrassengrate",
+  "image_page": "https://commons.wikimedia.org/wiki/File:1_longsheng_ping_an_rice_terrace_2011.jpg",
+  "image_credit": "chensiyuan · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-seven-stars-with-moon-viewpoint",
@@ -2665,14 +2681,16 @@ window.PLACES_CN = [
   "lat": 25.7589,
   "lng": 110.1177,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_seven-stars-with-moon-viewpoint.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Sieben runde Terrassenhügel um einen 'Mond', klassisches Longji-Motiv"
+  "pop_reason": "Sieben runde Terrassenhügel um einen 'Mond', klassisches Longji-Motiv",
+  "image_page": "https://commons.wikimedia.org/wiki/File:1_ping_an_longji_terrace_2011.jpg",
+  "image_credit": "chensiyuan · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-west-hill-music-viewpoint",
@@ -2687,14 +2705,16 @@ window.PLACES_CN = [
   "lat": 25.81,
   "lng": 110.1372,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_west-hill-music-viewpoint.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Spektakulärste Terrassenwand in Jinkeng"
+  "pop_reason": "Spektakulärste Terrassenwand in Jinkeng",
+  "image_page": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%9D%91%E6%A2%AF%E7%94%B0,_%E9%BE%99%E8%84%8A%E6%A2%AF%E7%94%B0,_%E4%B8%AD%E5%9B%BD_(5238107634).jpg",
+  "image_credit": "yeowatzup · CC BY 2.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-golden-buddha-top",
@@ -2797,14 +2817,16 @@ window.PLACES_CN = [
   "lat": 25.72136,
   "lng": 108.86606,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_basha-miao-village.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Letzter Stamm mit legalen Musketen, Haarknoten-Tradition, heilige Bäume"
+  "pop_reason": "Letzter Stamm mit legalen Musketen, Haarknoten-Tradition, heilige Bäume",
+  "image_page": "https://commons.wikimedia.org/wiki/File:%E7%88%AC%E5%B2%9C%E6%B2%99%E8%8B%97%E5%AF%A8-%E6%A1%82%E7%A9%BF%E8%B6%8A_-_panoramio_(14).jpg",
+  "image_credit": "龙歌谷 · CC BY-SA 3.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-zhaoxing-dong-village",
@@ -2819,14 +2841,16 @@ window.PLACES_CN = [
   "lat": 25.9086,
   "lng": 109.17003,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_zhaoxing-dong-village.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 5,
-  "pop_reason": "Größtes Dong-Dorf mit fünf Trommeltürmen und Wind-und-Regen-Brücken"
+  "pop_reason": "Größtes Dong-Dorf mit fünf Trommeltürmen und Wind-und-Regen-Brücken",
+  "image_page": "https://commons.wikimedia.org/wiki/File:1_zhaoxing_2015.jpg",
+  "image_credit": "Chensiyuan · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-tang-an-dong-village-terraces",
@@ -2863,14 +2887,16 @@ window.PLACES_CN = [
   "lat": 25.91609,
   "lng": 108.70044,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_zengchong-drum-tower.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "Ältester erhaltener Dong-Trommelturm (1672), 13 Etagen"
+  "pop_reason": "Ältester erhaltener Dong-Trommelturm (1672), 13 Etagen",
+  "image_page": "https://commons.wikimedia.org/wiki/File:%E5%A2%9E%E5%86%B2%E9%BC%93%E6%A5%BC-%E6%A1%82%E7%A9%BF%E8%B6%8A_-_panoramio.jpg",
+  "image_credit": "龙歌谷 · CC BY-SA 3.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-dali-dong-village",
@@ -2929,14 +2955,16 @@ window.PLACES_CN = [
   "lat": 26.474,
   "lng": 108.05754,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_langde-upper-miao-village.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Geschlossenes Miao-Pfahlbautendorf, Bronzetrommel-Platz, überdachte Brücke"
+  "pop_reason": "Geschlossenes Miao-Pfahlbautendorf, Bronzetrommel-Platz, überdachte Brücke",
+  "image_page": "https://commons.wikimedia.org/wiki/File:China_Langde_-_Miao_ceremony_(2006)_(2).jpg",
+  "image_credit": "Anja Disseldorp · CC BY 2.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-maliao-silversmith-village",
@@ -2995,14 +3023,16 @@ window.PLACES_CN = [
   "lat": 29.3451921,
   "lng": 110.4372172,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_avatar-hallelujah-mountain.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 5,
-  "pop_reason": "Ikonische Avatar-Säule, Herzstück von Yuanjiajie"
+  "pop_reason": "Ikonische Avatar-Säule, Herzstück von Yuanjiajie",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_National_Forest_Park_38023-Zhangjiajie_(48757574461).jpg",
+  "image_credit": "xiquinhosilva · CC BY 2.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-first-bridge-under-heaven",
@@ -3061,14 +3091,16 @@ window.PLACES_CN = [
   "lat": 29.3511795,
   "lng": 110.4611722,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_bailong-elevator.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "326 m Glas-Außenaufzug an der Felswand"
+  "pop_reason": "326 m Glas-Außenaufzug an der Felswand",
+  "image_page": "https://commons.wikimedia.org/wiki/File:%E6%B9%96%E5%8D%97_%E5%BC%A0%E5%AE%B6%E7%95%8C_%E7%99%BE%E9%BE%99%E5%A4%A9%E6%A2%AF_-_panoramio.jpg",
+  "image_credit": "Nyx Ning · CC BY-SA 3.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-yangjiajie-tianbo-mansion",
@@ -3105,14 +3137,16 @@ window.PLACES_CN = [
   "lat": 29.3837863,
   "lng": 110.4898337,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_helong-park.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Zentrum von Tianzi Mountain mit Aussicht auf Imperial Brush"
+  "pop_reason": "Zentrum von Tianzi Mountain mit Aussicht auf Imperial Brush",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Helong_park_04.jpg",
+  "image_credit": "Codas · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-imperial-brush-peaks",
@@ -3193,14 +3227,16 @@ window.PLACES_CN = [
   "lat": 29.0513631,
   "lng": 110.4827374,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_tianmen-cave-999-steps.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 5,
-  "pop_reason": "131 m hohes Felstor über 999 Stufen"
+  "pop_reason": "131 m hohes Felstor über 999 Stufen",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Tianmen_38313-Zhangjiajie_(49046808983).jpg",
+  "image_credit": "xiquinhosilva · CC BY 2.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-coiling-dragon-cliff-glass-skywalk",
@@ -3281,14 +3317,16 @@ window.PLACES_CN = [
   "lat": 29.5553088,
   "lng": 106.5696443,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_shibati-old-steps.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Treppengasse mit Laternen und Hochhäusern im Hintergrund"
+  "pop_reason": "Treppengasse mit Laternen und Hochhäusern im Hintergrund",
+  "image_page": "https://commons.wikimedia.org/wiki/File:%E5%8D%81%E5%85%AB%E6%A2%AF.jpg",
+  "image_credit": "重庆轨交18 · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-chongqing-grand-theatre-jiangbeizui",
@@ -3303,14 +3341,16 @@ window.PLACES_CN = [
   "lat": 29.5727233,
   "lng": 106.5774751,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_chongqing-grand-theatre-jiangbeizui.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Gläserner Kristallbau gegenüber Raffles City und Chaotianmen"
+  "pop_reason": "Gläserner Kristallbau gegenüber Raffles City und Chaotianmen",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Chongqing_-_View_03.jpg",
+  "image_credit": "Ecelan · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-raffles-city-the-crystal",
@@ -3347,14 +3387,16 @@ window.PLACES_CN = [
   "lat": 29.5618719,
   "lng": 106.5827547,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_dongshuimen-bridge.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Rot beleuchtete Schrägseilbrücke über dem Jangtse"
+  "pop_reason": "Rot beleuchtete Schrägseilbrücke über dem Jangtse",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Dongshuimen_Yangtze_River_Bridge_2021-07-27.jpg",
+  "image_credit": "JamesYoung8167 · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-longmenhao-old-street",
@@ -3413,14 +3455,16 @@ window.PLACES_CN = [
   "lat": 31.246148,
   "lng": 121.483294,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_zhapu-road-bridge-suzhou-creek.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 5,
-  "pop_reason": "Broadway Mansions und Lujiazui über der Suzhou-Creek-Biegung"
+  "pop_reason": "Broadway Mansions und Lujiazui über der Suzhou-Creek-Biegung",
+  "image_page": "https://commons.wikimedia.org/wiki/File:View_of_Lujiazui_from_Zhapu_Road_Bridge.jpg",
+  "image_credit": "Windmemories · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-lujiazui-circular-footbridge",
@@ -3501,14 +3545,16 @@ window.PLACES_CN = [
   "lat": 31.1859164,
   "lng": 121.4601929,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_west-bund-long-museum.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Betonschirm-Architektur, alter Kohlekran, Uferpromenade"
+  "pop_reason": "Betonschirm-Architektur, alter Kohlekran, Uferpromenade",
+  "image_page": "https://commons.wikimedia.org/wiki/File:20251129_Long_Museum_West_Bund.jpg",
+  "image_credit": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free · CC BY 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-zhujiajiao-water-town",
@@ -3523,14 +3569,16 @@ window.PLACES_CN = [
   "lat": 31.1130881,
   "lng": 121.0488795,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_zhujiajiao-water-town.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Kanalstadt mit Fangsheng-Steinbogenbrücke (1571)"
+  "pop_reason": "Kanalstadt mit Fangsheng-Steinbogenbrücke (1571)",
+  "image_page": "https://commons.wikimedia.org/wiki/File:%E6%9C%B1%E5%AE%B6%E8%A7%92%E5%8F%A4%E9%95%87%E6%94%BE%E7%94%9F%E6%A1%A5.jpg",
+  "image_credit": "Jiangshang · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-cn-tianzifang",
@@ -3545,14 +3593,16 @@ window.PLACES_CN = [
   "lat": 31.21034,
   "lng": 121.4641036,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cn_tianzifang.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "Verwinkelte Shikumen-Lanes mit Lampions und Kabeln"
+  "pop_reason": "Verwinkelte Shikumen-Lanes mit Lampions und Kabeln",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Tianzifangbyday.jpg",
+  "image_credit": "Jonipoon · CC BY-SA 3.0 · Wikimedia Commons"
  }
 ];
 window.UNPLACED_CN = [

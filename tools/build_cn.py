@@ -127,6 +127,7 @@ for c in bp.load_json(os.path.join(ROOT, "cn", "claude_spots_cn.json"), []):
         "tip": c.get("tip", ""), "address": c["district"], "lat": c["lat"], "lng": c["lng"],
         "approx": c.get("approx", False), "image": c.get("image"), "caption": "", "post_url": "",
         "username": "", "profile_url": "", "posts": [], "pop": c.get("pop"), "pop_reason": c.get("reason", ""),
+        **({"image_page": c["image_page"], "image_credit": c["image_credit"]} if c.get("image_page") else {}),
     })
 
 used = {x if isinstance(x, int) else x[0] for s in SPOTS for x in s[6]}
