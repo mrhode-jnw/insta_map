@@ -59,7 +59,8 @@
   "prio": "mittel"
  },
  "hk-lion-rock-gipfel": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "fav": true
  },
  "hk-bank-of-china-tower-fahnenmasten": {
   "prio": "gering"
