@@ -360,11 +360,15 @@
   <div class="bottom"><div class="who" id="lbWho"></div><a class="btn" id="lbPost" target="_blank" rel="noopener">Post öffnen ↗</a></div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+<script>
+  // …/insta_map/?google (bzw. gmap.html): dieselbe App auf der drehbaren Google-Vektorkarte (gleaflet.js übersetzt die Leaflet-Aufrufe)
+  window.GMAP_MODE = /[?&]google\b/.test(location.search);
+  document.write(GMAP_MODE ? '<script src="gleaflet.js"><\/script>'
+    : '<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"><\/script><script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"><\/script>');
+</script>
 <script>
   // Variante mit drehbarer Karte: …/insta_map/?drehbar (bzw. rotate.html) – OpenStreetMap/Satellit statt Google, mit zwei Fingern drehbar
-  if (/[?&]drehbar/.test(location.search)) document.write('<script src="https://cdn.jsdelivr.net/npm/leaflet-rotate@0.2.8/dist/leaflet-rotate.min.js"><\/script>');
+  if (/[?&]drehbar/.test(location.search) && !GMAP_MODE) document.write('<script src="https://cdn.jsdelivr.net/npm/leaflet-rotate@0.2.8/dist/leaflet-rotate.min.js"><\/script>');
 </script>
 <script>
   // Neue Version der Seite? Hinweis zeigen (kein automatisches Neuladen).
@@ -387,7 +391,7 @@
       if (dataChanged || fp(inline(fresh)) !== fp(inline(document))) {
         const bar = document.getElementById("update");
         bar.hidden = false;
-        bar.onclick = () => location.replace(location.pathname + "?" + (/[?&]drehbar/.test(location.search) ? "drehbar&" : "") + "v=" + Date.now());
+        bar.onclick = () => location.replace(location.pathname + "?" + (GMAP_MODE ? "google&" : /[?&]drehbar/.test(location.search) ? "drehbar&" : "") + "v=" + Date.now());
       }
     } catch {}
   }
@@ -407,7 +411,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-  const ROTATE = /[?&]drehbar/.test(location.search) && !!L.Map.prototype.setBearing;
+  const GMAP = !!L.isGoogle;
+  const ROTATE = GMAP || (/[?&]drehbar/.test(location.search) && !!L.Map.prototype.setBearing);
   // Desktop (Maus/Trackpad): ohne Zoom-Animation, sonst laufen Pins und Google-Karte beim Zoomen auseinander
   const fineMouse = window.matchMedia && matchMedia("(hover: hover) and (pointer: fine)").matches;
   const map = L.map("map", { zoomControl: false, tap: true, tapHold: true, maxZoom: 21,
@@ -420,7 +425,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
 
   // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
   const gKey = ROTATE ? "" : (unlockedKey || "").trim();  // Google-Kacheln lassen sich nicht drehen
-  if (ROTATE) {
+  if (GMAP) L.control.layers({ "Google Karte": "roadmap", "Google Satellit": "hybrid" }, null, { position: "topright" }).addTo(map);
+  else if (ROTATE) {
     const sat = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
       maxZoom: 21, maxNativeZoom: 19, attribution: "Esri World Imagery" });
     L.control.layers({ "OpenStreetMap": osm, "Satellit": sat }, null, { position: "topright" }).addTo(map);
@@ -929,7 +935,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     let x0 = 0, y0 = 0, x1 = r.width, y1 = r.height;
     if (window.innerWidth >= 800) x0 = Math.min(Math.max(sh.right - r.left, 0), x1 - 60);
     else y1 = Math.max(sh.top - r.top, 60);
-    return L.latLngBounds(map.containerPointToLatLng([x0, y1]), map.containerPointToLatLng([x1, y0]));
+    // alle vier Ecken: bei gedrehter Karte ist der Ausschnitt nicht nach Norden ausgerichtet
+    return L.latLngBounds([[x0, y0], [x1, y0], [x0, y1], [x1, y1]].map(pt => map.containerPointToLatLng(pt)));
   }
   let moveTimer = null;
   const rerenderIfArea = () => { if (inView) { clearTimeout(moveTimer); moveTimer = setTimeout(renderList, 120); } };
@@ -1164,6 +1171,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   if (ROTATE) map.on("rotate", drawCone);
   window.__map = map;  // für Tests
+  window.toastGL = () => toast("Drehen nicht verfügbar: Google liefert hier keine Vektorkarte.", 6000);
   async function startCompass() {
     if (compassOn || !window.DeviceOrientationEvent) return;
     try {
@@ -1544,9 +1552,15 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const tryCode = async code => { try { return await InstaMapCrypto.decrypt(enc, code); } catch { return null; } };
 
   const saved = get();
+  // Google-Variante: Karte erst laden (Schlüssel kommt aus dem Code); klappt das nicht (z.B. in China), normale Karte
+  const ready = async key => {
+    if (!window.L || !L.isGoogle) return true;
+    try { await L.load(key); return true; }
+    catch { alert("Google Maps nicht erreichbar – öffne die normale Karte."); location.replace(location.pathname); return false; }
+  };
   // GitHub-Token (zum Speichern) liegt mit demselben Zugangscode verschlüsselt in config.js
   const ghToken = async code => { try { return window.GITHUB_TOKEN_ENC ? await InstaMapCrypto.decrypt(window.GITHUB_TOKEN_ENC, code) : null; } catch { return null; } };
-  if (saved) { const key = await tryCode(saved); if (key) return startApp(key, saved, await ghToken(saved)); set(null); }
+  if (saved) { const key = await tryCode(saved); if (key) { if (await ready(key)) startApp(key, saved, await ghToken(saved)); return; } set(null); }
 
   const gate = document.getElementById("gate");
   gate.hidden = false;
@@ -1560,7 +1574,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (!key) { err.textContent = "Falscher Code"; return; }
     if (document.getElementById("gateRemember").checked) set(code);
     gate.hidden = true;
-    startApp(key, code, await ghToken(code));
+    if (await ready(key)) startApp(key, code, await ghToken(code));
   });
 })();
 </script>
