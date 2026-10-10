@@ -725,7 +725,7 @@ window.PLACES = [
   "lat": 22.28264,
   "lng": 114.1538,
   "approx": false,
-  "image": null,
+  "image": "images/commons_lan-fong-yuen.jpg",
   "caption": "This is actually the only guy that you need to Hong Kong. If you’re there for a two or three day trip these are some of the most elite spots to visit.\n\nLan Fong Yuen\n\nThe cha chaan teng icon. Home of the legendary Hong Kong milk tea — strong, silky, and poured like they don’t have time for your nonsense. Grab a pork chop bun or instant-noodle lunch set and experience HK comfort food in its purest form.\n\nTwist (New Italian)\n\nCentral’s fresh take on Italian — slick, modern, and full of energy. Expect house-made pasta, sharp cocktails, and that Hong Kong twist: Italian food done with precision an",
   "post_url": "https://www.instagram.com/shaunbirley/reel/DV2B4UAgREF/",
   "username": "shaunbirley",
@@ -743,7 +743,9 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Berühmtes Cha Chaan Teng, in vielen Food-Guides"
+  "pop_reason": "Berühmtes Cha Chaan Teng, in vielen Food-Guides",
+  "image_page": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%AD%E7%92%B0_Central_%E6%93%BA%E8%8A%B1%E8%A1%97_Lyndhurst_Terrace_%E7%B5%90%E5%BF%97%E8%A1%97_Gage_Street_shop_%E8%98%AD%E8%8A%B3%E5%9C%92_Lan_Fong_Yuen_February_2025_R12S_04.jpg",
+  "image_credit": "Safoule 2558 LausldM · CC0 · Wikimedia Commons"
  },
  {
   "id": "hk-twist-new-italian",
@@ -815,7 +817,7 @@ window.PLACES = [
   "lat": 22.284342,
   "lng": 114.153456,
   "approx": false,
-  "image": null,
+  "image": "images/commons_lin-heung-tea-house.jpg",
   "caption": "This is actually the only guy that you need to Hong Kong. If you’re there for a two or three day trip these are some of the most elite spots to visit.\n\nLan Fong Yuen\n\nThe cha chaan teng icon. Home of the legendary Hong Kong milk tea — strong, silky, and poured like they don’t have time for your nonsense. Grab a pork chop bun or instant-noodle lunch set and experience HK comfort food in its purest form.\n\nTwist (New Italian)\n\nCentral’s fresh take on Italian — slick, modern, and full of energy. Expect house-made pasta, sharp cocktails, and that Hong Kong twist: Italian food done with precision an",
   "post_url": "https://www.instagram.com/shaunbirley/reel/DV2B4UAgREF/",
   "username": "shaunbirley",
@@ -833,7 +835,9 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Legendäres Teehaus, Standort Wellington Street 2026 geschlossen"
+  "pop_reason": "Legendäres Teehaus, Standort Wellington Street 2026 geschlossen",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_2026_-_Lin_Heung_Lau_06.jpg",
+  "image_credit": "Xuthoria · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "hk-kau-kee-gough-street",
@@ -845,7 +849,7 @@ window.PLACES = [
   "lat": 22.284229,
   "lng": 114.152537,
   "approx": false,
-  "image": null,
+  "image": "images/commons_kau-kee-gough-street.jpg",
   "caption": "This is actually the only guy that you need to Hong Kong. If you’re there for a two or three day trip these are some of the most elite spots to visit.\n\nLan Fong Yuen\n\nThe cha chaan teng icon. Home of the legendary Hong Kong milk tea — strong, silky, and poured like they don’t have time for your nonsense. Grab a pork chop bun or instant-noodle lunch set and experience HK comfort food in its purest form.\n\nTwist (New Italian)\n\nCentral’s fresh take on Italian — slick, modern, and full of energy. Expect house-made pasta, sharp cocktails, and that Hong Kong twist: Italian food done with precision an",
   "post_url": "https://www.instagram.com/shaunbirley/reel/DV2B4UAgREF/",
   "username": "shaunbirley",
@@ -863,7 +867,9 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Kultiges Brisket-Lokal, in fast jedem Food-Guide"
+  "pop_reason": "Kultiges Brisket-Lokal, in fast jedem Food-Guide",
+  "image_page": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E6%AD%8C%E8%B3%A6%E8%A1%97_Gough_Street_Kau_Kee_Restaurant_shop_gate_painting_February_2025_R12S.jpg",
+  "image_credit": "Safoule 2558 LausldM · CC0 · Wikimedia Commons"
  },
  {
   "id": "hk-yat-lok-stanley-street",
@@ -875,7 +881,7 @@ window.PLACES = [
   "lat": 22.282471,
   "lng": 114.155327,
   "approx": false,
-  "image": null,
+  "image": "images/commons_yat-lok-stanley-street.jpg",
   "caption": "This is actually the only guy that you need to Hong Kong. If you’re there for a two or three day trip these are some of the most elite spots to visit.\n\nLan Fong Yuen\n\nThe cha chaan teng icon. Home of the legendary Hong Kong milk tea — strong, silky, and poured like they don’t have time for your nonsense. Grab a pork chop bun or instant-noodle lunch set and experience HK comfort food in its purest form.\n\nTwist (New Italian)\n\nCentral’s fresh take on Italian — slick, modern, and full of energy. Expect house-made pasta, sharp cocktails, and that Hong Kong twist: Italian food done with precision an",
   "post_url": "https://www.instagram.com/shaunbirley/reel/DV2B4UAgREF/",
   "username": "shaunbirley",
@@ -893,7 +899,9 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Michelin-Stern-Gänsebraten, in vielen Reiseführern"
+  "pop_reason": "Michelin-Stern-Gänsebraten, in vielen Reiseführern",
+  "image_page": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%AD%E7%92%B0_Central_%E5%A3%AB%E4%B8%B9%E5%88%A9%E8%A1%97_Stanley_Street_shop_%E4%B8%80%E6%A8%82%E7%87%92%E9%B5%9D_Yat_Lok_Restaurant_June_2019_IX2_01.jpg",
+  "image_credit": "TioeDOS odb ow · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "hk-tai-ping-shan-street",
@@ -3927,7 +3935,7 @@ window.PLACES = [
   "lat": 22.315517,
   "lng": 114.220498,
   "approx": false,
-  "image": null,
+  "image": "images/commons_lotus-garden-ngau-tau-kok.jpg",
   "caption": "Nothing quite screams Hong Kong like the iconic red taxis and neon signs. Photographer Manson Yim went looking for the colour across the city, capturing it at North Point Fire Station and the neighbouring Sunbeam Theatre, the geometric towers of Lotus Garden in Ngau Tau Kok, and a handful of other spots across the city.\n\nSwipe through to see where.\n\nPhotos: @mansonyms\n\n#TatlerTravel #TatlerAsia #HongKong #Travel",
   "post_url": "https://www.instagram.com/tatlerasia/p/DatyxW0oMi4/",
   "username": "tatlerasia",
@@ -3945,7 +3953,9 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Online kaum auffindbar, echter Geheimtipp"
+  "pop_reason": "Online kaum auffindbar, echter Geheimtipp",
+  "image_page": "https://commons.wikimedia.org/wiki/File:HK_KTD_%E8%A7%80%E5%A1%98%E9%81%93_Kwun_Tong_%E7%89%9B%E9%A0%AD%E8%A7%92%E9%81%93_Ngau_Tau_Kok_Road_Lotus_Tower_building_facade_May_2025_R12S_01.jpg",
+  "image_credit": "Penajk Somsicz Bidoomw · CC0 · Wikimedia Commons"
  },
  {
   "id": "hk-wong-tai-sin-plaza-lion-rock-view",
@@ -4697,7 +4707,7 @@ window.PLACES = [
   "lat": 22.283871,
   "lng": 114.150158,
   "approx": false,
-  "image": null,
+  "image": "images/commons_man-mo-temple.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -4706,7 +4716,9 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Man Mo Temple (Hong Kong Island)",
   "pop": 5,
-  "pop_reason": "Ikonische Räucherspiralen, in jedem Reiseführer"
+  "pop_reason": "Ikonische Räucherspiralen, in jedem Reiseführer",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Interior_of_Man_Mo_Temple,_Hollywood_Road,_2006_(06).jpg",
+  "image_credit": "Bahnfrend · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "claude-tai-kwun",
@@ -5078,7 +5090,7 @@ window.PLACES = [
   "lat": 22.239258,
   "lng": 114.241993,
   "approx": false,
-  "image": null,
+  "image": "images/commons_dragon-s-back.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -5087,7 +5099,9 @@ window.PLACES = [
   "by_claude": true,
   "wiki": "Shek O Country Park",
   "pop": 4,
-  "pop_reason": "Beliebteste Stadtwanderung Hongkongs"
+  "pop_reason": "Beliebteste Stadtwanderung Hongkongs",
+  "image_page": "https://commons.wikimedia.org/wiki/File:%E9%BE%99%E8%84%8A%E5%BE%84_-_Dragon%27s_Back_Trail_-_2015.01_-_panoramio.jpg",
+  "image_credit": "rheins · CC BY 3.0 · Wikimedia Commons"
  },
  {
   "id": "claude-repulse-bay",
