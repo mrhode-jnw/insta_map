@@ -158,6 +158,8 @@ for n, s in enumerate(S):
         places[-1]["pop"] = pop["score"]
         places[-1]["pop_reason"] = pop.get("reason", "")
 
+PHOTO_OVERRIDES = bp.load_json(os.path.join(ROOT, "hk", "photo_overrides.json"), {})
+
 # Claude-Tipps: ergänzende Top-Spots, nicht aus der Sammlung (Bild lädt die Karte von Wikipedia)
 from claude_spots import CLAUDE_SPOTS  # noqa: E402
 cgeo = json.load(open(os.path.join(ROOT, "hk", "claude_geo.json"), encoding="utf-8"))
@@ -190,6 +192,12 @@ for e in bp.load_json(os.path.join(ROOT, "hk", "extra_spots.json"), []):
         "image_page": e.get("url", "https://www.timeout.com/hong-kong/things-to-do/hong-kong-neon-signs"),
         "image_credit": src, "source": src,
     })
+
+# Spots ohne eigenes Foto: Ersatzfoto von Wikimedia Commons (hk/photo_overrides.json, Name → Bild + Quelle)
+for p in places:
+    o = PHOTO_OVERRIDES.get(p["name"])
+    if o and not p["image"] and os.path.exists(os.path.join(ROOT, o["image"])):
+        p.update(image=o["image"], image_page=o["page"], image_credit=o["credit"])
 
 unplaced = [posts[i] for i in sorted(POSTS) if i not in used]
 
