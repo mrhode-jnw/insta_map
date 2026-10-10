@@ -64,14 +64,14 @@ window.PLACES = [
     "generic": true
    },
    {
-    "url": "https://www.instagram.com/minghan1004/p/DHTSfnjTAKI/?img_index=4",
+    "url": "https://www.instagram.com/minghan1004/p/DHTSfnjTAKI/",
     "username": "minghan1004",
     "profile_url": "https://www.instagram.com/minghan1004/",
     "kind": "p",
-    "image": "images/DHTSfnjTAKI_4.jpg",
+    "image": null,
     "caption": "📸 My Favourite Photo Spots in Hong Kong 🇭🇰 \n\n1. Mong Kok\n2. Kennedy Town\n3. Quarry Bay\n4. The Peak\n5. Wan Chai\n6. North Point\n7. Arsenal Street\n8. Sai Ying Pun\n9. Montane Mansion\n10. M+ Gallery\n\nLet me know what did I miss out or where shall I try next! 🙌🏻\nAll these are without sequence.\n\n#hongkongstreet #hongkongstreetphotography #hongkong #hongkongphotography #hongkong🇭🇰 #hongkongtrip #hongkongtravel #hongkongexplore #hongkongphoto",
-    "match": "slide",
-    "slide": 4
+    "match": "cover",
+    "generic": true
    }
   ],
   "pop": 5,
@@ -80,10 +80,10 @@ window.PLACES = [
  {
   "id": "hk-jardine-s-lookout",
   "name": "Jardine's Lookout 渣甸山",
-  "district": "Hong Kong Island",
+  "district": "Jardine's Lookout",
   "category": "Aussicht",
   "note": "Blick über Happy Valley & Harbour",
-  "address": "Hong Kong Island",
+  "address": "Jardine's Lookout",
   "lat": 22.26636,
   "lng": 114.19833,
   "approx": false,
@@ -210,10 +210,10 @@ window.PLACES = [
  {
   "id": "hk-lion-rock-gipfel",
   "name": "Lion Rock 獅子山 (Gipfel)",
-  "district": "Kowloon",
+  "district": "Wong Tai Sin",
   "category": "Aussicht",
   "note": "",
-  "address": "Kowloon",
+  "address": "Wong Tai Sin",
   "lat": 22.35301,
   "lng": 114.18717,
   "approx": false,
@@ -280,10 +280,10 @@ window.PLACES = [
  {
   "id": "hk-victoria-harbour-neon-regen-nacht",
   "name": "Victoria Harbour (Neon + Regen + Nacht)",
-  "district": "Harbour",
+  "district": "Victoria Harbour",
   "category": "Aussicht",
   "note": "",
-  "address": "Harbour",
+  "address": "Victoria Harbour",
   "lat": 22.2905,
   "lng": 114.17,
   "approx": true,
@@ -1090,7 +1090,7 @@ window.PLACES = [
  {
   "id": "hk-35-bonham-road-shophouse",
   "name": "35 Bonham Road (Shophouse)",
-  "district": "Mid-levels",
+  "district": "Sai Ying Pun",
   "category": "Architektur",
   "note": "Pre-war Shophouse",
   "address": "般咸道 Bonham Road, 太平山 Tai Ping Shan, 西半山 Mid-Levels West, 中西區 Central and Western District, 香港島 Hong Kong Island, 香港 Hong Kong, 中国",
@@ -1120,7 +1120,7 @@ window.PLACES = [
  {
   "id": "hk-88-90-staunton-street-shophouse",
   "name": "88-90 Staunton Street (Shophouse)",
-  "district": "Mid-levels",
+  "district": "SoHo (Central)",
   "category": "Architektur",
   "note": "Pre-war Shophouse",
   "address": "88-90, 士丹頓街 Staunton Street, 蘇豪 SoHo, 上環 Sheung Wan, 中西區 Central and Western District, 香港島 Hong Kong Island, 香港 Hong Kong, 中国",
@@ -1150,7 +1150,7 @@ window.PLACES = [
  {
   "id": "hk-2a-shing-wong-street-shophouse",
   "name": "2A Shing Wong Street (Shophouse)",
-  "district": "Mid-levels",
+  "district": "SoHo (Central)",
   "category": "Architektur",
   "note": "Pre-war Shophouse",
   "address": "Shing Wong Street, SoHo, Sheung Wan, Central and Western District, Hong Kong Island, Hong Kong, China",
@@ -1180,7 +1180,7 @@ window.PLACES = [
  {
   "id": "hk-mid-levels-allgemein",
   "name": "Mid-levels 半山區 (allgemein)",
-  "district": "Mid-levels",
+  "district": "Mid-Levels",
   "category": "Street",
   "note": "",
   "address": "半山 Mid-Levels, 中西區 Central and Western District, 香港島 Hong Kong Island, 香港 Hong Kong, 中国",
@@ -1937,7 +1937,7 @@ window.PLACES = [
  {
   "id": "hk-cheung-hing-house-portland-street-neon-ecke",
   "name": "Cheung Hing House, Portland Street 旺角砵蘭街 (Neon-Ecke)",
-  "district": "Mongkok",
+  "district": "Mong Kok",
   "category": "Neon",
   "note": "Ikonische Neon-Ecke, bei Regen",
   "address": "Portland Street, Mong Kok, Yau Tsim Mong District, Kowloon, Hong Kong, China",
@@ -2016,7 +2016,7 @@ window.PLACES = [
  {
   "id": "hk-langham-place",
   "name": "Langham Place 朗豪坊",
-  "district": "Mongkok",
+  "district": "Mong Kok",
   "category": "Architektur",
   "note": "",
   "address": "Langham Place, 18, Mong Kok, Yau Tsim Mong District, Kowloon, Hong Kong, China",
@@ -2046,7 +2046,7 @@ window.PLACES = [
  {
   "id": "hk-argyle-street-henge",
   "name": "Argyle Street 'henge'",
-  "district": "Mongkok",
+  "district": "Mong Kok",
   "category": "Street",
   "note": "Sonne in Straßenachse, Ende Februar",
   "address": "亞皆老街 Argyle Street, 旺角 Mong Kok, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
@@ -2085,7 +2085,7 @@ window.PLACES = [
  {
   "id": "hk-reclamation-street-alte-lden",
   "name": "Reclamation Street 新填地街 (alte Läden)",
-  "district": "Mongkok / Yau Ma Tei",
+  "district": "Yau Ma Tei",
   "category": "Street",
   "note": "",
   "address": "新填地街 Reclamation Street, 旺角 Mong Kok, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
@@ -2145,7 +2145,7 @@ window.PLACES = [
  {
   "id": "hk-soy-street-tunnel",
   "name": "Soy Street tunnel 豉油街",
-  "district": "Mongkok",
+  "district": "Mong Kok",
   "category": "Street",
   "note": "",
   "address": "豉油街 Soy Street, 旺角 Mong Kok, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
@@ -2175,7 +2175,7 @@ window.PLACES = [
  {
   "id": "hk-fa-yuen-street-market",
   "name": "Fa Yuen Street Market 花園街街市",
-  "district": "Mongkok",
+  "district": "Mong Kok",
   "category": "Markt",
   "note": "",
   "address": "Fa Yuen Street, Mong Kok, Yau Tsim Mong District, Kowloon, Hong Kong, China",
@@ -2227,7 +2227,7 @@ window.PLACES = [
  {
   "id": "hk-kam-lam-street",
   "name": "Kam Lam Street 甘霖街",
-  "district": "Mongkok",
+  "district": "Mong Kok",
   "category": "Street",
   "note": "",
   "address": "甘霖街 Kam Lam Street, 旺角 Mong Kok, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
@@ -2257,7 +2257,7 @@ window.PLACES = [
  {
   "id": "hk-20-nullah-road-pre-war-shophouses",
   "name": "20 Nullah Road (Pre-war Shophouses)",
-  "district": "Mongkok",
+  "district": "Mong Kok",
   "category": "Architektur",
   "note": "",
   "address": "20, 水渠道 Nullah Road, 旺角 Mong Kok, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
@@ -2287,7 +2287,7 @@ window.PLACES = [
  {
   "id": "hk-neon-hop-hing-lung-ceramics-sanitaryware",
   "name": "Neon Hop Hing Lung Ceramics Sanitaryware",
-  "district": "Mongkok",
+  "district": "Mong Kok",
   "category": "Neon",
   "note": "genaue Lage nachrecherchieren",
   "address": "旺角 Mong Kok, 亞皆老街 Argyle Street, 旺角 Mong Kok, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
@@ -2317,7 +2317,7 @@ window.PLACES = [
  {
   "id": "hk-neon-pat-chun-yau-woo-building",
   "name": "Neon Pat Chun, Yau Woo Building",
-  "district": "Mongkok",
+  "district": "Mong Kok",
   "category": "Neon",
   "note": "genaue Lage nachrecherchieren",
   "address": "旺角 Mong Kok, 亞皆老街 Argyle Street, 旺角 Mong Kok, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
@@ -2376,7 +2376,7 @@ window.PLACES = [
     "profile_url": "https://www.instagram.com/zolima_hongkong/",
     "kind": "p",
     "image": "images/Dci2CYBGUGe.jpg",
-    "caption": "",
+    "caption": "An elderly locksmith works at his tiny stall on Shanghai Street in Mong Kok.⁠\n⁠\nThe street where this old neighbourhood stall is located is one of the oldest in Hong Kong, stretching from Austin Road to Prince Edward Road through the neighbourhoods of Jordan, Yau Ma Tei and Mong Kok. Built in 1887, it was one of several streets in Kowloon named after important ports in China and Southeast Asia, including Canton Road, Saigon Street and Haiphong Road.⁠\n⁠\nIn the last century, Shanghai Street was Kowloon’s main street, with mahjong houses, gold shops and herbal medicine stores lining the road and ",
     "match": "single"
    }
   ],
@@ -4100,7 +4100,7 @@ window.PLACES = [
  {
   "id": "hk-royal-plaza-hotel-lion-rock-view",
   "name": "Royal Plaza Hotel 帝京酒店 (Lion Rock view)",
-  "district": "Mong Kok East",
+  "district": "Mong Kok",
   "category": "Aussicht",
   "note": "",
   "address": "帝京酒店 Royal Plaza Hotel, 193, 太子道西 Prince Edward Road West, 旺角 Mong Kok, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
@@ -4457,21 +4457,21 @@ window.PLACES = [
   "lat": 22.313414,
   "lng": 114.181846,
   "approx": false,
-  "image": "images/DPqw2_FEaAG_1.jpg",
+  "image": null,
   "caption": "Location below⬇️ The scenic routes inside Hong Kong’s concrete jungle 🛣️ Which one do you like the most? \n\nLocation📍\n1. Fat Kwong Street Flyover\n2. Hoi Lai Estate (Drone)\n3. N/A\n4. Mei Foo Sun Chuen\n\nLike, Share, and Save if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
-  "post_url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/?img_index=1",
+  "post_url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/",
   "username": "mansonyms",
   "profile_url": "https://www.instagram.com/mansonyms/",
   "posts": [
    {
-    "url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/?img_index=1",
+    "url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/",
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DPqw2_FEaAG_1.jpg",
+    "image": null,
     "caption": "Location below⬇️ The scenic routes inside Hong Kong’s concrete jungle 🛣️ Which one do you like the most? \n\nLocation📍\n1. Fat Kwong Street Flyover\n2. Hoi Lai Estate (Drone)\n3. N/A\n4. Mei Foo Sun Chuen\n\nLike, Share, and Save if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
-    "match": "slide",
-    "slide": 1
+    "match": "cover",
+    "generic": true
    }
   ],
   "pop": 2,
@@ -4487,21 +4487,21 @@ window.PLACES = [
   "lat": 22.332935,
   "lng": 114.145871,
   "approx": false,
-  "image": "images/DPqw2_FEaAG_2.jpg",
+  "image": null,
   "caption": "Location below⬇️ The scenic routes inside Hong Kong’s concrete jungle 🛣️ Which one do you like the most? \n\nLocation📍\n1. Fat Kwong Street Flyover\n2. Hoi Lai Estate (Drone)\n3. N/A\n4. Mei Foo Sun Chuen\n\nLike, Share, and Save if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
-  "post_url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/?img_index=2",
+  "post_url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/",
   "username": "mansonyms",
   "profile_url": "https://www.instagram.com/mansonyms/",
   "posts": [
    {
-    "url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/?img_index=2",
+    "url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/",
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DPqw2_FEaAG_2.jpg",
+    "image": null,
     "caption": "Location below⬇️ The scenic routes inside Hong Kong’s concrete jungle 🛣️ Which one do you like the most? \n\nLocation📍\n1. Fat Kwong Street Flyover\n2. Hoi Lai Estate (Drone)\n3. N/A\n4. Mei Foo Sun Chuen\n\nLike, Share, and Save if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
-    "match": "slide",
-    "slide": 2
+    "match": "cover",
+    "generic": true
    }
   ],
   "pop": 3,
@@ -4517,21 +4517,21 @@ window.PLACES = [
   "lat": 22.335798,
   "lng": 114.139961,
   "approx": false,
-  "image": "images/DPqw2_FEaAG_4.jpg",
+  "image": null,
   "caption": "Location below⬇️ The scenic routes inside Hong Kong’s concrete jungle 🛣️ Which one do you like the most? \n\nLocation📍\n1. Fat Kwong Street Flyover\n2. Hoi Lai Estate (Drone)\n3. N/A\n4. Mei Foo Sun Chuen\n\nLike, Share, and Save if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
-  "post_url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/?img_index=4",
+  "post_url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/",
   "username": "mansonyms",
   "profile_url": "https://www.instagram.com/mansonyms/",
   "posts": [
    {
-    "url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/?img_index=4",
+    "url": "https://www.instagram.com/mansonyms/p/DPqw2_FEaAG/",
     "username": "mansonyms",
     "profile_url": "https://www.instagram.com/mansonyms/",
     "kind": "p",
-    "image": "images/DPqw2_FEaAG_4.jpg",
+    "image": null,
     "caption": "Location below⬇️ The scenic routes inside Hong Kong’s concrete jungle 🛣️ Which one do you like the most? \n\nLocation📍\n1. Fat Kwong Street Flyover\n2. Hoi Lai Estate (Drone)\n3. N/A\n4. Mei Foo Sun Chuen\n\nLike, Share, and Save if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\n\nMy Hong Kong photography guides \n▶️ #mansonyms_hongkong",
-    "match": "slide",
-    "slide": 4
+    "match": "cover",
+    "generic": true
    }
   ],
   "pop": 3,
@@ -4547,21 +4547,21 @@ window.PLACES = [
   "lat": 22.278437,
   "lng": 114.168679,
   "approx": false,
-  "image": "images/DHTSfnjTAKI_8.jpg",
+  "image": null,
   "caption": "📸 My Favourite Photo Spots in Hong Kong 🇭🇰 \n\n1. Mong Kok\n2. Kennedy Town\n3. Quarry Bay\n4. The Peak\n5. Wan Chai\n6. North Point\n7. Arsenal Street\n8. Sai Ying Pun\n9. Montane Mansion\n10. M+ Gallery\n\nLet me know what did I miss out or where shall I try next! 🙌🏻\nAll these are without sequence.\n\n#hongkongstreet #hongkongstreetphotography #hongkong #hongkongphotography #hongkong🇭🇰 #hongkongtrip #hongkongtravel #hongkongexplore #hongkongphoto",
-  "post_url": "https://www.instagram.com/minghan1004/p/DHTSfnjTAKI/?img_index=8",
+  "post_url": "https://www.instagram.com/minghan1004/p/DHTSfnjTAKI/",
   "username": "minghan1004",
   "profile_url": "https://www.instagram.com/minghan1004/",
   "posts": [
    {
-    "url": "https://www.instagram.com/minghan1004/p/DHTSfnjTAKI/?img_index=8",
+    "url": "https://www.instagram.com/minghan1004/p/DHTSfnjTAKI/",
     "username": "minghan1004",
     "profile_url": "https://www.instagram.com/minghan1004/",
     "kind": "p",
-    "image": "images/DHTSfnjTAKI_8.jpg",
+    "image": null,
     "caption": "📸 My Favourite Photo Spots in Hong Kong 🇭🇰 \n\n1. Mong Kok\n2. Kennedy Town\n3. Quarry Bay\n4. The Peak\n5. Wan Chai\n6. North Point\n7. Arsenal Street\n8. Sai Ying Pun\n9. Montane Mansion\n10. M+ Gallery\n\nLet me know what did I miss out or where shall I try next! 🙌🏻\nAll these are without sequence.\n\n#hongkongstreet #hongkongstreetphotography #hongkong #hongkongphotography #hongkong🇭🇰 #hongkongtrip #hongkongtravel #hongkongexplore #hongkongphoto",
-    "match": "slide",
-    "slide": 8
+    "match": "cover",
+    "generic": true
    }
   ],
   "pop": 3,
@@ -5783,6 +5783,6 @@ window.UNPLACED_POSTS = [
   "profile_url": "https://www.instagram.com/audityawijaya/",
   "kind": "p",
   "image": "images/DdtWI4PDz_s.jpg",
-  "caption": "Kennedy Town, Hong Kong and everything in between.\n\nMong Kok — Jewels of Hong Kong\n\nThe legendary Ding Ding tram of Hong Kong in blue — highlights of Hong Kong Island.\n\nThe star of Tsim Sha Tsui — Hong Kong iconic red and white taxi.\n\nA stop for the “I ❤️ Hong Kong” shops.\n\nHashtag B — always be on my A Tier (rather S Tier) Egg Tart favourite in Hong Kong. Best of the Best!\n\nMarouf and Puff’s glazy baby croissants are the best bites for a rainy day in Hong Kong.\n\nEgg Tarts over Egg Tarts — the Halal Certified Egg Tarts of Marouf and Puff. A must visit!\n\nThe infamous Bakehouse bakery — no Bakeh"
+  "caption": ""
  }
 ];
