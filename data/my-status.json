@@ -345,6 +345,7 @@
   "prio": "hoch"
  },
  "hk-arsenal-street": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "fav": true
  }
 }
