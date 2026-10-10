@@ -454,7 +454,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return `<div class="pop">${pnav}
       ${p.image ? `<div class="hero"><img src="${esc(p.image)}" alt="" loading="lazy" data-lb="${Math.max(0, imgPosts.findIndex(x => x.image === p.image))}">
         ${onImg ? `<button class="side prev" data-go="-1" aria-label="Vorheriger Spot">‹</button><button class="side next" data-go="1" aria-label="Nächster Spot">›</button>` : ""}</div>` : ""}
-      ${p.by_claude && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
+      ${(p.by_claude || p.image_credit) && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
       <div class="b">
         <h3>${esc(p.name)}</h3>
         ${p.by_claude ? `<div class="claude-note">✦ Claude-Tipp – nicht aus deiner Sammlung, von Claude als besonders beliebter Spot ergänzt</div>` : ""}
@@ -791,7 +791,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function spotImages(p) {
     const ps = (p.posts || []).filter(x => x.image);
     if (ps.length) return ps.map(x => ({ src: x.image, url: x.url, label: "@" + x.username, profile: x.profile_url }));
-    return p.image ? [{ src: p.image, url: p.post_url || p.image_page || p.wiki_url, label: p.by_claude ? (p.image_credit || "Wikimedia Commons") : (p.username ? "@" + p.username : ""), profile: p.profile_url }] : [];
+    return p.image ? [{ src: p.image, url: p.post_url || p.image_page || p.wiki_url, label: p.image_credit || p.by_claude ? (p.image_credit || "Wikimedia Commons") : (p.username ? "@" + p.username : ""), profile: p.profile_url }] : [];
   }
   function lbShow(i) {
     const n = lb.list.length; if (!n) return;
