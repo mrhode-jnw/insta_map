@@ -21,7 +21,8 @@ POSTS = {
  37: ("throughlucaslens", "p", "DNNgh9LoqbE"), 38: ("wiwa_b", "p", "DIlCwlaRZWs"), 39: ("calvinohhh", "p", "DIVTVzqT1cw"),
  40: ("throughlucaslens", "p", "DI00NkJoK_k"), 41: ("dxj_chinatravel", "p", "DdiudFSEbF0"), 42: ("jjll_____", "p", "DTIJBGfk-5D"),
  43: ("tchob_tchob", "p", "DUhpvJVkzt2"), 44: ("hey.lirules", "p", "DZUUOwzjCOx"), 45: ("blackmobil", "p", "DdyoIZJmsct"),
- 46: ("minghan1004", "p", "DGNwBTCzT1N"),
+ 46: ("minghan1004", "p", "DGNwBTCzT1N"), 47: ("hanaleytravel", "p", "DRo8DqWCiXB"), 48: ("jasmine_pirsch", "p", "C78YwHjtoLk"),
+ 49: ("davidlazarphoto", "p", "DDo2-MdTeS2"), 50: ("wyzhou22", "p", "DEaHiq2pJaL"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -55,6 +56,8 @@ SPOTS = [
   [9], "Sonnenaufgang über der Li-River-Schleife – früh los (Wecker 3:30)."),
  ("Yangshuo Karstlandschaft 阳朔", 24.8630, 110.4872, True, "Yangshuo, Guangxi", "Natur",
   [11, 10, 33, (21, 7)], "Karstkegel in endlosen Schichten, Sonnenaufgang mit Wasserbüffeln an der Steinbrücke."),
+ ("Longji Rice Terraces 龙脊梯田", 25.7580, 110.1190, True, "Longsheng, Guangxi", "Natur",
+  [47, 48, 49, 50], "Rund 650 Jahre alte Reisterrassen, ca. 2 h ab Guilin; im September goldgelb."),
  # Chongqing
  ("Liziba Station 李子坝 – Monorail durchs Haus", 29.5557, 106.5339, False, "Yuzhong, Chongqing", "Architektur",
   [8, 40], "Die Bahn fährt mitten durch das Wohnhaus; Aussichtsplattform unten an der Straße."),
@@ -224,4 +227,5 @@ POP = {
  "Postal Museum": (3, "Historisches Gebäude, in Architekturführern"),
  "Xintiandi": (4, "Bekanntes Shikumen-Ausgehviertel"),
  "Yu Garden": (5, "Klassischer Garten, Top-Sehenswürdigkeit"),
+ "Longji": (5, "Berühmteste Reisterrassen Chinas, in allen Guilin-Guides"),
 }
