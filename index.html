@@ -101,6 +101,14 @@
 
   .pin { width: 34px; height: 34px; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.35);
     background: var(--accent) center/cover no-repeat; }
+  /* Blickrichtung: Lichtkegel hinter dem Standortpunkt (Kompass) */
+  .me-wrap { position: relative; width: 80px; height: 80px; }
+  .me-wrap .me-dot { position: absolute; left: 31px; top: 31px; }
+  .me-cone { position: absolute; inset: 0; display: none; border-radius: 50%; transform: rotate(var(--h, 0deg));
+    background: conic-gradient(from -35deg, rgba(37,99,235,.55) 0deg 70deg, transparent 70deg);
+    -webkit-mask: radial-gradient(circle, #000 0 15%, rgba(0,0,0,.6) 45%, transparent 70%);
+    mask: radial-gradient(circle, #000 0 15%, rgba(0,0,0,.6) 45%, transparent 70%); transition: transform .15s linear; }
+  .me-cone.on { display: block; }
   .me-dot { width: 18px; height: 18px; border-radius: 50%; background: var(--me); border: 3px solid #fff;
     box-shadow: 0 0 0 0 rgba(37,99,235,.5); animation: pulse 2s infinite; }
   @keyframes pulse { 70% { box-shadow: 0 0 0 14px rgba(37,99,235,0); } 100% { box-shadow: 0 0 0 0 rgba(37,99,235,0); } }
@@ -1021,9 +1029,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const ll = [me.lat, me.lng];
     if (!meMarker) {
       meCircle = L.circle(ll, { radius: pos.coords.accuracy, color: "#2563eb", weight: 1, fillOpacity: .1 }).addTo(map);
-      meMarker = L.marker(ll, { icon: L.divIcon({ className: "", html: '<div class="me-dot"></div>', iconSize: [18, 18], iconAnchor: [9, 9] }),
+      meMarker = L.marker(ll, { icon: L.divIcon({ className: "", html: '<div class="me-wrap"><div class="me-cone"></div><div class="me-dot"></div></div>', iconSize: [80, 80], iconAnchor: [40, 40] }),
         zIndexOffset: 1000, interactive: false }).addTo(map);
     } else { meMarker.setLatLng(ll); meCircle.setLatLng(ll).setRadius(pos.coords.accuracy); }
+    if (first && window.DeviceOrientationEvent && typeof DeviceOrientationEvent.requestPermission !== "function") startCompass();  // ohne Rückfrage möglich (Android)
     const np = places.reduce((m, p) => !m || dist(me, p) < dist(me, m) ? p : m, null);
     const nearest = np ? dist(me, np) : Infinity;
     const wasNear = nearSpots; nearSpots = nearest < 50e3;
@@ -1047,7 +1056,30 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       { enableHighAccuracy: true, maximumAge: 5000, timeout: 20000 });
     $("#locate").classList.add("active");
   }
+  // ---------- Kompass: Blickrichtung als Kegel am Standortpunkt
+  let compassOn = false, headingShown = null;
+  function onHeading(e) {
+    let h = e.webkitCompassHeading;  // iOS: Grad im Uhrzeigersinn ab Norden
+    if (h == null && e.absolute && e.alpha != null) h = 360 - e.alpha;  // Android
+    if (h == null || isNaN(h)) return;
+    h = (h + ((screen.orientation && screen.orientation.angle) || window.orientation || 0) + 360) % 360;
+    // kürzester Weg, damit der Kegel bei 359°→1° nicht einmal herumwirbelt
+    headingShown = headingShown == null ? h : headingShown + ((((h - headingShown) % 360) + 540) % 360 - 180);
+    const cone = meMarker && meMarker.getElement() && meMarker.getElement().querySelector(".me-cone");
+    if (cone) { cone.classList.add("on"); cone.style.setProperty("--h", headingShown + "deg"); }
+  }
+  async function startCompass() {
+    if (compassOn || !window.DeviceOrientationEvent) return;
+    try {
+      if (typeof DeviceOrientationEvent.requestPermission === "function" &&
+          (await DeviceOrientationEvent.requestPermission()) !== "granted") return toast("Kompass nicht erlaubt – Blickrichtung wird nicht angezeigt.");
+      compassOn = true;
+      window.addEventListener("deviceorientationabsolute", onHeading, true);  // Android
+      window.addEventListener("deviceorientation", onHeading, true);  // iOS (webkitCompassHeading)
+    } catch {}
+  }
   $("#locate").addEventListener("click", () => {
+    startCompass();
     startWatch();
     if (me) { follow = !follow; $("#locate").classList.toggle("follow", follow);
       map.setView([me.lat, me.lng], Math.max(map.getZoom(), 16));
