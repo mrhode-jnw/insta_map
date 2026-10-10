@@ -130,6 +130,7 @@
   #gateForm button { padding: 12px; border: 0; border-radius: 10px; background: var(--accent); color: #fff; font-size: 16px; }
   #gateErr { color: #dc2626; min-height: 1.2em; font-size: 14px; }
   #add { bottom: calc(env(safe-area-inset-bottom) + 152px); background: var(--accent); color: #fff; font-size: 28px; }
+  .pin.henge { background: #fde68a; display: grid; place-items: center; font-size: 17px; }
   .pin.mine { background: #f59e0b; display: grid; place-items: center; font-size: 16px; }
   #addDlg { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1500; background: var(--bg); color: var(--fg);
     border-radius: 16px 16px 0 0; box-shadow: var(--shadow); max-height: 62vh; overflow-y: auto;
@@ -557,6 +558,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return L.divIcon({
       className: "", iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -14],
       html: p.mine && !p.image ? `<div class="${cls}">★${fb}</div>`
+        : p.category === "Henge" && !p.image ? `<div class="${cls} henge">☀${fb}</div>`
         : `<div class="${cls}" style="${p.image ? `background-image:url('${esc(p.image)}')` : ""}">${fb}</div>`
     });
   }
@@ -591,6 +593,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     ...ROUTE.map(r => L.circleMarker([r.lat, r.lng], { radius: 6, color: "#fff", weight: 2, fillColor: "#2563eb", fillOpacity: 1 })
       .bindTooltip(`${r.d} · ${r.name}`, { direction: "top", offset: [0, -6] })),
   ]);
+  // Henge-Check: Straßenachse (orange) und Sonnenrichtung (gelb gestrichelt, 900 m) vom Standpunkt
+  const ray = (from, az, m) => { const r = az * Math.PI / 180, dLat = m * Math.cos(r) / 111320;
+    return [from[0] + dLat, from[1] + m * Math.sin(r) / (111320 * Math.cos(from[0] * Math.PI / 180))]; };
+  (window.TRIP.henge || []).forEach(h => {
+    L.polyline(h.street, { color: "#f97316", weight: 5, opacity: .75, interactive: false }).addTo(map);
+    h.rays.forEach(r => L.polyline([h.from, ray(h.from, r.az, 900)], { color: "#eab308", weight: 3, opacity: .95, dashArray: "4 6", interactive: false }).addTo(map));
+  });
   // Unsere Unterkünfte (approx = Lage nur ungefähr bekannt, Ort/Dorf stimmt)
   const HOTELS = window.TRIP.hotels;
   const hotelIcon = L.divIcon({ className: "", iconSize: [24, 24], iconAnchor: [12, 12], popupAnchor: [0, -12],

@@ -38,4 +38,11 @@ window.TRIP = {
     { name: "Hyatt on the Bund", zh: "上海外滩茂悦大酒店", lat: 31.247314, lng: 121.488386,
       address: "199 Huangpu Road, Hongkou, Shanghai", dates: "28. Okt.–1. Nov. (4 Nächte)", room: "" },
   ],
+  // Henge-Check: Straßenachse (orange) und Sonnenrichtung (gelb) am Standpunkt
+  henge: [
+    { name: "Mody Road", from: [22.29700, 114.17240], street: [[22.29695, 114.17226], [22.29726, 114.17507], [22.29840, 114.17798], [22.29997, 114.17987]],
+      rays: [{ az: 97.1, label: "Sonnenaufgang 11.10. 06:18 (97°)" }, { az: 100.9, label: "Sonne ≈8° hoch 06:57 (101°)" }] },
+    { name: "Granville Road", from: [22.29955, 114.17215], street: [[22.29952, 114.17208], [22.29984, 114.17340], [22.30042, 114.17577], [22.30137, 114.17854]],
+      rays: [{ az: 97.1, label: "Sonnenaufgang 11.10. 06:18 (97°)" }, { az: 100.9, label: "Sonne ≈8° hoch 06:57 (101°)" }] },
+  ],
 };

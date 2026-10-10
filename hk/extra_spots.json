@@ -136,5 +136,29 @@
   "image": "images/scmp_wealth_banquet.jpg",
   "source": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
   "url": "https://www.scmp.com/lifestyle/travel-leisure/article/3211444/11-best-neon-signs-still-hanging-hong-kong-and-how-get-them-glow-gone-good"
+ },
+ {
+  "name": "Sunrise Henge? Mody Road 麼地道",
+  "lat": 22.297,
+  "lng": 114.1724,
+  "approx": false,
+  "district": "Tsim Sha Tsui",
+  "cat": "Henge",
+  "reason": "",
+  "source": "Eigene Berechnung (OpenStreetMap-Straßenverlauf, Sonnenstand)",
+  "note": "Henge-Check 11.10.2026: passt NICHT. Straße (westlicher Teil, Nathan Rd → Chatham Rd S) verläuft mit 83°, die Sonne geht bei 97° auf (06:18) und steht über den Hochhäusern bei ≈101° (06:57) – 15–18° neben der Achse. Orange Linie = Straße, gelb gestrichelt = Sonnenrichtung.",
+  "tip": "Für einen echten Henge müsste die Sonne genau in der Straßenachse stehen (Abweichung unter ≈2°). Eher Sonnenuntergang prüfen: nach Westen zeigt die Straße auf 263°, die Sonne geht morgen bei 262,7° unter (18:02) – aber hinter der Bebauung an der Nathan Road."
+ },
+ {
+  "name": "Sunrise Henge? Granville Road 加連威老道",
+  "lat": 22.29955,
+  "lng": 114.17215,
+  "approx": false,
+  "district": "Tsim Sha Tsui",
+  "cat": "Henge",
+  "reason": "",
+  "source": "Eigene Berechnung (OpenStreetMap-Straßenverlauf, Sonnenstand)",
+  "note": "Henge-Check 11.10.2026: passt NICHT. Straße verläuft mit 75°, die Sonne geht bei 97° auf (06:18), über den Hochhäusern ≈101° (06:57) – über 20° neben der Achse. Orange Linie = Straße, gelb gestrichelt = Sonnenrichtung.",
+  "tip": "Nach Westen zeigt die Straße auf 255°: so steht die Sonne gegen 16:45 (≈16° hoch) – Sonne über dem Kowloon Park am Ende der Straße, kein flacher Henge."
  }
 ]
