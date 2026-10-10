@@ -266,7 +266,8 @@
   "prio": "gering"
  },
  "hk-swiss-house-quarry-bay-abgerissen": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "hidden": true
  },
  "hk-southern-building-north-point": {
   "prio": "hoch"
