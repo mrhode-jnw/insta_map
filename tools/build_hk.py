@@ -73,8 +73,12 @@ def spot_post(spot, i):
     code = POSTS[i][2]
     c = ctx.get(code)
     p["match"] = "single" if usage[i] == 1 else "cover"
-    if c and len(c["slides"]) > 1:
-        fixed = spot.get("slides", {}).get(i)
+    fixed = spot.get("slides", {}).get(i)
+    rel = f"images/{code}_{fixed}.jpg" if fixed else None
+    if rel and os.path.exists(os.path.join(ROOT, rel)):  # Slide schon geladen (z.B. von der Routine) – ohne Karussell-Daten nutzbar
+        p["image"], p["match"], p["slide"] = rel, "slide", fixed
+        p["url"] = p["url"] + f"?img_index={fixed}"
+    elif c and len(c["slides"]) > 1:
         m = (fixed - 1,) if fixed else sl.match_slide(spot, sl.list_entries(c["caption"]))
         if m and m[0] < len(c["slides"]):
             try:

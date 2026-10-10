@@ -187,7 +187,7 @@ add("Tuen Mun – Cha Chaan Teng & Strand", "Tuen Mun, Hong Kong", "Tuen Mun", "
 add("Lugard Road / Peak Rollercoaster View (山頂)", (22.2740,114.1500), "The Peak", "Aussicht", [13], "'best rollercoaster view', Nacht")
 
 # --- Neu aus Eingang ---
-add("Fat Kwong Street Flyover 佛光街天橋", "Fat Kwong Street, Ho Man Tin, Hong Kong", "Ho Man Tin", "Architektur", [88], "Schwungvolle Hochstraße vor Wohntürmen")
-add("Hoi Lai Estate 海麗邨", "Hoi Lai Estate, Sham Shui Po, Hong Kong", "Sham Shui Po", "Architektur", [88], "Drohnenblick auf Hochstraßen vor den Wohntürmen")
-add("Mei Foo Sun Chuen 美孚新邨", "Mei Foo Sun Chuen, Hong Kong", "Mei Foo", "Architektur", [88], "Riesige Wohnsiedlung mit Fußgängerbrücken")
+add("Fat Kwong Street Flyover 佛光街天橋", "Fat Kwong Street, Ho Man Tin, Hong Kong", "Ho Man Tin", "Architektur", [88], "Schwungvolle Hochstraße vor Wohntürmen", slides={88: 1})
+add("Hoi Lai Estate 海麗邨", "Hoi Lai Estate, Sham Shui Po, Hong Kong", "Sham Shui Po", "Architektur", [88], "Drohnenblick auf Hochstraßen vor den Wohntürmen", slides={88: 2})
+add("Mei Foo Sun Chuen 美孚新邨", "Mei Foo Sun Chuen, Hong Kong", "Mei Foo", "Architektur", [88], "Riesige Wohnsiedlung mit Fußgängerbrücken", slides={88: 4})
 add("Arsenal Street 軍器廠街", "Arsenal Street, Wan Chai, Hong Kong", "Wan Chai", "Tram", [90], "Tram vor dem alten Polizeihauptquartier", slides={90: 8})

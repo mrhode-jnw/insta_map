@@ -56,6 +56,9 @@ python3 tools/build_hk.py      # schreibt data/places.js
 ```
 Prüfen, dass jeder neue Spot ein Bild hat (`grep -A12 '"name": "<Name>"' data/places.js`). Fehlt es
 bei einem Karussell-Post, den Spot-Namen an den Wortlaut der Caption-Liste anpassen und neu bauen.
+Danach bei jedem neuen Spot aus einem Karussell-Post den gefundenen Slide **fest eintragen**
+(`slides={i: <slide>}` am `add(...)`, Nummer aus `"slide"` in data/places.js) – sonst verliert der Spot
+sein Foto, wenn die Karte später ohne die (nur lokalen) Karussell-Daten neu gebaut wird.
 
 ## 4. Beliebtheit der neuen Spots
 Für jeden neuen Spot per Websuche einschätzen (Reiseführer, Discover Hong Kong, TripAdvisor,
