@@ -480,6 +480,63 @@ window.PLACES_CN = [
   "pop_reason": "Top-Ziel für Karstlandschaften"
  },
  {
+  "id": "cn-longji-rice-terraces",
+  "region": "cn",
+  "name": "Longji Rice Terraces 龙脊梯田",
+  "district": "Longsheng, Guangxi",
+  "category": "Natur",
+  "note": "Rund 650 Jahre alte Reisterrassen, ca. 2 h ab Guilin; im September goldgelb.",
+  "address": "Longsheng, Guangxi",
+  "lat": 25.758,
+  "lng": 110.119,
+  "approx": true,
+  "image": "images/DRo8DqWCiXB.jpg",
+  "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
+  "post_url": "https://www.instagram.com/hanaleytravel/p/DRo8DqWCiXB/",
+  "username": "hanaleytravel",
+  "profile_url": "https://www.instagram.com/hanaleytravel/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/hanaleytravel/p/DRo8DqWCiXB/",
+    "username": "hanaleytravel",
+    "profile_url": "https://www.instagram.com/hanaleytravel/",
+    "kind": "p",
+    "image": "images/DRo8DqWCiXB.jpg",
+    "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
+    "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/C78YwHjtoLk/",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/C78YwHjtoLk.jpg",
+    "caption": "Longji Rice Terraces guangxi province 广西龙脊梯田\nThe Longji Rice Terrace  were built over 650 years ago during the Ming Dynasty. The terrace fields are found in Longsheng country about a two hours drive from Guilin in China. From a distance, during the growing season, these winding terraces appear as if they were green woven cables laid out over the hillsides, starting at the riverbank and ending near the mountaintop.\n\n#guangxi#guilin#china#chinatravel#chinaart#chinesearchitecture#chineseart#chinesegarden#chinatrip#chinadestinations#chinaphotography#xian#chineseculture#amazingchina#shanghai#beijin",
+    "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/davidlazarphoto/p/DDo2-MdTeS2/",
+    "username": "davidlazarphoto",
+    "profile_url": "https://www.instagram.com/davidlazarphoto/",
+    "kind": "p",
+    "image": "images/DDo2-MdTeS2.jpg",
+    "caption": "Rice terraces in China, photographed in September when they are turning yellow. The Longji rice terraces are most spectacular.\n\n#china #longji #riceterrace #chinatravel #travel #travelphotography",
+    "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/wyzhou22/p/DEaHiq2pJaL/",
+    "username": "wyzhou22",
+    "profile_url": "https://www.instagram.com/wyzhou22/",
+    "kind": "p",
+    "image": "images/DEaHiq2pJaL.jpg",
+    "caption": "Happy weekend! 🧡 Longji (Drangon’s backbone) Rice Terraces. The terraced fields were mostly built about 650 years ago, along the slope winding from the riverside up to the mountain top, between 600 and 800 metres (2,000 and 2,600 ft) above sea level. A coiling terrace line that starts from the mountain foot up to the mountain top divides the mountain into layers of water in spring, layers of green rice shoots in summer, layers of rice in fall, and layers of frost in winter  #龙脊梯田 #longji  #guilin #guilinchina  #travel2china  #chinatrips  #chinatravel #travel2china88 #Amigosdechina #chinadestin",
+    "match": "single"
+   }
+  ],
+  "pop": 5,
+  "pop_reason": "Berühmteste Reisterrassen Chinas, in allen Guilin-Guides"
+ },
+ {
   "id": "cn-liziba-station-monorail-durchs-haus",
   "region": "cn",
   "name": "Liziba Station 李子坝 – Monorail durchs Haus",
@@ -561,7 +618,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_2.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 2
    }
@@ -772,7 +829,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_3.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 3
    }
@@ -862,7 +919,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_7.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 7
    }
@@ -952,7 +1009,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_6.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 6
    }
@@ -1003,7 +1060,7 @@ window.PLACES_CN = [
   "lng": 106.5891,
   "approx": true,
   "image": "images/DdiudFSEbF0_5.jpg",
-  "caption": "",
+  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=5",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -1014,7 +1071,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_5.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 5
    }
@@ -1034,7 +1091,7 @@ window.PLACES_CN = [
   "lng": 106.52597,
   "approx": false,
   "image": "images/DdiudFSEbF0_4.jpg",
-  "caption": "",
+  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=4",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -1045,7 +1102,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_4.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 4
    }
