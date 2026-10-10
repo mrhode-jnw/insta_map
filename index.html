@@ -86,6 +86,9 @@
   .pop .cap { color: #374151; font-size: 12.5px; max-height: 80px; overflow: auto; white-space: pre-line; margin-bottom: 8px; }
   .pop .links { display: flex; gap: 6px; flex-wrap: wrap; }
   .pop .links .showmap { flex: 1.3; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #dbeafe; color: #1e3a8a; font-weight: 600; cursor: pointer; }
+  .leaflet-marker-icon.hl { z-index: 9999 !important; }
+  .leaflet-marker-icon.hl .pin, .leaflet-marker-icon.hl.marker-cluster { transform: scale(1.5); box-shadow: 0 0 0 4px #e1306c, 0 4px 14px rgba(0,0,0,.45); transition: transform .12s; }
+  .leaflet-marker-icon.hl.marker-cluster { border-radius: 50%; }
   .leaflet-marker-icon.flash { animation: flashpin .65s ease-in-out 4; z-index: 9999 !important; }
   @keyframes flashpin { 50% { transform-origin: center; filter: drop-shadow(0 0 10px #e1306c) brightness(1.2); } }
   .pop .links a { flex: 1; text-align: center; padding: 7px 6px; border-radius: 8px; font-size: 13px;
@@ -544,6 +547,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     m.bindPopup(() => popupHtml(p), { maxWidth: 400, maxHeight: Math.round(window.innerHeight * 0.62),
       autoPan: window.innerWidth >= 800,  // Handy: Spot als feste Karte, die Karte im Hintergrund bleibt stehen
       autoPanPaddingTopLeft: [10, 78], autoPanPaddingBottomRight: [10, 90] });
+    // Beim Zoomen verschwindet der Pin evtl. in einer Gruppe – der geöffnete Spot soll trotzdem offen bleiben
+    m.off("remove", m.closePopup, m);
     markers.set(p.id, m);
   }
   places.forEach(addMarker);
@@ -633,9 +638,26 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let favF = false, areaF = "";
   // Viertel/Bereich: Hongkong-Bezirke vereinheitlicht, China als „Stadt – Viertel“
   const AREA_ALIAS = { "Mongkok": "Mong Kok", "Mongkok / Yau Ma Tei": "Mong Kok", "Mong Kok East": "Mong Kok", "Mid-levels": "Mid-Levels", "Harbour": "Victoria Harbour" };
+  // Hongkong: Stadtteile zu größeren Bereichen zusammengefasst
+  const HK_AREA = {};
+  Object.entries({
+    "Central / Sheung Wan": ["Central", "SoHo (Central)", "Sheung Wan", "Mid-Levels"],
+    "Sai Ying Pun / Kennedy Town": ["Sai Ying Pun", "Shek Tong Tsui", "Kennedy Town"],
+    "The Peak": ["The Peak"],
+    "Wan Chai / Causeway Bay": ["Wan Chai", "Causeway Bay", "Happy Valley", "Tai Hang", "Jardine's Lookout"],
+    "North Point / Quarry Bay": ["North Point", "Fortress Hill", "Quarry Bay"],
+    "Südseite (Repulse Bay, Stanley)": ["Repulse Bay", "Stanley", "Shek O"],
+    "Tsim Sha Tsui / Jordan": ["Tsim Sha Tsui", "Jordan", "West Kowloon", "Victoria Harbour"],
+    "Yau Ma Tei / Mong Kok": ["Yau Ma Tei", "Mong Kok", "Prince Edward", "Tai Kok Tsui"],
+    "Sham Shui Po": ["Sham Shui Po", "Shek Kip Mei", "Cheung Sha Wan", "Mei Foo"],
+    "Kowloon City / To Kwa Wan": ["To Kwa Wan", "Kowloon City", "Hung Hom", "Ho Man Tin", "Kowloon Tong"],
+    "Ost-Kowloon / Wong Tai Sin": ["Wong Tai Sin", "Choi Hung", "Ngau Chi Wan", "Ngau Tau Kok", "Kowloon Bay", "Diamond Hill", "Kowloon Peak", "Lei Yue Mun", "Kowloon"],
+    "New Territories": ["Sai Kung", "Sha Tin", "Tsuen Wan", "Kwai Chung", "Tuen Mun", "Yuen Long", "Kam Tin"],
+    "Inseln (Lantau, Cheung Chau)": ["Lantau", "Cheung Chau"],
+  }).forEach(([area, ds]) => ds.forEach(d => HK_AREA[d] = area));
   const areaOf = p => {
     const d = (p.district || "").trim(); if (!d) return "Sonstige";
-    if (regionOf(p) === "hk") return AREA_ALIAS[d] || d;
+    if (regionOf(p) === "hk") { const x = AREA_ALIAS[d] || d; return HK_AREA[x] || x; }
     const parts = d.split(",").map(x => x.trim()).filter(Boolean);
     return parts.length > 1 ? parts[parts.length - 1] + " – " + parts.slice(0, -1).join(", ") : d;
   };
@@ -780,8 +802,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       document.querySelectorAll(".leaflet-popup.ghost").forEach(g => setTimeout(() => g.remove(), 120));
       return;
     }
-    if (o.maxHeight !== sp.maxH || o.autoPanPaddingTopLeft[1] !== sp.top) {
-      o.maxHeight = sp.maxH; o.autoPanPaddingTopLeft = [10, sp.top]; o.autoPanPaddingBottomRight = [10, sp.bottomPad];
+    const deskH = Math.min(sp.maxH, Math.round(window.innerHeight * 0.55));  // Desktop: Karte bleibt sichtbar
+    if (o.maxHeight !== deskH || o.autoPanPaddingTopLeft[1] !== sp.top) {
+      o.maxHeight = deskH; o.autoPanPaddingTopLeft = [10, sp.top]; o.autoPanPaddingBottomRight = [10, sp.bottomPad];
       ev.popup.update();
       if (ev.popup._adjustPan) ev.popup._adjustPan();
     }
@@ -970,6 +993,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     setSnap("peek");
     focusMarker(m);
   });
+  // Desktop: Spot in der Liste überfahren → Pin (oder seine Gruppe) auf der Karte hervorheben
+  let hlEl = null;
+  const unHl = () => { if (hlEl) { hlEl.classList.remove("hl"); hlEl = null; } };
+  $("#list").addEventListener("mouseover", e => {
+    const li = e.target.closest("li[data-id]"); if (!li) return unHl();
+    const m = markers.get(li.dataset.id); if (!m) return;
+    const vis = cluster.getVisibleParent(m), el = vis && vis.getElement && vis.getElement();
+    if (el === hlEl) return;
+    unHl(); if (el) { hlEl = el; el.classList.add("hl"); }
+  });
+  $("#list").addEventListener("mouseleave", unHl);
   $("#search").addEventListener("input", renderList);
   $("#search").addEventListener("focus", () => { if (sheetSnap === "peek") setSnap("half"); });
 
