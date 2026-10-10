@@ -352,6 +352,7 @@
  },
  "hk-arsenal-street": {
   "prio": "mittel",
-  "fav": true
+  "fav": true,
+  "done": true
  }
 }
