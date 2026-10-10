@@ -1,6 +1,6 @@
 // Offline-Unterstützung für die Insta Map (als App auf dem Home-Bildschirm).
 // Seite & Daten: erst Netz, sonst Cache. Bilder, Bibliotheken, Kartenkacheln: erst Cache, sonst Netz (und merken).
-const CORE = "core-v1", MEDIA = "media-v1", TILES = "tiles-v1";
+const CORE = "core-v2", MEDIA = "media-v1", TILES = "tiles-v1";
 const CORE_FILES = ["./", "index.html", "crypto.js", "config.js", "data/places.js", "data/china.js",
   "manifest.webmanifest", "icons/icon-192.png", "icons/apple-touch-icon.png"];
 
@@ -12,7 +12,7 @@ self.addEventListener("activate", e => e.waitUntil(self.clients.claim()));
 const networkFirst = async (req, key) => {
   const c = await caches.open(CORE);
   try {
-    const res = await fetch(req);
+    const res = await fetch(req, { cache: "no-cache" });  // Seite immer frisch beim Server prüfen
     if (res.ok) c.put(key, res.clone());
     return res;
   } catch {

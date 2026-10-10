@@ -357,20 +357,29 @@
   // Vergleich über die Inline-Skripte: die ändert JavaScript nie, anders als das DOM.
   // Offline-Fähigkeit (App auf dem Home-Bildschirm)
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
-  window.addEventListener("load", () => setTimeout(async () => {
+  // Prüfen beim Start, beim Zurückkehren in die App (iOS hält installierte Apps im Hintergrund) und alle 10 Minuten
+  async function checkUpdate() {
     try {
       const fp = t => { let h = 0; for (let i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) | 0; return h; };
       const inline = doc => [...doc.querySelectorAll("script:not([src])")].map(x => x.textContent).join("\n");
       const html = await fetch(location.pathname + "?check=" + Date.now(), { cache: "no-store" }).then(r => r.ok ? r.text() : "");
       if (!html) return;
       const fresh = new DOMParser().parseFromString(html, "text/html");
-      if (fp(inline(fresh)) !== fp(inline(document))) {
+      // Neue Spots (Daten geändert, z.B. durch die stündliche Verarbeitung)?
+      const tags = await Promise.all(["data/places.js", "data/china.js"].map(f =>
+        fetch(f + "?check=" + Date.now(), { method: "HEAD", cache: "no-store" }).then(r => r.headers.get("etag") || r.headers.get("last-modified") || "").catch(() => "")));
+      const tag = tags.join("|"), dataChanged = checkUpdate.tag && tag && tag !== checkUpdate.tag;
+      if (!checkUpdate.tag) checkUpdate.tag = tag;
+      if (dataChanged || fp(inline(fresh)) !== fp(inline(document))) {
         const bar = document.getElementById("update");
         bar.hidden = false;
         bar.onclick = () => location.replace(location.pathname + "?" + (/[?&]drehbar/.test(location.search) ? "drehbar&" : "") + "v=" + Date.now());
       }
     } catch {}
-  }, 1500));
+  }
+  window.addEventListener("load", () => setTimeout(checkUpdate, 1500));
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkUpdate(); });
+  setInterval(checkUpdate, 10 * 60 * 1000);
 </script>
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
