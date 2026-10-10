@@ -346,6 +346,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
 <script>
+  // Variante mit drehbarer Karte: …/insta_map/?drehbar (bzw. rotate.html) – OpenStreetMap/Satellit statt Google, mit zwei Fingern drehbar
+  if (/[?&]drehbar/.test(location.search)) document.write('<script src="https://cdn.jsdelivr.net/npm/leaflet-rotate@0.2.8/dist/leaflet-rotate.min.js"><\/script>');
+</script>
+<script>
   // Neue Version der Seite? Hinweis zeigen (kein automatisches Neuladen).
   // Vergleich über die Inline-Skripte: die ändert JavaScript nie, anders als das DOM.
   // Offline-Fähigkeit (App auf dem Home-Bildschirm)
@@ -360,7 +364,7 @@
       if (fp(inline(fresh)) !== fp(inline(document))) {
         const bar = document.getElementById("update");
         bar.hidden = false;
-        bar.onclick = () => location.replace(location.pathname + "?v=" + Date.now());
+        bar.onclick = () => location.replace(location.pathname + "?" + (/[?&]drehbar/.test(location.search) ? "drehbar&" : "") + "v=" + Date.now());
       }
     } catch {}
   }, 1500));
@@ -377,14 +381,21 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-  const map = L.map("map", { zoomControl: false, tap: true, tapHold: true, maxZoom: 21 }).setView([22.3, 114.17], 12);
+  const ROTATE = /[?&]drehbar/.test(location.search) && !!L.Map.prototype.setBearing;
+  const map = L.map("map", { zoomControl: false, tap: true, tapHold: true, maxZoom: 21,
+    ...(ROTATE ? { rotate: true, touchRotate: true, bearing: 0, rotateControl: { closeOnZeroBearing: false, position: "topright" } } : {}) }).setView([22.3, 114.17], 12);
   L.control.zoom({ position: "topright" }).addTo(map);
   const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 21, maxNativeZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   });
 
   // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
-  const gKey = (unlockedKey || "").trim();
+  const gKey = ROTATE ? "" : (unlockedKey || "").trim();  // Google-Kacheln lassen sich nicht drehen
+  if (ROTATE) {
+    const sat = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+      maxZoom: 21, maxNativeZoom: 19, attribution: "Esri World Imagery" });
+    L.control.layers({ "OpenStreetMap": osm, "Satellit": sat }, null, { position: "topright" }).addTo(map);
+  }
   const loadScript = src => new Promise((ok, fail) => {
     const el = document.createElement("script"); el.src = src; el.onload = ok; el.onerror = fail; document.head.appendChild(el);
   });
@@ -1064,10 +1075,21 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (h == null || isNaN(h)) return;
     h = (h + ((screen.orientation && screen.orientation.angle) || window.orientation || 0) + 360) % 360;
     // kürzester Weg, damit der Kegel bei 359°→1° nicht einmal herumwirbelt
+    lastHeading = h;
+    if (ROTATE && follow && me) map.setBearing(BEARING_SIGN * h);  // Karte dreht sich mit: Blickrichtung oben
+    drawCone();
+  }
+  // Kegel relativ zum Bildschirm: Blickrichtung minus Drehung der Karte
+  let lastHeading = null;
+  const BEARING_SIGN = -1;  // leaflet-rotate: Bearing B dreht Norden um +B im Uhrzeigersinn
+  function drawCone() {
+    if (lastHeading == null) return;
+    const h = lastHeading - (ROTATE ? BEARING_SIGN * map.getBearing() : 0);
     headingShown = headingShown == null ? h : headingShown + ((((h - headingShown) % 360) + 540) % 360 - 180);
     const cone = meMarker && meMarker.getElement() && meMarker.getElement().querySelector(".me-cone");
     if (cone) { cone.classList.add("on"); cone.style.setProperty("--h", headingShown + "deg"); }
   }
+  if (ROTATE) { map.on("rotate", drawCone); window.__map = map; }
   async function startCompass() {
     if (compassOn || !window.DeviceOrientationEvent) return;
     try {
