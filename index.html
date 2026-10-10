@@ -395,7 +395,7 @@
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
   const v = Date.now();
-  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script>`);
+  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script>`);
 </script>
 <script src="crypto.js"></script>
 <script>
@@ -551,20 +551,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
 
   // ---------- Unser Hotel (immer sichtbar, nicht gefiltert)
   // ---------- Reiseroute (Stationen mit Umkreis in km): Filter „🧭 Route“ zeigt Spots in der Nähe
-  const ROUTE = [
-    { d: "10.–14.10.", name: "Hongkong", lat: 22.30, lng: 114.17, r: 40 },
-    { d: "14.10.", name: "Shenzhen (Nantou Old Town)", lat: 22.5459, lng: 113.9163, r: 25 },
-    { d: "15.10.", name: "Xingping (Fischer)", lat: 24.9198, lng: 110.5278, r: 15 },
-    { d: "15.–18.10.", name: "Yangshuo (Secret Glen Hotel)", lat: 24.7883, lng: 110.4275, r: 30 },
-    { d: "16.10.", name: "Longji-Reisterrassen", lat: 25.7734, lng: 110.1429, r: 15 },
-    { d: "19.10.", name: "Zhanli & Huanggang Village", lat: 25.88, lng: 108.95, r: 35 },
-    { d: "20.10.", name: "Dali Dong Village", lat: 26.0415, lng: 108.6394, r: 15 },
-    { d: "21.10.", name: "Langde Miao & Maliao Village", lat: 26.474, lng: 108.0575, r: 25 },
-    { d: "22.10.", name: "Kaili", lat: 26.6065, lng: 107.9718, r: 20 },
-    { d: "23.–25.10.", name: "Zhangjiajie (Yuanjiajie, Tianzi, Tianmen)", lat: 29.3501, lng: 110.4355, r: 45 },
-    { d: "26.–27.10.", name: "Chongqing", lat: 29.5601, lng: 106.5734, r: 35 },
-    { d: "28.10.–1.11.", name: "Shanghai", lat: 31.2353, lng: 121.4876, r: 70 },
-  ];
+  const ROUTE = window.TRIP.route;
   const routeCache = new Map();
   const routeStop = p => {  // nächstgelegene Station im Umkreis (Index) oder -1
     const k = p.id + p.lat + p.lng;
@@ -582,30 +569,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       .bindTooltip(`${r.d} · ${r.name}`, { direction: "top", offset: [0, -6] })),
   ]);
   // Unsere Unterkünfte (approx = Lage nur ungefähr bekannt, Ort/Dorf stimmt)
-  const HOTELS = [
-    { name: "The Harbourview", zh: "灣景國際 · 香港中華基督教青年會", lat: 22.280201, lng: 114.171109,
-      address: "4 Harbour Road, Wan Chai, Hong Kong · 香港灣仔港灣道4號", dates: "10.–14. Okt. (4 Nächte)", room: "Executive Zimmer" },
-    { name: "Jiangnan House Nantou", zh: "深圳南头古城", lat: 22.545944, lng: 113.916275,
-      address: "No. 22, Le Ping Street, Nantou Old Town, Nanshan, Shenzhen · 乐平街22号", dates: "14.–15. Okt. (1 Nacht) · Check-in ab 15 Uhr", room: "" },
-    { name: "The Secret Glen Hotel", zh: "阳朔", lat: 24.7738, lng: 110.4639, approx: true,
-      address: "Tieling Village, Jima, Yangshuo – ca. 660 m vom Guilin Songcheng Show Park, 5 km zum Yulong River", dates: "15.–18. Okt. (3 Nächte)", room: "Mushan Panoramaterrassenzimmer, King-Bett" },
-    { name: "Valley View Hotel", zh: "龙脊·田间阁（九龙五虎观景台店）", lat: 25.758937, lng: 110.121129, approx: true,
-      address: "Nr. 1 Ping'an Village, Longji-Reisterrassen – ca. 200 m vom Aussichtspunkt Jiulong Wuhu; Shuttle ab Parkplatz Ping'an", dates: "18.–19. Okt. (1 Nacht)", room: "Xi Shang Mei Shao Sunrise Doppelzimmer" },
-    { name: "Huanggang Hecang Granary Inn", zh: "黎平黄岗", lat: 25.91932, lng: 108.97238, approx: true,
-      address: "No. 18, Huanggang Dong Village, Shuangjiang Town, Liping (Pin auf dem Dorf, Hotel ca. 300 m entfernt)", dates: "19.–20. Okt. (1 Nacht)", room: "Hillside Zuoyue Scenic View Doppelzimmer" },
-    { name: "See you on the well · Dali Dongzhai The Well House", zh: "大利侗寨", lat: 26.041535, lng: 108.639425, approx: true,
-      address: "Dali Dong Village, Rongjiang", dates: "20.–21. Okt. (1 Nacht)", room: "Familienzimmer mit Blick (Balkon)" },
-    { name: "Qixi Homestay", zh: "郎德苗寨", lat: 26.474, lng: 108.057544, approx: true,
-      address: "Langde Miao Village Scenic Area, Leishan", dates: "21.–22. Okt. (1 Nacht)", room: "The Wizard of Oz King-Size Bed (Badewanne)" },
-    { name: "Leli Villa Designer", zh: "凯里", lat: 26.5177, lng: 107.8838, approx: true,
-      address: "6 Jinhui Avenue, Economic Development Zone, Kaili – ca. 5 Min. vom Bahnhof Kaili South", dates: "22.–23. Okt. (1 Nacht)", room: "Le Yin 270° Scenic Balcony Doppelzimmer" },
-    { name: "Zhangjiajie YOLO Resort", zh: "云上茶园 · 袁家界茶场", lat: 29.371595, lng: 110.429564,
-      address: "Yuanjiajie-Teeplantage, Tianzishan Scenic Area, Wulingyuan – mitten im Nationalpark · 张家界市武陵源区天子山景区袁家界茶场", dates: "23.–26. Okt. (3 Nächte) · Check-in ab 13 Uhr", room: "" },
-    { name: "The Lixury Hotel Chongqing", zh: "Unbound Collection by Hyatt · 重庆环球金融中心", lat: 29.561909, lng: 106.5742,
-      address: "188 Minzu Road, Yuzhong (World Financial Center, obere Etagen), 1 Min. zur Jiefangbei", dates: "26.–28. Okt. (2 Nächte)", room: "Kingsize-Bett mit Flussblick" },
-    { name: "Hyatt on the Bund", zh: "上海外滩茂悦大酒店", lat: 31.247314, lng: 121.488386,
-      address: "199 Huangpu Road, Hongkou, Shanghai", dates: "28. Okt.–1. Nov. (4 Nächte)", room: "" },
-  ];
+  const HOTELS = window.TRIP.hotels;
   const hotelIcon = L.divIcon({ className: "", iconSize: [24, 24], iconAnchor: [12, 12], popupAnchor: [0, -12],
     html: '<div class="hotel-pin" title="Hotel">🏨</div>' });
   const farZoom = () => map.getContainer().classList.toggle("zoom-far", map.getZoom() < 10);
