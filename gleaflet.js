@@ -119,6 +119,9 @@
       // Klick auf die Karte schließt das Popup (wie Leaflet)
       this._g.addListener("click", () => this.closePopup());
       this._longPress(inner);
+      // Googles eigene Umrechnung Bildschirm ↔ Koordinate (kennt Drehen und Kippen)
+      this._proj = new (g().OverlayView)(); this._proj.onAdd = () => {}; this._proj.draw = () => {}; this._proj.onRemove = () => {};
+      this._proj.setMap(this._g);
       setTimeout(() => { if (this._g.getRenderingType && this._g.getRenderingType() !== "VECTOR" && window.toastGL) window.toastGL(); }, 5000);
     }
     _hook(t) {
@@ -162,6 +165,11 @@
     }
     // Bildschirmpunkt → Koordinate (Web-Mercator, berücksichtigt die Drehung; Kippen nur näherungsweise)
     containerPointToLatLng(pt) {
+      const pr = this._proj && this._proj.getProjection();
+      if (pr && pr.fromContainerPixelToLatLng) {
+        const ll = pr.fromContainerPixelToLatLng(new (g().Point)(pt[0], pt[1]));
+        if (ll && isFinite(ll.lat()) && isFinite(ll.lng())) return latLng(ll);  // über dem Horizont (stark gekippt) → Näherung unten
+      }
       const r = this._box.getBoundingClientRect(), c = toLL(this._g.getCenter() || { lat: 0, lng: 0 }), z = this.getZoom();
       const S = 256 * Math.pow(2, z), h = (this._g.getHeading() || 0) * Math.PI / 180;
       const sx = pt[0] - r.width / 2, sy = pt[1] - r.height / 2;
