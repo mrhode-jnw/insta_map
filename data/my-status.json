@@ -347,7 +347,8 @@
   "prio": "hoch"
  },
  "hk-lee-kung-man-knitting-factory-neon": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "hidden": true
  },
  "hk-arsenal-street": {
   "prio": "mittel",
