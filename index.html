@@ -660,6 +660,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   });
   // Geplante Tour (z.B. Morgenroute): Wege (zu Fuß blau gestrichelt, Taxi grau), nummerierte Stopps mit Uhrzeit, Blickrichtung am Standpunkt
   const TOUR = (window.TRIP.tours || [])[0];
+  let tourSet = null;  // für Links mit #tour=…
   if (TOUR) {
     const parts = [];
     TOUR.segs.forEach(sg => parts.push(sg.mode === "walk"
@@ -676,7 +677,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const setTour = on => { tourOn = on; tb.classList.toggle("on", on); on ? tourLayer.addTo(map) : tourLayer.remove();
       try { on ? localStorage.setItem("tour", TOUR.id) : localStorage.removeItem("tour"); } catch {} };
     tb.onclick = () => { setTour(!tourOn); toast(tourOn ? `🚶 ${TOUR.name} eingeblendet · Start: ${TOUR.start}` : "Route ausgeblendet", 2500); };
-    setTour(tourOn);
+    setTour(tourOn); tourSet = setTour;
   }
   // Unsere Unterkünfte (approx = Lage nur ungefähr bekannt, Ort/Dorf stimmt)
   const HOTELS = window.TRIP.hotels;
@@ -1788,6 +1789,22 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   loadMine();
   loadStatus();
   loadWikiImages();
+
+  // Direktlink: …/insta_map/#spot=<id>&tour=<id> → Route einblenden, Spot zeigen und öffnen
+  function openFromHash() {
+    const h = new URLSearchParams(location.hash.slice(1)), id = h.get("spot"), tour = h.get("tour");
+    if (!id && !tour) return;
+    history.replaceState(null, "", location.pathname + location.search);  // gleicher Link später nochmal antippbar
+    if (tour && tourSet && TOUR && TOUR.id === tour) tourSet(true);
+    const p = id && places.find(x => x.id === id), m = p && markers.get(id);
+    if (!p) { if (id) toast("Spot nicht gefunden", 2500); return; }
+    if (mobile()) setSnap("peek");
+    map.setView([p.lat, p.lng], Math.max(map.getZoom(), 17), { animate: false });
+    if (!m || !shown.has(id)) { toast("Spot ist gerade ausgefiltert – Filter prüfen", 3500); return; }
+    setTimeout(() => cluster.zoomToShowLayer(m, () => openSpot(m)), 400);
+  }
+  window.addEventListener("hashchange", openFromHash);
+  setTimeout(openFromHash, 900);
 }
 
 // ---------- Zugangscode: entschlüsselt den Google-Maps-Key; ohne Code startet die Karte nicht
