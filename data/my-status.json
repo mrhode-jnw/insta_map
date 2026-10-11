@@ -276,7 +276,8 @@
   "prio": "hoch"
  },
  "hk-majestic-apartments-north-point": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "done": true
  },
  "hk-soy-street-tunnel": {
   "prio": "gering"
