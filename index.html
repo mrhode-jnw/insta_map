@@ -1032,8 +1032,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const counts = {}; places.filter(p => p.id === stickyId || matchesFilter(p)).forEach(p => { const a = areaOf(p); counts[a] = (counts[a] || 0) + 1; });
     areaF = af;
     if (areaF && !counts[areaF]) areaF = "";
-    sel.innerHTML = `<option value="">📍 Alle Viertel</option>` + Object.keys(counts).sort((a, b) => a.localeCompare(b, "de"))
+    const opts = `<option value="">📍 Alle Viertel</option>` + Object.keys(counts).sort((a, b) => a.localeCompare(b, "de"))
       .map(a => `<option value="${esc(a)}"${a === areaF ? " selected" : ""}>${esc(a)} (${counts[a]})</option>`).join("");
+    if (opts !== sel.dataset.opts) { sel.innerHTML = opts; sel.dataset.opts = opts; }
     let items = places.filter(matches);
     syncMarkers(items);
     if (inView) { const vb = visibleBounds(); items = items.filter(p => vb.contains([p.lat, p.lng])); }
@@ -1055,12 +1056,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const head = (p, i) => sortBy === "area" && (i === 0 || items[i - 1]._a !== p._a)
       ? `<li class="sec areahead">${esc(p._a)} <small>(${items.filter(x => x._a === p._a).length})</small></li>` : "";
     if (view === "grid") {
-      $("#list").innerHTML = items.length ? items.map((p, i) => { const s = st(p.id); return `${head(p, i)}
+      setList(items.length ? items.map((p, i) => { const s = st(p.id); return `${head(p, i)}
         <li class="gi${s.done ? " done" : ""}" data-id="${esc(p.id)}">
           ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}
           <div class="badge">${s.fav ? "<span class=\"fav-badge\">❤</span>" : ""}${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
-          <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : "", here() ? fmt(p._d) : ""].filter(Boolean).join(" · "))}</small></div>
-        </li>`; }).join("") : `<li id="empty">Keine Treffer.</li>`;
+          <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : ""].filter(Boolean).join(" · "))}${here() ? ` · <span class="dist">${fmt(p._d)}</span>` : ""}</small></div>
+        </li>`; }).join("") : `<li id="empty">Keine Treffer.</li>`);
       return;
     }
     const unplaced = unplacedAll.filter(x => routeF || region === "all" || (x.region || "hk") === region);
@@ -1068,14 +1069,27 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <li class="sec">Ohne konkreten Ort <small>(${unplaced.length} Posts – Inspiration)</small></li>
       <li class="sec" style="padding:0;border:0"><div class="ugrid">${unplaced.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
         ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>@${esc(x.username)}</span></a>`).join("")}</div></li>` : "";
-    $("#list").innerHTML = (items.length ? items.map((p, i) => `${head(p, i)}
+    setList((items.length ? items.map((p, i) => `${head(p, i)}
       <li data-id="${esc(p.id)}">
         ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
           ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${esc([p.category, p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
-        ${here() ? `<div class="d">${fmt(p._d)}</div>` : ""}
+        ${here() ? `<div class="d"><span class="dist">${fmt(p._d)}</span></div>` : ""}
       </li>`).join("")
-      : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`) + extra;
+      : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`) + extra);
+  }
+  // Liste nur neu aufbauen, wenn sich Auswahl/Reihenfolge/Inhalt ändert – sonst flackern alle Bilder.
+  // Reine Entfernungs-Updates (Standort läuft mit) ändern nur die Zahlen.
+  let listKey = null;
+  const DIST_RE = /<span class="dist">[^<]*<\/span>/g;
+  function setList(html) {
+    const key = html.replace(DIST_RE, "");
+    if (key === listKey) {
+      const ds = html.match(DIST_RE) || [];
+      $("#list").querySelectorAll("span.dist").forEach((el, i) => { const t = (ds[i] || "").replace(/<[^>]+>/g, ""); if (el.textContent !== t) el.textContent = t; });
+      return;
+    }
+    listKey = key; $("#list").innerHTML = html;
   }
   $("#list").addEventListener("click", e => {
     const li = e.target.closest("li[data-id]"); if (!li) return;
