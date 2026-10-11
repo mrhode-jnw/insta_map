@@ -266,6 +266,41 @@
   .pop .status button.shot.on::after { content: "✓"; position: absolute; right: -6px; top: -6px; width: 16px; height: 16px; border-radius: 50%;
     background: #16a34a; color: #fff; font-size: 11px; line-height: 16px; }
   .pop .status label { font-size: 12.5px; margin-left: auto; display: flex; gap: 4px; align-items: center; color: #111827; }
+  /* Touren */
+  #toursDlg { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #fff); color: var(--fg); display: flex; flex-direction: column; }
+  #toursDlg[hidden], #tourPick[hidden] { display: none; }
+  @media (min-width: 800px) { #toursDlg { left: auto; width: 420px; box-shadow: var(--shadow); } }
+  #toursDlg header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 14px 10px; border-bottom: 1px solid var(--line); }
+  #toursDlg header b { font-size: 17px; } #toursDlg header span { flex: 1; }
+  #toursDlg header button { width: 38px; height: 34px; border-radius: 10px; border: 0; background: #111827; color: #fff; font-size: 17px; cursor: pointer; }
+  #toursBody { flex: 1; overflow-y: auto; padding: 12px 12px calc(env(safe-area-inset-bottom) + 20px); }
+  .thint { font-size: 12.5px; color: var(--muted); margin: 8px 2px 12px; }
+  .tbtn { display: inline-block; border: 1px solid var(--line); background: transparent; color: var(--fg); border-radius: 10px; padding: 7px 10px; font-size: 13.5px; cursor: pointer; text-decoration: none; margin: 4px 4px 0 0; }
+  .tbtn.primary { background: var(--accent); color: #fff; border-color: var(--accent); width: 100%; font-size: 15px; padding: 10px; }
+  .tbtn.warn { color: #b91c1c; border-color: #fecaca; }
+  .tcard { border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px; margin-bottom: 10px; }
+  .tcard.on { border-color: #2563eb; box-shadow: 0 0 0 1px #2563eb inset; }
+  .thead { display: flex; align-items: center; gap: 8px; }
+  .thead .tname { flex: 1; cursor: pointer; line-height: 1.3; } .thead small { color: var(--muted); }
+  .teye, .tmore { width: 36px; height: 34px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 17px; cursor: pointer; }
+  .tcard.on .teye { background: #2563eb; color: #fff; border-color: #2563eb; }
+  .tstops { margin: 8px 0 4px; padding-left: 22px; }
+  .tstops li { padding: 5px 0; border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 6px; }
+  .tstops li::marker { color: #2563eb; font-weight: 700; }
+  .tsn { flex: 1; cursor: pointer; font-size: 14px; } .tsn small { color: var(--muted); }
+  .tsb button { width: 30px; height: 28px; border-radius: 8px; border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; }
+  .tsb button:disabled { opacity: .3; }
+  #tourPick { position: fixed; inset: 0; z-index: 2600; background: rgba(0,0,0,.35); display: flex; align-items: flex-end; justify-content: center; }
+  .tpcard { background: var(--bg, #fff); color: var(--fg); width: 100%; max-width: 420px; border-radius: 16px 16px 0 0; padding: 12px 14px calc(env(safe-area-inset-bottom) + 16px); max-height: 70vh; overflow-y: auto; }
+  @media (min-width: 800px) { #tourPick { align-items: center; } .tpcard { border-radius: 16px; } }
+  .tphead { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .tpclose { width: 34px; height: 32px; border-radius: 10px; border: 0; background: #111827; color: #fff; cursor: pointer; }
+  .tprow { display: flex; align-items: center; gap: 10px; padding: 10px 2px; border-bottom: 1px solid var(--line); font-size: 15px; }
+  .tprow input { width: 20px; height: 20px; } .tprow small { color: var(--muted); }
+  .tpnew { display: flex; gap: 8px; margin-top: 10px; }
+  .tpnew input { flex: 1; padding: 9px 11px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 16px; }
+  .tpnew button { width: 44px; border-radius: 10px; border: 0; background: var(--accent); color: #fff; font-size: 20px; cursor: pointer; }
+  .pop .links .tadd { flex: 1; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #ede9fe; color: #4c1d95; font-weight: 600; cursor: pointer; }
   /* Inspiration: Bildersammlung unabhängig von Spots (data/inspiration.js) */
   #insp { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
   #insp[hidden] { display: none; }
@@ -353,7 +388,7 @@
     <option value="route">🧭 Route</option><option value="hk">🇭🇰 Hongkong</option><option value="cn">🇨🇳 China</option><option value="all">🌏 Alles</option></select></label>
   <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button>
 </div>
-<button id="tourBtn" class="fab" title="Morgenroute ein/aus" aria-label="Morgenroute ein/aus" hidden>🚶</button>
+<button id="tourBtn" class="fab" title="Touren" aria-label="Touren" hidden>🧭</button>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
 <button id="add" class="fab" title="Spot hinzufügen" aria-label="Spot hinzufügen">+</button>
 <div id="addDlg" hidden>
@@ -413,6 +448,11 @@
 </section>
 <div id="toast"></div>
 <button id="update" hidden>Neue Version verfügbar – tippen zum Laden</button>
+<div id="toursDlg" hidden role="dialog" aria-label="Touren">
+  <header><b>🧭 Touren</b><span></span><button id="toursClose" aria-label="Schließen">✕</button></header>
+  <div id="toursBody"></div>
+</div>
+<div id="tourPick" hidden></div>
 <div id="insp" hidden role="dialog" aria-label="Inspiration">
   <header><b>💡 Inspiration</b><span id="inspSub"></span><button id="inspClose" aria-label="Schließen">✕</button></header>
   <div id="inspBody"></div>
@@ -617,6 +657,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${hero && p.caption && (p.image || !generic.length) ? `<div class="cap">${esc(p.caption)}</div>` : ""}
         <div class="links">
           <button class="showmap" data-show="${esc(p.id)}">📍 Springe zu Spot</button>
+          <button class="tadd" data-tadd="${esc(p.id)}">🧭 Tour${tourCount(p.id) ? ` · ${tourCount(p.id)}` : ""}</button>
           ${hero && p.post_url && (p.image || !generic.length) ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Post</a>
           ${p.profile_url ? `<a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>` : ""}` : ""}
           ${p.wiki_url ? `<a class="wiki" href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
@@ -677,26 +718,187 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     h.rays.forEach(r => L.polyline([h.from, ray(h.from, r.az, r.len || 900)], { color: "#eab308", weight: 3, opacity: .95, dashArray: "4 6", interactive: false }).addTo(map));
   });
   // Geplante Tour (z.B. Morgenroute): Wege (zu Fuß blau gestrichelt, Taxi grau), nummerierte Stopps mit Uhrzeit, Blickrichtung am Standpunkt
-  const TOUR = (window.TRIP.tours || [])[0];
-  let tourSet = null;  // für Links mit #tour=…
-  if (TOUR) {
-    const parts = [];
-    TOUR.segs.forEach(sg => parts.push(sg.mode === "walk"
+  // ---------- Touren: eigene Touren aus markierten Spots (data/my-tours.json im Repo, sonst nur lokal) + vorbereitete (TRIP.tours)
+  const TOURS_PATH = "data/my-tours.json";
+  const BUILTIN_TOURS = (window.TRIP.tours || []).map(t => ({ ...t, builtin: true }));
+  let myTours = []; try { myTours = JSON.parse(localStorage.getItem("myTours") || "[]"); } catch {}
+  let activeTour = null; try { activeTour = localStorage.getItem("tour"); } catch {}
+  let tourRoutes = {}; try { tourRoutes = JSON.parse(localStorage.getItem("tourRoutes") || "{}"); } catch {}
+  const allTours = () => [...myTours, ...BUILTIN_TOURS];
+  const tourById = id => allTours().find(t => t.id === id);
+  const shortName = n => n.replace(/\s*[　-鿿].*$/, "").replace(/\s*[–(].*$/, "").trim() || n;
+  const tourStops = t => t.builtin ? t.stops : t.stops.map(id => places.find(p => p.id === id)).filter(Boolean)
+    .map((p, i) => ({ n: i + 1, name: shortName(p.name), lat: p.lat, lng: p.lng, id: p.id }));
+  const routeKey = stops => stops.map(s => s.lat.toFixed(5) + "," + s.lng.toFixed(5)).join(";");
+  const meters = (a, b) => dist({ lat: a.lat, lng: a.lng }, { lat: b.lat, lng: b.lng });
+  function tourStats(t) {
+    const stops = tourStops(t);
+    const segs = t.builtin ? t.segs : (tourRoutes[routeKey(stops)] || null);
+    if (segs) { const w = segs.filter(s => s.mode === "walk");
+      return { m: w.reduce((a, s) => a + (s.m || 0), 0), min: w.reduce((a, s) => a + (s.min || 0), 0), taxi: segs.length - w.length, exact: true }; }
+    let m = 0; for (let i = 1; i < stops.length; i++) m += meters(stops[i - 1], stops[i]);
+    return { m: m * 1.3, min: Math.round(m * 1.3 / 75), exact: false };
+  }
+  const tb = $("#tourBtn"); tb.hidden = false; tb.title = "Touren";
+  let tourLayer = null;
+  function drawTour() {
+    if (tourLayer) { tourLayer.remove(); tourLayer = null; }
+    const t = activeTour && tourById(activeTour);
+    tb.classList.toggle("on", !!t);
+    if (!t) return;
+    const stops = tourStops(t), parts = [];
+    const segs = t.builtin ? t.segs : tourRoutes[routeKey(stops)];
+    if (segs) segs.forEach(sg => parts.push(sg.mode === "walk"
       ? L.polyline(sg.path, { color: "#2563eb", weight: 5, opacity: .85, dashArray: "2 9", interactive: false })
       : L.polyline(sg.path, { color: "#475569", weight: 4, opacity: .6, interactive: false })));
-    TOUR.stops.forEach(t => {
-      if (t.view != null) parts.push(L.polyline([[t.lat, t.lng], ray([t.lat, t.lng], t.view, 30)], { color: "#2563eb", weight: 4, opacity: .95, interactive: false }));
-      parts.push(L.marker([t.lat, t.lng], { interactive: false, zIndexOffset: 2000, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
-        html: `<div class="tour-stop"><b>${t.n}</b><span>${esc(t.t)} ${esc(t.name)}</span></div>` }) }));
+    else if (stops.length > 1) parts.push(L.polyline(stops.map(s => [s.lat, s.lng]), { color: "#2563eb", weight: 3, opacity: .6, dashArray: "6 8", interactive: false }));
+    stops.forEach(st => {
+      if (st.view != null) parts.push(L.polyline([[st.lat, st.lng], ray([st.lat, st.lng], st.view, 30)], { color: "#2563eb", weight: 4, opacity: .95, interactive: false }));
+      parts.push(L.marker([st.lat, st.lng], { interactive: false, zIndexOffset: 2000, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
+        html: `<div class="tour-stop"><b>${st.n}</b><span>${st.t ? esc(st.t) + " " : ""}${esc(st.name)}</span></div>` }) }));
     });
-    const tourLayer = L.layerGroup(parts), tb = $("#tourBtn");
-    tb.hidden = false; tb.title = TOUR.name + " ein/aus";
-    let tourOn = false; try { tourOn = localStorage.getItem("tour") === TOUR.id; } catch {}
-    const setTour = on => { tourOn = on; tb.classList.toggle("on", on); on ? tourLayer.addTo(map) : tourLayer.remove();
-      try { on ? localStorage.setItem("tour", TOUR.id) : localStorage.removeItem("tour"); } catch {} };
-    tb.onclick = () => { setTour(!tourOn); toast(tourOn ? `🚶 ${TOUR.name} eingeblendet · Start: ${TOUR.start}` : "Route ausgeblendet", 2500); };
-    setTour(tourOn); tourSet = setTour;
+    tourLayer = L.layerGroup(parts).addTo(map);
+    if (!t.builtin && !segs && stops.length > 1) fetchWalk(stops).then(ok => { if (ok && activeTour === t.id) { drawTour(); if (!$("#toursDlg").hidden) renderTours(); } });
   }
+  async function fetchWalk(stops) {  // Fußweg über alle Stopps (OSRM, routing.openstreetmap.de); ohne Netz bleibt die Luftlinie
+    const key = routeKey(stops);
+    if (tourRoutes[key]) return true;
+    try {
+      const r = await fetch(`https://routing.openstreetmap.de/routed-foot/route/v1/driving/${stops.map(s => s.lng + "," + s.lat).join(";")}?overview=full&geometries=geojson`);
+      const j = await r.json(); const rt = j.routes && j.routes[0]; if (!rt) return false;
+      tourRoutes[key] = [{ mode: "walk", m: Math.round(rt.distance), min: Math.round(rt.duration / 60), path: rt.geometry.coordinates.map(c => [c[1], c[0]]) }];
+      const keys = Object.keys(tourRoutes); if (keys.length > 30) delete tourRoutes[keys[0]];
+      try { localStorage.setItem("tourRoutes", JSON.stringify(tourRoutes)); } catch {}
+      return true;
+    } catch { return false; }
+  }
+  function setActiveTour(id) {
+    activeTour = id || null;
+    try { activeTour ? localStorage.setItem("tour", activeTour) : localStorage.removeItem("tour"); } catch {}
+    drawTour();
+  }
+  // Speichern: sofort lokal, kurz danach ins Repo (wie der Status)
+  let toursTimer = null;
+  function saveTours() {
+    try { localStorage.setItem("myTours", JSON.stringify(myTours)); localStorage.setItem("toursDirty", "1"); } catch {}
+    drawTour();
+    if (!store.get(TOKEN_KEY)) return;
+    clearTimeout(toursTimer);
+    toursTimer = setTimeout(async () => {
+      try { await mutate(() => myTours, `Touren aktualisiert (${myTours.length})`, TOURS_PATH, []); try { localStorage.removeItem("toursDirty"); } catch {} }
+      catch (e) { toast("Touren nur lokal gespeichert: " + e.message, 4000); }
+    }, 1200);
+  }
+  async function loadTours() {
+    try {
+      let dirty = false; try { dirty = localStorage.getItem("toursDirty") === "1"; } catch {}
+      if (dirty) return saveTours();  // ungespeicherte lokale Änderungen zuerst hochladen
+      const token = store.get(TOKEN_KEY);
+      const list = token ? (await ghGet(token, TOURS_PATH, [])).list : await rawJson(TOURS_PATH, []);
+      if (Array.isArray(list)) { myTours = list; try { localStorage.setItem("myTours", JSON.stringify(myTours)); } catch {} drawTour(); if (!$("#toursDlg").hidden) renderTours(); }
+    } catch (e) { console.warn("Touren:", e); }
+  }
+  function newTour(name) {
+    name = (name || "").trim(); if (!name) return null;
+    const t = { id: "t" + Date.now().toString(36), name, stops: [], created: new Date().toISOString().slice(0, 10) };
+    myTours.unshift(t); saveTours(); return t;
+  }
+  // Reihenfolge optimieren: nächster Nachbar ab dem ersten Stopp, dann 2-opt (offener Weg, Start bleibt)
+  function optimize(t) {
+    const P = tourStops(t); if (P.length < 3) return;
+    const d = (a, b) => meters(P[a], P[b]);
+    let order = [0], left = P.map((_, i) => i).slice(1);
+    while (left.length) { const last = order[order.length - 1]; left.sort((a, b) => d(last, a) - d(last, b)); order.push(left.shift()); }
+    let better = true;
+    while (better) { better = false;
+      for (let i = 1; i < order.length - 1; i++) for (let k = i + 1; k < order.length; k++) {
+        const a = order[i - 1], b = order[i], c = order[k], e = order[k + 1];
+        const before = d(a, b) + (e != null ? d(c, e) : 0), after = d(a, c) + (e != null ? d(b, e) : 0);
+        if (after < before - 1) { order = [...order.slice(0, i), ...order.slice(i, k + 1).reverse(), ...order.slice(k + 1)]; better = true; }
+      } }
+    t.stops = order.map(i => P[i].id); saveTours();
+  }
+  function gmapsLink(t) {
+    const s = tourStops(t).slice(0, 11); if (s.length < 2) return "";
+    const ll = x => `${x.lat},${x.lng}`;
+    return `https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=${ll(s[0])}&destination=${ll(s[s.length - 1])}` +
+      (s.length > 2 ? `&waypoints=${encodeURIComponent(s.slice(1, -1).map(ll).join("|"))}` : "");
+  }
+  // Touren-Fenster
+  let openTourId = null;
+  function renderTours() {
+    const ts = allTours();
+    $("#toursBody").innerHTML = `<button id="tourNew" class="tbtn primary">＋ Neue Tour</button>
+      <p class="thint">Spots hinzufügen: Spot öffnen → <b>🧭 Tour</b>. Auf der Karte erscheint jeweils eine Tour – mit 👁 wählen.</p>` +
+      ts.map(t => {
+        const stops = tourStops(t), stt = tourStats(t), on = activeTour === t.id, open = openTourId === t.id;
+        return `<div class="tcard${on ? " on" : ""}" data-t="${esc(t.id)}">
+          <div class="thead"><button class="teye" data-eye="${esc(t.id)}" title="Auf der Karte zeigen">${on ? "👁" : "◌"}</button>
+            <div class="tname" data-open="${esc(t.id)}"><b>${esc(t.name)}</b>${t.builtin ? ' <small>vorbereitet</small>' : ""}<br>
+            <small>${stops.length} Stopps${stops.length > 1 ? ` · ${stt.exact ? "" : "ca. "}${(stt.m / 1000).toFixed(1)} km zu Fuß${stt.min ? ` (${stt.min} Min.)` : ""}${stt.taxi ? ` + ${stt.taxi}× Taxi` : ""}` : ""}</small></div>
+            <button class="tmore" data-open="${esc(t.id)}">${open ? "▴" : "▾"}</button></div>
+          ${open ? `<ol class="tstops">${stops.map((st, i) => `<li><span class="tsn" data-go="${esc(st.id || "")}" data-ll="${st.lat},${st.lng}">${st.t ? `<small>${esc(st.t)}</small> ` : ""}${esc(st.name)}</span>
+              ${t.builtin ? "" : `<span class="tsb"><button data-up="${i}" ${i ? "" : "disabled"}>↑</button><button data-down="${i}" ${i < stops.length - 1 ? "" : "disabled"}>↓</button><button data-rm="${i}">✕</button></span>`}</li>`).join("")}</ol>
+            <div class="tactions">${!t.builtin && stops.length > 2 ? `<button class="tbtn" data-opt="${esc(t.id)}">⚡ Reihenfolge optimieren</button>` : ""}
+              ${gmapsLink(t) ? `<a class="tbtn" href="${esc(gmapsLink(t))}" target="_blank" rel="noopener">Google Maps ↗</a>` : ""}
+              ${t.builtin ? "" : `<button class="tbtn" data-ren="${esc(t.id)}">Umbenennen</button><button class="tbtn warn" data-del="${esc(t.id)}">Löschen</button>`}</div>
+            ${!t.builtin && !stops.length ? `<p class="thint">Noch leer – Spot öffnen und auf 🧭 Tour tippen.</p>` : ""}` : ""}
+        </div>`; }).join("");
+  }
+  function openTours() { if (!openTourId) openTourId = activeTour; renderTours(); $("#toursDlg").hidden = false; }
+  tb.onclick = e => { e.stopPropagation(); openTours(); };
+  $("#toursClose").onclick = () => { $("#toursDlg").hidden = true; };
+  $("#toursBody").addEventListener("click", e => {
+    const b = e.target.closest("button, [data-open], [data-go]"); if (!b) return;
+    const card = b.closest(".tcard"), t = card && tourById(card.dataset.t);
+    if (b.id === "tourNew") { const n = prompt("Name der Tour:", `Tour ${new Date().toLocaleDateString("de-DE")}`); const nt = newTour(n); if (nt) { openTourId = nt.id; setActiveTour(nt.id); renderTours(); toast("Tour angelegt – jetzt Spots öffnen und 🧭 Tour tippen", 3000); } return; }
+    if (!t) return;
+    if (b.dataset.eye) {
+      const on = activeTour !== t.id; setActiveTour(on ? t.id : null); renderTours();
+      const st = tourStops(t);
+      if (on && st.length) { $("#toursDlg").hidden = true; if (mobile()) setSnap("peek");
+        st.length > 1 ? map.fitBounds(L.latLngBounds(st.map(x => [x.lat, x.lng])), { padding: [60, 60], animate: false }) : map.setView([st[0].lat, st[0].lng], 17, { animate: false }); }
+      return; }
+    if (b.dataset.open) { openTourId = openTourId === t.id ? null : t.id; renderTours(); return; }
+    if (b.dataset.go !== undefined) {  // Stopp antippen → Karte dorthin, Spot öffnen
+      $("#toursDlg").hidden = true; setActiveTour(t.id);
+      const [la, ln] = b.dataset.ll.split(",").map(Number), m = b.dataset.go && markers.get(b.dataset.go);
+      if (mobile()) setSnap("peek");
+      map.setView([la, ln], Math.max(map.getZoom(), 17), { animate: false });
+      if (m && shown.has(b.dataset.go)) setTimeout(() => cluster.zoomToShowLayer(m, () => openSpot(m)), 300);
+      return;
+    }
+    if (t.builtin) return;
+    const i = +(b.dataset.up ?? b.dataset.down ?? b.dataset.rm ?? -1);
+    if (b.dataset.up) { [t.stops[i - 1], t.stops[i]] = [t.stops[i], t.stops[i - 1]]; }
+    else if (b.dataset.down) { [t.stops[i + 1], t.stops[i]] = [t.stops[i], t.stops[i + 1]]; }
+    else if (b.dataset.rm) { t.stops.splice(i, 1); }
+    else if (b.dataset.opt) { optimize(t); toast("Reihenfolge optimiert (kürzester Weg ab dem ersten Stopp)", 2500); renderTours(); return; }
+    else if (b.dataset.ren) { const n = prompt("Neuer Name:", t.name); if (n && n.trim()) t.name = n.trim(); }
+    else if (b.dataset.del) { if (!confirm(`Tour „${t.name}“ löschen?`)) return; myTours = myTours.filter(x => x !== t); if (activeTour === t.id) setActiveTour(null); openTourId = null; }
+    else return;
+    saveTours(); renderTours();
+  });
+  // Im Spot: 🧭 Tour → Auswahl, in welche Touren der Spot gehört
+  function tourCount(id) { return myTours.filter(t => t.stops.includes(id)).length; }
+  function openTourPick(id, btn) {
+    const box = $("#tourPick"), p = places.find(x => x.id === id);
+    const render = () => {
+      box.innerHTML = `<div class="tpcard"><div class="tphead"><b>🧭 ${esc(shortName(p ? p.name : ""))}</b><button class="tpclose" aria-label="Schließen">✕</button></div>
+        ${myTours.map(t => `<label class="tprow"><input type="checkbox" data-t="${esc(t.id)}" ${t.stops.includes(id) ? "checked" : ""}> ${esc(t.name)} <small>(${t.stops.length})</small></label>`).join("") || `<p class="thint">Noch keine eigene Tour.</p>`}
+        <form class="tpnew"><input placeholder="Neue Tour …" aria-label="Neue Tour"><button>＋</button></form></div>`;
+      box.querySelector(".tpclose").onclick = () => { box.hidden = true; };
+      box.querySelectorAll("input[type=checkbox]").forEach(cb => cb.onchange = () => {
+        const t = myTours.find(x => x.id === cb.dataset.t); if (!t) return;
+        if (cb.checked) { if (!t.stops.includes(id)) t.stops.push(id); } else t.stops = t.stops.filter(x => x !== id);
+        saveTours(); render(); if (btn) btn.textContent = tourCount(id) ? `🧭 Tour · ${tourCount(id)}` : "🧭 Tour";
+      });
+      box.querySelector(".tpnew").onsubmit = ev => { ev.preventDefault(); const t = newTour(box.querySelector(".tpnew input").value); if (!t) return;
+        t.stops.push(id); setActiveTour(t.id); saveTours(); render(); if (btn) btn.textContent = `🧭 Tour · ${tourCount(id)}`; toast(`„${t.name}“ angelegt`, 1800); };
+    };
+    render(); box.hidden = false;
+  }
+  drawTour();
   // Unsere Unterkünfte (approx = Lage nur ungefähr bekannt, Ort/Dorf stimmt)
   const HOTELS = window.TRIP.hotels;
   const hotelIcon = L.divIcon({ className: "", iconSize: [24, 24], iconAnchor: [12, 12], popupAnchor: [0, -12],
@@ -1053,6 +1255,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); map.closePopup(); };
     // 📍 Springe zu Spot: Spot schließen, hinzoomen, Liste einklappen, Pin hervorheben
     const sm = el.querySelector(".showmap"); if (sm) sm.onclick = e => { e.stopPropagation(); miniSpot(sm.dataset.show); };
+    const ta = el.querySelector(".tadd"); if (ta) ta.onclick = e => { e.stopPropagation(); openTourPick(ta.dataset.tadd, ta); };
     // verkleinerten Spot antippen → wieder groß
     el.addEventListener("click", e => {
       if (!el.classList.contains("mini") || e.target.closest("button, a")) return;
@@ -1823,6 +2026,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
 
   loadMine();
   loadStatus();
+  loadTours();
   loadWikiImages();
 
   // Direktlink: …/insta_map/#spot=<id>&tour=<id> → Route einblenden, Spot zeigen und öffnen
@@ -1830,7 +2034,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const h = new URLSearchParams(location.hash.slice(1)), id = h.get("spot"), tour = h.get("tour");
     if (!id && !tour) return;
     history.replaceState(null, "", location.pathname + location.search);  // gleicher Link später nochmal antippbar
-    if (tour && tourSet && TOUR && TOUR.id === tour) tourSet(true);
+    if (tour && tourById(tour)) setActiveTour(tour);
     const p = id && places.find(x => x.id === id), m = p && markers.get(id);
     if (!p) { if (id) toast("Spot nicht gefunden", 2500); return; }
     if (mobile()) setSnap("peek");
