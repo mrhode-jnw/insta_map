@@ -102,7 +102,7 @@ add("North Point Road Tram Station 北角道電車站", (22.29055,114.19712,"OSM
 add("Chun Yeung Street Market 春秧街街市", "Chun Yeung Street, North Point, Hong Kong", "North Point", "Markt", [25,28,52], "Tram fährt durch den Markt")
 add("North Point Fire Station 北角消防局 + Sunbeam Theatre", "North Point Fire Station, 38 Healthy Street East, North Point", "North Point", "Architektur", [60,70], "Rot als Farbthema: rosa Fassade mit roten Falttoren, Feuerwache 38 Healthy Street East (Pin). Das Sunbeam Theatre (423 King's Road, 800 m westlich) ist seit März 2025 geschlossen.")
 add("Southern Building, North Point", "Southern Building, North Point, Hong Kong", "North Point", "Architektur", [24], "Orange")
-add("Majestic Apartments, North Point", (22.2905,114.19612,"OSM"), "North Point", "Architektur", [27], "bunte Wand")
+add("Majestic Apartments, North Point", (22.2905,114.19612,"OSM"), "North Point", "Architektur", [27,41], "麗宮大廈, 301–319 King's Road – gelb-rot-blau gestreifte Fassade (Schild 樂家護老院 unten). Von der gegenüberliegenden Straßenseite, Taxi als Vordergrund.")
 add("East Coast Boardwalk (Lion Rock view)", (22.2933,114.19674,"OSM"), "Fortress Hill", "Aussicht", [20], "")
 add("Percival Street 波斯富街", "Percival Street, Causeway Bay, Hong Kong", "Causeway Bay", "Tram", [17,52], "")
 add("Wong Nai Chung Road 黃泥涌道", "Wong Nai Chung Road, Happy Valley, Hong Kong", "Happy Valley", "Tram", [52,60], "")
@@ -166,7 +166,7 @@ add("Newport Centre Block 2 (Neon abgerissen)", "Newport Centre, To Kwa Wan, Hon
 add("Ma Tau Wai Road 馬頭圍道", "Ma Tau Wai Road, Hong Kong", "To Kwa Wan", "Street", [20], "")
 add("Harbour Place 海濱南岸 (Drone)", "Harbour Place, Hung Hom, Hong Kong", "Hung Hom", "Architektur", [24], "")
 add("Wing Sun Pawn Shop 永生大押", (22.306898,114.186316), "Hung Hom", "Neon", [35], "Genaue Adresse unbekannt – irgendwo in Hung Hom; vor Ort nach dem Fledermaus-Schild (Pfandhaus-Symbol) 永生大押 Ausschau halten")
-add("Choi Hung Estate 彩虹邨", "Choi Hung Estate, Hong Kong", "Choi Hung", "Architektur", [25,60,20,87,89], "Regenbogen-Basketballplatz")
+add("Choi Hung Estate 彩虹邨", "Choi Hung Estate, Hong Kong", "Choi Hung", "Architektur", [25,60,20,87,89,51], "Regenbogen-Basketballplatz")
 add("Lotus Garden, Ngau Tau Kok", "Lotus Tower, Ngau Tau Kok, Hong Kong", "Ngau Tau Kok", "Architektur", [70], "geometrische Türme")
 add("Wong Tai Sin Plaza (Lion Rock view)", "Wong Tai Sin Plaza, Hong Kong", "Wong Tai Sin", "Aussicht", [20], "")
 add("Chuk Yuen North / South Estate 竹園邨", "Chuk Yuen South Estate, Wong Tai Sin, Hong Kong", "Wong Tai Sin", "Aussicht", [20], "Lion Rock")
@@ -175,7 +175,7 @@ add("Ngau Chi Wan Kam Chi Path", (22.33508,114.20865,"OSM"), "Ngau Chi Wan", "Au
 add("Footbridge Kwun Tong Road / Kai Yip Estate", "Kai Yip Estate, Kowloon Bay, Hong Kong", "Kowloon Bay", "Aussicht", [20], "Lion Rock")
 add("Royal Plaza Hotel 帝京酒店 (Lion Rock view)", "Royal Plaza Hotel, Prince Edward Road West, Hong Kong", "Mong Kok", "Aussicht", [20], "")
 add("Kam Hong Street / Shu Kuk Street (Lion Rock view)", (22.29085,114.20040,"OSM"), "North Point", "Aussicht", [20], "Standpunkt: Shu Kuk Street südlich der King's Road (Ecke Tsat Tsz Mui Road), Blick nach Norden über die Kreuzung: links das senkrechte 新光戲院-Schild des Sunbeam Theatre, am Straßenende Hafen und Lion Rock. Teleobjektiv, klare Sicht nötig. Gleicher Blick eine Straße weiter östlich: Kam Hong Street.")
-add("Kowloon Walled City Park 九龍寨城公園", "Kowloon Walled City Park, Hong Kong", "Kowloon City", "Street", [41,51,68], "historisch; llittlepig 'The walled city'; Greg Girard Archiv")
+add("Kowloon Walled City Park 九龍寨城公園", "Kowloon Walled City Park, Hong Kong", "Kowloon City", "Street", [], "Park auf dem Gelände der 1993 abgerissenen Walled City (Yamen, Südtor-Reste, Modell der alten Stadt)")
 
 # --- New Territories / Lantau / Outlying ---
 add("Tai O Fishing Village 大澳", (22.25415,113.86362,"OSM"), "Lantau", "Dorf", [16,21,62], "Ältestes Fischerdorf, Stelzenhäuser")

@@ -134,7 +134,7 @@ for n, s in enumerate(S):
     # Markerbild: zum Spot passendes Slide > Post nur dieses Spots > Titelbild
     first = (next((p for p in ps if p["image"] and p["match"] == "slide"), None)
              or next((p for p in ps if p["image"]), None)
-             or ps[0])
+             or (ps[0] if ps else dict(image=None, caption="", url="", username="", profile_url="")))  # ohne Post: Foto ggf. aus photo_overrides
     places.append({
         "id": spot_id(s["name"]),
         "name": s["name"],

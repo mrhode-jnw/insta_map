@@ -1775,7 +1775,7 @@ window.PLACES = [
   "name": "Majestic Apartments, North Point",
   "district": "North Point",
   "category": "Architektur",
-  "note": "bunte Wand",
+  "note": "麗宮大廈, 301–319 King's Road – gelb-rot-blau gestreifte Fassade (Schild 樂家護老院 unten). Von der gegenüberliegenden Straßenseite, Taxi als Vordergrund.",
   "address": "North Point",
   "lat": 22.2905,
   "lng": 114.19612,
@@ -1795,6 +1795,15 @@ window.PLACES = [
     "caption": "Repost @mansonyms The colourful walls of wonder in Hong Kong 🚗 Which one is your favourite? (Location below⬇️)\n\nLocation📍\n1. Lucky Building, To Kwa Wan\n2. Wah Tak Building, Yau Ma Tei\n3. Alhambra Building, Yau Ma Tei\n4. Wing Wah Building, Sham Shui Po\n5. Majestic Apartments, North Point\n\nCanon EOS R6 + RF10-20mm F4 📷\n\nLike, Share, and Save if you like this post ❤️‍🔥\nFollow @mansonyms for more 💡\n\nMore Hong Kong photography guides \n▶️ #mansonyms_hongkong\n#AwesomeHongKong",
     "match": "slide",
     "slide": 5
+   },
+   {
+    "url": "https://www.instagram.com/llittlepig/p/DdeFRXVH94K/",
+    "username": "llittlepig",
+    "profile_url": "https://www.instagram.com/llittlepig/",
+    "kind": "p",
+    "image": "images/DdeFRXVH94K.jpg",
+    "caption": "-\nThe walled city — Through my lens\nWhich one is your favourite? 🇭🇰\n\nCanon EOS R6 Mark II 📸\n\nLike & Share if you like 🔥\nFollow @llittlepig for more 📸",
+    "match": "single"
    }
   ],
   "pop": 1,
@@ -3992,6 +4001,15 @@ window.PLACES = [
     "image": "images/Cohik58PVLp.jpg",
     "caption": "Welcome to Choi Hung Estate 🌈\nI remember that this basketball court on top of a car park was super crowded with people taking pictures the first time I visited Hong Kong in summer 2019. Four years and a pandemic later, I was the only photographer around to snap some images.\n\nFor this set, I didn’t just want to show you the iconic rainbow facade which has famously been shared on Instagram, but to add a bit of different points of views from this location as well. Hope there’s something new for you here to see 👀\n\nCan you spot the person in the drone shot?\n\n#choihungestate #rainbow #basketballcour",
     "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/llittlepig/p/DcOLvRQgawq/",
+    "username": "llittlepig",
+    "profile_url": "https://www.instagram.com/llittlepig/",
+    "kind": "p",
+    "image": "images/DcOLvRQgawq.jpg",
+    "caption": "-\nThe walled city — Through my lens\nWhich one is your favourite? 🇭🇰\n\nLike & Share if you like 🔥\nFollow @llittlepig for more 📸",
+    "match": "single"
    }
   ],
   "pop": 5,
@@ -4244,48 +4262,21 @@ window.PLACES = [
   "name": "Kowloon Walled City Park 九龍寨城公園",
   "district": "Kowloon City",
   "category": "Street",
-  "note": "historisch; llittlepig 'The walled city'; Greg Girard Archiv",
+  "note": "Park auf dem Gelände der 1993 abgerissenen Walled City (Yamen, Südtor-Reste, Modell der alten Stadt)",
   "address": "九龍寨城公園 Kowloon Walled City Park, 九龍城 Kowloon City, 九龍城區 Kowloon City District, 九龍 Kowloon, 香港 Hong Kong, 中国",
   "lat": 22.332129,
   "lng": 114.190245,
   "approx": false,
-  "image": "images/DcJtOgQGauy_10.jpg",
-  "caption": "Very excited to announce my latest photography workshop!\n\n“HERE AND NOW in SHANGHAI AND HONG KONG”.\n\nAn eight-day program in two cities that shaped me and where I’ve made some of my best-known work, from my books “Phantom Shanghai”, “City of Darkness” and “HK:PM”.\n\nThe workshop takes place Nov 27-Dec 4, 2026 (with a two-day break to get yourself from Shanghai to Hong Kong). \n\nOrganized by my colleagues at Fotofilmic. Limited to 12 participants, seats are likely to fill up quickly! For more information please visit www.fotofilmic.com\n\n@fotofilmic \n\n1. Shanghai, neighborhood demolition, 2005. Fr",
-  "post_url": "https://www.instagram.com/gregforaday/p/DcJtOgQGauy/?img_index=10",
-  "username": "gregforaday",
-  "profile_url": "https://www.instagram.com/gregforaday/",
-  "posts": [
-   {
-    "url": "https://www.instagram.com/llittlepig/p/DdeFRXVH94K/",
-    "username": "llittlepig",
-    "profile_url": "https://www.instagram.com/llittlepig/",
-    "kind": "p",
-    "image": "images/DdeFRXVH94K.jpg",
-    "caption": "-\nThe walled city — Through my lens\nWhich one is your favourite? 🇭🇰\n\nCanon EOS R6 Mark II 📸\n\nLike & Share if you like 🔥\nFollow @llittlepig for more 📸",
-    "match": "single"
-   },
-   {
-    "url": "https://www.instagram.com/llittlepig/p/DcOLvRQgawq/",
-    "username": "llittlepig",
-    "profile_url": "https://www.instagram.com/llittlepig/",
-    "kind": "p",
-    "image": "images/DcOLvRQgawq.jpg",
-    "caption": "-\nThe walled city — Through my lens\nWhich one is your favourite? 🇭🇰\n\nLike & Share if you like 🔥\nFollow @llittlepig for more 📸",
-    "match": "single"
-   },
-   {
-    "url": "https://www.instagram.com/gregforaday/p/DcJtOgQGauy/?img_index=10",
-    "username": "gregforaday",
-    "profile_url": "https://www.instagram.com/gregforaday/",
-    "kind": "p",
-    "image": "images/DcJtOgQGauy_10.jpg",
-    "caption": "Very excited to announce my latest photography workshop!\n\n“HERE AND NOW in SHANGHAI AND HONG KONG”.\n\nAn eight-day program in two cities that shaped me and where I’ve made some of my best-known work, from my books “Phantom Shanghai”, “City of Darkness” and “HK:PM”.\n\nThe workshop takes place Nov 27-Dec 4, 2026 (with a two-day break to get yourself from Shanghai to Hong Kong). \n\nOrganized by my colleagues at Fotofilmic. Limited to 12 participants, seats are likely to fill up quickly! For more information please visit www.fotofilmic.com\n\n@fotofilmic \n\n1. Shanghai, neighborhood demolition, 2005. Fr",
-    "match": "slide",
-    "slide": 10
-   }
-  ],
+  "image": "images/commons_kowloon-walled-city-park.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [],
   "pop": 4,
-  "pop_reason": "In vielen Reiseführern, Discover Hong Kong, viele Bewertungen"
+  "pop_reason": "In vielen Reiseführern, Discover Hong Kong, viele Bewertungen",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Kowloon_Walled_City_Park_Overview_201807.jpg",
+  "image_credit": "Wpcpey · CC BY-SA 4.0 · Wikimedia Commons"
  },
  {
   "id": "hk-tai-o-fishing-village",
@@ -5832,6 +5823,14 @@ window.UNPLACED_POSTS = [
   "kind": "reel",
   "image": "images/DbIcHf2hEJc.jpg",
   "caption": "Isn’t this the coolest neon sign in Hong Kong??\n\nNot because it’s the biggest or the brightest, but because you can actually get this close to it. Seeing every tube, every bend and every little detail up close makes you appreciate how incredible these signs really are.\n\nOf course I had to capture it with Cinestill 800T🎞️\n\n#HongKong #neonsign #filmphotography #35mm #cinestill800t"
+ },
+ {
+  "url": "https://www.instagram.com/gregforaday/p/DcJtOgQGauy/",
+  "username": "gregforaday",
+  "profile_url": "https://www.instagram.com/gregforaday/",
+  "kind": "p",
+  "image": "images/DcJtOgQGauy.jpg",
+  "caption": "Very excited to announce my latest photography workshop!\n\n“HERE AND NOW in SHANGHAI AND HONG KONG”.\n\nAn eight-day program in two cities that shaped me and where I’ve made some of my best-known work, from my books “Phantom Shanghai”, “City of Darkness” and “HK:PM”.\n\nThe workshop takes place Nov 27-Dec 4, 2026 (with a two-day break to get yourself from Shanghai to Hong Kong). \n\nOrganized by my colleagues at Fotofilmic. Limited to 12 participants, seats are likely to fill up quickly! For more information please visit www.fotofilmic.com\n\n@fotofilmic \n\n1. Shanghai, neighborhood demolition, 2005. Fr"
  },
  {
   "url": "https://www.instagram.com/thebayasia/p/DcdX3DtiHfB/",
