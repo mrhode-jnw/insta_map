@@ -252,10 +252,14 @@
         } },
       });
     }
-    addTo(map) { this._map = map; if (!this._mc) this._make(); return this; }
+    addTo(map) {
+      this._map = map;
+      if (!this._mc) { this._make(); g().event.addListener(this._mc, "clusteringend", () => map.fire("clustered")); }  // Liste kann sich an den Gruppen ausrichten
+      return this;
+    }
     remove() { if (this._mc) { this._mc.setMap(null); this._mc = null; } this._map = null; return this; }
-    addLayers(ms) { ms.forEach(m => { this._set.add(m); m._cluster = this; }); if (this._mc) this._mc.addMarkers(ms.map(m => m._gm)); return this; }
-    removeLayers(ms) { ms.forEach(m => { this._set.delete(m); m._cluster = null; }); if (this._mc) this._mc.removeMarkers(ms.map(m => m._gm)); return this; }
+    addLayers(ms) { ms.forEach(m => { this._set.add(m); m._cluster = this; }); if (this._mc && ms.length) this._mc.addMarkers(ms.map(m => m._gm)); return this; }
+    removeLayers(ms) { ms.forEach(m => { this._set.delete(m); m._cluster = null; }); if (this._mc && ms.length) this._mc.removeMarkers(ms.map(m => m._gm)); return this; }
     addLayer(m) { return this.addLayers([m]); }
     removeLayer(m) { return m ? this.removeLayers([m]) : this; }
     getVisibleParent(m) {
@@ -263,7 +267,7 @@
       const c = (this._mc.clusters || []).find(c => c.markers && c.markers.includes(m._gm));
       if (!c) return null;
       if (c.markers.length === 1) return m;
-      return { getElement: () => c.marker && c.marker.content, _isCluster: true };
+      return { getElement: () => c.marker && c.marker.content, getLatLng: () => latLng(c.position), _isCluster: true };
     }
     // so weit hineinzoomen, bis der Marker nicht mehr in einer Gruppe steckt
     zoomToShowLayer(m, cb) {

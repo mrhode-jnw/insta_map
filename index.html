@@ -1026,6 +1026,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const popupOpen = () => !!(map._popup && map.hasLayer(map._popup));
   const rerenderIfArea = () => { if (inView && !popupOpen() && !stepping && !navigating) { clearTimeout(moveTimer); moveTimer = setTimeout(renderList, 120); } };  // offener Spot: Liste bleibt stehen
   map.on("moveend", rerenderIfArea);
+  map.on("clustered", rerenderIfArea);  // Google-Karte: Gruppen werden nach dem Bewegen neu berechnet
   $("#sheet").addEventListener("transitionend", e => { if (e.target.id === "sheet") rerenderIfArea(); });
   function renderList() {
     // Viertel-Auswahl: nur Viertel, die mit den übrigen Filtern Treffer haben
@@ -1038,7 +1039,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (opts !== sel.dataset.opts) { sel.innerHTML = opts; sel.dataset.opts = opts; }
     let items = places.filter(matches);
     syncMarkers(items);
-    if (inView) { const vb = visibleBounds(); items = items.filter(p => vb.contains([p.lat, p.lng])); }
+    // im Ausschnitt = Pin bzw. sein Gruppenkreis liegt sichtbar im Ausschnitt (so wie man es auf der Karte sieht)
+    if (inView) { const vb = visibleBounds(); items = items.filter(p => {
+      const m = markers.get(p.id), vp = m && cluster.getVisibleParent(m), ll = vp && vp.getLatLng ? vp.getLatLng() : null;
+      return vb.contains(ll ? [ll.lat, ll.lng] : [p.lat, p.lng]); }); }
     items = items.map(p => ({ ...p, _d: here() ? dist(me, p) : 0, _a: areaOf(p) }))
       .sort((a, b) => sortBy === "area" ? a._a.localeCompare(b._a, "de") || (routeF ? routeStop(a) - routeStop(b) : 0) || (b.pop || 0) - (a.pop || 0)
         : routeF && sortBy === "auto" ? routeStop(a) - routeStop(b) || (b.pop || 0) - (a.pop || 0)
