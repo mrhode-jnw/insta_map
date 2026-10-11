@@ -205,7 +205,7 @@
     border-radius: 999px; padding: 4px 8px; font-size: 12.5px; }
   .pop .popularity { font-size: 12px; color: #92400e; margin-bottom: 4px; }
   .pop .popularity small { color: #6b7280; }
-  #chips2 button.on { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+  #chips2 button.on, #chips2 select.on { background: var(--fg); border-color: var(--fg); color: var(--bg); }
   #list.grid { display: grid; grid-template-columns: repeat(2, 1fr); grid-auto-rows: max-content; align-content: start; gap: 6px; padding: 6px 8px 10px; }
   @media (min-width: 800px) { #list.grid { grid-template-columns: repeat(2, 1fr); } }
   #list.grid li.areahead { grid-column: 1 / -1; border: 0; padding: 10px 4px 2px; }
@@ -338,15 +338,16 @@
     </div>
     <div id="chips"></div>
     <div id="chips2">
-      <button data-f="open">🙈 Fotografierte ausblenden</button>
-      <button data-f="fav">❤️ Favoriten</button>
-      <button data-f="hoch"><span class="prio-dot hoch"></span>Hoch</button>
-      <button data-f="mittel"><span class="prio-dot mittel"></span>Mittel</button>
-      <button data-f="gering"><span class="prio-dot gering"></span>Gering</button>
-      <button data-f="none">○ Unbewertet</button>
-      <button data-f="done">✓ Fotografiert</button>
-      <button data-f="pop">🔥 Beliebt</button>
-      <button data-f="trash">🗑 Gelöscht</button>
+      <select id="fDone" aria-label="Fotografiert">
+        <option value="">📷 Alle</option><option value="open">📷 Nicht fotografiert</option><option value="done">📷 Fotografiert</option>
+      </select>
+      <select id="fPrio" aria-label="Priorität">
+        <option value="">● Alle Prioritäten</option><option value="hoch">🔴 Hoch</option><option value="hoch,mittel">🔴🟠 Hoch + Mittel</option>
+        <option value="mittel">🟠 Mittel</option><option value="gering">⚪ Gering</option><option value="none">○ Unbewertet</option>
+      </select>
+      <select id="fMore" aria-label="Auswahl">
+        <option value="">✨ Alle Spots</option><option value="fav">❤️ Favoriten</option><option value="pop">🔥 Beliebte</option><option value="trash">🗑 Gelöschte</option>
+      </select>
       <select id="sort" aria-label="Sortierung">
         <option value="auto">Sortierung: Entfernung</option>
         <option value="prio">Sortierung: Priorität</option>
@@ -696,29 +697,29 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return parts.length > 1 ? parts[parts.length - 1] + " – " + parts.slice(0, -1).join(", ") : d;
   };
   let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto";
-  try { if (localStorage.getItem("hideDone") === "1") doneF = "open"; } catch {}  // „Fotografierte ausblenden“ bleibt eingeschaltet
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
   $("#area").addEventListener("change", e => { areaF = e.target.value; renderList(); });
   $("#sort").addEventListener("change", e => { sortBy = e.target.value; try { localStorage.setItem("sort", sortBy); } catch {} renderList(); });
   const prioF = new Set();
-  $("#chips2").addEventListener("click", e => {
-    const b = e.target.closest("button"); if (!b) return;
-    const f = b.dataset.f;
-    if (PRIOS.includes(f) || f === "none") prioF.has(f) ? prioF.delete(f) : prioF.add(f);
-    else if (f === "pop") popF = !popF;
-    else if (f === "fav") favF = !favF;
-    else if (f === "trash") trashF = !trashF;
-    else {
-      doneF = doneF === f ? null : f;
-      try { localStorage.setItem("hideDone", doneF === "open" ? "1" : ""); } catch {}
-      if (f === "open") toast(doneF ? "📷 Fotografierte Spots ausgeblendet" : "Fotografierte Spots wieder sichtbar", 1800);
-    }
-    $("#chips2").querySelectorAll("button").forEach(x => x.classList.toggle("on",
-      prioF.has(x.dataset.f) || doneF === x.dataset.f || (x.dataset.f === "pop" && popF) || (x.dataset.f === "fav" && favF) || (x.dataset.f === "trash" && trashF)));
-    renderList();
+  // Filter als Auswahlfelder: Fotografiert · Priorität · Auswahl (Favoriten/Beliebt/Gelöscht); Auswahl bleibt gespeichert
+  try { if (localStorage.getItem("hideDone") === "1" && !localStorage.getItem("fDone")) localStorage.setItem("fDone", "open"); } catch {}  // frühere Einstellung übernehmen
+  const FILTERS = {
+    fDone: v => { doneF = v || null; },
+    fPrio: v => { prioF.clear(); if (v) v.split(",").forEach(x => prioF.add(x)); },
+    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; },
+  };
+  Object.entries(FILTERS).forEach(([id, apply]) => {
+    const el = $("#" + id);
+    try { el.value = localStorage.getItem(id) || ""; } catch {}
+    if (el.selectedIndex < 0 || el.value === "trash") el.value = "";  // „Gelöschte“ nicht über den Neustart behalten
+    apply(el.value); el.classList.toggle("on", !!el.value);
+    el.addEventListener("change", () => {
+      apply(el.value); el.classList.toggle("on", !!el.value);
+      try { localStorage.setItem(id, el.value); } catch {}
+      renderList();
+    });
   });
-  $("#chips2 [data-f=open]").classList.toggle("on", doneF === "open");
   if (routeF) routeLayer.addTo(map);
   showWhere();
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
