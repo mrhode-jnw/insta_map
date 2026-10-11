@@ -185,6 +185,9 @@
   .leaflet-popup-close-button { display: none !important; }
   .pop .pnav { gap: 8px; }
   .pop .hero { position: relative; }
+  .pop .hstrip { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; }
+  .pop .hstrip::-webkit-scrollbar { display: none; }
+  .pop .hstrip img { flex: 0 0 100%; scroll-snap-align: center; scroll-snap-stop: always; }
   .pop .hero button.side { position: absolute; top: 50%; transform: translateY(-50%); width: 42px; height: 42px; border-radius: 50%;
     border: 0; background: rgba(0,0,0,.45); color: #fff; font-size: 26px; line-height: 1; cursor: pointer; }
   .pop .hero button.side.prev { left: 8px; } .pop .hero button.side.next { right: 8px; }
@@ -533,6 +536,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const generic = (p.posts || []).filter(x => !x.image);
     const posts = imgPosts.length ? imgPosts : null;
     const hero = !posts || posts.length === 1;
+    const strip = p.image && imgPosts.length > 1 && imgPosts[0].image === p.image;  // großes Foto seitlich durchwischen
     const gal = posts && posts.length > 1 ? `<div class="galhead"><b class="galn">📷 ${posts.length} Fotos</b> <span>– seitlich wischen →</span></div><div class="gal">${posts.map((x, i) => `
         <figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}<span class="gnum">${i + 1}/${posts.length}</span>
         <figcaption><a href="${esc(x.profile_url)}" target="_blank" rel="noopener">${esc(who(x))}</a>
@@ -546,10 +550,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${multi ? `<span class="spotnum" title="Spots im Kartenausschnitt">📍 Spot ${idx + 1} von ${navIds.length}</span>` : `<span></span>`}
         ${multi && !onImg ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : `<span style="width:38px"></span>`}</div>`;
     return `<div class="pop">${pnav}
-      ${p.image ? `<div class="hero"><img src="${esc(p.image)}" alt="" loading="lazy" data-lb="${Math.max(0, imgPosts.findIndex(x => x.image === p.image))}">
-        <span class="pcount" title="Fotos dieses Spots">📷 1/${imgPosts.length || 1}</span>
+      ${p.image ? `<div class="hero">${strip ? `<div class="hstrip">${imgPosts.map((x, i) => `<img src="${esc(x.image)}" alt="" loading="${i ? "lazy" : "eager"}" data-lb="${i}"
+          data-cr="${esc(who(x))}" data-href="${esc(x.credit ? x.url : x.profile_url)}" data-post="${x.credit ? "" : esc(x.url)}">`).join("")}</div>`
+          : `<img src="${esc(p.image)}" alt="" loading="lazy" data-lb="${Math.max(0, imgPosts.findIndex(x => x.image === p.image))}">`}
+        <span class="pcount" title="Fotos dieses Spots – seitlich wischen">📷 <b>1</b>/${imgPosts.length || 1}</span>
         ${onImg ? `<button class="side prev" data-go="-1" aria-label="Vorheriger Spot">‹</button><button class="side next" data-go="1" aria-label="Nächster Spot">›</button>` : ""}</div>` : ""}
-      ${(p.by_claude || p.image_credit) && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
+      ${strip ? `<div class="credit hcred"></div>` : ""}
+      ${!strip && (p.by_claude || p.image_credit) && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
       <div class="b">
         <h3>${esc(p.name)}</h3>
         ${p.by_claude ? `<div class="claude-note">✦ Claude-Tipp – nicht aus deiner Sammlung, von Claude als besonders beliebter Spot ergänzt</div>` : ""}
@@ -947,7 +954,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (pop && id && order.length > 1) {
       let t0 = null;
       pop.addEventListener("touchstart", e => {
-        if (e.touches.length !== 1 || e.target.closest(".gal, button, input, a")) { t0 = null; return; }
+        if (e.touches.length !== 1 || e.target.closest(".gal, .hstrip, button, input, a")) { t0 = null; return; }
         t0 = { x: e.touches[0].clientX, y: e.touches[0].clientY, t: Date.now() };
       }, { passive: true });
       pop.addEventListener("touchmove", e => {
@@ -966,6 +973,20 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           stepSpot(id, dx < 0 ? 1 : -1);
         }
       });
+    }
+    // Großes Foto: seitlich wischen → Zähler und Quellenangabe folgen dem sichtbaren Bild
+    const hs = el.querySelector(".hstrip");
+    if (hs) {
+      const pcb = el.querySelector(".hero .pcount b"), cred = el.querySelector(".hcred"), imgs = hs.querySelectorAll("img");
+      let cur = -1;
+      const upd = () => {
+        const i = Math.max(0, Math.min(imgs.length - 1, Math.round(hs.scrollLeft / (hs.clientWidth || 1))));
+        if (i === cur) return; cur = i; const im = imgs[i];
+        if (pcb) pcb.textContent = i + 1;
+        if (cred) cred.innerHTML = `Foto: <a href="${esc(im.dataset.href)}" target="_blank" rel="noopener">${esc(im.dataset.cr)}</a>` +
+          (im.dataset.post ? ` · <a href="${esc(im.dataset.post)}" target="_blank" rel="noopener">Post ↗</a>` : "");
+      };
+      hs.addEventListener("scroll", upd, { passive: true }); upd();
     }
     el.querySelectorAll("button[data-go]").forEach(b => b.onclick = e => { e.stopPropagation(); stepSpot(id, +b.dataset.go); });
     const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); map.closePopup(); };
