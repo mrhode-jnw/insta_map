@@ -99,10 +99,12 @@
   .pop .note { font-size: 13px; color: #111827; margin-bottom: 6px; }
   .gal { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 0 0 8px; }
   .gal figure { margin: 0; flex: none; width: 140px; scroll-snap-align: start; position: relative; }
-  .gal .gnum, .pop .hero .pcount { position: absolute; top: 6px; right: 6px; background: rgba(17,24,39,.72); color: #fff; font-size: 12px; font-weight: 600;
-    padding: 2px 7px; border-radius: 999px; pointer-events: none; }
+  /* Fotozähler (pink, auf dem Bild) – bewusst anders als der Spot-Zähler oben (grau, „📍 Spot x von y“) */
+  .gal .gnum, .pop .hero .pcount { position: absolute; top: 6px; right: 6px; background: var(--accent, #e1306c); color: #fff; font-size: 12px; font-weight: 700;
+    padding: 2px 8px; border-radius: 999px; pointer-events: none; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
+  .pop .pnav .spotnum { font-size: 13px; color: var(--muted, #6b7280); font-weight: 500; }
   .pop .hero .pcount { top: 10px; right: 10px; font-size: 13px; padding: 3px 9px; }
-  .galhead { font-size: 13px; font-weight: 600; margin: 4px 0 4px; } .galhead span { font-weight: 400; color: var(--muted, #6b7280); }
+  .galhead { font-size: 13px; font-weight: 600; margin: 4px 0 4px; } .galhead .galn { color: var(--accent, #e1306c); } .galhead span { font-weight: 400; color: var(--muted, #6b7280); }
   .gal figure img { width: 140px; height: 175px; border-radius: 8px; object-fit: cover; display: block; background: #eee; }
   .gal figcaption { font-size: 13px; padding-top: 3px; }
   .gal figcaption a { display: block; color: var(--accent) !important; text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -505,14 +507,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
 
   const postLinks = p => `<a href="${esc(p.url)}" target="_blank" rel="noopener">Post</a> · <a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>`;
 
+  // Fotos eines Spots – das Titelbild immer zuerst (damit „📷 1/n“ zum großen Bild passt)
+  const imgsOf = p => { const l = (p.posts || []).filter(x => x.image), i = l.findIndex(x => x.image === p.image);
+    return i > 0 ? [l[i], ...l.slice(0, i), ...l.slice(i + 1)] : l; };
   function popupHtml(p) {
     const d = here() ? `<div class="dist">📍 ${fmt(dist(me, p))} entfernt</div>` : "";
     const nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
-    const imgPosts = (p.posts || []).filter(x => x.image);
+    const imgPosts = imgsOf(p);
     const generic = (p.posts || []).filter(x => !x.image);
     const posts = imgPosts.length ? imgPosts : null;
     const hero = !posts || posts.length === 1;
-    const gal = posts && posts.length > 1 ? `<div class="galhead">📷 ${posts.length} Fotos <span>– seitlich wischen →</span></div><div class="gal">${posts.map((x, i) => `
+    const gal = posts && posts.length > 1 ? `<div class="galhead"><b class="galn">📷 ${posts.length} Fotos</b> <span>– seitlich wischen →</span></div><div class="gal">${posts.map((x, i) => `
         <figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}<span class="gnum">${i + 1}/${posts.length}</span>
         <figcaption><a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a>
           <a class="postlink" href="${esc(x.url)}" target="_blank" rel="noopener">Instagram-Post ↗</a></figcaption></figure>`).join("")}</div>` : "";
@@ -522,11 +527,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const pnav = `<div class="pnav">
         <button class="pclose" aria-label="Schließen">✕</button>
         ${multi && !onImg ? `<button data-go="-1" aria-label="Vorheriger Spot">‹</button>` : ""}
-        ${multi ? `<span>${idx + 1} / ${navIds.length}</span>` : `<span></span>`}
+        ${multi ? `<span class="spotnum" title="Spots im Kartenausschnitt">📍 Spot ${idx + 1} von ${navIds.length}</span>` : `<span></span>`}
         ${multi && !onImg ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : `<span style="width:38px"></span>`}</div>`;
     return `<div class="pop">${pnav}
       ${p.image ? `<div class="hero"><img src="${esc(p.image)}" alt="" loading="lazy" data-lb="${Math.max(0, imgPosts.findIndex(x => x.image === p.image))}">
-        ${imgPosts.length > 1 ? `<span class="pcount">📷 1/${imgPosts.length}</span>` : ""}
+        <span class="pcount" title="Fotos dieses Spots">📷 1/${imgPosts.length || 1}</span>
         ${onImg ? `<button class="side prev" data-go="-1" aria-label="Vorheriger Spot">‹</button><button class="side next" data-go="1" aria-label="Nächster Spot">›</button>` : ""}</div>` : ""}
       ${(p.by_claude || p.image_credit) && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
       <div class="b">
@@ -902,7 +907,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // ---------- Vollbild-Ansicht der Bilder eines Spots
   const lb = { el: $("#lb"), list: [], i: 0 };
   function spotImages(p) {
-    const ps = (p.posts || []).filter(x => x.image);
+    const ps = imgsOf(p);
     if (ps.length) return ps.map(x => ({ src: x.image, url: x.url, label: "@" + x.username, profile: x.profile_url }));
     return p.image ? [{ src: p.image, url: p.post_url || p.image_page || p.wiki_url, label: p.image_credit || p.by_claude ? (p.image_credit || "Wikimedia Commons") : (p.username ? "@" + p.username : ""), profile: p.profile_url }] : [];
   }
