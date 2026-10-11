@@ -2055,7 +2055,7 @@ window.PLACES = [
   "id": "hk-argyle-street-henge",
   "name": "Argyle Street 'henge'",
   "district": "Mong Kok",
-  "category": "Street",
+  "category": "Henge",
   "note": "Mongkok Henge (Sunset): Fußgängerbrücke über die Argyle Street bei Sai Yee Street / MOKO / Mong Kok East Station, Blick nach Westen (Straßenachse 257,9°). Höhepunkt 2026 rechnerisch ca. 15.–19.10. gegen 17:25–17:30 (Sonne in der Achse knapp über den Hochhäusern am Ende). Quellen: Fotografen am 16.10.2022 auf genau dieser Brücke, Höhepunkt ~17:30 (Epoch Times); Wikipedia nennt den 19.10.; Ming Pao: Mitte Oktober, ca. eine Woche. Während unseres Aufenthalts: 11.10. 17:13 (Sonne ~4° höher als am 14.10.), 14.10. Sonne in der Achse um 17:23, aber noch ~1,5° höher als beim klassischen Bild (12.10. 17:16, 13.10. 17:20 noch höher). Ab 17:00 da sein (voll!), 100–400 mm, wolkenfreier Westhimmel nötig. Sonnenuntergang laut HKO: 14.10. 17:59.",
   "address": "Mong Kok",
   "lat": 22.32005,
