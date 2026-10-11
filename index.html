@@ -1084,7 +1084,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   // ---------- Inspiration (unabhängig von Spots): Masonry-Raster, Tippen öffnet die Bilder im Vollbild
   const INSP = window.INSPIRATION || {};
-  const INSP_REG = { hk: "🇭🇰 Hongkong", cn: "🇨🇳 China" };
+  const INSP_REG = { hk: "🇭🇰 Hongkong", sh: "🇨🇳 Shanghai", cn: "🇨🇳 China" };
   function openInsp() {
     const regs = Object.keys(INSP_REG).filter(r => (INSP[r] || []).length);
     let n = 0;
