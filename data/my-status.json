@@ -297,7 +297,8 @@
   "prio": "gering"
  },
  "hk-neon-hop-hing-lung-ceramics-sanitaryware": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "fav": true
  },
  "hk-ma-tau-wai-road": {
   "prio": "mittel"
