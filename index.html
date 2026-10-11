@@ -74,6 +74,7 @@
     #sheet header { cursor: default; }
     #sheet .grip { display: none; }
     #locate { bottom: 28px; }
+    .pop .hero img { max-height: 42vh; }  /* Desktop: Foto flacher, Name und Status bleiben ohne Scrollen sichtbar */
     }
 
   /* Popup */
@@ -944,7 +945,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       document.querySelectorAll(".leaflet-popup.ghost").forEach(g => setTimeout(() => g.remove(), 120));
       return;
     }
-    const deskH = Math.min(sp.maxH, Math.round(window.innerHeight * 0.55));  // Desktop: Karte bleibt sichtbar
+    const deskH = Math.min(sp.maxH, Math.round(window.innerHeight * 0.8));  // Desktop: Foto + Name + Status sichtbar (Foto max. 42vh)
     if (o.maxHeight !== deskH || o.autoPanPaddingTopLeft[1] !== sp.top) {
       o.maxHeight = deskH; o.autoPanPaddingTopLeft = [10, sp.top]; o.autoPanPaddingBottomRight = [10, sp.bottomPad];
       ev.popup.update();
