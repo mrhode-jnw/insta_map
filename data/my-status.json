@@ -349,7 +349,8 @@
   "prio": "gering"
  },
  "hk-merit-industrial-centre": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "fav": true
  },
  "hk-hung-kwong-street": {
   "prio": "gering"
