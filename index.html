@@ -94,7 +94,8 @@
   @keyframes pinpulse { 50% { transform: scale(1.6); } }
   /* zuletzt geschlossener Spot: pinker Ring, bis ein anderer Spot geöffnet wird */
   .leaflet-marker-icon.lastseen { z-index: 9998 !important; }
-  .leaflet-marker-icon.lastseen .pin { box-shadow: 0 0 0 3px #fff, 0 0 0 7px #e1306c, 0 4px 14px rgba(0,0,0,.45); }
+  .leaflet-marker-icon.lastseen .pin, .leaflet-marker-icon.lastseen.marker-cluster { box-shadow: 0 0 0 3px #fff, 0 0 0 7px #e1306c, 0 4px 14px rgba(0,0,0,.45); }
+  .leaflet-marker-icon.lastseen.marker-cluster { border-radius: 50%; }
   @keyframes flashpin { 50% { transform-origin: center; filter: drop-shadow(0 0 10px #e1306c) brightness(1.2); } }
   .pop .links a { flex: 1; text-align: center; padding: 7px 6px; border-radius: 8px; font-size: 13px;
     text-decoration: none; background: #f3f4f6; color: #111827 !important; white-space: nowrap; }
@@ -793,6 +794,15 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       }, 300);
     }, 1600);
   }
+  // Spot öffnen, ohne die Karte zu bewegen (Ausschnitt und Liste bleiben, wie man sie eingestellt hat).
+  // Nur am Desktop, wenn der Pin außerhalb liegt, muss die Karte hin – dort hängt das Popup am Pin.
+  function openSpot(m) {
+    if (!m) return;
+    const ll = m.getLatLng();
+    if (!mobile() && !map.getBounds().contains(ll)) map.panTo(ll, { animate: false });  // nur verschieben, nie zoomen
+    if (GMAP || cluster.getVisibleParent(m) === m) m.openPopup();
+    else map.openPopup(m.getPopup(), ll);  // Pin steckt in einer Gruppe: Spot trotzdem öffnen, ohne hineinzuzoomen
+  }
   // ‹ › im Popup: zum vorherigen/nächsten Spot der aktuellen Liste
   function stepSpot(fromId, dir) {
     stepping = true;  // gilt bis der nächste Spot offen ist
@@ -811,8 +821,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     map.closePopup();
     navigating = false;
     // schon sichtbar → sofort öffnen, sonst erst hinzoomen
-    if (cluster.getVisibleParent(m) === m && map.getBounds().contains(m.getLatLng())) m.openPopup();
-    else focusMarker(m);
+    openSpot(m);
   }
   // Kartenausschnitt vor dem ersten geöffneten Spot merken und beim Schließen wiederherstellen
   // (Blättern zwischen Spots darf die Karte bewegen, danach steht sie wieder wie vorher)
@@ -839,11 +848,19 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   map.on("popupclose", ev => {
     if (!navigating) { navFor = null; stepping = false; }
     if (navigating) return;
-    savedView = null;
+    const sv = savedView; savedView = null;
     const zoomIn = jumpZoom; jumpZoom = false;
     if (quietClose) return;
     const box = ev.popup.getElement() && ev.popup.getElement().querySelector(".status");
-    if (box) setTimeout(() => showSpotOnMap(box.dataset.id, zoomIn), 0);  // nach den übrigen Schließen-Handlern (Liste neu)
+    const id = box && box.dataset.id;
+    setTimeout(() => {  // nach den übrigen Schließen-Handlern
+      if (zoomIn) return showSpotOnMap(id, true);
+      if (sv) map.setView(sv.c, sv.z, { animate: false });  // Karte steht wieder genau wie vor dem Öffnen
+      const p = id && places.find(x => x.id === id), m = id && markers.get(id);
+      if (!p || !m || !shown.has(id)) return renderList();
+      if (!visibleBounds().contains([p.lat, p.lng])) return showSpotOnMap(id, false);
+      setTimeout(() => { const vp = cluster.getVisibleParent(m); markSeen(vp && vp !== m ? vp : m); renderList(); }, 250);
+    }, 0);
   });
   // Popup so hoch wie der freie Platz zwischen Bereichs-Umschalter oben und Liste unten
   function popupSpace() {
@@ -1005,7 +1022,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return L.latLngBounds([[x0, y0], [x1, y0], [x0, y1], [x1, y1]].map(pt => map.containerPointToLatLng(pt)));
   }
   let moveTimer = null;
-  const rerenderIfArea = () => { if (inView) { clearTimeout(moveTimer); moveTimer = setTimeout(renderList, 120); } };
+  const popupOpen = () => !!(map._popup && map.hasLayer(map._popup));
+  const rerenderIfArea = () => { if (inView && !popupOpen() && !stepping && !navigating) { clearTimeout(moveTimer); moveTimer = setTimeout(renderList, 120); } };  // offener Spot: Liste bleibt stehen
   map.on("moveend", rerenderIfArea);
   $("#sheet").addEventListener("transitionend", e => { if (e.target.id === "sheet") rerenderIfArea(); });
   function renderList() {
@@ -1064,7 +1082,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (!map._popup || !map.hasLayer(map._popup)) saveView();
     const m = markers.get(li.dataset.id);
     setSnap("peek");
-    focusMarker(m);
+    openSpot(m);
   });
   // Desktop: Spot in der Liste überfahren → Pin (oder seine Gruppe) auf der Karte hervorheben
   let hlEl = null;
