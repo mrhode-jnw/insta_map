@@ -155,6 +155,7 @@
     setView(ll, z, o) { const c = toLL(ll); this._g.moveCamera({ center: c, zoom: z ?? this.getZoom() }); return this; }
     setZoom(z) { this._g.setZoom(z); return this; }
     panTo(ll) { this._g.panTo(toLL(ll)); return this; }
+    panBy(o) { this._g.panBy(o[0], o[1]); return this; }
     fitBounds(b, o = {}) { b = latLngBounds(b); if (!b.isValid()) return this; const p = (o.padding || [0, 0])[0]; this._g.fitBounds(b.toGoogle(), p); return this; }
     getBounds() {
       const gb = this._g.getBounds();
