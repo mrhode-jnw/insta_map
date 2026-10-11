@@ -93,7 +93,8 @@
   "prio": "mittel"
  },
  "hk-shanghai-street-jordanyau-ma-teimong-kok": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "fav": true
  },
  "hk-wah-tak-building-yau-ma-tei": {
   "prio": "hoch"
