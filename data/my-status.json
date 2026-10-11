@@ -205,7 +205,8 @@
   "prio": "gering"
  },
  "hk-shek-kip-mei-street": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "fav": true
  },
  "hk-nam-cheong-lau": {
   "prio": "gering"
