@@ -273,7 +273,8 @@
   "hidden": true
  },
  "hk-southern-building-north-point": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "done": true
  },
  "hk-majestic-apartments-north-point": {
   "prio": "hoch",
