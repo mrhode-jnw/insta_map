@@ -222,6 +222,7 @@
       return this;
     }
     getElement() { return this._gm.map ? this._el : null; }
+    setZIndexOffset(z) { this._gm.zIndex = z; return this; }
     getLatLng() { return this._ll; }
     setLatLng(ll) { this._ll = latLng(ll); this._gm.position = toLL(this._ll); return this; }
     addTo(map) { this._map = map; this._gm.map = map._g; return this; }

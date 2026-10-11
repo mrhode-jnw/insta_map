@@ -91,10 +91,12 @@
   .leaflet-marker-icon.hl.marker-cluster { border-radius: 50%; }
   .leaflet-marker-icon.flash { animation: flashpin .65s ease-in-out 4; z-index: 9999 !important; }
   /* verkleinerter Spot nach „Springe zu Spot“: nur Kopfzeile + Name, antippen öffnet wieder */
-  .leaflet-popup.mini .hero, .leaflet-popup.mini .credit, .leaflet-popup.mini .gal, .leaflet-popup.mini .galhead,
+  .leaflet-popup.mini .hero .side, .leaflet-popup.mini .credit, .leaflet-popup.mini .gal, .leaflet-popup.mini .galhead,
   .leaflet-popup.mini .b > *:not(h3), .leaflet-popup.mini .pnav [data-go], .leaflet-popup.mini .pnav .spotnum { display: none !important; }
   .leaflet-popup.mini .leaflet-popup-content { max-height: none !important; height: auto !important; overflow: hidden !important; }
   .leaflet-popup.mini .b { padding: 2px 14px 10px; cursor: pointer; }
+  .leaflet-popup.mini .hero { cursor: pointer; }
+  .leaflet-popup.mini .hero img { height: 120px !important; max-height: 120px !important; aspect-ratio: auto !important; object-fit: cover; }  /* Foto bleibt sichtbar, nur flach */
   .leaflet-popup.mini h3 { margin: 0; font-size: 16px; }
   .leaflet-popup.mini h3::after { content: "  ▾ antippen zum Öffnen"; font-size: 12px; font-weight: 400; color: var(--muted, #6b7280); }
   .leaflet-marker-icon.flash .pin { animation: pinpulse .65s ease-in-out 4; }
@@ -837,8 +839,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   map.on("popupopen", () => { saveView(); stepping = false; document.querySelectorAll(".leaflet-marker-icon.lastseen").forEach(x => x.classList.remove("lastseen")); });
   // Spot geschlossen → Karte zeigt genau diesen Spot und hebt seinen Pin hervor (statt zum alten Ausschnitt zurückzuspringen)
   let quietClose = false, jumpZoom = false;
+  let frontM = null;
   function markSeen(m) {
     document.querySelectorAll(".leaflet-marker-icon.lastseen").forEach(x => x.classList.remove("lastseen"));
+    if (frontM && frontM.setZIndexOffset) frontM.setZIndexOffset(0);
+    if (m.setZIndexOffset) { m.setZIndexOffset(5000); frontM = m; }  // liegt ein anderer Spot auf derselben Stelle: hervorgehobener nach vorn
     const ic = m.getElement(); if (!ic) return;
     ic.classList.add("flash", "lastseen"); setTimeout(() => ic.classList.remove("flash"), 2700);
   }
@@ -849,15 +854,23 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     el.classList.add("mini");
     savedView = null;  // nach dem Schließen nicht zum alten Ausschnitt zurück – man wollte ja hierher
     if (mobile()) setSnap("peek");
-    const go = () => {
-      map.setView([p.lat, p.lng], Math.max(map.getZoom(), 17), { animate: false });
+    const center = z => {  // Spot mittig in den freien Bereich unter der kleinen Leiste
+      map.setView([p.lat, p.lng], z, { animate: false });
       requestAnimationFrame(() => {
         const r = map.getContainer().getBoundingClientRect();
         const top = (mobile() ? el.getBoundingClientRect().bottom : r.top + 0.35 * r.height) - r.top;
         const bot = (mobile() ? $("#sheet").getBoundingClientRect().top : r.bottom) - r.top;
         map.panBy([0, r.height / 2 - (top + bot) / 2], { animate: false });
-        setTimeout(() => markSeen(m), 350);
       });
+    };
+    const go = () => {
+      center(Math.max(map.getZoom(), 17));
+      // steckt der Pin noch in einer Gruppe (z.B. zwei Spots am selben Haus), weiter hineinzoomen, bis er einzeln ist
+      setTimeout(() => {
+        const vp = cluster.getVisibleParent(m);
+        if (GMAP && vp && vp !== m) { center(19); setTimeout(() => markSeen(m), 800); }
+        else markSeen(m);
+      }, 800);
     };
     if (GMAP || cluster.getVisibleParent(m) === m) go(); else cluster.zoomToShowLayer(m, go);
   }
@@ -1019,6 +1032,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const el = ev.popup.getElement(), box = el.querySelector(".status");
     const p = box && places.find(x => x.id === box.dataset.id); if (!p) return;
     el.querySelectorAll("img[data-lb]").forEach(img => img.onclick = e => {
+      if (img.closest(".leaflet-popup.mini")) return;  // verkleinerter Spot: Tippen öffnet den Spot, nicht die Vollbildansicht
       e.stopPropagation(); if (img.closest(".pop") && img.closest(".pop").dataset.swiped) return; lbOpen(p, +img.dataset.lb); });
   });
   function syncMarkers(items) {  // nur Unterschiede anwenden, damit offene Popups offen bleiben
