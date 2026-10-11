@@ -5593,6 +5593,30 @@ window.PLACES = [
   "image_page": "https://www.dcfever.com/news/readnews.php?id=36328",
   "image_credit": "DCFever, Okt. 2023",
   "source": "DCFever 28.10.2023 (Standorte), DCFever (9.11.: 17:35, 251°, 1,2°), HKO-Sonnenuntergang Okt. 2026, eigene Berechnung mit OpenStreetMap"
+ },
+ {
+  "id": "hk-north-point-mansion-tram-king-s-road",
+  "name": "North Point Mansion 北角大廈 + Tram (King's Road)",
+  "district": "North Point",
+  "category": "Tram",
+  "note": "北角大廈 North Point Mansion, 692–702 King's Road (Haltestelle Tsat Tsz Mui, Grenze North Point / Quarry Bay) – 15 Etagen, Rasterfassade mit grünen Fensterrahmen. Im Foto unten links 金谷茶餐廳, rechts das Schild 北角大廈. Pin = Fotostandpunkt auf der Nordseite der King's Road, Blick nach Südsüdwest (201°) frontal auf die 34-m-Fassade; die Trams fahren dazwischen. Licht (berechnet mit OSM-Gebäudehöhen, Mitte Oktober): Die Fassade zeigt nach Nordnordost und bekommt nur morgens ca. 7:20–8:15 Sonne – flaches Streiflicht, das die Fassade plastisch macht (Baumschatten wie im Foto). Davor Schatten der Häuser gegenüber, danach steht die Sonne hinter dem Haus (gleichmäßiger Schatten, auch okay).",
+  "tip": "Mit Tele (70–200 mm) frontal, Fassade bildfüllend, warten bis eine Tram genau mittig durchfährt (Serienbild). Grüne Trams/Werbung passen farblich zur Fassade.",
+  "address": "North Point",
+  "lat": 22.292026,
+  "lng": 114.207004,
+  "approx": false,
+  "image": "images/npm_lightcatcher.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [],
+  "pop": 2,
+  "pop_reason": "Tram vor der grünen Rasterfassade – Motiv von @lightcatcher_po.tse",
+  "image_page": "https://www.instagram.com/lightcatcher_po.tse/",
+  "image_credit": "Foto: @lightcatcher_po.tse (Screenshot), Lage/Licht: eigene Prüfung mit OpenStreetMap",
+  "source": "Foto: @lightcatcher_po.tse (Screenshot), Lage/Licht: eigene Prüfung mit OpenStreetMap",
+  "ok": "Gebäude über die Schilder im Foto (金谷茶餐廳, 北角大廈) und OSM-Adresse bestätigt; Standpunkt aus Straßengeometrie"
  }
 ];
 window.UNPLACED_POSTS = [
