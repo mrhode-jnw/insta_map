@@ -339,7 +339,8 @@
   "done": true
  },
  "hk-pak-far-building-sham-shui-po": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "done": true
  },
  "hk-kim-shin-lane": {
   "prio": "gering"
