@@ -5617,6 +5617,30 @@ window.PLACES = [
   "image_credit": "Foto: @lightcatcher_po.tse (Screenshot), Lage/Licht: eigene Prüfung mit OpenStreetMap",
   "source": "Foto: @lightcatcher_po.tse (Screenshot), Lage/Licht: eigene Prüfung mit OpenStreetMap",
   "ok": "Gebäude über die Schilder im Foto (金谷茶餐廳, 北角大廈) und OSM-Adresse bestätigt; Standpunkt aus Straßengeometrie"
+ },
+ {
+  "id": "hk-kennedy-town-basketball-court-blick-davis-street",
+  "name": "Kennedy Town Basketball Court 堅尼地城遊樂場 (Blick Davis Street → Meer)",
+  "district": "Kennedy Town",
+  "category": "Street",
+  "note": "Basketballplätze im Kennedy Town Playground 堅尼地城遊樂場 an der Forbes Street 科士街 (MTR Kennedy Town, Ausgang C, Treppe hoch). Motiv: durch den Maschendrahtzaun am Nordrand des östlichen Platzes die Davis Street 爹核士街 hinunter – zwei Häuserzeilen rahmen das Meer (Victoria Harbour) am Ende. Pin = Standpunkt am Zaun genau in der Achse der Davis Street, Blick nach Norden (ca. 350°). Geöffnet täglich 7–23 Uhr; abends zum Sonnenuntergang voll (Schlange am Zaun), werktags morgens ruhig. Hier spielen Anwohner – Rücksicht nehmen, nicht aufs Spielfeld stellen.",
+  "tip": "Mittlere Brennweite (35–70 mm), Zaun unscharf im Vordergrund oder Objektiv direkt an eine Masche halten. Golden Hour: Sonne kommt von links (Westen) und streift die rechte Häuserzeile; morgens ist die linke Seite im Licht. Gleich daneben: Forbes Street stone wall trees (Banyan-Bäume an der Steinmauer).",
+  "address": "Kennedy Town",
+  "lat": 22.281122,
+  "lng": 114.127128,
+  "approx": false,
+  "image": null,
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [],
+  "pop": 4,
+  "pop_reason": "Viraler Instagram-/Xiaohongshu-Spot, laut Sing Tao und HK01 bei Sonnenuntergang Warteschlangen am Zaun",
+  "image_page": "https://www.stheadline.com/hot-place/3302871/",
+  "image_credit": "Sing Tao (Dez. 2023), HK01 (Mai 2025), Localiiz; Lage: OpenStreetMap",
+  "source": "Sing Tao (Dez. 2023), HK01 (Mai 2025), Localiiz; Lage: OpenStreetMap",
+  "ok": "Spielplatz und Basketballfelder per OSM (堅尼地城遊樂場, 2 Basketballfelder) bestätigt; Davis Street beginnt laut OSM genau gegenüber dem östlichen Feld"
  }
 ];
 window.UNPLACED_POSTS = [
