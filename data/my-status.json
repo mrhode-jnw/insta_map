@@ -215,7 +215,8 @@
   "prio": "mittel"
  },
  "hk-lucky-building": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "fav": true
  },
  "hk-i-feng-mansion": {
   "prio": "hoch"
