@@ -523,6 +523,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const postLinks = p => `<a href="${esc(p.url)}" target="_blank" rel="noopener">Post</a> · <a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>`;
 
   // Fotos eines Spots – das Titelbild immer zuerst (damit „📷 1/n“ zum großen Bild passt)
+  const who = x => x.credit || "@" + x.username;  // Foto aus Artikel statt Instagram: Quellenangabe
   const imgsOf = p => { const l = (p.posts || []).filter(x => x.image), i = l.findIndex(x => x.image === p.image);
     return i > 0 ? [l[i], ...l.slice(0, i), ...l.slice(i + 1)] : l; };
   function popupHtml(p) {
@@ -534,8 +535,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const hero = !posts || posts.length === 1;
     const gal = posts && posts.length > 1 ? `<div class="galhead"><b class="galn">📷 ${posts.length} Fotos</b> <span>– seitlich wischen →</span></div><div class="gal">${posts.map((x, i) => `
         <figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}<span class="gnum">${i + 1}/${posts.length}</span>
-        <figcaption><a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a>
-          <a class="postlink" href="${esc(x.url)}" target="_blank" rel="noopener">Instagram-Post ↗</a></figcaption></figure>`).join("")}</div>` : "";
+        <figcaption><a href="${esc(x.profile_url)}" target="_blank" rel="noopener">${esc(who(x))}</a>
+          <a class="postlink" href="${esc(x.url)}" target="_blank" rel="noopener">${x.credit ? "Quelle" : "Instagram-Post"} ↗</a></figcaption></figure>`).join("")}</div>` : "";
     const navIds = navOrder(p.id), idx = navIds.indexOf(p.id);
     const multi = idx >= 0 && navIds.length > 1;
     const onImg = multi && p.image;  // Pfeile mittig über dem großen Bild
@@ -985,7 +986,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const lb = { el: $("#lb"), list: [], i: 0 };
   function spotImages(p) {
     const ps = imgsOf(p);
-    if (ps.length) return ps.map(x => ({ src: x.image, url: x.url, label: "@" + x.username, profile: x.profile_url }));
+    if (ps.length) return ps.map(x => ({ src: x.image, url: x.url, label: who(x), profile: x.profile_url }));
     return p.image ? [{ src: p.image, url: p.post_url || p.image_page || p.wiki_url, label: p.image_credit || p.by_claude ? (p.image_credit || "Wikimedia Commons") : (p.username ? "@" + p.username : ""), profile: p.profile_url }] : [];
   }
   function lbShow(i) {
@@ -1115,7 +1116,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const extra = unplaced.length && !filtered ? `
       <li class="sec">Ohne konkreten Ort <small>(${unplaced.length} Posts – Inspiration)</small></li>
       <li class="sec" style="padding:0;border:0"><div class="ugrid">${unplaced.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
-        ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>@${esc(x.username)}</span></a>`).join("")}</div></li>` : "";
+        ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>${esc(who(x))}</span></a>`).join("")}</div></li>` : "";
     setList((items.length ? items.map((p, i) => `${head(p, i)}
       <li data-id="${esc(p.id)}">
         ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}

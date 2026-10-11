@@ -2056,7 +2056,7 @@ window.PLACES = [
   "name": "Argyle Street 'henge'",
   "district": "Mong Kok",
   "category": "Street",
-  "note": "Mongkok Henge (Sunset): Fußgängerbrücke über die Argyle Street bei Sai Yee Street / MOKO / Mong Kok East Station, Blick nach Westen (Straßenachse 257,9°). Höhepunkt 2026 rechnerisch ca. 15.–19.10. gegen 17:25–17:30 (Sonne in der Achse knapp über den Hochhäusern am Ende). Quellen: Fotografen am 16.10.2022 auf genau dieser Brücke, Höhepunkt ~17:30 (Epoch Times); Wikipedia nennt den 19.10.; Ming Pao: Mitte Oktober, ca. eine Woche. Während unseres Aufenthalts: 14.10. Sonne in der Achse um 17:23, aber noch ~1,5° höher als beim klassischen Bild (12.10. 17:16, 13.10. 17:20 noch höher). Ab 17:00 da sein (voll!), 100–400 mm, wolkenfreier Westhimmel nötig. Sonnenuntergang laut HKO: 14.10. 17:59.",
+  "note": "Mongkok Henge (Sunset): Fußgängerbrücke über die Argyle Street bei Sai Yee Street / MOKO / Mong Kok East Station, Blick nach Westen (Straßenachse 257,9°). Höhepunkt 2026 rechnerisch ca. 15.–19.10. gegen 17:25–17:30 (Sonne in der Achse knapp über den Hochhäusern am Ende). Quellen: Fotografen am 16.10.2022 auf genau dieser Brücke, Höhepunkt ~17:30 (Epoch Times); Wikipedia nennt den 19.10.; Ming Pao: Mitte Oktober, ca. eine Woche. Während unseres Aufenthalts: 11.10. 17:13 (Sonne ~4° höher als am 14.10.), 14.10. Sonne in der Achse um 17:23, aber noch ~1,5° höher als beim klassischen Bild (12.10. 17:16, 13.10. 17:20 noch höher). Ab 17:00 da sein (voll!), 100–400 mm, wolkenfreier Westhimmel nötig. Sonnenuntergang laut HKO: 14.10. 17:59.",
   "address": "Mong Kok",
   "lat": 22.32005,
   "lng": 114.17278,
@@ -2085,6 +2085,42 @@ window.PLACES = [
     "image": "images/DPuoulFkynE.jpg",
     "caption": "Hong Kong  Scenes : Mongkok Henge\n\n📍Argyle Street Pedestrian Footbridge\n\n”Mongkok Henge“ refers to the sunset scene captured by the Argyle Street pedestrian bridge in Mongkok on specific dates (the end of February and mid-October each year). \n\n#mongkokhenge #henge #hongkongsunset #discoverhongkong #hongkongtravel #hongkongtrip #hongkongtravelguide #hongkongphotography #zolimahongkong #awesomehongkong",
     "match": "single"
+   },
+   {
+    "url": "https://www.dcfever.com/column/read.php?id=5542",
+    "username": "",
+    "profile_url": "https://www.dcfever.com/column/read.php?id=5542",
+    "kind": "photo",
+    "image": "images/henge_argyle_2.jpg",
+    "caption": "",
+    "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+   },
+   {
+    "url": "https://www.dcfever.com/column/read.php?id=5542",
+    "username": "",
+    "profile_url": "https://www.dcfever.com/column/read.php?id=5542",
+    "kind": "photo",
+    "image": "images/henge_argyle_5.jpg",
+    "caption": "",
+    "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+   },
+   {
+    "url": "https://www.dcfever.com/column/read.php?id=5542",
+    "username": "",
+    "profile_url": "https://www.dcfever.com/column/read.php?id=5542",
+    "kind": "photo",
+    "image": "images/henge_argyle_4.jpg",
+    "caption": "",
+    "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+   },
+   {
+    "url": "https://www.dcfever.com/column/read.php?id=5542",
+    "username": "",
+    "profile_url": "https://www.dcfever.com/column/read.php?id=5542",
+    "kind": "photo",
+    "image": "images/henge_argyle_6.jpg",
+    "caption": "",
+    "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
    }
   ],
   "pop": 1,
@@ -5434,22 +5470,41 @@ window.PLACES = [
   "name": "Sunset Henge: Ting Kau Bridge vom Tsuen Wan West Waterfront 汀九橋日落",
   "district": "Tsuen Wan",
   "category": "Henge",
-  "note": "Standpunkt: Uferweg (海濱走廊) am Bahnhof Tsuen Wan West / Tsuen Wan Ferry Pier, Blick nach Westen auf die Ting Kau Bridge (3,1 km). 2026: Sonne am Brückendeck 12.10. 17:52 (261,4°) · 13.10. 17:51 (261,0°) · 14.10. 17:50 (260,6°) – fast genau hinter der Brückenmitte (262°). Über die Pylone (~200 m) zieht sie ca. 10 Min. früher. Sonnenuntergang laut HKO 18:01/18:00/17:59. Später im Monat wandert der Punkt nach Süden → Standort Richtung Bayview Garden (Hoi On Road) verlegen.",
-  "tip": "Sehr lange Brennweite (400–1000 mm KB) für die große Sonne mit den Autos als Silhouetten auf dem Deck; ab 17:20 da sein; klare Sicht nach Westen nötig. Anfahrt: MTR Tuen Ma Line bis Tsuen Wan West, Ausgang zum Wasser.",
+  "note": "Standpunkt: Uferweg (海濱走廊) am Bahnhof Tsuen Wan West / Tsuen Wan Ferry Pier, Blick nach Westen auf die Ting Kau Bridge (3,1 km). 2026: Sonne am Brückendeck 11.10. 17:53 (261,8°) · 12.10. 17:52 (261,4°) · 13.10. 17:51 (261,0°) · 14.10. 17:50 (260,6°) – fast genau hinter der Brückenmitte (262°). Über die Pylone (~200 m) zieht sie ca. 10 Min. früher. Sonnenuntergang laut HKO 18:01/18:00/17:59 (12.–14.10.), am 11.10. ca. 18:02. Sichtbar ist das Motiv ca. 20 Min. (Pylone → Deck → Untergang), länger als in der Argyle Street, weil der Horizont frei ist. Später im Monat wandert der Punkt nach Süden → Standort Richtung Bayview Garden (Hoi On Road) verlegen.",
+  "tip": "Sehr lange Brennweite (400–1000 mm KB) für die große Sonne mit den Autos als Silhouetten auf dem Deck; ab 17:20 da sein (von M+: MTR Austin → Tsuen Wan West direkt, ca. 12 Min.); klare Sicht nach Westen nötig. Anfahrt: MTR Tuen Ma Line bis Tsuen Wan West, Ausgang zum Wasser.",
   "address": "Tsuen Wan",
   "lat": 22.36747,
   "lng": 114.11021,
   "approx": false,
-  "image": null,
+  "image": "images/henge_tingkau_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.dcfever.com/news/readnews.php?id=36328",
+    "username": "",
+    "profile_url": "https://www.dcfever.com/news/readnews.php?id=36328",
+    "kind": "photo",
+    "image": "images/henge_tingkau_1.jpg",
+    "caption": "",
+    "credit": "DCFever, Okt. 2023"
+   },
+   {
+    "url": "https://www.stheadline.com/local-topics/3285526/",
+    "username": "",
+    "profile_url": "https://www.stheadline.com/local-topics/3285526/",
+    "kind": "photo",
+    "image": "images/henge_tingkau_2.jpg",
+    "caption": "",
+    "credit": "Sing Tao Headline, Okt. 2023"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Sonne geht Mitte Okt.–Anfang Nov. hinter der Ting Kau Bridge unter (DCFever)",
   "image_page": "https://www.dcfever.com/news/readnews.php?id=36328",
-  "image_credit": "DCFever 28.10.2023 (Standorte), DCFever (9.11.: 17:35, 251°, 1,2°), HKO-Sonnenuntergang Okt. 2026, eigene Berechnung mit OpenStreetMap",
+  "image_credit": "DCFever, Okt. 2023",
   "source": "DCFever 28.10.2023 (Standorte), DCFever (9.11.: 17:35, 251°, 1,2°), HKO-Sonnenuntergang Okt. 2026, eigene Berechnung mit OpenStreetMap"
  }
 ];

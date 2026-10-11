@@ -159,6 +159,7 @@ for n, s in enumerate(S):
         places[-1]["pop_reason"] = pop.get("reason", "")
 
 PHOTO_OVERRIDES = bp.load_json(os.path.join(ROOT, "hk", "photo_overrides.json"), {})
+EXTRA_PHOTOS = bp.load_json(os.path.join(ROOT, "hk", "extra_photos.json"), {})
 
 # Claude-Tipps: ergänzende Top-Spots, nicht aus der Sammlung (Bild lädt die Karte von Wikipedia)
 from claude_spots import CLAUDE_SPOTS  # noqa: E402
@@ -198,6 +199,19 @@ for p in places:
     o = PHOTO_OVERRIDES.get(p["name"])
     if o and not p["image"] and os.path.exists(os.path.join(ROOT, o["image"])):
         p.update(image=o["image"], image_page=o["page"], image_credit=o["credit"])
+
+# Zusätzliche Fotos aus Artikeln (hk/extra_photos.json, Name → [{image, url, credit}]) – erscheinen in der Galerie
+for p in places:
+    extra = [x for x in EXTRA_PHOTOS.get(p["name"], []) if os.path.exists(os.path.join(ROOT, x["image"]))]
+    if not extra:
+        continue
+    if not p["posts"] and p["image"]:  # bisheriges Einzelfoto als erstes Galeriebild behalten
+        p["posts"].append({"url": p.get("image_page") or "", "username": "", "profile_url": p.get("image_page") or "",
+                           "kind": "photo", "image": p["image"], "caption": "", "credit": p.get("image_credit") or "Quelle"})
+    p["posts"] += [{"url": x["url"], "username": "", "profile_url": x["url"], "kind": "photo", "image": x["image"],
+                    "caption": "", "credit": x["credit"]} for x in extra]
+    if not p["image"]:
+        p.update(image=extra[0]["image"], image_page=extra[0]["url"], image_credit=extra[0]["credit"])
 
 unplaced = [posts[i] for i in sorted(POSTS) if i not in used]
 
