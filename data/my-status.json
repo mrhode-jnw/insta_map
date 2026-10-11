@@ -330,7 +330,8 @@
  },
  "hk-tung-lo-court": {
   "prio": "hoch",
-  "fav": true
+  "fav": true,
+  "done": true
  },
  "hk-wing-wah-building-sham-shui-po": {
   "prio": "hoch",
