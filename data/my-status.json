@@ -388,7 +388,8 @@
   "hidden": true
  },
  "hk-gam-lai-gung-neon-changsha-street": {
-  "fav": true
+  "fav": true,
+  "prio": "hoch"
  },
  "hk-fat-kwong-street-flyover": {
   "fav": true
