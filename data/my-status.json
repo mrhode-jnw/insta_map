@@ -237,7 +237,8 @@
   "prio": "gering"
  },
  "hk-kam-hong-street-shu-kuk-street-lion-rock-view": {
-  "prio": "gering"
+  "prio": "gering",
+  "done": true
  },
  "hk-hoi-on-road-noise-barrier": {
   "prio": "hoch"
