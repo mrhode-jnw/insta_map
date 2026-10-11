@@ -3729,10 +3729,10 @@ window.PLACES = [
  },
  {
   "id": "hk-merit-industrial-centre",
-  "name": "Merit Industrial Centre 美德工業大廈",
+  "name": "Merit Industrial Centre 美華工業中心",
   "district": "To Kwa Wan",
   "category": "Architektur",
-  "note": "",
+  "note": "94 To Kwa Wan Road – Industriehochhaus mit zwei runden Glas-Treppentürmen. Fassade zur To Kwa Wan Road zeigt nach Südosten (OSM-Grundriss) → morgens direktes Licht, ca. 8–10 Uhr. Standpunkt: gegenüberliegende Straßenseite der To Kwa Wan Road, Taxi als Vordergrund. MTR To Kwa Wan, ca. 5 Min. zu Fuß.",
   "address": "美華工業中心 Merit Industrial Centre, 土瓜灣道 To Kwa Wan Road, 馬頭角 Ma Tau Kok, 九龍城區 Kowloon City District, 九龍 Kowloon, 香港 Hong Kong, 中国",
   "lat": 22.319025,
   "lng": 114.192043,

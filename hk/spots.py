@@ -159,7 +159,7 @@ add("I Feng Mansion 益豐大廈", (22.31533,114.18941,"OSM"), "To Kwa Wan", "Ar
 add("Mei King Street 美景街", "Mei King Street, To Kwa Wan, Hong Kong", "To Kwa Wan", "Street", [19], "")
 add("Ma Tau Wai Estate 馬頭圍邨 (+ Lion Rock)", "Ma Tau Wai Estate, Hong Kong", "To Kwa Wan", "Architektur", [19], "")
 add("Kowloon City Road 九龍城道", "Kowloon City Road, To Kwa Wan, Hong Kong", "To Kwa Wan", "Street", [19], "")
-add("Merit Industrial Centre 美德工業大廈", "Merit Industrial Centre, To Kwa Wan, Hong Kong", "To Kwa Wan", "Architektur", [19], "")
+add("Merit Industrial Centre 美華工業中心", "Merit Industrial Centre, To Kwa Wan, Hong Kong", "To Kwa Wan", "Architektur", [19], "94 To Kwa Wan Road – Industriehochhaus mit zwei runden Glas-Treppentürmen. Fassade zur To Kwa Wan Road zeigt nach Südosten (OSM-Grundriss) → morgens direktes Licht, ca. 8–10 Uhr. Standpunkt: gegenüberliegende Straßenseite der To Kwa Wan Road, Taxi als Vordergrund. MTR To Kwa Wan, ca. 5 Min. zu Fuß.")
 add("Hung Kwong Street 鴻光街", "Hung Kwong Street, To Kwa Wan, Hong Kong", "To Kwa Wan", "Street", [19], "")
 add("Kai Tak Tunnel 啟德隧道", (22.32140,114.19060,"OSM"), "To Kwa Wan", "Architektur", [19], "")
 add("Newport Centre Block 2 (Neon abgerissen)", "Newport Centre, To Kwa Wan, Hong Kong", "To Kwa Wan", "Architektur", [19], "")
