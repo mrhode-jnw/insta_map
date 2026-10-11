@@ -81,7 +81,8 @@
   "prio": "gering"
  },
  "hk-k11-musea": {
-  "prio": "gering"
+  "prio": "gering",
+  "hidden": true
  },
  "hk-east-coast-boardwalk-lion-rock-view": {
   "prio": "mittel"
