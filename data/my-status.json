@@ -406,6 +406,7 @@
   "prio": "mittel"
  },
  "hk-hoi-lai-estate": {
-  "fav": true
+  "fav": true,
+  "prio": "hoch"
  }
 }
