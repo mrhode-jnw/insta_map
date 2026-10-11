@@ -152,6 +152,18 @@
   #gateForm button { padding: 12px; border: 0; border-radius: 10px; background: var(--accent); color: #fff; font-size: 16px; }
   #gateErr { color: #dc2626; min-height: 1.2em; font-size: 14px; }
   #add { bottom: calc(env(safe-area-inset-bottom) + 152px); background: var(--accent); color: #fff; font-size: 28px; }
+  .pin.unsure { border: 3px dashed #f59e0b; position: relative; }
+  .pin .unsb { position: absolute; left: -6px; top: -6px; width: 16px; height: 16px; border-radius: 50%; background: #f59e0b; color: #fff;
+    font: 700 11px/16px system-ui, sans-serif; text-align: center; font-style: normal; box-shadow: 0 1px 3px rgba(0,0,0,.4); }
+  .pop .unsure-note { background: #fef3c7; color: #92400e; border-radius: 8px; padding: 6px 8px; font-size: 12.5px; margin: 4px 0 8px; line-height: 1.4; }
+  .pop .ok-note { background: #dcfce7; color: #166534; border-radius: 8px; padding: 6px 8px; font-size: 12.5px; margin: 4px 0 8px; line-height: 1.4; }
+  #tourBtn { bottom: calc(env(safe-area-inset-bottom) + 212px); font-size: 20px; }
+  #tourBtn.on { background: #2563eb; color: #fff; }
+  @media (min-width: 800px) { #tourBtn { bottom: 200px; } }
+  .tour-stop { display: flex; align-items: center; gap: 4px; white-space: nowrap; transform: translate(-13px, -13px); }
+  .tour-stop b { width: 26px; height: 26px; border-radius: 50%; background: #2563eb; color: #fff; border: 2px solid #fff; display: grid; place-items: center;
+    font: 700 13px system-ui, sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
+  .tour-stop span { background: rgba(255,255,255,.92); color: #1e3a8a; border-radius: 6px; padding: 1px 5px; font: 600 11.5px system-ui, sans-serif; box-shadow: 0 1px 3px rgba(0,0,0,.25); }
   .pin.henge { background: #fde68a; display: grid; place-items: center; font-size: 17px; }
   .pin.mine { background: #f59e0b; display: grid; place-items: center; font-size: 16px; }
   #addDlg { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1500; background: var(--bg); color: var(--fg);
@@ -283,9 +295,9 @@
   /* Handy: solange ein Spot offen ist, gehört ihm der ganze Bildschirm unter dem Bereichs-Umschalter */
   @media (max-width: 799px) {
     /* nur aus-/einblenden, nichts bewegt sich (vorher fuhr die Liste weg und wieder hoch) */
-    .leaflet-top.leaflet-right, #add, #locate, #sheet { transition: opacity .18s ease; }
+    .leaflet-top.leaflet-right, #add, #locate, #tourBtn, #sheet { transition: opacity .18s ease; }
     #sheet { transition: transform .28s cubic-bezier(.2,.8,.2,1), opacity .18s ease; }
-    body.popup-open .leaflet-top.leaflet-right, body.popup-open #add, body.popup-open #locate,
+    body.popup-open .leaflet-top.leaflet-right, body.popup-open #add, body.popup-open #locate, body.popup-open #tourBtn,
     body.popup-open #sheet { opacity: 0; pointer-events: none; }
   }
   #update { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 110px); z-index: 2500;
@@ -327,6 +339,7 @@
     <option value="route">🧭 Route</option><option value="hk">🇭🇰 Hongkong</option><option value="cn">🇨🇳 China</option><option value="all">🌏 Alles</option></select></label>
   <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button>
 </div>
+<button id="tourBtn" class="fab" title="Morgenroute ein/aus" aria-label="Morgenroute ein/aus" hidden>🚶</button>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
 <button id="add" class="fab" title="Spot hinzufügen" aria-label="Spot hinzufügen">+</button>
 <div id="addDlg" hidden>
@@ -574,6 +587,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${p.category ? `<div class="meta">${esc([p.mine ? "★ Eigener Spot" : "", p.category, p.district, routeLabel(p)].filter(Boolean).join(" · "))}</div>` : ""}
         ${p.pop ? `<div class="popularity">${"🔥".repeat(p.pop)}${"<span style=\"opacity:.25\">🔥</span>".repeat(5 - p.pop)} Beliebtheit ${p.pop}/5${p.pop_reason ? `<br><small>${esc(p.pop_reason)}</small>` : ""}</div>` : ""}
         ${p.approx ? `<div class="approx">Pin ungefähr</div>` : ""}
+        ${p.unsure ? `<div class="unsure-note">⚠️ <b>Standort nicht 100 % gesichert:</b> ${esc(p.unsure)}</div>` : ""}
+        ${p.ok ? `<div class="ok-note">✓ <b>Standort geprüft:</b> ${esc(p.ok)}</div>` : ""}
         ${d}
         ${p.note ? `<div class="note">${esc(p.note)}</div>` : ""}
         ${p.tip ? `<div class="phototip"><b>📸 Foto-Tipp</b> ${esc(p.tip)}</div>` : ""}
@@ -595,13 +610,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
 
   function iconFor(p) {
-    const s = st(p.id), cls = ["pin", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : "", s.fav ? "fav" : ""].join(" ");
+    const s = st(p.id), cls = ["pin", p.unsure ? "unsure" : "", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : "", s.fav ? "fav" : ""].join(" ");
     const fb = s.fav ? '<i class="favb">❤</i>' : "";
+    const ub = p.unsure ? '<i class="unsb" title="Standort nicht 100 % gesichert">?</i>' : "";
     return L.divIcon({
       className: "", iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -14],
-      html: p.mine && !p.image ? `<div class="${cls}">★${fb}</div>`
-        : p.category === "Henge" && !p.image ? `<div class="${cls} henge">☀${fb}</div>`
-        : `<div class="${cls}" style="${p.image ? `background-image:url('${esc(p.image)}')` : ""}">${fb}</div>`
+      html: p.mine && !p.image ? `<div class="${cls}">★${fb}${ub}</div>`
+        : p.category === "Henge" && !p.image ? `<div class="${cls} henge">☀${fb}${ub}</div>`
+        : `<div class="${cls}" style="${p.image ? `background-image:url('${esc(p.image)}')` : ""}">${fb}${ub}</div>`
     });
   }
   function addMarker(p) {
@@ -642,6 +658,26 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     L.polyline(h.street, { color: "#f97316", weight: 5, opacity: .75, interactive: false }).addTo(map);
     h.rays.forEach(r => L.polyline([h.from, ray(h.from, r.az, r.len || 900)], { color: "#eab308", weight: 3, opacity: .95, dashArray: "4 6", interactive: false }).addTo(map));
   });
+  // Geplante Tour (z.B. Morgenroute): Wege (zu Fuß blau gestrichelt, Taxi grau), nummerierte Stopps mit Uhrzeit, Blickrichtung am Standpunkt
+  const TOUR = (window.TRIP.tours || [])[0];
+  if (TOUR) {
+    const parts = [];
+    TOUR.segs.forEach(sg => parts.push(sg.mode === "walk"
+      ? L.polyline(sg.path, { color: "#2563eb", weight: 5, opacity: .85, dashArray: "2 9", interactive: false })
+      : L.polyline(sg.path, { color: "#475569", weight: 4, opacity: .6, interactive: false })));
+    TOUR.stops.forEach(t => {
+      if (t.view != null) parts.push(L.polyline([[t.lat, t.lng], ray([t.lat, t.lng], t.view, 30)], { color: "#2563eb", weight: 4, opacity: .95, interactive: false }));
+      parts.push(L.marker([t.lat, t.lng], { interactive: false, zIndexOffset: 2000, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
+        html: `<div class="tour-stop"><b>${t.n}</b><span>${esc(t.t)} ${esc(t.name)}</span></div>` }) }));
+    });
+    const tourLayer = L.layerGroup(parts), tb = $("#tourBtn");
+    tb.hidden = false; tb.title = TOUR.name + " ein/aus";
+    let tourOn = false; try { tourOn = localStorage.getItem("tour") === TOUR.id; } catch {}
+    const setTour = on => { tourOn = on; tb.classList.toggle("on", on); on ? tourLayer.addTo(map) : tourLayer.remove();
+      try { on ? localStorage.setItem("tour", TOUR.id) : localStorage.removeItem("tour"); } catch {} };
+    tb.onclick = () => { setTour(!tourOn); toast(tourOn ? `🚶 ${TOUR.name} eingeblendet · Start: ${TOUR.start}` : "Route ausgeblendet", 2500); };
+    setTour(tourOn);
+  }
   // Unsere Unterkünfte (approx = Lage nur ungefähr bekannt, Ort/Dorf stimmt)
   const HOTELS = window.TRIP.hotels;
   const hotelIcon = L.divIcon({ className: "", iconSize: [24, 24], iconAnchor: [12, 12], popupAnchor: [0, -12],

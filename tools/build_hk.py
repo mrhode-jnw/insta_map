@@ -141,6 +141,7 @@ for n, s in enumerate(S):
         "district": s["district"],
         "category": s["cat"],
         "note": s.get("note", ""),
+        **({"ok": s["ok"]} if s.get("ok") else {}), **({"unsure": s["unsure"]} if s.get("unsure") else {}),
         "address": addr,
         "lat": round(lat, 6),
         "lng": round(lng, 6),

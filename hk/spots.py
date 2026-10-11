@@ -46,8 +46,9 @@ def url(i):
 # Categories: Aussicht, Neon, Architektur, Street, Markt, Tram, Dorf, Food
 S = []
 # slides={post-idx: slide-nr} legt den Karussell-Slide fest, wenn die Caption-Liste nicht zur Slide-Reihenfolge passt
-def add(name, q, district, cat, posts, note="", slides=None):
-    S.append(dict(name=name, q=q, district=district, cat=cat, posts=posts, note=note, slides=slides or {}))
+def add(name, q, district, cat, posts, note="", slides=None, ok="", unsure=""):
+    # ok = Standort/Standpunkt geprüft (wie), unsure = was nicht gesichert ist → in der App sichtbar markiert
+    S.append(dict(name=name, q=q, district=district, cat=cat, posts=posts, note=note, slides=slides or {}, ok=ok, unsure=unsure))
 
 # --- Aussichtspunkte ---
 add("Victoria Peak – Lugard Road Lookout 盧吉道觀景台", (22.27817,114.14681,"OSM"), "The Peak", "Aussicht", [6,64,81,29,87,90], "Taxi/Tram bis Peak Station, dann Lugard Road; Skyline-Klassiker")
@@ -112,17 +113,17 @@ add("Lai Tak Estate 勵德邨", "Lai Tak Tsuen, Tai Hang, Hong Kong", "Tai Hang"
 add("Cheung Hing House, Portland Street 旺角砵蘭街 (Neon-Ecke)", "Portland Street, Mong Kok, Hong Kong", "Mong Kok", "Neon", [21,22,23,25,28,35], "Ikonische Neon-Ecke, bei Regen")
 add("Langham Place 朗豪坊", "Langham Place, Mong Kok, Hong Kong", "Mong Kok", "Architektur", [23], "")
 add("Argyle Street 'henge'", (22.32005,114.17278,"OSM"), "Mong Kok", "Henge", [23,91], "Mongkok Henge (Sunset): Fußgängerbrücke über die Argyle Street bei Sai Yee Street / MOKO / Mong Kok East Station, Blick nach Westen (Straßenachse 257,9°). WICHTIG: Der Zeitpunkt „Sonne mittig in der Achse“ ist NICHT der Peak. Die Sonne bleibt danach noch ca. 30–40 Min. in der Straßenschlucht (sinkt ~1° pro 5 Min., wandert nur ~0,5° nach rechts); am schönsten ist sie tief und orange über dem Straßenende. Am 11.10. vor Ort geprüft: Achse 17:13, um 17:20 Peak noch nicht erreicht. 2026: 11.10. Achse 17:13 · 12.10. 17:16 · 13.10. 17:19 · 14.10. 17:22 → tiefe orange Sonne jeweils etwa 17:30–17:50 (Sonnenuntergang HKO 14.10.: 17:59). Saisonhöhepunkt laut Quellen ca. 15.–19.10. (Fotografen 16.10.2022, Höhepunkt ~17:30, Epoch Times; Wikipedia: 19.10.; Ming Pao: Mitte Oktober, ca. eine Woche). Ab 17:00 da sein (voll!) und bis zum Sonnenuntergang bleiben; 100–400 mm, wolkenfreier Westhimmel nötig.")
-add("Reclamation Street 新填地街 (alte Läden)", "Reclamation Street, Mong Kok, Hong Kong", "Yau Ma Tei", "Street", [21,23,26,62], "")
+add("Reclamation Street 新填地街 (alte Läden)", "Reclamation Street, Mong Kok, Hong Kong", "Yau Ma Tei", "Street", [21,23,26,62], "Alte Läden entlang der Reclamation Street (Nord–Süd). Morgens: Sonne von Ostsüdost, nur die oberen Stockwerke der Westseite im Licht, Straße selbst im Schatten (weiches Licht für Läden).", unsure="Pin liegt auf der Straße, nicht am Fotostandpunkt: Das Foto ist von erhöhter Position (Brücke/Gebäude) mit Blick nach Norden aufgenommen – genauer Standpunkt unbekannt")
 add("Soy Street tunnel 豉油街", "Soy Street, Mong Kok, Hong Kong", "Mong Kok", "Street", [23], "")
-add("Fa Yuen Street Market 花園街街市", "Fa Yuen Street, Mong Kok, Hong Kong", "Mong Kok", "Markt", [23,25,28], "")
+add("Fa Yuen Street Market 花園街街市", "Fa Yuen Street, Mong Kok, Hong Kong", "Mong Kok", "Markt", [23,25,28], "Marktstände entlang der Fa Yuen Street (Nordteil Richtung Prince Edward Road West). Morgens kaufen Anwohner ein, Stände bauen auf.", unsure="Pin = Fa Yuen Street; die Fotos sind von oben (erhöhter Standpunkt über der Straße) aufgenommen – dieser Standpunkt ist nicht bekannt, vom Boden sieht es anders aus")
 add("Kam Lam Street 甘霖街", "Kam Lam Street, Mong Kok, Hong Kong", "Mong Kok", "Street", [23], "")
 add("20 Nullah Road (Pre-war Shophouses)", "20 Nullah Road, Mong Kok, Hong Kong", "Mong Kok", "Architektur", [23], "")
 add("Neon Hop Hing Lung Ceramics Sanitaryware", (22.32037,114.16858,"OSM"), "Mong Kok", "Neon", [23], "Neonschild 合興隆磁磚潔具公司, Nathan Road (Höhe Nr. 717), Mong Kok")
 add("Neon Pat Chun, Yau Woo Building", (22.32095,114.17096,"OSM"), "Mong Kok", "Neon", [23], "Pat-Chun-Neonschild am Yau Woo Building 友和大樓, 132–136 Fa Yuen Street, Mong Kok")
-add("Shanghai Street 上海街 (Jordan–Yau Ma Tei–Mong Kok)", "Shanghai Street, Yau Ma Tei, Hong Kong", "Yau Ma Tei", "Street", [21,45], "Alter Schlosser-Stand; 618 Shanghai Street restaurierte Shophouses")
+add("Shanghai Street 上海街 (Jordan–Yau Ma Tei–Mong Kok)", "Shanghai Street, Yau Ma Tei, Hong Kong", "Yau Ma Tei", "Street", [21,45], "Alter Schlosser-Stand; 618 Shanghai Street restaurierte Shophouses", unsure="Die Straße ist 2 km lang: Foto 1 laut Post „Shanghai Street, Jordan“ (südlicher Teil), der Schlosser-Stand laut Zolima in Mong Kok (nördlicher Teil). Der Pin in Yau Ma Tei ist keiner der beiden Fotostandpunkte")
 add("Wah Tak Building, Yau Ma Tei", "Wah Tak Building, Yau Ma Tei, Hong Kong", "Yau Ma Tei", "Architektur", [18,27], "Walled-City-Vibe")
 add("Alhambra Building, Yau Ma Tei", "Alhambra Building, Nathan Road, Yau Ma Tei, Hong Kong", "Yau Ma Tei", "Architektur", [24,27], "")
-add("Yau Ma Tei Fruit Market 果欄", "Yau Ma Tei Fruit Market, Hong Kong", "Yau Ma Tei", "Markt", [47], "")
+add("Yau Ma Tei Fruit Market 果欄", "Yau Ma Tei Fruit Market, Hong Kong", "Yau Ma Tei", "Markt", [47], "Obst-Großmarkt zwischen Waterloo Road, Reclamation Street und Shanghai Street; Großhändler arbeiten nachts bis frühmorgens – je früher, desto mehr Lastwagen und Kisten. Das Foto ist an einer Ecke der Reclamation Street (Straßenschild im Bild). Vor Sonnenaufgang (~6:15) Straßenlaternen-Licht, danach weiches Licht in den schattigen Straßen.", ok="Pin liegt im OSM-Marktgelände 油麻地果欄; Großhändler (王將果欄 u. a.) an der Reclamation Street direkt daneben")
 add("Saigon Street 西貢街", "Saigon Street, Jordan, Hong Kong", "Jordan", "Street", [62], "")
 add("Austin Road, Jordan", "Austin Road, Jordan, Hong Kong", "Jordan", "Street", [24], "Orange")
 add("United Mansion, Jordan", "United Mansion, Jordan, Hong Kong", "Jordan", "Architektur", [24], "")
@@ -154,12 +155,12 @@ add("Peony House West Block 牡丹樓", "Peony House, Tai Kok Tsui, Hong Kong", 
 
 # --- To Kwa Wan / Hung Hom / Kowloon City / Ost-Kowloon ---
 add("To Kwa Wan Road – Apartment Complex", "To Kwa Wan Road, Hong Kong", "To Kwa Wan", "Architektur", [19,24], "")
-add("Lucky Building 吉祥樓", "Lucky Building, To Kwa Wan, Hong Kong", "To Kwa Wan", "Architektur", [19,27,60], "bunte Wand")
+add("Lucky Building 吉祥樓 / 七喜大廈", (22.316613,114.187774,"OSM"), "To Kwa Wan", "Architektur", [19,27,60], "294–312 Ma Tau Wai Road (OSM: 七喜大廈 Lucky Building). Pin = Standpunkt auf dem Gehweg gegenüber (Ostseite der Ma Tau Wai Road), Blick nach Westen auf die 48 m lange blaue Ostfassade; die Leitplanke im Foto ist der Mittelstreifen der vierspurigen Straße. Licht (berechnet mit OSM-Gebäudehöhen, 12.10.): Fassade bis ~7:40 fast ganz im Schatten der Häuser gegenüber, ab ~8:00 obere ~60 % in der Sonne, unten Schatten; ab ~9:30 ~75 %. Nachmittags komplett Schatten (gleichmäßig, auch okay).", ok="Gebäude per OSM-Name und Adresse bestätigt; Standpunkt aus Straßengeometrie (Gehweg gegenüber) und Foto (Mittelleitplanke) abgeleitet")
 add("I Feng Mansion 益豐大廈", (22.31533,114.18941,"OSM"), "To Kwa Wan", "Architektur", [19], "")
 add("Mei King Street 美景街", "Mei King Street, To Kwa Wan, Hong Kong", "To Kwa Wan", "Street", [19], "")
 add("Ma Tau Wai Estate 馬頭圍邨 (+ Lion Rock)", "Ma Tau Wai Estate, Hong Kong", "To Kwa Wan", "Architektur", [19], "")
 add("Kowloon City Road 九龍城道", "Kowloon City Road, To Kwa Wan, Hong Kong", "To Kwa Wan", "Street", [19], "")
-add("Merit Industrial Centre 美華工業中心", "Merit Industrial Centre, To Kwa Wan, Hong Kong", "To Kwa Wan", "Architektur", [19], "94 To Kwa Wan Road – Industriehochhaus mit zwei runden Glas-Treppentürmen. Fassade zur To Kwa Wan Road zeigt nach Südosten (OSM-Grundriss) → morgens direktes Licht, ca. 8–10 Uhr. Standpunkt: gegenüberliegende Straßenseite der To Kwa Wan Road, Taxi als Vordergrund. MTR To Kwa Wan, ca. 5 Min. zu Fuß.")
+add("Merit Industrial Centre 美華工業中心", (22.31875,114.192186,"OSM"), "To Kwa Wan", "Architektur", [19], "94 To Kwa Wan Road – Industriehochhaus mit zwei runden Glas-Treppentürmen. Fassade zur To Kwa Wan Road zeigt nach Südosten (OSM-Grundriss). Taxi als Vordergrund. MTR To Kwa Wan, ca. 5 Min. zu Fuß. Pin = Standpunkt auf dem Gehweg gegenüber (Südostseite der vierspurigen To Kwa Wan Road), Blick nach Nordwesten. Licht (berechnet mit OSM-Gebäudehöhen, 12.10.): bis ~7:40 nur ~25 % der Fassade in der Sonne, 8:40 ~50 %, 9:00 ~60 %, 9:30 ~78 % – je später am Vormittag, desto besser.", ok="Gebäude per OSM-Name, Adresse 94 To Kwa Wan Road und Branchenverzeichnis (9. Stock) bestätigt; Standpunkt aus Straßengeometrie und Foto (Zebrastreifen, Taxi) abgeleitet")
 add("Hung Kwong Street 鴻光街", "Hung Kwong Street, To Kwa Wan, Hong Kong", "To Kwa Wan", "Street", [19], "")
 add("Kai Tak Tunnel 啟德隧道", (22.32140,114.19060,"OSM"), "To Kwa Wan", "Architektur", [19], "")
 add("Newport Centre Block 2 (Neon abgerissen)", "Newport Centre, To Kwa Wan, Hong Kong", "To Kwa Wan", "Architektur", [19], "")
