@@ -205,6 +205,8 @@
       const el = this._el = document.createElement("div");
       this._gm = new (g().marker.AdvancedMarkerElement)({ position: toLL(this._ll), content: el, title: o.title || "", zIndex: o.zIndexOffset || 0,
         gmpClickable: o.interactive !== false, gmpDraggable: !!o.draggable });
+      // nicht anklickbare Marker (eigener Standort, Routenpunkte) dürfen keine Tipps abfangen – sonst lassen sich Spots darunter nicht öffnen
+      if (o.interactive === false) { this._gm.style.pointerEvents = "none"; el.style.pointerEvents = "none"; }
       this._gm.addEventListener("gmp-click", () => { this.fire("click", { latlng: this._ll }); this._togglePopup(); });
       if (o.draggable) this._gm.addListener("dragend", () => { this._ll = latLng(this._gm.position); this.fire("dragend"); });
       this.setIcon(o.icon || divIcon({ html: '<div class="pin"></div>', iconSize: [34, 34], iconAnchor: [17, 17] }));

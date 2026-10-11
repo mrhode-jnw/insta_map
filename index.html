@@ -114,7 +114,7 @@
   .pin { width: 34px; height: 34px; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.35);
     background: var(--accent) center/cover no-repeat; }
   /* Blickrichtung: Lichtkegel hinter dem Standortpunkt (Kompass) */
-  .me-wrap { position: relative; width: 80px; height: 80px; }
+  .me-wrap { position: relative; width: 80px; height: 80px; pointer-events: none; }  /* Standortpunkt nie im Weg beim Antippen von Spots */
   .me-wrap .me-dot { position: absolute; left: 31px; top: 31px; }
   .me-cone { position: absolute; inset: 0; display: none; border-radius: 50%; transform: rotate(var(--h, 0deg));
     background: conic-gradient(from -35deg, rgba(37,99,235,.55) 0deg 70deg, transparent 70deg);
