@@ -408,5 +408,8 @@
  "hk-hoi-lai-estate": {
   "fav": true,
   "prio": "hoch"
+ },
+ "hk-mei-foo-sun-chuen": {
+  "prio": "mittel"
  }
 }
