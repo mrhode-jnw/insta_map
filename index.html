@@ -723,11 +723,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   if (routeF) routeLayer.addTo(map);
   showWhere();
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
-  try { view = localStorage.getItem("view") || "list"; inView = localStorage.getItem("inView") === "1"; } catch {}
+  try { view = localStorage.getItem("view") || "list"; inView = localStorage.getItem("inView2") !== "0"; } catch { inView = true; }  // Standard: nur Spots im Kartenausschnitt (wie auf der Karte zu sehen)
   $("#view").addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
     if (b.dataset.v === "area") {
-      inView = !inView; try { localStorage.setItem("inView", inView ? "1" : ""); } catch {}
+      inView = !inView; try { localStorage.setItem("inView2", inView ? "1" : "0"); } catch {}
       toast(inView ? "Nur Spots im Kartenausschnitt" : "Alle Spots", 1500);
       return renderList();
     }
