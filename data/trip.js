@@ -41,6 +41,6 @@ window.TRIP = {
   // Sunset Henge Argyle Street: Straßenachse von der Fußgängerbrücke (orange) und Sonnenrichtung 14.10. 17:23 (gelb)
   henge: [
     { name: "Argyle Street", from: [22.32005, 114.17278], street: [[22.32005, 114.17278], [22.31871, 114.16606]],
-      rays: [{ az: 257.85, label: "Sonne 14.10. 17:23" }] },
+      rays: [{ az: 257.85, label: "Sonne in der Achse: 14.10. 17:23 · Höhepunkt ca. 16.–19.10. ~17:28" }] },
   ],
 };
