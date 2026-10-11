@@ -61,7 +61,8 @@
  },
  "hk-north-point-fire-station-sunbeam-theatre": {
   "prio": "mittel",
-  "fav": true
+  "fav": true,
+  "done": true
  },
  "hk-lion-rock-gipfel": {
   "prio": "hoch",
