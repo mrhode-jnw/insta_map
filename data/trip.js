@@ -41,7 +41,7 @@ window.TRIP = {
   // Sunset Henge Argyle Street: Straßenachse von der Fußgängerbrücke (orange) und Sonnenrichtung 14.10. 17:23 (gelb)
   henge: [
     { name: "Argyle Street", from: [22.32005, 114.17278], street: [[22.32005, 114.17278], [22.31871, 114.16606]],
-      rays: [{ az: 257.85, label: "Sonne in der Achse: 11.10. 17:13 · 14.10. 17:23 · Höhepunkt ca. 16.–19.10. ~17:28" }] },
+      rays: [{ az: 257.85, label: "Achse 11.10. 17:13 · 14.10. 17:22 – Peak (tief, orange) erst ca. 17:30–17:50" }] },
     // Ting Kau Bridge (orange) und Sonnenrichtung am Brückendeck 11.10. (261,8°) / 12.10. (261,4°) / 14.10. (260,6°) vom Uferweg Tsuen Wan West
     { name: "Ting Kau Bridge", from: [22.36747, 114.11021], street: [[22.35907, 114.08232], [22.36810, 114.07774]],
       rays: [{ az: 261.8, len: 3300, label: "11.10. 17:53" }, { az: 261.4, len: 3300, label: "12.10. 17:52" }, { az: 260.6, len: 3300, label: "14.10. 17:50" }] },
