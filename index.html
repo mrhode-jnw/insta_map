@@ -1010,7 +1010,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Sichtbarer Kartenbereich ohne die Fläche, die das Panel verdeckt
   function visibleBounds() {
     const r = map.getContainer().getBoundingClientRect(), sh = $("#sheet").getBoundingClientRect();
-    let x0 = 0, y0 = 0, x1 = r.width, y1 = r.height;
+    // oben: nur unterhalb der Filterleiste (Bereich · Fotos · Food · Tipps)
+    let x0 = 0, y0 = Math.max(0, Math.min($("#group").getBoundingClientRect().bottom - r.top, r.height - 60)), x1 = r.width, y1 = r.height;
     if (window.innerWidth >= 800) x0 = Math.min(Math.max(sh.right - r.left, 0), x1 - 60);
     else {
       // Handy: der Ausschnitt über der eingeklappten Liste zählt – auch wenn die Liste gerade hochgezogen ist
@@ -1095,8 +1096,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const li = e.target.closest("li[data-id]"); if (!li) return;
     if (!map._popup || !map.hasLayer(map._popup)) saveView();
     const m = markers.get(li.dataset.id);
-    setSnap("peek");
-    openSpot(m);
+    openSpot(m);  // Liste/Grid bleibt wie sie ist – nach dem Schließen ist man wieder genau dort
   });
   // Desktop: Spot in der Liste überfahren → Pin (oder seine Gruppe) auf der Karte hervorheben
   let hlEl = null;
