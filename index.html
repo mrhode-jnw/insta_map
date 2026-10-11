@@ -90,6 +90,11 @@
   .leaflet-marker-icon.hl .pin, .leaflet-marker-icon.hl.marker-cluster { transform: scale(1.5); box-shadow: 0 0 0 4px #e1306c, 0 4px 14px rgba(0,0,0,.45); transition: transform .12s; }
   .leaflet-marker-icon.hl.marker-cluster { border-radius: 50%; }
   .leaflet-marker-icon.flash { animation: flashpin .65s ease-in-out 4; z-index: 9999 !important; }
+  .leaflet-marker-icon.flash .pin { animation: pinpulse .65s ease-in-out 4; }
+  @keyframes pinpulse { 50% { transform: scale(1.6); } }
+  /* zuletzt geschlossener Spot: pinker Ring, bis ein anderer Spot geöffnet wird */
+  .leaflet-marker-icon.lastseen { z-index: 9998 !important; }
+  .leaflet-marker-icon.lastseen .pin { box-shadow: 0 0 0 3px #fff, 0 0 0 7px #e1306c, 0 4px 14px rgba(0,0,0,.45); }
   @keyframes flashpin { 50% { transform-origin: center; filter: drop-shadow(0 0 10px #e1306c) brightness(1.2); } }
   .pop .links a { flex: 1; text-align: center; padding: 7px 6px; border-radius: 8px; font-size: 13px;
     text-decoration: none; background: #f3f4f6; color: #111827 !important; white-space: nowrap; }
@@ -554,7 +559,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <div class="addr">${esc(p.address)}<br><small>${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}</small></div>
         ${hero && p.caption && (p.image || !generic.length) ? `<div class="cap">${esc(p.caption)}</div>` : ""}
         <div class="links">
-          <button class="showmap" data-show="${esc(p.id)}">📍 Auf Karte</button>
+          <button class="showmap" data-show="${esc(p.id)}">📍 Springe zu Spot</button>
           ${hero && p.post_url && (p.image || !generic.length) ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Post</a>
           ${p.profile_url ? `<a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>` : ""}` : ""}
           ${p.wiki_url ? `<a class="wiki" href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
@@ -660,7 +665,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     where = w; routeF = w === "route"; if (!routeF) region = w;
     try { localStorage.setItem("where", where); } catch {}
     routeF ? routeLayer.addTo(map) : routeLayer.remove();
-    map.closePopup(); savedView = null;
+    quietClose = true; map.closePopup(); quietClose = false; savedView = null;
     if (group && !places.some(p => inScope(p) && GROUPS[group](p))) group = "fotos";
     cat = null; showWhere(); renderChips(); renderList();
     if (!fit) return;
@@ -813,12 +818,32 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // (Blättern zwischen Spots darf die Karte bewegen, danach steht sie wieder wie vorher)
   let savedView = null, navigating = false;
   const saveView = () => { if (!savedView) savedView = { c: map.getCenter(), z: map.getZoom() }; };
-  map.on("popupopen", () => { saveView(); stepping = false; });
-  map.on("popupclose", () => {
+  map.on("popupopen", () => { saveView(); stepping = false; document.querySelectorAll(".leaflet-marker-icon.lastseen").forEach(x => x.classList.remove("lastseen")); });
+  // Spot geschlossen → Karte zeigt genau diesen Spot und hebt seinen Pin hervor (statt zum alten Ausschnitt zurückzuspringen)
+  let quietClose = false, jumpZoom = false;
+  function markSeen(m) {
+    document.querySelectorAll(".leaflet-marker-icon.lastseen").forEach(x => x.classList.remove("lastseen"));
+    const ic = m.getElement(); if (!ic) return;
+    ic.classList.add("flash", "lastseen"); setTimeout(() => ic.classList.remove("flash"), 2700);
+  }
+  function showSpotOnMap(id, zoomIn) {
+    const p = places.find(x => x.id === id), m = markers.get(id);
+    if (!p || !m || !shown.has(id)) return;  // z.B. gerade gelöscht oder ausgefiltert
+    if (zoomIn && mobile()) setSnap("peek");
+    cluster.zoomToShowLayer(m, () => {
+      if (zoomIn) map.setView([p.lat, p.lng], Math.max(map.getZoom(), 17), { animate: false });
+      else map.panTo([p.lat, p.lng]);
+      setTimeout(() => markSeen(m), 450);
+    });
+  }
+  map.on("popupclose", ev => {
     if (!navigating) { navFor = null; stepping = false; }
-    if (navigating || !savedView) return;
-    const v = savedView; savedView = null;
-    map.setView(v.c, v.z, { animate: false });
+    if (navigating) return;
+    savedView = null;
+    const zoomIn = jumpZoom; jumpZoom = false;
+    if (quietClose) return;
+    const box = ev.popup.getElement() && ev.popup.getElement().querySelector(".status");
+    if (box) setTimeout(() => showSpotOnMap(box.dataset.id, zoomIn), 0);  // nach den übrigen Schließen-Handlern (Liste neu)
   });
   // Popup so hoch wie der freie Platz zwischen Bereichs-Umschalter oben und Liste unten
   function popupSpace() {
@@ -887,16 +912,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     }
     el.querySelectorAll("button[data-go]").forEach(b => b.onclick = e => { e.stopPropagation(); stepSpot(id, +b.dataset.go); });
     const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); map.closePopup(); };
-    // 📍 Auf Karte: Spot schließen, Karte auf den Spot zentrieren (nicht zurückspringen), Liste einklappen, Pin aufblinken
+    // 📍 Springe zu Spot: Spot schließen, hinzoomen, Liste einklappen, Pin hervorheben
     const sm = el.querySelector(".showmap"); if (sm) sm.onclick = e => {
       e.stopPropagation();
-      const p = places.find(x => x.id === sm.dataset.show), m = markers.get(sm.dataset.show); if (!p) return;
-      savedView = null; map.closePopup();
-      if (mobile()) setSnap("peek");
-      cluster.zoomToShowLayer(m, () => {
-        map.setView([p.lat, p.lng], Math.max(map.getZoom(), 17));
-        setTimeout(() => { const ic = m.getElement(); if (ic) { ic.classList.add("flash"); setTimeout(() => ic.classList.remove("flash"), 2600); } }, 400);
-      });
+      jumpZoom = true; map.closePopup();  // Schließen-Handler zoomt hin und hebt den Pin hervor
     };
   });
   document.addEventListener("keydown", e => {
