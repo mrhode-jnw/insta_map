@@ -2177,7 +2177,7 @@ window.PLACES = [
   "district": "Yau Ma Tei",
   "category": "Street",
   "note": "Alte Läden entlang der Reclamation Street (Nord–Süd). Morgens: Sonne von Ostsüdost, nur die oberen Stockwerke der Westseite im Licht, Straße selbst im Schatten (weiches Licht für Läden).",
-  "unsure": "Pin liegt auf der Straße, nicht am Fotostandpunkt: Das Foto ist von erhöhter Position (Brücke/Gebäude) mit Blick nach Norden aufgenommen – genauer Standpunkt unbekannt",
+  "unsure": "Pin liegt auf der Straße, nicht am Fotostandpunkt: Das Foto ist von erhöhter Position mit Blick nach Norden aufgenommen. Laut OSM führt keine Fußgängerbrücke über die Reclamation Street – vermutlich aus einem Gebäude/Parkhaus. Die Schilder im Foto (新杏林藥局, 群益布行) sind in keinem Verzeichnis zu finden",
   "address": "新填地街 Reclamation Street, 旺角 Mong Kok, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
   "lat": 22.316415,
   "lng": 114.168214,
@@ -2267,11 +2267,11 @@ window.PLACES = [
   "name": "Fa Yuen Street Market 花園街街市",
   "district": "Mong Kok",
   "category": "Markt",
-  "note": "Marktstände entlang der Fa Yuen Street (Nordteil Richtung Prince Edward Road West). Morgens kaufen Anwohner ein, Stände bauen auf.",
-  "unsure": "Pin = Fa Yuen Street; die Fotos sind von oben (erhöhter Standpunkt über der Straße) aufgenommen – dieser Standpunkt ist nicht bekannt, vom Boden sieht es anders aus",
-  "address": "Fa Yuen Street, Mong Kok, Yau Tsim Mong District, Kowloon, Hong Kong, China",
-  "lat": 22.323258,
-  "lng": 114.170326,
+  "note": "Marktstände entlang der Fa Yuen Street nördlich der Mong Kok Road bis Prince Edward Road West. Pin = wahrscheinlicher Fotostandpunkt: die überdachte Fußgängerbrücke entlang der Mong Kok Road quert hier die Fa Yuen Street – von dort Blick nach Norden (ca. 350°) über die Stände. Morgens kaufen Anwohner ein, Stände bauen auf.",
+  "unsure": "Standpunkt nur wahrscheinlich: Die Fotos sind von oben mit Blick die Straße entlang aufgenommen; die einzige Brücke über die Fa Yuen Street laut OSM ist die überdachte Fußgängerbrücke an der Mong Kok Road – ob man durch deren Seitenöffnungen genau so fotografieren kann, ist nicht bestätigt",
+  "address": "Mong Kok",
+  "lat": 22.32112,
+  "lng": 114.17075,
   "approx": false,
   "image": "images/DYRzlreEVx__6.jpg",
   "caption": "Location below ⬇️ 10 photography spots that I highly recommend in Mongkok, the absolute definition of Hong Kong’s raw energy ❤️‍🔥🇭🇰 It’s dense, neon-drenched, and easily one of the most rewarding areas for street and urban photography 📸Which one do you like the most?\n\nLocation📍\n1. Cheung Hing House, Portland Street\n2. Langham Place @langhamplace \n3. Argyle Street henge (taken in late Feb)\n4. Old shops along Reclamation Street\n5. Soy Street tunnel\n6. Fa Yuen Street Market\n7. Kam Lam Street\n8. Pre-war shophouses (20 Nullah Road)\n9. Neon sign of Hop Hing Lung Ceramics Sanitaryware Co\n10. Neon sig",
@@ -2436,15 +2436,15 @@ window.PLACES = [
   "pop_reason": "Einzelnes Neonschild, kaum Online-Erwähnungen"
  },
  {
-  "id": "hk-shanghai-street-jordanyau-ma-teimong-kok",
-  "name": "Shanghai Street 上海街 (Jordan–Yau Ma Tei–Mong Kok)",
+  "id": "hk-shanghai-street-jordan-pfandhaus",
+  "name": "Shanghai Street 上海街 – Jordan (Pfandhaus 德生大押)",
   "district": "Yau Ma Tei",
   "category": "Street",
-  "note": "Alter Schlosser-Stand; 618 Shanghai Street restaurierte Shophouses",
-  "unsure": "Die Straße ist 2 km lang: Foto 1 laut Post „Shanghai Street, Jordan“ (südlicher Teil), der Schlosser-Stand laut Zolima in Mong Kok (nördlicher Teil). Der Pin in Yau Ma Tei ist keiner der beiden Fotostandpunkte",
-  "address": "上海街 Shanghai Street, 官涌 Kwun Chung, 油麻地 Yau Ma Tei, 油尖旺區 Yau Tsim Mong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
-  "lat": 22.308771,
-  "lng": 114.17012,
+  "note": "Pin = Fotostandpunkt auf der Shanghai Street (Höhe Nr. ~180), Blick nach Süden die Einbahnstraße hinunter: links das Pfandhaus-Schild 德生大押 (Nr. 176–178), rechts 大達文具行 (Nr. 165) und 碧荷樓 Pit Ho Building (Nr. 163–165), dazu 盛昌五金 (Nr. 161). Licht morgens: Sonne von links (Osten), die Fassaden der rechten Straßenseite schauen nach Osten und bekommen oben Sonne – wie im Foto.",
+  "ok": "Schilder im Foto (德生大押, 大達文具行, 碧荷樓, 盛昌五金) mit OSM-Adressen abgeglichen; Blickrichtung aus Straßenseiten und Einbahnrichtung (Autos von hinten) abgeleitet",
+  "address": "Yau Ma Tei",
+  "lat": 22.3079,
+  "lng": 114.16988,
   "approx": false,
   "image": "images/Dac1mg7FJvW_8.jpg",
   "caption": "Even as the skyline changes, the spirit of Hong Kong never truly disappears 🕰️🇭🇰 These photos are a reminder of the local neighbourhoods that continue to pulse with that classic energy from the good old times 📻 Which one is your favourite?\n\nLocation: Aberdeen Street Steps, Central📍\n\nLike, Share, and Save if you like this post ❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong\n\nLocation: 58 Pei Ho Street, Shan Shui Po📍\n\nLocation: Tai O Fishing Village📍\n\nLocation: Lei Yue Mun fishing village📍\n\nLocati",
@@ -2461,7 +2461,26 @@ window.PLACES = [
     "caption": "Even as the skyline changes, the spirit of Hong Kong never truly disappears 🕰️🇭🇰 These photos are a reminder of the local neighbourhoods that continue to pulse with that classic energy from the good old times 📻 Which one is your favourite?\n\nLocation: Aberdeen Street Steps, Central📍\n\nLike, Share, and Save if you like this post ❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong\n\nLocation: 58 Pei Ho Street, Shan Shui Po📍\n\nLocation: Tai O Fishing Village📍\n\nLocation: Lei Yue Mun fishing village📍\n\nLocati",
     "match": "slide",
     "slide": 8
-   },
+   }
+  ]
+ },
+ {
+  "id": "hk-shanghai-street-schlosser-stand-mong-kok",
+  "name": "Shanghai Street 上海街 – Schlosser-Stand (Mong Kok)",
+  "district": "Mong Kok",
+  "category": "Street",
+  "note": "Winziger Schlüssel-/Elektro-Stand mit Schild 四海 (鎖 · 配匙 · 電器) an der Shanghai Street in Mong Kok (laut Zolima). Abendmotiv (Neonröhre).",
+  "unsure": "Genaue Lage des Stands unbekannt (Schild 四海 in keinem Verzeichnis gefunden) – Pin nur grob im Mong-Kok-Teil der Shanghai Street; zwischen Argyle Street und Prince Edward Road West die Straße absuchen",
+  "address": "Mong Kok",
+  "lat": 22.32,
+  "lng": 114.168,
+  "approx": false,
+  "image": "images/Dci2CYBGUGe.jpg",
+  "caption": "An elderly locksmith works at his tiny stall on Shanghai Street in Mong Kok.⁠\n⁠\nThe street where this old neighbourhood stall is located is one of the oldest in Hong Kong, stretching from Austin Road to Prince Edward Road through the neighbourhoods of Jordan, Yau Ma Tei and Mong Kok. Built in 1887, it was one of several streets in Kowloon named after important ports in China and Southeast Asia, including Canton Road, Saigon Street and Haiphong Road.⁠\n⁠\nIn the last century, Shanghai Street was Kowloon’s main street, with mahjong houses, gold shops and herbal medicine stores lining the road and ",
+  "post_url": "https://www.instagram.com/zolima_hongkong/p/Dci2CYBGUGe/",
+  "username": "zolima_hongkong",
+  "profile_url": "https://www.instagram.com/zolima_hongkong/",
+  "posts": [
    {
     "url": "https://www.instagram.com/zolima_hongkong/p/Dci2CYBGUGe/",
     "username": "zolima_hongkong",
@@ -2471,9 +2490,7 @@ window.PLACES = [
     "caption": "An elderly locksmith works at his tiny stall on Shanghai Street in Mong Kok.⁠\n⁠\nThe street where this old neighbourhood stall is located is one of the oldest in Hong Kong, stretching from Austin Road to Prince Edward Road through the neighbourhoods of Jordan, Yau Ma Tei and Mong Kok. Built in 1887, it was one of several streets in Kowloon named after important ports in China and Southeast Asia, including Canton Road, Saigon Street and Haiphong Road.⁠\n⁠\nIn the last century, Shanghai Street was Kowloon’s main street, with mahjong houses, gold shops and herbal medicine stores lining the road and ",
     "match": "single"
    }
-  ],
-  "pop": 3,
-  "pop_reason": "Bekannte Altstadtstraße, in Streetfotografie-Touren oft genannt"
+  ]
  },
  {
   "id": "hk-wah-tak-building-yau-ma-tei",
