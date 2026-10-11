@@ -348,9 +348,6 @@
  "hk-argyle-street-henge": {
   "prio": "gering"
  },
- "hk-king-s-road": {
-  "prio": "hoch"
- },
  "hk-lee-kung-man-knitting-factory-neon": {
   "prio": "hoch",
   "hidden": true
