@@ -180,7 +180,8 @@
  },
  "hk-alhambra-building-yau-ma-tei": {
   "prio": "hoch",
-  "fav": true
+  "fav": true,
+  "done": true
  },
  "hk-saigon-street": {
   "prio": "mittel",
