@@ -204,6 +204,10 @@
     font-size: 11px; line-height: 18px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,.35); font-style: normal; }
   .pin.fav { border-color: #e11d48; box-shadow: 0 0 0 2px #e11d48, 0 2px 6px rgba(0,0,0,.35); position: relative; }
   .pop .status button.fav { width: 40px; height: 32px; padding: 0; border-radius: 10px; font-size: 17px; color: #9ca3af; }
+  .pop .status button.fav svg { display: block; margin: auto; }
+  .pop .hero .pfav { position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; border-radius: 50%; background: #fff; color: #e11d48;
+    display: flex; align-items: center; justify-content: center; font-size: 17px; line-height: 1; box-shadow: 0 1px 4px rgba(0,0,0,.35); pointer-events: none; }
+  .pop .hero .pfav[hidden] { display: none; }
   .pop .status button.fav.on { color: #e11d48; background: #ffe4e6; border-color: #e11d48; }
   #area { flex: none; border: 1px solid var(--line); background: var(--bg); color: var(--fg); border-radius: 999px; padding: 5px 9px; font-size: 13px; max-width: 170px; }
   .fav-badge { color: #e11d48; }
@@ -553,6 +557,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ${p.image ? `<div class="hero">${strip ? `<div class="hstrip">${imgPosts.map((x, i) => `<img src="${esc(x.image)}" alt="" loading="${i ? "lazy" : "eager"}" data-lb="${i}"
           data-cr="${esc(who(x))}" data-href="${esc(x.credit ? x.url : x.profile_url)}" data-post="${x.credit ? "" : esc(x.url)}">`).join("")}</div>`
           : `<img src="${esc(p.image)}" alt="" loading="lazy" data-lb="${Math.max(0, imgPosts.findIndex(x => x.image === p.image))}">`}
+        <span class="pfav"${st(p.id).fav ? "" : " hidden"} title="Favorit">❤</span>
         <span class="pcount" title="Fotos dieses Spots – seitlich wischen">📷 <b>1</b>/${imgPosts.length || 1}</span>
         ${onImg ? `<button class="side prev" data-go="-1" aria-label="Vorheriger Spot">‹</button><button class="side next" data-go="1" aria-label="Nächster Spot">›</button>` : ""}</div>` : ""}
       ${strip ? `<div class="credit hcred"></div>` : ""}
@@ -562,7 +567,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${p.by_claude ? `<div class="claude-note">✦ Claude-Tipp – nicht aus deiner Sammlung, von Claude als besonders beliebter Spot ergänzt</div>` : ""}
         <div class="status" data-id="${esc(p.id)}">
           ${PRIOS.map(k => `<button data-prio="${k}" class="${st(p.id).prio === k ? "on" : ""}">${PRIO_LABEL[k]}</button>`).join("")}
-          <button class="fav${st(p.id).fav ? " on" : ""}" data-fav title="Favorit – will ich fotografieren" aria-label="Favorit" aria-pressed="${!!st(p.id).fav}">❤</button>
+          <button class="fav${st(p.id).fav ? " on" : ""}" data-fav title="Favorit – will ich fotografieren" aria-label="Favorit" aria-pressed="${!!st(p.id).fav}"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M12 21s-7.5-4.6-10-9.3C.3 8.3 2.2 4 6.2 4c2.4 0 3.9 1.4 5.8 3.6C13.9 5.4 15.4 4 17.8 4c4 0 5.9 4.3 4.2 7.7C19.5 16.4 12 21 12 21z"/></svg></button>
           <button class="shot${st(p.id).done ? " on" : ""}" data-done title="Fotografiert" aria-label="Fotografiert" aria-pressed="${!!st(p.id).done}">📷</button>
         </div>
         ${p.category ? `<div class="meta">${esc([p.mine ? "★ Eigener Spot" : "", p.category, p.district, routeLabel(p)].filter(Boolean).join(" · "))}</div>` : ""}
@@ -1677,7 +1682,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       box.querySelectorAll("button[data-prio]").forEach(x => x.classList.toggle("on", x.dataset.prio === prio));
     });
     const fav = box.querySelector("button[data-fav]");
-    if (fav) fav.onclick = () => { const v = !st(id).fav; setStatus(id, { fav: v }); fav.classList.toggle("on", v); fav.setAttribute("aria-pressed", v); toast(v ? "❤️ Als Favorit markiert" : "Favorit entfernt", 1300); };
+    if (fav) fav.onclick = () => { const v = !st(id).fav; setStatus(id, { fav: v }); fav.classList.toggle("on", v); fav.setAttribute("aria-pressed", v); const pf = box.closest(".pop") && box.closest(".pop").querySelector(".hero .pfav"); if (pf) pf.hidden = !v; toast(v ? "❤️ Als Favorit markiert" : "Favorit entfernt", 1300); };
     const shot = box.querySelector("button[data-done]");
     shot.onclick = () => { const done = !st(id).done; setStatus(id, { done }); shot.classList.toggle("on", done); shot.setAttribute("aria-pressed", done); };
   });
