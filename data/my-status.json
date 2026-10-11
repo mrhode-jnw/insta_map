@@ -175,7 +175,8 @@
   "prio": "gering"
  },
  "hk-alhambra-building-yau-ma-tei": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "fav": true
  },
  "hk-saigon-street": {
   "prio": "mittel",
