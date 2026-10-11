@@ -5428,6 +5428,29 @@ window.PLACES = [
   "image_page": "https://www.scmp.com/lifestyle/travel-leisure/article/3211444/11-best-neon-signs-still-hanging-hong-kong-and-how-get-them-glow-gone-good",
   "image_credit": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
   "source": "SCMP, Feb. 2023 · Foto: Connor Mycroft"
+ },
+ {
+  "id": "hk-sunset-henge-ting-kau-bridge-vom-tsuen-wan-west-",
+  "name": "Sunset Henge: Ting Kau Bridge vom Tsuen Wan West Waterfront 汀九橋日落",
+  "district": "Tsuen Wan",
+  "category": "Henge",
+  "note": "Standpunkt: Uferweg (海濱走廊) am Bahnhof Tsuen Wan West / Tsuen Wan Ferry Pier, Blick nach Westen auf die Ting Kau Bridge (3,1 km). 2026: Sonne am Brückendeck 12.10. 17:52 (261,4°) · 13.10. 17:51 (261,0°) · 14.10. 17:50 (260,6°) – fast genau hinter der Brückenmitte (262°). Über die Pylone (~200 m) zieht sie ca. 10 Min. früher. Sonnenuntergang laut HKO 18:01/18:00/17:59. Später im Monat wandert der Punkt nach Süden → Standort Richtung Bayview Garden (Hoi On Road) verlegen.",
+  "tip": "Sehr lange Brennweite (400–1000 mm KB) für die große Sonne mit den Autos als Silhouetten auf dem Deck; ab 17:20 da sein; klare Sicht nach Westen nötig. Anfahrt: MTR Tuen Ma Line bis Tsuen Wan West, Ausgang zum Wasser.",
+  "address": "Tsuen Wan",
+  "lat": 22.36747,
+  "lng": 114.11021,
+  "approx": false,
+  "image": null,
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [],
+  "pop": 4,
+  "pop_reason": "Sonne geht Mitte Okt.–Anfang Nov. hinter der Ting Kau Bridge unter (DCFever)",
+  "image_page": "https://www.dcfever.com/news/readnews.php?id=36328",
+  "image_credit": "DCFever 28.10.2023 (Standorte), DCFever (9.11.: 17:35, 251°, 1,2°), HKO-Sonnenuntergang Okt. 2026, eigene Berechnung mit OpenStreetMap",
+  "source": "DCFever 28.10.2023 (Standorte), DCFever (9.11.: 17:35, 251°, 1,2°), HKO-Sonnenuntergang Okt. 2026, eigene Berechnung mit OpenStreetMap"
  }
 ];
 window.UNPLACED_POSTS = [

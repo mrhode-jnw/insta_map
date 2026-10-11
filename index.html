@@ -626,7 +626,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return [from[0] + dLat, from[1] + m * Math.sin(r) / (111320 * Math.cos(from[0] * Math.PI / 180))]; };
   (window.TRIP.henge || []).forEach(h => {
     L.polyline(h.street, { color: "#f97316", weight: 5, opacity: .75, interactive: false }).addTo(map);
-    h.rays.forEach(r => L.polyline([h.from, ray(h.from, r.az, 900)], { color: "#eab308", weight: 3, opacity: .95, dashArray: "4 6", interactive: false }).addTo(map));
+    h.rays.forEach(r => L.polyline([h.from, ray(h.from, r.az, r.len || 900)], { color: "#eab308", weight: 3, opacity: .95, dashArray: "4 6", interactive: false }).addTo(map));
   });
   // Unsere Unterkünfte (approx = Lage nur ungefähr bekannt, Ort/Dorf stimmt)
   const HOTELS = window.TRIP.hotels;
