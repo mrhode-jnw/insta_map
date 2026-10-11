@@ -36,7 +36,7 @@
 
   /* Bottom-Sheet mit Liste */
   #sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1001; background: var(--bg);
-    border-radius: 16px 16px 0 0; box-shadow: var(--shadow); height: 88vh; height: 88dvh; display: flex;
+    border-radius: 16px 16px 0 0; box-shadow: var(--shadow); height: 88vh; height: 88svh;  /* svh: ändert sich nicht, wenn Safari beim Scrollen seine Leisten ein-/ausblendet */ display: flex;
     flex-direction: column; transform: translateY(calc(100% - 76px - env(safe-area-inset-bottom)));
     transition: transform .28s cubic-bezier(.2,.8,.2,1); padding-bottom: env(safe-area-inset-bottom); will-change: transform; }
   #sheet header { padding: 8px 14px 10px; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; }
@@ -1094,7 +1094,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       $("#list").querySelectorAll("span.dist").forEach((el, i) => { const t = (ds[i] || "").replace(/<[^>]+>/g, ""); if (el.textContent !== t) el.textContent = t; });
       return;
     }
-    listKey = key; $("#list").innerHTML = html;
+    listKey = key;
+    // vorhandene Einträge wiederverwenden (gleicher Inhalt → gleiches Element, Bild lädt nicht neu)
+    const el = $("#list"), tpl = document.createElement("template"); tpl.innerHTML = html;
+    const kOf = n => n.outerHTML.replace(DIST_RE, "");
+    const old = new Map(); [...el.children].forEach(n => { const k = n._k || kOf(n); if (!old.has(k)) old.set(k, n); });
+    const next = [...tpl.content.children].map(n => {
+      const k = kOf(n), o = old.get(k);
+      if (o) { old.delete(k); const d = n.querySelector("span.dist"), od = o.querySelector("span.dist"); if (d && od && od.textContent !== d.textContent) od.textContent = d.textContent; o._k = k; return o; }
+      n._k = k; return n;
+    });
+    const top = el.scrollTop; el.replaceChildren(...next); el.scrollTop = top;
   }
   $("#list").addEventListener("click", e => {
     const li = e.target.closest("li[data-id]"); if (!li) return;
@@ -1190,7 +1200,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }, { passive: false });
   listEl.addEventListener("touchend", () => { if (ld && ld.t) ld.t.end(); ld = null; });
   listEl.addEventListener("touchcancel", () => { if (ld && ld.t) ld.t.end(); ld = null; });
-  window.addEventListener("resize", () => setSnap(sheetSnap, false));
+  // nur echte Größenänderungen (Drehen, Tastatur) – nicht das Ein-/Ausblenden der Safari-Leisten beim Scrollen
+  let lastW = innerWidth, lastH = innerHeight;
+  window.addEventListener("resize", () => {
+    if (Math.abs(innerWidth - lastW) < 2 && Math.abs(innerHeight - lastH) < 160) return;
+    lastW = innerWidth; lastH = innerHeight; setSnap(sheetSnap, false);
+  });
   setSnap("peek", false);
   renderList();
 
