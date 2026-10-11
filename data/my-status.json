@@ -110,7 +110,8 @@
   "prio": "gering"
  },
  "hk-shek-kip-mei-estate": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "done": true
  },
  "hk-nam-cheong-pawn-shop": {
   "prio": "hoch"
