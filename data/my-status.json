@@ -364,5 +364,8 @@
  },
  "hk-king-s-road": {
   "done": true
+ },
+ "hk-sunrise-henge-granville-road": {
+  "hidden": true
  }
 }
