@@ -166,7 +166,8 @@
   "prio": "mittel"
  },
  "hk-cheung-hing-house-portland-street-neon-ecke": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "fav": true
  },
  "hk-reclamation-street-alte-lden": {
   "prio": "mittel"
