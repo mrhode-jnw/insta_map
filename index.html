@@ -498,7 +498,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
 
   // ---------- Marker
-  const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45, removeOutsideVisibleBounds: false });
+  const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 24, removeOutsideVisibleBounds: false });  // klein: Pins (34 px) bleiben einzeln, bis sie sich zu ca. 1/3 überdecken
   const markers = new Map();
   let me = null, nearSpots = false;
   // Entfernungen nur zeigen, wenn man vor Ort ist (nächster Spot < 50 km) – von zu Hause aus sind sie sinnlos
