@@ -25,7 +25,8 @@
   "prio": "hoch"
  },
  "hk-yau-ma-tei-fruit-market": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "done": true
  },
  "hk-suicide-cliff-kowloon-peak": {
   "prio": "hoch"
