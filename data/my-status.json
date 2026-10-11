@@ -178,7 +178,8 @@
   "prio": "hoch"
  },
  "hk-saigon-street": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "fav": true
  },
  "hk-austin-road-jordan": {
   "prio": "gering"
