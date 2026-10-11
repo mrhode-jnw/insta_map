@@ -153,7 +153,8 @@
   "prio": "mittel"
  },
  "hk-north-point-road-tram-station": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "done": true
  },
  "hk-percival-street": {
   "prio": "mittel"
