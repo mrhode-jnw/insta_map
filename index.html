@@ -976,7 +976,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const r = map.getContainer().getBoundingClientRect(), sh = $("#sheet").getBoundingClientRect();
     let x0 = 0, y0 = 0, x1 = r.width, y1 = r.height;
     if (window.innerWidth >= 800) x0 = Math.min(Math.max(sh.right - r.left, 0), x1 - 60);
-    else y1 = Math.max(sh.top - r.top, 60);
+    else {
+      // Handy: der Ausschnitt über der eingeklappten Liste zählt – auch wenn die Liste gerade hochgezogen ist
+      let top = sh.top;
+      try { top = sh.top - snapY(sheetSnap) + snapY("peek"); } catch {}  // Oberkante der Liste im eingeklappten Zustand
+      y1 = Math.max(top - r.top, 60);
+    }
     // alle vier Ecken: bei gedrehter Karte ist der Ausschnitt nicht nach Norden ausgerichtet
     return L.latLngBounds([[x0, y0], [x1, y0], [x0, y1], [x1, y1]].map(pt => map.containerPointToLatLng(pt)));
   }
