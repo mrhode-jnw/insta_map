@@ -2121,6 +2121,42 @@ window.PLACES = [
     "image": "images/henge_argyle_6.jpg",
     "caption": "",
     "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+   },
+   {
+    "url": "https://www.dcfever.com/column/read.php?id=5542",
+    "username": "",
+    "profile_url": "https://www.dcfever.com/column/read.php?id=5542",
+    "kind": "photo",
+    "image": "images/henge_argyle_3.jpg",
+    "caption": "",
+    "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+   },
+   {
+    "url": "https://www.dcfever.com/column/read.php?id=5542",
+    "username": "",
+    "profile_url": "https://www.dcfever.com/column/read.php?id=5542",
+    "kind": "photo",
+    "image": "images/henge_argyle_10.jpg",
+    "caption": "",
+    "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+   },
+   {
+    "url": "https://www.dcfever.com/column/read.php?id=5542",
+    "username": "",
+    "profile_url": "https://www.dcfever.com/column/read.php?id=5542",
+    "kind": "photo",
+    "image": "images/henge_argyle_1.jpg",
+    "caption": "",
+    "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+   },
+   {
+    "url": "https://www.dcfever.com/column/read.php?id=5542",
+    "username": "",
+    "profile_url": "https://www.dcfever.com/column/read.php?id=5542",
+    "kind": "photo",
+    "image": "images/henge_argyle_12.jpg",
+    "caption": "",
+    "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
    }
   ],
   "pop": 1,

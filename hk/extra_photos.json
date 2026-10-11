@@ -1,12 +1,56 @@
 {
  "Sunset Henge: Ting Kau Bridge vom Tsuen Wan West Waterfront 汀九橋日落": [
-  {"image": "images/henge_tingkau_1.jpg", "url": "https://www.dcfever.com/news/readnews.php?id=36328", "credit": "DCFever, Okt. 2023"},
-  {"image": "images/henge_tingkau_2.jpg", "url": "https://www.stheadline.com/local-topics/3285526/", "credit": "Sing Tao Headline, Okt. 2023"}
+  {
+   "image": "images/henge_tingkau_1.jpg",
+   "url": "https://www.dcfever.com/news/readnews.php?id=36328",
+   "credit": "DCFever, Okt. 2023"
+  },
+  {
+   "image": "images/henge_tingkau_2.jpg",
+   "url": "https://www.stheadline.com/local-topics/3285526/",
+   "credit": "Sing Tao Headline, Okt. 2023"
+  }
  ],
  "Argyle Street 'henge'": [
-  {"image": "images/henge_argyle_2.jpg", "url": "https://www.dcfever.com/column/read.php?id=5542", "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"},
-  {"image": "images/henge_argyle_5.jpg", "url": "https://www.dcfever.com/column/read.php?id=5542", "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"},
-  {"image": "images/henge_argyle_4.jpg", "url": "https://www.dcfever.com/column/read.php?id=5542", "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"},
-  {"image": "images/henge_argyle_6.jpg", "url": "https://www.dcfever.com/column/read.php?id=5542", "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"}
+  {
+   "image": "images/henge_argyle_2.jpg",
+   "url": "https://www.dcfever.com/column/read.php?id=5542",
+   "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+  },
+  {
+   "image": "images/henge_argyle_5.jpg",
+   "url": "https://www.dcfever.com/column/read.php?id=5542",
+   "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+  },
+  {
+   "image": "images/henge_argyle_4.jpg",
+   "url": "https://www.dcfever.com/column/read.php?id=5542",
+   "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+  },
+  {
+   "image": "images/henge_argyle_6.jpg",
+   "url": "https://www.dcfever.com/column/read.php?id=5542",
+   "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+  },
+  {
+   "image": "images/henge_argyle_3.jpg",
+   "url": "https://www.dcfever.com/column/read.php?id=5542",
+   "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+  },
+  {
+   "image": "images/henge_argyle_10.jpg",
+   "url": "https://www.dcfever.com/column/read.php?id=5542",
+   "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+  },
+  {
+   "image": "images/henge_argyle_1.jpg",
+   "url": "https://www.dcfever.com/column/read.php?id=5542",
+   "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+  },
+  {
+   "image": "images/henge_argyle_12.jpg",
+   "url": "https://www.dcfever.com/column/read.php?id=5542",
+   "credit": "Carlo Yuen (@_852.carlo) · DCFever, Okt. 2019"
+  }
  ]
 }
