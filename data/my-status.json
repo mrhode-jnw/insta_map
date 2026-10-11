@@ -366,7 +366,8 @@
  },
  "hk-argyle-street-henge": {
   "prio": "gering",
-  "fav": true
+  "fav": true,
+  "done": true
  },
  "hk-lee-kung-man-knitting-factory-neon": {
   "prio": "hoch",
