@@ -266,6 +266,20 @@
   .pop .status button.shot.on::after { content: "✓"; position: absolute; right: -6px; top: -6px; width: 16px; height: 16px; border-radius: 50%;
     background: #16a34a; color: #fff; font-size: 11px; line-height: 16px; }
   .pop .status label { font-size: 12.5px; margin-left: auto; display: flex; gap: 4px; align-items: center; color: #111827; }
+  /* Inspiration: Bildersammlung unabhängig von Spots (data/inspiration.js) */
+  #insp { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
+  #insp[hidden] { display: none; }
+  #insp header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 14px 10px; border-bottom: 1px solid var(--line); }
+  #insp header b { font-size: 17px; } #insp header span { flex: 1; font-size: 13px; color: var(--muted); }
+  #insp header button { width: 38px; height: 34px; border-radius: 10px; border: 0; background: #111827; color: #fff; font-size: 17px; cursor: pointer; }
+  #inspBody { flex: 1; overflow-y: auto; padding: 10px 10px calc(env(safe-area-inset-bottom) + 16px); }
+  #inspBody h3 { margin: 6px 4px 8px; font-size: 15px; }
+  #inspBody .src { margin: 2px 4px 10px; font-size: 12.5px; color: var(--muted); }
+  #inspBody .src a { color: var(--accent); text-decoration: none; }
+  #inspBody .masonry { columns: 2; column-gap: 8px; margin-bottom: 18px; }
+  @media (min-width: 800px) { #inspBody .masonry { columns: 4; } }
+  #inspBody .masonry img { width: 100%; display: block; margin-bottom: 8px; border-radius: 8px; break-inside: avoid; background: var(--line); cursor: zoom-in; }
+  #view #inspBtn { font-size: 15px; }
   #lb { position: fixed; inset: 0; z-index: 3000; background: #000; color: #fff; display: flex; flex-direction: column;
     touch-action: none; user-select: none; -webkit-user-select: none; }
   #lb[hidden] { display: none; }
@@ -372,7 +386,7 @@
     <div class="row">
       <input id="search" type="search" placeholder="Orte durchsuchen …" autocomplete="off">
       <span id="count"></span>
-      <div id="view"><button data-v="area" title="Nur Spots im Kartenausschnitt" aria-label="Nur Spots im Kartenausschnitt">⌖</button><button data-v="list" class="on" title="Liste" aria-label="Liste">☰</button><button data-v="grid" title="Bilder" aria-label="Bilder">▦</button></div>
+      <div id="view"><button data-v="area" title="Nur Spots im Kartenausschnitt" aria-label="Nur Spots im Kartenausschnitt">⌖</button><button data-v="list" class="on" title="Liste" aria-label="Liste">☰</button><button data-v="grid" title="Bilder" aria-label="Bilder">▦</button><button id="inspBtn" title="Inspiration" aria-label="Inspiration">💡</button></div>
     </div>
     <div id="chips"></div>
     <div id="chips2">
@@ -399,6 +413,10 @@
 </section>
 <div id="toast"></div>
 <button id="update" hidden>Neue Version verfügbar – tippen zum Laden</button>
+<div id="insp" hidden role="dialog" aria-label="Inspiration">
+  <header><b>💡 Inspiration</b><span id="inspSub"></span><button id="inspClose" aria-label="Schließen">✕</button></header>
+  <div id="inspBody"></div>
+</div>
 <div id="lb" hidden>
   <div class="top"><span id="lbCount"></span><button id="lbClose" aria-label="Schließen">✕</button></div>
   <div class="stage"><img id="lbImg" alt=""><button class="nav prev" id="lbPrev" aria-label="Vorheriges Bild">‹</button><button class="nav next" id="lbNext" aria-label="Nächstes Bild">›</button></div>
@@ -459,7 +477,7 @@
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
   const v = Date.now();
-  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script>`);
+  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script>`);
 </script>
 <script src="crypto.js"></script>
 <script>
@@ -796,7 +814,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
   try { view = localStorage.getItem("view") || "list"; inView = localStorage.getItem("inView2") !== "0"; } catch { inView = true; }  // Standard: nur Spots im Kartenausschnitt (wie auf der Karte zu sehen)
   $("#view").addEventListener("click", e => {
-    const b = e.target.closest("button"); if (!b) return;
+    const b = e.target.closest("button"); if (!b || !b.dataset.v) return;  // 💡 Inspiration hat eigenen Handler
     if (b.dataset.v === "area") {
       inView = !inView; try { localStorage.setItem("inView2", inView ? "1" : "0"); } catch {}
       toast(inView ? "Nur Spots im Kartenausschnitt" : "Alle Spots", 1500);
@@ -1064,6 +1082,23 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#lbPost").textContent = it.url && /wiki/.test(it.url) ? "Quelle ↗" : "Post öffnen ↗";
     $("#lbPrev").hidden = $("#lbNext").hidden = n < 2;
   }
+  // ---------- Inspiration (unabhängig von Spots): Masonry-Raster, Tippen öffnet die Bilder im Vollbild
+  const INSP = window.INSPIRATION || {};
+  const INSP_REG = { hk: "🇭🇰 Hongkong", cn: "🇨🇳 China" };
+  function openInsp() {
+    const regs = Object.keys(INSP_REG).filter(r => (INSP[r] || []).length);
+    let n = 0;
+    $("#inspBody").innerHTML = regs.map(r => `<h3>${INSP_REG[r]}</h3>` + INSP[r].map(post => `
+      <div class="src">${post.user ? `<a href="https://www.instagram.com/${esc(post.user)}/" target="_blank" rel="noopener">@${esc(post.user)}</a> · ` : ""}<a href="${esc(post.url)}" target="_blank" rel="noopener">Post ↗</a>${post.caption ? " – " + esc(post.caption.split("\n")[0].slice(0, 90)) : ""}</div>
+      <div class="masonry">${post.images.map(src => `<img src="${esc(src)}" alt="" loading="lazy" data-i="${n++}">`).join("")}</div>`).join("")).join("")
+      || `<p class="src">Noch keine Bilder.</p>`;
+    $("#inspSub").textContent = n ? `${n} Bilder` : "";
+    const all = regs.flatMap(r => INSP[r].flatMap(post => post.images.map((src, k) => ({ image: src, url: post.url + "?img_index=" + (k + 1), username: post.user || "Instagram", profile_url: post.user ? `https://www.instagram.com/${post.user}/` : post.url }))));
+    $("#inspBody").querySelectorAll("img[data-i]").forEach(img => img.onclick = () => lbOpen({ name: "Inspiration", posts: all }, +img.dataset.i));
+    $("#insp").hidden = false;
+  }
+  $("#inspBtn").onclick = e => { e.stopPropagation(); openInsp(); };
+  $("#inspClose").onclick = () => { $("#insp").hidden = true; };
   function lbOpen(p, i) { lb.list = spotImages(p); lb.name = p.name.replace(/\s[\u3000-\u9fff].*$/, ""); lb.el.hidden = false; lbShow(i); }
   const lbClose = () => { lb.el.hidden = true; $("#lbImg").src = ""; };
   $("#lbClose").onclick = lbClose;
