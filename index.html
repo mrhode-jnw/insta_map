@@ -1172,19 +1172,31 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (!first && follow) map.panTo(ll);
     if (Date.now() - lastListUpdate > 5000) { lastListUpdate = Date.now(); renderList(); }
   }
+  // Standort robust verfolgen: iOS beendet die Abfrage gern nach Zeitüberschreitung (Gebäude, MTR, Häuserschluchten)
+  // oder wenn die App im Hintergrund war – dann still neu starten statt stehen zu bleiben.
+  let watchWanted = false, lastFix = 0;
   function onErr(err) {
-    const msgs = { 1: "Standortzugriff verweigert – bitte in den Browser-Einstellungen erlauben.",
-                   2: "Standort nicht verfügbar.", 3: "Standort-Zeitüberschreitung." };
-    toast(location.protocol === "http:" && location.hostname !== "localhost"
-      ? "Standort braucht HTTPS (z.B. GitHub Pages)." : (msgs[err.code] || err.message), 5000);
-    $("#locate").classList.remove("active", "follow");
+    if (err.code === 1 || location.protocol === "http:" && location.hostname !== "localhost") {
+      toast(err.code === 1 ? "Standortzugriff verweigert – bitte in den Browser-Einstellungen erlauben." : "Standort braucht HTTPS (z.B. GitHub Pages).", 5000);
+      watchWanted = false; stopWatch(); $("#locate").classList.remove("active", "follow"); return;
+    }
+    if (!me) toast("Suche Standort …", 2500);  // vorübergehend (kein GPS-Empfang): Abfrage läuft weiter, der Wächter unten startet sie notfalls neu
+  }
+  function stopWatch() { if (watchId !== null) navigator.geolocation.clearWatch(watchId); watchId = null; }
+  function restartWatch(delay = 0) {
+    stopWatch(); clearTimeout(restartWatch.t);
+    restartWatch.t = setTimeout(() => { if (watchWanted) startWatch(); }, delay);
   }
   function startWatch() {
     if (!navigator.geolocation) return toast("Geolocation wird nicht unterstützt.");
-    if (watchId === null) watchId = navigator.geolocation.watchPosition(onPos, onErr,
-      { enableHighAccuracy: true, maximumAge: 5000, timeout: 20000 });
+    watchWanted = true;
+    if (watchId === null) watchId = navigator.geolocation.watchPosition(p => { lastFix = Date.now(); onPos(p); }, onErr,
+      { enableHighAccuracy: true, maximumAge: 3000, timeout: 15000 });
     $("#locate").classList.add("active");
   }
+  // zurück aus dem Hintergrund → frisch starten; außerdem Wächter: 25 s ohne neue Position → neu starten
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && watchWanted) restartWatch(); });
+  setInterval(() => { if (watchWanted && document.visibilityState === "visible" && Date.now() - lastFix > 20000) { lastFix = Date.now(); restartWatch(); } }, 5000);
   // ---------- Kompass: Blickrichtung als Kegel am Standortpunkt
   let compassOn = false, headingShown = null;
   function onHeading(e) {
