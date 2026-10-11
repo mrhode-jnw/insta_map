@@ -36,6 +36,7 @@ POSTS = {
  89:("mart.lindner","p","Cohik58PVLp"),
  90:("minghan1004","p","DHTSfnjTAKI"),
  91:("hltam","p","DPuoulFkynE"),
+ 92:("dixonkwan","p","DeWjd7bEplD"),
 }
 
 def url(i):
@@ -141,7 +142,7 @@ add("Shek Kip Mei Estate 石硤尾邨", "Shek Kip Mei Estate, Hong Kong", "Shek 
 add("Pei Ho Street Market / 58 Pei Ho Street", "58 Pei Ho Street, Sham Shui Po, Hong Kong", "Sham Shui Po", "Markt", [21,62], "")
 add("Nam Cheong Pawn Shop 南昌押", "Nam Cheong Pawn Shop, Sham Shui Po, Hong Kong", "Sham Shui Po", "Neon", [21,26,62], "")
 add("Central Restaurant, Sham Shui Po", (22.33045,114.16633,"OSM"), "Sham Shui Po", "Street", [21], "中央飯店 Central Restaurant, 140 Tai Po Road, Sham Shui Po")
-add("Tung Lo Court 東廬大廈", "Tung Lo Court, Sham Shui Po, Hong Kong", "Sham Shui Po", "Architektur", [25,28,75], "")
+add("Tung Lo Court 東廬大廈", "Tung Lo Court, Sham Shui Po, Hong Kong", "Sham Shui Po", "Architektur", [25,28,75,92], "", slides={92: 1})
 add("Dragon Centre 西九龍中心", "Dragon Centre, Yen Chow Street, Sham Shui Po, Hong Kong", "Sham Shui Po", "Architektur", [25,28], "")
 add("Mia Casa Apartment, 14 Nam Cheong Street", "14 Nam Cheong Street, Sham Shui Po, Hong Kong", "Sham Shui Po", "Architektur", [24,75], "Orange, Eckhaus")
 add("Wing Wah Building, Sham Shui Po", (22.32997,114.16503,"OSM"), "Sham Shui Po", "Architektur", [27], "bunte Wand")
@@ -193,3 +194,4 @@ add("Fat Kwong Street Flyover 佛光街天橋", (22.30969,114.18504,"OSM"), "Ho 
 add("Hoi Lai Estate 海麗邨", "Hoi Lai Estate, Sham Shui Po, Hong Kong", "Sham Shui Po", "Architektur", [88], "Drohnenblick auf Hochstraßen vor den Wohntürmen", slides={88: 2})
 add("Mei Foo Sun Chuen 美孚新邨", "Mei Foo Sun Chuen, Hong Kong", "Mei Foo", "Architektur", [88], "Riesige Wohnsiedlung mit Fußgängerbrücken", slides={88: 4})
 add("Arsenal Street 軍器廠街", "Arsenal Street, Wan Chai, Hong Kong", "Wan Chai", "Tram", [90], "Tram vor dem alten Polizeihauptquartier", slides={90: 8})
+add("Ka To Building 嘉都大廈 (rosa Eckhaus, Tai Po Road)", (22.330204,114.166114,"OSM"), "Sham Shui Po", "Architektur", [92], "37–39 Tai Po Road – rosa Eckhaus mit abgerundeter Ecke an der Kreuzung Tai Po Road / Un Chau Street, schräg gegenüber dem Tung Lo Court (im Foto rechts angeschnitten). Pin = Standpunkt am Tung Lo Court, Blick nach Südwesten (ca. 240°) über die Kreuzung; Taxi als Vordergrund.", slides={92: 2}, unsure="Gebäude aus der Lage abgeleitet (Tung Lo Court im Bild, abgerundete Ecke laut OSM-Grundriss zur Kreuzung) – der Schriftzug an der Fassade ist im Foto nicht lesbar; vor Ort kurz am Namen prüfen")

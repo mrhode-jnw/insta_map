@@ -3153,6 +3153,16 @@ window.PLACES = [
     "slide": 7,
     "generic": true,
     "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/dixonkwan/p/DeWjd7bEplD/?img_index=1",
+    "username": "dixonkwan",
+    "profile_url": "https://www.instagram.com/dixonkwan/",
+    "kind": "p",
+    "image": "images/DeWjd7bEplD_1.jpg",
+    "caption": "Shot in the old districts that still feel like home. \nJust like Joey’s new track 陽光普照, about growing up around these streets.\n\n@yungchoyee 《陽光普照》",
+    "match": "slide",
+    "slide": 1
    }
   ],
   "pop": 1,
@@ -4662,6 +4672,35 @@ window.PLACES = [
   ],
   "pop": 3,
   "pop_reason": "Bekannter Tram-Fotospot in Wan Chai"
+ },
+ {
+  "id": "hk-ka-to-building-rosa-eckhaus-tai-po-road",
+  "name": "Ka To Building 嘉都大廈 (rosa Eckhaus, Tai Po Road)",
+  "district": "Sham Shui Po",
+  "category": "Architektur",
+  "note": "37–39 Tai Po Road – rosa Eckhaus mit abgerundeter Ecke an der Kreuzung Tai Po Road / Un Chau Street, schräg gegenüber dem Tung Lo Court (im Foto rechts angeschnitten). Pin = Standpunkt am Tung Lo Court, Blick nach Südwesten (ca. 240°) über die Kreuzung; Taxi als Vordergrund.",
+  "unsure": "Gebäude aus der Lage abgeleitet (Tung Lo Court im Bild, abgerundete Ecke laut OSM-Grundriss zur Kreuzung) – der Schriftzug an der Fassade ist im Foto nicht lesbar; vor Ort kurz am Namen prüfen",
+  "address": "Sham Shui Po",
+  "lat": 22.330204,
+  "lng": 114.166114,
+  "approx": false,
+  "image": "images/DeWjd7bEplD_2.jpg",
+  "caption": "Shot in the old districts that still feel like home. \nJust like Joey’s new track 陽光普照, about growing up around these streets.\n\n@yungchoyee 《陽光普照》",
+  "post_url": "https://www.instagram.com/dixonkwan/p/DeWjd7bEplD/?img_index=2",
+  "username": "dixonkwan",
+  "profile_url": "https://www.instagram.com/dixonkwan/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/dixonkwan/p/DeWjd7bEplD/?img_index=2",
+    "username": "dixonkwan",
+    "profile_url": "https://www.instagram.com/dixonkwan/",
+    "kind": "p",
+    "image": "images/DeWjd7bEplD_2.jpg",
+    "caption": "Shot in the old districts that still feel like home. \nJust like Joey’s new track 陽光普照, about growing up around these streets.\n\n@yungchoyee 《陽光普照》",
+    "match": "slide",
+    "slide": 2
+   }
+  ]
  },
  {
   "id": "claude-avenue-of-stars-tst-promenade",
