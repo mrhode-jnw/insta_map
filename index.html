@@ -432,6 +432,9 @@
         <option value="">● Alle Prioritäten</option><option value="hoch">🔴 Hoch</option><option value="hoch,mittel">🔴🟠 Hoch + Mittel</option>
         <option value="mittel">🟠 Mittel</option><option value="gering">⚪ Gering</option><option value="none">○ Unbewertet</option>
       </select>
+      <select id="fWhen" aria-label="Tag oder Nacht">
+        <option value="">☀️🌙 Tag & Nacht</option><option value="day">☀️ Tag</option><option value="night">🌙 Nacht</option>
+      </select>
       <select id="fMore" aria-label="Auswahl">
         <option value="">✨ Alle Spots</option><option value="fav">❤️ Favoriten</option><option value="pop">🔥 Beliebte</option><option value="trash">🗑 Gelöschte</option>
       </select>
@@ -605,6 +608,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const who = x => x.credit || "@" + x.username;  // Foto aus Artikel statt Instagram: Quellenangabe
   const imgsOf = p => { const l = (p.posts || []).filter(x => x.image), i = l.findIndex(x => x.image === p.image);
     return i > 0 ? [l[i], ...l.slice(0, i), ...l.slice(i + 1)] : l; };
+  const WHEN_LABEL = { day: "☀️ Tag", night: "🌙 Nacht", both: "☀️🌙 Tag & Nacht" };
   function popupHtml(p) {
     const d = here() ? `<div class="dist">📍 ${fmt(dist(me, p))} entfernt</div>` : "";
     const nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
@@ -642,7 +646,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           <button class="fav${st(p.id).fav ? " on" : ""}" data-fav title="Favorit – will ich fotografieren" aria-label="Favorit" aria-pressed="${!!st(p.id).fav}"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M12 21s-7.5-4.6-10-9.3C.3 8.3 2.2 4 6.2 4c2.4 0 3.9 1.4 5.8 3.6C13.9 5.4 15.4 4 17.8 4c4 0 5.9 4.3 4.2 7.7C19.5 16.4 12 21 12 21z"/></svg></button>
           <button class="shot${st(p.id).done ? " on" : ""}" data-done title="Fotografiert" aria-label="Fotografiert" aria-pressed="${!!st(p.id).done}">📷</button>
         </div>
-        ${p.category ? `<div class="meta">${esc([p.mine ? "★ Eigener Spot" : "", p.category, p.district, routeLabel(p)].filter(Boolean).join(" · "))}</div>` : ""}
+        ${p.category ? `<div class="meta">${esc([p.mine ? "★ Eigener Spot" : "", p.category, p.district, WHEN_LABEL[p.when] || "", routeLabel(p)].filter(Boolean).join(" · "))}</div>` : ""}
         ${p.pop ? `<div class="popularity">${"🔥".repeat(p.pop)}${"<span style=\"opacity:.25\">🔥</span>".repeat(5 - p.pop)} Beliebtheit ${p.pop}/5${p.pop_reason ? `<br><small>${esc(p.pop_reason)}</small>` : ""}</div>` : ""}
         ${p.approx ? `<div class="approx">Pin ungefähr</div>` : ""}
         ${p.unsure ? `<div class="unsure-note">⚠️ <b>Standort nicht 100 % gesichert:</b> ${esc(p.unsure)}</div>` : ""}
@@ -988,6 +992,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return parts.length > 1 ? parts[parts.length - 1] + " – " + parts.slice(0, -1).join(", ") : d;
   };
   let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto";
+  let whenF = null;  // ☀️ Tag / 🌙 Nacht (p.when aus tools/daynight.py; „both“ passt zu beidem)
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
   $("#area").addEventListener("change", e => { areaF = e.target.value; renderList(); });
@@ -999,6 +1004,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     fDone: v => { doneF = v || null; },
     fPrio: v => { prioF.clear(); if (v) v.split(",").forEach(x => prioF.add(x)); },
     fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; },
+    fWhen: v => { whenF = v || null; },
   };
   Object.entries(FILTERS).forEach(([id, apply]) => {
     const el = $("#" + id);
@@ -1051,6 +1057,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio || "none")) && (!doneF || (doneF === "done" ? s.done : !s.done))
       && (!popF || (p.pop || 0) >= 4) && (!favF || s.fav) && (!areaF || areaOf(p) === areaF)
+      && (!whenF || !p.when || p.when === "both" || p.when === whenF)
       && (trashF ? s.hidden : !s.hidden);  // gelöschte Spots nur im Filter „Gelöscht“
   };
   const shown = new Set();

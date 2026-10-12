@@ -75,7 +75,8 @@ window.PLACES = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Top-Sehenswürdigkeit, in jedem Reiseführer, klassischer Skyline-Blick"
+  "pop_reason": "Top-Sehenswürdigkeit, in jedem Reiseführer, klassischer Skyline-Blick",
+  "when": "both"
  },
  {
   "id": "hk-jardine-s-lookout",
@@ -127,7 +128,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Beliebte Wanderung, in Hike-Blogs und Locationscout gelistet"
+  "pop_reason": "Beliebte Wanderung, in Hike-Blogs und Locationscout gelistet",
+  "when": "night"
  },
  {
   "id": "hk-red-incense-burner-summit-braemar-hill",
@@ -166,7 +168,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bei Fotografen beliebter Sonnenuntergangsspot, wenige Reiseführer"
+  "pop_reason": "Bei Fotografen beliebter Sonnenuntergangsspot, wenige Reiseführer",
+  "when": "both"
  },
  {
   "id": "hk-suicide-cliff-kowloon-peak",
@@ -205,7 +208,8 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Durch Social Media bekannt, viele Hike-Blogs, SCMP-Berichte"
+  "pop_reason": "Durch Social Media bekannt, viele Hike-Blogs, SCMP-Berichte",
+  "when": "both"
  },
  {
   "id": "hk-lion-rock-gipfel",
@@ -245,7 +249,8 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Bekannte Wanderung, Discover Hong Kong, viele Fotolisten"
+  "pop_reason": "Bekannte Wanderung, Discover Hong Kong, viele Fotolisten",
+  "when": "both"
  },
  {
   "id": "hk-checkerboard-hill-lion-rock-drone-spot",
@@ -275,7 +280,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Nischiger Kai-Tak-Hügel, nur in Hike-Blogs erwähnt"
+  "pop_reason": "Nischiger Kai-Tak-Hügel, nur in Hike-Blogs erwähnt",
+  "when": "day"
  },
  {
   "id": "hk-victoria-harbour-neon-regen-nacht",
@@ -304,7 +310,8 @@ window.PLACES = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Weltberühmtes Hafenpanorama, in jedem Reiseführer"
+  "pop_reason": "Weltberühmtes Hafenpanorama, in jedem Reiseführer",
+  "when": "night"
  },
  {
   "id": "hk-aberdeen-street-steps",
@@ -380,7 +387,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Typische Treppengasse, selten gezielt erwähnt"
+  "pop_reason": "Typische Treppengasse, selten gezielt erwähnt",
+  "when": "day"
  },
  {
   "id": "hk-des-voeux-road-central",
@@ -410,7 +418,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bekannte Tram-Fotostraße, in Street-Photography-Listen"
+  "pop_reason": "Bekannte Tram-Fotostraße, in Street-Photography-Listen",
+  "when": "day"
  },
  {
   "id": "hk-the-murray-hotel",
@@ -452,7 +461,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bekanntes Designhotel, Architekturpresse, kaum in Instagram-Spotlisten"
+  "pop_reason": "Bekanntes Designhotel, Architekturpresse, kaum in Instagram-Spotlisten",
+  "when": "day"
  },
  {
   "id": "hk-footbridge-at-peel-street",
@@ -482,7 +492,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Kaum online dokumentiert, nur lokale Fotografen"
+  "pop_reason": "Kaum online dokumentiert, nur lokale Fotografen",
+  "when": "day"
  },
  {
   "id": "hk-peel-street-retro-neon-filmset-highlander",
@@ -511,7 +522,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Temporäres Filmset August 2026, bereits abgebaut"
+  "pop_reason": "Temporäres Filmset August 2026, bereits abgebaut",
+  "when": "night"
  },
  {
   "id": "hk-bank-of-china-tower-fahnenmasten",
@@ -541,7 +553,8 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Weltbekanntes Wahrzeichen; Fahnenmast-Winkel selbst kaum dokumentiert"
+  "pop_reason": "Weltbekanntes Wahrzeichen; Fahnenmast-Winkel selbst kaum dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-the-henderson",
@@ -571,7 +584,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Neues Zaha-Hadid-Gebäude, Discover Hong Kong empfiehlt Fotospot"
+  "pop_reason": "Neues Zaha-Hadid-Gebäude, Discover Hong Kong empfiehlt Fotospot",
+  "when": "day"
  },
  {
   "id": "hk-st-john-s-cathedral",
@@ -613,7 +627,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Historische Kirche, in Reiseführern, mäßig fotografiert"
+  "pop_reason": "Historische Kirche, in Reiseführern, mäßig fotografiert",
+  "when": "day"
  },
  {
   "id": "hk-172-176-queen-s-road-central",
@@ -643,7 +658,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Online praktisch nicht dokumentiert"
+  "pop_reason": "Online praktisch nicht dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-kung-lee-sugar-cane-drink",
@@ -683,7 +699,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Traditionsladen seit 1948, Discover Hong Kong gelistet"
+  "pop_reason": "Traditionsladen seit 1948, Discover Hong Kong gelistet",
+  "when": "day"
  },
  {
   "id": "hk-murray-road-tram-station",
@@ -713,7 +730,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Online praktisch nicht als Fotospot dokumentiert"
+  "pop_reason": "Online praktisch nicht als Fotospot dokumentiert",
+  "when": "night"
  },
  {
   "id": "hk-lan-fong-yuen",
@@ -745,7 +763,8 @@ window.PLACES = [
   "pop": 4,
   "pop_reason": "Berühmtes Cha Chaan Teng, in vielen Food-Guides",
   "image_page": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%AD%E7%92%B0_Central_%E6%93%BA%E8%8A%B1%E8%A1%97_Lyndhurst_Terrace_%E7%B5%90%E5%BF%97%E8%A1%97_Gage_Street_shop_%E8%98%AD%E8%8A%B3%E5%9C%92_Lan_Fong_Yuen_February_2025_R12S_04.jpg",
-  "image_credit": "Safoule 2558 LausldM · CC0 · Wikimedia Commons"
+  "image_credit": "Safoule 2558 LausldM · CC0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "hk-twist-new-italian",
@@ -775,7 +794,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Neue Pastabar seit 2025, wenige Bewertungen"
+  "pop_reason": "Neue Pastabar seit 2025, wenige Bewertungen",
+  "when": "day"
  },
  {
   "id": "hk-bourke-on-peel-street",
@@ -805,7 +825,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Kleine Nachbarschaftsbar, kaum als Fotospot erwähnt"
+  "pop_reason": "Kleine Nachbarschaftsbar, kaum als Fotospot erwähnt",
+  "when": "day"
  },
  {
   "id": "hk-lin-heung-tea-house",
@@ -837,7 +858,8 @@ window.PLACES = [
   "pop": 3,
   "pop_reason": "Legendäres Teehaus, Standort Wellington Street 2026 geschlossen",
   "image_page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_2026_-_Lin_Heung_Lau_06.jpg",
-  "image_credit": "Xuthoria · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "Xuthoria · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "hk-kau-kee-gough-street",
@@ -869,7 +891,8 @@ window.PLACES = [
   "pop": 4,
   "pop_reason": "Kultiges Brisket-Lokal, in fast jedem Food-Guide",
   "image_page": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E6%AD%8C%E8%B3%A6%E8%A1%97_Gough_Street_Kau_Kee_Restaurant_shop_gate_painting_February_2025_R12S.jpg",
-  "image_credit": "Safoule 2558 LausldM · CC0 · Wikimedia Commons"
+  "image_credit": "Safoule 2558 LausldM · CC0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "hk-yat-lok-stanley-street",
@@ -901,7 +924,8 @@ window.PLACES = [
   "pop": 4,
   "pop_reason": "Michelin-Stern-Gänsebraten, in vielen Reiseführern",
   "image_page": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%AD%E7%92%B0_Central_%E5%A3%AB%E4%B8%B9%E5%88%A9%E8%A1%97_Stanley_Street_shop_%E4%B8%80%E6%A8%82%E7%87%92%E9%B5%9D_Yat_Lok_Restaurant_June_2019_IX2_01.jpg",
-  "image_credit": "TioeDOS odb ow · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "TioeDOS odb ow · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "hk-tai-ping-shan-street",
@@ -931,7 +955,8 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Time Out: Platz 7 coolste Straßen weltweit, Discover Hong Kong"
+  "pop_reason": "Time Out: Platz 7 coolste Straßen weltweit, Discover Hong Kong",
+  "when": "day"
  },
  {
   "id": "hk-hong-kong-macau-ferry-tram-station",
@@ -973,7 +998,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Nischiger Tram-Fotospot, selten erwähnt"
+  "pop_reason": "Nischiger Tram-Fotospot, selten erwähnt",
+  "when": "day"
  },
  {
   "id": "hk-western-market-tram-station",
@@ -1003,7 +1029,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Tram-Endhaltestelle, gelegentlich bei Tramfans erwähnt"
+  "pop_reason": "Tram-Endhaltestelle, gelegentlich bei Tramfans erwähnt",
+  "when": "day"
  },
  {
   "id": "hk-1-queen-s-road-west-shophouse",
@@ -1033,7 +1060,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Renoviertes Vorkriegshaus, nur auf Gwulo dokumentiert"
+  "pop_reason": "Renoviertes Vorkriegshaus, nur auf Gwulo dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-112-jervois-street-shophouse",
@@ -1063,7 +1091,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Altes Ladenhaus, online kaum dokumentiert"
+  "pop_reason": "Altes Ladenhaus, online kaum dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-113-bonham-strand-shophouse",
@@ -1093,7 +1122,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Altes Ladenhaus, online kaum dokumentiert"
+  "pop_reason": "Altes Ladenhaus, online kaum dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-35-bonham-road-shophouse",
@@ -1123,7 +1153,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Grade-II-Denkmal, in Heritage-Archiven, kaum als Fotospot genannt"
+  "pop_reason": "Grade-II-Denkmal, in Heritage-Archiven, kaum als Fotospot genannt",
+  "when": "day"
  },
  {
   "id": "hk-88-90-staunton-street-shophouse",
@@ -1153,7 +1184,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Adresse online praktisch nicht dokumentiert"
+  "pop_reason": "Adresse online praktisch nicht dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-2a-shing-wong-street-shophouse",
@@ -1183,7 +1215,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Nur Straße bekannt, Gebäude selbst online nicht dokumentiert"
+  "pop_reason": "Nur Straße bekannt, Gebäude selbst online nicht dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-mid-levels-allgemein",
@@ -1213,7 +1246,8 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Mid-Levels Escalator in fast allen Reiseführern präsent"
+  "pop_reason": "Mid-Levels Escalator in fast allen Reiseführern präsent",
+  "when": "both"
  },
  {
   "id": "hk-207-des-voeux-road-west-shophouse",
@@ -1243,7 +1277,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Grade-2-Denkmal, nur auf Gwulo dokumentiert"
+  "pop_reason": "Grade-2-Denkmal, nur auf Gwulo dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-20-high-street-shophouse",
@@ -1273,7 +1308,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Online keine Erwähnung des Gebäudes gefunden"
+  "pop_reason": "Online keine Erwähnung des Gebäudes gefunden",
+  "when": "day"
  },
  {
   "id": "hk-153-queen-s-road-west-shophouse",
@@ -1303,7 +1339,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Online praktisch keine Erwähnung als Sehenswürdigkeit gefunden"
+  "pop_reason": "Online praktisch keine Erwähnung als Sehenswürdigkeit gefunden",
+  "when": "day"
  },
  {
   "id": "hk-third-street",
@@ -1333,7 +1370,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Wikipedia-Eintrag, aber selten in Instagram-Spot-Listen"
+  "pop_reason": "Wikipedia-Eintrag, aber selten in Instagram-Spot-Listen",
+  "when": "day"
  },
  {
   "id": "hk-hill-road-flyover",
@@ -1375,7 +1413,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "In einigen Architektur-Instagram-Listen, bei Fotografen bekannt"
+  "pop_reason": "In einigen Architektur-Instagram-Listen, bei Fotografen bekannt",
+  "when": "day"
  },
  {
   "id": "hk-tung-hing-mansion",
@@ -1405,7 +1444,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Keine Erwähnung in Reise- oder Fotospot-Listen gefunden"
+  "pop_reason": "Keine Erwähnung in Reise- oder Fotospot-Listen gefunden",
+  "when": "day"
  },
  {
   "id": "hk-monster-building-yick-cheong-building",
@@ -1512,7 +1552,8 @@ window.PLACES = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Weltberühmter Instagram-Spot, in nahezu jedem Reiseführer"
+  "pop_reason": "Weltberühmter Instagram-Spot, in nahezu jedem Reiseführer",
+  "when": "both"
  },
  {
   "id": "hk-oceanic-building-monster-building-tram-seite",
@@ -1554,7 +1595,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Teil des Monster-Komplexes, Tram-Seite deutlich weniger fotografiert"
+  "pop_reason": "Teil des Monster-Komplexes, Tram-Seite deutlich weniger fotografiert",
+  "when": "day"
  },
  {
   "id": "hk-swiss-house-quarry-bay-abgerissen",
@@ -1584,7 +1626,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Ende 2024 abgerissen, nur auf Gwulo dokumentiert"
+  "pop_reason": "Ende 2024 abgerissen, nur auf Gwulo dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-king-s-road",
@@ -1614,7 +1657,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Tram-Hauptstraße, fast nur historische Fotoarchive, kein Fotospot-Listing"
+  "pop_reason": "Tram-Hauptstraße, fast nur historische Fotoarchive, kein Fotospot-Listing",
+  "when": "day"
  },
  {
   "id": "hk-north-point-road-tram-station",
@@ -1644,7 +1688,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Einzelne Tramhaltestelle, nur von Tram-Fotografen beachtet"
+  "pop_reason": "Einzelne Tramhaltestelle, nur von Tram-Fotografen beachtet",
+  "when": "day"
  },
  {
   "id": "hk-chun-yeung-street-market",
@@ -1698,7 +1743,8 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Tram durch Markt, Discover Hong Kong und viele Reiseblogs"
+  "pop_reason": "Tram durch Markt, Discover Hong Kong und viele Reiseblogs",
+  "when": "both"
  },
  {
   "id": "hk-north-point-fire-station-sunbeam-theatre",
@@ -1738,7 +1784,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Feuerwache auf Locationscout als beliebter Urban-Fotospot"
+  "pop_reason": "Feuerwache auf Locationscout als beliebter Urban-Fotospot",
+  "when": "day"
  },
  {
   "id": "hk-southern-building-north-point",
@@ -1768,7 +1815,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Kaum online dokumentiert, reiner Geheimtipp"
+  "pop_reason": "Kaum online dokumentiert, reiner Geheimtipp",
+  "when": "day"
  },
  {
   "id": "hk-majestic-apartments-north-point",
@@ -1808,7 +1856,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Kaum online dokumentiert, reiner Geheimtipp"
+  "pop_reason": "Kaum online dokumentiert, reiner Geheimtipp",
+  "when": "day"
  },
  {
   "id": "hk-east-coast-boardwalk-lion-rock-view",
@@ -1838,7 +1887,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Neue Promenade, Time Out und Discover HK, beliebt bei Sonnenuntergang"
+  "pop_reason": "Neue Promenade, Time Out und Discover HK, beliebt bei Sonnenuntergang",
+  "when": "day"
  },
  {
   "id": "hk-percival-street",
@@ -1878,7 +1928,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Kein Fotospot-Listing gefunden, nur Wikipedia und Archive"
+  "pop_reason": "Kein Fotospot-Listing gefunden, nur Wikipedia und Archive",
+  "when": "day"
  },
  {
   "id": "hk-wong-nai-chung-road",
@@ -1920,7 +1971,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Tramstrecke nur in historischen Archiven, kaum Fotospot-Listen"
+  "pop_reason": "Tramstrecke nur in historischen Archiven, kaum Fotospot-Listen",
+  "when": "day"
  },
  {
   "id": "hk-lai-tak-estate",
@@ -1950,7 +2002,8 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Zylindrisches Estate, in vielen Top-Instagram-Spot-Listen"
+  "pop_reason": "Zylindrisches Estate, in vielen Top-Instagram-Spot-Listen",
+  "when": "day"
  },
  {
   "id": "hk-cheung-hing-house-portland-street-neon-ecke",
@@ -2029,7 +2082,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Portland-Street-Neon bekannt, konkrete Ecke kaum dokumentiert"
+  "pop_reason": "Portland-Street-Neon bekannt, konkrete Ecke kaum dokumentiert",
+  "when": "night"
  },
  {
   "id": "hk-langham-place",
@@ -2059,7 +2113,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Discover Hong Kong gelistet, Rolltreppe bekannt, mäßig als Fotospot"
+  "pop_reason": "Discover Hong Kong gelistet, Rolltreppe bekannt, mäßig als Fotospot",
+  "when": "day"
  },
  {
   "id": "hk-argyle-street-henge",
@@ -2170,7 +2225,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Sonnenausrichtung online nicht dokumentiert, temporäres Ereignis"
+  "pop_reason": "Sonnenausrichtung online nicht dokumentiert, temporäres Ereignis",
+  "when": "day"
  },
  {
   "id": "hk-reclamation-street-alte-lden",
@@ -2231,7 +2287,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Historische Straße, vor allem auf Gwulo und Heritage-Seiten"
+  "pop_reason": "Historische Straße, vor allem auf Gwulo und Heritage-Seiten",
+  "when": "day"
  },
  {
   "id": "hk-soy-street-tunnel",
@@ -2261,7 +2318,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Tunnel als Fotospot online nicht dokumentiert"
+  "pop_reason": "Tunnel als Fotospot online nicht dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-fa-yuen-street-market",
@@ -2314,7 +2372,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "TripAdvisor-Seite, Culture Trip, mehrere Reiseführer"
+  "pop_reason": "TripAdvisor-Seite, Culture Trip, mehrere Reiseführer",
+  "when": "day"
  },
  {
   "id": "hk-kam-lam-street",
@@ -2344,7 +2403,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Kleine Seitenstraße, online praktisch nicht als Spot erwähnt"
+  "pop_reason": "Kleine Seitenstraße, online praktisch nicht als Spot erwähnt",
+  "when": "day"
  },
  {
   "id": "hk-20-nullah-road-pre-war-shophouses",
@@ -2374,7 +2434,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Nur Gwulo-Eintrag, kaum touristische Erwähnung"
+  "pop_reason": "Nur Gwulo-Eintrag, kaum touristische Erwähnung",
+  "when": "day"
  },
  {
   "id": "hk-neon-hop-hing-lung-ceramics-sanitaryware",
@@ -2404,7 +2465,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Einzelnes Neonschild, online praktisch nicht dokumentiert"
+  "pop_reason": "Einzelnes Neonschild, online praktisch nicht dokumentiert",
+  "when": "night"
  },
  {
   "id": "hk-neon-pat-chun-yau-woo-building",
@@ -2434,7 +2496,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Einzelnes Neonschild, kaum Online-Erwähnungen"
+  "pop_reason": "Einzelnes Neonschild, kaum Online-Erwähnungen",
+  "when": "night"
  },
  {
   "id": "hk-shanghai-street-jordan-pfandhaus",
@@ -2463,7 +2526,8 @@ window.PLACES = [
     "match": "slide",
     "slide": 8
    }
-  ]
+  ],
+  "when": "day"
  },
  {
   "id": "hk-shanghai-street-schlosser-stand-mong-kok",
@@ -2491,7 +2555,8 @@ window.PLACES = [
     "caption": "An elderly locksmith works at his tiny stall on Shanghai Street in Mong Kok.⁠\n⁠\nThe street where this old neighbourhood stall is located is one of the oldest in Hong Kong, stretching from Austin Road to Prince Edward Road through the neighbourhoods of Jordan, Yau Ma Tei and Mong Kok. Built in 1887, it was one of several streets in Kowloon named after important ports in China and Southeast Asia, including Canton Road, Saigon Street and Haiphong Road.⁠\n⁠\nIn the last century, Shanghai Street was Kowloon’s main street, with mahjong houses, gold shops and herbal medicine stores lining the road and ",
     "match": "single"
    }
-  ]
+  ],
+  "when": "night"
  },
  {
   "id": "hk-wah-tak-building-yau-ma-tei",
@@ -2532,7 +2597,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Rot gestreifte Fassade, auf Locationscout und unter Fotografen bekannt"
+  "pop_reason": "Rot gestreifte Fassade, auf Locationscout und unter Fotografen bekannt",
+  "when": "day"
  },
  {
   "id": "hk-alhambra-building-yau-ma-tei",
@@ -2575,7 +2641,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Nur auf Geschichtsseiten wie Gwulo erwähnt"
+  "pop_reason": "Nur auf Geschichtsseiten wie Gwulo erwähnt",
+  "when": "both"
  },
  {
   "id": "hk-yau-ma-tei-fruit-market",
@@ -2605,7 +2672,8 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Time Out und Discover HK, beliebter Streetfoto-Spot"
+  "pop_reason": "Time Out und Discover HK, beliebter Streetfoto-Spot",
+  "when": "day"
  },
  {
   "id": "hk-saigon-street",
@@ -2635,7 +2703,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Lokale Straße, selten in Fotolisten erwähnt"
+  "pop_reason": "Lokale Straße, selten in Fotolisten erwähnt",
+  "when": "day"
  },
  {
   "id": "hk-austin-road-jordan",
@@ -2665,7 +2734,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Normale Durchgangsstraße, kaum als Fotospot dokumentiert"
+  "pop_reason": "Normale Durchgangsstraße, kaum als Fotospot dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-united-mansion-jordan",
@@ -2695,7 +2765,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Keine Erwähnungen als Fotospot gefunden"
+  "pop_reason": "Keine Erwähnungen als Fotospot gefunden",
+  "when": "day"
  },
  {
   "id": "hk-mirador-mansion",
@@ -2737,7 +2808,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bekanntes Nathan-Road-Gebäude, Innenhof bei Fotografen beliebt"
+  "pop_reason": "Bekanntes Nathan-Road-Gebäude, Innenhof bei Fotografen beliebt",
+  "when": "day"
  },
  {
   "id": "hk-carnival-mansion-tsim-sha-tsui",
@@ -2767,7 +2839,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Nur vereinzelt auf Gwulo und Fotoportalen erwähnt"
+  "pop_reason": "Nur vereinzelt auf Gwulo und Fotoportalen erwähnt",
+  "when": "day"
  },
  {
   "id": "hk-k11-musea",
@@ -2797,7 +2870,8 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Viel beworbene Kunst-Mall, in vielen Guides und Instagram-Listen"
+  "pop_reason": "Viel beworbene Kunst-Mall, in vielen Guides und Instagram-Listen",
+  "when": "day"
  },
  {
   "id": "hk-china-hong-kong-city",
@@ -2827,7 +2901,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Fähr-Terminal-Mall, als Fotomotiv nur gelegentlich genannt"
+  "pop_reason": "Fähr-Terminal-Mall, als Fotomotiv nur gelegentlich genannt",
+  "when": "day"
  },
  {
   "id": "hk-ming-fat-mansion-prince-edward",
@@ -2857,7 +2932,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Online praktisch nicht dokumentiert"
+  "pop_reason": "Online praktisch nicht dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-190-prince-edward-road-west",
@@ -2887,7 +2963,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Denkmalgeschützte Shophouses, bei Discover Hong Kong gelistet"
+  "pop_reason": "Denkmalgeschützte Shophouses, bei Discover Hong Kong gelistet",
+  "when": "day"
  },
  {
   "id": "hk-nam-cheong-street-shek-kip-mei",
@@ -2952,7 +3029,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Lokale Straße, selten als Fotospot erwähnt"
+  "pop_reason": "Lokale Straße, selten als Fotospot erwähnt",
+  "when": "day"
  },
  {
   "id": "hk-shek-kip-mei-estate",
@@ -2983,7 +3061,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Historisches Estate nahe Mei Ho House, in Estate-Fotolisten"
+  "pop_reason": "Historisches Estate nahe Mei Ho House, in Estate-Fotolisten",
+  "when": "day"
  },
  {
   "id": "hk-pei-ho-street-market-58-pei-ho-street",
@@ -3024,7 +3103,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bei Discover HK gelistet, beliebter Sham-Shui-Po-Markt"
+  "pop_reason": "Bei Discover HK gelistet, beliebter Sham-Shui-Po-Markt",
+  "when": "day"
  },
  {
   "id": "hk-nam-cheong-pawn-shop",
@@ -3077,7 +3157,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Denkmalgeschütztes Pfandhaus mit Neon, in Heritage-Archiven dokumentiert"
+  "pop_reason": "Denkmalgeschütztes Pfandhaus mit Neon, in Heritage-Archiven dokumentiert",
+  "when": "night"
  },
  {
   "id": "hk-central-restaurant-sham-shui-po",
@@ -3108,7 +3189,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Lokales Cha Chaan Teng, kaum als Fotospot dokumentiert"
+  "pop_reason": "Lokales Cha Chaan Teng, kaum als Fotospot dokumentiert",
+  "when": "night"
  },
  {
   "id": "hk-tung-lo-court",
@@ -3173,7 +3255,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Keine Online-Erwähnungen als Fotospot gefunden"
+  "pop_reason": "Keine Online-Erwähnungen als Fotospot gefunden",
+  "when": "day"
  },
  {
   "id": "hk-dragon-centre",
@@ -3216,7 +3299,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Lokale Mall, als Fotomotiv nur selten genannt"
+  "pop_reason": "Lokale Mall, als Fotomotiv nur selten genannt",
+  "when": "day"
  },
  {
   "id": "hk-mia-casa-apartment-14-nam-cheong-street",
@@ -3257,7 +3341,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Eckgebäude mit Wikipedia-Eintrag, sonst wenig Erwähnung"
+  "pop_reason": "Eckgebäude mit Wikipedia-Eintrag, sonst wenig Erwähnung",
+  "when": "day"
  },
  {
   "id": "hk-wing-wah-building-sham-shui-po",
@@ -3288,7 +3373,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Online kaum dokumentiert, Geheimtipp"
+  "pop_reason": "Online kaum dokumentiert, Geheimtipp",
+  "when": "day"
  },
  {
   "id": "hk-pak-far-building-sham-shui-po",
@@ -3329,7 +3415,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Online kaum dokumentiert, Geheimtipp"
+  "pop_reason": "Online kaum dokumentiert, Geheimtipp",
+  "when": "day"
  },
  {
   "id": "hk-170-yee-kuk-street",
@@ -3360,7 +3447,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Time Out und Discover HK, fotogenes Grade-II-Tong-Lau"
+  "pop_reason": "Time Out und Discover HK, fotogenes Grade-II-Tong-Lau",
+  "when": "day"
  },
  {
   "id": "hk-130-132-ki-lung-street",
@@ -3403,7 +3491,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Tong-Lau-Ecke, gelegentlich in Fotoarchiven zu sehen"
+  "pop_reason": "Tong-Lau-Ecke, gelegentlich in Fotoarchiven zu sehen",
+  "when": "day"
  },
  {
   "id": "hk-shek-kip-mei-street",
@@ -3446,7 +3535,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Lokale Straße, nur gelegentlich in Fotoposts"
+  "pop_reason": "Lokale Straße, nur gelegentlich in Fotoposts",
+  "when": "day"
  },
  {
   "id": "hk-nam-cheong-lau",
@@ -3477,7 +3567,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Alter Wohnblock, gelegentlich in Architekturfotografie erwähnt"
+  "pop_reason": "Alter Wohnblock, gelegentlich in Architekturfotografie erwähnt",
+  "when": "day"
  },
  {
   "id": "hk-kim-shin-lane",
@@ -3508,7 +3599,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Kaum Online-Erwähnungen gefunden"
+  "pop_reason": "Kaum Online-Erwähnungen gefunden",
+  "when": "day"
  },
  {
   "id": "hk-301-303-castle-peak-road",
@@ -3539,7 +3631,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Keine Erwähnungen als Fotospot gefunden"
+  "pop_reason": "Keine Erwähnungen als Fotospot gefunden",
+  "when": "day"
  },
  {
   "id": "hk-peony-house-west-block",
@@ -3569,7 +3662,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Nischiges Wohnhaus, kaum in Fotospot-Listen erwähnt"
+  "pop_reason": "Nischiges Wohnhaus, kaum in Fotospot-Listen erwähnt",
+  "when": "day"
  },
  {
   "id": "hk-to-kwa-wan-road-apartment-complex",
@@ -3609,7 +3703,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Unbenannter Wohnblock, online praktisch nicht dokumentiert"
+  "pop_reason": "Unbenannter Wohnblock, online praktisch nicht dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-lucky-building",
@@ -3664,7 +3759,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Unter Architekturfotografen gelegentlich geteilt, sonst unbekannt"
+  "pop_reason": "Unter Architekturfotografen gelegentlich geteilt, sonst unbekannt",
+  "when": "day"
  },
  {
   "id": "hk-i-feng-mansion",
@@ -3694,7 +3790,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Vereinzelt Fotoprints und Instagram-Posts, keine Reiseführer"
+  "pop_reason": "Vereinzelt Fotoprints und Instagram-Posts, keine Reiseführer",
+  "when": "day"
  },
  {
   "id": "hk-mei-king-street",
@@ -3724,7 +3821,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Gewöhnliche Wohnstraße, keine Erwähnung als Fotospot"
+  "pop_reason": "Gewöhnliche Wohnstraße, keine Erwähnung als Fotospot",
+  "when": "day"
  },
  {
   "id": "hk-ma-tau-wai-estate-lion-rock",
@@ -3754,7 +3852,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Älteres Estate, selten in Fotospot-Listen genannt"
+  "pop_reason": "Älteres Estate, selten in Fotospot-Listen genannt",
+  "when": "day"
  },
  {
   "id": "hk-kowloon-city-road",
@@ -3784,7 +3883,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Normale Durchgangsstraße, online kaum als Fotospot erwähnt"
+  "pop_reason": "Normale Durchgangsstraße, online kaum als Fotospot erwähnt",
+  "when": "day"
  },
  {
   "id": "hk-merit-industrial-centre",
@@ -3815,7 +3915,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Industriegebäude, als Fotospot online nicht dokumentiert"
+  "pop_reason": "Industriegebäude, als Fotospot online nicht dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-hung-kwong-street",
@@ -3845,7 +3946,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Unbekannte Seitenstraße, keine Fotospot-Erwähnungen gefunden"
+  "pop_reason": "Unbekannte Seitenstraße, keine Fotospot-Erwähnungen gefunden",
+  "when": "day"
  },
  {
   "id": "hk-kai-tak-tunnel",
@@ -3875,7 +3977,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Verkehrstunnel, als Fotomotiv kaum dokumentiert"
+  "pop_reason": "Verkehrstunnel, als Fotomotiv kaum dokumentiert",
+  "when": "night"
  },
  {
   "id": "hk-newport-centre-block-2-neon-abgerissen",
@@ -3905,7 +4008,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Neonschild abgerissen, kaum Online-Dokumentation"
+  "pop_reason": "Neonschild abgerissen, kaum Online-Dokumentation",
+  "when": "day"
  },
  {
   "id": "hk-ma-tau-wai-road",
@@ -3935,7 +4039,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Hauptstraße ohne Bekanntheit als Fotospot"
+  "pop_reason": "Hauptstraße ohne Bekanntheit als Fotospot",
+  "when": "day"
  },
  {
   "id": "hk-harbour-place-drone",
@@ -3965,7 +4070,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Drohnenmotiv, gelegentlich auf Instagram, nicht in Reiseführern"
+  "pop_reason": "Drohnenmotiv, gelegentlich auf Instagram, nicht in Reiseführern",
+  "when": "day"
  },
  {
   "id": "hk-wing-sun-pawn-shop",
@@ -3995,7 +4101,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Pfandhaus-Neon, nur in Neon-Nischenlisten erwähnt"
+  "pop_reason": "Pfandhaus-Neon, nur in Neon-Nischenlisten erwähnt",
+  "when": "night"
  },
  {
   "id": "hk-choi-hung-estate",
@@ -4073,7 +4180,8 @@ window.PLACES = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Ikonischer Instagram-Spot, in fast jedem Reiseführer"
+  "pop_reason": "Ikonischer Instagram-Spot, in fast jedem Reiseführer",
+  "when": "day"
  },
  {
   "id": "hk-lotus-garden-ngau-tau-kok",
@@ -4105,7 +4213,8 @@ window.PLACES = [
   "pop": 1,
   "pop_reason": "Online kaum auffindbar, echter Geheimtipp",
   "image_page": "https://commons.wikimedia.org/wiki/File:HK_KTD_%E8%A7%80%E5%A1%98%E9%81%93_Kwun_Tong_%E7%89%9B%E9%A0%AD%E8%A7%92%E9%81%93_Ngau_Tau_Kok_Road_Lotus_Tower_building_facade_May_2025_R12S_01.jpg",
-  "image_credit": "Penajk Somsicz Bidoomw · CC0 · Wikimedia Commons"
+  "image_credit": "Penajk Somsicz Bidoomw · CC0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "hk-wong-tai-sin-plaza-lion-rock-view",
@@ -4135,7 +4244,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Lion-Rock-Blick unter Lokalfotografen bekannt, sonst selten"
+  "pop_reason": "Lion-Rock-Blick unter Lokalfotografen bekannt, sonst selten",
+  "when": "day"
  },
  {
   "id": "hk-chuk-yuen-north-south-estate",
@@ -4165,7 +4275,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Estate mit Lion-Rock-Kulisse, vereinzelt fotografiert"
+  "pop_reason": "Estate mit Lion-Rock-Kulisse, vereinzelt fotografiert",
+  "when": "day"
  },
  {
   "id": "hk-tsui-chuk-garden-drone",
@@ -4195,7 +4306,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Drohnenmotiv unter Lion Rock, gelegentlich auf Instagram"
+  "pop_reason": "Drohnenmotiv unter Lion Rock, gelegentlich auf Instagram",
+  "when": "day"
  },
  {
   "id": "hk-ngau-chi-wan-kam-chi-path",
@@ -4225,7 +4337,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Kleiner Pfad, online praktisch nicht dokumentiert"
+  "pop_reason": "Kleiner Pfad, online praktisch nicht dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-footbridge-kwun-tong-road-kai-yip-estate",
@@ -4255,7 +4368,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Fußgängerbrücke ohne Erwähnung in Fotospot-Listen"
+  "pop_reason": "Fußgängerbrücke ohne Erwähnung in Fotospot-Listen",
+  "when": "night"
  },
  {
   "id": "hk-royal-plaza-hotel-lion-rock-view",
@@ -4285,7 +4399,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Hotel-Aussicht, als Fotospot kaum dokumentiert"
+  "pop_reason": "Hotel-Aussicht, als Fotospot kaum dokumentiert",
+  "when": "day"
  },
  {
   "id": "hk-kam-hong-street-shu-kuk-street-lion-rock-view",
@@ -4315,7 +4430,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Telefoto-Straßenblick, nur in Fotografenkreisen bekannt"
+  "pop_reason": "Telefoto-Straßenblick, nur in Fotografenkreisen bekannt",
+  "when": "day"
  },
  {
   "id": "hk-kowloon-walled-city-park",
@@ -4336,7 +4452,8 @@ window.PLACES = [
   "pop": 4,
   "pop_reason": "In vielen Reiseführern, Discover Hong Kong, viele Bewertungen",
   "image_page": "https://commons.wikimedia.org/wiki/File:Kowloon_Walled_City_Park_Overview_201807.jpg",
-  "image_credit": "Wpcpey · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "Wpcpey · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "hk-tai-o-fishing-village",
@@ -4388,7 +4505,8 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Klassiker in fast allen Reiseführern, tausende Bewertungen"
+  "pop_reason": "Klassiker in fast allen Reiseführern, tausende Bewertungen",
+  "when": "day"
  },
  {
   "id": "hk-lei-yue-mun-fishing-village",
@@ -4418,7 +4536,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bekanntes Fischerdorf, mehrere Guides, moderate Bewertungszahlen"
+  "pop_reason": "Bekanntes Fischerdorf, mehrere Guides, moderate Bewertungszahlen",
+  "when": "day"
  },
  {
   "id": "hk-wonderland-villas",
@@ -4448,7 +4567,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bei Drohnen- und Architekturfotografen beliebt, wenige Guides"
+  "pop_reason": "Bei Drohnen- und Architekturfotografen beliebt, wenige Guides",
+  "when": "day"
  },
  {
   "id": "hk-hoi-on-road-noise-barrier",
@@ -4490,7 +4610,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Nischenmotiv, vereinzelt auf Instagram, kaum Artikel"
+  "pop_reason": "Nischenmotiv, vereinzelt auf Instagram, kaum Artikel",
+  "when": "day"
  },
  {
   "id": "hk-ping-shan-lion-rock-view",
@@ -4520,7 +4641,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Kaum dokumentierter Aussichtspunkt, Geheimtipp"
+  "pop_reason": "Kaum dokumentierter Aussichtspunkt, Geheimtipp",
+  "when": "both"
  },
  {
   "id": "hk-tuen-mun-cha-chaan-teng-strand",
@@ -4549,7 +4671,8 @@ window.PLACES = [
    }
   ],
   "pop": 1,
-  "pop_reason": "Lokales Café am Strand, kaum Online-Präsenz als Spot"
+  "pop_reason": "Lokales Café am Strand, kaum Online-Präsenz als Spot",
+  "when": "day"
  },
  {
   "id": "hk-lugard-road-peak-rollercoaster-view",
@@ -4578,7 +4701,8 @@ window.PLACES = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Bekannter kostenloser Peak-Aussichtspunkt, viele Guides und Posts"
+  "pop_reason": "Bekannter kostenloser Peak-Aussichtspunkt, viele Guides und Posts",
+  "when": "both"
  },
  {
   "id": "hk-fat-kwong-street-flyover",
@@ -4608,7 +4732,8 @@ window.PLACES = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Bei Architekturfotografen bekannt, selten in Guides"
+  "pop_reason": "Bei Architekturfotografen bekannt, selten in Guides",
+  "when": "day"
  },
  {
   "id": "hk-hoi-lai-estate",
@@ -4638,7 +4763,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bei Fotografen bekannte Drohnen-Location"
+  "pop_reason": "Bei Fotografen bekannte Drohnen-Location",
+  "when": "day"
  },
  {
   "id": "hk-mei-foo-sun-chuen",
@@ -4668,7 +4794,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Größte Privatsiedlung, bei Fotografen beliebt"
+  "pop_reason": "Größte Privatsiedlung, bei Fotografen beliebt",
+  "when": "day"
  },
  {
   "id": "hk-arsenal-street",
@@ -4698,7 +4825,8 @@ window.PLACES = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bekannter Tram-Fotospot in Wan Chai"
+  "pop_reason": "Bekannter Tram-Fotospot in Wan Chai",
+  "when": "day"
  },
  {
   "id": "claude-avenue-of-stars-tst-promenade",
@@ -4722,7 +4850,8 @@ window.PLACES = [
   "pop_reason": "Klassischer Skyline-Blick, abends Symphony of Lights",
   "image_page": "https://commons.wikimedia.org/wiki/File:Avenue_of_Stars_201901.jpg",
   "image_credit": "Wpcpey · CC BY-SA 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Avenue_of_Stars%2C_Hong_Kong"
+  "wiki_url": "https://en.wikipedia.org/wiki/Avenue_of_Stars%2C_Hong_Kong",
+  "when": "both"
  },
  {
   "id": "claude-star-ferry-pier-tsim-sha-tsui",
@@ -4746,7 +4875,8 @@ window.PLACES = [
   "pop_reason": "Kult-Fähre seit 1888, in jedem Reiseführer",
   "image_page": "https://commons.wikimedia.org/wiki/File:Tsim_Sha_Tsui_Ferry_Pier.jpg",
   "image_credit": "Baycrest · CC BY-SA 2.5 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Star_Ferry"
+  "wiki_url": "https://en.wikipedia.org/wiki/Star_Ferry",
+  "when": "both"
  },
  {
   "id": "claude-former-kcr-clock-tower",
@@ -4770,7 +4900,8 @@ window.PLACES = [
   "pop_reason": "Wahrzeichen am Hafen, beliebtes Fotomotiv",
   "image_page": "https://commons.wikimedia.org/wiki/File:Former_Kowloon-Canton_Railway_Clock_Tower_2013-08.JPG",
   "image_credit": "Warko · CC BY-SA 3.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Former_Kowloon-Canton_Railway_Clock_Tower"
+  "wiki_url": "https://en.wikipedia.org/wiki/Former_Kowloon-Canton_Railway_Clock_Tower",
+  "when": "day"
  },
  {
   "id": "claude-temple-street-night-market",
@@ -4794,7 +4925,8 @@ window.PLACES = [
   "pop_reason": "Berühmtester Nachtmarkt Hongkongs",
   "image_page": "https://commons.wikimedia.org/wiki/File:GateOfTempleInHongKong.jpg",
   "image_credit": "hkgalbert · CC0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Temple_Street%2C_Hong_Kong"
+  "wiki_url": "https://en.wikipedia.org/wiki/Temple_Street%2C_Hong_Kong",
+  "when": "night"
  },
  {
   "id": "claude-ladies-market",
@@ -4818,7 +4950,8 @@ window.PLACES = [
   "pop_reason": "Bekanntester Straßenmarkt in Mong Kok",
   "image_page": "https://commons.wikimedia.org/wiki/File:Tung_Choi_Street_201705.JPG",
   "image_credit": "Wpcpey · CC BY-SA 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Ladies%27_Market"
+  "wiki_url": "https://en.wikipedia.org/wiki/Ladies%27_Market",
+  "when": "day"
  },
  {
   "id": "claude-man-mo-temple",
@@ -4841,7 +4974,8 @@ window.PLACES = [
   "pop": 5,
   "pop_reason": "Ikonische Räucherspiralen, in jedem Reiseführer",
   "image_page": "https://commons.wikimedia.org/wiki/File:Interior_of_Man_Mo_Temple,_Hollywood_Road,_2006_(06).jpg",
-  "image_credit": "Bahnfrend · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "Bahnfrend · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-tai-kwun",
@@ -4865,7 +4999,8 @@ window.PLACES = [
   "pop_reason": "Preisgekröntes Kulturzentrum im alten Polizeirevier",
   "image_page": "https://commons.wikimedia.org/wiki/File:Tai_Kwun_Police_Headquarters_Block_201806.jpg",
   "image_credit": "Wpcpey · CC BY-SA 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Tai_Kwun"
+  "wiki_url": "https://en.wikipedia.org/wiki/Tai_Kwun",
+  "when": "day"
  },
  {
   "id": "claude-peak-tram",
@@ -4889,7 +5024,8 @@ window.PLACES = [
   "pop_reason": "Historische Standseilbahn, Top-Attraktion",
   "image_page": "https://commons.wikimedia.org/wiki/File:CWA_6th_Generation_Peak_Tram.jpg",
   "image_credit": "Samson Ng . D201@EAL · CC BY-SA 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Peak_Tram"
+  "wiki_url": "https://en.wikipedia.org/wiki/Peak_Tram",
+  "when": "day"
  },
  {
   "id": "claude-sky-terrace-428-peak-tower",
@@ -4913,7 +5049,8 @@ window.PLACES = [
   "pop_reason": "Höchste Aussichtsplattform am Peak",
   "image_page": "https://commons.wikimedia.org/wiki/File:The_Peak_Tower_201108.jpg",
   "image_credit": "WiNG · CC BY 3.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Peak_Tower"
+  "wiki_url": "https://en.wikipedia.org/wiki/Peak_Tower",
+  "when": "both"
  },
  {
   "id": "claude-golden-bauhinia-square",
@@ -4937,7 +5074,8 @@ window.PLACES = [
   "pop_reason": "Fahnenzeremonie, Wahrzeichen der Übergabe 1997",
   "image_page": "https://commons.wikimedia.org/wiki/File:GoldenBauhiniaSquare.jpg",
   "image_credit": "No machine-readable author provided. Ilmari Karonen assumed (based on copyright  · CC BY 2.5 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Golden_Bauhinia_Square"
+  "wiki_url": "https://en.wikipedia.org/wiki/Golden_Bauhinia_Square",
+  "when": "both"
  },
  {
   "id": "claude-hong-kong-observation-wheel",
@@ -4961,7 +5099,8 @@ window.PLACES = [
   "pop_reason": "Riesenrad am Central Harbourfront",
   "image_page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Observation_Wheel_Sept_2018.jpg",
   "image_credit": "Erc Chw · CC BY-SA 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Hong_Kong_Observation_Wheel"
+  "wiki_url": "https://en.wikipedia.org/wiki/Hong_Kong_Observation_Wheel",
+  "when": "both"
  },
  {
   "id": "claude-blue-house",
@@ -4985,7 +5124,8 @@ window.PLACES = [
   "pop_reason": "Denkmalgeschütztes Tong Lau, beliebtes Fotomotiv",
   "image_page": "https://commons.wikimedia.org/wiki/File:Blue_House,_Hong_Kong.jpg",
   "image_credit": "Prosperity Horizons · CC BY-SA 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Blue_House_%28Hong_Kong%29"
+  "wiki_url": "https://en.wikipedia.org/wiki/Blue_House_%28Hong_Kong%29",
+  "when": "day"
  },
  {
   "id": "claude-happy-valley-racecourse",
@@ -5009,7 +5149,8 @@ window.PLACES = [
   "pop_reason": "Pferderennen mittwochabends inmitten der Hochhäuser",
   "image_page": "https://commons.wikimedia.org/wiki/File:Happy_Valley_Racecourse_1.jpg",
   "image_credit": "Minghong · CC BY-SA 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Happy_Valley_Racecourse"
+  "wiki_url": "https://en.wikipedia.org/wiki/Happy_Valley_Racecourse",
+  "when": "day"
  },
  {
   "id": "claude-sky100-100",
@@ -5033,7 +5174,8 @@ window.PLACES = [
   "pop_reason": "Höchste Aussichtsplattform Hongkongs (393 m)",
   "image_page": "https://commons.wikimedia.org/wiki/File:Sky100-wikimania2013-1.jpg",
   "image_credit": "Staeiou · CC BY-SA 3.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Sky100"
+  "wiki_url": "https://en.wikipedia.org/wiki/Sky100",
+  "when": "both"
  },
  {
   "id": "claude-m-museum-west-kowloon-art-park-m",
@@ -5057,7 +5199,8 @@ window.PLACES = [
   "pop_reason": "Neues Museum, Sonnenuntergang am Art Park",
   "image_page": "https://commons.wikimedia.org/wiki/File:WKCD_M%2B,_2021.11.jpg",
   "image_credit": "Lord Jaraxxus · CC BY-SA 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/M%2B"
+  "wiki_url": "https://en.wikipedia.org/wiki/M%2B",
+  "when": "day"
  },
  {
   "id": "claude-hong-kong-palace-museum",
@@ -5081,7 +5224,8 @@ window.PLACES = [
   "pop_reason": "Neues Wahrzeichen in West Kowloon",
   "image_page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Palace_Museum_2022.jpg",
   "image_credit": "xiquinhosilva · CC BY 2.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Hong_Kong_Palace_Museum"
+  "wiki_url": "https://en.wikipedia.org/wiki/Hong_Kong_Palace_Museum",
+  "when": "day"
  },
  {
   "id": "claude-wong-tai-sin-temple",
@@ -5105,7 +5249,8 @@ window.PLACES = [
   "pop_reason": "Meistbesuchter Tempel Hongkongs",
   "image_page": "https://commons.wikimedia.org/wiki/File:HK_WongTaiSinTemple.JPG",
   "image_credit": "Chong Fat · Public domain · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Wong_Tai_Sin_Temple_%28Hong_Kong%29"
+  "wiki_url": "https://en.wikipedia.org/wiki/Wong_Tai_Sin_Temple_%28Hong_Kong%29",
+  "when": "day"
  },
  {
   "id": "claude-chi-lin-nunnery-nan-lian-garden",
@@ -5129,7 +5274,8 @@ window.PLACES = [
   "pop_reason": "Goldener Pavillon im Tang-Stil",
   "image_page": "https://commons.wikimedia.org/wiki/File:Nan_Lian_Garden_Overview_201807.jpg",
   "image_credit": "Wpcpey · CC BY-SA 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Nan_Lian_Garden"
+  "wiki_url": "https://en.wikipedia.org/wiki/Nan_Lian_Garden",
+  "when": "day"
  },
  {
   "id": "claude-tian-tan-buddha-big-buddha",
@@ -5153,7 +5299,8 @@ window.PLACES = [
   "pop_reason": "Weltberühmte Bronzestatue, Top-Attraktion",
   "image_page": "https://commons.wikimedia.org/wiki/File:Tian_Tan_Buddha_2023081302.jpg",
   "image_credit": "Huangdan2060 · CC BY 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Tian_Tan_Buddha"
+  "wiki_url": "https://en.wikipedia.org/wiki/Tian_Tan_Buddha",
+  "when": "day"
  },
  {
   "id": "claude-ngong-ping-360-360",
@@ -5177,7 +5324,8 @@ window.PLACES = [
   "pop_reason": "Seilbahn mit Glasboden-Kabinen",
   "image_page": "https://commons.wikimedia.org/wiki/File:Ngong_Ping_360_Cable_Car_and_HKG_2021-09.jpg",
   "image_credit": "Sparktour · CC BY-SA 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Ngong_Ping_360"
+  "wiki_url": "https://en.wikipedia.org/wiki/Ngong_Ping_360",
+  "when": "day"
  },
  {
   "id": "claude-ten-thousand-buddhas-monastery",
@@ -5201,7 +5349,8 @@ window.PLACES = [
   "pop_reason": "Hunderte goldene Buddha-Statuen am Treppenweg",
   "image_page": "https://commons.wikimedia.org/wiki/File:Pagoda_view.jpg",
   "image_credit": "Mitchan14 · CC BY-SA 3.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Ten_Thousand_Buddhas_Monastery"
+  "wiki_url": "https://en.wikipedia.org/wiki/Ten_Thousand_Buddhas_Monastery",
+  "when": "day"
  },
  {
   "id": "claude-dragon-s-back",
@@ -5224,7 +5373,8 @@ window.PLACES = [
   "pop": 4,
   "pop_reason": "Beliebteste Stadtwanderung Hongkongs",
   "image_page": "https://commons.wikimedia.org/wiki/File:%E9%BE%99%E8%84%8A%E5%BE%84_-_Dragon%27s_Back_Trail_-_2015.01_-_panoramio.jpg",
-  "image_credit": "rheins · CC BY 3.0 · Wikimedia Commons"
+  "image_credit": "rheins · CC BY 3.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-repulse-bay",
@@ -5248,7 +5398,8 @@ window.PLACES = [
   "pop_reason": "Bekanntester Stadtstrand, Gebäude mit Loch",
   "image_page": "https://commons.wikimedia.org/wiki/File:View_of_Repulse_Bay_from_Sir_Cecil%27s_Ride.jpg",
   "image_credit": "Shanghai88 · CC BY-SA 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Repulse_Bay"
+  "wiki_url": "https://en.wikipedia.org/wiki/Repulse_Bay",
+  "when": "day"
  },
  {
   "id": "claude-stanley-murray-house-blake-pier",
@@ -5272,7 +5423,8 @@ window.PLACES = [
   "pop_reason": "Uferpromenade, Markt, viktorianisches Murray House",
   "image_page": "https://commons.wikimedia.org/wiki/File:Murray_House_Stanley_Hong_Kong.jpg",
   "image_credit": "Hankt · CC BY 3.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Murray_House"
+  "wiki_url": "https://en.wikipedia.org/wiki/Murray_House",
+  "when": "day"
  },
  {
   "id": "claude-high-island-reservoir-east-dam",
@@ -5296,7 +5448,8 @@ window.PLACES = [
   "pop_reason": "UNESCO-Geopark mit sechseckigen Basaltsäulen",
   "image_page": "https://commons.wikimedia.org/wiki/File:High_Island_Reservoir_3.jpg",
   "image_credit": "Minghong · CC BY-SA 4.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/High_Island_Reservoir"
+  "wiki_url": "https://en.wikipedia.org/wiki/High_Island_Reservoir",
+  "when": "day"
  },
  {
   "id": "claude-cheung-chau",
@@ -5320,7 +5473,8 @@ window.PLACES = [
   "pop_reason": "Autofreie Insel, Fischerdorf & Bun Festival",
   "image_page": "https://commons.wikimedia.org/wiki/File:Blick_%C3%BCber_Cheung_Chau.JPG",
   "image_credit": "Man77 · CC BY-SA 3.0 · Wikimedia Commons",
-  "wiki_url": "https://en.wikipedia.org/wiki/Cheung_Chau"
+  "wiki_url": "https://en.wikipedia.org/wiki/Cheung_Chau",
+  "when": "day"
  },
  {
   "id": "hk-gam-lai-gung-neon-changsha-street",
@@ -5343,7 +5497,8 @@ window.PLACES = [
   "pop_reason": "Eine der letzten großen Neon-Ecken Mong Koks",
   "image_page": "https://www.timeout.com/hong-kong/things-to-do/hong-kong-neon-signs",
   "image_credit": "Time Out Hong Kong, Mai 2024",
-  "source": "Time Out Hong Kong, Mai 2024"
+  "source": "Time Out Hong Kong, Mai 2024",
+  "when": "night"
  },
  {
   "id": "hk-chuen-kee-seafood-neon-fish-sai-kung",
@@ -5366,7 +5521,8 @@ window.PLACES = [
   "pop_reason": "Riesiger Neon-Fisch über der Seafood Street, Wahrzeichen von Sai Kung",
   "image_page": "https://www.timeout.com/hong-kong/things-to-do/hong-kong-neon-signs",
   "image_credit": "Time Out Hong Kong, Mai 2024",
-  "source": "Time Out Hong Kong, Mai 2024"
+  "source": "Time Out Hong Kong, Mai 2024",
+  "when": "night"
  },
  {
   "id": "hk-wo-hing-victory-mahjong-neon-385-nathan-road",
@@ -5389,7 +5545,8 @@ window.PLACES = [
   "pop_reason": "Bunte Mahjong-Neonfassade, Ersatz für das abgebaute Koon-Nam-Wah-Schild",
   "image_page": "https://www.timeout.com/hong-kong/things-to-do/hong-kong-neon-signs",
   "image_credit": "Time Out Hong Kong, Mai 2024",
-  "source": "Time Out Hong Kong, Mai 2024"
+  "source": "Time Out Hong Kong, Mai 2024",
+  "when": "night"
  },
  {
   "id": "hk-tsuen-wan-neon-market-street-chuen-lung-street",
@@ -5412,7 +5569,8 @@ window.PLACES = [
   "pop_reason": "Busse, Taxis und Neons aller Formen an einer Kreuzung",
   "image_page": "https://www.timeout.com/hong-kong/things-to-do/hong-kong-neon-signs",
   "image_credit": "Time Out Hong Kong, Mai 2024",
-  "source": "Time Out Hong Kong, Mai 2024"
+  "source": "Time Out Hong Kong, Mai 2024",
+  "when": "night"
  },
  {
   "id": "hk-wing-wah-original-shop-neon-yuen-long",
@@ -5435,7 +5593,8 @@ window.PLACES = [
   "pop_reason": "Stammhaus der Kuchenbäckerei seit 1950, großes rot-gelbes Neonschild",
   "image_page": "https://www.timeout.com/hong-kong/things-to-do/hong-kong-neon-signs",
   "image_credit": "Time Out Hong Kong, Mai 2024",
-  "source": "Time Out Hong Kong, Mai 2024"
+  "source": "Time Out Hong Kong, Mai 2024",
+  "when": "night"
  },
  {
   "id": "hk-lei-yue-mun-neon-ber-dem-typhoon-shelter",
@@ -5458,7 +5617,8 @@ window.PLACES = [
   "pop_reason": "Neonschilder der Seafood-Restaurants spiegeln sich im Hafenbecken",
   "image_page": "https://www.timeout.com/hong-kong/things-to-do/hong-kong-neon-signs",
   "image_credit": "Time Out Hong Kong, Mai 2024",
-  "source": "Time Out Hong Kong, Mai 2024"
+  "source": "Time Out Hong Kong, Mai 2024",
+  "when": "night"
  },
  {
   "id": "hk-chiu-chow-lok-hau-fook-restaurant-neon",
@@ -5481,7 +5641,8 @@ window.PLACES = [
   "pop_reason": "潮州-Restaurant seit 1954, L-förmiges Neonschild über der Straße, Filmkulisse",
   "image_page": "https://www.scmp.com/lifestyle/travel-leisure/article/3211444/11-best-neon-signs-still-hanging-hong-kong-and-how-get-them-glow-gone-good",
   "image_credit": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
-  "source": "SCMP, Feb. 2023 · Foto: Connor Mycroft"
+  "source": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
+  "when": "night"
  },
  {
   "id": "hk-lee-kung-man-knitting-factory-neon",
@@ -5504,7 +5665,8 @@ window.PLACES = [
   "pop_reason": "Rote Schriftzeichen mit Hirsch-Maskottchen über den Tramschienen",
   "image_page": "https://www.scmp.com/lifestyle/travel-leisure/article/3211444/11-best-neon-signs-still-hanging-hong-kong-and-how-get-them-glow-gone-good",
   "image_credit": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
-  "source": "SCMP, Feb. 2023 · Foto: Connor Mycroft"
+  "source": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
+  "when": "night"
  },
  {
   "id": "hk-plentiful-delight-banquet-neon",
@@ -5527,7 +5689,8 @@ window.PLACES = [
   "pop_reason": "Warm rot-gelbes Neon eines Dim-Sum-Banketthauses",
   "image_page": "https://www.scmp.com/lifestyle/travel-leisure/article/3211444/11-best-neon-signs-still-hanging-hong-kong-and-how-get-them-glow-gone-good",
   "image_credit": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
-  "source": "SCMP, Feb. 2023 · Foto: Connor Mycroft"
+  "source": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
+  "when": "night"
  },
  {
   "id": "hk-wealth-banquet-neon-kam-tin",
@@ -5550,7 +5713,8 @@ window.PLACES = [
   "pop_reason": "Eines der größten Neonschilder Hongkongs – mit Röstgans, zwischen Dorfhäusern",
   "image_page": "https://www.scmp.com/lifestyle/travel-leisure/article/3211444/11-best-neon-signs-still-hanging-hong-kong-and-how-get-them-glow-gone-good",
   "image_credit": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
-  "source": "SCMP, Feb. 2023 · Foto: Connor Mycroft"
+  "source": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
+  "when": "night"
  },
  {
   "id": "hk-sunset-henge-ting-kau-bridge-vom-tsuen-wan-west-",
@@ -5592,7 +5756,8 @@ window.PLACES = [
   "pop_reason": "Sonne geht Mitte Okt.–Anfang Nov. hinter der Ting Kau Bridge unter (DCFever)",
   "image_page": "https://www.dcfever.com/news/readnews.php?id=36328",
   "image_credit": "DCFever, Okt. 2023",
-  "source": "DCFever 28.10.2023 (Standorte), DCFever (9.11.: 17:35, 251°, 1,2°), HKO-Sonnenuntergang Okt. 2026, eigene Berechnung mit OpenStreetMap"
+  "source": "DCFever 28.10.2023 (Standorte), DCFever (9.11.: 17:35, 251°, 1,2°), HKO-Sonnenuntergang Okt. 2026, eigene Berechnung mit OpenStreetMap",
+  "when": "day"
  },
  {
   "id": "hk-north-point-mansion-tram-king-s-road",
@@ -5616,7 +5781,8 @@ window.PLACES = [
   "image_page": "https://www.instagram.com/lightcatcher_po.tse/",
   "image_credit": "Foto: @lightcatcher_po.tse (Screenshot), Lage/Licht: eigene Prüfung mit OpenStreetMap",
   "source": "Foto: @lightcatcher_po.tse (Screenshot), Lage/Licht: eigene Prüfung mit OpenStreetMap",
-  "ok": "Gebäude über die Schilder im Foto (金谷茶餐廳, 北角大廈) und OSM-Adresse bestätigt; Standpunkt aus Straßengeometrie"
+  "ok": "Gebäude über die Schilder im Foto (金谷茶餐廳, 北角大廈) und OSM-Adresse bestätigt; Standpunkt aus Straßengeometrie",
+  "when": "day"
  },
  {
   "id": "hk-kennedy-town-basketball-court-blick-davis-street",
@@ -5640,7 +5806,8 @@ window.PLACES = [
   "image_page": "https://www.stheadline.com/hot-place/3302871/",
   "image_credit": "Sing Tao (Dez. 2023), HK01 (Mai 2025), Localiiz; Lage: OpenStreetMap",
   "source": "Sing Tao (Dez. 2023), HK01 (Mai 2025), Localiiz; Lage: OpenStreetMap",
-  "ok": "Spielplatz und Basketballfelder per OSM (堅尼地城遊樂場, 2 Basketballfelder) bestätigt; Davis Street beginnt laut OSM genau gegenüber dem östlichen Feld"
+  "ok": "Spielplatz und Basketballfelder per OSM (堅尼地城遊樂場, 2 Basketballfelder) bestätigt; Davis Street beginnt laut OSM genau gegenüber dem östlichen Feld",
+  "when": "day"
  }
 ];
 window.UNPLACED_POSTS = [

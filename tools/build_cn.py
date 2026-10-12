@@ -130,6 +130,10 @@ for c in bp.load_json(os.path.join(ROOT, "cn", "claude_spots_cn.json"), []):
         **({"image_page": c["image_page"], "image_credit": c["image_credit"]} if c.get("image_page") else {}),
     })
 
+# Tag/Nacht für den Filter (Korrekturen in hk/daynight.json)
+import daynight  # noqa: E402
+daynight.tag_all(places)
+
 used = {x if isinstance(x, int) else x[0] for s in SPOTS for x in s[6]}
 unplaced = [dict(posts[n], region=UNPLACED_REGION.get(n, "cn")) for n in sorted(POSTS) if n not in used]
 

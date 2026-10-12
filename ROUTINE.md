@@ -68,6 +68,13 @@ Kleinbuchstaben, nur a-z/0-9, sonst `-`, max. 48 Zeichen (wie `spot_id` in `tool
 5 = Wahrzeichen, 4 = in vielen Guides, 3 = bei Fotografen bekannt, 2 = selten, 1 = kaum dokumentiert.
 Danach `python3 tools/build_hk.py` erneut.
 
+## 4b. Tag oder Nacht prüfen
+`build_hk.py`/`build_cn.py` ordnen jeden Spot automatisch ein (Feld `"when"`: `day`, `night`, `both` – für den
+Filter ☀️/🌙 in der App; Regel in `tools/daynight.py`: Neon → Nacht, Text wie „abends/blaue Stunde“, sehr dunkle Fotos).
+Für jeden **neuen** Spot das Bild ansehen und den Wert prüfen: Nachtaufnahme/Neon/Lichtspuren → `night`, typischer
+Tag- *und* Nachtspot (Skyline-Aussicht, Hafen, beleuchtete Altstadt) → `both`, sonst `day`. Weicht `"when"` ab, die
+Spot-ID mit dem richtigen Wert in `hk/daynight.json` eintragen (gilt auch für China-Spots) und neu bauen.
+
 ## 5. Veröffentlichen
 ```bash
 git add -A

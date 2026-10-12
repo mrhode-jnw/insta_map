@@ -215,6 +215,10 @@ for p in places:
     if not p["image"]:
         p.update(image=extra[0]["image"], image_page=extra[0]["url"], image_credit=extra[0]["credit"])
 
+# Tag/Nacht für den Filter (Korrekturen in hk/daynight.json)
+import daynight  # noqa: E402
+daynight.tag_all(places)
+
 unplaced = [posts[i] for i in sorted(POSTS) if i not in used]
 
 with open(bp.OUT_FILE, "w", encoding="utf-8") as f:

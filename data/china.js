@@ -84,7 +84,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Avatar-Berge, eines der bekanntesten Naturziele Chinas"
+  "pop_reason": "Avatar-Berge, eines der bekanntesten Naturziele Chinas",
+  "when": "day"
  },
  {
   "id": "cn-tianmen-mountain",
@@ -115,7 +116,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Himmelstor & längste Seilbahn, Top-Attraktion"
+  "pop_reason": "Himmelstor & längste Seilbahn, Top-Attraktion",
+  "when": "day"
  },
  {
   "id": "cn-furong-town",
@@ -146,7 +148,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Wasserfall-Dorf, viral in sozialen Medien"
+  "pop_reason": "Wasserfall-Dorf, viral in sozialen Medien",
+  "when": "both"
  },
  {
   "id": "cn-fenghuang-ancient-town",
@@ -197,7 +200,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Berühmteste Altstadt Westhunans"
+  "pop_reason": "Berühmteste Altstadt Westhunans",
+  "when": "both"
  },
  {
   "id": "cn-xijiang-qianhu-miao-village",
@@ -237,7 +241,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Größtes Miao-Dorf, in allen Guizhou-Guides"
+  "pop_reason": "Größtes Miao-Dorf, in allen Guizhou-Guides",
+  "when": "both"
  },
  {
   "id": "cn-fenglin-buyi-wanfenglin",
@@ -267,7 +272,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bei Fotografen bekannte Karstlandschaft"
+  "pop_reason": "Bei Fotografen bekannte Karstlandschaft",
+  "when": "day"
  },
  {
   "id": "cn-jilong-castle",
@@ -297,7 +303,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Viral gewordenes Schloss-Hotel"
+  "pop_reason": "Viral gewordenes Schloss-Hotel",
+  "when": "day"
  },
  {
   "id": "cn-fanjingshan",
@@ -327,7 +334,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "UNESCO-Welterbe, ikonische Felsnadel"
+  "pop_reason": "UNESCO-Welterbe, ikonische Felsnadel",
+  "when": "day"
  },
  {
   "id": "cn-guilin-li-river",
@@ -357,7 +365,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Klassische Karstlandschaft, Li-River-Kreuzfahrt"
+  "pop_reason": "Klassische Karstlandschaft, Li-River-Kreuzfahrt",
+  "when": "day"
  },
  {
   "id": "cn-xingping-kormoranfischer-am-li-river",
@@ -387,7 +396,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Motiv des 20-Yuan-Scheins, Kormoranfischer"
+  "pop_reason": "Motiv des 20-Yuan-Scheins, Kormoranfischer",
+  "when": "day"
  },
  {
   "id": "cn-xianggong-hill",
@@ -417,7 +427,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Bekanntester Sonnenaufgangs-Spot am Li River"
+  "pop_reason": "Bekanntester Sonnenaufgangs-Spot am Li River",
+  "when": "day"
  },
  {
   "id": "cn-yangshuo-karstlandschaft",
@@ -477,7 +488,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Top-Ziel für Karstlandschaften"
+  "pop_reason": "Top-Ziel für Karstlandschaften",
+  "when": "day"
  },
  {
   "id": "cn-longji-rice-terraces",
@@ -491,7 +503,7 @@ window.PLACES_CN = [
   "lng": 110.119,
   "approx": true,
   "image": "images/DRo8DqWCiXB.jpg",
-  "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
+  "caption": "",
   "post_url": "https://www.instagram.com/hanaleytravel/p/DRo8DqWCiXB/",
   "username": "hanaleytravel",
   "profile_url": "https://www.instagram.com/hanaleytravel/",
@@ -502,7 +514,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hanaleytravel/",
     "kind": "p",
     "image": "images/DRo8DqWCiXB.jpg",
-    "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
+    "caption": "",
     "match": "single"
    },
    {
@@ -534,7 +546,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Berühmteste Reisterrassen Chinas, in allen Guilin-Guides"
+  "pop_reason": "Berühmteste Reisterrassen Chinas, in allen Guilin-Guides",
+  "when": "day"
  },
  {
   "id": "cn-liziba-station-monorail-durchs-haus",
@@ -573,7 +586,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Weltbekanntes Fotomotiv Chongqings"
+  "pop_reason": "Weltbekanntes Fotomotiv Chongqings",
+  "when": "day"
  },
  {
   "id": "cn-hongyadong",
@@ -618,13 +632,14 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_2.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 2
    }
   ],
   "pop": 5,
-  "pop_reason": "Wahrzeichen Chongqings, „Chihiro“-Look"
+  "pop_reason": "Wahrzeichen Chongqings, „Chihiro“-Look",
+  "when": "night"
  },
  {
   "id": "cn-qiansimen-bridge",
@@ -664,7 +679,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Klassischer Nachtblick auf Hongyadong"
+  "pop_reason": "Klassischer Nachtblick auf Hongyadong",
+  "when": "night"
  },
  {
   "id": "cn-kuixing-building",
@@ -695,7 +711,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Kurioses 8D-Gebäude, bei Bloggern beliebt"
+  "pop_reason": "Kurioses 8D-Gebäude, bei Bloggern beliebt",
+  "when": "day"
  },
  {
   "id": "cn-linhua-road-residential-complex",
@@ -726,7 +743,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Geheimtipp, kaum in Reiseführern"
+  "pop_reason": "Geheimtipp, kaum in Reiseführern",
+  "when": "day"
  },
  {
   "id": "cn-eling-park-skywalk",
@@ -757,7 +775,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Aussichtspark, bei Fotografen bekannt"
+  "pop_reason": "Aussichtspark, bei Fotografen bekannt",
+  "when": "day"
  },
  {
   "id": "cn-chongqing-skyline-rooftops",
@@ -829,13 +848,14 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_3.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 3
    }
   ],
   "pop": 4,
-  "pop_reason": "Cyberpunk-Skyline, viral"
+  "pop_reason": "Cyberpunk-Skyline, viral",
+  "when": "night"
  },
  {
   "id": "cn-hongen-temple",
@@ -865,7 +885,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Aussichtspagode über Chongqing"
+  "pop_reason": "Aussichtspagode über Chongqing",
+  "when": "day"
  },
  {
   "id": "cn-three-natural-bridges",
@@ -919,13 +940,14 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_7.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 7
    }
   ],
   "pop": 5,
-  "pop_reason": "UNESCO-Karst, Transformers-Drehort"
+  "pop_reason": "UNESCO-Karst, Transformers-Drehort",
+  "when": "day"
  },
  {
   "id": "cn-baixiangju-yangtze-river-cableway",
@@ -974,7 +996,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Viraler Seilbahn-Fotospot zwischen Wohntürmen"
+  "pop_reason": "Viraler Seilbahn-Fotospot zwischen Wohntürmen",
+  "when": "day"
  },
  {
   "id": "cn-luohan-temple",
@@ -1009,13 +1032,14 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_6.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 6
    }
   ],
   "pop": 3,
-  "pop_reason": "Historischer Stadttempel, in vielen Chongqing-Guides"
+  "pop_reason": "Historischer Stadttempel, in vielen Chongqing-Guides",
+  "when": "day"
  },
  {
   "id": "cn-chaodong-road",
@@ -1046,7 +1070,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Alltagsstraße, kaum in Reiseführern"
+  "pop_reason": "Alltagsstraße, kaum in Reiseführern",
+  "when": "day"
  },
  {
   "id": "cn-nanbin-road",
@@ -1060,7 +1085,7 @@ window.PLACES_CN = [
   "lng": 106.5891,
   "approx": true,
   "image": "images/DdiudFSEbF0_5.jpg",
-  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+  "caption": "",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=5",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -1071,13 +1096,14 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_5.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 5
    }
   ],
   "pop": 4,
-  "pop_reason": "Bekannte Uferpromenade mit Nachtblick"
+  "pop_reason": "Bekannte Uferpromenade mit Nachtblick",
+  "when": "night"
  },
  {
   "id": "cn-the-ring-shopping-mall",
@@ -1091,7 +1117,7 @@ window.PLACES_CN = [
   "lng": 106.52597,
   "approx": false,
   "image": "images/DdiudFSEbF0_4.jpg",
-  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+  "caption": "",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=4",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -1102,13 +1128,14 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_4.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 4
    }
   ],
   "pop": 3,
-  "pop_reason": "Viral gewordene Regenwald-Mall"
+  "pop_reason": "Viral gewordene Regenwald-Mall",
+  "when": "day"
  },
  {
   "id": "cn-dongchangzhi-rd-lushun-rd",
@@ -1149,7 +1176,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Beliebter Streetfoto-Spot am North Bund"
+  "pop_reason": "Beliebter Streetfoto-Spot am North Bund",
+  "when": "day"
  },
  {
   "id": "cn-waibaidu-bridge-suzhou-creek",
@@ -1209,7 +1237,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Historische Stahlbrücke mit Skyline-Blick"
+  "pop_reason": "Historische Stahlbrücke mit Skyline-Blick",
+  "when": "day"
  },
  {
   "id": "cn-the-bund-lujiazui",
@@ -1280,7 +1309,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Shanghais berühmteste Skyline"
+  "pop_reason": "Shanghais berühmteste Skyline",
+  "when": "both"
  },
  {
   "id": "cn-north-bund-riverside-park",
@@ -1360,7 +1390,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Ruhiger Skyline-Blick abseits des Bund"
+  "pop_reason": "Ruhiger Skyline-Blick abseits des Bund",
+  "when": "day"
  },
  {
   "id": "cn-rockbund",
@@ -1411,7 +1442,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Historisches Viertel am Nordende des Bund"
+  "pop_reason": "Historisches Viertel am Nordende des Bund",
+  "when": "day"
  },
  {
   "id": "cn-bvlgari-hotel-shanghai",
@@ -1442,7 +1474,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bekannte Rooftop-Bar mit Bund-Blick"
+  "pop_reason": "Bekannte Rooftop-Bar mit Bund-Blick",
+  "when": "both"
  },
  {
   "id": "cn-jiulong-road-waterfront",
@@ -1493,7 +1526,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Geheimtipp für Skyline-Fotos"
+  "pop_reason": "Geheimtipp für Skyline-Fotos",
+  "when": "day"
  },
  {
   "id": "cn-1000-trees",
@@ -1553,7 +1587,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Viral gewordener Heatherwick-Bau"
+  "pop_reason": "Viral gewordener Heatherwick-Bau",
+  "when": "day"
  },
  {
   "id": "cn-jing-an-temple",
@@ -1584,7 +1619,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Berühmtester Tempel im Zentrum Shanghais"
+  "pop_reason": "Berühmtester Tempel im Zentrum Shanghais",
+  "when": "both"
  },
  {
   "id": "cn-cathay-cinema",
@@ -1615,7 +1651,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Historisches Art-déco-Kino"
+  "pop_reason": "Historisches Art-déco-Kino",
+  "when": "night"
  },
  {
   "id": "cn-china-securities-museum-pujiang-hotel",
@@ -1646,7 +1683,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Astor House, ältestes Hotel Shanghais"
+  "pop_reason": "Astor House, ältestes Hotel Shanghais",
+  "when": "day"
  },
  {
   "id": "cn-the-louis-louis-vuitton-ship",
@@ -1687,7 +1725,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Viraler LV-Schiffspavillon 2025"
+  "pop_reason": "Viraler LV-Schiffspavillon 2025",
+  "when": "day"
  },
  {
   "id": "cn-shanghai-tower-observation-deck",
@@ -1727,7 +1766,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Höchstes Gebäude Chinas, Aussichtsdeck"
+  "pop_reason": "Höchstes Gebäude Chinas, Aussichtsdeck",
+  "when": "both"
  },
  {
   "id": "cn-shanghai-astronomy-museum",
@@ -1757,7 +1797,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Größtes Planetarium der Welt"
+  "pop_reason": "Größtes Planetarium der Welt",
+  "when": "day"
  },
  {
   "id": "cn-museum-of-art-pudong",
@@ -1788,7 +1829,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Bekanntes Museum mit ikonischem Fenster-Fotospot"
+  "pop_reason": "Bekanntes Museum mit ikonischem Fenster-Fotospot",
+  "when": "day"
  },
  {
   "id": "cn-tangqiao-ferry-terminal",
@@ -1819,7 +1861,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Bei Fotografen beliebter Sonnenuntergangs-Spot"
+  "pop_reason": "Bei Fotografen beliebter Sonnenuntergangs-Spot",
+  "when": "day"
  },
  {
   "id": "cn-shanghai-juss-international-equestrian-center",
@@ -1850,7 +1893,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Architektur-Geheimtipp in Pudong"
+  "pop_reason": "Architektur-Geheimtipp in Pudong",
+  "when": "day"
  },
  {
   "id": "cn-ecepdi-building",
@@ -1881,7 +1925,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Neuer Architektur-Spot, kaum dokumentiert"
+  "pop_reason": "Neuer Architektur-Spot, kaum dokumentiert",
+  "when": "day"
  },
  {
   "id": "cn-pacific-xintiandi-observation-hall",
@@ -1912,7 +1957,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Wenig bekannte Aussichtsplattform"
+  "pop_reason": "Wenig bekannte Aussichtsplattform",
+  "when": "day"
  },
  {
   "id": "cn-wukang-mansion",
@@ -1943,7 +1989,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Ikonischer Bau, Shanghais beliebtestes Fotomotiv"
+  "pop_reason": "Ikonischer Bau, Shanghais beliebtestes Fotomotiv",
+  "when": "day"
  },
  {
   "id": "cn-yuanmingyuan-road",
@@ -1974,7 +2021,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Historische Straße, bei Fotografen beliebt"
+  "pop_reason": "Historische Straße, bei Fotografen beliebt",
+  "when": "day"
  },
  {
   "id": "cn-the-shanghai-edition",
@@ -2005,7 +2053,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Luxushotel mit bekanntem Skyline-Blick"
+  "pop_reason": "Luxushotel mit bekanntem Skyline-Blick",
+  "when": "day"
  },
  {
   "id": "cn-nanjing-road",
@@ -2046,7 +2095,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Berühmteste Einkaufsstraße Chinas"
+  "pop_reason": "Berühmteste Einkaufsstraße Chinas",
+  "when": "night"
  },
  {
   "id": "cn-carlowitz-building",
@@ -2077,7 +2127,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 2,
-  "pop_reason": "Geheimtipp hinter dem Edition Hotel"
+  "pop_reason": "Geheimtipp hinter dem Edition Hotel",
+  "when": "day"
  },
  {
   "id": "cn-shanghai-postal-museum",
@@ -2108,7 +2159,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Historisches Gebäude, in Architekturführern"
+  "pop_reason": "Historisches Gebäude, in Architekturführern",
+  "when": "day"
  },
  {
   "id": "cn-xintiandi",
@@ -2139,7 +2191,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Bekanntes Shikumen-Ausgehviertel"
+  "pop_reason": "Bekanntes Shikumen-Ausgehviertel",
+  "when": "day"
  },
  {
   "id": "cn-yu-garden",
@@ -2170,7 +2223,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Klassischer Garten, Top-Sehenswürdigkeit"
+  "pop_reason": "Klassischer Garten, Top-Sehenswürdigkeit",
+  "when": "day"
  },
  {
   "id": "cn-wangxian-valley",
@@ -2220,7 +2274,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Viral gewordenes Klippendorf"
+  "pop_reason": "Viral gewordenes Klippendorf",
+  "when": "both"
  },
  {
   "id": "cn-huangshan",
@@ -2251,7 +2306,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Berühmtestes Gebirge Chinas, UNESCO"
+  "pop_reason": "Berühmtestes Gebirge Chinas, UNESCO",
+  "when": "day"
  },
  {
   "id": "cn-huanglong-national-park",
@@ -2294,7 +2350,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "UNESCO-Kalksinterterrassen"
+  "pop_reason": "UNESCO-Kalksinterterrassen",
+  "when": "day"
  },
  {
   "id": "cn-chengdu",
@@ -2345,7 +2402,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Pandas, Teehäuser, Nachtleben"
+  "pop_reason": "Pandas, Teehäuser, Nachtleben",
+  "when": "both"
  },
  {
   "id": "cn-canton-tower",
@@ -2376,7 +2434,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "Wahrzeichen Guangzhous"
+  "pop_reason": "Wahrzeichen Guangzhous",
+  "when": "both"
  },
  {
   "id": "cn-shenzhen-futian-skyline",
@@ -2416,7 +2475,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Moderne Skyline, Ping An Finance Centre"
+  "pop_reason": "Moderne Skyline, Ping An Finance Centre",
+  "when": "both"
  },
  {
   "id": "cn-qingdao-haitian-center",
@@ -2456,7 +2516,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 3,
-  "pop_reason": "Neue Skyline an der Fushan-Bucht"
+  "pop_reason": "Neue Skyline an der Fushan-Bucht",
+  "when": "night"
  },
  {
   "id": "cn-temple-of-heaven",
@@ -2487,7 +2548,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 5,
-  "pop_reason": "UNESCO-Welterbe in Beijing"
+  "pop_reason": "UNESCO-Welterbe in Beijing",
+  "when": "day"
  },
  {
   "id": "cn-guge-kingdom-ruins",
@@ -2518,7 +2580,8 @@ window.PLACES_CN = [
    }
   ],
   "pop": 4,
-  "pop_reason": "Abgelegene Ruinenstadt, Fotografen-Traum"
+  "pop_reason": "Abgelegene Ruinenstadt, Fotografen-Traum",
+  "when": "day"
  },
  {
   "id": "claude-cn-nantou-ancient-city",
@@ -2542,7 +2605,8 @@ window.PLACES_CN = [
   "pop": 3,
   "pop_reason": "1700 Jahre alte Stadtmauer, Gassen mit Cafés und Alltagsleben",
   "image_page": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%A4%B4%E5%8F%A4%E5%9F%8E%E5%8D%97%E9%97%A82022.jpg",
-  "image_credit": "Iswzo · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "Iswzo · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-shenzhen-talent-park",
@@ -2566,7 +2630,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Houhai-Skyline mit 'Spring Bamboo'-Tower spiegelt sich im See",
   "image_page": "https://commons.wikimedia.org/wiki/File:Shenzhen_Nanshan_Houhai_skylines.png",
-  "image_credit": "YuCheinSYQ · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "YuCheinSYQ · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "both"
  },
  {
   "id": "claude-cn-sea-world-minghua-ship",
@@ -2590,7 +2655,8 @@ window.PLACES_CN = [
   "pop": 3,
   "pop_reason": "Beleuchtetes Kreuzfahrtschiff an Land, Plaza mit Bars, Musikbrunnen",
   "image_page": "https://commons.wikimedia.org/wiki/File:Minghua_Ship_of_Shekou_Sea_World_3.jpg",
-  "image_credit": "そらみみ · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "そらみみ · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "night"
  },
  {
   "id": "claude-cn-laozhai-hill",
@@ -2612,7 +2678,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Spektakulärster Rundblick auf Li-Fluss-Schleife und Karstkegel"
+  "pop_reason": "Spektakulärster Rundblick auf Li-Fluss-Schleife und Karstkegel",
+  "when": "day"
  },
  {
   "id": "claude-cn-20-yuan-schein-motiv-yellow-cloth-shoal",
@@ -2636,7 +2703,8 @@ window.PLACES_CN = [
   "pop": 5,
   "pop_reason": "Motiv auf der 20-Yuan-Banknote, Karstspiegelung im Li-Fluss",
   "image_page": "https://commons.wikimedia.org/wiki/File:XingPing,_GuangXi,_China.jpg",
-  "image_credit": "Michaeljscott93 · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "Michaeljscott93 · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-yulong-bridge",
@@ -2660,7 +2728,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Ming-zeitliche Steinbogenbrücke, Bambusflöße vor Karstbergen",
   "image_page": "https://commons.wikimedia.org/wiki/File:Yulong_Bridge,_Yangshuo.jpg",
-  "image_credit": "Kevin Poh · CC BY 2.0 · Wikimedia Commons"
+  "image_credit": "Kevin Poh · CC BY 2.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-moon-hill",
@@ -2684,7 +2753,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Natürlicher Felsbogen mit Mondloch, Blick über Karstlandschaft",
   "image_page": "https://commons.wikimedia.org/wiki/File:Moon_Hill_-_Yangshuo,_China.jpg",
-  "image_credit": "Maria Ly · CC BY 2.0 · Wikimedia Commons"
+  "image_credit": "Maria Ly · CC BY 2.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-west-street-yangshuo",
@@ -2708,7 +2778,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Älteste Gasse Yangshuos, Laternen und Neon vor Karstkulisse",
   "image_page": "https://commons.wikimedia.org/wiki/File:Yangshuo-4335.JPG",
-  "image_credit": "Emitchan · Public domain · Wikimedia Commons"
+  "image_credit": "Emitchan · Public domain · Wikimedia Commons",
+  "when": "both"
  },
  {
   "id": "claude-cn-nine-dragons-five-tigers-viewpoint",
@@ -2732,7 +2803,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Höchster Aussichtspunkt in Ping'an, geschwungene Terrassengrate",
   "image_page": "https://commons.wikimedia.org/wiki/File:1_longsheng_ping_an_rice_terrace_2011.jpg",
-  "image_credit": "chensiyuan · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "chensiyuan · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-seven-stars-with-moon-viewpoint",
@@ -2756,7 +2828,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Sieben runde Terrassenhügel um einen 'Mond', klassisches Longji-Motiv",
   "image_page": "https://commons.wikimedia.org/wiki/File:1_ping_an_longji_terrace_2011.jpg",
-  "image_credit": "chensiyuan · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "chensiyuan · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-west-hill-music-viewpoint",
@@ -2780,7 +2853,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Spektakulärste Terrassenwand in Jinkeng",
   "image_page": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%9D%91%E6%A2%AF%E7%94%B0,_%E9%BE%99%E8%84%8A%E6%A2%AF%E7%94%B0,_%E4%B8%AD%E5%9B%BD_(5238107634).jpg",
-  "image_credit": "yeowatzup · CC BY 2.0 · Wikimedia Commons"
+  "image_credit": "yeowatzup · CC BY 2.0 · Wikimedia Commons",
+  "when": "both"
  },
  {
   "id": "claude-cn-golden-buddha-top",
@@ -2802,7 +2876,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "Per Seilbahn erreichbarer Gipfelblick über die Jinkeng-Terrassen"
+  "pop_reason": "Per Seilbahn erreichbarer Gipfelblick über die Jinkeng-Terrassen",
+  "when": "day"
  },
  {
   "id": "claude-cn-zhanli-dong-village",
@@ -2824,7 +2899,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "Abgelegenes Dong-Dorf im Talkessel, Trommelturm, Brücken, Reistrockengestelle"
+  "pop_reason": "Abgelegenes Dong-Dorf im Talkessel, Trommelturm, Brücken, Reistrockengestelle",
+  "when": "day"
  },
  {
   "id": "claude-cn-huanggang-dong-village",
@@ -2846,7 +2922,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Über 500 Getreidespeicher am Bach, fünf Trommeltürme, UN-Tourismus-Bestdorf 2025"
+  "pop_reason": "Über 500 Getreidespeicher am Bach, fünf Trommeltürme, UN-Tourismus-Bestdorf 2025",
+  "when": "day"
  },
  {
   "id": "claude-cn-xiaohuang-dong-village",
@@ -2868,7 +2945,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "Heimat des Dong-Großgesangs, zwischen Zhanli und Huanggang"
+  "pop_reason": "Heimat des Dong-Großgesangs, zwischen Zhanli und Huanggang",
+  "when": "day"
  },
  {
   "id": "claude-cn-basha-miao-village",
@@ -2892,7 +2970,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Letzter Stamm mit legalen Musketen, Haarknoten-Tradition, heilige Bäume",
   "image_page": "https://commons.wikimedia.org/wiki/File:%E7%88%AC%E5%B2%9C%E6%B2%99%E8%8B%97%E5%AF%A8-%E6%A1%82%E7%A9%BF%E8%B6%8A_-_panoramio_(14).jpg",
-  "image_credit": "龙歌谷 · CC BY-SA 3.0 · Wikimedia Commons"
+  "image_credit": "龙歌谷 · CC BY-SA 3.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-zhaoxing-dong-village",
@@ -2916,7 +2995,8 @@ window.PLACES_CN = [
   "pop": 5,
   "pop_reason": "Größtes Dong-Dorf mit fünf Trommeltürmen und Wind-und-Regen-Brücken",
   "image_page": "https://commons.wikimedia.org/wiki/File:1_zhaoxing_2015.jpg",
-  "image_credit": "Chensiyuan · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "Chensiyuan · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "both"
  },
  {
   "id": "claude-cn-tang-an-dong-village-terraces",
@@ -2938,7 +3018,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "Dong-Dorf über Reisterrassen oberhalb von Zhaoxing"
+  "pop_reason": "Dong-Dorf über Reisterrassen oberhalb von Zhaoxing",
+  "when": "day"
  },
  {
   "id": "claude-cn-zengchong-drum-tower",
@@ -2962,7 +3043,8 @@ window.PLACES_CN = [
   "pop": 3,
   "pop_reason": "Ältester erhaltener Dong-Trommelturm (1672), 13 Etagen",
   "image_page": "https://commons.wikimedia.org/wiki/File:%E5%A2%9E%E5%86%B2%E9%BC%93%E6%A5%BC-%E6%A1%82%E7%A9%BF%E8%B6%8A_-_panoramio.jpg",
-  "image_credit": "龙歌谷 · CC BY-SA 3.0 · Wikimedia Commons"
+  "image_credit": "龙歌谷 · CC BY-SA 3.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-dali-dong-village",
@@ -2984,7 +3066,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "Fünf Wind-und-Regen-Brücken, Trommelturm, Qing-Steinpfad, wenig touristisch"
+  "pop_reason": "Fünf Wind-und-Regen-Brücken, Trommelturm, Qing-Steinpfad, wenig touristisch",
+  "when": "day"
  },
  {
   "id": "claude-cn-datang-water-granaries",
@@ -3006,7 +3089,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "44 Miao-Getreidespeicher auf Stelzen in Teichen"
+  "pop_reason": "44 Miao-Getreidespeicher auf Stelzen in Teichen",
+  "when": "day"
  },
  {
   "id": "claude-cn-langde-upper-miao-village",
@@ -3030,7 +3114,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Geschlossenes Miao-Pfahlbautendorf, Bronzetrommel-Platz, überdachte Brücke",
   "image_page": "https://commons.wikimedia.org/wiki/File:China_Langde_-_Miao_ceremony_(2006)_(2).jpg",
-  "image_credit": "Anja Disseldorp · CC BY 2.0 · Wikimedia Commons"
+  "image_credit": "Anja Disseldorp · CC BY 2.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-maliao-silversmith-village",
@@ -3052,7 +3137,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 2,
-  "pop_reason": "Miao-Silberschmiededorf, über 70 % beherrschen das Handwerk"
+  "pop_reason": "Miao-Silberschmiededorf, über 70 % beherrschen das Handwerk",
+  "when": "day"
  },
  {
   "id": "claude-cn-xiasi-ancient-town",
@@ -3074,7 +3160,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "Ming-zeitlicher Flusshafen am Qingshui, Anlegestufen von 1749, Gildehallen"
+  "pop_reason": "Ming-zeitlicher Flusshafen am Qingshui, Anlegestufen von 1749, Gildehallen",
+  "when": "day"
  },
  {
   "id": "claude-cn-avatar-hallelujah-mountain",
@@ -3098,7 +3185,8 @@ window.PLACES_CN = [
   "pop": 5,
   "pop_reason": "Ikonische Avatar-Säule, Herzstück von Yuanjiajie",
   "image_page": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_National_Forest_Park_38023-Zhangjiajie_(48757574461).jpg",
-  "image_credit": "xiquinhosilva · CC BY 2.0 · Wikimedia Commons"
+  "image_credit": "xiquinhosilva · CC BY 2.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-first-bridge-under-heaven",
@@ -3120,7 +3208,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 5,
-  "pop_reason": "Natürliche Felsbrücke über 300 m tiefer Schlucht"
+  "pop_reason": "Natürliche Felsbrücke über 300 m tiefer Schlucht",
+  "when": "day"
  },
  {
   "id": "claude-cn-mihun-tai-enchanting-terrace",
@@ -3142,7 +3231,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Weitblick über Sandsteinsäulen-Wald, oft Wolkenmeer"
+  "pop_reason": "Weitblick über Sandsteinsäulen-Wald, oft Wolkenmeer",
+  "when": "day"
  },
  {
   "id": "claude-cn-bailong-elevator",
@@ -3166,7 +3256,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "326 m Glas-Außenaufzug an der Felswand",
   "image_page": "https://commons.wikimedia.org/wiki/File:%E6%B9%96%E5%8D%97_%E5%BC%A0%E5%AE%B6%E7%95%8C_%E7%99%BE%E9%BE%99%E5%A4%A9%E6%A2%AF_-_panoramio.jpg",
-  "image_credit": "Nyx Ning · CC BY-SA 3.0 · Wikimedia Commons"
+  "image_credit": "Nyx Ning · CC BY-SA 3.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-yangjiajie-tianbo-mansion",
@@ -3188,7 +3279,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Felsplateau mit 360°-Blick, wenig Touristen"
+  "pop_reason": "Felsplateau mit 360°-Blick, wenig Touristen",
+  "when": "day"
  },
  {
   "id": "claude-cn-helong-park",
@@ -3212,7 +3304,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Zentrum von Tianzi Mountain mit Aussicht auf Imperial Brush",
   "image_page": "https://commons.wikimedia.org/wiki/File:Helong_park_04.jpg",
-  "image_credit": "Codas · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "Codas · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-imperial-brush-peaks",
@@ -3234,7 +3327,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 5,
-  "pop_reason": "Pinselartige Felsnadeln, Klassiker von Tianzi Mountain"
+  "pop_reason": "Pinselartige Felsnadeln, Klassiker von Tianzi Mountain",
+  "when": "day"
  },
  {
   "id": "claude-cn-xihai-stone-forest",
@@ -3256,7 +3350,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 5,
-  "pop_reason": "Weites Säulenmeer, bekannt für Wolkenmeer"
+  "pop_reason": "Weites Säulenmeer, bekannt für Wolkenmeer",
+  "when": "day"
  },
  {
   "id": "claude-cn-golden-whip-stream",
@@ -3278,7 +3373,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "Talwanderung am Bach unter hohen Felswänden"
+  "pop_reason": "Talwanderung am Bach unter hohen Felswänden",
+  "when": "day"
  },
  {
   "id": "claude-cn-tianmen-cave-999-steps",
@@ -3302,7 +3398,8 @@ window.PLACES_CN = [
   "pop": 5,
   "pop_reason": "131 m hohes Felstor über 999 Stufen",
   "image_page": "https://commons.wikimedia.org/wiki/File:Tianmen_38313-Zhangjiajie_(49046808983).jpg",
-  "image_credit": "xiquinhosilva · CC BY 2.0 · Wikimedia Commons"
+  "image_credit": "xiquinhosilva · CC BY 2.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-coiling-dragon-cliff-glass-skywalk",
@@ -3324,7 +3421,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Glasweg an der Klippe mit Blick auf die 99 Kurven"
+  "pop_reason": "Glasweg an der Klippe mit Blick auf die 99 Kurven",
+  "when": "day"
  },
  {
   "id": "claude-cn-tongtian-avenue-99-bends",
@@ -3346,7 +3444,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Spektakuläre Serpentinenstraße mit 99 Kurven"
+  "pop_reason": "Spektakuläre Serpentinenstraße mit 99 Kurven",
+  "when": "day"
  },
  {
   "id": "claude-cn-yikeshu-viewing-platform",
@@ -3368,7 +3467,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 5,
-  "pop_reason": "Klassischer Panoramablick über Yuzhong-Halbinsel und beide Flüsse"
+  "pop_reason": "Klassischer Panoramablick über Yuzhong-Halbinsel und beide Flüsse",
+  "when": "night"
  },
  {
   "id": "claude-cn-shibati-old-steps",
@@ -3392,7 +3492,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Treppengasse mit Laternen und Hochhäusern im Hintergrund",
   "image_page": "https://commons.wikimedia.org/wiki/File:%E5%8D%81%E5%85%AB%E6%A2%AF.jpg",
-  "image_credit": "重庆轨交18 · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "重庆轨交18 · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "both"
  },
  {
   "id": "claude-cn-chongqing-grand-theatre-jiangbeizui",
@@ -3416,7 +3517,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Gläserner Kristallbau gegenüber Raffles City und Chaotianmen",
   "image_page": "https://commons.wikimedia.org/wiki/File:Chongqing_-_View_03.jpg",
-  "image_credit": "Ecelan · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "Ecelan · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "both"
  },
  {
   "id": "claude-cn-raffles-city-the-crystal",
@@ -3438,7 +3540,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Glasboden-Skybridge 250 m über dem Zusammenfluss von Jangtse und Jialing"
+  "pop_reason": "Glasboden-Skybridge 250 m über dem Zusammenfluss von Jangtse und Jialing",
+  "when": "both"
  },
  {
   "id": "claude-cn-dongshuimen-bridge",
@@ -3462,7 +3565,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Rot beleuchtete Schrägseilbrücke über dem Jangtse",
   "image_page": "https://commons.wikimedia.org/wiki/File:Dongshuimen_Yangtze_River_Bridge_2021-07-27.jpg",
-  "image_credit": "JamesYoung8167 · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "JamesYoung8167 · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "both"
  },
  {
   "id": "claude-cn-longmenhao-old-street",
@@ -3484,7 +3588,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "Restaurierte Kolonialbauten mit Jangtse-Skyline-Blick"
+  "pop_reason": "Restaurierte Kolonialbauten mit Jangtse-Skyline-Blick",
+  "when": "night"
  },
  {
   "id": "claude-cn-huangjueping-graffiti-street",
@@ -3506,7 +3611,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 3,
-  "pop_reason": "Komplett bemalte Wohnblocks am Sichuan Fine Arts Institute"
+  "pop_reason": "Komplett bemalte Wohnblocks am Sichuan Fine Arts Institute",
+  "when": "day"
  },
  {
   "id": "claude-cn-zhapu-road-bridge-suzhou-creek",
@@ -3530,7 +3636,8 @@ window.PLACES_CN = [
   "pop": 5,
   "pop_reason": "Broadway Mansions und Lujiazui über der Suzhou-Creek-Biegung",
   "image_page": "https://commons.wikimedia.org/wiki/File:View_of_Lujiazui_from_Zhapu_Road_Bridge.jpg",
-  "image_credit": "Windmemories · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "Windmemories · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "both"
  },
  {
   "id": "claude-cn-lujiazui-circular-footbridge",
@@ -3552,7 +3659,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Runde Fußgängerbrücke mit Pearl Tower und Verkehrsströmen"
+  "pop_reason": "Runde Fußgängerbrücke mit Pearl Tower und Verkehrsströmen",
+  "when": "both"
  },
  {
   "id": "claude-cn-jin-mao-tower-atrium",
@@ -3574,7 +3682,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "Spiralförmiges 33-stöckiges Hotel-Atrium, ikonisches Abstrakt-Motiv"
+  "pop_reason": "Spiralförmiges 33-stöckiges Hotel-Atrium, ikonisches Abstrakt-Motiv",
+  "when": "day"
  },
  {
   "id": "claude-cn-columbia-circle",
@@ -3596,7 +3705,8 @@ window.PLACES_CN = [
   "profile_url": "",
   "posts": [],
   "pop": 4,
-  "pop_reason": "1920er Country Club mit Pool, Hudec-Villa und OMA-Umbau"
+  "pop_reason": "1920er Country Club mit Pool, Hudec-Villa und OMA-Umbau",
+  "when": "day"
  },
  {
   "id": "claude-cn-west-bund-long-museum",
@@ -3620,7 +3730,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Betonschirm-Architektur, alter Kohlekran, Uferpromenade",
   "image_page": "https://commons.wikimedia.org/wiki/File:20251129_Long_Museum_West_Bund.jpg",
-  "image_credit": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free · CC BY 4.0 · Wikimedia Commons"
+  "image_credit": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free · CC BY 4.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-zhujiajiao-water-town",
@@ -3644,7 +3755,8 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Kanalstadt mit Fangsheng-Steinbogenbrücke (1571)",
   "image_page": "https://commons.wikimedia.org/wiki/File:%E6%9C%B1%E5%AE%B6%E8%A7%92%E5%8F%A4%E9%95%87%E6%94%BE%E7%94%9F%E6%A1%A5.jpg",
-  "image_credit": "Jiangshang · CC BY-SA 4.0 · Wikimedia Commons"
+  "image_credit": "Jiangshang · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "day"
  },
  {
   "id": "claude-cn-tianzifang",
@@ -3668,7 +3780,8 @@ window.PLACES_CN = [
   "pop": 3,
   "pop_reason": "Verwinkelte Shikumen-Lanes mit Lampions und Kabeln",
   "image_page": "https://commons.wikimedia.org/wiki/File:Tianzifangbyday.jpg",
-  "image_credit": "Jonipoon · CC BY-SA 3.0 · Wikimedia Commons"
+  "image_credit": "Jonipoon · CC BY-SA 3.0 · Wikimedia Commons",
+  "when": "day"
  }
 ];
 window.UNPLACED_CN = [
