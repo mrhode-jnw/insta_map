@@ -5779,16 +5779,26 @@ window.PLACES = [
   "lat": 22.281122,
   "lng": 114.127128,
   "approx": false,
-  "image": null,
+  "image": "images/ktown_davis_passportarchives.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.instagram.com/passportarchives/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/passportarchives/",
+    "kind": "photo",
+    "image": "images/ktown_davis_passportarchives.jpg",
+    "caption": "",
+    "credit": "@passportarchives (Instagram-Reel, Screenshot)"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Viraler Instagram-/Xiaohongshu-Spot, laut Sing Tao und HK01 bei Sonnenuntergang Warteschlangen am Zaun",
-  "image_page": "https://www.stheadline.com/hot-place/3302871/",
-  "image_credit": "Sing Tao (Dez. 2023), HK01 (Mai 2025), Localiiz; Lage: OpenStreetMap",
+  "image_page": "https://www.instagram.com/passportarchives/",
+  "image_credit": "@passportarchives (Instagram-Reel, Screenshot)",
   "source": "Sing Tao (Dez. 2023), HK01 (Mai 2025), Localiiz; Lage: OpenStreetMap",
   "ok": "Spielplatz und Basketballfelder per OSM (堅尼地城遊樂場, 2 Basketballfelder) bestätigt; Davis Street beginnt laut OSM genau gegenüber dem östlichen Feld",
   "when": "day"
