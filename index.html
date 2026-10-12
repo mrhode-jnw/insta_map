@@ -585,8 +585,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const navOrder = cur => {
     if ((!stepping && navFor !== cur) || !navBounds) navBounds = visibleBounds();
     navFor = cur;
+    // „im Ausschnitt“ aktiv: genau die Spots aus der Liste („n sichtbar“) – gleiche Zählung wie unten
+    if (inView) return order.includes(cur) ? order.slice() : [cur, ...order];
     const b = navBounds;
-    return order.filter(id => { if (id === cur) return true; const q = places.find(x => x.id === id); return q && b.contains([q.lat, q.lng]); });
+    return order.filter(id => { if (id === cur) return true; const q = places.find(x => x.id === id); return q && inArea(q, b); });
   };
   let sheetSnap = "peek";
   let status = {};  // id -> { prio: "hoch"|"mittel"|"gering", done: true, fav: true, hidden: true (gelöscht) } – aus data/my-status.json
@@ -1360,6 +1362,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const unplacedAll = [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])];
   const prioRank = p => ({ hoch: 0, mittel: 1, gering: 2, nein: 4 })[st(p.id).prio] ?? 3;
   // Sichtbarer Kartenbereich ohne die Fläche, die das Panel verdeckt
+  // im Ausschnitt = Pin bzw. sein Gruppenkreis liegt sichtbar im Ausschnitt (so wie man es auf der Karte sieht)
+  function inArea(p, vb) {
+    const m = markers.get(p.id), vp = m && cluster.getVisibleParent(m), ll = vp && vp.getLatLng ? vp.getLatLng() : null;
+    return vb.contains(ll ? [ll.lat, ll.lng] : [p.lat, p.lng]);
+  }
   function visibleBounds() {
     const r = map.getContainer().getBoundingClientRect(), sh = $("#sheet").getBoundingClientRect();
     // oben: nur unterhalb der Filterleiste (Bereich · Fotos · Food · Tipps)
@@ -1391,10 +1398,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (opts !== sel.dataset.opts) { sel.innerHTML = opts; sel.dataset.opts = opts; }
     let items = places.filter(matches);
     syncMarkers(items);
-    // im Ausschnitt = Pin bzw. sein Gruppenkreis liegt sichtbar im Ausschnitt (so wie man es auf der Karte sieht)
-    if (inView) { const vb = visibleBounds(); items = items.filter(p => {
-      const m = markers.get(p.id), vp = m && cluster.getVisibleParent(m), ll = vp && vp.getLatLng ? vp.getLatLng() : null;
-      return vb.contains(ll ? [ll.lat, ll.lng] : [p.lat, p.lng]); }); }
+    if (inView) { const vb = visibleBounds(); items = items.filter(p => inArea(p, vb)); }
     items = items.map(p => ({ ...p, _d: here() ? dist(me, p) : 0, _a: areaOf(p) }))
       .sort((a, b) => sortBy === "area" ? a._a.localeCompare(b._a, "de") || (routeF ? routeStop(a) - routeStop(b) : 0) || (b.pop || 0) - (a.pop || 0)
         : routeF && sortBy === "auto" ? routeStop(a) - routeStop(b) || (b.pop || 0) - (a.pop || 0)
