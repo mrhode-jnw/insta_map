@@ -1,18 +1,19 @@
 [
  {
   "id": "tdi13m",
-  "name": "Di 13.10. Morgen (6:15 → 10:00 Fähre Central Pier)",
+  "name": "Di 13.10. Morgen – Kennedy Town/Sai Ying Pun → 10:00 Fähre Central",
   "stops": [
-   "hk-choi-hung-estate",
-   "hk-fat-kwong-street-flyover",
-   "hk-harbour-place-drone"
+   "hk-kennedy-town-basketball-court-blick-davis-street",
+   "hk-tung-hing-mansion",
+   "hk-hill-road-flyover"
   ],
   "created": "2026-10-12"
  },
  {
   "id": "tdi13a",
-  "name": "Di 13.10. Abend (15:45–18:00)",
+  "name": "Di 13.10. Abend – Wong Tai Sin (15:15–18:00)",
   "stops": [
+   "hk-choi-hung-estate",
    "hk-checkerboard-hill-lion-rock-drone-spot",
    "hk-tsui-chuk-garden-drone"
   ],
@@ -20,10 +21,11 @@
  },
  {
   "id": "tmi14m",
-  "name": "Mi 14.10. Morgen (6:30–10:00)",
+  "name": "Mi 14.10. Morgen – Kwai Chung → Hung Hom (6:30–10:00)",
   "stops": [
    "hk-wonderland-villas",
-   "hk-kennedy-town-basketball-court-blick-davis-street"
+   "hk-fat-kwong-street-flyover",
+   "hk-harbour-place-drone"
   ],
   "created": "2026-10-12"
  },
