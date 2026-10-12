@@ -110,7 +110,8 @@
   "done": true
  },
  "hk-nam-cheong-pawn-shop": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "done": true
  },
  "hk-pei-ho-street-market-58-pei-ho-street": {
   "prio": "mittel"
