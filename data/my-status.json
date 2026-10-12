@@ -22,7 +22,8 @@
   "prio": "hoch"
  },
  "hk-kowloon-walled-city-park": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "hidden": true
  },
  "hk-yau-ma-tei-fruit-market": {
   "prio": "mittel",
