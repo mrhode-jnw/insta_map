@@ -581,7 +581,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let order = [];  // aktuelle Listen-Reihenfolge (Filter + Sortierung) für ‹ › im Popup
   // ‹ › blättern durch genau die Spots der Liste (Filter + Sortierung, „n Orte“ bzw. „n sichtbar“)
   let navFor = null, stepping = false;
-  const navOrder = cur => { navFor = cur; return order.includes(cur) ? order.slice() : [cur, ...order]; };
+  // aktive Tour und Spot gehört dazu → ‹ › blättern durch die Stopps der Tour (in Tour-Reihenfolge)
+  const activeTourIds = () => { const t = activeTour && tourById(activeTour); return t ? tourIds(t) : []; };
+  const navOrder = cur => { navFor = cur; const ti = activeTourIds(); if (ti.includes(cur)) return ti;
+    return order.includes(cur) ? order.slice() : [cur, ...order]; };
   let sheetSnap = "peek";
   let status = {};  // id -> { prio: "hoch"|"mittel"|"gering", done: true, fav: true, hidden: true (gelöscht) } – aus data/my-status.json
   const st = id => status[id] || {};
@@ -621,7 +624,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const pnav = `<div class="pnav">
         <button class="pclose" aria-label="Schließen">✕</button>
         ${multi && !onImg ? `<button data-go="-1" aria-label="Vorheriger Spot">‹</button>` : ""}
-        ${multi ? `<span class="spotnum" title="Spots der Liste">📍 Spot ${idx + 1} von ${navIds.length}</span>` : `<span></span>`}
+        ${multi ? (activeTourIds().includes(p.id) ? `<span class="spotnum" title="Stopps der aktiven Tour">🧭 Stopp ${idx + 1} von ${navIds.length}</span>` : `<span class="spotnum" title="Spots der Liste">📍 Spot ${idx + 1} von ${navIds.length}</span>`) : `<span></span>`}
         ${multi && !onImg ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : `<span style="width:38px"></span>`}</div>`;
     return `<div class="pop">${pnav}
       ${p.image ? `<div class="hero">${strip ? `<div class="hstrip">${imgPosts.map((x, i) => `<img src="${esc(x.image)}" alt="" loading="${i ? "lazy" : "eager"}" data-lb="${i}"
@@ -727,6 +730,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const shortName = n => n.replace(/\s*[　-鿿].*$/, "").replace(/\s*[–(].*$/, "").trim() || n;
   const tourStops = t => t.builtin ? t.stops : t.stops.map(id => places.find(p => p.id === id)).filter(Boolean)
     .map((p, i) => ({ n: i + 1, name: shortName(p.name), lat: p.lat, lng: p.lng, id: p.id }));
+  // Spot-IDs einer Tour; feste Touren haben nur Koordinaten → nächster Spot im Umkreis von 40 m
+  const tourIds = t => [...new Set(tourStops(t).map(st => st.id || (() => { let b = null, bd = 40;
+    for (const p of places) { const d = dist(st, p); if (d < bd) { bd = d; b = p; } } return b && b.id; })()).filter(Boolean))];
   const routeKey = stops => stops.map(s => s.lat.toFixed(5) + "," + s.lng.toFixed(5)).join(";");
   const meters = (a, b) => dist({ lat: a.lat, lng: a.lng }, { lat: b.lat, lng: b.lng });
   function tourStats(t) {
