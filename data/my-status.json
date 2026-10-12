@@ -453,5 +453,8 @@
  },
  "hk-peel-street-retro-neon-filmset-highlander": {
   "hidden": true
+ },
+ "hk-shanghai-street-schlosser-stand-mong-kok": {
+  "prio": "nein"
  }
 }
