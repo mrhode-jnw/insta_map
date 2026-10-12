@@ -3829,10 +3829,12 @@ window.PLACES = [
   "name": "Ma Tau Wai Estate 馬頭圍邨 (+ Lion Rock)",
   "district": "To Kwa Wan",
   "category": "Architektur",
-  "note": "",
-  "address": "馬頭圍邨 Ma Tau Wai Estate, 9, 馬頭圍 Ma Tau Wai, 九龍城區 Kowloon City District, 九龍 Kowloon, 香港 Hong Kong, 中国",
-  "lat": 22.323259,
-  "lng": 114.186802,
+  "note": "Motiv: Stirnseite von 洋葵樓 Geranium House mit dem Schriftzug 馬頭圍邨, dahinter der Lion Rock. Pin = vermuteter Standpunkt an der Ma Tau Wai Road, südlich der Kreuzung Tin Kwong Road / Ma Hang Chung Road, Blick nach Norden die Straße entlang (ca. 250 m bis zum Gebäude, Tele). Licht (aus der Ausrichtung geschätzt, Schatten nicht gerechnet): Stirnseite zeigt nach Süd-Südwest, Längsseite nach Osten – vormittags etwa 9–11 Uhr beide Seiten in der Sonne wie im Foto. Klare Sicht nötig, sonst verschwindet der Lion Rock im Dunst.",
+  "ok": "Gebäude per Schriftzug und OSM-Grundriss bestätigt (einziger Block, dessen Stirnseite zur Ma Tau Wai Road zeigt)",
+  "unsure": "Genauer Standpunkt aus Blickrichtung und Straßengeometrie abgeleitet, nicht per Street View geprüft – an der Kreuzung ggf. ein paar Meter nach Süden/Norden verschieben",
+  "address": "To Kwa Wan",
+  "lat": 22.31972,
+  "lng": 114.18765,
   "approx": false,
   "image": "images/DXy532KkcGD_5.jpg",
   "caption": "Location below ⬇️ 10 photography spots that I highly recommend in To Kwa Wan, a traditional Kowloon neighborhood characterized by a strong community spirit, post-war architecture, and a rich industrial heritage 🏭 Which one do you like the most?\n\nLocation📍\n1. Apartment complex along To Kwa Wan Road\n2. Lucky Building\n3. I Feng Mansion\n4. Mei King Street\n5. Ma Tau Wai Estate + Lion Rock\n6. Kowloon City Road\n7. Merit Industrial Centre\n8. Hung Kwong Street\n9. Kai Tak Tunnel\n10. ⁠Newport Centre Block 2 (neon is demolished)\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more",
@@ -3849,6 +3851,18 @@ window.PLACES = [
     "caption": "Location below ⬇️ 10 photography spots that I highly recommend in To Kwa Wan, a traditional Kowloon neighborhood characterized by a strong community spirit, post-war architecture, and a rich industrial heritage 🏭 Which one do you like the most?\n\nLocation📍\n1. Apartment complex along To Kwa Wan Road\n2. Lucky Building\n3. I Feng Mansion\n4. Mei King Street\n5. Ma Tau Wai Estate + Lion Rock\n6. Kowloon City Road\n7. Merit Industrial Centre\n8. Hung Kwong Street\n9. Kai Tak Tunnel\n10. ⁠Newport Centre Block 2 (neon is demolished)\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more",
     "match": "slide",
     "slide": 5
+   },
+   {
+    "url": "https://www.instagram.com/mansonyms/p/DSPlkfhERa6/?img_index=10",
+    "username": "mansonyms",
+    "profile_url": "https://www.instagram.com/mansonyms/",
+    "kind": "p",
+    "image": null,
+    "caption": "Location below ⬇️ My photo collection of the Lion Rock, the most photogenic mountain in Hong Kong 🦁⛰️Which one do you like the most? \n\nLocation📍\n1. Footbridge at Nam Cheong Street\n2. Chuk Yuen North Estate\n3. Chuk Yuen South Estate\n4. Checkerboard Hill (Drone)\n5. Tsui Chuk Garden (Drone) \n6. Royal Plaza Hotel\n7. Kam Hong Street\n8. Shu Kuk Street\n9. Nam Cheong Streer\n10. Ma Tau Wai Road\n11. Ngau Chi Wan Kam Chi Path\n12-13. Wong Tai Sin Plaza\n14. Ping Shan \n15. East Coast Boardwalk\n16. Choi Hung Estate (drone)\n17. Sham Shui Po (drone)\n18. Footbridge across Kwun Tong Road (near Kai Yip Estate)\n\nL",
+    "match": "slide",
+    "slide": 10,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 2,
@@ -4009,37 +4023,6 @@ window.PLACES = [
   ],
   "pop": 1,
   "pop_reason": "Neonschild abgerissen, kaum Online-Dokumentation",
-  "when": "day"
- },
- {
-  "id": "hk-ma-tau-wai-road",
-  "name": "Ma Tau Wai Road 馬頭圍道",
-  "district": "To Kwa Wan",
-  "category": "Street",
-  "note": "",
-  "address": "馬頭圍道 Ma Tau Wai Road, 靠背壟 Kau Pui Lung, 土瓜灣 To Kwa Wan, 九龍城區 Kowloon City District, 九龍 Kowloon, 香港 Hong Kong, 中国",
-  "lat": 22.317612,
-  "lng": 114.187648,
-  "approx": false,
-  "image": "images/DSPlkfhERa6_10.jpg",
-  "caption": "Location below ⬇️ My photo collection of the Lion Rock, the most photogenic mountain in Hong Kong 🦁⛰️Which one do you like the most? \n\nLocation📍\n1. Footbridge at Nam Cheong Street\n2. Chuk Yuen North Estate\n3. Chuk Yuen South Estate\n4. Checkerboard Hill (Drone)\n5. Tsui Chuk Garden (Drone) \n6. Royal Plaza Hotel\n7. Kam Hong Street\n8. Shu Kuk Street\n9. Nam Cheong Streer\n10. Ma Tau Wai Road\n11. Ngau Chi Wan Kam Chi Path\n12-13. Wong Tai Sin Plaza\n14. Ping Shan \n15. East Coast Boardwalk\n16. Choi Hung Estate (drone)\n17. Sham Shui Po (drone)\n18. Footbridge across Kwun Tong Road (near Kai Yip Estate)\n\nL",
-  "post_url": "https://www.instagram.com/mansonyms/p/DSPlkfhERa6/?img_index=10",
-  "username": "mansonyms",
-  "profile_url": "https://www.instagram.com/mansonyms/",
-  "posts": [
-   {
-    "url": "https://www.instagram.com/mansonyms/p/DSPlkfhERa6/?img_index=10",
-    "username": "mansonyms",
-    "profile_url": "https://www.instagram.com/mansonyms/",
-    "kind": "p",
-    "image": "images/DSPlkfhERa6_10.jpg",
-    "caption": "Location below ⬇️ My photo collection of the Lion Rock, the most photogenic mountain in Hong Kong 🦁⛰️Which one do you like the most? \n\nLocation📍\n1. Footbridge at Nam Cheong Street\n2. Chuk Yuen North Estate\n3. Chuk Yuen South Estate\n4. Checkerboard Hill (Drone)\n5. Tsui Chuk Garden (Drone) \n6. Royal Plaza Hotel\n7. Kam Hong Street\n8. Shu Kuk Street\n9. Nam Cheong Streer\n10. Ma Tau Wai Road\n11. Ngau Chi Wan Kam Chi Path\n12-13. Wong Tai Sin Plaza\n14. Ping Shan \n15. East Coast Boardwalk\n16. Choi Hung Estate (drone)\n17. Sham Shui Po (drone)\n18. Footbridge across Kwun Tong Road (near Kai Yip Estate)\n\nL",
-    "match": "slide",
-    "slide": 10
-   }
-  ],
-  "pop": 1,
-  "pop_reason": "Hauptstraße ohne Bekanntheit als Fotospot",
   "when": "day"
  },
  {
