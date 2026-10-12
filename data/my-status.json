@@ -286,7 +286,8 @@
   "prio": "gering"
  },
  "hk-tung-hing-mansion": {
-  "prio": "gering"
+  "prio": "gering",
+  "done": true
  },
  "hk-swiss-house-quarry-bay-abgerissen": {
   "prio": "mittel",
