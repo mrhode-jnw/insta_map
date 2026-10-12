@@ -579,17 +579,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Entfernungen nur zeigen, wenn man vor Ort ist (nächster Spot < 50 km) – von zu Hause aus sind sie sinnlos
   const here = () => !!me && nearSpots;
   let order = [];  // aktuelle Listen-Reihenfolge (Filter + Sortierung) für ‹ › im Popup
-  // ‹ › blättern nur durch Spots im Kartenausschnitt, der vor dem Öffnen zu sehen war
-  // Ausschnitt wird beim Öffnen eines Spots gemerkt (nach dem Zoomen dorthin), beim Blättern bleibt er
-  let navBounds = null, navFor = null, stepping = false;
-  const navOrder = cur => {
-    if ((!stepping && navFor !== cur) || !navBounds) navBounds = visibleBounds();
-    navFor = cur;
-    // „im Ausschnitt“ aktiv: genau die Spots aus der Liste („n sichtbar“) – gleiche Zählung wie unten
-    if (inView) return order.includes(cur) ? order.slice() : [cur, ...order];
-    const b = navBounds;
-    return order.filter(id => { if (id === cur) return true; const q = places.find(x => x.id === id); return q && inArea(q, b); });
-  };
+  // ‹ › blättern durch genau die Spots der Liste (Filter + Sortierung, „n Orte“ bzw. „n sichtbar“)
+  let navFor = null, stepping = false;
+  const navOrder = cur => { navFor = cur; return order.includes(cur) ? order.slice() : [cur, ...order]; };
   let sheetSnap = "peek";
   let status = {};  // id -> { prio: "hoch"|"mittel"|"gering", done: true, fav: true, hidden: true (gelöscht) } – aus data/my-status.json
   const st = id => status[id] || {};
@@ -629,7 +621,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const pnav = `<div class="pnav">
         <button class="pclose" aria-label="Schließen">✕</button>
         ${multi && !onImg ? `<button data-go="-1" aria-label="Vorheriger Spot">‹</button>` : ""}
-        ${multi ? `<span class="spotnum" title="Spots im Kartenausschnitt">📍 Spot ${idx + 1} von ${navIds.length}</span>` : `<span></span>`}
+        ${multi ? `<span class="spotnum" title="Spots der Liste">📍 Spot ${idx + 1} von ${navIds.length}</span>` : `<span></span>`}
         ${multi && !onImg ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : `<span style="width:38px"></span>`}</div>`;
     return `<div class="pop">${pnav}
       ${p.image ? `<div class="hero">${strip ? `<div class="hstrip">${imgPosts.map((x, i) => `<img src="${esc(x.image)}" alt="" loading="${i ? "lazy" : "eager"}" data-lb="${i}"
