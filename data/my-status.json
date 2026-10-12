@@ -34,7 +34,8 @@
   "prio": "hoch"
  },
  "hk-tai-ping-shan-street": {
-  "prio": "gering"
+  "prio": "hoch",
+  "fav": true
  },
  "hk-jardine-s-lookout": {
   "prio": "hoch"
