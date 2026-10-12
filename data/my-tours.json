@@ -1,14 +1,12 @@
 [
  {
   "id": "tdi13m",
-  "name": "Di 13.10. Morgen – Kennedy Town → Sheung Wan → 10:00 Fähre Central",
+  "name": "Di 13.10. Morgen – Taxi 7:15 · Kennedy Town → Sheung Wan → 10:00 Fähre Central",
   "stops": [
    "hk-kennedy-town-basketball-court-blick-davis-street",
    "hk-tung-hing-mansion",
    "hk-hill-road-flyover",
    "hk-third-street",
-   "hk-aberdeen-street-steps",
-   "hk-kung-lee-sugar-cane-drink",
    "hk-western-market-tram-station",
    "hk-des-voeux-road-central",
    "hk-hong-kong-macau-ferry-tram-station"
