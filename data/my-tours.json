@@ -13,14 +13,21 @@
  },
  {
   "id": "tmv56bp8o",
-  "name": "Tour 1",
+  "name": "Tour 1 – Morgen (ab 6:45)",
   "stops": [
    "hk-fat-kwong-street-flyover",
    "hk-harbour-place-drone",
    "hk-choi-hung-estate",
-   "hk-tsui-chuk-garden-drone",
    "hk-wonderland-villas",
    "hk-kennedy-town-basketball-court-blick-davis-street"
+  ],
+  "created": "2026-10-12"
+ },
+ {
+  "id": "tmv56bp8p",
+  "name": "Tour 1 – Abend (Golden Hour ~16:45)",
+  "stops": [
+   "hk-tsui-chuk-garden-drone"
   ],
   "created": "2026-10-12"
  }
