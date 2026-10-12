@@ -125,7 +125,8 @@
   "prio": "hoch"
  },
  "hk-wonderland-villas": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "fav": true
  },
  "hk-checkerboard-hill-lion-rock-drone-spot": {
   "prio": "hoch"
