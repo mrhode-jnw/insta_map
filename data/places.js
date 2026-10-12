@@ -5681,11 +5681,11 @@ window.PLACES = [
   "name": "Wealth Banquet Neon, Kam Tin 名門宴會",
   "district": "Kam Tin",
   "category": "Neon",
-  "note": "455 Kam Tin Road – grün-blau-rotes Schild mit Röstgans, dazu ein kleineres an der Straße; kein Hochhaus weit und breit. Ca. 20 Min. zu Fuß von MTR Kam Sheung Road. Aktueller Zustand nicht bestätigt.",
+  "note": "Laut offizieller Website: 錦田大馬路110號 Kam Tin Main Road 110, direkt am Ausgang A der MTR-Station Kam Sheung Road (Tuen Ma Line). Grün-blau-rotes Großschild mit Röstgans, dazu ein kleineres an der Straße. Restaurant 2026 in Betrieb (Website, Buchungen); ob das Neonschild noch hängt/leuchtet, ist nicht bestätigt – letztes Foto Feb. 2023.",
   "tip": "Kontrast Neon vs. Dorfidylle: weit mit 16-35 inklusive Dorfhäuser, zur blauen Stunde. Mit dem ummauerten Dorf Kat Hing Wai am Tag kombinieren.",
   "address": "Kam Tin",
-  "lat": 22.4405,
-  "lng": 114.0599,
+  "lat": 22.43555,
+  "lng": 114.0628,
   "approx": true,
   "image": "images/scmp_wealth_banquet.jpg",
   "caption": "",
@@ -5698,6 +5698,7 @@ window.PLACES = [
   "image_page": "https://www.scmp.com/lifestyle/travel-leisure/article/3211444/11-best-neon-signs-still-hanging-hong-kong-and-how-get-them-glow-gone-good",
   "image_credit": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
   "source": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
+  "unsure": "Pin = Ausgang A der MTR-Station (Adresse laut Website, Gebäude nicht in OSM); Schild-Zustand 2026 nicht bestätigt",
   "when": "night"
  },
  {
