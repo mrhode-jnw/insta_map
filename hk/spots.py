@@ -169,7 +169,7 @@ add("Newport Centre Block 2 (Neon abgerissen)", "Newport Centre, To Kwa Wan, Hon
 add("Harbour Place 海濱南岸 (Drone)", "Harbour Place, Hung Hom, Hong Kong", "Hung Hom", "Architektur", [24], "")
 add("Wing Sun Pawn Shop 永生大押", (22.306898,114.186316), "Hung Hom", "Neon", [35], "Genaue Adresse unbekannt – irgendwo in Hung Hom; vor Ort nach dem Fledermaus-Schild (Pfandhaus-Symbol) 永生大押 Ausschau halten")
 add("Choi Hung Estate 彩虹邨", "Choi Hung Estate, Hong Kong", "Choi Hung", "Architektur", [25,60,20,87,89,51], "Regenbogen-Basketballplatz")
-add("Lotus Garden, Ngau Tau Kok", "Lotus Tower, Ngau Tau Kok, Hong Kong", "Ngau Tau Kok", "Architektur", [70], "geometrische Türme")
+add("Lotus Tower 玉蓮臺 (Ngau Tau Kok)", (22.31502,114.22008,"OSM"), "Ngau Tau Kok", "Architektur", [70], "Housing-Society-Siedlung 玉蓮臺 Lotus Tower – rote Rahmen, türkise Säulen, H-Logo über dem Eingang. Motiv: Südwestfassade frontal von der anderen Seite der Ngau Tau Kok Road 牛頭角道 (Taxi im Vordergrund). MTR Ngau Tau Kok, Ausgang B, ca. 3 Min. Licht: Fassade zeigt nach Südwesten → morgens Schatten (gleichmäßig, wie im Foto), direkte Sonne ca. 12:30–17:30.", ok="Gebäude per OSM-Grundriss 玉蓮臺 und Commons-Foto bestätigt (Ngau Tau Kok Road)", unsure="Standpunkt (Gehweg gegenüber vom Eingang mit H-Logo) aus Fassadenausrichtung abgeleitet, Eingangsposition nicht exakt verifiziert")
 add("Wong Tai Sin Plaza (Lion Rock view)", "Wong Tai Sin Plaza, Hong Kong", "Wong Tai Sin", "Aussicht", [20], "")
 add("Chuk Yuen North / South Estate 竹園邨", "Chuk Yuen South Estate, Wong Tai Sin, Hong Kong", "Wong Tai Sin", "Aussicht", [20], "Lion Rock")
 add("Tsui Chuk Garden 翠竹花園 (Drone)", "Tsui Chuk Garden, Wong Tai Sin, Hong Kong", "Wong Tai Sin", "Aussicht", [20], "")

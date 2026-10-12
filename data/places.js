@@ -4167,16 +4167,18 @@ window.PLACES = [
   "when": "day"
  },
  {
-  "id": "hk-lotus-garden-ngau-tau-kok",
-  "name": "Lotus Garden, Ngau Tau Kok",
+  "id": "hk-lotus-tower-ngau-tau-kok",
+  "name": "Lotus Tower 玉蓮臺 (Ngau Tau Kok)",
   "district": "Ngau Tau Kok",
   "category": "Architektur",
-  "note": "geometrische Türme",
-  "address": "玉蓮臺 Lotus Tower, 297, 觀塘市中心 Kwun Tong Town Centre, 觀塘區 Kwun Tong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
-  "lat": 22.315517,
-  "lng": 114.220498,
+  "note": "Housing-Society-Siedlung 玉蓮臺 Lotus Tower – rote Rahmen, türkise Säulen, H-Logo über dem Eingang. Motiv: Südwestfassade frontal von der anderen Seite der Ngau Tau Kok Road 牛頭角道 (Taxi im Vordergrund). MTR Ngau Tau Kok, Ausgang B, ca. 3 Min. Licht: Fassade zeigt nach Südwesten → morgens Schatten (gleichmäßig, wie im Foto), direkte Sonne ca. 12:30–17:30.",
+  "ok": "Gebäude per OSM-Grundriss 玉蓮臺 und Commons-Foto bestätigt (Ngau Tau Kok Road)",
+  "unsure": "Standpunkt (Gehweg gegenüber vom Eingang mit H-Logo) aus Fassadenausrichtung abgeleitet, Eingangsposition nicht exakt verifiziert",
+  "address": "Ngau Tau Kok",
+  "lat": 22.31502,
+  "lng": 114.22008,
   "approx": false,
-  "image": "images/commons_lotus-garden-ngau-tau-kok.jpg",
+  "image": "images/lotus_tower_mansonyms.jpg",
   "caption": "Nothing quite screams Hong Kong like the iconic red taxis and neon signs. Photographer Manson Yim went looking for the colour across the city, capturing it at North Point Fire Station and the neighbouring Sunbeam Theatre, the geometric towers of Lotus Garden in Ngau Tau Kok, and a handful of other spots across the city.\n\nSwipe through to see where.\n\nPhotos: @mansonyms\n\n#TatlerTravel #TatlerAsia #HongKong #Travel",
   "post_url": "https://www.instagram.com/tatlerasia/p/DatyxW0oMi4/",
   "username": "tatlerasia",
@@ -4191,12 +4193,28 @@ window.PLACES = [
     "caption": "Nothing quite screams Hong Kong like the iconic red taxis and neon signs. Photographer Manson Yim went looking for the colour across the city, capturing it at North Point Fire Station and the neighbouring Sunbeam Theatre, the geometric towers of Lotus Garden in Ngau Tau Kok, and a handful of other spots across the city.\n\nSwipe through to see where.\n\nPhotos: @mansonyms\n\n#TatlerTravel #TatlerAsia #HongKong #Travel",
     "match": "cover",
     "generic": true
+   },
+   {
+    "url": "https://www.instagram.com/mansonyms/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/mansonyms/",
+    "kind": "photo",
+    "image": "images/lotus_tower_mansonyms.jpg",
+    "caption": "",
+    "credit": "@mansonyms (Instagram, Screenshot)"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:HK_KTD_%E8%A7%80%E5%A1%98%E9%81%93_Kwun_Tong_%E7%89%9B%E9%A0%AD%E8%A7%92%E9%81%93_Ngau_Tau_Kok_Road_Lotus_Tower_building_facade_May_2025_R12S_01.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:HK_KTD_%E8%A7%80%E5%A1%98%E9%81%93_Kwun_Tong_%E7%89%9B%E9%A0%AD%E8%A7%92%E9%81%93_Ngau_Tau_Kok_Road_Lotus_Tower_building_facade_May_2025_R12S_01.jpg",
+    "kind": "photo",
+    "image": "images/commons_lotus-garden-ngau-tau-kok.jpg",
+    "caption": "",
+    "credit": "Penajk Somsicz Bidoomw · CC0 · Wikimedia Commons"
    }
   ],
-  "pop": 1,
-  "pop_reason": "Online kaum auffindbar, echter Geheimtipp",
-  "image_page": "https://commons.wikimedia.org/wiki/File:HK_KTD_%E8%A7%80%E5%A1%98%E9%81%93_Kwun_Tong_%E7%89%9B%E9%A0%AD%E8%A7%92%E9%81%93_Ngau_Tau_Kok_Road_Lotus_Tower_building_facade_May_2025_R12S_01.jpg",
-  "image_credit": "Penajk Somsicz Bidoomw · CC0 · Wikimedia Commons",
+  "image_page": "https://www.instagram.com/mansonyms/",
+  "image_credit": "@mansonyms (Instagram, Screenshot)",
   "when": "day"
  },
  {
