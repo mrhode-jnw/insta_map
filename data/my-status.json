@@ -230,7 +230,8 @@
  },
  "hk-i-feng-mansion": {
   "prio": "hoch",
-  "fav": true
+  "fav": true,
+  "done": true
  },
  "hk-ma-tau-wai-estate-lion-rock": {
   "prio": "mittel",
