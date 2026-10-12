@@ -1,11 +1,11 @@
 [
  {
   "id": "tdi13m",
-  "name": "Di 13.10. Morgen (6:30–9:30)",
+  "name": "Di 13.10. Morgen (6:15 → 10:00 Fähre Central Pier)",
   "stops": [
+   "hk-choi-hung-estate",
    "hk-fat-kwong-street-flyover",
-   "hk-harbour-place-drone",
-   "hk-choi-hung-estate"
+   "hk-harbour-place-drone"
   ],
   "created": "2026-10-12"
  },
