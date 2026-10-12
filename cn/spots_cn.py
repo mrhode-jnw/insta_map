@@ -25,6 +25,7 @@ POSTS = {
  49: ("davidlazarphoto", "p", "DDo2-MdTeS2"), 50: ("wyzhou22", "p", "DEaHiq2pJaL"),
  51: ("blackmobil", "p", "DRj2euBD9iL"), 52: ("audityawijaya", "p", "DdbiIBKDzBf"), 53: ("wiwa_b", "p", "DdOSqMYjosy"),
  54: ("theglobalphotographycommunity_", "p", "Dd5iOWACpW4"),
+ 55: ("vladivals", "reel", "DeHNEfvzPOZ"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -85,6 +86,8 @@ SPOTS = [
   [(38, 3), (41, 6), (53, 1)], "Tausend Jahre alter buddhistischer Tempel mitten zwischen Hochhäusern."),
  ("Chaodong Road 朝东路", 29.566677, 106.584101, True, "Yuzhong, Chongqing", "Street",
   [(38, 6)], "Alltagsstraße mit Blick auf Raffles City."),
+ ("Yalan International Rooftop 雅兰国际大厦 (Dach)", 29.5606, 106.5798, True, "Jiefangbei, Chongqing", "Aussicht",
+  [55], "Halblegaler Dachzugang auf dem Yalan International Building 雅兰国际大厦, Xinhua Road 220 新华路220号 (Yuzhong) – Eintritt ca. 50 CNY (Stand Reel 2026), Nachtblick auf die Cyberpunk-Skyline mit United International Mansion 联合国际 direkt daneben. Im Haus sitzt u. a. das SHAN Hotel (Zi. 19-6). Ab ca. 20 Uhr Lichter. Zugang/Regeln nicht offiziell bestätigt – vor Ort fragen; Alternative: Rooftop 131 (World Trade Center)."),
  ("Nanbin Road 南滨路", 29.5565, 106.5891, True, "Nan'an, Chongqing", "Aussicht",
   [(41, 5), 54], "Uferpromenade gegenüber Yuzhong – Nachtblick auf die Skyline."),
  ("The Ring Shopping Mall 光环购物公园", 29.65306, 106.52597, False, "Yubei, Chongqing", "Architektur",

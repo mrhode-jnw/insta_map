@@ -503,7 +503,7 @@ window.PLACES_CN = [
   "lng": 110.119,
   "approx": true,
   "image": "images/DRo8DqWCiXB.jpg",
-  "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
+  "caption": "",
   "post_url": "https://www.instagram.com/hanaleytravel/p/DRo8DqWCiXB/",
   "username": "hanaleytravel",
   "profile_url": "https://www.instagram.com/hanaleytravel/",
@@ -514,7 +514,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hanaleytravel/",
     "kind": "p",
     "image": "images/DRo8DqWCiXB.jpg",
-    "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
+    "caption": "",
     "match": "single"
    },
    {
@@ -642,7 +642,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_2.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 2
    },
@@ -898,7 +898,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_3.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 3
    },
@@ -1000,7 +1000,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_7.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 7
    }
@@ -1102,7 +1102,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_6.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 6
    },
@@ -1154,6 +1154,35 @@ window.PLACES_CN = [
   "when": "day"
  },
  {
+  "id": "cn-yalan-international-rooftop-dach",
+  "region": "cn",
+  "name": "Yalan International Rooftop 雅兰国际大厦 (Dach)",
+  "district": "Jiefangbei, Chongqing",
+  "category": "Aussicht",
+  "note": "Halblegaler Dachzugang auf dem Yalan International Building 雅兰国际大厦, Xinhua Road 220 新华路220号 (Yuzhong) – Eintritt ca. 50 CNY (Stand Reel 2026), Nachtblick auf die Cyberpunk-Skyline mit United International Mansion 联合国际 direkt daneben. Im Haus sitzt u. a. das SHAN Hotel (Zi. 19-6). Ab ca. 20 Uhr Lichter. Zugang/Regeln nicht offiziell bestätigt – vor Ort fragen; Alternative: Rooftop 131 (World Trade Center).",
+  "address": "Jiefangbei, Chongqing",
+  "lat": 29.5606,
+  "lng": 106.5798,
+  "approx": true,
+  "image": "images/DeHNEfvzPOZ.jpg",
+  "caption": "Rooftop in Chongqing",
+  "post_url": "https://www.instagram.com/vladivals/reel/DeHNEfvzPOZ/",
+  "username": "vladivals",
+  "profile_url": "https://www.instagram.com/vladivals/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/vladivals/reel/DeHNEfvzPOZ/",
+    "username": "vladivals",
+    "profile_url": "https://www.instagram.com/vladivals/",
+    "kind": "reel",
+    "image": "images/DeHNEfvzPOZ.jpg",
+    "caption": "Rooftop in Chongqing",
+    "match": "single"
+   }
+  ],
+  "when": "both"
+ },
+ {
   "id": "cn-nanbin-road",
   "region": "cn",
   "name": "Nanbin Road 南滨路",
@@ -1165,7 +1194,7 @@ window.PLACES_CN = [
   "lng": 106.5891,
   "approx": true,
   "image": "images/DdiudFSEbF0_5.jpg",
-  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+  "caption": "",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=5",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -1176,7 +1205,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_5.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 5
    },
@@ -1207,7 +1236,7 @@ window.PLACES_CN = [
   "lng": 106.52597,
   "approx": false,
   "image": "images/DdiudFSEbF0_4.jpg",
-  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+  "caption": "",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=4",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -1218,7 +1247,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_4.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 4
    }
