@@ -109,18 +109,20 @@
  },
  {
   "name": "Plentiful Delight Banquet Neon 喜尚嘉喜",
-  "lat": 22.4414,
-  "lng": 114.0283,
-  "approx": true,
+  "lat": 22.44161,
+  "lng": 114.0279,
+  "approx": false,
   "district": "Yuen Long",
   "cat": "Neon",
   "pop": 2,
   "reason": "Warm rot-gelbes Neon eines Dim-Sum-Banketthauses",
-  "note": "Ho Shun Tai Building, 10 Sai Ching Street. 5 Gehminuten zu Wing Wah (Yuen Long). Aktueller Zustand nicht bestätigt.",
+  "note": "Ho Shun Tai Building 好順泰大廈, 10 Sai Ching Street 西菁街 (1. Stock). Im Foto daneben das große Schild von 翠湖海鮮 und gegenüber ein Centaline-Maklerbüro. 5 Gehminuten zu Wing Wah (Yuen Long). Bankettsaal laut Buchungsportalen in Betrieb; Zustand der Neonschilder seit Feb. 2023 nicht bestätigt.",
   "tip": "Mit Wing Wah zu einer kleinen Yuen-Long-Neontour verbinden; Autolichter der Straße mit 1–2 s ins Bild ziehen.",
   "image": "images/scmp_plentiful_delight.jpg",
   "source": "SCMP, Feb. 2023 · Foto: Connor Mycroft",
-  "url": "https://www.scmp.com/lifestyle/travel-leisure/article/3211444/11-best-neon-signs-still-hanging-hong-kong-and-how-get-them-glow-gone-good"
+  "url": "https://www.scmp.com/lifestyle/travel-leisure/article/3211444/11-best-neon-signs-still-hanging-hong-kong-and-how-get-them-glow-gone-good",
+  "ok": "Gebäude per OSM (好順泰大廈, 10 Sai Ching Street) bestätigt",
+  "unsure": "Ob die Neonschilder 2026 noch hängen/leuchten, ist nicht bestätigt"
  },
  {
   "name": "Wealth Banquet Neon, Kam Tin 名門宴會",
