@@ -29,14 +29,13 @@
  },
  {
   "id": "tmi14m",
-  "name": "Mi 14.10. Morgen – Hung Hom → Wong Tai Sin (6:15–10:00)",
+  "name": "Mi 14.10. Morgen – Taxi 6:00 · Wong Tai Sin → Hung Hom · 8:30 zurück im Hotel",
   "stops": [
-   "hk-fat-kwong-street-flyover",
-   "hk-harbour-place-drone",
-   "hk-lotus-tower-ngau-tau-kok",
-   "hk-choi-hung-estate",
+   "hk-checkerboard-hill-lion-rock-drone-spot",
    "hk-tsui-chuk-garden-drone",
-   "hk-checkerboard-hill-lion-rock-drone-spot"
+   "hk-choi-hung-estate",
+   "hk-fat-kwong-street-flyover",
+   "hk-harbour-place-drone"
   ],
   "created": "2026-10-12"
  }
