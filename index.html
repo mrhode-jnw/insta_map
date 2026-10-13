@@ -2078,12 +2078,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (!id && !tour) return;
     history.replaceState(null, "", location.pathname + location.search);  // gleicher Link später nochmal antippbar
     if (tour && tourById(tour)) setActiveTour(tour);
-    const p = id && places.find(x => x.id === id), m = p && markers.get(id);
+    const p = id && places.find(x => x.id === id);
     if (!p) { if (id) toast("Spot nicht gefunden", 2500); return; }
     if (mobile()) setSnap("peek");
     map.setView([p.lat, p.lng], Math.max(map.getZoom(), 17), { animate: false });
-    if (!m || !shown.has(id)) { toast("Spot ist gerade ausgefiltert – Filter prüfen", 3500); return; }
-    setTimeout(() => cluster.zoomToShowLayer(m, () => openSpot(m)), 400);
+    // per Link geöffnet: unabhängig von Filtern anzeigen (bleibt sichtbar, bis das Popup geschlossen wird)
+    if (!shown.has(id)) { stickyId = id; renderList(); }
+    const mk = markers.get(id); if (!mk) { toast("Spot nicht gefunden", 2500); return; }
+    setTimeout(() => cluster.zoomToShowLayer(mk, () => openSpot(mk)), 400);
   }
   window.addEventListener("hashchange", openFromHash);
   setTimeout(openFromHash, 900);
