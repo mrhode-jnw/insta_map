@@ -29,7 +29,10 @@ Für jeden Eintrag (`code`):
 3. Aus der Caption (vor allem nummerierte Listen „1. …“ oder „Location: …“, sonst 📍-Angaben) alle
    **konkreten Orte in Hongkong** bestimmen:
    - Ort gibt es schon in `hk/spots.py` (gleicher Ort, auch bei anderer Schreibweise) → `i` an die
-     Post-Liste dieses `add(...)`-Eintrags anhängen.
+     Post-Liste dieses `add(...)`-Eintrags anhängen **und das Foto hinzufügen**: bei Karussell-Posts
+     die Slides ansehen und den Slide, der genau diesen Ort zeigt, als `slides={i: <slide>}` eintragen
+     (sonst erscheint nur ein Link ohne Bild). Gleiche Fotos filtert `build_hk.py` selbst heraus.
+     Achtung: „Portland Street, Mongkok“ bei @mansonyms = Neon-Ecke 金麗宮 am 祥興樓 Cheung Hing House.
    - Neuer Ort → am Dateiende unter `# --- Neu aus Eingang ---` eine Zeile ergänzen:
      `add("Name 中文名", "Suchbegriff, Stadtteil, Hong Kong", "Stadtteil", "Kategorie", [i], "kurzer Hinweis")`
      - Den **Namen** möglichst so wählen wie in der nummerierten Liste der Caption (dann findet
