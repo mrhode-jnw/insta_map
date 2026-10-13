@@ -315,7 +315,8 @@
  },
  "hk-neon-hop-hing-lung-ceramics-sanitaryware": {
   "prio": "hoch",
-  "fav": true
+  "fav": true,
+  "done": true
  },
  "hk-ma-tau-wai-road": {
   "prio": "mittel"
