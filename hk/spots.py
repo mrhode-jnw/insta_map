@@ -62,7 +62,7 @@ add("Victoria Harbour (Neon + Regen + Nacht)", (22.2905,114.1700), "Victoria Har
 
 # --- Central / Sheung Wan / Mid-levels / Sai Ying Pun / Kennedy Town ---
 add("Aberdeen Street Steps 中環鴨巴甸街樓梯", "Aberdeen Street, Central, Hong Kong", "Central", "Street", [21,26,28,50,62], "Klassische HK-Treppenstraße")
-add("Des Voeux Road Central 德輔道中", "Des Voeux Road Central, Hong Kong", "Central", "Tram", [50], "")
+add("Des Voeux Road Central 德輔道中", (22.28412,114.15552,"OSM"), "Central", "Tram", [50], "Pin = Fußgängerbrücke der Central–Mid-Levels-Rolltreppe über die Des Voeux Road Central (beim Central Market 中環街市), Blick nach Osten die Tramgleise entlang; rechts das rote Schild 集友銀行 Chiyu Bank (DVRC 78). Von hier ca. 10 Min zu Fuß zum Central Ferry Pier.", ok="Chiyu Bank 集友銀行 (Des Voeux Road Central 78) und Lee Kum Kee 中環李錦記 im Foto per OSM verortet", unsure="Genaue Brücke aus Blickrichtung abgeleitet – ggf. die nächste Brücke westlich")
 add("The Murray Hotel 美利酒店", "The Murray Hotel, Cotton Tree Drive, Central, Hong Kong", "Central", "Architektur", [50,60], "")
 add("Footbridge at Peel Street 卑利街天橋", "Peel Street, Central, Hong Kong", "Central", "Street", [50], "")
 add("Peel Street – Retro-Neon-Filmset (Highlander)", "Peel Street, Central, Hong Kong", "Central", "Neon", [32], "temporäres Filmset, ggf. nicht mehr vorhanden")
