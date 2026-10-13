@@ -1,6 +1,7 @@
 {
  "hk-des-voeux-road-central": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "done": true
  },
  "hk-victoria-harbour-neon-regen-nacht": {
   "prio": "mittel"
