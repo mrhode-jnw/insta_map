@@ -4712,7 +4712,7 @@ window.PLACES = [
   "name": "Fat Kwong Street Flyover 佛光街天橋",
   "district": "Ho Man Tin",
   "category": "Architektur",
-  "note": "Schwungvolle Hochstraße vor Wohntürmen (Ho Man Tin Estate am Hang). Blick von Osten (Seite Chatham Road) nach Westen die Hochstraße hinauf, Tele. Licht: morgens, ca. 6:45–8:30 – die Sonne steht dann im Rücken (Osten) und streift die Ostfassaden warm an, die unteren Etagen liegen noch im Schatten der Häuser davor wie im Foto. Nachmittags liegen die Fassaden im Gegenlicht/Schatten.",
+  "note": "Schwungvolle Hochstraße vor Wohntürmen (Ho Man Tin Estate am Hang). Blick von Osten (Seite Chatham Road) nach Westen die Hochstraße hinauf, Tele. Licht (berechnet mit OSM-Gebäudehöhen, Mitte Okt.): Sonne kommt aus Ost-Südost im Rücken. Die Ostfassaden der Wohntürme oben am Hang liegen bis ~6:45 ganz im Schatten der 40-stöckigen Hung-Hom-Türme (紅昕樓/紅曜樓) am Fuß der Hochstraße; ~7:00 halb, ab ~7:20 drei Viertel in der Sonne, ab 8:00 ~85 % – unten bleibt ein Schattenstreifen wie im Foto. Beste Zeit ca. 7:15–8:30. Nachmittags Gegenlicht.",
   "unsure": "Blickrichtung und Tageszeit aus Foto und OSM-Ausrichtung abgeleitet; genauer Standpunkt (Gehweg am Fuß der Rampe oder Fußgängerbrücke) nicht gesichert – Pin liegt auf der Hochstraße",
   "address": "Ho Man Tin",
   "lat": 22.30969,
