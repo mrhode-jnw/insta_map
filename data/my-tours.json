@@ -29,10 +29,8 @@
  },
  {
   "id": "tmi14m",
-  "name": "Mi 14.10. Morgen – Taxi 6:00 · Wong Tai Sin → Hung Hom · 8:30 zurück im Hotel",
+  "name": "Mi 14.10. Morgen – Taxi 6:30 · Choi Hung → Fat Kwong → Harbour Place · 8:30 Hotel",
   "stops": [
-   "hk-checkerboard-hill-lion-rock-drone-spot",
-   "hk-tsui-chuk-garden-drone",
    "hk-choi-hung-estate",
    "hk-fat-kwong-street-flyover",
    "hk-harbour-place-drone"
