@@ -53,7 +53,8 @@
   "prio": "mittel"
  },
  "hk-hill-road-flyover": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "done": true
  },
  "hk-oceanic-building-monster-building-tram-seite": {
   "prio": "hoch",
