@@ -163,6 +163,11 @@
   .tour-stop { display: flex; align-items: center; gap: 4px; white-space: nowrap; transform: translate(-13px, -13px); }
   .tour-stop b { width: 26px; height: 26px; border-radius: 50%; background: #2563eb; color: #fff; border: 2px solid #fff; display: grid; place-items: center;
     font: 700 13px system-ui, sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
+  .leg-time { transform: translate(-50%, -50%); display: inline-block; white-space: nowrap; background: #2563eb; color: #fff; border: 1.5px solid #fff; border-radius: 10px;
+    padding: 1px 6px; font: 700 11px system-ui, sans-serif; box-shadow: 0 1px 3px rgba(0,0,0,.3); }
+  .leg-time.taxi { background: #475569; }
+  .spotnum .legs { display: block; font-size: 11px; font-weight: 600; color: #2563eb; margin-top: 1px; }
+  .spotnum .legs span { white-space: nowrap; }
   .tour-stop span { background: rgba(255,255,255,.92); color: #1e3a8a; border-radius: 6px; padding: 1px 5px; font: 600 11.5px system-ui, sans-serif; box-shadow: 0 1px 3px rgba(0,0,0,.25); }
   .pin.henge { background: #fde68a; display: grid; place-items: center; font-size: 17px; }
   .pin.mine { background: #f59e0b; display: grid; place-items: center; font-size: 16px; }
@@ -583,6 +588,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let navFor = null, stepping = false;
   // aktive Tour und Spot gehört dazu → ‹ › blättern durch die Stopps der Tour (in Tour-Reihenfolge)
   const activeTourIds = () => { const t = activeTour && tourById(activeTour); return t ? tourIds(t) : []; };
+  // „← 11′ · 9′ →“: Weg vom vorigen und zum nächsten Stopp der aktiven Tour
+  const legInfo = id => { const t = activeTour && tourById(activeTour), l = t && legsAround(t, id); if (!l) return "";
+    const f = (sg, n, dir) => sg ? `<span title="${dir} ${esc(n)}: ${sg.m >= 1000 ? (sg.m / 1000).toFixed(1) + " km" : sg.m + " m"}">${dir === "von" ? "← " : ""}${sg.mode === "walk" ? "🚶" : "🚕"}${sg.min}′${dir === "zu" ? " →" : ""}</span>` : "";
+    const a = f(l.prev, l.prevName, "von"), b = f(l.next, l.nextName, "zu");
+    return a || b ? `<small class="legs">${[a, b].filter(Boolean).join(" · ")}</small>` : ""; };
   const navOrder = cur => { navFor = cur; const ti = activeTourIds(); if (ti.includes(cur)) return ti;
     return order.includes(cur) ? order.slice() : [cur, ...order]; };
   let sheetSnap = "peek";
@@ -624,7 +634,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const pnav = `<div class="pnav">
         <button class="pclose" aria-label="Schließen">✕</button>
         ${multi && !onImg ? `<button data-go="-1" aria-label="Vorheriger Spot">‹</button>` : ""}
-        ${multi ? (activeTourIds().includes(p.id) ? `<span class="spotnum" title="Stopps der aktiven Tour">🧭 Stopp ${idx + 1} von ${navIds.length}</span>` : `<span class="spotnum" title="Spots der Liste">📍 Spot ${idx + 1} von ${navIds.length}</span>`) : `<span></span>`}
+        ${multi ? (activeTourIds().includes(p.id) ? `<span class="spotnum" title="Stopps der aktiven Tour">🧭 Stopp ${idx + 1} von ${navIds.length}${legInfo(p.id)}</span>` : `<span class="spotnum" title="Spots der Liste">📍 Spot ${idx + 1} von ${navIds.length}</span>`) : `<span></span>`}
         ${multi && !onImg ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : `<span style="width:38px"></span>`}</div>`;
     return `<div class="pop">${pnav}
       ${p.image ? `<div class="hero">${strip ? `<div class="hstrip">${imgPosts.map((x, i) => `<img src="${esc(x.image)}" alt="" loading="${i ? "lazy" : "eager"}" data-lb="${i}"
@@ -733,7 +743,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Spot-IDs einer Tour; feste Touren haben nur Koordinaten → nächster Spot im Umkreis von 40 m
   const tourIds = t => [...new Set(tourStops(t).map(st => st.id || (() => { let b = null, bd = 40;
     for (const p of places) { const d = dist(st, p); if (d < bd) { bd = d; b = p; } } return b && b.id; })()).filter(Boolean))];
-  const routeKey = stops => stops.map(s => s.lat.toFixed(5) + "," + s.lng.toFixed(5)).join(";");
+  const routeKey = stops => "L:" + stops.map(s => s.lat.toFixed(5) + "," + s.lng.toFixed(5)).join(";");  // L: = Fußweg je Etappe
   const meters = (a, b) => dist({ lat: a.lat, lng: a.lng }, { lat: b.lat, lng: b.lng });
   function tourStats(t) {
     const stops = tourStops(t);
@@ -745,6 +755,23 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   const tb = $("#tourBtn"); tb.hidden = false; tb.title = "Touren";
   let tourLayer = null;
+  // Punkt auf halber Weglänge (für das Zeit-Schild)
+  function midOf(path) {
+    if (!path || path.length < 2) return null;
+    const d = []; let tot = 0;
+    for (let i = 1; i < path.length; i++) { const x = meters({ lat: path[i - 1][0], lng: path[i - 1][1] }, { lat: path[i][0], lng: path[i][1] }); d.push(x); tot += x; }
+    let h = tot / 2;
+    for (let i = 0; i < d.length; i++) { if (h <= d[i]) { const f = d[i] ? h / d[i] : 0; return [path[i][0] + (path[i + 1][0] - path[i][0]) * f, path[i][1] + (path[i + 1][1] - path[i][1]) * f]; } h -= d[i]; }
+    return path[path.length - 1];
+  }
+  // Etappe vor und nach einem Stopp (feste Touren: Etappe 0 = Anfahrt zum 1. Stopp)
+  function legsAround(t, id) {
+    const stops = tourStops(t), k = tourIds(t).indexOf(id); if (k < 0) return null;
+    const segs = t.builtin ? t.segs : tourRoutes[routeKey(stops)];
+    if (!segs) return null;
+    const off = t.builtin ? 0 : -1;
+    return { prev: segs[k + off] || null, next: segs[k + off + 1] || null, prevName: k > 0 ? stops[k - 1].name : (t.builtin ? "Start" : ""), nextName: k < stops.length - 1 ? stops[k + 1].name : "" };
+  }
   function drawTour() {
     if (tourLayer) { tourLayer.remove(); tourLayer = null; }
     const t = activeTour && tourById(activeTour);
@@ -756,6 +783,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ? L.polyline(sg.path, { color: "#2563eb", weight: 5, opacity: .85, dashArray: "2 9", interactive: false })
       : L.polyline(sg.path, { color: "#475569", weight: 4, opacity: .6, interactive: false })));
     else if (stops.length > 1) parts.push(L.polyline(stops.map(s => [s.lat, s.lng]), { color: "#2563eb", weight: 3, opacity: .6, dashArray: "6 8", interactive: false }));
+    // Gehzeit je Etappe als kleines Schild in der Mitte des Wegs (nur bei aktiver Tour)
+    if (segs) segs.forEach(sg => { const pt = midOf(sg.path); if (!pt || !sg.min) return;
+      parts.push(L.marker(pt, { interactive: false, zIndexOffset: 1500, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
+        html: `<div class="leg-time${sg.mode === "walk" ? "" : " taxi"}">${sg.mode === "walk" ? "🚶" : "🚕"} ${sg.min}′</div>` }) })); });
     stops.forEach(st => {
       if (st.view != null) parts.push(L.polyline([[st.lat, st.lng], ray([st.lat, st.lng], st.view, 30)], { color: "#2563eb", weight: 4, opacity: .95, interactive: false }));
       parts.push(L.marker([st.lat, st.lng], { interactive: false, zIndexOffset: 2000, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
@@ -768,9 +799,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const key = routeKey(stops);
     if (tourRoutes[key]) return true;
     try {
-      const r = await fetch(`https://routing.openstreetmap.de/routed-foot/route/v1/driving/${stops.map(s => s.lng + "," + s.lat).join(";")}?overview=full&geometries=geojson`);
+      const r = await fetch(`https://routing.openstreetmap.de/routed-foot/route/v1/driving/${stops.map(s => s.lng + "," + s.lat).join(";")}?overview=false&steps=true&geometries=geojson`);
       const j = await r.json(); const rt = j.routes && j.routes[0]; if (!rt) return false;
-      tourRoutes[key] = [{ mode: "walk", m: Math.round(rt.distance), min: Math.round(rt.duration / 60), path: rt.geometry.coordinates.map(c => [c[1], c[0]]) }];
+      // eine Etappe je Stopp-Paar, damit die Gehzeit zwischen zwei Spots auf der Karte stehen kann
+      tourRoutes[key] = rt.legs.map(l => ({ mode: "walk", m: Math.round(l.distance), min: Math.max(1, Math.round(l.duration / 60)),
+        path: l.steps.flatMap(st => st.geometry.coordinates.map(c => [c[1], c[0]])) }));
       const keys = Object.keys(tourRoutes); if (keys.length > 30) delete tourRoutes[keys[0]];
       try { localStorage.setItem("tourRoutes", JSON.stringify(tourRoutes)); } catch {}
       return true;
