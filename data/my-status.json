@@ -145,7 +145,8 @@
   "prio": "hoch"
  },
  "hk-western-market-tram-station": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "done": true
  },
  "hk-1-queen-s-road-west-shophouse": {
   "prio": "gering"
