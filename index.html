@@ -398,9 +398,9 @@
 <button id="add" class="fab" title="Spot hinzufügen" aria-label="Spot hinzufügen">+</button>
 <div id="addDlg" hidden>
   <form id="addForm" autocomplete="off">
-    <h2>Instagram-Post übernehmen</h2>
-    <div class="row"><input id="impLink" type="url" placeholder="Instagram-Link (oder leer lassen)"><button type="button" id="impBtn">📋 Übernehmen</button></div>
-    <small>Wird automatisch verarbeitet: Orte, Bilder und Beliebtheit erscheinen innerhalb von ca. 1 Stunde auf der Karte.</small>
+    <h2>Link übernehmen</h2>
+    <div class="row"><input id="impLink" type="url" placeholder="Instagram, Google Maps, OSM, Locationscout (oder leer lassen)"><button type="button" id="impBtn">📋 Übernehmen</button></div>
+    <small>Instagram-Post, Google-Maps-Ort, OpenStreetMap-Ort oder Locationscout-Spot. Wird automatisch verarbeitet: Ort, Bilder und Tipps erscheinen in ca. 1 Stunde auf der Karte.</small>
     <h2 style="margin-top:10px">Oder eigenen Spot setzen</h2>
     <div class="row"><input id="addSearch" type="search" placeholder="Ort oder Adresse suchen"><button type="button" id="addSearchBtn">Suchen</button></div>
     <ul id="addResults"></ul>
@@ -2034,20 +2034,30 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Eine stündliche Claude-Routine verarbeitet neue Links (siehe ROUTINE.md).
   const INBOX_PATH = "data/inbox.json";
   const igCode = url => (String(url).match(/instagram\.com\/(?:[A-Za-z0-9_.]+\/)?(?:p|reel|reels|tv)\/([A-Za-z0-9_-]+)/) || [])[1];
-  async function addToInbox(url) {
-    const code = igCode(url);
-    if (!code) { toast("Das ist kein Instagram-Post-Link.", 4000); return false; }
+  // weitere Quellen: Google Maps, OpenStreetMap, Locationscout → Routine liest Name, Koordinaten, Tipps aus
+  const linkKind = url => igCode(url) ? "ig"
+    : /(?:google\.[a-z.]+\/maps|maps\.google\.|maps\.app\.goo\.gl|goo\.gl\/maps|g\.co\/kgs)/i.test(url) ? "gmaps"
+    : /(?:openstreetmap\.org|osm\.org)\//i.test(url) ? "osm"
+    : /locationscout\.net\//i.test(url) ? "locationscout" : null;
+  const KIND_LABEL = { ig: "Instagram-Post", gmaps: "Google-Maps-Ort", osm: "OpenStreetMap-Ort", locationscout: "Locationscout-Spot" };
+  const linkId = (kind, url) => kind + ":" + [...url].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7).toString(36);
+  const firstUrl = v => (String(v).match(/https?:\/\/\S+/) || [String(v).trim()])[0];  // geteilter Text: „Name\nhttps://…“
+  async function addToInbox(raw) {
+    const url = firstUrl(raw), kind = linkKind(url);
+    if (!kind) { toast("Unterstützt: Instagram, Google Maps, OpenStreetMap, Locationscout.", 4500); return false; }
     if (!store.get(TOKEN_KEY)) {
       const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return false; store.set(TOKEN_KEY, t.trim());
     }
+    const entry = kind === "ig" ? { code: igCode(url), url: url.split("?")[0] }
+      : { kind, id: linkId(kind, url), url, note: String(raw).replace(url, "").trim().slice(0, 200) || undefined };
     try {
       let added = false;
       await mutate(list => {
-        if (list.some(x => x.code === code)) return list;
+        if (list.some(x => (entry.code && x.code === entry.code) || (entry.id && x.id === entry.id))) return list;
         added = true;
-        return [...list, { code, url: url.split("?")[0], added: new Date().toISOString() }];
-      }, `Eingang: Instagram-Post ${code}`, INBOX_PATH, []);
-      toast(added ? "📥 Zur Karte hinzugefügt – erscheint in ca. 1 Stunde" : "Dieser Post ist schon im Eingang.", 4500);
+        return [...list, { ...entry, added: new Date().toISOString() }];
+      }, `Eingang: ${KIND_LABEL[kind]} ${entry.code || entry.id}`, INBOX_PATH, []);
+      toast(added ? `📥 ${KIND_LABEL[kind]} übernommen – erscheint in ca. 1 Stunde auf der Karte` : "Dieser Link ist schon im Eingang.", 4500);
       return true;
     } catch (err) { toast(err.message, 5000); return false; }
   }
@@ -2055,11 +2065,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     let v = $("#impLink").value.trim();
     if (!v) {  // leeres Feld: kopierten Link aus der Zwischenablage nehmen (iOS fragt „Einsetzen“)
       try { v = (await navigator.clipboard.readText()).trim(); } catch { v = ""; }
-      if (!igCode(v)) { toast("Kein Instagram-Link kopiert. In Instagram: Teilen → Link kopieren.", 4500); return; }
+      if (!linkKind(firstUrl(v))) { toast("Kein passender Link kopiert (Instagram, Google Maps, OpenStreetMap, Locationscout).", 4500); return; }
     }
     if (await addToInbox(v)) { $("#impLink").value = ""; closeAdd(); }
   });
-  // Teilen-Menü / Kurzbefehl: …/insta_map/?add=<Instagram-Link>
+  // Teilen-Menü / Kurzbefehl: …/insta_map/?add=<Link> (Instagram, Google Maps, OSM, Locationscout)
   (() => {
     const add = new URLSearchParams(location.search).get("add");
     if (!add) return;

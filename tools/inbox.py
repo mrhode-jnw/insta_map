@@ -5,6 +5,8 @@
   python3 tools/inbox.py show <code>        # Post laden: Account, Typ, Caption, Anzahl Bilder, nummerierte Orte
   python3 tools/inbox.py add-post <code>    # Post in hk/spots.py → POSTS eintragen, gibt den Index aus
   python3 tools/inbox.py skip <code> <grund> # Post dauerhaft überspringen (z.B. gelöscht/privat)
+  python3 tools/inbox.py link <id>          # Google-Maps-/OSM-/Locationscout-Eintrag auslesen (Name, Koordinaten, Tipps)
+  python3 tools/inbox.py done <id> <spot>   # solchen Eintrag als erledigt markieren (Spot-Name oder „vorhanden: …“)
 """
 import json
 import os
@@ -23,6 +25,7 @@ import slides as sl  # noqa: E402
 SPOTS = os.path.join(ROOT, "hk", "spots.py")
 SPOTS_CN = os.path.join(ROOT, "cn", "spots_cn.py")  # China-Sammlung (tools/build_cn.py)
 SKIPPED = os.path.join(ROOT, "hk", "inbox_skipped.json")
+DONE = os.path.join(ROOT, "hk", "inbox_done.json")  # erledigte Nicht-Instagram-Links (id → Spot)
 DATA_BRANCH = "map-data"
 
 
@@ -40,8 +43,33 @@ def known_codes():
 
 def pending():
     skipped = bp.load_json(SKIPPED, {})
+    done = bp.load_json(DONE, {})
     known = known_codes()
-    return [x for x in inbox() if x["code"] not in known and x["code"] not in skipped]
+    out = []
+    for x in inbox():
+        if x.get("code"):  # Instagram
+            if x["code"] not in known and x["code"] not in skipped:
+                out.append(x)
+        elif x.get("id") and x["id"] not in done and x["id"] not in skipped:  # Google Maps / OSM / Locationscout
+            out.append(x)
+    return out
+
+
+def link(lid):
+    import linkinfo
+    x = next((e for e in inbox() if e.get("id") == lid), None)
+    if not x:
+        sys.exit("unbekannte id: " + lid)
+    d = linkinfo.info(x["url"])
+    if x.get("note"):
+        d["shared_text"] = x["note"]
+    print(json.dumps(d, ensure_ascii=False, indent=1))
+
+
+def done(lid, spot):
+    d = bp.load_json(DONE, {})
+    d[lid] = spot
+    bp.save_json(DONE, d)
 
 
 def show(code):
@@ -99,6 +127,10 @@ if __name__ == "__main__":
         show(sys.argv[2])
     elif cmd == "add-post":
         add_post(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None)
+    elif cmd == "link":
+        link(sys.argv[2])
+    elif cmd == "done":
+        done(sys.argv[2], " ".join(sys.argv[3:]) or "erledigt")
     elif cmd == "skip":
         skip(sys.argv[2], " ".join(sys.argv[3:]) or "übersprungen")
     else:
