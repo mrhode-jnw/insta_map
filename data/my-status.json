@@ -331,7 +331,8 @@
  },
  "hk-neon-pat-chun-yau-woo-building": {
   "prio": "mittel",
-  "fav": true
+  "fav": true,
+  "done": true
  },
  "hk-united-mansion-jordan": {
   "prio": "gering"
