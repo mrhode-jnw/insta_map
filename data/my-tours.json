@@ -29,12 +29,11 @@
  },
  {
   "id": "tmi14m",
-  "name": "Mi 14.10. Morgen – Taxi 6:10 · Choi Hung → Tsui Chuk (Sonne ab ~7:00) → Fat Kwong → Harbour Place · 8:30 Hotel",
+  "name": "Mi 14.10. Morgen – Taxi 6:30 · Fat Kwong → Tsui Chuk → Choi Hung · 8:30 Hotel",
   "stops": [
-   "hk-choi-hung-estate",
-   "hk-tsui-chuk-garden-drone",
    "hk-fat-kwong-street-flyover",
-   "hk-harbour-place-drone"
+   "hk-tsui-chuk-garden-drone",
+   "hk-choi-hung-estate"
   ],
   "created": "2026-10-12"
  }
