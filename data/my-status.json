@@ -156,7 +156,8 @@
   "prio": "gering"
  },
  "hk-third-street": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "done": true
  },
  "hk-north-point-road-tram-station": {
   "prio": "hoch",
