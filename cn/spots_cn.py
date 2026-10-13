@@ -26,6 +26,7 @@ POSTS = {
  51: ("blackmobil", "p", "DRj2euBD9iL"), 52: ("audityawijaya", "p", "DdbiIBKDzBf"), 53: ("wiwa_b", "p", "DdOSqMYjosy"),
  54: ("theglobalphotographycommunity_", "p", "Dd5iOWACpW4"),
  55: ("vladivals", "reel", "DeHNEfvzPOZ"),
+ 56: ("amberroselle", "p", "DZC0QBGDJJJ"), 57: ("tomrus", "p", "DSCYX08AvZ6"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -175,6 +176,8 @@ SPOTS = [
   [(30, 8), (30, 11), (21, 17)], ""),
  ("Canton Tower 广州塔", 23.108783, 113.317961, False, "Guangzhou", "Neon",
   [(16, 1)], "Skyline am Perlfluss nach Einbruch der Dunkelheit."),
+ ("Vanke Cloud City Tower aus der Urban-Village-Gasse 万科云城", 22.5767, 113.9387, True, "Nanshan (Xili), Shenzhen", "Architektur",
+  [(56, 1), (56, 2), (56, 3), (57, 1)], "Nachtmotiv: enge Gasse eines Urban Village (城中村), am Ende der beleuchtete Turm von 万科云城 Vanke Cloud City (Phase 6, in Abschnitte mit Himmelsplattformen gestaffelt, goldene Lamellen). Ort laut Caption „Vanke Cloud City, Nanshan“; MTR Linie 5/7 Xili bzw. Liuxiandong. Abends ab Einbruch der Dunkelheit, Personen als Silhouette in der Gasse. Die genaue Gasse ist nicht bekannt – vor Ort in den Urban Villages rund um Vanke Cloud City (z. B. 留仙洞村 im Nordwesten) nach der Blickachse auf den Turm suchen."),
  ("Shenzhen Futian Skyline 平安金融中心", 22.536412, 114.050471, True, "Futian, Shenzhen", "Architektur",
   [25, 16], "Futuristische Skyline nach Einbruch der Dunkelheit; mit Guangzhou kombinierbar."),
  ("Qingdao Haitian Center 青岛海天中心", 36.0562, 120.3649, True, "Shinan, Qingdao", "Neon",

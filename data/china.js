@@ -2853,6 +2853,68 @@ window.PLACES_CN = [
   "when": "both"
  },
  {
+  "id": "cn-vanke-cloud-city-tower-aus-der-urban-village-gas",
+  "region": "cn",
+  "name": "Vanke Cloud City Tower aus der Urban-Village-Gasse 万科云城",
+  "district": "Nanshan (Xili), Shenzhen",
+  "category": "Architektur",
+  "note": "Nachtmotiv: enge Gasse eines Urban Village (城中村), am Ende der beleuchtete Turm von 万科云城 Vanke Cloud City (Phase 6, in Abschnitte mit Himmelsplattformen gestaffelt, goldene Lamellen). Ort laut Caption „Vanke Cloud City, Nanshan“; MTR Linie 5/7 Xili bzw. Liuxiandong. Abends ab Einbruch der Dunkelheit, Personen als Silhouette in der Gasse. Die genaue Gasse ist nicht bekannt – vor Ort in den Urban Villages rund um Vanke Cloud City (z. B. 留仙洞村 im Nordwesten) nach der Blickachse auf den Turm suchen.",
+  "address": "Nanshan (Xili), Shenzhen",
+  "lat": 22.5767,
+  "lng": 113.9387,
+  "approx": true,
+  "image": "images/DZC0QBGDJJJ_1.jpg",
+  "caption": "The architecture in Shenzhen was mind-blowing.\n📍Vanke Cloud City, Nanshan, #shenzhen #deceptive_cities #photocinematica #withmytamron #natgeoyourshotbotw",
+  "post_url": "https://www.instagram.com/amberroselle/p/DZC0QBGDJJJ/?img_index=1",
+  "username": "amberroselle",
+  "profile_url": "https://www.instagram.com/amberroselle/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/amberroselle/p/DZC0QBGDJJJ/?img_index=1",
+    "username": "amberroselle",
+    "profile_url": "https://www.instagram.com/amberroselle/",
+    "kind": "p",
+    "image": "images/DZC0QBGDJJJ_1.jpg",
+    "caption": "The architecture in Shenzhen was mind-blowing.\n📍Vanke Cloud City, Nanshan, #shenzhen #deceptive_cities #photocinematica #withmytamron #natgeoyourshotbotw",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/amberroselle/p/DZC0QBGDJJJ/?img_index=2",
+    "username": "amberroselle",
+    "profile_url": "https://www.instagram.com/amberroselle/",
+    "kind": "p",
+    "image": "images/DZC0QBGDJJJ_2.jpg",
+    "caption": "The architecture in Shenzhen was mind-blowing.\n📍Vanke Cloud City, Nanshan, #shenzhen #deceptive_cities #photocinematica #withmytamron #natgeoyourshotbotw",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/amberroselle/p/DZC0QBGDJJJ/?img_index=3",
+    "username": "amberroselle",
+    "profile_url": "https://www.instagram.com/amberroselle/",
+    "kind": "p",
+    "image": null,
+    "caption": "The architecture in Shenzhen was mind-blowing.\n📍Vanke Cloud City, Nanshan, #shenzhen #deceptive_cities #photocinematica #withmytamron #natgeoyourshotbotw",
+    "match": "slide",
+    "slide": 3,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/tomrus/p/DSCYX08AvZ6/?img_index=1",
+    "username": "tomrus",
+    "profile_url": "https://www.instagram.com/tomrus/",
+    "kind": "p",
+    "image": "images/DSCYX08AvZ6_1.jpg",
+    "caption": "Somewhere in Shenzhen//На улицах Шэньчжэня #sonyalpha #cityscape #china #shenzhen",
+    "match": "slide",
+    "slide": 1
+   }
+  ],
+  "when": "both"
+ },
+ {
   "id": "cn-shenzhen-futian-skyline",
   "region": "cn",
   "name": "Shenzhen Futian Skyline 平安金融中心",
