@@ -16,7 +16,7 @@ DATA = ROOT / "data"
 TAX = json.loads((DATA / "taxonomy.json").read_text())
 CATS = {c["id"] for c in TAX["categories"]}
 PUBLIC = ["id", "category", "place", "country", "lang", "headline", "teaser", "detail", "sources", "tags",
-          "era", "gross", "sensitive", "kids", "verified", "expires"]
+          "era", "gross", "sensitive", "kids", "fun", "verified", "expires"]
 
 
 def fid(f):
@@ -50,7 +50,7 @@ def main(src):
                 continue
             f.setdefault("lang", "de")
             f.setdefault("verified", datetime.date.today().isoformat())
-            f["id"] = fid(f)
+            f["id"] = f.get("id") or fid(f)
             out = {k: f.get(k) for k in PUBLIC if f.get(k) is not None}
             out["sources"] = [{k: s.get(k) for k in ("title", "publisher", "date", "url") if s.get(k)} for s in f["sources"]]
             packs.setdefault(pack_of(f), {})[f["id"]] = out

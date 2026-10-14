@@ -131,6 +131,8 @@
     for (const t of f.tags || []) s += (pt[t] || 0) + (S.tagW[t] || 0);
     if (era && f.era === era) s += 1;
     if (S.profile.kidsMode && f.kids) s += 0.5;
+    // Skurril-Faktor: schräge Fakten kommen deutlich öfter, Schulbuchwissen seltener
+    s *= [0.35, 0.65, 1, 1.5, 2.2][(f.fun || 3) - 1] ?? 1;
     return Math.max(0.1, s);
   }
   // Mischt so, dass möglichst nie zwei Karten derselben Kategorie aufeinander folgen
@@ -270,9 +272,9 @@
     </article>`;
   }
   const rateHTML = (a = "rate") => `<div class="rate">
-      <button class="btn" data-a="${a}" data-v="kannte">Kannte ich</button>
-      <button class="btn primary" data-a="${a}" data-v="neu">Neu!</button>
-      <button class="btn" data-a="${a}" data-v="langweilig">Langweilig</button>
+      <button class="btn" data-a="${a}" data-v="kannte">Wusst ich</button>
+      <button class="btn primary" data-a="${a}" data-v="neu">🤯 Krass!</button>
+      <button class="btn" data-a="${a}" data-v="langweilig">😴 Meh</button>
     </div>`;
 
   // Wischen = weiter, Tippen = Details
@@ -611,7 +613,7 @@
       case 7: return {
         body: `<div class="big-emoji">🚀</div><h1>Alles bereit</h1>
           <p>Dein erster Stapel wartet: bis zu ${S.perDay} Fakten in Runden zu ${CFG.roundSize || 20}.</p>
-          <p class="muted">Mit „Neu!“, „Kannte ich“ und „Langweilig“ wird der Stapel jeden Tag besser. Alles lässt sich später unter „Profil“ ändern.</p>`,
+          <p class="muted">Mit „Krass!“, „Wusst ich“ und „Meh“ wird der Stapel jeden Tag besser. Alles lässt sich später unter „Profil“ ändern.</p>`,
         next: "Ersten Stapel öffnen" };
     }
   }
@@ -622,8 +624,9 @@
   }
   function calibFacts() {
     const seenCats = new Set(), out = [];
-    const pool = FACTS.filter(f => !f.place && f.category !== "aktuell" && !f.gross && !f.sensitive && !S.seen[f.id])
-      .sort(() => Math.random() - 0.5);
+    // die schrägsten Fakten zuerst, damit der erste Eindruck stimmt
+    const pool = FACTS.filter(f => !f.place && !f.country && f.category !== "aktuell" && !f.gross && !f.sensitive && !S.seen[f.id])
+      .map(f => ({ f, r: (f.fun || 3) + Math.random() * 1.5 })).sort((x, y) => y.r - x.r).map(x => x.f);
     for (const f of pool) { if (out.length >= 8) break; if (!seenCats.has(f.category)) { seenCats.add(f.category); out.push(f.id); } }
     return out;
   }
