@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Unnützes Wissen</title>
+<meta name="description" content="Überraschende, belegte Fakten zum Durchblättern.">
+<meta name="theme-color" content="#1f6f68">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  body { padding-bottom: 32px; }
+  #app { padding-bottom: 32px; }
+  .hero { margin: 8px 0 16px; }
+  .hero .kicker { font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--brand); }
+  .hero h1 { font-size: 2rem; margin: 4px 0 6px; }
+  .filters { display: flex; gap: 8px; overflow-x: auto; margin: 0 -16px 16px; padding: 0 16px 4px; scrollbar-width: none; }
+  .filters::-webkit-scrollbar { display: none; }
+  .filters .pill { flex: none; white-space: nowrap; min-height: 40px; }
+  .feed { display: flex; flex-direction: column; gap: 16px; }
+  .feed .card { min-height: 0; cursor: pointer; }
+  .feed .card h2 { margin-top: 12px; font-size: 1.3rem; }
+  .feed .card .teaser { flex: none; }
+  .open .more-body { display: block; }
+  .more-body { display: none; margin-top: 8px; }
+  .more-body p { font-size: .98rem; }
+  .card-actions { display: flex; gap: 8px; margin-top: 12px; }
+  .card-actions .btn { min-height: 40px; padding: 0 14px; font-size: .85rem; }
+  .foot { text-align: center; color: var(--text-2); font-size: .85rem; margin: 32px 0 8px; }
+</style>
+</head>
+<body class="no-tabs">
+<div id="app"><p class="muted center" style="margin-top:40vh">Lade Fakten …</p></div>
+<div id="toast" role="status" hidden></div>
+<script src="teilen.js"></script>
+</body>
+</html>
