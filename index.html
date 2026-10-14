@@ -475,16 +475,22 @@
   // Standard: drehbare Google-Vektorkarte (gleaflet.js übersetzt die Leaflet-Aufrufe).
   // Klassische Karte (Leaflet, Google-Kacheln/OpenStreetMap): mit ?klassisch, automatisch wenn Google nicht lädt
   // oder der letzte Standort in Festland-China liegt (Google ist dort gesperrt und seine Straßenkarte verschoben).
+  // Festland-China (ohne Hongkong, Macau, Taiwan): Google-Straßenkarte ist dort ins GCJ-02-System verschoben (~300–600 m)
+  window.inMainland = p => {
+    if (!p) return false;
+    // Grenze Hongkong/Shenzhen (Shenzhen River, Deep Bay) grob als Linie: nördlich davon ist Festland
+    const B = [[113.80, 22.47], [113.93, 22.475], [113.98, 22.50], [114.05, 22.51], [114.10, 22.535], [114.20, 22.55], [114.45, 22.56]];
+    const north = lng => { for (let i = 1; i < B.length; i++) if (lng <= B[i][0]) { const [x0, y0] = B[i - 1], [x1, y1] = B[i]; return y0 + (y1 - y0) * (lng - x0) / (x1 - x0); } return 22.56; };
+    const hk = p.lng > 113.82 && p.lng < 114.45 && p.lat > 22.13 && p.lat < north(p.lng);
+    const mo = p.lng > 113.52 && p.lng < 113.61 && p.lat > 22.10 && p.lat < 22.22;
+    return p.lat > 18 && p.lat < 54 && p.lng > 73 && p.lng < 135 && !hk && !mo && !(p.lng > 119.3 && p.lat < 25.5);
+  };
+  window.LAST_POS = (() => { try { return JSON.parse(localStorage.getItem("lastPos") || "null"); } catch { return null; } })();
   window.GMAP_MODE = (() => {
     const q = location.search;
     if (/[?&]google\b/.test(q)) return true;
     if (/[?&](klassisch|drehbar)\b/.test(q)) return false;
-    try {
-      const p = JSON.parse(localStorage.getItem("lastPos") || "null");
-      const hkMo = p && p.lat > 22.05 && p.lat < 22.57 && p.lng > 113.5 && p.lng < 114.45;
-      if (p && p.lat > 18 && p.lat < 54 && p.lng > 73 && p.lng < 135 && !hkMo && !(p.lng > 119.3 && p.lat < 25.5)) return false;
-    } catch {}
-    return true;
+    return !inMainland(LAST_POS);
   })();
   document.write(GMAP_MODE ? '<script src="gleaflet.js"><\/script>'
     : '<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"><\/script><script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"><\/script>');
@@ -547,7 +553,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   });
 
   // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
-  const gKey = ROTATE ? "" : (unlockedKey || "").trim();  // Google-Kacheln lassen sich nicht drehen
+  // Google-Kacheln lassen sich nicht drehen; in Festland-China passt die Google-Straßenkarte nicht zu GPS/Spots → OpenStreetMap
+  const CN_OSM = inMainland(LAST_POS) && !/[?&]google\b/.test(location.search);
+  const gKey = ROTATE || CN_OSM ? "" : (unlockedKey || "").trim();
   if (GMAP) L.control.layers({ "Google Karte": "roadmap", "Google Satellit": "hybrid" }, null, { position: "topright" }).addTo(map);
   else if (ROTATE) {
     const sat = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
@@ -1618,10 +1626,31 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     clearTimeout(toast.t); toast.t = setTimeout(() => t.style.display = "none", ms); };
   let meMarker = null, meCircle = null, watchId = null, follow = false, lastListUpdate = 0;
 
+  // Kartenwahl passt nicht zum Standort (z.B. gerade nach Festland-China gereist) → einmal neu laden mit passender Karte
+  function switchMapForRegion(p) {
+    const q = location.search, wantOsm = inMainland(p), haveGoogle = !!(GMAP || gKey);
+    let target = null;
+    if (wantOsm && haveGoogle && !/[?&]google\b/.test(q)) target = "?klassisch";                   // nach China gereist
+    else if (!wantOsm && !haveGoogle && !/[?&](klassisch|drehbar)\b/.test(q)) target = "";        // wieder draußen (Karte stand automatisch auf OSM)
+    else if (!wantOsm && !haveGoogle && /[?&]klassisch\b/.test(q) && CN_OSM) target = "";         // ?klassisch kam vom automatischen Wechsel
+    if (target === null) return;
+    try { if (sessionStorage.getItem("mapSwitched")) return; sessionStorage.setItem("mapSwitched", "1"); } catch {}
+    toast(wantOsm ? "🇨🇳 Festland-China erkannt – wechsle auf OpenStreetMap (Google-Karte ist hier verschoben)" : "Nicht mehr in Festland-China – wechsle zurück auf Google Maps", 3500);
+    setTimeout(() => location.replace(location.pathname + target + location.hash), 2500);
+  }
+  // Beim Start: Standortfreigabe schon erteilt → still einmal prüfen, ob die Kartenwahl zum Ort passt
+  try { navigator.permissions && navigator.permissions.query({ name: "geolocation" }).then(r => {
+    if (r.state === "granted") navigator.geolocation.getCurrentPosition(pos => {
+      const p = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+      try { localStorage.setItem("lastPos", JSON.stringify({ lat: +p.lat.toFixed(2), lng: +p.lng.toFixed(2) })); } catch {}
+      switchMapForRegion(p);
+    }, () => {}, { maximumAge: 10 * 60e3, timeout: 15000 });
+  }).catch(() => {}); } catch {}
   function onPos(pos) {
     const first = !me;
     me = { lat: pos.coords.latitude, lng: pos.coords.longitude };
     try { localStorage.setItem("lastPos", JSON.stringify({ lat: +me.lat.toFixed(2), lng: +me.lng.toFixed(2) })); } catch {}  // für die Kartenwahl beim nächsten Start
+    switchMapForRegion(me);
     const ll = [me.lat, me.lng];
     if (!meMarker) {
       meCircle = L.circle(ll, { radius: pos.coords.accuracy, color: "#2563eb", weight: 1, fillOpacity: .1 }).addTo(map);
