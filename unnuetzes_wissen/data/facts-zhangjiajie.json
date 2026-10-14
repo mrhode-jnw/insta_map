@@ -1,5 +1,1907 @@
 [
  {
+  "id": "ort-c06252",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Chinas ältestes Einmaleins lag in einem Brunnen",
+  "teaser": "2002 zogen Archäologen in Liye (Westhunan) über 36.000 beschriftete Qin-Täfelchen aus einem alten Brunnen. Mittendrin: eine komplette Einmaleins-Tabelle, rund 2.200 Jahre alt.",
+  "detail": "Eigentlich war es eine Notgrabung: Für ein Wasserkraftwerk am Fluss You sollten Teile von Liye im Kreis Longshan unter Wasser verschwinden. Am 3. Juni 2002 tauchte in einem Brunnen der alten Stadtanlage das erste beschriftete Täfelchen auf, am Ende waren es über 36.000 – die Akten einer Qin-Kreisverwaltung.\n\nEines davon ist voller Zahlen: das Einmaleins, rückwärts von „neun mal neun ist einundachtzig“ bis „zwei mal ein halb ist eins“. Laut dem Archäologen Gao Chongwen ist es der früheste Sachbeweis für die chinesische Einmaleins-Tabelle.\n\nPlatzsparend ist sie auch: Nur 38 Einträge, weil die meisten „eins mal …“-Rechnungen fehlen. Das konnte man offenbar auch ohne Spickzettel. Heute ist das 23 Zentimeter lange Täfelchen das Prunkstück des Qin-Täfelchen-Museums in Liye.",
+  "sources": [
+   {
+    "title": "里耶秦简：“复活”秦历史",
+    "publisher": "中国新闻网 / 新湖南",
+    "date": "2023-07-18",
+    "url": "https://www.chinanews.com.cn/cul/2023/07-18/10045077.shtml"
+   },
+   {
+    "title": "古代入职门槛：会背九九乘法表",
+    "publisher": "澎湃新闻（澎湃号）",
+    "date": "2023-03-02",
+    "url": "https://www.thepaper.cn/newsDetail_forward_22138748"
+   }
+  ],
+  "tags": [
+   "china",
+   "mathematik",
+   "schrift"
+  ],
+  "era": "antike",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "rekord",
+   "erfindung"
+  ],
+  "wiki": "Liye Qin slips",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-6c2b42",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Amtsboot geliehen, nie zurückgegeben – seit 221 v. Chr.",
+  "teaser": "221 v. Chr. lieh sich ein Mann namens Lang in Liye ein Amtsboot, angeblich für die Suche nach alten Ziegeln. Er brachte es nie zurück. Die Akte dazu existiert noch.",
+  "detail": "Unter den Qin-Täfelchen aus dem Brunnen von Liye steckt ein Fall, der jedem Sachbearbeiter vertraut vorkommen dürfte. Im achten Monat des 26. Regierungsjahres des ersten Kaisers, also 221 v. Chr., tauchte ein gewisser Lang aus einem fernen Kreis im heutigen Hubei auf.\n\nSein Anliegen: Er wolle Ziegel suchen, die noch aus der Zeit des Chu-Reichs stammten, und brauche dafür ein Boot. Die Kreisverwaltung lieh ihm eines – ohne Bürgschaft, ohne Pfand. Lang gab es nie zurück und hinterließ den zuständigen Beamten jede Menge Ärger.\n\nLaut dem Bericht über die Funde ist so ein Fall in keiner anderen Quelle der Zeit belegt. Ein Kaiserreich, das Maße und Schrift vereinheitlichte, scheiterte also an einem geliehenen Boot.",
+  "sources": [
+   {
+    "title": "里耶秦简：“复活”秦历史",
+    "publisher": "中国新闻网 / 新湖南",
+    "date": "2023-07-18",
+    "url": "https://www.chinanews.com.cn/cul/2023/07-18/10045077.shtml"
+   }
+  ],
+  "tags": [
+   "china",
+   "schifffahrt",
+   "recht"
+  ],
+  "era": "antike",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "panne"
+  ],
+  "wiki": "Liye Qin slips",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-00edb9",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Akten verbrennen misslungen – der Brunnen hatte zu wenig Luft",
+  "teaser": "Als das Qin-Reich zerfiel, warf die Besatzung von Liye ihr Archiv in einen Brunnen und legte Feuer. Es brannte schlecht. So überlebte das einzige bekannte Behördenarchiv der Qin.",
+  "detail": "Am Ende der Qin-Dynastie brannte es überall: Aufständische erhoben sich, auch im ehemaligen Chu-Land rund um das Grenzstädtchen Qianling, heute Liye. Die Qin-Besatzung warf in der Eile Zehntausende Verwaltungstäfelchen in den Brunnen und versuchte, sie anzuzünden. Brandspuren an einigen Funden zeigen das noch heute.\n\nNur fehlte unten im Schacht der Sauerstoff, das Feuer kam nicht richtig in Gang. Übrig blieben rund 200.000 Schriftzeichen Alltag: Steuern, Speicher, Post, Gericht, Medizin. Fachleute nennen es das bislang einzige erhaltene Regierungsarchiv der Qin.\n\nUnd es korrigierte die Geschichtsbücher: Eine Kommandantur namens Dongting kommt weder im „Shiji“ noch im „Hanshu“ vor – in den geretteten Akten schon. Die schlechteste Aktenvernichtung der Antike war ein Glücksfall.",
+  "sources": [
+   {
+    "title": "里耶秦简：“复活”秦历史",
+    "publisher": "中国新闻网 / 新湖南",
+    "date": "2023-07-18",
+    "url": "https://www.chinanews.com.cn/cul/2023/07-18/10045077.shtml"
+   }
+  ],
+  "tags": [
+   "china",
+   "schrift",
+   "chemie"
+  ],
+  "era": "antike",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "panne"
+  ],
+  "wiki": "Liye Qin slips",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-92949e",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Qin-Akten: Häftlinge mussten ihr Opferfleisch selbst bezahlen",
+  "teaser": "Die Behördentäfelchen aus Liye zeigen den Qin-Alltag erstaunlich kleinlich: Schulden beim Amt wurden abgearbeitet, und zwei Strafarbeiter mussten für Fleisch von einer Opferfeier zahlen.",
+  "detail": "Das Qin-Reich gilt als streng – die Akten aus dem Brunnen von Liye zeigen, wie streng im Kleinen. Wer der Behörde Geld schuldete, musste die Summe durch Arbeitsdienst abtragen, Ausreden zählten nicht.\n\nBesonders schön ist ein Eintrag über eine Opferfeier: Zwei Strafarbeiter, in den Akten mit den Namen He und Zui notiert, bekamen ihren Anteil an den Opfergaben nicht umsonst wie andere, sondern mussten ihn kaufen. Vermutlich wegen ihres Status als Sträflinge.\n\nDazu kommen Notizen zu Zeitmessern, mit denen sich Abläufe laut den Auswertungen auf wenige Minuten genau festhalten ließen, und Listen über den monatlichen Getreideverbrauch der Truppe. Über 2.000 Jahre später kennt man so den Kleinkram einer Kreisstadt, die in keiner Chronik vorkam.",
+  "sources": [
+   {
+    "title": "里耶秦简：“复活”秦历史",
+    "publisher": "中国新闻网 / 新湖南",
+    "date": "2023-07-18",
+    "url": "https://www.chinanews.com.cn/cul/2023/07-18/10045077.shtml"
+   }
+  ],
+  "tags": [
+   "china",
+   "recht",
+   "zeit"
+  ],
+  "era": "antike",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "gesetz",
+   "geld"
+  ],
+  "wiki": "Liye Qin slips",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-a28cb5",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Star-Autor an der Tafel: „Ich habe Angst“",
+  "teaser": "Shen Congwen aus Fenghuang, Grundschule nicht beendet, sollte um 1929 an einer Shanghaier Hochschule lehren. Er stand stumm da und schrieb schließlich an die Tafel, er habe Angst.",
+  "detail": "Shen Congwen war Ex-Soldat aus Fenghuang, hatte nicht einmal die Grundschule abgeschlossen und soll anfangs nicht mal Satzzeichen beherrscht haben. Trotzdem holte ihn Hu Shi, Rektor der Hochschule Zhongguo Gongxue in Shanghai, als Dozenten.\n\nDie erste Stunde: Shen stand vor einem vollen Saal und sagte rund zehn Minuten lang nichts. Dann rasselte er in zehn Minuten herunter, was für über eine Stunde gedacht war. Wieder Stille. Schließlich schrieb er an die Tafel, sinngemäß: „Heute stehe ich zum ersten Mal vorn, es sind so viele Leute da, ich habe Angst.“ Der Saal lachte. Der genaue Wortlaut schwankt je nach Bericht.\n\nUnter den Lachenden saß Zhang Zhaohe. Sie wurde später seine Frau. Er selbst wurde einer der größten Erzähler Chinas.",
+  "sources": [
+   {
+    "title": "沈从文蜜月与女家教偷情 向林徽因诉婚外情痛苦",
+    "publisher": "中国作家网 / 半岛晨报",
+    "date": "2013-07-29",
+    "url": "https://www.chinawriter.com.cn/2013/2013-07-29/168991.html"
+   },
+   {
+    "title": "沈从文曾苦追张兆和引反感 校长胡适劝其放手",
+    "publisher": "中国新闻网 / 银川晚报",
+    "date": "2011-11-02",
+    "url": "https://www.chinanews.com.cn/cul/2011/11-02/3431883.shtml"
+   },
+   {
+    "title": "我的妹夫沈从文（张允和）",
+    "publisher": "人民文摘（人民日报社）",
+    "date": "2009-11-01",
+    "url": "https://paper.people.com.cn/rmwz/html/2009-11/01/content_392641.htm"
+   }
+  ],
+  "tags": [
+   "china",
+   "literatur",
+   "bildung"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "panne"
+  ],
+  "wiki": "Shen Congwen",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-329c35",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Sie nummerierte Verehrer – er galt als „Kröte Nr. 13“",
+  "teaser": "Studentin Zhang Zhaohe hob Liebesbriefe auf und versah sie mit Nummern. Ihr Dozent Shen Congwen schrieb so viele, dass sie sich bei Rektor Hu Shi beschwerte. Der warb für Shen.",
+  "detail": "Zhang Zhaohe hatte viele Verehrer. Laut ihrer Schwester Zhang Yunhe zerriss sie die Briefe nicht, sondern sammelte und nummerierte sie. Spätere Erzählungen machen daraus „Frosch Nr. 1, Nr. 2 …“ – Shen Congwen, ohne Abschluss und ohne Auslandsstudium, sei bestenfalls „Kröte Nr. 13“ gewesen.\n\nShens Briefe wurden ihr zu viel. Sie ging zu Rektor Hu Shi: Der Lehrer schreibe ihr unpassende Briefe! Hu Shi: „Was ist daran schlimm? Ich bin Landsmann deines Vaters, soll ich mit ihm reden?“ – „Bloß nicht!“ – „Ich weiß, Shen liebt dich hartnäckig.“ – „Und ich liebe ihn hartnäckig nicht!“\n\n1933 heirateten die beiden trotzdem. Und Jahrzehnte später stritt Zhang Zhaohe ab, den berühmten Satz je gesagt zu haben.",
+  "sources": [
+   {
+    "title": "我的妹夫沈从文（张允和）",
+    "publisher": "人民文摘（人民日报社）",
+    "date": "2009-11-01",
+    "url": "https://paper.people.com.cn/rmwz/html/2009-11/01/content_392641.htm"
+   },
+   {
+    "title": "沈从文蜜月与女家教偷情 向林徽因诉婚外情痛苦",
+    "publisher": "中国作家网 / 半岛晨报",
+    "date": "2013-07-29",
+    "url": "https://www.chinawriter.com.cn/2013/2013-07-29/168991.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "literatur",
+   "familie"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "brauch"
+  ],
+  "wiki": "Shen Congwen",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-49a26a",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Heiratserlaubnis per Telegramm: ein einziges Zeichen",
+  "teaser": "Als der Vater der Braut zustimmte, kabelte ihre Schwester Shen Congwen nur „允“ – „erlaubt“ und zugleich ihr eigener Name. Die Braut schickte heimlich noch ein zweites Telegramm.",
+  "detail": "1933 war Shen Congwen Dozent in Qingdao und wartete auf ein Ja. Er bat Zhang Yunhe, die Schwester seiner Angebeteten, den Vater zu fragen: Wenn er zustimme, solle man „diesen Landeier ein Glas süßen Wein trinken lassen“.\n\nDer Vater war liberal und überließ die Wahl den Kindern. Zhang Yunhe rannte zur Post und telegrafierte an die Uni Qingdao: Shen Congwens Name und dahinter „允“. Das Zeichen heißt „erlauben“ – und ist zugleich der Name der Absenderin. Doppelt gemoppelt, perfekt gespart.\n\nDie Braut fürchtete allerdings, Shen könnte das Wortspiel nicht kapieren. Sie ging selbst zur Post und schickte: „Landei, trink ein Glas süßen Wein.“ Am 9. September 1933 heirateten die beiden in Peking.",
+  "sources": [
+   {
+    "title": "沈从文蜜月与女家教偷情 向林徽因诉婚外情痛苦",
+    "publisher": "中国作家网 / 半岛晨报",
+    "date": "2013-07-29",
+    "url": "https://www.chinawriter.com.cn/2013/2013-07-29/168991.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "sprache",
+   "familie"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "woerter"
+  ],
+  "wiki": "Shen Congwen",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-22556e",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Shen Congwen soll den Nobelpreis durch seinen Tod verpasst haben",
+  "teaser": "Shen Congwen aus Fenghuang soll 1987 und 1988 für den Literaturnobelpreis nominiert gewesen sein. Im Mai 1988 starb er. Tote bekommen den Preis nicht – ein Juror soll geweint haben.",
+  "detail": "Der Literaturwissenschaftler Wang Ning erzählt es 2019 in der Zeitung Wenhui Bao: 1987 flüsterte ihm ein Mitglied der Schwedischen Akademie in Peking zu, man ziehe Shen Congwen in Betracht. Er solle Material schicken.\n\nAm 10. Mai 1988 starb Shen. Der Sinologe und Nobel-Juror Göran Malmqvist, der Shen übersetzt hatte, wollte es nicht glauben, rief die chinesische Botschaft und einen befreundeten Kulturjournalisten an. Es stimmte. Laut Wang versuchte Malmqvist danach mehrfach, die Regel „nur Lebende“ zu kippen, und verließ nach dem letzten Fehlschlag weinend die Sitzung.\n\nDas alles ist Wangs Darstellung, prüfen lässt sie sich noch nicht: Nominierungsunterlagen bleiben beim Nobelkomitee 50 Jahre unter Verschluss. Für 1988 also bis 2038.",
+  "sources": [
+   {
+    "title": "怀念马悦然先生",
+    "publisher": "中国作家网 / 文汇报（王宁）",
+    "date": "2019-10-28",
+    "url": "https://www.chinawriter.com.cn/n1/2019/1028/c404091-31422739.html"
+   },
+   {
+    "title": "著名汉学家马悦然去世，享年95岁",
+    "publisher": "澎湃新闻",
+    "date": "2019-10-18",
+    "url": "https://www.thepaper.cn/newsDetail_forward_4713481"
+   }
+  ],
+  "tags": [
+   "china",
+   "literatur"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "panne"
+  ],
+  "wiki": "Göran Malmqvist",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-01a539",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Der Affe auf Chinas Kult-Briefmarke war das Haustier des Malers",
+  "teaser": "1980 erschien Chinas erste Tierkreis-Briefmarke: ein Affe für 8 Fen. Huang Yongyu aus Fenghuang malte ihn nach seinem eigenen Hausaffen. Ein Bogen kostete 2016 fast 1,5 Millionen Yuan.",
+  "detail": "In den 1970ern schenkte ein Freund dem Maler Huang Yongyu einen Affen namens Yiwo. Der saß ihm überall auf der Schulter. Als die Post 1979 einen Entwurf wollte, malte Huang zur Erinnerung genau diesen Affen.\n\nDie Marke kam am Vorabend des chinesischen Neujahrs heraus, am 15. Februar 1980, Nennwert 8 Fen. Das aufwendige Druckverfahren hatte viel Ausschuss, gedruckt wurden nur gut 4,4 Millionen Stück. Laut einem Bericht von 2016 war der Wert um fast das 200.000-Fache gestiegen, ein 80er-Bogen kostete knapp 1,5 Millionen Yuan.\n\nUm 1985 wollte ein Sammler aus den Philippinen Huangs Vorskizze sogar gegen einen VW Santana tauschen. Nur: Huang hatte sie längst einem Freund geschenkt. Und der gab sie nicht mehr her, als er hörte, was sie wert ist.",
+  "sources": [
+   {
+    "title": "“猴票她爹”黄永玉",
+    "publisher": "环球人物（人民日报社）",
+    "date": "2016-02-06",
+    "url": "https://paper.people.com.cn/hqrw/html/2016-02/06/content_1668884.htm"
+   },
+   {
+    "title": "《庚申年》猴票原图展出 由黄永玉设计",
+    "publisher": "中国新闻网",
+    "date": "2016-01-12",
+    "url": "https://www.chinanews.com/cul/2016/01-12/7712786.shtml"
+   }
+  ],
+  "tags": [
+   "china",
+   "kunst",
+   "geld",
+   "tiere"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "geld",
+   "tiere"
+  ],
+  "wiki": "Huang Yongyu",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-d4ffc4",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Briefmarkenentwurf abgelehnt: Der Hund pinkelte",
+  "teaser": "Für das Hundejahr 2006 bat Chinas Post erneut Huang Yongyu um einen Entwurf. Er malte gern und gut gelaunt – einen pinkelnden Hund. Auf die Marke kam der nicht.",
+  "detail": "Nach seinem berühmten Affen von 1980 war Huang Yongyu aus Fenghuang für die Post der Mann für Tierkreiszeichen. Für die dritte Serie fragte man ihn nach dem Hund für 2006.\n\nHuang zeichnete, „und zwar sehr vergnügt“, wie der Post-Manager Gao Shan erzählt: einen kleinen Hund beim Pinkeln. Gao lacht noch Jahre später darüber, verwendet wurde der Entwurf aber nicht.\n\nDer Spaß ging weiter: 2015, mit 92, sollte Huang wieder einen Affen malen. Den Vertrag schickte er zurück. Geld und Originale seien kein Problem, aber da stünden nur „muss“ und „andernfalls“, kein einziges „bitte“. Als sich die Post entschuldigte, scherzte er: „Heute gibt’s zwar keinen Trauschein, aber Händchenhalten geht schon.“",
+  "sources": [
+   {
+    "title": "“猴票她爹”黄永玉",
+    "publisher": "环球人物（人民日报社）",
+    "date": "2016-02-06",
+    "url": "https://paper.people.com.cn/hqrw/html/2016-02/06/content_1668884.htm"
+   }
+  ],
+  "tags": [
+   "china",
+   "kunst",
+   "hunde"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "panne",
+   "tiere"
+  ],
+  "wiki": "Huang Yongyu",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-5751d4",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Ein Ochse ohne Ohren – jahrzehntelang merkte es keiner",
+  "teaser": "2015 malte Huang Yongyu für eine Briefmarke eine Affenhand verkehrt herum. Auf den Fehler angesprochen, gestand er: Einem seiner Holzschnitt-Ochsen fehlten die Ohren – aufgefallen erst Jahrzehnte später.",
+  "detail": "Huang Yongyu war 92, als er die Affen für das Jahr 2016 zeichnete. Die Gestalter der Post entdeckten, dass bei einem Affen die Finger in die falsche Richtung zeigten, und korrigierten es im Markenbild.\n\nHuang verglich links, verglich rechts und lachte: „Stimmt, stimmt! Die Pfote muss andersrum. Ich war schlampig, ihr seid gründlich.“ Dann erzählte er, dass er einst einen kleinen Holzschnitt mit einem Ochsen abgeliefert hatte. Alle waren zufrieden. Erst Jahrzehnte später fiel auf: Der Ochse hatte keine Ohren.\n\nDabei hatte er einen strengen Aufpasser: seinen Onkel Shen Congwen, ebenfalls aus Fenghuang. Der sei früher bei jeder Schlamperei von seiner Pekinger Gasse bis zu Huangs Gasse gelaufen, um ihn zusammenzustauchen.",
+  "sources": [
+   {
+    "title": "“猴票她爹”黄永玉",
+    "publisher": "环球人物（人民日报社）",
+    "date": "2016-02-06",
+    "url": "https://paper.people.com.cn/hqrw/html/2016-02/06/content_1668884.htm"
+   }
+  ],
+  "tags": [
+   "china",
+   "kunst"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "panne"
+  ],
+  "wiki": "Huang Yongyu",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-72f56c",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Ein Maler taufte den Schnaps einfach „Säufer“",
+  "teaser": "Der Baijiu aus Jishou heißt Jiugui – umgangssprachlich „Säufer“, wörtlich „Schnapsgeist“. Name und Flasche im Jutesack-Look stammen von Huang Yongyu. „Säufer“ fand er einen lustigen, liebenswerten Namen.",
+  "detail": "Als die Brennerei in Westhunan in den 1980ern einen Auftritt suchte, kam der Maler Huang Yongyu mit einem flachen Tonkrug, der aussieht wie ein zugenähter Jutesack. Dazu der Name Jiugui: „Rauchteufel oder Lustmolch klingen nicht gut, aber Säufer ist doch ein lustiger, liebenswerter Name!“ Er malte sogar „Ein Säufer trägt einen Säufer“.\n\nHuang schrieb auch die Schriftzeichen auf der Flasche. Über 80-jährig entwarf er 2007 die neue Verpackung, mit dem Motto „Nicht unbetrunken bleiben, aber nicht zu betrunken werden“.\n\nDie Rechte daran überließ er einer Firma aus Jishou, die sie für 0 Yuan an die Brennerei weitergab – im Tausch gegen Vorrang bei Verpackungsaufträgen. Darüber stritten beide ab 2016 vor Gericht.",
+  "sources": [
+   {
+    "title": "“猴票她爹”黄永玉",
+    "publisher": "环球人物（人民日报社）",
+    "date": "2016-02-06",
+    "url": "https://paper.people.com.cn/hqrw/html/2016-02/06/content_1668884.htm"
+   },
+   {
+    "title": "酒鬼酒被告：新版包装陷使用权纠纷，系美术大师黄永玉设计",
+    "publisher": "澎湃新闻",
+    "date": "2018-01-14",
+    "url": "https://www.thepaper.cn/newsDetail_forward_1950026"
+   }
+  ],
+  "tags": [
+   "china",
+   "design",
+   "kunst"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": false,
+  "fun": 4,
+  "themes": [
+   "woerter",
+   "essen"
+  ],
+  "wiki": "Baijiu",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-356a1f",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "100 Millionen Yuan geparkt – Restguthaben: 1.176 Yuan",
+  "teaser": "Die Schnapsbrennerei Jiugui aus Westhunan legte 2013 100 Millionen Yuan bei einer Bank in Hangzhou an. Im Januar 2014 stand auf dem Kontoauszug: 1.176,03 Yuan.",
+  "detail": "Damals verbreitet: Brennereien legten Geld bei fremden Banken an, im Gegenzug sollten Vermittler Schnaps abnehmen und Zinsaufschläge zahlen. Jiugui überwies 100 Millionen Yuan nach Hangzhou.\n\nLaut Urteil führten Beteiligte eine Jiugui-Angestellte am Westsee spazieren, ihre Handtasche blieb im Auto. Darin: die Firmenstempel. Damit wurden Formulare abgestempelt, die Stempel wanderten zurück in die Tasche. Kurz darauf floss das Geld in drei Raten ab. Der Clou: Die versprochenen Zinsen und Schnapskäufe bezahlte man Jiugui mit Jiuguis eigenem Geld.\n\n2018 bestätigte Hunans Oberes Volksgericht die Betrugsurteile, auch gegen den Filialleiter. Die Bank musste 2020 rund 72 Millionen Yuan zahlen. Mit dem beschlagnahmten Geld bekam Jiugui am Ende 112,6 Millionen zurück.",
+  "sources": [
+   {
+    "title": "农行赔款7200万元，酒鬼酒亿元存款失踪案历时6年告结",
+    "publisher": "澎湃新闻",
+    "date": "2020-07-07",
+    "url": "https://www.thepaper.cn/newsDetail_forward_8157343"
+   }
+  ],
+  "tags": [
+   "china",
+   "kriminalitaet",
+   "finanzen"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 5,
+  "themes": [
+   "krimi",
+   "geld"
+  ],
+  "wiki": "Agricultural Bank of China",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-1b1a25",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Weichmacher im „Säufer“-Schnaps – Prüfer hatten gar keinen Test",
+  "teaser": "Im November 2012 meldete ein Portal, im Jiugui-Schnaps stecke 260 Prozent zu viel Weichmacher. Die Aktie wurde ausgesetzt. Peinlich: Weichmacher standen gar nicht im Prüfprogramm für Schnaps.",
+  "detail": "Das Portal 21世纪网 hatte eine Flasche Jiugui für 438 Yuan gekauft und testen lassen: 1,08 Milligramm des Weichmachers DBP pro Kilo. Ein Rundschreiben des Gesundheitsministeriums von 2011 nennt für Lebensmittel 0,3 Milligramm. Macht 260 Prozent drüber.\n\nAm 19. November 2012 ließ Jiugui seine Aktie vom Handel nehmen. Hunans Qualitätsaufsicht rückte an. Die peinliche Frage dabei: Die Schnaps-Kontrollen enthielten gar keinen Weichmacher-Test, man konnte nur den allgemeinen Lebensmittel-Richtwert heranziehen.\n\nJiugui testete selbst acht Proben, sieben ohne Befund. Der Verdacht der Brennerei: die zugekauften Plastik-Schraubverschlüsse. Man hatte sie sogar 48 Stunden in Schnaps eingelegt – und war, so ein Manager, „ziemlich ratlos“.",
+  "sources": [
+   {
+    "title": "湖南质监介入调查酒鬼酒塑化剂超标事件",
+    "publisher": "中国新闻网",
+    "date": "2012-11-21",
+    "url": "https://www.chinanews.com.cn/cj/2012/11-21/4344546.shtml"
+   },
+   {
+    "title": "酒鬼酒独家回应“塑化剂事件”：原因仍未查明",
+    "publisher": "每日经济新闻",
+    "date": "2012-11-19",
+    "url": "https://www.nbd.com.cn/articles/2012-11-19/695581.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "chemie",
+   "wirtschaft"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": false,
+  "fun": 3,
+  "themes": [
+   "essen",
+   "panne"
+  ],
+  "wiki": "Dibutyl phthalate",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-d6a74c",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Ein Scherz beim Gelage – und plötzlich war er verheiratet",
+  "teaser": "1910 lobte der Offizier Chen Qubing aus Fenghuang in Tibet bei einem Festessen eine junge Reiterin. Der Gastgeber bot sie ihm zur Frau an. Chen hielt das für einen Witz.",
+  "detail": "Chen Qubing, Jahrgang 1882, diente als Offizier einer Qing-Truppe in Tibet. Ein befreundeter tibetischer Amtsträger lud ihn zum Essen, zur Unterhaltung gab es ein Reiterspiel: Frauen rissen im Galopp Stangen aus dem Boden. Die etwa 15-jährige Xiyuan zog fünf, die anderen eine oder zwei.\n\nChen war begeistert, der Gastgeber – ihr Onkel – bot sie ihm prompt als Ehefrau an. Chen lachte, ging angetrunken schlafen und vergaß alles. Doch das Angebot war ernst gemeint, und Xiyuan wollte auch. Ein hoher Lama bot sich als Trauzeuge an, Chen sagte schließlich Ja.\n\nXiyuan rettete ihm später im Gefecht das Leben und begleitete ihn 1911/12 auf einer monatelangen Flucht nach Norden. Die ganze Geschichte schrieb er später in seinen Memoiren „Jiaoye chenmeng“ auf.",
+  "sources": [
+   {
+    "title": "红色湘西故事⑦丨艽野尘梦——陈渠珍与西原的爱情传奇",
+    "publisher": "新湖南（湖南日报）",
+    "date": "2024-10-05",
+    "url": "https://m.voc.com.cn/xhn/news/202410/20785347.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "familie",
+   "literatur"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "krieg",
+  "kids": false,
+  "fun": 4,
+  "themes": [
+   "brauch"
+  ],
+  "wiki": "Fenghuang County",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-29988c",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Mit Küchenmessern gegen das Salzsteueramt",
+  "teaser": "1916 überfiel der junge Salzkarawanen-Treiber He Long aus Sangzhi mit rund 20 Leuten das Salzsteueramt von Bamaoxi – unter anderem mit Küchenmessern. Daraus wurde ein geflügeltes Wort.",
+  "detail": "He Long, später Marschall der Volksrepublik, stammte aus dem Kreis Sangzhi, der heute zu Zhangjiajie gehört. Als Junge lernte er beim Vater Schneidern, mit elf trieb er schon Maultiere mit Salz über die Berge. Am Steuerposten Bamaoxi, ab 1915 ein richtiges Salzamt, schikanierte ihn die Salzpolizei regelmäßig.\n\nIm Frühjahr 1916 zog er nachts mit rund 20 Vertrauten los, bewaffnet mit Dolchen, Säbeln, Flinten und Küchenmessern. Sie erbeuteten Gewehre, verbrannten die Steuerbücher und verteilten das Salz. Die Parteigeschichte nennt das „mit zwei Küchenmessern Revolution machen“.\n\nHunans Gouverneur verbuchte es später unter „Banditenunwesen“. Ausgerechnet He Longs Tochter dankte ihm dafür: So sei wenigstens festgehalten, wie berühmt ihr Vater wurde.",
+  "sources": [
+   {
+    "title": "【党史百年】人物•故事 湖南革命人物贺龙元帅",
+    "publisher": "澎湃新闻（澎湃号·政务）",
+    "date": "2021-04-28",
+    "url": "https://www.thepaper.cn/newsDetail_forward_12452486"
+   },
+   {
+    "title": "父辈的忠诚（贺捷生）",
+    "publisher": "人民文摘（人民日报社）",
+    "date": "2013-01-01",
+    "url": "https://paper.people.com.cn/rmwz/html/2013-01/01/content_1188971.htm"
+   },
+   {
+    "title": "该元帅宗亲烈士2050人，本家烈士109人！他是谁？",
+    "publisher": "新湖南（湖南日报）",
+    "date": "2018-02-28",
+    "url": "https://m.voc.com.cn/xhn/news/201802/14444483.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "politik",
+   "militaer"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "woerter"
+  ],
+  "wiki": "He Long",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-684ed0",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Laut Han-Chronik stammen die Wuling-Völker von einem Hund ab",
+  "teaser": "Das „Buch der Späteren Han“ erzählt: Ein fünffarbiger Hund brachte dem Kaiser den Kopf eines Feindgenerals und bekam die Prinzessin. Ihre Kinder seien die Völker von Changsha und Wuling.",
+  "detail": "Die Geschichte steht in einer der offiziellen Dynastiechroniken, im 5. Jahrhundert verfasst. Der mythische Kaiser Gaoxin versprach Gold, Land und seine Tochter demjenigen, der ihm den Kopf eines feindlichen Generals bringt. Es kam: sein Hund Panhu, das Fell fünffarbig, den Kopf im Maul.\n\nDer Hof war ratlos, wie man einen Hund belohnt. Die Prinzessin bestand darauf: Ein Kaiserwort bricht man nicht. Panhu trug sie in die Berge des Südens, sie bekamen zwölf Kinder. Weil der Vater Verdienste hatte und die Mutter Kaisertochter war, zahlten die Nachkommen laut Chronik keine Steuern und brauchten keine Passierscheine.\n\nEin Mythos, aber einer mit amtlichem Stempel. Am Ende heißt es knapp: Das seien „die heutigen Man von Changsha und Wuling“. Zur damaligen Kommandantur Wuling gehörte auch die Gegend um Zhangjiajie.",
+  "sources": [
+   {
+    "title": "後漢書·卷八十六 南蠻西南夷列傳（范曄）",
+    "publisher": "Wikisource (Primärtext)",
+    "url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B786"
+   }
+  ],
+  "tags": [
+   "china",
+   "mythologie",
+   "hunde"
+  ],
+  "era": "antike",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "legende",
+   "tiere"
+  ],
+  "wiki": "Panhu",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-5fba45",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Chinas Utopia fand ein Fischer aus Wuling – nur einmal",
+  "teaser": "In Tao Yuanmings Erzählung vom Pfirsichblütenquell entdeckt ein Fischer aus Wuling ein verstecktes Dorf, abgeschnitten von der Welt. Er markiert den Weg – und findet es nie wieder.",
+  "detail": "Anfang des 5. Jahrhunderts schrieb der Dichter Tao Yuanming die wohl berühmteste Utopie Chinas. Ein Fischer aus Wuling rudert einen Bach hinauf, vergisst, wie weit, und gerät in einen Hain voller Pfirsichblüten. Hinter einer Höhle liegt ein Dorf: Felder, Teiche, freundliche Leute.\n\nSie erzählen, ihre Vorfahren seien vor dem Chaos der Qin-Zeit geflohen. Dass danach die Han- und die Wei-Dynastie kamen, wissen sie nicht. Beim Abschied bitten sie, nichts zu verraten. Der Fischer setzt trotzdem Wegmarken und meldet alles dem Präfekten. Der schickt Leute – sie finden nichts. Ein Gelehrter will später selbst suchen, stirbt aber vorher.\n\n„Taoyuan“ ist seither das chinesische Wort fürs Paradies. Und „Wuling“ steckt im Namen des Welterbes Wulingyuan.",
+  "sources": [
+   {
+    "title": "桃花源記（陶淵明）",
+    "publisher": "Wikisource (Primärtext)",
+    "url": "https://zh.wikisource.org/wiki/%E6%A1%83%E8%8A%B1%E6%BA%90%E8%A8%98"
+   }
+  ],
+  "tags": [
+   "china",
+   "literatur"
+  ],
+  "era": "mittelalter",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "legende"
+  ],
+  "wiki": "The Peach Blossom Spring",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-b4213f",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Drei Jahre lang 148 Yuan Eintritt für eine Altstadt",
+  "teaser": "Ab April 2013 kostete der Zutritt zur Altstadt von Fenghuang 148 Yuan. Händler klagten, 2016 kam die Kehrtwende. Die vorgeschriebene Anhörung fand erst statt, als alles schon beschlossen war.",
+  "detail": "Am 10. April 2013 stellte Fenghuang Kontrollen rund um die Altstadt auf. Die Behörden betonten, es sei keine neue Gebühr: Die neun Sehenswürdigkeiten hätten im Kombiticket schon vorher 148 Yuan gekostet. Eine Wirtin rechnete vor, ihr Feiertagsumsatz sei von 8.000 bis 9.000 auf gut 3.000 Yuan pro Tag gefallen – wobei sie auch die neuen Sparregeln für Beamtenreisen verantwortlich machte.\n\nIm März 2016 beschloss der Kreis per Schreiben: Ab 10. April wird nicht mehr kontrolliert. Die Anhörung dazu folgte am 27. April. Ein Rechtsprofessor nannte das „offensichtlich nicht ordnungsgemäß“.\n\nNur kamen die Gäste nicht einfach zurück. Eine Pensionswirtin, die stets gegen das Ticket gekämpft hatte, öffnete ihr Haus vom 19. bis 21. April 2016 gratis. Laut China Youth Daily übernachtete dort: niemand.",
+  "sources": [
+   {
+    "title": "凤凰古城4月10日起取消148元门票",
+    "publisher": "中证网（中国证券报）",
+    "date": "2016-03-28",
+    "url": "https://cs.com.cn/xwzx/msxf/201603/t20160328_4934994.html"
+   },
+   {
+    "title": "凤凰古城举行取消景区一票制听证会 专家称不合程序",
+    "publisher": "浙江在线 / 中国青年报",
+    "date": "2016-04-28",
+    "url": "https://china.zjol.com.cn/gnxw/201604/t20160428_1543324.shtml"
+   },
+   {
+    "title": "凤凰收费居民多赞商家诉苦 否认收门票与民争利",
+    "publisher": "中证网",
+    "date": "2013-05-04",
+    "url": "https://cs.com.cn/xwzx/msxf/201305/t20130504_3969880.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "reisen",
+   "geld",
+   "staedte"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "geld",
+   "gesetz"
+  ],
+  "wiki": "Fenghuang County",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-ce5f57",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Den Banditenberg aus der TV-Serie gab es nie – jetzt schon",
+  "teaser": "„Wulongshan“ erfand ein Autor für seinen Banditenroman, die Serie von 1987 wurde ein Straßenfeger. Heute heißt ein Dorf in Westhunan wirklich so – der Autor ist Ehren-Dorfvorsteher.",
+  "detail": "Westhunan galt jahrhundertelang als Banditenland. Laut Guangming Daily erklärte die Volksbefreiungsarmee nach Feldzügen ab 1949 über 90.000 Banditen für ausgeschaltet, in den Jahren danach weitere gut 20.000.\n\n1985 zog der Schriftsteller Shui Yunxian sieben Monate durch die Dörfer und sammelte Geschichten. Daraus wurde ein Roman und 1987 die 20-teilige Serie „Banditenjagd am Wulongshan“, mit Schurken wie Tian Dabang und „Bergbohrer-Leopard“. Sie lief über Jahrzehnte immer wieder.\n\nDer Haken: Den Wulongshan gab es nicht, der Name war ausgedacht. Danach behaupteten gleich mehrere Orte, das echte Wulongshan zu sein. Das Dorf Huoyan im Kreis Longshan machte Nägel mit Köpfen, nannte sich „Wulongshan-Dorf“ und ernannte den Autor zum Ehrenvorsitzenden des Dorfkomitees.",
+  "sources": [
+   {
+    "title": "“乌龙山”：因剧而生的地名",
+    "publisher": "中国新闻网 / 光明日报",
+    "date": "2022-04-29",
+    "url": "https://www.chinanews.com.cn/cul/2022/04-29/9742628.shtml"
+   }
+  ],
+  "tags": [
+   "china",
+   "serien",
+   "literatur"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "woerter"
+  ],
+  "wiki": "Xiangxi Tujia and Miao Autonomous Prefecture",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-6f2f2a",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Ein Städtchen nahm einfach den Namen seines Films an",
+  "teaser": "Der Tujia-Ort Wangcun am Wasserfall war 1986 Drehort von Xie Jins Film „Furong zhen“. 2007 benannte er sich offiziell um – in Furong-Stadt, wie im Film.",
+  "detail": "Wangcun im Kreis Yongshun ist über 2.000 Jahre alt. Zur Zeit der Fünf Dynastien saßen hier die Tusi, die erblichen Herrscher von Xizhou. Mitten durch den Ort stürzt ein Wasserfall in Stufen, rund 60 Meter hoch und 40 Meter breit, die Pfahlhäuser kleben an der Klippe.\n\n1986 drehte Regisseur Xie Jin hier „Furong zhen“ (Hibiskus-Stadt) mit Liu Xiaoqing und Jiang Wen. Der Film lief 1987 landesweit und machte den Ort berühmt – allerdings unter dem falschen Namen.\n\nDas Problem löste man pragmatisch: 2007 hieß Wangcun offiziell Furong. Wer heute die alte Stadt besucht, besucht also eine Filmkulisse, die nach dem Film benannt wurde, der in ihr spielt.",
+  "sources": [
+   {
+    "title": "活力中国调研行｜一座挂在瀑布上的千年古镇，如何成为入境游新热门目的地",
+    "publisher": "澎湃新闻",
+    "date": "2026-08-16",
+    "url": "https://m.thepaper.cn/newsDetail_forward_33794563"
+   },
+   {
+    "title": "Top tourist attractions in Hunan | Furong Town",
+    "publisher": "新湖南（湖南日报）",
+    "date": "2019-01",
+    "url": "https://www.hunantoday.cn/news/xhn/201901/18032214.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "film",
+   "staedte"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "woerter"
+  ],
+  "wiki": "Hibiscus Town",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-2c96f5",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "2,5-Milliarden-Altstadt: Gewinn macht nur der Parkplatz",
+  "teaser": "Zhangjiajie baute ab 2016 für rund 2,5 Milliarden Yuan die „Altstadt Dayong“. Nach vier Jahren: über eine Milliarde Verlust, zeitweise keine 20 Tickets am Tag. Profitabel: nur der Parkplatz.",
+  "detail": "Der alte Stadtname Dayong sollte als Marke wiederauferstehen. Im Juni 2016 war Baubeginn für eine komplett neue „Altstadt“ mitten in Zhangjiajie, Kosten rund 2,5 Milliarden Yuan. Geplant: 485 Millionen Yuan Umsatz und 185 Millionen Gewinn im Jahr.\n\nDie Wirklichkeit: Seit dem Probebetrieb 2021 nur Verluste, insgesamt über eine Milliarde Yuan. In der ersten Hälfte 2024 kauften im Schnitt keine 20 Menschen pro Tag ein Ticket. Einziger Posten mit Gewinn: der Parkplatz.\n\nIm Juni 2025 nahm sich das Staatsfernsehen CCTV den Fall vor, Titel: „Künstliche Altstadt – wie wurde sie zur leeren Stadt?“ Der Chef der städtischen Tourismusgruppe gab zu: „Wir sind dem Trend gefolgt.“ Im August verlangte der Gouverneur eine Komplettsanierung.",
+  "sources": [
+   {
+    "title": "全面重整、盘活！古城亏损超10亿被央视曝光后，湖南再部署",
+    "publisher": "凤凰网",
+    "date": "2025-08-07",
+    "url": "https://news.ifeng.com/c/8ldH0hEfZIZ"
+   }
+  ],
+  "tags": [
+   "china",
+   "architektur",
+   "geld"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "panne",
+   "geld",
+   "bauwerk"
+  ],
+  "wiki": "Zhangjiajie",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-ac8dc3",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Förster-Schwur: Erst wenn alles grün ist, gehen wir runter",
+  "teaser": "Vor den Touristen war Zhangjiajie eine Försterei. Ihr Chef nannte sich Ende der 1950er Liu Kailin, etwa „Liu, der Wald schafft“, und schwor: Runter erst, wenn alles grün ist.",
+  "detail": "1958 lag die Waldfläche im Kreis Dayong bei nur elf Prozent. Also gründete man eine staatliche Försterei, benannt nach dem Land der Genossenschaft Zhangjiajie, auf dem sie lag. Die Bedingungen: Dornengestrüpp, nachts Tiergeheul, und ein Monatslohn, der laut einem Bericht nicht für ein Huhn reichte. „Als ich ankam, habe ich geweint“, erinnerte sich ein Ex-Kader. Von 72 Planstellen blieben 36 besetzt.\n\nEnde der 1950er übernahm der 28-jährige Liu Shaohua. Er änderte seinen Namen in Liu Kailin und ließ alle schwören: „Die Haare werden in Zhangjiajie weiß, die Zähne fallen in Zhangjiajie aus, begraben werden wir in Zhangjiajie – bevor Zhangjiajie nicht grün ist, gehen wir nicht runter!“\n\n1971 war alles bepflanzt. Touristen gab es 1979 erst 13.000 im Jahr. Heute stehen die Massen vor genau diesem Wald.",
+  "sources": [
+   {
+    "title": "“国际张”，重逢有时",
+    "publisher": "瞭望智库（澎湃号·政务）",
+    "date": "2021-08-12",
+    "url": "https://m.thepaper.cn/baijiahao_14026795"
+   },
+   {
+    "title": "纪实丨关于一座山的记忆",
+    "publisher": "新湖南（湖南日报）",
+    "date": "2020-01-09",
+    "url": "https://m.voc.com.cn/xhn/news/202001/15482515.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "pflanzen",
+   "berge"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "woerter"
+  ],
+  "wiki": "Zhangjiajie National Forest Park",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-ae08fb",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Ein Maler verriet die „unentdeckte Schönheit im Frauengemach“",
+  "teaser": "1979 skizzierte der Maler Wu Guanzhong in der Försterei Zhangjiajie. Sein Zeitungsessay zu Neujahr 1980 hieß „Im Frauengemach verborgen, von niemandem gekannt“ – danach kamen die Besucher.",
+  "detail": "Damals war Zhangjiajie ein Staatsforst ohne Hotels und fast ohne Straßen. Wu Guanzhong, einer der bekanntesten Maler Chinas, kam im November 1979 zum Skizzieren und malte eine Serie über den Gipfel Mazongling.\n\nAm 1. Januar 1980 erschien in der Beilage der Hunan Daily sein Essay mit dem Titel „Yang zai shen gui ren wei shi“. Die Zeile stammt aus Bai Juyis Gedicht über die Konkubine Yang Guifei: ein Mädchen, das im Frauengemach aufwächst und das noch niemand kennt – bis der Kaiser sie entdeckt.\n\nDer Text löste laut Hunan Daily die erste Touristenwelle aus. 1982 wurde der Forst Chinas erster Nationaler Waldpark. Die Schöne blieb danach nicht mehr lange unentdeckt.",
+  "sources": [
+   {
+    "title": "纪实丨关于一座山的记忆",
+    "publisher": "新湖南（湖南日报）",
+    "date": "2020-01-09",
+    "url": "https://m.voc.com.cn/xhn/news/202001/15482515.html"
+   },
+   {
+    "title": "“国际张”，重逢有时",
+    "publisher": "瞭望智库（澎湃号·政务）",
+    "date": "2021-08-12",
+    "url": "https://m.thepaper.cn/baijiahao_14026795"
+   }
+  ],
+  "tags": [
+   "china",
+   "kunst",
+   "reisen"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "woerter"
+  ],
+  "wiki": "Wu Guanzhong",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-5c5758",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Parteichef sah Guilin und dachte: Wir betteln mit goldener Schüssel",
+  "teaser": "1980 besuchte Dayongs Kreisparteichef seinen Sohn bei der Armee in Guilin. Zwischen den berühmten Karstbergen fand er: Unsere sind schöner. Zurück daheim baute er selbst eine Straße mit.",
+  "detail": "Huang Youwei war Kreisparteisekretär im armen Kreis Dayong. In Guilin, dem Inbegriff chinesischer Landschaft, kam ihm laut der Denkfabrik Liaowang ein unbequemer Gedanke: Sitzt Dayong auf einer goldenen Reisschüssel und bettelt trotzdem? Seine Bilanz: „Guilin ist wirklich gut, aber innerlich dachte ich: Mein Zhangjiajie ist besser.“\n\nDas Problem: Zum Gipfelplateau Huangshizhai führte nur ein 27 Kilometer langer Trampelpfad. Der Kreis nahm im Jahr nur 500.000 Yuan ein, Huang kratzte 200.000 zusammen. Bauern aus vier Kommunen arbeiteten für 30 Fen Essensgeld am Tag, Beamte schufteten in ihrer Freizeit mit – und der Parteichef selbst schaufelte mit.\n\nNach 35 Tagen hatte das Gebiet seine erste Straße.",
+  "sources": [
+   {
+    "title": "“国际张”，重逢有时",
+    "publisher": "瞭望智库（澎湃号·政务）",
+    "date": "2021-08-12",
+    "url": "https://m.thepaper.cn/baijiahao_14026795"
+   }
+  ],
+  "tags": [
+   "china",
+   "bau",
+   "verkehr"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "bauwerk"
+  ],
+  "wiki": "Zhangjiajie National Forest Park",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-a1c80c",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Dörfer prügelten sich um die schönsten Felsen",
+  "teaser": "Die Felssäulen von Wulingyuan lagen bis 1988 in drei Kreisen und zwei Bezirken. Dorfbewohner prügelten sich darum, allein im März 1987 gab es über 20 schwere Konflikte zwischen den Kreisen.",
+  "detail": "Gleiche Felsen, gleiche Wälder, aber drei Zuständigkeiten: Der Staatsforst Zhangjiajie gehörte zum Kreis Dayong, der Tianzi-Berg zu Sangzhi, Suoxiyu zu Cili, und Cili sogar zu einem anderen Bezirk. Als klar wurde, dass Touristen Geld bringen, ging es zur Sache.\n\n1982 und 1983 kam es laut der Denkfabrik Liaowang zu mehreren großen Massenschlägereien zwischen Dorfbewohnern aus Sangzhi und Cili. Schlichtung durch das Justizamt der Provinz half nichts. Im März 1987 zählte man über 20 schwere Konflikte zwischen den drei Kreisen, ein Brand namens „Shuirao Simen“ gilt als letzter Dominostein.\n\nDie Provinz zog die Notbremse und bat Peking um eine Neuordnung. 1988 wurde Dayong zur Stadt auf Bezirksebene, bekam Sangzhi und Cili dazu und einen eigenen Bezirk Wulingyuan. Die heutige Stadt Zhangjiajie ist also auch das Ergebnis einer Prügelei um Aussicht.",
+  "sources": [
+   {
+    "title": "“国际张”，重逢有时",
+    "publisher": "瞭望智库（澎湃号·政务）",
+    "date": "2021-08-12",
+    "url": "https://m.thepaper.cn/baijiahao_14026795"
+   }
+  ],
+  "tags": [
+   "china",
+   "staedte",
+   "berge"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "gesetz",
+   "panne"
+  ],
+  "wiki": "Wulingyuan",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-89d93d",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Die Tujia feiern Neujahr einen Tag früher – vor Sonnenaufgang",
+  "teaser": "Viele Tujia in Zhangjiajie feiern das Neujahrsfest einen Tag vor allen anderen, das Festessen oft im Morgengrauen. Die Erklärung: ein eiliger Feldzug gegen Piraten – oder Banditen.",
+  "detail": "Der Brauch heißt „Gannian“, etwa „Neujahr im Eiltempo“. Laut China Daily feiern Tujia in Zhangjiajie am 29. des letzten Mondmonats, in kurzen Monaten am 28. Wichtig ist nicht das Abendessen, sondern das Neujahrs-Frühstück. Es muss gegessen sein, bevor es ganz hell ist: Je heller es beim Essen wird, desto heller das neue Jahr. Laut Xiaoxiang Morning Herald steht man gegen drei Uhr auf, gegen vier wird aufgetischt.\n\nZwei Legenden kursieren. Erstens: Im 16. Jahrhundert zog der Ming-Hof Krieger aus Westhunan gegen japanische Piraten ein, der Befehl kam am 29. – also feierte man vorher. Zweitens: Banditen plünderten gern an Silvester, also aß man im Morgengrauen und verrammelte die Tür.\n\nEin Oberschüler brachte es laut Xiaoxiang Morning Herald auf den Punkt: das einzige frühe Aufstehen im Jahr, das nicht wehtut.",
+  "sources": [
+   {
+    "title": "清晨的年夜饭 张家界土家族人与晨曦一同迎接新春",
+    "publisher": "凤凰网",
+    "date": "2022-01-31",
+    "url": "https://i.ifeng.com/c/8DE0kYDiyuU"
+   },
+   {
+    "title": "大年二十九，省委书记许达哲在张家界和土家族群众同过“赶年”",
+    "publisher": "中国日报网",
+    "date": "2021-02-10",
+    "url": "https://cn.chinadaily.com.cn/a/202102/10/WS60237626a3101e7ce973f850.html"
+   },
+   {
+    "title": "贵州印江土家族过“赶年” 400年习俗传承“乡愁”",
+    "publisher": "中国新闻网",
+    "date": "2017-01-21",
+    "url": "https://www.chinanews.com.cn/m/cul/2017/01-21/8131637.shtml"
+   }
+  ],
+  "tags": [
+   "china",
+   "feste",
+   "kalender"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "brauch",
+   "legende"
+  ],
+  "wiki": "Tujia people",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-cae295",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Ex-Premier heiratete mit 66 – Bedingung der Braut: Bart ab",
+  "teaser": "1935 heiratete Xiong Xiling aus Fenghuang, einst Premierminister der Republik China, die 27 Jahre jüngere Pädagogin Mao Yanwen. Ihre einzige Bedingung: Der jahrzehntealte Bart muss weg.",
+  "detail": "Xiong Xiling, wegen seiner Heimatstadt „Xiong Fenghuang“ genannt, war seit 1931 Witwer. Bei Mao Yanwen, Bildungsforscherin mit US-Abschluss, blitzte er erst ab. Er schickte zwei Monate lang Liebesbriefe und Gedichte, seine Tochter warb sogar persönlich für ihn.\n\nMao willigte ein, verlangte aber eins: Der lange Bart kommt ab. Xiong rasierte sofort und kleidete sich jugendlich. Am 9. Februar 1935 heirateten sie in der Moore-Gedächtniskirche in Shanghai, Blumenkörbe kamen von General Feng Yuxiang und Opernstar Mei Lanfang.\n\nIm selben Monat heirateten in Peking und Tianjin zwei weitere ältere Prominente deutlich jüngere Frauen – und auch sie ließen die Bärte fallen. Die Presse taufte 1935 das „Jahr der Greisenhochzeiten“.",
+  "sources": [
+   {
+    "title": "档案春秋︱熊希龄、张海若、齐燮元的“老人结缡年”",
+    "publisher": "澎湃新闻",
+    "date": "2018-12-06",
+    "url": "https://www.thepaper.cn/newsDetail_forward_2654027"
+   }
+  ],
+  "tags": [
+   "china",
+   "familie",
+   "politik"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "brauch"
+  ],
+  "wiki": "Xiong Xiling",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-ff23f1",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Fenghuang lieferte zwei Drittel aller Touristen-Beschwerden Hunans",
+  "teaser": "Vor 2013 war Fenghuangs Altstadt an Feiertagen so überrannt, dass Einheimische nicht mehr vor die Tür gingen. Zeitweise kamen laut Kreis zwei Drittel aller Touristenbeschwerden Hunans von hier.",
+  "detail": "Die Schilderung stammt vom Vizekreischef selbst, 2013 in einem Bericht des China Securities Journal: An langen Wochenenden trauten sich Einheimische nicht mehr aus dem Haus, in den Gassen kam man kaum voran, der Stau begann an der Autobahn-Mautstelle, Busse stellten den Betrieb ein. Ein Bett kostete bis zu 800 Yuan.\n\nDazu Schlepper, die Gäste abfingen, und „Null-Yuan-Reisen“, bei denen Gruppen zum Einkaufen gezwungen wurden. Zeitweise stammten laut Kreis zwei Drittel aller Tourismusbeschwerden der Provinz aus Fenghuang.\n\nEine Umfrage des Provinz-Tourismusamts in Ostchina ergab 2011: 70 Prozent der Reisebüros wollten Fenghuang nicht mehr anbieten. Genau damit begründete der Kreis 2013 die Ticketpflicht für die Altstadt – die drei Jahre später wieder fiel.",
+  "sources": [
+   {
+    "title": "凤凰收费居民多赞商家诉苦 否认收门票与民争利",
+    "publisher": "中证网（中国证券报）",
+    "date": "2013-05-04",
+    "url": "https://cs.com.cn/xwzx/msxf/201305/t20130504_3969880.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "reisen",
+   "staedte"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "geld",
+   "panne"
+  ],
+  "wiki": "Fenghuang County",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-50d4b8",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Zwei Affen auf der Marke – wegen der Zwei-Kind-Politik",
+  "teaser": "Für das Affenjahr 2016 sollte Huang Yongyu einen großen Affen mit einem Jungen zeichnen. Er malte gleich zwei Kleine – Begründung: Der Staat erlaube jetzt ja zwei Kinder.",
+  "detail": "Die vierte Tierkreis-Serie der chinesischen Post brauchte zwei Motive. Der zuständige Manager Gao Shan schlug dem 92-jährigen Huang Yongyu aus Fenghuang vor: ein großer Affe, der einen kleinen im Arm hält, der kleine soll an Huangs berühmten Affen von 1980 erinnern.\n\nHuang lachte laut: „Gute Idee! Aber nicht ein Affe – auf jeder Seite einer.“ Und während er schon zeichnete: „Der Staat hat die Zwei-Kind-Politik freigegeben, zwei zu malen ist also legal, vernünftig und menschlich!“\n\nDie Marke „Bingshen“ kam am 5. Januar 2016 heraus. Laut Bericht standen Sammler in der Kälte über zehn Stunden an, um sie zu ergattern. Huang hatte das Motiv da schon im Kasten – samt doppeltem Nachwuchs.",
+  "sources": [
+   {
+    "title": "“猴票她爹”黄永玉",
+    "publisher": "环球人物（人民日报社）",
+    "date": "2016-02-06",
+    "url": "https://paper.people.com.cn/hqrw/html/2016-02/06/content_1668884.htm"
+   }
+  ],
+  "tags": [
+   "china",
+   "kunst",
+   "tiere",
+   "familie"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "tiere",
+   "gesetz"
+  ],
+  "wiki": "Huang Yongyu",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-7c087c",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Am Affenhang gibt's eine eigene Sanitätsstation",
+  "teaser": "Im Nationalforstpark heißt ein Wegstück schlicht „Affenhang“. Die Makaken dort sind so zahlreich, dass der Park direkt daneben eine Krankenstation für Kratzer und Bisse betreibt.",
+  "detail": "Entlang der „Zehn-Meilen-Galerie“ im Zhangjiajie-Nationalforstpark liegt der 猴子坡, der „Affenhang“. Dichter Wald, viel Futter: Laut Parkpersonal leben hier ganzjährig besonders viele wilde Makaken, es ist eine der affenreichsten Strecken im ganzen Park.\n\nIm Juli 2026 ging ein Video viral: Ein kleiner Junge wollte einem Makaken auf dem Geländer die Hand schütteln, der Affe schnappte zu. Laut Bericht war keine schwere Verletzung zu sehen. Der Park erklärte, es handle sich um geschützte Wildtiere, Schilder verbieten Anfassen, Füttern und Necken, Patrouillen verscheuchen aufdringliche Tiere.\n\nUnd für den Fall der Fälle gibt es am Affenhang eine eigene Sanitätsstation, die Wunden reinigt und desinfiziert.\n\nVor Ort: Snacks im Rucksack lassen, keine Hand reichen. Handschlag ist hier kein Gruß, sondern eine Einladung.",
+  "sources": [
+   {
+    "title": "男孩伸手和猕猴互动，猕猴突然张口咬向男孩手部，张家界国家森林公园提醒",
+    "publisher": "Dafeng News (Huashang Bao) via ifeng.com",
+    "date": "2026-07-21",
+    "url": "https://i.ifeng.com/c/8uwVQyNmhfs"
+   }
+  ],
+  "tags": [
+   "china",
+   "tiere",
+   "reisen",
+   "wandern"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "tiere",
+   "vorort"
+  ],
+  "wiki": "Rhesus macaque",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-c0aa81",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Goldpeitschenbach: Klimaanlage für Menschen und Affen",
+  "teaser": "Am Goldpeitschenbach bleibt es im Hochsommer bei 22 bis 26 Grad. Das wissen auch die wilden Makaken – sie kühlen sich im Bach ab.",
+  "detail": "Wenn Hunan im Juli brütet, flüchten Einheimische in die Schlucht des Jinbian-Bachs, des „Goldpeitschenbachs“. Laut Hunan Daily liegt die Waldbedeckung dort bei 98 Prozent, die Durchschnittstemperatur im Sommer bei 22 bis 26 Grad. Die Lokalpresse nennt das 7,5 Kilometer lange Tal deshalb ein natürliches „Zimmer mit Klimaanlage“.\n\nDie Idee haben nicht nur Menschen. China Daily zeigte 2022 Fotos von wilden Makaken, die im Bach planschen und sich abkühlen. Auch 2026 berichtete die Hunan Daily von ganzen Affengruppen im Tal, vor denen Wanderer für Fotos stehen bleiben.\n\nDer Bach ist also eine Art Freibad mit gemischtem Publikum. Nur die Badeordnung gilt ausschließlich für Menschen.\n\nVor Ort: Der Weg am Goldpeitschenbach verläuft fast eben am Wasser entlang.",
+  "sources": [
+   {
+    "title": "张家界金鞭溪：清凉一“夏”入峡谷 奔赴山间天然空调",
+    "publisher": "Hunan Daily / Xinhunan",
+    "date": "2026-07-15",
+    "url": "https://m.voc.com.cn/rmt/article/17420300.html"
+   },
+   {
+    "title": "Stream draws wild macaques to escape summer heat",
+    "publisher": "China Daily",
+    "date": "2022-07-15",
+    "url": "https://govt.chinadaily.com.cn/s/202207/15/WS62d10173498ea2749279d533/stream-draws-wild-macaques-to-escape-summer-heat.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "tiere",
+   "wetter",
+   "wandern"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "tiere",
+   "vorort"
+  ],
+  "wiki": "Zhangjiajie National Forest Park",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-64104b",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Bungee von der Glasbrücke – einer sprang mit Mini-Bike",
+  "teaser": "Von der Glasbrücke im Grand Canyon von Zhangjiajie sollte es ab 2018 aus 260 Metern am Gummiseil runtergehen – Weltrekord. Zur Premiere sprang der Betreiber mit einem Mini-Bike.",
+  "detail": "Als wäre eine Glasbrücke hoch über der Schlucht nicht genug, kündigte der Grand Canyon von Zhangjiajie 2018 einen Bungee-Sprung von der Brücke an: 260 Meter. Damit sollte der damalige Rekordhalter, der 233-Meter-Sprung vom Macau Tower, überboten werden, berichtete CNN.\n\nZur Werbung lud man internationale Profis zur Bungee-Challenge ein. Beau Retallick, Betreiber des Sprungs und Bungee-Rekordhalter, sprang dabei mit einem Mini-Bike. Wer selbst nicht springen will, kann laut Plan in einer Bungee-Bar am Brückenende thematisch passende Drinks bestellen und den anderen beim Fallen zuschauen.\n\nDurch den Glasboden sieht man die Springer unter sich in die Schlucht sausen. Mutprobe und Zuschauertribüne in einem.\n\nVor Ort: Die Brücke liegt im Kreis Cili, etwa 30 Minuten von Wulingyuan.",
+  "sources": [
+   {
+    "title": "World's highest glass bridge to open world's highest bungee jump",
+    "publisher": "CNN",
+    "date": "2018-06-07",
+    "url": "https://edition.cnn.com/travel/article/bungee-jump-zhangjiajie-bridge-china/index.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "rekorde",
+   "outdoor",
+   "reisen"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "rekord",
+   "vorort"
+  ],
+  "wiki": "Zhangjiajie Glass Bridge",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-364849",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Eine Brücke, und plötzlich hatte China überall Glasbrücken",
+  "teaser": "Nach der Eröffnung der Zhangjiajie-Glasbrücke 2016 kopierten Ausflugsziele im ganzen Land die Idee. Die Lokalzeitung schreibt: Glasbrücken „blühten überall“.",
+  "detail": "Die Glasbrücke „Yuntiandu“ über dem Grand Canyon von Zhangjiajie war 2016 ein Social-Media-Hit. Laut Hunan Daily schuf sie damit fast im Alleingang ein neues Tourismusformat: Danach wollte jedes Ausflugsziel in China seine eigene Glasbrücke, sie „blühten überall auf“.\n\nDas Original hat 99 durchsichtige Glasplatten. Der Planer wollte laut China News, dass die Brücke nach dem Motto „Das große Bild hat keine Form“ möglichst in der Landschaft verschwindet. Guinness führte sie 2019 als höchste Fußgängerbrücke der Welt.\n\nIn der Hunan Daily klingt der Alltag darauf so: Manche schlendern lässig, manche schlottern, und manche rufen weinend nach Mama und Papa.\n\nVor Ort: Wem die Brücke nicht reicht, für den hat der Park noch Riesenschaukel, Klettersteig und einen Glas-Steg dahinter.",
+  "sources": [
+   {
+    "title": "“五一”畅游张家界|如果生活有点平淡，张家界大峡谷有你想要的刺激",
+    "publisher": "Hunan Daily / Xinhunan",
+    "date": "2022-05-01",
+    "url": "https://m.voc.com.cn/xhn/news/202205/14246138.html"
+   },
+   {
+    "title": "张家界大峡谷玻璃桥攻克多项世界性技术难题",
+    "publisher": "China News Service via Zhejiang Online",
+    "date": "2016-08-20",
+    "url": "https://china.zjol.com.cn/gnxw/201608/t20160820_1860343.shtml"
+   }
+  ],
+  "tags": [
+   "china",
+   "bau",
+   "rekorde",
+   "reisen"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "bauwerk",
+   "rekord",
+   "vorort"
+  ],
+  "wiki": "Zhangjiajie Glass Bridge",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-1de103",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Baofeng-See: Erst Stausee, dann 20-Fen-Bootstour",
+  "teaser": "Der Baofeng-See ist ein Stausee aus den 1970ern. 1984 pachteten ihn drei Dorfbewohner und ruderten Gäste herum – für zwei Mao pro Person.",
+  "detail": "Heute ist der Baofeng-See eine 5A-Attraktion mit Welterbe-Siegel. Ursprünglich hieß er aber Shijiayu-Stausee, gebaut in den 1970er-Jahren für Strom und Bewässerung.\n\nDer Rest ist eine kleine Gründergeschichte: 1984 pachtete ein frischer Schulabgänger mit zwei Nachbarn den Stausee auf Kredit und ruderte Leute herum. „Anfangs gab es nicht mal Eintrittskarten, wir nahmen zwei Mao pro Person fürs Boot“, erzählte er 2025 der Hunan Daily. Er arbeitet seit über 40 Jahren am See.\n\n1988 übernahm die neue Stadt die Planung. 2024 kauften laut Zeitung über 700.000 Menschen Tickets, rund 49 Millionen Yuan Umsatz. Aus zwei Mao wurde also ein Millionengeschäft.\n\nVor Ort: Auf dem See erklingen Tujia-Lieder aus Sangzhi. Früher, so ein Bootsführer, sangen junge Frauen hier ihren Liebsten am Gegenhang ein Ständchen.",
+  "sources": [
+   {
+    "title": "“会说话”的宝峰湖",
+    "publisher": "Hunan Daily (Print, S. 5)",
+    "date": "2025-08-15",
+    "url": "https://hnrb.hunantoday.cn/hnrb_epaper/images/2025-08/15/05/2025081505_pdf.pdf"
+   }
+  ],
+  "tags": [
+   "china",
+   "geld",
+   "reisen",
+   "wirtschaft"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "geld",
+   "bauwerk",
+   "vorort"
+  ],
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-530561",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Am Baofeng-See ist fast jeder zweite Gast Ausländer",
+  "teaser": "Fast die Hälfte der zahlenden Besucher am Baofeng-See kommt aus dem Ausland. Werbebotschafter ist seit 2025 ein südkoreanischer Komiker.",
+  "detail": "Ein Stausee in den Bergen Hunans als internationales Reiseziel? Laut Hunan Daily lag der Anteil ausländischer Gäste am Baofeng-See 2024 bei fast fünfzig Prozent.\n\nDer See gilt als Lieblingsziel südkoreanischer Reisegruppen. Ein Reiseleiter erzählte, früher habe er höchstens zwei Auslandsgruppen pro Woche gehabt, jetzt vier bis fünf koreanische. Im Juli 2025 ernannte die Verwaltung den bekannten südkoreanischen Komiker Kim Won-hyo zum Werbebotschafter.\n\nAlle Schilder im Gelände sind auf Chinesisch, Englisch und Koreanisch, dazu gibt es mehrsprachige Audioguides. Rund 5,6 Millionen Yuan steckte der See in neuen Service.\n\nAuch schön: Der Maler Guan Shanyue stieg laut Zeitung mit 88 Jahren die Steiltreppe am See hinauf.\n\nVor Ort: Wer auf Koreanisch angesprochen wird, sollte es nicht persönlich nehmen.",
+  "sources": [
+   {
+    "title": "“会说话”的宝峰湖",
+    "publisher": "Hunan Daily (Print, S. 5)",
+    "date": "2025-08-15",
+    "url": "https://hnrb.hunantoday.cn/hnrb_epaper/images/2025-08/15/05/2025081505_pdf.pdf"
+   }
+  ],
+  "tags": [
+   "china",
+   "reisen",
+   "wirtschaft",
+   "asien"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "geld",
+   "vorort"
+  ],
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-78747a",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "In Korea gilt Zhangjiajie als Geschenk für die Eltern",
+  "teaser": "In Südkorea heißt es, wer seinen Eltern Liebe zeigen will, schickt sie nach Zhangjiajie. 2023 machten Südkoreaner über 280.000 Reisen dorthin.",
+  "detail": "Kindliche Pietät, auf Koreanisch übersetzt in ein Flugticket: Laut China Daily gibt es in Südkorea die verbreitete Vorstellung, erwachsene Kinder sollten ihre betagten Eltern nach Zhangjiajie bringen. Viele ältere Koreaner halten den Besuch für ein Muss, manche wollen hier ihre letzte Auslandsreise machen und kommen deshalb gleich mehrmals.\n\nDie Zahlen: 2023 gab es 687.400 Auslandsbesuche, über 280.000 davon von Südkoreanern. Hotels und Sehenswürdigkeiten haben koreanische Schilder, Shows koreanische Untertitel.\n\nInzwischen kommen auch die Kinder selbst, beobachtete der Komiker Kim Won-hyo laut Xinhua. Chinesische Netzleute witzeln, sie fühlten sich von Koreanern „umzingelt“. Und in China kursiert der passende Spruch: Wer nie in Zhangjiajie war, darf sich mit hundert noch nicht Greis nennen.\n\nVor Ort: Koreanische Restaurants gibt es in der Stadt reichlich.",
+  "sources": [
+   {
+    "title": "Zhangjiajie looks forward to rebound in South Korean tourist numbers",
+    "publisher": "China Daily",
+    "date": "2024-02-27",
+    "url": "https://www.chinadaily.com.cn/a/202402/27/WS65dd306ba31082fc043b932f.html"
+   },
+   {
+    "title": "“怪不得韩国人爱去张家界旅游”，网友：不白来，都不白来！",
+    "publisher": "China Daily Bilingual News via Tencent News",
+    "date": "2026-05-29",
+    "url": "https://news.qq.com/rain/a/20260529A09BTF00"
+   },
+   {
+    "title": "\"Chinese Tourism Soars 900%... Popular as Filial Piety Products\" China Boosts Travel",
+    "publisher": "The Asia Business Daily",
+    "date": "2024-02-26",
+    "url": "https://view.asiae.co.kr/en/article/2024022611192964678"
+   },
+   {
+    "title": "Zhangjiajie becomes a magnet for global travelers",
+    "publisher": "Xinhua via Hunan Today",
+    "date": "2025-08-22",
+    "url": "https://www.hunantoday.cn/news/xhn/202508/30276002.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "reisen",
+   "familie",
+   "asien"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "brauch",
+   "vorort"
+  ],
+  "wiki": "Zhangjiajie",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-7980c8",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "„Internationaler Zhang“: 95 Prozent an der Passkontrolle sind Ausländer",
+  "teaser": "2024 waren am Flughafen Zhangjiajie 95 Prozent aller Ein- und Ausreisenden Ausländer – Spitzenwert unter Chinas Flughäfen. Einheimische nennen die Stadt „Internationaler Zhang“.",
+  "detail": "Eine Bergstadt in Hunan mit einer Passkontrolle wie ein Weltflughafen: Laut Xinhua waren 2024 am Flughafen Zhangjiajie 95 Prozent aller Ein- und Ausreisenden Ausländer, der höchste Anteil aller Flughafen-Grenzübergänge Chinas.\n\nIm selben Jahr kamen über 1,83 Millionen Gäste aus dem Ausland, 166 Prozent mehr als im Vorjahr, aus 183 Ländern und Regionen. Das waren laut Xinhua 50 Herkunftsländer mehr als beim bisherigen Rekord.\n\nDaher der Spitzname 国际张, „Internationaler Zhang“, als wäre die Stadt ein weltgewandter Herr Zhang. Die Tourismusbranche beschäftigt in der Hochsaison über 300.000 Menschen.\n\nVor Ort: Viele Händler haben laut Xinhua ein paar Brocken Fremdsprache gelernt. Ein „Hello“ am Imbiss ist hier also keine Seltenheit.",
+  "sources": [
+   {
+    "title": "中国之城｜湖南张家界：从“深闺”走向“国际张”",
+    "publisher": "Xinhua (news.cn)",
+    "date": "2025-02-27",
+    "url": "https://www.news.cn/politics/20250227/a729bfdb29984dbb9fb0ee10b88770cf/c.html"
+   },
+   {
+    "title": "China's \"Avatar\" city Zhangjiajie rises as a global tourism magnet",
+    "publisher": "Xinhua via Hunan Today",
+    "date": "2025-08-22",
+    "url": "https://www.hunantoday.cn/news/xhn/202508/30276002.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "reisen",
+   "luftfahrt",
+   "rekorde"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "rekord",
+   "woerter",
+   "vorort"
+  ],
+  "wiki": "Zhangjiajie Hehua International Airport",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-efe195",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Eine Gesteinsform heißt offiziell nach der Stadt",
+  "teaser": "Seit 2010 gibt es in der Geomorphologie offiziell die „Zhangjiajie-Landform“. Ein Stadtname wurde zum Fachbegriff.",
+  "detail": "Manche Städte bekommen einen Bahnhof nach sich benannt. Zhangjiajie bekam eine Landform. Laut Xinhua hat die internationale Vereinigung der Geomorphologen die Säulenlandschaft 2010 offiziell als „Zhangjiajie-Landform“ (张家界地貌) benannt.\n\nGemeint sind die über 3.000 Säulen aus Quarzsandstein im Nationalforstpark, die laut Xinhua wie Bambussprossen aus dem Boden schießen. Seitdem steht der Stadtname in der Fachsprache für genau diesen Typ von Steinwald.\n\nDie Ironie: Zhangjiajie heißt eigentlich „Heimat der Familie Zhang“. Ein Allerweltsname wurde also zu einem wissenschaftlichen Fachbegriff.\n\nVor Ort: Wer im Park Säulen fotografiert, hat sozusagen das Original im Bild, nach dem eine ganze Landform benannt ist.",
+  "sources": [
+   {
+    "title": "中国之城｜湖南张家界：从“深闺”走向“国际张”",
+    "publisher": "Xinhua (news.cn)",
+    "date": "2025-02-27",
+    "url": "https://www.news.cn/politics/20250227/a729bfdb29984dbb9fb0ee10b88770cf/c.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "geologie",
+   "sprache",
+   "berge"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "woerter",
+   "rekord",
+   "vorort"
+  ],
+  "wiki": "Wulingyuan",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-296313",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Touristen fanden Zhangjiajie nicht – also hieß die Stadt so",
+  "teaser": "Besucher kamen in der Stadt Dayong an und fragten, wo Zhangjiajie sei. 1994 gab die Stadt auf und hieß fortan wie ihr Park.",
+  "detail": "Bis 1994 hieß die Stadt Dayong, ein Name, der seit 1321 belegt ist und 600 Jahre lang mit „Yongding“ abwechselte. Das berühmte Zhangjiajie war nur der Wald nebenan.\n\nLaut Liaowang führte das zu Pannen: Gäste „kamen nach Dayong und wussten nicht, wo Zhangjiajie ist“ oder liefen auf der Suche danach daran vorbei. 1990 riet ein Vizegouverneur: „Ihr müsst euren Namen ändern!“ Ein Staatsrat legte nach: Wenn es der Entwicklung hilft, ändert ihn. Am 4. April 1994 genehmigte der Staatsrat die Umbenennung.\n\nDas machte Schule. Die China Culture Daily nannte es 2010 ein Musterbeispiel, das eine landesweite Umbenennungswelle auslöste. In dieselbe Reihe stellt sie etwa den Kreis Zhongdian in Yunnan, der heute „Shangri-La“ heißt.\n\nVor Ort: Die alten Namen leben im Stadtbezirk Yongding und im Altstadt-Nachbau „Dayong“ weiter.",
+  "sources": [
+   {
+    "title": "“国际张”，重逢有时",
+    "publisher": "Liaowang Think Tank (Xinhua) via The Paper",
+    "date": "2021-08-12",
+    "url": "https://m.thepaper.cn/baijiahao_14026795"
+   },
+   {
+    "title": "城市改名与“旅游牌马甲”",
+    "publisher": "China Culture Daily (Print, S. 12)",
+    "date": "2010-12-07",
+    "url": "https://nepaper.ccdy.cn/page/1/2010-12/07/12/2010120712_pdf.PDF"
+   }
+  ],
+  "tags": [
+   "china",
+   "sprache",
+   "staedte",
+   "reisen"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "woerter",
+   "panne",
+   "vorort"
+  ],
+  "wiki": "Zhangjiajie",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-b65be5",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Das höchste Tujia-Haus hat sein eigenes Himmelstor",
+  "teaser": "Das „Haus der 72 Wunder“ in Zhangjiajie ist mit 109,9 Metern laut Guinness das höchste Tujia-Gebäude der Welt – inklusive nachgebautem Himmelstor.",
+  "detail": "Tujia-Pfahlbauten sind normalerweise zwei, drei Stockwerke hoch. In Zhangjiajie steht eine Version im XXL-Format: Das „Tiangong Qilou“ im Komplex „72 Qilou“ ist 109,9 Meter hoch und laut Hunan Daily von Guinness als höchstes Tujia-Gebäude der Welt anerkannt.\n\nDas Gebäude imitiert sogar den Hausberg. Mitten drin klafft ein eigenes Tor, 38 Meter hoch und 28 Meter breit, das Richtung echtem Himmelstor auf dem Tianmen-Berg schaut. Abends laufen 72 Lichtshows.\n\nDer Hintergrund ist ein altes Spottwort: Früher hieß es über Zhangjiajie, „tagsüber Berge gucken, abends Kissen umarmen“. Nachtleben gab es nicht. Von der Eröffnung im April 2023 bis Oktober 2024 zählte der Komplex über zwei Millionen Besuche.\n\nVor Ort: Der Komplex liegt am Wulingshan-Boulevard in der Stadt und ist abends hell erleuchtet.",
+  "sources": [
+   {
+    "title": "“国际张”的七十二变⑥丨“不夜”张家界：天上街市闹人间",
+    "publisher": "Hunan Daily / Xinhunan",
+    "date": "2022-09-10",
+    "url": "https://m.voc.com.cn/xhn/news/202209/14637011.html"
+   },
+   {
+    "title": "Zhangjiajie 72 Unusual Houses Scenic Spot Attracts Numerous Visitors",
+    "publisher": "Hunan Provincial Government / Hunan Daily via Hunan Today",
+    "date": "2024-10-17",
+    "url": "https://hunantoday.cn/news/xhn/202410/20850317.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "architektur",
+   "rekorde",
+   "staedte"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "bauwerk",
+   "rekord",
+   "vorort"
+  ],
+  "wiki": "Stilt house",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-1b77c8",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Achtjährige erklärt Ausländern ihre Stadt auf Englisch",
+  "teaser": "In Zhangjiajie plaudert ein achtjähriges Mädchen gern mit ausländischen Gästen – als freiwillige Englisch-Reiseführerin für ihre Heimatstadt.",
+  "detail": "Wer in Zhangjiajie als Ausländer unterwegs ist, wird manchmal von sehr jungen Fremdenführern angesprochen. CGTN porträtierte 2026 ein achtjähriges Mädchen aus der Stadt, das gern auf Englisch mit Touristen plaudert. Sie erklärt den Tianmen-Berg, den Grand Canyon und chinesische Traditionen.\n\nFür sie sei das eine schöne Gelegenheit, die Stimme ihrer Heimat in die Welt zu tragen, so der Sender.\n\nDie Nachfrage ist da: Im ersten Halbjahr 2026 kamen laut CGTN 699.200 Gäste aus dem Ausland nach Zhangjiajie und brachten 79,41 Millionen US-Dollar an Devisen. Da lohnt es sich, schon in der Grundschule Englisch zu üben.",
+  "sources": [
+   {
+    "title": "Young voice tells the Zhangjiajie story to the world",
+    "publisher": "CGTN",
+    "date": "2026-08-12",
+    "url": "https://news.cgtn.com/news/2026-08-12/Young-voice-tells-the-Zhangjiajie-story-to-the-world-1PyiAChQE3S/p.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "kinder",
+   "sprache",
+   "reisen"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "brauch"
+  ],
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-4d653c",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "99 Kurven, 100 Millionen: eine Million Yuan pro Kehre",
+  "teaser": "Die Serpentinenstraße zum Himmelstor kostete knapp 100 Millionen Yuan. Bei 99 Kurven macht das grob eine Million Yuan pro Kehre.",
+  "detail": "Die „Straße zum Himmel“ (通天大道) auf den Tianmen-Berg ist 10,77 Kilometer lang und steigt von etwa 200 auf 1.300 Meter. Dazwischen liegen genau 99 Kurven, einige davon 180-Grad-Kehren, die sich wie eine Kordel an den Hang legen.\n\nLaut Rednet begann der Bau 1998, fertig war die Straße im Mai 2005. Die Gesamtkosten: knapp 100 Millionen Yuan. Rein rechnerisch also rund eine Million Yuan pro Kurve. Dass es so lange dauerte, lag laut Bericht auch daran, dass beim Bau die Vegetation geschont werden sollte.\n\nDer Kalligraf Shen Peng schrieb nach der Fahrt vier Zeichen: 曲道通天, „Kurvenweg zum Himmel“.\n\nVor Ort: Beim Hochfahren mitzählen ist Ehrensache. Spätestens ab Kurve 40 verliert fast jeder den Faden.",
+  "sources": [
+   {
+    "title": "“通天大道”穿云破雾 九十九道弯直通“天门”",
+    "publisher": "Rednet (Hongwang) via Sina",
+    "date": "2005-09-06",
+    "url": "https://news.sina.cn/sa/2005-09-06/detail-ikknscsi7670596.d.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "verkehr",
+   "bau",
+   "berge"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "bauwerk",
+   "geld",
+   "vorort"
+  ],
+  "wiki": "Tianmen Mountain",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-103176",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Ein Artist balancierte über das Kabel der Seilbahn",
+  "teaser": "2008 und 2009 balancierte laut Xinhuas Thinktank Liaowang ein Seiltänzer aus Xinjiang zweimal ohne Sicherung auf dem Stahlseil der Tianmen-Seilbahn.",
+  "detail": "Die Tianmen-Seilbahn galt laut Liaowang als längste der Welt und ist stellenweise extrem steil. Für die meisten ist schon die Fahrt in der Gondel Mutprobe genug. Für Zhangjiajies Marketingabteilung war das zu wenig.\n\nLaut Xinhuas Thinktank Liaowang lief 2008 und 2009 zweimal ein Erbe der Dawazi-Tradition auf dem Kabel der Seilbahn, ohne Sicherung. Dawazi ist die uigurische Hochseilkunst aus Xinjiang, bei der Artisten mit einer Balancierstange auf schrägen Seilen gehen.\n\nEs gehörte zur Strategie, mit spektakulären Aktionen weltweit Schlagzeilen zu machen. Vorher waren schon Kunstflieger durchs Himmelstor gedüst.\n\nVor Ort: Beim Blick aus der Gondel auf die Tragseile kann man sich vorstellen, wie das zu Fuß ausgesehen hätte. Lieber nicht zu lange.",
+  "sources": [
+   {
+    "title": "“国际张”，重逢有时",
+    "publisher": "Liaowang Think Tank (Xinhua) via The Paper",
+    "date": "2021-08-12",
+    "url": "https://m.thepaper.cn/baijiahao_14026795"
+   }
+  ],
+  "tags": [
+   "china",
+   "rekorde",
+   "outdoor",
+   "berge"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "rekord",
+   "vorort"
+  ],
+  "wiki": "Tianmen Mountain",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-4adc23",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Wingsuit-WM: Zielscheibe zehn Zentimeter groß",
+  "teaser": "Bei der Wingsuit-WM am Tianmen-Berg springen die Flieger von einer Plattform in 1.458 Metern Höhe. Im Ziel-Wettbewerb ist der Zielpunkt im Tal zehn Zentimeter groß.",
+  "detail": "Wingsuit-Fliegen sieht aus wie kontrolliertes Fallen, und am Tianmen-Berg wird es benotet. Zur zehnten Wingsuit-WM 2024 sprangen die besten 16 Fliegerinnen und Flieger von einer Plattform auf 1.458 Metern.\n\nIm Speed-Wettbewerb ging es 1,3 Kilometer weit und 990 Meter abwärts ins Ziel, mit über 200 Kilometern pro Stunde. In der Ziel-Disziplin peilen die Springer laut People's Daily ein zehn Zentimeter großes Ziel im Tal an. Also Darts, nur dass man selbst der Pfeil ist.\n\nDie Woche zog fast 100.000 Zuschauer an den Berg, online schauten über zehn Millionen zu. Ein Südafrikaner schwärmte, nirgends sonst auf der Welt gebe es eine riesige Höhle samt Publikum.",
+  "sources": [
+   {
+    "title": "Daredevils Descend on Zhangjiajie's Iconic Peaks",
+    "publisher": "People's Daily via Hunan Today",
+    "date": "2024-12-12",
+    "url": "https://hunantoday.cn/news/xhn/202412/21475622.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "outdoor",
+   "rekorde",
+   "berge"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "rekord"
+  ],
+  "wiki": "Wingsuit flying",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-6cc153",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "3.000 Felstürme – und Klettern war bis 2016 verboten",
+  "teaser": "In Zhangjiajie stehen über 3.000 Sandsteinsäulen. Trotzdem durfte dort bis 2016 niemand klettern. Ein internationales Team bekam als erstes die Erlaubnis.",
+  "detail": "Ein Gebiet mit über 3.000 senkrechten Felstürmen klingt nach Kletterparadies. Doch laut Kletter-Magazin Gripped verhinderten die Regeln des Parks lange, dass Kletterer das Labyrinth freistehender Säulen erkunden durften.\n\nIm April 2016 bekam erstmals ein internationales Team die Genehmigung, im Nationalforstpark zu klettern. Laut Gripped kletterten dabei Rueck und Smith-Gobat eine neue Route namens „Dragon's Nest“.\n\nDas Kuriose: Jedes Jahr sehen Millionen Besucher die Felsen, Seilbahnen und Aufzüge bringen sie bis an die Kanten. Nur hinauf durfte keiner, zumindest nicht offiziell.\n\nVor Ort: Wer nach oben will, nimmt den Bailong-Aufzug. Wer klettern will, fragt besser vorher – 2016 brauchte es dafür eine Sondergenehmigung.",
+  "sources": [
+   {
+    "title": "Rueck and Smith-Gobat Climb New Dragon's Nest in China",
+    "publisher": "Gripped Magazine",
+    "date": "2016-07-04",
+    "url": "https://gripped.com/news/rueck-smith-gobat-climb-new-dragons-nest-china/"
+   }
+  ],
+  "tags": [
+   "china",
+   "outdoor",
+   "berge",
+   "recht"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "gesetz",
+   "rekord",
+   "vorort"
+  ],
+  "wiki": "Zhangjiajie National Forest Park",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-c580d8",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "„Drei-in-den-Topf“ heißt nicht drei Zutaten",
+  "teaser": "Zhangjiajies Leibgericht Sanxiaguo meint nicht drei Zutaten, sondern drei Kochgänge. Erfunden wurde es angeblich als Fast Food für Flößer.",
+  "detail": "In Zhangjiajie hängt das Schild „三下锅“ fast an jeder Ecke. Wörtlich heißt das „dreimal in den Topf“, und nein, das sind nicht drei Zutaten. Laut Präsident des städtischen Gastronomieverbands sind es drei Arbeitsgänge: Innereien kurz blanchieren, dann schneiden, anbraten, würzen, schmoren, und am Ende kommt alles nach Wunsch in einen kleinen Topf über die Flamme.\n\nDie Herkunft: In der Ming- und Qing-Zeit war der Li-Fluss eine Hauptverkehrsader. Flößer hatten keine Zeit zu warten, also hielten Wirte alles fertig gekocht bereit. Der Verbandschef sieht darin glatt eine Inspiration für moderne Restaurantketten.\n\nTypisch sind Dickdarm, Schweinemagen und Räucherspeck, als trockene, scharfe oder milde Suppenversion.\n\nVor Ort: Die Suppenversion ist laut Zeitung für Jung und Alt geeignet, die trockene richtig scharf.",
+  "sources": [
+   {
+    "title": "“美味”张家界：好菜要摆几大桌",
+    "publisher": "Hunan Daily (Print, S. 4)",
+    "date": "2022-09-09",
+    "url": "https://hnrb.hunantoday.cn/hnrb_epaper/images/2022-09/09/04/2022090904_pdf.pdf"
+   },
+   {
+    "title": "“国际张”的七十二变⑤丨“美味”张家界：好菜要摆几大桌",
+    "publisher": "Hunan Daily / Xinhunan",
+    "date": "2022-09-09",
+    "url": "https://m.voc.com.cn/xhn/news/202209/14565482.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "kochen",
+   "gastronomie",
+   "schifffahrt"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "essen",
+   "woerter",
+   "vorort"
+  ],
+  "wiki": "Tujia people",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-fdf3ed",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "„Sechs plus zwei, viel Suppe“: so bestellt man Kalte Nudeln",
+  "teaser": "In Zhangjiajie isst man kalte Nudeln oft zum Frühstück. Profis bestellen mit Code: „Sechs plus zwei“ heißt Nudeln für sechs Yuan plus Schweineohr für zwei.",
+  "detail": "Wenn Sanxiaguo der Chef der Zhangjiajie-Küche ist, dann sind laut Hunan Daily die Liangmian, kalte Nudeln, der Boss der Snacks. Viele Einheimische essen sie morgens und mittags gleich nochmal.\n\nIn einer „Kalte-Nudel-Straße“ verkaufen Läden nichts anderes. Stammkunden rufen: „Chef, sechs plus zwei, extra Suppe!“ Das heißt: Nudeln für sechs Yuan, Schweineohr für zwei, dazu Tomatensuppe. Obendrauf kommen zig Zutaten, bis der Napf aussieht wie ein kleiner Berg.\n\nEin Laden verkauft an vollen Tagen laut Gründer über 1.000 Schalen, rund 150 Kilo Nudeln. Eine bekannte Marke heißt übrigens „Schweinekopf-Kalte-Nudeln“.\n\nVor Ort: Eine sättigende Schale kostet laut Zeitung gut zehn Yuan – der Preis-Leistungs-König der Stadt.",
+  "sources": [
+   {
+    "title": "“美味”张家界：好菜要摆几大桌",
+    "publisher": "Hunan Daily (Print, S. 4)",
+    "date": "2022-09-09",
+    "url": "https://hnrb.hunantoday.cn/hnrb_epaper/images/2022-09/09/04/2022090904_pdf.pdf"
+   }
+  ],
+  "tags": [
+   "china",
+   "kochen",
+   "gastronomie",
+   "geld"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "essen",
+   "woerter",
+   "vorort"
+  ],
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-ae421e",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Operntitel womöglich geändert, weil der alte frivol klang",
+  "teaser": "Das Volkstheater Yangxi aus Zhangjiajie hat eine schräge Namensgeschichte: Eine Erklärung lautet, der alte Name klang anrüchig – also schrieb man ihn um.",
+  "detail": "Zhangjiajie hat eine eigene Opernform, die Yangxi (阳戏), heute nationales Kulturerbe. Gesungen wird im lokalen Dialekt, mit einer Technik namens „Goldfaden hält Kalebasse“: Den Text singt man mit Bruststimme, den Schluss jeder Phrase springt man per Kopfstimme eine Oktave höher.\n\nZum Namen nennt das staatliche Kulturerbe-Portal drei Theorien. Die schönste: Ein früheres Stück hieß „Yang Hua Liu“, und das klang nach Weidenkätzchen und Liebeleien, also ziemlich schlüpfrig. Darum habe man das gleich klingende „Yang“ (阳) für „Sonne“ gewählt.\n\nGespielt werden vor allem Familiendramen und Tragödien, wenig Kampfszenen, und die Frauenrolle steht an erster Stelle.\n\nVor Ort: Im „Haus der 72 Wunder“ wurde Yangxi laut Hunan Daily schon vorgeführt.",
+  "sources": [
+   {
+    "title": "张家界阳戏",
+    "publisher": "China Intangible Cultural Heritage Network (ihchina.cn)",
+    "date": "2011",
+    "url": "https://www.ihchina.cn/project_details/13573.html"
+   },
+   {
+    "title": "Zhangjiajie 72 Unusual Houses Scenic Spot Attracts Numerous Visitors",
+    "publisher": "Hunan Daily via Hunan Today",
+    "date": "2024-10-17",
+    "url": "https://hunantoday.cn/news/xhn/202410/20850317.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "theater",
+   "musik",
+   "sprache"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "woerter",
+   "brauch",
+   "vorort"
+  ],
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-5cf469",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Volkslieder in Dreizeilern – weil man hier die Drei verehrt",
+  "teaser": "Die Volkslieder aus Sangzhi bei Zhangjiajie haben oft dreizeilige Strophen. Das staatliche Kulturerbe-Portal erklärt das mit einer lokalen Vorliebe für die Zahl Drei.",
+  "detail": "Sangzhi, ein Kreis der Stadt Zhangjiajie, ist berühmt für seine Volkslieder, seit 2006 nationales Kulturerbe. Laut offiziellem Kulturerbe-Portal waren sie ursprünglich Arbeitslieder aus der Landwirtschaft, ihr Stil: schlicht, derb, witzig.\n\nDas Besondere ist ihre Form. Viele Lieder haben Strophen mit drei statt vier Zeilen. Das Portal nennt das einen wertvollen Fall für die Vielfalt chinesischer Volkslieder und deutet es als Ausdruck einer schlichten Philosophie: Die Leute in Sangzhi verehrten die Drei.\n\nAuch die Titel sind herrlich: „Kalter Tee zieht langsam durch“ oder „Wenn die Kastanie blüht, ein langer Faden“. Klingt nach Teeküchen-Weisheit, gilt laut Portal aber als Klassiker im Liederschatz Chinas.\n\nVor Ort: Auf den Booten am Baofeng-See werden Sangzhi-Lieder gesungen – mitzählen, ob es drei Zeilen sind.",
+  "sources": [
+   {
+    "title": "桑植民歌",
+    "publisher": "China Intangible Cultural Heritage Network (ihchina.cn)",
+    "date": "2006",
+    "url": "https://www.ihchina.cn/project_details/12423.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "musik",
+   "sprache"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "brauch",
+   "woerter",
+   "vorort"
+  ],
+  "wiki": "Sangzhi County",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-a2f828",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Tanzen im Strohkostüm, Stimme verstellt",
+  "teaser": "Beim Maogusi, einem uralten Tujia-Tanz, tragen Tänzer Gewänder aus Stroh und Rinde und fünf dicke Zöpfe. Sie verstellen ihre Stimmen, damit niemand sie erkennt.",
+  "detail": "Der Maogusi (毛古斯) ist laut chinesischem Kulturerbe-Portal ein Tanztheater der Tujia, entstanden aus Opferritualen. Die Darsteller tragen Kleider aus Stroh und Rinde, auf dem Kopf fünf große Zöpfe. Sie gehen in die Knie und schütteln sich, bis das Stroh raschelt.\n\nGespielt werden Szenen vom Fischen, Jagen und Ackerbau, mit Dialogen und kleiner Handlung. Die Regel dabei: Beim Sprechen wird die Stimme so verstellt, dass Zuschauer nicht erkennen, wer unter dem Stroh steckt. Forschern gilt der Tanz als Spur zu den Ursprüngen des Tujia-Tanzes.\n\nZhangjiajie hat daraus laut Xinhuas Thinktank eine Show gemacht: Ein „Tausend-Personen-Maogusi“ steht im Guinness-Buch.\n\nVor Ort: Wer bei einer Tujia-Show raschelnde Strohgestalten sieht, weiß jetzt: Wer drinsteckt, soll geheim bleiben.",
+  "sources": [
+   {
+    "title": "湘西土家族毛古斯舞",
+    "publisher": "China Intangible Cultural Heritage Network (ihchina.cn)",
+    "date": "2006",
+    "url": "https://www.ihchina.cn/project_details/12975.html"
+   },
+   {
+    "title": "“国际张”，重逢有时",
+    "publisher": "Liaowang Think Tank (Xinhua) via The Paper",
+    "date": "2021-08-12",
+    "url": "https://m.thepaper.cn/baijiahao_14026795"
+   }
+  ],
+  "tags": [
+   "china",
+   "theater",
+   "feste",
+   "rekorde"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "brauch",
+   "rekord",
+   "vorort"
+  ],
+  "wiki": "Tujia people",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-e58917",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Wintermärchen nach Bauernregel: Abends Nebel, mittags Eisblüten",
+  "teaser": "Von Ende November bis März überzieht in Wulingyuan oft Raureif die Säulen. Eine Faustregel sagt, wann man schauen muss: nachts Nebel, morgens Eis, mittags fallen die Blüten.",
+  "detail": "Südchina und Schnee? Selten. Trotzdem kann Wulingyuan laut Hunan Daily von Ende November bis März zur Eislandschaft werden. Der Grund ist Raureif: Bei 88 Prozent Waldbedeckung ist die Luft im Winter feucht, und bei Kälte gefriert der Wasserdampf direkt an Ästen und Felsen. Eine dünne Schicht braucht oft über zehn Stunden.\n\nEinheimische haben dafür eine Faustregel: 夜看雾，晨看挂，待到近午赏落花. Sinngemäß: nachts auf Nebel achten, morgens hängt das Eis, gegen Mittag fallen die „Blüten“ wieder herunter.\n\nBeste Spots laut Zeitung: die hohen Gipfel Tianzi-Berg und Huangshizhai. Am Aussichtspunkt Mihuntai, der „Plattform, die die Seele verwirrt“, hängt eine Wetterkamera, damit man das Eis vorab online prüfen kann.\n\nVor Ort: Ende Oktober ist es für Raureif noch zu früh. Die Faustregel taugt trotzdem als Spruch für jeden Nebelmorgen.",
+  "sources": [
+   {
+    "title": "湖湘自然历丨气象万千⑨酷热中，期待银装素裹的世界",
+    "publisher": "Hunan Daily / Xinhunan",
+    "date": "2023-08-09",
+    "url": "https://m.voc.com.cn/xhn/news/202308/18467835.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "wetter",
+   "berge",
+   "pflanzen"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "brauch",
+   "vorort"
+  ],
+  "wiki": "Tianzi Mountain",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-d44d60",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Von 13.000 Gästen auf 73 Millionen",
+  "teaser": "1979 kamen zur Forstfarm Zhangjiajie rund 13.000 Besucher. 2017 zählte die Stadt über 73 Millionen Besuche in ihren Sehenswürdigkeiten.",
+  "detail": "Die Zahlen sind so absurd, dass man zweimal hinschauen muss. 1979, als Zhangjiajie noch eine staatliche Forstfarm war, kamen laut Xinhuas Thinktank Liaowang 13.000 Besucher. 1989 arbeiteten in der ganzen Region gerade einmal 708 Menschen im Tourismus.\n\nDann ging es steil bergauf: Ab 1999 brachte die Kunstflug-Show durchs Himmelstor weltweite Aufmerksamkeit, 2000 wurde erstmals die Zehn-Millionen-Marke geknackt. 2017 zählten die Sehenswürdigkeiten über 73 Millionen Besuche, die Einnahmen lagen bei über 62 Milliarden Yuan. 2019 machte der Dienstleistungssektor, vor allem Tourismus, über 72 Prozent der Wirtschaftsleistung aus.\n\nDer Börsengang der Tourismusfirma 1996 galt als „Chinas erste Landschafts-Aktie“.\n\nVor Ort: Wer in der Schlange steht, ist Teil einer Statistik, die mit 13.000 Leuten begann.",
+  "sources": [
+   {
+    "title": "“国际张”，重逢有时",
+    "publisher": "Liaowang Think Tank (Xinhua) via The Paper",
+    "date": "2021-08-12",
+    "url": "https://m.thepaper.cn/baijiahao_14026795"
+   }
+  ],
+  "tags": [
+   "china",
+   "reisen",
+   "wirtschaft",
+   "rekorde"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "rekord",
+   "geld",
+   "vorort"
+  ],
+  "wiki": "Wulingyuan",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-31ceaa",
+  "category": "ort",
+  "place": "zhangjiajie",
+  "lang": "de",
+  "headline": "Eine Schlucht, 30 Sorten Sommerwetter",
+  "teaser": "In der Maoyan-Schlucht westlich von Zhangjiajie haben Gutachter 30 Typen sommerlicher Wetterschauspiele gezählt – von Wolkenwasserfällen bis Mondhöfen.",
+  "detail": "Wetter ist in Zhangjiajie keine Nebensache, sondern Sehenswürdigkeit mit Katalog. Für die rund 20 Kilometer lange Maoyan-Schlucht am Oberlauf des Li-Flusses wurde laut Hunan Daily gezählt: drei Hauptklassen, acht Unterklassen, 30 Untertypen sommerlicher „Wetterlandschaften“.\n\nDazu gehören Wolkenmeere, Wolkenwasserfälle und Wolkendecken, die wie ein Schirm über den Gipfeln hängen, außerdem Morgen- und Abendrot sowie Sonnen- und Mondhöfe. Durchschnittlich hat es im Sommer etwa 26 Grad.\n\nDie Schlucht hat noch einen zweiten Titel: Laut Xinhuas Thinktank Liaowang war die Rafting-Tour auf dem Maoyan-Fluss die erste touristische Raftingstrecke Chinas.\n\nVor Ort: Wer einen verregneten Tag erwischt, kann sich trösten. Vielleicht hat man gerade Wettertyp Nummer 17 gesehen.",
+  "sources": [
+   {
+    "title": "湖湘自然历｜气象万千⑧飘向峡谷的云，你慢些走",
+    "publisher": "Hunan Daily / Xinhunan",
+    "date": "2023-08-08",
+    "url": "https://m.voc.com.cn/xhn/news/202308/18461815.html"
+   },
+   {
+    "title": "“国际张”，重逢有时",
+    "publisher": "Liaowang Think Tank (Xinhua) via The Paper",
+    "date": "2021-08-12",
+    "url": "https://m.thepaper.cn/baijiahao_14026795"
+   }
+  ],
+  "tags": [
+   "china",
+   "wetter",
+   "outdoor",
+   "rekorde"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "rekord",
+   "forschung",
+   "vorort"
+  ],
+  "verified": "2026-10-14"
+ },
+ {
   "id": "ort-3219ac",
   "category": "ort",
   "place": "zhangjiajie",
