@@ -130,6 +130,28 @@ for c in bp.load_json(os.path.join(ROOT, "cn", "claude_spots_cn.json"), []):
         **({"image_page": c["image_page"], "image_credit": c["image_credit"]} if c.get("image_page") else {}),
     })
 
+# Spots aus beliebigen Links (Inbox, z.B. trip.com): cn/extra_spots.json
+for e in bp.load_json(os.path.join(ROOT, "cn", "extra_spots.json"), []):
+    places.append({
+        "id": spot_id(e["name"]), "region": "cn", "name": e["name"], "district": e["district"],
+        "category": e["cat"], "note": e.get("note", ""), "address": e["district"], "lat": e["lat"], "lng": e["lng"],
+        "approx": e.get("approx", False), "image": None, "caption": "", "post_url": "", "username": "",
+        "profile_url": "", "posts": [], "source": e.get("source", ""),
+        **({"ok": e["ok"]} if e.get("ok") else {}), **({"unsure": e["unsure"]} if e.get("unsure") else {}),
+    })
+
+# Zusätzliche Fotos aus Links (cn/extra_photos.json, Name → [{image, url, credit}]) – erscheinen in der Galerie
+for p in places:
+    extra = [x for x in bp.load_json(os.path.join(ROOT, "cn", "extra_photos.json"), {}).get(p["name"], [])
+             if os.path.exists(os.path.join(ROOT, x["image"]))]
+    if not extra:
+        continue
+    p["posts"] = [q for q in p["posts"] if q.get("image")] + [
+        {"url": x["url"], "username": "", "profile_url": x["url"], "kind": "photo", "image": x["image"],
+         "caption": x.get("caption", ""), "credit": x["credit"]} for x in extra]
+    if not p["image"]:
+        p.update(image=extra[0]["image"], image_page=extra[0]["url"], image_credit=extra[0]["credit"])
+
 # Tag/Nacht für den Filter (Korrekturen in hk/daynight.json)
 import daynight  # noqa: E402
 daynight.tag_all(places)

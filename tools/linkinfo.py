@@ -11,6 +11,7 @@ import os
 import re
 import subprocess
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -107,7 +108,69 @@ def web(url):
             "hint": "Ort(e) und Fotos aus title/description/text/json_ld/coords_in_page bestimmen – nie raten", **d}
 
 
+def gcj2wgs(lat, lng):
+    """GCJ-02 (chinesische Kartenkoordinaten) → WGS84, Genauigkeit ca. 1–2 m."""
+    import math
+
+    def t(x, y, a, b, c, d):
+        r = a + b * x + c * y + 0.1 * x * x * (a == 300) + 0.2 * y * y * (a != 300) + 0.1 * x * y + d * math.sqrt(abs(x))
+        r += (20 * math.sin(6 * x * math.pi) + 20 * math.sin(2 * x * math.pi)) * 2 / 3
+        v = y if a != 300 else x
+        r += (20 * math.sin(v * math.pi) + 40 * math.sin(v / 3 * math.pi)) * 2 / 3
+        r += ((160 * math.sin(v / 12 * math.pi) + 320 * math.sin(v * math.pi / 30)) if a != 300 else
+              (150 * math.sin(v / 12 * math.pi) + 300 * math.sin(v / 30 * math.pi))) * 2 / 3
+        return r
+    A, EE = 6378245.0, 0.00669342162296594323
+    x, y = lng - 105, lat - 35
+    dl, dg = t(x, y, -100, 2, 3, 0.2), t(x, y, 300, 1, 2, 0.1)
+    rl = lat / 180 * math.pi
+    m = 1 - EE * math.sin(rl) ** 2
+    dl = dl * 180 / ((A * (1 - EE)) / (m * math.sqrt(m)) * math.pi)
+    dg = dg * 180 / (A / math.sqrt(m) * math.cos(rl) * math.pi)
+    return round(lat - dl, 6), round(lng - dg, 6)
+
+
+def tripcom(url):
+    """trip.com Moments/Travel-Guide: Browser wird geblockt (whaleguard), einfacher Abruf liefert __NEXT_DATA__."""
+    if "/w/" in url:  # Kurzlink: nur die erste Weiterleitung nehmen, Query (führt sonst zur Startseite) weglassen
+        class NoRedir(urllib.request.HTTPRedirectHandler):
+            def redirect_request(self, *a, **k):
+                return None
+        try:
+            urllib.request.build_opener(NoRedir).open(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=30)
+        except urllib.error.HTTPError as e:
+            url = re.sub(r"^https?://[^/]+", "https://www.trip.com", (e.headers.get("Location") or url).split("?")[0])
+    final, html = get(url, ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15")
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    if not m:
+        return web(url)
+    pp = json.loads(m.group(1))["props"]["pageProps"]
+    mo = (pp.get("momentDetail") or {}).get("moment") or pp.get("moment") or {}
+    out = {"kind": "web", "site": "trip.com", "url": final.split("?")[0], "title": mo.get("title"),
+           "text": (mo.get("content") or "")[:4000], "author": (mo.get("author") or {}).get("nickName"),
+           "images": [i["url"] for i in mo.get("imageList", [])], "pois": [], "lat": None, "lng": None,
+           "exact": False, "hint": "POI-Koordinaten: lat_wgs/lng_wgs verwenden (GCJ-02 bereits umgerechnet)"}
+    for poi in mo.get("poiList", []):
+        e = {"name": poi.get("name"), "page": (poi.get("pageUrl") or {}).get("h5Url")}
+        try:
+            _, ph = get(e["page"])
+            c = re.search(r'"coordinate":\{"coordinateType":"(\w+)","latitude":([\d.]+),"longitude":([\d.]+)', ph)
+            a = re.search(r'"address":"([^"]+)"', ph)
+            if c:
+                e.update(coord_type=c.group(1), lat=float(c.group(2)), lng=float(c.group(3)))
+                if c.group(1).upper().startswith("GCJ"):
+                    e["lat_wgs"], e["lng_wgs"] = gcj2wgs(e["lat"], e["lng"])
+            if a:
+                e["address"] = a.group(1)
+        except Exception:  # noqa: BLE001
+            pass
+        out["pois"].append(e)
+    return out
+
+
 def info(url):
+    if re.search(r"(^|\.)trip\.com/", urllib.parse.urlsplit(url).netloc + "/"):
+        return tripcom(url)
     if re.search(r"locationscout\.net/", url):
         return locationscout(url)
     if re.search(r"(openstreetmap|osm)\.org/", url):

@@ -4375,6 +4375,83 @@ window.PLACES_CN = [
   "image_page": "https://commons.wikimedia.org/wiki/File:Tianzifangbyday.jpg",
   "image_credit": "Jonipoon · CC BY-SA 3.0 · Wikimedia Commons",
   "when": "day"
+ },
+ {
+  "id": "cn-haus-nowhere-im-mixc-world",
+  "region": "cn",
+  "name": "Haus Nowhere 巨人展 im MixC World 深圳万象天地",
+  "district": "Nanshan (Dachong/Hi-Tech Park), Shenzhen",
+  "category": "Architektur",
+  "note": "Gentle-Monster-Flagship HAUS NOWHERE im MixC World 深圳万象天地, Shennan Blvd 9668 深南大道9668号 (Nanshan). Riesen-Installationen gratis: „The Colossal First Human“ (Riesenmensch zwischen Säulen), Mann im Müllsack-Meer, Köpfe mit Roboterarmen, Skorpion/Ameisen/Käfer aus Chrom. Außen am Gebäude der riesige Kuschel-Elefant (抱抱象) und die LED-Fassade. Metro Linie 1 Hi-Tech Park 高新园 bzw. Linie 2 Keyuan, ca. 5–10 Min. zu Fuß. Innen tagsüber/abends gleich; Elefant und Fassade am schönsten zur Blauen Stunde. Koordinate aus trip.com (GCJ-02 → WGS84 umgerechnet).",
+  "address": "Nanshan (Dachong/Hi-Tech Park), Shenzhen",
+  "lat": 22.544903,
+  "lng": 113.951035,
+  "approx": false,
+  "image": "images/hausnowhere_trip_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+    "kind": "photo",
+    "image": "images/hausnowhere_trip_1.jpg",
+    "caption": "",
+    "credit": "freeneasytravel · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+    "kind": "photo",
+    "image": "images/hausnowhere_trip_2.jpg",
+    "caption": "",
+    "credit": "freeneasytravel · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+    "kind": "photo",
+    "image": "images/hausnowhere_trip_3.jpg",
+    "caption": "",
+    "credit": "freeneasytravel · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+    "kind": "photo",
+    "image": "images/hausnowhere_trip_4.jpg",
+    "caption": "",
+    "credit": "freeneasytravel · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+    "kind": "photo",
+    "image": "images/hausnowhere_trip_5.jpg",
+    "caption": "",
+    "credit": "freeneasytravel · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+    "kind": "photo",
+    "image": "images/hausnowhere_trip_6.jpg",
+    "caption": "",
+    "credit": "freeneasytravel · trip.com Moments"
+   }
+  ],
+  "source": "trip.com Moments (freeneasytravel)",
+  "image_page": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
+  "image_credit": "freeneasytravel · trip.com Moments",
+  "when": "both"
  }
 ];
 window.UNPLACED_CN = [
