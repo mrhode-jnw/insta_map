@@ -1,10 +1,20 @@
 {
- "version": "202610140356",
+ "version": "202610140404",
  "packs": [
+  {
+   "file": "facts-aktuell.json",
+   "place": null,
+   "count": 12
+  },
   {
    "file": "facts-allgemein.json",
    "place": null,
    "count": 139
+  },
+  {
+   "file": "facts-hongkong.json",
+   "place": "hongkong",
+   "count": 30
   }
  ]
 }
