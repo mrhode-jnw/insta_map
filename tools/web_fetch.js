@@ -5,8 +5,9 @@ const { chromium } = require('playwright');
   const url = process.argv[2];
   const exe = process.env.CHROMIUM_PATH || '/opt/pw-browsers/chromium';
   const b = await chromium.launch(require('fs').existsSync(exe) ? { executablePath: exe } : {});
-  const p = await b.newPage({ viewport: { width: 430, height: 932 }, locale: 'en-US',
-    userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1' });
+  // Desktop-Browser: Kurzlinks mancher Portale (z.B. trip.com/w/…) leiten Handys auf die Startseite statt zum Beitrag
+  const p = await b.newPage({ viewport: { width: 1280, height: 1000 }, locale: 'en-US',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36' });
   await p.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
   await p.waitForTimeout(6000);
   await p.evaluate(() => window.scrollBy(0, 2500)); await p.waitForTimeout(1500);

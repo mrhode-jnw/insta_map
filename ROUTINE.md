@@ -72,6 +72,8 @@ Einträge mit `"kind"` (`gmaps`, `osm`, `locationscout`) und `"id"` statt `"code
    laden (max. 1080 px). Neuer Ort → Eintrag in `hk/extra_spots.json` (bzw. `cn/spots_cn.py`) mit `image`,
    `source` (Seite/Autor) und `url`; Ort schon vorhanden → Foto mit Quelle in `hk/extra_photos.json` ergänzen
    und die Notiz um neue Infos (beste Zeit, Standpunkt, Anreise) erweitern.
+   China-Orte: Spot in `cn/extra_spots.json`, Fotos in `cn/extra_photos.json`, danach `python3 tools/build_cn.py`.
+   trip.com-Links liest `linkinfo.py` direkt aus (Fotos + POI-Koordinaten, `lat_wgs`/`lng_wgs` verwenden).
 4. `python3 tools/inbox.py done <id> "<Spotname(n)>"`.
 Instagram-Abrufe, die gesperrt sind (kein contextJSON), lädt `tools/slides.py` automatisch über
 `tools/ig_fetch.js` mit echtem Browser nach.
