@@ -23,6 +23,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -50,6 +53,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "essen",
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -77,6 +84,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "essen",
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -103,6 +114,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "essen",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -130,6 +145,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "essen",
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -156,6 +175,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -181,6 +204,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "woerter",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -208,6 +235,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "gesetz",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -232,6 +263,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -258,6 +292,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "mythos",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -284,6 +322,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "essen",
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -309,6 +351,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "woerter",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -334,6 +380,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter",
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -359,6 +409,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -383,6 +436,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -407,6 +463,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -432,6 +491,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter",
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -457,6 +520,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -482,6 +548,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -507,6 +576,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "woerter",
+   "legende"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -533,6 +606,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -558,6 +634,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -585,6 +664,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -612,6 +695,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter",
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -638,6 +725,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -668,6 +758,10 @@
   "gross": true,
   "kids": false,
   "fun": 5,
+  "themes": [
+   "forschung",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -708,6 +802,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -739,6 +836,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung",
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -764,6 +865,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "forschung",
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -801,6 +906,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -832,6 +940,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -862,6 +973,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -886,6 +1000,10 @@
   "gross": true,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "mythos",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -917,6 +1035,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -947,6 +1068,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -977,6 +1101,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1002,6 +1129,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1033,6 +1163,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1064,6 +1197,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1100,6 +1237,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung",
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1127,6 +1268,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1153,6 +1297,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1183,6 +1330,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1209,6 +1359,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1239,6 +1392,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1269,6 +1425,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1295,6 +1454,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1326,6 +1488,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1363,6 +1528,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1395,6 +1563,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "brauch",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1426,6 +1598,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1452,6 +1627,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "rekord",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1484,6 +1663,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "brauch",
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1513,6 +1696,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1544,6 +1730,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1575,6 +1764,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1606,6 +1799,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1637,6 +1833,11 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1668,6 +1869,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1699,6 +1904,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1730,6 +1939,10 @@
   "gross": false,
   "kids": false,
   "fun": 4,
+  "themes": [
+   "forschung",
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1768,6 +1981,10 @@
   "sensitive": "krieg",
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1799,6 +2016,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "faelschung",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1830,6 +2051,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1861,6 +2085,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1893,6 +2121,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1924,6 +2156,11 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung",
+   "faelschung",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1955,6 +2192,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -1985,6 +2226,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2015,6 +2259,9 @@
   "gross": false,
   "kids": false,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2046,6 +2293,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2077,6 +2328,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2108,6 +2363,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2139,6 +2398,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2169,6 +2432,12 @@
   "gross": true,
   "kids": false,
   "fun": 5,
+  "themes": [
+   "forschung",
+   "legende",
+   "mythos",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2200,6 +2469,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2230,6 +2502,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2261,6 +2536,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2292,6 +2571,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2323,6 +2606,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2354,6 +2641,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "forschung",
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2385,6 +2676,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "forschung",
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2416,6 +2711,11 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "erfindung",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2442,6 +2742,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "panne"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2469,6 +2773,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "panne",
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2495,6 +2803,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2520,6 +2831,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "faelschung",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2545,6 +2860,10 @@
   "gross": false,
   "kids": false,
   "fun": 4,
+  "themes": [
+   "bauwerk",
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2570,6 +2889,10 @@
   "gross": true,
   "kids": false,
   "fun": 5,
+  "themes": [
+   "gesetz",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2597,6 +2920,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2624,6 +2951,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2650,6 +2981,10 @@
   "gross": false,
   "kids": false,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2681,6 +3016,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "faelschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2712,6 +3050,9 @@
   "sensitive": "krieg",
   "kids": true,
   "fun": 4,
+  "themes": [
+   "panne"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2749,6 +3090,11 @@
   "gross": true,
   "kids": false,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "rekord",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2776,6 +3122,11 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "panne",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2802,6 +3153,10 @@
   "gross": true,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2828,6 +3183,10 @@
   "gross": true,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "erfindung",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2856,6 +3215,10 @@
   "sensitive": "krieg",
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "panne"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2882,6 +3245,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "gesetz",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2908,6 +3275,10 @@
   "gross": false,
   "kids": false,
   "fun": 4,
+  "themes": [
+   "panne",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2934,6 +3305,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "krimi",
+   "faelschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2961,6 +3336,9 @@
   "sensitive": "krankheit",
   "kids": true,
   "fun": 4,
+  "themes": [
+   "legende"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -2988,6 +3366,9 @@
   "sensitive": "krankheit",
   "kids": true,
   "fun": 5,
+  "themes": [
+   "legende"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3013,6 +3394,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3038,6 +3422,10 @@
   "gross": true,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3065,6 +3453,9 @@
   "sensitive": "krieg",
   "kids": false,
   "fun": 3,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3097,6 +3488,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3123,6 +3518,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "faelschung",
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3152,6 +3551,10 @@
   "gross": true,
   "kids": false,
   "fun": 4,
+  "themes": [
+   "panne",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3179,6 +3582,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "tiere",
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3203,6 +3610,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3227,6 +3637,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "woerter",
+   "panne"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3251,6 +3665,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "woerter",
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3276,6 +3694,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3300,6 +3721,10 @@
   "gross": false,
   "kids": false,
   "fun": 5,
+  "themes": [
+   "woerter",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3325,6 +3750,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3350,6 +3778,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3375,6 +3806,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3399,6 +3834,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter",
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3423,6 +3862,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3449,6 +3891,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3474,6 +3920,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3498,6 +3947,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3523,6 +3975,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3555,6 +4011,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "woerter",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3581,6 +4041,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung",
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3607,6 +4071,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "geld",
+   "panne"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3633,6 +4101,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "essen",
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3666,6 +4138,11 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "woerter",
+   "geld",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3691,6 +4168,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3717,6 +4197,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3743,6 +4226,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "woerter",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3770,6 +4257,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "panne",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3805,6 +4296,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "woerter",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3831,6 +4326,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3857,6 +4355,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "panne"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3883,6 +4384,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3914,6 +4418,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3941,6 +4448,10 @@
   "gross": false,
   "kids": false,
   "fun": 5,
+  "themes": [
+   "erfindung",
+   "faelschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3967,6 +4478,11 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung",
+   "tiere",
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -3992,6 +4508,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4017,6 +4537,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4042,6 +4565,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4067,6 +4594,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4092,6 +4622,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4117,6 +4651,10 @@
   "gross": true,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4142,6 +4680,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4173,6 +4714,10 @@
   "gross": true,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4198,6 +4743,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4223,6 +4772,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4248,6 +4801,10 @@
   "gross": true,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4274,6 +4831,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "forschung",
+   "bauwerk"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4299,6 +4860,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4324,6 +4888,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4349,6 +4917,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "tiere",
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4374,6 +4946,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4399,6 +4974,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4424,6 +5002,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4449,6 +5030,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4474,6 +5058,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4499,6 +5086,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4524,6 +5115,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "faelschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4550,6 +5145,11 @@
   "gross": true,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "panne",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4575,6 +5175,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4606,6 +5209,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4631,6 +5238,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4662,6 +5273,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4687,6 +5302,9 @@
   "gross": false,
   "kids": false,
   "fun": 4,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4712,6 +5330,10 @@
   "gross": true,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4737,6 +5359,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4762,6 +5388,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4793,6 +5423,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4818,6 +5452,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4849,6 +5486,11 @@
   "gross": true,
   "kids": false,
   "fun": 5,
+  "themes": [
+   "geld",
+   "gesetz",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4875,6 +5517,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4901,6 +5546,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "geld",
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4927,6 +5576,11 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "geld",
+   "essen",
+   "faelschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4953,6 +5607,9 @@
   "sensitive": "krankheit",
   "kids": true,
   "fun": 5,
+  "themes": [
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -4978,6 +5635,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5003,6 +5663,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5029,6 +5692,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "panne"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5055,6 +5722,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "gesetz",
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5080,6 +5751,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "krimi"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5106,6 +5780,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5129,6 +5806,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5154,6 +5834,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "bauwerk"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5179,6 +5862,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "mythos",
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5210,6 +5897,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "rekord",
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5241,6 +5932,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5266,6 +5960,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5290,6 +5987,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5314,6 +6014,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "panne"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5340,6 +6043,10 @@
   "gross": false,
   "kids": true,
   "fun": 2,
+  "themes": [
+   "brauch",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5365,6 +6072,10 @@
   "gross": true,
   "kids": false,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5391,6 +6102,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5416,6 +6131,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5442,6 +6160,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5467,6 +6189,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5492,6 +6217,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5518,6 +6247,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5544,6 +6276,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5570,6 +6306,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "tiere",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5595,6 +6335,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "essen",
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5621,6 +6365,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5646,6 +6393,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5671,6 +6421,10 @@
   "gross": true,
   "kids": false,
   "fun": 4,
+  "themes": [
+   "forschung",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5696,6 +6450,10 @@
   "gross": true,
   "kids": false,
   "fun": 4,
+  "themes": [
+   "forschung",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5721,6 +6479,10 @@
   "gross": true,
   "kids": false,
   "fun": 3,
+  "themes": [
+   "forschung",
+   "eklig"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5747,6 +6509,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5772,6 +6537,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5797,6 +6565,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "mythos",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5822,6 +6594,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5847,6 +6622,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5872,6 +6650,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5897,6 +6678,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5922,6 +6706,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5947,6 +6734,9 @@
   "gross": false,
   "kids": true,
   "fun": 2,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5973,6 +6763,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -5999,6 +6792,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6025,6 +6821,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "bauwerk"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6051,6 +6850,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6083,6 +6885,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6109,6 +6914,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6134,6 +6942,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6161,6 +6972,9 @@
   "sensitive": "politik",
   "kids": true,
   "fun": 3,
+  "themes": [
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6186,6 +7000,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6212,6 +7029,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "gesetz",
+   "tiere"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6238,6 +7059,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "gesetz"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6264,6 +7088,11 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "gesetz",
+   "geld",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6290,6 +7119,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6317,6 +7149,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "mythos",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6344,6 +7180,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6370,6 +7209,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6396,6 +7238,9 @@
   "gross": false,
   "kids": true,
   "fun": 2,
+  "themes": [
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6422,6 +7267,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "geld",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6449,6 +7298,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "geld",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6476,6 +7329,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6503,6 +7359,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "geld",
+   "essen"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6529,6 +7389,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "geld",
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6554,6 +7418,9 @@
   "gross": false,
   "kids": true,
   "fun": 2,
+  "themes": [
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6581,6 +7448,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6607,6 +7477,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "panne"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6633,6 +7506,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "erfindung",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6659,6 +7536,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6684,6 +7564,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6709,6 +7592,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6733,6 +7619,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "brauch"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6758,6 +7647,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6784,6 +7677,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6810,6 +7706,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6835,6 +7734,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "mythos",
+   "geld"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6860,6 +7763,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung",
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6886,6 +7793,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6912,6 +7822,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6938,6 +7851,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "forschung",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6965,6 +7882,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung",
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -6990,6 +7911,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7015,6 +7939,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7040,6 +7967,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7065,6 +7995,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7090,6 +8023,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7116,6 +8052,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7142,6 +8081,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "rekord",
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7168,6 +8111,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7194,6 +8140,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7220,6 +8169,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7245,6 +8197,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7271,6 +8226,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7296,6 +8254,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7321,6 +8282,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "erfindung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7352,6 +8316,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7375,6 +8342,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7400,6 +8370,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7425,6 +8398,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7450,6 +8426,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "mythos",
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7474,6 +8454,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7498,6 +8481,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7523,6 +8509,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7547,6 +8536,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7571,6 +8563,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7597,6 +8592,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7623,6 +8621,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7648,6 +8649,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7673,6 +8677,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7698,6 +8705,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "mythos"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7722,6 +8732,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "rekord"
+  ],
   "verified": "2026-10-14"
  },
  {
@@ -7748,6 +8761,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14"
  }
 ]

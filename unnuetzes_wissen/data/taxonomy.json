@@ -81,6 +81,26 @@
     {"name": "Brettspiele", "tags": ["gaming", "mathematik"]}
   ],
 
+  "themes": [
+    {"id": "krimi", "icon": "🔍", "name": "Krimis & Betrug"},
+    {"id": "faelschung", "icon": "🎭", "name": "Fälschungen & Kopien"},
+    {"id": "legende", "icon": "👻", "name": "Spuk, Legenden & Aberglaube"},
+    {"id": "mythos", "icon": "🕵️", "name": "Mythen entlarvt"},
+    {"id": "panne", "icon": "🤦", "name": "Pannen & Fails"},
+    {"id": "rekord", "icon": "🏆", "name": "Rekorde"},
+    {"id": "gesetz", "icon": "📜", "name": "Absurde Gesetze & Behörden"},
+    {"id": "tiere", "icon": "🐾", "name": "Tierisch"},
+    {"id": "forschung", "icon": "🧪", "name": "Absurde Forschung"},
+    {"id": "geld", "icon": "💸", "name": "Geld & Gier"},
+    {"id": "woerter", "icon": "🔤", "name": "Wörter & Namen"},
+    {"id": "erfindung", "icon": "💡", "name": "Erfindungen & Zufälle"},
+    {"id": "essen", "icon": "🍜", "name": "Essen & Trinken"},
+    {"id": "bauwerk", "icon": "🏗️", "name": "Bauwerke & Stadtbild"},
+    {"id": "brauch", "icon": "🎎", "name": "Bräuche & Feste"},
+    {"id": "eklig", "icon": "🤢", "name": "Eklig"},
+    {"id": "vorort", "icon": "📍", "name": "Vor Ort erlebbar"}
+  ],
+
   "countries": [
     {"id": "china", "name": "China", "flag": "🇨🇳"},
     {"id": "deutschland", "name": "Deutschland", "flag": "🇩🇪"},

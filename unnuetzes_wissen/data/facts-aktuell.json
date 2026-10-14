@@ -29,6 +29,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14",
   "expires": "2026-10-19"
  },
@@ -61,6 +64,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung",
+   "rekord"
+  ],
   "verified": "2026-10-14",
   "expires": "2026-10-20"
  },
@@ -93,6 +100,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "forschung",
+   "essen"
+  ],
   "verified": "2026-10-14",
   "expires": "2026-10-21"
  },
@@ -125,6 +136,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14",
   "expires": "2026-10-22"
  },
@@ -157,6 +171,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter",
+   "tiere"
+  ],
   "verified": "2026-10-14",
   "expires": "2026-10-28"
  },
@@ -187,6 +205,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "forschung"
+  ],
   "verified": "2026-10-14",
   "expires": "2026-11-05"
  },
@@ -224,6 +245,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "gesetz"
+  ],
   "verified": "2026-10-14",
   "expires": "2026-11-08"
  },
@@ -256,6 +280,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "tiere",
+   "rekord"
+  ],
   "verified": "2026-10-14",
   "expires": "2026-10-21"
  },
@@ -289,6 +317,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "woerter"
+  ],
   "verified": "2026-10-14",
   "expires": "2026-10-25"
  },
@@ -321,6 +352,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
+  "themes": [
+   "panne"
+  ],
   "verified": "2026-10-14",
   "expires": "2026-10-25"
  },
@@ -353,6 +387,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "tiere",
+   "rekord"
+  ],
   "verified": "2026-10-14",
   "expires": "2026-10-21"
  },
@@ -385,6 +423,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
+  "themes": [
+   "tiere",
+   "geld"
+  ],
   "verified": "2026-10-14",
   "expires": "2026-10-22"
  }

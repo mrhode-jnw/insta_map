@@ -112,19 +112,32 @@
     return s;
   }
   // Fokus: "mix", "place:<id>", "country:<id>" oder "cat:<id>"
+  // Fokus aus bis zu zwei Teilen „Wo“ + „Was“, z. B. "place:shenzhen+theme:krimi"
+  const theme = id => (TAX.themes || []).find(t => t.id === id) || { id, name: id, icon: "•" };
+  const focusParts = focus => (!focus || focus === "mix" ? [] : focus.split("+")).map(p => p.split(":"));
+  const joinFocus = (where, what) => [where, what].filter(Boolean).join("+") || "mix";
   function matchFocus(f, focus) {
-    const [k, v] = focus.split(":");
-    if (k === "place") return f.place === v;
-    if (k === "country") return f.country === v || (!!f.place && place(f.place)?.countryId === v);
-    if (k === "cat") return f.category === v;
-    return true;
+    return focusParts(focus).every(([k, v]) =>
+      k === "place" ? f.place === v
+      : k === "country" ? f.country === v || (!!f.place && place(f.place)?.countryId === v)
+      : k === "cat" ? f.category === v
+      : k === "theme" ? (f.themes || []).includes(v)
+      : true);
   }
-  function focusLabel(focus = S.focus) {
-    const [k, v] = (focus || "mix").split(":");
+  function partLabel([k, v]) {
     if (k === "place") return `📍 ${place(v)?.name || v}`;
     if (k === "country") return `${country(v)?.flag || "🌍"} ${country(v)?.name || v}`;
     if (k === "cat") return `${cat(v).icon} ${cat(v).name}`;
-    return "🔀 Mix";
+    if (k === "theme") return `${theme(v).icon} ${theme(v).name}`;
+    return "";
+  }
+  function focusLabel(focus = S.focus) {
+    const parts = focusParts(focus);
+    if (!parts.length) return "🔀 Mix";
+    // „🔍 Krimis & Betrug · Shenzhen“: Was zuerst, Ort ohne zweites Symbol
+    const what = parts.find(([k]) => k === "theme" || k === "cat"), where = parts.find(([k]) => k === "place" || k === "country");
+    if (what && where) return `${partLabel(what)} · ${partLabel(where).replace(/^\S+\s/, "")}`;
+    return partLabel(parts[0]);
   }
   function score(f, pt, era) {
     let s = f.category === "ort" || f.category === "aktuell" ? 2.5 : catWeight(f.category);
@@ -341,22 +354,35 @@
   }
 
   // ---------- Fokus ----------
-  function openFocus() {
-    const opt = (v, label, sub, here) => {
-      const n = v === "mix" ? null : unreadFor(v);
-      return `<button class="row" data-a="focus-set" data-v="${esc(v)}" ${n === 0 ? "disabled" : ""} aria-pressed="${S.focus === v}">
-        <span class="grow"><span class="title">${esc(label)}${here ? ` <span class="here">du bist hier</span>` : ""}</span>
-        <div class="sub">${sub || (n ? `${n} ungelesen` : "alles gelesen")}</div></span>${S.focus === v ? "✓" : ""}</button>`;
-    };
+  let fsel = { where: null, what: null };
+  function openFocus(init = true) {
+    if (init) {
+      const parts = focusParts(S.focus);
+      fsel.where = parts.find(([k]) => k === "place" || k === "country")?.join(":") || null;
+      fsel.what = parts.find(([k]) => k === "theme" || k === "cat")?.join(":") || null;
+    }
+    const pill = (a, v, label, cur, n) => `<button class="pill" data-a="${a}" data-v="${esc(v || "")}" aria-pressed="${(cur || "") === (v || "")}" ${n === 0 ? "disabled" : ""}>${esc(label)}${n ? ` <span class="cnt">${n}</span>` : ""}</button>`;
+    // Zähler: ungelesene Fakten für jede Wahl in Kombination mit der jeweils anderen Hälfte
+    const cnt = (where, what) => unreadFor(joinFocus(where, what));
     const placeIds = [...PACK_PLACES].sort((a, b) => (b === S.curPlace) - (a === S.curPlace));
     const countryIds = [...PACK_COUNTRIES].sort((a, b) => (b === S.curCountry) - (a === S.curCountry));
-    const cats = TAX.categories.filter(c => c.id !== "ort" && FACTS.some(f => f.category === c.id && !f.place && !f.country));
+    const wheres = [[null, "🌍 Überall"], ...placeIds.map(id => ["place:" + id, `📍 ${place(id)?.name || id}${id === S.curPlace ? " (hier)" : ""}`]),
+      ...countryIds.map(id => ["country:" + id, `${country(id)?.flag || "🌍"} ${country(id)?.name || id}${id === S.curCountry ? " (hier)" : ""}`])];
+    const themes = (TAX.themes || []).map(t => ["theme:" + t.id, `${t.icon} ${t.name}`]);
+    const cats = TAX.categories.filter(c => c.interest).map(c => ["cat:" + c.id, `${c.icon} ${c.name}`]);
+    const total = cnt(fsel.where, fsel.what), chosen = joinFocus(fsel.where, fsel.what);
     openSheet(`<h2>Worüber willst du lesen?</h2>
-      <p class="muted small">Der Fokus gilt ab der nächsten Karte und bleibt, bis du ihn änderst. Sind alle passenden Fakten gelesen, geht es gemischt weiter.</p>
-      <div class="list">${opt("mix", "🔀 Mix", "Alles nach deinen Interessen")}</div>
-      ${placeIds.length ? `<div class="section-title">Orte</div><div class="list">${placeIds.map(id => opt("place:" + id, `📍 ${place(id)?.name || id}`, null, id === S.curPlace)).join("")}</div>` : ""}
-      ${countryIds.length ? `<div class="section-title">Länder</div><div class="list">${countryIds.map(id => opt("country:" + id, `${country(id)?.flag || "🌍"} ${country(id)?.name || id}`, null, id === S.curCountry)).join("")}</div>` : ""}
-      <div class="section-title">Themen</div><div class="list">${cats.map(c => opt("cat:" + c.id, `${c.icon} ${c.name}`)).join("")}</div>`);
+      <p class="muted small">Passende Fakten kommen zuerst; sind alle gelesen, geht es gemischt weiter.</p>
+      <div class="section-title">Wo?</div>
+      <div class="pills">${wheres.map(([v, l]) => pill("fs-where", v, l, fsel.where, v ? cnt(v, fsel.what) : null)).join("")}</div>
+      <div class="section-title">Was?</div>
+      <div class="pills">${pill("fs-what", null, "✨ Alles", fsel.what)}${themes.map(([v, l]) => pill("fs-what", v, l, fsel.what, cnt(fsel.where, v))).join("")}</div>
+      <div class="section-title">Oder eine Kategorie</div>
+      <div class="pills">${cats.map(([v, l]) => pill("fs-what", v, l, fsel.what, cnt(fsel.where, v))).join("")}</div>
+      <div class="ob-foot" style="position:sticky;bottom:0">
+        <button class="btn primary block" data-a="focus-set" data-v="${esc(chosen)}" ${chosen !== "mix" && !total ? "disabled" : ""}>
+          ${chosen === "mix" ? "🔀 Mix: alles gemischt" : `${esc(focusLabel(chosen))} · ${total} ungelesen`}</button>
+      </div>`);
   }
   function setFocus(v) {
     S.focus = v; S.suggest = null;
@@ -364,6 +390,19 @@
     rebuildRest(); save();
     if (!sheet.hidden) closeSheet(); else render();
     toast(v === "mix" ? "Wieder gemischt" : `Fokus: ${focusLabel(v)}`);
+  }
+
+  // Schnellwahl: die ergiebigsten Themen am aktuellen Ort, z. B. „🔍 Krimis hier“
+  const SHORT = { krimi: "Krimis hier", legende: "Legenden hier", panne: "Pannen hier", faelschung: "Fälschungen hier",
+    gesetz: "Gesetze hier", essen: "Essen hier", tiere: "Tiere hier", vorort: "Zum Hingehen" };
+  function quickChips() {
+    const here = S.curPlace && PACK_PLACES.has(S.curPlace) ? "place:" + S.curPlace : S.curCountry && PACK_COUNTRIES.has(S.curCountry) ? "country:" + S.curCountry : null;
+    if (!here) return "";
+    const want = ["krimi", "legende", "panne", "faelschung", "gesetz", "essen", "tiere", "vorort"];
+    const chips = want.map(t => ({ t, v: joinFocus(here, "theme:" + t), n: unreadFor(joinFocus(here, "theme:" + t)) }))
+      .filter(x => x.n >= 3 && x.v !== S.focus).sort((a, b) => (b.t === "krimi") - (a.t === "krimi") || b.n - a.n).slice(0, 3);
+    if (!chips.length) return "";
+    return `<div class="quick">${chips.map(x => `<button class="qchip" data-a="focus-set" data-v="${esc(x.v)}">${theme(x.t).icon} ${esc(SHORT[x.t] || theme(x.t).name)} <span class="cnt">${x.n}</span></button>`).join("")}</div>`;
   }
 
   // ---------- Heute ----------
@@ -376,7 +415,7 @@
     const where = loc ? `📍 ${esc(loc.name)}` : land ? `${land.flag || "🌍"} ${esc(land.name)}` : "";
     const head = `<div class="topbar"><h1 style="margin:0">Heute</h1>
         <button class="focus-btn" data-a="focus-open" aria-label="Fokus wählen">${esc(focusLabel())} ▾</button></div>
-      ${where ? `<div class="where">Du bist in ${where}</div>` : ""}`;
+      ${where ? `<div class="where">Du bist in ${where}</div>` : ""}${quickChips()}`;
     const sug = S.suggest && S.suggest !== S.focus ? `<div class="suggest"><span>${esc(focusLabel(S.suggest))}</span>
         <p>Du bist an einem neuen Ort. Sollen Fakten über ${esc(focusLabel(S.suggest).replace(/^\S+\s/, ""))} zuerst kommen?</p>
         <div class="btn-row"><button class="btn primary" data-a="focus-set" data-v="${esc(S.suggest)}">Ja, gern</button>
@@ -488,7 +527,10 @@
       <div class="list">${places.map(x => row("place:" + x.id, "📍", place(x.id)?.name || x.id, x.n)).join("")}</div>
       ${lands.length ? `<div class="section-title">Länder</div>
       <div class="list">${lands.map(x => row("country:" + x.id, country(x.id)?.flag || "🌍", country(x.id)?.name || x.id, x.n)).join("")}</div>` : ""}
-      <div class="section-title">Themen</div>
+      <div class="section-title">Trivia-Themen</div>
+      <div class="list">${(TAX.themes || []).map(t => ({ t, n: FACTS.filter(f => (f.themes || []).includes(t.id) && eligible(f)).length })).filter(x => x.n)
+        .map(x => row("theme:" + x.t.id, x.t.icon, x.t.name, x.n)).join("")}</div>
+      <div class="section-title">Kategorien</div>
       <div class="list">${cats.map(x => row(x.c.id, x.c.icon, x.c.name, x.n)).join("")}</div>`;
   }
 
@@ -745,6 +787,8 @@
       S.day.ids.push(...extra); S.day.bonus = extra.length; save(); render();
     },
     "focus-open": () => openFocus(),
+    "fs-where": v => { fsel.where = v || null; openFocus(false); },
+    "fs-what": v => { fsel.what = v || null; openFocus(false); },
     "focus-set": v => setFocus(v),
     "suggest-no": () => { S.dismissed[S.suggest] = 1; S.suggest = null; save(); render(); },
     tab: v => go(v),

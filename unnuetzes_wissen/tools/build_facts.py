@@ -16,8 +16,9 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 TAX = json.loads((DATA / "taxonomy.json").read_text())
 CATS = {c["id"] for c in TAX["categories"]}
+THEME_IDS = {t["id"] for t in TAX.get("themes", [])}
 PUBLIC = ["id", "category", "place", "country", "lang", "headline", "teaser", "detail", "sources", "tags",
-          "era", "gross", "sensitive", "kids", "fun", "verified", "expires"]
+          "era", "gross", "sensitive", "kids", "fun", "themes", "verified", "expires"]
 
 
 def fid(f):
@@ -41,6 +42,10 @@ def main(src):
     packs = {}
     for p in DATA.glob("facts-*.json"):
         p.unlink()
+    # Themen-Zuordnung (themen-*.json: {id: [thema, …]}) aus dem Recherche-Ordner
+    themes = {}
+    for p in sorted(pathlib.Path(src).glob("themen-*.json")):
+        themes.update(json.loads(p.read_text()))
     added = skipped = 0
     for path in sorted(pathlib.Path(src).glob("verified-*.json")):
         data = json.loads(path.read_text())
@@ -57,6 +62,14 @@ def main(src):
             f.setdefault("lang", "de")
             f.setdefault("verified", datetime.date.today().isoformat())
             f["id"] = f.get("id") or fid(f)
+            t = [x for x in themes.get(f["id"], f.get("themes") or []) if x in THEME_IDS]
+            if f.get("sensitive") == "verbrechen" and "krimi" not in t:
+                t.append("krimi")
+            if f.get("gross"):
+                t.append("eklig")
+            if "Vor Ort" in f.get("detail", ""):
+                t.append("vorort")
+            f["themes"] = list(dict.fromkeys(t))
             out = {k: f.get(k) for k in PUBLIC if f.get(k) is not None}
             out["sources"] = [{k: s.get(k) for k in ("title", "publisher", "date", "url") if s.get(k)} for s in f["sources"]]
             packs.setdefault(pack_of(f), {})[f["id"]] = out
