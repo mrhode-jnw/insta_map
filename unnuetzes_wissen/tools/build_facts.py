@@ -48,6 +48,8 @@ def main(src):
             if f.get("verdict") != "belegt":
                 skipped += 1
                 continue
+            # Wikipedia ist nie Quelle (nur Wegweiser zu Einzelnachweisen)
+            f["sources"] = [s for s in f.get("sources") or [] if "wikipedia.org" not in s.get("url", "")]
             if f.get("category") not in CATS or not f.get("sources"):
                 print("übersprungen (Kategorie/Quelle):", f.get("headline"))
                 skipped += 1
