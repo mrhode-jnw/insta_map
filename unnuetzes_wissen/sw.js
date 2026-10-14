@@ -1,5 +1,5 @@
 // Offline-Unterstützung für „Unnützes Wissen“: App und Fakten erst aus dem Netz, offline aus dem Cache.
-const CACHE = "uw-v1";
+const CACHE = "uw-v2";
 const CORE = ["./", "index.html", "style.css", "app.js", "config.js", "manifest.webmanifest",
   "data/taxonomy.json", "data/index.json", "icons/icon-192.png", "icons/apple-touch-icon.png"];
 
@@ -15,7 +15,8 @@ self.addEventListener("fetch", e => {
   const req = e.request;
   if (req.method !== "GET") return;
   const url = new URL(req.url);
-  if (url.origin !== location.origin || !url.pathname.startsWith(new URL("./", location).pathname)) return;
+  const mine = url.pathname.startsWith(new URL("./", location).pathname) || url.pathname.endsWith("/data/trip.js");
+  if (url.origin !== location.origin || !mine) return;
   e.respondWith((async () => {
     const c = await caches.open(CACHE);
     const key = url.pathname.endsWith("/") ? url.pathname + "index.html" : url.pathname;

@@ -247,10 +247,40 @@
     const opt = r.place && PACK_PLACES.has(r.place) ? "place:" + r.place : r.country && PACK_COUNTRIES.has(r.country) ? "country:" + r.country : null;
     S.suggest = opt && opt !== S.focus && !S.dismissed[opt] && unreadFor(opt) ? opt : null;
   }
+  // Reiseplan (window.TRIP aus der Insta-Map, nur in der eigenen Version): Ort für ein Datum
+  // „15.–18.10.“, „14.10.“, „28.10.–1.11.“ → Zeitraum; bei mehreren Stopps gilt der zuletzt begonnene
+  function planFor(iso) {
+    const route = window.TRIP?.route;
+    if (!route) return null;
+    const year = +iso.slice(0, 4), key = iso.slice(5);
+    let best = null;
+    for (const r of route) {
+      const m = String(r.d).match(/^(\d{1,2})\.(?:(\d{1,2})\.)?(?:\s*[–-]\s*(\d{1,2})\.(\d{1,2})\.)?$/);
+      if (!m) continue;
+      const endM = m[4] || m[2], startM = m[2] || m[4];
+      const from = `${String(startM).padStart(2, "0")}-${m[1].padStart(2, "0")}`;
+      const to = `${String(endM).padStart(2, "0")}-${(m[3] || m[1]).padStart(2, "0")}`;
+      if (key >= from && key <= to && (!best || from >= best.from)) best = { from, r };
+    }
+    if (!best) return null;
+    return { ...regionOf({ lat: best.r.lat, lon: best.r.lng }), name: best.r.name, year };
+  }
+  const isoPlus = n => { const d = new Date(); d.setDate(d.getDate() + n); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; };
+  // Ohne GPS-Treffer zählt der Reiseplan als aktueller Ort
+  function applyPlan() {
+    const r = planFor(today());
+    if (!r || (S.gpsAt && Date.now() - S.gpsAt < 6 * 3600e3 && S.curPlace)) return;
+    if (r.place !== S.curPlace || r.country !== S.curCountry) {
+      S.curPlace = r.place; S.curCountry = r.country;
+      suggestFor(r); save();
+    }
+  }
+
   function locate(ask = false) {
     if (!S.profile.useLocation || !navigator.geolocation) return;
     navigator.geolocation.getCurrentPosition(pos => {
       const r = regionOf({ lat: pos.coords.latitude, lon: pos.coords.longitude });
+      if (r.place) S.gpsAt = Date.now(); else { applyPlan(); if (S.curPlace) return; }
       if (r.place !== S.curPlace || r.country !== S.curCountry) {
         S.curPlace = r.place; S.curCountry = r.country;
         if (r.place && !PACK_PLACES.has(r.place)) wish("place", place(r.place)?.name);
@@ -397,12 +427,15 @@
     gesetz: "Gesetze hier", essen: "Essen hier", tiere: "Tiere hier", vorort: "Zum Hingehen" };
   function quickChips() {
     const here = S.curPlace && PACK_PLACES.has(S.curPlace) ? "place:" + S.curPlace : S.curCountry && PACK_COUNTRIES.has(S.curCountry) ? "country:" + S.curCountry : null;
-    if (!here) return "";
+    const tm = planFor(isoPlus(1));
+    const next = tm?.place && tm.place !== S.curPlace && PACK_PLACES.has(tm.place) && unreadFor("place:" + tm.place)
+      ? `<button class="qchip" data-a="focus-set" data-v="place:${esc(tm.place)}">🧳 Morgen: ${esc(place(tm.place)?.name || tm.place)} <span class="cnt">${unreadFor("place:" + tm.place)}</span></button>` : "";
+    if (!here) return next ? `<div class="quick">${next}</div>` : "";
     const want = ["krimi", "legende", "panne", "faelschung", "gesetz", "essen", "tiere", "vorort"];
     const chips = want.map(t => ({ t, v: joinFocus(here, "theme:" + t), n: unreadFor(joinFocus(here, "theme:" + t)) }))
       .filter(x => x.n >= 3 && x.v !== S.focus).sort((a, b) => (b.t === "krimi") - (a.t === "krimi") || b.n - a.n).slice(0, 3);
-    if (!chips.length) return "";
-    return `<div class="quick">${chips.map(x => `<button class="qchip" data-a="focus-set" data-v="${esc(x.v)}">${theme(x.t).icon} ${esc(SHORT[x.t] || theme(x.t).name)} <span class="cnt">${x.n}</span></button>`).join("")}</div>`;
+    if (!chips.length && !next) return "";
+    return `<div class="quick">${next}${chips.map(x => `<button class="qchip" data-a="focus-set" data-v="${esc(x.v)}">${theme(x.t).icon} ${esc(SHORT[x.t] || theme(x.t).name)} <span class="cnt">${x.n}</span></button>`).join("")}</div>`;
   }
 
   // ---------- Heute ----------
@@ -841,6 +874,7 @@
     try { await loadData(); }
     catch { app.innerHTML = `<div class="center"><div class="big-emoji">📡</div><h1>Keine Verbindung</h1><p class="muted">Die Fakten konnten nicht geladen werden. Bitte später nochmal versuchen.</p></div>`; return; }
     if (!S.onboarded) { route = "onboarding"; }
+    applyPlan();
     render();
     locate();
   })();
