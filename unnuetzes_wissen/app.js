@@ -34,7 +34,7 @@
       birthYear: null, birthDay: null, job: null, hobbies: [],
       home: null, birth: null, extraPlaces: [...(CFG.defaultPlaces || [])], extraCountries: [], useLocation: false,
       sexuality: null, queer: false,
-      exclude: { politik: false, krieg: false, krankheit: false },
+      exclude: { politik: false, krieg: false, krankheit: false, verbrechen: false },
       answers: {}, never: {}, kidsMode: false
     },
     catW: {}, tagW: {}, seen: {}, ratings: {}, saved: [], reported: [], wishes: [],
@@ -153,7 +153,10 @@
     const akt = ranked(pool.filter(f => f.category === "aktuell"));
     const loc = ranked(pool.filter(f => f.place || f.country));
     const rest = ranked(pool.filter(f => !f.place && !f.country && f.category !== "aktuell"));
-    const chosen = [...akt.slice(0, Math.round(n * 0.2)), ...loc.slice(0, Math.round(n * 0.4))];
+    // Unterwegs (Standort weder Wohn- noch Geburtsort): mehr Fakten über den aktuellen Ort
+    const home = [S.profile.home?.id, S.profile.birth?.id];
+    const away = (S.curPlace && !home.includes(S.curPlace)) || (S.curCountry && !home.some(h => h && place(h)?.countryId === S.curCountry));
+    const chosen = [...akt.slice(0, Math.round(n * 0.2)), ...loc.slice(0, Math.round(n * (away ? 0.6 : 0.4)))];
     const used = new Set(chosen.map(f => f.id));
     for (const f of [...rest, ...loc, ...akt]) {
       if (chosen.length >= n) break;
@@ -601,7 +604,8 @@
             <div class="section-title">Diese Themen nicht zeigen</div>
             <label class="switch"><span>Politik</span><input id="ob-ex-politik" type="checkbox" ${p.exclude.politik ? "checked" : ""}></label>
             <label class="switch"><span>Krieg</span><input id="ob-ex-krieg" type="checkbox" ${p.exclude.krieg ? "checked" : ""}></label>
-            <label class="switch"><span>Krankheit</span><input id="ob-ex-krankheit" type="checkbox" ${p.exclude.krankheit ? "checked" : ""}></label>`,
+            <label class="switch"><span>Krankheit</span><input id="ob-ex-krankheit" type="checkbox" ${p.exclude.krankheit ? "checked" : ""}></label>
+            <label class="switch"><span>Kriminalfälle</span><input id="ob-ex-verbrechen" type="checkbox" ${p.exclude.verbrechen ? "checked" : ""}></label>`,
           next: "Weiter", skip: "Überspringen", collect: collectPersonal };
       }
       case 7: return {
@@ -650,7 +654,7 @@
     const p = S.profile;
     p.sexuality = document.getElementById("ob-sx").value || null;
     p.queer = document.getElementById("ob-queer").checked;
-    for (const k of ["politik", "krieg", "krankheit"]) p.exclude[k] = document.getElementById("ob-ex-" + k).checked;
+    for (const k of ["politik", "krieg", "krankheit", "verbrechen"]) p.exclude[k] = document.getElementById("ob-ex-" + k).checked;
   }
 
   function viewOnboarding() {
