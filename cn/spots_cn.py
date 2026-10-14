@@ -27,6 +27,7 @@ POSTS = {
  54: ("theglobalphotographycommunity_", "p", "Dd5iOWACpW4"),
  55: ("vladivals", "reel", "DeHNEfvzPOZ"),
  56: ("amberroselle", "p", "DZC0QBGDJJJ"), 57: ("tomrus", "p", "DSCYX08AvZ6"),
+ 58: ("viewsfrance", "p", "DeY_lpWjPT9"), 59: ("aunpein.jpg", "p", "DYMjWWjlC2d"), 60: ("zx.ing", "p", "CcnDZIwJf24"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -178,6 +179,12 @@ SPOTS = [
   [(16, 1)], "Skyline am Perlfluss nach Einbruch der Dunkelheit."),
  ("Vanke Cloud City Tower aus der Urban-Village-Gasse 万科云城", 22.5767, 113.9387, True, "Nanshan (Xili), Shenzhen", "Architektur",
   [(56, 1), (56, 2), (56, 3), (57, 1)], "Nachtmotiv: enge Gasse eines Urban Village (城中村), am Ende der beleuchtete Turm von 万科云城 Vanke Cloud City (Phase 6, in Abschnitte mit Himmelsplattformen gestaffelt, goldene Lamellen). Ort laut Caption „Vanke Cloud City, Nanshan“; MTR Linie 5/7 Xili bzw. Liuxiandong. Abends ab Einbruch der Dunkelheit, Personen als Silhouette in der Gasse. Die genaue Gasse ist nicht bekannt – vor Ort in den Urban Villages rund um Vanke Cloud City (z. B. 留仙洞村 im Nordwesten) nach der Blickachse auf den Turm suchen."),
+ ("Shanghai Grand Opera 上海大歌剧院", 31.180607, 121.466378, False, "Pudong (Expo-Gelände), Shanghai", "Architektur",
+  [(58, 2), (58, 4)], "Neues Opernhaus von Snøhetta am Huangpu im Expo Cultural Park (世博文化公园): spiralförmiges, begehbares Dach wie ein aufgefächerter Fächer. Eröffnung Oktober 2026. Schönster Blick von der Uferpromenade bzw. vom Dach selbst; abends beleuchtet."),
+ ("Shenzhen Bay Cultural Square 深圳湾文化广场", 22.515302, 113.940468, False, "Houhai, Nanshan, Shenzhen", "Architektur",
+  [(59, 9), (59, 16)], "Kulturzentrum von MAD Architects (Ma Yansong) mit weißen, kieselartigen Baukörpern und Museum für Kreativität; im Hintergrund der China Resources Tower („Frühlingsbambus“). Direkt am Houhai-Ufer."),
+ ("DJI Sky City 大疆天空之城", 22.580384, 113.937978, False, "Xili, Nanshan, Shenzhen", "Architektur",
+  [(60, 1)], "Hauptsitz von DJI (Foster + Partners): zwei Türme, verbunden durch eine schwebende Brücke mit Drohnen-Testbereichen. Am besten in der Dämmerung von der Straße aus; der DJI Flagship-Store im Gebäude ist öffentlich."),
  ("Shenzhen Futian Skyline 平安金融中心", 22.536412, 114.050471, True, "Futian, Shenzhen", "Architektur",
   [25, 16], "Futuristische Skyline nach Einbruch der Dunkelheit; mit Guangzhou kombinierbar."),
  ("Qingdao Haitian Center 青岛海天中心", 36.0562, 120.3649, True, "Shinan, Qingdao", "Neon",
@@ -190,6 +197,9 @@ SPOTS = [
 
 # Beliebtheit 1–5 (5 = Wahrzeichen, 4 = in vielen Guides, 3 = bei Fotografen bekannt)
 POP = {
+ "Shanghai Grand Opera": (4, "Neues Snøhetta-Opernhaus, 2026 eröffnet"),
+ "Shenzhen Bay Cultural": (4, "Neues MAD-Kulturzentrum, viral auf Social Media"),
+ "DJI": (3, "Architektur-Hauptsitz, bei Fotografen bekannt"),
  "Linhua": (2, "Geheimtipp, kaum in Reiseführern"),
  "Eling Second": (4, "Kreativpark und Filmkulisse, sehr beliebt"),
  "Eling": (3, "Aussichtspark, bei Fotografen bekannt"),

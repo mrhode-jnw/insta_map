@@ -503,7 +503,7 @@ window.PLACES_CN = [
   "lng": 110.119,
   "approx": true,
   "image": "images/DRo8DqWCiXB.jpg",
-  "caption": "",
+  "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
   "post_url": "https://www.instagram.com/hanaleytravel/p/DRo8DqWCiXB/",
   "username": "hanaleytravel",
   "profile_url": "https://www.instagram.com/hanaleytravel/",
@@ -514,7 +514,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hanaleytravel/",
     "kind": "p",
     "image": "images/DRo8DqWCiXB.jpg",
-    "caption": "",
+    "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
     "match": "single"
    },
    {
@@ -642,7 +642,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_2.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 2
    },
@@ -898,7 +898,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_3.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 3
    },
@@ -1000,7 +1000,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_7.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 7
    }
@@ -1102,7 +1102,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_6.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 6
    },
@@ -1194,7 +1194,7 @@ window.PLACES_CN = [
   "lng": 106.5891,
   "approx": true,
   "image": "images/DdiudFSEbF0_5.jpg",
-  "caption": "",
+  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=5",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -1205,7 +1205,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_5.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 5
    },
@@ -1236,7 +1236,7 @@ window.PLACES_CN = [
   "lng": 106.52597,
   "approx": false,
   "image": "images/DdiudFSEbF0_4.jpg",
-  "caption": "",
+  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=4",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -1247,7 +1247,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_4.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 4
    }
@@ -2912,6 +2912,122 @@ window.PLACES_CN = [
     "slide": 1
    }
   ],
+  "when": "both"
+ },
+ {
+  "id": "cn-shanghai-grand-opera",
+  "region": "cn",
+  "name": "Shanghai Grand Opera 上海大歌剧院",
+  "district": "Pudong (Expo-Gelände), Shanghai",
+  "category": "Architektur",
+  "note": "Neues Opernhaus von Snøhetta am Huangpu im Expo Cultural Park (世博文化公园): spiralförmiges, begehbares Dach wie ein aufgefächerter Fächer. Eröffnung Oktober 2026. Schönster Blick von der Uferpromenade bzw. vom Dach selbst; abends beleuchtet.",
+  "address": "Pudong (Expo-Gelände), Shanghai",
+  "lat": 31.180607,
+  "lng": 121.466378,
+  "approx": false,
+  "image": "images/DeY_lpWjPT9_2.jpg",
+  "caption": "Le Grand Opéra de Shanghai.\n\nÀ Shanghai, les habitants s’apprêtent à voir l’inauguration d’un nouvel édifice culturel dans le paysage de la mégalopole. Imaginé par l’agence norvégienne Snøhetta, à la suite de sa victoire au concours international d’architecture en 2017, le Grand Opéra ouvrira ses portes ce 17 octobre.\n\nReconnaissable à sa structure hélicoïdale, rappelant le mouvement d’un éventail, le bâtiment se compose d’un auditorium principal et de deux autres salles, ainsi que de restaurants, de galeries et de bibliothèques. Étendu sur plus de 140 000 mètres carrés, le Grand Opéra est un ",
+  "post_url": "https://www.instagram.com/viewsfrance/p/DeY_lpWjPT9/?img_index=2",
+  "username": "viewsfrance",
+  "profile_url": "https://www.instagram.com/viewsfrance/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/viewsfrance/p/DeY_lpWjPT9/?img_index=2",
+    "username": "viewsfrance",
+    "profile_url": "https://www.instagram.com/viewsfrance/",
+    "kind": "p",
+    "image": "images/DeY_lpWjPT9_2.jpg",
+    "caption": "Le Grand Opéra de Shanghai.\n\nÀ Shanghai, les habitants s’apprêtent à voir l’inauguration d’un nouvel édifice culturel dans le paysage de la mégalopole. Imaginé par l’agence norvégienne Snøhetta, à la suite de sa victoire au concours international d’architecture en 2017, le Grand Opéra ouvrira ses portes ce 17 octobre.\n\nReconnaissable à sa structure hélicoïdale, rappelant le mouvement d’un éventail, le bâtiment se compose d’un auditorium principal et de deux autres salles, ainsi que de restaurants, de galeries et de bibliothèques. Étendu sur plus de 140 000 mètres carrés, le Grand Opéra est un ",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/viewsfrance/p/DeY_lpWjPT9/?img_index=4",
+    "username": "viewsfrance",
+    "profile_url": "https://www.instagram.com/viewsfrance/",
+    "kind": "p",
+    "image": "images/DeY_lpWjPT9_4.jpg",
+    "caption": "Le Grand Opéra de Shanghai.\n\nÀ Shanghai, les habitants s’apprêtent à voir l’inauguration d’un nouvel édifice culturel dans le paysage de la mégalopole. Imaginé par l’agence norvégienne Snøhetta, à la suite de sa victoire au concours international d’architecture en 2017, le Grand Opéra ouvrira ses portes ce 17 octobre.\n\nReconnaissable à sa structure hélicoïdale, rappelant le mouvement d’un éventail, le bâtiment se compose d’un auditorium principal et de deux autres salles, ainsi que de restaurants, de galeries et de bibliothèques. Étendu sur plus de 140 000 mètres carrés, le Grand Opéra est un ",
+    "match": "slide",
+    "slide": 4
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Neues Snøhetta-Opernhaus, 2026 eröffnet",
+  "when": "both"
+ },
+ {
+  "id": "cn-shenzhen-bay-cultural-square",
+  "region": "cn",
+  "name": "Shenzhen Bay Cultural Square 深圳湾文化广场",
+  "district": "Houhai, Nanshan, Shenzhen",
+  "category": "Architektur",
+  "note": "Kulturzentrum von MAD Architects (Ma Yansong) mit weißen, kieselartigen Baukörpern und Museum für Kreativität; im Hintergrund der China Resources Tower („Frühlingsbambus“). Direkt am Houhai-Ufer.",
+  "address": "Houhai, Nanshan, Shenzhen",
+  "lat": 22.515302,
+  "lng": 113.940468,
+  "approx": false,
+  "image": "images/DYMjWWjlC2d_9.jpg",
+  "caption": "​Is it a building or a masterpiece? Designed by MAD Architects, the Shenzhen Bay Cultural Square looks like \"floating boulders\" washed ashore.\n\n​What makes the exterior legendary:\n​Organic Curves: Smooth, white granite \"stones\" that contrast the sharp city skyline.\n\n​Seamless Integration: A sunken plaza and green rooftops that blend urban life with the sea.\n\n​Minimalist Aesthetic: The ultimate backdrop for light, shadow, and architectural photography. 📸\n\n​📍 Location: Shenzhen Bay Cultural Square (Houhai)\n..\n..\nShot on Nikon Z6iii + Nikkor Z 24-120 F4 S\n..\n..\n​#ShenzhenArchitecture\n#ModernDesig",
+  "post_url": "https://www.instagram.com/aunpein.jpg/p/DYMjWWjlC2d/?img_index=9",
+  "username": "aunpein.jpg",
+  "profile_url": "https://www.instagram.com/aunpein.jpg/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/aunpein.jpg/p/DYMjWWjlC2d/?img_index=9",
+    "username": "aunpein.jpg",
+    "profile_url": "https://www.instagram.com/aunpein.jpg/",
+    "kind": "p",
+    "image": "images/DYMjWWjlC2d_9.jpg",
+    "caption": "​Is it a building or a masterpiece? Designed by MAD Architects, the Shenzhen Bay Cultural Square looks like \"floating boulders\" washed ashore.\n\n​What makes the exterior legendary:\n​Organic Curves: Smooth, white granite \"stones\" that contrast the sharp city skyline.\n\n​Seamless Integration: A sunken plaza and green rooftops that blend urban life with the sea.\n\n​Minimalist Aesthetic: The ultimate backdrop for light, shadow, and architectural photography. 📸\n\n​📍 Location: Shenzhen Bay Cultural Square (Houhai)\n..\n..\nShot on Nikon Z6iii + Nikkor Z 24-120 F4 S\n..\n..\n​#ShenzhenArchitecture\n#ModernDesig",
+    "match": "slide",
+    "slide": 9
+   },
+   {
+    "url": "https://www.instagram.com/aunpein.jpg/p/DYMjWWjlC2d/?img_index=16",
+    "username": "aunpein.jpg",
+    "profile_url": "https://www.instagram.com/aunpein.jpg/",
+    "kind": "p",
+    "image": "images/DYMjWWjlC2d_16.jpg",
+    "caption": "​Is it a building or a masterpiece? Designed by MAD Architects, the Shenzhen Bay Cultural Square looks like \"floating boulders\" washed ashore.\n\n​What makes the exterior legendary:\n​Organic Curves: Smooth, white granite \"stones\" that contrast the sharp city skyline.\n\n​Seamless Integration: A sunken plaza and green rooftops that blend urban life with the sea.\n\n​Minimalist Aesthetic: The ultimate backdrop for light, shadow, and architectural photography. 📸\n\n​📍 Location: Shenzhen Bay Cultural Square (Houhai)\n..\n..\nShot on Nikon Z6iii + Nikkor Z 24-120 F4 S\n..\n..\n​#ShenzhenArchitecture\n#ModernDesig",
+    "match": "slide",
+    "slide": 16
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Neues MAD-Kulturzentrum, viral auf Social Media",
+  "when": "day"
+ },
+ {
+  "id": "cn-dji-sky-city",
+  "region": "cn",
+  "name": "DJI Sky City 大疆天空之城",
+  "district": "Xili, Nanshan, Shenzhen",
+  "category": "Architektur",
+  "note": "Hauptsitz von DJI (Foster + Partners): zwei Türme, verbunden durch eine schwebende Brücke mit Drohnen-Testbereichen. Am besten in der Dämmerung von der Straße aus; der DJI Flagship-Store im Gebäude ist öffentlich.",
+  "address": "Xili, Nanshan, Shenzhen",
+  "lat": 22.580384,
+  "lng": 113.937978,
+  "approx": false,
+  "image": "images/CcnDZIwJf24_1.jpg",
+  "caption": "The newly built DJI headquarters located in Nanshan district, Shenzhen China designed by @fosterandpartners\n. \n. \n. \n#shenzhen #ig_photooftheday #深圳 #chinatravel #captchina #sky_high_architecture #lookingup_architecture  #dronedesire #designboom #cityscapes #architecture_hunter #dronephotography #city_explore #justgoshot #beautifuldestinations #eclectic_shotz #depthobsessed #urbanromantix #citykillerz #ClickCity #citygrammers #streetmobs #streetactivity #explorechina #discovershenzhen #chinadestinations #street_ninjas #archi_focus_on #moodygrams",
+  "post_url": "https://www.instagram.com/zx.ing/p/CcnDZIwJf24/?img_index=1",
+  "username": "zx.ing",
+  "profile_url": "https://www.instagram.com/zx.ing/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/zx.ing/p/CcnDZIwJf24/?img_index=1",
+    "username": "zx.ing",
+    "profile_url": "https://www.instagram.com/zx.ing/",
+    "kind": "p",
+    "image": "images/CcnDZIwJf24_1.jpg",
+    "caption": "The newly built DJI headquarters located in Nanshan district, Shenzhen China designed by @fosterandpartners\n. \n. \n. \n#shenzhen #ig_photooftheday #深圳 #chinatravel #captchina #sky_high_architecture #lookingup_architecture  #dronedesire #designboom #cityscapes #architecture_hunter #dronephotography #city_explore #justgoshot #beautifuldestinations #eclectic_shotz #depthobsessed #urbanromantix #citykillerz #ClickCity #citygrammers #streetmobs #streetactivity #explorechina #discovershenzhen #chinadestinations #street_ninjas #archi_focus_on #moodygrams",
+    "match": "slide",
+    "slide": 1
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Architektur-Hauptsitz, bei Fotografen bekannt",
   "when": "both"
  },
  {
