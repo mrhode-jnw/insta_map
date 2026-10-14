@@ -48,7 +48,7 @@ Für jeden Eintrag (`code`):
    raten; Beliebtheit unter `POP` ergänzen. Danach `python3 tools/build_cn.py`.
 
 ## 2b. Links von Google Maps, OpenStreetMap, Locationscout
-Einträge mit `"kind"` (`gmaps`, `osm`, `locationscout`) und `"id"` statt `"code"`:
+Einträge mit `"kind"` (`gmaps`, `osm`, `locationscout`) und `"id"` statt `"code"` (`web` siehe 2c):
 1. `python3 tools/inbox.py link <id>` – liest Name, Koordinaten und (Locationscout) Beschreibung, Foto-Tipps,
    Anreise, „Best Timing“ und Titelbild aus. `exact: true` = Koordinaten aus dem Link/OSM-Objekt; sonst
    geocodiert (Locationscout zeigt GPS nur mit Login) → als `approx: true` eintragen und den Ort, wenn möglich,
@@ -62,6 +62,19 @@ Einträge mit `"kind"` (`gmaps`, `osm`, `locationscout`) und `"id"` statt `"code
    bei Google Maps/OSM ohne Bild (die App lädt dann ggf. ein Wikipedia-Foto). Danach
    `python3 tools/inbox.py done <id> "<Spotname>"`.
 4. Nicht auswertbar (Link kaputt, kein Ort) → `python3 tools/inbox.py skip <id> "<grund>"`.
+
+## 2c. Alle anderen Links (`"kind": "web"`: TikTok, Xiaohongshu, YouTube, Pinterest, Blogs, Reiseportale …)
+1. `python3 tools/inbox.py link <id>` – lädt die Seite mit echtem Browser und gibt Titel, Beschreibung/Caption,
+   Seitentext, JSON-LD, gefundene Koordinaten (`coords_in_page`, Reihenfolge prüfen!) und Bild-URLs aus.
+2. Daraus **konkrete Orte** bestimmen (Ortsnamen, Adressen, 📍-Angaben, Koordinaten). Nicht raten: Ist kein Ort
+   eindeutig, `skip <id> "kein Ort"`. Orte per OSM/Nominatim verorten; nur ungefähr bekannt → `approx: true`.
+3. Fotos: passende Bilder (das Motiv des Orts, keine Logos/Avatare/Werbung) nach `images/web_<id-ohne-web:>_<n>.jpg`
+   laden (max. 1080 px). Neuer Ort → Eintrag in `hk/extra_spots.json` (bzw. `cn/spots_cn.py`) mit `image`,
+   `source` (Seite/Autor) und `url`; Ort schon vorhanden → Foto mit Quelle in `hk/extra_photos.json` ergänzen
+   und die Notiz um neue Infos (beste Zeit, Standpunkt, Anreise) erweitern.
+4. `python3 tools/inbox.py done <id> "<Spotname(n)>"`.
+Instagram-Abrufe, die gesperrt sind (kein contextJSON), lädt `tools/slides.py` automatisch über
+`tools/ig_fetch.js` mit echtem Browser nach.
 
 ## 3. Verorten, Bilder, Karte bauen
 ```bash

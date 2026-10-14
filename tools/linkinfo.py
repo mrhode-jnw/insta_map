@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Ort aus einem Google-Maps-, OpenStreetMap- oder Locationscout-Link auslesen (für die Routine).
+"""Ort/Fotos aus einem Link auslesen (für die Routine): Google Maps, OpenStreetMap, Locationscout, sonst jede Webseite.
 
   python3 tools/linkinfo.py <url>      # gibt JSON aus: kind, name, lat, lng, exact, + Zusatzinfos
 
@@ -98,12 +98,23 @@ def locationscout(url):
     return out
 
 
+def web(url):
+    r = subprocess.run(["node", os.path.join(HERE, "web_fetch.js"), url], capture_output=True, text=True, timeout=150)
+    if r.returncode:
+        return {"kind": "web", "url": url, "error": r.stderr.strip()[:300]}
+    d = json.loads(r.stdout)
+    return {"kind": "web", "url": d.get("final_url") or url, "name": None, "lat": None, "lng": None, "exact": False,
+            "hint": "Ort(e) und Fotos aus title/description/text/json_ld/coords_in_page bestimmen – nie raten", **d}
+
+
 def info(url):
     if re.search(r"locationscout\.net/", url):
         return locationscout(url)
     if re.search(r"(openstreetmap|osm)\.org/", url):
         return osm(url)
-    return gmaps(url)
+    if re.search(r"(google\.[a-z.]+/maps|maps\.google\.|maps\.app\.goo\.gl|goo\.gl/maps|g\.co/kgs)", url):
+        return gmaps(url)
+    return web(url)
 
 
 if __name__ == "__main__":

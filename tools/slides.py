@@ -36,6 +36,16 @@ def fetch_context(code):
                     "caption": caps[0]["node"]["text"] if caps else "",
                     "slides": [pick(n) for n in nodes],
                 }
+        if attempt == 0:  # gesperrt/leer → einmal über echten Browser versuchen (tools/ig_fetch.js)
+            try:
+                import subprocess
+                r = subprocess.run(["node", os.path.join(os.path.dirname(os.path.abspath(__file__)), "ig_fetch.js"), code],
+                                   capture_output=True, text=True, timeout=150)
+                d = json.loads(r.stdout) if r.returncode == 0 and r.stdout.strip() else None
+                if d and d.get("slides"):
+                    return {"caption": d.get("caption", ""), "slides": d["slides"]}
+            except Exception as e:  # noqa: BLE001
+                print(f"    Browser-Abruf fehlgeschlagen: {e}", file=sys.stderr)
         wait = 20 * (attempt + 1)
         print(f"    kein contextJSON, warte {wait}s …", file=sys.stderr)
         time.sleep(wait)
