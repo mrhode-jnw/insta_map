@@ -1,5 +1,5 @@
 {
- "version": "202610141144",
+ "version": "202610141149",
  "packs": [
   {
    "file": "facts-aktuell.json",
@@ -36,6 +36,11 @@
    "place": null,
    "count": 92,
    "country": "china"
+  },
+  {
+   "file": "facts-shanghai.json",
+   "place": "shanghai",
+   "count": 31
   },
   {
    "file": "facts-shenzhen.json",
