@@ -32,6 +32,7 @@
   "themes": [
    "forschung"
   ],
+  "wiki": "Chlamydomonas reinhardtii",
   "verified": "2026-10-14",
   "expires": "2026-10-19"
  },
@@ -68,6 +69,7 @@
    "forschung",
    "rekord"
   ],
+  "wiki": "IceCube Neutrino Observatory",
   "verified": "2026-10-14",
   "expires": "2026-10-20"
  },
@@ -104,6 +106,7 @@
    "forschung",
    "essen"
   ],
+  "wiki": "Carvone",
   "verified": "2026-10-14",
   "expires": "2026-10-21"
  },
@@ -139,6 +142,7 @@
   "themes": [
    "woerter"
   ],
+  "wiki": "Sappho",
   "verified": "2026-10-14",
   "expires": "2026-10-22"
  },
@@ -175,6 +179,7 @@
    "woerter",
    "tiere"
   ],
+  "wiki": "Winnie (bear)",
   "verified": "2026-10-14",
   "expires": "2026-10-28"
  },
@@ -208,6 +213,7 @@
   "themes": [
    "forschung"
   ],
+  "wiki": "Orionids",
   "verified": "2026-10-14",
   "expires": "2026-11-05"
  },
@@ -248,6 +254,7 @@
   "themes": [
    "gesetz"
   ],
+  "wiki": "Daylight saving time",
   "verified": "2026-10-14",
   "expires": "2026-11-08"
  },
@@ -284,6 +291,7 @@
    "tiere",
    "rekord"
   ],
+  "wiki": "Aldabra giant tortoise",
   "verified": "2026-10-14",
   "expires": "2026-10-21"
  },
@@ -320,6 +328,7 @@
   "themes": [
    "woerter"
   ],
+  "wiki": "R.U.R.",
   "verified": "2026-10-14",
   "expires": "2026-10-25"
  },
@@ -355,6 +364,7 @@
   "themes": [
    "panne"
   ],
+  "wiki": "The Winter's Tale",
   "verified": "2026-10-14",
   "expires": "2026-10-25"
  },
@@ -391,6 +401,7 @@
    "tiere",
    "rekord"
   ],
+  "wiki": "Cape Adare",
   "verified": "2026-10-14",
   "expires": "2026-10-21"
  },
@@ -427,6 +438,7 @@
    "tiere",
    "geld"
   ],
+  "wiki": "European hedgehog",
   "verified": "2026-10-14",
   "expires": "2026-10-22"
  }
