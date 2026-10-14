@@ -5,7 +5,8 @@
 
 - übernimmt nur Einträge mit "verdict": "belegt"
 - entfernt interne Felder (evidence, verdict, note) – Belegzitate bleiben privat
-- vergibt stabile IDs (Kategorie-Kürzel + Hash der Schlagzeile) und hängt an bestehende Pakete an
+- vergibt stabile IDs (Kategorie-Kürzel + Hash der Schlagzeile, danach fest im Eintrag)
+- baut alle Pakete neu aus den geprüften Dateien
 - schreibt data/facts-allgemein.json, data/facts-<ort>.json, data/facts-land-<land>.json,
   data/facts-aktuell.json und data/index.json
 """
@@ -35,12 +36,15 @@ def pack_of(f):
 
 
 def main(src):
+    # Pakete werden jedes Mal komplett aus den geprüften Dateien gebaut – so bleiben keine
+    # veralteten Fassungen stehen, wenn eine Prüfung Text oder ID ändert.
     packs = {}
     for p in DATA.glob("facts-*.json"):
-        packs[p.name] = {f["id"]: f for f in json.loads(p.read_text())}
+        p.unlink()
     added = skipped = 0
     for path in sorted(pathlib.Path(src).glob("verified-*.json")):
-        for f in json.loads(path.read_text()):
+        data = json.loads(path.read_text())
+        for f in data:
             if f.get("verdict") != "belegt":
                 skipped += 1
                 continue
@@ -55,6 +59,8 @@ def main(src):
             out["sources"] = [{k: s.get(k) for k in ("title", "publisher", "date", "url") if s.get(k)} for s in f["sources"]]
             packs.setdefault(pack_of(f), {})[f["id"]] = out
             added += 1
+        # vergebene IDs und Prüfdatum festschreiben, damit spätere Textänderungen sie nicht verschieben
+        path.write_text(json.dumps(data, ensure_ascii=False, indent=1))
     index = {"version": datetime.datetime.now().strftime("%Y%m%d%H%M"), "packs": []}
     for name, items in sorted(packs.items()):
         (DATA / name).write_text(json.dumps(list(items.values()), ensure_ascii=False, indent=1) + "\n")
