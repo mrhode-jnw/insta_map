@@ -37,6 +37,7 @@ self.addEventListener("fetch", e => {
   const url = new URL(req.url);
   if (url.hostname === "api.github.com" || url.hostname === "raw.githubusercontent.com") return;  // Speichern/Status immer live
   if (url.origin === location.origin) {
+    if (url.pathname.includes("/unnuetzes_wissen/")) return;  // eigene App mit eigenem Service Worker
     if (url.pathname.includes("/images/") || url.pathname.includes("/icons/")) return e.respondWith(cacheFirst(req, MEDIA));
     if (url.searchParams.has("check")) return;  // Update-Prüfung immer live
     // Seite, config.js, data/*.js (mit ?v=…) – Netz zuerst, offline die letzte Version
