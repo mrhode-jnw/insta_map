@@ -2966,9 +2966,9 @@
   "id": "rei-409c31",
   "category": "reisen",
   "lang": "de",
-  "headline": "Die Insel, die alle sechs Monate das Land wechselt",
-  "teaser": "Die Fasaneninsel im Grenzfluss Bidasoa gehört Spanien und Frankreich gemeinsam – die Verwaltung wechselt im Halbjahrestakt: Februar bis Juli Spanien, August bis Januar Frankreich.",
-  "detail": "Mitten im Fluss Bidasoa zwischen dem spanischen Irún und dem französischen Hendaye liegt ein grüner Streifen Land, gerade mal rund 210 Meter lang und 40 Meter breit. Die Fasaneninsel ist ein sogenanntes Kondominium: Sie gehört beiden Staaten zugleich. Damit es keinen Streit gibt, wird die Zuständigkeit einfach geteilt – zeitlich statt räumlich. Vom 1. Februar bis 31. Juli hat Spanien das Sagen, vom 1. August bis 31. Januar Frankreich.\n\nBerühmt wurde das Inselchen 1659: Hier verhandelten beide Kronen den Pyrenäenfrieden, der einen seit 1635 andauernden Krieg beendete. Teil des Deals war eine Hochzeit – Ludwig XIV. bekam eine Tochter des spanischen Königs Philipp IV. zur Frau.\n\nDie französischen Zuständigen tragen bis heute den Titel „Vizekönig“ – kurios für eine Republik. Betreten darf die Insel übrigens niemand; frühere Besuchstage gibt es seit über zehn Jahren nicht mehr. Nur während der Corona-Zeit geriet der Rhythmus durcheinander: Da blieb die Insel laut Connexion zwei Jahre lang spanisch.",
+  "headline": "Diese Insel wechselt alle sechs Monate das Land",
+  "teaser": "Die Fasaneninsel im Grenzfluss Bidasoa gehört Spanien und Frankreich gemeinsam. Februar bis Juli regiert Spanien, August bis Januar Frankreich. Geteiltes Sorgerecht für ein Stück Land.",
+  "detail": "Mitten im Fluss Bidasoa, zwischen dem spanischen Irún und dem französischen Hendaye, liegt ein grüner Streifen von rund 210 mal 40 Metern. Die Fasaneninsel ist ein Kondominium: Sie gehört beiden Staaten zugleich. Statt den Rasen aufzuteilen, teilt man einfach den Kalender. Vom 1. Februar bis 31. Juli ist Spanien zuständig, vom 1. August bis 31. Januar Frankreich.\n\nBerühmt wurde das Inselchen 1659: Hier handelten beide Kronen den Pyrenäenfrieden aus, der einen seit 1635 laufenden Krieg beendete. Teil des Deals war eine Hochzeit, Ludwig XIV. bekam eine Tochter Philipps IV.\n\nDie französischen Zuständigen tragen bis heute den Titel „Vizekönig“. In einer Republik. Betreten darf die Insel niemand. Und während Corona kam selbst dieser Takt durcheinander: Laut Connexion blieb die Insel zwei Jahre am Stück spanisch.",
   "sources": [
    {
     "title": "The tiny Basque island that is both French and Spanish",
@@ -2985,15 +2985,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "rei-40f0ae",
   "category": "reisen",
   "lang": "de",
-  "headline": "Das Stück Wüste, das kein Land der Welt haben will",
-  "teaser": "Bir Tawil, rund 2.000 Quadratkilometer Wüste zwischen Ägypten und Sudan, wird von keinem der beiden Staaten beansprucht – wegen zweier widersprüchlicher Kolonialgrenzen.",
-  "detail": "Normalerweise streiten Staaten um jeden Quadratmeter. Bei Bir Tawil ist es umgekehrt: Weder Ägypten noch Sudan will das gut 800 Quadratmeilen (rund 2.000 km²) große Wüstengebiet haben.\n\nSchuld sind zwei britische Grenzziehungen. 1899 legte ein britisch-ägyptisches Abkommen die Grenze schnurgerade auf den 22. Breitengrad. Drei Jahre später zogen die Briten eine Verwaltungsgrenze nach den Weidegebieten der Nomaden: Das Gebiet um den Berg Bartazuga, wo die Ababda lebten, sollte von Ägypten verwaltet werden, das viel größere Hala'ib-Dreieck am Roten Meer dagegen von Sudan.\n\nDas Problem: Ägypten beruft sich auf die gerade Linie, Sudan auf die krumme. Beide wollen damit das wertvolle Hala'ib mit seiner Küste. Wer zusätzlich Bir Tawil fordern würde, müsste die jeweils andere Grenze anerkennen – und Hala'ib aufgeben.\n\n2014 pflanzte ein Farmer aus Virginia dort eine Fahne und erklärte seine Tochter zur Prinzessin. Anerkannt hat das natürlich niemand.",
+  "headline": "Bir Tawil: Die Wüste, die keiner geschenkt haben will",
+  "teaser": "Rund 2.000 Quadratkilometer Wüste zwischen Ägypten und Sudan, und keiner der beiden will sie. Schuld sind zwei britische Grenzlinien, die sich widersprechen.",
+  "detail": "Normalerweise streiten Staaten um jeden Quadratmeter. Bei Bir Tawil läuft es andersherum: Weder Ägypten noch Sudan will das rund 2.000 km² große Stück Wüste haben.\n\nSchuld sind zwei britische Grenzziehungen. 1899 legte ein britisch-ägyptisches Abkommen die Grenze schnurgerade auf den 22. Breitengrad. Drei Jahre später kam eine Verwaltungsgrenze nach Weidegebieten dazu: Das Gebiet um den Berg Bartazuga, wo die Ababda lebten, sollte Ägypten verwalten, das viel größere Hala'ib-Dreieck am Roten Meer dagegen Sudan.\n\nÄgypten beruft sich auf die gerade Linie, Sudan auf die krumme. Beide wollen damit Hala'ib mit seiner Küste. Wer zusätzlich Bir Tawil fordert, müsste die Grenze des anderen anerkennen und Hala'ib aufgeben. Also: Finger weg.\n\n2014 pflanzte ein Farmer aus Virginia dort eine Fahne und erklärte seine Tochter zur Prinzessin. Anerkannt hat das natürlich niemand.",
   "sources": [
    {
     "title": "Welcome to the land that no country wants",
@@ -3010,15 +3011,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "rei-168c51",
   "category": "reisen",
   "lang": "de",
-  "headline": "In dieser Bibliothek liest man in zwei Ländern gleichzeitig",
-  "teaser": "Durch die Haskell Free Library and Opera House verläuft die Grenze zwischen USA und Kanada: Die meisten Bücher stehen in Kanada, die meisten Theatersitze in den USA.",
-  "detail": "In Derby Line (Vermont) und Stanstead (Québec) steht ein viktorianisches Gebäude, durch das mitten hindurch die Staatsgrenze läuft. Ein Streifen schwarzes Klebeband auf dem Boden der Eingangshalle und des Kinderlesesaals markiert, wo die USA aufhören und Kanada anfängt.\n\nDie Aufteilung ist herrlich absurd: Der Großteil der Bücher steht auf kanadischer Seite. Im angeschlossenen Opernhaus befinden sich die meisten der 500 Holzsitze in den USA, die Bühne aber in Kanada. Wer im Publikum sitzt, schaut also quasi ins Ausland. Das Haus hat zwei Adressen, eine amerikanische und eine kanadische.\n\nGewollt hat das die wohlhabende Martha Haskell aus der Gegend. Sie ließ das Haus bewusst auf beiden Seiten errichten, als Zeichen der Verbundenheit der Nachbarn. Das Opernhaus spielte 1904 zum ersten Mal, die Bibliothek öffnete 1905. Damals pendelten die Leute hier ganz selbstverständlich hin und her, zur Schule, zur Kirche und manchmal auch zur Hochzeit.",
+  "headline": "Bücher in Kanada, Publikum in den USA",
+  "teaser": "Durch die Haskell Free Library and Opera House läuft die Grenze zwischen USA und Kanada. Die Bühne steht in Kanada, die meisten Zuschauer sitzen in den USA.",
+  "detail": "In Derby Line (Vermont) und Stanstead (Québec) steht ein viktorianisches Haus, durch das mitten hindurch die Staatsgrenze läuft. Markiert ist sie mit einem Streifen schwarzem Klebeband auf dem Boden, in der Eingangshalle und im Kinderlesesaal.\n\nDie Aufteilung ist herrlich absurd: Die meisten Bücher stehen in Kanada. Im Opernhaus stehen die meisten der 500 Holzsitze in den USA, die Bühne aber in Kanada. Wer im Publikum sitzt, schaut also quasi ins Ausland. Das Haus hat zwei Adressen, eine amerikanische und eine kanadische.\n\nGewollt hat das die wohlhabende Martha Haskell aus der Gegend, als Zeichen der Verbundenheit der Nachbarn. 1904 spielte das Opernhaus zum ersten Mal, 1905 öffnete die Bibliothek. Damals pendelte man hier ganz selbstverständlich hin und her: zur Schule, zur Kirche und manchmal auch zur Hochzeit.",
   "sources": [
    {
     "title": "Inside the library where you can read in two countries at once",
@@ -3035,15 +3037,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "rei-44b72d",
   "category": "reisen",
   "lang": "de",
-  "headline": "Der Whisky-Krieg um einen Felsen endete mit einer Grenze",
-  "teaser": "Jahrzehntelang tauschten Kanada und Dänemark auf der arktischen Hans-Insel Whisky gegen Schnaps aus – 2022 teilten sie den Felsen einfach auf, etwa 60 Prozent gingen an Dänemark.",
-  "detail": "Die Hans-Insel ist ein kahler, nierenförmiger Felsen in der Arktis, genau zwischen Kanada und Grönland, das zu Dänemark gehört. Beide Länder beanspruchten ihn – und trugen den Streit auf die netteste denkbare Art aus.\n\nAb 1984 besuchten kanadische Soldaten die Insel, hissten das Ahornblatt und ließen eine Flasche kanadischen Whisky da. Dänen kamen später vorbei, ersetzten die Flagge durch den Danebrog und den Whisky durch Schnaps. Auch Minister reisten per Hubschrauber an, um Präsenz zu zeigen. So ging das Hin und Her jahrzehntelang.\n\nIm Juni 2022 unterzeichneten beide Staaten ein Abkommen, das ihre Seegrenze festlegte und die Insel teilte: ungefähr 60 Prozent für Dänemark, der Rest für Kanada. Kanadas Außenministerin Mélanie Joly nannte den Konflikt „den freundlichsten aller Kriege“. Ganz nebenbei haben Kanada und das Königreich Dänemark seitdem eine gemeinsame Landgrenze, mitten auf einem Felsen im Eis.",
+  "headline": "Grenzstreit mit Whisky und Schnaps: der freundlichste aller Kriege",
+  "teaser": "Kanada und Dänemark stritten jahrzehntelang um die arktische Hans-Insel, indem sie abwechselnd Flaggen und Flaschen dort ließen. 2022 teilten sie den Felsen einfach, rund 60 Prozent gingen an Dänemark.",
+  "detail": "Die Hans-Insel ist ein kahler, nierenförmiger Felsen in der Arktis, genau zwischen Kanada und Grönland, das zu Dänemark gehört. Beide Länder wollten ihn haben. Und stritten auf die netteste denkbare Art.\n\nAb 1984 kamen kanadische Soldaten vorbei, hissten das Ahornblatt und ließen eine Flasche kanadischen Whisky da. Später kamen Dänen, tauschten die Flagge gegen den Danebrog und den Whisky gegen Schnaps. Sogar Minister reisten per Hubschrauber an, um Präsenz zu zeigen. So ging das jahrzehntelang hin und her, eine Art diplomatische Minibar.\n\nIm Juni 2022 unterzeichneten beide ein Abkommen über ihre Seegrenze und teilten die Insel: rund 60 Prozent für Dänemark, der Rest für Kanada. Kanadas Außenministerin Mélanie Joly nannte das Ganze „den freundlichsten aller Kriege“. Seitdem haben Kanada und das Königreich Dänemark eine gemeinsame Landgrenze, mitten auf einem Felsen im Eis.",
   "sources": [
    {
     "title": "Canada and Denmark end their Arctic whisky war",
@@ -3060,15 +3063,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "rei-933e99",
   "category": "reisen",
   "lang": "de",
-  "headline": "Samoa hat den 30. Dezember 2011 einfach übersprungen",
-  "teaser": "Um besser mit Australien und Neuseeland handeln zu können, sprang Samoa über die Datumsgrenze – auf Donnerstag, den 29., folgte direkt Samstag, der 31. Dezember 2011.",
-  "detail": "Wer am 30. Dezember 2011 auf Samoa Geburtstag hatte, hatte Pech: Diesen Tag gab es dort nicht. Der Inselstaat wechselte von der östlichen auf die westliche Seite der Datumsgrenze, und so folgte auf Donnerstag direkt Samstag. Auch das benachbarte Tokelau machte den Sprung mit.\n\nDer Grund war Geschäft. Samoas wichtigste Handelspartner sind Australien und Neuseeland, doch Samoa hinkte ihnen fast einen ganzen Tag hinterher. Premierminister Tuilaepa Sailele Malielegaoi klagte, man verliere im Handel zwei Arbeitstage pro Woche: Wenn Samoa Freitag hatte, war dort schon Wochenende, und wenn dort Montag war, war auf Samoa noch Sonntag.\n\nKurios: Die Regelung, die man 2011 rückgängig machte, stammte von 1892. Damals hatte sich Samoa auf die andere Seite der Linie geschlagen, um näher an der Zeit der USA zu liegen. Damit niemand leer ausging, ordnete die Regierung an, dass Beschäftigte für den fehlenden Freitag trotzdem bezahlt werden und Banken für ihn keine Zinsen berechnen dürfen.",
+  "headline": "Samoa hat den 30. Dezember 2011 ersatzlos gestrichen",
+  "teaser": "Auf Donnerstag, den 29., folgte auf Samoa direkt Samstag, der 31. Dezember 2011. Der Inselstaat sprang über die Datumsgrenze, für bessere Geschäfte mit Australien und Neuseeland.",
+  "detail": "Wer am 30. Dezember 2011 auf Samoa Geburtstag hatte, hatte Pech: Diesen Tag gab es dort nicht. Samoa wechselte von der östlichen auf die westliche Seite der Datumsgrenze, auf Donnerstag folgte direkt Samstag. Das benachbarte Tokelau sprang gleich mit.\n\nDer Grund: Geschäft. Die wichtigsten Handelspartner Australien und Neuseeland waren Samoa fast einen ganzen Tag voraus. Premierminister Tuilaepa Sailele Malielegaoi klagte, man verliere zwei Arbeitstage pro Woche. Hatte Samoa Freitag, war dort schon Wochenende. War dort Montag, war auf Samoa noch Sonntag.\n\nDie Pointe: Die Regel, die man 2011 kippte, stammte von 1892. Damals hatte sich Samoa auf die andere Seite geschlagen, um näher an der Zeit der USA zu liegen. Damit keiner leer ausging, bekamen Beschäftigte den fehlenden Freitag trotzdem bezahlt, und Banken durften für ihn keine Zinsen berechnen. Ein Tag, den es nie gab, mit Lohn.",
   "sources": [
    {
     "title": "Pacific islands lose a day in dateline warp",
@@ -3091,6 +3095,7 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
@@ -3116,15 +3121,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "rei-219515",
   "category": "reisen",
   "lang": "de",
-  "headline": "Von Alaska aus kann man in das Morgen schauen",
-  "teaser": "Die Diomedes-Inseln in der Beringstraße liegen nur rund 3 Kilometer auseinander – dazwischen verläuft die Datumsgrenze, auf der russischen Insel ist es schon morgen.",
-  "detail": "Mitten in der Beringstraße, zwischen Sibirien und Alaska, liegen zwei felsige Inseln: die Große Diomedes-Insel, die zu Russland gehört, und die Kleine Diomedes-Insel, die zu den USA gehört. An der engsten Stelle trennen sie laut NASA nur etwa 3 Kilometer Wasser.\n\nDazwischen verläuft nicht nur eine Staatsgrenze, sondern auch die internationale Datumsgrenze, jeweils rund 1,5 Kilometer von beiden Ufern entfernt. Wer auf Little Diomede steht und hinüberblickt, schaut also buchstäblich in den nächsten Tag. Wegen der Zeitzonen ist der Unterschied zwar nicht ganz volle 24 Stunden, aber das Datum ist meist ein anderes.\n\nDie Inseln haben auch Geschichte geschrieben: Der russische Entdecker Semjon Deschnjow erreichte sie 1648 als erster Europäer. Und im Vertrag von 1867, mit dem Russland Alaska an die USA verkaufte, dienen die beiden Inseln als Markierung für die neue Grenze. Little Diomede ist heute die Stadt Diomede in Alaska, Big Diomede der östlichste Punkt Russlands.",
+  "headline": "Von Alaska aus schaut man ins Morgen",
+  "teaser": "Zwischen den Diomedes-Inseln in der Beringstraße liegen nur rund 3 Kilometer Wasser und die Datumsgrenze. Auf der russischen Insel ist meist schon morgen.",
+  "detail": "Mitten in der Beringstraße, zwischen Sibirien und Alaska, liegen zwei felsige Inseln: die Große Diomedes-Insel, die zu Russland gehört, und die Kleine Diomedes-Insel, die zu den USA gehört. An der engsten Stelle trennen sie laut NASA nur etwa 3 Kilometer.\n\nDazwischen verläuft nicht nur eine Staatsgrenze, sondern auch die Datumsgrenze, je rund 1,5 Kilometer von beiden Ufern entfernt. Wer auf Little Diomede steht und rüberschaut, blickt buchstäblich in den nächsten Tag. Wegen der Zeitzonen sind es zwar nicht ganz volle 24 Stunden, aber das Datum ist meist ein anderes. Heute und morgen, getrennt durch ein bisschen Meer.\n\nGeschichte haben die Inseln auch: Der russische Entdecker Semjon Deschnjow erreichte sie 1648 als erster Europäer. Und im Vertrag von 1867, mit dem Russland Alaska an die USA verkaufte, markieren sie die neue Grenze. Heute ist Big Diomede der östlichste Punkt Russlands.",
   "sources": [
    {
     "title": "Diomede Islands, Bering Straight",
@@ -3140,15 +3146,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "rei-3d620c",
   "category": "reisen",
   "lang": "de",
-  "headline": "Ganz China tickt nach Pekinger Zeit",
-  "teaser": "China ist riesig, hat aber offiziell nur eine Zeitzone – in Kaschgar im Westen gehen die Uhren deshalb rund drei Stunden vor, im Sommer wird es dort erst spätabends dunkel.",
-  "detail": "China erstreckt sich über eine Breite, die geografisch mehrere Zeitzonen umfassen würde. Trotzdem gilt landesweit eine einzige: die Pekinger Zeit (UTC+8). Diese Entscheidung geht auf die Kommunistische Partei zurück, die 1949 an die Macht kam und das ganze Land zeitlich auf Peking ausrichtete.\n\nIm Osten passt das gut. Im fernen Westen wird es dagegen kurios. In Kaschgar in der Region Xinjiang laufen die Uhren laut Al Jazeera etwa drei Stunden vor dem, was die geografische Lage eigentlich vorgäbe. Eine Frau, die dort aufwuchs, erinnert sich, wie sie als Kind mit der Familie im Sommer den Sonnenuntergang erst spät in der Nacht beobachtete. Dabei liegt Kaschgar etwa auf der Breite von Ankara, wo die Sonne mehrere Stunden früher untergeht.\n\nViele Uiguren und manche Geschäfte in Xinjiang halten sich deshalb an eine inoffizielle „Xinjiang-Zeit“, zwei Stunden hinter Peking. Wer dort einen Termin ausmacht, sollte also lieber nachfragen, welche Uhr gemeint ist.",
+  "headline": "Ein Riesenland, eine Uhrzeit: Ganz China tickt nach Peking",
+  "teaser": "China hat offiziell nur eine Zeitzone. In Kaschgar im Westen gehen die Uhren deshalb rund drei Stunden vor, im Sommer wird es dort erst spätabends dunkel.",
+  "detail": "Geografisch würde China mehrere Zeitzonen füllen. Offiziell gilt trotzdem nur eine: Pekinger Zeit, UTC+8. So entschied es die Kommunistische Partei, die 1949 an die Macht kam und das ganze Land zeitlich auf Peking ausrichtete.\n\nIm Osten passt das. Im fernen Westen wird es kurios. In Kaschgar in der Region Xinjiang laufen die Uhren laut Al Jazeera etwa drei Stunden vor dem, was die geografische Lage vorgäbe. Eine Frau, die dort aufwuchs, erinnert sich, wie sie als Kind mit der Familie im Sommer den Sonnenuntergang erst spät in der Nacht anschaute. Dabei liegt Kaschgar etwa auf der Breite von Ankara, wo die Sonne mehrere Stunden früher untergeht.\n\nViele Uiguren und manche Geschäfte in Xinjiang halten sich deshalb an eine inoffizielle „Xinjiang-Zeit“, zwei Stunden hinter Peking. Wer dort einen Termin ausmacht, fragt besser nach: Welche Uhr gilt denn jetzt?",
   "sources": [
    {
     "title": "Conflict over clocks: China among countries where time is political",
@@ -3166,15 +3173,16 @@
   "gross": false,
   "sensitive": "politik",
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "rei-ac2ec2",
   "category": "reisen",
   "lang": "de",
-  "headline": "Kein Land hat so viele Zeitzonen wie Frankreich",
-  "teaser": "Dank seiner Überseegebiete hat Frankreich laut Guinness 12 Zeitzonen – zeitweise sogar 13 – und damit mehr als Russland oder die USA mit je 11.",
-  "detail": "Wer beim Stichwort „Land mit den meisten Zeitzonen“ an Russland denkt, liegt knapp daneben. Den Rekord hält laut Guinness World Records Frankreich. Das französische Festland selbst hat nur eine Zeitzone, aber die Republik besitzt Gebiete rund um den Globus.\n\nDie Spanne reicht von Tahiti in Französisch-Polynesien (UTC-10) über Französisch-Guayana in Südamerika (UTC-3), La Réunion im Indischen Ozean (UTC+4) und Neukaledonien (UTC+11) bis zu Wallis und Futuna im Südpazifik (UTC+12). Die Marquesas-Inseln haben sogar einen halbstündigen Versatz (UTC-9:30). Zusammen ergibt das 12 Zeitzonen.\n\nIm Sommer wird es noch eine mehr: Wenn das kleine Saint-Pierre-et-Miquelon vor der Küste Kanadas auf Sommerzeit umstellt, kommt Frankreich auf 13. Die USA und Russland folgen laut Guinness mit jeweils 11 Zeitzonen. Ein französischer Beamter, der alle Gebiete anrufen will, muss also gut planen: Irgendwo schläft immer jemand.",
+  "headline": "Zeitzonen-Rekord: Frankreich schlägt Russland",
+  "teaser": "Dank seiner Überseegebiete hat Frankreich laut Guinness 12 Zeitzonen, zeitweise sogar 13. Russland und die USA kommen nur auf je 11.",
+  "detail": "Land mit den meisten Zeitzonen? Russland, sagt fast jeder. Knapp daneben: Laut Guinness World Records hält Frankreich den Rekord. Das Festland hat nur eine Zeitzone, aber die Republik besitzt Gebiete rund um den Globus.\n\nDie Spanne reicht von Tahiti in Französisch-Polynesien (UTC-10) über Französisch-Guayana (UTC-3), La Réunion (UTC+4) und Neukaledonien (UTC+11) bis zu Wallis und Futuna (UTC+12). Die Marquesas-Inseln leisten sich sogar einen halbstündigen Versatz (UTC-9:30). Macht zusammen 12.\n\nIm Sommer kommt noch eine dazu: Wenn das kleine Saint-Pierre-et-Miquelon vor der Küste Kanadas auf Sommerzeit umstellt, sind es 13. Die USA und Russland folgen laut Guinness mit je 11. Ein französischer Beamter, der alle Gebiete anrufen will, hat also ein Problem: Irgendwo schläft immer jemand.",
   "sources": [
    {
     "title": "Country with the most time zones",
@@ -3190,15 +3198,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "rei-d0ca67",
   "category": "reisen",
   "lang": "de",
-  "headline": "In der Schweiz darf kein Meerschweinchen allein wohnen",
-  "teaser": "Die Schweizer Tierschutzverordnung schreibt vor, dass Meerschweinchen mindestens zu zweit gehalten werden müssen – weil sie sehr gesellige Tiere sind.",
-  "detail": "Klingt wie ein ausgedachtes Kuriosum, steht aber wirklich im Gesetz: In der Schweiz dürfen Meerschweinchen nicht einzeln gehalten werden. Das Bundesamt für Lebensmittelsicherheit und Veterinärwesen bestätigt, dass die Tiere sehr sozial sind und nicht allein leben dürfen.\n\nGrundlage ist die Tierschutzverordnung, die seit September 2008 gilt und laut Swissinfo stolze 182 Seiten umfasst. Darin ist genau aufgelistet, welche Säugetiere in Gruppen von mindestens zwei Tieren leben müssen: neben Meerschweinchen auch Mäuse, Rennmäuse, Ratten, Degus und Chinchillas.\n\nKaufen kann man natürlich trotzdem ein einzelnes Tier, Meerschweinchen gibt es ja nicht im Zweierpack. Man muss nur dafür sorgen, dass es Gesellschaft hat. Die Verordnung enthält übrigens noch mehr Überraschungen: Laut Swissinfo ist es zum Beispiel verboten, Hausgeflügel Brillen oder Kontaktlinsen aufzusetzen. Die Schweizer denken eben an alles.",
+  "headline": "In der Schweiz ist Meerschweinchen-Einzelhaft verboten",
+  "teaser": "Die Schweizer Tierschutzverordnung schreibt vor: Meerschweinchen nur mindestens zu zweit. Die Tiere sind zu gesellig, um allein zu leben.",
+  "detail": "Klingt ausgedacht, steht aber im Gesetz: In der Schweiz dürfen Meerschweinchen nicht einzeln gehalten werden. Das Bundesamt für Lebensmittelsicherheit und Veterinärwesen bestätigt, dass die Tiere sehr sozial sind und nicht allein leben dürfen.\n\nGrundlage ist die Tierschutzverordnung, gültig seit September 2008 und laut Swissinfo stolze 182 Seiten dick. Darin steht genau, welche Säugetiere in Gruppen von mindestens zwei Tieren leben müssen: neben Meerschweinchen auch Mäuse, Rennmäuse, Ratten, Degus und Chinchillas.\n\nEinzeln kaufen darf man trotzdem, Meerschweinchen gibt es ja nicht im Zweierpack. Man muss nur für Gesellschaft sorgen.\n\nUnd die Verordnung hat noch mehr Überraschungen: Laut Swissinfo ist es zum Beispiel verboten, Hausgeflügel Brillen oder Kontaktlinsen aufzusetzen. Falls jemand gefragt hat. Die Schweizer denken eben an alles.",
   "sources": [
    {
     "title": "Fact check: Lonely guinea pigs and other quirky Swiss rumours",
@@ -3215,15 +3224,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "rei-3328d8",
   "category": "reisen",
   "lang": "de",
-  "headline": "Auf der Spanischen Treppe sitzen kann 250 Euro kosten",
-  "teaser": "Seit 2019 ist es in Rom verboten, sich auf die Spanische Treppe zu setzen – wer erwischt wird, zahlt ab 250 Euro, bei Verschmutzung bis zu 400 Euro.",
-  "detail": "Jahrzehntelang war die Spanische Treppe in Rom einer der beliebtesten Orte, um eine Pause einzulegen, ein Eis zu essen und Leute zu beobachten. Seit August 2019 ist damit Schluss. Die Stadt setzte neue Regeln durch, nach denen Sitzen oder Liegen auf dem UNESCO-geschützten Bauwerk verboten ist.\n\nDie Strafen sind happig: Laut CNN beginnen sie bei 250 Euro und können auf 400 Euro steigen, wenn man die Stufen verschmutzt oder beschädigt. Essen und Trinken war dort schon vorher seit Jahren tabu; neu war das Sitzverbot.\n\nHintergrund ist der Schutz des Denkmals. Die Treppe war erst 2016 aufwendig restauriert worden. Die Kosten von rund 1,5 Millionen Euro übernahm die Luxusmarke Bulgari, die damit ihr 130-jähriges Firmenjubiläum feierte. Wer heute nach Rom reist, sollte also lieber stehend posieren und die Pause auf einer Bank in der Nähe machen.",
+  "headline": "Hinsetzen verboten: Die Spanische Treppe kostet ab 250 Euro",
+  "teaser": "Seit 2019 darf man sich in Rom nicht mehr auf die Spanische Treppe setzen. Wer es trotzdem tut, zahlt ab 250 Euro, bei Verschmutzung bis zu 400.",
+  "detail": "Jahrzehntelang war die Spanische Treppe in Rom der Ort für eine Pause, ein Eis und ein bisschen Leutegucken. Seit August 2019 ist Schluss damit: Sitzen oder Liegen auf dem UNESCO-geschützten Bauwerk ist verboten.\n\nUnd das wird teuer. Laut CNN beginnen die Strafen bei 250 Euro und steigen auf bis zu 400 Euro, wenn man die Stufen verschmutzt oder beschädigt. Essen und Trinken war dort schon seit Jahren tabu. Neu war, dass jetzt auch der Hintern draußen bleiben muss.\n\nHintergrund ist der Denkmalschutz. Erst 2016 war die Treppe aufwendig restauriert worden, für rund 1,5 Millionen Euro. Bezahlt hat die Luxusmarke Bulgari, zum eigenen 130-jährigen Firmenjubiläum. Wer heute nach Rom reist: lieber stehend posieren und die Pause auf einer Bank in der Nähe machen.",
   "sources": [
    {
     "title": "Sitting on Rome’s famous Spanish Steps can now lead to hefty fines",
@@ -3240,15 +3250,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "rei-ce550d",
   "category": "reisen",
   "lang": "de",
-  "headline": "121.000 Euro für 32 km/h zu schnell – in Finnland möglich",
-  "teaser": "In Finnland richten sich Bußgelder nach dem Einkommen: Ein reicher Unternehmer zahlte 2023 rund 121.000 Euro, weil er mit 82 statt 50 km/h fuhr.",
-  "detail": "Im Juni 2023 wurde der Geschäftsmann Anders Wiklöf auf den Åland-Inseln mit 82 km/h in einer 50er-Zone erwischt. Das Ergebnis: ein Bußgeld von 121.000 Euro und zehn Tage ohne Führerschein.\n\nDer Grund für die gewaltige Summe ist das finnische System der Tagessätze. Strafen werden dort nicht pauschal festgelegt, sondern nach dem verfügbaren Einkommen berechnet. Wer viel verdient, zahlt für dasselbe Vergehen also deutlich mehr als jemand mit kleinem Gehalt. Die Idee: Die Strafe soll alle ungefähr gleich hart treffen.\n\nWiklöf, der als reichster Einwohner Ålands gilt, war kein Neuling: Schon 2013 musste er laut DW 95.000 Euro zahlen und 2018 noch einmal 63.680 Euro. Er sagte, er bedauere die Sache, er habe beim Wechsel von Tempo 70 auf 50 einfach nicht schnell genug gebremst. Und er hoffe, dass das Geld dem Gesundheitswesen zugutekommt. Eine teure Spende.",
+  "headline": "121.000 Euro für 32 km/h zu viel",
+  "teaser": "In Finnland richten sich Bußgelder nach dem Einkommen. Ein reicher Unternehmer zahlte 2023 rund 121.000 Euro, weil er mit 82 statt 50 km/h fuhr.",
+  "detail": "Im Juni 2023 wurde Geschäftsmann Anders Wiklöf auf den Åland-Inseln mit 82 km/h in einer 50er-Zone erwischt. Ergebnis: 121.000 Euro Bußgeld und zehn Tage ohne Führerschein.\n\nDahinter steckt das finnische System der Tagessätze. Strafen sind nicht pauschal, sondern richten sich nach dem verfügbaren Einkommen. Wer viel verdient, zahlt für dasselbe Vergehen deutlich mehr. Die Idee: Es soll alle ungefähr gleich hart treffen.\n\nWiklöf, der als reichster Einwohner Ålands gilt, kannte das Prinzip schon: 2013 zahlte er laut DW 95.000 Euro, 2018 noch einmal 63.680 Euro. Diesmal sagte er, er bedauere die Sache, er habe beim Wechsel von Tempo 70 auf 50 einfach nicht schnell genug gebremst. Und er hoffe, dass das Geld dem Gesundheitswesen zugutekommt. Eine ziemlich teure Spende.",
   "sources": [
    {
     "title": "Driver in Finland fined €121,000 for speeding",
@@ -3265,15 +3276,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "wir-5b9e28",
   "category": "wirtschaft",
   "lang": "de",
-  "headline": "Dieses Geld liegt auf dem Meeresgrund – und gilt trotzdem",
-  "teaser": "Auf der Pazifikinsel Yap zahlte man mit riesigen Steinscheiben, die beim Besitzerwechsel einfach liegen bleiben – eine davon liegt sogar auf dem Meeresgrund und gilt weiter als Geld.",
-  "detail": "Auf Yap in Mikronesien nutzten die Menschen große Steinscheiben als Geld, teils tonnenschwer. Weil man solche Brocken schlecht in der Tasche herumträgt, bleiben sie beim Bezahlen einfach, wo sie sind. Entscheidend ist, dass das ganze Dorf weiß: Dieser Stein gehört jetzt jemand anderem.\n\nDass es nur aufs Wissen ankommt, zeigt eine Geschichte aus der mündlichen Überlieferung der Insel. Eine Mannschaft transportierte einen riesigen Stein per Boot nach Yap, geriet kurz vor der Ankunft in einen Sturm, und der Stein versank. Die Crew kam heim und erzählte davon. Die Inselbewohner beschlossen: Der Stein ist trotzdem noch gutes Geld. Laut NPR besitzt ihn bis heute jemand, obwohl ihn seit über 100 Jahren niemand gesehen hat.\n\nKlingt verrückt, ist aber ziemlich modern. Wenn wir online eine Rechnung bezahlen, bewegt sich auch nichts Greifbares, nur Zahlen in zwei Kontobüchern ändern sich. Der Ökonom Milton Friedman verglich das System 1991 sogar mit dem Goldstandard.",
+  "headline": "Auf Yap gilt ein versunkener Stein als Geld",
+  "teaser": "Auf der Pazifikinsel Yap zahlte man mit riesigen Steinscheiben, die beim Bezahlen einfach liegen bleiben. Eine liegt auf dem Meeresgrund und gilt trotzdem weiter als Geld.",
+  "detail": "Auf Yap in Mikronesien bezahlten die Menschen mit großen Steinscheiben, teils tonnenschwer. Weil die in kein Portemonnaie passen, bleiben sie beim Bezahlen einfach, wo sie sind. Entscheidend ist nur, dass das ganze Dorf weiß: Dieser Stein gehört jetzt jemand anderem.\n\nWie weit das geht, zeigt eine Geschichte aus der mündlichen Überlieferung. Eine Mannschaft brachte einen riesigen Stein per Boot nach Yap, geriet kurz vor dem Ziel in einen Sturm, und der Stein versank. Die Crew kam heim und erzählte davon. Beschluss der Insel: Der Stein ist trotzdem gutes Geld. Laut NPR besitzt ihn bis heute jemand, obwohl ihn seit über 100 Jahren niemand gesehen hat.\n\nKlingt verrückt, ist aber ziemlich modern. Wer online eine Rechnung bezahlt, bewegt auch nichts Greifbares, nur Zahlen in zwei Kontobüchern ändern sich. Der Ökonom Milton Friedman verglich das System 1991 sogar mit dem Goldstandard.",
   "sources": [
    {
     "title": "The Island Of Stone Money",
@@ -3290,15 +3302,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "wir-174ae1",
   "category": "wirtschaft",
   "lang": "de",
-  "headline": "Die große Tulpenmanie war viel kleiner als ihr Ruf",
-  "teaser": "Mythos: Der Tulpencrash von 1637 ruinierte massenhaft Holländer. Die Historikerin Anne Goldgar fand in den Archiven aber niemanden, der deswegen bankrott ging.",
-  "detail": "Die Tulpenmanie gilt als Mutter aller Spekulationsblasen: Im 17. Jahrhundert sollen Niederländer Häuser für Tulpenzwiebeln verpfändet haben, bis 1637 alles platzte und reihenweise Existenzen vernichtet wurden. Ganz so dramatisch war es aber nicht.\n\nDie Historikerin Anne Goldgar hat die Quellen durchforstet und laut Smithsonian Magazine niemanden gefunden, der wegen der Tulpen pleiteging. Es seien gar nicht so viele Menschen beteiligt gewesen, und die wirtschaftlichen Folgen seien ziemlich gering gewesen.\n\nWahr ist: Manche Zwiebeln waren tatsächlich irre teuer. Eine der begehrten „Semper Augustus“ kostete mehr als ein Haus in einer feinen Amsterdamer Gegend. Besonders begehrt waren laut dem Ökonomen Peter Garber außergewöhnlich schöne „gebrochene“ Tulpen mit geflammten Mustern.\n\nDas Bild vom kollektiven Wahnsinn verbreitete vor allem der schottische Journalist Charles Mackay 1841 in seinem Buch über „außergewöhnliche Volkswahn“. Seitdem wird die Geschichte immer weitererzählt, gern mit dem Ruin, den es so nie gab.",
+  "headline": "Tulpencrash 1637: Die Pleitewelle, die keiner finden kann",
+  "teaser": "Der Mythos: Der Tulpencrash von 1637 ruinierte massenhaft Holländer. Die Historikerin Anne Goldgar suchte in den Archiven und fand niemanden, der deswegen bankrottging.",
+  "detail": "Die Tulpenmanie gilt als Mutter aller Spekulationsblasen: Im 17. Jahrhundert sollen Niederländer Häuser für Tulpenzwiebeln verpfändet haben, bis 1637 alles platzte und reihenweise Existenzen vernichtet wurden. Schöne Geschichte. Nur ganz so dramatisch war es nicht.\n\nDie Historikerin Anne Goldgar hat die Quellen durchforstet und laut Smithsonian Magazine niemanden gefunden, der wegen Tulpen pleiteging. Beteiligt waren gar nicht so viele Leute, die wirtschaftlichen Folgen ziemlich gering.\n\nWahr ist: Manche Zwiebeln waren tatsächlich irre teuer. Eine „Semper Augustus“ kostete mehr als ein Haus in einer feinen Amsterdamer Gegend. Besonders begehrt waren laut dem Ökonomen Peter Garber außergewöhnlich schöne „gebrochene“ Tulpen mit geflammten Mustern.\n\nDas Bild vom kollektiven Wahnsinn verbreitete vor allem der schottische Journalist Charles Mackay 1841. Seitdem wird die Geschichte immer weitererzählt, gern mit dem Ruin, den es so nie gab. Aufgeblasen wurde also vor allem die Legende.",
   "sources": [
    {
     "title": "There Never Was a Real Tulip Fever",
@@ -3316,15 +3329,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "wir-8f414c",
   "category": "wirtschaft",
   "lang": "de",
-  "headline": "Der erste UPC-Scan an der Kasse: eine Packung Kaugummi",
-  "teaser": "Am 26. Juni 1974 wurde in einem Supermarkt in Troy (Ohio) zum ersten Mal ein Artikel mit dem heute üblichen UPC-Strichcode an der Kasse gescannt – auf einer Packung Wrigley's Juicy Fruit.",
-  "detail": "Kurz nach 8 Uhr morgens am 26. Juni 1974 schrieb ein Supermarkt der Marsh-Kette in Troy, Ohio, Handelsgeschichte. Am Abend zuvor hatten Mitarbeiter Hunderte Artikel mit dem neuen Universal Product Code beklebt, und die Firma National Cash Register hatte Scanner installiert.\n\nDer erste „Kunde“ war Clyde Dawson, Forschungschef von Marsh. Der Legende nach griff er in seinen Korb und legte eine Mehrfachpackung Wrigley's Juicy Fruit aufs Band. Kein Zufall, erklärte er später: Niemand war sich sicher gewesen, ob man einen Barcode auf etwas so Kleines wie eine Kaugummipackung drucken kann. Wrigley hatte es geschafft.\n\nDie Idee war da schon 25 Jahre alt. Erfinder Joe Woodland kam im Januar 1949 am Strand von Miami Beach darauf. Er dachte an die Punkte und Striche des Morsealphabets, das er bei den Pfadfindern gelernt hatte, und zog mit den Fingern Linien in den Sand, mal breit, mal schmal. Das Patent wurde 1952 erteilt.",
+  "headline": "Der allererste Barcode-Scan an der Kasse: Kaugummi",
+  "teaser": "Am 26. Juni 1974 ging in Troy (Ohio) zum ersten Mal ein Artikel mit UPC-Strichcode über den Scanner. Auf dem Band: eine Packung Wrigley's Juicy Fruit.",
+  "detail": "Kurz nach 8 Uhr morgens am 26. Juni 1974 schrieb ein Supermarkt der Marsh-Kette in Troy, Ohio, Handelsgeschichte. Am Abend vorher hatten Mitarbeiter Hunderte Artikel mit dem neuen Universal Product Code beklebt, die Firma National Cash Register hatte Scanner installiert.\n\nDer erste „Kunde“ war Clyde Dawson, Forschungschef von Marsh. Der Legende nach legte er eine Mehrfachpackung Wrigley's Juicy Fruit aufs Band. Kein Zufall, sagte er später: Niemand war sicher gewesen, ob man einen Barcode auf etwas so Kleines wie eine Kaugummipackung drucken kann. Wrigley hatte es geschafft.\n\nDie Idee war da schon 25 Jahre alt. Erfinder Joe Woodland kam im Januar 1949 am Strand von Miami Beach darauf. Er dachte an das Morsealphabet aus seiner Pfadfinderzeit und zog mit den Fingern Linien in den Sand, mal breit, mal schmal. Ein Strandnachmittag, der heute an jeder Kasse piept. Patent: 1952.",
   "sources": [
    {
     "title": "The History of the Bar Code",
@@ -3342,6 +3356,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -3367,15 +3382,16 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "wir-04b7df",
   "category": "wirtschaft",
   "lang": "de",
-  "headline": "Ein 100-Dollar-Schein kostet im Druck nur gut 11 Cent",
-  "teaser": "Die variablen Druckkosten eines 100-Dollar-Scheins lagen laut Budget 2025 der US-Notenbank bei rund 11,3 Cent – und 50-Dollar-Scheine waren 2025 gar nicht zur Produktion eingeplant.",
-  "detail": "Geld drucken ist ein ziemlich gutes Geschäft, zumindest beim Material. Die US-Notenbank (Federal Reserve) veröffentlicht, was sie die Herstellung der Scheine kostet. Für 2025 liegen die variablen Druckkosten, also Papier, Farbe, Arbeit und direkte Gemeinkosten, bei 4,1 Cent für einen 1- oder 2-Dollar-Schein und bei 11,3 Cent für einen 100-Dollar-Schein. Der Hunderter mit seinen aufwendigen Sicherheitsmerkmalen ist der teuerste Schein.\n\nEin hübsches Detail in der Tabelle: Beim 50-Dollar-Schein steht „nicht verfügbar“. Der Grund: Für 2025 war schlicht keine Produktion von 50ern geplant.\n\nInsgesamt ist das trotzdem kein Pappenstiel. Das gesamte Budget für die Banknotenproduktion 2025 beträgt laut Fed rund 1,04 Milliarden Dollar, davon gut 688 Millionen für Fixkosten wie Gravur, Forschung und Verwaltung. Münzen sind übrigens eine ganz andere Baustelle: Für die ist nicht die Fed, sondern die US-Münzprägeanstalt zuständig.",
+  "headline": "Ein Hunderter kostet im Druck gut 11 Cent",
+  "teaser": "Die variablen Druckkosten eines 100-Dollar-Scheins lagen laut Budget 2025 der US-Notenbank bei rund 11,3 Cent. 50er waren 2025 gar nicht zur Produktion eingeplant.",
+  "detail": "Geld drucken ist ein ziemlich gutes Geschäft, zumindest beim Material. Die US-Notenbank (Federal Reserve) veröffentlicht, was die Scheine kosten. Für 2025 liegen die variablen Druckkosten, also Papier, Farbe, Arbeit und direkte Gemeinkosten, bei 4,1 Cent für einen 1- oder 2-Dollar-Schein und bei 11,3 Cent für den 100er. Der Hunderter mit seinen aufwendigen Sicherheitsmerkmalen ist der teuerste Schein.\n\nHübsches Detail in der Tabelle: Beim 50-Dollar-Schein steht „nicht verfügbar“. Kein Geheimnis dahinter, für 2025 war schlicht keine Produktion von 50ern geplant.\n\nBillig ist das Ganze insgesamt trotzdem nicht. Das gesamte Budget für die Banknotenproduktion 2025 beträgt laut Fed rund 1,04 Milliarden Dollar, davon gut 688 Millionen Fixkosten für Gravur, Forschung und Verwaltung. Münzen sind übrigens eine ganz andere Baustelle: Für die ist nicht die Fed zuständig, sondern die US-Münzprägeanstalt.",
   "sources": [
    {
     "title": "How much does it cost to produce currency and coin?",
@@ -3392,15 +3408,16 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
   "id": "wir-cfaf66",
   "category": "wirtschaft",
   "lang": "de",
-  "headline": "Ein Geldschein mit 21 Nullen: Ungarns Pengő von 1946",
-  "teaser": "Im Juni 1946 ließ die ungarische Nationalbank einen Schein über eine Milliarde „B.-Pengő“ drucken – das ist eine 1 mit 21 Nullen. Ausgegeben wurde er nie.",
-  "detail": "Die Hyperinflation in Ungarn nach dem Zweiten Weltkrieg zählt zu den heftigsten der Geschichte. Die Preise stiegen so schnell, dass die Notenbank immer neue, immer größere Scheine brauchte. Irgendwann reichten normale Zahlwörter nicht mehr: Man führte den „B.-Pengő“ ein, wobei das B für die Billion steht.\n\nDer größte gedruckte Schein trägt das Datum 3. Juni 1946 und den Wert „Egymilliárd B.-Pengő“, also eine Milliarde Billionen Pengő. Hätte man die Zahl ausgeschrieben, so das Geldmuseum der Ungarischen Nationalbank, hätte man hinter die 1 ganze 21 Nullen setzen müssen.\n\nIn Umlauf kam der Schein nie, denn vorher wurde der Forint eingeführt, und der Pengő war Geschichte. Die Druckerei kam mit den immer neuen Werten übrigens kaum hinterher. Und weil niemand mit so riesigen Zahlen rechnen konnte, unterschieden die Leute die Scheine im Alltag vor allem an ihrer Farbe.",
+  "headline": "Ungarns Geldschein mit 21 Nullen",
+  "teaser": "Im Juni 1946 ließ Ungarns Nationalbank einen Schein über eine Milliarde „B.-Pengő“ drucken. Ausgeschrieben: eine 1 mit 21 Nullen. Ausgegeben wurde er nie.",
+  "detail": "Die ungarische Hyperinflation nach dem Zweiten Weltkrieg zählt zu den heftigsten der Geschichte. Die Preise stiegen so schnell, dass die Notenbank ständig neue, noch größere Scheine brauchte. Irgendwann gingen sogar die normalen Zahlwörter aus: Man führte den „B.-Pengő“ ein, das B steht für Billion.\n\nDer größte gedruckte Schein trägt das Datum 3. Juni 1946 und den Wert „Egymilliárd B.-Pengő“, also eine Milliarde Billionen Pengő. Ausgeschrieben, so das Geldmuseum der Ungarischen Nationalbank, bräuchte man hinter der 1 ganze 21 Nullen.\n\nIn Umlauf kam er nie, vorher wurde der Forint eingeführt, und der Pengő war Geschichte. Die Druckerei kam mit den immer neuen Werten ohnehin kaum hinterher. Und weil niemand mit so riesigen Zahlen rechnen konnte, unterschieden die Leute die Scheine im Alltag vor allem an der Farbe. Die Nullen hat eh keiner mehr gezählt.",
   "sources": [
    {
     "title": "Egymilliárd B.-pengő",
@@ -3417,6 +3434,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -3443,15 +3461,16 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "wir-ed2559",
   "category": "wirtschaft",
   "lang": "de",
-  "headline": "Ein König verschenkte so viel Gold, dass der Preis abstürzte",
+  "headline": "Zu großzügig: Mansa Musa ruinierte Kairos Goldpreis",
   "teaser": "Mansa Musa, Herrscher von Mali im 14. Jahrhundert, verteilte auf seiner Pilgerreise in Kairo so viel Gold, dass der Goldpreis dort laut BBC zehn Jahre lang am Boden lag.",
-  "detail": "Mansa Musa regierte im 14. Jahrhundert das Reich Mali in Westafrika, damals eine der goldreichsten Gegenden der Welt. Er gilt als Kandidat für den reichsten Menschen, der je gelebt hat, sein Vermögen lässt sich aber kaum beziffern.\n\nAls gläubiger Muslim brach er zur Pilgerfahrt nach Mekka auf, mit einer riesigen Karawane: Laut BBC reisten 60.000 Menschen mit, dazu hundert Kamele, von denen jedes Hunderte Pfund reines Gold trug.\n\nIn Kairo zeigte sich Musa besonders großzügig. Drei Monate lang verteilte er so viel Gold, dass das Edelmetall plötzlich im Überfluss vorhanden war. Die Folge: Der Goldpreis in der Region fiel und blieb zehn Jahre lang niedrig, was der Wirtschaft schadete. Ein Lehrstück in Sachen Inflation: Wird etwas plötzlich massenhaft verfügbar, verliert es an Wert, selbst wenn es Gold ist.\n\nDer Syrer al-Umari, der zwölf Jahre später nach Kairo kam, berichtete, die Menschen dort sprächen immer noch voller Bewunderung von dem König.",
+  "detail": "Mansa Musa regierte im 14. Jahrhundert das Reich Mali in Westafrika, damals eine der goldreichsten Gegenden der Welt. Er gilt als Kandidat für den reichsten Menschen, der je gelebt hat, beziffern lässt sich sein Vermögen aber kaum.\n\nAls gläubiger Muslim pilgerte er nach Mekka, mit gewaltiger Karawane: Laut BBC reisten 60.000 Menschen mit, dazu hundert Kamele, jedes mit Hunderten Pfund reinem Gold beladen.\n\nIn Kairo verteilte Musa drei Monate lang so viel Gold, dass das Edelmetall plötzlich im Überfluss da war. Der Goldpreis fiel und blieb zehn Jahre lang niedrig, was der Wirtschaft schadete. Inflation zum Anfassen: Wird etwas plötzlich massenhaft verfügbar, verliert es an Wert, selbst wenn es Gold ist.\n\nDer Syrer al-Umari kam zwölf Jahre später nach Kairo und berichtete, die Leute sprächen immer noch voller Bewunderung von dem König. Verständlich. So einen Besuch vergisst man nicht.",
   "sources": [
    {
     "title": "Is Mansa Musa the richest man who ever lived?",
@@ -3469,15 +3488,16 @@
   "era": "mittelalter",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "wir-4832b3",
   "category": "wirtschaft",
   "lang": "de",
-  "headline": "Warum Island 2009 alle McDonald's-Filialen verlor",
-  "teaser": "2009 schlossen alle drei McDonald's-Filialen Islands: Nach dem Absturz der Krone hatten sich die Kosten binnen eines Jahres verdoppelt – alle Zutaten kamen aus Deutschland.",
-  "detail": "Im Oktober 2009 kündigte der isländische Franchisenehmer Lyst an, alle drei McDonald's-Restaurants des Landes zu schließen. Alle drei lagen in der Hauptstadt Reykjavík.\n\nDer Grund war die Finanzkrise. Islands Krone war abgestürzt, und das traf McDonald's besonders hart. Der Franchisenehmer musste alles importieren, von der Verpackung bis zu Fleisch und Käse, und zwar aus Deutschland. Durch den Währungsverfall und hohe Einfuhrzölle hatten sich die Kosten innerhalb eines Jahres verdoppelt. Ein Big Mac kostete in Reykjavík laut AP bereits 650 Kronen, damals rund 5,29 Dollar.\n\nStatt den Burger noch teurer zu machen, zog der Franchisenehmer die Reißleine. Ein schönes Beispiel dafür, wie direkt eine Währungskrise auf dem Teller ankommt: Wenn die eigene Währung abstürzt, wird alles, was aus dem Ausland kommt, schlagartig teurer, bis hin zum Burgerbrötchen.",
+  "headline": "Finanzkrise frisst Big Mac: Island verlor 2009 alle McDonald's",
+  "teaser": "2009 schlossen alle drei McDonald's-Filialen Islands. Die Krone war abgestürzt, alle Zutaten kamen aus Deutschland, und die Kosten hatten sich binnen eines Jahres verdoppelt.",
+  "detail": "Im Oktober 2009 kündigte der isländische Franchisenehmer Lyst an, alle drei McDonald's-Restaurants des Landes zu schließen. Alle drei lagen in der Hauptstadt Reykjavík.\n\nSchuld war die Finanzkrise. Islands Krone war abgestürzt, und das traf McDonald's besonders hart: Der Franchisenehmer musste alles importieren, von der Verpackung bis zu Fleisch und Käse, und zwar aus Deutschland. Durch den Währungsverfall und hohe Einfuhrzölle hatten sich die Kosten innerhalb eines Jahres verdoppelt. Ein Big Mac kostete in Reykjavík laut AP schon 650 Kronen, damals rund 5,29 Dollar.\n\nStatt den Burger noch teurer zu machen, zog der Franchisenehmer die Reißleine. Ein Lehrstück in Sachen Währungskrise: Stürzt die eigene Währung ab, wird alles aus dem Ausland schlagartig teurer, bis hin zum Burgerbrötchen. Wechselkurse schmeckt man eben irgendwann.",
   "sources": [
    {
     "title": "Iceland Says Bye to the Big Mac",
@@ -3495,15 +3515,16 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "wir-5cf90e",
   "category": "wirtschaft",
   "lang": "de",
-  "headline": "Europas erste Banknoten ersetzten Münzen von fast 20 Kilo",
-  "teaser": "1661 gab die Stockholms Banco die ersten Banknoten Europas aus – weil Schwedens Kupfergeld so schwer war, dass eine 10-Daler-Platte fast 20 Kilogramm wog.",
-  "detail": "Schweden hatte im 17. Jahrhundert ein Problem: Es setzte auf Kupfer als Währungsmetall, und eine Münze sollte so viel Metall enthalten, wie sie wert war. Kupfer ist aber viel billiger als Silber. Laut einer Publikation der schwedischen Reichsbank wog eine Kupfer-„Platte“ im Wert von 10 Daler 19,72 Kilogramm. Einkaufen war damit buchstäblich Schwerstarbeit.\n\nDie Lösung kam von Johan Palmstruch und seiner Stockholms Banco. Ab 1661 gab die Bank Papierscheine aus, die man statt der Kupferberge weiterreichen konnte. Die Reichsbank bezeichnet sie als erste europäische Banknoten im modernen Sinn; China hatte Papiergeld schon im 11. Jahrhundert ausprobiert.\n\nDoch die Bank gab binnen kurzer Zeit sehr viele Scheine aus, sie verloren an Wert, das Vertrauen schwand, und ab 1664 wurde sie abgewickelt. Palmstruch wurde 1668 verurteilt, ihm drohte sogar die Todesstrafe. Er wurde begnadigt, kam 1670 frei und starb ein Jahr später.",
+  "headline": "Schwedens Geld wog fast 20 Kilo, also kam Papier",
+  "teaser": "1661 gab die Stockholms Banco die ersten Banknoten Europas aus. Kein Wunder: Eine Kupfer-Platte im Wert von 10 Daler wog fast 20 Kilogramm.",
+  "detail": "Schweden hatte im 17. Jahrhundert ein schweres Problem, ganz wörtlich. Es setzte auf Kupfer als Währungsmetall, und eine Münze sollte so viel Metall enthalten, wie sie wert war. Kupfer ist aber viel billiger als Silber. Laut einer Publikation der schwedischen Reichsbank wog eine Kupfer-„Platte“ im Wert von 10 Daler 19,72 Kilogramm. Einkaufen war Kraftsport.\n\nDie Lösung kam von Johan Palmstruch und seiner Stockholms Banco: Ab 1661 gab sie Papierscheine aus, die man statt der Kupferberge weiterreichen konnte. Die Reichsbank nennt sie die ersten europäischen Banknoten im modernen Sinn. China hatte Papiergeld allerdings schon im 11. Jahrhundert ausprobiert.\n\nDann gab die Bank binnen kurzer Zeit sehr viele Scheine aus, sie verloren an Wert, das Vertrauen schwand, ab 1664 wurde abgewickelt. Palmstruch wurde 1668 verurteilt, ihm drohte sogar die Todesstrafe. Er wurde begnadigt, kam 1670 frei und starb ein Jahr später.",
   "sources": [
    {
     "title": "Stockholms Banco (Johan Palmstruch)",
@@ -3520,15 +3541,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "wir-df15da",
   "category": "wirtschaft",
   "lang": "de",
-  "headline": "Ein Hundert-Dollar-Schein hält im Schnitt 24 Jahre",
-  "teaser": "Laut US-Notenbank (Stand Mai 2025) hält ein 100-Dollar-Schein im Schnitt 24 Jahre, ein 5-Dollar-Schein dagegen nur 5,8 Jahre.",
-  "detail": "Geldscheine haben ein Ablaufdatum, nur steht es nicht drauf. Die US-Notenbank schätzt, wie lange Banknoten im Schnitt im Umlauf bleiben, bevor sie verschlissen sind und ersetzt werden müssen. Die Zahlen von Mai 2025 zeigen riesige Unterschiede.\n\nAm kürzesten leben die kleinen Scheine: Ein 5-Dollar-Schein hält laut Fed im Schnitt 5,8 Jahre, ein 10er 5,7 Jahre und ein 1-Dollar-Schein 7,2 Jahre. Ein 20er schafft 11,1 Jahre, ein 50er 14,9 Jahre. Rekordhalter ist der 100-Dollar-Schein mit stolzen 24 Jahren.\n\nDer Grund ist nicht besseres Papier, sondern wie die Scheine genutzt werden. Kleine Scheine wandern beim Bezahlen ständig von Hand zu Hand, werden gefaltet, zerknüllt und ins Portemonnaie gestopft. Große Scheine dienen dagegen oft als Wertaufbewahrung und liegen jahrelang im Tresor oder unter der Matratze. Den 2-Dollar-Schein lässt die Fed übrigens ganz weg: Er ist zu selten im Umlauf, um seriös geschätzt zu werden.",
+  "headline": "Der Hunderter hält 24 Jahre, der Fünfer nur 5,8",
+  "teaser": "Laut US-Notenbank hält ein 100-Dollar-Schein im Schnitt 24 Jahre. Ein 5-Dollar-Schein ist dagegen schon nach 5,8 Jahren durch.",
+  "detail": "Geldscheine haben ein Ablaufdatum, es steht nur nicht drauf. Die US-Notenbank schätzt, wie lange Banknoten im Schnitt im Umlauf bleiben, bevor sie verschlissen sind und ersetzt werden. Die Zahlen von Mai 2025 zeigen riesige Unterschiede.\n\nAm kürzesten leben die kleinen Scheine: Der 5er hält laut Fed im Schnitt 5,8 Jahre, der 10er 5,7 und der 1er 7,2. Ein 20er schafft 11,1 Jahre, ein 50er 14,9. Rekordhalter ist der 100er mit stolzen 24 Jahren.\n\nDas liegt nicht an besserem Papier, sondern am Leben, das die Scheine führen. Kleine Scheine wandern ständig von Hand zu Hand, werden gefaltet, zerknüllt und ins Portemonnaie gestopft. Große dienen oft als Wertaufbewahrung und liegen jahrelang im Tresor oder unter der Matratze. Ein ruhiges Leben hält eben jung.\n\nDen 2-Dollar-Schein lässt die Fed übrigens ganz weg: Er ist zu selten im Umlauf für eine seriöse Schätzung.",
   "sources": [
    {
     "title": "How long is the lifespan of U.S. paper money?",
@@ -3544,6 +3566,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  }
 ]

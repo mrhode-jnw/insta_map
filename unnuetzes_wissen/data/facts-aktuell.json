@@ -3,9 +3,9 @@
   "id": "akt-1db357",
   "category": "aktuell",
   "lang": "de",
-  "headline": "Der Medizin-Nobelpreis 2026 begann mit einer Alge aus dem Tümpel",
+  "headline": "Nobelpreis dank Teichschleim: Hirn-Lichtschalter aus einer Alge",
   "teaser": "Die Lichtschalter, für die Hegemann, Nagel und Deisseroth den Medizin-Nobelpreis 2026 bekamen, stammen aus einer einzelligen Grünalge namens Chlamydomonas.",
-  "detail": "Am 5. Oktober 2026 ging der Nobelpreis für Physiologie oder Medizin an Karl Deisseroth (Stanford) sowie an die beiden Deutschen Peter Hegemann (Humboldt-Universität Berlin) und Georg Nagel (Uni Würzburg). Ihr Werkzeug heißt Optogenetik: Nervenzellen lassen sich damit per Lichtpuls an- und ausschalten wie eine Schreibtischlampe.\n\nDer Clou steckt in der Herkunft. Die lichtgesteuerten Ionenkanäle, die Channelrhodopsine, haben Hegemann und Nagel nicht im Gehirn gefunden, sondern in Chlamydomonas reinhardtii, einer einzelligen Grünalge. Die Alge nutzt die Proteine, um Helligkeit zu spüren und zum Licht hin oder davon weg zu schwimmen. Bis zur Entdeckung 2002/2003 kannte niemand natürliche Ionenkanäle, die direkt auf Licht reagieren.\n\nDeisseroth baute die Algen-Gene dann in Nervenzellen ein. Seitdem können Forschende in Versuchstieren gezielt einzelne Hirnschaltkreise mit Licht steuern und so herausfinden, was sie tun. Ein Stück Teichschleim ist damit zu einem der wichtigsten Werkzeuge der Hirnforschung geworden.",
+  "detail": "Am 5. Oktober 2026 ging der Medizin-Nobelpreis an Karl Deisseroth (Stanford) und die beiden Deutschen Peter Hegemann (Humboldt-Universität Berlin) und Georg Nagel (Uni Würzburg). Ihr Werkzeug heißt Optogenetik: Nervenzellen per Lichtpuls an- und ausschalten, wie eine Schreibtischlampe.\n\nDer Clou ist die Herkunft. Die lichtgesteuerten Ionenkanäle, Channelrhodopsine genannt, fanden Hegemann und Nagel nicht im Gehirn, sondern in Chlamydomonas reinhardtii, einer einzelligen Grünalge. Die nutzt die Proteine, um Helligkeit zu spüren und zum Licht hin oder davon weg zu schwimmen. Vor der Entdeckung 2002/2003 kannte niemand natürliche Ionenkanäle, die direkt auf Licht reagieren.\n\nDeisseroth baute die Algen-Gene dann in Nervenzellen ein. Seitdem schalten Forschende in Versuchstieren gezielt einzelne Hirnschaltkreise mit Licht und schauen, was passiert. Ein Stück Teichschleim ist damit zu einem der wichtigsten Werkzeuge der Hirnforschung geworden. Da soll noch einer sagen, Grünzeug sei langweilig.",
   "sources": [
    {
     "title": "Ein Schalter, mit dem sich Nervenzellen an- und ausknipsen lassen",
@@ -28,6 +28,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14",
   "expires": "2026-10-19"
  },
@@ -35,9 +36,9 @@
   "id": "akt-943043",
   "category": "aktuell",
   "lang": "de",
-  "headline": "Physik-Nobelpreis für einen Detektor aus einem Kubikkilometer Eis",
-  "teaser": "Francis Halzen bekommt den Physik-Nobelpreis 2026 für IceCube: Tausende Lichtsensoren stecken bis zu 2,45 Kilometer tief im Eis der Antarktis.",
-  "detail": "Am 6. Oktober 2026 erhielt Francis Halzen den Nobelpreis für Physik, für seine entscheidenden Beiträge zum IceCube-Neutrino-Observatorium und den Nachweis hochenergetischer Neutrinos aus dem All.\n\nNeutrinos sind Geisterteilchen: Laut IceCube-Team rauschen jede Sekunde rund 100 Billionen davon durch deinen Körper, ohne dass du etwas merkst. Um die extrem seltenen Zusammenstöße mit Materie zu erwischen, braucht man gewaltig viel davon – und völlig klares, dunkles Material. Die Lösung: das Eis am Südpol.\n\nIceCube ist ein Kubikkilometer Eis, gespickt mit 5.160 kugelförmigen Lichtsensoren. Sie hängen an Kabeln in 1.450 bis 2.450 Metern Tiefe. Trifft ein Neutrino zufällig ein Teilchen im Eis, entsteht ein winziger Lichtblitz, den die Sensoren aufzeichnen. Aus Richtung und Energie dieser Blitze lässt sich ablesen, woher das Neutrino kam – manche stammen aus den Tiefen des Weltalls. Ein Teleskop, das nach unten ins Eis schaut, um ins All zu blicken: Physik kann herrlich verdreht sein.",
+  "headline": "Physik-Nobelpreis für ein Teleskop, das ins Eis guckt",
+  "teaser": "Francis Halzen bekommt den Physik-Nobelpreis 2026 für IceCube: Tausende Lichtsensoren stecken bis zu 2,45 Kilometer tief im Eis der Antarktis und fahnden nach Teilchen aus dem All.",
+  "detail": "Am 6. Oktober 2026 bekam Francis Halzen den Physik-Nobelpreis, für seine entscheidenden Beiträge zum IceCube-Neutrino-Observatorium und den Nachweis hochenergetischer Neutrinos aus dem All.\n\nNeutrinos sind Geisterteilchen: Laut IceCube-Team rauschen jede Sekunde rund 100 Billionen davon durch deinen Körper, ohne dass du was merkst. Um die extrem seltenen Zusammenstöße mit Materie zu erwischen, braucht man gewaltig viel völlig klares, dunkles Material. Die Lösung: das Eis am Südpol.\n\nIceCube ist ein Kubikkilometer Eis, gespickt mit 5.160 kugelförmigen Lichtsensoren an Kabeln, 1.450 bis 2.450 Meter tief. Trifft ein Neutrino zufällig ein Teilchen im Eis, entsteht ein winziger Lichtblitz, den die Sensoren aufzeichnen. Aus Richtung und Energie lässt sich ablesen, woher das Neutrino kam, manche aus den Tiefen des Weltalls. Ein Teleskop, das nach unten schaut, um ins All zu blicken. Physik kann herrlich verdreht sein.",
   "sources": [
    {
     "title": "IceCube Facts",
@@ -59,6 +60,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14",
   "expires": "2026-10-20"
  },
@@ -66,9 +68,9 @@
   "id": "akt-354459",
   "category": "aktuell",
   "lang": "de",
-  "headline": "Chemie-Nobelpreis 2026: Warum dasselbe Molekül nach Minze oder Kümmel riecht",
-  "teaser": "Der Chemie-Nobelpreis 2026 ehrt Forschung zu spiegelbildlichen Molekülen – und die können völlig verschieden riechen: Eine Form von Carvon duftet nach Minze, die andere nach Kümmel.",
-  "detail": "Am 7. Oktober 2026 wurde der Chemie-Nobelpreis an den 95-jährigen Franzosen Henri Kagan und den 76-jährigen Japaner Kenso Soai vergeben. Beide erforschten, wie chemische Reaktionen bevorzugt eine von zwei spiegelbildlichen Molekülformen hervorbringen – und wie sich so eine Seite sogar selbst verstärken kann. Das hilft zu erklären, warum das Leben fast nur eine Händigkeit nutzt, und ist wichtig für die Medikamentenherstellung.\n\nWie groß der Unterschied zwischen Bild und Spiegelbild sein kann, merkt man mit der Nase. Carvon steckt sowohl im Öl der Grünen Minze als auch im Kümmel. Chemisch sind beide Varianten gleich gebaut, nur eben gespiegelt wie linke und rechte Hand. (R)-Carvon riecht nach Minze, (S)-Carvon nach Kümmel.\n\nDer Grund: Unsere Geruchsrezeptoren sind selbst chiral. Manche Rezeptoren sprechen auf die eine Spiegelform stärker an als auf die andere – ähnlich wie ein rechter Handschuh nicht richtig auf die linke Hand passt. Für Medikamente ist das kein Parfüm-Detail – dort kann die falsche Spiegelform eine ganz andere Wirkung haben.",
+  "headline": "Gleiches Molekül, gespiegelt: einmal Minze, einmal Kümmel",
+  "teaser": "Der Chemie-Nobelpreis 2026 ehrt Forschung zu spiegelbildlichen Molekülen. Wie verschieden die sind, riecht man: Eine Form von Carvon duftet nach Minze, die andere nach Kümmel.",
+  "detail": "Am 7. Oktober 2026 ging der Chemie-Nobelpreis an den 95-jährigen Franzosen Henri Kagan und den 76-jährigen Japaner Kenso Soai. Beide erforschten, wie Reaktionen bevorzugt eine von zwei spiegelbildlichen Molekülformen hervorbringen und wie sich so eine Seite sogar selbst verstärken kann. Das hilft zu erklären, warum das Leben fast nur eine Händigkeit nutzt, und ist wichtig für die Medikamentenherstellung.\n\nWie groß der Unterschied zwischen Bild und Spiegelbild sein kann, merkt die Nase. Carvon steckt im Öl der Grünen Minze und im Kümmel. Beide Varianten sind gleich gebaut, nur gespiegelt wie linke und rechte Hand. (R)-Carvon riecht nach Minze, (S)-Carvon nach Kümmel.\n\nDer Grund: Unsere Geruchsrezeptoren sind selbst chiral. Manche sprechen auf die eine Spiegelform stärker an als auf die andere, so wie ein rechter Handschuh nicht richtig auf die linke Hand passt. Bei Medikamenten ist das kein Parfüm-Detail: Dort kann die falsche Spiegelform ganz anders wirken.",
   "sources": [
    {
     "title": "Stereoisomerism and Smell",
@@ -90,6 +92,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14",
   "expires": "2026-10-21"
  },
@@ -97,9 +100,9 @@
   "id": "akt-c02113",
   "category": "aktuell",
   "lang": "de",
-  "headline": "Literaturnobelpreis für eine Gräzistin – und Sapphos verschollene Verse",
-  "teaser": "Anne Carson, Literaturnobelpreisträgerin 2026, schreibt im Dialog mit der Antike. Von der berühmtesten antiken Dichterin Sappho sind von geschätzt 10.000 Versen nur etwa 650 erhalten.",
-  "detail": "Am 8. Oktober 2026 hat die Schwedische Akademie den Literaturnobelpreis an die Kanadierin Anne Carson vergeben – für ein kühnes, erfindungsreiches Werk, das im spielerischen Dialog mit der klassischen Tradition neue Formen schafft. Carson hat Latein und Altgriechisch studiert, Altgriechisch unterrichtet und übersetzt; ihr bekanntestes Buch, der Versroman „Autobiography of Red“, spielt mit einem griechischen Mythos.\n\nWer sich mit griechischer Lyrik beschäftigt, arbeitet oft mit Bruchstücken. Paradebeispiel ist Sappho von Lesbos, die um 600 v. Chr. lebte. Ihr werden schätzungsweise 10.000 Verszeilen zugeschrieben – überliefert sind nur rund 650. Komplett erhalten ist genau ein Gedicht, die Ode an Aphrodite.\n\nDer Rest besteht laut der Bibliothek der University of Missouri aus etwa zehn größeren Fragmenten, rund fünfzig Papyrusfetzen und um die hundert kurzen Zitaten, die andere antike Autoren in ihre Texte eingebaut haben. Die berühmteste Dichterin der Antike kennen wir also zu über 90 Prozent gar nicht.",
+  "headline": "Sappho: berühmt, aber zu über 90 Prozent verschollen",
+  "teaser": "Anne Carson, Literaturnobelpreisträgerin 2026, schreibt im Dialog mit der Antike. Von deren berühmtester Dichterin Sappho sind von geschätzt 10.000 Versen nur rund 650 erhalten.",
+  "detail": "Am 8. Oktober 2026 vergab die Schwedische Akademie den Literaturnobelpreis an die Kanadierin Anne Carson, für ein kühnes, erfindungsreiches Werk, das im spielerischen Dialog mit der klassischen Tradition neue Formen schafft. Carson hat Latein und Altgriechisch studiert, Altgriechisch unterrichtet und übersetzt. Ihr bekanntestes Buch, der Versroman „Autobiography of Red“, spielt mit einem griechischen Mythos.\n\nWer griechische Lyrik liebt, braucht Sinn fürs Puzzeln. Paradebeispiel: Sappho von Lesbos, um 600 v. Chr. Ihr werden schätzungsweise 10.000 Verszeilen zugeschrieben, überliefert sind nur rund 650. Komplett erhalten ist genau ein Gedicht, die Ode an Aphrodite.\n\nDer Rest besteht laut der Bibliothek der University of Missouri aus etwa zehn größeren Fragmenten, rund fünfzig Papyrusfetzen und um die hundert kurzen Zitaten, die andere antike Autoren in ihre Texte eingebaut haben. Die berühmteste Dichterin der Antike kennen wir also zu über 90 Prozent gar nicht. Ruhm fast ohne Werk.",
   "sources": [
    {
     "title": "Sappho of Lesbos (ca. 610-570 BCE)",
@@ -121,6 +124,7 @@
   "era": "antike",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14",
   "expires": "2026-10-22"
  },
@@ -128,9 +132,9 @@
   "id": "akt-6a796f",
   "category": "aktuell",
   "lang": "de",
-  "headline": "Pu der Bär wird 100 – und ist nach einer echten Bärin benannt",
-  "teaser": "Pu der Bär feiert 2026 seinen 100. Geburtstag. Sein Name geht auf eine echte Schwarzbärin im Londoner Zoo zurück, benannt nach der kanadischen Stadt Winnipeg.",
-  "detail": "Am 14. Oktober 1926 erschien A. A. Milnes Kinderbuch „Winnie-the-Pooh“. Zum 100. Jubiläum feiern 2026 unter anderem eine Ausstellung und ein Erzählpfad des National Trust in Anglesey Abbey bei Cambridge den Bären mit dem Honigtopf.\n\nDas Vorbild war eine echte Bärin. Im August 1914 kaufte der kanadische Leutnant Harry Colebourn auf dem Weg in den Ersten Weltkrieg in White River, Ontario, ein Schwarzbärenjunges. Er nannte es Winnie, nach seiner Heimatstadt Winnipeg. Als sein Regiment nach Frankreich zog, blieb Winnie zur Sicherheit im Londoner Zoo.\n\nDort wurde sie zum Liebling der Besucher. Laut Zoo-Archiv war sie ausgesprochen gutmütig und zahm, ließ sich streicheln, trug Kinder auf dem Rücken und fraß ihnen aus der Hand. Zu ihren Stammgästen gehörten Milne und sein Sohn Christopher – dessen Teddy daraufhin ihren Namen bekam. Der berühmteste Bär der Kinderliteratur ist also nach einer Bärin benannt, die nach einer Stadt benannt war.",
+  "headline": "Pu der Bär: benannt nach Bärin Winnie aus Winnipeg",
+  "teaser": "Pu der Bär wird 2026 schon 100. Sein Name geht auf eine echte Schwarzbärin im Londoner Zoo zurück, benannt nach der kanadischen Stadt Winnipeg.",
+  "detail": "Am 14. Oktober 1926 erschien A. A. Milnes Kinderbuch „Winnie-the-Pooh“. Zum 100. Jubiläum feiern 2026 unter anderem eine Ausstellung und ein Erzählpfad des National Trust in Anglesey Abbey bei Cambridge den Bären mit dem Honigtopf.\n\nDas Vorbild war echt. Im August 1914 kaufte der kanadische Leutnant Harry Colebourn auf dem Weg in den Ersten Weltkrieg in White River, Ontario, ein Schwarzbärenjunges. Er nannte es Winnie, nach seiner Heimatstadt Winnipeg. Als sein Regiment nach Frankreich zog, blieb Winnie zur Sicherheit im Londoner Zoo.\n\nDort wurde sie zum Liebling der Besucher. Laut Zoo-Archiv war sie gutmütig und zahm, ließ sich streicheln, trug Kinder auf dem Rücken und fraß ihnen aus der Hand. Zu ihren Stammgästen gehörten Milne und sein Sohn Christopher, dessen Teddy daraufhin ihren Namen bekam. Der Bär heißt also nach einer Bärin, die nach einer Stadt hieß. Winnipeg ist also sozusagen Pus Taufpate über zwei Ecken.",
   "sources": [
    {
     "title": "Winnie the Bear",
@@ -152,6 +156,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14",
   "expires": "2026-10-28"
  },
@@ -159,9 +164,9 @@
   "id": "akt-5cfe98",
   "category": "aktuell",
   "lang": "de",
-  "headline": "Gerade regnet es Krümel vom Halleyschen Kometen",
-  "teaser": "Die Orioniden, die in der Nacht vom 21. auf den 22. Oktober 2026 ihren Höhepunkt haben, sind Staub des Halleyschen Kometen – der selbst erst 2061 wiederkommt.",
-  "detail": "Die Sternschnuppen der Orioniden sind vom 2. Oktober bis 7. November 2026 aktiv, am meisten fällt in der Nacht vom 21. auf den 22. Oktober. Wer in den frühen Morgenstunden in Richtung Sternbild Orion schaut, sieht Teilchen, die mit rund 66 Kilometern pro Sekunde in die Atmosphäre rasen und dabei verglühen.\n\nDie Krümel stammen vom Kometen 1P/Halley. Er umrundet die Sonne im Schnitt alle 76 Jahre und hinterlässt bei jedem Besuch eine Spur aus Staub. Die Erde kreuzt diese Spur zweimal im Jahr – im Mai als Eta-Aquariiden und im Oktober als Orioniden. Ein Komet beschert uns also zwei Sternschnuppenschauer.\n\nDas Pikante: Den Kometen selbst sieht man nur selten. Zuletzt kam er der Sonne am 9. Februar 1986 nahe, das nächste Mal ist er 2061 dran. Sein Kern misst etwa 15 mal 8 Kilometer. Wer also im Oktober eine Sternschnuppe sieht, sieht ein winziges Stück Halley – Jahrzehnte vor dem nächsten großen Auftritt.",
+  "headline": "Sternschnuppen im Oktober sind Krümel vom Halleyschen Kometen",
+  "teaser": "Die Orioniden mit Höhepunkt in der Nacht vom 21. auf den 22. Oktober 2026 sind Staub vom Halleyschen Kometen. Der selbst kommt erst 2061 wieder vorbei.",
+  "detail": "Die Orioniden sind vom 2. Oktober bis 7. November 2026 aktiv, am meisten fällt in der Nacht vom 21. auf den 22. Oktober. Wer in den frühen Morgenstunden Richtung Sternbild Orion schaut, sieht Teilchen, die mit rund 66 Kilometern pro Sekunde in die Atmosphäre rasen und verglühen.\n\nDie Krümel stammen von 1P/Halley. Der Komet umrundet die Sonne im Schnitt alle 76 Jahre und hinterlässt bei jedem Besuch eine Staubspur. Die Erde kreuzt sie zweimal im Jahr: im Mai als Eta-Aquariiden, im Oktober als Orioniden. Ein Komet, zwei Sternschnuppenschauer. Zweitverwertung auf kosmisch.\n\nDen Kometen selbst sieht man dagegen selten. Zuletzt kam er der Sonne am 9. Februar 1986 nahe, das nächste Mal ist er 2061 dran. Sein Kern misst etwa 15 mal 8 Kilometer. Wer im Oktober eine Sternschnuppe sieht, sieht also ein winziges Stück Halley. Quasi der Trailer, Jahrzehnte vor dem Hauptfilm.",
   "sources": [
    {
     "title": "Comet 1P/Halley",
@@ -181,6 +186,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14",
   "expires": "2026-11-05"
  },
@@ -188,9 +194,9 @@
   "id": "akt-197a89",
   "category": "aktuell",
   "lang": "de",
-  "headline": "Bei der Zeitumstellung gibt es 2 Uhr offiziell zweimal: 2A und 2B",
-  "teaser": "In der Nacht zum 25. Oktober 2026 gibt es die Stunde von 2 bis 3 Uhr doppelt – die Physikalisch-Technische Bundesanstalt nennt sie 2A und 2B.",
-  "detail": "Am Sonntag, 25. Oktober 2026, endet die Sommerzeit: Um 3 Uhr springen die Uhren auf 2 Uhr zurück. Die Nacht hat damit 25 Stunden, und die Zeit zwischen 2 und 3 Uhr läuft zweimal ab.\n\nDamit niemand durcheinanderkommt, hat die Physikalisch-Technische Bundesanstalt (PTB) in Braunschweig, die in Deutschland per Gesetz für die amtliche Zeit zuständig ist, eigene Namen: Der erste Durchgang heißt 2A, der zweite 2B. Wer um „2:30 Uhr“ etwas erlebt, muss also streng genommen sagen, um welches 2:30 es geht.\n\nDie meisten Funkuhren stellen sich übrigens selbst um. Sie empfangen das Zeitsignal des Langwellensenders DCF77 in Mainflingen bei Frankfurt, dessen Raumwelle laut PTB-Abschätzung bei einer Reflexion etwa 1.900 Kilometer am Tag und 2.100 Kilometer nachts weit reicht. Im Zeitcode steckt ein eigenes Ankündigungsbit, das vor einem Wechsel zwischen Sommer- und Winterzeit warnt – die Uhr weiß also vorher Bescheid.",
+  "headline": "Zeitumstellung: 2 Uhr gibt es zweimal, als 2A und 2B",
+  "teaser": "In der Nacht zum 25. Oktober 2026 läuft die Stunde von 2 bis 3 Uhr doppelt. Die Physikalisch-Technische Bundesanstalt nennt sie offiziell 2A und 2B.",
+  "detail": "Am Sonntag, 25. Oktober 2026, endet die Sommerzeit: Um 3 Uhr springen die Uhren auf 2 Uhr zurück. Die Nacht hat 25 Stunden, und die Zeit zwischen 2 und 3 Uhr läuft zweimal ab.\n\nDamit niemand durcheinanderkommt, hat die Physikalisch-Technische Bundesanstalt (PTB) in Braunschweig, per Gesetz zuständig für die amtliche Zeit in Deutschland, eigene Namen vergeben: Der erste Durchgang heißt 2A, der zweite 2B. Wer um „2:30 Uhr“ etwas erlebt, müsste streng genommen dazusagen, welches 2:30 gemeint ist. Alibi bitte mit Buchstaben.\n\nDie meisten Funkuhren stellen sich übrigens selbst um. Sie empfangen das Zeitsignal des Langwellensenders DCF77 in Mainflingen bei Frankfurt, dessen Raumwelle laut PTB-Abschätzung bei einer Reflexion etwa 1.900 Kilometer am Tag und 2.100 Kilometer nachts weit reicht. Im Zeitcode steckt ein eigenes Ankündigungsbit, das vor dem Wechsel warnt. Die Uhr weiß also vorher Bescheid. Im Gegensatz zu dir.",
   "sources": [
    {
     "title": "Zeitumstellung: Bald gibt es 2.30 Uhr zweimal – Deutschlands Zeitbehörde hat dafür ein eigenes Kürzel",
@@ -217,6 +223,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14",
   "expires": "2026-11-08"
  },
@@ -224,9 +231,9 @@
   "id": "akt-a96aa0",
   "category": "aktuell",
   "lang": "de",
-  "headline": "Auf einem Atoll leben mehr Riesenschildkröten als Menschen in den Seychellen",
-  "teaser": "Eine neue Zählung ergibt rund 180.000 Riesenschildkröten auf dem Aldabra-Atoll – mehr, als die Seychellen Einwohner haben.",
-  "detail": "Am 7. Oktober 2026 veröffentlichten Forschende der Universität Exeter die bisher größte Bestandsschätzung für die Aldabra-Riesenschildkröte: rund 180.000 Tiere, im besten Schätzwert fast 183.000 erwachsene und halbwüchsige Schildkröten. Damit leben auf diesem einen Atoll mehr Riesenschildkröten, als der ganze Inselstaat Seychellen Menschen hat. Gezählt wurde fünf Jahre lang (2018–2022), ausgewertet mit statistischen Verfahren, die übersehene Tiere mit einrechnen.\n\nDas ist ein beachtliches Comeback. Im 19. Jahrhundert wurden die Tiere so stark ausgebeutet, dass nur noch weniger als 1.000 übrig waren. Dass es nicht noch schlimmer kam, liegt auch an Charles Darwin: In den 1870er-Jahren warnte er zusammen mit anderen britischen Naturforschern vor einem geplanten Holzgewerbe auf Aldabra – mit Erfolg, der Gouverneur von Mauritius ließ den Plan fallen.\n\nHeute ist Aldabra UNESCO-Weltnaturerbe (seit 1982) und einer von nur zwei Orten weltweit mit wilden Riesenschildkröten.",
+  "headline": "Ein Atoll, mehr Riesenschildkröten als die Seychellen Einwohner",
+  "teaser": "Eine neue Zählung ergibt rund 180.000 Riesenschildkröten auf dem Aldabra-Atoll. Das sind mehr, als die Seychellen Menschen haben.",
+  "detail": "Am 7. Oktober 2026 veröffentlichten Forschende der Universität Exeter die bisher größte Bestandsschätzung der Aldabra-Riesenschildkröte: rund 180.000 Tiere, im besten Schätzwert fast 183.000 erwachsene und halbwüchsige. Auf diesem einen Atoll leben damit mehr Riesenschildkröten, als der ganze Inselstaat Seychellen Menschen hat. Gezählt wurde fünf Jahre lang (2018–2022), ausgewertet mit Statistik, die übersehene Tiere mit einrechnet.\n\nEin beachtliches Comeback. Im 19. Jahrhundert wurden die Tiere so stark ausgebeutet, dass weniger als 1.000 übrig waren. Dass es nicht noch schlimmer kam, liegt auch an Charles Darwin: In den 1870er-Jahren warnte er mit anderen britischen Naturforschern vor einem geplanten Holzgewerbe auf Aldabra. Mit Erfolg, der Gouverneur von Mauritius ließ den Plan fallen.\n\nHeute ist Aldabra UNESCO-Weltnaturerbe (seit 1982) und einer von nur zwei Orten weltweit mit wilden Riesenschildkröten. Langsam, aber gewaltig in der Überzahl.",
   "sources": [
    {
     "title": "New study reports largest ever population estimate for Seychelles giant tortoises",
@@ -248,6 +255,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14",
   "expires": "2026-10-21"
  },
@@ -255,9 +263,9 @@
   "id": "akt-7bcc72",
   "category": "aktuell",
   "lang": "de",
-  "headline": "Buchmesse-Gast Tschechien schenkte der Welt das Wort „Roboter“",
-  "teaser": "Tschechien war Ehrengast der Frankfurter Buchmesse 2026 – und von dort stammt das Wort Roboter, verwandt mit tschechisch „robota“ und unserem deutschen Wort „Arbeit“.",
-  "detail": "Vom 7. bis 11. Oktober 2026 präsentierte sich Tschechien als Ehrengast der 78. Frankfurter Buchmesse, mit rund 100 Veranstaltungen und mehr als 75 tschechischen Autorinnen und Autoren.\n\nEin tschechisches Literaturwerk hat die ganze Welt geprägt: 1920 schrieb Karel Čapek das Theaterstück „R.U.R.“ über künstliche Arbeiter. Für ihren Namen beriet er sich mit seinem Bruder, dem Maler und Schriftsteller Josef Čapek. Heraus kam „Roboter“ – abgeleitet vom tschechischen „robota“, Zwangsarbeit oder Fron.\n\nDas Schöne für deutsche Ohren: Laut dem Wörterbuch Merriam-Webster ist „robota“ verwandt mit dem althochdeutschen „arabeit“ für Mühsal – dem Vorfahren unseres Wortes „Arbeit“. Wenn heute also jemand sagt, Roboter würden uns die Arbeit wegnehmen, steckt die Arbeit schon im Namen des Roboters. Ein Theaterstück aus Prag hat damit ein Wort erfunden, das heute in Fabriken, Science-Fiction und Staubsaugern weltweit verstanden wird.",
+  "headline": "Im „Roboter“ steckt die „Arbeit“ schon drin",
+  "teaser": "Tschechien war Ehrengast der Frankfurter Buchmesse 2026. Von dort stammt das Wort Roboter, verwandt mit tschechisch „robota“ und unserem deutschen „Arbeit“.",
+  "detail": "Vom 7. bis 11. Oktober 2026 war Tschechien Ehrengast der 78. Frankfurter Buchmesse, mit rund 100 Veranstaltungen und mehr als 75 tschechischen Autorinnen und Autoren.\n\nEin tschechisches Werk hat die ganze Welt geprägt: 1920 schrieb Karel Čapek das Theaterstück „R.U.R.“ über künstliche Arbeiter. Für ihren Namen beriet er sich mit seinem Bruder, dem Maler und Schriftsteller Josef Čapek. Heraus kam „Roboter“, abgeleitet vom tschechischen „robota“: Zwangsarbeit, Fron.\n\nDas Schöne für deutsche Ohren: Laut dem Wörterbuch Merriam-Webster ist „robota“ verwandt mit dem althochdeutschen „arabeit“ für Mühsal, dem Vorfahren unseres Wortes „Arbeit“. Wenn also jemand sagt, Roboter würden uns die Arbeit wegnehmen: Die Arbeit steckt schon im Namen. Ein Theaterstück aus Prag hat ein Wort erfunden, das heute in Fabriken, Science-Fiction und Staubsaugern weltweit verstanden wird.",
   "sources": [
    {
     "title": "Robot – Definition & Meaning",
@@ -280,6 +288,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14",
   "expires": "2026-10-25"
  },
@@ -287,9 +296,9 @@
   "id": "akt-ecb4c9",
   "category": "aktuell",
   "lang": "de",
-  "headline": "Tschechien hat keine Küste – außer bei Shakespeare",
-  "teaser": "Tschechiens Buchmesse-Motto 2026 lautete „Ein Land an der Küste“. Schon Shakespeare ließ im „Wintermärchen“ ein Schiff an Böhmens Küste landen – obwohl Böhmen kein Meer hat.",
-  "detail": "Unter dem Motto „Tschechien: ein Land an der Küste“ trat Tschechien vom 7. bis 11. Oktober 2026 als Ehrengast der Frankfurter Buchmesse auf. Ein kühner Spruch für ein Land, dessen nächster Meeresstrand Hunderte Kilometer entfernt liegt.\n\nDas Motto erinnert an einen der bekanntesten Geografie-Patzer der Literatur. In Shakespeares „Das Wintermärchen“ (um 1610) beginnt der dritte Akt, dritte Szene, mit einem Schiff, das an den „Wüsten Böhmens“ angelegt hat. Antigonus fragt seinen Seemann, ob ihr Schiff wirklich Böhmen erreicht habe – kurz darauf ist vom Ufer und der See die Rede. Böhmen, das Kernland des heutigen Tschechiens, war aber schon damals ein Binnenland.\n\nNoch berühmter wurde diese Szene übrigens durch eine Regieanweisung: Antigonus geht ab, „verfolgt von einem Bären“. Ein Land ohne Meer und ein Bär im Theater – das Wintermärchen ist voller Überraschungen, und Tschechien hat sich die Küste einfach zurückgeholt.",
+  "headline": "Tschechien hat keine Küste, außer bei Shakespeare",
+  "teaser": "Tschechiens Buchmesse-Motto 2026: „Ein Land an der Küste“. Schon Shakespeare ließ im „Wintermärchen“ ein Schiff an Böhmens Küste landen. Böhmen hat kein Meer.",
+  "detail": "Unter dem Motto „Tschechien: ein Land an der Küste“ trat Tschechien vom 7. bis 11. Oktober 2026 als Ehrengast der Frankfurter Buchmesse auf. Kühn für ein Land, dessen nächster Meeresstrand Hunderte Kilometer entfernt liegt.\n\nDas Motto zwinkert einem der bekanntesten Geografie-Patzer der Literatur zu. In Shakespeares „Das Wintermärchen“ (um 1610) beginnt der dritte Akt, dritte Szene, mit einem Schiff, das an den „Wüsten Böhmens“ angelegt hat. Antigonus fragt seinen Seemann, ob sie wirklich Böhmen erreicht haben, kurz darauf ist von Ufer und See die Rede. Böhmen, das Kernland des heutigen Tschechiens, war aber schon damals ein Binnenland.\n\nNoch berühmter wurde die Szene durch eine Regieanweisung: Antigonus geht ab, „verfolgt von einem Bären“. Ein Meer, wo keins ist, und ein Bär auf der Bühne. Tschechien hat sich die Küste jetzt einfach zurückgeholt, zumindest im Motto.",
   "sources": [
    {
     "title": "The Winter's Tale, Act 3, Scene 3",
@@ -311,6 +320,7 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14",
   "expires": "2026-10-25"
  },
@@ -318,9 +328,9 @@
   "id": "akt-3f2a00",
   "category": "aktuell",
   "lang": "de",
-  "headline": "Größte Pinguinkolonie der Welt liegt jetzt neben Antarktis' erstem Haus",
-  "teaser": "Weil Zavodovski Island fast zwei Drittel seiner Zügelpinguin-Nester verlor, gilt jetzt Kap Adare als größte Pinguinkolonie – genau dort wurde 1899 das erste Gebäude der Antarktis errichtet.",
-  "detail": "Am 7. Oktober 2026 veröffentlichte der British Antarctic Survey eine Studie: Auf der Vulkaninsel Zavodovski bei den Südlichen Sandwichinseln ist die Zahl der besetzten Zügelpinguin-Nester von 2011 bis 2025 um 63 Prozent gesunken – über eine halbe Million Zügelpinguine sind verschwunden. Hauptverdacht: Durch wärmeres Wasser ist der Krill, ihre Hauptnahrung, nach Süden abgewandert. Damit verliert die Insel ihren Titel als größte Pinguinkolonie der Welt.\n\nNeuer Rekordhalter ist Kap Adare am Rossmeer mit der größten Adeliepinguin-Kolonie der Welt – laut Antarctic Heritage Trust über 400.000 Brutpaare. Und dieser Ort hat Geschichte: 1899 bauten die Männer des Expeditionsleiters Carsten Borchgrevink dort zwei Hütten – die ersten Gebäude auf dem antarktischen Kontinent. Sie waren auch die ersten Menschen, die einen Winter auf dem Festland verbrachten.\n\nDie Hütten stehen bis heute und werden vom neuseeländischen Antarctic Heritage Trust erhalten. Ihre Nachbarn: die größte Adeliepinguin-Kolonie der Welt – das erste Haus der Antarktis steht also mitten im größten Pinguin-Gedränge.",
+  "headline": "Größte Pinguinkolonie der Welt wohnt jetzt neben Antarktis' erstem Haus",
+  "teaser": "Zavodovski Island hat fast zwei Drittel seiner Zügelpinguin-Nester verloren. Jetzt gilt Kap Adare als größte Pinguinkolonie, genau dort, wo 1899 das erste Gebäude der Antarktis entstand.",
+  "detail": "Am 7. Oktober 2026 veröffentlichte der British Antarctic Survey eine Studie: Auf der Vulkaninsel Zavodovski bei den Südlichen Sandwichinseln sank die Zahl der besetzten Zügelpinguin-Nester von 2011 bis 2025 um 63 Prozent. Über eine halbe Million Zügelpinguine sind verschwunden. Hauptverdacht: Durch wärmeres Wasser ist der Krill, ihre Hauptnahrung, nach Süden abgewandert. Damit verliert die Insel ihren Titel als größte Pinguinkolonie der Welt.\n\nNeuer Rekordhalter ist Kap Adare am Rossmeer mit der größten Adeliepinguin-Kolonie der Welt, laut Antarctic Heritage Trust über 400.000 Brutpaare. Und dort steht Geschichte: 1899 bauten die Männer von Expeditionsleiter Carsten Borchgrevink zwei Hütten, die ersten Gebäude auf dem antarktischen Kontinent. Sie überwinterten auch als erste Menschen auf dem Festland.\n\nDie Hütten stehen bis heute, erhalten vom neuseeländischen Antarctic Heritage Trust. Das erste Haus der Antarktis steht also mitten im größten Pinguin-Gedränge. Ruhige Nachbarschaft sieht anders aus.",
   "sources": [
    {
     "title": "Cape Adare",
@@ -342,6 +352,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14",
   "expires": "2026-10-21"
  },
@@ -349,9 +360,9 @@
   "id": "akt-f49195",
   "category": "aktuell",
   "lang": "de",
-  "headline": "Papageitaucher statt Promis: Englands Geldscheine bekommen Tiere",
-  "teaser": "Die Bank of England bringt Papageitaucher, Schleiereule, Hummel und Igel auf ihre nächsten Banknoten – fast 480.000 Menschen stimmten dafür ab.",
-  "detail": "Am 8. Oktober 2026 gab die Bank of England bekannt, welche vier Tiere ihre nächste Banknotenserie zieren werden: Papageitaucher, Schleiereule, Dunkle Erdhummel und Europäischer Igel. Bei der Abstimmung gingen 478.531 Antworten ein, mit über 2,5 Millionen Einzelstimmen für 18 Tiere auf der Shortlist. Welches Tier auf welchen Schein kommt, wird erst später entschieden; der König bleibt auf der Vorderseite.\n\nDas ist ein echter Bruch mit der Tradition. Seit 1970 zeigt die Bank of England auf der Rückseite ihrer Scheine historische Persönlichkeiten. Den Anfang machte die Serie D: Auf dem 20-Pfund-Schein von 1970 war William Shakespeare abgebildet. Heute sind es Winston Churchill (5 Pfund), Jane Austen (10), der Maler William Turner (20) und der Informatiker Alan Turing (50).\n\nNach gut einem halben Jahrhundert großer Köpfe dürfen also bald eine Hummel und ein Igel ran. Wann der erste Tierschein kommt, ist noch offen – laut Bank „in den nächsten Jahren“.",
+  "headline": "Igel statt großer Köpfe: Englands Geldscheine bekommen Tiere",
+  "teaser": "Die Bank of England bringt Papageitaucher, Schleiereule, Hummel und Igel auf ihre nächsten Banknoten. Fast 480.000 Menschen haben mit abgestimmt.",
+  "detail": "Am 8. Oktober 2026 verkündete die Bank of England, welche vier Tiere ihre nächste Banknotenserie zieren: Papageitaucher, Schleiereule, Dunkle Erdhummel und Europäischer Igel. Bei der Abstimmung gingen 478.531 Antworten ein, mit über 2,5 Millionen Einzelstimmen für 18 Tiere auf der Shortlist. Welches Tier auf welchen Schein kommt, wird später entschieden. Der König bleibt vorne drauf.\n\nDas ist ein echter Bruch mit der Tradition. Seit 1970 zeigt die Bank auf der Rückseite ihrer Scheine historische Persönlichkeiten. Den Anfang machte die Serie D mit William Shakespeare auf dem 20-Pfund-Schein. Heute sind es Winston Churchill (5 Pfund), Jane Austen (10), der Maler William Turner (20) und der Informatiker Alan Turing (50).\n\nNach gut einem halben Jahrhundert großer Köpfe dürfen also bald eine Hummel und ein Igel ran. Wann der erste Tierschein kommt, ist noch offen, laut Bank „in den nächsten Jahren“. Bis dahin zahlt man weiter mit Churchill statt mit Stacheln.",
   "sources": [
    {
     "title": "Bank of England announces the four animals that will feature on our next series of banknotes",
@@ -373,6 +384,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14",
   "expires": "2026-10-22"
  }

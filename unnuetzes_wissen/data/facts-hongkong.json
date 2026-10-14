@@ -4,9 +4,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "In Hong Kong spült man mit Meerwasser",
-  "teaser": "Rund 85 Prozent der Menschen in Hong Kong spülen ihre Toiletten mit Salzwasser aus dem Meer – ein eigenes Leitungsnetz macht es seit den 1950ern möglich.",
-  "detail": "Wer in Hong Kong auf die Toilette geht, spült mit großer Wahrscheinlichkeit mit Meerwasser. Laut einer Antwort des Entwicklungsministeriums im Legislativrat vom April 2025 deckt das Salzwassernetz etwa 85 Prozent der Bevölkerung ab und liefert rund 300 Millionen Kubikmeter Meerwasser pro Jahr.\n\nDer Grund ist ganz praktisch: Hong Kong war lange knapp an Süßwasser. Warum kostbares Trinkwasser die Toilette hinunterspülen, wenn ringsum das Meer liegt? Also nutzt die Stadt seit den 1950er-Jahren ein zweites Leitungsnetz, das Meerwasser in die Häuser bringt.\n\nDas bedeutet: Viele Hochhäuser haben zwei getrennte Wassersysteme – eines für Trinkwasser aus dem Hahn, eines für die Spülung.\n\nFür Besucher ändert sich nichts, man merkt es nicht einmal. Aber jedes Mal, wenn man in einem Hotel in Kowloon spült, rauscht da ein Stück Südchinesisches Meer durch die Leitung.",
+  "headline": "Hong Kong spült mit dem Meer",
+  "teaser": "Rund 85 Prozent der Menschen in Hong Kong spülen ihr Klo mit Salzwasser aus dem Meer. Ein eigenes Leitungsnetz macht es seit den 1950ern möglich.",
+  "detail": "Wer in Hong Kong auf die Toilette geht, spült mit großer Wahrscheinlichkeit mit Meerwasser. Laut einer Antwort des Entwicklungsministeriums im Legislativrat vom April 2025 versorgt das Salzwassernetz etwa 85 Prozent der Bevölkerung und liefert rund 300 Millionen Kubikmeter Meerwasser pro Jahr.\n\nDer Grund ist ganz praktisch: Hong Kong war lange knapp an Süßwasser. Wozu kostbares Trinkwasser die Toilette runterspülen, wenn ringsum das Meer liegt? Also hat die Stadt seit den 1950er-Jahren ein zweites Leitungsnetz. Viele Hochhäuser haben deshalb zwei getrennte Wassersysteme, eins für den Hahn, eins für die Spülung.\n\nAls Besucher merkt man davon nichts. Aber bei jedem Spülen im Hotel in Kowloon rauscht ein Stück Südchinesisches Meer durch die Leitung. Meerblick inklusive, nur eben nach unten.",
   "sources": [
    {
     "title": "LCQ18: Supply of seawater for flushing",
@@ -22,6 +22,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -29,9 +30,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Die Rolltreppe, die morgens bergab und danach bergauf fährt",
-  "teaser": "Die 800 Meter lange Rolltreppenanlage zwischen Central und den Mid-Levels fährt morgens nur bergab und ab 10 Uhr nur noch bergauf.",
-  "detail": "Mitten auf Hong Kong Island zieht sich ein überdachtes Band aus Rolltreppen den Hang hinauf: der Central–Mid-Levels Escalator. Laut der Elektro- und Maschinenbaubehörde EMSD ist die Anlage 800 Meter lang, überwindet 135 Höhenmeter, kreuzt 13 Straßen und besteht laut diesem Papier von 2015 aus 18 Rolltreppen und 3 Laufbändern (das Verkehrsamt zählt heute 16 Rolltreppen). Guinness führt sie als längstes überdachtes Freiluft-Rolltreppensystem der Welt.\n\nDas Kuriose ist der Fahrplan: Von 6 bis 10 Uhr läuft alles bergab, damit die Bewohner der Mid-Levels zur Arbeit ins Geschäftsviertel gleiten. Danach schaltet die Anlage um und fährt bis Mitternacht nur noch bergauf. Wer morgens nach oben will, nimmt die Treppe daneben.\n\nEröffnet wurde das System im Oktober 1993. Laut EMSD sollte es auch den Autoverkehr zwischen Mid-Levels und Geschäftsviertel entlasten. Ende 2024 zählte das Verkehrsamt rund 99.000 Fußgängerfahrten am Tag.\n\nVor Ort: Einstieg an der Queen's Road Central, Ende an der Conduit Road. Unterwegs kann man an vielen Stellen aussteigen und in die Seitenstraßen abbiegen.",
+  "headline": "Rolltreppe mit Fahrplan: morgens bergab, danach bergauf",
+  "teaser": "Die 800 Meter lange Rolltreppenanlage zwischen Central und den Mid-Levels fährt morgens nur bergab. Ab 10 Uhr geht es nur noch bergauf.",
+  "detail": "Mitten auf Hong Kong Island zieht sich ein überdachtes Band aus Rolltreppen den Hang hinauf: der Central–Mid-Levels Escalator. Laut Behörde EMSD ist die Anlage 800 Meter lang, überwindet 135 Höhenmeter und kreuzt 13 Straßen. Guinness führt sie als längstes überdachtes Freiluft-Rolltreppensystem der Welt.\n\nDas Kuriose ist der Fahrplan: Von 6 bis 10 Uhr läuft alles bergab, damit die Bewohner der Mid-Levels ins Geschäftsviertel gleiten. Danach schaltet die Anlage um und fährt bis Mitternacht nur noch bergauf. Wer morgens nach oben will, nimmt die Treppe daneben. Zu Fuß, wie früher.\n\nEröffnet wurde das System im Oktober 1993, auch um den Autoverkehr zu entlasten. Ende 2024 zählte das Verkehrsamt rund 99.000 Fußgängerfahrten am Tag.\n\nVor Ort: Einstieg an der Queen's Road Central, Ende an der Conduit Road. Unterwegs kann man an vielen Stellen aussteigen und in die Seitenstraßen abbiegen.",
   "sources": [
    {
     "title": "Life Cycle of the World's Longest Escalator Link",
@@ -53,6 +54,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -60,9 +62,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Weltrekord auf Schienen: Hong Kongs Doppeldecker-Trams",
-  "teaser": "Hong Kong betreibt seit 1904 Doppeldecker-Trams – 2021 bekam die Flotte mit damals 165 Wagen den Guinness-Titel als größte ihrer Art im Einsatz.",
-  "detail": "Die Hongkonger nennen sie liebevoll „Ding Ding“, nach dem Klingeln der Glocke. Seit 1904 rattern die schmalen Doppeldecker-Straßenbahnen an der Nordküste von Hong Kong Island entlang. Im Juli 2021 bekam der Betreiber den Guinness-Titel für die größte Doppeldecker-Tramflotte im Einsatz. Damals fuhren 165 Wagen, die bis zu 200.000 Fahrgäste pro Tag beförderten.\n\nDoppelstöckige Trams gibt es sonst kaum noch, das Pressematerial nennt nur Blackpool in England und Alexandria in Ägypten als weitere Beispiele.\n\nDas Beste daran ist der Preis: Eine Fahrt kostet für Erwachsene pauschal 3,30 Hongkong-Dollar (Stand Oktober 2026), egal wie weit man fährt. Bezahlt wird erst beim Aussteigen vorne, mit Octopus-Karte, elektronischen Bezahlplattformen oder bar. Wechselgeld gibt es nicht.\n\nVor Ort: Oben vorne sitzen und die Stadt an sich vorbeiziehen lassen. Die Haltestellen liegen meist nur 300 bis 400 Meter auseinander, man kann also spontan aussteigen. Eine Stadtrundfahrt für den Preis eines Kaugummis.",
+  "headline": "Ding Ding: die größte Doppeldecker-Tramflotte im Einsatz",
+  "teaser": "Seit 1904 rattern in Hong Kong Doppeldecker-Trams. 2021 bekam die Flotte mit damals 165 Wagen den Guinness-Titel als größte ihrer Art im Einsatz.",
+  "detail": "Die Hongkonger nennen sie liebevoll „Ding Ding“, nach dem Klingeln der Glocke. Seit 1904 rattern die schmalen Doppeldecker-Straßenbahnen an der Nordküste von Hong Kong Island entlang. Im Juli 2021 gab es den Guinness-Titel für die größte Doppeldecker-Tramflotte im Einsatz: 165 Wagen, bis zu 200.000 Fahrgäste am Tag.\n\nDoppelstöckige Trams gibt es sonst kaum noch. Das Pressematerial nennt nur Blackpool in England und Alexandria in Ägypten.\n\nUnd der Preis: pauschal 3,30 Hongkong-Dollar für Erwachsene (Stand Oktober 2026), egal wie weit. Gezahlt wird erst beim Aussteigen vorne, mit Octopus-Karte, elektronischen Bezahlplattformen oder bar. Wechselgeld gibt es nicht.\n\nVor Ort: Oben vorne sitzen und die Stadt vorbeiziehen lassen. Die Haltestellen liegen meist nur 300 bis 400 Meter auseinander, man kann also spontan aussteigen. Eine Stadtrundfahrt zum Preis eines Kaugummis.",
   "sources": [
    {
     "title": "HK Tramways holds Guinness World Records Title by operating the world's largest double-decker tram fleet in service",
@@ -84,6 +86,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -91,9 +94,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Die Star Ferry begann als Brot-Lieferdienst",
-  "teaser": "Die berühmte Star Ferry geht auf einen Bäcker zurück: Dorabjee Naorojee Mithaiwala schaffte sich ein Boot an, um sein Brot über den Hafen zu bringen – 1888 gründete er die Fährlinie.",
-  "detail": "Die grün-weißen Fähren der Star Ferry gehören zu Hong Kong wie die Skyline. Ihre Geschichte beginnt aber in einer Backstube. Der Parse-Kaufmann Dorabjee Naorojee Mithaiwala kam 1857 als mittelloser Koch nach Hong Kong und eröffnete eine Bäckerei. Laut dem Hong Kong Maritime Museum schaffte er sich sein erstes Boot an, um Brot von seiner Bäckerei in Kowloon nach Hong Kong Island zu bringen.\n\nBald fuhren auch er selbst und Freunde damit nach Feierabend zurück nach Kowloon. 1888 gründete er die Kowloon Ferry Company. Das erste Schiff, die hölzerne Dampffähre Morning Star, fasste 50 Personen. 1898 kaufte Sir Paul Chater die inzwischen vier Schiffe starke Flotte und benannte sie in Star Ferry um.\n\nDie Namen der ersten vier Schiffe – Morning Star, Evening Star, Rising Star und Guiding Star – waren von Alfred Tennysons Gedicht „Crossing the Bar“ inspiriert, in dem ein „evening star“ vorkommt.\n\nVor Ort: Die Fähre pendelt bis heute zwischen Tsim Sha Tsui und Central. Die kurze Überfahrt bietet einen der schönsten Blicke auf die Skyline.",
+  "headline": "Die Star Ferry fing als Brot-Taxi an",
+  "teaser": "Hinter der berühmten Star Ferry steckt ein Bäcker: Dorabjee Naorojee Mithaiwala schaffte sich ein Boot an, um sein Brot über den Hafen zu bringen. 1888 gründete er die Fährlinie.",
+  "detail": "Die grün-weißen Fähren der Star Ferry gehören zu Hong Kong wie die Skyline. Angefangen hat alles in einer Backstube. Der Parse-Kaufmann Dorabjee Naorojee Mithaiwala kam 1857 als mittelloser Koch nach Hong Kong und eröffnete eine Bäckerei. Laut Hong Kong Maritime Museum schaffte er sich ein Boot an, um Brot von Kowloon nach Hong Kong Island zu bringen.\n\nBald fuhren er und Freunde damit nach Feierabend zurück nach Kowloon. 1888 gründete er die Kowloon Ferry Company, erstes Schiff: die hölzerne Dampffähre Morning Star für 50 Personen. 1898 kaufte Sir Paul Chater die inzwischen vier Schiffe starke Flotte und taufte sie Star Ferry. Die Namen der ersten vier, Morning, Evening, Rising und Guiding Star, inspirierte Alfred Tennysons Gedicht „Crossing the Bar“.\n\nVor Ort: Die Fähre pendelt bis heute zwischen Tsim Sha Tsui und Central. Die kurze Überfahrt bietet einen der schönsten Blicke auf die Skyline.",
   "sources": [
    {
     "title": "The 'Star' Ferry Story",
@@ -110,6 +113,7 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -117,9 +121,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Kowloon Walled City: einer der dichtesten Wohnorte der Welt",
-  "teaser": "In der Kowloon Walled City lebten 1987 auf nur 2,6 Hektar Zehntausende Menschen – hochgerechnet rund 1,25 Millionen pro Quadratkilometer. 1993/94 wurde sie abgerissen.",
-  "detail": "Auf einem Gelände von nur etwa 2,6 Hektar wuchs im 20. Jahrhundert ein dichtes Labyrinth aus Wohnblöcken, Werkstätten und Gassen. Wie viele Menschen dort 1987 genau lebten, weiß niemand; Schätzungen reichen bis etwa 50.000. Hochgerechnet ergibt das eine Dichte von rund 1,25 Millionen Menschen pro Quadratkilometer. Zum Vergleich: Tokio kommt auf gut 6.000.\n\nDie ummauerte Stadt war ursprünglich ein chinesischer Militärposten, 1846/47 als Garnisonsstadt ausgebaut. Nachdem die Briten 1899 die Kontrolle übernahmen, entwickelte sie sich zu einem dicht besiedelten, weitgehend gesetzlosen Viertel, in dem die Polizei kaum Kontrolle hatte. 1987 beschloss die Regierung den Abriss, der im März 1993 begann und im April 1994 endete.\n\nVor Ort: Heute steht dort der Kowloon Walled City Park, eröffnet im Dezember 1995. Beim Abriss fand man alte Relikte, darunter zwei Granittafeln vom Südtor, alte Kanonen und Säulenbasen. Fast alle wurden in den Park eingebaut oder ausgestellt.",
+  "headline": "Kowloon Walled City: Zehntausende Menschen auf 2,6 Hektar",
+  "teaser": "In der Kowloon Walled City lebten 1987 auf nur 2,6 Hektar Zehntausende Menschen, hochgerechnet rund 1,25 Millionen pro Quadratkilometer. 1993/94 wurde sie abgerissen.",
+  "detail": "Auf nur etwa 2,6 Hektar wuchs im 20. Jahrhundert ein Labyrinth aus Wohnblöcken, Werkstätten und Gassen. Wie viele Menschen dort 1987 lebten, weiß niemand genau, Schätzungen reichen bis etwa 50.000. Hochgerechnet sind das rund 1,25 Millionen pro Quadratkilometer. Tokio, nicht gerade menschenleer, kommt auf gut 6.000.\n\nUrsprünglich war die ummauerte Stadt ein chinesischer Militärposten, 1846/47 zur Garnisonsstadt ausgebaut. Nachdem die Briten 1899 die Kontrolle übernahmen, wurde daraus ein dicht besiedeltes, weitgehend gesetzloses Viertel, in dem die Polizei kaum etwas zu melden hatte. 1987 beschloss die Regierung den Abriss, der von März 1993 bis April 1994 dauerte.\n\nVor Ort: Heute liegt dort der Kowloon Walled City Park, eröffnet im Dezember 1995. Beim Abriss fand man alte Relikte, darunter zwei Granittafeln vom Südtor, alte Kanonen und Säulenbasen. Fast alle sind im Park verbaut oder ausgestellt.",
   "sources": [
    {
     "title": "Kowloon: a brief history of the most densely populated place on Earth",
@@ -141,6 +145,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -148,9 +153,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Hong Kong ist zu 40 Prozent Natur",
-  "teaser": "Rund 40 Prozent der Landfläche Hong Kongs sind als Country Parks und Schutzgebiete ausgewiesen – mehr Wildnis, als man der Hochhausstadt zutraut.",
-  "detail": "Hong Kong gilt als Betonwüste mit der höchsten Wolkenkratzerdichte der Welt. Tatsächlich ist ein großer Teil des Gebiets Wald, Bergland und Küste. Laut Jahresbericht der Naturschutzbehörde AFCD waren im März 2018 genau 44.312 Hektar als Country Parks und besondere Schutzgebiete ausgewiesen, das sind etwa 40 Prozent der gesamten Landfläche. Die Behörde verwaltet 24 Country Parks und 22 Special Areas.\n\nDie Natur ist nicht nur Kulisse: Im Geschäftsjahr 2017/18 zählte die Behörde rund 13 Millionen Besuche in den Country Parks. Viele Hongkonger wandern am Wochenende, und die Wege beginnen oft direkt an einer MTR- oder Busstation.\n\nDas erklärt auch einen Teil der dichten Skyline: Wenn so viel Fläche geschützt ist, drängt sich die Stadt auf dem Rest umso enger zusammen.\n\nVor Ort: Der Dragon's Back im Shek O Country Park oder der MacLehose Trail zeigen, wie schnell man aus dem Häusermeer in die Berge kommt.",
+  "headline": "Betonwüste? Hong Kong ist zu 40 Prozent Natur",
+  "teaser": "Rund 40 Prozent der Landfläche Hong Kongs sind Country Parks und Schutzgebiete. Mehr Wildnis, als man der Hochhausstadt zutraut.",
+  "detail": "Hong Kong gilt als Betonwüste mit der höchsten Wolkenkratzerdichte der Welt. Dabei ist ein großer Teil des Gebiets Wald, Bergland und Küste. Laut Jahresbericht der Naturschutzbehörde AFCD waren im März 2018 genau 44.312 Hektar als Country Parks und besondere Schutzgebiete ausgewiesen, etwa 40 Prozent der Landfläche: 24 Country Parks und 22 Special Areas.\n\nUnd die werden genutzt. Im Geschäftsjahr 2017/18 zählte die Behörde rund 13 Millionen Besuche. Viele Hongkonger wandern am Wochenende, die Wege beginnen oft direkt an einer MTR- oder Busstation.\n\nDas erklärt auch einen Teil der Skyline: Wenn so viel Fläche geschützt ist, quetscht sich die Stadt auf dem Rest umso enger zusammen. Die Hochhäuser rücken zusammen, damit der Wald Platz hat.\n\nVor Ort: Der Dragon's Back im Shek O Country Park oder der MacLehose Trail zeigen, wie schnell man aus dem Häusermeer in die Berge kommt.",
   "sources": [
    {
     "title": "Work of the Country and Marine Parks Branch – Annual Report 2018",
@@ -167,6 +172,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -174,9 +180,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Wildschweine mitten in der Millionenstadt",
-  "teaser": "In Hong Kong leben über tausend Wildschweine, die bis in Wohnviertel vordringen – Füttern ist seit Ende 2022 im ganzen Gebiet verboten, seit August 2024 drohen bis zu 100.000 HK$ Strafe.",
-  "detail": "Wer in Hong Kong abends durch einen Park am Stadtrand läuft, kann einem Wildschwein begegnen. Die Naturschutzbehörde AFCD schätzte den Bestand 2023 auf etwa 1.360 Tiere. Weil manche Menschen die Schweine fütterten, verloren diese ihre Scheu und tauchten in Wohnsiedlungen, an Mülltonnen und sogar auf Straßen auf.\n\nDie Regierung reagierte mit einem Fütterungsverbot für Wildtiere, das seit Ende Dezember 2022 im gesamten Gebiet gilt. Im November 2023 brachte sie zudem eine Gesetzesänderung ein. Seit dem 1. August 2024 liegt die Höchststrafe für illegales Füttern bei 100.000 Hongkong-Dollar und einem Jahr Haft statt zuvor 10.000 Dollar, außerdem gibt es ein Bußgeld von 5.000 Dollar auf der Stelle.\n\nDie Behörde fängt außerdem Schweine ein, die Probleme machen. Bis Februar 2024 gab es mehr als 410 solcher Einsätze, über 910 Tiere wurden dabei getötet.\n\nVor Ort: Wildschweine leben vor allem in den Country Parks, tauchen aber auch am Rand von Wohnsiedlungen auf. Abstand halten und auf keinen Fall füttern.",
+  "headline": "Wildschweine im Wohnviertel: Füttern kostet bis zu 100.000 HK$",
+  "teaser": "In Hong Kong leben über tausend Wildschweine, manche trauen sich bis in Wohnviertel. Füttern ist seit Ende 2022 verboten, seit August 2024 drohen bis zu 100.000 HK$ Strafe.",
+  "detail": "Wer in Hong Kong abends durch einen Park am Stadtrand läuft, kann einem Wildschwein begegnen. Die Naturschutzbehörde AFCD schätzte den Bestand 2023 auf etwa 1.360 Tiere. Weil manche Menschen sie fütterten, verloren die Schweine ihre Scheu und tauchten in Wohnsiedlungen, an Mülltonnen und sogar auf Straßen auf. Gut gemeint, schlecht gelaufen.\n\nSeit Ende Dezember 2022 gilt deshalb im ganzen Gebiet ein Fütterungsverbot für Wildtiere. Seit dem 1. August 2024 liegt die Höchststrafe bei 100.000 Hongkong-Dollar und einem Jahr Haft statt zuvor 10.000 Dollar, dazu kommt ein Bußgeld von 5.000 Dollar auf der Stelle.\n\nDie Behörde fängt außerdem Schweine ein, die Probleme machen. Bis Februar 2024 gab es mehr als 410 solcher Einsätze, über 910 Tiere wurden dabei getötet.\n\nVor Ort: Wildschweine leben vor allem in den Country Parks, tauchen aber auch am Rand von Wohnsiedlungen auf. Abstand halten und auf keinen Fall füttern.",
   "sources": [
    {
     "title": "LCQ14: Nuisances caused by wild pigs",
@@ -198,6 +204,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -205,9 +212,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Hong Kong besteht aus über 260 Inseln",
-  "teaser": "Zu Hong Kong gehören neben Hong Kong Island, Lantau, Kowloon und den New Territories ganze 262 weitere Inseln.",
-  "detail": "Die meisten denken bei Hong Kong an eine Insel mit Skyline. Tatsächlich ist das Gebiet ein ganzer Archipel. Laut dem Hong Kong Economic and Trade Office in London umfasst die Landfläche von rund 1.100 Quadratkilometern Hong Kong Island, Lantau, die Halbinsel Kowloon und die New Territories, dazu 262 weitere Inseln.\n\nViele dieser Inseln sind klein und unbewohnt, manche kaum mehr als Felsen im Meer. Andere sind beliebte Ausflugsziele mit Fischerdörfern, Stränden und Wanderwegen, etwa Cheung Chau, Lamma oder Peng Chau.\n\nDie Inseln erklären auch, warum Fähren in Hong Kong bis heute ein ganz normales Verkehrsmittel sind und nicht nur eine Touristenattraktion.\n\nVor Ort: Von den Piers in Central fahren regelmäßig Fähren zu den sogenannten Outlying Islands. Ein Tagesausflug auf eine Insel zeigt ein ganz anderes, ruhigeres Hong Kong.",
+  "headline": "Hong Kong ist ein Archipel mit über 260 Inseln",
+  "teaser": "Zu Hong Kong gehören neben Hong Kong Island, Lantau, Kowloon und den New Territories noch ganze 262 weitere Inseln.",
+  "detail": "Bei Hong Kong denken die meisten an eine Insel mit Skyline. Tatsächlich ist das Gebiet ein ganzer Archipel. Laut dem Hong Kong Economic and Trade Office in London umfasst die Landfläche von rund 1.100 Quadratkilometern Hong Kong Island, Lantau, die Halbinsel Kowloon und die New Territories, plus 262 weitere Inseln.\n\nViele davon sind klein und unbewohnt, manche kaum mehr als ein Felsen im Meer. Andere sind beliebte Ausflugsziele mit Fischerdörfern, Stränden und Wanderwegen, etwa Cheung Chau, Lamma oder Peng Chau.\n\nDeshalb sind Fähren in Hong Kong bis heute ein ganz normales Verkehrsmittel und nicht bloß eine Touristenattraktion. Die Fähre ist hier, was anderswo der Bus ist.\n\nVor Ort: Von den Piers in Central fahren regelmäßig Fähren zu den sogenannten Outlying Islands. Ein Tagesausflug auf eine Insel zeigt ein ganz anderes, ruhigeres Hong Kong.",
   "sources": [
    {
     "title": "Introduction to Hong Kong",
@@ -222,6 +229,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -229,9 +237,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Keine Stadt hatte 2025 mehr Wolkenkratzer als Hong Kong",
-  "teaser": "Hong Kong hatte Anfang 2025 laut Guinness 669 Gebäude mit mindestens 150 Metern Höhe – mehr als jede andere Stadt der Welt.",
-  "detail": "New York, Dubai, Shanghai? Beim Zählen der richtig hohen Häuser liegt Hong Kong vorn. Guinness World Records stützt sich auf Daten des Council on Tall Buildings and Urban Habitat. Danach standen in Hong Kong am 30. Januar 2025 genau 669 Gebäude mit mindestens 150 Metern Höhe. Knapp dahinter folgt das benachbarte Shenzhen mit 626, mit großem Abstand New York mit 434 und Dubai mit 424.\n\nBei den ganz hohen Türmen sieht es anders aus: Gebäude über 300 Meter hat Dubai mit Abstand die meisten. Hong Kongs Rekord kommt also von der schieren Masse, nicht von einzelnen Rekordtürmen.\n\nDazu passt die Geografie: Steile Berge und große Schutzgebiete lassen nur wenig ebenes Bauland übrig, also geht es in die Höhe, auch bei ganz normalen Wohnhäusern.\n\nVor Ort: Den besten Überblick hat man vom Victoria Peak oder abends von der Promenade in Tsim Sha Tsui mit Blick auf Hong Kong Island.",
+  "headline": "669 Hochhäuser über 150 Meter: Hong Kong liegt vorn",
+  "teaser": "Hong Kong hatte Anfang 2025 laut Guinness 669 Gebäude mit mindestens 150 Metern Höhe. Mehr als jede andere Stadt, knapp vor dem Nachbarn Shenzhen.",
+  "detail": "New York, Dubai, Shanghai? Beim Zählen der richtig hohen Häuser liegt Hong Kong vorn. Guinness World Records stützt sich auf Daten des Council on Tall Buildings and Urban Habitat: Am 30. Januar 2025 standen in Hong Kong genau 669 Gebäude mit mindestens 150 Metern Höhe. Knapp dahinter das benachbarte Shenzhen mit 626, mit großem Abstand New York mit 434 und Dubai mit 424.\n\nBei den ganz hohen Türmen über 300 Meter hat dagegen Dubai mit Abstand die meisten. Hong Kong gewinnt also nicht mit einzelnen Riesen, sondern mit schierer Masse.\n\nDazu passt die Geografie: Steile Berge und große Schutzgebiete lassen wenig ebenes Bauland übrig. Also geht es nach oben, auch bei ganz normalen Wohnhäusern.\n\nVor Ort: Den besten Überblick hat man vom Victoria Peak oder abends von der Promenade in Tsim Sha Tsui mit Blick auf Hong Kong Island.",
   "sources": [
    {
     "title": "City with the most buildings 150 m or taller",
@@ -248,6 +256,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -255,9 +264,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Im Ananasbrötchen ist keine Ananas",
-  "teaser": "Das Hongkonger Kultgebäck Bo Lo Bao heißt Ananasbrötchen, enthält aber keine Ananas – nur die karierte Zuckerkruste sieht aus wie eine Ananasschale.",
-  "detail": "In jeder Hongkonger Bäckerei und in fast jedem Cha Chaan Teng, dem typischen Café, liegt es in der Auslage: das Ananasbrötchen, auf Kantonesisch Bo Lo Bao. Wer Frucht erwartet, wird enttäuscht. Das Lebensmittelsicherheitszentrum der Regierung stellt klar, dass es keine Ananas enthält.\n\nDer Name kommt allein von der Optik. Die goldbraune, rissige Kruste aus Zucker, Mehl und Fett zerspringt beim Backen in ein Karomuster, das an die Schale einer Ananas erinnert. Darunter steckt ein weiches, süßes Milchbrötchen.\n\nDas Zentrum nennt weitere Beispiele für täuschende Namen, etwa den „Ochsenzungen“-Krapfen, der nur so geformt ist, und den „Löwenkopf“, einen großen Fleischkloß, bei dem das Gemüse die Mähne spielt.\n\nVor Ort: Am besten warm bestellen, gern als Bo Lo Yau mit einer dicken Scheibe kalter Butter in der Mitte, dazu einen Hongkonger Milchtee. Ein Frühstück, das mit Obst wirklich gar nichts zu tun hat.",
+  "headline": "Im Ananasbrötchen ist garantiert keine Ananas",
+  "teaser": "Das Hongkonger Kultgebäck Bo Lo Bao heißt Ananasbrötchen, enthält aber null Ananas. Nur die karierte Zuckerkruste sieht aus wie eine Ananasschale.",
+  "detail": "In jeder Hongkonger Bäckerei und fast jedem Cha Chaan Teng, dem typischen Café, liegt es in der Auslage: das Ananasbrötchen, auf Kantonesisch Bo Lo Bao. Wer Frucht erwartet, wird enttäuscht. Das Lebensmittelsicherheitszentrum der Regierung stellt amtlich klar: keine Ananas drin.\n\nDer Name kommt allein von der Optik. Die goldbraune, rissige Kruste aus Zucker, Mehl und Fett springt beim Backen in ein Karomuster, das an Ananasschale erinnert. Darunter: ein weiches, süßes Milchbrötchen.\n\nDas Zentrum hat noch mehr Etikettenschwindel parat, etwa den „Ochsenzungen“-Krapfen, der nur so geformt ist, und den „Löwenkopf“, einen großen Fleischkloß, bei dem das Gemüse die Mähne spielt.\n\nVor Ort: Am besten warm bestellen, gern als Bo Lo Yau mit einer dicken Scheibe kalter Butter in der Mitte, dazu einen Hongkonger Milchtee. Ein Frühstück, das mit Obst wirklich gar nichts zu tun hat.",
   "sources": [
    {
     "title": "Does the name of a food truly reveal its nature?",
@@ -273,6 +282,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -280,9 +290,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Milchtee, gefiltert durch einen „Seidenstrumpf“",
-  "teaser": "Hongkonger Milchtee heißt im Volksmund „Seidenstrumpf-Milchtee“ – weil der verfärbte Baumwollfilter aussieht wie ein hautfarbener Strumpf.",
-  "detail": "Kein Strumpf wurde verletzt: Der Spitzname des Hongkonger Milchtees bezieht sich auf das feine Baumwollsieb, durch das der starke Schwarztee gegossen wird. Mit der Zeit färbt es sich tee-braun und erinnert dann an einen hautfarbenen Seidenstrumpf.\n\nDie Wurzeln liegen in der Kolonialzeit. Die Briten brachten Tee mit Milch und Zucker mit. Laut dem Oral-History-Archiv Hong Kong Memory ersetzte später Kondensmilch die frische Milch, weil sie den Arbeitern mehr Kalorien für schwere körperliche Arbeit lieferte. Daraus entstand ein eigener, kräftiger und cremiger Stil.\n\nDie Regierung nahm die Zubereitungstechnik 2017 in die erste Repräsentative Liste des immateriellen Kulturerbes von Hong Kong auf. Die Liste beschreibt den Tee als Ergebnis einer über hundertjährigen Entwicklung aus dem englischen Milchtee.\n\nVor Ort: In praktisch jedem Cha Chaan Teng, dem typischen Hongkonger Café, bestellbar, heiß oder auf Eis. Am besten zu einem Ananasbrötchen.",
+  "headline": "Hongkonger Milchtee läuft durch einen „Seidenstrumpf“",
+  "teaser": "Hongkonger Milchtee heißt im Volksmund „Seidenstrumpf-Milchtee“. Der Grund: Der verfärbte Baumwollfilter sieht aus wie ein hautfarbener Strumpf.",
+  "detail": "Entwarnung: Kein Strumpf wurde verletzt. Der Spitzname des Hongkonger Milchtees bezieht sich auf das feine Baumwollsieb, durch das der starke Schwarztee gegossen wird. Mit der Zeit färbt es sich teebraun und erinnert dann an einen hautfarbenen Seidenstrumpf.\n\nDie Wurzeln liegen in der Kolonialzeit. Die Briten brachten Tee mit Milch und Zucker mit. Laut dem Oral-History-Archiv Hong Kong Memory ersetzte später Kondensmilch die frische Milch, weil sie Arbeitern mehr Kalorien für schwere körperliche Arbeit lieferte. So entstand ein eigener, kräftiger, cremiger Stil.\n\n2017 nahm die Regierung die Zubereitungstechnik in die erste Repräsentative Liste des immateriellen Kulturerbes von Hong Kong auf, als Ergebnis von über hundert Jahren Entwicklung aus dem englischen Milchtee. Ein Strumpf mit Kulturerbe-Status, fast jedenfalls.\n\nVor Ort: In praktisch jedem Cha Chaan Teng zu haben, heiß oder auf Eis. Am besten zu einem Ananasbrötchen.",
   "sources": [
    {
     "title": "History of Hong Kong-style Milk Tea – The Oral Legacies Series II",
@@ -302,6 +312,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -309,9 +320,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Rosa Delfine vor Hong Kongs Küste",
-  "teaser": "Die Chinesischen Weißen Delfine vor Hong Kong schimmern rosa – nicht wegen Farbstoffen, sondern wegen Blutgefäßen direkt unter der Haut.",
-  "detail": "In den Gewässern rund um Lantau leben Delfine, die aussehen, als hätten sie einen Sonnenbrand. Der Chinesische Weiße Delfin, eine Form des Indopazifischen Buckeldelfins, ist erwachsen oft rosa gefleckt.\n\nDer Meeresforscher Ken Collins von der Universität Southampton erklärt das so: Dicht unter der Haut liegen Blutgefäße, die beim Abkühlen helfen. Wird es dem Tier zu warm, pumpt es mehr Blut dorthin und gibt Wärme ans Wasser ab. Das Rosa ist also so etwas wie rote Wangen nach dem Sport.\n\nNoch kurioser: Die Delfine kommen schwarz zur Welt, werden dann grau und mit dem Alter immer heller.\n\nDen Tieren geht es nicht gut. Ende der 1990er-Jahre zählten Forscher nur etwa 200 Tiere in Hong Kongs Gewässern, laut Naturschützern waren es 2015 schon weniger. Fischernetze, Schiffsverkehr, Unterwasserlärm, Abwasser und Bauprojekte wie die Flughafenerweiterung setzen ihnen zu.\n\nVor Ort: Die Delfine leben in den Gewässern rund um Lantau. Wer sie sehen will, sollte auf Anbieter achten, die Abstand halten und die Tiere nicht bedrängen.",
+  "headline": "Rosa Delfine: kein Sonnenbrand, sondern Kühlsystem",
+  "teaser": "Die Chinesischen Weißen Delfine vor Hong Kong schimmern rosa. Nicht durch Farbstoffe, sondern durch Blutgefäße direkt unter der Haut.",
+  "detail": "Rund um Lantau leben Delfine, die aussehen, als hätten sie einen Sonnenbrand. Der Chinesische Weiße Delfin, eine Form des Indopazifischen Buckeldelfins, ist erwachsen oft rosa gefleckt.\n\nDer Meeresforscher Ken Collins von der Universität Southampton erklärt: Dicht unter der Haut liegen Blutgefäße, die beim Abkühlen helfen. Wird dem Tier zu warm, pumpt es mehr Blut dorthin und gibt Wärme ans Wasser ab. Das Rosa ist also so etwas wie rote Wangen nach dem Sport.\n\nNoch kurioser: Die Delfine kommen schwarz zur Welt, werden dann grau und mit dem Alter immer heller.\n\nGut geht es ihnen nicht. Ende der 1990er-Jahre zählten Forscher nur etwa 200 Tiere in Hong Kongs Gewässern, 2015 laut Naturschützern schon weniger. Fischernetze, Schiffsverkehr, Unterwasserlärm, Abwasser und Bauprojekte wie die Flughafenerweiterung setzen ihnen zu.\n\nVor Ort: Wer sie sehen will, sollte Anbieter wählen, die Abstand halten und die Tiere nicht bedrängen.",
   "sources": [
    {
     "title": "Explainer: why are the endangered dolphins of Hong Kong pink?",
@@ -328,6 +339,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -335,9 +347,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Wettklettern auf Brötchentürme – nach 26 Jahren Pause",
-  "teaser": "Beim Bun Festival auf Cheung Chau klettern Teilnehmer auf einen mit Brötchen bedeckten Turm; nach einem Einsturz 1978 war der Wettkampf 26 Jahre verboten.",
-  "detail": "Auf der kleinen Insel Cheung Chau findet jedes Frühjahr eines der seltsamsten Feste Hong Kongs statt: das Bun Festival, offiziell Cheung-Chau-Jiao-Fest. Der Höhepunkt ist das „Bun Scrambling“. Kletterer steigen dabei um die Wette auf einen hohen Turm, der rundum mit Brötchen bestückt ist, und sammeln so viele wie möglich ein.\n\nEinfach war die Geschichte nicht. 1978 stürzte ein Brötchenturm ein, danach wurde der Wettkampf 26 Jahre lang ausgesetzt. Erst 2005 kehrte er zurück, mit strengeren Sicherheitsregeln.\n\nDas Fest selbst ist deutlich älter. Laut dem Kulturerbe-Büro wird es seit über 100 Jahren gefeiert. Der Legende nach suchte in der späten Qing-Zeit eine Seuche die Insel heim. 2011 kam das Fest auf Chinas dritte nationale Liste des immateriellen Kulturerbes.\n\nVor Ort: Das Fest findet jedes Jahr im Frühjahr statt, meist im Mai. Cheung Chau erreicht man per Fähre ab Central.",
+  "headline": "Wettklettern auf Brötchentürme, nach 26 Jahren Pause",
+  "teaser": "Beim Bun Festival auf Cheung Chau klettern Leute um die Wette auf einen Turm voller Brötchen. Nach einem Einsturz 1978 war der Wettkampf 26 Jahre lang ausgesetzt.",
+  "detail": "Auf der kleinen Insel Cheung Chau steigt jedes Frühjahr eines der seltsamsten Feste Hong Kongs: das Bun Festival, offiziell Cheung-Chau-Jiao-Fest. Höhepunkt ist das „Bun Scrambling“. Kletterer steigen um die Wette auf einen hohen Turm, der rundum mit Brötchen bestückt ist, und sammeln so viele wie möglich ein. Bäckerei trifft Bergsteigen.\n\nGanz reibungslos lief das nicht. 1978 stürzte ein Brötchenturm ein, danach war der Wettkampf 26 Jahre lang ausgesetzt. Erst 2005 kehrte er zurück, mit strengeren Sicherheitsregeln.\n\nDas Fest selbst ist deutlich älter: Laut Kulturerbe-Büro wird es seit über 100 Jahren gefeiert. Der Legende nach suchte in der späten Qing-Zeit eine Seuche die Insel heim. 2011 kam es auf Chinas dritte nationale Liste des immateriellen Kulturerbes.\n\nVor Ort: Das Fest findet jedes Jahr im Frühjahr statt, meist im Mai. Cheung Chau erreicht man per Fähre ab Central.",
   "sources": [
    {
     "title": "Hong Kong 2005 Yearbook – Cheung Chau Bun Festival",
@@ -358,6 +370,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
@@ -365,9 +378,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Warum Wolkenkratzer aus der Peak Tram schief aussehen",
-  "teaser": "Wer mit der Peak Tram bergauf fährt, sieht die Hochhäuser scheinbar zur Seite kippen – eine optische Täuschung, die Forscher der Universität Hong Kong untersucht haben.",
-  "detail": "Die Peak Tram, eine Standseilbahn, zieht ihre Fahrgäste steil hinauf zum Victoria Peak. Dabei passiert etwas Seltsames: Die Hochhäuser neben der Strecke scheinen sich zu neigen, als würden sie gleich umfallen.\n\nDie Psychologin Chia-huei Tseng von der Universität Hong Kong hat das mit Kollegen untersucht, die Studie erschien in der Fachzeitschrift Psychological Science. Das Ergebnis: Unser Gehirn verlässt sich beim Einschätzen, was senkrecht ist, vor allem auf die Augen. In der Bahn lehnt man schräg im Sitz, und Fensterrahmen, Boden und Lampen im Wagen sind ebenfalls geneigt. Diese schräge Umgebung dient dem Gehirn als Bezugsrahmen, also wirken die eigentlich senkrechten Türme draußen schief.\n\nAm stärksten war die Täuschung bei Nachtfahrten, vermutlich weil dann äußere Orientierungshilfen fehlen.\n\nVor Ort: Talstation an der Garden Road in Central. Bergauf fahren und bewusst auf die Häuser neben der Strecke achten.",
+  "headline": "In der Peak Tram kippen die Wolkenkratzer, scheinbar",
+  "teaser": "Wer mit der Peak Tram bergauf fährt, sieht die Hochhäuser zur Seite kippen. Eine optische Täuschung, die Forscher der Universität Hong Kong untersucht haben.",
+  "detail": "Die Peak Tram, eine Standseilbahn, zieht ihre Fahrgäste steil hinauf zum Victoria Peak. Dabei passiert etwas Seltsames: Die Hochhäuser neben der Strecke scheinen sich zu neigen, als würden sie gleich umfallen.\n\nDie Psychologin Chia-huei Tseng von der Universität Hong Kong hat das mit Kollegen untersucht, die Studie erschien in Psychological Science. Ergebnis: Was senkrecht ist, schätzt unser Gehirn vor allem mit den Augen. In der Bahn lehnt man schräg im Sitz, und Fensterrahmen, Boden und Lampen im Wagen sind ebenfalls geneigt. Diese schräge Umgebung nimmt das Gehirn als Bezugsrahmen, also wirken die senkrechten Türme draußen schief. Nicht die Häuser kippen, sondern dein Maßstab.\n\nAm stärksten war die Täuschung bei Nachtfahrten, vermutlich weil dann äußere Orientierungshilfen fehlen.\n\nVor Ort: Talstation an der Garden Road in Central. Bergauf fahren und bewusst auf die Häuser neben der Strecke achten.",
   "sources": [
    {
     "title": "Hong Kong Skyscrapers Appear to Fall in Real-World Illusion",
@@ -384,6 +397,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -391,9 +405,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Sechseckige Felssäulen aus einem Vulkan der Kreidezeit",
-  "teaser": "Im Osten Hong Kongs ragen riesige sechseckige Gesteinssäulen aus der Kreidezeit aus dem Meer – seit 2022 zählen sie zu den ersten 100 Geostätten der Geologen-Weltunion IUGS.",
-  "detail": "Hong Kong und Vulkane? Klingt unpassend, ist aber Teil der Erdgeschichte. In Sai Kung im Osten des Gebiets stehen an Küsten und auf vielen Inseln zahllose eng aneinandergereihte Gesteinssäulen, oft sechseckig, wie riesige Bleistifte. Sie entstanden in der frühen Kreidezeit aus vulkanischem Rhyolith, als heißes Gestein abkühlte und sich dabei regelmäßig zusammenzog.\n\nIm Oktober 2022 wählte die Internationale Union der Geologischen Wissenschaften die Formation in ihre Liste der ersten 100 Geological Heritage Sites weltweit. Laut Regierung sind die Säulen zahlreich, groß, gut erhalten und weit verbreitet. Seit 2009 gehören sie zum Hong Kong UNESCO Global Geopark.\n\nDass die Säulen aus hellem Rhyolith bestehen, macht sie besonders. Die bekannten Säulen anderswo, etwa am Giant's Causeway in Nordirland, sind aus dunklem Basalt.\n\nVor Ort: Am East Dam des High Island Reservoir im Sai Kung East Country Park kann man direkt zwischen den Säulen spazieren.",
+  "headline": "Riesenbleistifte aus Stein: Hong Kongs Vulkansäulen",
+  "teaser": "Im Osten Hong Kongs ragen sechseckige Gesteinssäulen aus der Kreidezeit aus dem Meer. Seit 2022 zählen sie zu den ersten 100 Geostätten der Geologen-Weltunion IUGS.",
+  "detail": "Hong Kong und Vulkane? Klingt schräg, ist aber Erdgeschichte. In Sai Kung im Osten des Gebiets stehen an Küsten und auf vielen Inseln zahllose eng aneinandergereihte Gesteinssäulen, oft sechseckig, wie riesige Bleistifte. Sie entstanden in der frühen Kreidezeit aus vulkanischem Rhyolith, als heißes Gestein abkühlte und sich dabei regelmäßig zusammenzog.\n\nIm Oktober 2022 nahm die Internationale Union der Geologischen Wissenschaften die Formation in ihre Liste der ersten 100 Geological Heritage Sites weltweit auf. Laut Regierung sind die Säulen zahlreich, groß, gut erhalten und weit verbreitet. Seit 2009 gehören sie zum Hong Kong UNESCO Global Geopark.\n\nDas Besondere: Sie bestehen aus hellem Rhyolith. Die bekannten Kollegen am Giant's Causeway in Nordirland sind aus dunklem Basalt.\n\nVor Ort: Am East Dam des High Island Reservoir im Sai Kung East Country Park spaziert man direkt zwischen den Säulen.",
   "sources": [
    {
     "title": "Rock columns ranked world's top 100",
@@ -410,6 +424,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -418,8 +433,8 @@
   "place": "hongkong",
   "lang": "de",
   "headline": "Mehr Octopus-Karten als Einwohner",
-  "teaser": "Hong Kong führte 1997 die kontaktlose Octopus-Karte ein; 2016 waren über 32 Millionen Karten im Umlauf – bei gut 7 Millionen Einwohnern.",
-  "detail": "In Hong Kong zahlte man schon kontaktlos, als anderswo noch Kleingeld für den Bus gezählt wurde. Im September 1997 startete die Octopus-Karte, entwickelt von fünf Verkehrsbetrieben, die eigentlich Konkurrenten waren: MTR, KCRC, KMB, Citybus und eine Fährgesellschaft.\n\nDie Idee: eine Karte für alle Verkehrsmittel, kurz an den Leser halten, fertig. Schnell kamen Geschäfte, Restaurants und andere Einrichtungen dazu. In manchen Wohn- und Bürogebäuden dient die Karte sogar als Zugangsschlüssel.\n\nLaut Firmenprofil von 2016 waren über 32 Millionen Karten und Produkte aktiv im Umlauf, bei einer Bevölkerung von gut 7 Millionen. Über 99 Prozent der 15- bis 64-Jährigen besaßen eine. Täglich liefen über 14 Millionen Transaktionen über das System.\n\nDer Name passt: Ein Oktopus hat viele Arme, und die Karte ist fast überall im Einsatz.\n\nVor Ort: Eine Octopus-Karte lohnt sich auch für Touristen, sie funktioniert in Bahn, Bus, Tram, Fähre und vielen Läden.",
+  "teaser": "Hong Kong führte 1997 die kontaktlose Octopus-Karte ein. 2016 waren über 32 Millionen Karten im Umlauf, bei gut 7 Millionen Einwohnern.",
+  "detail": "In Hong Kong zahlte man schon kontaktlos, als anderswo noch Kleingeld für den Bus gezählt wurde. Im September 1997 startete die Octopus-Karte, entwickelt von fünf Verkehrsbetrieben, die eigentlich Konkurrenten waren: MTR, KCRC, KMB, Citybus und eine Fährgesellschaft.\n\nDie Idee: eine Karte für alle Verkehrsmittel, kurz an den Leser halten, fertig. Schnell machten Geschäfte und Restaurants mit, in manchen Wohn- und Bürogebäuden ist die Karte sogar der Zugangsschlüssel.\n\nLaut Firmenprofil von 2016 waren über 32 Millionen Karten und Produkte aktiv im Umlauf, bei gut 7 Millionen Menschen. Über 99 Prozent der 15- bis 64-Jährigen hatten eine, täglich liefen über 14 Millionen Transaktionen. Rein rechnerisch also mehrere Kraken pro Kopf.\n\nDer Name passt: Ein Oktopus hat viele Arme, und die Karte ist fast überall im Einsatz.\n\nVor Ort: Lohnt sich auch für Touristen, gilt in Bahn, Bus, Tram, Fähre und vielen Läden.",
   "sources": [
    {
     "title": "Octopus Company Profile",
@@ -436,6 +451,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -443,9 +459,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Rot, Grün, Blau: Hong Kongs Taxis tragen Revierfarben",
-  "teaser": "Die Farbe eines Hongkonger Taxis verrät, wo es fahren darf: Rot für die Stadt, Grün für die New Territories, Blau nur für Lantau.",
-  "detail": "Wer in Hong Kong ein Taxi heranwinkt, sollte auf die Farbe achten. Das Verkehrsamt unterscheidet drei Sorten. Rote Stadttaxis fahren fast überall, nur nicht auf der Tung Chung Road und im Süden von Lantau. Grüne Taxis bedienen die New Territories, vor allem den Nordosten nördlich von Sha Tin und den Nordwesten nördlich von Tsuen Wan. Blaue Taxis sind nur auf Lantau und Chek Lap Kok unterwegs.\n\nDie Verteilung ist sehr ungleich: Laut Verkehrsamt (Stand Oktober 2026) sind von insgesamt 18.163 Taxis 15.250 rot, 2.838 grün und nur 75 blau. Ein blaues Taxi zu erwischen ist also fast ein Glücksfall.\n\nAlle Farben dürfen aber zu einigen besonderen Zielen fahren, nämlich zum Flughafen, zum Hongkonger Abschnitt der Brücke nach Zhuhai und Macao und zum Disneyland.\n\nVor Ort: Wer auf Lantau unterwegs ist, kann eines der seltenen blauen Taxis erwischen; rote dürfen dort nur in Teilen fahren. In den nördlichen New Territories sind dagegen vor allem grüne Taxis unterwegs.",
+  "headline": "Rot, Grün, Blau: Hong Kongs Taxis haben Revierfarben",
+  "teaser": "Die Farbe eines Hongkonger Taxis verrät, wo es fahren darf: Rot für die Stadt, Grün für die New Territories, Blau nur für Lantau. Blaue gibt es gerade mal 75.",
+  "detail": "Wer in Hong Kong ein Taxi heranwinkt, sollte auf die Farbe achten. Rote Stadttaxis fahren fast überall, nur nicht auf der Tung Chung Road und im Süden von Lantau. Grüne bedienen die New Territories, vor allem den Nordosten nördlich von Sha Tin und den Nordwesten nördlich von Tsuen Wan. Blaue sind nur auf Lantau und Chek Lap Kok unterwegs.\n\nLaut Verkehrsamt (Stand Oktober 2026) sind von insgesamt 18.163 Taxis 15.250 rot, 2.838 grün und nur 75 blau. Ein blaues Taxi zu erwischen ist also fast ein Glücksfall.\n\nEin paar Ziele dürfen alle Farben anfahren: den Flughafen, den Hongkonger Abschnitt der Brücke nach Zhuhai und Macao und das Disneyland.\n\nVor Ort: Auf Lantau kann man eines der seltenen blauen Taxis erwischen, rote dürfen dort nur in Teilen fahren. In den nördlichen New Territories sind vor allem grüne unterwegs.",
   "sources": [
    {
     "title": "Taxi",
@@ -460,6 +476,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -467,9 +484,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Eine Kanone, die jeden Mittag schießt",
-  "teaser": "In Causeway Bay feuert das Handelshaus Jardines seit dem 19. Jahrhundert täglich um 12 Uhr eine Kanone ab – wer 48.000 Hongkong-Dollar spendet, darf selbst abdrücken.",
-  "detail": "Pünktlich um zwölf knallt es am Hafen von Causeway Bay. Die Noonday Gun ist eine Kanone, die das Handelshaus Jardine Matheson jeden Tag zur Mittagszeit abfeuert.\n\nWie die Tradition genau entstand, ist nicht ganz geklärt. Laut der Wohltätigkeitsorganisation Community Chest liegt der Ursprung im Dunkel der Geschichte. Die gängige Erzählung: Jardines soll seine Chefs mit Salutschüssen begrüßt haben, was der Royal Navy missfiel. Zur Strafe musste die Firma fortan täglich um zwölf einen Schuss als Zeitsignal abgeben. Unterbrochen wurde das nur während der japanischen Besatzung im Zweiten Weltkrieg.\n\nWer selbst einmal abfeuern will, kann das gegen eine Spende von mindestens 48.000 Hongkong-Dollar an die Community Chest tun (Stand 2026).\n\nVor Ort: Die Kanone steht in Causeway Bay direkt am Taifun-Schutzhafen. Zuschauen kostet nichts, man sollte nur kurz vor zwölf da sein und sich auf einen ordentlichen Knall gefasst machen. Zur Mittagszeit ist sie damit wohl die pünktlichste Uhr der Stadt.",
+  "headline": "Die Kanone, die jeden Mittag knallt",
+  "teaser": "In Causeway Bay feuert das Handelshaus Jardines seit dem 19. Jahrhundert täglich um 12 Uhr eine Kanone ab. Wer 48.000 Hongkong-Dollar spendet, darf selbst abdrücken.",
+  "detail": "Pünktlich um zwölf knallt es am Hafen von Causeway Bay. Die Noonday Gun ist eine Kanone, die das Handelshaus Jardine Matheson jeden Tag zur Mittagszeit abfeuert.\n\nWie das anfing, ist nicht ganz geklärt, laut Community Chest liegt der Ursprung im Dunkel der Geschichte. Die gängige Erzählung: Jardines soll seine Chefs mit Salutschüssen begrüßt haben, was der Royal Navy missfiel. Zur Strafe musste die Firma fortan täglich um zwölf einen Schuss als Zeitsignal abgeben. Strafarbeit mit Knalleffekt. Unterbrochen wurde das nur während der japanischen Besatzung im Zweiten Weltkrieg.\n\nWer selbst feuern will, spendet mindestens 48.000 Hongkong-Dollar an die Community Chest (Stand 2026).\n\nVor Ort: Die Kanone steht in Causeway Bay direkt am Taifun-Schutzhafen. Zuschauen kostet nichts, man sollte nur kurz vor zwölf da sein und sich auf einen ordentlichen Knall gefasst machen.",
   "sources": [
    {
     "title": "Noonday Gun for the Chest",
@@ -485,6 +502,7 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -492,9 +510,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Taifunsignal 1, 3, 8 – wo sind 2, 4, 5, 6, 7?",
-  "teaser": "Hong Kongs Taifunwarnstufen springen von 3 auf 8, weil die Signale 5 bis 8 früher nur Windrichtungen bezeichneten und 1973 alle zur 8 zusammengefasst wurden.",
-  "detail": "In Hong Kong kennt jedes Kind „T8“: Bei Taifunsignal 8 schließen Büros und Schulen. Aber warum 8, wenn die Stufen davor 1 und 3 heißen? Die Antwort steht in einer Fachpublikation des Hong Kong Observatory von 2018.\n\nAb 1931 gab es zehn Signale. Die Nummern 5, 6, 7 und 8 bedeuteten alle Sturm, unterschieden sich aber nur in der Windrichtung. Damit ein Wechsel von 5 auf 8 nicht den Eindruck erweckt, der Wind werde stärker, wurde das System überarbeitet. Seit dem 1. Januar 1973 heißen die vier Signale 8NW, 8SW, 8NE und 8SE. Die Nummern 2 bis 4 wurden in Hong Kong schon ab 1935 nicht genutzt, die 3 kam später zurück.\n\nSo blieb die Reihe 1, 3, 8, 9, 10 übrig. Die Bedeutungen gelten im Kern seit 1973.\n\nNoch früher warnte man ganz anders: Ab 1884 warnte eine Taifun-Kanone, ab 1907 lautere Sprengladungen. Die letzte explodierte im September 1937.\n\nVor Ort: Das Observatorium in Tsim Sha Tsui zeigt alte Signalzeichen als historische Exponate.",
+  "headline": "Taifunsignal 1, 3, 8: Wo sind die anderen Zahlen?",
+  "teaser": "Hong Kongs Taifunwarnstufen springen von 3 auf 8. Früher standen 5 bis 8 nur für verschiedene Windrichtungen, 1973 wurden alle zur 8 zusammengefasst.",
+  "detail": "In Hong Kong kennt jedes Kind „T8“: Bei Taifunsignal 8 schließen Büros und Schulen. Aber warum 8, wenn davor 1 und 3 kommen? Die Antwort steht in einer Fachpublikation des Hong Kong Observatory von 2018.\n\nAb 1931 gab es zehn Signale. 5, 6, 7 und 8 bedeuteten alle Sturm, nur aus unterschiedlichen Windrichtungen. Damit ein Wechsel von 5 auf 8 nicht nach stärkerem Wind klingt, wurde umgebaut: Seit dem 1. Januar 1973 heißen die vier 8NW, 8SW, 8NE und 8SE. Die 2 bis 4 nutzte Hong Kong schon ab 1935 nicht, die 3 kam später zurück.\n\nÜbrig blieb die Reihe 1, 3, 8, 9, 10. Zählen auf Hongkongisch.\n\nNoch früher warnte man ganz anders: ab 1884 mit einer Taifun-Kanone, ab 1907 mit lauteren Sprengladungen. Die letzte explodierte im September 1937.\n\nVor Ort: Das Observatorium in Tsim Sha Tsui zeigt alte Signalzeichen als historische Exponate.",
   "sources": [
    {
     "title": "Technical Note No. 109: Evolution of the Tropical Cyclone Warning Systems in Hong Kong since 1884",
@@ -515,6 +533,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -523,8 +542,8 @@
   "place": "hongkong",
   "lang": "de",
   "headline": "Hong Kongs Geldscheine kommen von drei Geschäftsbanken",
-  "teaser": "Die meisten Banknoten in Hong Kong gibt nicht der Staat heraus, sondern drei Geschäftsbanken – nur den 10-Dollar-Schein gibt die Regierung selbst aus.",
-  "detail": "Wer in Hong Kong mit Bargeld zahlt, hat oft drei verschiedene Versionen desselben Scheins im Portemonnaie. Die Banknoten zu 20, 50, 100, 500 und 1.000 Hongkong-Dollar geben drei Geschäftsbanken heraus: HSBC, die Bank of China (Hong Kong) und Standard Chartered. Jede hat ihr eigenes Design.\n\nDie Banken dürfen aber nicht einfach beliebig viele Scheine ausgeben. Gedruckt werden sie übrigens alle von einer regierungseigenen Druckerei in Hong Kong. Laut Währungsbehörde HKMA müssen sie für jeden ausgegebenen Schein US-Dollar beim staatlichen Exchange Fund hinterlegen, zum festen Kurs von 7,80 Hongkong-Dollar pro US-Dollar.\n\nDie Regierung selbst gibt seit 2002 nur den 10-Dollar-Schein heraus, dazu alle Münzen. Ältere 10-Dollar-Scheine der Banken aus den 1990ern sind übrigens weiterhin gültig.\n\nVor Ort: Einfach beim Geldwechsel einen 100er von jeder Bank verlangen und die Motive vergleichen. Ein günstiges Souvenir, das man notfalls noch ausgeben kann.",
+  "teaser": "Die meisten Banknoten in Hong Kong gibt nicht der Staat heraus, sondern drei Geschäftsbanken. Nur den 10er bringt die Regierung selbst in Umlauf.",
+  "detail": "Wer in Hong Kong bar zahlt, hat oft drei Versionen desselben Scheins im Portemonnaie. Die Noten zu 20, 50, 100, 500 und 1.000 Hongkong-Dollar geben drei Geschäftsbanken heraus: HSBC, die Bank of China (Hong Kong) und Standard Chartered. Jede mit eigenem Design.\n\nEinfach drauflos ausgeben dürfen sie aber nicht. Gedruckt werden ohnehin alle von einer regierungseigenen Druckerei in Hong Kong. Laut Währungsbehörde HKMA müssen die Banken für jeden ausgegebenen Schein US-Dollar beim staatlichen Exchange Fund hinterlegen, zum festen Kurs von 7,80 Hongkong-Dollar pro US-Dollar.\n\nDie Regierung selbst gibt seit 2002 nur den 10-Dollar-Schein heraus, dazu alle Münzen. Ältere 10er der Banken aus den 1990ern gelten weiterhin.\n\nVor Ort: Beim Geldwechsel einfach einen 100er von jeder Bank verlangen und die Motive vergleichen. Ein günstiges Souvenir, das man notfalls noch ausgeben kann.",
   "sources": [
    {
     "title": "Hong Kong Currency – Notes",
@@ -544,6 +563,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -551,9 +571,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Ein Feuerdrache aus Räucherstäbchen gegen die Pest",
-  "teaser": "Seit einer Seuche 1880 tragen die Bewohner von Tai Hang zum Mondfest einen mit brennenden Räucherstäbchen gespickten Drachen durch die Straßen.",
-  "detail": "Mitten in der Großstadt, wenige Gehminuten von Causeway Bay, windet sich zum Mittherbstfest ein glühender Drache durch die Gassen. Sein Körper ist rundum mit brennenden Räucherstäbchen gespickt.\n\nLaut dem Hongkonger Büro für immaterielles Kulturerbe brach 1880 im damaligen Dorf Tai Hang eine Seuche aus. Um das Unglück zu vertreiben, bauten die Dorfbewohner einen Drachen, steckten überall Räucherstäbchen hinein und tanzten mit ihm am 14., 15. und 16. Abend des achten Mondmonats. Die Seuche soll danach geendet haben, und seitdem wird der Tanz jedes Jahr wiederholt.\n\n2011 kam der Feuerdrachentanz von Tai Hang auf die dritte nationale Liste des immateriellen Kulturerbes Chinas.\n\nVor Ort: Drei Abende rund um das Mittherbstfest, meist im September oder Oktober, in den Straßen von Tai Hang zwischen Causeway Bay und Victoria Park. Früh kommen, es wird voll und ziemlich rauchig.",
+  "headline": "Ein Drache aus Räucherstäbchen gegen die Seuche",
+  "teaser": "Seit einer Seuche 1880 tragen die Bewohner von Tai Hang zum Mondfest einen Drachen durch die Straßen, rundum gespickt mit brennenden Räucherstäbchen.",
+  "detail": "Mitten in der Großstadt, wenige Gehminuten von Causeway Bay, windet sich zum Mittherbstfest ein glühender Drache durch die Gassen. Sein Körper ist rundum mit brennenden Räucherstäbchen gespickt. Ein Drache, der qualmt, ganz wörtlich.\n\nLaut dem Hongkonger Büro für immaterielles Kulturerbe brach 1880 im damaligen Dorf Tai Hang eine Seuche aus. Um das Unglück zu vertreiben, bauten die Dorfbewohner einen Drachen, steckten überall Räucherstäbchen hinein und tanzten mit ihm am 14., 15. und 16. Abend des achten Mondmonats. Die Seuche soll danach geendet haben. Seitdem wird jedes Jahr wieder getanzt.\n\n2011 kam der Feuerdrachentanz von Tai Hang auf Chinas dritte nationale Liste des immateriellen Kulturerbes.\n\nVor Ort: Drei Abende rund um das Mittherbstfest, meist im September oder Oktober, in den Straßen von Tai Hang zwischen Causeway Bay und Victoria Park. Früh kommen, es wird voll und ziemlich rauchig.",
   "sources": [
    {
     "title": "Mid-Autumn Festival – The Tai Hang Fire Dragon Dance",
@@ -569,6 +589,7 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -576,9 +597,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "In Tai O fahren Götterstatuen Boot",
-  "teaser": "Beim Drachenbootfest in Tai O ziehen Drachenboote kleine Sampans mit Götterstatuen durch die Kanäle des Fischerdorfs – ein nationales Kulturerbe seit 2011.",
-  "detail": "Im Fischerdorf Tai O auf Lantau wird das Drachenbootfest anders gefeiert als im Rest der Stadt. Statt nur um die Wette zu paddeln, veranstalten drei traditionelle Fischervereinigungen eine religiöse Wasserprozession.\n\nAm Morgen vor dem Fest holen ihre Mitglieder Statuen der Gottheiten Yeung Hou, Tin Hau, Kwan Tai und Hung Shing aus vier Tempeln des Ortes ab. Am Festtag werden die Figuren auf heilige Sampans gesetzt, kleine Boote, die von den Drachenbooten durch die Gewässer von Tai O gezogen werden. Die Götter fahren also gewissermaßen Taxi auf dem Wasser.\n\n2011 wurde die Drachenboot-Wasserparade auf die dritte nationale Liste des immateriellen Kulturerbes Chinas gesetzt.\n\nTai O ist auch sonst ein Ausflug wert: Das Dorf ist für seine Pfahlbauten über dem Wasser bekannt.\n\nVor Ort: Das Drachenbootfest fällt auf den fünften Tag des fünften Mondmonats, meist im Juni. Tai O erreicht man mit dem Bus ab Tung Chung oder Mui Wo.",
+  "headline": "In Tai O fahren Götter Boot",
+  "teaser": "Beim Drachenbootfest in Tai O ziehen Drachenboote kleine Sampans mit Götterstatuen durch die Kanäle des Fischerdorfs. Nationales Kulturerbe seit 2011.",
+  "detail": "Im Fischerdorf Tai O auf Lantau feiert man das Drachenbootfest anders als im Rest der Stadt. Statt nur um die Wette zu paddeln, veranstalten drei traditionelle Fischervereinigungen eine religiöse Wasserprozession.\n\nAm Morgen vor dem Fest holen ihre Mitglieder Statuen der Gottheiten Yeung Hou, Tin Hau, Kwan Tai und Hung Shing aus vier Tempeln des Ortes ab. Am Festtag sitzen die Figuren auf heiligen Sampans, kleinen Booten, die von den Drachenbooten durch die Gewässer von Tai O gezogen werden. Die Götter lassen sich also chauffieren: Wassertaxi mit Paddelantrieb.\n\n2011 kam die Drachenboot-Wasserparade auf Chinas dritte nationale Liste des immateriellen Kulturerbes. Tai O selbst ist außerdem für seine Pfahlbauten über dem Wasser bekannt.\n\nVor Ort: Das Drachenbootfest fällt auf den fünften Tag des fünften Mondmonats, meist im Juni. Tai O erreicht man mit dem Bus ab Tung Chung oder Mui Wo.",
   "sources": [
    {
     "title": "Tai O Dragon Boat Water Parade",
@@ -594,6 +615,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -602,8 +624,8 @@
   "place": "hongkong",
   "lang": "de",
   "headline": "Der Kräuterteeladen war früher das Unterhaltungszentrum",
-  "teaser": "Hongkonger Kräutertee steht seit 2006 auf Chinas nationaler Kulturerbeliste – und die Teeläden waren früher Treffpunkt und Unterhaltungszentrum der Nachbarschaft.",
-  "detail": "Bitter und dunkel, gedacht gegen „Hitze“ und Feuchtigkeit im Körper: In Hong Kong trinkt man „Leung Cha“, Kräutertee. Das Büro für immaterielles Kulturerbe beschreibt ihn als Sud aus chinesischen Heilkräutern, zubereitet nach den Regeln der traditionellen chinesischen Medizin. In Hong Kong hat er eine über hundertjährige Geschichte.\n\nDas Überraschende ist die soziale Rolle der Läden. Vor einigen Jahrzehnten waren Kräuterteeläden auch Unterhaltungszentren der Nachbarschaft. Man kam nicht nur wegen des Tees, sondern blieb, um sich zu treffen und zu unterhalten.\n\n2006 wurde Kräutertee auf die erste nationale Liste des immateriellen Kulturerbes Chinas gesetzt. Später kam er auch auf Hong Kongs eigene Repräsentative Liste.\n\nVor Ort: Kräuterteeläden findet man vor allem in älteren Vierteln. Wer mutig ist, bestellt die bitterste Sorte und versucht, dabei nicht das Gesicht zu verziehen.",
+  "teaser": "Hongkonger Kräutertee steht seit 2006 auf Chinas nationaler Kulturerbeliste. Und die Teeläden waren früher Treffpunkt und Unterhaltungszentrum der Nachbarschaft.",
+  "detail": "Bitter, dunkel und gedacht gegen „Hitze“ und Feuchtigkeit im Körper: In Hong Kong trinkt man „Leung Cha“, Kräutertee. Das Büro für immaterielles Kulturerbe beschreibt ihn als Sud aus chinesischen Heilkräutern, zubereitet nach den Regeln der traditionellen chinesischen Medizin. In Hong Kong hat er über hundert Jahre Geschichte.\n\nÜberraschend ist die soziale Rolle der Läden. Vor einigen Jahrzehnten waren Kräuterteeläden auch Unterhaltungszentren der Nachbarschaft. Man kam wegen des Tees und blieb, um sich zu treffen und zu unterhalten. Der bittere Becher war sozusagen die Eintrittskarte.\n\n2006 kam Kräutertee auf Chinas erste nationale Liste des immateriellen Kulturerbes, später auch auf Hong Kongs eigene Repräsentative Liste.\n\nVor Ort: Kräuterteeläden findet man vor allem in älteren Vierteln. Wer mutig ist, bestellt die bitterste Sorte und versucht, dabei keine Miene zu verziehen.",
   "sources": [
    {
     "title": "Herbal Tea – Representative List of the Intangible Cultural Heritage of Hong Kong",
@@ -618,6 +640,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -625,9 +648,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Ein Uhrturm ohne Bahnhof",
-  "teaser": "Der 44 Meter hohe Uhrturm in Tsim Sha Tsui gehörte zum alten Bahnhof der Kowloon-Canton Railway – der Bahnhof wurde 1978 abgerissen, der Turm blieb stehen.",
-  "detail": "Direkt neben dem Star-Ferry-Pier in Tsim Sha Tsui steht ein roter Backsteinturm, der irgendwie fehl am Platz wirkt. Das hat einen Grund: Ihm fehlt der Bahnhof.\n\nDer Uhrturm wurde 1915 als Teil des Endbahnhofs der Kowloon-Canton Railway errichtet, der Bahnlinie Richtung Guangzhou. Laut dem Amt für Antiquitäten und Denkmäler ist er 44 Meter hoch, dazu kommt ein sieben Meter hoher Blitzableiter. Die Star Ferry legt bis heute gleich nebenan an.\n\n1978 wurde das alte Bahnhofsgebäude in Tsim Sha Tsui abgerissen, die Züge enden längst woanders. Der Turm blieb als Erinnerung stehen und wurde 1990 zum Denkmal erklärt.\n\nHeute steht er zwischen moderner Architektur an der Uferpromenade, ein einsamer Rest einer ganzen Epoche des Bahnreisens.\n\nVor Ort: An der Uferpromenade von Tsim Sha Tsui, wenige Schritte vom Star-Ferry-Pier. Ein beliebter Treffpunkt und Fotomotiv mit Blick auf Hong Kong Island.",
+  "headline": "Ein Uhrturm, dem der Bahnhof abhandenkam",
+  "teaser": "Der 44 Meter hohe Uhrturm in Tsim Sha Tsui gehörte zum alten Bahnhof der Kowloon-Canton Railway. Der Bahnhof wurde 1978 abgerissen, der Turm blieb einfach stehen.",
+  "detail": "Direkt neben dem Star-Ferry-Pier in Tsim Sha Tsui steht ein roter Backsteinturm, der irgendwie fehl am Platz wirkt. Kein Wunder: Ihm fehlt der Bahnhof.\n\nDer Uhrturm entstand 1915 als Teil des Endbahnhofs der Kowloon-Canton Railway, der Bahnlinie Richtung Guangzhou. Laut Amt für Antiquitäten und Denkmäler ist er 44 Meter hoch, dazu kommt ein sieben Meter hoher Blitzableiter. Die Star Ferry legt bis heute gleich nebenan an.\n\n1978 wurde das alte Bahnhofsgebäude abgerissen, die Züge enden längst woanders. Der Turm durfte bleiben und wurde 1990 zum Denkmal erklärt. Seitdem wartet er auf Züge, die nicht mehr kommen.\n\nVor Ort: An der Uferpromenade von Tsim Sha Tsui, wenige Schritte vom Star-Ferry-Pier. Ein beliebter Treffpunkt und Fotomotiv mit Blick auf Hong Kong Island.",
   "sources": [
    {
     "title": "Former Kowloon-Canton Railway Clock Tower",
@@ -643,6 +666,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -650,9 +674,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Der Flughafen mitten in der Stadt",
-  "teaser": "Bis 1998 landeten Jets in Hong Kong auf dem Flughafen Kai Tak mitten in Kowloon – selbst mit Leitsystem kam die Piste für Piloten erst über der dicht bebauten Halbinsel in Sicht.",
-  "detail": "Heute landet man in Hong Kong auf einer aufgeschütteten Insel weit draußen bei Lantau. Bis 1998 war das ganz anders. Der Flughafen Kai Tak lag mitten in der Stadt, direkt an der Kowloon Bay.\n\nLaut der Zivilluftfahrtbehörde fand der erste Flug dort 1925 statt, am chinesischen Neujahrstag. 1958 baute man eine neue Piste auf einer Landzunge in die Bucht, später wurde sie auf 3.390 Meter verlängert. Die Anflüge waren berüchtigt: Lange flogen Piloten auf Sicht, ab 1974 half ein Instrument Guidance System. Die Piste wurde für die Crew aber oft erst sichtbar, wenn das Flugzeug schon über der Kowloon-Halbinsel war, also über Wohnhäusern.\n\nBis zum Schluss blieb Kai Tak ein Flughafen mitten im Häusermeer, mit einer einzigen Piste, die ins Wasser ragte.\n\nVor Ort: Das Gelände des alten Flughafens in Kowloon wird heute neu bebaut. Die frühere Piste ragt noch immer als lange Landzunge in die Kowloon Bay.",
+  "headline": "Landeanflug über die Wohnhäuser: der Flughafen Kai Tak",
+  "teaser": "Bis 1998 landeten Jets in Hong Kong auf dem Flughafen Kai Tak mitten in Kowloon. Die Piste kam für Piloten oft erst über der dicht bebauten Halbinsel in Sicht.",
+  "detail": "Heute landet man in Hong Kong auf einer aufgeschütteten Insel weit draußen bei Lantau. Bis 1998 war das ganz anders: Der Flughafen Kai Tak lag mitten in der Stadt, direkt an der Kowloon Bay.\n\nLaut Zivilluftfahrtbehörde fand der erste Flug dort 1925 statt, am chinesischen Neujahrstag. 1958 baute man eine neue Piste auf einer Landzunge in die Bucht, später auf 3.390 Meter verlängert. Die Anflüge waren berüchtigt: Lange flogen Piloten auf Sicht, ab 1974 half ein Instrument Guidance System. Trotzdem sah die Crew die Piste oft erst, wenn das Flugzeug schon über der Kowloon-Halbinsel war. Also über Wohnhäusern.\n\nBis zum Schluss blieb Kai Tak ein Flughafen mitten im Häusermeer, mit einer einzigen Piste, die ins Wasser ragte.\n\nVor Ort: Das Gelände des alten Flughafens wird heute neu bebaut. Die frühere Piste ragt noch immer als lange Landzunge in die Kowloon Bay.",
   "sources": [
    {
     "title": "Kai Tak Airport 1925–1998",
@@ -668,6 +692,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -675,9 +700,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Dim Sum mit Michelin-Stern zum Imbisspreis",
-  "teaser": "Das Hongkonger Dim-Sum-Lokal Tim Ho Wan galt lange als billigstes Michelin-Sterne-Restaurant der Welt – gegründet von einem früheren Dim-Sum-Meister eines Luxushotels.",
-  "detail": "Ein Michelin-Stern bedeutet normalerweise weiße Tischdecken und Rechnungen im dreistelligen Bereich. Nicht bei Tim Ho Wan. Das kleine Dim-Sum-Lokal wurde bekannt als das „billigste Sternerestaurant der Welt“, wie das Magazin Vice 2014 berichtete. Gegründet hat es ein früherer Dim-Sum-Meister des Hongkonger Four Seasons Hotels.\n\nDas Konzept: klassische kantonesische Teigtaschen, Brötchen und Röllchen in Spitzenqualität, aber in einfacher Umgebung und zu Arbeiterpreisen. Laut Vice gehörten damals drei der fünf Hongkonger Filialen zu den günstigsten Restaurants mit Michelin-Stern überhaupt. Die Warteschlangen waren entsprechend lang.\n\nInzwischen ist Tim Ho Wan eine internationale Kette. Ob eine Filiale aktuell einen Stern hat, ändert sich mit jeder neuen Ausgabe des Guide Michelin.\n\nVor Ort: Wer Dim Sum probieren will, findet in Hong Kong vom Luxushotel bis zur Garküche alles. Zu Dim Sum gehört Tee, deshalb heißt das Ritual auf Kantonesisch „Yum Cha“, Tee trinken.",
+  "headline": "Michelin-Stern zum Imbisspreis: Tim Ho Wan",
+  "teaser": "Das Hongkonger Dim-Sum-Lokal Tim Ho Wan galt lange als billigstes Michelin-Sterne-Restaurant der Welt. Gegründet hat es ein früherer Dim-Sum-Meister eines Luxushotels.",
+  "detail": "Ein Michelin-Stern heißt normalerweise weiße Tischdecken und Rechnungen im dreistelligen Bereich. Nicht bei Tim Ho Wan. Das kleine Dim-Sum-Lokal wurde bekannt als „billigstes Sternerestaurant der Welt“, wie das Magazin Vice 2014 berichtete. Gegründet hat es ein früherer Dim-Sum-Meister des Hongkonger Four Seasons Hotels. Vom Luxushotel zum Imbiss, den Stern im Gepäck.\n\nDas Konzept: klassische kantonesische Teigtaschen, Brötchen und Röllchen in Spitzenqualität, aber in einfacher Umgebung und zu Arbeiterpreisen. Laut Vice gehörten damals drei der fünf Hongkonger Filialen zu den günstigsten Restaurants mit Michelin-Stern überhaupt. Die Warteschlangen waren entsprechend lang.\n\nInzwischen ist Tim Ho Wan eine internationale Kette. Ob eine Filiale gerade einen Stern hat, ändert sich mit jeder neuen Ausgabe des Guide Michelin.\n\nVor Ort: Zu Dim Sum gehört Tee, deshalb heißt das Ritual auf Kantonesisch „Yum Cha“, Tee trinken.",
   "sources": [
    {
     "title": "A Visit to the Cheapest Michelin-Starred Restaurant in the World",
@@ -693,6 +718,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -700,9 +726,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Ein Pferderennclub zahlt Milliarden an Steuern",
-  "teaser": "Der Hong Kong Jockey Club gab im Geschäftsjahr 2025/26 rund 39 Milliarden Hongkong-Dollar an die Gesellschaft zurück – davon 29,3 Milliarden als Steuern.",
-  "detail": "Wer in Hong Kong auf Pferde oder Fußball wettet oder Mark Six spielt, die bekannte Lotterie, landet beim Hong Kong Jockey Club. Gegründet wurde er 1884 als Mitgliederclub zur Förderung des Pferderennsports.\n\nDie Summen sind gewaltig. Laut eigenen Angaben gab der Club im Geschäftsjahr 2025/26 insgesamt 39,3 Milliarden Hongkong-Dollar an die Gemeinschaft zurück. Davon flossen 29,3 Milliarden als Steuern an die Regierung und 8,6 Milliarden als bewilligte Spenden an gemeinnützige Projekte, etwa für Krankenhäuser, Schulen und Sport.\n\nDas Modell ist ungewöhnlich: Der Club verbindet Rennbetrieb, Wetten und Wohltätigkeit unter einem Dach. Viele öffentliche Einrichtungen in Hong Kong tragen deshalb den Namen des Jockey Clubs.\n\nVor Ort: Mittwochabends finden auf der Rennbahn Happy Valley mitten zwischen Hochhäusern oft Nachtrennen statt. Der Eintritt für Besucher ist günstig, und die Atmosphäre unter Flutlicht ist einzigartig.",
+  "headline": "Ein Pferderennclub zahlt 29,3 Milliarden an Steuern",
+  "teaser": "Der Hong Kong Jockey Club gab im Geschäftsjahr 2025/26 rund 39 Milliarden Hongkong-Dollar an die Gesellschaft zurück, davon 29,3 Milliarden als Steuern.",
+  "detail": "Wer in Hong Kong auf Pferde oder Fußball wettet oder Mark Six spielt, die bekannte Lotterie, landet beim Hong Kong Jockey Club. Gegründet wurde er 1884 als Mitgliederclub zur Förderung des Pferderennsports. Klingt nach Hobbyverein. Ist es nicht ganz.\n\nDie Summen sind gewaltig. Laut eigenen Angaben gab der Club im Geschäftsjahr 2025/26 insgesamt 39,3 Milliarden Hongkong-Dollar an die Gemeinschaft zurück. Davon flossen 29,3 Milliarden als Steuern an die Regierung und 8,6 Milliarden als bewilligte Spenden an gemeinnützige Projekte, etwa für Krankenhäuser, Schulen und Sport.\n\nRennbetrieb, Wetten und Wohltätigkeit unter einem Dach: Deshalb tragen viele öffentliche Einrichtungen in Hong Kong den Namen des Jockey Clubs.\n\nVor Ort: Mittwochabends gibt es auf der Rennbahn Happy Valley mitten zwischen Hochhäusern oft Nachtrennen. Der Eintritt ist günstig, die Atmosphäre unter Flutlicht einzigartig.",
   "sources": [
    {
     "title": "Who We Are",
@@ -722,6 +748,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -729,9 +756,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Rund 2.000 Affen leben am Stadtrand von Kowloon",
-  "teaser": "In Hong Kongs Country Parks leben etwa 2.000 bis 2.100 wilde Affen in rund 30 Gruppen – vor allem Rhesusaffen am sogenannten Monkey Hill.",
-  "detail": "Nur wenige Kilometer von den Einkaufsstraßen in Mong Kok entfernt sitzen Affen am Straßenrand. Laut Naturschutzbehörde AFCD leben in Hong Kong etwa 2.000 bis 2.100 Affen, verteilt auf rund 30 Gruppen. Die häufigste Art ist der Rhesusaffe. Es gibt auch einige Mischlinge mit Javaneraffen.\n\nDie meisten Tiere leben in den Country Parks Kam Shan, Lion Rock und Shing Mun im Hügelland nördlich von Kowloon. Sie fressen vor allem Blätter, Früchte, Blüten, Triebe und Rinde.\n\nDas Problem sind Menschen mit Futter. Gefütterte Affen werden frech, schnappen nach Tüten und verlieren ihre natürliche Scheu. Deshalb gilt in ganz Hong Kong seit Ende 2022 ein Fütterungsverbot für Wildtiere, seit August 2024 mit bis zu 100.000 Hongkong-Dollar Strafe.\n\nVor Ort: Im Kam Shan Country Park, dem „Monkey Hill“, an der Tai Po Road begegnet man den Affen fast garantiert. Taschen geschlossen halten, kein Essen zeigen und Abstand wahren.",
+  "headline": "Rund 2.000 Affen wohnen am Stadtrand von Kowloon",
+  "teaser": "In Hong Kongs Country Parks leben etwa 2.000 bis 2.100 wilde Affen in rund 30 Gruppen, vor allem Rhesusaffen. Treffpunkt: der sogenannte Monkey Hill.",
+  "detail": "Nur wenige Kilometer von den Einkaufsstraßen in Mong Kok entfernt sitzen Affen am Straßenrand. Laut Naturschutzbehörde AFCD leben in Hong Kong etwa 2.000 bis 2.100 Affen in rund 30 Gruppen. Die häufigste Art ist der Rhesusaffe, dazu kommen einige Mischlinge mit Javaneraffen.\n\nDie meisten wohnen in den Country Parks Kam Shan, Lion Rock und Shing Mun im Hügelland nördlich von Kowloon. Auf dem Speiseplan: Blätter, Früchte, Blüten, Triebe und Rinde.\n\nDas Problem sind Menschen mit Futter. Gefütterte Affen werden frech, schnappen nach Tüten und verlieren ihre Scheu. Deshalb gilt in ganz Hong Kong seit Ende 2022 ein Fütterungsverbot für Wildtiere, seit August 2024 mit bis zu 100.000 Hongkong-Dollar Strafe. Eine Banane kann also richtig teuer werden.\n\nVor Ort: Im Kam Shan Country Park, dem „Monkey Hill“, an der Tai Po Road begegnet man den Affen fast garantiert. Taschen zu, kein Essen zeigen, Abstand halten.",
   "sources": [
    {
     "title": "Monkeys of Hong Kong",
@@ -758,6 +785,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -766,8 +794,8 @@
   "place": "hongkong",
   "lang": "de",
   "headline": "Hong Kong Island ist nur halb so groß wie Lantau",
-  "teaser": "Die namensgebende Hong Kong Island misst nur 78,64 Quadratkilometer – die Insel Lantau mit Flughafen und Big Buddha ist mit 148,40 fast doppelt so groß.",
-  "detail": "Wenn man „Hong Kong“ hört, denkt man an die Skyline von Hong Kong Island. Dabei ist diese Insel gar nicht die größte des Gebiets. Laut Vermessungsamt Lands Department misst Hong Kong Island 78,64 Quadratkilometer. Lantau dagegen kommt auf 148,40 Quadratkilometer, ist also fast doppelt so groß.\n\nTrotzdem ist Lantau viel ruhiger. Große Teile der Insel sind Berge und Country Parks, es gibt Fischerdörfer, Strände und Wanderwege. Hong Kong Island dagegen beherbergt das Finanzzentrum, den Regierungssitz und die bekanntesten Wolkenkratzer.\n\nZum Vergleich: Kowloon, also die Halbinsel gegenüber, umfasst nur 46,93 Quadratkilometer. Die gesamte Landfläche Hong Kongs beträgt laut aktueller Erhebung 1.114,57 Quadratkilometer.\n\nVor Ort: Auf Lantau liegen der Flughafen, das Disneyland, der Big Buddha in Ngong Ping und das Pfahlbautendorf Tai O. Von Tung Chung fährt eine Seilbahn hinauf nach Ngong Ping.",
+  "teaser": "Die namensgebende Hong Kong Island misst nur 78,64 Quadratkilometer. Lantau mit Flughafen und Big Buddha ist mit 148,40 fast doppelt so groß.",
+  "detail": "Bei „Hong Kong“ denkt man an die Skyline von Hong Kong Island. Dabei ist diese Insel nicht mal die größte des Gebiets. Laut Vermessungsamt Lands Department misst Hong Kong Island 78,64 Quadratkilometer, Lantau dagegen 148,40, also fast das Doppelte. Die Namensgeberin ist die kleine Schwester.\n\nTrotzdem ist Lantau viel ruhiger: Große Teile sind Berge und Country Parks, dazu kommen Fischerdörfer, Strände und Wanderwege. Hong Kong Island beherbergt dagegen das Finanzzentrum, den Regierungssitz und die bekanntesten Wolkenkratzer.\n\nZum Vergleich: Kowloon, die Halbinsel gegenüber, umfasst nur 46,93 Quadratkilometer. Die gesamte Landfläche Hong Kongs beträgt laut aktueller Erhebung 1.114,57 Quadratkilometer.\n\nVor Ort: Auf Lantau liegen der Flughafen, das Disneyland, der Big Buddha in Ngong Ping und das Pfahlbautendorf Tai O. Von Tung Chung fährt eine Seilbahn hinauf nach Ngong Ping.",
   "sources": [
    {
     "title": "Hong Kong Geographic Data",
@@ -783,6 +811,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -790,9 +819,9 @@
   "category": "ort",
   "place": "hongkong",
   "lang": "de",
-  "headline": "Die Brücke, die auf künstlichen Inseln ins Meer abtaucht",
+  "headline": "Die Brücke, die mitten im Meer abtaucht",
   "teaser": "Die 55 Kilometer lange Verbindung von Hong Kong nach Zhuhai und Macao taucht über zwei künstliche Inseln in einen 6,7 Kilometer langen Unterwassertunnel ab.",
-  "detail": "Die Hong Kong–Zhuhai–Macao Bridge ist eigentlich gar nicht nur eine Brücke. Laut einem Fachartikel der Projektingenieure in der Zeitschrift Engineering misst die gesamte Verbindung über das Perlflussdelta 55 Kilometer. Ein Teil davon verläuft aber unter Wasser.\n\nDer Grund ist die Schifffahrt: Durch das Delta fahren riesige Frachter. Eine durchgehende Brücke hätte die Hauptfahrrinne versperrt. Also bauten die Ingenieure zwei künstliche Inseln mit je 100.000 Quadratmetern Fläche. Dort taucht die Straße ab und läuft durch einen 6,7 Kilometer langen Unterwassertunnel, bevor sie auf der anderen Insel wieder als Brücke weitergeht. Die Autoren nennen Inseln und Tunnel die kritischsten Teile des ganzen Projekts.\n\nVon oben sieht das aus, als würde die Brücke einfach im Meer verschwinden.\n\nVor Ort: Vom Flughafengebiet auf Lantau fahren Shuttlebusse über die Brücke nach Macao oder Zhuhai. Aus dem Flugzeug sieht man die Konstruktion bei klarem Wetter besonders gut.",
+  "detail": "Die Hong Kong–Zhuhai–Macao Bridge ist gar nicht nur eine Brücke. Laut einem Fachartikel der Projektingenieure in der Zeitschrift Engineering misst die gesamte Verbindung über das Perlflussdelta 55 Kilometer. Ein Teil davon verläuft aber unter Wasser.\n\nDer Grund ist die Schifffahrt: Durch das Delta fahren riesige Frachter, eine durchgehende Brücke hätte die Hauptfahrrinne versperrt. Also bauten die Ingenieure zwei künstliche Inseln mit je 100.000 Quadratmetern. Dort taucht die Straße ab, läuft durch einen 6,7 Kilometer langen Unterwassertunnel und kommt auf der anderen Insel wieder als Brücke heraus. Die Autoren nennen Inseln und Tunnel die kritischsten Teile des ganzen Projekts.\n\nVon oben sieht es aus, als würde die Brücke einfach im Meer verschwinden. Tut sie nicht, sie taucht nur kurz unter den Schiffen durch.\n\nVor Ort: Vom Flughafengebiet auf Lantau fahren Shuttlebusse über die Brücke nach Macao oder Zhuhai. Aus dem Flugzeug sieht man die Konstruktion bei klarem Wetter besonders gut.",
   "sources": [
    {
     "title": "The Hong Kong–Zhuhai–Macao Island and Tunnel Project",
@@ -809,6 +838,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  }
 ]
