@@ -1,5 +1,689 @@
 [
  {
+  "id": "ort-d36ded",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Bewaffneter Raubüberfall – die Beute: Klopapier",
+  "teaser": "Im Februar 2020 bedrohten drei Männer in Mong Kok einen Lieferfahrer mit einem Messer – und erbeuteten rund 600 Rollen Toilettenpapier.",
+  "detail": "Anfang 2020, als das Coronavirus Hong Kong erreichte, wurde Klopapier zur heißesten Ware der Stadt. Regale leer, Schlangen vor den Supermärkten, Wohnungen voller Hamsterkäufe.\n\nAm 17. Februar 2020 schlugen drei Männer vor einem Supermarkt in Mong Kok zu: Mit einem Messer bedrohten sie einen Lieferfahrer und nahmen 50 Pakete Toilettenpapier mit – rund 600 Rollen im Wert von etwa 1.700 HK-Dollar, also gut 200 Euro.\n\nDie Polizei spürte das Trio schnell auf. Laut der Zeitung Ming Pao gaben die Männer den Raub zu, entschuldigten sich beim Fahrer und bezahlten das Klopapier sogar nachträglich. Geholfen hat es wenig: Im März 2021 wurden alle drei zu je 40 Monaten Haft verurteilt. Der Richter nannte die Tat geplant.\n\nMacht pro gestohlener Rolle gut zwei Tage hinter Gittern – die teuerste Klopapier-Rechnung der Stadt.",
+  "sources": [
+   {
+    "title": "In the can: armed Hong Kong toilet roll heist gang jailed for over 3 years",
+    "publisher": "Hong Kong Free Press",
+    "date": "2021-03-11",
+    "url": "https://hongkongfp.com/2021/03/11/in-the-can-armed-hong-kong-toilet-roll-heist-gang-jailed-for-over-3-years/"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "recht"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-8935ab",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Als es auf der Gloucester Road 500-Dollar-Scheine regnete",
+  "teaser": "An Heiligabend 2014 fielen in Wan Chai drei Geldkisten aus einem Werttransporter – Passanten griffen zu, rund 2 Millionen US-Dollar verschwanden.",
+  "detail": "Mittagszeit an Heiligabend 2014, auf der achtspurigen Gloucester Road in Wan Chai: Aus der Hecktür eines Werttransporters fallen drei Plastikkisten voller neuer 500-HK-Dollar-Scheine. Insgesamt flogen laut NPR rund 4,5 Millionen US-Dollar auf die Straße.\n\nWas dann geschah, hätte kein Drehbuchautor besser schreiben können: Autofahrer ließen ihre Wagen stehen und rafften Scheine zusammen, eine Zeugin sah jemanden mit einem Armvoll noch eingeschweißter Bündel verschwinden. Bis die bewaffnete Polizei die Straße absperrte, fehlten bereits rund 2 Millionen US-Dollar.\n\nDie Polizei stellte klar, dass das kein Weihnachtsgeschenk war: Wer Geld aufgehoben habe, solle es sofort bei einer Wache abgeben – wer es behalte, mache sich womöglich des Diebstahls schuldig. Jeder Schein war rund 65 US-Dollar wert. Bescherung mit Rückgabepflicht, sozusagen.",
+  "sources": [
+   {
+    "title": "A Blizzard Of Cash: Christmas Comes Early To Hong Kong",
+    "publisher": "NPR (via GBH)",
+    "date": "2014-12-24",
+    "url": "https://www.wgbh.org/news/2014-12-24/a-blizzard-of-cash-christmas-comes-early-to-hong-kong"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "geld",
+   "feste",
+   "verkehr"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-d9ddcb",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Videokonferenz mit dem Chef – nur war keiner echt",
+  "teaser": "2024 überwies ein Angestellter in Hong Kong 200 Millionen HK-Dollar an Betrüger – nach einer Videokonferenz, in der laut Polizei alle anderen Teilnehmer Deepfakes waren.",
+  "detail": "Ein Finanzangestellter eines internationalen Konzerns bekam eine Nachricht, angeblich vom Finanzchef aus Großbritannien. Es ging um eine geheime Transaktion, er tippte zunächst auf Phishing. Dann kam die Videokonferenz: Dort sah und hörte er den Finanzchef und mehrere Kollegen, die er kannte. Das Problem: Laut Hong Kongs Polizei war keiner von ihnen echt – alle anderen Teilnehmer waren KI-Fälschungen.\n\nÜberzeugt, mit echten Menschen zu sprechen, überwies der Mann insgesamt 200 Millionen HK-Dollar, damals rund 25,6 Millionen US-Dollar. Aufgeflogen ist der Betrug erst, als er später bei der Firmenzentrale nachfragte.\n\nDie Polizei stellte den Fall Anfang Februar 2024 vor, Firma und Mitarbeiter nannte sie nicht. Laut Polizei hatten Betrüger Deepfakes zudem mindestens 20-mal genutzt, um Gesichtserkennung mit gestohlenen Ausweisen zu überlisten. Merke: Auch der Chef im Videocall kann nur ein sehr gut gemachtes Gerücht sein.",
+  "sources": [
+   {
+    "title": "Finance worker pays out $25 million after video call with deepfake ‘chief financial officer’",
+    "publisher": "CNN",
+    "date": "2024-02-04",
+    "url": "https://edition.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "technik",
+   "internet"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-51ab3b",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Das Arsen-Brot von 1857: Zu viel Gift rettete Leben",
+  "teaser": "Am 15. Januar 1857 aßen Hunderte Bewohner Hong Kongs Brot aus derselben Bäckerei, das stark mit Arsen versetzt war – die hohe Dosis ließ die meisten nur erbrechen.",
+  "detail": "Mitten im Zweiten Opiumkrieg wurde das junge britische Hong Kong von seinem Frühstück vergiftet: Wer am 15. Januar 1857 Brot der Esing-Bäckerei an der Queen’s Road gegessen hatte, bekam Übelkeit, Erbrechen und Magenkrämpfe. Zeugen schätzten 300 bis 500 Betroffene. Chemiker in Hong Kong, London und sogar Justus von Liebig in Deutschland fanden große Mengen weißes Arsen im Brot.\n\nDer makabre Dreh: Die Dosis war so hoch, dass die meisten das Gift sofort wieder erbrachen. Am gefährdetsten waren ausgerechnet jene, die wenig gegessen hatten. Später wurden drei Todesfälle der Vergiftung zugeschrieben, darunter die Frau des Gouverneurs.\n\nDer Bäckereibesitzer war am Morgen mit seiner Familie nach Macau aufgebrochen, wurde zurückgeholt und mit neun anderen angeklagt. Die Jury sprach alle nach 50 Minuten frei – ausgewiesen wurde er trotzdem. Laut den Historikern lebte er danach als angesehener Geschäftsmann in Vietnam und starb erst 1900.",
+  "sources": [
+   {
+    "title": "‘Caution! The Bread is Poisoned’: The Hong Kong Mass Poisoning of January 1857",
+    "publisher": "The Journal of Imperial and Commonwealth History (Lowe & McLaughlin, Repositorium City University London)",
+    "date": "2015",
+    "url": "https://openaccess.city.ac.uk/id/eprint/14522/"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "chemie",
+   "backen"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-4643bd",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Zwei Dosen Babymilch – mehr durfte man nicht mitnehmen",
+  "teaser": "2013 machte Hong Kong die Ausfuhr von Babymilchpulver ohne Lizenz strafbar: Für den Eigenbedarf waren pro Person und Tag nur 1,8 Kilo erlaubt – etwa zwei Dosen.",
+  "detail": "Nach dem Melamin-Skandal von 2008 in Festlandchina trauten viele Eltern dort nur noch Milchpulver von außerhalb. Parallelhändler kauften in Hong Kong in großem Stil ein und brachten die Dosen über die Grenze – und Hong Konger Eltern bangten um ihren Nachschub.\n\nDie Regierung griff 2013 zu einem ungewöhnlichen Mittel: Die Ausfuhr von Milchpulver für Kinder unter 36 Monaten ist seitdem nur mit Lizenz erlaubt. Für den Eigenbedarf darf jede Person ab 16 Jahren beim ersten Grenzübertritt innerhalb von 24 Stunden höchstens 1,8 Kilogramm mitnehmen – ungefähr zwei Dosen.\n\nUnd das ist kein toter Paragraf: Bei einer Überprüfung 2019 zählte die Regierung seit 2016 rund 3.800 Verurteilungen pro Jahr, ohne Rückgang. Also blieb die Regel. Babymilch gehört damit zu den am strengsten kontrollierten Mitbringseln der Welt – strenger als so manche Flasche Schnaps.",
+  "sources": [
+   {
+    "title": "Status quo to be maintained for export control of powdered formulae",
+    "publisher": "Hong Kong Government (info.gov.hk)",
+    "date": "2019-02-25",
+    "url": "https://www.info.gov.hk/gia/general/201902/25/P2019022500472.htm"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "recht",
+   "handel",
+   "kinder"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-bacd6f",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Ein Polizeichef floh – und schuf so die Antikorruptionsbehörde",
+  "teaser": "1973 setzte sich der hohe Polizeioffizier Peter Godber trotz Ermittlungen wegen über 4,3 Millionen HK-Dollar Vermögen ab – seine Flucht führte zur Gründung der ICAC.",
+  "detail": "In den frühen 1970er-Jahren galt Korruption in Hong Kong als massives Problem. Zum Symbol wurde Chief Superintendent Peter Godber: 1973 geriet er ins Visier, weil er über mehr als 4,3 Millionen HK-Dollar verfügte – mutmaßlich aus Bestechung. Der Generalstaatsanwalt gab ihm eine Woche, um die Herkunft zu erklären. Godber nutzte die Woche auf seine Weise: Am 8. Juni 1973 verließ er unbemerkt die Kolonie.\n\nDie Empörung war gewaltig. Studenten demonstrierten im Victoria Park mit Parolen wie „Bekämpft Korruption, verhaftet Godber“. Ein Richter schrieb im Untersuchungsbericht, die Öffentlichkeit werde nie glauben, dass die Regierung es ernst meine, solange die Korruptionsbekämpfung bei der Polizei liege.\n\nIm Februar 1974 wurde deshalb die unabhängige ICAC gegründet. Ihre erste große Aufgabe: ausgerechnet Godber. Anfang 1975 wurde er aus England ausgeliefert, in beiden Anklagepunkten schuldig gesprochen und zu vier Jahren Haft verurteilt. Ein Flüchtiger als Geburtshelfer einer Behörde.",
+  "sources": [
+   {
+    "title": "History",
+    "publisher": "Independent Commission Against Corruption (ICAC)",
+    "url": "https://www.icac.org.hk/en/about/history"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "politik",
+   "recht"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-79bbf1",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Laptop mit Daten von 3,78 Millionen Wählern – einfach weg",
+  "teaser": "Nach der Wahl des Regierungschefs 2017 verschwanden zwei Laptops der Wahlbehörde aus einem Messegebäude – auf einem waren Daten von 3,78 Millionen Wählern.",
+  "detail": "Am 27. März 2017, einen Tag nach der Wahl des Hong Konger Regierungschefs, machte das Wahlamt eine unangenehme Entdeckung: Zwei Notebooks, die in einem Raum der AsiaWorld-Expo gestanden hatten, waren weg. Die Messehalle war bloß als Ausweich-Wahllokal vorgesehen gewesen – gebraucht wurde sie gar nicht.\n\nAuf einem der Geräte lagen laut Regierung Namen, Adressen und Ausweisnummern von 3,78 Millionen Wählern aus der ganzen Stadt. Die Polizei stufte den Fall noch am selben Tag als Diebstahl ein.\n\nFast ein Jahr später musste die Regierung im Parlament einräumen: Die Ermittlungen laufen noch, Festnahmen gab es keine. Eine Taskforce empfahl strengere Regeln, das betroffene Abfragesystem ist in Wahllokalen seitdem tabu. Und eine Lehre schrieb die Behörde sogar ausdrücklich auf: Persönliche Daten sollen künftig nicht mehr in Ausweichlokalen liegen, bevor diese überhaupt gebraucht werden.",
+  "sources": [
+   {
+    "title": "LCQ12: Computer theft incident of the Registration and Electoral Office",
+    "publisher": "Hong Kong Government (info.gov.hk)",
+    "date": "2018-02-28",
+    "url": "https://www.info.gov.hk/gia/general/201802/28/P2018022800337.htm"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "it",
+   "politik"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-1aabde",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "8,3 Tonnen Schuppen unter „gefrorenem Rindfleisch“",
+  "teaser": "Im Januar 2019 fand Hong Kongs Zoll in einem als Tiefkühlrind deklarierten Container rund 8,3 Tonnen Pangolin-Schuppen – die größte Menge, die er je beschlagnahmte.",
+  "detail": "Schuppentiere, auch Pangoline genannt, gelten als besonders häufig geschmuggelte Säugetiere. Ihre Schuppen werden in der traditionellen chinesischen Medizin gehandelt, obwohl sie aus Keratin bestehen – demselben Stoff wie unsere Fingernägel.\n\nIm Januar 2019 kontrollierte Hong Kongs Zoll auf Hinweis der Festland-Kollegen im Containerhafen Kwai Chung einen 40-Fuß-Container aus Nigeria. Laut Frachtpapieren: gefrorenes Rindfleisch. Tatsächlich fanden die Beamten rund 8.300 Kilogramm mutmaßliche Pangolin-Schuppen und dazu 2.100 Kilogramm mutmaßliches Elfenbein. Geschätzter Marktwert: etwa 62 Millionen HK-Dollar – laut Zoll die größte Menge Pangolin-Schuppen, die er je beschlagnahmt hatte.\n\nFestgenommen wurden der Inhaber und eine Mitarbeiterin einer Handelsfirma in Mong Kok; beide kamen gegen Kaution frei, die Ermittlungen liefen weiter. Ein Urteil ist damit nicht verbunden. Fest steht nur: Dieses „Rindfleisch“ hätte kein Grill der Welt weich bekommen.",
+  "sources": [
+   {
+    "title": "Hong Kong Customs seizes suspected pangolin scales and ivory tusks",
+    "publisher": "Hong Kong Government (info.gov.hk)",
+    "date": "2019-02-01",
+    "url": "https://www.info.gov.hk/gia/general/201902/01/P2019020100359.htm"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "tiere",
+   "schifffahrt"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-448c33",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Todesurteile ohne Hinrichtung – 27 Jahre lang",
+  "teaser": "Hong Kongs Gerichte verhängten bis 1993 weiter Todesurteile, doch seit November 1966 wandelte der Gouverneur jedes davon um – meist in lebenslange Haft.",
+  "detail": "Großbritannien schaffte die Todesstrafe für Mord 1965 ab. In der Kronkolonie Hong Kong blieb sie im Gesetz – und die Gerichte verhängten sie weiter, mehrere Male pro Jahr.\n\nNur: Vollstreckt wurde keines dieser Urteile mehr. Seit November 1966 wandelte der Gouverneur laut Amnesty International jedes neue Todesurteil um, die meisten in lebenslange Haft. Es entstand ein seltsames Ritual: Im Gerichtssaal fiel das schwerste Urteil, das das Recht kennt – und alle wussten, dass es auf dem Papier bleiben würde.\n\nErst im April 1993 beendete der Legislativrat den Widerspruch und stimmte mit 40 zu 9 Stimmen für die vollständige Abschaffung. Amnesty bilanzierte damals 27 Jahre „De-facto-Abschaffung“, in denen Hong Kong zugleich eine der niedrigsten Kriminalitätsraten der Welt hatte. Fast drei Jahrzehnte lang war die Todesstrafe also vor allem eins: ein Satz, den Richter sagen mussten, weil er noch im Gesetz stand.",
+  "sources": [
+   {
+    "title": "Death Penalty News, June 1993 (AI Index: ACT 53/02/93)",
+    "publisher": "Amnesty International",
+    "date": "1993-06",
+    "url": "https://amnesty.org/fr/wp-content/uploads/2021/06/act530021993en.pdf"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "recht",
+   "politik"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": false,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-bf2cd3",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Grenz-Fangspiel: Wer die Stadt erreicht, darf bleiben",
+  "teaser": "Von 1974 bis 1980 galt in Hong Kong: Wer illegal aus China kam und es bis in die Stadt schaffte, durfte bleiben – wer vorher erwischt wurde, wurde zurückgeschickt.",
+  "detail": "In den 1970er-Jahren kamen viele Menschen illegal aus Festlandchina nach Hong Kong. Die Kolonialregierung reagierte am 30. November 1974 mit einer Regel, die heute wie ein Geländespiel klingt: Wer an der Grenze abgefangen wurde, wurde sofort zurückgeschickt. Wer es dagegen bis in die städtischen Gebiete schaffte und dort Verwandte erreichte, durfte bleiben.\n\nAuf Englisch hieß das „Reached-base Policy“ – ein bisschen wie beim Fangen spielen: Wer die Base erreicht, ist sicher. Entscheidend war also nicht, ob man illegal kam, sondern wie weit man es schaffte.\n\nAm 24. Oktober 1980 war Schluss, weil sich das Problem laut Einwanderungsbehörde immer weiter verschärfte. Wer schon da war, bekam ganze drei Tage, um sich für einen Ausweis registrieren zu lassen. Vor dem zuständigen Büro in Admiralty bildeten sich lange Schlangen. Wer ab dem Stichtag kam, wurde sofort zurückgeschickt – egal, wie weit er gerannt war.",
+  "sources": [
+   {
+    "title": "Immigration Department 60th Anniversary Report, p. 109: Reached-base Policy",
+    "publisher": "Hong Kong Immigration Department",
+    "url": "https://www.immd.gov.hk/publications/a_report_60/eng/109/"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "politik",
+   "recht",
+   "staedte"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-675a86",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Der Luxuskeller unterm Wahlkampf",
+  "teaser": "2012 kam heraus, dass unter dem Haus von Henry Tang, Favorit für Hong Kongs Regierungsspitze, ein illegaler Keller von rund 200 Quadratmetern lag – mit Weinkeller und Heimkino.",
+  "detail": "Henry Tang galt Anfang 2012 als wahrscheinlicher nächster Regierungschef Hong Kongs. Dann gruben Reporter Skizzen seines Hauses im noblen Kowloon aus: Darunter lag ein nicht genehmigter Anbau von etwa 200 Quadratmetern, unter anderem mit Weinkeller und Heimkino. Pikant: Tang ist als Weinliebhaber bekannt.\n\nDie Lokalpresse taufte den Anbau „unterirdischen Palast“. Reporter mieteten sogar Kräne, um einen Blick auf den Pool im Innenhof zu erhaschen – dessen gläserner Boden in den Keller schaut. Tang entschuldigte sich, schob die Idee aber seiner Frau zu, der das Haus gehörte. Die Baubehörde leitete Ermittlungen ein; bei einer Verurteilung hätten bis zu zwei Jahre Haft gedroht.\n\nTang blieb im Rennen, lag in Umfragen aber schon zuvor hinten – und verlor die Wahl im März 2012. In einer Stadt, in der viele Menschen auf einem Viertel dieser Fläche wohnen, ist ein illegaler Luxuskeller ungefähr das Ungünstigste, was man unterm Wohnzimmer haben kann.",
+  "sources": [
+   {
+    "title": "HK leader-in-waiting hit by basement controversy",
+    "publisher": "Taipei Times",
+    "date": "2012-02-18",
+    "url": "https://www.taipeitimes.com/News/front/archives/2012/02/18/2003525755"
+   },
+   {
+    "title": "Henry Tang’s wife under investigation",
+    "publisher": "Taipei Times",
+    "date": "2012-02-19",
+    "url": "https://www.taipeitimes.com/News/world/archives/2012/02/19/2003525861"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "politik",
+   "architektur",
+   "bau"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-d7f789",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Entführte Milliardäre – und keiner rief die Polizei",
+  "teaser": "Der Gangster „Big Spender“ entführte 1996 und 1997 zwei der reichsten Geschäftsleute Hong Kongs und kassierte Rekord-Lösegelder – gemeldet wurde der Polizei keine der Taten.",
+  "detail": "Cheung Tze-keung hatte einen Plan, so dreist wie größenwahnsinnig: die reichsten Unternehmer Hong Kongs nacheinander zu entführen. Seinen Spitznamen „Big Spender“ verdankte er seinen verschwenderischen Nächten in Macaus Casinos.\n\n1996 entführte seine Bande den Sohn eines der reichsten Männer Asiens; laut New York Times wurden rund 125 Millionen US-Dollar Lösegeld gezahlt. Im September 1997, kurz nach der Rückgabe Hong Kongs an China, traf es einen Immobilienmagnaten. Er kam nach einer Woche gegen fast 80 Millionen US-Dollar frei. Guinness World Records führt die zusammen 206 Millionen US-Dollar als höchstes Lösegeld der Neuzeit.\n\nDas Kurioseste: Die Entführungen wurden der Polizei nie gemeldet. Viele Details kamen erst 1998 ans Licht – beim Prozess gegen Cheung im festländischen Guangzhou. Er wurde verurteilt und im Dezember 1998 hingerichtet. Hong Kong erfuhr so aus dem Gerichtssaal, was in der eigenen Stadt passiert war.",
+  "sources": [
+   {
+    "title": "Walter Kwok, Hong Kong tycoon who was kidnapped, dies at 68",
+    "publisher": "The New York Times (via WRAL)",
+    "date": "2018-10-22",
+    "url": "https://www.wral.com/archive/17937942/"
+   },
+   {
+    "title": "Greatest kidnap ransom - modern era",
+    "publisher": "Guinness World Records",
+    "url": "https://www.guinnessworldrecords.com/world-records/65623-highest-modern-kidnap-ransom"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "geld",
+   "rekorde"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-32376c",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Der Feng-Shui-Meister, der sich ein Milliardenerbe erfälschen wollte",
+  "teaser": "Ein Ex-Barkeeper und Feng-Shui-Meister legte ein Testament vor, das ihn zum Alleinerben eines Milliardenvermögens machte – 2013 wurde er wegen Fälschung zu zwölf Jahren Haft verurteilt.",
+  "detail": "Tony Chan begann als Barkeeper, lebte zeitweise in einer engen Sozialwohnung und arbeitete später als Feng-Shui-Meister – unter anderem für eine der reichsten Frauen Asiens. Nach ihrem Tod 2007 tauchte ein Testament von 2006 auf, das ihm ihr gesamtes Milliardenvermögen vermachte.\n\nDie Gerichte glaubten ihm nicht. 2011 stand fest: Das Testament war gefälscht, das Erbe ging gemäß einem früheren Testament an eine gemeinnützige Stiftung. Chan änderte danach seinen Vornamen in Peter.\n\nDann folgte das Strafverfahren, das Hong Kong mit Enthüllungen über Affären und bizarre Feng-Shui-Rituale fesselte. Im Juli 2013 sprach eine Jury Chan der Fälschung und der Verwendung eines gefälschten Dokuments schuldig. Der Richter verhängte zwölf Jahre Haft und sprach von „schamloser und beispielloser Gier“. Wenige Monate zuvor war Chan schon zur Zahlung von 340 Millionen HK-Dollar Steuerschulden verdonnert worden. Das Feng Shui stand für ihn eindeutig ungünstig.",
+  "sources": [
+   {
+    "title": "Hong Kong jails tycoon’s lover for forgery",
+    "publisher": "Al Jazeera (Reuters)",
+    "date": "2013-07-05",
+    "url": "https://www.aljazeera.com/news/2013/7/5/hong-kong-jails-tycoons-lover-for-forgery"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "geld",
+   "recht"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-6dc81c",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Ho Chi Minh saß in Hong Kong unter Decknamen ein",
+  "teaser": "Der spätere vietnamesische Revolutionsführer Ho Chi Minh wurde 1931 in Kowloon verhaftet und saß im Victoria-Gefängnis – er gab sich als Chinese namens Sung Man Cho aus.",
+  "detail": "Am 6. Juni 1931 nahm die Hong Konger Polizei in einer Wohnung in Kowloon einen Mann fest, den Frankreich als Revolutionär suchte. Er bestritt, Nguyen Ai Quoc zu sein – so hieß der spätere Ho Chi Minh damals – und beharrte darauf, ein Chinese namens Sung Man Cho zu sein. Er landete im Victoria-Gefängnis, dem heutigen Kulturzentrum Tai Kwun.\n\nSein britischer Anwalt kämpfte per Habeas-Corpus-Antrag gegen die Abschiebung auf einem französischen Schiff, die laut HK Memory den sicheren Tod bedeutet hätte. Der Fall „Sung Man Cho gegen den Gefängnisdirektor“ landete achtmal vor dem Supreme Court und schließlich beim Privy Council in London, wo man sich 1932 verglich.\n\nDann die filmreife Wendung: Der Anwalt streute das Gerücht, sein Mandant sei in Haft gestorben – sogar internationale Zeitungen druckten es. Ende 1932 wurde der „Tote“ heimlich freigelassen und im Januar 1933 per Boot auf ein Schiff nach Amoy gebracht.",
+  "sources": [
+   {
+    "title": "Ho Chi Minh in Victoria Gaol",
+    "publisher": "Hong Kong Memory",
+    "url": "https://www.hkmemory.hk/en/collections-victoria_prison-ho_chi_minh_in_victoria_gaol.html"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "politik",
+   "recht",
+   "asien"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-a2b8cb",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Der Piratenkönig, der zum Piratenjäger wurde",
+  "teaser": "Cheung Po Tsai kommandierte Anfang des 19. Jahrhunderts eine riesige Piratenflotte vor Hong Kong – 1810 ergab er sich und jagte danach als Offizier der Qing-Marine Piraten.",
+  "detail": "Um 1800 waren die Gewässer um das heutige Hong Kong Piratenland. Die Rote-Flagge-Flotte, die Cheung Po Tsai gemeinsam mit seiner Adoptivmutter Ching Shih anführte, war so mächtig, dass selbst die chinesische Marine sie fürchtete. Ching Shih kommandierte laut Young Post auf dem Höhepunkt mehr als 1.800 Schiffe und 80.000 Piraten und gilt als eine der erfolgreichsten Piratinnen der Geschichte.\n\nDann die überraschende Wende: 1810 ergaben sich beide der Qing-Regierung. Statt am Galgen zu enden, bekam Cheung einen Posten in der kaiserlichen Marine und verbrachte den Rest seines Lebens damit, Piraten zu jagen. Ein Karrierewechsel, der sich im Lebenslauf schwer erklären lässt.\n\nAuf der Insel Cheung Chau gibt es bis heute die Cheung-Po-Tsai-Höhle. Der Legende nach versteckte er dort seine Beute. Gefunden hat sie niemand – die Höhle ist trotzdem ein beliebtes Ausflugsziel. Schatzsucher-Ausrüstung: Taschenlampe, sonst nichts.",
+  "sources": [
+   {
+    "title": "Hong Kong Island thieves and pirates who ruled the south",
+    "publisher": "Young Post (South China Morning Post)",
+    "date": "2018-11-21",
+    "url": "https://www.youngpostclub.com/yp/discover/lifestyle/features/article/3058594/hong-kong-island-thieves-and-pirates-who-ruled-south"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "schifffahrt",
+   "inseln"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-912f54",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Abgeschnittene Stahlstangen im Milliarden-Bahnprojekt",
+  "teaser": "2018 kam heraus, dass beim Ausbau der MTR-Station Hung Hom Bewehrungsstäbe gekürzt worden waren – eine Untersuchungskommission bestätigte 2020: Ja, es wurde geschnitten.",
+  "detail": "Die Shatin-to-Central-Link ist ein Bahnprojekt für rund 90,7 Milliarden HK-Dollar quer durch Hong Kong. 2018 kam heraus, dass auf der Baustelle der Station Hung Hom Gewindestäbe aus Stahl abgeschnitten worden sein sollten. Solche Stäbe werden in Verbindungsmuffen geschraubt, um Beton zu verstärken – gekürzt sitzen sie nur scheinbar richtig.\n\nDie Regierung setzte eine Untersuchungskommission ein. Ihr Abschlussbericht vom Mai 2020 kam zu einem gemischten Urteil: Ja, Stäbe wurden abgeschnitten, aber höchstens 3 Prozent der Gewindestäbe. Das Abschneiden sei „unzulässig“ gewesen, gefährde die Statik aber nicht; mit Nachbesserungen sei die Station sicher.\n\nGlimpflich kamen die Verantwortlichen trotzdem nicht davon: Bahngesellschaft MTR und Baukonzern Leighton hätten „schwere Mängel“ in Management und Aufsicht zu verantworten, auch die Regierung trage als Aufseherin eine Mitschuld. Ein Skandal, der buchstäblich im Fundament steckte.",
+  "sources": [
+   {
+    "title": "Hung Hom station safe to use",
+    "publisher": "The Standard (Hong Kong)",
+    "date": "2020-05-13",
+    "url": "https://www.thestandard.com.hk/news/article/18967/Hung-Hom-station-safe-to-use"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "bau",
+   "bahn",
+   "ingenieurwesen"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-b4eefd",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Straßenkritzler „König von Kowloon“ kam bei Sotheby’s unter den Hammer",
+  "teaser": "Tsang Tsou-choi bemalte fast fünf Jahrzehnte lang Mauern und Telefonzellen in Hong Kong mit Schriftzeichen – 2004 versteigerte Sotheby’s erstmals ein Werk von ihm.",
+  "detail": "Tsang Tsou-choi war überzeugt: Kowloon gehörte eigentlich seiner Familie. Er hielt sich für den Nachfahren einer alten chinesischen Königslinie und nannte sich „König von Kowloon“. Um seinen Anspruch zu verkünden, griff er zum Pinsel – und zwar überall.\n\nFast fünf Jahrzehnte lang bedeckte er Wände, Telefonzellen, Pflastersteine und sogar Autos mit schwarzen Schriftzeichen. Nach eigener Aussage waren es Millionen Zeichen: die Namen von Nachfahren, denen der Königsstatus genommen worden sei. Für Hausbesitzer war das Schmiererei, für viele Hong Konger ein vertrauter Teil des Stadtbilds.\n\nEnde 2004 dann die Wende: Sotheby’s versteigerte eine von ihm bemalte Tafel für 55.000 HK-Dollar, damals rund 7.050 US-Dollar. Laut Taipei Times war das die erste kommerzielle Anerkennung für den damals 83-Jährigen. Aus dem Mann, dem man hinterherputzte, war ein Künstler mit Auktionsergebnis geworden – Königreich hin oder her.",
+  "sources": [
+   {
+    "title": "Calligraphy coins it (World News Quick Take)",
+    "publisher": "Taipei Times",
+    "date": "2004-11-02",
+    "url": "http://www.taipeitimes.com/News/world/archives/2004/11/02/2003209386"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kunst",
+   "schrift",
+   "staedte"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-e7e6cf",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Trauerfeier eines Gangsterbosses – die Polizei führte Gästeliste",
+  "teaser": "Beim Begräbnis eines Gangsterbosses 2004 notierte Hong Kongs Polizei die Namen der Trauergäste und ließ sie nur in Dreiergruppen in die Halle.",
+  "detail": "Hong Kongs Gangs sind berüchtigt für ihre Machtdemonstrationen. Als 2004 ein ehemaliger Gangsterboss beerdigt wurde, wollte die Polizei genau das verhindern – und griff laut Zeitungsbericht zu einer ungewöhnlichen Maßnahme.\n\nLaut Apple Daily, zitiert von der Taipei Times, beobachteten rund 200 Polizisten die Trauerfeier. Beamte saßen an einer Reihe von Tischen und notierten die Namen der Trauergäste, bevor sie diese in Dreiergruppen zur Trauerhalle führten. Mehr als 600 Menschen in Schwarz kamen am Sonntagabend.\n\nDie Szene hat etwas unfreiwillig Komisches: ein Begräbnis mit Einlasskontrolle wie beim Amt. Für die Polizei ergab das Sinn – sie rechnete mit einer möglichen Machtdemonstration der Gangs. Wer dem Verstorbenen die letzte Ehre erweisen wollte, landete also erst mal in einer Polizeiakte. Kondolenzbuch mal anders.",
+  "sources": [
+   {
+    "title": "Gangster’s funeral (World News Quick Take)",
+    "publisher": "Taipei Times",
+    "date": "2004-11-02",
+    "url": "http://www.taipeitimes.com/News/world/archives/2004/11/02/2003209386"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-37fa33",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Mao-Schriftrolle für 200 HK-Dollar verkauft – und halbiert",
+  "teaser": "Bei Hong Kongs teuerstem Einbruch 2020 wurde eine auf 2,3 Milliarden HK-Dollar geschätzte Mao-Schriftrolle für 200 HK-Dollar verkauft – der Käufer schnitt sie in zwei Teile.",
+  "detail": "Im September 2020 brachen drei Männer in Kowloon in die Wohnung eines Sammlers ein, während dieser im Ausland war. Die Beute hatte einen geschätzten Gesamtwert von 5 Milliarden HK-Dollar – gemessen am Wert der größte Einbruch in der Geschichte der Stadt.\n\nDas wertvollste Stück: eine zwei Meter hohe Schriftrolle mit einem 1929 von Mao Zedong verfassten Bericht, allein auf 2,3 Milliarden HK-Dollar geschätzt. Sie landete für 200 HK-Dollar, also rund 25 Euro, bei einem Hobbysammler, der sie nicht für echt hielt. Als die Polizei die Rolle einen Monat später sicherstellte, hatte er sie in zwei Hälften geschnitten – damit sie sich leichter aufbewahren ließ.\n\nIm Mai 2022 wurden zwei der Männer wegen Einbruchs zu 30 Monaten Haft verurteilt, ein dritter wegen Hehlerei zu 28 Monaten. Ein Großteil der Beute blieb verschwunden. Für Kunstexperten ein Albtraum: ein Milliardenwerk, zum Preis eines Mittagessens verkauft und dann mit der Schere bearbeitet.",
+  "sources": [
+   {
+    "title": "Trio jailed for Hong Kong's priciest art heist",
+    "publisher": "The Standard (Hong Kong)",
+    "date": "2022-05-13",
+    "url": "https://www.thestandard.com.hk/breaking-news/section/4/190136/Trio-jailed-for-Hong-Kong's-priciest-art-heist"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "kunst",
+   "geld"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-e30d28",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Gestohlene Chanel-Taschen – die dann trotzdem vernichtet wurden",
+  "teaser": "Vier Lagermitarbeiter wollten 2017 über 700 Chanel-Artikel abzweigen, die vernichtet werden sollten. Die Beute wurde sichergestellt – und dann planmäßig zerstört. 2026 gab es bis zu sieben Jahre Haft.",
+  "detail": "Luxusmarken haben ein besonderes Problem: Was sich nicht verkauft, soll nicht billig auf dem Markt landen. Laut Berichten über den Prozess vernichtet Chanel in Hong Kong deshalb alle sechs Monate rund 10.000 bis 20.000 Stück veralteter Ware, um die Exklusivität zu schützen.\n\nAnfang 2017 sahen vier Lagermitarbeiter darin eine Chance. Sie verabredeten sich, 601 Handtaschen und 123 Portemonnaies abzuzweigen, die zur Vernichtung bestimmt waren – laut The Standard rund 19 Millionen HK-Dollar wert. Weit kamen sie nicht: Die Polizei stoppte sie beim Abtransport, der Diebstahl fiel noch am selben Tag auf.\n\nDie Ironie: Laut Richter wurden alle Taschen sichergestellt und danach wie geplant vernichtet – Chanel entstand kein finanzieller Schaden. Im August 2026, fast ein Jahrzehnt nach der Tat, verurteilte der High Court die vier trotzdem zu vier bis sieben Jahren Haft. Für die lange Verfahrensdauer gab es einen Abschlag.",
+  "sources": [
+   {
+    "title": "Four former CHANEL staff jailed for 4 to 7 years for stealing over 700 luxury items set for destruction",
+    "publisher": "The Standard (Hong Kong)",
+    "date": "2026-08-03",
+    "url": "https://www.thestandard.com.hk/news/article/338892/Four-former-CHANEL-staff-jailed-for-4-to-7-years-for-stealing-over-700-luxury-items-set-for-destruction"
+   },
+   {
+    "title": "HK Chanel employees sentenced to 4-7 years of jail for stealing",
+    "publisher": "TVB News",
+    "date": "2026-08-03",
+    "url": "https://news.tvb.com/tc/1186905-HKChanelemployeessentencedto47yearsofjailforstealing"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "mode",
+   "recht"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-fb8419",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Krypto-Börse JPEX: Influencer unter den Angeklagten",
+  "teaser": "Im JPEX-Krypto-Skandal meldeten über 2.600 Anzeigende Verluste von rund 1,6 Milliarden HK-Dollar – unter den Festgenommenen waren laut Polizei auch Internet-Promis, die für die Plattform warben.",
+  "detail": "Die Kryptoplattform JPEX hatte in Hong Kong eine große Fangemeinde – auch dank bekannter Gesichter aus dem Internet, die für sie warben. Im September 2023 deckte die Polizei den Fall auf, und aus dem Krypto-Traum wurde eine der größten Betrugsermittlungen der Stadt.\n\nBis Februar 2025 zählte die Polizei laut The Standard rund 1,616 Milliarden HK-Dollar Schaden bei 2.636 Anzeigenden. Bis November 2025 gab es 80 Festnahmen, eingefroren wurden Vermögen von etwa 228 Millionen HK-Dollar, darunter Luxusautos und Immobilien.\n\nUnter den Festgenommenen waren laut Polizei mutmaßliche Kernmitglieder, aber auch Internet-Berühmtheiten, die die Plattform beworben haben sollen. 16 Personen wurden damals angeklagt, laut Anklage unter anderem wegen Verschwörung zum Betrug; später kamen weitere hinzu. Ein Urteil gab es bis Herbst 2026 nach verfügbaren Berichten nicht – für alle gilt die Unschuldsvermutung. Drei mutmaßliche Drahtzieher werden per Interpol-Fahndung gesucht.",
+  "sources": [
+   {
+    "title": "Police charge 16 including influencer Joseph Lam in $1.6B JPEX crypto fraud case",
+    "publisher": "The Standard (Hong Kong)",
+    "date": "2025-11-05",
+    "url": "https://www.thestandard.com.hk/finance/article/316007/Police-charge-16-including-influencer-Joseph-Lam-in-16B-JPEX-crypto-fraud-case"
+   },
+   {
+    "title": "Hong Kong court adjourns $206M JPEX fraud case until March: report",
+    "publisher": "Decrypt",
+    "date": "2025-12-16",
+    "url": "https://decrypt.co/352553/hong-kong-court-adjourns-206m-jpex-fraud-case-until-march-report"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "finanzen",
+   "internet"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-8c12f1",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Juwelierin bestellte sich ihren eigenen Raubüberfall",
+  "teaser": "Eine Hong Konger Juwelierin heuerte 2020 einen frisch entlassenen Häftling an, der sie in einer U-Bahn-Station „ausrauben“ sollte – für die Versicherung. Beide mussten in Haft.",
+  "detail": "Im April 2020 meldete eine 41-jährige Juwelierin der Polizei, man habe ihr an der MTR-Station Jordan einen Koffer mit 328 Schmuckstücken im Wert von 2,49 Millionen HK-Dollar geraubt. Noch am selben Abend reichte sie bei ihrer Versicherung einen Schadensanspruch ein.\n\nDie Ermittler wurden misstrauisch: Kurz vor dem „Raub“ hatte die Frau die Versicherungssumme erhöht, außerdem drückten sie rund 2 Millionen HK-Dollar Schulden. Anfang Mai wurde der „Räuber“ festgenommen – ein Mann, der erst wenige Monate zuvor aus dem Gefängnis gekommen war. Er packte aus: Die Juwelierin hatte ihm 100.000 HK-Dollar für den Job geboten. Und sechs der angeblich geraubten Stücke fand die Polizei später in ihrem Büro.\n\nIm November 2021 verurteilte das Bezirksgericht die Frau wegen Verschwörung zum Betrug zu 40 Monaten Haft. Der Komplize bekam 20 Monate, weil er kooperierte und gegen sie aussagte. Die Versicherung verlor am Ende keinen Cent.",
+  "sources": [
+   {
+    "title": "Female jeweler jailed for 40 months for faking robbery",
+    "publisher": "The Standard (Hong Kong)",
+    "date": "2021-11-01",
+    "url": "https://www.thestandard.com.hk/news/article/182286/Female-jeweler-jailed-for-40-months-for-faking-robbery"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "geld",
+   "recht"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-b6c3e0",
+  "category": "ort",
+  "place": "hongkong",
+  "lang": "de",
+  "headline": "Richter verrechnet sich – Strafe wird einen Monat länger",
+  "teaser": "2026 rief ein Richter in Hong Kong das Gericht erneut zusammen, um einen Rechenfehler im eigenen Urteil zu korrigieren – die Haftstrafe eines Buchhalters stieg um einen Monat.",
+  "detail": "Ein Buchhalter war jahrelang die gesamte Buchhaltungsabteilung eines Hong Konger Partyartikel-Händlers – und genoss das volle Vertrauen seines Chefs. Zwischen 2017 und 2024 fälschte er laut Gericht die Unterschrift seines Arbeitgebers auf 419 Schecks und tarnte die Abbuchungen als Zahlungen an Lieferanten. Insgesamt zweigte er fast 16 Millionen HK-Dollar ab, bei einem Monatsgehalt von etwa 28.000 HK-Dollar. Das Geld floss laut Verteidigung vor allem ins Glücksspiel.\n\nDer Mann bekannte sich in fünf Fällen des Diebstahls schuldig. Der Richter setzte zehn Jahre und drei Monate als Ausgangspunkt an, zog für Geständnis und teilweise Rückzahlung ab und verkündete am 24. April 2026: sechs Jahre und fünf Monate.\n\nVier Tage später rief er das Gericht erneut zusammen: Er habe sich bei den gleichzeitig laufenden Einzelstrafen „verrechnet“. Neue Strafe: sechseinhalb Jahre. Ein Fall über manipulierte Zahlen, in dem am Ende ausgerechnet das Urteil nachgerechnet werden musste.",
+  "sources": [
+   {
+    "title": "Accountant jailed for stealing $16m for gambling sees sentence increased after judge admits math error",
+    "publisher": "The Standard (Hong Kong)",
+    "date": "2026-04-28",
+    "url": "https://www.thestandard.com.hk/news/article/330556/Accountant-jailed-for-stealing-16m-for-gambling-sees-sentence-increased-after-judge-admits-math-error"
+   },
+   {
+    "title": "Account supervisor of party products supplier charged by ICAC sentenced to six and a half years' jail at High Court for stealing $16m",
+    "publisher": "ICAC Hong Kong",
+    "date": "2026-04-24",
+    "url": "https://www.icac.org.hk/en/p/press/index_id_2291.html"
+   }
+  ],
+  "tags": [
+   "hongkong",
+   "kriminalitaet",
+   "recht",
+   "mathematik"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
   "id": "ort-ece818",
   "category": "ort",
   "place": "hongkong",
