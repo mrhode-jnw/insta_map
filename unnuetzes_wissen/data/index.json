@@ -1,5 +1,5 @@
 {
- "version": "202610141029",
+ "version": "202610141031",
  "packs": [
   {
    "file": "facts-aktuell.json",
@@ -19,13 +19,13 @@
   {
    "file": "facts-land-china.json",
    "place": null,
-   "count": 35,
+   "count": 64,
    "country": "china"
   },
   {
    "file": "facts-shenzhen.json",
    "place": "shenzhen",
-   "count": 30
+   "count": 51
   }
  ]
 }
