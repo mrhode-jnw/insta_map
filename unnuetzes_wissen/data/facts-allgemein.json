@@ -594,9 +594,9 @@
   "id": "nat-1ea9ff",
   "category": "natur",
   "lang": "de",
-  "headline": "Warum Wombats würfelförmige Häufchen machen",
-  "teaser": "Wombats hinterlassen würfelförmigen Kot, und die Ecken entstehen schon im Darm, nicht erst am Ausgang.",
-  "detail": "Wer in Australien über Wombat-Spuren stolpert, findet kleine, erstaunlich kantige Würfel. Lange vermutete man, der Darmausgang forme die Ecken wie eine Plätzchenform. Ein Forschungsteam aus Australien und den USA hat 2021 im Fachjournal Soft Matter gezeigt: Die Würfel nehmen schon im Inneren des Darms Gestalt an.\n\nDer Trick liegt in der Darmwand. Sie ist nicht überall gleich, sondern hat steifere und weichere Abschnitte. Zieht sich der Darm zusammen, drücken die steifen Bereiche schneller und formen so Kanten, während die weichen Zonen flache Seiten ergeben. Dazu kommt, dass der Wombat-Darm rund zehn Meter lang ist und das Futter dort sehr lange verweilt. Der Kot wird dabei stark entwässert und behält deshalb seine Form.\n\nDie Würfel haben vermutlich auch einen Zweck: Wombats markieren damit ihr Revier, gern auf Steinen oder Baumstämmen, und kantige Häufchen rollen nicht so leicht herunter. Die Forschenden halten es für möglich, dass die Erkenntnisse eines Tages auch in der Fertigungstechnik oder der Medizin nützlich werden.",
+  "headline": "Wombats kacken Würfel, und die Ecken macht der Darm",
+  "teaser": "Wombats hinterlassen würfelförmigen Kot. Und die Kanten entstehen nicht am Ausgang, sondern schon mitten im Darm.",
+  "detail": "Wer in Australien Wombat-Spuren findet, findet kleine, erstaunlich kantige Würfel. Lange dachte man, der Darmausgang stanze die Ecken aus wie eine Plätzchenform. Falsch gedacht: Ein Team aus Australien und den USA zeigte 2021 im Fachjournal Soft Matter, dass die Würfel schon im Inneren des Darms Form annehmen.\n\nDer Trick steckt in der Darmwand. Sie hat steifere und weichere Abschnitte. Zieht sich der Darm zusammen, drücken die steifen Stellen schneller und formen Kanten, die weichen ergeben flache Seiten. Dazu ist der Wombat-Darm rund zehn Meter lang, das Futter bleibt sehr lange drin, und der Kot wird stark entwässert. Ergebnis: formstabil.\n\nVermutlich hat das sogar einen Sinn. Wombats markieren mit den Würfeln ihr Revier, gern auf Steinen oder Baumstämmen, und Kantiges rollt nicht so leicht runter.\n\nDie Forschenden halten es für möglich, dass das eines Tages in Fertigungstechnik oder Medizin hilft. Industrie, lern vom Wombat.",
   "sources": [
    {
     "title": "Why do wombats have cube-shaped poo? Scientists may have solved the mystery",
@@ -612,6 +612,7 @@
   ],
   "gross": true,
   "kids": false,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
@@ -619,8 +620,8 @@
   "category": "natur",
   "lang": "de",
   "headline": "Dieser Hai schwamm vielleicht schon im Dreißigjährigen Krieg",
-  "teaser": "Der größte untersuchte Grönlandhai wurde 2016 auf rund 392 Jahre geschätzt, damit ist die Art das langlebigste bekannte Wirbeltier.",
-  "detail": "Grönlandhaie gleiten langsam durch das eiskalte Wasser des Nordatlantiks und der Arktis, und offenbar lassen sie sich auch mit dem Altern viel Zeit. Weil Haie keine Knochen mit Jahresringen haben, war ihr Alter lange ein Rätsel.\n\nEin Team um den dänischen Meeresbiologen Julius Nielsen fand 2016 einen cleveren Umweg: den Kern der Augenlinse. Er bildet sich schon vor der Geburt und wird nie erneuert. Mit der Radiokarbonmethode datierten die Forschenden die Linsen von 28 weiblichen Haien. Das größte Tier, knapp fünf Meter lang, kam auf etwa 392 Jahre. Die Unsicherheit ist groß, die Spanne reicht von 272 bis 512 Jahren. Aber selbst die Untergrenze schlägt jeden anderen bekannten Wirbeltier-Rekord.\n\nNoch verblüffender: Weibchen werden nach den Berechnungen erst mit rund 150 Jahren geschlechtsreif. Ein Hai, der heute Nachwuchs bekommt, wurde also womöglich selbst noch im 19. Jahrhundert geboren.",
+  "teaser": "Der größte untersuchte Grönlandhai wurde 2016 auf rund 392 Jahre geschätzt. Damit ist die Art das langlebigste bekannte Wirbeltier.",
+  "detail": "Grönlandhaie gleiten gemächlich durchs eiskalte Wasser von Nordatlantik und Arktis. Und mit dem Altern lassen sie sich offenbar genauso viel Zeit. Weil Haie keine Knochen mit Jahresringen haben, war ihr Alter lange ein Rätsel.\n\nEin Team um den dänischen Meeresbiologen Julius Nielsen fand 2016 einen cleveren Umweg: den Kern der Augenlinse. Der bildet sich schon vor der Geburt und wird nie erneuert. Per Radiokarbonmethode datierten die Forschenden die Linsen von 28 Weibchen. Das größte Tier, knapp fünf Meter lang, kam auf etwa 392 Jahre. Die Unsicherheit ist groß, von 272 bis 512 Jahren. Aber selbst die Untergrenze schlägt jeden anderen bekannten Wirbeltier-Rekord.\n\nUnd jetzt kommt's: Weibchen werden nach den Berechnungen erst mit rund 150 Jahren geschlechtsreif. Ein Hai, der heute Nachwuchs bekommt, wurde also womöglich selbst noch im 19. Jahrhundert geboren. Spätzünder ist gar kein Ausdruck.",
   "sources": [
    {
     "title": "Old and cold: extreme longevity in Greenland sharks",
@@ -637,15 +638,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "nat-9a5ea9",
   "category": "natur",
   "lang": "de",
-  "headline": "Ein ganzer Wald, der eigentlich nur ein einziger Baum ist",
-  "teaser": "Der Espenwald Pando in Utah besteht aus rund 47.000 Stämmen, ist aber genetisch ein einziges Lebewesen und wiegt geschätzt 6.000 Tonnen.",
-  "detail": "Im Fishlake National Forest in Utah steht ein Wald aus Zitterpappeln, der so tut, als wäre er viele Bäume. In Wahrheit wachsen alle Stämme aus demselben Wurzelsystem und tragen identisches Erbgut. Forschende haben dem Klon den Namen Pando gegeben, lateinisch für „ich breite mich aus“.\n\nEspen vermehren sich gern ungeschlechtlich: Aus den Wurzeln treiben immer neue Schösslinge aus, die nach oben wachsen und wie eigenständige Bäume aussehen. Bei Pando sind es etwa 47.000 Stämme auf einer Fläche von 43 Hektar, das entspricht rund 60 Fußballfeldern. Zusammengerechnet kommt der Klon laut Guinness-Buch auf geschätzte 6.000 Tonnen und gilt damit als massigste bekannte Pflanze.\n\nEinzelne Stämme werden selten älter als gut hundert Jahre, die Wurzel aber ist viele Jahrtausende alt; die Schätzungen gehen weit auseinander. Leider schwächelt der Riese: Weil Hirsche junge Triebe abfressen, wächst zu wenig Nachwuchs nach.",
+  "headline": "Dieser ganze Wald ist ein einziger Baum",
+  "teaser": "Der Espenwald Pando in Utah hat rund 47.000 Stämme, ist genetisch aber ein einziges Lebewesen und wiegt geschätzt 6.000 Tonnen.",
+  "detail": "Im Fishlake National Forest in Utah steht ein Wald aus Zitterpappeln, der nur so tut, als wäre er viele Bäume. Alle Stämme wachsen aus demselben Wurzelsystem und haben identisches Erbgut. Forschende nennen den Klon Pando, lateinisch für „ich breite mich aus“. Passt.\n\nEspen vermehren sich gern ungeschlechtlich: Aus den Wurzeln schießen immer neue Triebe, die aussehen wie eigenständige Bäume. Bei Pando sind es etwa 47.000 Stämme auf 43 Hektar, rund 60 Fußballfelder. Laut Guinness-Buch kommt der Klon auf geschätzte 6.000 Tonnen und gilt damit als massigste bekannte Pflanze.\n\nDie einzelnen Stämme werden selten älter als gut hundert Jahre, die Wurzel aber ist viele Jahrtausende alt; die Schätzungen gehen weit auseinander.\n\nDie traurige Pointe: Der Riese schwächelt. Hirsche fressen die jungen Triebe ab, und es wächst zu wenig nach. Ein Wald, der viele Jahrtausende überstanden hat, kämpft jetzt gegen hungrige Hirsche.",
   "sources": [
    {
     "title": "Most massive plant",
@@ -661,15 +663,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "nat-f96406",
   "category": "natur",
   "lang": "de",
-  "headline": "Diese Mini-Tiere haben einen Ausflug ins All überlebt",
-  "teaser": "2007 flogen Bärtierchen ungeschützt durchs Weltall, und die meisten überstanden Vakuum und kosmische Strahlung, manche sogar die UV-Strahlung der Sonne.",
-  "detail": "Bärtierchen sind kaum einen Millimeter groß, haben acht Stummelbeine und sehen unter dem Mikroskop aus wie knuddelige Staubsaugerbeutel. Ihre Superkraft: Wenn es ungemütlich wird, trocknen sie aus und ziehen sich zu einem sogenannten Tönnchen zusammen. In diesem Zustand fahren sie ihren Stoffwechsel fast auf null herunter.\n\nForschende um den schwedischen Biologen Ingemar Jönsson wollten wissen, wie weit das geht. Sie schickten getrocknete Bärtierchen zweier Arten im September 2007 an Bord des Satelliten FOTON-M3 zehn Tage lang in eine Erdumlaufbahn, ohne jeden Schutz vor dem Vakuum. Ergebnis, veröffentlicht 2008: Die meisten Tiere überstanden Vakuum und kosmische Strahlung, einige sogar die gnadenlose UV-Strahlung der Sonne. Zurück auf der Erde bekamen sie ganz normal Nachwuchs.\n\nDamit waren Bärtierchen die ersten Tiere, die nachweislich ungeschützt im offenen Weltraum überlebt haben. Vorher hatten das nur Bakterien und Flechten geschafft.",
+  "headline": "Bärtierchen flogen ungeschützt ins All und überlebten",
+  "teaser": "2007 flogen Bärtierchen ohne jeden Schutz durchs Weltall. Die meisten überstanden Vakuum und kosmische Strahlung, manche sogar die UV-Strahlung der Sonne.",
+  "detail": "Bärtierchen sind kaum einen Millimeter groß, haben acht Stummelbeine und sehen unter dem Mikroskop aus wie knuddelige Staubsaugerbeutel. Ihre Superkraft: Wird es ungemütlich, trocknen sie aus, ziehen sich zu einem sogenannten Tönnchen zusammen und fahren den Stoffwechsel fast auf null.\n\nForschende um den schwedischen Biologen Ingemar Jönsson wollten wissen, wie weit das geht. Im September 2007 schickten sie getrocknete Bärtierchen zweier Arten mit dem Satelliten FOTON-M3 zehn Tage in die Erdumlaufbahn, ungeschützt im Vakuum.\n\nErgebnis, veröffentlicht 2008: Die meisten überstanden Vakuum und kosmische Strahlung, einige sogar die gnadenlose UV-Strahlung der Sonne. Zurück auf der Erde bekamen sie ganz normal Nachwuchs.\n\nDamit waren Bärtierchen die ersten Tiere, die nachweislich ungeschützt im offenen Weltraum überlebt haben. Vorher hatten das nur Bakterien und Flechten geschafft. Raumfahrt im Tiefschlaf, sozusagen.",
   "sources": [
    {
     "title": "Tardigrades become first animals to survive vacuum of space",
@@ -686,15 +689,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "nat-60f695",
   "category": "natur",
   "lang": "de",
-  "headline": "Drei Herzen, blaues Blut: Der Oktopus ist ein Alien",
-  "teaser": "Oktopusse haben drei Herzen und blaues Blut, und ausgerechnet beim Schwimmen hört ihr Hauptherz auf zu schlagen.",
-  "detail": "Ein Oktopus ist ein Kraftpaket mit eingebautem Kreislauf-Kuriositätenkabinett. Zwei kleinere Herzen pumpen das Blut durch die Kiemen, wo es Sauerstoff aufnimmt. Das dritte, das Körperherz, schickt das frische Blut dann zu Organen und Muskeln.\n\nBlau ist das Blut, weil es Kupfer statt Eisen nutzt. Bei uns transportiert das eisenhaltige Hämoglobin den Sauerstoff und färbt das Blut rot. Oktopusse setzen auf Hämocyanin, und das Kupfer darin sorgt für den bläulichen Farbton. Die zwei Kiemenherzen sorgen dafür, dass das Blut zuerst frischen Sauerstoff tankt, bevor es in den Körper fließt.\n\nDer kurioseste Teil: Wenn ein Oktopus schwimmt, setzt das Körperherz aus. Das ist ein Grund, warum die Tiere lieber über den Meeresboden krabbeln, statt lange Strecken zu schwimmen. Schwimmen ist für sie schlicht anstrengend. Wer also ein Oktopus-Video sieht, in dem das Tier eher spaziert als flitzt, kennt jetzt den Grund.",
+  "headline": "Drei Herzen, blaues Blut: Oktopusse sind seltsam",
+  "teaser": "Oktopusse haben drei Herzen und blaues Blut. Und ausgerechnet beim Schwimmen setzt ihr Hauptherz aus.",
+  "detail": "Der Oktopus hat ein eingebautes Kreislauf-Kuriositätenkabinett. Zwei kleinere Herzen pumpen das Blut durch die Kiemen, wo es Sauerstoff tankt. Das dritte, das Körperherz, schickt das frische Blut dann zu Organen und Muskeln.\n\nBlau ist das Blut, weil es auf Kupfer statt Eisen setzt. Bei uns transportiert das eisenhaltige Hämoglobin den Sauerstoff und macht das Blut rot. Oktopusse nutzen Hämocyanin, und das Kupfer darin färbt bläulich.\n\nJetzt der kurioseste Teil: Wenn ein Oktopus schwimmt, setzt das Körperherz aus. Das ist ein Grund, warum die Tiere lieber über den Meeresboden krabbeln, statt lange Strecken zu schwimmen. Schwimmen ist für sie schlicht anstrengend.\n\nWer also ein Oktopus-Video sieht, in dem das Tier eher spaziert als flitzt: Das ist keine Faulheit. Das ist Herzensangelegenheit.",
   "sources": [
    {
     "title": "Ten Wild Facts About Octopuses: They Have Three Hearts, Big Brains and Blue Blood",
@@ -710,15 +714,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "nat-cec9e4",
   "category": "natur",
   "lang": "de",
-  "headline": "Ärgere niemals eine Krähe – sie erzählt es weiter",
-  "teaser": "Krähen merken sich das Gesicht von Menschen, die sie geärgert haben, mindestens fünf Jahre lang, und selbst unbeteiligte Artgenossen schimpfen mit.",
-  "detail": "Der Biologe John Marzluff von der University of Washington in Seattle wollte wissen, wie gut Krähen Menschen auseinanderhalten. Sein Team setzte eine auffällige Maske auf, fing damit an mehreren Orten rund um Seattle wilde Krähen ein, beringte sie und ließ sie wieder frei. Eine zweite, neutrale Maske diente zum Vergleich.\n\nDas Ergebnis: Tauchte später jemand mit der „gefährlichen“ Maske auf, wurde er lautstark beschimpft und teils regelrecht verfolgt, ganz egal, wer darunter steckte. Die neutrale Maske interessierte kaum einen Vogel. 2011 berichtete Marzluff, dass die Erinnerung mindestens fünf Jahre anhielt.\n\nNoch erstaunlicher: Auch Krähen, die nie gefangen worden waren, erkannten das Feindbild sofort. Verwandte und fremde Vögel machten mit, teils mehr als anderthalb Kilometer vom Tatort entfernt. Die Tiere haben die Information also untereinander weitergegeben. Wer Krähen ärgert, sollte sich auf einen langfristigen Ruf einstellen.",
+  "headline": "Ärgere nie eine Krähe, sie erzählt es weiter",
+  "teaser": "Krähen merken sich das Gesicht von Menschen, die sie geärgert haben, mindestens fünf Jahre lang. Und Artgenossen, die gar nicht dabei waren, schimpfen mit.",
+  "detail": "Der Biologe John Marzluff von der University of Washington in Seattle wollte wissen, wie gut Krähen Menschen unterscheiden. Sein Team setzte eine auffällige Maske auf, fing damit an mehreren Orten rund um Seattle wilde Krähen ein, beringte sie und ließ sie frei. Eine zweite, neutrale Maske diente zum Vergleich.\n\nTauchte später jemand mit der „gefährlichen“ Maske auf, wurde er lautstark beschimpft und teils regelrecht verfolgt, egal wer darunter steckte. Die neutrale Maske interessierte kaum einen Vogel. 2011 berichtete Marzluff: Die Erinnerung hielt mindestens fünf Jahre.\n\nUnd es wird besser. Auch Krähen, die nie gefangen worden waren, erkannten das Feindbild sofort, teils mehr als anderthalb Kilometer vom Tatort entfernt. Die Info ging also von Krähe zu Krähe.\n\nKurz: Wer Krähen ärgert, hat danach einen Ruf. Und zwar einen langfristigen.",
   "sources": [
    {
     "title": "Anger a Crow and It Will Never Forget Your Face",
@@ -734,15 +739,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "nat-2f4341",
   "category": "natur",
   "lang": "de",
-  "headline": "Haie gab es schon, bevor es Bäume gab",
-  "teaser": "Haie schwimmen seit rund 450 Millionen Jahren durch die Meere, die ersten Bäume tauchten erst vor etwa 385 Millionen Jahren auf.",
-  "detail": "Wenn wir „uralt“ sagen, denken wir an Dinosaurier. Haie lachen darüber. Die frühesten Hinweise auf Haie sind winzige versteinerte Schuppen, die etwa 450 Millionen Jahre alt sind. Damals war das Land noch weitgehend kahl, Pflanzen wuchsen nur als niedriger Bewuchs aus Moosen und ähnlichem Grün.\n\nDie ersten echten Bäume entstanden erst viel später, vor ungefähr 385 Millionen Jahren. Je nachdem, welche Fossilien man als Maßstab nimmt, liegen also grob 60 Millionen Jahre zwischen dem ersten Hai und dem ersten Wald. Das Smithsonian National Museum of Natural History bringt es auf den Punkt: Haie gibt es länger als Bäume.\n\nSeitdem haben sie mehrere Massenaussterben überstanden, darunter das, das die Dinosaurier auslöschte. Mit dem Weißen Hai von heute hatten die Urhaie allerdings wenig gemeinsam, der Bauplan hat sich über die Zeit immer wieder verändert.",
+  "headline": "Haie sind älter als Bäume",
+  "teaser": "Haie schwimmen seit rund 450 Millionen Jahren durch die Meere. Die ersten Bäume tauchten erst vor etwa 385 Millionen Jahren auf.",
+  "detail": "Bei „uralt“ denken wir an Dinosaurier. Haie lachen darüber. Die frühesten Hinweise auf Haie sind winzige versteinerte Schuppen, etwa 450 Millionen Jahre alt. Damals war das Land noch weitgehend kahl, nur niedriger Bewuchs aus Moosen und ähnlichem Grün.\n\nDie ersten echten Bäume kamen erst vor ungefähr 385 Millionen Jahren. Je nach Fossil als Maßstab liegen also grob 60 Millionen Jahre zwischen dem ersten Hai und dem ersten Wald. Das Smithsonian National Museum of Natural History bringt es auf den Punkt: Haie gibt es länger als Bäume.\n\nSeitdem haben sie mehrere Massenaussterben überstanden, auch das, das die Dinosaurier erwischte. Mit dem Weißen Hai von heute hatten die Urhaie allerdings wenig gemeinsam, der Bauplan hat sich immer wieder verändert.\n\nTrotzdem: Als der erste Baum wuchs, waren Haie schon ein alter Hut.",
   "sources": [
    {
     "title": "Diving with Sharks Through Deep Time",
@@ -759,6 +765,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -784,6 +791,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -791,8 +799,8 @@
   "category": "natur",
   "lang": "de",
   "headline": "Der Fangschreckenkrebs boxt so schnell, dass Wasser verdampft",
-  "teaser": "Fangschreckenkrebse schlagen mit bis zu 23 Metern pro Sekunde zu und beschleunigen dabei mit dem bis zu 8.000-Fachen der Erdbeschleunigung.",
-  "detail": "Der Pfauen-Fangschreckenkrebs sieht aus wie ein bunter Faschingskostüm-Krebs, ist aber ein Boxweltmeister. Mit keulenartigen Vorderbeinen knackt er Schneckenhäuser und Muschelschalen. Wie schnell das geht, maß die Biologin Sheila Patek mit Hochgeschwindigkeitskameras; die Ergebnisse erschienen 2004 in Nature.\n\nDie Keule erreicht bis zu 23 Meter pro Sekunde, also über 80 km/h, und das unter Wasser, wo jede Bewegung gegen großen Widerstand ankämpft. Die Beschleunigung liegt beim 6.300- bis 8.000-Fachen der Erdbeschleunigung. Möglich macht das eine Art Feder im Panzer, die vorgespannt und blitzartig freigegeben wird, ähnlich wie bei einer Armbrust.\n\nDer Schlag ist so schnell, dass vor der Keule der Wasserdruck kurz einbricht und Dampfblasen entstehen. Fallen diese Bläschen in sich zusammen, entsteht ein zweiter Schlag. Dieses Phänomen heißt Kavitation, und es kann auch Schiffsschrauben beschädigen. Für Schnecken ist das eine sehr schlechte Nachricht.",
+  "teaser": "Fangschreckenkrebse schlagen mit bis zu 23 Metern pro Sekunde zu, mit bis zu 8.000-facher Erdbeschleunigung. Unter Wasser.",
+  "detail": "Der Pfauen-Fangschreckenkrebs sieht aus wie ein Faschingskostüm, ist aber ein Boxweltmeister. Mit keulenartigen Vorderbeinen knackt er Schneckenhäuser und Muschelschalen. Die Biologin Sheila Patek hat das mit Hochgeschwindigkeitskameras gemessen, die Ergebnisse erschienen 2004 in Nature.\n\nDie Keule erreicht bis zu 23 Meter pro Sekunde, über 80 km/h, und das unter Wasser, wo jede Bewegung gegen großen Widerstand ankämpft. Die Beschleunigung: das 6.300- bis 8.000-Fache der Erdbeschleunigung. Möglich macht das eine Art Feder im Panzer, die vorgespannt und blitzartig losgelassen wird, wie bei einer Armbrust.\n\nDer Schlag ist so schnell, dass vor der Keule der Wasserdruck einbricht und Dampfblasen entstehen. Fallen sie in sich zusammen, gibt's einen zweiten Schlag gratis. Das heißt Kavitation und kann sogar Schiffsschrauben beschädigen.\n\nFür Schnecken also eine sehr schlechte Nachricht: Sie werden quasi doppelt geboxt.",
   "sources": [
    {
     "title": "Mantis shrimp may have swiftest kick in the animal kingdom",
@@ -809,6 +817,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
@@ -816,8 +825,8 @@
   "category": "natur",
   "lang": "de",
   "headline": "Die Banane ist eine Beere, die Erdbeere nicht",
-  "teaser": "Botanisch zählen Bananen, Weintrauben und Auberginen zu den Beeren, Erdbeeren, Himbeeren und Brombeeren dagegen nicht.",
-  "detail": "Das Wort „Beere“ ist viel älter als die Botanik. Menschen nannten kleine, weiche Früchte schon Beeren, lange bevor Fachleute eine genaue Definition festlegten. Und die passt nicht immer zum Obstregal.\n\nBotanisch ist eine Beere eine Frucht, die aus einer Blüte mit nur einem Fruchtknoten entsteht, drei fleischige Schichten hat (Schale, Fruchtfleisch und das Innere mit den Samen) und meist mehrere Samen enthält. Die Banane erfüllt das: Die Schale ist die äußere Schicht, das Weiche die mittlere, und innen sitzen winzige Samenreste. Auch Weintrauben, Tomaten, Auberginen und sogar Orangen sind Beeren.\n\nDie Erdbeere fällt durch. Sie ist eine Sammelfrucht, und die kleinen gelben Pünktchen außen sind eigentlich jeweils eine eigene winzige Frucht mit Samen, sogenannte Nüsschen. Himbeeren und Brombeeren sind ebenfalls Sammelfrüchte, nur aus vielen kleinen Steinfrüchtchen. Die Kirsche wiederum ist keine Beere, weil sie nur einen Kern hat.",
+  "teaser": "Botanisch sind Bananen, Weintrauben und Auberginen Beeren. Erdbeeren, Himbeeren und Brombeeren dagegen nicht.",
+  "detail": "Das Wort „Beere“ ist viel älter als die Botanik. Menschen nannten kleine, weiche Früchte schon Beeren, lange bevor jemand eine Definition aufschrieb. Und die passt nicht immer zum Obstregal.\n\nBotanisch entsteht eine Beere aus einer Blüte mit nur einem Fruchtknoten, hat drei fleischige Schichten (Schale, Fruchtfleisch, das Innere mit den Samen) und meist mehrere Samen. Die Banane besteht den Test: Schale außen, Weiches in der Mitte, innen winzige Samenreste. Auch Weintrauben, Tomaten, Auberginen und sogar Orangen sind Beeren.\n\nDie Erdbeere fällt durch. Sie ist eine Sammelfrucht, und die gelben Pünktchen außen sind jeweils eine eigene winzige Frucht mit Samen, sogenannte Nüsschen. Himbeeren und Brombeeren sind ebenfalls Sammelfrüchte, nur aus vielen kleinen Steinfrüchtchen. Die Kirsche ist auch keine Beere, sie hat nur einen Kern.\n\nDie Erdbeere ist also eine Nuss-Sammlung mit falschem Namensschild.",
   "sources": [
    {
     "title": "Why are bananas berries but strawberries aren't?",
@@ -833,6 +842,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -840,8 +850,8 @@
   "category": "natur",
   "lang": "de",
   "headline": "Koalas haben Fingerabdrücke wie wir",
-  "teaser": "Koalas sind die einzigen bekannten Nicht-Primaten mit Fingerabdrücken, und die sind unseren so ähnlich, dass man sie selbst unter dem Mikroskop kaum unterscheiden kann.",
-  "detail": "Mitte der 1990er-Jahre arbeitete der Anthropologe und Forensiker Maciej Henneberg in einem Wildpark bei Adelaide mit Koalas. Dabei fiel ihm etwas auf: Die Tiere haben Fingerabdrücke, mit Schleifen und Wirbeln wie bei Menschen. Kurz darauf veröffentlichte er den Fund in einem Fachartikel.\n\nSelbst sorgfältige Analysen unter dem Mikroskop konnten die Hautleisten von Koalas kaum von menschlichen unterscheiden. Henneberg scherzte sogar, die Polizei könne sie verwechseln. Ganz ernst gemeint war das nicht: Dass ein Koala an einem Tatort Spuren hinterlässt, ist äußerst unwahrscheinlich.\n\nDas Spannende ist die Evolution dahinter. Unsere nächsten Verwandten mit Fingerabdrücken sind Affen, mit Koalas sind wir nur sehr entfernt verwandt. Beide Gruppen haben die Hautleisten unabhängig voneinander entwickelt, vermutlich, weil sie beim Greifen helfen. Koalas klettern ständig und pflücken Eukalyptusblätter, da lohnt sich guter Halt und ein feines Tastgefühl.",
+  "teaser": "Koalas sind die einzigen bekannten Nicht-Primaten mit Fingerabdrücken. Und die sind unseren so ähnlich, dass man sie selbst unter dem Mikroskop kaum unterscheiden kann.",
+  "detail": "Mitte der 1990er-Jahre arbeitete der Anthropologe und Forensiker Maciej Henneberg in einem Wildpark bei Adelaide mit Koalas. Und stutzte: Die Tiere haben Fingerabdrücke, mit Schleifen und Wirbeln wie bei Menschen. Kurz darauf veröffentlichte er das in einem Fachartikel.\n\nSelbst unter dem Mikroskop waren die Hautleisten der Koalas kaum von menschlichen zu unterscheiden. Henneberg scherzte, die Polizei könne sie verwechseln. Ganz ernst gemeint war das nicht: Dass ein Koala Spuren an einem Tatort hinterlässt, ist äußerst unwahrscheinlich.\n\nSpannend ist die Evolution dahinter. Unsere nächsten Verwandten mit Fingerabdrücken sind Affen, mit Koalas sind wir nur sehr entfernt verwandt. Beide Gruppen haben die Hautleisten unabhängig entwickelt, vermutlich weil sie beim Greifen helfen. Koalas klettern ständig und pflücken Eukalyptusblätter, da lohnt sich guter Halt.\n\nDer Koala als Täter bleibt also Theorie. Aber eine schöne.",
   "sources": [
    {
     "title": "Koalas have fingerprints almost identical to ours",
@@ -858,15 +868,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "nat-197c4f",
   "category": "natur",
   "lang": "de",
-  "headline": "Die Qualle, die einfach wieder jung wird",
-  "teaser": "Die nur wenige Millimeter große Qualle Turritopsis dohrnii kann sich als Erwachsene in ihr Jugendstadium zurückverwandeln und das Leben neu beginnen.",
-  "detail": "Die meisten Quallen leben nach einem festen Plan: Aus einem festsitzenden Polypen schnürt sich eine schwimmende Meduse ab, die sich fortpflanzt und dann stirbt. Turritopsis dohrnii hält sich nicht daran. Die winzige Qualle mit nur vier bis fünf Millimetern Durchmesser kann den Prozess umdrehen.\n\nStatt zu sterben, sinkt die erwachsene Meduse zu Boden, zieht sich zusammen und baut ihre Zellen um. Aus ihr wird wieder ein Polyp, aus dem später neue Medusen sprießen. Dabei werden ihre Zellen gewissermaßen umprogrammiert. Das ist, als würde ein Schmetterling wieder zur Raupe.\n\nDarum heißt sie oft „unsterbliche Qualle“. Ganz wörtlich darf man das aber nicht nehmen. Sie kann gefressen werden, Krankheiten bekommen oder einfach Pech haben. Theoretisch könnte sie den Kreislauf aber immer wieder durchlaufen, und genau deshalb interessiert sich die Alternsforschung für sie.",
+  "headline": "Diese Qualle wird einfach wieder jung",
+  "teaser": "Die nur wenige Millimeter große Qualle Turritopsis dohrnii kann sich als Erwachsene in ihr Jugendstadium zurückverwandeln und das Leben neu starten.",
+  "detail": "Die meisten Quallen folgen einem festen Plan: Aus einem festsitzenden Polypen schnürt sich eine schwimmende Meduse ab, die sich fortpflanzt und dann stirbt. Turritopsis dohrnii hält sich nicht daran. Die winzige Qualle mit vier bis fünf Millimetern Durchmesser drückt einfach auf Rückspulen.\n\nStatt zu sterben, sinkt die erwachsene Meduse zu Boden, zieht sich zusammen und baut ihre Zellen um, sie werden gewissermaßen umprogrammiert. Heraus kommt wieder ein Polyp, aus dem später neue Medusen sprießen. Als würde ein Schmetterling wieder zur Raupe.\n\nDarum heißt sie oft „unsterbliche Qualle“. Ganz wörtlich darf man das nicht nehmen: Sie kann gefressen werden, krank werden oder einfach Pech haben. Theoretisch könnte sie den Kreislauf aber immer wieder durchlaufen.\n\nKein Wunder, dass sich die Alternsforschung brennend für sie interessiert.",
   "sources": [
    {
     "title": "The immortal jellyfish: a tiny creature with infinite power",
@@ -882,6 +893,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -906,6 +918,7 @@
   ],
   "gross": true,
   "kids": false,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -913,8 +926,8 @@
   "category": "koerper",
   "lang": "de",
   "headline": "Dein Bauchnabel ist ein unerforschter Dschungel",
-  "teaser": "In nur 60 Bauchnäbeln fanden Forschende 2012 rund 2.368 Bakterienarten, gut die Hälfte davon war der Wissenschaft womöglich unbekannt.",
-  "detail": "Der Bauchnabel ist warm, geschützt und wird selten gründlich geschrubbt: ein Paradies für Mikroben. Das Belly Button Biodiversity Project der North Carolina State University und des North Carolina Museum of Natural Sciences hat genauer hingeschaut. 60 mutige Freiwillige ließen sich den Nabel abtupfen, danach wurde das Erbgut der Bakterien analysiert.\n\nDas Ergebnis von 2012: insgesamt 2.368 Bakterienarten, 1.458 davon möglicherweise neu für die Wissenschaft. Ein Nabel beherbergte im Schnitt rund 67 Arten, die Spanne reichte von 29 bis 107. Ein paar Arten waren bei vielen Menschen zu finden, die meisten aber nur bei einer einzigen Person.\n\nKurios: Ein Wissenschaftsjournalist trug ein Bakterium, das man bis dahin nur aus Bodenproben in Japan kannte, obwohl er nie dort gewesen war. Da die Zählung auf Erbgut-Gruppen beruht, ist „Art“ hier eine Annäherung. Klar ist trotzdem: Jeder Bauchnabel ist ein eigener kleiner Zoo.",
+  "teaser": "In nur 60 Bauchnäbeln fanden Forschende 2012 rund 2.368 Bakterienarten. Gut die Hälfte war der Wissenschaft womöglich unbekannt.",
+  "detail": "Warm, geschützt, selten geschrubbt: Der Bauchnabel ist ein Mikroben-Paradies. Das Belly Button Biodiversity Project der North Carolina State University und des North Carolina Museum of Natural Sciences hat nachgeschaut. 60 mutige Freiwillige ließen sich den Nabel abtupfen, dann wurde das Bakterien-Erbgut analysiert.\n\nErgebnis von 2012: insgesamt 2.368 Bakterienarten, 1.458 davon möglicherweise neu für die Wissenschaft. Ein Nabel beherbergte im Schnitt rund 67 Arten, die Spanne reichte von 29 bis 107. Ein paar Arten waren weit verbreitet, die meisten fanden sich nur bei einer einzigen Person.\n\nBester Fund: Ein Wissenschaftsjournalist trug ein Bakterium, das man bis dahin nur aus Bodenproben in Japan kannte. Er war nie dort gewesen.\n\nDa die Zählung auf Erbgut-Gruppen beruht, ist „Art“ hier eine Annäherung. Klar ist trotzdem: Jeder Bauchnabel ist ein eigener kleiner Zoo.",
   "sources": [
    {
     "title": "Belly Button Bacteria: Unexpectedly Diverse, Possibly Useful",
@@ -930,15 +943,16 @@
   ],
   "gross": true,
   "kids": false,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "koe-ecd60a",
   "category": "koerper",
   "lang": "de",
-  "headline": "Ob dein Ohrenschmalz trocken oder klebrig ist, steht in deinen Genen",
-  "teaser": "Ein einziger Buchstabe im Gen ABCC11 entscheidet, ob man trockenes oder feuchtes Ohrenschmalz hat; trockenes ist in Ostasien häufig, anderswo selten.",
-  "detail": "Ohrenschmalz gibt es in zwei Sorten: feucht, gelblich-braun und klebrig, oder trocken, hell und bröselig. Welche man hat, ist keine Frage der Hygiene, sondern der Vererbung. Japanische Forschende fanden 2006 im Fachjournal Nature Genetics den Grund.\n\nEntscheidend ist eine winzige Variante im Gen ABCC11, ein einziger ausgetauschter DNA-Baustein. Wer die Variante von beiden Eltern geerbt hat, hat trockenes Ohrenschmalz. Wer mindestens eine „feuchte“ Kopie trägt, hat die klebrige Sorte. Die Autoren bezeichneten das als erstes Beispiel dafür, dass ein einzelner DNA-Unterschied ein sichtbares Merkmal festlegt.\n\nDie trockene Variante ist bei Menschen mit chinesischen und koreanischen Wurzeln am häufigsten und wird nach Westen und Süden hin seltener. In Europa und Afrika ist feuchtes Ohrenschmalz die Regel. Ohrenschmalz-Typ ist also ein kleines Stück Familiengeschichte im Ohr.",
+  "headline": "Trocken oder klebrig: Dein Ohrenschmalz steht in den Genen",
+  "teaser": "Ein einziger Buchstabe im Gen ABCC11 entscheidet, ob du trockenes oder feuchtes Ohrenschmalz hast. Trockenes ist in Ostasien häufig, anderswo selten.",
+  "detail": "Ohrenschmalz gibt es in zwei Sorten: feucht, gelblich-braun und klebrig, oder trocken, hell und bröselig. Welche du hast, hat nichts mit Hygiene zu tun, sondern mit Vererbung. Japanische Forschende fanden 2006 im Fachjournal Nature Genetics den Grund.\n\nEntscheidend ist eine winzige Variante im Gen ABCC11, ein einziger ausgetauschter DNA-Baustein. Wer die Variante von beiden Eltern geerbt hat, hat trockenes Ohrenschmalz. Wer mindestens eine „feuchte“ Kopie trägt, hat die klebrige Sorte. Die Autoren nannten das das erste Beispiel dafür, dass ein einzelner DNA-Unterschied ein sichtbares Merkmal festlegt.\n\nDie trockene Variante ist bei Menschen mit chinesischen und koreanischen Wurzeln am häufigsten und wird nach Westen und Süden seltener. In Europa und Afrika ist feucht die Regel.\n\nDein Ohrenschmalz ist also ein kleines Stück Familiengeschichte, direkt im Ohr.",
   "sources": [
    {
     "title": "A SNP in the ABCC11 gene is the determinant of human earwax type",
@@ -954,6 +968,7 @@
   ],
   "gross": true,
   "kids": false,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -961,8 +976,8 @@
   "category": "koerper",
   "lang": "de",
   "headline": "Im Schlaf bringt dein Gehirn den Müll raus",
-  "teaser": "Ein Spülsystem im Gehirn, das glymphatische System, arbeitet vor allem im Schlaf und wäscht Abfallstoffe aus, das zeigten Versuche an Mäusen 2013.",
-  "detail": "Warum wir ein Drittel unseres Lebens verschlafen, ist eine der großen Fragen der Biologie. Ein Team um die dänische Neurowissenschaftlerin Maiken Nedergaard an der University of Rochester lieferte 2013 im Fachjournal Science eine verblüffende Antwort: Schlaf ist auch Putzzeit.\n\nDas Gehirn hat ein eigenes Abwassersystem, das die Forschenden glymphatisches System tauften. Hirnflüssigkeit strömt dabei durch das Gewebe und spült Stoffwechselreste weg, darunter Eiweiße, die mit Alzheimer in Verbindung gebracht werden. Bei schlafenden Mäusen war dieses System viel aktiver als bei wachen. Im Schlaf wurden die Zwischenräume zwischen den Hirnzellen deutlich größer, sodass die Flüssigkeit besser durchkam.\n\nNedergaard verglich das mit einer Party: Entweder man unterhält die Gäste oder man räumt auf, beides gleichzeitig klappt nicht. Wichtig: Die Versuche liefen an Mäusen. Wie genau das System beim Menschen funktioniert, wird noch erforscht und unter Fachleuten diskutiert.",
+  "teaser": "Das glymphatische System spült Abfallstoffe aus dem Gehirn, und zwar vor allem im Schlaf. Das zeigten Versuche an Mäusen 2013.",
+  "detail": "Warum wir ein Drittel unseres Lebens verschlafen, ist eine der großen Fragen der Biologie. Ein Team um die dänische Neurowissenschaftlerin Maiken Nedergaard an der University of Rochester lieferte 2013 im Fachjournal Science eine verblüffende Teilantwort: Schlaf ist auch Putzzeit.\n\nDas Gehirn hat ein eigenes Abwassersystem, von den Forschenden glymphatisches System getauft. Hirnflüssigkeit strömt durchs Gewebe und spült Stoffwechselreste weg, darunter Eiweiße, die mit Alzheimer in Verbindung gebracht werden. Bei schlafenden Mäusen war das System viel aktiver als bei wachen, die Zwischenräume zwischen den Hirnzellen wurden deutlich größer, die Flüssigkeit kam besser durch.\n\nNedergaard verglich das mit einer Party: Entweder man unterhält die Gäste oder man räumt auf. Beides gleichzeitig klappt nicht.\n\nWichtig: Das waren Mäuse. Wie das beim Menschen genau läuft, wird noch erforscht und diskutiert.",
   "sources": [
    {
     "title": "To Sleep, Perchance to Clean",
@@ -979,6 +994,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -986,8 +1002,8 @@
   "category": "koerper",
   "lang": "de",
   "headline": "Schuld am Vergessen ist die Tür",
-  "teaser": "Wer durch eine Tür geht, vergisst laut einer Studie der University of Notre Dame von 2011 eher, was er gerade vorhatte, als wer dieselbe Strecke im Raum läuft.",
-  "detail": "Kennst du das? Du gehst in die Küche und weißt plötzlich nicht mehr, was du dort wolltest. Der Psychologe Gabriel Radvansky von der University of Notre Dame hat dafür einen Verdächtigen gefunden: den Türrahmen.\n\nIn drei Experimenten, teils in einer virtuellen Umgebung, teils in echten Räumen, sollten Versuchspersonen Gegenstände zwischen Tischen austauschen und sich merken, was sie gerade bei sich hatten. Mal führte der Weg durch eine Tür, mal legten sie die gleiche Strecke innerhalb eines Raums zurück. Nach dem Gang durch die Tür vergaßen sie deutlich mehr.\n\nRadvansky erklärt das so: Eine Tür wirkt im Kopf wie eine Ereignisgrenze. Das Gehirn schließt die vorige Episode ab und legt sie gewissermaßen weg, um Platz für die neue Situation zu schaffen. Was im alten Raum beschlossen wurde, ist danach schwerer abrufbar.",
+  "teaser": "Wer durch eine Tür geht, vergisst laut einer Studie der University of Notre Dame von 2011 eher, was er vorhatte, als wer dieselbe Strecke im Raum läuft.",
+  "detail": "Du gehst in die Küche und weißt plötzlich nicht mehr, was du da wolltest? Der Psychologe Gabriel Radvansky von der University of Notre Dame hat einen Verdächtigen: den Türrahmen.\n\nIn drei Experimenten, teils virtuell, teils in echten Räumen, sollten Versuchspersonen Gegenstände zwischen Tischen austauschen und sich merken, was sie gerade bei sich trugen. Mal ging der Weg durch eine Tür, mal blieb er bei gleicher Strecke im selben Raum. Nach der Tür vergaßen sie deutlich mehr.\n\nRadvanskys Erklärung: Eine Tür wirkt im Kopf wie eine Ereignisgrenze. Das Gehirn schließt die vorige Episode ab und legt sie weg, um Platz für die neue Situation zu machen. Was im alten Raum beschlossen wurde, ist danach schwerer abrufbar.\n\nDie gute Nachricht: Du bist nicht vergesslich. Die Tür war's.",
   "sources": [
    {
     "title": "Walking through doorways causes forgetting, new research shows",
@@ -1003,6 +1019,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -1027,15 +1044,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "koe-77aef0",
   "category": "koerper",
   "lang": "de",
-  "headline": "Mythos Zungenkarte: Süß schmeckt man nicht nur vorne",
-  "teaser": "Die Schulbuch-Karte mit Zonen für süß, sauer, salzig und bitter ist falsch; Geschmacksrezeptoren für alle Richtungen sitzen über die ganze Zunge verteilt.",
-  "detail": "Viele haben sie in der Schule abgezeichnet: die Zunge mit „süß“ an der Spitze, „bitter“ hinten und „sauer“ und „salzig“ an den Seiten. Das Bild ist eingängig, aber falsch. Geschmacksrezeptoren für alle Grundgeschmäcker sitzen auf der gesamten Zunge.\n\nDie Fehlerkette beginnt 1901. Der deutsche Forscher David P. Hänig maß, wie empfindlich verschiedene Stellen am Zungenrand auf Geschmäcker reagieren, und fand nur kleine Unterschiede. In den 1940er-Jahren zeichnete der Harvard-Psychologe Edwin G. Boring Hänigs Daten neu. In seiner Grafik sahen die kleinen Schwankungen aus wie scharf getrennte Zonen, und daraus wurde die berühmte Karte.\n\nDu kannst das zuhause testen: Ein paar Zuckerkörnchen hinten auf die Zunge, und du schmeckst trotzdem süß. Übrigens fehlt auf der alten Karte ein ganzer Geschmack: umami, der herzhafte Geschmack etwa von Brühe, Parmesan oder Tomaten, wird heute als fünfte Grundrichtung anerkannt.",
+  "headline": "Die Zungenkarte aus der Schule ist Quatsch",
+  "teaser": "Die Schulbuch-Karte mit Zonen für süß, sauer, salzig und bitter ist falsch. Rezeptoren für alle Geschmäcker sitzen über die ganze Zunge verteilt.",
+  "detail": "Viele haben sie in der Schule abgemalt: Zunge mit „süß“ an der Spitze, „bitter“ hinten, „sauer“ und „salzig“ an den Seiten. Eingängig, aber falsch. Rezeptoren für alle Grundgeschmäcker sitzen auf der gesamten Zunge.\n\nDie Fehlerkette beginnt 1901. Der deutsche Forscher David P. Hänig maß, wie empfindlich verschiedene Stellen am Zungenrand reagieren, und fand nur kleine Unterschiede. In den 1940er-Jahren zeichnete der Harvard-Psychologe Edwin G. Boring Hänigs Daten neu. In seiner Grafik sahen die kleinen Schwankungen aus wie scharf getrennte Zonen. Und zack, war die berühmte Karte geboren.\n\nTest für zuhause: ein paar Zuckerkörnchen hinten auf die Zunge. Schmeckt trotzdem süß.\n\nUnd der alten Karte fehlt sogar ein ganzer Geschmack: umami, das Herzhafte etwa in Brühe, Parmesan oder Tomaten, gilt heute als fünfte Grundrichtung. Eine schlecht gezeichnete Grafik, jahrzehntelang abgemalt.",
   "sources": [
    {
     "title": "The Taste Map of the Tongue You Learned in School Is All Wrong",
@@ -1051,15 +1069,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "koe-1740d1",
   "category": "koerper",
   "lang": "de",
-  "headline": "Du leuchtest – nur sieht es keiner",
-  "teaser": "Der menschliche Körper gibt sichtbares Licht ab, etwa 1.000-mal zu schwach für unsere Augen, und am hellsten leuchten wir am Nachmittag.",
-  "detail": "Gemeint ist nicht die Wärmestrahlung, die Wärmebildkameras zeigen. Unser Körper sendet tatsächlich sichtbares Licht aus, nur extrem wenig. Fast alle Lebewesen tun das, vermutlich als Nebenprodukt chemischer Reaktionen mit freien Radikalen im Stoffwechsel.\n\nForschende in Japan haben das 2009 im Fachjournal PLoS ONE sichtbar gemacht. Sie setzten fünf junge Männer mit freiem Oberkörper in völlig dunkle Räume vor hochempfindliche Kameras, die einzelne Lichtteilchen zählen können. Drei Tage lang wurde alle drei Stunden fotografiert. Ergebnis: Das Leuchten schwankt im Tagesverlauf, am schwächsten war es um 10 Uhr, am stärksten um 16 Uhr.\n\nAm hellsten strahlten die Gesichter. Eine mögliche Erklärung ist der Hautfarbstoff Melanin, der fluoreszierende Bestandteile hat, und Gesichter bekommen mehr Sonne ab. Mit bloßem Auge wirst du dein Leuchten trotzdem nie sehen: Es ist rund 1.000-mal schwächer als das, was unsere Augen wahrnehmen können.",
+  "headline": "Du leuchtest, nur sieht es keiner",
+  "teaser": "Der menschliche Körper gibt sichtbares Licht ab, etwa 1.000-mal zu schwach für unsere Augen. Am hellsten leuchten wir am Nachmittag.",
+  "detail": "Gemeint ist nicht die Wärme, die Wärmebildkameras zeigen. Unser Körper sendet tatsächlich sichtbares Licht aus, nur extrem wenig. Fast alle Lebewesen tun das, vermutlich als Nebenprodukt chemischer Reaktionen mit freien Radikalen im Stoffwechsel.\n\nForschende in Japan haben das 2009 im Fachjournal PLoS ONE sichtbar gemacht. Sie setzten fünf junge Männer mit freiem Oberkörper in völlig dunkle Räume vor hochempfindliche Kameras, die einzelne Lichtteilchen zählen. Drei Tage lang, alle drei Stunden ein Foto. Ergebnis: Das Leuchten schwankt, am schwächsten um 10 Uhr, am stärksten um 16 Uhr.\n\nAm hellsten strahlten die Gesichter. Eine mögliche Erklärung ist der Hautfarbstoff Melanin mit seinen fluoreszierenden Bestandteilen, und Gesichter bekommen mehr Sonne ab.\n\nMit bloßem Auge siehst du dein Leuchten trotzdem nie: Es ist rund 1.000-mal schwächer als das, was unsere Augen wahrnehmen können. Strahlen kannst du also, nur eben unsichtbar.",
   "sources": [
    {
     "title": "Strange! Humans Glow in Visible Light",
@@ -1075,6 +1094,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -1082,8 +1102,8 @@
   "category": "koerper",
   "lang": "de",
   "headline": "Warum du dich nicht selbst kitzeln kannst",
-  "teaser": "Das Kleinhirn sagt voraus, wie sich die eigene Berührung anfühlt, und dämpft die Reaktion, deshalb kitzelt es nicht, wenn man es selbst versucht.",
-  "detail": "Probier es ruhig aus: Du kannst dich so viel unter den Armen kitzeln, wie du willst, es passiert praktisch nichts. Die Neurowissenschaftlerin Sarah-Jayne Blakemore vom University College London hat untersucht, warum.\n\nDie Antwort liegt im Kleinhirn am Hinterkopf, das unsere Bewegungen überwacht. Wenn du dich selbst berührst, berechnet es vorher, welches Gefühl gleich entstehen wird, und schwächt die Reaktion anderer Hirnbereiche darauf ab. Im Hirnscanner waren die Regionen für Tastsinn und angenehme Gefühle beim Selbstkitzeln deutlich weniger aktiv als beim Kitzeln durch eine andere Person. Fremde Finger kann das Kleinhirn eben nicht vorhersagen.\n\nDas Team hat das Gehirn sogar ausgetrickst: Mit einem Roboter, der die eigene Bewegung leicht verzögert weitergab, fühlte sich die Selbstberührung wieder kitzliger an, je länger die Verzögerung, desto stärker. Blakemore merkte an, mit ein paar Robotern könne man sich also doch selbst kitzeln.",
+  "teaser": "Das Kleinhirn sagt voraus, wie sich deine eigene Berührung anfühlt, und dämpft die Reaktion. Deshalb kitzelt es nicht, wenn du es selbst versuchst.",
+  "detail": "Probier's ruhig: Du kannst dich unter den Armen kitzeln, so viel du willst, es passiert praktisch nichts. Die Neurowissenschaftlerin Sarah-Jayne Blakemore vom University College London hat untersucht, warum.\n\nDie Antwort sitzt im Kleinhirn am Hinterkopf, das unsere Bewegungen überwacht. Berührst du dich selbst, berechnet es vorab, wie sich das gleich anfühlt, und schwächt die Reaktion anderer Hirnbereiche ab. Im Hirnscanner waren die Regionen für Tastsinn und angenehme Gefühle beim Selbstkitzeln deutlich weniger aktiv als beim Kitzeln durch jemand anderen. Fremde Finger kann das Kleinhirn eben nicht vorhersagen.\n\nDas Team hat das Gehirn sogar ausgetrickst: Ein Roboter gab die eigene Bewegung leicht verzögert weiter, und schon kitzelte es wieder mehr. Je länger die Verzögerung, desto stärker.\n\nBlakemores trockener Kommentar: Mit ein paar Robotern kann man sich also doch selbst kitzeln.",
   "sources": [
    {
     "title": "Why can't a person tickle himself?",
@@ -1099,6 +1119,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -1123,6 +1144,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -1131,7 +1153,7 @@
   "lang": "de",
   "headline": "Deine Hornhaut atmet direkt aus der Luft",
   "teaser": "Die Hornhaut des Auges hat keine Blutgefäße und holt sich ihren Sauerstoff größtenteils direkt aus der Umgebungsluft.",
-  "detail": "Fast jedes Gewebe im Körper wird über Blutgefäße mit Sauerstoff versorgt. Die Hornhaut, die durchsichtige Vorderseite des Auges, ist eine Ausnahme. Sie hat keine Blutgefäße, und das aus gutem Grund: Adern würden das Licht stören und wir würden schlechter sehen.\n\nStattdessen bedient sich die Hornhaut direkt aus der Atmosphäre. Sauerstoff aus der Luft löst sich im Tränenfilm auf der Augenoberfläche und wandert von dort ins Gewebe. Ein Teil kommt außerdem aus dem Kammerwasser im Inneren des Auges.\n\nSchließt man die Augen, wird es knapp. Laut einem Fachartikel von 2021 sinkt der Sauerstoff in der Hornhaut dann auf etwa ein Drittel. Im Schlaf übernehmen Bindehaut und Kammerwasser die Versorgung. Deshalb ist es auch keine gute Idee, mit normalen Kontaktlinsen zu schlafen: Die Linse liegt wie ein Deckel auf dem Auge und kann der Hornhaut zusätzlich die Luft abschnüren.",
+  "detail": "Fast jedes Gewebe im Körper bekommt seinen Sauerstoff über Blutgefäße. Die Hornhaut, die durchsichtige Vorderseite des Auges, macht eine Ausnahme. Sie hat keine Blutgefäße, und das ist gut so: Adern würden das Licht stören, wir würden schlechter sehen.\n\nStattdessen bedient sich die Hornhaut einfach aus der Atmosphäre. Sauerstoff aus der Luft löst sich im Tränenfilm und wandert von dort ins Gewebe. Ein Teil kommt zusätzlich aus dem Kammerwasser im Inneren des Auges.\n\nAugen zu, und es wird knapp. Laut einem Fachartikel von 2021 sinkt der Sauerstoff in der Hornhaut dann auf etwa ein Drittel. Im Schlaf übernehmen Bindehaut und Kammerwasser.\n\nDeshalb ist Schlafen mit normalen Kontaktlinsen keine gute Idee: Die Linse liegt wie ein Deckel auf dem Auge und kann der Hornhaut zusätzlich die Luft abschnüren. Dein Auge will nämlich mitatmen.",
   "sources": [
    {
     "title": "Hypoxia adaptation in the cornea: Current animal models and underlying mechanisms",
@@ -1147,15 +1169,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "koe-10bb18",
   "category": "koerper",
   "lang": "de",
-  "headline": "Dein Gehirn ist ein echter Energiefresser",
+  "headline": "Dein Gehirn ist ein Energiefresser",
   "teaser": "Das Gehirn macht nur etwa 2 Prozent des Körpergewichts aus, verbraucht aber rund 20 Prozent des Sauerstoffs und damit der Kalorien.",
-  "detail": "Ein erwachsenes Gehirn wiegt grob 1,3 bis 1,4 Kilogramm, also etwa so viel wie eine große Ananas. Gemessen am Rest des Körpers ist das wenig, rund 2 Prozent des Gewichts. Trotzdem schluckt es etwa ein Fünftel des Sauerstoffs, den wir aufnehmen, und damit auch ein Fünftel der Energie, die der Körper in Ruhe verbrennt. Das haben die Neurowissenschaftler Marcus Raichle und Debra Gusnard 2002 in einem Überblicksartikel der Fachzeitschrift PNAS zusammengefasst.\n\nWofür braucht es so viel? Vor allem für die Kommunikation der Nervenzellen. Jedes Signal erfordert, dass Ladungen über die Zellmembran hin- und hergepumpt werden, und das kostet ständig Energie.\n\nAuf den Tag gerechnet entspricht das bei einem Grundumsatz um 1.500 bis 2.000 Kalorien grob 300 bis 400 Kalorien, nur fürs Denken und Funktionieren. Pauken als Diät funktioniert trotzdem nicht.",
+  "detail": "Ein erwachsenes Gehirn wiegt grob 1,3 bis 1,4 Kilogramm, etwa so viel wie eine große Ananas. Das sind rund 2 Prozent des Körpergewichts. Trotzdem schluckt es etwa ein Fünftel des Sauerstoffs und damit ein Fünftel der Energie, die der Körper in Ruhe verbrennt. So fassten es die Neurowissenschaftler Marcus Raichle und Debra Gusnard 2002 in einem Überblicksartikel in PNAS zusammen.\n\nWofür so viel? Vor allem für die Kommunikation der Nervenzellen. Jedes Signal braucht Ladungen, die über die Zellmembran hin- und hergepumpt werden, und das kostet ständig Energie.\n\nBei einem Grundumsatz um 1.500 bis 2.000 Kalorien am Tag sind das grob 300 bis 400 Kalorien, nur fürs Denken und Funktionieren.\n\nDie schlechte Nachricht: Pauken als Diät funktioniert trotzdem nicht.",
   "sources": [
    {
     "title": "Appraising the brain's energy budget",
@@ -1171,6 +1194,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -1742,9 +1766,9 @@
   "id": "wis-fefb3d",
   "category": "wissenschaft",
   "lang": "de",
-  "headline": "Ein geschmolzener Schokoriegel brachte die Mikrowelle in die Küche",
-  "teaser": "Die Mikrowelle entstand, weil dem Raytheon-Ingenieur Percy Spencer um 1946 ein Snack in der Hosentasche weich wurde, als er neben einem Radar-Magnetron stand.",
-  "detail": "Percy Spencer arbeitete bei der US-Firma Raytheon an Radartechnik. Herzstück war das Magnetron, eine Röhre, die Mikrowellen erzeugt. Als Spencer daneben stand, wurde sein Schokoriegel in der Tasche warm und weich. Statt sich über die klebrige Hose zu ärgern, wurde er neugierig.\n\nAls Nächstes legte er Maiskörner vor das Magnetron, und die sprangen als Popcorn quer durchs Labor. Damit war klar: Diese Strahlung kann Essen erhitzen. Mikrowellen bringen vor allem die Wassermoleküle im Essen zum Schwingen, und diese Bewegung wird zu Wärme.\n\nDer erste Ofen hatte mit dem heutigen Küchengerät wenig gemeinsam. Ein Prototyp war fast zwei Meter hoch und wog rund 340 Kilogramm, also eher ein Schrank als ein Haushaltsgerät. Das Seriengerät hieß „Radarange“ und kostete etwa 5.000 US-Dollar, was heute rund 64.000 Dollar entspräche. Bis die Mikrowelle klein und billig genug für normale Küchen war, vergingen noch Jahrzehnte.",
+  "headline": "Ein geschmolzener Schokoriegel erfand die Mikrowelle",
+  "teaser": "Um 1946 stand Raytheon-Ingenieur Percy Spencer neben einem Radar-Magnetron, und der Snack in seiner Hosentasche wurde weich. So begann die Mikrowelle.",
+  "detail": "Percy Spencer arbeitete bei der US-Firma Raytheon an Radartechnik. Herzstück war das Magnetron, eine Röhre, die Mikrowellen erzeugt. Als Spencer daneben stand, wurde sein Schokoriegel in der Tasche warm und weich. Statt sich über die klebrige Hose zu ärgern, wurde er neugierig.\n\nNächster Versuch: Maiskörner vor das Magnetron. Die sprangen als Popcorn quer durchs Labor. Damit war klar, diese Strahlung kann Essen erhitzen. Mikrowellen bringen vor allem die Wassermoleküle im Essen zum Schwingen, und die Bewegung wird zu Wärme.\n\nDer erste Ofen war allerdings kein Küchengerät. Ein Prototyp war fast zwei Meter hoch und wog rund 340 Kilogramm, eher Schrank als Haushaltshelfer. Das Seriengerät hieß „Radarange“ und kostete etwa 5.000 US-Dollar, heute rund 64.000 Dollar.\n\nBis die Mikrowelle klein und billig genug für normale Küchen war, vergingen noch Jahrzehnte. Ein teures Popcorn.",
   "sources": [
    {
     "title": "A Brief History of the Microwave Oven",
@@ -1761,15 +1785,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "wis-3a2ab2",
   "category": "wissenschaft",
   "lang": "de",
-  "headline": "Luftpolsterfolie sollte eigentlich eine Tapete werden",
-  "teaser": "Die Erfinder der Luftpolsterfolie wollten 1957 eigentlich eine schicke strukturierte Tapete herstellen, doch erst als Verpackung für IBM-Computer wurde daraus ein Erfolg.",
-  "detail": "Alfred Fielding und Marc Chavannes hatten 1957 eine Idee für die Wohnzimmer der Beat-Generation: eine Tapete mit Struktur. Dafür schweißten sie zwei Kunststoff-Duschvorhänge zusammen, und heraus kam eine Folie voller eingeschlossener Luftblasen. Als Wandschmuck wollte die allerdings niemand haben.\n\nAufgeben kam trotzdem nicht in Frage. Die beiden gründeten 1960 die Firma Sealed Air und suchten nach anderen Verwendungen. Ein Versuch als Isolierung für Gewächshäuser floppte ebenfalls ziemlich gründlich.\n\nDie Rettung kam aus der Computerbranche. IBM hatte gerade den Rechner 1401 auf den Markt gebracht, ein Bestseller seiner Zeit, und brauchte eine Möglichkeit, das empfindliche Gerät heil zum Kunden zu bringen. Die Blasenfolie passte perfekt. Seitdem polstert sie Pakete auf der ganzen Welt.\n\nUnd das befriedigende Plopp-Geräusch beim Zerdrücken der Bläschen? Das gab es gratis dazu, auch wenn es nie der eigentliche Plan war.",
+  "headline": "Luftpolsterfolie sollte eigentlich Tapete werden",
+  "teaser": "Die Erfinder der Luftpolsterfolie wollten 1957 eine schicke Struktur-Tapete bauen. Erfolg hatte das Zeug erst als Verpackung für IBM-Computer.",
+  "detail": "Alfred Fielding und Marc Chavannes hatten 1957 eine Idee für die Wohnzimmer der Beat-Generation: Tapete mit Struktur. Dafür schweißten sie zwei Kunststoff-Duschvorhänge zusammen. Heraus kam eine Folie voller eingeschlossener Luftblasen. Und niemand wollte sie an der Wand haben.\n\nAufgeben? Nö. Die beiden gründeten 1960 die Firma Sealed Air und suchten weiter. Als Isolierung für Gewächshäuser floppte die Folie ebenfalls ziemlich gründlich.\n\nDie Rettung kam aus der Computerbranche. IBM hatte gerade den Rechner 1401 herausgebracht, einen Bestseller seiner Zeit, und brauchte etwas, um das empfindliche Gerät heil zum Kunden zu bringen. Die Blasenfolie passte perfekt. Seitdem polstert sie Pakete auf der ganzen Welt.\n\nUnd das befriedigende Plopp beim Zerdrücken? Gab's gratis dazu, auch wenn es nie der Plan war. Als Tapete wäre das übrigens ziemlich laut geworden.",
   "sources": [
    {
     "title": "The Accidental Invention of Bubble Wrap",
@@ -1786,15 +1811,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "wis-db9dcb",
   "category": "wissenschaft",
   "lang": "de",
-  "headline": "Knete war früher ein Putzmittel für rußige Tapeten",
-  "teaser": "Play-Doh war ursprünglich eine Reinigungsmasse, mit der man Kohleruß von Tapeten wischte, erst 1956 kam sie als Kinderknete auf den Markt.",
-  "detail": "Bevor Kinder damit Dinosaurier formten, schrubbten Erwachsene damit ihre Wände. Die Firma Kutol Products aus Cincinnati stellte eine weiche, formbare Masse her, mit der man Ruß von Tapeten abwischen konnte. Das war nötig, weil viele Häuser mit Kohle geheizt wurden und die Wände schnell grau wurden. Anfang des 20. Jahrhunderts war Kutol damit der größte Hersteller von Tapetenreiniger weltweit.\n\nDann kam das Problem: Die Haushalte stiegen auf saubere Öl-, Gas- und Elektroheizungen um. Weniger Ruß bedeutete weniger Kundschaft, das Geschäft brach ein.\n\nDie Wende brachte Kay Zufall, Kindergärtnerin und Schwägerin eines Firmenchefs. Sie testete die ungiftige Masse mit ihren Kindergartenkindern als Modelliermasse, und die waren begeistert. 1956 feierte die Masse ihr Debüt als Spielzeug, unter dem neuen Namen Play-Doh. Aus einem aussterbenden Putzmittel wurde so einer der bekanntesten Spielzeugklassiker der Welt.",
+  "headline": "Knete war früher Putzmittel für rußige Tapeten",
+  "teaser": "Play-Doh war ursprünglich eine Reinigungsmasse, mit der man Kohleruß von Tapeten wischte. Erst 1956 kam sie als Kinderknete auf den Markt.",
+  "detail": "Bevor Kinder damit Dinosaurier formten, schrubbten Erwachsene damit ihre Wände. Die Firma Kutol Products aus Cincinnati stellte eine weiche Masse her, mit der man Ruß von Tapeten wischen konnte. Nötig war das, weil viele Häuser mit Kohle geheizt wurden und die Wände schnell grau wurden. Anfang des 20. Jahrhunderts war Kutol damit der größte Hersteller von Tapetenreiniger weltweit.\n\nDann das Problem: Die Haushalte stiegen auf Öl-, Gas- und Elektroheizungen um. Weniger Ruß, weniger Kundschaft, das Geschäft brach ein.\n\nDie Wende brachte Kay Zufall, Kindergärtnerin und Schwägerin eines Firmenchefs. Sie testete die ungiftige Masse mit ihren Kindergartenkindern als Modelliermasse, und die waren begeistert. 1956 kam sie als Spielzeug heraus, unter dem neuen Namen Play-Doh.\n\nAus einem aussterbenden Putzmittel wurde ein Spielzeugklassiker. Und die Idee kam ausgerechnet von einer Frau namens Zufall.",
   "sources": [
    {
     "title": "The Accidental Invention of Play-Doh",
@@ -1811,15 +1837,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "wis-4efa10",
   "category": "wissenschaft",
   "lang": "de",
-  "headline": "Teflon entstand in einer Gasflasche, aus der nichts herauskam",
-  "teaser": "Teflon wurde 1938 zufällig entdeckt: Eine Gasflasche gab kein Gas mehr ab, war aber noch genauso schwer, und drinnen lag ein weißes, extrem rutschiges Pulver.",
-  "detail": "Der Chemiker Roy Plunkett forschte 1938 beim US-Konzern DuPont eigentlich an neuen Kühlmitteln für Kühlschränke. Dafür lagerte er das Gas Tetrafluorethylen gekühlt in Druckflaschen. Als er und sein Helfer eines Tages eine Flasche benutzen wollten, kam nichts heraus. Seltsam: Die Flasche wog genauso viel wie vorher.\n\nAlso schnitten die beiden sie auf und fanden ein weißes Pulver. Das Gas hatte sich in der Flasche von selbst zu einem Kunststoff verbunden. Der neue Stoff hielt Hitze aus, reagierte mit fast nichts und war so glatt, dass kaum etwas an ihm haften blieb.\n\nSeinen ersten Einsatz hatte Teflon übrigens nicht in der Küche, sondern im Manhattan-Projekt, wo man Material brauchte, das aggressiven Fluorverbindungen widerstand. Die beschichtete Pfanne kam erst Jahre später. Plunkett erklärte später, seine Ausbildung habe ihn darauf vorbereitet, das Neue überhaupt zu erkennen.",
+  "headline": "Teflon kam aus einer Gasflasche, aus der nichts kam",
+  "teaser": "1938 gab eine Gasflasche kein Gas mehr ab, war aber noch genauso schwer. Drinnen lag ein weißes, extrem rutschiges Pulver: Teflon.",
+  "detail": "Der Chemiker Roy Plunkett forschte 1938 beim US-Konzern DuPont eigentlich an Kühlmitteln für Kühlschränke. Dafür lagerte er das Gas Tetrafluorethylen gekühlt in Druckflaschen. Eines Tages wollten er und sein Helfer eine Flasche benutzen, und es kam nichts heraus. Seltsam: Die Flasche wog genauso viel wie vorher.\n\nAlso schnitten sie sie auf und fanden ein weißes Pulver. Das Gas hatte sich in der Flasche von selbst zu einem Kunststoff verbunden. Der neue Stoff hielt Hitze aus, reagierte mit fast nichts und war so glatt, dass kaum etwas an ihm haften blieb.\n\nSein erster Job war übrigens nicht die Bratpfanne, sondern das Manhattan-Projekt, wo man Material brauchte, das aggressiven Fluorverbindungen widerstand. Die beschichtete Pfanne kam erst Jahre später.\n\nPlunkett sagte später, seine Ausbildung habe ihn darauf vorbereitet, das Neue überhaupt zu erkennen. Andere hätten die Flasche wohl einfach reklamiert.",
   "sources": [
    {
     "title": "Roy J. Plunkett",
@@ -1835,6 +1862,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -1860,15 +1888,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "wis-be4e0e",
   "category": "wissenschaft",
   "lang": "de",
-  "headline": "Sekundenkleber wurde zweimal entdeckt und erst einmal weggeworfen",
-  "teaser": "Harry Coover stieß 1942 auf Sekundenkleber, verwarf ihn aber, weil er an allem klebte, erst 1951 erkannte er beim zweiten Zufallsfund den Nutzen.",
-  "detail": "Harry Coover arbeitete 1942 für Eastman Kodak und sollte eigentlich ein Zielfernrohr aus klarem Kunststoff entwickeln. Dabei stieß er auf eine Substanzgruppe namens Cyanacrylate. Das Problem: Das Zeug klebte an allem fest, was es berührte. Für Linsen war das völlig unbrauchbar, also landete es in der Schublade.\n\nNeun Jahre später, 1951, wurde Coover nach Kingsport in Tennessee versetzt und leitete dort ein Chemikerteam. Wieder tauchte das Superkleben auf, diesmal bei der Suche nach hitzebeständigen Kunststoffen. Und diesmal machte es bei Coover Klick: Ein Kleber, der ohne Hitze und ohne Pressen sofort hält, ist kein Fehler, sondern ein Produkt.\n\n1958 kam der Stoff als Industriekleber „Eastman 910“ auf den Markt. Der Name Superkleber setzte sich erst später durch. Im Vietnamkrieg soll der Kleber sogar zum Verschließen von Wunden genutzt worden sein. Ein schönes Beispiel dafür, dass ein „misslungenes“ Experiment manchmal nur auf die richtige Frage wartet.",
+  "headline": "Sekundenkleber landete erst mal in der Schublade",
+  "teaser": "Harry Coover stieß 1942 auf Sekundenkleber und verwarf ihn, weil er an allem klebte. Erst 1951, beim zweiten Zufallsfund, erkannte er den Nutzen.",
+  "detail": "Harry Coover arbeitete 1942 für Eastman Kodak und sollte ein Zielfernrohr aus klarem Kunststoff entwickeln. Dabei stieß er auf Cyanacrylate. Problem: Das Zeug klebte an allem fest, was es berührte. Für Linsen völlig unbrauchbar, also ab in die Schublade.\n\nNeun Jahre später, 1951, wurde Coover nach Kingsport in Tennessee versetzt und leitete ein Chemikerteam. Bei der Suche nach hitzebeständigen Kunststoffen tauchte das Superkleben wieder auf. Diesmal machte es Klick: Ein Kleber, der ohne Hitze und ohne Pressen sofort hält, ist kein Fehler, sondern ein Produkt.\n\n1958 kam der Stoff als Industriekleber „Eastman 910“ auf den Markt, der Name Superkleber setzte sich erst später durch. Im Vietnamkrieg soll er sogar zum Verschließen von Wunden genutzt worden sein.\n\nManchmal ist ein misslungenes Experiment eben nur eine Antwort, die noch auf ihre Frage wartet. Und manchmal klebt sie so lange in der Schublade fest.",
   "sources": [
    {
     "title": "How a shot at making better gunsights became Super Glue instead",
@@ -1884,6 +1913,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -1908,15 +1938,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "wis-44bc55",
   "category": "wissenschaft",
   "lang": "de",
-  "headline": "Mythos: Altes Kirchenfensterglas ist nicht nach unten geflossen",
-  "teaser": "Alte Kirchenfenster sind unten oft dicker, aber nicht weil Glas langsam fließt: Dafür bräuchte es laut Berechnungen weit länger, als das Universum alt ist.",
-  "detail": "Ein hartnäckiger Mythos besagt, Glas sei eigentlich eine extrem zähe Flüssigkeit. Der angebliche Beweis: Mittelalterliche Fensterscheiben sind unten dicker als oben, das Glas sei über Jahrhunderte nach unten gesackt.\n\nDer brasilianische Materialforscher Edgar Zanotto rechnete 1998 nach, wie lange Glas bei Raumtemperatur fließen müsste, um sichtbar dicker zu werden. Ergebnis für Kirchenglas: weit länger als das Alter des Universums. Eine Studie der Penn State University mit Glas aus der Westminster Abbey kam 2018 zwar zu einer schnelleren Fließrate, doch selbst dann würde es Milliarden Jahre dauern, bis sich die Form auch nur im Nanometerbereich ändert.\n\nDie wahre Ursache liegt in der Herstellung. Früher wurde Fensterglas zu einer großen Kugel geblasen und dann zu einer Scheibe geschleudert. Dabei entstanden Wellen und dickere Ränder. Die ungleichmäßigen Stücke setzten Glaser offenbar oft mit der dicken Seite nach unten ein.",
+  "headline": "Kirchenfensterglas fließt nicht, das ist ein Mythos",
+  "teaser": "Alte Kirchenfenster sind unten oft dicker, aber nicht, weil Glas langsam fließt. Dafür bräuchte es laut Berechnungen weit länger, als das Universum alt ist.",
+  "detail": "Ein hartnäckiger Mythos: Glas sei eigentlich eine extrem zähe Flüssigkeit. Beweis angeblich: Mittelalterliche Scheiben sind unten dicker als oben, das Glas sei über Jahrhunderte nach unten gesackt.\n\nDer brasilianische Materialforscher Edgar Zanotto rechnete 1998 nach, wie lange Glas bei Raumtemperatur fließen müsste, um sichtbar dicker zu werden. Ergebnis für Kirchenglas: weit länger als das Alter des Universums. Eine Studie der Penn State University mit Glas aus der Westminster Abbey kam 2018 zwar auf eine schnellere Fließrate. Aber selbst dann würde es Milliarden Jahre dauern, bis sich die Form auch nur im Nanometerbereich ändert.\n\nDie wahre Ursache ist die Herstellung. Früher wurde Fensterglas zu einer großen Kugel geblasen und dann zur Scheibe geschleudert. Dabei entstanden Wellen und dickere Ränder. Die Glaser setzten die ungleichmäßigen Stücke offenbar oft mit der dicken Seite nach unten ein.\n\nNicht das Glas ist gesackt. Die Handwerker waren einfach praktisch.",
   "sources": [
    {
     "title": "Analysis shatters cathedral glass myth",
@@ -1938,6 +1969,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -1945,8 +1977,8 @@
   "category": "wissenschaft",
   "lang": "de",
   "headline": "Ein Blitz ist rund fünfmal heißer als die Sonnenoberfläche",
-  "teaser": "Ein Blitz kann die Luft auf etwa 28.000 Grad Celsius aufheizen, das ist laut US-Wetterdienst ungefähr fünfmal heißer als die Oberfläche der Sonne.",
-  "detail": "Ein Blitz ist eine gigantische elektrische Entladung zwischen Wolke und Boden oder innerhalb von Wolken. Der Strom muss sich dabei durch die Luft zwängen, und Luft leitet eigentlich schlecht. Die Folge: Der schmale Blitzkanal wird für einen winzigen Moment extrem heiß.\n\nLaut dem US-Wetterdienst NWS kann ein Blitz die Luft auf rund 50.000 Grad Fahrenheit erhitzen, umgerechnet etwa 28.000 Grad Celsius. Die sichtbare Oberfläche der Sonne kommt dagegen auf gut 5.500 Grad Celsius. Ein einzelner Blitz ist also für einen Sekundenbruchteil deutlich heißer als unser Zentralgestirn an seiner Oberfläche.\n\nDiese Hitze erklärt auch den Donner: Die Luft im Blitzkanal dehnt sich schlagartig aus und erzeugt eine Druckwelle, die wir als Krachen oder Grollen hören. Weil Licht viel schneller ist als Schall, sieht man den Blitz zuerst. Zählt man die Sekunden bis zum Donner und teilt durch drei, erhält man grob die Entfernung in Kilometern.",
+  "teaser": "Ein Blitz kann die Luft auf etwa 28.000 Grad Celsius aufheizen. Laut US-Wetterdienst ungefähr fünfmal heißer als die Oberfläche der Sonne.",
+  "detail": "Ein Blitz ist eine riesige elektrische Entladung zwischen Wolke und Boden oder innerhalb von Wolken. Der Strom muss sich durch die Luft zwängen, und Luft leitet eigentlich schlecht. Folge: Der schmale Blitzkanal wird für einen winzigen Moment extrem heiß.\n\nLaut US-Wetterdienst NWS kann ein Blitz die Luft auf rund 50.000 Grad Fahrenheit erhitzen, etwa 28.000 Grad Celsius. Die sichtbare Oberfläche der Sonne kommt auf gut 5.500 Grad Celsius. Für einen Sekundenbruchteil schlägt ein einzelner Blitz also unser Zentralgestirn an dessen Oberfläche.\n\nDie Hitze erklärt auch den Donner: Die Luft im Blitzkanal dehnt sich schlagartig aus und erzeugt eine Druckwelle, die wir als Krachen oder Grollen hören. Weil Licht viel schneller ist als Schall, sieht man den Blitz zuerst.\n\nSekunden bis zum Donner zählen, durch drei teilen, und du hast grob die Entfernung in Kilometern. Physikunterricht zum Mitzählen.",
   "sources": [
    {
     "title": "Understanding Lightning: Overview",
@@ -1960,6 +1992,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -1984,15 +2017,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "wis-64fc17",
   "category": "wissenschaft",
   "lang": "de",
-  "headline": "Klebeband abrollen im Vakuum erzeugt Röntgenstrahlen",
-  "teaser": "Wer Klebeband im Vakuum schnell abrollt, erzeugt Röntgenstrahlung, US-Forscher machten damit 2008 sogar ein Röntgenbild eines Fingers.",
-  "detail": "Ein Team der University of California in Los Angeles berichtete 2008 im Fachjournal Nature über ein verblüffendes Experiment. Die Forschenden rollten in einer Vakuumkammer eine Rolle ganz normales Scotch-Klebeband schnell ab. Dabei entstand nicht nur ein schwaches Leuchten, sondern auch Röntgenstrahlung.\n\nUnd zwar so viel, dass es für ein Bild reichte: Das Team legte einen Finger auf einen Zahnarzt-Röntgenfilm und hielt die abrollende Klebebandrolle daneben. Heraus kam ein grobes Röntgenbild der Fingerknochen.\n\nVermutlich steckt elektrische Ladung dahinter: Beim Abziehen werden Ladungen getrennt, und beschleunigte Elektronen können beim Aufprall Röntgenstrahlung abgeben.\n\nKeine Sorge beim Geschenkeeinpacken: Die Röntgenstrahlung entsteht nur im Vakuum, das Abrollen von Klebeband zu Hause ist also harmlos.",
+  "headline": "Klebeband im Vakuum abrollen erzeugt Röntgenstrahlen",
+  "teaser": "Wer Klebeband im Vakuum schnell abrollt, erzeugt Röntgenstrahlung. US-Forscher machten damit 2008 sogar ein Röntgenbild von einem Finger.",
+  "detail": "Ein Team der University of California in Los Angeles berichtete 2008 in Nature über ein herrlich absurdes Experiment. Die Forschenden rollten in einer Vakuumkammer eine Rolle ganz normales Scotch-Klebeband schnell ab. Dabei entstand nicht nur ein schwaches Leuchten, sondern Röntgenstrahlung.\n\nUnd zwar genug für ein Bild: Das Team legte einen Finger auf einen Zahnarzt-Röntgenfilm und hielt die abrollende Klebebandrolle daneben. Heraus kam ein grobes Röntgenbild der Fingerknochen. Röntgenpraxis aus dem Bürobedarf.\n\nVermutlich steckt elektrische Ladung dahinter: Beim Abziehen werden Ladungen getrennt, und beschleunigte Elektronen können beim Aufprall Röntgenstrahlung abgeben.\n\nKeine Sorge beim Geschenkeeinpacken: Das passiert nur im Vakuum. Zu Hause ist Klebeband abrollen harmlos, nur nervig, wenn man den Anfang nicht findet.",
   "sources": [
    {
     "title": "X-Rays Made with Scotch Tape",
@@ -2008,15 +2042,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "wis-826f12",
   "category": "wissenschaft",
   "lang": "de",
-  "headline": "Warum Eis rutschig ist, wird bis heute neu erforscht",
-  "teaser": "Dass Eis glatt ist, weil Druck oder Reibung es antauen, gilt als überholt: Eine Studie von 2025 macht stattdessen winzige elektrische Dipole verantwortlich.",
-  "detail": "Generationen von Schulkindern haben gelernt: Eis ist rutschig, weil Druck und Reibung eine dünne Wasserschicht schmelzen. Die Idee geht auf den Physiker James Thomson, den Bruder von Lord Kelvin, zurück und ist fast zwei Jahrhunderte alt. Das Problem: Druck senkt den Schmelzpunkt nur minimal, und Eis ist auch glatt, wenn man ganz still darauf steht.\n\nPhysiker der Universität des Saarlandes haben 2025 im Fachjournal Physical Review Letters eine andere Erklärung vorgelegt. Laut ihren Computersimulationen spielen weder Druck noch Reibung eine große Rolle. Entscheidend seien molekulare Dipole, also winzige elektrische Ungleichgewichte in den Molekülen von Eis und Schuhsohle. Ihre Wechselwirkung bringt die geordnete Kristallstruktur an der Oberfläche durcheinander, bis sie flüssig wird.\n\nBesonders verblüffend: Nach den Simulationen bildet sich dieser Film selbst nahe dem absoluten Nullpunkt, dann allerdings sehr zähflüssig. Ganz abgeschlossen ist die Debatte damit nicht, aber die alte Schulbuch-Erklärung wackelt gewaltig.",
+  "headline": "Warum Eis rutschig ist? Die Schulbuch-Antwort wackelt",
+  "teaser": "Dass Eis glatt ist, weil Druck oder Reibung es antauen, gilt als überholt. Eine Studie von 2025 macht stattdessen winzige elektrische Dipole verantwortlich.",
+  "detail": "Generationen von Schulkindern haben gelernt: Eis ist rutschig, weil Druck und Reibung eine dünne Wasserschicht schmelzen. Die Idee stammt von Physiker James Thomson, Bruder von Lord Kelvin, und ist fast zwei Jahrhunderte alt. Das Problem: Druck senkt den Schmelzpunkt nur minimal, und Eis ist auch glatt, wenn man ganz still darauf steht.\n\nPhysiker der Universität des Saarlandes haben 2025 in Physical Review Letters eine andere Erklärung vorgelegt. Laut ihren Computersimulationen spielen weder Druck noch Reibung eine große Rolle. Entscheidend seien molekulare Dipole, winzige elektrische Ungleichgewichte in den Molekülen von Eis und Schuhsohle. Deren Wechselwirkung bringt die geordnete Kristallstruktur an der Oberfläche durcheinander, bis sie flüssig wird.\n\nVerblüffend: Nach den Simulationen bildet sich der Film sogar nahe dem absoluten Nullpunkt, dann allerdings sehr zähflüssig.\n\nAbgeschlossen ist die Debatte nicht. Aber wer auf Eis ausrutscht, darf jetzt den Dipolen die Schuld geben.",
   "sources": [
    {
     "title": "Why we slip on ice: Physicists challenge centuries-old assumptions",
@@ -2032,6 +2067,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -2039,8 +2075,8 @@
   "category": "weltraum",
   "lang": "de",
   "headline": "Auf der Venus dauert ein Tag länger als ein Jahr",
-  "teaser": "Die Venus braucht 243 Erdtage für eine Drehung um sich selbst, aber nur 225 Erdtage für eine Runde um die Sonne, ein Tag ist dort also länger als ein Jahr.",
-  "detail": "Die Venus ist unser direkter Nachbarplanet, aber sie tickt völlig anders. Sie dreht sich extrem langsam um ihre eigene Achse: Eine volle Umdrehung dauert 243 Erdtage. Für eine komplette Runde um die Sonne braucht sie dagegen nur 225 Erdtage. Ein Venustag ist damit länger als ein Venusjahr.\n\nAls wäre das nicht seltsam genug, dreht sich die Venus auch noch rückwärts, verglichen mit der Erde und den meisten anderen Planeten. Wer auf der Venus stünde, sähe die Sonne deshalb im Westen auf- und im Osten untergehen.\n\nGeburtstag feiern wäre dort übrigens ein Kuddelmuddel: Man würde schneller ein Jahr älter, als ein einziger Tag vergeht.\n\nZum Vergleich: Die Erde schafft eine Drehung in 24 Stunden und eine Sonnenrunde in gut 365 Tagen. Bei uns passen also mehr als 365 Tage in ein Jahr, auf der Venus nicht einmal ein einziger.",
+  "teaser": "Die Venus braucht 243 Erdtage für eine Drehung um sich selbst, aber nur 225 Erdtage für eine Runde um die Sonne. Ein Tag ist dort länger als ein Jahr.",
+  "detail": "Die Venus ist unser direkter Nachbar, tickt aber völlig anders. Sie dreht sich extrem langsam um die eigene Achse: Eine volle Umdrehung dauert 243 Erdtage. Für eine komplette Runde um die Sonne braucht sie nur 225 Erdtage. Ein Venustag ist also länger als ein Venusjahr.\n\nAls wäre das nicht schräg genug, dreht sie sich auch noch rückwärts, verglichen mit der Erde und den meisten anderen Planeten. Wer auf der Venus stünde, sähe die Sonne im Westen auf- und im Osten untergehen.\n\nGeburtstag feiern wäre dort ein Kuddelmuddel: Man würde schneller ein Jahr älter, als ein einziger Tag vergeht. Silvester vor dem Feierabend, sozusagen.\n\nZum Vergleich: Die Erde schafft eine Drehung in 24 Stunden und eine Sonnenrunde in gut 365 Tagen. Bei uns passen mehr als 365 Tage in ein Jahr. Auf der Venus nicht mal ein einziger.",
   "sources": [
    {
     "title": "Venus: Facts",
@@ -2055,15 +2091,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "wel-ab708a",
   "category": "weltraum",
   "lang": "de",
-  "headline": "Saturn würde in einer riesigen Badewanne schwimmen",
-  "teaser": "Saturn ist der einzige Planet unseres Sonnensystems, dessen mittlere Dichte geringer ist als die von Wasser, er würde also theoretisch schwimmen.",
-  "detail": "Saturn ist der zweitgrößte Planet unseres Sonnensystems und trotzdem erstaunlich leicht für seine Größe. Der Gasplanet besteht vor allem aus Wasserstoff und Helium, den beiden leichtesten Elementen.\n\nDeshalb ist seine durchschnittliche Dichte geringer als die von Wasser, als einziger Planet in unserem Sonnensystem. Die NASA formuliert es so: Gäbe es eine Badewanne, die groß genug wäre, würde Saturn darin schwimmen.\n\nNatürlich ist das ein Gedankenexperiment. Eine solche Wanne gibt es nicht, und Saturn hat auch keine feste Oberfläche, auf der man stehen könnte. Im Inneren wird das Gas unter enormem Druck immer dichter, nur der Durchschnitt über den ganzen Planeten liegt unter dem von Wasser.\n\nZum Vergleich: Die Erde ist mit ihrem Gesteinsmantel und Eisenkern mehr als fünfmal so dicht wie Wasser. Sie würde in der Wanne sofort untergehen, Saturn dagegen gemütlich an der Oberfläche treiben.",
+  "headline": "Saturn würde in der Badewanne schwimmen",
+  "teaser": "Saturn ist der einzige Planet unseres Sonnensystems mit einer mittleren Dichte unter der von Wasser. Theoretisch würde er also schwimmen.",
+  "detail": "Saturn ist der zweitgrößte Planet im Sonnensystem und trotzdem erstaunlich leicht für seine Größe. Der Gasplanet besteht vor allem aus Wasserstoff und Helium, den beiden leichtesten Elementen.\n\nDeshalb liegt seine durchschnittliche Dichte unter der von Wasser, als einziger Planet in unserem Sonnensystem. Die NASA sagt es so: Gäbe es eine Badewanne, die groß genug wäre, würde Saturn darin schwimmen.\n\nKlar, Gedankenexperiment. So eine Wanne gibt es nicht, und Saturn hat auch keine feste Oberfläche zum Draufstellen. Im Inneren wird das Gas unter enormem Druck immer dichter, nur der Durchschnitt über den ganzen Planeten liegt unter dem von Wasser.\n\nDie Erde dagegen ist mit Gesteinsmantel und Eisenkern mehr als fünfmal so dicht wie Wasser. Sie würde in der Wanne sofort untergehen, Saturn gemütlich oben treiben.",
   "sources": [
    {
     "title": "Saturn: Facts",
@@ -2078,15 +2115,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "wel-e897b9",
   "category": "weltraum",
   "lang": "de",
-  "headline": "Der Mond entfernt sich jedes Jahr ein Stückchen von uns",
-  "teaser": "Laser-Messungen zeigen, dass sich der Mond jedes Jahr um etwa 3,8 Zentimeter von der Erde entfernt.",
-  "detail": "Die Apollo-11-Astronauten ließen 1969 einen besonderen Spiegel auf dem Mond zurück: einen Reflektor, der Laserlicht genau dorthin zurückwirft, woher es kommt. Später kamen weitere dazu. Seitdem schießen Observatorien Laserpulse zum Mond und messen, wie lange das Licht für Hin- und Rückweg braucht.\n\nDaraus lässt sich der Abstand extrem genau bestimmen, und das Ergebnis ist überraschend: Der Mond rückt jedes Jahr um etwa 3,8 Zentimeter von der Erde ab.\n\nDer Grund sind die Gezeiten. Der Mond zieht die Ozeane zu einer Art Wasserberg, und weil die Erde sich schneller dreht, als der Mond sie umkreist, läuft dieser Berg dem Mond ein wenig voraus. Er zieht den Mond dabei sanft nach vorn und damit auf eine höhere Bahn.\n\nPanik ist nicht nötig: Bei diesem Tempo bleibt der Mond noch sehr, sehr lange unser treuer Begleiter.",
+  "headline": "Der Mond haut jedes Jahr ein Stückchen ab",
+  "teaser": "Laser-Messungen zeigen: Der Mond entfernt sich jedes Jahr um etwa 3,8 Zentimeter von der Erde.",
+  "detail": "Die Apollo-11-Astronauten ließen 1969 einen besonderen Spiegel auf dem Mond zurück: einen Reflektor, der Laserlicht genau dorthin zurückwirft, woher es kommt. Später kamen weitere dazu. Seitdem schießen Observatorien Laserpulse zum Mond und messen, wie lange das Licht hin und zurück braucht.\n\nDaraus lässt sich der Abstand extrem genau bestimmen. Und das Ergebnis: Der Mond rückt jedes Jahr um etwa 3,8 Zentimeter von uns ab.\n\nSchuld sind die Gezeiten. Der Mond zieht die Ozeane zu einer Art Wasserberg, und weil die Erde sich schneller dreht, als der Mond sie umkreist, läuft dieser Berg dem Mond ein wenig voraus. Dabei zieht er den Mond sanft nach vorn und damit auf eine höhere Bahn.\n\nPanik ist nicht nötig: Bei dem Tempo bleibt der Mond noch sehr, sehr lange bei uns. Eine Trennung in Zeitlupe.",
   "sources": [
    {
     "title": "Apollo 11 Experiment Continues to Return Valuable Data",
@@ -2102,6 +2140,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -2109,8 +2148,8 @@
   "category": "weltraum",
   "lang": "de",
   "headline": "Uranus rollt auf der Seite liegend um die Sonne",
-  "teaser": "Uranus ist um fast 98 Grad gekippt und rollt quasi seitlich um die Sonne, manche Regionen erleben deshalb einen 21 Jahre langen dunklen Winter.",
-  "detail": "Die meisten Planeten drehen sich wie Kreisel, die nur ein wenig schief stehen. Die Erde etwa ist um rund 23 Grad geneigt, was uns Jahreszeiten beschert. Uranus übertreibt es gewaltig: Seine Achse ist um 97,77 Grad gekippt. Er liegt also praktisch auf der Seite und rollt wie eine Kugel um die Sonne.\n\nDas hat drastische Folgen. Während seiner langen Runde um die Sonne zeigt mal der eine, mal der andere Pol direkt zur Sonne. Jeder Pol bekommt so fast ein Viertel des Uranus-Jahres lang Sonne ab, während die andere Hälfte des Planeten einen 21 Jahre langen, dunklen Winter erlebt.\n\nWie Uranus so umgekippt ist, ist nicht endgültig geklärt. Eine verbreitete Vermutung ist ein gewaltiger Zusammenstoß mit einem großen Himmelskörper in der Frühzeit des Sonnensystems.\n\nWer sich über lange Winter in Deutschland beschwert, sollte also froh sein, nicht auf dem Uranus zu wohnen.",
+  "teaser": "Uranus ist um fast 98 Grad gekippt und rollt quasi seitlich um die Sonne. Manche Regionen erleben deshalb einen 21 Jahre langen dunklen Winter.",
+  "detail": "Die meisten Planeten drehen sich wie Kreisel, die nur ein bisschen schief stehen. Die Erde ist um rund 23 Grad geneigt, das gibt uns Jahreszeiten. Uranus übertreibt es: Seine Achse ist um 97,77 Grad gekippt. Er liegt praktisch auf der Seite und rollt wie eine Kugel um die Sonne.\n\nDas hat Folgen. Während seiner langen Runde zeigt mal der eine, mal der andere Pol direkt zur Sonne. Jeder Pol bekommt so fast ein Viertel des Uranus-Jahres lang Sonne ab, während die andere Hälfte des Planeten einen 21 Jahre langen, dunklen Winter erlebt.\n\nWie Uranus so umgekippt ist, ist nicht endgültig geklärt. Eine verbreitete Vermutung: ein gewaltiger Zusammenstoß mit einem großen Himmelskörper in der Frühzeit des Sonnensystems.\n\nWer über lange Winter in Deutschland jammert, sollte also froh sein, nicht auf dem Uranus zu wohnen.",
   "sources": [
    {
     "title": "Uranus: Facts",
@@ -2125,6 +2164,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -2148,6 +2188,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -2156,7 +2197,7 @@
   "lang": "de",
   "headline": "Ein Teelöffel Neutronenstern wiegt rund eine Milliarde Tonnen",
   "teaser": "Neutronensterne sind so dicht, dass ein Teelöffel ihrer Materie auf der Erde etwa eine Milliarde Tonnen wiegen würde.",
-  "detail": "Neutronensterne sind die Überreste massereicher Sterne, die in einer Supernova explodiert sind. Übrig bleibt ein Kern, der unter seiner eigenen Schwerkraft so stark zusammengedrückt wird, dass Elektronen und Protonen zu Neutronen verschmelzen.\n\nDas Ergebnis ist kaum vorstellbar: Ein Neutronenstern kann mehr Masse als unsere Sonne haben, ist aber nur etwa so groß wie eine Stadt, mit einem Durchmesser von rund 20 Kilometern. Entsprechend extrem ist die Dichte, denn die Teilchen liegen dicht an dicht wie in einem Atomkern. Ein Teelöffel voll Neutronensternmaterie würde auf der Erde etwa eine Milliarde Tonnen wiegen, je nach Rechnung und Stern auch ein paar Milliarden.\n\nAusprobieren lässt sich das zum Glück nicht. Außerhalb des Sterns würde die Materie nicht zusammenhalten, und der Löffel hätte ohnehin ein Problem.\n\nMan kann sich so einen Stern also als gigantischen Atomkern von der Größe einer Stadt vorstellen.",
+  "detail": "Neutronensterne sind Überreste massereicher Sterne, die in einer Supernova explodiert sind. Übrig bleibt ein Kern, den die eigene Schwerkraft so stark zusammenquetscht, dass Elektronen und Protonen zu Neutronen verschmelzen.\n\nDas Ergebnis ist kaum vorstellbar: Ein Neutronenstern kann mehr Masse haben als unsere Sonne, ist aber nur etwa so groß wie eine Stadt, mit rund 20 Kilometern Durchmesser. Die Teilchen liegen dicht an dicht wie in einem Atomkern. Ein Teelöffel voll würde auf der Erde etwa eine Milliarde Tonnen wiegen, je nach Rechnung und Stern auch ein paar Milliarden.\n\nAusprobieren geht zum Glück nicht. Außerhalb des Sterns würde die Materie nicht zusammenhalten, und der Löffel hätte ohnehin ein Problem.\n\nMan kann sich so einen Stern also als gigantischen Atomkern in Stadtgröße vorstellen. Mit Zucker im Kaffee hat das Ganze eher wenig zu tun.",
   "sources": [
    {
     "title": "Neutron-star stuff: Just neutrons, no quarks",
@@ -2173,6 +2214,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -2180,8 +2222,8 @@
   "category": "weltraum",
   "lang": "de",
   "headline": "Auf dem roten Mars sind Sonnenuntergänge blau",
-  "teaser": "Der Mars-Rover Curiosity fotografierte 2015 einen Sonnenuntergang, bei dem der Himmel rund um die Sonne bläulich leuchtete, nicht orange wie bei uns.",
-  "detail": "Auf der Erde färbt sich der Himmel bei Sonnenuntergang orange und rot. Auf dem Mars, dem „Roten Planeten“, ist es ausgerechnet andersherum: Rund um die untergehende Sonne leuchtet der Himmel bläulich.\n\nDas zeigt ein Foto, das der NASA-Rover Curiosity 2015 im Gale-Krater aufgenommen hat. Die NASA stellte es später direkt neben ein Sonnenuntergangsbild aus Marseille, der Kontrast ist verblüffend.\n\nGanz verstanden ist der Effekt noch nicht. Die NASA vermutet, dass es am feinen Marsstaub liegt. Der streut das Licht so, dass blaues Licht vor allem in der Richtung der Sonne bleibt, während der übrige Himmel tagsüber eher dunstig rötlich wirkt.\n\nAuch die Sonne selbst sieht vom Mars etwas anders aus: Sie erscheint kleiner, weil der Mars ungefähr anderthalbmal so weit von ihr entfernt ist wie die Erde. Ein Abendspaziergang auf dem Mars wäre also ziemlich ungewohnt.",
+  "teaser": "Der Mars-Rover Curiosity fotografierte 2015 einen Sonnenuntergang, bei dem der Himmel rund um die Sonne bläulich leuchtete. Nicht orange wie bei uns.",
+  "detail": "Auf der Erde wird der Himmel bei Sonnenuntergang orange und rot. Auf dem Mars, ausgerechnet dem „Roten Planeten“, ist es andersherum: Rund um die untergehende Sonne leuchtet der Himmel bläulich.\n\nDas zeigt ein Foto, das der NASA-Rover Curiosity 2015 im Gale-Krater aufgenommen hat. Die NASA stellte es später direkt neben einen Sonnenuntergang aus Marseille, der Kontrast ist verblüffend.\n\nGanz verstanden ist der Effekt noch nicht. Die NASA vermutet, dass es am feinen Marsstaub liegt. Der streut das Licht so, dass blaues Licht vor allem in Richtung der Sonne bleibt, während der übrige Himmel tagsüber eher dunstig rötlich wirkt.\n\nAuch die Sonne selbst sieht anders aus: Sie erscheint kleiner, weil der Mars ungefähr anderthalbmal so weit von ihr entfernt ist wie die Erde. Der Rote Planet hat also tagsüber den roten Himmel und abends den blauen. Verkehrte Welt.",
   "sources": [
    {
     "title": "APOD: Two Worlds, One Sun",
@@ -2198,6 +2240,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -2206,7 +2249,7 @@
   "lang": "de",
   "headline": "Im All werden Astronauten bis zu drei Prozent größer",
   "teaser": "In der Schwerelosigkeit können Astronauten laut NASA bis zu drei Prozent größer werden, weil sich ihre Wirbelsäule ohne Schwerkraft streckt.",
-  "detail": "Auf der Erde drückt die Schwerkraft unseren Körper den ganzen Tag ein bisschen zusammen. Die Bandscheiben zwischen den Wirbeln werden belastet, deshalb sind wir abends sogar etwas kleiner als morgens.\n\nIm All fällt dieser Druck weg. Die Wirbelsäule kann sich entspannen und strecken. Laut NASA-Wissenschaftlern können Astronauten so während ihres Aufenthalts in der Schwerelosigkeit bis zu drei Prozent größer werden. Bei einem Menschen von 1,80 Meter wären das gut fünf Zentimeter.\n\nDie neue Größe ist aber nur geliehen. Zurück auf der Erde holt die Schwerkraft sich die Zentimeter zurück, nach einigen Monaten haben die Astronauten wieder ihre normale Körpergröße.\n\nDer Effekt ist also ein Andenken auf Zeit, das sich nicht konservieren lässt. Wer also beim Arzt ein paar Zentimeter mehr messen lassen will, müsste schon direkt nach der Landung vorbeischauen.",
+  "detail": "Auf der Erde drückt die Schwerkraft uns den ganzen Tag ein bisschen zusammen. Die Bandscheiben zwischen den Wirbeln werden belastet, deshalb sind wir abends sogar etwas kleiner als morgens.\n\nIm All fällt dieser Druck weg. Die Wirbelsäule kann sich entspannen und strecken. Laut NASA-Wissenschaftlern können Astronauten so in der Schwerelosigkeit bis zu drei Prozent größer werden. Bei 1,80 Meter wären das gut fünf Zentimeter.\n\nDie neue Größe ist allerdings nur geliehen. Zurück auf der Erde holt sich die Schwerkraft die Zentimeter wieder, nach einigen Monaten sind die Astronauten wieder so groß wie vorher.\n\nEin Souvenir auf Zeit, das sich nicht konservieren lässt. Wer beim Arzt ein paar Zentimeter mehr messen lassen will, müsste schon direkt nach der Landung vorbeischauen.",
   "sources": [
    {
     "title": "Strange but True: Astronauts Get Taller in Space",
@@ -2222,15 +2265,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "wel-fb389c",
   "category": "weltraum",
   "lang": "de",
-  "headline": "Der Weltraum riecht nach angebratenem Steak und heißem Metall",
-  "teaser": "Astronauten berichten nach Weltraumspaziergängen von einem Geruch an ihren Anzügen, der an angebratenes Steak, heißes Metall und Schweißdämpfe erinnert.",
-  "detail": "Im Weltraum selbst kann man nichts riechen, denn ohne Luft gelangen keine Duftstoffe in die Nase, und der Helm bleibt ohnehin geschlossen. Spannend wird es aber, wenn die Astronauten von einem Außeneinsatz zurück in die Raumstation kommen.\n\nSobald sie die Helme abnehmen, steigt ihnen ein ganz eigener Geruch in die Nase, der an Anzügen und Ausrüstung haftet. Viele beschreiben ihn als beißenden Mix aus angebratenem Steak, heißem Metall und Schweißdämpfen.\n\nDie NASA nimmt das ernst: Sie beauftragte den Chemiker Steven Pearce, den Weltraumgeruch im Labor nachzubauen, damit Astronauten beim Training schon einmal wissen, was sie erwartet.\n\nWoher der Geruch genau kommt, ist nicht abschließend geklärt. Ein Gourmet-Erlebnis ist es jedenfalls eher nicht: Nach Grillabend klingt es nur auf den ersten Blick.",
+  "headline": "Der Weltraum riecht nach angebratenem Steak",
+  "teaser": "Nach Weltraumspaziergängen hängt an den Anzügen ein Geruch, der Astronauten an angebratenes Steak, heißes Metall und Schweißdämpfe erinnert.",
+  "detail": "Im Weltraum selbst riecht man nichts. Ohne Luft kommen keine Duftstoffe in die Nase, und der Helm bleibt sowieso zu. Spannend wird es, wenn die Astronauten von einem Außeneinsatz zurück in die Raumstation kommen.\n\nSobald die Helme ab sind, steigt ihnen ein ganz eigener Geruch in die Nase, der an Anzügen und Ausrüstung haftet. Viele beschreiben ihn als beißenden Mix aus angebratenem Steak, heißem Metall und Schweißdämpfen.\n\nDie NASA nimmt das ernst: Sie beauftragte den Chemiker Steven Pearce, den Weltraumgeruch im Labor nachzubauen, damit Astronauten beim Training schon mal wissen, was auf sie zukommt.\n\nWoher der Geruch genau kommt, ist nicht abschließend geklärt. Ein Gourmet-Erlebnis ist es eher nicht. Nach Grillabend klingt es nur auf den ersten Blick. Eher nach Grillabend in der Schlosserei.",
   "sources": [
    {
     "title": "Space Smells Like Seared Steak, Hot Metal, Astronauts Report",
@@ -2246,15 +2290,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "wel-b966f9",
   "category": "weltraum",
   "lang": "de",
-  "headline": "Mythos: Die Chinesische Mauer sieht man aus dem All nicht mit bloßem Auge",
-  "teaser": "Die Chinesische Mauer ist aus dem Erdorbit mit bloßem Auge praktisch nicht zu erkennen, selbst Chinas erster Raumfahrer Yang Liwei hat sie nicht gesehen.",
-  "detail": "Kaum ein Mythos hält sich so hartnäckig: Die Chinesische Mauer sei das einzige Bauwerk, das man vom Weltraum aus sehen kann. Klingt toll, stimmt aber nicht.\n\nDas Problem ist nicht die Länge, sondern die Breite. Die Mauer ist zwar Tausende Kilometer lang, aber nur wenige Meter breit und aus Material gebaut, das sich farblich kaum von der Landschaft abhebt. Aus mehreren Hundert Kilometern Höhe verschwindet sie damit praktisch im Gelände.\n\nDen prominentesten Beleg lieferte ausgerechnet China selbst. Yang Liwei, der erste chinesische Raumfahrer, umkreiste im Oktober 2003 mit Shenzhou 5 vierzehnmal die Erde. Danach sagte er sinngemäß: Die Erde sah wunderschön aus, aber unsere Große Mauer habe ich nicht gesehen.\n\nFotos der Mauer aus dem Orbit gibt es zwar, doch dafür braucht es starke Teleobjektive. Viel besser zu erkennen sind übrigens nachts die Lichter großer Städte.",
+  "headline": "Die Chinesische Mauer sieht man aus dem All nicht",
+  "teaser": "Die Chinesische Mauer ist aus dem Erdorbit mit bloßem Auge praktisch nicht zu erkennen. Selbst Chinas erster Raumfahrer Yang Liwei hat sie nicht gesehen.",
+  "detail": "Kaum ein Mythos hält sich so zäh: Die Chinesische Mauer sei das einzige Bauwerk, das man vom Weltraum aus sehen kann. Klingt toll. Stimmt nicht.\n\nDas Problem ist nicht die Länge, sondern die Breite. Die Mauer ist zwar Tausende Kilometer lang, aber nur wenige Meter breit und aus Material, das sich farblich kaum von der Landschaft abhebt. Aus mehreren Hundert Kilometern Höhe verschwindet sie praktisch im Gelände.\n\nDen prominentesten Beleg lieferte ausgerechnet China selbst. Yang Liwei, der erste chinesische Raumfahrer, umkreiste im Oktober 2003 mit Shenzhou 5 vierzehnmal die Erde. Danach sagte er sinngemäß: Die Erde sah wunderschön aus, aber unsere Große Mauer habe ich nicht gesehen.\n\nFotos der Mauer aus dem Orbit gibt es, aber nur mit starken Teleobjektiven. Viel besser zu erkennen sind nachts die Lichter großer Städte.",
   "sources": [
    {
     "title": "Can you see the Great Wall of China from space?",
@@ -2270,6 +2315,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -2277,8 +2323,8 @@
   "category": "weltraum",
   "lang": "de",
   "headline": "Auf der ISS geht die Sonne 16-mal am Tag auf",
-  "teaser": "Die Crew der Internationalen Raumstation sieht wegen der enormen Geschwindigkeit von rund 28.000 km/h jeden Tag 16 Sonnenauf- und 16 Sonnenuntergänge.",
-  "detail": "Die Internationale Raumstation ISS rast mit etwa 17.500 Meilen pro Stunde um die Erde, das sind rund 28.000 Kilometer pro Stunde. Für eine komplette Erdumrundung braucht sie damit nur etwa anderthalb Stunden (24 Stunden geteilt durch 16).\n\nDas bedeutet: Alle gut 90 Minuten fliegt die Station einmal von der Tag- auf die Nachtseite und wieder zurück. Laut NASA erlebt die Besatzung so jeden Tag 16 Sonnenaufgänge und 16 Sonnenuntergänge. Ein romantischer Moment jagt den nächsten.\n\nWer an Bord den Wecker nach dem Sonnenaufgang stellen wollte, hätte also ein Problem: Er würde alle anderthalb Stunden klingeln. Dafür gibt es das Schauspiel aus Licht und Dunkelheit jeden Tag gleich sechzehnmal gratis. Bei uns auf der Erde reicht ein einziger Sonnenaufgang pro Tag, um die meisten Menschen aus dem Bett zu holen.",
+  "teaser": "Die ISS rast mit rund 28.000 km/h um die Erde. Die Crew sieht deshalb jeden Tag 16 Sonnenaufgänge und 16 Sonnenuntergänge.",
+  "detail": "Die Internationale Raumstation ISS rast mit etwa 17.500 Meilen pro Stunde um die Erde, rund 28.000 Kilometer pro Stunde. Für eine Erdumrundung braucht sie damit nur etwa anderthalb Stunden (24 Stunden geteilt durch 16).\n\nHeißt: Alle gut 90 Minuten fliegt die Station einmal von der Tag- auf die Nachtseite und zurück. Laut NASA erlebt die Besatzung so jeden Tag 16 Sonnenaufgänge und 16 Sonnenuntergänge. Ein romantischer Moment jagt den nächsten.\n\nWer an Bord den Wecker nach dem Sonnenaufgang stellen wollte, hätte ein Problem: Er würde alle anderthalb Stunden klingeln.\n\nDafür gibt's das Lichtspektakel täglich sechzehnmal gratis. Bei uns auf der Erde reicht schon ein einziger Sonnenaufgang pro Tag, um die meisten Menschen aus dem Bett zu holen.",
   "sources": [
    {
     "title": "Sunrise Over the Pacific",
@@ -2293,6 +2339,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -2300,8 +2347,8 @@
   "category": "weltraum",
   "lang": "de",
   "headline": "Auf Uranus und Neptun regnet es vermutlich Diamanten",
-  "teaser": "Tief in Uranus und Neptun bilden sich wahrscheinlich Diamanten, die nach unten rieseln, Forschende stellten das 2022 mit Lasern und Plastikfolie nach.",
-  "detail": "In den Eisriesen Uranus und Neptun herrschen tief unter der Oberfläche unvorstellbare Drücke. Schon länger vermuten Forschende, dass dort Kohlenstoff zu Diamanten zusammengepresst wird, die dann langsam ins Innere absinken: Diamantregen.\n\nUm das zu testen, beschossen Forschende aus Deutschland, Frankreich und den USA, unter anderem vom Helmholtz-Zentrum Dresden-Rossendorf und der Universität Rostock, eine dünne Folie aus PET mit starken Laserpulsen. PET ist derselbe Kunststoff, aus dem Plastikflaschen bestehen, und enthält Kohlenstoff, Wasserstoff und Sauerstoff, ähnlich wie das Innere der Eisriesen. Die Schockwelle erzeugte etwa den millionenfachen Atmosphärendruck der Erde, wie in einigen Tausend Kilometern Tiefe in diesen Planeten. Die Messungen zeigten: Es bildeten sich winzige Nanodiamanten. Die Studie erschien 2022 im Fachjournal Science Advances.\n\nDas könnte sogar praktisch werden: Die Methode wäre sauberer als die heutige Herstellung von Industrie-Nanodiamanten mit Sprengstoff. Noch entstehen pro Laserschuss allerdings nur wenige Mikrogramm.",
+  "teaser": "Tief in Uranus und Neptun bilden sich wahrscheinlich Diamanten, die nach unten rieseln. Forschende stellten das 2022 nach, mit Lasern und Plastikfolie.",
+  "detail": "Tief in den Eisriesen Uranus und Neptun herrschen unvorstellbare Drücke. Forschende vermuten schon länger, dass dort Kohlenstoff zu Diamanten gepresst wird, die langsam ins Innere absinken. Diamantregen.\n\nUm das zu testen, beschossen Forschende aus Deutschland, Frankreich und den USA, unter anderem vom Helmholtz-Zentrum Dresden-Rossendorf und der Universität Rostock, eine dünne PET-Folie mit starken Laserpulsen. PET ist derselbe Kunststoff wie in Plastikflaschen und enthält Kohlenstoff, Wasserstoff und Sauerstoff, ähnlich wie das Innere der Eisriesen. Die Schockwelle erzeugte etwa den millionenfachen Atmosphärendruck der Erde, wie in einigen Tausend Kilometern Tiefe in diesen Planeten. Und tatsächlich: Es bildeten sich winzige Nanodiamanten. Die Studie erschien 2022 in Science Advances.\n\nDas könnte sogar praktisch werden: Die Methode wäre sauberer als die heutige Herstellung von Industrie-Nanodiamanten mit Sprengstoff. Pro Laserschuss entstehen allerdings erst wenige Mikrogramm. Für den Verlobungsring reicht es also noch nicht.",
   "sources": [
    {
     "title": "Diamond rain on Uranus and Neptune is simulated by firing a laser at plastic",
@@ -2318,15 +2365,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "ges-c9e4dc",
   "category": "geschichte",
   "lang": "de",
-  "headline": "Der erste überlieferte Streik: Pharaos Grabbauer legten die Werkzeuge nieder",
-  "teaser": "Unter Ramses III., im 12. Jahrhundert v. Chr., streikten die Handwerker von Deir el-Medina, weil ihr Lohn ausblieb, mit Sitzblockade vor einem Tempel.",
-  "detail": "Die Arbeiter von Deir el-Medina waren keine Sklaven, sondern gut ausgebildete Handwerker. Sie meißelten und bemalten die Königsgräber im Tal der Könige und bekamen dafür regelmäßig Lebensmittel und Vorräte. Unter Pharao Ramses III. geriet diese Versorgung ins Stocken. Ägypten hatte gerade teure Kriege hinter sich, und die Getreidespeicher waren ziemlich leer.\n\nAls der Lohn 18 Tage überfällig war, reichte es den Männern. Sie zogen mit dem Ruf „Wir haben Hunger!“ los und setzten sich in der Nähe des Tempels von Thutmosis III. auf den Boden. Eine Sitzblockade, gut 3.000 Jahre vor den ersten Gewerkschaften.\n\nDer Protest hatte Erfolg: Nach Verhandlungen mit Priestern und Beamten wurde der ausstehende Lohn ausgezahlt. Das eigentliche Problem war damit aber nicht gelöst. Kaum waren die Männer zurück im Dorf, blieb auch die nächste Zahlung aus, und sie streikten erneut, diesmal blockierten sie sogar den Zugang zum Tal der Könige. Manche Historiker sehen in den Streiks den Anfang vom Ende der Macht des Neuen Reichs.",
+  "headline": "„Wir haben Hunger!“: Pharaos Grabbauer machten Sitzblockade",
+  "teaser": "Unter Ramses III. war der Lohn der Handwerker von Deir el-Medina 18 Tage überfällig. Ihre Antwort: der erste überlieferte Streik, inklusive Sitzblockade vor einem Tempel.",
+  "detail": "Die Männer von Deir el-Medina waren keine Sklaven, sondern Profis. Sie meißelten und bemalten die Königsgräber im Tal der Könige und wurden dafür in Lebensmitteln und Vorräten bezahlt. Bis unter Pharao Ramses III. die Lieferungen stockten: teure Kriege, leere Getreidespeicher.\n\nNach 18 Tagen ohne Lohn war Schluss mit Geduld. Die Arbeiter zogen los, riefen „Wir haben Hunger!“ und setzten sich nahe dem Tempel von Thutmosis III. einfach auf den Boden. Sitzblockade, gut 3.000 Jahre vor der ersten Gewerkschaft.\n\nEs wirkte: Nach Verhandlungen mit Priestern und Beamten kam der ausstehende Lohn. Nur leider auch die nächste Panne. Kaum waren die Männer wieder im Dorf, blieb die nächste Zahlung aus, und sie streikten erneut, diesmal mit Blockade des Zugangs zum Tal der Könige.\n\nManche Historiker sehen darin den Anfang vom Ende der Macht des Neuen Reichs. Wer am Lohn spart, spart am falschen Ende.",
   "sources": [
    {
     "title": "The First Labor Strike in History",
@@ -2342,15 +2390,16 @@
   "era": "antike",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "ges-115ff4",
   "category": "geschichte",
   "lang": "de",
-  "headline": "Geld stinkt nicht: Roms Kaiser kassierte Steuern auf Urin",
-  "teaser": "Kaiser Vespasian besteuerte im 1. Jahrhundert den Urin aus Roms öffentlichen Latrinen, denn Gerber und Tuchwalker brauchten ihn als Reinigungsmittel.",
-  "detail": "Im alten Rom war Urin ein echter Rohstoff. Beim Lagern bildet sich daraus Ammoniak, und das löste Fett und Schmutz aus Wolle und Stoffen. Tuchwalker und Wäscher sammelten ihn deshalb in großen Mengen, unter anderem aus den öffentlichen Toiletten der Stadt.\n\nWas Geld bringt, lässt sich besteuern. Das dachte sich auch Kaiser Vespasian, der von 69 bis 79 n. Chr. regierte und ständig neue Einnahmequellen für die leere Staatskasse suchte. Er führte eine Abgabe auf den Urinhandel ein.\n\nSein Sohn Titus fand das ziemlich anrüchig. Laut dem Geschichtsschreiber Sueton hielt ihm Vespasian daraufhin eine Münze aus den ersten Einnahmen unter die Nase und fragte, ob sie stinke. Als Titus verneinte, kam die Pointe: Und trotzdem stammt sie aus Urin. Daraus wurde die Redewendung „Pecunia non olet“, Geld stinkt nicht. Der Spruch wird bis heute zitiert, wenn jemand mit eher anrüchigen Geschäften gutes Geld verdient.",
+  "headline": "Geld stinkt nicht: Roms Kaiser besteuerte Urin",
+  "teaser": "Im alten Rom war Urin ein Rohstoff, Gerber und Tuchwalker putzten damit. Also kassierte Kaiser Vespasian eine Steuer auf das, was aus den öffentlichen Latrinen kam.",
+  "detail": "Im alten Rom war Urin kein Abfall, sondern Ware. Beim Lagern bildet sich Ammoniak, und das löst Fett und Schmutz aus Wolle und Stoffen. Tuchwalker und Wäscher sammelten ihn deshalb in großen Mengen, auch aus den öffentlichen Toiletten.\n\nKaiser Vespasian, von 69 bis 79 n. Chr. an der Macht und ständig auf der Jagd nach Geld für die leere Staatskasse, dachte sich: Was Geld bringt, kann man besteuern. Also gab es eine Abgabe auf den Urinhandel.\n\nSein Sohn Titus rümpfte die Nase. Laut Sueton hielt Vespasian ihm daraufhin eine Münze aus den ersten Einnahmen unter die Nase und fragte, ob sie stinke. Titus: nein. Vespasian: Und trotzdem stammt sie aus Urin.\n\nSo entstand „Pecunia non olet“, Geld stinkt nicht. Den Spruch hört man bis heute, wenn jemand mit anrüchigen Geschäften gut verdient. Ein Kaiser, eine Latrine, ein Zitat, das bis heute hält.",
   "sources": [
    {
     "title": "How old are taxes? Older than you think",
@@ -2372,6 +2421,7 @@
   "era": "antike",
   "gross": true,
   "kids": false,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
@@ -2397,6 +2447,7 @@
   "era": "antike",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -2422,15 +2473,16 @@
   "era": "mittelalter",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "ges-47bab4",
   "category": "geschichte",
   "lang": "de",
-  "headline": "Ein Truthahn für 100 Kakaobohnen",
-  "teaser": "In Mittelamerika waren Kakaobohnen Geld: Im 16. Jahrhundert kostete ein Truthahn rund 100 Bohnen, und es gab sogar falsche Bohnen aus Ton.",
-  "detail": "Schokolade war in Mittelamerika kein Süßkram, sondern ein bitteres Luxusgetränk. Die Bohnen des Kakaobaums waren so begehrt, dass sie als Zahlungsmittel dienten. Laut Hayes Lavis vom Smithsonian-Museum für die Kultur der amerikanischen Ureinwohner bekam man im 16. Jahrhundert für 100 Kakaobohnen einen Truthahn.\n\nWo es Geld gibt, gibt es Fälscher. Archäologen haben in Mexiko und Guatemala erstaunlich gut erhaltene „Kakaobohnen“ ausgegraben, die sich beim Anfassen als Ton entpuppten. Der Anthropologe Joel Palka hält es für möglich, dass solche Nachbildungen als Geld untergeschoben oder bei Ritualen statt echter Bohnen verwendet wurden.\n\nDas macht den Kakao zu einer der wenigen Währungen, die man im Notfall auch aufbrühen und trinken konnte. Ein Portemonnaie voller Bohnen war also gleichzeitig Ersparnis und Vorrat für ein Getränk, das sich längst nicht jeder leisten konnte.",
+  "headline": "Ein Truthahn kostete 100 Kakaobohnen",
+  "teaser": "In Mittelamerika war Kakao Geld: Im 16. Jahrhundert gab's für rund 100 Bohnen einen Truthahn. Und natürlich auch Falschgeld, Bohnen aus Ton.",
+  "detail": "Schokolade war in Mittelamerika kein Süßkram, sondern ein bitteres Luxusgetränk. Die Bohnen waren so begehrt, dass man mit ihnen bezahlte. Laut Hayes Lavis vom Smithsonian-Museum für die Kultur der amerikanischen Ureinwohner gab es im 16. Jahrhundert für 100 Kakaobohnen einen Truthahn.\n\nWo Geld ist, sind Fälscher nicht weit. Archäologen haben in Mexiko und Guatemala verdächtig gut erhaltene „Kakaobohnen“ ausgegraben, die sich beim Anfassen als Ton entpuppten. Der Anthropologe Joel Palka hält es für möglich, dass man sie als Geld unterjubelte oder bei Ritualen statt echter Bohnen nutzte.\n\nDamit ist Kakao eine der wenigen Währungen, die man im Notfall aufbrühen und trinken konnte. Ein Geldbeutel voller Bohnen war Erspartes und Getränkevorrat in einem.\n\nNur mit den Tonbohnen sollte man das lieber nicht probieren.",
   "sources": [
    {
     "title": "What We Know About the Earliest History of Chocolate",
@@ -2447,15 +2499,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "ges-5994b1",
   "category": "geschichte",
   "lang": "de",
-  "headline": "Straßburg 1518: Hunderte Menschen tanzten wochenlang ohne Pause",
-  "teaser": "Im Juli 1518 begann in Straßburg eine Frau unkontrolliert zu tanzen; nach einem Monat tanzten rund 400 Menschen mit, manche angeblich bis zur Erschöpfung.",
-  "detail": "Am 14. Juli 1518 trat eine Frau namens Troffea vor ihr Haus in Straßburg und fing an zu tanzen. Sie hörte nicht mehr auf. Nach einer Woche hatten sich ihr mehr als 30 Menschen angeschlossen, nach einem Monat waren es rund 400.\n\nEinige zeitgenössische Berichte schreiben, dass Tanzende an Herzversagen, Erschöpfung oder Hunger starben. Wie viele es wirklich waren, lässt sich nicht sicher sagen. Dass das Ereignis stattgefunden hat, ist dagegen gut belegt: Mehrere zeitgenössische Chroniken berichten davon.\n\nIm September 1518 ließ der Stadtrat die Betroffenen zu einem Schrein des heiligen Vitus bringen, wo sie Heilung finden sollten. Dort wurden die Tanzenden offenbar tatsächlich geheilt. Was genau hinter der Tanzwut steckte, ist bis heute nicht abschließend geklärt. Viele Forschende vermuten eine Form von Massenhysterie, in einer Zeit voller Not: Hungerjahre, Bauernaufstände und ein extrem heißer Sommer. Sicher ist nur: Straßburg war nicht der einzige Ort, an dem im Mittelalter und in der frühen Neuzeit solche Tanzepidemien auftraten.",
+  "headline": "Straßburg 1518: Eine Frau tanzte, Hunderte tanzten mit",
+  "teaser": "Im Juli 1518 fing in Straßburg eine Frau an zu tanzen und hörte nicht mehr auf. Nach einem Monat tanzten rund 400 Menschen mit, manche angeblich bis zur Erschöpfung.",
+  "detail": "Am 14. Juli 1518 trat eine Frau namens Troffea vor ihr Haus in Straßburg und begann zu tanzen. Ohne Musik, ohne Anlass, und ohne aufzuhören. Nach einer Woche hatten sich ihr mehr als 30 Menschen angeschlossen, nach einem Monat waren es rund 400.\n\nEinige zeitgenössische Berichte schreiben, dass Tanzende an Herzversagen, Erschöpfung oder Hunger starben. Wie viele, lässt sich nicht sicher sagen. Dass die Tanzwut stattfand, ist dagegen gut belegt, mehrere Chroniken berichten davon.\n\nIm September ließ der Stadtrat die Betroffenen zu einem Schrein des heiligen Vitus bringen. Dort wurden sie offenbar tatsächlich geheilt.\n\nWas dahintersteckte, ist bis heute nicht abschließend geklärt. Viele Forschende vermuten eine Form von Massenhysterie in einer Zeit voller Not: Hungerjahre, Bauernaufstände, ein extrem heißer Sommer. Und Straßburg war kein Einzelfall, solche Tanzepidemien gab es im Mittelalter und in der frühen Neuzeit auch anderswo.",
   "sources": [
    {
     "title": "What caused the dancing plague of 1518?",
@@ -2472,15 +2525,16 @@
   "gross": false,
   "sensitive": "krankheit",
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "ges-2a5b28",
   "category": "geschichte",
   "lang": "de",
-  "headline": "Als Großbritannien elf Tage einfach übersprang",
-  "teaser": "Bei der Kalenderreform 1752 folgte in Großbritannien und seinen Kolonien auf den 2. September direkt der 14. September.",
-  "detail": "Der Gregorianische Kalender wurde schon 1582 eingeführt, weil der alte Julianische Kalender gegenüber dem Sonnenjahr immer weiter nachging. Katholische Länder stellten schnell um, protestantische ließen sich Zeit. Großbritannien wartete fast zwei Jahrhunderte.\n\nBis 1752 hatte sich so ein Rückstand von elf Tagen angesammelt. Die Lösung war radikal: Auf Mittwoch, den 2. September, folgte Donnerstag, der 14. September. Die Tage dazwischen gab es in Großbritannien und den amerikanischen Kolonien schlicht nicht.\n\nMit derselben Reform wurde auch der Jahresbeginn verlegt. Vorher begann das Jahr in England offiziell am 25. März, nun am 1. Januar. Wer in britischen Urkunden aus der Zeit davor ein Datum zwischen Januar und März findet, muss deshalb aufpassen: Ein Ereignis im Februar wurde damals oft noch dem Vorjahr zugerechnet. Für Historiker ist das bis heute eine kleine Stolperfalle.",
+  "headline": "Großbritannien hat 1752 einfach elf Tage übersprungen",
+  "teaser": "Kalenderreform 1752: In Großbritannien und seinen Kolonien folgte auf den 2. September direkt der 14. September. Die Tage dazwischen gab es schlicht nicht.",
+  "detail": "Der Gregorianische Kalender kam schon 1582, weil der alte Julianische dem Sonnenjahr immer weiter hinterherhinkte. Katholische Länder stellten schnell um, protestantische ließen sich Zeit. Großbritannien ließ sich besonders viel Zeit: fast zwei Jahrhunderte.\n\nBis 1752 hatten sich so elf Tage Rückstand angesammelt. Die Lösung: radikal. Auf Mittwoch, den 2. September, folgte Donnerstag, der 14. September. Wer in Großbritannien oder den amerikanischen Kolonien lebte, ging an einem Abend ins Bett und wachte fast zwei Wochen später auf, zumindest laut Kalender.\n\nGleich mit verlegt wurde der Jahresbeginn: Vorher startete das Jahr in England offiziell am 25. März, nun am 1. Januar. Ein Februar-Ereignis in älteren britischen Urkunden gehört deshalb oft noch zum Vorjahr.\n\nFür Historiker eine Stolperfalle bis heute. Für alle anderen die beste Ausrede, warum man elf Tage zu spät dran ist.",
   "sources": [
    {
     "title": "Which years are leap years and can you have leap seconds?",
@@ -2496,15 +2550,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "ges-4fe114",
   "category": "geschichte",
   "lang": "de",
-  "headline": "Napoleon war gar nicht klein",
-  "teaser": "Napoleon maß laut Fondation Napoléon rund 1,69 Meter, während der durchschnittliche Franzose seiner Zeit etwa 1,60 Meter groß war.",
-  "detail": "Der kleine Feldherr mit dem großen Ego ist ein Klischee, aus dem sogar ein Fachbegriff wurde: der „Napoleon-Komplex“. Nur stimmt die Grundlage nicht.\n\nNapoleons Größe wurde mit „5 Fuß, 2 Zoll und 3 Linien“ angegeben. Das klingt winzig, war aber in alten französischen Maßeinheiten gemessen, und der französische Zoll war länger als der englische. Umgerechnet ergibt das rund 1,69 Meter. Laut der Fondation Napoléon lag der durchschnittliche Franzose damals bei etwa 1,60 Metern. Napoleon war für seine Zeit also durchschnittlich groß; Infanterie-Rekruten maßen damals 1,65 bis 1,69 Meter.\n\nWarum hält sich der Mythos? Zum einen zeigen Gemälde ihn meist umringt von Generälen und Soldaten der Garde, neben denen er automatisch kleiner wirkt. Zum anderen zeichneten britische Karikaturisten den Erzfeind gern als winzigen Wüterich „Little Boney“. Propaganda wirkt eben manchmal länger als jede Schlacht.",
+  "headline": "Napoleon war gar nicht klein, nur falsch umgerechnet",
+  "teaser": "Napoleon maß laut Fondation Napoléon rund 1,69 Meter. Der durchschnittliche Franzose seiner Zeit kam auf etwa 1,60 Meter. Der Zwerg war also ein Durchschnittstyp.",
+  "detail": "Der kleine Feldherr mit dem großen Ego: ein Klischee, das es bis zum Fachbegriff „Napoleon-Komplex“ geschafft hat. Nur die Grundlage stimmt nicht.\n\nNapoleons Größe wurde mit „5 Fuß, 2 Zoll und 3 Linien“ angegeben. Klingt winzig, war aber in alten französischen Maßeinheiten, und der französische Zoll war länger als der englische. Umgerechnet: rund 1,69 Meter. Laut Fondation Napoléon lag der Durchschnittsfranzose damals bei etwa 1,60 Metern, Infanterie-Rekruten maßen 1,65 bis 1,69 Meter. Napoleon war also: normal.\n\nWarum hält sich der Mythos? Auf Gemälden steht er meist zwischen Generälen und Gardesoldaten, neben denen jeder schrumpft. Und britische Karikaturisten zeichneten den Erzfeind liebend gern als winzigen Wüterich „Little Boney“.\n\nPropaganda hält eben manchmal länger als jede Schlacht. Und ein Umrechnungsfehler auch.",
   "sources": [
    {
     "title": "Bullet Point #15 – Was Napoleon small?",
@@ -2520,15 +2575,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "ges-bc3166",
   "category": "geschichte",
   "lang": "de",
-  "headline": "Australiens Armee gegen Emus und die Emus gewannen",
-  "teaser": "1932 schickte Australien Soldaten mit zwei Maschinengewehren gegen rund 20.000 Emus, doch die Vögel waren schwer zu treffen und die Aktion wurde abgebrochen.",
-  "detail": "In Westaustralien hatten Weizenfarmer Anfang der 1930er Jahre ein riesiges Problem: rund 20.000 Emus, die eine Dürre auf ihre Felder getrieben hatte. Die Farmer baten die Regierung um Hilfe, und die schickte tatsächlich das Militär.\n\nAm 2. November 1932 rückten drei Soldaten der Royal Australian Artillery mit zwei leichten Lewis-Maschinengewehren an. Der Plan scheiterte schnell. Die Emus liefen nicht in dichten Gruppen, sondern zerstreuten sich blitzschnell in alle Richtungen, und an einer Wasserstelle hatte ein Maschinengewehr Ladehemmung. In den ersten drei Tagen erwischte die Truppe gerade einmal 30 Vögel.\n\nKommandant Major Meredith soll anerkennend gesagt haben, die Emus könnten Maschinengewehren mit der Unverwundbarkeit von Panzern trotzen. Als Forderungen nach einem humaneren Umgang mit den Tieren laut wurden, blies die Regierung den Einsatz ab. Laut National Geographic waren nach 45 Tagen nur etwa 2.500 Tiere getötet worden. Das Fazit des Magazins: Die Emus gingen als Sieger hervor.",
+  "headline": "Australiens Armee gegen Emus: Die Emus gewannen",
+  "teaser": "1932 rückten Soldaten mit zwei Maschinengewehren gegen rund 20.000 Emus aus. Die Vögel waren schwer zu treffen, und der Einsatz wurde abgebrochen.",
+  "detail": "Westaustralien, Anfang der 1930er: Rund 20.000 Emus hatte eine Dürre auf die Weizenfelder getrieben. Die Farmer riefen nach der Regierung, und die schickte tatsächlich das Militär.\n\nAm 2. November 1932 rückten drei Soldaten der Royal Australian Artillery mit zwei leichten Lewis-Maschinengewehren an. Die Emus hielten sich nicht an den Plan. Statt in dichten Gruppen zu laufen, stoben sie blitzschnell in alle Richtungen auseinander, und an einer Wasserstelle hatte ein Maschinengewehr Ladehemmung. Bilanz nach drei Tagen: 30 Vögel.\n\nMajor Meredith soll anerkennend gesagt haben, die Emus könnten Maschinengewehren mit der Unverwundbarkeit von Panzern trotzen. Als Forderungen nach einem humaneren Umgang laut wurden, blies die Regierung das Ganze ab. Laut National Geographic waren nach 45 Tagen nur etwa 2.500 Tiere getötet worden.\n\nDas Fazit des Magazins: Die Emus gingen als Sieger hervor.",
   "sources": [
    {
     "title": "The bizarre story of when Australia went to war with emus—and lost",
@@ -2545,15 +2601,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "ges-def0f8",
   "category": "geschichte",
   "lang": "de",
-  "headline": "Dagen H: Schweden wechselte über Nacht die Straßenseite",
-  "teaser": "Am 3. September 1967 stellte Schweden um 5 Uhr morgens landesweit von Links- auf Rechtsverkehr um, obwohl 1955 fast 83 Prozent dagegen gestimmt hatten.",
-  "detail": "Schweden fuhr jahrzehntelang auf der linken Straßenseite. Als die Bevölkerung 1955 in einer Volksabstimmung gefragt wurde, ob sich das ändern soll, stimmten fast 83 Prozent dagegen. Umgestellt wurde trotzdem, nur zwölf Jahre später.\n\nDer große Tag hieß „Dagen H“, H wie „högertrafik“, Rechtsverkehr. In der Nacht zum 3. September 1967 war aller nicht notwendige Verkehr zwischen 1 und 6 Uhr verboten, in Stockholm und Malmö sogar deutlich länger. Um 4:45 Uhr hielten alle Autos, die noch unterwegs waren, an, wechselten vorsichtig auf die andere Fahrbahnseite und warteten. Um 5 Uhr verkündete das Radio: Schweden fährt jetzt rechts.\n\nDie befürchteten Massenkarambolagen blieben aus. Manche Forscher hatten ein Blutbad vorhergesagt. Ein früherer Chef der schwedischen Verkehrssicherheit nannte die Umstellung im Rückblick dagegen äußerst erfolgreich.",
+  "headline": "Dagen H: Ganz Schweden wechselte um 5 Uhr die Straßenseite",
+  "teaser": "Am 3. September 1967 um 5 Uhr morgens stellte Schweden auf Rechtsverkehr um. Bei der Volksabstimmung 1955 hatten fast 83 Prozent dagegen gestimmt.",
+  "detail": "Schweden fuhr jahrzehntelang links. 1955 durfte das Volk abstimmen, ob das so bleiben soll, und fast 83 Prozent sagten: Ja, bitte nichts ändern. Zwölf Jahre später wurde trotzdem umgestellt.\n\nDer große Tag hieß „Dagen H“, H wie „högertrafik“, Rechtsverkehr. In der Nacht zum 3. September 1967 war zwischen 1 und 6 Uhr aller nicht notwendige Verkehr verboten, in Stockholm und Malmö deutlich länger. Um 4:45 Uhr hielten alle Autos, die noch unterwegs waren, an, rollten vorsichtig auf die andere Fahrbahnseite und warteten. Um 5 Uhr verkündete das Radio: Schweden fährt jetzt rechts.\n\nManche Forscher hatten ein Blutbad vorhergesagt. Die Massenkarambolagen blieben aus. Ein früherer Chef der schwedischen Verkehrssicherheit nannte die Aktion im Rückblick äußerst erfolgreich.\n\nEin ganzes Land, das um Viertel vor fünf brav die Spur wechselt: Ordnung muss sein.",
   "sources": [
    {
     "title": "The day Sweden switched to driving on the right",
@@ -2570,15 +2627,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "kun-66a5f1",
   "category": "kunst",
   "lang": "de",
-  "headline": "Der Diebstahl, der die Mona Lisa berühmt machte",
-  "teaser": "Als die Mona Lisa 1911 aus dem Louvre gestohlen wurde, merkte es über 24 Stunden niemand; erst der Raub machte sie weltberühmt.",
-  "detail": "Am Morgen des 21. August 1911 spazierte Vincenzo Peruggia mit Leonardo da Vincis Gemälde aus dem Louvre. Der italienische Einwanderer hatte kurz zuvor im Museum gearbeitet und dort Rahmen und Schutzkästen gebaut. Er wusste also genau, wie man das Bild herausbekam.\n\nDas Erstaunliche: Mehr als 24 Stunden lang fiel niemandem auf, dass das Bild fehlte. Erst dann bemerkte ein Maler, der die Galerie abmalen wollte, dass an der Wand nur noch die Haken hingen, an denen der Schutzkasten befestigt gewesen war.\n\nZwei Jahre lang blieb die Mona Lisa verschwunden. 1913 versuchte Peruggia, sie an ein anderes Museum zu verkaufen, und flog auf. Bis dahin war das Porträt ein eher weniger bekanntes Werk Leonardos. Erst der Raub rückte es ins Licht der Öffentlichkeit und machte die Mona Lisa weltberühmt.",
+  "headline": "Erst geklaut, dann weltberühmt: die Mona Lisa",
+  "teaser": "1911 wurde die Mona Lisa aus dem Louvre gestohlen, und über 24 Stunden lang merkte es niemand. Erst der Raub machte sie weltberühmt.",
+  "detail": "Am Morgen des 21. August 1911 spazierte Vincenzo Peruggia mit Leonardo da Vincis Gemälde aus dem Louvre. Der italienische Einwanderer hatte kurz zuvor im Museum gearbeitet, ausgerechnet beim Bau von Rahmen und Schutzkästen. Er wusste also genau, wie man das Bild herausbekommt.\n\nUnd dann: Stille. Mehr als 24 Stunden lang fiel niemandem auf, dass das Bild fehlte. Erst ein Maler, der die Galerie abmalen wollte, bemerkte, dass an der Wand nur noch die Haken hingen.\n\nZwei Jahre blieb die Mona Lisa verschwunden. 1913 wollte Peruggia sie an ein anderes Museum verkaufen und flog auf.\n\nDie Pointe: Vorher war das Porträt eher ein weniger bekanntes Werk Leonardos. Erst der Raub rückte es ins Rampenlicht und machte die Mona Lisa weltberühmt. Der Dieb war also, ganz ungewollt, ihr bester PR-Manager.",
   "sources": [
    {
     "title": "The most audacious thefts at the Louvre in the last century",
@@ -2594,15 +2652,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "kun-53b021",
   "category": "kunst",
   "lang": "de",
-  "headline": "In Halberstadt läuft ein Orgelstück bis zum Jahr 2640",
-  "teaser": "In der Burchardikirche in Halberstadt erklingt seit 2001 John Cages „ORGAN²/ASLSP“ in einer Fassung, die erst am 4. September 2640 endet.",
-  "detail": "„ASLSP“ steht für „As Slow As Possible“, so langsam wie möglich. Der US-Komponist John Cage hat nicht festgelegt, wie langsam genau. Ein Projekt in Halberstadt in Sachsen-Anhalt nimmt das wörtlich: Die Aufführung dauert 639 Jahre.\n\nDie Zahl ist kein Zufall. Im Jahr 2000, als das Projekt startete, war es genau 639 Jahre her, dass in Halberstadt 1361 eine historische Orgel gebaut wurde. Los ging es am 5. September 2001, Cages 89. Geburtstag, und zwar mit einer Pause: Die ersten Töne erklangen erst am 5. Februar 2003.\n\nDamit der Ton nie abreißt, bläst ein elektrisches Gebläse ununterbrochen Luft in die Orgel. Klangwechsel sind seltene Ereignisse, zu denen Besucher anreisen. Am 5. August 2026 kam ein achter Ton dazu, es war erst der 17. Klangwechsel. Wer das Ende hören will, muss sich gedulden: Der Schlussakkord ist für den 4. September 2640 geplant.",
+  "headline": "In Halberstadt läuft ein Orgelstück bis 2640",
+  "teaser": "In der Burchardikirche in Halberstadt läuft seit 2001 John Cages „ORGAN²/ASLSP“. Der Schlussakkord ist für den 4. September 2640 geplant.",
+  "detail": "„ASLSP“ heißt „As Slow As Possible“, so langsam wie möglich. Wie langsam genau, hat der US-Komponist John Cage nicht festgelegt. Halberstadt in Sachsen-Anhalt nimmt es wörtlich: Die Aufführung dauert 639 Jahre.\n\nDie Zahl hat einen Grund. Im Jahr 2000, als das Projekt startete, war es genau 639 Jahre her, dass in Halberstadt 1361 eine historische Orgel gebaut wurde. Los ging es am 5. September 2001, Cages 89. Geburtstag. Und zwar stilecht mit einer Pause: Die ersten Töne kamen erst am 5. Februar 2003.\n\nEin elektrisches Gebläse pustet ununterbrochen Luft in die Orgel. Klangwechsel sind Events, zu denen Besucher anreisen. Am 5. August 2026 kam ein achter Ton dazu, erst der 17. Klangwechsel überhaupt.\n\nWer das Finale hören will, muss sich gedulden: Der Schlussakkord ist für den 4. September 2640 geplant. Zwischendurch rausgehen ist ausdrücklich erlaubt.",
   "sources": [
    {
     "title": "This organ will play one composition until 2640. It's redefining how slowly music can be played",
@@ -2619,15 +2678,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "kun-55c016",
   "category": "kunst",
   "lang": "de",
-  "headline": "„Der Schrei“ gibt es gleich mehrfach",
-  "teaser": "Edvard Munch schuf vier farbige Fassungen des „Schreis“, zwei Gemälde und zwei Pastellzeichnungen, dazu kommen rund 30 Abzüge als Lithografie.",
-  "detail": "Wer „den“ Schrei sehen will, hat die Qual der Wahl. Der norwegische Maler Edvard Munch hat sein berühmtestes Motiv mehrmals umgesetzt: zweimal als Gemälde mit Tempera und zweimal als Zeichnung mit Pastell und Kreide. Dazu kommen Lithografien, also Drucke von einer Steinplatte, von denen nach Schätzung des MUNCH-Museums rund 30 Abzüge existieren.\n\nDie farbigen Fassungen sind verstreut. Zwei gehören dem MUNCH-Museum in Oslo, eine der Nationalgalerie Norwegens, und eine befindet sich in Privatbesitz. Eines der Gemälde stammt vermutlich erst von 1910, also fast zwei Jahrzehnte nach dem ersten Entwurf; die Kreidezeichnung entstand 1893, die Lithografien 1895.\n\nDas MUNCH-Museum besitzt insgesamt acht Versionen, darunter eine Lithografie, die Munch selbst von Hand koloriert hat. Wer nach Oslo reist, hat Glück: Laut Museum ist dort immer eine Fassung des berühmten Motivs ausgestellt, nur eben nicht unbedingt dieselbe.",
+  "headline": "„Der Schrei“? Welcher denn? Es gibt mehrere",
+  "teaser": "Edvard Munch hat seinen „Schrei“ viermal in Farbe umgesetzt, zwei Gemälde und zwei Pastellzeichnungen. Dazu kommen rund 30 Abzüge als Lithografie.",
+  "detail": "Wer „den“ Schrei sehen will, muss erst mal fragen: welchen? Der norwegische Maler Edvard Munch hat sein berühmtestes Motiv mehrmals umgesetzt: zweimal als Gemälde mit Tempera, zweimal als Zeichnung mit Pastell und Kreide. Dazu kommen Lithografien, also Drucke von einer Steinplatte, laut MUNCH-Museum rund 30 Abzüge.\n\nDie farbigen Fassungen sind verteilt: zwei im MUNCH-Museum in Oslo, eine in der Nationalgalerie Norwegens, eine in Privatbesitz. Die Kreidezeichnung entstand 1893, die Lithografien 1895, und eines der Gemälde vermutlich erst 1910, fast zwei Jahrzehnte nach dem ersten Entwurf. Munch kam von dem Motiv offenbar nicht los.\n\nDas MUNCH-Museum besitzt insgesamt acht Versionen, darunter eine Lithografie, die Munch selbst von Hand koloriert hat. Gute Nachricht für Oslo-Reisende: Laut Museum hängt dort immer eine Fassung. Nur eben nicht unbedingt dieselbe.",
   "sources": [
    {
     "title": "The Scream",
@@ -2641,15 +2701,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "kun-c81140",
   "category": "kunst",
   "lang": "de",
-  "headline": "Die Freiheitsstatue ist so dünn wie zwei Münzen",
-  "teaser": "Die Kupferhaut der Freiheitsstatue ist nur 3/32 Zoll dick, etwa 2,4 Millimeter, laut US-Nationalparkbehörde so dick wie zwei aufeinandergelegte Pennys.",
-  "detail": "Die Freiheitsstatue wirkt massiv, ist aber eigentlich eine dünne Hülle. Der französische Bildhauer Frédéric-Auguste Bartholdi ließ sie aus Kupferplatten formen, die von einem inneren Gerüst getragen werden. Von außen sieht man also nur die Haut einer Figur, die innen weitgehend hohl ist.\n\nDie Kupferplatten sind laut National Park Service nur 3/32 Zoll stark, rund 2,4 Millimeter. Zusammen bringen sie trotzdem 176.000 Pfund auf die Waage, rund 80 Tonnen. Das Stützgerüst ist mit 440.000 Pfund, etwa 200 Tonnen, deutlich schwerer als die Figur, die man von außen sieht.\n\nVom Boden bis zur Fackelspitze misst das Monument samt Sockel rund 93 Meter, die Figur selbst vom Sockel bis zur Fackel etwa 46 Meter. Die Flamme der Fackel ist übrigens mit 24-karätigem Blattgold überzogen. Viel Statue also, aber an der entscheidenden Stelle kaum dicker als ein Stapel Kleingeld.",
+  "headline": "Die Freiheitsstatue ist dünn wie zwei Pennys",
+  "teaser": "Die Kupferhaut der Freiheitsstatue ist nur 3/32 Zoll dick, etwa 2,4 Millimeter. Laut US-Nationalparkbehörde so dick wie zwei aufeinandergelegte Pennys.",
+  "detail": "Die Freiheitsstatue wirkt massiv. Ist sie aber nicht. Der französische Bildhauer Frédéric-Auguste Bartholdi ließ sie aus Kupferplatten formen, die ein inneres Gerüst trägt. Was man von außen sieht, ist eine Haut um eine weitgehend hohle Figur.\n\nLaut National Park Service sind die Kupferplatten nur 3/32 Zoll stark, rund 2,4 Millimeter. Zusammen wiegen sie trotzdem 176.000 Pfund, rund 80 Tonnen. Das Gerüst darunter bringt 440.000 Pfund auf die Waage, etwa 200 Tonnen. Das Skelett ist also deutlich schwerer als die ganze Lady, die man sieht.\n\nVom Boden bis zur Fackelspitze misst das Monument samt Sockel rund 93 Meter, die Figur selbst etwa 46 Meter. Die Flamme ist mit 24-karätigem Blattgold überzogen.\n\nViel Statue also, aber an der entscheidenden Stelle kaum dicker als ein Stapel Kleingeld.",
   "sources": [
    {
     "title": "Statue Statistics",
@@ -2665,6 +2726,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -2673,7 +2735,7 @@
   "lang": "de",
   "headline": "Der Teppich von Bayeux ist gar kein Teppich",
   "teaser": "Der fast 70 Meter lange „Teppich von Bayeux“ aus dem 11. Jahrhundert ist eigentlich eine Stickerei: Wollfäden auf Leinen, in nur zehn Farbtönen.",
-  "detail": "Er erzählt wie ein mittelalterlicher Comic, wie Wilhelm von der Normandie 1066 England eroberte. Hauptfiguren sind Wilhelm, der Angelsachse Harold und Bischof Odo von Bayeux.\n\nObwohl er überall „Teppich“ (englisch „tapestry“, also Wandteppich) heißt, ist er technisch gesehen keiner. Bei einem gewebten Wandteppich entsteht das Bild beim Weben selbst. Hier wurde dagegen mit Wollgarn auf ein fertiges Leinentuch gestickt. Dafür reichten gerade einmal zehn Farbtöne Wollgarn.\n\nDie Maße sind beeindruckend: fast 70 Meter lang, aber nur rund 50 Zentimeter hoch. Das Werk entstand im 11. Jahrhundert, also vor fast 1.000 Jahren. Normalerweise hängt es im Museum in Bayeux in der Normandie; während der Renovierung des Museums ist es laut Museum von September 2026 bis Juli 2027 als Leihgabe im British Museum in London zu sehen. Auf der Website des Museums lässt es sich außerdem Szene für Szene online durchstöbern. Der Name „Teppich“ hat sich trotzdem gehalten, und daran wird sich wohl auch nichts mehr ändern.",
+  "detail": "Er erzählt wie ein mittelalterlicher Comic, wie Wilhelm von der Normandie 1066 England eroberte. In den Hauptrollen: Wilhelm, der Angelsachse Harold und Bischof Odo von Bayeux.\n\nNur heißt er überall „Teppich“ (englisch „tapestry“, Wandteppich), und genau das ist er nicht. Bei einem gewebten Wandteppich entsteht das Bild beim Weben. Hier wurde mit Wollgarn auf ein fertiges Leinentuch gestickt, mit gerade einmal zehn Farbtönen.\n\nDie Maße: fast 70 Meter lang, aber nur rund 50 Zentimeter hoch. Eher Comicstreifen als Teppich. Normalerweise hängt er im Museum in Bayeux in der Normandie; wegen der Renovierung ist er laut Museum von September 2026 bis Juli 2027 als Leihgabe im British Museum in London zu sehen. Online lässt er sich Szene für Szene durchstöbern.\n\nDer Name „Teppich“ hat sich trotzdem gehalten. Daran ändert jetzt auch keiner mehr was.",
   "sources": [
    {
     "title": "Discover the Bayeux Tapestry",
@@ -2689,15 +2751,16 @@
   "era": "mittelalter",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "kun-8c374b",
   "category": "kunst",
   "lang": "de",
-  "headline": "Der älteste erhaltene Film dauert rund zwei Sekunden",
-  "teaser": "Der älteste erhaltene Film der Welt entstand im Oktober 1888 in einem Garten in Leeds: Louis Le Prince filmte seine Familie, erhalten sind nur 20 Einzelbilder.",
-  "detail": "Lange vor den Brüdern Lumière und Thomas Edison stand der französische Erfinder Louis Le Prince mit seiner selbst gebauten Kamera im Garten seiner Schwiegereltern in Roundhay bei Leeds. Im Oktober 1888 filmte er dort seine Schwiegereltern, seinen Sohn Adolphe und eine Bekannte, die im Kreis herumlaufen, um im Bildausschnitt zu bleiben.\n\nDie „Roundhay Garden Scene“ wird von Guinness World Records als ältester erhaltener Film geführt. Überliefert sind allerdings nur 20 Einzelbilder: Das Science Museum in London kopierte sie in den 1930er Jahren von Le Princes Papiernegativen auf eine Glasplatte. Laut Guinness drehte Le Prince mit 10 bis 12 Bildern pro Sekunde. Das ergibt gerade einmal rund zwei Sekunden Kino.\n\nInhaltlich passiert darin nicht viel: ein paar Menschen, ein Rasen, ein bisschen Bewegung. Trotzdem ist dieser Schnipsel ein Meilenstein, denn er zeigt, dass bewegte Bilder schon Jahre vor den ersten öffentlichen Kinovorführungen funktionierten.",
+  "headline": "Der älteste erhaltene Film: rund zwei Sekunden Garten",
+  "teaser": "Im Oktober 1888 filmte Louis Le Prince in einem Garten in Leeds seine Familie beim Im-Kreis-Laufen. Erhalten sind nur 20 Einzelbilder.",
+  "detail": "Lange vor den Brüdern Lumière und Thomas Edison stand der französische Erfinder Louis Le Prince mit einer selbst gebauten Kamera im Garten seiner Schwiegereltern in Roundhay bei Leeds. Im Oktober 1888 filmte er dort seine Schwiegereltern, seinen Sohn Adolphe und eine Bekannte. Die liefen im Kreis, damit sie im Bild blieben.\n\nDie „Roundhay Garden Scene“ führt Guinness World Records als ältesten erhaltenen Film. Überliefert sind 20 Einzelbilder, die das Science Museum in London in den 1930er Jahren von Le Princes Papiernegativen auf eine Glasplatte kopierte. Bei 10 bis 12 Bildern pro Sekunde ergibt das rund zwei Sekunden Kino.\n\nHandlung: ein paar Leute, ein Rasen, ein bisschen Bewegung. Kein Plot, kein Abspann. Trotzdem ein Meilenstein, denn er zeigt, dass bewegte Bilder schon Jahre vor den ersten öffentlichen Kinovorführungen funktionierten.",
   "sources": [
    {
     "title": "First surviving film",
@@ -2719,6 +2782,7 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -2749,15 +2813,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "kun-598ace",
   "category": "kunst",
   "lang": "de",
-  "headline": "Die erste Micky Maus gehört seit 2024 allen",
-  "teaser": "Seit dem 1. Januar 2024 ist Micky Maus in ihrer Urform aus „Steamboat Willie“ (1928) in den USA gemeinfrei und darf frei verwendet werden.",
-  "detail": "1928 pfiff Micky Maus im Kurzfilm „Steamboat Willie“ am Steuer eines Dampfschiffs, einem der ersten Zeichentrickfilme mit synchronem Ton. Fast ein Jahrhundert lang war die Figur urheberrechtlich geschützt, auch weil der US-Kongress die Schutzfristen mehrfach verlängerte.\n\nAm 1. Januar 2024 lief der Schutz für diese Urfassung in den USA aus. Seitdem darf jeder die Micky und Minnie von 1928 teilen, bearbeiten und neu verwenden, zumindest nach US-Recht. In anderen Ländern kann die Lage anders aussehen.\n\nGanz freie Bahn gibt es aber nicht. Neuere Versionen der Maus, wie man sie aus späteren Filmen kennt, bleiben geschützt. Und Disney besitzt weiterhin Markenrechte: Wer Micky so verwendet, dass Kunden glauben könnten, das Produkt stamme von Disney, bekommt Ärger. Das Center for the Study of the Public Domain der Duke University rät deshalb zu einem klaren Hinweis, dass Disney nichts damit zu tun hat.",
+  "headline": "Die Ur-Micky-Maus gehört seit 2024 allen",
+  "teaser": "Seit dem 1. Januar 2024 ist Micky Maus in ihrer Urform aus „Steamboat Willie“ (1928) in den USA gemeinfrei. Mit ein paar Haken.",
+  "detail": "1928 pfiff Micky Maus in „Steamboat Willie“ am Steuer eines Dampfschiffs, einem der ersten Zeichentrickfilme mit synchronem Ton. Danach war die Maus fast ein Jahrhundert lang geschützt, auch weil der US-Kongress die Schutzfristen mehrfach verlängerte.\n\nAm 1. Januar 2024 war Schluss, zumindest für die Urfassung in den USA. Seitdem darf jeder die Micky und Minnie von 1928 teilen, bearbeiten und neu verwenden. In anderen Ländern kann es anders aussehen.\n\nFreie Bahn für alles gibt es aber nicht. Neuere Versionen der Maus bleiben geschützt. Und Disney hat weiterhin Markenrechte: Wer Micky so nutzt, dass Kunden an ein Disney-Produkt glauben könnten, bekommt Ärger. Das Center for the Study of the Public Domain der Duke University rät deshalb zu einem klaren Hinweis, dass Disney nichts damit zu tun hat.\n\nDie Maus ist frei. Die Anwälte aber auch noch da.",
   "sources": [
    {
     "title": "Mickey, Disney, and the Public Domain: a 95-year Love Triangle",
@@ -2773,6 +2838,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -2780,8 +2846,8 @@
   "category": "kunst",
   "lang": "de",
   "headline": "Im Zweiten Weltkrieg gab es Oscars aus Gips",
-  "teaser": "Wegen Metallmangels im Zweiten Weltkrieg verlieh die Filmakademie drei Jahre lang Oscars aus bemaltem Gips.",
-  "detail": "Ein Oscar ist laut Filmakademie 13½ Zoll groß, also rund 34 Zentimeter, und wiegt 8½ Pfund, knapp vier Kilo. Ein ordentlicher Brocken aus vergoldetem Metall, den man nicht versehentlich vom Regal stößt. Doch im Zweiten Weltkrieg wurde Metall für die Rüstung gebraucht und war knapp.\n\nDie Academy of Motion Picture Arts and Sciences fand eine pragmatische Lösung: Drei Jahre lang bekamen die Gewinnerinnen und Gewinner Statuetten aus bemaltem Gips. Ruhm und Ehre waren dieselben, das Material nur deutlich zerbrechlicher.\n\nNach dem Krieg lud die Akademie alle Betroffenen ein, ihre Gips-Oscars gegen echte, vergoldete Metallfiguren einzutauschen. Wer heute einen Oscar aus dieser Zeit im Regal stehen hat, besitzt also meist einen nachträglich umgetauschten. Ein schönes Detail für den nächsten Filmabend: Selbst Hollywoods begehrtester Preis musste sich der Kriegswirtschaft beugen.",
+  "teaser": "Weil im Zweiten Weltkrieg Metall knapp war, verlieh die Filmakademie drei Jahre lang Oscars aus bemaltem Gips.",
+  "detail": "Ein Oscar ist laut Filmakademie 13½ Zoll groß, rund 34 Zentimeter, und wiegt 8½ Pfund, knapp vier Kilo. Ein ordentlicher Brocken aus vergoldetem Metall. Nur wurde Metall im Zweiten Weltkrieg für die Rüstung gebraucht.\n\nDie Academy of Motion Picture Arts and Sciences löste das pragmatisch: Drei Jahre lang gab es Statuetten aus bemaltem Gips. Gleicher Ruhm, gleiche Ehre, nur deutlich zerbrechlicher.\n\nNach dem Krieg durften alle Betroffenen ihre Gips-Oscars gegen echte, vergoldete Metallfiguren eintauschen. Wer heute einen Oscar aus dieser Zeit im Regal stehen hat, besitzt also meist einen nachträglich umgetauschten.\n\nSelbst Hollywoods begehrtester Preis musste sich also der Kriegswirtschaft beugen. Und wer damals gewann, hielt ihn bei der Party besser gut fest.",
   "sources": [
    {
     "title": "The Oscars Statuette",
@@ -2796,15 +2862,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "kun-0b80ba",
   "category": "kunst",
   "lang": "de",
-  "headline": "Rembrandts „Nachtwache“ wurde an allen Seiten beschnitten",
-  "teaser": "Als Rembrandts „Nachtwache“ wahrscheinlich 1715 ins Amsterdamer Rathaus kam, wurde sie an allen Seiten beschnitten; links verschwanden zwei Männer und ein Kind.",
-  "detail": "Rembrandt malte das riesige Gruppenbild 1642 für die Schützengilde von Amsterdam. Rund 70 Jahre später, 1715, zog das Gemälde ins Rathaus um. Dabei wurde es an allen vier Seiten beschnitten.\n\nDass dabei Figuren verloren gingen, weiß man dank einer Kopie. Gerrit Lundens malte das Bild im Kleinformat nach, solange es noch vollständig war, vermutlich sogar im Auftrag von Hauptmann Banning Cocq, der im Zentrum des Bildes steht. Auf der Kopie, die der National Gallery in London gehört (derzeit als Leihgabe im Rijksmuseum), sind ganz links zwei Männer und ein Kind hinter einer Brüstung zu sehen, die in der „Nachtwache“ fehlen.\n\nEines der berühmtesten Gemälde der Welt ist also eigentlich eine gekürzte Fassung, beschnitten beim Umzug an seinen neuen Platz.",
+  "headline": "Rembrandts „Nachtwache“ wurde beim Umzug gestutzt",
+  "teaser": "Als Rembrandts „Nachtwache“ wahrscheinlich 1715 ins Amsterdamer Rathaus kam, wurde sie rundum beschnitten. Links verschwanden zwei Männer und ein Kind.",
+  "detail": "Rembrandt malte das riesige Gruppenbild 1642 für die Schützengilde von Amsterdam. Rund 70 Jahre später, 1715, zog es ins Rathaus um. Und dabei wurde es an allen vier Seiten beschnitten.\n\nWer dabei rausflog, weiß man dank einer Kopie. Gerrit Lundens malte das Bild im Kleinformat nach, als es noch vollständig war, vermutlich sogar im Auftrag von Hauptmann Banning Cocq, der im Zentrum steht. Auf dieser Kopie, die der National Gallery in London gehört (derzeit als Leihgabe im Rijksmuseum), stehen ganz links zwei Männer und ein Kind hinter einer Brüstung. In der „Nachtwache“ fehlen sie.\n\nEines der berühmtesten Gemälde der Welt ist also eigentlich eine gekürzte Fassung. Beschnitten nicht aus künstlerischen Gründen, sondern beim Umzug. Ein Problem, das jeder kennt, der schon mal ein Sofa durchs Treppenhaus getragen hat.",
   "sources": [
    {
     "title": "Gerrit Lundens, after Rembrandt: The Company of Captain Banning Cocq ('The Nightwatch')",
@@ -2819,15 +2886,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "kun-179a40",
   "category": "kunst",
   "lang": "de",
-  "headline": "„Stille Nacht“ wird in über 300 Sprachen gesungen",
-  "teaser": "Das Weihnachtslied „Stille Nacht“ erklang erstmals am 24. Dezember 1818 in Oberndorf bei Salzburg und wird heute in über 300 Sprachen und Dialekten gesungen.",
-  "detail": "Das Lied begann ganz bescheiden. Der junge Hilfspfarrer Joseph Mohr hatte ein Gedicht geschrieben und bat den Lehrer und Organisten Franz Xaver Gruber, eine Melodie dazu zu komponieren. Am Heiligabend 1818 sangen die beiden ihr Lied zum ersten Mal in der Kirche St. Nikola in Oberndorf bei Salzburg.\n\nVon dort aus trat „Stille Nacht“ eine erstaunliche Weltreise an. Heute wird es laut dem Salzburger Land in mehr als 300 Sprachen und Dialekten gesungen und gehört damit zu den bekanntesten Liedern der Welt.\n\nBemerkenswert ist, wie klein der Anfang war: kein Komponist von Rang, kein großer Konzertsaal, sondern ein Dorfpfarrer und ein Dorflehrer in einer Kirche im Salzburger Land. Wer heute zu Weihnachten irgendwo auf der Welt „Stille Nacht“ hört, singt also ein Lied, das als kleine Gemeinschaftsarbeit zweier Männer aus der Provinz begann.",
+  "headline": "„Stille Nacht“: vom Dorf in über 300 Sprachen",
+  "teaser": "Ein Hilfspfarrer und ein Dorforganist sangen es am 24. Dezember 1818 erstmals in Oberndorf bei Salzburg. Heute erklingt „Stille Nacht“ in über 300 Sprachen und Dialekten.",
+  "detail": "Der Anfang war bescheiden. Der junge Hilfspfarrer Joseph Mohr hatte ein Gedicht geschrieben und bat den Lehrer und Organisten Franz Xaver Gruber um eine Melodie. Am Heiligabend 1818 sangen die beiden ihr Lied zum ersten Mal in der Kirche St. Nikola in Oberndorf bei Salzburg.\n\nVon dort ging es auf Weltreise. Heute wird „Stille Nacht“ laut dem Salzburger Land in mehr als 300 Sprachen und Dialekten gesungen und gehört zu den bekanntesten Liedern der Welt.\n\nDas Schöne daran: kein Starkomponist, kein Konzertsaal, kein Marketing. Nur ein Dorfpfarrer und ein Dorflehrer in einer Kirche im Salzburger Land.\n\nWer an Weihnachten irgendwo auf der Welt „Stille Nacht“ hört, singt also ein Lied, das als kleine Gemeinschaftsarbeit zweier Männer aus der Provinz begann.",
   "sources": [
    {
     "title": "Silent Night",
@@ -2844,6 +2912,7 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
