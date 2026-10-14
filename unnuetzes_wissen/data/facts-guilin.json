@@ -1,5 +1,913 @@
 [
  {
+  "id": "ort-419697",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Für den Li-Fluss machte Guilin ein Sechstel seiner Industrie dicht",
+  "teaser": "1973 sah Vizepremier Deng Xiaoping Abwasser in den Li-Fluss strömen. In den Jahren danach machte Guilin alle Fabriken am Ufer dicht – zusammen ein Sechstel von Guilins Industrieproduktion.",
+  "detail": "In den 1960ern war der Li-Fluss streckenweise eine Kloake: Laut Stadtchronik zog sich ein mehr als zehn Kilometer langer Schmutzstreifen übers Wasser, Fabriken säumten beide Ufer.\n\nAm 15. Oktober 1973 führte Deng Xiaoping ausländische Gäste durch Guilin und sah die Abwasserrohre. Seine Ansage an die Lokalpolitiker: Wer für mehr Produktion den Fluss verdreckt, bei dem überwiegt am Ende der Schaden den Nutzen.\n\nGuilin griff durch: Alle Fabriken entlang des Li-Flusses wurden geschlossen, obwohl sie ein Sechstel der gesamten Industrieproduktion der Stadt lieferten.\n\nIm Januar 1986 fuhr Deng noch einmal per Boot bis Xingping, stieg aufs Oberdeck und freute sich: Das Wasser sei klar geworden. Bei Guilins Landschaft gehe es eben ums Wasser – nur darin sehe man die Spiegelbilder. Die Postkartenmotive verdanken also einiges einer Fabrikschließung.",
+  "sources": [
+   {
+    "title": "1986年1月，邓小平乘船游览漓江",
+    "publisher": "人民网 / 广安日报",
+    "date": "2018-07-24",
+    "url": "https://cpc.people.com.cn/n1/2018/0724/c69113-30165641.html"
+   }
+  ],
+  "tags": [
+   "wirtschaft",
+   "politik",
+   "reisen",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "gesetz"
+  ],
+  "wiki": "Li River",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-ae3745",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Uralte Schleuse: Zum Öffnen lässt man sie einstürzen",
+  "teaser": "Die Schleusentore am Lingqu-Kanal bestanden aus Stangen, Bambusgittern und Matten. Zum Öffnen schlug man eine einzige Stange weg – und das ganze Tor brach zusammen.",
+  "detail": "Der Lingqu-Kanal hatte bis zu 36 sogenannte Doumen, einfache Staustufen, die Boote bergauf und bergab brachten. Über 60 Staudamm-Experten aus aller Welt nannten sie 1986 „Vater der Schiffsschleuse“.\n\nDas Geniale ist der Verschluss: Drei Stangen werden über Kreuz zwischen zwei Steinpfeiler geklemmt, darauf kommen ein Gestell, Bambusgitter von etwa 50 mal 165 Zentimetern und zuletzt Bambusmatten. Das Wasser staut sich, der Pegel steigt.\n\nUnd zum Öffnen? Ein Schleusenwärter haut die kleine Querstange aus ihrer Kerbe. Ohne Halt kippt das ganze Konstrukt unter dem Wasserdruck um und treibt flussabwärts davon – das Tor ist offen, die Boote fahren weiter.\n\nMaterial gab's direkt am Ufer, Reparaturen waren simpel. Heute sind noch 18 dieser Tore gut erhalten. Aufbau mühsam, Abbau mit einem Schlag – das Gegenteil eines Möbelbausatzes.",
+  "sources": [
+   {
+    "title": "独家报道：千古灵渠 天下奇观",
+    "publisher": "中国社会科学报 / 中国社会科学网",
+    "date": "2023-04-14",
+    "url": "https://www.cssn.cn/ztzl/jzz/rwln/whzt/lb/202304/t20230418_5622837_1.shtml"
+   }
+  ],
+  "tags": [
+   "ingenieurwesen",
+   "schifffahrt",
+   "china"
+  ],
+  "era": "mittelalter",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "bauwerk",
+   "erfindung"
+  ],
+  "wiki": "Lingqu",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-70f06e",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Schweinedrache? Gemeint war wohl der erste Kaiser",
+  "teaser": "Am Lingqu-Kanal erzählt man vom Unheil eines „Schweinedrachen“. Dichter Guo Moruo reimte 1963: Der zhulong sei eigentlich der zulong – der Ahnendrache, also Qin Shi Huang.",
+  "detail": "Am 28. März 1963 besuchte der Dichter und Historiker Guo Moruo den Lingqu-Kanal und schrieb ein Gedicht, das heute auf einer 3,2 Meter hohen Marmortafel am Kanal steht.\n\nDarin greift er die Volkssagen auf: Da gebe es ein Grab dreier Generäle, und die Leute erzählten, ein „Schweinedrache“ habe Unheil angerichtet. Guos Pointe: Der zhulong, der Schweinedrache, sei in Wahrheit der zulong, der Ahnendrache – ein Beiname des ersten Kaisers, der den Kanal bauen ließ. Ein Ton Unterschied, und aus dem Reichsgründer wird ein Borstenvieh.\n\nNebenbei prägte Guo den Vergleich mit der Großen Mauer. Seitdem heißt es: Im Norden die Mauer, im Süden der Lingqu. Stille Post funktioniert eben auch über 2.000 Jahre.",
+  "sources": [
+   {
+    "title": "灵渠，究竟是一条怎样的渠",
+    "publisher": "光明日报 (gmw.cn)",
+    "date": "2023-01-03",
+    "url": "https://m.gmw.cn/baijia/2023-01/03/36273823.html"
+   }
+  ],
+  "tags": [
+   "sprache",
+   "literatur",
+   "mythologie",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "legende",
+   "woerter"
+  ],
+  "wiki": "Guo Moruo",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-062995",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "General verkaufte sein Pferd – um eine Brücke zu bauen",
+  "teaser": "Laut Legende scheute das Pferd von General Ma Yuan vor einer morschen Brücke am Lingqu-Kanal. Ma verkaufte das Tier und ließ die Brücke neu bauen.",
+  "detail": "Am Lingqu-Kanal steht die Masi-Brücke, die „Brücke des wiehernden Pferdes“. Sie gilt als älteste erhaltene Brücke am Kanal.\n\nIhre Gründungslegende: Ma Yuan, Feldherr der Östlichen Han-Dynastie, zog auf einem Feldzug nach Süden hier vorbei und wollte hinüberreiten. Doch die Brücke war morsch, das Pferd wieherte und weigerte sich. Ma Yuan verkaufte daraufhin sein Pferd und ließ die Brücke neu errichten. Ob er danach zu Fuß weitermarschierte, verrät die Sage nicht.\n\nAuch die Nachbarbrücke hat einen schönen Namen: Die Wanli-Brücke, „Zehntausend-Meilen-Brücke“, heißt so, weil man von hier per Schiff angeblich zehntausend Li von der Tang-Hauptstadt Chang'an entfernt war. Wer hier stand, wusste also: Weiter weg vom Kaiser geht kaum.",
+  "sources": [
+   {
+    "title": "灵渠，究竟是一条怎样的渠",
+    "publisher": "光明日报 (gmw.cn)",
+    "date": "2023-01-03",
+    "url": "https://m.gmw.cn/baijia/2023-01/03/36273823.html"
+   }
+  ],
+  "tags": [
+   "tiere",
+   "bau",
+   "mythologie",
+   "china"
+  ],
+  "era": "antike",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "legende",
+   "bauwerk"
+  ],
+  "wiki": "Lingqu",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-41e7b9",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Kleiner Prinz von Guilin: Die eigene Familie jagte ihn",
+  "teaser": "Maler Shitao war als Kind Erbe der Ming-Prinzen von Guilin. Seinen Vater töteten nicht die Mandschu, sondern ein Ming-Verwandter. Ein Palastdiener schleppte den Jungen huckepack davon.",
+  "detail": "Shitao, einer der berühmtesten Maler Chinas, hieß eigentlich Zhu Ruoji und stammte aus der Linie der Jingjiang-Prinzen, die in Guilin residierten.\n\nAls die Ming-Dynastie 1644 zusammenbrach, wollten plötzlich mehrere Prinzen das Reich retten. Shitaos Vater, der elfte Jingjiang-Prinz, hatte kaum Truppen, ernannte sich aber trotzdem zum Reichsverweser. Bevor die Mandschu überhaupt in Guilin ankamen, ließ ihn ein Konkurrent aus der eigenen Sippe, der Prinz von Tang, wegen Rebellion festsetzen und töten.\n\nDer Prinz von Tang ließ auch nach dem Sohn suchen. Ein Palastbediensteter nahm das Kind auf den Rücken und floh. Beide wurden Mönche. So überlebte Chinas späteres Malgenie – als Rebellenkind, das weder Ming noch Qing haben wollten.",
+  "sources": [
+   {
+    "title": "石涛，把苦绘在画中",
+    "publisher": "环球人物 (人民日报社)",
+    "date": "2013-01-06",
+    "url": "https://paper.people.com.cn/hqrw/html/2013-01/06/content_1186833.htm"
+   }
+  ],
+  "tags": [
+   "kunst",
+   "religion",
+   "familie",
+   "china"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "sensitive": "krieg",
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "panne"
+  ],
+  "wiki": "Shitao",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-6cb1a6",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Der Bittergurken-Mönch verehrte sein Lieblingsgemüse",
+  "teaser": "Shitao nannte sich „Kugua Heshang“, Bittergurken-Mönch. Laut einer Literaturwissenschaftlerin aß er Bittergurke zu jeder Mahlzeit – und stellte eine auf den Tisch, um sie zu verehren.",
+  "detail": "Der Maler Shitao aus Guilin verbarg seine Herkunft als Prinzensohn jahrzehntelang, und das merkt man an seinen Namen. Er wechselte sie wie andere die Hemden: In einem Kloster in Nanjing war er der „Mönch unter dem Zweig“, in den Bergen der „Ji-Berg-Mönch“ und nach viel Sutrenlektüre der „Kleine-Fahrzeug-Gast“.\n\nAm bekanntesten wurde „Kugua Heshang“, der Bittergurken-Mönch. Laut der Literaturwissenschaftlerin Li Fang von der Chinesischen Akademie der Sozialwissenschaften kam bei ihm Bittergurke zu jeder Mahlzeit auf den Tisch. Außerdem stellte er eine auf seinen Schreibtisch und verneigte sich davor.\n\nMan vermutet, dass das Gemüse für sein bitteres Schicksal stand. Wer in Guilin Bittergurke bestellt, isst also gewissermaßen Kunstgeschichte.",
+  "sources": [
+   {
+    "title": "石涛，把苦绘在画中",
+    "publisher": "环球人物 (人民日报社)",
+    "date": "2013-01-06",
+    "url": "https://paper.people.com.cn/hqrw/html/2013-01/06/content_1186833.htm"
+   }
+  ],
+  "tags": [
+   "kunst",
+   "ernaehrung",
+   "religion",
+   "china"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "essen",
+   "woerter"
+  ],
+  "wiki": "Momordica charantia",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-ae1a5b",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Kaiser wollte den Maler töten? Er lobte ihn",
+  "teaser": "Eine Legende erzählt, Kaiser Kangxi habe Shitao verkleidet gesucht, um ihn für zu trübsinnige Bilder hinrichten zu lassen. In Wahrheit unterschrieb Shitao stolz als „Untertan-Mönch“.",
+  "detail": "Über Shitao, den Prinzensohn aus Guilin, kursiert eine dramatische Sage: Ein Kaufmann klapperte Yangzhous Klöster nach einem Maler mit düsteren, kargen Landschaften ab. Als er Shitao gefunden hatte, gab er sich als Kaiser Kangxi zu erkennen und befahl, ihn zu töten – solche Bilder zeigten doch ein Land in Schande.\n\nDie Wirklichkeit lief anders: 1684 empfing Shitao den Kaiser in einem Tempel in Nanjing, 1689 noch einmal in Yangzhou. Kangxi sprach ihn mit seinem Mönchsnamen an und lobte ihn. Shitao war geschmeichelt, dichtete zwei Danksagungen und signierte ein Bild mit „Euer Untertan, der Mönch Yuanji, verneigt sich“.\n\nEin Spross der Ming-Prinzen von Guilin verbeugte sich also freiwillig vor der Dynastie, die die Ming beerbt hatte. Die Sage wollte offenbar den besseren Rebellen.",
+  "sources": [
+   {
+    "title": "石涛，把苦绘在画中",
+    "publisher": "环球人物 (人民日报社)",
+    "date": "2013-01-06",
+    "url": "https://paper.people.com.cn/hqrw/html/2013-01/06/content_1186833.htm"
+   }
+  ],
+  "tags": [
+   "kunst",
+   "politik",
+   "china"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "legende",
+   "mythos"
+  ],
+  "wiki": "Kangxi Emperor",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-ca0129",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Uropa auf der schwarzen Liste – Urenkel meißelte sie nach",
+  "teaser": "1105 ließ der Song-Kaiser 309 politische Gegner auf eine schwarze Liste in Stein hauen. 93 Jahre später ließ der Urenkel eines Gelisteten die Liste in Guilin neu einmeißeln.",
+  "detail": "1105 erklärte Kaiser Huizong auf Betreiben seines Kanzlers Cai Jing 309 Gegner der Reformen zur „Clique von Yuanyou“. Darunter waren Promis wie der Historiker Sima Guang. Ihre Namen kamen auf Steintafeln, die im ganzen Reich aufgestellt wurden – als Warnung an die Nachwelt.\n\nSchon ein Jahr später ruderte der Kaiser nach Protesten zurück und ließ alle Tafeln zerschlagen.\n\nDann die Wendung: 93 Jahre später ließ ein Urenkel des gelisteten Beamten Liang Tao die Liste nach einem Abklatsch aus Familienbesitz in Guilin neu in den Fels hauen. Aus der Schandliste wurde ein Familiendenkmal.\n\nDie Inschrift im Longyin-Felsen gilt heute als das einzige vollständig erhaltene Steindokument zu diesem Kapitel der Song-Geschichte. Cai Jing hätte sich das so sicher nicht gewünscht.",
+  "sources": [
+   {
+    "title": "桂林山水（专题，作者 金敬迈）",
+    "publisher": "中华文化资源 / 中国文化研究院 (chiculture.org.hk)",
+    "date": "2019",
+    "url": "https://chiculture.org.hk/sites/mainsite/files/2019-08/0213_guilinshanshui_pdf_cn.pdf"
+   },
+   {
+    "title": "东西问｜吴文燕：如何从桂林石刻中读懂中国文化？",
+    "publisher": "中国新闻网",
+    "date": "2024-10-29",
+    "url": "https://www.chinanews.com.cn/gn/2024/10-29/10310227.shtml"
+   }
+  ],
+  "tags": [
+   "politik",
+   "schrift",
+   "familie",
+   "china"
+  ],
+  "era": "mittelalter",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "gesetz",
+   "panne"
+  ],
+  "wiki": "Sima Guang",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-42c29f",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Zu protziger Palast: Der Kaiser holte den Prinzen weg",
+  "teaser": "Zhu Shouqian, erster Ming-Prinz in Guilin, ließ sich laut Überlieferung 20 Jahre lang einen Palast bauen. Dem Dynastiegründer war das zu viel: Er zitierte ihn weg – für immer.",
+  "detail": "1370 setzte der Ming-Gründer Zhu Yuanzhang seinen jungen Verwandten Zhu Shouqian als Prinzen von Jingjiang in Guilin ein. Der legte los: Am Fuß des Duxiu-Gipfels entstand eine Palastanlage, an der laut der Überlieferung rund 20 Jahre gebaut wurde.\n\nDer Kaiser war darüber alles andere als begeistert. Er beorderte den Prinzen aus Guilin ab und ließ ihn nie wieder zurückkehren – so erzählt es ein Themendossier der Hongkonger Academy of Chinese Studies.\n\nDer Palast blieb trotzdem über 200 Jahre Sitz der Prinzenlinie. Zhu Shouqian selbst hatte nur wenig davon. Moral: Wer beim Bauen übertreibt, wohnt am Ende woanders.",
+  "sources": [
+   {
+    "title": "桂林山水（专题，作者 金敬迈）",
+    "publisher": "中华文化资源 / 中国文化研究院 (chiculture.org.hk)",
+    "date": "2019",
+    "url": "https://chiculture.org.hk/sites/mainsite/files/2019-08/0213_guilinshanshui_pdf_cn.pdf"
+   }
+  ],
+  "tags": [
+   "architektur",
+   "familie",
+   "china"
+  ],
+  "era": "mittelalter",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "bauwerk",
+   "panne"
+  ],
+  "wiki": "Jingjiang Princes' City",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-3fd1de",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Erst Sun Yat-sen, dann Clinton: Promi-Anleger im Fischerdorf",
+  "teaser": "1921 stieg Sun Yat-sen im Fischerdorf bei Xingping aus, verteilte Kekse an die Kinder und taufte einen Teich. 1998 ging hier auch Bill Clinton mit Familie an Land.",
+  "detail": "Das Fischerdorf Yucun bei Xingping war über Jahrhunderte nur übers Wasser zu erreichen. Trotzdem hat es eine beachtliche Gästeliste.\n\nIm November 1921 kam Sun Yat-sen auf seinem Nordfeldzug durch Yangshuo, hielt eine Rede und nahm spontan ein Boot nach Xingping. Im Dorf plauderte er mit den Fischern, verteilte mitgebrachte Kekse an die Kinder und stieg auf den über 200 Meter hohen Hügel mit der alten Bergfestung. Dort oben fand er einen klaren Teich, der nie austrocknet – und taufte die Festung „Himmelswasser-Festung“.\n\n2004 ließ seine Enkelin einen Gedenkstein aufstellen: „Hier machte Sun Yat-sen sein Boot fest.“ Und am 2. Juli 1998 wählte US-Präsident Clinton genau dieses Dorf für einen Landgang. Kekse sind dabei nicht überliefert.\n\nVor Ort: Yucun liegt am Li-Fluss bei Xingping; der Gedenkstein steht im Dorf.",
+  "sources": [
+   {
+    "title": "孙穗芳为祖父孙中山先生在阳朔兴坪立纪念碑",
+    "publisher": "中国新闻网 (中新社)",
+    "date": "2004-11-19",
+    "url": "https://www.chinanews.com.cn/news/2004/2004-11-19/26/507558.shtml"
+   }
+  ],
+  "tags": [
+   "reisen",
+   "politik",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "brauch",
+   "vorort"
+  ],
+  "wiki": "Sun Yat-sen",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-e18ce5",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Diese Steinsäule schwebt – ein General hat sie zerhackt",
+  "teaser": "Im Fubo-Berg hängt eine Felssäule von der Decke und endet gut drei Zentimeter über dem Boden. Der Legende nach hat Han-General Ma Yuan sie beim Schwerttest durchgehauen.",
+  "detail": "Der Fubo-Berg ragt halb in den Li-Fluss hinein. Im Sommer schwillt der Fluss an, prallt gegen den Fels und dreht sich im Kreis – daher der Name: „Berg, der die Wellen bändigt“. Fubo, „Wellenbezwinger“, war zugleich der Ehrentitel des Han-Generals Ma Yuan.\n\nIn der Huanzhu-Höhle am Fuß des Bergs hängt eine Steinsäule von der Decke, oben dick, unten dünn. Sie berührt den Boden nicht: Es bleibt ein Spalt von einem chinesischen Zoll, gut drei Zentimetern. Die Legende dazu: Der Han-General Ma Yuan soll hier sein Schwert ausprobiert und die Säule glatt durchtrennt haben. Sie heißt seitdem „Schwerttest-Stein“.\n\nIn derselben Höhle hat sich übrigens der Song-Kalligraf Mi Fu selbst porträtiert – als Steingravur. Ein Selfie, 900 Jahre vor dem Smartphone.",
+  "sources": [
+   {
+    "title": "桂林山水（专题，作者 金敬迈）",
+    "publisher": "中华文化资源 / 中国文化研究院 (chiculture.org.hk)",
+    "date": "2019",
+    "url": "https://chiculture.org.hk/sites/mainsite/files/2019-08/0213_guilinshanshui_pdf_cn.pdf"
+   }
+  ],
+  "tags": [
+   "mythologie",
+   "geologie",
+   "militaer",
+   "china"
+  ],
+  "era": "antike",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "legende"
+  ],
+  "wiki": "Ma Yuan (Han dynasty)",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-6164d0",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Sieben Pferde: Vizemeister. Neun Pferde: Prüfungskaiser",
+  "teaser": "An der Neun-Pferde-Bildwand am Li-Fluss verspricht ein Volksreim: Wer sieben Pferde erkennt, wird Zweitbester der Kaiserprüfung – wer alle neun sieht, Bester des Reiches.",
+  "detail": "Rund 60 Kilometer flussab von Guilin steht am Ostufer des Li-Flusses eine Felswand, etwa 200 Meter breit und fast 400 Meter hoch. Grüne, gelbe und weiße Verfärbungen bilden ein riesiges „Gemälde“, in dem man neun Pferde sehen soll.\n\nAlle zu finden ist schwer. Der Volksglaube sagt: Je begabter jemand ist, desto mehr Pferde sieht er. Dazu gibt es einen Volksreim: „Wer sieben sieht, wird Bangyan, wer neun sieht, wird Zhuangyuan.“ Bangyan hieß der Zweitplatzierte der Kaiserprüfung, Zhuangyuan der Beste des ganzen Reiches – also die absolute Karrierekrone im alten China.\n\nDas Pech heutiger Bootstouristen: Die Kaiserprüfung wurde 1905 abgeschafft. Neun Pferde zu zählen bringt also keinen Posten mehr – höchstens einen Platz in der Bordunterhaltung.",
+  "sources": [
+   {
+    "title": "桂林山水（专题，作者 金敬迈）",
+    "publisher": "中华文化资源 / 中国文化研究院 (chiculture.org.hk)",
+    "date": "2019",
+    "url": "https://chiculture.org.hk/sites/mainsite/files/2019-08/0213_guilinshanshui_pdf_cn.pdf"
+   }
+  ],
+  "tags": [
+   "bildung",
+   "berge",
+   "china"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "legende"
+  ],
+  "wiki": "Li River",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-2e6f0f",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Ein Weinliebhaber ruht unter dem Weinkrug-Berg",
+  "teaser": "Der Kamelberg in Guilin heißt auch Weinkrug-Berg. Der Legende nach liegt dort ein Einsiedler begraben, der nie ohne Weinkrug in seinen Pfirsichgarten ging.",
+  "detail": "Im Siebenstern-Park steht ein einzelner Kalkfelsen, der wie ein liegendes Dromedar aussieht. Er gleicht aber auch einer Weinkanne, deshalb heißt er zweitens „Weinkrug-Berg“ – jemand hat die Zeichen „Krugberg“ sogar in die Wand gemeißelt.\n\nDie Legende dazu: Unter dem Berg lag ein Pfirsichhain, in dem ein Gelehrter namens Lei lebte. Er hatte keine Lust auf eine Beamtenkarriere, lebte von seinen Pfirsichen und trank leidenschaftlich. Ob Pflanzen oder Ernten, der Weinkrug war immer dabei. Die Leute nannten ihn „Weinmensch Lei“.\n\nAls er starb, begruben sie ihn am Krugberg – neben seinem „Weinkrug“ und seinen Pfirsichbäumen. Passender kann eine Grabstelle kaum sein.\n\nVor Ort: Der Kamelberg steht im Siebenstern-Park in Guilin; im Frühling blühen dort Pfirsiche.",
+  "sources": [
+   {
+    "title": "桂林山水（专题，作者 金敬迈）",
+    "publisher": "中华文化资源 / 中国文化研究院 (chiculture.org.hk)",
+    "date": "2019",
+    "url": "https://chiculture.org.hk/sites/mainsite/files/2019-08/0213_guilinshanshui_pdf_cn.pdf"
+   }
+  ],
+  "tags": [
+   "wein",
+   "mythologie",
+   "berge",
+   "china"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "legende",
+   "vorort"
+  ],
+  "wiki": "Guilin",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-14d614",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Großer Dichter schwänzte Verabredung – wegen einer Flussinsel",
+  "teaser": "Der Tang-Dichter Liu Zongyuan war in Guilin zu einem Freund unterwegs, entdeckte eine Sandinsel im Li-Fluss, vergaß die Verabredung – und schrieb darüber einen berühmten Text.",
+  "detail": "Liu Zongyuan gehört zu den großen Prosaautoren der Tang-Zeit. Als Präfekt im benachbarten Liuzhou kam er mehrmals nach Guilin.\n\nEines Tages wollte er einen Freund besuchen und lief am Ostufer des Li-Flusses entlang. Da fiel ihm eine Sandinsel mitten im Fluss auf, voller Bambus und Wäldchen, dazwischen Häuser, Pavillons und Musik. Liu vergaß den Freund und spazierte stattdessen auf die Insel.\n\nHeraus kam ein Aufsatz über den Pavillon auf der Insel der Familie Zi, der bis heute gelesen wird. Ob der versetzte Freund ihn auch gelesen hat, ist nicht überliefert.\n\nVor Ort: Die Insel Zizhou liegt mitten in Guilin im Li-Fluss; bei Nieselregen soll sie am schönsten sein.",
+  "sources": [
+   {
+    "title": "桂林山水（专题，作者 金敬迈）",
+    "publisher": "中华文化资源 / 中国文化研究院 (chiculture.org.hk)",
+    "date": "2019",
+    "url": "https://chiculture.org.hk/sites/mainsite/files/2019-08/0213_guilinshanshui_pdf_cn.pdf"
+   }
+  ],
+  "tags": [
+   "literatur",
+   "inseln",
+   "china"
+  ],
+  "era": "mittelalter",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "panne",
+   "vorort"
+  ],
+  "wiki": "Liu Zongyuan",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-149e52",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Alle Prüfungsbesten Guangxis der Qing-Zeit kamen aus einem Kreis",
+  "teaser": "In der Qing-Dynastie stellte Guangxi vier Zhuangyuan, Beste der Kaiserprüfung des ganzen Reiches – alle vier aus Lingui bei Guilin. Einer siegte sogar auf allen drei Stufen.",
+  "detail": "Guilin nennt sich gern „Stadt der Zhuangyuan“, und die Zahlen geben ihr recht. Schon in der Tang-Zeit kam Guangxis erster Prüfungsbester, Zhao Guanwen, aus Guilin.\n\nIn der Ming-Zeit bestanden 181 Kandidaten aus Guangxi die höchste Beamtenprüfung, 49 davon aus Lingui, heute ein Stadtbezirk von Guilin. In der Qing-Zeit holte Guangxi insgesamt vier Zhuangyuan-Titel – und alle vier gingen an Männer aus Lingui.\n\nDer Star war Chen Jichang: Er wurde Erster in der Provinzprüfung, Erster in der Hauptstadtprüfung und Erster in der Palastprüfung vor dem Kaiser. „Dreimal Erster in Folge“ nennt man das, eine Rarität der Prüfungsgeschichte.",
+  "sources": [
+   {
+    "title": "桂林山水（专题，作者 金敬迈）",
+    "publisher": "中华文化资源 / 中国文化研究院 (chiculture.org.hk)",
+    "date": "2019",
+    "url": "https://chiculture.org.hk/sites/mainsite/files/2019-08/0213_guilinshanshui_pdf_cn.pdf"
+   }
+  ],
+  "tags": [
+   "bildung",
+   "schule",
+   "china"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "rekord"
+  ],
+  "wiki": "Imperial examination",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-631c87",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Ein Mann aus dem heutigen Afghanistan, seit 676 im Fels",
+  "teaser": "Am Westberg von Guilin erinnert eine Inschrift von 676 an einen Mann aus Tocharistan – grob dem heutigen Nordafghanistan. 709 folgte ein Sogdier aus Zentralasien.",
+  "detail": "Guilin liegt weit weg von der Seidenstraße – dachte man. Die Felsinschriften der Stadt erzählen etwas anderes.\n\nAm Westberg ist eine Grabnischen-Inschrift aus dem Jahr 676 erhalten, die einen Mann aus Tocharistan nennt. Das Land lag im Norden des heutigen Afghanistan; der Pilger Xuanzang kam auf seiner Reise nach Indien dort durch. Aus dem Jahr 709 stammt eine weitere Inschrift über einen Steinraum, gestiftet von An Yena, einem Sogdier – Angehöriger jenes Händlervolks aus Zentralasien, das den Seidenstraßenhandel dominierte.\n\nAuch manche Felsfiguren in Guilin zeigen Typen mit hohen Nasen und langen Bärten. Insgesamt zählt die Stadt 642 Felsfiguren, 520 davon aus der Tang-Zeit. Multikulti in der Provinz – vor 1.300 Jahren.",
+  "sources": [
+   {
+    "title": "东西问｜吴文燕：如何从桂林石刻中读懂中国文化？",
+    "publisher": "中国新闻网",
+    "date": "2024-10-29",
+    "url": "https://www.chinanews.com.cn/gn/2024/10-29/10310227.shtml"
+   }
+  ],
+  "tags": [
+   "religion",
+   "kunst",
+   "asien",
+   "china"
+  ],
+  "era": "mittelalter",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "brauch"
+  ],
+  "wiki": "Tokharistan",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-dc0238",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Rezept zum Abschreiben: ein Heiltrank im Felsen",
+  "teaser": "An Guilins Felsen steht seit der Song-Zeit ein komplettes Rezept – mit Zutaten, Zubereitung, Dosis und Einnahme. Ein Beipackzettel, der garantiert nicht verloren geht.",
+  "detail": "Guilin hat rund 2.062 Steininschriften, davon 469 aus der Song-Dynastie – so viele wie nirgends sonst in China. Deshalb sagt man: Han-Inschriften schaut man in Shandong an, Tang-Inschriften in Xi'an, Song-Inschriften in Guilin.\n\nRund 85 Prozent sind Gedichte, Reisenotizen und Besucher-Namen. Aber dazwischen findet sich Praktisches: Ein gewisser Lü Wei ließ das Rezept für eine „Suppe zur Stärkung des Qi“ in den Stein hauen, samt Arzneinamen, Herstellung, Menge und Einnahmeweise.\n\nEine andere Song-Inschrift, die „Ode an das Tropfsteinbett“, erklärt schon vor mehr als 800 Jahren, wie Tropfsteine entstehen und wachsen. Sie gilt als eines der ältesten Dokumente Chinas zur Erforschung von Karstlandschaften. Wikipedia in Kalkstein, sozusagen.",
+  "sources": [
+   {
+    "title": "东西问｜吴文燕：如何从桂林石刻中读懂中国文化？",
+    "publisher": "中国新闻网",
+    "date": "2024-10-29",
+    "url": "https://www.chinanews.com.cn/gn/2024/10-29/10310227.shtml"
+   }
+  ],
+  "tags": [
+   "medizin",
+   "geologie",
+   "schrift",
+   "china"
+  ],
+  "era": "mittelalter",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "forschung",
+   "rekord"
+  ],
+  "wiki": "Stalactite",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-268992",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Ex-Präsident heiratete mit 76 eine 27-jährige Krankenschwester",
+  "teaser": "Li Zongren, einst amtierender Präsident der Republik China mit Wohnsitz in Guilin, heiratete nach seiner Rückkehr aufs Festland eine 27-Jährige – die Tochter der Filmdiva Hu Die.",
+  "detail": "Li Zongren, dessen ehemaliges Wohnhaus in Guilin heute zu besichtigen ist, war einst amtierender Präsident der Republik China. Nach Jahren im Ausland kehrte er auf das Festland zurück.\n\nKurz nach der Rückkehr starb seine Frau an Brustkrebs, und Li war einsam. Ein alter Weggefährte suchte daraufhin diskret eine Partnerin für ihn. Die Wahl fiel auf Hu Yousong, eine Krankenschwester aus Peking – und Tochter der Filmdiva Hu Die.\n\nAm 26. Juli 1966 heirateten die beiden. „Ich war 27, Li Zongren 76“, erzählte sie später. Die Hochzeit nannte sie das Bedeutendste ihres Lebens. Hu Yousong starb 2008 mit 69 Jahren.",
+  "sources": [
+   {
+    "title": "胡蝶之女口述：27岁的我为何嫁76岁李宗仁？",
+    "publisher": "中国新闻网",
+    "date": "2013-08-02",
+    "url": "https://www.chinanews.com/cul/2013/08-02/5116744.shtml"
+   },
+   {
+    "title": "桂林山水（专题，作者 金敬迈）",
+    "publisher": "中华文化资源 / 中国文化研究院 (chiculture.org.hk)",
+    "date": "2019",
+    "url": "https://chiculture.org.hk/sites/mainsite/files/2019-08/0213_guilinshanshui_pdf_cn.pdf"
+   }
+  ],
+  "tags": [
+   "politik",
+   "familie",
+   "film",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "brauch"
+  ],
+  "wiki": "Li Zongren",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-169d58",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "31 Angestellte eines Yangshuo-Hotels heirateten Ausländer",
+  "teaser": "In einem Hotel an Yangshuos Weststraße heirateten laut Guilin Daily nach und nach 31 Angestellte ausländische Gäste – und zogen nach Frankreich, in die Schweiz oder nach Norwegen.",
+  "detail": "In den 1980ern war Yangshuo neben Peking, Shanghai und Xi'an eine der vier großen Anlaufstellen für Westler in China. Rucksacktouristen blieben oft Monate und jobbten vor Ort.\n\nEine der ersten Einheimischen, die daraus ein Geschäft machten, eröffnete erst ein Café auf der Weststraße, ab 1982 ein Hotel. Das stand im Lonely Planet, und Frankreichs Präsident Mitterrand setzte es auf sein Besuchsprogramm.\n\nDie eigentliche Sensation: Laut Guilin Daily heirateten über die Jahre 31 Angestellte ausländische Gäste und zogen nach Europa. Insgesamt haben in Yangshuo laut der Zeitung in über 40 Jahren mehr als 1.000 binationale Paare geheiratet.\n\nEnglisch gilt hier als Grundausstattung, fünf oder sechs Sprachen sind nicht ungewöhnlich. Vorsicht beim Kaffeetrinken also.",
+  "sources": [
+   {
+    "title": "阳朔西街：中西文化交融的“地球村”",
+    "publisher": "桂林日报",
+    "date": "2024-03-07",
+    "url": "https://epaper.guilinlife.com/glrbpc/glrb/20240307/Articel0405001NR.htm"
+   }
+  ],
+  "tags": [
+   "reisen",
+   "familie",
+   "sprache",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "brauch",
+   "rekord"
+  ],
+  "wiki": "Yangshuo County",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-4fa2d0",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Eine Stadtmauer, drei Sackgassen: Bordell, Spielhölle, Opium",
+  "teaser": "Vor Yangshuos Stadtmauer reihten sich einst Pfahlbauten mit Bordellen, Spielhöllen und Opiumhöhlen. Die Einheimischen seufzten: „eine Stadtmauer, drei Wege in den Tod“.",
+  "detail": "Die Weststraße in Yangshuo wirkt heute wie ein Freiluft-Café. Ihre Geschichte ist rauer.\n\nAußerhalb der östlichen Stadtmauer lief früher entlang des Li-Flusses eine rund 400 Meter lange und gut zehn Meter breite Galerie vom Wasser-Osttor bis zum Qingyang-Tor. An der Mauer klebten Pfahlbauten, und dort konzentrierten sich Bordelle, Spielhöllen und Opiumhöhlen. Der lokale Spruch dazu: „Eine Stadtmauer, drei Wege in den Tod.“\n\nUnd die Weststraße selbst bekam 1935 ihre heutige Breite auf ziemlich brutale Art: Die Behörden ließen die Häuser auf beiden Seiten „mit einem Schnitt“ um je drei Meter kürzen. Seitdem ist die Straße acht Meter breit.\n\nVor Ort: Am Ostende der Weststraße liegt der alte Bootsanleger; von dort lief früher die Stadtmauer am Fluss entlang.",
+  "sources": [
+   {
+    "title": "阳朔西街：中西文化交融的“地球村”",
+    "publisher": "桂林日报",
+    "date": "2024-03-07",
+    "url": "https://epaper.guilinlife.com/glrbpc/glrb/20240307/Articel0405001NR.htm"
+   }
+  ],
+  "tags": [
+   "staedte",
+   "architektur",
+   "sprache",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": false,
+  "fun": 4,
+  "themes": [
+   "woerter",
+   "bauwerk",
+   "vorort"
+  ],
+  "wiki": "Yangshuo County",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-83f19d",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Im Krieg lebten in Yangshuo internierte Deutsche",
+  "teaser": "Im Zweiten Weltkrieg gab es an Yangshuos Weststraße ein „Lager für Angehörige feindlicher Staaten“ für Deutsche, Japaner und Italiener. Die Stadt wuchs von 2.500 auf über 10.000 Einwohner.",
+  "detail": "Als die Nationalregierung im Krieg gegen Japan nach Süden auswich, wurde das Städtchen Yangshuo plötzlich international.\n\nAn der Weststraße wohnten Leute der Academia Sinica aus Nanjing, und es gab ein „Lager für Angehörige feindlicher Staaten“, in dem Deutsche, Japaner und Italiener untergebracht waren. Dazu kam ein Fremdsprachenkurs für Offiziere, die als Militärattachés und Übersetzer ins Ausland sollten – in Englisch, Französisch, Deutsch, Japanisch und Russisch. Der Geologe Li Siguang und der Meteorologe Zhu Kezhen hielten dort Vorträge.\n\nAuch amerikanische und britische Soldaten aus Guilin kamen oft vorbei. Yangshuos Bevölkerung schoss von gut 2.500 auf über 10.000 hoch. Die Guilin Daily nennt das die glanzvollste Zeit der Weststraße – das internationale Flair von heute hat also eine erstaunliche Vorgeschichte.",
+  "sources": [
+   {
+    "title": "阳朔西街：中西文化交融的“地球村”",
+    "publisher": "桂林日报",
+    "date": "2024-03-07",
+    "url": "https://epaper.guilinlife.com/glrbpc/glrb/20240307/Articel0405001NR.htm"
+   }
+  ],
+  "tags": [
+   "militaer",
+   "sprache",
+   "deutschland",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "krieg",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "gesetz"
+  ],
+  "wiki": "Yangshuo County",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-a02216",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Ein General kaufte dem Maler Xu Beihong sein Mietshaus",
+  "teaser": "Der Maler Xu Beihong wohnte in Yangshuo zur Miete. Dann kaufte General Li Zongren das Haus – und schenkte es ihm.",
+  "detail": "Yangshuo zog schon vor dem Massentourismus Künstler an. Zhang Daqian, Qi Baishi, Huang Binhong und Xu Beihong malten hier Landschaften, und die Weststraße war ihr Revier.\n\nXu Beihong, berühmt für seine galoppierenden Pferde, lebte in Yangshuo in einem gemieteten Haus. Laut Guilin Daily kaufte General Li Zongren dieses Haus und machte es dem Maler zum Geschenk. Mäzenatentum mit Grundbuch.\n\nXu Beihong lobte übrigens nicht Yangshuo selbst am meisten, sondern Xingping: „Die schöne Landschaft Yangshuos liegt in Xingping“, zitiert ihn die Nachrichtenagentur China News Service.\n\nVor Ort: Xu Beihongs ehemaliges Wohnhaus steht noch an der Weststraße in Yangshuo.",
+  "sources": [
+   {
+    "title": "阳朔西街：中西文化交融的“地球村”",
+    "publisher": "桂林日报",
+    "date": "2024-03-07",
+    "url": "https://epaper.guilinlife.com/glrbpc/glrb/20240307/Articel0405001NR.htm"
+   },
+   {
+    "title": "孙穗芳为祖父孙中山先生在阳朔兴坪立纪念碑",
+    "publisher": "中国新闻网 (中新社)",
+    "date": "2004-11-19",
+    "url": "https://www.chinanews.com.cn/news/2004/2004-11-19/26/507558.shtml"
+   }
+  ],
+  "tags": [
+   "kunst",
+   "geld",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "geld",
+   "vorort"
+  ],
+  "wiki": "Xu Beihong",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-d16f8e",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Fächerdorf: zwei Millionen im Jahr, dann zwei Komplett-Werkstätten",
+  "teaser": "Fuli bei Yangshuo nannte sich „Chinas erste Stadt der bemalten Fächer“: über zwei Millionen Fächer pro Jahr. 2009 erledigten nur noch zwei Familien alle Arbeitsschritte selbst.",
+  "detail": "In Fuli am Li-Fluss begannen die Bewohner in den 1980ern, mit dem Tourismus in Yangshuo bemalte Fächer herzustellen: Bambus aus der Gegend als Gerippe, Papier oder Seide als Fläche, darauf Karstberge, Blumen, Vögel, Tiger und Drachen.\n\nAb Anfang der 1990er explodierte das Geschäft. Laut Chinas Netzwerk für immaterielles Kulturerbe arbeiteten rund 150 Haushalte mit über 600 Arbeitskräften daran, der Ort produzierte mehr als zwei Millionen Fächer im Jahr. Es entstand eine 200 Meter lange „Fächerstraße“ mit zeitweise über 100 Läden.\n\nDer Bericht von 2009 zieht aber eine bittere Bilanz: Der Ruhm sei geblieben, die Substanz kaum. Nur noch zwei Familien machten noch alle Arbeitsschritte selbst.\n\nVor Ort: Fuli liegt flussabwärts von Yangshuo; dort lohnt sich der Blick in die verbliebenen Werkstätten.",
+  "sources": [
+   {
+    "title": "阳朔画扇的生存之道",
+    "publisher": "中国非物质文化遗产网 (ihchina.cn)",
+    "date": "2009-09-29",
+    "url": "https://www.ihchina.cn/news_1_details/10964.html"
+   }
+  ],
+  "tags": [
+   "kunst",
+   "handwerk",
+   "wirtschaft",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "geld",
+   "rekord",
+   "vorort"
+  ],
+  "wiki": "Hand fan",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-096dd6",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Erst gesprengt, dann bombardiert: Guilins US-Flugplatz",
+  "teaser": "Als Japans Truppen 1944 auf Guilin vorrückten, wurde der US-Flugplatz gesprengt – samt Chennaults Kommandohöhle. Danach bombardierten die Alliierten die Ruine bis Juli 1945.",
+  "detail": "Ab Juni 1942 flogen US-Luftstreitkräfte von Kweilin, dem heutigen Guilin, aus Einsätze gegen Japan. General Claire Chennault, Chef der berühmten „Flying Tigers“, verlegte sein Hauptquartier in eine Höhle bei Guilin. Vor dem Eingang stand er auf einem Felsen und beobachtete Luftkämpfe.\n\nIm November 1944 rückte die japanische Armee heran. Der Flugplatz wurde gesprengt, bevor Japan ihn am 10. November einnahm. Auch die Kommandohöhle flog in die Luft – mit einer 500-Pfund-Bombe, damit keine Geheimnisse in Feindeshand gerieten.\n\nDie Pointe: Danach war der Platz ein alliiertes Ziel und wurde bis Juli 1945 bombardiert. Die Amerikaner bombten also ihren eigenen Ex-Flughafen, jetzt in japanischer Hand.\n\nVor Ort: Im Flying Tiger Heritage Park in Guilin steht Chennaults Beobachtungsstein noch, mit einer Plakette seiner Witwe Anna Chennault.",
+  "sources": [
+   {
+    "title": "Flying Tigers group readies C-47 for Chinese museum",
+    "publisher": "AOPA",
+    "date": "2016-04-27",
+    "url": "https://aopa.org/news-and-media/all-news/2016/april/27/flying-tigers-group-readies-c-47-for-chinese-museum"
+   },
+   {
+    "title": "Kweilin Airfield (Yangtang, Guilin Qifengling Airport)",
+    "publisher": "Pacific Wrecks",
+    "date": "2025-04-19",
+    "url": "https://pacificwrecks.com/airfield/china/kweilin/index.html"
+   }
+  ],
+  "tags": [
+   "militaer",
+   "luftfahrt",
+   "amerika",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "krieg",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "panne",
+   "bauwerk",
+   "vorort"
+  ],
+  "wiki": "Claire Lee Chennault",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-e2bbc5",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Mitten im Krieg sang Guilin mit zehntausend Stimmen",
+  "teaser": "Im Krieg gegen Japan wurde Guilin zur „Kulturstadt“: Schriftsteller und Künstler strömten hin, Ensembles gaben über tausend Aufführungen, es gab einen Chor mit zehntausend Stimmen.",
+  "detail": "Als Japan große Teile Ostchinas besetzt hatte, lag Guilin im Hinterland – und wurde zum Fluchtpunkt für Chinas Kulturszene. Schriftsteller, Künstler, Wissenschaftler und Prominente zogen scharenweise in die Stadt.\n\nZeitschriften und Feuilletons schossen laut einem Dossier der Hongkonger Academy of Chinese Studies aus dem Boden wie Pilze nach dem Regen. Theater- und Musikgruppen gaben über tausend Vorstellungen, darunter ein Massenkonzert mit zehntausend Sängerinnen und Sängern.\n\nIm Juni 1944 zogen über zehntausend Menschen bei einer „Nationalflaggen-Spendenparade“ durch die Stadt und spendeten für den Krieg. Wenige Monate später fiel Guilin an Japan. Den Beinamen „Kulturstadt des Widerstands“ trägt es bis heute.",
+  "sources": [
+   {
+    "title": "桂林山水（专题，作者 金敬迈）",
+    "publisher": "中华文化资源 / 中国文化研究院 (chiculture.org.hk)",
+    "date": "2019",
+    "url": "https://chiculture.org.hk/sites/mainsite/files/2019-08/0213_guilinshanshui_pdf_cn.pdf"
+   }
+  ],
+  "tags": [
+   "musik",
+   "militaer",
+   "literatur",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "krieg",
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "rekord"
+  ],
+  "wiki": "Guilin",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-4c3fcd",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Zwei Kaiserinnen weinten den Bambus fleckig",
+  "teaser": "Der Legende nach weinten Kaiser Shuns Witwen auf dem Weg nach Süden so heftig, dass der Bambus Flecken bekam. Guilin zeigt ihr Grab und den Berg des Kaisers.",
+  "detail": "Shun gehört zu den sagenhaften Urkaisern Chinas. Laut dem Geschichtsschreiber Sima Qian starb er auf einer Inspektionsreise im Süden, in der „Wildnis von Cangwu“ – eine Gegend, die man im Osten und Norden Guangxis verortet.\n\nGuilin hat daraus reichlich Ortsnamen gemacht: Der Yushan heißt auch Shun-Berg, das Becken darunter Shun-Teich, dazu gibt es einen Shun-Tempel.\n\nDie Legende geht so weiter: Shuns zwei Frauen, Ehuang und Nüying, eilten ihm nach. Unterwegs erfuhren sie von seinem Tod und weinten so sehr, dass ihre Tränen den Bambus sprenkelten – daher der „Fleckenbambus“. Danach sprangen sie in den Xiang-Fluss. Im Norden Guilins errichtete man ihnen ein Grab, den „Hügel der zwei Gemahlinnen“.",
+  "sources": [
+   {
+    "title": "桂林山水（专题，作者 金敬迈）",
+    "publisher": "中华文化资源 / 中国文化研究院 (chiculture.org.hk)",
+    "date": "2019",
+    "url": "https://chiculture.org.hk/sites/mainsite/files/2019-08/0213_guilinshanshui_pdf_cn.pdf"
+   }
+  ],
+  "tags": [
+   "mythologie",
+   "pflanzen",
+   "china"
+  ],
+  "era": "antike",
+  "gross": false,
+  "kids": false,
+  "fun": 3,
+  "themes": [
+   "legende"
+  ],
+  "wiki": "Ehuang and Nüying",
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-902103",
+  "category": "ort",
+  "place": "guilin",
+  "lang": "de",
+  "headline": "Ganz Guangxi ist nach Guilin benannt – Guilin nach Zimt",
+  "teaser": "Guangxis Kurzzeichen „Gui“ stammt von Guilin. Und Guilin, „Gui-Wald“, ist laut offizieller Stadtgeschichte nach den vielen Zimtbäumen benannt – obwohl heute alle an Osmanthus denken.",
+  "detail": "Jede chinesische Provinz hat ein Kurzzeichen, das zum Beispiel auf Autokennzeichen steht. Guangxis lautet „Gui“ – und das geht auf Guilin zurück, das seit der Song-Zeit politisches, wirtschaftliches und kulturelles Zentrum der Region war.\n\nGuilin selbst heißt wörtlich „Gui-Wald“. Heute denken die meisten dabei an Osmanthus, den Duftblütenbaum, der im Herbst die ganze Stadt beduftet und auf Chinesisch „Guihua“ heißt. Die Stadtgeschichte auf der China-Daily-Seite der Stadt nennt aber eine andere Pflanze: „Yugui“, also Zimt, der hier einst massenhaft wuchs. Auch ein Hongkonger Kulturdossier sagt: angeblich wegen der vielen Yugui-Bäume.\n\nDer Name tauchte schon in der Qin-Zeit auf, als der erste Kaiser die Region eroberte. Wer also im Oktober Osmanthus schnuppert, sollte zur Sicherheit auch an Zimtschnecken denken.",
+  "sources": [
+   {
+    "title": "A Walk Through Guilin's History",
+    "publisher": "Guilin City / China Daily",
+    "date": "2023-03-17",
+    "url": "http://guangxi.chinadaily.com.cn/guilin/2023-03/17/c_870135.htm"
+   },
+   {
+    "title": "桂林山水（专题，作者 金敬迈）",
+    "publisher": "中华文化资源 / 中国文化研究院 (chiculture.org.hk)",
+    "date": "2019",
+    "url": "https://chiculture.org.hk/sites/mainsite/files/2019-08/0213_guilinshanshui_pdf_cn.pdf"
+   }
+  ],
+  "tags": [
+   "sprache",
+   "pflanzen",
+   "china"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "woerter",
+   "mythos"
+  ],
+  "wiki": "Cinnamomum cassia",
+  "verified": "2026-10-14"
+ },
+ {
   "id": "ort-0b9f3f",
   "category": "ort",
   "place": "guilin",
@@ -840,37 +1748,6 @@
    "vorort"
   ],
   "wiki": "Yangshuo County",
-  "verified": "2026-10-14"
- },
- {
-  "id": "ort-8a00f9",
-  "category": "ort",
-  "place": "guilin",
-  "lang": "de",
-  "headline": "Fuli: Das Dorf der bemalten Fächer",
-  "teaser": "Die Altstadt Fuli bei Yangshuo gilt als „Heimat der chinesischen bemalten Fächer“: Bambusgestell, Papier, darauf Karstberge, Gedichte und Siegel – alles in einem.",
-  "detail": "Im Kreis Yangshuo liegt Fuli, eine kleine Altstadt. Ihr Spitzname: „Heimat der chinesischen bemalten Fächer“.\n\nDie Fächer haben ein Gestell aus lokalem Bambus und eine Leinwand aus weichem Papier. Bemalt werden sie mit Guilins Landschaften, Blumen und Vögeln – dazu kommen Gedichte und Siegelabdrücke. Dichtung, Kalligrafie, Malerei und Gravur in einem Gegenstand, den man sich vor die Nase hält.\n\nIm Dorf Dutou in Fuli startete im Dezember 2025 auch das Fischfeuerfest am Li-Fluss.\n\nVor Ort: Fuli, Kreis Yangshuo – ein Fächer mit Li-Fluss-Motiv ist das wohl stilechteste Souvenir.",
-  "sources": [
-   {
-    "title": "Fuli ancient town",
-    "publisher": "China Daily / Guilin",
-    "date": "2024-08-07",
-    "url": "https://regional.chinadaily.com.cn/guangxi/guilin/2024-08/07/c_1011134.htm"
-   }
-  ],
-  "tags": [
-   "kunst",
-   "handwerk",
-   "china"
-  ],
-  "gross": false,
-  "kids": true,
-  "fun": 3,
-  "themes": [
-   "brauch",
-   "vorort"
-  ],
-  "wiki": "Hand fan",
   "verified": "2026-10-14"
  },
  {
