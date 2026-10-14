@@ -615,6 +615,909 @@
   "verified": "2026-10-14"
  },
  {
+  "id": "wis-b5ef87",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Schweizer vergruben 2.000 Unterhosen – für die Wissenschaft",
+  "teaser": "In der Schweiz verbuddelten 1.000 Freiwillige über 2.000 Baumwollunterhosen. Zwei Monate später gruben sie sie wieder aus, um zu sehen, wie fleißig der Boden frisst.",
+  "detail": "Klingt nach Mutprobe, ist aber Bodenkunde. Forschende der Universität Zürich und von Agroscope riefen Freiwillige auf, frische Baumwollunterhosen samt Teebeuteln im Garten, auf Wiesen und Äckern einzugraben.\n\nDie Idee dahinter: Baumwolle ist Futter für Bodenlebewesen. Je lebendiger die Erde, desto löchriger kommt die Unterhose wieder ans Licht. Nach zwei Monaten wurde ausgegraben, fotografiert und mit einer Bodenprobe ins Labor geschickt.\n\nErgebnis: Am wichtigsten ist, wie das Land genutzt wird. Rund 240 der Freiwilligen stehen sogar als Mitautoren in der Fachpublikation. Dieselben Forscher ließen außerdem 1.000 identische Unterhosen in über 25 Ländern vergraben. Dafür gab es 2026 den Ig-Nobelpreis für Bodenkunde.\n\nWer also im Frühjahr eine Unterhose im Beet findet: Das könnte Wissenschaft sein.",
+  "sources": [
+   {
+    "title": "Buried Underwear Shows Land Use Is Key to Soil Health",
+    "publisher": "Universität Zürich",
+    "date": "2026-08-26",
+    "url": "https://news.uzh.ch/en/articles/media/2026/buried-underwear.html"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "wissenschaft",
+   "garten",
+   "biologie",
+   "europa"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-39159e",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Kakerlakenmilch hat mehr Energie als Kuhmilch",
+  "teaser": "Eine Schabenart säugt ihren Nachwuchs im Körper – mit Milchkristallen, die laut einer Studie mehr als dreimal so viel Energie haben wie Kuhmilch.",
+  "detail": "Die Pazifische Käferschabe Diploptera punctata ist eine echte Ausnahme: Sie legt keine Eier, sondern bringt lebende Junge zur Welt. Im Mutterleib werden die Embryos mit einer Art Milch versorgt.\n\nIm Darm der Embryos fanden Forschende winzige Proteinkristalle aus dieser Milch. Sie untersuchten die Struktur bis auf atomare Ebene und kamen auf ein verblüffendes Ergebnis: Ein einzelner Kristall enthält schätzungsweise mehr als dreimal so viel Energie wie dieselbe Masse Kuhmilch.\n\nDafür gab es 2026 den Ig-Nobelpreis für Chemie. Bevor jetzt jemand „Superfood“ ruft: Melken lässt sich so eine Schabe natürlich nicht. Der Latte macchiato bleibt also vorerst kakerlakenfrei.",
+  "sources": [
+   {
+    "title": "Structure of a heterogeneous, glycosylated, lipid-bound, in vivo-grown protein crystal at atomic resolution from the viviparous cockroach Diploptera punctata",
+    "publisher": "IUCrJ / PubMed",
+    "date": "2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27437115/"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "insekten",
+   "biologie",
+   "ernaehrung",
+   "wissenschaft"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-aa1537",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Babys riechen toll, Teenager nicht – jetzt amtlich",
+  "teaser": "Eine Studie mit 235 Eltern zeigt: Je älter die Kinder, desto weniger angenehm finden Eltern deren Körpergeruch. Dafür gab es den Ig-Nobelpreis.",
+  "detail": "Jeder, der schon einmal an einem Babykopf geschnuppert hat, kennt das Gefühl. Forschende aus Polen und Deutschland wollten wissen, ob dieser Zauber anhält.\n\nSie befragten 235 Eltern, wie angenehm sie den Eigengeruch ihrer insgesamt 367 Kinder finden. Das Ergebnis: Mit dem Alter der Kinder sinkt die Begeisterung. Ob Mutter oder Vater, Sohn oder Tochter, spielte dabei keine Rolle.\n\nDie Forschenden vermuten einen Sinn dahinter: Ein angenehmer Geruch stärkt die Bindung, solange Kinder viel Fürsorge brauchen. Nach der Pubertät ist das weniger nötig.\n\nDafür gab es 2026 den Ig-Nobelpreis für Geruchsforschung. Teenager-Eltern dürfen jetzt also wissenschaftlich begründet das Fenster öffnen.",
+  "sources": [
+   {
+    "title": "Babies Smell Wonderful to Their Parents, Teenagers Do Not",
+    "publisher": "Chemosensory Perception / PubMed",
+    "date": "2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28932343/"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "familie",
+   "kinder",
+   "psychologie",
+   "koerper"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-76b135",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Echsen in Togo lieben Vier-Käse-Pizza",
+  "teaser": "An einem Strandresort in Togo naschen Regenbogenagamen von der Pizza. Forschende testeten, welche Sorte: Die Echsen wählten Vier Käse.",
+  "detail": "Regenbogenagamen sind farbenfrohe Echsen, die in Westafrika auch in Städten und Hotelanlagen leben. Und wie viele Stadtbewohner sind sie beim Essen nicht wählerisch.\n\nEin internationales Forschungsteam beobachtete die Tiere an einem Badeort in Togo und ging der Sache auf den Grund: Welche Pizza bevorzugt eine Echse? Das Ergebnis: Vier Käse lag vorn.\n\nWas wie ein Witz klingt, sagt etwas über Stadtwildtiere: Sie passen ihren Speiseplan erstaunlich flexibel an das an, was Menschen hinterlassen. Dafür gab es 2025 den Ig-Nobelpreis für Ernährung.\n\nPizzabäcker in Togo wissen jetzt jedenfalls, welche Sorte sie für ihre schuppigen Stammgäste vorrätig haben sollten.",
+  "sources": [
+   {
+    "title": "Tipsy Bats and Perfect Pasta Win Ig Nobel Prizes for Weird Science Research",
+    "publisher": "Scientific American / Nature",
+    "date": "2025-09-19",
+    "url": "https://www.scientificamerican.com/article/2025-ig-nobel-prizes-awarded-for-research-on-tipsy-bats-and-pasta-physics"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "tiere",
+   "afrika",
+   "kochen",
+   "biologie"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-82637e",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Zebrastreifen auf Kühen halten Fliegen fern",
+  "teaser": "Japanische Forscher bemalten Rinder schwarz-weiß gestreift. Ergebnis: Nur etwa halb so viele stechende Fliegen landeten auf ihnen.",
+  "detail": "Warum Zebras Streifen haben, ist eine alte Streitfrage. Eine Theorie: Die Muster verwirren stechende Insekten. Ein Team aus Japan testete das ganz praktisch an Kühen.\n\nSechs Japanische Schwarzrinder bekamen nacheinander drei Looks: weiße Streifen auf schwarzem Fell, schwarze Streifen (also praktisch unsichtbar) und gar nichts. Auf den echten Zebrakühen saßen nur etwa halb so viele Bremsen und Stechfliegen. Die Tiere schlugen auch seltener mit Kopf, Bein und Schwanz.\n\nDie bloße Farbe war es nicht, denn die schwarz bemalten Kühe hatten genauso viele Plagegeister wie die unbemalten. Haken der Sache: Die Farbe hielt nur wenige Tage.\n\nDafür gab es 2025 den Ig-Nobelpreis für Biologie, eine Idee mit Potenzial gegen Insektizide auf der Weide.",
+  "sources": [
+   {
+    "title": "Cows painted with zebra-like striping can avoid biting fly attack",
+    "publisher": "PLOS ONE",
+    "date": "2019-10-03",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223447"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "tiere",
+   "landwirtschaft",
+   "insekten",
+   "biologie"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-9f9744",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Ein Arzt maß 35 Jahre lang seinen Fingernagel",
+  "teaser": "Der US-Mediziner William Bean dokumentierte 35 Jahre lang, wie schnell sein Daumennagel wächst. Ergebnis: Mit dem Alter wird er langsamer.",
+  "detail": "Manche Menschen sammeln Briefmarken, William Bean sammelte Nagel-Daten. Der Arzt maß über Jahrzehnte, wie schnell seine Fingernägel wachsen.\n\nEr veröffentlichte die Ergebnisse immer wieder, nach 25, 30 und schließlich 35 Jahren. Sein linker Daumennagel wuchs mit 32 Jahren um 0,123 Millimeter pro Tag. Mit 67 waren es nur noch 0,095 Millimeter.\n\nDas klingt wenig spektakulär, zeigt aber vor allem eins: unfassbare Geduld. Dafür gab es 2025, lange nach seinem Tod, den Ig-Nobelpreis für Literatur.\n\nSein Sohn nahm den Preis entgegen. Ob er die Nagelschere noch benutzt, ist nicht überliefert.",
+  "sources": [
+   {
+    "title": "Nail growth. Thirty-five years of observation",
+    "publisher": "Archives of Internal Medicine / PubMed",
+    "date": "1980",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7352807/"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "koerper",
+   "medizin",
+   "rekorde",
+   "wissenschaft"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-b783a1",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Ein Schluck Alkohol verbessert die Aussprache in Fremdsprachen",
+  "teaser": "Deutsche, die gerade Niederländisch gelernt hatten, klangen nach etwas Alkohol besser – fanden zumindest Muttersprachler. Sie selbst merkten davon nichts.",
+  "detail": "„Mit einem Bier spreche ich fließend Französisch“ – diese Behauptung hört man an jeder Bar. Forschende aus den Niederlanden, Großbritannien und Deutschland haben sie getestet.\n\n50 deutsche Muttersprachler, die frisch Niederländisch gelernt hatten, bekamen entweder eine kleine Dosis Alkohol oder ein alkoholfreies Getränk. Danach plauderten sie auf Niederländisch, und zwei Muttersprachler bewerteten die Aufnahmen, ohne zu wissen, wer was getrunken hatte.\n\nDie Alkohol-Gruppe schnitt besser ab, vor allem bei der Aussprache. Kurios: Die Teilnehmenden selbst schätzten ihr Können nicht anders ein.\n\nDafür gab es 2025 den Ig-Nobel-Friedenspreis. Wichtig: Es ging um eine niedrige Dosis. Mehr Bier macht nicht mehr Vokabeln.",
+  "sources": [
+   {
+    "title": "Dutch courage? Effects of acute alcohol consumption on self-ratings and observer ratings of foreign language skills",
+    "publisher": "Journal of Psychopharmacology / PubMed",
+    "date": "2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29043911/"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "sprache",
+   "psychologie",
+   "bier",
+   "europa"
+  ],
+  "gross": false,
+  "kids": false,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-561e24",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Tauben sollten im Zweiten Weltkrieg Raketen steuern",
+  "teaser": "Der Psychologe B. F. Skinner trainierte Tauben, durch Picken auf ein Zielbild Bomben zu lenken. Ein US-Rüstungsgremium gab ihm dafür 25.000 Dollar.",
+  "detail": "Im Zweiten Weltkrieg suchte das US-Militär nach Wegen, Bomben genauer ins Ziel zu bringen. Der Verhaltensforscher B. F. Skinner hatte eine ungewöhnliche Antwort: Tauben.\n\nSein „Project Pigeon“ sah eine Raketenspitze mit drei winzigen Cockpits vor. Auf kleinen Bildschirmen erschien das Ziel, und die trainierten Tauben pickten darauf. Über ihre Pickbewegungen sollte die Rakete gelenkt werden. Zuerst hatte Skinner es übrigens mit Krähen versucht, die waren aber zu aggressiv.\n\nDie Vorführung klappte sogar, doch die Verantwortlichen blieben skeptisch und stoppten das Projekt. Eine Raketenspitze des Projekts liegt heute in der Sammlung des Smithsonian.\n\n2024 bekam Skinner posthum den Ig-Nobel-Friedenspreis, seine Tochter nahm ihn entgegen.",
+  "sources": [
+   {
+    "title": "B.F. Skinner’s Pigeon-Guided Rocket",
+    "publisher": "Smithsonian Magazine",
+    "url": "https://www.smithsonianmag.com/smithsonian-institution/bf-skinners-pigeon-guided-rocket-53443995/"
+   },
+   {
+    "title": "Ig Nobel Prizes awarded for pigeon-guided missiles, butt-breathing pigs and swimming dead trout",
+    "publisher": "ABC News",
+    "date": "2024-09-13",
+    "url": "https://www.abc.net.au/news/science/2024-09-13/ig-nobel-prize-science-humour-pigeon-missile-dead-fish-2024/104336922"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "voegel",
+   "militaer",
+   "psychologie",
+   "erfindungen"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "krieg",
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-6b24fb",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Diese Pflanze kopiert sogar Plastikblätter",
+  "teaser": "Die Kletterpflanze Boquila trifoliolata ahmt die Blätter ihrer Nachbarn nach. In einem Experiment versuchte sie sogar, eine künstliche Plastikpflanze zu imitieren.",
+  "detail": "Boquila trifoliolata wächst in Südamerika und ist ein echtes Verwandlungstalent. Die Kletterpflanze passt ihre Blätter an die Pflanze an, an der sie gerade emporrankt. Wie sie das schafft, ist ein Rätsel.\n\nZwei Forscher hängten deshalb eine künstliche Plastikranke über lebende Boquila-Pflanzen. Und siehe da: Die echten Pflanzen bildeten Blätter, die der Plastikvorlage ähnelten, mit veränderter Form, Länge und Breite.\n\nDie Forscher halten es für denkbar, dass die Pflanze eine Art „Sehen“ beherrscht, vielleicht über lichtempfindliche Zellen. Bewiesen ist das nicht, es ist eine Hypothese. Aber erklär mal anders, wie man eine Plastikpflanze nachmacht.\n\nDafür gab es 2024 den Ig-Nobelpreis für Botanik.",
+  "sources": [
+   {
+    "title": "Boquila trifoliolata mimics leaves of an artificial plastic host plant",
+    "publisher": "Plant Signaling & Behavior / PubMed",
+    "date": "2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34545774/"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "pflanzen",
+   "biologie",
+   "amerika",
+   "wissenschaft"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-b167c0",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Eine Münze landet öfter auf der Startseite",
+  "teaser": "Forschende warfen 350.757 Mal eine Münze. Ergebnis: Sie fällt in rund 50,8 Prozent der Fälle auf die Seite, die beim Werfen oben lag.",
+  "detail": "Kopf oder Zahl gilt als Inbegriff des Zufalls. Mathematiker hatten 2007 aber berechnet, dass eine geworfene Münze leicht „taumelt“ und deshalb etwas öfter auf der Seite landet, mit der sie gestartet ist.\n\nEin Team um František Bartoš wollte es genau wissen und organisierte einen Wurf-Marathon: 350.757 Münzwürfe. Die Vorhersage stimmte. Mit 50,8 Prozent landete die Münze auf der Startseite. Kopf und Zahl kamen dagegen gleich oft.\n\nDer Effekt hängt vom Werfer ab, nicht von der Münze, und er wurde kleiner, je mehr die Leute übten.\n\nDafür gab es 2024 den Ig-Nobelpreis für Wahrscheinlichkeit. Profi-Tipp für den nächsten Streit: Schau, welche Seite oben liegt.",
+  "sources": [
+   {
+    "title": "Fair coins tend to land on the same side they started: Evidence from 350,757 flips",
+    "publisher": "arXiv",
+    "date": "2023",
+    "url": "https://arxiv.org/abs/2310.04153"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "mathematik",
+   "geld",
+   "wissenschaft",
+   "rekorde"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-0eee4c",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Mäuse und Schweine können durch den Po atmen",
+  "teaser": "Japanische Forscher retteten Mäuse und Schweine mit Atemnot, indem sie Sauerstoff über den Enddarm verabreichten. Dafür gab es den Ig-Nobelpreis.",
+  "detail": "Manche Fische, etwa Schmerlen, können über den Darm atmen, wenn das Wasser zu wenig Sauerstoff hat. Ein Team um Takanori Takebe fragte sich: Geht das auch bei Säugetieren?\n\nDie Forschenden lösten bei Mäusen und Schweinen ein künstliches Lungenversagen aus. Dann gaben sie Sauerstoff über den Po: entweder als Gas oder in einer sauerstoffreichen Flüssigkeit, ähnlich wie bei einem Einlauf. Die Tiere überlebten länger, verhielten sich normaler und ihr Blut enthielt mehr Sauerstoff.\n\nDas Ganze ist durchaus ernst gemeint. Die Methode könnte eines Tages Patienten mit schwerer Atemnot helfen.\n\nDafür gab es 2024 den Ig-Nobelpreis für Physiologie. Hintern-Atmung: absurd, aber womöglich lebensrettend.",
+  "sources": [
+   {
+    "title": "Mammalian enteral ventilation ameliorates respiratory failure",
+    "publisher": "Med (Cell Press) / PubMed",
+    "date": "2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35590139/"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "medizin",
+   "tiere",
+   "biologie",
+   "koerper"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-b4ec31",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Forscher setzten eine Katze auf eine Kuh",
+  "teaser": "Für eine Milchstudie setzten Forscher in den 1930ern eine Katze auf den Rücken einer Kuh und ließen alle zehn Sekunden Papiertüten knallen.",
+  "detail": "Die US-Agrarforscher Fordyce Ely und William Petersen wollten wissen, wie Stress die Milchabgabe von Kühen beeinflusst. Ihre Methode war, nun ja, kreativ.\n\nUm die Kuh zu erschrecken, setzten sie ihr eine Katze auf den Rücken und ließen zwei Minuten lang alle zehn Sekunden eine Papiertüte platzen. Irgendwann merkten sie, dass die knallenden Tüten allein genügten. Die Katze wurde in den Ruhestand geschickt.\n\nDer ganze Aufwand diente einer ernsten Frage: Wie wirkt sich Stress auf die Milchabgabe aus? Die Ergebnisse erschienen im Journal of Dairy Science.\n\nMehr als 80 Jahre später gab es dafür 2024 den Ig-Nobelpreis für Biologie. Tochter und Enkel von Ely nahmen ihn entgegen.",
+  "sources": [
+   {
+    "title": "Ig Nobel Prizes awarded for pigeon-guided missiles, butt-breathing pigs and swimming dead trout",
+    "publisher": "ABC News",
+    "date": "2024-09-13",
+    "url": "https://www.abc.net.au/news/science/2024-09-13/ig-nobel-prize-science-humour-pigeon-missile-dead-fish-2024/104336922"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "tiere",
+   "katzen",
+   "landwirtschaft",
+   "biologie"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-6527bc",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Viele Superalte gab es nur auf dem Papier",
+  "teaser": "Ein Forscher fand heraus: Sobald US-Bundesstaaten Geburtsurkunden einführten, sank die Zahl der gemeldeten Über-110-Jährigen um 69 bis 82 Prozent.",
+  "detail": "Blaue Zonen, Olivenöl, Gemeinschaft: Es gibt viele schöne Theorien, warum manche Gegenden besonders viele Hundertjährige haben. Der Demograf Saul Justin Newman hatte eine weniger romantische Idee. Er prüfte die Papiere.\n\nIn den USA sank die Zahl der Rekord-Senioren um 69 bis 82 Prozent, sobald der jeweilige Bundesstaat Geburtsurkunden einführte. Auffällig auch: Viele angebliche Geburtstage fallen auf Tage, die durch fünf teilbar sind. Typisch für Schätzungen und Schummelei.\n\nIn Italien, England und Frankreich gab es die meisten Uralten ausgerechnet in armen Regionen mit eher kurzer Lebenserwartung. Newman vermutet Fehler und Rentenbetrug.\n\nDafür gab es 2024 den Ig-Nobelpreis für Demografie. Das Geheimnis langen Lebens: ein schlampiges Melderegister.",
+  "sources": [
+   {
+    "title": "Supercentenarian and remarkable age records exhibit patterns indicative of clerical errors and pension fraud",
+    "publisher": "bioRxiv",
+    "date": "2025-11-03",
+    "url": "https://www.biorxiv.org/content/10.1101/704080"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "geld",
+   "kriminalitaet",
+   "wissenschaft",
+   "rekorde"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-fe56c9",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Eine tote Forelle kann flussaufwärts „schwimmen“",
+  "teaser": "Der Biologe James Liao band eine tote Forelle hinter einen Zylinder ins Strömungsbecken. Sie bewegte sich gegen die Strömung, fast wie ein lebender Fisch.",
+  "detail": "James Liao untersuchte, wie Forellen Energie sparen. Hinter Hindernissen wie Steinen entstehen Wirbel, und lebende Fische nutzen diese wie Surfer eine Welle.\n\nDann hatte er eine schräge Idee: Was passiert, wenn man statt eines lebenden einen toten Fisch hinter den Zylinder hängt? Das Ergebnis verblüffte: Auch die tote Forelle schlängelte sich gegen die Strömung nach vorn. Lebende und tote Fische seien kaum zu unterscheiden gewesen, sagte Liao.\n\nDie Energie kommt komplett aus den Wirbeln, die den Körper mal hierhin, mal dorthin drücken. Laut Liao hilft genau das Lachsen, lange Strecken flussaufwärts zu schaffen.\n\nDafür gab es 2024 den Ig-Nobelpreis für Physik. Manche Fische sind eben auch nach dem Tod noch fleißiger als wir am Montagmorgen.",
+  "sources": [
+   {
+    "title": "Ig Nobel Prizes awarded for pigeon-guided missiles, butt-breathing pigs and swimming dead trout",
+    "publisher": "ABC News",
+    "date": "2024-09-13",
+    "url": "https://www.abc.net.au/news/science/2024-09-13/ig-nobel-prize-science-humour-pigeon-missile-dead-fish-2024/104336922"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "tiere",
+   "physik",
+   "ozean",
+   "biologie"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-a202de",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Warum Geologen an Steinen lecken",
+  "teaser": "Geologen lecken tatsächlich an Steinen. Der Grund: Auf nasser Oberfläche treten Minerale und Fossilien viel deutlicher hervor.",
+  "detail": "Wer mit Geologen wandert, sieht es irgendwann: Sie heben einen Stein auf und lecken daran. Jan Zalasiewicz von der Universität Leicester hat erklärt, warum.\n\nDie Antwort ist enttäuschend vernünftig. Auf einer trockenen Oberfläche spiegelt und streut das Licht, Details gehen verloren. Ist der Stein nass, stechen Mineralkörner und Fossilstrukturen plötzlich klar hervor. Und die Zunge ist im Gelände eben immer dabei.\n\nIn seinem Aufsatz „Eating Fossils“ von 2017 erinnert Zalasiewicz daran, dass frühere Forscher noch weiter gingen. Sie kochten Gesteinsproben und aßen sie zum Teil sogar.\n\nDafür gab es 2023 den Ig-Nobelpreis für Chemie und Geologie. Die Wasserflasche wäre übrigens auch eine Option.",
+  "sources": [
+   {
+    "title": "Ig Nobel Prizes honor zombie spiders, rock-licking scientists, and a clever commode (Nachdruck aus Science)",
+    "publisher": "Science / UC Irvine Beckman Laser Institute",
+    "date": "2023-09-14",
+    "url": "https://bli.uci.edu/?p=31688"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "geologie",
+   "wissenschaft",
+   "outdoor"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "koe-2b77ca",
+  "category": "koerper",
+  "lang": "de",
+  "headline": "Forscher zählten Nasenhaare an 20 Toten",
+  "teaser": "Ein Team der University of California, Irvine untersuchte an 20 Körperspenden, ob beide Nasenlöcher gleich viele Haare haben.",
+  "detail": "Die Frage klingt wie aus einer Kneipenwette: Hat man im linken Nasenloch genauso viele Haare wie im rechten? Dermatologen der University of California in Irvine wollten es genau wissen.\n\nDafür untersuchten sie 20 Körperspenden und zählten Härchen für Härchen, Nasenloch für Nasenloch.\n\nDahinter steckt ein ernster Grund. Menschen mit Alopezie, einer Krankheit mit Haarausfall, verlieren oft auch ihre Nasenhaare. Und die sind wichtige Türsteher: Sie halten Allergene und Krankheitserreger von den Atemwegen fern.\n\nDafür gab es 2023 den Ig-Nobelpreis für Medizin. Die Studienleiterin gab zu: Das Thema möge ungewöhnlich wirken. Aber irgendwer muss ja mal nachzählen.",
+  "sources": [
+   {
+    "title": "New U.S. News rankings; Ig Nobel award (UCI Digest)",
+    "publisher": "University of California, Irvine",
+    "date": "2023-09-18",
+    "url": "https://communications.uci.edu/websites-and-publications/uci-digest/2023/09/230918-uci-digest.html"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "koerper",
+   "medizin",
+   "wissenschaft"
+  ],
+  "gross": false,
+  "kids": false,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-a7039d",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Ein Strom-Löffel lässt Essen salziger schmecken",
+  "teaser": "Japanische Forscher entwickelten Essstäbchen und Löffel, die mit schwachem Strom den Salzgeschmack verstärken. In Japan kann man den Löffel seit 2024 kaufen.",
+  "detail": "Weniger Salz essen, ohne dass es fade schmeckt? Der Medienforscher Homei Miyashita von der Meiji-Universität in Tokio setzt dafür auf Elektrizität.\n\nSein Labor tüftelte an einer speziellen Stromkurve, die über das Besteck auf die Zunge wirkt. Zuerst gab es Essstäbchen, später Löffel und Schüssel. Laut den Entwicklern schmeckt salzarmes Essen damit etwa 1,5-mal so salzig, wobei das individuell schwankt.\n\nZusammen mit dem Getränkekonzern Kirin kam im Mai 2024 der „Electric Salt Spoon“ in Japan in den Handel.\n\nFür die Experimente mit Strom-Stäbchen und Strom-Strohhalmen gab es 2023 den Ig-Nobelpreis für Ernährung. Das Abendessen hat jetzt einen Akku.",
+  "sources": [
+   {
+    "title": "Kirin’s Electric Salt Spoon, developed jointly with Meiji University, wins two CES Innovation Awards 2025",
+    "publisher": "Meiji University",
+    "date": "2024-11",
+    "url": "https://www.meiji.ac.jp/cip/english/news/2024/f36ac30000000g46.html"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "ernaehrung",
+   "technik",
+   "erfindungen",
+   "asien"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-401da5",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Ein Student baute einen Crashtest-Elch",
+  "teaser": "Für Elch-Unfälle gab es kaum Testpuppen. Also baute ein schwedischer Student 2001 einen Elch aus über 100 Gummiplatten.",
+  "detail": "In Schweden kracht es regelmäßig zwischen Autos und Elchen. Das Tückische: Der schwere Tierkörper prallt oft direkt auf Windschutzscheibe und Dachholme. Standard-Crashtests decken das nicht ab.\n\nMagnus Gens, damals Student an der KTH in Stockholm, baute deshalb für seine Abschlussarbeit eine Elch-Attrappe, zusammen mit dem schwedischen Verkehrsforschungsinstitut VTI und Saab. Sein Kunst-Elch besteht aus mehr als 100 Gummiplatten, zusammengehalten von Drähten und Stahlrohren.\n\nLaut Gens löst so ein Unfall nicht einmal die Airbags aus.\n\nZwei Jahrzehnte lang interessierte das kaum jemanden. Dann kam 2022 der Ig-Nobelpreis für Sicherheitstechnik. Späte Ehre für einen Elch, der sich für die Wissenschaft immer wieder überfahren ließ.",
+  "sources": [
+   {
+    "title": "Moose mannequin a belated success",
+    "publisher": "KTH Royal Institute of Technology",
+    "date": "2022",
+    "url": "https://www.kth.se/en/om/nyheter/centrala-nyheter/algkrock-docka-gor-sen-succe-1.1193919"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "auto",
+   "tiere",
+   "ingenieurwesen",
+   "europa"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-0d1306",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Nashörner fliegen kopfüber – und atmen dabei sogar besser",
+  "teaser": "Um Spitzmaulnashörner umzusiedeln, hängt man sie an den Füßen unter einen Hubschrauber. Forscher prüften: Geht es ihnen so schlechter als im Liegen?",
+  "detail": "Spitzmaulnashörner werden in Afrika manchmal per Helikopter in neue Schutzgebiete gebracht. Dafür werden die betäubten Tiere an den Füßen aufgehängt und fliegen kopfüber durch die Luft. Sieht verrückt aus, und Tierärzte fragten sich: Bekommen sie so genug Luft?\n\nEin internationales Team testete es an zwölf wilden Nashörnern, die meist um die 1,1 Tonnen wogen. Jedes Tier lag mal zehn Minuten auf der Seite und hing mal zehn Minuten an einem Kran.\n\nDie Überraschung: Kopfüber war der Sauerstoffwert im Blut sogar etwas besser als in Seitenlage, wenn auch nur ein bisschen. Allerdings hatten alle betäubten Tiere in beiden Lagen zu wenig Sauerstoff im Blut, die Narkose ist also so oder so heikel.\n\nDafür gab es 2021 den Ig-Nobelpreis für Transportwesen.",
+  "sources": [
+   {
+    "title": "The pulmonary and metabolic effects of suspension by the feet compared with lateral recumbency in immobilized black rhinoceroses captured by aerial darting",
+    "publisher": "Journal of Wildlife Diseases / PubMed",
+    "date": "2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33822147/"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "tiere",
+   "luftfahrt",
+   "afrika",
+   "biologie"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-ca46cd",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Forscher ließen einen Alligator Helium atmen",
+  "teaser": "Wiener Forscher setzten ein Alligatorweibchen in eine luftdichte Kammer mit Helium-Gemisch und ließen es brüllen. Es ging um Dinosaurier-Stimmen.",
+  "detail": "Helium kennt man von Partys: Einatmen, und schon klingt man wie eine Comicfigur. Ein Team um den Biologen Tecumseh Fitch probierte das mit einem China-Alligator aus.\n\nDas Weibchen saß in einer luftdichten Kammer, gefüllt entweder mit normaler Luft oder mit einem Helium-Sauerstoff-Gemisch. Per Lautsprecher wurde es zum Brüllen gebracht. Im Helium verschoben sich bestimmte Frequenzbereiche des Rufs nach oben, genau wie bei uns.\n\nDamit war erstmals gezeigt, dass auch Krokodile sogenannte Formanten nutzen, also Resonanzen im Rachenraum, die die Körpergröße verraten können. Weil Vögel und Krokodile mit den Dinosauriern verwandt sind, liefert das Hinweise, wie T. rex & Co. geklungen haben könnten.\n\nDafür gab es 2020 den Ig-Nobelpreis für Akustik.",
+  "sources": [
+   {
+    "title": "A Chinese alligator in heliox: formant frequencies in a crocodilian",
+    "publisher": "Journal of Experimental Biology / PubMed",
+    "date": "2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26246611/"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "tiere",
+   "physik",
+   "musik",
+   "biologie"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-5a2025",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Ein Messer aus gefrorenem Kot? Funktioniert nicht",
+  "teaser": "Forscher der Kent State University bauten Messer aus ihrem eigenen gefrorenen Kot, um eine Legende zu prüfen. Die Klingen schmierten nur braune Streifen.",
+  "detail": "In einem Buch des Anthropologen Wade Davis steht eine wilde Geschichte: Ein alter Inuk, dem die Familie die Werkzeuge weggenommen hatte, soll sich aus eigenem Kot ein Messer gefroren haben. Damit habe er einen Hund getötet und sich einen Schlitten gebaut.\n\nDer Archäologe Metin Eren wollte das nicht einfach glauben. Er und seine Kollegin Michelle Bebber aßen acht Tage lang eiweiß- und fettreich, formten aus dem Ergebnis Klingen und froren sie tief ein.\n\nDann ging es an Schweinehaut. Das Resultat: Die Messer schmolzen und hinterließen nur Streifen, die laut Eren wie brauner Wachsmalstift aussahen.\n\nDafür gab es 2020 den Ig-Nobelpreis für Materialwissenschaft. Eren nennt die Studie einen humorvollen Aufruf zum Faktencheck.",
+  "sources": [
+   {
+    "title": "Anthropology Team Brings Home the 2020 Ig Nobel Award for Materials Science",
+    "publisher": "Kent State University",
+    "date": "2020",
+    "url": "https://www.kent.edu/node/938234"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "wissenschaft",
+   "mythologie",
+   "koerper"
+  ],
+  "gross": true,
+  "kids": false,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "koe-582121",
+  "category": "koerper",
+  "lang": "de",
+  "headline": "Ein Fünfjähriger produziert täglich einen halben Liter Spucke",
+  "teaser": "Japanische Forscher berechneten: Ein fünfjähriges Kind bildet pro Tag etwa 500 Milliliter Speichel. Das ist eine kleine Flasche Wasser.",
+  "detail": "Wie viel sabbert so ein Kindergartenkind eigentlich? Zahnmediziner um Shigeru Watanabe nahmen das genau.\n\n15 Jungen und 15 Mädchen protokollierten zwei Tage lang, wann sie aßen, wach waren und schliefen. Zusätzlich maßen die Forschenden, wie viel Speichel beim Kauen verschiedener Lebensmittel floss. Beim Essen waren es im Schnitt 3,6 Milliliter pro Minute, sonst nur 0,26.\n\nHochgerechnet kamen etwa 288 Milliliter beim Essen und 208 Milliliter in der übrigen Wachzeit zusammen. Im Schlaf läuft fast nichts. Macht rund einen halben Liter am Tag.\n\nDafür gab es 2019 den Ig-Nobelpreis für Chemie. Zur Verleihung kamen Watanabes erwachsene Söhne mit, die als Kinder selbst Studienteilnehmer gewesen waren.",
+  "sources": [
+   {
+    "title": "Estimation of the total saliva volume produced per day in five-year-old children",
+    "publisher": "Archives of Oral Biology / PubMed",
+    "date": "1995",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7487581/"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "koerper",
+   "kinder",
+   "medizin",
+   "wissenschaft"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "koe-754bc7",
+  "category": "koerper",
+  "lang": "de",
+  "headline": "Achterbahnfahren kann Nierensteine lösen – hinten sitzen!",
+  "teaser": "Zwei US-Mediziner schickten eine Nieren-Attrappe mit echten Steinen 20-mal auf eine Disney-Achterbahn. Auf den hinteren Plätzen lösten sich die Steine viel öfter.",
+  "detail": "Kann man Nierensteine einfach wegschütteln? Die US-Mediziner David Wartinger und Marc Mitchell testeten das ganz konkret auf der Achterbahn „Big Thunder Mountain Railroad“ in Disney World.\n\nSie bauten ein funktionierendes Nierenmodell nach dem CT-Bild eines echten Patienten, füllten es mit Urin und drei echten Nierensteinen desselben Patienten und fuhren damit 20-mal Achterbahn, mal vorne, mal hinten sitzend.\n\nDas Ergebnis: Vorne gingen die Steine in 4 von 24 Fällen ab, hinten in 23 von 36. Die Rücksitze schütteln offenbar besser durch.\n\nDafür gab es 2018 den Ig-Nobelpreis für Medizin. Die Freizeitpark-Saisonkarte auf Rezept gibt es allerdings noch nicht.",
+  "sources": [
+   {
+    "title": "Validation of a Functional Pyelocalyceal Renal Model for the Evaluation of Renal Calculi Passage While Riding a Roller Coaster",
+    "publisher": "Journal of the American Osteopathic Association / PubMed",
+    "date": "2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27669068/"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "medizin",
+   "koerper",
+   "amerika"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-9a69b2",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Physiker fragte allen Ernstes: Ist eine Katze flüssig?",
+  "teaser": "Katzen passen sich jedem Glas, Waschbecken und Karton an. Ein Physiker untersuchte deshalb, ob sie nach physikalischer Definition flüssig sind.",
+  "detail": "Eine Flüssigkeit ist, physikalisch gesprochen, ein Material, das die Form seines Behälters annimmt. Im Internet kursieren unzählige Fotos von Katzen in Vasen, Schüsseln und Waschbecken. Also: Sind Katzen flüssig?\n\nDer französische Physiker Marc-Antoine Fardin nahm die Frage ernst und antwortete mit Rheologie, der Lehre vom Fließen. Entscheidend ist die sogenannte Deborah-Zahl: Man vergleicht, wie lange ein Material braucht, um sich anzupassen, mit der Beobachtungszeit. Ist diese lang genug, fließen sogar Gletscher und Gebirge.\n\nBei Katzen hängt es also davon ab, wie lange sie schon im Waschbecken liegen. Kurz nach dem Hineinspringen: eher fest. Nach einem langen Nickerchen: im physikalischen Sinne ziemlich flüssig.\n\nDafür gab es 2017 den Ig-Nobelpreis für Physik.",
+  "sources": [
+   {
+    "title": "Scientists Finally Answer The Important Question, Are Cats a Liquid? (Gastbeitrag von Marc-Antoine Fardin, zuerst in The Conversation)",
+    "publisher": "ScienceAlert / The Conversation",
+    "date": "2017-11-10",
+    "url": "https://www.sciencealert.com/are-cats-a-liquid-ig-nobel-prize-physics-winner"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "katzen",
+   "physik",
+   "internet",
+   "wissenschaft"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-602e56",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Elefant oder Hund: Pinkeln dauert immer etwa 21 Sekunden",
+  "teaser": "Ob Hund, Kuh oder Elefant: Säugetiere über drei Kilo leeren ihre Blase in rund 21 Sekunden, plus/minus 13. Gemessen im Zoo von Atlanta.",
+  "detail": "Ein Elefant hat eine riesige Blase, ein Hund eine kleine. Trotzdem brauchen beide etwa gleich lange zum Pinkeln. Das fanden Forschende um Patricia Yang und David Hu heraus.\n\nSie filmten Tiere im Zoo von Atlanta mit Hochgeschwindigkeitskameras und maßen den Urinfluss. Ergebnis: Alle Säugetiere über drei Kilogramm sind nach etwa 21 Sekunden fertig, mit einer Schwankung von 13 Sekunden.\n\nDer Trick steckt in der Harnröhre. Große Tiere haben eine längere, die Schwerkraft beschleunigt den Strahl stärker. So fließt mehr in derselben Zeit. Kleine Tiere wie Mäuse schaffen dagegen oft nur einzelne Tropfen.\n\nDafür gab es 2015 den Ig-Nobelpreis für Physik. Die Zahl 21 merkt man sich jetzt leider für immer.",
+  "sources": [
+   {
+    "title": "Duration of urination does not change with body size",
+    "publisher": "PNAS / PubMed",
+    "date": "2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24969420/"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "tiere",
+   "physik",
+   "biologie",
+   "koerper"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-3626df",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Hunde machen ihr Geschäft gern in Nord-Süd-Richtung",
+  "teaser": "Forscher beobachteten 70 Hunde bei fast 7.500 Geschäften. Ergebnis: Bei ruhigem Erdmagnetfeld richten sie sich dabei bevorzugt nach Norden oder Süden aus.",
+  "detail": "Hunde drehen vor dem Geschäft gern ein paar Runden. Ein tschechisch-deutsches Team schaute genauer hin: Wohin zeigen sie am Ende?\n\nZwei Jahre lang notierten die Forschenden bei 70 Hunden aus 37 Rassen die Körperausrichtung: 1.893-mal beim Kot, 5.582-mal beim Pinkeln. Dann verglichen sie die Daten mit Messungen des Erdmagnetfelds.\n\nWar das Magnetfeld ruhig, standen die Hunde bevorzugt in Nord-Süd-Richtung. Bei unruhigem Feld verschwand das Muster. Damit war erstmals gezeigt, dass Hunde Magnetfeld-Schwankungen spüren.\n\nDer Haken: Ruhig ist das Feld nur in etwa 20 Prozent der hellen Tageszeit. Dafür gab es 2014 den Ig-Nobelpreis für Biologie. Gassigehen mit Kompass ist also kein Spleen, sondern Forschung.",
+  "sources": [
+   {
+    "title": "Dogs are sensitive to small variations of the Earth's magnetic field",
+    "publisher": "Frontiers in Zoology / PubMed",
+    "date": "2013-12-27",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24370002/"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "hunde",
+   "tiere",
+   "physik",
+   "biologie"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-e22cf2",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Ein toter Lachs zeigte im Hirnscanner „Gedanken“",
+  "teaser": "Forscher legten einen toten Lachs in einen MRT-Scanner. Ohne statistische Korrektur zeigte die Auswertung scheinbare Hirnaktivität.",
+  "detail": "Eigentlich wollte das Team um Craig Bennett untersuchen, wie Menschen auf soziale Reize reagieren. Vorher musste der Hirnscanner getestet werden. Statt des üblichen Ballons mit Mineralöl kam ein toter Atlantischer Lachs in die Röhre.\n\nDann rechneten die Forscher die Daten aus wie bei einer echten Studie. Weil so ein Scan in bis zu 130.000 Messpunkte zerfällt, „leuchten“ ohne Korrektur zufällig einige auf. Und siehe da: Der tote Fisch schien zu denken.\n\nDie Pointe ist ernst: Viele Hirnstudien prüften ihre Statistik damals nicht streng genug. Laut den Autoren waren es 25 bis 40 Prozent, bis zur Preisverleihung nur noch etwa 10.\n\nDafür gab es 2012 den Ig-Nobelpreis für Neurowissenschaft. Selten war ein toter Fisch so lehrreich.",
+  "sources": [
+   {
+    "title": "IgNobel Prize in Neuroscience: The dead salmon study",
+    "publisher": "Scientific American (Blog)",
+    "date": "2012-09-25",
+    "url": "https://www.scientificamerican.com/blog/scicurious-brain/ignobel-prize-in-neuroscience-the-dead-salmon-study"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "wissenschaft",
+   "medizin",
+   "mathematik",
+   "tiere"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-358d9a",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Erst Frosch schweben lassen, dann echten Nobelpreis holen",
+  "teaser": "Andre Geim ließ mit einem Riesenmagneten einen lebenden Frosch schweben. Dafür bekam er den Ig-Nobelpreis, zehn Jahre später den echten Nobelpreis.",
+  "detail": "Andre Geim war junger Professor an der Radboud-Universität in Nijmegen, als er an einem Freitagabend nach ein paar Bier im Labor mit Magnetismus herumspielte. Er ließ Wasser schweben, dann Erdbeeren und Kirschtomaten. Die Idee mit dem Frosch kam von seiner Frau.\n\nDer Trick heißt Diamagnetismus: Auch Wasser und organisches Gewebe reagieren schwach auf Magnetfelder. In einem extrem starken Magnetfeld reicht das, um die Schwerkraft auszutricksen.\n\nDafür gab es im Jahr 2000 den Ig-Nobelpreis für Physik. 2010 folgte der richtige Nobelpreis für die Entdeckung von Graphen, hauchdünne Schichten, die er mit Klebeband von Graphit abzog.\n\nGeim ist bis heute der einzige Mensch mit beiden Preisen, was ihm sogar einen Guinness-Weltrekord einbrachte.",
+  "sources": [
+   {
+    "title": "How did you get that frog to float?",
+    "publisher": "Harvard Gazette",
+    "date": "2024-04-02",
+    "url": "https://news.harvard.edu/gazette/story/2024/04/how-did-you-get-that-frog-to-float"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "physik",
+   "tiere",
+   "rekorde",
+   "wissenschaft"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "wis-7faff1",
+  "category": "wissenschaft",
+  "lang": "de",
+  "headline": "Forscher bauten aus toten Spinnen Greifzangen",
+  "teaser": "Ingenieure der Rice University spritzen Flüssigkeit in tote Wolfsspinnen. Deren Beine schnappen dann auf und zu wie ein Greifarm.",
+  "detail": "Alles begann mit einer simplen Frage der Ingenieurin Faye Yap: Warum rollen sich tote Spinnen eigentlich zusammen? Die Antwort: Spinnen funktionieren hydraulisch. Sie strecken ihre Beine, indem sie Blut hineinpressen. Ist die Spinne tot, fehlt der Druck, und die Beine klappen ein.\n\nDas Team um Daniel Preston stach eine Spritzennadel in eine tote Wolfsspinne und fixierte sie mit Sekundenkleber. Mit etwas Flüssigkeit öffnen und schließen sich die Beine nach Wunsch. Der „Necrobot“ zog Drähte aus einer Platine und hob sogar andere tote Spinnen hoch. Erst nach Hunderten Einsätzen trocknete er aus.\n\nDafür gab es 2023 den Ig-Nobelpreis für Maschinenbau. Das Fachgebiet heißt tatsächlich „Necrobotics“.",
+  "sources": [
+   {
+    "title": "Scientists turned dead spiders into robots",
+    "publisher": "Science News",
+    "date": "2022",
+    "url": "https://www.sciencenews.org/article/dead-wolf-spiders-robots-necrobots"
+   },
+   {
+    "title": "Past Ig Winners",
+    "publisher": "Improbable Research",
+    "url": "https://improbable.com/ig/winners/"
+   }
+  ],
+  "tags": [
+   "tiere",
+   "technik",
+   "ingenieurwesen",
+   "erfindungen"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "verified": "2026-10-14"
+ },
+ {
   "id": "nat-a26436",
   "category": "natur",
   "lang": "de",
