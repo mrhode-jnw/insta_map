@@ -26,6 +26,7 @@
   "kids": false,
   "fun": 4,
   "themes": [
+   "faelschung",
    "krimi"
   ],
   "wiki": "Kweichow Moutai",
@@ -58,6 +59,7 @@
   "kids": false,
   "fun": 4,
   "themes": [
+   "faelschung",
    "krimi"
   ],
   "wiki": "Baijiu",
@@ -96,7 +98,8 @@
   "kids": false,
   "fun": 3,
   "themes": [
-   "krimi"
+   "krimi",
+   "geld"
   ],
   "wiki": "Kweichow Moutai",
   "verified": "2026-10-14"
@@ -159,6 +162,8 @@
   "kids": false,
   "fun": 4,
   "themes": [
+   "gesetz",
+   "essen",
    "krimi"
   ],
   "wiki": "Guizhou",
@@ -198,6 +203,7 @@
   "kids": false,
   "fun": 4,
   "themes": [
+   "panne",
    "krimi"
   ],
   "wiki": "Dushan County",
@@ -230,7 +236,8 @@
   "kids": false,
   "fun": 3,
   "themes": [
-   "krimi"
+   "krimi",
+   "gesetz"
   ],
   "wiki": "Taijiang County",
   "verified": "2026-10-14"
@@ -267,6 +274,7 @@
   "kids": true,
   "fun": 5,
   "themes": [
+   "legende",
    "vorort"
   ],
   "wiki": "Dong people",
@@ -298,6 +306,8 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "brauch",
+   "legende",
    "vorort"
   ],
   "wiki": "Liping County",
@@ -328,7 +338,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "woerter",
+   "tiere"
+  ],
   "wiki": "Liu Zongyuan",
   "verified": "2026-10-14"
  },
@@ -363,7 +376,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "mythos",
+   "forschung"
+  ],
   "wiki": "Five-hundred-meter Aperture Spherical Telescope",
   "verified": "2026-10-14"
  },
@@ -391,7 +407,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "brauch"
+  ],
   "wiki": "Miao people",
   "verified": "2026-10-14"
  },
@@ -418,7 +436,10 @@
   "gross": false,
   "kids": true,
   "fun": 5,
-  "themes": [],
+  "themes": [
+   "tiere",
+   "legende"
+  ],
   "wiki": "Water buffalo",
   "verified": "2026-10-14"
  },
@@ -447,6 +468,7 @@
   "kids": true,
   "fun": 3,
   "themes": [
+   "tiere",
    "vorort"
   ],
   "wiki": "Dong people",
@@ -483,6 +505,7 @@
   "kids": true,
   "fun": 3,
   "themes": [
+   "brauch",
    "vorort"
   ],
   "wiki": "Dong people",
@@ -514,6 +537,7 @@
   "kids": true,
   "fun": 5,
   "themes": [
+   "brauch",
    "vorort"
   ],
   "wiki": "Rongjiang County",
@@ -545,6 +569,8 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "brauch",
+   "geld",
    "vorort"
   ],
   "wiki": "Lusheng",
@@ -575,6 +601,7 @@
   "kids": true,
   "fun": 3,
   "themes": [
+   "brauch",
    "vorort"
   ],
   "wiki": "Leishan County",
@@ -611,6 +638,7 @@
   "kids": true,
   "fun": 5,
   "themes": [
+   "gesetz",
    "vorort"
   ],
   "wiki": "Congjiang County",
@@ -642,6 +670,7 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "brauch",
    "vorort"
   ],
   "wiki": "Taijiang County",
@@ -677,6 +706,8 @@
   "kids": true,
   "fun": 5,
   "themes": [
+   "tiere",
+   "brauch",
    "vorort"
   ],
   "wiki": "Water buffalo",
@@ -713,7 +744,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "bauwerk",
+   "forschung"
+  ],
   "wiki": "Five-hundred-meter Aperture Spherical Telescope",
   "verified": "2026-10-14"
  },
@@ -748,7 +782,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "gesetz"
+  ],
   "wiki": "Five-hundred-meter Aperture Spherical Telescope",
   "verified": "2026-10-14"
  },
@@ -777,7 +813,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
-  "themes": [],
+  "themes": [
+   "forschung",
+   "rekord"
+  ],
   "wiki": "Pulsar",
   "verified": "2026-10-14"
  },
@@ -813,7 +852,10 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "bauwerk",
+   "rekord"
+  ],
   "wiki": "Huajiang Grand Canyon Bridge",
   "verified": "2026-10-14"
  },
@@ -842,7 +884,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
-  "themes": [],
+  "themes": [
+   "bauwerk",
+   "rekord"
+  ],
   "wiki": "Duge Bridge",
   "verified": "2026-10-14"
  },
@@ -872,7 +917,11 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "rekord",
+   "essen",
+   "geld"
+  ],
   "wiki": "Luckin Coffee",
   "verified": "2026-10-14"
  },
@@ -901,7 +950,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "geld"
+  ],
   "wiki": "Kweichow Moutai",
   "verified": "2026-10-14"
  },
@@ -930,7 +981,10 @@
   "gross": false,
   "kids": false,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "geld",
+   "rekord"
+  ],
   "wiki": "Sotheby's",
   "verified": "2026-10-14"
  },
@@ -960,7 +1014,10 @@
   "gross": false,
   "kids": false,
   "fun": 3,
-  "themes": [],
+  "themes": [
+   "rekord",
+   "essen"
+  ],
   "wiki": "Guiyang",
   "verified": "2026-10-14"
  },
@@ -990,7 +1047,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "bauwerk"
+  ],
   "wiki": "Karst",
   "verified": "2026-10-14"
  },
@@ -1019,7 +1078,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
-  "themes": [],
+  "themes": [
+   "bauwerk"
+  ],
   "wiki": "Ziyun Miao and Buyei Autonomous County",
   "verified": "2026-10-14"
  }

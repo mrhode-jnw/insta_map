@@ -33,6 +33,7 @@
   "kids": false,
   "fun": 4,
   "themes": [
+   "faelschung",
    "krimi"
   ],
   "wiki": "Zhangjiajie Glass Bridge",
@@ -65,6 +66,8 @@
   "kids": false,
   "fun": 4,
   "themes": [
+   "faelschung",
+   "gesetz",
    "krimi"
   ],
   "wiki": "Bailong Elevator",
@@ -132,6 +135,7 @@
   "kids": false,
   "fun": 3,
   "themes": [
+   "geld",
    "krimi"
   ],
   "wiki": "Zhangjiajie",
@@ -165,6 +169,7 @@
   "kids": false,
   "fun": 3,
   "themes": [
+   "gesetz",
    "krimi"
   ],
   "wiki": "Yiwu",
@@ -198,6 +203,8 @@
   "kids": false,
   "fun": 4,
   "themes": [
+   "tiere",
+   "geld",
    "krimi"
   ],
   "wiki": "Chinese giant salamander",
@@ -228,7 +235,10 @@
   "gross": false,
   "kids": true,
   "fun": 3,
-  "themes": [],
+  "themes": [
+   "bauwerk",
+   "gesetz"
+  ],
   "wiki": "Wulingyuan",
   "verified": "2026-10-14"
  },
@@ -259,6 +269,7 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "geld",
    "vorort"
   ],
   "wiki": "Zhangjiajie National Forest Park",
@@ -290,6 +301,7 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "legende",
    "vorort"
   ],
   "wiki": "Tianzi Mountain",
@@ -319,7 +331,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "legende"
+  ],
   "wiki": "Tianzi Mountain",
   "verified": "2026-10-14"
  },
@@ -349,7 +363,9 @@
   "gross": false,
   "kids": false,
   "fun": 5,
-  "themes": [],
+  "themes": [
+   "legende"
+  ],
   "wiki": "Jiangshi",
   "verified": "2026-10-14"
  },
@@ -384,6 +400,7 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "legende",
    "vorort"
   ],
   "wiki": "Tianmen Mountain",
@@ -414,6 +431,7 @@
   "kids": true,
   "fun": 3,
   "themes": [
+   "woerter",
    "vorort"
   ],
   "wiki": "Zhangjiajie National Forest Park",
@@ -443,7 +461,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "brauch"
+  ],
   "wiki": "Tujia people",
   "verified": "2026-10-14"
  },
@@ -480,6 +500,8 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "panne",
+   "rekord",
    "vorort"
   ],
   "wiki": "Zhangjiajie Glass Bridge",
@@ -517,7 +539,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "bauwerk"
+  ],
   "wiki": "Zhangjiajie Glass Bridge",
   "verified": "2026-10-14"
  },
@@ -554,6 +578,7 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "rekord",
    "vorort"
   ],
   "wiki": "Range Rover Sport",
@@ -584,7 +609,9 @@
   "gross": false,
   "kids": true,
   "fun": 5,
-  "themes": [],
+  "themes": [
+   "panne"
+  ],
   "wiki": "Tianmen Mountain",
   "verified": "2026-10-14"
  },
@@ -625,6 +652,7 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "rekord",
    "vorort"
   ],
   "wiki": "Tianmen Mountain",
@@ -657,6 +685,7 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "rekord",
    "vorort"
   ],
   "wiki": "Tianmen Mountain",
@@ -689,6 +718,7 @@
   "kids": true,
   "fun": 3,
   "themes": [
+   "rekord",
    "vorort"
   ],
   "wiki": "Wingsuit flying",
@@ -726,6 +756,7 @@
   "kids": true,
   "fun": 3,
   "themes": [
+   "rekord",
    "vorort"
   ],
   "wiki": "Wulingyuan",
@@ -763,6 +794,7 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "rekord",
    "vorort"
   ],
   "wiki": "Bailong Elevator",
@@ -794,6 +826,7 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "panne",
    "vorort"
   ],
   "wiki": "Tianzi Mountain",
@@ -826,6 +859,8 @@
   "kids": true,
   "fun": 5,
   "themes": [
+   "brauch",
+   "essen",
    "vorort"
   ],
   "wiki": "Zhangjiajie National Forest Park",
@@ -858,6 +893,8 @@
   "kids": true,
   "fun": 4,
   "themes": [
+   "tiere",
+   "forschung",
    "vorort"
   ],
   "wiki": "Chinese giant salamander",
@@ -889,7 +926,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "tiere"
+  ],
   "wiki": "Chinese giant salamander",
   "verified": "2026-10-14"
  },
@@ -923,7 +962,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "geld"
+  ],
   "wiki": "Zhangjiajie National Forest Park",
   "verified": "2026-10-14"
  },
@@ -952,7 +993,9 @@
   "gross": false,
   "kids": true,
   "fun": 3,
-  "themes": [],
+  "themes": [
+   "rekord"
+  ],
   "wiki": "Zhangjiajie",
   "verified": "2026-10-14"
  },
@@ -979,7 +1022,9 @@
   "gross": false,
   "kids": true,
   "fun": 4,
-  "themes": [],
+  "themes": [
+   "brauch"
+  ],
   "wiki": "Tujia people",
   "verified": "2026-10-14"
  }
