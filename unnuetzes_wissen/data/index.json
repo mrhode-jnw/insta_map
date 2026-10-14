@@ -1,5 +1,5 @@
 {
- "version": "202610141447",
+ "version": "202610141449",
  "packs": [
   {
    "file": "facts-aktuell.json",
@@ -14,7 +14,7 @@
   {
    "file": "facts-chongqing.json",
    "place": "chongqing",
-   "count": 32
+   "count": 93
   },
   {
    "file": "facts-guilin.json",
