@@ -1611,5 +1611,630 @@
   "kids": true,
   "fun": 2,
   "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-4769d6",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Wolkenkratzer zittert ohne Erdbeben – schuld waren die Dachmasten",
+  "teaser": "Im Mai 2021 wackelte Shenzhens 355,8 Meter hohe SEG Plaza so sehr, dass alle Firmen raus mussten. Kein Beben – nur die Masten auf dem Dach.",
+  "detail": "Am 18. Mai 2021 filmten Büroleute, wie sie fluchtartig aus der SEG Plaza rannten: Der Turm zitterte spürbar. Ein Erdbeben? Fehlanzeige. Nur ordentlich Wind, Stärke 5 auf der Beaufort-Skala. Weil das Beben ohne Beben in den Tagen danach weiterging, mussten sämtliche Firmen ausziehen.\n\nZwei Monate später, am 15. Juli 2021, verkündete die Stadt die Auflösung: Die Dachmasten, gedacht als Blitzableiter und Orientierungsmarke, hatten nach über 20 Jahren Schäden angesammelt und gerieten bei bestimmtem Wind in Resonanz. Die Hauptstruktur sei sicher.\n\nDie Lösung: Masten ab. Rund 32 Tage waren für Abbau, Reparatur und Ersatz eingeplant. Pikant: Der 1999 fertiggestellte Turm steht laut Yicai mitten in den größten Elektronikmärkten des Landes – dort, wo sonst eigentlich nur die Handys vibrieren.",
+  "sources": [
+   {
+    "title": "Seg Plaza's Masts Are Found to Be Cause of Shenzhen Skyscraper's Mysterious Wobbling",
+    "publisher": "Yicai Global",
+    "date": "2021-07-15",
+    "url": "https://yicaiglobal.com/news/shenzhen-seg-plaza-skyscraper-masts-to-come-down-after-cause-of-wobbling-is-found"
+   }
+  ],
+  "tags": [
+   "architektur",
+   "bau",
+   "staedte",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-8cfee8",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Shenzhens Rekordturm wurde vom Flughafen gestutzt",
+  "teaser": "Das Ping An Finance Center sollte mit Spitze 660 Meter hoch werden. Dann funkte der nahe Flughafen dazwischen – heute sind es „nur“ 599 Meter.",
+  "detail": "Eigentlich sollte Shenzhens höchstes Gebäude noch deutlich weiter in den Himmel stechen. Laut dem Skyscraper Museum in New York war das Ping An Finance Center mit einer Spitze bis 660 Meter entworfen. Dann kam der Flughafen Shenzhen und seine Höhenauflagen – die Spitze wurde gestrichen.\n\nDie Hochhaus-Datenbank SkyscraperPage datiert die Entscheidung auf März 2015: Aus Gründen der Flugsicherheit 600 statt 660 Meter. Heraus kamen 599 Meter. Mit der ursprünglichen Spitze hätte der Turm sogar den 632 Meter hohen Shanghai Tower überragt.\n\nAuch so ist das Ding ein Brocken: über 100 Büroetagen, vor allem für den Versicherer Ping An, eine öffentliche Aussichtsplattform in der Pyramidenspitze und unten ein Anschluss an U-Bahn und Schnellzug nach Hongkong. Nur eben 61 Meter kürzer als geträumt – vom Tower zum Tower gestutzt.",
+  "sources": [
+   {
+    "title": "Ping An Finance Center",
+    "publisher": "The Skyscraper Museum",
+    "url": "https://skyscraper.org/supertall/?p=202"
+   },
+   {
+    "title": "Ping An Finance Center, Shenzhen",
+    "publisher": "SkyscraperPage",
+    "url": "https://skyscraperpage.com/cities/?buildingID=47866"
+   }
+  ],
+  "tags": [
+   "architektur",
+   "luftfahrt",
+   "rekorde",
+   "china"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-f96905",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Sowjetischer Flugzeugträger war 16 Jahre lang Freizeitpark",
+  "teaser": "Der ausgemusterte Flugzeugträger „Minsk“ war von 2000 bis 2016 die Hauptattraktion des Themenparks „Minsk World“ in Shenzhen – Kalter Krieg zum Anfassen.",
+  "detail": "Die Minsk war der zweite von vier Flugzeugträgern der Kiew-Klasse, die die Sowjetunion zwischen 1970 und 1987 baute. Gebaut in der heutigen Ukraine, benannt nach der heutigen Hauptstadt von Belarus, diente sie ab 1978 in der Pazifikflotte und ging dann an Russland.\n\nDie zweite Karriere war schräger: Russland verkaufte das Schiff 1993 zum Verschrotten nach Südkorea, wo Umweltgruppen protestierten. Also landete es bei einer chinesischen Firma – und wurde Herzstück von „Minsk World“ in Shenzhen, eröffnet 2000.\n\nDer Park geriet in Geldnot und schloss 2016, die Minsk kam am 5. Mai 2016 in Nantong an, für einen neuen Themenpark. Im August 2024 fing sie dort bei Umbauarbeiten Feuer. Ihr Schwesterschiff Kiew? Ebenfalls Freizeitpark, in Tianjin. Die Kiew-Klasse hat offenbar Talent fürs Rentnerdasein mit Publikum.",
+  "sources": [
+   {
+    "title": "Old aircraft carrier, once part of mighty Soviet fleet, burns in Chinese lagoon",
+    "publisher": "CNN",
+    "date": "2024-08-19",
+    "url": "https://edition.cnn.com/2024/08/19/china/old-soviet-aircraft-carrier-minsk-fire-china-intl-hnk-ml"
+   },
+   {
+    "title": "Aircraft carrier Minsk arrives at China's Nantong",
+    "publisher": "People's Daily Online (Xinhua)",
+    "date": "2016-05-06",
+    "url": "http://en.people.cn/n3/2016/0506/c90000-9054055.html"
+   }
+  ],
+  "tags": [
+   "militaer",
+   "schifffahrt",
+   "reisen",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-ddd86c",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "In Shekou liegt ein Kreuzfahrtschiff, das de Gaulle taufte",
+  "teaser": "Das Schiff „Minghua“ in Shenzhens Viertel Shekou wurde 1962 vom französischen Präsidenten Charles de Gaulle als „Ancerville“ getauft – und liegt seit 1983 fest an Land.",
+  "detail": "Wer durch Shekous Ausgehviertel Sea World schlendert, steht plötzlich vor einem Kreuzfahrtschiff. Getauft wurde es 1962 als „Ancerville“ – von keinem Geringeren als Charles de Gaulle, so die Shenzhen Daily.\n\n1973 kauften chinesische Käufer das Schiff und nannten es „Minghua“. Seit 1983 liegt es in Shekou. Die Gegend wurde Anfang der 1980er zum Touristenziel „Haishang Shijie“ („Welt auf dem Meer“) – der Schriftzug stammt aus der Hand von Deng Xiaoping.\n\nZwischendurch vernachlässigt, wurde das Schiff um 2013 Mittelpunkt des aufgemöbelten Geschäftsviertels. Nach 1.000 Tagen Renovierung öffnete es 2025 wieder, nun unter altem Namen Ancerville, als Komplex mit Theater, Restaurants und Läden. Zum Start lief „The Deal“, ein immersives Körpertheater, eigens für die Schiffskabinen erdacht. Weltreise ohne Ablegen, quasi.",
+  "sources": [
+   {
+    "title": "Ancerville",
+    "publisher": "Shenzhen Daily / Eye Shenzhen",
+    "date": "2026-02-04",
+    "url": "https://www.eyeshenzhen.com/content/2026-02/04/content_31934526.htm"
+   },
+   {
+    "title": "New Sea World to light up Shekou",
+    "publisher": "Shenzhen Daily",
+    "date": "2013-12-20",
+    "url": "http://www.szdaily.com/content/2013-12/20/content_8905375.htm"
+   },
+   {
+    "title": "Welcome aboard Ancerville",
+    "publisher": "Eye Shenzhen",
+    "date": "2025-09-29",
+    "url": "https://www.eyeshenzhen.com/content/2025-09/29/content_31704698.htm"
+   }
+  ],
+  "tags": [
+   "schifffahrt",
+   "theater",
+   "reisen",
+   "china"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-8b7328",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Shenzhen hat ein eigenes Interlaken – nur ohne Schnee",
+  "teaser": "Im Resort OCT East bei Shenzhen steht eine Nachbildung des Schweizer Ferienorts Interlaken – mit Chalets, Mineralbädern, Bratwurst und Zopf-Fräulein am Eingang.",
+  "detail": "„Lederhosen, Fondue, getrocknete Algensnacks?“ So begann 2007 ein Bericht des Time Magazine über eine der kuriosesten Kopien Chinas. In den Hügeln vor Shenzhen liegt das Resort OCT East – und darin ein eigenes Interlaken.\n\nLaut Time wurde kaum ein Detail ausgelassen: Ski-Chalets, Mineralbäder, Würstchen auf dem Grill und eine junge Frau mit geflochtenen Zöpfen, die Gäste begrüßt. Es gab sogar ein Alpen-Liederfest mit Jodlern. Was dem subtropischen Alpenidyll fehle, sei eigentlich nur eines: Schnee.\n\nUnd die Details hakten ein bisschen: Im Spa lockte eine „arktisch kalte“ Sauna, in der Panoramabahn knabberte ein Fahrgast Hühnerfüße. Shenzhens Jahresmittel liegt laut Time bei rund 24 Grad. Heißt: Man kann vor dem Schweizer Chalet stehen – in kurzen Hosen.",
+  "sources": [
+   {
+    "title": "Quotes of the Day / Interlaken in Shenzhen",
+    "publisher": "TIME",
+    "date": "2007-11-16",
+    "url": "https://content.time.com/time/quotes/0,26174,1684983,00.html"
+   }
+  ],
+  "tags": [
+   "reisen",
+   "architektur",
+   "europa",
+   "china"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-a55655",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Zwölf Golfplätze an einem Ort: Guinness-Rekord bei Shenzhen",
+  "teaser": "Mission Hills auf dem Gebiet von Shenzhen und Dongguan ist laut Guinness World Records die größte Golfanlage der Welt – mit zwölf 18-Loch-Plätzen.",
+  "detail": "Ein Golfplatz? Süß. In Mission Hills sind es zwölf. Laut Guinness World Records ist der Club die größte Golfanlage der Welt, mit zwölf 18-Loch-Plätzen, die seit Dezember 2006 komplett in Betrieb sind. Die Anlage erstreckt sich über die Hügel von Shenzhen und Dongguan.\n\nDen Titel holte sich der Club im Mai 2004, als sein zehnter Platz eröffnete und er das US-Resort Pinehurst mit acht Plätzen überholte. Ein Club-Manager stichelte damals: Pinehurst habe fast 100 Jahre für acht Plätze gebraucht, Mission Hills zwölf in weniger als 15.\n\nEntworfen wurden die Kurse unter anderem von Jack Nicklaus, Greg Norman, Nick Faldo, Annika Sörenstam und Ernie Els, dazu kommen laut Club 51 Tennisplätze. Wer alles an einem Tag spielen will: 216 Löcher. Viel Glück.",
+  "sources": [
+   {
+    "title": "Largest golf facility",
+    "publisher": "Guinness World Records",
+    "url": "https://www.guinnessworldrecords.com/world-records/largest-golf-facility"
+   },
+   {
+    "title": "China's Mission Hills recognized by Guinness World Records",
+    "publisher": "NBC Sports / Golf Channel",
+    "date": "2009",
+    "url": "https://www.nbcsports.com/golf/news/article-golf-channel-newsroom-chinas-mission-hills-recognized-guinness-world-records"
+   }
+  ],
+  "tags": [
+   "rekorde",
+   "outdoor",
+   "reisen",
+   "china"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-f0b7e8",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Chinas erster McDonald's: 20 Kassen, trotzdem Schlange bis draußen",
+  "teaser": "Am 8. Oktober 1990 eröffnete in Shenzhen der erste McDonald's auf dem chinesischen Festland – alle 20 Kassen liefen, die Schlange reichte trotzdem bis auf den Vorplatz.",
+  "detail": "Shenzhen war für McDonald's das Tor nach China: Am 8. Oktober 1990 öffnete im Guanghua-Gebäude an der Jiefang-Straße die erste Filiale auf dem Festland. Laut Stadtregierung steckte die Zentrale 30 Millionen Hongkong-Dollar hinein.\n\nDer Andrang war absurd. Oben liefen alle 20 Kassen, trotzdem zog sich die Schlange die Treppe hinunter, durch die Lobby und hinaus auf den Platz. Die 500 Sitzplätze waren voll, wer keinen bekam, aß im Stehen.\n\nDie Karte war schmal: Burger, Pommes, Getränke, ein Menü für etwa 10 bis 15 Hongkong-Dollar, ungefähr so viel wie chinesisches Fast Food. Die Stadtregierung schreibt dem Laden sogar zu, die Essgewohnheiten verändert und die Leute ans schnelle Geschäftstempo gewöhnt zu haben. Ein Burger als Reformbeschleuniger – auch eine Karriere.",
+  "sources": [
+   {
+    "title": "深圳故事: 中国大陆第一家麦当劳",
+    "publisher": "Shenzhen Government Online (sz.gov.cn)",
+    "date": "2023-01",
+    "url": "https://www.sz.gov.cn/szstory/202301/content/post_10368004.html"
+   }
+  ],
+  "tags": [
+   "gastronomie",
+   "wirtschaft",
+   "staedte",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-faa0b8",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Einen Tag schuften, drei Tage feiern: die Legenden von Sanhe",
+  "teaser": "Am Sanhe-Arbeitsmarkt in Shenzhens Bezirk Longhua lautete das inoffizielle Motto der Tagelöhner: Ein Tageslohn reicht für drei Tage Spaß.",
+  "detail": "Shenzhen steht für Fleiß und Tempo. Umso schräger wirkte der Sanhe-Arbeitsmarkt im Bezirk Longhua, über den das Magazin Sixth Tone 2017 berichtete. Hier ging es nicht ums Vorankommen, sondern ums Durchkommen.\n\nDer 1992 entstandene Markt vermittelte Tagesjobs, für die man kaum Ausbildung braucht, etwa Pakete ausliefern. Ein schäbiges Schlafsaalbett gab es schon für 20 Yuan. Das inoffizielle Motto: „Mit einem Tageslohn kann man drei Tage Spaß haben.“\n\nWer besonders gekonnt zwischen gelegentlicher Arbeit und ziellosem Herumhängen pendelte, galt als „Legende von Sanhe“. War das Geld weg und kein Job in Sicht, nannte man sich selbstironisch „guabi“, etwa „toter Idiot“. Dann blieb das Internetcafé oder die Parkbank.\n\nSixth Tone beschrieb die Szene mit über 100.000 Zugewanderten als eine Art Utopie für Aussteiger – mitten in der Stadt der Workaholics.",
+  "sources": [
+   {
+    "title": "The Shenzhen Gig Market Where Migrants Embrace Being Broke",
+    "publisher": "Sixth Tone",
+    "date": "2017",
+    "url": "https://www.sixthtone.com/news/1000793"
+   }
+  ],
+  "tags": [
+   "wirtschaft",
+   "staedte",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": false,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-3de5bf",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Fahrradfriedhöfe: Shenzhen räumt die Leichen des Leihrad-Booms",
+  "teaser": "Nach dem Leihrad-Boom beschloss Shenzhen 2018 als erste Stadt Chinas, Räder pleitegegangener Anbieter von Bergungstrupps einsammeln und verschrotten zu lassen.",
+  "detail": "Kaum ein Boom endete so sichtbar wie der der stationslosen Leihräder. Im August 2018 rollten laut Yicai Global rund 770.000 aktive Leihräder durch Shenzhen, die meisten von Ofo und Mobike. Doch Dutzende Anbieter hatten sich in den Markt gestürzt, mehrere waren pleite – und ihre Räder blieben einfach stehen.\n\nDie meisten Waisen stammten von Coolqi, Xiaoming und Bluegogo. Shenzhen beschloss als erste Stadt Chinas, Bergungstrupps loszuschicken und die Räder als Schrott zu verwerten; der Erlös sollte nach Abzug der Kosten in die Staatskasse. Der insolvente Xiaoming-Betreiber wollte seine Räder für je 12 Yuan loswerden.\n\nWie groß das Ganze war, zeigte Fotograf Wu Guoyong, der versteckte Fahrradfriedhöfe auch in Shenzhen fotografierte. Laut CBC: kleine Haufen mit 40.000 bis 50.000 Rädern, große mit über 200.000. Aus der Luft bunte Kunst – am Boden schlicht Schrott.",
+  "sources": [
+   {
+    "title": "Shenzhen to Recycle City's Junked Shared Bikes",
+    "publisher": "Yicai Global",
+    "date": "2018-08-22",
+    "url": "https://yicaiglobal.com/news/shenzhen-to-recycle-city-junked-shared-bikes"
+   },
+   {
+    "title": "Inside one of China's hidden bike-sharing bicycle graveyards",
+    "publisher": "CBC",
+    "url": "https://www.cbc.ca/documentaries/documentary-channel/inside-one-of-china-s-hidden-bike-sharing-bicycle-graveyards-1.6325287"
+   }
+  ],
+  "tags": [
+   "radfahren",
+   "verkehr",
+   "wirtschaft",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-59e305",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Mittagessen per Drohne – zur Rushhour fast im Minutentakt",
+  "teaser": "In einem Geschäftsviertel in Shenzhens Bezirk Longgang liefern Drohnen täglich über 300 Bestellungen aus – mittags starten und landen sie fast jede Minute.",
+  "detail": "In einem Geschäftsviertel im Bezirk Longgang kommt das Mittagessen von oben. Laut China Daily wird das Essen verpackt, gewogen und an Drohnen gehängt, die über eine Straßenüberführung fliegen und in zwei Minuten bei den Bürotürmen gegenüber sind. Über 300 Bestellungen am Tag, mittags startet oder landet fast jede Minute eine.\n\nDer Lieferdienst Meituan hatte bis März 2024 in Shenzhen auf mehreren Routen über 200.000 Bestellungen ausgeflogen – zu Wohnanlagen, Büros, Kliniken und Unis. Ziele im Umkreis von drei Kilometern sollen in 15 Minuten erreicht werden.\n\nDie Stadt hatte da schon 126 Tiefflugrouten und 89 Start- und Landeplätze, 2023 zählte sie 600.000 Flüge von Frachtdrohnen. Sogar Blutkonserven fliegen zu Kliniken. Kein Wunder: Laut China Daily hält Shenzhen über 70 Prozent des Weltmarkts für Konsumentendrohnen. Die Pizza hat hier also Heimvorteil.",
+  "sources": [
+   {
+    "title": "Shenzhen: Low-altitude economy takes off",
+    "publisher": "China Daily (Regional)",
+    "date": "2024-03-20",
+    "url": "https://regional.chinadaily.com.cn/Qiushi/2024-03/20/c_972513.htm"
+   }
+  ],
+  "tags": [
+   "technik",
+   "luftfahrt",
+   "logistik",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-d6b311",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Stand 2019: Neun von zehn Vapes kamen aus Bao'an",
+  "teaser": "Laut Wirtschaftsmagazin Caixin stellten kleine Fabriken rund um Shenzhens Bezirk Bao'an 2019 etwa 90 Prozent aller Vape-Geräte der Welt her – und 80 Prozent der Liquids.",
+  "detail": "Wer 2019 irgendwo auf der Welt an einer E-Zigarette zog, hielt mit hoher Wahrscheinlichkeit ein Stück Shenzhen in der Hand. Laut Caixin vom November 2019 produzierten kleine Fabriken rund um den Bezirk Bao'an 90 Prozent aller Vape-Geräte weltweit und 80 Prozent der Liquids. Die Branche setzte rund fünf Milliarden Dollar im Jahr um, in Shenzhen saßen über 1.000 Hersteller von Geräten und Komponenten.\n\nWie schnell das ging, erzählte ein Vertriebler: Gerät und Liquid kaufen, in drei bis vier Stunden fertig verpacken. Manche Fabriken nahmen Aufträge ab 1.000 Stück an – Logo drauf, fertig ist die „Marke“.\n\nÜber 85 Prozent gingen in den Export, vor allem in die USA. Nachbarn im selben Teil der Stadt: Huawei und Foxconn. Im November 2019 verbot China dann den Online-Verkauf von E-Zigaretten. Aktuelle Marktanteile können heute anders aussehen.",
+  "sources": [
+   {
+    "title": "In Depth: China's Booming $5 Billion E-Cigarette Industry at a Crossroad",
+    "publisher": "Caixin Global",
+    "date": "2019-11-04",
+    "url": "https://www.caixinglobal.com/2019-11-04/in-depth-chinas-booming-5-billion-e-cigarette-industry-at-a-crossroad-101478483.html"
+   }
+  ],
+  "tags": [
+   "wirtschaft",
+   "technik",
+   "handel",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": false,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-9cdbcd",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Shenzhen hat das einzige Kaisergrab von Guangdong",
+  "teaser": "In Chiwan im Bezirk Nanshan liegt Zhao Bing, der letzte Kaiser der Südlichen Song-Dynastie – im einzigen Kaisergrab der ganzen Provinz Guangdong. Gleich neben der U-Bahn.",
+  "detail": "Eine Boomstadt voller Glastürme – und dazwischen ein Kaisergrab. Am Fuß des Xiaonanshan-Bergs, mit Blick aufs Lingding-Meer, ruht laut Stadtverwaltung Zhao Bing, der letzte Kaiser der Südlichen Song-Dynastie (1127–1279). Es ist das einzige Kaisergrab der Provinz Guangdong und steht unter städtischem Denkmalschutz.\n\nPrunk? Fehlanzeige. Ein Grabhügel und ein Grabstein mit vergoldeten Schriftzeichen, Drachen, Phönixen und Wolken – das ist alles für einen Kaiser, der sein Reich verloren hatte.\n\nDie Geschichte dahinter ist dramatisch: Nach der Niederlage gegen die Truppen der Yuan-Dynastie ging der treue Minister Lu Xiufu mit dem jungen Kaiser ins Meer. Eine vier Meter hohe Steinstatue westlich des Grabes zeigt die Szene. Und heute? Steigt man an der Station Chiwan der Linie 2 aus, Ausgang C – über 700 Jahre Geschichte mit Metroanschluss.",
+  "sources": [
+   {
+    "title": "Tomb of the last Southern Song emperor: The only royal tomb in GD",
+    "publisher": "Eye Shenzhen (Shenzhen Municipal Talent Affairs Bureau)",
+    "date": "2023-05-22",
+    "url": "https://www.eyeshenzhen.com/content/2023-05/22/content_30238405.htm"
+   },
+   {
+    "title": "Nanshan District – SZ Citywalk",
+    "publisher": "Shenzhen Government Online",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/Districts/NanshanDistrict/content/post_11889388.html"
+   }
+  ],
+  "tags": [
+   "reisen",
+   "staedte",
+   "china"
+  ],
+  "era": "mittelalter",
+  "gross": false,
+  "kids": false,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-68e147",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "465 Millimeter in zwölf Stunden: Shenzhen säuft ab",
+  "teaser": "In der Nacht zum 8. September 2023 fielen in Shenzhen binnen zwölf Stunden 465,5 Millimeter Regen – Rekord seit Beginn der Messungen 1952.",
+  "detail": "Taifun Haikui war längst über Land weitergezogen, doch seine Reste hatten es in sich. Laut Hong Kong Observatory prasselten in Shenzhen vom Abend des 7. bis zum Morgen des 8. September 2023 gewaltige Wassermassen herunter: 195,8 Millimeter in zwei Stunden, 349,7 in sechs und 465,5 Millimeter in zwölf Stunden.\n\nJeder dieser Werte brach den jeweiligen Rekord seit Beginn von Shenzhens Wetteraufzeichnungen 1952. Fast ein halber Meter Wasser in einer einzigen Nacht.\n\nDie Folgen: Viele U-Bahn-Stationen liefen voll, einige Linien wurden eingestellt, am Flughafen verspäteten sich Flüge. In den frühen Morgenstunden musste zudem Wasser aus dem Shenzhen-Stausee abgelassen werden. Für eine Stadt, die für ihr Bautempo berühmt ist, eine Lektion darin, dass Wasser noch schneller sein kann.",
+  "sources": [
+   {
+    "title": "Report on Severe Typhoon Haikui (2311)",
+    "publisher": "Hong Kong Observatory",
+    "date": "2023",
+    "url": "https://www.hko.gov.hk/en/publica/tc/tc2023/section3_4rpt.html"
+   }
+  ],
+  "tags": [
+   "wetter",
+   "staedte",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-2ccd60",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Eine Insel vor Shenzhen gehört über 1.000 wilden Affen",
+  "teaser": "Auf der zu Shenzhen gehörenden Insel Nei Lingding leben mehr als 1.000 wilde Makaken – und außer großen Pythons fürchten sie dort praktisch niemanden.",
+  "detail": "In der Perlflussmündung liegt eine Insel, auf der die Affen das Sagen haben. Auf Nei Lingding leben laut Nanfang Daily mehr als 1.000 wilde Makaken – einer der Lebensräume mit der höchsten Makaken-Dichte. In China stehen die Tiere unter Schutz zweiter Klasse.\n\nNatürliche Feinde haben sie kaum, abgesehen von großen Pythons. Ihre Aggression richtet sich deshalb meist gegen andere Affengruppen. Sonst wird gekrault, und zwar dort, wo man selbst nicht hinkommt. Die Gruppen sind matriarchal organisiert, mit strenger Rangordnung.\n\nDie Insel bildet mit den Mangroven von Futian ein Naturschutzgebiet, 1984 gegründet, seit 1988 national. Mit 9,22 Quadratkilometern ist es laut Shenzhen Daily das kleinste nationale Naturschutzgebiet Chinas, mit Fischottern und Bengalkatzen als Nachbarn. Shenzhen hat also einen Affenfelsen – in Inselgröße.",
+  "sources": [
+   {
+    "title": "Wild macaques on Nei Lingding Island",
+    "publisher": "Newsgd (Nanfang Daily)",
+    "url": "https://www.newsgd.com/node_99363c4f3b/24da64914e.shtml"
+   },
+   {
+    "title": "Futian–Neilingding reserve",
+    "publisher": "Shenzhen Government Online",
+    "url": "https://www.sz.gov.cn/en_szgov/news/latest/content/post_10181619.html"
+   }
+  ],
+  "tags": [
+   "tiere",
+   "inseln",
+   "china"
+  ],
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-e3d64c",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Polizeistreife mit Drehkick-Roboter in Shenzhen",
+  "teaser": "Am 30. April 2026 lief der humanoide Roboter T800 der Shenzhener Firma EngineAI mit Polizisten auf Streife – 1,73 Meter groß, 75 Kilo, Drehkick inklusive.",
+  "detail": "Am 30. April 2026 bekam eine Polizeistreife in Shenzhen ungewöhnliche Verstärkung. Laut dem Nachrichtenportal Newsgd schloss sich der humanoide Roboter T800 der Shenzhener Firma EngineAI Spezialkräften und Beamten an. Viele Passanten blieben stehen und guckten.\n\nDer T800 ist 1,73 Meter groß und wiegt 75 Kilogramm, also etwa ein erwachsener Mann. Er kann rennen, Kampfbewegungen ausführen und sogar Drehkicks. Ob die im Streifendienst je gebraucht wurden, verrät der Bericht nicht.\n\nGanz neu war die Idee nicht: Schon im März 2025 berichtete Interesting Engineering von kleineren PM01-Robotern desselben Herstellers, die in Polizei-Warnwesten neben Beamten durch Shenzhen liefen, Passanten die Hand schüttelten und auf Sprachbefehle reagierten. Ein Video zeigte einen, der der Menge zuwinkte. Eher Maskottchen als RoboCop – aber mit Kickbox-Option.",
+  "sources": [
+   {
+    "title": "Shenzhen's upgraded humanoid patrol robot hits the streets",
+    "publisher": "Newsgd (Southern Daily)",
+    "date": "2026-05-02",
+    "url": "https://www.newsgd.com/node_d36b0ef83f/8f00461d83.shtml"
+   },
+   {
+    "title": "China's humanoid robot cops take to streets for patrol duties",
+    "publisher": "Interesting Engineering",
+    "date": "2025",
+    "url": "https://interestingengineering.com/innovation/china-humanoid-robot-cops"
+   }
+  ],
+  "tags": [
+   "technik",
+   "staedte",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-2b1775",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Bei Huawei ruft zwischen 13 und 14 Uhr niemand an",
+  "teaser": "In Huaweis Zentrale in Shenzhen rollen Mitarbeiter mittags Feldbetten unterm Schreibtisch aus – und die ganze Firma weiß: Zwischen 13 und 14 Uhr ruft man nicht an.",
+  "detail": "Zwei Forscher der London School of Economics verbrachten 2017 eine Woche in Huaweis Zentrale in Shenzhen. Dort arbeiteten damals fast 60.000 der weltweit 180.000 Beschäftigten. Was ihnen auffiel: die Mittagspause.\n\nNach dem Essen rollen viele ihre Feldbetten aus, die unter dem Schreibtisch versteckt liegen, und legen sich in ihrer Arbeitsnische schlafen. Die ganze Firma weiß, dass man zwischen 13 und 14 Uhr nicht anruft – der Schlaf bleibt ungestört. Ein ausländischer Mitarbeiter verglich das Nickerchen mit einer Dusche.\n\nAuch sonst war der Campus anders als bei westlichen Tech-Firmen: keine Rutschen und Kickertische, dafür Teebeutel, Topfpflanzen und Plastikobst, das von der Decke hing. Silicon Valley hat die Rutsche, Shenzhen das Feldbett. Rate mal, was nach dem Mittag mehr bringt.",
+  "sources": [
+   {
+    "title": "Huawei's low-key approach: the secret of its success?",
+    "publisher": "The Open University / LSE Business Review",
+    "date": "2017-11-02",
+    "url": "https://www.open.edu/openlearn/money-business/leadership-management/huaweis-low-key-approach-the-secret-its-success"
+   }
+  ],
+  "tags": [
+   "schlaf",
+   "wirtschaft",
+   "it",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-5ebb9f",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Zum Ersten, zum Zweiten: Chinas erste Grundstücksauktion",
+  "teaser": "Am 1. Dezember 1987 fiel in Shenzhen der Hammer bei der ersten öffentlichen Grundstücksauktion der Volksrepublik: 8.588 Quadratmeter für 5,25 Millionen Yuan.",
+  "detail": "In einem Land, in dem der Boden dem Staat gehört, war das eine kleine Revolution: Am 1. Dezember 1987 versteigerte Shenzhen öffentlich ein Grundstück, laut Stadtregierung die erste Auktion dieser Art im „Neuen China“. Verkauft wurde nicht der Boden, sondern 50 Jahre Nutzungsrecht an 8.588 Quadratmetern Wohnbaufläche.\n\nUm 16:30 Uhr ging es los. 44 Firmen hatten sich angemeldet, neun davon mit ausländischem Kapital. Im Saal saßen Spitzenfunktionäre, Bürgermeister aus 17 Städten und eine eigens angereiste Besuchergruppe aus Hongkong. Startgebot: 2 Millionen Yuan. Dann 4,1, 4,3 … bis „5,25 Millionen zum Ersten, zum Zweiten, zum Dritten – verkauft!“ an die Immobiliengesellschaft der Sonderwirtschaftszone.\n\nKnapp fünf Monate später änderte der Nationale Volkskongress die Verfassung, damit Nutzungsrechte legal übertragen werden können. Erst versteigern, dann erlauben – Shenzhen-Tempo eben.",
+  "sources": [
+   {
+    "title": "深圳故事: 新中国第一次土地公开拍卖",
+    "publisher": "Shenzhen Government Online (sz.gov.cn)",
+    "date": "2023-01",
+    "url": "https://www.sz.gov.cn/szstory/202301/content/post_10371168.html"
+   }
+  ],
+  "tags": [
+   "geld",
+   "wirtschaft",
+   "recht",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-93b71f",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Schnellzug im Keller: Futian-Bahnhof liegt 32 Meter tief",
+  "teaser": "Unter Shenzhens Geschäftsviertel Futian halten Schnellzüge 32 Meter unter der Erde – die Fachzeitschrift Railway Gazette nennt den Bahnhof „den größten unterirdischen Bahnhof Asiens“.",
+  "detail": "Wer in Shenzhens Geschäftsviertel Futian über die Straße läuft, ahnt nicht, was unter den Füßen los ist. Dort liegt der Bahnhof Futian, den die Railway Gazette als „größten unterirdischen Bahnhof Asiens“ beschreibt: rund 1.000 mal 80 Meter, drei Ebenen tief.\n\nDie acht Schnellzug-Bahnsteige liegen 32 Meter unter der Oberfläche. Vier sind für Inlandszüge gedacht, vier für den Verkehr nach Hongkong. Dazu halten die U-Bahn-Linien 1 und 2.\n\nAm 29. Dezember 2015 ging der Abschnitt von Shenzhen-Nord nach Futian in Betrieb, zunächst mit elf Zügen pro Richtung nach Guangzhou-Süd, Fahrzeit rund 50 Minuten. Bis Hongkong-West Kowloon erwartete man damals etwa 15 Minuten. Also: unter einem Bankenviertel einsteigen, eine Viertelstunde später in einem anderen Wirtschaftssystem aussteigen.",
+  "sources": [
+   {
+    "title": "High speed station opens in Shenzhen",
+    "publisher": "Railway Gazette International",
+    "date": "2015-12",
+    "url": "https://railwaygazette.com/high-speed/high-speed-station-opens-in-shenzhen/41868.article"
+   }
+  ],
+  "tags": [
+   "bahn",
+   "verkehr",
+   "rekorde",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-22b6b0",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Schon 2017 rollten in Shenzhen Busse ohne Lenkhand",
+  "teaser": "Am 2. Dezember 2017 drehten vier selbstfahrende „Alphabus“-Busse in Shenzhen Testrunden auf öffentlicher Straße – laut China Daily der weltweit erste Testlauf dieser Art.",
+  "detail": "Busse, die selbst lenken? In Shenzhen schon 2017. Am 2. Dezember drehten vier sogenannte Alphabus-Busse in der Freihandelszone von Futian ihre erste Testfahrt auf öffentlicher Straße. China Daily feierte das als weltweit ersten Testlauf dieser Art.\n\nDie Strecke war mit 1,2 Kilometern kurz, das Tempo gemütlich: 10 bis 30 Kilometer pro Stunde, drei Haltestellen. Ganz ohne Mensch ging es noch nicht – hinter dem Steuer saß ein Fahrer, bereit, im Notfall einzugreifen. Vermutlich mit den Händen sehr locker auf den Knien.\n\nDie Technik konnte aber schon einiges: Fußgänger und Autos erkennen, an Haltestellen stoppen, abbremsen, Hindernisse umfahren und im Notfall halten. Entwickelt wurde das System vom nationalen Ingenieurzentrum für intelligente Verkehrssysteme zusammen mit der Shenzhen Bus Group. Der Busfahrer als Beifahrer – 2017 war das noch Science-Fiction mit Fahrschein.",
+  "sources": [
+   {
+    "title": "Self-driving bus goes on world's first trial run on public road",
+    "publisher": "China Daily",
+    "date": "2017-12-03",
+    "url": "https://global.chinadaily.com.cn/a/201712/03/WS5a276474a3107865316d2f99.html"
+   }
+  ],
+  "tags": [
+   "verkehr",
+   "technik",
+   "auto",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 2,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-61c457",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Mini-Mauer, echte Ziegel: 6,5 Millionen Stück im Maßstab 1:15",
+  "teaser": "Für die Große Mauer im Miniaturpark Splendid China hätte man Beton mit aufgemalten Fugen nehmen können. Stattdessen brannte man über 6,5 Millionen Mini-Ziegel – im Maßstab 1:15.",
+  "detail": "Im September 1989 eröffnete in Shenzhen der Miniaturpark Splendid China, laut Stadtregierung der erste Themenpark der Stadtgeschichte. Er zeigt 82 der bekanntesten Landschaften und Bauwerke Chinas im Kleinformat.\n\nBei der Großen Mauer machten es sich die Erbauer nicht leicht. Laut Archivunterlagen hätte man die Mauer einfach aus Beton gießen und die Ziegel mit weißen Linien aufmalen können. Stattdessen brannte man Ziegel im Verhältnis 1:15 zu den echten Mauersteinen – über 6,5 Millionen Stück – und setzte sie einzeln zusammen.\n\nDer Aufwand zahlte sich aus: Im ersten Jahr kamen über drei Millionen Besucher, die Baukosten waren wieder drin. Zum Nationalfeiertag 1989 strömten täglich über 30.000 Menschen herein – die Hälfte der Hauptstraße Shennan Boulevard wurde kurzerhand zum Parkplatz. Mini-Mauer, Maxi-Stau.",
+  "sources": [
+   {
+    "title": "深圳故事: 锦绣中华",
+    "publisher": "Shenzhen Government Online (sz.gov.cn)",
+    "date": "2023-02",
+    "url": "https://www.sz.gov.cn/szstory/202302/content/post_10443223.html"
+   }
+  ],
+  "tags": [
+   "reisen",
+   "architektur",
+   "rekorde",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "verified": "2026-10-14"
+ },
+ {
+  "id": "ort-18f78f",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "U-Bahn mit Business Class – zum dreifachen Preis",
+  "teaser": "Auf Shenzhens Metrolinie 11 gibt es Business-Wagen zum dreifachen Fahrpreis. Die fahren oft halb leer, während sich nebenan die Pendler quetschen.",
+  "detail": "U-Bahn mit Klassengesellschaft: Auf der Linie 11, die von Gangxia North im Bezirk Futian bis Bitou in Bao'an fährt, gibt es seit dem 30. Juni 2017 Business-Wagen. Laut Shenzhen Daily kostet die Fahrt darin dreimal so viel wie im normalen Wagen.\n\nDas sorgt seit Jahren für Streit. Viele zugewanderte Arbeitskräfte pendeln auf der Linie, im Berufsverkehr müssen manche mehrere Züge abwarten – während die Business-Wagen oft leer bleiben. 2023 flammte die Debatte wieder auf.\n\nIn einer Online-Umfrage war trotzdem mehr als die Hälfte gegen die Abschaffung: praktisch bei viel Gepäck, für Schwangere und Ältere. Die Metro fand einen Kompromiss und öffnete die Business-Wagen (Stand März 2023) von 8 bis 9 und von 18 bis 19 Uhr gratis. Morgens konnte man allerdings nur an zwei Stationen zusteigen. Business Class für alle – wenn man am richtigen Bahnsteig wohnt.",
+  "sources": [
+   {
+    "title": "Metro Line 11 business-class carriages spark controversy",
+    "publisher": "Eye Shenzhen / Shenzhen Daily",
+    "date": "2023-03-15",
+    "url": "https://www.eyeshenzhen.com/content/2023-03/15/content_30120990.htm"
+   }
+  ],
+  "tags": [
+   "bahn",
+   "verkehr",
+   "staedte",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "verified": "2026-10-14"
  }
 ]
