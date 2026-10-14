@@ -28,6 +28,9 @@ POSTS = {
  55: ("vladivals", "reel", "DeHNEfvzPOZ"),
  56: ("amberroselle", "p", "DZC0QBGDJJJ"), 57: ("tomrus", "p", "DSCYX08AvZ6"),
  58: ("viewsfrance", "p", "DeY_lpWjPT9"), 59: ("aunpein.jpg", "p", "DYMjWWjlC2d"), 60: ("zx.ing", "p", "CcnDZIwJf24"),
+ 61: ("wiwa_b", "p", "DPQvDBWDpqZ"), 62: ("hen_uoc_trunghoa", "p", "CeNNAJXJg_a"), 63: ("snapshot_____story", "p", "CzLuAxNhCXl"),
+ 64: ("amazingguizhou", "p", "DQZODOpDYAu"), 65: ("chinadiscover", "p", "DD2GMNvtapF"), 66: ("tourismeguizhou", "p", "DLHh2XzodtQ"),
+ 67: ("amazingguizhou", "p", "DQMWDmggDER"), 68: ("jasmine_pirsch", "p", "DSJ4G3JiAkw"), 69: ("chinadestinations", "p", "DPLvIhaCZ4F"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -45,13 +48,15 @@ SPOTS = [
   [(30, 4), 10, 33], "Stelzenhäuser am Tuo-Fluss, abends beleuchtet."),
  # Guizhou
  ("Xijiang Qianhu Miao Village 西江千户苗寨", 26.4955, 108.1702, False, "Leishan, Guizhou", "Dorf",
-  [2, (21, 5)], "Größtes Miao-Dorf: Holz-Stelzenhäuser am Hang; Aussichtspunkte oberhalb."),
+  [2, (21, 5), (61, 6), (62, 1), 63], "Größtes Miao-Dorf: Holz-Stelzenhäuser am Hang; Aussichtspunkte oberhalb."),
  ("Fenglin Buyi / Wanfenglin 峰林布依 · 万峰林", 25.0170, 104.9211, True, "Xingyi, Guizhou", "Natur",
-  [3], "Pagodendorf am grünen Fluss zwischen Karstkegeln."),
+  [3, 69, (67, 3), (68, 18)], "Pagodendorf am grünen Fluss zwischen Karstkegeln."),
  ("Jilong Castle 吉隆堡", 24.920389, 105.013147, False, "Xingyi, Guizhou", "Architektur",
   [28], "Märchenschloss-Hotel zwischen Karstbergen."),
  ("Fanjingshan 梵净山", 27.9100, 108.6917, False, "Tongren, Guizhou", "Tempel",
-  [26], "Zwei Tempel auf der Felsnadel „Red Clouds Golden Summit“; ca. 9.000 Stufen (Seilbahn bis fast oben)."),
+  [26, (67, 4), (68, 4)], "Zwei Tempel auf der Felsnadel „Red Clouds Golden Summit“; ca. 9.000 Stufen (Seilbahn bis fast oben)."),
+ ("Wujiang Village 乌江寨", 27.4496, 106.8363, True, "Bozhou, Zunyi, Guizhou", "Dorf",
+  [(64, 4), (65, 2), (66, 1)], "Wiederaufgebautes Dorf am Wujiang-Fluss (Wujiang Village International Tourism Resort) im Norden Guizhous: Stelzenhäuser am Wasser, Ruderboote, Trittsteine über den Fluss, Bambusfloß-Tänze. Abends beleuchtete Pagode und Drohnen-/Feuershows („Phoenix“), Platz an der Huilong-Insel. Handwerk (Papier, Batik, Miao-Silber) zum Mitmachen. Pin am Bahnhof 乌江寨 (ungefähr)."),
  # Guangxi
  ("Guilin & Li River 桂林 · 漓江", 25.2780, 110.2911, True, "Guilin, Guangxi", "Natur",
   [4], "Drohnen-Reel „What my drone saw in China“."),
@@ -216,6 +221,7 @@ POP = {
  "Tianmen": (5, "Himmelstor & längste Seilbahn, Top-Attraktion"),
  "Furong": (4, "Wasserfall-Dorf, viral in sozialen Medien"),
  "Fenghuang": (5, "Berühmteste Altstadt Westhunans"),
+ "Wujiang Village": (3, "Neues Resort-Dorf, auf Xiaohongshu beliebt"),
  "Xijiang": (5, "Größtes Miao-Dorf, in allen Guizhou-Guides"),
  "Fenglin": (3, "Bei Fotografen bekannte Karstlandschaft"),
  "Jilong": (3, "Viral gewordenes Schloss-Hotel"),
