@@ -3,9 +3,9 @@
   "id": "ess-e7b4a7",
   "category": "essen",
   "lang": "de",
-  "headline": "Chilis sind scharf, damit Säugetiere sie stehen lassen",
-  "teaser": "Capsaicin schreckt Nager ab, aber nicht Vögel. Die fressen die Schoten ungerührt und scheiden die Samen keimfähig wieder aus.",
-  "detail": "Warum macht sich eine Pflanze überhaupt die Mühe, scharf zu sein? Eine Studie aus der Zeitschrift „Nature“ von 2001 liefert eine elegante Antwort: Die Schärfe ist ein gezielter Türsteher.\n\nForscher beobachteten wilde Chilis im Süden Arizonas per Videokamera. Die kleinen roten Früchte wurden nur von einem Vogel gefressen, der Krummschnabel-Spottdrossel (curve-billed thrasher). Packratten und Kaktusmäuse ließen sie links liegen. Fütterungsversuche mit einer verwandten Chili-Art ohne Schärfe deuteten darauf hin, dass die Schärfe selbst das Abschreckmittel ist.\n\nDer Trick lohnt sich für die Pflanze: Nager zerkauen die Samen, sodass kaum einer mehr keimt. Vögel schlucken die Früchte ganz, fliegen davon und hinterlassen die Samen unbeschädigt und keimbereit an einem neuen Ort. Säugetiere reagieren empfindlich auf den Scharfmacher, Vögel bleiben davon unbeeindruckt.\n\nWer sich also beim nächsten Curry die Tränen aus den Augen wischt: Du bist schlicht nicht die Zielgruppe.",
+  "headline": "Chilis sind scharf – aber nicht für dich gemacht",
+  "teaser": "Die Schärfe ist ein Türsteher: Nager lassen Chilis liegen, Vögel futtern sie ungerührt und scheiden die Samen keimfähig wieder aus.",
+  "detail": "Warum macht sich eine Pflanze überhaupt die Mühe, scharf zu sein? Eine Studie in „Nature“ von 2001 sagt: Die Schärfe ist ein Türsteher mit sehr klarer Gästeliste.\n\nForscher filmten wilde Chilis im Süden Arizonas. Gefressen wurden die kleinen roten Früchte nur von einem Vogel, der Krummschnabel-Spottdrossel. Packratten und Kaktusmäuse ließen sie links liegen. Versuche mit einer verwandten Chili-Art ohne Schärfe deuteten darauf hin, dass genau die Schärfe abschreckt.\n\nFür die Pflanze ist das clever: Nager zerkauen die Samen, danach keimt kaum noch einer. Vögel schlucken die Früchte ganz, fliegen davon und liefern die Samen unbeschädigt an einem neuen Ort ab. Säugetiere reagieren empfindlich auf den Scharfmacher, Vögel bleiben völlig unbeeindruckt.\n\nWer sich also beim nächsten Curry die Tränen abwischt: Du bist schlicht nicht die Zielgruppe.",
   "sources": [
    {
     "title": "For peppers, 'hot' quite literally the spice of life, UF research shows",
@@ -22,15 +22,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "ess-bf8761",
   "category": "essen",
   "lang": "de",
-  "headline": "Ein Zwölfjähriger machte Vanille zum Welterfolg",
-  "teaser": "1841 zeigte der versklavte zwölfjährige Edmond auf Réunion, wie man Vanilleblüten von Hand bestäubt. Die Technik machte die Insel zum größten Vanilleproduzenten der Welt.",
-  "detail": "Vanille ist eine Orchidee aus Mexiko. Dort sorgte eine kleine einheimische Biene dafür, dass aus den Blüten Schoten wurden. Als Kolonialherren die Pflanze in andere Weltgegenden brachten, wuchs und blühte sie zwar, trug aber keine Früchte: Der passende Bestäuber fehlte schlicht.\n\nAuf der Insel Réunion im Indischen Ozean löste 1841 ein Kind das Problem. Edmond, ein zwölfjähriger versklavter Junge auf dem Gut von Ferréol Bellier-Beaumont, hatte herausgefunden, wie man die Blüte von Hand bestäubt. Mit einem kleinen Werkzeug hob er dabei ein trennendes Häutchen in der Blüte an und rieb den Pollen auf die Narbe.\n\nDie Folgen waren gewaltig: Laut National Geographic exportierte Réunion 1841 noch keine Vanille, 1898 waren es rund 200 Tonnen (im Original „tons“). Die Insel überholte damit sogar Mexiko. Bis heute wird Vanille in den Anbaugebieten mühsam Blüte für Blüte von Hand bestäubt.\n\nDer Junge wurde später unter dem Namen Edmond Albius bekannt. Sein Handgriff machte den Vanilleanbau außerhalb Mexikos erst im großen Stil möglich.",
+  "headline": "Ein Zwölfjähriger knackte das Vanille-Rätsel",
+  "teaser": "Außerhalb Mexikos blühte Vanille, trug aber keine Schoten. 1841 zeigte der versklavte zwölfjährige Edmond auf Réunion, wie man die Blüten von Hand bestäubt.",
+  "detail": "Vanille ist eine Orchidee aus Mexiko, und dort erledigte eine kleine einheimische Biene die Bestäubung. Die Kolonialherren nahmen die Pflanze mit in andere Weltgegenden. Sie wuchs, sie blühte – und trug keine Früchte. Der passende Bestäuber war schlicht zu Hause geblieben.\n\nAuf Réunion im Indischen Ozean löste 1841 ein Kind das Problem: Edmond, ein zwölfjähriger versklavter Junge auf dem Gut von Ferréol Bellier-Beaumont. Mit einem kleinen Werkzeug hob er ein trennendes Häutchen in der Blüte an und rieb den Pollen auf die Narbe. Handarbeit statt Biene.\n\nLaut National Geographic exportierte Réunion 1841 noch keine Vanille, 1898 waren es rund 200 Tonnen. Die Insel überholte damit sogar Mexiko.\n\nUnd Edmonds Handgriff ist bis heute Alltag: In den Anbaugebieten wird Vanille Blüte für Blüte von Hand bestäubt. Der Junge wurde später unter dem Namen Edmond Albius bekannt.",
   "sources": [
    {
     "title": "The Little Boy Who Should've Vanished, but Didn't",
@@ -48,15 +49,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "ess-d5d073",
   "category": "essen",
   "lang": "de",
-  "headline": "Glückskekse stammen nicht aus China, sondern aus Japan",
-  "teaser": "Der Glückskeks aus dem China-Restaurant hat japanische Wurzeln: Schon in den 1870er-Jahren verkauften Bäckereien bei Kyoto gefaltete Kekse mit Zettel.",
-  "detail": "Er gehört zum China-Restaurant wie die Frühlingsrolle. Seine Spur führt aber nach Japan, in die Gegend um Kyoto.\n\nDort heißen die Vorläufer „tsujiura senbei“, etwa „Orakel-Cracker“. Sie haben dieselbe gefaltete Form wie die Kekse aus dem Restaurant. Der Zettel steckt aber nicht im hohlen Inneren, sondern ist in den Knick geklemmt. Die japanische Forscherin Yasuko Nakamachi fand solche Kekse in einer alteingesessenen Familienbäckerei nahe einem Shinto-Schrein vor den Toren Kyotos. Außerdem stieß sie auf Bilderbücher von 1878, die einen Lehrling beim Backen dieser Cracker zeigen.\n\nIn die USA kam das Gebäck mit japanischen Einwanderern und ihren Bäckereien. Als die USA im Zweiten Weltkrieg japanischstämmige Amerikaner internierten, mussten viele dieser Betriebe schließen. Chinesisch-amerikanische Hersteller übernahmen die Produktion, und so landete der Keks auf der Rechnung des China-Restaurants.\n\nDie Weisheit im Keks ist also eher eine japanisch-amerikanische als eine chinesische.",
+  "headline": "Der Glückskeks stammt eigentlich aus Japan",
+  "teaser": "Schon in den 1870er-Jahren verkauften Bäckereien bei Kyoto gefaltete Kekse mit Zettel. Ins China-Restaurant kam er erst auf einem Umweg über die USA.",
+  "detail": "Er gehört zum China-Restaurant wie die Frühlingsrolle. Seine Spur führt aber nach Japan, in die Gegend um Kyoto.\n\nDort heißen die Vorläufer „tsujiura senbei“, etwa „Orakel-Cracker“. Gleiche gefaltete Form, nur steckt der Zettel nicht im hohlen Inneren, sondern klemmt im Knick. Die Forscherin Yasuko Nakamachi fand solche Kekse in einer alteingesessenen Familienbäckerei nahe einem Shinto-Schrein vor den Toren Kyotos – und dazu Bilderbücher von 1878, die einen Lehrling beim Backen zeigen.\n\nIn die USA kam das Gebäck mit japanischen Einwanderern und ihren Bäckereien. Als die USA im Zweiten Weltkrieg japanischstämmige Amerikaner internierten, mussten viele dieser Betriebe schließen. Chinesisch-amerikanische Hersteller übernahmen die Produktion.\n\nDie Weisheit im Keks ist also eher japanisch-amerikanisch als chinesisch. Das hätte einem der Zettel ruhig mal verraten können.",
   "sources": [
    {
     "title": "Fortune Cookies Were Invented in Japan, Not China",
@@ -74,6 +76,7 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -81,8 +84,8 @@
   "category": "essen",
   "lang": "de",
   "headline": "Koriander schmeckt nach Seife? Ein Gen mischt mit",
-  "teaser": "Wer Koriander seifig findet, ist nicht wählerisch: Eine Studie mit über 14.000 Menschen fand eine Genvariante nahe Riechrezeptor-Genen, die mit diesem Eindruck zusammenhängt.",
-  "detail": "Für die einen ist Koriander frisch und zitronig, für die anderen schmeckt er wie ein Stück Seife. Forschende der Genetikfirma 23andMe wollten 2012 wissen, ob das an den Genen liegt.\n\nSie verglichen das Erbgut von 14.604 Menschen europäischer Herkunft, die angegeben hatten, ob Koriander für sie seifig schmeckt. Das traf auf rund 14 Prozent zu. Den deutlichsten Treffer fanden sie auf Chromosom 11, mitten in einer Gruppe von Genen für Riechrezeptoren. Ein Kandidat ist der Rezeptor OR6A2, der besonders gut auf Aldehyde anspricht. Genau solche Stoffe prägen den typischen Korianderduft.\n\nDie Häufigkeit unterscheidet sich je nach Herkunft: Unter südasiatischen Teilnehmenden meldeten nur 3,9 Prozent einen Seifengeschmack, bei Europäern insgesamt etwa 13 Prozent.\n\nAber Vorsicht vor dem Schluss „alles Genetik“: Laut den Autoren erklärt die gefundene Variante nur etwa 0,5 Prozent der Unterschiede, und auch die geschätzte Erblichkeit ist niedrig. Andere Faktoren spielen also ebenfalls mit.",
+  "teaser": "Wer Koriander seifig findet, ist nicht einfach mäkelig: Eine Studie mit über 14.000 Menschen fand eine Genvariante nahe Riechrezeptor-Genen, die damit zusammenhängt.",
+  "detail": "Für die einen schmeckt Koriander frisch und zitronig, für die anderen wie ein Stück Seife. Forschende der Genetikfirma 23andMe wollten 2012 wissen, ob das in den Genen liegt.\n\nSie verglichen das Erbgut von 14.604 Menschen europäischer Herkunft. Rund 14 Prozent davon fanden Koriander seifig. Der deutlichste Treffer lag auf Chromosom 11, mitten in einer Gruppe von Genen für Riechrezeptoren. Ein Kandidat ist OR6A2, ein Rezeptor, der besonders gut auf Aldehyde anspricht – genau die Stoffe, die den typischen Korianderduft prägen.\n\nJe nach Herkunft schwankt das: Unter südasiatischen Teilnehmenden meldeten nur 3,9 Prozent Seifengeschmack, bei Europäern insgesamt etwa 13 Prozent.\n\nBevor du jetzt deinem Erbgut die Schuld gibst: Laut den Autoren erklärt die Variante nur etwa 0,5 Prozent der Unterschiede. Die Gene mischen mit, aber sie stehen nicht allein in der Küche.",
   "sources": [
    {
     "title": "A genetic variant near olfactory receptor genes influences cilantro preference",
@@ -99,15 +102,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "ess-ea8f50",
   "category": "essen",
   "lang": "de",
-  "headline": "Pizza Hawaii wurde von einem Griechen in Kanada erfunden",
-  "teaser": "Die Pizza Hawaii hat mit Hawaii wenig zu tun: Der griechischstämmige Koch Sam Panopoulos legte 1962 im kanadischen Chatham erstmals Dosenananas auf Pizza.",
-  "detail": "Kaum ein Belag spaltet Familien so zuverlässig wie Ananas auf Pizza. Erfunden wurde die Kombination weder in Italien noch auf Hawaii, sondern in Ontario, Kanada.\n\nSam Panopoulos wurde in Griechenland geboren und wanderte 1954 nach Kanada aus. Nach eigener Darstellung, die er über die Jahre vielen Medien erzählte, belegte er 1962 im Satellite Restaurant in Chatham erstmals eine Pizza mit Dosenananas. Er wollte einfach ausprobieren, ob die süßen Stücke als Belag taugen. Hawaii kam nur über die Ananas ins Spiel, nicht über ein Rezept von der Insel.\n\nPanopoulos starb im Juni 2017 mit 83 Jahren in London, Ontario. Sein Tod schaffte es weltweit in die Nachrichten, denn seine Erfindung ist bis heute ein Dauerbrenner im Streit um den „richtigen“ Pizzabelag.\n\nEin griechischer Koch, ein kanadisches Restaurant, eine Dose Ananas und ein italienisches Gericht: Globaler kann eine Pizza kaum sein.",
+  "headline": "Pizza Hawaii: erfunden von einem Griechen in Kanada",
+  "teaser": "Mit Hawaii hat sie nur die Ananas zu tun: Der griechischstämmige Koch Sam Panopoulos legte 1962 im kanadischen Chatham erstmals Dosenananas auf Pizza.",
+  "detail": "Kaum ein Belag spaltet Familien so zuverlässig wie Ananas auf Pizza. Erfunden wurde der Streitfall weder in Italien noch auf Hawaii, sondern in Ontario, Kanada.\n\nSam Panopoulos wurde in Griechenland geboren und wanderte 1954 nach Kanada aus. Nach eigener Darstellung, die er über die Jahre vielen Medien erzählte, legte er 1962 im Satellite Restaurant in Chatham Dosenananas auf eine Pizza. Einfach mal ausprobieren, ob die süßen Stücke als Belag taugen. Hawaii kam nur über die Ananas ins Spiel, nicht über ein Rezept von der Insel.\n\nAls Panopoulos im Juni 2017 mit 83 Jahren starb, ging die Nachricht weltweit durch die Medien – so sehr bewegt seine Erfindung bis heute die Gemüter.\n\nEin griechischer Koch, ein kanadisches Restaurant, eine Dose Ananas und ein italienisches Gericht: Globaler wird es auf einem Teller kaum.",
   "sources": [
    {
     "title": "Alleged Inventor of Controversial 'Hawaiian' Pizza Dies in Canada",
@@ -125,15 +129,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "ess-2b4982",
   "category": "essen",
   "lang": "de",
-  "headline": "Die Kartoffel ist sprachlich eine verkleidete Trüffel",
-  "teaser": "Das Wort Kartoffel geht auf italienisch „tartufolo“ zurück, also Trüffel. Aus „Tartuffel“ wurde durch Lautwandel unsere „Kartoffel“.",
-  "detail": "Die Kartoffel kam aus Südamerika nach Europa, ihr deutscher Name aber aus Italien. Dort nannte man die neuen Knollen nach etwas, das man schon kannte: den Trüffel. Die Ähnlichkeit ist ja nicht zu leugnen, beide sind unförmige Knubbel aus der Erde.\n\nDas Etymologische Wörterbuch des Deutschen führt die Formen auf italienisch „tartufolo“ zurück, das zu „tartufo“ (Trüffel) gehört. Im Deutschen tauchen im 17. Jahrhundert Formen wie „Tartuffel“, „Tartoffel“ und in der Schweiz „Cartoffel“ auf. Aus „Tartuffel“ wurde durch Dissimilation die „Kartoffel“: Zwei gleiche Laute direkt hintereinander (t…t) werden unähnlicher gemacht, weil sie sich schwer sprechen lassen.\n\nDie heutige Form „Kartoffel“ ist erst für die zweite Hälfte des 18. Jahrhunderts verzeichnet. Regional hat sich übrigens auch ein ganz anderer Name gehalten: In Bayern, Österreich und der Schweiz sagt man vielerorts „Erdapfel“.\n\nWer also Bratkartoffeln bestellt, isst sprachlich gesehen gebratene Trüffel. Zum Kartoffelpreis.",
+  "headline": "Die Kartoffel ist eine verkleidete Trüffel",
+  "teaser": "Kartoffel kommt von italienisch „tartufolo“, also Trüffel. Aus „Tartuffel“ wurde durch Lautwandel die „Kartoffel“. Bratkartoffeln sind sprachlich gebratene Trüffel.",
+  "detail": "Die Kartoffel kam aus Südamerika nach Europa, ihr deutscher Name aber aus Italien. Dort benannte man die neuen Knollen nach etwas Bekanntem: dem Trüffel. Die Ähnlichkeit ist ja nicht zu leugnen – beides unförmige Knubbel aus der Erde.\n\nLaut dem Etymologischen Wörterbuch des Deutschen geht das Wort auf italienisch „tartufolo“ zurück, das zu „tartufo“ gehört. Im 17. Jahrhundert tauchen bei uns „Tartuffel“, „Tartoffel“ und in der Schweiz „Cartoffel“ auf. Dann schlug die Dissimilation zu: Zwei gleiche Laute direkt hintereinander (t…t) sprechen sich schwer, also wurde einer umgebaut. Heraus kam die „Kartoffel“, verzeichnet erst ab der zweiten Hälfte des 18. Jahrhunderts.\n\nIn Bayern, Österreich und der Schweiz hat sich vielerorts ohnehin ein ganz anderer Name gehalten: „Erdapfel“.\n\nWer also Bratkartoffeln bestellt, isst sprachlich gesehen gebratene Trüffel. Zum Kartoffelpreis.",
   "sources": [
    {
     "title": "Kartoffel – Etymologie (nach Pfeifer, Etymologisches Wörterbuch des Deutschen)",
@@ -150,15 +155,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "ess-afcd56",
   "category": "essen",
   "lang": "de",
-  "headline": "Pumpernickel war zuerst ein Schimpfwort",
-  "teaser": "Bevor Pumpernickel ein Brot war, war es eine Beleidigung: 1628 ist es als Schimpfwort für einen groben Klotz belegt, das Brot heißt erst seit 1654 so.",
-  "detail": "Das dunkle westfälische Schwarzbrot hat einen Namen mit derber Vergangenheit. Laut dem Etymologischen Wörterbuch des Deutschen taucht „Pumpernickel“ zum ersten Mal 1628 auf, und zwar als Schimpfwort für einen ungehobelten, groben Menschen.\n\nDer Name setzt sich aus zwei Teilen zusammen. „Pumper“ steht für einen Furz und gehört zu einem lautmalenden Verb. „Nickel“ ist die Kurzform von Nikolaus, die damals als abfällige Bezeichnung für einen Kerl verwendet wurde. Zusammen ergibt das grob übersetzt: ein „Furzkerl“.\n\nAb 1654 wurde das Wort auf das Brot übertragen, zunächst spöttisch. Der Grund ist ebenso derb: Das Wörterbuch nennt die blähende Wirkung des schweren Roggenbrots.\n\nHeute steht „Pumpernickel“ eher für westfälische Backtradition als für Beleidigungen. Trotzdem: Wer seinem Gegenüber eine Scheibe anbietet, reicht ihm sprachgeschichtlich einen kleinen Furz-Witz.",
+  "headline": "Pumpernickel heißt ungefähr „Furzkerl“",
+  "teaser": "Bevor es ein Brot war, war es ein Schimpfwort: 1628 hieß so ein grober Klotz. Das Brot heißt erst seit 1654 so – wegen seiner blähenden Wirkung.",
+  "detail": "Das dunkle westfälische Schwarzbrot hat eine derbe Vergangenheit. Laut dem Etymologischen Wörterbuch des Deutschen taucht „Pumpernickel“ 1628 erstmals auf – als Schimpfwort für einen ungehobelten, groben Menschen.\n\nDie Bauteile: „Pumper“ steht für einen Furz und gehört zu einem lautmalenden Verb. „Nickel“ ist die Kurzform von Nikolaus und war damals eine abfällige Bezeichnung für einen Kerl. Zusammen also grob: „Furzkerl“.\n\nAb 1654 wanderte das Wort aufs Brot, zunächst spöttisch. Die Begründung ist genauso unfein: Das Wörterbuch nennt die blähende Wirkung des schweren Roggenbrots. Das Brot wurde also nach dem benannt, was es hinterher mit einem anstellt.\n\nHeute steht „Pumpernickel“ eher für westfälische Backtradition als für Beleidigungen. Trotzdem: Wer dir eine Scheibe anbietet, reicht dir sprachgeschichtlich einen kleinen Furz-Witz.",
   "sources": [
    {
     "title": "Pumpernickel – Etymologie (nach Pfeifer, Etymologisches Wörterbuch des Deutschen)",
@@ -174,15 +180,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "ess-bdd66a",
   "category": "essen",
   "lang": "de",
-  "headline": "Der Oberste Gerichtshof der USA erklärte die Tomate zum Gemüse",
-  "teaser": "1893 entschied der Supreme Court: Tomaten sind botanisch zwar Früchte, im Sinne des Zollgesetzes aber Gemüse. Es ging um Geld, nicht um Botanik.",
-  "detail": "Ist die Tomate Obst oder Gemüse? In den USA beschäftigte diese Frage einmal das höchste Gericht des Landes, und zwar aus einem sehr handfesten Grund: Zoll.\n\nDas US-Zollgesetz vom 3. März 1883 belegte importiertes Gemüse mit Abgaben, Obst dagegen nicht. Die Importeursfamilie Nix klagte deshalb gegen den New Yorker Zolleintreiber Edward Hedden und argumentierte, Tomaten seien botanisch Früchte und damit zollfrei.\n\nAm 10. Mai 1893 entschied der Supreme Court im Fall „Nix v. Hedden“ gegen sie. Die Richter räumten ein, dass Tomaten botanisch die Frucht einer Pflanze sind, genau wie Gurken, Kürbisse, Bohnen und Erbsen. Im allgemeinen Sprachgebrauch von Händlern und Kunden seien sie aber Gemüse: Man serviere sie zum Hauptgericht und nicht als Dessert.\n\nMaßgeblich war also, wie Menschen über Essen reden, nicht, was im Biologiebuch steht. Die Tomate blieb damit zollpflichtig, und die Debatte am Küchentisch geht bis heute weiter.",
+  "headline": "Tomate ist Gemüse – per Urteil des Supreme Court",
+  "teaser": "1893 entschied das höchste US-Gericht: Botanisch ist die Tomate eine Frucht, beim Zoll aber Gemüse. Es ging nicht um Biologie, sondern ums Geld.",
+  "detail": "Obst oder Gemüse? In den USA landete diese Küchenfrage einmal beim höchsten Gericht des Landes. Der Grund war sehr handfest: Zoll.\n\nDas US-Zollgesetz vom 3. März 1883 belegte importiertes Gemüse mit Abgaben, Obst nicht. Die Importeursfamilie Nix klagte deshalb gegen den New Yorker Zolleintreiber Edward Hedden: Tomaten seien botanisch Früchte, also bitte zollfrei.\n\nAm 10. Mai 1893 verloren sie „Nix v. Hedden“. Die Richter gaben zu, dass Tomaten botanisch Früchte sind – genau wie Gurken, Kürbisse, Bohnen und Erbsen. Aber Händler und Kunden reden nun mal von Gemüse. Ihr Kriterium: Tomaten serviert man zum Hauptgericht, nicht als Dessert.\n\nDas Biologiebuch verlor also gegen den Speiseplan. Die Tomate blieb zollpflichtig, und am Küchentisch wird bis heute weiter gestritten.",
   "sources": [
    {
     "title": "Nix v. Hedden, 149 U.S. 304 (1893)",
@@ -200,15 +207,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "ess-a3a42b",
   "category": "essen",
   "lang": "de",
-  "headline": "Weiße Schokolade kommt ohne Kakaomasse aus",
-  "teaser": "Nach US-Lebensmittelrecht muss weiße Schokolade mindestens 20 Prozent Kakaobutter enthalten, aber keinerlei fettfreie Kakaobestandteile. Deshalb ist sie weiß.",
-  "detail": "Braune Schokolade bekommt ihre Farbe und ihren herben Geschmack von der fettfreien Kakaomasse, also den gemahlenen Bestandteilen der Kakaobohne ohne das Fett. Weiße Schokolade verzichtet genau darauf.\n\nDas zeigt die US-Lebensmittelnorm für weiße Schokolade (21 CFR § 163.124). Sie schreibt vor: mindestens 20 Prozent Kakaobutter, mindestens 14 Prozent Milchtrockenmasse, davon mindestens 3,5 Prozent Milchfett, und höchstens 55 Prozent Zucker oder andere süßende Kohlenhydrate. Farbstoffe sind verboten. Eine Mindestmenge an fettfreien Kakaobestandteilen verlangt die Norm dagegen nicht.\n\nVom Kakao steckt in weißer Schokolade also vor allem das Fett, die Kakaobutter. Die ist hellgelb bis cremeweiß und schmeckt nur mild. Dazu kommen Milch und reichlich Zucker, fertig ist die süße, helle Tafel.\n\nOb man sie „echte Schokolade“ nennen darf, ist damit vor allem Definitionssache. Rechtlich hat sie in den USA ihre eigene Norm, chemisch fehlt ihr der Teil der Bohne, der dunkle Schokolade bitter macht.",
+  "headline": "Weiße Schokolade: vom Kakao nur das Fett",
+  "teaser": "Nach US-Recht muss weiße Schokolade mindestens 20 Prozent Kakaobutter enthalten – fettfreie Kakaomasse muss dagegen gar nicht rein. Deshalb ist sie weiß.",
+  "detail": "Braune Schokolade verdankt Farbe und herben Geschmack der fettfreien Kakaomasse, also den gemahlenen Teilen der Bohne ohne das Fett. Weiße Schokolade lässt genau die weg.\n\nDie US-Lebensmittelnorm (21 CFR § 163.124) liest sich wie ein Rezept: mindestens 20 Prozent Kakaobutter, mindestens 14 Prozent Milchtrockenmasse, davon mindestens 3,5 Prozent Milchfett, höchstens 55 Prozent Zucker oder andere süßende Kohlenhydrate. Farbstoffe sind verboten. Eine Mindestmenge fettfreier Kakaobestandteile? Steht nicht drin.\n\nVom Kakao bleibt also vor allem das Fett. Kakaobutter ist hellgelb bis cremeweiß und schmeckt mild. Dazu Milch und reichlich Zucker, fertig ist die helle Tafel.\n\nOb das „echte Schokolade“ ist, bleibt Definitionssache. Rechtlich hat sie in den USA ihre eigene Norm – chemisch fehlt ihr genau der Teil der Bohne, der dunkle Schokolade bitter macht.",
   "sources": [
    {
     "title": "21 CFR § 163.124 – White chocolate",
@@ -223,15 +231,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "ess-64d033",
   "category": "essen",
   "lang": "de",
-  "headline": "Orangene Möhren wurden nicht für Wilhelm von Oranien gezüchtet",
-  "teaser": "Mythos aufgelöst: Die Geschichte, holländische Bauern hätten Möhren dem Prinzen von Oranien zu Ehren orange gezüchtet, gilt unter Genetikern als weitgehend widerlegt.",
-  "detail": "Eine beliebte Anekdote geht so: Niederländische Bauern hätten im 17. Jahrhundert die Möhre orange gezüchtet, als Huldigung an Wilhelm von Oranien und das Haus Oranien-Nassau. Klingt gut, stimmt aber so nicht.\n\nEine genetische Studie von 2016 zeigte laut DutchNews, dass es orangefarbene Möhren schon deutlich länger gibt. Die nötigen Mutationen traten demnach bereits zur Zeit des Römischen Reichs auf, lange vor dem 17. Jahrhundert. Vorher und daneben gab es Möhren in vielen Farben: rot, lila, weiß, ja sogar schwarz.\n\nGanz unschuldig sind die Niederländer trotzdem nicht. Dieselbe Forschung bestätigt, dass niederländische Bauern Möhren tatsächlich gezielt auf ihre orange Farbe hin züchteten und die Sorte so groß machten. Nur eben nicht als royale Ehrenbezeugung, und erfunden haben sie die Farbe auch nicht.\n\nDass die orange Möhre heute im Supermarkt fast konkurrenzlos ist, hat also viel mit niederländischer Zuchtarbeit zu tun, mit Königstreue dagegen wenig.",
+  "headline": "Orange Möhren: keine Liebeserklärung an Oranien",
+  "teaser": "Mythos aufgelöst: Dass holländische Bauern Möhren dem Prinzen von Oranien zu Ehren orange züchteten, gilt unter Genetikern als weitgehend widerlegt.",
+  "detail": "Die Anekdote ist einfach zu schön: Niederländische Bauern hätten im 17. Jahrhundert die Möhre orange gezüchtet, als Huldigung an Wilhelm von Oranien und das Haus Oranien-Nassau. Klingt gut, stimmt aber so nicht.\n\nEine genetische Studie von 2016 zeigte laut DutchNews, dass es orange Möhren schon deutlich länger gibt. Die nötigen Mutationen traten demnach bereits zur Zeit des Römischen Reichs auf. Daneben gab es Möhren in Rot, Lila, Weiß und sogar Schwarz – ein ganzer Farbkasten im Beet.\n\nGanz aus dem Schneider sind die Niederländer trotzdem nicht. Dieselbe Forschung bestätigt, dass ihre Bauern Möhren gezielt auf die orange Farbe hin züchteten und die Sorte groß machten. Nur eben nicht aus Königstreue, und erfunden haben sie die Farbe auch nicht.\n\nDie orange Möhre im Supermarkt ist also niederländische Zuchtarbeit. Ein royaler Fanartikel ist sie nicht.",
   "sources": [
    {
     "title": "New research debunks the link between orange carrots and Dutch royalty",
@@ -248,15 +257,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "ess-1caf37",
   "category": "essen",
   "lang": "de",
-  "headline": "Der Caesar Salad kommt aus Mexiko",
-  "teaser": "Der Caesar Salad ist nach dem italienischen Einwanderer Caesar Cardini benannt und stammt aus Tijuana, wo dieser ihn 1924 erfunden haben soll.",
-  "detail": "Mit Julius Caesar hat der berühmte Salat nichts zu tun. Sein Namensgeber ist Caesar Cardini, ein italienischer Einwanderer, der in den 1920er-Jahren im mexikanischen Tijuana ein Restaurant betrieb.\n\nDer Standort war clever gewählt: In den USA herrschte Prohibition, Alkohol war verboten. Viele Kalifornier fuhren deshalb über die Grenze nach Tijuana, um dort zu feiern. Der verbreiteten Überlieferung nach erfand Cardini den Salat am 4. Juli 1924 in seinem Lokal „Caesar's Place“.\n\nDas Original sah anders aus als viele heutige Versionen. Seine Tochter Rosa erzählte 1987 in einem Interview, ihr Vater habe keine Sardellen verwendet. Außerdem habe er nur die zarten inneren Blätter des Römersalats genommen und sie ganz gelassen, damit die Gäste sie mit den Fingern essen konnten.\n\nOb wirklich Caesar den Salat erfand, ist umstritten: Manche nennen seinen Bruder Alex, andere die Mutter des Kochs Livio Santini. Die gängigen Ursprungsgeschichten spielen aber alle in Tijuana.",
+  "headline": "Der Caesar Salad ist mexikanisch, nicht römisch",
+  "teaser": "Mit Julius Caesar hat er nichts zu tun: Benannt ist er nach dem italienischen Einwanderer Caesar Cardini, der ihn 1924 in Tijuana erfunden haben soll.",
+  "detail": "Mit Julius Caesar hat der Salat nichts am Hut. Namensgeber ist Caesar Cardini, ein italienischer Einwanderer, der in den 1920er-Jahren im mexikanischen Tijuana ein Restaurant betrieb.\n\nDie Standortwahl war clever: In den USA herrschte Prohibition, also fuhren viele Kalifornier zum Feiern über die Grenze. Der verbreiteten Überlieferung nach erfand Cardini den Salat am 4. Juli 1924 in seinem Lokal „Caesar's Place“.\n\nDas Original sah anders aus als vieles, was heute so heißt. Seine Tochter Rosa erzählte 1987, ihr Vater habe keine Sardellen verwendet. Er nahm nur die zarten inneren Blätter des Römersalats und ließ sie ganz – die Gäste aßen sie mit den Fingern.\n\nOb wirklich Caesar der Erfinder war, ist umstritten: Manche nennen seinen Bruder Alex, andere die Mutter des Kochs Livio Santini. Einig sind sich die Geschichten nur beim Tatort: Tijuana.",
   "sources": [
    {
     "title": "Caesar salad origins: Iconic dish, invented in Mexico, turns 100",
@@ -273,15 +283,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "ess-430365",
   "category": "essen",
   "lang": "de",
-  "headline": "In der Brezel stecken zwei verschlungene Arme",
-  "teaser": "Das Wort Brezel geht auf lateinisch „bracchium“ zurück, den Arm. Das Gebäck ist nach seiner Form benannt: zwei ineinander verschlungene Arme.",
-  "detail": "Schau dir eine Brezel einmal genau an: ein dicker „Bauch“ und zwei dünne Stränge, die sich in der Mitte überkreuzen. Genau dieses Bild steckt im Namen.\n\nLaut dem Etymologischen Wörterbuch des Deutschen ist das Ausgangswort lateinisch „bracchium“, der Arm. Daraus bildeten sich Verkleinerungsformen, die im Spätlatein ein Gebäck bezeichneten. Gemeint war ein Backwerk, das wie zwei ineinander verschlungene Arme geformt ist.\n\nIns Deutsche kam das Wort sehr früh. Schon im 9. Jahrhundert ist althochdeutsch „brezzita“ belegt, später „brezzila“ und im Mittelhochdeutschen „brēzel“ oder „prēzel“. Die Brezel gehört damit zu den älteren Lehnwörtern aus der Welt des Backens.\n\nDie Form ist also kein Zufall und keine Laune der Bäcker, sondern der eigentliche Namensgeber. Wer beim Bäcker eine Brezel bestellt, verlangt wörtlich genommen ein „Ärmchen-Gebäck“.",
+  "headline": "Die Brezel ist ein Ärmchen-Gebäck",
+  "teaser": "Brezel geht auf lateinisch „bracchium“ zurück, den Arm. Benannt ist sie nach ihrer Form: zwei ineinander verschlungene Arme.",
+  "detail": "Schau dir eine Brezel mal genau an: dicker „Bauch“, zwei dünne Stränge, die sich in der Mitte überkreuzen. Genau dieses Bild steckt im Namen.\n\nLaut dem Etymologischen Wörterbuch des Deutschen ist das Ausgangswort lateinisch „bracchium“, der Arm. Daraus wurden Verkleinerungsformen, die im Spätlatein ein Gebäck bezeichneten – geformt wie zwei ineinander verschlungene Arme.\n\nIns Deutsche kam das Wort sehr früh. Schon im 9. Jahrhundert ist althochdeutsch „brezzita“ belegt, später „brezzila“, im Mittelhochdeutschen dann „brēzel“ oder „prēzel“. Damit gehört die Brezel zu den älteren Lehnwörtern aus der Backstube.\n\nDie Form ist also keine Laune der Bäcker, sondern der eigentliche Namensgeber. Wer beim Bäcker eine Brezel bestellt, verlangt wörtlich genommen ein „Ärmchen-Gebäck“. Verschränkte Arme inklusive.",
   "sources": [
    {
     "title": "Brezel – Etymologie (nach Pfeifer, Etymologisches Wörterbuch des Deutschen)",
@@ -297,6 +308,7 @@
   "era": "mittelalter",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -304,8 +316,8 @@
   "category": "sprache",
   "lang": "de",
   "headline": "Der Maulwurf wirft nicht mit dem Maul",
-  "teaser": "Der älteste Name „mūwerf“ meinte wohl einen „Haufenwerfer“. Später deutete man ihn als „Erdwerfer“ (ahd. „molta“ = Erde) und erst zuletzt aufs Maul um.",
-  "detail": "Das Tier gräbt mit seinen Schaufelhänden, nicht mit dem Mund. Trotzdem heißt es Maulwurf. Schuld ist eine sogenannte Volksetymologie: Menschen deuten ein unverständlich gewordenes Wort so um, dass es wieder „Sinn“ ergibt.\n\nLaut dem Etymologischen Wörterbuch des Deutschen hat der Name gleich mehrfach solche Umdeutungen erlebt. Die älteste Form, althochdeutsch „mūwerf“ (8. Jh.), war wohl ein „Haufenwerfer“, passend zu den Erdhügeln im Garten. Als der erste Teil unverständlich wurde, deutete man ihn nach „molta“ (Staub, Erde) um: So entstand „moltwerf“, der „Erdwerfer“.\n\nSpäter wurde das Wort erneut an etwas Bekanntes angelehnt: das Maul. Das klang vertraut, auch wenn es biologisch Unsinn ist.\n\nDas Prinzip kennt man auch aus anderen Wörtern. Es zeigt, wie hartnäckig Sprecher nach Bedeutung suchen und sie im Zweifel einfach erfinden.",
+  "teaser": "Er gräbt mit den Händen, heißt aber nach dem Maul. Schuld sind mehrere Umdeutungen: vom „Haufenwerfer“ über den „Erdwerfer“ bis zum Maul.",
+  "detail": "Das Tier gräbt mit seinen Schaufelhänden, nicht mit dem Mund. Trotzdem heißt es Maulwurf. Schuld ist die Volksetymologie: Menschen biegen ein unverständlich gewordenes Wort so lange zurecht, bis es wieder „Sinn“ ergibt.\n\nLaut dem Etymologischen Wörterbuch des Deutschen hat der Maulwurf das gleich mehrfach mitgemacht. Die älteste Form, althochdeutsch „mūwerf“ (8. Jh.), meinte wohl einen „Haufenwerfer“ – passend zu den Erdhügeln im Garten. Als den ersten Teil keiner mehr verstand, lehnte man ihn an „molta“ (Staub, Erde) an: „moltwerf“, der „Erdwerfer“.\n\nSpäter wurde noch einmal umgedeutet, diesmal aufs Maul. Klang vertraut, ist biologisch aber Unsinn.\n\nDer Maulwurf zeigt schön, wie hartnäckig Sprecher nach Bedeutung suchen – und sie im Zweifel einfach erfinden. Hauptsache, es klingt nach irgendwas.",
   "sources": [
    {
     "title": "Maulwurf – Etymologie (nach Pfeifer, Etymologisches Wörterbuch des Deutschen)",
@@ -321,15 +333,16 @@
   "era": "mittelalter",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "spr-064e35",
   "category": "sprache",
   "lang": "de",
-  "headline": "Die Hängematte hat weder mit Hängen noch mit Matte zu tun",
-  "teaser": "„Hängematte“ stammt vom Taíno-Wort „hamaca“ aus der Karibik. Deutsche und Niederländer bogen es sich zu „hängen“ und „Matte“ zurecht.",
-  "detail": "Das Wort klingt so deutsch und so logisch: eine Matte, die hängt. Tatsächlich ist es ein Import aus der Karibik, den Europäer sprachlich passend gemacht haben.\n\nDie Taíno, ein Aruak-Volk auf Haiti, nannten ihre Schlafnetze so ähnlich wie „hamaca“. Die Spanier übernahmen das Wort, und von dort aus wanderte es in andere Sprachen: Italienisch „amaca“, Französisch „hamac“.\n\nIm Niederländischen und Deutschen passierte dann etwas Witziges. Weil „hamaca“ nichts bedeutete, formten die Sprecher es so lange um, bis es nach etwas Bekanntem klang. Niederländisch wurde daraus „hangmat“, älter „hangmak“. Im Deutschen ist 1627 erstmals „Hengmatten“ belegt. Das Etymologische Wörterbuch spricht von einer Herkunft aus „volksetymologisch umgestaltetem hamaca“.\n\nDie Umdeutung hat gut funktioniert, denn die Beschreibung passt ja tatsächlich. Nur der Ursprung liegt nicht in einem deutschen Bastelkeller, sondern in der Karibik.",
+  "headline": "Die Hängematte ist gar keine hängende Matte",
+  "teaser": "Das Wort stammt vom Taíno-Wort „hamaca“ aus der Karibik. Niederländer und Deutsche bogen es so lange zurecht, bis es nach „hängen“ und „Matte“ klang.",
+  "detail": "Klingt so deutsch und so logisch: eine Matte, die hängt. Tatsächlich ist das Wort ein Import aus der Karibik, den Europäer sprachlich passend gemacht haben.\n\nDie Taíno, ein Aruak-Volk auf Haiti, nannten ihre Schlafnetze so ähnlich wie „hamaca“. Die Spanier übernahmen das, und von dort wanderte es weiter: Italienisch „amaca“, Französisch „hamac“.\n\nIm Niederländischen und Deutschen wurde es dann lustig. „Hamaca“ bedeutete den Sprechern nichts, also kneteten sie es um, bis es nach etwas Bekanntem klang. Niederländisch wurde „hangmat“ daraus, älter „hangmak“. Im Deutschen ist 1627 erstmals „Hengmatten“ belegt. Das Etymologische Wörterbuch spricht trocken von „volksetymologisch umgestaltetem hamaca“.\n\nDas Schöne: Die Umdeutung beschreibt das Ding sogar korrekt. Nur stammt sie nicht aus einem deutschen Bastelkeller, sondern aus der Karibik.",
   "sources": [
    {
     "title": "Hängematte – Etymologie (nach Pfeifer, Etymologisches Wörterbuch des Deutschen)",
@@ -345,15 +358,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "spr-a548a7",
   "category": "sprache",
   "lang": "de",
-  "headline": "Die Sintflut hat nichts mit Sünde zu tun",
-  "teaser": "„Sint-“ stammt vom germanischen „sin-“ für „immerwährend, gewaltig“. Die „Sündflut“ ist eine spätere Umdeutung, die vor 1500 aufkam.",
-  "detail": "Viele schreiben aus Versehen „Sündflut“, und das ist historisch gar nicht so abwegig. Denn genau so haben Menschen das Wort jahrhundertelang verstanden. Ursprünglich bedeutete es aber etwas anderes.\n\nDas Etymologische Wörterbuch des Deutschen führt den ersten Wortteil auf germanisch „sin-“ zurück. Es bedeutet „in einem, immerwährend, groß“ und gehört zur selben indogermanischen Wurzel wie lateinisch „semper“ für „immer“. Die Sintflut war also eine gewaltige, umfassende Flut.\n\nSchon vor 1500 begann die Umdeutung: Weil „sin-“ nicht mehr verstanden wurde, lehnte man es an „Sünde“ an. Das passte zur biblischen Geschichte, in der die Flut eine Strafe für die Sünden der Menschen ist. Im 16. Jahrhundert schrieb man dann „Sündflut“ oder „Sündfluß“.\n\nErst im 19. Jahrhundert wurde „Sintflut“ wieder üblicher, nachdem die Sprachwissenschaft die eigentliche Herkunft geklärt hatte.",
+  "headline": "Die Sintflut hat mit Sünde nichts zu tun",
+  "teaser": "„Sint-“ kommt von germanisch „sin-“ für „immerwährend, gewaltig“. Die „Sündflut“ ist eine Umdeutung, die schon vor 1500 aufkam.",
+  "detail": "Wer aus Versehen „Sündflut“ schreibt, ist in guter historischer Gesellschaft. Jahrhundertelang haben Menschen das Wort genau so verstanden. Gemeint war ursprünglich aber etwas anderes.\n\nDas Etymologische Wörterbuch des Deutschen führt den ersten Teil auf germanisch „sin-“ zurück: „in einem, immerwährend, groß“. Es gehört zur selben indogermanischen Wurzel wie lateinisch „semper“ für „immer“. Die Sintflut war also einfach eine gewaltige, umfassende Flut.\n\nSchon vor 1500 verstand keiner mehr „sin-“, also lehnte man es an „Sünde“ an. Passte ja prima zur biblischen Geschichte, in der die Flut die Strafe für die Sünden der Menschen ist. Im 16. Jahrhundert schrieb man „Sündflut“ oder „Sündfluß“.\n\nErst im 19. Jahrhundert wurde „Sintflut“ wieder üblicher, nachdem die Sprachwissenschaft aufgeräumt hatte. Die Moral kam also nachträglich ins Wort – das Wasser war schon vorher da.",
   "sources": [
    {
     "title": "Sintflut – Etymologie (nach Pfeifer, Etymologisches Wörterbuch des Deutschen)",
@@ -368,6 +382,7 @@
   "era": "mittelalter",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -391,15 +406,16 @@
   "era": "mittelalter",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "spr-93ca78",
   "category": "sprache",
   "lang": "de",
-  "headline": "„Fisimatenten“ kommt nicht von „Visitez ma tente“",
-  "teaser": "Mythos aufgelöst: Das Wort ist schon 1499 belegt, lange vor Napoleons Soldaten. Die Herkunft ist unklar, vermutlich steckt Kanzleilatein dahinter.",
-  "detail": "Eine beliebte, aber unbelegte Geschichte erzählt, „Fisimatenten“ stamme aus der Zeit der französischen Besatzung um 1800. Französische Soldaten hätten junge Frauen mit „Visitez ma tente“ (Besuchen Sie mein Zelt) eingeladen, und die Mütter hätten ihre Töchter vor solchen „Fisimatenten“ gewarnt.\n\nDas Problem: Das Wort ist viel älter. Laut dem Etymologischen Wörterbuch des Deutschen taucht eine Form mit m, „visimetent“, schon 1499 im Westmitteldeutschen auf, mit der Bedeutung „Ausschmückung, Erfindung“. Im 16. Jahrhundert ist „visepatenten“ für „dummes Zeug, Nichtigkeiten“ bezeugt. Napoleons Truppen kamen also rund drei Jahrhunderte zu spät.\n\nWoher das Wort wirklich stammt, ist nicht abschließend geklärt. Die Lautgestalt deutet auf eine lateinische Vorlage hin. Ein Kandidat ist kanzleisprachliches „visae patentes (litterae)“, ordnungsgemäß geprüfte Urkunden. Der spöttische Sinn könnte aus dem Lästern über umständliche Bürokratie entstanden sein.\n\nAmtsschimmel statt Zeltromantik: weniger charmant, aber besser belegt.",
+  "headline": "Fisimatenten: Die Zelt-Story kommt Jahrhunderte zu spät",
+  "teaser": "Mythos aufgelöst: Mit „Visitez ma tente“ hat das Wort nichts zu tun. Es ist schon 1499 belegt, die Herkunft ist unklar – vermutlich Kanzleilatein.",
+  "detail": "Die Geschichte ist charmant, aber unbelegt: Zur Zeit der französischen Besatzung um 1800 hätten Soldaten junge Frauen mit „Visitez ma tente“ (Besuchen Sie mein Zelt) eingeladen. Die Mütter hätten ihre Töchter dann vor solchen „Fisimatenten“ gewarnt.\n\nDas Problem: Das Wort ist viel älter. Laut dem Etymologischen Wörterbuch des Deutschen taucht „visimetent“ schon 1499 im Westmitteldeutschen auf, mit der Bedeutung „Ausschmückung, Erfindung“. Im 16. Jahrhundert ist „visepatenten“ für „dummes Zeug, Nichtigkeiten“ bezeugt. Napoleons Truppen kamen also rund drei Jahrhunderte zu spät.\n\nWoher es wirklich stammt, ist nicht abschließend geklärt. Die Lautgestalt deutet auf eine lateinische Vorlage. Ein Kandidat ist kanzleisprachliches „visae patentes (litterae)“, ordnungsgemäß geprüfte Urkunden. Der Spott könnte vom Lästern über umständliche Bürokratie kommen.\n\nAmtsschimmel statt Zeltromantik: weniger charmant, aber besser belegt.",
   "sources": [
    {
     "title": "Fisimatenten – Etymologie (nach Pfeifer, Etymologisches Wörterbuch des Deutschen)",
@@ -415,15 +431,16 @@
   "era": "mittelalter",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "spr-c4f201",
   "category": "sprache",
   "lang": "de",
-  "headline": "Wer pleite ist, war ursprünglich auf der Flucht",
-  "teaser": "„Pleite“ kommt über das Jiddische aus dem Hebräischen „pelēṭā“, Flucht und Rettung. Gemeint war die Flucht vor der Schuldhaft.",
-  "detail": "Wer früher seine Schulden nicht bezahlen konnte, dem drohte die Schuldhaft. Eine Möglichkeit, dem Gefängnis zu entgehen: abhauen. Genau diese Situation steckt im Wort „pleite“.\n\nLaut dem Etymologischen Wörterbuch des Deutschen stammt es von jiddisch „plejte“, das „rettende Flucht (vor der Schuldhaft durch Gläubiger)“ bedeutete. Dahinter steht hebräisch „pelēṭā“ für „Flucht, Rettung“. Wer pleite machte, machte sich also aus dem Staub.\n\nIn der Bedeutung „bankrott“ verbreitete sich das Wort ab Mitte des 19. Jahrhunderts, zunächst in der Berliner Gaunersprache. Von dort wurde es zu einem ganz normalen umgangssprachlichen Wort. Der „Pleitegeier“ kam in der zweiten Hälfte des 19. Jahrhunderts dazu.\n\n„Pleite“ ist damit eines von vielen Wörtern, die über das Jiddische und das Rotwelsch, die Sprache der Fahrenden und Gauner, ins Deutsche gelangt sind. Heute geht es dabei meist ums leere Konto, nicht mehr um nächtliche Flucht.",
+  "headline": "Pleite heißt eigentlich: nichts wie weg!",
+  "teaser": "„Pleite“ kommt über das Jiddische vom hebräischen „pelēṭā“, Flucht und Rettung. Gemeint war die Flucht vor der Schuldhaft.",
+  "detail": "Wer früher seine Schulden nicht bezahlen konnte, dem drohte die Schuldhaft. Ein Ausweg: abhauen. Genau das steckt in „pleite“.\n\nLaut dem Etymologischen Wörterbuch des Deutschen stammt es von jiddisch „plejte“, „rettende Flucht (vor der Schuldhaft durch Gläubiger)“. Dahinter steht hebräisch „pelēṭā“ für „Flucht, Rettung“. Wer pleite machte, machte sich also aus dem Staub.\n\nAls „bankrott“ verbreitete sich das Wort ab Mitte des 19. Jahrhunderts, zuerst in der Berliner Gaunersprache, dann ganz normal umgangssprachlich. Der „Pleitegeier“ flog in der zweiten Hälfte des 19. Jahrhunderts dazu.\n\n„Pleite“ ist eines von vielen Wörtern, die über das Jiddische und das Rotwelsch, die Sprache der Fahrenden und Gauner, ins Deutsche kamen. Heute geht es meist ums leere Konto. Die nächtliche Flucht ist zum Glück aus der Mode gekommen.",
   "sources": [
    {
     "title": "pleite – Etymologie (nach Pfeifer, Etymologisches Wörterbuch des Deutschen)",
@@ -439,15 +456,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "spr-76221d",
   "category": "sprache",
   "lang": "de",
-  "headline": "„Kaputt“ stammt vom Kartentisch",
-  "teaser": "„Kaputt“ kommt vom französischen Kartenspiel-Ausdruck „capot“: ohne Stich, schwarz gespielt. Entlehnt wurde es im Dreißigjährigen Krieg.",
-  "detail": "Wenn das Handy kaputt ist, denkt niemand ans Kartenspielen. Doch genau dort liegt der Ursprung des Wortes.\n\nLaut dem Etymologischen Wörterbuch des Deutschen ist französisch „capot“ ein Ausdruck aus dem Kartenspiel und bedeutet „ohne Stich, schwarz“. Wer keinen einzigen Stich machte, war „capot“, also komplett geschlagen. Ins Deutsche kam das Wort im Dreißigjährigen Krieg (1618–1648), einer Zeit, in der Soldaten aus vielen Ländern durch Mitteleuropa zogen und reichlich Wörter mitbrachten. Aus dem Verlierer am Spieltisch wurde nach und nach alles, was erledigt, zerstört oder erschöpft ist.\n\nDas Wörterbuch nennt noch eine weitere, unsicherere Verbindung: zu spätlateinisch „cappa“, einem Kapuzenmantel. Das Bild dahinter wäre jemand, dem die Kapuze über den Kopf gezogen wird und der dadurch handlungsunfähig ist. So oder so: Wer kaputt ist, hat verloren.",
+  "headline": "„Kaputt“ kommt vom Kartentisch",
+  "teaser": "Französisch „capot“ hieß beim Kartenspiel: ohne Stich, schwarz gespielt. Im Dreißigjährigen Krieg wanderte das Wort ins Deutsche – heute ist damit alles gemeint, was hinüber ist.",
+  "detail": "Wenn das Handy kaputt ist, denkt niemand ans Kartenspielen. Dabei liegt genau dort der Ursprung.\n\nLaut dem Etymologischen Wörterbuch des Deutschen ist französisch „capot“ ein Kartenspiel-Ausdruck für „ohne Stich, schwarz“. Wer keinen einzigen Stich machte, war „capot“ – komplett geschlagen.\n\nIns Deutsche kam das Wort im Dreißigjährigen Krieg (1618–1648), als Soldaten aus vielen Ländern durch Mitteleuropa zogen und reichlich Wörter im Gepäck hatten. Aus dem Verlierer am Spieltisch wurde nach und nach alles, was erledigt, zerstört oder erschöpft ist.\n\nDas Wörterbuch nennt noch eine unsicherere Spur: spätlateinisch „cappa“, ein Kapuzenmantel. Das Bild wäre jemand, dem die Kapuze über den Kopf gezogen wird und der dadurch handlungsunfähig ist.\n\nSo oder so: Wer kaputt ist, hat verloren. Das Handy also auch.",
   "sources": [
    {
     "title": "kaputt – Etymologie (nach Pfeifer, Etymologisches Wörterbuch des Deutschen)",
@@ -463,6 +481,7 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -470,8 +489,8 @@
   "category": "sprache",
   "lang": "de",
   "headline": "Im Schmetterling steckt Sahne",
-  "teaser": "Der Schmetterling ist nach „Schmetten“ benannt, einem Wort für Rahm. Dahinter steckt der Volksglaube, Hexen würden als Falter Milch und Sahne stehlen.",
-  "detail": "Das deutsche Wort für die bunten Falter klingt eher nach „schmettern“. Tatsächlich hat es mit Milchprodukten zu tun.\n\nLaut dem Etymologischen Wörterbuch des Deutschen ist „Schmetterling“ offensichtlich zu „Schmetten“ gebildet (wohl über eine Form „Schmettenling“), einem Wort für Sahne und Rahm. „Schmetten“ wurde im 17. Jahrhundert aus dem Tschechischen übernommen. Hinter dem Namen steckt ein Volksglaube: Hexen würden in Gestalt von Schmetterlingen umherfliegen und Milch und Rahm stehlen.\n\nDazu passen alte Regionalnamen für den Falter wie „Buttervogel“ oder „Milchdieb“. Auch im Englischen fliegt bekanntlich ein „butterfly“, ein Butterflieger, herum.\n\nDie Form „Schmetterlinck“ ist um 1500 in Leipzig belegt. In die allgemeine Literatursprache gelangte das Wort erst um die Mitte des 18. Jahrhunderts.\n\nDer harmlose Gartenbesucher stand also einst unter dem Verdacht, ein Sahnedieb im Dienst der Hexen zu sein.",
+  "teaser": "Der Schmetterling ist nach „Schmetten“ benannt, einem Wort für Rahm. Dahinter steckt der Volksglaube, Hexen würden als Falter Milch und Sahne klauen.",
+  "detail": "Das Wort klingt nach „schmettern“, hat aber mit Milchprodukten zu tun.\n\nLaut dem Etymologischen Wörterbuch des Deutschen ist „Schmetterling“ offensichtlich zu „Schmetten“ gebildet, wohl über eine Form „Schmettenling“. „Schmetten“ heißt Sahne oder Rahm und wurde im 17. Jahrhundert aus dem Tschechischen übernommen. Dahinter steckt ein Volksglaube: Hexen flögen in Gestalt von Schmetterlingen umher und stählen Milch und Rahm.\n\nDazu passen alte Regionalnamen wie „Buttervogel“ oder „Milchdieb“. Und im Englischen flattert bekanntlich ein „butterfly“ herum.\n\nDie Form „Schmetterlinck“ ist um 1500 in Leipzig belegt, in die allgemeine Literatursprache kam das Wort erst um die Mitte des 18. Jahrhunderts.\n\nDer harmlose Gartenbesucher stand also einst unter Verdacht, im Auftrag der Hexen die Sahne zu klauen. Ein Milchdieb mit Flügeln.",
   "sources": [
    {
     "title": "Schmetterling – Etymologie (nach Pfeifer, Etymologisches Wörterbuch des Deutschen)",
@@ -487,15 +506,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "spr-80e072",
   "category": "sprache",
   "lang": "de",
-  "headline": "Das große ß ist erst seit 2017 offiziell erlaubt",
-  "teaser": "Erst am 29. Juni 2017 nahm der Rat für deutsche Rechtschreibung den Großbuchstaben ẞ ins amtliche Regelwerk auf. „STRASSE“ bleibt aber weiterhin korrekt.",
-  "detail": "Das ß war lange der einzige deutsche Buchstabe ohne offiziellen großen Bruder. Wer in Großbuchstaben schrieb, musste aus „Straße“ eben „STRASSE“ machen.\n\nDas änderte sich am 29. Juni 2017. Der Rat für deutsche Rechtschreibung gab bekannt, dass die staatlichen Stellen in Deutschland, Österreich, der Schweiz, Liechtenstein, Südtirol und der Deutschsprachigen Gemeinschaft Belgiens einer Aktualisierung des Regelwerks zugestimmt haben. Seitdem ist der Großbuchstabe ẞ neben „SS“ erlaubt. Beides ist korrekt, man hat die Wahl.\n\nEin wichtiger Grund war ganz praktisch: Eigennamen in Pässen und Ausweisen stehen oft in Großbuchstaben. Familie Strauß und Familie Strauss sind in Versalien sonst nicht zu unterscheiden.\n\nIm selben Zug wurden übrigens noch andere Regeln angepasst, etwa die Großschreibung in Fällen wie „die Goldene Hochzeit“. Der Rat betonte, die Änderungen nähmen Entwicklungen aus dem beobachteten Sprachgebrauch auf. Die Regeln folgen also dem Schreiben, nicht umgekehrt.",
+  "headline": "Das große ß gibt's offiziell erst seit 2017",
+  "teaser": "Am 29. Juni 2017 nahm der Rat für deutsche Rechtschreibung das große ẞ ins amtliche Regelwerk auf. „STRASSE“ bleibt trotzdem korrekt.",
+  "detail": "Das ß war lange der einzige deutsche Buchstabe ohne offiziellen großen Bruder. Wer in Großbuchstaben schrieb, machte aus „Straße“ eben „STRASSE“.\n\nAm 29. Juni 2017 war damit Schluss. Der Rat für deutsche Rechtschreibung gab bekannt, dass die staatlichen Stellen in Deutschland, Österreich, der Schweiz, Liechtenstein, Südtirol und der Deutschsprachigen Gemeinschaft Belgiens zugestimmt hatten. Seitdem ist ẞ neben „SS“ erlaubt. Man hat die Wahl.\n\nEin wichtiger Grund war ganz praktisch: Eigennamen in Pässen und Ausweisen stehen oft in Großbuchstaben. Und in Versalien sind Familie Strauß und Familie Strauss sonst nicht auseinanderzuhalten.\n\nDer Rat betonte, die Änderungen nähmen Entwicklungen aus dem beobachteten Sprachgebrauch auf. Die Regeln folgen also dem Schreiben, nicht umgekehrt. Das Regelwerk hat beim großen ẞ quasi nur nachträglich unterschrieben.",
   "sources": [
    {
     "title": "Pressemitteilung: Aktualisierung des amtlichen Regelwerks der deutschen Rechtschreibung",
@@ -512,15 +532,16 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "spr-898683",
   "category": "sprache",
   "lang": "de",
-  "headline": "„Gift“ bedeutete im Deutschen einmal „Geschenk“",
-  "teaser": "Englisch „gift“ heißt Geschenk, und das galt früher auch im Deutschen: „Gift“ kommt von „geben“. In der „Mitgift“ lebt die alte Bedeutung weiter.",
-  "detail": "„Gift“ ist ein Klassiker unter den falschen Freunden: Wer einem Briten „a gift“ verspricht, meint ein Geschenk, kein Arsen. Doch der Abstand zwischen beiden Sprachen ist kleiner, als er scheint.\n\nLaut dem Etymologischen Wörterbuch des Deutschen ist „Gift“ eine alte germanische Ableitung vom Verb „geben“. Die ursprüngliche Bedeutung war „Gabe, Geschenk, Schenkung“. Erhalten hat sie sich in der „Mitgift“, also dem, was der Braut mitgegeben wurde.\n\nDie Wende zur „tödlichen Gabe“ ist schon im Althochdeutschen beim Mönch Notker belegt, zunächst als beschönigende Umschreibung. Später wirkte das griechisch-lateinische „dosis“ mit, das ebenfalls „Gabe“ bedeutete, aber auch eine Menge Arznei.\n\nSpannend ist das Geschlecht: Zunächst war „Gift“ in beiden Bedeutungen weiblich. Als schädlicher Stoff wurde es Anfang des 15. Jahrhunderts männlich, Mitte des 16. Jahrhunderts sächlich. Im 18. Jahrhundert setzte sich „das Gift“ durch und verdrängte „die Gift“ als Gabe fast völlig.",
+  "headline": "„Gift“ war im Deutschen mal ein Geschenk",
+  "teaser": "Englisch „gift“ heißt Geschenk – und das galt früher auch bei uns: „Gift“ kommt von „geben“. In der „Mitgift“ lebt die alte Bedeutung weiter.",
+  "detail": "„Gift“ ist der Klassiker unter den falschen Freunden: Wer einem Briten „a gift“ verspricht, meint ein Geschenk, kein Arsen. Der Abstand zwischen beiden Sprachen ist aber kleiner, als er scheint.\n\nLaut dem Etymologischen Wörterbuch des Deutschen ist „Gift“ eine alte germanische Ableitung von „geben“. Ursprünglich hieß es „Gabe, Geschenk, Schenkung“. Überlebt hat das in der „Mitgift“, dem, was der Braut mitgegeben wurde.\n\nDie Wende zur „tödlichen Gabe“ ist schon im Althochdeutschen beim Mönch Notker belegt, zunächst als beschönigende Umschreibung. Später half griechisch-lateinisch „dosis“ nach: ebenfalls „Gabe“, aber auch eine Menge Arznei.\n\nUnd das Wort wechselte mehrfach das Geschlecht: erst weiblich, als Schadstoff Anfang des 15. Jahrhunderts männlich, Mitte des 16. Jahrhunderts sächlich. Im 18. Jahrhundert setzte sich „das Gift“ durch. Ein Geschenk mit Nebenwirkungen, sozusagen.",
   "sources": [
    {
     "title": "Gift – Etymologie (nach Pfeifer, Etymologisches Wörterbuch des Deutschen)",
@@ -536,15 +557,16 @@
   "era": "mittelalter",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "spr-e1f3a6",
   "category": "sprache",
   "lang": "de",
-  "headline": "Ein 63-Buchstaben-Wort wurde einfach abgeschafft",
-  "teaser": "2013 hob Mecklenburg-Vorpommern ein Gesetz auf und mit ihm das Wort „Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz“, 63 Buchstaben lang.",
-  "detail": "Deutsch ist berühmt für seine Wortketten. Ein besonders langes Exemplar ist nicht ausgestorben, weil es niemand mehr sagen wollte, sondern per Parlamentsbeschluss.\n\nDas Wort „Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz“ war der Titel eines Gesetzes in Mecklenburg-Vorpommern. Es regelte, wer die Kennzeichnung von Rindfleisch überwacht, eine Folge der BSE-Krise. Mit 63 Buchstaben wurde es international als „längstes deutsches Wort“ bestaunt.\n\n2013 hob der Landtag das Gesetz auf, nachdem die EU die Pflicht zu BSE-Tests bei gesunden Rindern gelockert hatte. Medien wie UPI meldeten daraufhin das Ende des Wortes.\n\nWichtig: „Längstes Wort“ ist hier mit Vorsicht zu genießen. Deutsch kann Substantive fast beliebig zusammensetzen, ein absoluter Rekord ist daher kaum festzulegen. Im Duden stand das Gesetzeswort nie, weil es zu selten gebraucht wurde. Als längstes Duden-Wort nannte UPI damals „Kraftfahrzeug-Haftpflichtversicherung“.",
+  "headline": "Ein 63-Buchstaben-Wort wurde per Parlament abgeschafft",
+  "teaser": "2013 hob Mecklenburg-Vorpommern ein Gesetz auf – und mit ihm das „Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz“. 63 Buchstaben, einfach weg.",
+  "detail": "Deutsch ist berühmt für seine Wortketten. Ein besonders langes Exemplar starb nicht, weil keiner es mehr sagen wollte, sondern per Parlamentsbeschluss.\n\nDas „Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz“ war ein Gesetz in Mecklenburg-Vorpommern. Es regelte, wer die Kennzeichnung von Rindfleisch überwacht, eine Folge der BSE-Krise. Mit 63 Buchstaben wurde es international als „längstes deutsches Wort“ bestaunt.\n\n2013 hob der Landtag das Gesetz auf, nachdem die EU die Pflicht zu BSE-Tests bei gesunden Rindern gelockert hatte. Medien wie UPI meldeten prompt das Ende des Wortes.\n\nMit dem Titel „längstes Wort“ sollte man trotzdem vorsichtig sein: Deutsch kann Substantive fast beliebig zusammenkleben, einen absoluten Rekord gibt es kaum. Im Duden stand das Gesetzeswort nie, dafür wurde es zu selten gebraucht. Als längstes Duden-Wort nannte UPI damals „Kraftfahrzeug-Haftpflichtversicherung“. Dagegen fast ein Kurzwort.",
   "sources": [
    {
     "title": "Longest word in the German language goes obsolete",
@@ -562,15 +584,16 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "spr-38c282",
   "category": "sprache",
   "lang": "de",
-  "headline": "Koreanische Buchstaben zeichnen die Form von Zunge und Lippen nach",
-  "teaser": "König Sejong ließ 1443 die koreanische Schrift Hangeul schaffen. Ihre Grundkonsonanten bilden die Sprechorgane ab, etwa ㅁ den Mund und ㄱ die Zunge.",
-  "detail": "Die meisten Schriften der Welt sind über Jahrhunderte gewachsen. Die koreanische Schrift Hangeul dagegen wurde gezielt entworfen, und ihr Erfinder ist bekannt.\n\nKönig Sejong der Große, vierter Herrscher der Joseon-Dynastie, verkündete 1443 das „Hunminjeongeum“, wörtlich „die richtigen Laute zur Unterweisung des Volkes“. Bis dahin schrieb man in Korea vor allem mit chinesischen Schriftzeichen, die für einfache Leute schwer zu lernen waren. Die neue Schrift sollte leicht erlernbar und praktisch sein. Sie umfasste ursprünglich 28 Zeichen.\n\nDas Geniale ist der Aufbau: Die fünf Grundkonsonanten zeigen die Stellung der Sprechorgane. ㄱ, ein Laut hinten im Mund, bildet die Zunge ab, die den Rachen blockiert. ㅁ, ein Lippenlaut, zeigt die Form des Mundes. Die drei Grundvokale stehen für Himmel (ㆍ), Erde (ㅡ) und Mensch (ㅣ).\n\nWer Koreanisch liest, sieht also gewissermaßen eine Gebrauchsanweisung für den eigenen Mund.",
+  "headline": "Koreanische Buchstaben zeigen, wie dein Mund aussieht",
+  "teaser": "König Sejong ließ 1443 die Schrift Hangeul schaffen. Ihre Grundkonsonanten bilden die Sprechorgane ab: ㅁ zeigt den Mund, ㄱ die Zunge.",
+  "detail": "Die meisten Schriften sind über Jahrhunderte gewachsen. Hangeul, die koreanische Schrift, wurde dagegen gezielt entworfen – und man kennt sogar ihren Erfinder.\n\nKönig Sejong der Große, vierter Herrscher der Joseon-Dynastie, verkündete 1443 das „Hunminjeongeum“, wörtlich „die richtigen Laute zur Unterweisung des Volkes“. Bis dahin schrieb man in Korea vor allem mit chinesischen Schriftzeichen, für einfache Leute schwer zu lernen. Die neue Schrift sollte leicht erlernbar und praktisch sein und hatte ursprünglich 28 Zeichen.\n\nDer Clou ist der Aufbau: Die fünf Grundkonsonanten zeigen, wie die Sprechorgane stehen. ㄱ, ein Laut hinten im Mund, bildet die Zunge ab, die den Rachen blockiert. ㅁ, ein Lippenlaut, zeigt die Form des Mundes. Die drei Grundvokale stehen für Himmel (ㆍ), Erde (ㅡ) und Mensch (ㅣ).\n\nWer Koreanisch liest, hat also eine kleine Gebrauchsanweisung für den eigenen Mund vor sich.",
   "sources": [
    {
     "title": "The spirit and principles behind Hangeul's creation",
@@ -588,6 +611,7 @@
   "era": "mittelalter",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -1221,15 +1245,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "spo-0245d0",
   "category": "sport",
   "lang": "de",
-  "headline": "Der Olympia-Marathon 1904: Autofahrt, Rattengift und faule Äpfel",
-  "teaser": "Beim Olympia-Marathon 1904 in St. Louis fuhr der erste Zieleinläufer ein Stück im Auto mit, und der spätere Sieger wurde unterwegs mit Strychnin und Eiweiß aufgeputscht.",
-  "detail": "Der Marathon bei den Spielen in St. Louis am 30. August 1904 gilt als einer der chaotischsten Läufe der Sportgeschichte. Es war schwülheiß, um die 32 Grad, und offiziell gab es nur eine einzige Wasserstelle – nach rund 19 Kilometern.\n\nFred Lorz bekam nach etwa neun Meilen Krämpfe und ließ sich von einem Begleitauto mitnehmen. Später stieg er wieder aus, lief weiter und kam als Erster ins Stadion. Als die Autofahrt aufflog, buhte das Publikum.\n\nDer eigentliche Sieger Thomas Hicks wurde von seinen Betreuern unterwegs mit einer Mischung aus Strychnin – in größeren Mengen ein Rattengift – und rohem Eiweiß versorgt, später gab es noch Brandy dazu. Heute würde man das Doping nennen.\n\nUnd der Kubaner Félix Carvajal machte unterwegs eine Pause in einem Obstgarten, aß Äpfel, die sich als verdorben herausstellten, bekam Bauchkrämpfe und legte sich kurz schlafen.",
+  "headline": "Olympia-Marathon 1904: Autofahrt, Rattengift, faule Äpfel",
+  "teaser": "Der erste Zieleinläufer war ein Stück im Auto mitgefahren, der Sieger wurde unterwegs mit Strychnin und Eiweiß aufgeputscht. Willkommen in St. Louis 1904.",
+  "detail": "Der Marathon in St. Louis am 30. August 1904 gilt als einer der chaotischsten Läufe der Sportgeschichte. Schwülheiß, um die 32 Grad, und offiziell nur eine einzige Wasserstelle – nach rund 19 Kilometern.\n\nFred Lorz bekam nach etwa neun Meilen Krämpfe und ließ sich von einem Begleitauto mitnehmen. Später stieg er wieder aus, lief weiter und kam als Erster ins Stadion. Als die Autofahrt aufflog, buhte das Publikum.\n\nDer eigentliche Sieger Thomas Hicks bekam von seinen Betreuern unterwegs eine Mischung aus Strychnin – in größeren Mengen ein Rattengift – und rohem Eiweiß, später noch Brandy obendrauf. Heute hieße das Doping.\n\nUnd der Kubaner Félix Carvajal machte unterwegs Pause in einem Obstgarten, aß Äpfel, die sich als verdorben herausstellten, bekam Bauchkrämpfe und legte sich kurz schlafen. Mitten im olympischen Marathon. Ein Nickerchen.",
   "sources": [
    {
     "title": "How the 1904 Marathon Became One of the Weirdest Olympic Events of All Time",
@@ -1246,15 +1271,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "spo-227118",
   "category": "sport",
   "lang": "de",
-  "headline": "Monopoly war ursprünglich eine Warnung vor Monopolen",
-  "teaser": "Der Vorläufer von Monopoly, das „Landlord’s Game“, wurde 1904 von Lizzie Magie patentiert – um zu zeigen, wie schädlich die Anhäufung von Reichtum auf Kosten anderer ist.",
-  "detail": "Jahrzehntelang hielt sich eine schöne Legende: Ein arbeitsloser Mann namens Charles Darrow habe das Spiel während der Großen Depression erfunden. Die Wahrheit ist ironischer.\n\nLizzie Magie, Stenografin in Washington, erhielt 1904 ein Patent auf das „Landlord’s Game“ – ein quadratisches Spielbrett mit Straßen, Mieten und Gefängnis. Sie wollte damit zeigen, wie schädlich es ist, riesige Vermögen auf Kosten anderer anzuhäufen. Dafür schrieb sie zwei Regelwerke: eine „Monopolisten“-Version, bei der einer alle anderen ruiniert, und eine „Anti-Monopolisten“-Version, bei der alle profitieren.\n\nDas Spiel verbreitete sich über Jahre in Freundeskreisen, wurde weiterentwickelt und landete schließlich als Monopoly bei Parker Brothers. Magie verkaufte ihr Patent 1935 für 500 Dollar an den Verlag. Ausgerechnet die Variante, die zeigen sollte, wie unfair Monopole sind, wurde zum Klassiker des Abzockens.",
+  "headline": "Monopoly sollte eigentlich vor Monopolen warnen",
+  "teaser": "Lizzie Magie patentierte 1904 das „Landlord’s Game“, um zu zeigen, wie schädlich Reichtum auf Kosten anderer ist. Daraus wurde ausgerechnet der Klassiker des Abzockens.",
+  "detail": "Jahrzehntelang hielt sich eine schöne Legende: Ein arbeitsloser Mann namens Charles Darrow habe das Spiel während der Großen Depression erfunden. Die Wahrheit ist ironischer.\n\nLizzie Magie, Stenografin in Washington, bekam 1904 ein Patent auf das „Landlord’s Game“: quadratisches Brett, Straßen, Mieten, Gefängnis. Ihre Botschaft: Riesige Vermögen auf Kosten anderer anzuhäufen ist schädlich. Dafür schrieb sie zwei Regelwerke – eine „Monopolisten“-Version, bei der einer alle anderen ruiniert, und eine „Anti-Monopolisten“-Version, bei der alle profitieren.\n\nDas Spiel wanderte über Jahre durch Freundeskreise, wurde weiterentwickelt und landete schließlich als Monopoly bei Parker Brothers. Magie verkaufte ihr Patent 1935 für 500 Dollar an den Verlag.\n\nAusgerechnet das Spiel, das zeigen sollte, wie unfair Monopole sind, wurde zum Klassiker des Abzockens. Familienkrach inklusive.",
   "sources": [
    {
     "title": "Monopoly Was Designed to Teach the 99% About Income Inequality",
@@ -1271,6 +1297,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
@@ -1296,15 +1323,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "spo-4053da",
   "category": "sport",
   "lang": "de",
-  "headline": "Basketball begann mit zwei Pfirsichkörben am Balkongeländer",
-  "teaser": "Beim ersten Basketballspiel am 21. Dezember 1891 in Springfield nagelte Erfinder James Naismith zwei Pfirsichkörbe an ein Geländer – drei Meter über dem Boden.",
-  "detail": "Der Sportlehrer James Naismith sollte an der YMCA-Schule in Springfield, Massachusetts, ein Spiel erfinden, das Studenten im Winter drinnen beschäftigt. Er schrieb 13 Regeln auf, hängte sie ans Schwarze Brett und brauchte nur noch Tore.\n\nDie bestanden aus zwei Pfirsichkörben, die er an beiden Enden der Halle an das untere Geländer der Galerie nagelte – zehn Fuß hoch, also gut drei Meter. Genau diese Höhe gilt bis heute. Gespielt wurde mit einem Fußball, den Naismith zum Start zwischen zwei Spielern hochwarf.\n\nDie Körbe hatten anfangs noch einen Boden. Nach jedem Treffer musste der Ball also wieder herausgeholt werden. Die erste der 13 Regeln lautete: Der Ball darf mit einer oder beiden Händen in jede Richtung geworfen werden. Aus dem improvisierten Hallenspiel wurde eine der meistgespielten Sportarten der Welt.",
+  "headline": "Basketball begann mit zwei Pfirsichkörben",
+  "teaser": "Beim ersten Spiel am 21. Dezember 1891 in Springfield hingen zwei Pfirsichkörbe am Geländer, gut drei Meter hoch. Die hatten noch einen Boden.",
+  "detail": "Sportlehrer James Naismith sollte an der YMCA-Schule in Springfield, Massachusetts, ein Spiel erfinden, das Studenten im Winter drinnen beschäftigt. Er schrieb 13 Regeln auf, hängte sie ans Schwarze Brett und brauchte nur noch Tore.\n\nDie Lösung: zwei Pfirsichkörbe, an beiden Enden der Halle ans untere Geländer der Galerie genagelt – zehn Fuß hoch, gut drei Meter. Genau diese Höhe gilt bis heute. Gespielt wurde mit einem Fußball, den Naismith zum Start zwischen zwei Spielern hochwarf.\n\nDer Haken an der Sache: Die Körbe hatten anfangs noch einen Boden. Nach jedem Treffer musste der Ball also wieder herausgeholt werden.\n\nDie erste der 13 Regeln lautete: Der Ball darf mit einer oder beiden Händen in jede Richtung geworfen werden. Aus diesem improvisierten Hallenspiel wurde eine der meistgespielten Sportarten der Welt. Angefangen hat alles mit Obstkörben.",
   "sources": [
    {
     "title": "First Game of Basketball Played in Springfield",
@@ -1320,15 +1348,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "spo-b55558",
   "category": "sport",
   "lang": "de",
-  "headline": "Ein Astronaut spielte Golf auf dem Mond",
-  "teaser": "Alan Shepard schlug im Februar 1971 während Apollo 14 zwei Golfbälle auf dem Mond – mit einem selbst gebastelten Sechser-Eisen.",
-  "detail": "Alan Shepard war 1961 der erste Amerikaner im All. Zehn Jahre später stand er als Kommandant von Apollo 14 auf dem Mond – und hatte etwas Ungewöhnliches im Gepäck.\n\nIn einer Tasche seines Raumanzugs hatte er den Kopf eines Wilson-Sechser-Eisens dabei. Den befestigte er auf dem Mond am Stiel eines Werkzeugs, das eigentlich zum Einsammeln von Gesteinsproben gedacht war. Mit dicken Handschuhen und steifem Anzug konnte er nur einhändig schlagen.\n\nShepard scherzte live, der Ball fliege „Meilen und Meilen“ – bei einem Sechstel der Erdschwerkraft klang das zumindest plausibel. Die beiden Bälle sind auf dem Mond geblieben.\n\nDen echten Schlägerkopf stiftete Shepard dem US-Golfverband, eine Nachbildung schenkte er dem National Air and Space Museum der Smithsonian Institution, wo sie seit 1975 zur Sammlung gehört.",
+  "headline": "Alan Shepard spielte Golf auf dem Mond",
+  "teaser": "Im Februar 1971 schlug Alan Shepard während Apollo 14 zwei Golfbälle auf dem Mond – mit einem selbst gebastelten Sechser-Eisen. Die Bälle liegen noch dort.",
+  "detail": "Alan Shepard war 1961 der erste Amerikaner im All. Zehn Jahre später stand er als Kommandant von Apollo 14 auf dem Mond – mit etwas sehr Ungewöhnlichem im Gepäck.\n\nIn einer Tasche seines Raumanzugs steckte der Kopf eines Wilson-Sechser-Eisens. Den befestigte er auf dem Mond am Stiel eines Werkzeugs, das eigentlich zum Einsammeln von Gesteinsproben gedacht war. Mit dicken Handschuhen und steifem Anzug ging nur ein einhändiger Schlag.\n\nShepard scherzte live, der Ball fliege „Meilen und Meilen“. Bei einem Sechstel der Erdschwerkraft klang das zumindest plausibel. Die beiden Bälle sind auf dem Mond geblieben. Wer sie zurückholen will, braucht eine Rakete.\n\nDen echten Schlägerkopf stiftete Shepard dem US-Golfverband, eine Nachbildung schenkte er dem National Air and Space Museum der Smithsonian Institution, wo sie seit 1975 zur Sammlung gehört.",
   "sources": [
    {
     "title": "Head, Golf Club, Apollo 14, Replica",
@@ -1344,6 +1373,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
@@ -1351,8 +1381,8 @@
   "category": "sport",
   "lang": "de",
   "headline": "Tauziehen war 20 Jahre lang olympisch",
-  "teaser": "Tauziehen gehörte von 1900 bis 1920 zum olympischen Programm – den letzten Titel 1920 holte ein britisches Team, das zum Teil aus Londoner Polizisten bestand.",
-  "detail": "Was heute nach Kindergeburtstag klingt, war einmal olympische Leichtathletik. Tauziehen stand 1900 in Paris erstmals auf dem Programm und war danach 1904, 1906, 1908 und 1912 dabei.\n\nDie letzte olympische Austragung fand 1920 in Antwerpen statt. Gold holte Großbritannien, und zwar überzeugend: Das Team gewann alle sechs Durchgänge. Einige der Männer waren aktive oder ehemalige Beamte der Londoner Polizei. Polizeiteams gehörten damals zu den stärksten Tauzieh-Mannschaften überhaupt.\n\nDanach verschwand die Disziplin aus dem olympischen Programm, wie viele andere Exoten der frühen Spiele. Als Sport existiert Tauziehen aber weiter: Es gibt einen internationalen Verband und eigene Weltmeisterschaften. Olympisch ist es seit mehr als hundert Jahren nicht mehr – wer heute Gold im Tauziehen will, muss also auf die Weltspiele oder die WM hoffen. Immerhin: Großbritannien darf sich bis in alle Ewigkeit amtierender Olympiasieger nennen, denn niemand kann den Titel mehr verteidigen oder ihm abnehmen.",
+  "teaser": "Von 1900 bis 1920 gehörte Tauziehen zu Olympia. Das letzte Gold holte ein britisches Team, zum Teil Londoner Polizisten – und dabei bleibt es für immer.",
+  "detail": "Was heute nach Kindergeburtstag klingt, war einmal olympische Leichtathletik. Tauziehen stand 1900 in Paris erstmals auf dem Programm, danach 1904, 1906, 1908 und 1912.\n\nZum letzten Mal gezogen wurde 1920 in Antwerpen. Gold ging an Großbritannien, und zwar deutlich: Das Team gewann alle sechs Durchgänge. Einige der Männer waren aktive oder ehemalige Beamte der Londoner Polizei. Polizeiteams gehörten damals zu den stärksten Tauzieh-Mannschaften überhaupt. Mit denen legte man sich besser nicht an.\n\nDanach verschwand die Disziplin, wie viele Exoten der frühen Spiele. Als Sport lebt Tauziehen weiter, mit internationalem Verband und eigenen Weltmeisterschaften.\n\nDas Beste daran: Großbritannien darf sich bis in alle Ewigkeit amtierender Olympiasieger nennen. Niemand kann den Titel mehr verteidigen oder ihm abnehmen. Ein Sieg, an dem keiner mehr ziehen kann.",
   "sources": [
    {
     "title": "Tug-Of-War, Men – 1920 Summer Olympics",
@@ -1367,15 +1397,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "spo-086f7b",
   "category": "sport",
   "lang": "de",
-  "headline": "Nintendo verkaufte fast 90 Jahre lang vor allem Spielkarten",
-  "teaser": "Nintendo wurde 1889 in Kyoto gegründet – als Hersteller von Hanafuda, traditionellen japanischen Spielkarten. Die erste Spielkonsole kam erst 1977.",
-  "detail": "Bevor es Mario, Zelda und Pokémon gab, verkaufte Nintendo fast ein Jahrhundert lang vor allem Spielkarten. Laut der offiziellen Firmengeschichte begann Fusajiro Yamauchi 1889 im Kyotoer Stadtteil Shimogyo-ku mit der Herstellung von Hanafuda. Das sind kleine, bunt bemalte Karten mit Blumen- und Naturmotiven, je eine Serie pro Monat.\n\nDas Kartengeschäft blieb lange das Rückgrat der Firma. 1953 gelang Nintendo als erstem Unternehmen in Japan die Massenproduktion von Plastikkarten, 1959 kamen Karten mit Disney-Figuren dazu.\n\nErst 1977 brachte Nintendo seine ersten Heimkonsolen auf den Markt, die TV Game 15 und TV Game 6. 1983 folgte das Family Computer System, im Westen als NES bekannt. Zwischen Firmengründung und erster Konsole lagen also 88 Jahre – länger, als die meisten Menschen leben. Der Weltkonzern für Videospiele ist im Kern ein Kartenverlag aus dem 19. Jahrhundert.",
+  "headline": "Nintendo war fast 90 Jahre lang ein Kartenverlag",
+  "teaser": "Nintendo startete 1889 in Kyoto mit Hanafuda, traditionellen japanischen Spielkarten. Die erste Spielkonsole kam erst 1977 – 88 Jahre später.",
+  "detail": "Bevor es Mario, Zelda und Pokémon gab, verkaufte Nintendo fast ein Jahrhundert lang vor allem Spielkarten. Laut offizieller Firmengeschichte begann Fusajiro Yamauchi 1889 im Kyotoer Stadtteil Shimogyo-ku mit der Herstellung von Hanafuda: kleine, bunt bemalte Karten mit Blumen- und Naturmotiven, je eine Serie pro Monat.\n\nDas Kartengeschäft blieb lange das Rückgrat der Firma. 1953 schaffte Nintendo als erstes Unternehmen in Japan die Massenproduktion von Plastikkarten, 1959 kamen Karten mit Disney-Figuren dazu.\n\nErst 1977 folgten die ersten Heimkonsolen, TV Game 15 und TV Game 6. 1983 dann das Family Computer System, im Westen als NES bekannt.\n\nZwischen Firmengründung und erster Konsole lagen also 88 Jahre. Der Weltkonzern für Videospiele ist im Kern ein Kartenverlag aus dem 19. Jahrhundert, der irgendwann den Fernseher entdeckt hat.",
   "sources": [
    {
     "title": "Company History",
@@ -1391,15 +1422,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "spo-130975",
   "category": "sport",
   "lang": "de",
-  "headline": "Pac-Man hieß eigentlich Puck-Man",
-  "teaser": "Pac-Man kam 1980 in Japan als „Puck-Man“ heraus – für die USA wurde der Name geändert, weil man fürchtete, Spaßvögel könnten aus dem P ein F kratzen.",
-  "detail": "Der Name des gelben Vielfraßes geht auf das japanische Lautwort „paku“ zurück, das für Mampfen und Schnappen steht. Ursprünglich hieß das Spielhallengerät deshalb „Puck-Man“.\n\nAls das Spiel in die USA kommen sollte, sah man dort ein Problem: Man fürchtete, dass Spaßvögel auf den Automaten aus dem P ein F machen würden. Das, hätte einen sehr unanständigen Namen ergeben. Also wurde aus Puck-Man kurzerhand Pac-Man.\n\nAuch die Form hat eine Ursprungsgeschichte: Designer Toru Iwatani erzählte, er habe sich ein Stück Pizza genommen, und der Rest habe ausgesehen wie ein weit aufgerissener Mund. Pac-Man ist übrigens auch ein frühes Beispiel dafür, wie Spiele für andere Märkte angepasst werden – manchmal reicht dafür ein einziger Buchstabe. Pac-Man wurde zu einem der erfolgreichsten Arcade-Spiele überhaupt und feierte 2020 seinen 40. Geburtstag.",
+  "headline": "Pac-Man hieß zuerst Puck-Man – bis jemand ans F dachte",
+  "teaser": "Pac-Man kam 1980 in Japan als „Puck-Man“ heraus. Für die USA wurde er umbenannt – aus Angst, Spaßvögel könnten aus dem P ein F kratzen.",
+  "detail": "Der Name des gelben Vielfraßes geht auf das japanische Lautwort „paku“ zurück, das für Mampfen und Schnappen steht. Darum hieß das Spielhallengerät ursprünglich „Puck-Man“.\n\nFür die USA sah man ein Problem: Spaßvögel könnten auf den Automaten aus dem P ein F machen. Den Rest kann man sich denken. Also wurde aus Puck-Man kurzerhand Pac-Man. Ein Buchstabe Unterschied, eine Menge Ärger gespart.\n\nAuch die Form hat ihre Geschichte: Designer Toru Iwatani erzählte, er habe sich ein Stück Pizza genommen, und der Rest habe ausgesehen wie ein weit aufgerissener Mund. Pac-Man ist also im Grunde eine angefangene Pizza.\n\nEr wurde zu einem der erfolgreichsten Arcade-Spiele überhaupt und feierte 2020 seinen 40. Geburtstag. Ganz ohne F.",
   "sources": [
    {
     "title": "Gobble gobble: Pac-Man turns 40",
@@ -1416,15 +1448,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "spo-545b0d",
   "category": "sport",
   "lang": "de",
-  "headline": "Der erste Elfmeter durfte von irgendwo auf einer Linie geschossen werden",
-  "teaser": "Der Elfmeter, erdacht vom Iren William McCrum, wurde 1891 eingeführt – einen Elfmeterpunkt gab es aber erst ab 1902; vorher durfte man irgendwo auf einer Linie schießen.",
-  "detail": "Die Idee kam aus dem kleinen Ort Milford in der nordirischen Grafschaft Armagh. William McCrum, Spieler des örtlichen Klubs Milford FC, ärgerte sich darüber, dass Verteidiger kurz vor dem Tor ungestraft foulen konnten, um einen Treffer zu verhindern.\n\nEr gab seinen Vorschlag an Jack Reid vom irischen Fußballverband weiter, der ihn 1890 beim International Football Association Board einbrachte. Kritiker sahen darin einen Angriff auf den Gentleman-Charakter des Spiels: Ein Gentleman foule doch nicht absichtlich. 1891 wurde die Regel dennoch beschlossen.\n\nDie erste Version sah anders aus als heute. Es gab noch keinen Strafraum im heutigen Sinne, sondern eine Linie zwölf Yards vor dem Tor, und geschossen werden durfte von einer beliebigen Stelle auf dieser Linie. Den festen Elfmeterpunkt gibt es erst seit 1902.",
+  "headline": "Der erste Elfmeter hatte keinen Punkt",
+  "teaser": "Der Elfmeter, erdacht vom Iren William McCrum, wurde 1891 eingeführt. Einen Elfmeterpunkt gab es aber erst ab 1902 – vorher schoss man irgendwo von einer Linie.",
+  "detail": "Die Idee kam aus dem kleinen Ort Milford in der nordirischen Grafschaft Armagh. William McCrum, Spieler beim Milford FC, ärgerte sich, dass Verteidiger kurz vor dem Tor ungestraft foulen konnten, um einen Treffer zu verhindern.\n\nEr reichte seinen Vorschlag an Jack Reid vom irischen Fußballverband weiter, der ihn 1890 beim International Football Association Board einbrachte. Kritiker waren empört: ein Angriff auf den Gentleman-Charakter des Spiels! Ein Gentleman foule doch nicht absichtlich. 1891 wurde die Regel trotzdem beschlossen. Auch Gentlemen mussten fortan mit Strafe rechnen.\n\nDie erste Version sah anders aus als heute. Statt eines Strafraums im heutigen Sinne gab es eine Linie zwölf Yards vor dem Tor, und geschossen werden durfte von jeder beliebigen Stelle auf dieser Linie. Freie Platzwahl für den Schützen. Den festen Elfmeterpunkt gibt es erst seit 1902.",
   "sources": [
    {
     "title": "Irish origins of World Cup penalty drama",
@@ -1441,15 +1474,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "spo-6427ec",
   "category": "sport",
   "lang": "de",
-  "headline": "Die letzten Olympia-Goldmedaillen aus echtem Gold gab es 1912",
-  "teaser": "Nur bis zu den Spielen 1912 in Stockholm waren Olympia-Goldmedaillen aus massivem Gold – seitdem sind sie aus Silber mit einer dünnen Goldschicht.",
-  "detail": "Wer heute Olympiasieger wird, beißt bei der Siegerehrung auf eine Medaille, die überwiegend aus Silber besteht. Laut Guinness World Records waren die Spiele von Stockholm 1912 die letzten, bei denen Goldmedaillen aus massivem Gold vergeben wurden. Danach wurden sie aus Silber gegossen und mit etwa sechs Gramm Gold überzogen.\n\nDer Grund ist ganz praktisch: Gold ist teuer, weich und die Zahl der Wettbewerbe und Athleten wuchs stetig. Bei den Spielen 2024 in Paris bestanden die Goldmedaillen laut Guinness zu rund 93 Prozent aus Silber, etwa sechs Prozent Kupfer und gut einem Prozent Gold.\n\nNoch kurioser ist der Anfang: Bei den ersten modernen Spielen 1896 in Athen bekamen die Sieger überhaupt keine Goldmedaille, sondern eine Silbermedaille und einen Olivenkranz. Die Zweitplatzierten erhielten Bronze.",
+  "headline": "Olympia-Gold ist seit 1912 vor allem Silber",
+  "teaser": "Nur bis Stockholm 1912 waren Olympia-Goldmedaillen aus massivem Gold. Seitdem sind sie aus Silber mit einer dünnen Goldschicht.",
+  "detail": "Wer heute Olympiasieger wird, beißt bei der Siegerehrung auf eine Medaille, die überwiegend aus Silber besteht. Laut Guinness World Records waren die Spiele von Stockholm 1912 die letzten mit Goldmedaillen aus massivem Gold. Danach: Silber, überzogen mit etwa sechs Gramm Gold.\n\nDer Grund ist praktisch. Gold ist teuer und weich, und die Zahl der Wettbewerbe und Athleten wuchs stetig. In Paris 2024 bestanden die Goldmedaillen laut Guinness zu rund 93 Prozent aus Silber, etwa sechs Prozent Kupfer und gut einem Prozent Gold. Ehrlicher wäre also „vergoldetes Silber“.\n\nNoch kurioser ist der Anfang: Bei den ersten modernen Spielen 1896 in Athen bekamen die Sieger überhaupt keine Goldmedaille, sondern eine Silbermedaille und einen Olivenkranz. Die Zweitplatzierten erhielten Bronze. Gold war also von Anfang an verhandelbar.",
   "sources": [
    {
     "title": "Last Olympic gold medal",
@@ -1465,15 +1499,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "spo-30cf08",
   "category": "sport",
   "lang": "de",
-  "headline": "Volleyball hieß zuerst „Mintonette“ und war für ältere Herren gedacht",
-  "teaser": "Volleyball wurde 1895 im YMCA von Holyoke unter dem Namen „Mintonette“ erfunden – als schonendere Alternative zu Basketball für ältere Männer.",
-  "detail": "Nur vier Jahre nach dem Basketball entstand ganz in der Nähe, ebenfalls in Massachusetts, der nächste Hallensport. William G. Morgan, ein 25-jähriger Sportlehrer am YMCA in Holyoke, fand Basketball für die älteren Herren in seinen Kursen viel zu anstrengend. Ständiges Rennen, Rempeln und Springen war nicht jedermanns Sache.\n\nAlso entwickelte er ein Spiel, bei dem ein Netz die Mannschaften trennt. Laut der International Volleyball Hall of Fame wurde im Dezember 1895 das erste Spiel mit dem Namen „Mintonette“ ausgetragen.\n\nDer Name hielt sich nicht lange. Weil das Ziel darin bestand, den Ball im Flug hin und her zu schlagen – auf Englisch „to volley“ –, wurde das Spiel in „Volley Ball“ umbenannt. Seit 1964 ist Volleyball olympisch.",
+  "headline": "Volleyball hieß „Mintonette“ und war für ältere Herren",
+  "teaser": "1895 erfand ein Sportlehrer im YMCA von Holyoke die „Mintonette“ – als schonendere Alternative zu Basketball für ältere Männer.",
+  "detail": "Nur vier Jahre nach dem Basketball entstand ganz in der Nähe, ebenfalls in Massachusetts, der nächste Hallensport. William G. Morgan, ein 25-jähriger Sportlehrer am YMCA in Holyoke, fand Basketball für die älteren Herren in seinen Kursen viel zu anstrengend. Ständiges Rennen, Rempeln und Springen – nicht jedermanns Sache.\n\nSeine Lösung: ein Netz, das die Mannschaften trennt. Laut der International Volleyball Hall of Fame wurde im Dezember 1895 das erste Spiel ausgetragen, unter dem Namen „Mintonette“.\n\nDer Name hielt sich nicht lange. Weil es darum ging, den Ball im Flug hin und her zu schlagen – auf Englisch „to volley“ –, wurde daraus „Volley Ball“.\n\nSeit 1964 ist Volleyball olympisch. Ganz schön weit gekommen für eine Schonvariante.",
   "sources": [
    {
     "title": "William G. Morgan",
@@ -1489,15 +1524,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "kur-cfb75d",
   "category": "kurioses",
   "lang": "de",
-  "headline": "Ein Parkranger überlebte sieben Blitzeinschläge",
+  "headline": "Ein Ranger überlebte sieben Blitzeinschläge",
   "teaser": "Roy Sullivan, Ranger im Shenandoah-Nationalpark in Virginia, wurde zwischen 1942 und 1977 siebenmal vom Blitz getroffen – und überlebte jedes Mal.",
-  "detail": "Guinness World Records führt Roy C. Sullivan als den Menschen, der die meisten Blitzeinschläge überlebt hat. Sein Arbeitsplatz machte ihn anfällig: Als Ranger im Shenandoah-Nationalpark war er viel im Freien und in den Bergen unterwegs.\n\nDie Liste liest sich wie ein schlechter Witz. 1942 verlor er einen Zehennagel, 1969 seine Augenbrauen, 1970 wurde seine linke Schulter versengt. 1972 fingen seine Haare Feuer, 1973 traf es die nachgewachsenen Haare gleich noch einmal, zusätzlich die Beine. 1976 erwischte es seinen Knöchel und 1977 erlitt er Verbrennungen an Brust und Bauch.\n\nDie Wahrscheinlichkeit, in einem Jahr vom Blitz getroffen zu werden, ist für die meisten Menschen winzig. Dass Sullivan so oft getroffen wurde, ist trotzdem kein Wunder im wörtlichen Sinne: Viel Zeit draußen bei Gewitter erhöht das Risiko enorm. Seine Spitznamen bekam er trotzdem: „menschlicher Blitzableiter“.",
+  "detail": "Guinness World Records führt Roy C. Sullivan als den Menschen, der die meisten Blitzeinschläge überlebt hat. Sein Job half nicht gerade: Als Ranger im Shenandoah-Nationalpark war er viel im Freien und in den Bergen unterwegs.\n\nDie Schadensliste liest sich wie ein schlechter Witz. Erst ging ein Zehennagel drauf, dann die Augenbrauen, dann wurde die linke Schulter versengt. Seine Haare fingen Feuer – und kaum waren sie nachgewachsen, traf es sie gleich noch einmal, die Beine gleich mit. Später erwischte es den Knöchel, zuletzt Brust und Bauch.\n\nFür die meisten Menschen ist die Wahrscheinlichkeit, in einem Jahr vom Blitz getroffen zu werden, winzig. Ein Wunder im wörtlichen Sinne war Sullivans Serie trotzdem nicht: Viel Zeit draußen bei Gewitter erhöht das Risiko enorm.\n\nSeinen Spitznamen hatte er sich jedenfalls redlich verdient: „menschlicher Blitzableiter“.",
   "sources": [
    {
     "title": "Most lightning strikes survived",
@@ -1514,15 +1550,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "kur-e87929",
   "category": "kurioses",
   "lang": "de",
-  "headline": "Zwei US-Präsidenten starben am selben Tag – ausgerechnet am 4. Juli",
+  "headline": "Adams und Jefferson starben am selben 4. Juli",
   "teaser": "John Adams und Thomas Jefferson starben beide am 4. Juli 1826 – genau 50 Jahre nach der Unabhängigkeitserklärung, an der beide mitgewirkt hatten.",
-  "detail": "Thomas Jefferson hatte die Unabhängigkeitserklärung von 1776 verfasst, John Adams hatte sie im Kongress vorangetrieben. Später wurden sie der zweite und dritte Präsident der USA, erst Verbündete, dann politische Gegner, im Alter wieder Brieffreunde.\n\nAm 4. Juli 1826, dem 50. Jahrestag der Erklärung, starben beide. Jefferson starb gegen ein Uhr mittags auf seinem Landsitz Monticello in Virginia, mitten in den Jubiläumsfeiern. Adams starb einige Stunden später, kurz vor sechs Uhr abends, in Quincy, Massachusetts.\n\nDas Berührende daran: Adams wusste nichts vom Tod seines alten Weggefährten. Seine überlieferten letzten Worte waren „Thomas Jefferson survives“ – Jefferson lebt noch. Sein Sohn John Quincy Adams, damals selbst Präsident, notierte, es sei ein seltsamer und sehr auffälliger Zufall. Die Zeitgenossen deuteten das gemeinsame Sterbedatum vielfach als Zeichen.",
+  "detail": "Thomas Jefferson hatte die Unabhängigkeitserklärung von 1776 verfasst, John Adams hatte sie im Kongress vorangetrieben. Später wurden sie der zweite und dritte Präsident der USA: erst Verbündete, dann politische Gegner, im Alter wieder Brieffreunde.\n\nAm 4. Juli 1826, dem 50. Jahrestag der Erklärung, starben beide. Jefferson gegen ein Uhr mittags auf seinem Landsitz Monticello in Virginia, mitten in den Jubiläumsfeiern. Adams einige Stunden später, kurz vor sechs Uhr abends, in Quincy, Massachusetts.\n\nAdams wusste nichts vom Tod seines alten Weggefährten. Seine überlieferten letzten Worte: „Thomas Jefferson survives“ – Jefferson lebt noch. Sein Sohn John Quincy Adams, damals selbst Präsident, notierte, es sei ein seltsamer und sehr auffälliger Zufall.\n\nDie Zeitgenossen deuteten das gemeinsame Sterbedatum vielfach als Zeichen. Ein Drehbuchautor hätte sich so etwas kaum getraut.",
   "sources": [
    {
     "title": "July 4 In 1826",
@@ -1539,15 +1576,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "kur-9a3e46",
   "category": "kurioses",
   "lang": "de",
-  "headline": "Das längste Laborexperiment der Welt: neun Tropfen in fast 100 Jahren",
-  "teaser": "Seit 1927 tropft an der University of Queensland Pech aus einem Trichter – bis 2014 fielen ganze neun Tropfen, und keiner wurde je live beim Fallen beobachtet.",
-  "detail": "Pech, ein Rückstand aus Teer, fühlt sich bei Raumtemperatur an wie fester Stein. Man kann es sogar mit dem Hammer zerschlagen. Trotzdem ist es eine Flüssigkeit – nur eine sehr, sehr zähe.\n\nDas wollte Thomas Parnell, erster Physikprofessor der University of Queensland in Australien, zeigen. 1927 füllte er erhitztes Pech in einen verschlossenen Glastrichter, ließ es drei Jahre ruhen und schnitt 1930 den Stiel auf. Seitdem tropft es. Laut Universität ist Pech etwa 100 Milliarden Mal zähflüssiger als Wasser.\n\nBis heute sind neun Tropfen gefallen, der letzte im April 2014. Gesehen hat den Moment des Abreißens noch nie jemand: Immer wieder kamen Pannen dazwischen. Der langjährige Betreuer John Mainstone starb 2013, ohne je einen Tropfen fallen zu sehen. Guinness führt das Experiment als das am längsten laufende Laborexperiment der Welt.",
+  "headline": "Neun Tropfen in fast 100 Jahren, keiner sah einen fallen",
+  "teaser": "Seit 1927 tropft an der University of Queensland Pech aus einem Trichter. Bis 2014 fielen neun Tropfen – und niemand hat je einen beim Fallen gesehen.",
+  "detail": "Pech, ein Rückstand aus Teer, fühlt sich bei Raumtemperatur an wie fester Stein. Man kann es sogar mit dem Hammer zerschlagen. Trotzdem ist es eine Flüssigkeit, nur eine sehr, sehr zähe.\n\nDas wollte Thomas Parnell zeigen, erster Physikprofessor der University of Queensland in Australien. 1927 füllte er erhitztes Pech in einen verschlossenen Glastrichter, ließ es drei Jahre ruhen und schnitt 1930 den Stiel auf. Seitdem tropft es. Laut Universität ist Pech etwa 100 Milliarden Mal zähflüssiger als Wasser.\n\nBis heute sind neun Tropfen gefallen, der letzte im April 2014. Den Moment des Abreißens hat noch nie jemand gesehen, immer kam irgendeine Panne dazwischen. Der langjährige Betreuer John Mainstone starb 2013, ohne je einen Tropfen fallen zu sehen.\n\nGuinness führt es als das am längsten laufende Laborexperiment der Welt. Geduld ist hier keine Tugend, sondern Versuchsaufbau.",
   "sources": [
    {
     "title": "Pitch drop experiment",
@@ -1564,15 +1602,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
   "id": "kur-a08809",
   "category": "kurioses",
   "lang": "de",
-  "headline": "In Oxford klingelt eine Batterie-Glocke seit 1840",
-  "teaser": "Die Oxford Electric Bell an der Universität Oxford läutet seit 1840 fast ununterbrochen – angetrieben von Batterien, deren genaue Zusammensetzung niemand kennt.",
-  "detail": "Im Clarendon Laboratory der Universität Oxford steht ein unscheinbares Gerät: zwei kleine Glocken, darüber zwei sogenannte Trockensäulen, eine frühe Form der Batterie. Dazwischen pendelt eine kleine Metallkugel hin und her, wird elektrisch abgestoßen und schlägt dabei abwechselnd an die beiden Glocken.\n\nEin handschriftlicher Zettel vermerkt: „Set up in 1840“. Seitdem soll die Glocke laut Smithsonian Magazine mehr als zehn Milliarden Mal geläutet haben. Zu hören ist davon kaum etwas, das Klingeln ist nur ganz leise.\n\nDas Kuriose: Was genau in den Batterien steckt, weiß niemand sicher. Bekannt ist nur, dass sie außen mit Schwefel versiegelt sind. Aufmachen will man sie nicht, denn das könnte das Experiment ruinieren, das zeigen soll, wie lange die Glocke läutet. Stattdessen warten die Physiker einfach ab, bis die Glocke irgendwann von selbst verstummt.",
+  "headline": "Diese Glocke bimmelt seit 1840 – mit Geheim-Batterie",
+  "teaser": "Die Oxford Electric Bell läutet seit 1840 fast ununterbrochen. Was genau in ihren Batterien steckt, weiß niemand – und aufmachen will sie auch keiner.",
+  "detail": "Im Clarendon Laboratory der Universität Oxford steht ein unscheinbares Gerät: zwei kleine Glocken, darüber zwei sogenannte Trockensäulen, eine frühe Form der Batterie. Dazwischen pendelt eine kleine Metallkugel hin und her, wird elektrisch abgestoßen und schlägt abwechselnd an die beiden Glocken.\n\nEin handschriftlicher Zettel vermerkt: „Set up in 1840“. Seitdem soll die Glocke laut Smithsonian Magazine mehr als zehn Milliarden Mal geläutet haben. Hören kann man davon kaum etwas, das Klingeln ist nur ganz leise. Zum Glück für alle, die nebenan arbeiten.\n\nDas Kuriose: Was genau in den Batterien steckt, weiß niemand sicher. Bekannt ist nur, dass sie außen mit Schwefel versiegelt sind. Aufmachen? Lieber nicht, das könnte das Experiment ruinieren, das ja zeigen soll, wie lange die Glocke läutet.\n\nAlso warten die Physiker einfach ab, bis sie irgendwann von selbst verstummt. Die Glocke lässt sich damit sichtlich Zeit.",
   "sources": [
    {
     "title": "The Mystery of the Continuously Functioning Battery From 1840",
@@ -1590,15 +1629,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "kur-2d3c8d",
   "category": "kurioses",
   "lang": "de",
-  "headline": "„OK“ begann als Rechtschreib-Witz einer Bostoner Zeitung",
-  "teaser": "Das Wort „OK“ tauchte 1839 in der Boston Morning Post auf – als Abkürzung für die absichtliche Falschschreibung „oll korrect“ statt „all correct“.",
-  "detail": "Es ist wohl das erfolgreichste Wort der Welt, und es begann als ziemlich alberner Witz. In den 1830er-Jahren gab es unter amerikanischen Zeitungsleuten eine Mode: Man kürzte Ausdrücke ab und schrieb sie dabei absichtlich falsch.\n\nNach Recherchen des Sprachforschers Allan Metcalf, auf die sich Merriam-Webster beruft, erschien „o.k.“ 1839 in einer scherzhaften Spitze der Boston Morning Post gegen einen Redakteur aus Providence. Gemeint war „oll korrect“, also „alles richtig“.\n\nDie meisten dieser Spaßabkürzungen verschwanden wieder. OK überlebte dank Politik: Im Wahlkampf 1840 gründeten Anhänger von Präsident Martin Van Buren, Spitzname „Old Kinderhook“, sogenannte OK-Clubs. Daraus entstand übrigens die bis heute verbreitete, aber falsche Herkunftsgeschichte, OK stehe für Old Kinderhook.",
+  "headline": "„OK“ begann als Rechtschreib-Witz",
+  "teaser": "1839 tauchte „o.k.“ in der Boston Morning Post auf – als Abkürzung für die absichtlich falsch geschriebene Floskel „oll korrect“ statt „all correct“.",
+  "detail": "Es ist wohl das erfolgreichste Wort der Welt, und es begann als ziemlich alberner Witz. In den 1830er-Jahren hatten amerikanische Zeitungsleute eine Mode: Ausdrücke abkürzen und dabei absichtlich falsch schreiben.\n\nNach Recherchen des Sprachforschers Allan Metcalf, auf die sich Merriam-Webster beruft, erschien „o.k.“ 1839 in einer scherzhaften Spitze der Boston Morning Post gegen einen Redakteur aus Providence. Gemeint war „oll korrect“, also „alles richtig“ – nur eben mit Absicht falsch.\n\nDie meisten dieser Spaßkürzel verschwanden wieder. OK überlebte dank Politik: Im Wahlkampf 1840 gründeten Anhänger von Präsident Martin Van Buren, Spitzname „Old Kinderhook“, sogenannte OK-Clubs.\n\nDaraus entstand die bis heute verbreitete, aber falsche Herkunftsgeschichte, OK stehe für Old Kinderhook. Ein Wort, das „alles richtig“ bedeutet, kommt also mit falscher Schreibung und falscher Legende daher. Passt.",
   "sources": [
    {
     "title": "The Hilarious History of 'OK'",
@@ -1614,15 +1654,16 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "kur-a0976c",
   "category": "kurioses",
   "lang": "de",
-  "headline": "Mythos: Wir nutzen nur zehn Prozent unseres Gehirns",
-  "teaser": "Falsch: Laut Neurologen nutzen wir praktisch jeden Teil des Gehirns, und der größte Teil ist fast ständig aktiv – die Zehn-Prozent-Regel ist ein Mythos.",
-  "detail": "Die Idee klingt verlockend: In unserem Kopf schlummern 90 Prozent ungenutztes Potenzial, das man nur freischalten müsste. Filme und Werbung lieben diese Vorstellung. Der Neurologe Barry Gordon von der Johns Hopkins University nannte sie gegenüber Scientific American dagegen so falsch, dass es fast zum Lachen sei.\n\nEin starkes Gegenargument liefert die Energiebilanz: Das Gehirn macht nur etwa drei Prozent unseres Körpergewichts aus, verbraucht aber rund 20 Prozent der Energie. Ein Organ, das zu 90 Prozent brachliegt, würde die Evolution kaum so teuer bezahlen. Laut Gordon nutzen wir praktisch jeden Teil des Gehirns, und der größte Teil ist fast die ganze Zeit aktiv.\n\nWoher der Mythos stammt, ist nicht eindeutig geklärt. Oft wird er mit einer Aussage des Psychologen William James über ungenutzte geistige Reserven in Verbindung gebracht.",
+  "headline": "Zehn Prozent Gehirn? Fast zum Lachen falsch",
+  "teaser": "Mythos aufgelöst: Laut Neurologen nutzen wir praktisch jeden Teil des Gehirns, und der größte Teil ist fast ständig aktiv.",
+  "detail": "Die Idee ist verlockend: In unserem Kopf schlummern 90 Prozent ungenutztes Potenzial, man müsste es nur freischalten. Filme und Werbung lieben das. Der Neurologe Barry Gordon von der Johns Hopkins University nannte die Vorstellung gegenüber Scientific American dagegen so falsch, dass es fast zum Lachen sei.\n\nEin starkes Gegenargument ist die Energiebilanz: Das Gehirn macht nur etwa drei Prozent unseres Körpergewichts aus, verbraucht aber rund 20 Prozent der Energie. Ein Organ, das zu 90 Prozent brachliegt, würde sich die Evolution kaum so teuer leisten. Laut Gordon nutzen wir praktisch jeden Teil des Gehirns, und der größte Teil ist fast die ganze Zeit aktiv.\n\nWoher der Mythos stammt, ist nicht eindeutig geklärt. Oft wird er mit einer Aussage des Psychologen William James über ungenutzte geistige Reserven in Verbindung gebracht.\n\nDie schlechte Nachricht: Es gibt keinen geheimen Turbo-Modus. Die gute: Du benutzt schon alles.",
   "sources": [
    {
     "title": "Do People Only Use 10 Percent of Their Brains?",
@@ -1638,15 +1679,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "kur-ba9348",
   "category": "kurioses",
   "lang": "de",
-  "headline": "Die älteste Frau der Welt verkaufte Van Gogh Malleinwand",
-  "teaser": "Jeanne Calment wurde 122 Jahre und 164 Tage alt – Rekord. Als junges Mädchen hatte sie in Arles Vincent van Gogh Leinwand verkauft.",
-  "detail": "Jeanne Louise Calment wurde am 21. Februar 1875 in Arles in Südfrankreich geboren und starb dort am 4. August 1997. Mit 122 Jahren und 164 Tagen hält sie laut Guinness World Records das höchste vollständig belegte Alter, das je ein Mensch erreicht hat.\n\nIhr Leben überspannte eine unglaubliche Zeit: vom Zeitalter der Pferdekutschen bis in die Ära von Internet und Handy. Als junges Mädchen half sie im Laden ihres Vaters aus. Dort kaufte ein gewisser Vincent van Gogh Malleinwand, der damals in Arles lebte und malte.\n\nBegeistert war sie nicht: Laut Guinness erinnerte sie sich später, er sei hässlich gewesen, schlecht gelaunt und habe nach Alkohol gerochen. 1990 hatte sie sogar einen Kurzauftritt als sie selbst im Film „Vincent et moi“ – mit über 114 Jahren.",
+  "headline": "Die älteste Frau der Welt fand Van Gogh hässlich",
+  "teaser": "Jeanne Calment wurde 122 Jahre und 164 Tage alt. Als junges Mädchen verkaufte sie in Arles Vincent van Gogh Leinwand – und war wenig angetan.",
+  "detail": "Jeanne Louise Calment wurde am 21. Februar 1875 in Arles in Südfrankreich geboren und starb dort am 4. August 1997. Mit 122 Jahren und 164 Tagen hält sie laut Guinness World Records das höchste vollständig belegte Alter, das je ein Mensch erreicht hat.\n\nIhr Leben reichte von den Pferdekutschen bis in die Ära von Internet und Handy. Als junges Mädchen half sie im Laden ihres Vaters aus. Dort kaufte ein gewisser Vincent van Gogh Malleinwand, der damals in Arles lebte und malte.\n\nBeeindruckt war sie nicht. Laut Guinness erinnerte sie sich später, er sei hässlich gewesen, schlecht gelaunt und habe nach Alkohol gerochen. Kunstkritik der etwas anderen Art.\n\n1990 hatte sie sogar einen Kurzauftritt als sie selbst im Film „Vincent et moi“ – mit über 114 Jahren. Eine Zeitzeugin mit Filmrolle.",
   "sources": [
    {
     "title": "Oldest person (ever)",
@@ -1662,6 +1704,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
@@ -1669,8 +1712,8 @@
   "category": "kurioses",
   "lang": "de",
   "headline": "Der größte Mensch der Geschichte maß 2,72 Meter",
-  "teaser": "Robert Wadlow aus den USA war bei der letzten Messung 1940 genau 2,72 Meter groß – seine Schuhe waren 47 Zentimeter lang.",
-  "detail": "Robert Pershing Wadlow wurde am 22. Februar 1918 in Alton im US-Bundesstaat Illinois geboren und hörte sein Leben lang nicht auf zu wachsen.\n\nBei seiner letzten Messung am 27. Juni 1940 war er laut Guinness World Records 2,72 Meter groß. Seine Schuhe hatten Größe 37AA nach US-Maß und waren 47 Zentimeter lang. Zum Vergleich: Eine normale Herrenschuhgröße 44 ist knapp 28 Zentimeter lang. Er brauchte Spezialanfertigungen für Kleidung, Möbel und sogar Autos.\n\nWadlow wurde nur 22 Jahre alt. Er starb am 15. Juli 1940 – nicht einmal drei Wochen nach jener letzten Messung. Sein Rekord ist seit mehr als 80 Jahren ungebrochen. Um die Zahl greifbar zu machen: Eine normale Zimmertür ist etwa zwei Meter hoch. Wadlow hätte sich also ordentlich bücken müssen, um hindurchzukommen – und mit ausgestrecktem Arm hätte er mühelos die Decke vieler Wohnungen berührt.",
+  "teaser": "Robert Wadlow aus den USA war bei der letzten Messung 1940 genau 2,72 Meter groß. Seine Schuhe waren 47 Zentimeter lang.",
+  "detail": "Robert Pershing Wadlow wurde am 22. Februar 1918 in Alton im US-Bundesstaat Illinois geboren und hörte sein Leben lang nicht auf zu wachsen.\n\nBei seiner letzten Messung am 27. Juni 1940 war er laut Guinness World Records 2,72 Meter groß. Seine Schuhe hatten Größe 37AA nach US-Maß und waren 47 Zentimeter lang. Ein normaler Herrenschuh in Größe 44 kommt auf knapp 28 Zentimeter. Kleidung, Möbel, sogar Autos: alles Spezialanfertigung.\n\nZur Einordnung: Eine normale Zimmertür ist etwa zwei Meter hoch. Wadlow hätte sich also ordentlich bücken müssen, und mit ausgestrecktem Arm hätte er mühelos die Decke vieler Wohnungen berührt.\n\nWadlow wurde nur 22 Jahre alt. Er starb am 15. Juli 1940, nicht einmal drei Wochen nach jener letzten Messung. Sein Rekord ist seit mehr als 80 Jahren ungebrochen.",
   "sources": [
    {
     "title": "Tallest man ever",
@@ -1686,15 +1729,16 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "kur-8e6d66",
   "category": "kurioses",
   "lang": "de",
-  "headline": "Schon bei 23 Leuten teilen sich wahrscheinlich zwei einen Geburtstag",
+  "headline": "Bei 23 Leuten: 50:50 auf einen doppelten Geburtstag",
   "teaser": "In einer zufälligen Gruppe von nur 23 Menschen liegt die Chance, dass zwei am selben Tag Geburtstag haben, bei etwa 50 Prozent.",
-  "detail": "Das Geburtstagsparadox verblüfft fast jeden. Bei 365 möglichen Tagen tippen die meisten intuitiv darauf, dass man weit mehr Leute bräuchte, damit zwei denselben Geburtstag haben. Tatsächlich reichen schon 23 für eine 50:50-Chance.\n\nDer Denkfehler: Wir stellen uns vor, dass jemand mit uns selbst Geburtstag haben muss. Es geht aber um irgendein Paar in der ganzen Gruppe. Und Paare gibt es erstaunlich viele. Bei 23 Personen kann man 253 verschiedene Zweierkombinationen bilden – jeder mit jedem. Jede davon ist eine Chance auf einen Treffer.\n\nMit jeder weiteren Person steigt die Wahrscheinlichkeit schnell an. Bei einer Schulklasse von 30 Kindern liegt sie schon bei rund 70 Prozent. Das lässt sich übrigens leicht selbst ausprobieren: Einfach bei der nächsten Fußballübertragung die Geburtstage beider Mannschaften samt Schiedsrichter vergleichen – das sind genau 23 Menschen.",
+  "detail": "Das Geburtstagsparadox verblüfft fast jeden. Bei 365 möglichen Tagen tippt man intuitiv auf eine viel größere Gruppe. Tatsächlich reichen schon 23 Leute für eine 50:50-Chance.\n\nDer Denkfehler: Wir stellen uns vor, jemand müsse mit uns selbst Geburtstag haben. Es geht aber um irgendein Paar in der ganzen Gruppe. Und Paare gibt es erstaunlich viele: Bei 23 Personen sind es 253 verschiedene Zweierkombinationen, jeder mit jedem. Jede davon ist eine Chance auf einen Treffer.\n\nMit jeder weiteren Person steigt die Wahrscheinlichkeit schnell. Bei einer Schulklasse von 30 Kindern liegt sie schon bei rund 70 Prozent.\n\nZum Ausprobieren: Bei der nächsten Fußballübertragung einfach die Geburtstage beider Mannschaften samt Schiedsrichter vergleichen. Das sind genau 23 Menschen. Endlich ein guter Grund, während des Spiels aufs Handy zu schauen.",
   "sources": [
    {
     "title": "Probability and the Birthday Paradox",
@@ -1710,15 +1754,16 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
   "id": "kur-7ef530",
   "category": "kurioses",
   "lang": "de",
-  "headline": "Warum hat eine Stunde 60 Minuten? Dank der Babylonier",
-  "teaser": "Dass Stunden und Minuten in 60 Teile zerfallen, geht auf das Sechziger-Zahlensystem der Sumerer und Babylonier zurück – 60 lässt sich nämlich wunderbar teilen.",
-  "detail": "Fast überall rechnen wir im Zehnersystem, nur bei der Uhr nicht. Das ist ein Erbe aus Mesopotamien: Die Sumerer entwickelten ein Zahlensystem zur Basis 60, und die Babylonier machten damit ihre astronomischen Berechnungen.\n\nWarum ausgerechnet 60, ist nicht sicher bekannt. Ein guter Grund liegt aber auf der Hand: 60 ist die kleinste Zahl, die sich ohne Rest durch eins, zwei, drei, vier, fünf und sechs teilen lässt – und außerdem durch 10, 12, 15, 20 und 30. Praktisch für Bruchteile.\n\nDie 24 Stunden gehen dagegen vor allem auf die Ägypter zurück, die Tag und Nacht in je zwölf Teile gliederten. Die Unterteilung in „Minuten“ und „Sekunden“ beschrieb der Astronom Ptolemäus um 150 nach Christus für Winkelgrade. Im Alltag tauchten Minuten erst auf, als gegen Ende des 16. Jahrhunderts mechanische Uhren mit Minutenzeiger aufkamen.",
+  "headline": "Deine Uhr tickt noch babylonisch",
+  "teaser": "Dass Stunden und Minuten in 60 Teile zerfallen, verdanken wir dem Sechziger-System der Sumerer und Babylonier. 60 lässt sich nämlich wunderbar teilen.",
+  "detail": "Fast überall rechnen wir im Zehnersystem, nur bei der Uhr nicht. Das ist ein Erbe aus Mesopotamien: Die Sumerer entwickelten ein Zahlensystem zur Basis 60, die Babylonier machten damit ihre astronomischen Berechnungen.\n\nWarum ausgerechnet 60, weiß man nicht sicher. Ein guter Grund liegt aber auf der Hand: 60 ist die kleinste Zahl, die sich ohne Rest durch eins, zwei, drei, vier, fünf und sechs teilen lässt – und obendrein durch 10, 12, 15, 20 und 30. Ein Traum für Bruchrechner.\n\nDie 24 Stunden gehen dagegen vor allem auf die Ägypter zurück, die Tag und Nacht in je zwölf Teile gliederten. „Minuten“ und „Sekunden“ beschrieb der Astronom Ptolemäus um 150 nach Christus, allerdings für Winkelgrade. Im Alltag kamen Minuten erst an, als gegen Ende des 16. Jahrhunderts mechanische Uhren mit Minutenzeiger aufkamen.\n\nJeder Blick auf die Uhr ist also ein kleines bisschen babylonisch.",
   "sources": [
    {
     "title": "Why is a minute divided into 60 seconds, an hour into 60 minutes, yet there are only 24 hours in a day?",
@@ -1735,15 +1780,16 @@
   "era": "antike",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
   "id": "kur-6bb7ef",
   "category": "kurioses",
   "lang": "de",
-  "headline": "Diese Glühbirne in einer Feuerwache leuchtet seit 1901",
-  "teaser": "In der Feuerwache Nr. 6 in Livermore, Kalifornien, brennt seit 1901 dieselbe handgefertigte Glühbirne – laut Guinness die am längsten brennende der Welt.",
-  "detail": "Die „Centennial Light“ in Livermore, Kalifornien, hat inzwischen mehr als 120 Jahre geschafft. Laut Guinness World Records brennt sie seit ihrer Installation im Jahr 1901 in der Feuerwache Nummer 6 der Stadt.\n\nDie Birne wurde von Hand geblasen und leuchtet inzwischen nur noch sehr schwach. Man sollte sich also keine hell erleuchtete Halle vorstellen, eher ein müdes, warmes Glimmen unter der Decke. 2010 lag ihre Leistung bei etwa vier Watt – heller als ein Nachtlicht ist sie damit kaum.\n\nZum Vergleich: Klassische Haushaltsglühbirnen waren meist nach rund tausend Betriebsstunden durch. Die Birne in Livermore hat längst ihr eigenes Jubiläum gefeiert – ihren 100. Geburtstag im Jahr 2001 – und ist damit ein echtes Stück Technikgeschichte, das einfach nicht ausgehen will.",
+  "headline": "Diese Glühbirne brennt seit 1901 – und will nicht ausgehen",
+  "teaser": "In der Feuerwache Nr. 6 in Livermore, Kalifornien, brennt seit 1901 dieselbe handgefertigte Glühbirne. Laut Guinness die am längsten brennende der Welt.",
+  "detail": "Die „Centennial Light“ in Livermore, Kalifornien, hat inzwischen mehr als 120 Jahre geschafft. Laut Guinness World Records brennt sie seit ihrer Installation im Jahr 1901 in der Feuerwache Nummer 6 der Stadt.\n\nDie Birne wurde von Hand geblasen und leuchtet inzwischen nur noch sehr schwach. Keine hell erleuchtete Halle also, eher ein müdes, warmes Glimmen unter der Decke. 2010 lag ihre Leistung bei etwa vier Watt – kaum heller als ein Nachtlicht.\n\nZum Vergleich: Klassische Haushaltsglühbirnen waren meist nach rund tausend Betriebsstunden durch. Die Birne in Livermore hat dagegen 2001 schon ihren 100. Geburtstag gefeiert.\n\nEin Stück Technikgeschichte, das einfach nicht ausgehen will. Ausgerechnet in einer Feuerwache, wo man sich mit Dingen, die nicht ausgehen wollen, eigentlich bestens auskennt.",
   "sources": [
    {
     "title": "Longest-burning light bulb",
@@ -1760,6 +1806,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
