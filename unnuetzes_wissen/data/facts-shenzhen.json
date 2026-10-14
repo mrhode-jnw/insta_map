@@ -4,9 +4,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Vom Dorf mit 30.000 Menschen zur 18-Millionen-Metropole",
-  "teaser": "Ende der 1970er lebten im Gebiet des heutigen Shenzhen weniger als 30.000 Menschen – Ende 2024 waren es knapp 18 Millionen.",
-  "detail": "Wer heute zwischen den Glastürmen von Futian steht, kann sich kaum vorstellen, dass hier vor rund 45 Jahren vor allem Felder und ein paar Dörfer lagen. Laut Guardian zählte das Gebiet weniger als 30.000 Einwohner, verstreut auf kleine Siedlungen.\n\nDann kam der 26. August 1980: Shenzhen wurde Chinas erste Sonderwirtschaftszone. Ausländische Investitionen und Privatfirmen waren plötzlich erlaubt – und aus dem ganzen Land strömten Menschen herbei, um in Fabriken, auf Baustellen und später in Tech-Firmen zu arbeiten.\n\nLaut Guardian hat es nirgends auf der Welt eine Verstädterung in diesem Ausmaß und Tempo gegeben wie im Perlflussdelta. Ende 2024 meldete die Stadtregierung 17,98 Millionen ständige Einwohner. Das ist mindestens rund 600-mal so viel wie zu Beginn des Booms – und ein Großteil davon sind Zugezogene (2016 zählte der Guardian rund neun von elf Millionen Einwohnern als Migranten).\n\nVor Ort: Das Viertel um die Metrostation Laojie (\"Alte Straße\") gehört zu den wenigen Ecken, die schon vor dem Boom existierten.",
+  "headline": "Von 30.000 Dorfleuten auf 18 Millionen in 45 Jahren",
+  "teaser": "Ende der 1970er wohnten im heutigen Shenzhen weniger als 30.000 Menschen. Ende 2024 waren es knapp 18 Millionen – rund 600-mal so viele.",
+  "detail": "Stell dich heute zwischen die Glastürme von Futian und versuch dir vorzustellen, dass hier vor rund 45 Jahren vor allem Felder und ein paar Dörfer lagen. Laut Guardian lebten im ganzen Gebiet weniger als 30.000 Menschen, verteilt auf kleine Siedlungen.\n\nDann der 26. August 1980: Shenzhen wird Chinas erste Sonderwirtschaftszone. Auslandsgeld und Privatfirmen sind plötzlich erlaubt, und aus dem ganzen Land strömen Leute herbei – erst in Fabriken und auf Baustellen, später in Tech-Firmen.\n\nLaut Guardian gab es nirgends sonst eine Verstädterung in diesem Ausmaß und Tempo wie im Perlflussdelta. Ende 2024: 17,98 Millionen ständige Einwohner. Und fast alle sind Zugezogene – 2016 zählte der Guardian rund neun von elf Millionen als Migranten. Einheimischer zu sein ist in Shenzhen also eher die Ausnahme.\n\nVor Ort: Rund um die Metrostation Laojie („Alte Straße“) stehen noch Ecken, die älter sind als der Boom.",
   "sources": [
    {
     "title": "Story of cities #39: Shenzhen – from rural village to the world's largest megalopolis",
@@ -33,6 +33,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -40,9 +41,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "1974 gab es in Shenzhen genau ein funktionierendes Taxi",
-  "teaser": "Ein Zeitzeuge erinnert sich: 1974 hatte Shenzhen nur ein einziges funktionierendes Taxi – seine Familie fuhr deshalb mit „anderthalb Taxis“ zur Grenze.",
-  "detail": "Leo Houng, später Cellist beim Hong Kong Philharmonic, reiste 1974 über Shenzhen nach Hongkong aus. Die Familie wartete zwei Wochen in einer alten Schule, bis ihr Name auf einer Tafel erschien – erst dann durfte sie über die Grenze.\n\nFür die letzte Etappe brauchten sie, so erzählte Houng dem Guardian 2016, \"anderthalb Taxis\": ein echtes Taxi und einen Karren. Denn das einzige funktionierende Taxi des Ortes bot nicht genug Platz für die ganze Familie. Die \"Alte Straße\" (Lao Jie) war damals laut Guardian so ziemlich die einzige Straße weit und breit.\n\nNoch eine Pointe aus seinen Erinnerungen: Es war verboten, Renminbi mit ins Ausland zu nehmen. An der Grenze gab es nur zwei Läden – wer noch ein paar Münzen übrig hatte, kaufte eben Süßigkeiten.\n\nGut 40 Jahre später, Ende 2018, sollten laut Guardian alle rund 22.000 Taxis der Stadt elektrisch fahren. Der Kontrast könnte kaum größer sein.",
+  "headline": "Ein Taxi für ganz Shenzhen – plus Karren",
+  "teaser": "1974 hatte Shenzhen genau ein funktionierendes Taxi. Eine Familie fuhr deshalb mit „anderthalb Taxis“ zur Grenze: einem Taxi und einem Karren.",
+  "detail": "Leo Houng, später Cellist beim Hong Kong Philharmonic, reiste 1974 über Shenzhen nach Hongkong aus. Erst wartete die Familie zwei Wochen in einer alten Schule, bis ihr Name auf einer Tafel stand. Dann ging es zur Grenze – und zwar, wie Houng dem Guardian 2016 erzählte, mit „anderthalb Taxis“.\n\nDie Rechnung ist einfach: Das einzige funktionierende Taxi des Ortes war zu klein für alle. Also kam ein Karren dazu. Die „Alte Straße“ (Lao Jie) war laut Guardian damals so ziemlich die einzige Straße weit und breit.\n\nBonus-Erinnerung: Renminbi durfte man nicht mit ins Ausland nehmen. An der Grenze gab es nur zwei Läden. Wer noch Münzen hatte, kaufte Süßigkeiten.\n\nGut 40 Jahre später, Ende 2018, sollten laut Guardian alle rund 22.000 Taxis der Stadt elektrisch fahren. Für einen Karren ist da kein Platz mehr.",
   "sources": [
    {
     "title": "Story of cities #39: Shenzhen – from rural village to the world's largest megalopolis",
@@ -66,6 +67,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -73,9 +75,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Shenzhens Durchschnittsbürger ist erst 32,5 Jahre alt",
-  "teaser": "Laut der Volkszählung von 2020 waren die Einwohner Shenzhens im Schnitt nur 32,5 Jahre alt – eine Folge der vielen jungen Zuwanderer.",
-  "detail": "Shenzhen bezeichnet sich selbst als junge Einwandererstadt, die Gründer und Kreative aus dem ganzen Land anzieht. Das sieht man in der Statistik – und das, obwohl die Stadt längst riesig ist: Ende 2024 zählte sie 17,98 Millionen ständige Einwohner. Laut der siebten nationalen Volkszählung (2020), auf die sich die Stadtregierung beruft, waren die Einwohner im Schnitt 32,5 Jahre alt.\n\nIm Stadtbild merkt man das: Schon 2016 klagte ein früherer Durchreisender, ein pensionierter Cellist, im Guardian, er könne niemanden nach alten Straßennamen fragen, weil alle so jung seien.\n\nVor Ort: Ein Abendspaziergang im Shenzhen Bay Park zeigt die junge Stadt in Aktion.",
+  "headline": "Shenzhen ist im Schnitt erst 32,5",
+  "teaser": "Laut Volkszählung 2020 waren Shenzhens Einwohner im Schnitt 32,5 Jahre alt – die vielen jungen Zuwanderer drücken den Altersschnitt.",
+  "detail": "Shenzhen nennt sich selbst eine junge Einwandererstadt, die Gründer und Kreative aus dem ganzen Land anzieht. Und ausnahmsweise ist das mal kein reiner Werbespruch.\n\nDie Stadt ist längst riesig, Ende 2024 zählte sie 17,98 Millionen ständige Einwohner. Trotzdem lag das Durchschnittsalter laut der siebten nationalen Volkszählung (2020), auf die sich die Stadtregierung beruft, bei 32,5 Jahren.\n\nWie sich das anfühlt, hat ein pensionierter Cellist 2016 dem Guardian geschildert: Er wollte nach alten Straßennamen fragen – und fand niemanden, der alt genug war, um sie zu kennen. Alle zu jung.\n\nDas ist das Problem einer Stadt, die kaum älter ist als ihre Bewohner: Wer sich an früher erinnern soll, war meistens nicht dabei.\n\nVor Ort: Ein Abendspaziergang im Shenzhen Bay Park zeigt die junge Stadt in Aktion.",
   "sources": [
    {
     "title": "Shenzhen Basics",
@@ -96,6 +98,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -103,9 +106,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "In Kanton-Land spricht man Mandarin – wegen der Zuwanderer",
-  "teaser": "Obwohl Shenzhen in der Kantonesisch-Provinz Guangdong liegt, ist Mandarin die Alltagssprache – weil die meisten Bewohner zugezogen sind und die Stadt Mandarin ab den 1980ern gezielt förderte.",
-  "detail": "Rund um Shenzhen sprach man früher Bao'an-Kantonesisch, in Longgang Hakka, an der Küste kleine Dialekte wie Dapeng-Hua oder die Sprache der Tanka-Bootsleute. In den 1980er-Jahren galt die Stadt laut eigener Stadtgeschichte sogar als landesweit bekannte Mandarin-\"Wüste\".\n\nDas änderte sich schnell – aus zwei Gründen. Erstens kamen Menschen aus allen Ecken Chinas sowie ausländische Investoren, die eine gemeinsame Sprache brauchten. Zweitens setzte die Stadt Mandarin aktiv durch: 1985 beschloss die Stadtregierung, die ganze Stadt innerhalb von zwei bis drei Jahren zur Mandarin-Stadt zu machen. Mandarin-Prüfungen wurden zur Voraussetzung für Einstufung, Beförderung und Einstellung von Beamten und Angestellten.\n\nHeute werden laut Stadtregierung alle sechs großen chinesischen Dialektgruppen in Shenzhen gesprochen, aber die gemeinsame Sprache aller Schichten ist Mandarin. Ganz anders als im benachbarten Hongkong, wo Kantonesisch dominiert.",
+  "headline": "Mitten im Kantonesisch-Land wird Mandarin gesprochen",
+  "teaser": "Shenzhen liegt in der Kantonesisch-Provinz Guangdong, redet aber Mandarin. Grund: Fast alle sind zugezogen, und die Stadt hat Mandarin ab den 1980ern gezielt durchgedrückt.",
+  "detail": "Früher sprach man rund um Shenzhen Bao'an-Kantonesisch, in Longgang Hakka und an der Küste kleine Dialekte wie Dapeng-Hua oder die Sprache der Tanka-Bootsleute. In den 1980er-Jahren galt die Stadt laut eigener Stadtgeschichte sogar als landesweit bekannte Mandarin-„Wüste“.\n\nDann kamen Menschen aus allen Ecken Chinas plus ausländische Investoren – und alle brauchten eine gemeinsame Sprache. Die Stadt half nach: 1985 beschloss sie, innerhalb von zwei bis drei Jahren komplett zur Mandarin-Stadt zu werden. Wer als Beamter oder Angestellter eingestellt, eingestuft oder befördert werden wollte, musste eine Mandarin-Prüfung bestehen. Sprachförderung mit Karriereknopf, sozusagen.\n\nHeute werden laut Stadtregierung alle sechs großen chinesischen Dialektgruppen in Shenzhen gesprochen, die gemeinsame Sprache ist aber Mandarin. Gleich nebenan in Hongkong dominiert dagegen Kantonesisch. Eine Grenze, zwei Sprachwelten.",
   "sources": [
    {
     "title": "本地干部学习普通话 (Lokale Beamte lernen Mandarin)",
@@ -122,6 +125,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -129,9 +133,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "„Wer kommt, ist Shenzhener“ – ein preisgekrönter Stadtspruch",
-  "teaser": "Der Satz „来了，就是深圳人“ („Wer kommt, ist schon Shenzhener“) wurde 2010 in die Liste der zehn einflussreichsten Ideen der Stadt gewählt.",
-  "detail": "In einer Stadt, in der fast niemand \"von hier\" ist, braucht es ein anderes Verständnis von Heimat. Genau das transportiert der Spruch \"来了，就是深圳人\" – sinngemäß: Sobald du ankommst, gehörst du dazu.\n\nZum 30. Geburtstag der Sonderwirtschaftszone veranstaltete die Shenzhener Zeitungsgruppe 2010 eine Wahl der \"zehn einflussreichsten Ideen\" der Stadt. Aus 103 Vorschlägen wurden 30 Kandidaten und schließlich zehn Sieger ermittelt – je zur Hälfte per Online-Abstimmung und Expertenjury. Der Willkommensspruch kam in die Top Ten, laut Stadtregierung als Ausdruck der offenen, toleranten Stadtkultur.\n\nAuf Platz eins der Liste landete übrigens der Wirtschaftsspruch \"Zeit ist Geld, Effizienz ist Leben\" aus Shekou. Ausgelöst hatte die Aktion ein Forumsbeitrag im August 2010, der innerhalb eines Monats über 30.000 Klicks bekam.",
+  "headline": "„Wer kommt, ist Shenzhener“ – Top-Ten-Spruch der Stadt",
+  "teaser": "Der Satz „来了，就是深圳人“ – „Wer kommt, ist schon Shenzhener“ – wurde 2010 unter die zehn einflussreichsten Ideen der Stadt gewählt.",
+  "detail": "In einer Stadt, in der fast niemand „von hier“ ist, muss man Heimat anders definieren. Genau das macht der Spruch „来了，就是深圳人“: Sobald du ankommst, gehörst du dazu. Kein Stammbaum nötig.\n\n2010, zum 30. Geburtstag der Sonderwirtschaftszone, ließ die Shenzhener Zeitungsgruppe die „zehn einflussreichsten Ideen“ der Stadt wählen. Aus 103 Vorschlägen wurden 30 Kandidaten, am Ende zehn Sieger – je zur Hälfte per Online-Abstimmung und per Expertenjury. Der Willkommensspruch schaffte es in die Top Ten, laut Stadtregierung als Ausdruck der offenen, toleranten Stadtkultur.\n\nPlatz eins ging allerdings an „Zeit ist Geld, Effizienz ist Leben“ aus Shekou. Die Prioritäten sind also klar: erst Tempo, dann Willkommen.\n\nLosgetreten hatte das Ganze übrigens ein Forumsbeitrag im August 2010, der in einem Monat über 30.000 Klicks bekam.",
   "sources": [
    {
     "title": "“深圳十大观念”的诞生 (Die Geburt der zehn Leitideen Shenzhens)",
@@ -147,6 +151,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -154,9 +159,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Shenzhen heißt übersetzt ungefähr „tiefer Graben“",
-  "teaser": "Der Name Shenzhen bedeutet etwa „tiefer Feldgraben“ – benannt nach einem tiefen Wassergraben, dem heutigen Shenzhen-Fluss.",
-  "detail": "Glamourös ist der Name der Hightech-Metropole nicht: 深 (shēn) heißt \"tief\", und 圳 (zhèn) – in Langzeichen 甽 – bezeichnet einen Wassergraben zwischen Feldern. Laut Stadtregierung bekam das Dorf seinen Namen, weil es von Gewässern umgeben war und durch die Felder ein tiefer Graben lief: der heutige Shenzhen-Fluss, der die Grenze zu Hongkong bildet.\n\nSchriftlich taucht der Name zuerst in der Kangxi-Ausgabe der Chronik des Kreises Xin'an im 17. Jahrhundert auf – dort ist von einem Wachturm namens \"Shenzhen\" die Rede. Aus solchen Wachposten entwickelten sich Marktorte; der lebhafteste war der Shenzhen-Markt.\n\nZur Stadt wurde Shenzhen erst am 5. März 1979, als der Staatsrat den Kreis Bao'an umbenannte.\n\nVor Ort: Der alte Shenzhen-Markt ist die heutige Dongmen-Altstraße (东门老街) in Luohu – heute eine quirlige Einkaufsgegend.",
+  "headline": "Hightech-Metropole, benannt nach einem Graben",
+  "teaser": "Shenzhen heißt ungefähr „tiefer Feldgraben“ – benannt nach einem Wassergraben, dem heutigen Shenzhen-Fluss.",
+  "detail": "Glamourös geht anders: 深 (shēn) heißt „tief“, und 圳 (zhèn) – in Langzeichen 甽 – ist ein Wassergraben zwischen Feldern. Laut Stadtregierung bekam das Dorf seinen Namen, weil es von Gewässern umgeben war und ein tiefer Graben durch die Felder lief. Dieser Graben ist heute der Shenzhen-Fluss, und der bildet die Grenze zu Hongkong.\n\nSchriftlich taucht der Name zuerst in der Kangxi-Ausgabe der Chronik des Kreises Xin'an im 17. Jahrhundert auf, als Name eines Wachturms. Aus solchen Wachposten wurden Marktorte, und der lebhafteste war der Shenzhen-Markt.\n\nEine Stadt wurde daraus erst am 5. März 1979, als der Staatsrat den Kreis Bao'an umbenannte. Seitdem trägt eine Millionenmetropole stolz den Namen eines Bewässerungsgrabens.\n\nVor Ort: Der alte Shenzhen-Markt ist die heutige Dongmen-Altstraße (东门老街) in Luohu – eine quirlige Einkaufsgegend.",
   "sources": [
    {
     "title": "“深圳”地名的由来 (Die Herkunft des Namens „Shenzhen“)",
@@ -173,6 +178,7 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -180,9 +186,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Shenzhens Spitzname kommt von einer Festung aus dem Jahr 1394",
-  "teaser": "Shenzhens Spitzname „Pengcheng“ (Stadt des Peng) geht auf die Festung Dapeng zurück, die 1394 gegen japanische Piraten gebaut wurde.",
-  "detail": "Die angeblich so geschichtslose Stadt hat eine echte Ming-Festung. Dapeng Suocheng liegt rund 55 Kilometer vom Zentrum entfernt auf der Dapeng-Halbinsel. Gebaut hat sie 1394 der General Zhang Bin, um die Küste gegen japanische Piraten zu verteidigen. Laut Shenzhen Daily ist es die vollständigste Militärfestung der Ming-Zeit im Südosten Chinas; 2001 kam sie auf die Liste der national geschützten Kulturdenkmäler.\n\nVon der Festung stammt Shenzhens Spitzname \"Pengcheng\". Peng ist ein riesiger Fabelvogel der chinesischen Mythologie, eine Art Roch.\n\nDer besterhaltene Teil ist das Anwesen von General Lai Enjue. Er führte laut Shenzhen Daily 1839 chinesische Truppen in Fischerbooten gegen besser ausgerüstete britische Truppen vor Kowloon.\n\nVor Ort: Neben dem Generalsanwesen lohnen die alten Speicher und der Tianhou-Tempel; Busse B756 und 928 fahren nach Pengcheng-Dorf in Dapeng.",
+  "headline": "Shenzhens Spitzname stammt von einer Piratenabwehr-Festung",
+  "teaser": "Shenzhens Spitzname „Pengcheng“ geht auf die Festung Dapeng zurück, 1394 gegen japanische Piraten gebaut. Peng ist ein riesiger Fabelvogel.",
+  "detail": "Die angeblich geschichtslose Stadt hat eine echte Ming-Festung. Dapeng Suocheng liegt rund 55 Kilometer vom Zentrum entfernt auf der Dapeng-Halbinsel. General Zhang Bin ließ sie 1394 bauen, um die Küste gegen japanische Piraten zu sichern. Laut Shenzhen Daily ist sie die vollständigste Militärfestung der Ming-Zeit im Südosten Chinas, seit 2001 steht sie unter nationalem Denkmalschutz.\n\nVon hier stammt der Spitzname „Pengcheng“. Peng ist ein riesiger Fabelvogel der chinesischen Mythologie, eine Art Roch. Eine Tech-Metropole, benannt nach einem Fabelvogel aus einer Piratenfestung – das hat schon was.\n\nAm besten erhalten ist das Anwesen von General Lai Enjue. Der führte laut Shenzhen Daily 1839 chinesische Truppen in Fischerbooten gegen besser ausgerüstete britische Truppen vor Kowloon.\n\nVor Ort: Neben dem Generalsanwesen lohnen die alten Speicher und der Tianhou-Tempel; Busse B756 und 928 fahren nach Pengcheng-Dorf in Dapeng.",
   "sources": [
    {
     "title": "Ancient architecture in Shenzhen",
@@ -206,6 +212,7 @@
   "era": "mittelalter",
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -213,9 +220,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "179 Wohnungen hinter einer Mauer: Shenzhens riesige Hakka-Wohnburg",
-  "teaser": "Die ummauerte Hakka-Siedlung Hehu Xinju in Longgang hat 179 Wohneinheiten – laut Shenzhen Daily ist sie die größte Ansammlung von Hakka-Wohnarchitektur in China.",
-  "detail": "Die Hakka sind eine chinesische Volksgruppe, die über Jahrhunderte in den Süden wanderte und sich dort in festungsartigen Großhäusern verschanzte: außen dicke Mauern, innen ein ganzes Dorf.\n\nEin besonders großes Beispiel steht in Shenzhens Bezirk Longgang. Hehu Xinju (鹤湖新居), die \"Neue Residenz am Kranichsee\", wurde um 1817 von der Familie Luo aus Fujian gebaut, die mit Handel ein Vermögen gemacht hatte. Die Anlage bedeckt 27.890 Quadratmeter und hat 179 Wohneinheiten mit jeweils einem bis drei Zimmern. Laut Shenzhen Daily ist sie die größte Ansammlung von Hakka-Wohnarchitektur im ganzen Land.\n\nDen Namen soll sie bekommen haben, weil die feuchten Wiesen ringsum früher ein Rastplatz für Kraniche waren.\n\nVor Ort: Anfahrt mit der Metrolinie 3 bis Nanlian, Ausgang B.",
+  "headline": "179 Wohnungen, eine Mauer: die Hakka-Wohnburg",
+  "teaser": "Die ummauerte Hakka-Siedlung Hehu Xinju in Longgang hat 179 Wohneinheiten – laut Shenzhen Daily die größte Ansammlung von Hakka-Wohnarchitektur in China.",
+  "detail": "Die Hakka sind eine chinesische Volksgruppe, die über Jahrhunderte nach Süden wanderte und sich dort in festungsartigen Großhäusern einrichtete: außen dicke Mauern, innen ein ganzes Dorf. Quasi Wohnanlage mit eingebauter Burg.\n\nEin besonders großes Exemplar steht in Shenzhens Bezirk Longgang. Hehu Xinju (鹤湖新居), die „Neue Residenz am Kranichsee“, baute die Familie Luo aus Fujian um 1817, nachdem sie mit Handel reich geworden war. Die Anlage bedeckt 27.890 Quadratmeter und hat 179 Wohneinheiten mit je einem bis drei Zimmern. Laut Shenzhen Daily ist das die größte Ansammlung von Hakka-Wohnarchitektur im ganzen Land.\n\nUnd der Name? Die feuchten Wiesen ringsum sollen früher ein Rastplatz für Kraniche gewesen sein. Die Kraniche sind weg, der Name ist geblieben.\n\nVor Ort: Metrolinie 3 bis Nanlian, Ausgang B.",
   "sources": [
    {
     "title": "Ancient architecture in Shenzhen",
@@ -232,6 +239,7 @@
   "era": "neuzeit",
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -239,9 +247,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Chinas „Elektronikstraße Nr. 1“ begann im Erdgeschoss eines Firmengebäudes",
-  "teaser": "Huaqiangbei, bekannt als „Chinas Elektronikstraße Nr. 1“, startete 1988 als Bauteile-Markt im Erdgeschoss des Firmengebäudes der SEG Electronics Group.",
-  "detail": "Huaqiangbei ist heute ein Wunderland für Bastler: Ganze Hochhäuser voller Widerstände, LEDs, Platinen, Drohnenteile und Handyhüllen. Angefangen hat alles ziemlich unspektakulär.\n\n1979 war Huaqiangbei nur eine Straße im Industriegebiet Shangbu, wo sich kleine Elektronikbetriebe aus Hongkong und anderen Städten angesiedelt hatten. 1988 eröffnete die frisch umbenannte SEG Electronics Group im Erdgeschoss ihres Gebäudes einen Markt für in- und ausländische Bauteile. Nach fünf Erweiterungsrunden bis 2008 war daraus laut Shenzhen Daily das größte Elektronik-Verteilzentrum Chinas geworden – mit dem Titel \"Elektronikstraße Nr. 1 in China\".\n\nHeute meldet das Stadtportal 35 Fachmärkte, über 115.000 Firmen und mehr als eine Million verschiedene Bauteile und Geräte. Laut Bezirksverwaltung kommen im Schnitt 750.000 Besucher pro Tag, darunter über 8.000 aus dem Ausland.\n\nVor Ort: Metrostation Huaqiang Road oder Huaqiangbei – und dann einfach in den SEG Electronics Market hinein.",
+  "headline": "Chinas Elektronikstraße Nr. 1 begann im Erdgeschoss",
+  "teaser": "Huaqiangbei, „Chinas Elektronikstraße Nr. 1“, fing 1988 als Bauteile-Markt im Erdgeschoss eines Firmengebäudes an. Heute kommen täglich im Schnitt 750.000 Besucher.",
+  "detail": "Huaqiangbei ist ein Wunderland für Bastler: ganze Hochhäuser voller Widerstände, LEDs, Platinen, Drohnenteile und Handyhüllen. Der Anfang war deutlich bescheidener.\n\n1979 war Huaqiangbei bloß eine Straße im Industriegebiet Shangbu, wo sich kleine Elektronikbetriebe aus Hongkong und anderen Städten niedergelassen hatten. 1988 eröffnete die frisch umbenannte SEG Electronics Group im Erdgeschoss ihres Gebäudes einen Markt für Bauteile. Nach fünf Erweiterungsrunden bis 2008 war daraus laut Shenzhen Daily das größte Elektronik-Verteilzentrum Chinas geworden – Titel: „Elektronikstraße Nr. 1 in China“.\n\nHeute meldet das Stadtportal 35 Fachmärkte, über 115.000 Firmen und mehr als eine Million verschiedene Bauteile und Geräte. Laut Bezirksverwaltung kommen im Schnitt 750.000 Besucher pro Tag, darunter über 8.000 aus dem Ausland. Wer hier ein Bauteil nicht findet, hat sich wahrscheinlich verlaufen.\n\nVor Ort: Metrostation Huaqiang Road oder Huaqiangbei – und dann rein in den SEG Electronics Market.",
   "sources": [
    {
     "title": "Huaqiangbei, the No. 1 electronics street in China",
@@ -264,6 +272,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -271,9 +280,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Ein Dorf malte 60 Prozent aller Öl-Repliken der Welt",
-  "teaser": "In seiner Blütezeit in den 2000ern stammten rund 60 Prozent der weltweit produzierten Ölgemälde-Kopien aus Dafen, einem Viertel von Shenzhen.",
-  "detail": "Die Sonnenblumen-Kopie im Hotelflur oder die Mona Lisa im Restaurant: Gut möglich, dass sie aus Dafen stammt. Das Ölmaler-Dorf im Bezirk Longgang ist nur etwa 0,4 Quadratkilometer groß, beherbergte aber zeitweise über 1.200 Galerien und 20.000 Malerinnen und Maler.\n\nIn den 2000ern kamen laut Goldthread (South China Morning Post) etwa 60 Prozent der weltweiten Ölgemälde-Repliken von hier – oft für weniger als 15 Dollar pro Stück. Gelernt wurde wie am Fließband: Laut einem der ersten Maler ließ der Lehrer die Schüler nur einen Teil eines Bildes malen – jeden Tag dasselbe. Etliche kopierten Van Gogh und Da Vinci, ohne zu wissen, wer das eigentlich war.\n\nAls nach der Finanzkrise 2008 die Auslandsaufträge einbrachen, schwenkten viele Maler auf chinesische Kundschaft und eigene Werke um. Kopien verkaufen sich trotzdem bis heute besser.\n\nVor Ort: Durch die Gassen schlendern und Malern beim Arbeiten zusehen – viele nehmen auch Porträt-Aufträge an.",
+  "headline": "Ein Dorf malte 60 Prozent aller Öl-Kopien der Welt",
+  "teaser": "In den 2000ern kamen rund 60 Prozent der weltweit gemalten Ölbild-Kopien aus Dafen in Shenzhen – manche Maler kopierten Van Gogh, ohne zu wissen, wer das war.",
+  "detail": "Die Sonnenblumen im Hotelflur, die Mona Lisa im Restaurant: Gut möglich, dass sie aus Dafen stammen. Das Ölmaler-Dorf im Bezirk Longgang ist nur etwa 0,4 Quadratkilometer groß, hatte aber zeitweise über 1.200 Galerien und 20.000 Malerinnen und Maler.\n\nIn den 2000ern kamen laut Goldthread (South China Morning Post) etwa 60 Prozent der weltweiten Ölgemälde-Repliken von hier, oft für weniger als 15 Dollar das Stück. Gelernt wurde am Fließband: Ein früher Maler erzählte, der Lehrer habe jeden Schüler nur einen Teil eines Bildes malen lassen. Jeden Tag denselben. Etliche kopierten Van Gogh und Da Vinci, ohne zu wissen, wer die beiden eigentlich waren.\n\nNach der Finanzkrise 2008 brachen die Auslandsaufträge ein, viele schwenkten auf chinesische Kundschaft und eigene Werke um. Die Kopien verkaufen sich trotzdem bis heute besser. Originalität ist eben auch eine Preisfrage.\n\nVor Ort: Durch die Gassen schlendern und den Malern zuschauen – viele nehmen auch Porträt-Aufträge an.",
   "sources": [
    {
     "title": "The world’s fake Van Goghs and Basquiats come from this village",
@@ -296,6 +305,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
@@ -303,9 +313,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "In Shenzhens Stadtdörfern kann man dem Nachbarn die Hand geben",
-  "teaser": "Die Häuser in Shenzhens „Stadtdörfern“ stehen so dicht, dass man sie „Handschlag-Häuser“ nennt: Nachbarn können sich durchs Fenster die Hand reichen.",
-  "detail": "Als Shenzhen explodierte, wurden die Felder der alten Dörfer bebaut, nicht aber die Dorfkerne selbst. Die Dorfbewohner stockten ihre Häuser immer weiter auf und vermieteten Zimmer an Zuwanderer. So entstanden die chengzhongcun, wörtlich \"Dörfer mitten in der Stadt\".\n\nTypisch sind neun- bis zehnstöckige Bauten ohne Aufzug, die so eng stehen, dass sie \"Handschlag-Häuser\" heißen. Wer den Arm aus dem Fenster streckt, kann dem Nachbarn gegenüber die Hand schütteln.\n\nDas bekannteste Beispiel war Baishizhou in Nanshan. Laut ChinaFile lebten dort 2016 rund 150.000 Menschen auf 0,6 Quadratkilometern, mit mehr als der zwanzigfachen Bevölkerungsdichte des Stadtdurchschnitts. Der Autor verglich es mit \"der halben Bevölkerung Islands\". Schon damals war der Abriss für ein großes Neubauprojekt beschlossen.\n\nVor Ort: In den Stadtdörfern Shuiwei und Huanggang in Futian kann man das Gassengewirr samt vieler kleiner Lokale noch erleben.",
+  "headline": "Handschlag-Häuser: Nachbarn grüßen sich durchs Fenster",
+  "teaser": "In Shenzhens Stadtdörfern stehen die Häuser so eng, dass man sie „Handschlag-Häuser“ nennt – man kann dem Nachbarn gegenüber durchs Fenster die Hand geben.",
+  "detail": "Als Shenzhen explodierte, wurden die Felder der alten Dörfer bebaut, die Dorfkerne aber nicht. Die Bewohner stockten ihre Häuser einfach immer weiter auf und vermieteten Zimmer an Zuwanderer. So entstanden die chengzhongcun, wörtlich „Dörfer mitten in der Stadt“.\n\nTypisch: neun- bis zehnstöckige Bauten ohne Aufzug, so dicht aneinander, dass sie „Handschlag-Häuser“ heißen. Arm aus dem Fenster, Hand schütteln, fertig. Abstand halten ist hier keine Option.\n\nDas bekannteste Beispiel war Baishizhou in Nanshan. Laut ChinaFile lebten dort 2016 rund 150.000 Menschen auf 0,6 Quadratkilometern, mit mehr als der zwanzigfachen Dichte des Stadtdurchschnitts. Der Autor verglich das mit „der halben Bevölkerung Islands“ – auf einem Fleckchen Stadt. Der Abriss für ein großes Neubauprojekt war schon damals beschlossen.\n\nVor Ort: In den Stadtdörfern Shuiwei und Huanggang in Futian gibt es das Gassengewirr samt kleiner Lokale noch.",
   "sources": [
    {
     "title": "The Destruction of Baishizhou",
@@ -328,6 +338,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -353,6 +364,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -360,9 +372,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "„Shenzhen-Tempo“: ein Stockwerk alle drei Tage",
-  "teaser": "Der Legende nach wuchs das Guomao-Gebäude, 1985 Chinas höchstes Haus, um ein Stockwerk alle drei Tage – daraus wurde der Begriff „Shenzhen-Tempo“.",
-  "detail": "Anfang der 1980er wollte Shenzhen zeigen, was es kann, und baute ein Welthandelszentrum: das International Trade Centre, kurz Guomao. Obwohl kaum jemand Erfahrung mit Hochhäusern hatte, war der 50-stöckige Turm Anfang 1985 fertig. Damals war er das höchste Gebäude Chinas, oben drauf sogar mit Drehrestaurant.\n\nDer lokalen Überlieferung nach ging es mit einem Stockwerk alle drei Tage voran. Bloomberg-Kolumnist Adam Minter betont, dass das eher Legende als belegte Zahl ist. Trotzdem wurde \"Shenzhen-Tempo\" zum landesweiten Maßstab für Baufirmen.\n\nEin Jahrzehnt später wurde es noch schneller: Beim SEG Plaza ging es laut der Arbeit einer damaligen Studentin mit einem Stockwerk alle 2,7 Tage voran. Teilweise wurde gebaut, bevor die Planung überhaupt fertig war. 2021 geriet genau dieser Turm in die Schlagzeilen, weil er ins Schwanken kam.\n\nVor Ort: Das Guomao-Gebäude steht noch heute in Luohu, nahe der gleichnamigen Metrostation.",
+  "headline": "„Shenzhen-Tempo“: angeblich ein Stockwerk alle drei Tage",
+  "teaser": "Der Legende nach wuchs das Guomao-Gebäude, 1985 Chinas höchstes Haus, um ein Stockwerk alle drei Tage. Daraus wurde der Begriff „Shenzhen-Tempo“.",
+  "detail": "Anfang der 1980er wollte Shenzhen zeigen, was es draufhat, und baute ein Welthandelszentrum: das International Trade Centre, kurz Guomao. Kaum jemand hatte Erfahrung mit Hochhäusern, trotzdem war der 50-stöckige Turm Anfang 1985 fertig. Damals das höchste Gebäude Chinas, oben sogar mit Drehrestaurant.\n\nLaut lokaler Überlieferung ging es mit einem Stockwerk alle drei Tage voran. Bloomberg-Kolumnist Adam Minter betont allerdings, dass das eher Legende als belegte Zahl ist. Egal: „Shenzhen-Tempo“ wurde zum landesweiten Maßstab für Baufirmen.\n\nEin Jahrzehnt später ging's noch fixer. Beim SEG Plaza soll es laut der Arbeit einer damaligen Studentin ein Stockwerk alle 2,7 Tage gewesen sein, teils wurde gebaut, bevor die Planung fertig war. 2021 machte genau dieser Turm Schlagzeilen – weil er ins Schwanken kam. Tempo hat eben seinen Preis.\n\nVor Ort: Das Guomao-Gebäude steht noch in Luohu, nahe der gleichnamigen Metrostation.",
   "sources": [
    {
     "title": "Shenzhen’s Shaky Tower Is a Cautionary Tale",
@@ -380,6 +392,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -387,9 +400,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Tencents Zentrale hat eine Laufbahn auf der Himmelsbrücke",
-  "teaser": "Die zwei Türme der Tencent-Zentrale in Shenzhen sind durch drei Brücken verbunden – mit Gemeinschaftsflächen samt Laufbahn, Basketballplatz und Pool.",
-  "detail": "Tencent, der 1998 in Shenzhen gegründete Konzern hinter WeChat, wollte keinen gewöhnlichen Büroturm. Das Architekturbüro NBBJ entwarf deshalb die Tencent Seafront Towers in Nanshan: einen Turm mit 50 und einen mit 39 Stockwerken, verbunden durch drei große Brücken.\n\nDie Idee: Das Hochhaus soll wie ein Uni-Campus funktionieren. Die Brückenbauten bieten Gemeinschaftsflächen, Grün und Sportangebote – darunter Laufbahn, Basketballplatz und Pool; dazu kommen Dachgärten. So sollen Mitarbeitende zwischen den Türmen hin und her wandern, statt in ihrer Abteilung zu bleiben. Platz ist laut NBBJ für 12.000 Beschäftigte.\n\nAuch fürs Klima ist der Bau durchdacht: Die leicht gedrehten Türme fangen den Wind ein und belüften so die Atrien. Laut Architekten sinken Energieverbrauch und CO2-Ausstoß um rund 40 Prozent gegenüber einem typischen Büroturm.\n\nVor Ort: Die Zwillingstürme stehen im Hightech-Bezirk Nanshan; die drei Brücken sind schon von außen gut zu erkennen.",
+  "headline": "Tencents Büro hat eine Laufbahn auf der Brücke",
+  "teaser": "Die zwei Türme der Tencent-Zentrale sind durch drei Brücken verbunden – darin Laufbahn, Basketballplatz und Pool. Büro mit Sportverein inklusive.",
+  "detail": "Tencent, 1998 in Shenzhen gegründet und Konzern hinter WeChat, wollte keinen gewöhnlichen Büroturm. Das Architekturbüro NBBJ entwarf deshalb die Tencent Seafront Towers in Nanshan: einen Turm mit 50 und einen mit 39 Stockwerken, verbunden durch drei große Brücken.\n\nDie Idee: Das Hochhaus soll funktionieren wie ein Uni-Campus. In den Brücken gibt es Gemeinschaftsflächen, Grün und Sport – Laufbahn, Basketballplatz, Pool –, dazu Dachgärten. Die Leute sollen zwischen den Türmen hin und her wandern, statt in ihrer Abteilung zu versauern. Platz ist laut NBBJ für 12.000 Beschäftigte.\n\nUnd weil Joggen allein nicht reicht, ist auch das Klima mitgedacht: Die leicht gedrehten Türme fangen den Wind ein und belüften so die Atrien. Laut Architekten sinken Energieverbrauch und CO2-Ausstoß um rund 40 Prozent gegenüber einem typischen Büroturm.\n\nVor Ort: Die Zwillingstürme stehen im Hightech-Bezirk Nanshan; die drei Brücken sieht man schon von außen.",
   "sources": [
    {
     "title": "NBBJ connects shenzhen towers with skybridges to form tencent’s global HQ",
@@ -416,6 +429,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -423,9 +437,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Shenzhens E-Busse sind so leise, dass Leute Motorgeräusche wollten",
-  "teaser": "Shenzhen hatte 2018 als erste Stadt der Welt eine komplett elektrische Busflotte mit 16.000 Bussen – so leise, dass Bürger um künstlichen Lärm baten.",
-  "detail": "Früher kündigten sich Shenzhens Busse mit Zischen, Rattern und einer Abgaswolke an. Heute muss man an der Haltestelle eher aufpassen, dass man sie nicht verpasst. Ende 2018 berichtete der Guardian, dass alle 16.000 Busse der Stadt elektrisch fahren. Shenzhen hatte damit die erste und größte komplett elektrische Busflotte der Welt.\n\nDer Nebeneffekt überraschte selbst die Betreiber: Die Busse sind so leise, dass Fußgänger sie kaum kommen hören. Bei der Shenzhen Bus Group gingen deshalb Bitten ein, den Fahrzeugen künstliche Geräusche zu verpassen. Das lauteste Geräusch einer Fahrt ist oft das Piepen der Türen.\n\nDie Umstellung war teuer: Ein Bus kostete rund 1,8 Millionen Yuan, mehr als die Hälfte davon übernahmen Staat und Stadt. Dafür hat sich laut Betreiber die Treibstoffrechnung halbiert.\n\nVor Ort: Am Busbahnhof im Geschäftsviertel Futian hört man vor allem eins – fast nichts. Einfach einsteigen und auf das Türpiepen achten.",
+  "headline": "Shenzhens E-Busse sind so leise, dass Leute Lärm wollten",
+  "teaser": "2018 fuhren alle 16.000 Busse in Shenzhen elektrisch – so leise, dass Bürger darum baten, ihnen künstliche Geräusche zu verpassen.",
+  "detail": "Früher kündigten sich Shenzhens Busse mit Zischen, Rattern und Abgaswolke an. Heute muss man eher aufpassen, dass man sie nicht verpasst. Ende 2018 berichtete der Guardian, dass alle 16.000 Busse der Stadt elektrisch fahren – damit hatte Shenzhen die erste und größte komplett elektrische Busflotte der Welt.\n\nDer Nebeneffekt überraschte selbst die Betreiber: Fußgänger hören die Busse kaum kommen. Bei der Shenzhen Bus Group gingen deshalb Bitten ein, den Fahrzeugen künstliche Geräusche zu verpassen. Jahrzehntelang beschwert man sich über Verkehrslärm, und dann wünscht man ihn sich zurück.\n\nBillig war das alles nicht: Ein Bus kostete rund 1,8 Millionen Yuan, mehr als die Hälfte zahlten Staat und Stadt. Dafür hat sich laut Betreiber die Treibstoffrechnung halbiert.\n\nDas lauteste Geräusch einer Fahrt ist oft das Piepen der Türen.\n\nVor Ort: Am Busbahnhof in Futian hört man vor allem eins – fast nichts. Einfach einsteigen und aufs Türpiepen achten.",
   "sources": [
    {
     "title": "Shenzhen's silent revolution: world's first fully electric bus fleet quietens Chinese megacity",
@@ -442,6 +456,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -449,9 +464,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Bei Shenzhens E-Taxis gab es Streit um die Ladesäule",
-  "teaser": "Ende 2018 sollten alle 22.000 Taxis in Shenzhen elektrisch fahren – Taxifahrer gerieten sich deshalb an knappen Ladesäulen sogar in die Haare.",
-  "detail": "Nach den Bussen waren die Taxis dran. Ende 2018 mussten laut Guardian alle rund 22.000 Taxis der Stadt auf Elektroantrieb umgestellt sein. Die Shenzhen Bus Group hatte ihre 4.600 Taxis sogar schon vorzeitig umgerüstet.\n\nBei Bussen ist das Laden einfach: Sie fahren feste Linien und stehen nachts im Depot. Taxis dagegen kreuzen ohne festen Plan durch die ganze Stadt. Deshalb ging es weniger um die Zahl der Ladesäulen als darum, wo sie stehen. Ein Manager erzählte dem Guardian, man höre immer wieder von Streit zwischen Taxifahrern, die an dieselbe Ladestation wollten. Weite Umwege zum Laden kosten schließlich Geld.\n\nDie Lösung: Ladeplätze in Parks, an Behördengebäuden und auf gemieteten Dorfflächen sowie eine App, die freie Säulen in Echtzeit anzeigt.\n\nVor Ort: Wer in Shenzhen ein Taxi heranwinkt, sitzt mit großer Wahrscheinlichkeit in einem Elektroauto.",
+  "headline": "E-Taxis in Shenzhen: Zoff an der Ladesäule",
+  "teaser": "Ende 2018 sollten alle rund 22.000 Taxis in Shenzhen elektrisch fahren – und Taxifahrer gerieten sich an knappen Ladesäulen in die Haare.",
+  "detail": "Nach den Bussen waren die Taxis dran. Ende 2018 mussten laut Guardian alle rund 22.000 Taxis der Stadt elektrisch fahren. Die Shenzhen Bus Group hatte ihre 4.600 Taxis sogar schon vorzeitig umgerüstet.\n\nBei Bussen ist Laden einfach: feste Linien, nachts ins Depot. Taxis dagegen kurven planlos durch die ganze Stadt. Das Problem war also weniger, wie viele Ladesäulen es gibt, sondern wo sie stehen. Ein Manager erzählte dem Guardian, man höre immer wieder von Streit zwischen Taxifahrern, die an dieselbe Ladestation wollten. Verständlich: Jeder Umweg zum Laden kostet Geld, und der Taxameter läuft dabei nicht.\n\nDie Lösung: Ladeplätze in Parks, an Behördengebäuden und auf gemieteten Dorfflächen, dazu eine App, die freie Säulen in Echtzeit anzeigt. Die Parkplatzsuche der Zukunft heißt Steckdosensuche.\n\nVor Ort: Wer in Shenzhen ein Taxi heranwinkt, sitzt mit großer Wahrscheinlichkeit in einem Elektroauto.",
   "sources": [
    {
     "title": "Shenzhen's silent revolution: world's first fully electric bus fleet quietens Chinese megacity",
@@ -468,6 +483,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -475,9 +491,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "„Zeit ist Geld“: Ein Plakat in Shekou wurde zum Leitspruch",
-  "teaser": "1982 erdachte Shekou-Chef Yuan Geng den Spruch „Zeit ist Geld, Effizienz ist Leben“ – erst auf einer Plakatwand, später im ganzen Land bekannt.",
-  "detail": "Heute klingt der Satz nach Business-Ratgeber, im China der frühen 1980er galt er als gewagt. Yuan Geng, Chef des Industrieparks Shekou im Westen Shenzhens, dachte sich 1982 auf der Rückfahrt von einer Geschäftsreise nach Hongkong mehrere Slogans aus.\n\nDie ersten beiden Zeilen – \"时间就是金钱，效率就是生命\", also \"Zeit ist Geld, Effizienz ist Leben\" – wählte die Verwaltung später als Motto. Sie kamen auf eine Plakatwand an der Straße zum Fähranleger nach Hongkong. Investoren von dort sollten gleich sehen, dass in Shekou aufs Tempo geachtet wird.\n\nLaut Stadtgeschichte wurde der Spruch als \"Frühlingsdonner\" gefeiert, der festgefahrenes Denken aufgebrochen habe. Als 1984 Deng Xiaoping Shekou besuchte, stellte Yuan ihm den Slogan vor. Im Oktober 1984 war er auf Paradewagen zum 35. Jahrestag der Volksrepublik zu sehen; 2010 kam er auf Platz eins der \"zehn einflussreichsten Ideen\" Shenzhens.\n\nVor Ort: Shekou liegt im Westen Shenzhens am Wasser – die Plakatwand stand an der Straße zum Fähranleger nach Hongkong.",
+  "headline": "„Zeit ist Geld“ – damals ein gewagtes Plakat",
+  "teaser": "1982 dachte sich Shekou-Chef Yuan Geng den Spruch „Zeit ist Geld, Effizienz ist Leben“ aus. Erst stand er auf einer Plakatwand, später kannte ihn das ganze Land.",
+  "detail": "Heute klingt der Satz nach Business-Ratgeber. Im China der frühen 1980er war er gewagt. Yuan Geng, Chef des Industrieparks Shekou im Westen Shenzhens, dachte sich 1982 auf der Rückfahrt von einer Geschäftsreise nach Hongkong gleich mehrere Slogans aus.\n\nDie ersten beiden Zeilen – „时间就是金钱，效率就是生命“ – wurden das Motto. Sie kamen auf eine Plakatwand an der Straße zum Fähranleger nach Hongkong, damit Investoren von dort gleich sehen: Hier wird nicht getrödelt.\n\nLaut Stadtgeschichte feierte man den Spruch als „Frühlingsdonner“, der festgefahrenes Denken aufgebrochen habe. 1984 stellte Yuan ihn Deng Xiaoping bei dessen Besuch in Shekou vor. Im Oktober 1984 fuhr er auf Paradewagen zum 35. Jahrestag der Volksrepublik mit, und 2010 landete er auf Platz eins der „zehn einflussreichsten Ideen“ Shenzhens. Ziemlich viel Karriere für eine Plakatwand.\n\nVor Ort: Shekou liegt im Westen Shenzhens am Wasser – die Plakatwand stand an der Straße zum Fähranleger nach Hongkong.",
   "sources": [
    {
     "title": "蛇口春雷：时间就是金钱 效率就是生命 (The 'spring thunder' in Shekou: Time is money, efficiency is life)",
@@ -501,6 +517,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -508,9 +525,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Shajing: Shenzhens „tausendjähriges Austerndorf“",
-  "teaser": "Im Shenzhener Stadtteil Shajing werden seit der Song-Dynastie Austern gezüchtet – er gilt als „tausendjähriges Austerndorf“.",
-  "detail": "Lange bevor Shenzhen Smartphones baute, war es für etwas ganz anderes bekannt: Austern. Im Stadtteil Shajing im Bezirk Bao'an reicht die Austernzucht laut Shenzhen Daily bis in die Song-Dynastie zurück, also teils fast tausend Jahre. Die Lokalzeitung nennt Shajing sogar das früheste Gebiet künstlicher Austernzucht der Welt; der Ort trägt den Beinamen \"tausendjähriges Austerndorf\".\n\nWie allgegenwärtig die Muscheln waren, sieht man an der Architektur: Die Ahnenhalle der Familie Jiang hat Wände aus Austernschalen. Historiker vermuten, dass man schlicht nahm, was massenhaft herumlag.\n\nSeit 2004 feiert Shajing jedes Jahr im Dezember das Golden Oyster Festival. Dann ist Erntezeit, und es gibt Austern gegrillt, gedämpft oder mariniert, dazu Wettbewerbe im Austernöffnen.\n\nVor Ort: Die Jiang-Ahnenhalle steht im Dorf Buchong, Metrolinie 11 bis Houting, dann Taxi. Das Festival fand zuletzt (2024) im Haoxiang Lake Park statt.",
+  "headline": "Shajing: Hier sind sogar die Wände aus Austern",
+  "teaser": "Im Shenzhener Stadtteil Shajing werden seit der Song-Dynastie Austern gezüchtet – eine Ahnenhalle hat sogar Wände aus Austernschalen.",
+  "detail": "Lange bevor Shenzhen Elektronik baute, war es für etwas ganz anderes bekannt: Austern. Im Stadtteil Shajing im Bezirk Bao'an reicht die Austernzucht laut Shenzhen Daily bis in die Song-Dynastie zurück, also teils fast tausend Jahre. Die Lokalzeitung nennt Shajing das früheste Gebiet künstlicher Austernzucht der Welt, Beiname: „tausendjähriges Austerndorf“.\n\nWie allgegenwärtig die Muscheln waren, sieht man an der Architektur: Die Ahnenhalle der Familie Jiang hat Wände aus Austernschalen. Historiker vermuten, dass man einfach nahm, was massenhaft herumlag. Erst essen, dann verbauen – Recycling auf Südchinesisch.\n\nSeit 2004 feiert Shajing jedes Jahr im Dezember das Golden Oyster Festival. Dann ist Erntezeit, es gibt Austern gegrillt, gedämpft oder mariniert und Wettbewerbe im Austernöffnen.\n\nVor Ort: Die Jiang-Ahnenhalle steht im Dorf Buchong, Metrolinie 11 bis Houting, dann Taxi. Das Festival fand zuletzt (2024) im Haoxiang Lake Park statt.",
   "sources": [
    {
     "title": "Visit Shajing for oysters",
@@ -533,6 +550,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -540,9 +558,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Mangroven neben Wolkenkratzern: 100.000 Zugvögel überwintern mitten in der Stadt",
-  "teaser": "Das Mangroven-Schutzgebiet Futian ist laut Shenzhen Daily das einzige Naturschutzgebiet Chinas in einem Stadtgebiet – jeden Winter rasten hier rund 100.000 Zugvögel.",
-  "detail": "Auf der einen Seite Hochhäuser und Autobahn, auf der anderen Mangroven, Schlamm und Reiher: Das Mangroven-Naturschutzgebiet Futian an der Shenzhen-Bucht ist laut Shenzhen Daily das einzige Naturschutzgebiet Chinas in einem Stadtgebiet.\n\nShenzhen liegt auf dem Ostasiatisch-Australasiatischen Zugweg, einer der großen Vogelzugrouten der Erde. Jeden Winter kommen mehr als 100 Arten mit rund 100.000 Zugvögeln an die Bucht. Hauptsaison ist Oktober bis April. Ein Star unter den Gästen ist der seltene Schwarzgesicht-Löffler.\n\nGegenüber, auf der anderen Seite der Bucht, liegt das Hongkonger Mai-Po-Schutzgebiet. Beide gehören zum selben Feuchtgebiet – die Vögel kümmern sich nicht um Grenzen.\n\nVor Ort: Der Futian Mangrove Ecological Park liegt an der Ostseite des Schutzgebiets. Für Löffler empfiehlt sich der alte Shazui-Anleger, Metrolinie 7 bis Shawei, Ausgang B, dann rund 1,1 Kilometer zu Fuß.",
+  "headline": "Wolkenkratzer, Mangroven und 100.000 Zugvögel",
+  "teaser": "Das Mangroven-Schutzgebiet Futian ist laut Shenzhen Daily Chinas einziges Naturschutzgebiet in einem Stadtgebiet – jeden Winter rasten hier rund 100.000 Zugvögel.",
+  "detail": "Auf der einen Seite Hochhäuser und Autobahn, auf der anderen Mangroven, Schlamm und Reiher. Das Mangroven-Naturschutzgebiet Futian an der Shenzhen-Bucht ist laut Shenzhen Daily das einzige Naturschutzgebiet Chinas in einem Stadtgebiet.\n\nShenzhen liegt auf dem Ostasiatisch-Australasiatischen Zugweg, einer der großen Vogelzugrouten der Erde. Jeden Winter kommen mehr als 100 Arten mit rund 100.000 Zugvögeln an die Bucht, Hauptsaison Oktober bis April. Star unter den Wintergästen ist der seltene Schwarzgesicht-Löffler.\n\nAuf der anderen Seite der Bucht liegt das Hongkonger Mai-Po-Schutzgebiet. Beide gehören zum selben Feuchtgebiet. Die Menschen brauchen für den Weg dazwischen eine Grenzkontrolle, die Vögel fliegen einfach rüber.\n\nVor Ort: Der Futian Mangrove Ecological Park liegt an der Ostseite des Schutzgebiets. Für Löffler: der alte Shazui-Anleger, Metrolinie 7 bis Shawei, Ausgang B, dann rund 1,1 Kilometer zu Fuß.",
   "sources": [
    {
     "title": "Exploring wonderful wetlands in Shenzhen",
@@ -565,6 +583,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -572,9 +591,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Shenzhens höchster Gipfel ist mit der U-Bahn erreichbar",
-  "teaser": "Der Wutong Shan ist mit 943,7 Metern der höchste Berg Shenzhens – und die Wanderwege beginnen gleich nahe einer Station der Metrolinie 8.",
-  "detail": "Shenzhen ist nicht nur Glas und Beton: Etwa die Hälfte der Stadtfläche besteht aus Natur- und Landschaftsschutzgebieten, Wälder bedecken über 40 Prozent. Die Krone des Ganzen ist der Wutong Shan im Bezirk Luohu – mit 943,7 Metern der höchste Gipfel der Stadt.\n\nDas Praktische: Seit die Metrolinie 8 in der Nähe hält, starten viele Wanderer direkt aus der U-Bahn. Am Südtor beginnen mehrere Wege, am Nordtor liegen sieben alte Dörfer mit kleinen Läden und vegetarischen Restaurants. Von oben gibt es ein Panorama über die Stadt und bei gutem Wetter einen Blick bis Hongkong.\n\nUnterwegs lohnt der buddhistische Hongfa-Tempel, der über den Botanischen Garten Fairy Lake erreichbar ist.\n\nVor Ort: Festes Schuhwerk mitnehmen, denn nach Regen können die Wege ziemlich matschig werden. Im Frühling blühen am Berg die Rhododendren.",
+  "headline": "Shenzhens höchster Gipfel: Anfahrt per U-Bahn",
+  "teaser": "Der Wutong Shan ist mit 943,7 Metern Shenzhens höchster Berg – und die Wanderwege starten gleich bei einer Station der Metrolinie 8.",
+  "detail": "Shenzhen ist nicht nur Glas und Beton. Etwa die Hälfte der Stadtfläche sind Natur- und Landschaftsschutzgebiete, Wälder bedecken über 40 Prozent. Ganz oben thront der Wutong Shan im Bezirk Luohu: 943,7 Meter, höchster Gipfel der Stadt.\n\nDas Praktische: Seit die Metrolinie 8 in der Nähe hält, steigen viele Wanderer direkt aus der U-Bahn auf den Berg. Gipfelsturm mit Fahrkarte. Am Südtor starten mehrere Wege, am Nordtor liegen sieben alte Dörfer mit kleinen Läden und vegetarischen Restaurants. Oben gibt es Panorama über die Stadt und bei gutem Wetter Blick bis Hongkong.\n\nUnterwegs lohnt der buddhistische Hongfa-Tempel, erreichbar über den Botanischen Garten Fairy Lake.\n\nVor Ort: Festes Schuhwerk einpacken, nach Regen werden die Wege ziemlich matschig. Im Frühling blühen am Berg die Rhododendren.",
   "sources": [
    {
     "title": "Mountain-Sea Vistas: Cityscape Intertwined with Mountains and Seas",
@@ -597,6 +616,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -604,9 +624,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Mit der U-Bahn an den Strand – und der ist gratis",
-  "teaser": "Shenzhen hat über 20 öffentliche Strände; einer der beliebtesten, Dameisha, kostet keinen Eintritt und hat eine eigene Station der Metrolinie 8.",
-  "detail": "Eine Millionenmetropole mit Badestrand vor der Haustür: Shenzhen hat rund 260 Kilometer Küste und laut Stadtportal mehr als 20 öffentliche Strände, viele davon durch Uferwege verbunden.\n\nEiner der beliebtesten ist Dameisha im Bezirk Yantian. Er ist frei zugänglich und lockt an Sommer- und Herbstwochenenden mehr als 10.000 Badegäste an. Hingucker sind riesige Skulpturen geflügelter Menschen sowie der Wunschturm in der Mitte des Strandes. Ein Aufzug bringt Besucher dort auf eine Aussichtsplattform 62 Meter über dem Sand.\n\nDer Turm war nach Supertaifun Mangkhut 2018 geschlossen und öffnete am 30. April 2022 wieder, jetzt mit Hologramm- und \"Metaverse\"-Attraktionen. Am Strand findet außerdem ein internationales Sandskulpturen-Festival statt.\n\nVor Ort: Metrolinie 8 bis Station Dameisha. Wer es ruhiger mag, fährt weiter in den Osten auf die Dapeng-Halbinsel, etwa nach Xichong oder Yangmeikeng.",
+  "headline": "Mit der U-Bahn an den Gratis-Strand",
+  "teaser": "Shenzhen hat über 20 öffentliche Strände. Einer der beliebtesten, Dameisha, kostet keinen Eintritt und hat eine eigene Station der Metrolinie 8.",
+  "detail": "Millionenmetropole mit Badestrand vor der Haustür: Shenzhen hat rund 260 Kilometer Küste und laut Stadtportal mehr als 20 öffentliche Strände, viele durch Uferwege verbunden.\n\nEiner der beliebtesten ist Dameisha im Bezirk Yantian. Frei zugänglich, an Sommer- und Herbstwochenenden mehr als 10.000 Badegäste. Hingucker sind riesige Skulpturen geflügelter Menschen und der Wunschturm in der Mitte des Strandes. Ein Aufzug fährt dort auf eine Aussichtsplattform 62 Meter über dem Sand.\n\nNach Supertaifun Mangkhut 2018 war der Turm geschlossen und öffnete erst am 30. April 2022 wieder – jetzt mit Hologramm- und „Metaverse“-Attraktionen. Ein Strand mit Metaverse: Shenzhen bleibt sich treu. Außerdem gibt es dort ein internationales Sandskulpturen-Festival.\n\nVor Ort: Metrolinie 8 bis Dameisha. Wer es ruhiger mag, fährt weiter auf die Dapeng-Halbinsel, etwa nach Xichong oder Yangmeikeng.",
   "sources": [
    {
     "title": "Dameisha Beach Park",
@@ -629,6 +649,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -636,9 +657,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Sterne und Glühwürmchen: Chinas erste Dark-Sky-Gemeinde liegt in Shenzhen",
-  "teaser": "Das Küstendorf Xichong in Shenzhen wurde 2023 als erste „International Dark Sky Community“ Chinas anerkannt – mit Sternenhimmel und Glühwürmchen.",
-  "detail": "Ausgerechnet die leuchtende Megacity Shenzhen hat einen offiziell anerkannten Dunkelort. Xichong liegt ganz im Südosten auf der Dapeng-Halbinsel, rund 60 Kilometer vom Zentrum entfernt. Auf drei Seiten schirmen Berge das Gebiet vom Licht der Stadt ab, auf der vierten liegt das Meer.\n\nIm April 2023 erkannte die International Dark-Sky Association Xichong als erste International Dark Sky Community Chinas an. Das Gebiet ist knapp 11 Quadratkilometer groß, zu 90 Prozent bewaldet und hat acht Dörfer mit etwa 2.500 Bewohnern. Dazu gehört auch die Shenzhener Sternwarte.\n\nEin Forscher der Sternwarte meinte, für Milchstraßenfotos müsse man jetzt nicht mehr nach Yunnan oder Tibet reisen.\n\nVor Ort: Am Xichong Beach, dem größten Strand der Stadt, in einer klaren Nacht nach oben schauen. In der Saison tanzen Glühwürmchen rund um die Sternwarte.",
+  "headline": "Ausgerechnet Shenzhen hat Chinas erste Dark-Sky-Gemeinde",
+  "teaser": "Das Küstendorf Xichong in der Lichter-Megacity Shenzhen wurde 2023 als erste „International Dark Sky Community“ Chinas anerkannt – mit Sternen und Glühwürmchen.",
+  "detail": "Ausgerechnet die leuchtende Megacity Shenzhen hat einen offiziell anerkannten Dunkelort. Xichong liegt ganz im Südosten auf der Dapeng-Halbinsel, rund 60 Kilometer vom Zentrum. Auf drei Seiten schirmen Berge das Stadtlicht ab, auf der vierten liegt das Meer.\n\nIm April 2023 erkannte die International Dark-Sky Association Xichong als erste International Dark Sky Community Chinas an. Knapp 11 Quadratkilometer, zu 90 Prozent bewaldet, acht Dörfer mit etwa 2.500 Bewohnern – und die Shenzhener Sternwarte gehört auch dazu.\n\nEin Forscher der Sternwarte meinte, für Milchstraßenfotos müsse man jetzt nicht mehr nach Yunnan oder Tibet reisen. Die Milchstraße gibt's jetzt quasi im Stadtgebiet.\n\nVor Ort: Am Xichong Beach, dem größten Strand der Stadt, in einer klaren Nacht nach oben schauen. In der Saison tanzen Glühwürmchen rund um die Sternwarte.",
   "sources": [
    {
     "title": "Xichong recognized as first intl. dark sky community in China",
@@ -661,6 +682,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -668,9 +690,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Pyramiden, Taj Mahal und Pisa – Haltestelle inklusive",
-  "teaser": "Im Themenpark „Window of the World“ stehen 118 nachgebaute Weltwunder – so bekannt, dass sogar eine Metrostation danach benannt ist.",
-  "detail": "Wer keine Zeit für eine Weltreise hat, fährt in Shenzhen einfach zur Metrostation \"Window of the World\" der Linie 1. Dort liegt der gleichnamige Themenpark: 48 Hektar voller Nachbauten berühmter Bauwerke, teils im Maßstab 1:1.\n\nLaut Shenzhen Daily sind es 118 Attraktionen, darunter die Pyramiden von Gizeh, der Amun-Tempel von Karnak, der Pariser Triumphbogen, das Taj Mahal und der Schiefe Turm von Pisa. Auf dem zentralen Weltplatz finden mehr als 10.000 Menschen Platz.\n\nShenzhen hat sogar den Ruf einer \"Hauptstadt der Themenparks\": Gleich nebenan liegt der Park Splendid China. Und im Haishan-Park in Yantian gibt es sogar eine Hommage an Gaudís Park Güell.\n\nVor Ort: Metrolinie 1 bis Window of the World – der Park liegt direkt neben Splendid China und dem China Folk Culture Village.",
+  "headline": "Pyramiden, Taj Mahal und Pisa – eine U-Bahn-Station",
+  "teaser": "Im Themenpark „Window of the World“ stehen 118 nachgebaute Weltwunder. Die Metrostation heißt genauso – Weltreise per Einzelfahrschein.",
+  "detail": "Keine Zeit für eine Weltreise? In Shenzhen fährt man einfach mit Linie 1 zur Metrostation „Window of the World“. Dort liegt der gleichnamige Themenpark: 48 Hektar voller Nachbauten berühmter Bauwerke, teils im Maßstab 1:1.\n\nLaut Shenzhen Daily sind es 118 Attraktionen, darunter die Pyramiden von Gizeh, der Amun-Tempel von Karnak, der Pariser Triumphbogen, das Taj Mahal und der Schiefe Turm von Pisa. Einmal um die Welt an einem Nachmittag. Auf dem zentralen Weltplatz finden mehr als 10.000 Menschen Platz.\n\nShenzhen hat sogar den Ruf einer „Hauptstadt der Themenparks“: Gleich nebenan liegt Splendid China, und im Haishan-Park in Yantian gibt es eine Hommage an Gaudís Park Güell.\n\nVor Ort: Metrolinie 1 bis Window of the World – der Park liegt direkt neben Splendid China und dem China Folk Culture Village.",
   "sources": [
    {
     "title": "Window of the World",
@@ -698,6 +720,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -732,6 +755,7 @@
   "gross": false,
   "sensitive": "politik",
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -740,8 +764,8 @@
   "place": "shenzhen",
   "lang": "de",
   "headline": "Ein Stück Shenzhen, auf dem Hongkonger Recht gilt",
-  "teaser": "Seit 2007 gilt im Grenzbahnhof Shenzhen Bay auf Shenzhener Boden in einem abgegrenzten Bereich Hongkonger Recht – so muss man nur einmal aus dem Bus steigen.",
-  "detail": "Normalerweise passiert man an einer Grenze erst die Kontrolle des einen Landes, dann die des anderen – oft mit Fußweg dazwischen. Am Grenzübergang Shenzhen Bay in Shekou ist das anders.\n\nAls er am 1. Juli 2007 zusammen mit der 5,5 Kilometer langen Shenzhen-Bay-Brücke öffnete, startete dort die erste sogenannte Co-Location: Hongkongs Einwanderungs- und Zollbehörden sitzen im selben Gebäude wie die chinesischen. Dafür übt Hongkong in seinem Abfertigungsbereich auf Shenzhener Boden die eigene Rechtshoheit aus, als abgesperrtes Gebiet.\n\nDer Vorteil: Busreisende steigen nur einmal statt zweimal aus und sparen laut Hongkonger Regierung fünf bis zehn Minuten pro Person. Auf dieselbe Weise funktioniert inzwischen auch der Hochgeschwindigkeitsbahnhof in Hongkong-West-Kowloon.\n\nVor Ort: Am Grenzübergang Shenzhen Bay in Shekou merkt man den Wechsel vor allem daran, dass plötzlich Hongkonger Beamte kontrollieren.",
+  "teaser": "Seit 2007 gilt im Grenzübergang Shenzhen Bay in einem abgesperrten Bereich auf Shenzhener Boden Hongkonger Recht – damit man nur einmal aus dem Bus steigen muss.",
+  "detail": "Normalerweise läuft eine Grenze so: Kontrolle des einen Landes, ein Stück laufen, Kontrolle des anderen. Am Grenzübergang Shenzhen Bay in Shekou haben sie das abgekürzt.\n\nAls er am 1. Juli 2007 zusammen mit der 5,5 Kilometer langen Shenzhen-Bay-Brücke öffnete, startete dort die erste sogenannte Co-Location: Hongkongs Einwanderungs- und Zollbehörden sitzen im selben Gebäude wie die chinesischen. Dafür übt Hongkong in seinem abgesperrten Abfertigungsbereich auf Shenzhener Boden die eigene Rechtshoheit aus. Ein Gebäude, zwei Rechtsordnungen.\n\nDer Gewinn: Busreisende steigen nur einmal statt zweimal aus und sparen laut Hongkonger Regierung fünf bis zehn Minuten pro Person. Klingt nach wenig, ist aber eine juristische Konstruktion für ein bisschen weniger Taschenschleppen. Nach demselben Prinzip funktioniert inzwischen auch der Hochgeschwindigkeitsbahnhof Hongkong-West-Kowloon.\n\nVor Ort: Am Grenzübergang Shenzhen Bay merkt man den Wechsel vor allem daran, dass plötzlich Hongkonger Beamte kontrollieren.",
   "sources": [
    {
     "title": "Shenzhen Bay Port and Bridge to commence operation on July 1",
@@ -760,6 +784,7 @@
   "gross": false,
   "sensitive": "politik",
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -767,9 +792,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Hongkong mietet einen Grenzposten in Shenzhen – für 1.000 Yuan im Jahr",
-  "teaser": "Für seinen Bereich im neuen Grenzbahnhof Huanggang zahlt Hongkong Shenzhen eine symbolische Miete von 1.000 Yuan pro Jahr; geöffnet hat er am 12. Oktober 2026.",
-  "detail": "Der Grenzübergang Huanggang in Futian wurde komplett neu gebaut und ist seit dem 12. Oktober 2026, 6:30 Uhr, rund um die Uhr für Reisende und Pkw geöffnet. Wie schon in Shenzhen Bay sitzen Hongkonger und Festlandbehörden unter einem Dach. Dafür gilt im \"Hong Kong Port Area\" seit dem 31. Juli 2026 Hongkonger Recht, obwohl das Gebäude auf Shenzhener Boden steht.\n\nDas Kuriose ist die Miete: Shenzhen hat Planung und Bau des ganzen Komplexes bezahlt, auch den Hongkonger Teil. Hongkong pachtet seinen Bereich und überweist dafür eine symbolische Miete von 1.000 Renminbi pro Jahr – umgerechnet etwa 120 Euro. Der Pachtvertrag läuft bis zum 30. Juni 2047.\n\nGleichzeitig endete die Personenabfertigung zwischen dem provisorischen Huanggang-Gebäude und der Kontrollstelle Lok Ma Chau.\n\nVor Ort: Huanggang liegt im Bezirk Futian, nahe am Stadtzentrum.",
+  "headline": "Hongkong mietet einen Grenzposten für 1.000 Yuan im Jahr",
+  "teaser": "Für seinen Bereich im neuen Grenzbahnhof Huanggang in Shenzhen zahlt Hongkong eine symbolische Miete von 1.000 Yuan pro Jahr. Geöffnet hat er am 12. Oktober 2026.",
+  "detail": "Der Grenzübergang Huanggang in Futian wurde komplett neu gebaut und ist seit dem 12. Oktober 2026, 6:30 Uhr, rund um die Uhr für Reisende und Pkw offen. Wie schon in Shenzhen Bay sitzen Hongkonger und Festlandbehörden unter einem Dach. Im „Hong Kong Port Area“ gilt deshalb seit dem 31. Juli 2026 Hongkonger Recht, obwohl das Gebäude auf Shenzhener Boden steht.\n\nDas Kuriose ist die Miete. Shenzhen hat Planung und Bau des ganzen Komplexes bezahlt, auch den Hongkonger Teil. Hongkong pachtet seinen Bereich und überweist dafür symbolische 1.000 Renminbi pro Jahr – umgerechnet etwa 120 Euro. Ein ganzer Grenzposten zum Preis eines netten Abendessens. Der Pachtvertrag läuft bis zum 30. Juni 2047.\n\nGleichzeitig endete die Personenabfertigung zwischen dem provisorischen Huanggang-Gebäude und der Kontrollstelle Lok Ma Chau.\n\nVor Ort: Huanggang liegt im Bezirk Futian, nahe am Stadtzentrum.",
   "sources": [
    {
     "title": "Hong Kong and Shenzhen sign Co-operation Arrangement on Colocation Arrangement at the Huanggang Port and Agreement on the Right to Use the Hong Kong Port Area",
@@ -800,6 +825,7 @@
   "gross": false,
   "sensitive": "politik",
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -807,9 +833,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "24 Kilometer über und unter dem Meer: Shenzhen–Zhongshan in 30 Minuten",
+  "headline": "Unter dem Meer von Shenzhen nach Zhongshan",
   "teaser": "Seit Juni 2024 verbindet der 24 Kilometer lange Shenzhen-Zhongshan-Link die beiden Städte – laut China Daily mit dem längsten und breitesten Stahlschalen-Beton-Absenktunnel der Welt.",
-  "detail": "Shenzhen und Zhongshan liegen sich an der Mündung des Perlflusses gegenüber. Früher dauerte die Fahrt um die Bucht herum rund zwei Stunden. Seit dem 30. Juni 2024 sind es etwa 30 Minuten.\n\nMöglich macht das der Shenzhen-Zhongshan-Link: 24 Kilometer aus Brücken und einem Unterwassertunnel. Der hat es in sich. Laut China Daily ist er der erste lange Unterwassertunnel mit zwei mal vier Fahrspuren in Absenkbauweise, bei der vorgefertigte Tunnelteile auf den Meeresgrund abgesenkt und verbunden werden. Mit rund fünf Kilometern Absenkstrecke ist er laut der Zeitung der längste und breiteste Stahlschalen-Beton-Absenktunnel der Welt.\n\nRund 31 Kilometer weiter südlich liegt übrigens die 55 Kilometer lange Hongkong-Zhuhai-Macau-Brücke – die Perlflussmündung ist eine Art Freiluftmuseum für Megabauwerke.\n\nVor Ort: Wer kein Auto hat, nimmt einen der Überlandbusse – laut China Daily brauchen sie über den Link weniger als eine Stunde zwischen beiden Städten.",
+  "detail": "Shenzhen und Zhongshan liegen sich an der Perlflussmündung gegenüber. Früher hieß das: rund zwei Stunden um die Bucht herumfahren. Seit dem 30. Juni 2024 sind es etwa 30 Minuten.\n\nDer Grund ist der Shenzhen-Zhongshan-Link: 24 Kilometer aus Brücken und einem Unterwassertunnel. Für den hat man vorgefertigte Tunnelteile auf den Meeresgrund abgesenkt und dort verbunden. Laut China Daily ist es der erste lange Unterwassertunnel mit zwei mal vier Fahrspuren in dieser Absenkbauweise. Mit rund fünf Kilometern Absenkstrecke ist er laut der Zeitung der längste und breiteste Stahlschalen-Beton-Absenktunnel der Welt.\n\nRund 31 Kilometer weiter südlich liegt die 55 Kilometer lange Hongkong-Zhuhai-Macau-Brücke. Die Perlflussmündung ist eine Art Freiluftmuseum für Megabauwerke.\n\nVor Ort: Ohne Auto nimmt man einen der Überlandbusse – laut China Daily brauchen sie über den Link weniger als eine Stunde.",
   "sources": [
    {
     "title": "Shenzhen, Zhongshan connected by 'most comprehensive' crossing",
@@ -838,6 +864,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -845,9 +872,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "10.197 Drohnen zauberten ein Rekord-Feuerwerk über Shenzhen",
-  "teaser": "Zum Nationalfeiertag 2024 ließ die Lichtshow-Firma Damoda über Shenzhen 10.197 Drohnen gleichzeitig von einem einzigen Computer aus fliegen – damals zwei Guinness-Weltrekorde.",
-  "detail": "In Shenzhen sitzt der Drohnenriese DJI, der hier 2006 mit einem einzigen kleinen Büro anfing. Am 26. September 2024 zeigte die Stadt, was mit Drohnen am Himmel möglich ist: Die Lichtshow-Firma Damoda schickte 10.200 Drohnen in die Luft. Guinness-Prüfer zählten danach 10.197 gültige Exemplare.\n\nDas brachte zwei Weltrekorde: die meisten Drohnen gleichzeitig in der Luft, gesteuert von einem einzigen Computer im Freien, und das größte Luftbild aus Drohnen. Leicht war es nicht – starker Wind und Störungen in der Ionosphäre machten die Show zur Zitterpartie.\n\nRekorde halten in China allerdings nicht lange: Am 3. Februar 2026 ließ die Firma EHang Egret in Hefei 22.580 Drohnen gleichzeitig fliegen, mehr als doppelt so viele.\n\nDie Show war Teil der Feiern zum chinesischen Nationalfeiertag am 1. Oktober – Guinness sprach von einem \"Cyber-Feuerwerk\".",
+  "headline": "10.197 Drohnen statt Feuerwerk über Shenzhen",
+  "teaser": "Zum Nationalfeiertag 2024 ließ die Firma Damoda über Shenzhen 10.197 Drohnen gleichzeitig von einem einzigen Computer aus fliegen – damals zwei Guinness-Weltrekorde.",
+  "detail": "In Shenzhen sitzt der Drohnenriese DJI, der hier 2006 mit einem einzigen kleinen Büro anfing. Am 26. September 2024 zeigte die Stadt, was am Himmel möglich ist: Die Lichtshow-Firma Damoda schickte 10.200 Drohnen hoch. Die Guinness-Prüfer zählten danach 10.197 gültige – ein paar haben wohl Feierabend gemacht.\n\nErgebnis: zwei Weltrekorde. Die meisten Drohnen gleichzeitig in der Luft, gesteuert von einem einzigen Computer im Freien, und das größte Luftbild aus Drohnen. Leicht war das nicht: Starker Wind und Störungen in der Ionosphäre machten die Show zur Zitterpartie.\n\nGuinness nannte das Ganze ein „Cyber-Feuerwerk“, passend zum chinesischen Nationalfeiertag am 1. Oktober.\n\nNur: Rekorde halten in China nicht lange. Am 3. Februar 2026 ließ die Firma EHang Egret in Hefei 22.580 Drohnen gleichzeitig fliegen – mehr als doppelt so viele.",
   "sources": [
    {
     "title": "A dazzling display: China’s record-breaking drone spectacle with over 10,000 drones",
@@ -875,6 +902,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -883,8 +911,8 @@
   "place": "shenzhen",
   "lang": "de",
   "headline": "Shenzhen empfängt im November 2026 den APEC-Gipfel",
-  "teaser": "Am 18. und 19. November 2026 soll das 33. Gipfeltreffen der APEC-Staats- und Regierungschefs in Shenzhen stattfinden – erst zum dritten Mal in China.",
-  "detail": "Die Asiatisch-Pazifische Wirtschaftskooperation APEC bringt 21 Volkswirtschaften rund um den Pazifik zusammen, darunter die USA, Japan, Australien und Russland. 2026 hat China den Vorsitz, und das Gipfeltreffen der Staats- und Regierungschefs ist für den 18. und 19. November in Shenzhen angesetzt. Dazu gehören ein Wirtschaftsgipfel mit Konzernchefs und ein Treffen der Außen- und Handelsminister.\n\nFür China ist es erst das dritte Mal als Gastgeber eines APEC-Leadergipfels. Staatschef Xi Jinping verwies bei der Ankündigung auf Shenzhens Lage an der Pazifikküste und beschrieb die Stadt als ehemals kleines, rückständiges Fischerdorf, das zur internationalen Metropole geworden sei.\n\nDie Ankündigung machte Xi am 1. November 2025 im südkoreanischen Gyeongju, wo er bei der Übergabe des Vorsitzes den Staffelstab übernahm. Die Termine gab das Außenministerium im Dezember 2025 bekannt.",
+  "teaser": "Am 18. und 19. November 2026 soll das 33. APEC-Gipfeltreffen der Staats- und Regierungschefs in Shenzhen stattfinden – erst zum dritten Mal in China.",
+  "detail": "Die Asiatisch-Pazifische Wirtschaftskooperation APEC bringt 21 Volkswirtschaften rund um den Pazifik zusammen, darunter die USA, Japan, Australien und Russland. 2026 hat China den Vorsitz, und das Gipfeltreffen der Staats- und Regierungschefs ist für den 18. und 19. November in Shenzhen angesetzt. Dazu kommen ein Wirtschaftsgipfel mit Konzernchefs und ein Treffen der Außen- und Handelsminister.\n\nFür China ist es erst das dritte Mal als Gastgeber eines APEC-Leadergipfels. Xi Jinping verwies bei der Ankündigung auf Shenzhens Lage an der Pazifikküste und beschrieb die Stadt als ehemals kleines, rückständiges Fischerdorf, das zur internationalen Metropole geworden sei.\n\nAngekündigt hat er das am 1. November 2025 im südkoreanischen Gyeongju, wo er bei der Übergabe des Vorsitzes den Staffelstab übernahm. Die Termine gab das Außenministerium im Dezember 2025 bekannt. Vom Fischerdorf zum Gipfelort – die Stadt erzählt ihre Lieblingsgeschichte gern selbst.",
   "sources": [
    {
     "title": "Xi says China's city of Shenzhen to host APEC Economic Leaders' Meeting in 2026",
@@ -914,6 +942,7 @@
   "gross": false,
   "sensitive": "politik",
   "kids": true,
+  "fun": 1,
   "verified": "2026-10-14",
   "expires": "2026-12-03"
  },
@@ -922,9 +951,9 @@
   "category": "ort",
   "place": "shenzhen",
   "lang": "de",
-  "headline": "Shenzhen ist offiziell UNESCO-Designstadt – mit 100.000 Designjobs",
-  "teaser": "Seit 2008 gehört Shenzhen zum UNESCO-Netzwerk der kreativen Städte als „City of Design“ – mit über 6.000 Designfirmen und rund 100.000 Beschäftigten.",
-  "detail": "Lange galt Shenzhen als Werkbank, die nachbaut, was anderswo erfunden wurde. Die UNESCO sieht das anders: Seit 2008 ist die Stadt Mitglied im Creative Cities Network in der Sparte Design.\n\nDie Zahlen auf der UNESCO-Seite (undatiertes Städteprofil): Mehr als 6.000 Designfirmen mit rund 100.000 Beschäftigten, über 30.000 Designerinnen und Designer arbeiten für mehr als 800 chinesische Modemarken. Shenzhen ist demnach Chinas größter Produktionsstandort für Damenmode. Jedes Jahr gehen rund 40.000 Patente an Shenzhener Firmen, die Hälfte davon für Designinnovationen.\n\nDie UNESCO erinnert auch an den Startpunkt: Am 26. August 1980 wurde Shenzhen Chinas erste Sonderwirtschaftszone.\n\nVor Ort: Im Design Society in Shekou und im AN+ Art & Design Center im Ping An Finance Center kann man sich die Designszene ansehen.",
+  "headline": "Die einstige Werkbank ist jetzt UNESCO-Designstadt",
+  "teaser": "Seit 2008 ist Shenzhen UNESCO-„City of Design“ – mit über 6.000 Designfirmen und rund 100.000 Beschäftigten.",
+  "detail": "Lange galt Shenzhen als Werkbank, die nachbaut, was anderswo erfunden wurde. Die UNESCO sieht das anders: Seit 2008 ist die Stadt Mitglied im Creative Cities Network, Sparte Design.\n\nDie Zahlen auf der UNESCO-Seite (undatiertes Städteprofil): mehr als 6.000 Designfirmen mit rund 100.000 Beschäftigten, über 30.000 Designerinnen und Designer für mehr als 800 chinesische Modemarken. Shenzhen ist demnach Chinas größter Produktionsstandort für Damenmode. Jedes Jahr gehen rund 40.000 Patente an Shenzhener Firmen, die Hälfte davon für Designinnovationen.\n\nVom Kopieren zum Patentieren also – zumindest laut Urkunde.\n\nDie UNESCO erinnert auch an den Startpunkt: Am 26. August 1980 wurde Shenzhen Chinas erste Sonderwirtschaftszone.\n\nVor Ort: Im Design Society in Shekou und im AN+ Art & Design Center im Ping An Finance Center kann man die Designszene ansehen.",
   "sources": [
    {
     "title": "Shenzhen – Creative City of Design",
@@ -946,6 +975,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  }
 ]

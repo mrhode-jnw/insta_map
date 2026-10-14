@@ -10,7 +10,9 @@ neuen fun-Wert. Danach build_facts.py laufen lassen.
 import glob, json, pathlib, re, sys
 
 FIELDS = ("headline", "teaser", "detail")
-SUPER = re.compile(r"\b(größt\w*|erst\w*|einzig\w*|ältest\w*|längst\w*|höchst\w*|schnellst\w*|nie|niemals|immer|alle|weltweit)\b", re.I)
+# Superlative und Absolutheiten; verglichen wird der Wortstamm, damit „älteste“/„ältesten“ gleich zählen.
+# „erst“ allein („erst 1990“) ist kein Superlativ und wird nicht geprüft.
+SUPER = re.compile(r"\b(größt|erste|ersten|erster|erstes|einzig|ältest|längst|höchst|schnellst|niemals|nie|immer|weltweit|der welt)", re.I)
 
 
 def numbers(t):

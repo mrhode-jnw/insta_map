@@ -4,9 +4,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Die Chinesische Mauer ist länger als der halbe Erdumfang",
-  "teaser": "Rechnet man alle Abschnitte zusammen, kommt die Chinesische Mauer auf 21.196 Kilometer – mehr als die Hälfte des Erdumfangs am Äquator.",
-  "detail": "Wer bei der Chinesischen Mauer an eine einzige, durchgehende Wand denkt, liegt daneben. Tatsächlich handelt es sich um ein Geflecht aus Mauern, Wällen, Türmen und Festungen, das über viele Jahrhunderte von verschiedenen Dynastien gebaut wurde. Laut World History Encyclopedia läuft das gesamte System über 21.196 Kilometer, vom Jiayuguan-Pass im Westen bis an die Bohai-Bucht im Osten.\n\nZum Vergleich: Der Erdumfang am Äquator beträgt rund 40.075 Kilometer. Die Mauer schafft also mehr als die Hälfte davon.\n\nDabei durchquert sie elf Provinzen beziehungsweise regierungsunmittelbare Städte (nach anderer Zählung zehn) sowie die autonomen Gebiete Innere Mongolei und Ningxia. Die heute so oft fotografierten Abschnitte bei Peking stammen größtenteils aus der Ming-Zeit.\n\nUNESCO-Welterbe ist die Mauer seit 1987. Trotzdem verfällt sie langsam: Laut World History Encyclopedia gelten nur noch rund 372 Kilometer als stabil.",
+  "headline": "Die Mauer schafft mehr als den halben Äquator",
+  "teaser": "Alle Abschnitte zusammen kommt die Chinesische Mauer auf 21.196 Kilometer – mehr als die Hälfte des Erdumfangs am Äquator.",
+  "detail": "Kleiner Denkfehler vorweg: Die Chinesische Mauer ist keine einzelne, durchgehende Wand. Sie ist ein Geflecht aus Mauern, Wällen, Türmen und Festungen, an dem verschiedene Dynastien über viele Jahrhunderte gebaut haben. Laut World History Encyclopedia läuft das ganze System über 21.196 Kilometer, vom Jiayuguan-Pass im Westen bis an die Bohai-Bucht im Osten.\n\nDer Erdumfang am Äquator beträgt rund 40.075 Kilometer. Die Mauer hat also mehr als die Hälfte davon geschafft – nur eben nicht am Stück.\n\nUnterwegs quert sie elf Provinzen beziehungsweise regierungsunmittelbare Städte (nach anderer Zählung zehn) und die autonomen Gebiete Innere Mongolei und Ningxia. Die Postkartenabschnitte bei Peking stammen größtenteils aus der Ming-Zeit.\n\nWelterbe ist sie seit 1987. Trotzdem bröckelt es: Laut World History Encyclopedia gelten nur noch rund 372 Kilometer als stabil. Lang ist sie also – heil eher weniger.",
   "sources": [
    {
     "title": "Great Wall of China",
@@ -22,6 +22,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -46,6 +47,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -53,9 +55,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Pandas greifen mit einem falschen Daumen aus Handknochen",
-  "teaser": "Pandas halten Bambus mit einem „Pseudo-Daumen“: einem verlängerten Handwurzelknochen mit Polster, der wie ein zusätzlicher Finger funktioniert.",
-  "detail": "Wer Pandas beim Fressen zusieht, merkt schnell: Die Tiere sitzen aufrecht wie Menschen auf dem Boden und halten die Bambusstangen erstaunlich geschickt in den Vorderpfoten. Möglich macht das ein anatomischer Trick.\n\nLaut Smithsonian's National Zoo besitzen Große Pandas einen sogenannten Pseudo-Daumen. Das ist kein echter Finger, sondern ein verlängerter und vergrößerter Handwurzelknochen, der von einem fleischigen Hautpolster bedeckt ist. Gegen diesen Vorsprung drücken die Pandas die Bambusstängel und können sie so festhalten und abschälen.\n\nDie eigentliche Arbeit erledigen dann kräftige Kiefer und breite Backenzähne. Sie zermalmen den zähen, faserigen Bambus in kleine Stücke.\n\nDer Pseudo-Daumen ist ein schönes Beispiel dafür, wie die Evolution mit vorhandenem Material bastelt: Statt eines neuen Fingers wurde einfach ein Knochen umfunktioniert. Für einen Bären, der fast nur Pflanzen frisst, ist das genau das richtige Werkzeug.",
+  "headline": "Pandas haben einen falschen Daumen",
+  "teaser": "Pandas halten Bambus mit einem „Pseudo-Daumen“: einem verlängerten Handwurzelknochen mit Polster, der wie ein Extra-Finger funktioniert.",
+  "detail": "Schau Pandas beim Fressen zu, und du siehst: Die sitzen aufrecht auf dem Hintern wie Menschen und halten die Bambusstangen erstaunlich geschickt in den Vorderpfoten. Dahinter steckt ein anatomischer Trick.\n\nLaut Smithsonian's National Zoo haben Große Pandas einen sogenannten Pseudo-Daumen. Kein echter Finger, sondern ein verlängerter und vergrößerter Handwurzelknochen, bedeckt von einem fleischigen Hautpolster. Gegen diesen Höcker drücken die Pandas die Bambusstängel, halten sie fest und schälen sie ab.\n\nDen Rest erledigen kräftige Kiefer und breite Backenzähne, die den zähen, faserigen Bambus zermalmen.\n\nDer Pseudo-Daumen ist Evolution im Bastelkeller-Modus: Statt einen neuen Finger zu bauen, wurde einfach ein vorhandener Knochen umfunktioniert. Nicht elegant, aber es funktioniert. Für einen Bären, der fast nur Pflanzen frisst, ist das genau das richtige Werkzeug.",
   "sources": [
    {
     "title": "Giant panda",
@@ -70,6 +72,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -97,6 +100,7 @@
   "era": "antike",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -104,9 +108,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Chinas Neujahrsfest ist offiziell Welterbe",
+  "headline": "Chinas Neujahrsfest hat jetzt UNESCO-Siegel",
   "teaser": "Seit 2024 steht das Frühlingsfest, also das chinesische Neujahr, auf der UNESCO-Liste des immateriellen Kulturerbes der Menschheit.",
-  "detail": "Das wichtigste Fest Chinas hat seit Dezember 2024 einen offiziellen Ritterschlag: Die UNESCO nahm das Frühlingsfest in ihre Repräsentative Liste des immateriellen Kulturerbes auf. Gewürdigt werden die sozialen Bräuche, mit denen Chinesinnen und Chinesen den Jahreswechsel nach dem traditionellen Kalender feiern.\n\nDas Fest beginnt am ersten Tag des ersten Monats im chinesischen Kalender. Die ganze Feierphase heißt laut UNESCO „guonian“, wörtlich etwa „das Jahr überqueren“.\n\nDer Ablauf ist fast überall ähnlich: In den Tagen davor wird die Wohnung geputzt, eingekauft und vorgekocht. An Silvester isst die Familie gemeinsam und bleibt lange auf, um das neue Jahr zu begrüßen. Danach trägt man neue Kleidung, bringt Opfergaben für Himmel, Erde und Ahnen dar und besucht Ältere, Verwandte und Nachbarn.\n\nFür Reisende heißt das: Rund um das Frühlingsfest sind Züge und Flüge extrem voll, viele Geschäfte schließen für einige Tage. Dafür erlebt man das Land in Feierlaune.",
+  "detail": "Das wichtigste Fest Chinas hat seit Dezember 2024 den offiziellen Ritterschlag: Die UNESCO nahm das Frühlingsfest in ihre Repräsentative Liste des immateriellen Kulturerbes auf. Gewürdigt werden die Bräuche, mit denen der Jahreswechsel nach dem traditionellen Kalender gefeiert wird.\n\nLos geht es am ersten Tag des ersten Monats im chinesischen Kalender. Die ganze Feierphase heißt laut UNESCO „guonian“, wörtlich etwa „das Jahr überqueren“ – als wäre das neue Jahr ein Fluss.\n\nDer Ablauf ist fast überall ähnlich: Vorher wird geputzt, eingekauft und vorgekocht. An Silvester isst die Familie zusammen und bleibt lange auf. Danach: neue Kleidung, Opfergaben für Himmel, Erde und Ahnen, Besuche bei Älteren, Verwandten und Nachbarn.\n\nFür Reisende heißt das: Rund ums Frühlingsfest sind Züge und Flüge extrem voll, viele Geschäfte machen ein paar Tage zu. Dafür erlebt man das ganze Land in Feierlaune.",
   "sources": [
    {
     "title": "Spring festival, social practices of the Chinese people in celebration of traditional new year",
@@ -122,6 +126,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 1,
   "verified": "2026-10-14"
  },
  {
@@ -129,9 +134,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "China kennt über 2.000 Teesorten – aus nur sechs Grundtypen",
-  "teaser": "Grün, gelb, dunkel, weiß, Oolong und schwarz: Aus diesen sechs Teekategorien und aromatisierten Varianten entstehen laut UNESCO über 2.000 chinesische Teeprodukte.",
-  "detail": "Tee ist in China nicht einfach ein Getränk, sondern ein ganzes Kulturfeld. 2022 hat die UNESCO die traditionellen Techniken der Teeverarbeitung und die damit verbundenen sozialen Bräuche als immaterielles Kulturerbe anerkannt.\n\nDie Grundlage bilden sechs Kategorien: grüner, gelber, dunkler, weißer, Oolong- und schwarzer Tee. Rechnet man weiterverarbeitete Tees wie mit Blüten aromatisierte Sorten dazu, kommt man laut UNESCO auf mehr als 2.000 Teeprodukte in unterschiedlichen Farben, Aromen, Geschmacksrichtungen und Formen.\n\nKleine Sprachfalle für Reisende: Was im Westen „Schwarztee“ heißt, nennt man in China nach der Farbe des Aufgusses „roten Tee“ (hongcha). Der „dunkle“ Tee ist eine eigene, nachfermentierte Kategorie, zu der etwa der Pu-Erh gehört.\n\nGetrunken wird überall: zu Hause, im Büro, in Teehäusern, Restaurants und Tempeln. Tee gehört auch zu Hochzeiten und Zeremonien, und wer Gäste empfängt, schenkt fast immer zuerst eine Tasse ein.",
+  "headline": "Sechs Teesorten, über 2.000 Varianten",
+  "teaser": "Grün, gelb, dunkel, weiß, Oolong und schwarz: Aus diesen sechs Kategorien plus aromatisierten Varianten entstehen laut UNESCO über 2.000 chinesische Teeprodukte.",
+  "detail": "In China ist Tee kein Getränk, sondern ein ganzes Fachgebiet. 2022 hat die UNESCO die traditionelle Teeverarbeitung samt den dazugehörigen Bräuchen als immaterielles Kulturerbe anerkannt.\n\nDie Basis sind sechs Kategorien: grüner, gelber, dunkler, weißer, Oolong- und schwarzer Tee. Zählt man weiterverarbeitete Tees dazu, etwa mit Blüten aromatisierte, kommt man laut UNESCO auf mehr als 2.000 Teeprodukte in unterschiedlichen Farben, Aromen und Formen.\n\nAchtung, Sprachfalle: Was bei uns „Schwarztee“ heißt, nennt man in China nach der Farbe des Aufgusses „roten Tee“ (hongcha). Der „dunkle“ Tee ist dagegen eine eigene, nachfermentierte Kategorie, zu der etwa der Pu-Erh gehört. Wer in China „schwarzen Tee“ bestellt, kann also eine Überraschung erleben.\n\nGetrunken wird überall: zu Hause, im Büro, in Teehäusern, Restaurants und Tempeln. Und wer Gäste empfängt, schenkt fast immer zuerst eine Tasse ein.",
   "sources": [
    {
     "title": "Traditional tea processing techniques and associated social practices in China",
@@ -147,6 +152,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -154,9 +160,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Der chinesische Abakus ist UNESCO-Kulturerbe",
+  "headline": "Abakus-Rechnen ist Weltkulturerbe – mit Reimen",
   "teaser": "Zhusuan, das Rechnen mit dem chinesischen Abakus, steht seit 2013 auf der UNESCO-Liste – samt gereimter Merksprüche für jede Rechenart.",
-  "detail": "Lange bevor es Taschenrechner gab, rechnete man in China mit Holzperlen auf Stäben. Diese Kunst heißt Zhusuan, und die UNESCO hat sie 2013 als immaterielles Kulturerbe der Menschheit anerkannt.\n\nMit dem Abakus lassen sich nicht nur Plus- und Minusaufgaben lösen. Laut UNESCO beherrschen geübte Rechner auch Multiplikation, Division, Potenzen, Wurzeln und noch kompliziertere Gleichungen, indem sie Perlen nach festen Regeln verschieben.\n\nDas Besondere: Für jede Rechenregel gibt es gereimte Merksprüche. Sie sind leicht zu lernen und fassen die Rechenschritte zusammen, sodass Anfänger schon nach kurzer Übung flott rechnen können.\n\nAuch das Kopfrechnen mit dem Abakus wird trainiert. Die UNESCO schreibt, dieses Training gelte als förderlich für Aufmerksamkeit und Gedächtnis von Kindern.",
+  "detail": "Lange vor dem Taschenrechner rechnete man in China mit Holzperlen auf Stäben. Diese Kunst heißt Zhusuan, und die UNESCO hat sie 2013 als immaterielles Kulturerbe der Menschheit anerkannt.\n\nPlus und Minus sind dabei nur das Aufwärmprogramm. Laut UNESCO schaffen geübte Rechner auch Multiplikation, Division, Potenzen, Wurzeln und noch kompliziertere Gleichungen – nur durch Perlenschieben nach festen Regeln.\n\nDer Clou: Für jede Rechenregel gibt es gereimte Merksprüche. Die sind leicht zu lernen und fassen die Rechenschritte zusammen, sodass Anfänger nach kurzer Übung flott rechnen können. Mathe als Gedicht – das hätte im Matheunterricht vielleicht auch geholfen.\n\nAuch das Kopfrechnen mit dem Abakus wird trainiert. Laut UNESCO gilt das als förderlich für Aufmerksamkeit und Gedächtnis von Kindern.",
   "sources": [
    {
     "title": "Chinese Zhusuan, knowledge and practices of mathematical calculation through the abacus",
@@ -172,6 +178,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -179,9 +186,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "In Chinas Seidendörfern fressen Fische den Seidenraupen-Kot",
+  "headline": "In Seidendörfern fressen Fische Raupenkot",
   "teaser": "In traditionellen Seidendörfern bilden Raupen, Fische und Maulbeerbäume einen Kreislauf: Raupenkot füttert die Fische, Teichschlamm düngt die Bäume.",
-  "detail": "Seide ist eine der berühmtesten Erfindungen Chinas, und ihre Herstellung ist seit 2009 UNESCO-Kulturerbe. Gewürdigt werden Seidenraupenzucht und Seidenhandwerk vor allem in den Provinzen Zhejiang und Jiangsu nahe Shanghai sowie in Chengdu in Sichuan.\n\nDer Prozess umfasst alles: Maulbeerbäume pflanzen, Raupen aufziehen, Kokons abwickeln, Fäden spinnen, Stoffe entwerfen und weben.\n\nBesonders clever ist die Kreislaufwirtschaft, die die UNESCO beschreibt: In den Teichen, die überall in den Dörfern liegen, wird der Kot der Seidenraupen an Fische verfüttert. Der Schlamm aus den Teichen düngt die Maulbeerbäume, und deren Blätter fressen wiederum die Raupen. So entsteht ein geschlossener Kreislauf.\n\nAuch spirituell spielt die Raupe eine Rolle: Ihr Lebenszyklus galt als Sinnbild für Leben, Tod und Wiedergeburt. Jedes Jahr im April schmücken sich Seidenbäuerinnen beim Seidenblumenfest mit Blüten aus Seide oder Papier.",
+  "detail": "Seide gehört zu Chinas berühmtesten Erfindungen, und ihre Herstellung ist seit 2009 UNESCO-Kulturerbe. Gewürdigt werden Seidenraupenzucht und Seidenhandwerk vor allem in den Provinzen Zhejiang und Jiangsu nahe Shanghai sowie in Chengdu in Sichuan.\n\nDazu gehört alles: Maulbeerbäume pflanzen, Raupen aufziehen, Kokons abwickeln, Fäden spinnen, Stoffe entwerfen und weben.\n\nAm cleversten ist die Kreislaufwirtschaft, die die UNESCO beschreibt. In den Dorfteichen wird der Kot der Seidenraupen an Fische verfüttert. Der Teichschlamm düngt die Maulbeerbäume, deren Blätter wiederum die Raupen fressen. Ein geschlossener Kreislauf – und niemand muss den Raupenmist entsorgen. Kein Abfall, nur sehr zufriedene Fische.\n\nSpirituell ist die Raupe auch wichtig: Ihr Lebenszyklus galt als Sinnbild für Leben, Tod und Wiedergeburt. Jedes Jahr im April schmücken sich Seidenbäuerinnen beim Seidenblumenfest mit Blüten aus Seide oder Papier.",
   "sources": [
    {
     "title": "Sericulture and silk craftsmanship of China",
@@ -198,6 +205,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -205,9 +213,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Die längste Brücke der Welt ist 164 Kilometer lang",
+  "headline": "Die längste Brücke der Welt: 164 Kilometer Stelzen",
   "teaser": "Die Danyang-Kunshan-Brücke auf der Schnellfahrstrecke Peking–Shanghai misst laut Guinness 164 Kilometer – die längste Brücke der Welt.",
-  "detail": "Wer mit dem Hochgeschwindigkeitszug von Peking nach Shanghai fährt, verbringt einen erstaunlich großen Teil der Strecke auf Stelzen. Die Danyang-Kunshan Grand Bridge ist laut Guinness World Records mit 164 Kilometern die längste Brücke der Welt. Sie ist Teil der Schnellfahrstrecke Peking–Shanghai, die im Juni 2011 eröffnet wurde.\n\nUnd als ob das nicht reichen würde, liegt auf derselben Linie auch die Nummer zwei: der Langfang-Qingxian-Viadukt mit 114 Kilometern.\n\nDie Strecke führt durch die dicht besiedelte, von Flüssen, Kanälen und Seen durchzogene Landschaft am unteren Jangtse, wo eine aufgeständerte Trasse Straßen und Gewässer einfach überspannt.\n\n164 Kilometer, das ist mehr als die Luftlinie von Köln nach Frankfurt. Nur eben komplett auf Pfeilern.",
+  "detail": "Wer mit dem Schnellzug von Peking nach Shanghai fährt, verbringt einen erstaunlich großen Teil der Reise auf Stelzen. Die Danyang-Kunshan Grand Bridge ist laut Guinness World Records mit 164 Kilometern die längste Brücke der Welt. Sie gehört zur Schnellfahrstrecke Peking–Shanghai, eröffnet im Juni 2011.\n\nUnd weil eine Rekordbrücke offenbar nicht reicht, liegt auf derselben Linie gleich die Nummer zwei: der Langfang-Qingxian-Viadukt mit 114 Kilometern. Eine Bahnstrecke, zwei Podestplätze.\n\nDer Grund für die Stelzen: Die Strecke führt durch die dicht besiedelte Landschaft am unteren Jangtse, voller Flüsse, Kanäle und Seen. Statt alles einzeln zu überbrücken, überspannt die aufgeständerte Trasse einfach alles auf einmal.\n\n164 Kilometer sind mehr als die Luftlinie von Köln nach Frankfurt. Nur eben komplett auf Pfeilern.",
   "sources": [
    {
     "title": "Longest bridge",
@@ -223,6 +231,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -230,9 +239,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "China landete als erstes Land auf der Mondrückseite",
+  "headline": "China landete als Erstes auf der Mondrückseite",
   "teaser": "Im Januar 2019 setzte Chinas Mission Chang'e-4 den Rover Yutu-2 auf der Rückseite des Mondes ab – die erste Landung dort überhaupt.",
-  "detail": "Die Rückseite des Mondes ist nicht dunkel, aber sie zeigt nie zur Erde. Wer dort landet, hat deshalb keinen direkten Funkkontakt nach Hause. Genau das hat China als erstes Land geschafft.\n\nLaut The Planetary Society setzte die Mission Chang'e-4 im Januar 2019 eine Landeplattform und den Rover Yutu-2 („Jadehase 2“) im Von-Kármán-Krater ab. Der liegt im riesigen Südpol-Aitken-Becken, einem der ältesten Einschlagsbecken des Mondes, in dem womöglich Material aus dem Mondmantel freiliegt.\n\nDas Kommunikationsproblem löste China mit einem Trick: Schon im Mai 2018 startete der Relaissatellit Queqiao („Elsternbrücke“), der die Signale zwischen Rückseite und Erde weiterleitet. Der Name stammt aus einer chinesischen Legende, in der Elstern eine Brücke für zwei getrennte Liebende bilden.\n\nDie stille Mondrückseite gilt übrigens als idealer Ort für Radioteleskope, weil dort kein Funkrauschen von der Erde stört.",
+  "detail": "Erst mal ein Mythos weniger: Die Mondrückseite ist nicht dunkel. Sie zeigt nur nie zur Erde. Wer dort landet, hat deshalb keinen direkten Funkkontakt nach Hause. Genau das hat China als erstes Land geschafft.\n\nLaut The Planetary Society setzte die Mission Chang'e-4 im Januar 2019 eine Landeplattform und den Rover Yutu-2 („Jadehase 2“) im Von-Kármán-Krater ab. Der liegt im riesigen Südpol-Aitken-Becken, einem der ältesten Einschlagsbecken des Mondes, in dem womöglich Material aus dem Mondmantel freiliegt.\n\nDas Funkloch löste China mit einem Trick: Schon im Mai 2018 startete der Relaissatellit Queqiao („Elsternbrücke“), der die Signale weiterleitet. Der Name stammt aus einer Legende, in der Elstern eine Brücke für zwei getrennte Liebende bilden. Romantischer wurde ein Funkrelais wohl selten getauft.\n\nÜbrigens gilt die stille Rückseite als idealer Ort für Radioteleskope – dort stört kein Funkrauschen von der Erde.",
   "sources": [
    {
     "title": "Chang'e-4 and Yutu-2: China's mission to the far side of the Moon",
@@ -249,6 +258,7 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -256,9 +266,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Chinas Schnellzugnetz ist über 50.000 Kilometer lang",
+  "headline": "Chinas Schnellzugnetz: über 50.000 Kilometer",
   "teaser": "Ende 2025 hatte China mehr als 50.000 Kilometer Hochgeschwindigkeitsstrecke in Betrieb – bei insgesamt rund 165.000 Kilometern Eisenbahn.",
-  "detail": "Chinas Schnellzugnetz ist in den vergangenen Jahrzehnten rasant gewachsen. Laut Xinhua-Angaben, veröffentlicht von der Provinzregierung Hunan im Juli 2026, umfasste Chinas Eisenbahnnetz Ende 2025 rund 165.000 Kilometer, davon mehr als 50.000 Kilometer Hochgeschwindigkeitsstrecke.\n\nUnd der Ausbau geht weiter: Bis 2030 sollen es etwa 180.000 Kilometer Bahnstrecke werden, darunter rund 60.000 Kilometer für Hochgeschwindigkeitszüge.\n\nFür Reisende ist das praktisch: Zwischen den großen Städten fahren zahlreiche Schnellzüge, und viele Bahnhöfe sehen eher aus wie Flughäfen, mit Sicherheitskontrolle und Wartehallen. Tickets laufen auf den Namen, Ausländer buchen mit Reisepass.\n\nEin Tipp: Die großen Bahnhöfe liegen oft weit außerhalb der Innenstädte, und in Städten wie Peking oder Shanghai gibt es mehrere. Ein Blick aufs Ticket, von welchem Bahnhof der Zug abfährt, spart Stress.",
+  "detail": "Chinas Schnellzugnetz ist in den letzten Jahrzehnten rasant gewachsen. Laut Xinhua-Angaben, veröffentlicht von der Provinzregierung Hunan im Juli 2026, umfasste das Eisenbahnnetz Ende 2025 rund 165.000 Kilometer, davon mehr als 50.000 Kilometer Hochgeschwindigkeitsstrecke.\n\nUnd fertig ist man noch lange nicht: Bis 2030 sollen es etwa 180.000 Kilometer Bahnstrecke werden, darunter rund 60.000 Kilometer für Schnellzüge.\n\nFür Reisende ist das praktisch. Zwischen den großen Städten fahren zahlreiche Schnellzüge, und viele Bahnhöfe sehen eher aus wie Flughäfen, samt Sicherheitskontrolle und Wartehallen. Tickets laufen auf den Namen, Ausländer buchen mit Reisepass.\n\nWichtiger Tipp: Die großen Bahnhöfe liegen oft weit draußen, und Städte wie Peking oder Shanghai haben gleich mehrere. Ein Blick aufs Ticket, von welchem Bahnhof der Zug fährt, erspart dir einen sehr teuren Taxisprint.",
   "sources": [
    {
     "title": "China's Railway Fixed-asset Investment Up 2.1 Pct in First Half",
@@ -276,6 +286,7 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 1,
   "verified": "2026-10-14"
  },
  {
@@ -283,9 +294,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "9,41 Milliarden Reisen in 40 Tagen: Chinas Neujahrs-Völkerwanderung",
-  "teaser": "Während der Reisewelle zum Frühlingsfest 2026 (2. Februar bis 13. März) zählte China 9,41 Milliarden Fahrten zwischen Regionen – ein Rekord.",
-  "detail": "Zum chinesischen Neujahr wollen Hunderte Millionen Menschen nach Hause zu ihren Familien. Die Reisewelle heißt Chunyun und wird oft als größte jährliche Wanderungsbewegung der Welt beschrieben.\n\n2026 dauerte sie 40 Tage, vom 2. Februar bis zum 13. März. Laut einem China-Daily-Bericht vom März 2026 wurden in dieser Zeit 9,41 Milliarden überregionale Fahrten gezählt, so viele wie nie zuvor. Den Löwenanteil machte die Straße aus mit etwa 8,74 Milliarden Fahrten. Die Bahn beförderte rund 540 Millionen Passagiere, die Luftfahrt 94,39 Millionen.\n\nWichtig: Gezählt werden Fahrten, nicht Menschen. Wer hin- und zurückfährt und unterwegs umsteigt, taucht mehrfach in der Statistik auf. Trotzdem ist die Zahl gewaltig, denn China hat rund 1,4 Milliarden Einwohner.\n\nFür Touristen heißt das: In den Wochen rund ums Frühlingsfest Zugtickets so früh wie möglich buchen oder gleich eine andere Reisezeit wählen.",
+  "headline": "9,41 Milliarden Fahrten in 40 Tagen – zum Neujahr",
+  "teaser": "Während der Reisewelle zum Frühlingsfest 2026 (2. Februar bis 13. März) zählte China 9,41 Milliarden Fahrten zwischen Regionen – Rekord.",
+  "detail": "Zum chinesischen Neujahr wollen Hunderte Millionen Menschen nach Hause zu ihrer Familie. Die Reisewelle heißt Chunyun und wird oft als größte jährliche Wanderungsbewegung der Welt beschrieben.\n\n2026 dauerte sie 40 Tage, vom 2. Februar bis zum 13. März. Laut China Daily vom März 2026 wurden in dieser Zeit 9,41 Milliarden überregionale Fahrten gezählt, so viele wie nie zuvor. Den Löwenanteil hatte die Straße mit etwa 8,74 Milliarden Fahrten. Die Bahn beförderte rund 540 Millionen Passagiere, die Luftfahrt 94,39 Millionen.\n\nKleiner Haken: Gezählt werden Fahrten, nicht Menschen. Wer hin- und zurückfährt und unterwegs umsteigt, taucht mehrfach auf. Trotzdem ist die Zahl irre – China hat rund 1,4 Milliarden Einwohner, rechnerisch also mehrere Fahrten pro Kopf.\n\nFür Touristen heißt das: In den Wochen rund ums Frühlingsfest Zugtickets so früh wie möglich buchen. Oder einfach eine andere Reisezeit wählen.",
   "sources": [
    {
     "title": "China sees record-high inter-regional trips in Spring Festival travel rush",
@@ -303,6 +314,7 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -310,9 +322,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "826 Millionen Inlandsreisen in einer einzigen Feiertagswoche",
-  "teaser": "In der Golden Week rund um den Nationalfeiertag vom 1. bis 7. Oktober 2026 unternahmen Chinesen 826 Millionen Inlandsreisen.",
-  "detail": "Die erste Oktoberwoche ist in China die „Goldene Woche“. Rund um den Nationalfeiertag am 1. Oktober haben die meisten Menschen eine Woche frei, und gefühlt das ganze Land ist unterwegs.\n\nLaut einem Bericht von China Daily vom 9. Oktober 2026 wurden im gerade beendeten Feiertag vom 1. bis 7. Oktober 826 Millionen Inlandsreisen gezählt. Die Ausgaben für Tourismus lagen bei etwa 738,4 Milliarden Yuan, umgerechnet rund 110 Milliarden US-Dollar. Pro Tag gerechnet stiegen Reisen und Ausgaben im Vergleich zum Vorjahr um 6,3 beziehungsweise 4,3 Prozent.\n\nFür ausländische Besucher ist die Golden Week die wohl ungünstigste Reisezeit des Jahres: Sehenswürdigkeiten wie die Verbotene Stadt oder die Große Mauer sind überlaufen, Hotels und Züge teuer und ausgebucht. Wer kann, reist eine Woche später.",
+  "headline": "826 Millionen Reisen in einer Feiertagswoche",
+  "teaser": "In der Golden Week vom 1. bis 7. Oktober 2026 unternahmen Menschen in China 826 Millionen Inlandsreisen.",
+  "detail": "Die erste Oktoberwoche ist in China die „Goldene Woche“. Rund um den Nationalfeiertag am 1. Oktober haben die meisten eine Woche frei, und gefühlt das ganze Land packt die Koffer.\n\nLaut China Daily vom 9. Oktober 2026 wurden im Feiertag vom 1. bis 7. Oktober 826 Millionen Inlandsreisen gezählt. Ausgegeben wurden etwa 738,4 Milliarden Yuan, umgerechnet rund 110 Milliarden US-Dollar. Pro Tag gerechnet stiegen Reisen und Ausgaben gegenüber dem Vorjahr um 6,3 beziehungsweise 4,3 Prozent.\n\nFür ausländische Besucher ist die Golden Week die wohl ungünstigste Reisezeit des Jahres. Die Verbotene Stadt oder die Große Mauer sind dann überlaufen, Hotels und Züge teuer und ausgebucht. Wer Selfies ohne Hunderte fremde Köpfe im Hintergrund will, reist besser eine Woche später.",
   "sources": [
    {
     "title": "National Day holiday boosts China tourism with 826m domestic trips",
@@ -330,6 +342,7 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14",
   "expires": "2026-10-21"
  },
@@ -338,9 +351,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Beim Drachenbootfest ehrt jede Region ihren eigenen Helden",
+  "headline": "Drachenbootfest: Jede Region feiert ihren eigenen Helden",
   "teaser": "Das Drachenbootfest am 5. Tag des 5. Mondmonats gilt je nach Region dem Dichter Qu Yuan, Wu Zixu oder Yan Hongwo – UNESCO-Erbe seit 2009.",
-  "detail": "Das Drachenbootfest fällt auf den fünften Tag des fünften Monats im Mondkalender, also meist in den Juni. Es ist ein offizieller Feiertag in China und seit 2009 UNESCO-Kulturerbe.\n\nDas Überraschende: Wen man eigentlich feiert, hängt vom Ort ab. In den Provinzen Hubei und Hunan ist es der romantische Dichter Qu Yuan. Im Süden Chinas wird Wu Zixu geehrt, und bei der Volksgruppe der Dai in Yunnan ist es Yan Hongwo. So beschreibt es die UNESCO.\n\nGemeinsam sind fast überall die Drachenbootrennen mit langen, bunt bemalten Booten und Trommlern im Takt, dazu Klebreis-Päckchen in Bambusblättern (zongzi), Eier und Wein.\n\nAuch Schutzbräuche gehören dazu: Man badet in Wasser mit Blütenduft, trägt fünffarbige Seidenbänder und hängt Beifuß und Kalmus an die Tür, um Unheil fernzuhalten. Besonders lebendig ist das Fest am mittleren und unteren Jangtse.",
+  "detail": "Das Drachenbootfest fällt auf den fünften Tag des fünften Monats im Mondkalender, meist also in den Juni. Es ist offizieller Feiertag in China und seit 2009 UNESCO-Kulturerbe.\n\nDas Überraschende: Wen man feiert, kommt darauf an, wo man ist. In den Provinzen Hubei und Hunan ist es der romantische Dichter Qu Yuan. Im Süden Chinas wird Wu Zixu geehrt, und bei der Volksgruppe der Dai in Yunnan ist es Yan Hongwo. So beschreibt es die UNESCO. Ein Fest, mehrere Ehrengäste – je nach Postleitzahl.\n\nGemeinsam sind fast überall die Rennen mit langen, bunt bemalten Drachenbooten und Trommlern im Takt, dazu Klebreis-Päckchen in Bambusblättern (zongzi), Eier und Wein.\n\nDazu kommen Schutzbräuche: Man badet in Wasser mit Blütenduft, trägt fünffarbige Seidenbänder und hängt Beifuß und Kalmus an die Tür, um Unheil fernzuhalten. Besonders lebendig ist das Fest am mittleren und unteren Jangtse.",
   "sources": [
    {
     "title": "Dragon Boat festival",
@@ -356,6 +369,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -363,9 +377,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Bei der Moxibustion wird Beifuß direkt auf der Haut verbrannt",
+  "headline": "Moxibustion: Kräuter glimmen auf der Haut",
   "teaser": "Neben Nadeln nutzt die traditionelle chinesische Medizin Moxibustion: Kegel oder Stäbchen aus getrocknetem Beifuß glimmen auf oder über bestimmten Körperpunkten.",
-  "detail": "Akupunktur kennt fast jeder. Weniger bekannt ist ihre Schwester, die Moxibustion. Beide zusammen stehen seit 2010 als „Akupunktur und Moxibustion der traditionellen chinesischen Medizin“ auf der UNESCO-Liste des immateriellen Kulturerbes.\n\nBei der Moxibustion wird sogenanntes Moxa verbrannt, also getrocknete Blätter des Beifuß. Laut UNESCO unterscheidet man zwei Varianten: Bei der direkten Form werden kleine Moxa-Kegel unmittelbar auf bestimmte Punkte gesetzt. Bei der indirekten hält man glimmende Moxa-Stäbchen in einigem Abstand über die Haut, um die Stelle zu wärmen.\n\nDie traditionelle Theorie sieht den Körper als kleines Universum, das von Leitbahnen durchzogen ist. Die Reize sollen diese Bahnen anregen.\n\nWichtig: Die UNESCO würdigt hier eine kulturelle Praxis, keine medizinische Wirksamkeit. Diese ist eine Frage für Studien, nicht für Kulturerbelisten. Wer in China eine Klinik für traditionelle Medizin besucht, riecht die Moxa-Räume jedenfalls oft schon im Flur.",
+  "detail": "Akupunktur kennt fast jeder. Ihre weniger bekannte Schwester heißt Moxibustion. Beide stehen seit 2010 gemeinsam als „Akupunktur und Moxibustion der traditionellen chinesischen Medizin“ auf der UNESCO-Liste des immateriellen Kulturerbes.\n\nBei der Moxibustion wird Moxa verbrannt, also getrocknete Beifußblätter. Laut UNESCO gibt es zwei Varianten: Bei der direkten setzt man kleine Moxa-Kegel unmittelbar auf bestimmte Punkte. Bei der indirekten hält man glimmende Moxa-Stäbchen in einigem Abstand über die Haut, um die Stelle zu wärmen.\n\nDie traditionelle Theorie sieht den Körper als kleines Universum, durchzogen von Leitbahnen, die durch die Reize angeregt werden sollen.\n\nWichtig: Die UNESCO würdigt hier eine kulturelle Praxis, keine medizinische Wirksamkeit. Die ist eine Frage für Studien, nicht für Kulturerbelisten. Sicher ist nur eins: Wer in China eine Klinik für traditionelle Medizin besucht, riecht die Moxa-Räume oft schon im Flur.",
   "sources": [
    {
     "title": "Acupuncture and moxibustion of traditional Chinese medicine",
@@ -381,6 +395,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -388,9 +403,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "In der Peking-Oper verrät die Gesichtsfarbe den Charakter",
-  "teaser": "In der Peking-Oper zeigen Farben und Muster der geschminkten Gesichter, welchen Charakter und welchen sozialen Rang eine Figur hat.",
-  "detail": "Die Peking-Oper ist eine Mischung aus Gesang, Sprechvortrag, Schauspiel und Kampfkunst. Seit 2010 gehört sie zum immateriellen Kulturerbe der UNESCO.\n\nWer zum ersten Mal zuschaut, fällt über die Masken, die gar keine Masken sind: Die Darsteller sind kunstvoll geschminkt. Laut UNESCO nutzt dieses übertriebene Make-up feste Symbole, Farben und Muster, um Persönlichkeit und gesellschaftliche Stellung einer Figur zu zeigen. Das Publikum weiß also oft schon beim Auftritt, mit wem es zu tun hat.\n\nAuch sonst ist vieles festgelegt: Bewegungen von Händen, Augen, Oberkörper und Füßen folgen einer überlieferten Choreografie. Bühnenbild und Requisiten sind dagegen traditionell sehr sparsam, den Rest erledigt die Fantasie.\n\nMusikalisch unterscheidet man „zivile Stücke“ mit Streich- und Blasinstrumenten wie der hohen Jinghu-Geige und „militärische Stücke“, in denen Schlagwerk dominiert. Gesungen wird vor allem im Pekinger Dialekt.",
+  "headline": "Peking-Oper: Das Make-up spoilert den Charakter",
+  "teaser": "In der Peking-Oper zeigen Farben und Muster der geschminkten Gesichter, welchen Charakter und Rang eine Figur hat – noch bevor sie den Mund aufmacht.",
+  "detail": "Die Peking-Oper ist eine Mischung aus Gesang, Sprechvortrag, Schauspiel und Kampfkunst und gehört seit 2010 zum immateriellen Kulturerbe der UNESCO.\n\nNeulinge stolpern meist zuerst über die Masken, die gar keine Masken sind: Die Darsteller sind kunstvoll geschminkt. Laut UNESCO nutzt das übertriebene Make-up feste Symbole, Farben und Muster, um Persönlichkeit und gesellschaftliche Stellung zu zeigen. Das Publikum weiß also oft schon beim Auftritt, wer hier wer ist. Spoiler-Alarm per Schminke.\n\nAuch sonst ist viel festgelegt: Hände, Augen, Oberkörper und Füße folgen einer überlieferten Choreografie. Bühnenbild und Requisiten sind dagegen sehr sparsam, den Rest erledigt die Fantasie.\n\nMusikalisch gibt es „zivile Stücke“ mit Streich- und Blasinstrumenten wie der hohen Jinghu-Geige und „militärische Stücke“, in denen das Schlagwerk dominiert. Gesungen wird vor allem im Pekinger Dialekt.",
   "sources": [
    {
     "title": "Peking opera",
@@ -407,6 +422,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -414,9 +430,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "In chinesischen Hochhäusern fehlt oft der 4. Stock",
-  "teaser": "Weil „vier“ (sì) ähnlich klingt wie „sterben“ (sǐ), überspringen manche Hochhäuser in China den 4., 14. und 24. Stock.",
-  "detail": "Wer in China Aufzug fährt, wundert sich manchmal: Auf die 3 folgt direkt die 5. Grund ist die Angst vor der Vier. Im Hochchinesischen klingt „vier“ (sì) fast wie „sterben“ (sǐ), nur der Ton ist ein anderer.\n\nDer Sprachwissenschaftler Victor Mair hat das 2017 im Blog „Language Log“ der University of Pennsylvania aufgegriffen. Anlass war ein Hochhaus in Hong Kong, das je nach Zählweise 73 oder 80 Stockwerke hat. Zitiert wird dort: In manchen Gebäuden auf dem chinesischen Festland und in Taiwan werden der 4. Stock und weitere Etagen mit 4 am Ende ausgelassen, etwa der 14. und 24. Oft fehlt zusätzlich der 13. Stock.\n\nLaut dem im Blog zitierten WSJ-Bericht zahlen Mieter ungern für eine Etage mit der „Todesnummer“.\n\nDas Gegenstück ist die Acht. Sie gilt als Glückszahl, weil sie an „Reichtum“ erinnert. Telefonnummern und Autokennzeichen mit vielen Achten sind entsprechend begehrt.",
+  "headline": "Im Aufzug folgt auf die 3 direkt die 5",
+  "teaser": "Weil „vier“ (sì) ähnlich klingt wie „sterben“ (sǐ), lassen manche Hochhäuser in China den 4., 14. und 24. Stock einfach aus.",
+  "detail": "Wer in China Aufzug fährt, stutzt manchmal: Auf die 3 folgt direkt die 5. Schuld ist die Angst vor der Vier. Im Hochchinesischen klingt „vier“ (sì) fast wie „sterben“ (sǐ), nur der Ton ist anders.\n\nDer Sprachwissenschaftler Victor Mair griff das 2017 im Blog „Language Log“ der University of Pennsylvania auf. Anlass war ein Hochhaus in Hong Kong, das je nach Zählweise 73 oder 80 Stockwerke hat – gleiches Gebäude, nur anders gezählt. Zitiert wird dort: In manchen Gebäuden auf dem Festland und in Taiwan fehlen der 4. Stock und weitere Etagen mit 4 am Ende, etwa der 14. und 24. Oft fehlt zusätzlich der 13.\n\nLaut dem im Blog zitierten WSJ-Bericht zahlen Mieter ungern für eine Etage mit der „Todesnummer“.\n\nDas Gegenstück ist die Acht. Sie gilt als Glückszahl, weil sie an „Reichtum“ erinnert. Telefonnummern und Autokennzeichen mit vielen Achten sind entsprechend begehrt.",
   "sources": [
    {
     "title": "Applied Quadrophobia",
@@ -433,6 +449,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -440,9 +457,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Olympia 2008 begann um 8:08 Uhr abends am 8.8.08",
+  "headline": "Olympia-Start am 8.8.08 um 20:08 – kein Zufall",
   "teaser": "Die Eröffnungsfeier der Sommerspiele in Peking startete am 8. August 2008 um 20:08 Uhr – weil die Acht in China als Glückszahl gilt.",
-  "detail": "Kaum ein Termin war je so gezielt gewählt: Die Olympischen Sommerspiele 2008 in Peking wurden am achten Tag des achten Monats im Jahr 2008 eröffnet, und zwar um 20:08 Uhr Ortszeit. Das NPR berichtete am Tag der Feier ganz nüchtern, warum: Die Acht ist in China eine Glückszahl.\n\nDer Grund liegt in der Sprache. „Acht“ heißt auf Hochchinesisch „bā“ und klingt ähnlich wie „fā“, das in „fācái“ (reich werden) steckt. Die Acht steht deshalb für Wohlstand und Erfolg.\n\nDie Feier selbst war gigantisch: Laut NPR sollten rund 20.000 Menschen auftreten und 90.000 Zuschauer im Stadion sitzen, dem berühmten „Vogelnest“. Was genau gezeigt werden sollte, hatten die Organisatoren vorab streng geheim gehalten.\n\nDie Vorliebe für die Acht zeigt sich auch im Alltag: Telefonnummern oder Autokennzeichen mit vielen Achten sind begehrt.",
+  "detail": "Selten wurde ein Termin so gezielt gewählt: Die Olympischen Sommerspiele 2008 in Peking begannen am achten Tag des achten Monats im Jahr 2008, und zwar um 20:08 Uhr Ortszeit. NPR erklärte am Tag der Feier ganz nüchtern, warum: Die Acht ist in China eine Glückszahl.\n\nDer Grund liegt in der Sprache. „Acht“ heißt auf Hochchinesisch „bā“ und klingt ähnlich wie „fā“, das in „fācái“ (reich werden) steckt. Die Acht steht also für Wohlstand und Erfolg. Mehr Glück als 8.8.08 um 20:08 ging kalendarisch einfach nicht.\n\nDie Feier selbst war gigantisch: Laut NPR sollten rund 20.000 Menschen auftreten und 90.000 Zuschauer im „Vogelnest“ sitzen. Was gezeigt werden sollte, hielten die Organisatoren vorab streng geheim.\n\nIm Alltag ist es nicht anders: Telefonnummern oder Autokennzeichen mit vielen Achten sind begehrt.",
   "sources": [
    {
     "title": "Olympics Open With Spotlight On Chinese Culture",
@@ -459,6 +476,7 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -466,9 +484,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Die Taklamakan heißt sinngemäß: Rein ja, raus nein",
+  "headline": "Taklamakan heißt sinngemäß: Rein ja, raus nein",
   "teaser": "Chinas größte, trockenste und heißeste Wüste ist etwa so groß wie Deutschland; ihr Name bedeutet laut NASA grob „Du gehst hinein, kommst aber nicht heraus“.",
-  "detail": "Die Taklamakan im Westen Chinas trägt einen Namen, der Reisende eher abschrecken sollte. Laut NASA Earth Observatory lässt er sich aus der uigurischen Sprache ungefähr so übersetzen: „Du gehst hinein, aber du kommst nicht heraus.“ Ein weiterer Spitzname lautet „Meer des Todes“.\n\nDie Wüste ist die größte, trockenste und heißeste Chinas und etwa so groß wie Deutschland. Rund 85 Prozent bestehen aus Wanderdünen, von denen manche 200 bis 300 Meter hoch aufragen. Sie gilt als zweitgrößte Wüste mit wandernden Sanddünen weltweit und ist berüchtigt für gewaltige Staubstürme.\n\nIn Teilen fallen weniger als 10 Millimeter Regen im Jahr. Zum Vergleich: In Deutschland sind es durchschnittlich rund 800.\n\nUnd doch blüht im Frühling etwas auf: Schmelzwasser aus dem Kunlun-Gebirge speist Flüsse wie den Weißen und den Schwarzen Jade-Fluss, die Oasen wie Hotan am Leben halten. Satellitenbilder zeigen dann grüne Bänder mitten im Sand.",
+  "detail": "Manche Orte werben mit ihrem Namen. Die Taklamakan im Westen Chinas eher nicht. Laut NASA Earth Observatory lässt er sich aus dem Uigurischen ungefähr so übersetzen: „Du gehst hinein, aber du kommst nicht heraus.“ Zweiter Spitzname: „Meer des Todes“. Ehrliches Marketing.\n\nSie ist die größte, trockenste und heißeste Wüste Chinas und etwa so groß wie Deutschland. Rund 85 Prozent sind Wanderdünen, manche 200 bis 300 Meter hoch. Sie gilt als zweitgrößte Wüste mit wandernden Sanddünen weltweit und ist berüchtigt für gewaltige Staubstürme.\n\nIn Teilen fallen weniger als 10 Millimeter Regen im Jahr. In Deutschland sind es durchschnittlich rund 800.\n\nUnd doch wird es im Frühling grün: Schmelzwasser aus dem Kunlun-Gebirge speist Flüsse wie den Weißen und den Schwarzen Jade-Fluss, die Oasen wie Hotan am Leben halten. Auf Satellitenbildern ziehen sich dann grüne Bänder mitten durch den Sand.",
   "sources": [
    {
     "title": "Spring Greening in the Taklamakan Desert",
@@ -485,6 +503,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -492,9 +511,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Mitten durch die Todeswüste führt die längste Wüstenstraße der Welt",
+  "headline": "Mitten durch die Todeswüste: 550 Kilometer Straße",
   "teaser": "Der Tarim-Wüstenhighway quert 550 Kilometer Taklamakan und gilt laut NASA als längste Wüstenstraße der Welt – geschützt von einem 430 Kilometer langen Pflanzengürtel.",
-  "detail": "Eine Straße durch eine Wüste aus Wanderdünen zu bauen, klingt nach einer schlechten Idee: Der Sand wandert einfach darüber. China hat es in der Taklamakan trotzdem gemacht.\n\nLaut NASA Earth Observatory ist der Tarim-Wüstenhighway 550 Kilometer lang und damit die längste Wüstenstraße der Welt. Damit er nicht unter Sand verschwindet, haben lokale Behörden entlang der Strecke einen 430 Kilometer langen Gürtel aus Pflanzen angelegt. Er bremst den Wind und hält die Dünen auf Abstand.\n\nDas ist alles andere als selbstverständlich, denn in Teilen der Wüste fällt laut NASA weniger als ein Zentimeter Regen im Jahr.\n\nLaut NASA gibt es weitere Begrünungsprojekte rund um die Taklamakan und etwa in der Wüste Gobi. Für Autofahrer bedeutet sie: Stundenlang Sand links, Sand rechts, und dazwischen ein schmaler grüner Streifen, der die Straße freihält.",
+  "detail": "Eine Straße durch eine Wüste aus Wanderdünen? Klingt nach schlechter Idee, denn der Sand wandert einfach drüber. China hat es in der Taklamakan trotzdem gemacht.\n\nLaut NASA Earth Observatory ist der Tarim-Wüstenhighway 550 Kilometer lang und damit die längste Wüstenstraße der Welt. Damit er nicht im Sand verschwindet, haben lokale Behörden einen 430 Kilometer langen Pflanzengürtel entlang der Strecke angelegt. Der bremst den Wind und hält die Dünen auf Abstand. Eine Hecke als Sandschutz – nur eben in XXL.\n\nSelbstverständlich ist das nicht: In Teilen der Wüste fällt laut NASA weniger als ein Zentimeter Regen im Jahr.\n\nLaut NASA gibt es weitere Begrünungsprojekte rund um die Taklamakan und etwa in der Wüste Gobi. Für Autofahrer heißt das: stundenlang Sand links, Sand rechts, und dazwischen ein schmaler grüner Streifen, der die Straße freihält.",
   "sources": [
    {
     "title": "Spring Greening in the Taklamakan Desert",
@@ -511,6 +530,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -518,9 +538,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Chinas Riesensalamander sind in Wahrheit mindestens drei Arten",
-  "teaser": "Der Chinesische Riesensalamander ist laut einer Studie von 2019 eigentlich mindestens drei Arten – und der Südchinesische ist vermutlich das größte Amphibium der Welt.",
-  "detail": "Ein Salamander, so lang wie ein Mensch: Chinesische Riesensalamander können laut National Geographic mehr als 1,5 Meter lang und über 45 Kilogramm schwer werden. Damit gehören sie zu den größten Amphibien überhaupt.\n\n2019 kam heraus, dass hinter dem bekannten Namen mehrere Tiere stecken. Forschende untersuchten Museumsexemplare und kamen zu dem Schluss: Es handelt sich um mindestens drei getrennte Arten. Die Art aus Südchina, Andrias sligoi, ist vermutlich die größte der drei und damit wahrscheinlich das größte lebende Amphibium der Welt.\n\nDie Unterscheidung ist wichtig für den Schutz. Der Chinesische Riesensalamander gilt bereits als vom Aussterben bedroht, die neuen Arten stehen vermutlich noch schlechter da. In Farmen werden Millionen Tiere gehalten, denn das Fleisch gilt als Delikatesse und erzielt hohe Preise.\n\nIn freier Natur fanden Forschende die Riesen bei Suchen von 2013 bis 2016 nur noch an vier Orten.",
+  "headline": "Menschengroße Salamander – und es sind mindestens drei Arten",
+  "teaser": "Der Chinesische Riesensalamander ist laut einer Studie von 2019 eigentlich mindestens drei Arten – der Südchinesische ist vermutlich das größte Amphibium der Welt.",
+  "detail": "Ein Salamander, so lang wie ein Mensch: Chinesische Riesensalamander können laut National Geographic mehr als 1,5 Meter lang und über 45 Kilogramm schwer werden. Das ist kein Molch mehr, das ist ein Mitbewohner.\n\n2019 kam heraus, dass hinter dem bekannten Namen mehrere Tiere stecken. Forschende untersuchten Museumsexemplare und schlossen: mindestens drei getrennte Arten. Die Art aus Südchina, Andrias sligoi, ist vermutlich die größte davon und damit wahrscheinlich das größte lebende Amphibium der Welt.\n\nDie Unterscheidung ist wichtig für den Schutz. Der Chinesische Riesensalamander gilt schon als vom Aussterben bedroht, die neuen Arten stehen vermutlich noch schlechter da. In Farmen werden zwar Millionen Tiere gehalten – aber nur, weil ihr Fleisch als Delikatesse hohe Preise erzielt.\n\nIn freier Natur fanden Forschende die Riesen bei Suchen von 2013 bis 2016 nur noch an vier Orten.",
   "sources": [
    {
     "title": "World's largest amphibian identified as a unique species",
@@ -537,6 +557,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -544,9 +565,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Der Vater des Pinyin wurde 111 Jahre alt",
-  "teaser": "Zhou Youguang, Hauptarchitekt der Lateinumschrift Pinyin, hatte zuvor an der Wall Street gearbeitet – und starb 2017 im Alter von 111 Jahren.",
-  "detail": "Pinyin ist laut NPR ein wichtiger Grund, warum aus „Peking“ im Westen „Beijing“ wurde, und ohne die Umschrift wäre Chinesisch zu lernen wäre deutlich mühsamer. Die Lateinumschrift zeigt, wie man ein Schriftzeichen ausspricht, und genau daran haperte es: Die Zeichen selbst verraten ihre Aussprache meist nicht.\n\nDer Mann, der das System federführend entwickelte, war eigentlich Ökonom. Laut NPR arbeitete Zhou Youguang an der Wall Street und kehrte nach der Revolution von 1949 nach China zurück. Mitte der 1950er-Jahre bat ihn die Regierung, an einer Umschrift mitzuarbeiten. Er wehrte zunächst ab, er sei doch nur ein Amateur. Die Antwort: Bei dieser neuen Aufgabe seien alle Amateure.\n\n1958 führte China Pinyin in den Schulen ein. Die Vereinten Nationen übernahmen es laut NPR 1986 als Standard. Vor Pinyin konnten laut NPR, das sich auf die BBC beruft, 85 Prozent der Menschen in China nicht lesen.\n\nZhou wurde geboren, als noch ein Qing-Kaiser regierte, und starb im Januar 2017 mit 111 Jahren in Peking.",
+  "headline": "Pinyin erfand ein Wall-Street-Ökonom – er wurde 111",
+  "teaser": "Zhou Youguang, Hauptarchitekt der Lateinumschrift Pinyin, hatte vorher an der Wall Street gearbeitet – und starb 2017 mit 111 Jahren.",
+  "detail": "Pinyin ist laut NPR ein wichtiger Grund, warum aus „Peking“ im Westen „Beijing“ wurde. Die Lateinumschrift zeigt, wie man ein Schriftzeichen ausspricht – und genau das verraten die Zeichen selbst meist nicht. Ohne Pinyin wäre Chinesischlernen deutlich mühsamer.\n\nDer Mann dahinter war eigentlich Ökonom. Laut NPR arbeitete Zhou Youguang an der Wall Street und kehrte nach der Revolution von 1949 nach China zurück. Mitte der 1950er bat ihn die Regierung, an einer Umschrift mitzuarbeiten. Er wehrte ab, er sei doch nur Amateur. Die Antwort: Bei dieser Aufgabe seien alle Amateure.\n\n1958 kam Pinyin in die Schulen, 1986 übernahmen es laut NPR die Vereinten Nationen als Standard. Vor Pinyin konnten laut NPR, das sich auf die BBC beruft, 85 Prozent der Menschen in China nicht lesen.\n\nZhou wurde geboren, als noch ein Qing-Kaiser regierte, und starb im Januar 2017 mit 111 Jahren in Peking.",
   "sources": [
    {
     "title": "Zhou Youguang, Primary Architect Of Pinyin, Dies At 111",
@@ -563,6 +584,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -571,8 +593,8 @@
   "country": "china",
   "lang": "de",
   "headline": "Chinas Bevölkerung schrumpft das vierte Jahr in Folge",
-  "teaser": "Ende 2025 lebten in China 1,40489 Milliarden Menschen – 3,39 Millionen weniger als ein Jahr zuvor; den 7,92 Millionen Geburten standen 11,31 Millionen Todesfälle gegenüber.",
-  "detail": "Jahrzehntelang war China das bevölkerungsreichste Land der Erde und wuchs scheinbar unaufhaltsam. Inzwischen geht es abwärts. Laut dem Nationalen Statistikamt, zitiert von Caixin Global im Januar 2026, sank die Einwohnerzahl bis Ende 2025 um 3,39 Millionen auf 1,40489 Milliarden. Es war das vierte Jahr in Folge mit einem Rückgang.\n\nDer Grund ist simpel: Es sterben mehr Menschen, als geboren werden. 2025 kamen 7,92 Millionen Babys zur Welt, gleichzeitig starben 11,31 Millionen Menschen.\n\nZum Vergleich: Deutschland hat insgesamt rund 83 Millionen Einwohner. Chinas Bevölkerung ist also immer noch riesig, nur eben nicht mehr wachsend.\n\nFür Reisende ist davon wenig zu sehen, die Großstädte sind voll wie eh und je. Demografen warnen laut Caixin aber seit Langem, dass die schrumpfende Zahl von Erwerbstätigen und die schnelle Alterung Renten- und Sozialsysteme stark belasten könnten.",
+  "teaser": "Ende 2025 lebten in China 1,40489 Milliarden Menschen – 3,39 Millionen weniger als ein Jahr zuvor. 7,92 Millionen Geburten standen 11,31 Millionen Todesfällen gegenüber.",
+  "detail": "Jahrzehntelang war China das bevölkerungsreichste Land der Erde und schien unaufhaltsam zu wachsen. Inzwischen zeigt die Kurve nach unten. Laut Nationalem Statistikamt, zitiert von Caixin Global im Januar 2026, sank die Einwohnerzahl bis Ende 2025 um 3,39 Millionen auf 1,40489 Milliarden. Das vierte Jahr in Folge mit Rückgang.\n\nDie Rechnung dahinter ist simpel: 2025 kamen 7,92 Millionen Babys zur Welt, gleichzeitig starben 11,31 Millionen Menschen.\n\nZur Einordnung: Deutschland hat insgesamt rund 83 Millionen Einwohner. China ist also immer noch riesig, es wächst nur nicht mehr.\n\nAuf Reisen merkt man davon wenig, die Großstädte sind voll wie eh und je. Demografen warnen laut Caixin aber seit Langem, dass weniger Erwerbstätige und eine schnelle Alterung Renten- und Sozialsysteme stark belasten könnten.",
   "sources": [
    {
     "title": "China's Population Decline Accelerates as Births Hit Modern-Era Low in 2025",
@@ -589,6 +611,7 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 1,
   "verified": "2026-10-14"
  },
  {
@@ -596,9 +619,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Bauern suchten Wasser und fanden die Terrakotta-Armee",
-  "teaser": "1974 gruben Bauern bei Xi'an einen Brunnen und stießen dabei auf Tonscherben – den ersten Hinweis auf die Terrakotta-Armee des ersten Kaisers.",
-  "detail": "Eine der größten archäologischen Entdeckungen des 20. Jahrhunderts begann mit Durst. 1974 gruben Bauern rund 30 Kilometer von der Stadt Xi'an entfernt einen Brunnen und stießen auf Bruchstücke aus gebranntem Ton. Sie meldeten den Fund den Behörden.\n\nLaut NPR war der Archäologe Zhao Kangmin einer der Ersten vor Ort. Er fand Köpfe, Rümpfe und Gliedmaßen und begann, eine Figur Stück für Stück zusammenzusetzen. Zhao erinnerte sich später, er sei vor Aufregung so schnell Fahrrad gefahren, dass es sich wie Fliegen anfühlte.\n\nWas die Bauern gefunden hatten, war eine Armee, die seit mehr als 2.000 Jahren unter der Erde lag, um das Grab des ersten Kaisers Chinas zu bewachen. Jede Figur ist lebensgroß und hat ein eigenes Gesicht, realistisch bis zu den Fingernägeln.\n\nNPR spricht von rund 8.000 Soldaten. Dazu kommen Bogenschützen, Offiziere und Streitwagen mit Pferden. Ausgegraben ist bis heute nur ein Teil.",
+  "headline": "Bauern suchten Wasser und fanden eine Armee",
+  "teaser": "1974 gruben Bauern bei Xi'an einen Brunnen und stießen auf Tonscherben – den ersten Hinweis auf die Terrakotta-Armee des ersten Kaisers.",
+  "detail": "Eine der größten archäologischen Entdeckungen des 20. Jahrhunderts begann mit Durst. 1974 gruben Bauern rund 30 Kilometer von Xi'an entfernt einen Brunnen – und stießen statt auf Wasser auf Bruchstücke aus gebranntem Ton. Sie meldeten den Fund den Behörden.\n\nLaut NPR war der Archäologe Zhao Kangmin einer der Ersten vor Ort. Er fand Köpfe, Rümpfe und Gliedmaßen und begann, eine Figur Stück für Stück zusammenzupuzzeln. Später erzählte er, er sei vor Aufregung so schnell Fahrrad gefahren, dass es sich wie Fliegen anfühlte.\n\nWas die Bauern da angebohrt hatten, war eine Armee, die seit mehr als 2.000 Jahren unter der Erde lag, um das Grab des ersten Kaisers Chinas zu bewachen. Jede Figur ist lebensgroß, mit eigenem Gesicht, realistisch bis zu den Fingernägeln.\n\nNPR spricht von rund 8.000 Soldaten, dazu Bogenschützen, Offiziere und Streitwagen mit Pferden. Ausgegraben ist bis heute nur ein Teil. Den Brunnen hätten sie wohl anderswo graben sollen.",
   "sources": [
    {
     "title": "Archaeologist Who Uncovered China's 8,000-Man Terra Cotta Army Dies At 82",
@@ -620,6 +643,7 @@
   "era": "20jh",
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -627,9 +651,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Das Grab des ersten Kaisers ist bis heute ungeöffnet",
-  "teaser": "Die Terrakotta-Armee ist berühmt, doch das eigentliche Grab des Kaisers Qin Shihuangdi bei Xi'an wurde bis heute nicht ausgegraben.",
-  "detail": "Millionen Menschen haben die Terrakotta-Krieger bei Xi'an schon gesehen. Was kaum jemand weiß: Die Figuren sind nur das Vorprogramm. Das eigentliche Grab des ersten chinesischen Kaisers Qin Shihuangdi ist laut World History Encyclopedia bis heute nicht ausgegraben.\n\nDie gesamte Grabanlage ist riesig. Sie bedeckt 35 bis 60 Quadratkilometer. Über dem Grab erhebt sich ein künstlicher Hügel in Form einer dreistufigen Pyramide, rund 350 Meter an jeder Seite und etwa 60 Meter hoch.\n\nAuch die Krieger selbst überraschen: Sie wurden aus wenigen Grundformen zusammengesetzt, es gibt nur acht Typen von Rumpf und Kopf. Gesichter, Haare und Hände wurden aber individuell nachgearbeitet, damit keine Figur der anderen gleicht. Ursprünglich waren sie in kräftigen Farben bemalt, an manchen sind noch Reste von rotem Pigment zu erkennen.\n\nDas Verblüffendste: Diese ganze Kunst war nie dafür gedacht, von Menschen gesehen zu werden.",
+  "headline": "Die Terrakotta-Armee ist nur das Vorprogramm",
+  "teaser": "Die Terrakotta-Armee kennt jeder – doch das eigentliche Grab des Kaisers Qin Shihuangdi bei Xi'an wurde bis heute nicht ausgegraben.",
+  "detail": "Millionen Menschen haben die Terrakotta-Krieger bei Xi'an schon gesehen. Was kaum jemand weiß: Die sind nur das Vorprogramm. Das eigentliche Grab des ersten chinesischen Kaisers Qin Shihuangdi ist laut World History Encyclopedia bis heute nicht ausgegraben. Der Hauptact wartet noch.\n\nDie gesamte Grabanlage bedeckt 35 bis 60 Quadratkilometer. Über dem Grab erhebt sich ein künstlicher Hügel in Form einer dreistufigen Pyramide, rund 350 Meter an jeder Seite und etwa 60 Meter hoch.\n\nAuch die Krieger haben einen Trick: Sie wurden aus wenigen Grundformen gebaut, es gibt nur acht Typen von Rumpf und Kopf. Gesichter, Haare und Hände wurden aber einzeln nachgearbeitet, damit keine Figur der anderen gleicht. Baukasten mit Handarbeit. Ursprünglich waren sie kräftig bemalt, an manchen sieht man noch Reste von rotem Pigment.\n\nUnd das Verblüffendste: Diese ganze Kunst war nie dafür gedacht, von Menschen gesehen zu werden.",
   "sources": [
    {
     "title": "Terracotta Army",
@@ -645,6 +669,7 @@
   "era": "antike",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -652,9 +677,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Chinas erster Kaiser starb womöglich an seinem Unsterblichkeitstrank",
-  "teaser": "Qin Shihuangdi suchte besessen nach ewigem Leben und starb 210 v. Chr. auf Reisen, vermutlich nach einem quecksilberhaltigen Elixier.",
-  "detail": "Qin Shihuangdi einte 221 v. Chr. China und gilt als erster Kaiser des Landes. Je mächtiger er wurde, desto größer wurde seine Angst vor dem Tod. Laut World History Encyclopedia schickte er Vertraute aus, um ein Mittel für ewiges Leben zu finden, und reiste selbst in Gegenden, in denen ein Elixier vermutet wurde.\n\nAusgerechnet das wurde ihm wohl zum Verhängnis. Er starb 210 v. Chr. auf einer dieser Reisen, nachdem er ein Quecksilber-Elixier getrunken hatte. Ob Unfall oder Anschlag, ist nicht geklärt.\n\nNoch skurriler ist, was danach geschah: Sein Kanzler Li Si hielt den Tod geheim, um das Testament zugunsten eines jüngeren, leichter lenkbaren Sohnes zu ändern. Die Leiche brachte man in die Hauptstadt zurück, begleitet von Wagen mit totem Fisch, damit der Verwesungsgeruch nicht auffiel.\n\nImmerhin ging sein Wunsch nach Unsterblichkeit auf andere Weise in Erfüllung: Über seine Terrakotta-Armee spricht die Welt bis heute.",
+  "headline": "Chinas erster Kaiser starb wohl am Unsterblichkeitstrank",
+  "teaser": "Qin Shihuangdi suchte besessen nach ewigem Leben – und starb 210 v. Chr. auf Reisen, vermutlich nach einem quecksilberhaltigen Elixier.",
+  "detail": "Qin Shihuangdi einte 221 v. Chr. China und gilt als erster Kaiser des Landes. Je mächtiger er wurde, desto größer wurde seine Angst vor dem Tod. Laut World History Encyclopedia schickte er Vertraute los, um ein Mittel für ewiges Leben zu finden, und reiste selbst in Gegenden, in denen er ein Elixier vermutete.\n\nDie Ironie: Ausgerechnet das wurde ihm wohl zum Verhängnis. Er starb 210 v. Chr. auf einer dieser Reisen, nachdem er ein Quecksilber-Elixier getrunken hatte. Ob Unfall oder Anschlag, ist nicht geklärt.\n\nDanach wird es richtig absurd. Sein Kanzler Li Si hielt den Tod geheim, um das Testament zugunsten eines jüngeren, leichter lenkbaren Sohnes zu ändern. Die Reise zurück in die Hauptstadt ging trotzdem weiter – begleitet von Wagen voller totem Fisch, damit niemand merkte, wonach es im Kaiserwagen eigentlich roch.\n\nUnsterblich wurde er dann doch, nur anders als geplant: Über seine Terrakotta-Armee spricht die Welt bis heute.",
   "sources": [
    {
     "title": "Qin Dynasty",
@@ -676,6 +701,7 @@
   "era": "antike",
   "gross": true,
   "kids": false,
+  "fun": 5,
   "verified": "2026-10-14"
  },
  {
@@ -683,9 +709,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Der Mount Everest wurde 2020 offiziell 86 Zentimeter höher",
-  "teaser": "Im Dezember 2020 legten China und Nepal gemeinsam eine neue Höhe für den Everest fest: 8.848,86 Meter statt der bisher meist genannten 8.848.",
-  "detail": "Der höchste Berg der Welt liegt auf der Grenze zwischen Nepal und China. Lange waren sich beide Länder nicht einig, wie hoch er genau ist. Am 8. Dezember 2020 verkündeten sie gemeinsam eine neue offizielle Zahl: 8.848,86 Meter über dem Meeresspiegel.\n\nDas sind weniger als ein Meter mehr als die bisherige Angabe. Die NPR-Reporterin merkte an, ihr vier Monate altes Baby könnte den Unterschied fast überbrücken, wenn es auf Zehenspitzen stünde.\n\nHinter den Zentimetern steckt viel Aufwand. Beide Länder schickten Vermessungsteams mit GPS-Empfängern auf den Gipfel. Frühere Messungen lagen teils deutlich auseinander: Die indische Vermessung kam 1856 auf rund 8.840 Meter, eine chinesische Messung von 2005 auf etwa 8.844 Meter.\n\nDazu kommt: Der Berg selbst bewegt sich. Plattentektonik schiebt ihn langsam nach oben, und das schwere Erdbeben in Nepal 2015 hat ihn womöglich etwas schrumpfen lassen. Auf Chinesisch heißt er übrigens Qomolangma (Zhumulangma Feng).",
+  "headline": "Der Everest wuchs 2020 offiziell um 86 Zentimeter",
+  "teaser": "Im Dezember 2020 legten China und Nepal gemeinsam eine neue Everest-Höhe fest: 8.848,86 Meter statt der bisher meist genannten 8.848.",
+  "detail": "Der höchste Berg der Welt liegt auf der Grenze zwischen Nepal und China, und lange waren sich beide nicht einig, wie hoch er genau ist. Am 8. Dezember 2020 verkündeten sie gemeinsam eine neue offizielle Zahl: 8.848,86 Meter über dem Meeresspiegel.\n\nDas ist weniger als ein Meter mehr als vorher. Eine NPR-Reporterin merkte an, ihr vier Monate altes Baby könnte den Unterschied fast überbrücken, wenn es auf Zehenspitzen stünde.\n\nFür diese paar Zentimeter wurde ordentlich Aufwand betrieben: Beide Länder schickten Vermessungsteams mit GPS-Empfängern auf den Gipfel. Frühere Messungen lagen teils deutlich auseinander – die indische Vermessung kam 1856 auf rund 8.840 Meter, eine chinesische von 2005 auf etwa 8.844.\n\nUnd der Berg hält nicht still: Plattentektonik schiebt ihn langsam nach oben, das schwere Erdbeben in Nepal 2015 hat ihn womöglich etwas schrumpfen lassen. Auf Chinesisch heißt er übrigens Qomolangma (Zhumulangma Feng).",
   "sources": [
    {
     "title": "Mount Everest Gets Growth Spurt As China, Nepal Revise Elevation",
@@ -703,6 +729,7 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -710,9 +737,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "2020 sprach fast jeder fünfte Mensch in China kein Hochchinesisch",
-  "teaser": "2020 sprachen laut Bildungsministerium rund 80,72 Prozent der Bevölkerung Chinas Putonghua (Hochchinesisch) – im Jahr 2000 waren es erst 53 Prozent.",
-  "detail": "Wer glaubt, in China sprächen alle Mandarin, irrt. Das Land ist ein Flickenteppich aus Dialekten und Sprachen: Kantonesisch, Shanghainesisch, Hokkien und viele mehr, dazu die Sprachen der Minderheiten.\n\nDie Standardsprache heißt Putonghua, wörtlich „allgemeine Sprache“. Laut einem Xinhua-Bericht vom Juni 2021 sprachen sie 2020 etwa 80,72 Prozent der Bevölkerung. Das waren 27,66 Prozentpunkte mehr als im Jahr 2000. Umgekehrt heißt das: 2020 sprach fast jeder fünfte Mensch in China die Standardsprache nicht.\n\nPutonghua basiert auf der Aussprache von Peking und wird seit Jahrzehnten über Schulen, Fernsehen und Behörden verbreitet.\n\nFür Reisende ist das ein praktischer Tipp: Mit ein paar Brocken Hochchinesisch kommt man im Süden zwar weit, doch wenn sich ältere Menschen in Guangzhou oder auf dem Land untereinander unterhalten, versteht man oft kein Wort, selbst wenn man Mandarin kann.",
+  "headline": "Fast jeder Fünfte in China sprach 2020 kein Hochchinesisch",
+  "teaser": "2020 sprachen laut Bildungsministerium rund 80,72 Prozent der Menschen in China Putonghua (Hochchinesisch) – im Jahr 2000 waren es erst 53 Prozent.",
+  "detail": "Wer glaubt, in China sprächen alle Mandarin, liegt daneben. Das Land ist ein Flickenteppich aus Dialekten und Sprachen: Kantonesisch, Shanghainesisch, Hokkien und viele mehr, dazu die Sprachen der Minderheiten.\n\nDie Standardsprache heißt Putonghua, wörtlich „allgemeine Sprache“. Laut Xinhua vom Juni 2021 sprachen sie 2020 etwa 80,72 Prozent der Bevölkerung – 27,66 Prozentpunkte mehr als im Jahr 2000. Umgekehrt: Fast jeder Fünfte sprach die „allgemeine Sprache“ 2020 nicht. So allgemein ist sie also noch nicht.\n\nPutonghua basiert auf der Pekinger Aussprache und wird seit Jahrzehnten über Schulen, Fernsehen und Behörden verbreitet.\n\nPraktischer Hinweis für Reisende: Mit ein paar Brocken Hochchinesisch kommt man im Süden zwar weit. Aber wenn sich ältere Menschen in Guangzhou oder auf dem Land untereinander unterhalten, versteht man oft kein Wort – auch wenn man Mandarin kann.",
   "sources": [
    {
     "title": "China sees rising number of Mandarin speakers",
@@ -729,6 +756,7 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -736,9 +764,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Ein falscher Ton, und aus „fragen“ wird „küssen“",
+  "headline": "Falscher Ton, und aus „fragen“ wird „küssen“",
   "teaser": "Im Hochchinesischen entscheidet die Tonhöhe über die Bedeutung: wèn im vierten Ton heißt „fragen“, wěn im dritten Ton „küssen“.",
-  "detail": "Hochchinesisch ist eine Tonsprache. Das bedeutet: Dieselbe Silbe kann je nach Tonverlauf etwas völlig anderes heißen. Es gibt vier Töne und einen neutralen Ton: hoch und gleichbleibend, steigend, erst fallend und dann steigend, und scharf fallend.\n\nEin Lehrbuch der University of Iowa nennt ein Beispiel, das Reisende sich merken sollten: Wer jemanden etwas fragen will, sagt „wèn“ im vierten, fallenden Ton. Sagt man stattdessen „wěn“ im dritten Ton, bedeutet das „küssen“. Ähnlich ist es bei „ma“: Im ersten, hohen Ton steckt die Silbe in „Mama“, im fallenden vierten Ton heißt sie „schimpfen“.\n\nIm Alltag hilft der Zusammenhang meist weiter. Trotzdem lohnt es sich, die Töne von Anfang an mitzulernen. Sonst bittet man den Kellner womöglich um etwas anderes als gedacht.\n\nIn der Lateinumschrift Pinyin werden die Töne übrigens mit kleinen Strichen über den Vokalen markiert: ā, á, ǎ, à.",
+  "detail": "Hochchinesisch ist eine Tonsprache. Dieselbe Silbe kann je nach Tonverlauf etwas völlig anderes heißen. Es gibt vier Töne und einen neutralen: hoch und gleichbleibend, steigend, erst fallend und dann steigend, und scharf fallend.\n\nEin Lehrbuch der University of Iowa liefert ein Beispiel, das man sich besser merkt: Wer jemanden etwas fragen will, sagt „wèn“ im vierten, fallenden Ton. Sagt man stattdessen „wěn“ im dritten Ton, heißt das „küssen“. Die Frage nach dem Weg kann also schnell ein ganz anderes Angebot werden.\n\nBei „ma“ ist es ähnlich: Im ersten, hohen Ton steckt die Silbe in „Mama“, im fallenden vierten Ton heißt sie „schimpfen“.\n\nIm Alltag rettet einen meist der Zusammenhang. Trotzdem lohnt es sich, die Töne gleich mitzulernen. Sonst bittet man den Kellner womöglich um etwas anderes als gedacht.\n\nIn Pinyin werden die Töne mit kleinen Strichen über den Vokalen markiert: ā, á, ǎ, à.",
   "sources": [
    {
     "title": "Introduction to Tones in Mandarin",
@@ -752,6 +780,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 4,
   "verified": "2026-10-14"
  },
  {
@@ -759,9 +788,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "2026 ist ein Feuerpferd-Jahr – das gibt es nur alle 60 Jahre",
-  "teaser": "Am 17. Februar 2026 begann das Jahr des Feuerpferds; weil Tierzeichen und Elemente kombiniert werden, kehrt diese Paarung nur alle 60 Jahre wieder.",
-  "detail": "Das chinesische Tierkreisjahr hat nicht nur ein Tier, sondern auch ein Element. Laut Penn-State-Professor Xiaoye You funktioniert das wie eine Tabelle: Quer stehen die zwölf Tiere, längs die fünf Elemente Holz, Feuer, Erde, Metall und Wasser, die jeweils zweimal hintereinander vorkommen. Jedes Jahr kombiniert ein Tier mit einem Element, und nach 60 Jahren beginnt der Zyklus von vorn.\n\nAm 17. Februar 2026 begann so das Jahr des Feuerpferds. Die University of California, Irvine beschreibt es als astrologische Seltenheit, die nur einmal in sechzig Jahren vorkommt. Das Pferd gilt ohnehin als feurig, und auch die himmlischen Stämme des Jahres zeigen auf Feuer, also „Feuer über Feuer“.\n\nIn der Tradition gilt diese Kombination als Zeit großer Umbrüche. Laut UCI warnte in der Song-Zeit ein daoistischer Priester den Kaiser vor einem Unglück, und 1126 eroberte ein Heer der Jurchen tatsächlich die Hauptstadt. Spätere Gelehrte sammelten ganze Listen von Katastrophen in Feuerpferd-Jahren.\n\nPositiver gesehen steht das Pferd für Tempo und Tatkraft. Auf roten Neujahrsumschlägen sollte 2026 deshalb oft der Spruch stehen: „Möge der Erfolg so schnell kommen wie Pferdehufe.“",
+  "headline": "2026 ist Feuerpferd – das gibt's nur alle 60 Jahre",
+  "teaser": "Am 17. Februar 2026 begann das Jahr des Feuerpferds. Weil Tierzeichen und Elemente kombiniert werden, kommt diese Paarung nur alle 60 Jahre vor.",
+  "detail": "Das chinesische Tierkreisjahr hat nicht nur ein Tier, sondern auch ein Element. Laut Penn-State-Professor Xiaoye You funktioniert das wie eine Tabelle: Quer die zwölf Tiere, längs die fünf Elemente Holz, Feuer, Erde, Metall und Wasser, jedes zweimal hintereinander. Jedes Jahr kombiniert ein Tier mit einem Element, nach 60 Jahren geht es von vorn los.\n\nAm 17. Februar 2026 begann so das Jahr des Feuerpferds. Die University of California, Irvine nennt es eine astrologische Seltenheit, die nur einmal in sechzig Jahren vorkommt. Das Pferd gilt als feurig, und die himmlischen Stämme zeigen auch auf Feuer: „Feuer über Feuer“.\n\nTraditionell gilt die Kombination als Zeit großer Umbrüche. Laut UCI warnte in der Song-Zeit ein daoistischer Priester den Kaiser vor einem Unglück, und 1126 eroberte ein Heer der Jurchen tatsächlich die Hauptstadt.\n\nPositiv gesehen steht das Pferd für Tempo und Tatkraft. Passender Neujahrswunsch 2026: „Möge der Erfolg so schnell kommen wie Pferdehufe.“",
   "sources": [
    {
     "title": "Lunar New Year 2026: A year of reckoning",
@@ -782,6 +811,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -789,9 +819,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Im chinesischen Kalender hat manches Jahr 13 Monate",
-  "teaser": "Der traditionelle chinesische Kalender richtet sich nach dem Mond; damit er nicht aus dem Takt gerät, haben 7 von 19 Jahren einen 13. Monat.",
-  "detail": "Warum fällt das chinesische Neujahr jedes Jahr auf ein anderes Datum, mal Ende Januar, mal Mitte Februar? Weil der traditionelle Kalender sich nach dem Mond richtet.\n\nLaut Xiaoye You, Professor an der Penn State University, entstand der Mondkalender vor etwa 3.000 Jahren in der Shang-Dynastie und wurde vor rund 2.100 Jahren unter der Han-Dynastie festgeschrieben. Jeder Monat beginnt direkt nach dem Neumond.\n\nDas Problem: Zwölf Mondmonate sind deutlich kürzer als ein Sonnenjahr. Ohne Korrektur würde das Neujahrsfest langsam durch alle Jahreszeiten wandern. Die Lösung ist ein Schaltmonat. Die meisten Jahre haben zwölf Monate, aber in jedem 19-Jahres-Zeitraum gibt es sieben Jahre mit dreizehn Monaten.\n\nSo bleibt das Frühlingsfest dort, wo es hingehört: um den Beginn des Frühlings nach traditioneller Rechnung. Im Alltag nutzt China den gregorianischen Kalender, doch Feiertage wie Neujahr, Drachenbootfest und Mondfest richten sich bis heute nach dem Mond.",
+  "headline": "Manches chinesische Jahr hat 13 Monate",
+  "teaser": "Der traditionelle chinesische Kalender richtet sich nach dem Mond. Damit er nicht aus dem Takt gerät, haben 7 von 19 Jahren einen 13. Monat.",
+  "detail": "Warum fällt das chinesische Neujahr jedes Jahr auf ein anderes Datum, mal Ende Januar, mal Mitte Februar? Weil der traditionelle Kalender dem Mond folgt.\n\nLaut Xiaoye You, Professor an der Penn State University, entstand der Mondkalender vor etwa 3.000 Jahren in der Shang-Dynastie und wurde vor rund 2.100 Jahren unter der Han-Dynastie festgeschrieben. Jeder Monat beginnt direkt nach dem Neumond.\n\nDas Problem: Zwölf Mondmonate sind deutlich kürzer als ein Sonnenjahr. Ohne Korrektur würde das Frühlingsfest langsam durch alle Jahreszeiten wandern – irgendwann feiert man „Frühling“ im Hochsommer. Die Lösung ist ein Schaltmonat. Die meisten Jahre haben zwölf Monate, aber in jedem 19-Jahres-Zeitraum gibt es sieben Jahre mit dreizehn. Schaltmonat statt Schalttag, sozusagen.\n\nIm Alltag nutzt China den gregorianischen Kalender. Feiertage wie Neujahr, Drachenbootfest und Mondfest richten sich aber bis heute nach dem Mond.",
   "sources": [
    {
     "title": "Q&A: What is Lunar New Year?",
@@ -807,6 +837,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -814,9 +845,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Rote Glücksumschläge bekommen auch Erwachsene noch",
-  "teaser": "Zum Neujahr verschenken Ältere Geld in roten Umschlägen (hongbao) – Rot steht in China für Glück, und auch Erwachsene bekommen sie oft noch von ihren Eltern.",
-  "detail": "Rot ist in China die Farbe des Glücks. Laut Penn-State-Professor Xiaoye You wurde Rot historisch mit Wärme verbunden und allgemein mit Glück und Segen. Es kommt bei besonders wichtigen Anlässen zum Einsatz: bei Hochzeiten, Geschäftseröffnungen und natürlich zum Neujahrsfest.\n\nDas bekannteste Beispiel sind die roten Umschläge, auf Chinesisch hongbao. An Silvester oder Neujahr bekommt man sie von Älteren, meist von Eltern und Verwandten. Darin steckt Glücksgeld, das Segen bringen und schlechte Energie fernhalten soll.\n\nDas Schöne: Damit ist nicht unbedingt mit dem Erwachsenwerden Schluss. Xiaoye You erzählt, dass er noch immer Umschläge von seinem Vater bekommt, der Ende siebzig ist.\n\nEin schlichtes „Danke“ reicht dabei nicht. Was man sagt, hängt von Region und Familie ab. Ein gängiger Spruch ist „gōngxǐ fācái“: „Ich wünsche dir, dass du im neuen Jahr reich wirst.“",
+  "headline": "Rote Geldumschläge gibt's auch für Erwachsene",
+  "teaser": "Zum Neujahr verschenken Ältere Geld in roten Umschlägen (hongbao) – und auch Erwachsene bekommen sie oft noch von ihren Eltern.",
+  "detail": "Rot ist in China die Farbe des Glücks. Laut Penn-State-Professor Xiaoye You wurde Rot historisch mit Wärme verbunden und allgemein mit Glück und Segen. Deshalb taucht es bei wichtigen Anlässen auf: Hochzeiten, Geschäftseröffnungen und natürlich zum Neujahrsfest.\n\nAm bekanntesten sind die roten Umschläge, hongbao. An Silvester oder Neujahr bekommt man sie von Älteren, meist von Eltern und Verwandten. Drin steckt Glücksgeld, das Segen bringen und schlechte Energie fernhalten soll.\n\nDas Beste: Mit dem Erwachsenwerden ist nicht unbedingt Schluss. Xiaoye You erzählt, dass er immer noch Umschläge von seinem Vater bekommt – und der ist Ende siebzig. Kind bleibt man eben.\n\nEin schlichtes „Danke“ reicht allerdings nicht. Was man sagt, hängt von Region und Familie ab. Ein gängiger Spruch ist „gōngxǐ fācái“: „Ich wünsche dir, dass du im neuen Jahr reich wirst.“ Passt ja auch zum Geschenk.",
   "sources": [
    {
     "title": "Q&A: What is Lunar New Year?",
@@ -832,6 +863,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -840,8 +872,8 @@
   "country": "china",
   "lang": "de",
   "headline": "Für den Drei-Schluchten-Damm zogen 1,2 Millionen Menschen um",
-  "teaser": "Der Drei-Schluchten-Damm am Jangtse ist das größte Wasserkraftwerk der Welt; für seinen Stausee mussten laut NASA rund 1,2 Millionen Menschen umgesiedelt werden.",
-  "detail": "Der Jangtse ist Chinas längster Fluss, und an ihm steht ein Bauwerk der Superlative. Laut NASA wurde der Drei-Schluchten-Damm mit seiner Fertigstellung 2012 zum größten Wasserkraftwerk der Welt. Er soll Hochwasser eindämmen, die Schifffahrt erleichtern und Wasser für die Landwirtschaft liefern.\n\nDer Preis war hoch. Rund 1,2 Millionen Menschen mussten laut NASA umziehen, weil ihr Zuhause im Stausee verschwand. Laut einer Studie von 2010 löste das Projekt von Mitte 2003 bis 2009 etwa 3.400 Erdbeben und zahlreiche Erdrutsche aus. Auch wichtige archäologische Stätten und alte Monumente sollen überflutet worden sein.\n\nDas Jet Propulsion Laboratory der NASA beschreibt den Stausee als 660 Kilometer lang.\n\nWer heute eine Flusskreuzfahrt durch die Drei Schluchten macht, sieht trotzdem noch beeindruckende Felswände, nur liegt der Wasserspiegel deutlich höher als früher.",
+  "teaser": "Der Drei-Schluchten-Damm am Jangtse ist das größte Wasserkraftwerk der Welt. Für seinen Stausee mussten laut NASA rund 1,2 Millionen Menschen umgesiedelt werden.",
+  "detail": "Der Jangtse ist Chinas längster Fluss, und an ihm steht ein Bauwerk der Superlative. Laut NASA wurde der Drei-Schluchten-Damm mit seiner Fertigstellung 2012 zum größten Wasserkraftwerk der Welt. Er soll Hochwasser eindämmen, die Schifffahrt erleichtern und Wasser für die Landwirtschaft liefern.\n\nDer Preis war hoch. Rund 1,2 Millionen Menschen mussten laut NASA umziehen, weil ihr Zuhause im Stausee verschwand. Laut einer Studie von 2010 löste das Projekt von Mitte 2003 bis 2009 etwa 3.400 Erdbeben und zahlreiche Erdrutsche aus. Auch wichtige archäologische Stätten und alte Monumente sollen überflutet worden sein.\n\nWie groß das Ganze ist, zeigt der Stausee: Das Jet Propulsion Laboratory der NASA beschreibt ihn als 660 Kilometer lang.\n\nWer heute eine Flusskreuzfahrt durch die Drei Schluchten macht, sieht trotzdem noch beeindruckende Felswände – nur liegt der Wasserspiegel deutlich höher als früher.",
   "sources": [
    {
     "title": "Three Gorges Dam brings power, concerns to central China",
@@ -863,6 +895,7 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 2,
   "verified": "2026-10-14"
  },
  {
@@ -870,9 +903,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Der seltenste Primat der Welt lebt auf Chinas Insel Hainan",
+  "headline": "Der seltenste Primat der Welt lebt auf Hainan",
   "teaser": "Der Hainan-Schopfgibbon gilt als seltenster Primat der Erde: 1978 waren nur sieben oder acht Tiere bekannt, heute sind es rund 42.",
-  "detail": "Wenn es eine Rangliste der bedrohtesten Tiere gäbe, stünde er weit oben: Der Hainan-Schopfgibbon gilt laut einer Studie im Fachjournal Ecology and Evolution als seltenster Primat der Welt und eines der seltensten Wirbeltiere überhaupt.\n\nFrüher lebte er auf der ganzen tropischen Insel Hainan im Süden Chinas. In den 1950er-Jahren gab es allein in der Region Bawangling vermutlich 150 bis 200 Tiere. Dann wurde vor allem gejagt. 1978 waren nur noch sieben oder acht Gibbons bekannt.\n\n1980 wurde für sie ein eigenes Schutzgebiet eingerichtet, und die Population erholte sich langsam. Laut einer Studie aus dem Jahr 2026 leben heute sieben Gruppen mit insgesamt 42 Tieren, alle auf rund 15 Quadratkilometern Regenwald im Hainan-Tropenwald-Nationalpark.\n\nDie Forscher mahnen allerdings zur Vorsicht: Frühe Zählungen waren ungenau, und die geringe genetische Vielfalt bleibt ein Risiko. Gezählt werden die Gibbons übrigens vor allem über ihre lauten Rufe: Teams lauschen von Aussichtspunkten aus und suchen die Tiere dann auf.",
+  "detail": "Gäbe es eine Rangliste der bedrohtesten Tiere, stünde er weit oben: Der Hainan-Schopfgibbon gilt laut einer Studie im Fachjournal Ecology and Evolution als seltenster Primat der Welt und eines der seltensten Wirbeltiere überhaupt.\n\nFrüher lebte er auf der ganzen tropischen Insel Hainan im Süden Chinas. In den 1950ern gab es allein in der Region Bawangling vermutlich 150 bis 200 Tiere. Dann wurde vor allem gejagt, und 1978 waren nur noch sieben oder acht Gibbons bekannt.\n\n1980 bekamen sie ein eigenes Schutzgebiet, und die Population erholte sich langsam. Laut einer Studie aus dem Jahr 2026 leben heute sieben Gruppen mit insgesamt 42 Tieren, alle auf rund 15 Quadratkilometern Regenwald im Hainan-Tropenwald-Nationalpark.\n\nDie Forscher mahnen trotzdem zur Vorsicht: Frühe Zählungen waren ungenau, und die geringe genetische Vielfalt bleibt ein Risiko. Gezählt wird übrigens nach Gehör – Teams lauschen von Aussichtspunkten auf die lauten Rufe und suchen die Tiere dann auf.",
   "sources": [
    {
     "title": "Assessing the information-content of messy data to reconstruct population recovery dynamics for the world's rarest primate",
@@ -895,6 +928,7 @@
   ],
   "gross": false,
   "kids": true,
+  "fun": 3,
   "verified": "2026-10-14"
  },
  {
@@ -902,9 +936,9 @@
   "category": "ort",
   "country": "china",
   "lang": "de",
-  "headline": "Über 10 Millionen Einreisende zahlten in China per Handy – in einem Halbjahr",
-  "teaser": "In China zahlt man meist per QR-Code: Im ersten Halbjahr 2025 nutzten laut Zentralbank über 10 Millionen Einreisende aktiv mobiles Bezahlen.",
-  "detail": "Wer nach China reist, merkt schnell: Bargeld und Karten spielen im Alltag eine Nebenrolle. Bezahlt wird fast überall per Smartphone, indem man einen QR-Code scannt oder vorzeigt. Das gilt für den Supermarkt ebenso wie für die Garküche am Straßenrand.\n\nLange war das für Touristen ein Problem, weil die großen Bezahl-Apps an chinesische Bankkonten gebunden waren. Inzwischen hat die Zentralbank nachgebessert. Laut einem China-Daily-Bericht vom Oktober 2025 wurden Transaktionslimits erhöht, Abläufe vereinfacht und die Registrierung mit ausländischer Handynummer sowie die Verknüpfung mit ausländischen Bankkarten erlaubt.\n\nDas Ergebnis: Im ersten Halbjahr 2025 nutzten mehr als 10 Millionen Einreisende aus dem Ausland aktiv mobiles Bezahlen. Zahl und Wert der Transaktionen stiegen im Jahresvergleich um 162 beziehungsweise 149 Prozent. An über 60 Flughäfen gibt es eigene Hilfeschalter.\n\nBargeld bleibt trotzdem erlaubt, offizielle Richtlinien sollen seine Nutzung schützen. Ein paar Yuan in der Tasche schaden nicht, falls der Akku leer ist.",
+  "headline": "China zahlt per Handy – jetzt auch Touristen",
+  "teaser": "In China bezahlt man meist per QR-Code. Im ersten Halbjahr 2025 nutzten laut Zentralbank über 10 Millionen Einreisende aktiv mobiles Bezahlen.",
+  "detail": "Wer nach China reist, merkt schnell: Bargeld und Karten sind im Alltag Nebendarsteller. Bezahlt wird fast überall per Smartphone, indem man einen QR-Code scannt oder vorzeigt – im Supermarkt genauso wie an der Garküche am Straßenrand.\n\nFür Touristen war das lange ein Problem, weil die großen Bezahl-Apps an chinesische Bankkonten gebunden waren. Inzwischen hat die Zentralbank nachgebessert. Laut China Daily vom Oktober 2025 wurden Transaktionslimits erhöht, Abläufe vereinfacht, und man darf sich mit ausländischer Handynummer registrieren und ausländische Bankkarten verknüpfen.\n\nErgebnis: Im ersten Halbjahr 2025 nutzten mehr als 10 Millionen Einreisende aktiv mobiles Bezahlen. Zahl und Wert der Transaktionen stiegen im Jahresvergleich um 162 beziehungsweise 149 Prozent. An über 60 Flughäfen gibt es eigene Hilfeschalter.\n\nBargeld bleibt erlaubt, offizielle Richtlinien sollen seine Nutzung schützen. Ein paar Yuan in der Tasche schaden trotzdem nicht – falls der Akku schlappmacht.",
   "sources": [
    {
     "title": "Digital payment more popular among visitors",
@@ -922,6 +956,7 @@
   "era": "gegenwart",
   "gross": false,
   "kids": true,
+  "fun": 1,
   "verified": "2026-10-14"
  }
 ]
