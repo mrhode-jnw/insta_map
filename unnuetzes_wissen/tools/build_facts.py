@@ -18,7 +18,7 @@ TAX = json.loads((DATA / "taxonomy.json").read_text())
 CATS = {c["id"] for c in TAX["categories"]}
 THEME_IDS = {t["id"] for t in TAX.get("themes", [])}
 PUBLIC = ["id", "category", "place", "country", "lang", "headline", "teaser", "detail", "sources", "tags",
-          "era", "gross", "sensitive", "kids", "fun", "themes", "verified", "expires"]
+          "era", "gross", "sensitive", "kids", "fun", "themes", "wiki", "verified", "expires"]
 
 
 def fid(f):
@@ -46,6 +46,10 @@ def main(src):
     themes = {}
     for p in sorted(pathlib.Path(src).glob("themen-*.json")):
         themes.update(json.loads(p.read_text()))
+    # Bild-Motiv (wiki-*.json: {id: "Wikipedia-Titel" | null}); die App lädt das Titelbild im Browser
+    wiki = {}
+    for p in sorted(pathlib.Path(src).glob("wiki-*.json")):
+        wiki.update(json.loads(p.read_text()))
     added = skipped = 0
     for path in sorted(pathlib.Path(src).glob("verified-*.json")):
         data = json.loads(path.read_text())
@@ -70,6 +74,8 @@ def main(src):
             if "Vor Ort" in f.get("detail", ""):
                 t.append("vorort")
             f["themes"] = list(dict.fromkeys(t))
+            if f["id"] in wiki:
+                f["wiki"] = wiki[f["id"]]
             out = {k: f.get(k) for k in PUBLIC if f.get(k) is not None}
             out["sources"] = [{k: s.get(k) for k in ("title", "publisher", "date", "url") if s.get(k)} for s in f["sources"]]
             packs.setdefault(pack_of(f), {})[f["id"]] = out

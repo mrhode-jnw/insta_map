@@ -305,8 +305,73 @@
   };
   const isSaved = id => S.saved.includes(id);
 
+  // ---------- Bilder (Wikipedia-Titelbild, nur freie Commons-Dateien) ----------
+  const IMG_KEY = (CFG.storagePrefix || "uw_") + "img";
+  let IMG = {};
+  try { IMG = JSON.parse(localStorage.getItem(IMG_KEY)) || {}; } catch {}
+  const saveImg = () => { try { localStorage.setItem(IMG_KEY, JSON.stringify(IMG)); } catch {} };
+  const SKIP_FILE = /(logo|map|karte|locator|flag|icon|seal|emblem|coat[_ ]of[_ ]arms|diagram|\.svg)/i;
+  const pending = {};
+  const stripHtml = h => { const d = document.createElement("div"); d.innerHTML = h || ""; return (d.textContent || "").replace(/\s+/g, " ").trim(); };
+  function loadImage(title) {
+    if (!title || S.profile.images === false) return Promise.resolve(null);
+    const hit = IMG[title];
+    if (hit && (hit.src || Date.now() - hit.ts < 14 * 864e5)) return Promise.resolve(hit.src ? hit : null);
+    if (pending[title]) return pending[title];
+    return pending[title] = (async () => {
+      try {
+        const sum = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g, "_"))}`).then(r => r.ok ? r.json() : null);
+        const src0 = sum?.thumbnail?.source || "";
+        const file = decodeURIComponent((sum?.originalimage?.source || src0).split("/").pop() || "");
+        // nur Dateien von Wikimedia Commons (frei lizenziert), keine Karten/Logos
+        if (!src0.includes("/wikipedia/commons/") || SKIP_FILE.test(file)) { IMG[title] = { ts: Date.now() }; saveImg(); return null; }
+        const w = Math.min(960, sum.originalimage?.width || 960);
+        const src = /\/\d+px-/.test(src0) ? src0.replace(/\/\d+px-/, `/${w}px-`) : src0;
+        let artist = "", license = "";
+        try {
+          const q = await fetch(`https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=imageinfo&iiprop=extmetadata&titles=File:${encodeURIComponent(file)}`).then(r => r.json());
+          const meta = Object.values(q.query.pages)[0].imageinfo[0].extmetadata;
+          artist = stripHtml(meta.Artist?.value).slice(0, 80); license = meta.LicenseShortName?.value || "";
+        } catch {}
+        IMG[title] = { src, file, artist, license, ts: Date.now() }; saveImg();
+        return IMG[title];
+      } catch { return null; } finally { delete pending[title]; }
+    })();
+  }
+  // Farbiger Platzhalter mit Emoji (Thema oder Kategorie), Farbton fest je Kategorie
+  function mediaHTML(f, big = false) {
+    const ico = (f.themes || []).map(t => theme(t).icon).find(Boolean) || cat(f.category).icon;
+    const hue = [...(f.category || "x")].reduce((a, c) => (a * 31 + c.charCodeAt(0)) % 360, 7);
+    return `<div class="media${big ? " big" : ""}" style="--h:${hue}" ${f.wiki && S.profile.images !== false ? `data-wiki="${esc(f.wiki)}"` : ""}><span class="ph">${ico}</span></div>`;
+  }
+  function hydrateImages(root = document) {
+    root.querySelectorAll(".media[data-wiki]:not([data-done])").forEach(el => {
+      el.dataset.done = 1;
+      loadImage(el.dataset.wiki).then(img => {
+        if (!img) return;
+        const i = new Image();
+        i.alt = ""; i.loading = "lazy"; i.decoding = "async"; i.src = img.src;
+        i.onload = () => { el.classList.add("has-img"); };
+        el.prepend(i);
+        if (el.classList.contains("big")) {
+          const c = document.createElement("a");
+          c.className = "credit"; c.target = "_blank"; c.rel = "noopener";
+          c.href = `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(img.file)}`;
+          c.textContent = `Foto: ${img.artist || "unbekannt"}${img.license ? " · " + img.license : ""} · Wikimedia Commons`;
+          el.after(c);
+        }
+      });
+    });
+  }
+  function prefetchImages() {
+    const d = S.day;
+    if (!d) return;
+    d.ids.slice(d.pos + 1, d.pos + 4).forEach(id => { const f = BY.get(id); if (f?.wiki) loadImage(f.wiki).then(img => { if (img) new Image().src = img.src; }); });
+  }
+
   function cardHTML(f, opts = {}) {
     return `<article class="card enter" data-id="${esc(f.id)}" tabindex="0" aria-label="${esc(f.headline)}">
+      ${mediaHTML(f)}
       ${chip(f)}
       ${opts.noSave ? "" : `<button class="save-btn ${isSaved(f.id) ? "on" : ""}" data-a="save" data-v="${esc(f.id)}" aria-label="Merken" aria-pressed="${isSaved(f.id)}">${isSaved(f.id) ? "★" : "☆"}</button>`}
       <h2>${esc(f.headline)}</h2>
@@ -347,6 +412,7 @@
     sheetInner.innerHTML = `<div class="sheet-grip"></div><button class="sheet-close" data-a="close" aria-label="Schließen">✕</button>${html}`;
     if (sheet.hidden) { sheet.hidden = false; history.pushState({ sheet: 1 }, ""); }
     sheetInner.scrollTop = 0;
+    hydrateImages(sheetInner);
   }
   function closeSheet(fromPop) {
     if (sheet.hidden) return;
@@ -367,6 +433,7 @@
         <div class="t">${esc(s.title || s.url)} ↗</div></a></li>`).join("");
     const map = CFG.instaMapUrl && f.place === "hongkong" ? `<a class="btn" href="${esc(CFG.instaMapUrl)}">🗺️ Insta-Map</a>` : "";
     openSheet(`<div class="detail">
+      ${mediaHTML(f, true)}
       ${chip(f)}
       <h2>${esc(f.headline)}</h2>
       <div class="body">${shown.map(p => `<p>${esc(p)}</p>`).join("")}</div>
@@ -593,6 +660,8 @@
         ${sum(5, "Orte", places.join(", ") + (p.useLocation ? " · Standort an" : ""))}
         ${sum(6, "Persönliches & Ausschlüsse", Object.entries(p.exclude).filter(([, v]) => v).map(([k]) => "ohne " + k).join(", ") || "keine Ausschlüsse")}
       </div>
+      <label class="switch"><span><strong>Bilder von Wikipedia laden</strong><br><span class="small muted">Fotos von Wikimedia Commons. Dabei sieht Wikipedia, welches Bild abgerufen wird.</span></span>
+        <input id="pf-images" type="checkbox" ${p.images !== false ? "checked" : ""}></label>
       <div class="section-title">Fakten pro Tag</div>
       <div class="pills">${[20, 50, 100].map(n => `<button class="pill" data-a="perday" data-v="${n}" aria-pressed="${S.perDay === n}">${n}</button>`).join("")}</div>
       ${S.wishes.length ? `<div class="section-title">Deine Wünsche</div><p class="small muted">Werden in einer späteren Version an die Recherche übermittelt: ${S.wishes.map(w => esc(w.value)).join(", ")}</p>` : ""}
@@ -773,6 +842,8 @@
       : route === "profil" ? viewProfile()
       : viewToday();
     if (route === "heute") bindCard(() => advance(null));
+    hydrateImages(app);
+    if (route === "heute") prefetchImages();
   }
   tabs.addEventListener("click", e => { const b = e.target.closest("button[data-tab]"); if (b) go(b.dataset.tab); });
 
@@ -862,6 +933,7 @@
   });
   // Sexualität gewählt → Interesse an queeren Themen vorschlagen
   document.addEventListener("change", e => {
+    if (e.target.id === "pf-images") { S.profile.images = e.target.checked; save(); toast(e.target.checked ? "Bilder an" : "Bilder aus"); }
     if (e.target.id === "ob-sx") {
       const q = document.getElementById("ob-queer");
       if (q) q.checked = !["", "hetero"].includes(e.target.value);
