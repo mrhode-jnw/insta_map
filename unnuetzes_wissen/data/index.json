@@ -9,12 +9,12 @@
   {
    "file": "facts-allgemein.json",
    "place": null,
-   "count": 139
+   "count": 171
   },
   {
    "file": "facts-hongkong.json",
    "place": "hongkong",
-   "count": 59
+   "count": 61
   },
   {
    "file": "facts-land-china.json",
