@@ -82,6 +82,20 @@ body.no-tabs #app { padding-bottom: calc(env(safe-area-inset-bottom) + 24px); }
 .progress > i { display: block; height: 100%; background: var(--brand); border-radius: 3px; transition: width .3s; }
 .round-label { display: flex; justify-content: space-between; font-size: .875rem; color: var(--text-2); }
 
+/* ---------- Fokus ---------- */
+.focus-btn {
+  min-height: 40px; padding: 0 14px; border-radius: 999px;
+  border: 1.5px solid var(--brand); background: var(--brand-soft); font-weight: 600; font-size: .9rem;
+  max-width: 60%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.where { font-size: .85rem; color: var(--text-2); margin: -8px 0 12px; }
+.suggest { background: var(--surface); border: 2px solid var(--brand); border-radius: var(--radius); padding: 14px 16px; margin-bottom: 16px; }
+.suggest > span { font-weight: 700; }
+.suggest p { margin: 4px 0 12px; font-size: .95rem; }
+.here { font-size: .75rem; font-weight: 600; color: var(--brand); margin-left: 4px; }
+.row[aria-pressed="true"] { border-color: var(--brand); background: var(--brand-soft); }
+.row:disabled { opacity: .5; }
+
 /* ---------- Fact card ---------- */
 .card {
   position: relative;

@@ -32,14 +32,15 @@
     profile: {
       interests: [], depth: "neugierig", humor: null, gross: false,
       birthYear: null, birthDay: null, job: null, hobbies: [],
-      home: null, birth: null, extraPlaces: [...(CFG.defaultPlaces || [])], useLocation: false,
+      home: null, birth: null, extraPlaces: [...(CFG.defaultPlaces || [])], extraCountries: [], useLocation: false,
       sexuality: null, queer: false,
       exclude: { politik: false, krieg: false, krankheit: false },
       answers: {}, never: {}, kidsMode: false
     },
     catW: {}, tagW: {}, seen: {}, ratings: {}, saved: [], reported: [], wishes: [],
     perDay: CFG.factsPerDay || 100,
-    day: null, curPlace: null, lastQuestion: null
+    day: null, curPlace: null, curCountry: null, lastQuestion: null,
+    focus: "mix", suggest: null, dismissed: {}
   });
   let S;
   try { S = JSON.parse(localStorage.getItem(KEY)) || freshState(); } catch { S = freshState(); }
@@ -51,9 +52,10 @@
   let TAX = { categories: [], jobs: [], hobbies: [], places: [], questions: [] };
   let FACTS = [];
   const BY = new Map();
-  let PACK_PLACES = new Set();
+  let PACK_PLACES = new Set(), PACK_COUNTRIES = new Set();
   const cat = id => TAX.categories.find(c => c.id === id) || { id, name: id, icon: "•" };
   const place = id => TAX.places.find(p => p.id === id);
+  const country = id => (TAX.countries || []).find(c => c.id === id);
   const placeName = p => p ? (p.id ? (place(p.id)?.name || p.name) : p.name) : "";
 
   async function loadData() {
@@ -67,6 +69,7 @@
     FACTS = packs.flat();
     FACTS.forEach(f => BY.set(f.id, f));
     PACK_PLACES = new Set(idx.packs.filter(p => p.place).map(p => p.place));
+    PACK_COUNTRIES = new Set(idx.packs.filter(p => p.country).map(p => p.country));
   }
 
   // ---------- Auswahl & Gewichtung ----------
@@ -102,6 +105,27 @@
     if (S.curPlace) s.add(S.curPlace);
     return s;
   }
+  function activeCountries() {
+    const p = S.profile, s = new Set(p.extraCountries);
+    [p.home, p.birth].forEach(x => { const c = x?.id && place(x.id)?.countryId; if (c) s.add(c); });
+    if (S.curCountry) s.add(S.curCountry);
+    return s;
+  }
+  // Fokus: "mix", "place:<id>", "country:<id>" oder "cat:<id>"
+  function matchFocus(f, focus) {
+    const [k, v] = focus.split(":");
+    if (k === "place") return f.place === v;
+    if (k === "country") return f.country === v || (!!f.place && place(f.place)?.countryId === v);
+    if (k === "cat") return f.category === v;
+    return true;
+  }
+  function focusLabel(focus = S.focus) {
+    const [k, v] = (focus || "mix").split(":");
+    if (k === "place") return `📍 ${place(v)?.name || v}`;
+    if (k === "country") return `${country(v)?.flag || "🌍"} ${country(v)?.name || v}`;
+    if (k === "cat") return `${cat(v).icon} ${cat(v).name}`;
+    return "🔀 Mix";
+  }
   function score(f, pt, era) {
     let s = f.category === "ort" || f.category === "aktuell" ? 2.5 : catWeight(f.category);
     for (const t of f.tags || []) s += (pt[t] || 0) + (S.tagW[t] || 0);
@@ -122,11 +146,13 @@
   }
   function buildDeck(n, exclude = new Set()) {
     const pt = profileTags(), era = profileEra(), places = activePlaces();
-    const pool = FACTS.filter(f => !S.seen[f.id] && !exclude.has(f.id) && eligible(f) && (!f.place || places.has(f.place)));
+    const countries = activeCountries();
+    const pool = FACTS.filter(f => !S.seen[f.id] && !exclude.has(f.id) && eligible(f)
+      && (!f.place || places.has(f.place)) && (!f.country || countries.has(f.country)));
     const ranked = arr => arr.map(f => ({ f, s: score(f, pt, era) * (0.55 + Math.random() * 0.9) })).sort((a, b) => b.s - a.s).map(x => x.f);
     const akt = ranked(pool.filter(f => f.category === "aktuell"));
-    const loc = ranked(pool.filter(f => f.place));
-    const rest = ranked(pool.filter(f => !f.place && f.category !== "aktuell"));
+    const loc = ranked(pool.filter(f => f.place || f.country));
+    const rest = ranked(pool.filter(f => !f.place && !f.country && f.category !== "aktuell"));
     const chosen = [...akt.slice(0, Math.round(n * 0.2)), ...loc.slice(0, Math.round(n * 0.4))];
     const used = new Set(chosen.map(f => f.id));
     for (const f of [...rest, ...loc, ...akt]) {
@@ -136,16 +162,28 @@
     // Reihenfolge: nach Gewicht mit Zufall, dann Kategorien verteilen
     return spread(ranked(chosen)).map(f => f.id);
   }
+  // Tagesstapel mit Fokus: erst alle passenden Fakten (auch von nicht aktiven Orten), danach gemischt auffüllen
+  function deckFor(n, exclude = new Set()) {
+    const focus = S.focus || "mix";
+    if (focus === "mix") return { ids: buildDeck(n, exclude), focusEnd: 0 };
+    const pt = profileTags(), era = profileEra();
+    const hit = FACTS.filter(f => !S.seen[f.id] && !exclude.has(f.id) && eligible(f) && matchFocus(f, focus))
+      .map(f => ({ f, s: score(f, pt, era) * (0.55 + Math.random() * 0.9) })).sort((a, b) => b.s - a.s).map(x => x.f).slice(0, n);
+    const ids = (focus.startsWith("cat:") ? spread(hit) : hit).map(f => f.id);
+    const more = buildDeck(n - ids.length, new Set([...exclude, ...ids]));
+    return { ids: ids.concat(more), focusEnd: ids.length };
+  }
+  const unreadFor = focus => FACTS.filter(f => !S.seen[f.id] && eligible(f) && matchFocus(f, focus)).length;
   function ensureDay() {
     if (S.day && S.day.date === today()) return;
-    let ids = buildDeck(S.perDay);
+    let { ids, focusEnd } = deckFor(S.perDay);
     // Am Geburtstag: die bestpassenden Fakten zuerst (ohne Zufall)
-    if (S.profile.birthDay && today().slice(5) === S.profile.birthDay) {
+    if (S.profile.birthDay && today().slice(5) === S.profile.birthDay && !focusEnd) {
       const pt = profileTags(), era = profileEra();
       ids = [...ids].sort((a, b) => score(BY.get(b), pt, era) - score(BY.get(a), pt, era));
       ids = spread(ids.map(id => BY.get(id))).map(f => f.id);
     }
-    S.day = { date: today(), ids, pos: 0, breaks: {}, bonus: 0, asked: false };
+    S.day = { date: today(), ids, pos: 0, breaks: {}, bonus: 0, asked: false, focus: S.focus, focusEnd };
     save();
   }
 
@@ -153,7 +191,9 @@
   function rebuildRest() {
     if (!S.day || S.day.date !== today()) { S.day = null; return; }
     const keep = S.day.ids.slice(0, S.day.pos);
-    S.day.ids = keep.concat(buildDeck(Math.max(0, S.perDay - keep.length), new Set(keep)));
+    const d = deckFor(Math.max(0, S.perDay - keep.length), new Set(keep));
+    S.day.ids = keep.concat(d.ids);
+    S.day.focus = S.focus; S.day.focusEnd = keep.length + d.focusEnd;
     S.day.bonus = 0;
   }
 
@@ -171,15 +211,32 @@
     const h = Math.sin(dLat / 2) ** 2 + Math.cos(r(a.lat)) * Math.cos(r(b.lat)) * Math.sin(dLon / 2) ** 2;
     return 2 * R * Math.asin(Math.sqrt(h));
   };
+  // Grenze Hong Kong/Shenzhen (Shenzhen River, Deep Bay) wie in der Insta-Map: nördlich davon ist Festland
+  const HK_N = [[113.80, 22.47], [113.93, 22.475], [113.98, 22.50], [114.05, 22.51], [114.10, 22.535], [114.20, 22.55], [114.45, 22.56]];
+  const hkNorth = lon => { for (let i = 1; i < HK_N.length; i++) if (lon <= HK_N[i][0]) { const [x0, y0] = HK_N[i - 1], [x1, y1] = HK_N[i]; return y0 + (y1 - y0) * (lon - x0) / (x1 - x0); } return 22.56; };
+  const inHK = h => h.lon > 113.82 && h.lon < 114.45 && h.lat > 22.13 && h.lat < hkNorth(h.lon);
+  const inMacau = h => h.lon > 113.52 && h.lon < 113.61 && h.lat > 22.10 && h.lat < 22.22;
+  const inMainland = h => h.lat > 18 && h.lat < 54 && h.lon > 73 && h.lon < 135 && !inHK(h) && !inMacau(h) && !(h.lon > 119.3 && h.lat < 25.5);
+  function regionOf(here) {
+    if (inHK(here)) return { place: "hongkong", country: "hongkong" };
+    const mainland = inMainland(here);
+    const hit = TAX.places.filter(p => p.id !== "hongkong" && (!mainland || p.countryId === "china"))
+      .map(p => ({ p, d: distKm(here, p) })).filter(x => x.d <= x.p.radiusKm).sort((a, b) => a.d - b.d)[0]?.p;
+    return { place: hit?.id || null, country: mainland ? "china" : hit?.countryId || null };
+  }
+  // Neuer Ort mit eigenem Fakten-Paket → Fokus vorschlagen (je Ort nur einmal, wenn abgelehnt)
+  function suggestFor(r) {
+    const opt = r.place && PACK_PLACES.has(r.place) ? "place:" + r.place : r.country && PACK_COUNTRIES.has(r.country) ? "country:" + r.country : null;
+    S.suggest = opt && opt !== S.focus && !S.dismissed[opt] && unreadFor(opt) ? opt : null;
+  }
   function locate(ask = false) {
     if (!S.profile.useLocation || !navigator.geolocation) return;
     navigator.geolocation.getCurrentPosition(pos => {
-      const here = { lat: pos.coords.latitude, lon: pos.coords.longitude };
-      const hit = TAX.places.map(p => ({ p, d: distKm(here, p) })).filter(x => x.d <= x.p.radiusKm).sort((a, b) => a.d - b.d)[0];
-      const id = hit?.p.id || null;
-      if (id !== S.curPlace) {
-        S.curPlace = id;
-        if (id && !PACK_PLACES.has(id)) wish("place", hit.p.name);
+      const r = regionOf({ lat: pos.coords.latitude, lon: pos.coords.longitude });
+      if (r.place !== S.curPlace || r.country !== S.curCountry) {
+        S.curPlace = r.place; S.curCountry = r.country;
+        if (r.place && !PACK_PLACES.has(r.place)) wish("place", place(r.place)?.name);
+        suggestFor(r);
         save();
         if (route === "heute") render();
       }
@@ -194,6 +251,7 @@
   // ---------- Bausteine ----------
   const chip = f => {
     const c = cat(f.category);
+    if (f.country && !f.place) return `<span class="chip">${country(f.country)?.flag || "🌍"} ${esc(country(f.country)?.name || f.country)}</span>`;
     const where = f.place ? ` · ${esc(place(f.place)?.name || f.place)}` : "";
     return `<span class="chip">${c.icon} ${esc(c.name)}${where}</span>`;
   };
@@ -277,17 +335,50 @@
     </div>`);
   }
 
+  // ---------- Fokus ----------
+  function openFocus() {
+    const opt = (v, label, sub, here) => {
+      const n = v === "mix" ? null : unreadFor(v);
+      return `<button class="row" data-a="focus-set" data-v="${esc(v)}" ${n === 0 ? "disabled" : ""} aria-pressed="${S.focus === v}">
+        <span class="grow"><span class="title">${esc(label)}${here ? ` <span class="here">du bist hier</span>` : ""}</span>
+        <div class="sub">${sub || (n ? `${n} ungelesen` : "alles gelesen")}</div></span>${S.focus === v ? "✓" : ""}</button>`;
+    };
+    const placeIds = [...PACK_PLACES].sort((a, b) => (b === S.curPlace) - (a === S.curPlace));
+    const countryIds = [...PACK_COUNTRIES].sort((a, b) => (b === S.curCountry) - (a === S.curCountry));
+    const cats = TAX.categories.filter(c => c.id !== "ort" && FACTS.some(f => f.category === c.id && !f.place && !f.country));
+    openSheet(`<h2>Worüber willst du lesen?</h2>
+      <p class="muted small">Der Fokus gilt ab der nächsten Karte und bleibt, bis du ihn änderst. Sind alle passenden Fakten gelesen, geht es gemischt weiter.</p>
+      <div class="list">${opt("mix", "🔀 Mix", "Alles nach deinen Interessen")}</div>
+      ${placeIds.length ? `<div class="section-title">Orte</div><div class="list">${placeIds.map(id => opt("place:" + id, `📍 ${place(id)?.name || id}`, null, id === S.curPlace)).join("")}</div>` : ""}
+      ${countryIds.length ? `<div class="section-title">Länder</div><div class="list">${countryIds.map(id => opt("country:" + id, `${country(id)?.flag || "🌍"} ${country(id)?.name || id}`, null, id === S.curCountry)).join("")}</div>` : ""}
+      <div class="section-title">Themen</div><div class="list">${cats.map(c => opt("cat:" + c.id, `${c.icon} ${c.name}`)).join("")}</div>`);
+  }
+  function setFocus(v) {
+    S.focus = v; S.suggest = null;
+    if (v !== "mix") S.dismissed[v] = 1;
+    rebuildRest(); save();
+    if (!sheet.hidden) closeSheet(); else render();
+    toast(v === "mix" ? "Wieder gemischt" : `Fokus: ${focusLabel(v)}`);
+  }
+
   // ---------- Heute ----------
   function viewToday() {
     ensureDay();
     const d = S.day, R = CFG.roundSize || 20;
     const total = d.ids.length;
     const rounds = Math.max(1, Math.ceil(d.ids.length / R));
-    const loc = S.curPlace ? place(S.curPlace) : null;
-    const where = loc ? `📍 ${esc(loc.name)}${PACK_PLACES.has(loc.id) ? "" : " (noch keine Ortsfakten)"}` : "";
+    const loc = S.curPlace ? place(S.curPlace) : null, land = S.curCountry ? country(S.curCountry) : null;
+    const where = loc ? `📍 ${esc(loc.name)}` : land ? `${land.flag || "🌍"} ${esc(land.name)}` : "";
+    const head = `<div class="topbar"><h1 style="margin:0">Heute</h1>
+        <button class="focus-btn" data-a="focus-open" aria-label="Fokus wählen">${esc(focusLabel())} ▾</button></div>
+      ${where ? `<div class="where">Du bist in ${where}</div>` : ""}`;
+    const sug = S.suggest && S.suggest !== S.focus ? `<div class="suggest"><span>${esc(focusLabel(S.suggest))}</span>
+        <p>Du bist an einem neuen Ort. Sollen Fakten über ${esc(focusLabel(S.suggest).replace(/^\S+\s/, ""))} zuerst kommen?</p>
+        <div class="btn-row"><button class="btn primary" data-a="focus-set" data-v="${esc(S.suggest)}">Ja, gern</button>
+        <button class="btn" data-a="suggest-no">Nein, danke</button></div></div>` : "";
 
     if (!d.ids.length) {
-      return `<div class="center"><div class="big-emoji">📚</div><h1>Alles gelesen</h1>
+      return `${head}${sug}<div class="center"><div class="big-emoji">📚</div><h1>Alles gelesen</h1>
         <p class="muted">Du hast alle geprüften Fakten gesehen, die gerade zu dir passen. Nachschub wird recherchiert.</p>
         <button class="btn" data-a="tab" data-v="kategorien">Kategorien durchstöbern</button></div>`;
     }
@@ -300,10 +391,12 @@
     const round = Math.floor(d.pos / R) + 1;
     const bday = S.profile.birthDay && today().slice(5) === S.profile.birthDay && d.pos < R
       ? `<div class="privacy" style="margin-bottom:12px"><span>🎂</span><span><strong>Alles Gute zum Geburtstag!</strong> Heute gibt es die Fakten, die am besten zu dir passen, zuerst.</span></div>` : "";
-    return `<div class="topbar"><h1 style="margin:0">Heute</h1><span class="where">${where}</span></div>
+    const fdone = d.focus && d.focus !== "mix" && d.pos === d.focusEnd
+      ? `<div class="privacy" style="margin-bottom:12px"><span>✓</span><span>Alle Fakten zu ${esc(focusLabel(d.focus))} gelesen – jetzt geht's gemischt weiter.</span></div>` : "";
+    return `${head}${sug}
       <div class="round-label"><span>Runde ${round} von ${rounds}</span><span>${d.pos + 1} / ${total}</span></div>
       <div class="progress"><i style="width:${(d.pos / total) * 100}%"></i></div>
-      ${bday}${cardHTML(f)}
+      ${bday}${fdone}${cardHTML(f)}
       ${rateHTML()}
       <p class="hint">Antippen für mehr · zur Seite wischen zum Überspringen</p>`;
   }
@@ -370,23 +463,28 @@
   // ---------- Kategorien ----------
   function viewCategories(sel) {
     if (sel) {
-      const list = FACTS.filter(f => (sel.startsWith("place:") ? f.place === sel.slice(6) : f.category === sel) && eligible(f));
-      const title = sel.startsWith("place:") ? `📍 ${esc(place(sel.slice(6))?.name || sel.slice(6))}` : `${cat(sel).icon} ${esc(cat(sel).name)}`;
+      const focus = sel.includes(":") ? sel : "cat:" + sel;
+      const list = FACTS.filter(f => matchFocus(f, focus) && (focus.startsWith("cat:") ? !f.place && !f.country : true) && eligible(f));
       return `<button class="link-btn" data-a="tab" data-v="kategorien">← Alle Kategorien</button>
-        <h1>${title}</h1><p class="muted small">${list.length} Fakten · ${list.filter(f => S.seen[f.id]).length} gelesen</p>
+        <h1>${esc(focusLabel(focus))}</h1><p class="muted small">${list.length} Fakten · ${list.filter(f => S.seen[f.id]).length} gelesen</p>
+        ${S.focus === focus ? `<p class="small muted">🎯 Das ist gerade dein Fokus.</p>`
+          : `<button class="btn block" style="margin-bottom:16px" data-a="focus-set" data-v="${esc(focus)}">🎯 Als Fokus für den Tagesstapel</button>`}
         <div class="list">${list.map(f => `<button class="row" data-a="detail" data-v="${esc(f.id)}">
           <span class="grow"><span class="title">${esc(f.headline)}</span>${S.seen[f.id] ? `<div class="sub">gelesen</div>` : ""}</span>
           ${isSaved(f.id) ? "★" : ""}</button>`).join("") || `<p class="muted">Hier gibt es noch keine Fakten.</p>`}</div>`;
     }
-    const cats = TAX.categories.filter(c => c.id !== "ort").map(c => ({ c, n: FACTS.filter(f => f.category === c.id && !f.place && eligible(f)).length })).filter(x => x.n);
-    const places = [...PACK_PLACES].map(id => ({ p: place(id), n: FACTS.filter(f => f.place === id && eligible(f)).length }));
+    const row = (v, ico, name, n) => `<button class="row" data-a="cat" data-v="${esc(v)}"><span class="ico">${ico}</span>
+        <span class="grow"><span class="title">${esc(name)}</span><div class="sub">${n} Fakten</div></span>${S.focus === (v.includes(":") ? v : "cat:" + v) ? "🎯" : ""}</button>`;
+    const cats = TAX.categories.filter(c => c.id !== "ort").map(c => ({ c, n: FACTS.filter(f => f.category === c.id && !f.place && !f.country && eligible(f)).length })).filter(x => x.n);
+    const places = [...PACK_PLACES].map(id => ({ id, n: FACTS.filter(f => f.place === id && eligible(f)).length }));
+    const lands = [...PACK_COUNTRIES].map(id => ({ id, n: FACTS.filter(f => matchFocus(f, "country:" + id) && eligible(f)).length }));
     return `<h1>Kategorien</h1>
       <div class="section-title">Orte</div>
-      <div class="list">${places.map(x => `<button class="row" data-a="cat" data-v="place:${esc(x.p?.id)}"><span class="ico">📍</span>
-        <span class="grow"><span class="title">${esc(x.p?.name)}</span><div class="sub">${x.n} Fakten</div></span></button>`).join("")}</div>
+      <div class="list">${places.map(x => row("place:" + x.id, "📍", place(x.id)?.name || x.id, x.n)).join("")}</div>
+      ${lands.length ? `<div class="section-title">Länder</div>
+      <div class="list">${lands.map(x => row("country:" + x.id, country(x.id)?.flag || "🌍", country(x.id)?.name || x.id, x.n)).join("")}</div>` : ""}
       <div class="section-title">Themen</div>
-      <div class="list">${cats.map(x => `<button class="row" data-a="cat" data-v="${esc(x.c.id)}"><span class="ico">${x.c.icon}</span>
-        <span class="grow"><span class="title">${esc(x.c.name)}</span><div class="sub">${x.n} Fakten</div></span></button>`).join("")}</div>`;
+      <div class="list">${cats.map(x => row(x.c.id, x.c.icon, x.c.name, x.n)).join("")}</div>`;
   }
 
   // ---------- Gemerkt ----------
@@ -403,7 +501,7 @@
     const p = S.profile;
     const read = Object.keys(S.seen).length, neu = Object.values(S.ratings).filter(r => r === "neu").length;
     const sum = (step, title, sub) => `<button class="row" data-a="edit" data-v="${step}"><span class="grow"><span class="title">${title}</span><div class="sub">${sub || "–"}</div></span>›</button>`;
-    const places = [placeName(p.home), placeName(p.birth), ...p.extraPlaces.map(id => place(id)?.name)].filter(Boolean);
+    const places = [placeName(p.home), placeName(p.birth), ...p.extraPlaces.map(id => place(id)?.name), ...p.extraCountries.map(id => country(id)?.name)].filter(Boolean);
     return `<h1>Profil</h1>
       <p class="muted">${read} Fakten gelesen · ${neu} davon neu für dich</p>
       <div class="privacy"><span>🔒</span><span>Alle Angaben bleiben nur auf diesem Gerät. Nichts davon wird verschickt.</span></div>
@@ -488,6 +586,7 @@
             <div class="field"><label for="ob-birth">Geburtsort</label><input id="ob-birth" type="text" list="ob-places" autocomplete="off" placeholder="Stadt suchen" value="${esc(placeName(p.birth))}"></div>
             ${packs.length ? `<div class="field"><span class="label">Orte mit eigenem Fakten-Paket</span><div class="pills">${packs.map(x => `<button class="pill" data-a="ob-place" data-v="${x.id}" aria-pressed="${p.extraPlaces.includes(x.id)}">📍 ${esc(x.name)}</button>`).join("")}</div>
               <span class="help">Zum Beispiel für dein nächstes Reiseziel. Weitere Städte kommen nach und nach.</span></div>` : ""}
+            ${PACK_COUNTRIES.size ? `<div class="field"><span class="label">Länder mit eigenem Fakten-Paket</span><div class="pills">${[...PACK_COUNTRIES].map(id => `<button class="pill" data-a="ob-country" data-v="${id}" aria-pressed="${p.extraCountries.includes(id)}">${country(id)?.flag || "🌍"} ${esc(country(id)?.name || id)}</button>`).join("")}</div></div>` : ""}
             <label class="switch"><span><strong>Standort nutzen</strong><br><span class="small muted">Nur grob die Stadt, bleibt auf dem Gerät.</span></span>
               <input id="ob-loc" type="checkbox" ${p.useLocation ? "checked" : ""}></label>`,
           next: "Weiter", skip: "Überspringen", collect: collectPlaces };
@@ -545,7 +644,7 @@
     p.birth = findPlace(document.getElementById("ob-birth").value);
     const loc = document.getElementById("ob-loc").checked;
     if (loc && !p.useLocation) { p.useLocation = true; locate(true); }
-    if (!loc) { p.useLocation = false; S.curPlace = null; }
+    if (!loc) { p.useLocation = false; S.curPlace = null; S.curCountry = null; S.suggest = null; }
   }
   function collectPersonal() {
     const p = S.profile;
@@ -638,6 +737,9 @@
       S.day.breaks[S.day.ids.length] = 1;
       S.day.ids.push(...extra); S.day.bonus = extra.length; save(); render();
     },
+    "focus-open": () => openFocus(),
+    "focus-set": v => setFocus(v),
+    "suggest-no": () => { S.dismissed[S.suggest] = 1; S.suggest = null; save(); render(); },
     tab: v => go(v),
     cat: v => go("kategorien", v),
     perday: v => { S.perDay = +v; rebuildRest(); save(); render(); toast(`${v} Fakten pro Tag`); },
@@ -665,6 +767,7 @@
       save(); render();
     },
     "ob-hobby": v => { collectAbout(); const a = S.profile.hobbies, i = a.indexOf(v); i >= 0 ? a.splice(i, 1) : a.push(v); save(); render(); },
+    "ob-country": v => { collectPlaces(); const a = S.profile.extraCountries, i = a.indexOf(v); i >= 0 ? a.splice(i, 1) : a.push(v); save(); render(); },
     "ob-place": v => { collectPlaces(); const a = S.profile.extraPlaces, i = a.indexOf(v); i >= 0 ? a.splice(i, 1) : a.push(v); save(); render(); }
   };
   document.addEventListener("click", e => {

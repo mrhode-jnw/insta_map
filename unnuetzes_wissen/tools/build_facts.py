@@ -6,7 +6,8 @@
 - übernimmt nur Einträge mit "verdict": "belegt"
 - entfernt interne Felder (evidence, verdict, note) – Belegzitate bleiben privat
 - vergibt stabile IDs (Kategorie-Kürzel + Hash der Schlagzeile) und hängt an bestehende Pakete an
-- schreibt data/facts-allgemein.json, data/facts-<ort>.json, data/facts-aktuell.json und data/index.json
+- schreibt data/facts-allgemein.json, data/facts-<ort>.json, data/facts-land-<land>.json,
+  data/facts-aktuell.json und data/index.json
 """
 import hashlib, json, sys, datetime, pathlib
 
@@ -14,7 +15,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 TAX = json.loads((DATA / "taxonomy.json").read_text())
 CATS = {c["id"] for c in TAX["categories"]}
-PUBLIC = ["id", "category", "place", "lang", "headline", "teaser", "detail", "sources", "tags",
+PUBLIC = ["id", "category", "place", "country", "lang", "headline", "teaser", "detail", "sources", "tags",
           "era", "gross", "sensitive", "kids", "verified", "expires"]
 
 
@@ -26,6 +27,8 @@ def fid(f):
 def pack_of(f):
     if f.get("place"):
         return f"facts-{f['place']}.json"
+    if f.get("country"):
+        return f"facts-land-{f['country']}.json"
     if f["category"] == "aktuell":
         return "facts-aktuell.json"
     return "facts-allgemein.json"
@@ -55,8 +58,13 @@ def main(src):
     index = {"version": datetime.datetime.now().strftime("%Y%m%d%H%M"), "packs": []}
     for name, items in sorted(packs.items()):
         (DATA / name).write_text(json.dumps(list(items.values()), ensure_ascii=False, indent=1) + "\n")
-        place = name[6:-5] if name not in ("facts-allgemein.json", "facts-aktuell.json") else None
-        index["packs"].append({"file": name, "place": place, "count": len(items)})
+        key = name[6:-5]
+        entry = {"file": name, "place": None, "count": len(items)}
+        if key.startswith("land-"):
+            entry["country"] = key[5:]
+        elif key not in ("allgemein", "aktuell"):
+            entry["place"] = key
+        index["packs"].append(entry)
     (DATA / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n")
     total = sum(len(v) for v in packs.values())
     print(f"{added} übernommen, {skipped} verworfen, {total} Fakten insgesamt in {len(packs)} Paketen")
