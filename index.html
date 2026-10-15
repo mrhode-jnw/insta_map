@@ -762,7 +762,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Fotos eines Spots – das Titelbild immer zuerst (damit „📷 1/n“ zum großen Bild passt)
   const who = x => x.credit || "@" + x.username;  // Foto aus Artikel statt Instagram: Quellenangabe
   const imgsOf = p => { const l = (p.posts || []).filter(x => x.image), i = l.findIndex(x => x.image === p.image);
-    return i > 0 ? [l[i], ...l.slice(0, i), ...l.slice(i + 1)] : l; };
+    if (i > 0) return [l[i], ...l.slice(0, i), ...l.slice(i + 1)];
+    // Titelbild nicht unter den Fotos (z. B. Commons-Bild + Fotos aus Links): vorn einreihen, damit man alle durchwischen kann
+    if (i < 0 && p.image && l.length) return [{ image: p.image, url: p.image_page || p.post_url || p.image, profile_url: p.image_page || p.profile_url || p.image,
+      username: p.username || "", credit: p.image_credit || (p.by_claude || p.image_page ? "Wikimedia Commons" : ""), kind: "photo" }, ...l];
+    return l; };
   const WHEN_LABEL = { day: "☀️ Tag", night: "🌙 Nacht", both: "☀️🌙 Tag & Nacht" };
   function popupHtml(p) {
     const d = here() ? `<div class="dist">📍 ${fmt(dist(me, p))} entfernt</div>` : "";
