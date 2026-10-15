@@ -590,11 +590,14 @@
   @media (min-width: 800px) { #dockbg { display: none; } }
   #itinBtn, #tourBtn, #view #inspBtn { display: none !important; }
   @media (max-width: 799px) {
-    #sheet { bottom: calc(env(safe-area-inset-bottom) + 82px); padding-bottom: 0; height: calc(88svh - 82px); }
-    #locate { bottom: calc(env(safe-area-inset-bottom) + 168px); } #add { bottom: calc(env(safe-area-inset-bottom) + 228px); }
+    /* Leiste sitzt direkt über dem Home-Balken, Liste schließt nahtlos an – kein leerer Streifen */
+    :root { --dockB: max(4px, calc(env(safe-area-inset-bottom) - 16px)); --dockH: calc(var(--dockB) + 66px); }
+    #dock { bottom: var(--dockB); background: transparent; border: 0; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; }
+    #sheet { bottom: var(--dockH); padding-bottom: 0; height: calc(88svh - var(--dockH)); border-radius: 26px 26px 0 0; }
+    #locate { bottom: calc(var(--dockH) + 86px); } #add { bottom: calc(var(--dockH) + 146px); }
     body.popup-open #dock, body.popup-open #dockbg { opacity: 0; pointer-events: none; }
-    #dockbg { position: fixed; left: 0; right: 0; bottom: 0; height: calc(env(safe-area-inset-bottom) + 82px); z-index: 1002; background: var(--bg);
-      border-top: 1px solid var(--line); transition: opacity .18s ease; }
+    #dockbg { position: fixed; left: 0; right: 0; bottom: 0; height: var(--dockH); z-index: 1002; background: rgb(22,22,28);
+      transition: opacity .18s ease; }
     #dock { transition: opacity .18s ease; }
   }
   #itinBody, #toursBody, #inspBody { padding-bottom: calc(env(safe-area-inset-bottom) + 96px) !important; }
