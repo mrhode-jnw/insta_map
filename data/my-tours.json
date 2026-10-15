@@ -1,25 +1,23 @@
 [
  {
   "id": "tgl15",
-  "name": "Do 15.10. Zug G908 an Guilin West 14:16 · Tianxin (Büffel-Brücke) · Sonnenuntergang Wulongquan",
+  "name": "Do 15.10. Abholung Guilin West 14:16 · Sonnenuntergang Wuzhi Hill (Cuiping)",
   "stops": [
-   "cn-tianxin-village-zhuangyuan-brcke",
-   "cn-wulongquan-sunset-viewpoint"
+   "claude-cn-cuiping-hill"
   ],
   "created": "2026-10-15"
  },
  {
   "id": "tgl16",
   "created": "2026-10-15",
-  "name": "Fr 16.10. Sonnenaufgang Damian Hill · mittags Pause im Hotel · Sonnenuntergang Cuiping",
+  "name": "Fr 16.10. Sonnenaufgang Damian Hill · Dorf eines Büffelbauern · Sonnenuntergang über Karstbergen und Reisfeldern (Orte legt der Fahrer fest)",
   "stops": [
-   "claude-cn-damian-hill-li-river-bogen",
-   "claude-cn-cuiping-hill"
+   "claude-cn-damian-hill-li-river-bogen"
   ]
  },
  {
   "id": "tgl17",
-  "name": "Sa 17.10. Kormoranfischer Xialong · Yulong River · Kormoranfischer Luoshi-Berg",
+  "name": "Sa 17.10. Sonnenaufgang mit Kormoranfischer (Xialong) · Yulong River · abends Kormoranfischer an anderem Ort (Luoshi-Berg)",
   "stops": [
    "cn-xialong-kormoranfischer-mit-laterne",
    "cn-yulong-river-countryside",
@@ -29,7 +27,7 @@
  },
  {
   "id": "tgl18",
-  "name": "So 18.10. Sonnenaufgang Xianggong Hill · Dazhai (ohne Lao Pan) · Sonnenuntergang Ping'an",
+  "name": "So 18.10. Sonnenaufgang Xianggong Hill · direkt nach Longji: Dazhai · Sonnenuntergang Ping'an, Übernachtung",
   "stops": [
    "cn-xianggong-hill",
    "cn-dazhai-village",
@@ -39,7 +37,7 @@
  },
  {
   "id": "tgl19",
-  "name": "Mo 19.10. Sonnenaufgang Ping'an (2 Models)",
+  "name": "Mo 19.10. Sonnenaufgang Ping'an · nach dem Frühstück mit eigenem Fahrer nach Guizhou",
   "stops": [
    "cn-ping-an-village"
   ],
@@ -47,12 +45,10 @@
  },
  {
   "id": "tglall",
-  "name": "Fotoreise Guilin · Yangshuo · Longji (15.–19.10.) – Variante B",
+  "name": "Fotoreise Guilin · Yangshuo · Longji (15.–19.10.) – aktualisierter Plan",
   "stops": [
-   "cn-tianxin-village-zhuangyuan-brcke",
-   "cn-wulongquan-sunset-viewpoint",
-   "claude-cn-damian-hill-li-river-bogen",
    "claude-cn-cuiping-hill",
+   "claude-cn-damian-hill-li-river-bogen",
    "cn-xialong-kormoranfischer-mit-laterne",
    "cn-yulong-river-countryside",
    "cn-luoshi-hill-kormoranfischer-mit-laterne",
