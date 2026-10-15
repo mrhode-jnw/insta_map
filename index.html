@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-<meta name="theme-color" content="#111827">
+<meta name="theme-color" content="#0d0d10">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -479,6 +479,104 @@
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
+
+  /* ================= Design B „Nacht“: dunkel, Glas, Fotos im Vordergrund ================= */
+  :root { --bg: #0d0d10; --card: #17171c; --fg: #f4f4f6; --muted: #a1a1aa; --line: rgba(255,255,255,.09);
+    --glass: rgba(22,22,28,.72); --glassb: rgba(255,255,255,.08); --soft: rgba(255,255,255,.07); --accent: #e1306c; --me: #3b82f6;
+    --shadow: 0 10px 30px rgba(0,0,0,.45); color-scheme: dark; }
+  html, body { background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, "Segoe UI", Roboto, sans-serif; }
+  #group, .fab, #sheet, .leaflet-control-zoom, .leaflet-control-layers, #toast, #update {
+    background: var(--glass) !important; -webkit-backdrop-filter: blur(18px) saturate(1.4); backdrop-filter: blur(18px) saturate(1.4);
+    border: 1px solid var(--glassb) !important; color: var(--fg) !important; }
+  #group { padding: 4px; border-radius: 26px; }
+  #group button, #group .where { color: var(--fg); font-weight: 600; padding: 8px 12px; }
+  #group button.on { background: var(--accent); color: #fff; }
+  #group .sep { background: var(--glassb); }
+  .fab { width: 50px; height: 50px; box-shadow: 0 8px 22px rgba(0,0,0,.45); }
+  #add { background: var(--accent) !important; border-color: var(--accent) !important; }
+  #locate.active { color: #93c5fd !important; } #locate.follow { background: var(--me) !important; color: #fff !important; }
+  #itinBtn.on, #tourBtn.on { background: var(--accent) !important; color: #fff !important; }
+  #sheet { border-radius: 26px 26px 0 0; box-shadow: 0 -8px 30px rgba(0,0,0,.45); }
+  @media (min-width: 800px) { #sheet { border-radius: 26px; } }
+  #sheet .grip { background: #fff; opacity: .3; }
+  #search { background: var(--soft); border: 0; border-radius: 14px; padding: 10px 14px; }
+  #search::placeholder { color: var(--muted); }
+  #chips button, #chips2 button, #chips2 select, #area { background: var(--soft); border: 0; color: var(--fg); font-weight: 600; padding: 7px 13px; }
+  #chips button.on, #chips2 button.on, #chips2 select.on { background: var(--accent); color: #fff; }
+  #view { border: 0; background: var(--soft); border-radius: 14px; }
+  #view button.on { background: var(--accent); color: #fff; }
+  #view button[data-v="area"] { border-right-color: var(--glassb); }
+  #list li { border-top-color: var(--line); }
+  #list img, .noimg { border-radius: 12px; }
+  #list .t { font-weight: 700; }
+  #list .d { color: #93c5fd; }
+  #list.grid { gap: 8px; padding: 6px 10px 12px; }
+  #list.grid li.gi { border-radius: 16px; }
+  #list.grid li.gi .cap2 { font-weight: 700; padding: 26px 10px 8px; background: linear-gradient(transparent, rgba(0,0,0,.85)); }
+  .leaflet-container { background: #1b1b20; }
+  .leaflet-bar a, .leaflet-control-layers-toggle { background-color: transparent !important; color: var(--fg) !important; border-color: var(--glassb) !important; }
+  .leaflet-control-layers-expanded { color: var(--fg); }
+  .leaflet-control-attribution { background: rgba(0,0,0,.4) !important; color: #888 !important; } .leaflet-control-attribution a { color: #aaa !important; }
+  /* OpenStreetMap dunkel einfärben (Satellit bleibt natürlich) */
+  #map.dark-osm .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.92) contrast(.88) saturate(.5); }
+  /* Pins: Foto-Kacheln; Reiseplan-Stopps pink mit Uhrzeit */
+  .pin { width: 40px; height: 40px; border-radius: 12px; border: 2px solid #fff; box-shadow: 0 6px 14px rgba(0,0,0,.55); background-color: #2a2a31; position: relative; }
+  .pin.plan { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(225,48,108,.4), 0 6px 14px rgba(0,0,0,.55); }
+  .pin .ptag { position: absolute; left: -2px; right: -2px; bottom: -2px; background: var(--accent); color: #fff; font: 700 9px/13px system-ui, sans-serif;
+    text-align: center; border-radius: 0 0 10px 10px; white-space: nowrap; overflow: hidden; }
+  .pin.claude { border-color: #a78bfa; }
+  .pin.mine { background-color: #f59e0b; } .pin.henge { background-color: #fde68a; color: #111; }
+  .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background: rgba(225,48,108,.3) !important; border-radius: 16px !important; }
+  .marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div { border-radius: 12px !important; }
+  .hotel-pin { background: #17171c; color: #fff; border-color: #5eead4; }
+  .tour-stop span { background: rgba(22,22,28,.88); color: #fff; }
+  /* Spot-Karte */
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card) !important; color: var(--fg) !important; }
+  .leaflet-popup-content-wrapper { border-radius: 24px; box-shadow: 0 18px 50px rgba(0,0,0,.6); }
+  .pop .pnav { background: rgba(23,23,28,.82); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+  .pop .pnav button { background: var(--soft); border: 0; color: var(--fg); border-radius: 14px; }
+  .pop .pnav button.pclose { background: var(--soft); color: var(--fg); }
+  .pop .pnav span, .pop .pnav .spotnum { color: var(--muted); }
+  .pop img { background: #222; }
+  .pop .b { padding: 12px 16px 16px; }
+  .pop .kick { color: var(--accent); font-weight: 700; font-size: 12.5px; letter-spacing: .5px; text-transform: uppercase; margin: 2px 0 2px; }
+  .pop h3 { font: 700 25px/1.12 "New York", "Iowan Old Style", Georgia, serif; letter-spacing: -.3px; margin: 2px 0 8px; }
+  .pop .meta, .pop .addr, .pop .credit, .pop .credit a, .pop .generic, .pop .popularity small { color: var(--muted) !important; }
+  .pop .note, .pop .cap, .pop .status label { color: var(--fg); }
+  .pop .popularity { color: #fbbf24; }
+  .pop .status button { background: var(--soft); border: 0; color: var(--fg); padding: 5px 11px; }
+  .pop .status button.fav.on { background: rgba(225,48,108,.2); color: #ff5c93; }
+  .pop .status button.shot.on { background: rgba(22,163,74,.25); }
+  .pop .links { gap: 8px; }
+  .pop .links a, .pop .links button { background: var(--soft) !important; color: var(--fg) !important; border: 0; border-radius: 14px !important; padding: 10px 8px !important; font-weight: 600; }
+  .pop .links a.go { background: var(--accent) !important; color: #fff !important; flex: 1.6; font-size: 14.5px; }
+  .pop .links a.ig { background: rgba(225,48,108,.2) !important; color: #ff8fb4 !important; }
+  .pop .links button.del { color: #fca5a5 !important; }
+  .pop .phototip { background: rgba(14,116,144,.22); color: #a5f3fc; }
+  .pop .claude-note { background: rgba(124,58,237,.22); color: #ddd6fe; }
+  .pop .unsure-note, .pop .approx { background: rgba(245,158,11,.18); color: #fcd34d; }
+  .pop .ok-note { background: rgba(22,163,74,.2); color: #86efac; }
+  .pop .xlinks { background: var(--soft); }
+  .galgrid figure { border-radius: 10px; background: #222; }
+  .pop .hero .pcount, .pop .hero .parrows { background: rgba(0,0,0,.5); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+  .pop .hero .pfav { background: rgba(0,0,0,.5); color: #ff5c93; }
+  .pop .hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 30%; pointer-events: none; background: linear-gradient(transparent, var(--card)); }
+  /* Fenster: Reiseplan, Touren, Inspiration, Hinzufügen */
+  #itin, #toursDlg, #insp, #addDlg, .tpcard { background: var(--bg) !important; }
+  #itin header button, #toursDlg header button, #insp header button, .tpclose { background: var(--soft) !important; color: var(--fg) !important; border-radius: 14px; }
+  #itin header b, #toursDlg header b, #insp header b { font: 700 24px "New York", Georgia, serif; }
+  #itinDays button, #itinOpt button, #inspFilter button { background: var(--soft); border: 0; }
+  #itinDays button.on, #itinOpt button.on, #inspFilter button.on { background: var(--accent); color: #fff; }
+  #itinDays button.today:not(.on) { box-shadow: inset 0 0 0 1.5px var(--accent); }
+  .imapb { background: var(--accent); border-radius: 16px; }
+  .icard { background: var(--card); border: 0; border-radius: 20px; }
+  .ic.opt .icard { border: 1.5px dashed #a78bfa; }
+  .isun span { background: var(--soft); }
+  .icard .iact a, .icard .iact button, .tbtn, .tcard { border-color: var(--line); }
+  .b-plan { background: rgba(225,48,108,.2); color: #ff8fb4; } .b-ig { background: rgba(225,48,108,.12); color: #fda4c4; }
+  .b-cl, .b-opt { background: rgba(124,58,237,.22); color: #ddd6fe; } .b-hotel { background: rgba(20,184,166,.18); color: #99f6e4; }
+  .tcard.on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+  #toast { border-radius: 14px; }
 </style>
 </head>
 <body>
@@ -691,6 +789,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 21, maxNativeZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   });
+  osm.on("add", () => map.getContainer().classList.add("dark-osm")).on("remove", () => map.getContainer().classList.remove("dark-osm"));  // Design: dunkle Karte
 
   // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
   // Google-Kacheln lassen sich nicht drehen; in Festland-China passt die Google-Straßenkarte nicht zu GPS/Spots → OpenStreetMap
@@ -702,6 +801,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       maxZoom: 21, maxNativeZoom: 19, attribution: "Esri World Imagery" });
     L.control.layers({ "OpenStreetMap": osm, "Satellit": sat }, null, { position: "topright" }).addTo(map);
   }
+  // dunkler Google-Kartenstil passend zum Design
+  const GDARK = [{ elementType: "geometry", stylers: [{ color: "#1d1d22" }] }, { elementType: "labels.text.fill", stylers: [{ color: "#9a9aa3" }] },
+    { elementType: "labels.text.stroke", stylers: [{ color: "#111114" }] }, { featureType: "road", elementType: "geometry", stylers: [{ color: "#34343c" }] },
+    { featureType: "road.highway", elementType: "geometry", stylers: [{ color: "#4a4a54" }] }, { featureType: "water", elementType: "geometry", stylers: [{ color: "#0b1622" }] },
+    { featureType: "poi", stylers: [{ visibility: "off" }] }, { featureType: "landscape.natural", elementType: "geometry", stylers: [{ color: "#1f2420" }] },
+    { featureType: "transit", stylers: [{ visibility: "off" }] }];
   const loadScript = src => new Promise((ok, fail) => {
     const el = document.createElement("script"); el.src = src; el.onload = ok; el.onerror = fail; document.head.appendChild(el);
   });
@@ -714,7 +819,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     loadScript(`https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(gKey)}&v=weekly&language=de`)
       .then(() => loadScript("https://cdn.jsdelivr.net/npm/leaflet.gridlayer.googlemutant@0.16.0/dist/Leaflet.GoogleMutant.js"))
       .then(() => {
-        layers["Google Karte"] = L.gridLayer.googleMutant({ type: "roadmap", maxZoom: 21 });
+        layers["Google Karte"] = L.gridLayer.googleMutant({ type: "roadmap", maxZoom: 21, styles: GDARK });
         layers["Google Satellit"] = L.gridLayer.googleMutant({ type: "hybrid", maxZoom: 21 });
         layers["OpenStreetMap"] = osm;
         layers["Google Karte"].addTo(map);
@@ -800,6 +905,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ${strip ? `<div class="credit hcred"></div>` : ""}
       ${!strip && (p.by_claude || p.image_credit) && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
       <div class="b">
+        ${PLAN_AT[p.id] ? `<div class="kick">★ ${esc(PLAN_AT[p.id].long)}</div>` : ""}
         <h3>${esc(p.name)}</h3>
         ${p.by_claude ? `<div class="claude-note">✦ Claude-Tipp – nicht aus deiner Sammlung, von Claude als besonders beliebter Spot ergänzt</div>` : ""}
         <div class="status" data-id="${esc(p.id)}">
@@ -828,19 +934,26 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           ${hero && p.post_url && (p.image || !generic.length) ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Post</a>
           ${p.profile_url ? `<a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>` : ""}` : ""}
           ${p.wiki_url ? `<a class="wiki" href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
-          <a href="${nav}" target="_blank" rel="noopener">Route</a>
+          <a class="go" href="${nav}" target="_blank" rel="noopener">➤ Navigieren</a>
           ${p.mine ? `<button class="del" data-del="${esc(p.id)}">Löschen</button>`
             : `<button class="del" data-hide="${esc(p.id)}">${st(p.id).hidden ? "Wiederherstellen" : "Löschen"}</button>`}
         </div>
       </div></div>`;
   }
 
+  // Reiseplan-Stopp (fest) → pinker Rahmen mit Tag und Uhrzeit am Pin
+  const PLAN_AT = {};
+  ((window.ITINERARY || {}).days || []).forEach(d => (d.core || d.items || []).forEach(it => {
+    if (it.type !== "stop" || !it.plan || PLAN_AT[it.spot]) return;
+    const x = new Date(d.date + "T12:00:00+08:00"), wd = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"][x.getUTCDay()];
+    PLAN_AT[it.spot] = { short: `${wd} ${(it.t || "").split(/[–-]/)[0]}`.trim(), long: `${wd} ${x.getUTCDate()}.${x.getUTCMonth() + 1}.${it.lightText ? " · " + it.lightText : ""}` };
+  }));
   function iconFor(p) {
-    const s = st(p.id), cls = ["pin", p.unsure ? "unsure" : "", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : "", s.fav ? "fav" : ""].join(" ");
+    const s = st(p.id), cls = ["pin", PLAN_AT[p.id] ? "plan" : "", p.unsure ? "unsure" : "", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : "", s.fav ? "fav" : ""].join(" ");
     const fb = s.fav ? '<i class="favb">❤</i>' : "";
-    const ub = p.unsure ? '<i class="unsb" title="Standort nicht 100 % gesichert">?</i>' : "";
+    const ub = (p.unsure ? '<i class="unsb" title="Standort nicht 100 % gesichert">?</i>' : "") + (PLAN_AT[p.id] ? `<span class="ptag">${esc(PLAN_AT[p.id].short)}</span>` : "");
     return L.divIcon({
-      className: "", iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -14],
+      className: "", iconSize: [40, 40], iconAnchor: [20, 20], popupAnchor: [0, -18],
       html: p.mine && !p.image ? `<div class="${cls}">★${fb}${ub}</div>`
         : p.category === "Henge" && !p.image ? `<div class="${cls} henge">☀${fb}${ub}</div>`
         : `<div class="${cls}" style="${p.image ? `background-image:url('${esc(p.image)}')` : ""}">${fb}${ub}</div>`
