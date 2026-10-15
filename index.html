@@ -354,6 +354,9 @@
   #inspBody .src a { color: var(--accent); text-decoration: none; }
   #inspBody .masonry { columns: 2; column-gap: 8px; margin-bottom: 18px; }
   @media (min-width: 800px) { #inspBody .masonry { columns: 4; } }
+  #inspBody .iw { position: relative; display: block; break-inside: avoid; }
+  #inspBody .idel { position: absolute; top: 5px; right: 5px; width: 24px; height: 24px; padding: 0; border: 0; border-radius: 50%;
+    background: rgba(0,0,0,.55); color: #fff; font-size: 16px; line-height: 24px; cursor: pointer; }
   #inspBody .masonry img { width: 100%; display: block; margin-bottom: 8px; border-radius: 8px; break-inside: avoid; background: var(--line); cursor: zoom-in; }
   #view #inspBtn { font-size: 15px; }
   #lb { position: fixed; inset: 0; z-index: 3000; background: #000; color: #fff; display: flex; flex-direction: column;
@@ -429,7 +432,7 @@
 <div id="map"></div>
 <div id="group" role="tablist" aria-label="Bereich">
   <button class="where" id="whereBtn" type="button" aria-label="Bereich wählen"><span id="whereLbl">🧭 Route</span></button>
-  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button>
+  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-nltop>📍 Ohne Ort</button>
 </div>
 <button id="tourBtn" class="fab" title="Touren" aria-label="Touren" hidden>🧭</button>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
@@ -544,6 +547,16 @@
   // Vergleich über die Inline-Skripte: die ändert JavaScript nie, anders als das DOM.
   // Offline-Fähigkeit (App auf dem Home-Bildschirm)
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+  // Eigene Fotos (uploads/…): Fällt die Seiten-Kopie aus (noch nicht veröffentlicht), direkt aus dem Repo laden
+  document.addEventListener("error", e => {
+    const img = e.target; if (!img || img.tagName !== "IMG") return;
+    const src = img.getAttribute("src") || "", n = +(img.dataset.fb || 0);
+    if (!/^uploads\//.test(src.replace(location.origin + location.pathname.replace(/[^/]*$/, ""), "")) && !img.dataset.up) return;
+    const path = img.dataset.up || src.replace(/^.*?(uploads\/)/, "$1"); img.dataset.up = path;
+    const alts = [`https://raw.githubusercontent.com/mrhode-jnw/insta_map/claude/sweet-mayer-wqdght/${path}`,
+      `https://raw.githubusercontent.com/mrhode-jnw/insta_map/map-data/${path}`, `https://cdn.jsdelivr.net/gh/mrhode-jnw/insta_map@map-data/${path}`];
+    if (n < alts.length) { img.dataset.fb = n + 1; img.src = alts[n]; }
+  }, true);
   // iOS ignoriert user-scalable=no: Seiten-Zoom per Zwei-Finger-Geste außerhalb der Karte unterbinden
   document.addEventListener("gesturestart", e => { if (!e.target.closest || !e.target.closest("#map, #lb")) e.preventDefault(); }, { passive: false });
   // Prüfen beim Start, beim Zurückkehren in die App (iOS hält installierte Apps im Hintergrund) und alle 10 Minuten
@@ -579,6 +592,21 @@
 <script>
 function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const places = [...(window.PLACES || []), ...(window.PLACES_CN || [])].filter(p => isFinite(p.lat) && isFinite(p.lng));
+  // Posts ohne konkreten Ort: als Pin in der Mitte ihrer Region (nur sichtbar, wenn man sie in der Liste antippt)
+  const NL_CENTER = { hk: [22.3027, 114.1772], sz: [22.5431, 114.0579], gl: [24.7788, 110.4965], gz: [26.58, 106.71], zjj: [29.117, 110.479],
+    cq: [29.563, 106.551], sh: [31.2304, 121.4737], cnx: [31.0, 112.0] };
+  const NL_NAME = { hk: "Hongkong", sh: "Shanghai", cnx: "China" };
+  [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])].forEach((x, i) => {
+    const sub = x.sub || ((x.region || "hk") === "hk" ? "hk" : "cnx"), c = NL_CENTER[sub] || NL_CENTER.cnx;
+    const a = i * 2.4, r = 0.004 * Math.sqrt(i + 1);  // leicht versetzt, damit die Pins nicht exakt aufeinander liegen
+    const code = (x.url.match(/\/(?:p|reel|tv)\/([^/?]+)/) || [])[1] || String(i);
+    places.push({ id: "nl-" + code, noloc: true, nlsub: sub, approx: true, region: sub === "hk" ? "hk" : "cn",
+      name: `Post von @${x.username} – ohne genauen Ort`, category: "Ohne Ort", district: NL_NAME[sub] || "",
+      address: `${NL_NAME[sub] || ""} – genauer Ort unbekannt (Pin nur grob in der Region)`,
+      note: "Sammel-Post bzw. Post ohne konkreten Ort. Der Pin steht nur grob in der Mitte der Region.",
+      lat: c[0] + r * Math.cos(a), lng: c[1] + r * Math.sin(a), image: x.image, caption: x.caption || "",
+      post_url: x.url, username: x.username, profile_url: x.profile_url, posts: [x] });
+  });
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
@@ -1124,6 +1152,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   $("#whereBtn").addEventListener("click", e => { e.stopPropagation(); openWhere(); });
   $("#group").addEventListener("click", e => {
+    const t = e.target.closest("button[data-nltop]");
+    if (t) { showNl = !showNl; try { localStorage.setItem("showNl", showNl ? "1" : "0"); } catch {} renderList(); return; }
     const b = e.target.closest("button[data-g]"); if (!b) return;
     const g = b.dataset.g; groups.has(g) ? groups.delete(g) : groups.add(g); saveGroups();  // an-/abwählen, kombinierbar
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
@@ -1500,23 +1530,37 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let inspF = new Set(); try { inspF = new Set(JSON.parse(localStorage.getItem("inspF") || "[]")); } catch {}
   function openInsp() {
     const marks = r => inspMarks().filter(m => m.region === r);
-    const have = Object.keys(INSP_REG).filter(r => (INSP[r] || []).length || marks(r).length);
+    const hid = new Set(spotExtras.__insphide || []);
+    const imgsOfPost = post => post.images.filter(src => !hid.has(src));
+    const have = Object.keys(INSP_REG).filter(r => (INSP[r] || []).some(p => imgsOfPost(p).length) || marks(r).length);
     [...inspF].forEach(r => { if (!have.includes(r)) inspF.delete(r); });
     const regs = have.filter(r => !inspF.size || inspF.has(r));
-    const cnt = r => (INSP[r] || []).reduce((a, p) => a + p.images.length, 0) + marks(r).length;
+    const cnt = r => (INSP[r] || []).reduce((a, p) => a + imgsOfPost(p).length, 0) + marks(r).length;
     $("#inspFilter").innerHTML = `<button data-if="" class="${inspF.size ? "" : "on"}">Alle</button>` +
       have.map(r => `<button data-if="${r}" class="${inspF.has(r) ? "on" : ""}">${INSP_REG[r]} <small>${cnt(r)}</small></button>`).join("");
     let n = 0;
     const markItems = [];
     $("#inspBody").innerHTML = regs.map(r => `<h3>${INSP_REG[r]}</h3>` + (marks(r).length ? `<div class="src">💡 An Spots markiert</div><div class="masonry">${marks(r).map(m => {
-        markItems.push(m); return `<img src="${esc(m.image)}" alt="" loading="lazy" data-i="${n++}">`; }).join("")}</div>` : "") + (INSP[r] || []).map(post => `
+        markItems.push(m); return `<span class="iw"><img src="${esc(m.image)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(m.image)}" aria-label="Aus Inspiration entfernen">×</button></span>`; }).join("")}</div>` : "") + (INSP[r] || []).filter(post => imgsOfPost(post).length).map(post => `
       <div class="src">${post.user ? `<a href="https://www.instagram.com/${esc(post.user)}/" target="_blank" rel="noopener">@${esc(post.user)}</a> · ` : ""}<a href="${esc(post.url)}" target="_blank" rel="noopener">Post ↗</a>${post.caption ? " – " + esc(post.caption.split("\n")[0].slice(0, 90)) : ""}</div>
-      <div class="masonry">${post.images.map(src => `<img src="${esc(src)}" alt="" loading="lazy" data-i="${n++}">`).join("")}</div>`).join("")).join("")
+      <div class="masonry">${imgsOfPost(post).map(src => `<span class="iw"><img src="${esc(src)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(src)}" aria-label="Aus Inspiration entfernen">×</button></span>`).join("")}</div>`).join("")).join("")
       || `<p class="src">Noch keine Bilder.</p>`;
     $("#inspSub").textContent = n ? `${n} Bilder` : "";
     const all = regs.flatMap(r => [...marks(r).map(m => ({ image: m.image, url: m.url, credit: `${m.credit} · Spot: ${m.name}`, profile_url: m.url })),
-      ...(INSP[r] || []).flatMap(post => post.images.map((src, k) => ({ image: src, url: post.url + "?img_index=" + (k + 1), username: post.user || "Instagram", profile_url: post.user ? `https://www.instagram.com/${post.user}/` : post.url })))]);
+      ...(INSP[r] || []).flatMap(post => imgsOfPost(post).map((src, k) => ({ image: src, url: post.url + "?img_index=" + (k + 1), username: post.user || "Instagram", profile_url: post.user ? `https://www.instagram.com/${post.user}/` : post.url })))]);
     $("#inspBody").querySelectorAll("img[data-i]").forEach(img => img.onclick = () => lbOpen({ name: "Inspiration", posts: all }, +img.dataset.i));
+    $("#inspBody").querySelectorAll(".idel").forEach(b => b.onclick = async e => {
+      e.stopPropagation(); const img = b.dataset.img;
+      if (!confirm("Bild aus der Inspiration entfernen?")) return;
+      if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+      try {
+        spotExtras = await mutate(d => { d = d && !Array.isArray(d) ? d : {};
+          if ((d.__insp || []).some(m => m.image === img)) { d.__insp = d.__insp.filter(m => m.image !== img); if (!d.__insp.length) delete d.__insp; }
+          else d.__insphide = [...new Set([...(d.__insphide || []), img])];
+          return d; }, "Inspiration: Bild entfernt", EXTRAS_PATH, {});
+        const y = $("#inspBody").scrollTop; openInsp(); $("#inspBody").scrollTop = y; toast("Bild entfernt", 1500);
+      } catch (err) { toast(err.message, 5000); }
+    });
     $("#insp").hidden = false;
   }
   $("#inspFilter").addEventListener("click", e => {
@@ -1629,6 +1673,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         : here() ? a._d - b._d : prioRank(a) - prioRank(b));
     order = items.map(p => p.id);
     $("#group").querySelectorAll("button[data-g]").forEach(x => x.classList.toggle("on", groups.has(x.dataset.g)));
+    { const t = $("#group [data-nltop]"); if (t) { t.classList.toggle("on", showNl); t.hidden = routeF || !places.some(p => p.noloc && inRegion(p)); } }
 
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
@@ -2333,8 +2378,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     p.posts = p._orig.posts.filter(x => !x.image || !hidden.has(x.image));
     p.image = p._orig.image && !hidden.has(p._orig.image) ? p._orig.image : ((p.posts.find(x => x.image) || {}).image || null);
     p.ownImage = false;
-    const photos = ex.filter(x => x.type === "photo").map(x => ({ own: true, kind: "photo", image: rawUrl(x.path), url: rawUrl(x.path),
-      profile_url: rawUrl(x.path), username: "", caption: x.note || "", credit: "Eigenes Foto" + (x.added ? " · " + x.added.slice(0, 10) : "") }));
+    const photos = ex.filter(x => x.type === "photo").map(x => ({ own: true, kind: "photo", image: x.path, url: x.path,
+      profile_url: x.path, username: "", caption: x.note || "", credit: "Eigenes Foto" + (x.added ? " · " + x.added.slice(0, 10) : "") }));
     p.posts = [...p.posts, ...photos];
     if (!p.image && photos.length) { p.image = photos[0].image; p.ownImage = true; }
     if (p.ownImage && !photos.length) { p.image = null; p.ownImage = false; }
@@ -2370,11 +2415,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       img.src = url;
     });
   }
+  // Fotos landen im Seiten-Branch (uploads/…): dann kommen sie von derselben Adresse wie die App –
+  // raw.githubusercontent.com ist in China oft gesperrt. Bis GitHub Pages neu gebaut hat (~1 Min.) springt die Anzeige auf raw zurück.
   async function uploadFile(path, b64, message) {
     const token = store.get(TOKEN_KEY); if (!token) throw new Error("Kein GitHub-Token");
-    if (dataBranchExists !== true) await ensureDataBranch(token);
     const r = await fetch(ghUrl(path), { method: "PUT", headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` },
-      body: JSON.stringify({ message, branch: GH.dataBranch, content: b64 }) });
+      body: JSON.stringify({ message, branch: GH.branch, content: b64 }) });
     if (!r.ok) throw new Error(`Upload: GitHub ${r.status}`);
   }
   // Foto aus einem Spot entfernen: eigene Uploads werden gelöscht, alle anderen Fotos nur für diesen Spot ausgeblendet
@@ -2386,7 +2432,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     try {
       const next = await mutate(d => {
         d = d && !Array.isArray(d) ? d : {}; const l = d[id] || [];
-        d[id] = x.own ? l.filter(e => !(e.type === "photo" && rawUrl(e.path) === x.image))
+        d[id] = x.own ? l.filter(e => !(e.type === "photo" && (e.path === x.image || rawUrl(e.path) === x.image)))
           : l.some(e => e.type === "hide" && e.image === x.image) ? l : [...l, { type: "hide", image: x.image, added: new Date().toISOString() }];
         if (!d[id].length) delete d[id];
         return d;
