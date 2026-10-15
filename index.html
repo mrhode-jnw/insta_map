@@ -1509,7 +1509,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // ---------- Liste
   function unplacedScope() {  // Posts ohne Ort im gewählten Bereich (Route/Alles: alle), passend zur Suche
     const q = ($("#search") ? $("#search").value : "").trim().toLowerCase();
-    return unplacedAll.filter(x => (routeF || allRegs() || ((x.region || "hk") === "hk" ? regs.has("hk") : [...regs].some(r => r !== "hk")))
+    // Posts ohne Ort zählen zu China (erscheinen, sobald eine China-Region gewählt ist)
+    return unplacedAll.filter(x => (routeF || allRegs() || [...regs].some(r => r !== "hk"))
       && (!q || [x.username, x.caption].join(" ").toLowerCase().includes(q)));
   }
   const prioRank = p => ({ hoch: 0, mittel: 1, gering: 2, nein: 4 })[st(p.id).prio] ?? 3;
@@ -1569,7 +1570,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const head = (p, i) => sortBy === "area" && (i === 0 || items[i - 1]._a !== p._a)
       ? `<li class="sec areahead">${esc(p._a)} <small>(${items.filter(x => x._a === p._a).length})</small></li>` : "";
     const nlist = groups.has("noloc") ? unplacedScope() : [];
-    const nolocEmpty = groups.has("noloc") && !nlist.length ? `<li class="sec">📍 Ohne konkreten Ort <small>– in der gewählten Region keine (alle ${unplacedAll.length} sind aus Hongkong bzw. ohne Region)</small></li>` : "";
+    const nolocEmpty = groups.has("noloc") && !nlist.length ? `<li class="sec">📍 Ohne konkreten Ort <small>– nur bei China-Regionen (${unplacedAll.length} Posts)</small></li>` : "";
     const noloc = nolocEmpty || nlist.length ? nolocEmpty || `<li class="sec">📍 Ohne konkreten Ort <small>(${nlist.length} Posts – antippen öffnet den Post)</small></li>
       <li class="sec" style="padding:0;border:0"><div class="ugrid">${nlist.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
         ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>${esc(who(x))}</span></a>`).join("")}</div></li>
