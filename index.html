@@ -353,7 +353,9 @@
   #inspFilter button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
   #inspFilter small { opacity: .75; }
   #inspBody { flex: 1; overflow-y: auto; padding: 10px 10px calc(env(safe-area-inset-bottom) + 16px); }
-  #inspBody h3 { margin: 6px 4px 8px; font-size: 15px; }
+  #inspBody h3 { margin: 6px 4px 8px; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+  #inspBody h3 .iadd { margin-left: auto; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--accent); background: transparent; color: var(--accent); font-size: 13px; font-weight: 600; cursor: pointer; }
+  #inspBody h3 .iadd:disabled { opacity: .6; }
   #inspBody .src { margin: 2px 4px 10px; font-size: 12.5px; color: var(--muted); }
   #inspBody .src a { color: var(--accent); text-decoration: none; }
   #inspBody .masonry { columns: 2; column-gap: 8px; margin-bottom: 18px; }
@@ -1542,26 +1544,30 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Ortsfilter oben (Mehrfachauswahl, leer = alle); gemerkt pro Gerät
   let inspF = new Set(); try { inspF = new Set(JSON.parse(localStorage.getItem("inspF") || "[]")); } catch {}
   function openInsp() {
-    const marks = r => inspMarks().filter(m => m.region === r);
+    const marks = r => inspMarks().filter(m => m.region === r && !m.own);
+    const owns = r => inspMarks().filter(m => m.region === r && m.own);
     const hid = new Set(spotExtras.__insphide || []);
     const imgsOfPost = post => post.images.filter(src => !hid.has(src));
-    const have = Object.keys(INSP_REG).filter(r => (INSP[r] || []).some(p => imgsOfPost(p).length) || marks(r).length);
+    const have = Object.keys(INSP_REG);  // alle Orte zeigen, damit man überall eigene Fotos hochladen kann
     [...inspF].forEach(r => { if (!have.includes(r)) inspF.delete(r); });
     const regs = have.filter(r => !inspF.size || inspF.has(r));
-    const cnt = r => (INSP[r] || []).reduce((a, p) => a + imgsOfPost(p).length, 0) + marks(r).length;
+    const cnt = r => (INSP[r] || []).reduce((a, p) => a + imgsOfPost(p).length, 0) + marks(r).length + owns(r).length;
     $("#inspFilter").innerHTML = `<button data-if="" class="${inspF.size ? "" : "on"}">Alle</button>` +
       have.map(r => `<button data-if="${r}" class="${inspF.has(r) ? "on" : ""}">${INSP_REG[r]} <small>${cnt(r)}</small></button>`).join("");
     let n = 0;
     const markItems = [];
-    $("#inspBody").innerHTML = regs.map(r => `<h3>${INSP_REG[r]}</h3>` + (marks(r).length ? `<div class="src">💡 An Spots markiert</div><div class="masonry">${marks(r).map(m => {
-        markItems.push(m); return `<span class="iw"><img src="${esc(m.image)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(m.image)}" aria-label="Aus Inspiration entfernen">×</button></span>`; }).join("")}</div>` : "") + (INSP[r] || []).filter(post => imgsOfPost(post).length).map(post => `
+    const tile = m => { markItems.push(m); return `<span class="iw"><img src="${esc(m.image)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(m.image)}" aria-label="Aus Inspiration entfernen">×</button></span>`; };
+    $("#inspBody").innerHTML = regs.map(r => `<h3>${INSP_REG[r]}<button class="iadd" data-iadd="${r}">📷 Fotos hochladen</button></h3>` +
+      (owns(r).length ? `<div class="src">📷 Eigene Fotos</div><div class="masonry">${owns(r).map(tile).join("")}</div>` : "") + (marks(r).length ? `<div class="src">💡 An Spots markiert</div><div class="masonry">${marks(r).map(tile).join("")}</div>` : "") + (INSP[r] || []).filter(post => imgsOfPost(post).length).map(post => `
       <div class="src">${post.user ? `<a href="https://www.instagram.com/${esc(post.user)}/" target="_blank" rel="noopener">@${esc(post.user)}</a> · ` : ""}<a href="${esc(post.url)}" target="_blank" rel="noopener">Post ↗</a>${post.caption ? " – " + esc(post.caption.split("\n")[0].slice(0, 90)) : ""}</div>
       <div class="masonry">${imgsOfPost(post).map(src => `<span class="iw"><img src="${esc(src)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(src)}" aria-label="Aus Inspiration entfernen">×</button></span>`).join("")}</div>`).join("")).join("")
       || `<p class="src">Noch keine Bilder.</p>`;
     $("#inspSub").textContent = n ? `${n} Bilder` : "";
-    const all = regs.flatMap(r => [...marks(r).map(m => ({ image: m.image, url: m.url, credit: `${m.credit} · Spot: ${m.name}`, profile_url: m.url })),
+    const all = regs.flatMap(r => [...owns(r).map(m => ({ image: m.image, url: m.image, credit: m.credit || "Eigenes Foto", profile_url: m.image })),
+      ...marks(r).map(m => ({ image: m.image, url: m.url, credit: `${m.credit} · Spot: ${m.name}`, profile_url: m.url })),
       ...(INSP[r] || []).flatMap(post => imgsOfPost(post).map((src, k) => ({ image: src, url: post.url + "?img_index=" + (k + 1), username: post.user || "Instagram", profile_url: post.user ? `https://www.instagram.com/${post.user}/` : post.url })))]);
     $("#inspBody").querySelectorAll("img[data-i]").forEach(img => img.onclick = () => lbOpen({ name: "Inspiration", posts: all }, +img.dataset.i));
+    $("#inspBody").querySelectorAll(".iadd").forEach(b => b.onclick = e => { e.stopPropagation(); inspUpload(b.dataset.iadd, b); });
     $("#inspBody").querySelectorAll(".idel").forEach(b => b.onclick = async e => {
       e.stopPropagation(); const img = b.dataset.img;
       if (!confirm("Bild aus der Inspiration entfernen?")) return;
@@ -1575,6 +1581,29 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       } catch (err) { toast(err.message, 5000); }
     });
     $("#insp").hidden = false;
+  }
+  // Eigene Fotos direkt als Inspiration hochladen (pro Ort): Datei → uploads/insp/<ort>/…, Eintrag in __insp mit own: true
+  function inspUpload(r, btn) {
+    const fi = document.createElement("input"); fi.type = "file"; fi.accept = "image/*"; fi.multiple = true;
+    fi.onchange = async () => {
+      const files = [...fi.files]; if (!files.length) return;
+      if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+      btn.disabled = true; const added = new Date().toISOString(), items = [];
+      try {
+        for (let i = 0; i < files.length; i++) {
+          btn.textContent = `Lade ${i + 1}/${files.length} …`;
+          const path = `uploads/insp/${r}/${Date.now()}_${i}.jpg`;
+          await uploadFile(path, await shrink(files[i]), `Inspiration: Foto (${r})`);
+          items.push({ image: path, own: true, region: r, credit: "Eigenes Foto · " + added.slice(0, 10), added });
+        }
+        btn.textContent = "Speichere …";
+        spotExtras = await mutate(d => { d = d && !Array.isArray(d) ? d : {}; d.__insp = [...items, ...(d.__insp || [])]; return d; },
+          `Inspiration: ${items.length} eigene Foto(s) (${r})`, EXTRAS_PATH, {});
+        const y = $("#inspBody").scrollTop; openInsp(); $("#inspBody").scrollTop = y;
+        toast(`💡 ${items.length} Foto(s) zur Inspiration hinzugefügt`, 2500);
+      } catch (e) { toast(e.message, 5000); btn.disabled = false; btn.textContent = "📷 Fotos hochladen"; }
+    };
+    fi.click();
   }
   $("#inspFilter").addEventListener("click", e => {
     const b = e.target.closest("button[data-if]"); if (!b) return;
