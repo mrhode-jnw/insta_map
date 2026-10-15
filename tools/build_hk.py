@@ -219,7 +219,9 @@ for p in places:
 import daynight  # noqa: E402
 daynight.tag_all(places)
 
-unplaced = [posts[i] for i in sorted(POSTS) if i not in used]
+# Posts, deren Foto an einem China-Spot hängt (cn/extra_photos.json), gelten als verortet
+_cn_urls = " ".join(x["url"] for l in bp.load_json(os.path.join(ROOT, "cn", "extra_photos.json"), {}).values() for x in l)
+unplaced = [posts[i] for i in sorted(POSTS) if i not in used and POSTS[i][2] not in _cn_urls]
 # Region der Posts ohne Ort (Standard Hongkong; Ausnahmen in hk/unplaced_regions.json, Kürzel wie in der App)
 _ureg = bp.load_json(os.path.join(ROOT, "hk", "unplaced_regions.json"), {})
 for x in unplaced:
