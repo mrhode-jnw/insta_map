@@ -90,6 +90,10 @@
   .pop .links { display: flex; gap: 6px; flex-wrap: wrap; }
   .pop .links .showmap { flex: 1.3; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #dbeafe; color: #1e3a8a; font-weight: 600; cursor: pointer; }
   .leaflet-marker-icon.hl { z-index: 9999 !important; }
+  /* Gruppen (mehrere Spots): kräftig statt blassgrün, gut sichtbar auf allen Karten */
+  .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background: rgba(225, 48, 108, .35) !important; }
+  .marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div { background: #e1306c !important; color: #fff !important;
+    font-weight: 700; border: 2px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.45); line-height: 26px !important; }
   .leaflet-marker-icon.hl .pin, .leaflet-marker-icon.hl.marker-cluster { transform: scale(1.5); box-shadow: 0 0 0 4px #e1306c, 0 4px 14px rgba(0,0,0,.45); transition: transform .12s; }
   .leaflet-marker-icon.hl.marker-cluster { border-radius: 50%; }
   .leaflet-marker-icon.flash { animation: flashpin .65s ease-in-out 4; z-index: 9999 !important; }
