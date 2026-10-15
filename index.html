@@ -294,6 +294,7 @@
   .tcard.on { border-color: #2563eb; box-shadow: 0 0 0 1px #2563eb inset; }
   .thead { display: flex; align-items: center; gap: 8px; }
   .thead .tname { flex: 1; cursor: pointer; line-height: 1.3; } .thead small { color: var(--muted); }
+  .tdel { width: 34px; height: 34px; border-radius: 10px; border: 1px solid var(--line); background: transparent; font-size: 15px; cursor: pointer; flex: none; }
   .teye, .tmore { width: 36px; height: 34px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 17px; cursor: pointer; }
   .tcard.on .teye { background: #2563eb; color: #fff; border-color: #2563eb; }
   .tstops { margin: 8px 0 4px; padding-left: 22px; }
@@ -752,7 +753,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let myTours = []; try { myTours = JSON.parse(localStorage.getItem("myTours") || "[]"); } catch {}
   let activeTour = null; try { activeTour = localStorage.getItem("tour"); } catch {}
   let tourRoutes = {}; try { tourRoutes = JSON.parse(localStorage.getItem("tourRoutes") || "{}"); } catch {}
-  const allTours = () => [...myTours, ...BUILTIN_TOURS];
+  // gelöschte vorbereitete Touren (fest im Code) werden nur ausgeblendet – auf diesem Gerät
+  let hiddenTours = []; try { hiddenTours = JSON.parse(localStorage.getItem("hiddenTours") || "[]"); } catch {}
+  const allTours = () => [...myTours, ...BUILTIN_TOURS.filter(t => !hiddenTours.includes(t.id))];
   const tourById = id => allTours().find(t => t.id === id);
   const shortName = n => n.replace(/\s*[　-鿿].*$/, "").replace(/\s*[–(].*$/, "").trim() || n;
   const tourStops = t => t.builtin ? t.stops : t.stops.map(id => places.find(p => p.id === id)).filter(Boolean)
@@ -895,12 +898,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           <div class="thead"><button class="teye" data-eye="${esc(t.id)}" title="Auf der Karte zeigen">${on ? "👁" : "◌"}</button>
             <div class="tname" data-open="${esc(t.id)}"><b>${esc(t.name)}</b>${t.builtin ? ' <small>vorbereitet</small>' : ""}<br>
             <small>${stops.length} Stopps${stops.length > 1 ? ` · ${stt.exact ? "" : "ca. "}${(stt.m / 1000).toFixed(1)} km ${stt.mode === "car" ? "mit dem Auto" : "zu Fuß"}${stt.min ? ` (${stt.min} Min.)` : ""}${stt.taxi ? ` + ${stt.taxi}× Taxi` : ""}` : ""}</small></div>
+            <button class="tdel" data-del="${esc(t.id)}" title="Tour löschen" aria-label="Tour löschen">🗑</button>
             <button class="tmore" data-open="${esc(t.id)}">${open ? "▴" : "▾"}</button></div>
           ${open ? `<ol class="tstops">${stops.map((st, i) => `<li><span class="tsn" data-go="${esc(st.id || "")}" data-ll="${st.lat},${st.lng}">${st.t ? `<small>${esc(st.t)}</small> ` : ""}${esc(st.name)}</span>
               ${t.builtin ? "" : `<span class="tsb"><button data-up="${i}" ${i ? "" : "disabled"}>↑</button><button data-down="${i}" ${i < stops.length - 1 ? "" : "disabled"}>↓</button><button data-rm="${i}">✕</button></span>`}</li>`).join("")}</ol>
             <div class="tactions">${!t.builtin && stops.length > 2 ? `<button class="tbtn" data-opt="${esc(t.id)}">⚡ Reihenfolge optimieren</button>` : ""}
               ${gmapsLink(t) ? `<a class="tbtn" href="${esc(gmapsLink(t))}" target="_blank" rel="noopener">Google Maps ↗</a>` : ""}
-              ${t.builtin ? "" : `<button class="tbtn" data-ren="${esc(t.id)}">Umbenennen</button><button class="tbtn warn" data-del="${esc(t.id)}">Löschen</button>`}</div>
+              ${t.builtin ? "" : `<button class="tbtn" data-ren="${esc(t.id)}">Umbenennen</button>`}<button class="tbtn warn" data-del="${esc(t.id)}">Löschen</button></div>
             ${!t.builtin && !stops.length ? `<p class="thint">Noch leer – Spot öffnen und auf 🧭 Tour tippen.</p>` : ""}` : ""}
         </div>`; }).join("");
   }
@@ -927,6 +931,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       if (m && shown.has(b.dataset.go)) setTimeout(() => cluster.zoomToShowLayer(m, () => openSpot(m)), 300);
       return;
     }
+    if (b.dataset.del) {
+      if (!confirm(`Tour „${t.name}“ löschen?`)) return;
+      if (activeTour === t.id) setActiveTour(null);
+      openTourId = null;
+      if (t.builtin) { hiddenTours.push(t.id); try { localStorage.setItem("hiddenTours", JSON.stringify(hiddenTours)); } catch {} renderTours(); }
+      else { myTours = myTours.filter(x => x !== t); saveTours(); renderTours(); }
+      toast(`„${shortName(t.name)}“ gelöscht`, 2000); return;
+    }
     if (t.builtin) return;
     const i = +(b.dataset.up ?? b.dataset.down ?? b.dataset.rm ?? -1);
     if (b.dataset.up) { [t.stops[i - 1], t.stops[i]] = [t.stops[i], t.stops[i - 1]]; }
@@ -934,7 +946,6 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     else if (b.dataset.rm) { t.stops.splice(i, 1); }
     else if (b.dataset.opt) { optimize(t); toast("Reihenfolge optimiert (kürzester Weg ab dem ersten Stopp)", 2500); renderTours(); return; }
     else if (b.dataset.ren) { const n = prompt("Neuer Name:", t.name); if (n && n.trim()) t.name = n.trim(); }
-    else if (b.dataset.del) { if (!confirm(`Tour „${t.name}“ löschen?`)) return; myTours = myTours.filter(x => x !== t); if (activeTour === t.id) setActiveTour(null); openTourId = null; }
     else return;
     saveTours(); renderTours();
   });
