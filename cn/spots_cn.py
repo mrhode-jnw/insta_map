@@ -66,7 +66,7 @@ SPOTS = [
  ("Xianggong Hill 相公山", 24.937357, 110.476192, False, "Yangshuo, Guangxi", "Aussicht",
   [], "Sonnenaufgang über der Li-River-Schleife, die sich um einen Karstkegel legt (klassischer Blick von der obersten Plattform). Öffnet ca. 4:30, Eintritt ca. 45–60 CNY, vor 7 Uhr da sein; nach Regen oft Nebel/Wolkenmeer. Pin laut trip.com (GCJ-02 umgerechnet)."),
  ("Yangshuo Karstlandschaft 阳朔", 24.8630, 110.4872, True, "Yangshuo, Guangxi", "Natur",
-  [11, 10, 33, (21, 7), 9], "Karstkegel in endlosen Schichten, Sonnenaufgang mit Wasserbüffeln an der Steinbrücke."),
+  [10, 33, (21, 7), 9], "Karstkegel in endlosen Schichten zwischen Yangshuo und Xingping (Pin ungefähr). Das Büffel-Steinbrücken-Foto von @nateinthewild gehört zu Tianxin 田心村 (Zhuangyuan-Brücke)."),
  ("Longji Rice Terraces 龙脊梯田", 25.7580, 110.1190, True, "Longsheng, Guangxi", "Natur",
   [47, 48, 49, 50], "Rund 650 Jahre alte Reisterrassen, ca. 2 h ab Guilin; im September goldgelb."),
  # Chongqing

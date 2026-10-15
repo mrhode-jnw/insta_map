@@ -676,26 +676,17 @@ window.PLACES_CN = [
   "name": "Yangshuo Karstlandschaft 阳朔",
   "district": "Yangshuo, Guangxi",
   "category": "Natur",
-  "note": "Karstkegel in endlosen Schichten, Sonnenaufgang mit Wasserbüffeln an der Steinbrücke.",
+  "note": "Karstkegel in endlosen Schichten zwischen Yangshuo und Xingping (Pin ungefähr). Das Büffel-Steinbrücken-Foto von @nateinthewild gehört zu Tianxin 田心村 (Zhuangyuan-Brücke).",
   "address": "Yangshuo, Guangxi",
   "lat": 24.863,
   "lng": 110.4872,
   "approx": true,
-  "image": "images/DdXg4t2GDJp.jpg",
-  "caption": "",
-  "post_url": "https://www.instagram.com/nateinthewild/p/DdXg4t2GDJp/",
-  "username": "nateinthewild",
-  "profile_url": "https://www.instagram.com/nateinthewild/",
+  "image": "images/DcIsDePCaxD_7.jpg",
+  "caption": "Save & double tap this post for your next China trip : ) Scroll through 👉🏻\n\n1📍Dongchangzhi Road & Lushun Road, Shanghai (东长治路与旅顺路交叉口) — A popular North Bund street-photography spot where everyday Shanghai life is framed against the Lujiazui skyline, with the Oriental Pearl Tower and Shanghai Tower rising dramatically in the background.\n\n1📍Dongchangzhi Road & Lushun Road, Shanghai (东长治路与旅顺路交叉口) — A popular North Bund street-photography spot where everyday Shanghai life is framed against the Lujiazui skyline, with the Oriental Pearl Tower and Shanghai Tower rising dramatically in the background.",
+  "post_url": "https://www.instagram.com/yantastic/p/DcIsDePCaxD/?img_index=7",
+  "username": "yantastic",
+  "profile_url": "https://www.instagram.com/yantastic/",
   "posts": [
-   {
-    "url": "https://www.instagram.com/nateinthewild/p/DdXg4t2GDJp/",
-    "username": "nateinthewild",
-    "profile_url": "https://www.instagram.com/nateinthewild/",
-    "kind": "p",
-    "image": "images/DdXg4t2GDJp.jpg",
-    "caption": "",
-    "match": "single"
-   },
    {
     "url": "https://www.instagram.com/sjoerdbracke/p/DdJoIXXDCaY/",
     "username": "sjoerdbracke",
@@ -5461,12 +5452,21 @@ window.PLACES_CN = [
   "lat": 25.17063,
   "lng": 110.20172,
   "approx": true,
-  "image": "images/tianxin_plan_1.jpg",
+  "image": "images/DdXg4t2GDJp.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [
+   {
+    "url": "https://www.instagram.com/nateinthewild/p/DdXg4t2GDJp/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/nateinthewild/p/DdXg4t2GDJp/",
+    "kind": "photo",
+    "image": "images/DdXg4t2GDJp.jpg",
+    "caption": "",
+    "credit": "@nateinthewild"
+   },
    {
     "url": "https://gs.ctrip.com/html5/you/travels/28/4033006.html",
     "username": "",
@@ -5497,8 +5497,8 @@ window.PLACES_CN = [
   ],
   "source": "Reiseplan Fotoreise 15.–19.10.",
   "unsure": "Pin = Weiler Tianxin laut OSM; die Brücke liegt im/am Dorf, genauer Standpunkt vor Ort",
-  "image_page": "https://gs.ctrip.com/html5/you/travels/28/4033006.html",
-  "image_credit": "Ctrip-Reisebericht (Nutzerfoto)",
+  "image_page": "https://www.instagram.com/nateinthewild/p/DdXg4t2GDJp/",
+  "image_credit": "@nateinthewild",
   "when": "day"
  },
  {

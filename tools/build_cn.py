@@ -161,6 +161,9 @@ import daynight  # noqa: E402
 daynight.tag_all(places)
 
 used = {x if isinstance(x, int) else x[0] for s in SPOTS for x in s[6]}
+# Posts, deren Foto über cn/extra_photos.json an einem Spot hängt, gelten auch als verortet
+_ep_urls = " ".join(x["url"] for l in bp.load_json(os.path.join(ROOT, "cn", "extra_photos.json"), {}).values() for x in l)
+used |= {n for n in POSTS if POSTS[n][2] in _ep_urls}
 unplaced = [dict(posts[n], region=UNPLACED_REGION.get(n, "cn")) for n in sorted(POSTS) if n not in used]
 
 with open(OUT, "w", encoding="utf-8") as f:
