@@ -220,6 +220,10 @@ import daynight  # noqa: E402
 daynight.tag_all(places)
 
 unplaced = [posts[i] for i in sorted(POSTS) if i not in used]
+# Region der Posts ohne Ort (Standard Hongkong; Ausnahmen in hk/unplaced_regions.json, Kürzel wie in der App)
+_ureg = bp.load_json(os.path.join(ROOT, "hk", "unplaced_regions.json"), {})
+for x in unplaced:
+    x["sub"] = next((v for k, v in _ureg.items() if k in x["url"]), "hk")
 
 with open(bp.OUT_FILE, "w", encoding="utf-8") as f:
     f.write("// Generiert von tools/build_hk.py aus hk/spots.py – nicht von Hand bearbeiten.\n")

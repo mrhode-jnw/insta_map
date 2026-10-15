@@ -571,6 +571,21 @@
 <script>
 function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const places = [...(window.PLACES || []), ...(window.PLACES_CN || [])].filter(p => isFinite(p.lat) && isFinite(p.lng));
+  // Posts ohne konkreten Ort: als Pin in der Mitte ihrer Region (nur sichtbar, wenn man sie in der Liste antippt)
+  const NL_CENTER = { hk: [22.3027, 114.1772], sz: [22.5431, 114.0579], gl: [24.7788, 110.4965], gz: [26.58, 106.71], zjj: [29.117, 110.479],
+    cq: [29.563, 106.551], sh: [31.2304, 121.4737], cnx: [31.0, 112.0] };
+  const NL_NAME = { hk: "Hongkong", sh: "Shanghai", cnx: "China" };
+  [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])].forEach((x, i) => {
+    const sub = x.sub || ((x.region || "hk") === "hk" ? "hk" : "cnx"), c = NL_CENTER[sub] || NL_CENTER.cnx;
+    const a = i * 2.4, r = 0.004 * Math.sqrt(i + 1);  // leicht versetzt, damit die Pins nicht exakt aufeinander liegen
+    const code = (x.url.match(/\/(?:p|reel|tv)\/([^/?]+)/) || [])[1] || String(i);
+    places.push({ id: "nl-" + code, noloc: true, nlsub: sub, approx: true, region: sub === "hk" ? "hk" : "cn",
+      name: `Post von @${x.username} – ohne genauen Ort`, category: "Ohne Ort", district: NL_NAME[sub] || "",
+      address: `${NL_NAME[sub] || ""} – genauer Ort unbekannt (Pin nur grob in der Region)`,
+      note: "Sammel-Post bzw. Post ohne konkreten Ort. Der Pin steht nur grob in der Mitte der Region.",
+      lat: c[0] + r * Math.cos(a), lng: c[1] + r * Math.sin(a), image: x.image, caption: x.caption || "",
+      post_url: x.url, username: x.username, profile_url: x.profile_url, posts: [x] });
+  });
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
@@ -1024,10 +1039,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Bereich oben links: 🧭 Route (nur Spots an unserer Route) oder frei kombinierbare Regionen der Reise (Mehrfachauswahl)
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
   const SUBS = [["hk", "🇭🇰 Hongkong"], ["sz", "Shenzhen"], ["gl", "Guilin · Yangshuo · Longji"], ["gz", "Guizhou"],
-    ["zjj", "Zhangjiajie · Fenghuang"], ["cq", "Chongqing"], ["sh", "Shanghai"], ["cnx", "Sonstiges China"], ["nl", "📍 Ohne Ort (Posts)"]];
+    ["zjj", "Zhangjiajie · Fenghuang"], ["cq", "Chongqing"], ["sh", "Shanghai"], ["cnx", "Sonstiges China"]];
+  let showNl = false; try { showNl = localStorage.getItem("showNl") === "1"; } catch {}
   const CN_SUBS = SUBS.map(x => x[0]).filter(k => k !== "hk");  // Unterpunkte von China
   const SUB_LABEL = Object.fromEntries(SUBS);
   const subOf = p => {
+    if (p.nlsub) return p.nlsub;
     if (regionOf(p) === "hk") return "hk";
     const a = p.lat, o = p.lng;
     if (a > 22.3 && a < 23 && o > 113.6 && o < 114.8) return "sz";
@@ -1050,13 +1067,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (routeF) return "🧭 Route";
     if (allRegs()) return "🌏 Alles";
     const allCn = CN_SUBS.every(k => regs.has(k));
-    const n = [...(regs.has("hk") ? ["🇭🇰 HK"] : []), ...(allCn ? ["🇨🇳 China"] : CN_SUBS.filter(k => regs.has(k)).map(k => k === "nl" ? "📍 Ohne Ort" : SUB_LABEL[k].split(" · ")[0]))];
+    const n = [...(regs.has("hk") ? ["🇭🇰 HK"] : []), ...(allCn ? ["🇨🇳 China"] : CN_SUBS.filter(k => regs.has(k)).map(k => SUB_LABEL[k].split(" · ")[0]))];
     return n.length <= 2 ? n.join(" + ") : `${n[0]} +${n.length - 1}`;
   };
   const inScope = p => routeF ? routeStop(p) >= 0 : inRegion(p);
-  const inGroup = p => inScope(p) && inGroups(p);
+  const inGroup = p => !p.noloc && inScope(p) && inGroups(p);
   function fitRegion() {  // Hauptcluster der Region zeigen (Ausreißer nicht einbeziehen)
-    const ps = places.filter(inRegion); if (!ps.length) return;
+    const ps = places.filter(p => !p.noloc && inRegion(p)); if (!ps.length) return;
     const mid = arr => arr.slice().sort((a, b) => a - b)[arr.length >> 1];
     const c = { lat: mid(ps.map(p => p.lat)), lng: mid(ps.map(p => p.lng)) };
     const near = regs.size === 1 ? ps.filter(p => dist(c, p) < 150e3) : ps;
@@ -1081,7 +1098,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Auswahl-Fenster: Route oder Regionen ankreuzen (Alles / einzelne, mehrere möglich)
   function openWhere() {
     const box = $("#tourPick");
-    const cnt = k => places.filter(p => subOf(p) === k && inGroups(p)).length;
+    const cnt = k => places.filter(p => !p.noloc && subOf(p) === k && inGroups(p)).length;
     const on = k => allRegs() || regs.has(k);
     const render = () => {
       box.innerHTML = `<div class="tpcard"><div class="tphead"><b>Bereich</b><button class="tpclose" aria-label="Schließen">✕</button></div>
@@ -1091,11 +1108,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <label class="tprow"><input type="checkbox" data-all ${allRegs() ? "checked" : ""}> <b>🌏 Alles</b></label>
         <label class="tprow"><input type="checkbox" data-r="hk" ${on("hk") ? "checked" : ""}> <b>🇭🇰 Hongkong</b> <small>(${cnt("hk")})</small></label>
         <label class="tprow"><input type="checkbox" data-cn ${CN_SUBS.every(on) ? "checked" : ""}> <b>🇨🇳 China</b></label>
-        ${CN_SUBS.map(k => `<label class="tprow wsub"><input type="checkbox" data-r="${k}" ${on(k) ? "checked" : ""}> ${esc(SUB_LABEL[k])} <small>(${k === "nl" ? unplacedAll.length : cnt(k)})</small></label>`).join("")}
+        ${CN_SUBS.map(k => `<label class="tprow wsub"><input type="checkbox" data-r="${k}" ${on(k) ? "checked" : ""}> ${esc(SUB_LABEL[k])} <small>(${cnt(k)})</small></label>`).join("")}
+        <label class="tprow"><input type="checkbox" data-nl ${showNl ? "checked" : ""}> 📍 Posts ohne genauen Ort zeigen <small>(${places.filter(p => p.noloc && inRegion(p)).length} in der Auswahl)</small></label>
         </div><button class="xa-save" data-ok>Fertig</button></div>`;
       box.querySelector(".tpclose").onclick = box.querySelector("[data-ok]").onclick = () => { box.hidden = true; };
       box.querySelectorAll("input[name=wm]").forEach(r => r.onchange = () => { setWhere(r.dataset.w === "route", null); render(); });
       box.querySelector("[data-all]").onchange = e => { setWhere(false, e.target.checked ? [] : ["hk"]); render(); };
+      box.querySelector("[data-nl]").onchange = e => { showNl = e.target.checked; try { localStorage.setItem("showNl", showNl ? "1" : "0"); } catch {} renderList(); render(); };
       box.querySelector("[data-cn]").onchange = e => {  // China mit allen Unterpunkten an/aus
         const cur = allRegs() ? new Set(SUBS.map(x => x[0])) : new Set(regs);
         CN_SUBS.forEach(k => e.target.checked ? cur.add(k) : cur.delete(k));
@@ -1206,7 +1225,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const hay = [p.name, p.address, p.district, p.category, p.note, p.tip, p.caption, p.username,
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
     const s = st(p.id);
-    return inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
+    return !p.noloc && inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
       && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio || "none")) && (s.prio !== "nein" || prioF.has("nein") || trashF) && (!doneF || (doneF === "done" ? s.done : !s.done))
       && (!popF || (p.pop || 0) >= 4) && (!favF || s.fav) && (!areaF || areaOf(p) === areaF)
@@ -1521,9 +1540,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // ---------- Liste
   function unplacedScope() {  // Posts ohne Ort im gewählten Bereich (Route/Alles: alle), passend zur Suche
     const q = ($("#search") ? $("#search").value : "").trim().toLowerCase();
-    // Posts ohne Ort: Unterpunkt „📍 Ohne Ort“ von China
-    return unplacedAll.filter(x => (!routeF && (allRegs() || regs.has("nl")))
-      && (!q || [x.username, x.caption].join(" ").toLowerCase().includes(q)));
+    // Posts ohne Ort der gewählten Regionen (Schalter „📍 Posts ohne genauen Ort zeigen“)
+    return places.filter(p => p.noloc && showNl && !routeF && inRegion(p)
+      && (!q || [p.username, p.caption].join(" ").toLowerCase().includes(q)));
   }
   const prioRank = p => ({ hoch: 0, mittel: 1, gering: 2, nein: 4 })[st(p.id).prio] ?? 3;
   // Sichtbarer Kartenbereich ohne die Fläche, die das Panel verdeckt
@@ -1582,9 +1601,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const head = (p, i) => sortBy === "area" && (i === 0 || items[i - 1]._a !== p._a)
       ? `<li class="sec areahead">${esc(p._a)} <small>(${items.filter(x => x._a === p._a).length})</small></li>` : "";
     const nlist = unplacedScope();
-    const noloc = nlist.length ? `<li class="sec">📍 Ohne konkreten Ort <small>(${nlist.length} Posts – antippen öffnet den Post)</small></li>
-      <li class="sec" style="padding:0;border:0"><div class="ugrid">${nlist.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
-        ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>${esc(who(x))}</span></a>`).join("")}</div></li>
+    const noloc = nlist.length ? `<li class="sec">📍 Ohne genauen Ort <small>(${nlist.length} Posts – antippen zeigt den Pin)</small></li>
+      <li class="sec" style="padding:0;border:0"><div class="ugrid">${nlist.map(x => `<a href="#" data-nl="${esc(x.id)}">
+        ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>@${esc(x.username)}</span></a>`).join("")}</div></li>
       ${items.length ? `<li class="sec">Spots</li>` : ""}` : "";
     if (nlist.length) $("#count").textContent = `${items.length ? items.length + " Orte · " : ""}${nlist.length} ohne Ort`;
     if (view === "grid") {
@@ -1629,6 +1648,16 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const top = el.scrollTop; el.replaceChildren(...next); el.scrollTop = top;
   }
   $("#list").addEventListener("click", e => {
+    const nl = e.target.closest("[data-nl]");
+    if (nl) {  // Post ohne Ort: Pin in der Region zeigen und öffnen
+      e.preventDefault(); const p = places.find(x => x.id === nl.dataset.nl); if (!p) return;
+      if (!map._popup || !map.hasLayer(map._popup)) saveView();
+      stickyId = p.id; renderList();
+      if (mobile()) setSnap("peek");
+      map.setView([p.lat, p.lng], Math.max(map.getZoom(), 12), { animate: false });
+      const m = markers.get(p.id); if (m) setTimeout(() => cluster.zoomToShowLayer(m, () => openSpot(m)), 300);
+      return;
+    }
     const li = e.target.closest("li[data-id]"); if (!li) return;
     if (!map._popup || !map.hasLayer(map._popup)) saveView();
     const m = markers.get(li.dataset.id);
@@ -1785,7 +1814,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         zIndexOffset: 1000, interactive: false }).addTo(map);
     } else { meMarker.setLatLng(ll); meCircle.setLatLng(ll).setRadius(pos.coords.accuracy); }
     if (first && window.DeviceOrientationEvent && typeof DeviceOrientationEvent.requestPermission !== "function") startCompass();  // ohne Rückfrage möglich (Android)
-    const np = places.reduce((m, p) => !m || dist(me, p) < dist(me, m) ? p : m, null);
+    const np = places.reduce((m, p) => p.noloc ? m : !m || dist(me, p) < dist(me, m) ? p : m, null);
     const nearest = np ? dist(me, np) : Infinity;
     const wasNear = nearSpots; nearSpots = nearest < 50e3;
     if (first && nearSpots && !routeF && regs.size === 1 && !regs.has(subOf(np))) setWhere(false, [subOf(np)], false);  // vor Ort automatisch die passende Region
