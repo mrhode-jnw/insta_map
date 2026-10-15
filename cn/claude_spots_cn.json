@@ -276,7 +276,8 @@
   "pop": 3,
   "reason": "Fünf Wind-und-Regen-Brücken, Trommelturm, Qing-Steinpfad, wenig touristisch",
   "tip": "Ihr übernachtet im Dorf: morgens die Brücken über dem Bach mit Langzeitbelichtung (Stativ, ND, 16-35). Vom alten Steinplattenweg am Hang Durchblicke auf das Dachmeer. Ende Oktober hängen Reisbündel an Gestellen und Häusern; Porträts älterer Dong im Indigo-Gewand nur nach Erlaubnis.",
-  "date": "20.–21.10."
+  "date": "20.–21.10.",
+  "plan": true
  },
  {
   "name": "Datang Water Granaries 大塘新桥水上粮仓",
@@ -315,7 +316,8 @@
   "pop": 2,
   "reason": "Miao-Silberschmiededorf, über 70 % beherrschen das Handwerk",
   "tip": "Werkstätten besuchen: Schmieden, Gravieren, Polieren bei Fensterlicht mit offener Blende; Hände und Werkzeug mit dem 70-200 im Nahbereich. Fragen und eine Kleinigkeit kaufen öffnet Türen. Nachbarort Kongbai (控拜) am Hang mit Terrassen, schön bei Sonnenuntergang.",
-  "date": "21.10."
+  "date": "21.10.",
+  "plan": true
  },
  {
   "name": "Xiasi Ancient Town 下司古镇",
@@ -867,7 +869,8 @@
   "date": "15.10.",
   "image": "images/claude_cn_damian-hill.jpg",
   "image_page": "https://www.trip.com/travel-guide/attraction/yangshuo/damian-mountain-23865244/",
-  "image_credit": "trip.com (Attraktionsseite, Nutzerfoto)"
+  "image_credit": "trip.com (Attraktionsseite, Nutzerfoto)",
+  "plan": true
  },
  {
   "name": "Xingping Ancient Town 兴坪古镇",

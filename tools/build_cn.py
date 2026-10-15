@@ -123,7 +123,8 @@ for name, lat, lng, approx, region, cat, plist, note in SPOTS:
 # Claude-Tipps entlang der Route (Web-Recherche): cn/claude_spots_cn.json, Bild optional unter images/
 for c in bp.load_json(os.path.join(ROOT, "cn", "claude_spots_cn.json"), []):
     places.append({
-        "id": "claude-cn-" + spot_id(c["name"])[3:], "region": "cn", "by_claude": True,
+        # plan: Ort steht im offiziellen Reiseplan → normaler Spot, kein Tipp (ID bleibt für Status/Touren)
+        "id": "claude-cn-" + spot_id(c["name"])[3:], "region": "cn", "by_claude": not c.get("plan"),
         "name": c["name"], "district": c["district"], "category": c["cat"], "note": "",
         "tip": c.get("tip", ""), "address": c["district"], "lat": c["lat"], "lng": c["lng"],
         "approx": c.get("approx", False), "image": c.get("image"), "caption": "", "post_url": "",
