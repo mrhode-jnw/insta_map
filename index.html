@@ -577,6 +577,51 @@
   .b-cl, .b-opt { background: rgba(124,58,237,.22); color: #ddd6fe; } .b-hotel { background: rgba(20,184,166,.18); color: #99f6e4; }
   .tcard.on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
   #toast { border-radius: 14px; }
+
+  /* ---------- Symbolleiste unten (Karte · Plan · Touren · Inspiration · Merkliste) ---------- */
+  #dock { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 12px); z-index: 2700; height: 62px;
+    border-radius: 31px; display: flex; gap: 2px; padding: 6px; background: var(--glass); -webkit-backdrop-filter: blur(18px) saturate(1.4);
+    backdrop-filter: blur(18px) saturate(1.4); border: 1px solid var(--glassb); box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+  #dock button { width: 56px; height: 50px; border-radius: 25px; border: 0; background: transparent; color: #a1a1aa; display: grid; place-items: center; cursor: pointer; padding: 0; }
+  #dock button svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+  #dock button.on { background: var(--accent); color: #fff; }
+  #dock button.dot { position: relative; } #dock button.dot::after { content: ""; position: absolute; top: 9px; right: 13px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+  #dock button.on.dot::after { background: #fff; }
+  @media (min-width: 800px) { #dockbg { display: none; } }
+  #itinBtn, #tourBtn, #view #inspBtn { display: none !important; }
+  @media (max-width: 799px) {
+    #sheet { bottom: calc(env(safe-area-inset-bottom) + 82px); padding-bottom: 0; height: calc(88svh - 82px); }
+    #locate { bottom: calc(env(safe-area-inset-bottom) + 168px); } #add { bottom: calc(env(safe-area-inset-bottom) + 228px); }
+    body.popup-open #dock, body.popup-open #dockbg { opacity: 0; pointer-events: none; }
+    #dockbg { position: fixed; left: 0; right: 0; bottom: 0; height: calc(env(safe-area-inset-bottom) + 82px); z-index: 1002; background: var(--bg);
+      border-top: 1px solid var(--line); transition: opacity .18s ease; }
+    #dock { transition: opacity .18s ease; }
+  }
+  #itinBody, #toursBody, #inspBody { padding-bottom: calc(env(safe-area-inset-bottom) + 96px) !important; }
+  /* ---------- Spot als Vollbild-Story (Handy) ---------- */
+  @media (max-width: 799px) {
+    .leaflet-popup.card { left: 0 !important; top: 0 !important; transform: none !important; width: 100vw; }
+    .leaflet-popup.card .leaflet-popup-content-wrapper { border-radius: 0; box-shadow: none; }
+    .leaflet-popup.card .leaflet-popup-content { width: 100vw !important; height: 100vh; height: 100svh; max-height: none !important; }
+    body.popup-open #group { opacity: 0; pointer-events: none; }
+    #group { transition: opacity .18s ease; }
+    .leaflet-popup.card .pop .pnav { height: calc(env(safe-area-inset-top) + 60px); margin-bottom: calc(-1 * (env(safe-area-inset-top) + 60px));
+      padding: calc(env(safe-area-inset-top) + 8px) 12px 8px; align-items: center; background: linear-gradient(rgba(0,0,0,.5), transparent);
+      -webkit-backdrop-filter: none; backdrop-filter: none; border: 0; }
+    .leaflet-popup.card .pop .pnav button { width: 44px; height: 44px; border-radius: 22px; background: rgba(20,20,26,.55); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); color: #fff; }
+    .leaflet-popup.card .pop .pnav .spotnum { background: rgba(20,20,26,.55); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); color: #e4e4e7; padding: 6px 12px; border-radius: 999px; }
+    .leaflet-popup.card .pop .hero img { height: 66vh; height: 66svh; aspect-ratio: auto; object-fit: cover; }
+    .leaflet-popup.card .pop .hero .pcount, .leaflet-popup.card .pop .hero .parrows { display: none; }
+    .leaflet-popup.card .pop .hero::after { height: 45%; }
+    .leaflet-popup.card .pop .pbars { position: absolute; left: 12px; right: 12px; top: calc(env(safe-area-inset-top) + 64px); display: flex; gap: 4px; z-index: 3; pointer-events: none; }
+    .leaflet-popup.card .pop .pbars i { flex: 1; height: 3px; border-radius: 2px; background: rgba(255,255,255,.35); }
+    .leaflet-popup.card .pop .pbars i.on { background: #fff; }
+    .leaflet-popup.card .pop .credit { position: relative; margin-top: -26px; z-index: 2; }
+    .leaflet-popup.card .pop .b { padding-bottom: calc(env(safe-area-inset-bottom) + 24px); }
+    .leaflet-popup.card .pop .pfav { top: calc(env(safe-area-inset-top) + 76px); }
+  }
+  .pop .pbars { display: none; }
+  @media (max-width: 799px) { .leaflet-popup.card .pop .pbars { display: flex; } }
 </style>
 </head>
 <body>
@@ -595,6 +640,14 @@
   <button class="where" id="whereBtn" type="button" aria-label="Bereich wählen"><span id="whereLbl">🧭 Route</span></button>
   <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-nltop>📍 Ohne Ort</button>
 </div>
+<div id="dockbg"></div>
+<nav id="dock" aria-label="Bereiche">
+  <button data-d="map" class="on" aria-label="Karte" title="Karte"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></button>
+  <button data-d="plan" aria-label="Reiseplan" title="Reiseplan"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></button>
+  <button data-d="tours" aria-label="Touren" title="Touren"><svg viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.5"/></svg></button>
+  <button data-d="insp" aria-label="Inspiration" title="Inspiration"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg></button>
+  <button data-d="fav" aria-label="Merkliste" title="Merkliste (Favoriten)"><svg viewBox="0 0 24 24"><path d="M12 21C5 15.5 3 12.5 3 9a4.5 4.5 0 0 1 9-1 4.5 4.5 0 0 1 9 1c0 3.5-2 6.5-9 12z"/></svg></button>
+</nav>
 <button id="itinBtn" class="fab" title="Reiseplan" aria-label="Reiseplan" hidden>📅</button>
 <button id="tourBtn" class="fab" title="Touren" aria-label="Touren" hidden>🧭</button>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
@@ -899,6 +952,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           data-cr="${esc(who(x))}" data-href="${esc(x.credit ? x.url : x.profile_url)}" data-post="${x.credit ? "" : esc(x.url)}">`).join("")}</div>`
           : `<img src="${esc(p.image)}" alt="" loading="lazy" data-lb="${Math.max(0, imgPosts.findIndex(x => x.image === p.image))}">`}
         <span class="pfav"${st(p.id).fav ? "" : " hidden"} title="Favorit">❤</span>
+        ${strip && imgPosts.length > 1 ? `<div class="pbars">${imgPosts.map((_, i) => `<i${i ? "" : ' class="on"'}></i>`).join("")}</div>` : ""}
         <span class="pcount" title="Fotos dieses Spots – seitlich wischen">📷 <b>1</b>/${imgPosts.length || 1}</span>
         ${strip && imgPosts.length > 1 ? `<span class="parrows"><button type="button" data-ph="-1" aria-label="Vorheriges Foto">‹</button><button type="button" data-ph="1" aria-label="Nächstes Foto">›</button></span>` : ""}
         ${onImg ? `<button class="side prev" data-go="-1" aria-label="Vorheriger Spot">‹</button><button class="side next" data-go="1" aria-label="Nächster Spot">›</button>` : ""}</div>` : ""}
@@ -1595,9 +1649,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (mobile()) {
       // feste Karte über der Karte: aus dem Karten-Pane lösen, damit Verschieben/Zoomen sie nicht bewegt
       const el = ev.popup.getElement();
-      document.documentElement.style.setProperty("--cardTop", sp.top + "px");
+      document.documentElement.style.setProperty("--cardTop", "0px");
       el.classList.add("card"); document.body.appendChild(el);
-      o.maxHeight = sp.maxH; ev.popup.update();
+      o.maxHeight = window.innerHeight; ev.popup.update();
       document.querySelectorAll(".leaflet-popup.ghost").forEach(g => setTimeout(() => g.remove(), 120));
       return;
     }
@@ -1651,6 +1705,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         const i = Math.max(0, Math.min(imgs.length - 1, Math.round(hs.scrollLeft / (hs.clientWidth || 1))));
         if (i === cur) return; cur = i; const im = imgs[i];
         if (pcb) pcb.textContent = i + 1;
+        el.querySelectorAll(".pbars i").forEach((b, k) => b.classList.toggle("on", k === i));
         if (pa.length) { pa[0].disabled = i === 0; pa[1].disabled = i === imgs.length - 1; }
         if (cred) cred.innerHTML = `Foto: <a href="${esc(im.dataset.href)}" target="_blank" rel="noopener">${esc(im.dataset.cr)}</a>` +
           (im.dataset.post ? ` · <a href="${esc(im.dataset.post)}" target="_blank" rel="noopener">Post ↗</a>` : "");
@@ -1948,6 +2003,33 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     }
   });
   drawItin(false);
+  // ---------- Symbolleiste unten
+  const DLG = { plan: "#itin", tours: "#toursDlg", insp: "#insp" };
+  const dockSync = () => {
+    const open = Object.keys(DLG).find(k => !$(DLG[k]).hidden);
+    $("#dock").querySelectorAll("button").forEach(b => {
+      const d = b.dataset.d;
+      b.classList.toggle("on", d === "fav" ? $("#fMore").value === "fav" : d === "map" ? !open : d === open);
+    });
+    $("#dock [data-d=plan]").classList.toggle("dot", !!itinShown);
+    $("#dock [data-d=tours]").classList.toggle("dot", !!activeTour);
+  };
+  $("#dock").addEventListener("click", e => {
+    const b = e.target.closest("button[data-d]"); if (!b) return; e.stopPropagation();
+    const d = b.dataset.d, wasOpen = DLG[d] && !$(DLG[d]).hidden;
+    Object.values(DLG).forEach(sel => { $(sel).hidden = true; });
+    map.closePopup();
+    if (d === "plan" && !wasOpen) itinBtn.onclick(e);
+    else if (d === "tours" && !wasOpen) openTours();
+    else if (d === "insp" && !wasOpen) openInsp();
+    else if (d === "fav") { const f = $("#fMore"); f.value = f.value === "fav" ? "" : "fav"; f.dispatchEvent(new Event("change"));
+      toast(f.value === "fav" ? "❤ Nur Merkliste (Favoriten)" : "Alle Spots", 1500); if (mobile()) setSnap("half"); }
+    dockSync();
+  });
+  // Fenster schließen sich auch über ✕ → Leiste nachziehen
+  new MutationObserver(dockSync).observe(document.body, { subtree: true, attributes: true, attributeFilter: ["hidden"] });
+  $("#fMore").addEventListener("change", dockSync);
+  dockSync();
   function lbOpen(p, i) { lb.list = spotImages(p); lb.name = p.name.replace(/\s[\u3000-\u9fff].*$/, ""); lb.el.hidden = false; lbShow(i); }
   const lbClose = () => { lb.el.hidden = true; $("#lbImg").src = ""; };
   $("#lbClose").onclick = lbClose;
