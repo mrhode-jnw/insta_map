@@ -2305,14 +2305,21 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     p.xlinks = ex.filter(x => x.type === "link");
     const m = markers.get(id); if (m && typeof iconFor === "function") { try { m.setIcon(iconFor(p)); } catch {} }
   }
+  // Eigene Fotos/Links laden: erst über die API (mit Token), sonst/bei Fehler direkt aus dem Repo; bei Fehlschlag erneut versuchen
+  let extrasTry = 0;
   async function loadExtras() {
-    try {
-      const token = store.get(TOKEN_KEY);
-      const d = token ? (await ghGet(token, EXTRAS_PATH, {})).list : await rawJson(EXTRAS_PATH, {});
-      spotExtras = d && typeof d === "object" && !Array.isArray(d) ? d : {};
-      Object.keys(spotExtras).forEach(applyExtras);
-    } catch (e) { console.warn("Spot-Extras:", e); }
+    let d = null;
+    const token = store.get(TOKEN_KEY);
+    if (token) { try { d = (await ghGet(token, EXTRAS_PATH, {})).list; } catch (e) { console.warn("Spot-Extras (API):", e); } }
+    if (!d) { try { d = await rawJson(EXTRAS_PATH, null); } catch (e) { console.warn("Spot-Extras (raw):", e); } }
+    if (!d) { if (++extrasTry < 6) setTimeout(loadExtras, 5000 * extrasTry); return; }
+    extrasTry = 0;
+    const old = Object.keys(spotExtras);
+    spotExtras = typeof d === "object" && !Array.isArray(d) ? d : {};
+    [...new Set([...old, ...Object.keys(spotExtras)])].forEach(applyExtras);
   }
+  // zurück in die App → eigene Fotos neu laden (z.B. von einem anderen Gerät hochgeladen)
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") loadExtras(); });
   // Foto verkleinern (max. 1600 px, JPEG) → Base64 ohne Präfix
   function shrink(file) {
     return new Promise((res, rej) => {
