@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Insta Map – Design-Entwurf</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  :root { --bg: #f2f2f5; --card: #fff; --ink: #111; --muted: #8a8a92; --line: #e6e6ea; --accent: #f26b1d; --accent2: #ffe8d9;
+    --green: #3bb273; --tile: #e9e9ee; --r: 18px; --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #d9d9de; font-family: var(--font); color: var(--ink); display: flex; gap: 40px; padding: 40px; flex-wrap: wrap; }
+  .phone { width: 390px; height: 844px; border-radius: 46px; overflow: hidden; position: relative; background: var(--bg); box-shadow: 0 30px 60px rgba(0,0,0,.25); flex: none; }
+  .status { position: absolute; top: 0; left: 0; right: 0; height: 47px; display: flex; justify-content: space-between; align-items: center; padding: 6px 30px 0; font-weight: 600; font-size: 16px; z-index: 50; }
+  .status.light { color: #fff; }
+  /* ---------- 1: Karte ---------- */
+  .map { position: absolute; inset: 0; z-index: 0; }
+  .topbar { position: absolute; top: 54px; left: 12px; right: 12px; z-index: 30; height: 58px; border-radius: 22px; background: rgba(246,246,243,.92);
+    backdrop-filter: blur(14px); box-shadow: 0 6px 20px rgba(0,0,0,.12); display: flex; align-items: center; padding: 0 10px 0 18px; gap: 6px; }
+  .topbar .t { font-size: 22px; font-weight: 800; letter-spacing: -.4px; }
+  .pill { background: var(--accent); color: #fff; border-radius: 999px; padding: 6px 12px; font-weight: 700; font-size: 17px; display: inline-flex; gap: 4px; align-items: center; }
+  .topbar .sp { flex: 1; }
+  .ib { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 12px; }
+  .ib svg { width: 24px; height: 24px; stroke: var(--ink); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .count { position: absolute; top: 124px; left: 18px; z-index: 30; font-weight: 800; font-size: 20px; text-shadow: 0 1px 0 #fff, 0 0 8px #fff; }
+  .mapbtn { position: absolute; top: 124px; right: 14px; z-index: 30; width: 46px; height: 40px; border-radius: 12px; background: rgba(255,255,255,.95); display: grid; place-items: center; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+  .pin { width: 42px; height: 42px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); display: grid; place-items: center; box-shadow: 0 3px 8px rgba(0,0,0,.35); border: 2.5px solid #fff; }
+  .pin > * { transform: rotate(45deg); }
+  .pin.ig { background: #c2662d; } .pin.ig.top { background: var(--accent); } .pin.cl { background: #6d4bd8; } .pin.plan { background: #111; } .pin.hotel { background: #0f766e; }
+  .pin svg { width: 20px; height: 20px; stroke: #fff; fill: none; stroke-width: 2; }
+  .pin.photo { border-radius: 50% 50% 50% 0; overflow: hidden; padding: 0; width: 52px; height: 52px; border-width: 3px; }
+  .pin.photo img { width: 140%; height: 140%; object-fit: cover; }
+  .me { width: 22px; height: 22px; border-radius: 50%; background: #2f6bff; border: 4px solid #fff; box-shadow: 0 0 0 10px rgba(47,107,255,.18), 0 2px 6px rgba(0,0,0,.3); }
+  .sheet { position: absolute; left: 0; right: 0; bottom: 0; top: 470px; z-index: 35; background: var(--bg); border-radius: 22px 22px 0 0; box-shadow: 0 -6px 24px rgba(0,0,0,.12); overflow: hidden; }
+  .handle { width: 40px; height: 5px; border-radius: 3px; background: #c9c9cf; margin: 8px auto 6px; }
+  .chips { display: flex; gap: 8px; padding: 4px 12px 10px; overflow: hidden; }
+  .chip { flex: none; padding: 8px 14px; border-radius: 999px; background: #fff; font-weight: 600; font-size: 14.5px; border: 1px solid var(--line); display: inline-flex; gap: 6px; align-items: center; }
+  .chip.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px; }
+  .grid .g { position: relative; aspect-ratio: 1; overflow: hidden; background: #ccc; }
+  .grid img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .grid .d { position: absolute; left: 8px; bottom: 6px; color: #fff; font-weight: 700; font-size: 15px; text-shadow: 0 1px 6px rgba(0,0,0,.6); }
+  .grid .tag { position: absolute; right: 6px; top: 6px; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 999px; background: rgba(0,0,0,.45); color: #fff; backdrop-filter: blur(4px); }
+  .grid .tag.plan { background: var(--accent); }
+  .tabbar { position: absolute; left: 12px; right: 86px; bottom: 26px; z-index: 40; height: 74px; border-radius: 38px; background: rgba(240,240,236,.88); backdrop-filter: blur(16px);
+    box-shadow: 0 8px 26px rgba(0,0,0,.18); display: flex; align-items: center; justify-content: space-around; padding: 0 6px; }
+  .tab { display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 11.5px; font-weight: 600; color: #555; padding: 7px 8px; border-radius: 30px; }
+  .tab svg { width: 26px; height: 26px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .tab.on { color: var(--accent); border: 2px solid var(--accent); background: rgba(242,107,29,.08); }
+  .fabsearch { position: absolute; right: 12px; bottom: 26px; z-index: 40; width: 66px; height: 74px; border-radius: 38px; background: rgba(240,240,236,.88); backdrop-filter: blur(16px); box-shadow: 0 8px 26px rgba(0,0,0,.18); display: grid; place-items: center; }
+  /* ---------- 2: Spot ---------- */
+  .scroll { position: absolute; inset: 0; overflow: hidden; }
+  .hero { position: relative; height: 470px; background: #000; }
+  .hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .ov { position: absolute; width: 44px; height: 44px; border-radius: 50%; background: rgba(0,0,0,.35); backdrop-filter: blur(8px); display: grid; place-items: center; }
+  .ov svg { width: 22px; height: 22px; stroke: #fff; fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+  .ovt { position: absolute; top: 58px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,.35); backdrop-filter: blur(8px); color: #fff; font-weight: 600; padding: 6px 12px; border-radius: 999px; font-size: 15px; }
+  .author { position: absolute; left: 12px; bottom: 14px; display: flex; align-items: center; gap: 8px; color: #fff; font-weight: 600; font-size: 15px; text-shadow: 0 1px 6px rgba(0,0,0,.6); }
+  .author i { width: 34px; height: 34px; border-radius: 50%; border: 2px solid #fff; background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af); display: grid; place-items: center; font-style: normal; font-size: 15px; }
+  .dots { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; gap: 5px; }
+  .dots b { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,.55); } .dots b.on { background: #fff; width: 18px; border-radius: 3px; }
+  .body { padding: 18px 20px; }
+  .region { color: var(--accent); font-weight: 600; font-size: 17px; }
+  h1 { margin: 2px 0 8px; font-size: 30px; letter-spacing: -.6px; line-height: 1.1; }
+  .meta { display: flex; gap: 14px; color: var(--muted); font-size: 15px; align-items: center; flex-wrap: wrap; }
+  .meta span { display: inline-flex; gap: 5px; align-items: center; }
+  .meta svg { width: 18px; height: 18px; stroke: var(--muted); fill: none; stroke-width: 1.8; }
+  .acts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 16px 0 14px; }
+  .act { background: var(--tile); border-radius: 14px; padding: 12px 4px 10px; display: flex; flex-direction: column; align-items: center; gap: 6px; font-weight: 600; font-size: 13.5px; }
+  .act svg { width: 24px; height: 24px; stroke: var(--ink); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .act.on { background: var(--green); color: #fff; } .act.on svg { stroke: #fff; fill: #fff; }
+  .desc { font-size: 16.5px; line-height: 1.45; margin: 0 0 4px; }
+  .rows { background: #fff; margin: 14px -20px 0; }
+  .row { display: flex; gap: 16px; padding: 12px 20px; align-items: center; }
+  .row + .row > div { border-top: 1px solid var(--line); }
+  .row > svg { width: 30px; height: 30px; stroke: #8a8a92; fill: none; stroke-width: 1.5; flex: none; }
+  .row > div { flex: 1; padding-top: 4px; }
+  .row b { display: block; font-size: 16.5px; font-weight: 600; } .row small { font-size: 15.5px; color: var(--muted); }
+  .row small.o { color: var(--accent); }
+  /* ---------- 3: Reiseplan ---------- */
+  .ph { padding: 58px 20px 6px; }
+  .ph .back { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .ph h2 { font-size: 32px; margin: 0; letter-spacing: -.7px; }
+  .days { display: flex; gap: 8px; padding: 12px 20px 10px; overflow: hidden; }
+  .day { flex: none; width: 54px; padding: 8px 0; border-radius: 16px; text-align: center; background: #fff; font-size: 12.5px; color: var(--muted); font-weight: 600; }
+  .day b { display: block; font-size: 20px; color: var(--ink); }
+  .day.on { background: var(--ink); color: #ccc; } .day.on b { color: #fff; }
+  .seg { display: flex; margin: 4px 20px 12px; background: var(--tile); border-radius: 12px; padding: 3px; }
+  .seg span { flex: 1; text-align: center; padding: 8px; border-radius: 10px; font-weight: 600; font-size: 14px; color: #555; }
+  .seg span.on { background: #fff; color: var(--ink); box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+  .sun { margin: 0 20px 14px; background: #fff; border-radius: var(--r); padding: 14px 16px; display: flex; justify-content: space-between; }
+  .sun div { font-size: 13px; color: var(--muted); font-weight: 600; } .sun b { display: block; font-size: 19px; color: var(--ink); margin-top: 2px; }
+  .tl { padding: 0 20px; }
+  .tc { display: grid; grid-template-columns: 52px 1fr; gap: 10px; margin-bottom: 12px; }
+  .tc .tm { font-weight: 800; font-size: 16px; padding-top: 10px; } .tc .tm small { display: block; color: var(--muted); font-weight: 600; font-size: 12.5px; }
+  .card { background: #fff; border-radius: var(--r); overflow: hidden; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+  .card .im { height: 150px; position: relative; } .card .im img { width: 100%; height: 100%; object-fit: cover; }
+  .card .im .badge { position: absolute; left: 10px; top: 10px; }
+  .badge { font-size: 12px; font-weight: 700; padding: 4px 9px; border-radius: 999px; background: rgba(255,255,255,.92); }
+  .badge.plan { background: var(--accent); color: #fff; } .badge.light { background: #fff1e6; color: #b4470f; }
+  .card .cb { padding: 11px 13px 13px; } .card h3 { margin: 0 0 6px; font-size: 18px; letter-spacing: -.2px; }
+  .card p { margin: 6px 0 0; font-size: 14.5px; color: #444; line-height: 1.4; }
+  .leg { display: flex; gap: 8px; align-items: center; margin: -4px 0 10px 62px; color: var(--muted); font-size: 13.5px; font-weight: 600; }
+  .leg i { width: 2px; height: 22px; background: repeating-linear-gradient(#c5c5cc 0 4px, transparent 4px 8px); }
+  .cap { font: 700 15px var(--font); text-align: center; margin: 10px 0 0; color: #333; width: 390px; }
+</style></head><body>
+
+<!-- 1: Karte + Bilderraster -->
+<div>
+<div class="phone" id="p1">
+  <div class="status"><span>07:37</span><span>4G ▮</span></div>
+  <div class="map" id="map"></div>
+  <div class="topbar"><span class="t">Yangshuo</span><span class="pill">Fotos ▾</span><span class="sp"></span>
+    <span class="ib"><svg viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg></span>
+    <span class="ib"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7.4L12 17l-6.3 4.4L8 14 2 9.4h7.6z"/></svg></span></div>
+  <div class="count">27 Spots</div>
+  <div class="mapbtn"><svg viewBox="0 0 24 24" width="22" height="22" stroke="#111" fill="none" stroke-width="2"><path d="M9 4l-6 2v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg></div>
+  <div class="sheet"><div class="handle"></div>
+    <div class="chips"><span class="chip on">📷 Fotos 27</span><span class="chip">✦ Tipps 14</span><span class="chip">📅 Reiseplan</span><span class="chip">❤ Gemerkt</span></div>
+    <div class="grid">
+      <div class="g"><img src="../images/damian_1.jpg"><span class="tag plan">Fr 6:10</span><span class="d">0,3 km</span></div>
+      <div class="g"><img src="../images/Dcym0q6DYf9_1.jpg"><span class="tag plan">Sa 18:00</span><span class="d">2,2 km</span></div>
+      <div class="g"><img src="../images/xianggong_trip_1.jpg"><span class="tag plan">So 6:20</span><span class="d">2,3 km</span></div>
+      <div class="g"><img src="../images/CnP00gIqiUr_1.jpg"><span class="d">2,4 km</span></div>
+      <div class="g"><img src="../images/DdA4hImlOyb.jpg"><span class="d">2,9 km</span></div>
+      <div class="g"><img src="../images/yulong_trip_1.jpg"><span class="d">3,5 km</span></div>
+    </div></div>
+  <div class="tabbar">
+    <span class="tab on"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Karte</span>
+    <span class="tab"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Reiseplan</span>
+    <span class="tab"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg>Inspiration</span>
+    <span class="tab"><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>Gemerkt</span>
+  </div>
+  <div class="fabsearch"><svg viewBox="0 0 24 24" width="28" height="28" stroke="#111" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></div>
+</div><p class="cap">1 · Karte: Pins als Kamera/Foto, Bilderraster mit Entfernung</p></div>
+
+<!-- 2: Spot-Detail -->
+<div>
+<div class="phone">
+  <div class="status light"><span>07:37</span><span>4G ▮</span></div>
+  <div class="scroll">
+    <div class="hero"><img src="../images/damian_1.jpg">
+      <span class="ov" style="top:52px;left:14px"><svg viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+      <span class="ovt">1/8</span>
+      <span class="ov" style="top:52px;right:66px"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/></svg></span>
+      <span class="ov" style="top:52px;right:14px"><svg viewBox="0 0 24 24"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg></span>
+      <span class="author"><i>📷</i>Fabio Nodari</span>
+      <span class="dots"><b class="on"></b><b></b><b></b><b></b><b></b></span>
+      <span class="ov" style="bottom:12px;right:14px;width:auto;padding:0 12px;border-radius:999px;color:#fff;font-weight:700;gap:6px;display:flex;align-items:center">★ Plan</span>
+    </div>
+    <div class="body">
+      <div class="region">Xingping · Guangxi</div>
+      <h1>Damian Hill</h1>
+      <div class="meta"><span><svg viewBox="0 0 24 24"><path d="M3 20l6-10 4 6 3-4 5 8z"/></svg>Aussicht</span><span>🔥 4</span><span><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/></svg>2,3 km</span><span>24.910 · 110.496</span></div>
+      <div class="acts">
+        <div class="act on"><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>Gemerkt</div>
+        <div class="act"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>Fotografiert</div>
+        <div class="act"><svg viewBox="0 0 24 24"><path d="M3 11l18-8-8 18-2-8z"/></svg>Navigieren</div>
+        <div class="act"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Reiseplan</div>
+      </div>
+      <p class="desc">Blick von oben auf die fast 180°-Schleife des Li River – „Li River First Bend“. Aufstieg ab Dahebei 40–50 Min.</p>
+      <div class="rows">
+        <div class="row"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2"/></svg><div><b>Bestes Licht</b><small>Sonnenaufgang 6:36 · 🌅 Osten</small></div></div>
+        <div class="row"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18"/></svg><div><b>Im Reiseplan</b><small class="o">Fr 16.10. · 6:10–7:30</small></div></div>
+        <div class="row"><svg viewBox="0 0 24 24"><path d="M4 20l5-9 4 5 3-3 4 7z"/></svg><div><b>Weg</b><small>~1.250 Stufen · Weggebühr ca. 20 CNY</small></div></div>
+      </div>
+    </div>
+  </div>
+</div><p class="cap">2 · Spot: Vollbild-Foto, große Aktionen, Info-Zeilen</p></div>
+
+<!-- 3: Reiseplan -->
+<div>
+<div class="phone">
+  <div class="status"><span>07:37</span><span>4G ▮</span></div>
+  <div class="ph"><h2>Reiseplan</h2></div>
+  <div class="days"><div class="day">Do<b>15</b></div><div class="day on">Fr<b>16</b></div><div class="day">Sa<b>17</b></div><div class="day">So<b>18</b></div><div class="day">Mo<b>19</b></div><div class="day">Di<b>20</b></div></div>
+  <div class="seg"><span class="on">★ Reiseplan</span><span>＋ Optionale Spots</span></div>
+  <div class="sun"><div>Aufgang<b>6:36</b></div><div>Untergang<b>18:11</b></div><div>Blaue Std.<b>18:34</b></div><div>Wetter<b>☁ 23°</b></div></div>
+  <div class="tl">
+    <div class="tc"><div class="tm">5:30</div><div class="card"><div class="cb" style="display:flex;gap:10px;align-items:center"><span style="font-size:24px">🏨</span><div><h3 style="margin:0">Secret Glen Hotel</h3><p style="margin:2px 0 0">Abfahrt</p></div></div></div></div>
+    <div class="leg"><i></i>🚗 40 Min · 26 km</div>
+    <div class="tc"><div class="tm">6:10<small>bis 7:30</small></div><div class="card"><div class="im"><img src="../images/damian_2.jpg"><span class="badge plan">★ Plan</span></div>
+      <div class="cb"><h3>Damian Hill</h3><span class="badge light">🌅 Sonnenaufgang</span><p>Aufstieg ab Dahebei 40–50 Min., Stirnlampe.</p></div></div></div>
+    <div class="leg"><i></i>🚗 nach Wahl des Fahrers</div>
+    <div class="tc"><div class="tm">vorm.</div><div class="card"><div class="cb"><h3>🐃 Dorf eines Büffelbauern</h3><p>Den Ort legt der Fahrer fest.</p></div></div></div>
+  </div>
+</div><p class="cap">3 · Reiseplan: Tage oben, Zeitleiste mit Fotokarten</p></div>
+
+<script>
+  const m = L.map("map", { zoomControl: false, attributionControl: false }).setView([24.875, 110.47], 11);
+  L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}", {}).addTo(m);
+  const cam = '<svg viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>';
+  const pin = (ll, cls, html, s = 42) => L.marker(ll, { icon: L.divIcon({ className: "", iconSize: [s, s], iconAnchor: [s / 2, s], html: `<div class="pin ${cls}">${html}</div>` }) }).addTo(m);
+  pin([24.90988, 110.4958], "photo", '<img src="../images/damian_1.jpg">', 52);
+  pin([24.937357, 110.476192], "photo", '<img src="../images/xianggong_trip_1.jpg">', 52);
+  pin([24.911, 110.502], "ig top", cam); pin([24.89286, 110.36854], "ig", cam); pin([24.863, 110.4872], "ig", cam);
+  pin([24.780498, 110.426969], "ig", cam); pin([24.9558, 110.4742], "ig", cam); pin([24.916848, 110.403064], "ig", cam);
+  pin([24.7281, 110.4677], "cl", '<b style="color:#fff">✦</b>'); pin([24.91912, 110.52361], "cl", '<b style="color:#fff">✦</b>'); pin([24.8121, 110.3939], "cl", '<b style="color:#fff">✦</b>');
+  pin([24.7738, 110.4639], "hotel", '<b style="color:#fff">⌂</b>');
+  L.marker([24.80, 110.45], { icon: L.divIcon({ className: "", iconSize: [22, 22], html: '<div class="me"></div>' }) }).addTo(m);
+</script>
+</body></html>
