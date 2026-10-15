@@ -5813,7 +5813,7 @@ window.PLACES_CN = [
  {
   "id": "claude-cn-cuiping-hill",
   "region": "cn",
-  "by_claude": true,
+  "by_claude": false,
   "name": "Cuiping Hill 翠屏山",
   "district": "Putao, Yangshuo, Guangxi",
   "category": "Aussicht",
@@ -5828,7 +5828,44 @@ window.PLACES_CN = [
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/",
+    "kind": "photo",
+    "image": "images/CnP00gIqiUr_1.jpg",
+    "caption": "",
+    "credit": "@czech.adventurer · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/?img_index=2",
+    "kind": "photo",
+    "image": "images/CnP00gIqiUr_2.jpg",
+    "caption": "",
+    "credit": "@czech.adventurer · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/?img_index=3",
+    "username": "",
+    "profile_url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/?img_index=3",
+    "kind": "photo",
+    "image": "images/CnP00gIqiUr_3.jpg",
+    "caption": "",
+    "credit": "@czech.adventurer · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/?img_index=4",
+    "username": "",
+    "profile_url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/?img_index=4",
+    "kind": "photo",
+    "image": "images/CnP00gIqiUr_4.jpg",
+    "caption": "",
+    "credit": "@czech.adventurer · Instagram"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Sonnenuntergang über ein Meer aus Karstkegeln, Dörfern und Feldern",
   "image_page": "https://commons.wikimedia.org/wiki/File:1_pano_cuiping_yangshuo_2016.jpg",
