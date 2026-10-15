@@ -3,15 +3,15 @@
  "days": [
   {
    "date": "2026-10-15",
-   "title": "Ankunft · Tianxin & Wulongquan",
+   "title": "Abholung · Sonnenuntergang Wuzhi Hill",
    "status": "fest",
    "items": [
     {
      "type": "info",
      "t": "14:16",
      "icon": "🚄",
-     "title": "Ankunft Guilin West",
-     "text": "Zug G908. Fahrer wartet am Ausgang.",
+     "title": "Abholung Guilin West",
+     "text": "Zug G908, der Fahrer holt euch ab.",
      "lat": 25.3562,
      "lng": 110.2549,
      "plan": true
@@ -22,12 +22,12 @@
     },
     {
      "type": "stop",
-     "t": "15:15–16:15",
+     "t": "15:15–16:00",
      "spot": "cn-tianxin-village-zhuangyuan-brcke",
-     "plan": true,
+     "opt": true,
      "light": "day",
-     "lightText": "Nachmittag, ab 16 Uhr weicheres Seitenlicht",
-     "text": "Büffel auf der alten Zhuangyuan-Steinbrücke – das Motiv aus deinem Instagram-Post."
+     "lightText": "Nachmittag",
+     "text": "Liegt auf dem Weg: Büffel auf der alten Zhuangyuan-Steinbrücke."
     },
     {
      "type": "move",
@@ -35,12 +35,12 @@
     },
     {
      "type": "stop",
-     "t": "17:20–18:30",
-     "spot": "cn-wulongquan-sunset-viewpoint",
+     "t": "17:00–18:30",
+     "spot": "claude-cn-cuiping-hill",
      "plan": true,
      "light": "sunset",
      "lightText": "Sonnenuntergang",
-     "text": "Aussichtspunkt direkt an der Straße, kein Aufstieg."
+     "text": "Wuzhi Hill (五指山, „Fünf-Finger-Berg“) bei Cuiping: ca. 15–20 Min. Aufstieg, Aussichtsplattform (ca. 50 CNY). Stirnlampe für den Rückweg."
     },
     {
      "type": "move",
@@ -49,13 +49,13 @@
     {
      "type": "hotel",
      "name": "The Secret Glen Hotel",
-     "t": "~19:00"
+     "t": "~19:15"
     }
    ]
   },
   {
    "date": "2026-10-16",
-   "title": "Damian Hill · Pause · Cuiping",
+   "title": "Damian Hill · Büffelbauern-Dorf · Sonnenuntergang über Karst & Reisfeldern",
    "status": "fest",
    "items": [
     {
@@ -79,101 +79,102 @@
     },
     {
      "type": "move",
-     "mode": "car"
+     "mode": "car",
+     "opt": true
     },
     {
      "type": "stop",
      "t": "8:00–9:00",
      "spot": "claude-cn-xingping-ancient-town",
+     "opt": true,
      "light": "golden",
      "lightText": "Morgenlicht",
-     "text": "Frühstück, Gassen am Fluss.",
-     "opt": true
+     "text": "Frühstück, Gassen am Fluss."
     },
     {
      "type": "move",
      "mode": "walk",
      "min": 15,
-     "text": "zu Fuß vom Anleger"
-    },
-    {
-     "type": "stop",
-     "t": "9:00–10:00",
-     "spot": "claude-cn-20-yuan-schein-motiv-yellow-cloth-shoal",
-     "light": "day",
-     "lightText": "Vormittag",
-     "text": "Bei Windstille Spiegelung der Karstkegel im Li River.",
      "opt": true
     },
     {
-     "type": "move",
-     "mode": "car"
+     "type": "stop",
+     "t": "9:00–9:45",
+     "spot": "claude-cn-20-yuan-schein-motiv-yellow-cloth-shoal",
+     "opt": true,
+     "light": "day",
+     "lightText": "Vormittag",
+     "text": "Bei Windstille Spiegelung der Karstkegel."
     },
     {
      "type": "info",
-     "t": "11:00–15:00",
+     "t": "vormittags",
+     "icon": "🐃",
+     "title": "Dorf eines Büffelbauern",
+     "plan": true,
+     "light": "day",
+     "lightText": "Vormittag",
+     "text": "Laut Reiseplan – den Ort legt der Fahrer fest."
+    },
+    {
+     "type": "info",
+     "t": "mittags",
      "icon": "🛏",
      "title": "Pause im Hotel",
      "light": "midday",
      "lightText": "Mittagslicht – nicht fotografieren",
-     "plan": true,
      "lat": 24.7738,
      "lng": 110.4639
     },
     {
      "type": "move",
-     "mode": "car"
+     "mode": "car",
+     "opt": true
     },
     {
      "type": "stop",
      "t": "15:30–16:15",
      "spot": "cn-yangshuo-karstlandschaft",
+     "opt": true,
      "light": "day",
      "lightText": "Nachmittag, Seitenlicht",
-     "text": "Karstkegel in Schichten mit dem 70-200 komprimieren. Pin ungefähr.",
-     "opt": true
+     "text": "Karstkegel in Schichten mit dem 70-200. Pin ungefähr."
     },
     {
-     "type": "move",
-     "mode": "car"
-    },
-    {
-     "type": "stop",
+     "type": "info",
      "t": "17:00–18:30",
-     "spot": "claude-cn-cuiping-hill",
+     "icon": "🌄",
+     "title": "Sonnenuntergang über Karstbergen und Reisfeldern",
      "plan": true,
      "light": "sunset",
      "lightText": "Sonnenuntergang",
-     "text": "Steiler Aufstieg ca. 20 Min., Stirnlampe für den Rückweg."
-    },
-    {
-     "type": "move",
-     "mode": "car"
+     "text": "Laut Reiseplan – den Ort legt der Fahrer fest."
     },
     {
      "type": "stop",
-     "t": "19:20–20:00",
+     "t": "19:15–20:00",
      "spot": "claude-cn-west-street-yangshuo",
+     "opt": true,
      "light": "night",
      "lightText": "Nacht, Laternen",
-     "text": "Laternen und Leuchtreklamen vor den Karstbergen. Stativ, Langzeitbelichtung verwischt die Leute.",
-     "opt": true
+     "text": "Laternen und Leuchtreklamen vor den Karstbergen."
     },
     {
      "type": "move",
-     "mode": "car"
+     "mode": "car",
+     "opt": true
     },
     {
      "type": "hotel",
      "name": "The Secret Glen Hotel",
      "t": "~20:15",
-     "tCore": "~19:15"
+     "tCore": "~19:00"
     }
    ]
   },
   {
    "date": "2026-10-17",
-   "title": "Kormoranfischer Xialong · Yulong River · Luoshi-Berg",
+   "title": "Kormoranfischer · Yulong River · Kormoranfischer am Abend",
    "status": "fest",
    "items": [
     {
@@ -193,7 +194,7 @@
      "plan": true,
      "light": "dawn",
      "lightText": "Dämmerung → Sonnenaufgang",
-     "text": "Kormoranfischer mit Laterne auf dem Bambusfloß. Pin geschätzt – Fahrer kennt den Platz."
+     "text": "Sonnenaufgang mit Kormoranfischer. Ort laut früherem Plan Xialong – Pin geschätzt, der Fahrer kennt den Platz."
     },
     {
      "type": "move",
@@ -273,7 +274,7 @@
      "plan": true,
      "light": "blue",
      "lightText": "Sonnenuntergang → blaue Stunde",
-     "text": "Kormoranfischer mit Laterne in der Dämmerung – das Motiv deines Instagram-Spots „Xingping Kormoranfischer“. Pin geschätzt."
+     "text": "Kormoranfischer am Abend an einem anderen Ort – laut früherem Plan am Luoshi-Berg. Pin geschätzt."
     },
     {
      "type": "move",
@@ -302,7 +303,7 @@
   },
   {
    "date": "2026-10-18",
-   "title": "Xianggong · Dazhai · Ping'an",
+   "title": "Xianggong · Longji: Dazhai · Sonnenuntergang Ping'an",
    "status": "fest",
    "items": [
     {
@@ -430,7 +431,8 @@
      "icon": "🚗",
      "title": "Abfahrt nach Guizhou",
      "lat": 25.7585,
-     "lng": 110.1198
+     "lng": 110.1198,
+     "text": "Nach dem Frühstück – mit dem selbst organisierten Fahrer."
     },
     {
      "type": "move",
