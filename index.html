@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-<meta name="theme-color" content="#0d0d10">
+<meta name="theme-color" content="#0d0d10" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f4f4f6" media="(prefers-color-scheme: light)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -483,7 +484,7 @@
   /* ================= Design B „Nacht“: dunkel, Glas, Fotos im Vordergrund ================= */
   :root { --bg: #0d0d10; --card: #17171c; --fg: #f4f4f6; --muted: #a1a1aa; --line: rgba(255,255,255,.09);
     --glass: rgba(22,22,28,.72); --glassb: rgba(255,255,255,.08); --soft: rgba(255,255,255,.07); --accent: #e1306c; --me: #3b82f6;
-    --shadow: 0 10px 30px rgba(0,0,0,.45); color-scheme: dark; }
+    --panel: rgb(22,22,28); --shadow: 0 10px 30px rgba(0,0,0,.45); color-scheme: dark; }
   html, body { background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, "Segoe UI", Roboto, sans-serif; }
   #group, .fab, #sheet, .leaflet-control-zoom, .leaflet-control-layers, #toast, #update {
     background: var(--glass) !important; -webkit-backdrop-filter: blur(18px) saturate(1.4); backdrop-filter: blur(18px) saturate(1.4);
@@ -518,7 +519,7 @@
   .leaflet-control-layers-expanded { color: var(--fg); }
   .leaflet-control-attribution { background: rgba(0,0,0,.4) !important; color: #888 !important; } .leaflet-control-attribution a { color: #aaa !important; }
   /* OpenStreetMap dunkel einfärben (Satellit bleibt natürlich) */
-  #map.dark-osm .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.92) contrast(.88) saturate(.5); }
+  @media (prefers-color-scheme: dark) { #map.dark-osm .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.92) contrast(.88) saturate(.5); } }
   /* Pins: Foto-Kacheln; Reiseplan-Stopps pink mit Uhrzeit */
   .pin { width: 40px; height: 40px; border-radius: 12px; border: 2px solid #fff; box-shadow: 0 6px 14px rgba(0,0,0,.55); background-color: #2a2a31; position: relative; }
   .pin.plan { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(225,48,108,.4), 0 6px 14px rgba(0,0,0,.55); }
@@ -533,7 +534,7 @@
   /* Spot-Karte */
   .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card) !important; color: var(--fg) !important; }
   .leaflet-popup-content-wrapper { border-radius: 24px; box-shadow: 0 18px 50px rgba(0,0,0,.6); }
-  .pop .pnav { background: rgba(23,23,28,.82); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+  .pop .pnav { background: var(--glass); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
   .pop .pnav button { background: var(--soft); border: 0; color: var(--fg); border-radius: 14px; }
   .pop .pnav button.pclose { background: var(--soft); color: var(--fg); }
   .pop .pnav span, .pop .pnav .spotnum { color: var(--muted); }
@@ -578,11 +579,40 @@
   .tcard.on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
   #toast { border-radius: 14px; }
 
+
+  /* ---------- Hell (folgt automatisch der Systemeinstellung) ---------- */
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f4f4f6; --card: #ffffff; --fg: #111114; --muted: #6b6b74; --line: rgba(0,0,0,.08);
+      --glass: rgba(255,255,255,.8); --glassb: rgba(0,0,0,.07); --soft: rgba(0,0,0,.05); --panel: #ffffff;
+      --shadow: 0 10px 30px rgba(0,0,0,.14); color-scheme: light; }
+    .leaflet-container { background: #e9e9ec; }
+    #sheet { box-shadow: 0 -8px 30px rgba(0,0,0,.12); } #sheet .grip { background: #000; opacity: .2; }
+    .fab { box-shadow: 0 8px 22px rgba(0,0,0,.18); }
+    #dock { box-shadow: 0 10px 30px rgba(0,0,0,.15); }
+    #list .d { color: #2563eb; }
+    .pin { box-shadow: 0 6px 14px rgba(0,0,0,.3); }
+    .hotel-pin { background: #fff; color: #111; border-color: #0d9488; }
+    .tour-stop span { background: rgba(255,255,255,.95); color: #111; }
+    .leaflet-popup-content-wrapper { box-shadow: 0 18px 50px rgba(0,0,0,.22); }
+    .pop img, .galgrid figure { background: #e5e5ea; }
+    .pop .popularity { color: #b45309; }
+    .pop .links a.ig { color: #be185d !important; }
+    .pop .links button.del { color: #b91c1c !important; }
+    .pop .status button.fav.on { color: #e1306c; }
+    .pop .phototip { background: #ecfeff; color: #155e75; }
+    .pop .claude-note { background: #ede9fe; color: #5b21b6; }
+    .pop .unsure-note, .pop .approx { background: #fef3c7; color: #92400e; }
+    .pop .ok-note { background: #dcfce7; color: #166534; }
+    .pop .hero .pfav { background: rgba(255,255,255,.85); color: #e1306c; }
+    .b-plan { background: #fde7ef; color: #9d1747; } .b-ig { background: #fce7f3; color: #9d174d; }
+    .b-cl, .b-opt { background: #ede9fe; color: #5b21b6; } .b-hotel { background: #ccfbf1; color: #115e59; }
+    .leaflet-control-attribution { background: rgba(255,255,255,.7) !important; color: #666 !important; } .leaflet-control-attribution a { color: #444 !important; }
+  }
   /* ---------- Symbolleiste unten (Karte · Plan · Touren · Inspiration · Merkliste) ---------- */
   #dock { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 12px); z-index: 2700; height: 62px;
     border-radius: 31px; display: flex; gap: 2px; padding: 6px; background: var(--glass); -webkit-backdrop-filter: blur(18px) saturate(1.4);
     backdrop-filter: blur(18px) saturate(1.4); border: 1px solid var(--glassb); box-shadow: 0 10px 30px rgba(0,0,0,.5); }
-  #dock button { width: 56px; height: 50px; border-radius: 25px; border: 0; background: transparent; color: #a1a1aa; display: grid; place-items: center; cursor: pointer; padding: 0; }
+  #dock button { width: 56px; height: 50px; border-radius: 25px; border: 0; background: transparent; color: var(--muted); display: grid; place-items: center; cursor: pointer; padding: 0; }
   #dock button svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
   #dock button.on { background: var(--accent); color: #fff; }
   #dock button.dot { position: relative; } #dock button.dot::after { content: ""; position: absolute; top: 9px; right: 13px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
@@ -596,7 +626,7 @@
     #sheet { bottom: var(--dockH); padding-bottom: 0; height: calc(88svh - var(--dockH)); border-radius: 26px 26px 0 0; }
     #locate { bottom: calc(var(--dockH) + 86px); } #add { bottom: calc(var(--dockH) + 146px); }
     body.popup-open #dock, body.popup-open #dockbg { opacity: 0; pointer-events: none; }
-    #dockbg { position: fixed; left: 0; right: 0; bottom: 0; height: var(--dockH); z-index: 1002; background: rgb(22,22,28);
+    #dockbg { position: fixed; left: 0; right: 0; bottom: 0; height: var(--dockH); z-index: 1002; background: var(--panel);
       transition: opacity .18s ease; }
     #dock { transition: opacity .18s ease; }
   }
@@ -875,7 +905,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     loadScript(`https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(gKey)}&v=weekly&language=de`)
       .then(() => loadScript("https://cdn.jsdelivr.net/npm/leaflet.gridlayer.googlemutant@0.16.0/dist/Leaflet.GoogleMutant.js"))
       .then(() => {
-        layers["Google Karte"] = L.gridLayer.googleMutant({ type: "roadmap", maxZoom: 21, styles: GDARK });
+        layers["Google Karte"] = L.gridLayer.googleMutant({ type: "roadmap", maxZoom: 21, ...(matchMedia("(prefers-color-scheme: dark)").matches ? { styles: GDARK } : {}) });
         layers["Google Satellit"] = L.gridLayer.googleMutant({ type: "hybrid", maxZoom: 21 });
         layers["OpenStreetMap"] = osm;
         layers["Google Karte"].addTo(map);
