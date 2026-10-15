@@ -606,7 +606,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const activeTourIds = () => { const t = activeTour && tourById(activeTour); return t ? tourIds(t) : []; };
   // „← 11′ · 9′ →“: Weg vom vorigen und zum nächsten Stopp der aktiven Tour
   const legInfo = id => { const t = activeTour && tourById(activeTour), l = t && legsAround(t, id); if (!l) return "";
-    const f = (sg, n, dir) => sg ? `<span title="${dir} ${esc(n)}: ${sg.m >= 1000 ? (sg.m / 1000).toFixed(1) + " km" : sg.m + " m"}">${dir === "von" ? "← " : ""}${sg.mode === "walk" ? "🚶" : "🚕"}${sg.min}′${dir === "zu" ? " →" : ""}</span>` : "";
+    const f = (sg, n, dir) => sg ? `<span title="${dir} ${esc(n)}: ${sg.m >= 1000 ? (sg.m / 1000).toFixed(1) + " km" : sg.m + " m"}">${dir === "von" ? "← " : ""}${legIcon(sg)}${sg.min}′${dir === "zu" ? " →" : ""}</span>` : "";
     const a = f(l.prev, l.prevName, "von"), b = f(l.next, l.nextName, "zu");
     return a || b ? `<small class="legs">${[a, b].filter(Boolean).join(" · ")}</small>` : ""; };
   const navOrder = cur => { navFor = cur; const ti = activeTourIds(); if (ti.includes(cur)) return ti;
@@ -760,15 +760,19 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Spot-IDs einer Tour; feste Touren haben nur Koordinaten → nächster Spot im Umkreis von 40 m
   const tourIds = t => [...new Set(tourStops(t).map(st => st.id || (() => { let b = null, bd = 40;
     for (const p of places) { const d = dist(st, p); if (d < bd) { bd = d; b = p; } } return b && b.id; })()).filter(Boolean))];
-  const routeKey = stops => "L:" + stops.map(s => s.lat.toFixed(5) + "," + s.lng.toFixed(5)).join(";");  // L: = Fußweg je Etappe
   const meters = (a, b) => dist({ lat: a.lat, lng: a.lng }, { lat: b.lat, lng: b.lng });
+  // Stadt-Tour (alle Etappen ≤ 2,5 km Luftlinie) → zu Fuß; sonst (Land, Ausflüge) → Auto
+  const tourMode = stops => stops.every((s, i) => !i || meters(stops[i - 1], s) <= 2500) ? "walk" : "car";
+  const routeKey = stops => (tourMode(stops) === "walk" ? "L:" : "C:") + stops.map(s => s.lat.toFixed(5) + "," + s.lng.toFixed(5)).join(";");  // L: Fußweg, C: Auto je Etappe
+  const legIcon = sg => sg.mode === "walk" ? "🚶" : sg.mode === "car" ? "🚗" : "🚕";
   function tourStats(t) {
     const stops = tourStops(t);
     const segs = t.builtin ? t.segs : (tourRoutes[routeKey(stops)] || null);
-    if (segs) { const w = segs.filter(s => s.mode === "walk");
-      return { m: w.reduce((a, s) => a + (s.m || 0), 0), min: w.reduce((a, s) => a + (s.min || 0), 0), taxi: segs.length - w.length, exact: true }; }
+    const mode = t.builtin ? "walk" : tourMode(stops);
+    if (segs) { const w = segs.filter(s => s.mode === mode);
+      return { mode, m: w.reduce((a, s) => a + (s.m || 0), 0), min: w.reduce((a, s) => a + (s.min || 0), 0), taxi: segs.length - w.length, exact: true }; }
     let m = 0; for (let i = 1; i < stops.length; i++) m += meters(stops[i - 1], stops[i]);
-    return { m: m * 1.3, min: Math.round(m * 1.3 / 75), exact: false };
+    return { mode, m: m * 1.3, min: Math.round(m * 1.3 / (mode === "walk" ? 75 : 700)), exact: false };
   }
   const tb = $("#tourBtn"); tb.hidden = false; tb.title = "Touren";
   let tourLayer = null;
@@ -798,12 +802,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const segs = t.builtin ? t.segs : tourRoutes[routeKey(stops)];
     if (segs) segs.forEach(sg => parts.push(sg.mode === "walk"
       ? L.polyline(sg.path, { color: "#2563eb", weight: 5, opacity: .85, dashArray: "2 9", interactive: false })
+      : sg.mode === "car" ? L.polyline(sg.path, { color: "#2563eb", weight: 4, opacity: .75, interactive: false })
       : L.polyline(sg.path, { color: "#475569", weight: 4, opacity: .6, interactive: false })));
     else if (stops.length > 1) parts.push(L.polyline(stops.map(s => [s.lat, s.lng]), { color: "#2563eb", weight: 3, opacity: .6, dashArray: "6 8", interactive: false }));
     // Gehzeit je Etappe als kleines Schild in der Mitte des Wegs (nur bei aktiver Tour)
     if (segs) segs.forEach(sg => { const pt = midOf(sg.path); if (!pt || !sg.min) return;
       parts.push(L.marker(pt, { interactive: false, zIndexOffset: 1500, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
-        html: `<div class="leg-time${sg.mode === "walk" ? "" : " taxi"}">${sg.mode === "walk" ? "🚶" : "🚕"} ${sg.min}′</div>` }) })); });
+        html: `<div class="leg-time${sg.mode === "taxi" ? " taxi" : ""}">${legIcon(sg)} ${sg.min}′</div>` }) })); });
     stops.forEach(st => {
       if (st.view != null) parts.push(L.polyline([[st.lat, st.lng], ray([st.lat, st.lng], st.view, 30)], { color: "#2563eb", weight: 4, opacity: .95, interactive: false }));
       parts.push(L.marker([st.lat, st.lng], { interactive: false, zIndexOffset: 2000, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
@@ -812,14 +817,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     tourLayer = L.layerGroup(parts).addTo(map);
     if (!t.builtin && !segs && stops.length > 1) fetchWalk(stops).then(ok => { if (ok && activeTour === t.id) { drawTour(); if (!$("#toursDlg").hidden) renderTours(); } });
   }
-  async function fetchWalk(stops) {  // Fußweg über alle Stopps (OSRM, routing.openstreetmap.de); ohne Netz bleibt die Luftlinie
-    const key = routeKey(stops);
+  async function fetchWalk(stops) {  // Fuß- bzw. Autoweg über alle Stopps (OSRM, routing.openstreetmap.de); ohne Netz bleibt die Luftlinie
+    const key = routeKey(stops), mode = tourMode(stops);
     if (tourRoutes[key]) return true;
     try {
-      const r = await fetch(`https://routing.openstreetmap.de/routed-foot/route/v1/driving/${stops.map(s => s.lng + "," + s.lat).join(";")}?overview=false&steps=true&geometries=geojson`);
+      const r = await fetch(`https://routing.openstreetmap.de/routed-${mode === "walk" ? "foot" : "car"}/route/v1/driving/${stops.map(s => s.lng + "," + s.lat).join(";")}?overview=false&steps=true&geometries=geojson`);
       const j = await r.json(); const rt = j.routes && j.routes[0]; if (!rt) return false;
       // eine Etappe je Stopp-Paar, damit die Gehzeit zwischen zwei Spots auf der Karte stehen kann
-      tourRoutes[key] = rt.legs.map(l => ({ mode: "walk", m: Math.round(l.distance), min: Math.max(1, Math.round(l.duration / 60)),
+      tourRoutes[key] = rt.legs.map(l => ({ mode, m: Math.round(l.distance), min: Math.max(1, Math.round(l.duration / 60)),
         path: l.steps.flatMap(st => st.geometry.coordinates.map(c => [c[1], c[0]])) }));
       const keys = Object.keys(tourRoutes); if (keys.length > 30) delete tourRoutes[keys[0]];
       try { localStorage.setItem("tourRoutes", JSON.stringify(tourRoutes)); } catch {}
@@ -889,7 +894,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         return `<div class="tcard${on ? " on" : ""}" data-t="${esc(t.id)}">
           <div class="thead"><button class="teye" data-eye="${esc(t.id)}" title="Auf der Karte zeigen">${on ? "👁" : "◌"}</button>
             <div class="tname" data-open="${esc(t.id)}"><b>${esc(t.name)}</b>${t.builtin ? ' <small>vorbereitet</small>' : ""}<br>
-            <small>${stops.length} Stopps${stops.length > 1 ? ` · ${stt.exact ? "" : "ca. "}${(stt.m / 1000).toFixed(1)} km zu Fuß${stt.min ? ` (${stt.min} Min.)` : ""}${stt.taxi ? ` + ${stt.taxi}× Taxi` : ""}` : ""}</small></div>
+            <small>${stops.length} Stopps${stops.length > 1 ? ` · ${stt.exact ? "" : "ca. "}${(stt.m / 1000).toFixed(1)} km ${stt.mode === "car" ? "mit dem Auto" : "zu Fuß"}${stt.min ? ` (${stt.min} Min.)` : ""}${stt.taxi ? ` + ${stt.taxi}× Taxi` : ""}` : ""}</small></div>
             <button class="tmore" data-open="${esc(t.id)}">${open ? "▴" : "▾"}</button></div>
           ${open ? `<ol class="tstops">${stops.map((st, i) => `<li><span class="tsn" data-go="${esc(st.id || "")}" data-ll="${st.lat},${st.lng}">${st.t ? `<small>${esc(st.t)}</small> ` : ""}${esc(st.name)}</span>
               ${t.builtin ? "" : `<span class="tsb"><button data-up="${i}" ${i ? "" : "disabled"}>↑</button><button data-down="${i}" ${i < stops.length - 1 ? "" : "disabled"}>↓</button><button data-rm="${i}">✕</button></span>`}</li>`).join("")}</ol>
