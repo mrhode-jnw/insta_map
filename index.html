@@ -858,9 +858,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const off = t.builtin ? 0 : -1;
     return { prev: segs[k + off] || null, next: segs[k + off + 1] || null, prevName: k > 0 ? stops[k - 1].name : (t.builtin ? "Start" : ""), nextName: k < stops.length - 1 ? stops[k + 1].name : "" };
   }
+  // Tour liegt in der oben gewählten Region (mind. ein Stopp); bei „Route“/„Alles“ immer
+  function tourInRegion(t) {
+    try { return routeF || allRegs() || tourStops(t).some(st => inRegion(st)); } catch { return true; }  // beim Start ist die Regionswahl evtl. noch nicht da
+  }
   function drawTour() {
     if (tourLayer) { tourLayer.remove(); tourLayer = null; }
-    const t = activeTour && tourById(activeTour);
+    const t = activeTour && tourById(activeTour) && tourInRegion(tourById(activeTour)) ? tourById(activeTour) : null;
     tb.classList.toggle("on", !!t);
     if (!t) return;
     const stops = tourStops(t), parts = [];
@@ -950,10 +954,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   // Touren-Fenster
   let openTourId = null;
+  let toursAll = false;  // „auch Touren anderer Regionen zeigen“
   function renderTours() {
-    const ts = allTours();
+    const every = allTours(), ts = toursAll ? every : every.filter(t => tourInRegion(t) || (!t.builtin && !t.stops.length));
+    const hiddenN = every.length - ts.length;
     $("#toursBody").innerHTML = `<button id="tourNew" class="tbtn primary">＋ Neue Tour</button>
       <p class="thint">Spots hinzufügen: Spot öffnen → <b>🧭 Tour</b>. Auf der Karte erscheint jeweils eine Tour – mit 👁 wählen.</p>` +
+      (hiddenN || toursAll ? `<p class="thint">${toursAll ? "Alle Touren" : `Nur Touren in „${esc(whereLabel())}“ – ${hiddenN} weitere in anderen Regionen`} · <a href="#" id="toursAllT">${toursAll ? "nur gewählte Region" : "alle zeigen"}</a></p>` : "") +
       ts.map(t => {
         const stops = tourStops(t), stt = tourStats(t), on = activeTour === t.id, open = openTourId === t.id;
         return `<div class="tcard${on ? " on" : ""}" data-t="${esc(t.id)}">
@@ -974,6 +981,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   tb.onclick = e => { e.stopPropagation(); openTours(); };
   $("#toursClose").onclick = () => { $("#toursDlg").hidden = true; };
   $("#toursBody").addEventListener("click", e => {
+    if (e.target.id === "toursAllT") { e.preventDefault(); toursAll = !toursAll; renderTours(); return; }
     const b = e.target.closest("button, [data-open], [data-go]"); if (!b) return;
     const card = b.closest(".tcard"), t = card && tourById(card.dataset.t);
     if (b.id === "tourNew") { const n = prompt("Name der Tour:", `Tour ${new Date().toLocaleDateString("de-DE")}`); const nt = newTour(n); if (nt) { openTourId = nt.id; setActiveTour(nt.id); renderTours(); toast("Tour angelegt – jetzt Spots öffnen und 🧭 Tour tippen", 3000); } return; }
@@ -1111,7 +1119,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     routeF ? routeLayer.addTo(map) : routeLayer.remove();
     quietClose = true; map.closePopup(); quietClose = false; savedView = null;
     if (groups.size && !places.some(p => inScope(p) && inGroups(p))) { groups = new Set(["fotos"]); saveGroups(); }
-    cat = null; showWhere(); renderChips(); renderList();
+    cat = null; showWhere(); renderChips(); renderList(); drawTour();
     if (!fit) return;
     if (routeF) map.fitBounds(L.latLngBounds(ROUTE.map(r => [r.lat, r.lng])), { padding: [40, 40], animate: false });
     else fitRegion();
