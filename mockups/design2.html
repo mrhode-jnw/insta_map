@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Insta Map – Design-Entwurf 2</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  :root { --pink: #e1306c; --grad: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #cfcfd6; font-family: var(--font); display: flex; gap: 36px; padding: 36px; flex-wrap: wrap; }
+  h4.sec { width: 100%; margin: 10px 0 -14px; font-size: 22px; }
+  .phone { width: 390px; height: 844px; border-radius: 46px; overflow: hidden; position: relative; box-shadow: 0 30px 60px rgba(0,0,0,.25); flex: none; }
+  .status { position: absolute; top: 0; left: 0; right: 0; height: 47px; display: flex; justify-content: space-between; align-items: center; padding: 6px 30px 0; font-weight: 600; font-size: 16px; z-index: 50; }
+  .map { position: absolute; inset: 0; z-index: 0; }
+  .cap { font: 700 15px var(--font); text-align: center; margin: 10px 0 0; color: #333; width: 390px; }
+  svg.i { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+
+  /* ===== A · Insta (hell) ===== */
+  .A { background: #fff; color: #111; }
+  .A .search { position: absolute; top: 54px; left: 14px; right: 14px; z-index: 30; display: flex; gap: 8px; }
+  .A .search .f { flex: 1; height: 48px; border-radius: 16px; background: #fff; box-shadow: 0 4px 16px rgba(0,0,0,.12); display: flex; align-items: center; gap: 8px; padding: 0 14px; color: #888; font-size: 16px; }
+  .A .search .r { height: 48px; padding: 0 14px; border-radius: 16px; background: #fff; box-shadow: 0 4px 16px rgba(0,0,0,.12); display: flex; align-items: center; gap: 6px; font-weight: 700; }
+  .A .stories { position: absolute; top: 112px; left: 0; right: 0; z-index: 30; display: flex; gap: 10px; padding: 0 14px; overflow: hidden; }
+  .A .st { flex: none; display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 11.5px; font-weight: 600; text-shadow: 0 0 6px #fff, 0 0 3px #fff; }
+  .A .st .ring { width: 60px; height: 60px; border-radius: 50%; padding: 3px; background: var(--grad); }
+  .A .st .ring.seen { background: #c7c7cc; }
+  .A .st img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 3px solid #fff; display: block; }
+  .A .pinA { width: 48px; height: 48px; border-radius: 50%; padding: 3px; background: var(--grad); box-shadow: 0 4px 10px rgba(0,0,0,.3); position: relative; }
+  .A .pinA img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 2.5px solid #fff; display: block; }
+  .A .pinA.cl { background: #fff; } .A .pinA.cl::after { content: "✦"; position: absolute; right: -4px; top: -4px; width: 20px; height: 20px; border-radius: 50%; background: #7c3aed; color: #fff; font-size: 11px; display: grid; place-items: center; border: 2px solid #fff; }
+  .A .pinA.on { transform: scale(1.25); }
+  .A .dot { width: 14px; height: 14px; border-radius: 50%; background: var(--pink); border: 3px solid #fff; box-shadow: 0 2px 5px rgba(0,0,0,.3); }
+  .A .me { width: 20px; height: 20px; border-radius: 50%; background: #2f6bff; border: 4px solid #fff; box-shadow: 0 0 0 10px rgba(47,107,255,.18); }
+  .A .carousel { position: absolute; left: 0; right: 0; bottom: 104px; z-index: 30; display: flex; gap: 12px; padding: 0 14px; overflow: hidden; }
+  .A .cc { flex: none; width: 300px; background: #fff; border-radius: 22px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,.2); display: flex; }
+  .A .cc img { width: 118px; height: 132px; object-fit: cover; }
+  .A .cc .t { padding: 12px; display: flex; flex-direction: column; gap: 5px; }
+  .A .cc b { font-size: 17px; line-height: 1.2; } .A .cc small { color: #8e8e93; font-size: 13px; }
+  .A .tagp { align-self: flex-start; font-size: 12px; font-weight: 700; color: #fff; background: var(--pink); padding: 3px 9px; border-radius: 999px; }
+  .A .tagl { align-self: flex-start; font-size: 12px; font-weight: 700; color: #9a3412; background: #ffedd5; padding: 3px 9px; border-radius: 999px; }
+  .A .nav { position: absolute; left: 0; right: 0; bottom: 0; height: 88px; z-index: 40; background: rgba(255,255,255,.96); border-top: 1px solid #eee; display: flex; justify-content: space-around; padding-top: 12px; }
+  .A .nav span { display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 11px; font-weight: 600; color: #8e8e93; }
+  .A .nav span.on { color: var(--pink); }
+  .A .nav .plus { width: 46px; height: 34px; border-radius: 12px; background: var(--grad); color: #fff; display: grid; place-items: center; font-size: 26px; margin-top: 2px; }
+  /* A Spot = Instagram-Post */
+  .A .ph { position: absolute; top: 47px; left: 0; right: 0; height: 56px; display: flex; align-items: center; padding: 0 14px; gap: 12px; }
+  .A .ph b { font-size: 17px; flex: 1; text-align: center; margin-right: 36px; }
+  .A .post { position: absolute; top: 103px; left: 0; right: 0; bottom: 0; overflow: hidden; }
+  .A .ph2 { display: flex; align-items: center; gap: 10px; padding: 8px 14px; }
+  .A .av { width: 38px; height: 38px; border-radius: 50%; padding: 2px; background: var(--grad); }
+  .A .av img { width: 100%; height: 100%; border-radius: 50%; border: 2px solid #fff; object-fit: cover; display: block; }
+  .A .ph2 .n b { display: block; font-size: 15px; } .A .ph2 .n small { color: #8e8e93; font-size: 13px; }
+  .A .pimg { position: relative; aspect-ratio: 4/5; } .A .pimg img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .A .pimg .cnt { position: absolute; right: 12px; top: 12px; background: rgba(0,0,0,.55); color: #fff; font-size: 13px; font-weight: 600; padding: 3px 10px; border-radius: 999px; }
+  .A .bar { display: flex; align-items: center; gap: 16px; padding: 10px 14px 4px; }
+  .A .bar .sp { flex: 1; display: flex; justify-content: center; gap: 4px; }
+  .A .bar .sp i { width: 6px; height: 6px; border-radius: 50%; background: #c7c7cc; } .A .bar .sp i.on { background: #2f6bff; }
+  .A .bar svg.i { width: 28px; height: 28px; }
+  .A .bar .heart { color: var(--pink); fill: var(--pink); }
+  .A .capt { padding: 2px 14px; font-size: 15px; line-height: 1.4; }
+  .A .capt b { margin-right: 4px; }
+  .A .chipsA { display: flex; gap: 6px; flex-wrap: wrap; padding: 8px 14px; }
+  .A .chipsA span { font-size: 13px; font-weight: 600; padding: 6px 10px; border-radius: 10px; background: #f2f2f5; }
+  .A .chipsA span.p { background: #fde7ef; color: #9d1747; }
+
+  /* ===== B · Nacht (dunkel) ===== */
+  .B { background: #0d0d10; color: #f4f4f6; }
+  .B .status { color: #fff; }
+  .B .top { position: absolute; top: 54px; left: 14px; right: 14px; z-index: 30; display: flex; gap: 8px; }
+  .B .glass { background: rgba(20,20,26,.66); backdrop-filter: blur(18px) saturate(1.4); border: 1px solid rgba(255,255,255,.08); }
+  .B .reg { flex: 1; height: 50px; border-radius: 25px; display: flex; align-items: center; padding: 0 18px; gap: 8px; font-weight: 700; font-size: 17px; }
+  .B .reg small { color: #a1a1aa; font-weight: 500; }
+  .B .rb { width: 50px; height: 50px; border-radius: 25px; display: grid; place-items: center; }
+  .B .seg { position: absolute; top: 116px; left: 14px; z-index: 30; display: flex; gap: 6px; }
+  .B .seg span { padding: 8px 13px; border-radius: 999px; font-size: 14px; font-weight: 600; }
+  .B .seg span.on { background: var(--pink); border-color: var(--pink); }
+  .B .pinB { width: 46px; height: 46px; border-radius: 14px; overflow: hidden; border: 2px solid #fff; box-shadow: 0 6px 14px rgba(0,0,0,.5); position: relative; }
+  .B .pinB img { width: 100%; height: 100%; object-fit: cover; }
+  .B .pinB.plan { border-color: var(--pink); box-shadow: 0 0 0 3px rgba(225,48,108,.35), 0 6px 14px rgba(0,0,0,.5); }
+  .B .pinB .t { position: absolute; left: 0; right: 0; bottom: 0; background: var(--pink); color: #fff; font: 700 9.5px var(--font); text-align: center; padding: 1px 0; }
+  .B .dot { width: 12px; height: 12px; border-radius: 50%; background: #fff; border: 3px solid var(--pink); }
+  .B .me { width: 20px; height: 20px; border-radius: 50%; background: #3b82f6; border: 4px solid #fff; box-shadow: 0 0 0 12px rgba(59,130,246,.25); }
+  .B .sheet { position: absolute; left: 10px; right: 10px; bottom: 96px; z-index: 30; border-radius: 26px; padding: 12px; }
+  .B .sheet .hd { display: flex; justify-content: space-between; align-items: baseline; padding: 0 4px 10px; }
+  .B .sheet .hd b { font-size: 20px; } .B .sheet .hd small { color: var(--pink); font-weight: 600; }
+  .B .rowB { display: flex; gap: 8px; }
+  .B .tile { flex: 1; aspect-ratio: 3/4; border-radius: 16px; overflow: hidden; position: relative; }
+  .B .tile img { width: 100%; height: 100%; object-fit: cover; }
+  .B .tile div { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 8px 8px; background: linear-gradient(transparent, rgba(0,0,0,.8)); font-size: 12.5px; font-weight: 700; }
+  .B .tile div small { display: block; color: #d4d4d8; font-weight: 500; }
+  .B .dock { position: absolute; left: 50%; transform: translateX(-50%); bottom: 22px; z-index: 40; height: 62px; border-radius: 31px; display: flex; gap: 4px; padding: 6px; }
+  .B .dock span { width: 58px; height: 50px; border-radius: 25px; display: grid; place-items: center; color: #a1a1aa; }
+  .B .dock span.on { background: var(--pink); color: #fff; }
+  /* B Spot */
+  .B .heroB { position: absolute; inset: 0; } .B .heroB img { width: 100%; height: 100%; object-fit: cover; }
+  .B .heroB::after { content: ""; position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,.35), transparent 22%, transparent 42%, rgba(13,13,16,.9) 66%, #0d0d10 80%); }
+  .B .tb { position: absolute; top: 54px; left: 14px; right: 14px; z-index: 30; display: flex; justify-content: space-between; }
+  .B .tb span { width: 44px; height: 44px; border-radius: 22px; display: grid; place-items: center; }
+  .B .bars { position: absolute; top: 108px; left: 14px; right: 14px; z-index: 30; display: flex; gap: 4px; }
+  .B .bars i { flex: 1; height: 3px; border-radius: 2px; background: rgba(255,255,255,.35); } .B .bars i.on { background: #fff; }
+  .B .info { position: absolute; left: 0; right: 0; bottom: 0; z-index: 30; padding: 0 18px 26px; }
+  .B .kick { color: var(--pink); font-weight: 700; font-size: 14px; letter-spacing: .5px; text-transform: uppercase; }
+  .B h1 { font: 700 34px/1.05 "New York", Georgia, serif; margin: 6px 0 8px; letter-spacing: -.5px; }
+  .B .metaB { color: #a1a1aa; font-size: 14.5px; display: flex; gap: 12px; flex-wrap: wrap; }
+  .B .lightB { margin: 14px 0; border-radius: 18px; padding: 12px 14px; display: flex; justify-content: space-between; }
+  .B .lightB div { font-size: 12px; color: #a1a1aa; } .B .lightB b { display: block; color: #fff; font-size: 18px; margin-top: 2px; }
+  .B .lightB .pk b { color: #ff8fb4; }
+  .B .actB { display: flex; gap: 8px; }
+  .B .actB span { flex: 1; height: 50px; border-radius: 16px; display: flex; align-items: center; justify-content: center; gap: 6px; font-weight: 600; font-size: 14.5px; }
+  .B .actB span.main { background: var(--pink); flex: 1.4; }
+  .B .thumbs { display: flex; gap: 6px; margin-top: 12px; }
+  .B .thumbs img { width: 58px; height: 58px; border-radius: 12px; object-fit: cover; opacity: .75; } .B .thumbs img.on { opacity: 1; outline: 2px solid #fff; }
+</style></head><body>
+
+<h4 class="sec">A · „Insta“ – hell, Story-Ringe, Karten-Karussell, Spot wie ein Post</h4>
+<div><div class="phone A">
+  <div class="status"><span>07:37</span><span>4G ▮</span></div>
+  <div class="map" id="mapA"></div>
+  <div class="search"><div class="f"><svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Spots in Yangshuo</div><div class="r">🇨🇳 ▾</div></div>
+  <div class="stories">
+    <div class="st"><div class="ring"><img src="../images/damian_1.jpg"></div>Fr 16.</div>
+    <div class="st"><div class="ring"><img src="../images/Dcym0q6DYf9_1.jpg"></div>Sa 17.</div>
+    <div class="st"><div class="ring"><img src="../images/xianggong_trip_1.jpg"></div>So 18.</div>
+    <div class="st"><div class="ring"><img src="../images/pingan_trip_1.jpg"></div>Mo 19.</div>
+    <div class="st"><div class="ring seen"><img src="../images/CnP00gIqiUr_1.jpg"></div>Do 15.</div>
+  </div>
+  <div class="carousel">
+    <div class="cc"><img src="../images/damian_1.jpg"><div class="t"><span class="tagp">★ Fr 6:10</span><b>Damian Hill</b><span class="tagl">🌅 Sonnenaufgang</span><small>📍 2,3 km · Aussicht</small></div></div>
+    <div class="cc"><img src="../images/Dcym0q6DYf9_1.jpg"><div class="t"><b>Luoshi-Berg</b></div></div>
+  </div>
+  <div class="nav">
+    <span class="on"><svg class="i" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Karte</span>
+    <span><svg class="i" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Plan</span>
+    <span><span class="plus">+</span></span>
+    <span><svg class="i" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg>Inspiration</span>
+    <span><svg class="i" viewBox="0 0 24 24"><path d="M12 21C5 15.5 3 12.5 3 9a4.5 4.5 0 0 1 9-1 4.5 4.5 0 0 1 9 1c0 3.5-2 6.5-9 12z"/></svg>Merkliste</span>
+  </div>
+</div><p class="cap">A1 · Karte: Foto-Pins mit Story-Ring, Tage als Stories, Spot-Karten zum Wischen</p></div>
+
+<div><div class="phone A">
+  <div class="status"><span>07:37</span><span>4G ▮</span></div>
+  <div class="ph"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg><b>Damian Hill</b></div>
+  <div class="post">
+    <div class="ph2"><div class="av"><img src="../images/damian_2.jpg"></div><div class="n"><b>Damian Hill 大面山</b><small>Xingping · 2,3 km · 🔥 4</small></div></div>
+    <div class="pimg"><img src="../images/damian_1.jpg"><span class="cnt">1/8</span></div>
+    <div class="bar"><svg class="i heart" viewBox="0 0 24 24"><path d="M12 21C5 15.5 3 12.5 3 9a4.5 4.5 0 0 1 9-1 4.5 4.5 0 0 1 9 1c0 3.5-2 6.5-9 12z"/></svg>
+      <svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>
+      <svg class="i" viewBox="0 0 24 24"><path d="M3 11l18-8-8 18-2-8z"/></svg>
+      <span class="sp"><i class="on"></i><i></i><i></i><i></i><i></i></span>
+      <svg class="i" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+    <div class="capt"><b>Fabio Nodari</b>Blick von oben auf die fast 180°-Schleife des Li River. Aufstieg ab Dahebei 40–50 Min.</div>
+    <div class="chipsA"><span class="p">★ Fr 16.10. · 6:10</span><span>🌅 Aufgang 6:36</span><span>⛰ Aussicht</span><span>🎟 20 CNY</span></div>
+  </div>
+</div><p class="cap">A2 · Spot wie ein Instagram-Post: Merken ❤, Fotografiert ✓, Navigieren, Reiseplan</p></div>
+
+<h4 class="sec">B · „Nacht“ – dunkel, Glas, Fotos im Vordergrund</h4>
+<div><div class="phone B">
+  <div class="status"><span>07:37</span><span>4G ▮</span></div>
+  <div class="map" id="mapB"></div>
+  <div class="top"><div class="reg glass">Yangshuo <small>· Guilin ▾</small></div><div class="rb glass"><svg class="i" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg></div></div>
+  <div class="seg"><span class="on">Fotos</span><span class="glass">Tipps</span><span class="glass">Heute</span></div>
+  <div class="sheet glass"><div class="hd"><b>27 Spots</b><small>alle zeigen</small></div>
+    <div class="rowB">
+      <div class="tile"><img src="../images/damian_1.jpg"><div>Damian Hill<small>0,3 km</small></div></div>
+      <div class="tile"><img src="../images/Dcym0q6DYf9_1.jpg"><div>Luoshi-Berg<small>2,2 km</small></div></div>
+      <div class="tile"><img src="../images/xianggong_trip_1.jpg"><div>Xianggong<small>2,3 km</small></div></div>
+    </div></div>
+  <div class="dock glass">
+    <span class="on"><svg class="i" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+    <span><svg class="i" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span>
+    <span><svg class="i" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg></span>
+    <span><svg class="i" viewBox="0 0 24 24"><path d="M12 21C5 15.5 3 12.5 3 9a4.5 4.5 0 0 1 9-1 4.5 4.5 0 0 1 9 1c0 3.5-2 6.5-9 12z"/></svg></span>
+    <span><svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></span>
+  </div>
+</div><p class="cap">B1 · Karte dunkel, Foto-Pins als Kacheln, Liste als Glas-Leiste</p></div>
+
+<div><div class="phone B">
+  <div class="status"><span>07:37</span><span>4G ▮</span></div>
+  <div class="heroB"><img src="../images/damian_1.jpg"></div>
+  <div class="tb"><span class="glass"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></span><span class="glass"><svg class="i" viewBox="0 0 24 24"><path d="M12 21C5 15.5 3 12.5 3 9a4.5 4.5 0 0 1 9-1 4.5 4.5 0 0 1 9 1c0 3.5-2 6.5-9 12z"/></svg></span></div>
+  <div class="bars"><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="info">
+    <div class="kick">★ Fr 16.10. · Sonnenaufgang</div>
+    <h1>Damian Hill</h1>
+    <div class="metaB"><span>大面山</span><span>· Xingping</span><span>· 2,3 km</span><span>· 📷 Fabio Nodari</span></div>
+    <div class="lightB glass"><div class="pk">Treffpunkt<b>6:10</b></div><div>Aufgang<b>6:36</b></div><div>Aufstieg<b>45 Min</b></div><div>Gebühr<b>20 ¥</b></div></div>
+    <div class="actB"><span class="main">➤ Navigieren</span><span class="glass">✓ Erledigt</span><span class="glass">⋯</span></div>
+    <div class="thumbs"><img class="on" src="../images/damian_1.jpg"><img src="../images/damian_2.jpg"><img src="../images/damian_3.jpg"><img src="../images/damian_4.jpg"><img src="../images/damian_5.jpg"></div>
+  </div>
+</div><p class="cap">B2 · Spot als Vollbild-Story, Infos unten im Glas</p></div>
+
+<script>
+  const P = [
+    [24.90988, 110.4958, "damian_1.jpg", "Fr 6:10"], [24.937357, 110.476192, "xianggong_trip_1.jpg", "So 6:20"], [24.911, 110.502, "Dcym0q6DYf9_1.jpg", "Sa 18:00"],
+    [24.89286, 110.36854, "CnP00gIqiUr_1.jpg"], [24.780498, 110.426969, "yulong_trip_1.jpg"], [24.863, 110.4872, "DcIsDePCaxD_7.jpg"]];
+  const dots = [[24.916848, 110.403064], [24.9558, 110.4742], [24.7281, 110.4677], [24.8121, 110.3939], [24.92, 110.52], [24.84, 110.40]];
+  function mk(id, tiles, pinHtml, dotCls) {
+    const m = L.map(id, { zoomControl: false, attributionControl: false }).setView([24.83, 110.46], 11);
+    L.tileLayer(tiles, {}).addTo(m);
+    dots.forEach(d => L.marker(d, { icon: L.divIcon({ className: "", iconSize: [14, 14], html: `<div class="dot"></div>` }) }).addTo(m));
+    P.forEach((p, i) => L.marker([p[0], p[1]], { icon: L.divIcon({ className: "", iconSize: [48, 48], iconAnchor: [24, 24], html: pinHtml(p, i) }) }).addTo(m));
+    L.marker([24.79, 110.45], { icon: L.divIcon({ className: "", iconSize: [20, 20], html: '<div class="me"></div>' }) }).addTo(m);
+  }
+  mk("mapA", "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+    (p, i) => `<div class="pinA${i === 0 ? " on" : ""}"><img src="../images/${p[2]}"></div>`);
+  mk("mapB", "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+    p => `<div class="pinB${p[3] ? " plan" : ""}"><img src="../images/${p[2]}">${p[3] ? `<span class="t">${p[3]}</span>` : ""}</div>`);
+</script>
+</body></html>
