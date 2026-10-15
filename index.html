@@ -120,6 +120,11 @@
     padding: 2px 8px; border-radius: 999px; pointer-events: none; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
   .pop .pnav .spotnum { font-size: 13px; color: var(--muted, #6b7280); font-weight: 500; }
   .pop .hero .pcount { top: 10px; right: 10px; font-size: 13px; padding: 3px 9px; }
+  /* Pfeile unter dem Fotozähler: durch die Fotos des Spots blättern */
+  .pop .hero .parrows { position: absolute; top: 40px; right: 10px; display: flex; gap: 6px; z-index: 2; }
+  .pop .hero .parrows button { width: 32px; height: 32px; border-radius: 50%; border: 0; padding: 0; cursor: pointer;
+    background: var(--accent, #e1306c); color: #fff; font-size: 20px; line-height: 32px; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
+  .pop .hero .parrows button:disabled { opacity: .35; cursor: default; }
   .galhead { font-size: 13px; font-weight: 600; margin: 4px 0 4px; } .galhead .galn { color: var(--accent, #e1306c); } .galhead span { font-weight: 400; color: var(--muted, #6b7280); }
   .gal figure img { width: 140px; height: 175px; border-radius: 8px; object-fit: cover; display: block; background: #eee; }
   .gal figcaption { font-size: 13px; padding-top: 3px; }
@@ -651,6 +656,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           : `<img src="${esc(p.image)}" alt="" loading="lazy" data-lb="${Math.max(0, imgPosts.findIndex(x => x.image === p.image))}">`}
         <span class="pfav"${st(p.id).fav ? "" : " hidden"} title="Favorit">❤</span>
         <span class="pcount" title="Fotos dieses Spots – seitlich wischen">📷 <b>1</b>/${imgPosts.length || 1}</span>
+        ${strip && imgPosts.length > 1 ? `<span class="parrows"><button type="button" data-ph="-1" aria-label="Vorheriges Foto">‹</button><button type="button" data-ph="1" aria-label="Nächstes Foto">›</button></span>` : ""}
         ${onImg ? `<button class="side prev" data-go="-1" aria-label="Vorheriger Spot">‹</button><button class="side next" data-go="1" aria-label="Nächster Spot">›</button>` : ""}</div>` : ""}
       ${strip ? `<div class="credit hcred"></div>` : ""}
       ${!strip && (p.by_claude || p.image_credit) && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
@@ -1290,11 +1296,18 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const hs = el.querySelector(".hstrip");
     if (hs) {
       const pcb = el.querySelector(".hero .pcount b"), cred = el.querySelector(".hcred"), imgs = hs.querySelectorAll("img");
+      const pa = el.querySelectorAll(".hero .parrows button");
+      pa.forEach(b => b.onclick = e => {
+        e.stopPropagation();
+        const i = Math.max(0, Math.min(imgs.length - 1, Math.round(hs.scrollLeft / (hs.clientWidth || 1)) + +b.dataset.ph));
+        hs.scrollTo({ left: i * hs.clientWidth, behavior: "smooth" });
+      });
       let cur = -1;
       const upd = () => {
         const i = Math.max(0, Math.min(imgs.length - 1, Math.round(hs.scrollLeft / (hs.clientWidth || 1))));
         if (i === cur) return; cur = i; const im = imgs[i];
         if (pcb) pcb.textContent = i + 1;
+        if (pa.length) { pa[0].disabled = i === 0; pa[1].disabled = i === imgs.length - 1; }
         if (cred) cred.innerHTML = `Foto: <a href="${esc(im.dataset.href)}" target="_blank" rel="noopener">${esc(im.dataset.cr)}</a>` +
           (im.dataset.post ? ` · <a href="${esc(im.dataset.post)}" target="_blank" rel="noopener">Post ↗</a>` : "");
       };
