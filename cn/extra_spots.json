@@ -38,5 +38,48 @@
   "cat": "Natur",
   "source": "Reiseplan Fotoreise 15.–19.10.",
   "note": "Laut Reiseplan: Fotografie am 17.10. vormittags. Ländliches Tal des Yulong River zwischen Karstkegeln: Bambusflöße, Reisfelder, Wasserbüffel, Dörfer, alte Steinbrücken (Yulong Bridge 遇龙桥, Fuli Bridge 富里桥). Morgens Dunst über dem Fluss, Spiegelungen bei Windstille. Pin = Flussabschnitt laut trip.com (GCJ-02 umgerechnet) – der genaue Ort hängt vom Guide ab."
+ },
+ {
+  "name": "Tianxin Village – Zhuangyuan-Brücke 田心村·状元桥",
+  "lat": 25.17063,
+  "lng": 110.20172,
+  "approx": true,
+  "district": "Sitang, Lingui, Guilin",
+  "cat": "Dorf",
+  "note": "Laut Reiseplan (Variante B): 15.10. nachmittags auf dem Weg vom Bahnhof Guilin West (ca. 40 km, ~1 Std.). Zwei alte Steinbogenbrücken („Zhuangyuan-Brücke“, Teil eines Qing-zeitlichen Steinpfads zum Nachbardorf Hengshan) über Reisfeld-Wasserflächen mit Karstkegeln dahinter. Klassisches Motiv: Bauer mit Wasserbüffel auf der Brücke, Spiegelung im Wasser – Model über den Fahrer organisieren. Gegenlicht am Morgen oder späten Nachmittag.",
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "unsure": "Pin = Weiler Tianxin laut OSM; die Brücke liegt im/am Dorf, genauer Standpunkt vor Ort"
+ },
+ {
+  "name": "Wulongquan Sunset Viewpoint 乌龙泉",
+  "lat": 24.916848,
+  "lng": 110.403064,
+  "approx": false,
+  "district": "Putao, Yangshuo, Guangxi",
+  "cat": "Aussicht",
+  "note": "Laut Reiseplan (Variante B): Sonnenuntergang am 15.10. Aussichtspunkt direkt an der Straße – kein Aufstieg. Blick über Felder, Gewächshäuser und Wasserflächen auf gestaffelte Karstkegel im Gegenlicht; Sonne geht hinter den Bergen unter (~18:10). Kein Eintritt, Parken ca. 10 CNY; vor 18 Uhr da sein, Plätze an der Straße sind begrenzt. Pin laut trip.com (GCJ-02 umgerechnet).",
+  "source": "Reiseplan Fotoreise 15.–19.10."
+ },
+ {
+  "name": "Xialong – Kormoranfischer mit Laterne 下龙渔火",
+  "lat": 24.9558,
+  "lng": 110.4742,
+  "approx": true,
+  "district": "Li River, Xingping, Guangxi",
+  "cat": "Dorf",
+  "note": "Laut Reiseplan: 17.10. Kormoranfischer mit Laterne auf dem Bambusfloß vor Karstkegeln, Spiegelung im Li River – klassischer Sonnenaufgangs-/Dämmerungs-Spot. Fischer über den Fahrer/Guide.",
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "unsure": "Standpunkt laut Fotoguide: zum Dorf 老村头 Laocuntou fahren, dann ca. 900 m am Fluss nach Norden bis zu einem Stein mit „甲天下“ – Pin dort geschätzt; der Weiler 下龙 liegt laut OSM ca. 3 km westlich (24.9605, 110.4440)"
+ },
+ {
+  "name": "Luoshi Hill – Kormoranfischer mit Laterne 螺蛳山渔火",
+  "lat": 24.911,
+  "lng": 110.502,
+  "approx": true,
+  "district": "Huangnitian, Xingping, Guangxi",
+  "cat": "Dorf",
+  "note": "Laut Reiseplan: 17.10. Kormoranfischer mit Laterne am Li River vor dem Luoshi-Berg („Schneckenberg“), vermutlich zur Abenddämmerung.",
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "unsure": "Lage nur grob bekannt: Luoshi-Berg liegt laut Reisebericht östlich des Damian Hill beim Dorf Huangnitian 黄泥田 (Xingping) – genauer Standpunkt vom Guide"
  }
 ]
