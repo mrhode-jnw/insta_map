@@ -63,10 +63,10 @@ SPOTS = [
   [4], "Drohnen-Reel „What my drone saw in China“."),
  ("Xingping – Kormoranfischer am Li River 兴坪", 24.9198, 110.5278, True, "Yangshuo, Guangxi", "Dorf",
   [7, (70, 3), (70, 1), (70, 2), (70, 4), (70, 5), (70, 6), (70, 7), (70, 8), (70, 9)], "Klassisches Motiv: Fischer mit Kormoranen auf dem Bambusfloß. Shooting zum Sonnenaufgang (Stille, kaum Leute, Nebel über den Karstbergen), ca. 30 km von Yangshuo; über das Hotel einen Fischer vermitteln lassen – deutlich günstiger als online (ca. 60 € für zwei + Transport), vorab buchen. Heute eine inszenierte Tradition, kein Alltagsfischfang mehr."),
- ("Xianggong Hill 相公山", 24.9258, 110.4790, False, "Yangshuo, Guangxi", "Aussicht",
-  [9], "Sonnenaufgang über der Li-River-Schleife – früh los (Wecker 3:30)."),
+ ("Xianggong Hill 相公山", 24.937357, 110.476192, False, "Yangshuo, Guangxi", "Aussicht",
+  [], "Sonnenaufgang über der Li-River-Schleife, die sich um einen Karstkegel legt (klassischer Blick von der obersten Plattform). Öffnet ca. 4:30, Eintritt ca. 45–60 CNY, vor 7 Uhr da sein; nach Regen oft Nebel/Wolkenmeer. Pin laut trip.com (GCJ-02 umgerechnet)."),
  ("Yangshuo Karstlandschaft 阳朔", 24.8630, 110.4872, True, "Yangshuo, Guangxi", "Natur",
-  [11, 10, 33, (21, 7)], "Karstkegel in endlosen Schichten, Sonnenaufgang mit Wasserbüffeln an der Steinbrücke."),
+  [11, 10, 33, (21, 7), 9], "Karstkegel in endlosen Schichten, Sonnenaufgang mit Wasserbüffeln an der Steinbrücke."),
  ("Longji Rice Terraces 龙脊梯田", 25.7580, 110.1190, True, "Longsheng, Guangxi", "Natur",
   [47, 48, 49, 50], "Rund 650 Jahre alte Reisterrassen, ca. 2 h ab Guilin; im September goldgelb."),
  # Chongqing

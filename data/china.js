@@ -625,29 +625,49 @@ window.PLACES_CN = [
   "name": "Xianggong Hill 相公山",
   "district": "Yangshuo, Guangxi",
   "category": "Aussicht",
-  "note": "Sonnenaufgang über der Li-River-Schleife – früh los (Wecker 3:30).",
+  "note": "Sonnenaufgang über der Li-River-Schleife, die sich um einen Karstkegel legt (klassischer Blick von der obersten Plattform). Öffnet ca. 4:30, Eintritt ca. 45–60 CNY, vor 7 Uhr da sein; nach Regen oft Nebel/Wolkenmeer. Pin laut trip.com (GCJ-02 umgerechnet).",
   "address": "Yangshuo, Guangxi",
-  "lat": 24.9258,
-  "lng": 110.479,
+  "lat": 24.937357,
+  "lng": 110.476192,
   "approx": false,
-  "image": "images/DdbVoDMlRoY.jpg",
+  "image": "images/xianggong_trip_1.jpg",
   "caption": "",
-  "post_url": "https://www.instagram.com/nateinthewild/p/DdbVoDMlRoY/",
-  "username": "nateinthewild",
-  "profile_url": "https://www.instagram.com/nateinthewild/",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
   "posts": [
    {
-    "url": "https://www.instagram.com/nateinthewild/p/DdbVoDMlRoY/",
-    "username": "nateinthewild",
-    "profile_url": "https://www.instagram.com/nateinthewild/",
-    "kind": "p",
-    "image": "images/DdbVoDMlRoY.jpg",
+    "url": "https://www.trip.com/travel-guide/attraction/yangshuo/xianggong-mountain-13676008/",
+    "username": "",
+    "profile_url": "https://www.trip.com/travel-guide/attraction/yangshuo/xianggong-mountain-13676008/",
+    "kind": "photo",
+    "image": "images/xianggong_trip_1.jpg",
     "caption": "",
-    "match": "single"
+    "credit": "trip.com (Attraktionsseite, Nutzerfoto)"
+   },
+   {
+    "url": "https://www.trip.com/travel-guide/attraction/yangshuo/xianggong-mountain-13676008/",
+    "username": "",
+    "profile_url": "https://www.trip.com/travel-guide/attraction/yangshuo/xianggong-mountain-13676008/",
+    "kind": "photo",
+    "image": "images/xianggong_trip_2.jpg",
+    "caption": "",
+    "credit": "trip.com (Attraktionsseite, Nutzerfoto)"
+   },
+   {
+    "url": "https://www.trip.com/travel-guide/attraction/yangshuo/xianggong-mountain-13676008/",
+    "username": "",
+    "profile_url": "https://www.trip.com/travel-guide/attraction/yangshuo/xianggong-mountain-13676008/",
+    "kind": "photo",
+    "image": "images/xianggong_trip_3.jpg",
+    "caption": "",
+    "credit": "trip.com (Attraktionsseite, Nutzerfoto)"
    }
   ],
   "pop": 4,
   "pop_reason": "Bekanntester Sonnenaufgangs-Spot am Li River",
+  "image_page": "https://www.trip.com/travel-guide/attraction/yangshuo/xianggong-mountain-13676008/",
+  "image_credit": "trip.com (Attraktionsseite, Nutzerfoto)",
   "when": "day"
  },
  {
@@ -705,11 +725,20 @@ window.PLACES_CN = [
     "caption": "Save & double tap this post for your next China trip : ) Scroll through 👉🏻\n\n1📍Dongchangzhi Road & Lushun Road, Shanghai (东长治路与旅顺路交叉口) — A popular North Bund street-photography spot where everyday Shanghai life is framed against the Lujiazui skyline, with the Oriental Pearl Tower and Shanghai Tower rising dramatically in the background.\n\n1📍Dongchangzhi Road & Lushun Road, Shanghai (东长治路与旅顺路交叉口) — A popular North Bund street-photography spot where everyday Shanghai life is framed against the Lujiazui skyline, with the Oriental Pearl Tower and Shanghai Tower rising dramatically in the background.",
     "match": "slide",
     "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/nateinthewild/p/DdbVoDMlRoY/",
+    "username": "nateinthewild",
+    "profile_url": "https://www.instagram.com/nateinthewild/",
+    "kind": "p",
+    "image": "images/DdbVoDMlRoY.jpg",
+    "caption": "",
+    "match": "single"
    }
   ],
   "pop": 5,
   "pop_reason": "Top-Ziel für Karstlandschaften",
-  "when": "day"
+  "when": "both"
  },
  {
   "id": "cn-longji-rice-terraces",

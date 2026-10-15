@@ -108,7 +108,8 @@ def spot_id(name):
 places = []
 for name, lat, lng, approx, region, cat, plist, note in SPOTS:
     ps = dedupe([spot_post(x) for x in plist])
-    first = next((p for p in ps if p["image"]), ps[0])
+    first = next((p for p in ps if p["image"]), ps[0] if ps else  # Spot nur mit Fotos aus cn/extra_photos.json
+                 {"image": None, "caption": "", "url": "", "username": "", "profile_url": ""})
     pop = next((v for k, v in POP.items() if k in name), None)
     places.append({
         "id": spot_id(name), "region": "cn",
