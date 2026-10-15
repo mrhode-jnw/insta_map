@@ -489,5 +489,9 @@
  "cn-jilong-castle": {
   "prio": "hoch",
   "fav": true
+ },
+ "cn-fenglin-buyi-wanfenglin": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
