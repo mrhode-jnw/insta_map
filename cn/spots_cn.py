@@ -62,7 +62,7 @@ SPOTS = [
  ("Guilin & Li River 桂林 · 漓江", 25.2780, 110.2911, True, "Guilin, Guangxi", "Natur",
   [4], "Drohnen-Reel „What my drone saw in China“."),
  ("Xingping – Kormoranfischer am Li River 兴坪", 24.9198, 110.5278, True, "Yangshuo, Guangxi", "Dorf",
-  [7, (70, 3)], "Klassisches Motiv: Fischer mit Kormoranen auf dem Bambusfloß. Shooting zum Sonnenaufgang (Stille, kaum Leute, Nebel über den Karstbergen), ca. 30 km von Yangshuo; über das Hotel einen Fischer vermitteln lassen – deutlich günstiger als online (ca. 60 € für zwei + Transport), vorab buchen. Heute eine inszenierte Tradition, kein Alltagsfischfang mehr."),
+  [7, (70, 3), (70, 1), (70, 2), (70, 4), (70, 5), (70, 6), (70, 7), (70, 8), (70, 9)], "Klassisches Motiv: Fischer mit Kormoranen auf dem Bambusfloß. Shooting zum Sonnenaufgang (Stille, kaum Leute, Nebel über den Karstbergen), ca. 30 km von Yangshuo; über das Hotel einen Fischer vermitteln lassen – deutlich günstiger als online (ca. 60 € für zwei + Transport), vorab buchen. Heute eine inszenierte Tradition, kein Alltagsfischfang mehr."),
  ("Xianggong Hill 相公山", 24.9258, 110.4790, False, "Yangshuo, Guangxi", "Aussicht",
   [9], "Sonnenaufgang über der Li-River-Schleife – früh los (Wecker 3:30)."),
  ("Yangshuo Karstlandschaft 阳朔", 24.8630, 110.4872, True, "Yangshuo, Guangxi", "Natur",

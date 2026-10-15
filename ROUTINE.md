@@ -40,6 +40,9 @@ Für jeden Eintrag (`code`):
      die Slides ansehen und den Slide, der genau diesen Ort zeigt, als `slides={i: <slide>}` eintragen
      (sonst erscheint nur ein Link ohne Bild). Gleiche Fotos filtert `build_hk.py` selbst heraus.
      Achtung: „Portland Street, Mongkok“ bei @mansonyms = Neon-Ecke 金麗宮 am 祥興樓 Cheung Hing House.
+   - **Ein Post = ein Ort** (Caption nennt nur einen Ort, keine nummerierte Liste): **alle** Slides übernehmen,
+     nicht nur einen – HK `slides` geht nur 1 Slide je Post, dann zusätzliche Slides in `hk/extra_photos.json`;
+     China: alle als `(i, 1), (i, 2), … (i, n)` in die Post-Liste des Spots. Doppelte filtert der Build heraus.
    - Neuer Ort → am Dateiende unter `# --- Neu aus Eingang ---` eine Zeile ergänzen:
      `add("Name 中文名", "Suchbegriff, Stadtteil, Hong Kong", "Stadtteil", "Kategorie", [i], "kurzer Hinweis")`
      - Den **Namen** möglichst so wählen wie in der nummerierten Liste der Caption (dann findet
