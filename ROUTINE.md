@@ -22,6 +22,12 @@ python3 tools/inbox.py pending
 ```
 Steht dort `KEINE NEUEN POSTS`: **sofort beenden** (kein Commit, keine weitere Arbeit).
 
+**Link für einen bestimmten Spot (`spot`, `spotName`):** In der App über „＋ Foto/Link“ an einem Spot
+eingetragen. Dann **keinen neuen Spot anlegen**, sondern Fotos/Slides und neue Infos (Notiz, beste Zeit,
+Standpunkt) genau diesem Spot hinzufügen (HK: Post-Liste/`slides` bzw. `hk/extra_photos.json`, China: Post-Liste
+in `cn/spots_cn.py` bzw. `cn/extra_photos.json`; Claude-Tipps über `extra_photos.json`). Eigene hochgeladene Fotos
+liegen in `uploads/<spot-id>/` im Branch map-data und erscheinen in der App bereits direkt (data/spot-extras.json).
+
 **Ortsangabe (`where`):** Einträge können zusätzlich eine Ortsangabe in eigenen Worten haben (z. B. „Dach des
 Restaurants am MTR Lai King, Ausgang A2“). Sie erscheint bei `pending`, `show` und `link` als `"where"` und hat
 **Vorrang** vor Caption/Seiteninhalt: Den Ort danach recherchieren (Websuche, OSM/Photon, Karten, Street-View-

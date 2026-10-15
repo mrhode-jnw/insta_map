@@ -313,6 +313,15 @@
   .tpnew { display: flex; gap: 8px; margin-top: 10px; }
   .tpnew input { flex: 1; padding: 9px 11px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 16px; }
   .tpnew button { width: 44px; border-radius: 10px; border: 0; background: var(--accent); color: #fff; font-size: 20px; cursor: pointer; }
+  .pop .links .xadd { flex: 1; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #fce7f3; color: #9d174d; font-weight: 600; cursor: pointer; }
+  .pop .xlinks { display: flex; flex-direction: column; gap: 3px; font-size: 13px; margin: 6px 0; padding: 6px 8px; background: #f3f4f6; border-radius: 8px; }
+  .pop .xlinks a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .pop .xlinks small { color: var(--muted, #6b7280); }
+  .xa-row { display: flex; flex-direction: column; gap: 8px; margin: 8px 0; }
+  .xa-row input[type=url], .xa-row textarea { font-family: inherit; padding: 9px 11px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 16px; }
+  .xa-pick { display: block; text-align: center; padding: 12px; border-radius: 10px; border: 2px dashed var(--line); cursor: pointer; font-size: 15px; }
+  .xa-pick input { display: none; } .xa-thumbs { display: flex; gap: 6px; flex-wrap: wrap; } .xa-thumbs img { width: 64px; height: 64px; object-fit: cover; border-radius: 6px; }
+  .xa-save { width: 100%; padding: 11px; border-radius: 10px; border: 0; background: var(--accent); color: #fff; font-size: 16px; font-weight: 600; cursor: pointer; }
+  .xa-save:disabled { opacity: .5; }
   .pop .links .tadd { flex: 1; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #ede9fe; color: #4c1d95; font-weight: 600; cursor: pointer; }
   /* Inspiration: Bildersammlung unabhängig von Spots (data/inspiration.js) */
   #insp { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
@@ -682,11 +691,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${gal}
         ${generic.length ? `<div class="generic">${posts ? "Außerdem in" : "Kein eigenes Foto – erwähnt in"} ${generic.map(x =>
           `${x.dup ? "Post (gleiches Foto)" : "Sammel-Post"} von <a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a> · <a href="${esc(x.url)}" target="_blank" rel="noopener">Post ↗</a>`).join("; ")}</div>` : ""}
+        ${(p.xlinks || []).length ? `<div class="xlinks"><b>🔗 Eigene Links</b>${p.xlinks.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.url.replace(/^https?:\/\/(www\.)?/, "").slice(0, 48))}</a>`).join("")}<small>Fotos daraus übernimmt die Routine (ca. 1 Std.)</small></div>` : ""}
         <div class="addr">${esc(p.address)}<br><small>${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}</small></div>
         ${hero && p.caption && (p.image || !generic.length) ? `<div class="cap">${esc(p.caption)}</div>` : ""}
         <div class="links">
           <button class="showmap" data-show="${esc(p.id)}">📍 Springe zu Spot</button>
           <button class="tadd" data-tadd="${esc(p.id)}">🧭 Tour${tourCount(p.id) ? ` · ${tourCount(p.id)}` : ""}</button>
+          <button class="xadd" data-xadd="${esc(p.id)}">＋ Foto/Link</button>
           ${hero && p.post_url && (p.image || !generic.length) ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Post</a>
           ${p.profile_url ? `<a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>` : ""}` : ""}
           ${p.wiki_url ? `<a class="wiki" href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
@@ -1340,6 +1351,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     // 📍 Springe zu Spot: Spot schließen, hinzoomen, Liste einklappen, Pin hervorheben
     const sm = el.querySelector(".showmap"); if (sm) sm.onclick = e => { e.stopPropagation(); miniSpot(sm.dataset.show); };
     const ta = el.querySelector(".tadd"); if (ta) ta.onclick = e => { e.stopPropagation(); openTourPick(ta.dataset.tadd, ta); };
+    const xa = el.querySelector(".xadd"); if (xa) xa.onclick = e => { e.stopPropagation(); openExtraAdd(xa.dataset.xadd); };
     // verkleinerten Spot antippen → wieder groß
     el.addEventListener("click", e => {
       if (!el.classList.contains("mini") || e.target.closest("button, a")) return;
@@ -2152,7 +2164,99 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     addToInbox(add, q.get("where") || q.get("ort") || "");
   })();
 
+
+  // ---------- Fotos & Links direkt an einem Spot ergänzen (data/spot-extras.json + uploads/ im Branch map-data)
+  // Fotos erscheinen sofort im Spot; Links stehen sofort im Spot und gehen zusätzlich in den Eingang,
+  // die Routine übernimmt daraus Fotos/Infos für genau diesen Spot (Feld „spot“).
+  const EXTRAS_PATH = "data/spot-extras.json";
+  let spotExtras = {};
+  function applyExtras(id) {
+    const p = places.find(x => x.id === id); if (!p) return;
+    const ex = spotExtras[id] || [];
+    p.posts = (p.posts || []).filter(x => !x.own);
+    const photos = ex.filter(x => x.type === "photo").map(x => ({ own: true, kind: "photo", image: rawUrl(x.path), url: rawUrl(x.path),
+      profile_url: rawUrl(x.path), username: "", caption: x.note || "", credit: "Eigenes Foto" + (x.added ? " · " + x.added.slice(0, 10) : "") }));
+    p.posts = [...p.posts, ...photos];
+    if (!p.image && photos.length) { p.image = photos[0].image; p.ownImage = true; }
+    if (p.ownImage && !photos.length) { p.image = null; p.ownImage = false; }
+    p.xlinks = ex.filter(x => x.type === "link");
+    const m = markers.get(id); if (m && typeof iconFor === "function") { try { m.setIcon(iconFor(p)); } catch {} }
+  }
+  async function loadExtras() {
+    try {
+      const token = store.get(TOKEN_KEY);
+      const d = token ? (await ghGet(token, EXTRAS_PATH, {})).list : await rawJson(EXTRAS_PATH, {});
+      spotExtras = d && typeof d === "object" && !Array.isArray(d) ? d : {};
+      Object.keys(spotExtras).forEach(applyExtras);
+    } catch (e) { console.warn("Spot-Extras:", e); }
+  }
+  // Foto verkleinern (max. 1600 px, JPEG) → Base64 ohne Präfix
+  function shrink(file) {
+    return new Promise((res, rej) => {
+      const img = new Image(), url = URL.createObjectURL(file);
+      img.onload = () => {
+        const k = Math.min(1, 1600 / Math.max(img.width, img.height)), c = document.createElement("canvas");
+        c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+        c.getContext("2d").drawImage(img, 0, 0, c.width, c.height); URL.revokeObjectURL(url);
+        res(c.toDataURL("image/jpeg", 0.85).split(",")[1]);
+      };
+      img.onerror = () => { URL.revokeObjectURL(url); rej(new Error("Bild nicht lesbar")); };
+      img.src = url;
+    });
+  }
+  async function uploadFile(path, b64, message) {
+    const token = store.get(TOKEN_KEY); if (!token) throw new Error("Kein GitHub-Token");
+    if (dataBranchExists !== true) await ensureDataBranch(token);
+    const r = await fetch(ghUrl(path), { method: "PUT", headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` },
+      body: JSON.stringify({ message, branch: GH.dataBranch, content: b64 }) });
+    if (!r.ok) throw new Error(`Upload: GitHub ${r.status}`);
+  }
+  function openExtraAdd(id) {
+    const box = $("#tourPick"), p = places.find(x => x.id === id); if (!p) return;
+    let files = [];
+    box.innerHTML = `<div class="tpcard"><div class="tphead"><b>＋ ${esc(shortName(p.name))}</b><button class="tpclose" aria-label="Schließen">✕</button></div>
+      <div class="xa-row"><label class="xa-pick">📷 Fotos auswählen<input type="file" accept="image/*" multiple></label><div class="xa-thumbs"></div></div>
+      <div class="xa-row"><input type="url" placeholder="Link (Instagram, Xiaohongshu, Blog, Maps …) – optional"></div>
+      <div class="xa-row"><textarea rows="2" placeholder="Notiz (optional)"></textarea></div>
+      <button class="xa-save" disabled>Hinzufügen</button>
+      <p class="thint">Fotos erscheinen sofort im Spot. Aus Links holt die Routine Fotos und Infos (ca. 1 Stunde).</p></div>`;
+    const fi = box.querySelector("input[type=file]"), li = box.querySelector("input[type=url]"), ta = box.querySelector("textarea"), sv = box.querySelector(".xa-save");
+    const upd = () => { sv.disabled = !files.length && !/^https?:\/\//i.test(firstUrl(li.value)); };
+    fi.onchange = () => { files = [...fi.files]; box.querySelector(".xa-thumbs").innerHTML = files.map(f => `<img src="${URL.createObjectURL(f)}" alt="">`).join(""); upd(); };
+    li.oninput = upd;
+    box.querySelector(".tpclose").onclick = () => { box.hidden = true; };
+    sv.onclick = async () => {
+      if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+      sv.disabled = true; const note = ta.value.trim(), link = firstUrl(li.value.trim()), added = new Date().toISOString();
+      try {
+        const items = [];
+        for (let i = 0; i < files.length; i++) {
+          sv.textContent = `Lade Foto ${i + 1}/${files.length} …`;
+          const path = `uploads/${id}/${Date.now()}_${i}.jpg`;
+          await uploadFile(path, await shrink(files[i]), `Foto für ${id}`);
+          items.push({ type: "photo", path, added, ...(note ? { note } : {}) });
+        }
+        if (/^https?:\/\//i.test(link)) {
+          items.push({ type: "link", url: link, added, ...(note ? { note } : {}) });
+          const kind = linkKind(link);
+          if (kind) await mutate(list => {
+            const entry = kind === "ig" ? { code: igCode(link), url: link.split("?")[0] } : { kind, id: linkId(kind, link), url: link };
+            if (list.some(x => (entry.code && x.code === entry.code) || (entry.id && x.id === entry.id))) return list;
+            return [...list, { ...entry, spot: id, spotName: p.name, ...(note ? { note } : {}), added }];
+          }, `Eingang: Link für Spot ${id}`, INBOX_PATH, []);
+        }
+        sv.textContent = "Speichere …";
+        const next = await mutate(d => { d = d && !Array.isArray(d) ? d : {}; d[id] = [...(d[id] || []), ...items]; return d; },
+          `Spot-Extras: ${items.length} für ${id}`, EXTRAS_PATH, {});
+        spotExtras = next; applyExtras(id);
+        box.hidden = true; toast(`✓ ${files.length ? files.length + " Foto(s)" : ""}${files.length && link ? " + " : ""}${link ? "Link" : ""} hinzugefügt`, 2500);
+        map.closePopup(); const m = markers.get(id); if (m) setTimeout(() => openSpot(m), 250);
+      } catch (e) { toast(e.message, 5000); sv.disabled = false; sv.textContent = "Hinzufügen"; }
+    };
+    box.hidden = false;
+  }
   loadMine();
+  loadExtras();
   loadStatus();
   loadTours();
   loadWikiImages();
