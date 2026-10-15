@@ -133,6 +133,8 @@
   .galgrid .gwho { position: absolute; left: 0; right: 0; bottom: 0; padding: 10px 5px 3px; font-size: 10.5px; color: #fff;
     background: linear-gradient(transparent, rgba(0,0,0,.6)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; pointer-events: none; }
   .leaflet-popup.mini .galgrid { display: none; }
+  .galgrid .gdel { position: absolute; top: 3px; right: 3px; width: 22px; height: 22px; padding: 0; border: 0; border-radius: 50%;
+    background: rgba(0,0,0,.55); color: #fff; font-size: 15px; line-height: 22px; cursor: pointer; }
   .galhead { font-size: 13px; font-weight: 600; margin: 4px 0 4px; } .galhead .galn { color: var(--accent, #e1306c); } .galhead span { font-weight: 400; color: var(--muted, #6b7280); }
   .gal figure img { width: 140px; height: 175px; border-radius: 8px; object-fit: cover; display: block; background: #eee; }
   .gal figcaption { font-size: 13px; padding-top: 3px; }
@@ -658,7 +660,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const strip = p.image && imgPosts.length > 1 && imgPosts[0].image === p.image;  // großes Foto seitlich durchwischen
     // Galerie: Raster aus Vorschaubildern, Antippen öffnet Vollbild (dort Quelle & Post-Link)
     const gal = posts && posts.length > 1 ? `<div class="galhead"><b class="galn">📷 ${posts.length} Fotos</b> <span>– antippen für Vollbild</span></div><div class="galgrid">${posts.map((x, i) =>
-        `<figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}<span class="gwho">${esc(who(x))}</span></figure>`).join("")}</div>` : "";
+        `<figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}<span class="gwho">${esc(who(x))}</span><button class="gdel" data-gdel="${i}" aria-label="Foto entfernen" title="Foto entfernen">×</button></figure>`).join("")}</div>` : "";
     const navIds = navOrder(p.id), idx = navIds.indexOf(p.id);
     const multi = idx >= 0 && navIds.length > 1;
     const onImg = multi && p.image;  // Pfeile mittig über dem großen Bild
@@ -1357,6 +1359,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const sm = el.querySelector(".showmap"); if (sm) sm.onclick = e => { e.stopPropagation(); miniSpot(sm.dataset.show); };
     const ta = el.querySelector(".tadd"); if (ta) ta.onclick = e => { e.stopPropagation(); openTourPick(ta.dataset.tadd, ta); };
     const xa = el.querySelector(".xadd"); if (xa) xa.onclick = e => { e.stopPropagation(); openExtraAdd(xa.dataset.xadd); };
+    el.querySelectorAll(".gdel").forEach(b => b.onclick = e => { e.stopPropagation(); removePhoto(id, +b.dataset.gdel); });
     // verkleinerten Spot antippen → wieder groß
     el.addEventListener("click", e => {
       if (!el.classList.contains("mini") || e.target.closest("button, a")) return;
@@ -2178,7 +2181,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function applyExtras(id) {
     const p = places.find(x => x.id === id); if (!p) return;
     const ex = spotExtras[id] || [];
-    p.posts = (p.posts || []).filter(x => !x.own);
+    if (!p._orig) p._orig = { posts: (p.posts || []).filter(x => !x.own), image: p.image };
+    const hidden = new Set(ex.filter(x => x.type === "hide").map(x => x.image));
+    p.posts = p._orig.posts.filter(x => !x.image || !hidden.has(x.image));
+    p.image = p._orig.image && !hidden.has(p._orig.image) ? p._orig.image : ((p.posts.find(x => x.image) || {}).image || null);
+    p.ownImage = false;
     const photos = ex.filter(x => x.type === "photo").map(x => ({ own: true, kind: "photo", image: rawUrl(x.path), url: rawUrl(x.path),
       profile_url: rawUrl(x.path), username: "", caption: x.note || "", credit: "Eigenes Foto" + (x.added ? " · " + x.added.slice(0, 10) : "") }));
     p.posts = [...p.posts, ...photos];
@@ -2215,6 +2222,25 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const r = await fetch(ghUrl(path), { method: "PUT", headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` },
       body: JSON.stringify({ message, branch: GH.dataBranch, content: b64 }) });
     if (!r.ok) throw new Error(`Upload: GitHub ${r.status}`);
+  }
+  // Foto aus einem Spot entfernen: eigene Uploads werden gelöscht, alle anderen Fotos nur für diesen Spot ausgeblendet
+  async function removePhoto(id, i) {
+    const p = places.find(x => x.id === id); if (!p) return;
+    const x = imgsOf(p)[i]; if (!x || !x.image) return;
+    if (!confirm(x.own ? "Eigenes Foto löschen?" : "Foto aus diesem Spot entfernen?")) return;
+    if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+    try {
+      const next = await mutate(d => {
+        d = d && !Array.isArray(d) ? d : {}; const l = d[id] || [];
+        d[id] = x.own ? l.filter(e => !(e.type === "photo" && rawUrl(e.path) === x.image))
+          : l.some(e => e.type === "hide" && e.image === x.image) ? l : [...l, { type: "hide", image: x.image, added: new Date().toISOString() }];
+        if (!d[id].length) delete d[id];
+        return d;
+      }, `Spot-Extras: Foto entfernt (${id})`, EXTRAS_PATH, {});
+      spotExtras = next; applyExtras(id);
+      toast("Foto entfernt", 1800);
+      map.closePopup(); const m = markers.get(id); if (m) setTimeout(() => openSpot(m), 250);
+    } catch (e) { toast(e.message, 5000); }
   }
   function openExtraAdd(id) {
     const box = $("#tourPick"), p = places.find(x => x.id === id); if (!p) return;
