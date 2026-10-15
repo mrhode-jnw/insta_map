@@ -400,6 +400,7 @@
   <form id="addForm" autocomplete="off">
     <h2>Link übernehmen</h2>
     <div class="row"><input id="impLink" type="url" placeholder="Beliebiger Link: Instagram, Maps, TikTok, Blog … (oder leer lassen)"><button type="button" id="impBtn">📋 Übernehmen</button></div>
+    <textarea id="impWhere" rows="2" maxlength="400" placeholder="Ortsangabe (optional), gern beschreibend: z. B. „Dach des Dim-Sum-Restaurants am MTR Lai King, Ausgang A2“ oder „Aussichtspunkt oberhalb von Xingping, Richtung Flussbiegung“"></textarea>
     <small>Jeder Link: Instagram, Google Maps, OpenStreetMap, Locationscout, TikTok, Xiaohongshu, YouTube, Blogs … Wird automatisch verarbeitet: Ort, Fotos und Tipps erscheinen in ca. 1 Stunde auf der Karte.</small>
     <h2 style="margin-top:10px">Oder eigenen Spot setzen</h2>
     <div class="row"><input id="addSearch" type="search" placeholder="Ort oder Adresse suchen"><button type="button" id="addSearchBtn">Suchen</button></div>
@@ -2072,7 +2073,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const KIND_LABEL = { ig: "Instagram-Post", gmaps: "Google-Maps-Ort", osm: "OpenStreetMap-Ort", locationscout: "Locationscout-Spot", web: "Link" };
   const linkId = (kind, url) => kind + ":" + [...url].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7).toString(36);
   const firstUrl = v => (String(v).match(/https?:\/\/\S+/) || [String(v).trim()])[0];  // geteilter Text: „Name\nhttps://…“
-  async function addToInbox(raw) {
+  async function addToInbox(raw, where = "") {
     const url = firstUrl(raw), kind = linkKind(url);
     if (!kind) { toast("Das ist kein Link (https://…).", 4500); return false; }
     if (!store.get(TOKEN_KEY)) {
@@ -2080,14 +2081,23 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     }
     const entry = kind === "ig" ? { code: igCode(url), url: url.split("?")[0] }
       : { kind, id: linkId(kind, url), url, note: String(raw).replace(url, "").trim().slice(0, 200) || undefined };
+    where = String(where || "").trim().slice(0, 400);
+    if (where) entry.where = where;  // Ortsangabe in eigenen Worten → Routine sucht den Ort danach
     try {
       let added = false;
       await mutate(list => {
-        if (list.some(x => (entry.code && x.code === entry.code) || (entry.id && x.id === entry.id))) return list;
+        const dup = list.find(x => (entry.code && x.code === entry.code) || (entry.id && x.id === entry.id));
+        if (dup) {  // schon im Eingang: neue Ortsangabe trotzdem nachtragen
+          if (!where || dup.where === where) return list;
+          added = "where";
+          return list.map(x => x === dup ? { ...x, where } : x);
+        }
         added = true;
         return [...list, { ...entry, added: new Date().toISOString() }];
       }, `Eingang: ${KIND_LABEL[kind]} ${entry.code || entry.id}`, INBOX_PATH, []);
-      toast(added ? `📥 ${KIND_LABEL[kind]} übernommen – erscheint in ca. 1 Stunde auf der Karte` : "Dieser Link ist schon im Eingang.", 4500);
+      toast(added === "where" ? "📍 Ortsangabe zum vorhandenen Link ergänzt"
+        : added ? `📥 ${KIND_LABEL[kind]} übernommen${where ? " mit Ortsangabe" : ""} – erscheint in ca. 1 Stunde auf der Karte`
+        : "Dieser Link ist schon im Eingang.", 4500);
       return true;
     } catch (err) { toast(err.message, 5000); return false; }
   }
@@ -2097,14 +2107,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       try { v = (await navigator.clipboard.readText()).trim(); } catch { v = ""; }
       if (!linkKind(firstUrl(v))) { toast("Kein Link in der Zwischenablage.", 4500); return; }
     }
-    if (await addToInbox(v)) { $("#impLink").value = ""; closeAdd(); }
+    if (await addToInbox(v, $("#impWhere").value)) { $("#impLink").value = ""; $("#impWhere").value = ""; closeAdd(); }
   });
   // Teilen-Menü / Kurzbefehl: …/insta_map/?add=<Link> (Instagram, Google Maps, OSM, Locationscout)
   (() => {
-    const add = new URLSearchParams(location.search).get("add");
+    const q = new URLSearchParams(location.search), add = q.get("add");
     if (!add) return;
     history.replaceState(null, "", location.pathname);
-    addToInbox(add);
+    addToInbox(add, q.get("where") || q.get("ort") || "");
   })();
 
   loadMine();

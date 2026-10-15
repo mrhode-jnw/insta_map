@@ -22,6 +22,12 @@ python3 tools/inbox.py pending
 ```
 Steht dort `KEINE NEUEN POSTS`: **sofort beenden** (kein Commit, keine weitere Arbeit).
 
+**Ortsangabe (`where`):** Einträge können zusätzlich eine Ortsangabe in eigenen Worten haben (z. B. „Dach des
+Restaurants am MTR Lai King, Ausgang A2“). Sie erscheint bei `pending`, `show` und `link` als `"where"` und hat
+**Vorrang** vor Caption/Seiteninhalt: Den Ort danach recherchieren (Websuche, OSM/Photon, Karten, Street-View-
+Beschreibungen), Koordinaten so genau wie möglich setzen und in der Notiz kurz erwähnen, woher der Standort stammt.
+Passt die Angabe nicht eindeutig, `approx: true` bzw. `unsure` mit Begründung setzen – nicht raten.
+
 ## 2. Jeden neuen Post auswerten
 Für jeden Eintrag (`code`):
 1. `python3 tools/inbox.py show <code>` – zeigt Account, Anzahl Bilder, nummerierte Orte und Caption.
