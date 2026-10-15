@@ -22,3 +22,5 @@
   (prüft Spot-IDs, rechnet Auto-Etappen per OSRM ×1,2) → `data/itinerary.js`.
 - Jeder Stopp ist ein Spot; Instagram-Spots haben Vorrang. Zu jedem Stopp Licht angeben (`light`, `lightText`):
   fotografieren im guten Licht, mittags fahren oder Innenräume.
+- Fest (`plan: true`) sind **nur die Orte aus dem offiziellen Reiseplan/Screenshot**. Alles, was Claude ergänzt
+  (auch Instagram-Spots, die nicht im Plan stehen), bekommt `opt: true` – in der App per Filter „Optionale Spots“.
