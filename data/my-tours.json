@@ -38,83 +38,49 @@
  },
  {
   "id": "tgl15",
-  "name": "Do 15.10. Ankunft Guilin → Yangshuo · Sonnenuntergang Cuiping Hill (~18:10) · abends West Street",
+  "name": "Do 15.10. Ankunft Guilin → Yangshuo · Sonnenuntergang Cuiping Hill",
   "stops": [
-   "claude-cn-cuiping-hill",
-   "claude-cn-west-street-yangshuo"
-  ],
-  "created": "2026-10-15"
- },
- {
-  "id": "tgl16",
-  "name": "Fr 16.10. Sonnenaufgang Kormoranfischer (Ort: Guide) · Büffelbauer · Steinbrücke Yulong · Landschaft · Sonnenuntergang Karst & Reisfelder",
-  "stops": [
-   "cn-yangshuo-karstlandschaft",
-   "claude-cn-yulong-bridge",
-   "claude-cn-moon-hill"
+   "claude-cn-cuiping-hill"
   ],
   "created": "2026-10-15"
  },
  {
   "id": "tgl17",
-  "name": "Sa 17.10. Sonnenaufgang Damian Hill (6:40, Start 5:30) · Yulong River: Jinlong Bridge → Jiuxian · Sonnenuntergang Kormoranfischer Xingping",
+  "name": "Sa 17.10. Sonnenaufgang Damian Hill · Yulong River countryside · Sonnenuntergang Kormoranfischer Xingping",
   "stops": [
    "claude-cn-damian-hill-li-river-bogen",
-   "claude-cn-jinlong-bridge",
-   "claude-cn-jiuxian-village",
-   "claude-cn-xingping-ancient-town",
-   "cn-xingping-kormoranfischer-am-li-river",
-   "claude-cn-fishing-village"
+   "cn-xingping-kormoranfischer-am-li-river"
   ],
   "created": "2026-10-15"
  },
  {
   "id": "tgl18",
-  "name": "So 18.10. Sonnenaufgang Xianggong Hill · Fahrt Longji (Huangluo) · Dazhai/Tiantou-Terrassen · Sonnenuntergang Ping'an",
+  "name": "So 18.10. Sonnenaufgang Xianggong Hill · Longji: Dazhai Village · Sonnenuntergang Ping'an (Übernachtung)",
   "stops": [
    "cn-xianggong-hill",
-   "claude-cn-huangluo-yao-village",
    "claude-cn-tiantou-village-dazhai",
-   "claude-cn-west-hill-music-viewpoint",
-   "claude-cn-golden-buddha-top",
-   "claude-cn-seven-stars-with-moon-viewpoint"
+   "cn-longji-rice-terraces"
   ],
   "created": "2026-10-15"
  },
  {
   "id": "tgl19",
-  "name": "Mo 19.10. Sonnenaufgang Ping'an · nach dem Frühstück weiter Richtung Guizhou",
+  "name": "Mo 19.10. Sonnenaufgang Ping'an · danach weiter Richtung Guizhou",
   "stops": [
-   "claude-cn-nine-dragons-five-tigers-viewpoint",
-   "cn-longji-rice-terraces",
-   "claude-cn-longji-ancient-zhuang-village"
+   "cn-longji-rice-terraces"
   ],
   "created": "2026-10-15"
  },
  {
   "id": "tglall",
-  "name": "Fotoreise Guilin · Yangshuo · Xingping · Longji (15.–19.10.) – alle Spots",
+  "name": "Fotoreise Guilin · Yangshuo · Longji (15.–19.10.) – Spots laut Reiseplan",
   "stops": [
    "claude-cn-cuiping-hill",
-   "claude-cn-west-street-yangshuo",
-   "cn-yangshuo-karstlandschaft",
-   "claude-cn-yulong-bridge",
-   "claude-cn-moon-hill",
    "claude-cn-damian-hill-li-river-bogen",
-   "claude-cn-jinlong-bridge",
-   "claude-cn-jiuxian-village",
-   "claude-cn-xingping-ancient-town",
    "cn-xingping-kormoranfischer-am-li-river",
-   "claude-cn-fishing-village",
    "cn-xianggong-hill",
-   "claude-cn-huangluo-yao-village",
    "claude-cn-tiantou-village-dazhai",
-   "claude-cn-west-hill-music-viewpoint",
-   "claude-cn-golden-buddha-top",
-   "claude-cn-seven-stars-with-moon-viewpoint",
-   "claude-cn-nine-dragons-five-tigers-viewpoint",
-   "cn-longji-rice-terraces",
-   "claude-cn-longji-ancient-zhuang-village"
+   "cn-longji-rice-terraces"
   ],
   "created": "2026-10-15"
  }
