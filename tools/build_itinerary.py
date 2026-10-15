@@ -53,6 +53,50 @@ def osrm(a, b, cache):
     return cache[key]
 
 
+def apply_legs(items, cache):
+    """Auto-Etappen ohne Werte: Fahrzeit (OSRM ×1,2, auf 5 Min.), Strecke und Weg zwischen den Nachbarpunkten."""
+    for i, it in enumerate(items):
+        if it["type"] != "move" or it.get("mode") != "car" or "path" in it:
+            continue
+        a = next((x for x in reversed(items[:i]) if "lat" in x), None)
+        b = next((x for x in items[i + 1:] if "lat" in x), None)
+        if not a or not b:
+            continue
+        r = osrm((a["lat"], a["lng"]), (b["lat"], b["lng"]), cache)
+        it["km"] = round(r["m"] / 1000)
+        if "min" not in it:
+            it["min"] = max(5, int(round(r["s"] / 60 * 1.2 / 5) * 5))
+        it["path"] = r["path"]
+
+
+def core_items(items, cache):
+    """Tagesablauf ohne optionale Einträge; lag dazwischen etwas Optionales, wird die Etappe neu berechnet."""
+    out, pending = [], []
+    for it in items:
+        if it["type"] == "move" or it.get("opt"):
+            pending.append(it)
+            continue
+        if any(x.get("opt") for x in pending):
+            moves = [x for x in pending if x["type"] == "move" and not x.get("opt") or x["type"] == "move"]
+            if moves and all(m.get("mode") == "walk" for m in moves):
+                out.append({"type": "move", "mode": "walk", "min": sum(m.get("min", 0) for m in moves if not m.get("opt"))
+                            or sum(m.get("min", 0) for m in moves)})
+            elif moves:
+                out.append({"type": "move", "mode": "car"})
+        else:
+            out.extend(pending)
+        pending = []
+        out.append(it)
+    while out and out[-1]["type"] == "move":
+        out.pop()
+    apply_legs(out, cache)
+    for m in out:  # gleiche Stelle (z. B. Dorf → Hotel im Dorf): zu Fuß
+        if m["type"] == "move" and m.get("mode") == "car" and m.get("km", 1) < 1:
+            m.update(mode="walk", min=5)
+            m.pop("path", None)
+    return [dict(x, t=x["tCore"]) if x.get("tCore") else x for x in out]
+
+
 def main():
     src = json.load(open(SRC, encoding="utf-8"))
     places, hotels = load_places(), load_hotels()
@@ -75,18 +119,8 @@ def main():
                     errors.append(f'{day["date"]}: Hotel unbekannt: {it["name"]}')
                     continue
                 it["lat"], it["lng"] = h["lat"], h["lng"]
-        for i, it in enumerate(items):  # Auto-Etappen berechnen
-            if it["type"] != "move" or it.get("mode") != "car":
-                continue
-            a = next((x for x in reversed(items[:i]) if "lat" in x), None)
-            b = next((x for x in items[i + 1:] if "lat" in x), None)
-            if not a or not b:
-                continue
-            r = osrm((a["lat"], a["lng"]), (b["lat"], b["lng"]), cache)
-            it["km"] = round(r["m"] / 1000)
-            if "min" not in it:
-                it["min"] = max(5, int(round(r["s"] / 60 * 1.2 / 5) * 5))
-            it["path"] = r["path"]
+        apply_legs(items, cache)
+        day["core"] = core_items(items, cache)  # nur Reiseplan: optionale Einträge raus, Etappen neu
     if errors:
         sys.exit("\n".join(errors))
     json.dump(cache, open(CACHE, "w"), separators=(",", ":"))
