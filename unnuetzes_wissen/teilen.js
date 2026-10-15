@@ -1,6 +1,7 @@
 // Teilbare Fakten-Seite: ein Link (teilen.html), auf dem man den Ort auswählt.
 // Zeigt ausschließlich ortsbezogene Fakten (Orts- und Länderpakete), nie allgemeine oder aktuelle.
-// Direktlinks gehen weiter: teilen.html?ort=shenzhen, ?land=china, ?ort=alle.
+// Direktlinks gehen weiter: teilen.html?ort=shenzhen, ?land=china, ?ort=alle, dazu &thema=krimi.
+// Eine gewählte Kategorie bleibt beim Stadtwechsel erhalten.
 // Ohne Profil, ohne Reiseplan, speichert nichts außer zwischengespeicherten Bild-Adressen.
 (() => {
   "use strict";
@@ -25,6 +26,7 @@
     const c = k === "land" ? id : TAX.places.find(p => p.id === id)?.countryId;
     return TAX.countries.find(x => x.id === c)?.flag || "📍";
   };
+  const themeFromUrl = () => new URLSearchParams(location.search).get("thema") || null;
   const selFromUrl = () => {
     const q = new URLSearchParams(location.search);
     return q.get("ort") ? "ort:" + q.get("ort") : q.get("land") ? "land:" + q.get("land") : null;
@@ -112,22 +114,45 @@
     const list = FACTS.filter(f => !filter || (f.themes || []).includes(filter));
     const counts = {};
     FACTS.forEach(f => (f.themes || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
-    const chips = Object.entries(counts).filter(([, n]) => n >= 3).sort((a, b) => b[1] - a[1])
+    // gewählte Kategorie bleibt sichtbar, auch wenn es sie in dieser Stadt nicht gibt
+    if (filter && !counts[filter]) counts[filter] = 0;
+    const chips = Object.entries(counts).sort((a, b) => (b[0] === filter) - (a[0] === filter) || b[1] - a[1])
       .map(([t, n]) => `<button class="pill" data-a="filter" data-v="${t}" aria-pressed="${filter === t}">${theme(t).icon} ${esc(theme(t).name)} <span class="cnt">${n}</span></button>`).join("");
     const name = nameOf(SEL);
-    const places = [...PACKS.map(keyOf), "ort:alle"].map(k => `<button class="pill" data-a="pick" data-v="${k}" aria-pressed="${k === SEL}">${k === "ort:alle" ? "🌏" : flagOf(k)} ${esc(nameOf(k))}</button>`).join("");
+    const places = [...PACKS.map(keyOf), "ort:alle"].map(k => `<button class="pill" data-a="pick" data-v="${k}" aria-pressed="${k === SEL}">${k === "ort:alle" ? "🌏" : flagOf(k)} ${esc(nameOf(k))}<span class="cnt" data-k="${k}" hidden></span></button>`).join("");
+    const ft = filter ? theme(filter) : null;
     app.innerHTML = `<button class="link-btn back" data-a="home">← Alle Orte</button>
       <div class="filters places">${places}</div>
       <header class="hero">
         <div class="kicker">Unnützes Wissen</div>
         <h1>${esc(name)}</h1>
-        <p class="muted">${FACTS.length} überraschende Fakten, jeder mit Quelle. Antippen für die ganze Geschichte.</p>
+        <p class="muted">${ft ? `${list.length} von ${FACTS.length} Fakten in ${ft.icon} ${esc(ft.name)}` : `${FACTS.length} überraschende Fakten`}, jeder mit Quelle. Antippen für die ganze Geschichte.</p>
         <button class="btn" data-a="share-page">↗ Diesen Ort teilen</button>
       </header>
+      <div class="section-title flabel">Kategorie</div>
       <div class="filters themes"><button class="pill" data-a="filter" data-v="" aria-pressed="${!filter}">✨ Alle</button>${chips}</div>
-      <div class="feed">${list.map(card).join("")}</div>
+      <div class="feed">${list.length ? list.map(card).join("") : `<div class="center empty"><div class="big-emoji">🤷</div>
+        <p class="muted">In ${esc(name)} gibt es keine Fakten in ${ft.icon} ${esc(ft.name)}. Andere Stadt oben wählen oder:</p>
+        <button class="btn" data-a="filter" data-v="">Alle Kategorien zeigen</button></div>`}</div>
       <p class="foot">Alle Fakten wurden an ihren Quellen gegengeprüft. Fotos: Wikimedia Commons.</p>`;
     app.querySelectorAll(".media[data-wiki]").forEach(el => io.observe(el));
+    app.querySelector(".themes [aria-pressed=true]")?.scrollIntoView({ inline: "center", block: "nearest" });
+    placeCounts();
+  }
+  // Bei gewählter Kategorie: in der Städteleiste anzeigen, wie viele Treffer jede Stadt hat
+  async function placeCounts() {
+    if (!filter) return;
+    const f0 = filter, today = new Date().toISOString().slice(0, 10);
+    const per = await Promise.all(PACKS.map(p => loadPack(p).then(fs => fs.filter(f => (!f.expires || f.expires >= today) && (f.themes || []).includes(f0)).length)));
+    if (filter !== f0) return;
+    const n = { "ort:alle": per.reduce((a, b) => a + b, 0) };
+    PACKS.forEach((p, i) => { n[keyOf(p)] = per[i]; });
+    app.querySelectorAll(".places .cnt").forEach(el => { el.textContent = n[el.dataset.k] ?? ""; el.hidden = false; });
+  }
+  function syncUrl() {
+    const u = new URL(location.href);
+    filter ? u.searchParams.set("thema", filter) : u.searchParams.delete("thema");
+    history.replaceState(null, "", u);
   }
 
   // Startseite des Links: Ort auswählen
@@ -149,7 +174,7 @@
   }
 
   async function show(key) {
-    SEL = key; filter = null;
+    SEL = key; filter = themeFromUrl();
     if (!key) { renderPicker(); return; }
     const packs = key === "ort:alle" ? PACKS : PACKS.filter(p => keyOf(p) === key);
     if (!packs.length) {
@@ -168,7 +193,7 @@
   function go(key) {
     const u = new URL(location.href);
     u.search = ""; u.hash = "";
-    if (key) { const [k, id] = key.split(":"); u.searchParams.set(k === "land" ? "land" : "ort", id); }
+    if (key) { const [k, id] = key.split(":"); u.searchParams.set(k === "land" ? "land" : "ort", id); if (filter) u.searchParams.set("thema", filter); }
     history.pushState(null, "", u);
     window.scrollTo({ top: 0 });
     show(key);
@@ -184,7 +209,7 @@
     if (a === "toggle") { b.closest(".card").classList.toggle("open"); b.textContent = b.closest(".card").classList.contains("open") ? "Weniger" : "Mehr dazu & Quelle →"; }
     if (a === "pick") { go(b.dataset.v); return; }
     if (a === "home") { go(null); return; }
-    if (a === "filter") { filter = b.dataset.v || null; render(); window.scrollTo({ top: 0 }); }
+    if (a === "filter") { filter = b.dataset.v || null; syncUrl(); render(); window.scrollTo({ top: 0 }); }
     if (a === "share" || a === "share-page") {
       const f = FACTS.find(x => x.id === b.dataset.v);
       const url = location.href.split("#")[0];

@@ -34,4 +34,4 @@ Belegzitate aus der Prüfung landen dabei nicht in den öffentlichen Dateien.
 
 ## Teilen-Link
 
-`teilen.html` ist ein einzelner Link für andere: Dort wählt man einen Ort (oder „Alle Orte“) aus und blättert durch die ortsbezogenen Fakten. Allgemeine und aktuelle Fakten erscheinen dort nicht. Direktlinks: `teilen.html?ort=shenzhen`, `?land=china`, `?ort=alle`.
+`teilen.html` ist ein einzelner Link für andere: Dort wählt man einen Ort (oder „Alle Orte“) aus und blättert durch die ortsbezogenen Fakten. Allgemeine und aktuelle Fakten erscheinen dort nicht. Direktlinks: `teilen.html?ort=shenzhen`, `?land=china`, `?ort=alle`, optional mit Kategorie `&thema=krimi`. Eine gewählte Kategorie bleibt beim Stadtwechsel erhalten; die Städteleiste zeigt dann die Trefferzahl je Stadt.
