@@ -90,5 +90,32 @@
    "claude-cn-longji-ancient-zhuang-village"
   ],
   "created": "2026-10-15"
+ },
+ {
+  "id": "tglall",
+  "name": "Fotoreise Guilin · Yangshuo · Xingping · Longji (15.–19.10.) – alle Spots",
+  "stops": [
+   "claude-cn-cuiping-hill",
+   "claude-cn-west-street-yangshuo",
+   "cn-yangshuo-karstlandschaft",
+   "claude-cn-yulong-bridge",
+   "claude-cn-moon-hill",
+   "claude-cn-damian-hill-li-river-bogen",
+   "claude-cn-jinlong-bridge",
+   "claude-cn-jiuxian-village",
+   "claude-cn-xingping-ancient-town",
+   "cn-xingping-kormoranfischer-am-li-river",
+   "claude-cn-fishing-village",
+   "cn-xianggong-hill",
+   "claude-cn-huangluo-yao-village",
+   "claude-cn-tiantou-village-dazhai",
+   "claude-cn-west-hill-music-viewpoint",
+   "claude-cn-golden-buddha-top",
+   "claude-cn-seven-stars-with-moon-viewpoint",
+   "claude-cn-nine-dragons-five-tigers-viewpoint",
+   "cn-longji-rice-terraces",
+   "claude-cn-longji-ancient-zhuang-village"
+  ],
+  "created": "2026-10-15"
  }
 ]
