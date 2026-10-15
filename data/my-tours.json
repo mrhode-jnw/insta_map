@@ -12,6 +12,7 @@
   "name": "Sa 17.10. Sonnenaufgang Damian Hill · Yulong River countryside · Sonnenuntergang Kormoranfischer Xingping",
   "stops": [
    "claude-cn-damian-hill-li-river-bogen",
+   "cn-yulong-river-countryside",
    "cn-xingping-kormoranfischer-am-li-river"
   ],
   "created": "2026-10-15"
@@ -21,8 +22,8 @@
   "name": "So 18.10. Sonnenaufgang Xianggong Hill · Longji: Dazhai Village · Sonnenuntergang Ping'an (Übernachtung)",
   "stops": [
    "cn-xianggong-hill",
-   "claude-cn-tiantou-village-dazhai",
-   "cn-longji-rice-terraces"
+   "cn-dazhai-village",
+   "cn-ping-an-village"
   ],
   "created": "2026-10-15"
  },
@@ -30,7 +31,7 @@
   "id": "tgl19",
   "name": "Mo 19.10. Sonnenaufgang Ping'an · danach weiter Richtung Guizhou",
   "stops": [
-   "cn-longji-rice-terraces"
+   "cn-ping-an-village"
   ],
   "created": "2026-10-15"
  },
@@ -40,10 +41,11 @@
   "stops": [
    "claude-cn-cuiping-hill",
    "claude-cn-damian-hill-li-river-bogen",
+   "cn-yulong-river-countryside",
    "cn-xingping-kormoranfischer-am-li-river",
    "cn-xianggong-hill",
-   "claude-cn-tiantou-village-dazhai",
-   "cn-longji-rice-terraces"
+   "cn-dazhai-village",
+   "cn-ping-an-village"
   ],
   "created": "2026-10-15"
  }
