@@ -88,5 +88,73 @@
    "url": "https://www.instagram.com/fabionodariphoto/p/DaaR-nwDRu0/?img_index=2",
    "credit": "@fabionodariphoto · Instagram"
   }
+ ],
+ "Xianggong Hill 相公山": [
+  {
+   "image": "images/xianggong_trip_1.jpg",
+   "url": "https://www.trip.com/travel-guide/attraction/yangshuo/xianggong-mountain-13676008/",
+   "credit": "trip.com (Attraktionsseite, Nutzerfoto)"
+  },
+  {
+   "image": "images/xianggong_trip_2.jpg",
+   "url": "https://www.trip.com/travel-guide/attraction/yangshuo/xianggong-mountain-13676008/",
+   "credit": "trip.com (Attraktionsseite, Nutzerfoto)"
+  },
+  {
+   "image": "images/xianggong_trip_3.jpg",
+   "url": "https://www.trip.com/travel-guide/attraction/yangshuo/xianggong-mountain-13676008/",
+   "credit": "trip.com (Attraktionsseite, Nutzerfoto)"
+  }
+ ],
+ "Ping'an Village 平安寨": [
+  {
+   "image": "images/pingan_trip_1.jpg",
+   "url": "https://www.trip.com/moments/poi-ping-an-village-90681/",
+   "credit": "trip.com (Nutzerfoto)"
+  },
+  {
+   "image": "images/pingan_trip_2.jpg",
+   "url": "https://www.trip.com/moments/poi-ping-an-village-90681/",
+   "credit": "trip.com (Nutzerfoto)"
+  },
+  {
+   "image": "images/pingan_trip_3.jpg",
+   "url": "https://www.trip.com/moments/poi-ping-an-village-90681/",
+   "credit": "trip.com (Nutzerfoto)"
+  }
+ ],
+ "Dazhai Village 大寨村": [
+  {
+   "image": "images/dazhai_trip_1.jpg",
+   "url": "https://www.trip.com/moments/poi-longji-rice-terraces-jinkeng-dazhai-149266688/",
+   "credit": "trip.com (Nutzerfoto)"
+  },
+  {
+   "image": "images/dazhai_trip_2.jpg",
+   "url": "https://www.trip.com/moments/poi-longji-rice-terraces-jinkeng-dazhai-149266688/",
+   "credit": "trip.com (Nutzerfoto)"
+  },
+  {
+   "image": "images/dazhai_trip_3.jpg",
+   "url": "https://www.trip.com/moments/poi-longji-rice-terraces-jinkeng-dazhai-149266688/",
+   "credit": "trip.com (Nutzerfoto)"
+  }
+ ],
+ "Yulong River Countryside 遇龙河": [
+  {
+   "image": "images/yulong_trip_1.jpg",
+   "url": "https://www.trip.com/travel-guide/attraction/yangshuo/yulong-river-80969/",
+   "credit": "trip.com (Nutzerfoto)"
+  },
+  {
+   "image": "images/yulong_trip_2.jpg",
+   "url": "https://www.trip.com/travel-guide/attraction/yangshuo/yulong-river-80969/",
+   "credit": "trip.com (Nutzerfoto)"
+  },
+  {
+   "image": "images/yulong_trip_3.jpg",
+   "url": "https://www.trip.com/travel-guide/attraction/yangshuo/yulong-river-80969/",
+   "credit": "trip.com (Nutzerfoto)"
+  }
  ]
 }

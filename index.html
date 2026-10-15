@@ -120,6 +120,13 @@
     padding: 2px 8px; border-radius: 999px; pointer-events: none; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
   .pop .pnav .spotnum { font-size: 13px; color: var(--muted, #6b7280); font-weight: 500; }
   .pop .hero .pcount { top: 10px; right: 10px; font-size: 13px; padding: 3px 9px; }
+  /* Pfeile unter dem Fotozähler: durch die Fotos des Spots blättern */
+  .pop .hero .parrows { position: absolute; top: 38px; right: 10px; display: flex; z-index: 2; border-radius: 999px; overflow: hidden;
+    background: var(--accent, #e1306c); box-shadow: 0 1px 4px rgba(0,0,0,.35); }
+  .pop .hero .parrows button { width: 26px; height: 20px; border: 0; padding: 0; cursor: pointer; background: none;
+    color: #fff; font-size: 15px; font-weight: 700; line-height: 20px; }
+  .pop .hero .parrows button + button { border-left: 1px solid rgba(255,255,255,.4); }
+  .pop .hero .parrows button:disabled { opacity: .35; cursor: default; }
   .galhead { font-size: 13px; font-weight: 600; margin: 4px 0 4px; } .galhead .galn { color: var(--accent, #e1306c); } .galhead span { font-weight: 400; color: var(--muted, #6b7280); }
   .gal figure img { width: 140px; height: 175px; border-radius: 8px; object-fit: cover; display: block; background: #eee; }
   .gal figcaption { font-size: 13px; padding-top: 3px; }
@@ -287,6 +294,7 @@
   .tcard.on { border-color: #2563eb; box-shadow: 0 0 0 1px #2563eb inset; }
   .thead { display: flex; align-items: center; gap: 8px; }
   .thead .tname { flex: 1; cursor: pointer; line-height: 1.3; } .thead small { color: var(--muted); }
+  .tdel { width: 34px; height: 34px; border-radius: 10px; border: 1px solid var(--line); background: transparent; font-size: 15px; cursor: pointer; flex: none; }
   .teye, .tmore { width: 36px; height: 34px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 17px; cursor: pointer; }
   .tcard.on .teye { background: #2563eb; color: #fff; border-color: #2563eb; }
   .tstops { margin: 8px 0 4px; padding-left: 22px; }
@@ -599,7 +607,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const activeTourIds = () => { const t = activeTour && tourById(activeTour); return t ? tourIds(t) : []; };
   // „← 11′ · 9′ →“: Weg vom vorigen und zum nächsten Stopp der aktiven Tour
   const legInfo = id => { const t = activeTour && tourById(activeTour), l = t && legsAround(t, id); if (!l) return "";
-    const f = (sg, n, dir) => sg ? `<span title="${dir} ${esc(n)}: ${sg.m >= 1000 ? (sg.m / 1000).toFixed(1) + " km" : sg.m + " m"}">${dir === "von" ? "← " : ""}${sg.mode === "walk" ? "🚶" : "🚕"}${sg.min}′${dir === "zu" ? " →" : ""}</span>` : "";
+    const f = (sg, n, dir) => sg ? `<span title="${dir} ${esc(n)}: ${sg.m >= 1000 ? (sg.m / 1000).toFixed(1) + " km" : sg.m + " m"}">${dir === "von" ? "← " : ""}${legIcon(sg)}${sg.min}′${dir === "zu" ? " →" : ""}</span>` : "";
     const a = f(l.prev, l.prevName, "von"), b = f(l.next, l.nextName, "zu");
     return a || b ? `<small class="legs">${[a, b].filter(Boolean).join(" · ")}</small>` : ""; };
   const navOrder = cur => { navFor = cur; const ti = activeTourIds(); if (ti.includes(cur)) return ti;
@@ -651,6 +659,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           : `<img src="${esc(p.image)}" alt="" loading="lazy" data-lb="${Math.max(0, imgPosts.findIndex(x => x.image === p.image))}">`}
         <span class="pfav"${st(p.id).fav ? "" : " hidden"} title="Favorit">❤</span>
         <span class="pcount" title="Fotos dieses Spots – seitlich wischen">📷 <b>1</b>/${imgPosts.length || 1}</span>
+        ${strip && imgPosts.length > 1 ? `<span class="parrows"><button type="button" data-ph="-1" aria-label="Vorheriges Foto">‹</button><button type="button" data-ph="1" aria-label="Nächstes Foto">›</button></span>` : ""}
         ${onImg ? `<button class="side prev" data-go="-1" aria-label="Vorheriger Spot">‹</button><button class="side next" data-go="1" aria-label="Nächster Spot">›</button>` : ""}</div>` : ""}
       ${strip ? `<div class="credit hcred"></div>` : ""}
       ${!strip && (p.by_claude || p.image_credit) && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
@@ -744,7 +753,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let myTours = []; try { myTours = JSON.parse(localStorage.getItem("myTours") || "[]"); } catch {}
   let activeTour = null; try { activeTour = localStorage.getItem("tour"); } catch {}
   let tourRoutes = {}; try { tourRoutes = JSON.parse(localStorage.getItem("tourRoutes") || "{}"); } catch {}
-  const allTours = () => [...myTours, ...BUILTIN_TOURS];
+  // gelöschte vorbereitete Touren (fest im Code) werden nur ausgeblendet – auf diesem Gerät
+  let hiddenTours = []; try { hiddenTours = JSON.parse(localStorage.getItem("hiddenTours") || "[]"); } catch {}
+  const allTours = () => [...myTours, ...BUILTIN_TOURS.filter(t => !hiddenTours.includes(t.id))];
   const tourById = id => allTours().find(t => t.id === id);
   const shortName = n => n.replace(/\s*[　-鿿].*$/, "").replace(/\s*[–(].*$/, "").trim() || n;
   const tourStops = t => t.builtin ? t.stops : t.stops.map(id => places.find(p => p.id === id)).filter(Boolean)
@@ -752,15 +763,19 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Spot-IDs einer Tour; feste Touren haben nur Koordinaten → nächster Spot im Umkreis von 40 m
   const tourIds = t => [...new Set(tourStops(t).map(st => st.id || (() => { let b = null, bd = 40;
     for (const p of places) { const d = dist(st, p); if (d < bd) { bd = d; b = p; } } return b && b.id; })()).filter(Boolean))];
-  const routeKey = stops => "L:" + stops.map(s => s.lat.toFixed(5) + "," + s.lng.toFixed(5)).join(";");  // L: = Fußweg je Etappe
   const meters = (a, b) => dist({ lat: a.lat, lng: a.lng }, { lat: b.lat, lng: b.lng });
+  // Stadt-Tour (alle Etappen ≤ 2,5 km Luftlinie) → zu Fuß; sonst (Land, Ausflüge) → Auto
+  const tourMode = stops => stops.every((s, i) => !i || meters(stops[i - 1], s) <= 2500) ? "walk" : "car";
+  const routeKey = stops => (tourMode(stops) === "walk" ? "L:" : "C:") + stops.map(s => s.lat.toFixed(5) + "," + s.lng.toFixed(5)).join(";");  // L: Fußweg, C: Auto je Etappe
+  const legIcon = sg => sg.mode === "walk" ? "🚶" : sg.mode === "car" ? "🚗" : "🚕";
   function tourStats(t) {
     const stops = tourStops(t);
     const segs = t.builtin ? t.segs : (tourRoutes[routeKey(stops)] || null);
-    if (segs) { const w = segs.filter(s => s.mode === "walk");
-      return { m: w.reduce((a, s) => a + (s.m || 0), 0), min: w.reduce((a, s) => a + (s.min || 0), 0), taxi: segs.length - w.length, exact: true }; }
+    const mode = t.builtin ? "walk" : tourMode(stops);
+    if (segs) { const w = segs.filter(s => s.mode === mode);
+      return { mode, m: w.reduce((a, s) => a + (s.m || 0), 0), min: w.reduce((a, s) => a + (s.min || 0), 0), taxi: segs.length - w.length, exact: true }; }
     let m = 0; for (let i = 1; i < stops.length; i++) m += meters(stops[i - 1], stops[i]);
-    return { m: m * 1.3, min: Math.round(m * 1.3 / 75), exact: false };
+    return { mode, m: m * 1.3, min: Math.round(m * 1.3 / (mode === "walk" ? 75 : 700)), exact: false };
   }
   const tb = $("#tourBtn"); tb.hidden = false; tb.title = "Touren";
   let tourLayer = null;
@@ -790,12 +805,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const segs = t.builtin ? t.segs : tourRoutes[routeKey(stops)];
     if (segs) segs.forEach(sg => parts.push(sg.mode === "walk"
       ? L.polyline(sg.path, { color: "#2563eb", weight: 5, opacity: .85, dashArray: "2 9", interactive: false })
+      : sg.mode === "car" ? L.polyline(sg.path, { color: "#2563eb", weight: 4, opacity: .75, interactive: false })
       : L.polyline(sg.path, { color: "#475569", weight: 4, opacity: .6, interactive: false })));
     else if (stops.length > 1) parts.push(L.polyline(stops.map(s => [s.lat, s.lng]), { color: "#2563eb", weight: 3, opacity: .6, dashArray: "6 8", interactive: false }));
     // Gehzeit je Etappe als kleines Schild in der Mitte des Wegs (nur bei aktiver Tour)
     if (segs) segs.forEach(sg => { const pt = midOf(sg.path); if (!pt || !sg.min) return;
       parts.push(L.marker(pt, { interactive: false, zIndexOffset: 1500, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
-        html: `<div class="leg-time${sg.mode === "walk" ? "" : " taxi"}">${sg.mode === "walk" ? "🚶" : "🚕"} ${sg.min}′</div>` }) })); });
+        html: `<div class="leg-time${sg.mode === "taxi" ? " taxi" : ""}">${legIcon(sg)} ${sg.min}′</div>` }) })); });
     stops.forEach(st => {
       if (st.view != null) parts.push(L.polyline([[st.lat, st.lng], ray([st.lat, st.lng], st.view, 30)], { color: "#2563eb", weight: 4, opacity: .95, interactive: false }));
       parts.push(L.marker([st.lat, st.lng], { interactive: false, zIndexOffset: 2000, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
@@ -804,14 +820,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     tourLayer = L.layerGroup(parts).addTo(map);
     if (!t.builtin && !segs && stops.length > 1) fetchWalk(stops).then(ok => { if (ok && activeTour === t.id) { drawTour(); if (!$("#toursDlg").hidden) renderTours(); } });
   }
-  async function fetchWalk(stops) {  // Fußweg über alle Stopps (OSRM, routing.openstreetmap.de); ohne Netz bleibt die Luftlinie
-    const key = routeKey(stops);
+  async function fetchWalk(stops) {  // Fuß- bzw. Autoweg über alle Stopps (OSRM, routing.openstreetmap.de); ohne Netz bleibt die Luftlinie
+    const key = routeKey(stops), mode = tourMode(stops);
     if (tourRoutes[key]) return true;
     try {
-      const r = await fetch(`https://routing.openstreetmap.de/routed-foot/route/v1/driving/${stops.map(s => s.lng + "," + s.lat).join(";")}?overview=false&steps=true&geometries=geojson`);
+      const r = await fetch(`https://routing.openstreetmap.de/routed-${mode === "walk" ? "foot" : "car"}/route/v1/driving/${stops.map(s => s.lng + "," + s.lat).join(";")}?overview=false&steps=true&geometries=geojson`);
       const j = await r.json(); const rt = j.routes && j.routes[0]; if (!rt) return false;
       // eine Etappe je Stopp-Paar, damit die Gehzeit zwischen zwei Spots auf der Karte stehen kann
-      tourRoutes[key] = rt.legs.map(l => ({ mode: "walk", m: Math.round(l.distance), min: Math.max(1, Math.round(l.duration / 60)),
+      tourRoutes[key] = rt.legs.map(l => ({ mode, m: Math.round(l.distance), min: Math.max(1, Math.round(l.duration / 60)),
         path: l.steps.flatMap(st => st.geometry.coordinates.map(c => [c[1], c[0]])) }));
       const keys = Object.keys(tourRoutes); if (keys.length > 30) delete tourRoutes[keys[0]];
       try { localStorage.setItem("tourRoutes", JSON.stringify(tourRoutes)); } catch {}
@@ -881,13 +897,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         return `<div class="tcard${on ? " on" : ""}" data-t="${esc(t.id)}">
           <div class="thead"><button class="teye" data-eye="${esc(t.id)}" title="Auf der Karte zeigen">${on ? "👁" : "◌"}</button>
             <div class="tname" data-open="${esc(t.id)}"><b>${esc(t.name)}</b>${t.builtin ? ' <small>vorbereitet</small>' : ""}<br>
-            <small>${stops.length} Stopps${stops.length > 1 ? ` · ${stt.exact ? "" : "ca. "}${(stt.m / 1000).toFixed(1)} km zu Fuß${stt.min ? ` (${stt.min} Min.)` : ""}${stt.taxi ? ` + ${stt.taxi}× Taxi` : ""}` : ""}</small></div>
+            <small>${stops.length} Stopps${stops.length > 1 ? ` · ${stt.exact ? "" : "ca. "}${(stt.m / 1000).toFixed(1)} km ${stt.mode === "car" ? "mit dem Auto" : "zu Fuß"}${stt.min ? ` (${stt.min} Min.)` : ""}${stt.taxi ? ` + ${stt.taxi}× Taxi` : ""}` : ""}</small></div>
+            <button class="tdel" data-del="${esc(t.id)}" title="Tour löschen" aria-label="Tour löschen">🗑</button>
             <button class="tmore" data-open="${esc(t.id)}">${open ? "▴" : "▾"}</button></div>
           ${open ? `<ol class="tstops">${stops.map((st, i) => `<li><span class="tsn" data-go="${esc(st.id || "")}" data-ll="${st.lat},${st.lng}">${st.t ? `<small>${esc(st.t)}</small> ` : ""}${esc(st.name)}</span>
               ${t.builtin ? "" : `<span class="tsb"><button data-up="${i}" ${i ? "" : "disabled"}>↑</button><button data-down="${i}" ${i < stops.length - 1 ? "" : "disabled"}>↓</button><button data-rm="${i}">✕</button></span>`}</li>`).join("")}</ol>
             <div class="tactions">${!t.builtin && stops.length > 2 ? `<button class="tbtn" data-opt="${esc(t.id)}">⚡ Reihenfolge optimieren</button>` : ""}
               ${gmapsLink(t) ? `<a class="tbtn" href="${esc(gmapsLink(t))}" target="_blank" rel="noopener">Google Maps ↗</a>` : ""}
-              ${t.builtin ? "" : `<button class="tbtn" data-ren="${esc(t.id)}">Umbenennen</button><button class="tbtn warn" data-del="${esc(t.id)}">Löschen</button>`}</div>
+              ${t.builtin ? "" : `<button class="tbtn" data-ren="${esc(t.id)}">Umbenennen</button>`}<button class="tbtn warn" data-del="${esc(t.id)}">Löschen</button></div>
             ${!t.builtin && !stops.length ? `<p class="thint">Noch leer – Spot öffnen und auf 🧭 Tour tippen.</p>` : ""}` : ""}
         </div>`; }).join("");
   }
@@ -914,6 +931,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       if (m && shown.has(b.dataset.go)) setTimeout(() => cluster.zoomToShowLayer(m, () => openSpot(m)), 300);
       return;
     }
+    if (b.dataset.del) {
+      if (!confirm(`Tour „${t.name}“ löschen?`)) return;
+      if (activeTour === t.id) setActiveTour(null);
+      openTourId = null;
+      if (t.builtin) { hiddenTours.push(t.id); try { localStorage.setItem("hiddenTours", JSON.stringify(hiddenTours)); } catch {} renderTours(); }
+      else { myTours = myTours.filter(x => x !== t); saveTours(); renderTours(); }
+      toast(`„${shortName(t.name)}“ gelöscht`, 2000); return;
+    }
     if (t.builtin) return;
     const i = +(b.dataset.up ?? b.dataset.down ?? b.dataset.rm ?? -1);
     if (b.dataset.up) { [t.stops[i - 1], t.stops[i]] = [t.stops[i], t.stops[i - 1]]; }
@@ -921,7 +946,6 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     else if (b.dataset.rm) { t.stops.splice(i, 1); }
     else if (b.dataset.opt) { optimize(t); toast("Reihenfolge optimiert (kürzester Weg ab dem ersten Stopp)", 2500); renderTours(); return; }
     else if (b.dataset.ren) { const n = prompt("Neuer Name:", t.name); if (n && n.trim()) t.name = n.trim(); }
-    else if (b.dataset.del) { if (!confirm(`Tour „${t.name}“ löschen?`)) return; myTours = myTours.filter(x => x !== t); if (activeTour === t.id) setActiveTour(null); openTourId = null; }
     else return;
     saveTours(); renderTours();
   });
@@ -965,7 +989,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Oberste Ebene: Bereich (Fotos / Food); Kategorien darunter gehören zum gewählten Bereich
   // Fotos/Food = deine Spots aus der Sammlung (+ eigene); Tipps = von Claude ergänzte Spots
   const GROUPS = { food: p => !p.by_claude && p.category === "Food", fotos: p => !p.by_claude && p.category !== "Food", claude: p => p.by_claude };
-  let group = "fotos";  // beim Öffnen immer „Fotos“; nochmal tippen = alle Kategorien
+  // Fotos / Food / Tipps frei kombinierbar (Mehrfachauswahl, wird gemerkt); nichts gewählt = alles
+  let groups = new Set(["fotos"]);
+  try { const g = JSON.parse(localStorage.getItem("groups") || "null"); if (Array.isArray(g)) groups = new Set(g.filter(x => GROUPS[x])); } catch {}
+  const saveGroups = () => { try { localStorage.setItem("groups", JSON.stringify([...groups])); } catch {} };
+  const inGroups = p => !groups.size || [...groups].some(g => GROUPS[g](p));
   // Bereich oben links: 🧭 Route (nur Spots an unserer Route) · 🇭🇰 Hongkong · 🇨🇳 China · 🌏 Alles
   const WHERE = { route: "🧭 Route", hk: "🇭🇰 Hongkong", cn: "🇨🇳 China", all: "🌏 Alles" };
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
@@ -975,7 +1003,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let region = routeF ? "hk" : where;  // für die Startansicht
   const inRegion = p => region === "all" || regionOf(p) === region;
   const inScope = p => routeF ? routeStop(p) >= 0 : inRegion(p);
-  const inGroup = p => inScope(p) && (!group || GROUPS[group](p));
+  const inGroup = p => inScope(p) && inGroups(p);
   function fitRegion() {  // Hauptcluster der Region zeigen (Ausreißer nicht einbeziehen)
     const ps = places.filter(inRegion); if (!ps.length) return;
     const mid = arr => arr.slice().sort((a, b) => a - b)[arr.length >> 1];
@@ -993,7 +1021,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     try { localStorage.setItem("where", where); } catch {}
     routeF ? routeLayer.addTo(map) : routeLayer.remove();
     quietClose = true; map.closePopup(); quietClose = false; savedView = null;
-    if (group && !places.some(p => inScope(p) && GROUPS[group](p))) group = "fotos";
+    if (groups.size && !places.some(p => inScope(p) && inGroups(p))) { groups = new Set(["fotos"]); saveGroups(); }
     cat = null; showWhere(); renderChips(); renderList();
     if (!fit) return;
     if (routeF) map.fitBounds(L.latLngBounds(ROUTE.map(r => [r.lat, r.lng])), { padding: [40, 40], animate: false });
@@ -1003,7 +1031,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   $("#where").addEventListener("change", e => setWhere(e.target.value));
   $("#group").addEventListener("click", e => {
     const b = e.target.closest("button[data-g]"); if (!b) return;
-    group = group === b.dataset.g ? "" : b.dataset.g;  // aktive Kategorie nochmal tippen = alle
+    const g = b.dataset.g; groups.has(g) ? groups.delete(g) : groups.add(g); saveGroups();  // an-/abwählen, kombinierbar
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
     renderChips(); renderList();
   });
@@ -1290,11 +1318,18 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const hs = el.querySelector(".hstrip");
     if (hs) {
       const pcb = el.querySelector(".hero .pcount b"), cred = el.querySelector(".hcred"), imgs = hs.querySelectorAll("img");
+      const pa = el.querySelectorAll(".hero .parrows button");
+      pa.forEach(b => b.onclick = e => {
+        e.stopPropagation();
+        const i = Math.max(0, Math.min(imgs.length - 1, Math.round(hs.scrollLeft / (hs.clientWidth || 1)) + +b.dataset.ph));
+        hs.scrollTo({ left: i * hs.clientWidth, behavior: "smooth" });
+      });
       let cur = -1;
       const upd = () => {
         const i = Math.max(0, Math.min(imgs.length - 1, Math.round(hs.scrollLeft / (hs.clientWidth || 1))));
         if (i === cur) return; cur = i; const im = imgs[i];
         if (pcb) pcb.textContent = i + 1;
+        if (pa.length) { pa[0].disabled = i === 0; pa[1].disabled = i === imgs.length - 1; }
         if (cred) cred.innerHTML = `Foto: <a href="${esc(im.dataset.href)}" target="_blank" rel="noopener">${esc(im.dataset.cr)}</a>` +
           (im.dataset.post ? ` · <a href="${esc(im.dataset.post)}" target="_blank" rel="noopener">Post ↗</a>` : "");
       };
@@ -1446,11 +1481,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         : sortBy === "prio" ? prioRank(a) - prioRank(b) || a._d - b._d
         : here() ? a._d - b._d : prioRank(a) - prioRank(b));
     order = items.map(p => p.id);
-    $("#group").querySelectorAll("button[data-g]").forEach(x => x.classList.toggle("on", x.dataset.g === group));
+    $("#group").querySelectorAll("button[data-g]").forEach(x => x.classList.toggle("on", groups.has(x.dataset.g)));
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = favF || trashF || areaF || group === "food" || group === "claude" || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = favF || trashF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${s.fav ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
@@ -1877,7 +1912,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   function openAdd(latlng) {
     dlg.hidden = false; setSnap("peek");
-    const pre = group === "food" ? "Food" : "Eigene";
+    const pre = groups.size === 1 && groups.has("food") ? "Food" : "Eigene";
     $("#addCat").innerHTML = [...new Set([...places.map(p => p.category).filter(Boolean).sort(), "Food", "Eigene"])]
       .map(c => `<option${c === pre ? " selected" : ""}>${esc(c)}</option>`).join("");
     $("#tokenRow").hidden = !!store.get(TOKEN_KEY);
