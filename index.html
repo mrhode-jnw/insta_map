@@ -369,7 +369,8 @@
   #group { align-items: center; }
   #group .where { position: relative; display: flex; align-items: center; padding: 7px 10px; border-radius: 999px; font-size: 14px; font-weight: 600; white-space: nowrap; }
   #group .where::after { content: "▾"; margin-left: 4px; font-size: 11px; opacity: .6; }
-  #group .where select { position: absolute; inset: 0; opacity: 0; font-size: 16px; cursor: pointer; }
+  #group button.where { font-weight: 600; }
+  .wdim { opacity: .4; pointer-events: none; } .tprow.wsub { padding-left: 18px; }
   #group .sep { width: 1px; align-self: stretch; margin: 6px 2px; background: var(--line, #ccc); }
   @media (max-width: 799px) { .leaflet-top.leaflet-right { margin-top: 56px; } }
   @media (min-width: 800px) { #group { left: 390px; } }
@@ -416,8 +417,7 @@
 </div>
 <div id="map"></div>
 <div id="group" role="tablist" aria-label="Bereich">
-  <label class="where"><span id="whereLbl">🧭 Route</span><select id="where" aria-label="Bereich wählen">
-    <option value="route">🧭 Route</option><option value="hk">🇭🇰 Hongkong</option><option value="cn">🇨🇳 China</option><option value="all">🌏 Alles</option></select></label>
+  <button class="where" id="whereBtn" type="button" aria-label="Bereich wählen"><span id="whereLbl">🧭 Route</span></button>
   <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-g="noloc">📍 Ohne Ort</button>
 </div>
 <button id="tourBtn" class="fab" title="Touren" aria-label="Touren" hidden>🧭</button>
@@ -1015,32 +1015,55 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   try { const g = JSON.parse(localStorage.getItem("groups") || "null"); if (Array.isArray(g)) groups = new Set(g.filter(x => GROUPS[x])); } catch {}
   const saveGroups = () => { try { localStorage.setItem("groups", JSON.stringify([...groups])); } catch {} };
   const inGroups = p => !groups.size || [...groups].some(g => GROUPS[g](p));
-  // Bereich oben links: 🧭 Route (nur Spots an unserer Route) · 🇭🇰 Hongkong · 🇨🇳 China · 🌏 Alles
-  const WHERE = { route: "🧭 Route", hk: "🇭🇰 Hongkong", cn: "🇨🇳 China", all: "🌏 Alles" };
+  // Bereich oben links: 🧭 Route (nur Spots an unserer Route) oder frei kombinierbare Regionen der Reise (Mehrfachauswahl)
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
-  let where = "route";
-  try { where = WHERE[localStorage.getItem("where")] ? localStorage.getItem("where") : "route"; } catch {}
-  let routeF = where === "route";
-  let region = routeF ? "hk" : where;  // für die Startansicht
-  const inRegion = p => region === "all" || regionOf(p) === region;
+  const SUBS = [["hk", "🇭🇰 Hongkong"], ["sz", "Shenzhen"], ["gl", "Guilin · Yangshuo · Longji"], ["gz", "Guizhou"],
+    ["zjj", "Zhangjiajie · Fenghuang"], ["cq", "Chongqing"], ["sh", "Shanghai"], ["cnx", "Sonstiges China"]];
+  const SUB_LABEL = Object.fromEntries(SUBS);
+  const subOf = p => {
+    if (regionOf(p) === "hk") return "hk";
+    const a = p.lat, o = p.lng;
+    if (a > 22.3 && a < 23 && o > 113.6 && o < 114.8) return "sz";
+    if (a > 24.3 && a < 26.3 && o > 109.8 && o < 111.2) return "gl";
+    if (a > 28.8 && a < 30.6 && o > 105.3 && o < 108.6) return "cq";
+    if (a > 27.5 && a < 30.2 && o > 109.4 && o < 111.6) return "zjj";
+    if (a > 24.5 && a < 29.3 && o > 103.5 && o < 109.8) return "gz";
+    if (a > 30.6 && a < 31.9 && o > 120.8 && o < 122.2) return "sh";
+    return "cnx";
+  };
+  let routeF = true, regs = new Set();  // regs leer = alle Regionen
+  try {
+    const w = localStorage.getItem("where"), r = JSON.parse(localStorage.getItem("regs") || "null");
+    routeF = !w || w === "route";
+    regs = Array.isArray(r) ? new Set(r.filter(x => SUB_LABEL[x])) : w === "hk" ? new Set(["hk"]) : w === "cn" ? new Set(SUBS.map(x => x[0]).filter(x => x !== "hk")) : new Set();
+  } catch {}
+  const allRegs = () => !regs.size || regs.size === SUBS.length;
+  const inRegion = p => allRegs() || regs.has(subOf(p));
+  const whereLabel = () => {
+    if (routeF) return "🧭 Route";
+    if (allRegs()) return "🌏 Alles";
+    if (!regs.has("hk") && regs.size === SUBS.length - 1) return "🇨🇳 China";
+    const n = [...regs].map(k => k === "hk" ? "🇭🇰 HK" : SUB_LABEL[k].split(" · ")[0]);
+    return n.length <= 2 ? n.join(" + ") : `${n[0]} +${n.length - 1}`;
+  };
   const inScope = p => routeF ? routeStop(p) >= 0 : inRegion(p);
   const inGroup = p => inScope(p) && inGroups(p);
   function fitRegion() {  // Hauptcluster der Region zeigen (Ausreißer nicht einbeziehen)
     const ps = places.filter(inRegion); if (!ps.length) return;
     const mid = arr => arr.slice().sort((a, b) => a - b)[arr.length >> 1];
     const c = { lat: mid(ps.map(p => p.lat)), lng: mid(ps.map(p => p.lng)) };
-    const near = region === "hk" ? ps.filter(p => dist(c, p) < 100e3) : ps;
+    const near = regs.size === 1 ? ps.filter(p => dist(c, p) < 150e3) : ps;
     map.fitBounds(L.latLngBounds(near.map(p => [p.lat, p.lng])), { padding: [40, 40], animate: false });
   }
   function showWhere() {
-    $("#where").value = where; $("#whereLbl").textContent = WHERE[where];
+    $("#whereLbl").textContent = whereLabel();
     $("#group").querySelectorAll("[data-g=food],[data-g=claude]").forEach(x =>
       x.hidden = !places.some(p => inScope(p) && GROUPS[x.dataset.g](p)));
     const nl = $("#group [data-g=noloc]"); if (nl) nl.hidden = !unplacedScope().length;
   }
-  function setWhere(w, fit = true) {
-    where = w; routeF = w === "route"; if (!routeF) region = w;
-    try { localStorage.setItem("where", where); } catch {}
+  function setWhere(route, newRegs, fit = true) {
+    routeF = route; if (newRegs) regs = new Set(newRegs);
+    try { localStorage.setItem("where", routeF ? "route" : "regions"); localStorage.setItem("regs", JSON.stringify([...regs])); } catch {}
     routeF ? routeLayer.addTo(map) : routeLayer.remove();
     quietClose = true; map.closePopup(); quietClose = false; savedView = null;
     if (groups.size && !places.some(p => inScope(p) && inGroups(p)) && !(groups.has("noloc") && unplacedScope().length)) { groups = new Set(["fotos"]); saveGroups(); }
@@ -1048,9 +1071,32 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (!fit) return;
     if (routeF) map.fitBounds(L.latLngBounds(ROUTE.map(r => [r.lat, r.lng])), { padding: [40, 40], animate: false });
     else fitRegion();
-    toast(`${WHERE[where]}: ${places.filter(inScope).length} Spots`, 2000);
   }
-  $("#where").addEventListener("change", e => setWhere(e.target.value));
+  // Auswahl-Fenster: Route oder Regionen ankreuzen (Alles / einzelne, mehrere möglich)
+  function openWhere() {
+    const box = $("#tourPick");
+    const cnt = k => places.filter(p => subOf(p) === k && inGroups(p)).length;
+    const render = () => {
+      box.innerHTML = `<div class="tpcard"><div class="tphead"><b>Bereich</b><button class="tpclose" aria-label="Schließen">✕</button></div>
+        <label class="tprow"><input type="radio" name="wm" data-w="route" ${routeF ? "checked" : ""}> 🧭 Nur an unserer Route <small>(${places.filter(p => routeStop(p) >= 0 && inGroups(p)).length})</small></label>
+        <label class="tprow"><input type="radio" name="wm" data-w="regs" ${routeF ? "" : "checked"}> Regionen wählen:</label>
+        <div class="${routeF ? "wdim" : ""}">
+        <label class="tprow"><input type="checkbox" data-all ${allRegs() ? "checked" : ""}> <b>🌏 Alles</b></label>
+        ${SUBS.map(([k, l]) => `<label class="tprow wsub"><input type="checkbox" data-r="${k}" ${allRegs() || regs.has(k) ? "checked" : ""}> ${esc(l)} <small>(${cnt(k)})</small></label>`).join("")}
+        </div><button class="xa-save" data-ok>Fertig</button></div>`;
+      box.querySelector(".tpclose").onclick = box.querySelector("[data-ok]").onclick = () => { box.hidden = true; };
+      box.querySelectorAll("input[name=wm]").forEach(r => r.onchange = () => { setWhere(r.dataset.w === "route", null); render(); });
+      box.querySelector("[data-all]").onchange = e => { setWhere(false, e.target.checked ? [] : ["hk"]); render(); };
+      box.querySelectorAll("[data-r]").forEach(c => c.onchange = () => {
+        const cur = allRegs() ? new Set(SUBS.map(x => x[0])) : new Set(regs);
+        c.checked ? cur.add(c.dataset.r) : cur.delete(c.dataset.r);
+        if (!cur.size) { c.checked = true; return; }  // mindestens eine Region
+        setWhere(false, cur.size === SUBS.length ? [] : [...cur]); render();
+      });
+    };
+    render(); box.hidden = false;
+  }
+  $("#whereBtn").addEventListener("click", e => { e.stopPropagation(); openWhere(); });
   $("#group").addEventListener("click", e => {
     const b = e.target.closest("button[data-g]"); if (!b) return;
     const g = b.dataset.g; groups.has(g) ? groups.delete(g) : groups.add(g); saveGroups();  // an-/abwählen, kombinierbar
@@ -1460,7 +1506,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // ---------- Liste
   function unplacedScope() {  // Posts ohne Ort im gewählten Bereich (Route/Alles: alle), passend zur Suche
     const q = ($("#search") ? $("#search").value : "").trim().toLowerCase();
-    return unplacedAll.filter(x => (routeF || region === "all" || (x.region || "hk") === region)
+    return unplacedAll.filter(x => (routeF || allRegs() || ((x.region || "hk") === "hk" ? regs.has("hk") : [...regs].some(r => r !== "hk")))
       && (!q || [x.username, x.caption].join(" ").toLowerCase().includes(q)));
   }
   const prioRank = p => ({ hoch: 0, mittel: 1, gering: 2, nein: 4 })[st(p.id).prio] ?? 3;
@@ -1726,7 +1772,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const np = places.reduce((m, p) => !m || dist(me, p) < dist(me, m) ? p : m, null);
     const nearest = np ? dist(me, np) : Infinity;
     const wasNear = nearSpots; nearSpots = nearest < 50e3;
-    if (first && nearSpots && (where === "hk" || where === "cn") && regionOf(np) !== where) setWhere(regionOf(np), false);  // vor Ort automatisch die passende Region
+    if (first && nearSpots && !routeF && regs.size === 1 && !regs.has(subOf(np))) setWhere(false, [subOf(np)], false);  // vor Ort automatisch die passende Region
     if (first && nearSpots) map.setView(ll, Math.max(map.getZoom(), 15));
     if (first && !nearSpots && places.length) toast(`Du bist ${fmt(nearest)} vom nächsten Spot entfernt – Entfernungen erscheinen vor Ort.`, 4500);
     if (wasNear !== nearSpots) lastListUpdate = 0;
