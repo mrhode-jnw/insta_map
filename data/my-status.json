@@ -482,5 +482,8 @@
  },
  "cn-fenghuang-ancient-town": {
   "hidden": true
+ },
+ "cn-canton-tower": {
+  "prio": "nein"
  }
 }
