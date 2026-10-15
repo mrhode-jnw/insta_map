@@ -184,6 +184,55 @@
   #tourBtn { bottom: calc(env(safe-area-inset-bottom) + 212px); font-size: 20px; }
   #tourBtn.on { background: #2563eb; color: #fff; }
   @media (min-width: 800px) { #tourBtn { bottom: 200px; } }
+  #itinBtn { bottom: calc(env(safe-area-inset-bottom) + 272px); font-size: 20px; }
+  #itinBtn.on { background: #0f766e; color: #fff; }
+  @media (min-width: 800px) { #itinBtn { bottom: 260px; } }
+  /* Reiseplan: Vollbild mit Tagesleiste und Karten je Stopp / Etappe / Hotel */
+  #itin { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
+  #itin[hidden] { display: none; }
+  @media (min-width: 800px) { #itin { left: auto; width: 480px; box-shadow: var(--shadow); } }
+  #itin header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 14px 8px; }
+  #itin header b { font-size: 17px; flex: 1; }
+  #itin header button { width: 38px; height: 34px; border-radius: 10px; border: 0; background: #111827; color: #fff; font-size: 17px; cursor: pointer; }
+  #itinDays { display: flex; gap: 6px; overflow-x: auto; padding: 4px 12px 10px; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+  #itinDays button { flex: none; display: flex; flex-direction: column; align-items: center; min-width: 52px; padding: 5px 8px; border-radius: 12px;
+    border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; font-size: 11.5px; line-height: 1.25; }
+  #itinDays button b { font-size: 16px; } #itinDays button.on { background: #0f766e; border-color: #0f766e; color: #fff; }
+  #itinDays button.today:not(.on) { border-color: #0f766e; }
+  #itinBody { flex: 1; overflow-y: auto; padding: 12px 12px calc(env(safe-area-inset-bottom) + 24px); }
+  .idh h2 { margin: 0 0 4px; font-size: 19px; } .idh .ist { font-size: 11.5px; padding: 2px 8px; border-radius: 999px; background: #fef3c7; color: #92400e; vertical-align: middle; margin-left: 6px; }
+  .isun { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 10px; font-size: 12.5px; }
+  .isun span { padding: 4px 8px; border-radius: 8px; background: rgba(148,163,184,.15); }
+  .imapb { width: 100%; padding: 10px; border-radius: 12px; border: 0; background: #0f766e; color: #fff; font-size: 15px; font-weight: 600; cursor: pointer; margin-bottom: 12px; }
+  .ic { display: grid; grid-template-columns: 54px 1fr; gap: 10px; margin-bottom: 10px; }
+  .ic .itm { font: 700 14px/1.2 system-ui, sans-serif; padding-top: 10px; text-align: right; color: var(--fg); word-break: break-word; }
+  .ic .itm small { display: block; font-weight: 500; font-size: 11.5px; color: var(--muted); }
+  .icard { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: rgba(148,163,184,.07); }
+  .icard .ihero { position: relative; aspect-ratio: 16/9; background: var(--line); cursor: zoom-in; }
+  .icard .ihero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .icard .ihero .icount { position: absolute; right: 8px; bottom: 8px; background: rgba(0,0,0,.6); color: #fff; font-size: 12px; padding: 2px 8px; border-radius: 999px; }
+  .icard .ithumbs { display: flex; gap: 3px; overflow-x: auto; scrollbar-width: none; }
+  .icard .ithumbs img { width: 64px; height: 64px; object-fit: cover; flex: none; cursor: zoom-in; }
+  .icard .ib { padding: 9px 11px 11px; }
+  .icard h3 { margin: 0 0 6px; font-size: 16px; line-height: 1.3; }
+  .ibadges { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 7px; }
+  .ibadges span { font-size: 11.5px; padding: 2px 7px; border-radius: 999px; font-weight: 600; }
+  .b-plan { background: #dbeafe; color: #1e3a8a; } .b-ig { background: #fce7f3; color: #9d174d; } .b-cl { background: #ede9fe; color: #4c1d95; }
+  .b-hotel { background: #ccfbf1; color: #115e59; } .b-open { background: #fee2e2; color: #991b1b; }
+  .ilight { display: inline-flex; align-items: center; gap: 5px; font-size: 12.5px; font-weight: 600; padding: 3px 9px; border-radius: 8px; margin-bottom: 7px; }
+  .l-dawn { background: #e0e7ff; color: #3730a3; } .l-sunrise, .l-sunset, .l-golden { background: #ffedd5; color: #9a3412; }
+  .l-blue { background: #1e3a8a; color: #dbeafe; } .l-night { background: #111827; color: #fde68a; border: 1px solid #374151; }
+  .l-day { background: #fef9c3; color: #713f12; } .l-midday { background: #e5e7eb; color: #374151; } .l-indoor { background: #f5f5f4; color: #44403c; }
+  .icard p { margin: 0 0 6px; font-size: 14px; line-height: 1.45; }
+  .icard .itip { font-size: 12.5px; color: var(--muted); line-height: 1.45; }
+  .icard .itip summary { cursor: pointer; color: var(--accent); font-weight: 600; margin-bottom: 4px; }
+  .icard .iact { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+  .icard .iact a, .icard .iact button { font-size: 13px; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; text-decoration: none; }
+  .imove { display: grid; grid-template-columns: 54px 1fr; gap: 10px; margin: -2px 0 8px; }
+  .imove div:last-child { border-left: 3px dashed #94a3b8; margin-left: 14px; padding: 4px 0 4px 14px; font-size: 13px; color: var(--muted); }
+  .imove b { color: var(--fg); }
+  .iinfo { display: flex; gap: 10px; align-items: flex-start; padding: 9px 11px; }
+  .iinfo .iic { font-size: 22px; line-height: 1; }
   .tour-stop { display: flex; align-items: center; gap: 4px; white-space: nowrap; transform: translate(-13px, -13px); }
   .tour-stop b { width: 26px; height: 26px; border-radius: 50%; background: #2563eb; color: #fff; border: 2px solid #fff; display: grid; place-items: center;
     font: 700 13px system-ui, sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
@@ -397,9 +446,9 @@
   /* Handy: solange ein Spot offen ist, gehört ihm der ganze Bildschirm unter dem Bereichs-Umschalter */
   @media (max-width: 799px) {
     /* nur aus-/einblenden, nichts bewegt sich (vorher fuhr die Liste weg und wieder hoch) */
-    .leaflet-top.leaflet-right, #add, #locate, #tourBtn, #sheet { transition: opacity .18s ease; }
+    .leaflet-top.leaflet-right, #add, #locate, #tourBtn, #itinBtn, #sheet { transition: opacity .18s ease; }
     #sheet { transition: transform .28s cubic-bezier(.2,.8,.2,1), opacity .18s ease; }
-    body.popup-open .leaflet-top.leaflet-right, body.popup-open #add, body.popup-open #locate, body.popup-open #tourBtn,
+    body.popup-open .leaflet-top.leaflet-right, body.popup-open #add, body.popup-open #locate, body.popup-open #tourBtn, body.popup-open #itinBtn,
     body.popup-open #sheet { opacity: 0; pointer-events: none; }
   }
   #update { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 110px); z-index: 2500;
@@ -440,6 +489,7 @@
   <button class="where" id="whereBtn" type="button" aria-label="Bereich wählen"><span id="whereLbl">🧭 Route</span></button>
   <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-nltop>📍 Ohne Ort</button>
 </div>
+<button id="itinBtn" class="fab" title="Reiseplan" aria-label="Reiseplan" hidden>📅</button>
 <button id="tourBtn" class="fab" title="Touren" aria-label="Touren" hidden>🧭</button>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
 <button id="add" class="fab" title="Spot hinzufügen" aria-label="Spot hinzufügen">+</button>
@@ -509,6 +559,11 @@
   <div id="toursBody"></div>
 </div>
 <div id="tourPick" hidden></div>
+<div id="itin" hidden role="dialog" aria-label="Reiseplan">
+  <header><b>📅 Reiseplan</b><button id="itinClose" aria-label="Schließen">✕</button></header>
+  <div id="itinDays"></div>
+  <div id="itinBody"></div>
+</div>
 <div id="insp" hidden role="dialog" aria-label="Inspiration">
   <header><b>💡 Inspiration</b><span id="inspSub"></span><button id="inspClose" aria-label="Schließen">✕</button></header>
   <div id="inspFilter"></div>
@@ -592,7 +647,7 @@
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
   const v = Date.now();
-  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script>`);
+  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script>`);
 </script>
 <script src="crypto.js"></script>
 <script>
@@ -1614,6 +1669,137 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   });
   $("#inspBtn").onclick = e => { e.stopPropagation(); openInsp(); };
   $("#inspClose").onclick = () => { $("#insp").hidden = true; };
+  // ---------- Reiseplan (data/itinerary.js aus cn/itinerary.json): Tage mit Karten je Stopp, Etappe, Hotel – und Tagesroute auf der Karte
+  const ITIN = window.ITINERARY || { days: [], hotels: {} };
+  const itinBtn = $("#itinBtn"); itinBtn.hidden = !ITIN.days.length;
+  const WD = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"];
+  const dayDate = d => new Date(d.date + "T12:00:00+08:00");
+  const dayLabel = d => { const x = dayDate(d); return `${WD[x.getUTCDay()]} ${x.getUTCDate()}.${x.getUTCMonth() + 1}.`; };
+  // Sonnenauf-/-untergang (NOAA), Ortszeit China (UTC+8); zen 96° = Ende der bürgerlichen Dämmerung ≈ Ende blaue Stunde
+  function sunTime(lat, lng, d, rise, zen = 90.833) {
+    const N = Math.round((d - Date.UTC(d.getUTCFullYear(), 0, 0)) / 864e5), rad = Math.PI / 180, lh = lng / 15;
+    const t = N + ((rise ? 6 : 18) - lh) / 24, M = 0.9856 * t - 3.289;
+    const Ls = (M + 1.916 * Math.sin(M * rad) + 0.020 * Math.sin(2 * M * rad) + 282.634 + 360) % 360;
+    let RA = (Math.atan(0.91764 * Math.tan(Ls * rad)) / rad + 360) % 360;
+    RA = (RA + Math.floor(Ls / 90) * 90 - Math.floor(RA / 90) * 90) / 15;
+    const sd = 0.39782 * Math.sin(Ls * rad), cd = Math.cos(Math.asin(sd));
+    const ch = (Math.cos(zen * rad) - sd * Math.sin(lat * rad)) / (cd * Math.cos(lat * rad));
+    if (ch > 1 || ch < -1) return "";
+    const H = (rise ? 360 - Math.acos(ch) / rad : Math.acos(ch) / rad) / 15;
+    const loc = ((H + RA - 0.06571 * t - 6.622 - lh + 8) % 24 + 24) % 24;
+    return `${Math.floor(loc)}:${String(Math.floor(loc % 1 * 60)).padStart(2, "0")}`;
+  }
+  const today = new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);  // Datum in China
+  let itinDay = (ITIN.days.find(d => d.date >= today) || ITIN.days[ITIN.days.length - 1] || {}).date;
+  let itinShown = null; try { itinShown = localStorage.getItem("itinShown"); } catch {}
+  const spotOf = id => places.find(p => p.id === id);
+  const fmtMin = m => m >= 60 ? `${Math.floor(m / 60)} h${m % 60 ? " " + String(m % 60).padStart(2, "0") : ""}` : `${m} Min.`;
+  const MODE = { car: "🚗", walk: "🚶", train: "🚄", shuttle: "🚡" };
+  const LIGHT_ICON = { dawn: "🌌", sunrise: "🌅", golden: "🌇", day: "☀️", midday: "🕛", indoor: "🪟", sunset: "🌇", blue: "🌃", night: "🌙" };
+  const timeHtml = t => { if (!t) return ""; const [a, b] = t.split(/[–-]/); return b ? `${esc(a)}<small>bis ${esc(b)}</small>` : esc(a); };
+  const lightHtml = it => it.light ? `<div class="ilight l-${esc(it.light)}">${LIGHT_ICON[it.light] || ""} ${esc(it.lightText || "")}</div>` : "";
+  let itinLb = [];  // Bildlisten je Karte für die Vollbildansicht
+  function stopCard(it) {
+    const p = spotOf(it.spot); if (!p) return "";
+    const imgs = imgsOf(p).map(x => x.image), k = itinLb.push({ p }) - 1;
+    const kind = p.by_claude ? `<span class="b-cl">✦ Claude-Tipp</span>` : `<span class="b-ig">📸 Instagram</span>`;
+    const tip = p.tip || p.note || "";
+    return `<div class="icard">
+      ${p.image ? `<div class="ihero" data-lb="${k}" data-i="0"><img src="${esc(p.image)}" alt="" loading="lazy">${imgs.length > 1 ? `<span class="icount">1/${imgs.length}</span>` : ""}</div>` : ""}
+      ${imgs.length > 1 ? `<div class="ithumbs">${imgs.slice(1, 9).map((src, i) => `<img src="${esc(src)}" alt="" loading="lazy" data-lb="${k}" data-i="${i + 1}">`).join("")}</div>` : ""}
+      <div class="ib"><h3>${esc(p.name)}</h3>
+        <div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${kind}${p.category ? `<span class="b-hotel" style="background:rgba(148,163,184,.2);color:inherit">${esc(p.category)}</span>` : ""}</div>
+        ${lightHtml(it)}
+        ${it.text ? `<p>${esc(it.text)}</p>` : ""}
+        ${tip && tip !== it.text ? `<details class="itip"><summary>Foto-Tipps & Infos</summary>${esc(tip)}</details>` : ""}
+        <div class="iact"><button data-spot="${esc(p.id)}">📍 Auf der Karte</button>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}" target="_blank" rel="noopener">Route ↗</a></div></div></div>`;
+  }
+  function hotelCard(it) {
+    const H = ITIN.hotels[it.name] || {}, k = itinLb.push({ hotel: H }) - 1, ph = H.photos || [];
+    return `<div class="icard">
+      ${ph.length ? `<div class="ihero" data-lb="${k}" data-i="0"><img src="${esc(ph[0])}" alt="" loading="lazy">${ph.length > 1 ? `<span class="icount">1/${ph.length}</span>` : ""}</div>` : ""}
+      ${ph.length > 1 ? `<div class="ithumbs">${ph.slice(1).map((src, i) => `<img src="${esc(src)}" alt="" loading="lazy" data-lb="${k}" data-i="${i + 1}">`).join("")}</div>` : ""}
+      <div class="ib"><h3>🏨 ${esc(H.name || it.name)}</h3>
+        <div class="ibadges"><span class="b-hotel">${esc(it.label || "Unterkunft")}</span>${H.booked === false ? `<span class="b-open">noch nicht gebucht</span>` : ""}</div>
+        ${H.zh ? `<p class="itip">${esc(H.zh)}</p>` : ""}
+        <p>${esc([H.dates, H.room].filter(Boolean).join(" · "))}</p>
+        ${H.note ? `<p class="itip">${esc(H.note)}</p>` : ""}
+        <p class="itip">${esc(H.address || "")}${H.approx ? " · Pin ungefähr" : ""}</p>
+        <div class="iact">${H.lat ? `<button data-ll="${H.lat},${H.lng}">📍 Auf der Karte</button><a href="https://www.google.com/maps/dir/?api=1&destination=${H.lat},${H.lng}" target="_blank" rel="noopener">Route ↗</a>` : ""}
+          ${H.link ? `<a href="${esc(H.link)}" target="_blank" rel="noopener">Trip.com ↗</a>` : ""}</div></div></div>`;
+  }
+  function renderItin() {
+    const d = ITIN.days.find(x => x.date === itinDay) || ITIN.days[0]; if (!d) return;
+    $("#itinDays").innerHTML = ITIN.days.map(x => { const [w, dm] = dayLabel(x).split(" ");
+      return `<button data-day="${x.date}" class="${x.date === d.date ? "on" : ""}${x.date === today ? " today" : ""}">${w}<b>${dm.split(".")[0]}</b>${dm.split(".")[1]}.</button>`; }).join("");
+    const first = d.items.find(it => it.lat) || {}, dd = dayDate(d);
+    const sun = first.lat ? [sunTime(first.lat, first.lng, dd, true), sunTime(first.lat, first.lng, dd, false), sunTime(first.lat, first.lng, dd, false, 96)] : null;
+    itinLb = [];
+    const body = d.items.map(it => {
+      if (it.type === "move") return `<div class="imove"><div></div><div>${MODE[it.mode] || "➜"} <b>${it.min ? fmtMin(it.min) : ""}</b>${it.km ? ` · ${it.km} km` : ""}${it.text ? ` · ${esc(it.text)}` : ""}</div></div>`;
+      const card = it.type === "stop" ? stopCard(it) : it.type === "hotel" ? hotelCard(it)
+        : `<div class="icard"><div class="iinfo"><span class="iic">${esc(it.icon || "•")}</span><div><h3>${esc(it.title || "")}</h3>
+            ${it.plan ? `<div class="ibadges"><span class="b-plan">★ Reiseplan</span></div>` : ""}${lightHtml(it)}${it.text ? `<p>${esc(it.text)}</p>` : ""}</div></div></div>`;
+      return `<div class="ic"><div class="itm">${timeHtml(it.t)}</div>${card}</div>`;
+    }).join("");
+    const on = itinShown === d.date;
+    $("#itinBody").innerHTML = `<div class="idh"><h2>${dayLabel(d)} · ${esc(d.title)}${d.status && d.status !== "fest" ? `<span class="ist">${esc(d.status)}</span>` : ""}</h2>
+      ${sun ? `<div class="isun"><span>🌅 Aufgang ${sun[0]}</span><span>🌇 Untergang ${sun[1]}</span><span>🌃 blaue Stunde bis ${sun[2]}</span></div>` : ""}
+      <button class="imapb" data-map="${d.date}">${on ? "✕ Tagesroute ausblenden" : "🗺 Tagesroute auf der Karte"}</button></div>` + body;
+    const db = $("#itinDays").querySelector("button.on"); if (db) db.scrollIntoView({ inline: "center", block: "nearest" });
+  }
+  // Tagesroute: Etappen (Auto mit Straßenverlauf, Zug gestrichelt) und nummerierte Stopps mit Uhrzeit
+  let itinLayer = null;
+  function drawItin(fit) {
+    if (itinLayer) { itinLayer.remove(); itinLayer = null; }
+    const d = itinShown && ITIN.days.find(x => x.date === itinShown);
+    itinBtn.classList.toggle("on", !!d);
+    if (!d) return;
+    const parts = [], pts = d.items.filter(it => it.lat), seen = new Map();
+    d.items.forEach((it, i) => {
+      if (it.type !== "move") return;
+      const a = [...d.items.slice(0, i)].reverse().find(x => x.lat), b = d.items.slice(i + 1).find(x => x.lat); if (!a || !b) return;
+      const path = it.path || [[a.lat, a.lng], [b.lat, b.lng]];
+      parts.push(L.polyline(path, it.mode === "car" ? { color: "#0f766e", weight: 4, opacity: .8, interactive: false }
+        : { color: it.mode === "train" ? "#475569" : "#0f766e", weight: 4, opacity: .8, dashArray: "3 9", interactive: false }));
+      const mid = path[Math.floor(path.length / 2)];
+      if (it.min) parts.push(L.marker(mid, { interactive: false, zIndexOffset: 1500, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
+        html: `<div class="leg-time" style="background:#0f766e">${MODE[it.mode] || ""} ${fmtMin(it.min)}</div>` }) }));
+    });
+    let n = 0;
+    pts.forEach(it => {
+      const key = it.lat.toFixed(4) + "," + it.lng.toFixed(4), name = it.type === "stop" ? shortName((spotOf(it.spot) || {}).name || "") : it.type === "hotel" ? "🏨 " + shortName((ITIN.hotels[it.name] || {}).name || it.name) : it.title || "";
+      const label = `${it.t ? esc(it.t.split(/[–-]/)[0]) + " " : ""}${esc(name)}`;
+      if (seen.has(key)) { seen.get(key).push(label); return; }
+      seen.set(key, [label]); it._n = ++n; it._key = key;
+    });
+    pts.filter(it => it._n).forEach(it => parts.push(L.marker([it.lat, it.lng], { interactive: false, zIndexOffset: 2000, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
+      html: `<div class="tour-stop"><b style="background:#0f766e">${it._n}</b><span>${seen.get(it._key).join(" · ")}</span></div>` }) })));
+    itinLayer = L.layerGroup(parts).addTo(map);
+    if (fit && pts.length) { if (mobile()) setSnap("peek"); map.fitBounds(L.latLngBounds(pts.map(x => [x.lat, x.lng])), { padding: [50, 50], animate: false }); }
+  }
+  function showItinDay(date, fit) { itinShown = date; try { date ? localStorage.setItem("itinShown", date) : localStorage.removeItem("itinShown"); } catch {} drawItin(fit); }
+  itinBtn.onclick = e => { e.stopPropagation(); if (itinShown) itinDay = itinShown; renderItin(); $("#itin").hidden = false; $("#itinBody").scrollTop = 0; };
+  $("#itinClose").onclick = () => { $("#itin").hidden = true; };
+  $("#itinDays").addEventListener("click", e => { const b = e.target.closest("button[data-day]"); if (!b) return; itinDay = b.dataset.day; renderItin(); $("#itinBody").scrollTop = 0; });
+  $("#itinBody").addEventListener("click", e => {
+    const im = e.target.closest("[data-lb]");
+    if (im) { const x = itinLb[+im.dataset.lb], i = +im.dataset.i;
+      if (x.p) lbOpen(x.p, i); else lbOpen({ name: x.hotel.name || "Hotel", posts: (x.hotel.photos || []).map(src => ({ image: src, url: x.hotel.link || src, credit: "Trip.com" })) }, i);
+      return; }
+    const b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.map) { showItinDay(itinShown === b.dataset.map ? null : b.dataset.map, true); if (itinShown) $("#itin").hidden = true; else renderItin(); return; }
+    if (b.dataset.spot || b.dataset.ll) {
+      if (itinShown !== itinDay) showItinDay(itinDay, false);
+      $("#itin").hidden = true; if (mobile()) setSnap("peek");
+      const p = b.dataset.spot && spotOf(b.dataset.spot), [la, ln] = p ? [p.lat, p.lng] : b.dataset.ll.split(",").map(Number);
+      map.setView([la, ln], Math.max(map.getZoom(), 16), { animate: false });
+      if (p) { if (!shown.has(p.id)) { stickyId = p.id; renderList(); }
+        const m = markers.get(p.id); if (m) setTimeout(() => cluster.zoomToShowLayer(m, () => openSpot(m)), 350); }
+    }
+  });
+  drawItin(false);
   function lbOpen(p, i) { lb.list = spotImages(p); lb.name = p.name.replace(/\s[\u3000-\u9fff].*$/, ""); lb.el.hidden = false; lbShow(i); }
   const lbClose = () => { lb.el.hidden = true; $("#lbImg").src = ""; };
   $("#lbClose").onclick = lbClose;

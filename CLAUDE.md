@@ -16,3 +16,9 @@
   sonst andere Webquellen (trip.com-Moments der Attraktion, Ctrip-Reiseberichte, Nachrichten-/Blogfotos, Commons).
   Bilder nach `images/`, Eintrag in `cn/extra_photos.json` (Name → [{image, url, credit}]), Bilder vorher ansehen:
   nur Fotos, die wirklich den Ort zeigen (keine KI-Bilder, keine Nachbarorte).
+
+## Reiseplan (📅 in der App)
+- Quelle `cn/itinerary.json` (Tage → Karten: stop/move/info/hotel), danach `python3 tools/build_itinerary.py`
+  (prüft Spot-IDs, rechnet Auto-Etappen per OSRM ×1,2) → `data/itinerary.js`.
+- Jeder Stopp ist ein Spot; Instagram-Spots haben Vorrang. Zu jedem Stopp Licht angeben (`light`, `lightText`):
+  fotografieren im guten Licht, mittags fahren oder Innenräume.
