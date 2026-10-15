@@ -864,7 +864,10 @@
   "pop": 4,
   "reason": "180°-Schleife des Li River ('erste Biegung des Li') zum Sonnenaufgang",
   "tip": "Tag 3 (17.10.): Sonnenaufgang ca. 6:40, Aufstieg ab Dorf Dahebei 大河背 ca. 40–50 Min. (Weggebühr ca. 20 CNY), also gegen 5:30 losgehen. Blick auf die sichelförmige 180°-Biegung des Li River mit Karstkegeln; bei Morgennebel am stärksten. Weitwinkel 16-35 für die ganze Schleife, Stativ. Oben oft voll – früh einen Platz an der Kante sichern. Pin = Gipfel laut OSM.",
-  "date": "15.10."
+  "date": "15.10.",
+  "image": "images/claude_cn_damian-hill.jpg",
+  "image_page": "https://www.trip.com/travel-guide/attraction/yangshuo/damian-mountain-23865244/",
+  "image_credit": "trip.com (Attraktionsseite, Nutzerfoto)"
  },
  {
   "name": "Xingping Ancient Town 兴坪古镇",
@@ -891,7 +894,10 @@
   "pop": 3,
   "reason": "Ming/Qing-Dorf am Li River, Graudach-Häuser vor Karstkulisse",
   "tip": "Gut erhaltenes Dorf am Li River nahe Xingping (Bill Clinton war 1998 hier). Graue Ziegelhäuser mit geschwungenen Dachgiebeln, ruhige Gassen. Am besten mit Bambusfloß von Xingping (ca. 20 Min.). Weiches Licht am späten Nachmittag.",
-  "date": "15.10."
+  "date": "15.10.",
+  "image": "images/claude_cn_fishing-village.jpg",
+  "image_page": "https://www.trip.com/travel-guide/attraction/yangshuo/xingping-fishing-village-58279791/",
+  "image_credit": "trip.com (Attraktionsseite, Nutzerfoto)"
  },
  {
   "name": "Jinlong Bridge 金龙桥",
@@ -901,9 +907,12 @@
   "district": "Yulong River (oberer Lauf), Yangshuo, Guangxi",
   "cat": "Dorf",
   "pop": 3,
-  "reason": "Ming-zeitliche Steinbogenbrücke über den Yulong River",
-  "tip": "Steinbogenbrücke aus der Ming-Zeit am oberen Yulong River, Startpunkt der Bambusfloß-Strecke nach Jiuxian. Motiv: Bogen mit Spiegelung, Flöße und Wasserbüffel, Karst im Hintergrund – morgens bei Dunst oder im Gegenlicht am Spätnachmittag. Weniger Touristen als an der Yulong Bridge. Mögliche 'ancient stone bridge' von Tag 2.",
-  "date": "15.10."
+  "reason": "Startpunkt der Bambusflöße auf dem Yulong River, Blick unter dem Brückenbogen auf Karst",
+  "tip": "Moderne Brücke (kein historischer Bau), aber klassischer Startpunkt der Bambusfloß-Strecke nach Jiuxian (ca. 6 km, 80 Min., 9 kleine Wehre). Motiv: Flöße am Anleger und der Blick unter dem Brückenbogen auf Fluss und Karstkegel, morgens bei Dunst am schönsten. Die Ming-zeitlichen Steinbogenbrücken sind Yulong Bridge 遇龙桥 und Fuli Bridge 富里桥 – die 'ancient stone bridge' von Tag 2 ist eher eine dieser beiden.",
+  "date": "15.10.",
+  "image": "images/claude_cn_jinlong-bridge.jpg",
+  "image_page": "https://www.trip.com/travel-guide/attraction/yangshuo/jinlong-bridge-34568664/",
+  "image_credit": "trip.com (Attraktionsseite, Nutzerfoto)"
  },
  {
   "name": "Jiuxian Village 旧县村",
