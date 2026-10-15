@@ -255,7 +255,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hen_uoc_trunghoa/",
     "kind": "p",
     "image": "images/CeNNAJXJg_a_1.jpg",
-    "caption": "",
+    "caption": "📍西江千户苗寨 - Xijiang Miao Village\n西江千户苗寨在半山建造独具特色的木结构吊脚楼，千余户吊脚楼随着地形的起伏变化，层峦叠嶂，鳞次栉比，蔚为壮观。西江千户苗寨是一座露天博物馆，展览着一部苗族发展史诗，成为观赏和研究苗族传统文化的大看台。\n\n#henuoctrunghoa\n\nTây Giang Thiên Hộ Miêu Trại đã xây dựng những ngôi nhà sàn bằng gỗ độc đáo ở lưng chừng núi. Với sự uốn lượn và thay đổi của địa hình, hàng nghìn ngôi nhà sàn được xếp chồng lên nhau bằng núi non trùng điệp, tạo nên vẻ đẹp ngoạn mục. Tây Giang Thiên Hộ Miêu Trại là một bảo tàng ngoài trời trưng bày sử thi về sự phát triển của dân tộc Miêu và đã trở thành một địa điểm lớn để xem và nghiên cứu văn hóa truyền thống của dân tộc Miêu.\n________________",
     "match": "slide",
     "slide": 1
    },
@@ -267,6 +267,46 @@ window.PLACES_CN = [
     "image": "images/CzLuAxNhCXl.jpg",
     "caption": "【#遊山玩水】西江千戶苗寨 Xi jiang Qianhu Miao Village\n西江苗寨四面環山，位處貴州雷公山麓的重巒之中，清澈見底的「白水河」穿寨而過，將苗寨一分為二，河上建有數座風雨橋。\n風雨橋亦稱「花橋」，流行於湖南、貴州、廣西、湖北等地，多建於交通要道的河流上，通常由橋、塔、亭組成，用木料築成，因行人經過時能避風雨，故得名「風雨橋」。\n·\n圖片來源：Unknown photographer\n·\n·\n·\n#貴州 #西江 #千戶苗寨 #攝影 #苗寨 #china #guizhou #xijiang #qianhu #miaovillage #oldvillage #chinesevillage #photoofchina #chinesephotography #travelchina #travelguizhou #discoverguizhou #discoverchina #snapshot #instashot #chinesearchitecture #wonderful_places #stunning",
     "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/?img_index=3",
+    "username": "wiwa_b",
+    "profile_url": "https://www.instagram.com/wiwa_b/",
+    "kind": "p",
+    "image": "images/DKHIzkJRsiS_3.jpg",
+    "caption": "A little tour around Guizhou 🍶\n\n1 and 2: Zhaoxing village\n3, 4, 5 and 6: Xijiang village\n\n #travelchina #china #chinatrip #tibet\n#Sichuan#jiangxi #yunnan #zhejiang #tibet #passionpassport#Sichuan #traveltheworld #chinatravel #reizen #instagood  #Shanghai #beijing #chengdu#guizhou",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/?img_index=4",
+    "username": "wiwa_b",
+    "profile_url": "https://www.instagram.com/wiwa_b/",
+    "kind": "p",
+    "image": "images/DKHIzkJRsiS_4.jpg",
+    "caption": "A little tour around Guizhou 🍶\n\n1 and 2: Zhaoxing village\n3, 4, 5 and 6: Xijiang village\n\n #travelchina #china #chinatrip #tibet\n#Sichuan#jiangxi #yunnan #zhejiang #tibet #passionpassport#Sichuan #traveltheworld #chinatravel #reizen #instagood  #Shanghai #beijing #chengdu#guizhou",
+    "match": "slide",
+    "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/?img_index=5",
+    "username": "wiwa_b",
+    "profile_url": "https://www.instagram.com/wiwa_b/",
+    "kind": "p",
+    "image": "images/DKHIzkJRsiS_5.jpg",
+    "caption": "A little tour around Guizhou 🍶\n\n1 and 2: Zhaoxing village\n3, 4, 5 and 6: Xijiang village\n\n #travelchina #china #chinatrip #tibet\n#Sichuan#jiangxi #yunnan #zhejiang #tibet #passionpassport#Sichuan #traveltheworld #chinatravel #reizen #instagood  #Shanghai #beijing #chengdu#guizhou",
+    "match": "slide",
+    "slide": 5
+   },
+   {
+    "url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/?img_index=6",
+    "username": "wiwa_b",
+    "profile_url": "https://www.instagram.com/wiwa_b/",
+    "kind": "p",
+    "image": "images/DKHIzkJRsiS_6.jpg",
+    "caption": "A little tour around Guizhou 🍶\n\n1 and 2: Zhaoxing village\n3, 4, 5 and 6: Xijiang village\n\n #travelchina #china #chinatrip #tibet\n#Sichuan#jiangxi #yunnan #zhejiang #tibet #passionpassport#Sichuan #traveltheworld #chinatravel #reizen #instagood  #Shanghai #beijing #chengdu#guizhou",
+    "match": "slide",
+    "slide": 6
    }
   ],
   "pop": 5,
@@ -305,7 +345,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/chinadestinations/",
     "kind": "p",
     "image": "images/DPLvIhaCZ4F.jpg",
-    "caption": "《笠影古韻》\n青山綠水間，\n古寨像幅畫。\n那戴鬥笠的身影，\n似是在與山水對談，\n訴說著這片土地的悠悠古韻。\nAmidst the green mountains and clear waters,\nThe ancient village is like a painting.\nThe figure wearing a bamboo hat\nSeems to be conversing with the mountains and waters,\nTelling the long-standing charm of this land.\n▪️\n#hellofrom #chinatravel #贵州 #guizhou \n———————————————————————\nPhoto by @justice_gto\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to m",
+    "caption": "《笠影古韻》\n青山綠水間，\n古寨像幅畫。\n那戴鬥笠的身影，\n似是在與山水對談，\n訴說著這片土地的悠悠古韻。\nAmidst the green mountains and clear waters,\nThe ancient village is like a painting.\nThe figure wearing a bamboo hat\nSeems to be conversing with the mountains and waters,\nTelling the long-standing charm of this land.\n▪️\n#hellofrom #chinatravel #贵州 #guizhou\n———————————————————————\nPhoto by @justice_gto\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to me",
     "match": "single"
    },
    {
@@ -314,7 +354,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQMWDmggDER_3.jpg",
-    "caption": "",
+    "caption": "🍂 Autumn Sanctuaries in #Guizhou: Where Forests Meet the Sea of Clouds\n\n🗻 Wanfenglin Scenic Area\nAmong thousands of karst peaks, the forests turn amber and ochre, creating a magnificent autumn panorama that stretches endlessly across the horizon.\nBest viewing period: Mid-October to early November\nLocation: Xiawutun, #Xingyi City, Qianxinan Buyi and Miao Autonomous Prefecture\n\n🌄 Fanjing Mountain\nIn autumn, mist curls around the peaks of Fanjing Mountain while the slopes shimmer with shades of gold and crimson.\nBest viewing period: Mid-October to December\nLocation: Fanjingshan Village, #Taiping ",
     "match": "slide",
     "slide": 3
    },
@@ -396,7 +436,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQMWDmggDER_4.jpg",
-    "caption": "",
+    "caption": "🍂 Autumn Sanctuaries in #Guizhou: Where Forests Meet the Sea of Clouds\n\n🗻 Wanfenglin Scenic Area\nAmong thousands of karst peaks, the forests turn amber and ochre, creating a magnificent autumn panorama that stretches endlessly across the horizon.\nBest viewing period: Mid-October to early November\nLocation: Xiawutun, #Xingyi City, Qianxinan Buyi and Miao Autonomous Prefecture\n\n🌄 Fanjing Mountain\nIn autumn, mist curls around the peaks of Fanjing Mountain while the slopes shimmer with shades of gold and crimson.\nBest viewing period: Mid-October to December\nLocation: Fanjingshan Village, #Taiping ",
     "match": "slide",
     "slide": 4
    },
@@ -427,7 +467,7 @@ window.PLACES_CN = [
   "lng": 106.8363,
   "approx": true,
   "image": "images/DQZODOpDYAu_4.jpg",
-  "caption": "",
+  "caption": "🌊 Guizhou Wujiang Village: A Water Maze Lost in Time\n\nIf you're weary of commercialized ancient towns and yearn for a true escape where you can unwind and immerse yourself in landscapes of mountains and waters, then Wujiang Village in Guizhou should be next on your list.\n\n📍【Location】 Guizhou Zunyi Wujiang Village International Tourism Resort\nHere, you can witness intangible cultural heritage skills such as traditional paper-making, bamboo weaving, and Miao silver craftsmanship – and even roll up your sleeves to try them yourself.\n\n🌈【Must-Experience Highlights】\n① Take a rowing boat: Glide along",
   "post_url": "https://www.instagram.com/amazingguizhou/p/DQZODOpDYAu/?img_index=4",
   "username": "amazingguizhou",
   "profile_url": "https://www.instagram.com/amazingguizhou/",
@@ -438,7 +478,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQZODOpDYAu_4.jpg",
-    "caption": "",
+    "caption": "🌊 Guizhou Wujiang Village: A Water Maze Lost in Time\n\nIf you're weary of commercialized ancient towns and yearn for a true escape where you can unwind and immerse yourself in landscapes of mountains and waters, then Wujiang Village in Guizhou should be next on your list.\n\n📍【Location】 Guizhou Zunyi Wujiang Village International Tourism Resort\nHere, you can witness intangible cultural heritage skills such as traditional paper-making, bamboo weaving, and Miao silver craftsmanship – and even roll up your sleeves to try them yourself.\n\n🌈【Must-Experience Highlights】\n① Take a rowing boat: Glide along",
     "match": "slide",
     "slide": 4
    },
@@ -448,7 +488,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/chinadiscover/",
     "kind": "p",
     "image": "images/DD2GMNvtapF_2.jpg",
-    "caption": "",
+    "caption": "This quiet paradise hidden deep in northern Guizhou.\n\n📍Wujiang Village\n\nℹ️ Sourced from Xiaohongshu\n\nTag @chinadiscover for your photos in China!\n\n#halicinde #chinadiscover #chinadestinations #china #reels #chinaculture #studyinginchina #chinalife #chinatravel #chinatravel #chineseculture #wujiang",
     "match": "slide",
     "slide": 2
    },
@@ -458,7 +498,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/tourismeguizhou/",
     "kind": "p",
     "image": "images/DLHh2XzodtQ_1.jpg",
-    "caption": "",
+    "caption": "🌿 wujiangzhai : un écrin de beauté au cœur du guizhou \n\ndécouvrez ce village authentique où les maisons sur pilotis se mirent dans les eaux paisibles, entourées de montagnes verdoyantes. un lieu unique où traditions ethniques et créations contemporaines se rencontrent harmonieusement. \n\n✨ expériences à vivre : \n- le \"phoenix céleste\" : un spectacle envoûtant mêlant feu et lumière, inspiré des légendes locales \n- la danse des drones : une féérie nocturne où les lumières dessinent des tableaux magiques dans le ciel \n- l'artisanat traditionnel : ateliers de papier fait main, techniques de cire pe",
     "match": "slide",
     "slide": 1
    }
@@ -613,6 +653,231 @@ window.PLACES_CN = [
     "caption": "ALBA SUL FIUME LI, China 🌄🎋🇨🇳\n\nUna delle esperienze più surreali da vivere a Yangshuo, sul fiume Li: alba, le iconiche montagne carsiche nella foschia e i tradizionali pescatori con cormorani sulle loro zattere di bamboo✨\n\n📍 Dove: vicino a Xingping sul fiume Li, circa 30 km da Yangshuo (regione del Guangxi, Cina🇨🇳)\n🌅 Quando: all’alba - silenzio, pochissima gente e luce pazzesca\n🎣 Come organizzare: chiedete direttamente al vostro hotel, si metteranno loro in contatto con un pescatore locale per organizzare la sessione fotografica ad un prezzo molto più ragionevole di quelli che si trovano onlin",
     "match": "slide",
     "slide": 9
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=1",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_1.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=2",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_2.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=3",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 3,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=4",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_4.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=5",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 5,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=6",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 6,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=7",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_7.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=8",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 8,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=9",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_9.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 9
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=10",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 10,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=11",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_11.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 11
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=12",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 12,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=13",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 13,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=14",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_14.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 14
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=15",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_15.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 15
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=16",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_16.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 16
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=17",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 17,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/janjanuary30/p/DaXqsjFTAgj/",
+    "username": "janjanuary30",
+    "profile_url": "https://www.instagram.com/janjanuary30/",
+    "kind": "p",
+    "image": "images/DaXqsjFTAgj.jpg",
+    "caption": ".\n.\nLost in my memories\n📍Yangshuo, China | July, 2015\n.\n.\n#YangshuoChina #TravelAndLeisure #MadeWithLightroom",
+    "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=1",
+    "username": "yantastic",
+    "profile_url": "https://www.instagram.com/yantastic/",
+    "kind": "p",
+    "image": "images/B0YLfiPg1dy_1.jpg",
+    "caption": "#HelloFrom Yangshuo. This is Lao Huang, a 86 years old cormorant fisherman living in Yangshuo, China. Sadly the 1300 years old fishing method now only survives as a tourist attraction in modern days. // I’m excited to go back to China next month to work with a local tourism board. Can you guess where? ————————————————\nRemember, don’t settle for anything less than magic.",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=2",
+    "username": "yantastic",
+    "profile_url": "https://www.instagram.com/yantastic/",
+    "kind": "p",
+    "image": "images/B0YLfiPg1dy_2.jpg",
+    "caption": "#HelloFrom Yangshuo. This is Lao Huang, a 86 years old cormorant fisherman living in Yangshuo, China. Sadly the 1300 years old fishing method now only survives as a tourist attraction in modern days. // I’m excited to go back to China next month to work with a local tourism board. Can you guess where? ————————————————\nRemember, don’t settle for anything less than magic.",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=3",
+    "username": "yantastic",
+    "profile_url": "https://www.instagram.com/yantastic/",
+    "kind": "p",
+    "image": "images/B0YLfiPg1dy_3.jpg",
+    "caption": "#HelloFrom Yangshuo. This is Lao Huang, a 86 years old cormorant fisherman living in Yangshuo, China. Sadly the 1300 years old fishing method now only survives as a tourist attraction in modern days. // I’m excited to go back to China next month to work with a local tourism board. Can you guess where? ————————————————\nRemember, don’t settle for anything less than magic.",
+    "match": "slide",
+    "slide": 3
    }
   ],
   "pop": 4,
@@ -725,6 +990,48 @@ window.PLACES_CN = [
     "image": "images/DdbVoDMlRoY.jpg",
     "caption": "",
     "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/intohimoni/p/DVVu4dPCCqv/?img_index=1",
+    "username": "intohimoni",
+    "profile_url": "https://www.instagram.com/intohimoni/",
+    "kind": "p",
+    "image": null,
+    "caption": "The landscape in southern China feels surreal.\nAround Yangshuo, limestone karst peaks rise everywhere - out of fields, rivers, and even right next to the city itself. It almost looks unreal from above.\n\n___\n#yangshuo #southernchina #karstmountains #landscape #travelphotography",
+    "match": "slide",
+    "slide": 1,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/intohimoni/p/DVVu4dPCCqv/?img_index=2",
+    "username": "intohimoni",
+    "profile_url": "https://www.instagram.com/intohimoni/",
+    "kind": "p",
+    "image": "images/DVVu4dPCCqv_2.jpg",
+    "caption": "The landscape in southern China feels surreal.\nAround Yangshuo, limestone karst peaks rise everywhere - out of fields, rivers, and even right next to the city itself. It almost looks unreal from above.\n\n___\n#yangshuo #southernchina #karstmountains #landscape #travelphotography",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/intohimoni/p/DVVu4dPCCqv/?img_index=3",
+    "username": "intohimoni",
+    "profile_url": "https://www.instagram.com/intohimoni/",
+    "kind": "p",
+    "image": "images/DVVu4dPCCqv_3.jpg",
+    "caption": "The landscape in southern China feels surreal.\nAround Yangshuo, limestone karst peaks rise everywhere - out of fields, rivers, and even right next to the city itself. It almost looks unreal from above.\n\n___\n#yangshuo #southernchina #karstmountains #landscape #travelphotography",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/intohimoni/p/DVVu4dPCCqv/?img_index=4",
+    "username": "intohimoni",
+    "profile_url": "https://www.instagram.com/intohimoni/",
+    "kind": "p",
+    "image": "images/DVVu4dPCCqv_4.jpg",
+    "caption": "The landscape in southern China feels surreal.\nAround Yangshuo, limestone karst peaks rise everywhere - out of fields, rivers, and even right next to the city itself. It almost looks unreal from above.\n\n___\n#yangshuo #southernchina #karstmountains #landscape #travelphotography",
+    "match": "slide",
+    "slide": 4
    }
   ],
   "pop": 5,
@@ -743,7 +1050,7 @@ window.PLACES_CN = [
   "lng": 110.119,
   "approx": true,
   "image": "images/DRo8DqWCiXB.jpg",
-  "caption": "",
+  "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
   "post_url": "https://www.instagram.com/hanaleytravel/p/DRo8DqWCiXB/",
   "username": "hanaleytravel",
   "profile_url": "https://www.instagram.com/hanaleytravel/",
@@ -754,7 +1061,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hanaleytravel/",
     "kind": "p",
     "image": "images/DRo8DqWCiXB.jpg",
-    "caption": "",
+    "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
     "match": "single"
    },
    {
@@ -882,7 +1189,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_2.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 2
    },
@@ -1138,7 +1445,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_3.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 3
    },
@@ -1240,7 +1547,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_7.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 7
    }
@@ -1342,7 +1649,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_6.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 6
    },
@@ -1434,7 +1741,7 @@ window.PLACES_CN = [
   "lng": 106.5891,
   "approx": true,
   "image": "images/DdiudFSEbF0_5.jpg",
-  "caption": "",
+  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=5",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -1445,7 +1752,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_5.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 5
    },
@@ -1476,7 +1783,7 @@ window.PLACES_CN = [
   "lng": 106.52597,
   "approx": false,
   "image": "images/DdiudFSEbF0_4.jpg",
-  "caption": "",
+  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=4",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -1487,7 +1794,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_4.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 4
    }
@@ -3959,6 +4266,24 @@ window.PLACES_CN = [
     "image": "images/C06OeLVtipY_1.jpg",
     "caption": "",
     "credit": "@snapshot_____story · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/",
+    "kind": "photo",
+    "image": "images/DKHIzkJRsiS_1.jpg",
+    "caption": "",
+    "credit": "@wiwa_b · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/?img_index=2",
+    "kind": "photo",
+    "image": "images/DKHIzkJRsiS_2.jpg",
+    "caption": "",
+    "credit": "@wiwa_b · Instagram"
    }
   ],
   "pop": 5,
@@ -5781,6 +6106,15 @@ window.PLACES_CN = [
     "image": "images/tianxin_plan_3.jpg",
     "caption": "",
     "credit": "Ctrip-Reisebericht (Nutzerfoto)"
+   },
+   {
+    "url": "https://www.instagram.com/vdubl/p/ByfRWByhweu/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/vdubl/p/ByfRWByhweu/",
+    "kind": "photo",
+    "image": "images/ByfRWByhweu_1.jpg",
+    "caption": "",
+    "credit": "@vdubl · Instagram"
    }
   ],
   "source": "Reiseplan Fotoreise 15.–19.10.",
