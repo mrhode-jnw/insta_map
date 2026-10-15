@@ -127,6 +127,12 @@
     color: #fff; font-size: 15px; font-weight: 700; line-height: 20px; }
   .pop .hero .parrows button + button { border-left: 1px solid rgba(255,255,255,.4); }
   .pop .hero .parrows button:disabled { opacity: .35; cursor: default; }
+  .galgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin: 0 0 8px; }
+  .galgrid figure { margin: 0; position: relative; aspect-ratio: 1; overflow: hidden; border-radius: 6px; background: #eee; }
+  .galgrid img { width: 100%; height: 100%; object-fit: cover; display: block; cursor: zoom-in; }
+  .galgrid .gwho { position: absolute; left: 0; right: 0; bottom: 0; padding: 10px 5px 3px; font-size: 10.5px; color: #fff;
+    background: linear-gradient(transparent, rgba(0,0,0,.6)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; pointer-events: none; }
+  .leaflet-popup.mini .galgrid { display: none; }
   .galhead { font-size: 13px; font-weight: 600; margin: 4px 0 4px; } .galhead .galn { color: var(--accent, #e1306c); } .galhead span { font-weight: 400; color: var(--muted, #6b7280); }
   .gal figure img { width: 140px; height: 175px; border-radius: 8px; object-fit: cover; display: block; background: #eee; }
   .gal figcaption { font-size: 13px; padding-top: 3px; }
@@ -650,10 +656,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const posts = imgPosts.length ? imgPosts : null;
     const hero = !posts || posts.length === 1;
     const strip = p.image && imgPosts.length > 1 && imgPosts[0].image === p.image;  // großes Foto seitlich durchwischen
-    const gal = posts && posts.length > 1 ? `<div class="galhead"><b class="galn">📷 ${posts.length} Fotos</b> <span>– seitlich wischen →</span></div><div class="gal">${posts.map((x, i) => `
-        <figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}<span class="gnum">${i + 1}/${posts.length}</span>
-        <figcaption><a href="${esc(x.profile_url)}" target="_blank" rel="noopener">${esc(who(x))}</a>
-          <a class="postlink" href="${esc(x.url)}" target="_blank" rel="noopener">${x.credit ? "Quelle" : "Instagram-Post"} ↗</a></figcaption></figure>`).join("")}</div>` : "";
+    // Galerie: Raster aus Vorschaubildern, Antippen öffnet Vollbild (dort Quelle & Post-Link)
+    const gal = posts && posts.length > 1 ? `<div class="galhead"><b class="galn">📷 ${posts.length} Fotos</b> <span>– antippen für Vollbild</span></div><div class="galgrid">${posts.map((x, i) =>
+        `<figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}<span class="gwho">${esc(who(x))}</span></figure>`).join("")}</div>` : "";
     const navIds = navOrder(p.id), idx = navIds.indexOf(p.id);
     const multi = idx >= 0 && navIds.length > 1;
     const onImg = multi && p.image;  // Pfeile mittig über dem großen Bild
@@ -1305,7 +1310,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (pop && id && order.length > 1) {
       let t0 = null;
       pop.addEventListener("touchstart", e => {
-        if (e.touches.length !== 1 || e.target.closest(".gal, .hstrip, button, input, a")) { t0 = null; return; }
+        if (e.touches.length !== 1 || e.target.closest(".gal, .galgrid, .hstrip, button, input, a")) { t0 = null; return; }
         t0 = { x: e.touches[0].clientX, y: e.touches[0].clientY, t: Date.now() };
       }, { passive: true });
       pop.addEventListener("touchmove", e => {
