@@ -5828,6 +5828,86 @@ window.PLACES_CN = [
   "when": "both"
  },
  {
+  "id": "claude-cn-mount-fanjing-pilzfelsen-roter-goldgipfel",
+  "region": "cn",
+  "by_claude": true,
+  "name": "Mount Fanjing 梵净山 (Pilzfelsen & Roter Goldgipfel)",
+  "district": "Jiangkou, Tongren, Guizhou",
+  "category": "Aussicht",
+  "note": "",
+  "tip": "Neuer Stopp 22./23.10. (statt Nacht in Kaili): Übernachtung am Osttor, zur Öffnung mit der ersten Seilbahn hinauf, nachmittags zieht oft Nebel auf. Tickets vorab mit Pass reservieren (Tageskontingent). Pilzfelsen mit dem 16-35 von unten gegen den Himmel, den Goldgipfel mit dem 70-200 aus Distanz im Wolkenmeer. Aufstieg zum Goldgipfel über steile Leitern, ca. 1 h hin und zurück.",
+  "address": "Jiangkou, Tongren, Guizhou",
+  "lat": 27.9099965,
+  "lng": 108.6917029,
+  "approx": true,
+  "image": "images/claude_gz_fanjing_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/detail/jiangkou-2334-149297346/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/jiangkou-2334-149297346/",
+    "kind": "photo",
+    "image": "images/claude_gz_fanjing_1.jpg",
+    "caption": "",
+    "credit": "Janc C · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/jiangkou-2334-152105710/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/jiangkou-2334-152105710/",
+    "kind": "photo",
+    "image": "images/claude_gz_fanjing_2.jpg",
+    "caption": "",
+    "credit": "vaelin_5769 · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/jiangkou-2334-147210925/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/jiangkou-2334-147210925/",
+    "kind": "photo",
+    "image": "images/claude_gz_fanjing_3.jpg",
+    "caption": "",
+    "credit": "Crystal^Sorcerer*789 · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/jiangkou-2334-152105710/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/jiangkou-2334-152105710/",
+    "kind": "photo",
+    "image": "images/claude_gz_fanjing_4.jpg",
+    "caption": "",
+    "credit": "vaelin_5769 · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/jiangkou-2334-147210925/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/jiangkou-2334-147210925/",
+    "kind": "photo",
+    "image": "images/claude_gz_fanjing_5.jpg",
+    "caption": "",
+    "credit": "Crystal^Sorcerer*789 · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/jiangkou-2334-149297346/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/jiangkou-2334-149297346/",
+    "kind": "photo",
+    "image": "images/claude_gz_fanjing_6.jpg",
+    "caption": "",
+    "credit": "Janc C · trip.com Moments"
+   }
+  ],
+  "pop": 5,
+  "pop_reason": "UNESCO-Welterbe: Pilzfelsen und der Rote Goldgipfel mit zwei Tempeln auf einer gespaltenen Felsnadel über dem Wolkenmeer",
+  "image_page": "https://www.trip.com/moments/detail/jiangkou-2334-149297346/",
+  "image_credit": "Janc C · trip.com Moments",
+  "when": "both"
+ },
+ {
   "id": "cn-haus-nowhere-im-mixc-world",
   "region": "cn",
   "name": "Haus Nowhere 巨人展 im MixC World 深圳万象天地",
