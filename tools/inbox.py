@@ -63,6 +63,8 @@ def link(lid):
     d = linkinfo.info(x["url"])
     if x.get("note"):
         d["shared_text"] = x["note"]
+    if x.get("where"):
+        d["where"] = x["where"]  # Ortsangabe des Nutzers – hat Vorrang vor Vermutungen
     print(json.dumps(d, ensure_ascii=False, indent=1))
 
 
@@ -83,12 +85,14 @@ def show(code):
     if c:
         ctx[code] = c
     bp.save_json(bp.CACHE_FILE, cache)
+    where = next((e.get("where") for e in inbox() if e.get("code") == code and e.get("where")), None)
     print(json.dumps({
         "code": code,
         "username": post.get("username"),
         "slides": len(c["slides"]) if c else None,
         "numbered_entries": [e[0] for e in sl.list_entries(c["caption"])] if c else [],
         "caption": (c or {}).get("caption") or post.get("caption", ""),
+        **({"where": where} if where else {}),  # Ortsangabe des Nutzers – hat Vorrang vor Vermutungen
     }, ensure_ascii=False, indent=1))
 
 

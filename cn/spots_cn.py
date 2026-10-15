@@ -31,6 +31,7 @@ POSTS = {
  61: ("wiwa_b", "p", "DPQvDBWDpqZ"), 62: ("hen_uoc_trunghoa", "p", "CeNNAJXJg_a"), 63: ("snapshot_____story", "p", "CzLuAxNhCXl"),
  64: ("amazingguizhou", "p", "DQZODOpDYAu"), 65: ("chinadiscover", "p", "DD2GMNvtapF"), 66: ("tourismeguizhou", "p", "DLHh2XzodtQ"),
  67: ("amazingguizhou", "p", "DQMWDmggDER"), 68: ("jasmine_pirsch", "p", "DSJ4G3JiAkw"), 69: ("chinadestinations", "p", "DPLvIhaCZ4F"),
+ 70: ("ambri92", "p", "Dcym0q6DYf9"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -61,7 +62,7 @@ SPOTS = [
  ("Guilin & Li River 桂林 · 漓江", 25.2780, 110.2911, True, "Guilin, Guangxi", "Natur",
   [4], "Drohnen-Reel „What my drone saw in China“."),
  ("Xingping – Kormoranfischer am Li River 兴坪", 24.9198, 110.5278, True, "Yangshuo, Guangxi", "Dorf",
-  [7], "Klassisches Motiv: Fischer mit Kormoranen auf dem Bambusfloß."),
+  [7, (70, 3)], "Klassisches Motiv: Fischer mit Kormoranen auf dem Bambusfloß. Shooting zum Sonnenaufgang (Stille, kaum Leute, Nebel über den Karstbergen), ca. 30 km von Yangshuo; über das Hotel einen Fischer vermitteln lassen – deutlich günstiger als online (ca. 60 € für zwei + Transport), vorab buchen. Heute eine inszenierte Tradition, kein Alltagsfischfang mehr."),
  ("Xianggong Hill 相公山", 24.9258, 110.4790, False, "Yangshuo, Guangxi", "Aussicht",
   [9], "Sonnenaufgang über der Li-River-Schleife – früh los (Wecker 3:30)."),
  ("Yangshuo Karstlandschaft 阳朔", 24.8630, 110.4872, True, "Yangshuo, Guangxi", "Natur",
