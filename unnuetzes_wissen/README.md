@@ -31,3 +31,7 @@ Recherche und Gegenprüfung laufen außerhalb der App. Jede geprüfte Datei
     python3 unnuetzes_wissen/tools/build_facts.py <ordner>
 
 Belegzitate aus der Prüfung landen dabei nicht in den öffentlichen Dateien.
+
+## Teilen-Link
+
+`teilen.html` ist ein einzelner Link für andere: Dort wählt man einen Ort (oder „Alle Orte“) aus und blättert durch die ortsbezogenen Fakten. Allgemeine und aktuelle Fakten erscheinen dort nicht. Direktlinks: `teilen.html?ort=shenzhen`, `?land=china`, `?ort=alle`.

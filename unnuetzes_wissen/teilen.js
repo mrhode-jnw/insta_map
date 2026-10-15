@@ -1,16 +1,36 @@
-// Teilbare Fakten-Seite für einen Ort: teilen.html?ort=shenzhen (oder ?land=china).
+// Teilbare Fakten-Seite: ein Link (teilen.html), auf dem man den Ort auswählt.
+// Zeigt ausschließlich ortsbezogene Fakten (Orts- und Länderpakete), nie allgemeine oder aktuelle.
+// Direktlinks gehen weiter: teilen.html?ort=shenzhen, ?land=china, ?ort=alle.
 // Ohne Profil, ohne Reiseplan, speichert nichts außer zwischengespeicherten Bild-Adressen.
 (() => {
   "use strict";
   const app = document.getElementById("app");
-  const q = new URLSearchParams(location.search);
-  const ORT = q.get("ort"), LAND = q.get("land");
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
   const paras = t => String(t || "").split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
   const fmtDate = d => { const m = String(d || "").match(/^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?/); return !m ? "" : m[3] ? `${+m[3]}.${+m[2]}.${m[1]}` : m[2] ? `${+m[2]}/${m[1]}` : m[1]; };
   const toast = msg => { const t = document.getElementById("toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => { t.hidden = true; }, 2000); };
 
-  let TAX, FACTS = [], filter = null;
+  let TAX, IDX, PACKS = [], FACTS = [], filter = null, SEL = null;
+  // Reihenfolge der Reise; weitere Orte folgen alphabetisch
+  const ORDER = ["hongkong", "shenzhen", "guilin", "guizhou", "zhangjiajie", "chongqing", "shanghai", "china"];
+  const keyOf = p => p.place ? "ort:" + p.place : "land:" + p.country;
+  const nameOf = key => {
+    const [k, id] = key.split(":");
+    if (key === "ort:alle") return "Alle Orte";
+    return k === "ort" ? (TAX.places.find(p => p.id === id)?.name || id) : (TAX.countries.find(c => c.id === id)?.name || id);
+  };
+  const flagOf = key => {
+    const [k, id] = key.split(":");
+    if (id === "hongkong") return "🇭🇰";
+    const c = k === "land" ? id : TAX.places.find(p => p.id === id)?.countryId;
+    return TAX.countries.find(x => x.id === c)?.flag || "📍";
+  };
+  const selFromUrl = () => {
+    const q = new URLSearchParams(location.search);
+    return q.get("ort") ? "ort:" + q.get("ort") : q.get("land") ? "land:" + q.get("land") : null;
+  };
+  const cache = {};
+  const loadPack = p => cache[p.file] ||= fetch(`data/${p.file}?v=${IDX.version}`).then(r => r.json());
   const theme = id => (TAX.themes || []).find(t => t.id === id) || { id, name: id, icon: "•" };
   const cat = id => TAX.categories.find(c => c.id === id) || { id, name: id, icon: "•" };
 
@@ -94,18 +114,66 @@
     FACTS.forEach(f => (f.themes || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
     const chips = Object.entries(counts).filter(([, n]) => n >= 3).sort((a, b) => b[1] - a[1])
       .map(([t, n]) => `<button class="pill" data-a="filter" data-v="${t}" aria-pressed="${filter === t}">${theme(t).icon} ${esc(theme(t).name)} <span class="cnt">${n}</span></button>`).join("");
-    const name = ORT ? (TAX.places.find(p => p.id === ORT)?.name || ORT) : (TAX.countries.find(c => c.id === LAND)?.name || LAND);
-    app.innerHTML = `<header class="hero">
+    const name = nameOf(SEL);
+    const places = [...PACKS.map(keyOf), "ort:alle"].map(k => `<button class="pill" data-a="pick" data-v="${k}" aria-pressed="${k === SEL}">${k === "ort:alle" ? "🌏" : flagOf(k)} ${esc(nameOf(k))}</button>`).join("");
+    app.innerHTML = `<button class="link-btn back" data-a="home">← Alle Orte</button>
+      <div class="filters places">${places}</div>
+      <header class="hero">
         <div class="kicker">Unnützes Wissen</div>
         <h1>${esc(name)}</h1>
         <p class="muted">${FACTS.length} überraschende Fakten, jeder mit Quelle. Antippen für die ganze Geschichte.</p>
-        <button class="btn" data-a="share-page">↗ Seite teilen</button>
+        <button class="btn" data-a="share-page">↗ Diesen Ort teilen</button>
       </header>
-      <div class="filters"><button class="pill" data-a="filter" data-v="" aria-pressed="${!filter}">✨ Alle</button>${chips}</div>
+      <div class="filters themes"><button class="pill" data-a="filter" data-v="" aria-pressed="${!filter}">✨ Alle</button>${chips}</div>
       <div class="feed">${list.map(card).join("")}</div>
       <p class="foot">Alle Fakten wurden an ihren Quellen gegengeprüft. Fotos: Wikimedia Commons.</p>`;
     app.querySelectorAll(".media[data-wiki]").forEach(el => io.observe(el));
   }
+
+  // Startseite des Links: Ort auswählen
+  function renderPicker() {
+    const total = PACKS.reduce((n, p) => n + p.count, 0);
+    const tiles = PACKS.map(p => `<button class="tile" data-a="pick" data-v="${keyOf(p)}">
+        <span class="flag">${flagOf(keyOf(p))}</span><b>${esc(nameOf(keyOf(p)))}</b><span class="muted">${p.count} Fakten</span></button>`).join("");
+    app.innerHTML = `<header class="hero">
+        <div class="kicker">Unnützes Wissen</div>
+        <h1>Wohin geht’s?</h1>
+        <p class="muted">Skurrile, belegte Fakten zu ${PACKS.length} Orten – Kriminalfälle, Legenden, Rekorde, Essen. Ort antippen und losblättern.</p>
+        <button class="btn" data-a="share-page">↗ Link teilen</button>
+      </header>
+      <div class="tiles">${tiles}
+        <button class="tile all" data-a="pick" data-v="ort:alle"><span class="flag">🌏</span><b>Alle Orte</b><span class="muted">${total} Fakten</span></button>
+      </div>
+      <p class="foot">Alle Fakten wurden an ihren Quellen gegengeprüft. Fotos: Wikimedia Commons.</p>`;
+    document.title = "Unnützes Wissen: Orte";
+  }
+
+  async function show(key) {
+    SEL = key; filter = null;
+    if (!key) { renderPicker(); return; }
+    const packs = key === "ort:alle" ? PACKS : PACKS.filter(p => keyOf(p) === key);
+    if (!packs.length) {
+      app.innerHTML = `<div class="center"><div class="big-emoji">🤷</div><h1>Nichts gefunden</h1><p class="muted">Für diesen Ort gibt es (noch) keine Fakten.</p><button class="btn" data-a="home">Ort auswählen</button></div>`;
+      return;
+    }
+    app.innerHTML = `<p class="muted center" style="margin-top:40vh">Lade Fakten …</p>`;
+    const today = new Date().toISOString().slice(0, 10);
+    FACTS = (await Promise.all(packs.map(loadPack))).flat()
+      .filter(f => (f.place || f.country) && (!f.expires || f.expires >= today))
+      .sort((a, b) => (b.fun || 3) - (a.fun || 3) || Math.random() - 0.5);
+    document.title = `Unnützes Wissen: ${nameOf(key)}`;
+    render();
+    app.querySelector(".places [aria-pressed=true]")?.scrollIntoView({ inline: "center", block: "nearest" });
+  }
+  function go(key) {
+    const u = new URL(location.href);
+    u.search = ""; u.hash = "";
+    if (key) { const [k, id] = key.split(":"); u.searchParams.set(k === "land" ? "land" : "ort", id); }
+    history.pushState(null, "", u);
+    window.scrollTo({ top: 0 });
+    show(key);
+  }
+  window.addEventListener("popstate", () => show(selFromUrl()));
 
   document.addEventListener("click", async e => {
     const b = e.target.closest("[data-a]");
@@ -114,6 +182,8 @@
     if (!b) return;
     const a = b.dataset.a;
     if (a === "toggle") { b.closest(".card").classList.toggle("open"); b.textContent = b.closest(".card").classList.contains("open") ? "Weniger" : "Mehr dazu & Quelle →"; }
+    if (a === "pick") { go(b.dataset.v); return; }
+    if (a === "home") { go(null); return; }
     if (a === "filter") { filter = b.dataset.v || null; render(); window.scrollTo({ top: 0 }); }
     if (a === "share" || a === "share-page") {
       const f = FACTS.find(x => x.id === b.dataset.v);
@@ -129,16 +199,14 @@
   (async () => {
     try {
       const [tax, idx] = await Promise.all([fetch("data/taxonomy.json").then(r => r.json()), fetch("data/index.json", { cache: "no-cache" }).then(r => r.json())]);
-      TAX = tax;
-      const packs = idx.packs.filter(p => ORT ? p.place === ORT : p.country === LAND);
-      if (!packs.length) throw new Error("kein Paket");
-      FACTS = (await Promise.all(packs.map(p => fetch(`data/${p.file}?v=${idx.version}`).then(r => r.json())))).flat()
-        .filter(f => !f.expires || f.expires >= new Date().toISOString().slice(0, 10))
-        .sort((a, b) => (b.fun || 3) - (a.fun || 3) || Math.random() - 0.5);
-      document.title = `Unnützes Wissen: ${ORT ? (TAX.places.find(p => p.id === ORT)?.name || ORT) : LAND}`;
-      render();
+      TAX = tax; IDX = idx;
+      // nur Orts- und Länderpakete
+      const rank = p => { const i = ORDER.indexOf(p.place || p.country); return i < 0 ? 99 : i; };
+      PACKS = idx.packs.filter(p => (p.place || p.country) && p.count > 0)
+        .sort((a, b) => rank(a) - rank(b) || nameOf(keyOf(a)).localeCompare(nameOf(keyOf(b)), "de"));
+      await show(selFromUrl());
     } catch {
-      app.innerHTML = `<div class="center"><div class="big-emoji">🤷</div><h1>Nichts gefunden</h1><p class="muted">Für diesen Ort gibt es (noch) keine Fakten.</p></div>`;
+      app.innerHTML = `<div class="center"><div class="big-emoji">🤷</div><h1>Nichts gefunden</h1><p class="muted">Die Fakten konnten nicht geladen werden.</p></div>`;
     }
   })();
 })();

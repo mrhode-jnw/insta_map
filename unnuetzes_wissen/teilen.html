@@ -27,6 +27,16 @@
   .more-body p { font-size: .98rem; }
   .card-actions { display: flex; gap: 8px; margin-top: 12px; }
   .card-actions .btn { min-height: 40px; padding: 0 14px; font-size: .85rem; }
+  .back { margin: 4px 0 8px; }
+  .filters.places { margin-bottom: 8px; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+  .tile { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 16px; border-radius: 16px;
+    border: 1px solid var(--line, rgba(127,127,127,.25)); background: var(--surface, var(--bg)); color: var(--text); font: inherit; text-align: left; cursor: pointer; }
+  .tile .flag { font-size: 1.8rem; line-height: 1; }
+  .tile b { font-size: 1.05rem; }
+  .tile .muted { font-size: .85rem; }
+  .tile:active { transform: scale(.98); }
+  .tile.all { border-color: var(--brand); background: var(--brand-soft); }
   .foot { text-align: center; color: var(--text-2); font-size: .85rem; margin: 32px 0 8px; }
 </style>
 </head>
