@@ -1221,6 +1221,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   });
   if (routeF) routeLayer.addTo(map);
   showWhere();
+  drawTour();  // jetzt ist die Regionswahl bekannt → Tour außerhalb der Region ausblenden
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
   try { view = localStorage.getItem("view") || "list"; inView = localStorage.getItem("inView2") !== "0"; } catch { inView = true; }  // Standard: nur Spots im Kartenausschnitt (wie auf der Karte zu sehen)
   $("#view").addEventListener("click", e => {
