@@ -135,6 +135,9 @@
   .galgrid .gwho { position: absolute; left: 0; right: 0; bottom: 0; padding: 10px 5px 3px; font-size: 10.5px; color: #fff;
     background: linear-gradient(transparent, rgba(0,0,0,.6)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; pointer-events: none; }
   .leaflet-popup.mini .galgrid { display: none; }
+  .galgrid .ginsp { position: absolute; top: 3px; left: 3px; width: 24px; height: 24px; padding: 0; border: 0; border-radius: 50%;
+    background: rgba(0,0,0,.45); font-size: 13px; line-height: 24px; cursor: pointer; filter: grayscale(1); opacity: .8; }
+  .galgrid .ginsp.on { background: #facc15; filter: none; opacity: 1; }
   .galgrid .gdel { position: absolute; top: 3px; right: 3px; width: 22px; height: 22px; padding: 0; border: 0; border-radius: 50%;
     background: rgba(0,0,0,.55); color: #fff; font-size: 15px; line-height: 22px; cursor: pointer; }
   .galhead { font-size: 13px; font-weight: 600; margin: 4px 0 4px; } .galhead .galn { color: var(--accent, #e1306c); } .galhead span { font-weight: 400; color: var(--muted, #6b7280); }
@@ -426,7 +429,7 @@
 <div id="map"></div>
 <div id="group" role="tablist" aria-label="Bereich">
   <button class="where" id="whereBtn" type="button" aria-label="Bereich wählen"><span id="whereLbl">🧭 Route</span></button>
-  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-nltop>📍 Ohne Ort</button>
+  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button>
 </div>
 <button id="tourBtn" class="fab" title="Touren" aria-label="Touren" hidden>🧭</button>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
@@ -576,21 +579,6 @@
 <script>
 function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const places = [...(window.PLACES || []), ...(window.PLACES_CN || [])].filter(p => isFinite(p.lat) && isFinite(p.lng));
-  // Posts ohne konkreten Ort: als Pin in der Mitte ihrer Region (nur sichtbar, wenn man sie in der Liste antippt)
-  const NL_CENTER = { hk: [22.3027, 114.1772], sz: [22.5431, 114.0579], gl: [24.7788, 110.4965], gz: [26.58, 106.71], zjj: [29.117, 110.479],
-    cq: [29.563, 106.551], sh: [31.2304, 121.4737], cnx: [31.0, 112.0] };
-  const NL_NAME = { hk: "Hongkong", sh: "Shanghai", cnx: "China" };
-  [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])].forEach((x, i) => {
-    const sub = x.sub || ((x.region || "hk") === "hk" ? "hk" : "cnx"), c = NL_CENTER[sub] || NL_CENTER.cnx;
-    const a = i * 2.4, r = 0.004 * Math.sqrt(i + 1);  // leicht versetzt, damit die Pins nicht exakt aufeinander liegen
-    const code = (x.url.match(/\/(?:p|reel|tv)\/([^/?]+)/) || [])[1] || String(i);
-    places.push({ id: "nl-" + code, noloc: true, nlsub: sub, approx: true, region: sub === "hk" ? "hk" : "cn",
-      name: `Post von @${x.username} – ohne genauen Ort`, category: "Ohne Ort", district: NL_NAME[sub] || "",
-      address: `${NL_NAME[sub] || ""} – genauer Ort unbekannt (Pin nur grob in der Region)`,
-      note: "Sammel-Post bzw. Post ohne konkreten Ort. Der Pin steht nur grob in der Mitte der Region.",
-      lat: c[0] + r * Math.cos(a), lng: c[1] + r * Math.sin(a), image: x.image, caption: x.caption || "",
-      post_url: x.url, username: x.username, profile_url: x.profile_url, posts: [x] });
-  });
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
@@ -688,7 +676,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const strip = p.image && imgPosts.length > 1 && imgPosts[0].image === p.image;  // großes Foto seitlich durchwischen
     // Galerie: Raster aus Vorschaubildern, Antippen öffnet Vollbild (dort Quelle & Post-Link)
     const gal = posts && posts.length > 1 ? `<div class="galhead"><b class="galn">📷 ${posts.length} Fotos</b> <span>– antippen für Vollbild</span></div><div class="galgrid">${posts.map((x, i) =>
-        `<figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}<span class="gwho">${esc(who(x))}</span><button class="gdel" data-gdel="${i}" aria-label="Foto entfernen" title="Foto entfernen">×</button></figure>`).join("")}</div>` : "";
+        `<figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}<span class="gwho">${esc(who(x))}</span><button class="gdel" data-gdel="${i}" aria-label="Foto entfernen" title="Foto entfernen">×</button><button class="ginsp${isInsp(x.image) ? " on" : ""}" data-ginsp="${i}" aria-label="Als Inspiration markieren" title="Als Inspiration markieren">💡</button></figure>`).join("")}</div>` : "";
     const navIds = navOrder(p.id), idx = navIds.indexOf(p.id);
     const multi = idx >= 0 && navIds.length > 1;
     const onImg = multi && p.image;  // Pfeile mittig über dem großen Bild
@@ -1114,12 +1102,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <label class="tprow"><input type="checkbox" data-r="hk" ${on("hk") ? "checked" : ""}> <b>🇭🇰 Hongkong</b> <small>(${cnt("hk")})</small></label>
         <label class="tprow"><input type="checkbox" data-cn ${CN_SUBS.every(on) ? "checked" : ""}> <b>🇨🇳 China</b></label>
         ${CN_SUBS.map(k => `<label class="tprow wsub"><input type="checkbox" data-r="${k}" ${on(k) ? "checked" : ""}> ${esc(SUB_LABEL[k])} <small>(${cnt(k)})</small></label>`).join("")}
-        <label class="tprow"><input type="checkbox" data-nl ${showNl ? "checked" : ""}> 📍 Posts ohne genauen Ort zeigen <small>(${places.filter(p => p.noloc && inRegion(p)).length} in der Auswahl)</small></label>
+
         </div><button class="xa-save" data-ok>Fertig</button></div>`;
       box.querySelector(".tpclose").onclick = box.querySelector("[data-ok]").onclick = () => { box.hidden = true; };
       box.querySelectorAll("input[name=wm]").forEach(r => r.onchange = () => { setWhere(r.dataset.w === "route", null); render(); });
       box.querySelector("[data-all]").onchange = e => { setWhere(false, e.target.checked ? [] : ["hk"]); render(); };
-      box.querySelector("[data-nl]").onchange = e => { showNl = e.target.checked; try { localStorage.setItem("showNl", showNl ? "1" : "0"); } catch {} renderList(); render(); };
       box.querySelector("[data-cn]").onchange = e => {  // China mit allen Unterpunkten an/aus
         const cur = allRegs() ? new Set(SUBS.map(x => x[0])) : new Set(regs);
         CN_SUBS.forEach(k => e.target.checked ? cur.add(k) : cur.delete(k));
@@ -1137,8 +1124,6 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   $("#whereBtn").addEventListener("click", e => { e.stopPropagation(); openWhere(); });
   $("#group").addEventListener("click", e => {
-    const t = e.target.closest("button[data-nltop]");
-    if (t) { showNl = !showNl; try { localStorage.setItem("showNl", showNl ? "1" : "0"); } catch {} renderList(); return; }
     const b = e.target.closest("button[data-g]"); if (!b) return;
     const g = b.dataset.g; groups.has(g) ? groups.delete(g) : groups.add(g); saveGroups();  // an-/abwählen, kombinierbar
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
@@ -1451,6 +1436,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const ta = el.querySelector(".tadd"); if (ta) ta.onclick = e => { e.stopPropagation(); openTourPick(ta.dataset.tadd, ta); };
     const xa = el.querySelector(".xadd"); if (xa) xa.onclick = e => { e.stopPropagation(); openExtraAdd(xa.dataset.xadd); };
     el.querySelectorAll(".gdel").forEach(b => b.onclick = e => { e.stopPropagation(); removePhoto(id, +b.dataset.gdel); });
+    el.querySelectorAll(".ginsp").forEach(b => b.onclick = e => { e.stopPropagation(); toggleInsp(id, +b.dataset.ginsp, b); });
     // verkleinerten Spot antippen → wieder groß
     el.addEventListener("click", e => {
       if (!el.classList.contains("mini") || e.target.closest("button, a")) return;
@@ -1481,24 +1467,55 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#lbPrev").hidden = $("#lbNext").hidden = n < 2;
   }
   // ---------- Inspiration (unabhängig von Spots): Masonry-Raster, Tippen öffnet die Bilder im Vollbild
-  const INSP = window.INSPIRATION || {};
+  // Inspiration = bewusst gesammelte Posts (inspiration.js) + alle Posts ohne konkreten Ort + an Spots markierte Einzelbilder
+  const INSP = JSON.parse(JSON.stringify(window.INSPIRATION || {}));
+  {
+    const have = new Set(Object.values(INSP).flat().map(x => x.code));
+    [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])].forEach(x => {
+      const code = (x.url.match(/\/(?:p|reel|tv)\/([^/?]+)/) || [])[1]; if (!code || have.has(code) || !x.image) return;
+      const sub = x.sub || ((x.region || "hk") === "hk" ? "hk" : "cnx"), r = sub === "hk" ? "hk" : sub === "sh" ? "sh" : "cn";
+      (INSP[r] = INSP[r] || []).push({ code, user: x.username, url: x.url, caption: x.caption || "", images: [x.image] });
+      have.add(code);
+    });
+  }
+  const inspMarks = () => (spotExtras.__insp || []);
+  const isInsp = img => inspMarks().some(m => m.image === img);
+  async function toggleInsp(id, i, btn) {
+    const p = places.find(x => x.id === id); if (!p) return;
+    const x = imgsOf(p)[i]; if (!x || !x.image) return;
+    if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+    const on = !isInsp(x.image), sub = subOf(p), r = sub === "hk" ? "hk" : sub === "sh" ? "sh" : "cn";
+    try {
+      const next = await mutate(d => {
+        d = d && !Array.isArray(d) ? d : {}; const l = (d.__insp || []).filter(m => m.image !== x.image);
+        if (on) l.unshift({ image: x.image, spot: id, name: p.name, region: r, url: x.url || "", credit: who(x), added: new Date().toISOString() });
+        d.__insp = l; if (!l.length) delete d.__insp; return d;
+      }, `Inspiration: Bild ${on ? "markiert" : "entfernt"} (${id})`, EXTRAS_PATH, {});
+      spotExtras = next; if (btn) btn.classList.toggle("on", on);
+      toast(on ? "💡 Als Inspiration markiert" : "Aus Inspiration entfernt", 1800);
+    } catch (e) { toast(e.message, 5000); }
+  }
   const INSP_REG = { hk: "🇭🇰 Hongkong", sh: "🇨🇳 Shanghai", cn: "🇨🇳 China" };
   // Ortsfilter oben (Mehrfachauswahl, leer = alle); gemerkt pro Gerät
   let inspF = new Set(); try { inspF = new Set(JSON.parse(localStorage.getItem("inspF") || "[]")); } catch {}
   function openInsp() {
-    const have = Object.keys(INSP_REG).filter(r => (INSP[r] || []).length);
+    const marks = r => inspMarks().filter(m => m.region === r);
+    const have = Object.keys(INSP_REG).filter(r => (INSP[r] || []).length || marks(r).length);
     [...inspF].forEach(r => { if (!have.includes(r)) inspF.delete(r); });
     const regs = have.filter(r => !inspF.size || inspF.has(r));
-    const cnt = r => INSP[r].reduce((a, p) => a + p.images.length, 0);
+    const cnt = r => (INSP[r] || []).reduce((a, p) => a + p.images.length, 0) + marks(r).length;
     $("#inspFilter").innerHTML = `<button data-if="" class="${inspF.size ? "" : "on"}">Alle</button>` +
       have.map(r => `<button data-if="${r}" class="${inspF.has(r) ? "on" : ""}">${INSP_REG[r]} <small>${cnt(r)}</small></button>`).join("");
     let n = 0;
-    $("#inspBody").innerHTML = regs.map(r => `<h3>${INSP_REG[r]}</h3>` + INSP[r].map(post => `
+    const markItems = [];
+    $("#inspBody").innerHTML = regs.map(r => `<h3>${INSP_REG[r]}</h3>` + (marks(r).length ? `<div class="src">💡 An Spots markiert</div><div class="masonry">${marks(r).map(m => {
+        markItems.push(m); return `<img src="${esc(m.image)}" alt="" loading="lazy" data-i="${n++}">`; }).join("")}</div>` : "") + (INSP[r] || []).map(post => `
       <div class="src">${post.user ? `<a href="https://www.instagram.com/${esc(post.user)}/" target="_blank" rel="noopener">@${esc(post.user)}</a> · ` : ""}<a href="${esc(post.url)}" target="_blank" rel="noopener">Post ↗</a>${post.caption ? " – " + esc(post.caption.split("\n")[0].slice(0, 90)) : ""}</div>
       <div class="masonry">${post.images.map(src => `<img src="${esc(src)}" alt="" loading="lazy" data-i="${n++}">`).join("")}</div>`).join("")).join("")
       || `<p class="src">Noch keine Bilder.</p>`;
     $("#inspSub").textContent = n ? `${n} Bilder` : "";
-    const all = regs.flatMap(r => INSP[r].flatMap(post => post.images.map((src, k) => ({ image: src, url: post.url + "?img_index=" + (k + 1), username: post.user || "Instagram", profile_url: post.user ? `https://www.instagram.com/${post.user}/` : post.url }))));
+    const all = regs.flatMap(r => [...marks(r).map(m => ({ image: m.image, url: m.url, credit: `${m.credit} · Spot: ${m.name}`, profile_url: m.url })),
+      ...(INSP[r] || []).flatMap(post => post.images.map((src, k) => ({ image: src, url: post.url + "?img_index=" + (k + 1), username: post.user || "Instagram", profile_url: post.user ? `https://www.instagram.com/${post.user}/` : post.url })))]);
     $("#inspBody").querySelectorAll("img[data-i]").forEach(img => img.onclick = () => lbOpen({ name: "Inspiration", posts: all }, +img.dataset.i));
     $("#insp").hidden = false;
   }
@@ -1612,7 +1629,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         : here() ? a._d - b._d : prioRank(a) - prioRank(b));
     order = items.map(p => p.id);
     $("#group").querySelectorAll("button[data-g]").forEach(x => x.classList.toggle("on", groups.has(x.dataset.g)));
-    { const t = $("#group [data-nltop]"); if (t) { t.classList.toggle("on", showNl); t.hidden = routeF || !places.some(p => p.noloc && inRegion(p)); } }
+
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
