@@ -152,6 +152,9 @@ for p in places:
          "caption": x.get("caption", ""), "credit": x["credit"]} for x in extra]
     if not p["image"]:
         p.update(image=extra[0]["image"], image_page=extra[0]["url"], image_credit=extra[0]["credit"])
+    # Claude-Tipp mit Fotos aus eigenen Instagram-Posts (Eingang) → normaler Foto-Spot (ID bleibt für Status/Touren)
+    if p.get("by_claude") and any("instagram.com" in x["url"] for x in extra):
+        p["by_claude"] = False
 
 # Tag/Nacht für den Filter (Korrekturen in hk/daynight.json)
 import daynight  # noqa: E402

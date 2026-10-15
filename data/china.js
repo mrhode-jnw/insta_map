@@ -3724,7 +3724,7 @@ window.PLACES_CN = [
  {
   "id": "claude-cn-zhanli-dong-village",
   "region": "cn",
-  "by_claude": true,
+  "by_claude": false,
   "name": "Zhanli Dong Village 占里侗寨",
   "district": "Congjiang (Gaozeng), Guizhou",
   "category": "Dorf",
@@ -3759,7 +3759,7 @@ window.PLACES_CN = [
  {
   "id": "claude-cn-huanggang-dong-village",
   "region": "cn",
-  "by_claude": true,
+  "by_claude": false,
   "name": "Huanggang Dong Village 黄岗侗寨",
   "district": "Liping (Shuangjiang), Guizhou",
   "category": "Architektur",
@@ -3851,7 +3851,7 @@ window.PLACES_CN = [
  {
   "id": "claude-cn-zhaoxing-dong-village",
   "region": "cn",
-  "by_claude": true,
+  "by_claude": false,
   "name": "Zhaoxing Dong Village 肇兴侗寨",
   "district": "Liping, Guizhou",
   "category": "Dorf",
@@ -4007,7 +4007,7 @@ window.PLACES_CN = [
  {
   "id": "claude-cn-langde-upper-miao-village",
   "region": "cn",
-  "by_claude": true,
+  "by_claude": false,
   "name": "Langde Upper Miao Village 郎德上寨",
   "district": "Leishan (Langde), Guizhou",
   "category": "Dorf",
