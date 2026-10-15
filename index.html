@@ -24,6 +24,8 @@
     :root { --bg: #111827; --fg: #f3f4f6; --muted: #9ca3af; --line: #374151; }
   }
   * { box-sizing: border-box; }
+  /* iOS-Web-App mit durchsichtiger Statusleiste: sonst endet der Bildschirm um die Statusleisten-Höhe zu früh (leerer Streifen unten) */
+  html { min-height: calc(100% + env(safe-area-inset-top)); }
   html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg);
     font: 15px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
   #map { position: fixed; inset: 0; }
