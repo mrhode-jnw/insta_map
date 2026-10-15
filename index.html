@@ -422,7 +422,7 @@
 <div id="map"></div>
 <div id="group" role="tablist" aria-label="Bereich">
   <button class="where" id="whereBtn" type="button" aria-label="Bereich wählen"><span id="whereLbl">🧭 Route</span></button>
-  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button>
+  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-nltop>📍 Ohne Ort</button>
 </div>
 <button id="tourBtn" class="fab" title="Touren" aria-label="Touren" hidden>🧭</button>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
@@ -1132,6 +1132,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   $("#whereBtn").addEventListener("click", e => { e.stopPropagation(); openWhere(); });
   $("#group").addEventListener("click", e => {
+    const t = e.target.closest("button[data-nltop]");
+    if (t) { showNl = !showNl; try { localStorage.setItem("showNl", showNl ? "1" : "0"); } catch {} renderList(); return; }
     const b = e.target.closest("button[data-g]"); if (!b) return;
     const g = b.dataset.g; groups.has(g) ? groups.delete(g) : groups.add(g); saveGroups();  // an-/abwählen, kombinierbar
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
@@ -1591,6 +1593,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         : here() ? a._d - b._d : prioRank(a) - prioRank(b));
     order = items.map(p => p.id);
     $("#group").querySelectorAll("button[data-g]").forEach(x => x.classList.toggle("on", groups.has(x.dataset.g)));
+    { const t = $("#group [data-nltop]"); if (t) { t.classList.toggle("on", showNl); t.hidden = routeF || !places.some(p => p.noloc && inRegion(p)); } }
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
@@ -1886,10 +1889,18 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   $("#locate").addEventListener("click", () => {
     startCompass();
+    if (!navigator.geolocation) return toast("Standort wird nicht unterstützt.");
+    if (!me || Date.now() - lastFix > 20000) {  // noch kein (frischer) Standort: neu abfragen und dann hinspringen
+      toast("Suche Standort …", 2000);
+      restartWatch(); startWatch();
+      navigator.geolocation.getCurrentPosition(pos => { lastFix = Date.now(); onPos(pos); follow = true; $("#locate").classList.add("follow");
+        map.setView([me.lat, me.lng], Math.max(map.getZoom(), 16)); }, onErr, { enableHighAccuracy: true, maximumAge: 10000, timeout: 15000 });
+      return;
+    }
     startWatch();
-    if (me) { follow = !follow; $("#locate").classList.toggle("follow", follow);
-      map.setView([me.lat, me.lng], Math.max(map.getZoom(), 16));
-      toast(follow ? "Karte folgt deinem Standort" : "Folgen aus"); }
+    follow = !follow; $("#locate").classList.toggle("follow", follow);
+    map.setView([me.lat, me.lng], Math.max(map.getZoom(), 16));
+    toast(follow ? "Karte folgt deinem Standort" : "Folgen aus");
   });
   map.on("dragstart", () => { if (follow) { follow = false; $("#locate").classList.remove("follow"); } });
 
