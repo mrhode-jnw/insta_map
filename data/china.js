@@ -3813,14 +3813,71 @@ window.PLACES_CN = [
   "lat": 25.87549,
   "lng": 108.97117,
   "approx": false,
-  "image": null,
+  "image": "images/claude_gz_xiaohuang_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiaohuang_1.jpg",
+    "caption": "",
+    "credit": "Scarlett-Hall · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiaohuang_2.jpg",
+    "caption": "",
+    "credit": "Scarlett-Hall · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiaohuang_3.jpg",
+    "caption": "",
+    "credit": "Scarlett-Hall · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiaohuang_4.jpg",
+    "caption": "",
+    "credit": "Scarlett-Hall · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiaohuang_5.jpg",
+    "caption": "",
+    "credit": "Scarlett-Hall · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/congjiang-2344-147685756/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/congjiang-2344-147685756/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiaohuang_6.jpg",
+    "caption": "",
+    "credit": "TravelerWithoutBorders · trip.com Moments"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Heimat des Dong-Großgesangs, zwischen Zhanli und Huanggang",
+  "image_page": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+  "image_credit": "Scarlett-Hall · trip.com Moments",
   "when": "day"
  },
  {
@@ -3923,14 +3980,62 @@ window.PLACES_CN = [
   "lat": 25.9019,
   "lng": 109.2117,
   "approx": false,
-  "image": null,
+  "image": "images/claude_gz_tangan_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "kind": "photo",
+    "image": "images/claude_gz_tangan_1.jpg",
+    "caption": "",
+    "credit": "JOSIE GONZALES · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "kind": "photo",
+    "image": "images/claude_gz_tangan_2.jpg",
+    "caption": "",
+    "credit": "JOSIE GONZALES · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "kind": "photo",
+    "image": "images/claude_gz_tangan_3.jpg",
+    "caption": "",
+    "credit": "JOSIE GONZALES · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "kind": "photo",
+    "image": "images/claude_gz_tangan_4.jpg",
+    "caption": "",
+    "credit": "JOSIE GONZALES · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "kind": "photo",
+    "image": "images/claude_gz_tangan_5.jpg",
+    "caption": "",
+    "credit": "JOSIE GONZALES · trip.com Moments"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Dong-Dorf über Reisterrassen oberhalb von Zhaoxing",
+  "image_page": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+  "image_credit": "JOSIE GONZALES · trip.com Moments",
   "when": "day"
  },
  {
@@ -3971,14 +4076,71 @@ window.PLACES_CN = [
   "lat": 26.04153,
   "lng": 108.63943,
   "approx": false,
-  "image": null,
+  "image": "images/claude_gz_dali_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+    "kind": "photo",
+    "image": "images/claude_gz_dali_1.jpg",
+    "caption": "",
+    "credit": "Charlotte@890 Cox · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+    "kind": "photo",
+    "image": "images/claude_gz_dali_2.jpg",
+    "caption": "",
+    "credit": "Charlotte@890 Cox · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+    "kind": "photo",
+    "image": "images/claude_gz_dali_3.jpg",
+    "caption": "",
+    "credit": "Charlotte@890 Cox · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/rongjiang-2346-154049001/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/rongjiang-2346-154049001/",
+    "kind": "photo",
+    "image": "images/claude_gz_dali_4.jpg",
+    "caption": "",
+    "credit": "Hayes Oliver55Oliver · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/rongjiang-2346-154049001/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/rongjiang-2346-154049001/",
+    "kind": "photo",
+    "image": "images/claude_gz_dali_5.jpg",
+    "caption": "",
+    "credit": "Hayes Oliver55Oliver · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/rongjiang-2346-154049001/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/rongjiang-2346-154049001/",
+    "kind": "photo",
+    "image": "images/claude_gz_dali_6.jpg",
+    "caption": "",
+    "credit": "Hayes Oliver55Oliver · trip.com Moments"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Fünf Wind-und-Regen-Brücken, Trommelturm, Qing-Steinpfad, wenig touristisch",
+  "image_page": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+  "image_credit": "Charlotte@890 Cox · trip.com Moments",
   "when": "day"
  },
  {
@@ -3994,14 +4156,62 @@ window.PLACES_CN = [
   "lat": 26.3236,
   "lng": 108.0662,
   "approx": true,
-  "image": null,
+  "image": "images/claude_gz_datang_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "kind": "photo",
+    "image": "images/claude_gz_datang_1.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht „黔东南大塘之行“"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "kind": "photo",
+    "image": "images/claude_gz_datang_2.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht „黔东南大塘之行“"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "kind": "photo",
+    "image": "images/claude_gz_datang_3.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht „黔东南大塘之行“"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "kind": "photo",
+    "image": "images/claude_gz_datang_4.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht „黔东南大塘之行“"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "kind": "photo",
+    "image": "images/claude_gz_datang_5.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht „黔东南大塘之行“"
+   }
+  ],
   "pop": 3,
   "pop_reason": "44 Miao-Getreidespeicher auf Stelzen in Teichen",
+  "image_page": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+  "image_credit": "Ctrip-Reisebericht „黔东南大塘之行“",
   "when": "day"
  },
  {
@@ -4070,14 +4280,26 @@ window.PLACES_CN = [
   "lat": 26.543,
   "lng": 108.213,
   "approx": true,
-  "image": null,
+  "image": "images/claude_gz_maliao_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://govt.chinadaily.com.cn/s/202006/11/WS5eef49e5498ed1e2f340731a/craftsmans-village-sees-silver-lining-from-jewelry.html",
+    "username": "",
+    "profile_url": "https://govt.chinadaily.com.cn/s/202006/11/WS5eef49e5498ed1e2f340731a/craftsmans-village-sees-silver-lining-from-jewelry.html",
+    "kind": "photo",
+    "image": "images/claude_gz_maliao_1.jpg",
+    "caption": "",
+    "credit": "Xinhua · China Daily"
+   }
+  ],
   "pop": 2,
   "pop_reason": "Miao-Silberschmiededorf, über 70 % beherrschen das Handwerk",
+  "image_page": "https://govt.chinadaily.com.cn/s/202006/11/WS5eef49e5498ed1e2f340731a/craftsmans-village-sees-silver-lining-from-jewelry.html",
+  "image_credit": "Xinhua · China Daily",
   "when": "day"
  },
  {
@@ -4093,14 +4315,71 @@ window.PLACES_CN = [
   "lat": 26.52086,
   "lng": 107.80079,
   "approx": false,
-  "image": null,
+  "image": "images/claude_gz_xiasi_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiasi_1.jpg",
+    "caption": "",
+    "credit": "ANTHONY THOMAS · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/kaili-491-144119627/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/kaili-491-144119627/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiasi_2.jpg",
+    "caption": "",
+    "credit": "lilywhisper · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/kaili-491-144119627/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/kaili-491-144119627/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiasi_3.jpg",
+    "caption": "",
+    "credit": "lilywhisper · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiasi_4.jpg",
+    "caption": "",
+    "credit": "ANTHONY THOMAS · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiasi_5.jpg",
+    "caption": "",
+    "credit": "ANTHONY THOMAS · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiasi_6.jpg",
+    "caption": "",
+    "credit": "ANTHONY THOMAS · trip.com Moments"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Ming-zeitlicher Flusshafen am Qingshui, Anlegestufen von 1749, Gildehallen",
+  "image_page": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+  "image_credit": "ANTHONY THOMAS · trip.com Moments",
   "when": "day"
  },
  {

@@ -10,3 +10,9 @@
   dazumischen. Eigene Vorschläge höchstens als Claude-Tipp auf der Karte und im Chat getrennt nennen.
 - Allgemeine Programmpunkte ohne Ort (z. B. „Büffelbauer“, „eine alte Steinbrücke“) nicht raten – im
   Tournamen erwähnen oder nachfragen.
+
+## Claude-Tipps
+- **Jeder Claude-Tipp bekommt Fotos.** Quelle bevorzugt Instagram (Post per `node tools/ig_fetch.js <code>` laden),
+  sonst andere Webquellen (trip.com-Moments der Attraktion, Ctrip-Reiseberichte, Nachrichten-/Blogfotos, Commons).
+  Bilder nach `images/`, Eintrag in `cn/extra_photos.json` (Name → [{image, url, credit}]), Bilder vorher ansehen:
+  nur Fotos, die wirklich den Ort zeigen (keine KI-Bilder, keine Nachbarorte).
