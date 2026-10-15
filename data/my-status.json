@@ -485,5 +485,9 @@
  },
  "cn-canton-tower": {
   "prio": "nein"
+ },
+ "cn-jilong-castle": {
+  "prio": "hoch",
+  "fav": true
  }
 }
