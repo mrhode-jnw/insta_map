@@ -8,5 +8,35 @@
   "cat": "Architektur",
   "source": "trip.com Moments (freeneasytravel)",
   "note": "Gentle-Monster-Flagship HAUS NOWHERE im MixC World 深圳万象天地, Shennan Blvd 9668 深南大道9668号 (Nanshan). Riesen-Installationen gratis: „The Colossal First Human“ (Riesenmensch zwischen Säulen), Mann im Müllsack-Meer, Köpfe mit Roboterarmen, Skorpion/Ameisen/Käfer aus Chrom. Außen am Gebäude der riesige Kuschel-Elefant (抱抱象) und die LED-Fassade. Metro Linie 1 Hi-Tech Park 高新园 bzw. Linie 2 Keyuan, ca. 5–10 Min. zu Fuß. Innen tagsüber/abends gleich; Elefant und Fassade am schönsten zur Blauen Stunde. Koordinate aus trip.com (GCJ-02 → WGS84 umgerechnet)."
+ },
+ {
+  "name": "Ping'an Village 平安寨",
+  "lat": 25.75851,
+  "lng": 110.11984,
+  "approx": false,
+  "district": "Ping'an, Longji, Guangxi",
+  "cat": "Dorf",
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "note": "Laut Reiseplan: Sonnenuntergang am 18.10., Übernachtung, Sonnenaufgang am 19.10. Holzhäuser-Dorf der Zhuang mitten in den Longji-Terrassen. Aussichtspunkte oberhalb: „Nine Dragons Five Tigers“ 九龙五虎 und „Seven Stars with Moon“ 七星伴月 (je ca. 20–30 Min. bergauf). Mitte Oktober Erntezeit – Terrassen goldgelb oder schon abgeerntet. Kombiticket Longji ca. 80 CNY. Pin = Dorfmitte (OSM)."
+ },
+ {
+  "name": "Dazhai Village 大寨村",
+  "lat": 25.80927,
+  "lng": 110.15242,
+  "approx": false,
+  "district": "Dazhai/Jinkeng, Longji, Guangxi",
+  "cat": "Dorf",
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "note": "Laut Reiseplan: Besuch am 18.10. (Reisterrassen und Dörfer der Roten Yao). Größtes und eindrucksvollstes Terrassengebiet von Longji (Jinkeng 金坑). Seilbahn hinauf zum Golden Buddha Top; Aussichtspunkte West Hill Music 西山韶乐 und Golden Buddha Top 金佛顶, oberhalb das Dorf Tiantou 田头寨. Wanderung nach Ping'an ca. 3 Std. Pin = Dorf laut OSM."
+ },
+ {
+  "name": "Yulong River Countryside 遇龙河",
+  "lat": 24.780498,
+  "lng": 110.426969,
+  "approx": true,
+  "district": "Yulong River, Yangshuo, Guangxi",
+  "cat": "Natur",
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "note": "Laut Reiseplan: Fotografie am 17.10. vormittags. Ländliches Tal des Yulong River zwischen Karstkegeln: Bambusflöße, Reisfelder, Wasserbüffel, Dörfer, alte Steinbrücken (Yulong Bridge 遇龙桥, Fuli Bridge 富里桥). Morgens Dunst über dem Fluss, Spiegelungen bei Windstille. Pin = Flussabschnitt laut trip.com (GCJ-02 umgerechnet) – der genaue Ort hängt vom Guide ab."
  }
 ]

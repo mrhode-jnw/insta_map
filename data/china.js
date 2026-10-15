@@ -5299,6 +5299,156 @@ window.PLACES_CN = [
   "image_page": "https://www.trip.com/moments/detail/shenzhen-26-143272418",
   "image_credit": "freeneasytravel · trip.com Moments",
   "when": "both"
+ },
+ {
+  "id": "cn-ping-an-village",
+  "region": "cn",
+  "name": "Ping'an Village 平安寨",
+  "district": "Ping'an, Longji, Guangxi",
+  "category": "Dorf",
+  "note": "Laut Reiseplan: Sonnenuntergang am 18.10., Übernachtung, Sonnenaufgang am 19.10. Holzhäuser-Dorf der Zhuang mitten in den Longji-Terrassen. Aussichtspunkte oberhalb: „Nine Dragons Five Tigers“ 九龙五虎 und „Seven Stars with Moon“ 七星伴月 (je ca. 20–30 Min. bergauf). Mitte Oktober Erntezeit – Terrassen goldgelb oder schon abgeerntet. Kombiticket Longji ca. 80 CNY. Pin = Dorfmitte (OSM).",
+  "address": "Ping'an, Longji, Guangxi",
+  "lat": 25.75851,
+  "lng": 110.11984,
+  "approx": false,
+  "image": "images/pingan_trip_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/poi-ping-an-village-90681/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/poi-ping-an-village-90681/",
+    "kind": "photo",
+    "image": "images/pingan_trip_1.jpg",
+    "caption": "",
+    "credit": "trip.com (Nutzerfoto)"
+   },
+   {
+    "url": "https://www.trip.com/moments/poi-ping-an-village-90681/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/poi-ping-an-village-90681/",
+    "kind": "photo",
+    "image": "images/pingan_trip_2.jpg",
+    "caption": "",
+    "credit": "trip.com (Nutzerfoto)"
+   },
+   {
+    "url": "https://www.trip.com/moments/poi-ping-an-village-90681/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/poi-ping-an-village-90681/",
+    "kind": "photo",
+    "image": "images/pingan_trip_3.jpg",
+    "caption": "",
+    "credit": "trip.com (Nutzerfoto)"
+   }
+  ],
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "image_page": "https://www.trip.com/moments/poi-ping-an-village-90681/",
+  "image_credit": "trip.com (Nutzerfoto)",
+  "when": "day"
+ },
+ {
+  "id": "cn-dazhai-village",
+  "region": "cn",
+  "name": "Dazhai Village 大寨村",
+  "district": "Dazhai/Jinkeng, Longji, Guangxi",
+  "category": "Dorf",
+  "note": "Laut Reiseplan: Besuch am 18.10. (Reisterrassen und Dörfer der Roten Yao). Größtes und eindrucksvollstes Terrassengebiet von Longji (Jinkeng 金坑). Seilbahn hinauf zum Golden Buddha Top; Aussichtspunkte West Hill Music 西山韶乐 und Golden Buddha Top 金佛顶, oberhalb das Dorf Tiantou 田头寨. Wanderung nach Ping'an ca. 3 Std. Pin = Dorf laut OSM.",
+  "address": "Dazhai/Jinkeng, Longji, Guangxi",
+  "lat": 25.80927,
+  "lng": 110.15242,
+  "approx": false,
+  "image": "images/dazhai_trip_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/poi-longji-rice-terraces-jinkeng-dazhai-149266688/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/poi-longji-rice-terraces-jinkeng-dazhai-149266688/",
+    "kind": "photo",
+    "image": "images/dazhai_trip_1.jpg",
+    "caption": "",
+    "credit": "trip.com (Nutzerfoto)"
+   },
+   {
+    "url": "https://www.trip.com/moments/poi-longji-rice-terraces-jinkeng-dazhai-149266688/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/poi-longji-rice-terraces-jinkeng-dazhai-149266688/",
+    "kind": "photo",
+    "image": "images/dazhai_trip_2.jpg",
+    "caption": "",
+    "credit": "trip.com (Nutzerfoto)"
+   },
+   {
+    "url": "https://www.trip.com/moments/poi-longji-rice-terraces-jinkeng-dazhai-149266688/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/poi-longji-rice-terraces-jinkeng-dazhai-149266688/",
+    "kind": "photo",
+    "image": "images/dazhai_trip_3.jpg",
+    "caption": "",
+    "credit": "trip.com (Nutzerfoto)"
+   }
+  ],
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "image_page": "https://www.trip.com/moments/poi-longji-rice-terraces-jinkeng-dazhai-149266688/",
+  "image_credit": "trip.com (Nutzerfoto)",
+  "when": "day"
+ },
+ {
+  "id": "cn-yulong-river-countryside",
+  "region": "cn",
+  "name": "Yulong River Countryside 遇龙河",
+  "district": "Yulong River, Yangshuo, Guangxi",
+  "category": "Natur",
+  "note": "Laut Reiseplan: Fotografie am 17.10. vormittags. Ländliches Tal des Yulong River zwischen Karstkegeln: Bambusflöße, Reisfelder, Wasserbüffel, Dörfer, alte Steinbrücken (Yulong Bridge 遇龙桥, Fuli Bridge 富里桥). Morgens Dunst über dem Fluss, Spiegelungen bei Windstille. Pin = Flussabschnitt laut trip.com (GCJ-02 umgerechnet) – der genaue Ort hängt vom Guide ab.",
+  "address": "Yulong River, Yangshuo, Guangxi",
+  "lat": 24.780498,
+  "lng": 110.426969,
+  "approx": true,
+  "image": "images/yulong_trip_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.trip.com/travel-guide/attraction/yangshuo/yulong-river-80969/",
+    "username": "",
+    "profile_url": "https://www.trip.com/travel-guide/attraction/yangshuo/yulong-river-80969/",
+    "kind": "photo",
+    "image": "images/yulong_trip_1.jpg",
+    "caption": "",
+    "credit": "trip.com (Nutzerfoto)"
+   },
+   {
+    "url": "https://www.trip.com/travel-guide/attraction/yangshuo/yulong-river-80969/",
+    "username": "",
+    "profile_url": "https://www.trip.com/travel-guide/attraction/yangshuo/yulong-river-80969/",
+    "kind": "photo",
+    "image": "images/yulong_trip_2.jpg",
+    "caption": "",
+    "credit": "trip.com (Nutzerfoto)"
+   },
+   {
+    "url": "https://www.trip.com/travel-guide/attraction/yangshuo/yulong-river-80969/",
+    "username": "",
+    "profile_url": "https://www.trip.com/travel-guide/attraction/yangshuo/yulong-river-80969/",
+    "kind": "photo",
+    "image": "images/yulong_trip_3.jpg",
+    "caption": "",
+    "credit": "trip.com (Nutzerfoto)"
+   }
+  ],
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "image_page": "https://www.trip.com/travel-guide/attraction/yangshuo/yulong-river-80969/",
+  "image_credit": "trip.com (Nutzerfoto)",
+  "when": "day"
  }
 ];
 window.UNPLACED_CN = [
