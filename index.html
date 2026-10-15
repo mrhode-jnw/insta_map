@@ -989,7 +989,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Oberste Ebene: Bereich (Fotos / Food); Kategorien darunter gehören zum gewählten Bereich
   // Fotos/Food = deine Spots aus der Sammlung (+ eigene); Tipps = von Claude ergänzte Spots
   const GROUPS = { food: p => !p.by_claude && p.category === "Food", fotos: p => !p.by_claude && p.category !== "Food", claude: p => p.by_claude };
-  let group = "fotos";  // beim Öffnen immer „Fotos“; nochmal tippen = alle Kategorien
+  // Fotos / Food / Tipps frei kombinierbar (Mehrfachauswahl, wird gemerkt); nichts gewählt = alles
+  let groups = new Set(["fotos"]);
+  try { const g = JSON.parse(localStorage.getItem("groups") || "null"); if (Array.isArray(g)) groups = new Set(g.filter(x => GROUPS[x])); } catch {}
+  const saveGroups = () => { try { localStorage.setItem("groups", JSON.stringify([...groups])); } catch {} };
+  const inGroups = p => !groups.size || [...groups].some(g => GROUPS[g](p));
   // Bereich oben links: 🧭 Route (nur Spots an unserer Route) · 🇭🇰 Hongkong · 🇨🇳 China · 🌏 Alles
   const WHERE = { route: "🧭 Route", hk: "🇭🇰 Hongkong", cn: "🇨🇳 China", all: "🌏 Alles" };
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
@@ -999,7 +1003,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let region = routeF ? "hk" : where;  // für die Startansicht
   const inRegion = p => region === "all" || regionOf(p) === region;
   const inScope = p => routeF ? routeStop(p) >= 0 : inRegion(p);
-  const inGroup = p => inScope(p) && (!group || GROUPS[group](p));
+  const inGroup = p => inScope(p) && inGroups(p);
   function fitRegion() {  // Hauptcluster der Region zeigen (Ausreißer nicht einbeziehen)
     const ps = places.filter(inRegion); if (!ps.length) return;
     const mid = arr => arr.slice().sort((a, b) => a - b)[arr.length >> 1];
@@ -1017,7 +1021,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     try { localStorage.setItem("where", where); } catch {}
     routeF ? routeLayer.addTo(map) : routeLayer.remove();
     quietClose = true; map.closePopup(); quietClose = false; savedView = null;
-    if (group && !places.some(p => inScope(p) && GROUPS[group](p))) group = "fotos";
+    if (groups.size && !places.some(p => inScope(p) && inGroups(p))) { groups = new Set(["fotos"]); saveGroups(); }
     cat = null; showWhere(); renderChips(); renderList();
     if (!fit) return;
     if (routeF) map.fitBounds(L.latLngBounds(ROUTE.map(r => [r.lat, r.lng])), { padding: [40, 40], animate: false });
@@ -1027,7 +1031,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   $("#where").addEventListener("change", e => setWhere(e.target.value));
   $("#group").addEventListener("click", e => {
     const b = e.target.closest("button[data-g]"); if (!b) return;
-    group = group === b.dataset.g ? "" : b.dataset.g;  // aktive Kategorie nochmal tippen = alle
+    const g = b.dataset.g; groups.has(g) ? groups.delete(g) : groups.add(g); saveGroups();  // an-/abwählen, kombinierbar
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
     renderChips(); renderList();
   });
@@ -1477,11 +1481,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         : sortBy === "prio" ? prioRank(a) - prioRank(b) || a._d - b._d
         : here() ? a._d - b._d : prioRank(a) - prioRank(b));
     order = items.map(p => p.id);
-    $("#group").querySelectorAll("button[data-g]").forEach(x => x.classList.toggle("on", x.dataset.g === group));
+    $("#group").querySelectorAll("button[data-g]").forEach(x => x.classList.toggle("on", groups.has(x.dataset.g)));
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = favF || trashF || areaF || group === "food" || group === "claude" || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = favF || trashF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${s.fav ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
@@ -1908,7 +1912,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   function openAdd(latlng) {
     dlg.hidden = false; setSnap("peek");
-    const pre = group === "food" ? "Food" : "Eigene";
+    const pre = groups.size === 1 && groups.has("food") ? "Food" : "Eigene";
     $("#addCat").innerHTML = [...new Set([...places.map(p => p.category).filter(Boolean).sort(), "Food", "Eigene"])]
       .map(c => `<option${c === pre ? " selected" : ""}>${esc(c)}</option>`).join("");
     $("#tokenRow").hidden = !!store.get(TOKEN_KEY);
