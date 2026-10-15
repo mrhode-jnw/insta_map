@@ -1,5 +1,5 @@
 {
- "version": "202610141450",
+ "version": "202610150000",
  "packs": [
   {
    "file": "facts-aktuell.json",
@@ -45,7 +45,7 @@
   {
    "file": "facts-shenzhen.json",
    "place": "shenzhen",
-   "count": 72
+   "count": 129
   },
   {
    "file": "facts-zhangjiajie.json",

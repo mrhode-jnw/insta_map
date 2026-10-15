@@ -1,5 +1,1953 @@
 [
  {
+  "id": "ort-ba48b1",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Hongkong wurde früher von Nantou aus regiert",
+  "teaser": "Bis zum Opiumkrieg gehörte das heutige Hongkong zum Kreis Xin'an – und dessen Amtssitz war Nantou, die kleine Altstadt zwischen Shenzhens Hochhäusern.",
+  "detail": "Heute fühlt sich die Rangordnung klar an: Hongkong ist die Weltstadt, Nantou ein paar Gassen mit Stadttor und Cafés.\n\nHistorisch war es umgekehrt. 1573 gründeten die Ming den Kreis Xin'an und setzten den Amtssitz nach Nantou. Zum Kreis gehörte das heutige Shenzhen – und das Gebiet des heutigen Hongkong.\n\nLaut Xinhua gehörten Hongkong und Shenzhen seit Beginn der Verwaltungsgeschichte bis zum Opiumkrieg immer zur selben Verwaltungseinheit. Die zuständige Kreisverwaltung für Kowloon und Co. saß also in Nantou.\n\nDeshalb nennt man die Altstadt stolz „Quelle von Hongkong und Macau“. Das alte Kreisamt steht noch, und jedes Jahr kommen über acht Millionen Besuche. Wer durchs Südtor geht, betritt sozusagen das alte Rathaus von Hongkong.",
+  "sources": [
+   {
+    "title": "南头古城：粤东首郡、港澳源头",
+    "publisher": "新华网",
+    "date": "2023-10-21",
+    "url": "https://www.news.cn/local/2023-10/21/c_1129929672.htm"
+   }
+  ],
+  "tags": [
+   "staedte",
+   "hongkong",
+   "china"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "bauwerk"
+  ],
+  "wiki": "Hong Kong",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-805ca3",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Umbenannt, weil Henan schon ein Xin'an hatte",
+  "teaser": "1914 musste Shenzhens Vorgänger-Kreis Xin'an seinen Namen abgeben – weil es in Henan einen gleichnamigen Kreis gab. Seitdem heißt die Gegend Bao'an.",
+  "detail": "Der Name Xin'an war 1573 mit Bedacht gewählt: „Das Alte abschaffen, das Neue schaffen; die Gefahr beseitigen, Frieden bringen.“ Ein Programm in zwei Silben.\n\nDie Republik China hatte 1914 andere Sorgen: Bei einer landesweiten Neuordnung der Verwaltungsbezirke fiel auf, dass es in der Provinz Henan ebenfalls einen Kreis Xin'an gab. Zwei gleiche Namen? Ging nicht.\n\nAlso bekam der Kreis an der Grenze zu Hongkong seinen alten Namen aus früheren Dynastien zurück: Bao'an. Der lebt bis heute weiter – im Bezirk Bao'an und im Flughafen Shenzhen Bao'an.\n\nWer am Flughafen landet, landet also eigentlich wegen einer Namensdoppelung in Henan.",
+  "sources": [
+   {
+    "title": "深圳故事：新安县的设立与沿革",
+    "publisher": "深圳市人民政府门户网站",
+    "date": "2023-01",
+    "url": "https://www.sz.gov.cn/szstory/202301/content/post_10395164.html"
+   }
+  ],
+  "tags": [
+   "sprache",
+   "staedte",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "woerter",
+   "gesetz"
+  ],
+  "wiki": "Bao'an District",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-1f1dec",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Der Kaiser räumte die Küste – und Shenzhens Kreis verschwand",
+  "teaser": "1662 befahl die Qing-Regierung, die Küste zu räumen. Im Kreis Xin'an, heute Shenzhen, mussten so viele wegziehen, dass der Kreis ganz aufgelöst wurde.",
+  "detail": "Die neue Qing-Dynastie hatte ein Problem: Ming-Loyalisten unter Koxinga kämpften von der See aus weiter. Die Lösung klingt wie aus einem Strategiespiel: Man entvölkert einfach die Küste, dann findet der Feind keine Nachschubhäfen mehr.\n\n1662 mussten in Guangdong alle Beamten und Bewohner 30 bis 50 Li landeinwärts ziehen, später noch einmal 30 Li weiter. Das traf den Kreis Xin'an so hart, dass fast sein ganzes Gebiet in der Sperrzone lag.\n\nAm Ende löste die Regierung den Kreis schlicht auf und schlug den kümmerlichen Rest Dongguan zu. Erst 1668 durften Teile der Küste wieder besiedelt werden, und Xin'an kam zurück.\n\nShenzhen war also schon einmal von der Landkarte verschwunden – lange bevor es zur Megacity wurde.",
+  "sources": [
+   {
+    "title": "深圳故事：新安县的设立与沿革",
+    "publisher": "深圳市人民政府门户网站",
+    "date": "2023-01",
+    "url": "https://www.sz.gov.cn/szstory/202301/content/post_10395164.html"
+   }
+  ],
+  "tags": [
+   "politik",
+   "staedte",
+   "china"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "panne",
+   "gesetz"
+  ],
+  "wiki": "Great Clearance",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-afa78c",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Europas erster Krieg gegen China – mit Kinderfresser-Gerüchten",
+  "teaser": "1521 stellte eine Ming-Flotte bei Tunmen an der Perlflussmündung portugiesische Schiffe. Ming-Quellen behaupteten, die Portugiesen hätten Kinder gegessen.",
+  "detail": "Die Schlacht von Tunmen gilt laut Historiker Tonio Andrade als erster großer Zusammenstoß zwischen chinesischen und europäischen Streitkräften. Die Portugiesen benahmen sich, als bräuchten sie für nichts eine Erlaubnis. Als die Behörden sie zum Abzug aufforderten, weigerten sie sich.\n\nIn chinesischen Quellen bekamen sie einen gruseligen Ruf: Viele Ming-Texte schildern, die Fremden hätten kleine Kinder entführt, getötet und verspeist. Belegt ist das nicht – es zeigt eher, wie fremd die Neuankömmlinge wirkten.\n\nMilitärisch lief es für Portugal mies: Die Ming-Flotte kesselte die Schiffe ein und versenkte zwei, die übrigen entkamen erst nach Monaten. 1522 setzte es die nächste Niederlage. Andrade kommentiert trocken: Diesmal habe auch die Jungfrau Maria nicht geholfen.\n\nDer siegreiche Kommandant Wang Hong wurde danach übrigens Fan europäischer Kanonentechnik.",
+  "sources": [
+   {
+    "title": "Battle of Tunmen: The first clash between China and Europe",
+    "publisher": "The China Project",
+    "date": "2023-05-10",
+    "url": "https://thechinaproject.com/2023/05/10/battle-of-tunmen-the-first-clash-between-china-and-europe/"
+   }
+  ],
+  "tags": [
+   "militaer",
+   "schifffahrt",
+   "europa",
+   "china"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "sensitive": "krieg",
+  "kids": false,
+  "fun": 4,
+  "themes": [
+   "legende"
+  ],
+  "wiki": "Battle of Tunmen",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-9159b3",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Der „erste Schuss“ des Opiumkriegs: ein Mann aus Dapeng",
+  "teaser": "Marinekommandant Lai Enjue aus der Festung Dapeng gilt in China als der Mann, der 1839 mit dem Gefecht von Kowloon den „ersten Schuss“ des Opiumkriegs abfeuerte.",
+  "detail": "In der Festung Dapeng lebte eine Familie, die man nur „drei Generationen, fünf Generäle“ nennt: die Lais. Der berühmteste war Lai Enjue.\n\n1839 kam es vor Kowloon zum Gefecht mit britischen Schiffen. Lai ließ Kriegsdschunken und die Kanonen des Forts Kowloon feuern und versenkte nach chinesischer Darstellung einen britischen Zweimaster. Bei den britischen Toten gehen selbst die chinesischen Quellen auseinander: die Stadtregierung nennt über 30, die Yangcheng Evening News gut zehn.\n\nLokal wird das als „erster Schuss“ des Opiumkriegs gefeiert. Kaiser Daoguang verlieh Lai den Titel „Hurcatu Baturu“ – Mandschurisch für „tapferer Krieger“.\n\nSein Wohnhaus in der Festung steht noch. Der Ruf der Familie war so groß, dass man reimte: Die Song-Dynastie hatte die Generäle der Yangs, die Qing die Bande der Lais.",
+  "sources": [
+   {
+    "title": "深圳故事：大鹏赖氏家族",
+    "publisher": "深圳市人民政府门户网站",
+    "date": "2023-03",
+    "url": "https://www.sz.gov.cn/szstory/202303/content/post_10450474.html"
+   },
+   {
+    "title": "明代海防重镇 藏身年轻特区",
+    "publisher": "羊城晚报 / 凤凰网",
+    "date": "2014-08-16",
+    "url": "https://news.ifeng.com/c/7fnRUrLIcI9"
+   }
+  ],
+  "tags": [
+   "militaer",
+   "schifffahrt",
+   "china"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "sensitive": "krieg",
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "rekord"
+  ],
+  "wiki": "Battle of Kowloon",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-fea78e",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Ein Hirsch jammerte – und die Festung zog um",
+  "teaser": "Laut Legende sollte die Festung Dapeng woanders stehen. Doch nachts klagte ein Muntjak, und sein Name klang wie „der Kaiser erschrickt“.",
+  "detail": "Die Festung Dapeng von 1394 stand ursprünglich nicht da, wo du sie heute besuchst. Im Dorf Xichong ganz im Süden der Halbinsel stehen noch 80 Meter Steinmauer vom ersten Bauplatz.\n\nWarum der Umzug? Es kursieren mehrere Geschichten. Die schönste: Die Soldaten aus dem Norden scheuchten beim Bauen einen kleinen Hirsch auf, einen Muntjak, auf Chinesisch „huangjing“. Der klagte nachts so jämmerlich – und „huangjing“ klingt wie „Kaiser erschrickt“.\n\nEin erschrockener Kaiser? Schlechtes Omen. Baustopp, neuer Standort.\n\nDie Festung landete schließlich auf einem Hügel zwischen Bergen, laut Feng-Shui-Lesart wie auf einem Lehnstuhl mit Armlehnen. Ob der Muntjak oder eher die ungeschützte Lage zum Meer schuld war, weiß niemand – aber die Version mit dem Hirsch erzählt sich besser.",
+  "sources": [
+   {
+    "title": "明代海防重镇 藏身年轻特区",
+    "publisher": "羊城晚报 / 凤凰网",
+    "date": "2014-08-16",
+    "url": "https://news.ifeng.com/c/7fnRUrLIcI9"
+   }
+  ],
+  "tags": [
+   "tiere",
+   "sprache",
+   "bau",
+   "china"
+  ],
+  "era": "mittelalter",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "legende",
+   "tiere"
+  ],
+  "wiki": "Muntjac",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-2e466f",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "In Dapeng spricht man Soldaten-Mandarin",
+  "teaser": "Ming-Soldaten aus ganz China brachten ihre Dialekte nach Dapeng. Daraus entstand eine eigene Mischsprache – weder Kantonesisch noch Hakka.",
+  "detail": "Die meisten Dörfer in Südchina sind Clan-Dörfer: ein Nachname, ein Ahnentempel. Die Festung Dapeng ist anders. Auf rund zehn Hektar leben über 70 verschiedene Familiennamen.\n\nDer Grund: Hier saß eine Garnison, und die Soldaten kamen samt Familien aus allen Ecken des Reichs. Jeder brachte seinen Dialekt mit. Daraus mischte sich etwas Neues, das die Lokalpresse „Dapeng-Hochchinesisch“ nennt – anders als Kantonesisch, anders als Hakka. Ein eigener Tonfall heißt bei den Einheimischen „Qianyin“.\n\nIn vielen Ming-Garnisonen entstanden solche „Soldatensprach-Inseln“, die meisten sind längst verschwunden. In Dapeng wird die Mischsprache laut Yangcheng Evening News noch im Alltag gesprochen.\n\nShenzhen, die Stadt der Zugezogenen, hatte also schon vor 600 Jahren ein Viertel, in dem jeder anders redete.",
+  "sources": [
+   {
+    "title": "明代海防重镇 藏身年轻特区",
+    "publisher": "羊城晚报 / 凤凰网",
+    "date": "2014-08-16",
+    "url": "https://news.ifeng.com/c/7fnRUrLIcI9"
+   }
+  ],
+  "tags": [
+   "sprache",
+   "militaer",
+   "china"
+  ],
+  "era": "mittelalter",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "woerter"
+  ],
+  "wiki": "Dapeng Fortress",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-15e8a6",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Dapengs Frauen tragen Soldatenhut",
+  "teaser": "In Dapeng tragen Frauen Sonnenhüte mit rotem Oberteil und blauem Rand – eine Erinnerung daran, dass Qing-Soldaten rote Hutspitzen hatten.",
+  "detail": "Die Festung Dapeng ist über 600 Jahre alt und war lange Garnison – das sieht man bis heute an der Kleidung.\n\nQing-Soldaten trugen Hüte mit rotem Knauf. Die Frauen von Dapeng übernahmen das Farbschema für ihre Sonnenhüte: „blauer Rand, rotes Dach“. Laut Yangcheng Evening News steht das für die stolze Herkunft als Soldatennachfahren.\n\nAuch sonst wird der Militärkult gepflegt: Am zweiten Tag des Neujahrs ehren die Bewohner ihre Vorfahren mit Kung-Fu-Vorführungen, wie einst beim Exerzieren.\n\nModetipp für den Besuch: Wenn dir eine ältere Dame mit rot-blauem Hut begegnet, trägt sie im Grunde ein Uniform-Zitat.",
+  "sources": [
+   {
+    "title": "明代海防重镇 藏身年轻特区",
+    "publisher": "羊城晚报 / 凤凰网",
+    "date": "2014-08-16",
+    "url": "https://news.ifeng.com/c/7fnRUrLIcI9"
+   }
+  ],
+  "tags": [
+   "mode",
+   "militaer",
+   "china"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "brauch"
+  ],
+  "wiki": "Dapeng Fortress",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-18316b",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Ein Hutkoffer verriet: Uropa war Festungskommandant",
+  "teaser": "Museumsleute fanden in Dapeng einen seltsamen Koffer mit Spitze im Deckel. Es war eine Hutbox für Beamte – und die Familie erfuhr so, wer ihr Urahn war.",
+  "detail": "1996 gingen die Mitarbeiter des neuen Museums der Festung Dapeng von Haus zu Haus und sammelten alte Dinge ein.\n\nIm Haus der Familie He fanden sie einen eckigen Koffer mit einer merkwürdigen dreieckigen Beule im Deckel. Niemand wusste, wofür das gut sein sollte. Erst Recherchen klärten es: Es war ein Koffer für den Beamtenhut der Qing-Zeit, die Beule hielt den Hut in Form.\n\nDamit war auch die Familiengeschichte geklärt: Der Vorfahr He Wenpu war der letzte Kommandant der Garnison Dapeng in der späten Qing-Zeit. Seine Nachfahren hatten davon nichts gewusst.\n\nDer Vizechef des Museums fand später in einer Holzkiste auf dem Dachboden seiner Mietwohnung den Streikausweis eines Seemanns vom großen Streik 1925. In Dapeng lohnt sich Aufräumen offenbar.",
+  "sources": [
+   {
+    "title": "明代海防重镇 藏身年轻特区",
+    "publisher": "羊城晚报 / 凤凰网",
+    "date": "2014-08-16",
+    "url": "https://news.ifeng.com/c/7fnRUrLIcI9"
+   }
+  ],
+  "tags": [
+   "mode",
+   "familie",
+   "china"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "brauch"
+  ],
+  "wiki": "Dapeng Fortress",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-37463b",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Ein Dorf, 13 Generäle – und 25 gegen 150 Piraten",
+  "teaser": "Die kleine Festung Dapeng brachte 13 Generäle hervor. Einer überfiel mit 25 Mann eine Bande von über 150 Piraten – und gewann.",
+  "detail": "Dapeng nennt sich nicht ohne Grund „Generalsdorf“: Laut Yangcheng Evening News kamen aus der Festung 13 Generäle.\n\nNeben den fünf Lais ist das Vater-Sohn-Gespann der Familie Liu berühmt. Liu Qilong wurde 1803 Offizier der Küstenwache. Mit einer Patrouille von gerade 25 Mann griff er auf der Insel Pingzhou in der Dapeng-Bucht mehr als 150 Seeräuber an. Die meisten wurden getötet, nur gut ein Dutzend entkam per Boot.\n\nDas Verhältnis von eins zu sechs klingt nach Actionfilm, steht aber so in der Ortsgeschichte. Kein Wunder, dass Dapeng bis heute stolz auf seine Kampftraditionen ist.",
+  "sources": [
+   {
+    "title": "明代海防重镇 藏身年轻特区",
+    "publisher": "羊城晚报 / 凤凰网",
+    "date": "2014-08-16",
+    "url": "https://news.ifeng.com/c/7fnRUrLIcI9"
+   }
+  ],
+  "tags": [
+   "militaer",
+   "schifffahrt",
+   "china"
+  ],
+  "era": "neuzeit",
+  "gross": false,
+  "sensitive": "krieg",
+  "kids": false,
+  "fun": 3,
+  "themes": [
+   "rekord"
+  ],
+  "wiki": "Dapeng Fortress",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-ad201e",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Das „kleine Fischerdorf“ hatte 330.000 Einwohner",
+  "teaser": "Shenzhen wird gern als Fischerdorf beschrieben, das zur Megacity wurde. Tatsächlich war es Kreisstadt eines Kreises mit rund 330.000 Einwohnern.",
+  "detail": "Die Erzählung ist schön: 1979 ein verschlafenes Fischerdorf, heute Hightech-Metropole. Sie taucht ständig auf.\n\nGanz stimmt sie nicht. Laut Guangming Daily wuchs die Sonderzone aus einem kleinen Kreisstädtchen am Shenzhen-Fluss – dem Sitz des Kreises Bao'an, der damals rund 330.000 gemeldete Einwohner hatte. Dazu kamen eine 600 Jahre alte Ming-Festung in Dapeng und das alte Kreisamt in Nantou.\n\nDie Yangcheng Evening News schimpfte schon 2014: Wer mit dem „kleinen Fischerdorf“ anfange, verwechsle die Geschichte der Sonderzone mit der Geschichte Shenzhens.\n\nReich war die Gegend trotzdem nicht. Ein Volksreim spottete: „Bao'an hat nur drei Schätze – Fliegen, Mücken und Shajing-Austern.“",
+  "sources": [
+   {
+    "title": "深圳：从小县城到国际化大都市",
+    "publisher": "光明日报 / 光明网",
+    "date": "2021-06-26",
+    "url": "https://m.gmw.cn/baijia/2021-06/26/34951410.html"
+   },
+   {
+    "title": "明代海防重镇 藏身年轻特区",
+    "publisher": "羊城晚报 / 凤凰网",
+    "date": "2014-08-16",
+    "url": "https://news.ifeng.com/c/7fnRUrLIcI9"
+   }
+  ],
+  "tags": [
+   "staedte",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "mythos"
+  ],
+  "wiki": "Shenzhen",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-0f84db",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Ein Dorf, das sich nach einem Phönix umbenannte",
+  "teaser": "Das Dorf Fenghuang in Bao'an hieß früher Lingxia. Umbenannt haben es Nachfahren des Nationalhelden Wen Tianxiang, die vor den Mongolen geflohen waren.",
+  "detail": "Wen Tianxiang ist in China so etwas wie der Inbegriff des Patrioten: Der Song-Minister geriet in mongolische Gefangenschaft und weigerte sich bis zu seiner Hinrichtung, die Seiten zu wechseln.\n\nSeine Familie zerstreute sich danach in alle Winde, manche bis an die Küste des heutigen Bao'an. Ein Enkel, Wen Yinglin, ließ sich in der Yuan-Zeit mit seinen Söhnen im Dorf Lingxia nieder, baute im Kanton-Stil und taufte das Dorf um: Fenghuang, „Phönix“.\n\nDie Baumeister dachten mit. Die Gassen sind extra eng, die Mauern 1,5- bis 2-mal so hoch wie die Gassen breit. So bleiben die „kühlen Gassen“ im Schatten, und es weht ständig ein Luftzug.\n\nHeute steht das Dorf zwischen Hochhäusern, gleich bei der U-Bahn-Station Fuyong.",
+  "sources": [
+   {
+    "title": "文天祥后人｜深圳凤凰古村 历700年保存最完整 夏天不会热",
+    "publisher": "当代中国（中国文化研究院）",
+    "url": "https://www.ourchinastory.com/cn/10191"
+   }
+  ],
+  "tags": [
+   "architektur",
+   "familie",
+   "china"
+  ],
+  "era": "mittelalter",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "woerter",
+   "bauwerk"
+  ],
+  "wiki": "Wen Tianxiang",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-91c161",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Angeboten: eine ganze Halbinsel. Genommen: 2,14 Quadratkilometer",
+  "teaser": "1979 bot Vizepremier Li Xiannian dem Reformer Yuan Geng die ganze Nantou-Halbinsel an. Der nahm vorsichtshalber nur einen Zipfel: Shekou.",
+  "detail": "Im Januar 1979 kam Yuan Geng von der Handelsfirma China Merchants nach Peking. Im Gepäck: eine Straßenkarte von Hongkong aus einem Hongkonger Verlag. Er bat um ein Stück Land in Shekou für ein Industriegebiet.\n\nVizepremier Li Xiannian schaute auf die Karte und zeichnete großzügig die ganze Nantou-Halbinsel ein: „Dann nimm doch diese Halbinsel!“\n\nYuan wurde mulmig. So viel Land kostet so viel Geld – und wenn das Experiment scheitert, reißt es alles mit. Also tippte er mit einem roten Stift auf die äußerste Südspitze: 2,14 Quadratkilometer.\n\nDaraus wurde das Industriegebiet Shekou, Keimzelle der Reformen. Die Hongkong-Karte liegt heute im Archiv von China Merchants.",
+  "sources": [
+   {
+    "title": "深圳故事：蛇口工业区的诞生",
+    "publisher": "深圳市人民政府门户网站",
+    "date": "2023-01",
+    "url": "https://www.sz.gov.cn/szstoryjp/202301/content/post_10382927.html"
+   }
+  ],
+  "tags": [
+   "wirtschaft",
+   "politik",
+   "staedte",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "geld"
+  ],
+  "wiki": "Shekou",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-dd31c0",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Vier Fen pro Lkw-Ladung landeten in Zhongnanhai",
+  "teaser": "Beim Hafenbau in Shekou gab es 1979 vier Fen Prämie pro Extra-Fuhre Erde. Die Fahrer schafften plötzlich dreimal so viel – dann wurde die Prämie verboten.",
+  "detail": "Beim Bau des Hafens Shekou ging es zäh voran: 20 bis 30 Fuhren Erde pro Fahrer und Tag. Also führte die Baufirma laut eigener Chronik ein simples System ein: 55 Fuhren am Tag waren Pflicht, jede brachte 2 Fen Prämie, jede Fuhre darüber 4 Fen.\n\nDie Wirkung war enorm: Die Fahrer schafften 80 bis 90 Fuhren pro Tag, einzelne sogar 131. Das Projekt war 33 Tage früher fertig.\n\nIm April 1980 kam der Stopp von oben: Man müsse die „Tendenz zu ausufernden Prämien“ korrigieren. Die Leistung sackte prompt ab.\n\nAm 30. Juli landete ein interner Bericht über die Verzögerung bei Parteichef Hu Yaobang. Der schrieb noch am selben Tag eine Anweisung, kurz darauf gab es die Prämie wieder. Die Episode heißt in China bis heute „Vier Fen erschüttern Zhongnanhai“.",
+  "sources": [
+   {
+    "title": "深圳特区40周年！来看看中交人在深圳都做了什么",
+    "publisher": "澎湃新闻·澎湃号",
+    "date": "2020-08-26",
+    "url": "https://www.thepaper.cn/newsDetail_forward_8897731"
+   }
+  ],
+  "tags": [
+   "wirtschaft",
+   "geld",
+   "bau",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "geld",
+   "gesetz"
+  ],
+  "wiki": "Shekou",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-cba696",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Deng zur Massenflucht: „Unsere Politik ist das Problem“",
+  "teaser": "Als Guangdongs Führung 1977 über die Flucht Zehntausender nach Hongkong klagte, sagte Deng Xiaoping: Das Problem ist unsere Politik, das kann die Armee nicht lösen.",
+  "detail": "Von den 1950ern bis Ende der 1970er flohen fast eine Million Menschen aus Guangdong nach Hongkong, viele über die Grenze bei Bao'an. Allein aus dem Kreis Bao'an wurden laut zurückhaltender Zählung 1962 12.144 Flüchtende registriert, 1978 sogar 17.456.\n\nIm November 1977 berichteten Provinzführer Deng Xiaoping in Guangzhou von über 190.000 gemeldeten Fluchtfällen. Man habe mehr Truppen an die Grenze geschickt, ohne Erfolg. Deng rauchte, schwieg und sagte dann: „Das ist ein Problem unserer Politik.“ Und nach einer Pause: Das könne die Armee nicht regeln.\n\nDie Konsequenz kam bald: Bao'an bekam 1979 Sonderregeln für die Grenzwirtschaft, 1980 wurde Shenzhen Sonderwirtschaftszone. Die Fluchtwelle ebbte allmählich ab.",
+  "sources": [
+   {
+    "title": "习仲勋是如何解决“大逃港”的：划一块地方搞特区",
+    "publisher": "澎湃新闻（摘自陈秉安《大逃港》）",
+    "date": "2014-08-20",
+    "url": "https://www.thepaper.cn/newsDetail_forward_1260984"
+   }
+  ],
+  "tags": [
+   "politik",
+   "wirtschaft",
+   "hongkong",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": false,
+  "fun": 3,
+  "themes": [
+   "gesetz"
+  ],
+  "wiki": "Deng Xiaoping",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-1bfeb7",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "„Kommt heim, drüben verdient ihr auch nicht mehr“",
+  "teaser": "Als es in Shenzhen aufwärtsging, schrieb eine Bäuerin ihren nach Hongkong geflohenen Söhnen: Kommt zurück, man verdient jetzt auf beiden Seiten fast gleich. Beide kamen.",
+  "detail": "Jahrzehntelang zogen junge Leute aus Bao'an Richtung Hongkong, meist illegal. Guangdongs Parteichef Xi Zhongxun stufte die Flucht als „Widerspruch im Volk“ ein, nicht als Feindschaft. Seine Wette: Wenn die Wirtschaft wächst, kommen die Leute von selbst zurück.\n\n1979 lockerte die Provinz die Regeln für Bao'an. In Henggang hatte eine Bäuerin namens Zhong plötzlich alle Hände voll zu tun: Tofu, Schweine, Hühner. Sie schrieb ihren beiden Söhnen in Hongkong: „Kommt doch zurück, auf beiden Seiten verdient man inzwischen fast gleich viel.“ Laut dem Buch „Da Taogang“ kehrten beide heim – und die Familie hielt bald über 10.000 Hühner.\n\nNoch ironischer: Viele der ersten Investoren in der jungen Sonderzone waren ehemalige Flüchtlinge, die in Hongkong reich geworden waren. Sie kamen mit Geld statt mit Schwimmflügeln.",
+  "sources": [
+   {
+    "title": "习仲勋是如何解决“大逃港”的：划一块地方搞特区",
+    "publisher": "澎湃新闻（摘自陈秉安《大逃港》）",
+    "date": "2014-08-20",
+    "url": "https://www.thepaper.cn/newsDetail_forward_1260984"
+   }
+  ],
+  "tags": [
+   "politik",
+   "wirtschaft",
+   "familie",
+   "hongkong"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "geld"
+  ],
+  "wiki": "Shenzhen",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-ccdeac",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Aktien vom Lautsprecherwagen: „Kommt, kauft Aktien!“",
+  "teaser": "1987 wollte kaum jemand Aktien der Shenzhen Development Bank. Also fuhren Lkw mit Lautsprechern übers Land, unverkaufte Papiere landeten an Straßenständen bei Bauern.",
+  "detail": "Die Shenzhen Development Bank war 1987 laut Our China Story das erste nach einem regulären Plan gegründete Aktien-Finanzunternehmen Chinas. Das Problem: Kaum jemand wusste, was eine Aktie ist, und noch weniger wollten eine.\n\nAlso ging man auf Tour. Die Papierurkunden wurden auf einen Lastwagen mit zwei großen Lautsprechern geladen, der durch die Dörfer fuhr und „Kommt, kauft Aktien!“ rief – wie auf dem Gemüsemarkt. Was übrig blieb, verkaufte man an Straßenständen an Bauern.\n\nDie Pointe kam ein paar Jahre später: Die verschmähten Aktien stiegen enorm im Wert. Die Bank heißt heute Ping An Bank und trägt an der Börse Shenzhen die Nummer 000001.",
+  "sources": [
+   {
+    "title": "改革开放|深圳证券交易所诞生记 从“菜市场”到资本市场",
+    "publisher": "当代中国（中国文化研究院）",
+    "url": "https://www.ourchinastory.com/cn/7648"
+   },
+   {
+    "title": "深圳特區45年|深圳810股票風波 深化改革開放證券監管",
+    "publisher": "當代中國（中國文化研究院）",
+    "url": "https://www.ourchinastory.com/zh/302"
+   }
+  ],
+  "tags": [
+   "finanzen",
+   "wirtschaft",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "geld"
+  ],
+  "wiki": "Shenzhen Stock Exchange",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-782617",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "„Börse“ war zu heikel – fast hieß sie „Markt“",
+  "teaser": "1990 sollte die Börse Shenzhen in Peking umbenannt werden: „Börse“ klinge zu sensibel. Die Gründer wehrten sich – sonst sei man ja wie ein Gemüsemarkt.",
+  "detail": "Im Mai 1990 fuhr das Gründungsteam der Shenzhener Börse nach Peking, um die Genehmigung zu holen. Dort hieß es: Der Name sei „zu sensibel“, das Wort „Börse“ ein Problem. Man solle sich doch „Wertpapiermarkt Shenzhen“ nennen.\n\nMitgründer Yu Guogang protestierte: Wenn man „Markt“ aufs Schild schreibe, was sei dann der Unterschied zum Markt, auf dem man Gemüse und Fleisch verkauft?\n\nDie Genehmigung ließ auf sich warten. Shenzhens Parteichef Li Hao entschied schließlich auf eigene Faust, dass alles bereit sei, und ließ ab dem 1. Dezember 1990 probehalber handeln. Offiziell eröffnet wurde erst im Juli 1991.\n\nDer Probebetrieb hatte einen schönen Nebeneffekt: 18 Tage später öffnete Shanghai seine Börse – Shenzhen war trotzdem schneller.",
+  "sources": [
+   {
+    "title": "改革开放|深圳证券交易所诞生记 从“菜市场”到资本市场",
+    "publisher": "当代中国（中国文化研究院）",
+    "url": "https://www.ourchinastory.com/cn/7648"
+   }
+  ],
+  "tags": [
+   "finanzen",
+   "wirtschaft",
+   "sprache",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "woerter",
+   "gesetz"
+  ],
+  "wiki": "Shenzhen Stock Exchange",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-c2bc59",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Die besten Anleger waren Fischer, die nichts taten",
+  "teaser": "In Shenzhens erstem Börsenfieber hieß es: Experten sind schlechter als Zocker, Zocker schlechter als Daheimsitzer. Die Gewinner waren Fischer, die ihre Aktien in der Kiste vergaßen.",
+  "detail": "Als die Shenzhen Development Bank gegründet wurde, wandelte man die Einlagen ländlicher Kreditgenossenschaften in Aktien um. So wurden auch Fischer zu Aktionären, ohne es so richtig zu merken.\n\nDann brach um 1990 das Börsenfieber aus. Die Experten verkauften brav, sobald das Kurs-Gewinn-Verhältnis zu hoch war. Die Zocker hielten länger durch. Die Fischer verstanden nichts vom Handel, ließen die Aktienurkunden in der Kiste liegen – und verkauften irgendwann ganz oben.\n\nDaraus wurde laut einem früheren Börsenaufseher ein geflügeltes Wort: „Experten sind schlechter als Zocker, Zocker schlechter als Leute, die daheim sitzen.“ Eine Anlagestrategie, die bis heute verblüffend aktuell klingt.",
+  "sources": [
+   {
+    "title": "聂庆平：我国股票市场若干重要事件的历史回忆",
+    "publisher": "中国证券报 / 中证网",
+    "date": "2019-01-15",
+    "url": "https://cs.com.cn/xwzx/zt2017/20190115/01/201901/t20190115_5915166.html"
+   }
+  ],
+  "tags": [
+   "finanzen",
+   "wirtschaft",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "geld"
+  ],
+  "wiki": "Shenzhen Development Bank",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-bd0858",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Ausweise säckeweise: Shenzhens Aktienlotterie 1992",
+  "teaser": "Für Shenzhens Aktienlotterie 1992 brauchte man Personalausweise. Spekulanten kauften auf dem Land Ausweise gleich säckeweise auf.",
+  "detail": "Im August 1992 verkaufte Shenzhen fünf Millionen Lose, mit denen man neue Aktien zeichnen durfte. Pro Personalausweis gab es ein Los, jeder durfte bis zu zehn Ausweise vorlegen.\n\nDas setzte eine absurde Jagd in Gang. Laut dem späteren Finanzaufseher Nie Qingping kauften Anleger in ganz China Ausweise von Landbewohnern auf – „Sack für Sack“.\n\nMehr als 1,2 Millionen Menschen standen schließlich an. Die Lose waren in knapp einer Stunde weg. Wer zwei Tage umsonst gewartet hatte, war entsprechend sauer: Am Abend des 10. August kam es zu Krawallen, die Stadt ließ eilig weitere fünf Millionen Lose drucken.\n\nDie Aufregung reichte bis Peking. Kurz danach gründete China seine eigene Wertpapieraufsicht.",
+  "sources": [
+   {
+    "title": "聂庆平：我国股票市场若干重要事件的历史回忆",
+    "publisher": "中国证券报 / 中证网",
+    "date": "2019-01-15",
+    "url": "https://cs.com.cn/xwzx/zt2017/20190115/01/201901/t20190115_5915166.html"
+   },
+   {
+    "title": "深圳特區45年|深圳810股票風波 深化改革開放證券監管",
+    "publisher": "當代中國（中國文化研究院）",
+    "url": "https://www.ourchinastory.com/zh/302"
+   }
+  ],
+  "tags": [
+   "finanzen",
+   "wirtschaft",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "geld",
+   "panne"
+  ],
+  "wiki": "Shenzhen Stock Exchange",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-d50e52",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Deng zitierte seine eigene Inschrift – fehlerfrei nach acht Jahren",
+  "teaser": "1992 sagte der 87-jährige Deng Xiaoping in Shenzhen eine Inschrift auf, die er 1984 für die Stadt geschrieben hatte. Kein Wort fehlte, keins war falsch.",
+  "detail": "Im Januar 1992 reiste Deng Xiaoping, offiziell längst im Ruhestand, durch Südchina – die berühmte „Südreise“, die Chinas Reformkurs neu anschob.\n\nIn Shenzhen wollten die Begleiter, dass er sich nach der Zugfahrt ausruht. Deng: „In Shenzhen halte ich es nicht im Sitzen aus, ich will mich überall umsehen.“\n\nBeim Spaziergang erinnerte ihn Tochter Deng Nan an seine Inschrift von 1984. Deng sagte sie Wort für Wort auf: „Shenzhens Entwicklung und Erfahrung beweisen, dass unsere Politik der Sonderwirtschaftszonen richtig ist.“ Der Reporter der Shenzhen Special Zone Daily notierte: kein Wort ausgelassen, kein Wort falsch.\n\nDie Begleiter staunten über sein Gedächtnis. Und Shenzhen hatte die Bestätigung, dass der Satz noch galt.",
+  "sources": [
+   {
+    "title": "东方风来满眼春——邓小平同志在深圳纪实",
+    "publisher": "深圳特区报（陈锡添），转载于爱思想",
+    "date": "1992-03-26",
+    "url": "https://www.aisixiang.com/data/3418.html"
+   }
+  ],
+  "tags": [
+   "politik",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "rekord"
+  ],
+  "wiki": "Deng Xiaoping's southern tour",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-d2db42",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Deng wollte Schadenersatz für „geklauten“ Bambus – im Scherz",
+  "teaser": "Im Botanischen Garten Shenzhen erfuhr Deng 1992, dass einige Bambussorten heimlich aus Chengdu „besorgt“ worden waren. Seine Antwort: geistiges Eigentum – ich bin Sichuaner, ihr schuldet mir was!",
+  "detail": "Bei der Südreise 1992 besuchte Deng Xiaoping den Botanischen Garten Xianhu. Er schwärmte vom Bambus in Chengdu in seiner Heimatprovinz: roter, schwarzer, violetter, gelber – sogar eckiger.\n\nJemand gestand, einige Bambussorten im Garten seien „heimlich aus Chengdu geholt“ worden. Deng scherzte: „Das ist auch eine Frage des geistigen Eigentums! Ich bin Sichuaner, ihr müsst mich entschädigen.“ Alle lachten.\n\nDas Thema geistiges Eigentum zog sich durch die Reise: Schon zwei Tage vorher hatte Tochter Deng Nan ihn am Bahnhof geneckt, sein Schriftzug „Shenzhen“ auf dem Gebäude sei sein „Patent“.\n\nDass ausgerechnet Shenzhen, später berüchtigt für Nachbau-Handys, so einen Witz mitbekam, ist eine kleine Ironie der Geschichte.",
+  "sources": [
+   {
+    "title": "东方风来满眼春——邓小平同志在深圳纪实",
+    "publisher": "深圳特区报（陈锡添），转载于爱思想",
+    "date": "1992-03-26",
+    "url": "https://www.aisixiang.com/data/3418.html"
+   }
+  ],
+  "tags": [
+   "politik",
+   "pflanzen",
+   "recht",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "faelschung"
+  ],
+  "wiki": "Bamboo",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-e05859",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Familienstreit bei Dengs: Welche Pomelo ist die beste?",
+  "teaser": "Deng Xiaoping lobte zu Hause stets die Pomelos aus Sichuan. Seine Kinder schworen auf die Shatian-Pomelo aus Guangxi – der Streit lief bis ins Auto in Shenzhen.",
+  "detail": "Bei der Südreise 1992 fuhr Deng Xiaoping im Auto nach Shekou. Shenzhens Parteichef Li Hao schwärmte gerade: Die besten Litschis der Welt kämen aus China, die besten Chinas aus Guangdong, und die besten dort unter anderem aus Shenzhen.\n\nDa stellte Tochter Deng Rong die Gretchenfrage: „Und wo gibt es die besten Pomelos der Welt?“ Das ganze Auto brach in Gelächter aus.\n\nDer Hintergrund laut Shenzhen Special Zone Daily: Zu Hause prahlte Deng gern, Sichuan-Pomelos seien die besten. Die Kinder widersprachen – Shatian-Pomelos seien besser.\n\nDeng blieb hart: Sichuan-Pomelos seien die besten, nur gebe es eben keine Einigkeit. Deng Rong konterte: Mehr Leute lobten Shatian.\n\nDer Mann, der Chinas Wirtschaft umkrempelte, konnte also nicht mal seine Familie bei Zitrusfrüchten überzeugen.",
+  "sources": [
+   {
+    "title": "东方风来满眼春——邓小平同志在深圳纪实",
+    "publisher": "深圳特区报（陈锡添），转载于爱思想",
+    "date": "1992-03-26",
+    "url": "https://www.aisixiang.com/data/3418.html"
+   }
+  ],
+  "tags": [
+   "ernaehrung",
+   "familie",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "essen"
+  ],
+  "wiki": "Pomelo",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-61d86c",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Huawei verkaufte anfangs Schlankheitspillen",
+  "teaser": "Bevor Huawei Netzwerktechnik baute, verkaufte die junge Firma, was Geld brachte: Feuermelder, Gesundheitsmittel und Schlankheitspillen.",
+  "detail": "Ren Zhengfei war Vizechef einer Elektronikfirma des Staatskonzerns Nanyou in Shenzhen. Dann ging ein Geschäft über 2 Millionen Yuan schief: Der Käufer nahm die Ware, zahlte aber nie. Ren verlor laut Sina Tech seinen Posten.\n\n1987 kratzte er mit ein paar Freunden 21.000 Yuan zusammen und gründete Huawei – eingetragen in einer Wohnung im Viertel Nanyou. Ziel war erst einmal: überleben.\n\nDie Firma war zunächst ein Handelsladen. Verkauft wurde, was Geld brachte: Feueralarme, Flotationsgeräte, Gesundheitsprodukte und Schlankheitspillen. Ren ließ sogar prüfen, ob sich Grabsteine lohnen, weil eine andere Firma damit gut verdiente.\n\nErst danach kam der Handel mit Telefonanlagen, der den Weg zum Tech-Giganten ebnete. Diätpillen stehen heute eher nicht mehr im Huawei-Katalog.",
+  "sources": [
+   {
+    "title": "任正非只有一个",
+    "publisher": "新浪科技",
+    "date": "2022-07-27",
+    "url": "https://finance.sina.com.cn/tech/it/2022-07-27/doc-imizirav5659240.shtml"
+   }
+  ],
+  "tags": [
+   "wirtschaft",
+   "technik",
+   "it",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "geld",
+   "erfindung"
+  ],
+  "wiki": "Huawei",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-6bdb70",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Vankes erstes großes Geld kam aus Futtermais",
+  "teaser": "Bevor Vanke Wohnungen baute, handelte Gründer Wang Shi als Zwischenhändler mit Mais für Tierfutter. Laut Yicai brachte ihm das 3 Millionen Yuan.",
+  "detail": "Wang Shi kam 1983 nach Shenzhen und arbeitete bei der staatlichen Entwicklungsgesellschaft der Sonderzone. Klingt unglamourös – sein erstes Geld war es auch.\n\nLaut Yicai machte er sich als Futtermittel-Zwischenhändler einen Namen: Er kaufte und verkaufte Mais und verdiente damit 3 Millionen Yuan.\n\n1984 gründete er davon das „Ausstellungs- und Verkaufszentrum für moderne wissenschaftliche Lehrmittel“. Das handelte mit Elektrogeräten aus Japan, betrieb nebenbei Kleider-, Uhren-, Getränke- und Druckereibetriebe. Wang selbst fasste das Sortiment so zusammen: alles außer Pornografie, Glücksspiel, Drogen und Waffen.\n\nAus dem Bauchladen wurde Vanke – jahrelang einer der größten Wohnungsbauer Chinas.",
+  "sources": [
+   {
+    "title": "万科创始人王石简介",
+    "publisher": "第一财经 / 一财网",
+    "date": "2014-02-25",
+    "url": "https://www.yicai.com/news/3507014.html"
+   }
+  ],
+  "tags": [
+   "wirtschaft",
+   "landwirtschaft",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "geld"
+  ],
+  "wiki": "China Vanke",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-3f4c08",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Eine Grenze mitten durch die eigene Stadt",
+  "teaser": "Jahrzehntelang trennte ein 84,6 Kilometer langer Zaun die Sonderzone vom Rest Shenzhens. Wer aus dem Inland hinein wollte, brauchte einen Grenzpassierschein.",
+  "detail": "Ab 1982 baute Shenzhen eine zweite Grenze – nicht zu Hongkong, sondern zum Rest Chinas. Die „Sonderzonen-Verwaltungslinie“ lief 84,6 Kilometer quer durch das Gebiet: Stacheldraht, Patrouillenweg, 17 Kontrollposten und 23 Durchgänge für Bauern zu ihren Feldern.\n\nWer aus dem Landesinneren hinein wollte, brauchte einen Grenzgebietspassierschein. Den gab es nach Gängen zu Polizeiposten und Polizeiamt, oft nur mit Hilfe von Bekannten, gültig meist zwei Monate. Eine Zugezogene aus Hunan zählte rückblickend über 20 solcher Scheine.\n\nBusse hielten am Kontrollposten Nantou, alle stiegen aus und standen Schlange. Wer sich das Kennzeichen nicht merkte, stieg danach womöglich in den falschen Bus – und war sein Gepäck los.\n\n2010 wurde die Sonderzone auf die ganze Stadt ausgedehnt, die Linie verlor ihren Sinn.",
+  "sources": [
+   {
+    "title": "深圳故事：特区管理线",
+    "publisher": "深圳市人民政府门户网站",
+    "date": "2022-12",
+    "url": "https://www.sz.gov.cn/szstory/202212/content/post_10335433.html"
+   },
+   {
+    "title": "特区40年·奋斗在深圳 | @老深圳人 还记得你的边防证吗？",
+    "publisher": "深圳特区报 / 澎湃新闻",
+    "date": "2020-08-05",
+    "url": "https://m.thepaper.cn/baijiahao_8591257"
+   }
+  ],
+  "tags": [
+   "politik",
+   "staedte",
+   "verkehr",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "bauwerk",
+   "gesetz"
+  ],
+  "wiki": "Shenzhen Special Economic Zone",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-bb72e3",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Shenzhens Gericht: Stühle bitte selbst mitbringen",
+  "teaser": "Als Shenzhens Mittleres Volksgericht 1982 startete, teilten sich drei Kammern ein Zimmer unter 12 Quadratmetern. Zu Versammlungen brachte jeder seinen eigenen Stuhl mit.",
+  "detail": "Heute hat Shenzhen glänzende Justizpaläste. Der Anfang war bescheidener.\n\nDas Mittlere Volksgericht wurde am 1. Februar 1982 gegründet. Laut Stadtarchiv bestand es aus drei Reihen einfacher Flachbauten. Straf-, Zivil- und Wirtschaftskammer teilten sich ein Zimmer von weniger als 12 Quadratmetern. Zu Versammlungen schleppten alle ihre Stühle selbst in die „Bambushütten-Aula“. Dienstwagen gab es keine, zu Ortsterminen ging es zu Fuß oder per Rad.\n\nDafür ging es schnell: Die 1988 gegründete Schlichtungsstelle für Wirtschaftsstreitigkeiten brauchte 1993 im Schnitt 16 Tage pro Fall, der schnellste war in weniger als einer Stunde erledigt.\n\nShenzhen-Tempo eben – auch in der Justiz.",
+  "sources": [
+   {
+    "title": "深圳故事：深圳市中级人民法院",
+    "publisher": "深圳市人民政府门户网站",
+    "date": "2023-02",
+    "url": "https://www.sz.gov.cn/szstory/202302/content/post_10438831.html"
+   }
+  ],
+  "tags": [
+   "recht",
+   "staedte",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "gesetz"
+  ],
+  "wiki": "Shenzhen",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-70acdd",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Silber in der Extra-Windel",
+  "teaser": "Ein Reisender ging am Grenzübergang Wenjindu so komisch, dass der Zoll ihn anhielt. In einer zusätzlichen Windel steckten 1,65 Kilo Silberkörner.",
+  "detail": "Am Grenzübergang Wenjindu zwischen Hongkong und Shenzhen kam ein Mann durch den Kanal „Nichts zu verzollen“. Den Zöllnern fiel auf: Er ging irgendwie unnatürlich.\n\nDie Kontrolle löste das Rätsel. Der Mann trug eine zusätzliche Windel, darin 1,65 Kilogramm Silberkörner. Das Prüflabor des Shenzhener Zolls bestätigte: Silber mit 99,99 Prozent Reinheit.\n\nLaut Chinas Zollbehörde gab der Mann an, er habe das Silber gegen eine „Tragegebühr“ für andere über die Grenze gebracht.\n\nMoral von der Geschicht': Mit anderthalb Kilo Edelmetall in der Windel läuft niemand ganz normal.",
+  "sources": [
+   {
+    "title": "Man caught smuggling 1.65kg of silver granules hidden in diaper at Wenjindu Customs in S.China's Guangdong",
+    "publisher": "Newsgd.com",
+    "date": "2026-04-27",
+    "url": "https://www.newsgd.com/node_5c070fdd03/5be28cb6ea.shtml"
+   }
+  ],
+  "tags": [
+   "kriminalitaet",
+   "geld",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 4,
+  "themes": [
+   "krimi"
+  ],
+  "wiki": "Silver",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-b9ba07",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Diamanten in der Unterhose mit Reißverschluss",
+  "teaser": "Ein Reisender am Grenzübergang Lo Wu hatte sich ein Reißverschlussfach in die Unterhose nähen lassen. Darin: 641 Karat synthetische Diamanten.",
+  "detail": "Der Mann wirkte in der Einreisehalle am Grenzübergang Lo Wu verdächtig, also hielten ihn Zöllner an.\n\nDie Durchsuchung förderte eine Spezialanfertigung zutage: In seine Unterhose war eine Tasche mit Reißverschluss eingenäht. Darin steckten fünf Tütchen mit durchsichtigen Steinen, zusammen gut 128 Gramm oder 641 Karat.\n\nDie Analyse ergab: synthetische Diamanten, also im Labor gezüchtet. Wert laut Chinas Zollbehörde trotzdem über 250.000 Yuan.\n\nDie Hongkonger Zeitung Sing Tao taufte das Beweisstück prompt „Gangster-Unterhose“. Ein Kleidungsstück, das man so eher nicht im Kaufhaus findet.",
+  "sources": [
+   {
+    "title": "古惑底裤︱¥25万人造钻石藏暗格 恤衫男入境罗湖断正",
+    "publisher": "星岛头条",
+    "date": "2024-05-27",
+    "url": "https://www.stheadline.com/zh-hans/realtime-china/3348512/古惑底裤25万人造钻石藏暗格-恤衫男入境罗湖断正有片"
+   }
+  ],
+  "tags": [
+   "kriminalitaet",
+   "mode",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 4,
+  "themes": [
+   "krimi"
+  ],
+  "wiki": "Synthetic diamond",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-0d1f2c",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "„Magneto“-Schmuggel: Festplatten mit Magneten am Lkw-Boden",
+  "teaser": "Ein leerer Lkw am Grenzübergang Shenzhen Bay war gar nicht leer: Unter dem Boden klebten per Magnet 1.080 Speicherriegel und 2.850 SSDs.",
+  "detail": "Ein leerer Laster auf dem Weg nach Shenzhen – was soll da schon drin sein? Das Röntgenbild am Grenzübergang Shenzhen Bay sah allerdings seltsam aus.\n\nDie Zöllner schauten nach und fanden unter der Ladefläche Päckchen, die per Magnet am Boden hafteten. Inhalt: 1.080 Arbeitsspeicher-Riegel und 2.850 SSD-Festplatten. Geschätzter Wert: rund eine Million Yuan.\n\nIm chinesischen Netz bekam der Fall sofort Spitznamen, etwa „Wan Ci Wang“ – so heißt der Marvel-Bösewicht Magneto auf Chinesisch.\n\nKleiner Trost für die Käufer: SSDs gelten anders als alte Festplatten mit Magnetscheiben als unempfindlich gegen Magnete. Erwischt wurden sie trotzdem.",
+  "sources": [
+   {
+    "title": "用磁铁吸附车厢底部，深圳湾海关查获内存条 1080 条、固态硬盘 2850 个",
+    "publisher": "IT之家（据海关发布）",
+    "date": "2023-12-07",
+    "url": "https://www.ithome.com/0/737/633.htm"
+   }
+  ],
+  "tags": [
+   "kriminalitaet",
+   "technik",
+   "it",
+   "china"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "verbrechen",
+  "kids": false,
+  "fun": 4,
+  "themes": [
+   "krimi"
+  ],
+  "wiki": "Shenzhen Bay Control Point",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-5bdcd6",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Inschrift aus der Ferne: Deng lobte Shenzhen erst an Silvester",
+  "teaser": "1984 besuchte Deng Xiaoping Shenzhen – und schrieb sein berühmtes Lob erst Tage später in Guangzhou, am Silvesterabend des Mondjahres. Die Stadt bekam es als Neujahrsgruß.",
+  "detail": "Im Januar 1984 schaute sich Deng Xiaoping die junge Sonderzone an. Für Shenzhen ging es um viel: Es gab Zweifel, ob das Experiment nicht zu kapitalistisch sei. Ein Lob vom Chef wäre Gold wert.\n\nLaut Shenzhens Stadtarchiv schrieb Deng die Inschrift aber nicht vor Ort, sondern erst in Guangzhou, am Abend des 1. Februar, dem chinesischen Silvester: „Shenzhens Entwicklung und Erfahrung beweisen, dass unsere Politik der Sonderwirtschaftszonen richtig ist.“\n\nAm Neujahrstag lasen und sahen die Shenzhener den Satz in Zeitung und Fernsehen – als „Neujahrsgruß“.\n\nKurios: Andere Berichte, etwa die berühmte Reportage von 1992, datieren die Inschrift auf den 26. Januar. Die Stadt hat für ihren wichtigsten Satz also gleich zwei Geburtstage.",
+  "sources": [
+   {
+    "title": "深圳故事：邓小平与深圳",
+    "publisher": "深圳市人民政府门户网站",
+    "date": "2023-03",
+    "url": "https://www.sz.gov.cn/szstoryjp/202303/content/post_10473132.html"
+   },
+   {
+    "title": "东方风来满眼春——邓小平同志在深圳纪实",
+    "publisher": "深圳特区报（陈锡添），转载于爱思想",
+    "date": "1992-03-26",
+    "url": "https://www.aisixiang.com/data/3418.html"
+   }
+  ],
+  "tags": [
+   "politik",
+   "schrift",
+   "feste",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "brauch"
+  ],
+  "wiki": "Deng Xiaoping",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-4fe6de",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "„Bei euch Yangs gibt's ja zwei Vorsitzende!“",
+  "teaser": "1992 traf Deng in Shenzhen den Sohn von Staatspräsident Yang Shangkun, Vizechef des Fotografenverbands. Dengs Kommentar: Die Yangs haben ja zwei Vorsitzende.",
+  "detail": "Bei der Südreise 1992 war auch Yang Shangkun dabei, damals Staatspräsident – auf Chinesisch wörtlich „Staatsvorsitzender“. Er zählte an den Fingern ab, wie lange er Deng schon kannte: seit 1932, also 60 Jahre.\n\nDann kam sein Sohn Yang Shaoming dazu, drei Kameras um den Hals, und wünschte „Onkel Deng“ ein frohes neues Jahr. Deng Rong erklärte: Er sei stellvertretender Vorsitzender des nationalen Fotografenverbands.\n\nDeng grinste: „Ihr Yangs habt ja zwei Vorsitzende!“ Laut Shenzhen Special Zone Daily brach der ganze Saal in Gelächter aus.\n\nTitelinflation auf Chinesisch: Vom Staatschef bis zum Fotoverband heißt alles „Zhuxi“.",
+  "sources": [
+   {
+    "title": "东方风来满眼春——邓小平同志在深圳纪实",
+    "publisher": "深圳特区报（陈锡添），转载于爱思想",
+    "date": "1992-03-26",
+    "url": "https://www.aisixiang.com/data/3418.html"
+   }
+  ],
+  "tags": [
+   "politik",
+   "fotografie",
+   "sprache",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "woerter"
+  ],
+  "wiki": "Yang Shangkun",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-2a9461",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Plastikhocker als Spekulationsobjekt",
+  "teaser": "Bei Shenzhens Aktienlotterie 1992 standen die Menschen tagelang an. Plastikhocker für die Schlange stiegen von drei bis fünf auf über zehn Yuan, Fährtickets aufs Vierfache.",
+  "detail": "Im August 1992 strömten über eine Million Menschen nach Shenzhen, um Lose für neue Aktien zu ergattern. Für Findige war das Geschäft schon vor der Börse zu machen.\n\nDie Züge aus Guangzhou waren voll, also wichen viele auf den Umweg über Zhuhai und das Schiff aus. Das Ticket kostete normal acht, erste Klasse höchstens zwölf Yuan – dann über 30. Wer Tickets weiterverkaufte, machte laut dem damaligen Börsenaufseher Nie Qingping gutes Geld.\n\nUnd weil man nicht zwei Tage stehen kann, blühte der Handel mit Plastikhockern: erst drei bis fünf Yuan, später über zehn. Damit niemand vordrängelte, hielten sich die Wartenden fest umschlungen – Männer wie Frauen.\n\nDie besten Renditen machten an dem Wochenende vermutlich die Hockerverkäufer.",
+  "sources": [
+   {
+    "title": "聂庆平：我国股票市场若干重要事件的历史回忆",
+    "publisher": "中国证券报 / 中证网",
+    "date": "2019-01-15",
+    "url": "https://cs.com.cn/xwzx/zt2017/20190115/01/201901/t20190115_5915166.html"
+   }
+  ],
+  "tags": [
+   "finanzen",
+   "wirtschaft",
+   "handel",
+   "china"
+  ],
+  "era": "20jh",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "geld"
+  ],
+  "wiki": "Shenzhen Stock Exchange",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-c9dbe3",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "15.947 Drohnen – und die schießen auch noch Feuerwerk",
+  "teaser": "Im Oktober 2025 hingen über Shenzhen 15.947 Drohnen gleichzeitig am Himmel, gesteuert von einem einzigen Computer. Nebenbei feuerten sie 7.496 Feuerwerkskörper ab.",
+  "detail": "Shenzhen hat sich offenbar vorgenommen, seinen eigenen Drohnenrekord regelmäßig zu überbieten. Am 17. Oktober 2025 schickte die Shenzhener Firma High Great 15.947 Drohnen in die Luft, alle gleichzeitig und alle an einem einzigen Rechner. Das gab einen Guinness-Rekord.\n\nDa noch Platz im Programm war, gab es gleich einen zweiten. Die Drohnen trugen Feuerwerk und zündeten 7.496 Feuerwerkskörper in der Luft. Am Himmel standen so digitale Nachbauten klassischer Feuerwerksbilder – nur dass fliegende Roboter sie abschossen.\n\nZwei Weltrekorde an einem Abend. Der Vorgängerrekord aus Shenzhen lag ein Jahr zuvor noch bei gut 10.000 Drohnen. In Shenzhen ist das halt kein Science-Fiction, sondern Feierabendprogramm.",
+  "sources": [
+   {
+    "title": "15,947 drones! Shenzhen drone show breaks Guinness World Record again",
+    "publisher": "Shenzhen Government Online",
+    "date": "2025-10-21",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/LowAltitudeEconomy/LowAltitudeEconomyinFocus/content/post_12515300.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "rekorde",
+   "technik",
+   "feste"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "rekord"
+  ],
+  "wiki": "Drone light show",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-9c7eb2",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Ein Drohnen-Airport so groß wie eine Duschkabine",
+  "teaser": "Shenzhen erließ 2024 Chinas erstes Regelwerk für die Wirtschaft im Luftraum knapp über den Dächern. 2025 flogen Frachtdrohnen über eine Million Mal – Meituans neue Umschlagstation braucht 1,4 Quadratmeter.",
+  "detail": "In Shenzhen ist der Himmel über den Häusern ein eigener Wirtschaftszweig, und der hat seit 2024 sogar eigene Vorschriften. Die Stadt erließ als erste in China Regeln für die sogenannte Niedrigflug-Wirtschaft, 61 Artikel von Landeplätzen bis Sicherheit.\n\nDas lohnt sich: 2025 starteten Frachtdrohnen hier über eine Million Mal, 29 Prozent mehr als im Jahr davor. Es gibt inzwischen 310 Lieferrouten und über 1.200 Start- und Landeplätze. Rund 70 Prozent aller Verbraucherdrohnen Chinas werden in Shenzhen gebaut.\n\nUnd die Landeplätze schrumpfen. Früher brauchte ein Drohnen-Airport laut Meituan mindestens 80 Quadratmeter. Die neue Umschlagstation kommt mit 1,4 Quadratmetern aus, also etwa der Fläche einer Duschkabine. Damit kann jetzt auch der kleine Laden an der Ecke mitmachen.",
+  "sources": [
+   {
+    "title": "Shenzhen Issues China's First Low-Altitude Economy Regulations",
+    "publisher": "Yicai Global",
+    "date": "2024-01-05",
+    "url": "https://www2.yicaiglobal.com/news/shenzhen-approves-chinas-first-low-altitude-economy-regulation"
+   },
+   {
+    "title": "In Shenzhen, the future may be flying overhead",
+    "publisher": "Shenzhen Government Online",
+    "date": "2026-06-14",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/aisz/news/content/post_12841671.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "luftfahrt",
+   "logistik",
+   "recht"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "gesetz",
+   "rekord"
+  ],
+  "wiki": "Delivery drone",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-4f9f3f",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Campingstuhl vergessen? Die Drohne bringt ihn in neun Minuten",
+  "teaser": "Im Lianhuashan-Park landen Lieferdrohnen direkt auf der Campingwiese. Rund 100 Produkte stehen zur Wahl, von Eistee bis Campingausrüstung.",
+  "detail": "Der Lianhuashan-Park in Futian ist eines von Shenzhens Wohnzimmern. Auf dem Kite Square lassen Leute Drachen steigen, laut China Daily so routiniert, dass sich die Schnüre selten verheddern.\n\nSeit Juli 2024 ist der Himmel dort noch voller. Meituan fliegt Bestellungen per Drohne direkt auf den Campingbereich, laut Stadt der erste Drohnen-Lieferdienst in einem nationalen Schwerpunktpark Chinas. Im Angebot sind fast 100 Produkte: Eisgetränke, frisches Obst und sogar Campingzubehör. Lieferzeit: ab neun Minuten.\n\nVorher mussten Camper ihre Bestellungen am Parkeingang abholen, weil Mopeds nicht hinein dürfen. Bis sie zurück am Zelt waren, war der Eistee oft geschmolzen.\n\nVor Ort: Lianhuashan-Park, Futian. Zwischen Drachen und Drohnen lohnt es sich, ab und zu nach oben zu schauen.",
+  "sources": [
+   {
+    "title": "Drone delivery service launched at Lianhua Hill Park",
+    "publisher": "Shenzhen Government Online",
+    "date": "2024-07-25",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/LowAltitudeEconomy/Areasofapplication/logistics/content/post_11464541.html"
+   },
+   {
+    "title": "Lianhuashan Park",
+    "publisher": "China Daily",
+    "date": "2019-01-09",
+    "url": "https://govt.chinadaily.com.cn/s/201901/09/WS5c358e7c498e27e33802ac8c/lianhuashan-park.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "luftfahrt",
+   "outdoor",
+   "logistik"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "erfindung",
+   "brauch",
+   "vorort"
+  ],
+  "wiki": "Futian District",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-1a272b",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Autobauer baute seine Maskenmaschinen einfach selbst",
+  "teaser": "Anfang 2020 stellte BYD in Shenzhen auf Atemschutzmasken um. Kaufen konnte man die Maschinen nicht, also baute BYD sie selbst – bald fünf Millionen Masken am Tag.",
+  "detail": "Als Anfang 2020 Masken knapp wurden, machte BYD etwas, das man von einem Elektroauto-Konzern nicht erwartet: Er baute Maskenlinien. Weil gerade Neujahrsfest war, gab es keine Maschinen zu kaufen. Also setzte Konzernchef Wang Chuanfu über 3.000 Ingenieure an die Konstruktion. Mehr als 90 Prozent der rund 1.300 Bauteile pro Linie stammten aus eigener Produktion.\n\nIn Longgang, wo vorher täglich über eine halbe Million Handys vom Band liefen, wurde eine Werkhalle zum Reinraum umgebaut. Wenige Wochen später schaffte die Fabrik laut China Daily fünf Millionen Masken am Tag und gehörte zu den größten Maskenherstellern der Welt.\n\nWer 3.000 Ingenieure hat, findet offenbar auch jemanden, der mal eben eine Maskenmaschine erfindet.",
+  "sources": [
+   {
+    "title": "BYD produces 5 million face masks per day",
+    "publisher": "China Daily HK",
+    "date": "2020-03-24",
+    "url": "https://chinadailyhk.com/hk/article/125338"
+   },
+   {
+    "title": "BYD starts construction of new $3 billion project at its fourth campus in Shenzhen",
+    "publisher": "CnEVPost",
+    "date": "2022-09-14",
+    "url": "https://cnevpost.com/2022/09/14/byd-starts-construction-3-billion-project-shenzhen/"
+   }
+  ],
+  "tags": [
+   "china",
+   "auto",
+   "medizin",
+   "erfindungen"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "krankheit",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "erfindung",
+   "rekord"
+  ],
+  "wiki": "BYD Company",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-1c59a3",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "20 Patente pro Tag – BYD tapeziert eine ganze Wand",
+  "teaser": "In BYDs Zentrale in Shenzhen hängt eine fünf Meter hohe Wand voller Patenturkunden. Der Konzern bekommt im Schnitt 20 neue Patente erteilt – pro Tag.",
+  "detail": "Manche Firmen hängen Mitarbeiterfotos auf, BYD hängt Patente auf. In der Konzernzentrale in Pingshan steht eine fünf Meter hohe Wand voller Patenturkunden aus aller Welt. Die Stadt nennt sie die größte „Patentwand“ der Welt.\n\nDer Nachschub reißt nicht ab: Laut CleanTechnica reicht BYD im Schnitt 45 Patentanträge pro Tag ein und bekommt 20 genehmigt. Insgesamt sind es über 40.000 erteilte Patente.\n\nVor Ort: BYD-Zentrale, BYD Road 3009, Pingshan (Metro Linie 16). Laut Stadt fährt über das Gelände auch eine selbst entwickelte Hochbahn, der Skyshuttle. Wer Patente sammelt, baut sich eben auch gleich die Bahn zum Büro.",
+  "sources": [
+   {
+    "title": "BYD gets about twenty patents a day",
+    "publisher": "CleanTechnica",
+    "date": "2025-11-20",
+    "url": "https://cleantechnica.com/2025/11/20/byd-gets-about-twenty-patents-a-day-adding-up-to-50000-technologies-already-authorized/"
+   },
+   {
+    "title": "BYD's tech prowess wows HK journalists",
+    "publisher": "Shenzhen Daily / EyeShenzhen",
+    "date": "2023-02-27",
+    "url": "https://www.eyeshenzhen.com/content/2023-02/27/content_30093759.htm"
+   },
+   {
+    "title": "Cyber Shenzhen citywalk route",
+    "publisher": "Shenzhen Government Online",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/CyberSZ/content/post_11893874.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "auto",
+   "erfindungen",
+   "recht"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "rekord",
+   "erfindung",
+   "vorort"
+  ],
+  "wiki": "BYD Company",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-205621",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Goldmarkt Shuibei: „Moment, der Preis hat sich schon wieder geändert“",
+  "teaser": "Auf Shenzhens Goldmarkt Shuibei ändert sich der Preis so schnell, dass Verkäufer laut einem Marktbericht auf Fragen gern antworten: „Moment, der Goldpreis hat sich schon wieder geändert.“",
+  "detail": "Shenzhen ist für Elektronik bekannt, aber Shuibei in Luohu gilt als „Chinas erste Goldstraße“: ein riesiger Großhandelsmarkt für Schmuck und Barren. Laut einem Marktbericht, den der Broker Tiger veröffentlichte, ist ein Satz dort zum Standard geworden: „Moment, der Goldpreis hat sich schon wieder geändert.“ Bevor die Rechnung fertig ist, steht schon ein neuer Preis im System.\n\nEnde 2025 kostete Schmuckgold in Shuibei laut demselben Bericht 1.095 Yuan pro Gramm.\n\nJunge Chinesen kaufen derweil Gold in Bohnenform, wie Sixth Tone berichtet: etwa ein Gramm pro Bohne, gesammelt in kleinen Glasfläschchen. 2023 kostete eine Bohne 400 bis 600 Yuan. Manche rechneten sie in Milchtee um – ein, zwei Bohnen im Monat statt Bubble Tea.\n\nVor Ort: Shuibei-Goldmarkt, Luohu. Vorher den Tagespreis checken, er ändert sich ja ständig.",
+  "sources": [
+   {
+    "title": "Shuibei's Gold Market: A Witness to the Standardization of the Gold Industry",
+    "publisher": "Deep News via Tiger Brokers",
+    "date": "2025-12",
+    "url": "https://www.itiger.com/news/1125159831"
+   },
+   {
+    "title": "To Grow Wealth, China's Gen Z is Buying Gold — One Bean at a Time",
+    "publisher": "Sixth Tone",
+    "date": "2023-11",
+    "url": "https://www.sixthtone.com/news/1013975"
+   }
+  ],
+  "tags": [
+   "china",
+   "geld",
+   "handel",
+   "wirtschaft"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "geld",
+   "vorort"
+  ],
+  "wiki": "Gold",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-4a78dc",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Jedes siebte Costco-Mitglied in Shenzhen kommt aus Hongkong",
+  "teaser": "Früher kauften Festlandchinesen in Hongkong ein, heute ist es umgekehrt. 14 Prozent der Costco-Mitglieder in Shenzhen sind Hongkonger – es gibt sogar Shopping-Busse.",
+  "detail": "Jahrzehntelang strömten Festlandchinesen über die Grenze, um in Hongkong Milchpulver und Handtaschen zu kaufen. Inzwischen läuft der Strom andersherum. 2024 fuhren Hongkonger laut The World of Chinese über sechs Millionen Mal pro Monat nach Shenzhen, 2023 waren es noch rund vier Millionen.\n\nBeliebtes Ziel: Großmärkte. 14 Prozent der Costco-Mitglieder in Shenzhen stammen aus Hongkong, für Costco und Sam's Club gibt es eigene Shopping-Busse. Am 4. August 2024 zählten Shenzhens Landgrenzübergänge 882.800 Reisende an einem einzigen Tag, Rekord – die meisten Hongkonger Ausflügler.\n\nDazu kommen Spas mit Gratis-Buffet zur Massage, Omakase-Dinner und Milchtee für einen Bruchteil des Hongkonger Preises. Grenzpendeln als Hobby.",
+  "sources": [
+   {
+    "title": "How Shenzhen Became Hongkongers' Weekend Escape Plan",
+    "publisher": "The World of Chinese",
+    "date": "2025-04",
+    "url": "https://www.theworldofchinese.com/2025/04/how-shenzhen-became-hongkongers-weekend-escape-plan/"
+   },
+   {
+    "title": "Hong Kong Shoppers Flock to Shenzhen, Taking Land Border Visitor Flow to New High",
+    "publisher": "Yicai Global",
+    "date": "2024-08-06",
+    "url": "https://yicaiglobal.com/news/hong-kong-consumers-push-shenzhen-land-ports-passenger-traffic-to-new-highs"
+   }
+  ],
+  "tags": [
+   "china",
+   "handel",
+   "reisen",
+   "hongkong"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "geld",
+   "brauch"
+  ],
+  "wiki": "Costco",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-9bee4f",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Gutes Benehmen bringt Punkte fürs Wohnrecht",
+  "teaser": "Shenzhens Benimm-Verordnung belohnt vorbildliches Verhalten unter anderem mit Punkten für die begehrte Wohnsitz-Registrierung. Und sie verlangt: in der Öffentlichkeit nicht laut reden.",
+  "detail": "Seit 2012 hat Shenzhen eine „Verordnung zur Förderung zivilisierten Verhaltens“. Sie liest sich teils wie eine Hausordnung für eine Millionenstadt. Artikel 17 etwa: In öffentlichen Räumen soll man sich ordentlich anstellen und nicht laut reden.\n\nDer Clou ist die Belohnung. Wer sich zivilisiert verhält, kann laut Artikel 11 Prämien, Ehrungen oder Punkte für den Hukou bekommen, also die offizielle Wohnsitz-Registrierung in Shenzhen. Die ist für Zugezogene Gold wert, weil daran Schulplätze und Sozialleistungen hängen.\n\nBlut-, Knochenmark- und Organspender werden laut Artikel 12 samt Ehepartner, Kindern und Eltern bevorzugt, wenn sie selbst einmal Blut oder ein Organ brauchen. Höflichkeit als Karrierestrategie, sozusagen.",
+  "sources": [
+   {
+    "title": "Regulations of Shenzhen Special Economic Zone on the Promotion of Civilized Behavior",
+    "publisher": "China Services Info / Shenzhen Municipal People's Congress",
+    "date": "2019",
+    "url": "https://chinaservicesinfo.com/s/201904/18/WS6434c2b4498ea274927b6981/regulations-of-shenzhen-special-economic-zone-on-the-promotion-of-civilized-behavior.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "recht",
+   "staedte",
+   "psychologie"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "sensitive": "politik",
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "gesetz",
+   "brauch"
+  ],
+  "wiki": "Hukou",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-0c8782",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Lieferroboter fahren U-Bahn – und lassen erst alle aussteigen",
+  "teaser": "In Shenzhen fahren Lieferroboter allein U-Bahn, um 7-Eleven-Filialen in den Stationen zu beliefern. Höflich warten sie, bis alle Fahrgäste ausgestiegen sind.",
+  "detail": "Was Menschen im Berufsverkehr oft nicht hinbekommen, haben diese Roboter einprogrammiert: erst aussteigen lassen, dann einsteigen. Der Konzern Vanke schickte 2025 rund 40 vierrädrige Lieferroboter ins Shenzhener Metronetz.\n\nIhr Job: Waren zu 7-Eleven-Läden bringen, laut Futurezone vor allem in U-Bahn-Stationen. Die Roboter nehmen den Aufzug, rollen auf den Bahnsteig, steigen in den Waggon und fahren außerhalb der Stoßzeiten zur richtigen Station. Ein spezielles Fahrwerk hilft ihnen über die Lücke zwischen Bahnsteig und Zug.\n\nGeplant ist, später rund 100 Filialen so zu versorgen. Wenn dir also ein knuffiger Kasten auf vier Rädern im Waggon den Vortritt lässt: Das ist kein Kinderwagen.",
+  "sources": [
+   {
+    "title": "7-Eleven Delivery Robots Use Subway in China",
+    "publisher": "Mental Floss",
+    "date": "2025-07",
+    "url": "https://www.mentalfloss.com/technology/robots/7-eleven-delivery-robots-use-subway-in-china"
+   },
+   {
+    "title": "Chinesische Liefer-Roboter fahren U-Bahn",
+    "publisher": "futurezone",
+    "date": "2025-07-17",
+    "url": "https://futurezone.at/digital-life/chinesische-liefer-roboter-fahren-u-bahn-shenzhen-7-eleven/403058817"
+   }
+  ],
+  "tags": [
+   "china",
+   "logistik",
+   "bahn",
+   "technik"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "erfindung"
+  ],
+  "wiki": "7-Eleven",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-e509fe",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Unter der Erde guckt dich das „Auge von Shenzhen“ an",
+  "teaser": "Der U-Bahn-Knoten Gangxia North hat eine riesige Kuppel nach dem Muster einer Fermat-Spirale. Die Station ist 60 Prozent größer als der Fernbahnhof nebenan.",
+  "detail": "Normalerweise sind U-Bahn-Stationen Betonröhren. Gangxia North in Futian ist eher eine Kathedrale. Herzstück ist ein Atrium, das „Auge von Shenzhen“ heißt. Die Kuppel windet sich nach dem Prinzip der Fermat-Spirale, jener Kurve, nach der auch Sonnenblumen ihre Kerne anordnen. In der Mitte öffnet sich ein rundes Glasdach, durch das Tageslicht bis tief nach unten fällt.\n\nDer Knoten verbindet vier Linien (2, 10, 11, 14) und ist mit 220.000 Quadratmetern 60 Prozent größer als der Fernbahnhof Futian nebenan. Die Stadt nennt ihn das größte einzelne Schienenverkehrsprojekt Chinas.\n\nVor Ort: Station Gangxia North, Shennan Boulevard/Caitian Road. Einfach mal stehen bleiben und nach oben schauen.",
+  "sources": [
+   {
+    "title": "Gangxia North Hub",
+    "publisher": "AREP",
+    "url": "https://www.arep.fr/?p=4645"
+   },
+   {
+    "title": "Cyber Shenzhen citywalk route",
+    "publisher": "Shenzhen Government Online",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/CyberSZ/content/post_11893874.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "bahn",
+   "architektur",
+   "mathematik"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "bauwerk",
+   "rekord",
+   "vorort"
+  ],
+  "wiki": "Gangxia North station",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-537962",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Hitzefrei in der U-Bahn: Kühlzimmer mit Lesecke",
+  "teaser": "Shenzhens U-Bahn hat 2026 in 24 Stationen „Kühlzonen“ gegen die Hitze eingerichtet. In Gangxia North gibt's dazu gratis Wasser, Hitzschlag-Sets und eine Leseecke für Kinder.",
+  "detail": "Shenzhen liegt knapp unter dem Wendekreis, und im Sommer wird es dort brütend heiß und schwül. Deshalb kühlt die U-Bahn nicht nur Züge. Seit 2024 gibt es „Cooling Areas“, zuerst als Test an sieben ruhigen Stationen, im Sommer 2026 schon an 24 Stationen auf sechs Linien.\n\nDort darf jeder einfach abkühlen. Am Knoten Gangxia North gibt es kostenloses Trinkwasser, Mittel gegen Hitzschlag und sogar eine Leseecke für Kinder, in Honghu Wandbilder mit Lotusblüten.\n\nPünktlich zu Sanfu, den traditionell heißesten 40 Tagen des Jahres, wurden die klimatisierten Ruheecken zum beliebten Zufluchtsort. Hitzefrei gibt's in Shenzhen also auch zwischen zwei Stationen.",
+  "sources": [
+   {
+    "title": "Metro expands cooling areas",
+    "publisher": "Shenzhen Government Online / Shenzhen Daily",
+    "date": "2026-07-14",
+    "url": "https://www.sz.gov.cn/en_szgov/news/latest/content/post_12892936.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "bahn",
+   "wetter",
+   "staedte"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 2,
+  "themes": [
+   "bauwerk",
+   "brauch"
+  ],
+  "wiki": "Shenzhen Metro",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-a14886",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "70 KI-Mitarbeiter im Amt – jeder mit menschlichem Aufpasser",
+  "teaser": "Shenzhens Bezirk Futian setzte 2025 auf einen Schlag 70 „KI-Mitarbeiter“ ein. Ein maßgeschneidertes Behördendokument dauert laut Bezirk jetzt Minuten statt fünf Tage.",
+  "detail": "Im Februar 2025 bekam die Verwaltung von Futian 70 neue Kollegen, die keine Kantine brauchen. Die „KI-Mitarbeiter“ laufen mit dem Sprachmodell DeepSeek und erledigen Aufgaben in elf Bereichen, von Dokumenten über Bürgerservice bis zur Notfallhilfe.\n\nDas Ergebnis klingt nach Behördentraum. Ein individuelles Dokument zu erstellen dauert laut Bezirk nun Minuten statt fünf Tage, die Trefferquote bei Formatkorrekturen liegt über 95 Prozent. Schriftstücke für Arbeitsschlichtungen entstehen angeblich per Klick in einer Sekunde.\n\nEine Regel bleibt aber sehr menschlich: Jedes KI-System hat einen festen menschlichen Aufpasser, und der haftet, wenn etwas schiefgeht. Die Programme sollen helfen, nicht ersetzen – auch wenn man sie „Mitarbeiter“ nennt.",
+  "sources": [
+   {
+    "title": "As DeepSeek Expands, China's Cities Roll Out 'AI Public Servants'",
+    "publisher": "Sixth Tone",
+    "date": "2025-03",
+    "url": "https://www.sixthtone.com/news/1016677"
+   }
+  ],
+  "tags": [
+   "china",
+   "it",
+   "recht",
+   "technik"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "gesetz",
+   "erfindung"
+  ],
+  "wiki": "DeepSeek",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-ed5d1a",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "1980 zwei Parks, heute 1.320",
+  "teaser": "Bei Gründung der Sonderwirtschaftszone 1980 hatte Shenzhen genau zwei Parks. Heute sind es 1.320, allein 2019 kamen 117 dazu.",
+  "detail": "Shenzhen ist als Betonwüste verschrien, aber die Zahlen sagen etwas anderes. 1980, als die Sonderwirtschaftszone gegründet wurde, gab es genau zwei Parks: den Zhongshan-Park und den Park am Shenzhen-Stausee. 2025 zählte die Stadt laut Shenzhen Daily 1.320.\n\nIm Schnitt kommen jedes Jahr rund 30 neue dazu. 2019 drehte Shenzhen richtig auf und baute 117 Parks in einem einzigen Jahr, also mehr als zwei pro Woche. Das langfristige Ziel: über 1.500 Parks und Grün in fünf Gehminuten von jeder Wohnung.\n\nWer also in Shenzhen im Grünen steht und sich fragt, ob das schon ein Park ist: Wahrscheinlich ja, und der nächste ist nicht weit.",
+  "sources": [
+   {
+    "title": "Zhongshan Park turns 100",
+    "publisher": "Shenzhen Daily / EyeShenzhen",
+    "date": "2025-04-22",
+    "url": "https://www.eyeshenzhen.com/content/2025-04/22/content_31545449.htm"
+   }
+  ],
+  "tags": [
+   "china",
+   "staedte",
+   "pflanzen",
+   "rekorde"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "rekord",
+   "bauwerk"
+  ],
+  "wiki": "Shenzhen",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-9e4058",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Ein Park für 100 Jahre mit 646 Metern Ruinenmauer",
+  "teaser": "Der Zhongshan-Park neben der Altstadt Nantou wurde 1925 gegründet und ist heute 37-mal so groß. Drin steckt ein 646 Meter langes Stück der alten Stadtmauer.",
+  "detail": "In einer Stadt, die fast komplett nach 1980 entstand, ist ein 100 Jahre alter Park eine Rarität. Der Zhongshan-Park in Nanshan wurde 1925 nach dem Tod Sun Yat-sens angelegt, bezahlt vom damaligen Kreisvorsteher von Bao'an, und maß anfangs 13.000 Quadratmeter. Heute sind es 490.000, mehr als das 37-Fache.\n\nDrin wachsen 36 uralte Bäume, und mittendurch zieht sich ein 646 Meter langes Stück der verfallenen Mauer der Altstadt Nantou. Dazu kommt laut Shenzhen Daily die größte Stein-Büste Sun Yat-sens in ganz China.\n\nVor Ort: Zhongshan-Park, gleich neben der Altstadt Nantou. Nach dem Altstadt-Bummel einfach an der alten Mauer entlang weiterlaufen.",
+  "sources": [
+   {
+    "title": "Zhongshan Park turns 100",
+    "publisher": "Shenzhen Daily / EyeShenzhen",
+    "date": "2025-04-22",
+    "url": "https://www.eyeshenzhen.com/content/2025-04/22/content_31545449.htm"
+   }
+  ],
+  "tags": [
+   "china",
+   "staedte",
+   "pflanzen",
+   "architektur"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "bauwerk",
+   "vorort"
+  ],
+  "wiki": "Sun Yat-sen",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-924953",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Wo früher Fabriken standen, sitzen heute 300 Designbüros",
+  "teaser": "Das OCT-LOFT war ein Industriegebiet der 1980er mit fast 60 Fabriken. Heute arbeiten dort rund 300 Kreativfirmen, eine alte Disc-Fabrik wurde zum Kulturhaus.",
+  "detail": "Shenzhen hat seine Werkbank-Vergangenheit nicht abgerissen, sondern hübsch gemacht. Im Viertel Overseas Chinese Town lag in den 1980ern ein Industriepark mit fast 60 Betrieben. Ende der 1990er zogen die Firmen weg, die Hallen standen leer.\n\nAb 2004 wurde daraus das OCT-LOFT. Die Fabrikbauten blieben stehen, rein zogen Ateliers, Ausstellungen, Gastronomie und Designer. Heute haben laut Shenzhen Daily über 70 Prozent der Firmen mit Kreativität und Design zu tun, insgesamt fast 300. Jüngstes Projekt: Gebäude B10, früher eine Disc-Fabrik, 2022 umgebaut – mit fast allen alten Bauteilen.\n\nVor Ort: OCT-LOFT, Nanshan. Hier sitzen Designer heute dort, wo früher Discs gepresst wurden.",
+  "sources": [
+   {
+    "title": "OCT-LOFT: from industrial park to 'garden of inspiration'",
+    "publisher": "Shenzhen Development and Reform Commission",
+    "url": "https://drc.sz.gov.cn/ywb/szfj/pcsj/content/post_9952344.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "design",
+   "kunst",
+   "architektur"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 2,
+  "themes": [
+   "bauwerk",
+   "vorort"
+  ],
+  "wiki": "Shenzhen",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-d91014",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Rindfleisch so frisch, dass es auf dem Teller zittert",
+  "teaser": "Beim Chaoshan-Rinderhotpot zählt Frische: Ein Shenzhener Lokal bekommt sein Rind binnen vier Stunden nach der Schlachtung. In Chaoshan zittert das Fleisch manchmal noch auf dem Teller.",
+  "detail": "Wer in Shenzhen Hotpot bestellt, landet oft beim Chaoshan-Rinderhotpot, einer Spezialität aus dem Osten Guangdongs. Der Stolz dieser Küche ist die Frische. Ein alteingesessenes Chaoshan-Lokal in Shenzhen lässt sein Rind laut Shenzhen Daily innerhalb von vier Stunden nach der Schlachtung anliefern.\n\nIn Chaoshan selbst geht es noch direkter: Manche Lokale schlachten hinten und verkaufen vorn. Laut Foodautor Zhang Xinmin ist das Fleisch dann manchmal so frisch, dass es auf dem Teller noch zittert.\n\nAuf der Karte stehen bis zu zehn Stücke. Das begehrteste heißt Diaolong, „hängender Drache“, aus dem oberen Rücken. Jede Scheibe kommt nur Sekunden in die klare Brühe, dann durch die Shacha-Sauce – eine lokale Version von Satay – und ab in den Mund.",
+  "sources": [
+   {
+    "title": "History of Chaoshan Beef Hotpot",
+    "publisher": "The World of Chinese",
+    "url": "https://www.theworldofchinese.com/post/history-of-chaoshan-beef-hotpot/"
+   },
+   {
+    "title": "Try Chaoshan beef hotpot in winter",
+    "publisher": "Shenzhen Daily / EyeShenzhen",
+    "date": "2018-03-22",
+    "url": "https://www.eyeshenzhen.com/content/2018-03/22/content_18722393.htm"
+   }
+  ],
+  "tags": [
+   "china",
+   "gastronomie",
+   "kochen"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "essen"
+  ],
+  "wiki": "Hot pot",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-44e1b2",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Egal welches Restaurant: Hunan und Sichuan sind immer drauf",
+  "teaser": "Fast jedes chinesische Restaurant in Shenzhen hat Gerichte aus Hunan und Sichuan auf der Karte, egal welche Küche draußen dransteht. Schuld sind die Zugezogenen.",
+  "detail": "Kantonesisch essen in Kanton? In Shenzhen nicht unbedingt. Die Stadt besteht zum Großteil aus Zugezogenen, und viele kommen aus Hunan und Sichuan. Das hat das Londoner Victoria and Albert Museum 2013 in seiner Shenzhen-Sammlung festgehalten: Fast jedes chinesische Restaurant der Stadt hat ein paar Hunan- und Sichuan-Gerichte auf der Karte, ganz egal, welche Regionalküche es eigentlich bewirbt.\n\nDer Grund ist praktisch. Viele Arbeiter leben ohne Familie in der Stadt, also kochen sie nicht, sondern essen täglich auswärts – und die Lokale passen sich ihren Gästen an.\n\nDas Ergebnis ist eine Stadt ohne jahrhundertealte eigene Küche, aber mit einem Querschnitt durch ganz China. Das Museum sammelte dafür sogar 14 Speisekarten.",
+  "sources": [
+   {
+    "title": "Menu (Shenzhen collection object O1411483)",
+    "publisher": "Victoria and Albert Museum",
+    "url": "https://collections.vam.ac.uk/item/O1411483/menu/"
+   }
+  ],
+  "tags": [
+   "china",
+   "gastronomie",
+   "kochen"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "essen",
+   "brauch"
+  ],
+  "wiki": "Hunan cuisine",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-e754ca",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Shenzhen hat einen gesetzlichen Tag der Talente",
+  "teaser": "In Shenzhen ist der 1. November per Verordnung „Tag der Talente“. Dazu gibt's Chinas ersten Park zum Thema Talent – mit einem Gedenkwald für Akademiker.",
+  "detail": "Andere Städte feiern Stadtgründer oder Heilige, Shenzhen feiert schlaue Köpfe. Laut Artikel 14 der städtischen Talent-Verordnung ist der 1. November jedes Jahres „Tag der Talente“, gültig seit 2017.\n\nAm 1. November 2017 eröffnete auch der Talent Park in Nanshan, laut Stadt Chinas erster Park zum Thema Talent. Auf 77 Hektar, knapp 40 Prozent davon Wasser, gibt es einen Gedenkwald für Akademiker und einen Gedenkberg für herausragende Persönlichkeiten.\n\nVor Ort: Shenzhen Talent Park, Nanshan. Ein Spaziergang dort ist quasi die offizielle Talent-Ehrenrunde.",
+  "sources": [
+   {
+    "title": "Shenzhen Talent Park",
+    "publisher": "Shenzhen Government Online",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_10986925.html"
+   },
+   {
+    "title": "Regulations of Shenzhen Special Economic Zone on Talent Work",
+    "publisher": "Shenzhen Government Online",
+    "url": "https://www.sz.gov.cn/en_szgov/laws/content/post_8399793.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "bildung",
+   "recht",
+   "staedte"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "gesetz",
+   "brauch",
+   "vorort"
+  ],
+  "wiki": "Shenzhen",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-030c15",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Ausflugsziel Müllverbrennung – mit Café und Blumen-Schornstein",
+  "teaser": "In Nanshan ist die Müllverbrennungsanlage ein Ausflugsziel. Es gibt ein Café, Spiele und einen 72,4 Meter hohen Schornstein in Form einer Calla-Blüte.",
+  "detail": "Ein Sonntagsausflug zur Müllverbrennung? In Shenzhen ist das kein Witz. Vier Anlagen heißen dort „Energie-Ökoparks“ und sind gleichzeitig Kraftwerk, Museum und Freizeitort. Der Park in Nanshan verbrennt rund 2.300 Tonnen Hausmüll am Tag und hat trotzdem ein Café, Ausstellungen zur Müllverwertung und interaktive Spiele.\n\nDas Wahrzeichen ist der Schornstein: 72,4 Meter hoch und geformt wie eine Calla-Blüte. Von dort blickt man aufs Meer und den Hafen Mawan. Industrie als Blumenstrauß. Die größte der vier Anlagen, in Bao'an, schafft übrigens 8.450 Tonnen am Tag.\n\nVor Ort: Nanshan Energy Ecological Park, Mawan Boulevard 1032. Besuch per Anmeldung über den WeChat-Account des Betreibers.",
+  "sources": [
+   {
+    "title": "Hidden tech to visit in Shenzhen: Energy parks and 'magic' library",
+    "publisher": "Newsgd.com",
+    "url": "https://info.newsgd.com/node_ed2910caae/fab869da65.shtml"
+   }
+  ],
+  "tags": [
+   "china",
+   "technik",
+   "staedte",
+   "architektur"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "bauwerk",
+   "vorort"
+  ],
+  "wiki": "Incineration",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-7a2dca",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Die „Zauberbibliothek“: Bücher kommen per Roboter aus dem Keller",
+  "teaser": "In Shenzhens Bibliothek Longhua holen 20 Meter hohe Maschinen Bücher aus dem Untergrundlager. Chinas Außenamtssprecherin fragte: Weltraumaufzug oder Hogwarts?",
+  "detail": "Bücher bestellen, warten, Zauberei. In der Zweigstelle Longhua der Shenzhener Bibliothek liegt der Bestand in einem automatisierten Magazin 18 Meter unter der Erde, ausgelegt für vier Millionen Bände – laut Newsgd das größte intelligente Untergrundmagazin Chinas. Ein Wagen fährt los, holt das gewünschte Buch und liefert es in nur zehn Minuten in jedes Stockwerk.\n\nSogar die Sprecherin des chinesischen Außenministeriums, Mao Ning, war begeistert. Sie fragte auf X, ob das ein „Weltraumaufzug“ sei oder „Hogwarts in Verkleidung“.\n\nVor Ort: Shenzhen Library Longhua Branch, Metro Hongshan (Linien 4 und 6), Ausgang A1. Führungen ins Magazin mit Robotern und 20 Meter hohen Maschinen nur am Wochenende um 10 und 15 Uhr, ab 6 Jahren, mit Bibliotheksausweis und Anmeldung.",
+  "sources": [
+   {
+    "title": "Hidden tech to visit in Shenzhen: Energy parks and 'magic' library",
+    "publisher": "Newsgd.com",
+    "url": "https://info.newsgd.com/node_ed2910caae/fab869da65.shtml"
+   }
+  ],
+  "tags": [
+   "china",
+   "literatur",
+   "technik",
+   "bildung"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 4,
+  "themes": [
+   "bauwerk",
+   "erfindung",
+   "vorort"
+  ],
+  "wiki": "Shenzhen Library",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-4c2c19",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Roboterboxen: Kopf ab, weitergekämpft",
+  "teaser": "Beim laut Veranstalter weltweit ersten Freistil-Kampfturnier für menschengroße Roboter in Shenzhen verlor ein Roboter im Juli 2026 seinen Kopf – und kämpfte einfach weiter.",
+  "detail": "Im Juli 2026 stiegen in Shenzhen menschengroße Roboter in den Ring. Die „Ultimate Robot Knock-out Legend“ im Sportzentrum Nanshan war ein Freistil-Turnier mit 32 Teams aus aller Welt. Alle kämpften mit demselben Modell, dem 1,73 Meter großen T800 der Shenzhener Firma EngineAI. Bewertet wurden Treffer, Standfestigkeit, Ausweichen und Haltbarkeit.\n\nDas Highlight: Im Eröffnungskampf flog einem Roboter der Kopf ab. Samt Kopf-Sensoren war er weg, doch die Kernsysteme sitzen im Rumpf. Also teilte der Roboter weiter aus, steckte ein und brachte den Kampf zu Ende.\n\nActionstar Donnie Yen saß im Publikum und fand es eindrucksvoller als alles im Kino. Ein Boxer, der kopflos weitermacht, dürfte im Menschensport schwer zu toppen sein.",
+  "sources": [
+   {
+    "title": "Robots battle with punches, high kicks and even fight on after losing heads in debut global humanoid fighting contest in Shenzhen",
+    "publisher": "Shenzhen Government Online",
+    "date": "2026-07-19",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/aisz/news/content/post_12902665.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "technik",
+   "rekorde"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 5,
+  "themes": [
+   "erfindung",
+   "brauch"
+  ],
+  "wiki": "Humanoid robot",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-a15add",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Ein Roboter-Autohaus mit Restaurant ganz ohne Menschen",
+  "teaser": "In Shenzhens Bezirk Longgang gibt es einen „Roboter-6S-Store“, laut Eigenwerbung weltweit der erste. Das Restaurant dort wird komplett von Robotern betrieben.",
+  "detail": "In China gibt es das „4S“-Autohaus: Verkauf, Ersatzteile, Service und Kundenbefragung unter einem Dach. Shenzhen legt zwei S drauf und macht daraus einen Laden für Roboter. Der „Robot 6S Store“ in Longgang wirbt damit, weltweit der erste seiner Art zu sein.\n\nLaut einem Bericht auf dem Portal der Stadt probierte dort eine Touristin aus Jamaika mit Freunden Roboter-Kampfspiele aus und aß danach in einem Restaurant, das komplett mit Robotern besetzt ist. Am meisten beeindruckte sie ein humanoider Roboter mit vielen Gelenken – so einen hätte sie gern daheim, zum Vorlesen und Kochen.\n\nFür die Stadt ist so ein Laden längst Tourismus-Werbung: Technik gilt in Shenzhen als Sehenswürdigkeit, wie anderswo Kathedralen. Trinkgeld ist hier wirklich überflüssig.",
+  "sources": [
+   {
+    "title": "In Shenzhen, technology is the new tourist attraction",
+    "publisher": "Shenzhen Government Online",
+    "date": "2026-08-11",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/aisz/news/content/post_12934903.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "technik",
+   "gastronomie",
+   "handel"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "erfindung",
+   "essen"
+  ],
+  "wiki": "Humanoid robot",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-006536",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "DJI-Zentrale hängt am Stahl – fast wie eine Drohne",
+  "teaser": "Die Zentrale des Drohnenbauers DJI in Shenzhen gilt als erster asymmetrischer, hängender Stahlbau über 200 Meter. Im Flagship-Store kommen 40 Prozent der Bestellungen aus dem Ausland.",
+  "detail": "Wer Drohnen baut, will offenbar auch im Büro schweben. Die DJI Sky City in Nanshan, Zentrale des Drohnenbauers, ist laut Stadt der weltweit erste asymmetrische, hängende Stahlbau über 200 Meter Höhe. Dafür gab es 2023 einen ArchDaily-Architekturpreis.\n\nIm Flagship-Store von DJI läuft der Laden gerade international: Laut einer Mitarbeiterin kamen im Sommer 2026 in zwei Wochen rund 40 Prozent der Bestellungen aus dem Ausland, viele aus Europa und Südamerika. Darunter eine spanische Weingutbesitzerin, die sich Agrardrohnen für ihre Reben anschaute.\n\nVor Ort: DJI Sky City, Nanshan (Metro Liuxiandong, Linie 5). Von außen sieht der Turm aus, als würde er gleich abheben.",
+  "sources": [
+   {
+    "title": "In Shenzhen, technology is the new tourist attraction",
+    "publisher": "Shenzhen Government Online",
+    "date": "2026-08-11",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/aisz/news/content/post_12934903.html"
+   },
+   {
+    "title": "Cyber Shenzhen citywalk route",
+    "publisher": "Shenzhen Government Online",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/CyberSZ/content/post_11893874.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "luftfahrt",
+   "architektur",
+   "handel"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "bauwerk",
+   "geld",
+   "vorort"
+  ],
+  "wiki": "DJI",
+  "verified": "2026-10-15"
+ },
+ {
+  "id": "ort-ab0c6a",
+  "category": "ort",
+  "place": "shenzhen",
+  "lang": "de",
+  "headline": "Fast 8.000 ausländische Käufer am Tag in Huaqiangbei",
+  "teaser": "2026 kamen im Schnitt fast 8.000 ausländische Einkäufer pro Tag nach Huaqiangbei. Ein Südafrikaner ließ im Urlaub gleich Laptop und die Uhr seiner Tochter reparieren.",
+  "detail": "Huaqiangbei, Shenzhens legendäre Elektronikmeile mit über 115.000 Gewerbebetrieben, ist 2026 ein Touristenmagnet. Laut Bezirksdaten kamen im Schnitt fast 8.000 ausländische Käufer pro Tag. KI-Brillen verkauften sich doppelt so gut wie im Vorjahr, Drohnen und Roboter 60 bis 70 Prozent besser.\n\nManche shoppen nicht nur. Ein Besucher aus Südafrika kaufte eine Powerbank und ließ nebenbei seinen Apple-Rechner und die Uhr seiner Tochter reparieren. Urlaub mit Werkstatttermin, sozusagen.\n\nInsgesamt zählte Shenzhen bis Anfang August 2026 über fünf Millionen Ein- und Ausreisen von Ausländern, 58 Tage früher als im Vorjahr.\n\nVor Ort: Huaqiangbei, Metro Huaqiang Road. Defektes Handy mitnehmen kann sich lohnen.",
+  "sources": [
+   {
+    "title": "In Shenzhen, technology is the new tourist attraction",
+    "publisher": "Shenzhen Government Online",
+    "date": "2026-08-11",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/aisz/news/content/post_12934903.html"
+   }
+  ],
+  "tags": [
+   "china",
+   "handel",
+   "reisen",
+   "technik"
+  ],
+  "era": "gegenwart",
+  "gross": false,
+  "kids": true,
+  "fun": 3,
+  "themes": [
+   "geld",
+   "vorort"
+  ],
+  "wiki": "Huaqiangbei",
+  "verified": "2026-10-15"
+ },
+ {
   "id": "ort-cc80b4",
   "category": "ort",
   "place": "shenzhen",
