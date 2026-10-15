@@ -362,6 +362,8 @@
   .pop img[data-lb], .gal img[data-lb] { cursor: zoom-in; }
   #group { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 12px; z-index: 1000; display: flex;
     background: var(--bg); border-radius: 999px; box-shadow: var(--shadow); padding: 3px; }
+  #group { max-width: calc(100vw - 24px); overflow-x: auto; scrollbar-width: none; } #group::-webkit-scrollbar { display: none; }
+  #group button { white-space: nowrap; flex: none; }
   #group button { border: 0; background: transparent; color: var(--fg); padding: 7px 10px; border-radius: 999px; font-size: 14px; cursor: pointer; }
   #group button.on { background: var(--accent); color: #fff; }
   #group { align-items: center; }
@@ -416,7 +418,7 @@
 <div id="group" role="tablist" aria-label="Bereich">
   <label class="where"><span id="whereLbl">🧭 Route</span><select id="where" aria-label="Bereich wählen">
     <option value="route">🧭 Route</option><option value="hk">🇭🇰 Hongkong</option><option value="cn">🇨🇳 China</option><option value="all">🌏 Alles</option></select></label>
-  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button>
+  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-g="noloc">📍 Ohne Ort</button>
 </div>
 <button id="tourBtn" class="fab" title="Touren" aria-label="Touren" hidden>🧭</button>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
@@ -1006,7 +1008,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // ---------- Filter (Suche + Kategorie)
   // Oberste Ebene: Bereich (Fotos / Food); Kategorien darunter gehören zum gewählten Bereich
   // Fotos/Food = deine Spots aus der Sammlung (+ eigene); Tipps = von Claude ergänzte Spots
-  const GROUPS = { food: p => !p.by_claude && p.category === "Food", fotos: p => !p.by_claude && p.category !== "Food", claude: p => p.by_claude };
+  const unplacedAll = [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])];
+  const GROUPS = { food: p => !p.by_claude && p.category === "Food", fotos: p => !p.by_claude && p.category !== "Food", claude: p => p.by_claude, noloc: () => false };  // „Ohne Ort“ = Posts ohne konkreten Ort (eigene Sektion in der Liste)
   // Fotos / Food / Tipps frei kombinierbar (Mehrfachauswahl, wird gemerkt); nichts gewählt = alles
   let groups = new Set(["fotos"]);
   try { const g = JSON.parse(localStorage.getItem("groups") || "null"); if (Array.isArray(g)) groups = new Set(g.filter(x => GROUPS[x])); } catch {}
@@ -1033,13 +1036,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#where").value = where; $("#whereLbl").textContent = WHERE[where];
     $("#group").querySelectorAll("[data-g=food],[data-g=claude]").forEach(x =>
       x.hidden = !places.some(p => inScope(p) && GROUPS[x.dataset.g](p)));
+    const nl = $("#group [data-g=noloc]"); if (nl) nl.hidden = !unplacedScope().length;
   }
   function setWhere(w, fit = true) {
     where = w; routeF = w === "route"; if (!routeF) region = w;
     try { localStorage.setItem("where", where); } catch {}
     routeF ? routeLayer.addTo(map) : routeLayer.remove();
     quietClose = true; map.closePopup(); quietClose = false; savedView = null;
-    if (groups.size && !places.some(p => inScope(p) && inGroups(p))) { groups = new Set(["fotos"]); saveGroups(); }
+    if (groups.size && !places.some(p => inScope(p) && inGroups(p)) && !(groups.has("noloc") && unplacedScope().length)) { groups = new Set(["fotos"]); saveGroups(); }
     cat = null; showWhere(); renderChips(); renderList();
     if (!fit) return;
     if (routeF) map.fitBounds(L.latLngBounds(ROUTE.map(r => [r.lat, r.lng])), { padding: [40, 40], animate: false });
@@ -1454,7 +1458,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   fitRegion();
 
   // ---------- Liste
-  const unplacedAll = [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])];
+  function unplacedScope() {  // Posts ohne Ort im gewählten Bereich (Route/Alles: alle), passend zur Suche
+    const q = ($("#search") ? $("#search").value : "").trim().toLowerCase();
+    return unplacedAll.filter(x => (routeF || region === "all" || (x.region || "hk") === region)
+      && (!q || [x.username, x.caption].join(" ").toLowerCase().includes(q)));
+  }
   const prioRank = p => ({ hoch: 0, mittel: 1, gering: 2, nein: 4 })[st(p.id).prio] ?? 3;
   // Sichtbarer Kartenbereich ohne die Fläche, die das Panel verdeckt
   // im Ausschnitt = Pin bzw. sein Gruppenkreis liegt sichtbar im Ausschnitt (so wie man es auf der Karte sieht)
@@ -1511,28 +1519,29 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
     const head = (p, i) => sortBy === "area" && (i === 0 || items[i - 1]._a !== p._a)
       ? `<li class="sec areahead">${esc(p._a)} <small>(${items.filter(x => x._a === p._a).length})</small></li>` : "";
+    const nlist = groups.has("noloc") ? unplacedScope() : [];
+    const noloc = nlist.length ? `<li class="sec">📍 Ohne konkreten Ort <small>(${nlist.length} Posts – antippen öffnet den Post)</small></li>
+      <li class="sec" style="padding:0;border:0"><div class="ugrid">${nlist.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
+        ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>${esc(who(x))}</span></a>`).join("")}</div></li>
+      ${items.length ? `<li class="sec">Spots</li>` : ""}` : "";
+    if (nlist.length) $("#count").textContent = `${items.length ? items.length + " Orte · " : ""}${nlist.length} ohne Ort`;
     if (view === "grid") {
-      setList(items.length ? items.map((p, i) => { const s = st(p.id); return `${head(p, i)}
+      setList(noloc + (items.length ? items.map((p, i) => { const s = st(p.id); return `${head(p, i)}
         <li class="gi${s.done ? " done" : ""}" data-id="${esc(p.id)}">
           ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}
           <div class="badge">${s.fav ? "<span class=\"fav-badge\">❤</span>" : ""}${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
           <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : ""].filter(Boolean).join(" · "))}${here() ? ` · <span class="dist">${fmt(p._d)}</span>` : ""}</small></div>
-        </li>`; }).join("") : `<li id="empty">Keine Treffer.</li>`);
+        </li>`; }).join("") : noloc ? "" : `<li id="empty">Keine Treffer.</li>`));
       return;
     }
-    const unplaced = unplacedAll.filter(x => routeF || region === "all" || (x.region || "hk") === region);
-    const extra = unplaced.length && !filtered ? `
-      <li class="sec">Ohne konkreten Ort <small>(${unplaced.length} Posts – Inspiration)</small></li>
-      <li class="sec" style="padding:0;border:0"><div class="ugrid">${unplaced.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
-        ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>${esc(who(x))}</span></a>`).join("")}</div></li>` : "";
-    setList((items.length ? items.map((p, i) => `${head(p, i)}
+    setList(noloc + (items.length ? items.map((p, i) => `${head(p, i)}
       <li data-id="${esc(p.id)}">
         ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
           ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${esc([p.category, p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
         ${here() ? `<div class="d"><span class="dist">${fmt(p._d)}</span></div>` : ""}
       </li>`).join("")
-      : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`) + extra);
+      : noloc ? "" : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`));
   }
   // Liste nur neu aufbauen, wenn sich Auswahl/Reihenfolge/Inhalt ändert – sonst flackern alle Bilder.
   // Reine Entfernungs-Updates (Standort läuft mit) ändern nur die Zahlen.
