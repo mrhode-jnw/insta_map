@@ -2555,11 +2555,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function moveTo(y, animate) {
     sheet.style.transition = animate ? "" : "none";
     sheet.style.transform = `translateY(${y}px)`;
+    // entweder Liste offen oder Leiste – nach der tatsächlichen Höhe der Liste (auch beim Ziehen)
+    try { document.body.classList.toggle("dock-auto", mobile() && y < snapY("peek") - 30); } catch {}
   }
   function setSnap(name, animate = true) {
     sheetSnap = name;
     if (!mobile()) { sheet.style.transform = ""; return; }
-    document.body.classList.toggle("dock-auto", name !== "peek");  // entweder Liste offen oder Leiste – nie beides
     moveTo(snapY(name), animate);
   }
   function release(y, v) {  // v: px/ms, positiv = nach unten
