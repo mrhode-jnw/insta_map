@@ -946,7 +946,7 @@ window.PLACES_CN = [
   "lat": 24.863,
   "lng": 110.4872,
   "approx": true,
-  "image": "images/DcIsDePCaxD_7.jpg",
+  "image": "images/DcIsDePCaxD_7_r.jpg",
   "caption": "Save & double tap this post for your next China trip : ) Scroll through 👉🏻\n\n1📍Dongchangzhi Road & Lushun Road, Shanghai (东长治路与旅顺路交叉口) — A popular North Bund street-photography spot where everyday Shanghai life is framed against the Lujiazui skyline, with the Oriental Pearl Tower and Shanghai Tower rising dramatically in the background.\n\n1📍Dongchangzhi Road & Lushun Road, Shanghai (东长治路与旅顺路交叉口) — A popular North Bund street-photography spot where everyday Shanghai life is framed against the Lujiazui skyline, with the Oriental Pearl Tower and Shanghai Tower rising dramatically in the background.",
   "post_url": "https://www.instagram.com/yantastic/p/DcIsDePCaxD/?img_index=7",
   "username": "yantastic",
@@ -977,7 +977,7 @@ window.PLACES_CN = [
     "username": "yantastic",
     "profile_url": "https://www.instagram.com/yantastic/",
     "kind": "p",
-    "image": "images/DcIsDePCaxD_7.jpg",
+    "image": "images/DcIsDePCaxD_7_r.jpg",
     "caption": "Save & double tap this post for your next China trip : ) Scroll through 👉🏻\n\n1📍Dongchangzhi Road & Lushun Road, Shanghai (东长治路与旅顺路交叉口) — A popular North Bund street-photography spot where everyday Shanghai life is framed against the Lujiazui skyline, with the Oriental Pearl Tower and Shanghai Tower rising dramatically in the background.\n\n1📍Dongchangzhi Road & Lushun Road, Shanghai (东长治路与旅顺路交叉口) — A popular North Bund street-photography spot where everyday Shanghai life is framed against the Lujiazui skyline, with the Oriental Pearl Tower and Shanghai Tower rising dramatically in the background.",
     "match": "slide",
     "slide": 7

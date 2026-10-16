@@ -72,7 +72,9 @@ def spot_post(x):
             if slide <= len(c["slides"]):
                 sl.download_slide(code, slide - 1, c["slides"][slide - 1])
     if slide and os.path.exists(os.path.join(ROOT, rel)):
-        p["image"] = rel
+        # korrigierte Fassung (z. B. gedreht) unter neuem Namen – neuer Name, damit Caches sie sicher neu laden
+        fixed = rel[:-4] + "_r.jpg"
+        p["image"] = fixed if os.path.exists(os.path.join(ROOT, fixed)) else rel
         p["match"], p["slide"] = "slide", slide
         p["url"] += f"?img_index={slide}"
     if p["match"] == "cover":
