@@ -1,13 +1,19 @@
 // Offline-Unterstützung für die Insta Map (als App auf dem Home-Bildschirm).
 // Seite & Daten: erst Netz, sonst Cache. Bilder, Bibliotheken, Kartenkacheln: erst Cache, sonst Netz (und merken).
-const CORE = "core-v25", MEDIA = "media-v1", TILES = "tiles-v1";
+const CORE = "core-v26", MEDIA = "media-v1", TILES = "tiles-v1";
 const CORE_FILES = ["./", "index.html", "crypto.js", "gleaflet.js", "config.js", "data/places.js", "data/china.js", "data/trip.js", "data/inspiration.js", "data/itinerary.js",
   "manifest.webmanifest", "icons/icon-192.png", "icons/apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CORE).then(c => c.addAll(CORE_FILES)).then(() => self.skipWaiting()));
 });
-self.addEventListener("activate", e => e.waitUntil(self.clients.claim()));
+// Bilder, die im Repo ersetzt wurden (z. B. gedreht): aus dem Bild-Cache werfen, damit die neue Fassung geladen wird
+const STALE = ["images/DcIsDePCaxD_7.jpg"];
+self.addEventListener("activate", e => e.waitUntil((async () => {
+  const c = await caches.open(MEDIA);
+  await Promise.all(STALE.map(u => c.delete(new URL(u, self.registration.scope).href, { ignoreSearch: true })));
+  await self.clients.claim();
+})()));
 
 const networkFirst = async (req, key) => {
   const c = await caches.open(CORE);
