@@ -22,11 +22,12 @@ Sehr ähnliche Bilder bilden eine Serie (A, B, C …); je Serie genau ein bestes
 ## Format von bewertung.csv (UTF-8, Trennzeichen ;)
 ```
 datei;sterne;farbe;markierung;note;serie;art;kommentar
-DSC01266.ARW;5;grün;auswahl;9;A;einzel;Dramatischer Himmel, Kegel im rechten Drittel; Häuser unten rechts abdunkeln.
-DSC01270.ARW;;lila;;8;B;reihe;
-DSC01271.ARW;4;;auswahl;8;B;reihe;Mittlere Belichtung trägt allein; HDR lohnt sich für den Himmel.
+DSC01266.jpg;5;grün;auswahl;9;A;einzel;Dramatischer Himmel, Kegel im rechten Drittel; Häuser unten rechts abdunkeln.
+DSC01270.jpg;;lila;;8;B;reihe;
+DSC01271.jpg;4;;auswahl;8;B;reihe;Mittlere Belichtung trägt allein; HDR lohnt sich für den Himmel.
 ```
-`datei` = Originaldateiname aus `liste.csv` (Spalte datei), nicht der JPEG-Name. Leere Felder = unverändert.
+`datei` = Name des JPEGs aus `liste.csv` (Spalte jpeg, z. B. `DSC01266.jpg` oder `DSC01266-2.jpg`) – eindeutig, auch wenn
+Fotos aus mehreren Ordnern gleich heißen. Leere Felder = unverändert.
 Farben: rot, gelb, grün, blau, lila, keine · Markierung: auswahl, abgelehnt, keine · art: einzel, serie, reihe, pano.
 Kommentar kurz, auf Deutsch, höchstens zwei Sätze, gern mit Bearbeitungstipp.
 ]]

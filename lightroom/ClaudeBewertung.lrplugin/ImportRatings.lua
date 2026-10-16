@@ -13,45 +13,60 @@ local Apply = require "Apply"
 LrFunctionContext.postAsyncTaskWithContext("ClaudeBewertungImport", function(context)
   LrDialogs.attachErrorDialogToFunctionContext(context)
   local catalog = LrApplication.activeCatalog()
-  local photos = catalog:getTargetPhotos()
-  if #photos < 2 then
-    LrDialogs.message("Claude-Bewertung", "Bitte zuerst die Fotos auswählen, für die die Liste gilt (z. B. den Ordner öffnen und Cmd+A).", "info")
-    return
-  end
-  -- zuerst bewertung.csv im zuletzt exportierten Ordner, sonst Datei wählen
   local prefs = LrPrefs.prefsForPlugin()
+
+  -- Bewertungsdatei(en): zuerst bewertung.csv im zuletzt exportierten Ordner, sonst wählen (mehrere möglich)
   local files
   local auto = prefs.lastExport and LrPathUtils.child(prefs.lastExport, "bewertung.csv")
-  if auto and LrFileUtils.exists(auto) and LrDialogs.confirm("Bewertung übernehmen?", "Gefunden: " .. auto, "Diese nehmen", "Andere Datei …") == "ok" then
+  if auto and LrFileUtils.exists(auto) and LrDialogs.confirm("Bewertung übernehmen?", "Gefunden: " .. auto, "Diese nehmen", "Andere Datei(en) …") == "ok" then
     files = { auto }
   else
-    files = LrDialogs.runOpenPanel { title = "Bewertungsliste von Claude wählen (.csv / .txt)", canChooseFiles = true,
-      canChooseDirectories = false, allowsMultipleSelection = false, fileTypes = { "csv", "txt", "tsv" },
-      initialDirectory = prefs.lastExport }
+    files = LrDialogs.runOpenPanel { title = "Bewertungsliste(n) von Claude wählen (bewertung.csv, mehrere mit Cmd)", canChooseFiles = true,
+      canChooseDirectories = false, allowsMultipleSelection = true, fileTypes = { "csv", "txt", "tsv" },
+      initialDirectory = prefs.lastExport and LrPathUtils.parent(prefs.lastExport) }
   end
   if not files or not files[1] then return end
-  local rows, errors = Parse.parse(LrFileUtils.readFile(files[1]))
-  if #rows == 0 then
-    LrDialogs.message("Claude-Bewertung", "In der Datei steht keine Bewertung.\n" .. table.concat(errors, "\n"), "warning")
-    return
-  end
 
-  -- Dateinamen der ausgewählten Fotos (auch virtuelle Kopien) → Fotos
-  local byKey = {}
-  local meta = catalog:batchGetFormattedMetadata(photos, { "fileName" })
-  for _, photo in ipairs(photos) do
-    local k = Parse.key(meta[photo] and meta[photo].fileName or "")
-    byKey[k] = byKey[k] or {}
-    table.insert(byKey[k], photo)
+  -- Zeilen sammeln; liegt liste.csv daneben, wird jedes Foto über seinen Pfad gefunden (Auswahl und Ordner egal)
+  local rows, errors, targets = {}, {}, {}
+  local selByKey = nil
+  local function selection()
+    if selByKey then return selByKey end
+    selByKey = {}
+    local sel = catalog:getTargetPhotos()
+    local meta = catalog:batchGetFormattedMetadata(sel, { "fileName" })
+    for _, photo in ipairs(sel) do
+      local k = Parse.key(meta[photo] and meta[photo].fileName or "")
+      selByKey[k] = selByKey[k] or {}
+      table.insert(selByKey[k], photo)
+    end
+    return selByKey
   end
-  local missing, todo = {}, 0
-  for _, r in ipairs(rows) do
-    if byKey[r.key] then todo = todo + #byKey[r.key] else missing[#missing + 1] = r.name end
+  local missing = {}
+  for _, file in ipairs(files) do
+    local r, e = Parse.parse(LrFileUtils.readFile(file))
+    for _, x in ipairs(e) do errors[#errors + 1] = LrPathUtils.leafName(LrPathUtils.parent(file)) .. ": " .. x end
+    local listPath = LrPathUtils.child(LrPathUtils.parent(file), "liste.csv")
+    local paths = LrFileUtils.exists(listPath) and Parse.pathMap(LrFileUtils.readFile(listPath)) or nil
+    for _, row in ipairs(r) do
+      local found = {}
+      local p = paths and paths[row.key]
+      if p then
+        local photo = catalog:findPhotoByPath(p)
+        if photo then found = { photo } end
+      else
+        found = selection()[row.key] or {}
+      end
+      if #found > 0 then rows[#rows + 1] = row; targets[row] = found
+      else missing[#missing + 1] = row.name end
+    end
   end
-  local msg = ("%d Zeilen gelesen, %d Fotos in der Auswahl gefunden."):format(#rows, todo)
-  if #missing > 0 then msg = msg .. ("\n\nNicht in der Auswahl (%d): %s"):format(#missing, table.concat(missing, ", "):sub(1, 400)) end
+  local todo, photos = 0, {}
+  for _, row in ipairs(rows) do for _, p in ipairs(targets[row]) do todo = todo + 1; photos[#photos + 1] = p end end
+  local msg = ("%d Datei%s gelesen, %d Fotos gefunden."):format(#files, #files == 1 and "" or "en", todo)
+  if #missing > 0 then msg = msg .. ("\n\nNicht gefunden (%d): %s"):format(#missing, table.concat(missing, ", "):sub(1, 400)) end
   if #errors > 0 then msg = msg .. "\n\nHinweise:\n" .. table.concat(errors, "\n"):sub(1, 400) end
-  if todo == 0 then LrDialogs.message("Claude-Bewertung", msg, "warning"); return end
+  if todo == 0 then LrDialogs.message("Claude-Bewertung", msg .. "\n\n(Ohne liste.csv neben der Bewertung: vorher die Fotos auswählen.)", "warning"); return end
   if LrDialogs.confirm("Bewertungen übernehmen?", msg .. "\n\nSterne, Farben und Markierungen werden im Katalog gesetzt (rückgängig mit Cmd+Z).",
       "Übernehmen", "Abbrechen") ~= "ok" then return end
 
@@ -59,7 +74,7 @@ LrFunctionContext.postAsyncTaskWithContext("ClaudeBewertungImport", function(con
   local done = 0
   catalog:withWriteAccessDo("Claude-Bewertungen übernehmen", function()
     for i, r in ipairs(rows) do
-      for _, photo in ipairs(byKey[r.key] or {}) do
+      for _, photo in ipairs(targets[r] or {}) do
         Apply.apply(photo, r, _PLUGIN)
         done = done + 1
       end

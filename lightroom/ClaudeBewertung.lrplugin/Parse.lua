@@ -69,4 +69,29 @@ function M.parse(text)
   return rows, errors
 end
 
+-- liste.csv (vom Export): Spalten datei;jpeg;aufnahme;vorgruppe;hinweis;pfad → Schlüssel (JPEG- und Originalname) → Pfad
+function M.pathMap(text)
+  local byJpeg, byName, count = {}, {}, {}
+  local first = true
+  for line in ((text or ""):gsub("^\239\187\191", "") .. "\n"):gmatch("(.-)\r?\n") do
+    if first then first = false
+    elseif trim(line) ~= "" then
+      local f = {}
+      for x in (line .. ";"):gmatch("(.-);") do f[#f + 1] = x end
+      local path = f[6]
+      if path and path ~= "" then
+        if f[2] and f[2] ~= "" then byJpeg[M.key(f[2])] = path end
+        local k = M.key(f[1] or "")
+        count[k] = (count[k] or 0) + 1
+        byName[k] = path
+      end
+    end
+  end
+  -- JPEG-Name ist eindeutig; der Originalname nur, wenn er in keinem zweiten Ordner vorkommt
+  local map = {}
+  for k, v in pairs(byName) do if count[k] == 1 then map[k] = v end end
+  for k, v in pairs(byJpeg) do map[k] = v end
+  return map
+end
+
 return M

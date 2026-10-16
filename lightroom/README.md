@@ -17,6 +17,13 @@ Rückgängig mit Cmd+Z.
    oder Bilder in den Chat ziehen). Claude schreibt `bewertung.csv` in den Ordner (bzw. gibt sie dir zum Speichern).
 3. Zusatzmoduloptionen → **Claude-Bewertungsliste (CSV) übernehmen …** – die Datei im letzten Export-Ordner wird automatisch angeboten.
 
+## Mehrere Ordner auf einmal
+- **Export:** im Ordner-Bedienfeld mehrere Ordner mit Cmd anklicken (oder den Oberordner wählen und
+  Bibliothek → „Fotos in Unterordnern anzeigen“ einschalten), Cmd+A → „Vorschauen für Claude exportieren …“.
+  Alles landet in einem Export-Ordner; gleich benannte Dateien aus verschiedenen Ordnern bekommen eindeutige JPEG-Namen.
+- **Import:** „Claude-Bewertungsliste (CSV) übernehmen …“ findet jedes Foto über seinen Pfad (aus `liste.csv`) –
+  keine Auswahl nötig. Im Dateidialog lassen sich mehrere `bewertung.csv` (mehrere Exporte) auf einmal wählen.
+
 ## Belichtungsreihen und Panoramas
 - **Belichtungsreihe:** nur das allein beste Bild bekommt Sterne und Fähnchen (ab Note 8,5 Grün); die übrigen
   werden **lila**, nie abgelehnt (fürs HDR). Kommentar: ob sich HDR lohnt.

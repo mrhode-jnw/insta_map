@@ -75,9 +75,11 @@ LrFunctionContext.postAsyncTaskWithContext("ClaudeBewertungExport", function(con
     return
   end
 
-  local lines = { "datei;jpeg;aufnahme;vorgruppe;hinweis" }
+  local lines = { "datei;jpeg;aufnahme;vorgruppe;hinweis;pfad" }
+  local paths = catalog:batchGetRawMetadata(photos, { "path" })
   for _, it in ipairs(items) do
-    lines[#lines + 1] = table.concat({ it.name, jpgOf[it.photo] or "", Meta.describe(it.raw), it.pre or "", it.hint or "" }, ";")
+    lines[#lines + 1] = table.concat({ it.name, jpgOf[it.photo] or "", Meta.describe(it.raw), it.pre or "", it.hint or "",
+      (paths[it.photo] or {}).path or "" }, ";")
   end
   local f = io.open(LrPathUtils.child(dir, "liste.csv"), "w"); f:write(table.concat(lines, "\n"), "\n"); f:close()
   f = io.open(LrPathUtils.child(dir, "ANWEISUNG.md"), "w"); f:write(INSTR); f:close()

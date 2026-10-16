@@ -6,7 +6,7 @@ return {
   LrSdkVersion = 10.0,
   LrSdkMinimumVersion = 6.0,
   LrToolkitIdentifier = "de.mrhode.claudebewertung",
-  LrPluginName = "Claude-Bewertung 3.5",
+  LrPluginName = "Claude-Bewertung 3.6",
   LrPluginInfoUrl = "https://mrhode-jnw.github.io/insta_map/lightroom/",
   LrMetadataProvider = "MetadataDefinition.lua",
   LrPluginInfoProvider = "PluginInfoProvider.lua",
@@ -17,5 +17,5 @@ return {
     { title = "Panoramas automatisch stapeln …", file = "StackPanoramas.lua" },
     { title = "Dateinamen der Auswahl kopieren (für Claude)", file = "CopyNames.lua" },
   },
-  VERSION = { major = 3, minor = 5, revision = 0, build = 1 },
+  VERSION = { major = 3, minor = 6, revision = 0, build = 1 },
 }
