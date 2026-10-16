@@ -815,6 +815,13 @@
   .fcs { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
   .icard .fcbox { margin: 8px 0; }
   .leaflet-popup.mini .pop .fcbox { display: none; }
+  /* Liste aufgezogen → Leiste weg (nur Griff); Leiste geholt → Liste klappt ein */
+  @media (max-width: 799px) {
+    body.dock-auto #dock { transform: translate(calc(100% + 16px), -50%); pointer-events: none; }
+    body.dock-auto #dockTab { transform: translate(0, -50%); }
+    #dockTab { top: 30%; }
+    body.dock-auto #dockTab { top: 30%; }
+  }
 </style>
 </head>
 <body>
@@ -2330,7 +2337,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const setDock = h => { document.body.classList.toggle("dock-hidden", h); try { localStorage.setItem("dockHidden", h ? "1" : "0"); } catch {} };
   try { if (localStorage.getItem("dockHidden") === "1") document.body.classList.add("dock-hidden"); } catch {}
   $("#dock .dhide").addEventListener("click", e => { e.stopPropagation(); setDock(true); });
-  $("#dockTab").addEventListener("click", e => { e.stopPropagation(); setDock(false); });
+  $("#dockTab").addEventListener("click", e => { e.stopPropagation(); setDock(false); if (mobile() && sheetSnap !== "peek") setSnap("peek"); });
   // Fenster schließen sich auch über ✕ → Leiste nachziehen
   new MutationObserver(dockSync).observe(document.body, { subtree: true, attributes: true, attributeFilter: ["hidden"] });
   $("#fMore").addEventListener("change", dockSync);
@@ -2552,6 +2559,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function setSnap(name, animate = true) {
     sheetSnap = name;
     if (!mobile()) { sheet.style.transform = ""; return; }
+    document.body.classList.toggle("dock-auto", name !== "peek");  // entweder Liste offen oder Leiste – nie beides
     moveTo(snapY(name), animate);
   }
   function release(y, v) {  // v: px/ms, positiv = nach unten
