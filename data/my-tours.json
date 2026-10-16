@@ -10,9 +10,10 @@
  {
   "id": "tgl16",
   "created": "2026-10-15",
-  "name": "Fr 16.10. Sonnenaufgang Damian Hill · Dorf eines Büffelbauern · Sonnenuntergang über Karstbergen und Reisfeldern (Orte legt der Fahrer fest)",
+  "name": "Fr 16.10. Sonnenaufgang Damian Hill · Sonnenuntergang Wulongquan",
   "stops": [
-   "claude-cn-damian-hill-li-river-bogen"
+   "claude-cn-damian-hill-li-river-bogen",
+   "cn-wulongquan-sunset-viewpoint"
   ]
  },
  {
@@ -27,9 +28,10 @@
  },
  {
   "id": "tgl18",
-  "name": "So 18.10. Sonnenaufgang Xianggong Hill · direkt nach Longji: Dazhai · Sonnenuntergang Ping'an, Übernachtung",
+  "name": "So 18.10. Sonnenaufgang Xianggong Hill · Büffelbauern-Dorf Tianxin · Longji: Dazhai · Sonnenuntergang Ping'an, Übernachtung",
   "stops": [
    "cn-xianggong-hill",
+   "cn-tianxin-village-zhuangyuan-brcke",
    "cn-dazhai-village",
    "cn-ping-an-village"
   ],
@@ -49,10 +51,12 @@
   "stops": [
    "claude-cn-cuiping-hill",
    "claude-cn-damian-hill-li-river-bogen",
+   "cn-wulongquan-sunset-viewpoint",
    "cn-xialong-kormoranfischer-mit-laterne",
    "cn-yulong-river-countryside",
    "cn-luoshi-hill-kormoranfischer-mit-laterne",
    "cn-xianggong-hill",
+   "cn-tianxin-village-zhuangyuan-brcke",
    "cn-dazhai-village",
    "cn-ping-an-village"
   ],
