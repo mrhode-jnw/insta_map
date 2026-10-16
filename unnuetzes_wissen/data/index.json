@@ -1,5 +1,5 @@
 {
- "version": "202610150000",
+ "version": "202610162213",
  "packs": [
   {
    "file": "facts-aktuell.json",
@@ -19,12 +19,12 @@
   {
    "file": "facts-guilin.json",
    "place": "guilin",
-   "count": 87
+   "count": 133
   },
   {
    "file": "facts-guizhou.json",
    "place": "guizhou",
-   "count": 85
+   "count": 135
   },
   {
    "file": "facts-hongkong.json",
