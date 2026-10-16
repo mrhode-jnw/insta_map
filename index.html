@@ -1053,6 +1053,56 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     maxZoom: 21, maxNativeZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   });
   if (osm.on) osm.on("add", () => map.getContainer().classList.add("dark-osm")).on("remove", () => map.getContainer().classList.remove("dark-osm"));  // Design: dunkle Karte
+  // Kacheln nicht erreichbar (z. B. Hotel-WLAN in China sperrt openstreetmap.org)? → Esri-Straßenkarte, dann Gaode (高德)
+  if (osm.on) {
+    const wgs2gcj = (lat, lng) => {  // WGS84 → GCJ-02 (chinesisches Kartensystem)
+      const a = 6378245, ee = 0.00669342162296594323, x = lng - 105, y = lat - 35;
+      let dLat = -100 + 2 * x + 3 * y + .2 * y * y + .1 * x * y + .2 * Math.sqrt(Math.abs(x));
+      dLat += (20 * Math.sin(6 * x * Math.PI) + 20 * Math.sin(2 * x * Math.PI)) * 2 / 3 + (20 * Math.sin(y * Math.PI) + 40 * Math.sin(y / 3 * Math.PI)) * 2 / 3
+        + (160 * Math.sin(y / 12 * Math.PI) + 320 * Math.sin(y * Math.PI / 30)) * 2 / 3;
+      let dLng = 300 + x + 2 * y + .1 * x * x + .1 * x * y + .1 * Math.sqrt(Math.abs(x));
+      dLng += (20 * Math.sin(6 * x * Math.PI) + 20 * Math.sin(2 * x * Math.PI)) * 2 / 3 + (20 * Math.sin(x * Math.PI) + 40 * Math.sin(x / 3 * Math.PI)) * 2 / 3
+        + (150 * Math.sin(x / 12 * Math.PI) + 300 * Math.sin(x / 30 * Math.PI)) * 2 / 3;
+      const r = lat / 180 * Math.PI; let m = Math.sin(r); m = 1 - ee * m * m; const sm = Math.sqrt(m);
+      return [lat + dLat * 180 / ((a * (1 - ee)) / (m * sm) * Math.PI), lng + dLng * 180 / (a / sm * Math.cos(r) * Math.PI)];
+    };
+    const esri = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
+      maxZoom: 21, maxNativeZoom: 19, attribution: "Esri World Street Map" });
+    const gaode = L.tileLayer("https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}", {
+      subdomains: "1234", maxZoom: 21, maxNativeZoom: 18, attribution: "© 高德 AutoNavi" });
+    // Gaode-Kacheln sind ins GCJ-System verschoben: jede Kachel um den Versatz in Kartenmitte zurücksetzen (Pins sind WGS84)
+    gaode._shift = L.point(0, 0); gaode._shiftZ = null;
+    const gcjOffset = z => { const c = map.getCenter(), g = wgs2gcj(c.lat, c.lng);
+      return map.project(c, z).subtract(map.project(L.latLng(g[0], g[1]), z)).round(); };
+    gaode._getTiledPixelBounds = function (c) {
+      const b = L.TileLayer.prototype._getTiledPixelBounds.call(this, c);
+      return L.bounds(b.min.subtract(this._shift), b.max.subtract(this._shift)); };
+    gaode._getTilePos = function (c) { return L.TileLayer.prototype._getTilePos.call(this, c).add(this._shift); };
+    const gcjUpdate = () => { if (!map.hasLayer(gaode)) return;
+      const z = Math.round(map.getZoom()), s = gcjOffset(z);
+      if (gaode._shiftZ === z && s.distanceTo(gaode._shift) < 4) return;
+      gaode._shift = s; gaode._shiftZ = z; gaode.redraw(); };
+    map.on("moveend", gcjUpdate); gaode.on("add", () => { gaode._shiftZ = null; gcjUpdate(); });
+    [esri, gaode].forEach(l => l.on("add", () => map.getContainer().classList.add("dark-osm")).on("remove", () => map.getContainer().classList.remove("dark-osm")));
+    const CHAIN = [osm, esri, gaode];
+    let stamp = 0;
+    const watch = layer => {
+      let ok = 0, bad = 0; const my = ++stamp;
+      layer.on("tileload", () => ok++).on("tileerror", () => bad++);
+      setTimeout(() => {
+        if (my !== stamp || !map.hasLayer(layer) || ok > 0) return;
+        const next = CHAIN[CHAIN.indexOf(layer) + 1]; if (!next) return;
+        map.removeLayer(layer); next.addTo(map);
+        try { localStorage.setItem("tileBase", String(CHAIN.indexOf(next))); } catch {}
+        toast(`Kartenkacheln nicht erreichbar – wechsle zu ${next === esri ? "Esri" : "Gaode (高德)"}.`, 3500);
+      }, 7000);
+    };
+    CHAIN.forEach(l => l.on("add", () => watch(l)));
+    // zuletzt funktionierende Ausweich-Karte gleich nehmen
+    osm.on("add", () => { let i = 0; try { i = +localStorage.getItem("tileBase") || 0; } catch {}
+      if (i > 0 && CHAIN[i]) setTimeout(() => { if (map.hasLayer(osm)) { map.removeLayer(osm); CHAIN[i].addTo(map); } }, 0); });
+    osm.on("tileload", () => { try { localStorage.removeItem("tileBase"); } catch {} });
+  }
 
   // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
   // Google-Kacheln lassen sich nicht drehen; in Festland-China passt die Google-Straßenkarte nicht zu GPS/Spots → OpenStreetMap
@@ -1079,7 +1129,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       Object.values(layers).forEach(l => map.removeLayer(l)); osm.addTo(map);
     };
     const layers = {};
-    loadScript(`https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(gKey)}&v=weekly&language=de`)
+    // In China hängt der Abruf oft nur (keine Fehlermeldung) → nach 8 s aufgeben
+    Promise.race([loadScript(`https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(gKey)}&v=weekly&language=de`),
+      new Promise((_, no) => setTimeout(() => no(new Error("timeout")), 8000))])
       .then(() => loadScript("https://cdn.jsdelivr.net/npm/leaflet.gridlayer.googlemutant@0.16.0/dist/Leaflet.GoogleMutant.js"))
       .then(() => {
         layers["Google Karte"] = L.gridLayer.googleMutant({ type: "roadmap", maxZoom: 21, ...(document.documentElement.dataset.mapdark === "1" ? { styles: GDARK } : {}) });
@@ -1088,7 +1140,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         layers["Google Karte"].addTo(map);
         L.control.layers(layers, null, { position: "topright" }).addTo(map);
       })
-      .catch(() => { toast("Google Maps konnte nicht geladen werden – zeige OpenStreetMap.", 5000); osm.addTo(map); });
+      .catch(() => { if (map.hasLayer(osm)) return; toast("Google Maps nicht erreichbar – zeige OpenStreetMap.", 4000); osm.addTo(map); });
   } else {
     osm.addTo(map);
   }
