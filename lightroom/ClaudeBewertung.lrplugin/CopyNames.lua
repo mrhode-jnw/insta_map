@@ -2,9 +2,12 @@
 local LrApplication = import "LrApplication"
 local LrDialogs = import "LrDialogs"
 local LrTasks = import "LrTasks"
+local LrFunctionContext = import "LrFunctionContext"
 local LrView = import "LrView"
 
-LrTasks.startAsyncTask(function()
+-- Fehler sichtbar machen (sonst bricht Lightroom stumm ab)
+LrFunctionContext.postAsyncTaskWithContext("ClaudeBewertungNamen", function(context)
+  LrDialogs.attachErrorDialogToFunctionContext(context)
   local catalog = LrApplication.activeCatalog()
   local photos = catalog:getTargetPhotos()
   local meta = catalog:batchGetFormattedMetadata(photos, { "fileName" })

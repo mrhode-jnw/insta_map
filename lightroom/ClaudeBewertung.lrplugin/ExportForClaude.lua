@@ -2,6 +2,7 @@
 local LrApplication = import "LrApplication"
 local LrDialogs = import "LrDialogs"
 local LrTasks = import "LrTasks"
+local LrFunctionContext = import "LrFunctionContext"
 local LrPrefs = import "LrPrefs"
 local LrPathUtils = import "LrPathUtils"
 local LrFileUtils = import "LrFileUtils"
@@ -11,7 +12,9 @@ local LrShell = import "LrShell"
 local Meta = require "Meta"
 local INSTR = require "Instructions"
 
-LrTasks.startAsyncTask(function()
+-- Fehler sichtbar machen (sonst bricht Lightroom stumm ab)
+LrFunctionContext.postAsyncTaskWithContext("ClaudeBewertungExport", function(context)
+  LrDialogs.attachErrorDialogToFunctionContext(context)
   local prefs = LrPrefs.prefsForPlugin()
   local catalog = LrApplication.activeCatalog()
   local photos = catalog:getTargetPhotos()
@@ -37,10 +40,15 @@ LrTasks.startAsyncTask(function()
       LR_removeLocationMetadata = true, LR_reimportExportedPhoto = false, LR_includeVideoFiles = false,
     },
   }
-  local jpgOf = {}
-  for _, rendition in session:renditions { title = "Vorschauen für Claude" } do
+  local jpgOf, fails, n = {}, {}, 0
+  for _, rendition in session:renditions { stopIfCanceled = true } do
     local ok, path = rendition:waitForRender()
-    if ok then jpgOf[rendition.photo] = LrPathUtils.leafName(path) end
+    if ok then jpgOf[rendition.photo] = LrPathUtils.leafName(path); n = n + 1
+    else fails[#fails + 1] = tostring(path) end
+  end
+  if n == 0 then
+    LrDialogs.message("Claude-Bewertung", "Export fehlgeschlagen – keine Vorschau erzeugt.\nZiel: " .. dir .. "\n" .. table.concat(fails, "\n"):sub(1, 600), "critical")
+    return
   end
 
   local lines = { "datei;jpeg;aufnahme;vorgruppe;hinweis" }
@@ -51,6 +59,7 @@ LrTasks.startAsyncTask(function()
   f = io.open(LrPathUtils.child(dir, "ANWEISUNG.md"), "w"); f:write(INSTR); f:close()
   prefs.lastExport = dir
   LrShell.revealInShell(LrPathUtils.child(dir, "ANWEISUNG.md"))
-  LrDialogs.message("Claude-Bewertung", ("%d Vorschauen in\n%s\n\nJetzt den Ordner an Claude geben (z. B. in der Claude-App: „Bewerte die Fotos in diesem Ordner nach ANWEISUNG.md“).\nDanach: Zusatzmoduloptionen → „Claude-Bewertungsliste (CSV) übernehmen …“ – bewertung.csv wird dort automatisch gefunden.")
-    :format(#photos, dir), "info")
+  local warn = #fails > 0 and (("%d Fehler: "):format(#fails) .. table.concat(fails, "; "):sub(1, 300) .. "\n\n") or ""
+  LrDialogs.message("Claude-Bewertung", warn .. ("%d Vorschauen in\n%s\n\nJetzt den Ordner an Claude geben (z. B. in der Claude-App: „Bewerte die Fotos in diesem Ordner nach ANWEISUNG.md“).\nDanach: Zusatzmoduloptionen → „Claude-Bewertungsliste (CSV) übernehmen …“ – bewertung.csv wird dort automatisch gefunden.")
+    :format(n, dir), "info")
 end)

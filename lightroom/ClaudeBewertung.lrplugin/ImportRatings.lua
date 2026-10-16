@@ -1,6 +1,7 @@
 local LrApplication = import "LrApplication"
 local LrDialogs = import "LrDialogs"
 local LrTasks = import "LrTasks"
+local LrFunctionContext = import "LrFunctionContext"
 local LrFileUtils = import "LrFileUtils"
 local LrProgressScope = import "LrProgressScope"
 local LrPrefs = import "LrPrefs"
@@ -8,7 +9,9 @@ local LrPathUtils = import "LrPathUtils"
 local Parse = require "Parse"
 local Apply = require "Apply"
 
-LrTasks.startAsyncTask(function()
+-- Fehler sichtbar machen (sonst bricht Lightroom stumm ab)
+LrFunctionContext.postAsyncTaskWithContext("ClaudeBewertungImport", function(context)
+  LrDialogs.attachErrorDialogToFunctionContext(context)
   local catalog = LrApplication.activeCatalog()
   local photos = catalog:getTargetPhotos()
   if #photos < 2 then
