@@ -10,6 +10,22 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Insta Map">
 <link rel="manifest" href="manifest.webmanifest">
+<script>
+  // Einstellungen: Erscheinungsbild (auto/hell/dunkel) und Kartenfarbe (wie App/hell/dunkel) – vor dem ersten Zeichnen setzen
+  window.SETTINGS = (() => { try { return JSON.parse(localStorage.getItem("settings") || "{}"); } catch { return {}; } })();
+  window.applyTheme = () => {
+    const S = window.SETTINGS, sys = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    const th = S.theme === "light" || S.theme === "dark" ? S.theme : sys;
+    const md = S.mapColor === "light" ? "0" : S.mapColor === "dark" ? "1" : th === "dark" ? "1" : "0";
+    const h = document.documentElement; h.dataset.theme = th; h.dataset.mapdark = md;
+    document.querySelectorAll('meta[name="theme-color"]').forEach(m => { m.content = th === "dark" ? "#0d0d10" : "#f4f4f6"; m.removeAttribute("media"); });
+    document.body && document.body.classList.toggle("no-hotels", S.hotels === false);
+    document.body && document.body.classList.toggle("pins-big", S.pins === "big");
+  };
+  applyTheme();
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", applyTheme);
+  document.addEventListener("DOMContentLoaded", applyTheme);
+</script>
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <title>Insta Map</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
@@ -521,7 +537,7 @@
   .leaflet-control-layers-expanded { color: var(--fg); }
   .leaflet-control-attribution { background: rgba(0,0,0,.4) !important; color: #888 !important; } .leaflet-control-attribution a { color: #aaa !important; }
   /* OpenStreetMap dunkel einfärben (Satellit bleibt natürlich) */
-  @media (prefers-color-scheme: dark) { #map.dark-osm .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.92) contrast(.88) saturate(.5); } }
+  html[data-mapdark="1"] #map.dark-osm .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.92) contrast(.88) saturate(.5); }
   /* Pins: Foto-Kacheln; Reiseplan-Stopps pink mit Uhrzeit */
   .pin { width: 40px; height: 40px; border-radius: 12px; border: 2px solid #fff; box-shadow: 0 6px 14px rgba(0,0,0,.55); background-color: #2a2a31; position: relative; }
   .pin.plan { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(225,48,108,.4), 0 6px 14px rgba(0,0,0,.55); }
@@ -583,33 +599,35 @@
 
 
   /* ---------- Hell (folgt automatisch der Systemeinstellung) ---------- */
-  @media (prefers-color-scheme: light) {
-    :root { --bg: #f4f4f6; --card: #ffffff; --fg: #111114; --muted: #6b6b74; --line: rgba(0,0,0,.08);
+  html[data-theme="light"] { --bg: #f4f4f6; --card: #ffffff; --fg: #111114; --muted: #6b6b74; --line: rgba(0,0,0,.08);
       --glass: rgba(255,255,255,.8); --glassb: rgba(0,0,0,.07); --soft: rgba(0,0,0,.05); --panel: #ffffff;
       --shadow: 0 10px 30px rgba(0,0,0,.14); color-scheme: light; }
-    .leaflet-container { background: #e9e9ec; }
-    #sheet { box-shadow: 0 -8px 30px rgba(0,0,0,.12); } #sheet .grip { background: #000; opacity: .2; }
-    .fab { box-shadow: 0 8px 22px rgba(0,0,0,.18); }
-    #dock { box-shadow: 0 10px 30px rgba(0,0,0,.15); }
-    #list .d { color: #2563eb; }
-    .pin { box-shadow: 0 6px 14px rgba(0,0,0,.3); }
-    .hotel-pin { background: #fff; color: #111; border-color: #0d9488; }
-    .tour-stop span { background: rgba(255,255,255,.95); color: #111; }
-    .leaflet-popup-content-wrapper { box-shadow: 0 18px 50px rgba(0,0,0,.22); }
-    .pop img, .galgrid figure { background: #e5e5ea; }
-    .pop .popularity { color: #b45309; }
-    .pop .links a.ig { color: #be185d !important; }
-    .pop .links button.del { color: #b91c1c !important; }
-    .pop .status button.fav.on { color: #e1306c; }
-    .pop .phototip { background: #ecfeff; color: #155e75; }
-    .pop .claude-note { background: #ede9fe; color: #5b21b6; }
-    .pop .unsure-note, .pop .approx { background: #fef3c7; color: #92400e; }
-    .pop .ok-note { background: #dcfce7; color: #166534; }
-    .pop .hero .pfav { background: rgba(255,255,255,.85); color: #e1306c; }
-    .b-plan { background: #fde7ef; color: #9d1747; } .b-ig { background: #fce7f3; color: #9d174d; }
-    .b-cl, .b-opt { background: #ede9fe; color: #5b21b6; } .b-hotel { background: #ccfbf1; color: #115e59; }
-    .leaflet-control-attribution { background: rgba(255,255,255,.7) !important; color: #666 !important; } .leaflet-control-attribution a { color: #444 !important; }
-  }
+  html[data-theme="light"] .leaflet-container { background: #e9e9ec; }
+  html[data-theme="light"] #sheet { box-shadow: 0 -8px 30px rgba(0,0,0,.12); }
+  html[data-theme="light"] #sheet .grip { background: #000; opacity: .2; }
+  html[data-theme="light"] .fab { box-shadow: 0 8px 22px rgba(0,0,0,.18); }
+  html[data-theme="light"] #dock { box-shadow: 0 10px 30px rgba(0,0,0,.15); }
+  html[data-theme="light"] #list .d { color: #2563eb; }
+  html[data-theme="light"] .pin { box-shadow: 0 6px 14px rgba(0,0,0,.3); }
+  html[data-theme="light"] .hotel-pin { background: #fff; color: #111; border-color: #0d9488; }
+  html[data-theme="light"] .tour-stop span { background: rgba(255,255,255,.95); color: #111; }
+  html[data-theme="light"] .leaflet-popup-content-wrapper { box-shadow: 0 18px 50px rgba(0,0,0,.22); }
+  html[data-theme="light"] .pop img, html[data-theme="light"] .galgrid figure { background: #e5e5ea; }
+  html[data-theme="light"] .pop .popularity { color: #b45309; }
+  html[data-theme="light"] .pop .links a.ig { color: #be185d !important; }
+  html[data-theme="light"] .pop .links button.del { color: #b91c1c !important; }
+  html[data-theme="light"] .pop .status button.fav.on { color: #e1306c; }
+  html[data-theme="light"] .pop .phototip { background: #ecfeff; color: #155e75; }
+  html[data-theme="light"] .pop .claude-note { background: #ede9fe; color: #5b21b6; }
+  html[data-theme="light"] .pop .unsure-note, html[data-theme="light"] .pop .approx { background: #fef3c7; color: #92400e; }
+  html[data-theme="light"] .pop .ok-note { background: #dcfce7; color: #166534; }
+  html[data-theme="light"] .pop .hero .pfav { background: rgba(255,255,255,.85); color: #e1306c; }
+  html[data-theme="light"] .b-plan { background: #fde7ef; color: #9d1747; }
+  html[data-theme="light"] .b-ig { background: #fce7f3; color: #9d174d; }
+  html[data-theme="light"] .b-cl, html[data-theme="light"] .b-opt { background: #ede9fe; color: #5b21b6; }
+  html[data-theme="light"] .b-hotel { background: #ccfbf1; color: #115e59; }
+  html[data-theme="light"] .leaflet-control-attribution { background: rgba(255,255,255,.7) !important; color: #666 !important; }
+  html[data-theme="light"] .leaflet-control-attribution a { color: #444 !important; }
   /* ---------- Symbolleiste unten (Karte · Plan · Touren · Inspiration · Merkliste) ---------- */
   #dock { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 12px); z-index: 2700; height: 62px;
     border-radius: 31px; display: flex; gap: 2px; padding: 6px; background: var(--glass); -webkit-backdrop-filter: blur(18px) saturate(1.4);
@@ -657,6 +675,24 @@
   }
   .pop .pbars { display: none; }
   @media (max-width: 799px) { .leaflet-popup.card .pop .pbars { display: flex; } }
+
+  body.no-hotels .leaflet-marker-icon:has(.hotel-pin) { display: none; }
+  body.pins-big .pin { transform: scale(1.3); }
+  #dock button { width: 52px; }
+  #settings { position: fixed; inset: 0; z-index: 2500; background: var(--bg); color: var(--fg); display: flex; flex-direction: column; }
+  #settings[hidden] { display: none; }
+  @media (min-width: 800px) { #settings { left: auto; width: 420px; box-shadow: var(--shadow); } }
+  #settings header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 16px 8px; }
+  #settings header b { flex: 1; font: 700 24px "New York", Georgia, serif; }
+  #settings header button { width: 38px; height: 34px; border-radius: 14px; border: 0; background: var(--soft); color: var(--fg); font-size: 17px; cursor: pointer; }
+  #setBody { flex: 1; overflow-y: auto; padding: 4px 16px calc(env(safe-area-inset-bottom) + 100px); }
+  .sgrp { margin: 14px 0 6px; font-size: 12.5px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--accent); }
+  .scard { background: var(--card); border-radius: 18px; padding: 4px 14px; }
+  .srow { padding: 12px 0; } .srow + .srow { border-top: 1px solid var(--line); }
+  .srow > b { display: block; font-size: 15.5px; margin-bottom: 8px; } .srow > small { display: block; color: var(--muted); font-size: 12.5px; margin-top: 6px; }
+  .seg2 { display: flex; background: var(--soft); border-radius: 12px; padding: 3px; gap: 2px; }
+  .seg2 button { flex: 1; border: 0; background: transparent; color: var(--fg); padding: 8px 4px; border-radius: 10px; font-size: 13.5px; font-weight: 600; cursor: pointer; }
+  .seg2 button.on { background: var(--accent); color: #fff; }
 </style>
 </head>
 <body>
@@ -682,6 +718,7 @@
   <button data-d="tours" aria-label="Touren" title="Touren"><svg viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.5"/></svg></button>
   <button data-d="insp" aria-label="Inspiration" title="Inspiration"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg></button>
   <button data-d="fav" aria-label="Merkliste" title="Merkliste (Favoriten)"><svg viewBox="0 0 24 24"><path d="M12 21C5 15.5 3 12.5 3 9a4.5 4.5 0 0 1 9-1 4.5 4.5 0 0 1 9 1c0 3.5-2 6.5-9 12z"/></svg></button>
+  <button data-d="set" aria-label="Einstellungen" title="Einstellungen"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
 </nav>
 <button id="itinBtn" class="fab" title="Reiseplan" aria-label="Reiseplan" hidden>📅</button>
 <button id="tourBtn" class="fab" title="Touren" aria-label="Touren" hidden>🧭</button>
@@ -753,6 +790,10 @@
   <div id="toursBody"></div>
 </div>
 <div id="tourPick" hidden></div>
+<div id="settings" hidden role="dialog" aria-label="Einstellungen">
+  <header><b>Einstellungen</b><button id="setClose" aria-label="Schließen">✕</button></header>
+  <div id="setBody"></div>
+</div>
 <div id="itin" hidden role="dialog" aria-label="Reiseplan">
   <header><b>📅 Reiseplan</b><button id="itinClose" aria-label="Schließen">✕</button></header>
   <div id="itinDays"></div>
@@ -785,8 +826,11 @@
     return p.lat > 18 && p.lat < 54 && p.lng > 73 && p.lng < 135 && !hk && !mo && !(p.lng > 119.3 && p.lat < 25.5);
   };
   window.LAST_POS = (() => { try { return JSON.parse(localStorage.getItem("lastPos") || "null"); } catch { return null; } })();
+  // Kartenanbieter: URL-Parameter gehen vor, sonst Einstellung (auto/google/osm/rotate)
+  window.MAPQ = (() => { const q = location.search; if (/[?&](google|klassisch|drehbar)\b/.test(q)) return q;
+    return q + ({ google: "&google", osm: "&klassisch", rotate: "&drehbar" }[(window.SETTINGS || {}).engine] || ""); })();
   window.GMAP_MODE = (() => {
-    const q = location.search;
+    const q = MAPQ;
     if (/[?&]google\b/.test(q)) return true;
     if (/[?&](klassisch|drehbar)\b/.test(q)) return false;
     return !inMainland(LAST_POS);
@@ -796,7 +840,7 @@
 </script>
 <script>
   // Variante mit drehbarer Karte: …/insta_map/?drehbar (bzw. rotate.html) – OpenStreetMap/Satellit statt Google, mit zwei Fingern drehbar
-  if (/[?&]drehbar/.test(location.search) && !GMAP_MODE) document.write('<script src="https://cdn.jsdelivr.net/npm/leaflet-rotate@0.2.8/dist/leaflet-rotate.min.js"><\/script>');
+  if (/[?&]drehbar/.test(MAPQ) && !GMAP_MODE) document.write('<script src="https://cdn.jsdelivr.net/npm/leaflet-rotate@0.2.8/dist/leaflet-rotate.min.js"><\/script>');
 </script>
 <script>
   // Neue Version der Seite? Hinweis zeigen (kein automatisches Neuladen).
@@ -867,7 +911,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
   const GMAP = !!L.isGoogle;
-  const ROTATE = GMAP || (/[?&]drehbar/.test(location.search) && !!L.Map.prototype.setBearing);
+  const ROTATE = GMAP || (/[?&]drehbar/.test(MAPQ) && !!L.Map.prototype.setBearing);
   // Desktop (Maus/Trackpad): ohne Zoom-Animation, sonst laufen Pins und Google-Karte beim Zoomen auseinander
   const fineMouse = window.matchMedia && matchMedia("(hover: hover) and (pointer: fine)").matches;
   const map = L.map("map", { zoomControl: false, tap: true, tapHold: true, maxZoom: 21,
@@ -881,7 +925,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
 
   // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
   // Google-Kacheln lassen sich nicht drehen; in Festland-China passt die Google-Straßenkarte nicht zu GPS/Spots → OpenStreetMap
-  const CN_OSM = inMainland(LAST_POS) && !/[?&]google\b/.test(location.search);
+  const CN_OSM = inMainland(LAST_POS) && !/[?&]google\b/.test(MAPQ);
   const gKey = ROTATE || CN_OSM ? "" : (unlockedKey || "").trim();
   if (GMAP) L.control.layers({ "Google Karte": "roadmap", "Google Satellit": "hybrid" }, null, { position: "topright" }).addTo(map);
   else if (ROTATE) {
@@ -907,7 +951,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     loadScript(`https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(gKey)}&v=weekly&language=de`)
       .then(() => loadScript("https://cdn.jsdelivr.net/npm/leaflet.gridlayer.googlemutant@0.16.0/dist/Leaflet.GoogleMutant.js"))
       .then(() => {
-        layers["Google Karte"] = L.gridLayer.googleMutant({ type: "roadmap", maxZoom: 21, ...(matchMedia("(prefers-color-scheme: dark)").matches ? { styles: GDARK } : {}) });
+        layers["Google Karte"] = L.gridLayer.googleMutant({ type: "roadmap", maxZoom: 21, ...(document.documentElement.dataset.mapdark === "1" ? { styles: GDARK } : {}) });
         layers["Google Satellit"] = L.gridLayer.googleMutant({ type: "hybrid", maxZoom: 21 });
         layers["OpenStreetMap"] = osm;
         layers["Google Karte"].addTo(map);
@@ -2039,7 +2083,34 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   });
   drawItin(false);
   // ---------- Symbolleiste unten
-  const DLG = { plan: "#itin", tours: "#toursDlg", insp: "#insp" };
+  const DLG = { plan: "#itin", tours: "#toursDlg", insp: "#insp", set: "#settings" };
+  // ---------- Einstellungen
+  const SET_DEF = { theme: "auto", engine: "auto", mapColor: "app", hotels: true, pins: "normal" };
+  const SETS = [
+    ["Darstellung", [["theme", "Erscheinungsbild", [["auto", "Automatisch"], ["light", "Hell"], ["dark", "Dunkel"]], "Automatisch folgt der Einstellung des iPhones."]]],
+    ["Karte", [
+      ["engine", "Kartenanbieter", [["auto", "Automatisch"], ["google", "Google"], ["osm", "OSM"], ["rotate", "Drehbar"]], "Automatisch: Google, in Festland-China OpenStreetMap (Google ist dort verschoben). Drehbar: OpenStreetMap/Satellit mit zwei Fingern drehen. Wechsel lädt die App neu."],
+      ["mapColor", "Kartenfarbe", [["app", "Wie App"], ["light", "Hell"], ["dark", "Dunkel"]], "Bei Google wirkt die Änderung nach dem Neuladen."],
+      ["pins", "Spot-Pins", [["normal", "Normal"], ["big", "Groß"]], ""],
+      ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
+  ];
+  const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
+  function renderSettings() {
+    $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
+      `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
+      + `<div class="sgrp">App</div><div class="scard"><div class="srow"><b>Neu laden</b><div class="seg2"><button data-reload="1">Jetzt neu laden</button></div><small>Holt die neueste Version und alle Daten.</small></div></div>`;
+  }
+  $("#setBody").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.reload) return location.reload();
+    const k = b.dataset.k; let v = b.dataset.v; if (v === "true") v = true; else if (v === "false") v = false;
+    const old = setVal(k); window.SETTINGS[k] = v;
+    try { localStorage.setItem("settings", JSON.stringify(window.SETTINGS)); } catch {}
+    applyTheme(); renderSettings();
+    if (k === "engine" && old !== v) { toast("Karte wird gewechselt …", 1500); setTimeout(() => location.replace(location.pathname + location.hash), 600); }
+    if (k === "mapColor" && GMAP) toast("Google-Karte: wirkt nach dem Neuladen", 2500);
+  });
+  $("#setClose").onclick = () => { $("#settings").hidden = true; };
   const dockSync = () => {
     const open = Object.keys(DLG).find(k => !$(DLG[k]).hidden);
     $("#dock").querySelectorAll("button").forEach(b => {
@@ -2057,6 +2128,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (d === "plan" && !wasOpen) itinBtn.onclick(e);
     else if (d === "tours" && !wasOpen) openTours();
     else if (d === "insp" && !wasOpen) openInsp();
+    else if (d === "set" && !wasOpen) { renderSettings(); $("#settings").hidden = false; }
     else if (d === "fav") { const f = $("#fMore"); f.value = f.value === "fav" ? "" : "fav"; f.dispatchEvent(new Event("change"));
       toast(f.value === "fav" ? "❤ Nur Merkliste (Favoriten)" : "Alle Spots", 1500); if (mobile()) setSnap("half"); }
     dockSync();
@@ -2372,6 +2444,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
 
   // Kartenwahl passt nicht zum Standort (z.B. gerade nach Festland-China gereist) → einmal neu laden mit passender Karte
   function switchMapForRegion(p) {
+    if ((window.SETTINGS.engine || "auto") !== "auto") return;  // fest gewählter Kartenanbieter
     const q = location.search, wantOsm = inMainland(p), haveGoogle = !!(GMAP || gKey);
     let target = null;
     if (wantOsm && haveGoogle && !/[?&]google\b/.test(q)) target = "?klassisch";                   // nach China gereist
