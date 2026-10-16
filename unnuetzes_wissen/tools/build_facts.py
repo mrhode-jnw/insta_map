@@ -2,11 +2,13 @@
 """Baut die Fakten-Pakete der App aus geprüften Recherche-Dateien.
 
     python3 unnuetzes_wissen/tools/build_facts.py <ordner-mit-verified-*.json>
+    python3 unnuetzes_wissen/tools/build_facts.py --append <ordner>   # Nachschub (Routine)
 
 - übernimmt nur Einträge mit "verdict": "belegt"
 - entfernt interne Felder (evidence, verdict, note) – Belegzitate bleiben privat
 - vergibt stabile IDs (Kategorie-Kürzel + Hash der Schlagzeile, danach fest im Eintrag)
-- baut alle Pakete neu aus den geprüften Dateien
+- baut alle Pakete neu aus den geprüften Dateien; mit --append bleiben die vorhandenen Pakete
+  stehen und die neuen Fakten kommen dazu (für Läufe ohne die alten Recherche-Dateien)
 - schreibt data/facts-allgemein.json, data/facts-<ort>.json, data/facts-land-<land>.json,
   data/facts-aktuell.json und data/index.json
 """
@@ -36,12 +38,16 @@ def pack_of(f):
     return "facts-allgemein.json"
 
 
-def main(src):
+def main(src, append=False):
     # Pakete werden jedes Mal komplett aus den geprüften Dateien gebaut – so bleiben keine
     # veralteten Fassungen stehen, wenn eine Prüfung Text oder ID ändert.
     packs = {}
     for p in DATA.glob("facts-*.json"):
-        p.unlink()
+        if append:
+            packs[p.name] = {f["id"]: f for f in json.loads(p.read_text())}
+        else:
+            p.unlink()
+    known = {i for items in packs.values() for i in items}
     # Themen-Zuordnung (themen-*.json: {id: [thema, …]}) aus dem Recherche-Ordner
     themes = {}
     for p in sorted(pathlib.Path(src).glob("themen-*.json")):
@@ -66,6 +72,10 @@ def main(src):
             f.setdefault("lang", "de")
             f.setdefault("verified", datetime.date.today().isoformat())
             f["id"] = f.get("id") or fid(f)
+            if append and f["id"] in known:
+                print("schon vorhanden:", f["headline"])
+                skipped += 1
+                continue
             t = [x for x in themes.get(f["id"], f.get("themes") or []) if x in THEME_IDS]
             if f.get("sensitive") == "verbrechen" and "krimi" not in t:
                 t.append("krimi")
@@ -98,4 +108,5 @@ def main(src):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1] if len(sys.argv) > 1 else ".")
+    a = [x for x in sys.argv[1:] if x != "--append"]
+    main(a[0] if a else ".", append="--append" in sys.argv)
