@@ -16,6 +16,7 @@ function M.apply(photo, row, plugin)
   if row.score then photo:setPropertyForPlugin(plugin, "claudeScore", tostring(row.score)) end
   if row.group then photo:setPropertyForPlugin(plugin, "claudeGroup", row.group) end
   if row.comment then photo:setPropertyForPlugin(plugin, "claudeComment", row.comment) end
+  if row.kind then photo:setPropertyForPlugin(plugin, "claudeKind", row.kind) end
 end
 
 return M

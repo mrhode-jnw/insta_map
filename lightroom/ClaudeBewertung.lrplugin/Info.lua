@@ -11,9 +11,10 @@ return {
   LrMetadataProvider = "MetadataDefinition.lua",
   LrPluginInfoProvider = "PluginInfoProvider.lua",
   LrLibraryMenuItems = {
-    { title = "Mit Claude bewerten …", file = "RateWithClaude.lua" },
+    { title = "Vorschauen für Claude exportieren …", file = "ExportForClaude.lua" },
+    { title = "Mit Claude bewerten (API-Schlüssel) …", file = "RateWithClaude.lua" },
     { title = "Claude-Bewertungsliste (CSV) übernehmen …", file = "ImportRatings.lua" },
     { title = "Dateinamen der Auswahl kopieren (für Claude)", file = "CopyNames.lua" },
   },
-  VERSION = { major = 2, minor = 0, revision = 0, build = 1 },
+  VERSION = { major = 3, minor = 0, revision = 0, build = 1 },
 }

@@ -14,6 +14,15 @@ Komposition und Bildaufbau, Motiv, Tiefe und Ebenen, Farbe, und die technische Q
 (Schärfe, ausgefressene Lichter, abgesoffene Schatten, schiefer Horizont).
 Fasse sehr ähnliche Aufnahmen (gleiches Motiv, gleicher Standpunkt, Belichtungsreihe, Serie) zu einer Serie zusammen
 (Buchstaben A, B, C …) und markiere genau ein Foto je Serie als bestes; Einzelbilder bilden eine eigene Serie.
+Belichtungsreihen (gleicher Ausschnitt, kurz nacheinander, unterschiedlich belichtet): kind = "bracket", die ganze
+Reihe ist eine Serie; best_in_group = true für genau das Bild, das allein am besten funktioniert (meist die mittlere
+Belichtung); die übrigen sind nie reject, weil sie für ein HDR gebraucht werden. Sag im Kommentar des besten Bildes,
+ob sich das Zusammenfügen zum HDR lohnt.
+Panoramas (gleiche Belichtung, Ausschnitt seitlich oder vertikal versetzt, überlappend): kind = "panorama", alle
+Einzelbilder eine Serie, gleiche Note für alle = Wert des fertigen Panoramas; best_in_group = true nur für das erste
+Bild; Kommentar des ersten Bildes: aus wie vielen Bildern zusammenfügen und was das Panorama zeigt. Nie reject.
+Die Angaben „Aufnahme“ und „Vorgruppe“ bei jedem Foto sind ein Hinweis aus den Metadaten – entscheide nach dem Bild.
+Sonst: kind = "series" für ähnliche Aufnahmen desselben Motivs, "single" für Einzelbilder.
 Setze reject nur für klar misslungene Fotos (unscharf, stark fehlbelichtet, versehentlich).
 Der Kommentar ist kurz und auf Deutsch (höchstens 2 Sätze): was das Bild trägt und was es schwächt, gern mit
 einem konkreten Tipp für die Bearbeitung. Verwende für "file" exakt den angegebenen Dateinamen.]]
@@ -21,9 +30,10 @@ einem konkreten Tipp für die Bearbeitung. Verwende für "file" exakt den angege
 M.SCHEMA = {
   type = "object", additionalProperties = false, required = Json.array { "photos" },
   properties = { photos = { type = "array", items = { type = "object", additionalProperties = false,
-    required = Json.array { "file", "score", "group", "best_in_group", "reject", "comment" },
+    required = Json.array { "file", "score", "kind", "group", "best_in_group", "reject", "comment" },
     properties = {
       file = { type = "string" }, score = { type = "number" }, group = { type = "string" },
+      kind = { type = "string", enum = Json.array { "single", "series", "bracket", "panorama" } },
       best_in_group = { type = "boolean" }, reject = { type = "boolean" }, comment = { type = "string" },
     } } } },
 }
@@ -32,7 +42,7 @@ M.SCHEMA = {
 function M.rate(apiKey, model, images, note, noFallback)
   local content = Json.array()
   for i, im in ipairs(images) do
-    content[#content + 1] = { type = "text", text = ("Foto %d: %s"):format(i, im.name) }
+    content[#content + 1] = { type = "text", text = ("Foto %d: %s%s"):format(i, im.name, im.info and ("\n" .. im.info) or "") }
     content[#content + 1] = { type = "image", source = { type = "base64", media_type = "image/jpeg", data = im.jpeg } }
   end
   content[#content + 1] = { type = "text", text = ("Bewerte alle %d Fotos.%s"):format(#images, note and note ~= "" and ("\nHinweis des Fotografen: " .. note) or "") }

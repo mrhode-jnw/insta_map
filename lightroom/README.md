@@ -8,6 +8,21 @@ Rückgängig mit Cmd+Z.
 1. `ClaudeBewertung.lrplugin.zip` laden und entpacken (Ordner `ClaudeBewertung.lrplugin`), z. B. nach `~/Documents/Lightroom-Plugins/`.
 2. Lightroom Classic → Datei → Zusatzmodul-Manager → Hinzufügen → den Ordner wählen.
 
+## Ohne API-Schlüssel (mit dem Claude-Abo)
+1. Fotos auswählen → Bibliothek → Zusatzmoduloptionen → **Vorschauen für Claude exportieren …**
+   Legt JPEGs (mit deiner Bearbeitung, 1600 px) unter `Bilder/Claude-Bewertung/<Datum_Uhrzeit>/` ab,
+   dazu `liste.csv` (Aufnahmedaten, vermutete Belichtungsreihen/Panoramas) und `ANWEISUNG.md` für Claude.
+2. Den Ordner Claude geben (Claude-App am Mac: „Bewerte die Fotos in diesem Ordner nach ANWEISUNG.md“;
+   oder Bilder in den Chat ziehen). Claude schreibt `bewertung.csv` in den Ordner (bzw. gibt sie dir zum Speichern).
+3. Zusatzmoduloptionen → **Claude-Bewertungsliste (CSV) übernehmen …** – die Datei im letzten Export-Ordner wird automatisch angeboten.
+
+## Belichtungsreihen und Panoramas
+- **Belichtungsreihe:** nur das allein beste Bild bekommt Sterne und Fähnchen (ab Note 8,5 Grün); die übrigen
+  werden **lila**, nie abgelehnt (fürs HDR). Kommentar: ob sich HDR lohnt.
+- **Panorama:** alle Einzelbilder **blau**, nie abgelehnt; das erste bekommt Sterne/Fähnchen für das fertige Panorama.
+- Erkannt an Aufnahmezeit (≤ 10 s), gleicher Brennweite und Belichtung, entschieden von Claude nach dem Bild.
+  Feld „Claude-Art“ im Metadaten-Bedienfeld: Einzelbild, Serie, Belichtungsreihe, Panorama.
+
 ## Direkt mit Claude bewerten (empfohlen)
 1. Einmalig: Datei → Zusatzmodul-Manager → Claude-Bewertung → **API-Schlüssel** eintragen
    (anlegen unter console.anthropic.com → API Keys; Kosten ca. 1 US-Cent je Foto mit Opus, ½ Cent mit Sonnet).
@@ -26,9 +41,9 @@ Rückgängig mit Cmd+Z.
 
 ## Listenformat (UTF-8, Trennzeichen ;)
 ```
-datei;sterne;farbe;markierung;note;serie;kommentar
-DSC01266;5;grün;auswahl;9;A;Stärkstes Einzelbild
-DSC01268;1;;abgelehnt;2;;Ohne Licht
+datei;sterne;farbe;markierung;note;serie;art;kommentar
+DSC01266;5;grün;auswahl;9;A;einzel;Stärkstes Einzelbild
+DSC01268;1;;abgelehnt;2;;einzel;Ohne Licht
 ```
 Leere Felder lassen den bisherigen Wert unverändert. Farben: rot, gelb, grün, blau, lila, keine.
-Markierung: auswahl, abgelehnt, keine.
+Markierung: auswahl, abgelehnt, keine. Art: einzel, serie, reihe, pano.

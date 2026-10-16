@@ -3,6 +3,8 @@ local LrDialogs = import "LrDialogs"
 local LrTasks = import "LrTasks"
 local LrFileUtils = import "LrFileUtils"
 local LrProgressScope = import "LrProgressScope"
+local LrPrefs = import "LrPrefs"
+local LrPathUtils = import "LrPathUtils"
 local Parse = require "Parse"
 local Apply = require "Apply"
 
@@ -13,8 +15,17 @@ LrTasks.startAsyncTask(function()
     LrDialogs.message("Claude-Bewertung", "Bitte zuerst die Fotos auswählen, für die die Liste gilt (z. B. den Ordner öffnen und Cmd+A).", "info")
     return
   end
-  local files = LrDialogs.runOpenPanel { title = "Bewertungsliste von Claude wählen (.csv / .txt)", canChooseFiles = true,
-    canChooseDirectories = false, allowsMultipleSelection = false, fileTypes = { "csv", "txt", "tsv" } }
+  -- zuerst bewertung.csv im zuletzt exportierten Ordner, sonst Datei wählen
+  local prefs = LrPrefs.prefsForPlugin()
+  local files
+  local auto = prefs.lastExport and LrPathUtils.child(prefs.lastExport, "bewertung.csv")
+  if auto and LrFileUtils.exists(auto) and LrDialogs.confirm("Bewertung übernehmen?", "Gefunden: " .. auto, "Diese nehmen", "Andere Datei …") == "ok" then
+    files = { auto }
+  else
+    files = LrDialogs.runOpenPanel { title = "Bewertungsliste von Claude wählen (.csv / .txt)", canChooseFiles = true,
+      canChooseDirectories = false, allowsMultipleSelection = false, fileTypes = { "csv", "txt", "tsv" },
+      initialDirectory = prefs.lastExport }
+  end
   if not files or not files[1] then return end
   local rows, errors = Parse.parse(LrFileUtils.readFile(files[1]))
   if #rows == 0 then
