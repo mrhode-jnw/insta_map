@@ -2,13 +2,30 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#111827">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#0d0d10" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f4f4f6" media="(prefers-color-scheme: light)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Insta Map">
 <link rel="manifest" href="manifest.webmanifest">
+<script>
+  // Einstellungen: Erscheinungsbild (auto/hell/dunkel) und Kartenfarbe (wie App/hell/dunkel) – vor dem ersten Zeichnen setzen
+  window.SETTINGS = (() => { try { return JSON.parse(localStorage.getItem("settings") || "{}"); } catch { return {}; } })();
+  window.applyTheme = () => {
+    const S = window.SETTINGS, sys = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    const th = S.theme === "light" || S.theme === "dark" ? S.theme : sys;
+    const md = S.mapColor === "light" ? "0" : S.mapColor === "dark" ? "1" : th === "dark" ? "1" : "0";
+    const h = document.documentElement; h.dataset.theme = th; h.dataset.mapdark = md;
+    document.querySelectorAll('meta[name="theme-color"]').forEach(m => { m.content = th === "dark" ? "#0d0d10" : "#f4f4f6"; m.removeAttribute("media"); });
+    document.body && document.body.classList.toggle("no-hotels", S.hotels === false);
+    document.body && document.body.classList.toggle("pins-big", S.pins === "big");
+  };
+  applyTheme();
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", applyTheme);
+  document.addEventListener("DOMContentLoaded", applyTheme);
+</script>
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <title>Insta Map</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
@@ -23,6 +40,8 @@
     :root { --bg: #111827; --fg: #f3f4f6; --muted: #9ca3af; --line: #374151; }
   }
   * { box-sizing: border-box; }
+  /* iOS-Web-App mit durchsichtiger Statusleiste: sonst endet der Bildschirm um die Statusleisten-Höhe zu früh (leerer Streifen unten) */
+  html { min-height: calc(100% + env(safe-area-inset-top)); }
   html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg);
     font: 15px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
   #map { position: fixed; inset: 0; }
@@ -39,6 +58,8 @@
     border-radius: 16px 16px 0 0; box-shadow: var(--shadow); height: 88vh; height: 88svh;  /* svh: ändert sich nicht, wenn Safari beim Scrollen seine Leisten ein-/ausblendet */ display: flex;
     flex-direction: column; transform: translateY(calc(100% - 76px - env(safe-area-inset-bottom)));
     transition: transform .28s cubic-bezier(.2,.8,.2,1); padding-bottom: env(safe-area-inset-bottom); will-change: transform; }
+  /* Kein Seiten-Zoom durch Doppeltippen (Safari); Karte zoomt weiter selbst (Leaflet/Google setzen eigenes touch-action) */
+  html, body { touch-action: manipulation; }
   #sheet header { padding: 8px 14px 10px; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; }
   #list { overscroll-behavior: contain; }
   #sheet .grip { width: 40px; height: 5px; border-radius: 3px; background: var(--muted); opacity: .5; margin: 0 auto 10px; }
@@ -64,7 +85,7 @@
   #list li.sec small { font-weight: 400; color: var(--muted); }
   .ugrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 6px; padding: 0 14px 14px; }
   .ugrid a { position: relative; display: block; aspect-ratio: 4 / 5; border-radius: 8px; overflow: hidden; background: var(--line); }
-  .ugrid img { width: 100%; height: 100%; object-fit: cover; }
+  #list .ugrid img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
   .ugrid span { position: absolute; left: 0; right: 0; bottom: 0; padding: 2px 5px; font-size: 11px; color: #fff;
     background: linear-gradient(transparent, rgba(0,0,0,.7)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
@@ -88,6 +109,10 @@
   .pop .links { display: flex; gap: 6px; flex-wrap: wrap; }
   .pop .links .showmap { flex: 1.3; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #dbeafe; color: #1e3a8a; font-weight: 600; cursor: pointer; }
   .leaflet-marker-icon.hl { z-index: 9999 !important; }
+  /* Gruppen (mehrere Spots): kräftig statt blassgrün, gut sichtbar auf allen Karten */
+  .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background: rgba(225, 48, 108, .35) !important; }
+  .marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div { background: #e1306c !important; color: #fff !important;
+    font-weight: 700; border: 2px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.45); line-height: 26px !important; }
   .leaflet-marker-icon.hl .pin, .leaflet-marker-icon.hl.marker-cluster { transform: scale(1.5); box-shadow: 0 0 0 4px #e1306c, 0 4px 14px rgba(0,0,0,.45); transition: transform .12s; }
   .leaflet-marker-icon.hl.marker-cluster { border-radius: 50%; }
   .leaflet-marker-icon.flash { animation: flashpin .65s ease-in-out 4; z-index: 9999 !important; }
@@ -127,6 +152,17 @@
     color: #fff; font-size: 15px; font-weight: 700; line-height: 20px; }
   .pop .hero .parrows button + button { border-left: 1px solid rgba(255,255,255,.4); }
   .pop .hero .parrows button:disabled { opacity: .35; cursor: default; }
+  .galgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin: 0 0 8px; }
+  .galgrid figure { margin: 0; position: relative; aspect-ratio: 1; overflow: hidden; border-radius: 6px; background: #eee; }
+  .galgrid img { width: 100%; height: 100%; object-fit: cover; display: block; cursor: zoom-in; }
+  .galgrid .gwho { position: absolute; left: 0; right: 0; bottom: 0; padding: 10px 5px 3px; font-size: 10.5px; color: #fff;
+    background: linear-gradient(transparent, rgba(0,0,0,.6)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; pointer-events: none; }
+  .leaflet-popup.mini .galgrid { display: none; }
+  .galgrid .ginsp { position: absolute; top: 3px; left: 3px; width: 24px; height: 24px; padding: 0; border: 0; border-radius: 50%;
+    background: rgba(0,0,0,.45); font-size: 13px; line-height: 24px; cursor: pointer; filter: grayscale(1); opacity: .8; }
+  .galgrid .ginsp.on { background: #facc15; filter: none; opacity: 1; }
+  .galgrid .gdel { position: absolute; top: 3px; right: 3px; width: 22px; height: 22px; padding: 0; border: 0; border-radius: 50%;
+    background: rgba(0,0,0,.55); color: #fff; font-size: 15px; line-height: 22px; cursor: pointer; }
   .galhead { font-size: 13px; font-weight: 600; margin: 4px 0 4px; } .galhead .galn { color: var(--accent, #e1306c); } .galhead span { font-weight: 400; color: var(--muted, #6b7280); }
   .gal figure img { width: 140px; height: 175px; border-radius: 8px; object-fit: cover; display: block; background: #eee; }
   .gal figcaption { font-size: 13px; padding-top: 3px; }
@@ -167,7 +203,65 @@
   #tourBtn { bottom: calc(env(safe-area-inset-bottom) + 212px); font-size: 20px; }
   #tourBtn.on { background: #2563eb; color: #fff; }
   @media (min-width: 800px) { #tourBtn { bottom: 200px; } }
-  .tour-stop { display: flex; align-items: center; gap: 4px; white-space: nowrap; transform: translate(-13px, -13px); }
+  #itinBtn { bottom: calc(env(safe-area-inset-bottom) + 272px); font-size: 20px; }
+  #itinBtn.on { background: #0f766e; color: #fff; }
+  @media (min-width: 800px) { #itinBtn { bottom: 260px; } }
+  /* Reiseplan: Vollbild mit Tagesleiste und Karten je Stopp / Etappe / Hotel */
+  #itin { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
+  #itin[hidden] { display: none; }
+  @media (min-width: 800px) { #itin { left: auto; width: 480px; box-shadow: var(--shadow); } }
+  #itin header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 14px 8px; }
+  #itin header b { font-size: 17px; flex: 1; }
+  #itin header button { width: 38px; height: 34px; border-radius: 10px; border: 0; background: #111827; color: #fff; font-size: 17px; cursor: pointer; }
+  #itinDays { display: flex; gap: 6px; overflow-x: auto; padding: 4px 12px 10px; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+  #itinDays button { flex: none; display: flex; flex-direction: column; align-items: center; min-width: 52px; padding: 5px 8px; border-radius: 12px;
+    border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; font-size: 11.5px; line-height: 1.25; }
+  #itinDays button b { font-size: 16px; } #itinDays button.on { background: #0f766e; border-color: #0f766e; color: #fff; }
+  #itinDays button.today:not(.on) { border-color: #0f766e; }
+  #itinOpt { display: flex; gap: 6px; padding: 8px 12px; border-bottom: 1px solid var(--line); }
+  #itinOpt button { flex: 1; padding: 7px 8px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 13.5px; cursor: pointer; }
+  #itinOpt button.on { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .ic.opt .icard { border-style: dashed; border-color: #a78bfa; opacity: .92; }
+  .ic.opt .itm { color: var(--muted); }
+  .b-opt { background: #f3e8ff; color: #6b21a8; }
+  .iig { display: flex; flex-wrap: wrap; gap: 5px; margin: 4px 0 2px; }
+  .iig a, .iig button { font-size: 12.5px; padding: 4px 9px; border-radius: 999px; border: 0; background: #fce7f3; color: #9d174d; text-decoration: none; cursor: pointer; font-weight: 600; }
+  #itinBody { flex: 1; overflow-y: auto; padding: 12px 12px calc(env(safe-area-inset-bottom) + 24px); }
+  .idh h2 { margin: 0 0 4px; font-size: 19px; } .idh .ist { font-size: 11.5px; padding: 2px 8px; border-radius: 999px; background: #fef3c7; color: #92400e; vertical-align: middle; margin-left: 6px; }
+  .isun { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 10px; font-size: 12.5px; }
+  .isun span { padding: 4px 8px; border-radius: 8px; background: rgba(148,163,184,.15); }
+  .imapb { width: 100%; padding: 10px; border-radius: 12px; border: 0; background: #0f766e; color: #fff; font-size: 15px; font-weight: 600; cursor: pointer; margin-bottom: 12px; }
+  .ic { display: grid; grid-template-columns: 54px 1fr; gap: 10px; margin-bottom: 10px; }
+  .ic .itm { font: 700 14px/1.2 system-ui, sans-serif; padding-top: 10px; text-align: right; color: var(--fg); word-break: break-word; }
+  .ic .itm small { display: block; font-weight: 500; font-size: 11.5px; color: var(--muted); }
+  .icard { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: rgba(148,163,184,.07); }
+  .icard .ihero { position: relative; aspect-ratio: 16/9; background: var(--line); cursor: zoom-in; }
+  .icard .ihero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .icard .ihero .icount { position: absolute; right: 8px; bottom: 8px; background: rgba(0,0,0,.6); color: #fff; font-size: 12px; padding: 2px 8px; border-radius: 999px; }
+  .icard .ithumbs { display: flex; gap: 3px; overflow-x: auto; scrollbar-width: none; }
+  .icard .ithumbs img { width: 64px; height: 64px; object-fit: cover; flex: none; cursor: zoom-in; }
+  .icard .ib { padding: 9px 11px 11px; }
+  .icard h3 { margin: 0 0 6px; font-size: 16px; line-height: 1.3; }
+  .ibadges { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 7px; }
+  .ibadges span { font-size: 11.5px; padding: 2px 7px; border-radius: 999px; font-weight: 600; }
+  .b-plan { background: #dbeafe; color: #1e3a8a; } .b-ig { background: #fce7f3; color: #9d174d; } .b-cl { background: #ede9fe; color: #4c1d95; }
+  .b-hotel { background: #ccfbf1; color: #115e59; } .b-open { background: #fee2e2; color: #991b1b; }
+  .ilight { display: inline-flex; align-items: center; gap: 5px; font-size: 12.5px; font-weight: 600; padding: 3px 9px; border-radius: 8px; margin-bottom: 7px; }
+  .l-dawn { background: #e0e7ff; color: #3730a3; } .l-sunrise, .l-sunset, .l-golden { background: #ffedd5; color: #9a3412; }
+  .l-blue { background: #1e3a8a; color: #dbeafe; } .l-night { background: #111827; color: #fde68a; border: 1px solid #374151; }
+  .l-day { background: #fef9c3; color: #713f12; } .l-midday { background: #e5e7eb; color: #374151; } .l-indoor { background: #f5f5f4; color: #44403c; }
+  .icard p { margin: 0 0 6px; font-size: 14px; line-height: 1.45; }
+  .icard .itip { font-size: 12.5px; color: var(--muted); line-height: 1.45; }
+  .icard .itip summary { cursor: pointer; color: var(--accent); font-weight: 600; margin-bottom: 4px; }
+  .icard .iact { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+  .icard .iact a, .icard .iact button { font-size: 13px; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; text-decoration: none; }
+  .imove { display: grid; grid-template-columns: 54px 1fr; gap: 10px; margin: -2px 0 8px; }
+  .imove div:last-child { border-left: 3px dashed #94a3b8; margin-left: 14px; padding: 4px 0 4px 14px; font-size: 13px; color: var(--muted); }
+  .imove b { color: var(--fg); }
+  .iinfo { display: flex; gap: 10px; align-items: flex-start; padding: 9px 11px; }
+  .iinfo .iic { font-size: 22px; line-height: 1; }
+  .tour-stop { display: flex; align-items: center; gap: 4px; white-space: nowrap; transform: translate(-13px, -13px); width: max-content; }
+  .tour-stop b { flex: none; box-sizing: border-box; line-height: 1; }
   .tour-stop b { width: 26px; height: 26px; border-radius: 50%; background: #2563eb; color: #fff; border: 2px solid #fff; display: grid; place-items: center;
     font: 700 13px system-ui, sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
   .leg-time { transform: translate(-50%, -50%); display: inline-block; white-space: nowrap; background: #2563eb; color: #fff; border: 1.5px solid #fff; border-radius: 10px;
@@ -202,7 +296,7 @@
   .pin.claude { border-color: #7c3aed; position: relative; }
   .pin.claude::before { content: "✦"; position: absolute; left: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
     background: #7c3aed; color: #fff; font-size: 10px; line-height: 16px; text-align: center; }
-  .pop .pnav { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between;
+  .pop .pnav { position: sticky; top: 0; z-index: 6; display: flex; align-items: center; justify-content: space-between;
     padding: 6px 8px; background: rgba(255,255,255,.95); border-bottom: 1px solid #e5e7eb; }
   .pop .pnav button { width: 38px; height: 34px; border-radius: 10px; border: 1px solid #d1d5db; background: #fff; color: #111827;
     font-size: 22px; line-height: 1; cursor: pointer; }
@@ -258,6 +352,8 @@
   #list.grid { display: grid; grid-template-columns: repeat(2, 1fr); grid-auto-rows: max-content; align-content: start; gap: 6px; padding: 6px 8px 10px; }
   @media (min-width: 800px) { #list.grid { grid-template-columns: repeat(2, 1fr); } }
   #list.grid li.areahead { grid-column: 1 / -1; border: 0; padding: 10px 4px 2px; }
+  #list.grid li.sec { grid-column: 1 / -1; border: 0; padding: 10px 4px 2px; }
+  #list.grid .ugrid { padding: 0 0 8px; }
   #list.grid li.gi { display: block; position: relative; padding: 0; border: 0; aspect-ratio: 4 / 5; border-radius: 10px; overflow: hidden; background: var(--line); }
   #list.grid li.gi img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
   #list.grid li.gi .cap2 { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 8px 6px; color: #fff; font-size: 13px; font-weight: 600;
@@ -313,6 +409,15 @@
   .tpnew { display: flex; gap: 8px; margin-top: 10px; }
   .tpnew input { flex: 1; padding: 9px 11px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 16px; }
   .tpnew button { width: 44px; border-radius: 10px; border: 0; background: var(--accent); color: #fff; font-size: 20px; cursor: pointer; }
+  .pop .links .xadd { flex: 1; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #fce7f3; color: #9d174d; font-weight: 600; cursor: pointer; }
+  .pop .xlinks { display: flex; flex-direction: column; gap: 3px; font-size: 13px; margin: 6px 0; padding: 6px 8px; background: #f3f4f6; border-radius: 8px; }
+  .pop .xlinks a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .pop .xlinks small { color: var(--muted, #6b7280); }
+  .xa-row { display: flex; flex-direction: column; gap: 8px; margin: 8px 0; }
+  .xa-row input[type=url], .xa-row textarea { font-family: inherit; padding: 9px 11px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 16px; }
+  .xa-pick { display: block; text-align: center; padding: 12px; border-radius: 10px; border: 2px dashed var(--line); cursor: pointer; font-size: 15px; }
+  .xa-pick input { display: none; } .xa-thumbs { display: flex; gap: 6px; flex-wrap: wrap; } .xa-thumbs img { width: 64px; height: 64px; object-fit: cover; border-radius: 6px; }
+  .xa-save { width: 100%; padding: 11px; border-radius: 10px; border: 0; background: var(--accent); color: #fff; font-size: 16px; font-weight: 600; cursor: pointer; }
+  .xa-save:disabled { opacity: .5; }
   .pop .links .tadd { flex: 1; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #ede9fe; color: #4c1d95; font-weight: 600; cursor: pointer; }
   /* Inspiration: Bildersammlung unabhängig von Spots (data/inspiration.js) */
   #insp { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
@@ -320,12 +425,21 @@
   #insp header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 14px 10px; border-bottom: 1px solid var(--line); }
   #insp header b { font-size: 17px; } #insp header span { flex: 1; font-size: 13px; color: var(--muted); }
   #insp header button { width: 38px; height: 34px; border-radius: 10px; border: 0; background: #111827; color: #fff; font-size: 17px; cursor: pointer; }
+  #inspFilter { display: flex; gap: 6px; overflow-x: auto; padding: 8px 12px; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+  #inspFilter button { flex: none; white-space: nowrap; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 14px; cursor: pointer; }
+  #inspFilter button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  #inspFilter small { opacity: .75; }
   #inspBody { flex: 1; overflow-y: auto; padding: 10px 10px calc(env(safe-area-inset-bottom) + 16px); }
-  #inspBody h3 { margin: 6px 4px 8px; font-size: 15px; }
+  #inspBody h3 { margin: 6px 4px 8px; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+  #inspBody h3 .iadd { margin-left: auto; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--accent); background: transparent; color: var(--accent); font-size: 13px; font-weight: 600; cursor: pointer; }
+  #inspBody h3 .iadd:disabled { opacity: .6; }
   #inspBody .src { margin: 2px 4px 10px; font-size: 12.5px; color: var(--muted); }
   #inspBody .src a { color: var(--accent); text-decoration: none; }
   #inspBody .masonry { columns: 2; column-gap: 8px; margin-bottom: 18px; }
   @media (min-width: 800px) { #inspBody .masonry { columns: 4; } }
+  #inspBody .iw { position: relative; display: block; break-inside: avoid; }
+  #inspBody .idel { position: absolute; top: 5px; right: 5px; width: 24px; height: 24px; padding: 0; border: 0; border-radius: 50%;
+    background: rgba(0,0,0,.55); color: #fff; font-size: 16px; line-height: 24px; cursor: pointer; }
   #inspBody .masonry img { width: 100%; display: block; margin-bottom: 8px; border-radius: 8px; break-inside: avoid; background: var(--line); cursor: zoom-in; }
   #view #inspBtn { font-size: 15px; }
   #lb { position: fixed; inset: 0; z-index: 3000; background: #000; color: #fff; display: flex; flex-direction: column;
@@ -345,21 +459,24 @@
   .pop img[data-lb], .gal img[data-lb] { cursor: zoom-in; }
   #group { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 12px; z-index: 1000; display: flex;
     background: var(--bg); border-radius: 999px; box-shadow: var(--shadow); padding: 3px; }
+  #group { max-width: calc(100vw - 24px); overflow-x: auto; scrollbar-width: none; } #group::-webkit-scrollbar { display: none; }
+  #group button { white-space: nowrap; flex: none; }
   #group button { border: 0; background: transparent; color: var(--fg); padding: 7px 10px; border-radius: 999px; font-size: 14px; cursor: pointer; }
   #group button.on { background: var(--accent); color: #fff; }
   #group { align-items: center; }
   #group .where { position: relative; display: flex; align-items: center; padding: 7px 10px; border-radius: 999px; font-size: 14px; font-weight: 600; white-space: nowrap; }
   #group .where::after { content: "▾"; margin-left: 4px; font-size: 11px; opacity: .6; }
-  #group .where select { position: absolute; inset: 0; opacity: 0; font-size: 16px; cursor: pointer; }
+  #group button.where { font-weight: 600; }
+  .wdim { opacity: .4; pointer-events: none; } .tprow.wsub { padding-left: 18px; }
   #group .sep { width: 1px; align-self: stretch; margin: 6px 2px; background: var(--line, #ccc); }
   @media (max-width: 799px) { .leaflet-top.leaflet-right { margin-top: 56px; } }
   @media (min-width: 800px) { #group { left: 390px; } }
   /* Handy: solange ein Spot offen ist, gehört ihm der ganze Bildschirm unter dem Bereichs-Umschalter */
   @media (max-width: 799px) {
     /* nur aus-/einblenden, nichts bewegt sich (vorher fuhr die Liste weg und wieder hoch) */
-    .leaflet-top.leaflet-right, #add, #locate, #tourBtn, #sheet { transition: opacity .18s ease; }
+    .leaflet-top.leaflet-right, #add, #locate, #tourBtn, #itinBtn, #sheet { transition: opacity .18s ease; }
     #sheet { transition: transform .28s cubic-bezier(.2,.8,.2,1), opacity .18s ease; }
-    body.popup-open .leaflet-top.leaflet-right, body.popup-open #add, body.popup-open #locate, body.popup-open #tourBtn,
+    body.popup-open .leaflet-top.leaflet-right, body.popup-open #add, body.popup-open #locate, body.popup-open #tourBtn, body.popup-open #itinBtn,
     body.popup-open #sheet { opacity: 0; pointer-events: none; }
   }
   #update { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 110px); z-index: 2500;
@@ -382,6 +499,329 @@
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
+
+  /* ================= Design B „Nacht“: dunkel, Glas, Fotos im Vordergrund ================= */
+  :root { --bg: #0d0d10; --card: #17171c; --fg: #f4f4f6; --muted: #a1a1aa; --line: rgba(255,255,255,.09);
+    --glass: rgba(22,22,28,.72); --glassb: rgba(255,255,255,.08); --soft: rgba(255,255,255,.07); --accent: #e1306c; --me: #3b82f6;
+    --panel: rgb(22,22,28); --shadow: 0 10px 30px rgba(0,0,0,.45); color-scheme: dark; }
+  html, body { background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, "Segoe UI", Roboto, sans-serif; }
+  #group, .fab, #sheet, .leaflet-control-zoom, .leaflet-control-layers, #toast, #update {
+    background: var(--glass) !important; -webkit-backdrop-filter: blur(18px) saturate(1.4); backdrop-filter: blur(18px) saturate(1.4);
+    border: 1px solid var(--glassb) !important; color: var(--fg) !important; }
+  #group { padding: 4px; border-radius: 26px; }
+  #group button, #group .where { color: var(--fg); font-weight: 600; padding: 8px 12px; }
+  #group button.on { background: var(--accent); color: #fff; }
+  #group .sep { background: var(--glassb); }
+  .fab { width: 50px; height: 50px; box-shadow: 0 8px 22px rgba(0,0,0,.45); }
+  #add { background: var(--accent) !important; border-color: var(--accent) !important; }
+  #locate.active { color: #93c5fd !important; } #locate.follow { background: var(--me) !important; color: #fff !important; }
+  #itinBtn.on, #tourBtn.on { background: var(--accent) !important; color: #fff !important; }
+  #sheet { border-radius: 26px 26px 0 0; box-shadow: 0 -8px 30px rgba(0,0,0,.45); }
+  @media (min-width: 800px) { #sheet { border-radius: 26px; } }
+  #sheet .grip { background: #fff; opacity: .3; }
+  #search { background: var(--soft); border: 0; border-radius: 14px; padding: 10px 14px; }
+  #search::placeholder { color: var(--muted); }
+  #chips button, #chips2 button, #chips2 select, #area { background: var(--soft); border: 0; color: var(--fg); font-weight: 600; padding: 7px 13px; }
+  #chips button.on, #chips2 button.on, #chips2 select.on { background: var(--accent); color: #fff; }
+  #view { border: 0; background: var(--soft); border-radius: 14px; }
+  #view button.on { background: var(--accent); color: #fff; }
+  #view button[data-v="area"] { border-right-color: var(--glassb); }
+  #list li { border-top-color: var(--line); }
+  #list img, .noimg { border-radius: 12px; }
+  #list .t { font-weight: 700; }
+  #list .d { color: #93c5fd; }
+  #list.grid { gap: 8px; padding: 6px 10px 12px; }
+  #list.grid li.gi { border-radius: 16px; }
+  #list.grid li.gi .cap2 { font-weight: 700; padding: 26px 10px 8px; background: linear-gradient(transparent, rgba(0,0,0,.85)); }
+  .leaflet-container { background: #1b1b20; }
+  .leaflet-bar a, .leaflet-control-layers-toggle { background-color: transparent !important; color: var(--fg) !important; border-color: var(--glassb) !important; }
+  .leaflet-control-layers-expanded { color: var(--fg); }
+  .leaflet-control-attribution { background: rgba(0,0,0,.4) !important; color: #888 !important; } .leaflet-control-attribution a { color: #aaa !important; }
+  /* OpenStreetMap dunkel einfärben (Satellit bleibt natürlich) */
+  html[data-mapdark="1"] #map.dark-osm .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.92) contrast(.88) saturate(.5); }
+  /* Pins: Foto-Kacheln; Reiseplan-Stopps pink mit Uhrzeit */
+  .pin { width: 40px; height: 40px; border-radius: 12px; border: 2px solid #fff; box-shadow: 0 6px 14px rgba(0,0,0,.55); background-color: #2a2a31; position: relative; }
+  .pin.plan { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(225,48,108,.4), 0 6px 14px rgba(0,0,0,.55); }
+  .pin .ptag { position: absolute; left: -2px; right: -2px; bottom: -2px; background: var(--accent); color: #fff; font: 700 9px/13px system-ui, sans-serif;
+    text-align: center; border-radius: 0 0 10px 10px; white-space: nowrap; overflow: hidden; }
+  .pin.claude { border-color: #a78bfa; }
+  .pin.mine { background-color: #f59e0b; } .pin.henge { background-color: #fde68a; color: #111; }
+  .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background: rgba(225,48,108,.3) !important; border-radius: 16px !important; }
+  .marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div { border-radius: 12px !important; }
+  .hotel-pin { background: #17171c; color: #fff; border-color: #5eead4; }
+  .tour-stop span { background: rgba(22,22,28,.88); color: #fff; }
+  /* Spot-Karte */
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card) !important; color: var(--fg) !important; }
+  .leaflet-popup-content-wrapper { border-radius: 24px; box-shadow: 0 18px 50px rgba(0,0,0,.6); }
+  .pop .pnav { background: var(--glass); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+  .pop .pnav button { background: var(--soft); border: 0; color: var(--fg); border-radius: 14px; }
+  .pop .pnav button.pclose { background: var(--soft); color: var(--fg); }
+  .pop .pnav span, .pop .pnav .spotnum { color: var(--muted); }
+  .pop img { background: #222; }
+  .pop .b { padding: 12px 16px 16px; }
+  .pop .kick { color: var(--accent); font-weight: 700; font-size: 12.5px; letter-spacing: .5px; text-transform: uppercase; margin: 2px 0 2px; }
+  .pop h3 { font: 700 25px/1.12 "New York", "Iowan Old Style", Georgia, serif; letter-spacing: -.3px; margin: 2px 0 8px; }
+  .pop .meta, .pop .addr, .pop .credit, .pop .credit a, .pop .generic, .pop .popularity small { color: var(--muted) !important; }
+  .pop .note, .pop .cap, .pop .status label { color: var(--fg); }
+  .pop .popularity { color: #fbbf24; }
+  .pop .status button { background: var(--soft); border: 0; color: var(--fg); padding: 5px 11px; }
+  .pop .status button.fav.on { background: rgba(225,48,108,.2); color: #ff5c93; }
+  .pop .status button.shot.on { background: rgba(22,163,74,.25); }
+  .pop .links { gap: 8px; }
+  .pop .links a, .pop .links button { background: var(--soft) !important; color: var(--fg) !important; border: 0; border-radius: 14px !important; padding: 10px 8px !important; font-weight: 600; }
+  .pop .links a.go { background: var(--accent) !important; color: #fff !important; flex: 1.6; font-size: 14.5px; }
+  .pop .links a.ig { background: rgba(225,48,108,.2) !important; color: #ff8fb4 !important; }
+  .pop .links button.del { color: #fca5a5 !important; }
+  .pop .phototip { background: rgba(14,116,144,.22); color: #a5f3fc; }
+  .pop .claude-note { background: rgba(124,58,237,.22); color: #ddd6fe; }
+  .pop .unsure-note, .pop .approx { background: rgba(245,158,11,.18); color: #fcd34d; }
+  .pop .ok-note { background: rgba(22,163,74,.2); color: #86efac; }
+  .pop .xlinks { background: var(--soft); }
+  .galgrid figure { border-radius: 10px; background: #222; }
+  .pop .hero .pcount, .pop .hero .parrows { background: rgba(0,0,0,.5); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+  .pop .hero .pfav { background: rgba(0,0,0,.5); color: #ff5c93; }
+  .pop .hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 30%; pointer-events: none; background: linear-gradient(transparent, var(--card)); }
+  /* Fenster: Reiseplan, Touren, Inspiration, Hinzufügen */
+  #itin, #toursDlg, #insp, #addDlg, .tpcard { background: var(--bg) !important; }
+  #itin header button, #toursDlg header button, #insp header button, .tpclose { background: var(--soft) !important; color: var(--fg) !important; border-radius: 14px; }
+  #itin header b, #toursDlg header b, #insp header b { font: 700 24px "New York", Georgia, serif; }
+  #itinDays button, #itinOpt button, #inspFilter button { background: var(--soft); border: 0; }
+  #itinDays button.on, #itinOpt button.on, #inspFilter button.on { background: var(--accent); color: #fff; }
+  #itinDays button.today:not(.on) { box-shadow: inset 0 0 0 1.5px var(--accent); }
+  .imapb { background: var(--accent); border-radius: 16px; }
+  .icard { background: var(--card); border: 0; border-radius: 20px; }
+  .ic.opt .icard { border: 1.5px dashed #a78bfa; }
+  .isun span { background: var(--soft); }
+  .icard .iact a, .icard .iact button, .tbtn, .tcard { border-color: var(--line); }
+  .b-plan { background: rgba(225,48,108,.2); color: #ff8fb4; } .b-ig { background: rgba(225,48,108,.12); color: #fda4c4; }
+  .b-cl, .b-opt { background: rgba(124,58,237,.22); color: #ddd6fe; } .b-hotel { background: rgba(20,184,166,.18); color: #99f6e4; }
+  .tcard.on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+  #toast { border-radius: 14px; }
+
+
+  /* ---------- Hell (folgt automatisch der Systemeinstellung) ---------- */
+  html[data-theme="light"] { --bg: #f4f4f6; --card: #ffffff; --fg: #111114; --muted: #6b6b74; --line: rgba(0,0,0,.08);
+      --glass: rgba(255,255,255,.8); --glassb: rgba(0,0,0,.07); --soft: rgba(0,0,0,.05); --panel: #ffffff;
+      --shadow: 0 10px 30px rgba(0,0,0,.14); color-scheme: light; }
+  html[data-theme="light"] .leaflet-container { background: #e9e9ec; }
+  html[data-theme="light"] #sheet { box-shadow: 0 -8px 30px rgba(0,0,0,.12); }
+  html[data-theme="light"] #sheet .grip { background: #000; opacity: .2; }
+  html[data-theme="light"] .fab { box-shadow: 0 8px 22px rgba(0,0,0,.18); }
+  html[data-theme="light"] #dock { box-shadow: 0 10px 30px rgba(0,0,0,.15); }
+  html[data-theme="light"] #list .d { color: #2563eb; }
+  html[data-theme="light"] .pin { box-shadow: 0 6px 14px rgba(0,0,0,.3); }
+  html[data-theme="light"] .hotel-pin { background: #fff; color: #111; border-color: #0d9488; }
+  html[data-theme="light"] .tour-stop span { background: rgba(255,255,255,.95); color: #111; }
+  html[data-theme="light"] .leaflet-popup-content-wrapper { box-shadow: 0 18px 50px rgba(0,0,0,.22); }
+  html[data-theme="light"] .pop img, html[data-theme="light"] .galgrid figure { background: #e5e5ea; }
+  html[data-theme="light"] .pop .popularity { color: #b45309; }
+  html[data-theme="light"] .pop .links a.ig { color: #be185d !important; }
+  html[data-theme="light"] .pop .links button.del { color: #b91c1c !important; }
+  html[data-theme="light"] .pop .status button.fav.on { color: #e1306c; }
+  html[data-theme="light"] .pop .phototip { background: #ecfeff; color: #155e75; }
+  html[data-theme="light"] .pop .claude-note { background: #ede9fe; color: #5b21b6; }
+  html[data-theme="light"] .pop .unsure-note, html[data-theme="light"] .pop .approx { background: #fef3c7; color: #92400e; }
+  html[data-theme="light"] .pop .ok-note { background: #dcfce7; color: #166534; }
+  html[data-theme="light"] .pop .hero .pfav { background: rgba(255,255,255,.85); color: #e1306c; }
+  html[data-theme="light"] .b-plan { background: #fde7ef; color: #9d1747; }
+  html[data-theme="light"] .b-ig { background: #fce7f3; color: #9d174d; }
+  html[data-theme="light"] .b-cl, html[data-theme="light"] .b-opt { background: #ede9fe; color: #5b21b6; }
+  html[data-theme="light"] .b-hotel { background: #ccfbf1; color: #115e59; }
+  html[data-theme="light"] .leaflet-control-attribution { background: rgba(255,255,255,.7) !important; color: #666 !important; }
+  html[data-theme="light"] .leaflet-control-attribution a { color: #444 !important; }
+  /* ---------- Symbolleiste unten (Karte · Plan · Touren · Inspiration · Merkliste) ---------- */
+  #dock { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 12px); z-index: 2700; height: 62px;
+    border-radius: 31px; display: flex; gap: 2px; padding: 6px; background: var(--glass); -webkit-backdrop-filter: blur(18px) saturate(1.4);
+    backdrop-filter: blur(18px) saturate(1.4); border: 1px solid var(--glassb); box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+  #dock button { width: 56px; height: 50px; border-radius: 25px; border: 0; background: transparent; color: var(--muted); display: grid; place-items: center; cursor: pointer; padding: 0; }
+  #dock button svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+  #dock button.on { background: var(--accent); color: #fff; }
+  #dock button.dot { position: relative; } #dock button.dot::after { content: ""; position: absolute; top: 9px; right: 13px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+  #dock button.on.dot::after { background: #fff; }
+  @media (min-width: 800px) { #dockbg { display: none; } }
+  #itinBtn, #tourBtn, #view #inspBtn { display: none !important; }
+  @media (max-width: 799px) {
+    /* Leiste sitzt direkt über dem Home-Balken, Liste schließt nahtlos an – kein leerer Streifen */
+    :root { --dockB: max(4px, calc(env(safe-area-inset-bottom) - 16px)); --dockH: calc(var(--dockB) + 66px); }
+    #dock { bottom: var(--dockB); background: transparent; border: 0; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; }
+    #sheet { bottom: var(--dockH); padding-bottom: 0; height: calc(88svh - var(--dockH)); border-radius: 26px 26px 0 0; }
+    #locate { bottom: calc(var(--dockH) + 86px); } #add { bottom: calc(var(--dockH) + 146px); }
+    body.popup-open #dock, body.popup-open #dockbg { opacity: 0; pointer-events: none; }
+    #dockbg { position: fixed; left: 0; right: 0; bottom: 0; height: var(--dockH); z-index: 1002; background: var(--panel);
+      transition: opacity .18s ease; }
+    #dock { transition: opacity .18s ease; }
+  }
+  #itinBody, #toursBody, #inspBody { padding-bottom: calc(env(safe-area-inset-bottom) + 96px) !important; }
+  /* ---------- Spot-Ansicht „Vollbild“ (Handy; Standard ist „Mittel“, dazu „Klein“) ---------- */
+  @media (max-width: 799px) {
+    .leaflet-popup.card.full { left: 0 !important; top: 0 !important; transform: none !important; width: 100vw; }
+    .leaflet-popup.card.full .leaflet-popup-content-wrapper { border-radius: 0; box-shadow: none; }
+    /* volle Höhe (iOS-Web-App: svh endet um die Statusleisten-Höhe zu früh) und immer selbst scrollbar */
+    .leaflet-popup.card.full .leaflet-popup-content { width: 100vw !important; height: 100vh; height: calc(100svh + env(safe-area-inset-top)) !important;
+      max-height: none !important; overflow-y: auto !important; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+    body.popup-full #group { opacity: 0; pointer-events: none; }
+    #group { transition: opacity .18s ease; }
+    .leaflet-popup.card.full .pop .pnav { height: calc(env(safe-area-inset-top) + 60px); margin-bottom: calc(-1 * (env(safe-area-inset-top) + 60px));
+      padding: calc(env(safe-area-inset-top) + 8px) 12px 8px; align-items: center; background: linear-gradient(rgba(0,0,0,.5), transparent);
+      -webkit-backdrop-filter: none; backdrop-filter: none; border: 0; }
+    .leaflet-popup.card.full .pop .pnav button { width: 44px; height: 44px; border-radius: 22px; background: rgba(20,20,26,.55); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); color: #fff; }
+    .leaflet-popup.card.full .pop .pnav .spotnum { background: rgba(20,20,26,.55); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); color: #e4e4e7; padding: 6px 12px; border-radius: 999px; }
+    .leaflet-popup.card.full .pop .hero img { height: 66vh; height: 66svh; aspect-ratio: auto; object-fit: cover; }
+    .leaflet-popup.card.full .pop .hero .pcount, .leaflet-popup.card.full .pop .hero .parrows { display: none; }
+    .leaflet-popup.card.full .pop .hero::after { height: 45%; }
+    .leaflet-popup.card.full .pop .pbars { position: absolute; left: 12px; right: 12px; top: calc(env(safe-area-inset-top) + 64px); display: flex; gap: 4px; z-index: 3; pointer-events: none; }
+    .leaflet-popup.card.full .pop .pbars i { flex: 1; height: 3px; border-radius: 2px; background: rgba(255,255,255,.35); }
+    .leaflet-popup.card.full .pop .pbars i.on { background: #fff; }
+    .leaflet-popup.card.full .pop .credit { position: relative; margin-top: -26px; z-index: 2; }
+    .leaflet-popup.card.full .pop .b { padding-bottom: calc(env(safe-area-inset-bottom) + 24px); }
+    .leaflet-popup.card.full .pop .pfav { top: calc(env(safe-area-inset-top) + 76px); }
+  }
+  .pop .pbars { display: none; }
+  @media (max-width: 799px) { .leaflet-popup.card.full .pop .pbars { display: flex; } }
+
+  body.no-hotels .leaflet-marker-icon:has(.hotel-pin) { display: none; }
+  body.pins-big .pin { transform: scale(1.3); }
+  #dock button { width: 52px; }
+  #settings { position: fixed; inset: 0; z-index: 2500; background: var(--bg); color: var(--fg); display: flex; flex-direction: column; }
+  #settings[hidden] { display: none; }
+  @media (min-width: 800px) { #settings { left: auto; width: 420px; box-shadow: var(--shadow); } }
+  #settings header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 16px 8px; }
+  #settings header b { flex: 1; font: 700 24px "New York", Georgia, serif; }
+  #settings header button { width: 38px; height: 34px; border-radius: 14px; border: 0; background: var(--soft); color: var(--fg); font-size: 17px; cursor: pointer; }
+  #setBody { flex: 1; overflow-y: auto; padding: 4px 16px calc(env(safe-area-inset-bottom) + 100px); }
+  .sgrp { margin: 14px 0 6px; font-size: 12.5px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--accent); }
+  .scard { background: var(--card); border-radius: 18px; padding: 4px 14px; }
+  .srow { padding: 12px 0; } .srow + .srow { border-top: 1px solid var(--line); }
+  .srow > b { display: block; font-size: 15.5px; margin-bottom: 8px; } .srow > small { display: block; color: var(--muted); font-size: 12.5px; margin-top: 6px; }
+  .seg2 { display: flex; background: var(--soft); border-radius: 12px; padding: 3px; gap: 2px; }
+  .seg2 button { flex: 1; border: 0; background: transparent; color: var(--fg); padding: 8px 4px; border-radius: 10px; font-size: 13.5px; font-weight: 600; cursor: pointer; }
+  .seg2 button.on { background: var(--accent); color: #fff; }
+
+  .pop .pnav .pmini { display: grid; place-items: center; }
+  .leaflet-popup.mini .pnav .pmini { display: none !important; }
+  .pop .pnav .pfull { display: grid; place-items: center; }
+  @media (max-width: 799px) { .leaflet-popup.card .leaflet-popup-content { overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; } }
+  @media (min-width: 800px) { .pop .pnav .pfull { display: none; } }
+  /* verkleinerte Story (Handy): kleine Karte oben, Karte/Liste/Leiste wieder sichtbar */
+  @media (max-width: 799px) {
+    .leaflet-popup.card.mini { left: 10px !important; right: 10px !important; width: auto; transform: none !important; top: calc(env(safe-area-inset-top) + 8px) !important; }
+    .leaflet-popup.card.mini .leaflet-popup-content-wrapper { border-radius: 20px; box-shadow: 0 12px 34px rgba(0,0,0,.45); }
+    .leaflet-popup.card.mini .leaflet-popup-content { width: calc(100vw - 20px) !important; height: auto !important; }
+    .leaflet-popup.card.mini .pop .pnav { height: 52px; margin-bottom: -52px; padding: 6px 8px; }
+    .leaflet-popup.card.mini .pop .pnav button { width: 38px; height: 38px; }
+    .leaflet-popup.card.mini .pop .pbars, .leaflet-popup.card.mini .pop .hero::after { display: none; }
+    .leaflet-popup.card.mini .pop .b { padding: 8px 14px 12px; }
+    .leaflet-popup.card.mini .pop .kick { display: none; }
+    body.popup-mini #sheet, body.popup-mini #dock, body.popup-mini #dockbg, body.popup-mini #locate, body.popup-mini #add { opacity: 1 !important; pointer-events: auto !important; }
+  }
+  /* ---------- Spot-Inhalt (Design B): Titel, Infozeile, Licht, Aktionen, Fotoreihe; Rest unter „⋯“ ---------- */
+  .pop .mline { display: flex; flex-wrap: wrap; gap: 3px 12px; align-items: center; color: var(--muted); font-size: 13.5px; margin: 0 0 12px; }
+  .pop .mline span { white-space: nowrap; }
+  .pop .mline .mtag { background: var(--soft); color: var(--fg); border-radius: 999px; padding: 2px 9px; font-size: 12px; font-weight: 600; }
+  .pop .mline .mtag.cl { background: rgba(124,58,237,.22); color: #ddd6fe; }
+  .pop .lightB { display: flex; background: var(--soft); border-radius: 16px; padding: 10px 4px; margin: 0 0 12px; }
+  .pop .lightB > div { flex: 1; text-align: center; min-width: 0; }
+  .pop .lightB > div + div { border-left: 1px solid var(--line); }
+  .pop .lightB small { display: block; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .4px; }
+  .pop .lightB b { display: block; font-size: 16px; margin-top: 2px; white-space: nowrap; }
+  .pop .lightB .pk b { color: var(--accent); }
+  .pop .status.sv2 { display: block; margin: 0 0 14px; }
+  .pop .actB { display: flex; gap: 8px; align-items: stretch; }
+  .pop .actB .go { flex: 1; display: grid; place-items: center; background: var(--accent); color: #fff !important; text-decoration: none; font-weight: 700; font-size: 15px;
+    border-radius: 16px; min-height: 48px; }
+  .pop .status.sv2 .actB button { width: 48px; height: 48px; padding: 0; border-radius: 16px; background: var(--soft); color: var(--fg); border: 0; font-size: 20px;
+    display: grid; place-items: center; filter: none; opacity: 1; margin: 0; flex: none; }
+  .pop .status.sv2 .actB button.fav { color: var(--muted); }
+  .pop .status.sv2 .actB button.fav.on { background: rgba(225,48,108,.2); color: #ff5c93; }
+  .pop .status.sv2 .actB button.shot { color: var(--muted); font-weight: 700; }
+  .pop .status.sv2 .actB button.shot.on { background: rgba(22,163,74,.28); color: #4ade80; }
+  .pop .status.sv2 .actB button.shot.on::after { content: none; }
+  .pop .status.sv2 .actB button.pmore.on { background: var(--fg); color: var(--bg); }
+  .pop .more { margin-top: 10px; background: var(--soft); border-radius: 16px; padding: 10px; }
+  .pop .more[hidden] { display: none; }
+  .pop .more .mlab { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .4px; margin: 0 2px 6px; }
+  .pop .more .seg2 { background: var(--bg); }
+  .pop .more .seg2 button { border: 0; border-radius: 10px; padding: 8px 4px; font-size: 13px; }
+  .pop .more .seg2 button.on[data-prio="nein"] { background: #52525b; }
+  .pop .more .links { margin: 10px 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .pop .more .links > * { background: var(--bg) !important; padding: 10px 6px !important; font-size: 13px; text-align: center; }
+  .pop .more .addr { margin: 10px 2px 0; font-size: 12.5px; }
+  .pop .phototip, .pop .note, .pop .unsure-note, .pop .approx, .pop .ok-note, .pop .popr { border-radius: 14px; padding: 11px 13px; margin: 0 0 12px; font-size: 14px; line-height: 1.45; }
+  .pop .phototip { background: var(--soft); color: var(--fg); border-left: 3px solid var(--accent); }
+  .pop .phototip .tl { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .4px; color: var(--accent); margin-bottom: 3px; }
+  .pop .note { padding: 0 2px; }
+  .pop .popr { padding: 0 2px; color: var(--muted); font-size: 13px; }
+  .pop .galhead { margin: 2px 2px 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .4px; color: var(--muted); }
+  .pop .galhead .galn { color: var(--muted); font-weight: 700; }
+  .pop .galgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin: 0 0 14px; }
+  .pop .galgrid figure { aspect-ratio: 1; border-radius: 12px; }
+  .pop .galgrid .gwho { font-size: 10px; }
+  .pop .galgrid .gdel, .pop .galgrid .ginsp { display: none; }
+  .pop .status.sv2:has(.more:not([hidden])) ~ .galgrid .gdel, .pop .status.sv2:has(.more:not([hidden])) ~ .galgrid .ginsp { display: grid; }
+  .pop .galgrid .ginsp.on { display: grid; }
+  .leaflet-popup.card:not(.full):not(.mini) .pop .pnav { background: var(--card); }
+  .leaflet-popup.card.mini .pop .pnav { background: transparent; border: 0; -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .leaflet-popup.card.mini .pop .pnav button { background: rgba(20,20,26,.55); color: #fff; }
+  .leaflet-popup.card.full.scrolled .pop .pnav { background: var(--card); border-bottom: 1px solid var(--line); }
+  .leaflet-popup.card.full.scrolled .pop .pnav button, .leaflet-popup.card.full.scrolled .pop .pnav .spotnum { background: var(--soft); color: var(--fg); }
+  .leaflet-popup.card.full .pop .hcred { font-size: 11px; padding: 0 16px; }
+  .leaflet-popup.mini .pop .mline, .leaflet-popup.mini .pop .lightB, .leaflet-popup.mini .pop .status.sv2 { display: none; }
+  html[data-theme="light"] .pop .mline .mtag.cl { background: #ede9fe; color: #5b21b6; }
+  html[data-theme="light"] .pop .status.sv2 .actB button.shot.on { background: #dcfce7; color: #15803d; }
+  html[data-theme="light"] .pop .phototip { background: var(--soft); color: var(--fg); }
+  /* Tagesroute auf der Karte: zierlichere Beschriftung */
+  .tour-stop { transform: translate(-11px, -11px); gap: 3px; }
+  .tour-stop b { width: 22px !important; height: 22px !important; font: 600 11px/1 system-ui, sans-serif !important; border-width: 1.5px !important; box-shadow: 0 1px 3px rgba(0,0,0,.3) !important; }
+  .tour-stop span { font: 500 10.5px/1.35 system-ui, sans-serif !important; padding: 1px 6px !important; border-radius: 8px !important; max-width: 150px; overflow: hidden; text-overflow: ellipsis;
+    background: rgba(255,255,255,.88) !important; color: #1f2937 !important; box-shadow: 0 1px 2px rgba(0,0,0,.2) !important; }
+  html[data-mapdark="1"] .tour-stop span { background: rgba(24,24,30,.82) !important; color: #e5e7eb !important; }
+  .leg-time { font: 600 10px/1.3 system-ui, sans-serif !important; padding: 0 5px !important; border-width: 1px !important; border-radius: 8px !important; box-shadow: 0 1px 2px rgba(0,0,0,.25) !important; opacity: .92; }
+  /* ---------- Symbolleiste senkrecht am rechten Rand, ein-/ausklappbar ---------- */
+  #dock { left: auto !important; right: 10px; top: 50%; bottom: auto !important; transform: translateY(-50%); flex-direction: column; height: auto; gap: 2px;
+    padding: 5px; border-radius: 28px; background: var(--glass) !important; border: 1px solid var(--glassb) !important; box-shadow: 0 10px 30px rgba(0,0,0,.35) !important;
+    -webkit-backdrop-filter: blur(18px) saturate(1.4) !important; backdrop-filter: blur(18px) saturate(1.4) !important; transition: transform .25s ease, opacity .18s ease; }
+  #dock button { width: 46px !important; height: 46px; border-radius: 23px; }
+  #dock button svg { width: 22px; height: 22px; }
+  #dock button.dot::after { top: 7px; right: 8px; }
+  #dock .dhide { height: 30px; color: var(--muted); }
+  #dock .dhide svg { width: 18px; height: 18px; }
+  body.dock-hidden #dock { transform: translate(calc(100% + 16px), -50%); pointer-events: none; }
+  #dockTab { position: fixed; right: 0; top: 50%; transform: translate(100%, -50%); z-index: 2700; width: 26px; height: 64px; border: 1px solid var(--glassb); border-right: 0;
+    border-radius: 14px 0 0 14px; background: var(--glass); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); color: var(--fg); padding: 0; display: grid; place-items: center;
+    cursor: pointer; transition: transform .25s ease, opacity .18s ease; box-shadow: 0 6px 18px rgba(0,0,0,.3); }
+  #dockTab svg, #dock .dhide svg { fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+  #dockTab svg { width: 18px; height: 18px; }
+  body.dock-hidden #dockTab { transform: translate(0, -50%); }
+  #dockbg { display: none !important; }
+  @media (max-width: 799px) {
+    :root { --dockH: 0px; }
+    #sheet { padding-bottom: env(safe-area-inset-bottom); height: 88svh; }
+    #locate { bottom: calc(env(safe-area-inset-bottom) + 92px); } #add { bottom: calc(env(safe-area-inset-bottom) + 152px); }
+    #dock { top: 46%; }
+    body.popup-open #dockTab { opacity: 0; pointer-events: none; }
+    body.popup-mini #dockTab { opacity: 1; pointer-events: auto; }
+  }
+  /* Prognose */
+  .fcbox { background: var(--soft); border-radius: 16px; padding: 10px 12px; margin: 0 0 12px; }
+  .fct { font-size: 11px; text-transform: uppercase; letter-spacing: .4px; color: var(--muted); display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px; }
+  .fct small { text-transform: none; letter-spacing: 0; }
+  .fcrow + .fcrow { border-top: 1px solid var(--line); margin-top: 6px; padding-top: 6px; }
+  .fch { font-size: 12px; font-weight: 700; color: var(--accent); }
+  .fcm { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 10px; font-size: 13px; color: var(--fg); margin-top: 2px; }
+  .fcm b { font-size: 15px; } .fci { font-size: 18px; }
+  .fcm .hz { border-radius: 999px; padding: 1px 8px; font-size: 12px; font-weight: 600; }
+  .hz.ok { background: rgba(22,163,74,.22); color: #86efac; } .hz.mid { background: rgba(245,158,11,.2); color: #fcd34d; } .hz.bad { background: rgba(220,38,38,.2); color: #fca5a5; }
+  html[data-theme="light"] .hz.ok { background: #dcfce7; color: #166534; } html[data-theme="light"] .hz.mid { background: #fef3c7; color: #92400e; } html[data-theme="light"] .hz.bad { background: #fee2e2; color: #991b1b; }
+  .fcs { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+  .icard .fcbox { margin: 8px 0; }
+  .leaflet-popup.mini .pop .fcbox { display: none; }
+  /* Liste aufgezogen → Leiste weg (nur Griff); Leiste geholt → Liste klappt ein */
+  @media (max-width: 799px) {
+    body.dock-auto #dock { transform: translate(calc(100% + 16px), -50%); pointer-events: none; }
+    body.dock-auto #dockTab { transform: translate(0, -50%); }
+    #dockTab { top: 30%; }
+    body.dock-auto #dockTab { top: 30%; }
+  }
 </style>
 </head>
 <body>
@@ -397,10 +837,21 @@
 </div>
 <div id="map"></div>
 <div id="group" role="tablist" aria-label="Bereich">
-  <label class="where"><span id="whereLbl">🧭 Route</span><select id="where" aria-label="Bereich wählen">
-    <option value="route">🧭 Route</option><option value="hk">🇭🇰 Hongkong</option><option value="cn">🇨🇳 China</option><option value="all">🌏 Alles</option></select></label>
-  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button>
+  <button class="where" id="whereBtn" type="button" aria-label="Bereich wählen"><span id="whereLbl">🧭 Route</span></button>
+  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-nltop>📍 Ohne Ort</button>
 </div>
+<div id="dockbg"></div>
+<nav id="dock" aria-label="Bereiche">
+  <button data-d="map" class="on" aria-label="Karte" title="Karte"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></button>
+  <button data-d="plan" aria-label="Reiseplan" title="Reiseplan"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></button>
+  <button data-d="tours" aria-label="Touren" title="Touren"><svg viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.5"/></svg></button>
+  <button data-d="insp" aria-label="Inspiration" title="Inspiration"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg></button>
+  <button data-d="fav" aria-label="Merkliste" title="Merkliste (Favoriten)"><svg viewBox="0 0 24 24"><path d="M12 21C5 15.5 3 12.5 3 9a4.5 4.5 0 0 1 9-1 4.5 4.5 0 0 1 9 1c0 3.5-2 6.5-9 12z"/></svg></button>
+  <button data-d="set" aria-label="Einstellungen" title="Einstellungen"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+  <button class="dhide" aria-label="Leiste ausblenden" title="Leiste ausblenden"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+</nav>
+<button id="dockTab" aria-label="Leiste einblenden" title="Leiste einblenden"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+<button id="itinBtn" class="fab" title="Reiseplan" aria-label="Reiseplan" hidden>📅</button>
 <button id="tourBtn" class="fab" title="Touren" aria-label="Touren" hidden>🧭</button>
 <button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
 <button id="add" class="fab" title="Spot hinzufügen" aria-label="Spot hinzufügen">+</button>
@@ -470,8 +921,19 @@
   <div id="toursBody"></div>
 </div>
 <div id="tourPick" hidden></div>
+<div id="settings" hidden role="dialog" aria-label="Einstellungen">
+  <header><b>Einstellungen</b><button id="setClose" aria-label="Schließen">✕</button></header>
+  <div id="setBody"></div>
+</div>
+<div id="itin" hidden role="dialog" aria-label="Reiseplan">
+  <header><b>📅 Reiseplan</b><button id="itinClose" aria-label="Schließen">✕</button></header>
+  <div id="itinDays"></div>
+  <div id="itinOpt"><button data-o="0">★ Nur Reiseplan</button><button data-o="1">＋ Optionale Spots</button></div>
+  <div id="itinBody"></div>
+</div>
 <div id="insp" hidden role="dialog" aria-label="Inspiration">
   <header><b>💡 Inspiration</b><span id="inspSub"></span><button id="inspClose" aria-label="Schließen">✕</button></header>
+  <div id="inspFilter"></div>
   <div id="inspBody"></div>
 </div>
 <div id="lb" hidden>
@@ -495,8 +957,11 @@
     return p.lat > 18 && p.lat < 54 && p.lng > 73 && p.lng < 135 && !hk && !mo && !(p.lng > 119.3 && p.lat < 25.5);
   };
   window.LAST_POS = (() => { try { return JSON.parse(localStorage.getItem("lastPos") || "null"); } catch { return null; } })();
+  // Kartenanbieter: URL-Parameter gehen vor, sonst Einstellung (auto/google/osm/rotate)
+  window.MAPQ = (() => { const q = location.search; if (/[?&](google|klassisch|drehbar)\b/.test(q)) return q;
+    return q + ({ google: "&google", osm: "&klassisch", rotate: "&drehbar" }[(window.SETTINGS || {}).engine] || ""); })();
   window.GMAP_MODE = (() => {
-    const q = location.search;
+    const q = MAPQ;
     if (/[?&]google\b/.test(q)) return true;
     if (/[?&](klassisch|drehbar)\b/.test(q)) return false;
     return !inMainland(LAST_POS);
@@ -506,13 +971,25 @@
 </script>
 <script>
   // Variante mit drehbarer Karte: …/insta_map/?drehbar (bzw. rotate.html) – OpenStreetMap/Satellit statt Google, mit zwei Fingern drehbar
-  if (/[?&]drehbar/.test(location.search) && !GMAP_MODE) document.write('<script src="https://cdn.jsdelivr.net/npm/leaflet-rotate@0.2.8/dist/leaflet-rotate.min.js"><\/script>');
+  if (/[?&]drehbar/.test(MAPQ) && !GMAP_MODE) document.write('<script src="https://cdn.jsdelivr.net/npm/leaflet-rotate@0.2.8/dist/leaflet-rotate.min.js"><\/script>');
 </script>
 <script>
   // Neue Version der Seite? Hinweis zeigen (kein automatisches Neuladen).
   // Vergleich über die Inline-Skripte: die ändert JavaScript nie, anders als das DOM.
   // Offline-Fähigkeit (App auf dem Home-Bildschirm)
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+  // Eigene Fotos (uploads/…): Fällt die Seiten-Kopie aus (noch nicht veröffentlicht), direkt aus dem Repo laden
+  document.addEventListener("error", e => {
+    const img = e.target; if (!img || img.tagName !== "IMG") return;
+    const src = img.getAttribute("src") || "", n = +(img.dataset.fb || 0);
+    if (!/^uploads\//.test(src.replace(location.origin + location.pathname.replace(/[^/]*$/, ""), "")) && !img.dataset.up) return;
+    const path = img.dataset.up || src.replace(/^.*?(uploads\/)/, "$1"); img.dataset.up = path;
+    const alts = [`https://raw.githubusercontent.com/mrhode-jnw/insta_map/claude/sweet-mayer-wqdght/${path}`,
+      `https://raw.githubusercontent.com/mrhode-jnw/insta_map/map-data/${path}`, `https://cdn.jsdelivr.net/gh/mrhode-jnw/insta_map@map-data/${path}`];
+    if (n < alts.length) { img.dataset.fb = n + 1; img.src = alts[n]; }
+  }, true);
+  // iOS ignoriert user-scalable=no: Seiten-Zoom per Zwei-Finger-Geste außerhalb der Karte unterbinden
+  document.addEventListener("gesturestart", e => { if (!e.target.closest || !e.target.closest("#map, #lb")) e.preventDefault(); }, { passive: false });
   // Prüfen beim Start, beim Zurückkehren in die App (iOS hält installierte Apps im Hintergrund) und alle 10 Minuten
   async function checkUpdate() {
     try {
@@ -540,17 +1017,32 @@
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
   const v = Date.now();
-  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script>`);
+  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script>`);
 </script>
 <script src="crypto.js"></script>
 <script>
 function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const places = [...(window.PLACES || []), ...(window.PLACES_CN || [])].filter(p => isFinite(p.lat) && isFinite(p.lng));
+  // Posts ohne konkreten Ort: als Pin in der Mitte ihrer Region (nur sichtbar, wenn man sie in der Liste antippt)
+  const NL_CENTER = { hk: [22.3027, 114.1772], sz: [22.5431, 114.0579], gl: [24.7788, 110.4965], gz: [26.58, 106.71], zjj: [29.117, 110.479],
+    cq: [29.563, 106.551], sh: [31.2304, 121.4737], cnx: [31.0, 112.0] };
+  const NL_NAME = { hk: "Hongkong", sh: "Shanghai", cnx: "China" };
+  [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])].forEach((x, i) => {
+    const sub = x.sub || ((x.region || "hk") === "hk" ? "hk" : "cnx"), c = NL_CENTER[sub] || NL_CENTER.cnx;
+    const a = i * 2.4, r = 0.004 * Math.sqrt(i + 1);  // leicht versetzt, damit die Pins nicht exakt aufeinander liegen
+    const code = (x.url.match(/\/(?:p|reel|tv)\/([^/?]+)/) || [])[1] || String(i);
+    places.push({ id: "nl-" + code, noloc: true, nlsub: sub, approx: true, region: sub === "hk" ? "hk" : "cn",
+      name: `Post von @${x.username} – ohne genauen Ort`, category: "Ohne Ort", district: NL_NAME[sub] || "",
+      address: `${NL_NAME[sub] || ""} – genauer Ort unbekannt (Pin nur grob in der Region)`,
+      note: "Sammel-Post bzw. Post ohne konkreten Ort. Der Pin steht nur grob in der Mitte der Region.",
+      lat: c[0] + r * Math.cos(a), lng: c[1] + r * Math.sin(a), image: x.image, caption: x.caption || "",
+      post_url: x.url, username: x.username, profile_url: x.profile_url, posts: [x] });
+  });
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
   const GMAP = !!L.isGoogle;
-  const ROTATE = GMAP || (/[?&]drehbar/.test(location.search) && !!L.Map.prototype.setBearing);
+  const ROTATE = GMAP || (/[?&]drehbar/.test(MAPQ) && !!L.Map.prototype.setBearing);
   // Desktop (Maus/Trackpad): ohne Zoom-Animation, sonst laufen Pins und Google-Karte beim Zoomen auseinander
   const fineMouse = window.matchMedia && matchMedia("(hover: hover) and (pointer: fine)").matches;
   const map = L.map("map", { zoomControl: false, tap: true, tapHold: true, maxZoom: 21,
@@ -560,10 +1052,61 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 21, maxNativeZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   });
+  if (osm.on) osm.on("add", () => map.getContainer().classList.add("dark-osm")).on("remove", () => map.getContainer().classList.remove("dark-osm"));  // Design: dunkle Karte
+  // Kacheln nicht erreichbar (z. B. Hotel-WLAN in China sperrt openstreetmap.org)? → Esri-Straßenkarte, dann Gaode (高德)
+  if (osm.on) {
+    const wgs2gcj = (lat, lng) => {  // WGS84 → GCJ-02 (chinesisches Kartensystem)
+      const a = 6378245, ee = 0.00669342162296594323, x = lng - 105, y = lat - 35;
+      let dLat = -100 + 2 * x + 3 * y + .2 * y * y + .1 * x * y + .2 * Math.sqrt(Math.abs(x));
+      dLat += (20 * Math.sin(6 * x * Math.PI) + 20 * Math.sin(2 * x * Math.PI)) * 2 / 3 + (20 * Math.sin(y * Math.PI) + 40 * Math.sin(y / 3 * Math.PI)) * 2 / 3
+        + (160 * Math.sin(y / 12 * Math.PI) + 320 * Math.sin(y * Math.PI / 30)) * 2 / 3;
+      let dLng = 300 + x + 2 * y + .1 * x * x + .1 * x * y + .1 * Math.sqrt(Math.abs(x));
+      dLng += (20 * Math.sin(6 * x * Math.PI) + 20 * Math.sin(2 * x * Math.PI)) * 2 / 3 + (20 * Math.sin(x * Math.PI) + 40 * Math.sin(x / 3 * Math.PI)) * 2 / 3
+        + (150 * Math.sin(x / 12 * Math.PI) + 300 * Math.sin(x / 30 * Math.PI)) * 2 / 3;
+      const r = lat / 180 * Math.PI; let m = Math.sin(r); m = 1 - ee * m * m; const sm = Math.sqrt(m);
+      return [lat + dLat * 180 / ((a * (1 - ee)) / (m * sm) * Math.PI), lng + dLng * 180 / (a / sm * Math.cos(r) * Math.PI)];
+    };
+    const esri = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
+      maxZoom: 21, maxNativeZoom: 19, attribution: "Esri World Street Map" });
+    const gaode = L.tileLayer("https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}", {
+      subdomains: "1234", maxZoom: 21, maxNativeZoom: 18, attribution: "© 高德 AutoNavi" });
+    // Gaode-Kacheln sind ins GCJ-System verschoben: jede Kachel um den Versatz in Kartenmitte zurücksetzen (Pins sind WGS84)
+    gaode._shift = L.point(0, 0); gaode._shiftZ = null;
+    const gcjOffset = z => { const c = map.getCenter(), g = wgs2gcj(c.lat, c.lng);
+      return map.project(c, z).subtract(map.project(L.latLng(g[0], g[1]), z)).round(); };
+    gaode._getTiledPixelBounds = function (c) {
+      const b = L.TileLayer.prototype._getTiledPixelBounds.call(this, c);
+      return L.bounds(b.min.subtract(this._shift), b.max.subtract(this._shift)); };
+    gaode._getTilePos = function (c) { return L.TileLayer.prototype._getTilePos.call(this, c).add(this._shift); };
+    const gcjUpdate = () => { if (!map.hasLayer(gaode)) return;
+      const z = Math.round(map.getZoom()), s = gcjOffset(z);
+      if (gaode._shiftZ === z && s.distanceTo(gaode._shift) < 4) return;
+      gaode._shift = s; gaode._shiftZ = z; gaode.redraw(); };
+    map.on("moveend", gcjUpdate); gaode.on("add", () => { gaode._shiftZ = null; gcjUpdate(); });
+    [esri, gaode].forEach(l => l.on("add", () => map.getContainer().classList.add("dark-osm")).on("remove", () => map.getContainer().classList.remove("dark-osm")));
+    const CHAIN = [osm, esri, gaode];
+    let stamp = 0;
+    const watch = layer => {
+      let ok = 0, bad = 0; const my = ++stamp;
+      layer.on("tileload", () => ok++).on("tileerror", () => bad++);
+      setTimeout(() => {
+        if (my !== stamp || !map.hasLayer(layer) || ok > 0) return;
+        const next = CHAIN[CHAIN.indexOf(layer) + 1]; if (!next) return;
+        map.removeLayer(layer); next.addTo(map);
+        try { localStorage.setItem("tileBase", String(CHAIN.indexOf(next))); } catch {}
+        toast(`Kartenkacheln nicht erreichbar – wechsle zu ${next === esri ? "Esri" : "Gaode (高德)"}.`, 3500);
+      }, 7000);
+    };
+    CHAIN.forEach(l => l.on("add", () => watch(l)));
+    // zuletzt funktionierende Ausweich-Karte gleich nehmen
+    osm.on("add", () => { let i = 0; try { i = +localStorage.getItem("tileBase") || 0; } catch {}
+      if (i > 0 && CHAIN[i]) setTimeout(() => { if (map.hasLayer(osm)) { map.removeLayer(osm); CHAIN[i].addTo(map); } }, 0); });
+    osm.on("tileload", () => { try { localStorage.removeItem("tileBase"); } catch {} });
+  }
 
   // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
   // Google-Kacheln lassen sich nicht drehen; in Festland-China passt die Google-Straßenkarte nicht zu GPS/Spots → OpenStreetMap
-  const CN_OSM = inMainland(LAST_POS) && !/[?&]google\b/.test(location.search);
+  const CN_OSM = inMainland(LAST_POS) && !/[?&]google\b/.test(MAPQ);
   const gKey = ROTATE || CN_OSM ? "" : (unlockedKey || "").trim();
   if (GMAP) L.control.layers({ "Google Karte": "roadmap", "Google Satellit": "hybrid" }, null, { position: "topright" }).addTo(map);
   else if (ROTATE) {
@@ -571,6 +1114,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       maxZoom: 21, maxNativeZoom: 19, attribution: "Esri World Imagery" });
     L.control.layers({ "OpenStreetMap": osm, "Satellit": sat }, null, { position: "topright" }).addTo(map);
   }
+  // dunkler Google-Kartenstil passend zum Design
+  const GDARK = [{ elementType: "geometry", stylers: [{ color: "#1d1d22" }] }, { elementType: "labels.text.fill", stylers: [{ color: "#9a9aa3" }] },
+    { elementType: "labels.text.stroke", stylers: [{ color: "#111114" }] }, { featureType: "road", elementType: "geometry", stylers: [{ color: "#34343c" }] },
+    { featureType: "road.highway", elementType: "geometry", stylers: [{ color: "#4a4a54" }] }, { featureType: "water", elementType: "geometry", stylers: [{ color: "#0b1622" }] },
+    { featureType: "poi", stylers: [{ visibility: "off" }] }, { featureType: "landscape.natural", elementType: "geometry", stylers: [{ color: "#1f2420" }] },
+    { featureType: "transit", stylers: [{ visibility: "off" }] }];
   const loadScript = src => new Promise((ok, fail) => {
     const el = document.createElement("script"); el.src = src; el.onload = ok; el.onerror = fail; document.head.appendChild(el);
   });
@@ -580,16 +1129,18 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       Object.values(layers).forEach(l => map.removeLayer(l)); osm.addTo(map);
     };
     const layers = {};
-    loadScript(`https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(gKey)}&v=weekly&language=de`)
+    // In China hängt der Abruf oft nur (keine Fehlermeldung) → nach 8 s aufgeben
+    Promise.race([loadScript(`https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(gKey)}&v=weekly&language=de`),
+      new Promise((_, no) => setTimeout(() => no(new Error("timeout")), 8000))])
       .then(() => loadScript("https://cdn.jsdelivr.net/npm/leaflet.gridlayer.googlemutant@0.16.0/dist/Leaflet.GoogleMutant.js"))
       .then(() => {
-        layers["Google Karte"] = L.gridLayer.googleMutant({ type: "roadmap", maxZoom: 21 });
+        layers["Google Karte"] = L.gridLayer.googleMutant({ type: "roadmap", maxZoom: 21, ...(document.documentElement.dataset.mapdark === "1" ? { styles: GDARK } : {}) });
         layers["Google Satellit"] = L.gridLayer.googleMutant({ type: "hybrid", maxZoom: 21 });
         layers["OpenStreetMap"] = osm;
         layers["Google Karte"].addTo(map);
         L.control.layers(layers, null, { position: "topright" }).addTo(map);
       })
-      .catch(() => { toast("Google Maps konnte nicht geladen werden – zeige OpenStreetMap.", 5000); osm.addTo(map); });
+      .catch(() => { if (map.hasLayer(osm)) return; toast("Google Maps nicht erreichbar – zeige OpenStreetMap.", 4000); osm.addTo(map); });
   } else {
     osm.addTo(map);
   }
@@ -610,8 +1161,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const f = (sg, n, dir) => sg ? `<span title="${dir} ${esc(n)}: ${sg.m >= 1000 ? (sg.m / 1000).toFixed(1) + " km" : sg.m + " m"}">${dir === "von" ? "← " : ""}${legIcon(sg)}${sg.min}′${dir === "zu" ? " →" : ""}</span>` : "";
     const a = f(l.prev, l.prevName, "von"), b = f(l.next, l.nextName, "zu");
     return a || b ? `<small class="legs">${[a, b].filter(Boolean).join(" · ")}</small>` : ""; };
+  let navSnap = null;  // Reihenfolge beim Öffnen des ersten Spots – bleibt beim Blättern gleich, auch wenn sich die Karte bewegt
   const navOrder = cur => { navFor = cur; const ti = activeTourIds(); if (ti.includes(cur)) return ti;
-    return order.includes(cur) ? order.slice() : [cur, ...order]; };
+    const o = navSnap && navSnap.includes(cur) ? navSnap : order;
+    return o.includes(cur) ? o.slice() : [cur, ...o]; };
   let sheetSnap = "peek";
   let status = {};  // id -> { prio: "hoch"|"mittel"|"gering", done: true, fav: true, hidden: true (gelöscht) } – aus data/my-status.json
   const st = id => status[id] || {};
@@ -631,20 +1184,22 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Fotos eines Spots – das Titelbild immer zuerst (damit „📷 1/n“ zum großen Bild passt)
   const who = x => x.credit || "@" + x.username;  // Foto aus Artikel statt Instagram: Quellenangabe
   const imgsOf = p => { const l = (p.posts || []).filter(x => x.image), i = l.findIndex(x => x.image === p.image);
-    return i > 0 ? [l[i], ...l.slice(0, i), ...l.slice(i + 1)] : l; };
+    if (i > 0) return [l[i], ...l.slice(0, i), ...l.slice(i + 1)];
+    // Titelbild nicht unter den Fotos (z. B. Commons-Bild + Fotos aus Links): vorn einreihen, damit man alle durchwischen kann
+    if (i < 0 && p.image && l.length) return [{ image: p.image, url: p.image_page || p.post_url || p.image, profile_url: p.image_page || p.profile_url || p.image,
+      username: p.username || "", credit: p.image_credit || (p.by_claude || p.image_page ? "Wikimedia Commons" : ""), kind: "photo" }, ...l];
+    return l; };
   const WHEN_LABEL = { day: "☀️ Tag", night: "🌙 Nacht", both: "☀️🌙 Tag & Nacht" };
   function popupHtml(p) {
-    const d = here() ? `<div class="dist">📍 ${fmt(dist(me, p))} entfernt</div>` : "";
     const nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
     const imgPosts = imgsOf(p);
     const generic = (p.posts || []).filter(x => !x.image);
     const posts = imgPosts.length ? imgPosts : null;
     const hero = !posts || posts.length === 1;
     const strip = p.image && imgPosts.length > 1 && imgPosts[0].image === p.image;  // großes Foto seitlich durchwischen
-    const gal = posts && posts.length > 1 ? `<div class="galhead"><b class="galn">📷 ${posts.length} Fotos</b> <span>– seitlich wischen →</span></div><div class="gal">${posts.map((x, i) => `
-        <figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}<span class="gnum">${i + 1}/${posts.length}</span>
-        <figcaption><a href="${esc(x.profile_url)}" target="_blank" rel="noopener">${esc(who(x))}</a>
-          <a class="postlink" href="${esc(x.url)}" target="_blank" rel="noopener">${x.credit ? "Quelle" : "Instagram-Post"} ↗</a></figcaption></figure>`).join("")}</div>` : "";
+    // Galerie: Raster aus Vorschaubildern, Antippen öffnet Vollbild (dort Quelle & Post-Link)
+    const gal = posts && posts.length > 1 ? `<div class="galhead"><b class="galn">${posts.length} Fotos</b></div><div class="galgrid">${posts.map((x, i) =>
+        `<figure>${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy" data-lb="${i}">` : `<img alt="">`}<span class="gwho">${esc(who(x))}</span><button class="gdel" data-gdel="${i}" aria-label="Foto entfernen" title="Foto entfernen">×</button><button class="ginsp${isInsp(x.image) ? " on" : ""}" data-ginsp="${i}" aria-label="Als Inspiration markieren" title="Als Inspiration markieren">💡</button></figure>`).join("")}</div>` : "";
     const navIds = navOrder(p.id), idx = navIds.indexOf(p.id);
     const multi = idx >= 0 && navIds.length > 1;
     const onImg = multi && p.image;  // Pfeile mittig über dem großen Bild
@@ -652,57 +1207,107 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <button class="pclose" aria-label="Schließen">✕</button>
         ${multi && !onImg ? `<button data-go="-1" aria-label="Vorheriger Spot">‹</button>` : ""}
         ${multi ? (activeTourIds().includes(p.id) ? `<span class="spotnum" title="Stopps der aktiven Tour">🧭 Stopp ${idx + 1} von ${navIds.length}${legInfo(p.id)}</span>` : `<span class="spotnum" title="Spots der Liste">📍 Spot ${idx + 1} von ${navIds.length}</span>`) : `<span></span>`}
-        ${multi && !onImg ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : `<span style="width:38px"></span>`}</div>`;
+        ${multi && !onImg ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : ""}
+        <button class="pfull" aria-label="Größe umschalten" title="Mittel ↔ Vollbild"></button>
+        <button class="pmini" data-mini="${esc(p.id)}" aria-label="Klein – Spot auf der Karte zeigen" title="Klein – Spot auf der Karte zeigen"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2zM9 4v14M15 6v14"/></svg></button></div>`;
     return `<div class="pop">${pnav}
       ${p.image ? `<div class="hero">${strip ? `<div class="hstrip">${imgPosts.map((x, i) => `<img src="${esc(x.image)}" alt="" loading="${i ? "lazy" : "eager"}" data-lb="${i}"
           data-cr="${esc(who(x))}" data-href="${esc(x.credit ? x.url : x.profile_url)}" data-post="${x.credit ? "" : esc(x.url)}">`).join("")}</div>`
           : `<img src="${esc(p.image)}" alt="" loading="lazy" data-lb="${Math.max(0, imgPosts.findIndex(x => x.image === p.image))}">`}
         <span class="pfav"${st(p.id).fav ? "" : " hidden"} title="Favorit">❤</span>
+        ${strip && imgPosts.length > 1 ? `<div class="pbars">${imgPosts.map((_, i) => `<i${i ? "" : ' class="on"'}></i>`).join("")}</div>` : ""}
         <span class="pcount" title="Fotos dieses Spots – seitlich wischen">📷 <b>1</b>/${imgPosts.length || 1}</span>
         ${strip && imgPosts.length > 1 ? `<span class="parrows"><button type="button" data-ph="-1" aria-label="Vorheriges Foto">‹</button><button type="button" data-ph="1" aria-label="Nächstes Foto">›</button></span>` : ""}
         ${onImg ? `<button class="side prev" data-go="-1" aria-label="Vorheriger Spot">‹</button><button class="side next" data-go="1" aria-label="Nächster Spot">›</button>` : ""}</div>` : ""}
       ${strip ? `<div class="credit hcred"></div>` : ""}
       ${!strip && (p.by_claude || p.image_credit) && p.image ? `<div class="credit">Foto: <a href="${esc(p.image_page || p.wiki_url)}" target="_blank" rel="noopener">${esc(p.image_credit || "Wikipedia / Wikimedia Commons")}</a></div>` : ""}
       <div class="b">
+        ${PLAN_AT[p.id] ? `<div class="kick">★ ${esc(PLAN_AT[p.id].long)}</div>` : ""}
         <h3>${esc(p.name)}</h3>
-        ${p.by_claude ? `<div class="claude-note">✦ Claude-Tipp – nicht aus deiner Sammlung, von Claude als besonders beliebter Spot ergänzt</div>` : ""}
-        <div class="status" data-id="${esc(p.id)}">
-          ${PRIOS.map(k => `<button data-prio="${k}" class="${st(p.id).prio === k ? "on" : ""}"${k === "nein" ? ' title="Kein Interesse – wird ausgeblendet" aria-label="Kein Interesse"' : ""}>${k === "nein" ? "🚫" : PRIO_LABEL[k]}</button>`).join("")}
-          <button class="fav${st(p.id).fav ? " on" : ""}" data-fav title="Favorit – will ich fotografieren" aria-label="Favorit" aria-pressed="${!!st(p.id).fav}"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M12 21s-7.5-4.6-10-9.3C.3 8.3 2.2 4 6.2 4c2.4 0 3.9 1.4 5.8 3.6C13.9 5.4 15.4 4 17.8 4c4 0 5.9 4.3 4.2 7.7C19.5 16.4 12 21 12 21z"/></svg></button>
-          <button class="shot${st(p.id).done ? " on" : ""}" data-done title="Fotografiert" aria-label="Fotografiert" aria-pressed="${!!st(p.id).done}">📷</button>
+        <div class="mline">${p.by_claude ? `<span class="mtag cl" title="Nicht aus deiner Sammlung – von Claude als beliebter Spot ergänzt">✦ Claude-Tipp</span>` : ""}${p.mine ? `<span class="mtag">★ Eigener Spot</span>` : ""}${
+          [p.category, p.district, WHEN_LABEL[p.when] || "", routeLabel(p), p.pop ? `🔥 ${p.pop}/5` : "", here() ? `📍 ${fmt(dist(me, p))}` : ""].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join(" ")}</div>
+        ${lightBox(p)}
+        ${fcHtml(p.id)}
+        <div class="status sv2" data-id="${esc(p.id)}">
+          <div class="actB">
+            <a class="go" href="${nav}" target="_blank" rel="noopener">➤ Navigieren</a>
+            <button class="fav${st(p.id).fav ? " on" : ""}" data-fav title="Favorit – will ich fotografieren" aria-label="Favorit" aria-pressed="${!!st(p.id).fav}"><svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true"><path fill="currentColor" d="M12 21s-7.5-4.6-10-9.3C.3 8.3 2.2 4 6.2 4c2.4 0 3.9 1.4 5.8 3.6C13.9 5.4 15.4 4 17.8 4c4 0 5.9 4.3 4.2 7.7C19.5 16.4 12 21 12 21z"/></svg></button>
+            <button class="shot${st(p.id).done ? " on" : ""}" data-done title="Fotografiert" aria-label="Fotografiert" aria-pressed="${!!st(p.id).done}">✓</button>
+            <button class="pmore" aria-label="Mehr" title="Priorität, Tour, Fotos hinzufügen …">⋯</button>
+          </div>
+          <div class="more"${moreOpen ? "" : " hidden"}>
+            <div class="mlab">Priorität</div>
+            <div class="seg2 prio">${PRIOS.map(k => `<button data-prio="${k}" class="${st(p.id).prio === k ? "on" : ""}"${k === "nein" ? ' title="Kein Interesse – wird ausgeblendet" aria-label="Kein Interesse"' : ""}>${k === "nein" ? "🚫" : PRIO_LABEL[k]}</button>`).join("")}</div>
+            <div class="links">
+              <button class="showmap" data-show="${esc(p.id)}">📍 Auf der Karte</button>
+              <button class="tadd" data-tadd="${esc(p.id)}">🧭 Tour${tourCount(p.id) ? ` · ${tourCount(p.id)}` : ""}</button>
+              <button class="xadd" data-xadd="${esc(p.id)}">＋ Foto/Link</button>
+              ${p.post_url && (p.image || !generic.length) ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Instagram-Post</a>` : ""}
+              ${p.wiki_url ? `<a class="wiki" href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
+              ${p.mine ? `<button class="del" data-del="${esc(p.id)}">Löschen</button>`
+                : `<button class="del" data-hide="${esc(p.id)}">${st(p.id).hidden ? "Wiederherstellen" : "Löschen"}</button>`}
+            </div>
+            <div class="addr">${esc(p.address)}<br><small>${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}</small></div>
+          </div>
         </div>
-        ${p.category ? `<div class="meta">${esc([p.mine ? "★ Eigener Spot" : "", p.category, p.district, WHEN_LABEL[p.when] || "", routeLabel(p)].filter(Boolean).join(" · "))}</div>` : ""}
-        ${p.pop ? `<div class="popularity">${"🔥".repeat(p.pop)}${"<span style=\"opacity:.25\">🔥</span>".repeat(5 - p.pop)} Beliebtheit ${p.pop}/5${p.pop_reason ? `<br><small>${esc(p.pop_reason)}</small>` : ""}</div>` : ""}
-        ${p.approx ? `<div class="approx">Pin ungefähr</div>` : ""}
         ${p.unsure ? `<div class="unsure-note">⚠️ <b>Standort nicht 100 % gesichert:</b> ${esc(p.unsure)}</div>` : ""}
-        ${p.ok ? `<div class="ok-note">✓ <b>Standort geprüft:</b> ${esc(p.ok)}</div>` : ""}
-        ${d}
+        ${p.approx ? `<div class="approx">Pin ungefähr</div>` : ""}
+        ${p.tip ? `<div class="phototip"><div class="tl">📸 Foto-Tipp</div>${esc(p.tip)}</div>` : ""}
         ${p.note ? `<div class="note">${esc(p.note)}</div>` : ""}
-        ${p.tip ? `<div class="phototip"><b>📸 Foto-Tipp</b> ${esc(p.tip)}</div>` : ""}
+        ${p.pop_reason ? `<div class="popr">🔥 ${esc(p.pop_reason)}</div>` : ""}
         ${gal}
+        ${p.ok ? `<div class="ok-note">✓ <b>Standort geprüft:</b> ${esc(p.ok)}</div>` : ""}
         ${generic.length ? `<div class="generic">${posts ? "Außerdem in" : "Kein eigenes Foto – erwähnt in"} ${generic.map(x =>
           `${x.dup ? "Post (gleiches Foto)" : "Sammel-Post"} von <a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a> · <a href="${esc(x.url)}" target="_blank" rel="noopener">Post ↗</a>`).join("; ")}</div>` : ""}
-        <div class="addr">${esc(p.address)}<br><small>${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}</small></div>
+        ${(p.xlinks || []).length ? `<div class="xlinks"><b>🔗 Eigene Links</b>${p.xlinks.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.url.replace(/^https?:\/\/(www\.)?/, "").slice(0, 48))}</a>`).join("")}<small>Fotos daraus übernimmt die Routine (ca. 1 Std.)</small></div>` : ""}
         ${hero && p.caption && (p.image || !generic.length) ? `<div class="cap">${esc(p.caption)}</div>` : ""}
-        <div class="links">
-          <button class="showmap" data-show="${esc(p.id)}">📍 Springe zu Spot</button>
-          <button class="tadd" data-tadd="${esc(p.id)}">🧭 Tour${tourCount(p.id) ? ` · ${tourCount(p.id)}` : ""}</button>
-          ${hero && p.post_url && (p.image || !generic.length) ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Post</a>
-          ${p.profile_url ? `<a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a>` : ""}` : ""}
-          ${p.wiki_url ? `<a class="wiki" href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
-          <a href="${nav}" target="_blank" rel="noopener">Route</a>
-          ${p.mine ? `<button class="del" data-del="${esc(p.id)}">Löschen</button>`
-            : `<button class="del" data-hide="${esc(p.id)}">${st(p.id).hidden ? "Wiederherstellen" : "Löschen"}</button>`}
-        </div>
+        ${hero && p.profile_url ? `<div class="generic">Foto: <a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a></div>` : ""}
       </div></div>`;
   }
 
+  // Reiseplan-Stopp (fest) → pinker Rahmen mit Tag und Uhrzeit am Pin
+  const PLAN_AT = {};
+  ((window.ITINERARY || {}).days || []).forEach(d => (d.core || d.items || []).forEach(it => {
+    if (it.type !== "stop" || !it.plan || PLAN_AT[it.spot]) return;
+    const x = new Date(d.date + "T12:00:00+08:00"), wd = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"][x.getUTCDay()];
+    PLAN_AT[it.spot] = { date: d.date, t: it.t || "", light: it.light || "", lightText: it.lightText || "", short: `${wd} ${(it.t || "").split(/[–-]/)[0]}`.trim(), long: `${wd} ${x.getUTCDate()}.${x.getUTCMonth() + 1}.${it.lightText ? " · " + it.lightText : ""}` };
+  }));
+  // Wetter- & Sichtprognose je Reiseplan-Stopp (data/forecast.json im Branch map-data, von der Routine mehrmals täglich erneuert)
+  let FC = null; try { FC = JSON.parse(localStorage.getItem("forecast") || "null"); } catch {}
+  const WXI = c => c == null ? "" : c === 0 ? "☀️" : c <= 2 ? "🌤️" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 57 ? "🌦️" : c <= 67 ? "🌧️" : c <= 77 ? "🌨️" : c <= 82 ? "🌧️" : "⛈️";
+  const HZC = n => n == null ? "" : n === 0 ? "ok" : n <= 2 ? "mid" : "bad";
+  function fcRow(f, date, withDay) {
+    const x = new Date(date + "T12:00:00Z"), wd = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"][x.getUTCDay()];
+    return `<div class="fcrow"><div class="fch">${withDay ? `${wd} ${x.getUTCDate()}.${x.getUTCMonth() + 1}. · ` : ""}${f.h} Uhr</div>
+      <div class="fcm"><span class="fci">${WXI(f.code)}</span><b>${f.temp}°</b><span>☁ ${f.cloud} %</span><span>☂ ${f.pp ?? 0} %</span>
+      <span class="hz ${HZC(f.haze)}">👁 ${f.vis != null ? String(f.vis).replace(".", ",") + " km · " : ""}${esc(f.hazeText)}</span>${f.aqi != null ? `<span>AQI ${f.aqi}</span>` : ""}</div>
+      ${f.sky ? `<div class="fcs">${esc(f.sky)}</div>` : ""}</div>`;
+  }
+  const fcAge = () => { if (!FC || !FC.updated) return ""; const m = Math.round((Date.now() - Date.parse(FC.updated)) / 6e4);
+    return m < 60 ? `vor ${m} Min.` : m < 48 * 60 ? `vor ${Math.round(m / 60)} Std.` : `vor ${Math.round(m / 1440)} Tagen`; };
+  function fcHtml(id, onlyDate) {
+    const all = FC && FC.stops && FC.stops[id]; if (!all) return "";
+    const td = new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);
+    const ds = Object.keys(all).filter(d => d >= td && (!onlyDate || d === onlyDate)).sort(); if (!ds.length) return "";
+    return `<div class="fcbox"><div class="fct">Prognose am Spot<small>Open-Meteo · ${fcAge()}</small></div>${ds.map(d => fcRow(all[d], d, !onlyDate)).join("")}</div>`;
+  }
+  // Licht-Kasten (Reiseplan-Stopps): Uhrzeit laut Plan, Licht, Sonnenauf-/-untergang am Tag
+  let moreOpen = false; try { moreOpen = localStorage.getItem("spotMore") === "1"; } catch {}
+  function lightBox(p) {
+    const a = PLAN_AT[p.id]; if (!a) return "";
+    const day = new Date(a.date + "T12:00:00Z"), sun = typeof sunTime === "function";
+    const cells = [a.t && ["Plan", a.t.replace(/\s/g, "")],
+      sun && a.light !== "sunset" && a.light !== "blue" && ["Aufgang", sunTime(p.lat, p.lng, day, true)],
+      sun && a.light !== "sunrise" && a.light !== "dawn" && ["Untergang", sunTime(p.lat, p.lng, day, false)],
+      sun && a.light === "blue" && ["blaue Std.", "bis " + sunTime(p.lat, p.lng, day, false, 96)]].filter(x => x && x[1]);
+    return cells.length ? `<div class="lightB">${cells.map((c, i) => `<div${i ? "" : ' class="pk"'}><small>${esc(c[0])}</small><b>${esc(c[1])}</b></div>`).join("")}</div>` : "";
+  }
   function iconFor(p) {
-    const s = st(p.id), cls = ["pin", p.unsure ? "unsure" : "", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : "", s.fav ? "fav" : ""].join(" ");
+    const s = st(p.id), cls = ["pin", PLAN_AT[p.id] ? "plan" : "", p.unsure ? "unsure" : "", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : "", s.fav ? "fav" : ""].join(" ");
     const fb = s.fav ? '<i class="favb">❤</i>' : "";
-    const ub = p.unsure ? '<i class="unsb" title="Standort nicht 100 % gesichert">?</i>' : "";
+    const ub = (p.unsure ? '<i class="unsb" title="Standort nicht 100 % gesichert">?</i>' : "") + (PLAN_AT[p.id] ? `<span class="ptag">${esc(PLAN_AT[p.id].short)}</span>` : "");
     return L.divIcon({
-      className: "", iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -14],
+      className: "", iconSize: [40, 40], iconAnchor: [20, 20], popupAnchor: [0, -18],
       html: p.mine && !p.image ? `<div class="${cls}">★${fb}${ub}</div>`
         : p.category === "Henge" && !p.image ? `<div class="${cls} henge">☀${fb}${ub}</div>`
         : `<div class="${cls}" style="${p.image ? `background-image:url('${esc(p.image)}')` : ""}">${fb}${ub}</div>`
@@ -796,9 +1401,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const off = t.builtin ? 0 : -1;
     return { prev: segs[k + off] || null, next: segs[k + off + 1] || null, prevName: k > 0 ? stops[k - 1].name : (t.builtin ? "Start" : ""), nextName: k < stops.length - 1 ? stops[k + 1].name : "" };
   }
+  // Tour liegt in der oben gewählten Region (mind. ein Stopp); bei „Route“/„Alles“ immer
+  function tourInRegion(t) {
+    try { return routeF || allRegs() || tourStops(t).some(st => inRegion(st)); } catch { return true; }  // beim Start ist die Regionswahl evtl. noch nicht da
+  }
   function drawTour() {
     if (tourLayer) { tourLayer.remove(); tourLayer = null; }
-    const t = activeTour && tourById(activeTour);
+    const t = activeTour && tourById(activeTour) && tourInRegion(tourById(activeTour)) ? tourById(activeTour) : null;
     tb.classList.toggle("on", !!t);
     if (!t) return;
     const stops = tourStops(t), parts = [];
@@ -888,10 +1497,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   // Touren-Fenster
   let openTourId = null;
+  let toursAll = false;  // „auch Touren anderer Regionen zeigen“
   function renderTours() {
-    const ts = allTours();
+    const every = allTours(), ts = toursAll ? every : every.filter(t => tourInRegion(t) || (!t.builtin && !t.stops.length));
+    const hiddenN = every.length - ts.length;
     $("#toursBody").innerHTML = `<button id="tourNew" class="tbtn primary">＋ Neue Tour</button>
       <p class="thint">Spots hinzufügen: Spot öffnen → <b>🧭 Tour</b>. Auf der Karte erscheint jeweils eine Tour – mit 👁 wählen.</p>` +
+      (hiddenN || toursAll ? `<p class="thint">${toursAll ? "Alle Touren" : `Nur Touren in „${esc(whereLabel())}“ – ${hiddenN} weitere in anderen Regionen`} · <a href="#" id="toursAllT">${toursAll ? "nur gewählte Region" : "alle zeigen"}</a></p>` : "") +
       ts.map(t => {
         const stops = tourStops(t), stt = tourStats(t), on = activeTour === t.id, open = openTourId === t.id;
         return `<div class="tcard${on ? " on" : ""}" data-t="${esc(t.id)}">
@@ -912,6 +1524,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   tb.onclick = e => { e.stopPropagation(); openTours(); };
   $("#toursClose").onclick = () => { $("#toursDlg").hidden = true; };
   $("#toursBody").addEventListener("click", e => {
+    if (e.target.id === "toursAllT") { e.preventDefault(); toursAll = !toursAll; renderTours(); return; }
     const b = e.target.closest("button, [data-open], [data-go]"); if (!b) return;
     const card = b.closest(".tcard"), t = card && tourById(card.dataset.t);
     if (b.id === "tourNew") { const n = prompt("Name der Tour:", `Tour ${new Date().toLocaleDateString("de-DE")}`); const nt = newTour(n); if (nt) { openTourId = nt.id; setActiveTour(nt.id); renderTours(); toast("Tour angelegt – jetzt Spots öffnen und 🧭 Tour tippen", 3000); } return; }
@@ -988,48 +1601,110 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // ---------- Filter (Suche + Kategorie)
   // Oberste Ebene: Bereich (Fotos / Food); Kategorien darunter gehören zum gewählten Bereich
   // Fotos/Food = deine Spots aus der Sammlung (+ eigene); Tipps = von Claude ergänzte Spots
+  const unplacedAll = [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])];
   const GROUPS = { food: p => !p.by_claude && p.category === "Food", fotos: p => !p.by_claude && p.category !== "Food", claude: p => p.by_claude };
   // Fotos / Food / Tipps frei kombinierbar (Mehrfachauswahl, wird gemerkt); nichts gewählt = alles
   let groups = new Set(["fotos"]);
   try { const g = JSON.parse(localStorage.getItem("groups") || "null"); if (Array.isArray(g)) groups = new Set(g.filter(x => GROUPS[x])); } catch {}
   const saveGroups = () => { try { localStorage.setItem("groups", JSON.stringify([...groups])); } catch {} };
   const inGroups = p => !groups.size || [...groups].some(g => GROUPS[g](p));
-  // Bereich oben links: 🧭 Route (nur Spots an unserer Route) · 🇭🇰 Hongkong · 🇨🇳 China · 🌏 Alles
-  const WHERE = { route: "🧭 Route", hk: "🇭🇰 Hongkong", cn: "🇨🇳 China", all: "🌏 Alles" };
+  // Bereich oben links: 🧭 Route (nur Spots an unserer Route) oder frei kombinierbare Regionen der Reise (Mehrfachauswahl)
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
-  let where = "route";
-  try { where = WHERE[localStorage.getItem("where")] ? localStorage.getItem("where") : "route"; } catch {}
-  let routeF = where === "route";
-  let region = routeF ? "hk" : where;  // für die Startansicht
-  const inRegion = p => region === "all" || regionOf(p) === region;
+  const SUBS = [["hk", "🇭🇰 Hongkong"], ["sz", "Shenzhen"], ["gl", "Guilin · Yangshuo · Longji"], ["gz", "Guizhou"],
+    ["zjj", "Zhangjiajie · Fenghuang"], ["cq", "Chongqing"], ["sh", "Shanghai"], ["cnx", "Sonstiges China"]];
+  let showNl = false; try { showNl = localStorage.getItem("showNl") === "1"; } catch {}
+  const CN_SUBS = SUBS.map(x => x[0]).filter(k => k !== "hk");  // Unterpunkte von China
+  const SUB_LABEL = Object.fromEntries(SUBS);
+  const subOf = p => {
+    if (p.nlsub) return p.nlsub;
+    if (regionOf(p) === "hk") return "hk";
+    const a = p.lat, o = p.lng;
+    if (a > 22.3 && a < 23 && o > 113.6 && o < 114.8) return "sz";
+    if (a > 24.3 && a < 26.3 && o > 109.8 && o < 111.2) return "gl";
+    if (a > 28.8 && a < 30.6 && o > 105.3 && o < 108.6) return "cq";
+    if (a > 27.5 && a < 30.2 && o > 109.4 && o < 111.6) return "zjj";
+    if (a > 24.5 && a < 29.3 && o > 103.5 && o < 109.8) return "gz";
+    if (a > 30.6 && a < 31.9 && o > 120.8 && o < 122.2) return "sh";
+    return "cnx";
+  };
+  let routeF = true, regs = new Set();  // regs leer = alle Regionen
+  try {
+    const w = localStorage.getItem("where"), r = JSON.parse(localStorage.getItem("regs") || "null");
+    routeF = !w || w === "route";
+    regs = Array.isArray(r) ? new Set(r.filter(x => SUB_LABEL[x])) : w === "hk" ? new Set(["hk"]) : w === "cn" ? new Set(SUBS.map(x => x[0]).filter(x => x !== "hk")) : new Set();
+  } catch {}
+  const allRegs = () => !regs.size || regs.size === SUBS.length;
+  const inRegion = p => allRegs() || regs.has(subOf(p));
+  const whereLabel = () => {
+    if (routeF) return "🧭 Route";
+    if (allRegs()) return "🌏 Alles";
+    const allCn = CN_SUBS.every(k => regs.has(k));
+    const n = [...(regs.has("hk") ? ["🇭🇰 HK"] : []), ...(allCn ? ["🇨🇳 China"] : CN_SUBS.filter(k => regs.has(k)).map(k => SUB_LABEL[k].split(" · ")[0]))];
+    return n.length <= 2 ? n.join(" + ") : `${n[0]} +${n.length - 1}`;
+  };
   const inScope = p => routeF ? routeStop(p) >= 0 : inRegion(p);
-  const inGroup = p => inScope(p) && inGroups(p);
+  const inGroup = p => !p.noloc && inScope(p) && inGroups(p);
   function fitRegion() {  // Hauptcluster der Region zeigen (Ausreißer nicht einbeziehen)
-    const ps = places.filter(inRegion); if (!ps.length) return;
+    const ps = places.filter(p => !p.noloc && inRegion(p)); if (!ps.length) return;
     const mid = arr => arr.slice().sort((a, b) => a - b)[arr.length >> 1];
     const c = { lat: mid(ps.map(p => p.lat)), lng: mid(ps.map(p => p.lng)) };
-    const near = region === "hk" ? ps.filter(p => dist(c, p) < 100e3) : ps;
+    const near = regs.size === 1 ? ps.filter(p => dist(c, p) < 150e3) : ps;
     map.fitBounds(L.latLngBounds(near.map(p => [p.lat, p.lng])), { padding: [40, 40], animate: false });
   }
   function showWhere() {
-    $("#where").value = where; $("#whereLbl").textContent = WHERE[where];
+    $("#whereLbl").textContent = whereLabel();
     $("#group").querySelectorAll("[data-g=food],[data-g=claude]").forEach(x =>
       x.hidden = !places.some(p => inScope(p) && GROUPS[x.dataset.g](p)));
   }
-  function setWhere(w, fit = true) {
-    where = w; routeF = w === "route"; if (!routeF) region = w;
-    try { localStorage.setItem("where", where); } catch {}
+  function setWhere(route, newRegs, fit = true) {
+    routeF = route; if (newRegs) regs = new Set(newRegs);
+    try { localStorage.setItem("where", routeF ? "route" : "regions"); localStorage.setItem("regs", JSON.stringify([...regs])); } catch {}
     routeF ? routeLayer.addTo(map) : routeLayer.remove();
     quietClose = true; map.closePopup(); quietClose = false; savedView = null;
     if (groups.size && !places.some(p => inScope(p) && inGroups(p))) { groups = new Set(["fotos"]); saveGroups(); }
-    cat = null; showWhere(); renderChips(); renderList();
+    cat = null; showWhere(); renderChips(); renderList(); drawTour();
     if (!fit) return;
     if (routeF) map.fitBounds(L.latLngBounds(ROUTE.map(r => [r.lat, r.lng])), { padding: [40, 40], animate: false });
     else fitRegion();
-    toast(`${WHERE[where]}: ${places.filter(inScope).length} Spots`, 2000);
   }
-  $("#where").addEventListener("change", e => setWhere(e.target.value));
+  // Auswahl-Fenster: Route oder Regionen ankreuzen (Alles / einzelne, mehrere möglich)
+  function openWhere() {
+    const box = $("#tourPick");
+    const cnt = k => places.filter(p => !p.noloc && subOf(p) === k && inGroups(p)).length;
+    const on = k => allRegs() || regs.has(k);
+    const render = () => {
+      box.innerHTML = `<div class="tpcard"><div class="tphead"><b>Bereich</b><button class="tpclose" aria-label="Schließen">✕</button></div>
+        <label class="tprow"><input type="radio" name="wm" data-w="route" ${routeF ? "checked" : ""}> 🧭 Nur an unserer Route <small>(${places.filter(p => routeStop(p) >= 0 && inGroups(p)).length})</small></label>
+        <label class="tprow"><input type="radio" name="wm" data-w="regs" ${routeF ? "" : "checked"}> Regionen wählen:</label>
+        <div class="${routeF ? "wdim" : ""}">
+        <label class="tprow"><input type="checkbox" data-all ${allRegs() ? "checked" : ""}> <b>🌏 Alles</b></label>
+        <label class="tprow"><input type="checkbox" data-r="hk" ${on("hk") ? "checked" : ""}> <b>🇭🇰 Hongkong</b> <small>(${cnt("hk")})</small></label>
+        <label class="tprow"><input type="checkbox" data-cn ${CN_SUBS.every(on) ? "checked" : ""}> <b>🇨🇳 China</b></label>
+        ${CN_SUBS.map(k => `<label class="tprow wsub"><input type="checkbox" data-r="${k}" ${on(k) ? "checked" : ""}> ${esc(SUB_LABEL[k])} <small>(${cnt(k)})</small></label>`).join("")}
+
+        </div><button class="xa-save" data-ok>Fertig</button></div>`;
+      box.querySelector(".tpclose").onclick = box.querySelector("[data-ok]").onclick = () => { box.hidden = true; };
+      box.querySelectorAll("input[name=wm]").forEach(r => r.onchange = () => { setWhere(r.dataset.w === "route", null); render(); });
+      box.querySelector("[data-all]").onchange = e => { setWhere(false, e.target.checked ? [] : ["hk"]); render(); };
+      box.querySelector("[data-cn]").onchange = e => {  // China mit allen Unterpunkten an/aus
+        const cur = allRegs() ? new Set(SUBS.map(x => x[0])) : new Set(regs);
+        CN_SUBS.forEach(k => e.target.checked ? cur.add(k) : cur.delete(k));
+        if (!cur.size) cur.add("hk");
+        setWhere(false, cur.size === SUBS.length ? [] : [...cur]); render();
+      };
+      box.querySelectorAll("[data-r]").forEach(c => c.onchange = () => {
+        const cur = allRegs() ? new Set(SUBS.map(x => x[0])) : new Set(regs);
+        c.checked ? cur.add(c.dataset.r) : cur.delete(c.dataset.r);
+        if (!cur.size) { c.checked = true; return; }  // mindestens eine Region
+        setWhere(false, cur.size === SUBS.length ? [] : [...cur]); render();
+      });
+    };
+    render(); box.hidden = false;
+  }
+  $("#whereBtn").addEventListener("click", e => { e.stopPropagation(); openWhere(); });
   $("#group").addEventListener("click", e => {
+    const t = e.target.closest("button[data-nltop]");
+    if (t) { showNl = !showNl; try { localStorage.setItem("showNl", showNl ? "1" : "0"); } catch {} renderList(); return; }
     const b = e.target.closest("button[data-g]"); if (!b) return;
     const g = b.dataset.g; groups.has(g) ? groups.delete(g) : groups.add(g); saveGroups();  // an-/abwählen, kombinierbar
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
@@ -1089,6 +1764,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   });
   if (routeF) routeLayer.addTo(map);
   showWhere();
+  drawTour();  // jetzt ist die Regionswahl bekannt → Tour außerhalb der Region ausblenden
   let inView = false;  // nur Spots im sichtbaren Kartenausschnitt (kombinierbar mit Liste/Grid)
   try { view = localStorage.getItem("view") || "list"; inView = localStorage.getItem("inView2") !== "0"; } catch { inView = true; }  // Standard: nur Spots im Kartenausschnitt (wie auf der Karte zu sehen)
   $("#view").addEventListener("click", e => {
@@ -1123,7 +1799,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const hay = [p.name, p.address, p.district, p.category, p.note, p.tip, p.caption, p.username,
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
     const s = st(p.id);
-    return inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
+    return !p.noloc && inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
       && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio || "none")) && (s.prio !== "nein" || prioF.has("nein") || trashF) && (!doneF || (doneF === "done" ? s.done : !s.done))
       && (!popF || (p.pop || 0) >= 4) && (!favF || s.fav) && (!areaF || areaOf(p) === areaF)
@@ -1184,7 +1860,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // (Blättern zwischen Spots darf die Karte bewegen, danach steht sie wieder wie vorher)
   let savedView = null, navigating = false;
   const saveView = () => { if (!savedView) savedView = { c: map.getCenter(), z: map.getZoom() }; };
-  map.on("popupopen", () => { saveView(); stepping = false; document.querySelectorAll(".leaflet-marker-icon.lastseen").forEach(x => x.classList.remove("lastseen")); });
+  map.on("popupopen", () => { if (!navSnap) navSnap = order.slice(); saveView(); stepping = false; document.querySelectorAll(".leaflet-marker-icon.lastseen").forEach(x => x.classList.remove("lastseen")); });
   // Spot geschlossen → Karte zeigt genau diesen Spot und hebt seinen Pin hervor (statt zum alten Ausschnitt zurückzuspringen)
   let quietClose = false, jumpZoom = false;
   let frontM = null;
@@ -1199,7 +1875,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function miniSpot(id) {
     const el = map._popup && map._popup.getElement(), p = places.find(x => x.id === id), m = markers.get(id);
     if (!el || !p || !m) return;
-    el.classList.add("mini");
+    el.classList.add("mini"); document.body.classList.add("popup-mini"); setPfull(el);
     savedView = null;  // nach dem Schließen nicht zum alten Ausschnitt zurück – man wollte ja hierher
     if (mobile()) setSnap("peek");
     const center = z => {  // Spot mittig in den freien Bereich unter der kleinen Leiste
@@ -1233,7 +1909,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     });
   }
   map.on("popupclose", ev => {
-    if (!navigating) { navFor = null; stepping = false; }
+    if (!navigating) { navFor = null; stepping = false; navSnap = null; }
     if (navigating) return;
     const sv = savedView; savedView = null;
     const zoomIn = jumpZoom; jumpZoom = false;
@@ -1250,6 +1926,25 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     }, 0);
   });
   // Popup so hoch wie der freie Platz zwischen Bereichs-Umschalter oben und Liste unten
+  // Spot-Ansicht auf dem Handy: „medium“ (Karte unter der Leiste, Standard) oder „full“ (Vollbild-Story); „klein“ = miniSpot
+  let spotView = "medium"; try { spotView = localStorage.getItem("spotView") || "medium"; } catch {}
+  const ICO = d => `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg>`;
+  function applyCardMode(popup, init) {
+    const el = popup && popup.getElement(); if (!el || !mobile()) return;
+    const full = spotView === "full", sp = popupSpace();
+    el.classList.toggle("full", full); document.body.classList.toggle("popup-full", full);
+    document.documentElement.style.setProperty("--cardTop", (full ? 0 : sp.top) + "px");
+    popup.options.maxHeight = full ? window.innerHeight : sp.maxH;
+    if (init) popup.update();  // beim Öffnen; später nicht neu aufbauen (sonst gehen die Knöpfe verloren)
+    else { const c = el.querySelector(".leaflet-popup-content"); c.style.height = ""; c.style.maxHeight = full ? "" : sp.maxH + "px"; c.scrollTop = 0; }
+    setPfull(el);
+  }
+  function setPfull(el) {  // Symbol zeigt die nächste Größe: Mittel → ⤢ Vollbild, Vollbild → ⤡ Klein, Klein → ⤢ Mittel
+    const b = el.querySelector(".pfull"); if (!b) return;
+    const shrink = el.classList.contains("full") && !el.classList.contains("mini");
+    b.innerHTML = shrink ? ICO("M4 14h6v6M20 10h-6V4M14 10l7-7M3 21l7-7") : ICO("M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7");
+    b.title = el.classList.contains("mini") ? "Mittel" : shrink ? "Klein" : "Vollbild";
+  }
   function popupSpace() {
     const top = $("#group").getBoundingClientRect().bottom + 8;
     const bottom = window.innerHeight - (mobile() ? parseFloat(getComputedStyle(sheet).paddingBottom) || 0 : 0);
@@ -1261,7 +1956,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const box = ev.popup.getElement().querySelector(".status"); stickyId = box ? box.dataset.id : null;
   });
   map.on("popupclose", ev => {
-    if (!navigating) document.body.classList.remove("popup-open");
+    if (!navigating) document.body.classList.remove("popup-open", "popup-mini", "popup-full");
     const box = ev.popup.getElement() && ev.popup.getElement().querySelector(".status");
     if (box && box.dataset.id === stickyId) {
       const p = places.find(x => x.id === stickyId); stickyId = null;
@@ -1273,9 +1968,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (mobile()) {
       // feste Karte über der Karte: aus dem Karten-Pane lösen, damit Verschieben/Zoomen sie nicht bewegt
       const el = ev.popup.getElement();
-      document.documentElement.style.setProperty("--cardTop", sp.top + "px");
       el.classList.add("card"); document.body.appendChild(el);
-      o.maxHeight = sp.maxH; ev.popup.update();
+      applyCardMode(ev.popup, true);
       document.querySelectorAll(".leaflet-popup.ghost").forEach(g => setTimeout(() => g.remove(), 120));
       return;
     }
@@ -1294,7 +1988,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (pop && id && order.length > 1) {
       let t0 = null;
       pop.addEventListener("touchstart", e => {
-        if (e.touches.length !== 1 || e.target.closest(".gal, .hstrip, button, input, a")) { t0 = null; return; }
+        if (e.touches.length !== 1 || e.target.closest(".gal, .galgrid, .hstrip, button, input, a")) { t0 = null; return; }
         t0 = { x: e.touches[0].clientX, y: e.touches[0].clientY, t: Date.now() };
       }, { passive: true });
       pop.addEventListener("touchmove", e => {
@@ -1329,6 +2023,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         const i = Math.max(0, Math.min(imgs.length - 1, Math.round(hs.scrollLeft / (hs.clientWidth || 1))));
         if (i === cur) return; cur = i; const im = imgs[i];
         if (pcb) pcb.textContent = i + 1;
+        el.querySelectorAll(".pbars i").forEach((b, k) => b.classList.toggle("on", k === i));
         if (pa.length) { pa[0].disabled = i === 0; pa[1].disabled = i === imgs.length - 1; }
         if (cred) cred.innerHTML = `Foto: <a href="${esc(im.dataset.href)}" target="_blank" rel="noopener">${esc(im.dataset.cr)}</a>` +
           (im.dataset.post ? ` · <a href="${esc(im.dataset.post)}" target="_blank" rel="noopener">Post ↗</a>` : "");
@@ -1339,11 +2034,26 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); map.closePopup(); };
     // 📍 Springe zu Spot: Spot schließen, hinzoomen, Liste einklappen, Pin hervorheben
     const sm = el.querySelector(".showmap"); if (sm) sm.onclick = e => { e.stopPropagation(); miniSpot(sm.dataset.show); };
+    const pm = el.querySelector(".pmini"); if (pm) pm.onclick = e => { e.stopPropagation(); el.classList.remove("full"); document.body.classList.remove("popup-full"); miniSpot(pm.dataset.mini); };
+    // Größe umschalten im Kreis: Mittel → Vollbild → Klein → Mittel
+    const pf = el.querySelector(".pfull"); if (pf) pf.onclick = e => { e.stopPropagation();
+      if (!el.classList.contains("mini") && spotView === "full") { el.classList.remove("full"); document.body.classList.remove("popup-full"); miniSpot(id); setPfull(el); return; }
+      spotView = el.classList.contains("mini") ? "medium" : "full"; try { localStorage.setItem("spotView", spotView); } catch {}
+      el.classList.remove("mini"); document.body.classList.remove("popup-mini"); applyCardMode(ev.popup); };
+    const mo = el.querySelector(".pmore"), mp = el.querySelector(".more");
+    if (mo && mp) { mo.classList.toggle("on", !mp.hidden); mo.onclick = e => { e.stopPropagation(); mp.hidden = !mp.hidden; moreOpen = !mp.hidden; mo.classList.toggle("on", moreOpen);
+      try { localStorage.setItem("spotMore", moreOpen ? "1" : "0"); } catch {} }; }
+    // Vollbild: beim Scrollen bekommt die Kopfleiste einen Hintergrund (sonst liegt Text unter den Knöpfen)
+    const pc2 = el.querySelector(".leaflet-popup-content"), hero2 = el.querySelector(".hero");
+    if (pc2) pc2.addEventListener("scroll", () => el.classList.toggle("scrolled", pc2.scrollTop > (hero2 ? hero2.offsetHeight - 90 : 10)), { passive: true });
     const ta = el.querySelector(".tadd"); if (ta) ta.onclick = e => { e.stopPropagation(); openTourPick(ta.dataset.tadd, ta); };
+    const xa = el.querySelector(".xadd"); if (xa) xa.onclick = e => { e.stopPropagation(); openExtraAdd(xa.dataset.xadd); };
+    el.querySelectorAll(".gdel").forEach(b => b.onclick = e => { e.stopPropagation(); removePhoto(id, +b.dataset.gdel); });
+    el.querySelectorAll(".ginsp").forEach(b => b.onclick = e => { e.stopPropagation(); toggleInsp(id, +b.dataset.ginsp, b); });
     // verkleinerten Spot antippen → wieder groß
     el.addEventListener("click", e => {
       if (!el.classList.contains("mini") || e.target.closest("button, a")) return;
-      el.classList.remove("mini"); e.stopPropagation();
+      el.classList.remove("mini"); document.body.classList.remove("popup-mini"); e.stopPropagation(); applyCardMode(map._popup);
     });
   });
   document.addEventListener("keydown", e => {
@@ -1370,22 +2080,320 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#lbPrev").hidden = $("#lbNext").hidden = n < 2;
   }
   // ---------- Inspiration (unabhängig von Spots): Masonry-Raster, Tippen öffnet die Bilder im Vollbild
-  const INSP = window.INSPIRATION || {};
+  // Inspiration = bewusst gesammelte Posts (inspiration.js) + alle Posts ohne konkreten Ort + an Spots markierte Einzelbilder
+  const INSP = JSON.parse(JSON.stringify(window.INSPIRATION || {}));
+  {
+    const have = new Set(Object.values(INSP).flat().map(x => x.code));
+    [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])].forEach(x => {
+      const code = (x.url.match(/\/(?:p|reel|tv)\/([^/?]+)/) || [])[1]; if (!code || have.has(code) || !x.image) return;
+      const sub = x.sub || ((x.region || "hk") === "hk" ? "hk" : "cnx"), r = sub === "hk" ? "hk" : sub === "sh" ? "sh" : "cn";
+      (INSP[r] = INSP[r] || []).push({ code, user: x.username, url: x.url, caption: x.caption || "", images: [x.image] });
+      have.add(code);
+    });
+  }
+  const inspMarks = () => (spotExtras.__insp || []);
+  const isInsp = img => inspMarks().some(m => m.image === img);
+  async function toggleInsp(id, i, btn) {
+    const p = places.find(x => x.id === id); if (!p) return;
+    const x = imgsOf(p)[i]; if (!x || !x.image) return;
+    if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+    const on = !isInsp(x.image), sub = subOf(p), r = sub === "hk" ? "hk" : sub === "sh" ? "sh" : "cn";
+    try {
+      const next = await mutate(d => {
+        d = d && !Array.isArray(d) ? d : {}; const l = (d.__insp || []).filter(m => m.image !== x.image);
+        if (on) l.unshift({ image: x.image, spot: id, name: p.name, region: r, url: x.url || "", credit: who(x), added: new Date().toISOString() });
+        d.__insp = l; if (!l.length) delete d.__insp; return d;
+      }, `Inspiration: Bild ${on ? "markiert" : "entfernt"} (${id})`, EXTRAS_PATH, {});
+      spotExtras = next; if (btn) btn.classList.toggle("on", on);
+      toast(on ? "💡 Als Inspiration markiert" : "Aus Inspiration entfernt", 1800);
+    } catch (e) { toast(e.message, 5000); }
+  }
   const INSP_REG = { hk: "🇭🇰 Hongkong", sh: "🇨🇳 Shanghai", cn: "🇨🇳 China" };
+  // Ortsfilter oben (Mehrfachauswahl, leer = alle); gemerkt pro Gerät
+  let inspF = new Set(); try { inspF = new Set(JSON.parse(localStorage.getItem("inspF") || "[]")); } catch {}
   function openInsp() {
-    const regs = Object.keys(INSP_REG).filter(r => (INSP[r] || []).length);
+    const marks = r => inspMarks().filter(m => m.region === r && !m.own);
+    const owns = r => inspMarks().filter(m => m.region === r && m.own);
+    const hid = new Set(spotExtras.__insphide || []);
+    const imgsOfPost = post => post.images.filter(src => !hid.has(src));
+    const have = Object.keys(INSP_REG);  // alle Orte zeigen, damit man überall eigene Fotos hochladen kann
+    [...inspF].forEach(r => { if (!have.includes(r)) inspF.delete(r); });
+    const regs = have.filter(r => !inspF.size || inspF.has(r));
+    const cnt = r => (INSP[r] || []).reduce((a, p) => a + imgsOfPost(p).length, 0) + marks(r).length + owns(r).length;
+    $("#inspFilter").innerHTML = `<button data-if="" class="${inspF.size ? "" : "on"}">Alle</button>` +
+      have.map(r => `<button data-if="${r}" class="${inspF.has(r) ? "on" : ""}">${INSP_REG[r]} <small>${cnt(r)}</small></button>`).join("");
     let n = 0;
-    $("#inspBody").innerHTML = regs.map(r => `<h3>${INSP_REG[r]}</h3>` + INSP[r].map(post => `
+    const markItems = [];
+    const tile = m => { markItems.push(m); return `<span class="iw"><img src="${esc(m.image)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(m.image)}" aria-label="Aus Inspiration entfernen">×</button></span>`; };
+    $("#inspBody").innerHTML = regs.map(r => `<h3>${INSP_REG[r]}<button class="iadd" data-iadd="${r}">📷 Fotos hochladen</button></h3>` +
+      (owns(r).length ? `<div class="src">📷 Eigene Fotos</div><div class="masonry">${owns(r).map(tile).join("")}</div>` : "") + (marks(r).length ? `<div class="src">💡 An Spots markiert</div><div class="masonry">${marks(r).map(tile).join("")}</div>` : "") + (INSP[r] || []).filter(post => imgsOfPost(post).length).map(post => `
       <div class="src">${post.user ? `<a href="https://www.instagram.com/${esc(post.user)}/" target="_blank" rel="noopener">@${esc(post.user)}</a> · ` : ""}<a href="${esc(post.url)}" target="_blank" rel="noopener">Post ↗</a>${post.caption ? " – " + esc(post.caption.split("\n")[0].slice(0, 90)) : ""}</div>
-      <div class="masonry">${post.images.map(src => `<img src="${esc(src)}" alt="" loading="lazy" data-i="${n++}">`).join("")}</div>`).join("")).join("")
+      <div class="masonry">${imgsOfPost(post).map(src => `<span class="iw"><img src="${esc(src)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(src)}" aria-label="Aus Inspiration entfernen">×</button></span>`).join("")}</div>`).join("")).join("")
       || `<p class="src">Noch keine Bilder.</p>`;
     $("#inspSub").textContent = n ? `${n} Bilder` : "";
-    const all = regs.flatMap(r => INSP[r].flatMap(post => post.images.map((src, k) => ({ image: src, url: post.url + "?img_index=" + (k + 1), username: post.user || "Instagram", profile_url: post.user ? `https://www.instagram.com/${post.user}/` : post.url }))));
+    const all = regs.flatMap(r => [...owns(r).map(m => ({ image: m.image, url: m.image, credit: m.credit || "Eigenes Foto", profile_url: m.image })),
+      ...marks(r).map(m => ({ image: m.image, url: m.url, credit: `${m.credit} · Spot: ${m.name}`, profile_url: m.url })),
+      ...(INSP[r] || []).flatMap(post => imgsOfPost(post).map((src, k) => ({ image: src, url: post.url + "?img_index=" + (k + 1), username: post.user || "Instagram", profile_url: post.user ? `https://www.instagram.com/${post.user}/` : post.url })))]);
     $("#inspBody").querySelectorAll("img[data-i]").forEach(img => img.onclick = () => lbOpen({ name: "Inspiration", posts: all }, +img.dataset.i));
+    $("#inspBody").querySelectorAll(".iadd").forEach(b => b.onclick = e => { e.stopPropagation(); inspUpload(b.dataset.iadd, b); });
+    $("#inspBody").querySelectorAll(".idel").forEach(b => b.onclick = async e => {
+      e.stopPropagation(); const img = b.dataset.img;
+      if (!confirm("Bild aus der Inspiration entfernen?")) return;
+      if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+      try {
+        spotExtras = await mutate(d => { d = d && !Array.isArray(d) ? d : {};
+          if ((d.__insp || []).some(m => m.image === img)) { d.__insp = d.__insp.filter(m => m.image !== img); if (!d.__insp.length) delete d.__insp; }
+          else d.__insphide = [...new Set([...(d.__insphide || []), img])];
+          return d; }, "Inspiration: Bild entfernt", EXTRAS_PATH, {});
+        const y = $("#inspBody").scrollTop; openInsp(); $("#inspBody").scrollTop = y; toast("Bild entfernt", 1500);
+      } catch (err) { toast(err.message, 5000); }
+    });
     $("#insp").hidden = false;
   }
+  // Eigene Fotos direkt als Inspiration hochladen (pro Ort): Datei → uploads/insp/<ort>/…, Eintrag in __insp mit own: true
+  function inspUpload(r, btn) {
+    const fi = document.createElement("input"); fi.type = "file"; fi.accept = "image/*"; fi.multiple = true;
+    fi.onchange = async () => {
+      const files = [...fi.files]; if (!files.length) return;
+      if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+      btn.disabled = true; const added = new Date().toISOString(), items = [];
+      try {
+        for (let i = 0; i < files.length; i++) {
+          btn.textContent = `Lade ${i + 1}/${files.length} …`;
+          const path = `uploads/insp/${r}/${Date.now()}_${i}.jpg`;
+          await uploadFile(path, await shrink(files[i]), `Inspiration: Foto (${r})`);
+          items.push({ image: path, own: true, region: r, credit: "Eigenes Foto · " + added.slice(0, 10), added });
+        }
+        btn.textContent = "Speichere …";
+        spotExtras = await mutate(d => { d = d && !Array.isArray(d) ? d : {}; d.__insp = [...items, ...(d.__insp || [])]; return d; },
+          `Inspiration: ${items.length} eigene Foto(s) (${r})`, EXTRAS_PATH, {});
+        const y = $("#inspBody").scrollTop; openInsp(); $("#inspBody").scrollTop = y;
+        toast(`💡 ${items.length} Foto(s) zur Inspiration hinzugefügt`, 2500);
+      } catch (e) { toast(e.message, 5000); btn.disabled = false; btn.textContent = "📷 Fotos hochladen"; }
+    };
+    fi.click();
+  }
+  $("#inspFilter").addEventListener("click", e => {
+    const b = e.target.closest("button[data-if]"); if (!b) return;
+    const r = b.dataset.if;
+    if (!r) inspF.clear(); else inspF.has(r) ? inspF.delete(r) : inspF.add(r);
+    try { localStorage.setItem("inspF", JSON.stringify([...inspF])); } catch {}
+    openInsp(); $("#inspBody").scrollTop = 0;
+  });
   $("#inspBtn").onclick = e => { e.stopPropagation(); openInsp(); };
   $("#inspClose").onclick = () => { $("#insp").hidden = true; };
+  // ---------- Reiseplan (data/itinerary.js aus cn/itinerary.json): Tage mit Karten je Stopp, Etappe, Hotel – und Tagesroute auf der Karte
+  const ITIN = window.ITINERARY || { days: [], hotels: {} };
+  const itinBtn = $("#itinBtn"); itinBtn.hidden = !ITIN.days.length;
+  const WD = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"];
+  const dayDate = d => new Date(d.date + "T12:00:00+08:00");
+  const dayLabel = d => { const x = dayDate(d); return `${WD[x.getUTCDay()]} ${x.getUTCDate()}.${x.getUTCMonth() + 1}.`; };
+  // Sonnenauf-/-untergang (NOAA), Ortszeit China (UTC+8); zen 96° = Ende der bürgerlichen Dämmerung ≈ Ende blaue Stunde
+  function sunTime(lat, lng, d, rise, zen = 90.833) {
+    const N = Math.round((d - Date.UTC(d.getUTCFullYear(), 0, 0)) / 864e5), rad = Math.PI / 180, lh = lng / 15;
+    const t = N + ((rise ? 6 : 18) - lh) / 24, M = 0.9856 * t - 3.289;
+    const Ls = (M + 1.916 * Math.sin(M * rad) + 0.020 * Math.sin(2 * M * rad) + 282.634 + 360) % 360;
+    let RA = (Math.atan(0.91764 * Math.tan(Ls * rad)) / rad + 360) % 360;
+    RA = (RA + Math.floor(Ls / 90) * 90 - Math.floor(RA / 90) * 90) / 15;
+    const sd = 0.39782 * Math.sin(Ls * rad), cd = Math.cos(Math.asin(sd));
+    const ch = (Math.cos(zen * rad) - sd * Math.sin(lat * rad)) / (cd * Math.cos(lat * rad));
+    if (ch > 1 || ch < -1) return "";
+    const H = (rise ? 360 - Math.acos(ch) / rad : Math.acos(ch) / rad) / 15;
+    const loc = ((H + RA - 0.06571 * t - 6.622 - lh + 8) % 24 + 24) % 24;
+    return `${Math.floor(loc)}:${String(Math.floor(loc % 1 * 60)).padStart(2, "0")}`;
+  }
+  const today = new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);  // Datum in China
+  let itinDay = (ITIN.days.find(d => d.date >= today) || ITIN.days[ITIN.days.length - 1] || {}).date;
+  let itinShown = null; try { itinShown = localStorage.getItem("itinShown"); } catch {}
+  let itinOpt = false; try { itinOpt = localStorage.getItem("itinOpt") === "1"; } catch {}  // optionale Vorschläge zeigen
+  const dayItems = d => itinOpt || !d.core ? d.items : d.core;
+  const spotOf = id => places.find(p => p.id === id);
+  const fmtMin = m => m >= 60 ? `${Math.floor(m / 60)} h${m % 60 ? " " + String(m % 60).padStart(2, "0") : ""}` : `${m} Min.`;
+  const MODE = { car: "🚗", walk: "🚶", train: "🚄", shuttle: "🚡" };
+  const LIGHT_ICON = { dawn: "🌌", sunrise: "🌅", golden: "🌇", day: "☀️", midday: "🕛", indoor: "🪟", sunset: "🌇", blue: "🌃", night: "🌙" };
+  const timeHtml = t => { if (!t) return ""; const [a, b] = t.split(/[–-]/); return b ? `${esc(a)}<small>bis ${esc(b)}</small>` : esc(a); };
+  const lightHtml = it => it.light ? `<div class="ilight l-${esc(it.light)}">${LIGHT_ICON[it.light] || ""} ${esc(it.lightText || "")}</div>` : "";
+  let itinLb = [];  // Bildlisten je Karte für die Vollbildansicht
+  // Instagram: Posts des Spots + Instagram-Spots in der Nähe (≤ 3 km)
+  const igPosts = p => (p.posts || []).filter(x => /instagram\.com\//.test(x.url || ""));
+  const igNear = p => places.filter(q => q.id !== p.id && igPosts(q).length && dist(p, q) <= 3000)
+    .map(q => ({ q, d: dist(p, q) })).sort((a, b) => a.d - b.d).slice(0, 3);
+  function igHtml(p) {
+    const own = igPosts(p), seen = new Set(), near = igNear(p);
+    const links = own.filter(x => { const u = x.url.split("?")[0]; if (seen.has(u)) return false; seen.add(u); return true; }).slice(0, 6)
+      .map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">📸 ${x.username ? "@" + esc(x.username) : "Post"} ↗</a>`).join("");
+    const nb = near.map(({ q, d }) => `<button data-spot="${esc(q.id)}">📸 ${esc(shortName(q.name))} · ${d < 950 ? Math.round(d / 10) * 10 + " m" : (d / 1000).toFixed(1) + " km"}</button>`).join("");
+    return (links ? `<div class="iig">${links}</div>` : "") + (nb ? `<div class="iig" title="Instagram-Spots in der Nähe">${nb}</div>` : "");
+  }
+  function stopCard(it, date) {
+    const p = spotOf(it.spot); if (!p) return "";
+    const imgs = imgsOf(p).map(x => x.image), k = itinLb.push({ p }) - 1;
+    const kind = p.by_claude ? `<span class="b-cl">✦ Claude-Tipp</span>` : `<span class="b-ig">📸 Instagram</span>`;
+    const tip = p.tip || p.note || "";
+    return `<div class="icard">
+      ${p.image ? `<div class="ihero" data-lb="${k}" data-i="0"><img src="${esc(p.image)}" alt="" loading="lazy">${imgs.length > 1 ? `<span class="icount">1/${imgs.length}</span>` : ""}</div>` : ""}
+      ${imgs.length > 1 ? `<div class="ithumbs">${imgs.slice(1, 9).map((src, i) => `<img src="${esc(src)}" alt="" loading="lazy" data-lb="${k}" data-i="${i + 1}">`).join("")}</div>` : ""}
+      <div class="ib"><h3>${esc(p.name)}</h3>
+        <div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}${kind}${p.category ? `<span class="b-hotel" style="background:rgba(148,163,184,.2);color:inherit">${esc(p.category)}</span>` : ""}</div>
+        ${lightHtml(it)}
+        ${fcHtml(p.id, date)}
+        ${it.text ? `<p>${esc(it.text)}</p>` : ""}
+        ${igHtml(p)}
+        ${tip && tip !== it.text ? `<details class="itip"><summary>Foto-Tipps & Infos</summary>${esc(tip)}</details>` : ""}
+        <div class="iact"><button data-spot="${esc(p.id)}">📍 Auf der Karte</button>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}" target="_blank" rel="noopener">Route ↗</a></div></div></div>`;
+  }
+  function hotelCard(it) {
+    const H = ITIN.hotels[it.name] || {}, k = itinLb.push({ hotel: H }) - 1, ph = H.photos || [];
+    return `<div class="icard">
+      ${ph.length ? `<div class="ihero" data-lb="${k}" data-i="0"><img src="${esc(ph[0])}" alt="" loading="lazy">${ph.length > 1 ? `<span class="icount">1/${ph.length}</span>` : ""}</div>` : ""}
+      ${ph.length > 1 ? `<div class="ithumbs">${ph.slice(1).map((src, i) => `<img src="${esc(src)}" alt="" loading="lazy" data-lb="${k}" data-i="${i + 1}">`).join("")}</div>` : ""}
+      <div class="ib"><h3>🏨 ${esc(H.name || it.name)}</h3>
+        <div class="ibadges"><span class="b-hotel">${esc(it.label || "Unterkunft")}</span>${H.booked === false ? `<span class="b-open">noch nicht gebucht</span>` : ""}</div>
+        ${H.zh ? `<p class="itip">${esc(H.zh)}</p>` : ""}
+        <p>${esc([H.dates, H.room].filter(Boolean).join(" · "))}</p>
+        ${H.note ? `<p class="itip">${esc(H.note)}</p>` : ""}
+        <p class="itip">${esc(H.address || "")}${H.approx ? " · Pin ungefähr" : ""}</p>
+        <div class="iact">${H.lat ? `<button data-ll="${H.lat},${H.lng}">📍 Auf der Karte</button><a href="https://www.google.com/maps/dir/?api=1&destination=${H.lat},${H.lng}" target="_blank" rel="noopener">Route ↗</a>` : ""}
+          ${H.link ? `<a href="${esc(H.link)}" target="_blank" rel="noopener">Trip.com ↗</a>` : ""}</div></div></div>`;
+  }
+  function renderItin() {
+    const d = ITIN.days.find(x => x.date === itinDay) || ITIN.days[0]; if (!d) return;
+    $("#itinDays").innerHTML = ITIN.days.map(x => { const [w, dm] = dayLabel(x).split(" ");
+      return `<button data-day="${x.date}" class="${x.date === d.date ? "on" : ""}${x.date === today ? " today" : ""}">${w}<b>${dm.split(".")[0]}</b>${dm.split(".")[1]}.</button>`; }).join("");
+    const items = dayItems(d), nOpt = d.items.filter(it => it.opt && it.type !== "move").length;
+    $("#itinOpt").innerHTML = `<button data-o="0" class="${itinOpt ? "" : "on"}">★ Nur Reiseplan</button><button data-o="1" class="${itinOpt ? "on" : ""}">＋ Optionale Spots${nOpt ? ` (${nOpt})` : ""}</button>`;
+    const first = items.find(it => it.lat) || {}, dd = dayDate(d);
+    const sun = first.lat ? [sunTime(first.lat, first.lng, dd, true), sunTime(first.lat, first.lng, dd, false), sunTime(first.lat, first.lng, dd, false, 96)] : null;
+    itinLb = [];
+    const body = items.map(it => {
+      if (it.type === "move") return `<div class="imove"><div></div><div>${MODE[it.mode] || "➜"} <b>${it.min ? fmtMin(it.min) : ""}</b>${it.km ? ` · ${it.km} km` : ""}${it.text ? ` · ${esc(it.text)}` : ""}</div></div>`;
+      const card = it.type === "stop" ? stopCard(it, d.date) : it.type === "hotel" ? hotelCard(it)
+        : `<div class="icard"><div class="iinfo"><span class="iic">${esc(it.icon || "•")}</span><div><h3>${esc(it.title || "")}</h3>
+            ${it.plan || it.opt ? `<div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}</div>` : ""}${lightHtml(it)}${it.text ? `<p>${esc(it.text)}</p>` : ""}
+            ${(it.spots || []).length ? `<div class="iact">${it.spots.map(id => spotOf(id)).filter(Boolean).map(p => `<button data-spot="${esc(p.id)}">📍 ${esc(shortName(p.name))}</button>`).join("")}</div>` : ""}</div></div></div>`;
+      return `<div class="ic${it.opt ? " opt" : ""}"><div class="itm">${timeHtml(it.t)}</div>${card}</div>`;
+    }).join("");
+    const on = itinShown === d.date;
+    $("#itinBody").innerHTML = `<div class="idh"><h2>${dayLabel(d)} · ${esc(d.title)}${d.status && d.status !== "fest" ? `<span class="ist">${esc(d.status)}</span>` : ""}</h2>
+      ${sun ? `<div class="isun"><span>🌅 Aufgang ${sun[0]}</span><span>🌇 Untergang ${sun[1]}</span><span>🌃 blaue Stunde bis ${sun[2]}</span></div>` : ""}
+      <button class="imapb" data-map="${d.date}">${on ? "✕ Tagesroute ausblenden" : "🗺 Tagesroute auf der Karte"}</button></div>` + body;
+    const db = $("#itinDays").querySelector("button.on"); if (db) db.scrollIntoView({ inline: "center", block: "nearest" });
+  }
+  // Tagesroute: Etappen (Auto mit Straßenverlauf, Zug gestrichelt) und nummerierte Stopps mit Uhrzeit
+  let itinLayer = null;
+  function drawItin(fit) {
+    if (itinLayer) { itinLayer.remove(); itinLayer = null; }
+    const d = itinShown && ITIN.days.find(x => x.date === itinShown);
+    itinBtn.classList.toggle("on", !!d);
+    if (!d) return;
+    const items = dayItems(d), parts = [], pts = items.filter(it => it.lat), seen = new Map();
+    items.forEach((it, i) => {
+      if (it.type !== "move") return;
+      const a = [...items.slice(0, i)].reverse().find(x => x.lat), b = items.slice(i + 1).find(x => x.lat); if (!a || !b) return;
+      const path = it.path || [[a.lat, a.lng], [b.lat, b.lng]];
+      parts.push(L.polyline(path, it.mode === "car" ? { color: "#0f766e", weight: 3, opacity: .75, interactive: false }
+        : { color: it.mode === "train" ? "#475569" : "#0f766e", weight: 3, opacity: .75, dashArray: "3 8", interactive: false }));
+      const mid = path[Math.floor(path.length / 2)];
+      if (it.min) parts.push(L.marker(mid, { interactive: false, zIndexOffset: 1500, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
+        html: `<div class="leg-time" style="background:#0f766e">${MODE[it.mode] || ""} ${fmtMin(it.min)}</div>` }) }));
+    });
+    let n = 0;
+    pts.forEach(it => { delete it._n; });
+    pts.forEach(it => {
+      const key = it.lat.toFixed(4) + "," + it.lng.toFixed(4), name = it.type === "stop" ? shortName((spotOf(it.spot) || {}).name || "") : it.type === "hotel" ? "🏨 " + shortName((ITIN.hotels[it.name] || {}).name || it.name) : it.title || "";
+      const label = `${it.t ? esc(it.t.split(/[–-]/)[0]) + " " : ""}${esc(name)}`;
+      if (seen.has(key)) { seen.get(key).push(label); return; }
+      seen.set(key, [label]); it._n = ++n; it._key = key;
+    });
+    pts.filter(it => it._n).forEach(it => parts.push(L.marker([it.lat, it.lng], { interactive: false, zIndexOffset: 2000, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
+      html: `<div class="tour-stop"><b style="background:#0f766e">${it._n}</b><span>${seen.get(it._key).join(" · ")}</span></div>` }) })));
+    itinLayer = L.layerGroup(parts).addTo(map);
+    if (fit && pts.length) { if (mobile()) setSnap("peek"); map.fitBounds(L.latLngBounds(pts.map(x => [x.lat, x.lng])), { padding: [50, 50], animate: false }); }
+  }
+  function showItinDay(date, fit) { itinShown = date; try { date ? localStorage.setItem("itinShown", date) : localStorage.removeItem("itinShown"); } catch {} drawItin(fit); }
+  itinBtn.onclick = e => { e.stopPropagation(); if (itinShown) itinDay = itinShown; renderItin(); $("#itin").hidden = false; $("#itinBody").scrollTop = 0; };
+  $("#itinClose").onclick = () => { $("#itin").hidden = true; };
+  $("#itinOpt").addEventListener("click", e => { const b = e.target.closest("button[data-o]"); if (!b) return;
+    itinOpt = b.dataset.o === "1"; try { localStorage.setItem("itinOpt", itinOpt ? "1" : "0"); } catch {} renderItin(); drawItin(false); });
+  $("#itinDays").addEventListener("click", e => { const b = e.target.closest("button[data-day]"); if (!b) return; itinDay = b.dataset.day; renderItin(); $("#itinBody").scrollTop = 0; });
+  $("#itinBody").addEventListener("click", e => {
+    const im = e.target.closest("[data-lb]");
+    if (im) { const x = itinLb[+im.dataset.lb], i = +im.dataset.i;
+      if (x.p) lbOpen(x.p, i); else lbOpen({ name: x.hotel.name || "Hotel", posts: (x.hotel.photos || []).map(src => ({ image: src, url: x.hotel.link || src, credit: "Trip.com" })) }, i);
+      return; }
+    const b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.map) { showItinDay(itinShown === b.dataset.map ? null : b.dataset.map, true); if (itinShown) $("#itin").hidden = true; else renderItin(); return; }
+    if (b.dataset.spot || b.dataset.ll) {
+      if (itinShown !== itinDay) showItinDay(itinDay, false);
+      $("#itin").hidden = true; if (mobile()) setSnap("peek");
+      const p = b.dataset.spot && spotOf(b.dataset.spot), [la, ln] = p ? [p.lat, p.lng] : b.dataset.ll.split(",").map(Number);
+      map.setView([la, ln], Math.max(map.getZoom(), 16), { animate: false });
+      if (p) { if (!shown.has(p.id)) { stickyId = p.id; renderList(); }
+        const m = markers.get(p.id); if (m) setTimeout(() => cluster.zoomToShowLayer(m, () => openSpot(m)), 350); }
+    }
+  });
+  drawItin(false);
+  // ---------- Symbolleiste unten
+  const DLG = { plan: "#itin", tours: "#toursDlg", insp: "#insp", set: "#settings" };
+  // ---------- Einstellungen
+  const SET_DEF = { theme: "auto", engine: "auto", mapColor: "app", hotels: true, pins: "normal" };
+  const SETS = [
+    ["Darstellung", [["theme", "Erscheinungsbild", [["auto", "Automatisch"], ["light", "Hell"], ["dark", "Dunkel"]], "Automatisch folgt der Einstellung des iPhones."]]],
+    ["Karte", [
+      ["engine", "Kartenanbieter", [["auto", "Automatisch"], ["google", "Google"], ["osm", "OSM"], ["rotate", "Drehbar"]], "Automatisch: Google, in Festland-China OpenStreetMap (Google ist dort verschoben). Drehbar: OpenStreetMap/Satellit mit zwei Fingern drehen. Wechsel lädt die App neu."],
+      ["mapColor", "Kartenfarbe", [["app", "Wie App"], ["light", "Hell"], ["dark", "Dunkel"]], "Bei Google wirkt die Änderung nach dem Neuladen."],
+      ["pins", "Spot-Pins", [["normal", "Normal"], ["big", "Groß"]], ""],
+      ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
+  ];
+  const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
+  function renderSettings() {
+    $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
+      `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
+      + `<div class="sgrp">App</div><div class="scard"><div class="srow"><b>Neu laden</b><div class="seg2"><button data-reload="1">Jetzt neu laden</button></div><small>Holt die neueste Version und alle Daten.</small></div></div>`;
+  }
+  $("#setBody").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.reload) return location.reload();
+    const k = b.dataset.k; let v = b.dataset.v; if (v === "true") v = true; else if (v === "false") v = false;
+    const old = setVal(k); window.SETTINGS[k] = v;
+    try { localStorage.setItem("settings", JSON.stringify(window.SETTINGS)); } catch {}
+    applyTheme(); renderSettings();
+    if (k === "engine" && old !== v) { toast("Karte wird gewechselt …", 1500); setTimeout(() => location.replace(location.pathname + location.hash), 600); }
+    if (k === "mapColor" && GMAP) toast("Google-Karte: wirkt nach dem Neuladen", 2500);
+  });
+  $("#setClose").onclick = () => { $("#settings").hidden = true; };
+  const dockSync = () => {
+    const open = Object.keys(DLG).find(k => !$(DLG[k]).hidden);
+    $("#dock").querySelectorAll("button[data-d]").forEach(b => {
+      const d = b.dataset.d;
+      b.classList.toggle("on", d === "fav" ? $("#fMore").value === "fav" : d === "map" ? !open : d === open);
+    });
+    $("#dock [data-d=plan]").classList.toggle("dot", !!itinShown);
+    $("#dock [data-d=tours]").classList.toggle("dot", !!activeTour);
+  };
+  $("#dock").addEventListener("click", e => {
+    const b = e.target.closest("button[data-d]"); if (!b) return; e.stopPropagation();
+    const d = b.dataset.d, wasOpen = DLG[d] && !$(DLG[d]).hidden;
+    Object.values(DLG).forEach(sel => { $(sel).hidden = true; });
+    map.closePopup();
+    if (d === "plan" && !wasOpen) itinBtn.onclick(e);
+    else if (d === "tours" && !wasOpen) openTours();
+    else if (d === "insp" && !wasOpen) openInsp();
+    else if (d === "set" && !wasOpen) { renderSettings(); $("#settings").hidden = false; }
+    else if (d === "fav") { const f = $("#fMore"); f.value = f.value === "fav" ? "" : "fav"; f.dispatchEvent(new Event("change"));
+      toast(f.value === "fav" ? "❤ Nur Merkliste (Favoriten)" : "Alle Spots", 1500); if (mobile()) setSnap("half"); }
+    dockSync();
+  });
+  // Leiste ein-/ausklappen (gemerkt)
+  const setDock = h => { document.body.classList.toggle("dock-hidden", h); try { localStorage.setItem("dockHidden", h ? "1" : "0"); } catch {} };
+  try { if (localStorage.getItem("dockHidden") === "1") document.body.classList.add("dock-hidden"); } catch {}
+  $("#dock .dhide").addEventListener("click", e => { e.stopPropagation(); setDock(true); });
+  $("#dockTab").addEventListener("click", e => { e.stopPropagation(); setDock(false); if (mobile() && sheetSnap !== "peek") setSnap("peek"); });
+  // Fenster schließen sich auch über ✕ → Leiste nachziehen
+  new MutationObserver(dockSync).observe(document.body, { subtree: true, attributes: true, attributeFilter: ["hidden"] });
+  $("#fMore").addEventListener("change", dockSync);
+  dockSync();
   function lbOpen(p, i) { lb.list = spotImages(p); lb.name = p.name.replace(/\s[\u3000-\u9fff].*$/, ""); lb.el.hidden = false; lbShow(i); }
   const lbClose = () => { lb.el.hidden = true; $("#lbImg").src = ""; };
   $("#lbClose").onclick = lbClose;
@@ -1434,7 +2442,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   fitRegion();
 
   // ---------- Liste
-  const unplacedAll = [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])];
+  function unplacedScope() {  // Posts ohne Ort im gewählten Bereich (Route/Alles: alle), passend zur Suche
+    const q = ($("#search") ? $("#search").value : "").trim().toLowerCase();
+    // Posts ohne Ort der gewählten Regionen (Schalter „📍 Posts ohne genauen Ort zeigen“)
+    return places.filter(p => p.noloc && showNl && !routeF && inRegion(p)
+      && (!q || [p.username, p.caption].join(" ").toLowerCase().includes(q)));
+  }
   const prioRank = p => ({ hoch: 0, mittel: 1, gering: 2, nein: 4 })[st(p.id).prio] ?? 3;
   // Sichtbarer Kartenbereich ohne die Fläche, die das Panel verdeckt
   // im Ausschnitt = Pin bzw. sein Gruppenkreis liegt sichtbar im Ausschnitt (so wie man es auf der Karte sieht)
@@ -1442,7 +2455,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const m = markers.get(p.id), vp = m && cluster.getVisibleParent(m), ll = vp && vp.getLatLng ? vp.getLatLng() : null;
     return vb.contains(ll ? [ll.lat, ll.lng] : [p.lat, p.lng]);
   }
-  function visibleBounds() {
+  // sichtbarer Kartenbereich in Containerpixeln (ohne Filterleiste oben und Liste unten/links)
+  function visibleRect() {
     const r = map.getContainer().getBoundingClientRect(), sh = $("#sheet").getBoundingClientRect();
     // oben: nur unterhalb der Filterleiste (Bereich · Fotos · Food · Tipps)
     let x0 = 0, y0 = Math.max(0, Math.min($("#group").getBoundingClientRect().bottom - r.top, r.height - 60)), x1 = r.width, y1 = r.height;
@@ -1453,6 +2467,16 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       try { top = sh.top - snapY(sheetSnap) + snapY("peek"); } catch {}  // Oberkante der Liste im eingeklappten Zustand
       y1 = Math.max(top - r.top, 60);
     }
+    return { x0, y0, x1, y1, w: r.width, h: r.height };
+  }
+  // Punkt in die Mitte des sichtbaren Bereichs setzen (nicht in die Mitte hinter der Liste)
+  function centerVisible(ll, z) {
+    map.setView(ll, z == null ? map.getZoom() : z, { animate: false });
+    const v = visibleRect();
+    map.panBy([v.w / 2 - (v.x0 + v.x1) / 2, v.h / 2 - (v.y0 + v.y1) / 2], { animate: false });
+  }
+  function visibleBounds() {
+    const { x0, y0, x1, y1 } = visibleRect();
     // alle vier Ecken: bei gedrehter Karte ist der Ausschnitt nicht nach Norden ausgerichtet
     return L.latLngBounds([[x0, y0], [x1, y0], [x0, y1], [x1, y1]].map(pt => map.containerPointToLatLng(pt)));
   }
@@ -1482,6 +2506,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         : here() ? a._d - b._d : prioRank(a) - prioRank(b));
     order = items.map(p => p.id);
     $("#group").querySelectorAll("button[data-g]").forEach(x => x.classList.toggle("on", groups.has(x.dataset.g)));
+    { const t = $("#group [data-nltop]"); if (t) { t.classList.toggle("on", showNl); t.hidden = routeF || !places.some(p => p.noloc && inRegion(p)); } }
+
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
@@ -1491,28 +2517,29 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
     const head = (p, i) => sortBy === "area" && (i === 0 || items[i - 1]._a !== p._a)
       ? `<li class="sec areahead">${esc(p._a)} <small>(${items.filter(x => x._a === p._a).length})</small></li>` : "";
+    const nlist = unplacedScope();
+    const noloc = nlist.length ? `<li class="sec">📍 Ohne genauen Ort <small>(${nlist.length} Posts – antippen zeigt den Pin)</small></li>
+      <li class="sec" style="padding:0;border:0"><div class="ugrid">${nlist.map(x => `<a href="#" data-nl="${esc(x.id)}">
+        ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>@${esc(x.username)}</span></a>`).join("")}</div></li>
+      ${items.length ? `<li class="sec">Spots</li>` : ""}` : "";
+    if (nlist.length) $("#count").textContent = `${items.length ? items.length + " Orte · " : ""}${nlist.length} ohne Ort`;
     if (view === "grid") {
-      setList(items.length ? items.map((p, i) => { const s = st(p.id); return `${head(p, i)}
+      setList(noloc + (items.length ? items.map((p, i) => { const s = st(p.id); return `${head(p, i)}
         <li class="gi${s.done ? " done" : ""}" data-id="${esc(p.id)}">
           ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}
           <div class="badge">${s.fav ? "<span class=\"fav-badge\">❤</span>" : ""}${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
           <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : ""].filter(Boolean).join(" · "))}${here() ? ` · <span class="dist">${fmt(p._d)}</span>` : ""}</small></div>
-        </li>`; }).join("") : `<li id="empty">Keine Treffer.</li>`);
+        </li>`; }).join("") : noloc ? "" : `<li id="empty">Keine Treffer.</li>`));
       return;
     }
-    const unplaced = unplacedAll.filter(x => routeF || region === "all" || (x.region || "hk") === region);
-    const extra = unplaced.length && !filtered ? `
-      <li class="sec">Ohne konkreten Ort <small>(${unplaced.length} Posts – Inspiration)</small></li>
-      <li class="sec" style="padding:0;border:0"><div class="ugrid">${unplaced.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">
-        ${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : ""}<span>${esc(who(x))}</span></a>`).join("")}</div></li>` : "";
-    setList((items.length ? items.map((p, i) => `${head(p, i)}
+    setList(noloc + (items.length ? items.map((p, i) => `${head(p, i)}
       <li data-id="${esc(p.id)}">
         ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
           ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${esc([p.category, p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
         ${here() ? `<div class="d"><span class="dist">${fmt(p._d)}</span></div>` : ""}
       </li>`).join("")
-      : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`) + extra);
+      : noloc ? "" : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`));
   }
   // Liste nur neu aufbauen, wenn sich Auswahl/Reihenfolge/Inhalt ändert – sonst flackern alle Bilder.
   // Reine Entfernungs-Updates (Standort läuft mit) ändern nur die Zahlen.
@@ -1538,6 +2565,16 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const top = el.scrollTop; el.replaceChildren(...next); el.scrollTop = top;
   }
   $("#list").addEventListener("click", e => {
+    const nl = e.target.closest("[data-nl]");
+    if (nl) {  // Post ohne Ort: Pin in der Region zeigen und öffnen
+      e.preventDefault(); const p = places.find(x => x.id === nl.dataset.nl); if (!p) return;
+      if (!map._popup || !map.hasLayer(map._popup)) saveView();
+      stickyId = p.id; renderList();
+      if (mobile()) setSnap("peek");
+      map.setView([p.lat, p.lng], Math.max(map.getZoom(), 12), { animate: false });
+      const m = markers.get(p.id); if (m) setTimeout(() => cluster.zoomToShowLayer(m, () => openSpot(m)), 300);
+      return;
+    }
     const li = e.target.closest("li[data-id]"); if (!li) return;
     if (!map._popup || !map.hasLayer(map._popup)) saveView();
     const m = markers.get(li.dataset.id);
@@ -1570,6 +2607,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function moveTo(y, animate) {
     sheet.style.transition = animate ? "" : "none";
     sheet.style.transform = `translateY(${y}px)`;
+    // entweder Liste offen oder Leiste – nach der tatsächlichen Höhe der Liste (auch beim Ziehen)
+    try { document.body.classList.toggle("dock-auto", mobile() && y < snapY("peek") - 30); } catch {}
   }
   function setSnap(name, animate = true) {
     sheetSnap = name;
@@ -1664,6 +2703,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
 
   // Kartenwahl passt nicht zum Standort (z.B. gerade nach Festland-China gereist) → einmal neu laden mit passender Karte
   function switchMapForRegion(p) {
+    if ((window.SETTINGS.engine || "auto") !== "auto") return;  // fest gewählter Kartenanbieter
     const q = location.search, wantOsm = inMainland(p), haveGoogle = !!(GMAP || gKey);
     let target = null;
     if (wantOsm && haveGoogle && !/[?&]google\b/.test(q)) target = "?klassisch";                   // nach China gereist
@@ -1694,15 +2734,15 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         zIndexOffset: 1000, interactive: false }).addTo(map);
     } else { meMarker.setLatLng(ll); meCircle.setLatLng(ll).setRadius(pos.coords.accuracy); }
     if (first && window.DeviceOrientationEvent && typeof DeviceOrientationEvent.requestPermission !== "function") startCompass();  // ohne Rückfrage möglich (Android)
-    const np = places.reduce((m, p) => !m || dist(me, p) < dist(me, m) ? p : m, null);
+    const np = places.reduce((m, p) => p.noloc ? m : !m || dist(me, p) < dist(me, m) ? p : m, null);
     const nearest = np ? dist(me, np) : Infinity;
     const wasNear = nearSpots; nearSpots = nearest < 50e3;
-    if (first && nearSpots && (where === "hk" || where === "cn") && regionOf(np) !== where) setWhere(regionOf(np), false);  // vor Ort automatisch die passende Region
-    if (first && nearSpots) map.setView(ll, Math.max(map.getZoom(), 15));
+    if (first && nearSpots && !routeF && regs.size === 1 && !regs.has(subOf(np))) setWhere(false, [subOf(np)], false);  // vor Ort automatisch die passende Region
+    if (first && nearSpots) centerVisible(ll, Math.max(map.getZoom(), 15));
     if (first && !nearSpots && places.length) toast(`Du bist ${fmt(nearest)} vom nächsten Spot entfernt – Entfernungen erscheinen vor Ort.`, 4500);
     if (wasNear !== nearSpots) lastListUpdate = 0;
-    if (!first && follow) map.panTo(ll);
-    if (Date.now() - lastListUpdate > 5000) { lastListUpdate = Date.now(); renderList(); }
+    if (!first && follow && !popupOpen()) centerVisible(ll);
+    if (Date.now() - lastListUpdate > 5000 && !popupOpen() && !stepping && !navigating) { lastListUpdate = Date.now(); renderList(); }
   }
   // Standort robust verfolgen: iOS beendet die Abfrage gern nach Zeitüberschreitung (Gebäude, MTR, Häuserschluchten)
   // oder wenn die App im Hintergrund war – dann still neu starten statt stehen zu bleiben.
@@ -1766,10 +2806,18 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   $("#locate").addEventListener("click", () => {
     startCompass();
+    if (!navigator.geolocation) return toast("Standort wird nicht unterstützt.");
+    if (!me || Date.now() - lastFix > 20000) {  // noch kein (frischer) Standort: neu abfragen und dann hinspringen
+      toast("Suche Standort …", 2000);
+      restartWatch(); startWatch();
+      navigator.geolocation.getCurrentPosition(pos => { lastFix = Date.now(); onPos(pos); follow = true; $("#locate").classList.add("follow");
+        centerVisible([me.lat, me.lng], Math.max(map.getZoom(), 16)); }, onErr, { enableHighAccuracy: true, maximumAge: 10000, timeout: 15000 });
+      return;
+    }
     startWatch();
-    if (me) { follow = !follow; $("#locate").classList.toggle("follow", follow);
-      map.setView([me.lat, me.lng], Math.max(map.getZoom(), 16));
-      toast(follow ? "Karte folgt deinem Standort" : "Folgen aus"); }
+    follow = !follow; $("#locate").classList.toggle("follow", follow);
+    centerVisible([me.lat, me.lng], Math.max(map.getZoom(), 16));
+    toast(follow ? "Karte folgt deinem Standort" : "Folgen aus");
   });
   map.on("dragstart", () => { if (follow) { follow = false; $("#locate").classList.remove("follow"); } });
 
@@ -2152,8 +3200,140 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     addToInbox(add, q.get("where") || q.get("ort") || "");
   })();
 
+
+  // ---------- Fotos & Links direkt an einem Spot ergänzen (data/spot-extras.json + uploads/ im Branch map-data)
+  // Fotos erscheinen sofort im Spot; Links stehen sofort im Spot und gehen zusätzlich in den Eingang,
+  // die Routine übernimmt daraus Fotos/Infos für genau diesen Spot (Feld „spot“).
+  const EXTRAS_PATH = "data/spot-extras.json";
+  let spotExtras = {};
+  function applyExtras(id) {
+    const p = places.find(x => x.id === id); if (!p) return;
+    const ex = spotExtras[id] || [];
+    if (!p._orig) p._orig = { posts: (p.posts || []).filter(x => !x.own), image: p.image };
+    const hidden = new Set(ex.filter(x => x.type === "hide").map(x => x.image));
+    p.posts = p._orig.posts.filter(x => !x.image || !hidden.has(x.image));
+    p.image = p._orig.image && !hidden.has(p._orig.image) ? p._orig.image : ((p.posts.find(x => x.image) || {}).image || null);
+    p.ownImage = false;
+    const photos = ex.filter(x => x.type === "photo").map(x => ({ own: true, kind: "photo", image: x.path, url: x.path,
+      profile_url: x.path, username: "", caption: x.note || "", credit: "Eigenes Foto" + (x.added ? " · " + x.added.slice(0, 10) : "") }));
+    p.posts = [...p.posts, ...photos];
+    if (!p.image && photos.length) { p.image = photos[0].image; p.ownImage = true; }
+    if (p.ownImage && !photos.length) { p.image = null; p.ownImage = false; }
+    p.xlinks = ex.filter(x => x.type === "link");
+    const m = markers.get(id); if (m && typeof iconFor === "function") { try { m.setIcon(iconFor(p)); } catch {} }
+  }
+  // Eigene Fotos/Links laden: erst über die API (mit Token), sonst/bei Fehler direkt aus dem Repo; bei Fehlschlag erneut versuchen
+  let extrasTry = 0;
+  async function loadExtras() {
+    let d = null;
+    const token = store.get(TOKEN_KEY);
+    if (token) { try { d = (await ghGet(token, EXTRAS_PATH, {})).list; } catch (e) { console.warn("Spot-Extras (API):", e); } }
+    if (!d) { try { d = await rawJson(EXTRAS_PATH, null); } catch (e) { console.warn("Spot-Extras (raw):", e); } }
+    if (!d) { if (++extrasTry < 6) setTimeout(loadExtras, 5000 * extrasTry); return; }
+    extrasTry = 0;
+    const old = Object.keys(spotExtras);
+    spotExtras = typeof d === "object" && !Array.isArray(d) ? d : {};
+    [...new Set([...old, ...Object.keys(spotExtras)])].forEach(applyExtras);
+  }
+  // zurück in die App → eigene Fotos neu laden (z.B. von einem anderen Gerät hochgeladen)
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") loadExtras(); });
+  // Foto verkleinern (max. 1600 px, JPEG) → Base64 ohne Präfix
+  function shrink(file) {
+    return new Promise((res, rej) => {
+      const img = new Image(), url = URL.createObjectURL(file);
+      img.onload = () => {
+        const k = Math.min(1, 1600 / Math.max(img.width, img.height)), c = document.createElement("canvas");
+        c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+        c.getContext("2d").drawImage(img, 0, 0, c.width, c.height); URL.revokeObjectURL(url);
+        res(c.toDataURL("image/jpeg", 0.85).split(",")[1]);
+      };
+      img.onerror = () => { URL.revokeObjectURL(url); rej(new Error("Bild nicht lesbar")); };
+      img.src = url;
+    });
+  }
+  // Fotos landen im Seiten-Branch (uploads/…): dann kommen sie von derselben Adresse wie die App –
+  // raw.githubusercontent.com ist in China oft gesperrt. Bis GitHub Pages neu gebaut hat (~1 Min.) springt die Anzeige auf raw zurück.
+  async function uploadFile(path, b64, message) {
+    const token = store.get(TOKEN_KEY); if (!token) throw new Error("Kein GitHub-Token");
+    const r = await fetch(ghUrl(path), { method: "PUT", headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` },
+      body: JSON.stringify({ message, branch: GH.branch, content: b64 }) });
+    if (!r.ok) throw new Error(`Upload: GitHub ${r.status}`);
+  }
+  // Foto aus einem Spot entfernen: eigene Uploads werden gelöscht, alle anderen Fotos nur für diesen Spot ausgeblendet
+  async function removePhoto(id, i) {
+    const p = places.find(x => x.id === id); if (!p) return;
+    const x = imgsOf(p)[i]; if (!x || !x.image) return;
+    if (!confirm(x.own ? "Eigenes Foto löschen?" : "Foto aus diesem Spot entfernen?")) return;
+    if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+    try {
+      const next = await mutate(d => {
+        d = d && !Array.isArray(d) ? d : {}; const l = d[id] || [];
+        d[id] = x.own ? l.filter(e => !(e.type === "photo" && (e.path === x.image || rawUrl(e.path) === x.image)))
+          : l.some(e => e.type === "hide" && e.image === x.image) ? l : [...l, { type: "hide", image: x.image, added: new Date().toISOString() }];
+        if (!d[id].length) delete d[id];
+        return d;
+      }, `Spot-Extras: Foto entfernt (${id})`, EXTRAS_PATH, {});
+      spotExtras = next; applyExtras(id);
+      toast("Foto entfernt", 1800);
+      map.closePopup(); const m = markers.get(id); if (m) setTimeout(() => openSpot(m), 250);
+    } catch (e) { toast(e.message, 5000); }
+  }
+  function openExtraAdd(id) {
+    const box = $("#tourPick"), p = places.find(x => x.id === id); if (!p) return;
+    let files = [];
+    box.innerHTML = `<div class="tpcard"><div class="tphead"><b>＋ ${esc(shortName(p.name))}</b><button class="tpclose" aria-label="Schließen">✕</button></div>
+      <div class="xa-row"><label class="xa-pick">📷 Fotos auswählen<input type="file" accept="image/*" multiple></label><div class="xa-thumbs"></div></div>
+      <div class="xa-row"><input type="url" placeholder="Link (Instagram, Xiaohongshu, Blog, Maps …) – optional"></div>
+      <div class="xa-row"><textarea rows="2" placeholder="Notiz (optional)"></textarea></div>
+      <button class="xa-save" disabled>Hinzufügen</button>
+      <p class="thint">Fotos erscheinen sofort im Spot. Aus Links holt die Routine Fotos und Infos (ca. 1 Stunde).</p></div>`;
+    const fi = box.querySelector("input[type=file]"), li = box.querySelector("input[type=url]"), ta = box.querySelector("textarea"), sv = box.querySelector(".xa-save");
+    const upd = () => { sv.disabled = !files.length && !/^https?:\/\//i.test(firstUrl(li.value)); };
+    fi.onchange = () => { files = [...fi.files]; box.querySelector(".xa-thumbs").innerHTML = files.map(f => `<img src="${URL.createObjectURL(f)}" alt="">`).join(""); upd(); };
+    li.oninput = upd;
+    box.querySelector(".tpclose").onclick = () => { box.hidden = true; };
+    sv.onclick = async () => {
+      if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+      sv.disabled = true; const note = ta.value.trim(), link = firstUrl(li.value.trim()), added = new Date().toISOString();
+      try {
+        const items = [];
+        for (let i = 0; i < files.length; i++) {
+          sv.textContent = `Lade Foto ${i + 1}/${files.length} …`;
+          const path = `uploads/${id}/${Date.now()}_${i}.jpg`;
+          await uploadFile(path, await shrink(files[i]), `Foto für ${id}`);
+          items.push({ type: "photo", path, added, ...(note ? { note } : {}) });
+        }
+        if (/^https?:\/\//i.test(link)) {
+          items.push({ type: "link", url: link, added, ...(note ? { note } : {}) });
+          const kind = linkKind(link);
+          if (kind) await mutate(list => {
+            const entry = kind === "ig" ? { code: igCode(link), url: link.split("?")[0] } : { kind, id: linkId(kind, link), url: link };
+            if (list.some(x => (entry.code && x.code === entry.code) || (entry.id && x.id === entry.id))) return list;
+            return [...list, { ...entry, spot: id, spotName: p.name, ...(note ? { note } : {}), added }];
+          }, `Eingang: Link für Spot ${id}`, INBOX_PATH, []);
+        }
+        sv.textContent = "Speichere …";
+        const next = await mutate(d => { d = d && !Array.isArray(d) ? d : {}; d[id] = [...(d[id] || []), ...items]; return d; },
+          `Spot-Extras: ${items.length} für ${id}`, EXTRAS_PATH, {});
+        spotExtras = next; applyExtras(id);
+        box.hidden = true; toast(`✓ ${files.length ? files.length + " Foto(s)" : ""}${files.length && link ? " + " : ""}${link ? "Link" : ""} hinzugefügt`, 2500);
+        map.closePopup(); const m = markers.get(id); if (m) setTimeout(() => openSpot(m), 250);
+      } catch (e) { toast(e.message, 5000); sv.disabled = false; sv.textContent = "Hinzufügen"; }
+    };
+    box.hidden = false;
+  }
   loadMine();
+  loadExtras();
   loadStatus();
+  // Prognose laden (beim Start und beim Zurückkehren in die App, höchstens alle 30 Min.)
+  let fcLoaded = 0;
+  async function loadForecast() {
+    if (Date.now() - fcLoaded < 30 * 6e4) return; fcLoaded = Date.now();
+    try { const f = await rawJson("data/forecast.json", null); if (f && f.stops) { FC = f; try { localStorage.setItem("forecast", JSON.stringify(f)); } catch {}
+      if (!$("#itin").hidden) renderItin(); } } catch (e) { fcLoaded = 0; }
+  }
+  loadForecast();
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) loadForecast(); });
   loadTours();
   loadWikiImages();
 

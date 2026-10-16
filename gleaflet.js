@@ -110,7 +110,7 @@
       let mapId = q.get("mapid"); try { if (mapId) localStorage.setItem("gmapId", mapId); else mapId = localStorage.getItem("gmapId"); } catch {}
       this._g = new (g().Map)(inner, { center: { lat: 0, lng: 0 }, zoom: 2, mapId: mapId || "DEMO_MAP_ID", renderingType: g().RenderingType.VECTOR,
         headingInteractionEnabled: true, tiltInteractionEnabled: true, gestureHandling: "greedy", disableDefaultUI: true, clickableIcons: false,
-        maxZoom: opts.maxZoom || 21, isFractionalZoomEnabled: true });
+        maxZoom: opts.maxZoom || 21, isFractionalZoomEnabled: true, ...(g().ColorScheme ? { colorScheme: document.documentElement.dataset.mapdark === "1" ? g().ColorScheme.DARK : g().ColorScheme.LIGHT } : {}) });
       this._popup = null; this._hooked = {};
       const ctr = this._ctr = document.createElement("div"); ctr.className = "leaflet-control-container";
       ctr.innerHTML = '<div class="leaflet-top leaflet-left"></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"></div>';

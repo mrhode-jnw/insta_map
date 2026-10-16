@@ -1,0 +1,793 @@
+{
+ "_doc": "Reiseplan Tag für Tag → tools/build_itinerary.py → data/itinerary.js. Items: stop (spot-ID), move (car/walk/train/shuttle; car ohne min wird per OSRM berechnet), info, hotel (Name aus data/trip.js oder eigenes Objekt). plan=true: steht im Reiseplan. light: dawn/sunrise/golden/day/midday/indoor/sunset/blue/night. opt=true: optionaler Vorschlag (in der App ausblendbar); ohne optionale Einträge rechnet das Build-Skript die Etappen neu (day.core).",
+ "days": [
+  {
+   "date": "2026-10-15",
+   "title": "Abholung · Sonnenuntergang Wuzhi Hill",
+   "status": "fest",
+   "items": [
+    {
+     "type": "info",
+     "t": "14:16",
+     "icon": "🚄",
+     "title": "Abholung Guilin West",
+     "text": "Zug G908, der Fahrer holt euch ab.",
+     "lat": 25.3562,
+     "lng": 110.2549,
+     "plan": true
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "15:15–16:00",
+     "spot": "cn-tianxin-village-zhuangyuan-brcke",
+     "opt": true,
+     "light": "day",
+     "lightText": "Nachmittag",
+     "text": "Liegt auf dem Weg: Büffel auf der alten Zhuangyuan-Steinbrücke."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "17:00–18:30",
+     "spot": "claude-cn-cuiping-hill",
+     "plan": true,
+     "light": "sunset",
+     "lightText": "Sonnenuntergang",
+     "text": "Wuzhi Hill (五指山, „Fünf-Finger-Berg“) bei Cuiping: ca. 15–20 Min. Aufstieg, Aussichtsplattform (ca. 50 CNY). Stirnlampe für den Rückweg."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "hotel",
+     "name": "The Secret Glen Hotel",
+     "t": "~19:15"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Damian Hill · Sonnenuntergang Wulongquan",
+   "status": "fest",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "The Secret Glen Hotel",
+     "t": "5:30",
+     "label": "Abfahrt"
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "6:10–7:30",
+     "spot": "claude-cn-damian-hill-li-river-bogen",
+     "plan": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang",
+     "text": "Aufstieg ab Dahebei 40–50 Min. (Weggebühr ca. 20 CNY), Stirnlampe."
+    },
+    {
+     "type": "move",
+     "mode": "car",
+     "opt": true
+    },
+    {
+     "type": "stop",
+     "t": "8:00–9:00",
+     "spot": "claude-cn-xingping-ancient-town",
+     "opt": true,
+     "light": "golden",
+     "lightText": "Morgenlicht",
+     "text": "Frühstück, Gassen am Fluss."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15,
+     "opt": true
+    },
+    {
+     "type": "stop",
+     "t": "9:00–9:45",
+     "spot": "claude-cn-20-yuan-schein-motiv-yellow-cloth-shoal",
+     "opt": true,
+     "light": "day",
+     "lightText": "Vormittag",
+     "text": "Bei Windstille Spiegelung der Karstkegel."
+    },
+    {
+     "type": "info",
+     "t": "mittags",
+     "icon": "🛏",
+     "title": "Pause im Hotel",
+     "light": "midday",
+     "lightText": "Mittagslicht – nicht fotografieren",
+     "lat": 24.7738,
+     "lng": 110.4639
+    },
+    {
+     "type": "move",
+     "mode": "car",
+     "opt": true
+    },
+    {
+     "type": "stop",
+     "t": "15:30–16:15",
+     "spot": "cn-yangshuo-karstlandschaft",
+     "opt": true,
+     "light": "day",
+     "lightText": "Nachmittag, Seitenlicht",
+     "text": "Karstkegel in Schichten mit dem 70-200. Pin ungefähr."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "17:00–18:30",
+     "spot": "cn-wulongquan-sunset-viewpoint",
+     "plan": true,
+     "light": "sunset",
+     "lightText": "Sonnenuntergang (ca. 18:10)",
+     "text": "Laut chinesischem Plan: 乌龙泉日落 – Sonnenuntergang über Karstbergen und Reisfeldern. Danach 20 Min. blaue Stunde."
+    },
+    {
+     "type": "stop",
+     "t": "19:15–20:00",
+     "spot": "claude-cn-west-street-yangshuo",
+     "opt": true,
+     "light": "night",
+     "lightText": "Nacht, Laternen",
+     "text": "Laternen und Leuchtreklamen vor den Karstbergen."
+    },
+    {
+     "type": "move",
+     "mode": "car",
+     "opt": true
+    },
+    {
+     "type": "hotel",
+     "name": "The Secret Glen Hotel",
+     "t": "~20:15",
+     "tCore": "~19:00"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "title": "Kormoranfischer · Yulong River · Kormoranfischer am Abend",
+   "status": "fest",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "The Secret Glen Hotel",
+     "t": "5:00",
+     "label": "Abfahrt"
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "6:15–8:00",
+     "spot": "cn-xialong-kormoranfischer-mit-laterne",
+     "plan": true,
+     "light": "dawn",
+     "lightText": "Dämmerung → Sonnenaufgang",
+     "text": "Sonnenaufgang mit Kormoranfischer. Ort laut früherem Plan Xialong – Pin geschätzt, der Fahrer kennt den Platz."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "9:15–10:00",
+     "spot": "claude-cn-yulong-bridge",
+     "light": "day",
+     "lightText": "Vormittag, noch weich",
+     "text": "Bogenbrücke mit Bambusflößen.",
+     "opt": true
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "10:15–11:30",
+     "spot": "cn-yulong-river-countryside",
+     "plan": true,
+     "light": "day",
+     "lightText": "Vormittag",
+     "text": "Ländliches Tal: Felder, Flöße, Karstkegel."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 5
+    },
+    {
+     "type": "stop",
+     "t": "11:30–12:00",
+     "spot": "claude-cn-jiuxian-village",
+     "light": "midday",
+     "lightText": "Mittag – Gassen im Schatten",
+     "text": "Alte Lehmziegelhäuser und Torbögen direkt nebenan.",
+     "opt": true
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "info",
+     "t": "12:15–15:45",
+     "icon": "🛏",
+     "title": "Pause im Hotel",
+     "light": "midday",
+     "lightText": "Mittagslicht",
+     "lat": 24.7738,
+     "lng": 110.4639
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "16:00–17:00",
+     "spot": "claude-cn-moon-hill",
+     "light": "golden",
+     "lightText": "Später Nachmittag, Gegenlicht im Bogen",
+     "text": "Optional: ca. 30 Min. Aufstieg, 800+ Stufen.",
+     "opt": true
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "18:00–19:30",
+     "spot": "cn-luoshi-hill-kormoranfischer-mit-laterne",
+     "plan": true,
+     "light": "blue",
+     "lightText": "Sonnenuntergang → blaue Stunde",
+     "text": "Kormoranfischer am Abend an einem anderen Ort – laut früherem Plan am Luoshi-Berg. Pin geschätzt."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "info",
+     "t": "19:45",
+     "icon": "🍜",
+     "title": "Abendessen in Xingping",
+     "lat": 24.9191,
+     "lng": 110.5236,
+     "opt": true
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "hotel",
+     "name": "The Secret Glen Hotel",
+     "t": "~21:00",
+     "tCore": "~20:20"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "title": "Xianggong · Büffelbauern-Dorf Tianxin · Longji: Dazhai · Sonnenuntergang Ping'an",
+   "status": "fest",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "The Secret Glen Hotel",
+     "t": "5:30",
+     "label": "Check-out"
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "6:20–7:45",
+     "spot": "cn-xianggong-hill",
+     "plan": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang",
+     "text": "Li-River-Schleife um den Karstkegel, Blick von der obersten Plattform."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "9:20–10:15",
+     "spot": "cn-tianxin-village-zhuangyuan-brcke",
+     "plan": true,
+     "light": "golden",
+     "lightText": "Morgenlicht",
+     "text": "Dorf des Büffelbauern (田心村), vom 16. auf Sonntag verschoben. Wasserbüffel an der Zhuangyuan-Brücke."
+    },
+    {
+     "type": "move",
+     "mode": "car",
+     "text": "längste Fahrt des Tages"
+    },
+    {
+     "type": "stop",
+     "t": "12:20–12:45",
+     "spot": "claude-cn-huangluo-yao-village",
+     "light": "midday",
+     "lightText": "Mittag – Porträts im Schatten",
+     "text": "Direkt an der Straße: Frauen der Roten Yao mit sehr langem Haar.",
+     "opt": true
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "13:00–14:15",
+     "spot": "cn-dazhai-village",
+     "plan": true,
+     "light": "midday",
+     "lightText": "Mittag – Terrassen wirken flach",
+     "text": "Ohne Lao Pan. Dorf, Essen, Seilbahn – die Terrassen wirken erst ab dem Nachmittag.",
+     "tCore": "12:30–15:15"
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 15,
+     "text": "Seilbahn",
+     "opt": true
+    },
+    {
+     "type": "stop",
+     "t": "14:30–15:30",
+     "spot": "claude-cn-golden-buddha-top",
+     "light": "day",
+     "lightText": "Nachmittag, Seitenlicht auf den Terrassenkanten",
+     "text": "Blick über die Terrassenkaskaden von Dazhai.",
+     "opt": true
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "16:15–18:30",
+     "spot": "cn-ping-an-village",
+     "plan": true,
+     "light": "sunset",
+     "lightText": "goldene Stunde → Sonnenuntergang",
+     "text": "Sonnenuntergang über den Terrassen. Gepäck mit dem Shuttle ab Parkplatz zum Hotel."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "17:15–18:30",
+     "spot": "claude-cn-nine-dragons-five-tigers-viewpoint",
+     "plan": false,
+     "light": "sunset",
+     "lightText": "Sonnenuntergang",
+     "text": "Bester Platz für den Sonnenuntergang, ca. 200 m vom Hotel.",
+     "opt": true
+    },
+    {
+     "type": "hotel",
+     "name": "Valley View Hotel"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "title": "Ping'an → Zhanli → Huanggang",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "stop",
+     "t": "6:15–8:00",
+     "spot": "cn-ping-an-village",
+     "plan": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang",
+     "text": "Shooting mit den 2 Models."
+    },
+    {
+     "type": "stop",
+     "t": "alternativ",
+     "spot": "claude-cn-seven-stars-with-moon-viewpoint",
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang mit Nebel",
+     "text": "Standort-Alternative, 30 Min. vom Dorf.",
+     "opt": true
+    },
+    {
+     "type": "info",
+     "t": "9:30",
+     "icon": "🚗",
+     "title": "Abfahrt nach Guizhou",
+     "lat": 25.7585,
+     "lng": 110.1198,
+     "text": "Nach dem Frühstück – mit dem selbst organisierten Fahrer."
+    },
+    {
+     "type": "move",
+     "mode": "car",
+     "text": "Mittag im Auto"
+    },
+    {
+     "type": "info",
+     "t": "12:15–14:00",
+     "icon": "🍜",
+     "title": "Ankunft Zhanli, Mittagessen",
+     "light": "midday",
+     "lightText": "Mittagslicht"
+    },
+    {
+     "type": "stop",
+     "t": "14:00–15:45",
+     "spot": "claude-cn-zhanli-dong-village",
+     "plan": true,
+     "light": "day",
+     "lightText": "Nachmittag, Seitenlicht",
+     "text": "Goldene Reisbündel an den hohen Gestellen am Bach – mit dem 70-200 komprimieren."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "17:05–17:45",
+     "spot": "claude-cn-tang-an-dong-village-terraces",
+     "light": "golden",
+     "lightText": "goldene Stunde",
+     "text": "Optional: Terrassenlinien im flachen Licht. Ohne Tang'an direkt nach Zhaoxing.",
+     "opt": true
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "18:00–18:40",
+     "spot": "claude-cn-zhaoxing-dong-village",
+     "light": "blue",
+     "lightText": "Sonnenuntergang → blaue Stunde",
+     "text": "Vom Aussichtspunkt am Hang, wenn die Beleuchtung angeht. Stativ, 16-35.",
+     "opt": true
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "hotel",
+     "name": "Huanggang Hecang Granary Inn",
+     "t": "~19:40",
+     "tCore": "~16:30"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "title": "Huanggang → Dali",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "stop",
+     "t": "6:20–8:00",
+     "spot": "claude-cn-huanggang-dong-village",
+     "plan": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang",
+     "text": "Vom Hang: Nebel und Kochrauch zwischen den Trommeltürmen; danach die Getreidespeicher am Bach im weichen Licht."
+    },
+    {
+     "type": "hotel",
+     "name": "Huanggang Hecang Granary Inn",
+     "t": "10:30",
+     "label": "Abfahrt"
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "11:35–12:00",
+     "spot": "claude-cn-zengchong-drum-tower",
+     "light": "midday",
+     "lightText": "Mittag – nur Beleg-Foto",
+     "text": "Ältester Dong-Trommelturm (1672), kurz vom Ufer gegenüber.",
+     "opt": true
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "info",
+     "t": "13:30–16:30",
+     "icon": "🛏",
+     "title": "Ankommen, Pause",
+     "light": "midday",
+     "lightText": "Mittagslicht",
+     "lat": 26.041535,
+     "lng": 108.639425
+    },
+    {
+     "type": "stop",
+     "t": "16:30–18:10",
+     "spot": "claude-cn-dali-dong-village",
+     "plan": true,
+     "light": "golden",
+     "lightText": "goldene Stunde",
+     "text": "Dachmeer vom alten Steinplattenweg am Hang."
+    },
+    {
+     "type": "stop",
+     "t": "18:10–18:40",
+     "spot": "claude-cn-dali-dong-village",
+     "plan": true,
+     "light": "blue",
+     "lightText": "blaue Stunde",
+     "text": "Beleuchtete Wind-und-Regen-Brücken über dem Bach, Langzeitbelichtung."
+    },
+    {
+     "type": "hotel",
+     "name": "See you on the well · Dali Dongzhai The Well House"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "title": "Dali → Maliao → Langde",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "stop",
+     "t": "6:20–8:00",
+     "spot": "claude-cn-dali-dong-village",
+     "plan": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang, Morgendunst",
+     "text": "Brücken im Dunst, Stativ und ND-Filter."
+    },
+    {
+     "type": "hotel",
+     "name": "See you on the well · Dali Dongzhai The Well House",
+     "t": "8:30",
+     "label": "Abfahrt"
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "11:15–13:30",
+     "spot": "claude-cn-maliao-silversmith-village",
+     "plan": true,
+     "light": "indoor",
+     "lightText": "Fensterlicht drinnen – Mittag ideal",
+     "text": "Silberschmiede in den Werkstätten: Hände und Werkzeug, offene Blende."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "hotel",
+     "name": "Qixi Homestay",
+     "t": "14:30",
+     "label": "Check-in, Pause"
+    },
+    {
+     "type": "stop",
+     "t": "16:30–17:45",
+     "spot": "claude-cn-langde-upper-miao-village",
+     "plan": true,
+     "light": "golden",
+     "lightText": "goldene Stunde",
+     "text": "Überblick von der Terrasse, die überdachte Brücke am Eingang im Abendlicht."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "18:10–19:10",
+     "spot": "cn-xijiang-qianhu-miao-village",
+     "light": "blue",
+     "lightText": "blaue Stunde",
+     "text": "Vom Aussichtspunkt oberhalb: das Lichtermeer der tausend Häuser.",
+     "opt": true
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "hotel",
+     "name": "Qixi Homestay",
+     "t": "~19:45",
+     "tCore": "~18:00"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "title": "Langde → Kaili",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "stop",
+     "t": "6:30–8:00",
+     "spot": "claude-cn-langde-upper-miao-village",
+     "plan": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang, Nebel über dem Fluss",
+     "text": "Überblick von der Terrasse oberhalb des Dorfs oder vom Hang gegenüber."
+    },
+    {
+     "type": "hotel",
+     "name": "Qixi Homestay",
+     "t": "9:30",
+     "label": "Abfahrt"
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "hotel",
+     "name": "Leli Villa Designer",
+     "t": "~10:30",
+     "label": "Ankunft Kaili"
+    },
+    {
+     "type": "move",
+     "mode": "car",
+     "opt": true
+    },
+    {
+     "type": "stop",
+     "t": "17:00–19:00",
+     "spot": "claude-cn-xiasi-ancient-town",
+     "opt": true,
+     "light": "blue",
+     "lightText": "goldene Stunde → blaue Stunde",
+     "text": "Ming-zeitlicher Flusshafen: Uferpromenade, beleuchtete Wind-und-Regen-Brücke zur Dämmerung."
+    },
+    {
+     "type": "move",
+     "mode": "car",
+     "opt": true
+    },
+    {
+     "type": "hotel",
+     "name": "Leli Villa Designer",
+     "t": "~19:30",
+     "opt": true
+    },
+    {
+     "type": "info",
+     "icon": "🔀",
+     "opt": true,
+     "title": "Variante: Fanjingshan & Fenghuang statt Kaili",
+     "text": "5 Uhr ab Langde → Fanjingshan (Seilbahn, vormittags) → abends Fenghuang mit den Lichtern am Fluss, Übernachtung dort; 23.10. früh Zug ab Fenghuang → Zhangjiajie ~10 Uhr. Dafür Leli Villa stornieren.",
+     "spots": [
+      "cn-fanjingshan",
+      "cn-fenghuang-ancient-town"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "title": "Kaili → Zhangjiajie",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "Leli Villa Designer",
+     "t": "~8:00",
+     "label": "Check-out"
+    },
+    {
+     "type": "move",
+     "mode": "car",
+     "text": "5 Min. zum Bahnhof"
+    },
+    {
+     "type": "info",
+     "t": "~8:30",
+     "icon": "🚄",
+     "title": "Bahnhof Kaili Süd",
+     "text": "Schnellzug nach Zhangjiajie West, Umstieg in Huaihua Süd – Verbindung in Trip.com wählen.",
+     "plan": true,
+     "lat": 26.5177,
+     "lng": 107.8838
+    },
+    {
+     "type": "move",
+     "mode": "train",
+     "min": 180,
+     "text": "ca. 3 h mit Umstieg"
+    },
+    {
+     "type": "info",
+     "t": "~11:30",
+     "icon": "🚄",
+     "title": "Zhangjiajie West",
+     "lat": 29.1714,
+     "lng": 110.458
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "hotel",
+     "name": "Zhangjiajie YOLO Resort",
+     "t": "~13:00",
+     "label": "Check-in ab 13 Uhr"
+    }
+   ]
+  }
+ ],
+ "hotels": {
+  "Huanggang Hecang Granary Inn": {
+   "photos": [
+    "images/hotels/huanggang-hecang_1.jpg",
+    "images/hotels/huanggang-hecang_2.jpg"
+   ]
+  },
+  "See you on the well · Dali Dongzhai The Well House": {
+   "photos": [
+    "images/hotels/dali-well-house_1.jpg",
+    "images/hotels/dali-well-house_2.jpg"
+   ]
+  },
+  "Qixi Homestay": {
+   "photos": [
+    "images/hotels/langde-qixi_1.jpg",
+    "images/hotels/langde-qixi_2.jpg"
+   ]
+  }
+ }
+}

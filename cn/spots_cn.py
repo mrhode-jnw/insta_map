@@ -32,6 +32,8 @@ POSTS = {
  64: ("amazingguizhou", "p", "DQZODOpDYAu"), 65: ("chinadiscover", "p", "DD2GMNvtapF"), 66: ("tourismeguizhou", "p", "DLHh2XzodtQ"),
  67: ("amazingguizhou", "p", "DQMWDmggDER"), 68: ("jasmine_pirsch", "p", "DSJ4G3JiAkw"), 69: ("chinadestinations", "p", "DPLvIhaCZ4F"),
  70: ("ambri92", "p", "Dcym0q6DYf9"),
+ 71: ("didigu78", "p", "DP3kTE1jU_g"), 72: ("intohimoni", "p", "DVVu4dPCCqv"), 73: ("janjanuary30", "p", "DaXqsjFTAgj"),
+ 74: ("yantastic", "p", "B0YLfiPg1dy"), 75: ("wiwa_b", "p", "DKHIzkJRsiS"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -49,7 +51,7 @@ SPOTS = [
   [(30, 4), 10, 33], "Stelzenhäuser am Tuo-Fluss, abends beleuchtet."),
  # Guizhou
  ("Xijiang Qianhu Miao Village 西江千户苗寨", 26.4955, 108.1702, False, "Leishan, Guizhou", "Dorf",
-  [2, (21, 5), (61, 6), (62, 1), 63], "Größtes Miao-Dorf: Holz-Stelzenhäuser am Hang; Aussichtspunkte oberhalb."),
+  [2, (21, 5), (61, 6), (62, 1), 63, (75, 3), (75, 4), (75, 5), (75, 6)], "Größtes Miao-Dorf: Holz-Stelzenhäuser am Hang; Aussichtspunkte oberhalb."),
  ("Fenglin Buyi / Wanfenglin 峰林布依 · 万峰林", 25.0170, 104.9211, True, "Xingyi, Guizhou", "Natur",
   [3, 69, (67, 3), (68, 18)], "Pagodendorf am grünen Fluss zwischen Karstkegeln."),
  ("Jilong Castle 吉隆堡", 24.920389, 105.013147, False, "Xingyi, Guizhou", "Architektur",
@@ -62,11 +64,11 @@ SPOTS = [
  ("Guilin & Li River 桂林 · 漓江", 25.2780, 110.2911, True, "Guilin, Guangxi", "Natur",
   [4], "Drohnen-Reel „What my drone saw in China“."),
  ("Xingping – Kormoranfischer am Li River 兴坪", 24.9198, 110.5278, True, "Yangshuo, Guangxi", "Dorf",
-  [7, (70, 3), (70, 1), (70, 2), (70, 4), (70, 5), (70, 6), (70, 7), (70, 8), (70, 9)], "Klassisches Motiv: Fischer mit Kormoranen auf dem Bambusfloß. Shooting zum Sonnenaufgang (Stille, kaum Leute, Nebel über den Karstbergen), ca. 30 km von Yangshuo; über das Hotel einen Fischer vermitteln lassen – deutlich günstiger als online (ca. 60 € für zwei + Transport), vorab buchen. Heute eine inszenierte Tradition, kein Alltagsfischfang mehr."),
+  [7, (70, 3), (70, 1), (70, 2), (70, 4), (70, 5), (70, 6), (70, 7), (70, 8), (70, 9), (71, 1), (71, 2), (71, 3), (71, 4), (71, 5), (71, 6), (71, 7), (71, 8), (71, 9), (71, 10), (71, 11), (71, 12), (71, 13), (71, 14), (71, 15), (71, 16), (71, 17), 73, (74, 1), (74, 2), (74, 3)], "Klassisches Motiv: Fischer mit Kormoranen auf dem Bambusfloß. Shooting zum Sonnenaufgang (Stille, kaum Leute, Nebel über den Karstbergen), ca. 30 km von Yangshuo; über das Hotel einen Fischer vermitteln lassen – deutlich günstiger als online (ca. 60 € für zwei + Transport), vorab buchen. Heute eine inszenierte Tradition, kein Alltagsfischfang mehr."),
  ("Xianggong Hill 相公山", 24.937357, 110.476192, False, "Yangshuo, Guangxi", "Aussicht",
   [], "Sonnenaufgang über der Li-River-Schleife, die sich um einen Karstkegel legt (klassischer Blick von der obersten Plattform). Öffnet ca. 4:30, Eintritt ca. 45–60 CNY, vor 7 Uhr da sein; nach Regen oft Nebel/Wolkenmeer. Pin laut trip.com (GCJ-02 umgerechnet)."),
  ("Yangshuo Karstlandschaft 阳朔", 24.8630, 110.4872, True, "Yangshuo, Guangxi", "Natur",
-  [11, 10, 33, (21, 7), 9], "Karstkegel in endlosen Schichten, Sonnenaufgang mit Wasserbüffeln an der Steinbrücke."),
+  [10, 33, (21, 7), 9, (72, 1), (72, 2), (72, 3), (72, 4)], "Karstkegel in endlosen Schichten zwischen Yangshuo und Xingping (Pin ungefähr). Das Büffel-Steinbrücken-Foto von @nateinthewild gehört zu Tianxin 田心村 (Zhuangyuan-Brücke)."),
  ("Longji Rice Terraces 龙脊梯田", 25.7580, 110.1190, True, "Longsheng, Guangxi", "Natur",
   [47, 48, 49, 50], "Rund 650 Jahre alte Reisterrassen, ca. 2 h ab Guilin; im September goldgelb."),
  # Chongqing

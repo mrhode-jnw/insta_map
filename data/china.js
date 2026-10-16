@@ -267,6 +267,46 @@ window.PLACES_CN = [
     "image": "images/CzLuAxNhCXl.jpg",
     "caption": "【#遊山玩水】西江千戶苗寨 Xi jiang Qianhu Miao Village\n西江苗寨四面環山，位處貴州雷公山麓的重巒之中，清澈見底的「白水河」穿寨而過，將苗寨一分為二，河上建有數座風雨橋。\n風雨橋亦稱「花橋」，流行於湖南、貴州、廣西、湖北等地，多建於交通要道的河流上，通常由橋、塔、亭組成，用木料築成，因行人經過時能避風雨，故得名「風雨橋」。\n·\n圖片來源：Unknown photographer\n·\n·\n·\n#貴州 #西江 #千戶苗寨 #攝影 #苗寨 #china #guizhou #xijiang #qianhu #miaovillage #oldvillage #chinesevillage #photoofchina #chinesephotography #travelchina #travelguizhou #discoverguizhou #discoverchina #snapshot #instashot #chinesearchitecture #wonderful_places #stunning",
     "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/?img_index=3",
+    "username": "wiwa_b",
+    "profile_url": "https://www.instagram.com/wiwa_b/",
+    "kind": "p",
+    "image": "images/DKHIzkJRsiS_3.jpg",
+    "caption": "A little tour around Guizhou 🍶\n\n1 and 2: Zhaoxing village\n3, 4, 5 and 6: Xijiang village\n\n #travelchina #china #chinatrip #tibet\n#Sichuan#jiangxi #yunnan #zhejiang #tibet #passionpassport#Sichuan #traveltheworld #chinatravel #reizen #instagood  #Shanghai #beijing #chengdu#guizhou",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/?img_index=4",
+    "username": "wiwa_b",
+    "profile_url": "https://www.instagram.com/wiwa_b/",
+    "kind": "p",
+    "image": "images/DKHIzkJRsiS_4.jpg",
+    "caption": "A little tour around Guizhou 🍶\n\n1 and 2: Zhaoxing village\n3, 4, 5 and 6: Xijiang village\n\n #travelchina #china #chinatrip #tibet\n#Sichuan#jiangxi #yunnan #zhejiang #tibet #passionpassport#Sichuan #traveltheworld #chinatravel #reizen #instagood  #Shanghai #beijing #chengdu#guizhou",
+    "match": "slide",
+    "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/?img_index=5",
+    "username": "wiwa_b",
+    "profile_url": "https://www.instagram.com/wiwa_b/",
+    "kind": "p",
+    "image": "images/DKHIzkJRsiS_5.jpg",
+    "caption": "A little tour around Guizhou 🍶\n\n1 and 2: Zhaoxing village\n3, 4, 5 and 6: Xijiang village\n\n #travelchina #china #chinatrip #tibet\n#Sichuan#jiangxi #yunnan #zhejiang #tibet #passionpassport#Sichuan #traveltheworld #chinatravel #reizen #instagood  #Shanghai #beijing #chengdu#guizhou",
+    "match": "slide",
+    "slide": 5
+   },
+   {
+    "url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/?img_index=6",
+    "username": "wiwa_b",
+    "profile_url": "https://www.instagram.com/wiwa_b/",
+    "kind": "p",
+    "image": "images/DKHIzkJRsiS_6.jpg",
+    "caption": "A little tour around Guizhou 🍶\n\n1 and 2: Zhaoxing village\n3, 4, 5 and 6: Xijiang village\n\n #travelchina #china #chinatrip #tibet\n#Sichuan#jiangxi #yunnan #zhejiang #tibet #passionpassport#Sichuan #traveltheworld #chinatravel #reizen #instagood  #Shanghai #beijing #chengdu#guizhou",
+    "match": "slide",
+    "slide": 6
    }
   ],
   "pop": 5,
@@ -613,6 +653,231 @@ window.PLACES_CN = [
     "caption": "ALBA SUL FIUME LI, China 🌄🎋🇨🇳\n\nUna delle esperienze più surreali da vivere a Yangshuo, sul fiume Li: alba, le iconiche montagne carsiche nella foschia e i tradizionali pescatori con cormorani sulle loro zattere di bamboo✨\n\n📍 Dove: vicino a Xingping sul fiume Li, circa 30 km da Yangshuo (regione del Guangxi, Cina🇨🇳)\n🌅 Quando: all’alba - silenzio, pochissima gente e luce pazzesca\n🎣 Come organizzare: chiedete direttamente al vostro hotel, si metteranno loro in contatto con un pescatore locale per organizzare la sessione fotografica ad un prezzo molto più ragionevole di quelli che si trovano onlin",
     "match": "slide",
     "slide": 9
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=1",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_1.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=2",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_2.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=3",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 3,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=4",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_4.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=5",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 5,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=6",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 6,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=7",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_7.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=8",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 8,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=9",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_9.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 9
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=10",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 10,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=11",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_11.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 11
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=12",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 12,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=13",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 13,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=14",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_14.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 14
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=15",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_15.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 15
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=16",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": "images/DP3kTE1jU_g_16.jpg",
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 16
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=17",
+    "username": "didigu78",
+    "profile_url": "https://www.instagram.com/didigu78/",
+    "kind": "p",
+    "image": null,
+    "caption": "On the silent waters of the Li River,\nthe night glows with shades of red.\nA fisherman, two cormorants,\nand a tradition that refuses to fade.\nBetween oil lamps and dawn’s mist,\nthe ancient rhythm of breath and waiting\nbecomes pure poetry.\n•\n#travelphotography #yangshuo #guilin #liRiver #china #visualstorytelling #documentaryphotography #sunrise #nightphotography #didigu #traditionandmodernity #culturalheritage #momentsoflight #traveldeeper #quietstories",
+    "match": "slide",
+    "slide": 17,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/janjanuary30/p/DaXqsjFTAgj/",
+    "username": "janjanuary30",
+    "profile_url": "https://www.instagram.com/janjanuary30/",
+    "kind": "p",
+    "image": "images/DaXqsjFTAgj.jpg",
+    "caption": ".\n.\nLost in my memories\n📍Yangshuo, China | July, 2015\n.\n.\n#YangshuoChina #TravelAndLeisure #MadeWithLightroom",
+    "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=1",
+    "username": "yantastic",
+    "profile_url": "https://www.instagram.com/yantastic/",
+    "kind": "p",
+    "image": "images/B0YLfiPg1dy_1.jpg",
+    "caption": "#HelloFrom Yangshuo. This is Lao Huang, a 86 years old cormorant fisherman living in Yangshuo, China. Sadly the 1300 years old fishing method now only survives as a tourist attraction in modern days. // I’m excited to go back to China next month to work with a local tourism board. Can you guess where? ————————————————\nRemember, don’t settle for anything less than magic.",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=2",
+    "username": "yantastic",
+    "profile_url": "https://www.instagram.com/yantastic/",
+    "kind": "p",
+    "image": "images/B0YLfiPg1dy_2.jpg",
+    "caption": "#HelloFrom Yangshuo. This is Lao Huang, a 86 years old cormorant fisherman living in Yangshuo, China. Sadly the 1300 years old fishing method now only survives as a tourist attraction in modern days. // I’m excited to go back to China next month to work with a local tourism board. Can you guess where? ————————————————\nRemember, don’t settle for anything less than magic.",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=3",
+    "username": "yantastic",
+    "profile_url": "https://www.instagram.com/yantastic/",
+    "kind": "p",
+    "image": "images/B0YLfiPg1dy_3.jpg",
+    "caption": "#HelloFrom Yangshuo. This is Lao Huang, a 86 years old cormorant fisherman living in Yangshuo, China. Sadly the 1300 years old fishing method now only survives as a tourist attraction in modern days. // I’m excited to go back to China next month to work with a local tourism board. Can you guess where? ————————————————\nRemember, don’t settle for anything less than magic.",
+    "match": "slide",
+    "slide": 3
    }
   ],
   "pop": 4,
@@ -676,26 +941,17 @@ window.PLACES_CN = [
   "name": "Yangshuo Karstlandschaft 阳朔",
   "district": "Yangshuo, Guangxi",
   "category": "Natur",
-  "note": "Karstkegel in endlosen Schichten, Sonnenaufgang mit Wasserbüffeln an der Steinbrücke.",
+  "note": "Karstkegel in endlosen Schichten zwischen Yangshuo und Xingping (Pin ungefähr). Das Büffel-Steinbrücken-Foto von @nateinthewild gehört zu Tianxin 田心村 (Zhuangyuan-Brücke).",
   "address": "Yangshuo, Guangxi",
   "lat": 24.863,
   "lng": 110.4872,
   "approx": true,
-  "image": "images/DdXg4t2GDJp.jpg",
-  "caption": "",
-  "post_url": "https://www.instagram.com/nateinthewild/p/DdXg4t2GDJp/",
-  "username": "nateinthewild",
-  "profile_url": "https://www.instagram.com/nateinthewild/",
+  "image": "images/DcIsDePCaxD_7_r.jpg",
+  "caption": "Save & double tap this post for your next China trip : ) Scroll through 👉🏻\n\n1📍Dongchangzhi Road & Lushun Road, Shanghai (东长治路与旅顺路交叉口) — A popular North Bund street-photography spot where everyday Shanghai life is framed against the Lujiazui skyline, with the Oriental Pearl Tower and Shanghai Tower rising dramatically in the background.\n\n1📍Dongchangzhi Road & Lushun Road, Shanghai (东长治路与旅顺路交叉口) — A popular North Bund street-photography spot where everyday Shanghai life is framed against the Lujiazui skyline, with the Oriental Pearl Tower and Shanghai Tower rising dramatically in the background.",
+  "post_url": "https://www.instagram.com/yantastic/p/DcIsDePCaxD/?img_index=7",
+  "username": "yantastic",
+  "profile_url": "https://www.instagram.com/yantastic/",
   "posts": [
-   {
-    "url": "https://www.instagram.com/nateinthewild/p/DdXg4t2GDJp/",
-    "username": "nateinthewild",
-    "profile_url": "https://www.instagram.com/nateinthewild/",
-    "kind": "p",
-    "image": "images/DdXg4t2GDJp.jpg",
-    "caption": "",
-    "match": "single"
-   },
    {
     "url": "https://www.instagram.com/sjoerdbracke/p/DdJoIXXDCaY/",
     "username": "sjoerdbracke",
@@ -721,7 +977,7 @@ window.PLACES_CN = [
     "username": "yantastic",
     "profile_url": "https://www.instagram.com/yantastic/",
     "kind": "p",
-    "image": "images/DcIsDePCaxD_7.jpg",
+    "image": "images/DcIsDePCaxD_7_r.jpg",
     "caption": "Save & double tap this post for your next China trip : ) Scroll through 👉🏻\n\n1📍Dongchangzhi Road & Lushun Road, Shanghai (东长治路与旅顺路交叉口) — A popular North Bund street-photography spot where everyday Shanghai life is framed against the Lujiazui skyline, with the Oriental Pearl Tower and Shanghai Tower rising dramatically in the background.\n\n1📍Dongchangzhi Road & Lushun Road, Shanghai (东长治路与旅顺路交叉口) — A popular North Bund street-photography spot where everyday Shanghai life is framed against the Lujiazui skyline, with the Oriental Pearl Tower and Shanghai Tower rising dramatically in the background.",
     "match": "slide",
     "slide": 7
@@ -734,6 +990,48 @@ window.PLACES_CN = [
     "image": "images/DdbVoDMlRoY.jpg",
     "caption": "",
     "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/intohimoni/p/DVVu4dPCCqv/?img_index=1",
+    "username": "intohimoni",
+    "profile_url": "https://www.instagram.com/intohimoni/",
+    "kind": "p",
+    "image": null,
+    "caption": "The landscape in southern China feels surreal.\nAround Yangshuo, limestone karst peaks rise everywhere - out of fields, rivers, and even right next to the city itself. It almost looks unreal from above.\n\n___\n#yangshuo #southernchina #karstmountains #landscape #travelphotography",
+    "match": "slide",
+    "slide": 1,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/intohimoni/p/DVVu4dPCCqv/?img_index=2",
+    "username": "intohimoni",
+    "profile_url": "https://www.instagram.com/intohimoni/",
+    "kind": "p",
+    "image": "images/DVVu4dPCCqv_2.jpg",
+    "caption": "The landscape in southern China feels surreal.\nAround Yangshuo, limestone karst peaks rise everywhere - out of fields, rivers, and even right next to the city itself. It almost looks unreal from above.\n\n___\n#yangshuo #southernchina #karstmountains #landscape #travelphotography",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/intohimoni/p/DVVu4dPCCqv/?img_index=3",
+    "username": "intohimoni",
+    "profile_url": "https://www.instagram.com/intohimoni/",
+    "kind": "p",
+    "image": "images/DVVu4dPCCqv_3.jpg",
+    "caption": "The landscape in southern China feels surreal.\nAround Yangshuo, limestone karst peaks rise everywhere - out of fields, rivers, and even right next to the city itself. It almost looks unreal from above.\n\n___\n#yangshuo #southernchina #karstmountains #landscape #travelphotography",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/intohimoni/p/DVVu4dPCCqv/?img_index=4",
+    "username": "intohimoni",
+    "profile_url": "https://www.instagram.com/intohimoni/",
+    "kind": "p",
+    "image": "images/DVVu4dPCCqv_4.jpg",
+    "caption": "The landscape in southern China feels surreal.\nAround Yangshuo, limestone karst peaks rise everywhere - out of fields, rivers, and even right next to the city itself. It almost looks unreal from above.\n\n___\n#yangshuo #southernchina #karstmountains #landscape #travelphotography",
+    "match": "slide",
+    "slide": 4
    }
   ],
   "pop": 5,
@@ -1858,6 +2156,15 @@ window.PLACES_CN = [
     "caption": "Moments from Shanghai Oriental Pearl TV Tower 🇨🇳\n\n1. Shanghai North Bund Park (北外滩湖滨江绿地）\n2. Dongchangzhi Road (东长治路与旅顺路交叉口）- beside W Hotel\n3. Jiulong Road (九龙路与东长治路交叉口)\n3. Nanjing Road\n5. Rockbund (乍浦路与南苏州路交叉口）\n6. Waibaidu Bridge (外白渡桥）\n7. 礼和洋行 （behind Edition Hotel)\n8. Shanghai Postal Musuem (上海邮政博物馆)\n\nI can walk the whole Shanghai street and the bund the whole day is the weather is good. There are so much to capture and explore! Many spots I haven’t have time to cover as well!\n\n#shanghaicity #shanghaistreet #shanghaitower #shanghaiorientalpearltower #shanghaibund #shanghaichina #shanghaitri",
     "match": "slide",
     "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/hotelsandhandluggage/p/Dcl8WxlAqf_/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/hotelsandhandluggage/p/Dcl8WxlAqf_/",
+    "kind": "photo",
+    "image": "images/Dcl8WxlAqf_.jpg",
+    "caption": "",
+    "credit": "@hotelsandhandluggage"
    }
   ],
   "pop": 4,
@@ -3748,6 +4055,42 @@ window.PLACES_CN = [
     "image": "images/C-7Cu-vIB0J_1.jpg",
     "caption": "",
     "credit": "@reisreporter.76 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/cgtn/p/DQOmNqKDODi/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/cgtn/p/DQOmNqKDODi/",
+    "kind": "photo",
+    "image": "images/DQOmNqKDODi_1.jpg",
+    "caption": "",
+    "credit": "@cgtn · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/cgtn/p/DQOmNqKDODi/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/cgtn/p/DQOmNqKDODi/?img_index=2",
+    "kind": "photo",
+    "image": "images/DQOmNqKDODi_2.jpg",
+    "caption": "",
+    "credit": "@cgtn · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/cgtn/p/DQOmNqKDODi/?img_index=3",
+    "username": "",
+    "profile_url": "https://www.instagram.com/cgtn/p/DQOmNqKDODi/?img_index=3",
+    "kind": "photo",
+    "image": "images/DQOmNqKDODi_3.jpg",
+    "caption": "",
+    "credit": "@cgtn · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/cgtn/p/DQOmNqKDODi/?img_index=4",
+    "username": "",
+    "profile_url": "https://www.instagram.com/cgtn/p/DQOmNqKDODi/?img_index=4",
+    "kind": "photo",
+    "image": "images/DQOmNqKDODi_4.jpg",
+    "caption": "",
+    "credit": "@cgtn · Instagram"
    }
   ],
   "pop": 3,
@@ -3792,13 +4135,31 @@ window.PLACES_CN = [
     "image": "images/DaaR-nwDRu0_2.jpg",
     "caption": "",
     "credit": "@fabionodariphoto · Instagram"
+   },
+   {
+    "url": "https://wildchina.com/2024/05/bendi-stories-teaching-dong-music-in-huanggang-village-guizhou/",
+    "username": "",
+    "profile_url": "https://wildchina.com/2024/05/bendi-stories-teaching-dong-music-in-huanggang-village-guizhou/",
+    "kind": "photo",
+    "image": "images/web_1e60nri_8.jpg",
+    "caption": "",
+    "credit": "WildChina · wildchina.com"
+   },
+   {
+    "url": "https://wildchina.com/2024/05/bendi-stories-teaching-dong-music-in-huanggang-village-guizhou/",
+    "username": "",
+    "profile_url": "https://wildchina.com/2024/05/bendi-stories-teaching-dong-music-in-huanggang-village-guizhou/",
+    "kind": "photo",
+    "image": "images/web_1e60nri_9.jpg",
+    "caption": "",
+    "credit": "WildChina · wildchina.com"
    }
   ],
   "pop": 4,
   "pop_reason": "Über 500 Getreidespeicher am Bach, fünf Trommeltürme, UN-Tourismus-Bestdorf 2025",
   "image_page": "https://www.instagram.com/wildchinatravel/reel/DQMTYqQDDFh/",
   "image_credit": "@wildchinatravel · Instagram",
-  "when": "day"
+  "when": "both"
  },
  {
   "id": "claude-cn-xiaohuang-dong-village",
@@ -3813,14 +4174,71 @@ window.PLACES_CN = [
   "lat": 25.87549,
   "lng": 108.97117,
   "approx": false,
-  "image": null,
+  "image": "images/claude_gz_xiaohuang_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiaohuang_1.jpg",
+    "caption": "",
+    "credit": "Scarlett-Hall · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiaohuang_2.jpg",
+    "caption": "",
+    "credit": "Scarlett-Hall · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiaohuang_3.jpg",
+    "caption": "",
+    "credit": "Scarlett-Hall · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiaohuang_4.jpg",
+    "caption": "",
+    "credit": "Scarlett-Hall · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiaohuang_5.jpg",
+    "caption": "",
+    "credit": "Scarlett-Hall · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/congjiang-2344-147685756/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/congjiang-2344-147685756/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiaohuang_6.jpg",
+    "caption": "",
+    "credit": "TravelerWithoutBorders · trip.com Moments"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Heimat des Dong-Großgesangs, zwischen Zhanli und Huanggang",
+  "image_page": "https://www.trip.com/moments/detail/congjiang-2344-153754882/",
+  "image_credit": "Scarlett-Hall · trip.com Moments",
   "when": "day"
  },
  {
@@ -3856,7 +4274,7 @@ window.PLACES_CN = [
   "district": "Liping, Guizhou",
   "category": "Dorf",
   "note": "",
-  "tip": "Klassischer Blick vom Aussichtspunkt am Hang über das Tal, am besten zur blauen Stunde nach dem Einschalten der Beleuchtung, Stativ, 16-35. Tagsüber Trommeltürme nicht frontal im Gegenlicht. Drohne im Scenic Area vorher am Eingang erfragen. Ca. 20 km von Huanggang.",
+  "tip": "Klassischer Blick vom Aussichtspunkt am Hang über das Tal, am besten zur blauen Stunde nach dem Einschalten der Beleuchtung, Stativ, 16-35. Tagsüber Trommeltürme nicht frontal im Gegenlicht. Drohne im Scenic Area vorher am Eingang erfragen. Ca. 20 km von Huanggang. Beste Zeit April–Juni (geflutete Reisfelder), Nationalfeiertage meiden; Anreise per Schnellzug bis Congjiang 从江, dann Taxi (laut Fabio Nodari).",
   "address": "Liping, Guizhou",
   "lat": 25.9086,
   "lng": 109.17003,
@@ -3902,6 +4320,60 @@ window.PLACES_CN = [
     "image": "images/C06OeLVtipY_1.jpg",
     "caption": "",
     "credit": "@snapshot_____story · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/",
+    "kind": "photo",
+    "image": "images/DKHIzkJRsiS_1.jpg",
+    "caption": "",
+    "credit": "@wiwa_b · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/wiwa_b/p/DKHIzkJRsiS/?img_index=2",
+    "kind": "photo",
+    "image": "images/DKHIzkJRsiS_2.jpg",
+    "caption": "",
+    "credit": "@wiwa_b · Instagram"
+   },
+   {
+    "url": "https://www.fabionodariphoto.com/en/zhaoxing-dong-travel-guide-guizhou/",
+    "username": "",
+    "profile_url": "https://www.fabionodariphoto.com/en/zhaoxing-dong-travel-guide-guizhou/",
+    "kind": "photo",
+    "image": "images/web_1eemu4b_1.jpg",
+    "caption": "",
+    "credit": "Fabio Nodari · fabionodariphoto.com"
+   },
+   {
+    "url": "https://www.fabionodariphoto.com/en/zhaoxing-dong-travel-guide-guizhou/",
+    "username": "",
+    "profile_url": "https://www.fabionodariphoto.com/en/zhaoxing-dong-travel-guide-guizhou/",
+    "kind": "photo",
+    "image": "images/web_1eemu4b_2.jpg",
+    "caption": "",
+    "credit": "Fabio Nodari · fabionodariphoto.com"
+   },
+   {
+    "url": "https://www.fabionodariphoto.com/en/zhaoxing-dong-travel-guide-guizhou/",
+    "username": "",
+    "profile_url": "https://www.fabionodariphoto.com/en/zhaoxing-dong-travel-guide-guizhou/",
+    "kind": "photo",
+    "image": "images/web_1eemu4b_6.jpg",
+    "caption": "",
+    "credit": "Fabio Nodari · fabionodariphoto.com"
+   },
+   {
+    "url": "https://www.fabionodariphoto.com/en/zhaoxing-dong-travel-guide-guizhou/",
+    "username": "",
+    "profile_url": "https://www.fabionodariphoto.com/en/zhaoxing-dong-travel-guide-guizhou/",
+    "kind": "photo",
+    "image": "images/web_1eemu4b_7.jpg",
+    "caption": "",
+    "credit": "Fabio Nodari · fabionodariphoto.com"
    }
   ],
   "pop": 5,
@@ -3923,20 +4395,77 @@ window.PLACES_CN = [
   "lat": 25.9019,
   "lng": 109.2117,
   "approx": false,
-  "image": null,
+  "image": "images/claude_gz_tangan_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "kind": "photo",
+    "image": "images/claude_gz_tangan_1.jpg",
+    "caption": "",
+    "credit": "JOSIE GONZALES · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "kind": "photo",
+    "image": "images/claude_gz_tangan_2.jpg",
+    "caption": "",
+    "credit": "JOSIE GONZALES · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "kind": "photo",
+    "image": "images/claude_gz_tangan_3.jpg",
+    "caption": "",
+    "credit": "JOSIE GONZALES · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "kind": "photo",
+    "image": "images/claude_gz_tangan_4.jpg",
+    "caption": "",
+    "credit": "JOSIE GONZALES · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+    "kind": "photo",
+    "image": "images/claude_gz_tangan_5.jpg",
+    "caption": "",
+    "credit": "JOSIE GONZALES · trip.com Moments"
+   },
+   {
+    "url": "https://www.fabionodariphoto.com/en/zhaoxing-dong-travel-guide-guizhou/",
+    "username": "",
+    "profile_url": "https://www.fabionodariphoto.com/en/zhaoxing-dong-travel-guide-guizhou/",
+    "kind": "photo",
+    "image": "images/web_1eemu4b_5.jpg",
+    "caption": "",
+    "credit": "Fabio Nodari · fabionodariphoto.com"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Dong-Dorf über Reisterrassen oberhalb von Zhaoxing",
+  "image_page": "https://www.trip.com/moments/detail/liping-1346-145564371/",
+  "image_credit": "JOSIE GONZALES · trip.com Moments",
   "when": "day"
  },
  {
   "id": "claude-cn-zengchong-drum-tower",
   "region": "cn",
-  "by_claude": true,
+  "by_claude": false,
   "name": "Zengchong Drum Tower 增冲鼓楼",
   "district": "Congjiang (Wangdong), Guizhou",
   "category": "Architektur",
@@ -3951,7 +4480,17 @@ window.PLACES_CN = [
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.instagram.com/amazingguizhou/p/CyI_GWlCAla/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/amazingguizhou/p/CyI_GWlCAla/",
+    "kind": "photo",
+    "image": "images/CyI_GWlCAla_1.jpg",
+    "caption": "",
+    "credit": "@amazingguizhou · Instagram"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Ältester erhaltener Dong-Trommelturm (1672), 13 Etagen",
   "image_page": "https://commons.wikimedia.org/wiki/File:%E5%A2%9E%E5%86%B2%E9%BC%93%E6%A5%BC-%E6%A1%82%E7%A9%BF%E8%B6%8A_-_panoramio.jpg",
@@ -3961,7 +4500,7 @@ window.PLACES_CN = [
  {
   "id": "claude-cn-dali-dong-village",
   "region": "cn",
-  "by_claude": true,
+  "by_claude": false,
   "name": "Dali Dong Village 大利侗寨",
   "district": "Rongjiang (Zaima), Guizhou",
   "category": "Dorf",
@@ -3971,14 +4510,71 @@ window.PLACES_CN = [
   "lat": 26.04153,
   "lng": 108.63943,
   "approx": false,
-  "image": null,
+  "image": "images/claude_gz_dali_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+    "kind": "photo",
+    "image": "images/claude_gz_dali_1.jpg",
+    "caption": "",
+    "credit": "Charlotte@890 Cox · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+    "kind": "photo",
+    "image": "images/claude_gz_dali_2.jpg",
+    "caption": "",
+    "credit": "Charlotte@890 Cox · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+    "kind": "photo",
+    "image": "images/claude_gz_dali_3.jpg",
+    "caption": "",
+    "credit": "Charlotte@890 Cox · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/rongjiang-2346-154049001/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/rongjiang-2346-154049001/",
+    "kind": "photo",
+    "image": "images/claude_gz_dali_4.jpg",
+    "caption": "",
+    "credit": "Hayes Oliver55Oliver · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/rongjiang-2346-154049001/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/rongjiang-2346-154049001/",
+    "kind": "photo",
+    "image": "images/claude_gz_dali_5.jpg",
+    "caption": "",
+    "credit": "Hayes Oliver55Oliver · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/rongjiang-2346-154049001/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/rongjiang-2346-154049001/",
+    "kind": "photo",
+    "image": "images/claude_gz_dali_6.jpg",
+    "caption": "",
+    "credit": "Hayes Oliver55Oliver · trip.com Moments"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Fünf Wind-und-Regen-Brücken, Trommelturm, Qing-Steinpfad, wenig touristisch",
+  "image_page": "https://www.trip.com/moments/detail/rongjiang-2346-153608792/",
+  "image_credit": "Charlotte@890 Cox · trip.com Moments",
   "when": "day"
  },
  {
@@ -3994,14 +4590,62 @@ window.PLACES_CN = [
   "lat": 26.3236,
   "lng": 108.0662,
   "approx": true,
-  "image": null,
+  "image": "images/claude_gz_datang_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "kind": "photo",
+    "image": "images/claude_gz_datang_1.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht „黔东南大塘之行“"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "kind": "photo",
+    "image": "images/claude_gz_datang_2.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht „黔东南大塘之行“"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "kind": "photo",
+    "image": "images/claude_gz_datang_3.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht „黔东南大塘之行“"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "kind": "photo",
+    "image": "images/claude_gz_datang_4.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht „黔东南大塘之行“"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+    "kind": "photo",
+    "image": "images/claude_gz_datang_5.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht „黔东南大塘之行“"
+   }
+  ],
   "pop": 3,
   "pop_reason": "44 Miao-Getreidespeicher auf Stelzen in Teichen",
+  "image_page": "https://gs.ctrip.com/html5/you/travels/2345/3976236.html",
+  "image_credit": "Ctrip-Reisebericht „黔东南大塘之行“",
   "when": "day"
  },
  {
@@ -4049,6 +4693,105 @@ window.PLACES_CN = [
     "image": "images/DFSLWDtoRjV_1.jpg",
     "caption": "",
     "credit": "@makandsaycheese · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=2",
+    "kind": "photo",
+    "image": "images/DOxbzetDFl9_2.jpg",
+    "caption": "",
+    "credit": "@susi_more · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=3",
+    "username": "",
+    "profile_url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=3",
+    "kind": "photo",
+    "image": "images/DOxbzetDFl9_3.jpg",
+    "caption": "",
+    "credit": "@susi_more · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=4",
+    "username": "",
+    "profile_url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=4",
+    "kind": "photo",
+    "image": "images/DOxbzetDFl9_4.jpg",
+    "caption": "",
+    "credit": "@susi_more · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=5",
+    "username": "",
+    "profile_url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=5",
+    "kind": "photo",
+    "image": "images/DOxbzetDFl9_5.jpg",
+    "caption": "",
+    "credit": "@susi_more · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=6",
+    "username": "",
+    "profile_url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=6",
+    "kind": "photo",
+    "image": "images/DOxbzetDFl9_6.jpg",
+    "caption": "",
+    "credit": "@susi_more · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=8",
+    "username": "",
+    "profile_url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=8",
+    "kind": "photo",
+    "image": "images/DOxbzetDFl9_8.jpg",
+    "caption": "",
+    "credit": "@susi_more · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=9",
+    "username": "",
+    "profile_url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=9",
+    "kind": "photo",
+    "image": "images/DOxbzetDFl9_9.jpg",
+    "caption": "",
+    "credit": "@susi_more · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=10",
+    "username": "",
+    "profile_url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=10",
+    "kind": "photo",
+    "image": "images/DOxbzetDFl9_10.jpg",
+    "caption": "",
+    "credit": "@susi_more · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=11",
+    "username": "",
+    "profile_url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=11",
+    "kind": "photo",
+    "image": "images/DOxbzetDFl9_11.jpg",
+    "caption": "",
+    "credit": "@susi_more · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=12",
+    "username": "",
+    "profile_url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=12",
+    "kind": "photo",
+    "image": "images/DOxbzetDFl9_12.jpg",
+    "caption": "",
+    "credit": "@susi_more · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=13",
+    "username": "",
+    "profile_url": "https://www.instagram.com/susi_more/p/DOxbzetDFl9/?img_index=13",
+    "kind": "photo",
+    "image": "images/DOxbzetDFl9_13.jpg",
+    "caption": "",
+    "credit": "@susi_more · Instagram"
    }
   ],
   "pop": 4,
@@ -4060,7 +4803,7 @@ window.PLACES_CN = [
  {
   "id": "claude-cn-maliao-silversmith-village",
   "region": "cn",
-  "by_claude": true,
+  "by_claude": false,
   "name": "Maliao Silversmith Village 麻料村",
   "district": "Leishan (Xijiang), Guizhou",
   "category": "Dorf",
@@ -4070,14 +4813,26 @@ window.PLACES_CN = [
   "lat": 26.543,
   "lng": 108.213,
   "approx": true,
-  "image": null,
+  "image": "images/claude_gz_maliao_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://govt.chinadaily.com.cn/s/202006/11/WS5eef49e5498ed1e2f340731a/craftsmans-village-sees-silver-lining-from-jewelry.html",
+    "username": "",
+    "profile_url": "https://govt.chinadaily.com.cn/s/202006/11/WS5eef49e5498ed1e2f340731a/craftsmans-village-sees-silver-lining-from-jewelry.html",
+    "kind": "photo",
+    "image": "images/claude_gz_maliao_1.jpg",
+    "caption": "",
+    "credit": "Xinhua · China Daily"
+   }
+  ],
   "pop": 2,
   "pop_reason": "Miao-Silberschmiededorf, über 70 % beherrschen das Handwerk",
+  "image_page": "https://govt.chinadaily.com.cn/s/202006/11/WS5eef49e5498ed1e2f340731a/craftsmans-village-sees-silver-lining-from-jewelry.html",
+  "image_credit": "Xinhua · China Daily",
   "when": "day"
  },
  {
@@ -4093,14 +4848,71 @@ window.PLACES_CN = [
   "lat": 26.52086,
   "lng": 107.80079,
   "approx": false,
-  "image": null,
+  "image": "images/claude_gz_xiasi_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiasi_1.jpg",
+    "caption": "",
+    "credit": "ANTHONY THOMAS · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/kaili-491-144119627/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/kaili-491-144119627/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiasi_2.jpg",
+    "caption": "",
+    "credit": "lilywhisper · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/kaili-491-144119627/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/kaili-491-144119627/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiasi_3.jpg",
+    "caption": "",
+    "credit": "lilywhisper · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiasi_4.jpg",
+    "caption": "",
+    "credit": "ANTHONY THOMAS · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiasi_5.jpg",
+    "caption": "",
+    "credit": "ANTHONY THOMAS · trip.com Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+    "kind": "photo",
+    "image": "images/claude_gz_xiasi_6.jpg",
+    "caption": "",
+    "credit": "ANTHONY THOMAS · trip.com Moments"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Ming-zeitlicher Flusshafen am Qingshui, Anlegestufen von 1749, Gildehallen",
+  "image_page": "https://www.trip.com/moments/detail/kaili-491-139150572/",
+  "image_credit": "ANTHONY THOMAS · trip.com Moments",
   "when": "day"
  },
  {
@@ -5001,12 +5813,12 @@ window.PLACES_CN = [
  {
   "id": "claude-cn-cuiping-hill",
   "region": "cn",
-  "by_claude": true,
+  "by_claude": false,
   "name": "Cuiping Hill 翠屏山",
   "district": "Putao, Yangshuo, Guangxi",
   "category": "Aussicht",
   "note": "",
-  "tip": "Tag 1 (15.10.): Sonnenuntergang ca. 18:10. Kurzer, steiler Aufstieg (ca. 20 Min., Stirnlampe für den Rückweg). Oben Panorama nach Westen über Karstkegel, Dörfer und Reisfelder – Panorama-Reihe oder 70-200 für gestaffelte Kegel im Dunst. Nach Sonnenuntergang 20 Min. bleiben: blaue Stunde mit Lichtern der Dörfer. Bekannt aus Epson-Pano-Awards-Bildern. Drohne im ländlichen Yangshuo meist möglich (DJI-App prüfen).",
+  "tip": "15.10. (im Reiseplan „Wuzhi Hill“, 五指山): Sonnenuntergang ca. 18:10. Kurzer, steiler Aufstieg (ca. 20 Min., Stirnlampe für den Rückweg). Oben Panorama nach Westen über Karstkegel, Dörfer und Reisfelder – Panorama-Reihe oder 70-200 für gestaffelte Kegel im Dunst. Nach Sonnenuntergang 20 Min. bleiben: blaue Stunde mit Lichtern der Dörfer. Bekannt aus Epson-Pano-Awards-Bildern. Drohne im ländlichen Yangshuo meist möglich (DJI-App prüfen).",
   "address": "Putao, Yangshuo, Guangxi",
   "lat": 24.89286,
   "lng": 110.36854,
@@ -5016,7 +5828,44 @@ window.PLACES_CN = [
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/",
+    "kind": "photo",
+    "image": "images/CnP00gIqiUr_1.jpg",
+    "caption": "",
+    "credit": "@czech.adventurer · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/?img_index=2",
+    "kind": "photo",
+    "image": "images/CnP00gIqiUr_2.jpg",
+    "caption": "",
+    "credit": "@czech.adventurer · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/?img_index=3",
+    "username": "",
+    "profile_url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/?img_index=3",
+    "kind": "photo",
+    "image": "images/CnP00gIqiUr_3.jpg",
+    "caption": "",
+    "credit": "@czech.adventurer · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/?img_index=4",
+    "username": "",
+    "profile_url": "https://www.instagram.com/czech.adventurer/p/CnP00gIqiUr/?img_index=4",
+    "kind": "photo",
+    "image": "images/CnP00gIqiUr_4.jpg",
+    "caption": "",
+    "credit": "@czech.adventurer · Instagram"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Sonnenuntergang über ein Meer aus Karstkegeln, Dörfern und Feldern",
   "image_page": "https://commons.wikimedia.org/wiki/File:1_pano_cuiping_yangshuo_2016.jpg",
@@ -5026,12 +5875,12 @@ window.PLACES_CN = [
  {
   "id": "claude-cn-damian-hill-li-river-bogen",
   "region": "cn",
-  "by_claude": true,
+  "by_claude": false,
   "name": "Damian Hill 大面山 – Li-River-Bogen",
   "district": "Dahebei, Xingping, Guangxi",
   "category": "Aussicht",
   "note": "",
-  "tip": "Tag 3 (17.10.): Sonnenaufgang ca. 6:40, Aufstieg ab Dorf Dahebei 大河背 ca. 40–50 Min. (Weggebühr ca. 20 CNY), also gegen 5:30 losgehen. Blick auf die sichelförmige 180°-Biegung des Li River mit Karstkegeln; bei Morgennebel am stärksten. Weitwinkel 16-35 für die ganze Schleife, Stativ. Oben oft voll – früh einen Platz an der Kante sichern. Pin = Gipfel laut OSM.",
+  "tip": "16.10.: Sonnenaufgang ca. 6:40, Aufstieg ab Dorf Dahebei 大河背 ca. 40–50 Min. (Weggebühr ca. 20 CNY), also gegen 5:30 losgehen. Blick auf die sichelförmige 180°-Biegung des Li River mit Karstkegeln; bei Morgennebel am stärksten. Weitwinkel 16-35 für die ganze Schleife, Stativ. Oben oft voll – früh einen Platz an der Kante sichern. Pin = Gipfel laut OSM.",
   "address": "Dahebei, Xingping, Guangxi",
   "lat": 24.90988,
   "lng": 110.4958,
@@ -5041,7 +5890,71 @@ window.PLACES_CN = [
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.fabionodariphoto.com/en/xingping-yangshuo-photography-guide/",
+    "username": "",
+    "profile_url": "https://www.fabionodariphoto.com/en/xingping-yangshuo-photography-guide/",
+    "kind": "photo",
+    "image": "images/damian_1.jpg",
+    "caption": "",
+    "credit": "Fabio Nodari Photo"
+   },
+   {
+    "url": "https://travelchinawith.me/attractions/guangxi/yangshuo/damian-mountain/",
+    "username": "",
+    "profile_url": "https://travelchinawith.me/attractions/guangxi/yangshuo/damian-mountain/",
+    "kind": "photo",
+    "image": "images/damian_2.jpg",
+    "caption": "",
+    "credit": "Travel China With Me"
+   },
+   {
+    "url": "https://travelchinawith.me/attractions/guangxi/yangshuo/damian-mountain/",
+    "username": "",
+    "profile_url": "https://travelchinawith.me/attractions/guangxi/yangshuo/damian-mountain/",
+    "kind": "photo",
+    "image": "images/damian_3.jpg",
+    "caption": "",
+    "credit": "Travel China With Me"
+   },
+   {
+    "url": "https://travelchinawith.me/attractions/guangxi/yangshuo/damian-mountain/",
+    "username": "",
+    "profile_url": "https://travelchinawith.me/attractions/guangxi/yangshuo/damian-mountain/",
+    "kind": "photo",
+    "image": "images/damian_4.jpg",
+    "caption": "",
+    "credit": "Travel China With Me"
+   },
+   {
+    "url": "https://travelchinawith.me/attractions/guangxi/yangshuo/damian-mountain/",
+    "username": "",
+    "profile_url": "https://travelchinawith.me/attractions/guangxi/yangshuo/damian-mountain/",
+    "kind": "photo",
+    "image": "images/damian_5.jpg",
+    "caption": "",
+    "credit": "Travel China With Me"
+   },
+   {
+    "url": "https://travelchinawith.me/attractions/guangxi/yangshuo/damian-mountain/",
+    "username": "",
+    "profile_url": "https://travelchinawith.me/attractions/guangxi/yangshuo/damian-mountain/",
+    "kind": "photo",
+    "image": "images/damian_6.jpg",
+    "caption": "",
+    "credit": "Travel China With Me"
+   },
+   {
+    "url": "https://www.fabionodariphoto.com/en/xingping-yangshuo-photography-guide/",
+    "username": "",
+    "profile_url": "https://www.fabionodariphoto.com/en/xingping-yangshuo-photography-guide/",
+    "kind": "photo",
+    "image": "images/damian_7.jpg",
+    "caption": "",
+    "credit": "Fabio Nodari Photo · Leiter am Aufstieg"
+   }
+  ],
   "pop": 4,
   "pop_reason": "180°-Schleife des Li River ('erste Biegung des Li') zum Sonnenaufgang",
   "image_page": "https://www.trip.com/travel-guide/attraction/yangshuo/damian-mountain-23865244/",
@@ -5449,6 +6362,587 @@ window.PLACES_CN = [
   "image_page": "https://www.trip.com/travel-guide/attraction/yangshuo/yulong-river-80969/",
   "image_credit": "trip.com (Nutzerfoto)",
   "when": "day"
+ },
+ {
+  "id": "cn-tianxin-village-zhuangyuan-brcke",
+  "region": "cn",
+  "name": "Tianxin Village – Zhuangyuan-Brücke 田心村·状元桥",
+  "district": "Sitang, Lingui, Guilin",
+  "category": "Dorf",
+  "note": "Laut Reiseplan (Variante B): 15.10. nachmittags auf dem Weg vom Bahnhof Guilin West (ca. 40 km, ~1 Std.). Zwei alte Steinbogenbrücken („Zhuangyuan-Brücke“, Teil eines Qing-zeitlichen Steinpfads zum Nachbardorf Hengshan) über Reisfeld-Wasserflächen mit Karstkegeln dahinter. Klassisches Motiv: Bauer mit Wasserbüffel auf der Brücke, Spiegelung im Wasser – Model über den Fahrer organisieren. Gegenlicht am Morgen oder späten Nachmittag.",
+  "address": "Sitang, Lingui, Guilin",
+  "lat": 25.17063,
+  "lng": 110.20172,
+  "approx": true,
+  "image": "images/DdXg4t2GDJp.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/nateinthewild/p/DdXg4t2GDJp/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/nateinthewild/p/DdXg4t2GDJp/",
+    "kind": "photo",
+    "image": "images/DdXg4t2GDJp.jpg",
+    "caption": "",
+    "credit": "@nateinthewild"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/28/4033006.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/28/4033006.html",
+    "kind": "photo",
+    "image": "images/tianxin_plan_1.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht (Nutzerfoto)"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/28/4033006.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/28/4033006.html",
+    "kind": "photo",
+    "image": "images/tianxin_plan_2.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht (Nutzerfoto)"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/28/4033006.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/28/4033006.html",
+    "kind": "photo",
+    "image": "images/tianxin_plan_3.jpg",
+    "caption": "",
+    "credit": "Ctrip-Reisebericht (Nutzerfoto)"
+   },
+   {
+    "url": "https://www.instagram.com/vdubl/p/ByfRWByhweu/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/vdubl/p/ByfRWByhweu/",
+    "kind": "photo",
+    "image": "images/ByfRWByhweu_1.jpg",
+    "caption": "",
+    "credit": "@vdubl · Instagram"
+   }
+  ],
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "unsure": "Pin = Weiler Tianxin laut OSM; die Brücke liegt im/am Dorf, genauer Standpunkt vor Ort",
+  "image_page": "https://www.instagram.com/nateinthewild/p/DdXg4t2GDJp/",
+  "image_credit": "@nateinthewild",
+  "when": "day"
+ },
+ {
+  "id": "cn-wulongquan-sunset-viewpoint",
+  "region": "cn",
+  "name": "Wulongquan Sunset Viewpoint 乌龙泉",
+  "district": "Putao, Yangshuo, Guangxi",
+  "category": "Aussicht",
+  "note": "Laut Reiseplan (Variante B): Sonnenuntergang am 15.10. Aussichtspunkt direkt an der Straße – kein Aufstieg. Blick über Felder, Gewächshäuser und Wasserflächen auf gestaffelte Karstkegel im Gegenlicht; Sonne geht hinter den Bergen unter (~18:10). Kein Eintritt, Parken ca. 10 CNY; vor 18 Uhr da sein, Plätze an der Straße sind begrenzt. Pin laut trip.com (GCJ-02 umgerechnet).",
+  "address": "Putao, Yangshuo, Guangxi",
+  "lat": 24.916848,
+  "lng": 110.403064,
+  "approx": false,
+  "image": "images/wulongquan_plan_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.trip.com/moments/detail/yangshuo-702-125040729/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/yangshuo-702-125040729/",
+    "kind": "photo",
+    "image": "images/wulongquan_plan_1.jpg",
+    "caption": "",
+    "credit": "trip.com (Nutzerfoto)"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/yangshuo-702-125040729/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/yangshuo-702-125040729/",
+    "kind": "photo",
+    "image": "images/wulongquan_plan_2.jpg",
+    "caption": "",
+    "credit": "trip.com (Nutzerfoto)"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/yangshuo-702-125040729/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/yangshuo-702-125040729/",
+    "kind": "photo",
+    "image": "images/wulongquan_plan_3.jpg",
+    "caption": "",
+    "credit": "trip.com (Nutzerfoto)"
+   }
+  ],
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "image_page": "https://www.trip.com/moments/detail/yangshuo-702-125040729/",
+  "image_credit": "trip.com (Nutzerfoto)",
+  "when": "day"
+ },
+ {
+  "id": "cn-xialong-kormoranfischer-mit-laterne",
+  "region": "cn",
+  "name": "Xialong – Kormoranfischer mit Laterne 下龙渔火",
+  "district": "Li River, Xingping, Guangxi",
+  "category": "Dorf",
+  "note": "Laut Reiseplan: 17.10. Kormoranfischer mit Laterne auf dem Bambusfloß vor Karstkegeln, Spiegelung im Li River – klassischer Sonnenaufgangs-/Dämmerungs-Spot. Fischer über den Fahrer/Guide.",
+  "address": "Li River, Xingping, Guangxi",
+  "lat": 24.9558,
+  "lng": 110.4742,
+  "approx": true,
+  "image": "images/DdA4hImlOyb.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/scotthowes/p/DdA4hImlOyb/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/scotthowes/p/DdA4hImlOyb/",
+    "kind": "photo",
+    "image": "images/DdA4hImlOyb.jpg",
+    "caption": "",
+    "credit": "@scotthowes · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=3",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=3",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_3.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=1",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=1",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_1.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=2",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_2.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=4",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=4",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_4.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=5",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=5",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_5.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=6",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=6",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_6.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=7",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=7",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_7.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=8",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=8",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_8.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=9",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=9",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_9.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=1",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=1",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_1.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=2",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_2.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=4",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=4",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_4.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=7",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=7",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_7.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=9",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=9",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_9.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=11",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=11",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_11.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=14",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=14",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_14.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=15",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=15",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_15.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=16",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=16",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_16.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/janjanuary30/p/DaXqsjFTAgj/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/janjanuary30/p/DaXqsjFTAgj/",
+    "kind": "photo",
+    "image": "images/DaXqsjFTAgj.jpg",
+    "caption": "",
+    "credit": "@janjanuary30 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=1",
+    "username": "",
+    "profile_url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=1",
+    "kind": "photo",
+    "image": "images/B0YLfiPg1dy_1.jpg",
+    "caption": "",
+    "credit": "@yantastic · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=2",
+    "kind": "photo",
+    "image": "images/B0YLfiPg1dy_2.jpg",
+    "caption": "",
+    "credit": "@yantastic · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=3",
+    "username": "",
+    "profile_url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=3",
+    "kind": "photo",
+    "image": "images/B0YLfiPg1dy_3.jpg",
+    "caption": "",
+    "credit": "@yantastic · Instagram"
+   }
+  ],
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "unsure": "Standpunkt laut Fotoguide: zum Dorf 老村头 Laocuntou fahren, dann ca. 900 m am Fluss nach Norden bis zu einem Stein mit „甲天下“ – Pin dort geschätzt; der Weiler 下龙 liegt laut OSM ca. 3 km westlich (24.9605, 110.4440)",
+  "image_page": "https://www.instagram.com/scotthowes/p/DdA4hImlOyb/",
+  "image_credit": "@scotthowes · Instagram",
+  "when": "day"
+ },
+ {
+  "id": "cn-luoshi-hill-kormoranfischer-mit-laterne",
+  "region": "cn",
+  "name": "Luoshi Hill – Kormoranfischer mit Laterne 螺蛳山渔火",
+  "district": "Huangnitian, Xingping, Guangxi",
+  "category": "Dorf",
+  "note": "Laut Reiseplan: 17.10. Kormoranfischer mit Laterne am Li River vor dem Luoshi-Berg („Schneckenberg“), vermutlich zur Abenddämmerung.",
+  "address": "Huangnitian, Xingping, Guangxi",
+  "lat": 24.911,
+  "lng": 110.502,
+  "approx": true,
+  "image": "images/DdA4hImlOyb.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/scotthowes/p/DdA4hImlOyb/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/scotthowes/p/DdA4hImlOyb/",
+    "kind": "photo",
+    "image": "images/DdA4hImlOyb.jpg",
+    "caption": "",
+    "credit": "@scotthowes · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=3",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=3",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_3.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=1",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=1",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_1.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=2",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_2.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=4",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=4",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_4.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=5",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=5",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_5.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=6",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=6",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_6.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=7",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=7",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_7.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=8",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=8",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_8.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=9",
+    "username": "",
+    "profile_url": "https://www.instagram.com/ambri92/p/Dcym0q6DYf9/?img_index=9",
+    "kind": "photo",
+    "image": "images/Dcym0q6DYf9_9.jpg",
+    "caption": "",
+    "credit": "@ambri92 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=1",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=1",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_1.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=2",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_2.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=4",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=4",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_4.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=7",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=7",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_7.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=9",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=9",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_9.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=11",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=11",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_11.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=14",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=14",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_14.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=15",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=15",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_15.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=16",
+    "username": "",
+    "profile_url": "https://www.instagram.com/didigu78/p/DP3kTE1jU_g/?img_index=16",
+    "kind": "photo",
+    "image": "images/DP3kTE1jU_g_16.jpg",
+    "caption": "",
+    "credit": "@didigu78 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/janjanuary30/p/DaXqsjFTAgj/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/janjanuary30/p/DaXqsjFTAgj/",
+    "kind": "photo",
+    "image": "images/DaXqsjFTAgj.jpg",
+    "caption": "",
+    "credit": "@janjanuary30 · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=1",
+    "username": "",
+    "profile_url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=1",
+    "kind": "photo",
+    "image": "images/B0YLfiPg1dy_1.jpg",
+    "caption": "",
+    "credit": "@yantastic · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=2",
+    "kind": "photo",
+    "image": "images/B0YLfiPg1dy_2.jpg",
+    "caption": "",
+    "credit": "@yantastic · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=3",
+    "username": "",
+    "profile_url": "https://www.instagram.com/yantastic/p/B0YLfiPg1dy/?img_index=3",
+    "kind": "photo",
+    "image": "images/B0YLfiPg1dy_3.jpg",
+    "caption": "",
+    "credit": "@yantastic · Instagram"
+   }
+  ],
+  "source": "Reiseplan Fotoreise 15.–19.10.",
+  "unsure": "Lage nur grob bekannt: Luoshi-Berg liegt laut Reisebericht östlich des Damian Hill beim Dorf Huangnitian 黄泥田 (Xingping) – genauer Standpunkt vom Guide",
+  "image_page": "https://www.instagram.com/scotthowes/p/DdA4hImlOyb/",
+  "image_credit": "@scotthowes · Instagram",
+  "when": "day"
  }
 ];
 window.UNPLACED_CN = [
@@ -5459,6 +6953,7 @@ window.UNPLACED_CN = [
   "kind": "p",
   "image": "images/DcdpJbZkkKN.jpg",
   "caption": "-\nTaxis in Hong Kong — Through my lens\nWhich one is your favourite? 🇭🇰\n\nCanon R6 Mark II 📸\n\nLike & Share if you like 🔥\nFollow @llittlepig for more 📸",
-  "region": "hk"
+  "region": "hk",
+  "sub": "hk"
  }
 ];

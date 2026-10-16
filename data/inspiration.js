@@ -2,6 +2,706 @@
 window.INSPIRATION = {
  "hk": [
   {
+   "code": "DcJtOgQGauy",
+   "user": "gregforaday",
+   "url": "https://www.instagram.com/p/DcJtOgQGauy/",
+   "caption": "Very excited to announce my latest photography workshop!\n\n“HERE AND NOW in SHANGHAI AND HONG KONG”.\n\nAn eight-day program in two cities that shaped me and where I’ve made some of my best-known work, from my books “Phantom Shanghai”, “City of Darkness” and “HK:PM”.\n\nThe workshop takes place Nov 27-De",
+   "images": [
+    "images/insp/DcJtOgQGauy_7.jpg",
+    "images/insp/DcJtOgQGauy_8.jpg",
+    "images/insp/DcJtOgQGauy_9.jpg",
+    "images/insp/DcJtOgQGauy_10.jpg"
+   ]
+  },
+  {
+   "code": "Da0OO9pg-od",
+   "user": "withyuee",
+   "url": "https://www.instagram.com/p/Da0OO9pg-od/",
+   "caption": "Episode 2 of the art of noticing the everyday in Hong Kong🇭🇰✨\n\n📸Shot on iPhone\n📍Hong Kong",
+   "images": [
+    "images/insp/Da0OO9pg-od_1.jpg"
+   ]
+  },
+  {
+   "code": "DdRXGnOpnKQ",
+   "user": "travelailleurs",
+   "url": "https://www.instagram.com/p/DdRXGnOpnKQ/",
+   "caption": "Between the mountains and the city, Hong Kong has so much to offer for both worlds! 🇭🇰\n\nWhat’s your favorite place to visit in Hong Kong?",
+   "images": [
+    "images/insp/DdRXGnOpnKQ_1.jpg"
+   ]
+  },
+  {
+   "code": "DdbY67AH1W9",
+   "user": "mansonyms",
+   "url": "https://www.instagram.com/p/DdbY67AH1W9/",
+   "caption": "My collection of old shops in Hong Kong, unique shopfronts which tell so much stories of a bygone era that is slowly fading away 🕰️ Which one do you like the most? \n\nLike, Share, and Save if you like this post ❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details ",
+   "images": [
+    "images/insp/DdbY67AH1W9_1.jpg",
+    "images/insp/DdbY67AH1W9_2.jpg",
+    "images/insp/DdbY67AH1W9_3.jpg",
+    "images/insp/DdbY67AH1W9_4.jpg",
+    "images/insp/DdbY67AH1W9_5.jpg",
+    "images/insp/DdbY67AH1W9_6.jpg",
+    "images/insp/DdbY67AH1W9_7.jpg",
+    "images/insp/DdbY67AH1W9_8.jpg"
+   ]
+  },
+  {
+   "code": "DXR-cr5Ed_7",
+   "user": "fulltimetrippin",
+   "url": "https://www.instagram.com/p/DXR-cr5Ed_7/",
+   "caption": "Hot take: Hong Kong is way more affordable than people think 👀\n\nWe finished $456 under budget (full breakdown coming soon), and there’s no shortage of low-cost things to do. Free views, cheap eats and a city built for wandering around!",
+   "images": [
+    "images/insp/DXR-cr5Ed_7_1.jpg"
+   ]
+  },
+  {
+   "code": "DdOuWqHk1cZ",
+   "user": "jklmnest",
+   "url": "https://www.instagram.com/p/DdOuWqHk1cZ/",
+   "caption": "here’s our little guide to hong kong! 🥧 swipe to the end to check out our homeware haul 👀\n\nsave this for your next hk trip 💌 & follow for more travel guides!\n\n#香港 #travelguide #hktravel #hongkongfood #hongkongshopping home goods / cafes / lifestyle shops /twemco clocks / cha chan teng / hk bars / an",
+   "images": [
+    "images/insp/DdOuWqHk1cZ_1.jpg",
+    "images/insp/DdOuWqHk1cZ_2.jpg",
+    "images/insp/DdOuWqHk1cZ_3.jpg",
+    "images/insp/DdOuWqHk1cZ_4.jpg",
+    "images/insp/DdOuWqHk1cZ_5.jpg",
+    "images/insp/DdOuWqHk1cZ_6.jpg",
+    "images/insp/DdOuWqHk1cZ_7.jpg",
+    "images/insp/DdOuWqHk1cZ_8.jpg",
+    "images/insp/DdOuWqHk1cZ_9.jpg",
+    "images/insp/DdOuWqHk1cZ_10.jpg",
+    "images/insp/DdOuWqHk1cZ_11.jpg",
+    "images/insp/DdOuWqHk1cZ_12.jpg",
+    "images/insp/DdOuWqHk1cZ_13.jpg",
+    "images/insp/DdOuWqHk1cZ_14.jpg",
+    "images/insp/DdOuWqHk1cZ_15.jpg",
+    "images/insp/DdOuWqHk1cZ_16.jpg",
+    "images/insp/DdOuWqHk1cZ_17.jpg",
+    "images/insp/DdOuWqHk1cZ_18.jpg"
+   ]
+  },
+  {
+   "code": "DcgVLVEn_TJ",
+   "user": "garyfive",
+   "url": "https://www.instagram.com/p/DcgVLVEn_TJ/",
+   "caption": "📮L o o k . B a c k - in 🔟 iconic shots \n—————————————————\n:: Lines • Light • Life : poems from an architecture photographer in Hong Kong 🇭🇰 \n\n// 感激🌦️ 用十張相記住 📸\n\n1️⃣ Frames of Minecraft 👾🏢\n香港/亞洲首位 APA2026「年度攝影師」總冠軍作品🏆\n城窗幻景 幾何規律中的百態人生\n\n2️⃣ Hong Kong in the Veil 🌫️⛵️\n夕照浮城 從張保仔號開始\n\n3️⃣ Mid-Summer Day’s D",
+   "images": [
+    "images/insp/DcgVLVEn_TJ_1.jpg",
+    "images/insp/DcgVLVEn_TJ_2.jpg",
+    "images/insp/DcgVLVEn_TJ_3.jpg",
+    "images/insp/DcgVLVEn_TJ_4.jpg",
+    "images/insp/DcgVLVEn_TJ_5.jpg",
+    "images/insp/DcgVLVEn_TJ_6.jpg",
+    "images/insp/DcgVLVEn_TJ_7.jpg",
+    "images/insp/DcgVLVEn_TJ_8.jpg",
+    "images/insp/DcgVLVEn_TJ_9.jpg",
+    "images/insp/DcgVLVEn_TJ_10.jpg"
+   ]
+  },
+  {
+   "code": "Dcn7cdckkoF",
+   "user": "dixonkwan",
+   "url": "https://www.instagram.com/p/Dcn7cdckkoF/",
+   "caption": "bird’s eye view of hong kong",
+   "images": [
+    "images/insp/Dcn7cdckkoF_1.jpg",
+    "images/insp/Dcn7cdckkoF_2.jpg",
+    "images/insp/Dcn7cdckkoF_3.jpg",
+    "images/insp/Dcn7cdckkoF_4.jpg",
+    "images/insp/Dcn7cdckkoF_5.jpg"
+   ]
+  },
+  {
+   "code": "Da5zI4yysdx",
+   "user": "ricoglck",
+   "url": "https://www.instagram.com/p/Da5zI4yysdx/",
+   "caption": "Sorry Instagram but this epic view over Hong Kong deserves 9:16! Who agrees? 🤯\n\n#hongkong #neverstopexploring #dji #cinematic #roamtheplanet",
+   "images": [
+    "images/insp/Da5zI4yysdx_1.jpg"
+   ]
+  },
+  {
+   "code": "DcSwg4-gKzs",
+   "user": "itsshaylajay",
+   "url": "https://www.instagram.com/p/DcSwg4-gKzs/",
+   "caption": "What a fun few days bopping around Hong Kong! Jam packed with endless things to do, see & eat! Definitely a place i’d love to come back and see more of! 🥟🌃🦀✨♥️\n\n#hongkong",
+   "images": [
+    "images/insp/DcSwg4-gKzs_1.jpg",
+    "images/insp/DcSwg4-gKzs_2.jpg",
+    "images/insp/DcSwg4-gKzs_3.jpg",
+    "images/insp/DcSwg4-gKzs_4.jpg",
+    "images/insp/DcSwg4-gKzs_5.jpg",
+    "images/insp/DcSwg4-gKzs_6.jpg",
+    "images/insp/DcSwg4-gKzs_7.jpg",
+    "images/insp/DcSwg4-gKzs_8.jpg",
+    "images/insp/DcSwg4-gKzs_9.jpg",
+    "images/insp/DcSwg4-gKzs_10.jpg",
+    "images/insp/DcSwg4-gKzs_11.jpg",
+    "images/insp/DcSwg4-gKzs_12.jpg",
+    "images/insp/DcSwg4-gKzs_13.jpg",
+    "images/insp/DcSwg4-gKzs_14.jpg",
+    "images/insp/DcSwg4-gKzs_15.jpg"
+   ]
+  },
+  {
+   "code": "DamaLIxxRZR",
+   "user": "lolahubner",
+   "url": "https://www.instagram.com/p/DamaLIxxRZR/",
+   "caption": "Did you know that Hong Kong could look like this?! 😍",
+   "images": [
+    "images/insp/DamaLIxxRZR_1.jpg"
+   ]
+  },
+  {
+   "code": "DdReo0_v8Pq",
+   "user": "andrewsant89",
+   "url": "https://www.instagram.com/p/DdReo0_v8Pq/",
+   "caption": "The view Hong kong Skyline !💫\n•\n•\n•\n•\n•\n•\n#skyline #hongkong #lights #views #night",
+   "images": [
+    "images/insp/DdReo0_v8Pq_1.jpg"
+   ]
+  },
+  {
+   "code": "DcdpJbZkkKN",
+   "user": "llittlepig",
+   "url": "https://www.instagram.com/p/DcdpJbZkkKN/",
+   "caption": "-\nTaxis in Hong Kong — Through my lens\nWhich one is your favourite? 🇭🇰\n\nCanon R6 Mark II 📸\n\nLike & Share if you like 🔥\nFollow @llittlepig for more 📸",
+   "images": [
+    "images/insp/DcdpJbZkkKN_1.jpg",
+    "images/insp/DcdpJbZkkKN_2.jpg",
+    "images/insp/DcdpJbZkkKN_3.jpg",
+    "images/insp/DcdpJbZkkKN_4.jpg",
+    "images/insp/DcdpJbZkkKN_5.jpg",
+    "images/insp/DcdpJbZkkKN_6.jpg",
+    "images/insp/DcdpJbZkkKN_7.jpg",
+    "images/insp/DcdpJbZkkKN_8.jpg",
+    "images/insp/DcdpJbZkkKN_9.jpg",
+    "images/insp/DcdpJbZkkKN_10.jpg"
+   ]
+  },
+  {
+   "code": "DdtWI4PDz_s",
+   "user": "audityawijaya",
+   "url": "https://www.instagram.com/p/DdtWI4PDz_s/",
+   "caption": "Kennedy Town, Hong Kong and everything in between.\n\nMong Kok — Jewels of Hong Kong\n\nThe legendary Ding Ding tram of Hong Kong in blue — highlights of Hong Kong Island.\n\nThe star of Tsim Sha Tsui — Hong Kong iconic red and white taxi.\n\nA stop for the “I ❤️ Hong Kong” shops.\n\nHashtag B — always be on ",
+   "images": [
+    "images/insp/DdtWI4PDz_s_1.jpg",
+    "images/insp/DdtWI4PDz_s_2.jpg",
+    "images/insp/DdtWI4PDz_s_3.jpg",
+    "images/insp/DdtWI4PDz_s_4.jpg",
+    "images/insp/DdtWI4PDz_s_5.jpg",
+    "images/insp/DdtWI4PDz_s_6.jpg",
+    "images/insp/DdtWI4PDz_s_7.jpg",
+    "images/insp/DdtWI4PDz_s_8.jpg",
+    "images/insp/DdtWI4PDz_s_9.jpg",
+    "images/insp/DdtWI4PDz_s_10.jpg",
+    "images/insp/DdtWI4PDz_s_11.jpg",
+    "images/insp/DdtWI4PDz_s_12.jpg"
+   ]
+  },
+  {
+   "code": "DRePtKcETWC",
+   "user": "derryainsworth",
+   "url": "https://www.instagram.com/p/DRePtKcETWC/",
+   "caption": "俯仰之間 HIGHS & LOWS - some of my favourite images from my new Hong Kong photobook! Images taken over the last 11 years between 2014-2025 #hongkong #highsandlows",
+   "images": [
+    "images/insp/DRePtKcETWC_1.jpg",
+    "images/insp/DRePtKcETWC_2.jpg",
+    "images/insp/DRePtKcETWC_3.jpg",
+    "images/insp/DRePtKcETWC_4.jpg",
+    "images/insp/DRePtKcETWC_5.jpg",
+    "images/insp/DRePtKcETWC_6.jpg",
+    "images/insp/DRePtKcETWC_7.jpg",
+    "images/insp/DRePtKcETWC_8.jpg",
+    "images/insp/DRePtKcETWC_9.jpg",
+    "images/insp/DRePtKcETWC_10.jpg",
+    "images/insp/DRePtKcETWC_11.jpg",
+    "images/insp/DRePtKcETWC_12.jpg",
+    "images/insp/DRePtKcETWC_13.jpg",
+    "images/insp/DRePtKcETWC_14.jpg",
+    "images/insp/DRePtKcETWC_15.jpg",
+    "images/insp/DRePtKcETWC_16.jpg",
+    "images/insp/DRePtKcETWC_17.jpg",
+    "images/insp/DRePtKcETWC_18.jpg",
+    "images/insp/DRePtKcETWC_19.jpg",
+    "images/insp/DRePtKcETWC_20.jpg"
+   ]
+  },
+  {
+   "code": "DRSOTZWkqbP",
+   "user": "lostitalianos",
+   "url": "https://www.instagram.com/p/DRSOTZWkqbP/",
+   "caption": "𝗛𝗼𝗻𝗴 𝗞𝗼𝗻𝗴 czyli randomowe zdjęcia i filmiki, które mam nadzieję pozwolą Wam chociaż trochę poczuć klimat tego miasta (no nie aż tak randomowe, chwilę je wybierałam).\n\nNa razie Hong Kong jest dla nas głośny, zatłoczony, szybki, chaotyczny, uzależniający. Bardzo duża niespodzianka, bo nie sądziliśmy, ",
+   "images": [
+    "images/insp/DRSOTZWkqbP_1.jpg",
+    "images/insp/DRSOTZWkqbP_2.jpg",
+    "images/insp/DRSOTZWkqbP_3.jpg",
+    "images/insp/DRSOTZWkqbP_4.jpg",
+    "images/insp/DRSOTZWkqbP_5.jpg",
+    "images/insp/DRSOTZWkqbP_6.jpg",
+    "images/insp/DRSOTZWkqbP_7.jpg",
+    "images/insp/DRSOTZWkqbP_8.jpg",
+    "images/insp/DRSOTZWkqbP_9.jpg",
+    "images/insp/DRSOTZWkqbP_10.jpg",
+    "images/insp/DRSOTZWkqbP_11.jpg",
+    "images/insp/DRSOTZWkqbP_12.jpg"
+   ]
+  },
+  {
+   "code": "DQOhjJNjfji",
+   "user": "kosnio",
+   "url": "https://www.instagram.com/p/DQOhjJNjfji/",
+   "caption": "Everyday Hong Kong feels like a movie 🎞️\n\n#hongkong #cinematic #streetstorytelling",
+   "images": [
+    "images/insp/DQOhjJNjfji_1.jpg"
+   ]
+  },
+  {
+   "code": "DRkgylwDfR4",
+   "user": "fpenta",
+   "url": "https://www.instagram.com/p/DRkgylwDfR4/",
+   "caption": "Took these exactly 12 years ago, before Instagram was even a thing for most people.\nBack then I was obsessed with Hong Kong’s views…and today it’s still my favorite skyline in the world, where nature blends seamlessly into the cityscape",
+   "images": [
+    "images/insp/DRkgylwDfR4_1.jpg",
+    "images/insp/DRkgylwDfR4_2.jpg",
+    "images/insp/DRkgylwDfR4_3.jpg",
+    "images/insp/DRkgylwDfR4_4.jpg"
+   ]
+  },
+  {
+   "code": "DWRk_HXkxTK",
+   "user": "charliesheehann",
+   "url": "https://www.instagram.com/p/DWRk_HXkxTK/",
+   "caption": "Might be better than New York...\n-\n-\n-\nFollow @charliesheehann for more travel inspiration",
+   "images": [
+    "images/insp/DWRk_HXkxTK_1.jpg"
+   ]
+  },
+  {
+   "code": "DYzRuzcFMD4",
+   "user": "mansonyms",
+   "url": "https://www.instagram.com/p/DYzRuzcFMD4/",
+   "caption": "This is not AI, this is Hong Kong through my camera 🇭🇰📸 The reality of Hong Kong is honestly more surreal than AI-generated photos 🤖 I love heading out into the streets to capture the geometry, compression, and endless layers of the concrete jungle that don’t even look real 🤯 Which one is your favou",
+   "images": [
+    "images/insp/DYzRuzcFMD4_1.jpg",
+    "images/insp/DYzRuzcFMD4_2.jpg",
+    "images/insp/DYzRuzcFMD4_3.jpg",
+    "images/insp/DYzRuzcFMD4_4.jpg",
+    "images/insp/DYzRuzcFMD4_5.jpg",
+    "images/insp/DYzRuzcFMD4_6.jpg",
+    "images/insp/DYzRuzcFMD4_7.jpg",
+    "images/insp/DYzRuzcFMD4_8.jpg",
+    "images/insp/DYzRuzcFMD4_9.jpg",
+    "images/insp/DYzRuzcFMD4_10.jpg"
+   ]
+  },
+  {
+   "code": "Dbk3td4mflk",
+   "user": "tatlertravel",
+   "url": "https://www.instagram.com/p/Dbk3td4mflk/",
+   "caption": "When Austin Bell (@austinwonderland) visited Hong Kong in 2017, he was captivated by the number of outdoor basketball courts scattered across the city - hidden amongst nature, perched on the city’s rooftops or painted into the colourful facades of the city’s public housing estates. \n\nDocumented in h",
+   "images": [
+    "images/insp/Dbk3td4mflk_1.jpg",
+    "images/insp/Dbk3td4mflk_2.jpg",
+    "images/insp/Dbk3td4mflk_3.jpg",
+    "images/insp/Dbk3td4mflk_4.jpg",
+    "images/insp/Dbk3td4mflk_5.jpg",
+    "images/insp/Dbk3td4mflk_6.jpg",
+    "images/insp/Dbk3td4mflk_7.jpg",
+    "images/insp/Dbk3td4mflk_8.jpg",
+    "images/insp/Dbk3td4mflk_9.jpg",
+    "images/insp/Dbk3td4mflk_10.jpg",
+    "images/insp/Dbk3td4mflk_11.jpg",
+    "images/insp/Dbk3td4mflk_12.jpg",
+    "images/insp/Dbk3td4mflk_13.jpg",
+    "images/insp/Dbk3td4mflk_14.jpg",
+    "images/insp/Dbk3td4mflk_15.jpg",
+    "images/insp/Dbk3td4mflk_16.jpg",
+    "images/insp/Dbk3td4mflk_17.jpg",
+    "images/insp/Dbk3td4mflk_18.jpg",
+    "images/insp/Dbk3td4mflk_19.jpg",
+    "images/insp/Dbk3td4mflk_20.jpg"
+   ]
+  },
+  {
+   "code": "DaGtRG-P-Aj",
+   "user": "kylehouck",
+   "url": "https://www.instagram.com/p/DaGtRG-P-Aj/",
+   "caption": "First stop on my 24hr layover in Hong Kong ✈️",
+   "images": [
+    "images/insp/DaGtRG-P-Aj_1.jpg"
+   ]
+  },
+  {
+   "code": "DcdX3DtiHfB",
+   "user": "thebayasia",
+   "url": "https://www.instagram.com/p/DcdX3DtiHfB/",
+   "caption": "Hong Kong-based photographer Derry Ainsworth has been named Architecture Photographer of the Year at the 2026 European Photography Awards, taking home 12 awards in total for his aerial series “Hong Kong From Above.”\n\nHis winning image “Containment” also earned a Platinum Award in Fine Art – Architec",
+   "images": [
+    "images/insp/DcdX3DtiHfB_1.jpg",
+    "images/insp/DcdX3DtiHfB_2.jpg",
+    "images/insp/DcdX3DtiHfB_3.jpg",
+    "images/insp/DcdX3DtiHfB_4.jpg",
+    "images/insp/DcdX3DtiHfB_5.jpg",
+    "images/insp/DcdX3DtiHfB_6.jpg"
+   ]
+  },
+  {
+   "code": "DbIcHf2hEJc",
+   "user": "filmat.c",
+   "url": "https://www.instagram.com/p/DbIcHf2hEJc/",
+   "caption": "Isn’t this the coolest neon sign in Hong Kong??\n\nNot because it’s the biggest or the brightest, but because you can actually get this close to it. Seeing every tube, every bend and every little detail up close makes you appreciate how incredible these signs really are.\n\nOf course I had to capture it",
+   "images": [
+    "images/insp/DbIcHf2hEJc_1.jpg"
+   ]
+  },
+  {
+   "code": "DcBpq1SqnXq",
+   "user": "edwardkb",
+   "url": "https://www.instagram.com/p/DcBpq1SqnXq/",
+   "caption": "Inspired by seeing the neon signs recreated in Hong Kong for a movie this week, I put together the few videos I have of my nights shooting in Kowloon before they were mostly taken down. I learned so much about night photography walking these streets 🏮#hkneon #photography #hongkong",
+   "images": [
+    "images/insp/DcBpq1SqnXq_1.jpg"
+   ]
+  },
+  {
+   "code": "DcLx019DFLr",
+   "user": "joewhoward",
+   "url": "https://www.instagram.com/p/DcLx019DFLr/",
+   "caption": "For me Hong Kong might be the perfect metropolis to shoot. It has vibrant local markets, skyscrapers in a mountain range, huge open vistas and only half an hour from white sandy beaches. \n\nNeeding to get back here asap, I find photo trips can be like pancakes. The second one is always best. \n\n#hongk",
+   "images": [
+    "images/insp/DcLx019DFLr_1.jpg",
+    "images/insp/DcLx019DFLr_2.jpg",
+    "images/insp/DcLx019DFLr_3.jpg",
+    "images/insp/DcLx019DFLr_4.jpg",
+    "images/insp/DcLx019DFLr_5.jpg",
+    "images/insp/DcLx019DFLr_6.jpg",
+    "images/insp/DcLx019DFLr_7.jpg",
+    "images/insp/DcLx019DFLr_8.jpg",
+    "images/insp/DcLx019DFLr_9.jpg",
+    "images/insp/DcLx019DFLr_10.jpg",
+    "images/insp/DcLx019DFLr_11.jpg",
+    "images/insp/DcLx019DFLr_12.jpg",
+    "images/insp/DcLx019DFLr_13.jpg",
+    "images/insp/DcLx019DFLr_14.jpg",
+    "images/insp/DcLx019DFLr_15.jpg",
+    "images/insp/DcLx019DFLr_16.jpg",
+    "images/insp/DcLx019DFLr_17.jpg",
+    "images/insp/DcLx019DFLr_18.jpg",
+    "images/insp/DcLx019DFLr_19.jpg",
+    "images/insp/DcLx019DFLr_20.jpg"
+   ]
+  },
+  {
+   "code": "Dbx2vu3kk__",
+   "user": "llittlepig",
+   "url": "https://www.instagram.com/p/Dbx2vu3kk__/",
+   "caption": "-\nHong Kong — Through my lens\nWhich one is your favourite? 🇭🇰\n\nLike & Share if you like 🔥\nFollow @llittlepig for more 📸",
+   "images": [
+    "images/insp/Dbx2vu3kk___1.jpg",
+    "images/insp/Dbx2vu3kk___2.jpg",
+    "images/insp/Dbx2vu3kk___3.jpg",
+    "images/insp/Dbx2vu3kk___4.jpg",
+    "images/insp/Dbx2vu3kk___5.jpg",
+    "images/insp/Dbx2vu3kk___6.jpg",
+    "images/insp/Dbx2vu3kk___7.jpg",
+    "images/insp/Dbx2vu3kk___8.jpg",
+    "images/insp/Dbx2vu3kk___9.jpg",
+    "images/insp/Dbx2vu3kk___10.jpg"
+   ]
+  },
+  {
+   "code": "DcQzUDxkiJw",
+   "user": "dixonkwan",
+   "url": "https://www.instagram.com/p/DcQzUDxkiJw/",
+   "caption": "night walkers in hong kong",
+   "images": [
+    "images/insp/DcQzUDxkiJw_1.jpg",
+    "images/insp/DcQzUDxkiJw_2.jpg",
+    "images/insp/DcQzUDxkiJw_3.jpg",
+    "images/insp/DcQzUDxkiJw_4.jpg",
+    "images/insp/DcQzUDxkiJw_5.jpg",
+    "images/insp/DcQzUDxkiJw_6.jpg"
+   ]
+  },
+  {
+   "code": "DcBSEBVlM-k",
+   "user": "mansonyms",
+   "url": "https://www.instagram.com/p/DcBSEBVlM-k/",
+   "caption": "Going through my archives and here’re 10 of my favourite nostalgic neon shots taken in Hong Kong since 2017 📸🎞️ which one do you like the most? \n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong pho",
+   "images": [
+    "images/insp/DcBSEBVlM-k_1.jpg",
+    "images/insp/DcBSEBVlM-k_2.jpg",
+    "images/insp/DcBSEBVlM-k_3.jpg",
+    "images/insp/DcBSEBVlM-k_4.jpg",
+    "images/insp/DcBSEBVlM-k_5.jpg",
+    "images/insp/DcBSEBVlM-k_6.jpg",
+    "images/insp/DcBSEBVlM-k_7.jpg",
+    "images/insp/DcBSEBVlM-k_8.jpg",
+    "images/insp/DcBSEBVlM-k_9.jpg",
+    "images/insp/DcBSEBVlM-k_10.jpg"
+   ]
+  },
+  {
+   "code": "DcLqNNWEl46",
+   "user": "dixonkwan",
+   "url": "https://www.instagram.com/p/DcLqNNWEl46/",
+   "caption": "The other side of hong kong 🇭🇰",
+   "images": [
+    "images/insp/DcLqNNWEl46_1.jpg",
+    "images/insp/DcLqNNWEl46_2.jpg",
+    "images/insp/DcLqNNWEl46_3.jpg",
+    "images/insp/DcLqNNWEl46_4.jpg",
+    "images/insp/DcLqNNWEl46_5.jpg",
+    "images/insp/DcLqNNWEl46_6.jpg"
+   ]
+  },
+  {
+   "code": "Db29qy8lLpo",
+   "user": "mansonyms",
+   "url": "https://www.instagram.com/p/Db29qy8lLpo/",
+   "caption": "Most people think Hong Kong is just a concrete jungle of skyscrapers, but don’t overlook the side of HK less shown on media 🇭🇰🌳 Which one is your favourite?\n\nLike, Repost, and Share if you like this post ❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy ",
+   "images": [
+    "images/insp/Db29qy8lLpo_1.jpg",
+    "images/insp/Db29qy8lLpo_2.jpg",
+    "images/insp/Db29qy8lLpo_3.jpg",
+    "images/insp/Db29qy8lLpo_4.jpg",
+    "images/insp/Db29qy8lLpo_5.jpg",
+    "images/insp/Db29qy8lLpo_6.jpg",
+    "images/insp/Db29qy8lLpo_7.jpg",
+    "images/insp/Db29qy8lLpo_8.jpg",
+    "images/insp/Db29qy8lLpo_9.jpg",
+    "images/insp/Db29qy8lLpo_10.jpg"
+   ]
+  },
+  {
+   "code": "DcAUd5zPd6P",
+   "user": "jazziesillona",
+   "url": "https://www.instagram.com/p/DcAUd5zPd6P/",
+   "caption": "If we can recreate the Hong Kong we miss for a movie set, why can’t we design a safe way for that Hong Kong to exist in real life?",
+   "images": [
+    "images/insp/DcAUd5zPd6P_1.jpg"
+   ]
+  },
+  {
+   "code": "Dcisg4tndr4",
+   "user": "3yin_2yu",
+   "url": "https://www.instagram.com/p/Dcisg4tndr4/",
+   "caption": "Square Building with sunlight and Shadow🇭🇰\n#sonyhongkong #香港 #hongkong #sunlight #bealpha",
+   "images": [
+    "images/insp/Dcisg4tndr4_1.jpg",
+    "images/insp/Dcisg4tndr4_2.jpg",
+    "images/insp/Dcisg4tndr4_3.jpg"
+   ]
+  },
+  {
+   "code": "DanZCxUAnSn",
+   "user": "withyuee",
+   "url": "https://www.instagram.com/p/DanZCxUAnSn/",
+   "caption": "Here are some of the photo spots you should see in Hong Kong🇭🇰✨📸",
+   "images": [
+    "images/insp/DanZCxUAnSn_1.jpg"
+   ]
+  },
+  {
+   "code": "DdHAFPijFFj",
+   "user": "michaelrhyscard",
+   "url": "https://www.instagram.com/p/DdHAFPijFFj/",
+   "caption": "A stroll around Hong Kong. No matter how many times I visit I never get bored of the the views, the people, the light and the mood. #hongkong #madewithlightroom #sonyalpha #hongkongphotography #travelphotography @sonyalpha",
+   "images": [
+    "images/insp/DdHAFPijFFj_1.jpg",
+    "images/insp/DdHAFPijFFj_2.jpg",
+    "images/insp/DdHAFPijFFj_3.jpg",
+    "images/insp/DdHAFPijFFj_4.jpg",
+    "images/insp/DdHAFPijFFj_5.jpg",
+    "images/insp/DdHAFPijFFj_6.jpg",
+    "images/insp/DdHAFPijFFj_7.jpg",
+    "images/insp/DdHAFPijFFj_8.jpg",
+    "images/insp/DdHAFPijFFj_9.jpg",
+    "images/insp/DdHAFPijFFj_10.jpg",
+    "images/insp/DdHAFPijFFj_11.jpg",
+    "images/insp/DdHAFPijFFj_12.jpg"
+   ]
+  },
+  {
+   "code": "DdFzwRdFKLt",
+   "user": "dawgshiiz",
+   "url": "https://www.instagram.com/p/DdFzwRdFKLt/",
+   "caption": "once a city with over 120,000 neon signs, hong kong only has around 400-500 left, with more and more signs disappearing each year.\n\nit makes finding one even more special, knowing that it could be gone at any point. something hong kong was once known for has become stripped away. i always wish i had",
+   "images": [
+    "images/insp/DdFzwRdFKLt_1.jpg",
+    "images/insp/DdFzwRdFKLt_2.jpg",
+    "images/insp/DdFzwRdFKLt_3.jpg",
+    "images/insp/DdFzwRdFKLt_4.jpg",
+    "images/insp/DdFzwRdFKLt_5.jpg",
+    "images/insp/DdFzwRdFKLt_6.jpg",
+    "images/insp/DdFzwRdFKLt_7.jpg",
+    "images/insp/DdFzwRdFKLt_8.jpg"
+   ]
+  },
+  {
+   "code": "Dc6B1D-GyXH",
+   "user": "llittlepig",
+   "url": "https://www.instagram.com/p/Dc6B1D-GyXH/",
+   "caption": "-\nTaxi in Hong Kong — Through my lens\nWhich one is your favourite? 🇭🇰\n\nCanon R6 Mark II 📸\n\nLike & Share if you like 🔥\nFollow @llittlepig for more 📸",
+   "images": [
+    "images/insp/Dc6B1D-GyXH_1.jpg",
+    "images/insp/Dc6B1D-GyXH_2.jpg",
+    "images/insp/Dc6B1D-GyXH_3.jpg",
+    "images/insp/Dc6B1D-GyXH_4.jpg",
+    "images/insp/Dc6B1D-GyXH_5.jpg",
+    "images/insp/Dc6B1D-GyXH_6.jpg",
+    "images/insp/Dc6B1D-GyXH_7.jpg",
+    "images/insp/Dc6B1D-GyXH_8.jpg",
+    "images/insp/Dc6B1D-GyXH_9.jpg",
+    "images/insp/Dc6B1D-GyXH_10.jpg"
+   ]
+  },
+  {
+   "code": "DdYxhOXCEII",
+   "user": "edwardkb",
+   "url": "https://www.instagram.com/p/DdYxhOXCEII/",
+   "caption": "One time I flew over Hong Kong for a photography job, and they took the doors off the helicopter for us. Big up to me for keeping my phone recording and shooting at the same time. Look out for a little glimpse of Shenzhen… \n\n#photography\n#luxury\n#travel\n#art \n#hongkong",
+   "images": [
+    "images/insp/DdYxhOXCEII_1.jpg"
+   ]
+  },
+  {
+   "code": "Dc_EMtzn2m0",
+   "user": "mansonyms",
+   "url": "https://www.instagram.com/p/Dc_EMtzn2m0/",
+   "caption": "Hong Kong has such a raw energy with so many beautiful layers hidden within the everyday commute 🇭🇰🚲Which one do you like the most?\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFollow @mansonyms for more visual  guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy Hong Kong photography gui",
+   "images": [
+    "images/insp/Dc_EMtzn2m0_1.jpg",
+    "images/insp/Dc_EMtzn2m0_2.jpg",
+    "images/insp/Dc_EMtzn2m0_3.jpg",
+    "images/insp/Dc_EMtzn2m0_4.jpg",
+    "images/insp/Dc_EMtzn2m0_5.jpg",
+    "images/insp/Dc_EMtzn2m0_6.jpg",
+    "images/insp/Dc_EMtzn2m0_7.jpg",
+    "images/insp/Dc_EMtzn2m0_8.jpg",
+    "images/insp/Dc_EMtzn2m0_9.jpg",
+    "images/insp/Dc_EMtzn2m0_10.jpg"
+   ]
+  },
+  {
+   "code": "DdBtWTan4xg",
+   "user": "llittlepig",
+   "url": "https://www.instagram.com/p/DdBtWTan4xg/",
+   "caption": "-\nHong Kong — Through my lens\nWhich one is your favourite? 🇭🇰\n\nCanon R6 Mark II 📸\n\nLike & Share if you like 🔥\nFollow @llittlepig for more 📸",
+   "images": [
+    "images/insp/DdBtWTan4xg_1.jpg",
+    "images/insp/DdBtWTan4xg_2.jpg",
+    "images/insp/DdBtWTan4xg_3.jpg",
+    "images/insp/DdBtWTan4xg_4.jpg",
+    "images/insp/DdBtWTan4xg_5.jpg",
+    "images/insp/DdBtWTan4xg_6.jpg",
+    "images/insp/DdBtWTan4xg_7.jpg",
+    "images/insp/DdBtWTan4xg_8.jpg",
+    "images/insp/DdBtWTan4xg_9.jpg",
+    "images/insp/DdBtWTan4xg_10.jpg",
+    "images/insp/DdBtWTan4xg_11.jpg"
+   ]
+  },
+  {
+   "code": "DdWPIaFHzCy",
+   "user": "mansonyms",
+   "url": "https://www.instagram.com/p/DdWPIaFHzCy/",
+   "caption": "The easiest way to make your photos look immersive: Fill the frame 📸🖼️ By removing empty space and packing your shot with textures and patterns, it makes the viewer feel physically close and connected to the subject 🔗 which one is your favourite?\n\nLike, Repost, and Share if you like this post❤️‍🔥\nFo",
+   "images": [
+    "images/insp/DdWPIaFHzCy_1.jpg",
+    "images/insp/DdWPIaFHzCy_2.jpg",
+    "images/insp/DdWPIaFHzCy_3.jpg",
+    "images/insp/DdWPIaFHzCy_4.jpg",
+    "images/insp/DdWPIaFHzCy_5.jpg",
+    "images/insp/DdWPIaFHzCy_6.jpg",
+    "images/insp/DdWPIaFHzCy_7.jpg",
+    "images/insp/DdWPIaFHzCy_8.jpg",
+    "images/insp/DdWPIaFHzCy_9.jpg",
+    "images/insp/DdWPIaFHzCy_10.jpg"
+   ]
+  },
+  {
+   "code": "Dc8bKxJn_E9",
+   "user": "3yin_2yu",
+   "url": "https://www.instagram.com/p/Dc8bKxJn_E9/",
+   "caption": "Memories from August🇭🇰☀️\n\n#sonyhongkong #lumix #香港 #hongkong #madewithlightroom",
+   "images": [
+    "images/insp/Dc8bKxJn_E9_1.jpg",
+    "images/insp/Dc8bKxJn_E9_2.jpg",
+    "images/insp/Dc8bKxJn_E9_3.jpg",
+    "images/insp/Dc8bKxJn_E9_4.jpg",
+    "images/insp/Dc8bKxJn_E9_5.jpg"
+   ]
+  },
+  {
+   "code": "DdOo1CqPuFr",
+   "user": "jazziesillona",
+   "url": "https://www.instagram.com/p/DdOo1CqPuFr/",
+   "caption": "Introducing a city like a movie opening 🎞️\n\nEpisode 01: Hong Kong 🇭🇰 \n\nColorgraded with Day Star (more details on the link in bio)",
+   "images": [
+    "images/insp/DdOo1CqPuFr_1.jpg"
+   ]
+  },
+  {
+   "code": "DdwYK7Aoyzy",
+   "user": "tatlertravel",
+   "url": "https://www.instagram.com/p/DdwYK7Aoyzy/",
+   "caption": "Fun fact: Around 75 per cent of Hong Kong’s total land is protected, undeveloped countryside or green space. With only 25 per cent on which to build, the city’s urban landscape is truly like nowhere else in the world. \n\nPhotographer Dickson Cheung (IG handle: llittlepig) this in his photos, which sh",
+   "images": [
+    "images/insp/DdwYK7Aoyzy_1.jpg",
+    "images/insp/DdwYK7Aoyzy_2.jpg",
+    "images/insp/DdwYK7Aoyzy_3.jpg",
+    "images/insp/DdwYK7Aoyzy_4.jpg",
+    "images/insp/DdwYK7Aoyzy_5.jpg",
+    "images/insp/DdwYK7Aoyzy_6.jpg",
+    "images/insp/DdwYK7Aoyzy_7.jpg",
+    "images/insp/DdwYK7Aoyzy_8.jpg",
+    "images/insp/DdwYK7Aoyzy_9.jpg",
+    "images/insp/DdwYK7Aoyzy_10.jpg",
+    "images/insp/DdwYK7Aoyzy_11.jpg",
+    "images/insp/DdwYK7Aoyzy_12.jpg",
+    "images/insp/DdwYK7Aoyzy_13.jpg",
+    "images/insp/DdwYK7Aoyzy_14.jpg"
+   ]
+  },
+  {
+   "code": "DdRFosfH__W",
+   "user": "mansonyms",
+   "url": "https://www.instagram.com/p/DdRFosfH__W/",
+   "caption": "Most people think Hong Kong is just a concrete jungle of skyscrapers, but don’t overlook the side of HK less shown on media 🇭🇰🌳 Which one is your favourite?\n\nLike, Repost, and Share if you like this post ❤️‍🔥\nFollow @mansonyms for more visual guides💡\nPrints available 🖼️ DM me for more details 💬\n\nMy ",
+   "images": [
+    "images/insp/DdRFosfH__W_1.jpg",
+    "images/insp/DdRFosfH__W_2.jpg",
+    "images/insp/DdRFosfH__W_3.jpg",
+    "images/insp/DdRFosfH__W_4.jpg",
+    "images/insp/DdRFosfH__W_5.jpg",
+    "images/insp/DdRFosfH__W_6.jpg",
+    "images/insp/DdRFosfH__W_7.jpg",
+    "images/insp/DdRFosfH__W_8.jpg"
+   ]
+  },
+  {
+   "code": "DdjDq6ilPjD",
+   "user": "jackyy_wch",
+   "url": "https://www.instagram.com/p/DdjDq6ilPjD/",
+   "caption": "| Welcome To Hong Kong 🇭🇰 \n.\n.\n.\n#hongkong #discoverhongkong #photography #travel #sonyalpha",
+   "images": [
+    "images/insp/DdjDq6ilPjD_1.jpg",
+    "images/insp/DdjDq6ilPjD_2.jpg",
+    "images/insp/DdjDq6ilPjD_3.jpg",
+    "images/insp/DdjDq6ilPjD_4.jpg",
+    "images/insp/DdjDq6ilPjD_5.jpg",
+    "images/insp/DdjDq6ilPjD_6.jpg",
+    "images/insp/DdjDq6ilPjD_7.jpg",
+    "images/insp/DdjDq6ilPjD_8.jpg",
+    "images/insp/DdjDq6ilPjD_9.jpg",
+    "images/insp/DdjDq6ilPjD_10.jpg"
+   ]
+  },
+  {
    "code": "DcJw8LNkrIW",
    "user": "d.leong",
    "url": "https://www.instagram.com/p/DcJw8LNkrIW/",
@@ -51,6 +751,20 @@ window.INSPIRATION = {
  ],
  "cn": [],
  "sh": [
+  {
+   "code": "DcJtOgQGauy",
+   "user": "gregforaday",
+   "url": "https://www.instagram.com/p/DcJtOgQGauy/",
+   "caption": "Very excited to announce my latest photography workshop!\n\n“HERE AND NOW in SHANGHAI AND HONG KONG”.\n\nAn eight-day program in two cities that shaped me and where I’ve made some of my best-known work, from my books “Phantom Shanghai”, “City of Darkness” and “HK:PM”.\n\nThe workshop takes place Nov 27-De",
+   "images": [
+    "images/insp/DcJtOgQGauy_1.jpg",
+    "images/insp/DcJtOgQGauy_2.jpg",
+    "images/insp/DcJtOgQGauy_3.jpg",
+    "images/insp/DcJtOgQGauy_4.jpg",
+    "images/insp/DcJtOgQGauy_5.jpg",
+    "images/insp/DcJtOgQGauy_6.jpg"
+   ]
+  },
   {
    "code": "DdOZ9rGkiHe",
    "user": "pat_kay",

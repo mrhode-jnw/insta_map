@@ -72,7 +72,9 @@ def spot_post(x):
             if slide <= len(c["slides"]):
                 sl.download_slide(code, slide - 1, c["slides"][slide - 1])
     if slide and os.path.exists(os.path.join(ROOT, rel)):
-        p["image"] = rel
+        # korrigierte Fassung (z. B. gedreht) unter neuem Namen – neuer Name, damit Caches sie sicher neu laden
+        fixed = rel[:-4] + "_r.jpg"
+        p["image"] = fixed if os.path.exists(os.path.join(ROOT, fixed)) else rel
         p["match"], p["slide"] = "slide", slide
         p["url"] += f"?img_index={slide}"
     if p["match"] == "cover":
@@ -123,7 +125,8 @@ for name, lat, lng, approx, region, cat, plist, note in SPOTS:
 # Claude-Tipps entlang der Route (Web-Recherche): cn/claude_spots_cn.json, Bild optional unter images/
 for c in bp.load_json(os.path.join(ROOT, "cn", "claude_spots_cn.json"), []):
     places.append({
-        "id": "claude-cn-" + spot_id(c["name"])[3:], "region": "cn", "by_claude": True,
+        # plan: Ort steht im offiziellen Reiseplan → normaler Spot, kein Tipp (ID bleibt für Status/Touren)
+        "id": "claude-cn-" + spot_id(c["name"])[3:], "region": "cn", "by_claude": not c.get("plan"),
         "name": c["name"], "district": c["district"], "category": c["cat"], "note": "",
         "tip": c.get("tip", ""), "address": c["district"], "lat": c["lat"], "lng": c["lng"],
         "approx": c.get("approx", False), "image": c.get("image"), "caption": "", "post_url": "",
@@ -161,7 +164,11 @@ import daynight  # noqa: E402
 daynight.tag_all(places)
 
 used = {x if isinstance(x, int) else x[0] for s in SPOTS for x in s[6]}
-unplaced = [dict(posts[n], region=UNPLACED_REGION.get(n, "cn")) for n in sorted(POSTS) if n not in used]
+# Posts, deren Foto über cn/extra_photos.json an einem Spot hängt, gelten auch als verortet
+_ep_urls = " ".join(x["url"] for l in bp.load_json(os.path.join(ROOT, "cn", "extra_photos.json"), {}).values() for x in l)
+used |= {n for n in POSTS if POSTS[n][2] in _ep_urls}
+unplaced = [dict(posts[n], region=UNPLACED_REGION.get(n, "cn"), sub="hk" if UNPLACED_REGION.get(n) == "hk" else "cnx")
+            for n in sorted(POSTS) if n not in used]
 
 with open(OUT, "w", encoding="utf-8") as f:
     f.write("// Generiert von tools/build_cn.py aus cn/spots_cn.py – nicht von Hand bearbeiten.\n")
