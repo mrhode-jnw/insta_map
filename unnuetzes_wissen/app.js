@@ -497,12 +497,17 @@
     const tm = planFor(isoPlus(1));
     const next = tm?.place && tm.place !== S.curPlace && PACK_PLACES.has(tm.place) && unreadFor("place:" + tm.place)
       ? `<button class="qchip" data-a="focus-set" data-v="place:${esc(tm.place)}">🧳 Morgen: ${esc(place(tm.place)?.name || tm.place)} <span class="cnt">${unreadFor("place:" + tm.place)}</span></button>` : "";
-    if (!here) return next ? `<div class="quick">${next}</div>` : "";
+    // Fokus hat eine Kategorie → ein Tipp zurück zu allen Kategorien (Ort bleibt)
+    const parts = focusParts(S.focus);
+    const wherePart = parts.filter(([k]) => k === "place" || k === "country").map(p => p.join(":")).join("+");
+    const all = parts.length > (wherePart ? wherePart.split("+").length : 0)
+      ? `<button class="qchip all" data-a="focus-set" data-v="${esc(wherePart || "mix")}">✨ Alle Kategorien${wherePart ? ` <span class="cnt">${unreadFor(wherePart)}</span>` : ""}</button>` : "";
+    if (!here) return next || all ? `<div class="quick">${all}${next}</div>` : "";
     const want = ["krimi", "legende", "panne", "faelschung", "gesetz", "essen", "tiere", "vorort"];
     const chips = want.map(t => ({ t, v: joinFocus(here, "theme:" + t), n: unreadFor(joinFocus(here, "theme:" + t)) }))
       .filter(x => x.n >= 3 && x.v !== S.focus).sort((a, b) => (b.t === "krimi") - (a.t === "krimi") || b.n - a.n).slice(0, 3);
-    if (!chips.length && !next) return "";
-    return `<div class="quick">${next}${chips.map(x => `<button class="qchip" data-a="focus-set" data-v="${esc(x.v)}">${theme(x.t).icon} ${esc(SHORT[x.t] || theme(x.t).name)} <span class="cnt">${x.n}</span></button>`).join("")}</div>`;
+    if (!chips.length && !next && !all) return "";
+    return `<div class="quick">${all}${next}${chips.map(x => `<button class="qchip" data-a="focus-set" data-v="${esc(x.v)}">${theme(x.t).icon} ${esc(SHORT[x.t] || theme(x.t).name)} <span class="cnt">${x.n}</span></button>`).join("")}</div>`;
   }
 
   // ---------- Heute ----------
