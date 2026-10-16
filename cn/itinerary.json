@@ -55,7 +55,7 @@
   },
   {
    "date": "2026-10-16",
-   "title": "Damian Hill · Büffelbauern-Dorf · Sonnenuntergang über Karst & Reisfeldern",
+   "title": "Damian Hill · Sonnenuntergang Wulongquan",
    "status": "fest",
    "items": [
     {
@@ -108,16 +108,6 @@
     },
     {
      "type": "info",
-     "t": "vormittags",
-     "icon": "🐃",
-     "title": "Dorf eines Büffelbauern",
-     "plan": true,
-     "light": "day",
-     "lightText": "Vormittag",
-     "text": "Laut Reiseplan – den Ort legt der Fahrer fest."
-    },
-    {
-     "type": "info",
      "t": "mittags",
      "icon": "🛏",
      "title": "Pause im Hotel",
@@ -141,14 +131,17 @@
      "text": "Karstkegel in Schichten mit dem 70-200. Pin ungefähr."
     },
     {
-     "type": "info",
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
      "t": "17:00–18:30",
-     "icon": "🌄",
-     "title": "Sonnenuntergang über Karstbergen und Reisfeldern",
+     "spot": "cn-wulongquan-sunset-viewpoint",
      "plan": true,
      "light": "sunset",
-     "lightText": "Sonnenuntergang",
-     "text": "Laut Reiseplan – den Ort legt der Fahrer fest."
+     "lightText": "Sonnenuntergang (ca. 18:10)",
+     "text": "Laut chinesischem Plan: 乌龙泉日落 – Sonnenuntergang über Karstbergen und Reisfeldern. Danach 20 Min. blaue Stunde."
     },
     {
      "type": "stop",
@@ -303,7 +296,7 @@
   },
   {
    "date": "2026-10-18",
-   "title": "Xianggong · Longji: Dazhai · Sonnenuntergang Ping'an",
+   "title": "Xianggong · Büffelbauern-Dorf Tianxin · Longji: Dazhai · Sonnenuntergang Ping'an",
    "status": "fest",
    "items": [
     {
@@ -327,12 +320,25 @@
     },
     {
      "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "9:20–10:15",
+     "spot": "cn-tianxin-village-zhuangyuan-brcke",
+     "plan": true,
+     "light": "golden",
+     "lightText": "Morgenlicht",
+     "text": "Dorf des Büffelbauern (田心村), vom 16. auf Sonntag verschoben. Wasserbüffel an der Zhuangyuan-Brücke."
+    },
+    {
+     "type": "move",
      "mode": "car",
      "text": "längste Fahrt des Tages"
     },
     {
      "type": "stop",
-     "t": "10:30–11:00",
+     "t": "12:20–12:45",
      "spot": "claude-cn-huangluo-yao-village",
      "light": "midday",
      "lightText": "Mittag – Porträts im Schatten",
@@ -345,12 +351,13 @@
     },
     {
      "type": "stop",
-     "t": "11:30–14:00",
+     "t": "13:00–14:15",
      "spot": "cn-dazhai-village",
      "plan": true,
      "light": "midday",
      "lightText": "Mittag – Terrassen wirken flach",
-     "text": "Ohne Lao Pan. Dorf, Essen, Seilbahn – die Terrassen erst ab dem Nachmittag."
+     "text": "Ohne Lao Pan. Dorf, Essen, Seilbahn – die Terrassen wirken erst ab dem Nachmittag.",
+     "tCore": "12:30–15:15"
     },
     {
      "type": "move",
@@ -361,7 +368,7 @@
     },
     {
      "type": "stop",
-     "t": "14:00–15:30",
+     "t": "14:30–15:30",
      "spot": "claude-cn-golden-buddha-top",
      "light": "day",
      "lightText": "Nachmittag, Seitenlicht auf den Terrassenkanten",
