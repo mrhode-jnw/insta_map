@@ -655,7 +655,9 @@
   @media (max-width: 799px) {
     .leaflet-popup.card { left: 0 !important; top: 0 !important; transform: none !important; width: 100vw; }
     .leaflet-popup.card .leaflet-popup-content-wrapper { border-radius: 0; box-shadow: none; }
-    .leaflet-popup.card .leaflet-popup-content { width: 100vw !important; height: 100vh; height: 100svh; max-height: none !important; }
+    /* volle Höhe (iOS-Web-App: svh endet um die Statusleisten-Höhe zu früh) und immer selbst scrollbar */
+    .leaflet-popup.card .leaflet-popup-content { width: 100vw !important; height: 100vh; height: calc(100svh + env(safe-area-inset-top)) !important;
+      max-height: none !important; overflow-y: auto !important; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
     body.popup-open #group { opacity: 0; pointer-events: none; }
     #group { transition: opacity .18s ease; }
     .leaflet-popup.card .pop .pnav { height: calc(env(safe-area-inset-top) + 60px); margin-bottom: calc(-1 * (env(safe-area-inset-top) + 60px));
