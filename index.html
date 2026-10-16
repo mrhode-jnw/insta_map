@@ -693,6 +693,21 @@
   .seg2 { display: flex; background: var(--soft); border-radius: 12px; padding: 3px; gap: 2px; }
   .seg2 button { flex: 1; border: 0; background: transparent; color: var(--fg); padding: 8px 4px; border-radius: 10px; font-size: 13.5px; font-weight: 600; cursor: pointer; }
   .seg2 button.on { background: var(--accent); color: #fff; }
+
+  .pop .pnav .pmini { display: grid; place-items: center; }
+  .leaflet-popup.mini .pnav .pmini { display: none !important; }
+  /* verkleinerte Story (Handy): kleine Karte oben, Karte/Liste/Leiste wieder sichtbar */
+  @media (max-width: 799px) {
+    .leaflet-popup.card.mini { left: 10px !important; right: 10px !important; width: auto; top: calc(env(safe-area-inset-top) + 8px) !important; }
+    .leaflet-popup.card.mini .leaflet-popup-content-wrapper { border-radius: 20px; box-shadow: 0 12px 34px rgba(0,0,0,.45); }
+    .leaflet-popup.card.mini .leaflet-popup-content { width: calc(100vw - 20px) !important; height: auto !important; }
+    .leaflet-popup.card.mini .pop .pnav { height: 52px; margin-bottom: -52px; padding: 6px 8px; }
+    .leaflet-popup.card.mini .pop .pnav button { width: 38px; height: 38px; }
+    .leaflet-popup.card.mini .pop .pbars, .leaflet-popup.card.mini .pop .hero::after { display: none; }
+    .leaflet-popup.card.mini .pop .b { padding: 8px 14px 12px; }
+    .leaflet-popup.card.mini .pop .kick { display: none; }
+    body.popup-mini #sheet, body.popup-mini #dock, body.popup-mini #dockbg, body.popup-mini #locate, body.popup-mini #add { opacity: 1 !important; pointer-events: auto !important; }
+  }
 </style>
 </head>
 <body>
@@ -1025,7 +1040,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <button class="pclose" aria-label="Schließen">✕</button>
         ${multi && !onImg ? `<button data-go="-1" aria-label="Vorheriger Spot">‹</button>` : ""}
         ${multi ? (activeTourIds().includes(p.id) ? `<span class="spotnum" title="Stopps der aktiven Tour">🧭 Stopp ${idx + 1} von ${navIds.length}${legInfo(p.id)}</span>` : `<span class="spotnum" title="Spots der Liste">📍 Spot ${idx + 1} von ${navIds.length}</span>`) : `<span></span>`}
-        ${multi && !onImg ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : `<span style="width:38px"></span>`}</div>`;
+        ${multi && !onImg ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : ""}
+        <button class="pmini" data-mini="${esc(p.id)}" aria-label="Verkleinern und auf der Karte zeigen" title="Verkleinern – Spot auf der Karte zeigen"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6v6M20 10h-6V4M14 10l7-7M3 21l7-7"/></svg></button></div>`;
     return `<div class="pop">${pnav}
       ${p.image ? `<div class="hero">${strip ? `<div class="hstrip">${imgPosts.map((x, i) => `<img src="${esc(x.image)}" alt="" loading="${i ? "lazy" : "eager"}" data-lb="${i}"
           data-cr="${esc(who(x))}" data-href="${esc(x.credit ? x.url : x.profile_url)}" data-post="${x.credit ? "" : esc(x.url)}">`).join("")}</div>`
@@ -1654,7 +1670,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function miniSpot(id) {
     const el = map._popup && map._popup.getElement(), p = places.find(x => x.id === id), m = markers.get(id);
     if (!el || !p || !m) return;
-    el.classList.add("mini");
+    el.classList.add("mini"); document.body.classList.add("popup-mini");
     savedView = null;  // nach dem Schließen nicht zum alten Ausschnitt zurück – man wollte ja hierher
     if (mobile()) setSnap("peek");
     const center = z => {  // Spot mittig in den freien Bereich unter der kleinen Leiste
@@ -1716,7 +1732,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const box = ev.popup.getElement().querySelector(".status"); stickyId = box ? box.dataset.id : null;
   });
   map.on("popupclose", ev => {
-    if (!navigating) document.body.classList.remove("popup-open");
+    if (!navigating) document.body.classList.remove("popup-open", "popup-mini");
     const box = ev.popup.getElement() && ev.popup.getElement().querySelector(".status");
     if (box && box.dataset.id === stickyId) {
       const p = places.find(x => x.id === stickyId); stickyId = null;
@@ -1795,6 +1811,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); map.closePopup(); };
     // 📍 Springe zu Spot: Spot schließen, hinzoomen, Liste einklappen, Pin hervorheben
     const sm = el.querySelector(".showmap"); if (sm) sm.onclick = e => { e.stopPropagation(); miniSpot(sm.dataset.show); };
+    const pm = el.querySelector(".pmini"); if (pm) pm.onclick = e => { e.stopPropagation(); miniSpot(pm.dataset.mini); };
     const ta = el.querySelector(".tadd"); if (ta) ta.onclick = e => { e.stopPropagation(); openTourPick(ta.dataset.tadd, ta); };
     const xa = el.querySelector(".xadd"); if (xa) xa.onclick = e => { e.stopPropagation(); openExtraAdd(xa.dataset.xadd); };
     el.querySelectorAll(".gdel").forEach(b => b.onclick = e => { e.stopPropagation(); removePhoto(id, +b.dataset.gdel); });
@@ -1802,7 +1819,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     // verkleinerten Spot antippen → wieder groß
     el.addEventListener("click", e => {
       if (!el.classList.contains("mini") || e.target.closest("button, a")) return;
-      el.classList.remove("mini"); e.stopPropagation();
+      el.classList.remove("mini"); document.body.classList.remove("popup-mini"); e.stopPropagation();
     });
   });
   document.addEventListener("keydown", e => {
