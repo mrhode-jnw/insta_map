@@ -24,3 +24,9 @@
   fotografieren im guten Licht, mittags fahren oder Innenräume.
 - Fest (`plan: true`) sind **nur die Orte aus dem offiziellen Reiseplan/Screenshot**. Alles, was Claude ergänzt
   (auch Instagram-Spots, die nicht im Plan stehen), bekommt `opt: true` – in der App per Filter „Optionale Spots“.
+
+## Wetter- & Sichtprognose
+- `tools/build_forecast.py` → `data/forecast.json` (Open-Meteo, je Reiseplan-Stopp zur geplanten Uhrzeit: Wetter,
+  Wolken, Regen, Sicht, AQI/PM2,5, Einschätzung „klar … sehr diesig“). Liegt im Branch **map-data**, nicht im Seiten-Branch.
+- `sh tools/update_forecast.sh` rechnet neu und pusht nach map-data; die Routine „Insta Map: Wetter- & Sichtprognose“
+  ruft das alle 3 Std. auf. Nach Änderungen am Reiseplan reicht ein Lauf dieses Skripts.
