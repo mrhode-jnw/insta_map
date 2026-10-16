@@ -125,6 +125,15 @@ def skip(code, reason):
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "pending"
     if cmd == "pending":
+        # Die stündliche Routine ruft das in jedem Lauf zuerst auf: dabei gleich die Wetter-/Sichtprognose
+        # erneuern (Branch map-data). Fehler dort halten den Eingang nie auf.
+        try:
+            r = subprocess.run(["sh", os.path.join(os.path.dirname(os.path.abspath(__file__)), "update_forecast.sh")],
+                               capture_output=True, text=True, timeout=300)
+            print("Prognose:", (r.stdout.strip().splitlines() or [""])[-1] if r.returncode == 0
+                  else "FEHLER " + (r.stderr.strip().splitlines() or ["?"])[-1], file=sys.stderr)
+        except Exception as e:  # noqa: BLE001
+            print("Prognose: FEHLER", e, file=sys.stderr)
         p = pending()
         print(json.dumps(p, ensure_ascii=False, indent=1) if p else "KEINE NEUEN POSTS")
     elif cmd == "show":

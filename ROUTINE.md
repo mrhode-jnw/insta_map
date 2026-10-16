@@ -21,7 +21,8 @@ node -e "require('playwright')" 2>/dev/null || npm i -g -s playwright   # nur f�
 ```bash
 sh tools/update_forecast.sh   # Open-Meteo → data/forecast.json, pusht selbst nach map-data
 ```
-Schlägt das fehl: Fehler melden, mit Schritt 1 trotzdem weitermachen.
+Passiert automatisch auch in `python3 tools/inbox.py pending` (Schritt 1), muss also nicht extra laufen.
+Schlägt es fehl: Fehler melden, mit Schritt 1 trotzdem weitermachen.
 
 ## 1. Gibt es etwas zu tun?
 ```bash
