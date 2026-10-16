@@ -260,7 +260,8 @@
   .imove b { color: var(--fg); }
   .iinfo { display: flex; gap: 10px; align-items: flex-start; padding: 9px 11px; }
   .iinfo .iic { font-size: 22px; line-height: 1; }
-  .tour-stop { display: flex; align-items: center; gap: 4px; white-space: nowrap; transform: translate(-13px, -13px); }
+  .tour-stop { display: flex; align-items: center; gap: 4px; white-space: nowrap; transform: translate(-13px, -13px); width: max-content; }
+  .tour-stop b { flex: none; box-sizing: border-box; line-height: 1; }
   .tour-stop b { width: 26px; height: 26px; border-radius: 50%; background: #2563eb; color: #fff; border: 2px solid #fff; display: grid; place-items: center;
     font: 700 13px system-ui, sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
   .leg-time { transform: translate(-50%, -50%); display: inline-block; white-space: nowrap; background: #2563eb; color: #fff; border: 1.5px solid #fff; border-radius: 10px;
