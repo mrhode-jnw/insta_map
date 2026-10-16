@@ -68,4 +68,16 @@ LrFunctionContext.postAsyncTaskWithContext("ClaudeBewertungImport", function(con
   end, { timeout = 120 })
   progress:done()
   LrDialogs.showBezel(("Claude: %d Fotos bewertet"):format(done))
+  -- Panoramas gefunden? Gleich stapeln anbieten
+  local StackLib = require "StackLib"
+  local LrPrefs2 = import "LrPrefs"
+  local sp = LrPrefs2.prefsForPlugin()
+  local groups = StackLib.groups(catalog, photos, sp.stackBrackets == true)
+  local open = 0
+  for _, g in ipairs(groups) do if not g.stacked then open = open + 1 end end
+  if open > 0 and LrDialogs.confirm(("%d Panorama%s gefunden"):format(open, sp.stackBrackets and "s/Belichtungsreihen" or "s"),
+      "Jetzt automatisch stapeln? (Lightroom währenddessen nicht bedienen)", "Stapeln", "Nicht jetzt") == "ok" then
+    StackLib.run(context, catalog, photos, sp.stackBrackets == true)
+  end
+
 end)

@@ -120,4 +120,17 @@ LrFunctionContext.postAsyncTaskWithContext("ClaudeBewertung", function(context)
   local text = ("%d Fotos bewertet%s."):format(done, failed > 0 and (", " .. failed .. " ohne Bewertung") or "")
   if #msgs > 0 then text = text .. "\n\n" .. table.concat(msgs, "\n"):sub(1, 1200) end
   LrDialogs.message("Claude-Bewertung", text .. "\n\nFähnchen = bestes Bild je Serie · Grün = Top (Note ≥ 8,5)\nLila = übrige Bilder einer Belichtungsreihe · Blau = Panorama-Einzelbilder\nNote, Serie, Art und Kommentar: Metadaten-Bedienfeld → „Claude-Bewertung“.", #msgs > 0 and "warning" or "info")
+
+  -- Panoramas gefunden? Gleich stapeln anbieten
+  if done == 0 then return end
+  local StackLib = require "StackLib"
+  local LrPrefs2 = import "LrPrefs"
+  local sp = LrPrefs2.prefsForPlugin()
+  local groups = StackLib.groups(catalog, photos, sp.stackBrackets == true)
+  local open = 0
+  for _, g in ipairs(groups) do if not g.stacked then open = open + 1 end end
+  if open > 0 and LrDialogs.confirm(("%d Panorama%s gefunden"):format(open, sp.stackBrackets and "s/Belichtungsreihen" or "s"),
+      "Jetzt automatisch stapeln? (Lightroom währenddessen nicht bedienen)", "Stapeln", "Nicht jetzt") == "ok" then
+    StackLib.run(context, catalog, photos, sp.stackBrackets == true)
+  end
 end)

@@ -6,7 +6,7 @@ return {
   LrSdkVersion = 10.0,
   LrSdkMinimumVersion = 6.0,
   LrToolkitIdentifier = "de.mrhode.claudebewertung",
-  LrPluginName = "Claude-Bewertung 3.3",
+  LrPluginName = "Claude-Bewertung 3.4",
   LrPluginInfoUrl = "https://mrhode-jnw.github.io/insta_map/lightroom/",
   LrMetadataProvider = "MetadataDefinition.lua",
   LrPluginInfoProvider = "PluginInfoProvider.lua",
@@ -14,7 +14,8 @@ return {
     { title = "Vorschauen für Claude exportieren …", file = "ExportForClaude.lua" },
     { title = "Mit Claude bewerten (API-Schlüssel) …", file = "RateWithClaude.lua" },
     { title = "Claude-Bewertungsliste (CSV) übernehmen …", file = "ImportRatings.lua" },
+    { title = "Panoramas automatisch stapeln …", file = "StackPanoramas.lua" },
     { title = "Dateinamen der Auswahl kopieren (für Claude)", file = "CopyNames.lua" },
   },
-  VERSION = { major = 3, minor = 3, revision = 0, build = 1 },
+  VERSION = { major = 3, minor = 4, revision = 0, build = 1 },
 }

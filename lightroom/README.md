@@ -24,6 +24,13 @@ Rückgängig mit Cmd+Z.
 - Erkannt an Aufnahmezeit (≤ 10 s), gleicher Brennweite und Belichtung, entschieden von Claude nach dem Bild.
   Feld „Claude-Art“ im Metadaten-Bedienfeld: Einzelbild, Serie, Belichtungsreihe, Panorama.
 
+## Panoramas automatisch stapeln
+Zusatzmoduloptionen → **Panoramas automatisch stapeln …** (wird nach dem Übernehmen einer Bewertung auch direkt angeboten).
+Je Panorama werden die Einzelbilder zu einem Stapel gruppiert (erstes Bild vorn); optional auch Belichtungsreihen
+(gewähltes Bild vorn). Lightroom hat dafür keine Zusatzmodul-Funktion – das Modul wählt die Bilder aus und löst Cmd+G über
+macOS aus. Einmalig nötig: Systemeinstellungen → Datenschutz & Sicherheit → **Bedienungshilfen** → Adobe Lightroom Classic
+einschalten (und die Frage „Lightroom möchte System Events steuern“ erlauben). Bereits gestapelte Gruppen werden übersprungen.
+
 ## Direkt mit Claude bewerten (empfohlen)
 1. Einmalig: Datei → Zusatzmodul-Manager → Claude-Bewertung → **API-Schlüssel** eintragen
    (anlegen unter console.anthropic.com → API Keys; Kosten ca. 1 US-Cent je Foto mit Opus, ½ Cent mit Sonnet).
