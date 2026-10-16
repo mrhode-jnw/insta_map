@@ -48,9 +48,24 @@ function M.groups(catalog, photos, withBrackets)
   return out
 end
 
+-- Lightroom nach vorn holen und Cmd+G senden; Fehlertext von osascript ins Protokoll
+local LrPathUtils = import "LrPathUtils"
+local LrFileUtils = import "LrFileUtils"
 local function sendCmdG()
-  local cmd = [[osascript -e 'tell application "System Events" to keystroke "g" using {command down}']]
-  return LrTasks.execute(cmd)
+  local tmp = LrPathUtils.child(LrPathUtils.getStandardFilePath("temp"), "claude_stack_err.txt")
+  local script = [[osascript -e 'tell application "System Events"' ]] ..
+    [[-e 'set lr to first application process whose name contains "Lightroom"' ]] ..
+    [[-e 'set frontmost of lr to true' -e 'delay 0.3' ]] ..
+    [[-e 'keystroke "g" using {command down}' -e 'end tell' 2>"]] .. tmp .. [["]]
+  local code = LrTasks.execute(script)
+  local err = LrFileUtils.exists(tmp) and LrFileUtils.readFile(tmp) or ""
+  if code ~= 0 or err ~= "" then log:error(("osascript %s: %s"):format(tostring(code), err)) end
+  return code, err
+end
+
+local function isStacked(photo)
+  local ok, v = pcall(function() return photo:getRawMetadata("isInStackInFolder") end)
+  return ok and v
 end
 
 function M.run(context, catalog, photos, withBrackets)
@@ -72,22 +87,27 @@ function M.run(context, catalog, photos, withBrackets)
     local first, rest = g.photos[1].photo, {}
     for k = 2, #g.photos do rest[#rest + 1] = g.photos[k].photo end
     catalog:setSelectedPhotos(first, rest)
-    LrTasks.sleep(0.4)
-    local code = sendCmdG()
-    LrTasks.sleep(0.6)
+    LrTasks.sleep(0.5)
+    log:info(("Gruppe %s: %d Bilder ausgewählt, Auswahl jetzt %d"):format(g.group, #g.photos, #catalog:getTargetPhotos()))
+    local code, err = sendCmdG()
     if code ~= 0 then
-      log:error("osascript Rückgabe " .. tostring(code))
       progress:done()
-      LrDialogs.message("Claude-Bewertung", "macOS hat den Tastenbefehl blockiert.\n\nEinmalig freigeben: Systemeinstellungen → Datenschutz & Sicherheit → " ..
-        "Bedienungshilfen → „Adobe Lightroom Classic“ einschalten (ggf. mit + hinzufügen). Danach Lightroom neu starten und erneut versuchen.\n\n" ..
+      LrDialogs.message("Claude-Bewertung", "macOS hat den Tastenbefehl blockiert:\n" .. tostring(err):sub(1, 300) ..
+        "\n\nEinmalig freigeben: Systemeinstellungen → Datenschutz & Sicherheit → Bedienungshilfen → „Adobe Lightroom Classic“ " ..
+        "einschalten (ggf. mit + hinzufügen), außerdem unter „Automation“ für Lightroom „System Events“ erlauben. Danach Lightroom neu starten.\n\n" ..
         "Bisher gestapelt: " .. ok, "warning")
       return ok
     end
-    if first:getRawMetadata("isInStackInFolder") then ok = ok + 1 else failed = failed + 1; log:error("nicht gestapelt: " .. g.group) end
+    local t = 0
+    while not isStacked(first) and t < 15 do LrTasks.sleep(0.2); t = t + 1 end
+    if isStacked(first) then ok = ok + 1
+    else failed = failed + 1; log:error("nicht gestapelt: " .. g.group) end
     progress:setPortionComplete(i, #todo)
   end
   progress:done()
-  local msg = ("%d Gruppen gestapelt%s."):format(ok, failed > 0 and (", " .. failed .. " nicht (Bilder in verschiedenen Ordnern?)") or "")
+  local msg = ("%d Gruppen gestapelt%s."):format(ok, failed > 0 and (", " .. failed ..
+    " nicht – Lightroom hat Cmd+G nicht ausgeführt. Mögliche Gründe: Raster nicht im Vordergrund, Bilder nicht sichtbar (Filter), Bilder in verschiedenen Ordnern." ..
+    "\nProtokoll: Dokumente/LrClassicLogs/ClaudeBewertung.log") or "")
   LrDialogs.message("Claude-Bewertung", msg .. "\nStapel auf-/zuklappen: S. Vorn liegt das erste Panorama-Bild bzw. das gewählte Bild der Reihe.", failed > 0 and "warning" or "info")
   return ok
 end
