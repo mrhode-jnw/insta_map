@@ -4,6 +4,7 @@ local LrTasks = import "LrTasks"
 local LrFileUtils = import "LrFileUtils"
 local LrProgressScope = import "LrProgressScope"
 local Parse = require "Parse"
+local Apply = require "Apply"
 
 LrTasks.startAsyncTask(function()
   local catalog = LrApplication.activeCatalog()
@@ -45,12 +46,7 @@ LrTasks.startAsyncTask(function()
   catalog:withWriteAccessDo("Claude-Bewertungen übernehmen", function()
     for i, r in ipairs(rows) do
       for _, photo in ipairs(byKey[r.key] or {}) do
-        if r.rating ~= nil then photo:setRawMetadata("rating", r.rating > 0 and r.rating or nil) end
-        if r.color then photo:setRawMetadata("colorNameForLabel", r.color) end
-        if r.pick ~= nil then photo:setRawMetadata("pickStatus", r.pick) end
-        if r.score then photo:setPropertyForPlugin(_PLUGIN, "claudeScore", r.score) end
-        if r.group then photo:setPropertyForPlugin(_PLUGIN, "claudeGroup", r.group) end
-        if r.comment then photo:setPropertyForPlugin(_PLUGIN, "claudeComment", r.comment) end
+        Apply.apply(photo, r, _PLUGIN)
         done = done + 1
       end
       progress:setPortionComplete(i, #rows)
