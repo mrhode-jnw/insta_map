@@ -1,2 +1,3 @@
 data/cache.json
 __pycache__/
+data/forecast.json

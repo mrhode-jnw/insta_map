@@ -801,6 +801,20 @@
     body.popup-open #dockTab { opacity: 0; pointer-events: none; }
     body.popup-mini #dockTab { opacity: 1; pointer-events: auto; }
   }
+  /* Prognose */
+  .fcbox { background: var(--soft); border-radius: 16px; padding: 10px 12px; margin: 0 0 12px; }
+  .fct { font-size: 11px; text-transform: uppercase; letter-spacing: .4px; color: var(--muted); display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px; }
+  .fct small { text-transform: none; letter-spacing: 0; }
+  .fcrow + .fcrow { border-top: 1px solid var(--line); margin-top: 6px; padding-top: 6px; }
+  .fch { font-size: 12px; font-weight: 700; color: var(--accent); }
+  .fcm { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 10px; font-size: 13px; color: var(--fg); margin-top: 2px; }
+  .fcm b { font-size: 15px; } .fci { font-size: 18px; }
+  .fcm .hz { border-radius: 999px; padding: 1px 8px; font-size: 12px; font-weight: 600; }
+  .hz.ok { background: rgba(22,163,74,.22); color: #86efac; } .hz.mid { background: rgba(245,158,11,.2); color: #fcd34d; } .hz.bad { background: rgba(220,38,38,.2); color: #fca5a5; }
+  html[data-theme="light"] .hz.ok { background: #dcfce7; color: #166534; } html[data-theme="light"] .hz.mid { background: #fef3c7; color: #92400e; } html[data-theme="light"] .hz.bad { background: #fee2e2; color: #991b1b; }
+  .fcs { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+  .icard .fcbox { margin: 8px 0; }
+  .leaflet-popup.mini .pop .fcbox { display: none; }
 </style>
 </head>
 <body>
@@ -1154,6 +1168,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <div class="mline">${p.by_claude ? `<span class="mtag cl" title="Nicht aus deiner Sammlung – von Claude als beliebter Spot ergänzt">✦ Claude-Tipp</span>` : ""}${p.mine ? `<span class="mtag">★ Eigener Spot</span>` : ""}${
           [p.category, p.district, WHEN_LABEL[p.when] || "", routeLabel(p), p.pop ? `🔥 ${p.pop}/5` : "", here() ? `📍 ${fmt(dist(me, p))}` : ""].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join(" ")}</div>
         ${lightBox(p)}
+        ${fcHtml(p.id)}
         <div class="status sv2" data-id="${esc(p.id)}">
           <div class="actB">
             <a class="go" href="${nav}" target="_blank" rel="noopener">➤ Navigieren</a>
@@ -1198,6 +1213,25 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const x = new Date(d.date + "T12:00:00+08:00"), wd = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"][x.getUTCDay()];
     PLAN_AT[it.spot] = { date: d.date, t: it.t || "", light: it.light || "", lightText: it.lightText || "", short: `${wd} ${(it.t || "").split(/[–-]/)[0]}`.trim(), long: `${wd} ${x.getUTCDate()}.${x.getUTCMonth() + 1}.${it.lightText ? " · " + it.lightText : ""}` };
   }));
+  // Wetter- & Sichtprognose je Reiseplan-Stopp (data/forecast.json im Branch map-data, von der Routine mehrmals täglich erneuert)
+  let FC = null; try { FC = JSON.parse(localStorage.getItem("forecast") || "null"); } catch {}
+  const WXI = c => c == null ? "" : c === 0 ? "☀️" : c <= 2 ? "🌤️" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 57 ? "🌦️" : c <= 67 ? "🌧️" : c <= 77 ? "🌨️" : c <= 82 ? "🌧️" : "⛈️";
+  const HZC = n => n == null ? "" : n === 0 ? "ok" : n <= 2 ? "mid" : "bad";
+  function fcRow(f, date, withDay) {
+    const x = new Date(date + "T12:00:00Z"), wd = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"][x.getUTCDay()];
+    return `<div class="fcrow"><div class="fch">${withDay ? `${wd} ${x.getUTCDate()}.${x.getUTCMonth() + 1}. · ` : ""}${f.h} Uhr</div>
+      <div class="fcm"><span class="fci">${WXI(f.code)}</span><b>${f.temp}°</b><span>☁ ${f.cloud} %</span><span>☂ ${f.pp ?? 0} %</span>
+      <span class="hz ${HZC(f.haze)}">👁 ${f.vis != null ? String(f.vis).replace(".", ",") + " km · " : ""}${esc(f.hazeText)}</span>${f.aqi != null ? `<span>AQI ${f.aqi}</span>` : ""}</div>
+      ${f.sky ? `<div class="fcs">${esc(f.sky)}</div>` : ""}</div>`;
+  }
+  const fcAge = () => { if (!FC || !FC.updated) return ""; const m = Math.round((Date.now() - Date.parse(FC.updated)) / 6e4);
+    return m < 60 ? `vor ${m} Min.` : m < 48 * 60 ? `vor ${Math.round(m / 60)} Std.` : `vor ${Math.round(m / 1440)} Tagen`; };
+  function fcHtml(id, onlyDate) {
+    const all = FC && FC.stops && FC.stops[id]; if (!all) return "";
+    const td = new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);
+    const ds = Object.keys(all).filter(d => d >= td && (!onlyDate || d === onlyDate)).sort(); if (!ds.length) return "";
+    return `<div class="fcbox"><div class="fct">Prognose am Spot<small>Open-Meteo · ${fcAge()}</small></div>${ds.map(d => fcRow(all[d], d, !onlyDate)).join("")}</div>`;
+  }
   // Licht-Kasten (Reiseplan-Stopps): Uhrzeit laut Plan, Licht, Sonnenauf-/-untergang am Tag
   let moreOpen = false; try { moreOpen = localStorage.getItem("spotMore") === "1"; } catch {}
   function lightBox(p) {
@@ -2132,7 +2166,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const nb = near.map(({ q, d }) => `<button data-spot="${esc(q.id)}">📸 ${esc(shortName(q.name))} · ${d < 950 ? Math.round(d / 10) * 10 + " m" : (d / 1000).toFixed(1) + " km"}</button>`).join("");
     return (links ? `<div class="iig">${links}</div>` : "") + (nb ? `<div class="iig" title="Instagram-Spots in der Nähe">${nb}</div>` : "");
   }
-  function stopCard(it) {
+  function stopCard(it, date) {
     const p = spotOf(it.spot); if (!p) return "";
     const imgs = imgsOf(p).map(x => x.image), k = itinLb.push({ p }) - 1;
     const kind = p.by_claude ? `<span class="b-cl">✦ Claude-Tipp</span>` : `<span class="b-ig">📸 Instagram</span>`;
@@ -2143,6 +2177,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <div class="ib"><h3>${esc(p.name)}</h3>
         <div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}${kind}${p.category ? `<span class="b-hotel" style="background:rgba(148,163,184,.2);color:inherit">${esc(p.category)}</span>` : ""}</div>
         ${lightHtml(it)}
+        ${fcHtml(p.id, date)}
         ${it.text ? `<p>${esc(it.text)}</p>` : ""}
         ${igHtml(p)}
         ${tip && tip !== it.text ? `<details class="itip"><summary>Foto-Tipps & Infos</summary>${esc(tip)}</details>` : ""}
@@ -2174,7 +2209,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     itinLb = [];
     const body = items.map(it => {
       if (it.type === "move") return `<div class="imove"><div></div><div>${MODE[it.mode] || "➜"} <b>${it.min ? fmtMin(it.min) : ""}</b>${it.km ? ` · ${it.km} km` : ""}${it.text ? ` · ${esc(it.text)}` : ""}</div></div>`;
-      const card = it.type === "stop" ? stopCard(it) : it.type === "hotel" ? hotelCard(it)
+      const card = it.type === "stop" ? stopCard(it, d.date) : it.type === "hotel" ? hotelCard(it)
         : `<div class="icard"><div class="iinfo"><span class="iic">${esc(it.icon || "•")}</span><div><h3>${esc(it.title || "")}</h3>
             ${it.plan || it.opt ? `<div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}</div>` : ""}${lightHtml(it)}${it.text ? `<p>${esc(it.text)}</p>` : ""}
             ${(it.spots || []).length ? `<div class="iact">${it.spots.map(id => spotOf(id)).filter(Boolean).map(p => `<button data-spot="${esc(p.id)}">📍 ${esc(shortName(p.name))}</button>`).join("")}</div>` : ""}</div></div></div>`;
@@ -3229,6 +3264,15 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   loadMine();
   loadExtras();
   loadStatus();
+  // Prognose laden (beim Start und beim Zurückkehren in die App, höchstens alle 30 Min.)
+  let fcLoaded = 0;
+  async function loadForecast() {
+    if (Date.now() - fcLoaded < 30 * 6e4) return; fcLoaded = Date.now();
+    try { const f = await rawJson("data/forecast.json", null); if (f && f.stops) { FC = f; try { localStorage.setItem("forecast", JSON.stringify(f)); } catch {}
+      if (!$("#itin").hidden) renderItin(); } } catch (e) { fcLoaded = 0; }
+  }
+  loadForecast();
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) loadForecast(); });
   loadTours();
   loadWikiImages();
 
