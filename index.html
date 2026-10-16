@@ -651,32 +651,32 @@
     #dock { transition: opacity .18s ease; }
   }
   #itinBody, #toursBody, #inspBody { padding-bottom: calc(env(safe-area-inset-bottom) + 96px) !important; }
-  /* ---------- Spot als Vollbild-Story (Handy) ---------- */
+  /* ---------- Spot-Ansicht „Vollbild“ (Handy; Standard ist „Mittel“, dazu „Klein“) ---------- */
   @media (max-width: 799px) {
-    .leaflet-popup.card { left: 0 !important; top: 0 !important; transform: none !important; width: 100vw; }
-    .leaflet-popup.card .leaflet-popup-content-wrapper { border-radius: 0; box-shadow: none; }
+    .leaflet-popup.card.full { left: 0 !important; top: 0 !important; transform: none !important; width: 100vw; }
+    .leaflet-popup.card.full .leaflet-popup-content-wrapper { border-radius: 0; box-shadow: none; }
     /* volle Höhe (iOS-Web-App: svh endet um die Statusleisten-Höhe zu früh) und immer selbst scrollbar */
-    .leaflet-popup.card .leaflet-popup-content { width: 100vw !important; height: 100vh; height: calc(100svh + env(safe-area-inset-top)) !important;
+    .leaflet-popup.card.full .leaflet-popup-content { width: 100vw !important; height: 100vh; height: calc(100svh + env(safe-area-inset-top)) !important;
       max-height: none !important; overflow-y: auto !important; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
-    body.popup-open #group { opacity: 0; pointer-events: none; }
+    body.popup-full #group { opacity: 0; pointer-events: none; }
     #group { transition: opacity .18s ease; }
-    .leaflet-popup.card .pop .pnav { height: calc(env(safe-area-inset-top) + 60px); margin-bottom: calc(-1 * (env(safe-area-inset-top) + 60px));
+    .leaflet-popup.card.full .pop .pnav { height: calc(env(safe-area-inset-top) + 60px); margin-bottom: calc(-1 * (env(safe-area-inset-top) + 60px));
       padding: calc(env(safe-area-inset-top) + 8px) 12px 8px; align-items: center; background: linear-gradient(rgba(0,0,0,.5), transparent);
       -webkit-backdrop-filter: none; backdrop-filter: none; border: 0; }
-    .leaflet-popup.card .pop .pnav button { width: 44px; height: 44px; border-radius: 22px; background: rgba(20,20,26,.55); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); color: #fff; }
-    .leaflet-popup.card .pop .pnav .spotnum { background: rgba(20,20,26,.55); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); color: #e4e4e7; padding: 6px 12px; border-radius: 999px; }
-    .leaflet-popup.card .pop .hero img { height: 66vh; height: 66svh; aspect-ratio: auto; object-fit: cover; }
-    .leaflet-popup.card .pop .hero .pcount, .leaflet-popup.card .pop .hero .parrows { display: none; }
-    .leaflet-popup.card .pop .hero::after { height: 45%; }
-    .leaflet-popup.card .pop .pbars { position: absolute; left: 12px; right: 12px; top: calc(env(safe-area-inset-top) + 64px); display: flex; gap: 4px; z-index: 3; pointer-events: none; }
-    .leaflet-popup.card .pop .pbars i { flex: 1; height: 3px; border-radius: 2px; background: rgba(255,255,255,.35); }
-    .leaflet-popup.card .pop .pbars i.on { background: #fff; }
-    .leaflet-popup.card .pop .credit { position: relative; margin-top: -26px; z-index: 2; }
-    .leaflet-popup.card .pop .b { padding-bottom: calc(env(safe-area-inset-bottom) + 24px); }
-    .leaflet-popup.card .pop .pfav { top: calc(env(safe-area-inset-top) + 76px); }
+    .leaflet-popup.card.full .pop .pnav button { width: 44px; height: 44px; border-radius: 22px; background: rgba(20,20,26,.55); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); color: #fff; }
+    .leaflet-popup.card.full .pop .pnav .spotnum { background: rgba(20,20,26,.55); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); color: #e4e4e7; padding: 6px 12px; border-radius: 999px; }
+    .leaflet-popup.card.full .pop .hero img { height: 66vh; height: 66svh; aspect-ratio: auto; object-fit: cover; }
+    .leaflet-popup.card.full .pop .hero .pcount, .leaflet-popup.card.full .pop .hero .parrows { display: none; }
+    .leaflet-popup.card.full .pop .hero::after { height: 45%; }
+    .leaflet-popup.card.full .pop .pbars { position: absolute; left: 12px; right: 12px; top: calc(env(safe-area-inset-top) + 64px); display: flex; gap: 4px; z-index: 3; pointer-events: none; }
+    .leaflet-popup.card.full .pop .pbars i { flex: 1; height: 3px; border-radius: 2px; background: rgba(255,255,255,.35); }
+    .leaflet-popup.card.full .pop .pbars i.on { background: #fff; }
+    .leaflet-popup.card.full .pop .credit { position: relative; margin-top: -26px; z-index: 2; }
+    .leaflet-popup.card.full .pop .b { padding-bottom: calc(env(safe-area-inset-bottom) + 24px); }
+    .leaflet-popup.card.full .pop .pfav { top: calc(env(safe-area-inset-top) + 76px); }
   }
   .pop .pbars { display: none; }
-  @media (max-width: 799px) { .leaflet-popup.card .pop .pbars { display: flex; } }
+  @media (max-width: 799px) { .leaflet-popup.card.full .pop .pbars { display: flex; } }
 
   body.no-hotels .leaflet-marker-icon:has(.hotel-pin) { display: none; }
   body.pins-big .pin { transform: scale(1.3); }
@@ -697,7 +697,10 @@
   .seg2 button.on { background: var(--accent); color: #fff; }
 
   .pop .pnav .pmini { display: grid; place-items: center; }
-  .leaflet-popup.mini .pnav .pmini { display: none !important; }
+  .leaflet-popup.mini .pnav .pmini, .leaflet-popup.mini .pnav .pfull { display: none !important; }
+  .pop .pnav .pfull { display: grid; place-items: center; }
+  @media (max-width: 799px) { .leaflet-popup.card .leaflet-popup-content { overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; } }
+  @media (min-width: 800px) { .pop .pnav .pfull { display: none; } }
   /* verkleinerte Story (Handy): kleine Karte oben, Karte/Liste/Leiste wieder sichtbar */
   @media (max-width: 799px) {
     .leaflet-popup.card.mini { left: 10px !important; right: 10px !important; width: auto; top: calc(env(safe-area-inset-top) + 8px) !important; }
@@ -1043,7 +1046,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${multi && !onImg ? `<button data-go="-1" aria-label="Vorheriger Spot">‹</button>` : ""}
         ${multi ? (activeTourIds().includes(p.id) ? `<span class="spotnum" title="Stopps der aktiven Tour">🧭 Stopp ${idx + 1} von ${navIds.length}${legInfo(p.id)}</span>` : `<span class="spotnum" title="Spots der Liste">📍 Spot ${idx + 1} von ${navIds.length}</span>`) : `<span></span>`}
         ${multi && !onImg ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : ""}
-        <button class="pmini" data-mini="${esc(p.id)}" aria-label="Verkleinern und auf der Karte zeigen" title="Verkleinern – Spot auf der Karte zeigen"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6v6M20 10h-6V4M14 10l7-7M3 21l7-7"/></svg></button></div>`;
+        <button class="pfull" aria-label="Größe umschalten" title="Mittel ↔ Vollbild"></button>
+        <button class="pmini" data-mini="${esc(p.id)}" aria-label="Klein – Spot auf der Karte zeigen" title="Klein – Spot auf der Karte zeigen"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2zM9 4v14M15 6v14"/></svg></button></div>`;
     return `<div class="pop">${pnav}
       ${p.image ? `<div class="hero">${strip ? `<div class="hstrip">${imgPosts.map((x, i) => `<img src="${esc(x.image)}" alt="" loading="${i ? "lazy" : "eager"}" data-lb="${i}"
           data-cr="${esc(who(x))}" data-href="${esc(x.credit ? x.url : x.profile_url)}" data-post="${x.credit ? "" : esc(x.url)}">`).join("")}</div>`
@@ -1723,6 +1727,19 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     }, 0);
   });
   // Popup so hoch wie der freie Platz zwischen Bereichs-Umschalter oben und Liste unten
+  // Spot-Ansicht auf dem Handy: „medium“ (Karte unter der Leiste, Standard) oder „full“ (Vollbild-Story); „klein“ = miniSpot
+  let spotView = "medium"; try { spotView = localStorage.getItem("spotView") || "medium"; } catch {}
+  const ICO = d => `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg>`;
+  function applyCardMode(popup, init) {
+    const el = popup && popup.getElement(); if (!el || !mobile()) return;
+    const full = spotView === "full", sp = popupSpace();
+    el.classList.toggle("full", full); document.body.classList.toggle("popup-full", full);
+    document.documentElement.style.setProperty("--cardTop", (full ? 0 : sp.top) + "px");
+    popup.options.maxHeight = full ? window.innerHeight : sp.maxH;
+    if (init) popup.update();  // beim Öffnen; später nicht neu aufbauen (sonst gehen die Knöpfe verloren)
+    else { const c = el.querySelector(".leaflet-popup-content"); c.style.height = ""; c.style.maxHeight = full ? "" : sp.maxH + "px"; c.scrollTop = 0; }
+    const b = el.querySelector(".pfull"); if (b) b.innerHTML = full ? ICO("M4 14h6v6M20 10h-6V4M14 10l7-7M3 21l7-7") : ICO("M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7");
+  }
   function popupSpace() {
     const top = $("#group").getBoundingClientRect().bottom + 8;
     const bottom = window.innerHeight - (mobile() ? parseFloat(getComputedStyle(sheet).paddingBottom) || 0 : 0);
@@ -1734,7 +1751,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const box = ev.popup.getElement().querySelector(".status"); stickyId = box ? box.dataset.id : null;
   });
   map.on("popupclose", ev => {
-    if (!navigating) document.body.classList.remove("popup-open", "popup-mini");
+    if (!navigating) document.body.classList.remove("popup-open", "popup-mini", "popup-full");
     const box = ev.popup.getElement() && ev.popup.getElement().querySelector(".status");
     if (box && box.dataset.id === stickyId) {
       const p = places.find(x => x.id === stickyId); stickyId = null;
@@ -1746,9 +1763,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (mobile()) {
       // feste Karte über der Karte: aus dem Karten-Pane lösen, damit Verschieben/Zoomen sie nicht bewegt
       const el = ev.popup.getElement();
-      document.documentElement.style.setProperty("--cardTop", "0px");
       el.classList.add("card"); document.body.appendChild(el);
-      o.maxHeight = window.innerHeight; ev.popup.update();
+      applyCardMode(ev.popup, true);
       document.querySelectorAll(".leaflet-popup.ghost").forEach(g => setTimeout(() => g.remove(), 120));
       return;
     }
@@ -1813,7 +1829,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); map.closePopup(); };
     // 📍 Springe zu Spot: Spot schließen, hinzoomen, Liste einklappen, Pin hervorheben
     const sm = el.querySelector(".showmap"); if (sm) sm.onclick = e => { e.stopPropagation(); miniSpot(sm.dataset.show); };
-    const pm = el.querySelector(".pmini"); if (pm) pm.onclick = e => { e.stopPropagation(); miniSpot(pm.dataset.mini); };
+    const pm = el.querySelector(".pmini"); if (pm) pm.onclick = e => { e.stopPropagation(); el.classList.remove("full"); document.body.classList.remove("popup-full"); miniSpot(pm.dataset.mini); };
+    const pf = el.querySelector(".pfull"); if (pf) pf.onclick = e => { e.stopPropagation();
+      spotView = spotView === "full" ? "medium" : "full"; try { localStorage.setItem("spotView", spotView); } catch {}
+      el.classList.remove("mini"); document.body.classList.remove("popup-mini"); applyCardMode(ev.popup); };
     const ta = el.querySelector(".tadd"); if (ta) ta.onclick = e => { e.stopPropagation(); openTourPick(ta.dataset.tadd, ta); };
     const xa = el.querySelector(".xadd"); if (xa) xa.onclick = e => { e.stopPropagation(); openExtraAdd(xa.dataset.xadd); };
     el.querySelectorAll(".gdel").forEach(b => b.onclick = e => { e.stopPropagation(); removePhoto(id, +b.dataset.gdel); });
@@ -1821,7 +1840,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     // verkleinerten Spot antippen → wieder groß
     el.addEventListener("click", e => {
       if (!el.classList.contains("mini") || e.target.closest("button, a")) return;
-      el.classList.remove("mini"); document.body.classList.remove("popup-mini"); e.stopPropagation();
+      el.classList.remove("mini"); document.body.classList.remove("popup-mini"); e.stopPropagation(); applyCardMode(map._popup);
     });
   });
   document.addEventListener("keydown", e => {
