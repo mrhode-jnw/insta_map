@@ -698,13 +698,13 @@
   .seg2 button.on { background: var(--accent); color: #fff; }
 
   .pop .pnav .pmini { display: grid; place-items: center; }
-  .leaflet-popup.mini .pnav .pmini, .leaflet-popup.mini .pnav .pfull { display: none !important; }
+  .leaflet-popup.mini .pnav .pmini { display: none !important; }
   .pop .pnav .pfull { display: grid; place-items: center; }
   @media (max-width: 799px) { .leaflet-popup.card .leaflet-popup-content { overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; } }
   @media (min-width: 800px) { .pop .pnav .pfull { display: none; } }
   /* verkleinerte Story (Handy): kleine Karte oben, Karte/Liste/Leiste wieder sichtbar */
   @media (max-width: 799px) {
-    .leaflet-popup.card.mini { left: 10px !important; right: 10px !important; width: auto; top: calc(env(safe-area-inset-top) + 8px) !important; }
+    .leaflet-popup.card.mini { left: 10px !important; right: 10px !important; width: auto; transform: none !important; top: calc(env(safe-area-inset-top) + 8px) !important; }
     .leaflet-popup.card.mini .leaflet-popup-content-wrapper { border-radius: 20px; box-shadow: 0 12px 34px rgba(0,0,0,.45); }
     .leaflet-popup.card.mini .leaflet-popup-content { width: calc(100vw - 20px) !important; height: auto !important; }
     .leaflet-popup.card.mini .pop .pnav { height: 52px; margin-bottom: -52px; padding: 6px 8px; }
@@ -759,7 +759,9 @@
   .pop .galgrid .gdel, .pop .galgrid .ginsp { display: none; }
   .pop .status.sv2:has(.more:not([hidden])) ~ .galgrid .gdel, .pop .status.sv2:has(.more:not([hidden])) ~ .galgrid .ginsp { display: grid; }
   .pop .galgrid .ginsp.on { display: grid; }
-  .leaflet-popup.card:not(.full) .pop .pnav { background: var(--card); }
+  .leaflet-popup.card:not(.full):not(.mini) .pop .pnav { background: var(--card); }
+  .leaflet-popup.card.mini .pop .pnav { background: transparent; border: 0; -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .leaflet-popup.card.mini .pop .pnav button { background: rgba(20,20,26,.55); color: #fff; }
   .leaflet-popup.card.full.scrolled .pop .pnav { background: var(--card); border-bottom: 1px solid var(--line); }
   .leaflet-popup.card.full.scrolled .pop .pnav button, .leaflet-popup.card.full.scrolled .pop .pnav .spotnum { background: var(--soft); color: var(--fg); }
   .leaflet-popup.card.full .pop .hcred { font-size: 11px; padding: 0 16px; }
@@ -1753,7 +1755,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function miniSpot(id) {
     const el = map._popup && map._popup.getElement(), p = places.find(x => x.id === id), m = markers.get(id);
     if (!el || !p || !m) return;
-    el.classList.add("mini"); document.body.classList.add("popup-mini");
+    el.classList.add("mini"); document.body.classList.add("popup-mini"); setPfull(el);
     savedView = null;  // nach dem Schließen nicht zum alten Ausschnitt zurück – man wollte ja hierher
     if (mobile()) setSnap("peek");
     const center = z => {  // Spot mittig in den freien Bereich unter der kleinen Leiste
@@ -1815,7 +1817,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     popup.options.maxHeight = full ? window.innerHeight : sp.maxH;
     if (init) popup.update();  // beim Öffnen; später nicht neu aufbauen (sonst gehen die Knöpfe verloren)
     else { const c = el.querySelector(".leaflet-popup-content"); c.style.height = ""; c.style.maxHeight = full ? "" : sp.maxH + "px"; c.scrollTop = 0; }
-    const b = el.querySelector(".pfull"); if (b) b.innerHTML = full ? ICO("M4 14h6v6M20 10h-6V4M14 10l7-7M3 21l7-7") : ICO("M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7");
+    setPfull(el);
+  }
+  function setPfull(el) {  // Symbol zeigt die nächste Größe: Mittel → ⤢ Vollbild, Vollbild → ⤡ Klein, Klein → ⤢ Mittel
+    const b = el.querySelector(".pfull"); if (!b) return;
+    const shrink = el.classList.contains("full") && !el.classList.contains("mini");
+    b.innerHTML = shrink ? ICO("M4 14h6v6M20 10h-6V4M14 10l7-7M3 21l7-7") : ICO("M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7");
+    b.title = el.classList.contains("mini") ? "Mittel" : shrink ? "Klein" : "Vollbild";
   }
   function popupSpace() {
     const top = $("#group").getBoundingClientRect().bottom + 8;
@@ -1907,8 +1915,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     // 📍 Springe zu Spot: Spot schließen, hinzoomen, Liste einklappen, Pin hervorheben
     const sm = el.querySelector(".showmap"); if (sm) sm.onclick = e => { e.stopPropagation(); miniSpot(sm.dataset.show); };
     const pm = el.querySelector(".pmini"); if (pm) pm.onclick = e => { e.stopPropagation(); el.classList.remove("full"); document.body.classList.remove("popup-full"); miniSpot(pm.dataset.mini); };
+    // Größe umschalten im Kreis: Mittel → Vollbild → Klein → Mittel
     const pf = el.querySelector(".pfull"); if (pf) pf.onclick = e => { e.stopPropagation();
-      spotView = spotView === "full" ? "medium" : "full"; try { localStorage.setItem("spotView", spotView); } catch {}
+      if (!el.classList.contains("mini") && spotView === "full") { el.classList.remove("full"); document.body.classList.remove("popup-full"); miniSpot(id); setPfull(el); return; }
+      spotView = el.classList.contains("mini") ? "medium" : "full"; try { localStorage.setItem("spotView", spotView); } catch {}
       el.classList.remove("mini"); document.body.classList.remove("popup-mini"); applyCardMode(ev.popup); };
     const mo = el.querySelector(".pmore"), mp = el.querySelector(".more");
     if (mo && mp) { mo.classList.toggle("on", !mp.hidden); mo.onclick = e => { e.stopPropagation(); mp.hidden = !mp.hidden; moreOpen = !mp.hidden; mo.classList.toggle("on", moreOpen);
