@@ -10,7 +10,8 @@ Rückgängig mit Cmd+Z.
 
 ## Ohne API-Schlüssel (mit dem Claude-Abo)
 1. Fotos auswählen → Bibliothek → Zusatzmoduloptionen → **Vorschauen für Claude exportieren …**
-   Legt JPEGs (mit deiner Bearbeitung, 1600 px) unter `Bilder/Claude-Bewertung/<Datum_Uhrzeit>/` ab,
+   Fragt nach dem Speicherort (wird gemerkt) und legt dort JPEGs (mit deiner Bearbeitung, 1600 px) in `<Datum_Uhrzeit>/` ab,
+   Fortschritt oben links,
    dazu `liste.csv` (Aufnahmedaten, vermutete Belichtungsreihen/Panoramas) und `ANWEISUNG.md` für Claude.
 2. Den Ordner Claude geben (Claude-App am Mac: „Bewerte die Fotos in diesem Ordner nach ANWEISUNG.md“;
    oder Bilder in den Chat ziehen). Claude schreibt `bewertung.csv` in den Ordner (bzw. gibt sie dir zum Speichern).

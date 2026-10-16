@@ -9,6 +9,7 @@ local LrFileUtils = import "LrFileUtils"
 local LrExportSession = import "LrExportSession"
 local LrDate = import "LrDate"
 local LrShell = import "LrShell"
+local LrProgressScope = import "LrProgressScope"
 local Meta = require "Meta"
 local INSTR = require "Instructions"
 local log = require "Log"
@@ -24,11 +25,21 @@ LrFunctionContext.postAsyncTaskWithContext("ClaudeBewertungExport", function(con
   local photos = catalog:getTargetPhotos()
   if #photos == 0 then LrDialogs.message("Claude-Bewertung", "Bitte zuerst Fotos auswählen.", "info"); return end
   log:info(("%d Fotos ausgewählt"):format(#photos))
-  LrDialogs.showBezel(("Claude: %d Vorschauen werden exportiert …"):format(#photos))
+  -- Speicherort wählen (wird gemerkt); darin entsteht je Export ein Unterordner mit Datum und Uhrzeit
+  local start = prefs.exportBase and LrFileUtils.exists(prefs.exportBase) and prefs.exportBase
+    or LrPathUtils.child(LrPathUtils.getStandardFilePath("pictures"), "Claude-Bewertung")
+  local pick = LrDialogs.runOpenPanel { title = ("Speicherort für %d Vorschauen wählen"):format(#photos),
+    prompt = "Hier speichern", canChooseFiles = false, canChooseDirectories = true, canCreateDirectories = true,
+    allowsMultipleSelection = false, initialDirectory = start }
+  if not pick or not pick[1] then log:info("abgebrochen"); return end
+  local base = pick[1]
+  prefs.exportBase = base
+
+  local progress = LrProgressScope { title = ("Vorschauen für Claude (%d Fotos)"):format(#photos), functionContext = context }
+  progress:setCaption("Aufnahmedaten lesen …")
   local items = Meta.collect(catalog, photos)
   log:info("Aufnahmedaten gelesen")
 
-  local base = LrPathUtils.child(LrPathUtils.getStandardFilePath("pictures"), "Claude-Bewertung")
   local sub = LrDate.timeToUserFormat(LrDate.currentTime(), "%Y-%m-%d_%H%M")
   local dir = LrPathUtils.child(base, sub)
   LrFileUtils.createAllDirectories(dir)
@@ -49,12 +60,16 @@ LrFunctionContext.postAsyncTaskWithContext("ClaudeBewertungExport", function(con
   }
   log:info("Zielordner: " .. dir)
   local jpgOf, fails, n = {}, {}, 0
-  for _, rendition in session:renditions { stopIfCanceled = true } do
+  local i = 0
+  for _, rendition in session:renditions { progressScope = progress, renderProgressPortion = 1, stopIfCanceled = true } do
+    i = i + 1
+    progress:setCaption(("Vorschau %d von %d"):format(i, #photos))
     local ok, path = rendition:waitForRender()
     log:info(("Rendition: %s %s"):format(tostring(ok), tostring(path)))
     if ok then jpgOf[rendition.photo] = LrPathUtils.leafName(path); n = n + 1
     else fails[#fails + 1] = tostring(path) end
   end
+  progress:done()
   if n == 0 then
     LrDialogs.message("Claude-Bewertung", "Export fehlgeschlagen – keine Vorschau erzeugt.\nZiel: " .. dir .. "\n" .. table.concat(fails, "\n"):sub(1, 600), "critical")
     return
