@@ -777,17 +777,17 @@
      "type": "info",
      "t": "12:43",
      "icon": "🚄",
-     "title": "Bahnhof Fenghuang Gucheng (凤凰古城站) – Zug G6174",
+     "title": "Bahnhof Fenghuang Gucheng (凤凰古城站) – Zug G6174 ✓ gebucht",
      "plan": true,
      "lat": 27.9826,
      "lng": 109.5737,
-     "text": "Mind. 30 Min. vorher da sein (Pass- und Sicherheitskontrolle). Ausweichzüge: G6058 13:07, G222 13:26."
+     "text": "2. Klasse, Wagen 06, Plätze 3A + 3B (nebeneinander). Ticket-Gate 1. Etage. Mind. 30 Min. vorher da sein (Pass- und Sicherheitskontrolle); Abholnummer in der Trip.com-Buchung."
     },
     {
      "type": "move",
      "mode": "train",
      "min": 59,
-     "text": "G6174, an 13:42"
+     "text": "G6174, an 13:42 – Wagen 06"
     },
     {
      "type": "info",
