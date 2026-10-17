@@ -1591,15 +1591,15 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   drawTour();
   // Unsere Unterkünfte (approx = Lage nur ungefähr bekannt, Ort/Dorf stimmt)
   const HOTELS = window.TRIP.hotels;
-  // Übernachtungsorte: je Hotel das nächste Dorf/Altstadt-Spot (≤ 1 km) → Hotel-Icon über dem Bild in der Liste
+  // Übernachtungsorte: Dörfer/Altstädte und eigene Spots direkt beim Hotel → Hotel-Icon über dem Bild in der Liste
   const SLEEP_RE = /village|ancient|old town|dorf|古城|寨|村/i;
   let sleepMap = null, sleepN = -1;
   const sleepAt = p => {
     if (sleepN !== places.length) {
       sleepMap = new Map(); sleepN = places.length;
-      HOTELS.forEach(h => { let best = null, bd = 1000;
-        places.forEach(q => { if (q.noloc || !q.lat || !SLEEP_RE.test(q.name)) return; const d = dist(h, q); if (d < bd) { bd = d; best = q; } });
-        if (best) sleepMap.set(best.id, h); });
+      // alle Dörfer/Altstädte ≤ 1 km und eigene Spots ≤ 1,5 km ums Hotel (eigene Pins liegen oft am Dorfrand)
+      HOTELS.forEach(h => places.forEach(q => { if (q.noloc || !q.lat) return; const d = dist(h, q);
+        if ((q.mine && d < 1500) || (SLEEP_RE.test(q.name) && d < 1000)) sleepMap.set(q.id, h); }));
     }
     return sleepMap.get(p.id);
   };
