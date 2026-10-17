@@ -825,6 +825,7 @@
   #insp h3 .ibtns { margin-left: auto; display: flex; gap: 6px; flex: none; }
   #insp h3 .ibtns button { margin: 0 !important; }
   #inspBody h3 .ilink { padding: 5px 11px; border-radius: 999px; border: 1px solid var(--accent); background: var(--accent); color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; }
+  #inspBody .inote { margin: -4px 4px 10px; padding: 9px 11px; border-radius: 12px; background: var(--soft); font-size: 13px; line-height: 1.45; color: var(--fg); }
 </style>
 </head>
 <body>
@@ -2139,7 +2140,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#inspBody").innerHTML = regs.map(r => `<h3>${INSP_REG[r]}<span class="ibtns"><button class="ilink" data-ilink="${r}">🔗 Insta-Link</button><button class="iadd" data-iadd="${r}">📷 Fotos</button></span></h3>` +
       (inspWait(r).length ? `<div class="src">⏳ Wird geladen (ca. 1 Std.): ${inspWait(r).map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.code)}</a>`).join(" · ")}</div>` : "") +
       (owns(r).length ? `<div class="src">📷 Eigene Fotos</div><div class="masonry">${owns(r).map(tile).join("")}</div>` : "") + (marks(r).length ? `<div class="src">💡 An Spots markiert</div><div class="masonry">${marks(r).map(tile).join("")}</div>` : "") + (INSP[r] || []).filter(post => imgsOfPost(post).length).map(post => `
-      <div class="src">${post.user ? `<a href="https://www.instagram.com/${esc(post.user)}/" target="_blank" rel="noopener">@${esc(post.user)}</a> · ` : ""}<a href="${esc(post.url)}" target="_blank" rel="noopener">Post ↗</a>${post.caption ? " – " + esc(post.caption.split("\n")[0].slice(0, 90)) : ""}</div>
+      <div class="src">${post.user ? `<a href="https://www.instagram.com/${esc(post.user)}/" target="_blank" rel="noopener">@${esc(post.user)}</a> · ` : ""}<a href="${esc(post.url)}" target="_blank" rel="noopener">Post ↗</a>${post.caption ? " – " + esc(post.caption.split("\n")[0].slice(0, 90)) : ""}</div>${post.note ? `<div class="inote">📍 ${esc(post.note)}</div>` : ""}
       <div class="masonry">${imgsOfPost(post).map(src => `<span class="iw"><img src="${esc(src)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(src)}" aria-label="Aus Inspiration entfernen">×</button></span>`).join("")}</div>`).join("")).join("")
       || `<p class="src">Noch keine Bilder.</p>`;
     $("#inspSub").textContent = n ? `${n} Bilder` : "";

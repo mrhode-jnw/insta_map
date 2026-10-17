@@ -758,7 +758,8 @@ window.INSPIRATION = {
    "caption": "Nothing but blue skies💙\n\n#shanghai #shanghaicity #lujiazui #orientalpearltower #shanghaitower",
    "images": [
     "images/insp/DeeSyCbuTH2_1.jpg"
-   ]
+   ],
+   "note": "Wo es ungefähr entstanden ist: Die Blickrichtung spricht für einen Standpunkt im Westen, jenseits des Huangpu-Flusses, also vom Bund oder einem Dach dort. Den genauen Punkt sagt der Post nicht. Mit 200 mm oder mehr ab der Uferpromenade am Bund kommst du nah an diesen Bildausschnitt. Je weiter nördlich du stehst, desto weiter rückt der Pearl Tower vor die anderen beiden."
   },
   {
    "code": "DcJtOgQGauy",
