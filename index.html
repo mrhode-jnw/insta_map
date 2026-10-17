@@ -1527,7 +1527,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
             ${!t.builtin && !stops.length ? `<p class="thint">Noch leer – Spot öffnen und auf 🧭 Tour tippen.</p>` : ""}` : ""}
         </div>`; }).join("");
   }
-  function openTours() { if (!openTourId) openTourId = activeTour; renderTours(); $("#toursDlg").hidden = false; }
+  function openTours() { if (!openTourId) openTourId = activeTour; renderTours(); $("#toursDlg").hidden = false; loadTours(); }  // neu laden: Touren kommen auch von der Routine/Claude
   tb.onclick = e => { e.stopPropagation(); openTours(); };
   $("#toursClose").onclick = () => { $("#toursDlg").hidden = true; };
   $("#toursBody").addEventListener("click", e => {
