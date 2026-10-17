@@ -39,11 +39,42 @@
  },
  {
   "id": "tgl19",
-  "name": "Mo 19.10. Sonnenaufgang Ping'an · nach dem Frühstück mit eigenem Fahrer nach Guizhou",
+  "name": "Mo 19.10. Sonnenaufgang Ping'an · 10:00 Abholung am Valley View Hotel · Zhanli · Huanggang, Übernachtung",
   "stops": [
-   "cn-ping-an-village"
+   "cn-ping-an-village",
+   "claude-cn-zhanli-dong-village",
+   "claude-cn-huanggang-dong-village"
   ],
   "created": "2026-10-15"
+ },
+ {
+  "id": "tgl20",
+  "name": "Di 20.10. Huanggang am Morgen · Dali Dong Village, Übernachtung",
+  "stops": [
+   "claude-cn-huanggang-dong-village",
+   "claude-cn-dali-dong-village"
+  ],
+  "created": "2026-10-18"
+ },
+ {
+  "id": "tgl21",
+  "name": "Mi 21.10. Dali · Maliao · Langde, Übernachtung",
+  "stops": [
+   "claude-cn-dali-dong-village",
+   "claude-cn-maliao-silversmith-village",
+   "claude-cn-langde-upper-miao-village"
+  ],
+  "created": "2026-10-18"
+ },
+ {
+  "id": "tgl22",
+  "name": "Do 22.10. Langde → Fanjingshan → Fenghuang Ancient Town, Übernachtung",
+  "stops": [
+   "claude-cn-langde-upper-miao-village",
+   "cn-fanjingshan",
+   "cn-fenghuang-ancient-town"
+  ],
+  "created": "2026-10-18"
  },
  {
   "id": "tglall",
@@ -61,5 +92,19 @@
    "cn-ping-an-village"
   ],
   "created": "2026-10-15"
+ },
+ {
+  "id": "tglgz",
+  "name": "Guizhou → Fenghuang (19.–22.10.) – Plan der Agentur",
+  "stops": [
+   "claude-cn-zhanli-dong-village",
+   "claude-cn-huanggang-dong-village",
+   "claude-cn-dali-dong-village",
+   "claude-cn-maliao-silversmith-village",
+   "claude-cn-langde-upper-miao-village",
+   "cn-fanjingshan",
+   "cn-fenghuang-ancient-town"
+  ],
+  "created": "2026-10-18"
  }
 ]
