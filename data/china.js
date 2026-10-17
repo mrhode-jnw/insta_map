@@ -2623,6 +2623,15 @@ window.PLACES_CN = [
     "slide": 7
    },
    {
+    "url": "https://www.instagram.com/shanghaieye/p/DdlZEZ1hMZS/",
+    "username": "shanghaieye",
+    "profile_url": "https://www.instagram.com/shanghaieye/",
+    "kind": "p",
+    "image": "images/DdlZEZ1hMZS.jpg",
+    "caption": "Lost in this golden hour. Let life feel a little lighter🪽\n\n#shanghai #shanghaicity #shanghaitower #lujiazui #orientalpearltower",
+    "match": "single"
+   },
+   {
     "url": "https://www.instagram.com/hotelsandhandluggage/p/Dcl8WxlAqf_/",
     "username": "",
     "profile_url": "https://www.instagram.com/hotelsandhandluggage/p/Dcl8WxlAqf_/",

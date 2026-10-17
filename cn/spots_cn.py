@@ -37,6 +37,7 @@ POSTS = {
  76: ("rkrkrk", "p", "DGVYjm7TBQV"), 77: ("the_outsiders_travel", "p", "DXTYINCj5Up"),
  78: ("earth", "p", "B6V7Lt_nDE4"), 79: ("hwang199", "p", "CD9EfPrDkhv"),
  80: ("jasmine_pirsch", "p", "DLSu0tJtSX5"), 81: ("amigosdechina", "p", "CU6wNZfoSMT"),
+ 82: ("shanghaieye", "p", "DdlZEZ1hMZS"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -128,7 +129,7 @@ SPOTS = [
  ("Dongchangzhi Rd × Lushun Rd 东长治路旅顺路", 31.2518, 121.4923, False, "Hongkou, Shanghai", "Street",
   [(21, 3), (46, 3)], "North-Bund-Streetfoto-Spot: Alltag vor Oriental Pearl Tower und Shanghai Tower."),
  ("Waibaidu Bridge & Suzhou Creek 外白渡桥", 31.245307, 121.485744, False, "Huangpu, Shanghai", "Aussicht",
-  [22, (35, 2), (36, 2), (46, 7)], "Blick über die Mündung des Suzhou Creek auf Lujiazui zur goldenen Stunde."),
+  [22, (35, 2), (36, 2), (46, 7), 82], "Blick über die Mündung des Suzhou Creek auf Lujiazui zur goldenen Stunde."),
  ("The Bund & Lujiazui 外滩 · 陆家嘴", 31.2402, 121.4979, False, "Huangpu, Shanghai", "Aussicht",
   [(35, 1), 16, (43, 4), (43, 6), (44, 11), (52, 1), (52, 6)], "Skyline abends, wenn alles beleuchtet ist."),
  ("North Bund Riverside Park 北外滩滨江", 31.2500, 121.4990, True, "Hongkou, Shanghai", "Aussicht",
