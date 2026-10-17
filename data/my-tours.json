@@ -1,32 +1,5 @@
 [
  {
-  "id": "tgl15",
-  "name": "Do 15.10. Abholung Guilin West 14:16 · Sonnenuntergang Wuzhi Hill (Cuiping)",
-  "stops": [
-   "claude-cn-cuiping-hill"
-  ],
-  "created": "2026-10-15"
- },
- {
-  "id": "tgl16",
-  "created": "2026-10-15",
-  "name": "Fr 16.10. Sonnenaufgang Damian Hill · Sonnenuntergang Wulongquan",
-  "stops": [
-   "claude-cn-damian-hill-li-river-bogen",
-   "cn-wulongquan-sunset-viewpoint"
-  ]
- },
- {
-  "id": "tgl17",
-  "name": "Sa 17.10. Sonnenaufgang mit Kormoranfischer (Xialong) · Yulong River · abends Kormoranfischer an anderem Ort (Luoshi-Berg)",
-  "stops": [
-   "cn-xialong-kormoranfischer-mit-laterne",
-   "cn-yulong-river-countryside",
-   "cn-luoshi-hill-kormoranfischer-mit-laterne"
-  ],
-  "created": "2026-10-15"
- },
- {
   "id": "tgl18",
   "name": "So 18.10. Sonnenaufgang Xianggong Hill · Büffelbauern-Dorf Tianxin · Longji: Dazhai · Sonnenuntergang Ping'an, Übernachtung",
   "stops": [
