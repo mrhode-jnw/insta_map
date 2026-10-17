@@ -341,10 +341,8 @@
   #view button.on { background: var(--fg); color: var(--bg); }
   #view button[data-v="area"] { border-right: 1px solid var(--line); }
   #view button[data-v="area"].on { background: var(--me); color: #fff; }
-  #sortbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 8px; }
-  #sortbar label { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 13px; white-space: nowrap; }
-  #sortbar select { border: 0; border-radius: 10px; background: var(--accent, var(--fg)); color: #fff; font-weight: 600; font-size: 14px;
-    padding: 7px 10px; cursor: pointer; }
+  #sort { flex: none; max-width: 86px; -webkit-appearance: none; appearance: none; text-align: center; border: 0; border-radius: 10px; background: var(--soft, rgba(127,127,127,.12)); color: var(--fg);
+    font-size: 12.5px; font-weight: 600; padding: 8px 8px; cursor: pointer; }
   .tag .new { color: var(--accent, #2563eb); font-weight: 600; }
   #chips2 { display: flex; gap: 6px; overflow-x: auto; padding-top: 6px; scrollbar-width: none; }
   #chips2 button { flex: none; border: 1px solid var(--line); background: transparent; color: var(--fg);
@@ -894,10 +892,10 @@
     <div class="grip"></div>
     <div class="row">
       <input id="search" type="search" placeholder="Orte durchsuchen …" autocomplete="off">
+      <span id="count"></span>
+      <select id="sort" aria-label="Sortierung" title="Sortierung"><option value="auto">↕ Nähe</option><option value="new">↕ Neu</option><option value="upd">↕ Ergänzt</option><option value="prio">↕ Priorität</option><option value="pop">↕ Beliebt</option><option value="area">↕ Viertel</option></select>
       <div id="view"><button data-v="area" title="Nur Spots im Kartenausschnitt" aria-label="Nur Spots im Kartenausschnitt">⌖</button><button data-v="list" class="on" title="Liste" aria-label="Liste">☰</button><button data-v="grid" title="Bilder" aria-label="Bilder">▦</button><button id="inspBtn" title="Inspiration" aria-label="Inspiration">💡</button></div>
     </div>
-    <div id="sortbar"><span id="count"></span><label>↕ Sortieren:
-      <select id="sort" aria-label="Sortierung"><option value="auto">📍 Nähe</option><option value="new">🆕 Neu hinzugefügt</option><option value="prio">● Priorität</option><option value="pop">🔥 Beliebt</option><option value="area">🗺 Viertel</option></select></label></div>
     <div id="chips"></div>
     <div id="chips2">
       <select id="fDone" aria-label="Fotografiert">
@@ -1745,12 +1743,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
   // Hinzugefügt: eigene Spots bringen „created“ mit, alle anderen kommen aus data/added.js (erster Commit je Spot)
-  // ADDED[id] = [Zeit, 1 = Spot neu / 0 = neuer Post an bestehendem Spot]
-  const addedRec = p => p.mine ? [p.created || "", 1] : (window.ADDED || {})[p.id] || ["", 1];
-  const addedAt = p => addedRec(p)[0];
-  const addedLbl = p => { const [a, isNew] = addedRec(p); if (!a) return ""; const d = new Date(a.length <= 16 ? a + "Z" : a);
+  // ADDED[id] = [angelegt, zuletzt ergänzt (neuer Post an bestehendem Spot) oder null]
+  const addedRec = p => p.mine ? [p.created || "", null] : (window.ADDED || {})[p.id] || ["", null];
+  const addedAt = (p, k = 0) => addedRec(p)[k] || "";
+  const addedLbl = (p, k = 0) => { const a = addedAt(p, k); if (!a) return ""; const d = new Date(a.length <= 16 ? a + "Z" : a);
     const t0 = new Date(); t0.setHours(0, 0, 0, 0); const days = Math.ceil((t0 - d) / 864e5);
-    return (days <= 0 ? "heute" : days === 1 ? "gestern" : `${d.getDate()}.${d.getMonth() + 1}.`) + (isNew ? "" : " neuer Post"); };
+    return (k ? "neuer Post " : "neu ") + (days <= 0 ? "heute" : days === 1 ? "gestern" : `${d.getDate()}.${d.getMonth() + 1}.`); };
   $("#area").addEventListener("change", e => { areaF = e.target.value; renderList(); });
   $("#sort").addEventListener("change", e => { sortBy = e.target.value; try { localStorage.setItem("sort", sortBy); } catch {} renderList(); $("#list").scrollTop = 0; });
   const prioF = new Set();
@@ -2535,6 +2533,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       .sort((a, b) => sortBy === "area" ? a._a.localeCompare(b._a, "de") || (routeF ? routeStop(a) - routeStop(b) : 0) || (b.pop || 0) - (a.pop || 0)
         : routeF && sortBy === "auto" ? routeStop(a) - routeStop(b) || (b.pop || 0) - (a.pop || 0)
         : sortBy === "new" ? addedAt(b).localeCompare(addedAt(a)) || a._d - b._d
+        : sortBy === "upd" ? addedAt(b, 1).localeCompare(addedAt(a, 1)) || addedAt(b).localeCompare(addedAt(a)) || a._d - b._d
         : sortBy === "pop" ? (b.pop || 0) - (a.pop || 0) || a._d - b._d
         : sortBy === "prio" ? prioRank(a) - prioRank(b) || a._d - b._d
         : here() ? a._d - b._d : prioRank(a) - prioRank(b));
@@ -2570,7 +2569,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <li data-id="${esc(p.id)}">
         ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
-          ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${sortBy === "new" && addedLbl(p) ? `<span class="new">+ ${addedLbl(p)}</span> · ` : ""}${esc([p.category, p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
+          ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${(sortBy === "new" || sortBy === "upd") && addedLbl(p, sortBy === "upd" ? 1 : 0) ? `<span class="new">${addedLbl(p, sortBy === "upd" ? 1 : 0)}</span> · ` : ""}${esc([p.category, p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
         ${here() ? `<div class="d"><span class="dist">${fmt(p._d)}</span></div>` : ""}
       </li>`).join("")
       : noloc ? "" : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`));
@@ -2673,7 +2672,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Ziehen am Kopfbereich (Griff, Suchzeile, Leerräume)
   let hd = null;
   head.addEventListener("pointerdown", e => {
-    if (!mobile() || e.button > 0 || e.target.closest("button, input, #chips, #chips2, #sortbar")) return;
+    if (!mobile() || e.button > 0 || e.target.closest("button, input, select, #chips, #chips2")) return;
     hd = { y0: e.clientY, moved: false, t: tracker(e.clientY, snapY(sheetSnap)) };
     head.setPointerCapture(e.pointerId);
   });

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Wann kam jeder Spot dazu bzw. zuletzt ein neuer Post? → data/added.js
-(window.ADDED = {id: ["YYYY-MM-DDTHH:MM", 1 = Spot neu | 0 = neuer Post an bestehendem Spot]}).
+(window.ADDED = {id: ["angelegt YYYY-MM-DDTHH:MM", "zuletzt neuer Post" | null]}).
 
 Liest die Git-Geschichte von data/places.js und data/china.js: maßgeblich ist der erste Commit, in dem
 die Spot-ID auftaucht, bzw. der letzte, in dem der Spot einen neuen Instagram-Post bekam. Noch nicht
@@ -63,9 +63,9 @@ def main():
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M")
     for f in FILES:
         take(open(os.path.join(ROOT, f), encoding="utf-8").read(), now)
-    added = {i: [last[i], 0] if i in last else [first[i], 1] for i in first}
+    added = {i: [first[i], last.get(i)] for i in first}
     with open(OUT, "w", encoding="utf-8") as fh:
-        fh.write("// Generiert von tools/build_added.py – je Spot: [Zeit (UTC), 1 = Spot neu / 0 = neuer Post].\n")
+        fh.write("// Generiert von tools/build_added.py – je Spot: [angelegt, zuletzt ergänzt] (UTC).\n")
         fh.write("window.ADDED = " + json.dumps(added, separators=(",", ":")) + ";\n")
     print(f"✔ {len(added)} Spots mit Datum ({len(last)} mit späterem Post) → data/added.js")
 
