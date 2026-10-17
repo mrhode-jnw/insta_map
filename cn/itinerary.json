@@ -651,23 +651,60 @@
   },
   {
    "date": "2026-10-22",
-   "title": "Langde → Kaili",
+   "title": "Langde → Fanjingshan → Fenghuang",
    "status": "Entwurf",
    "items": [
     {
-     "type": "stop",
-     "t": "6:30–8:00",
-     "spot": "claude-cn-langde-upper-miao-village",
-     "plan": true,
-     "light": "sunrise",
-     "lightText": "Sonnenaufgang, Nebel über dem Fluss",
-     "text": "Überblick von der Terrasse oberhalb des Dorfs oder vom Hang gegenüber."
-    },
-    {
      "type": "hotel",
      "name": "Qixi Homestay",
-     "t": "9:30",
+     "t": "5:15",
      "label": "Abfahrt"
+    },
+    {
+     "type": "move",
+     "mode": "car",
+     "text": "im Dunkeln fahren"
+    },
+    {
+     "type": "info",
+     "t": "~8:50",
+     "icon": "🎟",
+     "title": "Fanjingshan Ost-Eingang (梵净山东门)",
+     "plan": true,
+     "lat": 27.879,
+     "lng": 108.779,
+     "text": "Tickets mit Pass am Schalter abholen. Einlass 9:20–9:39 (gebucht)."
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 40,
+     "text": "Bus (ca. 25 Min.) + Seilbahn 10:00–10:19"
+    },
+    {
+     "type": "stop",
+     "t": "10:20–12:30",
+     "spot": "cn-fanjingshan",
+     "plan": true,
+     "light": "day",
+     "lightText": "Vormittag – beste Chance auf Wolkenmeer und freie Sicht",
+     "text": "Gipfelplateau zu Fuß: Pilzfelsen (蘑菇石) und Blick auf den Hongyun Jinding – nicht hinaufsteigen. Oben 10–15 °C kälter: Jacke."
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 45,
+     "text": "Seilbahn + Bus hinunter"
+    },
+    {
+     "type": "info",
+     "t": "~13:30",
+     "icon": "🚗",
+     "title": "Abfahrt am Ost-Eingang",
+     "lat": 27.879,
+     "lng": 108.779,
+     "light": "midday",
+     "lightText": "Mittag – fahren"
     },
     {
      "type": "move",
@@ -675,87 +712,91 @@
     },
     {
      "type": "hotel",
-     "name": "Leli Villa Designer",
-     "t": "~10:30",
-     "label": "Ankunft Kaili"
+     "name": "Fenghuang – Hotel noch buchen",
+     "t": "~15:20",
+     "label": "Ankunft, einchecken"
     },
     {
      "type": "move",
-     "mode": "car",
-     "opt": true
+     "mode": "walk",
+     "min": 5
     },
     {
      "type": "stop",
-     "t": "17:00–19:00",
-     "spot": "claude-cn-xiasi-ancient-town",
-     "opt": true,
+     "t": "17:10–18:45",
+     "spot": "cn-fenghuang-ancient-town",
+     "plan": true,
      "light": "blue",
-     "lightText": "goldene Stunde → blaue Stunde",
-     "text": "Ming-zeitlicher Flusshafen: Uferpromenade, beleuchtete Wind-und-Regen-Brücke zur Dämmerung."
+     "lightText": "goldene Stunde → Sonnenuntergang ~18:05 → blaue Stunde",
+     "text": "Stelzenhäuser am Tuo-Fluss; Hauptmotiv sind die Lichter, wenn sie angehen. Stativ."
     },
     {
      "type": "move",
-     "mode": "car",
-     "opt": true
+     "mode": "walk",
+     "min": 5
     },
     {
      "type": "hotel",
-     "name": "Leli Villa Designer",
-     "t": "~19:30",
-     "opt": true
+     "name": "Fenghuang – Hotel noch buchen"
     },
     {
      "type": "info",
      "icon": "🔀",
      "opt": true,
-     "title": "Variante: Fanjingshan & Fenghuang statt Kaili",
-     "text": "5 Uhr ab Langde → Fanjingshan (Seilbahn, vormittags) → abends Fenghuang mit den Lichtern am Fluss, Übernachtung dort; 23.10. früh Zug ab Fenghuang → Zhangjiajie ~10 Uhr. Dafür Leli Villa stornieren.",
-     "spots": [
-      "cn-fanjingshan",
-      "cn-fenghuang-ancient-town"
-     ]
+     "title": "Plan B bei Nebel am Gipfel (Entscheidung 21.10. abends)",
+     "text": "Langde morgens im Nebel fotografieren → Auto nach Kaili Süd (40 Min.) → Zug nach Fenghuang Gucheng → abends Fenghuang. Fanjingshan-Tickets stornieren."
     }
    ]
   },
   {
    "date": "2026-10-23",
-   "title": "Kaili → Zhangjiajie",
+   "title": "Fenghuang → Zhangjiajie",
    "status": "Entwurf",
    "items": [
     {
+     "type": "stop",
+     "t": "6:15–7:45",
+     "spot": "cn-fenghuang-ancient-town",
+     "plan": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang 6:46, Dunst über dem Fluss",
+     "text": "Gassen und Ufer noch leer."
+    },
+    {
      "type": "hotel",
-     "name": "Leli Villa Designer",
-     "t": "~8:00",
+     "name": "Fenghuang – Hotel noch buchen",
+     "t": "~11:30",
      "label": "Check-out"
     },
     {
      "type": "move",
      "mode": "car",
-     "text": "5 Min. zum Bahnhof"
+     "text": "Taxi (Autos kommen nicht bis an die Hotels)"
     },
     {
      "type": "info",
-     "t": "~8:30",
+     "t": "12:43",
      "icon": "🚄",
-     "title": "Bahnhof Kaili Süd",
-     "text": "Schnellzug nach Zhangjiajie West, Umstieg in Huaihua Süd – Verbindung in Trip.com wählen.",
+     "title": "Bahnhof Fenghuang Gucheng (凤凰古城站) – Zug G6174",
      "plan": true,
-     "lat": 26.5177,
-     "lng": 107.8838
+     "lat": 27.9826,
+     "lng": 109.5737,
+     "text": "Mind. 30 Min. vorher da sein (Pass- und Sicherheitskontrolle). Ausweichzüge: G6058 13:07, G222 13:26."
     },
     {
      "type": "move",
      "mode": "train",
-     "min": 180,
-     "text": "ca. 3 h mit Umstieg"
+     "min": 59,
+     "text": "G6174, an 13:42"
     },
     {
      "type": "info",
-     "t": "~11:30",
+     "t": "13:42",
      "icon": "🚄",
      "title": "Zhangjiajie West",
      "lat": 29.1714,
-     "lng": 110.458
+     "lng": 110.458,
+     "text": "Vorbestelltes Auto für ca. 13:50."
     },
     {
      "type": "move",
@@ -764,8 +805,8 @@
     {
      "type": "hotel",
      "name": "Zhangjiajie YOLO Resort",
-     "t": "~13:00",
-     "label": "Check-in ab 13 Uhr"
+     "t": "~15:10",
+     "label": "Check-in"
     }
    ]
   }
@@ -788,6 +829,16 @@
     "images/hotels/langde-qixi_1.jpg",
     "images/hotels/langde-qixi_2.jpg"
    ]
+  },
+  "Fenghuang – Hotel noch buchen": {
+   "name": "Fenghuang – Hotel noch buchen",
+   "zh": "凤凰古城",
+   "lat": 27.9509,
+   "lng": 109.5998,
+   "address": "Altstadt Fenghuang, Hunan – Tipp: Fenghuang Ancient Town Boutique Hotel (Balkon zum Fluss)",
+   "dates": "22.–23. Okt. (1 Nacht)",
+   "room": "",
+   "booked": false
   }
  }
 }
