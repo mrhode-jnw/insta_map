@@ -1745,10 +1745,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
   // Hinzugefügt: eigene Spots bringen „created“ mit, alle anderen kommen aus data/added.js (erster Commit je Spot)
-  const addedAt = p => (p.mine ? p.created : (window.ADDED || {})[p.id]) || "";
-  const addedLbl = p => { const a = addedAt(p); if (!a) return ""; const d = new Date(a.length <= 16 ? a + "Z" : a);
-    const days = Math.floor((Date.now() - d) / 864e5);
-    return days < 1 ? "heute" : days < 2 ? "gestern" : `${d.getDate()}.${d.getMonth() + 1}.`; };
+  // ADDED[id] = [Zeit, 1 = Spot neu / 0 = neuer Post an bestehendem Spot]
+  const addedRec = p => p.mine ? [p.created || "", 1] : (window.ADDED || {})[p.id] || ["", 1];
+  const addedAt = p => addedRec(p)[0];
+  const addedLbl = p => { const [a, isNew] = addedRec(p); if (!a) return ""; const d = new Date(a.length <= 16 ? a + "Z" : a);
+    const t0 = new Date(); t0.setHours(0, 0, 0, 0); const days = Math.ceil((t0 - d) / 864e5);
+    return (days <= 0 ? "heute" : days === 1 ? "gestern" : `${d.getDate()}.${d.getMonth() + 1}.`) + (isNew ? "" : " neuer Post"); };
   $("#area").addEventListener("change", e => { areaF = e.target.value; renderList(); });
   $("#sort").addEventListener("change", e => { sortBy = e.target.value; try { localStorage.setItem("sort", sortBy); } catch {} renderList(); $("#list").scrollTop = 0; });
   const prioF = new Set();
