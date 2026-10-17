@@ -315,6 +315,8 @@ def main():
     if unresolved:
         print(f"⚠ {len(unresolved)} Einträge ohne Koordinaten → data/unresolved.json "
               f"(per data/overrides.json nachtragen)")
+    import build_added
+    build_added.main()  # Hinzugefügt-Datum je Spot für „Neu hinzugefügt“
 
 
 if __name__ == "__main__":

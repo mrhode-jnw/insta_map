@@ -341,6 +341,14 @@
   #view button.on { background: var(--fg); color: var(--bg); }
   #view button[data-v="area"] { border-right: 1px solid var(--line); }
   #view button[data-v="area"].on { background: var(--me); color: #fff; }
+  #sortbar { display: flex; align-items: center; gap: 4px; margin-top: 8px; padding: 3px; border-radius: 12px; background: var(--soft, rgba(127,127,127,.12));
+    overflow-x: auto; scrollbar-width: none; }
+  #sortbar::-webkit-scrollbar { display: none; }
+  #sortbar span { flex: none; padding: 0 4px 0 6px; color: var(--muted); font-size: 13px; }
+  #sortbar button { flex: 1 0 auto; border: 0; background: transparent; color: var(--fg); border-radius: 9px; padding: 6px 9px;
+    font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap; }
+  #sortbar button.on { background: var(--accent, var(--fg)); color: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.25); }
+  .tag .new { color: var(--accent, #2563eb); font-weight: 600; }
   #chips2 { display: flex; gap: 6px; overflow-x: auto; padding-top: 6px; scrollbar-width: none; }
   #chips2 button { flex: none; border: 1px solid var(--line); background: transparent; color: var(--fg);
     border-radius: 999px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
@@ -892,6 +900,7 @@
       <span id="count"></span>
       <div id="view"><button data-v="area" title="Nur Spots im Kartenausschnitt" aria-label="Nur Spots im Kartenausschnitt">⌖</button><button data-v="list" class="on" title="Liste" aria-label="Liste">☰</button><button data-v="grid" title="Bilder" aria-label="Bilder">▦</button><button id="inspBtn" title="Inspiration" aria-label="Inspiration">💡</button></div>
     </div>
+    <div id="sortbar" role="radiogroup" aria-label="Sortierung"><span>↕</span><button data-s="auto">📍 Nähe</button><button data-s="new">🆕 Neu</button><button data-s="prio">● Priorität</button><button data-s="pop">🔥 Beliebt</button><button data-s="area">🗺 Viertel</button></div>
     <div id="chips"></div>
     <div id="chips2">
       <select id="fDone" aria-label="Fotografiert">
@@ -906,12 +915,6 @@
       </select>
       <select id="fMore" aria-label="Auswahl">
         <option value="">✨ Alle Spots</option><option value="fav">❤️ Favoriten</option><option value="pop">🔥 Beliebte</option><option value="trash">🗑 Gelöschte</option>
-      </select>
-      <select id="sort" aria-label="Sortierung">
-        <option value="auto">Sortierung: Entfernung</option>
-        <option value="prio">Sortierung: Priorität</option>
-        <option value="pop">Sortierung: Beliebtheit</option>
-        <option value="area">Sortierung: Viertel</option>
       </select>
       <select id="area" aria-label="Viertel"><option value="">Alle Viertel</option></select>
     </div>
@@ -1021,7 +1024,7 @@
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
   const v = Date.now();
-  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script>`);
+  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script><script src="data/added.js?v=${v}"><\/script>`);
 </script>
 <script src="crypto.js"></script>
 <script>
@@ -1743,9 +1746,16 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto";
   let whenF = null;  // ☀️ Tag / 🌙 Nacht (p.when aus tools/daynight.py; „both“ passt zu beidem)
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
-  $("#sort").value = sortBy;
+  const syncSort = () => $("#sortbar").querySelectorAll("button").forEach(b => { b.classList.toggle("on", b.dataset.s === sortBy); b.setAttribute("aria-checked", b.dataset.s === sortBy); });
+  syncSort();
+  // Hinzugefügt: eigene Spots bringen „created“ mit, alle anderen kommen aus data/added.js (erster Commit je Spot)
+  const addedAt = p => (p.mine ? p.created : (window.ADDED || {})[p.id]) || "";
+  const addedLbl = p => { const a = addedAt(p); if (!a) return ""; const d = new Date(a.length <= 16 ? a + "Z" : a);
+    const days = Math.floor((Date.now() - d) / 864e5);
+    return days < 1 ? "heute" : days < 2 ? "gestern" : `${d.getDate()}.${d.getMonth() + 1}.`; };
   $("#area").addEventListener("change", e => { areaF = e.target.value; renderList(); });
-  $("#sort").addEventListener("change", e => { sortBy = e.target.value; try { localStorage.setItem("sort", sortBy); } catch {} renderList(); });
+  $("#sortbar").addEventListener("click", e => { const b = e.target.closest("button[data-s]"); if (!b) return;
+    sortBy = b.dataset.s; try { localStorage.setItem("sort", sortBy); } catch {} syncSort(); renderList(); $("#list").scrollTop = 0; });
   const prioF = new Set();
   // Filter als Auswahlfelder: Fotografiert · Priorität · Auswahl (Favoriten/Beliebt/Gelöscht); Auswahl bleibt gespeichert
   try { if (localStorage.getItem("hideDone") === "1" && !localStorage.getItem("fDone")) localStorage.setItem("fDone", "open"); } catch {}  // frühere Einstellung übernehmen
@@ -2527,6 +2537,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     items = items.map(p => ({ ...p, _d: here() ? dist(me, p) : 0, _a: areaOf(p) }))
       .sort((a, b) => sortBy === "area" ? a._a.localeCompare(b._a, "de") || (routeF ? routeStop(a) - routeStop(b) : 0) || (b.pop || 0) - (a.pop || 0)
         : routeF && sortBy === "auto" ? routeStop(a) - routeStop(b) || (b.pop || 0) - (a.pop || 0)
+        : sortBy === "new" ? addedAt(b).localeCompare(addedAt(a)) || a._d - b._d
         : sortBy === "pop" ? (b.pop || 0) - (a.pop || 0) || a._d - b._d
         : sortBy === "prio" ? prioRank(a) - prioRank(b) || a._d - b._d
         : here() ? a._d - b._d : prioRank(a) - prioRank(b));
@@ -2562,7 +2573,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <li data-id="${esc(p.id)}">
         ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
-          ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${esc([p.category, p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
+          ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${sortBy === "new" && addedLbl(p) ? `<span class="new">+ ${addedLbl(p)}</span> · ` : ""}${esc([p.category, p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
         ${here() ? `<div class="d"><span class="dist">${fmt(p._d)}</span></div>` : ""}
       </li>`).join("")
       : noloc ? "" : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`));
@@ -2665,7 +2676,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Ziehen am Kopfbereich (Griff, Suchzeile, Leerräume)
   let hd = null;
   head.addEventListener("pointerdown", e => {
-    if (!mobile() || e.button > 0 || e.target.closest("button, input, #chips, #chips2")) return;
+    if (!mobile() || e.button > 0 || e.target.closest("button, input, #chips, #chips2, #sortbar")) return;
     hd = { y0: e.clientY, moved: false, t: tracker(e.clientY, snapY(sheetSnap)) };
     head.setPointerCapture(e.pointerId);
   });

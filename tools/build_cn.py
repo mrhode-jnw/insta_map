@@ -180,3 +180,6 @@ with open(OUT, "w", encoding="utf-8") as f:
 
 print(f"✔ {len(places)} China-Spots, {len(unplaced)} Posts ohne Ort → data/china.js")
 print("Ohne eigenes Foto:", [p["name"] for p in places if not p["image"]])
+
+import build_added  # noqa: E402
+build_added.main()  # Hinzugefügt-Datum je Spot für „Neu hinzugefügt“

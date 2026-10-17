@@ -245,3 +245,6 @@ print(f"Spots ohne eigenes Foto (nur Sammel-Post): {len(nophoto)}")
 missing = [p["url"] for p in posts.values() if not p["image"]]
 if missing:
     print(f"⚠ {len(missing)} Posts ohne Bild (erneut ausführen):", *missing, sep="\n  ")
+
+import build_added  # noqa: E402
+build_added.main()  # Hinzugefügt-Datum je Spot für „Neu hinzugefügt“
