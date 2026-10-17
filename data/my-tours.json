@@ -106,5 +106,56 @@
    "cn-fenghuang-ancient-town"
   ],
   "created": "2026-10-18"
+ },
+ {
+  "id": "tzj24",
+  "name": "Sa 24.10. (Vorschlag) Sonnenaufgang Yuanjiajie: Mihun Tai · Hallelujah Mountain · First Bridge – abends Tianzi: Helong Park · Imperial Brush · Sonnenuntergang Xihai",
+  "stops": [
+   "claude-cn-mihun-tai-enchanting-terrace",
+   "claude-cn-avatar-hallelujah-mountain",
+   "claude-cn-first-bridge-under-heaven",
+   "claude-cn-helong-park",
+   "claude-cn-imperial-brush-peaks",
+   "claude-cn-xihai-stone-forest"
+  ],
+  "created": "2026-10-18"
+ },
+ {
+  "id": "tzj25",
+  "name": "So 25.10. (Vorschlag) Sonnenaufgang Yangjiajie Tianbo Mansion – mittags Bailong-Lift · Golden Whip Stream",
+  "stops": [
+   "claude-cn-yangjiajie-tianbo-mansion",
+   "claude-cn-bailong-elevator",
+   "claude-cn-golden-whip-stream"
+  ],
+  "created": "2026-10-18"
+ },
+ {
+  "id": "tzj26",
+  "name": "Mo 26.10. (Vorschlag) Sonnenaufgang Mihun Tai – optional Tianmen Mountain vor der Weiterreise",
+  "stops": [
+   "claude-cn-mihun-tai-enchanting-terrace",
+   "claude-cn-tianmen-cave-999-steps",
+   "claude-cn-coiling-dragon-cliff-glass-skywalk"
+  ],
+  "created": "2026-10-18"
+ },
+ {
+  "id": "tzjall",
+  "name": "Zhangjiajie 24.–26.10. – Vorschlag Claude (Übernachtung YOLO Resort im Park)",
+  "stops": [
+   "claude-cn-mihun-tai-enchanting-terrace",
+   "claude-cn-avatar-hallelujah-mountain",
+   "claude-cn-first-bridge-under-heaven",
+   "claude-cn-helong-park",
+   "claude-cn-imperial-brush-peaks",
+   "claude-cn-xihai-stone-forest",
+   "claude-cn-yangjiajie-tianbo-mansion",
+   "claude-cn-bailong-elevator",
+   "claude-cn-golden-whip-stream",
+   "claude-cn-tianmen-cave-999-steps",
+   "claude-cn-coiling-dragon-cliff-glass-skywalk"
+  ],
+  "created": "2026-10-18"
  }
 ]
