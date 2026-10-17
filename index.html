@@ -363,6 +363,11 @@
   #list.grid li.gi .cap2 { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 8px 6px; color: #fff; font-size: 13px; font-weight: 600;
     background: linear-gradient(transparent, rgba(0,0,0,.75)); line-height: 1.25; }
   #list.grid li.gi .cap2 small { display: block; font-weight: 400; opacity: .85; }
+  #list .th { position: relative; flex: none; display: block; line-height: 0; }
+  #list .sleep { position: absolute; left: 4px; bottom: 4px; display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%;
+    background: rgba(0,0,0,.65); color: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
+  #list.grid li.gi .sleep { left: auto; right: 8px; bottom: auto; top: 8px; width: 30px; height: 30px; }
+  #list.grid li.gi .sleep svg { width: 17px; height: 17px; }
   #list.grid li.gi .badge { position: absolute; top: 6px; left: 6px; display: flex; gap: 4px; }
   #list.grid li.gi .badge > span { background: rgba(0,0,0,.6); color: #fff; border-radius: 999px; padding: 1px 7px; font-size: 11px; }
   #list.grid li.gi.done img { filter: grayscale(.6); }
@@ -1586,6 +1591,20 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   drawTour();
   // Unsere Unterkünfte (approx = Lage nur ungefähr bekannt, Ort/Dorf stimmt)
   const HOTELS = window.TRIP.hotels;
+  // Übernachtungsorte: je Hotel das nächste Dorf/Altstadt-Spot (≤ 1 km) → Hotel-Icon über dem Bild in der Liste
+  const SLEEP_RE = /village|ancient|old town|dorf|古城|寨|村/i;
+  let sleepMap = null, sleepN = -1;
+  const sleepAt = p => {
+    if (sleepN !== places.length) {
+      sleepMap = new Map(); sleepN = places.length;
+      HOTELS.forEach(h => { let best = null, bd = 1000;
+        places.forEach(q => { if (q.noloc || !q.lat || !SLEEP_RE.test(q.name)) return; const d = dist(h, q); if (d < bd) { bd = d; best = q; } });
+        if (best) sleepMap.set(best.id, h); });
+    }
+    return sleepMap.get(p.id);
+  };
+  const BED_SVG = `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4v16M2 8h18a2 2 0 0 1 2 2v10M2 17h20M6 8v9"/><circle cx="6.5" cy="11.5" r="1.5" fill="currentColor"/></svg>`;
+  const sleepBadge = p => { const h = sleepAt(p); return h ? `<span class="sleep" title="Übernachtung: ${esc(h.name)} · ${esc((h.dates || "").split(" · ")[0])}">${BED_SVG}</span>` : ""; };
   const hotelIcon = L.divIcon({ className: "", iconSize: [24, 24], iconAnchor: [12, 12], popupAnchor: [0, -12],
     html: '<div class="hotel-pin" title="Hotel">🏨</div>' });
   const farZoom = () => map.getContainer().classList.toggle("zoom-far", map.getZoom() < 10);
@@ -2562,7 +2581,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (view === "grid") {
       setList(noloc + (items.length ? items.map((p, i) => { const s = st(p.id); return `${head(p, i)}
         <li class="gi${s.done ? " done" : ""}" data-id="${esc(p.id)}">
-          ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}
+          ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}${sleepBadge(p)}
           <div class="badge">${s.fav ? "<span class=\"fav-badge\">❤</span>" : ""}${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
           <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : ""].filter(Boolean).join(" · "))}${here() ? ` · <span class="dist">${fmt(p._d)}</span>` : ""}</small></div>
         </li>`; }).join("") : noloc ? "" : `<li id="empty">Keine Treffer.</li>`));
@@ -2570,7 +2589,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     }
     setList(noloc + (items.length ? items.map((p, i) => `${head(p, i)}
       <li data-id="${esc(p.id)}">
-        ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}
+        <span class="th">${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}${sleepBadge(p)}</span>
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
           ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${(sortBy === "new" || sortBy === "upd") && addedLbl(p, sortBy === "upd" ? 1 : 0) ? `<span class="new">${addedLbl(p, sortBy === "upd" ? 1 : 0)}</span> · ` : ""}${esc([p.category, p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
         ${here() ? `<div class="d"><span class="dist">${fmt(p._d)}</span></div>` : ""}
