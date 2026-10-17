@@ -119,5 +119,12 @@
    "path": "uploads/claude-cn-dali-dong-village/1792275993477_0.jpg",
    "added": "2026-10-17T22:26:33.477Z"
   }
+ ],
+ "claude-cn-zhanli-dong-village": [
+  {
+   "type": "photo",
+   "path": "uploads/claude-cn-zhanli-dong-village/1792276302668_0.jpg",
+   "added": "2026-10-17T22:31:42.668Z"
+  }
  ]
 }
