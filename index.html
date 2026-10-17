@@ -1371,14 +1371,16 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const tourById = id => allTours().find(t => t.id === id);
   const shortName = n => n.replace(/\s*[　-鿿].*$/, "").replace(/\s*[–(].*$/, "").trim() || n;
   const tourStops = t => t.builtin ? t.stops : t.stops.map(id => places.find(p => p.id === id)).filter(Boolean)
-    .map((p, i) => ({ n: i + 1, name: shortName(p.name), lat: p.lat, lng: p.lng, id: p.id }));
+    .map((p, i) => ({ n: i + 1, name: shortName(p.name), lat: p.lat, lng: p.lng, id: p.id, access: p.access }));
   // Spot-IDs einer Tour; feste Touren haben nur Koordinaten → nächster Spot im Umkreis von 40 m
   const tourIds = t => [...new Set(tourStops(t).map(st => st.id || (() => { let b = null, bd = 40;
     for (const p of places) { const d = dist(st, p); if (d < bd) { bd = d; b = p; } } return b && b.id; })()).filter(Boolean))];
   const meters = (a, b) => dist({ lat: a.lat, lng: a.lng }, { lat: b.lat, lng: b.lng });
   // Stadt-Tour (alle Etappen ≤ 2,5 km Luftlinie) → zu Fuß; sonst (Land, Ausflüge) → Auto
   const tourMode = stops => stops.every((s, i) => !i || meters(stops[i - 1], s) <= 2500) ? "walk" : "car";
-  const routeKey = stops => (tourMode(stops) === "walk" ? "L:" : "C:") + stops.map(s => s.lat.toFixed(5) + "," + s.lng.toFixed(5)).join(";");  // L: Fußweg, C: Auto je Etappe
+  // Autotour: Spots mit Zugang (z. B. Berg mit Seilbahn) werden über ihren Eingang angefahren
+  const routePt = (s, mode) => mode === "car" && s.access ? s.access : s;
+  const routeKey = stops => { const m = tourMode(stops); return (m === "walk" ? "L:" : "C:") + stops.map(s => { const r = routePt(s, m); return r.lat.toFixed(5) + "," + r.lng.toFixed(5); }).join(";"); };  // L: Fußweg, C: Auto je Etappe
   const legIcon = sg => sg.mode === "walk" ? "🚶" : sg.mode === "car" ? "🚗" : "🚕";
   function tourStats(t) {
     const stops = tourStops(t);
@@ -1428,6 +1430,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (segs) segs.forEach(sg => { const pt = midOf(sg.path); if (!pt || !sg.min) return;
       parts.push(L.marker(pt, { interactive: false, zIndexOffset: 1500, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
         html: `<div class="leg-time${sg.mode === "taxi" ? " taxi" : ""}">${legIcon(sg)} ${sg.min}′</div>` }) })); });
+    // vom Eingang zum Spot (Bus/Seilbahn/Fußweg) gestrichelt
+    if (!t.builtin && tourMode(stops) === "car") stops.forEach(st => { if (!st.access) return;
+      parts.push(L.polyline([[st.access.lat, st.access.lng], [st.lat, st.lng]], { color: "#475569", weight: 4, opacity: .8, dashArray: "4 8", interactive: false }));
+      parts.push(L.marker([st.access.lat, st.access.lng], { interactive: false, zIndexOffset: 1500, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
+        html: `<div class="leg-time">${esc(st.access.label || "Eingang")}</div>` }) })); });
     stops.forEach(st => {
       if (st.view != null) parts.push(L.polyline([[st.lat, st.lng], ray([st.lat, st.lng], st.view, 30)], { color: "#2563eb", weight: 4, opacity: .95, interactive: false }));
       parts.push(L.marker([st.lat, st.lng], { interactive: false, zIndexOffset: 2000, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
@@ -1440,7 +1447,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const key = routeKey(stops), mode = tourMode(stops);
     if (tourRoutes[key]) return true;
     try {
-      const r = await fetch(`https://routing.openstreetmap.de/routed-${mode === "walk" ? "foot" : "car"}/route/v1/driving/${stops.map(s => s.lng + "," + s.lat).join(";")}?overview=false&steps=true&geometries=geojson`);
+      const r = await fetch(`https://routing.openstreetmap.de/routed-${mode === "walk" ? "foot" : "car"}/route/v1/driving/${stops.map(s => { const r = routePt(s, mode); return r.lng + "," + r.lat; }).join(";")}?overview=false&steps=true&geometries=geojson`);
       const j = await r.json(); const rt = j.routes && j.routes[0]; if (!rt) return false;
       // eine Etappe je Stopp-Paar, damit die Gehzeit zwischen zwei Spots auf der Karte stehen kann
       tourRoutes[key] = rt.legs.map(l => ({ mode, m: Math.round(l.distance), min: Math.max(1, Math.round(l.duration / 60)),

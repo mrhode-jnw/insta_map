@@ -159,6 +159,12 @@ for p in places:
     if p.get("by_claude") and any("instagram.com" in x["url"] for x in extra):
         p["by_claude"] = False
 
+# Zugang für Autorouten (cn/access.json): Eingang/Parkplatz, wenn der Spot selbst nicht per Auto erreichbar ist
+_access = bp.load_json(os.path.join(ROOT, "cn", "access.json"), {})
+for p in places:
+    if p["id"] in _access:
+        p["access"] = _access[p["id"]]
+
 # Tag/Nacht für den Filter (Korrekturen in hk/daynight.json)
 import daynight  # noqa: E402
 daynight.tag_all(places)

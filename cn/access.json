@@ -1,0 +1,4 @@
+{
+ "_doc": "Zugang für Autorouten in Touren: Spot-ID → Parkplatz/Eingang. Die Autoroute endet dort, von da gestrichelt (Bus/Seilbahn/Fußweg) zum Spot.",
+ "cn-fanjingshan": {"lat": 27.879, "lng": 108.779, "label": "Ost-Eingang · Bus + Seilbahn"}
+}

@@ -918,7 +918,12 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "UNESCO-Welterbe, ikonische Felsnadel",
-  "when": "day"
+  "when": "day",
+  "access": {
+   "lat": 27.879,
+   "lng": 108.779,
+   "label": "Ost-Eingang · Bus + Seilbahn"
+  }
  },
  {
   "id": "cn-wujiang-village",
