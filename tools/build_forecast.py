@@ -56,9 +56,12 @@ def haze(vis_km, pm25, rh):
     return s, ("klar" if s == 0 else "leicht diesig" if s <= 2 else "diesig" if s <= 4 else "sehr diesig / Nebel")
 
 
-def sky(light, low, mid, high, total, rain):
+def sky(light, low, mid, high, total, rain, rh=None, hilly=False):
     if rain and rain >= 1:
         return "Regen"
+    # tiefe Wolken bei gesättigter Luft im Bergland: Nebel im Tal bzw. Wolkenmeer – von oben oft das beste Motiv
+    if hilly and low is not None and low >= 70 and (rh or 0) >= 92 and (mid or 0) < 50:
+        return "Nebel/Wolkenmeer wahrscheinlich – vom höchsten Aussichtspunkt fotografieren"
     if light in ("sunrise", "sunset", "dawn", "blue", "golden"):
         if low is not None and low >= 70:
             return "tiefe Wolkendecke – wenig Farbe"
@@ -106,6 +109,7 @@ def main():
     if isinstance(aq, dict):
         aq = [aq]
     for k, w, a in zip(keys, wx, aq):
+        w["hourly"]["_elev"] = w.get("elevation")  # Höhe der Modellzelle: Bergland → Nebel/Wolkenmeer statt „Wolkendecke“
         locs[k] = (w["hourly"], a["hourly"])
     for date, h, light, spot, la, ln in stops:
         w, a = locs[(round(la / .05) * .05, round(ln / .05) * .05)]
@@ -122,6 +126,10 @@ def main():
         rain = w["precipitation"][i]
         if date in out["stops"].get(spot, {}):  # zweimal am selben Tag: der erste Besuch zählt
             continue
+        sk = sky(light, w["cloud_cover_low"][i], w["cloud_cover_mid"][i], w["cloud_cover_high"][i], w["cloud_cover"][i], rain,
+                 w["relative_humidity_2m"][i], (w.get("_elev") or 0) >= 400)
+        if sk.startswith("Nebel/Wolkenmeer"):
+            score, htxt = 2, "Nebel im Tal möglich"
         out["stops"].setdefault(spot, {})[date] = {
             "h": h, "code": w["weather_code"][i], "temp": round(w["temperature_2m"][i]),
             "cloud": w["cloud_cover"][i], "low": w["cloud_cover_low"][i], "mid": w["cloud_cover_mid"][i], "high": w["cloud_cover_high"][i],
@@ -129,7 +137,7 @@ def main():
             "wind": round(w["wind_speed_10m"][i]), "vis": vis_km,
             "aqi": round(aqi) if aqi is not None else None, "pm25": round(pm) if pm is not None else None,
             "haze": score, "hazeText": htxt,
-            "sky": sky(light, w["cloud_cover_low"][i], w["cloud_cover_mid"][i], w["cloud_cover_high"][i], w["cloud_cover"][i], rain),
+            "sky": sk,
         }
     json.dump(out, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
     n = sum(len(v) for v in out["stops"].values())
