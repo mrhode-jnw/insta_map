@@ -34,6 +34,9 @@ POSTS = {
  70: ("ambri92", "p", "Dcym0q6DYf9"),
  71: ("didigu78", "p", "DP3kTE1jU_g"), 72: ("intohimoni", "p", "DVVu4dPCCqv"), 73: ("janjanuary30", "p", "DaXqsjFTAgj"),
  74: ("yantastic", "p", "B0YLfiPg1dy"), 75: ("wiwa_b", "p", "DKHIzkJRsiS"),
+ 76: ("rkrkrk", "p", "DGVYjm7TBQV"), 77: ("the_outsiders_travel", "p", "DXTYINCj5Up"),
+ 78: ("earth", "p", "B6V7Lt_nDE4"), 79: ("hwang199", "p", "CD9EfPrDkhv"),
+ 80: ("jasmine_pirsch", "p", "DLSu0tJtSX5"), 81: ("amigosdechina", "p", "CU6wNZfoSMT"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -51,13 +54,15 @@ SPOTS = [
   [(30, 4), 10, 33], "Stelzenhäuser am Tuo-Fluss, abends beleuchtet."),
  # Guizhou
  ("Xijiang Qianhu Miao Village 西江千户苗寨", 26.4955, 108.1702, False, "Leishan, Guizhou", "Dorf",
-  [2, (21, 5), (61, 6), (62, 1), 63, (75, 3), (75, 4), (75, 5), (75, 6)], "Größtes Miao-Dorf: Holz-Stelzenhäuser am Hang; Aussichtspunkte oberhalb."),
+  [2, (21, 5), (61, 6), (62, 1), 63, (75, 3), (75, 4), (75, 5), (75, 6), (76, 1), (76, 2), (76, 4), (76, 5), (76, 6), (76, 7), 79], "Größtes Miao-Dorf: Holz-Stelzenhäuser am Hang; Aussichtspunkte oberhalb."),
+ ("Jiabang Rice Terraces 加榜梯田", 25.6011, 108.5919, True, "Congjiang, Guizhou", "Natur",
+  [(77, 1), (77, 2), (77, 3), (77, 4), (77, 5), (77, 6), (77, 7), (77, 8), (77, 9)], "Reisterrassen der Miao an steilen Hängen (600–1.400 m) bei Congjiang, GIAHS-Agrarerbe, weniger überlaufen als Longji. Beste Zeit: April–Mai (Wasser in den Terrassen, Spiegelungen) oder Sept.–Okt. (goldene Ernte). Ab Kaili ca. 3 Std. Bus. Pin = Mitte des OSM-Gebiets 加榜梯田 (ungefähr)."),
  ("Fenglin Buyi / Wanfenglin 峰林布依 · 万峰林", 25.0170, 104.9211, True, "Xingyi, Guizhou", "Natur",
   [3, 69, (67, 3), (68, 18)], "Pagodendorf am grünen Fluss zwischen Karstkegeln."),
  ("Jilong Castle 吉隆堡", 24.920389, 105.013147, False, "Xingyi, Guizhou", "Architektur",
   [28], "Märchenschloss-Hotel zwischen Karstbergen."),
  ("Fanjingshan 梵净山", 27.9100, 108.6917, False, "Tongren, Guizhou", "Tempel",
-  [26, (67, 4), (68, 4)], "Zwei Tempel auf der Felsnadel „Red Clouds Golden Summit“; ca. 9.000 Stufen (Seilbahn bis fast oben)."),
+  [26, (67, 4), (68, 4), (78, 1), (78, 2), (78, 3), (80, 1), (80, 2), (80, 3), (80, 4), (80, 5), (80, 6), (80, 7), (80, 8), (80, 9), (80, 10), (80, 11), (80, 12), (80, 13), (80, 14), (80, 15), (80, 16), (80, 17), (80, 18), (80, 19), (80, 20), (81, 1), (81, 2), (81, 3), (81, 4), (81, 5)], "Zwei Tempel auf der Felsnadel „Red Clouds Golden Summit“; ca. 9.000 Stufen (Seilbahn bis fast oben)."),
  ("Wujiang Village 乌江寨", 27.4496, 106.8363, True, "Bozhou, Zunyi, Guizhou", "Dorf",
   [(64, 4), (65, 2), (66, 1)], "Wiederaufgebautes Dorf am Wujiang-Fluss (Wujiang Village International Tourism Resort) im Norden Guizhous: Stelzenhäuser am Wasser, Ruderboote, Trittsteine über den Fluss, Bambusfloß-Tänze. Abends beleuchtete Pagode und Drohnen-/Feuershows („Phoenix“), Platz an der Huilong-Insel. Handwerk (Papier, Batik, Miao-Silber) zum Mitmachen. Pin am Bahnhof 乌江寨 (ungefähr)."),
  # Guangxi
@@ -225,6 +230,7 @@ POP = {
  "Furong": (4, "Wasserfall-Dorf, viral in sozialen Medien"),
  "Fenghuang": (5, "Berühmteste Altstadt Westhunans"),
  "Wujiang Village": (3, "Neues Resort-Dorf, auf Xiaohongshu beliebt"),
+ "Jiabang": (3, "Reisterrassen in Guizhou, bei Fotografen bekannt"),
  "Xijiang": (5, "Größtes Miao-Dorf, in allen Guizhou-Guides"),
  "Fenglin": (3, "Bei Fotografen bekannte Karstlandschaft"),
  "Jilong": (3, "Viral gewordenes Schloss-Hotel"),

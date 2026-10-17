@@ -255,7 +255,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hen_uoc_trunghoa/",
     "kind": "p",
     "image": "images/CeNNAJXJg_a_1.jpg",
-    "caption": "",
+    "caption": "📍西江千户苗寨 - Xijiang Miao Village\n西江千户苗寨在半山建造独具特色的木结构吊脚楼，千余户吊脚楼随着地形的起伏变化，层峦叠嶂，鳞次栉比，蔚为壮观。西江千户苗寨是一座露天博物馆，展览着一部苗族发展史诗，成为观赏和研究苗族传统文化的大看台。\n\n#henuoctrunghoa\n\nTây Giang Thiên Hộ Miêu Trại đã xây dựng những ngôi nhà sàn bằng gỗ độc đáo ở lưng chừng núi. Với sự uốn lượn và thay đổi của địa hình, hàng nghìn ngôi nhà sàn được xếp chồng lên nhau bằng núi non trùng điệp, tạo nên vẻ đẹp ngoạn mục. Tây Giang Thiên Hộ Miêu Trại là một bảo tàng ngoài trời trưng bày sử thi về sự phát triển của dân tộc Miêu và đã trở thành một địa điểm lớn để xem và nghiên cứu văn hóa truyền thống của dân tộc Miêu.\n________________",
     "match": "slide",
     "slide": 1
    },
@@ -307,11 +307,192 @@ window.PLACES_CN = [
     "caption": "A little tour around Guizhou 🍶\n\n1 and 2: Zhaoxing village\n3, 4, 5 and 6: Xijiang village\n\n #travelchina #china #chinatrip #tibet\n#Sichuan#jiangxi #yunnan #zhejiang #tibet #passionpassport#Sichuan #traveltheworld #chinatravel #reizen #instagood  #Shanghai #beijing #chengdu#guizhou",
     "match": "slide",
     "slide": 6
+   },
+   {
+    "url": "https://www.instagram.com/rkrkrk/p/DGVYjm7TBQV/?img_index=1",
+    "username": "rkrkrk",
+    "profile_url": "https://www.instagram.com/rkrkrk/",
+    "kind": "p",
+    "image": "images/DGVYjm7TBQV_1.jpg",
+    "caption": "Guizhou\n#china #guizhou #中国 #貴州",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/rkrkrk/p/DGVYjm7TBQV/?img_index=2",
+    "username": "rkrkrk",
+    "profile_url": "https://www.instagram.com/rkrkrk/",
+    "kind": "p",
+    "image": "images/DGVYjm7TBQV_2.jpg",
+    "caption": "Guizhou\n#china #guizhou #中国 #貴州",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/rkrkrk/p/DGVYjm7TBQV/?img_index=4",
+    "username": "rkrkrk",
+    "profile_url": "https://www.instagram.com/rkrkrk/",
+    "kind": "p",
+    "image": "images/DGVYjm7TBQV_4.jpg",
+    "caption": "Guizhou\n#china #guizhou #中国 #貴州",
+    "match": "slide",
+    "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/rkrkrk/p/DGVYjm7TBQV/?img_index=5",
+    "username": "rkrkrk",
+    "profile_url": "https://www.instagram.com/rkrkrk/",
+    "kind": "p",
+    "image": "images/DGVYjm7TBQV_5.jpg",
+    "caption": "Guizhou\n#china #guizhou #中国 #貴州",
+    "match": "slide",
+    "slide": 5
+   },
+   {
+    "url": "https://www.instagram.com/rkrkrk/p/DGVYjm7TBQV/?img_index=6",
+    "username": "rkrkrk",
+    "profile_url": "https://www.instagram.com/rkrkrk/",
+    "kind": "p",
+    "image": "images/DGVYjm7TBQV_6.jpg",
+    "caption": "Guizhou\n#china #guizhou #中国 #貴州",
+    "match": "slide",
+    "slide": 6
+   },
+   {
+    "url": "https://www.instagram.com/rkrkrk/p/DGVYjm7TBQV/?img_index=7",
+    "username": "rkrkrk",
+    "profile_url": "https://www.instagram.com/rkrkrk/",
+    "kind": "p",
+    "image": "images/DGVYjm7TBQV_7.jpg",
+    "caption": "Guizhou\n#china #guizhou #中国 #貴州",
+    "match": "slide",
+    "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/hwang199/p/CD9EfPrDkhv/",
+    "username": "hwang199",
+    "profile_url": "https://www.instagram.com/hwang199/",
+    "kind": "p",
+    "image": "images/CD9EfPrDkhv.jpg",
+    "caption": "Located on the north side of Leigong Hill, Xijiang Qianhu Miao Village is about 35 km (22 miles) away from Kaili city; the capital of Qiandongnan, and about 260 km (162 miles) from Guiyang City; the capital city of Guizhou Province.\n\nBeing the largest gathering place of the Miao in China and even the world, about ten natural Miao ethnic villages exist in Xijiang Town and the Miao culture is best preserved in this area. According to the latest statistics, there are about 1,288 families with a total population of around 6,000 people living there. 99.5% of the local people are Miao nationality.\n.",
+    "match": "single"
    }
   ],
   "pop": 5,
   "pop_reason": "Größtes Miao-Dorf, in allen Guizhou-Guides",
   "when": "both"
+ },
+ {
+  "id": "cn-jiabang-rice-terraces",
+  "region": "cn",
+  "name": "Jiabang Rice Terraces 加榜梯田",
+  "district": "Congjiang, Guizhou",
+  "category": "Natur",
+  "note": "Reisterrassen der Miao an steilen Hängen (600–1.400 m) bei Congjiang, GIAHS-Agrarerbe, weniger überlaufen als Longji. Beste Zeit: April–Mai (Wasser in den Terrassen, Spiegelungen) oder Sept.–Okt. (goldene Ernte). Ab Kaili ca. 3 Std. Bus. Pin = Mitte des OSM-Gebiets 加榜梯田 (ungefähr).",
+  "address": "Congjiang, Guizhou",
+  "lat": 25.6011,
+  "lng": 108.5919,
+  "approx": true,
+  "image": "images/DXTYINCj5Up_1.jpg",
+  "caption": "📍Terrasses de Jiabang - Province du Guizhou, Chine 🇨🇳\n\n🌾 Nichées dans la préfecture autonome miao et dong de Qiandongnan, dans la province du Guizhou au sud-ouest de la Chine, les terrasses rizicoles de Jiabang sont l'un des paysages agricoles les plus spectaculaires du pays. Sculptées à flanc de montagne entre 600 et 1 400 mètres d'altitude, elles s'étendent sur plusieurs dizaines de kilomètres carrés dans un relief escarpé et verdoyant.\n\n🏔️ Ces rizières en terrasses sont l'œuvre des populations Miao qui les ont façonnées et cultivées depuis plus de 2 000 ans, transmettant leur savoir-faire d",
+  "post_url": "https://www.instagram.com/the_outsiders_travel/p/DXTYINCj5Up/?img_index=1",
+  "username": "the_outsiders_travel",
+  "profile_url": "https://www.instagram.com/the_outsiders_travel/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/the_outsiders_travel/p/DXTYINCj5Up/?img_index=1",
+    "username": "the_outsiders_travel",
+    "profile_url": "https://www.instagram.com/the_outsiders_travel/",
+    "kind": "p",
+    "image": "images/DXTYINCj5Up_1.jpg",
+    "caption": "📍Terrasses de Jiabang - Province du Guizhou, Chine 🇨🇳\n\n🌾 Nichées dans la préfecture autonome miao et dong de Qiandongnan, dans la province du Guizhou au sud-ouest de la Chine, les terrasses rizicoles de Jiabang sont l'un des paysages agricoles les plus spectaculaires du pays. Sculptées à flanc de montagne entre 600 et 1 400 mètres d'altitude, elles s'étendent sur plusieurs dizaines de kilomètres carrés dans un relief escarpé et verdoyant.\n\n🏔️ Ces rizières en terrasses sont l'œuvre des populations Miao qui les ont façonnées et cultivées depuis plus de 2 000 ans, transmettant leur savoir-faire d",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/the_outsiders_travel/p/DXTYINCj5Up/?img_index=2",
+    "username": "the_outsiders_travel",
+    "profile_url": "https://www.instagram.com/the_outsiders_travel/",
+    "kind": "p",
+    "image": "images/DXTYINCj5Up_2.jpg",
+    "caption": "📍Terrasses de Jiabang - Province du Guizhou, Chine 🇨🇳\n\n🌾 Nichées dans la préfecture autonome miao et dong de Qiandongnan, dans la province du Guizhou au sud-ouest de la Chine, les terrasses rizicoles de Jiabang sont l'un des paysages agricoles les plus spectaculaires du pays. Sculptées à flanc de montagne entre 600 et 1 400 mètres d'altitude, elles s'étendent sur plusieurs dizaines de kilomètres carrés dans un relief escarpé et verdoyant.\n\n🏔️ Ces rizières en terrasses sont l'œuvre des populations Miao qui les ont façonnées et cultivées depuis plus de 2 000 ans, transmettant leur savoir-faire d",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/the_outsiders_travel/p/DXTYINCj5Up/?img_index=3",
+    "username": "the_outsiders_travel",
+    "profile_url": "https://www.instagram.com/the_outsiders_travel/",
+    "kind": "p",
+    "image": "images/DXTYINCj5Up_3.jpg",
+    "caption": "📍Terrasses de Jiabang - Province du Guizhou, Chine 🇨🇳\n\n🌾 Nichées dans la préfecture autonome miao et dong de Qiandongnan, dans la province du Guizhou au sud-ouest de la Chine, les terrasses rizicoles de Jiabang sont l'un des paysages agricoles les plus spectaculaires du pays. Sculptées à flanc de montagne entre 600 et 1 400 mètres d'altitude, elles s'étendent sur plusieurs dizaines de kilomètres carrés dans un relief escarpé et verdoyant.\n\n🏔️ Ces rizières en terrasses sont l'œuvre des populations Miao qui les ont façonnées et cultivées depuis plus de 2 000 ans, transmettant leur savoir-faire d",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/the_outsiders_travel/p/DXTYINCj5Up/?img_index=4",
+    "username": "the_outsiders_travel",
+    "profile_url": "https://www.instagram.com/the_outsiders_travel/",
+    "kind": "p",
+    "image": "images/DXTYINCj5Up_4.jpg",
+    "caption": "📍Terrasses de Jiabang - Province du Guizhou, Chine 🇨🇳\n\n🌾 Nichées dans la préfecture autonome miao et dong de Qiandongnan, dans la province du Guizhou au sud-ouest de la Chine, les terrasses rizicoles de Jiabang sont l'un des paysages agricoles les plus spectaculaires du pays. Sculptées à flanc de montagne entre 600 et 1 400 mètres d'altitude, elles s'étendent sur plusieurs dizaines de kilomètres carrés dans un relief escarpé et verdoyant.\n\n🏔️ Ces rizières en terrasses sont l'œuvre des populations Miao qui les ont façonnées et cultivées depuis plus de 2 000 ans, transmettant leur savoir-faire d",
+    "match": "slide",
+    "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/the_outsiders_travel/p/DXTYINCj5Up/?img_index=5",
+    "username": "the_outsiders_travel",
+    "profile_url": "https://www.instagram.com/the_outsiders_travel/",
+    "kind": "p",
+    "image": "images/DXTYINCj5Up_5.jpg",
+    "caption": "📍Terrasses de Jiabang - Province du Guizhou, Chine 🇨🇳\n\n🌾 Nichées dans la préfecture autonome miao et dong de Qiandongnan, dans la province du Guizhou au sud-ouest de la Chine, les terrasses rizicoles de Jiabang sont l'un des paysages agricoles les plus spectaculaires du pays. Sculptées à flanc de montagne entre 600 et 1 400 mètres d'altitude, elles s'étendent sur plusieurs dizaines de kilomètres carrés dans un relief escarpé et verdoyant.\n\n🏔️ Ces rizières en terrasses sont l'œuvre des populations Miao qui les ont façonnées et cultivées depuis plus de 2 000 ans, transmettant leur savoir-faire d",
+    "match": "slide",
+    "slide": 5
+   },
+   {
+    "url": "https://www.instagram.com/the_outsiders_travel/p/DXTYINCj5Up/?img_index=6",
+    "username": "the_outsiders_travel",
+    "profile_url": "https://www.instagram.com/the_outsiders_travel/",
+    "kind": "p",
+    "image": "images/DXTYINCj5Up_6.jpg",
+    "caption": "📍Terrasses de Jiabang - Province du Guizhou, Chine 🇨🇳\n\n🌾 Nichées dans la préfecture autonome miao et dong de Qiandongnan, dans la province du Guizhou au sud-ouest de la Chine, les terrasses rizicoles de Jiabang sont l'un des paysages agricoles les plus spectaculaires du pays. Sculptées à flanc de montagne entre 600 et 1 400 mètres d'altitude, elles s'étendent sur plusieurs dizaines de kilomètres carrés dans un relief escarpé et verdoyant.\n\n🏔️ Ces rizières en terrasses sont l'œuvre des populations Miao qui les ont façonnées et cultivées depuis plus de 2 000 ans, transmettant leur savoir-faire d",
+    "match": "slide",
+    "slide": 6
+   },
+   {
+    "url": "https://www.instagram.com/the_outsiders_travel/p/DXTYINCj5Up/?img_index=7",
+    "username": "the_outsiders_travel",
+    "profile_url": "https://www.instagram.com/the_outsiders_travel/",
+    "kind": "p",
+    "image": "images/DXTYINCj5Up_7.jpg",
+    "caption": "📍Terrasses de Jiabang - Province du Guizhou, Chine 🇨🇳\n\n🌾 Nichées dans la préfecture autonome miao et dong de Qiandongnan, dans la province du Guizhou au sud-ouest de la Chine, les terrasses rizicoles de Jiabang sont l'un des paysages agricoles les plus spectaculaires du pays. Sculptées à flanc de montagne entre 600 et 1 400 mètres d'altitude, elles s'étendent sur plusieurs dizaines de kilomètres carrés dans un relief escarpé et verdoyant.\n\n🏔️ Ces rizières en terrasses sont l'œuvre des populations Miao qui les ont façonnées et cultivées depuis plus de 2 000 ans, transmettant leur savoir-faire d",
+    "match": "slide",
+    "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/the_outsiders_travel/p/DXTYINCj5Up/?img_index=8",
+    "username": "the_outsiders_travel",
+    "profile_url": "https://www.instagram.com/the_outsiders_travel/",
+    "kind": "p",
+    "image": "images/DXTYINCj5Up_8.jpg",
+    "caption": "📍Terrasses de Jiabang - Province du Guizhou, Chine 🇨🇳\n\n🌾 Nichées dans la préfecture autonome miao et dong de Qiandongnan, dans la province du Guizhou au sud-ouest de la Chine, les terrasses rizicoles de Jiabang sont l'un des paysages agricoles les plus spectaculaires du pays. Sculptées à flanc de montagne entre 600 et 1 400 mètres d'altitude, elles s'étendent sur plusieurs dizaines de kilomètres carrés dans un relief escarpé et verdoyant.\n\n🏔️ Ces rizières en terrasses sont l'œuvre des populations Miao qui les ont façonnées et cultivées depuis plus de 2 000 ans, transmettant leur savoir-faire d",
+    "match": "slide",
+    "slide": 8
+   },
+   {
+    "url": "https://www.instagram.com/the_outsiders_travel/p/DXTYINCj5Up/?img_index=9",
+    "username": "the_outsiders_travel",
+    "profile_url": "https://www.instagram.com/the_outsiders_travel/",
+    "kind": "p",
+    "image": "images/DXTYINCj5Up_9.jpg",
+    "caption": "📍Terrasses de Jiabang - Province du Guizhou, Chine 🇨🇳\n\n🌾 Nichées dans la préfecture autonome miao et dong de Qiandongnan, dans la province du Guizhou au sud-ouest de la Chine, les terrasses rizicoles de Jiabang sont l'un des paysages agricoles les plus spectaculaires du pays. Sculptées à flanc de montagne entre 600 et 1 400 mètres d'altitude, elles s'étendent sur plusieurs dizaines de kilomètres carrés dans un relief escarpé et verdoyant.\n\n🏔️ Ces rizières en terrasses sont l'œuvre des populations Miao qui les ont façonnées et cultivées depuis plus de 2 000 ans, transmettant leur savoir-faire d",
+    "match": "slide",
+    "slide": 9
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Reisterrassen in Guizhou, bei Fotografen bekannt",
+  "when": "day"
  },
  {
   "id": "cn-fenglin-buyi-wanfenglin",
@@ -345,7 +526,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/chinadestinations/",
     "kind": "p",
     "image": "images/DPLvIhaCZ4F.jpg",
-    "caption": "《笠影古韻》\n青山綠水間，\n古寨像幅畫。\n那戴鬥笠的身影，\n似是在與山水對談，\n訴說著這片土地的悠悠古韻。\nAmidst the green mountains and clear waters,\nThe ancient village is like a painting.\nThe figure wearing a bamboo hat\nSeems to be conversing with the mountains and waters,\nTelling the long-standing charm of this land.\n▪️\n#hellofrom #chinatravel #贵州 #guizhou \n———————————————————————\nPhoto by @justice_gto\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to m",
+    "caption": "《笠影古韻》\n青山綠水間，\n古寨像幅畫。\n那戴鬥笠的身影，\n似是在與山水對談，\n訴說著這片土地的悠悠古韻。\nAmidst the green mountains and clear waters,\nThe ancient village is like a painting.\nThe figure wearing a bamboo hat\nSeems to be conversing with the mountains and waters,\nTelling the long-standing charm of this land.\n▪️\n#hellofrom #chinatravel #贵州 #guizhou\n———————————————————————\nPhoto by @justice_gto\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to me",
     "match": "single"
    },
    {
@@ -354,7 +535,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQMWDmggDER_3.jpg",
-    "caption": "",
+    "caption": "🍂 Autumn Sanctuaries in #Guizhou: Where Forests Meet the Sea of Clouds\n\n🗻 Wanfenglin Scenic Area\nAmong thousands of karst peaks, the forests turn amber and ochre, creating a magnificent autumn panorama that stretches endlessly across the horizon.\nBest viewing period: Mid-October to early November\nLocation: Xiawutun, #Xingyi City, Qianxinan Buyi and Miao Autonomous Prefecture\n\n🌄 Fanjing Mountain\nIn autumn, mist curls around the peaks of Fanjing Mountain while the slopes shimmer with shades of gold and crimson.\nBest viewing period: Mid-October to December\nLocation: Fanjingshan Village, #Taiping ",
     "match": "slide",
     "slide": 3
    },
@@ -436,7 +617,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQMWDmggDER_4.jpg",
-    "caption": "",
+    "caption": "🍂 Autumn Sanctuaries in #Guizhou: Where Forests Meet the Sea of Clouds\n\n🗻 Wanfenglin Scenic Area\nAmong thousands of karst peaks, the forests turn amber and ochre, creating a magnificent autumn panorama that stretches endlessly across the horizon.\nBest viewing period: Mid-October to early November\nLocation: Xiawutun, #Xingyi City, Qianxinan Buyi and Miao Autonomous Prefecture\n\n🌄 Fanjing Mountain\nIn autumn, mist curls around the peaks of Fanjing Mountain while the slopes shimmer with shades of gold and crimson.\nBest viewing period: Mid-October to December\nLocation: Fanjingshan Village, #Taiping ",
     "match": "slide",
     "slide": 4
    },
@@ -449,6 +630,290 @@ window.PLACES_CN = [
     "caption": "Magnifique Guizhou province located in Southwestern China 大美中国贵州#guizhou#guiyang#miao#chinatravel#chinesearchitecture#chineseart#chinesegarden#chinatrip#chinadestinations#chinaphotography#xian#chineseculture#amazingchina#shanghai#beijing#chongqing#guangzhou#shenzhen#chengdu#dali#tibet#中国#china🇨🇳#贵州#贵阳",
     "match": "slide",
     "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/earth/p/B6V7Lt_nDE4/?img_index=1",
+    "username": "earth",
+    "profile_url": "https://www.instagram.com/earth/",
+    "kind": "p",
+    "image": "images/B6V7Lt_nDE4_1.jpg",
+    "caption": "Mount Fanjingshan in the province of Guizhou, China –– soaring up with over 8,000 steps to reach the top.\ncc: @heykelseyj",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/earth/p/B6V7Lt_nDE4/?img_index=2",
+    "username": "earth",
+    "profile_url": "https://www.instagram.com/earth/",
+    "kind": "p",
+    "image": "images/B6V7Lt_nDE4_2.jpg",
+    "caption": "Mount Fanjingshan in the province of Guizhou, China –– soaring up with over 8,000 steps to reach the top.\ncc: @heykelseyj",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/earth/p/B6V7Lt_nDE4/?img_index=3",
+    "username": "earth",
+    "profile_url": "https://www.instagram.com/earth/",
+    "kind": "p",
+    "image": "images/B6V7Lt_nDE4_3.jpg",
+    "caption": "Mount Fanjingshan in the province of Guizhou, China –– soaring up with over 8,000 steps to reach the top.\ncc: @heykelseyj",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=1",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_1.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=2",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_2.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=3",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_3.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=4",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_4.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=5",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_5.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 5
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=6",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_6.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 6
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=7",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_7.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=8",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_8.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 8
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=9",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": null,
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 9,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=10",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_10.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 10
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=11",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_11.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 11
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=12",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_12.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 12
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=13",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_13.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 13
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=14",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": null,
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 14,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=15",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_15.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 15
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=16",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_16.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 16
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=17",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_17.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 17
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=18",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_18.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 18
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=19",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_19.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 19
+   },
+   {
+    "url": "https://www.instagram.com/jasmine_pirsch/p/DLSu0tJtSX5/?img_index=20",
+    "username": "jasmine_pirsch",
+    "profile_url": "https://www.instagram.com/jasmine_pirsch/",
+    "kind": "p",
+    "image": "images/DLSu0tJtSX5_20.jpg",
+    "caption": "amazing Fanjing Mount (2,570 m)located in Guizhou province of China中国贵州梵净山\n\nFanjingshan is considered a sacred mountain of Chinese Buddhism,ranking just below the Four Sacred Mountains of Buddhism. It is considered the bodhimaṇḍa (or daochang)—a spot in which one reached enlightenment—of the Maitreya Buddha.The influence of Buddhism reached Fanjingshan by the Tang dynasty at the latest, especially after Hou Hongren (侯弘仁) constructed the Zangke Road (牂牁道) in 639 AD, which facilitated transport in the mountainous region, and local gazettes record the construction of several temples in the area.M",
+    "match": "slide",
+    "slide": 20
+   },
+   {
+    "url": "https://www.instagram.com/amigosdechina/p/CU6wNZfoSMT/?img_index=1",
+    "username": "amigosdechina",
+    "profile_url": "https://www.instagram.com/amigosdechina/",
+    "kind": "p",
+    "image": "images/CU6wNZfoSMT_1.jpg",
+    "caption": "MONTAÑA FANJING - 梵净山\n.\nHay quien dice no hay mejor vista del mundo que la que se puede ver desde el Pico Dorado de la Nubes Rojas, también conocido como el Nuevo Pico Dorado. Aquí, situados a 2,336 metros sobre el nivel del mar, se encuentran el Templo de Buda y el Templo de Maitreya. Separados por un barranco, los visitantes pasan de un templo a otro a través de un estrecho puente de piedra.\n.\nSubir los casi 9.000 escalones que conducen a los templos toma unas cuatro horas, aunque en el camino hay paradas para descansar y comer algo. Otra opción es tomar un teleférico que llega hasta la Pied",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/amigosdechina/p/CU6wNZfoSMT/?img_index=2",
+    "username": "amigosdechina",
+    "profile_url": "https://www.instagram.com/amigosdechina/",
+    "kind": "p",
+    "image": "images/CU6wNZfoSMT_2.jpg",
+    "caption": "MONTAÑA FANJING - 梵净山\n.\nHay quien dice no hay mejor vista del mundo que la que se puede ver desde el Pico Dorado de la Nubes Rojas, también conocido como el Nuevo Pico Dorado. Aquí, situados a 2,336 metros sobre el nivel del mar, se encuentran el Templo de Buda y el Templo de Maitreya. Separados por un barranco, los visitantes pasan de un templo a otro a través de un estrecho puente de piedra.\n.\nSubir los casi 9.000 escalones que conducen a los templos toma unas cuatro horas, aunque en el camino hay paradas para descansar y comer algo. Otra opción es tomar un teleférico que llega hasta la Pied",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/amigosdechina/p/CU6wNZfoSMT/?img_index=3",
+    "username": "amigosdechina",
+    "profile_url": "https://www.instagram.com/amigosdechina/",
+    "kind": "p",
+    "image": "images/CU6wNZfoSMT_3.jpg",
+    "caption": "MONTAÑA FANJING - 梵净山\n.\nHay quien dice no hay mejor vista del mundo que la que se puede ver desde el Pico Dorado de la Nubes Rojas, también conocido como el Nuevo Pico Dorado. Aquí, situados a 2,336 metros sobre el nivel del mar, se encuentran el Templo de Buda y el Templo de Maitreya. Separados por un barranco, los visitantes pasan de un templo a otro a través de un estrecho puente de piedra.\n.\nSubir los casi 9.000 escalones que conducen a los templos toma unas cuatro horas, aunque en el camino hay paradas para descansar y comer algo. Otra opción es tomar un teleférico que llega hasta la Pied",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/amigosdechina/p/CU6wNZfoSMT/?img_index=4",
+    "username": "amigosdechina",
+    "profile_url": "https://www.instagram.com/amigosdechina/",
+    "kind": "p",
+    "image": "images/CU6wNZfoSMT_4.jpg",
+    "caption": "MONTAÑA FANJING - 梵净山\n.\nHay quien dice no hay mejor vista del mundo que la que se puede ver desde el Pico Dorado de la Nubes Rojas, también conocido como el Nuevo Pico Dorado. Aquí, situados a 2,336 metros sobre el nivel del mar, se encuentran el Templo de Buda y el Templo de Maitreya. Separados por un barranco, los visitantes pasan de un templo a otro a través de un estrecho puente de piedra.\n.\nSubir los casi 9.000 escalones que conducen a los templos toma unas cuatro horas, aunque en el camino hay paradas para descansar y comer algo. Otra opción es tomar un teleférico que llega hasta la Pied",
+    "match": "slide",
+    "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/amigosdechina/p/CU6wNZfoSMT/?img_index=5",
+    "username": "amigosdechina",
+    "profile_url": "https://www.instagram.com/amigosdechina/",
+    "kind": "p",
+    "image": "images/CU6wNZfoSMT_5.jpg",
+    "caption": "MONTAÑA FANJING - 梵净山\n.\nHay quien dice no hay mejor vista del mundo que la que se puede ver desde el Pico Dorado de la Nubes Rojas, también conocido como el Nuevo Pico Dorado. Aquí, situados a 2,336 metros sobre el nivel del mar, se encuentran el Templo de Buda y el Templo de Maitreya. Separados por un barranco, los visitantes pasan de un templo a otro a través de un estrecho puente de piedra.\n.\nSubir los casi 9.000 escalones que conducen a los templos toma unas cuatro horas, aunque en el camino hay paradas para descansar y comer algo. Otra opción es tomar un teleférico que llega hasta la Pied",
+    "match": "slide",
+    "slide": 5
    }
   ],
   "pop": 4,
@@ -467,7 +932,7 @@ window.PLACES_CN = [
   "lng": 106.8363,
   "approx": true,
   "image": "images/DQZODOpDYAu_4.jpg",
-  "caption": "",
+  "caption": "🌊 Guizhou Wujiang Village: A Water Maze Lost in Time\n\nIf you're weary of commercialized ancient towns and yearn for a true escape where you can unwind and immerse yourself in landscapes of mountains and waters, then Wujiang Village in Guizhou should be next on your list.\n\n📍【Location】 Guizhou Zunyi Wujiang Village International Tourism Resort\nHere, you can witness intangible cultural heritage skills such as traditional paper-making, bamboo weaving, and Miao silver craftsmanship – and even roll up your sleeves to try them yourself.\n\n🌈【Must-Experience Highlights】\n① Take a rowing boat: Glide along",
   "post_url": "https://www.instagram.com/amazingguizhou/p/DQZODOpDYAu/?img_index=4",
   "username": "amazingguizhou",
   "profile_url": "https://www.instagram.com/amazingguizhou/",
@@ -478,7 +943,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQZODOpDYAu_4.jpg",
-    "caption": "",
+    "caption": "🌊 Guizhou Wujiang Village: A Water Maze Lost in Time\n\nIf you're weary of commercialized ancient towns and yearn for a true escape where you can unwind and immerse yourself in landscapes of mountains and waters, then Wujiang Village in Guizhou should be next on your list.\n\n📍【Location】 Guizhou Zunyi Wujiang Village International Tourism Resort\nHere, you can witness intangible cultural heritage skills such as traditional paper-making, bamboo weaving, and Miao silver craftsmanship – and even roll up your sleeves to try them yourself.\n\n🌈【Must-Experience Highlights】\n① Take a rowing boat: Glide along",
     "match": "slide",
     "slide": 4
    },
@@ -488,7 +953,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/chinadiscover/",
     "kind": "p",
     "image": "images/DD2GMNvtapF_2.jpg",
-    "caption": "",
+    "caption": "This quiet paradise hidden deep in northern Guizhou.\n\n📍Wujiang Village\n\nℹ️ Sourced from Xiaohongshu\n\nTag @chinadiscover for your photos in China!\n\n#halicinde #chinadiscover #chinadestinations #china #reels #chinaculture #studyinginchina #chinalife #chinatravel #chinatravel #chineseculture #wujiang",
     "match": "slide",
     "slide": 2
    },
@@ -498,7 +963,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/tourismeguizhou/",
     "kind": "p",
     "image": "images/DLHh2XzodtQ_1.jpg",
-    "caption": "",
+    "caption": "🌿 wujiangzhai : un écrin de beauté au cœur du guizhou \n\ndécouvrez ce village authentique où les maisons sur pilotis se mirent dans les eaux paisibles, entourées de montagnes verdoyantes. un lieu unique où traditions ethniques et créations contemporaines se rencontrent harmonieusement. \n\n✨ expériences à vivre : \n- le \"phoenix céleste\" : un spectacle envoûtant mêlant feu et lumière, inspiré des légendes locales \n- la danse des drones : une féérie nocturne où les lumières dessinent des tableaux magiques dans le ciel \n- l'artisanat traditionnel : ateliers de papier fait main, techniques de cire pe",
     "match": "slide",
     "slide": 1
    }
@@ -996,12 +1461,10 @@ window.PLACES_CN = [
     "username": "intohimoni",
     "profile_url": "https://www.instagram.com/intohimoni/",
     "kind": "p",
-    "image": null,
+    "image": "images/DVVu4dPCCqv_1.jpg",
     "caption": "The landscape in southern China feels surreal.\nAround Yangshuo, limestone karst peaks rise everywhere - out of fields, rivers, and even right next to the city itself. It almost looks unreal from above.\n\n___\n#yangshuo #southernchina #karstmountains #landscape #travelphotography",
     "match": "slide",
-    "slide": 1,
-    "generic": true,
-    "dup": true
+    "slide": 1
    },
    {
     "url": "https://www.instagram.com/intohimoni/p/DVVu4dPCCqv/?img_index=2",
@@ -1018,10 +1481,12 @@ window.PLACES_CN = [
     "username": "intohimoni",
     "profile_url": "https://www.instagram.com/intohimoni/",
     "kind": "p",
-    "image": "images/DVVu4dPCCqv_3.jpg",
+    "image": null,
     "caption": "The landscape in southern China feels surreal.\nAround Yangshuo, limestone karst peaks rise everywhere - out of fields, rivers, and even right next to the city itself. It almost looks unreal from above.\n\n___\n#yangshuo #southernchina #karstmountains #landscape #travelphotography",
     "match": "slide",
-    "slide": 3
+    "slide": 3,
+    "generic": true,
+    "dup": true
    },
    {
     "url": "https://www.instagram.com/intohimoni/p/DVVu4dPCCqv/?img_index=4",
@@ -1050,7 +1515,7 @@ window.PLACES_CN = [
   "lng": 110.119,
   "approx": true,
   "image": "images/DRo8DqWCiXB.jpg",
-  "caption": "",
+  "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
   "post_url": "https://www.instagram.com/hanaleytravel/p/DRo8DqWCiXB/",
   "username": "hanaleytravel",
   "profile_url": "https://www.instagram.com/hanaleytravel/",
@@ -1061,7 +1526,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hanaleytravel/",
     "kind": "p",
     "image": "images/DRo8DqWCiXB.jpg",
-    "caption": "",
+    "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
     "match": "single"
    },
    {
@@ -1189,7 +1654,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_2.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 2
    },
@@ -1445,7 +1910,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_3.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 3
    },
@@ -1547,7 +2012,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_7.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 7
    }
@@ -1649,7 +2114,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_6.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 6
    },
@@ -1741,7 +2206,7 @@ window.PLACES_CN = [
   "lng": 106.5891,
   "approx": true,
   "image": "images/DdiudFSEbF0_5.jpg",
-  "caption": "",
+  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=5",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -1752,7 +2217,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_5.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 5
    },
@@ -1783,7 +2248,7 @@ window.PLACES_CN = [
   "lng": 106.52597,
   "approx": false,
   "image": "images/DdiudFSEbF0_4.jpg",
-  "caption": "",
+  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=4",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -1794,7 +2259,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_4.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 4
    }
@@ -4374,6 +4839,105 @@ window.PLACES_CN = [
     "image": "images/web_1eemu4b_7.jpg",
     "caption": "",
     "credit": "Fabio Nodari · fabionodariphoto.com"
+   },
+   {
+    "url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=1",
+    "username": "",
+    "profile_url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=1",
+    "kind": "photo",
+    "image": "images/DNxv5GpYk9z_1.jpg",
+    "caption": "",
+    "credit": "@thailandtale · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=2",
+    "kind": "photo",
+    "image": "images/DNxv5GpYk9z_2.jpg",
+    "caption": "",
+    "credit": "@thailandtale · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=3",
+    "username": "",
+    "profile_url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=3",
+    "kind": "photo",
+    "image": "images/DNxv5GpYk9z_3.jpg",
+    "caption": "",
+    "credit": "@thailandtale · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=4",
+    "username": "",
+    "profile_url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=4",
+    "kind": "photo",
+    "image": "images/DNxv5GpYk9z_4.jpg",
+    "caption": "",
+    "credit": "@thailandtale · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=5",
+    "username": "",
+    "profile_url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=5",
+    "kind": "photo",
+    "image": "images/DNxv5GpYk9z_5.jpg",
+    "caption": "",
+    "credit": "@thailandtale · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=6",
+    "username": "",
+    "profile_url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=6",
+    "kind": "photo",
+    "image": "images/DNxv5GpYk9z_6.jpg",
+    "caption": "",
+    "credit": "@thailandtale · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=7",
+    "username": "",
+    "profile_url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=7",
+    "kind": "photo",
+    "image": "images/DNxv5GpYk9z_7.jpg",
+    "caption": "",
+    "credit": "@thailandtale · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=8",
+    "username": "",
+    "profile_url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=8",
+    "kind": "photo",
+    "image": "images/DNxv5GpYk9z_8.jpg",
+    "caption": "",
+    "credit": "@thailandtale · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=9",
+    "username": "",
+    "profile_url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=9",
+    "kind": "photo",
+    "image": "images/DNxv5GpYk9z_9.jpg",
+    "caption": "",
+    "credit": "@thailandtale · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=10",
+    "username": "",
+    "profile_url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=10",
+    "kind": "photo",
+    "image": "images/DNxv5GpYk9z_10.jpg",
+    "caption": "",
+    "credit": "@thailandtale · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=11",
+    "username": "",
+    "profile_url": "https://www.instagram.com/thailandtale/p/DNxv5GpYk9z/?img_index=11",
+    "kind": "photo",
+    "image": "images/DNxv5GpYk9z_11.jpg",
+    "caption": "",
+    "credit": "@thailandtale · Instagram"
    }
   ],
   "pop": 5,
