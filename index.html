@@ -1638,8 +1638,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const inGroups = p => !groups.size || [...groups].some(g => GROUPS[g](p));
   // Bereich oben links: 🧭 Route (nur Spots an unserer Route) oder frei kombinierbare Regionen der Reise (Mehrfachauswahl)
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
-  const SUBS = [["hk", "🇭🇰 Hongkong"], ["sz", "Shenzhen"], ["gl", "Guilin · Yangshuo · Longji"], ["gz", "Guizhou"],
-    ["zjj", "Zhangjiajie · Fenghuang"], ["cq", "Chongqing"], ["sh", "Shanghai"], ["cnx", "Sonstiges China"]];
+  const SUBS = [["hk", "🇭🇰 Hongkong"], ["sz", "Shenzhen"], ["gl", "Guilin · Yangshuo · Longji"], ["gz", "Guizhou · Fenghuang"],
+    ["zjj", "Zhangjiajie"], ["cq", "Chongqing"], ["sh", "Shanghai"], ["cnx", "Sonstiges China"]];
   let showNl = false; try { showNl = localStorage.getItem("showNl") === "1"; } catch {}
   const CN_SUBS = SUBS.map(x => x[0]).filter(k => k !== "hk");  // Unterpunkte von China
   const SUB_LABEL = Object.fromEntries(SUBS);
@@ -1650,8 +1650,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (a > 22.3 && a < 23 && o > 113.6 && o < 114.8) return "sz";
     if (a > 24.3 && a < 26.3 && o > 109.8 && o < 111.2) return "gl";
     if (a > 28.8 && a < 30.6 && o > 105.3 && o < 108.6) return "cq";
-    if (a > 27.5 && a < 30.2 && o > 109.4 && o < 111.6) return "zjj";
-    if (a > 24.5 && a < 29.3 && o > 103.5 && o < 109.8) return "gz";
+    if (a > 28.3 && a < 30.2 && o > 109.4 && o < 111.6) return "zjj";
+    if (a > 24.5 && a < 29.3 && o > 103.5 && o < 110.2) return "gz";  // inkl. Fenghuang (Hunan, gehört zur Guizhou-Etappe)
     if (a > 30.6 && a < 31.9 && o > 120.8 && o < 122.2) return "sh";
     return "cnx";
   };
