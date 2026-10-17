@@ -2278,6 +2278,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const today = new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);  // Datum in China
   let itinDay = (ITIN.days.find(d => d.date >= today) || ITIN.days[ITIN.days.length - 1] || {}).date;
   let itinShown = null; try { itinShown = localStorage.getItem("itinShown"); } catch {}
+  // vergangener Tag bleibt nicht auf der Karte stehen
+  if (itinShown && itinShown < today) { itinShown = null; try { localStorage.removeItem("itinShown"); } catch {} }
   let itinOpt = false; try { itinOpt = localStorage.getItem("itinOpt") === "1"; } catch {}  // optionale Vorschläge zeigen
   const dayItems = d => itinOpt || !d.core ? d.items : d.core;
   const spotOf = id => places.find(p => p.id === id);
