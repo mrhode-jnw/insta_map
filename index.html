@@ -342,8 +342,7 @@
   #view button[data-v="area"] { border-right: 1px solid var(--line); }
   #view button[data-v="area"].on { background: var(--me); color: #fff; }
   #sortBtn { position: relative; display: grid; place-items: center; min-width: 36px; padding: 0 9px; font-size: 16px; cursor: pointer;
-    border-right: 1px solid var(--glassb, var(--line)); }
-  #sortBtn small { font-size: 11px; margin-left: 1px; }
+    border-left: 1px solid var(--glassb, var(--line)); color: var(--fg); }
   #sortBtn select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; font-size: 16px; }
   .tag .new { color: var(--accent, #2563eb); font-weight: 600; }
   #chips2 { display: flex; gap: 6px; overflow-x: auto; padding-top: 6px; scrollbar-width: none; }
@@ -895,7 +894,7 @@
     <div class="row">
       <input id="search" type="search" placeholder="Orte durchsuchen …" autocomplete="off">
       <span id="count"></span>
-      <div id="view"><label id="sortBtn" title="Sortierung"><span>↕</span><select id="sort" aria-label="Sortierung"><option value="auto">📍 Nähe</option><option value="new">🆕 Neu hinzugefügt</option><option value="upd">➕ Zuletzt ergänzt (neuer Post)</option><option value="prio">● Priorität</option><option value="pop">🔥 Beliebt</option><option value="area">🗺 Viertel</option></select></label><button data-v="area" title="Nur Spots im Kartenausschnitt" aria-label="Nur Spots im Kartenausschnitt">⌖</button><button data-v="list" class="on" title="Liste" aria-label="Liste">☰</button><button data-v="grid" title="Bilder" aria-label="Bilder">▦</button><button id="inspBtn" title="Inspiration" aria-label="Inspiration">💡</button></div>
+      <div id="view"><button data-v="area" title="Nur Spots im Kartenausschnitt" aria-label="Nur Spots im Kartenausschnitt">⌖</button><button data-v="list" class="on" title="Liste" aria-label="Liste">☰</button><button data-v="grid" title="Bilder" aria-label="Bilder">▦</button><button id="inspBtn" title="Inspiration" aria-label="Inspiration">💡</button><label id="sortBtn" title="Sortierung"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4v16M3 8l4-4 4 4M17 20V4M13 16l4 4 4-4"/></svg><select id="sort" aria-label="Sortierung"><option value="auto">📍 Nähe</option><option value="new">🆕 Neu hinzugefügt</option><option value="upd">➕ Zuletzt ergänzt (neuer Post)</option><option value="prio">● Priorität</option><option value="pop">🔥 Beliebt</option><option value="area">🗺 Viertel</option></select></label></div>
     </div>
     <div id="chips"></div>
     <div id="chips2">
@@ -1743,7 +1742,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let whenF = null;  // ☀️ Tag / 🌙 Nacht (p.when aus tools/daynight.py; „both“ passt zu beidem)
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
-  const sortIcon = () => { const o = $("#sort").selectedOptions[0]; $("#sortBtn span").innerHTML = `↕<small>${o ? o.textContent.split(" ")[0] : ""}</small>`;
+  const sortIcon = () => { const o = $("#sort").selectedOptions[0];
     $("#sortBtn").title = "Sortierung: " + (o ? o.textContent.replace(/^\S+\s/, "") : ""); };
   sortIcon();
   // Hinzugefügt: eigene Spots bringen „created“ mit, alle anderen kommen aus data/added.js (erster Commit je Spot)
