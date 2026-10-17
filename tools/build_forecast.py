@@ -18,6 +18,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -31,11 +32,19 @@ DEFAULT_H = {"sunrise": 6, "dawn": 6, "golden": 8, "sunset": 17, "blue": 18, "ni
 
 
 def get(url):
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "insta-map-forecast"})
-        return json.load(urllib.request.urlopen(req, timeout=60))
-    except Exception:  # z. B. TLS hinter einem Proxy: curl kennt dessen Zertifikate
-        return json.loads(subprocess.run(["curl", "-sSf", "--max-time", "90", url], capture_output=True, check=True, text=True).stdout)
+    last = None
+    for attempt in range(4):  # Netz/Proxy hakt gelegentlich → mit Pause erneut versuchen
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "insta-map-forecast"})
+            return json.load(urllib.request.urlopen(req, timeout=60))
+        except Exception as e:
+            last = e
+        try:  # z. B. TLS hinter einem Proxy: curl kennt dessen Zertifikate
+            return json.loads(subprocess.run(["curl", "-sSf", "--max-time", "90", url], capture_output=True, check=True, text=True).stdout)
+        except Exception as e:
+            last = e
+        time.sleep(5 * (attempt + 1))
+    raise last
 
 
 def start_hour(it):
