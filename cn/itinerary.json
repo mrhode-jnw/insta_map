@@ -412,7 +412,7 @@
   {
    "date": "2026-10-19",
    "title": "Ping'an → Zhanli → Huanggang",
-   "status": "Entwurf",
+   "status": "fest",
    "items": [
     {
      "type": "stop",
@@ -434,12 +434,13 @@
     },
     {
      "type": "info",
-     "t": "9:30",
+     "t": "10:00",
      "icon": "🚗",
-     "title": "Abfahrt nach Guizhou",
+     "title": "Abholung am Valley View Hotel → Guizhou",
      "lat": 25.7585,
      "lng": 110.1198,
-     "text": "Nach dem Frühstück – mit dem selbst organisierten Fahrer."
+     "text": "Fahrer holt euch am Hotel ab (laut Reiseplan der Agentur).",
+     "plan": true
     },
     {
      "type": "move",
@@ -448,7 +449,7 @@
     },
     {
      "type": "info",
-     "t": "12:15–14:00",
+     "t": "~12:45–14:00",
      "icon": "🍜",
      "title": "Ankunft Zhanli, Mittagessen",
      "light": "midday",
@@ -504,7 +505,7 @@
   {
    "date": "2026-10-20",
    "title": "Huanggang → Dali",
-   "status": "Entwurf",
+   "status": "fest",
    "items": [
     {
      "type": "stop",
@@ -575,7 +576,7 @@
   {
    "date": "2026-10-21",
    "title": "Dali → Maliao → Langde",
-   "status": "Entwurf",
+   "status": "fest",
    "items": [
     {
      "type": "stop",
@@ -652,7 +653,7 @@
   {
    "date": "2026-10-22",
    "title": "Langde → Fanjingshan → Fenghuang",
-   "status": "Entwurf",
+   "status": "fest",
    "items": [
     {
      "type": "hotel",
