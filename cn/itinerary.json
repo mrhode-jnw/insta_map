@@ -712,7 +712,7 @@
     },
     {
      "type": "hotel",
-     "name": "Fenghuang – Hotel noch buchen",
+     "name": "Mount Villa by T Residence",
      "t": "~15:20",
      "label": "Ankunft, einchecken"
     },
@@ -737,7 +737,7 @@
     },
     {
      "type": "hotel",
-     "name": "Fenghuang – Hotel noch buchen"
+     "name": "Mount Villa by T Residence"
     },
     {
      "type": "info",
@@ -764,7 +764,7 @@
     },
     {
      "type": "hotel",
-     "name": "Fenghuang – Hotel noch buchen",
+     "name": "Mount Villa by T Residence",
      "t": "~11:30",
      "label": "Check-out"
     },
@@ -830,15 +830,15 @@
     "images/hotels/langde-qixi_2.jpg"
    ]
   },
-  "Fenghuang – Hotel noch buchen": {
-   "name": "Fenghuang – Hotel noch buchen",
-   "zh": "凤凰古城",
-   "lat": 27.9509,
-   "lng": 109.5998,
-   "address": "Altstadt Fenghuang, Hunan – Tipp: Fenghuang Ancient Town Boutique Hotel (Balkon zum Fluss)",
+  "Mount Villa by T Residence": {
+   "name": "Mount Villa by T Residence",
+   "zh": "凤凰堂舍·见山酒店（凤凰古城店）",
+   "lat": 27.9505,
+   "lng": 109.5962,
+   "address": "No. 11 Hetang Street, Wenhua Plaza, Fenghuang (凤凰县文化广场) – Infinity-Pool & Rooftop-Bar mit Blick auf die Altstadt; Check-in ab 14:00, Check-out bis 12:00",
    "dates": "22.–23. Okt. (1 Nacht)",
    "room": "",
-   "booked": false
+   "booked": true
   }
  }
 }
