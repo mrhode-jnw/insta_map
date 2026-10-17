@@ -817,11 +817,14 @@
   .leaflet-popup.mini .pop .fcbox { display: none; }
   /* Liste aufgezogen → Leiste weg (nur Griff); Leiste geholt → Liste klappt ein */
   @media (max-width: 799px) {
-    body.dock-auto #dock { transform: translate(calc(100% + 16px), -50%); pointer-events: none; }
-    body.dock-auto #dockTab { transform: translate(0, -50%); }
+    body.dock-auto #dock, body.dock-dlg #dock { transform: translate(calc(100% + 16px), -50%); pointer-events: none; }
+    body.dock-auto #dockTab, body.dock-dlg #dockTab { transform: translate(0, -50%); }
     #dockTab { top: 30%; }
     body.dock-auto #dockTab { top: 30%; }
   }
+  #insp h3 .ibtns { margin-left: auto; display: flex; gap: 6px; flex: none; }
+  #insp h3 .ibtns button { margin: 0 !important; }
+  #inspBody h3 .ilink { padding: 5px 11px; border-radius: 999px; border: 1px solid var(--accent); background: var(--accent); color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; }
 </style>
 </head>
 <body>
@@ -2111,7 +2114,15 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const INSP_REG = { hk: "🇭🇰 Hongkong", sh: "🇨🇳 Shanghai", cn: "🇨🇳 China" };
   // Ortsfilter oben (Mehrfachauswahl, leer = alle); gemerkt pro Gerät
   let inspF = new Set(); try { inspF = new Set(JSON.parse(localStorage.getItem("inspF") || "[]")); } catch {}
+  // Insta-Links, die auf die Routine warten (Eingang mit insp), solange ihre Bilder noch nicht in INSP stehen
+  let inspPending = [];
+  const inspWait = r => inspPending.filter(x => x.insp === r && !Object.values(INSP).some(l => (l || []).some(p => p.code === x.code)));
+  async function loadInspPending() {
+    try { const l = await rawJson("data/inbox.json", []); inspPending = (l || []).filter(x => x.insp && x.code);
+      if (!$("#insp").hidden) { const y = $("#inspBody").scrollTop; openInsp(); $("#inspBody").scrollTop = y; } } catch {}
+  }
   function openInsp() {
+    if (!openInsp.loaded) { openInsp.loaded = true; loadInspPending(); }
     const marks = r => inspMarks().filter(m => m.region === r && !m.own);
     const owns = r => inspMarks().filter(m => m.region === r && m.own);
     const hid = new Set(spotExtras.__insphide || []);
@@ -2125,7 +2136,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     let n = 0;
     const markItems = [];
     const tile = m => { markItems.push(m); return `<span class="iw"><img src="${esc(m.image)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(m.image)}" aria-label="Aus Inspiration entfernen">×</button></span>`; };
-    $("#inspBody").innerHTML = regs.map(r => `<h3>${INSP_REG[r]}<button class="iadd" data-iadd="${r}">📷 Fotos hochladen</button></h3>` +
+    $("#inspBody").innerHTML = regs.map(r => `<h3>${INSP_REG[r]}<span class="ibtns"><button class="ilink" data-ilink="${r}">🔗 Insta-Link</button><button class="iadd" data-iadd="${r}">📷 Fotos</button></span></h3>` +
+      (inspWait(r).length ? `<div class="src">⏳ Wird geladen (ca. 1 Std.): ${inspWait(r).map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.code)}</a>`).join(" · ")}</div>` : "") +
       (owns(r).length ? `<div class="src">📷 Eigene Fotos</div><div class="masonry">${owns(r).map(tile).join("")}</div>` : "") + (marks(r).length ? `<div class="src">💡 An Spots markiert</div><div class="masonry">${marks(r).map(tile).join("")}</div>` : "") + (INSP[r] || []).filter(post => imgsOfPost(post).length).map(post => `
       <div class="src">${post.user ? `<a href="https://www.instagram.com/${esc(post.user)}/" target="_blank" rel="noopener">@${esc(post.user)}</a> · ` : ""}<a href="${esc(post.url)}" target="_blank" rel="noopener">Post ↗</a>${post.caption ? " – " + esc(post.caption.split("\n")[0].slice(0, 90)) : ""}</div>
       <div class="masonry">${imgsOfPost(post).map(src => `<span class="iw"><img src="${esc(src)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(src)}" aria-label="Aus Inspiration entfernen">×</button></span>`).join("")}</div>`).join("")).join("")
@@ -2136,6 +2148,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ...(INSP[r] || []).flatMap(post => imgsOfPost(post).map((src, k) => ({ image: src, url: post.url + "?img_index=" + (k + 1), username: post.user || "Instagram", profile_url: post.user ? `https://www.instagram.com/${post.user}/` : post.url })))]);
     $("#inspBody").querySelectorAll("img[data-i]").forEach(img => img.onclick = () => lbOpen({ name: "Inspiration", posts: all }, +img.dataset.i));
     $("#inspBody").querySelectorAll(".iadd").forEach(b => b.onclick = e => { e.stopPropagation(); inspUpload(b.dataset.iadd, b); });
+    $("#inspBody").querySelectorAll(".ilink").forEach(b => b.onclick = async e => {
+      e.stopPropagation();
+      let clip = ""; try { clip = (await navigator.clipboard.readText()).trim(); } catch {}
+      const v = prompt(`Instagram-Link für die Inspiration (${INSP_REG[b.dataset.ilink]}):`, igCode(clip) ? clip : "");
+      if (!v) return;
+      if (!igCode(firstUrl(v))) { toast("Das ist kein Instagram-Post-Link.", 4000); return; }
+      if (await addToInbox(v, "", { insp: b.dataset.ilink })) {
+        inspPending.push({ code: igCode(firstUrl(v)), url: firstUrl(v).split("?")[0], insp: b.dataset.ilink });
+        const y = $("#inspBody").scrollTop; openInsp(); $("#inspBody").scrollTop = y;
+      }
+    });
     $("#inspBody").querySelectorAll(".idel").forEach(b => b.onclick = async e => {
       e.stopPropagation(); const img = b.dataset.img;
       if (!confirm("Bild aus der Inspiration entfernen?")) return;
@@ -2369,6 +2392,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const d = b.dataset.d;
       b.classList.toggle("on", d === "fav" ? $("#fMore").value === "fav" : d === "map" ? !open : d === open);
     });
+    document.body.classList.toggle("dock-dlg", !!open && mobile());  // Fenster offen: Leiste weg, nur Griff
     $("#dock [data-d=plan]").classList.toggle("dot", !!itinShown);
     $("#dock [data-d=tours]").classList.toggle("dot", !!activeTour);
   };
@@ -2389,7 +2413,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const setDock = h => { document.body.classList.toggle("dock-hidden", h); try { localStorage.setItem("dockHidden", h ? "1" : "0"); } catch {} };
   try { if (localStorage.getItem("dockHidden") === "1") document.body.classList.add("dock-hidden"); } catch {}
   $("#dock .dhide").addEventListener("click", e => { e.stopPropagation(); setDock(true); });
-  $("#dockTab").addEventListener("click", e => { e.stopPropagation(); setDock(false); if (mobile() && sheetSnap !== "peek") setSnap("peek"); });
+  $("#dockTab").addEventListener("click", e => { e.stopPropagation(); setDock(false); if (mobile() && sheetSnap !== "peek") setSnap("peek");
+    if (document.body.classList.contains("dock-dlg")) document.body.classList.remove("dock-dlg"); });
   // Fenster schließen sich auch über ✕ → Leiste nachziehen
   new MutationObserver(dockSync).observe(document.body, { subtree: true, attributes: true, attributeFilter: ["hidden"] });
   $("#fMore").addEventListener("change", dockSync);
@@ -3156,7 +3181,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const KIND_LABEL = { ig: "Instagram-Post", gmaps: "Google-Maps-Ort", osm: "OpenStreetMap-Ort", locationscout: "Locationscout-Spot", web: "Link" };
   const linkId = (kind, url) => kind + ":" + [...url].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7).toString(36);
   const firstUrl = v => (String(v).match(/https?:\/\/\S+/) || [String(v).trim()])[0];  // geteilter Text: „Name\nhttps://…“
-  async function addToInbox(raw, where = "") {
+  async function addToInbox(raw, where = "", extra = null) {
     const url = firstUrl(raw), kind = linkKind(url);
     if (!kind) { toast("Das ist kein Link (https://…).", 4500); return false; }
     if (!store.get(TOKEN_KEY)) {
@@ -3166,11 +3191,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       : { kind, id: linkId(kind, url), url, note: String(raw).replace(url, "").trim().slice(0, 200) || undefined };
     where = String(where || "").trim().slice(0, 400);
     if (where) entry.where = where;  // Ortsangabe in eigenen Worten → Routine sucht den Ort danach
+    if (extra) Object.assign(entry, extra);  // z. B. { insp: "cn" } → nur Inspiration, kein Spot
     try {
       let added = false;
       await mutate(list => {
         const dup = list.find(x => (entry.code && x.code === entry.code) || (entry.id && x.id === entry.id));
-        if (dup) {  // schon im Eingang: neue Ortsangabe trotzdem nachtragen
+        if (dup) {  // schon im Eingang: neue Ortsangabe / Inspiration trotzdem nachtragen
+          if (extra && extra.insp && dup.insp !== extra.insp) { added = "insp"; return list.map(x => x === dup ? { ...x, insp: extra.insp } : x); }
           if (!where || dup.where === where) return list;
           added = "where";
           return list.map(x => x === dup ? { ...x, where } : x);
@@ -3178,6 +3205,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         added = true;
         return [...list, { ...entry, added: new Date().toISOString() }];
       }, `Eingang: ${KIND_LABEL[kind]} ${entry.code || entry.id}`, INBOX_PATH, []);
+      if (extra && extra.insp) {
+        toast(added ? "💡 Link übernommen – die Bilder erscheinen in ca. 1 Stunde hier in der Inspiration" : "Dieser Link ist schon im Eingang.", 4500);
+        return true;
+      }
       toast(added === "where" ? "📍 Ortsangabe zum vorhandenen Link ergänzt"
         : added ? `📥 ${KIND_LABEL[kind]} übernommen${where ? " mit Ortsangabe" : ""} – erscheint in ca. 1 Stunde auf der Karte`
         : "Dieser Link ist schon im Eingang.", 4500);

@@ -42,6 +42,16 @@ Restaurants am MTR Lai King, Ausgang A2“). Sie erscheint bei `pending`, `show`
 Beschreibungen), Koordinaten so genau wie möglich setzen und in der Notiz kurz erwähnen, woher der Standort stammt.
 Passt die Angabe nicht eindeutig, `approx: true` bzw. `unsure` mit Begründung setzen – nicht raten.
 
+## 1b. Links nur für die Inspiration (`"insp": "hk" | "cn" | "sh"`)
+In der App über 💡 Inspiration → „🔗 Insta-Link“ eingetragen: Bilder, die gefallen, deren Ort aber unbekannt ist.
+**Keinen Spot anlegen, nicht verorten.** Für jeden solchen Eintrag:
+```bash
+python3 tools/add_inspiration.py <code> <insp>   # alle Karussell-Bilder → images/insp/, data/inspiration.json/.js
+```
+Schlägt das dauerhaft fehl (gelöscht/privat): `python3 tools/inbox.py skip <code> "nicht abrufbar"`.
+Danach weiter mit Schritt 5 (Veröffentlichen: `data/inspiration.json`, `data/inspiration.js`, `images/insp/` committen).
+Gibt es außerdem normale Einträge, diese wie unten bearbeiten.
+
 ## 2. Jeden neuen Post auswerten
 Für jeden Eintrag (`code`):
 1. `python3 tools/inbox.py show <code>` – zeigt Account, Anzahl Bilder, nummerierte Orte und Caption.

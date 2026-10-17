@@ -2,6 +2,7 @@
 """Hilfswerkzeug für die stündliche Claude-Routine (siehe ROUTINE.md).
 
   python3 tools/inbox.py pending            # neue Links im Eingang (Branch map-data), noch nicht in hk/spots.py
+                                            # (Einträge mit "insp": nur Inspiration → tools/add_inspiration.py <code> <ort>)
   python3 tools/inbox.py show <code>        # Post laden: Account, Typ, Caption, Anzahl Bilder, nummerierte Orte
   python3 tools/inbox.py add-post <code>    # Post in hk/spots.py → POSTS eintragen, gibt den Index aus
   python3 tools/inbox.py skip <code> <grund> # Post dauerhaft überspringen (z.B. gelöscht/privat)
@@ -46,8 +47,17 @@ def pending():
     done = bp.load_json(DONE, {})
     known = known_codes()
     out = []
+    insp = set()
+    try:
+        for lst in json.load(open(os.path.join(ROOT, "data", "inspiration.json"), encoding="utf-8")).values():
+            insp.update(p.get("code") for p in lst)
+    except Exception:
+        pass
     for x in inbox():
-        if x.get("code"):  # Instagram
+        if x.get("insp") and x.get("code"):  # nur Inspiration (kein Spot): erledigt, sobald in data/inspiration.json
+            if x["code"] not in insp and x["code"] not in skipped:
+                out.append(x)
+        elif x.get("code"):  # Instagram
             if x["code"] not in known and x["code"] not in skipped:
                 out.append(x)
         elif x.get("id") and x["id"] not in done and x["id"] not in skipped:  # Google Maps / OSM / Locationscout
