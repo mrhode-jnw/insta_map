@@ -2618,11 +2618,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const WALKS = window.WALKS || [];
   let wkF = "", walkShown = null;
   const walkLayer = L.layerGroup();
+  // eigene Ebene über den Spot-Pins: sonst verdeckt z. B. der Dorf-Spot die Startstation (1)
+  if (!map.getPane("walk")) map.createPane("walk").style.zIndex = 650;
   function showWalk(id, stopIdx) {
     const w = WALKS.find(x => x.id === id); if (!w) return;
     walkLayer.clearLayers();
     w.legs.forEach(l => L.polyline(l.path, { color: "#7c3aed", weight: 4, opacity: .85, interactive: false, ...(l.osm ? {} : { dashArray: "2 8" }) }).addTo(walkLayer));
-    walkMk = w.stops.map((st, i) => L.marker([st.lat, st.lng], { icon: L.divIcon({ className: "", html: `<div class="wnum">${i + 1}</div>`, iconSize: [26, 26], iconAnchor: [13, 13] }), zIndexOffset: 900 })
+    walkMk = w.stops.map((st, i) => L.marker([st.lat, st.lng], { icon: L.divIcon({ className: "", html: `<div class="wnum">${i + 1}</div>`, iconSize: [26, 26], iconAnchor: [13, 13] }), pane: "walk", zIndexOffset: 900 - i })
       .on("click", e => { L.DomEvent.stopPropagation(e); walkStop(w, i); })
       .addTo(walkLayer));
     const mk = walkMk;
@@ -3094,7 +3096,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "88 · Rundgang-Stationen als Karte";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "89 · Rundgang-Nummern über den Spots";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
