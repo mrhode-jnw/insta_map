@@ -591,5 +591,9 @@
  "cn-yalan-international-rooftop-dach": {
   "fav": true,
   "prio": "hoch"
+ },
+ "cn-chaodong-road": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
