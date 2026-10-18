@@ -248,6 +248,7 @@
   .isun span { padding: 4px 8px; border-radius: 8px; background: rgba(148,163,184,.15); }
   .imapb { width: 100%; padding: 10px; border-radius: 12px; border: 0; background: #0f766e; color: #fff; font-size: 15px; font-weight: 600; cursor: pointer; margin-bottom: 12px; }
   .ic { display: grid; grid-template-columns: 54px 1fr; gap: 10px; margin-bottom: 10px; }
+  .ic > .icw { min-width: 0; }  /* sonst sprengen breite Fotos die Spalte */
   .ic .itm { font: 700 14px/1.2 system-ui, sans-serif; padding-top: 10px; text-align: right; color: var(--fg); word-break: break-word; }
   .ic .itm small { display: block; font-weight: 500; font-size: 11.5px; color: var(--muted); }
   .icard { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: rgba(148,163,184,.07); }
@@ -2626,7 +2627,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           <button data-dur="${esc(sc.key)}" data-v="${Math.max(0, sc.dur - 15)}" aria-label="15 Minuten kürzer">−</button><button data-dur="${esc(sc.key)}" data-v="${sc.dur + 15}" aria-label="15 Minuten länger">+</button>
           ${sc.dur !== sc.base ? `<button data-dur="${esc(sc.key)}" data-v="" title="Wie geplant" aria-label="Zurück auf geplante Dauer" style="width:auto;border-radius:999px;padding:0 10px;font-size:12px">↺ ${fmtMin(sc.base)}</button>` : ""}</div>` : "";
       const late = sc && sc.late > 0 && it.light && /sun|blue|golden|dawn/.test(it.light) ? `<span class="ilate">⚠ ${sc.late} Min. später als geplant – Licht prüfen</span>` : "";
-      return `<div class="ic${it.opt ? " opt" : ""}${sel ? " sel" : ""}"><div class="itm${moved ? " moved" : ""}">${timeHtml(sc ? sc.t : it.t)}</div><div>${choose}${dur}${late}${card}</div></div>`;
+      return `<div class="ic${it.opt ? " opt" : ""}${sel ? " sel" : ""}"><div class="itm${moved ? " moved" : ""}">${timeHtml(sc ? sc.t : it.t)}</div><div class="icw">${choose}${dur}${late}${card}</div></div>`;
     }).join("");
     const save = choiceDirty(d) ? `<div class="isave">Plan geändert – Zeiten sind angepasst.<button data-savestd="1">★ Als Standard speichern</button><button class="sec" data-resetstd="1">Zurücksetzen</button></div>` : "";
     const on = itinShown === d.date;
