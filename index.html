@@ -1287,7 +1287,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     // (gemerkt per Name; in China nie Esri vorziehen – alter Index-Schlüssel „tileBase“ zeigte dort auf Esri)
     try { localStorage.removeItem("tileBase"); } catch {}
     osm.on("add", () => { let n = ""; try { n = localStorage.getItem("tileBase2") || ""; } catch {}
-      const l = n === "gaode" ? gaode : n === "esri" && !inMainland(LAST_POS) ? esri : n === "esri" ? gaode : null;
+      const l = n === "gaode" ? gaode : n === "esri" && !inMainland(LAST_POS) ? esri : n === "esri" ? gaode : n === "sat" ? sat : n === "esriSat" ? esriSat : null;
       if (l) setTimeout(() => { if (map.hasLayer(osm)) { map.removeLayer(osm); l.addTo(map); } }, 0); });
     osm.on("tileload", () => { try { localStorage.removeItem("tileBase2"); } catch {} });
     // Satellit: Google (in China lagerichtig, WGS84), fällt bei Fehlern auf Esri-Luftbild zurück – zeigt Gassen/Dächer in Dörfern ohne Kartendaten
@@ -1304,7 +1304,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     // Karte von Hand wählen (oben rechts)
     if (!ROTATE && !GMAP) { window._baseSel = L.control.layers({ "OpenStreetMap": osm, "Gaode 高德": gaode, "Esri": esri, "Satellit (Google)": sat, "Satellit (Esri)": esriSat }, null, { position: "topright" }).addTo(map);
       window._baseSel.getContainer().classList.add("basesel"); }
-    map.on("baselayerchange", e => { baseBefore = null; try { e.layer === osm ? localStorage.removeItem("tileBase2") : e.layer === gaode || e.layer === esri ? localStorage.setItem("tileBase2", e.layer === gaode ? "gaode" : "esri") : 0; } catch {} });
+    map.on("baselayerchange", e => { baseBefore = null; try { e.layer === osm ? localStorage.removeItem("tileBase2") : localStorage.setItem("tileBase2", e.layer === gaode ? "gaode" : e.layer === esri ? "esri" : e.layer === sat ? "sat" : "esriSat"); } catch {} });
   }
 
   // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
@@ -1960,7 +1960,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) { cat = null; saveCat(); }
     renderChips(); renderList();
   });
-  let favF = false, trashF = false, areaF = "";
+  let favF = false, trashF = false, areaF = ""; try { areaF = localStorage.getItem("areaF") || ""; } catch {}
   // Viertel/Bereich: Hongkong-Bezirke vereinheitlicht, China als „Stadt – Viertel“
   const AREA_ALIAS = { "Mongkok": "Mong Kok", "Mongkok / Yau Ma Tei": "Mong Kok", "Mong Kok East": "Mong Kok", "Mid-levels": "Mid-Levels", "Harbour": "Victoria Harbour" };
   // Hongkong: Stadtteile zu größeren Bereichen zusammengefasst
@@ -2002,7 +2002,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const addedLbl = (p, k = 0) => { const a = addedAt(p, k); if (!a) return ""; const d = new Date(a.length <= 16 ? a + "Z" : a);
     const t0 = new Date(); t0.setHours(0, 0, 0, 0); const days = Math.ceil((t0 - d) / 864e5);
     return (k ? "neuer Post " : "neu ") + (days <= 0 ? "heute" : days === 1 ? "gestern" : `${d.getDate()}.${d.getMonth() + 1}.`); };
-  $("#area").addEventListener("change", e => { areaF = e.target.value; renderList(); });
+  $("#area").addEventListener("change", e => { areaF = e.target.value; try { localStorage.setItem("areaF", areaF); } catch {} renderList(); });
   $("#sort").addEventListener("change", e => { sortBy = e.target.value; try { localStorage.setItem("sort", sortBy); } catch {} sortIcon(); renderList(); $("#list").scrollTop = 0; });
   const prioF = new Set();
   // Filter als Auswahlfelder: Fotografiert · Priorität · Auswahl (Favoriten/Beliebt/Gelöscht); Auswahl bleibt gespeichert
@@ -2627,7 +2627,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
 
   // ---------- Rundgänge: Sightseeing zu Fuß in Orten (data/walks.js aus cn/walks.json, tools/build_walks.py)
   const WALKS = window.WALKS || [];
-  let wkF = "", walkShown = null;
+  let wkF = "", walkShown = null; try { wkF = localStorage.getItem("wkF") || ""; } catch {}
   const walkLayer = L.layerGroup();
   // eigene Ebene über den Spot-Pins: sonst verdeckt z. B. der Dorf-Spot die Startstation (1)
   if (!map.getPane("walk")) map.createPane("walk").style.zIndex = 650;
@@ -2641,7 +2641,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const mk = walkMk;
     if (!map.hasLayer(walkLayer)) walkLayer.addTo(map);
     if (!walkShown && window._satOn) window._satOn();  // Dörfer sind kaum kartiert → Satellitenbild zeigt Gassen und Häuser
-    walkShown = id;
+    walkShown = id; try { localStorage.setItem("walkShown", id); } catch {}
     $("#walkPill").textContent = `Rundgang ${w.place} · ${w.stops.length} Stationen · ${String(w.km).replace(".", ",")} km  ✕`; $("#walkPill").hidden = false;
     $("#wk").hidden = true; dockSync();
     if (mobile()) setSnap("peek");
@@ -2666,7 +2666,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const z = Math.max(map.getZoom(), 18), pt = map.project(L.latLng(st.lat, st.lng), z).add([0, mobile() ? map.getSize().y * 0.25 : 0]);
     map.setView(map.unproject(pt, z), z);
   }
-  function hideWalk() { walkLayer.clearLayers(); map.removeLayer(walkLayer); walkShown = null; if (window._satOff) window._satOff(); walkMk = []; $("#walkPill").hidden = true; $("#wcard").hidden = true; dockSync(); }
+  function hideWalk() { walkLayer.clearLayers(); map.removeLayer(walkLayer); walkShown = null; try { localStorage.removeItem("walkShown"); } catch {} if (window._satOff) window._satOff(); walkMk = []; $("#walkPill").hidden = true; $("#wcard").hidden = true; dockSync(); }
   $("#walkPill").onclick = hideWalk;
   function renderWalks() {
     const areas = [...new Set(WALKS.map(w => w.area || ""))];
@@ -2686,13 +2686,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#wkBody").querySelectorAll("[data-wshow]").forEach(b => b.onclick = () => showWalk(b.dataset.wshow));
     $("#wkBody").querySelectorAll("[data-whide]").forEach(b => b.onclick = () => { hideWalk(); renderWalks(); });
     $("#wkBody").querySelectorAll("[data-wstop]").forEach(b => b.onclick = () => showWalk(b.dataset.wstop, +b.dataset.i));
-    $("#wkFilter").querySelectorAll("[data-wf]").forEach(b => b.onclick = () => { wkF = b.dataset.wf; renderWalks(); });
+    $("#wkFilter").querySelectorAll("[data-wf]").forEach(b => b.onclick = () => { wkF = b.dataset.wf; try { localStorage.setItem("wkF", wkF); } catch {} renderWalks(); });
   }
   function openWalks() { renderWalks(); $("#wk").hidden = false; }
+  // offener Rundgang bleibt nach Neustart auf der Karte (ohne den Kartenausschnitt zu verändern)
+  setTimeout(() => { let id = null; try { id = localStorage.getItem("walkShown"); } catch {}
+    const w = id && WALKS.find(x => x.id === id); if (!w) return;
+    const v = map.getCenter(), z = map.getZoom(); showWalk(id); map.setView(v, z, { animate: false }); }, 1200);
   $("#wkClose").onclick = () => { $("#wk").hidden = true; dockSync(); };
 
   // ---------- Timeline: zuletzt neu angelegte und ergänzte Elemente (data/timeline.js + eigene Spots + Eingang)
-  let tlF = "all", tlInbox = [];
+  let tlF = "all", tlInbox = []; try { tlF = localStorage.getItem("tlF") || "all"; } catch {}
   const tlSeen = () => { try { return localStorage.getItem("tlSeen") || ""; } catch { return ""; } };
   const tlEvents = () => {
     const ev = (window.TIMELINE || []).map(e => ({ ...e }));
@@ -2747,7 +2751,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       else if (/insp|loc/.test(e.k)) { $("#tl").hidden = true; openInsp(); dockSync(); }
       else if (e.url) window.open(e.url, "_blank", "noopener");
       else toast("Nicht mehr vorhanden", 2000); });
-    $("#tlFilter").querySelectorAll("[data-tf]").forEach(b => b.onclick = () => { tlF = b.dataset.tf; renderTimeline(); $("#tlBody").scrollTop = 0; });
+    $("#tlFilter").querySelectorAll("[data-tf]").forEach(b => b.onclick = () => { tlF = b.dataset.tf; try { localStorage.setItem("tlF", tlF); } catch {} renderTimeline(); $("#tlBody").scrollTop = 0; });
   }
   function openTimeline() {
     renderTimeline(); $("#tl").hidden = false; $("#tlBody").scrollTop = 0; loadTlInbox();
@@ -2776,7 +2780,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return `${Math.floor(loc)}:${String(Math.floor(loc % 1 * 60)).padStart(2, "0")}`;
   }
   const today = new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);  // Datum in China
-  let itinDay = (ITIN.days.find(d => d.date >= today) || ITIN.days[ITIN.days.length - 1] || {}).date;
+  // zuletzt gewählter Tag bleibt (auch nach Neustart); sonst heute bzw. nächster Reisetag
+  let itinDay = (() => { let d = null; try { d = localStorage.getItem("itinDay"); } catch {} return d && ITIN.days.some(x => x.date === d) ? d
+    : (ITIN.days.find(d => d.date >= today) || ITIN.days[ITIN.days.length - 1] || {}).date; })();
+  const setItinDay = d => { itinDay = d; try { localStorage.setItem("itinDay", d); } catch {} };
   let itinShown = null; try { itinShown = localStorage.getItem("itinShown"); } catch {}
   // vergangener Tag bleibt nicht auf der Karte stehen
   if (itinShown && itinShown < today) { itinShown = null; try { localStorage.removeItem("itinShown"); } catch {} }
@@ -3035,8 +3042,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     itinLayer = L.layerGroup(parts).addTo(map);
     if (fit && pts.length) { if (mobile()) setSnap("peek"); map.fitBounds(L.latLngBounds(pts.map(x => [x.lat, x.lng])), { padding: [50, 50], animate: false }); }
   }
-  function showItinDay(date, fit) { itinShown = date; try { date ? localStorage.setItem("itinShown", date) : localStorage.removeItem("itinShown"); } catch {} drawItin(fit); }
-  itinBtn.onclick = e => { e.stopPropagation(); if (itinShown) itinDay = itinShown; renderItin(); $("#itin").hidden = false; $("#itinBody").scrollTop = 0; };
+  function showItinDay(date, fit) { itinShown = date; if (date) setItinDay(date); try { date ? localStorage.setItem("itinShown", date) : localStorage.removeItem("itinShown"); } catch {} drawItin(fit); }
+  itinBtn.onclick = e => { e.stopPropagation(); renderItin(); $("#itin").hidden = false; $("#itinBody").scrollTop = 0; };
   $("#itinClose").onclick = () => { $("#itin").hidden = true; };
   $("#itinOpt").addEventListener("click", e => { const b = e.target.closest("button[data-o]"); if (!b || b.dataset.o !== "1") return; openOptPick(); });
   // Auswahl der optionalen Spots: Liste mit Vorschaubild, Name, Zeit und Haken → Übernehmen
@@ -3062,7 +3069,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       putChoice(d, sel, durOf(d), offN); close(); renderItin(); drawItin(false);
     };
   }
-  $("#itinDays").addEventListener("click", e => { const b = e.target.closest("button[data-day]"); if (!b) return; itinDay = b.dataset.day; renderItin(); $("#itinBody").scrollTop = 0; });
+  $("#itinDays").addEventListener("click", e => { const b = e.target.closest("button[data-day]"); if (!b) return; setItinDay(b.dataset.day); renderItin(); $("#itinBody").scrollTop = 0; });
   $("#itinSave").addEventListener("click", e => {
     const b = e.target.closest("button"), dd = ITIN.days.find(x => x.date === itinDay); if (!b || !dd) return;
     if (b.dataset.resetstd) { delete choiceLocal[dd.date]; try { localStorage.setItem("itinChoice", JSON.stringify(choiceLocal)); } catch {} renderItin(); drawItin(false); return; }
@@ -3108,7 +3115,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "91 · Satellit bei Rundgängen";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "92 · Auswahl bleibt gespeichert";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3163,7 +3170,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function goBack() {
     const bt = backTo; if (!bt) return;
     backTo = null; closedByX = true; map.closePopup();
-    if (bt.dlg === "plan") { itinDay = bt.day; renderItin(); $("#itin").hidden = false; $("#itinBody").scrollTop = bt.scroll; }
+    if (bt.dlg === "plan") { setItinDay(bt.day); renderItin(); $("#itin").hidden = false; $("#itinBody").scrollTop = bt.scroll; }
     else { renderTours(); $("#toursDlg").hidden = false; $("#toursBody").scrollTop = bt.scroll; }
     dockSync();
   }
@@ -3217,8 +3224,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     cluster.addLayers(inn.map(id => markers.get(id)).filter(Boolean));
     out.forEach(id => shown.delete(id)); inn.forEach(id => shown.add(id));
   }
-  // Startansicht: Hauptcluster der gewählten Region
-  fitRegion();
+  // Startansicht: zuletzt gesehener Kartenausschnitt (sonst Hauptcluster der gewählten Region)
+  (() => { let v = null; try { v = JSON.parse(localStorage.getItem("mapView") || "null"); } catch {}
+    if (v && v.c && v.z && Date.now() - (v.t || 0) < 3 * 864e5) map.setView(v.c, v.z, { animate: false }); else fitRegion(); })();
+  map.on("moveend", () => { try { const c = map.getCenter(); localStorage.setItem("mapView", JSON.stringify({ c: [+c.lat.toFixed(6), +c.lng.toFixed(6)], z: map.getZoom(), t: Date.now() })); } catch {} });
 
   // ---------- Liste
   function unplacedScope() {  // Posts ohne Ort im gewählten Bereich (Route/Alles: alle), passend zur Suche
