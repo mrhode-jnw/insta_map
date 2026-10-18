@@ -338,6 +338,18 @@
   .pop .phototip { background: #ecfeff; color: #155e75; border-radius: 8px; padding: 6px 8px; font-size: 13px; margin: 4px 0 8px; line-height: 1.4; }
   .pop .claude-note { background: #ede9fe; color: #5b21b6; border-radius: 8px; padding: 5px 8px; font-size: 12px; margin-bottom: 6px; }
   .pop .generic { font-size: 12px; color: #6b7280; margin-bottom: 6px; }
+  .pop .iglinks { margin: 0 0 8px; border: 1px solid var(--line, #e5e7eb); border-radius: 10px; font-size: 13px; }
+  .pop .iglinks summary { padding: 8px 10px; cursor: pointer; font-weight: 600; list-style: none; }
+  .pop .iglinks summary::-webkit-details-marker { display: none; }
+  .pop .iglinks summary::after { content: "▾"; float: right; color: #9ca3af; transition: transform .15s; }
+  .pop .iglinks[open] summary::after { transform: rotate(180deg); }
+  .pop .iglinks summary b { color: var(--accent, #e1306c); }
+  .pop .iglinks ul { margin: 0; padding: 0 10px 8px; list-style: none; max-height: 260px; overflow-y: auto; }
+  .pop .iglinks li { padding: 5px 0; border-top: 1px solid var(--line, #f1f1f1); }
+  .pop .iglinks li a { color: var(--accent) !important; text-decoration: none; font-weight: 600; }
+  .pop .iglinks li i { font-style: normal; font-size: 11px; color: #6b7280; }
+  .pop .iglinks li small { display: block; color: #6b7280; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .leaflet-popup.mini .iglinks { display: none; }
   .pop .generic a { color: var(--accent) !important; text-decoration: none; }
   .pop .credit { font-size: 10.5px; color: #6b7280; padding: 2px 12px 0; }
   .pop .credit a { color: #6b7280 !important; }
@@ -1268,6 +1280,16 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (i < 0 && p.image && l.length) return [{ image: p.image, url: p.image_page || p.post_url || p.image, profile_url: p.image_page || p.profile_url || p.image,
       username: p.username || "", credit: p.image_credit || (p.by_claude || p.image_page ? "Wikimedia Commons" : ""), kind: "photo" }, ...l];
     return l; };
+  // Instagram-Links des Spots als aufklappbare Liste (je Post eine Zeile, gleiche Posts nur einmal)
+  function igLinks(p, posts) {
+    const seen = new Set(), l = (p.posts || []).filter(x => {
+      const k = /instagram\.com\//.test(x.url || "") && (String(x.url).match(/\/(?:p|reel|tv)\/([A-Za-z0-9_-]+)/) || [])[1];
+      if (!k || seen.has(k)) return false; seen.add(k); return true; });
+    if (!l.length) return "";
+    const nGen = l.filter(x => !x.image).length;
+    return `<details class="iglinks"><summary>📸 Instagram-Posts <b>${l.length}</b>${!posts ? " · kein eigenes Foto" : ""}</summary><ul>${l.map(x =>
+      `<li><a href="${esc(x.url.split("?")[0])}" target="_blank" rel="noopener">@${esc(x.username || "Instagram")} ↗</a>${x.image ? "" : ` <i>${x.dup ? "gleiches Foto" : "Sammel-Post"}</i>`}${x.caption ? `<small>${esc(x.caption.split("\n")[0].slice(0, 80))}</small>` : ""}</li>`).join("")}</ul></details>`;
+  }
   const WHEN_LABEL = { day: "☀️ Tag", night: "🌙 Nacht", both: "☀️🌙 Tag & Nacht" };
   function popupHtml(p) {
     const nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
@@ -1336,9 +1358,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${p.pop_reason ? `<div class="popr">🔥 ${esc(p.pop_reason)}</div>` : ""}
         ${gal}
         ${p.ok ? `<div class="ok-note">✓ <b>Standort geprüft:</b> ${esc(p.ok)}</div>` : ""}
-        ${generic.length ? `<div class="generic">${posts ? "Außerdem in" : "Kein eigenes Foto – erwähnt in"} ${generic.map(x =>
-          `${x.dup ? "Post (gleiches Foto)" : "Sammel-Post"} von <a href="${esc(x.profile_url)}" target="_blank" rel="noopener">@${esc(x.username)}</a> · <a href="${esc(x.url)}" target="_blank" rel="noopener">Post ↗</a>`).join("; ")}</div>` : ""}
-        ${(p.xlinks || []).length ? `<div class="xlinks"><b>🔗 Eigene Links</b>${p.xlinks.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.url.replace(/^https?:\/\/(www\.)?/, "").slice(0, 48))}</a>`).join("")}<small>Fotos daraus übernimmt die Routine (ca. 1 Std.)</small></div>` : ""}
+        ${igLinks(p, posts)}
+        ${(p.xlinks || []).length ? `<details class="iglinks"><summary>🔗 Eigene Links <b>${p.xlinks.length}</b></summary><ul>${p.xlinks.map(l => { const ig = (l.url.match(/instagram\.com\/(?:[A-Za-z0-9_.]+\/)?(?:p|reel|tv)\/([A-Za-z0-9_-]+)/) || [])[1];
+          return `<li><a href="${esc(ig ? l.url.split("?")[0] : l.url)}" target="_blank" rel="noopener">${ig ? `Instagram-Post ${esc(ig.slice(0, 6))}… ↗` : esc(l.url.replace(/^https?:\/\/(www\.)?/, "").slice(0, 40)) + " ↗"}</a></li>`; }).join("")}<li><small>Fotos daraus übernimmt die Routine (ca. 1 Std.)</small></li></ul></details>` : ""}
         ${hero && p.caption && (p.image || !generic.length) ? `<div class="cap">${esc(p.caption)}</div>` : ""}
         ${hero && p.profile_url ? `<div class="generic">Foto: <a href="${esc(p.profile_url)}" target="_blank" rel="noopener">@${esc(p.username)}</a></div>` : ""}
       </div></div>`;
@@ -2800,7 +2822,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "75 · Zhangjiajie-Tage vorgewählt";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "76 · Instagram-Links aufklappbar";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
