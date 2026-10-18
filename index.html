@@ -485,8 +485,8 @@
   #inspBody .iw { position: relative; display: block; break-inside: avoid; }
   #inspBody .idel { position: absolute; top: 5px; right: 5px; width: 24px; height: 24px; padding: 0; border: 0; border-radius: 50%;
     background: rgba(0,0,0,.55); color: #fff; font-size: 16px; line-height: 24px; cursor: pointer; }
-  #inspBody .iloc { position: absolute; left: 5px; bottom: 13px; width: 30px; height: 30px; padding: 0; border: 0; border-radius: 50%;
-    background: rgba(0,0,0,.55); color: #fff; font-size: 15px; line-height: 30px; cursor: pointer; }
+  #inspBody .iloc { position: absolute; left: 5px; bottom: 13px; padding: 5px 10px; border: 0; border-radius: 999px;
+    background: rgba(0,0,0,.6); color: #fff; font-size: 12px; font-weight: 600; cursor: pointer; }
   #inspBody .ilocr { position: absolute; left: 5px; right: 5px; bottom: 13px; padding: 4px 8px; border: 0; border-radius: 999px; font-size: 12px; font-weight: 600;
     text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: rgba(0,0,0,.6); color: #fff; cursor: pointer; }
   #inspBody .ilocr.ok { background: rgba(15,118,110,.92); } #inspBody .ilocr.no { background: rgba(120,53,15,.85); } #inspBody .ilocr.wait { cursor: default; }
@@ -525,6 +525,9 @@
   #lb .bottom { padding: 10px 14px calc(env(safe-area-inset-bottom) + 12px); display: flex; gap: 10px; align-items: center; justify-content: space-between; }
   #lb .bottom .who { font-size: 14px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   #lb .bottom a { color: #fff; }
+  #lb .bottom #lbLoc { flex: 0 1 auto; width: auto; height: auto; max-width: 48%; border-radius: 10px; padding: 9px 12px; font-size: 14px; font-weight: 600;
+    background: rgba(255,255,255,.2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #lb .bottom #lbLoc[hidden] { display: none; } #lb .bottom #lbLoc:disabled { opacity: .7; cursor: default; }
   #lb .bottom a.btn { flex: none; background: var(--accent); padding: 9px 14px; border-radius: 10px; text-decoration: none; font-size: 14px; }
   .pop img[data-lb], .gal img[data-lb] { cursor: zoom-in; }
   #group { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 12px; z-index: 1000; display: flex;
@@ -1024,7 +1027,7 @@
 <div id="lb" hidden>
   <div class="top"><span id="lbCount"></span><button id="lbClose" aria-label="Schließen">✕</button></div>
   <div class="stage"><div id="lbStrip"></div><button class="nav prev" id="lbPrev" aria-label="Vorheriges Bild">‹</button><button class="nav next" id="lbNext" aria-label="Nächstes Bild">›</button></div>
-  <div class="bottom"><div class="who" id="lbWho"></div><a class="btn" id="lbPost" target="_blank" rel="noopener">Post öffnen ↗</a></div>
+  <div class="bottom"><div class="who" id="lbWho"></div><a class="btn" id="lbPost" target="_blank" rel="noopener">Post öffnen ↗</a><button class="btn" id="lbLoc" type="button" hidden>🔎 Ort recherchieren</button></div>
   <div id="lbGal"></div>
 </div>
 
@@ -2275,6 +2278,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#lbPost").hidden = !it.url; if (it.url) $("#lbPost").href = it.url;
     $("#lbPost").textContent = it.url && /wiki/.test(it.url) ? "Quelle ↗" : "Post öffnen ↗";
     $("#lbPrev").hidden = $("#lbNext").hidden = n < 2;
+    // Inspiration: Ort dieses Bildes recherchieren lassen bzw. Ergebnis zeigen
+    const lc = lb.locCtx && lb.locCtx.get(it.src), ls = lc && locState(it.src);
+    $("#lbLoc").hidden = !lc; if (lc) $("#lbPost").textContent = "Post ↗";
+    if (lc) { $("#lbLoc").textContent = !ls ? "🔎 Ort finden" : ls.status === "found" ? `📍 ${(places.find(x => x.id === ls.spot) || {}).name ? shortName(places.find(x => x.id === ls.spot).name) : "Spot"}`
+      : ls.status === "notfound" ? "❓ Ort nicht gefunden" : "⏳ Ort wird recherchiert"; $("#lbLoc").disabled = !!ls && ls.status === "pending"; }
     $("#lbGal").querySelectorAll("img").forEach((im, k) => im.classList.toggle("cur", k === i));
     [i - 1, i + 1, i + 2].forEach(k => { const d = lbStrip.children[k]; if (d && d.firstElementChild.loading === "lazy") d.firstElementChild.loading = "eager"; });  // Nachbarn laden
   }
@@ -2400,7 +2408,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const locState = img => { const req = locPending.filter(x => x.image === img).sort((a, b) => (a.added || "") < (b.added || "") ? 1 : -1)[0], r = LOC()[img];
     return req && (!r || r.id !== req.id) ? { status: "pending" } : r || null; };
   function locBadge(img) {
-    const r = locState(img); if (!r) return `<button class="iloc" data-loc="${esc(img)}" aria-label="Ort recherchieren" title="Ort recherchieren">🔎</button>`;
+    const r = locState(img); if (!r) return `<button class="iloc" data-loc="${esc(img)}" aria-label="Ort recherchieren" title="Ort recherchieren">🔎 Ort finden</button>`;
     const sp = r.spot && places.find(x => x.id === r.spot);
     return r.status === "found" ? `<button class="ilocr ok" data-locspot="${esc(r.spot)}" title="${esc(r.note || "")}">📍 ${esc(sp ? shortName(sp.name) : r.name || "Spot")}</button>`
       : r.status === "notfound" ? `<button class="ilocr no" data-locnote="${esc(img)}" title="${esc(r.note || "")}">❓ Ort nicht gefunden</button>`
@@ -2417,7 +2425,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       await mutate(list => [...list, entry], `Eingang: Ort recherchieren ${id}`, INBOX_PATH, []);
       locPending = [...locPending, entry];
       toast("🔎 Auftrag übernommen – Ergebnis erscheint hier in ca. 1 Stunde", 4000);
-      const y = $("#inspBody").scrollTop; openInsp(); $("#inspBody").scrollTop = y;
+      if (!$("#insp").hidden) { const y = $("#inspBody").scrollTop; const lc = lb.locCtx; openInsp(); $("#inspBody").scrollTop = y; if (lc) lb.locCtx = lc; }
     } catch (err) { toast(err.message, 5000); }
   }
   const inspWait = r => inspPending.filter(x => x.insp === r && !Object.values(INSP).some(l => (l || []).some(p => p.code === x.code)));
@@ -2454,7 +2462,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const all = regs.flatMap(r => [...owns(r).map(m => ({ image: m.image, url: m.image, credit: m.credit || "Eigenes Foto", profile_url: m.image })),
       ...marks(r).map(m => ({ image: m.image, url: m.url, credit: `${m.credit} · Spot: ${m.name}`, profile_url: m.url })),
       ...(INSP[r] || []).flatMap(post => imgsOfPost(post).map((src, k) => ({ image: src, url: post.url + "?img_index=" + (k + 1), username: post.user || "Instagram", profile_url: post.user ? `https://www.instagram.com/${post.user}/` : post.url })))]);
-    $("#inspBody").querySelectorAll("img[data-i]").forEach(img => img.onclick = () => lbOpen({ name: "Inspiration", posts: all }, +img.dataset.i));
+    $("#inspBody").querySelectorAll("img[data-i]").forEach(img => img.onclick = () => { lbOpen({ name: "Inspiration", posts: all }, +img.dataset.i); lb.locCtx = locCtx; lbMeta(lb.i); });
     $("#inspBody").querySelectorAll(".iadd").forEach(b => b.onclick = e => { e.stopPropagation(); inspUpload(b.dataset.iadd, b); });
     $("#inspBody").querySelectorAll("[data-loc]").forEach(b => b.onclick = e => { e.stopPropagation(); requestLocate(b.dataset.loc, locCtx.get(b.dataset.loc) || {}); });
     $("#inspBody").querySelectorAll("[data-locspot]").forEach(b => b.onclick = e => { e.stopPropagation();
@@ -2872,7 +2880,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "80 · Kartenwahl, kein Esri-Platzhalter in China";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "81 · Ort finden auch im Vollbild";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -2946,7 +2954,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function lbOpen(p, i) { lb.list = spotImages(p); lb.name = p.name.replace(/\s[\u3000-\u9fff].*$/, ""); lb.el.hidden = false; lb.el.scrollTop = 0; lb.i = -1; lbGallery();
     const d = lbStrip.children[i]; if (d) d.firstElementChild.loading = "eager"; lbShow(i); }
   $("#lbGal").addEventListener("click", e => { const im = e.target.closest("img[data-i]"); if (!im) return; lbShow(+im.dataset.i); lb.el.scrollTo({ top: 0, behavior: "smooth" }); });
-  const lbClose = () => { lb.el.hidden = true; zoomSet(1, 0, 0); lbStrip.innerHTML = ""; };
+  const lbClose = () => { lb.el.hidden = true; zoomSet(1, 0, 0); lbStrip.innerHTML = ""; lb.locCtx = null; };
+  $("#lbLoc").onclick = e => { e.stopPropagation(); const img = lb.list[lb.i].src, ls = locState(img), c = lb.locCtx.get(img);
+    if (ls && ls.status === "found") { lbClose(); $("#insp").hidden = true; location.hash = "spot=" + ls.spot; return; }
+    if (ls && ls.status === "notfound" && !confirm(`Ort nicht gefunden.\n\n${ls.note || ""}\n\nNochmal recherchieren?`)) return;
+    requestLocate(img, c).then(() => lbMeta(lb.i)); };
   $("#lbClose").onclick = lbClose;
   $("#lbPrev").onclick = e => { e.stopPropagation(); lbShow(lb.i - 1, true); };
   $("#lbNext").onclick = e => { e.stopPropagation(); lbShow(lb.i + 1, true); };
