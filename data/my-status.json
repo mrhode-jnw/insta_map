@@ -524,5 +524,8 @@
  "cn-shanghai-tower-observation-deck": {
   "fav": true,
   "prio": "hoch"
+ },
+ "cn-dongchangzhi-rd-lushun-rd": {
+  "prio": "mittel"
  }
 }
