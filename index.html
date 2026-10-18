@@ -2608,8 +2608,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const d = ITIN.days.find(x => x.date === itinDay) || ITIN.days[0]; if (!d) return;
     $("#itinDays").innerHTML = ITIN.days.map(x => { const [w, dm] = dayLabel(x).split(" ");
       return `<button data-day="${x.date}" class="${x.date === d.date ? "on" : ""}${x.date === today ? " today" : ""}">${w}<b>${dm.split(".")[0]}</b>${dm.split(".")[1]}.</button>`; }).join("");
-    const comp = composeDay(d), items = itinOpt ? comp.view : comp.active, nOpt = d.items.filter(it => it.opt && it.type !== "move").length, nSel = chosenOf(d).size;
-    $("#itinOpt").innerHTML = `<button data-o="0" class="${itinOpt ? "" : "on"}">★ Reiseplan${nSel ? ` (+${nSel})` : ""}</button><button data-o="1" class="${itinOpt ? "on" : ""}">＋ Optionale Spots${nOpt ? ` (${nOpt})` : ""}</button>`;
+    const comp = composeDay(d), items = comp.active, nOpt = d.items.filter(it => it.opt && it.type !== "move").length, nSel = chosenOf(d).size;
+    $("#itinOpt").innerHTML = `<button data-o="0" class="on">★ Reiseplan${nSel ? ` (+${nSel})` : ""}</button>${nOpt ? `<button data-o="1">＋ Optionale Spots (${nSel}/${nOpt})</button>` : ""}`;
     const first = items.find(it => it.lat) || {}, dd = dayDate(d);
     const sun = first.lat ? [sunTime(first.lat, first.lng, dd, true), sunTime(first.lat, first.lng, dd, false), sunTime(first.lat, first.lng, dd, false, 96)] : null;
     itinLb = [];
@@ -2621,7 +2621,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
             ${it.plan || it.opt ? `<div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}</div>` : ""}${lightHtml(it)}${it.text ? `<p>${esc(it.text)}</p>` : ""}
             ${(it.spots || []).length ? `<div class="iact">${it.spots.map(id => spotOf(id)).filter(Boolean).map(p => `<button data-spot="${esc(p.id)}">📍 ${esc(shortName(p.name))}</button>`).join("")}</div>` : ""}</div></div></div>`;
       const sel = it.opt && !it._sugg;
-      const choose = it.opt ? `<button class="ichoose" data-choose="${esc(optKey(it))}" data-on="${sel ? 1 : 0}">${sel ? "✓ eingeplant" : "＋ einplanen"}</button>` : "";
+      const choose = "";
       const sc = sch.get(it), moved = sc && sc.t.replace("~", "") !== String(it.t || "").replace("~", "").replace(/\s/g, "");
       const dur = sc && it.type === "stop" && (sc.range || sc.dur) ? `<div class="idur${sc.dur !== sc.base ? " chg" : ""}">⏱ Aufenthalt <b>${fmtMin(sc.dur)}</b>
           <button data-dur="${esc(sc.key)}" data-v="${Math.max(0, sc.dur - 15)}" aria-label="15 Minuten kürzer">−</button><button data-dur="${esc(sc.key)}" data-v="${sc.dur + 15}" aria-label="15 Minuten länger">+</button>
@@ -2670,8 +2670,27 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function showItinDay(date, fit) { itinShown = date; try { date ? localStorage.setItem("itinShown", date) : localStorage.removeItem("itinShown"); } catch {} drawItin(fit); }
   itinBtn.onclick = e => { e.stopPropagation(); if (itinShown) itinDay = itinShown; renderItin(); $("#itin").hidden = false; $("#itinBody").scrollTop = 0; };
   $("#itinClose").onclick = () => { $("#itin").hidden = true; };
-  $("#itinOpt").addEventListener("click", e => { const b = e.target.closest("button[data-o]"); if (!b) return;
-    itinOpt = b.dataset.o === "1"; try { localStorage.setItem("itinOpt", itinOpt ? "1" : "0"); } catch {} renderItin(); drawItin(false); });
+  $("#itinOpt").addEventListener("click", e => { const b = e.target.closest("button[data-o]"); if (!b || b.dataset.o !== "1") return; openOptPick(); });
+  // Auswahl der optionalen Spots: Liste mit Vorschaubild, Name, Zeit und Haken → Übernehmen
+  function openOptPick() {
+    const d = ITIN.days.find(x => x.date === itinDay); if (!d) return;
+    const opts = d.items.filter(it => it.opt && it.type !== "move"), ch = chosenOf(d), box = $("#tourPick");
+    const row = it => { const p = it.spot && spotOf(it.spot), k = optKey(it);
+      const img = p && p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy" style="width:56px;height:56px;border-radius:10px;object-fit:cover;flex:none">`
+        : `<span style="width:56px;height:56px;border-radius:10px;display:grid;place-items:center;flex:none;background:var(--soft);font-size:24px">${esc(it.icon || "📍")}</span>`;
+      return `<label class="tprow" style="gap:12px"><input type="checkbox" data-k="${esc(k)}" ${ch.has(k) ? "checked" : ""}>${img}
+        <span style="min-width:0"><b style="display:block">${esc(p ? shortName(p.name) : it.title || "")}</b><small>${esc([it.t, it.lightText].filter(Boolean).join(" · "))}</small></span></label>`; };
+    box.innerHTML = `<div class="tpcard"><div class="tphead"><b>Optionale Spots · ${esc(dayLabel(d))}</b><button class="tpclose" aria-label="Schließen">✕</button></div>
+      ${opts.map(row).join("")}<button class="xa-save" data-ok>Übernehmen</button></div>`;
+    box.style.zIndex = 3500; box.hidden = false;
+    const close = () => { box.hidden = true; box.style.zIndex = ""; };
+    box.querySelector(".tpclose").onclick = close;
+    box.onclick = e => { if (e.target === box) close(); };
+    box.querySelector("[data-ok]").onclick = () => {
+      const sel = [...box.querySelectorAll("input[data-k]")].filter(x => x.checked).map(x => x.dataset.k);
+      putChoice(d, sel, durOf(d)); close(); renderItin(); drawItin(false);
+    };
+  }
   $("#itinDays").addEventListener("click", e => { const b = e.target.closest("button[data-day]"); if (!b) return; itinDay = b.dataset.day; renderItin(); $("#itinBody").scrollTop = 0; });
   $("#itinBody").addEventListener("click", e => {
     const im = e.target.closest("[data-lb]");
