@@ -1,0 +1,93 @@
+{
+ "2026-10-23": {
+  "opt": [
+   "claude-cn-avatar-hallelujah-mountain"
+  ],
+  "dur": {}
+ },
+ "2026-10-24": {
+  "opt": [
+   "claude-cn-avatar-hallelujah-mountain",
+   "claude-cn-first-bridge-under-heaven",
+   "claude-cn-helong-park",
+   "claude-cn-imperial-brush-peaks",
+   "claude-cn-mihun-tai-enchanting-terrace",
+   "claude-cn-xihai-stone-forest"
+  ],
+  "dur": {}
+ },
+ "2026-10-25": {
+  "opt": [
+   "claude-cn-bailong-elevator",
+   "claude-cn-golden-whip-stream",
+   "claude-cn-mihun-tai-enchanting-terrace",
+   "claude-cn-yangjiajie-tianbo-mansion"
+  ],
+  "dur": {}
+ },
+ "2026-10-26": {
+  "opt": [
+   "claude-cn-mihun-tai-enchanting-terrace",
+   "claude-cn-raffles-city-the-crystal",
+   "cn-hongyadong",
+   "cn-qiansimen-bridge"
+  ],
+  "dur": {}
+ },
+ "2026-10-27": {
+  "opt": [
+   "claude-cn-longmenhao-old-street",
+   "claude-cn-yikeshu-viewing-platform",
+   "cn-baixiangju-yangtze-river-cableway",
+   "cn-eling-park-skywalk",
+   "cn-eling-second-factory",
+   "cn-huguang-guild-hall",
+   "cn-liziba-station-monorail-durchs-haus"
+  ],
+  "dur": {}
+ },
+ "2026-10-28": {
+  "opt": [
+   "claude-cn-shibati-old-steps",
+   "claude-cn-zhapu-road-bridge-suzhou-creek",
+   "cn-chaotianmen",
+   "cn-the-bund-lujiazui",
+   "cn-waibaidu-bridge-suzhou-creek"
+  ],
+  "dur": {}
+ },
+ "2026-10-29": {
+  "opt": [
+   "claude-cn-jin-mao-tower-atrium",
+   "claude-cn-lujiazui-circular-footbridge",
+   "claude-cn-tianzifang",
+   "cn-museum-of-art-pudong",
+   "cn-north-bund-riverside-park",
+   "cn-shanghai-tower-observation-deck",
+   "cn-yu-garden"
+  ],
+  "dur": {}
+ },
+ "2026-10-30": {
+  "opt": [
+   "claude-cn-columbia-circle",
+   "claude-cn-west-bund-long-museum",
+   "claude-cn-zhujiajiao-water-town",
+   "cn-cathay-cinema",
+   "cn-jing-an-temple",
+   "cn-wukang-mansion"
+  ],
+  "dur": {}
+ },
+ "2026-10-31": {
+  "opt": [
+   "cn-1000-trees",
+   "cn-bvlgari-hotel-shanghai",
+   "cn-nanjing-road",
+   "cn-rockbund",
+   "cn-shanghai-astronomy-museum",
+   "cn-the-bund-lujiazui"
+  ],
+  "dur": {}
+ }
+}
