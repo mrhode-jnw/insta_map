@@ -2434,7 +2434,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function locBadge(img) {
     const r = locState(img); if (!r) return `<button class="iloc" data-loc="${esc(img)}" aria-label="Ort recherchieren" title="Ort recherchieren">🔎 Ort finden</button>`;
     const sp = r.spot && places.find(x => x.id === r.spot);
-    return r.status === "found" ? `<button class="ilocr ok" data-locspot="${esc(r.spot)}" title="${esc(r.note || "")}">📍 ${esc(sp ? shortName(sp.name) : r.name || "Spot")}</button>`
+    return r.status === "found" ? `<button class="ilocr ok" data-locspot="${esc(r.spot)}" title="${esc(r.note || "")}">📍 ${esc(sp ? shortName(sp.name) : r.name || "Spot")}${r.mode === "new" ? " · neuer Spot" : " · Foto ergänzt"}</button>`
       : r.status === "notfound" ? `<button class="ilocr no" data-locnote="${esc(img)}" title="${esc(r.note || "")}">❓ Ort nicht gefunden</button>`
       : `<span class="ilocr wait">⏳ Ort wird recherchiert</span>`;
   }
@@ -2594,7 +2594,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         case "photo": title = `<span class="tag photo">+${e.n} ${e.n === 1 ? "FOTO" : "FOTOS"}</span>${nm}`; sub = p ? [p.category, p.district].filter(Boolean).join(" · ") : ""; icon = "📷"; break;
         case "plan": title = `<span class="tag plan">PLAN</span>Reiseplan geändert`; sub = (e.text || "").replace(/^Reiseplan:?\s*/, ""); icon = "📅"; break;
         case "insp": title = `<span class="tag insp">+${e.n}</span>Inspiration: neue ${e.n === 1 ? "Post" : "Posts"}`; sub = (e.regions || []).map(r => INSP_REG[r] || r).join(", "); icon = "💡"; break;
-        case "loc": title = e.status === "found" ? `<span class="tag photo">GEFUNDEN</span>${nm || "Spot"}` : `<span class="tag" style="background:#92400e">NICHT GEFUNDEN</span>Ort unklar`; sub = e.note || ""; icon = "🔎"; break;
+        case "loc": title = e.status === "found" ? (e.mode === "new" ? `<span class="tag new">NEUER SPOT</span>${nm || "Spot"}` : `<span class="tag photo">FOTO ERGÄNZT</span>${nm || "Spot"}`) : `<span class="tag" style="background:#92400e">NICHT GEFUNDEN</span>Ort unklar`; sub = e.note || ""; icon = "🔎"; break;
         case "locq": title = `<span class="tag insp">IN ARBEIT</span>Ort wird recherchiert`; sub = e.where || "Inspirationsbild"; icon = "🔎"; break;
         case "inspq": title = `<span class="tag insp">⏳</span>Inspiration: Link eingegangen`; sub = e.url || ""; icon = "💡"; break;
         default: title = `<span class="tag">📥</span>Link im Eingang`; sub = [e.where, e.url].filter(Boolean).join(" · "); icon = "📥";
@@ -2969,7 +2969,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "84 · Timeline mit Ortsrecherchen";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "85 · Foto ergänzt / neuer Spot";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")

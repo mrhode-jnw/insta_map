@@ -64,8 +64,11 @@ daraus einen Spot machen. Hierfür **viel Zeit nehmen** – gründlich statt sch
    Blog- und Locationscout-Treffer, OSM/Photon, Wikimedia-Commons-Fotos zum Vergleich. Kandidaten mit
    Vergleichsfotos prüfen, bis die Übereinstimmung **sicher** ist (gleiche Details, nicht nur „sieht ähnlich aus“).
 3. **Gefunden:**
-   - Spot gibt es schon (gleicher Ort/≤ 80 m) → Bild mit Quelle in `extra_photos.json` beim Spot ergänzen
-     (Bild nach `images/` kopieren), keinen doppelten Spot anlegen.
+   - **Spot gibt es schon** (gleicher Ort/≤ 80 m, auch bei anderem Namen – vorher in `data/china.js`/`data/places.js`
+     nach Name und Koordinaten suchen) → **keinen neuen Spot anlegen**, sondern das Inspirationsbild (und weitere
+     Slides desselben Posts, die den Ort zeigen) mit Quelle in `extra_photos.json` **bei diesem Spot einfügen**
+     (Bild nach `images/` kopieren) und bauen. `located` erkennt das selbst und markiert es in der App/Timeline
+     als „Foto ergänzt“.
    - Sonst neuer Spot: HK `hk/extra_spots.json`, China (`sh`/`cn`) `cn/extra_spots.json` mit Koordinaten des
      **Standpunkts** (OSM/Photon; trip.com GCJ-02 → WGS84 mit `tools/linkinfo.py gcj2wgs`), `note` (was/wo, woher
      der Standort stammt), `tip` (Standpunkt, Brennweite, beste Zeit); das Inspirationsbild (und ggf. weitere

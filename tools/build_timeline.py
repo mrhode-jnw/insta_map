@@ -55,6 +55,7 @@ def main():
     files = SPOT_FILES + [ITIN, INSP, LOC]
     log = [l.split("\x1f") for l in git("log", "--reverse", "--format=%H\x1f%cI\x1f%s", "--", *files).split("\n") if l]
     ev, state = [], {}
+    final = jload(open(os.path.join(ROOT, LOC), encoding="utf-8").read(), {}) if os.path.exists(os.path.join(ROOT, LOC)) else {}
 
     def utc(s):
         return dt.datetime.fromisoformat(s).astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M")
@@ -90,11 +91,26 @@ def main():
         if LOC in changed:
             cur = jload(git("show", f"{sha}:{LOC}"), {})
             prev = state.get(LOC, {})
+            key = lambda r: {k: v for k, v in (r or {}).items() if k != "mode"}  # nur echte neue Ergebnisse
             if rec:
                 for img, r in cur.items():
-                    if prev.get(img) != r:
-                        ev.append({"t": t, "k": "loc", "image": img, "status": r.get("status"), "id": r.get("spot"), "note": (r.get("note") or "")[:200]})
+                    if key(prev.get(img)) != key(r):
+                        r = {**r, **({"mode": final.get(img, {}).get("mode")} if final.get(img, {}).get("id") == r.get("id") else {})}
+                        ev.append({"t": t, "k": "loc", "image": img, "status": r.get("status"), "id": r.get("spot"), "mode": r.get("mode"), "note": (r.get("note") or "")[:200]})
             state[LOC] = cur
+    # noch nicht eingecheckte Änderungen (z. B. gerade von der Routine gebaut) mit der aktuellen Zeit
+    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M")
+    for f in SPOT_FILES:
+        cur, prev = spots(open(os.path.join(ROOT, f), encoding="utf-8").read()), state.get(f) or {}
+        for i, (name, imgs) in cur.items():
+            if prev and i not in prev:
+                ev.append({"t": now, "k": "new", "id": i, "name": name, "n": len(imgs)})
+            elif i in prev and imgs - prev[i][1]:
+                ev.append({"t": now, "k": "photo", "id": i, "name": name, "n": len(imgs - prev[i][1])})
+    key = lambda r: {k: v for k, v in (r or {}).items() if k != "mode"}
+    for img, r in final.items():
+        if key(state.get(LOC, {}).get(img)) != key(r):
+            ev.append({"t": now, "k": "loc", "image": img, "status": r.get("status"), "id": r.get("spot"), "mode": r.get("mode"), "note": (r.get("note") or "")[:200]})
     ev.sort(key=lambda e: e["t"], reverse=True)
     ev = ev[:MAX]
     with open(OUT, "w", encoding="utf-8") as fh:
