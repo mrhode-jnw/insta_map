@@ -467,9 +467,15 @@
   #lbGal img.cur { outline: 3px solid var(--accent); outline-offset: -3px; }
   #lb .stage.zoomed { touch-action: none; }
   #lb .stage.zoomed img { transition: none; }
+  /* Fotos nebeneinander, native Wisch-Bewegung folgt dem Finger */
+  #lbStrip { position: absolute; inset: 0; display: flex; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; scrollbar-width: none;
+    overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch; }
+  #lbStrip::-webkit-scrollbar { display: none; }
+  #lbStrip > div { flex: 0 0 100%; height: 100%; display: flex; align-items: center; justify-content: center; scroll-snap-align: center; scroll-snap-stop: always; overflow: hidden; }
+  #lb .stage.zoomed #lbStrip { overflow: hidden; }
   #lb .stage.zoomed .nav, #lb .stage.zoomed .more { display: none; }
   #lb .more { position: absolute; left: 50%; bottom: 6px; transform: translateX(-50%); font-size: 12px; opacity: .65; pointer-events: none; }
-  #lb .stage img { max-width: 100%; max-height: 100%; object-fit: contain; transition: transform .2s ease; }
+  #lb .stage img { max-width: 100%; max-height: 100%; object-fit: contain; }
   #lb .top { display: flex; justify-content: space-between; align-items: center; padding: calc(env(safe-area-inset-top) + 8px) 12px 8px; }
   #lb .top span { font-size: 14px; opacity: .8; }
   #lb button { background: rgba(255,255,255,.15); color: #fff; border: 0; border-radius: 50%; width: 44px; height: 44px; font-size: 24px; cursor: pointer; }
@@ -974,7 +980,7 @@
 </div>
 <div id="lb" hidden>
   <div class="top"><span id="lbCount"></span><button id="lbClose" aria-label="Schließen">✕</button></div>
-  <div class="stage"><img id="lbImg" alt=""><button class="nav prev" id="lbPrev" aria-label="Vorheriges Bild">‹</button><button class="nav next" id="lbNext" aria-label="Nächstes Bild">›</button></div>
+  <div class="stage"><div id="lbStrip"></div><button class="nav prev" id="lbPrev" aria-label="Vorheriges Bild">‹</button><button class="nav next" id="lbNext" aria-label="Nächstes Bild">›</button></div>
   <div class="bottom"><div class="who" id="lbWho"></div><a class="btn" id="lbPost" target="_blank" rel="noopener">Post öffnen ↗</a></div>
   <div id="lbGal"></div>
 </div>
@@ -2184,24 +2190,35 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (ps.length) return ps.map(x => ({ src: x.image, url: x.url, label: who(x), profile: x.profile_url }));
     return p.image ? [{ src: p.image, url: p.post_url || p.image_page || p.wiki_url, label: p.image_credit || p.by_claude ? (p.image_credit || "Wikimedia Commons") : (p.username ? "@" + p.username : ""), profile: p.profile_url }] : [];
   }
-  function lbShow(i) {
+  const lbStrip = $("#lbStrip");
+  const curImg = () => { const d = lbStrip.children[lb.i]; return d && d.firstElementChild; };
+  function lbMeta(i) {  // Zähler, Quelle, Galerie-Markierung für Foto i (ohne zu scrollen)
     const n = lb.list.length; if (!n) return;
-    lb.i = (i + n) % n;
-    const it = lb.list[lb.i];
-    $("#lbImg").src = it.src;
-    $("#lbCount").textContent = `${lb.name} · ${lb.i + 1} / ${n}`;
+    if (i !== lb.i) { zoomSet(1, 0, 0); lb.i = i; }
+    const it = lb.list[i];
+    $("#lbCount").textContent = `${lb.name} · ${i + 1} / ${n}`;
     $("#lbWho").innerHTML = it.profile ? `<a href="${esc(it.profile)}" target="_blank" rel="noopener">${esc(it.label)}</a>` : esc(it.label);
     $("#lbPost").hidden = !it.url; if (it.url) $("#lbPost").href = it.url;
     $("#lbPost").textContent = it.url && /wiki/.test(it.url) ? "Quelle ↗" : "Post öffnen ↗";
     $("#lbPrev").hidden = $("#lbNext").hidden = n < 2;
-    $("#lbGal").querySelectorAll("img").forEach((im, k) => im.classList.toggle("cur", k === lb.i));
-    zoomSet(1, 0, 0);
-    [1, -1, 2].forEach(d => { const nb = lb.list[(lb.i + d + n) % n]; if (nb) { const im = new Image(); im.decoding = "async"; im.src = nb.src; } });  // Nachbarn vorladen: Blättern ohne Warten
+    $("#lbGal").querySelectorAll("img").forEach((im, k) => im.classList.toggle("cur", k === i));
+    [i - 1, i + 1, i + 2].forEach(k => { const d = lbStrip.children[k]; if (d && d.firstElementChild.loading === "lazy") d.firstElementChild.loading = "eager"; });  // Nachbarn laden
   }
+  function lbShow(i, smooth) {
+    const n = lb.list.length; if (!n) return;
+    i = (i + n) % n;
+    zoomSet(1, 0, 0); lb.i = i; lbMeta(i);
+    lbStrip.scrollTo({ left: i * lbStrip.clientWidth, behavior: smooth ? "smooth" : "instant" });
+  }
+  lbStrip.addEventListener("scroll", () => {
+    const i = Math.max(0, Math.min(lb.list.length - 1, Math.round(lbStrip.scrollLeft / (lbStrip.clientWidth || 1))));
+    if (i !== lb.i) lbMeta(i);
+  }, { passive: true });
   // Zoomen im Vollbild: zwei Finger (Pinch), doppelt tippen oder Mausrad/Doppelklick; gezoomt mit einem Finger verschieben
   const zm = { s: 1, x: 0, y: 0 };
   function zoomSet(sc, x, y) {
-    const img = $("#lbImg"), st = $("#lb .stage");
+    const img = curImg(), st = $("#lb .stage");
+    if (!img) { zm.s = 1; zm.x = zm.y = 0; st.classList.remove("zoomed"); return; }
     sc = Math.min(5, Math.max(1, sc));
     const mx = Math.max(0, (img.clientWidth * sc - st.clientWidth) / 2), my = Math.max(0, (img.clientHeight * sc - st.clientHeight) / 2);
     zm.s = sc; zm.x = sc > 1 ? Math.min(mx, Math.max(-mx, x)) : 0; zm.y = sc > 1 ? Math.min(my, Math.max(-my, y)) : 0;
@@ -2214,9 +2231,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     zoomSet(sc, px - (px - zm.x) * k, py - (py - zm.y) * k);
   }
   {
-    const st = $("#lb .stage"); let pinch = null, pan = null, lastTap = 0;
+    const st = $("#lb .stage"); let pinch = null, pan = null, lastTap = 0, t1 = null;
     const dist2 = t => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
     st.addEventListener("touchstart", e => {
+      t1 = e.touches.length === 1 ? { x: e.touches[0].clientX, y: e.touches[0].clientY } : null;
       if (e.touches.length === 2) { sw = null; pan = null;
         pinch = { d: dist2(e.touches), s: zm.s, mx: (e.touches[0].clientX + e.touches[1].clientX) / 2, my: (e.touches[0].clientY + e.touches[1].clientY) / 2, x: zm.x, y: zm.y };
         tListen(true); }
@@ -2241,7 +2259,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       if (e.touches.length < 2) pinch = null;
       if (!e.touches.length) tListen(false);
       if (!e.touches.length) {
-        const moved = pan && e.changedTouches[0] && Math.hypot(e.changedTouches[0].clientX - pan.cx, e.changedTouches[0].clientY - pan.cy) > 10;
+        const ct = e.changedTouches[0], moved = !t1 || !ct || Math.hypot(ct.clientX - t1.x, ct.clientY - t1.y) > 10;  // Wischen ist kein Tippen
         pan = null;
         if (zm.s < 1.05) zoomSet(1, 0, 0);
         const t = e.changedTouches[0], now = Date.now();
@@ -2261,6 +2279,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   function lbGallery() {  // alle Fotos des Spots groß untereinander; Antippen zeigt es oben
     const n = lb.list.length;
+    lbStrip.innerHTML = lb.list.map(it => `<div><img src="${esc(it.src)}" alt="" loading="lazy" decoding="async"></div>`).join("");
     $("#lbGal").innerHTML = n > 1 ? `<h4>Alle ${n} Fotos</h4><div class="g">${lb.list.map((it, k) =>
       `<img src="${esc(it.src)}" alt="" loading="lazy" decoding="async" data-i="${k}">`).join("")}</div>` : "";
     $(".stage .more") && $(".stage .more").remove();
@@ -2625,37 +2644,21 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   new MutationObserver(dockSync).observe(document.body, { subtree: true, attributes: true, attributeFilter: ["hidden"] });
   $("#fMore").addEventListener("change", dockSync);
   dockSync();
-  function lbOpen(p, i) { lb.list = spotImages(p); lb.name = p.name.replace(/\s[\u3000-\u9fff].*$/, ""); lb.el.hidden = false; lb.el.scrollTop = 0; lbGallery(); lbShow(i); }
+  function lbOpen(p, i) { lb.list = spotImages(p); lb.name = p.name.replace(/\s[\u3000-\u9fff].*$/, ""); lb.el.hidden = false; lb.el.scrollTop = 0; lb.i = -1; lbGallery();
+    const d = lbStrip.children[i]; if (d) d.firstElementChild.loading = "eager"; lbShow(i); }
   $("#lbGal").addEventListener("click", e => { const im = e.target.closest("img[data-i]"); if (!im) return; lbShow(+im.dataset.i); lb.el.scrollTo({ top: 0, behavior: "smooth" }); });
-  const lbClose = () => { lb.el.hidden = true; $("#lbImg").src = ""; };
+  const lbClose = () => { lb.el.hidden = true; zoomSet(1, 0, 0); lbStrip.innerHTML = ""; };
   $("#lbClose").onclick = lbClose;
-  $("#lbPrev").onclick = e => { e.stopPropagation(); lbShow(lb.i - 1); };
-  $("#lbNext").onclick = e => { e.stopPropagation(); lbShow(lb.i + 1); };
+  $("#lbPrev").onclick = e => { e.stopPropagation(); lbShow(lb.i - 1, true); };
+  $("#lbNext").onclick = e => { e.stopPropagation(); lbShow(lb.i + 1, true); };
   document.addEventListener("keydown", e => {
     if (lb.el.hidden) return;
     if (e.key === "Escape") lbClose();
-    if (e.key === "ArrowLeft") { e.stopImmediatePropagation(); lbShow(lb.i - 1); }
-    if (e.key === "ArrowRight") { e.stopImmediatePropagation(); lbShow(lb.i + 1); }
+    if (e.key === "ArrowLeft") { e.stopImmediatePropagation(); lbShow(lb.i - 1, true); }
+    if (e.key === "ArrowRight") { e.stopImmediatePropagation(); lbShow(lb.i + 1, true); }
   }, true);
-  // Wischen: links/rechts = blättern, nach unten = schließen
+  // Wischen links/rechts macht der Foto-Streifen selbst (natives Scrollen); hier nur Merker für die Zoom-Gesten
   let sw = null;
-  $("#lb .stage").addEventListener("pointerdown", e => { if (e.target.closest("button") || zm.s > 1 || !e.isPrimary) return; sw = { x: e.clientX, y: e.clientY }; });
-  $("#lb .stage").addEventListener("pointermove", e => {
-    if (!sw || zm.s > 1 || !e.isPrimary) return;
-    const dx = e.clientX - sw.x, dy = e.clientY - sw.y;
-    $("#lbImg").style.transition = "none";
-    $("#lbImg").style.transform = Math.abs(dx) > Math.abs(dy) ? `translateX(${dx}px)` : lb.el.scrollTop > 0 ? "" : `translateY(${Math.max(0, dy)}px)`;
-  });
-  const swEnd = e => {
-    if (!sw || !e.isPrimary) return;
-    if (zm.s > 1) { sw = null; return; }
-    const dx = e.clientX - sw.x, dy = e.clientY - sw.y; sw = null;
-    $("#lbImg").style.transition = ""; $("#lbImg").style.transform = "";
-    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) lbShow(lb.i + (dx < 0 ? 1 : -1));
-    else if (dy > 90 && lb.el.scrollTop <= 0) lbClose();
-  };
-  $("#lb .stage").addEventListener("pointerup", swEnd);
-  $("#lb .stage").addEventListener("pointercancel", swEnd);
   map.on("popupopen", ev => {
     const el = ev.popup.getElement(), box = el.querySelector(".status");
     const p = box && places.find(x => x.id === box.dataset.id); if (!p) return;
