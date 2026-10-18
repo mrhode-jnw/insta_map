@@ -1161,8 +1161,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const r = lat / 180 * Math.PI; let m = Math.sin(r); m = 1 - ee * m * m; const sm = Math.sqrt(m);
       return [lat + dLat * 180 / ((a * (1 - ee)) / (m * sm) * Math.PI), lng + dLng * 180 / (a / sm * Math.cos(r) * Math.PI)];
     };
+    // in China hat Esri nur bis ca. Zoom 16 echte Kacheln (darüber „Map data not yet available“) → dort hochskalieren
     const esri = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
-      maxZoom: 21, maxNativeZoom: 19, attribution: "Esri World Street Map" });
+      maxZoom: 21, maxNativeZoom: inMainland(LAST_POS) ? 16 : 19, attribution: "Esri World Street Map" });
     const gaode = L.tileLayer("https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}", {
       subdomains: "1234", maxZoom: 21, maxNativeZoom: 18, attribution: "© 高德 AutoNavi" });
     // Gaode-Kacheln sind ins GCJ-System verschoben: jede Kachel um den Versatz in Kartenmitte zurücksetzen (Pins sind WGS84)
@@ -1189,15 +1190,22 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         if (my !== stamp || !map.hasLayer(layer) || ok > 0) return;
         const next = CHAIN[CHAIN.indexOf(layer) + 1]; if (!next) return;
         map.removeLayer(layer); next.addTo(map);
-        try { localStorage.setItem("tileBase", String(CHAIN.indexOf(next))); } catch {}
+        try { localStorage.setItem("tileBase2", next === esri ? "esri" : "gaode"); } catch {}
         toast(`Kartenkacheln nicht erreichbar – wechsle zu ${next === esri ? "Esri" : "Gaode (高德)"}.`, 3500);
       }, 7000);
     };
     CHAIN.forEach(l => l.on("add", () => watch(l)));
     // zuletzt funktionierende Ausweich-Karte gleich nehmen
-    osm.on("add", () => { let i = 0; try { i = +localStorage.getItem("tileBase") || 0; } catch {}
-      if (i > 0 && CHAIN[i]) setTimeout(() => { if (map.hasLayer(osm)) { map.removeLayer(osm); CHAIN[i].addTo(map); } }, 0); });
-    osm.on("tileload", () => { try { localStorage.removeItem("tileBase"); } catch {} });
+    // (gemerkt per Name; in China nie Esri vorziehen – alter Index-Schlüssel „tileBase“ zeigte dort auf Esri)
+    try { localStorage.removeItem("tileBase"); } catch {}
+    osm.on("add", () => { let n = ""; try { n = localStorage.getItem("tileBase2") || ""; } catch {}
+      const l = n === "gaode" ? gaode : n === "esri" && !inMainland(LAST_POS) ? esri : n === "esri" ? gaode : null;
+      if (l) setTimeout(() => { if (map.hasLayer(osm)) { map.removeLayer(osm); l.addTo(map); } }, 0); });
+    osm.on("tileload", () => { try { localStorage.removeItem("tileBase2"); } catch {} });
+    // Karte von Hand wählen (oben rechts)
+    if (!ROTATE && !GMAP) L.control.layers({ "OpenStreetMap": osm, "Gaode 高德": gaode, "Esri": esri }, null, { position: "topright" }).addTo(map)
+      .getContainer().classList.add("basesel");
+    map.on("baselayerchange", e => { try { e.layer === osm ? localStorage.removeItem("tileBase2") : localStorage.setItem("tileBase2", e.layer === gaode ? "gaode" : "esri"); } catch {} });
   }
 
   // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
@@ -2864,7 +2872,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "79 · Inspiration: Ort recherchieren";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "80 · Kartenwahl, kein Esri-Platzhalter in China";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
