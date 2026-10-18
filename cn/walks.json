@@ -30,8 +30,8 @@
    {
     "name": "Start: Dorfmitte beim Hecang-Gästehaus",
     "name_cn": "禾仓美宿 · 黄岗寨中",
-    "lat": 25.91932,
-    "lng": 108.97238,
+    "lat": 25.91935,
+    "lng": 108.97245,
     "approx": true,
     "text": "Das Hecang-Gästehaus (禾仓美宿) ist ein umgebautes Dong-Wohnhaus. Gebaut wurde es mit Unterstützung der China Tourism Group, seit die Bergstraßen ausgebaut sind und mehr Gäste kommen (2024: knapp 37.000). Schon auf den ersten Metern sieht man, wie streng das Dorf sein Ortsbild schützt: Neubauten müssen aus Holz sein und dürfen höchstens drei Stockwerke haben, Ziegel sind nur für Küche und Bad erlaubt. Morgens sieht man ältere Frauen mit dem grünen, steif gestärkten Kopftuch, das wegen seiner Form „Fischmaul“ heißt und als Erkennungszeichen von Huanggang gilt.",
     "images": [
@@ -52,8 +52,8 @@
    {
     "name": "Trommelturm mit Dorfbühne (Süd)",
     "name_cn": "鼓楼与戏台",
-    "lat": 25.9198,
-    "lng": 108.9729,
+    "lat": 25.91975,
+    "lng": 108.97255,
     "approx": true,
     "text": "Huanggang hat fünf Trommeltürme (鼓楼), und jeder gehört einer der fünf Sippen, die auf die fünf Gründerbrüder zurückgehen. Die Türme sind über zehn Meter hoch und ganz ohne Nägel gebaut. Im Erdgeschoss liegt eine offene Feuerstelle, an der die Männer im Winter sitzen, rauchen und Neuigkeiten austauschen. Daneben steht eine Holzbühne (戏台), auf der zu Festen Dong-Oper (侗戏) gespielt und Dong-Gesang vorgetragen wird. Zu Neujahr und Festen tritt jeder Trommelturm mit mindestens zwei eigenen Chören an.",
     "images": [
@@ -68,7 +68,7 @@
    {
     "name": "Trommelturm in der Dorfmitte",
     "name_cn": "寨中鼓楼",
-    "lat": 25.92038,
+    "lat": 25.9204,
     "lng": 108.97365,
     "approx": true,
     "text": "Unter dem Dach hängt in jedem Turm eine Holztafel mit den 24 Sonnenterminen des Bauernkalenders, dazu zwei geschnitzte Drachen. Hier tagen die gewählten Dorfältesten (寨老) mit über 30 Familienvertretern nach den mündlich überlieferten Kuan-Regeln (款约), die Wald, Ehe und Brandschutz ordnen. Der Leitsatz lautet: „Große Dinge gemeinsam beraten, praktische Dinge gemeinsam anpacken.“ Einer der Türme ist der Baoji-Trommelturm (包几鼓楼), in dem der Dorfrat tagt. Fragen Sie, welcher es ist. Von hier wurde früher bei Gefahr die Sippe zusammengetrommelt.",
@@ -139,8 +139,8 @@
    {
     "name": "Reistrockengestelle und Felder am Ostrand",
     "name_cn": "禾晾 · 稻田",
-    "lat": 25.92043,
-    "lng": 108.97547,
+    "lat": 25.9205,
+    "lng": 108.9761,
     "approx": true,
     "text": "Am Ostrand führt das Tal hinaus in die Reisterrassen. Im Herbst hängen dort die Klebreisgarben an hohen Gestellen aus Kiefernstämmen (禾晾) und bilden eine goldene Wand. Geerntet wird noch von Hand: Mit einem kleinen Messer wird jede Rispe einzeln geschnitten, gebündelt und luftgetrocknet. In den Feldern läuft das Reis-Fisch-Enten-System, das die FAO als landwirtschaftliches Welterbe (GIAHS) führt: Fische lockern den Boden, Enten fressen Schädlinge, Kunstdünger braucht es kaum.",
     "images": [
@@ -189,8 +189,8 @@
    {
     "name": "Fisch- und Löschteiche",
     "name_cn": "鱼塘与消防池",
-    "lat": 25.92183,
-    "lng": 108.97198,
+    "lat": 25.9215,
+    "lng": 108.97215,
     "approx": true,
     "text": "Die vielen kleinen Teiche zwischen den Häusern dienen mehreren Zwecken: Sie sind Fischbecken, Wäscheplatz und vor allem Löschwasser. Huanggang ist in 16 Brandabschnitte mit 10 Brandschneisen geteilt, dazu kommen 11 Löschbecken, über 40 Teiche, 78 Hydranten und eine Freiwillige Feuerwehr mit 30 Leuten. Seit rund 30 Jahren gab es keinen größeren Brand. Früher wurde verbannt, wer ein Feuer verursachte, heute gilt zum Beispiel ein Lagerverbot für Brennbares. Rauchen also nur, wo Einheimische es auch tun.",
     "images": [
@@ -211,16 +211,16 @@
    {
     "name": "Dorfschule",
     "name_cn": "黄岗小学",
-    "lat": 25.92072,
-    "lng": 108.97231,
-    "approx": true,
+    "lat": 25.92078,
+    "lng": 108.9721,
+    "approx": false,
     "text": "Die Schule mit dem Sportplatz gilt als das solideste Gebäude im Dorf. Hier unterrichtet eine Musiklehrerin Dong-Gesang und die vierseitige Dong-Pipa, die waagrecht gespielt wird. So wird die mündliche Gesangstradition, die sonst von den Älteren weitergegeben wird, bewusst an die Kinder vermittelt. Ein Sprichwort sagt: Wer nicht singen kann, findet schwer eine Frau. Ein Teil der Tourismuseinnahmen geht in Stipendien für Oberschüler und Studierende. Dienstagvormittag ist Unterricht, also nur von außen schauen."
    },
    {
     "name": "Südlicher Trommelturm und Rückweg",
     "name_cn": "寨南鼓楼",
-    "lat": 25.91883,
-    "lng": 108.97295,
+    "lat": 25.91878,
+    "lng": 108.97282,
     "approx": true,
     "text": "Der letzte der fünf Türme liegt im Süddorf an der Hauptgasse. Hier sieht man den Alltag am Vormittag: Frauen breiten Reis auf Bambusmatten aus oder färben und klopfen Stoff, Männer flicken Netze und Körbe. Zu den großen Festen gehört neben dem Dong-Neujahr das „Himmelsrufen“ (喊天节), ein Regenbittfest mit Tänzen, Trinkrunden und abends Dong-Großgesang. Zurück geht es über die Steinplattenwege zur Unterkunft.",
     "images": [
@@ -267,16 +267,16 @@
    {
     "name": "Dorfende-Brücke („Schwalbenbrücke“)",
     "name_cn": "寨尾花桥",
-    "lat": 26.04119,
-    "lng": 108.63901,
+    "lat": 26.0416,
+    "lng": 108.6395,
     "approx": true,
     "text": "Die erste Brücke vom Dorfeingang aus steht am unteren Dorfende (寨尾). Ihr Ursprung reicht in die Qianlong-Zeit (1736–1795) zurück. Das Hochwasser von 1921 riss sie weg, 1955 wurde sie neu errichtet. Sie ist 10,7 m lang und über 3 m breit. Am Dorfende halten die Dong-Brücken nach traditioneller Vorstellung den Wohlstand im Tal fest, damit er nicht mit dem Wasser abfließt. Auf den Bänken sitzen am Nachmittag oft Ältere, ein freundliches Nicken öffnet Gespräche."
    },
    {
     "name": "Alter Brunnen im Unterdorf",
     "name_cn": "下寨古井",
-    "lat": 26.04105,
-    "lng": 108.63925,
+    "lat": 26.0414,
+    "lng": 108.6393,
     "approx": true,
     "text": "Dali hat sechs historische Brunnen aus behauenen Steinquadern mit gewölbter Abdeckung. Der im Unterdorf entstand im 37. Jahr der Qianlong-Ära (1772). Eine Inschrift nennt drei Stifter namens Yang und den Steinmetz Liu Renyuan. Vor jedem Brunnen liegen Absetzsteine für die Eimer und ein Waschbecken. Bis heute holen Familien hier Trinkwasser, deshalb nicht hineinfassen und nichts darin abspülen.",
     "images": [
@@ -291,8 +291,8 @@
    {
     "name": "Unterstufen-Brücke",
     "name_cn": "下步花桥",
-    "lat": 26.0408,
-    "lng": 108.63858,
+    "lat": 26.0411,
+    "lng": 108.63905,
     "approx": true,
     "text": "Diese Brücke stammt ebenfalls aus der Qianlong-Zeit. 1990 wurde beim Wegebau eine Steinbogenbrücke daruntergesetzt, auf die die Zimmerleute Yang Shenghe und Yang Xianming den Holzaufbau neu setzten. Mit 11,8 m ist sie die längste der fünf. Sie zeigt gut, wie die Dong ihre Bauten seit Generationen reparieren und weiterbauen, statt sie museal einzufrieren.",
     "images": [
@@ -313,9 +313,9 @@
    {
     "name": "Trommelturm, Sa-Altar und Dorfplatz",
     "name_cn": "鼓楼 · 萨坛",
-    "lat": 26.04048,
-    "lng": 108.63931,
-    "approx": true,
+    "lat": 26.04047,
+    "lng": 108.63856,
+    "approx": false,
     "text": "Am höchsten Punkt der Dorfmitte steht der neunstufige Trommelturm (鼓楼). Ursprünglich stammt er aus der Qianlong-Zeit, nach einem Brand bauten ihn die Dorfbewohner um 2003 auf eigene Kosten am alten Platz wieder auf. Die sechs Traufstützen stehen nach Auskunft im Dorf für die sechs Hauptzweige der Yang-Sippe. Direkt daneben liegt der Sa-Altar (萨坛), ein offener Steinhügel unter alten Bäumen, geweiht der Urahnin Sa, der wichtigsten Schutzgottheit der Dong. Auf dem Platz davor treffen sich Dorfbewohner, singen Dong-Lieder und feiern Feste.",
     "images": [
      {
@@ -335,8 +335,8 @@
    {
     "name": "Mittelstufen-Brücke",
     "name_cn": "中步花桥",
-    "lat": 26.04027,
-    "lng": 108.63794,
+    "lat": 26.0403,
+    "lng": 108.63815,
     "approx": true,
     "text": "Die Brücke im Dorfzentrum ist ein Pavillonbau aus der Guangxu-Zeit (1875–1908), 11,2 m lang, mit sechs Jochreihen. Nach dem Hochwasser von 1921 wurde sie 1945 neu errichtet. Bezahlt haben das zwei Dong-Älteste und ein Han-Chinese, Huang Chenggao, ein Zeichen für das lange Zusammenleben im Tal. In der Dong-Kultur gelten die Blumenbrücken als Glücksorte: Hier werden Neugeborene vorgestellt und Hochzeitszüge empfangen.",
     "images": [
@@ -350,8 +350,8 @@
    {
     "name": "Hofhaus von 1781",
     "name_cn": "四合木楼",
-    "lat": 26.04051,
-    "lng": 108.63773,
+    "lat": 26.04062,
+    "lng": 108.6383,
     "approx": true,
     "text": "Neben den typischen Pfahlbauten in Ganlan-Bauweise hat Dali eine Besonderheit: hölzerne Vierseithöfe (四合木楼) mit Innenhof (天井), wie man sie sonst eher bei Han-Chinesen kennt. Das besterhaltene Haus wurde 1781 errichtet und ist ganz ohne Nägel gezimmert. Es ist bewohnt und Privatbesitz, Besichtigung also nur von außen oder auf Einladung.",
     "images": [
@@ -366,15 +366,15 @@
    {
     "name": "Oberstufen-Brücke",
     "name_cn": "上步花桥",
-    "lat": 26.03964,
-    "lng": 108.63719,
+    "lat": 26.03975,
+    "lng": 108.63745,
     "approx": true,
     "text": "Die kleinste der fünf Brücken war früher nur ein Holzsteg. 1996 bauten die Dorfbewohner sie mit dem Zimmermann Yang Shenghe zur überdachten Brücke aus, 4,45 m lang. Hier lohnt ein Blick in die Gassen: Frauen färben Dong-Stoff mit Indigo und klopfen ihn wochenlang, bis er glänzt. Daran erkennt man auch die blaugefärbten Fingernägel vieler Frauen."
    },
    {
     "name": "Dorfkopf-Brücke und Brunnen",
     "name_cn": "寨头花桥 · 寨头古井",
-    "lat": 26.03907,
+    "lat": 26.03905,
     "lng": 108.63655,
     "approx": true,
     "text": "Am oberen Dorfende (寨头) steht die Dorfkopf-Brücke aus der Guangxu-Zeit. Das Hochwasser von 1921 zerstörte sie, noch im selben Jahr baute Yang Guangqing sie wieder auf (8,6 m lang). Gleich daneben liegt der Dorfkopf-Brunnen. Oberhalb im Wald, etwa 1,5 km bachaufwärts, liegt der Longtan-Wasserfall. Für den Nachmittag ist das zu weit, ein Blick bachaufwärts zeigt aber die Reisterrassen und Trockengestelle (禾晾)."
@@ -382,8 +382,8 @@
    {
     "name": "Qing-Steinplattenweg mit Steinfröschen",
     "name_cn": "石板古道",
-    "lat": 26.0395,
-    "lng": 108.6385,
+    "lat": 26.03968,
+    "lng": 108.63815,
     "approx": true,
     "text": "Vier Steinplattenwege aus dem 58. Jahr der Qianlong-Ära (1793) führten früher aus dem Dorf nach Zaima, Xiaoli und in die Nachbardörfer. Zusammen sind noch rund 2,5 km erhalten, mit 568 Stufen. Am Beginn eines Weges sitzen zwei Steinfrösche als Symbol für Reichtum, ihnen gegenüber zwei Steinschlangen. Eine Legende erzählt, ein wandernder Weiser habe die Schlangen meißeln lassen, damit der Reichtum das Dorf nicht „erdrückt“. Eine Stele erinnert an die Bewohner, die den Weg mit Spenden und eigener Arbeit gebaut haben.",
     "images": [
@@ -454,8 +454,8 @@
    {
     "name": "Osttor und Begrüßungswein",
     "name_cn": "东寨门 · 拦路酒",
-    "lat": 26.47469,
-    "lng": 108.05815,
+    "lat": 26.47468,
+    "lng": 108.05798,
     "approx": true,
     "text": "Langde hat drei hölzerne Tore mit Ziegeldach, im Osten, Westen und Norden. Am Osttor kommt man von der Straße ins Dorf. Hier empfangen Frauen in Festtracht Gruppen und Ehrengäste mit dem „Straßensperren-Wein“ (拦路酒): je nach Anlass drei bis zwölf Becher Reiswein, begleitet von Trinkliedern. Ohne Gruppe ist das Tor meist still, gut zum Ankommen.",
     "images": [
@@ -470,9 +470,9 @@
    {
     "name": "Großer Bronzetrommelplatz",
     "name_cn": "铜鼓坪 · 芦笙场",
-    "lat": 26.47466,
-    "lng": 108.05744,
-    "approx": true,
+    "lat": 26.4747,
+    "lng": 108.05735,
+    "approx": false,
     "text": "Mitten im Dorf liegt der rund 200 m² große Platz (铜鼓坪), Mitte der 1980er-Jahre mit Kieselsteinen gepflastert. Das Muster bildet die Sonnenscheibe einer Bronzetrommel nach, mit zwölf Strahlen. Hier tanzen die Miao zu Festen den Trommeltanz (踩鼓舞) und den Goldfasanentanz und spielen die Lusheng-Mundorgel. Hier wurde 2008 auch die olympische Fackel übergeben. Bronzetrommeln sind für die Miao heilige Ahnenobjekte und werden nur zu Ritualen hervorgeholt.",
     "images": [
      {
@@ -497,8 +497,8 @@
    {
     "name": "Kieselstein-Gassen und Stelzenhäuser",
     "name_cn": "花街路 · 吊脚楼",
-    "lat": 26.47418,
-    "lng": 108.05724,
+    "lat": 26.4742,
+    "lng": 108.05732,
     "approx": true,
     "text": "Fünf „Blumengassen“ (花街路) aus Kieseln und blauen Steinplatten führen bergauf durchs Dorf, auch Hauseingänge und Höfe sind gepflastert. An den Häusern sieht man die „Schönheitslehnen“ (美人靠): geschwungene Holzbalkone, auf denen Frauen sticken und Besucher beobachten. Im Dachgeschoss lagert der Reis, an den Wänden trocknen Maiskolben und Chilis. Zwischen den Häusern liegen Löschteiche, denn Feuer ist die größte Gefahr für Holzdörfer.",
     "images": [
@@ -555,8 +555,8 @@
    {
     "name": "Steg und Wasserräder am Fluss",
     "name_cn": "水车 · 望丰河",
-    "lat": 26.47531,
-    "lng": 108.0567,
+    "lat": 26.47521,
+    "lng": 108.05623,
     "approx": true,
     "text": "Über einen Steg geht es zum Fluss hinunter. An beiden Ufern stehen hölzerne Wasserräder (水车), die Wasser in die Reisfelder heben. Sie sind seit Jahrhunderten im Einsatz und werden nach jedem Hochwasser von den Dorfbewohnern neu gebaut. Daneben sind noch Steinmühlen zu sehen. Ende Oktober sind die Felder abgeerntet, Wasserbüffel grasen am Ufer.",
     "images": [
@@ -565,6 +565,26 @@
       "url": "https://www.flickr.com/photos/jacques2beaulieu/8636101181/",
       "credit": "jbeaulieu · Flickr",
       "caption": "Wasserrad am Fluss, dahinter die überdachte Brücke"
+     }
+    ]
+   },
+   {
+    "name": "Wind-und-Regen-Brücke (Yang-Daliu-Brücke)",
+    "name_cn": "风雨桥 · 杨大六桥",
+    "lat": 26.47567,
+    "lng": 108.05792,
+    "approx": false,
+    "text": "Die überdachte Holzbrücke vor dem Dorf, auch „Yang-Daliu-Brücke“ genannt, geht auf die Qing-Zeit zurück. Nach einem Hochwasser wurde sie in den 1980er-Jahren über dem Fluss neu gebaut. Auf ihren Bänken spinnen und weben manchmal ältere Frauen, und morgens wird hier Frühstück verkauft. Über die Brücke geht es zurück ins Dorf und zur Unterkunft.",
+    "images": [
+     {
+      "image": "images/walk_langde_8_1.jpg",
+      "url": "https://www.flickr.com/photos/jacques2beaulieu/8636095257/",
+      "credit": "jbeaulieu · Flickr"
+     },
+     {
+      "image": "images/walk_langde_8_2.jpg",
+      "url": "https://www.sohu.com/a/671097901_120550722",
+      "credit": "见道 · Sohu"
      }
     ]
    },
@@ -586,26 +606,6 @@
       "image": "images/walk_langde_7_2.jpg",
       "url": "https://www.flickr.com/photos/jacques2beaulieu/8637209746/",
       "credit": "jbeaulieu · Flickr"
-     }
-    ]
-   },
-   {
-    "name": "Wind-und-Regen-Brücke (Yang-Daliu-Brücke)",
-    "name_cn": "风雨桥 · 杨大六桥",
-    "lat": 26.47563,
-    "lng": 108.05789,
-    "approx": true,
-    "text": "Die überdachte Holzbrücke vor dem Dorf, auch „Yang-Daliu-Brücke“ genannt, geht auf die Qing-Zeit zurück. Nach einem Hochwasser wurde sie in den 1980er-Jahren über dem Fluss neu gebaut. Auf ihren Bänken spinnen und weben manchmal ältere Frauen, und morgens wird hier Frühstück verkauft. Über die Brücke geht es zurück ins Dorf und zur Unterkunft.",
-    "images": [
-     {
-      "image": "images/walk_langde_8_1.jpg",
-      "url": "https://www.flickr.com/photos/jacques2beaulieu/8636095257/",
-      "credit": "jbeaulieu · Flickr"
-     },
-     {
-      "image": "images/walk_langde_8_2.jpg",
-      "url": "https://www.sohu.com/a/671097901_120550722",
-      "credit": "见道 · Sohu"
      }
     ]
    }
