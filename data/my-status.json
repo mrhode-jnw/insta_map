@@ -530,5 +530,8 @@
  },
  "claude-cn-zhujiajiao-water-town": {
   "prio": "gering"
+ },
+ "cn-yuanmingyuan-road": {
+  "prio": "mittel"
  }
 }
