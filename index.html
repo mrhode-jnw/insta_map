@@ -1106,7 +1106,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       gaode._shift = s; gaode._shiftZ = z; gaode.redraw(); };
     map.on("moveend", gcjUpdate); gaode.on("add", () => { gaode._shiftZ = null; gcjUpdate(); });
     [esri, gaode].forEach(l => l.on("add", () => map.getContainer().classList.add("dark-osm")).on("remove", () => map.getContainer().classList.remove("dark-osm")));
-    const CHAIN = [osm, esri, gaode];
+    // In Festland-China zuerst Gaode: Esri liefert dort beim Hineinzoomen nur „Map data not yet available“-Platzhalter (zählen als geladen)
+    const CHAIN = inMainland(LAST_POS) ? [osm, gaode, esri] : [osm, esri, gaode];
     let stamp = 0;
     const watch = layer => {
       let ok = 0, bad = 0; const my = ++stamp;
