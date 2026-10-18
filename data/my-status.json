@@ -518,6 +518,7 @@
   "prio": "mittel"
  },
  "cn-north-bund-riverside-park": {
-  "fav": true
+  "fav": true,
+  "prio": "hoch"
  }
 }
