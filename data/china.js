@@ -5063,16 +5063,44 @@ window.PLACES_CN = [
   "lat": 25.72136,
   "lng": 108.86606,
   "approx": false,
-  "image": "images/claude_cn_basha-miao-village.jpg",
+  "image": "images/claude_gz_basha_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/27728955@N04/21107381224/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/27728955@N04/21107381224/",
+    "kind": "photo",
+    "image": "images/claude_gz_basha_1.jpg",
+    "caption": "",
+    "credit": "Feng Wei (Feng Wei Photography) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/8945641@N02/55143189696/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/8945641@N02/55143189696/",
+    "kind": "photo",
+    "image": "images/claude_gz_basha_2.jpg",
+    "caption": "",
+    "credit": "MelindaChan ^..^ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/69079072@N00/31149124483/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/69079072@N00/31149124483/",
+    "kind": "photo",
+    "image": "images/claude_gz_basha_3.jpg",
+    "caption": "",
+    "credit": "ckyen.rm · Flickr"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Letzter Stamm mit legalen Musketen, Haarknoten-Tradition, heilige Bäume",
-  "image_page": "https://commons.wikimedia.org/wiki/File:%E7%88%AC%E5%B2%9C%E6%B2%99%E8%8B%97%E5%AF%A8-%E6%A1%82%E7%A9%BF%E8%B6%8A_-_panoramio_(14).jpg",
-  "image_credit": "龙歌谷 · CC BY-SA 3.0 · Wikimedia Commons",
+  "image_page": "https://www.flickr.com/photos/27728955@N04/21107381224/",
+  "image_credit": "Feng Wei (Feng Wei Photography) · Flickr",
   "when": "day"
  },
  {
@@ -5383,7 +5411,7 @@ window.PLACES_CN = [
   "lat": 25.91609,
   "lng": 108.70044,
   "approx": false,
-  "image": "images/claude_cn_zengchong-drum-tower.jpg",
+  "image": "images/claude_gz_zengchong_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
@@ -5397,12 +5425,39 @@ window.PLACES_CN = [
     "image": "images/CyI_GWlCAla_1.jpg",
     "caption": "",
     "credit": "@amazingguizhou · Instagram"
+   },
+   {
+    "url": "https://www.flickr.com/photos/31213934@N04/52553353357/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/31213934@N04/52553353357/",
+    "kind": "photo",
+    "image": "images/claude_gz_zengchong_1.jpg",
+    "caption": "",
+    "credit": "sugus_zhang · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/69963790@N00/8042342825/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/69963790@N00/8042342825/",
+    "kind": "photo",
+    "image": "images/claude_gz_zengchong_2.jpg",
+    "caption": "",
+    "credit": "Byrnzie500 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/57210421@N04/51273472808/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/57210421@N04/51273472808/",
+    "kind": "photo",
+    "image": "images/claude_gz_zengchong_3.jpg",
+    "caption": "",
+    "credit": "Jesse (wishingbone) · Flickr"
    }
   ],
   "pop": 3,
   "pop_reason": "Ältester erhaltener Dong-Trommelturm (1672), 13 Etagen",
-  "image_page": "https://commons.wikimedia.org/wiki/File:%E5%A2%9E%E5%86%B2%E9%BC%93%E6%A5%BC-%E6%A1%82%E7%A9%BF%E8%B6%8A_-_panoramio.jpg",
-  "image_credit": "龙歌谷 · CC BY-SA 3.0 · Wikimedia Commons",
+  "image_page": "https://www.flickr.com/photos/31213934@N04/52553353357/",
+  "image_credit": "sugus_zhang · Flickr",
   "when": "day"
  },
  {
@@ -5836,16 +5891,44 @@ window.PLACES_CN = [
   "lat": 29.3451921,
   "lng": 110.4372172,
   "approx": false,
-  "image": "images/claude_cn_avatar-hallelujah-mountain.jpg",
+  "image": "images/claude_zjj_hallelujah_2.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/39489005@N05/46408478644/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/39489005@N05/46408478644/",
+    "kind": "photo",
+    "image": "images/claude_zjj_hallelujah_1.jpg",
+    "caption": "",
+    "credit": "Clement Tang (Clement Tang *) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/109344012@N04/26163869534/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/109344012@N04/26163869534/",
+    "kind": "photo",
+    "image": "images/claude_zjj_hallelujah_2.jpg",
+    "caption": "",
+    "credit": "Aaron Choi (Aaron_Choi) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/32136054@N03/24272280107/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/32136054@N03/24272280107/",
+    "kind": "photo",
+    "image": "images/claude_zjj_hallelujah_3.jpg",
+    "caption": "",
+    "credit": "Pierre Bodilis · Flickr"
+   }
+  ],
   "pop": 5,
   "pop_reason": "Ikonische Avatar-Säule, Herzstück von Yuanjiajie",
-  "image_page": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_National_Forest_Park_38023-Zhangjiajie_(48757574461).jpg",
-  "image_credit": "xiquinhosilva · CC BY 2.0 · Wikimedia Commons",
+  "image_page": "https://www.flickr.com/photos/109344012@N04/26163869534/",
+  "image_credit": "Aaron Choi (Aaron_Choi) · Flickr",
   "when": "day"
  },
  {
@@ -5861,15 +5944,45 @@ window.PLACES_CN = [
   "lat": 29.3473214,
   "lng": 110.4334624,
   "approx": false,
-  "image": null,
+  "image": "images/claude_zjj_first-bridge_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/18023272@N00/31774100050/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/18023272@N00/31774100050/",
+    "kind": "photo",
+    "image": "images/claude_zjj_first-bridge_1.jpg",
+    "caption": "",
+    "credit": "Istvan Kadar (fesign) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/40610122@N05/4660437765/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/40610122@N05/4660437765/",
+    "kind": "photo",
+    "image": "images/claude_zjj_first-bridge_2.jpg",
+    "caption": "",
+    "credit": "CyberinaStudio · Flickr · CC BY-NC-SA 2.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/7931729@N05/11624409474/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/7931729@N05/11624409474/",
+    "kind": "photo",
+    "image": "images/claude_zjj_first-bridge_3.jpg",
+    "caption": "",
+    "credit": "Toby Garden · Flickr"
+   }
+  ],
   "pop": 5,
   "pop_reason": "Natürliche Felsbrücke über 300 m tiefer Schlucht",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/18023272@N00/31774100050/",
+  "image_credit": "Istvan Kadar (fesign) · Flickr"
  },
  {
   "id": "claude-cn-mihun-tai-enchanting-terrace",
@@ -5884,15 +5997,27 @@ window.PLACES_CN = [
   "lat": 29.3461947,
   "lng": 110.4390228,
   "approx": false,
-  "image": null,
+  "image": "images/claude_zjj_mihuntai_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/8616486@N08/6319996777/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/8616486@N08/6319996777/",
+    "kind": "photo",
+    "image": "images/claude_zjj_mihuntai_1.jpg",
+    "caption": "",
+    "credit": "Sura Ark (suraark) · Flickr"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Weitblick über Sandsteinsäulen-Wald, oft Wolkenmeer",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/8616486@N08/6319996777/",
+  "image_credit": "Sura Ark (suraark) · Flickr"
  },
  {
   "id": "claude-cn-bailong-elevator",
@@ -5907,16 +6032,44 @@ window.PLACES_CN = [
   "lat": 29.3511795,
   "lng": 110.4611722,
   "approx": false,
-  "image": "images/claude_cn_bailong-elevator.jpg",
+  "image": "images/claude_zjj_bailong_2.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/32368927@N02/55482154246/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/32368927@N02/55482154246/",
+    "kind": "photo",
+    "image": "images/claude_zjj_bailong_1.jpg",
+    "caption": "",
+    "credit": "Alex Berger (virtualwayfarer) · Flickr · CC BY-NC 4.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/73827808@N00/14728378559/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/73827808@N00/14728378559/",
+    "kind": "photo",
+    "image": "images/claude_zjj_bailong_2.jpg",
+    "caption": "",
+    "credit": "T Ξ Ξ J Ξ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/8616486@N08/6319989275/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/8616486@N08/6319989275/",
+    "kind": "photo",
+    "image": "images/claude_zjj_bailong_3.jpg",
+    "caption": "",
+    "credit": "Sura Ark (suraark) · Flickr"
+   }
+  ],
   "pop": 4,
   "pop_reason": "326 m Glas-Außenaufzug an der Felswand",
-  "image_page": "https://commons.wikimedia.org/wiki/File:%E6%B9%96%E5%8D%97_%E5%BC%A0%E5%AE%B6%E7%95%8C_%E7%99%BE%E9%BE%99%E5%A4%A9%E6%A2%AF_-_panoramio.jpg",
-  "image_credit": "Nyx Ning · CC BY-SA 3.0 · Wikimedia Commons",
+  "image_page": "https://www.flickr.com/photos/73827808@N00/14728378559/",
+  "image_credit": "T Ξ Ξ J Ξ · Flickr",
   "when": "day"
  },
  {
@@ -5932,15 +6085,45 @@ window.PLACES_CN = [
   "lat": 29.3609393,
   "lng": 110.4166337,
   "approx": false,
-  "image": null,
+  "image": "images/claude_zjj_tianbo_3.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/79533221@N08/48484741186/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/79533221@N08/48484741186/",
+    "kind": "photo",
+    "image": "images/claude_zjj_tianbo_3.jpg",
+    "caption": "",
+    "credit": "yves guillemot · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/74295522@N08/7136385983/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/74295522@N08/7136385983/",
+    "kind": "photo",
+    "image": "images/claude_zjj_tianbo_1.jpg",
+    "caption": "",
+    "credit": "Gary GAO (高习习) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/22078559@N06/2373880024/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/22078559@N06/2373880024/",
+    "kind": "photo",
+    "image": "images/claude_zjj_tianbo_2.jpg",
+    "caption": "",
+    "credit": "外面好冷 · Flickr"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Felsplateau mit 360°-Blick, wenig Touristen",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/79533221@N08/48484741186/",
+  "image_credit": "yves guillemot · Flickr"
  },
  {
   "id": "claude-cn-helong-park",
@@ -5980,15 +6163,54 @@ window.PLACES_CN = [
   "lat": 29.3823,
   "lng": 110.4913,
   "approx": true,
-  "image": null,
+  "image": "images/claude_zjj_yubi_4.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/32368927@N02/55339570220/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/32368927@N02/55339570220/",
+    "kind": "photo",
+    "image": "images/claude_zjj_yubi_4.jpg",
+    "caption": "",
+    "credit": "Alex Berger (virtualwayfarer) · Flickr · CC BY-NC 4.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/36531876@N00/27891934048/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/36531876@N00/27891934048/",
+    "kind": "photo",
+    "image": "images/claude_zjj_yubi_1.jpg",
+    "caption": "",
+    "credit": "Oleg S (Oleg S .) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/22392439@N04/50003983313/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/22392439@N04/50003983313/",
+    "kind": "photo",
+    "image": "images/claude_zjj_yubi_2.jpg",
+    "caption": "",
+    "credit": "David Pratt (ttarpd) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/50663863@N02/53674249742/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/50663863@N02/53674249742/",
+    "kind": "photo",
+    "image": "images/claude_zjj_yubi_3.jpg",
+    "caption": "",
+    "credit": "Jay Huang (Jaykhuang) · Flickr · CC BY-NC 2.0"
+   }
+  ],
   "pop": 5,
   "pop_reason": "Pinselartige Felsnadeln, Klassiker von Tianzi Mountain",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/32368927@N02/55339570220/",
+  "image_credit": "Alex Berger (virtualwayfarer) · Flickr · CC BY-NC 4.0"
  },
  {
   "id": "claude-cn-xihai-stone-forest",
@@ -6003,15 +6225,45 @@ window.PLACES_CN = [
   "lat": 29.3832294,
   "lng": 110.4891885,
   "approx": false,
-  "image": null,
+  "image": "images/claude_zjj_xihai_3.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/7931729@N05/11664413023/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/7931729@N05/11664413023/",
+    "kind": "photo",
+    "image": "images/claude_zjj_xihai_3.jpg",
+    "caption": "",
+    "credit": "Toby Garden · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/29493413@N07/11672554966/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/29493413@N07/11672554966/",
+    "kind": "photo",
+    "image": "images/claude_zjj_xihai_1.jpg",
+    "caption": "",
+    "credit": "Jun Wei Fan (fanjw) · Flickr · CC BY-NC-SA 2.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/7931729@N05/11664497644/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/7931729@N05/11664497644/",
+    "kind": "photo",
+    "image": "images/claude_zjj_xihai_2.jpg",
+    "caption": "",
+    "credit": "Toby Garden · Flickr"
+   }
+  ],
   "pop": 5,
   "pop_reason": "Weites Säulenmeer, bekannt für Wolkenmeer",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/7931729@N05/11664413023/",
+  "image_credit": "Toby Garden · Flickr"
  },
  {
   "id": "claude-cn-golden-whip-stream",
@@ -6026,15 +6278,45 @@ window.PLACES_CN = [
   "lat": 29.3338673,
   "lng": 110.4389038,
   "approx": false,
-  "image": null,
+  "image": "images/claude_zjj_golden-whip_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/22392439@N04/49381601736/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/22392439@N04/49381601736/",
+    "kind": "photo",
+    "image": "images/claude_zjj_golden-whip_1.jpg",
+    "caption": "",
+    "credit": "David Pratt (ttarpd) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/22392439@N04/50262428496/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/22392439@N04/50262428496/",
+    "kind": "photo",
+    "image": "images/claude_zjj_golden-whip_2.jpg",
+    "caption": "",
+    "credit": "David Pratt (ttarpd) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/68166820@N08/15289250481/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/68166820@N08/15289250481/",
+    "kind": "photo",
+    "image": "images/claude_zjj_golden-whip_3.jpg",
+    "caption": "",
+    "credit": "cattan2011 · Flickr"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Talwanderung am Bach unter hohen Felswänden",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/22392439@N04/49381601736/",
+  "image_credit": "David Pratt (ttarpd) · Flickr"
  },
  {
   "id": "claude-cn-tianmen-cave-999-steps",
@@ -6049,16 +6331,44 @@ window.PLACES_CN = [
   "lat": 29.0513631,
   "lng": 110.4827374,
   "approx": false,
-  "image": "images/claude_cn_tianmen-cave-999-steps.jpg",
+  "image": "images/claude_zjj_tianmen-cave_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/39489005@N05/48140972667/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/39489005@N05/48140972667/",
+    "kind": "photo",
+    "image": "images/claude_zjj_tianmen-cave_1.jpg",
+    "caption": "",
+    "credit": "Clement Tang (Clement Tang *) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/97236284@N04/39128482770/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/97236284@N04/39128482770/",
+    "kind": "photo",
+    "image": "images/claude_zjj_tianmen-cave_2.jpg",
+    "caption": "",
+    "credit": "Li Feng (lfeng1014) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/135942467@N03/27008222255/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/135942467@N03/27008222255/",
+    "kind": "photo",
+    "image": "images/claude_zjj_tianmen-cave_3.jpg",
+    "caption": "",
+    "credit": "Sylvia Ting Photography · Flickr"
+   }
+  ],
   "pop": 5,
   "pop_reason": "131 m hohes Felstor über 999 Stufen",
-  "image_page": "https://commons.wikimedia.org/wiki/File:Tianmen_38313-Zhangjiajie_(49046808983).jpg",
-  "image_credit": "xiquinhosilva · CC BY 2.0 · Wikimedia Commons",
+  "image_page": "https://www.flickr.com/photos/39489005@N05/48140972667/",
+  "image_credit": "Clement Tang (Clement Tang *) · Flickr",
   "when": "day"
  },
  {
@@ -6074,15 +6384,45 @@ window.PLACES_CN = [
   "lat": 29.0547555,
   "lng": 110.4773878,
   "approx": false,
-  "image": null,
+  "image": "images/claude_zjj_coiling-dragon_2.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/112888533@N02/28093719514/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/112888533@N02/28093719514/",
+    "kind": "photo",
+    "image": "images/claude_zjj_coiling-dragon_2.jpg",
+    "caption": "",
+    "credit": "Yan chen (shirley9013) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/112888533@N02/28426723710/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/112888533@N02/28426723710/",
+    "kind": "photo",
+    "image": "images/claude_zjj_coiling-dragon_1.jpg",
+    "caption": "",
+    "credit": "Yan chen (shirley9013) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/112888533@N02/28094408834/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/112888533@N02/28094408834/",
+    "kind": "photo",
+    "image": "images/claude_zjj_coiling-dragon_3.jpg",
+    "caption": "",
+    "credit": "Yan chen (shirley9013) · Flickr"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Glasweg an der Klippe mit Blick auf die 99 Kurven",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/112888533@N02/28093719514/",
+  "image_credit": "Yan chen (shirley9013) · Flickr"
  },
  {
   "id": "claude-cn-tongtian-avenue-99-bends",
@@ -6097,15 +6437,54 @@ window.PLACES_CN = [
   "lat": 29.0665127,
   "lng": 110.472491,
   "approx": false,
-  "image": null,
+  "image": "images/claude_zjj_tongtian_2.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/45778466@N04/6025560794/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/45778466@N04/6025560794/",
+    "kind": "photo",
+    "image": "images/claude_zjj_tongtian_2.jpg",
+    "caption": "",
+    "credit": "maga_dv · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/148320346@N07/36729469511/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/148320346@N07/36729469511/",
+    "kind": "photo",
+    "image": "images/claude_zjj_tongtian_1.jpg",
+    "caption": "",
+    "credit": "Andrey Bogdanov (andreybogdanov) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/7138083@N04/53681877685/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/7138083@N04/53681877685/",
+    "kind": "photo",
+    "image": "images/claude_zjj_tongtian_3.jpg",
+    "caption": "",
+    "credit": "xiquinhosilva · Flickr · CC BY 2.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/32368927@N02/49961544527/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/32368927@N02/49961544527/",
+    "kind": "photo",
+    "image": "images/claude_zjj_tongtian_4.jpg",
+    "caption": "",
+    "credit": "Alex Berger (virtualwayfarer) · Flickr · CC BY-NC 2.0"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Spektakuläre Serpentinenstraße mit 99 Kurven",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/45778466@N04/6025560794/",
+  "image_credit": "maga_dv · Flickr"
  },
  {
   "id": "claude-cn-yikeshu-viewing-platform",
@@ -6120,15 +6499,36 @@ window.PLACES_CN = [
   "lat": 29.5479478,
   "lng": 106.5988349,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cq_yikeshu_2.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/83497727@N08/7648981020/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/83497727@N08/7648981020/",
+    "kind": "photo",
+    "image": "images/claude_cq_yikeshu_2.jpg",
+    "caption": "",
+    "credit": "BlackTree 功能·生态·唯美 · Flickr · CC BY-NC-SA 2.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/16467853@N05/6807006439/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/16467853@N05/6807006439/",
+    "kind": "photo",
+    "image": "images/claude_cq_yikeshu_1.jpg",
+    "caption": "",
+    "credit": "Konrad Shek · Flickr"
+   }
+  ],
   "pop": 5,
   "pop_reason": "Klassischer Panoramablick über Yuzhong-Halbinsel und beide Flüsse",
-  "when": "night"
+  "when": "night",
+  "image_page": "https://www.flickr.com/photos/83497727@N08/7648981020/",
+  "image_credit": "BlackTree 功能·生态·唯美 · Flickr · CC BY-NC-SA 2.0"
  },
  {
   "id": "claude-cn-shibati-old-steps",
@@ -6982,16 +7382,44 @@ window.PLACES_CN = [
   "lat": 25.74728,
   "lng": 110.12545,
   "approx": true,
-  "image": "images/claude_cn_huangluo-yao-village.jpg",
+  "image": "images/claude_gx_huangluo_3.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/9766401@N03/55252281900/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/9766401@N03/55252281900/",
+    "kind": "photo",
+    "image": "images/claude_gx_huangluo_1.jpg",
+    "caption": "",
+    "credit": "Ning Goldtranquil (Goldtranquil) · Flickr · CC BY-NC-SA 4.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/57491284@N02/14123379172/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/57491284@N02/14123379172/",
+    "kind": "photo",
+    "image": "images/claude_gx_huangluo_2.jpg",
+    "caption": "",
+    "credit": "Joao Eduardo Figueiredo · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/43854764@N08/4533343855/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/43854764@N08/4533343855/",
+    "kind": "photo",
+    "image": "images/claude_gx_huangluo_3.jpg",
+    "caption": "",
+    "credit": "adventurocity · Flickr"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Dorf der Roten Yao – Frauen mit bis zu 2 m langem Haar",
-  "image_page": "https://commons.wikimedia.org/wiki/File:Huangluo2.jpg",
-  "image_credit": "Arian Zwegers · CC BY-SA 2.0 · Wikimedia Commons",
+  "image_page": "https://www.flickr.com/photos/43854764@N08/4533343855/",
+  "image_credit": "adventurocity · Flickr",
   "when": "day"
  },
  {
