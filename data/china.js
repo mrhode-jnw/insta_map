@@ -4003,26 +4003,72 @@ window.PLACES_CN = [
   "lat": 31.221931,
   "lng": 121.470437,
   "approx": false,
-  "image": null,
+  "image": "images/claude_sh_xintiandi_1.jpg",
   "caption": "Shanghai! Where to go in 魔都, the Magic City 🇨🇳\n\n📍 The Bund. The city’s most iconic spot, with that legendary panoramic view of the Shanghai skyline.\n‼️ Head to North Bund Waterfront Green Space, far fewer tourists, and honestly a better vibe. That’s where my photos are from.\n\n📍 From the waterfront, it’s a great walk over to the famous Nanjing Road Pedestrian Street, the most well-known shopping street in all of China.\n\n📍 Xintiandi Shikumen Neighborhood. One of the most atmospheric areas in Shanghai! It preserves the unique shikumen architecture, a blend of Chinese and European design tradition",
   "post_url": "https://www.instagram.com/hey.lirules/p/DZUUOwzjCOx/",
   "username": "hey.lirules",
   "profile_url": "https://www.instagram.com/hey.lirules/",
   "posts": [
    {
-    "url": "https://www.instagram.com/hey.lirules/p/DZUUOwzjCOx/",
-    "username": "hey.lirules",
-    "profile_url": "https://www.instagram.com/hey.lirules/",
-    "kind": "p",
-    "image": null,
-    "caption": "Shanghai! Where to go in 魔都, the Magic City 🇨🇳\n\n📍 The Bund. The city’s most iconic spot, with that legendary panoramic view of the Shanghai skyline.\n‼️ Head to North Bund Waterfront Green Space, far fewer tourists, and honestly a better vibe. That’s where my photos are from.\n\n📍 From the waterfront, it’s a great walk over to the famous Nanjing Road Pedestrian Street, the most well-known shopping street in all of China.\n\n📍 Xintiandi Shikumen Neighborhood. One of the most atmospheric areas in Shanghai! It preserves the unique shikumen architecture, a blend of Chinese and European design tradition",
-    "match": "cover",
-    "generic": true
+    "url": "https://www.flickr.com/photos/cnmark/35128752463/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/35128752463/",
+    "kind": "photo",
+    "image": "images/claude_sh_xintiandi_1.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/cnmark/14425915045/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/14425915045/",
+    "kind": "photo",
+    "image": "images/claude_sh_xintiandi_2.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/7272097@N08/45020801792/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/7272097@N08/45020801792/",
+    "kind": "photo",
+    "image": "images/claude_sh_xintiandi_3.jpg",
+    "caption": "",
+    "credit": "Janette Asche · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/92941522@N00/47046621931/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/92941522@N00/47046621931/",
+    "kind": "photo",
+    "image": "images/claude_sh_xintiandi_4.jpg",
+    "caption": "",
+    "credit": "Sandra Rodrigues · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/cnmark/3317977243/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/3317977243/",
+    "kind": "photo",
+    "image": "images/claude_sh_xintiandi_5.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/cnmark/3317977237/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/3317977237/",
+    "kind": "photo",
+    "image": "images/claude_sh_xintiandi_6.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
    }
   ],
   "pop": 4,
   "pop_reason": "Bekanntes Shikumen-Ausgehviertel",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/cnmark/35128752463/",
+  "image_credit": "Markus Bahlmann · Flickr"
  },
  {
   "id": "cn-yu-garden",
@@ -4035,26 +4081,72 @@ window.PLACES_CN = [
   "lat": 31.2272,
   "lng": 121.4921,
   "approx": false,
-  "image": null,
+  "image": "images/claude_sh_yugarden_1.jpg",
   "caption": "Shanghai! Where to go in 魔都, the Magic City 🇨🇳\n\n📍 The Bund. The city’s most iconic spot, with that legendary panoramic view of the Shanghai skyline.\n‼️ Head to North Bund Waterfront Green Space, far fewer tourists, and honestly a better vibe. That’s where my photos are from.\n\n📍 From the waterfront, it’s a great walk over to the famous Nanjing Road Pedestrian Street, the most well-known shopping street in all of China.\n\n📍 Xintiandi Shikumen Neighborhood. One of the most atmospheric areas in Shanghai! It preserves the unique shikumen architecture, a blend of Chinese and European design tradition",
   "post_url": "https://www.instagram.com/hey.lirules/p/DZUUOwzjCOx/",
   "username": "hey.lirules",
   "profile_url": "https://www.instagram.com/hey.lirules/",
   "posts": [
    {
-    "url": "https://www.instagram.com/hey.lirules/p/DZUUOwzjCOx/",
-    "username": "hey.lirules",
-    "profile_url": "https://www.instagram.com/hey.lirules/",
-    "kind": "p",
-    "image": null,
-    "caption": "Shanghai! Where to go in 魔都, the Magic City 🇨🇳\n\n📍 The Bund. The city’s most iconic spot, with that legendary panoramic view of the Shanghai skyline.\n‼️ Head to North Bund Waterfront Green Space, far fewer tourists, and honestly a better vibe. That’s where my photos are from.\n\n📍 From the waterfront, it’s a great walk over to the famous Nanjing Road Pedestrian Street, the most well-known shopping street in all of China.\n\n📍 Xintiandi Shikumen Neighborhood. One of the most atmospheric areas in Shanghai! It preserves the unique shikumen architecture, a blend of Chinese and European design tradition",
-    "match": "cover",
-    "generic": true
+    "url": "https://www.flickr.com/photos/cnmark/49017044256/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/49017044256/",
+    "kind": "photo",
+    "image": "images/claude_sh_yugarden_1.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/111444816@N07/54835236537/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/111444816@N07/54835236537/",
+    "kind": "photo",
+    "image": "images/claude_sh_yugarden_2.jpg",
+    "caption": "",
+    "credit": "Ivaylo Georgiev · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/pilru/44560658705/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/pilru/44560658705/",
+    "kind": "photo",
+    "image": "images/claude_sh_yugarden_3.jpg",
+    "caption": "",
+    "credit": "Rudolf Pils · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/59159938@N02/15785672402/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/59159938@N02/15785672402/",
+    "kind": "photo",
+    "image": "images/claude_sh_yugarden_4.jpg",
+    "caption": "",
+    "credit": "Lao Nong · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/globalfoto/25009510365/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/globalfoto/25009510365/",
+    "kind": "photo",
+    "image": "images/claude_sh_yugarden_5.jpg",
+    "caption": "",
+    "credit": "Miles Nicholls · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/59238173@N07/45233541684/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/59238173@N07/45233541684/",
+    "kind": "photo",
+    "image": "images/claude_sh_yugarden_6.jpg",
+    "caption": "",
+    "credit": "Jochen Hertweck · Flickr"
    }
   ],
   "pop": 5,
   "pop_reason": "Klassischer Garten, Top-Sehenswürdigkeit",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/cnmark/49017044256/",
+  "image_credit": "Markus Bahlmann · Flickr"
  },
  {
   "id": "cn-wangxian-valley",
@@ -6876,15 +6968,72 @@ window.PLACES_CN = [
   "lat": 31.23962,
   "lng": 121.4960369,
   "approx": false,
-  "image": null,
+  "image": "images/claude_sh_lujiazui_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/cnmark/29702388160/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/29702388160/",
+    "kind": "photo",
+    "image": "images/claude_sh_lujiazui_1.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/harikrish82/6329351610/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/harikrish82/6329351610/",
+    "kind": "photo",
+    "image": "images/claude_sh_lujiazui_2.jpg",
+    "caption": "",
+    "credit": "harikrish.h · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/camelkw/13309681905/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/camelkw/13309681905/",
+    "kind": "photo",
+    "image": "images/claude_sh_lujiazui_3.jpg",
+    "caption": "",
+    "credit": "CamelKW · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/cnmark/46523614481/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/46523614481/",
+    "kind": "photo",
+    "image": "images/claude_sh_lujiazui_4.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/cnmark/51732422231/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/51732422231/",
+    "kind": "photo",
+    "image": "images/claude_sh_lujiazui_5.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/sty_foto/12269943006/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/sty_foto/12269943006/",
+    "kind": "photo",
+    "image": "images/claude_sh_lujiazui_6.jpg",
+    "caption": "",
+    "credit": "Cathie So · Flickr"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Runde Fußgängerbrücke mit Pearl Tower und Verkehrsströmen",
-  "when": "both"
+  "when": "both",
+  "image_page": "https://www.flickr.com/photos/cnmark/29702388160/",
+  "image_credit": "Markus Bahlmann · Flickr"
  },
  {
   "id": "claude-cn-jin-mao-tower-atrium",
@@ -6899,15 +7048,72 @@ window.PLACES_CN = [
   "lat": 31.2372504,
   "lng": 121.5014197,
   "approx": false,
-  "image": null,
+  "image": "images/claude_sh_jinmao_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/ztransmissions/343994799/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/ztransmissions/343994799/",
+    "kind": "photo",
+    "image": "images/claude_sh_jinmao_1.jpg",
+    "caption": "",
+    "credit": "zTransmissions · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/albertwirtz/25288725746/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/albertwirtz/25288725746/",
+    "kind": "photo",
+    "image": "images/claude_sh_jinmao_2.jpg",
+    "caption": "",
+    "credit": "Albert Wirtz · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/farbwahl/8645274913/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/farbwahl/8645274913/",
+    "kind": "photo",
+    "image": "images/claude_sh_jinmao_3.jpg",
+    "caption": "",
+    "credit": "mav_at · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/starwizard/48221035502/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/starwizard/48221035502/",
+    "kind": "photo",
+    "image": "images/claude_sh_jinmao_4.jpg",
+    "caption": "",
+    "credit": "Scott N · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/cnmark/48411215611/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/48411215611/",
+    "kind": "photo",
+    "image": "images/claude_sh_jinmao_5.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/gavinveitch/27840112361/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/gavinveitch/27840112361/",
+    "kind": "photo",
+    "image": "images/claude_sh_jinmao_6.jpg",
+    "caption": "",
+    "credit": "gavingmb · Flickr"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Spiralförmiges 33-stöckiges Hotel-Atrium, ikonisches Abstrakt-Motiv",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/ztransmissions/343994799/",
+  "image_credit": "zTransmissions · Flickr"
  },
  {
   "id": "claude-cn-columbia-circle",
@@ -6922,15 +7128,72 @@ window.PLACES_CN = [
   "lat": 31.2101582,
   "lng": 121.4235063,
   "approx": false,
-  "image": null,
+  "image": "images/claude_sh_columbia_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/90890306@N02/55570384861/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/90890306@N02/55570384861/",
+    "kind": "photo",
+    "image": "images/claude_sh_columbia_1.jpg",
+    "caption": "",
+    "credit": "xjazzdummy · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/runenliu/53015921167/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/runenliu/53015921167/",
+    "kind": "photo",
+    "image": "images/claude_sh_columbia_2.jpg",
+    "caption": "",
+    "credit": "Ρούνες Λιου · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/90890306@N02/55570373386/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/90890306@N02/55570373386/",
+    "kind": "photo",
+    "image": "images/claude_sh_columbia_3.jpg",
+    "caption": "",
+    "credit": "xjazzdummy · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/90890306@N02/55570539534/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/90890306@N02/55570539534/",
+    "kind": "photo",
+    "image": "images/claude_sh_columbia_4.jpg",
+    "caption": "",
+    "credit": "xjazzdummy · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/90890306@N02/55570539374/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/90890306@N02/55570539374/",
+    "kind": "photo",
+    "image": "images/claude_sh_columbia_5.jpg",
+    "caption": "",
+    "credit": "xjazzdummy · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/charlesinshanghai/44885438562/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/charlesinshanghai/44885438562/",
+    "kind": "photo",
+    "image": "images/claude_sh_columbia_6.jpg",
+    "caption": "",
+    "credit": "Charles in Shanghai · Flickr"
+   }
+  ],
   "pop": 4,
   "pop_reason": "1920er Country Club mit Pool, Hudec-Villa und OMA-Umbau",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/90890306@N02/55570384861/",
+  "image_credit": "xjazzdummy · Flickr"
  },
  {
   "id": "claude-cn-west-bund-long-museum",
