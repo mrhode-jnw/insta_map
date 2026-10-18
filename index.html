@@ -233,16 +233,16 @@
   .isave button { border: 0; border-radius: 999px; padding: 6px 12px; font-weight: 600; cursor: pointer; background: var(--accent); color: #fff; }
   .isave button.sec { background: var(--soft, rgba(127,127,127,.15)); color: var(--fg); }
   .imove .calc { opacity: .6; }
-  .idur { display: flex; align-items: center; gap: 6px; margin: 2px 0 8px; font-size: 13px; color: var(--muted); }
+  .idur { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 2px 0 8px; font-size: 13px; color: var(--muted); }
   .idur b { color: var(--fg); min-width: 52px; }
   .idur button { width: 30px; height: 30px; border-radius: 50%; border: 0; background: var(--soft, rgba(127,127,127,.15)); color: var(--fg); font-size: 17px; font-weight: 700; cursor: pointer; line-height: 1; }
   .idur.chg b { color: var(--accent); }
   .ic .itm.moved { color: #f59e0b; }
-  .ilate { display: inline-block; margin: 0 0 8px; padding: 3px 9px; border-radius: 999px; background: rgba(245,158,11,.18); color: #f59e0b; font-size: 12.5px; font-weight: 600; }
+  .ilate { display: inline-block; max-width: 100%; white-space: normal; margin: 0 0 8px; padding: 3px 9px; border-radius: 999px; background: rgba(245,158,11,.18); color: #f59e0b; font-size: 12.5px; font-weight: 600; }
   .b-opt { background: #f3e8ff; color: #6b21a8; }
   .iig { display: flex; flex-wrap: wrap; gap: 5px; margin: 4px 0 2px; }
   .iig a, .iig button { font-size: 12.5px; padding: 4px 9px; border-radius: 999px; border: 0; background: #fce7f3; color: #9d174d; text-decoration: none; cursor: pointer; font-weight: 600; }
-  #itinBody { flex: 1; overflow-y: auto; padding: 12px 12px calc(env(safe-area-inset-bottom) + 24px); }
+  #itinBody { flex: 1; overflow-y: auto; overflow-x: hidden; overscroll-behavior-x: none; padding: 12px 12px calc(env(safe-area-inset-bottom) + 24px); }
   .idh h2 { margin: 0 0 4px; font-size: 19px; } .idh .ist { font-size: 11.5px; padding: 2px 8px; border-radius: 999px; background: #fef3c7; color: #92400e; vertical-align: middle; margin-left: 6px; }
   .isun { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 10px; font-size: 12.5px; }
   .isun span { padding: 4px 8px; border-radius: 8px; background: rgba(148,163,184,.15); }
@@ -2547,7 +2547,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       if (it._sugg) continue;
       const p = parseT(it.t); if (!p) continue;
       const k = stopKey(it), base = p.e != null ? p.e - p.s : 0, dur = du[k] != null ? du[k] : base;
-      const start = cur != null && cur > p.s ? cur : p.s, end = start + dur;
+      const start = cur != null && cur > p.s + 10 ? cur : p.s, end = start + dur;  // bis 10 Min. Verspätung: Planzeit bleibt (Puffer)
       out.set(it, { start, end, base, dur, key: k, late: start - p.s, range: p.e != null,
         t: (p.approx ? "~" : "") + hm(start) + (p.e != null || dur ? "–" + hm(end) : "") });
       cur = p.e != null || dur ? end : start;
