@@ -1939,7 +1939,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Kartenausschnitt vor dem ersten geöffneten Spot merken und beim Schließen wiederherstellen
   // (Blättern zwischen Spots darf die Karte bewegen, danach steht sie wieder wie vorher)
   let savedView = null, navigating = false, openMini = null;
-  let backTo = null;  // Spot aus Reiseplan/Tour geöffnet: beim Schließen dorthin zurück (Fenster, Tag, Scrollposition)
+  let backTo = null;
+  // kleine Ansicht bleibt beim Wechsel zum nächsten Pin klein (✕ beendet sie)
+  let miniUntil = 0, closedByX = false;
+  map.on("popupclose", ev => {
+    const el = ev.popup.getElement();
+    miniUntil = el && el.classList.contains("mini") && !closedByX ? Date.now() + 1500 : 0;
+    closedByX = false;
+  });  // Spot aus Reiseplan/Tour geöffnet: beim Schließen dorthin zurück (Fenster, Tag, Scrollposition)
   const saveView = () => { if (!savedView) savedView = { c: map.getCenter(), z: map.getZoom() }; };
   map.on("popupopen", () => { if (!navSnap) navSnap = order.slice(); saveView(); stepping = false; document.querySelectorAll(".leaflet-marker-icon.lastseen").forEach(x => x.classList.remove("lastseen")); });
   // Spot geschlossen → Karte zeigt genau diesen Spot und hebt seinen Pin hervor (statt zum alten Ausschnitt zurückzuspringen)
@@ -1969,10 +1976,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     };
     step();
   }
-  function miniSpot(id) {
+  function miniSpot(id, keep) {
     const el = map._popup && map._popup.getElement(), p = places.find(x => x.id === id), m = markers.get(id);
     if (!el || !p || !m) return;
     el.classList.add("mini"); document.body.classList.add("popup-mini"); setPfull(el); anchorMini(el, m);
+    if (keep) { savedView = null; return; }  // Wechsel von Pin zu Pin: Karte bleibt, wo sie ist
     savedView = null;  // nach dem Schließen nicht zum alten Ausschnitt zurück – man wollte ja hierher
     if (mobile()) setSnap("peek");
     const center = z => {  // Spot mittig in den freien Bereich unter der kleinen Leiste
@@ -2071,7 +2079,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       el.classList.add("card"); document.body.appendChild(el);
       applyCardMode(ev.popup, true);
       document.querySelectorAll(".leaflet-popup.ghost").forEach(g => setTimeout(() => g.remove(), 120));
-      if (openMini) { const id = openMini; openMini = null; setTimeout(() => miniSpot(id), 0); }  // aus dem Reiseplan: gleich klein am Pin
+      let keep = false;
+      if (!openMini && Date.now() < miniUntil) { const box = el.querySelector(".status"); if (box) { openMini = box.dataset.id; keep = true; } }  // vorher klein → wieder klein
+      miniUntil = 0;
+      if (openMini) { const id = openMini; openMini = null; if (keep) miniSpot(id, true); else setTimeout(() => miniSpot(id), 0); }  // aus dem Reiseplan: gleich klein am Pin
       return;
     }
     const deskH = Math.min(sp.maxH, Math.round(window.innerHeight * 0.8));  // Desktop: Foto + Name + Status sichtbar (Foto max. 42vh)
@@ -2132,7 +2143,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       hs.addEventListener("scroll", upd, { passive: true }); upd();
     }
     el.querySelectorAll("button[data-go]").forEach(b => b.onclick = e => { e.stopPropagation(); stepSpot(id, +b.dataset.go); });
-    const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); map.closePopup(); };
+    const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); closedByX = true; map.closePopup(); };
     // 📍 Springe zu Spot: Spot schließen, hinzoomen, Liste einklappen, Pin hervorheben
     const sm = el.querySelector(".showmap"); if (sm) sm.onclick = e => { e.stopPropagation(); miniSpot(sm.dataset.show); };
     const pm = el.querySelector(".pmini"); if (pm) pm.onclick = e => { e.stopPropagation(); el.classList.remove("full"); document.body.classList.remove("popup-full"); miniSpot(pm.dataset.mini); };
