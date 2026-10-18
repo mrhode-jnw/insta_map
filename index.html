@@ -1290,10 +1290,21 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const l = n === "gaode" ? gaode : n === "esri" && !inMainland(LAST_POS) ? esri : n === "esri" ? gaode : null;
       if (l) setTimeout(() => { if (map.hasLayer(osm)) { map.removeLayer(osm); l.addTo(map); } }, 0); });
     osm.on("tileload", () => { try { localStorage.removeItem("tileBase2"); } catch {} });
+    // Satellit: Google (in China lagerichtig, WGS84), fällt bei Fehlern auf Esri-Luftbild zurück – zeigt Gassen/Dächer in Dörfern ohne Kartendaten
+    const esriSat = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", { maxZoom: 21, maxNativeZoom: 18, attribution: "Esri World Imagery" });
+    const sat = L.tileLayer("https://mt{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}", { subdomains: "0123", maxZoom: 21, maxNativeZoom: 20, attribution: "Bilder © Google" });
+    let satErr = 0; sat.on("tileerror", () => { if (++satErr > 6 && map.hasLayer(sat)) { map.removeLayer(sat); esriSat.addTo(map); toast("Google-Satellit nicht erreichbar – zeige Esri-Luftbild", 3000); } });
+    sat.on("add", () => { satErr = 0; });
+    const BASES = { osm, gaode, esri, sat, esriSat };
+    const curBase = () => Object.keys(BASES).find(k => map.hasLayer(BASES[k]));
+    // für Rundgänge: Satellit an und danach die vorherige Karte zurück
+    let baseBefore = null;
+    window._satOn = () => { const c = curBase(); if (c === "sat" || c === "esriSat") return; baseBefore = c; if (c) map.removeLayer(BASES[c]); sat.addTo(map); };
+    window._satOff = () => { if (!baseBefore) return; const c = curBase(); if (c === "sat" || c === "esriSat") { map.removeLayer(BASES[c]); BASES[baseBefore].addTo(map); } baseBefore = null; };
     // Karte von Hand wählen (oben rechts)
-    if (!ROTATE && !GMAP) { window._baseSel = L.control.layers({ "OpenStreetMap": osm, "Gaode 高德": gaode, "Esri": esri }, null, { position: "topright" }).addTo(map);
+    if (!ROTATE && !GMAP) { window._baseSel = L.control.layers({ "OpenStreetMap": osm, "Gaode 高德": gaode, "Esri": esri, "Satellit (Google)": sat, "Satellit (Esri)": esriSat }, null, { position: "topright" }).addTo(map);
       window._baseSel.getContainer().classList.add("basesel"); }
-    map.on("baselayerchange", e => { try { e.layer === osm ? localStorage.removeItem("tileBase2") : localStorage.setItem("tileBase2", e.layer === gaode ? "gaode" : "esri"); } catch {} });
+    map.on("baselayerchange", e => { baseBefore = null; try { e.layer === osm ? localStorage.removeItem("tileBase2") : e.layer === gaode || e.layer === esri ? localStorage.setItem("tileBase2", e.layer === gaode ? "gaode" : "esri") : 0; } catch {} });
   }
 
   // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
@@ -2629,6 +2640,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       .addTo(walkLayer));
     const mk = walkMk;
     if (!map.hasLayer(walkLayer)) walkLayer.addTo(map);
+    if (!walkShown && window._satOn) window._satOn();  // Dörfer sind kaum kartiert → Satellitenbild zeigt Gassen und Häuser
     walkShown = id;
     $("#walkPill").textContent = `Rundgang ${w.place} · ${w.stops.length} Stationen · ${String(w.km).replace(".", ",")} km  ✕`; $("#walkPill").hidden = false;
     $("#wk").hidden = true; dockSync();
@@ -2654,7 +2666,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const z = Math.max(map.getZoom(), 18), pt = map.project(L.latLng(st.lat, st.lng), z).add([0, mobile() ? map.getSize().y * 0.25 : 0]);
     map.setView(map.unproject(pt, z), z);
   }
-  function hideWalk() { walkLayer.clearLayers(); map.removeLayer(walkLayer); walkShown = null; walkMk = []; $("#walkPill").hidden = true; $("#wcard").hidden = true; dockSync(); }
+  function hideWalk() { walkLayer.clearLayers(); map.removeLayer(walkLayer); walkShown = null; if (window._satOff) window._satOff(); walkMk = []; $("#walkPill").hidden = true; $("#wcard").hidden = true; dockSync(); }
   $("#walkPill").onclick = hideWalk;
   function renderWalks() {
     const areas = [...new Set(WALKS.map(w => w.area || ""))];
@@ -3096,7 +3108,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "90 · Rundgänge genauer verortet";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "91 · Satellit bei Rundgängen";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
