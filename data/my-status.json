@@ -596,5 +596,8 @@
  "cn-hongen-temple": {
   "fav": true,
   "prio": "hoch"
+ },
+ "cn-xianggong-hill": {
+  "done": true
  }
 }
