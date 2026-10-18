@@ -33,7 +33,21 @@
     "lat": 25.91932,
     "lng": 108.97238,
     "approx": true,
-    "text": "Das Hecang-Gästehaus (禾仓美宿) ist ein umgebautes Dong-Wohnhaus. Gebaut wurde es mit Unterstützung der China Tourism Group, seit die Bergstraßen ausgebaut sind und mehr Gäste kommen (2024: knapp 37.000). Schon auf den ersten Metern sieht man, wie streng das Dorf sein Ortsbild schützt: Neubauten müssen aus Holz sein und dürfen höchstens drei Stockwerke haben, Ziegel sind nur für Küche und Bad erlaubt. Morgens sieht man ältere Frauen mit dem grünen, steif gestärkten Kopftuch, das wegen seiner Form „Fischmaul“ heißt und als Erkennungszeichen von Huanggang gilt."
+    "text": "Das Hecang-Gästehaus (禾仓美宿) ist ein umgebautes Dong-Wohnhaus. Gebaut wurde es mit Unterstützung der China Tourism Group, seit die Bergstraßen ausgebaut sind und mehr Gäste kommen (2024: knapp 37.000). Schon auf den ersten Metern sieht man, wie streng das Dorf sein Ortsbild schützt: Neubauten müssen aus Holz sein und dürfen höchstens drei Stockwerke haben, Ziegel sind nur für Küche und Bad erlaubt. Morgens sieht man ältere Frauen mit dem grünen, steif gestärkten Kopftuch, das wegen seiner Form „Fischmaul“ heißt und als Erkennungszeichen von Huanggang gilt.",
+    "images": [
+     {
+      "image": "images/walk_huanggang_1_1.jpg",
+      "url": "https://blog.sina.com.cn/s/blog_6c3602d50102xchb.html",
+      "credit": "李永宏 · 新浪博客",
+      "caption": "Hauptgasse im Dorfkern, hinten ein Trommelturm"
+     },
+     {
+      "image": "images/walk_huanggang_1_2.jpg",
+      "url": "https://www.flickr.com/photos/wulingyun/9404606875/",
+      "credit": "woOoly · Flickr",
+      "caption": "Blick über die Dächer von Huanggang"
+     }
+    ]
    },
    {
     "name": "Trommelturm mit Dorfbühne (Süd)",
@@ -41,7 +55,15 @@
     "lat": 25.9198,
     "lng": 108.9729,
     "approx": true,
-    "text": "Huanggang hat fünf Trommeltürme (鼓楼), und jeder gehört einer der fünf Sippen, die auf die fünf Gründerbrüder zurückgehen. Die Türme sind über zehn Meter hoch und ganz ohne Nägel gebaut. Im Erdgeschoss liegt eine offene Feuerstelle, an der die Männer im Winter sitzen, rauchen und Neuigkeiten austauschen. Daneben steht eine Holzbühne (戏台), auf der zu Festen Dong-Oper (侗戏) gespielt und Dong-Gesang vorgetragen wird. Zu Neujahr und Festen tritt jeder Trommelturm mit mindestens zwei eigenen Chören an."
+    "text": "Huanggang hat fünf Trommeltürme (鼓楼), und jeder gehört einer der fünf Sippen, die auf die fünf Gründerbrüder zurückgehen. Die Türme sind über zehn Meter hoch und ganz ohne Nägel gebaut. Im Erdgeschoss liegt eine offene Feuerstelle, an der die Männer im Winter sitzen, rauchen und Neuigkeiten austauschen. Daneben steht eine Holzbühne (戏台), auf der zu Festen Dong-Oper (侗戏) gespielt und Dong-Gesang vorgetragen wird. Zu Neujahr und Festen tritt jeder Trommelturm mit mindestens zwei eigenen Chören an.",
+    "images": [
+     {
+      "image": "images/walk_huanggang_2_1.jpg",
+      "url": "https://www.flickr.com/photos/yvesguillemot/48583926036/",
+      "credit": "yves guillemot · Flickr",
+      "caption": "Einer der fünf Trommeltürme von Huanggang (welcher, ist unklar)"
+     }
+    ]
    },
    {
     "name": "Trommelturm in der Dorfmitte",
@@ -49,7 +71,27 @@
     "lat": 25.92038,
     "lng": 108.97365,
     "approx": true,
-    "text": "Unter dem Dach hängt in jedem Turm eine Holztafel mit den 24 Sonnenterminen des Bauernkalenders, dazu zwei geschnitzte Drachen. Hier tagen die gewählten Dorfältesten (寨老) mit über 30 Familienvertretern nach den mündlich überlieferten Kuan-Regeln (款约), die Wald, Ehe und Brandschutz ordnen. Der Leitsatz lautet: „Große Dinge gemeinsam beraten, praktische Dinge gemeinsam anpacken.“ Einer der Türme ist der Baoji-Trommelturm (包几鼓楼), in dem der Dorfrat tagt. Fragen Sie, welcher es ist. Von hier wurde früher bei Gefahr die Sippe zusammengetrommelt."
+    "text": "Unter dem Dach hängt in jedem Turm eine Holztafel mit den 24 Sonnenterminen des Bauernkalenders, dazu zwei geschnitzte Drachen. Hier tagen die gewählten Dorfältesten (寨老) mit über 30 Familienvertretern nach den mündlich überlieferten Kuan-Regeln (款约), die Wald, Ehe und Brandschutz ordnen. Der Leitsatz lautet: „Große Dinge gemeinsam beraten, praktische Dinge gemeinsam anpacken.“ Einer der Türme ist der Baoji-Trommelturm (包几鼓楼), in dem der Dorfrat tagt. Fragen Sie, welcher es ist. Von hier wurde früher bei Gefahr die Sippe zusammengetrommelt.",
+    "images": [
+     {
+      "image": "images/walk_huanggang_3_1.jpg",
+      "url": "https://blog.sina.com.cn/s/blog_6c3602d50102xchb.html",
+      "credit": "李永宏 · 新浪博客",
+      "caption": "Im Erdgeschoss eines Trommelturms: Feuerstelle und Bänke der Älteren"
+     },
+     {
+      "image": "images/walk_huanggang_3_2.jpg",
+      "url": "https://touch.travel.qunar.com/youji/7781239",
+      "credit": "Q爸爱旅行 · 去哪儿攻略",
+      "caption": "Feuerstelle in einem Trommelturm"
+     },
+     {
+      "image": "images/walk_huanggang_3_3.jpg",
+      "url": "https://touch.travel.qunar.com/youji/7781239",
+      "credit": "Q爸爱旅行 · 去哪儿攻略",
+      "caption": "Dachstuhl und bemalter Fries in einem Trommelturm"
+     }
+    ]
    },
    {
     "name": "Wind-und-Regen-Brücke am Bach",
@@ -57,7 +99,14 @@
     "lat": 25.92057,
     "lng": 108.97386,
     "approx": true,
-    "text": "Zwei Bäche fließen mitten im Dorf zusammen, und über einen führt eine überdachte Wind-und-Regen-Brücke (风雨桥). Sie ist Unterstand, Treffpunkt und Ruhebank zugleich: Ältere sitzen hier und plaudern, Bauern führen Büffel und Ziegen über die Holzstege. Für die Dong halten solche Brücken außerdem das Glück im Dorf fest. Sie werden deshalb gern an Bachläufen am Ortsrand oder an Zusammenflüssen gebaut."
+    "text": "Zwei Bäche fließen mitten im Dorf zusammen, und über einen führt eine überdachte Wind-und-Regen-Brücke (风雨桥). Sie ist Unterstand, Treffpunkt und Ruhebank zugleich: Ältere sitzen hier und plaudern, Bauern führen Büffel und Ziegen über die Holzstege. Für die Dong halten solche Brücken außerdem das Glück im Dorf fest. Sie werden deshalb gern an Bachläufen am Ortsrand oder an Zusammenflüssen gebaut.",
+    "images": [
+     {
+      "image": "images/walk_huanggang_4_1.jpg",
+      "url": "https://www.flickr.com/photos/yvesguillemot/48573955187/",
+      "credit": "yves guillemot · Flickr"
+     }
+    ]
    },
    {
     "name": "Getreidespeicher am Bach",
@@ -65,7 +114,27 @@
     "lat": 25.92033,
     "lng": 108.9745,
     "approx": true,
-    "text": "Das bekannteste Motiv des Dorfs sind die rund 510 hölzernen Getreidespeicher (禾仓), die in Reihen am Bach und über Teichen stehen. Sie liegen bewusst abseits der Wohnhäuser und am Wasser: Brennt ein Haus, bleibt die Ernte verschont, und Stelzen samt Wasser halten Ratten und Feuchtigkeit fern. Gelagert wird vor allem der duftende Xianghe-Klebreis (黎平香禾糯), eine geschützte Herkunftsbezeichnung. Ein Sprichwort sagt, ein Feld davon dufte zehn Li weit. Bitte nicht auf die Speicherleitern steigen, das sind private Vorratskammern."
+    "text": "Das bekannteste Motiv des Dorfs sind die rund 510 hölzernen Getreidespeicher (禾仓), die in Reihen am Bach und über Teichen stehen. Sie liegen bewusst abseits der Wohnhäuser und am Wasser: Brennt ein Haus, bleibt die Ernte verschont, und Stelzen samt Wasser halten Ratten und Feuchtigkeit fern. Gelagert wird vor allem der duftende Xianghe-Klebreis (黎平香禾糯), eine geschützte Herkunftsbezeichnung. Ein Sprichwort sagt, ein Feld davon dufte zehn Li weit. Bitte nicht auf die Speicherleitern steigen, das sind private Vorratskammern.",
+    "images": [
+     {
+      "image": "images/walk_huanggang_5_1.jpg",
+      "url": "https://news.ifeng.com/c/8nYIXzSrTBI",
+      "credit": "CCTV-2 (Videostill) · ifeng.com",
+      "caption": "Getreidespeicher mit Reisgarben am Dorfrand"
+     },
+     {
+      "image": "images/walk_huanggang_5_2.jpg",
+      "url": "https://blog.sina.com.cn/s/blog_8b2483a40102yfts.html",
+      "credit": "无暇客 · 新浪博客",
+      "caption": "Getreidespeicher (禾仓) am Bach"
+     },
+     {
+      "image": "images/walk_huanggang_5_3.jpg",
+      "url": "https://blog.sina.com.cn/s/blog_8b2483a40102yfts.html",
+      "credit": "无暇客 · 新浪博客",
+      "caption": "Getreidespeicher auf Stelzen"
+     }
+    ]
    },
    {
     "name": "Reistrockengestelle und Felder am Ostrand",
@@ -73,7 +142,27 @@
     "lat": 25.92043,
     "lng": 108.97547,
     "approx": true,
-    "text": "Am Ostrand führt das Tal hinaus in die Reisterrassen. Im Herbst hängen dort die Klebreisgarben an hohen Gestellen aus Kiefernstämmen (禾晾) und bilden eine goldene Wand. Geerntet wird noch von Hand: Mit einem kleinen Messer wird jede Rispe einzeln geschnitten, gebündelt und luftgetrocknet. In den Feldern läuft das Reis-Fisch-Enten-System, das die FAO als landwirtschaftliches Welterbe (GIAHS) führt: Fische lockern den Boden, Enten fressen Schädlinge, Kunstdünger braucht es kaum."
+    "text": "Am Ostrand führt das Tal hinaus in die Reisterrassen. Im Herbst hängen dort die Klebreisgarben an hohen Gestellen aus Kiefernstämmen (禾晾) und bilden eine goldene Wand. Geerntet wird noch von Hand: Mit einem kleinen Messer wird jede Rispe einzeln geschnitten, gebündelt und luftgetrocknet. In den Feldern läuft das Reis-Fisch-Enten-System, das die FAO als landwirtschaftliches Welterbe (GIAHS) führt: Fische lockern den Boden, Enten fressen Schädlinge, Kunstdünger braucht es kaum.",
+    "images": [
+     {
+      "image": "images/walk_huanggang_6_1.jpg",
+      "url": "https://news.ifeng.com/c/8nYIXzSrTBI",
+      "credit": "CCTV-2 (Videostill) · ifeng.com",
+      "caption": "Klebreisgarben zum Trocknen an den Gestellen (禾晾)"
+     },
+     {
+      "image": "images/walk_huanggang_6_2.jpg",
+      "url": "https://blog.sina.com.cn/s/blog_8b2483a40102yfts.html",
+      "credit": "无暇客 · 新浪博客",
+      "caption": "Reisgarben am Trockengestell vor Speichern und Teichen"
+     },
+     {
+      "image": "images/walk_huanggang_6_3.jpg",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30748511",
+      "credit": "吴德军 · 贵州省文化和旅游厅 / The Paper",
+      "caption": "Enten im Reisfeld (Reis-Fisch-Enten-Anbau)"
+     }
+    ]
    },
    {
     "name": "Trommelturm im Norddorf",
@@ -81,7 +170,21 @@
     "lat": 25.92187,
     "lng": 108.973,
     "approx": true,
-    "text": "Durch schmale Gassen zwischen zwei- bis dreistöckigen Pfahlbauten (吊脚楼) geht es zum Turm im nördlichen Dorfteil. Unten liegen Ställe und Holzlager, oben wird gewohnt, unter dem Dach trocknet Reis. Zum Fest „Beamte tragen“ (抬官人), alle zwei Jahre am 7. und 8. Tag des ersten Mondmonats, startet hier der Umzug: Kinder mit Phönix-Silberkrone werden auf Sänften durchs Dorf getragen und sollen so Glück für das Jahr bringen."
+    "text": "Durch schmale Gassen zwischen zwei- bis dreistöckigen Pfahlbauten (吊脚楼) geht es zum Turm im nördlichen Dorfteil. Unten liegen Ställe und Holzlager, oben wird gewohnt, unter dem Dach trocknet Reis. Zum Fest „Beamte tragen“ (抬官人), alle zwei Jahre am 7. und 8. Tag des ersten Mondmonats, startet hier der Umzug: Kinder mit Phönix-Silberkrone werden auf Sänften durchs Dorf getragen und sollen so Glück für das Jahr bringen.",
+    "images": [
+     {
+      "image": "images/walk_huanggang_7_1.jpg",
+      "url": "https://blog.sina.com.cn/s/blog_6c3602d50102xchb.html",
+      "credit": "李永宏 · 新浪博客",
+      "caption": "Trommelturm hinter Pfahlbauten (welcher der fünf, ist unklar)"
+     },
+     {
+      "image": "images/walk_huanggang_7_2.jpg",
+      "url": "https://www.flickr.com/photos/wulingyun/9384355324/",
+      "credit": "woOoly · Flickr",
+      "caption": "Pfahlbau mit Trommelturm (welcher der fünf, ist unklar)"
+     }
+    ]
    },
    {
     "name": "Fisch- und Löschteiche",
@@ -89,7 +192,21 @@
     "lat": 25.92183,
     "lng": 108.97198,
     "approx": true,
-    "text": "Die vielen kleinen Teiche zwischen den Häusern dienen mehreren Zwecken: Sie sind Fischbecken, Wäscheplatz und vor allem Löschwasser. Huanggang ist in 16 Brandabschnitte mit 10 Brandschneisen geteilt, dazu kommen 11 Löschbecken, über 40 Teiche, 78 Hydranten und eine Freiwillige Feuerwehr mit 30 Leuten. Seit rund 30 Jahren gab es keinen größeren Brand. Früher wurde verbannt, wer ein Feuer verursachte, heute gilt zum Beispiel ein Lagerverbot für Brennbares. Rauchen also nur, wo Einheimische es auch tun."
+    "text": "Die vielen kleinen Teiche zwischen den Häusern dienen mehreren Zwecken: Sie sind Fischbecken, Wäscheplatz und vor allem Löschwasser. Huanggang ist in 16 Brandabschnitte mit 10 Brandschneisen geteilt, dazu kommen 11 Löschbecken, über 40 Teiche, 78 Hydranten und eine Freiwillige Feuerwehr mit 30 Leuten. Seit rund 30 Jahren gab es keinen größeren Brand. Früher wurde verbannt, wer ein Feuer verursachte, heute gilt zum Beispiel ein Lagerverbot für Brennbares. Rauchen also nur, wo Einheimische es auch tun.",
+    "images": [
+     {
+      "image": "images/walk_huanggang_8_1.jpg",
+      "url": "https://www.flickr.com/photos/wulingyun/9414306210/",
+      "credit": "woOoly · Flickr",
+      "caption": "Teich vor einem Trommelturm"
+     },
+     {
+      "image": "images/walk_huanggang_8_2.jpg",
+      "url": "https://blog.sina.com.cn/s/blog_6c3602d50102xchb.html",
+      "credit": "李永宏 · 新浪博客",
+      "caption": "Steingefasster Lösch- und Fischteich"
+     }
+    ]
    },
    {
     "name": "Dorfschule",
@@ -105,7 +222,21 @@
     "lat": 25.91883,
     "lng": 108.97295,
     "approx": true,
-    "text": "Der letzte der fünf Türme liegt im Süddorf an der Hauptgasse. Hier sieht man den Alltag am Vormittag: Frauen breiten Reis auf Bambusmatten aus oder färben und klopfen Stoff, Männer flicken Netze und Körbe. Zu den großen Festen gehört neben dem Dong-Neujahr das „Himmelsrufen“ (喊天节), ein Regenbittfest mit Tänzen, Trinkrunden und abends Dong-Großgesang. Zurück geht es über die Steinplattenwege zur Unterkunft."
+    "text": "Der letzte der fünf Türme liegt im Süddorf an der Hauptgasse. Hier sieht man den Alltag am Vormittag: Frauen breiten Reis auf Bambusmatten aus oder färben und klopfen Stoff, Männer flicken Netze und Körbe. Zu den großen Festen gehört neben dem Dong-Neujahr das „Himmelsrufen“ (喊天节), ein Regenbittfest mit Tänzen, Trinkrunden und abends Dong-Großgesang. Zurück geht es über die Steinplattenwege zur Unterkunft.",
+    "images": [
+     {
+      "image": "images/walk_huanggang_10_1.jpg",
+      "url": "https://www.flickr.com/photos/154696116@N03/45148065165/",
+      "credit": "sjakvrieswijk · Flickr",
+      "caption": "Hauptgasse mit Trommelturm (welcher der fünf, ist unklar)"
+     },
+     {
+      "image": "images/walk_huanggang_10_2.jpg",
+      "url": "https://blog.sina.com.cn/s/blog_8b2483a40102yfts.html",
+      "credit": "无暇客 · 新浪博客",
+      "caption": "Reis wird auf Matten getrocknet"
+     }
+    ]
    }
   ]
  },
@@ -147,7 +278,15 @@
     "lat": 26.04105,
     "lng": 108.63925,
     "approx": true,
-    "text": "Dali hat sechs historische Brunnen aus behauenen Steinquadern mit gewölbter Abdeckung. Der im Unterdorf entstand im 37. Jahr der Qianlong-Ära (1772). Eine Inschrift nennt drei Stifter namens Yang und den Steinmetz Liu Renyuan. Vor jedem Brunnen liegen Absetzsteine für die Eimer und ein Waschbecken. Bis heute holen Familien hier Trinkwasser, deshalb nicht hineinfassen und nichts darin abspülen."
+    "text": "Dali hat sechs historische Brunnen aus behauenen Steinquadern mit gewölbter Abdeckung. Der im Unterdorf entstand im 37. Jahr der Qianlong-Ära (1772). Eine Inschrift nennt drei Stifter namens Yang und den Steinmetz Liu Renyuan. Vor jedem Brunnen liegen Absetzsteine für die Eimer und ein Waschbecken. Bis heute holen Familien hier Trinkwasser, deshalb nicht hineinfassen und nichts darin abspülen.",
+    "images": [
+     {
+      "image": "images/walk_dali_2_1.jpg",
+      "url": "https://www.flickr.com/photos/wishingbone/51274016164/",
+      "credit": "wishingbone · Flickr",
+      "caption": "Einer der sechs alten Brunnen von Dali (welcher, ist unklar)"
+     }
+    ]
    },
    {
     "name": "Unterstufen-Brücke",
@@ -155,7 +294,21 @@
     "lat": 26.0408,
     "lng": 108.63858,
     "approx": true,
-    "text": "Diese Brücke stammt ebenfalls aus der Qianlong-Zeit. 1990 wurde beim Wegebau eine Steinbogenbrücke daruntergesetzt, auf die die Zimmerleute Yang Shenghe und Yang Xianming den Holzaufbau neu setzten. Mit 11,8 m ist sie die längste der fünf. Sie zeigt gut, wie die Dong ihre Bauten seit Generationen reparieren und weiterbauen, statt sie museal einzufrieren."
+    "text": "Diese Brücke stammt ebenfalls aus der Qianlong-Zeit. 1990 wurde beim Wegebau eine Steinbogenbrücke daruntergesetzt, auf die die Zimmerleute Yang Shenghe und Yang Xianming den Holzaufbau neu setzten. Mit 11,8 m ist sie die längste der fünf. Sie zeigt gut, wie die Dong ihre Bauten seit Generationen reparieren und weiterbauen, statt sie museal einzufrieren.",
+    "images": [
+     {
+      "image": "images/walk_dali_3_1.jpg",
+      "url": "https://hilookcn.com/2019dy-07-dali/",
+      "credit": "ziwendong · 路客中国 hilookcn.com",
+      "caption": "Holzaufbau auf dem Steinbogen von 1990, oben der Trommelturm"
+     },
+     {
+      "image": "images/walk_dali_3_2.jpg",
+      "url": "https://www.flickr.com/photos/wulingyun/9141342721/",
+      "credit": "woOoly · Flickr",
+      "caption": "Steinbogen unter dem Holzaufbau"
+     }
+    ]
    },
    {
     "name": "Trommelturm, Sa-Altar und Dorfplatz",
@@ -163,7 +316,21 @@
     "lat": 26.04048,
     "lng": 108.63931,
     "approx": true,
-    "text": "Am höchsten Punkt der Dorfmitte steht der neunstufige Trommelturm (鼓楼). Ursprünglich stammt er aus der Qianlong-Zeit, nach einem Brand bauten ihn die Dorfbewohner um 2003 auf eigene Kosten am alten Platz wieder auf. Die sechs Traufstützen stehen nach Auskunft im Dorf für die sechs Hauptzweige der Yang-Sippe. Direkt daneben liegt der Sa-Altar (萨坛), ein offener Steinhügel unter alten Bäumen, geweiht der Urahnin Sa, der wichtigsten Schutzgottheit der Dong. Auf dem Platz davor treffen sich Dorfbewohner, singen Dong-Lieder und feiern Feste."
+    "text": "Am höchsten Punkt der Dorfmitte steht der neunstufige Trommelturm (鼓楼). Ursprünglich stammt er aus der Qianlong-Zeit, nach einem Brand bauten ihn die Dorfbewohner um 2003 auf eigene Kosten am alten Platz wieder auf. Die sechs Traufstützen stehen nach Auskunft im Dorf für die sechs Hauptzweige der Yang-Sippe. Direkt daneben liegt der Sa-Altar (萨坛), ein offener Steinhügel unter alten Bäumen, geweiht der Urahnin Sa, der wichtigsten Schutzgottheit der Dong. Auf dem Platz davor treffen sich Dorfbewohner, singen Dong-Lieder und feiern Feste.",
+    "images": [
+     {
+      "image": "images/walk_dali_4_1.jpg",
+      "url": "https://www.flickr.com/photos/wishingbone/51274314935/",
+      "credit": "wishingbone · Flickr",
+      "caption": "Trommelturm, rechts der Sa-Altar (Steinhügel mit Gras)"
+     },
+     {
+      "image": "images/walk_dali_4_2.jpg",
+      "url": "https://hilookcn.com/2019dy-07-dali/",
+      "credit": "ziwendong · 路客中国 hilookcn.com",
+      "caption": "Luftbild: Trommelturm, Sa-Altar und Platz"
+     }
+    ]
    },
    {
     "name": "Mittelstufen-Brücke",
@@ -171,7 +338,14 @@
     "lat": 26.04027,
     "lng": 108.63794,
     "approx": true,
-    "text": "Die Brücke im Dorfzentrum ist ein Pavillonbau aus der Guangxu-Zeit (1875–1908), 11,2 m lang, mit sechs Jochreihen. Nach dem Hochwasser von 1921 wurde sie 1945 neu errichtet. Bezahlt haben das zwei Dong-Älteste und ein Han-Chinese, Huang Chenggao, ein Zeichen für das lange Zusammenleben im Tal. In der Dong-Kultur gelten die Blumenbrücken als Glücksorte: Hier werden Neugeborene vorgestellt und Hochzeitszüge empfangen."
+    "text": "Die Brücke im Dorfzentrum ist ein Pavillonbau aus der Guangxu-Zeit (1875–1908), 11,2 m lang, mit sechs Jochreihen. Nach dem Hochwasser von 1921 wurde sie 1945 neu errichtet. Bezahlt haben das zwei Dong-Älteste und ein Han-Chinese, Huang Chenggao, ein Zeichen für das lange Zusammenleben im Tal. In der Dong-Kultur gelten die Blumenbrücken als Glücksorte: Hier werden Neugeborene vorgestellt und Hochzeitszüge empfangen.",
+    "images": [
+     {
+      "image": "images/walk_dali_5_1.jpg",
+      "url": "https://www.yuncunzhai.com/book/271252.jhtml",
+      "credit": "云村寨 · yuncunzhai.com"
+     }
+    ]
    },
    {
     "name": "Hofhaus von 1781",
@@ -179,7 +353,15 @@
     "lat": 26.04051,
     "lng": 108.63773,
     "approx": true,
-    "text": "Neben den typischen Pfahlbauten in Ganlan-Bauweise hat Dali eine Besonderheit: hölzerne Vierseithöfe (四合木楼) mit Innenhof (天井), wie man sie sonst eher bei Han-Chinesen kennt. Das besterhaltene Haus wurde 1781 errichtet und ist ganz ohne Nägel gezimmert. Es ist bewohnt und Privatbesitz, Besichtigung also nur von außen oder auf Einladung."
+    "text": "Neben den typischen Pfahlbauten in Ganlan-Bauweise hat Dali eine Besonderheit: hölzerne Vierseithöfe (四合木楼) mit Innenhof (天井), wie man sie sonst eher bei Han-Chinesen kennt. Das besterhaltene Haus wurde 1781 errichtet und ist ganz ohne Nägel gezimmert. Es ist bewohnt und Privatbesitz, Besichtigung also nur von außen oder auf Einladung.",
+    "images": [
+     {
+      "image": "images/walk_dali_6_1.jpg",
+      "url": "https://hilookcn.com/2019dy-07-dali/",
+      "credit": "ziwendong · 路客中国 hilookcn.com",
+      "caption": "Luftbild: Vierseithof mit offenem Lichthof (天井) am Bach"
+     }
+    ]
    },
    {
     "name": "Oberstufen-Brücke",
@@ -203,7 +385,27 @@
     "lat": 26.0395,
     "lng": 108.6385,
     "approx": true,
-    "text": "Vier Steinplattenwege aus dem 58. Jahr der Qianlong-Ära (1793) führten früher aus dem Dorf nach Zaima, Xiaoli und in die Nachbardörfer. Zusammen sind noch rund 2,5 km erhalten, mit 568 Stufen. Am Beginn eines Weges sitzen zwei Steinfrösche als Symbol für Reichtum, ihnen gegenüber zwei Steinschlangen. Eine Legende erzählt, ein wandernder Weiser habe die Schlangen meißeln lassen, damit der Reichtum das Dorf nicht „erdrückt“. Eine Stele erinnert an die Bewohner, die den Weg mit Spenden und eigener Arbeit gebaut haben."
+    "text": "Vier Steinplattenwege aus dem 58. Jahr der Qianlong-Ära (1793) führten früher aus dem Dorf nach Zaima, Xiaoli und in die Nachbardörfer. Zusammen sind noch rund 2,5 km erhalten, mit 568 Stufen. Am Beginn eines Weges sitzen zwei Steinfrösche als Symbol für Reichtum, ihnen gegenüber zwei Steinschlangen. Eine Legende erzählt, ein wandernder Weiser habe die Schlangen meißeln lassen, damit der Reichtum das Dorf nicht „erdrückt“. Eine Stele erinnert an die Bewohner, die den Weg mit Spenden und eigener Arbeit gebaut haben.",
+    "images": [
+     {
+      "image": "images/walk_dali_9_1.jpg",
+      "url": "https://hilookcn.com/2019dy-07-dali/",
+      "credit": "ziwendong · 路客中国 hilookcn.com",
+      "caption": "Steinfrosch auf dem Geländerstein am Beginn des alten Wegs"
+     },
+     {
+      "image": "images/walk_dali_9_2.jpg",
+      "url": "https://hilookcn.com/2019dy-07-dali/",
+      "credit": "ziwendong · 路客中国 hilookcn.com",
+      "caption": "Neu gemeißelte Steinschlangen gegenüber dem Wegbeginn"
+     },
+     {
+      "image": "images/walk_dali_9_3.jpg",
+      "url": "https://hilookcn.com/2019dy-07-dali/",
+      "credit": "ziwendong · 路客中国 hilookcn.com",
+      "caption": "Qing-Stele zum Wegebau"
+     }
+    ]
    },
    {
     "name": "Nanmu-Hain über dem Dorf",
@@ -211,7 +413,15 @@
     "lat": 26.0401,
     "lng": 108.6402,
     "approx": true,
-    "text": "Zum Abschluss lohnt ein kurzer Abstecher in den Wald am Hang. Über 400 alte Nanmu-Bäume (楠木) stehen hier, dazu Eiben und Zelkoven. Sie gehören dem Dorf gemeinsam und dürfen nicht gefällt werden, die Kuan-Regeln schützen den Wald seit Generationen. Von hier überblickt man die grauen Ziegeldächer entlang des Bachs, danach geht es zurück zum Well House am unteren Dorfende."
+    "text": "Zum Abschluss lohnt ein kurzer Abstecher in den Wald am Hang. Über 400 alte Nanmu-Bäume (楠木) stehen hier, dazu Eiben und Zelkoven. Sie gehören dem Dorf gemeinsam und dürfen nicht gefällt werden, die Kuan-Regeln schützen den Wald seit Generationen. Von hier überblickt man die grauen Ziegeldächer entlang des Bachs, danach geht es zurück zum Well House am unteren Dorfende.",
+    "images": [
+     {
+      "image": "images/walk_dali_10_1.jpg",
+      "url": "https://www.thepaper.cn/newsDetail_forward_14823279",
+      "credit": "贵州省文化和旅游厅 · The Paper",
+      "caption": "Blick vom bewaldeten Hang über Dali"
+     }
+    ]
    }
   ]
  },
@@ -247,7 +457,15 @@
     "lat": 26.47469,
     "lng": 108.05815,
     "approx": true,
-    "text": "Langde hat drei hölzerne Tore mit Ziegeldach, im Osten, Westen und Norden. Am Osttor kommt man von der Straße ins Dorf. Hier empfangen Frauen in Festtracht Gruppen und Ehrengäste mit dem „Straßensperren-Wein“ (拦路酒): je nach Anlass drei bis zwölf Becher Reiswein, begleitet von Trinkliedern. Ohne Gruppe ist das Tor meist still, gut zum Ankommen."
+    "text": "Langde hat drei hölzerne Tore mit Ziegeldach, im Osten, Westen und Norden. Am Osttor kommt man von der Straße ins Dorf. Hier empfangen Frauen in Festtracht Gruppen und Ehrengäste mit dem „Straßensperren-Wein“ (拦路酒): je nach Anlass drei bis zwölf Becher Reiswein, begleitet von Trinkliedern. Ohne Gruppe ist das Tor meist still, gut zum Ankommen.",
+    "images": [
+     {
+      "image": "images/walk_langde_1_1.jpg",
+      "url": "https://www.sohu.com/a/671097901_120550722",
+      "credit": "见道 · Sohu",
+      "caption": "Eines der drei Holztore (Inschrift 郎德上寨)"
+     }
+    ]
    },
    {
     "name": "Großer Bronzetrommelplatz",
@@ -255,7 +473,26 @@
     "lat": 26.47466,
     "lng": 108.05744,
     "approx": true,
-    "text": "Mitten im Dorf liegt der rund 200 m² große Platz (铜鼓坪), Mitte der 1980er-Jahre mit Kieselsteinen gepflastert. Das Muster bildet die Sonnenscheibe einer Bronzetrommel nach, mit zwölf Strahlen. Hier tanzen die Miao zu Festen den Trommeltanz (踩鼓舞) und den Goldfasanentanz und spielen die Lusheng-Mundorgel. Hier wurde 2008 auch die olympische Fackel übergeben. Bronzetrommeln sind für die Miao heilige Ahnenobjekte und werden nur zu Ritualen hervorgeholt."
+    "text": "Mitten im Dorf liegt der rund 200 m² große Platz (铜鼓坪), Mitte der 1980er-Jahre mit Kieselsteinen gepflastert. Das Muster bildet die Sonnenscheibe einer Bronzetrommel nach, mit zwölf Strahlen. Hier tanzen die Miao zu Festen den Trommeltanz (踩鼓舞) und den Goldfasanentanz und spielen die Lusheng-Mundorgel. Hier wurde 2008 auch die olympische Fackel übergeben. Bronzetrommeln sind für die Miao heilige Ahnenobjekte und werden nur zu Ritualen hervorgeholt.",
+    "images": [
+     {
+      "image": "images/walk_langde_2_1.jpg",
+      "url": "https://www.flickr.com/photos/jacques2beaulieu/8637205780/",
+      "credit": "jbeaulieu · Flickr",
+      "caption": "Bronzetrommelplatz mit Kieselmuster"
+     },
+     {
+      "image": "images/walk_langde_2_2.jpg",
+      "url": "https://www.flickr.com/photos/rachelyin/498035711/",
+      "credit": "+Lanzi · Flickr",
+      "caption": "Tanz auf dem Bronzetrommelplatz"
+     },
+     {
+      "image": "images/walk_langde_2_3.jpg",
+      "url": "https://www.sohu.com/a/671097901_120550722",
+      "credit": "见道 · Sohu"
+     }
+    ]
    },
    {
     "name": "Kieselstein-Gassen und Stelzenhäuser",
@@ -263,7 +500,19 @@
     "lat": 26.47418,
     "lng": 108.05724,
     "approx": true,
-    "text": "Fünf „Blumengassen“ (花街路) aus Kieseln und blauen Steinplatten führen bergauf durchs Dorf, auch Hauseingänge und Höfe sind gepflastert. An den Häusern sieht man die „Schönheitslehnen“ (美人靠): geschwungene Holzbalkone, auf denen Frauen sticken und Besucher beobachten. Im Dachgeschoss lagert der Reis, an den Wänden trocknen Maiskolben und Chilis. Zwischen den Häusern liegen Löschteiche, denn Feuer ist die größte Gefahr für Holzdörfer."
+    "text": "Fünf „Blumengassen“ (花街路) aus Kieseln und blauen Steinplatten führen bergauf durchs Dorf, auch Hauseingänge und Höfe sind gepflastert. An den Häusern sieht man die „Schönheitslehnen“ (美人靠): geschwungene Holzbalkone, auf denen Frauen sticken und Besucher beobachten. Im Dachgeschoss lagert der Reis, an den Wänden trocknen Maiskolben und Chilis. Zwischen den Häusern liegen Löschteiche, denn Feuer ist die größte Gefahr für Holzdörfer.",
+    "images": [
+     {
+      "image": "images/walk_langde_3_1.jpg",
+      "url": "https://www.sohu.com/a/671097901_120550722",
+      "credit": "见道 · Sohu"
+     },
+     {
+      "image": "images/walk_langde_3_2.jpg",
+      "url": "https://www.flickr.com/photos/jacques2beaulieu/8636100427/",
+      "credit": "jbeaulieu · Flickr"
+     }
+    ]
    },
    {
     "name": "Yang-Daliu-Gedenkstätte",
@@ -271,7 +520,15 @@
     "lat": 26.4738,
     "lng": 108.05764,
     "approx": true,
-    "text": "Yang Daliu (杨大六), eigentlich Chen Lalüe, schloss sich 1855 dem großen Miao-Aufstand unter Zhang Xiumei gegen die Qing an und wurde einer seiner wichtigsten Heerführer. Sein Geburtshaus mit der kleinen Gedenkausstellung zeigt Waffen der Aufständischen: Säbel, Gabeln, Helme und eiserne Kanonen. Auf dem Hügel östlich des Dorfs sind noch Reste von Gräben, Schanzen und einem Pulverlager der Rebellen erhalten. Öffnung je nach Personal, bei Bedarf im Dorf nachfragen."
+    "text": "Yang Daliu (杨大六), eigentlich Chen Lalüe, schloss sich 1855 dem großen Miao-Aufstand unter Zhang Xiumei gegen die Qing an und wurde einer seiner wichtigsten Heerführer. Sein Geburtshaus mit der kleinen Gedenkausstellung zeigt Waffen der Aufständischen: Säbel, Gabeln, Helme und eiserne Kanonen. Auf dem Hügel östlich des Dorfs sind noch Reste von Gräben, Schanzen und einem Pulverlager der Rebellen erhalten. Öffnung je nach Personal, bei Bedarf im Dorf nachfragen.",
+    "images": [
+     {
+      "image": "images/walk_langde_4_1.jpg",
+      "url": "https://www.sohu.com/a/671097901_120550722",
+      "credit": "见道 · Sohu",
+      "caption": "Geburtshaus Yang Daliu (杨大六故居)"
+     }
+    ]
    },
    {
     "name": "Westtor und alter Brunnen",
@@ -279,7 +536,21 @@
     "lat": 26.47465,
     "lng": 108.05554,
     "approx": false,
-    "text": "Am westlichen Dorfende liegen das zweite Holztor und ein alter Brunnen (Position laut OpenStreetMap). Die Quelle versorgt das Dorf seit Jahrhunderten mit Trinkwasser. Morgens und abends holen Frauen hier Wasser und waschen Gemüse, deshalb nichts hineinwerfen. Vom Tor sieht man gut, wie das Dorf in Terrassen den Hang hinaufgebaut ist: mit dem Rücken zum Berg, der Fluss davor."
+    "text": "Am westlichen Dorfende liegen das zweite Holztor und ein alter Brunnen (Position laut OpenStreetMap). Die Quelle versorgt das Dorf seit Jahrhunderten mit Trinkwasser. Morgens und abends holen Frauen hier Wasser und waschen Gemüse, deshalb nichts hineinwerfen. Vom Tor sieht man gut, wie das Dorf in Terrassen den Hang hinaufgebaut ist: mit dem Rücken zum Berg, der Fluss davor.",
+    "images": [
+     {
+      "image": "images/walk_langde_5_1.jpg",
+      "url": "https://www.sohu.com/a/671097901_120550722",
+      "credit": "见道 · Sohu",
+      "caption": "Holztor, nahe dem alten Brunnen"
+     },
+     {
+      "image": "images/walk_langde_5_2.jpg",
+      "url": "https://www.sohu.com/a/671097901_120550722",
+      "credit": "见道 · Sohu",
+      "caption": "Alter Brunnen (古井)"
+     }
+    ]
    },
    {
     "name": "Steg und Wasserräder am Fluss",
@@ -287,7 +558,15 @@
     "lat": 26.47531,
     "lng": 108.0567,
     "approx": true,
-    "text": "Über einen Steg geht es zum Fluss hinunter. An beiden Ufern stehen hölzerne Wasserräder (水车), die Wasser in die Reisfelder heben. Sie sind seit Jahrhunderten im Einsatz und werden nach jedem Hochwasser von den Dorfbewohnern neu gebaut. Daneben sind noch Steinmühlen zu sehen. Ende Oktober sind die Felder abgeerntet, Wasserbüffel grasen am Ufer."
+    "text": "Über einen Steg geht es zum Fluss hinunter. An beiden Ufern stehen hölzerne Wasserräder (水车), die Wasser in die Reisfelder heben. Sie sind seit Jahrhunderten im Einsatz und werden nach jedem Hochwasser von den Dorfbewohnern neu gebaut. Daneben sind noch Steinmühlen zu sehen. Ende Oktober sind die Felder abgeerntet, Wasserbüffel grasen am Ufer.",
+    "images": [
+     {
+      "image": "images/walk_langde_6_1.jpg",
+      "url": "https://www.flickr.com/photos/jacques2beaulieu/8636101181/",
+      "credit": "jbeaulieu · Flickr",
+      "caption": "Wasserrad am Fluss, dahinter die überdachte Brücke"
+     }
+    ]
    },
    {
     "name": "Aussichtspunkt am gegenüberliegenden Ufer",
@@ -295,7 +574,20 @@
     "lat": 26.47566,
     "lng": 108.05867,
     "approx": false,
-    "text": "Vom Aussichtspunkt am Nordufer (laut OpenStreetMap) sieht man das ganze Dorf: dicht gestaffelte Holzhäuser mit grauen Ziegeldächern am Südhang, darüber Wald, davor Fluss und Felder. So erkennt man auch die Ordnung des Dorfs mit den Plätzen in der Mitte, den Speichern am Rand und den Toren nach drei Seiten. Ein zweiter Aussichtspunkt liegt etwa 120 m weiter nordöstlich (26.47649, 108.05947)."
+    "text": "Vom Aussichtspunkt am Nordufer (laut OpenStreetMap) sieht man das ganze Dorf: dicht gestaffelte Holzhäuser mit grauen Ziegeldächern am Südhang, darüber Wald, davor Fluss und Felder. So erkennt man auch die Ordnung des Dorfs mit den Plätzen in der Mitte, den Speichern am Rand und den Toren nach drei Seiten. Ein zweiter Aussichtspunkt liegt etwa 120 m weiter nordöstlich (26.47649, 108.05947).",
+    "images": [
+     {
+      "image": "images/walk_langde_7_1.jpg",
+      "url": "https://www.sohu.com/a/671097901_120550722",
+      "credit": "见道 · Sohu",
+      "caption": "Blick von der Flussseite auf das Dorf"
+     },
+     {
+      "image": "images/walk_langde_7_2.jpg",
+      "url": "https://www.flickr.com/photos/jacques2beaulieu/8637209746/",
+      "credit": "jbeaulieu · Flickr"
+     }
+    ]
    },
    {
     "name": "Wind-und-Regen-Brücke (Yang-Daliu-Brücke)",
@@ -303,7 +595,19 @@
     "lat": 26.47563,
     "lng": 108.05789,
     "approx": true,
-    "text": "Die überdachte Holzbrücke vor dem Dorf, auch „Yang-Daliu-Brücke“ genannt, geht auf die Qing-Zeit zurück. Nach einem Hochwasser wurde sie in den 1980er-Jahren über dem Fluss neu gebaut. Auf ihren Bänken spinnen und weben manchmal ältere Frauen, und morgens wird hier Frühstück verkauft. Über die Brücke geht es zurück ins Dorf und zur Unterkunft."
+    "text": "Die überdachte Holzbrücke vor dem Dorf, auch „Yang-Daliu-Brücke“ genannt, geht auf die Qing-Zeit zurück. Nach einem Hochwasser wurde sie in den 1980er-Jahren über dem Fluss neu gebaut. Auf ihren Bänken spinnen und weben manchmal ältere Frauen, und morgens wird hier Frühstück verkauft. Über die Brücke geht es zurück ins Dorf und zur Unterkunft.",
+    "images": [
+     {
+      "image": "images/walk_langde_8_1.jpg",
+      "url": "https://www.flickr.com/photos/jacques2beaulieu/8636095257/",
+      "credit": "jbeaulieu · Flickr"
+     },
+     {
+      "image": "images/walk_langde_8_2.jpg",
+      "url": "https://www.sohu.com/a/671097901_120550722",
+      "credit": "见道 · Sohu"
+     }
+    ]
    }
   ]
  }
