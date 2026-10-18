@@ -1551,6 +1551,15 @@ window.PLACES = [
     "caption": "📸 My Favourite Photo Spots in Hong Kong 🇭🇰 \n\n1. Mong Kok\n2. Kennedy Town\n3. Quarry Bay\n4. The Peak\n5. Wan Chai\n6. North Point\n7. Arsenal Street\n8. Sai Ying Pun\n9. Montane Mansion\n10. M+ Gallery\n\nLet me know what did I miss out or where shall I try next! 🙌🏻\nAll these are without sequence.\n\n#hongkongstreet #hongkongstreetphotography #hongkong #hongkongphotography #hongkong🇭🇰 #hongkongtrip #hongkongtravel #hongkongexplore #hongkongphoto",
     "match": "slide",
     "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/p/DcSwg4-gKzs/?img_index=7",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DcSwg4-gKzs/?img_index=7",
+    "kind": "photo",
+    "image": "images/DcSwg4-gKzs_7.jpg",
+    "caption": "",
+    "credit": "@itsshaylajay · Instagram"
    }
   ],
   "pop": 5,
@@ -2552,7 +2561,7 @@ window.PLACES = [
   "lng": 114.168,
   "approx": false,
   "image": "images/Dci2CYBGUGe.jpg",
-  "caption": "An elderly locksmith works at his tiny stall on Shanghai Street in Mong Kok.⁠\n⁠\nThe street where this old neighbourhood stall is located is one of the oldest in Hong Kong, stretching from Austin Road to Prince Edward Road through the neighbourhoods of Jordan, Yau Ma Tei and Mong Kok. Built in 1887, it was one of several streets in Kowloon named after important ports in China and Southeast Asia, including Canton Road, Saigon Street and Haiphong Road.⁠\n⁠\nIn the last century, Shanghai Street was Kowloon’s main street, with mahjong houses, gold shops and herbal medicine stores lining the road and ",
+  "caption": "",
   "post_url": "https://www.instagram.com/zolima_hongkong/p/Dci2CYBGUGe/",
   "username": "zolima_hongkong",
   "profile_url": "https://www.instagram.com/zolima_hongkong/",
@@ -2563,7 +2572,7 @@ window.PLACES = [
     "profile_url": "https://www.instagram.com/zolima_hongkong/",
     "kind": "p",
     "image": "images/Dci2CYBGUGe.jpg",
-    "caption": "An elderly locksmith works at his tiny stall on Shanghai Street in Mong Kok.⁠\n⁠\nThe street where this old neighbourhood stall is located is one of the oldest in Hong Kong, stretching from Austin Road to Prince Edward Road through the neighbourhoods of Jordan, Yau Ma Tei and Mong Kok. Built in 1887, it was one of several streets in Kowloon named after important ports in China and Southeast Asia, including Canton Road, Saigon Street and Haiphong Road.⁠\n⁠\nIn the last century, Shanghai Street was Kowloon’s main street, with mahjong houses, gold shops and herbal medicine stores lining the road and ",
+    "caption": "",
     "match": "single"
    }
   ],
@@ -4570,6 +4579,15 @@ window.PLACES = [
     "caption": "Location below ⬇️ One of the most intriguing architecture in Hong Kong: a wall of apartments built on the top of a mountain ⛰️🧱 Would you live inside this wall of concrete?👀\n\nLocation: Wonderland Villas, Kwai Chung📍\n\nLike, Repost, and Share if you like this post ❤️‍🔥\nFollow @mansonyms for more visual guides 💡\n\nMy Hong Kong photography guides\n▶️ #mansonyms_hongkong",
     "match": "slide",
     "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/p/DdwYK7Aoyzy/?img_index=4",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DdwYK7Aoyzy/?img_index=4",
+    "kind": "photo",
+    "image": "images/DdwYK7Aoyzy_4.jpg",
+    "caption": "",
+    "credit": "@tatlertravel (Foto: @llittlepig) · Instagram"
    }
   ],
   "pop": 3,
@@ -5804,6 +5822,49 @@ window.PLACES = [
   "source": "Sing Tao (Dez. 2023), HK01 (Mai 2025), Localiiz; Lage: OpenStreetMap",
   "ok": "Spielplatz und Basketballfelder per OSM (堅尼地城遊樂場, 2 Basketballfelder) bestätigt; Davis Street beginnt laut OSM genau gegenüber dem östlichen Feld",
   "when": "day"
+ },
+ {
+  "id": "hk-carnival-restaurant-neon-lai-king",
+  "name": "Carnival Restaurant Neon 嘉年華酒家 (Lai King)",
+  "district": "Lai King, Kwai Chung",
+  "category": "Neon",
+  "note": "Rotes Neon-Dachschild 嘉年華酒家 auf dem Gebäude der Carnival-Restaurant-Filiale (荔景店) im Lai King Estate 荔景邨, nahe MTR Lai King und der Fußgängerbrücke über die Kwai Chung Road. Laut lokalen Blogs ein Wahrzeichen des Lai King Estate, Schild aus den 1980ern. Im Hintergrund die beleuchteten Kräne des Kwai-Tsing-Containerterminals. Pin ungefähr (Restaurantgebäude), genaue Dachposition nicht verifiziert.",
+  "tip": "Nachts, am besten nach Regen (Spiegelungen auf nassem Boden). Mit Weitwinkel von unten schräg, oder mit Tele die Containerkräne hinter dem Schild einbeziehen. Das Dach selbst ist nicht öffentlich – vom Gehweg/der Brücke aus fotografieren.",
+  "address": "Lai King, Kwai Chung",
+  "lat": 22.3487,
+  "lng": 114.1262,
+  "approx": true,
+  "image": "images/DdFzwRdFKLt_8.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/p/DdFzwRdFKLt/?img_index=8",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DdFzwRdFKLt/?img_index=8",
+    "kind": "photo",
+    "image": "images/DdFzwRdFKLt_8.jpg",
+    "caption": "",
+    "credit": "@dawgshiiz · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/p/DdFzwRdFKLt/?img_index=1",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DdFzwRdFKLt/?img_index=1",
+    "kind": "photo",
+    "image": "images/DdFzwRdFKLt_1.jpg",
+    "caption": "",
+    "credit": "@dawgshiiz · Instagram"
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Eines der letzten großen Dach-Neonschilder, Instagram-Motiv (@dawgshiiz)",
+  "image_page": "https://www.instagram.com/p/DdFzwRdFKLt/?img_index=8",
+  "image_credit": "@dawgshiiz · Instagram",
+  "source": "@dawgshiiz · Instagram; Filiale laut OpenRice/Tripadvisor im Lai King Estate (Yin Lai Court Shopping Centre)",
+  "when": "night"
  }
 ];
 window.UNPLACED_POSTS = [
@@ -6218,7 +6279,7 @@ window.UNPLACED_POSTS = [
   "profile_url": "https://www.instagram.com/audityawijaya/",
   "kind": "p",
   "image": "images/DdtWI4PDz_s.jpg",
-  "caption": "",
+  "caption": "Kennedy Town, Hong Kong and everything in between.\n\nMong Kok — Jewels of Hong Kong\n\nThe legendary Ding Ding tram of Hong Kong in blue — highlights of Hong Kong Island.\n\nThe star of Tsim Sha Tsui — Hong Kong iconic red and white taxi.\n\nA stop for the “I ❤️ Hong Kong” shops.\n\nHashtag B — always be on my A Tier (rather S Tier) Egg Tart favourite in Hong Kong. Best of the Best!\n\nMarouf and Puff’s glazy baby croissants are the best bites for a rainy day in Hong Kong.\n\nEgg Tarts over Egg Tarts — the Halal Certified Egg Tarts of Marouf and Puff. A must visit!\n\nThe infamous Bakehouse bakery — no Bakeh",
   "sub": "hk"
  }
 ];
