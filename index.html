@@ -485,6 +485,11 @@
   #inspBody .iw { position: relative; display: block; break-inside: avoid; }
   #inspBody .idel { position: absolute; top: 5px; right: 5px; width: 24px; height: 24px; padding: 0; border: 0; border-radius: 50%;
     background: rgba(0,0,0,.55); color: #fff; font-size: 16px; line-height: 24px; cursor: pointer; }
+  #inspBody .iloc { position: absolute; left: 5px; bottom: 13px; width: 30px; height: 30px; padding: 0; border: 0; border-radius: 50%;
+    background: rgba(0,0,0,.55); color: #fff; font-size: 15px; line-height: 30px; cursor: pointer; }
+  #inspBody .ilocr { position: absolute; left: 5px; right: 5px; bottom: 13px; padding: 4px 8px; border: 0; border-radius: 999px; font-size: 12px; font-weight: 600;
+    text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: rgba(0,0,0,.6); color: #fff; cursor: pointer; }
+  #inspBody .ilocr.ok { background: rgba(15,118,110,.92); } #inspBody .ilocr.no { background: rgba(120,53,15,.85); } #inspBody .ilocr.wait { cursor: default; }
   #inspBody .masonry img { width: 100%; display: block; margin-bottom: 8px; border-radius: 8px; break-inside: avoid; background: var(--line); cursor: zoom-in; }
   #view #inspBtn { font-size: 15px; }
   #lb { position: fixed; inset: 0; z-index: 3000; background: #000; color: #fff; display: flex; flex-direction: column;
@@ -1098,7 +1103,7 @@
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
   const v = Date.now();
-  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script><script src="data/added.js?v=${v}"><\/script>`);
+  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/insp_locate.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script><script src="data/added.js?v=${v}"><\/script>`);
 </script>
 <script src="crypto.js"></script>
 <script>
@@ -2380,9 +2385,37 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let inspF = new Set(); try { inspF = new Set(JSON.parse(localStorage.getItem("inspF") || "[]")); } catch {}
   // Insta-Links, die auf die Routine warten (Eingang mit insp), solange ihre Bilder noch nicht in INSP stehen
   let inspPending = [];
+  // „Ort recherchieren“: Auftrag im Eingang (kind: "locate"), Ergebnis von der Routine in data/insp_locate.js (Bild → Ergebnis)
+  let locPending = [];
+  const LOC = () => window.INSP_LOCATE || {};
+  // neuester Auftrag zum Bild: Ergebnis gehört dazu (gleiche id) → Ergebnis, sonst noch in Arbeit
+  const locState = img => { const req = locPending.filter(x => x.image === img).sort((a, b) => (a.added || "") < (b.added || "") ? 1 : -1)[0], r = LOC()[img];
+    return req && (!r || r.id !== req.id) ? { status: "pending" } : r || null; };
+  function locBadge(img) {
+    const r = locState(img); if (!r) return `<button class="iloc" data-loc="${esc(img)}" aria-label="Ort recherchieren" title="Ort recherchieren">🔎</button>`;
+    const sp = r.spot && places.find(x => x.id === r.spot);
+    return r.status === "found" ? `<button class="ilocr ok" data-locspot="${esc(r.spot)}" title="${esc(r.note || "")}">📍 ${esc(sp ? shortName(sp.name) : r.name || "Spot")}</button>`
+      : r.status === "notfound" ? `<button class="ilocr no" data-locnote="${esc(img)}" title="${esc(r.note || "")}">❓ Ort nicht gefunden</button>`
+      : `<span class="ilocr wait">⏳ Ort wird recherchiert</span>`;
+  }
+  async function requestLocate(img, ctx) {
+    const hint = prompt("Ort dieses Bildes recherchieren lassen?\nClaude nimmt sich im nächsten Lauf (ca. 1 Std.) Zeit dafür und legt bei Erfolg einen Spot an.\n\nHinweise zum Ort (optional, z. B. Stadt, Straße):", "");
+    if (hint === null) return;
+    if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+    const id = "loc:" + img.replace(/^.*\//, "").replace(/\.[a-z]+$/i, "").slice(0, 50) + ":" + Date.now().toString(36);
+    const entry = { kind: "locate", id, image: img, region: ctx.region, ...(ctx.url ? { url: ctx.url } : {}), ...(ctx.user ? { user: ctx.user } : {}),
+      ...(hint.trim() ? { where: hint.trim().slice(0, 400) } : {}), added: new Date().toISOString() };
+    try {
+      await mutate(list => [...list, entry], `Eingang: Ort recherchieren ${id}`, INBOX_PATH, []);
+      locPending = [...locPending, entry];
+      toast("🔎 Auftrag übernommen – Ergebnis erscheint hier in ca. 1 Stunde", 4000);
+      const y = $("#inspBody").scrollTop; openInsp(); $("#inspBody").scrollTop = y;
+    } catch (err) { toast(err.message, 5000); }
+  }
   const inspWait = r => inspPending.filter(x => x.insp === r && !Object.values(INSP).some(l => (l || []).some(p => p.code === x.code)));
   async function loadInspPending() {
     try { const l = await rawJson("data/inbox.json", []); inspPending = (l || []).filter(x => x.insp && x.code);
+      locPending = (l || []).filter(x => x.kind === "locate");
       if (!$("#insp").hidden) { const y = $("#inspBody").scrollTop; openInsp(); $("#inspBody").scrollTop = y; } } catch {}
   }
   function openInsp() {
@@ -2399,12 +2432,15 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       have.map(r => `<button data-if="${r}" class="${inspF.has(r) ? "on" : ""}">${INSP_REG[r]} <small>${cnt(r)}</small></button>`).join("");
     let n = 0;
     const markItems = [];
-    const tile = m => { markItems.push(m); return `<span class="iw"><img src="${esc(m.image)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(m.image)}" aria-label="Aus Inspiration entfernen">×</button></span>`; };
+    const locCtx = new Map();  // Bild → { region, url, user } für „Ort recherchieren“
+    const tile = m => { markItems.push(m); if (m.own) locCtx.set(m.image, { region: m.region });
+      return `<span class="iw"><img src="${esc(m.image)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(m.image)}" aria-label="Aus Inspiration entfernen">×</button>${m.own ? locBadge(m.image) : ""}</span>`; };
     $("#inspBody").innerHTML = regs.map(r => `<h3>${INSP_REG[r]}<span class="ibtns"><button class="ilink" data-ilink="${r}">🔗 Insta-Link</button><button class="iadd" data-iadd="${r}">📷 Fotos</button></span></h3>` +
       (inspWait(r).length ? `<div class="src">⏳ Wird geladen (ca. 1 Std.): ${inspWait(r).map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.code)}</a>`).join(" · ")}</div>` : "") +
       (owns(r).length ? `<div class="src">📷 Eigene Fotos</div><div class="masonry">${owns(r).map(tile).join("")}</div>` : "") + (marks(r).length ? `<div class="src">💡 An Spots markiert</div><div class="masonry">${marks(r).map(tile).join("")}</div>` : "") + (INSP[r] || []).filter(post => imgsOfPost(post).length).map(post => `
       <div class="src">${post.user ? `<a href="https://www.instagram.com/${esc(post.user)}/" target="_blank" rel="noopener">@${esc(post.user)}</a> · ` : ""}<a href="${esc(post.url)}" target="_blank" rel="noopener">Post ↗</a>${post.caption ? " – " + esc(post.caption.split("\n")[0].slice(0, 90)) : ""}</div>${post.note ? `<div class="inote">📍 ${esc(post.note)}</div>` : ""}
-      <div class="masonry">${imgsOfPost(post).map(src => `<span class="iw"><img src="${esc(src)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(src)}" aria-label="Aus Inspiration entfernen">×</button></span>`).join("")}</div>`).join("")).join("")
+      <div class="masonry">${imgsOfPost(post).map((src, k) => { locCtx.set(src, { region: r, url: post.url + "?img_index=" + (post.images.indexOf(src) + 1), user: post.user });
+        return `<span class="iw"><img src="${esc(src)}" alt="" loading="lazy" data-i="${n++}"><button class="idel" data-img="${esc(src)}" aria-label="Aus Inspiration entfernen">×</button>${locBadge(src)}</span>`; }).join("")}</div>`).join("")).join("")
       || `<p class="src">Noch keine Bilder.</p>`;
     $("#inspSub").textContent = n ? `${n} Bilder` : "";
     const all = regs.flatMap(r => [...owns(r).map(m => ({ image: m.image, url: m.image, credit: m.credit || "Eigenes Foto", profile_url: m.image })),
@@ -2412,6 +2448,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ...(INSP[r] || []).flatMap(post => imgsOfPost(post).map((src, k) => ({ image: src, url: post.url + "?img_index=" + (k + 1), username: post.user || "Instagram", profile_url: post.user ? `https://www.instagram.com/${post.user}/` : post.url })))]);
     $("#inspBody").querySelectorAll("img[data-i]").forEach(img => img.onclick = () => lbOpen({ name: "Inspiration", posts: all }, +img.dataset.i));
     $("#inspBody").querySelectorAll(".iadd").forEach(b => b.onclick = e => { e.stopPropagation(); inspUpload(b.dataset.iadd, b); });
+    $("#inspBody").querySelectorAll("[data-loc]").forEach(b => b.onclick = e => { e.stopPropagation(); requestLocate(b.dataset.loc, locCtx.get(b.dataset.loc) || {}); });
+    $("#inspBody").querySelectorAll("[data-locspot]").forEach(b => b.onclick = e => { e.stopPropagation();
+      if (!places.some(x => x.id === b.dataset.locspot)) { toast("Spot ist noch nicht in dieser App-Version – bitte neu laden", 3500); return; }
+      $("#insp").hidden = true; location.hash = "spot=" + b.dataset.locspot; });
+    $("#inspBody").querySelectorAll("[data-locnote]").forEach(b => b.onclick = e => { e.stopPropagation(); const img = b.dataset.locnote, r = LOC()[img] || {};
+      if (confirm(`Ort nicht gefunden.\n\n${r.note || ""}\n\nNochmal recherchieren (z. B. mit eigenem Hinweis)?`)) requestLocate(img, locCtx.get(img) || {}); });
     $("#inspBody").querySelectorAll(".ilink").forEach(b => b.onclick = async e => {
       e.stopPropagation();
       let clip = ""; try { clip = (await navigator.clipboard.readText()).trim(); } catch {}
@@ -2822,7 +2864,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "78 · Favorit = Prio hoch";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "79 · Inspiration: Ort recherchieren";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")

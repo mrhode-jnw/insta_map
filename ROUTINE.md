@@ -52,6 +52,31 @@ Schlägt das dauerhaft fehl (gelöscht/privat): `python3 tools/inbox.py skip <co
 Danach weiter mit Schritt 5 (Veröffentlichen: `data/inspiration.json`, `data/inspiration.js`, `images/insp/` committen).
 Gibt es außerdem normale Einträge, diese wie unten bearbeiten.
 
+## 1c. „Ort recherchieren“ (`"kind": "locate"`, `"id": "loc:…"`)
+In der App unter 💡 Inspiration an einem Bild per 🔎 beauftragt: **den genauen Ort genau dieses Bildes finden** und
+daraus einen Spot machen. Hierfür **viel Zeit nehmen** – gründlich statt schnell. Für jeden Eintrag:
+1. `python3 tools/inbox.py locate <id>` – legt das Bild lokal ab (`local_image`) und zeigt Kontext: `region`
+   (`hk`/`sh`/`cn`), Post-Link (`url`, `user`), Caption des Posts (`post`) und ggf. Hinweis des Nutzers (`where`,
+   hat Vorrang).
+2. Bild mit dem Read-Tool genau ansehen: Schilder/Schriftzeichen, Ladennamen, Hausnummern, markante Gebäude,
+   Brücken, Skyline, Bergformen, Straßenbahn-/Bus-Nummern, Perspektive. Dann recherchieren: Caption und andere
+   Slides des Posts, weitere Posts des Accounts, Websuche (auch auf Chinesisch), trip.com/Ctrip, Xiaohongshu-,
+   Blog- und Locationscout-Treffer, OSM/Photon, Wikimedia-Commons-Fotos zum Vergleich. Kandidaten mit
+   Vergleichsfotos prüfen, bis die Übereinstimmung **sicher** ist (gleiche Details, nicht nur „sieht ähnlich aus“).
+3. **Gefunden:**
+   - Spot gibt es schon (gleicher Ort/≤ 80 m) → Bild mit Quelle in `extra_photos.json` beim Spot ergänzen
+     (Bild nach `images/` kopieren), keinen doppelten Spot anlegen.
+   - Sonst neuer Spot: HK `hk/extra_spots.json`, China (`sh`/`cn`) `cn/extra_spots.json` mit Koordinaten des
+     **Standpunkts** (OSM/Photon; trip.com GCJ-02 → WGS84 mit `tools/linkinfo.py gcj2wgs`), `note` (was/wo, woher
+     der Standort stammt), `tip` (Standpunkt, Brennweite, beste Zeit); das Inspirationsbild (und ggf. weitere
+     Slides) als Foto mit Quelle (`@user · Instagram` bzw. „Eigenes Foto“). Danach bauen (`build_hk.py`/`build_cn.py`).
+   - `python3 tools/inbox.py located <id> found <spot-id> "<kurz: woran erkannt>"`
+4. **Nicht sicher gefunden:** nichts anlegen, nicht raten.
+   `python3 tools/inbox.py located <id> notfound "<was geprüft wurde; beste Vermutung mit Ort, falls vorhanden>"`
+   (der Nutzer sieht das in der App und kann mit eigenem Hinweis erneut beauftragen – dann steht `where` im Eintrag
+   und `pending` zeigt ihn wieder an, sobald er neu gespeichert wurde).
+5. Weiter mit Schritt 5 (Veröffentlichen; `data/insp_locate.json`/`.js` mitcommitten).
+
 ## 2. Jeden neuen Post auswerten
 Für jeden Eintrag (`code`):
 1. `python3 tools/inbox.py show <code>` – zeigt Account, Anzahl Bilder, nummerierte Orte und Caption.

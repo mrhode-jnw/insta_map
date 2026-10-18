@@ -8,6 +8,9 @@
   python3 tools/inbox.py skip <code> <grund> # Post dauerhaft überspringen (z.B. gelöscht/privat)
   python3 tools/inbox.py link <id>          # Google-Maps-/OSM-/Locationscout-Eintrag auslesen (Name, Koordinaten, Tipps)
   python3 tools/inbox.py done <id> <spot>   # solchen Eintrag als erledigt markieren (Spot-Name oder „vorhanden: …“)
+  python3 tools/inbox.py locate <id>        # „Ort recherchieren“ (kind: locate): Bild lokal bereitstellen, Kontext ausgeben
+  python3 tools/inbox.py located <id> found <spot-id> <begründung>   # Ergebnis → data/insp_locate.json/.js
+  python3 tools/inbox.py located <id> notfound <was versucht, beste Vermutung>
 """
 import json
 import os
@@ -126,6 +129,56 @@ def add_post(code, kind=None):
     print(idx)
 
 
+LOCATE_SRC = os.path.join(ROOT, "data", "insp_locate.json")
+LOCATE_OUT = os.path.join(ROOT, "data", "insp_locate.js")
+
+
+def locate(lid):
+    """Auftrag „Ort recherchieren“: Bild nach /tmp/locate/ holen (Repo, Branch map-data oder URL), Kontext ausgeben."""
+    x = next((e for e in inbox() if e.get("id") == lid), None)
+    if not x:
+        sys.exit("unbekannte id: " + lid)
+    img = x["image"]
+    os.makedirs("/tmp/locate", exist_ok=True)
+    dst = os.path.join("/tmp/locate", os.path.basename(img.split("?")[0]))
+    if img.startswith("http"):
+        subprocess.run(["curl", "-sL", "-o", dst, img], check=False)
+    elif os.path.exists(os.path.join(ROOT, img)):
+        dst = os.path.join(ROOT, img)
+    else:  # eigenes hochgeladenes Foto im Branch map-data
+        r = subprocess.run(["git", "-C", ROOT, "show", f"origin/{DATA_BRANCH}:{img}"], capture_output=True)
+        open(dst, "wb").write(r.stdout)
+    post = None
+    if "/insp/" in img:
+        code = os.path.basename(img).rsplit("_", 1)[0]
+        for reg, lst in bp.load_json(os.path.join(ROOT, "data", "inspiration.json"), {}).items():
+            post = next((p for p in lst if p.get("code") == code), post)
+    print(json.dumps({**x, "local_image": dst, **({"post": post} if post else {})}, ensure_ascii=False, indent=1))
+
+
+def located(lid, status, rest):
+    x = next((e for e in inbox() if e.get("id") == lid), None)
+    if not x:
+        sys.exit("unbekannte id: " + lid)
+    import datetime
+    res = {"status": status, "id": lid, "date": datetime.date.today().isoformat()}
+    if status == "found":
+        res["spot"], rest = rest[0], rest[1:]
+    res["note"] = " ".join(rest)
+    d = bp.load_json(LOCATE_SRC, {})
+    d[x["image"]] = res
+    bp.save_json(LOCATE_SRC, d)
+    write_locate_js(d)
+    done(lid, (res.get("spot") or "nicht gefunden"))
+
+
+def write_locate_js(d=None):
+    d = bp.load_json(LOCATE_SRC, {}) if d is None else d
+    with open(LOCATE_OUT, "w", encoding="utf-8") as f:
+        f.write("// Generiert von tools/inbox.py located – Ergebnisse von „Ort recherchieren“ (Bild → Ergebnis).\n")
+        f.write("window.INSP_LOCATE = " + json.dumps(d, ensure_ascii=False, indent=1) + ";\n")
+
+
 def skip(code, reason):
     d = bp.load_json(SKIPPED, {})
     d[code] = reason
@@ -154,6 +207,12 @@ if __name__ == "__main__":
         link(sys.argv[2])
     elif cmd == "done":
         done(sys.argv[2], " ".join(sys.argv[3:]) or "erledigt")
+    elif cmd == "locate":
+        locate(sys.argv[2])
+    elif cmd == "located":
+        if sys.argv[3] not in ("found", "notfound"):
+            sys.exit("Status: found oder notfound")
+        located(sys.argv[2], sys.argv[3], sys.argv[4:])
     elif cmd == "skip":
         skip(sys.argv[2], " ".join(sys.argv[3:]) or "übersprungen")
     else:
