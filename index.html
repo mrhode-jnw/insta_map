@@ -876,6 +876,7 @@
   .leaflet-popup.mini .pop .fcbox { display: none; }
   /* Liste aufgezogen → Leiste weg (nur Griff); Leiste geholt → Liste klappt ein */
   @media (max-width: 799px) {
+    body.dock-off #dock, body.dock-off #dockTab, body.dock-off #dockbg { display: none !important; }
     body.dock-auto #dock, body.dock-dlg #dock { transform: translate(calc(100% + 16px), -50%); pointer-events: none; }
     body.dock-auto #dockTab, body.dock-dlg #dockTab { transform: translate(0, -50%); }
     #dockTab { top: 30%; }
@@ -2732,6 +2733,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       b.classList.toggle("on", d === "fav" ? $("#fMore").value === "fav" : d === "map" ? !open : d === open);
     });
     document.body.classList.toggle("dock-dlg", !!open && mobile());  // Fenster offen: Leiste weg, nur Griff
+    // Eingabe-Fenster (Spot hinzufügen, Auswahl): Leiste und Griff ganz weg, sonst liegen sie über den Feldern
+    document.body.classList.toggle("dock-off", (!$("#addDlg").hidden || !$("#tourPick").hidden) && mobile());
     $("#dock [data-d=plan]").classList.toggle("dot", !!itinShown);
     $("#dock [data-d=tours]").classList.toggle("dot", !!activeTour);
   };
