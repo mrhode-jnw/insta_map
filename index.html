@@ -2822,7 +2822,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "77 · Flug CA4541";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "78 · Favorit = Prio hoch";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3600,7 +3600,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       box.querySelectorAll("button[data-prio]").forEach(x => x.classList.toggle("on", x.dataset.prio === prio));
     });
     const fav = box.querySelector("button[data-fav]");
-    if (fav) fav.onclick = () => { const v = !st(id).fav; setStatus(id, { fav: v }); fav.classList.toggle("on", v); fav.setAttribute("aria-pressed", v); const pf = box.closest(".pop") && box.closest(".pop").querySelector(".hero .pfav"); if (pf) pf.hidden = !v; toast(v ? "❤️ Als Favorit markiert" : "Favorit entfernt", 1300); };
+    if (fav) fav.onclick = () => { const v = !st(id).fav, up = v && st(id).prio !== "hoch";  // Favorit → Priorität automatisch hoch
+      setStatus(id, up ? { fav: v, prio: "hoch" } : { fav: v }); fav.classList.toggle("on", v);
+      if (up) box.querySelectorAll("button[data-prio]").forEach(x => x.classList.toggle("on", x.dataset.prio === "hoch")); fav.setAttribute("aria-pressed", v); const pf = box.closest(".pop") && box.closest(".pop").querySelector(".hero .pfav"); if (pf) pf.hidden = !v; toast(v ? `❤️ Als Favorit markiert${up ? " · Priorität hoch" : ""}` : "Favorit entfernt", 1500); };
     const shot = box.querySelector("button[data-done]");
     shot.onclick = () => { const done = !st(id).done; setStatus(id, { done }); shot.classList.toggle("on", done); shot.setAttribute("aria-pressed", done); };
   });
