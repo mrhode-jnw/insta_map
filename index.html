@@ -496,6 +496,28 @@
   #walkPill { position: fixed; top: calc(env(safe-area-inset-top) + 74px); left: 50%; transform: translateX(-50%); z-index: 1200; padding: 7px 14px; border-radius: 999px; border: 0;
     background: #7c3aed; color: #fff; font-weight: 600; font-size: 13.5px; box-shadow: 0 2px 10px rgba(0,0,0,.3); cursor: pointer; white-space: nowrap; max-width: calc(100vw - 32px); overflow: hidden; text-overflow: ellipsis; }
   #walkPill[hidden] { display: none; }
+  /* Karte einer Rundgang-Station (statt Leaflet-Popup) */
+  #wcard { position: fixed; left: 10px; right: 10px; bottom: calc(env(safe-area-inset-bottom) + 12px); z-index: 1300; max-height: 62vh; display: flex; flex-direction: column;
+    background: var(--card, #fff); color: var(--fg, #111); border-radius: 18px; box-shadow: 0 6px 28px rgba(0,0,0,.35); overflow: hidden; }
+  @media (min-width: 800px) { #wcard { left: 16px; right: auto; width: 400px; bottom: 16px; } }
+  #wcard[hidden] { display: none; }
+  #wcard .wch { display: flex; align-items: center; gap: 6px; padding: 8px 10px 6px 14px; font-size: 12.5px; color: var(--muted); }
+  #wcard .wch span { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #wcard .wch button { width: 34px; height: 32px; border-radius: 10px; border: 0; background: var(--soft, #f1f1f4); color: var(--fg, #111); font-size: 17px; cursor: pointer; }
+  #wcard .wcs { display: flex; gap: 6px; overflow-x: auto; padding: 0 10px; scroll-snap-type: x mandatory; scrollbar-width: none; flex: none; }
+  #wcard .wcs figure { margin: 0; flex: none; width: 82%; max-width: 330px; scroll-snap-align: start; position: relative; }
+  #wcard .wcs figure:only-child { width: 100%; max-width: none; }
+  #wcard .wcs img { width: 100%; height: 170px; object-fit: cover; border-radius: 12px; display: block; background: var(--soft); cursor: zoom-in; }
+  #wcard .wcs figcaption { position: absolute; left: 6px; bottom: 6px; max-width: calc(100% - 12px); padding: 2px 7px; border-radius: 6px; background: rgba(0,0,0,.55); color: #fff; font-size: 10.5px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #wcard .wcb { padding: 10px 14px 14px; overflow-y: auto; }
+  #wcard .wcb h3 { margin: 0; font-size: 17px; display: flex; gap: 8px; align-items: baseline; }
+  #wcard .wcb h3 i { flex: none; font-style: normal; width: 24px; height: 24px; border-radius: 50%; background: #7c3aed; color: #fff; font-size: 12.5px; display: grid; place-items: center; transform: translateY(3px); }
+  #wcard .wcb .cn { color: var(--muted); font-size: 14px; margin: 2px 0 0 32px; }
+  #wcard .wcb .ap { color: #92400e; font-size: 12px; margin: 2px 0 0 32px; }
+  #wcard .wcb p { margin: 8px 0 0; font-size: 14px; line-height: 1.5; }
+  .wnum.on { background: #e1306c; transform: scale(1.2); }
+  #wkBody ol.wstops .wth { display: flex; gap: 4px; margin: 6px 0 2px; } #wkBody ol.wstops .wth img { width: 64px; height: 48px; object-fit: cover; border-radius: 6px; }
   #tl { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
   #tl[hidden] { display: none; }
   #tl header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 14px 10px; border-bottom: 1px solid var(--line); }
@@ -1081,6 +1103,7 @@
   <div id="wkBody"></div>
 </div>
 <button id="walkPill" hidden></button>
+<div id="wcard" hidden></div>
 <div id="tl" hidden role="dialog" aria-label="Timeline">
   <header><b>Timeline</b><span id="tlSub"></span><button id="tlClose" aria-label="Schließen">✕</button></header>
   <div id="tlFilter"></div>
@@ -1268,8 +1291,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       if (l) setTimeout(() => { if (map.hasLayer(osm)) { map.removeLayer(osm); l.addTo(map); } }, 0); });
     osm.on("tileload", () => { try { localStorage.removeItem("tileBase2"); } catch {} });
     // Karte von Hand wählen (oben rechts)
-    if (!ROTATE && !GMAP) L.control.layers({ "OpenStreetMap": osm, "Gaode 高德": gaode, "Esri": esri }, null, { position: "topright" }).addTo(map)
-      .getContainer().classList.add("basesel");
+    if (!ROTATE && !GMAP) { window._baseSel = L.control.layers({ "OpenStreetMap": osm, "Gaode 高德": gaode, "Esri": esri }, null, { position: "topright" }).addTo(map);
+      window._baseSel.getContainer().classList.add("basesel"); }
     map.on("baselayerchange", e => { try { e.layer === osm ? localStorage.removeItem("tileBase2") : localStorage.setItem("tileBase2", e.layer === gaode ? "gaode" : "esri"); } catch {} });
   }
 
@@ -1307,6 +1330,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         layers["Google Satellit"] = L.gridLayer.googleMutant({ type: "hybrid", maxZoom: 21 });
         layers["OpenStreetMap"] = osm;
         layers["Google Karte"].addTo(map);
+        if (window._baseSel) map.removeControl(window._baseSel);  // nur eine Kartenwahl
         L.control.layers(layers, null, { position: "topright" }).addTo(map);
       })
       .catch(() => { if (map.hasLayer(osm)) return; toast("Google Maps nicht erreichbar – zeige OpenStreetMap.", 4000); osm.addTo(map); });
@@ -2598,18 +2622,37 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const w = WALKS.find(x => x.id === id); if (!w) return;
     walkLayer.clearLayers();
     w.legs.forEach(l => L.polyline(l.path, { color: "#7c3aed", weight: 4, opacity: .85, interactive: false, ...(l.osm ? {} : { dashArray: "2 8" }) }).addTo(walkLayer));
-    const mk = w.stops.map((st, i) => L.marker([st.lat, st.lng], { icon: L.divIcon({ className: "", html: `<div class="wnum">${i + 1}</div>`, iconSize: [26, 26], iconAnchor: [13, 13] }), zIndexOffset: 900 })
-      .bindPopup(`<div style="max-width:250px"><b>${i + 1}. ${esc(st.name)}</b> <span style="color:#6b7280">${esc(st.name_cn || "")}</span>${st.approx ? ` <small style="color:#92400e">(Position ungefähr)</small>` : ""}<p style="margin:6px 0 0;font-size:13px;line-height:1.4">${esc(st.text || "")}</p></div>`)
+    walkMk = w.stops.map((st, i) => L.marker([st.lat, st.lng], { icon: L.divIcon({ className: "", html: `<div class="wnum">${i + 1}</div>`, iconSize: [26, 26], iconAnchor: [13, 13] }), zIndexOffset: 900 })
+      .on("click", e => { L.DomEvent.stopPropagation(e); walkStop(w, i); })
       .addTo(walkLayer));
+    const mk = walkMk;
     if (!map.hasLayer(walkLayer)) walkLayer.addTo(map);
     walkShown = id;
     $("#walkPill").textContent = `Rundgang ${w.place} · ${w.stops.length} Stationen · ${String(w.km).replace(".", ",")} km  ✕`; $("#walkPill").hidden = false;
     $("#wk").hidden = true; dockSync();
     if (mobile()) setSnap("peek");
-    if (stopIdx != null && w.stops[stopIdx]) { map.setView([w.stops[stopIdx].lat, w.stops[stopIdx].lng], 18); setTimeout(() => mk[stopIdx].openPopup(), 350); }
-    else map.fitBounds(L.latLngBounds(w.stops.map(st => [st.lat, st.lng])), { padding: [50, 50], maxZoom: 18 });
+    if (stopIdx != null && w.stops[stopIdx]) walkStop(w, stopIdx);
+    else { $("#wcard").hidden = true; map.fitBounds(L.latLngBounds(w.stops.map(st => [st.lat, st.lng])), { padding: [50, 50], maxZoom: 18 }); }
+    void mk;
   }
-  function hideWalk() { walkLayer.clearLayers(); map.removeLayer(walkLayer); walkShown = null; $("#walkPill").hidden = true; dockSync(); }
+  let walkMk = [];
+  // Station als kleine Karte unten: Fotos (wischen, antippen = Vollbild), Name, Text, ‹ › zur nächsten Station
+  function walkStop(w, i) {
+    const st = w.stops[i], imgs = st.images || [], c = $("#wcard");
+    walkMk.forEach((m, k) => { const el = m.getElement(); if (el) el.firstElementChild.classList.toggle("on", k === i); });
+    c.innerHTML = `<div class="wch"><span>Rundgang ${esc(w.place)} · Station ${i + 1} von ${w.stops.length}</span>
+        <button data-wgo="-1" aria-label="Vorherige Station"${i ? "" : " disabled"}>‹</button><button data-wgo="1" aria-label="Nächste Station"${i < w.stops.length - 1 ? "" : " disabled"}>›</button><button data-wx aria-label="Schließen">✕</button></div>
+      ${imgs.length ? `<div class="wcs">${imgs.map((x, k) => `<figure><img src="${esc(x.image)}" alt="" loading="${k < 2 ? "eager" : "lazy"}" data-wi="${k}"><figcaption>${esc(x.caption ? x.caption + " · " + x.credit : x.credit || "")}</figcaption></figure>`).join("")}</div>` : ""}
+      <div class="wcb"><h3><i>${i + 1}</i><span>${esc(st.name)}</span></h3>${st.name_cn ? `<div class="cn">${esc(st.name_cn)}</div>` : ""}${st.approx ? `<div class="ap">Position ungefähr</div>` : ""}<p>${esc(st.text || "")}</p></div>`;
+    c.hidden = false; dockSync();
+    c.querySelectorAll("[data-wgo]").forEach(b => b.onclick = () => { const j = i + +b.dataset.wgo; if (w.stops[j]) walkStop(w, j); });
+    c.querySelector("[data-wx]").onclick = () => { c.hidden = true; dockSync(); walkMk.forEach(m => { const el = m.getElement(); if (el) el.firstElementChild.classList.remove("on"); }); };
+    c.querySelectorAll("img[data-wi]").forEach(im => im.onclick = () => lbOpen({ name: st.name, posts: imgs.map(x => ({ image: x.image, url: x.url, credit: x.credit, profile_url: x.url })) }, +im.dataset.wi));
+    // Station oberhalb der Karte zeigen (Karte deckt unten bis ~60 % ab)
+    const z = Math.max(map.getZoom(), 18), pt = map.project(L.latLng(st.lat, st.lng), z).add([0, mobile() ? map.getSize().y * 0.25 : 0]);
+    map.setView(map.unproject(pt, z), z);
+  }
+  function hideWalk() { walkLayer.clearLayers(); map.removeLayer(walkLayer); walkShown = null; walkMk = []; $("#walkPill").hidden = true; $("#wcard").hidden = true; dockSync(); }
   $("#walkPill").onclick = hideWalk;
   function renderWalks() {
     const areas = [...new Set(WALKS.map(w => w.area || ""))];
@@ -2623,7 +2666,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ${w.stops.filter(st => st.approx).length > w.stops.length / 2 ? `<div class="wmeta" style="color:#92400e">Das Dorf ist auf keiner Karte erfasst – Stationen nach Satellitenbild und Dorfbeschreibungen gesetzt, vor Ort können sie 50–150 m abweichen. Gestrichelt = Luftlinie.</div>` : ""}
       <div class="wbtns"><button data-wshow="${esc(w.id)}">Auf der Karte zeigen</button>${walkShown === w.id ? `<button class="sec" data-whide="1">Ausblenden</button>` : ""}</div>
       ${(w.tips || []).length ? `<details><summary>Tipps</summary><ul class="wtips">${w.tips.map(t => `<li>${esc(t)}</li>`).join("")}</ul></details>` : ""}
-      <details open><summary>Stationen</summary><ol class="wstops">${w.stops.map((st, i) => `<li><button data-wstop="${esc(w.id)}" data-i="${i}">Karte</button><b>${esc(st.name)}</b><span class="cn">${esc(st.name_cn || "")}</span>${st.approx && w.stops.filter(x => x.approx).length <= w.stops.length / 2 ? `<span class="ap">Position ungefähr</span>` : ""}<br>${esc(st.text || "")}</li>`).join("")}</ol></details>
+      <details open><summary>Stationen</summary><ol class="wstops">${w.stops.map((st, i) => `<li><button data-wstop="${esc(w.id)}" data-i="${i}">Karte</button><b>${esc(st.name)}</b><span class="cn">${esc(st.name_cn || "")}</span>${st.approx && w.stops.filter(x => x.approx).length <= w.stops.length / 2 ? `<span class="ap">Position ungefähr</span>` : ""}${(st.images || []).length ? `<div class="wth">${st.images.slice(0, 4).map(x => `<img src="${esc(x.image)}" alt="" loading="lazy">`).join("")}</div>` : "<br>"}${esc(st.text || "")}</li>`).join("")}</ol></details>
       ${(w.sources || []).length ? `<div class="wsrc">Quellen: ${w.sources.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 40))}</a>`).join(" · ")}</div>` : ""}
     </div>`).join("") || `<p style="color:var(--muted);padding:12px">Noch keine Rundgänge.</p>`;
     $("#wkBody").querySelectorAll("[data-wshow]").forEach(b => b.onclick = () => showWalk(b.dataset.wshow));
@@ -3051,7 +3094,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "87 · Rundgänge Guizhou";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "88 · Rundgang-Stationen als Karte";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3076,7 +3119,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     });
     document.body.classList.toggle("dock-dlg", !!open && mobile());  // Fenster offen: Leiste weg, nur Griff
     // Eingabe-Fenster (Spot hinzufügen, Auswahl): Leiste und Griff ganz weg, sonst liegen sie über den Feldern
-    document.body.classList.toggle("dock-off", (!$("#addDlg").hidden || !$("#tourPick").hidden) && mobile());
+    document.body.classList.toggle("dock-off", (!$("#addDlg").hidden || !$("#tourPick").hidden || !$("#wcard").hidden) && mobile());
     $("#dock [data-d=plan]").classList.toggle("dot", !!itinShown);
     $("#dock [data-d=tours]").classList.toggle("dot", !!activeTour);
     $("#dock [data-d=time]").classList.toggle("dot", tlUnseen());
