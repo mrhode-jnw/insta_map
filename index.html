@@ -223,6 +223,16 @@
   #itinOpt button.on { background: var(--fg); color: var(--bg); border-color: var(--fg); }
   .ic.opt .icard { border-style: dashed; border-color: #a78bfa; opacity: .92; }
   .ic.opt .itm { color: var(--muted); }
+  /* optionale Spots ein-/ausplanen */
+  .ic.opt.sel .icard { border-style: solid; border-color: var(--accent); opacity: 1; }
+  .ic.opt:not(.sel) .icard { opacity: .7; }
+  .ichoose { display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer;
+    background: var(--soft, rgba(127,127,127,.15)); color: var(--fg); margin: 2px 0 8px; }
+  .ic.opt.sel .ichoose { background: var(--accent); color: #fff; }
+  .isave { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; padding: 8px 12px; margin: 0 0 10px; border-radius: 12px; background: rgba(124,58,237,.14); font-size: 13px; }
+  .isave button { border: 0; border-radius: 999px; padding: 6px 12px; font-weight: 600; cursor: pointer; background: var(--accent); color: #fff; }
+  .isave button.sec { background: var(--soft, rgba(127,127,127,.15)); color: var(--fg); }
+  .imove .calc { opacity: .6; }
   .b-opt { background: #f3e8ff; color: #6b21a8; }
   .iig { display: flex; flex-wrap: wrap; gap: 5px; margin: 4px 0 2px; }
   .iig a, .iig button { font-size: 12.5px; padding: 4px 9px; border-radius: 999px; border: 0; background: #fce7f3; color: #9d174d; text-decoration: none; cursor: pointer; font-weight: 600; }
@@ -2434,7 +2444,81 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // vergangener Tag bleibt nicht auf der Karte stehen
   if (itinShown && itinShown < today) { itinShown = null; try { localStorage.removeItem("itinShown"); } catch {} }
   let itinOpt = false; try { itinOpt = localStorage.getItem("itinOpt") === "1"; } catch {}  // optionale Vorschläge zeigen
-  const dayItems = d => itinOpt || !d.core ? d.items : d.core;
+  // Optionale Spots einplanen: Auswahl je Tag (lokal) und gemeinsamer Standard (map-data/data/itin-choice.json)
+  const CHOICE_PATH = "data/itin-choice.json";
+  let choiceStd = {}, choiceLocal = {};
+  try { choiceStd = JSON.parse(localStorage.getItem("itinChoiceStd") || "{}"); choiceLocal = JSON.parse(localStorage.getItem("itinChoice") || "{}"); } catch {}
+  const optKey = it => it.spot || it.title || "";
+  const chosenOf = d => new Set(choiceLocal[d.date] || choiceStd[d.date] || []);
+  const isChosen = (d, it) => it.opt && chosenOf(d).has(optKey(it));
+  const choiceDirty = d => JSON.stringify([...(choiceLocal[d.date] || choiceStd[d.date] || [])].sort()) !== JSON.stringify([...(choiceStd[d.date] || [])].sort());
+  function setChoice(d, key, on) {
+    const c = chosenOf(d); on ? c.add(key) : c.delete(key);
+    choiceLocal[d.date] = [...c]; try { localStorage.setItem("itinChoice", JSON.stringify(choiceLocal)); } catch {}
+  }
+  async function loadChoiceStd() {
+    try {
+      const token = store.get(TOKEN_KEY);
+      const v = token ? (await ghGet(token, CHOICE_PATH, {})).list : await rawJson(CHOICE_PATH, {});
+      if (v && typeof v === "object" && !Array.isArray(v)) { choiceStd = v; try { localStorage.setItem("itinChoiceStd", JSON.stringify(v)); } catch {}
+        if (!$("#itin").hidden) renderItin(); drawItin(false); }
+    } catch {}
+  }
+  async function saveChoiceStd(d) {
+    const c = [...chosenOf(d)];
+    const next = await mutate(o => { o = o && !Array.isArray(o) ? o : {}; c.length ? o[d.date] = c : delete o[d.date]; return o; }, `Reiseplan ${d.date}: optionale Spots als Standard`, CHOICE_PATH, {});
+    choiceStd = next; delete choiceLocal[d.date];
+    try { localStorage.setItem("itinChoiceStd", JSON.stringify(choiceStd)); localStorage.setItem("itinChoice", JSON.stringify(choiceLocal)); } catch {}
+  }
+  // Etappen: vorhandene aus dem Build (je Start/Ziel) wiederverwenden, fehlende per OSRM (Auto ×1,2) bzw. Fußweg-Schätzung
+  const legCache = (() => { try { return JSON.parse(localStorage.getItem("itinLegs") || "{}"); } catch { return {}; } })();
+  const llk = x => x.lat.toFixed(4) + "," + x.lng.toFixed(4);
+  const legKey = (mode, a, b) => `${mode}|${llk(a)}|${llk(b)}`;
+  function seedLegs(list) {
+    list.forEach((it, i) => { if (it.type !== "move" || it.min == null) return;
+      const a = [...list.slice(0, i)].reverse().find(x => x.lat), b = list.slice(i + 1).find(x => x.lat);
+      if (a && b) legCache[legKey(it.mode, a, b)] = { min: it.min, km: it.km, path: it.path }; });
+  }
+  ITIN.days.forEach(d => { seedLegs(d.items); if (d.core) seedLegs(d.core); });
+  const legPending = new Set();
+  function fetchLeg(mode, a, b) {
+    const k = legKey(mode, a, b); if (legCache[k] || legPending.has(k)) return;
+    if (mode !== "car") { const km = dist(a, b) / 1000; legCache[k] = { min: Math.max(3, Math.round(km * 1.3 / 4.5 * 60)), km: Math.round(km * 10) / 10 }; return; }
+    legPending.add(k);
+    fetch(`https://routing.openstreetmap.de/routed-car/route/v1/driving/${a.lng},${a.lat};${b.lng},${b.lat}?overview=simplified&geometries=geojson`)
+      .then(r => r.json()).then(j => { const r = j.routes && j.routes[0]; if (!r) return;
+        legCache[k] = { min: Math.max(5, Math.round(r.duration / 60 * 1.2 / 5) * 5), km: Math.round(r.distance / 1000), path: r.geometry.coordinates.map(c => [c[1], c[0]]) };
+        try { localStorage.setItem("itinLegs", JSON.stringify(legCache)); } catch {}
+        if (!$("#itin").hidden) renderItin(); drawItin(false); })
+      .catch(() => {}).finally(() => legPending.delete(k));
+  }
+  // Tagesablauf aus festen + eingeplanten optionalen Einträgen; nicht gewählte Vorschläge stehen (ohne Etappe) dazwischen
+  function composeDay(d) {
+    const chosen = chosenOf(d);
+    const active = [], view = [];
+    let pend = [], gap = false;  // Etappen seit dem letzten aktiven Eintrag; gap = dazwischen lag Ausgelassenes
+    for (const it of d.items) {
+      if (it.type === "move") { pend.push(it); continue; }
+      if (it.opt && !chosen.has(optKey(it))) { view.push({ ...it, _sugg: true }); gap = true; continue; }
+      const prev = [...active].reverse().find(x => x.lat);
+      if (prev && pend.length) {
+        if (!gap) { active.push(...pend); view.push(...pend); }
+        else {
+          const mode = pend.every(m => m.mode === "walk") ? "walk" : pend.find(m => m.mode === "train" || m.mode === "shuttle") ? pend.find(m => m.mode === "train" || m.mode === "shuttle").mode : "car";
+          let mv = { type: "move", mode, text: pend.map(m => m.text).filter(Boolean)[0] };
+          if (it.lat && (mode === "car" || mode === "walk")) { const c = legCache[legKey(mode, prev, it)]; if (c) Object.assign(mv, c); else { mv._calc = true; fetchLeg(mode, prev, it); } }
+          else if (mode !== "car" && mode !== "walk") mv = { ...pend.find(m => m.mode === mode) };
+          if (mv.mode === "car" && mv.km != null && mv.km < 1) Object.assign(mv, { mode: "walk", min: 5, path: undefined });
+          active.push(mv); view.push(mv);
+        }
+      }
+      pend = []; gap = false;
+      active.push(it); view.push(it);
+    }
+    if (!chosen.size && d.core) return { active: d.core, view };  // nichts eingeplant: Reiseplan wie gebaut (inkl. tCore-Zeiten)
+    return { active, view };
+  }
+  const dayItems = d => composeDay(d).active;
   const spotOf = id => places.find(p => p.id === id);
   const fmtMin = m => m >= 60 ? `${Math.floor(m / 60)} h${m % 60 ? " " + String(m % 60).padStart(2, "0") : ""}` : `${m} Min.`;
   const MODE = { car: "🚗", walk: "🚶", train: "🚄", shuttle: "🚡" };
@@ -2489,23 +2573,26 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const d = ITIN.days.find(x => x.date === itinDay) || ITIN.days[0]; if (!d) return;
     $("#itinDays").innerHTML = ITIN.days.map(x => { const [w, dm] = dayLabel(x).split(" ");
       return `<button data-day="${x.date}" class="${x.date === d.date ? "on" : ""}${x.date === today ? " today" : ""}">${w}<b>${dm.split(".")[0]}</b>${dm.split(".")[1]}.</button>`; }).join("");
-    const items = dayItems(d), nOpt = d.items.filter(it => it.opt && it.type !== "move").length;
-    $("#itinOpt").innerHTML = `<button data-o="0" class="${itinOpt ? "" : "on"}">★ Nur Reiseplan</button><button data-o="1" class="${itinOpt ? "on" : ""}">＋ Optionale Spots${nOpt ? ` (${nOpt})` : ""}</button>`;
+    const comp = composeDay(d), items = itinOpt ? comp.view : comp.active, nOpt = d.items.filter(it => it.opt && it.type !== "move").length, nSel = chosenOf(d).size;
+    $("#itinOpt").innerHTML = `<button data-o="0" class="${itinOpt ? "" : "on"}">★ Reiseplan${nSel ? ` (+${nSel})` : ""}</button><button data-o="1" class="${itinOpt ? "on" : ""}">＋ Optionale Spots${nOpt ? ` (${nOpt})` : ""}</button>`;
     const first = items.find(it => it.lat) || {}, dd = dayDate(d);
     const sun = first.lat ? [sunTime(first.lat, first.lng, dd, true), sunTime(first.lat, first.lng, dd, false), sunTime(first.lat, first.lng, dd, false, 96)] : null;
     itinLb = [];
     const body = items.map(it => {
-      if (it.type === "move") return `<div class="imove"><div></div><div>${MODE[it.mode] || "➜"} <b>${it.min ? fmtMin(it.min) : ""}</b>${it.km ? ` · ${it.km} km` : ""}${it.text ? ` · ${esc(it.text)}` : ""}</div></div>`;
+      if (it.type === "move") return `<div class="imove"><div></div><div>${MODE[it.mode] || "➜"} <b>${it.min ? fmtMin(it.min) : it._calc ? `<span class="calc">wird berechnet …</span>` : ""}</b>${it.km ? ` · ${it.km} km` : ""}${it.text ? ` · ${esc(it.text)}` : ""}</div></div>`;
       const card = it.type === "stop" ? stopCard(it, d.date) : it.type === "hotel" ? hotelCard(it)
         : `<div class="icard"><div class="iinfo"><span class="iic">${esc(it.icon || "•")}</span><div><h3>${esc(it.title || "")}</h3>
             ${it.plan || it.opt ? `<div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}</div>` : ""}${lightHtml(it)}${it.text ? `<p>${esc(it.text)}</p>` : ""}
             ${(it.spots || []).length ? `<div class="iact">${it.spots.map(id => spotOf(id)).filter(Boolean).map(p => `<button data-spot="${esc(p.id)}">📍 ${esc(shortName(p.name))}</button>`).join("")}</div>` : ""}</div></div></div>`;
-      return `<div class="ic${it.opt ? " opt" : ""}"><div class="itm">${timeHtml(it.t)}</div>${card}</div>`;
+      const sel = it.opt && !it._sugg;
+      const choose = it.opt ? `<button class="ichoose" data-choose="${esc(optKey(it))}" data-on="${sel ? 1 : 0}">${sel ? "✓ eingeplant" : "＋ einplanen"}</button>` : "";
+      return `<div class="ic${it.opt ? " opt" : ""}${sel ? " sel" : ""}"><div class="itm">${timeHtml(it.t)}</div><div>${choose}${card}</div></div>`;
     }).join("");
+    const save = choiceDirty(d) ? `<div class="isave">Auswahl geändert – Fahrzeiten sind angepasst.<button data-savestd="1">★ Als Standard speichern</button><button class="sec" data-resetstd="1">Zurücksetzen</button></div>` : "";
     const on = itinShown === d.date;
     $("#itinBody").innerHTML = `<div class="idh"><h2>${dayLabel(d)} · ${esc(d.title)}${d.status && d.status !== "fest" ? `<span class="ist">${esc(d.status)}</span>` : ""}</h2>
       ${sun ? `<div class="isun"><span>🌅 Aufgang ${sun[0]}</span><span>🌇 Untergang ${sun[1]}</span><span>🌃 blaue Stunde bis ${sun[2]}</span></div>` : ""}
-      <button class="imapb" data-map="${d.date}">${on ? "✕ Tagesroute ausblenden" : "🗺 Tagesroute auf der Karte"}</button></div>` + body;
+      <button class="imapb" data-map="${d.date}">${on ? "✕ Tagesroute ausblenden" : "🗺 Tagesroute auf der Karte"}</button></div>` + save + body;
     const db = $("#itinDays").querySelector("button.on"); if (db) db.scrollIntoView({ inline: "center", block: "nearest" });
   }
   // Tagesroute: Etappen (Auto mit Straßenverlauf, Zug gestrichelt) und nummerierte Stopps mit Uhrzeit
@@ -2551,6 +2638,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       if (x.p) lbOpen(x.p, i); else lbOpen({ name: x.hotel.name || "Hotel", posts: (x.hotel.photos || []).map(src => ({ image: src, url: x.hotel.link || src, credit: "Trip.com" })) }, i);
       return; }
     const b = e.target.closest("button"); if (!b) return;
+    const dd = ITIN.days.find(x => x.date === itinDay);
+    if (b.dataset.choose !== undefined && dd) { setChoice(dd, b.dataset.choose, b.dataset.on !== "1"); renderItin(); drawItin(false); return; }
+    if (b.dataset.resetstd && dd) { delete choiceLocal[dd.date]; try { localStorage.setItem("itinChoice", JSON.stringify(choiceLocal)); } catch {} renderItin(); drawItin(false); return; }
+    if (b.dataset.savestd && dd) { b.disabled = true; b.textContent = "Speichere …";
+      saveChoiceStd(dd).then(() => { toast("Als Standard gespeichert – gilt jetzt als Reiseplan", 2500); renderItin(); drawItin(false); })
+        .catch(err => { toast("Nicht gespeichert: " + err.message, 4000); renderItin(); }); return; }
     if (b.dataset.map) { showItinDay(itinShown === b.dataset.map ? null : b.dataset.map, true); if (itinShown) $("#itin").hidden = true; else renderItin(); return; }
     if (b.dataset.spot || b.dataset.ll) {
       if (itinShown !== itinDay) showItinDay(itinDay, false);
@@ -3578,6 +3671,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   loadForecast();
   document.addEventListener("visibilitychange", () => { if (!document.hidden) loadForecast(); });
   loadTours();
+  loadChoiceStd();
   loadWikiImages();
 
   // Direktlink: …/insta_map/#spot=<id>&tour=<id> → Route einblenden, Spot zeigen und öffnen
