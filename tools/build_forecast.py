@@ -83,6 +83,51 @@ def sky(light, low, mid, high, total, rain, rh=None, hilly=False):
     return ""
 
 
+def grid(v):
+    """0,1°-Raster (≈ 11 km) – gleiche Rundung wie in der App: floor(x·10 + 0,5)."""
+    import math
+    return f"{math.floor(v * 10 + 0.5) / 10:.1f}"
+
+
+def area_forecast(today, days=3):
+    """Wetter für alle China-Spots (Raster), je Tag: Symbol, Temperatur, Regen, Himmel zum Sonnenauf-/-untergang."""
+    s = open(os.path.join(ROOT, "data", "china.js"), encoding="utf-8").read()
+    m = re.search(r"window\.PLACES_CN\s*=\s*", s)
+    places = json.JSONDecoder().raw_decode(s[m.end():])[0]
+    keys = sorted({(grid(p["lat"]), grid(p["lng"])) for p in places if p.get("lat") and not p.get("noloc")})
+    res = {}
+    for i in range(0, len(keys), 40):
+        chunk = keys[i:i + 40]
+        lat = ",".join(k[0] for k in chunk)
+        lng = ",".join(k[1] for k in chunk)
+        wx = get(f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lng}"
+                 f"&hourly=cloud_cover,cloud_cover_low,cloud_cover_mid,cloud_cover_high,precipitation,relative_humidity_2m,visibility"
+                 f"&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset"
+                 f"&timezone=Asia%2FShanghai&forecast_days={days}")
+        if isinstance(wx, dict):
+            wx = [wx]
+        for k, w in zip(chunk, wx):
+            H, D, elev = w["hourly"], w["daily"], w.get("elevation") or 0
+            out = {}
+            for j, date in enumerate(D["time"]):
+                if date < today.isoformat():
+                    continue
+                def at(t, light):
+                    hh = t[:13] + ":00"
+                    if hh not in H["time"]:
+                        return None
+                    x = H["time"].index(hh)
+                    vis = H["visibility"][x]
+                    return {"t": t[11:16], "cloud": H["cloud_cover"][x], "sky": sky(light, H["cloud_cover_low"][x], H["cloud_cover_mid"][x],
+                            H["cloud_cover_high"][x], H["cloud_cover"][x], H["precipitation"][x], H["relative_humidity_2m"][x], elev >= 400),
+                            "vis": round(vis / 1000, 1) if vis is not None else None}
+                out[date] = {"code": D["weather_code"][j], "tmax": round(D["temperature_2m_max"][j]), "tmin": round(D["temperature_2m_min"][j]),
+                             "pp": D["precipitation_probability_max"][j], "rise": at(D["sunrise"][j], "sunrise"), "set": at(D["sunset"][j], "sunset")}
+            res[f"{k[0]},{k[1]}"] = out
+    print(f"✔ Gebietsprognose: {len(res)} Rasterfelder")
+    return res
+
+
 def main():
     s = open(ITIN, encoding="utf-8").read()
     data = json.loads(s[s.index("=") + 1:].strip().rstrip(";"))
@@ -148,6 +193,10 @@ def main():
             "haze": score, "hazeText": htxt,
             "sky": sk,
         }
+    try:
+        out["areas"] = area_forecast(today)
+    except Exception as e:  # Zusatz – darf den Reiseplan-Teil nicht kippen
+        print("⚠ Gebietsprognose fehlgeschlagen:", e)
     json.dump(out, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
     n = sum(len(v) for v in out["stops"].values())
     print(f"✔ Prognose für {n} Stopps ({len(out['stops'])} Spots, {len(keys)} Orte) → data/forecast.json")
