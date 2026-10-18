@@ -1177,5 +1177,69 @@
    "url": "https://www.flickr.com/photos/43854764@N08/4533343855/",
    "credit": "adventurocity · Flickr"
   }
+ ],
+ "Laozhai Hill 老寨山": [
+  {
+   "image": "images/claude_gx_laozhai_1.jpg",
+   "url": "https://www.flickr.com/photos/40445797@N02/31109442288/",
+   "credit": "Gregory Michiels Photography · Flickr"
+  },
+  {
+   "image": "images/claude_gx_laozhai_2.jpg",
+   "url": "https://www.flickr.com/photos/48392005@N03/22748568042/",
+   "credit": "Darcey Prout · Flickr"
+  },
+  {
+   "image": "images/claude_gx_laozhai_3.jpg",
+   "url": "https://www.flickr.com/photos/simonbergeron/21143129410/",
+   "credit": "PicsSimon · Flickr"
+  },
+  {
+   "image": "images/claude_gx_laozhai_4.jpg",
+   "url": "https://www.flickr.com/photos/steynard/54971124762/",
+   "credit": "Steynard · Flickr"
+  },
+  {
+   "image": "images/claude_gx_laozhai_5.jpg",
+   "url": "https://www.flickr.com/photos/40445797@N02/47331686522/",
+   "credit": "Gregory Michiels Photography · Flickr"
+  },
+  {
+   "image": "images/claude_gx_laozhai_6.jpg",
+   "url": "https://www.flickr.com/photos/40445797@N02/29183641923/",
+   "credit": "Gregory Michiels Photography · Flickr"
+  }
+ ],
+ "Golden Buddha Top 金佛顶": [
+  {
+   "image": "images/claude_gx_jinfoding_1.jpg",
+   "url": "https://www.flickr.com/photos/melissaenderle/48890946516/",
+   "credit": "Melissa Enderle · Flickr"
+  },
+  {
+   "image": "images/claude_gx_jinfoding_2.jpg",
+   "url": "https://www.flickr.com/photos/randomix/2599338833/",
+   "credit": "randomix · Flickr"
+  },
+  {
+   "image": "images/claude_gx_jinfoding_3.jpg",
+   "url": "https://www.flickr.com/photos/chunyu65/4617391621/",
+   "credit": "CHUN YU CHEN · Flickr"
+  },
+  {
+   "image": "images/claude_gx_jinfoding_4.jpg",
+   "url": "https://www.flickr.com/photos/148184072@N07/35862054282/",
+   "credit": "Corentin Cleuziat · Flickr"
+  },
+  {
+   "image": "images/claude_gx_jinfoding_5.jpg",
+   "url": "https://www.flickr.com/photos/60396351@N05/43135283545/",
+   "credit": "Wang Fonghu · Flickr"
+  },
+  {
+   "image": "images/claude_gx_jinfoding_6.jpg",
+   "url": "https://www.flickr.com/photos/kaeru_yao/2553822228/",
+   "credit": "kaeru_yao · Flickr"
+  }
  ]
 }

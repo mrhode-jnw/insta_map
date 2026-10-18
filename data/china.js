@@ -4679,15 +4679,72 @@ window.PLACES_CN = [
   "lat": 24.9177,
   "lng": 110.5205,
   "approx": false,
-  "image": null,
+  "image": "images/claude_gx_laozhai_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/40445797@N02/31109442288/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/40445797@N02/31109442288/",
+    "kind": "photo",
+    "image": "images/claude_gx_laozhai_1.jpg",
+    "caption": "",
+    "credit": "Gregory Michiels Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/48392005@N03/22748568042/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/48392005@N03/22748568042/",
+    "kind": "photo",
+    "image": "images/claude_gx_laozhai_2.jpg",
+    "caption": "",
+    "credit": "Darcey Prout · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/simonbergeron/21143129410/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/simonbergeron/21143129410/",
+    "kind": "photo",
+    "image": "images/claude_gx_laozhai_3.jpg",
+    "caption": "",
+    "credit": "PicsSimon · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/steynard/54971124762/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/steynard/54971124762/",
+    "kind": "photo",
+    "image": "images/claude_gx_laozhai_4.jpg",
+    "caption": "",
+    "credit": "Steynard · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/40445797@N02/47331686522/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/40445797@N02/47331686522/",
+    "kind": "photo",
+    "image": "images/claude_gx_laozhai_5.jpg",
+    "caption": "",
+    "credit": "Gregory Michiels Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/40445797@N02/29183641923/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/40445797@N02/29183641923/",
+    "kind": "photo",
+    "image": "images/claude_gx_laozhai_6.jpg",
+    "caption": "",
+    "credit": "Gregory Michiels Photography · Flickr"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Spektakulärster Rundblick auf Li-Fluss-Schleife und Karstkegel",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/40445797@N02/31109442288/",
+  "image_credit": "Gregory Michiels Photography · Flickr"
  },
  {
   "id": "claude-cn-20-yuan-schein-motiv-yellow-cloth-shoal",
@@ -4877,15 +4934,72 @@ window.PLACES_CN = [
   "lat": 25.8161,
   "lng": 110.1499,
   "approx": false,
-  "image": null,
+  "image": "images/claude_gx_jinfoding_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/melissaenderle/48890946516/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/melissaenderle/48890946516/",
+    "kind": "photo",
+    "image": "images/claude_gx_jinfoding_1.jpg",
+    "caption": "",
+    "credit": "Melissa Enderle · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/randomix/2599338833/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/randomix/2599338833/",
+    "kind": "photo",
+    "image": "images/claude_gx_jinfoding_2.jpg",
+    "caption": "",
+    "credit": "randomix · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/chunyu65/4617391621/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chunyu65/4617391621/",
+    "kind": "photo",
+    "image": "images/claude_gx_jinfoding_3.jpg",
+    "caption": "",
+    "credit": "CHUN YU CHEN · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/148184072@N07/35862054282/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/148184072@N07/35862054282/",
+    "kind": "photo",
+    "image": "images/claude_gx_jinfoding_4.jpg",
+    "caption": "",
+    "credit": "Corentin Cleuziat · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/60396351@N05/43135283545/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/60396351@N05/43135283545/",
+    "kind": "photo",
+    "image": "images/claude_gx_jinfoding_5.jpg",
+    "caption": "",
+    "credit": "Wang Fonghu · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/kaeru_yao/2553822228/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kaeru_yao/2553822228/",
+    "kind": "photo",
+    "image": "images/claude_gx_jinfoding_6.jpg",
+    "caption": "",
+    "credit": "kaeru_yao · Flickr"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Per Seilbahn erreichbarer Gipfelblick über die Jinkeng-Terrassen",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/melissaenderle/48890946516/",
+  "image_credit": "Melissa Enderle · Flickr"
  },
  {
   "id": "claude-cn-zhanli-dong-village",
