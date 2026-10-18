@@ -465,6 +465,9 @@
   @media (min-width: 800px) { #lbGal .g { grid-template-columns: repeat(2, 1fr); padding: 0 6px; } }
   #lbGal img { width: 100%; height: auto; display: block; cursor: pointer; background: #111; min-height: 120px; }
   #lbGal img.cur { outline: 3px solid var(--accent); outline-offset: -3px; }
+  #lb .stage.zoomed { touch-action: none; }
+  #lb .stage.zoomed img { transition: none; }
+  #lb .stage.zoomed .nav, #lb .stage.zoomed .more { display: none; }
   #lb .more { position: absolute; left: 50%; bottom: 6px; transform: translateX(-50%); font-size: 12px; opacity: .65; pointer-events: none; }
   #lb .stage img { max-width: 100%; max-height: 100%; object-fit: contain; transition: transform .2s ease; }
   #lb .top { display: flex; justify-content: space-between; align-items: center; padding: calc(env(safe-area-inset-top) + 8px) 12px 8px; }
@@ -2177,6 +2180,64 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#lbPost").textContent = it.url && /wiki/.test(it.url) ? "Quelle ↗" : "Post öffnen ↗";
     $("#lbPrev").hidden = $("#lbNext").hidden = n < 2;
     $("#lbGal").querySelectorAll("img").forEach((im, k) => im.classList.toggle("cur", k === lb.i));
+    zoomSet(1, 0, 0);
+  }
+  // Zoomen im Vollbild: zwei Finger (Pinch), doppelt tippen oder Mausrad/Doppelklick; gezoomt mit einem Finger verschieben
+  const zm = { s: 1, x: 0, y: 0 };
+  function zoomSet(sc, x, y) {
+    const img = $("#lbImg"), st = $("#lb .stage");
+    sc = Math.min(5, Math.max(1, sc));
+    const mx = Math.max(0, (img.clientWidth * sc - st.clientWidth) / 2), my = Math.max(0, (img.clientHeight * sc - st.clientHeight) / 2);
+    zm.s = sc; zm.x = sc > 1 ? Math.min(mx, Math.max(-mx, x)) : 0; zm.y = sc > 1 ? Math.min(my, Math.max(-my, y)) : 0;
+    img.style.transform = sc > 1 ? `translate(${zm.x}px, ${zm.y}px) scale(${sc})` : "";
+    st.classList.toggle("zoomed", sc > 1);
+  }
+  function zoomAt(sc, cx, cy) {  // Bildschirmpunkt (cx, cy) bleibt beim Zoomen an seiner Stelle
+    const r = $("#lb .stage").getBoundingClientRect(), px = cx - r.left - r.width / 2, py = cy - r.top - r.height / 2;
+    const k = Math.min(5, Math.max(1, sc)) / zm.s;
+    zoomSet(sc, px - (px - zm.x) * k, py - (py - zm.y) * k);
+  }
+  {
+    const st = $("#lb .stage"); let pinch = null, pan = null, lastTap = 0;
+    const dist2 = t => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
+    st.addEventListener("touchstart", e => {
+      if (e.touches.length === 2) { sw = null; pan = null;
+        pinch = { d: dist2(e.touches), s: zm.s, mx: (e.touches[0].clientX + e.touches[1].clientX) / 2, my: (e.touches[0].clientY + e.touches[1].clientY) / 2, x: zm.x, y: zm.y };
+        e.preventDefault(); }
+      else if (e.touches.length === 1 && zm.s > 1) { pan = { cx: e.touches[0].clientX, cy: e.touches[0].clientY, x: zm.x, y: zm.y }; sw = null; }
+    }, { passive: false });
+    st.addEventListener("touchmove", e => {
+      if (pinch && e.touches.length === 2) {
+        e.preventDefault();
+        const mx = (e.touches[0].clientX + e.touches[1].clientX) / 2, my = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+        const sc = Math.min(5, Math.max(1, pinch.s * dist2(e.touches) / pinch.d)), k = sc / pinch.s;
+        const r = st.getBoundingClientRect(), px = pinch.mx - r.left - r.width / 2, py = pinch.my - r.top - r.height / 2;
+        zoomSet(sc, px - (px - pinch.x) * k + (mx - pinch.mx), py - (py - pinch.y) * k + (my - pinch.my));
+      } else if (pan && e.touches.length === 1) {
+        e.preventDefault();
+        zoomSet(zm.s, pan.x + e.touches[0].clientX - pan.cx, pan.y + e.touches[0].clientY - pan.cy);
+      }
+    }, { passive: false });
+    st.addEventListener("touchend", e => {
+      if (e.touches.length < 2) pinch = null;
+      if (!e.touches.length) {
+        const moved = pan && e.changedTouches[0] && Math.hypot(e.changedTouches[0].clientX - pan.cx, e.changedTouches[0].clientY - pan.cy) > 10;
+        pan = null;
+        if (zm.s < 1.05) zoomSet(1, 0, 0);
+        const t = e.changedTouches[0], now = Date.now();
+        if (t && !moved && !e.target.closest("button")) {
+          if (now - lastTap < 300) { lastTap = 0; zm.s > 1 ? zoomSet(1, 0, 0) : zoomAt(2.5, t.clientX, t.clientY); }
+          else lastTap = now;
+        }
+      }
+    });
+    st.addEventListener("dblclick", e => { if (e.target.closest("button")) return; zm.s > 1 ? zoomSet(1, 0, 0) : zoomAt(2.5, e.clientX, e.clientY); });
+    st.addEventListener("wheel", e => { if (!e.ctrlKey && zm.s === 1 && e.deltaY > 0) return; e.preventDefault(); zoomAt(zm.s * (e.deltaY < 0 ? 1.15 : 1 / 1.15), e.clientX, e.clientY); }, { passive: false });
+    // gezoomt mit der Maus ziehen
+    let mpan = null;
+    st.addEventListener("mousedown", e => { if (zm.s > 1 && !e.target.closest("button")) { mpan = { cx: e.clientX, cy: e.clientY, x: zm.x, y: zm.y }; e.preventDefault(); } });
+    window.addEventListener("mousemove", e => { if (mpan) zoomSet(zm.s, mpan.x + e.clientX - mpan.cx, mpan.y + e.clientY - mpan.cy); });
+    window.addEventListener("mouseup", () => { mpan = null; });
   }
   function lbGallery() {  // alle Fotos des Spots groß untereinander; Antippen zeigt es oben
     const n = lb.list.length;
@@ -2551,15 +2612,16 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }, true);
   // Wischen: links/rechts = blättern, nach unten = schließen
   let sw = null;
-  $("#lb .stage").addEventListener("pointerdown", e => { if (e.target.closest("button")) return; sw = { x: e.clientX, y: e.clientY }; });
+  $("#lb .stage").addEventListener("pointerdown", e => { if (e.target.closest("button") || zm.s > 1 || !e.isPrimary) return; sw = { x: e.clientX, y: e.clientY }; });
   $("#lb .stage").addEventListener("pointermove", e => {
-    if (!sw) return;
+    if (!sw || zm.s > 1 || !e.isPrimary) return;
     const dx = e.clientX - sw.x, dy = e.clientY - sw.y;
     $("#lbImg").style.transition = "none";
     $("#lbImg").style.transform = Math.abs(dx) > Math.abs(dy) ? `translateX(${dx}px)` : lb.el.scrollTop > 0 ? "" : `translateY(${Math.max(0, dy)}px)`;
   });
   const swEnd = e => {
-    if (!sw) return;
+    if (!sw || !e.isPrimary) return;
+    if (zm.s > 1) { sw = null; return; }
     const dx = e.clientX - sw.x, dy = e.clientY - sw.y; sw = null;
     $("#lbImg").style.transition = ""; $("#lbImg").style.transform = "";
     if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) lbShow(lb.i + (dx < 0 ? 1 : -1));

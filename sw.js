@@ -1,6 +1,6 @@
 // Offline-Unterstützung für die Insta Map (als App auf dem Home-Bildschirm).
 // Seite & Daten: erst Netz, sonst Cache. Bilder, Bibliotheken, Kartenkacheln: erst Cache, sonst Netz (und merken).
-const CORE = "core-v53", MEDIA = "media-v1", TILES = "tiles-v1";
+const CORE = "core-v54", MEDIA = "media-v1", TILES = "tiles-v1";
 const CORE_FILES = ["./", "index.html", "crypto.js", "gleaflet.js", "config.js", "data/places.js", "data/china.js", "data/trip.js", "data/inspiration.js", "data/itinerary.js", "data/added.js",
   "manifest.webmanifest", "icons/icon-192.png", "icons/apple-touch-icon.png"];
 
