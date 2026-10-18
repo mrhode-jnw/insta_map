@@ -810,6 +810,640 @@
      "label": "Check-in"
     }
    ]
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Zhangjiajie → Chongqing · Abendlichter",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "Zhangjiajie YOLO Resort",
+     "t": "~11:00",
+     "label": "Check-out"
+    },
+    {
+     "type": "info",
+     "icon": "✈️",
+     "title": "Weiterreise nach Chongqing – noch offen",
+     "text": "Zug oder Flug ist noch nicht eingetragen. Zeiten unten setzen Ankunft im Hotel bis ca. 16 Uhr voraus."
+    },
+    {
+     "type": "hotel",
+     "name": "The Lixury Hotel Chongqing",
+     "t": "~16:00",
+     "label": "Check-in"
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "17:15–18:30",
+     "spot": "claude-cn-raffles-city-the-crystal",
+     "opt": true,
+     "light": "sunset",
+     "lightText": "Sonnenuntergang 18:12 – Blick über den Zusammenfluss",
+     "text": "Ticket vorab prüfen (kontingentiert)."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "18:45–20:00",
+     "spot": "cn-hongyadong",
+     "opt": true,
+     "light": "blue",
+     "lightText": "blaue Stunde → Nacht, Lichter ab ca. 18:30",
+     "text": "Vom Ufer bzw. von der Qiansimen-Brücke aus, Stativ."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 5
+    },
+    {
+     "type": "stop",
+     "t": "20:00–20:30",
+     "spot": "cn-qiansimen-bridge",
+     "opt": true,
+     "light": "night",
+     "lightText": "Nacht",
+     "text": "Rote Fachwerkbrücke mit Hongyadong und Skyline."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
+    },
+    {
+     "type": "hotel",
+     "name": "The Lixury Hotel Chongqing"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Chongqing: Monorail, Altstadt, Nachtblick vom Nanshan",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "The Lixury Hotel Chongqing",
+     "t": "7:00"
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "7:30–8:30",
+     "spot": "cn-liziba-station-monorail-durchs-haus",
+     "opt": true,
+     "light": "day",
+     "lightText": "Morgen – vor dem Andrang",
+     "text": "Plattform unten an der Straße; Bahnen alle paar Minuten."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
+    },
+    {
+     "type": "stop",
+     "t": "8:45–10:00",
+     "spot": "cn-eling-park-skywalk",
+     "opt": true,
+     "light": "golden",
+     "lightText": "weiches Morgenlicht",
+     "text": "Danach Eling Second Factory (15 Min. bergauf)."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
+    },
+    {
+     "type": "stop",
+     "t": "10:00–11:00",
+     "spot": "cn-eling-second-factory",
+     "opt": true,
+     "light": "day",
+     "lightText": "Vormittag",
+     "text": "Dachterrassen des Kreativparks."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "11:30–12:30",
+     "spot": "cn-baixiangju-yangtze-river-cableway",
+     "opt": true,
+     "light": "midday",
+     "lightText": "Mittag – Architektur, Seilbahn zwischen den Türmen",
+     "text": "Auf der Seilbahn über den Jangtse zum Südufer möglich."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "13:30–15:00",
+     "spot": "cn-huguang-guild-hall",
+     "opt": true,
+     "light": "indoor",
+     "lightText": "Mittag – Innenhöfe",
+     "text": "Gildehallen am Jangtse-Ufer."
+    },
+    {
+     "type": "hotel",
+     "name": "The Lixury Hotel Chongqing",
+     "t": "15:15",
+     "label": "Pause"
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "17:15–19:00",
+     "spot": "claude-cn-yikeshu-viewing-platform",
+     "opt": true,
+     "light": "sunset",
+     "lightText": "Sonnenuntergang 18:11 → blaue Stunde über Yuzhong",
+     "text": "Gegen 17:15 da sein, Platz am Geländer sichern."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "19:15–20:15",
+     "spot": "claude-cn-longmenhao-old-street",
+     "opt": true,
+     "light": "night",
+     "lightText": "Nacht",
+     "text": "Backsteinvillen und Treppen, Blick auf die Skyline."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "hotel",
+     "name": "The Lixury Hotel Chongqing"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "title": "Chongqing → Shanghai · Bund am Abend",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "The Lixury Hotel Chongqing",
+     "t": "6:30"
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "6:45–8:00",
+     "spot": "cn-chaotianmen",
+     "opt": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang 7:03 über dem Zusammenfluss",
+     "text": "Landspitze mit Raffles City im Morgenlicht."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "8:30–9:30",
+     "spot": "claude-cn-shibati-old-steps",
+     "opt": true,
+     "light": "day",
+     "lightText": "Morgen – Treppen noch leer",
+     "text": ""
+    },
+    {
+     "type": "hotel",
+     "name": "The Lixury Hotel Chongqing",
+     "t": "~10:30",
+     "label": "Check-out"
+    },
+    {
+     "type": "info",
+     "icon": "✈️",
+     "title": "Weiterreise nach Shanghai – noch offen",
+     "text": "Flug oder Zug ist noch nicht eingetragen. Zeiten unten setzen Ankunft im Hotel bis ca. 16 Uhr voraus."
+    },
+    {
+     "type": "hotel",
+     "name": "Hyatt on the Bund",
+     "t": "~16:00",
+     "label": "Check-in"
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "16:45–17:45",
+     "spot": "claude-cn-zhapu-road-bridge-suzhou-creek",
+     "opt": true,
+     "light": "sunset",
+     "lightText": "Sonnenuntergang 17:08 → blaue Stunde",
+     "text": "Vom Westgeländer Richtung Osten."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 5
+    },
+    {
+     "type": "stop",
+     "t": "17:45–18:30",
+     "spot": "cn-waibaidu-bridge-suzhou-creek",
+     "opt": true,
+     "light": "blue",
+     "lightText": "blaue Stunde",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "18:30–19:30",
+     "spot": "cn-the-bund-lujiazui",
+     "opt": true,
+     "light": "night",
+     "lightText": "Nacht – Skyline beleuchtet (meist bis 22 Uhr)",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
+    },
+    {
+     "type": "hotel",
+     "name": "Hyatt on the Bund"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "title": "Shanghai: North Bund, Altstadt, Lujiazui",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "Hyatt on the Bund",
+     "t": "5:45"
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "6:00–7:15",
+     "spot": "cn-north-bund-riverside-park",
+     "opt": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang 6:06 hinter Lujiazui",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "8:00–9:30",
+     "spot": "claude-cn-tianzifang",
+     "opt": true,
+     "light": "day",
+     "lightText": "Morgen – vor 10 Uhr noch Alltag statt Touristen",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "9:45–11:30",
+     "spot": "cn-yu-garden",
+     "opt": true,
+     "light": "day",
+     "lightText": "Vormittag – zur Öffnung",
+     "text": "Später wird es sehr voll."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "12:30–13:30",
+     "spot": "claude-cn-jin-mao-tower-atrium",
+     "opt": true,
+     "light": "indoor",
+     "lightText": "Mittag – innen",
+     "text": "Über die Lobby des Grand Hyatt (54. Stock)."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "13:45–15:15",
+     "spot": "cn-museum-of-art-pudong",
+     "opt": true,
+     "light": "indoor",
+     "lightText": "Mittag/Nachmittag – innen und Dachterrasse",
+     "text": "Das „Fenster“ zum Oriental Pearl Tower."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
+    },
+    {
+     "type": "stop",
+     "t": "16:15–17:45",
+     "spot": "cn-shanghai-tower-observation-deck",
+     "opt": true,
+     "light": "sunset",
+     "lightText": "Sonnenuntergang 17:08 von oben",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "18:00–19:00",
+     "spot": "claude-cn-lujiazui-circular-footbridge",
+     "opt": true,
+     "light": "blue",
+     "lightText": "blaue Stunde → Nacht",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "hotel",
+     "name": "Hyatt on the Bund"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "title": "Zhujiajiao früh · Former French Concession · West Bund",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "Hyatt on the Bund",
+     "t": "6:00"
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "7:00–9:30",
+     "spot": "claude-cn-zhujiajiao-water-town",
+     "opt": true,
+     "light": "golden",
+     "lightText": "Morgen – Nebel über den Kanälen, Gassen leer",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "11:00–12:00",
+     "spot": "claude-cn-columbia-circle",
+     "opt": true,
+     "light": "day",
+     "lightText": "Vormittag",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "12:15–13:15",
+     "spot": "cn-wukang-mansion",
+     "opt": true,
+     "light": "midday",
+     "lightText": "Mittag – Fassade im Licht",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "14:00–15:00",
+     "spot": "cn-jing-an-temple",
+     "opt": true,
+     "light": "day",
+     "lightText": "Nachmittag",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "16:15–17:30",
+     "spot": "claude-cn-west-bund-long-museum",
+     "opt": true,
+     "light": "golden",
+     "lightText": "goldene Stunde → Sonnenuntergang 17:07",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "18:30–19:15",
+     "spot": "cn-cathay-cinema",
+     "opt": true,
+     "light": "night",
+     "lightText": "Nacht – Leuchtschrift",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "hotel",
+     "name": "Hyatt on the Bund"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "title": "Shanghai: Bund früh · 1000 Trees · Nanjing Road",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "Hyatt on the Bund",
+     "t": "5:45"
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
+    },
+    {
+     "type": "stop",
+     "t": "6:00–7:15",
+     "spot": "cn-the-bund-lujiazui",
+     "opt": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang 6:08 – Lujiazui im Gegenlicht",
+     "text": "Am Morgen fast leer, Jogger und Tai-Chi."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "7:30–8:30",
+     "spot": "cn-rockbund",
+     "opt": true,
+     "light": "golden",
+     "lightText": "Morgenlicht",
+     "text": "Mit der Yuanmingyuan Road."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "10:00–11:30",
+     "spot": "cn-1000-trees",
+     "opt": true,
+     "light": "day",
+     "lightText": "Vormittag",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "13:00–16:30",
+     "spot": "cn-shanghai-astronomy-museum",
+     "opt": true,
+     "light": "indoor",
+     "lightText": "Mittag – innen",
+     "text": "Gut 1 Std. außerhalb, Kuppel-Show bei Ankunft buchen. Alternative: Pause im Hotel."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "18:30–19:30",
+     "spot": "cn-nanjing-road",
+     "opt": true,
+     "light": "night",
+     "lightText": "Nacht – Neon",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
+    },
+    {
+     "type": "stop",
+     "t": "20:00–21:30",
+     "spot": "cn-bvlgari-hotel-shanghai",
+     "opt": true,
+     "light": "night",
+     "lightText": "Nacht – Dachbar mit Blick auf Bund und Lujiazui",
+     "text": ""
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "hotel",
+     "name": "Hyatt on the Bund"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-01",
+   "title": "Abreise",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "Hyatt on the Bund",
+     "label": "Check-out"
+    },
+    {
+     "type": "info",
+     "icon": "✈️",
+     "title": "Abreise – Zeit noch offen",
+     "text": "Flug noch nicht eingetragen."
+    }
+   ]
   }
  ],
  "hotels": {
