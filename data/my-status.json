@@ -522,6 +522,7 @@
   "prio": "hoch"
  },
  "cn-shanghai-tower-observation-deck": {
-  "fav": true
+  "fav": true,
+  "prio": "hoch"
  }
 }
