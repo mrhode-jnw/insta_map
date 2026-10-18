@@ -2753,10 +2753,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
+  const APP_VER = "71 · Reiseplan mit Dauer/Mittagessen";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
-      + `<div class="sgrp">App</div><div class="scard"><div class="srow"><b>Neu laden</b><div class="seg2"><button data-reload="1">Jetzt neu laden</button></div><small>Holt die neueste Version und alle Daten.</small></div></div>`;
+      + `<div class="sgrp">App</div><div class="scard"><div class="srow"><b>Neu laden</b><div class="seg2"><button data-reload="1">Jetzt neu laden</button></div><small>Holt die neueste Version und alle Daten. Stand dieser Version: ${APP_VER}</small></div></div>`;
   }
   $("#setBody").addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
