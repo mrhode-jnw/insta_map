@@ -68,14 +68,10 @@
  },
  "2026-10-30": {
   "opt": [
-   "claude-cn-columbia-circle",
-   "claude-cn-west-bund-long-museum",
-   "claude-cn-zhujiajiao-water-town",
-   "cn-cathay-cinema",
-   "cn-jing-an-temple",
-   "cn-wukang-mansion"
+   "cn-jing-an-temple"
   ],
-  "dur": {}
+  "dur": {},
+  "off": []
  },
  "2026-10-31": {
   "opt": [
