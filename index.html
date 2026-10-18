@@ -2540,18 +2540,27 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const parseT = t => { const m = String(t || "").match(/(~?)(\d{1,2}):(\d{2})(?:\s*[–-]\s*(\d{1,2}):(\d{2}))?/); if (!m) return null;
     const s = +m[2] * 60 + +m[3], e = m[4] ? +m[4] * 60 + +m[5] : null; return { s, e: e != null && e < s ? e + 1440 : e, approx: !!m[1] }; };
   const hm = x => `${Math.floor(x / 60) % 24}:${String(x % 60).padStart(2, "0")}`;
+  // feste Abfahrten (Zug/Flug) bleiben, alles andere rechnet sich aus Vorgänger-Ende + Fahrzeit + geplanter Wartezeit
+  const isAnchor = (it, next) => it.type === "info" && (/🚄|✈️|🚆|⛴/.test(it.icon || "") || (next && next.type === "move" && /train|flight|boat/.test(next.mode)));
   function schedule(d, items) {
-    const du = durOf(d), out = new Map(); let cur = null;
-    for (const it of items) {
-      if (it.type === "move") { if (cur != null) cur += it.min || 0; continue; }
-      if (it._sugg) continue;
-      const p = parseT(it.t); if (!p) continue;
+    const du = durOf(d), out = new Map();
+    let cur = null, curPlan = null, travel = 0;
+    items.forEach((it, idx) => {
+      if (it.type === "move") { travel += it.min || 0; return; }
+      if (it._sugg) return;
+      const p = parseT(it.t); if (!p) return;
       const k = stopKey(it), base = p.e != null ? p.e - p.s : 0, dur = du[k] != null ? du[k] : base;
-      const start = cur != null && cur > p.s + 10 ? cur : p.s, end = start + dur;  // bis 10 Min. Verspätung: Planzeit bleibt (Puffer)
-      out.set(it, { start, end, base, dur, key: k, late: start - p.s, range: p.e != null,
+      let start = p.s, late = 0;
+      if (cur != null) {
+        const slack = Math.max(0, p.s - (curPlan + travel));  // eingeplante Wartezeit (z. B. bis Sonnenuntergang) bleibt erhalten
+        const dyn = cur + travel + slack;
+        if (isAnchor(it, items[idx + 1])) { late = dyn - p.s; } else start = dyn;
+      }
+      const end = start + dur;
+      out.set(it, { start, end, base, dur, key: k, late: late > 0 ? late : 0, shift: start - p.s, range: p.e != null,
         t: (p.approx ? "~" : "") + hm(start) + (p.e != null || dur ? "–" + hm(end) : "") });
-      cur = p.e != null || dur ? end : start;
-    }
+      cur = p.e != null || dur ? end : start; curPlan = p.e != null ? p.e : p.s; travel = 0;
+    });
     return out;
   }
   const spotOf = id => places.find(p => p.id === id);
@@ -2626,7 +2635,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const dur = sc && it.type === "stop" && (sc.range || sc.dur) ? `<div class="idur${sc.dur !== sc.base ? " chg" : ""}">⏱ Aufenthalt <b>${fmtMin(sc.dur)}</b>
           <button data-dur="${esc(sc.key)}" data-v="${Math.max(0, sc.dur - 15)}" aria-label="15 Minuten kürzer">−</button><button data-dur="${esc(sc.key)}" data-v="${sc.dur + 15}" aria-label="15 Minuten länger">+</button>
           ${sc.dur !== sc.base ? `<button data-dur="${esc(sc.key)}" data-v="" title="Wie geplant" aria-label="Zurück auf geplante Dauer" style="width:auto;border-radius:999px;padding:0 10px;font-size:12px">↺ ${fmtMin(sc.base)}</button>` : ""}</div>` : "";
-      const late = sc && sc.late > 0 && it.light && /sun|blue|golden|dawn/.test(it.light) ? `<span class="ilate">⚠ ${sc.late} Min. später als geplant – Licht prüfen</span>` : "";
+      const late = !sc ? "" : sc.late > 0 ? `<span class="ilate">⚠ ${sc.late} Min. zu spät für die feste Abfahrt</span>`
+        : Math.abs(sc.shift) >= 15 && it.light && /sun|blue|golden|dawn/.test(it.light) ? `<span class="ilate">⚠ ${Math.abs(sc.shift)} Min. ${sc.shift > 0 ? "später" : "früher"} als geplant – Licht prüfen</span>` : "";
       return `<div class="ic${it.opt ? " opt" : ""}${sel ? " sel" : ""}"><div class="itm${moved ? " moved" : ""}">${timeHtml(sc ? sc.t : it.t)}</div><div class="icw">${choose}${dur}${late}${card}</div></div>`;
     }).join("");
     const save = choiceDirty(d) ? `<div class="isave">Plan geändert – Zeiten sind angepasst.<button data-savestd="1">★ Als Standard speichern</button><button class="sec" data-resetstd="1">Zurücksetzen</button></div>` : "";
