@@ -19,5 +19,32 @@
     "date": "2026-10-18",
     "spot": "cn-museum-of-art-pudong",
     "note": "Das bekannte hohe Fenster im Museum of Art Pudong (Ostfassade), das den Oriental Pearl Tower rahmt – identisch mit dem vorhandenen Spotfoto"
+  },
+  "images/insp/DcSwg4-gKzs_7.jpg": {
+    "status": "found",
+    "id": "loc:DcSwg4-gKzs_7:mvdlxebc",
+    "date": "2026-10-18",
+    "spot": "hk-monster-building-yick-cheong-building",
+    "note": "Im Bild beschriftet „Monster Building“; typische Innenhof-Perspektive des Yick Cheong Building, Quarry Bay"
+  },
+  "images/insp/DdwYK7Aoyzy_4.jpg": {
+    "status": "found",
+    "id": "loc:DdwYK7Aoyzy_4:mvdlxoz4",
+    "date": "2026-10-18",
+    "spot": "hk-wonderland-villas",
+    "note": "Gebogene Reihe weißer Hochhausscheiben an der Kante eines bewaldeten Hangs – per Satellitenbild mit Wonderland Villas (Kwai Chung) abgeglichen, dahinter Kam Shan mit Strommasten und Stausee, rechts Kowloon"
+  },
+  "images/insp/DdFzwRdFKLt_8.jpg": {
+    "status": "found",
+    "id": "loc:DdFzwRdFKLt_8:mvdlyk7d",
+    "date": "2026-10-18",
+    "spot": "hk-carnival-restaurant-neon-lai-king",
+    "note": "Neon-Schriftzug 嘉年華酒家 (Slide 1/4: Carnival Restaurant) = Filiale Lai King Estate, Kwai Chung; Containerkräne Kwai Tsing im Hintergrund; neuer Spot (Pin ungefähr)"
+  },
+  "images/insp/DdwYK7Aoyzy_13.jpg": {
+    "status": "notfound",
+    "id": "loc:DdwYK7Aoyzy_13:mvdlxuse",
+    "date": "2026-10-18",
+    "note": "Wohnturm mit „Dragon Gate“ und Blick auf Meer + Containerschiff (Drohnenfoto @llittlepig) – Gebäude nicht sicher identifiziert. Vermutung: meerseitiges Hochhaus an einer Schifffahrtsroute (Lamma Channel/Ma Wan/Tuen Mun), unbestätigt. Mit Hinweis (Gebäudename) erneut beauftragen."
   }
 }
