@@ -1,2 +1,10 @@
 // Generiert von tools/inbox.py located – Ergebnisse von „Ort recherchieren“ (Bild → Ergebnis).
-window.INSP_LOCATE = {};
+window.INSP_LOCATE = {
+ "images/insp/DdOZ9rGkiHe_4.jpg": {
+  "status": "found",
+  "id": "loc:DdOZ9rGkiHe_4:mvdlkus6",
+  "date": "2026-10-18",
+  "spot": "cn-museum-of-art-pudong",
+  "note": "Ostfenster des Museum of Art Pudong: Slide 19 desselben Posts zeigt das bekannte MAP-Fenster mit identischem Himmel, Turmbeinen, Sockelbögen und derselben Person – Slide 4 ist derselbe Blick mit Tele"
+ }
+};

@@ -3969,6 +3969,15 @@ window.PLACES_CN = [
     "caption": "Collecting slices of the future in the past.\n2025 的句點，落在上海。 一座被時間折疊的城市。\n前一秒是法租界的梧桐紅磚， 下一秒卻是陸家嘴的雲霄未來。 三天，五萬步。 蒐集了這些，關於魔都的切片。\n\n🔲 浦東美術館 (MAP) 那個著名的「窗」。 \n將東方明珠框成一幅極簡的畫。頂樓的露台，更是感受外灘建築群壓迫感最好的觀景台。\n\n🌆塘橋渡口 (Tangqiao Ferry Terminal) 上海最溫柔的日落觀測點。 \n避開了外灘的人潮，這裡只有適當的清幽。看著陸家嘴的燈火逐一亮起，是這座城市獨有的儀式感。\n\n🐎 上海久事國際馬術中心 建築本身就是巨大的流動雕塑。 \n那些起伏的純白線條，像是凝固的波浪，在這裡可以拍到上海最純粹的律動感。\n\n🌀華東電力設計院 隱藏在城市裡的幾何美學。 \n紅色的旋轉樓梯與光影交錯，是建築攝影控不能錯過的線條聖地。\n\n🔭太平洋新天地觀光廳 上海最美的高空窗景。 \n俯瞰整個上海的繁華紋理，重點是人真的不多，可以獨享這片天際線。\n\n 🏛️武康大樓 (Wukang Mansion) 凝固了百年的巨輪。 \n這一區的步調和台北民生社區很像，適合沒有目的的散步，空氣裡都是舊上海的優雅。\n\n🥂 Cocina19 西班牙餐廳 北外灘的私藏視角。 \n不同於外灘的擁擠，坐在戶外露台，陸家嘴的天際線就在眼前觸手可及，是與這座城",
     "match": "slide",
     "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=4",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=4",
+    "kind": "photo",
+    "image": "images/DdOZ9rGkiHe_4.jpg",
+    "caption": "",
+    "credit": "@pat_kay · Instagram"
    }
   ],
   "pop": 4,
