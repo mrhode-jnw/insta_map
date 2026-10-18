@@ -229,6 +229,8 @@
   .ichoose { display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer;
     background: var(--soft, rgba(127,127,127,.15)); color: var(--fg); margin: 2px 0 8px; }
   .ic.opt.sel .ichoose { background: var(--accent); color: #fff; }
+  #itinSave { flex: none; padding: 10px 12px calc(env(safe-area-inset-bottom) + 10px); border-top: 1px solid var(--line); background: var(--bg); }
+  #itinSave .isave { margin: 0; }
   .isave { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; padding: 8px 12px; margin: 0 0 10px; border-radius: 12px; background: rgba(124,58,237,.14); font-size: 13px; }
   .isave button { border: 0; border-radius: 999px; padding: 6px 12px; font-weight: 600; cursor: pointer; background: var(--accent); color: #fff; }
   .isave button.sec { background: var(--soft, rgba(127,127,127,.15)); color: var(--fg); }
@@ -990,6 +992,7 @@
   <div id="itinDays"></div>
   <div id="itinOpt"><button data-o="0">★ Nur Reiseplan</button><button data-o="1">＋ Optionale Spots</button></div>
   <div id="itinBody"></div>
+  <div id="itinSave" hidden></div>
 </div>
 <div id="insp" hidden role="dialog" aria-label="Inspiration">
   <header><b>💡 Inspiration</b><span id="inspSub"></span><button id="inspClose" aria-label="Schließen">✕</button></header>
@@ -2632,14 +2635,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const sel = it.opt && !it._sugg;
       const choose = "";
       const sc = sch.get(it), moved = sc && sc.t.replace("~", "") !== String(it.t || "").replace("~", "").replace(/\s/g, "");
-      const dur = sc && it.type === "stop" && (sc.range || sc.dur) ? `<div class="idur${sc.dur !== sc.base ? " chg" : ""}">⏱ Aufenthalt <b>${fmtMin(sc.dur)}</b>
+      const dur = sc && (it.type === "stop" ? sc.range || sc.dur : it.type === "info" && sc.range) ? `<div class="idur${sc.dur !== sc.base ? " chg" : ""}">⏱ ${it.type === "stop" ? "Aufenthalt" : "Dauer"} <b>${fmtMin(sc.dur)}</b>
           <button data-dur="${esc(sc.key)}" data-v="${Math.max(0, sc.dur - 15)}" aria-label="15 Minuten kürzer">−</button><button data-dur="${esc(sc.key)}" data-v="${sc.dur + 15}" aria-label="15 Minuten länger">+</button>
           ${sc.dur !== sc.base ? `<button data-dur="${esc(sc.key)}" data-v="" title="Wie geplant" aria-label="Zurück auf geplante Dauer" style="width:auto;border-radius:999px;padding:0 10px;font-size:12px">↺ ${fmtMin(sc.base)}</button>` : ""}</div>` : "";
       const late = !sc ? "" : sc.late > 0 ? `<span class="ilate">⚠ ${sc.late} Min. zu spät für die feste Abfahrt</span>`
         : Math.abs(sc.shift) >= 15 && it.light && /sun|blue|golden|dawn/.test(it.light) ? `<span class="ilate">⚠ ${Math.abs(sc.shift)} Min. ${sc.shift > 0 ? "später" : "früher"} als geplant – Licht prüfen</span>` : "";
       return `<div class="ic${it.opt ? " opt" : ""}${sel ? " sel" : ""}"><div class="itm${moved ? " moved" : ""}">${timeHtml(sc ? sc.t : it.t)}</div><div class="icw">${choose}${dur}${late}${card}</div></div>`;
     }).join("");
-    const save = choiceDirty(d) ? `<div class="isave">Plan geändert – Zeiten sind angepasst.<button data-savestd="1">★ Als Standard speichern</button><button class="sec" data-resetstd="1">Zurücksetzen</button></div>` : "";
+    const dirty = choiceDirty(d);
+    $("#itinSave").innerHTML = dirty ? `<div class="isave">Geänderter Plan für ${esc(dayLabel(d))}<button data-savestd="1">★ Als neuen Plan speichern</button><button class="sec" data-resetstd="1">Verwerfen</button></div>` : "";
+    $("#itinSave").hidden = !dirty;
+    const save = "";
     const on = itinShown === d.date;
     $("#itinBody").innerHTML = `<div class="idh"><h2>${dayLabel(d)} · ${esc(d.title)}${d.status && d.status !== "fest" ? `<span class="ist">${esc(d.status)}</span>` : ""}</h2>
       ${sun ? `<div class="isun"><span>🌅 Aufgang ${sun[0]}</span><span>🌇 Untergang ${sun[1]}</span><span>🌃 blaue Stunde bis ${sun[2]}</span></div>` : ""}
@@ -2702,6 +2708,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     };
   }
   $("#itinDays").addEventListener("click", e => { const b = e.target.closest("button[data-day]"); if (!b) return; itinDay = b.dataset.day; renderItin(); $("#itinBody").scrollTop = 0; });
+  $("#itinSave").addEventListener("click", e => {
+    const b = e.target.closest("button"), dd = ITIN.days.find(x => x.date === itinDay); if (!b || !dd) return;
+    if (b.dataset.resetstd) { delete choiceLocal[dd.date]; try { localStorage.setItem("itinChoice", JSON.stringify(choiceLocal)); } catch {} renderItin(); drawItin(false); return; }
+    if (b.dataset.savestd) { b.disabled = true; b.textContent = "Speichere …";
+      saveChoiceStd(dd).then(() => { toast("Gespeichert – das ist jetzt der Reiseplan", 2500); renderItin(); drawItin(false); })
+        .catch(err => { toast("Nicht gespeichert: " + err.message, 4000); renderItin(); }); }
+  });
   $("#itinBody").addEventListener("click", e => {
     const im = e.target.closest("[data-lb]");
     if (im) { const x = itinLb[+im.dataset.lb], i = +im.dataset.i;
