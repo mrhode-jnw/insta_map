@@ -249,6 +249,8 @@
   .isun { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 10px; font-size: 12.5px; }
   .isun2 { display: flex; flex-wrap: nowrap; gap: 12px; align-items: center; margin: 8px 0 10px; font: 600 13px/1 system-ui, sans-serif; overflow-x: auto; scrollbar-width: none; }
   .isun2 span { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; }
+  .tprow.pkopt img, .tprow.pkopt > span:first-of-type { outline: 2px dashed #a78bfa; outline-offset: 2px; }
+  .tprow.pkopt b { font-weight: 600; }
   .ihmini { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-radius: 12px; background: var(--soft, rgba(127,127,127,.12)); font-size: 13.5px; color: var(--muted); }
   .isun span { padding: 4px 8px; border-radius: 8px; background: rgba(148,163,184,.15); }
   .imapb { width: 100%; padding: 10px; border-radius: 12px; border: 0; background: #0f766e; color: #fff; font-size: 15px; font-weight: 600; cursor: pointer; margin-bottom: 12px; }
@@ -2482,12 +2484,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const dayChoice = d => choiceLocal[d.date] !== undefined ? choiceLocal[d.date] : choiceStd[d.date];
   const chosenOf = d => new Set(cOpt(dayChoice(d)));
   const durOf = d => ({ ...cDur(dayChoice(d)) });
+  const cOff = v => v && !Array.isArray(v) && v.off || [];
+  const offOf = d => new Set(cOff(dayChoice(d)));  // abgewählte feste Stopps (Schlüssel: stopKey)
   const stopKey = it => (it.spot || it.title || it.name || "") + "@" + (it.t || "");
   const isChosen = (d, it) => it.opt && chosenOf(d).has(optKey(it));
-  const normC = v => JSON.stringify({ o: [...cOpt(v)].sort(), d: Object.entries(cDur(v)).sort() });
+  const normC = v => JSON.stringify({ o: [...cOpt(v)].sort(), d: Object.entries(cDur(v)).sort(), f: [...cOff(v)].sort() });
   const choiceDirty = d => choiceLocal[d.date] !== undefined && normC(choiceLocal[d.date]) !== normC(choiceStd[d.date]);
-  function putChoice(d, opt, dur) {
-    choiceLocal[d.date] = { opt: [...opt], dur }; try { localStorage.setItem("itinChoice", JSON.stringify(choiceLocal)); } catch {}
+  function putChoice(d, opt, dur, off = offOf(d)) {
+    choiceLocal[d.date] = { opt: [...opt], dur, off: [...off] }; try { localStorage.setItem("itinChoice", JSON.stringify(choiceLocal)); } catch {}
   }
   function setChoice(d, key, on) { const c = chosenOf(d); on ? c.add(key) : c.delete(key); putChoice(d, c, durOf(d)); }
   function setDur(d, key, min) { const du = durOf(d); min == null ? delete du[key] : du[key] = min; putChoice(d, chosenOf(d), du); }
@@ -2500,8 +2504,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     } catch {}
   }
   async function saveChoiceStd(d) {
-    const c = [...chosenOf(d)], du = durOf(d);
-    const next = await mutate(o => { o = o && !Array.isArray(o) ? o : {}; c.length || Object.keys(du).length ? o[d.date] = { opt: c, dur: du } : delete o[d.date]; return o; },
+    const c = [...chosenOf(d)], du = durOf(d), off = [...offOf(d)];
+    const next = await mutate(o => { o = o && !Array.isArray(o) ? o : {}; c.length || off.length || Object.keys(du).length ? o[d.date] = { opt: c, dur: du, off } : delete o[d.date]; return o; },
       `Reiseplan ${d.date}: Auswahl/Aufenthaltsdauer als Standard`, CHOICE_PATH, {});
     choiceStd = next; delete choiceLocal[d.date];
     try { localStorage.setItem("itinChoiceStd", JSON.stringify(choiceStd)); localStorage.setItem("itinChoice", JSON.stringify(choiceLocal)); } catch {}
@@ -2543,12 +2547,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   // Tagesablauf aus festen + eingeplanten optionalen Einträgen; nicht gewählte Vorschläge stehen (ohne Etappe) dazwischen
   function composeDay(d) {
-    const chosen = chosenOf(d);
+    const chosen = chosenOf(d), off = offOf(d);
     const active = [], view = [];
     let pend = [], gap = false;  // Etappen seit dem letzten aktiven Eintrag; gap = dazwischen lag Ausgelassenes
     for (const it of d.items) {
       if (it.type === "move") { pend.push(it); continue; }
-      if (it.opt && !chosen.has(optKey(it))) { view.push({ ...it, _sugg: true }); gap = true; continue; }
+      if (it.opt ? !chosen.has(optKey(it)) : it.type === "stop" && off.has(stopKey(it))) { view.push({ ...it, _sugg: true }); gap = true; continue; }
       const prev = [...active].reverse().find(x => x.lat);
       if (prev && pend.length) {
         if (!gap) { active.push(...pend); view.push(...pend); }
@@ -2564,7 +2568,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       pend = []; gap = false;
       active.push(it); view.push(it);
     }
-    if (!chosen.size && d.core) return { active: dedupeHotels(d.core), view };  // nichts eingeplant: Reiseplan wie gebaut (inkl. tCore-Zeiten)
+    if (!chosen.size && !off.size && d.core) return { active: dedupeHotels(d.core), view };  // nichts eingeplant: Reiseplan wie gebaut (inkl. tCore-Zeiten)
     return { active: dedupeHotels(active), view };
   }
   const dayItems = d => composeDay(d).active;
@@ -2656,7 +2660,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#itinDays").innerHTML = ITIN.days.map(x => { const [w, dm] = dayLabel(x).split(" ");
       return `<button data-day="${x.date}" class="${x.date === d.date ? "on" : ""}${x.date === today ? " today" : ""}">${w}<b>${dm.split(".")[0]}</b>${dm.split(".")[1]}.</button>`; }).join("");
     const comp = composeDay(d), items = comp.active, nOpt = d.items.filter(it => it.opt && it.type !== "move").length, nSel = chosenOf(d).size;
-    $("#itinOpt").innerHTML = `<button data-o="0" class="on">★ Reiseplan${nSel ? ` (+${nSel})` : ""}</button>${nOpt ? `<button data-o="1">＋ Optionale Spots (${nSel}/${nOpt})</button>` : ""}`;
+    $("#itinOpt").innerHTML = `<button data-o="0" class="on">★ Reiseplan${nSel ? ` (+${nSel})` : ""}</button><button data-o="1">✓ Spots wählen${nOpt ? ` (+${nSel}/${nOpt} optional)` : ""}${offOf(d).size ? ` · ${offOf(d).size} abgewählt` : ""}</button>`;
     // Licht am Ort: Aufgang am ersten, Abendlicht am letzten Punkt des Tages
     const first = items.find(it => it.lat) || {}, last = [...items].reverse().find(it => it.lat) || first, dd = dayDate(d);
     const sun = first.lat ? { rise: sunTime(first.lat, first.lng, dd, true), gold: sunTime(last.lat, last.lng, dd, false, 84),
@@ -2729,21 +2733,24 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Auswahl der optionalen Spots: Liste mit Vorschaubild, Name, Zeit und Haken → Übernehmen
   function openOptPick() {
     const d = ITIN.days.find(x => x.date === itinDay); if (!d) return;
-    const opts = d.items.filter(it => it.opt && it.type !== "move"), ch = chosenOf(d), box = $("#tourPick");
-    const row = it => { const p = it.spot && spotOf(it.spot), k = optKey(it);
+    const opts = d.items.filter(it => it.type === "stop" || (it.opt && it.type !== "move")), ch = chosenOf(d), off = offOf(d), box = $("#tourPick");
+    const row = it => { const p = it.spot && spotOf(it.spot), k = it.opt ? optKey(it) : stopKey(it), on = it.opt ? ch.has(k) : !off.has(k);
+      const tag = it.opt ? `<span class="b-opt" style="font-size:11px;padding:1px 7px;border-radius:999px;margin-left:6px">optional</span>` : `<span class="b-plan" style="font-size:11px;padding:1px 7px;border-radius:999px;margin-left:6px">★ Plan</span>`;
       const img = p && p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy" style="width:56px;height:56px;border-radius:10px;object-fit:cover;flex:none">`
         : `<span style="width:56px;height:56px;border-radius:10px;display:grid;place-items:center;flex:none;background:var(--soft);font-size:24px">${esc(it.icon || "📍")}</span>`;
-      return `<label class="tprow" style="gap:12px"><input type="checkbox" data-k="${esc(k)}" ${ch.has(k) ? "checked" : ""}>${img}
-        <span style="min-width:0"><b style="display:block">${esc(p ? shortName(p.name) : it.title || "")}</b><small>${esc([it.t, it.lightText].filter(Boolean).join(" · "))}</small></span></label>`; };
-    box.innerHTML = `<div class="tpcard"><div class="tphead"><b>Optionale Spots · ${esc(dayLabel(d))}</b><button class="tpclose" aria-label="Schließen">✕</button></div>
+      return `<label class="tprow${it.opt ? " pkopt" : " pkplan"}" style="gap:12px"><input type="checkbox" data-k="${esc(k)}" data-opt="${it.opt ? 1 : 0}" ${on ? "checked" : ""}>${img}
+        <span style="min-width:0"><b style="display:block">${esc(p ? shortName(p.name) : it.title || "")}${tag}</b><small>${esc([it.t, it.lightText].filter(Boolean).join(" · "))}</small></span></label>`; };
+    box.innerHTML = `<div class="tpcard"><div class="tphead"><b>Spots · ${esc(dayLabel(d))}</b><button class="tpclose" aria-label="Schließen">✕</button></div>
       ${opts.map(row).join("")}<button class="xa-save" data-ok>Übernehmen</button></div>`;
     box.style.zIndex = 3500; box.hidden = false;
     const close = () => { box.hidden = true; box.style.zIndex = ""; };
     box.querySelector(".tpclose").onclick = close;
     box.onclick = e => { if (e.target === box) close(); };
     box.querySelector("[data-ok]").onclick = () => {
-      const sel = [...box.querySelectorAll("input[data-k]")].filter(x => x.checked).map(x => x.dataset.k);
-      putChoice(d, sel, durOf(d)); close(); renderItin(); drawItin(false);
+      const inp = [...box.querySelectorAll("input[data-k]")];
+      const sel = inp.filter(x => x.dataset.opt === "1" && x.checked).map(x => x.dataset.k);
+      const offN = inp.filter(x => x.dataset.opt === "0" && !x.checked).map(x => x.dataset.k);
+      putChoice(d, sel, durOf(d), offN); close(); renderItin(); drawItin(false);
     };
   }
   $("#itinDays").addEventListener("click", e => { const b = e.target.closest("button[data-day]"); if (!b) return; itinDay = b.dataset.day; renderItin(); $("#itinBody").scrollTop = 0; });
@@ -2792,7 +2799,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "73 · Zhangjiajie-Plan, Lichtzeiten";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "74 · alle Spots an-/abwählbar";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
