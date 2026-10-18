@@ -1754,19 +1754,30 @@
   },
   {
    "date": "2026-11-01",
-   "title": "Abreise",
+   "title": "Abreise · Flug CA935 Shanghai Pudong → Frankfurt",
    "status": "Entwurf",
    "items": [
     {
      "type": "hotel",
      "name": "Hyatt on the Bund",
-     "label": "Check-out"
+     "t": "~7:00",
+     "label": "Check-out",
+     "text": "Taxi am Vorabend an der Rezeption bestellen."
+    },
+    {
+     "type": "move",
+     "mode": "car",
+     "text": "Taxi/DiDi zum Flughafen Pudong (T2, Air China) – ca. 50–60 Min."
     },
     {
      "type": "info",
+     "t": "11:05",
      "icon": "✈️",
-     "title": "Abreise – Zeit noch offen",
-     "text": "Flug noch nicht eingetragen."
+     "title": "Flughafen Shanghai Pudong (PVG) – Flug CA935 nach Frankfurt ✓ gebucht",
+     "plan": true,
+     "lat": 31.1443,
+     "lng": 121.8083,
+     "text": "Neue Abflugzeit 11:05 (vorher 11:10). Internationaler Flug: ca. 3 h vorher am Flughafen (Check-in, Ausreise-Passkontrolle)."
     }
    ]
   }

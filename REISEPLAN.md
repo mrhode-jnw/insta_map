@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 18.10.2026 13:34 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 18.10.2026 13:36 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -315,10 +315,11 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚶 zu Fuß · ca. 10 Min.
 - 🏨 Unterkunft: **Hyatt on the Bund**
 
-### So 1.11. – Abreise _(Entwurf)_
+### So 1.11. – Abreise · Flug CA935 Shanghai Pudong → Frankfurt _(Entwurf)_
 
-- 🏨 Check-out: **Hyatt on the Bund**
-- ✈️ **Abreise – Zeit noch offen** – Flug noch nicht eingetragen.
+- **~7:00** 🏨 Check-out: **Hyatt on the Bund**
+  - ↓ 🚗 Auto · ca. 50 Min. · 53 km (Taxi/DiDi zum Flughafen Pudong (T2, Air China) – ca. 50–60 Min.)
+- **11:05** ✈️ **Flughafen Shanghai Pudong (PVG) – Flug CA935 nach Frankfurt ✓ gebucht** – Neue Abflugzeit 11:05 (vorher 11:10). Internationaler Flug: ca. 3 h vorher am Flughafen (Check-in, Ausreise-Passkontrolle).
 
 ## Unterkünfte
 
