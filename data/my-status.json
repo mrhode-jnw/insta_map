@@ -510,5 +510,8 @@
  "cn-the-bund-lujiazui": {
   "fav": true,
   "prio": "hoch"
+ },
+ "cn-rockbund": {
+  "prio": "mittel"
  }
 }
