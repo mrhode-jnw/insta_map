@@ -524,14 +524,9 @@
   .hotel-pin { width: 24px; height: 24px; border-radius: 7px; background: #fff; border: 2px solid #2563eb; box-shadow: 0 1px 3px rgba(0,0,0,.3);
     display: grid; place-items: center; font-size: 13px; line-height: 1; opacity: .9; transition: transform .2s; }
   .zoom-far .hotel-pin { transform: scale(.45); font-size: 0; background: #2563eb; border-color: #fff; }
-  /* nach dem Schließen eines Spots aus Reiseplan/Tour: zurück oder auf der Karte bleiben */
-  #backBar { position: fixed; left: 50%; transform: translateX(-50%); top: calc(env(safe-area-inset-top) + 70px); z-index: 2600; display: flex; gap: 6px;
-    padding: 5px; border-radius: 16px; background: var(--glass, rgba(20,20,26,.85)); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px);
-    box-shadow: 0 8px 26px rgba(0,0,0,.4); border: 1px solid var(--glassb, transparent); }
-  #backBar[hidden] { display: none; }
-  #backBar button { border: 0; border-radius: 12px; padding: 10px 14px; font-size: 14px; font-weight: 600; cursor: pointer; white-space: nowrap;
-    background: var(--soft, rgba(127,127,127,.15)); color: var(--fg); }
-  #backBar button[data-b=back] { background: var(--accent); color: #fff; }
+  /* Spot aus Reiseplan/Tour: Knopf „↩ Tagesplanung“ neben ✕ (✕ = auf der Karte bleiben) */
+  .pop .pnav button.pback { width: auto !important; border-radius: 999px !important; padding: 0 12px; font-size: 13px; font-weight: 600; white-space: nowrap;
+    background: var(--accent) !important; color: #fff !important; border: 0; display: inline-flex !important; align-items: center; }
   #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
     z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
     display: none; max-width: 90vw; text-align: center; }
@@ -956,7 +951,6 @@
   <ul id="list"></ul>
 </section>
 <div id="toast"></div>
-<div id="backBar" hidden><button data-b="back"></button><button data-b="map">🗺 Karte</button></div>
 <button id="update" hidden>Neue Version verfügbar – tippen zum Laden</button>
 <div id="toursDlg" hidden role="dialog" aria-label="Touren">
   <header><b>🧭 Touren</b><span></span><button id="toursClose" aria-label="Schließen">✕</button></header>
@@ -2600,24 +2594,21 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   map.on("popupclose", () => {
     if (navigating || !backTo) return;
     const bt = backTo;
-    setTimeout(() => {
-      if (backTo !== bt || (map._popup && map.hasLayer(map._popup))) return;  // inzwischen anderer Spot offen
-      backTo = null;
-      // Auswahl: zurück zur Tagesplanung/Tour oder auf der Karte bleiben
-      const bar = $("#backBar"), bb = bar.querySelector("[data-b=back]");
-      bb.textContent = bt.dlg === "plan" ? "↩ Tagesplanung" : "↩ Tour";
-      bar.hidden = false; clearTimeout(bar._t); bar._t = setTimeout(() => { bar.hidden = true; }, 10000);
-      bar.onclick = e => {
-        const b = e.target.closest("button[data-b]"); if (!b) return;
-        bar.hidden = true; clearTimeout(bar._t);
-        if (b.dataset.b !== "back") return;
-        if (bt.dlg === "plan") { itinDay = bt.day; renderItin(); $("#itin").hidden = false; $("#itinBody").scrollTop = bt.scroll; }
-        else { renderTours(); $("#toursDlg").hidden = false; $("#toursBody").scrollTop = bt.scroll; }
-        dockSync();
-      };
-    }, 300);
+    setTimeout(() => { if (backTo === bt && !(map._popup && map.hasLayer(map._popup))) backTo = null; }, 300);  // ✕ = auf der Karte bleiben
   });
-  map.on("popupopen", () => { $("#backBar").hidden = true; });
+  function goBack() {
+    const bt = backTo; if (!bt) return;
+    backTo = null; closedByX = true; map.closePopup();
+    if (bt.dlg === "plan") { itinDay = bt.day; renderItin(); $("#itin").hidden = false; $("#itinBody").scrollTop = bt.scroll; }
+    else { renderTours(); $("#toursDlg").hidden = false; $("#toursBody").scrollTop = bt.scroll; }
+    dockSync();
+  }
+  map.on("popupopen", ev => {
+    const nav = ev.popup.getElement().querySelector(".pnav"); if (!nav || !backTo || nav.querySelector(".pback")) return;
+    const b = document.createElement("button"); b.className = "pback"; b.textContent = backTo.dlg === "plan" ? "↩ Tagesplanung" : "↩ Tour";
+    b.onclick = e => { e.stopPropagation(); goBack(); };
+    nav.querySelector(".pclose").after(b);
+  });
   // Leiste ein-/ausklappen (gemerkt)
   const setDock = h => { document.body.classList.toggle("dock-hidden", h); try { localStorage.setItem("dockHidden", h ? "1" : "0"); } catch {} };
   try { if (localStorage.getItem("dockHidden") === "1") document.body.classList.add("dock-hidden"); } catch {}
