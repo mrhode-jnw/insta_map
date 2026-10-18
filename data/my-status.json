@@ -575,5 +575,9 @@
  },
  "claude-cn-jinlong-bridge": {
   "prio": "nein"
+ },
+ "cn-baixiangju-yangtze-river-cableway": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
