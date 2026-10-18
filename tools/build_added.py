@@ -68,6 +68,8 @@ def main():
         fh.write("// Generiert von tools/build_added.py – je Spot: [angelegt, zuletzt ergänzt] (UTC).\n")
         fh.write("window.ADDED = " + json.dumps(added, separators=(",", ":")) + ";\n")
     print(f"✔ {len(added)} Spots mit Datum ({len(last)} mit späterem Post) → data/added.js")
+    import build_timeline  # Timeline der letzten Änderungen (data/timeline.js) gleich mit erneuern
+    build_timeline.main()
 
 
 if __name__ == "__main__":

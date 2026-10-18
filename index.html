@@ -465,6 +465,23 @@
   .xa-save:disabled { opacity: .5; }
   .pop .links .tadd { flex: 1; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #ede9fe; color: #4c1d95; font-weight: 600; cursor: pointer; }
   /* Inspiration: Bildersammlung unabhängig von Spots (data/inspiration.js) */
+  #tl { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
+  #tl[hidden] { display: none; }
+  #tl header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 14px 10px; border-bottom: 1px solid var(--line); }
+  #tl header b { font-size: 17px; } #tl header span { flex: 1; font-size: 13px; color: var(--muted); }
+  #tl header button { width: 38px; height: 34px; border-radius: 10px; border: 0; background: #111827; color: #fff; font-size: 17px; cursor: pointer; }
+  #tlFilter { display: flex; gap: 6px; overflow-x: auto; padding: 8px 12px; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+  #tlFilter button { flex: none; white-space: nowrap; padding: 6px 12px; border-radius: 999px; border: 0; background: var(--soft); color: var(--fg); font-size: 14px; cursor: pointer; }
+  #tlFilter button.on { background: var(--accent); color: #fff; }
+  #tlBody { flex: 1; overflow-y: auto; padding: 4px 12px calc(env(safe-area-inset-bottom) + 90px); }
+  #tlBody h4 { margin: 14px 2px 6px; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  #tlBody .tle { display: flex; gap: 10px; align-items: center; width: 100%; padding: 8px 6px; border: 0; border-bottom: 1px solid var(--line); background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+  #tlBody .tle img, #tlBody .tle .tli { flex: none; width: 48px; height: 48px; border-radius: 9px; object-fit: cover; background: var(--soft); display: grid; place-items: center; font-size: 22px; }
+  #tlBody .tle > span { min-width: 0; flex: 1; } #tlBody .tle b { display: block; font-size: 14.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #tlBody .tle small { display: block; font-size: 12.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #tlBody .tle i { flex: none; font-style: normal; font-size: 12px; color: var(--muted); }
+  #tlBody .tag { display: inline-block; padding: 0 6px; margin-right: 5px; border-radius: 6px; font-size: 11px; font-weight: 700; color: #fff; background: #6b7280; }
+  #tlBody .tag.new { background: var(--accent); } #tlBody .tag.photo { background: #0f766e; } #tlBody .tag.plan { background: #2563eb; } #tlBody .tag.insp { background: #ca8a04; } #tlBody .tag.mine { background: #7c3aed; }
   #insp { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
   #insp[hidden] { display: none; }
   #insp header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 14px 10px; border-bottom: 1px solid var(--line); }
@@ -939,6 +956,7 @@
   <button data-d="plan" aria-label="Reiseplan" title="Reiseplan"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></button>
   <button data-d="tours" aria-label="Touren" title="Touren"><svg viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.5"/></svg></button>
   <button data-d="insp" aria-label="Inspiration" title="Inspiration"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg></button>
+  <button data-d="time" aria-label="Timeline" title="Timeline – zuletzt neu &amp; ergänzt"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></button>
   <button data-d="fav" aria-label="Merkliste" title="Merkliste (Favoriten)"><svg viewBox="0 0 24 24"><path d="M12 21C5 15.5 3 12.5 3 9a4.5 4.5 0 0 1 9-1 4.5 4.5 0 0 1 9 1c0 3.5-2 6.5-9 12z"/></svg></button>
   <button data-d="set" aria-label="Einstellungen" title="Einstellungen"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
   <button class="dhide" aria-label="Leiste ausblenden" title="Leiste ausblenden"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
@@ -1024,6 +1042,11 @@
   <div id="inspFilter"></div>
   <div id="inspBody"></div>
 </div>
+<div id="tl" hidden role="dialog" aria-label="Timeline">
+  <header><b>Timeline</b><span id="tlSub"></span><button id="tlClose" aria-label="Schließen">✕</button></header>
+  <div id="tlFilter"></div>
+  <div id="tlBody"></div>
+</div>
 <div id="lb" hidden>
   <div class="top"><span id="lbCount"></span><button id="lbClose" aria-label="Schließen">✕</button></div>
   <div class="stage"><div id="lbStrip"></div><button class="nav prev" id="lbPrev" aria-label="Vorheriges Bild">‹</button><button class="nav next" id="lbNext" aria-label="Nächstes Bild">›</button></div>
@@ -1106,7 +1129,7 @@
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
   const v = Date.now();
-  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/insp_locate.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script><script src="data/added.js?v=${v}"><\/script>`);
+  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/insp_locate.js?v=${v}"><\/script><script src="data/timeline.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script><script src="data/added.js?v=${v}"><\/script>`);
 </script>
 <script src="crypto.js"></script>
 <script>
@@ -2527,6 +2550,68 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   });
   $("#inspBtn").onclick = e => { e.stopPropagation(); openInsp(); };
   $("#inspClose").onclick = () => { $("#insp").hidden = true; };
+
+  // ---------- Timeline: zuletzt neu angelegte und ergänzte Elemente (data/timeline.js + eigene Spots + Eingang)
+  let tlF = "all", tlInbox = [];
+  const tlSeen = () => { try { return localStorage.getItem("tlSeen") || ""; } catch { return ""; } };
+  const tlEvents = () => {
+    const ev = (window.TIMELINE || []).map(e => ({ ...e }));
+    places.filter(p => p.mine && p.created).forEach(p => ev.push({ t: String(p.created).slice(0, 16), k: "mine", id: p.id, name: p.name }));
+    tlInbox.forEach(x => ev.push({ t: String(x.added).slice(0, 16), k: x.kind === "locate" ? "locq" : x.insp ? "inspq" : "inbox", url: x.url, image: x.image, where: x.where, code: x.code || x.id }));
+    return ev.filter(e => e.t).sort((a, b) => a.t < b.t ? 1 : -1);
+  };
+  const tlUnseen = () => { const e = tlEvents()[0]; return !!e && e.t > tlSeen(); };
+  async function loadTlInbox() {
+    try { const l = await rawJson("data/inbox.json", []); const cut = new Date(Date.now() - 21 * 864e5).toISOString();
+      tlInbox = (l || []).filter(x => x.added && x.added > cut); if (!$("#tl").hidden) renderTimeline(); dockSync(); } catch {}
+  }
+  const TL_KIND = { all: "Alle", new: "Neue Spots", photo: "Fotos", plan: "Reiseplan", insp: "Inspiration", in: "Eingang" };
+  const tlGroup = k => k === "mine" ? "new" : k === "loc" || k === "inspq" || k === "locq" ? "insp" : k === "inbox" ? "in" : k;
+  function renderTimeline() {
+    const all = tlEvents(), seen = tlSeen();
+    const list = all.filter(e => tlF === "all" || tlGroup(e.k) === tlF);
+    $("#tlFilter").innerHTML = Object.entries(TL_KIND).filter(([k]) => k === "all" || all.some(e => tlGroup(e.k) === k))
+      .map(([k, l]) => `<button data-tf="${k}" class="${tlF === k ? "on" : ""}">${l}</button>`).join("");
+    $("#tlSub").textContent = `${all.filter(e => e.t > seen && seen).length ? all.filter(e => e.t > seen).length + " neu · " : ""}${all.length} Einträge`;
+    const loc = t => new Date(t + "Z");
+    const dayL = t => { const d = loc(t), today = new Date(), y = new Date(Date.now() - 864e5), f = x => x.toDateString();
+      return f(d) === f(today) ? "Heute" : f(d) === f(y) ? "Gestern" : d.toLocaleDateString("de-DE", { weekday: "short", day: "numeric", month: "numeric" }); };
+    const hm = t => loc(t).toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" });
+    let last = "", n = 0;
+    $("#tlBody").innerHTML = list.slice(0, 300).map(e => {
+      const p = e.id && places.find(x => x.id === e.id), d = dayL(e.t);
+      const head = d !== last ? `<h4>${esc(d)}</h4>` : ""; last = d;
+      const img = p && p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : e.image ? `<img src="${esc(e.image)}" alt="" loading="lazy">` : "";
+      const nm = esc(p ? shortName(p.name) : e.name ? shortName(e.name) : "");
+      let title, sub, icon;
+      switch (e.k) {
+        case "new": title = `<span class="tag new">NEU</span>${nm}`; sub = p ? [p.category, p.district].filter(Boolean).join(" · ") : "Spot"; icon = "📍"; break;
+        case "mine": title = `<span class="tag mine">EIGEN</span>${nm}`; sub = "Eigener Spot angelegt"; icon = "★"; break;
+        case "photo": title = `<span class="tag photo">+${e.n} ${e.n === 1 ? "FOTO" : "FOTOS"}</span>${nm}`; sub = p ? [p.category, p.district].filter(Boolean).join(" · ") : ""; icon = "📷"; break;
+        case "plan": title = `<span class="tag plan">PLAN</span>Reiseplan geändert`; sub = (e.text || "").replace(/^Reiseplan:?\s*/, ""); icon = "📅"; break;
+        case "insp": title = `<span class="tag insp">+${e.n}</span>Inspiration: neue ${e.n === 1 ? "Post" : "Posts"}`; sub = (e.regions || []).map(r => INSP_REG[r] || r).join(", "); icon = "💡"; break;
+        case "loc": title = e.status === "found" ? `<span class="tag photo">ORT</span>${nm || "Ort gefunden"}` : `<span class="tag">ORT</span>Ort nicht gefunden`; sub = e.note || ""; icon = "🔎"; break;
+        case "locq": title = `<span class="tag insp">⏳</span>Ort wird recherchiert`; sub = e.where || "Inspirationsbild"; icon = "🔎"; break;
+        case "inspq": title = `<span class="tag insp">⏳</span>Inspiration: Link eingegangen`; sub = e.url || ""; icon = "💡"; break;
+        default: title = `<span class="tag">📥</span>Link im Eingang`; sub = [e.where, e.url].filter(Boolean).join(" · "); icon = "📥";
+      }
+      return head + `<button class="tle" data-n="${n++}">${img || `<span class="tli">${icon}</span>`}<span><b>${title}</b><small>${esc(sub)}</small></span><i>${e.t > seen && seen ? "● " : ""}${hm(e.t)}</i></button>`;
+    }).join("") || `<p style="color:var(--muted);padding:12px">Noch nichts.</p>`;
+    const shown = list.slice(0, 300);
+    $("#tlBody").querySelectorAll(".tle").forEach(b => b.onclick = () => { const e = shown[+b.dataset.n];
+      if (e.id && places.some(x => x.id === e.id)) { $("#tl").hidden = true; dockSync(); location.hash = "spot=" + e.id; }
+      else if (e.k === "plan") { $("#tl").hidden = true; itinBtn.onclick(new Event("click")); dockSync(); }
+      else if (/insp|loc/.test(e.k)) { $("#tl").hidden = true; openInsp(); dockSync(); }
+      else if (e.url) window.open(e.url, "_blank", "noopener");
+      else toast("Nicht mehr vorhanden", 2000); });
+    $("#tlFilter").querySelectorAll("[data-tf]").forEach(b => b.onclick = () => { tlF = b.dataset.tf; renderTimeline(); $("#tlBody").scrollTop = 0; });
+  }
+  function openTimeline() {
+    renderTimeline(); $("#tl").hidden = false; $("#tlBody").scrollTop = 0; loadTlInbox();
+    const top = tlEvents()[0]; setTimeout(() => { try { if (top) localStorage.setItem("tlSeen", top.t); } catch {} dockSync(); }, 1500);
+  }
+  $("#tlClose").onclick = () => { $("#tl").hidden = true; dockSync(); };
+  setTimeout(loadTlInbox, 4000);
   // ---------- Reiseplan (data/itinerary.js aus cn/itinerary.json): Tage mit Karten je Stopp, Etappe, Hotel – und Tagesroute auf der Karte
   const ITIN = window.ITINERARY || { days: [], hotels: {} };
   const itinBtn = $("#itinBtn"); itinBtn.hidden = !ITIN.days.length;
@@ -2868,7 +2953,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   });
   drawItin(false);
   // ---------- Symbolleiste unten
-  const DLG = { plan: "#itin", tours: "#toursDlg", insp: "#insp", set: "#settings" };
+  const DLG = { plan: "#itin", tours: "#toursDlg", insp: "#insp", time: "#tl", set: "#settings" };
   // ---------- Einstellungen
   const SET_DEF = { theme: "auto", engine: "auto", mapColor: "app", hotels: true, pins: "normal" };
   const SETS = [
@@ -2880,7 +2965,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "82 · Ort finden unter jedem Bild";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "83 · Timeline";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -2908,6 +2993,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     document.body.classList.toggle("dock-off", (!$("#addDlg").hidden || !$("#tourPick").hidden) && mobile());
     $("#dock [data-d=plan]").classList.toggle("dot", !!itinShown);
     $("#dock [data-d=tours]").classList.toggle("dot", !!activeTour);
+    $("#dock [data-d=time]").classList.toggle("dot", tlUnseen());
   };
   $("#dock").addEventListener("click", e => {
     const b = e.target.closest("button[data-d]"); if (!b) return; e.stopPropagation();
@@ -2917,6 +3003,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (d === "plan" && !wasOpen) itinBtn.onclick(e);
     else if (d === "tours" && !wasOpen) openTours();
     else if (d === "insp" && !wasOpen) openInsp();
+    else if (d === "time" && !wasOpen) openTimeline();
     else if (d === "set" && !wasOpen) { renderSettings(); $("#settings").hidden = false; }
     else if (d === "fav") { const f = $("#fMore"); f.value = f.value === "fav" ? "" : "fav"; f.dispatchEvent(new Event("change"));
       toast(f.value === "fav" ? "❤ Nur Merkliste (Favoriten)" : "Alle Spots", 1500); if (mobile()) setSnap("half"); }
