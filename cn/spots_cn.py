@@ -40,6 +40,7 @@ POSTS = {
  82: ("shanghaieye", "p", "DdlZEZ1hMZS"),
  83: ("tomrus", "p", "DSHn-OrArn0"), 84: ("hwang199", "p", "CKivsXYhIe1"),
  85: ("chriskerriganphotography", "p", "CTji2C7sEim"),
+ 86: ("chinadestinations", "p", "Del3W9MDrOL"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -54,7 +55,7 @@ SPOTS = [
  ("Furong Town 芙蓉镇", 28.7731, 109.9819, False, "Yongshun, Hunan", "Dorf",
   [(30, 1)], "Dorf am Wasserfall, nachts beleuchtet."),
  ("Fenghuang Ancient Town 凤凰古城", 27.9509, 109.5998, False, "Xiangxi, Hunan", "Dorf",
-  [(30, 4), 10, 33, (83, 1), (83, 2), (83, 3), (83, 4), (83, 5), (83, 6), (83, 7), (83, 8), (83, 9), (83, 10), (83, 11), (83, 12), (83, 13), (83, 14), (83, 15), (83, 16), (84, 1), (84, 2), (84, 3), (84, 4), (84, 5), (84, 6), (84, 7), (85, 1), (85, 2), (85, 3), (85, 4), (85, 5), (85, 6), (85, 7), (85, 8), (85, 9), (85, 10)], "Stelzenhäuser am Tuo-Fluss, abends beleuchtet."),
+  [(30, 4), 10, 33, (83, 1), (83, 2), (83, 3), (83, 4), (83, 5), (83, 6), (83, 7), (83, 8), (83, 9), (83, 10), (83, 11), (83, 12), (83, 13), (83, 14), (83, 15), (83, 16), (84, 1), (84, 2), (84, 3), (84, 4), (84, 5), (84, 6), (84, 7), (85, 1), (85, 2), (85, 3), (85, 4), (85, 5), (85, 6), (85, 7), (85, 8), (85, 9), (85, 10), (86, 1), (86, 2), (86, 3), (86, 4), (86, 5)], "Stelzenhäuser am Tuo-Fluss, abends beleuchtet."),
  # Guizhou
  ("Xijiang Qianhu Miao Village 西江千户苗寨", 26.4955, 108.1702, False, "Leishan, Guizhou", "Dorf",
   [2, (21, 5), (61, 6), (62, 1), 63, (75, 3), (75, 4), (75, 5), (75, 6), (76, 1), (76, 2), (76, 4), (76, 5), (76, 6), (76, 7), 79], "Größtes Miao-Dorf: Holz-Stelzenhäuser am Hang; Aussichtspunkte oberhalb."),
