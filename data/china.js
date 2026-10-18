@@ -2759,9 +2759,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Beliebter Hangpfad mit Jangtse-Blick",
-  "when": "day",
   "image_page": "https://www.trip.com/moments/detail/chongqing-158-149999033/",
-  "image_credit": "I人遊記 · Trip.com"
+  "image_credit": "I人遊記 · Trip.com",
+  "when": "day"
  },
  {
   "id": "cn-huguang-guild-hall",
@@ -2837,9 +2837,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Historische Gildehallen, in vielen Guides",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/chanmelmel/51529280226/",
-  "image_credit": "MelindaChan ^..^ · Flickr"
+  "image_credit": "MelindaChan ^..^ · Flickr",
+  "when": "day"
  },
  {
   "id": "cn-zhongshan-4th-road",
@@ -2915,9 +2915,9 @@ window.PLACES_CN = [
   ],
   "pop": 3,
   "pop_reason": "Historische Allee, bei Fotografen bekannt",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/140936556@N08/40476049463/",
-  "image_credit": "J t Chen · Flickr"
+  "image_credit": "J t Chen · Flickr",
+  "when": "day"
  },
  {
   "id": "cn-eling-second-factory",
@@ -2993,9 +2993,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Kreativpark und Filmkulisse, sehr beliebt",
-  "when": "day",
   "image_page": "https://www.cnsjw.cn/?p=19198",
-  "image_credit": "cnsjw.cn (Blog)"
+  "image_credit": "cnsjw.cn (Blog)",
+  "when": "day"
  },
  {
   "id": "cn-danzishi-old-street",
@@ -3071,9 +3071,9 @@ window.PLACES_CN = [
   ],
   "pop": 3,
   "pop_reason": "Altstadtviertel mit Skyline-Blick",
-  "when": "both",
   "image_page": "https://www.trip.com/moments/detail/chongqing-158-154731558/",
-  "image_credit": "琪琪萌姐 · Trip.com"
+  "image_credit": "琪琪萌姐 · Trip.com",
+  "when": "both"
  },
  {
   "id": "cn-ciqikou-ancient-town",
@@ -3149,9 +3149,9 @@ window.PLACES_CN = [
   ],
   "pop": 5,
   "pop_reason": "Bekannteste Altstadt Chongqings",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/120589657@N03/13210247314/",
-  "image_credit": "Krid Taa · Flickr"
+  "image_credit": "Krid Taa · Flickr",
+  "when": "day"
  },
  {
   "id": "cn-sujiaba-interchange",
@@ -3209,9 +3209,9 @@ window.PLACES_CN = [
   ],
   "pop": 2,
   "pop_reason": "Autobahnkreuz-Motiv, kaum in Reiseführern",
-  "when": "both",
   "image_page": "https://www.ecns.cn/hd/2025-03-28/detail-ihepyqsm2135531.shtml",
-  "image_credit": "He Penglei / China News Service · ecns.cn"
+  "image_credit": "He Penglei / China News Service · ecns.cn",
+  "when": "both"
  },
  {
   "id": "cn-dongchangzhi-rd-lushun-rd",
@@ -3420,6 +3420,15 @@ window.PLACES_CN = [
     "caption": "Snaps of my current favourite city in Asia — Shanghai!\n\nRush hours in Shanghai — overlooking Shanghai’s iconic skyscrapers.\n\n1000 Trees — the most captivating architecture in the city.\n\nThe ladder of happiness — steps towards a sip of coffee.\n\nCan’t stand for Mstand!\n\nShanghai’s Iconic Custom Building.\n\nThe Louis — cemented Shanghai’s honour as the Paris of the East.\n\nPeople of Shanghai\n\nBlue Bottle Shanghai Edition.",
     "match": "slide",
     "slide": 6
+   },
+   {
+    "url": "https://www.instagram.com/shanghaieye/p/Dd1lRy7TpdU/",
+    "username": "shanghaieye",
+    "profile_url": "https://www.instagram.com/shanghaieye/",
+    "kind": "p",
+    "image": "images/Dd1lRy7TpdU.jpg",
+    "caption": "Obsessed with this pink 💞\n\n#shanghai #shanghaicity #shanghaitower #lujiazui #orientalpearltower",
+    "match": "single"
    }
   ],
   "pop": 5,
@@ -4370,9 +4379,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Bekanntes Shikumen-Ausgehviertel",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/cnmark/35128752463/",
-  "image_credit": "Markus Bahlmann · Flickr"
+  "image_credit": "Markus Bahlmann · Flickr",
+  "when": "both"
  },
  {
   "id": "cn-yu-garden",
@@ -4448,9 +4457,9 @@ window.PLACES_CN = [
   ],
   "pop": 5,
   "pop_reason": "Klassischer Garten, Top-Sehenswürdigkeit",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/cnmark/49017044256/",
-  "image_credit": "Markus Bahlmann · Flickr"
+  "image_credit": "Markus Bahlmann · Flickr",
+  "when": "day"
  },
  {
   "id": "cn-wangxian-valley",
@@ -5138,9 +5147,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Spektakulärster Rundblick auf Li-Fluss-Schleife und Karstkegel",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/40445797@N02/31109442288/",
-  "image_credit": "Gregory Michiels Photography · Flickr"
+  "image_credit": "Gregory Michiels Photography · Flickr",
+  "when": "day"
  },
  {
   "id": "claude-cn-20-yuan-schein-motiv-yellow-cloth-shoal",
@@ -5393,9 +5402,9 @@ window.PLACES_CN = [
   ],
   "pop": 3,
   "pop_reason": "Per Seilbahn erreichbarer Gipfelblick über die Jinkeng-Terrassen",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/melissaenderle/48890946516/",
-  "image_credit": "Melissa Enderle · Flickr"
+  "image_credit": "Melissa Enderle · Flickr",
+  "when": "day"
  },
  {
   "id": "claude-cn-zhanli-dong-village",
@@ -7216,9 +7225,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Glasboden-Skybridge 250 m über dem Zusammenfluss von Jangtse und Jialing",
-  "when": "both",
   "image_page": "https://www.flickr.com/photos/fran001/53226848412/",
-  "image_credit": "Francisco Anzola · Flickr"
+  "image_credit": "Francisco Anzola · Flickr",
+  "when": "both"
  },
  {
   "id": "claude-cn-dongshuimen-bridge",
@@ -7321,9 +7330,9 @@ window.PLACES_CN = [
   ],
   "pop": 3,
   "pop_reason": "Restaurierte Kolonialbauten mit Jangtse-Skyline-Blick",
-  "when": "night",
   "image_page": "https://www.flickr.com/photos/10877508@N04/55220425908/",
-  "image_credit": "Mike Turner-Jones 摄影 · Flickr"
+  "image_credit": "Mike Turner-Jones 摄影 · Flickr",
+  "when": "both"
  },
  {
   "id": "claude-cn-huangjueping-graffiti-street",
@@ -7401,9 +7410,9 @@ window.PLACES_CN = [
   ],
   "pop": 3,
   "pop_reason": "Komplett bemalte Wohnblocks am Sichuan Fine Arts Institute",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/triplefivedrew/6613022935/",
-  "image_credit": "triplefivedrew · Flickr"
+  "image_credit": "triplefivedrew · Flickr",
+  "when": "both"
  },
  {
   "id": "claude-cn-zhapu-road-bridge-suzhou-creek",
@@ -7506,9 +7515,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Runde Fußgängerbrücke mit Pearl Tower und Verkehrsströmen",
-  "when": "both",
   "image_page": "https://www.flickr.com/photos/cnmark/29702388160/",
-  "image_credit": "Markus Bahlmann · Flickr"
+  "image_credit": "Markus Bahlmann · Flickr",
+  "when": "both"
  },
  {
   "id": "claude-cn-jin-mao-tower-atrium",
@@ -7586,9 +7595,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Spiralförmiges 33-stöckiges Hotel-Atrium, ikonisches Abstrakt-Motiv",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/ztransmissions/343994799/",
-  "image_credit": "zTransmissions · Flickr"
+  "image_credit": "zTransmissions · Flickr",
+  "when": "day"
  },
  {
   "id": "claude-cn-columbia-circle",
@@ -7666,9 +7675,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "1920er Country Club mit Pool, Hudec-Villa und OMA-Umbau",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/90890306@N02/55570384861/",
-  "image_credit": "xjazzdummy · Flickr"
+  "image_credit": "xjazzdummy · Flickr",
+  "when": "day"
  },
  {
   "id": "claude-cn-west-bund-long-museum",
