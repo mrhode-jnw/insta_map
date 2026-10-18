@@ -29,8 +29,9 @@
  },
  {
   "id": "tglgz",
-  "name": "Guizhou 19.–22.10.: Zhanli · Huanggang (Nacht) · Dali (Nacht) · Maliao · Langde (Nacht) · Fanjingshan · Fenghuang (Nacht)",
+  "name": "Guizhou 19.–22.10.: Longji (Ping'an) · Zhanli · Huanggang (Nacht) · Dali (Nacht) · Maliao · Langde (Nacht) · Fanjingshan · Fenghuang (Nacht)",
   "stops": [
+   "cn-ping-an-village",
    "claude-cn-zhanli-dong-village",
    "claude-cn-huanggang-dong-village",
    "claude-cn-dali-dong-village",
