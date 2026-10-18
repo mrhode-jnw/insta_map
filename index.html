@@ -494,7 +494,7 @@
   #wkBody .wsrc { font-size: 11.5px; color: var(--muted); margin-top: 8px; word-break: break-all; } #wkBody .wsrc a { color: var(--muted); }
   .wnum { width: 26px; height: 26px; border-radius: 50%; background: #7c3aed; color: #fff; font: 700 13px/26px system-ui, sans-serif; text-align: center; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
   #walkPill { position: fixed; top: calc(env(safe-area-inset-top) + 74px); left: 50%; transform: translateX(-50%); z-index: 1200; padding: 7px 14px; border-radius: 999px; border: 0;
-    background: #7c3aed; color: #fff; font-weight: 600; font-size: 13.5px; box-shadow: 0 2px 10px rgba(0,0,0,.3); cursor: pointer; white-space: nowrap; }
+    background: #7c3aed; color: #fff; font-weight: 600; font-size: 13.5px; box-shadow: 0 2px 10px rgba(0,0,0,.3); cursor: pointer; white-space: nowrap; max-width: calc(100vw - 32px); overflow: hidden; text-overflow: ellipsis; }
   #walkPill[hidden] { display: none; }
   #tl { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
   #tl[hidden] { display: none; }
@@ -2603,7 +2603,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       .addTo(walkLayer));
     if (!map.hasLayer(walkLayer)) walkLayer.addTo(map);
     walkShown = id;
-    $("#walkPill").textContent = `${w.title} · ${w.stops.length} Stationen · ${w.km} km  ✕`; $("#walkPill").hidden = false;
+    $("#walkPill").textContent = `Rundgang ${w.place} · ${w.stops.length} Stationen · ${String(w.km).replace(".", ",")} km  ✕`; $("#walkPill").hidden = false;
     $("#wk").hidden = true; dockSync();
     if (mobile()) setSnap("peek");
     if (stopIdx != null && w.stops[stopIdx]) { map.setView([w.stops[stopIdx].lat, w.stops[stopIdx].lng], 18); setTimeout(() => mk[stopIdx].openPopup(), 350); }
@@ -2620,9 +2620,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <h3>${esc(w.title)}</h3>
       <div class="wmeta">${esc([w.area, w.when, w.duration, w.km ? `${String(w.km).replace(".", ",")} km` : "", `${w.stops.length} Stationen`].filter(Boolean).join(" · "))}</div>
       ${w.intro ? `<p class="wintro">${esc(w.intro)}</p>` : ""}
+      ${w.stops.filter(st => st.approx).length > w.stops.length / 2 ? `<div class="wmeta" style="color:#92400e">Das Dorf ist auf keiner Karte erfasst – Stationen nach Satellitenbild und Dorfbeschreibungen gesetzt, vor Ort können sie 50–150 m abweichen. Gestrichelt = Luftlinie.</div>` : ""}
       <div class="wbtns"><button data-wshow="${esc(w.id)}">Auf der Karte zeigen</button>${walkShown === w.id ? `<button class="sec" data-whide="1">Ausblenden</button>` : ""}</div>
       ${(w.tips || []).length ? `<details><summary>Tipps</summary><ul class="wtips">${w.tips.map(t => `<li>${esc(t)}</li>`).join("")}</ul></details>` : ""}
-      <details open><summary>Stationen</summary><ol class="wstops">${w.stops.map((st, i) => `<li><button data-wstop="${esc(w.id)}" data-i="${i}">Karte</button><b>${esc(st.name)}</b><span class="cn">${esc(st.name_cn || "")}</span>${st.approx ? `<span class="ap">Position ungefähr</span>` : ""}<br>${esc(st.text || "")}</li>`).join("")}</ol></details>
+      <details open><summary>Stationen</summary><ol class="wstops">${w.stops.map((st, i) => `<li><button data-wstop="${esc(w.id)}" data-i="${i}">Karte</button><b>${esc(st.name)}</b><span class="cn">${esc(st.name_cn || "")}</span>${st.approx && w.stops.filter(x => x.approx).length <= w.stops.length / 2 ? `<span class="ap">Position ungefähr</span>` : ""}<br>${esc(st.text || "")}</li>`).join("")}</ol></details>
       ${(w.sources || []).length ? `<div class="wsrc">Quellen: ${w.sources.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 40))}</a>`).join(" · ")}</div>` : ""}
     </div>`).join("") || `<p style="color:var(--muted);padding:12px">Noch keine Rundgänge.</p>`;
     $("#wkBody").querySelectorAll("[data-wshow]").forEach(b => b.onclick = () => showWalk(b.dataset.wshow));
