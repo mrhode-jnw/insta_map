@@ -164,12 +164,18 @@ def located(lid, status, rest):
     res = {"status": status, "id": lid, "date": datetime.date.today().isoformat()}
     if status == "found":
         res["spot"], rest = rest[0], rest[1:]
+        # Spot gab es schon vor diesem Lauf (im letzten Commit) → Foto dort ergänzt, sonst neuer Spot
+        head = "".join(subprocess.run(["git", "-C", ROOT, "show", f"HEAD:{f}"], capture_output=True, text=True).stdout
+                       for f in ("data/china.js", "data/places.js"))
+        res["mode"] = "photo" if f'"id": "{res["spot"]}"' in head else "new"
     res["note"] = " ".join(rest)
     d = bp.load_json(LOCATE_SRC, {})
     d[x["image"]] = res
     bp.save_json(LOCATE_SRC, d)
     write_locate_js(d)
     done(lid, (res.get("spot") or "nicht gefunden"))
+    import build_timeline  # Ergebnis gleich in der Timeline zeigen
+    build_timeline.main()
 
 
 def write_locate_js(d=None):
