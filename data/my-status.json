@@ -527,5 +527,8 @@
  },
  "cn-dongchangzhi-rd-lushun-rd": {
   "prio": "mittel"
+ },
+ "claude-cn-zhujiajiao-water-town": {
+  "prio": "gering"
  }
 }
