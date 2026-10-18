@@ -3362,16 +3362,6 @@ window.PLACES_CN = [
     "slide": 1
    },
    {
-    "url": "https://www.instagram.com/beautifuldestinations/p/Dcowt_bjmQ4/",
-    "username": "beautifuldestinations",
-    "profile_url": "https://www.instagram.com/beautifuldestinations/",
-    "kind": "p",
-    "image": null,
-    "caption": "China can look like several different worlds in one country 🇨🇳\n\nWangxian Valley is a cliffside village built into the mountains of Jiangxi, while Shanghai is known for the futuristic skyline of Lujiazui across from the historic Bund. Further south, Shenzhen is filled with striking modern architecture, and Guangzhou’s skyline is best seen around Canton Tower and the Pearl River after dark.\n\nA few tips if you’re planning a trip:\n\n• Pair Shanghai with Wangxian Valley, travelling to nearby Shangrao by high-speed train before continuing by road\n• Visit Wangxian Valley later in the day to see the bu",
-    "match": "cover",
-    "generic": true
-   },
-   {
     "url": "https://www.instagram.com/tchob_tchob/p/DUhpvJVkzt2/?img_index=4",
     "username": "tchob_tchob",
     "profile_url": "https://www.instagram.com/tchob_tchob/",
@@ -3429,6 +3419,15 @@ window.PLACES_CN = [
     "image": "images/Dd1lRy7TpdU.jpg",
     "caption": "Obsessed with this pink 💞\n\n#shanghai #shanghaicity #shanghaitower #lujiazui #orientalpearltower",
     "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=3",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=3",
+    "kind": "photo",
+    "image": "images/DdOZ9rGkiHe_3.jpg",
+    "caption": "",
+    "credit": "@pat_kay · Instagram"
    }
   ],
   "pop": 5,
@@ -3976,6 +3975,15 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=4",
     "kind": "photo",
     "image": "images/DdOZ9rGkiHe_4.jpg",
+    "caption": "",
+    "credit": "@pat_kay · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=19",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=19",
+    "kind": "photo",
+    "image": "images/DdOZ9rGkiHe_19.jpg",
     "caption": "",
     "credit": "@pat_kay · Instagram"
    }
