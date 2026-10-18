@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 18.10.2026 13:28 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 18.10.2026 13:34 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -238,23 +238,25 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚗 Auto · ca. 10 Min. · 7 km
 - 🏨 Unterkunft: **The Lixury Hotel Chongqing**
 
-### Mi 28.10. – Chongqing → Shanghai · Bund am Abend _(Entwurf)_
+### Mi 28.10. – Chongqing → Shanghai (Flug CA4541) · Bund bei Nacht _(Entwurf)_
 
 - **6:30** 🏨 Unterkunft: **The Lixury Hotel Chongqing**
   - ↓ 🚗 Auto · ca. 5 Min. · 2 km
 - **6:45–8:00** ◻︎ optional: **Chaotianmen 朝天门** (Yuzhong, Chongqing) · Licht: Sonnenaufgang 7:03 über dem Zusammenfluss – Landspitze mit Raffles City im Morgenlicht.
   - ↓ 🚗 Auto · ca. 10 Min. · 4 km
 - **8:30–9:30** ◻︎ optional: **Shibati Old Steps 十八梯** (Yuzhong, Chongqing) · Licht: Morgen – Treppen noch leer
-- **~10:30** 🏨 Check-out: **The Lixury Hotel Chongqing**
-- ✈️ **Weiterreise nach Shanghai – noch offen** – Flug oder Zug ist noch nicht eingetragen. Zeiten unten setzen Ankunft im Hotel bis ca. 16 Uhr voraus.
-- **~16:00** 🏨 Check-in: **Hyatt on the Bund**
+- **~14:45** 🏨 Check-out: **The Lixury Hotel Chongqing**
+  - ↓ 🚗 Auto · ca. 25 Min. · 24 km (Taxi/DiDi zum Flughafen Jiangbei (T3, Air China))
+- **17:25** ✈️ **Flughafen Chongqing Jiangbei (CKG) – Flug CA4541 ✓ gebucht** – Economy, nach Shanghai Hongqiao (SHA). Spätestens 1 h 30 vorher am Schalter (Inlandsflug, Pass).
+  - ↓ ✈️ Flug · ca. 135 Min. (CA4541, Ankunft ca. 19:40 (Zeit in der Buchung prüfen))
+- **~19:40** ✈️ **Shanghai Hongqiao (SHA)** – Taxi/DiDi zum Hotel (ca. 45 Min.).
+  - ↓ 🚗 Auto · ca. 20 Min. · 18 km
+- **~20:45** 🏨 Check-in: **Hyatt on the Bund**
   - ↓ 🚶 zu Fuß · ca. 10 Min.
-- **16:45–17:45** ◻︎ optional: **Zhapu Road Bridge – Suzhou Creek 乍浦路桥** (Hongkou/Huangpu, Shanghai) · Licht: Sonnenuntergang 17:08 → blaue Stunde – Vom Westgeländer Richtung Osten.
+- **21:00–21:55** ◻︎ optional: **The Bund & Lujiazui 外滩 · 陆家嘴** (Huangpu, Shanghai) · Licht: Nacht – Skyline-Beleuchtung mittwochs meist nur bis 22 Uhr – Direkt nach dem Check-in, die Lichter gehen um 22 Uhr aus.
+  - ↓ 🚶 zu Fuß · ca. 10 Min.
+- **22:05–22:30** ◻︎ optional: **Waibaidu Bridge & Suzhou Creek 外白渡桥** (Huangpu, Shanghai) · Licht: Nacht – Gleich beim Hotel.
   - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **17:50–18:35** ◻︎ optional: **Waibaidu Bridge & Suzhou Creek 外白渡桥** (Huangpu, Shanghai) · Licht: blaue Stunde
-  - ↓ 🚶 zu Fuß · ca. 10 Min.
-- **18:45–19:45** ◻︎ optional: **The Bund & Lujiazui 外滩 · 陆家嘴** (Huangpu, Shanghai) · Licht: Nacht – Skyline beleuchtet (meist bis 22 Uhr)
-  - ↓ 🚶 zu Fuß · ca. 15 Min.
 - 🏨 Unterkunft: **Hyatt on the Bund**
 
 ### Do 29.10. – Shanghai: North Bund, Altstadt, Lujiazui _(Entwurf)_
@@ -350,6 +352,5 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **Guizhou 19.–22.10.: Longji (Ping'an) · Zhanli · Huanggang (Nacht) · Dali (Nacht) · Maliao · Langde (Nacht) · Fanjingshan · Fenghuang (Nacht)**: Ping'an Village 平安寨 → Zhanli Dong Village 占里侗寨 → Huanggang Dong Village 黄岗侗寨 → Dali Dong Village 大利侗寨 → Maliao Silversmith Village 麻料村 → Langde Upper Miao Village 郎德上寨 → Fanjingshan 梵净山 → Fenghuang Ancient Town 凤凰古城
 - **Sa 24.10. (Vorschlag) Sonnenaufgang Yuanjiajie: Mihun Tai · Hallelujah Mountain · First Bridge – abends Tianzi: Helong Park · Imperial Brush · Sonnenuntergang Xihai**: Mihun Tai (Enchanting Terrace) 迷魂台 → Avatar Hallelujah Mountain 乾坤柱 → First Bridge Under Heaven 天下第一桥 → Helong Park 贺龙公园 → Imperial Brush Peaks 御笔峰 → Xihai Stone Forest 西海峰林
 - **So 25.10. (Vorschlag) Sonnenaufgang Yangjiajie Tianbo Mansion – mittags Bailong-Lift · Golden Whip Stream**: Yangjiajie Tianbo Mansion 天波府 → Bailong Elevator 百龙天梯 → Golden Whip Stream 金鞭溪
-- **Mo 26.10. (Vorschlag) Sonnenaufgang Mihun Tai – optional Tianmen Mountain vor der Weiterreise**: Mihun Tai (Enchanting Terrace) 迷魂台 → Tianmen Cave & 999 Steps 天门洞 → Coiling Dragon Cliff Glass Skywalk 盘龙崖玻璃栈道
-- **Zhangjiajie 24.–26.10. – Vorschlag Claude (Übernachtung YOLO Resort im Park)**: Mihun Tai (Enchanting Terrace) 迷魂台 → Avatar Hallelujah Mountain 乾坤柱 → First Bridge Under Heaven 天下第一桥 → Helong Park 贺龙公园 → Imperial Brush Peaks 御笔峰 → Xihai Stone Forest 西海峰林 → Yangjiajie Tianbo Mansion 天波府 → Bailong Elevator 百龙天梯 → Golden Whip Stream 金鞭溪 → Tianmen Cave & 999 Steps 天门洞 → Coiling Dragon Cliff Glass Skywalk 盘龙崖玻璃栈道
+- **Zhangjiajie 24.–26.10. – Vorschlag Claude (Übernachtung YOLO Resort im Park)**: Mihun Tai (Enchanting Terrace) 迷魂台 → Avatar Hallelujah Mountain 乾坤柱 → First Bridge Under Heaven 天下第一桥 → Helong Park 贺龙公园 → Imperial Brush Peaks 御笔峰 → Xihai Stone Forest 西海峰林 → Yangjiajie Tianbo Mansion 天波府 → Bailong Elevator 百龙天梯 → Golden Whip Stream 金鞭溪
 

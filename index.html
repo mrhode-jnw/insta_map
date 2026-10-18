@@ -2624,7 +2624,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   const spotOf = id => places.find(p => p.id === id);
   const fmtMin = m => m >= 60 ? `${Math.floor(m / 60)} h${m % 60 ? " " + String(m % 60).padStart(2, "0") : ""}` : `${m} Min.`;
-  const MODE = { car: "🚗", walk: "🚶", train: "🚄", shuttle: "🚡" };
+  const MODE = { car: "🚗", walk: "🚶", train: "🚄", shuttle: "🚡", flight: "✈️", boat: "⛴" };
   const LIGHT_ICON = { dawn: "🌌", sunrise: "🌅", golden: "🌇", day: "☀️", midday: "🕛", indoor: "🪟", sunset: "🌇", blue: "🌃", night: "🌙" };
   const SVGI = (d, c) => `<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="${c}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
   const SVG_RISE = SVGI('<path d="M5 18a7 7 0 0 1 14 0M2 18h20M12 3v6M9 6l3-3 3 3"/>', "#f59e0b");
@@ -2731,7 +2731,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const a = [...items.slice(0, i)].reverse().find(x => x.lat), b = items.slice(i + 1).find(x => x.lat); if (!a || !b) return;
       const path = it.path || [[a.lat, a.lng], [b.lat, b.lng]];
       parts.push(L.polyline(path, it.mode === "car" ? { color: "#0f766e", weight: 3, opacity: .75, interactive: false }
-        : { color: it.mode === "train" ? "#475569" : "#0f766e", weight: 3, opacity: .75, dashArray: "3 8", interactive: false }));
+        : { color: it.mode === "train" || it.mode === "flight" ? "#475569" : "#0f766e", weight: 3, opacity: .75, dashArray: "3 8", interactive: false }));
       const mid = path[Math.floor(path.length / 2)];
       if (it.min) parts.push(L.marker(mid, { interactive: false, zIndexOffset: 1500, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
         html: `<div class="leg-time" style="background:#0f766e">${MODE[it.mode] || ""} ${fmtMin(it.min)}</div>` }) }));
@@ -2822,7 +2822,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "76 · Instagram-Links aufklappbar";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "77 · Flug CA4541";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")

@@ -1293,7 +1293,7 @@
   },
   {
    "date": "2026-10-28",
-   "title": "Chongqing → Shanghai · Bund am Abend",
+   "title": "Chongqing → Shanghai (Flug CA4541) · Bund bei Nacht",
    "status": "Entwurf",
    "items": [
     {
@@ -1332,19 +1332,49 @@
     {
      "type": "hotel",
      "name": "The Lixury Hotel Chongqing",
-     "t": "~10:30",
-     "label": "Check-out"
+     "t": "~14:45",
+     "label": "Check-out",
+     "text": "Bis dahin frei – Gepäck im Hotel lassen."
+    },
+    {
+     "type": "move",
+     "mode": "car",
+     "text": "Taxi/DiDi zum Flughafen Jiangbei (T3, Air China)"
     },
     {
      "type": "info",
+     "t": "17:25",
      "icon": "✈️",
-     "title": "Weiterreise nach Shanghai – noch offen",
-     "text": "Flug oder Zug ist noch nicht eingetragen. Zeiten unten setzen Ankunft im Hotel bis ca. 16 Uhr voraus."
+     "title": "Flughafen Chongqing Jiangbei (CKG) – Flug CA4541 ✓ gebucht",
+     "plan": true,
+     "lat": 29.7192,
+     "lng": 106.6417,
+     "text": "Economy, nach Shanghai Hongqiao (SHA). Spätestens 1 h 30 vorher am Schalter (Inlandsflug, Pass)."
+    },
+    {
+     "type": "move",
+     "mode": "flight",
+     "min": 135,
+     "text": "CA4541, Ankunft ca. 19:40 (Zeit in der Buchung prüfen)"
+    },
+    {
+     "type": "info",
+     "t": "~19:40",
+     "icon": "✈️",
+     "title": "Shanghai Hongqiao (SHA)",
+     "plan": true,
+     "lat": 31.1979,
+     "lng": 121.3363,
+     "text": "Taxi/DiDi zum Hotel (ca. 45 Min.)."
+    },
+    {
+     "type": "move",
+     "mode": "car"
     },
     {
      "type": "hotel",
      "name": "Hyatt on the Bund",
-     "t": "~16:00",
+     "t": "~20:45",
      "label": "Check-in"
     },
     {
@@ -1354,27 +1384,12 @@
     },
     {
      "type": "stop",
-     "t": "16:45–17:45",
-     "spot": "claude-cn-zhapu-road-bridge-suzhou-creek",
+     "t": "21:00–21:55",
+     "spot": "cn-the-bund-lujiazui",
      "opt": true,
-     "light": "sunset",
-     "lightText": "Sonnenuntergang 17:08 → blaue Stunde",
-     "text": "Vom Westgeländer Richtung Osten.",
-     "sel": true
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 5
-    },
-    {
-     "type": "stop",
-     "t": "17:50–18:35",
-     "spot": "cn-waibaidu-bridge-suzhou-creek",
-     "opt": true,
-     "light": "blue",
-     "lightText": "blaue Stunde",
-     "text": "",
+     "light": "night",
+     "lightText": "Nacht – Skyline-Beleuchtung mittwochs meist nur bis 22 Uhr",
+     "text": "Direkt nach dem Check-in, die Lichter gehen um 22 Uhr aus.",
      "sel": true
     },
     {
@@ -1384,18 +1399,18 @@
     },
     {
      "type": "stop",
-     "t": "18:45–19:45",
-     "spot": "cn-the-bund-lujiazui",
+     "t": "22:05–22:30",
+     "spot": "cn-waibaidu-bridge-suzhou-creek",
      "opt": true,
      "light": "night",
-     "lightText": "Nacht – Skyline beleuchtet (meist bis 22 Uhr)",
-     "text": "",
+     "lightText": "Nacht",
+     "text": "Gleich beim Hotel.",
      "sel": true
     },
     {
      "type": "move",
      "mode": "walk",
-     "min": 15
+     "min": 5
     },
     {
      "type": "hotel",
