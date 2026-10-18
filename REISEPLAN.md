@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 18.10.2026 10:34 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 18.10.2026 13:14 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -112,7 +112,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚗 Auto · ca. 65 Min. · 69 km
 - **11:35–12:00** ◻︎ optional: **Zengchong Drum Tower 增冲鼓楼** (Congjiang (Wangdong), Guizhou) · Licht: Mittag – nur Beleg-Foto – Ältester Dong-Trommelturm (1672), kurz vom Ufer gegenüber.
   - ↓ 🚗 Auto · ca. 65 Min. · 37 km
-- **13:30–16:30** 🛏 **Ankommen, Pause**
+- **~13:30** 🏨 Check-in – ihr seid schon im Dorf: **See you on the well · Dali Dongzhai The Well House**
 - **16:30–18:10** ✅ **Dali Dong Village 大利侗寨** (Rongjiang (Zaima), Guizhou) · Licht: goldene Stunde – Dachmeer vom alten Steinplattenweg am Hang.
 - **18:10–18:40** ✅ **Dali Dong Village 大利侗寨** (Rongjiang (Zaima), Guizhou) · Licht: blaue Stunde – Beleuchtete Wind-und-Regen-Brücken über dem Bach, Langzeitbelichtung.
 - 🏨 Unterkunft: **See you on the well · Dali Dongzhai The Well House**
@@ -127,7 +127,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **14:30** 🏨 Check-in, Pause: **Qixi Homestay**
 - **16:30–17:45** ✅ **Langde Upper Miao Village 郎德上寨** (Leishan (Langde), Guizhou) · Licht: goldene Stunde – Überblick von der Terrasse, die überdachte Brücke am Eingang im Abendlicht.
   - ↓ 🚗 Auto · ca. 35 Min. · 22 km
-- **18:10–19:10** ◻︎ optional: **Xijiang Qianhu Miao Village 西江千户苗寨** (Leishan, Guizhou) · Licht: blaue Stunde – Vom Aussichtspunkt oberhalb: das Lichtermeer der tausend Häuser.
+- **18:20–19:20** ◻︎ optional: **Xijiang Qianhu Miao Village 西江千户苗寨** (Leishan, Guizhou) · Licht: blaue Stunde – Vom Aussichtspunkt oberhalb: das Lichtermeer der tausend Häuser.
   - ↓ 🚗 Auto · ca. 35 Min. · 22 km
 - **~19:45** 🏨 Unterkunft: **Qixi Homestay**
 
@@ -148,7 +148,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - 🏨 Unterkunft: **Mount Villa by T Residence**
 - 🔀 ◻︎ optional: **Plan B bei Nebel am Gipfel (Entscheidung 21.10. abends)** – Langde morgens im Nebel fotografieren → Auto nach Kaili Süd (40 Min.) → Zug nach Fenghuang Gucheng → abends Fenghuang. Fanjingshan-Tickets stornieren.
 
-### Fr 23.10. – Fenghuang → Zhangjiajie _(Entwurf)_
+### Fr 23.10. – Fenghuang → Zhangjiajie · Abend in Yuanjiajie _(Entwurf)_
 
 - **6:15–7:45** ✅ **Fenghuang Ancient Town 凤凰古城** (Xiangxi, Hunan) · Licht: Sonnenaufgang 6:46, Dunst über dem Fluss – Gassen und Ufer noch leer.
 - **~11:30** 🏨 Check-out: **Mount Villa by T Residence**
@@ -158,9 +158,53 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **13:42** 🚄 **Zhangjiajie West** – Vorbestelltes Auto für ca. 13:50.
   - ↓ 🚗 Auto · ca. 75 Min. · 60 km
 - **~15:10** 🏨 Check-in: **Zhangjiajie YOLO Resort**
+  - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus bzw. zu Fuß (ca. 3 km) – Rückweg mit Stirnlampe)
+- **16:45–18:15** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Sonnenuntergang 18:00 – Seitenlicht auf den Felssäulen – Erster Blick auf Yuanjiajie, entspannt nach der Anreise. Danach Abendessen im Resort.
+  - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus bzw. zu Fuß zurück)
+- 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
+
+### Sa 24.10. – Zhangjiajie: Yuanjiajie früh · Tianzi-Berg zum Sonnenuntergang _(Entwurf)_
+
+- **5:45** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
+  - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (Parkbus bzw. zu Fuß (ca. 3 km, Stirnlampe))
+- **6:15–7:30** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Sonnenaufgang 6:45 – bei Nebel nach Regen am stärksten – Stativ ans Geländer, 70-200 für einzelne Säulen.
+  - ↓ 🚶 zu Fuß · ca. 10 Min.
+- **7:40–8:25** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Morgenlicht – Vor den Gruppen aus dem Bailong-Lift (ab ca. 9 Uhr).
+  - ↓ 🚶 zu Fuß · ca. 10 Min.
+- **8:35–9:20** ◻︎ optional: **First Bridge Under Heaven 天下第一桥** (Wulingyuan, Hunan) · Licht: Vormittag – Vom offiziellen Aussichtspunkt seitlich.
+  - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (Parkbus zurück)
+- **~9:40** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
+  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Parkbus zum Tianzi-Berg (Helong Park))
+- **15:30–16:15** ◻︎ optional: **Helong Park 贺龙公园** (Tianzi Mountain, Hunan) · Licht: Nachmittag – Ausgangspunkt der Aussichtspunkte.
+  - ↓ 🚶 zu Fuß · ca. 10 Min.
+- **16:25–17:10** ◻︎ optional: **Imperial Brush Peaks 御笔峰** (Tianzi Mountain, Hunan) · Licht: goldene Stunde – Streiflicht – 70-200, Felsnadeln isolieren.
+  - ↓ 🚶 zu Fuß · ca. 15 Min.
+- **17:25–18:30** ◻︎ optional: **Xihai Stone Forest 西海峰林** (Tianzi Mountain, Hunan) · Licht: Sonnenuntergang 18:00 – Weit mit dem 16-35. Vorher die Zeit des letzten Parkbusses klären!
+  - ↓ 🚌 Bus/Seilbahn · ca. 45 Min. (letzter Parkbus zurück)
+- 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
+
+### So 25.10. – Zhangjiajie: Yangjiajie früh · Golden Whip Stream · Yuanjiajie am Abend _(Entwurf)_
+
+- **5:30** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
+  - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus/Taxi zum Yangjiajie-Eingang)
+- **6:00–8:30** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Sonnenaufgang 6:45 – Steiler Aufstieg ca. 1 Std., dafür kaum Gruppen.
+  - ↓ 🚌 Bus/Seilbahn · ca. 30 Min. (zurück)
+- **~9:00** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
+  - ↓ 🚌 Bus/Seilbahn · ca. 30 Min. (Parkbus zum Bailong-Lift)
+- **10:30–11:00** ◻︎ optional: **Bailong Elevator 百龙天梯** (Wulingyuan, Hunan) · Licht: Mittag – Architektur – Den Lift von oben entlang der Wand fotografieren.
+  - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Lift hinunter, Bus zum Talweg)
+- **11:15–14:30** ◻︎ optional: **Golden Whip Stream 金鞭溪** (Wulingyuan, Hunan) · Licht: Mittag – im schattigen Tal – Ebene Wanderung (7,5 km), Pol-Filter für Spiegelungen.
+  - ↓ 🚌 Bus/Seilbahn · ca. 60 Min. (Bus + Bailong-Lift wieder hinauf)
+- **16:45–18:15** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Sonnenuntergang 18:00 – Zweiter Versuch – je nachdem, was am Samstag besser war (oder Tianzi).
+  - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (zurück)
+- 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
 ### Mo 26.10. – Zhangjiajie → Chongqing · Abendlichter _(Entwurf)_
 
+- **6:00** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
+  - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (Parkbus bzw. zu Fuß)
+- **6:30–7:45** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Sonnenaufgang 6:46 – Letzter Blick auf die Säulen.
+  - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (zurück, Frühstück, packen)
 - **~11:00** 🏨 Check-out: **Zhangjiajie YOLO Resort**
 - ✈️ **Weiterreise nach Chongqing – noch offen** – Zug oder Flug ist noch nicht eingetragen. Zeiten unten setzen Ankunft im Hotel bis ca. 16 Uhr voraus.
 - **~16:00** 🏨 Check-in: **The Lixury Hotel Chongqing**
@@ -169,7 +213,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚗 Auto · ca. 5 Min. · 5 km
 - **18:45–20:00** ◻︎ optional: **Hongyadong 洪崖洞** (Yuzhong, Chongqing) · Licht: blaue Stunde → Nacht, Lichter ab ca. 18:30 – Vom Ufer bzw. von der Qiansimen-Brücke aus, Stativ.
   - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **20:00–20:30** ◻︎ optional: **Qiansimen Bridge 千厮门大桥** (Yuzhong, Chongqing) · Licht: Nacht – Rote Fachwerkbrücke mit Hongyadong und Skyline.
+- **20:05–20:35** ◻︎ optional: **Qiansimen Bridge 千厮门大桥** (Yuzhong, Chongqing) · Licht: Nacht – Rote Fachwerkbrücke mit Hongyadong und Skyline.
   - ↓ 🚶 zu Fuß · ca. 15 Min.
 - 🏨 Unterkunft: **The Lixury Hotel Chongqing**
 
@@ -181,7 +225,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚶 zu Fuß · ca. 15 Min.
 - **8:45–10:00** ◻︎ optional: **Eling Park Skywalk 鹅岭栈桥** (Yuzhong, Chongqing) · Licht: weiches Morgenlicht – Danach Eling Second Factory (15 Min. bergauf).
   - ↓ 🚶 zu Fuß · ca. 15 Min.
-- **10:00–11:00** ◻︎ optional: **Eling Second Factory 鹅岭二厂** (Yuzhong, Chongqing) · Licht: Vormittag – Dachterrassen des Kreativparks.
+- **10:15–11:15** ◻︎ optional: **Eling Second Factory 鹅岭二厂** (Yuzhong, Chongqing) · Licht: Vormittag – Dachterrassen des Kreativparks.
   - ↓ 🚗 Auto · ca. 10 Min. · 7 km
 - **11:30–12:30** ◻︎ optional: **Baixiangju & Yangtze River Cableway 白象居 · 长江索道** (Yuzhong, Chongqing) · Licht: Mittag – Architektur, Seilbahn zwischen den Türmen – Auf der Seilbahn über den Jangtse zum Südufer möglich.
   - ↓ 🚶 zu Fuß · ca. 10 Min.
@@ -207,9 +251,9 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚶 zu Fuß · ca. 10 Min.
 - **16:45–17:45** ◻︎ optional: **Zhapu Road Bridge – Suzhou Creek 乍浦路桥** (Hongkou/Huangpu, Shanghai) · Licht: Sonnenuntergang 17:08 → blaue Stunde – Vom Westgeländer Richtung Osten.
   - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **17:45–18:30** ◻︎ optional: **Waibaidu Bridge & Suzhou Creek 外白渡桥** (Huangpu, Shanghai) · Licht: blaue Stunde
+- **17:50–18:35** ◻︎ optional: **Waibaidu Bridge & Suzhou Creek 外白渡桥** (Huangpu, Shanghai) · Licht: blaue Stunde
   - ↓ 🚶 zu Fuß · ca. 10 Min.
-- **18:30–19:30** ◻︎ optional: **The Bund & Lujiazui 外滩 · 陆家嘴** (Huangpu, Shanghai) · Licht: Nacht – Skyline beleuchtet (meist bis 22 Uhr)
+- **18:45–19:45** ◻︎ optional: **The Bund & Lujiazui 外滩 · 陆家嘴** (Huangpu, Shanghai) · Licht: Nacht – Skyline beleuchtet (meist bis 22 Uhr)
   - ↓ 🚶 zu Fuß · ca. 15 Min.
 - 🏨 Unterkunft: **Hyatt on the Bund**
 

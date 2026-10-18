@@ -247,6 +247,9 @@
   #itinBody { flex: 1; overflow-y: auto; overflow-x: hidden; overscroll-behavior-x: none; padding: 12px 12px calc(env(safe-area-inset-bottom) + 24px); }
   .idh h2 { margin: 0 0 4px; font-size: 19px; } .idh .ist { font-size: 11.5px; padding: 2px 8px; border-radius: 999px; background: #fef3c7; color: #92400e; vertical-align: middle; margin-left: 6px; }
   .isun { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 10px; font-size: 12.5px; }
+  .isun2 { display: flex; flex-wrap: nowrap; gap: 12px; align-items: center; margin: 8px 0 10px; font: 600 13px/1 system-ui, sans-serif; overflow-x: auto; scrollbar-width: none; }
+  .isun2 span { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; }
+  .ihmini { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-radius: 12px; background: var(--soft, rgba(127,127,127,.12)); font-size: 13.5px; color: var(--muted); }
   .isun span { padding: 4px 8px; border-radius: 8px; background: rgba(148,163,184,.15); }
   .imapb { width: 100%; padding: 10px; border-radius: 12px; border: 0; background: #0f766e; color: #fff; font-size: 15px; font-weight: 600; cursor: pointer; margin-bottom: 12px; }
   .ic { display: grid; grid-template-columns: 54px 1fr; gap: 10px; margin-bottom: 10px; }
@@ -2525,6 +2528,19 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         if (!$("#itin").hidden) renderItin(); drawItin(false); })
       .catch(() => {}).finally(() => legPending.delete(k));
   }
+  // dasselbe Hotel direkt hintereinander (nichts dazwischen ausgewählt): nur einmal zeigen
+  function dedupeHotels(list) {
+    const out = [];
+    for (const it of list) {
+      if (it.type === "hotel") {
+        let j = out.length - 1; while (j >= 0 && out[j].type === "move") j--;
+        if (j >= 0 && out[j].type === "hotel" && out[j].name === it.name) { out.length = j + 1; continue; }
+      }
+      out.push(it);
+    }
+    while (out.length && out[out.length - 1].type === "move") out.pop();
+    return out;
+  }
   // Tagesablauf aus festen + eingeplanten optionalen Einträgen; nicht gewählte Vorschläge stehen (ohne Etappe) dazwischen
   function composeDay(d) {
     const chosen = chosenOf(d);
@@ -2548,8 +2564,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       pend = []; gap = false;
       active.push(it); view.push(it);
     }
-    if (!chosen.size && d.core) return { active: d.core, view };  // nichts eingeplant: Reiseplan wie gebaut (inkl. tCore-Zeiten)
-    return { active, view };
+    if (!chosen.size && d.core) return { active: dedupeHotels(d.core), view };  // nichts eingeplant: Reiseplan wie gebaut (inkl. tCore-Zeiten)
+    return { active: dedupeHotels(active), view };
   }
   const dayItems = d => composeDay(d).active;
   // Zeiten neu rechnen: Aufenthalt je Stopp (einstellbar) + Fahrzeiten; geplante Startzeiten (Licht!) werden nie vorgezogen, nur bei Bedarf nach hinten geschoben
@@ -2583,6 +2599,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const fmtMin = m => m >= 60 ? `${Math.floor(m / 60)} h${m % 60 ? " " + String(m % 60).padStart(2, "0") : ""}` : `${m} Min.`;
   const MODE = { car: "🚗", walk: "🚶", train: "🚄", shuttle: "🚡" };
   const LIGHT_ICON = { dawn: "🌌", sunrise: "🌅", golden: "🌇", day: "☀️", midday: "🕛", indoor: "🪟", sunset: "🌇", blue: "🌃", night: "🌙" };
+  const SVGI = (d, c) => `<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="${c}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+  const SVG_RISE = SVGI('<path d="M5 18a7 7 0 0 1 14 0M2 18h20M12 3v6M9 6l3-3 3 3"/>', "#f59e0b");
+  const SVG_SET = SVGI('<path d="M5 18a7 7 0 0 1 14 0M2 18h20M12 9V3M9 6l3 3 3-3"/>', "#f97316");
+  const SVG_GOLD = SVGI('<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>', "#eab308");
+  const SVG_BLUE = SVGI('<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/>', "#60a5fa");
+  const SVG_BED = SVGI('<path d="M2 4v16M2 8h18a2 2 0 0 1 2 2v10M2 17h20M6 8v9"/>', "currentColor");
   const timeHtml = t => { if (!t) return ""; const [a, b] = t.split(/[–-]/); return b ? `${esc(a)}<small>bis ${esc(b)}</small>` : esc(a); };
   const lightHtml = it => it.light ? `<div class="ilight l-${esc(it.light)}">${LIGHT_ICON[it.light] || ""} ${esc(it.lightText || "")}</div>` : "";
   let itinLb = [];  // Bildlisten je Karte für die Vollbildansicht
@@ -2635,13 +2657,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       return `<button data-day="${x.date}" class="${x.date === d.date ? "on" : ""}${x.date === today ? " today" : ""}">${w}<b>${dm.split(".")[0]}</b>${dm.split(".")[1]}.</button>`; }).join("");
     const comp = composeDay(d), items = comp.active, nOpt = d.items.filter(it => it.opt && it.type !== "move").length, nSel = chosenOf(d).size;
     $("#itinOpt").innerHTML = `<button data-o="0" class="on">★ Reiseplan${nSel ? ` (+${nSel})` : ""}</button>${nOpt ? `<button data-o="1">＋ Optionale Spots (${nSel}/${nOpt})</button>` : ""}`;
-    const first = items.find(it => it.lat) || {}, dd = dayDate(d);
-    const sun = first.lat ? [sunTime(first.lat, first.lng, dd, true), sunTime(first.lat, first.lng, dd, false), sunTime(first.lat, first.lng, dd, false, 96)] : null;
+    // Licht am Ort: Aufgang am ersten, Abendlicht am letzten Punkt des Tages
+    const first = items.find(it => it.lat) || {}, last = [...items].reverse().find(it => it.lat) || first, dd = dayDate(d);
+    const sun = first.lat ? { rise: sunTime(first.lat, first.lng, dd, true), gold: sunTime(last.lat, last.lng, dd, false, 84),
+      set: sunTime(last.lat, last.lng, dd, false), blue: sunTime(last.lat, last.lng, dd, false, 96) } : null;
     itinLb = [];
     const sch = schedule(d, items);
+    const seenH = new Set();
     const body = items.map(it => {
       if (it.type === "move") return `<div class="imove"><div></div><div>${MODE[it.mode] || "➜"} <b>${it.min ? fmtMin(it.min) : it._calc ? `<span class="calc">wird berechnet …</span>` : ""}</b>${it.km ? ` · ${it.km} km` : ""}${it.text ? ` · ${esc(it.text)}` : ""}</div></div>`;
-      const card = it.type === "stop" ? stopCard(it, d.date) : it.type === "hotel" ? hotelCard(it)
+      const again = it.type === "hotel" && seenH.has(it.name); if (it.type === "hotel") seenH.add(it.name);
+      const card = it.type === "stop" ? stopCard(it, d.date) : it.type === "hotel" ? (again ? `<div class="ihmini">${SVG_BED} ${esc(it.label || "zurück im Hotel")} · ${esc(shortName((ITIN.hotels[it.name] || {}).name || it.name))}</div>` : hotelCard(it))
         : `<div class="icard"><div class="iinfo"><span class="iic">${esc(it.icon || "•")}</span><div><h3>${esc(it.title || "")}</h3>
             ${it.plan || it.opt ? `<div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}</div>` : ""}${lightHtml(it)}${it.text ? `<p>${esc(it.text)}</p>` : ""}
             ${(it.spots || []).length ? `<div class="iact">${it.spots.map(id => spotOf(id)).filter(Boolean).map(p => `<button data-spot="${esc(p.id)}">📍 ${esc(shortName(p.name))}</button>`).join("")}</div>` : ""}</div></div></div>`;
@@ -2661,7 +2687,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const save = "";
     const on = itinShown === d.date;
     $("#itinBody").innerHTML = `<div class="idh"><h2>${dayLabel(d)} · ${esc(d.title)}${d.status && d.status !== "fest" ? `<span class="ist">${esc(d.status)}</span>` : ""}</h2>
-      ${sun ? `<div class="isun"><span>🌅 Aufgang ${sun[0]}</span><span>🌇 Untergang ${sun[1]}</span><span>🌃 blaue Stunde bis ${sun[2]}</span></div>` : ""}
+      ${sun ? `<div class="isun2"><span title="Sonnenaufgang">${SVG_RISE}${sun.rise}</span><span title="Goldene Stunde">${SVG_GOLD}${sun.gold}–${sun.set}</span><span title="Sonnenuntergang">${SVG_SET}${sun.set}</span><span title="Blaue Stunde">${SVG_BLUE}${sun.set}–${sun.blue}</span></div>` : ""}
       <button class="imapb" data-map="${d.date}">${on ? "✕ Tagesroute ausblenden" : "🗺 Tagesroute auf der Karte"}</button></div>` + save + body;
     const db = $("#itinDays").querySelector("button.on"); if (db) db.scrollIntoView({ inline: "center", block: "nearest" });
   }
@@ -2766,7 +2792,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "72 · Wetter an allen Spots";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "73 · Zhangjiajie-Plan, Lichtzeiten";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")

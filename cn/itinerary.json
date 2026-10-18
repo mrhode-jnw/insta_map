@@ -540,14 +540,10 @@
      "mode": "car"
     },
     {
-     "type": "info",
-     "t": "13:30–16:30",
-     "icon": "🛏",
-     "title": "Ankommen, Pause",
-     "light": "midday",
-     "lightText": "Mittagslicht",
-     "lat": 26.041535,
-     "lng": 108.639425
+     "type": "hotel",
+     "name": "See you on the well · Dali Dongzhai The Well House",
+     "t": "~13:30",
+     "label": "Check-in – ihr seid schon im Dorf"
     },
     {
      "type": "stop",
@@ -631,7 +627,7 @@
     },
     {
      "type": "stop",
-     "t": "18:10–19:10",
+     "t": "18:20–19:20",
      "spot": "cn-xijiang-qianhu-miao-village",
      "light": "blue",
      "lightText": "blaue Stunde",
@@ -751,7 +747,7 @@
   },
   {
    "date": "2026-10-23",
-   "title": "Fenghuang → Zhangjiajie",
+   "title": "Fenghuang → Zhangjiajie · Abend in Yuanjiajie",
    "status": "Entwurf",
    "items": [
     {
@@ -808,6 +804,245 @@
      "name": "Zhangjiajie YOLO Resort",
      "t": "~15:10",
      "label": "Check-in"
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 15,
+     "text": "Parkbus bzw. zu Fuß (ca. 3 km) – Rückweg mit Stirnlampe"
+    },
+    {
+     "type": "stop",
+     "t": "16:45–18:15",
+     "spot": "claude-cn-avatar-hallelujah-mountain",
+     "opt": true,
+     "light": "sunset",
+     "lightText": "Sonnenuntergang 18:00 – Seitenlicht auf den Felssäulen",
+     "text": "Erster Blick auf Yuanjiajie, entspannt nach der Anreise. Danach Abendessen im Resort."
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 15,
+     "text": "Parkbus bzw. zu Fuß zurück"
+    },
+    {
+     "type": "hotel",
+     "name": "Zhangjiajie YOLO Resort"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "title": "Zhangjiajie: Yuanjiajie früh · Tianzi-Berg zum Sonnenuntergang",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "Zhangjiajie YOLO Resort",
+     "t": "5:45"
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 20,
+     "text": "Parkbus bzw. zu Fuß (ca. 3 km, Stirnlampe)"
+    },
+    {
+     "type": "stop",
+     "t": "6:15–7:30",
+     "spot": "claude-cn-mihun-tai-enchanting-terrace",
+     "opt": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang 6:45 – bei Nebel nach Regen am stärksten",
+     "text": "Stativ ans Geländer, 70-200 für einzelne Säulen."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "7:40–8:25",
+     "spot": "claude-cn-avatar-hallelujah-mountain",
+     "opt": true,
+     "light": "golden",
+     "lightText": "Morgenlicht",
+     "text": "Vor den Gruppen aus dem Bailong-Lift (ab ca. 9 Uhr)."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "8:35–9:20",
+     "spot": "claude-cn-first-bridge-under-heaven",
+     "opt": true,
+     "light": "day",
+     "lightText": "Vormittag",
+     "text": "Vom offiziellen Aussichtspunkt seitlich."
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 20,
+     "text": "Parkbus zurück"
+    },
+    {
+     "type": "hotel",
+     "name": "Zhangjiajie YOLO Resort",
+     "t": "~9:40",
+     "label": "Frühstück, Pause"
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 40,
+     "text": "Parkbus zum Tianzi-Berg (Helong Park)"
+    },
+    {
+     "type": "stop",
+     "t": "15:30–16:15",
+     "spot": "claude-cn-helong-park",
+     "opt": true,
+     "light": "day",
+     "lightText": "Nachmittag",
+     "text": "Ausgangspunkt der Aussichtspunkte."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "16:25–17:10",
+     "spot": "claude-cn-imperial-brush-peaks",
+     "opt": true,
+     "light": "golden",
+     "lightText": "goldene Stunde – Streiflicht",
+     "text": "70-200, Felsnadeln isolieren."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
+    },
+    {
+     "type": "stop",
+     "t": "17:25–18:30",
+     "spot": "claude-cn-xihai-stone-forest",
+     "opt": true,
+     "light": "sunset",
+     "lightText": "Sonnenuntergang 18:00",
+     "text": "Weit mit dem 16-35. Vorher die Zeit des letzten Parkbusses klären!"
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 45,
+     "text": "letzter Parkbus zurück"
+    },
+    {
+     "type": "hotel",
+     "name": "Zhangjiajie YOLO Resort"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "title": "Zhangjiajie: Yangjiajie früh · Golden Whip Stream · Yuanjiajie am Abend",
+   "status": "Entwurf",
+   "items": [
+    {
+     "type": "hotel",
+     "name": "Zhangjiajie YOLO Resort",
+     "t": "5:30"
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 15,
+     "text": "Parkbus/Taxi zum Yangjiajie-Eingang"
+    },
+    {
+     "type": "stop",
+     "t": "6:00–8:30",
+     "spot": "claude-cn-yangjiajie-tianbo-mansion",
+     "opt": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang 6:45",
+     "text": "Steiler Aufstieg ca. 1 Std., dafür kaum Gruppen."
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 30,
+     "text": "zurück"
+    },
+    {
+     "type": "hotel",
+     "name": "Zhangjiajie YOLO Resort",
+     "t": "~9:00",
+     "label": "Frühstück, Pause"
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 30,
+     "text": "Parkbus zum Bailong-Lift"
+    },
+    {
+     "type": "stop",
+     "t": "10:30–11:00",
+     "spot": "claude-cn-bailong-elevator",
+     "opt": true,
+     "light": "midday",
+     "lightText": "Mittag – Architektur",
+     "text": "Den Lift von oben entlang der Wand fotografieren."
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 15,
+     "text": "Lift hinunter, Bus zum Talweg"
+    },
+    {
+     "type": "stop",
+     "t": "11:15–14:30",
+     "spot": "claude-cn-golden-whip-stream",
+     "opt": true,
+     "light": "midday",
+     "lightText": "Mittag – im schattigen Tal",
+     "text": "Ebene Wanderung (7,5 km), Pol-Filter für Spiegelungen."
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 60,
+     "text": "Bus + Bailong-Lift wieder hinauf"
+    },
+    {
+     "type": "stop",
+     "t": "16:45–18:15",
+     "spot": "claude-cn-mihun-tai-enchanting-terrace",
+     "opt": true,
+     "light": "sunset",
+     "lightText": "Sonnenuntergang 18:00",
+     "text": "Zweiter Versuch – je nachdem, was am Samstag besser war (oder Tianzi)."
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 20,
+     "text": "zurück"
+    },
+    {
+     "type": "hotel",
+     "name": "Zhangjiajie YOLO Resort"
     }
    ]
   },
@@ -816,6 +1051,32 @@
    "title": "Zhangjiajie → Chongqing · Abendlichter",
    "status": "Entwurf",
    "items": [
+    {
+     "type": "hotel",
+     "name": "Zhangjiajie YOLO Resort",
+     "t": "6:00"
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 20,
+     "text": "Parkbus bzw. zu Fuß"
+    },
+    {
+     "type": "stop",
+     "t": "6:30–7:45",
+     "spot": "claude-cn-mihun-tai-enchanting-terrace",
+     "opt": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang 6:46",
+     "text": "Letzter Blick auf die Säulen."
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 20,
+     "text": "zurück, Frühstück, packen"
+    },
     {
      "type": "hotel",
      "name": "Zhangjiajie YOLO Resort",
@@ -867,7 +1128,7 @@
     },
     {
      "type": "stop",
-     "t": "20:00–20:30",
+     "t": "20:05–20:35",
      "spot": "cn-qiansimen-bridge",
      "opt": true,
      "light": "night",
@@ -929,7 +1190,7 @@
     },
     {
      "type": "stop",
-     "t": "10:00–11:00",
+     "t": "10:15–11:15",
      "spot": "cn-eling-second-factory",
      "opt": true,
      "light": "day",
@@ -1080,7 +1341,7 @@
     },
     {
      "type": "stop",
-     "t": "17:45–18:30",
+     "t": "17:50–18:35",
      "spot": "cn-waibaidu-bridge-suzhou-creek",
      "opt": true,
      "light": "blue",
@@ -1094,7 +1355,7 @@
     },
     {
      "type": "stop",
-     "t": "18:30–19:30",
+     "t": "18:45–19:45",
      "spot": "cn-the-bund-lujiazui",
      "opt": true,
      "light": "night",
