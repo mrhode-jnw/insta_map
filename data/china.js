@@ -2759,9 +2759,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Beliebter Hangpfad mit Jangtse-Blick",
-  "when": "day",
   "image_page": "https://www.trip.com/moments/detail/chongqing-158-149999033/",
-  "image_credit": "I人遊記 · Trip.com"
+  "image_credit": "I人遊記 · Trip.com",
+  "when": "day"
  },
  {
   "id": "cn-huguang-guild-hall",
@@ -2837,9 +2837,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Historische Gildehallen, in vielen Guides",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/chanmelmel/51529280226/",
-  "image_credit": "MelindaChan ^..^ · Flickr"
+  "image_credit": "MelindaChan ^..^ · Flickr",
+  "when": "day"
  },
  {
   "id": "cn-zhongshan-4th-road",
@@ -2915,9 +2915,9 @@ window.PLACES_CN = [
   ],
   "pop": 3,
   "pop_reason": "Historische Allee, bei Fotografen bekannt",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/140936556@N08/40476049463/",
-  "image_credit": "J t Chen · Flickr"
+  "image_credit": "J t Chen · Flickr",
+  "when": "day"
  },
  {
   "id": "cn-eling-second-factory",
@@ -2993,9 +2993,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Kreativpark und Filmkulisse, sehr beliebt",
-  "when": "day",
   "image_page": "https://www.cnsjw.cn/?p=19198",
-  "image_credit": "cnsjw.cn (Blog)"
+  "image_credit": "cnsjw.cn (Blog)",
+  "when": "day"
  },
  {
   "id": "cn-danzishi-old-street",
@@ -3071,9 +3071,9 @@ window.PLACES_CN = [
   ],
   "pop": 3,
   "pop_reason": "Altstadtviertel mit Skyline-Blick",
-  "when": "both",
   "image_page": "https://www.trip.com/moments/detail/chongqing-158-154731558/",
-  "image_credit": "琪琪萌姐 · Trip.com"
+  "image_credit": "琪琪萌姐 · Trip.com",
+  "when": "both"
  },
  {
   "id": "cn-ciqikou-ancient-town",
@@ -3149,9 +3149,9 @@ window.PLACES_CN = [
   ],
   "pop": 5,
   "pop_reason": "Bekannteste Altstadt Chongqings",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/120589657@N03/13210247314/",
-  "image_credit": "Krid Taa · Flickr"
+  "image_credit": "Krid Taa · Flickr",
+  "when": "day"
  },
  {
   "id": "cn-sujiaba-interchange",
@@ -3209,9 +3209,9 @@ window.PLACES_CN = [
   ],
   "pop": 2,
   "pop_reason": "Autobahnkreuz-Motiv, kaum in Reiseführern",
-  "when": "both",
   "image_page": "https://www.ecns.cn/hd/2025-03-28/detail-ihepyqsm2135531.shtml",
-  "image_credit": "He Penglei / China News Service · ecns.cn"
+  "image_credit": "He Penglei / China News Service · ecns.cn",
+  "when": "both"
  },
  {
   "id": "cn-dongchangzhi-rd-lushun-rd",
@@ -3362,16 +3362,6 @@ window.PLACES_CN = [
     "slide": 1
    },
    {
-    "url": "https://www.instagram.com/beautifuldestinations/p/Dcowt_bjmQ4/",
-    "username": "beautifuldestinations",
-    "profile_url": "https://www.instagram.com/beautifuldestinations/",
-    "kind": "p",
-    "image": null,
-    "caption": "China can look like several different worlds in one country 🇨🇳\n\nWangxian Valley is a cliffside village built into the mountains of Jiangxi, while Shanghai is known for the futuristic skyline of Lujiazui across from the historic Bund. Further south, Shenzhen is filled with striking modern architecture, and Guangzhou’s skyline is best seen around Canton Tower and the Pearl River after dark.\n\nA few tips if you’re planning a trip:\n\n• Pair Shanghai with Wangxian Valley, travelling to nearby Shangrao by high-speed train before continuing by road\n• Visit Wangxian Valley later in the day to see the bu",
-    "match": "cover",
-    "generic": true
-   },
-   {
     "url": "https://www.instagram.com/tchob_tchob/p/DUhpvJVkzt2/?img_index=4",
     "username": "tchob_tchob",
     "profile_url": "https://www.instagram.com/tchob_tchob/",
@@ -3420,6 +3410,24 @@ window.PLACES_CN = [
     "caption": "Snaps of my current favourite city in Asia — Shanghai!\n\nRush hours in Shanghai — overlooking Shanghai’s iconic skyscrapers.\n\n1000 Trees — the most captivating architecture in the city.\n\nThe ladder of happiness — steps towards a sip of coffee.\n\nCan’t stand for Mstand!\n\nShanghai’s Iconic Custom Building.\n\nThe Louis — cemented Shanghai’s honour as the Paris of the East.\n\nPeople of Shanghai\n\nBlue Bottle Shanghai Edition.",
     "match": "slide",
     "slide": 6
+   },
+   {
+    "url": "https://www.instagram.com/shanghaieye/p/Dd1lRy7TpdU/",
+    "username": "shanghaieye",
+    "profile_url": "https://www.instagram.com/shanghaieye/",
+    "kind": "p",
+    "image": "images/Dd1lRy7TpdU.jpg",
+    "caption": "Obsessed with this pink 💞\n\n#shanghai #shanghaicity #shanghaitower #lujiazui #orientalpearltower",
+    "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=3",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=3",
+    "kind": "photo",
+    "image": "images/DdOZ9rGkiHe_3.jpg",
+    "caption": "",
+    "credit": "@pat_kay · Instagram"
    }
   ],
   "pop": 5,
@@ -3960,6 +3968,24 @@ window.PLACES_CN = [
     "caption": "Collecting slices of the future in the past.\n2025 的句點，落在上海。 一座被時間折疊的城市。\n前一秒是法租界的梧桐紅磚， 下一秒卻是陸家嘴的雲霄未來。 三天，五萬步。 蒐集了這些，關於魔都的切片。\n\n🔲 浦東美術館 (MAP) 那個著名的「窗」。 \n將東方明珠框成一幅極簡的畫。頂樓的露台，更是感受外灘建築群壓迫感最好的觀景台。\n\n🌆塘橋渡口 (Tangqiao Ferry Terminal) 上海最溫柔的日落觀測點。 \n避開了外灘的人潮，這裡只有適當的清幽。看著陸家嘴的燈火逐一亮起，是這座城市獨有的儀式感。\n\n🐎 上海久事國際馬術中心 建築本身就是巨大的流動雕塑。 \n那些起伏的純白線條，像是凝固的波浪，在這裡可以拍到上海最純粹的律動感。\n\n🌀華東電力設計院 隱藏在城市裡的幾何美學。 \n紅色的旋轉樓梯與光影交錯，是建築攝影控不能錯過的線條聖地。\n\n🔭太平洋新天地觀光廳 上海最美的高空窗景。 \n俯瞰整個上海的繁華紋理，重點是人真的不多，可以獨享這片天際線。\n\n 🏛️武康大樓 (Wukang Mansion) 凝固了百年的巨輪。 \n這一區的步調和台北民生社區很像，適合沒有目的的散步，空氣裡都是舊上海的優雅。\n\n🥂 Cocina19 西班牙餐廳 北外灘的私藏視角。 \n不同於外灘的擁擠，坐在戶外露台，陸家嘴的天際線就在眼前觸手可及，是與這座城",
     "match": "slide",
     "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=4",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=4",
+    "kind": "photo",
+    "image": "images/DdOZ9rGkiHe_4.jpg",
+    "caption": "",
+    "credit": "@pat_kay · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=19",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=19",
+    "kind": "photo",
+    "image": "images/DdOZ9rGkiHe_19.jpg",
+    "caption": "",
+    "credit": "@pat_kay · Instagram"
    }
   ],
   "pop": 4,
@@ -4370,9 +4396,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Bekanntes Shikumen-Ausgehviertel",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/cnmark/35128752463/",
-  "image_credit": "Markus Bahlmann · Flickr"
+  "image_credit": "Markus Bahlmann · Flickr",
+  "when": "both"
  },
  {
   "id": "cn-yu-garden",
@@ -4448,9 +4474,9 @@ window.PLACES_CN = [
   ],
   "pop": 5,
   "pop_reason": "Klassischer Garten, Top-Sehenswürdigkeit",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/cnmark/49017044256/",
-  "image_credit": "Markus Bahlmann · Flickr"
+  "image_credit": "Markus Bahlmann · Flickr",
+  "when": "day"
  },
  {
   "id": "cn-wangxian-valley",
@@ -5138,9 +5164,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Spektakulärster Rundblick auf Li-Fluss-Schleife und Karstkegel",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/40445797@N02/31109442288/",
-  "image_credit": "Gregory Michiels Photography · Flickr"
+  "image_credit": "Gregory Michiels Photography · Flickr",
+  "when": "day"
  },
  {
   "id": "claude-cn-20-yuan-schein-motiv-yellow-cloth-shoal",
@@ -5393,9 +5419,9 @@ window.PLACES_CN = [
   ],
   "pop": 3,
   "pop_reason": "Per Seilbahn erreichbarer Gipfelblick über die Jinkeng-Terrassen",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/melissaenderle/48890946516/",
-  "image_credit": "Melissa Enderle · Flickr"
+  "image_credit": "Melissa Enderle · Flickr",
+  "when": "day"
  },
  {
   "id": "claude-cn-zhanli-dong-village",
@@ -7216,9 +7242,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Glasboden-Skybridge 250 m über dem Zusammenfluss von Jangtse und Jialing",
-  "when": "both",
   "image_page": "https://www.flickr.com/photos/fran001/53226848412/",
-  "image_credit": "Francisco Anzola · Flickr"
+  "image_credit": "Francisco Anzola · Flickr",
+  "when": "both"
  },
  {
   "id": "claude-cn-dongshuimen-bridge",
@@ -7321,9 +7347,9 @@ window.PLACES_CN = [
   ],
   "pop": 3,
   "pop_reason": "Restaurierte Kolonialbauten mit Jangtse-Skyline-Blick",
-  "when": "night",
   "image_page": "https://www.flickr.com/photos/10877508@N04/55220425908/",
-  "image_credit": "Mike Turner-Jones 摄影 · Flickr"
+  "image_credit": "Mike Turner-Jones 摄影 · Flickr",
+  "when": "both"
  },
  {
   "id": "claude-cn-huangjueping-graffiti-street",
@@ -7401,9 +7427,9 @@ window.PLACES_CN = [
   ],
   "pop": 3,
   "pop_reason": "Komplett bemalte Wohnblocks am Sichuan Fine Arts Institute",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/triplefivedrew/6613022935/",
-  "image_credit": "triplefivedrew · Flickr"
+  "image_credit": "triplefivedrew · Flickr",
+  "when": "both"
  },
  {
   "id": "claude-cn-zhapu-road-bridge-suzhou-creek",
@@ -7506,9 +7532,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Runde Fußgängerbrücke mit Pearl Tower und Verkehrsströmen",
-  "when": "both",
   "image_page": "https://www.flickr.com/photos/cnmark/29702388160/",
-  "image_credit": "Markus Bahlmann · Flickr"
+  "image_credit": "Markus Bahlmann · Flickr",
+  "when": "both"
  },
  {
   "id": "claude-cn-jin-mao-tower-atrium",
@@ -7586,9 +7612,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Spiralförmiges 33-stöckiges Hotel-Atrium, ikonisches Abstrakt-Motiv",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/ztransmissions/343994799/",
-  "image_credit": "zTransmissions · Flickr"
+  "image_credit": "zTransmissions · Flickr",
+  "when": "day"
  },
  {
   "id": "claude-cn-columbia-circle",
@@ -7666,9 +7692,9 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "1920er Country Club mit Pool, Hudec-Villa und OMA-Umbau",
-  "when": "day",
   "image_page": "https://www.flickr.com/photos/90890306@N02/55570384861/",
-  "image_credit": "xjazzdummy · Flickr"
+  "image_credit": "xjazzdummy · Flickr",
+  "when": "day"
  },
  {
   "id": "claude-cn-west-bund-long-museum",
