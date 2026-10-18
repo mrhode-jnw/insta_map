@@ -566,5 +566,11 @@
  },
  "cn-xianggong-hill": {
   "done": true
+ },
+ "claude-cn-west-street-yangshuo": {
+  "done": true
+ },
+ "claude-cn-jiuxian-village": {
+  "prio": "nein"
  }
 }
