@@ -7560,12 +7560,93 @@ window.PLACES_CN = [
   "lat": 25.75851,
   "lng": 110.11984,
   "approx": false,
-  "image": "images/pingan_trip_1.jpg",
+  "image": "images/claude_gx_pingan_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [
+   {
+    "url": "https://www.flickr.com/photos/albertwirtz/43333147392/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/albertwirtz/43333147392/",
+    "kind": "photo",
+    "image": "images/claude_gx_pingan_1.jpg",
+    "caption": "",
+    "credit": "Albert Wirtz · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/karine-eye/23482927422/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/karine-eye/23482927422/",
+    "kind": "photo",
+    "image": "images/claude_gx_pingan_2.jpg",
+    "caption": "",
+    "credit": "Karine EyE · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/albertwirtz/29758304058/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/albertwirtz/29758304058/",
+    "kind": "photo",
+    "image": "images/claude_gx_pingan_3.jpg",
+    "caption": "",
+    "credit": "Albert Wirtz · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/9766401@N03/55311139930/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/9766401@N03/55311139930/",
+    "kind": "photo",
+    "image": "images/claude_gx_pingan_4.jpg",
+    "caption": "",
+    "credit": "Goldtranquil · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/53888266@N02/24661390564/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/53888266@N02/24661390564/",
+    "kind": "photo",
+    "image": "images/claude_gx_pingan_5.jpg",
+    "caption": "",
+    "credit": "roman korzh · Flickr · CC BY-NC-ND 2.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/tjetjep/24780515801/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/tjetjep/24780515801/",
+    "kind": "photo",
+    "image": "images/claude_gx_pingan_6.jpg",
+    "caption": "",
+    "credit": "T Ξ Ξ J Ξ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/albertwirtz/47421017442/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/albertwirtz/47421017442/",
+    "kind": "photo",
+    "image": "images/claude_gx_pingan_7.jpg",
+    "caption": "",
+    "credit": "Albert Wirtz · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/40445797@N02/24865067973/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/40445797@N02/24865067973/",
+    "kind": "photo",
+    "image": "images/claude_gx_pingan_8.jpg",
+    "caption": "",
+    "credit": "Gregory Michiels · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/milamai/13770654875/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/milamai/13770654875/",
+    "kind": "photo",
+    "image": "images/claude_gx_pingan_9.jpg",
+    "caption": "",
+    "credit": "MilaMai · Flickr"
+   },
    {
     "url": "https://www.trip.com/moments/poi-ping-an-village-90681/",
     "username": "",
@@ -7595,8 +7676,8 @@ window.PLACES_CN = [
    }
   ],
   "source": "Reiseplan Fotoreise 15.–19.10.",
-  "image_page": "https://www.trip.com/moments/poi-ping-an-village-90681/",
-  "image_credit": "trip.com (Nutzerfoto)",
+  "image_page": "https://www.flickr.com/photos/albertwirtz/43333147392/",
+  "image_credit": "Albert Wirtz · Flickr",
   "when": "day"
  },
  {
@@ -7610,12 +7691,93 @@ window.PLACES_CN = [
   "lat": 25.80927,
   "lng": 110.15242,
   "approx": false,
-  "image": "images/dazhai_trip_1.jpg",
+  "image": "images/claude_gx_dazhai_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
   "posts": [
+   {
+    "url": "https://www.flickr.com/photos/113619267@N03/30370620811/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/113619267@N03/30370620811/",
+    "kind": "photo",
+    "image": "images/claude_gx_dazhai_1.jpg",
+    "caption": "",
+    "credit": "Nataliia Sosna · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/thru-my-lens/194531503/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/thru-my-lens/194531503/",
+    "kind": "photo",
+    "image": "images/claude_gx_dazhai_2.jpg",
+    "caption": "",
+    "credit": "fish-bone · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/yopse/10172309546/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/yopse/10172309546/",
+    "kind": "photo",
+    "image": "images/claude_gx_dazhai_3.jpg",
+    "caption": "",
+    "credit": "Arnaud Montagard (yopse) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/39483037@N00/6645919127/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/39483037@N00/6645919127/",
+    "kind": "photo",
+    "image": "images/claude_gx_dazhai_4.jpg",
+    "caption": "",
+    "credit": "Pathos Photos · Flickr · CC BY-NC-SA 2.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/113619267@N03/30370635461/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/113619267@N03/30370635461/",
+    "kind": "photo",
+    "image": "images/claude_gx_dazhai_5.jpg",
+    "caption": "",
+    "credit": "Nataliia Sosna · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/tjetjep/25317454710/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/tjetjep/25317454710/",
+    "kind": "photo",
+    "image": "images/claude_gx_dazhai_6.jpg",
+    "caption": "",
+    "credit": "T Ξ Ξ J Ξ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/varlb001/9244796537/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/varlb001/9244796537/",
+    "kind": "photo",
+    "image": "images/claude_gx_dazhai_7.jpg",
+    "caption": "",
+    "credit": "Ben Varley · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/varlb001/12273853355/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/varlb001/12273853355/",
+    "kind": "photo",
+    "image": "images/claude_gx_dazhai_8.jpg",
+    "caption": "",
+    "credit": "Ben Varley · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/rutgervandermaar/42318055990/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/rutgervandermaar/42318055990/",
+    "kind": "photo",
+    "image": "images/claude_gx_dazhai_9.jpg",
+    "caption": "",
+    "credit": "Rutger van der Maar · Flickr · CC BY 2.0"
+   },
    {
     "url": "https://www.trip.com/moments/poi-longji-rice-terraces-jinkeng-dazhai-149266688/",
     "username": "",
@@ -7645,8 +7807,8 @@ window.PLACES_CN = [
    }
   ],
   "source": "Reiseplan Fotoreise 15.–19.10.",
-  "image_page": "https://www.trip.com/moments/poi-longji-rice-terraces-jinkeng-dazhai-149266688/",
-  "image_credit": "trip.com (Nutzerfoto)",
+  "image_page": "https://www.flickr.com/photos/113619267@N03/30370620811/",
+  "image_credit": "Nataliia Sosna · Flickr",
   "when": "day"
  },
  {
