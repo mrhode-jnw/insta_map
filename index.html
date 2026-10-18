@@ -465,6 +465,37 @@
   .xa-save:disabled { opacity: .5; }
   .pop .links .tadd { flex: 1; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #ede9fe; color: #4c1d95; font-weight: 600; cursor: pointer; }
   /* Inspiration: Bildersammlung unabhängig von Spots (data/inspiration.js) */
+  #wk { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
+  #wk[hidden] { display: none; }
+  #wk header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 14px 10px; border-bottom: 1px solid var(--line); }
+  #wk header b { font-size: 17px; } #wk header span { flex: 1; font-size: 13px; color: var(--muted); }
+  #wk header button { width: 38px; height: 34px; border-radius: 10px; border: 0; background: #111827; color: #fff; font-size: 17px; cursor: pointer; }
+  #wkFilter { display: flex; gap: 6px; overflow-x: auto; padding: 8px 12px; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+  #wkFilter:empty { display: none; }
+  #wkFilter button { flex: none; white-space: nowrap; padding: 6px 12px; border-radius: 999px; border: 0; background: var(--soft); color: var(--fg); font-size: 14px; cursor: pointer; }
+  #wkFilter button.on { background: var(--accent); color: #fff; }
+  #wkBody { flex: 1; overflow-y: auto; padding: 8px 12px calc(env(safe-area-inset-bottom) + 90px); }
+  #wkBody .wcard { border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; margin: 8px 0 14px; }
+  #wkBody .wcard h3 { margin: 0 0 2px; font-size: 17px; }
+  #wkBody .wmeta { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+  #wkBody .wintro { font-size: 14px; line-height: 1.45; margin: 0 0 10px; }
+  #wkBody .wbtns { display: flex; gap: 8px; margin: 0 0 10px; }
+  #wkBody .wbtns button { flex: 1; padding: 9px 10px; border-radius: 10px; border: 0; background: var(--accent); color: #fff; font-weight: 600; font-size: 14px; cursor: pointer; }
+  #wkBody .wbtns button.sec { background: var(--soft); color: var(--fg); }
+  #wkBody details { margin: 0 0 8px; } #wkBody summary { cursor: pointer; font-weight: 600; font-size: 14px; padding: 4px 0; }
+  #wkBody ul.wtips { margin: 4px 0 0; padding-left: 18px; font-size: 13.5px; line-height: 1.45; }
+  #wkBody ol.wstops { list-style: none; margin: 4px 0 0; padding: 0; counter-reset: ws; }
+  #wkBody ol.wstops li { position: relative; padding: 8px 0 8px 38px; border-top: 1px solid var(--line); font-size: 13.5px; line-height: 1.45; }
+  #wkBody ol.wstops li::before { counter-increment: ws; content: counter(ws); position: absolute; left: 0; top: 8px; width: 26px; height: 26px; border-radius: 50%;
+    background: #7c3aed; color: #fff; font-weight: 700; font-size: 13px; display: grid; place-items: center; }
+  #wkBody ol.wstops b { font-size: 14.5px; } #wkBody ol.wstops .cn { color: var(--muted); margin-left: 4px; }
+  #wkBody ol.wstops .ap { font-size: 11px; color: #92400e; margin-left: 4px; }
+  #wkBody ol.wstops button { float: right; margin: -2px 0 0 8px; padding: 3px 8px; border-radius: 8px; border: 0; background: var(--soft); color: var(--fg); font-size: 12px; cursor: pointer; }
+  #wkBody .wsrc { font-size: 11.5px; color: var(--muted); margin-top: 8px; word-break: break-all; } #wkBody .wsrc a { color: var(--muted); }
+  .wnum { width: 26px; height: 26px; border-radius: 50%; background: #7c3aed; color: #fff; font: 700 13px/26px system-ui, sans-serif; text-align: center; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
+  #walkPill { position: fixed; top: calc(env(safe-area-inset-top) + 74px); left: 50%; transform: translateX(-50%); z-index: 1200; padding: 7px 14px; border-radius: 999px; border: 0;
+    background: #7c3aed; color: #fff; font-weight: 600; font-size: 13.5px; box-shadow: 0 2px 10px rgba(0,0,0,.3); cursor: pointer; white-space: nowrap; }
+  #walkPill[hidden] { display: none; }
   #tl { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
   #tl[hidden] { display: none; }
   #tl header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 14px 10px; border-bottom: 1px solid var(--line); }
@@ -956,6 +987,7 @@
   <button data-d="map" class="on" aria-label="Karte" title="Karte"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></button>
   <button data-d="plan" aria-label="Reiseplan" title="Reiseplan"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></button>
   <button data-d="tours" aria-label="Touren" title="Touren"><svg viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.5"/></svg></button>
+  <button data-d="walk" aria-label="Rundgänge" title="Rundgänge – Sightseeing zu Fuß"><svg viewBox="0 0 24 24"><circle cx="13" cy="4" r="2"/><path d="M10.5 21l1.5-6 2.5 2.5V21M9 11l2.5-3.5 3 2.5 2.5 1M11.5 7.5L9 14l-3 1"/></svg></button>
   <button data-d="insp" aria-label="Inspiration" title="Inspiration"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg></button>
   <button data-d="time" aria-label="Timeline" title="Timeline – zuletzt neu &amp; ergänzt"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></button>
   <button data-d="fav" aria-label="Merkliste" title="Merkliste (Favoriten)"><svg viewBox="0 0 24 24"><path d="M12 21C5 15.5 3 12.5 3 9a4.5 4.5 0 0 1 9-1 4.5 4.5 0 0 1 9 1c0 3.5-2 6.5-9 12z"/></svg></button>
@@ -1043,6 +1075,12 @@
   <div id="inspFilter"></div>
   <div id="inspBody"></div>
 </div>
+<div id="wk" hidden role="dialog" aria-label="Rundgänge">
+  <header><b>Rundgänge</b><span id="wkSub"></span><button id="wkClose" aria-label="Schließen">✕</button></header>
+  <div id="wkFilter"></div>
+  <div id="wkBody"></div>
+</div>
+<button id="walkPill" hidden></button>
 <div id="tl" hidden role="dialog" aria-label="Timeline">
   <header><b>Timeline</b><span id="tlSub"></span><button id="tlClose" aria-label="Schließen">✕</button></header>
   <div id="tlFilter"></div>
@@ -1130,7 +1168,7 @@
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
   const v = Date.now();
-  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/insp_locate.js?v=${v}"><\/script><script src="data/timeline.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script><script src="data/added.js?v=${v}"><\/script>`);
+  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/insp_locate.js?v=${v}"><\/script><script src="data/timeline.js?v=${v}"><\/script><script src="data/walks.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script><script src="data/added.js?v=${v}"><\/script>`);
 </script>
 <script src="crypto.js"></script>
 <script>
@@ -2552,6 +2590,49 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   $("#inspBtn").onclick = e => { e.stopPropagation(); openInsp(); };
   $("#inspClose").onclick = () => { $("#insp").hidden = true; };
 
+  // ---------- Rundgänge: Sightseeing zu Fuß in Orten (data/walks.js aus cn/walks.json, tools/build_walks.py)
+  const WALKS = window.WALKS || [];
+  let wkF = "", walkShown = null;
+  const walkLayer = L.layerGroup();
+  function showWalk(id, stopIdx) {
+    const w = WALKS.find(x => x.id === id); if (!w) return;
+    walkLayer.clearLayers();
+    w.legs.forEach(l => L.polyline(l.path, { color: "#7c3aed", weight: 4, opacity: .85, interactive: false, ...(l.osm ? {} : { dashArray: "2 8" }) }).addTo(walkLayer));
+    const mk = w.stops.map((st, i) => L.marker([st.lat, st.lng], { icon: L.divIcon({ className: "", html: `<div class="wnum">${i + 1}</div>`, iconSize: [26, 26], iconAnchor: [13, 13] }), zIndexOffset: 900 })
+      .bindPopup(`<div style="max-width:250px"><b>${i + 1}. ${esc(st.name)}</b> <span style="color:#6b7280">${esc(st.name_cn || "")}</span>${st.approx ? ` <small style="color:#92400e">(Position ungefähr)</small>` : ""}<p style="margin:6px 0 0;font-size:13px;line-height:1.4">${esc(st.text || "")}</p></div>`)
+      .addTo(walkLayer));
+    if (!map.hasLayer(walkLayer)) walkLayer.addTo(map);
+    walkShown = id;
+    $("#walkPill").textContent = `${w.title} · ${w.stops.length} Stationen · ${w.km} km  ✕`; $("#walkPill").hidden = false;
+    $("#wk").hidden = true; dockSync();
+    if (mobile()) setSnap("peek");
+    if (stopIdx != null && w.stops[stopIdx]) { map.setView([w.stops[stopIdx].lat, w.stops[stopIdx].lng], 18); setTimeout(() => mk[stopIdx].openPopup(), 350); }
+    else map.fitBounds(L.latLngBounds(w.stops.map(st => [st.lat, st.lng])), { padding: [50, 50], maxZoom: 18 });
+  }
+  function hideWalk() { walkLayer.clearLayers(); map.removeLayer(walkLayer); walkShown = null; $("#walkPill").hidden = true; dockSync(); }
+  $("#walkPill").onclick = hideWalk;
+  function renderWalks() {
+    const areas = [...new Set(WALKS.map(w => w.area || ""))];
+    $("#wkFilter").innerHTML = areas.length > 1 ? `<button data-wf="" class="${wkF ? "" : "on"}">Alle</button>` + areas.map(a => `<button data-wf="${esc(a)}" class="${wkF === a ? "on" : ""}">${esc(a)}</button>`).join("") : "";
+    const list = WALKS.filter(w => !wkF || w.area === wkF);
+    $("#wkSub").textContent = `${list.length} ${list.length === 1 ? "Rundgang" : "Rundgänge"}`;
+    $("#wkBody").innerHTML = list.map(w => `<div class="wcard">
+      <h3>${esc(w.title)}</h3>
+      <div class="wmeta">${esc([w.area, w.when, w.duration, w.km ? `${String(w.km).replace(".", ",")} km` : "", `${w.stops.length} Stationen`].filter(Boolean).join(" · "))}</div>
+      ${w.intro ? `<p class="wintro">${esc(w.intro)}</p>` : ""}
+      <div class="wbtns"><button data-wshow="${esc(w.id)}">Auf der Karte zeigen</button>${walkShown === w.id ? `<button class="sec" data-whide="1">Ausblenden</button>` : ""}</div>
+      ${(w.tips || []).length ? `<details><summary>Tipps</summary><ul class="wtips">${w.tips.map(t => `<li>${esc(t)}</li>`).join("")}</ul></details>` : ""}
+      <details open><summary>Stationen</summary><ol class="wstops">${w.stops.map((st, i) => `<li><button data-wstop="${esc(w.id)}" data-i="${i}">Karte</button><b>${esc(st.name)}</b><span class="cn">${esc(st.name_cn || "")}</span>${st.approx ? `<span class="ap">Position ungefähr</span>` : ""}<br>${esc(st.text || "")}</li>`).join("")}</ol></details>
+      ${(w.sources || []).length ? `<div class="wsrc">Quellen: ${w.sources.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 40))}</a>`).join(" · ")}</div>` : ""}
+    </div>`).join("") || `<p style="color:var(--muted);padding:12px">Noch keine Rundgänge.</p>`;
+    $("#wkBody").querySelectorAll("[data-wshow]").forEach(b => b.onclick = () => showWalk(b.dataset.wshow));
+    $("#wkBody").querySelectorAll("[data-whide]").forEach(b => b.onclick = () => { hideWalk(); renderWalks(); });
+    $("#wkBody").querySelectorAll("[data-wstop]").forEach(b => b.onclick = () => showWalk(b.dataset.wstop, +b.dataset.i));
+    $("#wkFilter").querySelectorAll("[data-wf]").forEach(b => b.onclick = () => { wkF = b.dataset.wf; renderWalks(); });
+  }
+  function openWalks() { renderWalks(); $("#wk").hidden = false; }
+  $("#wkClose").onclick = () => { $("#wk").hidden = true; dockSync(); };
+
   // ---------- Timeline: zuletzt neu angelegte und ergänzte Elemente (data/timeline.js + eigene Spots + Eingang)
   let tlF = "all", tlInbox = [];
   const tlSeen = () => { try { return localStorage.getItem("tlSeen") || ""; } catch { return ""; } };
@@ -2957,7 +3038,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   });
   drawItin(false);
   // ---------- Symbolleiste unten
-  const DLG = { plan: "#itin", tours: "#toursDlg", insp: "#insp", time: "#tl", set: "#settings" };
+  const DLG = { plan: "#itin", tours: "#toursDlg", walk: "#wk", insp: "#insp", time: "#tl", set: "#settings" };
   // ---------- Einstellungen
   const SET_DEF = { theme: "auto", engine: "auto", mapColor: "app", hotels: true, pins: "normal" };
   const SETS = [
@@ -2969,7 +3050,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "85 · Foto ergänzt / neuer Spot";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "86 · Rundgänge";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -2998,6 +3079,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#dock [data-d=plan]").classList.toggle("dot", !!itinShown);
     $("#dock [data-d=tours]").classList.toggle("dot", !!activeTour);
     $("#dock [data-d=time]").classList.toggle("dot", tlUnseen());
+    $("#dock [data-d=walk]").classList.toggle("dot", !!walkShown);
   };
   $("#dock").addEventListener("click", e => {
     const b = e.target.closest("button[data-d]"); if (!b) return; e.stopPropagation();
@@ -3008,6 +3090,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     else if (d === "tours" && !wasOpen) openTours();
     else if (d === "insp" && !wasOpen) openInsp();
     else if (d === "time" && !wasOpen) openTimeline();
+    else if (d === "walk" && !wasOpen) openWalks();
     else if (d === "set" && !wasOpen) { renderSettings(); $("#settings").hidden = false; }
     else if (d === "fav") { const f = $("#fMore"); f.value = f.value === "fav" ? "" : "fav"; f.dispatchEvent(new Event("change"));
       toast(f.value === "fav" ? "❤ Nur Merkliste (Favoriten)" : "Alle Spots", 1500); if (mobile()) setSnap("half"); }
