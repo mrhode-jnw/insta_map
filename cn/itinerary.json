@@ -818,7 +818,8 @@
      "opt": true,
      "light": "sunset",
      "lightText": "Sonnenuntergang 18:00 – Seitenlicht auf den Felssäulen",
-     "text": "Erster Blick auf Yuanjiajie, entspannt nach der Anreise. Danach Abendessen im Resort."
+     "text": "Erster Blick auf Yuanjiajie, entspannt nach der Anreise. Danach Abendessen im Resort.",
+     "sel": true
     },
     {
      "type": "move",
@@ -855,7 +856,8 @@
      "opt": true,
      "light": "sunrise",
      "lightText": "Sonnenaufgang 6:45 – bei Nebel nach Regen am stärksten",
-     "text": "Stativ ans Geländer, 70-200 für einzelne Säulen."
+     "text": "Stativ ans Geländer, 70-200 für einzelne Säulen.",
+     "sel": true
     },
     {
      "type": "move",
@@ -869,7 +871,8 @@
      "opt": true,
      "light": "golden",
      "lightText": "Morgenlicht",
-     "text": "Vor den Gruppen aus dem Bailong-Lift (ab ca. 9 Uhr)."
+     "text": "Vor den Gruppen aus dem Bailong-Lift (ab ca. 9 Uhr).",
+     "sel": true
     },
     {
      "type": "move",
@@ -883,7 +886,8 @@
      "opt": true,
      "light": "day",
      "lightText": "Vormittag",
-     "text": "Vom offiziellen Aussichtspunkt seitlich."
+     "text": "Vom offiziellen Aussichtspunkt seitlich.",
+     "sel": true
     },
     {
      "type": "move",
@@ -910,7 +914,8 @@
      "opt": true,
      "light": "day",
      "lightText": "Nachmittag",
-     "text": "Ausgangspunkt der Aussichtspunkte."
+     "text": "Ausgangspunkt der Aussichtspunkte.",
+     "sel": true
     },
     {
      "type": "move",
@@ -924,7 +929,8 @@
      "opt": true,
      "light": "golden",
      "lightText": "goldene Stunde – Streiflicht",
-     "text": "70-200, Felsnadeln isolieren."
+     "text": "70-200, Felsnadeln isolieren.",
+     "sel": true
     },
     {
      "type": "move",
@@ -938,7 +944,8 @@
      "opt": true,
      "light": "sunset",
      "lightText": "Sonnenuntergang 18:00",
-     "text": "Weit mit dem 16-35. Vorher die Zeit des letzten Parkbusses klären!"
+     "text": "Weit mit dem 16-35. Vorher die Zeit des letzten Parkbusses klären!",
+     "sel": true
     },
     {
      "type": "move",
@@ -975,7 +982,8 @@
      "opt": true,
      "light": "sunrise",
      "lightText": "Sonnenaufgang 6:45",
-     "text": "Steiler Aufstieg ca. 1 Std., dafür kaum Gruppen."
+     "text": "Steiler Aufstieg ca. 1 Std., dafür kaum Gruppen.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1002,7 +1010,8 @@
      "opt": true,
      "light": "midday",
      "lightText": "Mittag – Architektur",
-     "text": "Den Lift von oben entlang der Wand fotografieren."
+     "text": "Den Lift von oben entlang der Wand fotografieren.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1017,7 +1026,8 @@
      "opt": true,
      "light": "midday",
      "lightText": "Mittag – im schattigen Tal",
-     "text": "Ebene Wanderung (7,5 km), Pol-Filter für Spiegelungen."
+     "text": "Ebene Wanderung (7,5 km), Pol-Filter für Spiegelungen.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1032,7 +1042,8 @@
      "opt": true,
      "light": "sunset",
      "lightText": "Sonnenuntergang 18:00",
-     "text": "Zweiter Versuch – je nachdem, was am Samstag besser war (oder Tianzi)."
+     "text": "Zweiter Versuch – je nachdem, was am Samstag besser war (oder Tianzi).",
+     "sel": true
     },
     {
      "type": "move",
@@ -1069,7 +1080,8 @@
      "opt": true,
      "light": "sunrise",
      "lightText": "Sonnenaufgang 6:46",
-     "text": "Letzter Blick auf die Säulen."
+     "text": "Letzter Blick auf die Säulen.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1106,7 +1118,8 @@
      "opt": true,
      "light": "sunset",
      "lightText": "Sonnenuntergang 18:12 – Blick über den Zusammenfluss",
-     "text": "Ticket vorab prüfen (kontingentiert)."
+     "text": "Ticket vorab prüfen (kontingentiert).",
+     "sel": true
     },
     {
      "type": "move",
@@ -1119,7 +1132,8 @@
      "opt": true,
      "light": "blue",
      "lightText": "blaue Stunde → Nacht, Lichter ab ca. 18:30",
-     "text": "Vom Ufer bzw. von der Qiansimen-Brücke aus, Stativ."
+     "text": "Vom Ufer bzw. von der Qiansimen-Brücke aus, Stativ.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1133,7 +1147,8 @@
      "opt": true,
      "light": "night",
      "lightText": "Nacht",
-     "text": "Rote Fachwerkbrücke mit Hongyadong und Skyline."
+     "text": "Rote Fachwerkbrücke mit Hongyadong und Skyline.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1167,7 +1182,8 @@
      "opt": true,
      "light": "day",
      "lightText": "Morgen – vor dem Andrang",
-     "text": "Plattform unten an der Straße; Bahnen alle paar Minuten."
+     "text": "Plattform unten an der Straße; Bahnen alle paar Minuten.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1181,7 +1197,8 @@
      "opt": true,
      "light": "golden",
      "lightText": "weiches Morgenlicht",
-     "text": "Danach Eling Second Factory (15 Min. bergauf)."
+     "text": "Danach Eling Second Factory (15 Min. bergauf).",
+     "sel": true
     },
     {
      "type": "move",
@@ -1195,7 +1212,8 @@
      "opt": true,
      "light": "day",
      "lightText": "Vormittag",
-     "text": "Dachterrassen des Kreativparks."
+     "text": "Dachterrassen des Kreativparks.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1208,7 +1226,8 @@
      "opt": true,
      "light": "midday",
      "lightText": "Mittag – Architektur, Seilbahn zwischen den Türmen",
-     "text": "Auf der Seilbahn über den Jangtse zum Südufer möglich."
+     "text": "Auf der Seilbahn über den Jangtse zum Südufer möglich.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1222,7 +1241,8 @@
      "opt": true,
      "light": "indoor",
      "lightText": "Mittag – Innenhöfe",
-     "text": "Gildehallen am Jangtse-Ufer."
+     "text": "Gildehallen am Jangtse-Ufer.",
+     "sel": true
     },
     {
      "type": "hotel",
@@ -1241,7 +1261,8 @@
      "opt": true,
      "light": "sunset",
      "lightText": "Sonnenuntergang 18:11 → blaue Stunde über Yuzhong",
-     "text": "Gegen 17:15 da sein, Platz am Geländer sichern."
+     "text": "Gegen 17:15 da sein, Platz am Geländer sichern.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1254,7 +1275,8 @@
      "opt": true,
      "light": "night",
      "lightText": "Nacht",
-     "text": "Backsteinvillen und Treppen, Blick auf die Skyline."
+     "text": "Backsteinvillen und Treppen, Blick auf die Skyline.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1287,7 +1309,8 @@
      "opt": true,
      "light": "sunrise",
      "lightText": "Sonnenaufgang 7:03 über dem Zusammenfluss",
-     "text": "Landspitze mit Raffles City im Morgenlicht."
+     "text": "Landspitze mit Raffles City im Morgenlicht.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1300,7 +1323,8 @@
      "opt": true,
      "light": "day",
      "lightText": "Morgen – Treppen noch leer",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "hotel",
@@ -1332,7 +1356,8 @@
      "opt": true,
      "light": "sunset",
      "lightText": "Sonnenuntergang 17:08 → blaue Stunde",
-     "text": "Vom Westgeländer Richtung Osten."
+     "text": "Vom Westgeländer Richtung Osten.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1346,7 +1371,8 @@
      "opt": true,
      "light": "blue",
      "lightText": "blaue Stunde",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1360,7 +1386,8 @@
      "opt": true,
      "light": "night",
      "lightText": "Nacht – Skyline beleuchtet (meist bis 22 Uhr)",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1395,7 +1422,8 @@
      "opt": true,
      "light": "sunrise",
      "lightText": "Sonnenaufgang 6:06 hinter Lujiazui",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1408,7 +1436,8 @@
      "opt": true,
      "light": "day",
      "lightText": "Morgen – vor 10 Uhr noch Alltag statt Touristen",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1421,7 +1450,8 @@
      "opt": true,
      "light": "day",
      "lightText": "Vormittag – zur Öffnung",
-     "text": "Später wird es sehr voll."
+     "text": "Später wird es sehr voll.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1434,7 +1464,8 @@
      "opt": true,
      "light": "indoor",
      "lightText": "Mittag – innen",
-     "text": "Über die Lobby des Grand Hyatt (54. Stock)."
+     "text": "Über die Lobby des Grand Hyatt (54. Stock).",
+     "sel": true
     },
     {
      "type": "move",
@@ -1448,7 +1479,8 @@
      "opt": true,
      "light": "indoor",
      "lightText": "Mittag/Nachmittag – innen und Dachterrasse",
-     "text": "Das „Fenster“ zum Oriental Pearl Tower."
+     "text": "Das „Fenster“ zum Oriental Pearl Tower.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1462,7 +1494,8 @@
      "opt": true,
      "light": "sunset",
      "lightText": "Sonnenuntergang 17:08 von oben",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1476,7 +1509,8 @@
      "opt": true,
      "light": "blue",
      "lightText": "blaue Stunde → Nacht",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1509,7 +1543,8 @@
      "opt": true,
      "light": "golden",
      "lightText": "Morgen – Nebel über den Kanälen, Gassen leer",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1522,7 +1557,8 @@
      "opt": true,
      "light": "day",
      "lightText": "Vormittag",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1535,7 +1571,8 @@
      "opt": true,
      "light": "midday",
      "lightText": "Mittag – Fassade im Licht",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1548,7 +1585,8 @@
      "opt": true,
      "light": "day",
      "lightText": "Nachmittag",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1561,7 +1599,8 @@
      "opt": true,
      "light": "golden",
      "lightText": "goldene Stunde → Sonnenuntergang 17:07",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1574,7 +1613,8 @@
      "opt": true,
      "light": "night",
      "lightText": "Nacht – Leuchtschrift",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1608,7 +1648,8 @@
      "opt": true,
      "light": "sunrise",
      "lightText": "Sonnenaufgang 6:08 – Lujiazui im Gegenlicht",
-     "text": "Am Morgen fast leer, Jogger und Tai-Chi."
+     "text": "Am Morgen fast leer, Jogger und Tai-Chi.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1622,7 +1663,8 @@
      "opt": true,
      "light": "golden",
      "lightText": "Morgenlicht",
-     "text": "Mit der Yuanmingyuan Road."
+     "text": "Mit der Yuanmingyuan Road.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1635,7 +1677,8 @@
      "opt": true,
      "light": "day",
      "lightText": "Vormittag",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1648,7 +1691,8 @@
      "opt": true,
      "light": "indoor",
      "lightText": "Mittag – innen",
-     "text": "Gut 1 Std. außerhalb, Kuppel-Show bei Ankunft buchen. Alternative: Pause im Hotel."
+     "text": "Gut 1 Std. außerhalb, Kuppel-Show bei Ankunft buchen. Alternative: Pause im Hotel.",
+     "sel": true
     },
     {
      "type": "move",
@@ -1661,7 +1705,8 @@
      "opt": true,
      "light": "night",
      "lightText": "Nacht – Neon",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
@@ -1675,7 +1720,8 @@
      "opt": true,
      "light": "night",
      "lightText": "Nacht – Dachbar mit Blick auf Bund und Lujiazui",
-     "text": ""
+     "text": "",
+     "sel": true
     },
     {
      "type": "move",
