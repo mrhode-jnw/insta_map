@@ -479,6 +479,7 @@
   #tlBody .tle img, #tlBody .tle .tli { flex: none; width: 48px; height: 48px; border-radius: 9px; object-fit: cover; background: var(--soft); display: grid; place-items: center; font-size: 22px; }
   #tlBody .tle > span { min-width: 0; flex: 1; } #tlBody .tle b { display: block; font-size: 14.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   #tlBody .tle small { display: block; font-size: 12.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #tlBody .tle.tlloc small { white-space: normal; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
   #tlBody .tle i { flex: none; font-style: normal; font-size: 12px; color: var(--muted); }
   #tlBody .tag { display: inline-block; padding: 0 6px; margin-right: 5px; border-radius: 6px; font-size: 11px; font-weight: 700; color: #fff; background: #6b7280; }
   #tlBody .tag.new { background: var(--accent); } #tlBody .tag.photo { background: #0f766e; } #tlBody .tag.plan { background: #2563eb; } #tlBody .tag.insp { background: #ca8a04; } #tlBody .tag.mine { background: #7c3aed; }
@@ -2557,7 +2558,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const tlEvents = () => {
     const ev = (window.TIMELINE || []).map(e => ({ ...e }));
     places.filter(p => p.mine && p.created).forEach(p => ev.push({ t: String(p.created).slice(0, 16), k: "mine", id: p.id, name: p.name }));
-    tlInbox.forEach(x => ev.push({ t: String(x.added).slice(0, 16), k: x.kind === "locate" ? "locq" : x.insp ? "inspq" : "inbox", url: x.url, image: x.image, where: x.where, code: x.code || x.id }));
+    // Ortsrecherche mit Ergebnis: nur das Ergebnis zeigen (nicht mehr „wird recherchiert“)
+    tlInbox.filter(x => !(x.kind === "locate" && LOC()[x.image] && LOC()[x.image].id === x.id))
+      .forEach(x => ev.push({ t: String(x.added).slice(0, 16), k: x.kind === "locate" ? "locq" : x.insp ? "inspq" : "inbox", url: x.url, image: x.image, where: x.where, code: x.code || x.id }));
     return ev.filter(e => e.t).sort((a, b) => a.t < b.t ? 1 : -1);
   };
   const tlUnseen = () => { const e = tlEvents()[0]; return !!e && e.t > tlSeen(); };
@@ -2565,8 +2568,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     try { const l = await rawJson("data/inbox.json", []); const cut = new Date(Date.now() - 21 * 864e5).toISOString();
       tlInbox = (l || []).filter(x => x.added && x.added > cut); if (!$("#tl").hidden) renderTimeline(); dockSync(); } catch {}
   }
-  const TL_KIND = { all: "Alle", new: "Neue Spots", photo: "Fotos", plan: "Reiseplan", insp: "Inspiration", in: "Eingang" };
-  const tlGroup = k => k === "mine" ? "new" : k === "loc" || k === "inspq" || k === "locq" ? "insp" : k === "inbox" ? "in" : k;
+  const TL_KIND = { all: "Alle", loc: "Ortsrecherche", new: "Neue Spots", photo: "Fotos", plan: "Reiseplan", insp: "Inspiration", in: "Eingang" };
+  const tlGroup = k => k === "mine" ? "new" : k === "loc" || k === "locq" ? "loc" : k === "inspq" ? "insp" : k === "inbox" ? "in" : k;
   function renderTimeline() {
     const all = tlEvents(), seen = tlSeen();
     const list = all.filter(e => tlF === "all" || tlGroup(e.k) === tlF);
@@ -2581,7 +2584,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#tlBody").innerHTML = list.slice(0, 300).map(e => {
       const p = e.id && places.find(x => x.id === e.id), d = dayL(e.t);
       const head = d !== last ? `<h4>${esc(d)}</h4>` : ""; last = d;
-      const img = p && p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : e.image ? `<img src="${esc(e.image)}" alt="" loading="lazy">` : "";
+      const pic = e.image || (p && p.image);  // Ortsrecherche: das recherchierte Inspirationsbild
+      const img = pic ? `<img src="${esc(pic)}" alt="" loading="lazy">` : "";
       const nm = esc(p ? shortName(p.name) : e.name ? shortName(e.name) : "");
       let title, sub, icon;
       switch (e.k) {
@@ -2590,12 +2594,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         case "photo": title = `<span class="tag photo">+${e.n} ${e.n === 1 ? "FOTO" : "FOTOS"}</span>${nm}`; sub = p ? [p.category, p.district].filter(Boolean).join(" · ") : ""; icon = "📷"; break;
         case "plan": title = `<span class="tag plan">PLAN</span>Reiseplan geändert`; sub = (e.text || "").replace(/^Reiseplan:?\s*/, ""); icon = "📅"; break;
         case "insp": title = `<span class="tag insp">+${e.n}</span>Inspiration: neue ${e.n === 1 ? "Post" : "Posts"}`; sub = (e.regions || []).map(r => INSP_REG[r] || r).join(", "); icon = "💡"; break;
-        case "loc": title = e.status === "found" ? `<span class="tag photo">ORT</span>${nm || "Ort gefunden"}` : `<span class="tag">ORT</span>Ort nicht gefunden`; sub = e.note || ""; icon = "🔎"; break;
-        case "locq": title = `<span class="tag insp">⏳</span>Ort wird recherchiert`; sub = e.where || "Inspirationsbild"; icon = "🔎"; break;
+        case "loc": title = e.status === "found" ? `<span class="tag photo">GEFUNDEN</span>${nm || "Spot"}` : `<span class="tag" style="background:#92400e">NICHT GEFUNDEN</span>Ort unklar`; sub = e.note || ""; icon = "🔎"; break;
+        case "locq": title = `<span class="tag insp">IN ARBEIT</span>Ort wird recherchiert`; sub = e.where || "Inspirationsbild"; icon = "🔎"; break;
         case "inspq": title = `<span class="tag insp">⏳</span>Inspiration: Link eingegangen`; sub = e.url || ""; icon = "💡"; break;
         default: title = `<span class="tag">📥</span>Link im Eingang`; sub = [e.where, e.url].filter(Boolean).join(" · "); icon = "📥";
       }
-      return head + `<button class="tle" data-n="${n++}">${img || `<span class="tli">${icon}</span>`}<span><b>${title}</b><small>${esc(sub)}</small></span><i>${e.t > seen && seen ? "● " : ""}${hm(e.t)}</i></button>`;
+      return head + `<button class="tle${e.k === "loc" ? " tlloc" : ""}" data-n="${n++}">${img || `<span class="tli">${icon}</span>`}<span><b>${title}</b><small>${esc(sub)}</small></span><i>${e.t > seen && seen ? "● " : ""}${hm(e.t)}</i></button>`;
     }).join("") || `<p style="color:var(--muted);padding:12px">Noch nichts.</p>`;
     const shown = list.slice(0, 300);
     $("#tlBody").querySelectorAll(".tle").forEach(b => b.onclick = () => { const e = shown[+b.dataset.n];
@@ -2965,7 +2969,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "83 · Timeline";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "84 · Timeline mit Ortsrecherchen";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
