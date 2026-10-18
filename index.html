@@ -1577,7 +1577,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const [la, ln] = b.dataset.ll.split(",").map(Number), m = b.dataset.go && markers.get(b.dataset.go);
       if (mobile()) setSnap("peek");
       map.setView([la, ln], Math.max(map.getZoom(), 17), { animate: false });
-      if (m && shown.has(b.dataset.go)) setTimeout(() => cluster.zoomToShowLayer(m, () => { openMini = b.dataset.go; openSpot(m); }), 300);  // klein am Pin
+      if (m && shown.has(b.dataset.go)) { backTo = { dlg: "tours", scroll: $("#toursBody").scrollTop };
+        setTimeout(() => cluster.zoomToShowLayer(m, () => { openMini = b.dataset.go; openSpot(m); }), 300); }  // klein am Pin
       return;
     }
     if (b.dataset.del) {
@@ -1923,6 +1924,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Kartenausschnitt vor dem ersten geöffneten Spot merken und beim Schließen wiederherstellen
   // (Blättern zwischen Spots darf die Karte bewegen, danach steht sie wieder wie vorher)
   let savedView = null, navigating = false, openMini = null;
+  let backTo = null;  // Spot aus Reiseplan/Tour geöffnet: beim Schließen dorthin zurück (Fenster, Tag, Scrollposition)
   const saveView = () => { if (!savedView) savedView = { c: map.getCenter(), z: map.getZoom() }; };
   map.on("popupopen", () => { if (!navSnap) navSnap = order.slice(); saveView(); stepping = false; document.querySelectorAll(".leaflet-marker-icon.lastseen").forEach(x => x.classList.remove("lastseen")); });
   // Spot geschlossen → Karte zeigt genau diesen Spot und hebt seinen Pin hervor (statt zum alten Ausschnitt zurückzuspringen)
@@ -2436,7 +2438,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const p = b.dataset.spot && spotOf(b.dataset.spot), [la, ln] = p ? [p.lat, p.lng] : b.dataset.ll.split(",").map(Number);
       map.setView([la, ln], Math.max(map.getZoom(), 16), { animate: false });
       if (p) { if (!shown.has(p.id)) { stickyId = p.id; renderList(); }
-        const m = markers.get(p.id); if (m) setTimeout(() => cluster.zoomToShowLayer(m, () => { openMini = p.id; openSpot(m); }), 350); }
+        const m = markers.get(p.id); if (m) { backTo = { dlg: "plan", day: itinDay, scroll: $("#itinBody").scrollTop };
+          setTimeout(() => cluster.zoomToShowLayer(m, () => { openMini = p.id; openSpot(m); }), 350); } }
     }
   });
   drawItin(false);
@@ -2483,7 +2486,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const b = e.target.closest("button[data-d]"); if (!b) return; e.stopPropagation();
     const d = b.dataset.d, wasOpen = DLG[d] && !$(DLG[d]).hidden;
     Object.values(DLG).forEach(sel => { $(sel).hidden = true; });
-    map.closePopup();
+    backTo = null; map.closePopup();
     if (d === "plan" && !wasOpen) itinBtn.onclick(e);
     else if (d === "tours" && !wasOpen) openTours();
     else if (d === "insp" && !wasOpen) openInsp();
@@ -2491,6 +2494,18 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     else if (d === "fav") { const f = $("#fMore"); f.value = f.value === "fav" ? "" : "fav"; f.dispatchEvent(new Event("change"));
       toast(f.value === "fav" ? "❤ Nur Merkliste (Favoriten)" : "Alle Spots", 1500); if (mobile()) setSnap("half"); }
     dockSync();
+  });
+  // Spot geschlossen, der aus dem Reiseplan/einer Tour kam → zurück in dieses Fenster (gleicher Tag, gleiche Stelle)
+  map.on("popupclose", () => {
+    if (navigating || !backTo) return;
+    const bt = backTo;
+    setTimeout(() => {
+      if (backTo !== bt || (map._popup && map.hasLayer(map._popup))) return;  // inzwischen anderer Spot offen
+      backTo = null;
+      if (bt.dlg === "plan") { itinDay = bt.day; renderItin(); $("#itin").hidden = false; $("#itinBody").scrollTop = bt.scroll; }
+      else { renderTours(); $("#toursDlg").hidden = false; $("#toursBody").scrollTop = bt.scroll; }
+      dockSync();
+    }, 300);
   });
   // Leiste ein-/ausklappen (gemerkt)
   const setDock = h => { document.body.classList.toggle("dock-hidden", h); try { localStorage.setItem("dockHidden", h ? "1" : "0"); } catch {} };
