@@ -508,6 +508,7 @@
   "prio": "nein"
  },
  "cn-the-bund-lujiazui": {
-  "fav": true
+  "fav": true,
+  "prio": "hoch"
  }
 }
