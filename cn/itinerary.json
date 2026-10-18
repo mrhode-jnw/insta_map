@@ -1059,53 +1059,56 @@
   },
   {
    "date": "2026-10-26",
-   "title": "Zhangjiajie → Chongqing · Abendlichter",
+   "title": "Zhangjiajie → Chongqing (Zug G2428) · Abendlichter",
    "status": "Entwurf",
    "items": [
     {
      "type": "hotel",
      "name": "Zhangjiajie YOLO Resort",
-     "t": "6:00"
+     "t": "~6:55",
+     "label": "Check-out",
+     "text": "Frühstück früh; Sonnenaufgang am Mihun Tai (6:46) ist vor dem Zug nicht zu schaffen."
     },
     {
      "type": "move",
-     "mode": "shuttle",
-     "min": 20,
-     "text": "Parkbus bzw. zu Fuß"
-    },
-    {
-     "type": "stop",
-     "t": "6:30–7:45",
-     "spot": "claude-cn-mihun-tai-enchanting-terrace",
-     "opt": true,
-     "light": "sunrise",
-     "lightText": "Sonnenaufgang 6:46",
-     "text": "Letzter Blick auf die Säulen.",
-     "sel": true
-    },
-    {
-     "type": "move",
-     "mode": "shuttle",
-     "min": 20,
-     "text": "zurück, Frühstück, packen"
-    },
-    {
-     "type": "hotel",
-     "name": "Zhangjiajie YOLO Resort",
-     "t": "~11:00",
-     "label": "Check-out"
+     "mode": "car",
+     "text": "Auto/Taxi zum Bahnhof (ca. 1 h 40) – Auto am Vortag im Resort bestellen"
     },
     {
      "type": "info",
-     "icon": "✈️",
-     "title": "Weiterreise nach Chongqing – noch offen",
-     "text": "Zug oder Flug ist noch nicht eingetragen. Zeiten unten setzen Ankunft im Hotel bis ca. 16 Uhr voraus."
+     "t": "9:16",
+     "icon": "🚄",
+     "title": "Bahnhof Zhangjiajie West (张家界西) – Zug G2428 ✓ gebucht",
+     "plan": true,
+     "lat": 29.1714,
+     "lng": 110.458,
+     "text": "2. Klasse, Wagen 07, Plätze 2D + 2F (nebeneinander). Ticket-Gate 2. Etage. Mind. 30 Min. vorher da sein (Pass- und Sicherheitskontrolle); Abholnummer in der Trip.com-Buchung."
+    },
+    {
+     "type": "move",
+     "mode": "train",
+     "min": 149,
+     "text": "G2428, an 11:45 – Wagen 07"
+    },
+    {
+     "type": "info",
+     "t": "11:45",
+     "icon": "🚄",
+     "title": "Chongqing Ost (重庆东)",
+     "plan": true,
+     "lat": 29.4877,
+     "lng": 106.6677,
+     "text": "Taxi/DiDi in die Innenstadt (ca. 30 Min.)."
+    },
+    {
+     "type": "move",
+     "mode": "car"
     },
     {
      "type": "hotel",
      "name": "The Lixury Hotel Chongqing",
-     "t": "~16:00",
-     "label": "Check-in"
+     "t": "~12:30",
+     "label": "Check-in (bzw. Gepäck abgeben)"
     },
     {
      "type": "move",

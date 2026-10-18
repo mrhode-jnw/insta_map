@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 18.10.2026 13:22 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 18.10.2026 13:28 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -199,15 +199,15 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (zurück)
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
-### Mo 26.10. – Zhangjiajie → Chongqing · Abendlichter _(Entwurf)_
+### Mo 26.10. – Zhangjiajie → Chongqing (Zug G2428) · Abendlichter _(Entwurf)_
 
-- **6:00** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
-  - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (Parkbus bzw. zu Fuß)
-- **6:30–7:45** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Sonnenaufgang 6:46 – Letzter Blick auf die Säulen.
-  - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (zurück, Frühstück, packen)
-- **~11:00** 🏨 Check-out: **Zhangjiajie YOLO Resort**
-- ✈️ **Weiterreise nach Chongqing – noch offen** – Zug oder Flug ist noch nicht eingetragen. Zeiten unten setzen Ankunft im Hotel bis ca. 16 Uhr voraus.
-- **~16:00** 🏨 Check-in: **The Lixury Hotel Chongqing**
+- **~6:55** 🏨 Check-out: **Zhangjiajie YOLO Resort**
+  - ↓ 🚗 Auto · ca. 100 Min. · 88 km (Auto/Taxi zum Bahnhof (ca. 1 h 40) – Auto am Vortag im Resort bestellen)
+- **9:16** 🚄 **Bahnhof Zhangjiajie West (张家界西) – Zug G2428 ✓ gebucht** – 2. Klasse, Wagen 07, Plätze 2D + 2F (nebeneinander). Ticket-Gate 2. Etage. Mind. 30 Min. vorher da sein (Pass- und Sicherheitskontrolle); Abholnummer in der Trip.com-Buchung.
+  - ↓ 🚄 Zug · ca. 149 Min. (G2428, an 11:45 – Wagen 07)
+- **11:45** 🚄 **Chongqing Ost (重庆东)** – Taxi/DiDi in die Innenstadt (ca. 30 Min.).
+  - ↓ 🚗 Auto · ca. 25 Min. · 20 km
+- **~12:30** 🏨 Check-in (bzw. Gepäck abgeben): **The Lixury Hotel Chongqing**
   - ↓ 🚗 Auto · ca. 5 Min. · 2 km
 - **17:15–18:30** ◻︎ optional: **Raffles City – The Crystal 重庆来福士·水晶连廊** (Yuzhong (Chaotianmen), Chongqing) · Licht: Sonnenuntergang 18:12 – Blick über den Zusammenfluss – Ticket vorab prüfen (kontingentiert).
   - ↓ 🚗 Auto · ca. 5 Min. · 5 km
