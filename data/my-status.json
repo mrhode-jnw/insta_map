@@ -595,5 +595,9 @@
  "cn-chaodong-road": {
   "fav": true,
   "prio": "hoch"
+ },
+ "cn-hongen-temple": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
