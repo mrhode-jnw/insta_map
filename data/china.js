@@ -2696,26 +2696,72 @@ window.PLACES_CN = [
   "lat": 29.555303,
   "lng": 106.562056,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cq_shancheng_1.jpg",
   "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
   "post_url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
   "username": "theglobalphotographycommunity_",
   "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
   "posts": [
    {
-    "url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
-    "username": "theglobalphotographycommunity_",
-    "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
-    "kind": "p",
-    "image": null,
-    "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
-    "match": "cover",
-    "generic": true
+    "url": "https://www.trip.com/moments/detail/chongqing-158-149999033/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/chongqing-158-149999033/",
+    "kind": "photo",
+    "image": "images/claude_cq_shancheng_1.jpg",
+    "caption": "",
+    "credit": "I人遊記 · Trip.com"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/chongqing-158-149999033/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/chongqing-158-149999033/",
+    "kind": "photo",
+    "image": "images/claude_cq_shancheng_2.jpg",
+    "caption": "",
+    "credit": "I人遊記 · Trip.com"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/chongqing-158-149999033/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/chongqing-158-149999033/",
+    "kind": "photo",
+    "image": "images/claude_cq_shancheng_3.jpg",
+    "caption": "",
+    "credit": "I人遊記 · Trip.com"
+   },
+   {
+    "url": "https://www.flickr.com/photos/nospeaker/6812230111/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/nospeaker/6812230111/",
+    "kind": "photo",
+    "image": "images/claude_cq_shancheng_4.jpg",
+    "caption": "",
+    "credit": "kidwithsword · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/qlevin/6875774301/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/qlevin/6875774301/",
+    "kind": "photo",
+    "image": "images/claude_cq_shancheng_5.jpg",
+    "caption": "",
+    "credit": "Qlevin · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/johnyujia2012/8422267619/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/johnyujia2012/8422267619/",
+    "kind": "photo",
+    "image": "images/claude_cq_shancheng_6.jpg",
+    "caption": "",
+    "credit": "johnyu2012 · Flickr"
    }
   ],
   "pop": 4,
   "pop_reason": "Beliebter Hangpfad mit Jangtse-Blick",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.trip.com/moments/detail/chongqing-158-149999033/",
+  "image_credit": "I人遊記 · Trip.com"
  },
  {
   "id": "cn-huguang-guild-hall",
@@ -2728,26 +2774,72 @@ window.PLACES_CN = [
   "lat": 29.56052,
   "lng": 106.582882,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cq_huguang_1.jpg",
   "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
   "post_url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
   "username": "theglobalphotographycommunity_",
   "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
   "posts": [
    {
-    "url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
-    "username": "theglobalphotographycommunity_",
-    "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
-    "kind": "p",
-    "image": null,
-    "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
-    "match": "cover",
-    "generic": true
+    "url": "https://www.flickr.com/photos/chanmelmel/51529280226/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chanmelmel/51529280226/",
+    "kind": "photo",
+    "image": "images/claude_cq_huguang_1.jpg",
+    "caption": "",
+    "credit": "MelindaChan ^..^ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/chanmelmel/51529669152/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chanmelmel/51529669152/",
+    "kind": "photo",
+    "image": "images/claude_cq_huguang_2.jpg",
+    "caption": "",
+    "credit": "MelindaChan ^..^ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/chanmelmel/51535724050/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chanmelmel/51535724050/",
+    "kind": "photo",
+    "image": "images/claude_cq_huguang_3.jpg",
+    "caption": "",
+    "credit": "MelindaChan ^..^ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/chanmelmel/51535518344/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chanmelmel/51535518344/",
+    "kind": "photo",
+    "image": "images/claude_cq_huguang_4.jpg",
+    "caption": "",
+    "credit": "MelindaChan ^..^ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/chanmelmel/51534690014/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chanmelmel/51534690014/",
+    "kind": "photo",
+    "image": "images/claude_cq_huguang_5.jpg",
+    "caption": "",
+    "credit": "MelindaChan ^..^ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/drkolb/2868439918/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/drkolb/2868439918/",
+    "kind": "photo",
+    "image": "images/claude_cq_huguang_6.jpg",
+    "caption": "",
+    "credit": "derek.kolb · Flickr"
    }
   ],
   "pop": 4,
   "pop_reason": "Historische Gildehallen, in vielen Guides",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/chanmelmel/51529280226/",
+  "image_credit": "MelindaChan ^..^ · Flickr"
  },
  {
   "id": "cn-zhongshan-4th-road",
@@ -2760,26 +2852,72 @@ window.PLACES_CN = [
   "lat": 29.566651,
   "lng": 106.544017,
   "approx": true,
-  "image": null,
+  "image": "images/claude_cq_zhongshan4_1.jpg",
   "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
   "post_url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
   "username": "theglobalphotographycommunity_",
   "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
   "posts": [
    {
-    "url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
-    "username": "theglobalphotographycommunity_",
-    "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
-    "kind": "p",
-    "image": null,
-    "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
-    "match": "cover",
-    "generic": true
+    "url": "https://www.flickr.com/photos/140936556@N08/40476049463/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/140936556@N08/40476049463/",
+    "kind": "photo",
+    "image": "images/claude_cq_zhongshan4_1.jpg",
+    "caption": "",
+    "credit": "J t Chen · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/martianlizard/6246518934/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/martianlizard/6246518934/",
+    "kind": "photo",
+    "image": "images/claude_cq_zhongshan4_2.jpg",
+    "caption": "",
+    "credit": "hengcuo · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/viwes/55240005379/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/viwes/55240005379/",
+    "kind": "photo",
+    "image": "images/claude_cq_zhongshan4_3.jpg",
+    "caption": "",
+    "credit": "GT Hsu · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/viwes/55240165250/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/viwes/55240165250/",
+    "kind": "photo",
+    "image": "images/claude_cq_zhongshan4_4.jpg",
+    "caption": "",
+    "credit": "GT Hsu · Flickr"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/chongqing-158-153723011/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/chongqing-158-153723011/",
+    "kind": "photo",
+    "image": "images/claude_cq_zhongshan4_5.jpg",
+    "caption": "",
+    "credit": "JackMaguire75 · Trip.com"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/chongqing-158-153723011/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/chongqing-158-153723011/",
+    "kind": "photo",
+    "image": "images/claude_cq_zhongshan4_6.jpg",
+    "caption": "",
+    "credit": "JackMaguire75 · Trip.com"
    }
   ],
   "pop": 3,
   "pop_reason": "Historische Allee, bei Fotografen bekannt",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/140936556@N08/40476049463/",
+  "image_credit": "J t Chen · Flickr"
  },
  {
   "id": "cn-eling-second-factory",
@@ -2792,26 +2930,72 @@ window.PLACES_CN = [
   "lat": 29.552512,
   "lng": 106.536826,
   "approx": true,
-  "image": null,
+  "image": "images/claude_cq_eling2_1.jpg",
   "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
   "post_url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
   "username": "theglobalphotographycommunity_",
   "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
   "posts": [
    {
-    "url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
-    "username": "theglobalphotographycommunity_",
-    "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
-    "kind": "p",
-    "image": null,
-    "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
-    "match": "cover",
-    "generic": true
+    "url": "https://www.cnsjw.cn/?p=19198",
+    "username": "",
+    "profile_url": "https://www.cnsjw.cn/?p=19198",
+    "kind": "photo",
+    "image": "images/claude_cq_eling2_1.jpg",
+    "caption": "",
+    "credit": "cnsjw.cn (Blog)"
+   },
+   {
+    "url": "https://www.cnsjw.cn/?p=19198",
+    "username": "",
+    "profile_url": "https://www.cnsjw.cn/?p=19198",
+    "kind": "photo",
+    "image": "images/claude_cq_eling2_2.jpg",
+    "caption": "",
+    "credit": "cnsjw.cn (Blog)"
+   },
+   {
+    "url": "https://www.cnsjw.cn/?p=19198",
+    "username": "",
+    "profile_url": "https://www.cnsjw.cn/?p=19198",
+    "kind": "photo",
+    "image": "images/claude_cq_eling2_3.jpg",
+    "caption": "",
+    "credit": "cnsjw.cn (Blog)"
+   },
+   {
+    "url": "https://www.cnsjw.cn/?p=19198",
+    "username": "",
+    "profile_url": "https://www.cnsjw.cn/?p=19198",
+    "kind": "photo",
+    "image": "images/claude_cq_eling2_4.jpg",
+    "caption": "",
+    "credit": "cnsjw.cn (Blog)"
+   },
+   {
+    "url": "https://www.cnsjw.cn/?p=19198",
+    "username": "",
+    "profile_url": "https://www.cnsjw.cn/?p=19198",
+    "kind": "photo",
+    "image": "images/claude_cq_eling2_5.jpg",
+    "caption": "",
+    "credit": "cnsjw.cn (Blog)"
+   },
+   {
+    "url": "https://www.cnsjw.cn/?p=19198",
+    "username": "",
+    "profile_url": "https://www.cnsjw.cn/?p=19198",
+    "kind": "photo",
+    "image": "images/claude_cq_eling2_6.jpg",
+    "caption": "",
+    "credit": "cnsjw.cn (Blog)"
    }
   ],
   "pop": 4,
   "pop_reason": "Kreativpark und Filmkulisse, sehr beliebt",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.cnsjw.cn/?p=19198",
+  "image_credit": "cnsjw.cn (Blog)"
  },
  {
   "id": "cn-danzishi-old-street",
@@ -2824,26 +3008,72 @@ window.PLACES_CN = [
   "lat": 29.582626,
   "lng": 106.584306,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cq_danzishi_1.jpg",
   "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
   "post_url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
   "username": "theglobalphotographycommunity_",
   "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
   "posts": [
    {
-    "url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
-    "username": "theglobalphotographycommunity_",
-    "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
-    "kind": "p",
-    "image": null,
-    "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
-    "match": "cover",
-    "generic": true
+    "url": "https://www.trip.com/moments/detail/chongqing-158-154731558/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/chongqing-158-154731558/",
+    "kind": "photo",
+    "image": "images/claude_cq_danzishi_1.jpg",
+    "caption": "",
+    "credit": "琪琪萌姐 · Trip.com"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/chongqing-158-154731558/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/chongqing-158-154731558/",
+    "kind": "photo",
+    "image": "images/claude_cq_danzishi_2.jpg",
+    "caption": "",
+    "credit": "琪琪萌姐 · Trip.com"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/chongqing-158-147191053/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/chongqing-158-147191053/",
+    "kind": "photo",
+    "image": "images/claude_cq_danzishi_3.jpg",
+    "caption": "",
+    "credit": "ไปกับก๊อบแก๊บ · Trip.com"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/chongqing-158-148304011/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/chongqing-158-148304011/",
+    "kind": "photo",
+    "image": "images/claude_cq_danzishi_4.jpg",
+    "caption": "",
+    "credit": "ปอ เจอนี่ Por Journey · Trip.com"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/chongqing-158-148304011/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/chongqing-158-148304011/",
+    "kind": "photo",
+    "image": "images/claude_cq_danzishi_5.jpg",
+    "caption": "",
+    "credit": "ปอ เจอนี่ Por Journey · Trip.com"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/chongqing-158-148304011/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/chongqing-158-148304011/",
+    "kind": "photo",
+    "image": "images/claude_cq_danzishi_6.jpg",
+    "caption": "",
+    "credit": "ปอ เจอนี่ Por Journey · Trip.com"
    }
   ],
   "pop": 3,
   "pop_reason": "Altstadtviertel mit Skyline-Blick",
-  "when": "both"
+  "when": "both",
+  "image_page": "https://www.trip.com/moments/detail/chongqing-158-154731558/",
+  "image_credit": "琪琪萌姐 · Trip.com"
  },
  {
   "id": "cn-ciqikou-ancient-town",
@@ -2856,26 +3086,72 @@ window.PLACES_CN = [
   "lat": 29.58334,
   "lng": 106.446649,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cq_ciqikou_1.jpg",
   "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
   "post_url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
   "username": "theglobalphotographycommunity_",
   "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
   "posts": [
    {
-    "url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
-    "username": "theglobalphotographycommunity_",
-    "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
-    "kind": "p",
-    "image": null,
-    "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
-    "match": "cover",
-    "generic": true
+    "url": "https://www.flickr.com/photos/120589657@N03/13210247314/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/120589657@N03/13210247314/",
+    "kind": "photo",
+    "image": "images/claude_cq_ciqikou_1.jpg",
+    "caption": "",
+    "credit": "Krid Taa · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/189574381@N02/51159768624/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/189574381@N02/51159768624/",
+    "kind": "photo",
+    "image": "images/claude_cq_ciqikou_2.jpg",
+    "caption": "",
+    "credit": "Jongam Lee · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/kelvinyew/14291873879/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kelvinyew/14291873879/",
+    "kind": "photo",
+    "image": "images/claude_cq_ciqikou_3.jpg",
+    "caption": "",
+    "credit": "Kelvin Yew · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/neildnoland/24152957171/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/neildnoland/24152957171/",
+    "kind": "photo",
+    "image": "images/claude_cq_ciqikou_4.jpg",
+    "caption": "",
+    "credit": "Neil Noland · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/arttue/8424950572/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/arttue/8424950572/",
+    "kind": "photo",
+    "image": "images/claude_cq_ciqikou_5.jpg",
+    "caption": "",
+    "credit": "Arttu Ekholm · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/navona-pics/7622417952/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/navona-pics/7622417952/",
+    "kind": "photo",
+    "image": "images/claude_cq_ciqikou_6.jpg",
+    "caption": "",
+    "credit": "Derek · Flickr"
    }
   ],
   "pop": 5,
   "pop_reason": "Bekannteste Altstadt Chongqings",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/120589657@N03/13210247314/",
+  "image_credit": "Krid Taa · Flickr"
  },
  {
   "id": "cn-sujiaba-interchange",
@@ -2888,26 +3164,54 @@ window.PLACES_CN = [
   "lat": 29.536365,
   "lng": 106.547989,
   "approx": true,
-  "image": null,
+  "image": "images/claude_cq_sujiaba_1.jpg",
   "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
   "post_url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
   "username": "theglobalphotographycommunity_",
   "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
   "posts": [
    {
-    "url": "https://www.instagram.com/theglobalphotographycommunity_/p/Dd5iOWACpW4/",
-    "username": "theglobalphotographycommunity_",
-    "profile_url": "https://www.instagram.com/theglobalphotographycommunity_/",
-    "kind": "p",
-    "image": null,
-    "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
-    "match": "cover",
-    "generic": true
+    "url": "https://www.ecns.cn/hd/2025-03-28/detail-ihepyqsm2135531.shtml",
+    "username": "",
+    "profile_url": "https://www.ecns.cn/hd/2025-03-28/detail-ihepyqsm2135531.shtml",
+    "kind": "photo",
+    "image": "images/claude_cq_sujiaba_1.jpg",
+    "caption": "",
+    "credit": "He Penglei / China News Service · ecns.cn"
+   },
+   {
+    "url": "https://www.ecns.cn/hd/2025-03-28/detail-ihepyqsm2135531.shtml",
+    "username": "",
+    "profile_url": "https://www.ecns.cn/hd/2025-03-28/detail-ihepyqsm2135531.shtml",
+    "kind": "photo",
+    "image": "images/claude_cq_sujiaba_2.jpg",
+    "caption": "",
+    "credit": "He Penglei / China News Service · ecns.cn"
+   },
+   {
+    "url": "https://www.ecns.cn/hd/2025-03-28/detail-ihepyqsm2135531.shtml",
+    "username": "",
+    "profile_url": "https://www.ecns.cn/hd/2025-03-28/detail-ihepyqsm2135531.shtml",
+    "kind": "photo",
+    "image": "images/claude_cq_sujiaba_3.jpg",
+    "caption": "",
+    "credit": "He Penglei / China News Service · ecns.cn"
+   },
+   {
+    "url": "https://www.flickr.com/photos/lightmeister/53677068956/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lightmeister/53677068956/",
+    "kind": "photo",
+    "image": "images/claude_cq_sujiaba_4.jpg",
+    "caption": "",
+    "credit": "lightmeister · Flickr"
    }
   ],
   "pop": 2,
   "pop_reason": "Autobahnkreuz-Motiv, kaum in Reiseführern",
-  "when": "both"
+  "when": "both",
+  "image_page": "https://www.ecns.cn/hd/2025-03-28/detail-ihepyqsm2135531.shtml",
+  "image_credit": "He Penglei / China News Service · ecns.cn"
  },
  {
   "id": "cn-dongchangzhi-rd-lushun-rd",
@@ -6849,15 +7153,72 @@ window.PLACES_CN = [
   "lat": 29.5675551,
   "lng": 106.5831253,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cq_raffles_2.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/fran001/53226848412/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fran001/53226848412/",
+    "kind": "photo",
+    "image": "images/claude_cq_raffles_2.jpg",
+    "caption": "",
+    "credit": "Francisco Anzola · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/139903822@N04/54944261322/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/139903822@N04/54944261322/",
+    "kind": "photo",
+    "image": "images/claude_cq_raffles_1.jpg",
+    "caption": "",
+    "credit": "Reiner Mim · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/kevho86/51159658867/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kevho86/51159658867/",
+    "kind": "photo",
+    "image": "images/claude_cq_raffles_3.jpg",
+    "caption": "",
+    "credit": "Kevin Ho · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/184932483@N06/55208673369/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/184932483@N06/55208673369/",
+    "kind": "photo",
+    "image": "images/claude_cq_raffles_4.jpg",
+    "caption": "",
+    "credit": "Yoo-Sang Choo · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/lightmeister/53627732154/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lightmeister/53627732154/",
+    "kind": "photo",
+    "image": "images/claude_cq_raffles_5.jpg",
+    "caption": "",
+    "credit": "lightmeister · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/201161199@N06/54107071375/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/201161199@N06/54107071375/",
+    "kind": "photo",
+    "image": "images/claude_cq_raffles_6.jpg",
+    "caption": "",
+    "credit": "Dean Jorquera · Flickr"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Glasboden-Skybridge 250 m über dem Zusammenfluss von Jangtse und Jialing",
-  "when": "both"
+  "when": "both",
+  "image_page": "https://www.flickr.com/photos/fran001/53226848412/",
+  "image_credit": "Francisco Anzola · Flickr"
  },
  {
   "id": "claude-cn-dongshuimen-bridge",
@@ -6897,15 +7258,72 @@ window.PLACES_CN = [
   "lat": 29.5588249,
   "lng": 106.5912051,
   "approx": false,
-  "image": null,
+  "image": "images/claude_cq_longmenhao_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/10877508@N04/55220425908/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/10877508@N04/55220425908/",
+    "kind": "photo",
+    "image": "images/claude_cq_longmenhao_1.jpg",
+    "caption": "",
+    "credit": "Mike Turner-Jones 摄影 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/jake_wang/54936113208/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/jake_wang/54936113208/",
+    "kind": "photo",
+    "image": "images/claude_cq_longmenhao_2.jpg",
+    "caption": "",
+    "credit": "Jake Wang · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/jake_wang/54935037397/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/jake_wang/54935037397/",
+    "kind": "photo",
+    "image": "images/claude_cq_longmenhao_3.jpg",
+    "caption": "",
+    "credit": "Jake Wang · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/jake_wang/54936157739/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/jake_wang/54936157739/",
+    "kind": "photo",
+    "image": "images/claude_cq_longmenhao_4.jpg",
+    "caption": "",
+    "credit": "Jake Wang · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/jake_wang/54935037182/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/jake_wang/54935037182/",
+    "kind": "photo",
+    "image": "images/claude_cq_longmenhao_5.jpg",
+    "caption": "",
+    "credit": "Jake Wang · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/jake_wang/54935037157/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/jake_wang/54935037157/",
+    "kind": "photo",
+    "image": "images/claude_cq_longmenhao_6.jpg",
+    "caption": "",
+    "credit": "Jake Wang · Flickr"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Restaurierte Kolonialbauten mit Jangtse-Skyline-Blick",
-  "when": "night"
+  "when": "night",
+  "image_page": "https://www.flickr.com/photos/10877508@N04/55220425908/",
+  "image_credit": "Mike Turner-Jones 摄影 · Flickr"
  },
  {
   "id": "claude-cn-huangjueping-graffiti-street",
@@ -6920,15 +7338,72 @@ window.PLACES_CN = [
   "lat": 29.4989842,
   "lng": 106.5329914,
   "approx": true,
-  "image": null,
+  "image": "images/claude_cq_huangjueping_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/triplefivedrew/6613022935/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/triplefivedrew/6613022935/",
+    "kind": "photo",
+    "image": "images/claude_cq_huangjueping_1.jpg",
+    "caption": "",
+    "credit": "triplefivedrew · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/triplefivedrew/6613021773/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/triplefivedrew/6613021773/",
+    "kind": "photo",
+    "image": "images/claude_cq_huangjueping_2.jpg",
+    "caption": "",
+    "credit": "triplefivedrew · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/triplefivechina/6613079731/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/triplefivechina/6613079731/",
+    "kind": "photo",
+    "image": "images/claude_cq_huangjueping_3.jpg",
+    "caption": "",
+    "credit": "Drew Bates · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/konrad_shek/7152706277/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/konrad_shek/7152706277/",
+    "kind": "photo",
+    "image": "images/claude_cq_huangjueping_4.jpg",
+    "caption": "",
+    "credit": "Konrad Shek · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/triplefivedrew/6613024529/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/triplefivedrew/6613024529/",
+    "kind": "photo",
+    "image": "images/claude_cq_huangjueping_5.jpg",
+    "caption": "",
+    "credit": "triplefivedrew · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/navjotsingh1/16118458728/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/navjotsingh1/16118458728/",
+    "kind": "photo",
+    "image": "images/claude_cq_huangjueping_6.jpg",
+    "caption": "",
+    "credit": "Drew Bates · Flickr"
+   }
+  ],
   "pop": 3,
   "pop_reason": "Komplett bemalte Wohnblocks am Sichuan Fine Arts Institute",
-  "when": "day"
+  "when": "day",
+  "image_page": "https://www.flickr.com/photos/triplefivedrew/6613022935/",
+  "image_credit": "triplefivedrew · Flickr"
  },
  {
   "id": "claude-cn-zhapu-road-bridge-suzhou-creek",
