@@ -1333,7 +1333,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const x = new Date(date + "T12:00:00Z"), wd = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"][x.getUTCDay()];
     return `<div class="fcrow"><div class="fch">${withDay ? `${wd} ${x.getUTCDate()}.${x.getUTCMonth() + 1}. · ` : ""}${f.h} Uhr</div>
       <div class="fcm"><span class="fci">${WXI(f.code)}</span><b>${f.temp}°</b><span>☁ ${f.cloud} %</span><span>☂ ${f.pp ?? 0} %</span>
-      <span class="hz ${HZC(f.haze)}">👁 ${f.vis != null ? String(f.vis).replace(".", ",") + " km · " : ""}${esc(f.hazeText)}</span>${f.aqi != null ? `<span>AQI ${f.aqi}</span>` : ""}</div>
+      <span class="hz ${HZC(f.haze)}">👁 ${f.vis != null ? String(f.vis).replace(".", ",") + " km · " : ""}${esc(f.hazeText === "klar" ? "gute Fernsicht" : f.hazeText)}</span>${f.aqi != null ? `<span>AQI ${f.aqi}</span>` : ""}</div>
       ${f.sky ? `<div class="fcs">${esc(f.sky)}</div>` : ""}</div>`;
   }
   const fcAge = () => { if (!FC || !FC.updated) return ""; const m = Math.round((Date.now() - Date.parse(FC.updated)) / 6e4);

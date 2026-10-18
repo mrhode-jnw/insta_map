@@ -62,7 +62,7 @@ def haze(vis_km, pm25, rh):
         s += 2 if pm25 > 35 else 1 if pm25 > 15 else 0
     if rh is not None:
         s += 2 if rh >= 92 else 1 if rh >= 82 else 0
-    return s, ("klar" if s == 0 else "leicht diesig" if s <= 2 else "diesig" if s <= 4 else "sehr diesig / Nebel")
+    return s, ("gute Fernsicht" if s == 0 else "leicht diesig" if s <= 2 else "diesig" if s <= 4 else "sehr diesig / Nebel")
 
 
 def sky(light, low, mid, high, total, rain, rh=None, hilly=False):
