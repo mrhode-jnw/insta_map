@@ -131,6 +131,8 @@ def main():
         f.write("window.ITINERARY = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")
     n = sum(1 for d in src["days"] for it in d["items"] if it["type"] == "stop")
     print(f"✔ {len(src['days'])} Tage, {n} Stopps → data/itinerary.js")
+    import build_reiseplan_md
+    build_reiseplan_md.main()  # lesbare Fassung für Claude-Chats (REISEPLAN.md)
 
 
 if __name__ == "__main__":
