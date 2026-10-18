@@ -485,11 +485,11 @@
   #inspBody .iw { position: relative; display: block; break-inside: avoid; }
   #inspBody .idel { position: absolute; top: 5px; right: 5px; width: 24px; height: 24px; padding: 0; border: 0; border-radius: 50%;
     background: rgba(0,0,0,.55); color: #fff; font-size: 16px; line-height: 24px; cursor: pointer; }
-  #inspBody .iloc { position: absolute; left: 5px; bottom: 13px; padding: 5px 10px; border: 0; border-radius: 999px;
-    background: rgba(0,0,0,.6); color: #fff; font-size: 12px; font-weight: 600; cursor: pointer; }
-  #inspBody .ilocr { position: absolute; left: 5px; right: 5px; bottom: 13px; padding: 4px 8px; border: 0; border-radius: 999px; font-size: 12px; font-weight: 600;
-    text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: rgba(0,0,0,.6); color: #fff; cursor: pointer; }
-  #inspBody .ilocr.ok { background: rgba(15,118,110,.92); } #inspBody .ilocr.no { background: rgba(120,53,15,.85); } #inspBody .ilocr.wait { cursor: default; }
+  /* „Ort finden“ als normale Zeile unter dem Bild (kein Overlay – iOS trifft Overlays in Spaltenlayouts unzuverlässig) */
+  #inspBody .iloc, #inspBody .ilocr { display: block; width: 100%; margin: -4px 0 10px; padding: 7px 10px; border: 0; border-radius: 8px; font: inherit; font-size: 13px; font-weight: 600;
+    text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: var(--soft, #f1f1f4); color: var(--text, #111); cursor: pointer; }
+  #inspBody .ilocr { color: #fff; background: #555; }
+  #inspBody .ilocr.ok { background: #0f766e; } #inspBody .ilocr.no { background: #92400e; } #inspBody .ilocr.wait { cursor: default; background: #6b7280; }
   #inspBody .masonry img { width: 100%; display: block; margin-bottom: 8px; border-radius: 8px; break-inside: avoid; background: var(--line); cursor: zoom-in; }
   #view #inspBtn { font-size: 15px; }
   #lb { position: fixed; inset: 0; z-index: 3000; background: #000; color: #fff; display: flex; flex-direction: column;
@@ -2880,7 +2880,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "81 · Ort finden auch im Vollbild";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "82 · Ort finden unter jedem Bild";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
