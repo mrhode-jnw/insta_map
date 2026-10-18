@@ -75,14 +75,14 @@
  },
  "2026-10-31": {
   "opt": [
-   "cn-1000-trees",
-   "cn-bvlgari-hotel-shanghai",
-   "cn-nanjing-road",
+   "cn-the-bund-lujiazui",
    "cn-rockbund",
-   "cn-shanghai-astronomy-museum",
-   "cn-the-bund-lujiazui"
+   "cn-1000-trees",
+   "cn-nanjing-road",
+   "cn-bvlgari-hotel-shanghai"
   ],
-  "dur": {}
+  "dur": {},
+  "off": []
  },
  "2026-10-19": {
   "opt": [],
