@@ -1577,7 +1577,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const [la, ln] = b.dataset.ll.split(",").map(Number), m = b.dataset.go && markers.get(b.dataset.go);
       if (mobile()) setSnap("peek");
       map.setView([la, ln], Math.max(map.getZoom(), 17), { animate: false });
-      if (m && shown.has(b.dataset.go)) setTimeout(() => cluster.zoomToShowLayer(m, () => openSpot(m)), 300);
+      if (m && shown.has(b.dataset.go)) setTimeout(() => cluster.zoomToShowLayer(m, () => { openMini = b.dataset.go; openSpot(m); }), 300);  // klein am Pin
       return;
     }
     if (b.dataset.del) {
