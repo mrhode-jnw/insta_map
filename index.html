@@ -1706,7 +1706,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     routeF ? routeLayer.addTo(map) : routeLayer.remove();
     quietClose = true; map.closePopup(); quietClose = false; savedView = null;
     if (groups.size && !places.some(p => inScope(p) && inGroups(p))) { groups = new Set(["fotos"]); saveGroups(); }
-    cat = null; showWhere(); renderChips(); renderList(); drawTour();
+    if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) { cat = null; saveCat(); }  // Kategorie bleibt, wenn es sie in der neuen Region gibt
+    showWhere(); renderChips(); renderList(); drawTour();
     if (!fit) return;
     if (routeF) map.fitBounds(L.latLngBounds(ROUTE.map(r => [r.lat, r.lng])), { padding: [40, 40], animate: false });
     else fitRegion();
@@ -1751,7 +1752,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (t) { showNl = !showNl; try { localStorage.setItem("showNl", showNl ? "1" : "0"); } catch {} renderList(); return; }
     const b = e.target.closest("button[data-g]"); if (!b) return;
     const g = b.dataset.g; groups.has(g) ? groups.delete(g) : groups.add(g); saveGroups();  // an-/abwählen, kombinierbar
-    if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) cat = null;
+    if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) { cat = null; saveCat(); }
     renderChips(); renderList();
   });
   let favF = false, trashF = false, areaF = "";
@@ -1781,6 +1782,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return parts.length > 1 ? parts[parts.length - 1] + " – " + parts.slice(0, -1).join(", ") : d;
   };
   let cat = null, doneF = null, view = "list", popF = false, sortBy = "auto";
+  try { cat = localStorage.getItem("cat") || null; } catch {}
+  const saveCat = () => { try { cat ? localStorage.setItem("cat", cat) : localStorage.removeItem("cat"); } catch {} };
   let whenF = null;  // ☀️ Tag / 🌙 Nacht (p.when aus tools/daynight.py; „both“ passt zu beidem)
   try { sortBy = localStorage.getItem("sort") || "auto"; } catch {}
   $("#sort").value = sortBy;
@@ -1836,12 +1839,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function renderChips() {
     const cats = allCats();
     if (places.some(p => p.mine)) cats.unshift("★ Meine");
+    if (cat && cat !== "★ Meine" && !cats.includes(cat)) cat = null;  // gespeicherte Kategorie gibt es hier nicht
     $("#chips").innerHTML = cats.length > 1 ? ["Alle", ...cats].map((c, i) =>
       `<button class="${(i ? c === cat : !cat) ? "on" : ""}" data-cat="${i ? esc(c) : ""}">${esc(c)}</button>`).join("") : "";
   }
   $("#chips").addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
-    cat = b.dataset.cat || null;
+    cat = b.dataset.cat || null; saveCat();
     renderChips(); renderList();
   });
   renderChips();
@@ -2817,7 +2821,6 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const np = places.reduce((m, p) => p.noloc ? m : !m || dist(me, p) < dist(me, m) ? p : m, null);
     const nearest = np ? dist(me, np) : Infinity;
     const wasNear = nearSpots; nearSpots = nearest < 50e3;
-    if (first && nearSpots && !routeF && regs.size === 1 && !regs.has(subOf(np))) setWhere(false, [subOf(np)], false);  // vor Ort automatisch die passende Region
     if (first && nearSpots) centerVisible(ll, Math.max(map.getZoom(), 15));
     if (first && !nearSpots && places.length) toast(`Du bist ${fmt(nearest)} vom nächsten Spot entfernt – Entfernungen erscheinen vor Ort.`, 4500);
     if (wasNear !== nearSpots) lastListUpdate = 0;
