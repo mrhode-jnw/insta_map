@@ -533,5 +533,8 @@
  },
  "cn-yuanmingyuan-road": {
   "prio": "mittel"
+ },
+ "cn-tangqiao-ferry-terminal": {
+  "prio": "gering"
  }
 }
