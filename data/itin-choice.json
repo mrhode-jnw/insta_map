@@ -89,5 +89,12 @@
    "cn-the-bund-lujiazui"
   ],
   "dur": {}
+ },
+ "2026-10-19": {
+  "opt": [],
+  "dur": {
+   "claude-cn-zhanli-dong-village@14:00–15:45": 45,
+   "Ankunft Zhanli, Mittagessen@~12:45–14:00": 30
+  }
  }
 }
