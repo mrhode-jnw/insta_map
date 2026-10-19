@@ -2983,7 +2983,17 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <div class="iact"><button data-spot="${esc(p.id)}">📍 Auf der Karte</button>
           <a href="https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}" target="_blank" rel="noopener">Route ↗</a></div></div></div>`;
   }
-  function hotelCard(it) {
+  // Wetter am Übernachtungsort: Abend des Tages und nächster Morgen (Raster-Prognose, data/forecast.json → areas)
+  function hotelWx(H, date) {
+    const a = H.lat && FC && FC.areas && FC.areas[gridK(H.lat) + "," + gridK(H.lng)]; if (!a || !date) return "";
+    const nx = new Date(Date.parse(date + "T12:00:00Z") + 864e5).toISOString().slice(0, 10), f = a[date], g = a[nx];
+    if (!f && !g) return "";
+    const lbl = d => { const x = new Date(d + "T12:00:00Z"); return `${["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"][x.getUTCDay()]} ${x.getUTCDate()}.${x.getUTCMonth() + 1}.`; };
+    return `<div class="fcbox"><div class="fct">Wetter am Übernachtungsort<small>Open-Meteo · ${fcAge()}</small></div>
+      ${f ? `<div class="fcrow"><div class="fch">${lbl(date)}</div><div class="fcm"><span class="fci">${WXI(f.code)}</span><b>${f.tmin}–${f.tmax}°</b><span>☂ ${f.pp ?? 0} %</span>${f.set ? `<span>🌇 ${esc(f.set.t)} ${esc(SKY_SHORT(f.set.sky))}</span>` : ""}</div></div>` : ""}
+      ${g ? `<div class="fcrow"><div class="fch">${lbl(nx)} früh</div><div class="fcm"><span class="fci">${WXI(g.code)}</span><b>${g.tmin}–${g.tmax}°</b><span>☂ ${g.pp ?? 0} %</span>${g.rise ? `<span>🌅 ${esc(g.rise.t)} ${esc(SKY_SHORT(g.rise.sky))}</span>` : ""}</div></div>` : ""}</div>`;
+  }
+  function hotelCard(it, date) {
     const H = ITIN.hotels[it.name] || {}, k = itinLb.push({ hotel: H }) - 1, ph = H.photos || [];
     return `<div class="icard">
       ${ph.length ? `<div class="ihero" data-lb="${k}" data-i="0"><img src="${esc(ph[0])}" alt="" loading="lazy">${ph.length > 1 ? `<span class="icount">1/${ph.length}</span>` : ""}</div>` : ""}
@@ -2993,6 +3003,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${H.zh ? `<p class="itip">${esc(H.zh)}</p>` : ""}
         <p>${esc([H.dates, H.room].filter(Boolean).join(" · "))}</p>
         ${H.note ? `<p class="itip">${esc(H.note)}</p>` : ""}
+        ${hotelWx(H, date)}
         <p class="itip">${esc(H.address || "")}${H.approx ? " · Pin ungefähr" : ""}</p>
         <div class="iact">${H.lat ? `<button data-ll="${H.lat},${H.lng}">📍 Auf der Karte</button><a href="https://www.google.com/maps/dir/?api=1&destination=${H.lat},${H.lng}" target="_blank" rel="noopener">Route ↗</a>` : ""}
           ${H.link ? `<a href="${esc(H.link)}" target="_blank" rel="noopener">Trip.com ↗</a>` : ""}</div></div></div>`;
@@ -3013,7 +3024,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const body = items.map(it => {
       if (it.type === "move") return `<div class="imove"><div></div><div>${MODE[it.mode] || "➜"} <b>${it.min ? fmtMin(it.min) : it._calc ? `<span class="calc">wird berechnet …</span>` : ""}</b>${it.km ? ` · ${it.km} km` : ""}${it.text ? ` · ${esc(it.text)}` : ""}</div></div>`;
       const again = it.type === "hotel" && seenH.has(it.name); if (it.type === "hotel") seenH.add(it.name);
-      const card = it.type === "stop" ? stopCard(it, d.date) : it.type === "hotel" ? (again ? `<div class="ihmini">${SVG_BED} ${esc(it.label || "zurück im Hotel")} · ${esc(shortName((ITIN.hotels[it.name] || {}).name || it.name))}</div>` : hotelCard(it))
+      const card = it.type === "stop" ? stopCard(it, d.date) : it.type === "hotel" ? (again ? `<div class="ihmini">${SVG_BED} ${esc(it.label || "zurück im Hotel")} · ${esc(shortName((ITIN.hotels[it.name] || {}).name || it.name))}</div>` : hotelCard(it, d.date))
         : `<div class="icard"><div class="iinfo"><span class="iic">${esc(it.icon || "•")}</span><div><h3>${esc(it.title || "")}</h3>
             ${it.plan || it.opt ? `<div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}</div>` : ""}${lightHtml(it)}${it.text ? `<p>${esc(it.text)}</p>` : ""}
             ${(it.spots || []).length ? `<div class="iact">${it.spots.map(id => spotOf(id)).filter(Boolean).map(p => `<button data-spot="${esc(p.id)}">📍 ${esc(shortName(p.name))}</button>`).join("")}</div>` : ""}</div></div></div>`;
@@ -3153,7 +3164,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "95 · Kartenbild in den Einstellungen";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "96 · Wetter an den Übernachtungsorten";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")

@@ -89,12 +89,20 @@ def grid(v):
     return f"{math.floor(v * 10 + 0.5) / 10:.1f}"
 
 
-def area_forecast(today, days=3):
+def area_forecast(today, days=7):
     """Wetter für alle China-Spots (Raster), je Tag: Symbol, Temperatur, Regen, Himmel zum Sonnenauf-/-untergang."""
     s = open(os.path.join(ROOT, "data", "china.js"), encoding="utf-8").read()
     m = re.search(r"window\.PLACES_CN\s*=\s*", s)
     places = json.JSONDecoder().raw_decode(s[m.end():])[0]
-    keys = sorted({(grid(p["lat"]), grid(p["lng"])) for p in places if p.get("lat") and not p.get("noloc")})
+    pts = [(p["lat"], p["lng"]) for p in places if p.get("lat") and not p.get("noloc")]
+    # dazu die Unterkünfte aus dem Reiseplan (Wetter am Übernachtungsort)
+    try:
+        it = open(os.path.join(ROOT, "data", "itinerary.js"), encoding="utf-8").read()
+        itin = json.JSONDecoder().raw_decode(it[re.search(r"window\.ITINERARY\s*=\s*", it).end():])[0]
+        pts += [(h["lat"], h["lng"]) for h in (itin.get("hotels") or {}).values() if h.get("lat")]
+    except Exception as e:
+        print("  Hotels:", e)
+    keys = sorted({(grid(a), grid(b)) for a, b in pts})
     res = {}
     for i in range(0, len(keys), 40):
         chunk = keys[i:i + 40]
