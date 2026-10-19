@@ -3486,5 +3486,1138 @@
     "credit": "Jack Cao · Flickr"
    }
   ]
+ },
+ {
+  "id": "idea-fjs-gloriole",
+  "city": "Fanjingshan",
+  "name": "Der eigene Schatten im Regenbogenring 梵净山 · 佛光",
+  "lat": 27.91327,
+  "lng": 108.69217,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Fanjingshan ist berühmt für das „Buddha-Licht“ (佛光): Wenn die Sonne im Rücken steht und unter dir eine Wolkenwand liegt, wirft dein Körper einen riesigen Schatten in den Nebel, umgeben von einem kreisrunden Regenbogen (Glorie, Brockengespenst). Pilger halten es für ein Zeichen Buddhas – ein Bild, das physikalisch wahr ist und doch übernatürlich wirkt.",
+  "tip": "Der Gegenpunkt der Sonne liegt am 22.10. um 10:30 bei Azimut 319° (NW) rund 41° unter dem Horizont, um 12:00 bei ca. 350° und ~50° darunter: Ihr braucht also eine Wolkenbank direkt unter einer Nord-/Nordwestkante des Plateaus (Geländer am Weg Pilzfelsen → Bai-Fo-Tai 拜佛台). 14–20 mm, Kamera nah am eigenen Kopf, damit der Ring um eure Silhouette sitzt; Belichtung −0,7 EV, sonst brennt der Nebel aus. Arme ausbreiten oder zu zweit stehen (jeder sieht nur seinen eigenen Ring!). ★★★ – reines Glück, aber bei Nebel unten + Sonne oben jede Minute prüfen.",
+  "images": [
+   {
+    "image": "images/idea_fjs_gloriole_1.jpg",
+    "url": "https://www.flickr.com/photos/9907648@N08/1905025412/",
+    "credit": "papsjean · Flickr"
+   },
+   {
+    "image": "images/idea_fjs_gloriole_2.jpg",
+    "url": "https://www.flickr.com/photos/9907648@N08/1904182891/",
+    "credit": "papsjean · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-scherenschnitt",
+  "city": "Fanjingshan",
+  "name": "Hongyun Jinding als Scherenschnitt 红云金顶",
+  "lat": 27.9122,
+  "lng": 108.6935,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Wenn Nebelfetzen über das Plateau ziehen, verschwindet die Farbe und der 100 m hohe Felsturm mit den zwei Tempeln obenauf wird zur schwarzen Silhouette – mal ganz da, mal nur ein Schatten. Als Serie (Nebel kommt, Nebel geht) oder als minimalistisches Schwarzweißbild mit 80 % Leerraum wirkt der Gipfel wie eine Tuschezeichnung.",
+  "tip": "Standpunkt am Pilzfelsen bzw. auf dem Weg darüber, Blick nach SW (≈220°) zum Gipfel. 70–200 mm, Belichtung auf den Nebel +1 bis +1,7 EV, damit er weiß wird und der Fels tiefschwarz bleibt. Im Serienmodus warten, bis gerade nur die Tempelspitzen aus dem Grau ragen; später in SW mit hartem Kontrast entwickeln. ★★ – funktioniert gerade bei schlechtem Wetter, das sonst alles verdirbt.",
+  "images": [
+   {
+    "image": "images/idea_fjs_scherenschnitt_1.jpg",
+    "url": "https://www.flickr.com/photos/fran001/53228090978/",
+    "credit": "Francisco Anzola · Flickr"
+   },
+   {
+    "image": "images/idea_fjs_scherenschnitt_2.jpg",
+    "url": "https://www.flickr.com/photos/danieltam/53165295583/",
+    "credit": "Daniel 谭 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-wolkenzeit",
+  "city": "Fanjingshan",
+  "name": "Wolken fließen um den Gipfel (ND 1000) 红云金顶",
+  "lat": 27.9125,
+  "lng": 108.6936,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Am Fanjingshan ziehen die Wolken oft schnell über den Grat. Mit 30 s bis 2 min Belichtung werden sie zu weichen Strömen, die um den Felsturm des Jinding fließen, während der Stein messerscharf bleibt – Bewegung gegen Ewigkeit, sogar mitten am Tag.",
+  "tip": "Stativ am Geländer oberhalb des Pilzfelsens (Platz halten, nicht den Weg blockieren). ND 1000 (10 Stufen) + ggf. Pol, 24–70 mm, f/11, ISO 64–100 → bei Mittagslicht (Sonne 11:30 auf Az 158°, 48° hoch) etwa 15–60 s; Fernauslöser. Mehrere Belichtungen machen, weil Wanderer durchs Bild laufen – bei langen Zeiten verschwinden sie fast ganz. Alternative: 40 Einzelbilder im Intervall (2 s) später als Time-Stack mitteln. ★★",
+  "images": [
+   {
+    "image": "images/idea_fjs_wolkenzeit_1.jpg",
+    "url": "https://www.flickr.com/photos/fran001/53228263030/",
+    "credit": "Francisco Anzola · Flickr"
+   },
+   {
+    "image": "images/idea_fjs_wolkenzeit_2.jpg",
+    "url": "https://www.flickr.com/photos/fotoexito/8575231323/",
+    "credit": "John Clark 2099 · Flickr",
+    "caption": "Ähnliches Motiv – Wolken-Langzeit/Time-Stack, Turimetta (Australien)"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-wolkenmeer",
+  "city": "Fanjingshan",
+  "name": "Gratschichten über dem Wolkenmeer 梵净山 · 云海",
+  "lat": 27.9143,
+  "lng": 108.693,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Statt des ganzen Panoramas: mit 300–600 mm nur die hintereinander gestaffelten Grate des Wuling-Gebirges, die aus dem Wolkenmeer ragen, jede Schicht heller als die vorige. Das Bild wird zur abstrakten Grafik aus Grautönen – ruhig, fast japanisch.",
+  "tip": "Von der Kante beim Alten Goldgipfel (老金顶) oder am Weg vom Pilzfelsen nach Norden schauen. Am 22.10. vormittags steht die Sonne im SO – Grate im Norden/Westen bekommen Seitenlicht, das die Schichten trennt. 150–600 mm, f/8, 1/500 s, leicht unterbelichten, später Kontrast nur lokal. Tele hochkant auch: drei Grate + ein winziger Sendemast oder Pavillon als Maßstab. ★",
+  "images": [
+   {
+    "image": "images/idea_fjs_wolkenmeer_1.jpg",
+    "url": "https://www.flickr.com/photos/sam8/52944218105/",
+    "credit": "Sam's Photo · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-schloesser",
+  "city": "Fanjingshan",
+  "name": "Rote Schlösser im Nebel 梵净山 · 同心锁",
+  "lat": 27.911,
+  "lng": 108.6929,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "An den Ketten der Geländer hängen Tausende rote Liebesschlösser und Bänder. Im Nebel ist das Rot die einzige Farbe im Bild: Vorne ein dichter, scharfer Klumpen Schlösser, dahinter löst sich der Tempel im Grau auf – Glaube, Kitsch und Vergänglichkeit in einem Bild.",
+  "tip": "Rund um den Cheng'en-Tempel (承恩寺) und am Weg zum Pilzfelsen. 24–35 mm, Naheinstellgrenze nutzen, f/4–5,6, damit der Hintergrund nur Form bleibt. Alternativ 85 mm f/1.8 mit einem einzelnen Schloss, Tempeldach als Silhouette. Weißabgleich eher kühl, damit das Rot knallt. ★",
+  "images": [
+   {
+    "image": "images/idea_fjs_schloesser_1.jpg",
+    "url": "https://www.flickr.com/photos/xiquinho/54388962242/",
+    "credit": "xiquinhosilva · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-lampen",
+  "city": "Fanjingshan",
+  "name": "Öllampen im Cheng'en-Tempel 承恩寺",
+  "lat": 27.91084,
+  "lng": 108.69293,
+  "approx": false,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Im höchsten Tempel des Bergs brennen Reihen kleiner Öllampen; Weihrauch zieht durch die kalte, feuchte Luft vor den Hallen. Mit offener Blende verschwimmen die Flammen zu einem roten Teppich, im Rauch zeichnen sich Lichtstrahlen ab, wenn die Sonne durch die Wolken bricht.",
+  "tip": "Cheng'en-Tempel liegt zwischen Seilbahn-Bergstation und Pilzfelsen – ideal am Anfang (ca. 10:30). 50–85 mm f/1.4–2, ISO hoch, kein Blitz. Draußen am Weihrauchofen gegen das Licht fotografieren (Sonne um 10:30 bei Az 139°, also aus SO): Rauch leuchtet nur im Gegenlicht. Pilger nicht beim Beten stören, in Hallen nur fotografieren, wo es erlaubt ist (Schilder 禁止拍照 beachten). ★",
+  "images": [
+   {
+    "image": "images/idea_fjs_lampen_1.jpg",
+    "url": "https://www.flickr.com/photos/oeyvind/54106603241/",
+    "credit": "oeyvind · Flickr"
+   },
+   {
+    "image": "images/idea_fjs_lampen_2.jpg",
+    "url": "https://www.flickr.com/photos/xiquinho/54390065353/",
+    "credit": "xiquinhosilva · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-dachreiter",
+  "city": "Fanjingshan",
+  "name": "Dachreiter gegen die Wolkenwand 梵净山 · 屋脊",
+  "lat": 27.91084,
+  "lng": 108.69293,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Die Firstfiguren der Tempeldächer – Drachen, Fabeltiere, ein Reiter vorneweg – stehen als Reihe kleiner Silhouetten vor dem weißen Nebel. Mit dem Tele isoliert wirken sie wie eine Prozession, die ins Nichts zieht: ein sehr chinesisches, sehr grafisches Detailbild.",
+  "tip": "Am Cheng'en-Tempel oder an den Tempeln unterhalb des Jinding Dachkanten suchen, die frei vor dem Himmel liegen. 100–400 mm, Belichtung auf den hellen Himmel (+1 EV), Figuren werden schwarz. Bei blauem Himmel stattdessen Pol + leichtes Seitenlicht für Struktur. Serie: 6 Firstfiguren-Porträts als Typologie. ★",
+  "images": [
+   {
+    "image": "images/idea_fjs_dachreiter_1.jpg",
+    "url": "https://www.flickr.com/photos/ben8338/55333929863/",
+    "credit": "Ben Cho @SG · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-baum",
+  "city": "Fanjingshan",
+  "name": "Einsamer Baum im Weiß 梵净山 · 雾中树",
+  "lat": 27.91,
+  "lng": 108.696,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Auf dem Plateau stehen niedrige, vom Wind gebeugte Bäume und Rhododendren. Im Nebel bleibt nur ein Baum als feine Grafik übrig – der Rest ist Weiß. Bewusst überbelichtet (High Key) wird daraus ein stilles Bild, das an Michael Kenna erinnert.",
+  "tip": "Zwischen Seilbahn-Bergstation, Cheng'en-Tempel und Pilzfelsen nach einem freistehenden Baum mit klarer Krone suchen (approx. Standort). 35–85 mm, Baum klein ins untere Drittel, +1,5 bis +2 EV; im Quadrat oder Hochformat. Am besten Schwarzweiß. ★ – das „schlechte Wetter“-Bild, das garantiert klappt.",
+  "images": [
+   {
+    "image": "images/idea_fjs_baum_1.jpg",
+    "url": "https://www.flickr.com/photos/24164990@N07/2384036187/",
+    "credit": "Vincent H P Liu · Flickr"
+   },
+   {
+    "image": "images/idea_fjs_baum_2.jpg",
+    "url": "https://www.flickr.com/photos/21885507@N05/53639435725/",
+    "credit": "Lee Hew-Son · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-buchfelsen",
+  "city": "Fanjingshan",
+  "name": "Zehntausend Bücher – Schiefer als Abstraktion 万卷书",
+  "lat": 27.9118,
+  "lng": 108.694,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Die Gipfelfelsen bestehen aus Hunderten dünner Schieferplatten, die wie gestapelte Bücher aussehen (der Felsen „Wanjuanshu“ heißt genau so). Mit dem Tele aus dem Zusammenhang gelöst, wird die Felswand zur abstrakten Linienstruktur – Moos, Flechten und Rinnen als Farbtupfer.",
+  "tip": "Rund um den Pilzfelsen und am Wanjuanshu: 100–400 mm, f/8, Wand frontal anvisieren, damit die Linien parallel laufen. Streiflicht ist entscheidend: um 10:30 (Sonne Az 139°, 41° hoch) Wände suchen, die nach O–SO zeigen, oder bei Nebel diffuses Licht + Klarheit-Regler. Als Triptychon mit einem Detail Moos + Gesamtansicht. ★",
+  "images": [
+   {
+    "image": "images/idea_fjs_buchfelsen_1.jpg",
+    "url": "https://www.flickr.com/photos/fran001/53228262210/",
+    "credit": "Francisco Anzola · Flickr"
+   },
+   {
+    "image": "images/idea_fjs_buchfelsen_2.jpg",
+    "url": "https://www.flickr.com/photos/lightmeister/55570927768/",
+    "credit": "lightmeister · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-pilzsonne",
+  "city": "Fanjingshan",
+  "name": "Pilzfelsen mit Sonnenstern 蘑菇石",
+  "lat": 27.91235,
+  "lng": 108.6936,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Statt des üblichen Frontalfotos: Der balancierende Felsen als schwarze Silhouette gegen die Sonne, mit einem 18-strahligen Sonnenstern, der genau an der überhängenden Kante „klebt“. Dunst oder Wolkenränder machen das Gegenlicht dramatisch.",
+  "tip": "Sonne am 22.10.: 10:30 Az 139° (41° hoch), 11:30 Az 158°. Also von der NW-Seite des Felsens (vom höheren Weg) nach SO schauen und so tief gehen, dass die Sonne gerade hinter der Kante hervorschaut. 14–20 mm, f/16, Belichtungsreihe ±2 EV für HDR, Gegenlichtblende abnehmen bei Flares. ★★ – am Geländer kurze Pausen der Menschenmenge abwarten.",
+  "images": [
+   {
+    "image": "images/idea_fjs_pilzsonne_1.jpg",
+    "url": "https://www.flickr.com/photos/ludwig_jer/7832007216/",
+    "credit": "Ludwig_Kark · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-seilbahn",
+  "city": "Fanjingshan",
+  "name": "Seilbahn ins Nichts 梵净山索道",
+  "lat": 27.906,
+  "lng": 108.703,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Die Seile der Seilbahn verschwinden steil nach oben in der Wolkendecke; die Gondel vor euch taucht als kleiner Kasten im Nebel auf. Ein Bild über das Ankommen in einer anderen Welt – fotografiert aus der eigenen Gondel.",
+  "tip": "Bei der Auffahrt 10:00–10:19 Platz an der Talseite bzw. Front wählen; Gummi-Gegenlichtblende direkt auf die Scheibe drücken, gegen Spiegelungen dunkle Jacke über Kamera. 70–200 mm auf die vorausfahrende Gondel, 1/1000 s; dann 16 mm Seile als Fluchtlinien nach oben/unten. Bei Nebelgrenze unterwegs: Gondel genau beim Durchstoßen der Wolkenoberkante. ★",
+  "images": [
+   {
+    "image": "images/idea_fjs_seilbahn_1.jpg",
+    "url": "https://www.flickr.com/photos/kongharald/48311794892/",
+    "credit": "Harald Groven · Flickr"
+   },
+   {
+    "image": "images/idea_fjs_seilbahn_2.jpg",
+    "url": "https://www.flickr.com/photos/lightmeister/55569450571/",
+    "credit": "lightmeister · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-handys",
+  "city": "Fanjingshan",
+  "name": "Hundert Handys vor dem Gipfel 梵净山",
+  "lat": 27.91216,
+  "lng": 108.69381,
+  "approx": false,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Am Pilzfelsen drängen sich zur Mittagszeit Hunderte Besucher, alle mit erhobenem Smartphone. Wer sich umdreht und die Menge fotografiert – Displays, Selfiesticks, rote Mietjacken, der Felsen nur noch als Spiegelbild in einem Handy – erzählt mehr über den heutigen Fanjingshan als jede Postkarte.",
+  "tip": "Am Aussichtspunkt am Pilzfelsen mit 24–35 mm direkt in der Menge, Kamera über Kopf (Klappdisplay) oder 70–200 mm von der Seite auf eine Reihe erhobener Arme. Ein Display mit dem Gipfel scharf, Menschen dahinter unscharf: f/2,8, auf das Handy fokussieren. Leute nicht aufdringlich frontal ablichten; Humor statt Spott. ★",
+  "images": [
+   {
+    "image": "images/idea_fjs_handys_1.jpg",
+    "url": "https://www.flickr.com/photos/bravoforbrittany/11311248983/",
+    "credit": "bravoforbrittany · Flickr",
+    "caption": "Ähnliches Motiv – Handy-Wald (anderer Ort)"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-nebelwald",
+  "city": "Fanjingshan",
+  "name": "Märchenwald der Wolkenzone 梵净山 · 云雾林",
+  "lat": 27.908,
+  "lng": 108.699,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Zwischen 2000 und 2300 m wächst ein niedriger, knorriger Wolkenwald mit Moos, Flechtenbärten und Rhododendren – fast immer im Nebel. Mit Weitwinkel von unten wird daraus ein Tunnel aus Ästen, der im Weiß verschwindet; Wege und Treppen geben die Leitlinie.",
+  "tip": "Am Fußweg zwischen Seilbahn-Bergstation und Cheng'en-Tempel bzw. Pilzfelsen. 16–24 mm, tief an den Boden, Weg als Linie zur Bildmitte; 1/30 s, ISO 800, Bildstabilisator. Grün leicht entsättigen, Gelb der Flechten betonen. Mitreisende Person in roter Jacke 20 m entfernt als Maßstab. ★",
+  "images": [
+   {
+    "image": "images/idea_fjs_nebelwald_1.jpg",
+    "url": "https://www.flickr.com/photos/kongharald/48311790852/",
+    "credit": "Harald Groven · Flickr"
+   },
+   {
+    "image": "images/idea_fjs_nebelwald_2.jpg",
+    "url": "https://www.flickr.com/photos/kongharald/48311676546/",
+    "credit": "Harald Groven · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-icm",
+  "city": "Fanjingshan",
+  "name": "Wischbild der Nebelbäume (ICM) 梵净山",
+  "lat": 27.9085,
+  "lng": 108.6985,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Bewusste Kamerabewegung (ICM): Bei 1/4 s wird die Kamera senkrecht entlang der Stämme gezogen – Bäume werden zu Pinselstrichen, Nebel zu Papier. Ein malerisches Bild, das niemand sonst vom Fanjingshan mitbringt.",
+  "tip": "Wolkenwald am Weg (s. Nebelwald). 35–70 mm, f/16, ISO 50, bei Bedarf ND 3 Stufen, Belichtungszeit 1/4–1 s; während der Belichtung gleichmäßig von unten nach oben ziehen. 30–50 Versuche machen, die besten 2–3 behalten. Auch: Zoom während der Belichtung. ★★",
+  "images": [
+   {
+    "image": "images/idea_fjs_icm_1.jpg",
+    "url": "https://www.flickr.com/photos/tiinagill/6377047617/",
+    "credit": "Tiina Gill · Flickr",
+    "caption": "Ähnliches Motiv – ICM im Wald (anderer Ort)"
+   },
+   {
+    "image": "images/idea_fjs_icm_2.jpg",
+    "url": "https://www.flickr.com/photos/reikijan24/8513271421/",
+    "credit": "ReikiJan24 - more off than on!! · Flickr",
+    "caption": "Ähnliches Motiv – ICM im Nebel (anderer Ort)"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-rotfilter",
+  "city": "Fanjingshan",
+  "name": "Ansel-Adams-Gipfel mit Rotfilter 红云金顶",
+  "lat": 27.9125,
+  "lng": 108.6936,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Wenn es mittags blau ist, ist das Licht für Farbe zu hart – für Schwarzweiß aber perfekt: Mit Rotfilter (oder Pol + SW-Kanalmischung) wird der Himmel fast schwarz, Kumuluswolken leuchten, der Felsturm zeigt jede Kante. So wird aus dem schlechtesten Fotolicht ein klassisches Großformat-Bild.",
+  "tip": "Am 22.10. 11:30–12:30 (Sonne Az 158–180°, also Licht von links/hinten auf die Ostflanke des Jinding, wenn ihr vom Pilzfelsen nach SW schaut). 24–70 mm, Pol drehen bis der Himmel am dunkelsten ist (90° zur Sonne – im NW/W ist der Effekt am stärksten), unterbelichten −0,7 EV, RAW. Später Rot-Kanal in SW-Mischung hochziehen. ★",
+  "images": [
+   {
+    "image": "images/idea_fjs_rotfilter_1.jpg",
+    "url": "https://www.flickr.com/photos/e_kaspersky/53322232118/",
+    "credit": "Eugene Kaspersky · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fjs-panorama",
+  "city": "Fanjingshan",
+  "name": "Vertikalpanorama: Gipfel, Tempel, Wolken 红云金顶",
+  "lat": 27.9134,
+  "lng": 108.6925,
+  "approx": true,
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "when": "day",
+  "note": "Ein hochkantiges Stitching-Panorama aus 3–4 Reihen: unten die roten Tempeldächer am Fuß, in der Mitte der senkrechte Felsturm, oben die Tempel auf dem Gipfel vor ziehenden Wolken. In großer Auflösung gedruckt zeigt es die winzigen Menschen auf den Treppen – Detail und Monumentalität zugleich.",
+  "tip": "Standpunkt am Bai-Fo-Tai (拜佛台) bzw. am Weg zwischen Pilzfelsen und Altem Goldgipfel mit freiem Blick nach SW. 35–50 mm hochkant, 30 % Überlappung, manuelle Belichtung und Weißabgleich, ein Bild pro Reihe von unten nach oben; Nodalpunkt grob über Kopf drehen. Am besten bei gemischtem Wetter mit Wolken, gegen 12 Uhr (Sonne im S) bekommt die Wand Seitenlicht. ★★",
+  "images": [
+   {
+    "image": "images/idea_fjs_panorama_1.jpg",
+    "url": "https://www.flickr.com/photos/lightmeister/55568469052/",
+    "credit": "lightmeister · Flickr"
+   },
+   {
+    "image": "images/idea_fjs_panorama_2.jpg",
+    "url": "https://www.flickr.com/photos/fran001/53228286935/",
+    "credit": "Francisco Anzola · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-mondpagode",
+  "city": "Fenghuang",
+  "name": "Mondaufgang über dem Wanming-Turm 万名塔",
+  "lat": 27.9526,
+  "lng": 109.5972,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Am 22.10. geht der zu 80 % beleuchtete Mond fast genau hinter dem Wanming-Turm auf, während die tiefe Sonne von Westen Turm und Stelzenhäuser golden anstrahlt. Mit langem Tele aus 650 m Entfernung stehen Turmspitze und Mondscheibe dicht übereinander – ein Bild, das man nur an wenigen Tagen im Jahr so bekommt.",
+  "tip": "Mond am 22.10.: Aufgang 15:38 bei Az 98°; über den Hügeln (≈4–6°) gegen 16:05–16:20 bei Az 101–102°, 16:30 bei Az 104° / 10° Höhe. Standpunkt am Ufer westlich des Nordtors (beim 熊希龄故居), von wo der Turm bei Kompass ≈103–107° liegt – mit Kompass-App justieren. 200–400 mm hochkant, f/8, 1/250 s, auf den Mond belichten und Turm aufhellen. Direkt nach der Ankunft (~15:20) hingehen! ★★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_mondpagode_1.jpg",
+    "url": "https://www.flickr.com/photos/cyppoon/54212653473/",
+    "credit": "cyppoon (Chris Poon) · Flickr",
+    "caption": "Vollmond über Fenghuang (ohne Turm)"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-rooftop",
+  "city": "Fenghuang",
+  "name": "Infinity-Pool über den Dächern 凤凰堂舍·见山酒店",
+  "lat": 27.9505,
+  "lng": 109.5962,
+  "approx": false,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "night",
+  "note": "Das eigene Hotel (Mount Villa by T Residence) hat einen Infinity-Pool und eine Rooftop-Bar über der Altstadt. Die Wasserkante verschmilzt mit dem Dächermeer, das Becken spiegelt den blauen Himmel und die ersten Lichter – ein ungewöhnlicher, ruhiger Blick, den die Massen am Fluss nicht haben.",
+  "tip": "22.10. ab 18:10 (Sonnenuntergang 18:06, blaue Stunde bis ~18:55). Stativ knapp über der Wasserkante, 16–24 mm, f/8, 5–15 s – Pool glättet sich; Belichtungsreihe für Himmel. Um 18:45 steht der Mond bei Az 124° in 37° Höhe – im Hochformat mitnehmen. Vorher an der Rezeption fragen, ob Stativ/Fotografie am Pool ok ist; Mitreisende(r) am Beckenrand als Silhouette. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_rooftop_1.jpg",
+    "url": "https://www.flickr.com/photos/fran001/53228277860/",
+    "credit": "Francisco Anzola · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_rooftop_2.jpg",
+    "url": "https://www.flickr.com/photos/kevintierney/2654746670/",
+    "credit": "irishtravel · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-zeitscheibe",
+  "city": "Fenghuang",
+  "name": "Time-Slice: Tag wird Nacht am Hongqiao 虹桥",
+  "lat": 27.95346,
+  "lng": 109.5981,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "both",
+  "note": "Eine Kamera, ein Standpunkt, 90 Minuten: Aus 40–60 Aufnahmen werden senkrechte Streifen zusammengesetzt – links goldenes Abendlicht auf den Stelzenhäusern, in der Mitte blaue Stunde, rechts die beleuchtete Hongqiao-Brücke in der Nacht, oben der Mond. Zeit wird als Raum sichtbar.",
+  "tip": "Standpunkt an den Schrittsteinen (跳岩) bzw. Ufer davor mit Blick flussabwärts zum Hongqiao (≈118°). Stativ fest, manuelle Fokussierung, 16–35 mm, Zeitautomatik mit fixer Blende f/8, ISO 100; Intervall alle 2 min von 17:30 bis 19:00 (Sonnenuntergang 18:06, Lichter ab ~18:20). Mond steht um 18:30 bei Az 122°/34° – rechts oben im Bild. Später in Photoshop als Streifen maskieren. ★★★ – Platz früh sichern, Stativ nicht verrücken.",
+  "images": [
+   {
+    "image": "images/idea_fh2_zeitscheibe_1.jpg",
+    "url": "https://www.flickr.com/photos/peacezxp/37236221564/",
+    "credit": "Hafidz Abdul Kadir · Flickr",
+    "caption": "Ähnliches Motiv – Time-Slice Tag→Nacht, Kuala Lumpur"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-gegenlicht",
+  "city": "Fenghuang",
+  "name": "Gegenlicht im Morgendunst 沱江 · 雪桥",
+  "lat": 27.95446,
+  "lng": 109.59663,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Wenn die Sonne über die Hügel steigt, leuchtet der Dunst über dem Tuo-Fluss gelb, die Boote mit Stakern und Fischern werden zu Scherenschnitten, Lichtfahnen fallen zwischen den Stelzenhäusern aufs Wasser. Gegenlicht macht aus der überlaufenen Postkartenstadt ein zeitloses Tuschebild.",
+  "tip": "23.10.: Sonnenaufgang 6:46 bei Az 102°, über den Hügeln ca. 7:05–7:15 (Az ~105°) – also flussabwärts Richtung Hongqiao schauen (Brücke liegt vom Xueqiao aus bei ~117°). Vom Xue-Brücke (雪桥) oder den Schrittsteinen, 70–200 mm, auf die hellen Lichter belichten (−1 EV), Sonne knapp hinter Dach/Baum verstecken. Rauch von Frühstücksfeuern verstärkt die Strahlen. ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_gegenlicht_1.jpg",
+    "url": "https://www.flickr.com/photos/itravelinchina/2236082822/",
+    "credit": "Wayne_zhh · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_gegenlicht_2.jpg",
+    "url": "https://www.flickr.com/photos/itravelinchina/2236082820/",
+    "credit": "Wayne_zhh · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-nanhua",
+  "city": "Fenghuang",
+  "name": "Über den Dächern vom Nanhua-Berg 南华山",
+  "lat": 27.9475,
+  "lng": 109.6005,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "both",
+  "note": "Vom bewaldeten Nanhua-Berg direkt hinter dem Hotel sieht man die ganze Altstadt: graue Dachwellen, der grüne Fluss in der Biegung, Brücken und Turm. Morgens mit Kochrauch und Dunst über den Dächern, abends als Lichterteppich – ein Überblick, den die meisten Besucher nie sehen.",
+  "tip": "Aufgang über Treppen vom Wenhua-Platz (文化广场)/Nanhua-Tor, ca. 20–30 min; Zugang/Öffnungszeit und ggf. Ticket vor Ort prüfen. Morgens 23.10. ab 6:30: Sonne kommt von rechts (O), Seitenlicht über den Dächern – 70–200 mm für Dachschichten mit Rauch. Abends 22.10. blaue Stunde 18:20–18:50: 3–4 Hochformat-Aufnahmen als Panorama, 24–70 mm, Stativ, f/8, 4–10 s. Stirnlampe für den Rückweg. ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_nanhua_1.jpg",
+    "url": "https://www.flickr.com/photos/tjetjep/14158106789/",
+    "credit": "T Ξ Ξ J Ξ · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_nanhua_2.jpg",
+    "url": "https://www.flickr.com/photos/23665309@N02/5312863497/",
+    "credit": "Meiguoxing · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-dachziegel",
+  "city": "Fenghuang",
+  "name": "Ziegelmeer als Abstraktion 凤凰 · 青瓦",
+  "lat": 27.948,
+  "lng": 109.6005,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Die Mönch-Nonne-Ziegel (Hohlziegel) der Altstadt bilden gewellte Muster, unterbrochen von Brandmauern mit geschwungenen Giebeln, Moos und Katzen. Mit dem Tele von oben ohne Himmel und Horizont fotografiert, entsteht ein Bild wie ein Textilmuster – je enger der Ausschnitt, desto stärker.",
+  "tip": "Vom Nanhua-Berg, von der Stadtmauer oder aus einem oberen Café-Fenster. 200–400 mm, f/8–11, 1/250 s. Frühes, flaches Morgenlicht am 23.10. (7:15–8:00, Sonne Az 105–110° auf 5–12° Höhe) modelliert die Ziegelreihen; Nässe nach Regen lässt sie glänzen. Ein einziges Störelement suchen: Katze, rote Laterne, Wäscheleine. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_dachziegel_1.jpg",
+    "url": "https://www.flickr.com/photos/bagush/32258163366/",
+    "credit": "Bagush · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_dachziegel_2.jpg",
+    "url": "https://www.flickr.com/photos/phuongphoto/49361478277/",
+    "credit": "phuong.sg@gmail.com · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-icm",
+  "city": "Fenghuang",
+  "name": "Laternen verwischen (ICM) 凤凰 · 灯笼",
+  "lat": 27.95103,
+  "lng": 109.59883,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "night",
+  "note": "Die roten Laternenreihen der Gassen und Bars werden mit bewusster Kamerabewegung zu Farbbändern und Lichtstreifen. Eine Person mit scharf gezogenem Gesicht (Blitz) in der Mitte macht daraus ein surreales Straßenbild.",
+  "tip": "22.10. ab ca. 19:00 in der Hauptgasse 东正街/Laternenstraßen. 24–50 mm, Blende 11–16, 1/4–1/2 s, Kamera bei der Belichtung horizontal schwenken, drehen oder zoomen. Mit Blitz auf den 2. Verschlussvorhang eine Person einfrieren. Viele Versuche; Histogramm nicht überbelichten. ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_icm_1.jpg",
+    "url": "https://www.flickr.com/photos/bill19/35502316594/",
+    "credit": "Billy Clapham · Flickr",
+    "caption": "Ähnliches Motiv – Laternen mit Bewegungsunschärfe (anderer Ort)"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-zoomburst",
+  "city": "Fenghuang",
+  "name": "Zoom-Burst auf die Regenbogenbrücke 虹桥",
+  "lat": 27.9531,
+  "lng": 109.5995,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "night",
+  "note": "Die nachts golden beleuchtete Hongqiao-Brücke explodiert mit einem Zoom-Burst förmlich in Lichtstrahlen, die Spiegelung im Fluss zieht mit. Mit einer zweiten, scharfen Belichtung kombiniert bleibt der Kern der Brücke lesbar – Energie statt Idylle.",
+  "tip": "Vom Ufer beim Nordtor bzw. Schrittsteinen, Stativ. 24–105 oder 70–200 mm Zoom, f/11, 1–2 s: erste Hälfte der Zeit stillhalten, dann gleichmäßig zoomen. Alternativ in der Kamera zweifach belichten (scharf + Zoom). Ab 19:00 (Beleuchtung voll an). ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_zoomburst_1.jpg",
+    "url": "https://www.flickr.com/photos/wolfics/4550711048/",
+    "credit": "Wolfics · Flickr",
+    "caption": "Ähnliches Motiv – Zoom-Burst am Singapore River"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-doppel",
+  "city": "Fenghuang",
+  "name": "Doppelbelichtung: Gesicht und Stelzenhäuser 吊脚楼",
+  "lat": 27.95291,
+  "lng": 109.59837,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "both",
+  "note": "In-Kamera-Mehrfachbelichtung: das Profil eines Menschen als helle Silhouette gegen den Himmel, gefüllt mit den Stelzenhäusern am Fluss. Ein Bild über Heimat und Erinnerung – passend zur Stadt des Schriftstellers Shen Congwen.",
+  "tip": "Kamera mit Mehrfachbelichtungs-Modus („Hellen“ oder „Durchschnitt“). 1. Aufnahme: Profil vor hellem Himmel, stark überbelichtet (+1,5 EV), 85 mm. 2. Aufnahme: Stelzenhäuser oder Hongqiao, 50–85 mm, dunkle Bereiche ins Gesicht legen (Live-Overlay nutzen). Abends funktioniert es auch mit Lichtern. ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_doppel_1.jpg",
+    "url": "https://www.flickr.com/photos/feliciabrenning/10460168014/",
+    "credit": "Felicia Brenning · Flickr",
+    "caption": "Ähnliches Motiv – Doppelbelichtung Porträt + Stadt"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-gesichter",
+  "city": "Fenghuang",
+  "name": "12 Kopftücher – Porträt-Typologie 苗族 · 土家族",
+  "lat": 27.95103,
+  "lng": 109.59883,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Ältere Miao- und Tujia-Frauen tragen in Fenghuang noch die hohen, gewickelten schwarzen oder karierten Turbane. Eine Serie aus zwölf Porträts – immer gleicher Ausschnitt, gleiches Licht, neutraler Hintergrund – macht aus Zufallsbegegnungen eine Typologie im Stil von August Sander.",
+  "tip": "23.10. vormittags in Gassen, am Markt und an den Ufern. Immer fragen (Zeigen auf Kamera, Lächeln, „可以拍吗?“), kleines Geschenk/Kauf, Foto am Display zeigen; viele möchten 5–10 ¥. 85 mm f/2,8, Schatten einer Hauswand oder Torbogen als weiches Licht, Person 1 m vor dunklem Hintergrund. Gleiche Höhe und Brennweite für alle. ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_gesichter_1.jpg",
+    "url": "https://www.flickr.com/photos/apellissier/23315243442/",
+    "credit": "Helvetic Wanderlust · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_gesichter_2.jpg",
+    "url": "https://www.flickr.com/photos/neildnoland/22955559604/",
+    "credit": "Neil Noland · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-fenster",
+  "city": "Fenghuang",
+  "name": "Typologie: 12 Fenster und Türen 凤凰 · 门窗",
+  "lat": 27.95178,
+  "lng": 109.60009,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Geschnitzte Holzfenster, abgeblätterte Türen, Ladenluken, Fenster mit Wäsche oder Katze: frontal, rechtwinklig und immer gleich groß fotografiert, ergibt das ein Raster, das mehr über die Stadt erzählt als eine Totale.",
+  "tip": "Am 23.10. 8–11 Uhr in den Seitengassen hinter dem Yang-Ahnentempel (杨家祠堂) und am Südufer. 35–50 mm, Kamera exakt parallel (Wasserwaage im Sucher), f/8. Diffuses Licht oder Schatten; nichts schräg. Zuhause als 3×4-Raster. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_fenster_1.jpg",
+    "url": "https://www.flickr.com/photos/neildnoland/22955898794/",
+    "credit": "Neil Noland · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_fenster_2.jpg",
+    "url": "https://www.flickr.com/photos/godblessbotox/1820458472/",
+    "credit": "jeremy! · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-pfahlwald",
+  "city": "Fenghuang",
+  "name": "Wald aus Pfählen unter den Stelzenhäusern 回龙阁",
+  "lat": 27.9502,
+  "lng": 109.6025,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Unter den Stelzenhäusern stehen Dutzende dünner Holzpfähle im Wasser – ein Gitter aus Vertikalen mit grünen Spiegelungen. Ganz tief und nah fotografiert verschwindet das Postkartenhaus, und es bleibt ein abstrakter Wald, der die Fragilität der ganzen Stadt zeigt.",
+  "tip": "Am Ufer beim Huilongge (回龙阁) bzw. vom Boot aus. 70–200 mm frontal auf die Pfähle, f/8, oder 16 mm ganz tief über der Wasserlinie (Klappdisplay). Morgens 23.10. ist das Wasser oft spiegelglatt; ND 6–10 Stufen glättet es zusätzlich. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_pfahlwald_1.jpg",
+    "url": "https://www.flickr.com/photos/fran001/53227766771/",
+    "credit": "Francisco Anzola · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_pfahlwald_2.jpg",
+    "url": "https://www.flickr.com/photos/applica/11289401343/",
+    "credit": "CHO-ME · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-bootsblick",
+  "city": "Fenghuang",
+  "name": "Aus dem Boot: Fluss auf Augenhöhe 沱江泛舟",
+  "lat": 27.9535,
+  "lng": 109.5975,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Vom Holzboot aus, Kamera knapp über dem Wasser, ragen die Stelzenhäuser hoch auf, der Bug des Bootes und die Hand des Stakers bilden den Vordergrund. Diese Froschperspektive aus der Flussmitte bekommt man vom Ufer nie.",
+  "tip": "Bootsanleger beim Nordtor (北门码头), Fahrten ca. 30–40 min, Preis/Zeiten vor Ort. 14–20 mm, Kamera mit Handschlaufe über die Bordwand (Klappdisplay), 1/500 s. Alternativ: Staker mit Stange als Silhouette vor dem Hongqiao. Kameraschutz gegen Spritzer. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_bootsblick_1.jpg",
+    "url": "https://www.flickr.com/photos/jumpai88/2908701002/",
+    "credit": "Jumparik · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-mitzieher",
+  "city": "Fenghuang",
+  "name": "Mitzieher mit dem Staker 沱江 · 撑船",
+  "lat": 27.952,
+  "lng": 109.6005,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Ein Staker stößt sein Boot mit der langen Bambusstange voran: Bei 1/15 s mitgezogen, bleibt er scharf, während Häuser und Wasser zu waagerechten Streifen verwischen – Bewegung und Ruhe in einem Bild.",
+  "tip": "Am 22.10. ca. 17:00–17:45 (weiches Licht) oder 23.10. ab 8:00, vom Ufer oder einer Brücke quer zur Fahrtrichtung. 70–200 mm, Blendenvorwahl Zeit 1/8–1/30 s, Serienbild, AF-C; gleichmäßig mitschwenken und nach dem Auslösen weiterdrehen. Von 30 Bildern sind 2–3 gut. ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_mitzieher_1.jpg",
+    "url": "https://www.flickr.com/photos/32359643@N05/3027344816/",
+    "credit": "forsyth.pamela · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-geisterstrom",
+  "city": "Fenghuang",
+  "name": "Geisterstrom über die Schrittsteine 跳岩",
+  "lat": 27.95346,
+  "lng": 109.5981,
+  "approx": false,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "night",
+  "note": "Abends laufen ständig Menschen über die beleuchteten Schrittsteine. Mit 20–30 s Belichtung werden sie zu durchscheinenden Geistern und Lichtspuren (Handylampen), während die Steinreihe scharf bleibt – die Masse als Fluss im Fluss.",
+  "tip": "22.10. ca. 19:00–21:00, Stativ am Ufer seitlich der Steine (nicht auf den Steinen – kein Platz). 24–35 mm, f/11, ISO 64–100, ggf. ND 3–6 Stufen für 20–30 s. Eine Person bittet ihr, 5 s still auf einem Stein zu stehen – sie bleibt als halbscharfe Figur zwischen den Geistern. ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_geisterstrom_1.jpg",
+    "url": "https://www.flickr.com/photos/jrgreen/2415308227/",
+    "credit": "jrgreen · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_geisterstrom_2.jpg",
+    "url": "https://www.flickr.com/photos/bill-green/7844214766/",
+    "credit": "Bill-Green · Flickr",
+    "caption": "Ähnliches Motiv – „Geister“ auf der Millennium Bridge, London"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-menschenleer",
+  "city": "Fenghuang",
+  "name": "Die leere Hauptgasse (Median-Stack) 东正街",
+  "lat": 27.95103,
+  "lng": 109.59883,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Fenghuangs Gassen sind tagsüber verstopft. Mit 30–60 Aufnahmen vom Stativ und Median-Stapelung verschwindet jede Person – übrig bleibt eine geisterhaft leere, perfekt saubere Altstadtgasse, als wäre die Zeit stehen geblieben.",
+  "tip": "23.10. zwischen 8:00 und 10:00 (Läden öffnen, Licht von O in die Gasse). Stativ an einer Hauswand, 24–35 mm, alle Werte manuell, Intervall 3 s, 40 Bilder, oder ND 1000 mit 2–3 min. In Photoshop: Stapelmodus „Median“. Bewusst einen Rest lassen (eine sitzende Ladenbesitzerin bleibt scharf). ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_menschenleer_1.jpg",
+    "url": "https://www.flickr.com/photos/fengwei888/5817245658/",
+    "credit": "Feng Wei Photography · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-torbogen",
+  "city": "Fenghuang",
+  "name": "Silhouette im Nordtor 北门城楼",
+  "lat": 27.95291,
+  "lng": 109.59837,
+  "approx": false,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "night",
+  "note": "Das dunkle Gewölbe des Nordtors rahmt den hell erleuchteten Fluss und die Stelzenhäuser dahinter. Eine einzelne Person im Torbogen wird zur Silhouette – Rahmen im Rahmen, Dunkelheit vor Licht.",
+  "tip": "22.10. 18:30–19:30: von der Stadtseite durch das Tor Richtung Fluss. 24–35 mm, Belichtung auf die Lichter draußen, Gewölbe bleibt schwarz; Mitreisende mittig ins Tor stellen. Bei Gedränge 1/60 s + ISO 3200 oder Stativ mit 2 s und ruhender Figur. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_torbogen_1.jpg",
+    "url": "https://www.flickr.com/photos/tctyin/33858436302/",
+    "credit": "tctyin · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_torbogen_2.jpg",
+    "url": "https://www.flickr.com/photos/nberger/13587057643/",
+    "credit": "niklausberger · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-stadtmauer",
+  "city": "Fenghuang",
+  "name": "Laternenlinie auf der Stadtmauer 凤凰古城墙",
+  "lat": 27.9527,
+  "lng": 109.5992,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "night",
+  "note": "Die erhaltene Stadtmauer zwischen Nord- und Osttor zieht mit Zinnen und Laternen als leuchtende Linie am Fluss entlang. Aus flacher Perspektive auf der Mauerkrone führen die Lichter direkt zum beleuchteten Torturm – eine starke Diagonale, die viele übersehen.",
+  "tip": "Mauer vom Nordtor Richtung Osttor (东门). 22.10. blaue Stunde 18:20–18:50: Kamera tief auf die Mauerkrone, 16–24 mm, f/11, 4–8 s, Stativ; Menschen ziehen als Schleier durch. Tagsüber/morgens: 70–200 mm von unten mit Spiegelung. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_stadtmauer_1.jpg",
+    "url": "https://www.flickr.com/photos/30851905@N06/6492271953/",
+    "credit": "ppiglet2001 · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_stadtmauer_2.jpg",
+    "url": "https://www.flickr.com/photos/markbellingham/7157333904/",
+    "credit": "Mark_Bellingham · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-chili",
+  "city": "Fenghuang",
+  "name": "Chili-Teppich in der Herbstsonne 凤凰 · 晒辣椒",
+  "lat": 27.952,
+  "lng": 109.5995,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Im Oktober trocknen Anwohner Chilischoten auf Bambusmatten, Mauerkronen und Treppen. Senkrecht von oben fotografiert wird das zu einem roten Farbfeld – mit einer Hand, einem Besen oder einer Katze als einzigem Störelement.",
+  "tip": "23.10. vormittags in den Gassen und an der Stadtmauer Ausschau halten (nicht garantiert). 24–35 mm senkrecht über Kopf (Klappdisplay) oder 70 mm von einer Treppe herab, f/8. Seitenlicht von O vor 9 Uhr lässt die Schoten glänzen. Vorher fragen, nicht drauftreten. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_chili_1.jpg",
+    "url": "https://www.flickr.com/photos/29554173@N03/2791291648/",
+    "credit": "jessroy · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-fenster2",
+  "city": "Fenghuang",
+  "name": "Fensterrahmen über dem Fluss 虹桥艺术楼",
+  "lat": 27.95173,
+  "lng": 109.60182,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Aus dem Obergeschoss der Hongqiao-Brücke oder einem Café-Fenster am Ufer rahmen dunkle Holzfenster den hellen Fluss, die Boote und den Wanming-Turm. Rahmen im Rahmen: Innen das Dunkel einer Teestube, außen das Morgenlicht.",
+  "tip": "Obergeschoss des Hongqiao (虹桥艺术楼, Eintritt/Öffnungszeit vor Ort prüfen) oder ein Café mit Flussfenster. 23.10. 8:00–10:00, Blick flussabwärts zum Turm. 24–35 mm, auf das Außenlicht belichten, innen bleibt Struktur (HDR mit 3 Belichtungen). Tasse/Hand als Vordergrund. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_fenster2_1.jpg",
+    "url": "https://www.flickr.com/photos/sunkenwater/2485273512/",
+    "credit": "sunkenwater · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_fenster2_2.jpg",
+    "url": "https://www.flickr.com/photos/zuyetawarmatik/40398540270/",
+    "credit": "zuyetawarmatik · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-telestapel",
+  "city": "Fenghuang",
+  "name": "Tele-Stapel: Turm, Brücke, Häuser 风桥",
+  "lat": 27.94985,
+  "lng": 109.60408,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "both",
+  "note": "Mit 400–600 mm von flussabwärts drückt die Tele-Kompression Wanming-Turm, Häuserzeilen, Hongqiao und Berge zu einer einzigen Wand zusammen – die Stadt wirkt dichter und höher, als sie ist, wie ein chinesisches Rollbild.",
+  "tip": "Vom Fengqiao (风桥) bzw. dem Ufer unterhalb flussaufwärts schauen (≈300°). 23.10. 7:15–8:00: Sonne von hinten-links (Az 106–110°) beleuchtet die Fassaden frontal; Dunst trennt die Ebenen. Abends 22.10. in der blauen Stunde dasselbe mit Lichtern. 400–600 mm, f/8–11, Stativ, 1/125 s. ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_telestapel_1.jpg",
+    "url": "https://www.flickr.com/photos/tctyin/33648134660/",
+    "credit": "tctyin · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_telestapel_2.jpg",
+    "url": "https://www.flickr.com/photos/fran001/53228266085/",
+    "credit": "Francisco Anzola · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-bars",
+  "city": "Fenghuang",
+  "name": "Nachtleben am Fluss – Reportage 凤凰 · 酒吧街",
+  "lat": 27.952,
+  "lng": 109.6,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "night",
+  "note": "Nachts wird Fenghuang laut: Bars mit Live-Gitarren, Gesang über den Fluss hinweg, Neon spiegelt sich im Wasser. Eine Reportage aus dem Inneren – Sänger im roten Licht, Gäste mit Bierflaschen, Blick durchs Fenster auf die Lichterstadt – zeigt die echte, heutige Seite der „schönsten Kleinstadt Chinas“.",
+  "tip": "22.10. ab 20:30 in der Barzeile am Ufer (beim Hongqiao). 24–35 mm f/1.4–2, ISO 3200–6400, 1/60 s; Sänger fragen bzw. Getränk bestellen, dann gehört ihr dazu. Bild durch die Bar nach draußen: Belichtung auf die Lichter draußen, Silhouetten drinnen. ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_bars_1.jpg",
+    "url": "https://www.flickr.com/photos/riobard/2177086133/",
+    "credit": "the2ndcoming · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_bars_2.jpg",
+    "url": "https://www.flickr.com/photos/rataki/25159264488/",
+    "credit": "Pierre Bodilis · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-angler",
+  "city": "Fenghuang",
+  "name": "Frühe Angler an der Uferstufe 沱江",
+  "lat": 27.9535,
+  "lng": 109.5978,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Im ersten Licht sitzen alte Männer mit langen Ruten an den Uferstufen und Schrittsteinen, still, rauchend, das grüne Wasser vor sich. Nah an Händen, Schnur und Rauch – oder klein vor der Spiegelung der Häuser – entsteht ein ruhiges Bild vom Alltag hinter der Kulisse.",
+  "tip": "23.10. 6:20–7:30 am Ufer zwischen Xueqiao und Nordtor. 70–200 mm aus Distanz (keine Störung), Spiegelung der Häuser als Hintergrund; nah ran nur nach Gruß und Nicken. Mit Gegenlicht ab 7:10 leuchtet die Angelschnur. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_angler_1.jpg",
+    "url": "https://www.flickr.com/photos/mgalmes/45964490902/",
+    "credit": "Miguel.Galmes · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_angler_2.jpg",
+    "url": "https://www.flickr.com/photos/rataki/38841173662/",
+    "credit": "Pierre Bodilis · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-pfuetze",
+  "city": "Fenghuang",
+  "name": "Die Stadt in der Pfütze 凤凰 · 倒影",
+  "lat": 27.95103,
+  "lng": 109.59883,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "night",
+  "note": "Nach Regen spiegeln sich rote Laternen, Dächer und Neon in Pfützen auf den Steinplatten der Gassen. Kamera direkt an die Wasseroberfläche – die Welt steht auf dem Kopf, ein Stück Pflaster als Rahmen.",
+  "tip": "Bei feuchten Gassen am 22.10. abends oder 23.10. früh. Kamera fast auf den Boden, 16–35 mm, Fokus auf die Spiegelung, f/8. Keine Pfütze? Mit Wasserflasche selbst eine kleine Pfütze gießen oder Smartphone-Display unter das Objektiv halten (Spiegel-Trick). ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_pfuetze_1.jpg",
+    "url": "https://www.flickr.com/photos/dschwabe/2802196448/",
+    "credit": "Daniel Schwabe · Flickr",
+    "caption": "Ähnliches Motiv – Laternen in der Pfütze (anderer Ort)"
+   },
+   {
+    "image": "images/idea_fh2_pfuetze_2.jpg",
+    "url": "https://www.flickr.com/photos/50473521@N03/5729515754/",
+    "credit": "ShootChick · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-kostuem",
+  "city": "Fenghuang",
+  "name": "Miao für einen Nachmittag – Kostümtouristen 凤凰 · 苗服",
+  "lat": 27.95291,
+  "lng": 109.59837,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "both",
+  "note": "An jeder Ecke leihen sich Besucherinnen Miao-Trachten mit Silberkronen und lassen sich vor den Stelzenhäusern fotografieren, oft mit eigenem Fotografen und Reflektor. Mit ironischem Blick à la Martin Parr – Kostüm, Selfiestick, Plastikschuhe, echte Miao-Frau daneben – entsteht eine Serie über Tourismus und Identität.",
+  "tip": "22.10. 17:00–18:00 und 23.10. vormittags an Ufer und Schrittsteinen. 35 mm nah dran oder 70–200 mm aus der Distanz für Szenen mit dem Fotografen. Respektvoll bleiben, Gesichter nicht bloßstellen; Blitz aufhellen bei Gegenlicht. Serie aus 6–9 Bildern. ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_kostuem_1.jpg",
+    "url": "https://www.flickr.com/photos/antiqueage/9564869835/",
+    "credit": "lastdollarventures · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_kostuem_2.jpg",
+    "url": "https://www.flickr.com/photos/antiqueage/9617504043/",
+    "credit": "lastdollarventures · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-stickerin",
+  "city": "Fenghuang",
+  "name": "Hände der Stickerin 苗绣",
+  "lat": 27.951,
+  "lng": 109.599,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "In kleinen Läden und Hauseingängen sticken Miao-Frauen Täschchen und Bänder in leuchtenden Farben. Hände, Nadel und Faden im Seitenlicht eines Fensters, das Gesicht nur angeschnitten – ein stilles Handwerksbild.",
+  "tip": "23.10. vormittags in den Gassen nach Stickerinnen suchen, etwas kaufen, dann fragen. 50–85 mm f/2, im Fenster- oder Türlicht, Hintergrund dunkel. Serie: Hände – Detail des Stoffs – Gesicht. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_stickerin_1.jpg",
+    "url": "https://www.flickr.com/photos/jrgreen/2434384472/",
+    "credit": "jrgreen · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-dampf",
+  "city": "Fenghuang",
+  "name": "Dampf der Frühstücksküche 凤凰 · 米粉",
+  "lat": 27.9518,
+  "lng": 109.5985,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Früh morgens dampfen in kleinen Garküchen große Töpfe mit Reisnudeln und Wantan-Brühe. Im Gegenlicht leuchtet der Dampf, die Köchin wird zur halben Silhouette, Schüsseln reihen sich im Vordergrund – Atmosphäre pur.",
+  "tip": "23.10. 6:30–7:30 kleine Nudelküchen in Gassen nahe Nordtor/Hongqiao (selbst frühstücken!). Position so, dass das Morgenlicht oder eine Lampe hinter dem Dampf steht. 35 mm, 1/250 s, unterbelichten (−0,7 EV), damit der Dampf strahlt. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_dampf_1.jpg",
+    "url": "https://www.flickr.com/photos/chanmelmel/8486129986/",
+    "credit": "MelindaChan ^..^ · Flickr",
+    "caption": "Ähnliches Motiv – Garküche in Shanjian (Kreis Fenghuang)"
+   },
+   {
+    "image": "images/idea_fh2_dampf_2.jpg",
+    "url": "https://www.flickr.com/photos/chanmelmel/8485617332/",
+    "credit": "MelindaChan ^..^ · Flickr",
+    "caption": "Ähnliches Motiv – Garküche in Shanjian (Kreis Fenghuang)"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-markt",
+  "city": "Fenghuang",
+  "name": "Markttag der Miao in Alaying 阿拉营集市",
+  "lat": 27.90911,
+  "lng": 109.38676,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "In den Dörfern um Fenghuang finden noch traditionelle Märkte statt: Miao-Frauen mit Kopftüchern und Tragekörben, Chili, Ferkel, Werkzeug, Schmiede. Ein Morgen hier liefert Gesichter, Hände und Szenen, die es in der Altstadt nicht mehr gibt.",
+  "tip": "Nur an Markttagen (赶集, Rhythmus mehrere Tage) – am 22.10. an der Rezeption fragen, ob am 23.10. in Alaying (阿拉营, ~30 min Taxi) oder Shanjian (山江) Markt ist. Dann 7:45–10:30, Rückkehr vor 11:30. 35 mm nah, freundlich fragen; 70–200 mm für Szenen. ★★★ (Logistik)",
+  "images": [
+   {
+    "image": "images/idea_fh2_markt_1.jpg",
+    "url": "https://www.flickr.com/photos/tctyin/33190376964/",
+    "credit": "tctyin · Flickr",
+    "caption": "Auf dem Weg zum Markt – Fenghuang"
+   },
+   {
+    "image": "images/idea_fh2_markt_2.jpg",
+    "url": "https://www.flickr.com/photos/151104658@N08/31457298444/",
+    "credit": "nancy.liew · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-laterne",
+  "city": "Fenghuang",
+  "name": "Porträt im Laternenlicht 凤凰 · 灯笼",
+  "lat": 27.95346,
+  "lng": 109.5981,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "night",
+  "note": "Eine kleine LED in einem Papierlampion oder eine Flusslaterne in der Hand beleuchtet ein Gesicht warm von unten, dahinter die Lichterstadt als Bokeh. Ein intimes Porträt statt eines Weitwinkel-Panoramas.",
+  "tip": "22.10. 19:00–20:00 an Uferstufen. 85 mm f/1.4–2, ISO 1600; LED (warm, gedimmt) in Lampion oder Hand. Variante: Blitz auf 2. Vorhang, 1/4 s – Lichter ziehen Spuren, Gesicht bleibt scharf. Mitreisende oder eine Laternenverkäuferin (Laterne abkaufen). ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_laterne_1.jpg",
+    "url": "https://www.flickr.com/photos/delobbo/55516480128/",
+    "credit": "rsfashionphoto · Flickr",
+    "caption": "Ähnliches Motiv – Porträt im Laternenlicht (anderer Ort)"
+   },
+   {
+    "image": "images/idea_fh2_laterne_2.jpg",
+    "url": "https://www.flickr.com/photos/87707437@N06/30313780841/",
+    "credit": "leicaman8 · Flickr",
+    "caption": "Ähnliches Motiv – Laternenverkäuferin (anderer Ort)"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-regen",
+  "city": "Fenghuang",
+  "name": "Schirme auf den Schrittsteinen 跳岩 · 雨天",
+  "lat": 27.95346,
+  "lng": 109.5981,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Falls es regnet: Bunte Schirme ziehen in einer Linie über die Schrittsteine, das Nordtor im Hintergrund, Regenringe auf dem Wasser. Von oben oder schräg aus der Ferne wird Regenwetter zum Glücksfall.",
+  "tip": "Bei Regen am 22. oder 23.10.: von der Xue-Brücke (雪桥) bzw. Ufer mit 70–200 mm, 1/250 s, Schirme als Farbtupfer gegen grünes Wasser; oder 1/15 s für fließenden Regen. Vom Nordtor aus Tele auf die Steine. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_regen_1.jpg",
+    "url": "https://www.flickr.com/photos/152747617@N06/37855371761/",
+    "credit": "marinachi · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_regen_2.jpg",
+    "url": "https://www.flickr.com/photos/kellylaracurtis/9579620173/",
+    "credit": "KellyLaraCurtis · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-congwen",
+  "city": "Fenghuang",
+  "name": "„Die Grenzstadt“ in Schwarzweiß 沈从文墓 · 听涛山",
+  "lat": 27.94664,
+  "lng": 109.6098,
+  "approx": false,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Shen Congwens Roman „Die Grenzstadt“ (边城) machte Fenghuang berühmt. Eine kleine Schwarzweiß-Reportage – Uferleben, Wäsche, Gassen, Fährmann – endet am stillen Grab des Autors am Tingtao-Berg, wo ein Naturstein mit seinem Satz steht: „Wer meinen Gedanken folgt, kann mich verstehen …“.",
+  "tip": "23.10. 8:00–10:00: Grab liegt flussabwärts östlich der Altstadt (≈1 km vom Hongqiao, Fußweg am Ufer). 35 mm, SW-Profil mit Körnung, Kontrast hoch; Stein im Seitenlicht des Vormittags. Reportage vorher in der Altstadt, nur 35 mm, als Serie von 8 Bildern. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_congwen_1.jpg",
+    "url": "https://www.flickr.com/photos/20n3/9140774173/",
+    "credit": "Michael Chow (HK) · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_congwen_2.jpg",
+    "url": "https://www.flickr.com/photos/96165805@N05/17805433584/",
+    "credit": "Johnny-Chu · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-schatten",
+  "city": "Fenghuang",
+  "name": "Lange Schatten in der Morgengasse 凤凰 · 古巷",
+  "lat": 27.9512,
+  "lng": 109.5996,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Am frühen Morgen fällt das Licht flach in die ost-west-verlaufenden Gassen, Menschen werfen meterlange Schatten über die Steinplatten, Dunst und Kochrauch werden zu Lichtkegeln. Hartes Gegenlicht macht die Gasse zur Bühne.",
+  "tip": "23.10. 7:10–8:00 (Sonne Az 105–110°, 5–12° hoch). Gassen mit Blick nach O suchen. 35–50 mm, auf die Lichter belichten (−1 bis −1,5 EV), Person warten, die in den Lichtstreifen tritt. Schwarzweiß-Option. ★",
+  "images": [
+   {
+    "image": "images/idea_fh2_schatten_1.jpg",
+    "url": "https://www.flickr.com/photos/fullingmoon/5674482429/",
+    "credit": "fullingmoon · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_schatten_2.jpg",
+    "url": "https://www.flickr.com/photos/laichan/8228499385/",
+    "credit": "Lai Philip CHAN · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-bootsspuren",
+  "city": "Fenghuang",
+  "name": "Lichtspuren der Nachtboote 万名塔",
+  "lat": 27.9506,
+  "lng": 109.602,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "night",
+  "note": "Abends fahren Boote mit Lampen und Laternen über den Tuo. Mit 20–30 s Belichtung bleibt vom Boot nur eine leuchtende Linie, die sich unter dem beleuchteten Wanming-Turm durchs Spiegelbild zieht.",
+  "tip": "22.10. 19:00–21:00 am Südufer beim Huilongge (回龙阁) oder Fengqiao mit Blick auf den Turm. Stativ, 24–35 mm, f/11, ISO 100, 15–30 s; abwarten, bis ein Boot quer durchs Bild fährt. Mehrere Aufnahmen später als Lighten-Stack kombinieren. ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_bootsspuren_1.jpg",
+    "url": "https://www.flickr.com/photos/orion-by/26791978530/",
+    "credit": "orion_by · Flickr"
+   },
+   {
+    "image": "images/idea_fh2_bootsspuren_2.jpg",
+    "url": "https://www.flickr.com/photos/enriqueekoga/38184021225/",
+    "credit": "Enrique EKOGA · Flickr",
+    "caption": "Ähnliches Motiv – Bootslichtspur, Amsterdam"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh2-brenizer",
+  "city": "Fenghuang",
+  "name": "Brenizer-Porträt an der Uferstufe 沱江",
+  "lat": 27.953,
+  "lng": 109.5985,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "when": "day",
+  "note": "Brenizer-Methode: 20–40 Aufnahmen mit 85 mm f/1.4 werden zu einem Weitwinkelbild mit der Unschärfe eines Großformats zusammengesetzt. Eine Person auf den Uferstufen, dahinter weich zerfließende Stelzenhäuser und Hongqiao – ein Porträt, das wie gemalt wirkt.",
+  "tip": "22.10. 17:00–17:45 (weiches Abendlicht von W) oder 23.10. 7:30–8:30. 85 mm f/1.4–1.8, alles manuell (Fokus, Belichtung, WB), Person zuerst, dann spiralförmig Hintergrund mit 30 % Überlappung. In Lightroom/PTGui zusammenfügen. ★★",
+  "images": [
+   {
+    "image": "images/idea_fh2_brenizer_1.jpg",
+    "url": "https://www.flickr.com/photos/bigpilou/32762160316/",
+    "credit": "PLF Photographie · Flickr",
+    "caption": "Ähnliches Motiv – Brenizer-Porträt (anderer Ort)"
+   }
+  ]
  }
 ]
