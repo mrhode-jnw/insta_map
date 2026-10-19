@@ -3321,6 +3321,16 @@ window.PLACES_CN = [
     "match": "single"
    },
    {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=12",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_12.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 12
+   },
+   {
     "url": "https://www.instagram.com/hotelsandhandluggage/p/Dcl8WxlAqf_/",
     "username": "",
     "profile_url": "https://www.instagram.com/hotelsandhandluggage/p/Dcl8WxlAqf_/",
@@ -3748,6 +3758,16 @@ window.PLACES_CN = [
     "caption": "Shanghai in Motion 🇨🇳\n\nA city that never really stays still. Slow shutters, passing cars, old architecture and little street moments — capturing Shanghai somewhere between movement and stillness.\n\nSpots I visited:\n📍 Jing’an Temple 📍 Cathay Cinema 📍 China Securities Museum 📍 Waibaidu Bridge 📍 The Louis 📍 Shanghai street scenes\n\nA few frames from wandering through the city \n\n📷 Sony A7V + 16-35 gmii\nFilter: K&F Nano-X ND4-64 & CPL\n\n#shanghaitravel #shanghaistreet #slowshutters #slowshutter",
     "match": "slide",
     "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=6",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_6.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 6
    }
   ],
   "pop": 5,
@@ -3905,11 +3925,181 @@ window.PLACES_CN = [
     "caption": "Shanghai! Where to go in 魔都, the Magic City 🇨🇳\n\n📍 The Bund. The city’s most iconic spot, with that legendary panoramic view of the Shanghai skyline.\n‼️ Head to North Bund Waterfront Green Space, far fewer tourists, and honestly a better vibe. That’s where my photos are from.\n\n📍 From the waterfront, it’s a great walk over to the famous Nanjing Road Pedestrian Street, the most well-known shopping street in all of China.\n\n📍 Xintiandi Shikumen Neighborhood. One of the most atmospheric areas in Shanghai! It preserves the unique shikumen architecture, a blend of Chinese and European design tradition",
     "match": "slide",
     "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=7",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_7.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 7
    }
   ],
   "pop": 5,
   "pop_reason": "Höchstes Gebäude Chinas, Aussichtsdeck",
   "when": "both"
+ },
+ {
+  "id": "cn-fosun-foundation",
+  "region": "cn",
+  "name": "Fosun Foundation 复星艺术中心",
+  "district": "Huangpu, Shanghai",
+  "category": "Architektur",
+  "note": "Kunstzentrum am Bund-Südende (Heatherwick Studio + Foster + Partners): bewegliche Bronze-Lamellen wie ein Bühnenvorhang.",
+  "address": "Huangpu, Shanghai",
+  "lat": 31.228881,
+  "lng": 121.493579,
+  "approx": false,
+  "image": "images/DeoaxnlmLO7_2.jpg",
+  "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+  "post_url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=2",
+  "username": "demas",
+  "profile_url": "https://www.instagram.com/demas/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=2",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_2.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 2
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Heatherwick-Bau am Bund, in vielen Architektur-Guides",
+  "when": "day"
+ },
+ {
+  "id": "cn-oriental-pearl-tower",
+  "region": "cn",
+  "name": "Oriental Pearl Tower 东方明珠",
+  "district": "Lujiazui, Shanghai",
+  "category": "Architektur",
+  "note": "Nachtblick auf den beleuchteten Fernsehturm mit Lichtspuren, vermutlich vom Lujiazui-Ringsteg (陆家嘴环形天桥) aus; Pin am Ringsteg.",
+  "address": "Lujiazui, Shanghai",
+  "lat": 31.23962,
+  "lng": 121.496037,
+  "approx": true,
+  "image": "images/DeoaxnlmLO7_3.jpg",
+  "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+  "post_url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=3",
+  "username": "demas",
+  "profile_url": "https://www.instagram.com/demas/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=3",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_3.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 3
+   }
+  ],
+  "pop": 5,
+  "pop_reason": "Wahrzeichen Shanghais",
+  "when": "night"
+ },
+ {
+  "id": "cn-1933-old-millfun-1933",
+  "region": "cn",
+  "name": "1933 Old Millfun 1933老场坊",
+  "district": "Hongkou, Shanghai",
+  "category": "Architektur",
+  "note": "Ehemaliger Schlachthof von 1933 (Balfours): Beton-Rampen, Brücken und Treppen um einen Rundbau – Labyrinth-Motiv.",
+  "address": "Hongkou, Shanghai",
+  "lat": 31.2569,
+  "lng": 121.4892,
+  "approx": false,
+  "image": "images/DeoaxnlmLO7_4.jpg",
+  "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+  "post_url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=4",
+  "username": "demas",
+  "profile_url": "https://www.instagram.com/demas/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=4",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_4.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 4
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Beliebtes Architektur-Fotomotiv, in vielen Guides",
+  "when": "day"
+ },
+ {
+  "id": "cn-the-roof-henderson-cifi-xintiandi",
+  "region": "cn",
+  "name": "The Roof – Henderson CIFI Xintiandi 恒基旭辉天地",
+  "district": "Huangpu, Shanghai",
+  "category": "Architektur",
+  "note": "Ateliers Jean Nouvel + ASPECT Studios: rote Passage mit Glasdach und hängenden Gärten zwischen Madang Road und Danshui Road.",
+  "address": "Huangpu, Shanghai",
+  "lat": 31.214126,
+  "lng": 121.470404,
+  "approx": false,
+  "image": "images/DeoaxnlmLO7_8.jpg",
+  "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+  "post_url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=8",
+  "username": "demas",
+  "profile_url": "https://www.instagram.com/demas/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=8",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_8.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 8
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Bekanntes Shikumen-Ausgehviertel",
+  "when": "day"
+ },
+ {
+  "id": "cn-shanghai-world-financial-center",
+  "region": "cn",
+  "name": "Shanghai World Financial Center 上海环球金融中心",
+  "district": "Lujiazui, Shanghai",
+  "category": "Aussicht",
+  "note": "„Flaschenöffner“-Hochhaus (KPF); Foto von oben, typisch vom Shanghai-Tower-Aussichtsdeck auf das SWFC-Dach.",
+  "address": "Lujiazui, Shanghai",
+  "lat": 31.236577,
+  "lng": 121.503041,
+  "approx": false,
+  "image": "images/DeoaxnlmLO7_10.jpg",
+  "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+  "post_url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=10",
+  "username": "demas",
+  "profile_url": "https://www.instagram.com/demas/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=10",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_10.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 10
+   }
+  ],
+  "pop": 5,
+  "pop_reason": "Ikonischer Wolkenkratzer mit Aussichtsdeck",
+  "when": "day"
  },
  {
   "id": "cn-shanghai-astronomy-museum",
@@ -4411,12 +4601,22 @@ window.PLACES_CN = [
   "lat": 31.2272,
   "lng": 121.4921,
   "approx": false,
-  "image": "images/claude_sh_yugarden_1.jpg",
-  "caption": "Shanghai! Where to go in 魔都, the Magic City 🇨🇳\n\n📍 The Bund. The city’s most iconic spot, with that legendary panoramic view of the Shanghai skyline.\n‼️ Head to North Bund Waterfront Green Space, far fewer tourists, and honestly a better vibe. That’s where my photos are from.\n\n📍 From the waterfront, it’s a great walk over to the famous Nanjing Road Pedestrian Street, the most well-known shopping street in all of China.\n\n📍 Xintiandi Shikumen Neighborhood. One of the most atmospheric areas in Shanghai! It preserves the unique shikumen architecture, a blend of Chinese and European design tradition",
-  "post_url": "https://www.instagram.com/hey.lirules/p/DZUUOwzjCOx/",
-  "username": "hey.lirules",
-  "profile_url": "https://www.instagram.com/hey.lirules/",
+  "image": "images/DeoaxnlmLO7_11.jpg",
+  "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+  "post_url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=11",
+  "username": "demas",
+  "profile_url": "https://www.instagram.com/demas/",
   "posts": [
+   {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=11",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_11.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 11
+   },
    {
     "url": "https://www.flickr.com/photos/cnmark/49017044256/",
     "username": "",
@@ -4474,8 +4674,6 @@ window.PLACES_CN = [
   ],
   "pop": 5,
   "pop_reason": "Klassischer Garten, Top-Sehenswürdigkeit",
-  "image_page": "https://www.flickr.com/photos/cnmark/49017044256/",
-  "image_credit": "Markus Bahlmann · Flickr",
   "when": "day"
  },
  {
@@ -7539,7 +7737,7 @@ window.PLACES_CN = [
  {
   "id": "claude-cn-jin-mao-tower-atrium",
   "region": "cn",
-  "by_claude": true,
+  "by_claude": false,
   "name": "Jin Mao Tower Atrium 金茂大厦中庭",
   "district": "Pudong, Shanghai",
   "category": "Architektur",
@@ -7608,6 +7806,15 @@ window.PLACES_CN = [
     "image": "images/claude_sh_jinmao_6.jpg",
     "caption": "",
     "credit": "gavingmb · Flickr"
+   },
+   {
+    "url": "https://www.instagram.com/p/DeoaxnlmLO7/?img_index=5",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DeoaxnlmLO7/?img_index=5",
+    "kind": "photo",
+    "image": "images/DeoaxnlmLO7_5.jpg",
+    "caption": "",
+    "credit": "@demas · Instagram"
    }
   ],
   "pop": 4,
@@ -7699,7 +7906,7 @@ window.PLACES_CN = [
  {
   "id": "claude-cn-west-bund-long-museum",
   "region": "cn",
-  "by_claude": true,
+  "by_claude": false,
   "name": "West Bund – Long Museum 龙美术馆（西岸馆）",
   "district": "Xuhui, Shanghai",
   "category": "Architektur",
@@ -7714,7 +7921,17 @@ window.PLACES_CN = [
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.instagram.com/p/DeoaxnlmLO7/?img_index=9",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DeoaxnlmLO7/?img_index=9",
+    "kind": "photo",
+    "image": "images/DeoaxnlmLO7_9.jpg",
+    "caption": "",
+    "credit": "@demas · Instagram"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Betonschirm-Architektur, alter Kohlekran, Uferpromenade",
   "image_page": "https://commons.wikimedia.org/wiki/File:20251129_Long_Museum_West_Bund.jpg",
