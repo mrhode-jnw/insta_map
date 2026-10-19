@@ -1316,7 +1316,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     // Karte von Hand wählen (oben rechts)
     if (!ROTATE && !GMAP) { window._baseSel = L.control.layers({ "OpenStreetMap": osm, "Gaode 高德": gaode, "Esri": esri, "Satellit (Google)": sat, "Satellit (Esri)": esriSat }, null, { position: "topright" }).addTo(map);
       window._baseSel.getContainer().classList.add("basesel"); }
-    map.on("baselayerchange", e => { baseBefore = null; try { e.layer === osm ? localStorage.removeItem("tileBase2") : localStorage.setItem("tileBase2", e.layer === gaode ? "gaode" : e.layer === esri ? "esri" : e.layer === sat ? "sat" : "esriSat"); } catch {} });
+    // Einstellung „Kartenbild“: Karte oder Satellit (auch über den Ebenen-Knopf; beides bleibt gleich)
+    const saveBaseSet = v => { try { window.SETTINGS = window.SETTINGS || {}; window.SETTINGS.baseMap = v; localStorage.setItem("settings", JSON.stringify(window.SETTINGS)); } catch {} };
+    window._setBase = v => { baseBefore = null; const c = curBase();
+      if (v === "sat") { if (c !== "sat" && c !== "esriSat") { if (c) map.removeLayer(BASES[c]); sat.addTo(map); } try { localStorage.setItem("tileBase2", "sat"); } catch {} }
+      else { if (c === "sat" || c === "esriSat") { map.removeLayer(BASES[c]); try { localStorage.removeItem("tileBase2"); } catch {} osm.addTo(map); } } };
+    if ((window.SETTINGS || {}).baseMap === "sat") try { localStorage.setItem("tileBase2", "sat"); } catch {}
+    else try { if (/sat/i.test(localStorage.getItem("tileBase2") || "")) localStorage.removeItem("tileBase2"); } catch {}
+    map.on("baselayerchange", e => { if (!baseBefore) saveBaseSet(e.layer === sat || e.layer === esriSat ? "sat" : "map"); baseBefore = null; try { e.layer === osm ? localStorage.removeItem("tileBase2") : localStorage.setItem("tileBase2", e.layer === gaode ? "gaode" : e.layer === esri ? "esri" : e.layer === sat ? "sat" : "esriSat"); } catch {} });
   }
 
   // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
@@ -2652,7 +2659,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       .addTo(walkLayer));
     const mk = walkMk;
     if (!map.hasLayer(walkLayer)) walkLayer.addTo(map);
-    if (!walkShown && window._satOn) window._satOn();  // Dörfer sind kaum kartiert → Satellitenbild zeigt Gassen und Häuser
+    if (!walkShown && window._satOn && setVal("walkSat") !== false) window._satOn();  // Dörfer sind kaum kartiert → Satellitenbild zeigt Gassen und Häuser
     walkShown = id; try { localStorage.setItem("walkShown", id); } catch {}
     $("#walkPill").textContent = `Rundgang ${w.place} · ${w.stops.length} Stationen · ${String(w.km).replace(".", ",")} km  ✕`; $("#walkPill").hidden = false;
     $("#wk").hidden = true; dockSync();
@@ -3134,17 +3141,19 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // ---------- Symbolleiste unten
   const DLG = { plan: "#itin", tours: "#toursDlg", walk: "#wk", insp: "#insp", time: "#tl", set: "#settings" };
   // ---------- Einstellungen
-  const SET_DEF = { theme: "auto", engine: "auto", mapColor: "app", hotels: true, pins: "normal" };
+  const SET_DEF = { theme: "auto", engine: "auto", mapColor: "app", hotels: true, pins: "normal", baseMap: "map", walkSat: true };
   const SETS = [
     ["Darstellung", [["theme", "Erscheinungsbild", [["auto", "Automatisch"], ["light", "Hell"], ["dark", "Dunkel"]], "Automatisch folgt der Einstellung des iPhones."]]],
     ["Karte", [
       ["engine", "Kartenanbieter", [["auto", "Automatisch"], ["google", "Google"], ["osm", "OSM"], ["rotate", "Drehbar"]], "Automatisch: Google, in Festland-China OpenStreetMap (Google ist dort verschoben). Drehbar: OpenStreetMap/Satellit mit zwei Fingern drehen. Wechsel lädt die App neu."],
       ["mapColor", "Kartenfarbe", [["app", "Wie App"], ["light", "Hell"], ["dark", "Dunkel"]], "Bei Google wirkt die Änderung nach dem Neuladen."],
+      ["baseMap", "Kartenbild", [["map", "Karte"], ["sat", "Satellit"]], "Satellit zeigt Dächer, Gassen und Felder – gut in Dörfern ohne Kartendaten. Auch über den Ebenen-Knopf oben rechts."],
+      ["walkSat", "Bei Rundgängen", [[true, "Satellit"], [false, "Wie Kartenbild"]], "Beim Öffnen eines Rundgangs automatisch aufs Satellitenbild wechseln."],
       ["pins", "Spot-Pins", [["normal", "Normal"], ["big", "Groß"]], ""],
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "94 · Spot-Auswahl: zur Karte / zum Spot";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "95 · Kartenbild in den Einstellungen";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3157,6 +3166,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const old = setVal(k); window.SETTINGS[k] = v;
     try { localStorage.setItem("settings", JSON.stringify(window.SETTINGS)); } catch {}
     applyTheme(); renderSettings();
+    if (k === "baseMap" && window._setBase) window._setBase(v);
     if (k === "engine" && old !== v) { toast("Karte wird gewechselt …", 1500); setTimeout(() => location.replace(location.pathname + location.hash), 600); }
     if (k === "mapColor" && GMAP) toast("Google-Karte: wirkt nach dem Neuladen", 2500);
   });
