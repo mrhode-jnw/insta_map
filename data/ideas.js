@@ -1553,5 +1553,848 @@ window.IDEAS = [
     "credit": "chee_hian · Flickr"
    }
   ]
+ },
+ {
+  "id": "idea-gz-kochrauch",
+  "region": "cn",
+  "idea": true,
+  "name": "Kochrauch im Morgenlicht 黄岗侗寨",
+  "city": "Guizhou",
+  "district": "Shuangjiang, Liping, Guizhou",
+  "category": "Fotoidee",
+  "address": "Shuangjiang, Liping, Guizhou",
+  "lat": 25.9206,
+  "lng": 108.9707,
+  "approx": true,
+  "when": "day",
+  "note": "In Huanggang wird morgens noch mit Holz gekocht: Gegen 6:30–7:30 steigt aus Hunderten Dächern blauer Rauch, legt sich mit dem Talnebel über die Ziegel und wird vom ersten Gegenlicht angestrahlt. Die zwei Trommeltürme ragen wie Inseln heraus – ein Bild, das es nur vor dem Frühstück gibt.",
+  "tip": "Am Vorabend den Hangweg oberhalb des Dorfs (Richtung Reisterrassen, Westseite) erkunden, damit ihr am 20.10. im Dunkeln hinfindet. Sonnenaufgang ca. 7:05 – ab 6:40 vor Ort sein. Tele 70–200 mm für komprimierte Dachreihen mit Rauchfahnen, gegen die Sonne mit Gegenlichtblende; leicht unterbelichten (−0,7 EV), damit Rauch und Licht nicht ausfressen. Kurz nach Sonnenaufgang, wenn Strahlen durch den Rauch fallen, Serie mit 1/250 s.",
+  "image": "images/idea_gz_kochrauch_1.jpg",
+  "image_page": "https://www.flickr.com/photos/kellyphotos/54099326686/",
+  "image_credit": "Kelly Cheng · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/kellyphotos/54099326686/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kellyphotos/54099326686/",
+    "kind": "photo",
+    "image": "images/idea_gz_kochrauch_1.jpg",
+    "caption": "",
+    "credit": "Kelly Cheng · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/fengwei888/21049723033/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fengwei888/21049723033/",
+    "kind": "photo",
+    "image": "images/idea_gz_kochrauch_2.jpg",
+    "caption": "",
+    "credit": "Feng Wei · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-ernte",
+  "region": "cn",
+  "idea": true,
+  "name": "Garben am Tragestock 黄岗侗寨 · 禾晾",
+  "city": "Guizhou",
+  "district": "Shuangjiang, Liping, Guizhou",
+  "category": "Fotoidee",
+  "address": "Shuangjiang, Liping, Guizhou",
+  "lat": 25.9188,
+  "lng": 108.9728,
+  "approx": true,
+  "when": "day",
+  "note": "Huanggang baut noch den alten Klebreis 香禾糯 an, der nicht gedroschen, sondern als Rispenbündel geerntet wird. Im Oktober tragen Bauern die Garben an Bambusstangen ins Dorf, hängen sie an hohe Holzgerüste (禾晾) oder breiten Körner auf der Dorfstraße aus – goldene Wände vor dunklem Holz.",
+  "tip": "Bester Moment: früher Vormittag am 20.10., wenn die Leute von den Feldern kommen. 35–50 mm auf Augenhöhe, Träger frontal mit Garben im Gegenlicht (Rispen leuchten), oder 70–200 mm auf die Gerüste mit Menschen beim Aufhängen als Maßstab. Vorher freundlich fragen, kurzes Nicken reicht oft; Bild auf dem Display zeigen kommt gut an. Nicht über ausgebreitetes Korn laufen.",
+  "image": "images/idea_gz_ernte_1.jpg",
+  "image_page": "https://www.flickr.com/photos/lindadevolder/16250886776/",
+  "image_credit": "Linda De Volder · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/lindadevolder/16250886776/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lindadevolder/16250886776/",
+    "kind": "photo",
+    "image": "images/idea_gz_ernte_1.jpg",
+    "caption": "",
+    "credit": "Linda De Volder · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/nick_mayo_remote_asia_photo/5569835379/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/nick_mayo_remote_asia_photo/5569835379/",
+    "kind": "photo",
+    "image": "images/idea_gz_ernte_2.jpg",
+    "caption": "Ähnliches Motiv – Baipa (Congjiang)",
+    "credit": "Nick Mayo · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-indigo",
+  "region": "cn",
+  "idea": true,
+  "name": "Indigo & Glanzstoff 黄岗侗寨 · 亮布",
+  "city": "Guizhou",
+  "district": "Shuangjiang, Liping, Guizhou",
+  "category": "Fotoidee",
+  "address": "Shuangjiang, Liping, Guizhou",
+  "lat": 25.9195,
+  "lng": 108.9722,
+  "approx": true,
+  "when": "day",
+  "note": "Dong-Frauen färben Baumwolle bis zu zwanzigmal in Indigo, bestreichen sie mit Eiweiß oder Rinderblut und klopfen sie mit Holzhämmern auf Steinplatten, bis der Stoff metallisch glänzt (亮布). Die nassen blauen Bahnen hängen an Bambusstangen im Dorf – rhythmisches Klopfen, blaue Hände, schimmernder Stoff.",
+  "tip": "Durch die Gassen gehen und auf das Klopfgeräusch achten. Für das Hämmern 1/15–1/30 s mitziehen lassen, damit der Hammer verwischt und die Hände scharf bleiben (Stativ oder Mauer als Stütze). Glanz kommt nur mit seitlichem Streiflicht – schräg zur Sonne stellen. Hängende Bahnen im Gegenlicht mit 24–35 mm, Dorf im Hintergrund. Vorher fragen, ggf. kleines Stück Stoff kaufen.",
+  "image": "images/idea_gz_indigo_1.jpg",
+  "image_page": "https://www.flickr.com/photos/davidthegray/35152052471/",
+  "image_credit": "davidthegray · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/davidthegray/35152052471/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/davidthegray/35152052471/",
+    "kind": "photo",
+    "image": "images/idea_gz_indigo_1.jpg",
+    "caption": "",
+    "credit": "davidthegray · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/sparkytheneoncat/3165833127/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/sparkytheneoncat/3165833127/",
+    "kind": "photo",
+    "image": "images/idea_gz_indigo_2.jpg",
+    "caption": "Ähnliches Motiv – Zhaoxing",
+    "credit": "John McCabe · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/lindadevolder/15988151700/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lindadevolder/15988151700/",
+    "kind": "photo",
+    "image": "images/idea_gz_indigo_3.jpg",
+    "caption": "Ähnliches Motiv – Zhaoxing",
+    "credit": "Linda De Volder · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-gesang",
+  "region": "cn",
+  "idea": true,
+  "name": "Großer Gesang am Feuer 黄岗侗寨 · 侗族大歌",
+  "city": "Guizhou",
+  "district": "Shuangjiang, Liping, Guizhou",
+  "category": "Fotoidee",
+  "address": "Shuangjiang, Liping, Guizhou",
+  "lat": 25.91932,
+  "lng": 108.97238,
+  "approx": false,
+  "when": "night",
+  "note": "Der mehrstimmige „Große Gesang“ der Dong (UNESCO-Kulturerbe) wird traditionell im Trommelturm um die Feuerstelle gesungen – ohne Dirigent, mit Zikaden-Imitationen. Huanggang und das Nachbardorf Xiaohuang sind Hochburgen; abends singen Gruppen oft für Gäste. Licht nur von Glut und Glühbirne: Gesichter, Silberschmuck, Rauch.",
+  "tip": "Am 19.10. über die Gastgeber fragen, ob abends im Trommelturm gesungen wird (ggf. kleine Gage). Lichtstark arbeiten: 35 mm f/1.4–2, ISO 3200–6400, 1/60 s; Feuer als Hauptlicht, kein Blitz während des Gesangs. Eine Langzeit (1/4 s) von der Bank aus macht Bewegung und Rauch sichtbar. Ruhig am Rand bleiben, nicht vor den Sängern stehen.",
+  "image": "images/idea_gz_gesang_1.jpg",
+  "image_page": "https://www.flickr.com/photos/fengwei888/21692895136/",
+  "image_credit": "Feng Wei · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/fengwei888/21692895136/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fengwei888/21692895136/",
+    "kind": "photo",
+    "image": "images/idea_gz_gesang_1.jpg",
+    "caption": "Ähnliches Motiv – Xiaohuang (Nachbardorf)",
+    "credit": "Feng Wei · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/fengwei888/21090350823/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fengwei888/21090350823/",
+    "kind": "photo",
+    "image": "images/idea_gz_gesang_2.jpg",
+    "caption": "Ähnliches Motiv – Xiaohuang (Nachbardorf)",
+    "credit": "Feng Wei · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-feuerstelle",
+  "region": "cn",
+  "idea": true,
+  "name": "Mittag unter dem Trommelturm 增冲鼓楼",
+  "city": "Guizhou",
+  "district": "Wangdong, Congjiang, Guizhou",
+  "category": "Fotoidee",
+  "address": "Wangdong, Congjiang, Guizhou",
+  "lat": 25.91609,
+  "lng": 108.70044,
+  "approx": false,
+  "when": "day",
+  "note": "Der 13-stöckige Trommelturm von Zengchong (1672) ist der älteste der Dong. Unten sitzen die Alten auf Holzbänken um die Feuergrube, rauchen Pfeife, spielen Karten; über ihnen öffnet sich das Gebälk wie eine Spirale aus Holz. Mittags fällt hartes Licht nur von außen herein – innen bleibt es dämmrig, ideal für Low-Key-Porträts.",
+  "tip": "Mittags am 20.10.: Außen ist das Licht hart, also nach innen gehen. 16–24 mm senkrecht nach oben in die Dachkonstruktion (Stativ oder Kamera auf den Boden, 1–2 s, Belichtungsreihe). Für die Runde am Feuer 35–50 mm aus der Hocke, Rauch gegen den hellen Eingang. Erst Platz nehmen, grüßen, Zigaretten oder Tee anbieten, dann fotografieren.",
+  "image": "images/idea_gz_feuerstelle_1.jpg",
+  "image_page": "https://www.flickr.com/photos/137697406@N03/22951718842/",
+  "image_credit": "David Leffman · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/137697406@N03/22951718842/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/137697406@N03/22951718842/",
+    "kind": "photo",
+    "image": "images/idea_gz_feuerstelle_1.jpg",
+    "caption": "",
+    "credit": "David Leffman · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/123411618@N07/37823269995/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/123411618@N07/37823269995/",
+    "kind": "photo",
+    "image": "images/idea_gz_feuerstelle_2.jpg",
+    "caption": "Ähnliches Motiv – Zhaoxing",
+    "credit": "Francoise Gaujour · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/123411618@N07/24838321978/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/123411618@N07/24838321978/",
+    "kind": "photo",
+    "image": "images/idea_gz_feuerstelle_3.jpg",
+    "caption": "Ähnliches Motiv – Zhaoxing",
+    "credit": "Francoise Gaujour · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-rahmen",
+  "region": "cn",
+  "idea": true,
+  "name": "Bild im Bild: Türen & Brücken 大利侗寨",
+  "city": "Guizhou",
+  "district": "Zaima, Rongjiang, Guizhou",
+  "category": "Fotoidee",
+  "address": "Zaima, Rongjiang, Guizhou",
+  "lat": 26.04153,
+  "lng": 108.63943,
+  "approx": false,
+  "when": "day",
+  "note": "Dali ist kaum touristisch: Alte Frauen sitzen in dunklen Türöffnungen, Holzbündel werden über Pflastergassen getragen, die Wind-und-Regen-Brücken über dem Bach sind Treffpunkt. Die dunklen Holzrahmen von Türen, Fenstern und Brückengängen bilden natürliche Rahmen für Menschen im weichen Licht.",
+  "tip": "Abends am 20.10. oder früh am 21.10. Durch die Gassen schlendern, Kamera unten lassen, bis man gesehen wird. 35–85 mm, auf die Lichter belichten (−1 EV), damit der Rahmen schwarz bleibt. Auf der Brücke von innen nach außen: Bank, Mensch, heller Ausgang. Immer erst Blickkontakt und Nicken; bei Ablehnung freundlich weitergehen.",
+  "image": "images/idea_gz_rahmen_1.jpg",
+  "image_page": "https://www.flickr.com/photos/wulingyun/9134723596/",
+  "image_credit": "woOoly · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/wulingyun/9134723596/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/wulingyun/9134723596/",
+    "kind": "photo",
+    "image": "images/idea_gz_rahmen_1.jpg",
+    "caption": "",
+    "credit": "woOoly · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/wulingyun/9134423772/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/wulingyun/9134423772/",
+    "kind": "photo",
+    "image": "images/idea_gz_rahmen_2.jpg",
+    "caption": "",
+    "credit": "woOoly · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/wulingyun/9132514231/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/wulingyun/9132514231/",
+    "kind": "photo",
+    "image": "images/idea_gz_rahmen_3.jpg",
+    "caption": "",
+    "credit": "woOoly · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-silberhaende",
+  "region": "cn",
+  "idea": true,
+  "name": "Hände des Silberschmieds 麻料村",
+  "city": "Guizhou",
+  "district": "Xijiang, Leishan, Guizhou",
+  "category": "Fotoidee",
+  "address": "Xijiang, Leishan, Guizhou",
+  "lat": 26.543,
+  "lng": 108.213,
+  "approx": true,
+  "when": "day",
+  "note": "In Maliao arbeiten Dutzende Miao-Silberschmiede in offenen Werkstätten: Schmelzen, Draht ziehen, Löten mit der Mundlötlampe, Ziselieren. Die blaue Flamme, das glühende Silber und die vernarbten Hände im Fensterlicht sind ein Kontrast aus Hitze und Feinarbeit.",
+  "tip": "Mittags am 21.10.: Werkstatt mit Fenster seitlich zur Werkbank wählen und fragen (kleiner Kauf öffnet Türen). 50 mm f/2 oder 90–105 mm Makro auf Hände und Werkstück, auf die Lichter belichten. Für die Lötflamme 1/30–1/60 s, damit die Flamme Form behält; keinen Blitz. Ein Umweltporträt mit 24 mm und Werkzeugwand im Hintergrund ergänzt die Serie.",
+  "image": "images/idea_gz_silber_1.jpg",
+  "image_page": "https://www.flickr.com/photos/ken_howe/2168312816/",
+  "image_credit": "Ken Howe · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/ken_howe/2168312816/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/ken_howe/2168312816/",
+    "kind": "photo",
+    "image": "images/idea_gz_silber_1.jpg",
+    "caption": "Ähnliches Motiv – Guizhou",
+    "credit": "Ken Howe · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/alexwoods/56743929/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/alexwoods/56743929/",
+    "kind": "photo",
+    "image": "images/idea_gz_silber_2.jpg",
+    "caption": "Ähnliches Motiv – Xijiang",
+    "credit": "Alex Woods · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-filigran",
+  "region": "cn",
+  "idea": true,
+  "name": "Filigran-Makro mit Streiflicht 麻料村",
+  "city": "Guizhou",
+  "district": "Xijiang, Leishan, Guizhou",
+  "category": "Fotoidee",
+  "address": "Xijiang, Leishan, Guizhou",
+  "lat": 26.543,
+  "lng": 108.213,
+  "approx": true,
+  "when": "day",
+  "note": "Miao-Silber besteht aus haarfeinen Spiralen, Drachen und Schmetterlingen. Als Makro auf schwarzem Grund wirkt ein Armreif oder Kopfschmuckteil wie eine abstrakte Landschaft aus Licht – ein starkes Detailbild für die Serie.",
+  "tip": "Stück vom Schmied auf schwarzen Samt oder Holz legen lassen. Makro 90–105 mm, f/8–11, Stativ; Streiflicht vom Fenster oder Handy-Taschenlampe flach von der Seite, ggf. weißer Zettel als Aufheller. Fokus-Stacking (5–10 Bilder) für volle Schärfe. Danke sagen bzw. etwas kaufen.",
+  "image": "images/idea_gz_filigran_1.jpg",
+  "image_page": "https://www.flickr.com/photos/heinbox/6316675499/",
+  "image_credit": "Amanda · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/heinbox/6316675499/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/heinbox/6316675499/",
+    "kind": "photo",
+    "image": "images/idea_gz_filigran_1.jpg",
+    "caption": "Ähnliches Motiv – Leishan",
+    "credit": "Amanda · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-tanz",
+  "region": "cn",
+  "idea": true,
+  "name": "Silberröcke im Kreis 郎德上寨 · 铜鼓坪",
+  "city": "Guizhou",
+  "district": "Langde, Leishan, Guizhou",
+  "category": "Fotoidee",
+  "address": "Langde, Leishan, Guizhou",
+  "lat": 26.474,
+  "lng": 108.05754,
+  "approx": true,
+  "when": "day",
+  "note": "Auf dem mit Kieseln im Sonnenmuster gepflasterten Tanzplatz (铜鼓坪) tanzen die Langde-Miao den Kupfertrommel-Tanz; die Bandröcke fliegen im Kreis. Vorher empfangen die Frauen Gäste mit Reiswein in Büffelhörnern am Dorftor. Von oben wird der Tanz zur Grafik, mit Langzeitbelichtung zum Farbwirbel.",
+  "tip": "Nachmittags am 21.10. nach Vorführzeiten fragen. Aufsicht: von den Holzbalkonen am Platzrand mit 24–35 mm (Besitzer fragen). Mitzieher 1/8–1/15 s, ND hilft bei Tageslicht; dazu ein Blitz auf den 2. Vorhang für scharfe Gesichter in den Wischern. Nah: 70–200 mm auf Röcke und Silber. Bei der Begrüßung mit Weinhorn: 24 mm, Blitz −1 EV.",
+  "image": "images/idea_gz_tanz_1.jpg",
+  "image_page": "https://www.flickr.com/photos/52229680@N03/26263245753/",
+  "image_credit": "Ben-ah · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/52229680@N03/26263245753/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/52229680@N03/26263245753/",
+    "kind": "photo",
+    "image": "images/idea_gz_tanz_1.jpg",
+    "caption": "",
+    "credit": "Ben-ah · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/maggiesworld/211284452/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/maggiesworld/211284452/",
+    "kind": "photo",
+    "image": "images/idea_gz_tanz_2.jpg",
+    "caption": "",
+    "credit": "Maggie's World ... · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/130819462@N04/23444201879/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/130819462@N04/23444201879/",
+    "kind": "photo",
+    "image": "images/idea_gz_tanz_3.jpg",
+    "caption": "",
+    "credit": "Terry Allen · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-texturen",
+  "region": "cn",
+  "idea": true,
+  "name": "Serie Rauch, Mais & Silber 郎德上寨",
+  "city": "Guizhou",
+  "district": "Langde, Leishan, Guizhou",
+  "category": "Fotoidee",
+  "address": "Langde, Leishan, Guizhou",
+  "lat": 26.4745,
+  "lng": 108.0582,
+  "approx": true,
+  "when": "day",
+  "note": "Statt Dorfpanorama eine Detailserie: moosige Hohlziegel mit Rauch, der zwischen den Ziegeln austritt, Maiskolben-Zöpfe unter den Vordächern, Silberkronen vor verwittertem Holz. Zusammengesetzt als Triptychon erzählt das mehr über Langde als die Übersicht.",
+  "tip": "Am späten Nachmittag (21.10., ca. 16–17:30) gibt flaches Licht Struktur. 70–200 mm von Hangwegen auf Dächer, mit offener Blende Ebenen trennen. Rauch kommt, wenn gekocht wird (ab ca. 17 Uhr) – gegen das Licht stellen. Für Porträts in Tracht vorher fragen; manche erwarten ein kleines Entgelt.",
+  "image": "images/idea_gz_texturen_1.jpg",
+  "image_page": "https://www.flickr.com/photos/mr_wood/14746106023/",
+  "image_credit": "woodstock · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/mr_wood/14746106023/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/mr_wood/14746106023/",
+    "kind": "photo",
+    "image": "images/idea_gz_texturen_1.jpg",
+    "caption": "",
+    "credit": "woodstock · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/mr_wood/14539759957/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/mr_wood/14539759957/",
+    "kind": "photo",
+    "image": "images/idea_gz_texturen_2.jpg",
+    "caption": "",
+    "credit": "woodstock · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/83163517@N00/451707770/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/83163517@N00/451707770/",
+    "kind": "photo",
+    "image": "images/idea_gz_texturen_3.jpg",
+    "caption": "",
+    "credit": "皮皮 王 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-lichterteppich",
+  "region": "cn",
+  "idea": true,
+  "name": "Blaue Stunde über 1000 Häusern 西江千户苗寨",
+  "city": "Guizhou",
+  "district": "Xijiang, Leishan, Guizhou",
+  "category": "Fotoidee",
+  "address": "Xijiang, Leishan, Guizhou",
+  "lat": 26.49745,
+  "lng": 108.17509,
+  "approx": false,
+  "when": "night",
+  "note": "Wenn in Xijiang die Lichter angehen, während der Himmel noch tiefblau ist, liegt ein Teppich aus Hunderten warmen Fenstern über zwei Berghängen. Nur 10–15 Minuten halten Himmel und Lichter die Balance – der Moment für das Bild mit Zeichnung in den Bergen.",
+  "tip": "Am 21.10. bis ca. 18:15 am Aussichtspunkt östlich des Dorfs (Shuttle/Fußweg zu den 观景台) sein, Platz am Geländer sichern. Stativ, 24–70 mm, f/8, ISO 100, Belichtungsreihe ±2 EV von ca. 18:40 bis 19:05. Ein Tele-Ausschnitt (200 mm) auf beleuchtete Häuserzeilen wirkt abstrakt. Optional Zeitraffer vom Dämmerungsbeginn bis zur Nacht.",
+  "image": "images/idea_gz_lichterteppich_1.jpg",
+  "image_page": "https://www.flickr.com/photos/bengdiz/10133164186/",
+  "image_credit": "Yuheng Zhao · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/bengdiz/10133164186/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/bengdiz/10133164186/",
+    "kind": "photo",
+    "image": "images/idea_gz_lichterteppich_1.jpg",
+    "caption": "",
+    "credit": "Yuheng Zhao · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/thomasyung_cn/52258989385/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/thomasyung_cn/52258989385/",
+    "kind": "photo",
+    "image": "images/idea_gz_lichterteppich_2.jpg",
+    "caption": "",
+    "credit": "QuantFoto · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-terrasse",
+  "region": "cn",
+  "idea": true,
+  "name": "Abendessen über dem Lichtermeer 西江千户苗寨",
+  "city": "Guizhou",
+  "district": "Xijiang, Leishan, Guizhou",
+  "category": "Fotoidee",
+  "address": "Xijiang, Leishan, Guizhou",
+  "lat": 26.4972,
+  "lng": 108.1745,
+  "approx": true,
+  "when": "night",
+  "note": "Die Restaurants am Hang haben offene Holzterrassen direkt über dem Tal. Wer drinnen fotografiert, bekommt Menschen beim Essen, warmes Lampenlicht und dahinter das blaue Dorf – Alltag und Postkarte in einem Bild.",
+  "tip": "Terrassentisch an der Kante reservieren und vor 18:30 da sein. 16–24 mm, Kamera auf Geländer oder Mini-Stativ; Belichtung auf den Himmel, Innenraum mit indirektem Blitz (an die Decke, −1,5 EV) aufhellen oder per Belichtungsreihe mischen. Gäste am Nachbartisch vorher fragen bzw. von hinten fotografieren.",
+  "image": "images/idea_gz_terrasse_1.jpg",
+  "image_page": "https://www.flickr.com/photos/thomasyung_cn/52258514318/",
+  "image_credit": "QuantFoto · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/thomasyung_cn/52258514318/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/thomasyung_cn/52258514318/",
+    "kind": "photo",
+    "image": "images/idea_gz_terrasse_1.jpg",
+    "caption": "",
+    "credit": "QuantFoto · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-pilz",
+  "region": "cn",
+  "idea": true,
+  "name": "Pilzfelsen mit Mensch im Nebel 梵净山 · 蘑菇石",
+  "city": "Guizhou",
+  "district": "Jiangkou, Tongren, Guizhou",
+  "category": "Fotoidee",
+  "address": "Jiangkou, Tongren, Guizhou",
+  "lat": 27.91216,
+  "lng": 108.69381,
+  "approx": false,
+  "when": "day",
+  "note": "Der Pilzfelsen ist ein 10 m hoher Stapel aus Schieferplatten, der scheinbar gegen die Schwerkraft balanciert. Mit Nebel verschwindet der Hintergrund, und eine einzelne Person am Geländer macht die Größe greifbar – ein ruhiges, fast grafisches Bild statt des üblichen Gruppenfotos.",
+  "tip": "Am 22.10. mit der ersten Seilbahn hoch, damit am Felsen noch wenig los ist. 24–35 mm aus leichter Untersicht, Mitreisenden in dunkler/roter Jacke 15–20 m entfernt positionieren. Bei Nebel +0,7 EV und Kontrast später anheben. Bei Wolkenmeer: Tele 100–200 mm vom oberen Weg, Felsen vor wogenden Wolken, 1/500 s gegen Wind.",
+  "image": "images/idea_gz_pilz_1.jpg",
+  "image_page": "https://www.flickr.com/photos/lightmeister/55571205190/",
+  "image_credit": "lightmeister · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/lightmeister/55571205190/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lightmeister/55571205190/",
+    "kind": "photo",
+    "image": "images/idea_gz_pilz_1.jpg",
+    "caption": "",
+    "credit": "lightmeister · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/22367052@N06/2158456926/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/22367052@N06/2158456926/",
+    "kind": "photo",
+    "image": "images/idea_gz_pilz_2.jpg",
+    "caption": "",
+    "credit": "yoram_lotan · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-gz-spalte",
+  "region": "cn",
+  "idea": true,
+  "name": "Kletterspalte am Roten Gipfel 梵净山 · 红云金顶",
+  "city": "Guizhou",
+  "district": "Jiangkou, Tongren, Guizhou",
+  "category": "Fotoidee",
+  "address": "Jiangkou, Tongren, Guizhou",
+  "lat": 27.9104,
+  "lng": 108.6922,
+  "approx": true,
+  "when": "day",
+  "note": "Der Weg auf den Red-Clouds-Golden-Summit führt durch eine schmale, bemooste Felsspalte und über senkrechte Treppen; oben stehen zwei Tempel durch eine Brücke verbunden. Von unten mit Tele sieht man die Menschenkette an der Wand, von oben die rot behängten Geländer – Größe und Mühe in einem Bild.",
+  "tip": "Vormittag am 22.10.: Vom Weg unterhalb des Gipfels mit 100–400 mm die Treppen mit kleinen Figuren abtrennen (1/500 s). In der Spalte 16 mm hochkant von oben nach unten, Menschen als Linie. Bei Nebel schwarzweiß denken. Stativ ist auf den Treppen unpraktisch – lieber ISO hoch. Rucksack eng, nur kleine Ausrüstung mitnehmen.",
+  "image": "images/idea_gz_spalte_1.jpg",
+  "image_page": "https://www.flickr.com/photos/e_kaspersky/53321130712/",
+  "image_credit": "Eugene Kaspersky · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/e_kaspersky/53321130712/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/e_kaspersky/53321130712/",
+    "kind": "photo",
+    "image": "images/idea_gz_spalte_1.jpg",
+    "caption": "",
+    "credit": "Eugene Kaspersky · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/fran001/53228090978/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fran001/53228090978/",
+    "kind": "photo",
+    "image": "images/idea_gz_spalte_2.jpg",
+    "caption": "",
+    "credit": "Francisco Anzola · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh-spiegelung",
+  "region": "cn",
+  "idea": true,
+  "name": "Spiegelstadt in der blauen Stunde 凤凰古城 · 沱江",
+  "city": "Fenghuang",
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "category": "Fotoidee",
+  "address": "Fenghuang, Xiangxi, Hunan",
+  "lat": 27.9529,
+  "lng": 109.5984,
+  "approx": true,
+  "when": "night",
+  "note": "Kurz nach Sonnenuntergang leuchten die Stelzenhäuser und der Wanming-Turm am Tuo-Fluss, der Himmel ist noch tiefblau. Mit langer Belichtung wird das bewegte Wasser zum Spiegel und die Lichter verdoppeln sich – mit ND sogar schon in der Dämmerung.",
+  "tip": "Am 22.10. ab ca. 18:15 am Ufer beim Nordtor (北门) oder an den Schrittsteinen, Stativ tief über dem Wasser. 16–35 mm, f/8–11, ISO 100, 10–30 s (bei Restlicht ND 3 Stufen) zwischen ca. 18:30 und 18:55. Für die Hongqiao-Brücke tief am Ufer gehen, damit die Bögen mit Spiegelung Kreise bilden. Später sind die Ufer sehr voll.",
+  "image": "images/idea_fh_spiegelung_1.jpg",
+  "image_page": "https://www.flickr.com/photos/130387115@N03/26410761688/",
+  "image_credit": "Marco Catullo · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/130387115@N03/26410761688/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/130387115@N03/26410761688/",
+    "kind": "photo",
+    "image": "images/idea_fh_spiegelung_1.jpg",
+    "caption": "",
+    "credit": "Marco Catullo · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/beschty/15269203833/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/beschty/15269203833/",
+    "kind": "photo",
+    "image": "images/idea_fh_spiegelung_2.jpg",
+    "caption": "",
+    "credit": "Beschty · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh-flusslichter",
+  "region": "cn",
+  "idea": true,
+  "name": "Treibende Wunschlichter 凤凰古城 · 河灯",
+  "city": "Fenghuang",
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "category": "Fotoidee",
+  "address": "Fenghuang, Xiangxi, Hunan",
+  "lat": 27.9527,
+  "lng": 109.5995,
+  "approx": true,
+  "when": "night",
+  "note": "Abends setzen Besucher Lotos-Kerzen (河灯) auf den Tuo-Fluss. Mit Langzeitbelichtung ziehen sie als feine Leuchtspuren durchs Bild; nah und mit offener Blende wird eine einzelne Kerze vor den verwischten Ufer-Lichtern zum Stillleben.",
+  "tip": "Am 22.10. abends an einer Treppe am Ufer, wo Verkäuferinnen Lichter anbieten (meist nahe Hongqiao/Schrittsteine). Selbst ein paar Lichter kaufen und mit Mitreisenden setzen lassen: Stativ niedrig, 24–35 mm, 4–15 s, f/8 – die Kerzen ziehen Spuren. Detail: 50–85 mm f/1.8 ganz nah am Wasser, Hintergrundlichter als Bokeh. Lichter nicht in die Strömung werfen, sanft absetzen.",
+  "image": "images/idea_fh_flusslichter_1.jpg",
+  "image_page": "https://www.flickr.com/photos/kevintierney/2654687544/",
+  "image_credit": "irishtravel · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/kevintierney/2654687544/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kevintierney/2654687544/",
+    "kind": "photo",
+    "image": "images/idea_fh_flusslichter_1.jpg",
+    "caption": "",
+    "credit": "irishtravel · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/48462585@N02/4635496342/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/48462585@N02/4635496342/",
+    "kind": "photo",
+    "image": "images/idea_fh_flusslichter_2.jpg",
+    "caption": "",
+    "credit": "stimp515 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/ludomichel/49711873916/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/ludomichel/49711873916/",
+    "kind": "photo",
+    "image": "images/idea_fh_flusslichter_3.jpg",
+    "caption": "Ähnliches Motiv – Hội An (Vietnam)",
+    "credit": "LudoVic M · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh-schrittsteine",
+  "region": "cn",
+  "idea": true,
+  "name": "Einzelner Mensch auf den Schrittsteinen 凤凰古城 · 跳岩",
+  "city": "Fenghuang",
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "category": "Fotoidee",
+  "address": "Fenghuang, Xiangxi, Hunan",
+  "lat": 27.95346,
+  "lng": 109.5981,
+  "approx": false,
+  "when": "day",
+  "note": "Die quadratischen Steinpfeiler im Tuo-Fluss bilden eine perfekte Reihe. Am frühen Morgen, wenn noch keine Touristenmassen unterwegs sind, geht vielleicht nur eine Person mit Korb hinüber – Rhythmus der Steine, Morgendunst und eine einsame Figur.",
+  "tip": "Am 23.10. vor Sonnenaufgang (ca. 6:55) da sein. Vom Ufer flussabwärts, Steine diagonal ins Bild, 24–70 mm; mit ND (6–10 Stufen) 2–15 s, damit das Wasser glatt wird – Person dann in einer ruhigen Phase stehen lassen oder Serie und Composite. Alternative: Kamera knapp über einem Stein, 16 mm, Fluchtlinie der Steine bis zur Altstadt. Auf nassen Steinen vorsichtig.",
+  "image": "images/idea_fh_schrittsteine_1.jpg",
+  "image_page": "https://www.flickr.com/photos/elads/3729544532/",
+  "image_credit": "Elad Shani · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/elads/3729544532/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/elads/3729544532/",
+    "kind": "photo",
+    "image": "images/idea_fh_schrittsteine_1.jpg",
+    "caption": "",
+    "credit": "Elad Shani · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/127508165@N06/15986715728/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/127508165@N06/15986715728/",
+    "kind": "photo",
+    "image": "images/idea_fh_schrittsteine_2.jpg",
+    "caption": "",
+    "credit": "S.M. Tham · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh-waesche",
+  "region": "cn",
+  "idea": true,
+  "name": "Waschen am Fluss im Morgendunst 凤凰古城 · 沱江",
+  "city": "Fenghuang",
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "category": "Fotoidee",
+  "address": "Fenghuang, Xiangxi, Hunan",
+  "lat": 27.9518,
+  "lng": 109.6007,
+  "approx": true,
+  "when": "day",
+  "note": "Trotz Tourismus waschen Anwohnerinnen frühmorgens noch Wäsche und Gemüse an den Steinstufen des Tuo-Flusses und schlagen Stoffe mit Holzschlägeln. Mit Dunst über dem Wasser und den Stelzenhäusern im Hintergrund entsteht ein zeitloses Alltagsbild.",
+  "tip": "23.10., 6:30–8:00 an den Uferstufen zwischen Hongqiao und Nordtor. 70–200 mm von der gegenüberliegenden Seite – so stört ihr nicht und bekommt Spiegelungen. Gegenlicht nutzen: Dunst leuchtet, Wasser glitzert. Wer nah ran will, erst grüßen und fragen; manche möchten nicht fotografiert werden.",
+  "image": "images/idea_fh_waesche_1.jpg",
+  "image_page": "https://www.flickr.com/photos/phuongphoto/33312301672/",
+  "image_credit": "Phuong Nguyen · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/phuongphoto/33312301672/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/phuongphoto/33312301672/",
+    "kind": "photo",
+    "image": "images/idea_fh_waesche_1.jpg",
+    "caption": "",
+    "credit": "Phuong Nguyen · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/itravelinchina/2236082822/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/itravelinchina/2236082822/",
+    "kind": "photo",
+    "image": "images/idea_fh_waesche_3.jpg",
+    "caption": "",
+    "credit": "Wayne Zhang · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/bagush/32257906086/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/bagush/32257906086/",
+    "kind": "photo",
+    "image": "images/idea_fh_waesche_2.jpg",
+    "caption": "",
+    "credit": "Bagush · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh-boote",
+  "region": "cn",
+  "idea": true,
+  "name": "Bootsmann von oben 凤凰古城 · 雪桥",
+  "city": "Fenghuang",
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "category": "Fotoidee",
+  "address": "Fenghuang, Xiangxi, Hunan",
+  "lat": 27.95446,
+  "lng": 109.59663,
+  "approx": true,
+  "when": "day",
+  "note": "Morgens fischen Flussarbeiter mit langen Stangen Laub und Müll aus dem Tuo, später ziehen die Holzboote mit Stakern los. Von einer Brücke aus wird ein einzelnes Boot auf grünem Wasser zum minimalistischen Bild; bei tiefem Licht glüht der Fluss golden.",
+  "tip": "23.10. nach Sonnenaufgang von der Xue-Brücke (雪桥) oder Hongqiao flussabwärts. 100–400 mm senkrecht/schräg nach unten: Boot, Stange und Kielwelle, viel leeres Wasser lassen. Schneller Verschluss (1/1000 s) für Wassertropfen an der Stange oder 1/15 s mitziehen. Ab ca. 8:30 starten die Touristenboote – vorher ist es ruhiger.",
+  "image": "images/idea_fh_boote_1.jpg",
+  "image_page": "https://www.flickr.com/photos/phuongphoto/44024098352/",
+  "image_credit": "Phuong Nguyen · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/phuongphoto/44024098352/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/phuongphoto/44024098352/",
+    "kind": "photo",
+    "image": "images/idea_fh_boote_1.jpg",
+    "caption": "",
+    "credit": "Phuong Nguyen · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/phuongphoto/43353989814/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/phuongphoto/43353989814/",
+    "kind": "photo",
+    "image": "images/idea_fh_boote_2.jpg",
+    "caption": "",
+    "credit": "Phuong Nguyen · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/itravelinchina/2236082820/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/itravelinchina/2236082820/",
+    "kind": "photo",
+    "image": "images/idea_fh_boote_3.jpg",
+    "caption": "",
+    "credit": "Wayne Zhang · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-fh-ingwer",
+  "region": "cn",
+  "idea": true,
+  "name": "Ingwerzucker-Zieher 凤凰古城 · 姜糖",
+  "city": "Fenghuang",
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "category": "Fotoidee",
+  "address": "Fenghuang, Xiangxi, Hunan",
+  "lat": 27.9502,
+  "lng": 109.6006,
+  "approx": true,
+  "when": "both",
+  "note": "In den Ladeneingängen der Altstadt wird Ingwer-Zuckermasse an einem Wandhaken immer wieder gezogen und geschlagen, bis sie hell und luftig ist. Die schwingende, goldene Zuckerschlaufe ist ein perfektes Motiv für Bewegungsunschärfe mit scharfem Gesicht.",
+  "tip": "Am 22.10. abends oder 23.10. vormittags in der Hauptgasse (Dongzheng Jie / Huilong Ge) Läden mit Zieher suchen. 24–35 mm, 1/8–1/15 s, Kamera ruhig halten, Serie während eines Zugs; Blitz auf 2. Vorhang friert das Gesicht ein. Ein Stück Ingwerzucker kaufen – dann wird gern posiert.",
+  "image": "images/idea_fh_ingwer_1.jpg",
+  "image_page": "https://www.flickr.com/photos/hyfinia/3880685232/",
+  "image_credit": "ff ho · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/hyfinia/3880685232/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/hyfinia/3880685232/",
+    "kind": "photo",
+    "image": "images/idea_fh_ingwer_1.jpg",
+    "caption": "",
+    "credit": "ff ho · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/fatboyroy/2834635447/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fatboyroy/2834635447/",
+    "kind": "photo",
+    "image": "images/idea_fh_ingwer_2.jpg",
+    "caption": "",
+    "credit": "fatb0yr0y · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/magical-world/1657576312/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/magical-world/1657576312/",
+    "kind": "photo",
+    "image": "images/idea_fh_ingwer_3.jpg",
+    "caption": "",
+    "credit": "Vera & Jean-Christophe · Flickr"
+   }
+  ]
  }
 ];
