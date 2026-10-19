@@ -324,6 +324,12 @@
   .pin.claude::before { content: "✦"; position: absolute; left: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
     background: #7c3aed; color: #fff; font-size: 10px; line-height: 16px; text-align: center; }
   .pin.idea { border-color: #f59e0b; position: relative; }
+  .pop .sideas { margin: 8px 0; padding: 10px; border-radius: 12px; background: rgba(245,158,11,.12); }
+  .pop .sideas .tl { font-weight: 700; font-size: 13px; color: #b45309; margin-bottom: 6px; }
+  .pop .sidea { display: flex; gap: 10px; width: 100%; padding: 6px 0; border: 0; border-top: 1px solid rgba(245,158,11,.25); background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+  .pop .sidea:first-of-type { border-top: 0; }
+  .pop .sidea img { flex: none; width: 56px; height: 56px; border-radius: 8px; object-fit: cover; }
+  .pop .sidea b { display: block; font-size: 14px; } .pop .sidea small { display: block; font-size: 12.5px; color: var(--muted); line-height: 1.35; }
   #list li { position: relative; }
   .ifav { flex: none; align-self: center; width: 38px; height: 38px; border-radius: 50%; border: 0; background: transparent; color: var(--muted); font-size: 21px; cursor: pointer; }
   .ifav.on { color: #e11d48; }
@@ -1476,6 +1482,18 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       `<li><a href="${esc(x.url.split("?")[0])}" target="_blank" rel="noopener">@${esc(x.username || "Instagram")} ↗</a>${x.image ? "" : ` <i>${x.dup ? "gleiches Foto" : "Sammel-Post"}</i>`}${x.caption ? `<small>${esc(x.caption.split("\n")[0].slice(0, 80))}</small>` : ""}</li>`).join("")}</ul></details>`;
   }
   const WHEN_LABEL = { day: "☀️ Tag", night: "🌙 Nacht", both: "☀️🌙 Tag & Nacht" };
+  // Gemerkte Fotoideen beim zugehörigen Spot zeigen: jede favorisierte Idee gehört zum nächsten Spot (≤ 2 km)
+  function ideaHome(q) {
+    let best = null, bd = 2000;
+    for (const s of places) { if (s.idea || s.noloc) continue; const d = dist(q, s); if (d < bd) { bd = d; best = s; } }
+    return best;
+  }
+  function spotIdeasHtml(p) {
+    if (p.idea) return "";
+    const ids = places.filter(q => q.idea && st(q.id).fav && ideaHome(q) === p);
+    if (!ids.length) return "";
+    return `<div class="sideas"><div class="tl">✷ Deine Fotoideen hier</div>${ids.map(q => `<button class="sidea" data-openidea="${esc(q.id)}">${q.image ? `<img src="${esc(q.image)}" alt="" loading="lazy">` : ""}<span><b>${esc(q.name)}</b><small>${esc((q.tip || q.note || "").slice(0, 140))}${(q.tip || q.note || "").length > 140 ? " …" : ""}</small></span></button>`).join("")}</div>`;
+  }
   function popupHtml(p) {
     const nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
     const imgPosts = imgsOf(p);
@@ -1539,6 +1557,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${p.unsure ? `<div class="unsure-note">⚠️ <b>Standort nicht 100 % gesichert:</b> ${esc(p.unsure)}</div>` : ""}
         ${p.approx ? `<div class="approx">Pin ungefähr</div>` : ""}
         ${p.tip ? `<div class="phototip"><div class="tl">📸 Foto-Tipp</div>${esc(p.tip)}</div>` : ""}
+        ${spotIdeasHtml(p)}
         ${p.note ? `<div class="note">${esc(p.note)}</div>` : ""}
         ${p.pop_reason ? `<div class="popr">🔥 ${esc(p.pop_reason)}</div>` : ""}
         ${gal}
@@ -2413,6 +2432,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); closedByX = true; map.closePopup(); };
     // 📍 Springe zu Spot: Spot schließen, hinzoomen, Liste einklappen, Pin hervorheben
     const sm = el.querySelector(".showmap"); if (sm) sm.onclick = e => { e.stopPropagation(); miniSpot(sm.dataset.show); };
+    el.querySelectorAll("[data-openidea]").forEach(b => b.onclick = e => { e.stopPropagation(); location.hash = "spot=" + b.dataset.openidea; });
     const pm = el.querySelector(".pmini"); if (pm) pm.onclick = e => { e.stopPropagation(); el.classList.remove("full"); document.body.classList.remove("popup-full"); miniSpot(pm.dataset.mini); };
     // Größe umschalten im Kreis: Mittel → Vollbild → Klein → Mittel
     const pf = el.querySelector(".pfull"); if (pf) pf.onclick = e => { e.stopPropagation();
@@ -3237,7 +3257,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "105 · Herz nicht mehr unter der Menüleiste";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "106 · Gemerkte Fotoideen beim Spot";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
