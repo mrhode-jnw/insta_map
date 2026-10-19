@@ -7391,5 +7391,1307 @@ window.IDEAS = [
     "credit": "PLF Photographie · Flickr"
    }
   ]
+ },
+ {
+  "id": "idea-zjj2-erdschatten",
+  "region": "cn",
+  "idea": true,
+  "name": "Vollmond sinkt in den Erdschatten 云上茶园",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie-Teeplantage (YOLO Resort)",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie-Teeplantage (YOLO Resort)",
+  "lat": 29.37159,
+  "lng": 110.42956,
+  "approx": true,
+  "when": "night",
+  "note": "Der Abschiedsmorgen liefert das seltenste Licht der Reise: Der volle Mond (100 %) sinkt im Westnordwesten, während hinter euch die Sonne kommt. Er steht dann im blaugrauen Erdschatten unter dem rosa Gürtel der Venus – ein Bild fast ohne Kontrast, pastellig und still, mit den Säulen als dunkle Zacken am Horizont.",
+  "tip": "26.10.: Mond um 6:00 auf 7° Höhe (Azimut 283°), 6:15 ca. 4°, 6:30 nur noch 1° (Az. 287°), Untergang 6:38 (Az. 288°). Venusgürtel am stärksten 6:15–6:35 (Sonne −8° bis −4°). Vom Westrand der Teeplantage am Resort Richtung WNW, 100–400 mm, Stativ, Belichtungsreihe; den echten Horizont am Vorabend mit Kompass-App prüfen – nur ein freier Westblick bringt das Bild. Passt genau vor den Check-out um 6:55. ★★",
+  "image": "images/idea_zjj2_erdschatten_1.jpg",
+  "image_page": "https://www.flickr.com/photos/aspiz/9563204558/",
+  "image_credit": "Aspizc · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/aspiz/9563204558/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/aspiz/9563204558/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_erdschatten_1.jpg",
+    "caption": "Mond vor Sonnenaufgang im Park (anderer Standpunkt)",
+    "credit": "Aspizc · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/seankerrphotography/25992929304/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/seankerrphotography/25992929304/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_erdschatten_2.jpg",
+    "caption": "Ähnliches Motiv – Glen Coe, Schottland",
+    "credit": "seankerrphotography · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-helongmond",
+  "region": "cn",
+  "idea": true,
+  "name": "Der Marschall und der Mond 贺龙铜像",
+  "city": "Zhangjiajie",
+  "district": "Tianzi-Berg, Helong Park",
+  "category": "Fotoidee",
+  "address": "Tianzi-Berg, Helong Park",
+  "lat": 29.38371,
+  "lng": 110.48935,
+  "approx": false,
+  "when": "night",
+  "note": "Die riesige Bronzestatue von Marschall He Long thront über dem Tianzi-Berg – Propaganda-Monument gegen Naturkulisse. Mit dem Tele aus großer Entfernung steht der 96-%-Mond direkt neben dem Kopf der Figur; die Statue wird zur Silhouette im blauen Dämmerlicht. Ein Bild über Macht und Zeit statt über Felsen.",
+  "tip": "24.10.: Mondaufgang 16:36 (Az. 83°); 17:45 steht er auf 14° (Az. 91°), 18:15 auf 20° (Az. 95°). Westlich der Statue stellen und Richtung Osten zielen; für 14–20° Mondhöhe und ca. 10 m Statue + Sockel ca. 30–40 m Abstand, 200–400 mm. Seitlich wandern, bis Mond und Kopf sich berühren. Belichtung: Mond ca. 1/125 s f/8 ISO 400, Statue als Silhouette. Letzten Parkbus vorher klären! ★★",
+  "image": "images/idea_zjj2_helongmond_1.jpg",
+  "image_page": "https://www.flickr.com/photos/7951165@N07/2367231565/",
+  "image_credit": "vince2047 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/7951165@N07/2367231565/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/7951165@N07/2367231565/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_helongmond_1.jpg",
+    "caption": "",
+    "credit": "vince2047 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-pinselmond",
+  "region": "cn",
+  "idea": true,
+  "name": "Venusgürtel und Mond über den Pinselfelsen 御笔峰",
+  "city": "Zhangjiajie",
+  "district": "Tianzi-Berg",
+  "category": "Fotoidee",
+  "address": "Tianzi-Berg",
+  "lat": 29.38229,
+  "lng": 110.49127,
+  "approx": true,
+  "when": "night",
+  "note": "Wenn alle in den Sonnenuntergang schauen, liegt das Bild im Rücken: Gegenüber der Sonne steigt der rosa Gürtel der Venus über den blauen Erdschatten, mittendrin der fast volle Mond. Die schlanken Imperial-Brush-Nadeln stehen als scharfe Silhouetten im Pastell – kein Sonnenuntergang, sondern ein ‚Gegen-Untergang‘.",
+  "tip": "24.10.: Sonnenuntergang 17:59 (Az. 257°), Mond 18:00 auf 17° (Az. 93°), 18:15 auf 20° (Az. 95°); Venusgürtel ca. 18:00–18:20. Am Imperial-Brush-Aussichtspunkt nach Osten zielen; falls die Nadeln nicht in Mondrichtung stehen, mit dem Tele Säulen im Osten der Xihai-Kante nehmen. 100–400 mm, Belichtungsreihe (Mond + Vordergrund), ISO 400–800. Alternative zum Time-Slice am Xihai. ★★",
+  "image": "images/idea_zjj2_pinselmond_1.jpg",
+  "image_page": "https://www.flickr.com/photos/fredwasmer/23790421896/",
+  "image_credit": "Fred Wasmer · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/fredwasmer/23790421896/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fredwasmer/23790421896/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_pinselmond_1.jpg",
+    "caption": "Ähnliches Motiv – Venusgürtel mit Vollmond, USA",
+    "credit": "Fred Wasmer · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/ctofcsco/51501488568/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/ctofcsco/51501488568/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_pinselmond_2.jpg",
+    "caption": "Ähnliches Motiv – Mond hinter Bergkante mit Tele",
+    "credit": "ctofcsco · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-timeslice",
+  "region": "cn",
+  "idea": true,
+  "name": "Zeitscheiben vom Gold bis zur Nacht 西海峰林",
+  "city": "Zhangjiajie",
+  "district": "Tianzi-Berg, Xihai",
+  "category": "Fotoidee",
+  "address": "Tianzi-Berg, Xihai",
+  "lat": 29.38323,
+  "lng": 110.48919,
+  "approx": false,
+  "when": "both",
+  "note": "Ein Bild, das zwei Stunden erzählt: Vom Stativ aus dieselbe Säulenlandschaft alle paar Minuten fotografieren und später in 10–14 senkrechte Streifen montieren – links goldenes Streiflicht, in der Mitte Rosa, rechts blaue Stunde mit den ersten Lichtern im Tal. Im Wettbewerb sticht so ein Zeitbild aus allen Einzelaufnahmen heraus.",
+  "tip": "24.10. am Xihai 17:00–18:50: Stativ fest, manueller Fokus, Weißabgleich fix (5200 K), alle 5 Min. auslösen (Intervall-Auslöser), Belichtung von 1/125 s bis 15 s nachführen. 24–70 mm, Komposition mit klarer Horizontlinie. Sonnenuntergang 17:59, bürgerliche Dämmerung bis 18:23, nautische bis 18:51. Streifen in Photoshop gleich breit maskieren. Letzten Parkbus beachten. ★★",
+  "image": "images/idea_zjj2_timeslice_1.jpg",
+  "image_page": "https://www.flickr.com/photos/adelheids-pictures/51681535518/",
+  "image_credit": "- AdelheidS Photography - · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/adelheids-pictures/51681535518/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/adelheids-pictures/51681535518/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_timeslice_1.jpg",
+    "caption": "Ähnliches Motiv – Time-Slice, Deventer",
+    "credit": "- AdelheidS Photography - · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-lichtmalerei",
+  "region": "cn",
+  "idea": true,
+  "name": "Kiefer im Mondlicht mit der Taschenlampe 迷魂台",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie",
+  "lat": 29.34619,
+  "lng": 110.43902,
+  "approx": true,
+  "when": "night",
+  "note": "Die knorrigen Kiefern an der Kante der Aussichtsplattform werden zur Hauptfigur: Mit einer warmen LED sanft seitlich ‚angemalt‘, dahinter die vom 90-%-Mond silbrig beleuchteten Säulen und ein tiefblauer Himmel. Warmer Baum gegen kaltes Mondlicht – ein Farbkontrast, den man aus Zhangjiajie so kaum kennt.",
+  "tip": "23.10. nach dem ersten Abend in Yuanjiajie, 18:45–19:30: Mond 19:00 auf 36° (Az. 114°) – Säulen im Südosten sind schön angeleuchtet. Kiefer am Geländer im Vordergrund, 14–24 mm, f/8, ISO 400, 20–30 s; in dieser Zeit die Kiefer 3–5 s mit LED (3000 K, gedimmt, mit Diffusor) von der Seite bestreichen, nie frontal. Mehrere Versionen, später mischen. Andere Besucher nicht blenden. ★★",
+  "image": "images/idea_zjj2_lichtmalerei_1.jpg",
+  "image_page": "https://www.flickr.com/photos/norm_waldroop/29248782357/",
+  "image_credit": "Pragmatic1111 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/norm_waldroop/29248782357/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/norm_waldroop/29248782357/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_lichtmalerei_1.jpg",
+    "caption": "Ähnliches Motiv – Light Painting, USA",
+    "credit": "Pragmatic1111 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/davesoldano/19872403139/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/davesoldano/19872403139/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_lichtmalerei_2.jpg",
+    "caption": "Ähnliches Motiv – Light Painting, Colorado",
+    "credit": "JusDaFax · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-stirnlampen",
+  "region": "cn",
+  "idea": true,
+  "name": "Lichtschlange der Frühaufsteher 迷魂台步道",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie",
+  "lat": 29.3466,
+  "lng": 110.4385,
+  "approx": true,
+  "when": "night",
+  "note": "Vor Sonnenaufgang ziehen die Fotografen mit Stirnlampen über die Treppen zum Mihun Tai. In einer Langzeitbelichtung werden sie zu einer leuchtenden Linie, die sich durch die noch dunklen Felsnadeln schlängelt – Menschen unsichtbar, nur ihr Weg. Wer allein ist, inszeniert es mit der Mitreisenden.",
+  "tip": "24.10. 5:50–6:15 (nautische Dämmerung ab 5:53): Stativ seitlich am Weg oder auf einer Kehre oberhalb, 24–35 mm, f/5.6, ISO 800, 30–60 s; der Himmel bekommt noch Blau, Säulen sind dunkel. Gehende Person mit Stirnlampe auf rotem/warmem Licht, gleichmäßiges Tempo, Lampe nach vorne. Den Weg nie blockieren. ★★",
+  "image": "images/idea_zjj2_stirnlampen_1.jpg",
+  "image_page": "https://www.flickr.com/photos/haraldurke/21910045680/",
+  "image_credit": "Haraldur Ketill · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/haraldurke/21910045680/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/haraldurke/21910045680/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_stirnlampen_1.jpg",
+    "caption": "Ähnliches Motiv – Stirnlampen-Spur, Island",
+    "credit": "Haraldur Ketill · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-orion",
+  "region": "cn",
+  "idea": true,
+  "name": "Orion und Sirius über den Nadeln 迷魂台",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie",
+  "lat": 29.34619,
+  "lng": 110.43902,
+  "approx": true,
+  "when": "night",
+  "note": "Das einzige dunkle Fenster der Reise: Am 24.10. geht der Mond schon um 4:31 unter – bis zur Dämmerung ist der Himmel schwarz. Dann hängt der Winterhimmel über Zhangjiajie: Orion hoch im Südsüdwesten, darunter der hellste Stern Sirius, im Osten Jupiter und Mars. Felsnadeln als Silhouetten unter den Sternbildern – ein Bild, das dort kaum jemand macht.",
+  "tip": "24.10. 4:40–5:20 (astronomische Dämmerung ab 5:25): Sirius 5:00 im Süden auf ca. 44° (Az. 175°), Orion auf 50–65° (Az. 200–210°), Jupiter auf 45° im Osten (Az. 98°). Vom Mihun Tai Richtung Süd/Südwest (Hallelujah liegt bei Az. 237°), 14–20 mm Hochformat, f/2.8, ISO 3200, 10–15 s; Vordergrund-Blend aus der blauen Stunde. Aufbruch am Resort ca. 4:00 mit Stirnlampe – nur bei klarem Himmel. ★★★",
+  "image": "images/idea_zjj2_orion_1.jpg",
+  "image_page": "https://www.flickr.com/photos/drwhite75/43833254890/",
+  "image_credit": "Darren White Photography · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/drwhite75/43833254890/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/drwhite75/43833254890/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_orion_1.jpg",
+    "caption": "Ähnliches Motiv – Orion über Felsnadel, Utah",
+    "credit": "Darren White Photography · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-brocken",
+  "region": "cn",
+  "idea": true,
+  "name": "Der eigene Schatten im Regenbogenring 天波府",
+  "city": "Zhangjiajie",
+  "district": "Yangjiajie",
+  "category": "Fotoidee",
+  "address": "Yangjiajie",
+  "lat": 29.36094,
+  "lng": 110.41663,
+  "approx": true,
+  "when": "day",
+  "note": "Liegt Nebel im Tal und scheint dahinter die Morgensonne, wirft man den eigenen Schatten riesig auf die Wolken – umrahmt von einem farbigen Ring, der ‚Glorie‘ (Brockengespenst). In Zhangjiajie mit Säulen, die aus dem Nebel ragen, wird daraus ein fast religiöses Bild: eine Figur mit Heiligenschein über dem Wolkenmeer.",
+  "tip": "25.10. ca. 6:55–7:45, nur bei Nebel unterhalb des Standpunkts: Sonne geht 6:46 bei Az. 103° auf – der Schatten fällt genau gegenüber nach WNW (ca. 283°), umso tiefer, je niedriger die Sonne. An die Westkante des Tianbo-Plateaus stellen, 14–24 mm, Belichtung auf den hellen Nebel −0,7 EV, Arme heben für die Silhouette. Funktioniert nur ein paar Minuten – sofort reagieren. ★★★",
+  "image": "images/idea_zjj2_brocken_1.jpg",
+  "image_page": "https://www.flickr.com/photos/28189469@N06/51249074444/",
+  "image_credit": "John Finney · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/28189469@N06/51249074444/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/28189469@N06/51249074444/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_brocken_1.jpg",
+    "caption": "Ähnliches Motiv – Glorie im Nebel, England",
+    "credit": "John Finney · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/134456384@N05/48212981986/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/134456384@N05/48212981986/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_brocken_2.jpg",
+    "caption": "Ähnliches Motiv – Glorie, Wales",
+    "credit": "myfyrtomos · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-sonnenstern",
+  "region": "cn",
+  "idea": true,
+  "name": "Sonnenstern an der Felskante 天波府",
+  "city": "Zhangjiajie",
+  "district": "Yangjiajie",
+  "category": "Fotoidee",
+  "address": "Yangjiajie",
+  "lat": 29.36094,
+  "lng": 110.41663,
+  "approx": false,
+  "when": "day",
+  "note": "Die aufgehende Sonne wird nicht ins Bild geknallt, sondern halb hinter einer Säulenkante oder Kiefer versteckt – mit kleiner Blende entsteht ein scharfer Stern mit langen Strahlen. Davor staffeln sich die Nadeln im Gegenlicht, die Ränder leuchten golden. Der Stern ist der Funke, der das Bild zündet.",
+  "tip": "25.10.: Sonnenaufgang 6:46 bei Az. 103°, hinter der Ostkette meist erst ca. 6:55–7:05 sichtbar. 14–24 mm, f/16–f/22, Sonne zu 2/3 hinter der Kante (Position durch Schritte seitwärts justieren), Belichtungsreihe ±2 EV für HDR. Saubere Frontlinse ohne Filter, sonst Geisterflecken. ★★",
+  "image": "images/idea_zjj2_sonnenstern_1.jpg",
+  "image_page": "https://www.flickr.com/photos/sheldonbranford/3190549698/",
+  "image_credit": "RichGreenePhotography.com · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/sheldonbranford/3190549698/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/sheldonbranford/3190549698/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_sonnenstern_1.jpg",
+    "caption": "Ähnliches Motiv – Sonnenstern an Felsbogen, USA",
+    "credit": "RichGreenePhotography.com · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/yvesguillemot/48484741186/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/yvesguillemot/48484741186/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_sonnenstern_2.jpg",
+    "caption": "",
+    "credit": "yves guillemot · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-mauer",
+  "region": "cn",
+  "idea": true,
+  "name": "Streiflicht auf der ‚Großen Mauer‘ 天然长城",
+  "city": "Zhangjiajie",
+  "district": "Yangjiajie",
+  "category": "Fotoidee",
+  "address": "Yangjiajie",
+  "lat": 29.36196,
+  "lng": 110.41814,
+  "approx": true,
+  "when": "day",
+  "note": "Die ‚Natürliche Große Mauer‘ von Yangjiajie ist eine kilometerlange Sandsteinwand mit waagrechten Schichtfugen. Flaches Morgenlicht von der Seite modelliert jede Fuge – mit dem Tele herausgeschnitten entsteht ein abstraktes Bild aus Linien, Kiefern und Schatten, fast wie ein Gemälde, ohne Himmel und ohne Horizont.",
+  "tip": "25.10. ca. 7:00–8:00 vom Aussichtspunkt 天然长城观景台, solange die Sonne (Az. 103–115°, 1–12° hoch) seitlich streift. 100–400 mm, f/8–11, Polfilter gegen Dunst, mehrere Ausschnitte; eine winzige Kiefer oder ein Wanderer auf dem Grat als Maßstab. Schwarz-Weiß im Kopf behalten. ★",
+  "image": "images/idea_zjj2_mauer_1.jpg",
+  "image_page": "https://www.flickr.com/photos/albertwirtz/26557406119/",
+  "image_credit": "Albert Wirtz @ Landscape and Nature Photography · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/albertwirtz/26557406119/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/albertwirtz/26557406119/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_mauer_1.jpg",
+    "caption": "",
+    "credit": "Albert Wirtz @ Landscape and Nature Photography · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-einschritt",
+  "region": "cn",
+  "idea": true,
+  "name": "Durch den Felsspalt ins Leere 一步登天",
+  "city": "Zhangjiajie",
+  "district": "Yangjiajie",
+  "category": "Fotoidee",
+  "address": "Yangjiajie",
+  "lat": 29.35324,
+  "lng": 110.41861,
+  "approx": true,
+  "when": "day",
+  "note": "Am ‚Ein Schritt zum Himmel‘ und auf dem schmalen Felsgrat-Pfad (空中走廊) rahmen Felswände den Blick: ein Rahmen im Rahmen, durch den man auf eine einzelne Felsnadel und eine winzige Person auf dem Grat schaut. Dunkle Ränder, helles Zentrum – der Blick wird regelrecht durch den Spalt gesogen.",
+  "tip": "25.10. ca. 7:45–8:30 auf dem Rückweg vom Tianbo-Plateau. 16–35 mm, Rand des Spalts angeschnitten im Vordergrund, f/11 für Schärfe von vorne bis hinten (ggf. Fokus-Stack aus 2–3 Bildern). Mitreisende in roter Jacke auf dem Grat platzieren. Steile, ausgesetzte Stellen – Stativ nur, wo niemand vorbei muss. ★★",
+  "image": "images/idea_zjj2_einschritt_1.jpg",
+  "image_page": "https://www.flickr.com/photos/paulsila/15826151654/",
+  "image_credit": "paulsila · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/paulsila/15826151654/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/paulsila/15826151654/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_einschritt_1.jpg",
+    "caption": "",
+    "credit": "paulsila · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-icm",
+  "region": "cn",
+  "idea": true,
+  "name": "Gemalter Wald im Schluchtgrund 金鞭溪",
+  "city": "Zhangjiajie",
+  "district": "Golden Whip Stream",
+  "category": "Fotoidee",
+  "address": "Golden Whip Stream",
+  "lat": 29.3412,
+  "lng": 110.4567,
+  "approx": true,
+  "when": "day",
+  "note": "Statt scharfer Fotos: Die hohen, geraden Stämme am Golden Whip Stream werden mit einer senkrechten Kamerabewegung zu Pinselstrichen – grün, golden, verwischt wie ein impressionistisches Gemälde. Mittagslicht, das sonst nichts taugt, wird so zum Vorteil, und kein Besucher stört.",
+  "tip": "25.10. 11:15–14:30 im Tal: 50–100 mm, f/16, ISO 50–100, 1/4–1/2 s (ggf. ND 3 Stufen), während der Belichtung die Kamera gleichmäßig senkrecht nach oben ziehen. 30–50 Versuche, die Treffer sind Zufall mit System. Gerade Stämme ohne Himmel wählen, helle Lücken meiden. ★",
+  "image": "images/idea_zjj2_icm_1.jpg",
+  "image_page": "https://www.flickr.com/photos/robhuntley/8025166426/",
+  "image_credit": "Rob Huntley Photography - Ottawa, Ontario, Canada · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/robhuntley/8025166426/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/robhuntley/8025166426/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_icm_1.jpg",
+    "caption": "Ähnliches Motiv – ICM im Wald, Kanada",
+    "credit": "Rob Huntley Photography - Ottawa, Ontario, Canada · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/147461643@N02/39125059575/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/147461643@N02/39125059575/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_icm_2.jpg",
+    "caption": "Ähnliches Motiv – ICM im Wald",
+    "credit": "pklopper · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-seide",
+  "region": "cn",
+  "idea": true,
+  "name": "Seidenwasser über rotem Sandstein 金鞭溪",
+  "city": "Zhangjiajie",
+  "district": "Golden Whip Stream",
+  "category": "Fotoidee",
+  "address": "Golden Whip Stream",
+  "lat": 29.3405,
+  "lng": 110.4505,
+  "approx": true,
+  "when": "day",
+  "note": "Im Bachbett liegen rote und grüne Sandsteinblöcke, darüber fließt glasklares Wasser. Mit Langzeitbelichtung wird es zu weißer Seide, die sich um die Steine legt – unten Bewegung, oben stehen die Felsnadeln reglos. Ruhig, farbig, ganz anders als die Aussichtsbilder vom Plateau.",
+  "tip": "25.10. 11:15–14:30, an Stellen mit kleinen Kaskaden und Säulenblick (zwischen Zibi-Felsen und Shuirao Simen). Stativ tief über dem Wasser, 16–35 mm, f/11, ND 6 Stufen + Polfilter (nimmt Spiegelungen von Blättern und Steinen), 1–4 s. Sonnenflecken meiden – Schattenpartien wählen oder Wolke abwarten. ★",
+  "image": "images/idea_zjj2_seide_1.jpg",
+  "image_page": "https://www.flickr.com/photos/vreal/1648811/",
+  "image_credit": "Bruce Zhou · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/vreal/1648811/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/vreal/1648811/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_seide_1.jpg",
+    "caption": "",
+    "credit": "Bruce Zhou · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/pkwong138/7391989770/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/pkwong138/7391989770/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_seide_2.jpg",
+    "caption": "",
+    "credit": "pkwong138 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-kathedrale",
+  "region": "cn",
+  "idea": true,
+  "name": "Kathedrale aus Stein – Froschperspektive 金鞭岩",
+  "city": "Zhangjiajie",
+  "district": "Golden Whip Stream",
+  "category": "Fotoidee",
+  "address": "Golden Whip Stream",
+  "lat": 29.3398,
+  "lng": 110.4475,
+  "approx": true,
+  "when": "day",
+  "note": "Vom Grund der Schlucht aus wirken die Säulen am mächtigsten: Mit dem Ultraweitwinkel senkrecht nach oben stürzen die Wände wie Kirchenpfeiler zusammen, oben ein Streifen Himmel, vorn ein herbstlich gefärbter Baum. Ein Bild, das die 300 m Höhe körperlich spüren lässt.",
+  "tip": "25.10. mittags am Golden Whip Rock (金鞭岩) und anderen Engstellen. 14 mm, Kamera fast senkrecht nach oben, f/8, Belichtungsreihe (heller Himmel, dunkler Wald). Stürzende Linien bewusst lassen. Laub oder Äste als Rahmen ins Bild nehmen. Mitten auf dem Weg nur kurz – Gruppen. ★",
+  "image": "images/idea_zjj2_kathedrale_1.jpg",
+  "image_page": "https://www.flickr.com/photos/world_traveler_willytan/40968159081/",
+  "image_credit": "Travel * Music * Photography · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/world_traveler_willytan/40968159081/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/world_traveler_willytan/40968159081/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_kathedrale_1.jpg",
+    "caption": "",
+    "credit": "Travel * Music * Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/karine-eye/30119481253/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/karine-eye/30119481253/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_kathedrale_2.jpg",
+    "caption": "",
+    "credit": "Karine EyE · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-laub",
+  "region": "cn",
+  "idea": true,
+  "name": "Ein Blatt, eine Säule – Focus-Stack 金鞭溪",
+  "city": "Zhangjiajie",
+  "district": "Golden Whip Stream",
+  "category": "Fotoidee",
+  "address": "Golden Whip Stream",
+  "lat": 29.3438,
+  "lng": 110.46,
+  "approx": true,
+  "when": "day",
+  "note": "Ganz nah: Ein rotes Ahorn- oder Sumachblatt auf einem nassen, moosigen Stein im Bach, 20 cm vor dem Objektiv – dahinter scharf die Felsnadel. Klein und groß in einem Bild, gestapelt aus mehreren Schärfeebenen. Ende Oktober beginnt die Färbung, einzelne Blätter reichen.",
+  "tip": "25.10. mittags im Schatten: 16–24 mm, Stativ ganz tief, f/8–11, 5–8 Aufnahmen mit wanderndem Fokus von vorne nach hinten, später stacken. Nicht arrangieren, nur suchen (Blätter liegen im Bach genug). Polfilter gegen den Glanz auf nassem Stein. ★★",
+  "image": "images/idea_zjj2_laub_1.jpg",
+  "image_page": "https://www.flickr.com/photos/gusdiaz/26313499679/",
+  "image_credit": "gusdiaz · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/gusdiaz/26313499679/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/gusdiaz/26313499679/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_laub_1.jpg",
+    "caption": "Ähnliches Motiv – Herbstlaub am Bach",
+    "credit": "gusdiaz · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-pfuetze",
+  "region": "cn",
+  "idea": true,
+  "name": "Säulen auf dem Kopf – Pfützen-Spiegel 迷魂台",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie",
+  "lat": 29.3462,
+  "lng": 110.4392,
+  "approx": true,
+  "when": "both",
+  "note": "Nach Regen stehen auf den Steinplatten der Aussichtspunkte Pfützen. Kamera zwei Zentimeter über das Wasser – und die Säulen stehen kopfüber in einem kleinen Spiegel, eine zweite Welt unter der ersten. Ohne Pfütze: Smartphone mit schwarzem Display unter die Frontlinse halten, das ergibt denselben Spiegel.",
+  "tip": "Nach jedem Regenschauer an Mihun Tai / Hallelujah-Plattform. 16–35 mm, Live-View mit Klappdisplay, f/11, Fokus auf die Säule (Spiegelung ist gleich weit weg). Pfützenrand als Bogen in die Komposition; Wind abwarten, bis das Wasser glatt ist. Smartphone-Trick: Display schwarz, Gerät knapp unter das Objektiv kippen. ★",
+  "image": "images/idea_zjj2_pfuetze_1.jpg",
+  "image_page": "https://www.flickr.com/photos/kirklougheed/28274867641/",
+  "image_credit": "Kirk Lougheed · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/kirklougheed/28274867641/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kirklougheed/28274867641/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_pfuetze_1.jpg",
+    "caption": "Ähnliches Motiv – Pfützenspiegelung, Yosemite",
+    "credit": "Kirk Lougheed · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-parkbus",
+  "region": "cn",
+  "idea": true,
+  "name": "Mitzieher mit dem Parkbus 景区环保车",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie–Yangjiajie, Parkstraße",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie–Yangjiajie, Parkstraße",
+  "lat": 29.3605,
+  "lng": 110.426,
+  "approx": true,
+  "when": "day",
+  "note": "Die bunten Elektrobusse sind die Adern des Parks. Mitgezogen bei 1/20 s ist der Bus scharf, Säulen und Bäume dahinter werden zu Geschwindigkeitslinien – Alltag und Kulisse in einem dynamischen Bild, das man in keinem Reiseführer sieht.",
+  "tip": "An einer Kurve der Parkstraße mit Säulenblick, z. B. nahe den Haltestellen 往袁家界/往天子山 bei Yangjiajie, gut am 23.10. nachmittags oder 25.10. nach Yangjiajie. 50–70 mm, Blendenautomatik bei 1/15–1/30 s, Serienbild, Fokus kontinuierlich, Kamera mit dem Bus mitdrehen. Sicher am Rand stehen. ★★",
+  "image": "images/idea_zjj2_parkbus_1.jpg",
+  "image_page": "https://www.flickr.com/photos/mlhell/27709183689/",
+  "image_credit": "mlhell · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/mlhell/27709183689/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/mlhell/27709183689/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_parkbus_1.jpg",
+    "caption": "",
+    "credit": "mlhell · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-himmelsfeld",
+  "region": "cn",
+  "idea": true,
+  "name": "Bauernhof über dem Abgrund 空中田园",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie",
+  "lat": 29.36282,
+  "lng": 110.46183,
+  "approx": false,
+  "when": "day",
+  "note": "Mitten auf den Felsplateaus von Yuanjiajie liegen Felder und Bauernhäuser, rundherum fallen die Wände 300 m ab – die ‚Felder in der Luft‘. Mit dem Tele vom Aussichtspunkt: winziger Bauer oder Hund auf dem Feld, dahinter der Säulenwald im Dunst. Ein Bild über Alltag an einem unmöglichen Ort.",
+  "tip": "25.10. ca. 10:00 vor der Fahrt mit dem Bailong-Lift (Haltestelle der Ringbusse) oder am 23.10. nachmittags. 70–200/400 mm, f/8, auf Leben warten (Bauer, Rauch aus dem Kamin, Wäsche). Ende Oktober sind die Felder abgeerntet – Strohhaufen und Gemüsereihen sind das Motiv. ★",
+  "image": "images/idea_zjj2_himmelsfeld_1.jpg",
+  "image_page": "https://www.flickr.com/photos/dans180/10889477566/",
+  "image_credit": "*dans · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/dans180/10889477566/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/dans180/10889477566/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_himmelsfeld_1.jpg",
+    "caption": "",
+    "credit": "*dans · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-teegarten",
+  "region": "cn",
+  "idea": true,
+  "name": "Teereihen zur blauen Stunde am Resort 袁家界茶场",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie-Teeplantage (YOLO Resort)",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie-Teeplantage (YOLO Resort)",
+  "lat": 29.37159,
+  "lng": 110.42956,
+  "approx": true,
+  "when": "night",
+  "note": "Das Resort liegt in einer Teeplantage auf dem Plateau – die Reihen der Teebüsche sind perfekte Führungslinien. Zur blauen Stunde leuchten die warmen Lichter der Häuser, darüber hängt der 90-%-Mond, im Hintergrund die dunklen Säulen. Ein Bild vom eigenen Zuhause im Park.",
+  "tip": "23.10. 18:25–18:55 (bürgerliche Dämmerung endet 18:25) nach der Rückkehr aus Yuanjiajie: Mond auf 30° (Az. 109°) im Ostsüdosten. Tiefer Standpunkt in einer Reihe, 16–35 mm, f/8, ISO 200, 4–15 s, Belichtungsreihe für Mond und Lichter. Morgens alternativ mit Nebel zwischen den Reihen. Nicht in die Pflanzen treten. ★",
+  "image": "images/idea_zjj2_teegarten_1.jpg",
+  "image_page": "https://www.flickr.com/photos/baddoguy/8391911987/",
+  "image_credit": "baddoguy · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/baddoguy/8391911987/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/baddoguy/8391911987/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_teegarten_1.jpg",
+    "caption": "Ähnliches Motiv – Teeplantage im Nebel, Chiang Rai",
+    "credit": "baddoguy · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-typologie",
+  "region": "cn",
+  "idea": true,
+  "name": "Typologie der Säulen – 12 Nadeln im Raster 张家界峰林",
+  "city": "Zhangjiajie",
+  "district": "Wulingyuan (alle Aussichtspunkte)",
+  "category": "Fotoidee",
+  "address": "Wulingyuan (alle Aussichtspunkte)",
+  "lat": 29.3499,
+  "lng": 110.4352,
+  "approx": true,
+  "when": "day",
+  "note": "Wie die Bechers ihre Fördertürme: zwölf einzelne Felsnadeln, jede gleich groß, mittig, im selben weichen Licht vor hellem Dunst fotografiert, später als 3×4-Raster präsentiert. Erst im Vergleich sieht man die Charaktere – Kopf, Kiefernhaube, Risse. Konzeptkunst statt Panorama.",
+  "tip": "Über alle drei Tage sammeln: Mihun Tai, Hallelujah, Tianzi, Yangjiajie. Immer 300–400 mm, Hochformat, f/8, Spitze mit gleichem Abstand zum oberen Rand, Hintergrund möglichst nur Dunst (nicht im harten Licht). Im Raster in Schwarz-Weiß oder entsättigt. ★",
+  "image": "images/idea_zjj2_typologie_1.jpg",
+  "image_page": "https://www.flickr.com/photos/lily-kentwell/7386280212/",
+  "image_credit": "giraffe2605 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/lily-kentwell/7386280212/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lily-kentwell/7386280212/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_typologie_1.jpg",
+    "caption": "Ähnliches Motiv – Typologie (Türen)",
+    "credit": "giraffe2605 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-vertorama",
+  "region": "cn",
+  "idea": true,
+  "name": "Die ganze Höhe – Vertorama vom Fuß bis zum Gipfel 乾坤柱",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie",
+  "lat": 29.34519,
+  "lng": 110.43722,
+  "approx": false,
+  "when": "day",
+  "note": "Ein einzelnes Bild schafft die Höhe der ‚Avatar‘-Säule nie. Ein senkrechtes Panorama aus 3–4 Reihen zeigt sie komplett: unten der Talgrund im Schatten, oben die Kiefernkrone im Morgenlicht, an der Plattform eine winzige Person als Maßstab. Großformat-Druck-tauglich.",
+  "tip": "24.10. 7:40–8:25 am Hallelujah-Aussichtspunkt vor den Gruppen. Kamera hochkant, 24–35 mm, manuell (Belichtung, WB, Fokus), von unten nach oben 30 % Überlappung; frei Hand geht, Stativ mit Nodalpunkt ist besser. In Lightroom ‚Perspektivisch‘ zusammenfügen. ★★",
+  "image": "images/idea_zjj2_vertorama_1.jpg",
+  "image_page": "https://www.flickr.com/photos/146573046@N06/23936970727/",
+  "image_credit": ".Supergag. · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/146573046@N06/23936970727/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/146573046@N06/23936970727/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_vertorama_1.jpg",
+    "caption": "",
+    "credit": ".Supergag. · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-brenizer",
+  "region": "cn",
+  "idea": true,
+  "name": "Porträt im Säulenwald – Brenizer-Methode 乾坤柱观景台",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie",
+  "lat": 29.3454,
+  "lng": 110.4374,
+  "approx": true,
+  "when": "both",
+  "note": "Ein Porträt der Mitreisenden mit Weitwinkel-Blickfeld, aber Tele-Unschärfe: Aus 20–40 Tele-Bildern bei offener Blende zusammengesetzt, steht die Person scharf vor einem cremig weichen Säulenwald – ein Look, den kein Objektiv allein liefert.",
+  "tip": "23.10. 17:15–17:45 im weichen Abendlicht oder 24.10. 7:45. 85–135 mm (oder 70–200 bei 200 mm, f/2.8), manuell alles fixieren, erst Gesicht, dann spiralförmig nach außen 30–40 Bilder mit Überlappung. Person still halten lassen. Stitching in Lightroom/PTGui. ★★",
+  "image": "images/idea_zjj2_brenizer_1.jpg",
+  "image_page": "https://www.flickr.com/photos/38435376@N06/33652597573/",
+  "image_credit": "ezik-2 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/38435376@N06/33652597573/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/38435376@N06/33652597573/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_brenizer_1.jpg",
+    "caption": "Ähnliches Motiv – Brenizer-Porträt",
+    "credit": "ezik-2 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-selfie",
+  "region": "cn",
+  "idea": true,
+  "name": "Avatar-Selfie-Gewimmel 阿凡达观景台",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie",
+  "lat": 29.3454,
+  "lng": 110.4374,
+  "approx": true,
+  "when": "day",
+  "note": "Ab 9 Uhr kommen die Gruppen mit Fähnchen, Mützen und Selfie-Sticks. Von einer erhöhten Treppe aus wird daraus eine Reportage: hundert Handys gleichzeitig auf dieselbe Säule gerichtet, identische Posen, ein Guide mit Megafon. Ironisch, ehrlich, zeitgenössisch – das Gegenstück zur einsamen Morgenstimmung.",
+  "tip": "24.10. ab ca. 9:00 (nach dem Mihun-Tai-Morgen) an Hallelujah- oder First-Bridge-Plattform; 24–70 mm für Gewimmel, 70–200 mm für Details (Hände mit Handys, Gesichter hinter Bildschirmen). Von oben oder hinten, damit die Säule im Bild bleibt. Zeit nehmen, Gesten abwarten. ★",
+  "image": "images/idea_zjj2_selfie_1.jpg",
+  "image_page": "https://www.flickr.com/photos/gserafini/480961730/",
+  "image_credit": "gserafini · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/gserafini/480961730/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/gserafini/480961730/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_selfie_1.jpg",
+    "caption": "",
+    "credit": "gserafini · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/lancewebel/301042909/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lancewebel/301042909/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_selfie_2.jpg",
+    "caption": "",
+    "credit": "lancewebel · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-wolkenmeer",
+  "region": "cn",
+  "idea": true,
+  "name": "Wolkenmeer wie Watte – ND-Langzeit 迷魂台",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie",
+  "lat": 29.34619,
+  "lng": 110.43902,
+  "approx": true,
+  "when": "day",
+  "note": "Ziehen Wolken durch die Säulen, friert eine kurze Zeit sie als Fetzen ein – eine Minute Belichtung macht daraus ein glattes, weiches Meer, aus dem die Spitzen ragen. Die Säulen wirken wie Inseln im Ozean. Der Effekt ist anders als jedes Nebelfoto, still und grafisch.",
+  "tip": "24.10. nach Sonnenaufgang (Mihun Tai) oder 25.10. am Tianbo-Plateau, sobald sich Wolken bewegen. 24–105 mm, ND 6–10 Stufen, f/11, ISO 64–100, 30–120 s, Stativ windgeschützt, Fernauslöser, Sucher abdecken. Variante: 10–20 Einzelbilder mit Mittelwert-Stapel (Photoshop) – gleiches Ergebnis ohne Filter. ★★",
+  "image": "images/idea_zjj2_wolkenmeer_1.jpg",
+  "image_page": "https://www.flickr.com/photos/singer186/14232492963/",
+  "image_credit": "Singer 晴哥 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/singer186/14232492963/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/singer186/14232492963/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_wolkenmeer_1.jpg",
+    "caption": "",
+    "credit": "Singer 晴哥 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-doppel",
+  "region": "cn",
+  "idea": true,
+  "name": "Doppelbelichtung: Gesicht wird Gebirge 天波府",
+  "city": "Zhangjiajie",
+  "district": "Yangjiajie",
+  "category": "Fotoidee",
+  "address": "Yangjiajie",
+  "lat": 29.36094,
+  "lng": 110.41663,
+  "approx": true,
+  "when": "day",
+  "note": "In der Kamera zwei Bilder in eins: das Profil der Mitreisenden als Silhouette gegen hellen Morgenhimmel, darin eingeblendet die Felsnadeln im Dunst. Die Landschaft wird zum Innenleben der Person – ein poetisches Porträt, das Reise und Mensch verbindet.",
+  "tip": "25.10. auf dem Tianbo-Plateau, 7:15–8:00. Mehrfachbelichtung im Kameramenü, Modus ‚Aufhellen‘. 1. Bild: Profil gegen hellen Himmel, leicht überbelichtet (+1 EV), 85 mm. 2. Bild: Säulen im Dunst, Tele, sodass die Spitzen in Kopf und Schulter liegen. Mehrere Kombinationen probieren. ★★",
+  "image": "images/idea_zjj2_doppel_1.jpg",
+  "image_page": "https://www.flickr.com/photos/128225786@N07/15327857958/",
+  "image_credit": "julianimke.com · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/128225786@N07/15327857958/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/128225786@N07/15327857958/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_doppel_1.jpg",
+    "caption": "Ähnliches Motiv – Doppelbelichtung",
+    "credit": "julianimke.com · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-strahlen",
+  "region": "cn",
+  "idea": true,
+  "name": "Lichtfinger über der Shentang-Schlucht 点将台",
+  "city": "Zhangjiajie",
+  "district": "Tianzi-Berg",
+  "category": "Fotoidee",
+  "address": "Tianzi-Berg",
+  "lat": 29.38444,
+  "lng": 110.48152,
+  "approx": false,
+  "when": "day",
+  "note": "Am Nachmittag steht die Sonne tief im Westsüdwesten über der Shentang-Schlucht. Dunst und Waldfeuchte machen die Strahlen sichtbar – Lichtbahnen fallen zwischen den Säulen in die Tiefe, die Nadeln stehen als Scherenschnitte davor. Gegenlicht pur, ein Motiv für Wettbewerbe.",
+  "tip": "24.10. 16:30–17:30 am Aussichtspunkt Dianjiangtai (Haltestelle 点将台), Sonne von Az. 247° (17° hoch) bis Az. 254° (5°). 70–200 mm, Sonne knapp außerhalb oder hinter einer Säule, −1 EV, Gegenlichtblende, ggf. Belichtungsreihe. Dunst nach Regen ideal. Danach rechtzeitig zum Xihai (700 m). ★★",
+  "image": "images/idea_zjj2_strahlen_1.jpg",
+  "image_page": "https://www.flickr.com/photos/virtualwayfarer/55479409335/",
+  "image_credit": "virtualwayfarer · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/virtualwayfarer/55479409335/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/virtualwayfarer/55479409335/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_strahlen_1.jpg",
+    "caption": "",
+    "credit": "virtualwayfarer · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/39489005@N05/51228382985/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/39489005@N05/51228382985/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_strahlen_2.jpg",
+    "caption": "",
+    "credit": "Clement Tang * · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/looloo/4781552524/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/looloo/4781552524/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_strahlen_3.jpg",
+    "caption": "",
+    "credit": "Tim Yuan · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-regen",
+  "region": "cn",
+  "idea": true,
+  "name": "Schirme auf der Treppe von oben 雨中步道",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie",
+  "lat": 29.3466,
+  "lng": 110.4385,
+  "approx": true,
+  "when": "day",
+  "note": "Regen ist kein Ausfall, sondern ein Motiv: Bunte Schirme ziehen über die grauen Treppen und Plattformen, von oben fotografiert entsteht ein grafisches Muster aus Farbpunkten zwischen den Nebelsäulen. Eine einzige rote Schirmfigur im Grau reicht als Bildidee.",
+  "tip": "Bei Regen an Mihun Tai/Hallelujah oder Tianzi: erhöhter Standpunkt über einer Treppe, 70–200 mm senkrecht nach unten oder schräg. 1/250 s, um Tropfen einzufrieren, oder 1/15 s für Regenstriche vor dunklem Hintergrund. Kamera mit Regenhülle, Mikrofasertuch. ★",
+  "image": "images/idea_zjj2_regen_1.jpg",
+  "image_page": "https://www.flickr.com/photos/184332056@N02/54803654254/",
+  "image_credit": "PZ Sunrays · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/184332056@N02/54803654254/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/184332056@N02/54803654254/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_regen_1.jpg",
+    "caption": "",
+    "credit": "PZ Sunrays · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-regenfenster",
+  "region": "cn",
+  "idea": true,
+  "name": "Säulen hinter Regentropfen 景区巴士",
+  "city": "Zhangjiajie",
+  "district": "Parkbusse, Wulingyuan",
+  "category": "Fotoidee",
+  "address": "Parkbusse, Wulingyuan",
+  "lat": 29.3605,
+  "lng": 110.426,
+  "approx": true,
+  "when": "day",
+  "note": "Im Parkbus bei Regen: Fokus auf die Tropfen an der Scheibe, die Säulen dahinter verschwimmen zu grauen Formen. Ein intimes, melancholisches Bild vom Reisen selbst – und eines, das man bei schlechtem Wetter garantiert bekommt.",
+  "tip": "Jede Busfahrt bei Regen oder Nebel. 35–85 mm, f/2.8–4, manueller Fokus auf die Scheibe, Objektiv nah an das Glas (Gegenlichtblende anlegen gegen Spiegelungen). Variante: Fokus auf die Landschaft, Tropfen als Bokeh. ★",
+  "image": "images/idea_zjj2_regenfenster_1.jpg",
+  "image_page": "https://www.flickr.com/photos/edoardolavagno/8668275091/",
+  "image_credit": "ikhals · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/edoardolavagno/8668275091/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/edoardolavagno/8668275091/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_regenfenster_1.jpg",
+    "caption": "Ähnliches Motiv – Regentropfen am Fenster",
+    "credit": "ikhals · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-mcd",
+  "region": "cn",
+  "idea": true,
+  "name": "McDonald's am Gipfel 天子山麦当劳",
+  "city": "Zhangjiajie",
+  "district": "Tianzi-Berg, Helong Park",
+  "category": "Fotoidee",
+  "address": "Tianzi-Berg, Helong Park",
+  "lat": 29.38379,
+  "lng": 110.4908,
+  "approx": false,
+  "when": "day",
+  "note": "Auf dem Tianzi-Berg verkauft McDonald's Burger direkt neben den Weltnaturerbe-Säulen, nebenan Luckin Coffee. Mit dem Tele gestaucht stehen das große M und die Felsnadeln Seite an Seite – ein ironisches Zeitdokument über Massentourismus in China.",
+  "tip": "24.10. 15:30–16:15 am Helong Park. 70–200 mm, Standpunkt so wählen, dass Logo/Schirme und eine Säule übereinander liegen; Menschen mit Burger und Kamera einbeziehen. Bunte Farben satt lassen, gern quadratisch. ★",
+  "image": "images/idea_zjj2_mcd_1.jpg",
+  "image_page": "https://www.flickr.com/photos/rwoan/27098424972/",
+  "image_credit": "rwoan · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/rwoan/27098424972/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/rwoan/27098424972/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_mcd_1.jpg",
+    "caption": "",
+    "credit": "rwoan · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-maronen",
+  "region": "cn",
+  "idea": true,
+  "name": "Rauch über dem Maronenstand 袁家界游客基地",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie, Busbahnhof",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie, Busbahnhof",
+  "lat": 29.34992,
+  "lng": 110.43515,
+  "approx": false,
+  "when": "day",
+  "note": "An den Busstationen rösten Händlerinnen Esskastanien, Süßkartoffeln und Mais in großen Woks. Im schrägen Morgenlicht leuchtet der Rauch, die Gesichter sind konzentriert, die Hände schwarz von Kohle. Ein Porträt der Menschen, die vom Park leben.",
+  "tip": "24.10. ca. 9:20 auf dem Weg zum Parkbus (Sonne im Osten, ca. 25° hoch – Rauch im Gegenlicht). 35–85 mm, f/2.8, auf Augenhöhe; vorher etwas kaufen und fragen (‚可以拍照吗？‘), Bild zeigen. Serie: Hände, Wok, Gesicht. ★",
+  "image": "images/idea_zjj2_maronen_1.jpg",
+  "image_page": "https://www.flickr.com/photos/127508165@N06/16225698666/",
+  "image_credit": "SM Tham · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/127508165@N06/16225698666/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/127508165@N06/16225698666/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_maronen_1.jpg",
+    "caption": "",
+    "credit": "SM Tham · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/mlhell/38777512124/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/mlhell/38777512124/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_maronen_2.jpg",
+    "caption": "",
+    "credit": "mlhell · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-gluehen",
+  "region": "cn",
+  "idea": true,
+  "name": "Glühende Säulen mit Tagmond 迷魂台",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie",
+  "lat": 29.34619,
+  "lng": 110.43902,
+  "approx": false,
+  "when": "day",
+  "note": "Am Ankunftsabend steht die Sonne tief im Westen und färbt die Westflanken der Säulen orange, während die Schluchten schon blau sind. Genau gegenüber steigt der 90-%-Mond über die glühenden Spitzen – Warm-Kalt-Kontrast und ein Himmelskörper als Akzent. Anders als der Mondaufgang am 25.10.: hier ist der Mond schon hoch und alles noch im Licht.",
+  "tip": "23.10. 17:15–17:55: Sonne Az. 252–256°, 8°→1° hoch; Mond 17:30 auf 17° (Az. 101°), 17:45 auf 20° (Az. 103°). Vom Mihun Tai / Hallelujah-Pfad nach Osten auf die angestrahlten Säulen zielen, 100–400 mm, Mond hinter einer Spitze ausrichten. Belichtung auf die Lichter, Mond ggf. separat (1/250 s). ★★",
+  "image": "images/idea_zjj2_gluehen_1.jpg",
+  "image_page": "https://www.flickr.com/photos/shenxy/5414669837/",
+  "image_credit": "shenxy · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/shenxy/5414669837/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/shenxy/5414669837/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_gluehen_1.jpg",
+    "caption": "",
+    "credit": "shenxy · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/160932312@N02/39849237883/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/160932312@N02/39849237883/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_gluehen_2.jpg",
+    "caption": "",
+    "credit": "minkuk.20 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-geister999",
+  "region": "cn",
+  "idea": true,
+  "name": "Geister auf der Himmelstreppe 天门山999级台阶",
+  "city": "Zhangjiajie",
+  "district": "Tianmen-Berg",
+  "category": "Fotoidee",
+  "address": "Tianmen-Berg",
+  "lat": 29.0513631,
+  "lng": 110.4827374,
+  "approx": false,
+  "when": "day",
+  "note": "Die 999 Stufen zum Himmelstor sind voller Menschen – mit ND-Filter und 2–8 s Belichtung werden sie zu Geistern, die durch das Bild wehen, während Treppe und Felsbogen scharf bleiben. Massentourismus als Strömung, in Schwarz-Weiß fast mystisch.",
+  "tip": "Nur bei Tianmen-Besuch (optional). Vom Fuß der Treppe aufwärts, 16–35 mm, f/11–16, ND 6 Stufen, 2–8 s, Stativ am Geländerrand (nicht auf der Treppe). Bei Gegenlicht im Torbogen Belichtungsreihe. Wenig Wind im Tal hilft. ★★",
+  "image": "images/idea_zjj2_geister999_1.jpg",
+  "image_page": "https://www.flickr.com/photos/markgian92/54748084244/",
+  "image_credit": "markgian92 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/markgian92/54748084244/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/markgian92/54748084244/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_geister999_1.jpg",
+    "caption": "",
+    "credit": "markgian92 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/markgian92/54748084234/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/markgian92/54748084234/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_geister999_2.jpg",
+    "caption": "",
+    "credit": "markgian92 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-kehren",
+  "region": "cn",
+  "idea": true,
+  "name": "99 Kehren als Kalligrafie 通天大道",
+  "city": "Zhangjiajie",
+  "district": "Tianmen-Berg",
+  "category": "Fotoidee",
+  "address": "Tianmen-Berg",
+  "lat": 29.0665127,
+  "lng": 110.472491,
+  "approx": true,
+  "when": "day",
+  "note": "Von oben betrachtet ist die Straße mit den 99 Kurven ein Schriftzeichen in den Berg geschrieben. Mit dem Tele eng gefasst und in Schwarz-Weiß entsteht ein grafisches Bild aus Schleifen; ein einzelner Bus wird zum Punkt auf dem i.",
+  "tip": "Nur bei Tianmen-Besuch (optional): aus der Seilbahn (oberes Drittel, Blick links zurück) oder von den Aussichtspunkten am Bergweg. 70–200/400 mm, 1/1000 s, Polfilter gegen Dunst. Warten, bis ein Bus in einer Kurve steht. ★",
+  "image": "images/idea_zjj2_kehren_1.jpg",
+  "image_page": "https://www.flickr.com/photos/virtualwayfarer/49961260831/",
+  "image_credit": "virtualwayfarer · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/virtualwayfarer/49961260831/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/virtualwayfarer/49961260831/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_kehren_1.jpg",
+    "caption": "",
+    "credit": "virtualwayfarer · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/stefanklauke/33309531498/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/stefanklauke/33309531498/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_kehren_2.jpg",
+    "caption": "",
+    "credit": "Stefan Klauke · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-himmelstor",
+  "region": "cn",
+  "idea": true,
+  "name": "Wolken strömen durchs Himmelstor 天门洞",
+  "city": "Zhangjiajie",
+  "district": "Tianmen-Berg",
+  "category": "Fotoidee",
+  "address": "Tianmen-Berg",
+  "lat": 29.0513631,
+  "lng": 110.4827374,
+  "approx": false,
+  "when": "day",
+  "note": "Das 131 m hohe Felsentor ist oft voller Wolken, die hindurchziehen wie Wasser. Mit einer Langzeitbelichtung wird der Durchzug zum weichen Strom, das Tor zum Portal ins Weiße. Bei Sonne von hinten: Licht fällt durch den Bogen.",
+  "tip": "Nur bei Tianmen-Besuch (optional), am besten bei wechselhaftem Wetter. Vom Platz unterhalb der 999 Stufen, 24–35 mm hochkant oder 70 mm für Tor + Treppe. ND 6–10 Stufen, 15–60 s; Mensch auf der Treppe als Maßstab. ★★",
+  "image": "images/idea_zjj2_himmelstor_1.jpg",
+  "image_page": "https://www.flickr.com/photos/76606144@N02/9481823490/",
+  "image_credit": "o joe · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/76606144@N02/9481823490/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/76606144@N02/9481823490/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_himmelstor_1.jpg",
+    "caption": "",
+    "credit": "o joe · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/virtualwayfarer/55481161452/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/virtualwayfarer/55481161452/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_himmelstor_2.jpg",
+    "caption": "",
+    "credit": "virtualwayfarer · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-monorail",
+  "region": "cn",
+  "idea": true,
+  "name": "Der Bummelzug durch den Säulengarten 十里画廊",
+  "city": "Zhangjiajie",
+  "district": "Ten-Mile Gallery",
+  "category": "Fotoidee",
+  "address": "Ten-Mile Gallery",
+  "lat": 29.37293,
+  "lng": 110.47868,
+  "approx": false,
+  "when": "day",
+  "note": "Die kleine weiß-grüne Bahn im ‚Zehn-Meilen-Gemälde‘ schleicht durch eine Allee aus Felsnadeln – fast ein Spielzeug vor Riesenkulisse. Mit dem Tele von weit vorne gestaucht wirkt der Zug winzig unter den Säulen; mitgezogen wird er zum Bewegungsbild.",
+  "tip": "Nicht im Plan – nur bei freier Zeit (Talstation 十里画廊 im Suoxiyu-Tal). 100–400 mm frontal entlang der Strecke vom Wanderweg, f/8, oder Mitzieher 1/30 s seitlich. Späterer Nachmittag gibt Seitenlicht auf die Säulen. ★",
+  "image": "images/idea_zjj2_monorail_1.jpg",
+  "image_page": "https://www.flickr.com/photos/10152260@N05/52395829653/",
+  "image_credit": "tchunter · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/10152260@N05/52395829653/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/10152260@N05/52395829653/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_monorail_1.jpg",
+    "caption": "",
+    "credit": "tchunter · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/79191095@N00/38485336046/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/79191095@N00/38485336046/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_monorail_2.jpg",
+    "caption": "",
+    "credit": "Mark Tindale · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-maler",
+  "region": "cn",
+  "idea": true,
+  "name": "Kunststudenten an der Staffelei 写生",
+  "city": "Zhangjiajie",
+  "district": "Tianzi-Berg",
+  "category": "Fotoidee",
+  "address": "Tianzi-Berg",
+  "lat": 29.38353,
+  "lng": 110.48859,
+  "approx": true,
+  "when": "day",
+  "note": "Zhangjiajie ist Ziel chinesischer Kunsthochschulen: Studenten und Rentner sitzen mit Skizzenblock und Tusche an den Aussichtspunkten. Über die Schulter fotografiert stehen gezeichnete und echte Säulen nebeneinander – ein Bild über das Sehen selbst.",
+  "tip": "24.10. nachmittags auf dem Tianzi-Berg (Aussichtsplattformen am Helong Park) oder wo immer Staffeleien stehen. 24–50 mm über die Schulter, Zeichnung scharf, Landschaft leicht unscharf (f/4); oder 85 mm Porträt mit Pinsel. Immer fragen und das Bild zeigen. ★",
+  "image": "images/idea_zjj2_maler_1.jpg",
+  "image_page": "https://www.flickr.com/photos/79191095@N00/26765183099/",
+  "image_credit": "Mark Tindale · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/79191095@N00/26765183099/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/79191095@N00/26765183099/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_maler_1.jpg",
+    "caption": "",
+    "credit": "Mark Tindale · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-tusche",
+  "region": "cn",
+  "idea": true,
+  "name": "Tuschemalerei in Weiß – High-Key 西海",
+  "city": "Zhangjiajie",
+  "district": "Tianzi-Berg",
+  "category": "Fotoidee",
+  "address": "Tianzi-Berg",
+  "lat": 29.38323,
+  "lng": 110.48919,
+  "approx": true,
+  "when": "day",
+  "note": "Statt kontrastreicher Totale: das Bild bewusst hell belichten, bis nur noch die dunkelsten Säulen und Kiefern als Pinselstriche im weißen Dunst stehen. Schmales Hochformat wie eine chinesische Hängerolle (1:2,5), 70 % leere Fläche – die Bildsprache der Shan-Shui-Malerei mit der Kamera.",
+  "tip": "Jeder dunstige Moment, gut am Xihai oder Mihun Tai am späten Vormittag. 70–200 mm, +1 bis +2 EV, Schwarz-Weiß-Vorschau im Sucher; Spitzen an die Drittellinien. In der Bearbeitung Weiß anheben, Schwarz knackig, kein Himmel-Detail. ★",
+  "image": "images/idea_zjj2_tusche_1.jpg",
+  "image_page": "https://www.flickr.com/photos/stefanklauke/31847136678/",
+  "image_credit": "Stefan Klauke · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/stefanklauke/31847136678/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/stefanklauke/31847136678/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_tusche_1.jpg",
+    "caption": "",
+    "credit": "Stefan Klauke · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/stefanklauke/43884115510/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/stefanklauke/43884115510/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_tusche_2.jpg",
+    "caption": "",
+    "credit": "Stefan Klauke · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj2-liebesschloss",
+  "region": "cn",
+  "idea": true,
+  "name": "Rostige Liebesschlösser vor den Säulen 连心桥",
+  "city": "Zhangjiajie",
+  "district": "Yuanjiajie",
+  "category": "Fotoidee",
+  "address": "Yuanjiajie",
+  "lat": 29.34649,
+  "lng": 110.43682,
+  "approx": false,
+  "when": "day",
+  "note": "An der ‚Brücke der verbundenen Herzen‘ zwischen Mihun Tai und Hallelujah hängen tausende Schlösser, rostig und rot. Ganz nah fotografiert und mit den Säulen als weiche Formen im Hintergrund wird daraus ein Detailbild über Versprechen an einem ewigen Ort.",
+  "tip": "24.10. ca. 7:30 auf dem Weg zum Hallelujah-Punkt oder am 23.10. abends im warmen Licht. 85–105 mm bei f/2.8 für Bokeh, oder 16 mm ganz nah mit f/11 und Fokus-Stack für Schloss UND Säule. Gegenlicht lässt Rost leuchten. ★",
+  "image": "images/idea_zjj2_liebesschloss_1.jpg",
+  "image_page": "https://www.flickr.com/photos/onyame/3562816069/",
+  "image_credit": "onyame · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/onyame/3562816069/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/onyame/3562816069/",
+    "kind": "photo",
+    "image": "images/idea_zjj2_liebesschloss_1.jpg",
+    "caption": "",
+    "credit": "onyame · Flickr"
+   }
+  ]
  }
 ];
