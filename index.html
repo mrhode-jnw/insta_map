@@ -327,7 +327,7 @@
   #list li { position: relative; }
   .ifav { flex: none; align-self: center; width: 38px; height: 38px; border-radius: 50%; border: 0; background: transparent; color: var(--muted); font-size: 21px; cursor: pointer; }
   .ifav.on { color: #e11d48; }
-  .ifav.g { position: absolute; top: 6px; left: 6px; z-index: 2; width: 32px; height: 32px; font-size: 17px; background: rgba(0,0,0,.45); color: #fff; }
+  .ifav.g { position: absolute; top: 6px; right: 6px; left: auto; z-index: 2; width: 32px; height: 32px; font-size: 17px; background: rgba(0,0,0,.45); color: #fff; }
   .ifav.g.on { color: #fb7185; }
   .pin.idea::before { content: "✷"; position: absolute; left: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
     background: #f59e0b; color: #fff; font-size: 11px; line-height: 16px; text-align: center; }
@@ -631,6 +631,8 @@
   #group .where { position: relative; display: flex; align-items: center; padding: 7px 10px; border-radius: 999px; font-size: 14px; font-weight: 600; white-space: nowrap; }
   #group .where::after { content: "▾"; margin-left: 4px; font-size: 11px; opacity: .6; }
   #group button.where { font-weight: 600; }
+  #group .gs { display: none; }
+  @media (max-width: 440px) { #group .gf { display: none; } #group .gs { display: inline; } #group button, #group .where { padding: 8px 9px !important; font-size: 14px; } }
   .wdim { opacity: .4; pointer-events: none; } .tprow.wsub { padding-left: 18px; }
   #group .sep { width: 1px; align-self: stretch; margin: 6px 2px; background: var(--line, #ccc); }
   @media (max-width: 799px) { .leaflet-top.leaflet-right { margin-top: 56px; } }
@@ -1022,7 +1024,7 @@
 <div id="scale" aria-hidden="true"><b></b><span></span></div>
 <div id="group" role="tablist" aria-label="Bereich">
   <button class="where" id="whereBtn" type="button" aria-label="Bereich wählen"><span id="whereLbl">🧭 Route</span></button>
-  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-g="ideen">✷ Fotoideen</button><button data-nltop>📍 Ohne Ort</button>
+  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-g="ideen">✷ <span class="gf">Fotoideen</span><span class="gs">Ideen</span></button><button data-nltop title="Posts ohne genauen Ort">📍<span class="gf"> Ohne Ort</span></button>
 </div>
 <div id="dockbg"></div>
 <nav id="dock" aria-label="Bereiche">
@@ -3232,7 +3234,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "103 · Xiaohuang/Basha am 20.10.";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "104 · Fotoideen-Raster repariert";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3423,7 +3425,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#list").classList.toggle("grid", view === "grid");
     const filtered = favF || trashF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
-      return `${s.fav ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
+      return `${s.fav && !p.idea ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
     const head = (p, i) => sortBy === "area" && (i === 0 || items[i - 1]._a !== p._a)
       ? `<li class="sec areahead">${esc(p._a)} <small>(${items.filter(x => x._a === p._a).length})</small></li>` : "";
@@ -3437,7 +3439,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       setList(noloc + (items.length ? items.map((p, i) => { const s = st(p.id); return `${head(p, i)}
         <li class="gi${s.done ? " done" : ""}" data-id="${esc(p.id)}">
           ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}${sleepBadge(p)}
-          <div class="badge">${s.fav ? "<span class=\"fav-badge\">❤</span>" : ""}${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
+          <div class="badge">${s.fav && !p.idea ? "<span class=\"fav-badge\">❤</span>" : ""}${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
           ${p.idea ? `<button class="ifav g${st(p.id).fav ? " on" : ""}" data-ifav="${esc(p.id)}" aria-label="Fotoidee favorisieren">${st(p.id).fav ? "❤" : "♡"}</button>` : ""}
           <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : ""].filter(Boolean).join(" · "))}${here() ? ` · <span class="dist">${fmt(p._d)}</span>` : ""}</small></div>
         </li>`; }).join("") : noloc ? "" : `<li id="empty">Keine Treffer.</li>`));
