@@ -249,7 +249,10 @@
   .isun { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 10px; font-size: 12.5px; }
   .isun2 { display: flex; flex-wrap: nowrap; gap: 12px; align-items: center; margin: 8px 0 10px; font: 600 13px/1 system-ui, sans-serif; overflow-x: auto; scrollbar-width: none; }
   .isun2 span { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; }
-  .tprow.pkopt img, .tprow.pkopt > span:first-of-type { outline: 2px dashed #a78bfa; outline-offset: 2px; }
+  .tprow .pkgo { display: flex; gap: 6px; margin-top: 6px; }
+  .tprow .pkgo button { padding: 4px 10px; border-radius: 8px; border: 0; background: var(--soft, #f1f1f4); color: var(--fg); font-size: 12.5px; font-weight: 600; cursor: pointer; }
+  .tprow .pkgo button[data-pkbig] { background: var(--accent); color: #fff; }
+  .tprow.pkopt > img { outline: 2px dashed #a78bfa; outline-offset: 2px; }
   .tprow.pkopt b { font-weight: 600; }
   .ihmini { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-radius: 12px; background: var(--soft, rgba(127,127,127,.12)); font-size: 13.5px; color: var(--muted); }
   .isun span { padding: 4px 8px; border-radius: 8px; background: rgba(148,163,184,.15); }
@@ -3063,6 +3066,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   $("#itinClose").onclick = () => { $("#itin").hidden = true; };
   $("#itinOpt").addEventListener("click", e => { const b = e.target.closest("button[data-o]"); if (!b || b.dataset.o !== "1") return; openOptPick(); });
   // Auswahl der optionalen Spots: Liste mit Vorschaubild, Name, Zeit und Haken → Übernehmen
+  let pickState = null;
   function openOptPick() {
     const d = ITIN.days.find(x => x.date === itinDay); if (!d) return;
     const opts = d.items.filter(it => it.type === "stop" || (it.opt && it.type !== "move")), ch = chosenOf(d), off = offOf(d), box = $("#tourPick");
@@ -3070,14 +3074,20 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const tag = it.opt ? `<span class="b-opt" style="font-size:11px;padding:1px 7px;border-radius:999px;margin-left:6px">optional</span>` : `<span class="b-plan" style="font-size:11px;padding:1px 7px;border-radius:999px;margin-left:6px">★ Plan</span>`;
       const img = p && p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy" style="width:56px;height:56px;border-radius:10px;object-fit:cover;flex:none">`
         : `<span style="width:56px;height:56px;border-radius:10px;display:grid;place-items:center;flex:none;background:var(--soft);font-size:24px">${esc(it.icon || "📍")}</span>`;
+      const go = p ? `<span class="pkgo"><button type="button" data-pkmap="${esc(p.id)}" title="Klein auf der Karte zeigen">Karte</button><button type="button" data-pkbig="${esc(p.id)}" title="Spot groß öffnen">Spot ›</button></span>` : "";
       return `<label class="tprow${it.opt ? " pkopt" : " pkplan"}" style="gap:12px"><input type="checkbox" data-k="${esc(k)}" data-opt="${it.opt ? 1 : 0}" ${on ? "checked" : ""}>${img}
-        <span style="min-width:0"><b style="display:block">${esc(p ? shortName(p.name) : it.title || "")}${tag}</b><small>${esc([it.t, it.lightText].filter(Boolean).join(" · "))}</small></span></label>`; };
+        <span style="min-width:0;flex:1"><b style="display:block">${esc(p ? shortName(p.name) : it.title || "")}${tag}</b><small>${esc([it.t, it.lightText].filter(Boolean).join(" · "))}</small>${go}</span></label>`; };
     box.innerHTML = `<div class="tpcard"><div class="tphead"><b>Spots · ${esc(dayLabel(d))}</b><button class="tpclose" aria-label="Schließen">✕</button></div>
       ${opts.map(row).join("")}<button class="xa-save" data-ok>Übernehmen</button></div>`;
     box.style.zIndex = 3500; box.hidden = false;
     const close = () => { box.hidden = true; box.style.zIndex = ""; };
     box.querySelector(".tpclose").onclick = close;
     box.onclick = e => { if (e.target === box) close(); };
+    // zum Spot: Auswahl bleibt erhalten (wird beim Zurückkommen wieder angezeigt)
+    box.querySelectorAll("[data-pkmap],[data-pkbig]").forEach(b => b.onclick = e => { e.preventDefault(); e.stopPropagation();
+      pickState = [...box.querySelectorAll("input[data-k]")].map(x => [x.dataset.k, x.checked]);
+      close(); itinOpenSpot(b.dataset.pkmap || b.dataset.pkbig, null, !!b.dataset.pkbig, true); });
+    if (pickState) { pickState.forEach(([k, c]) => { const x = box.querySelector(`input[data-k="${CSS.escape(k)}"]`); if (x) x.checked = c; }); pickState = null; }
     box.querySelector("[data-ok]").onclick = () => {
       const inp = [...box.querySelectorAll("input[data-k]")];
       const sel = inp.filter(x => x.dataset.opt === "1" && x.checked).map(x => x.dataset.k);
@@ -3107,16 +3117,19 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       saveChoiceStd(dd).then(() => { toast("Als Standard gespeichert – gilt jetzt als Reiseplan", 2500); renderItin(); drawItin(false); })
         .catch(err => { toast("Nicht gespeichert: " + err.message, 4000); renderItin(); }); return; }
     if (b.dataset.map) { showItinDay(itinShown === b.dataset.map ? null : b.dataset.map, true); if (itinShown) $("#itin").hidden = true; else renderItin(); return; }
-    if (b.dataset.spot || b.dataset.ll) {
-      if (itinShown !== itinDay) showItinDay(itinDay, false);
-      $("#itin").hidden = true; if (mobile()) setSnap("peek");
-      const p = b.dataset.spot && spotOf(b.dataset.spot), [la, ln] = p ? [p.lat, p.lng] : b.dataset.ll.split(",").map(Number);
-      map.setView([la, ln], Math.max(map.getZoom(), 16), { animate: false });
-      if (p) { if (!shown.has(p.id)) { stickyId = p.id; renderList(); }
-        const m = markers.get(p.id); if (m) { backTo = { dlg: "plan", day: itinDay, scroll: $("#itinBody").scrollTop };
-          setTimeout(() => cluster.zoomToShowLayer(m, () => { openMini = p.id; openSpot(m); }), 350); } }
-    }
+    if (b.dataset.spot || b.dataset.ll) itinOpenSpot(b.dataset.spot, b.dataset.ll);
   });
+  // Spot aus dem Reiseplan öffnen: klein an der Karte (Standard) oder groß; „zurück“ führt wieder in den Plan (bzw. die Spot-Auswahl)
+  function itinOpenSpot(id, ll, big, pick) {
+    if (itinShown !== itinDay) showItinDay(itinDay, false);
+    $("#itin").hidden = true; if (mobile()) setSnap("peek");
+    const p = id && spotOf(id), [la, ln] = p ? [p.lat, p.lng] : ll.split(",").map(Number);
+    map.setView([la, ln], Math.max(map.getZoom(), 16), { animate: false });
+    if (p) { if (!shown.has(p.id)) { stickyId = p.id; renderList(); }
+      const m = markers.get(p.id); if (m) { backTo = { dlg: "plan", day: itinDay, scroll: $("#itinBody").scrollTop, pick: !!pick };
+        setTimeout(() => cluster.zoomToShowLayer(m, () => { openMini = big ? null : p.id; openSpot(m); }), 350); } }
+    dockSync();
+  }
   drawItin(false);
   // ---------- Symbolleiste unten
   const DLG = { plan: "#itin", tours: "#toursDlg", walk: "#wk", insp: "#insp", time: "#tl", set: "#settings" };
@@ -3131,7 +3144,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "93 · Rundgänge als Liste zum Aufklappen";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "94 · Spot-Auswahl: zur Karte / zum Spot";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3186,7 +3199,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function goBack() {
     const bt = backTo; if (!bt) return;
     backTo = null; closedByX = true; map.closePopup();
-    if (bt.dlg === "plan") { setItinDay(bt.day); renderItin(); $("#itin").hidden = false; $("#itinBody").scrollTop = bt.scroll; }
+    if (bt.dlg === "plan") { setItinDay(bt.day); renderItin(); if (bt.pick) setTimeout(openOptPick, 50); $("#itin").hidden = false; $("#itinBody").scrollTop = bt.scroll; }
     else { renderTours(); $("#toursDlg").hidden = false; $("#toursBody").scrollTop = bt.scroll; }
     dockSync();
   }
