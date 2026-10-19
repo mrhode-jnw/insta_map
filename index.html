@@ -323,6 +323,9 @@
   .pin.claude { border-color: #7c3aed; position: relative; }
   .pin.claude::before { content: "✦"; position: absolute; left: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
     background: #7c3aed; color: #fff; font-size: 10px; line-height: 16px; text-align: center; }
+  .pin.idea { border-color: #f59e0b; position: relative; }
+  .pin.idea::before { content: "✷"; position: absolute; left: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
+    background: #f59e0b; color: #fff; font-size: 11px; line-height: 16px; text-align: center; }
   .pop .pnav { position: sticky; top: 0; z-index: 6; display: flex; align-items: center; justify-content: space-between;
     padding: 6px 8px; background: rgba(255,255,255,.95); border-bottom: 1px solid #e5e7eb; }
   .pop .pnav button { width: 38px; height: 34px; border-radius: 10px; border: 1px solid #d1d5db; background: #fff; color: #111827;
@@ -1014,7 +1017,7 @@
 <div id="scale" aria-hidden="true"><b></b><span></span></div>
 <div id="group" role="tablist" aria-label="Bereich">
   <button class="where" id="whereBtn" type="button" aria-label="Bereich wählen"><span id="whereLbl">🧭 Route</span></button>
-  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-nltop>📍 Ohne Ort</button>
+  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-g="ideen">✷ Fotoideen</button><button data-nltop>📍 Ohne Ort</button>
 </div>
 <div id="dockbg"></div>
 <nav id="dock" aria-label="Bereiche">
@@ -1203,12 +1206,12 @@
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
   const v = Date.now();
-  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/insp_locate.js?v=${v}"><\/script><script src="data/timeline.js?v=${v}"><\/script><script src="data/walks.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script><script src="data/added.js?v=${v}"><\/script>`);
+  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/insp_locate.js?v=${v}"><\/script><script src="data/timeline.js?v=${v}"><\/script><script src="data/walks.js?v=${v}"><\/script><script src="data/ideas.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script><script src="data/added.js?v=${v}"><\/script>`);
 </script>
 <script src="crypto.js"></script>
 <script>
 function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
-  const places = [...(window.PLACES || []), ...(window.PLACES_CN || [])].filter(p => isFinite(p.lat) && isFinite(p.lng));
+  const places = [...(window.PLACES || []), ...(window.PLACES_CN || []), ...(window.IDEAS || [])].filter(p => isFinite(p.lat) && isFinite(p.lng));
   // Posts ohne konkreten Ort: als Pin in der Mitte ihrer Region (nur sichtbar, wenn man sie in der Liste antippt)
   const NL_CENTER = { hk: [22.3027, 114.1772], sz: [22.5431, 114.0579], gl: [24.7788, 110.4965], gz: [26.58, 106.71], zjj: [29.117, 110.479],
     cq: [29.563, 106.551], sh: [31.2304, 121.4737], cnx: [31.0, 112.0] };
@@ -1497,7 +1500,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <div class="b">
         ${PLAN_AT[p.id] ? `<div class="kick">★ ${esc(PLAN_AT[p.id].long)}</div>` : ""}
         <h3>${esc(p.name)}</h3>
-        <div class="mline">${p.by_claude ? `<span class="mtag cl" title="Nicht aus deiner Sammlung – von Claude als beliebter Spot ergänzt">✦ Claude-Tipp</span>` : ""}${p.mine ? `<span class="mtag">★ Eigener Spot</span>` : ""}${
+        <div class="mline">${p.idea ? `<span class="mtag cl" style="background:#f59e0b;color:#fff" title="Ungewöhnliche Foto-Idee – von Claude recherchiert">✷ Fotoidee</span>` : ""}${p.by_claude ? `<span class="mtag cl" title="Nicht aus deiner Sammlung – von Claude als beliebter Spot ergänzt">✦ Claude-Tipp</span>` : ""}${p.mine ? `<span class="mtag">★ Eigener Spot</span>` : ""}${
           [p.category, p.district, WHEN_LABEL[p.when] || "", routeLabel(p), p.pop ? `🔥 ${p.pop}/5` : "", here() ? `📍 ${fmt(dist(me, p))}` : ""].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join(" ")}</div>
         ${lightBox(p)}
         ${fcHtml(p.id) || areaWx(p)}
@@ -1589,7 +1592,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return cells.length ? `<div class="lightB">${cells.map((c, i) => `<div${i ? "" : ' class="pk"'}><small>${esc(c[0])}</small><b>${esc(c[1])}</b></div>`).join("")}</div>` : "";
   }
   function iconFor(p) {
-    const s = st(p.id), cls = ["pin", PLAN_AT[p.id] ? "plan" : "", p.unsure ? "unsure" : "", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : "", s.fav ? "fav" : ""].join(" ");
+    const s = st(p.id), cls = ["pin", PLAN_AT[p.id] ? "plan" : "", p.unsure ? "unsure" : "", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", p.idea ? "idea" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : "", s.fav ? "fav" : ""].join(" ");
     const fb = s.fav ? '<i class="favb">❤</i>' : "";
     const ub = (p.unsure ? '<i class="unsb" title="Standort nicht 100 % gesichert">?</i>' : "") + (PLAN_AT[p.id] ? `<span class="ptag">${esc(PLAN_AT[p.id].short)}</span>` : "");
     return L.divIcon({
@@ -1921,7 +1924,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Oberste Ebene: Bereich (Fotos / Food); Kategorien darunter gehören zum gewählten Bereich
   // Fotos/Food = deine Spots aus der Sammlung (+ eigene); Tipps = von Claude ergänzte Spots
   const unplacedAll = [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])];
-  const GROUPS = { food: p => !p.by_claude && p.category === "Food", fotos: p => !p.by_claude && p.category !== "Food", claude: p => p.by_claude };
+  const GROUPS = { food: p => !p.idea && !p.by_claude && p.category === "Food", fotos: p => !p.idea && !p.by_claude && p.category !== "Food", claude: p => !p.idea && p.by_claude, ideen: p => !!p.idea };
   // Fotos / Food / Tipps frei kombinierbar (Mehrfachauswahl, wird gemerkt); nichts gewählt = alles
   let groups = new Set(["fotos"]);
   try { const g = JSON.parse(localStorage.getItem("groups") || "null"); if (Array.isArray(g)) groups = new Set(g.filter(x => GROUPS[x])); } catch {}
@@ -1972,7 +1975,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   function showWhere() {
     $("#whereLbl").textContent = whereLabel();
-    $("#group").querySelectorAll("[data-g=food],[data-g=claude]").forEach(x =>
+    $("#group").querySelectorAll("[data-g=food],[data-g=claude],[data-g=ideen]").forEach(x =>
       x.hidden = !places.some(p => inScope(p) && GROUPS[x.dataset.g](p)));
   }
   function setWhere(route, newRegs, fit = true) {
@@ -3219,7 +3222,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "100 · Rundgänge im Tagesplan";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "101 · Fotoideen";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
