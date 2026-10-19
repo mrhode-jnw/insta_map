@@ -96,7 +96,9 @@
    "Rundgang Huanggang (Sightseeing)",
    "Rundgang Dali (Sightseeing)"
   ],
-  "dur": {},
+  "dur": {
+   "Rundgang Huanggang (Sightseeing)@8:15–10:15": 150
+  },
   "off": []
  }
 }
