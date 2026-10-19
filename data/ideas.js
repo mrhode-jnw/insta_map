@@ -674,5 +674,884 @@ window.IDEAS = [
     "credit": "cnmark · Flickr"
    }
   ]
+ },
+ {
+  "id": "idea-zjj-schichten",
+  "region": "cn",
+  "idea": true,
+  "name": "Säulen-Schichten im Gegenlicht 迷魂台",
+  "city": "Zhangjiajie",
+  "district": "Wulingyuan, Hunan",
+  "category": "Fotoidee",
+  "address": "Wulingyuan, Hunan",
+  "lat": 29.3461947,
+  "lng": 110.4390228,
+  "approx": false,
+  "when": "day",
+  "note": "Statt der Weitwinkel-Totale: mit dem Tele einzelne Ausschnitte aus dem Säulenwald ziehen. Im Dunst nach Sonnenaufgang staffeln sich die Felsnadeln wie Theaterkulissen – vorne scharf und grün, dahinter immer blasser bis zur reinen Silhouette. Liegt Wolkenmeer im Tal, ragen nur die Spitzen als Inseln heraus.",
+  "tip": "Mihun Tai am 24.10. ab 6:15 (Sonnenaufgang 6:45), Richtung Sonne bzw. leicht seitlich fotografieren. 100–400 mm, f/8, eher knapp belichten, damit die Lichter im Dunst nicht ausfressen; Gegenlichtblende, ggf. Belichtungsreihe. Schönste Schichten bei hoher Luftfeuchte nach Regen; Panorama aus 3–5 Tele-Hochformaten wirkt stärker als ein Weitwinkelbild.",
+  "image": "images/idea_zjj_schichten_1.jpg",
+  "image_page": "https://www.flickr.com/photos/virtualwayfarer/55468285996/",
+  "image_credit": "virtualwayfarer · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/virtualwayfarer/55468285996/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/virtualwayfarer/55468285996/",
+    "kind": "photo",
+    "image": "images/idea_zjj_schichten_1.jpg",
+    "caption": "",
+    "credit": "virtualwayfarer · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/virtualwayfarer/55468463269/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/virtualwayfarer/55468463269/",
+    "kind": "photo",
+    "image": "images/idea_zjj_schichten_2.jpg",
+    "caption": "",
+    "credit": "virtualwayfarer · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/albertwirtz/38005431872/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/albertwirtz/38005431872/",
+    "kind": "photo",
+    "image": "images/idea_zjj_schichten_3.jpg",
+    "caption": "",
+    "credit": "Albert Wirtz @ Landscape and Nature Photography · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj-firstbridge",
+  "region": "cn",
+  "idea": true,
+  "name": "Winzige Menschen auf der First Bridge 天下第一桥",
+  "city": "Zhangjiajie",
+  "district": "Wulingyuan, Hunan",
+  "category": "Fotoidee",
+  "address": "Wulingyuan, Hunan",
+  "lat": 29.3473214,
+  "lng": 110.4334624,
+  "approx": false,
+  "when": "day",
+  "note": "Die 50 m lange Steinbrücke spannt sich 350 m über die Schlucht – das Ausmaß erschließt sich erst, wenn Menschen darauf stehen. Von den gegenüberliegenden Aussichtspunkten wirken Wanderer mit roten Jacken oder Schirmen auf der Brücke wie Ameisen, darunter fällt der Blick ins Leere.",
+  "tip": "Am 24.10. ca. 8:35–9:20: nicht auf der Brücke selbst, sondern von den Plattformen am Rundweg westlich/nördlich der Brücke mit 70–200 mm auf die Brücke zielen. Warten, bis eine einzelne Person oder ein Paar mittig steht (rote Kleidung ideal), 1/500 s. Wer will, stellt die Mitreisende mit roter Jacke als Maßstabsfigur dorthin und verabredet ein Handzeichen.",
+  "image": "images/idea_zjj_firstbridge_1.jpg",
+  "image_page": "https://www.flickr.com/photos/fesign/31774100050/",
+  "image_credit": "fesign · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/fesign/31774100050/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fesign/31774100050/",
+    "kind": "photo",
+    "image": "images/idea_zjj_firstbridge_1.jpg",
+    "caption": "",
+    "credit": "fesign · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/suraark/6320525110/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/suraark/6320525110/",
+    "kind": "photo",
+    "image": "images/idea_zjj_firstbridge_2.jpg",
+    "caption": "",
+    "credit": "suraark · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj-bailong",
+  "region": "cn",
+  "idea": true,
+  "name": "Glasröhre in der Felswand – Bailong-Lift 百龙天梯",
+  "city": "Zhangjiajie",
+  "district": "Wulingyuan, Hunan",
+  "category": "Fotoidee",
+  "address": "Wulingyuan, Hunan",
+  "lat": 29.3511795,
+  "lng": 110.4611722,
+  "approx": false,
+  "when": "day",
+  "note": "Der 326 m hohe Außenaufzug klebt als glänzende Röhre an einer Sandsteinwand – Technik gegen Natur in einem Bild. Spannend sind drei Varianten: von unten mit Tele (Röhre im Nebel), von oben senkrecht die Wand hinab und von innen durch die Glasscheibe, während die Felswand in Bewegungsunschärfe vorbeirauscht.",
+  "tip": "Am 25.10. ca. 10:30–11:00. Innen: Objektiv direkt an die Scheibe (Spiegelungen vermeiden, Gummi-Gegenlichtblende), 1/15–1/30 s mitgezogen, f/11 – die Fahrt dauert nur ca. 1 Min., also vorher einstellen und an die Scheibe drängeln. Von unten: Talstation-Vorplatz, 200–400 mm, Hochformat. Stativ im Lift unmöglich; Andrang ab 10 Uhr groß.",
+  "image": "images/idea_zjj_bailong_1.jpg",
+  "image_page": "https://www.flickr.com/photos/110932683@N07/44611250325/",
+  "image_credit": "BoschVertrekt1 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/110932683@N07/44611250325/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/110932683@N07/44611250325/",
+    "kind": "photo",
+    "image": "images/idea_zjj_bailong_1.jpg",
+    "caption": "",
+    "credit": "BoschVertrekt1 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/151104658@N08/32259842496/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/151104658@N08/32259842496/",
+    "kind": "photo",
+    "image": "images/idea_zjj_bailong_2.jpg",
+    "caption": "",
+    "credit": "nancy.liew · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj-affen",
+  "region": "cn",
+  "idea": true,
+  "name": "Makaken-Bande am Golden Whip Stream 金鞭溪",
+  "city": "Zhangjiajie",
+  "district": "Wulingyuan, Hunan",
+  "category": "Fotoidee",
+  "address": "Wulingyuan, Hunan",
+  "lat": 29.3338673,
+  "lng": 110.4389038,
+  "approx": false,
+  "when": "day",
+  "note": "Am Bachweg leben Rhesusaffen, die Touristen ihre Tüten abnehmen und auf den Geländern Hof halten. Statt Tierporträt: die Szene erzählen – Affe mit erbeuteter Plastiktüte, Mutter mit Jungem vor der Felswand, erschrockene Wanderer im Hintergrund.",
+  "tip": "Am 25.10. zwischen 11:15 und 14:30 im schattigen Tal: 70–200 mm, offene Blende (f/2.8–4) für weichen Hintergrund, ISO 1600–3200 ist im dunklen Wald normal. Auf Augenhöhe gehen, nicht füttern, nichts Essbares sichtbar tragen, Kamera am Gurt sichern – die Tiere greifen zu. Häufigste Sichtungen im Abschnitt zwischen Zibi-Felsen und Shuirao Simen.",
+  "image": "images/idea_zjj_affen_1.jpg",
+  "image_page": "https://www.flickr.com/photos/kingdesmond/28149300116/",
+  "image_credit": "kingdesmond1337 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/kingdesmond/28149300116/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kingdesmond/28149300116/",
+    "kind": "photo",
+    "image": "images/idea_zjj_affen_1.jpg",
+    "caption": "",
+    "credit": "kingdesmond1337 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/130396601@N05/28924374295/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/130396601@N05/28924374295/",
+    "kind": "photo",
+    "image": "images/idea_zjj_affen_2.jpg",
+    "caption": "",
+    "credit": "jarrett.wilde · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj-vollmond",
+  "region": "cn",
+  "idea": true,
+  "name": "Vollmond statt Sterne über den Säulen 月出迷魂台",
+  "city": "Zhangjiajie",
+  "district": "Wulingyuan, Hunan",
+  "category": "Fotoidee",
+  "address": "Wulingyuan, Hunan",
+  "lat": 29.3461947,
+  "lng": 110.4390228,
+  "approx": true,
+  "when": "night",
+  "note": "Für Milchstraße und Sterne ist es zu hell: Am 26.10. ist Vollmond. Daraus wird ein Motiv – der fast volle Mond steigt am 25.10. um ca. 17:10 im Ostnordosten auf (Azimut ca. 76°) und steht zur blauen Stunde knapp über den Felsnadeln, während die Westseite noch das letzte Licht hat. Später leuchtet er die Säulen wie ein silbernes Tageslicht aus.",
+  "tip": "Am 25.10. ab 17:45 am Mihun Tai bzw. am Hallelujah-Pfad einen Standpunkt mit Ostblick suchen (Kompass-App), 300–600 mm, Mond hinter einer Säulensilhouette ausrichten. Belichtung auf den Mond (ca. 1/250 s, f/8, ISO 400) plus zweites Bild für die Felsen – oder 20–30 Min. nach Mondaufgang, wenn beides passt. Mondlicht-Langzeit 20–30 s, f/5.6, ISO 400 vom Stativ. Bonus: Am 26.10. geht der Mond um 6:39 im Westen unter – beim Aufbruch zum Bahnhof noch einmal hochschauen.",
+  "image": "images/idea_zjj_vollmond_1.jpg",
+  "image_page": "https://www.flickr.com/photos/aspiz/9563204558/",
+  "image_credit": "Aspizc · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/aspiz/9563204558/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/aspiz/9563204558/",
+    "kind": "photo",
+    "image": "images/idea_zjj_vollmond_1.jpg",
+    "caption": "",
+    "credit": "Aspizc · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/maxw1nter/48060873668/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/maxw1nter/48060873668/",
+    "kind": "photo",
+    "image": "images/idea_zjj_vollmond_2.jpg",
+    "caption": "Ähnliches Motiv – Puig Major, Mallorca",
+    "credit": "Max W!nter · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj-traeger",
+  "region": "cn",
+  "idea": true,
+  "name": "Lastenträger und Sänften am Bergweg 挑夫与滑竿",
+  "city": "Zhangjiajie",
+  "district": "Wulingyuan, Hunan",
+  "category": "Fotoidee",
+  "address": "Wulingyuan, Hunan",
+  "lat": 29.3338673,
+  "lng": 110.4389038,
+  "approx": false,
+  "when": "day",
+  "note": "Alles, was oben im Park verkauft oder gebaut wird, schleppen Träger an Bambusstangen hinauf: Getränkekisten, Zementsteine, Gepäck. Dazu warten Sänftenträger (滑竿) auf müde Touristen. Ein ehrliches Alltagsmotiv zwischen den Kulissen-Säulen – Schweiß, Bambus und Plastiktüten statt Postkarte.",
+  "tip": "Am Golden Whip Stream und auf den Treppen in Yuanjiajie/Yangjiajie. 24–70 mm für Umfeld, oder von hinten mit 70–200 mm, wenn die Träger die Treppe hinaufsteigen (Linien der Stufen). Vorher freundlich fragen, kurz plaudern, Bild zeigen – oft gibt es dann das schönste Porträt. Den Weg nie blockieren; die Männer tragen schwer.",
+  "image": "images/idea_zjj_traeger_1.jpg",
+  "image_page": "https://www.flickr.com/photos/10946461@N05/4351438299/",
+  "image_credit": "lacitadelle · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/10946461@N05/4351438299/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/10946461@N05/4351438299/",
+    "kind": "photo",
+    "image": "images/idea_zjj_traeger_1.jpg",
+    "caption": "",
+    "credit": "lacitadelle · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/10946461@N05/4352186102/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/10946461@N05/4352186102/",
+    "kind": "photo",
+    "image": "images/idea_zjj_traeger_2.jpg",
+    "caption": "",
+    "credit": "lacitadelle · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/45842220@N04/54986214203/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/45842220@N04/54986214203/",
+    "kind": "photo",
+    "image": "images/idea_zjj_traeger_3.jpg",
+    "caption": "",
+    "credit": "The-Kat-Man · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj-nebel",
+  "region": "cn",
+  "idea": true,
+  "name": "Nebelfetzen nach dem Regen 雨后云海",
+  "city": "Zhangjiajie",
+  "district": "Tianzi Mountain, Hunan",
+  "category": "Fotoidee",
+  "address": "Tianzi Mountain, Hunan",
+  "lat": 29.3832294,
+  "lng": 110.4891885,
+  "approx": true,
+  "when": "both",
+  "note": "Der Moment, für den Fotografen Tage warten: Hört der Regen auf, steigen Wolken aus den Schluchten, umspülen die Säulen und reißen innerhalb von Minuten wieder auf. Dann wechselt die Szene im Sekundentakt – Säulen tauchen auf und verschwinden, Seilbahnkabinen hängen im Weiß.",
+  "tip": "Wettercheck: Regen am Vortag oder in der Nacht + morgens windstill = beste Chance; dann den frühesten Punkt nehmen (Tianzi/Xihai, Yangjiajie oder Mihun Tai). Regenschutz für die Kamera, Mikrofasertuch, 70–200 mm und Weitwinkel griffbereit. Serien machen: dieselbe Komposition alle 30 s auslösen, später die beste Wolkenlage wählen. Schwarz-Weiß-Umsetzung im Kopf behalten.",
+  "image": "images/idea_zjj_nebel_1.jpg",
+  "image_page": "https://www.flickr.com/photos/128294308@N05/30494696776/",
+  "image_credit": "Rogg4n · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/128294308@N05/30494696776/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/128294308@N05/30494696776/",
+    "kind": "photo",
+    "image": "images/idea_zjj_nebel_1.jpg",
+    "caption": "",
+    "credit": "Rogg4n · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/184332056@N02/54803654254/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/184332056@N02/54803654254/",
+    "kind": "photo",
+    "image": "images/idea_zjj_nebel_2.jpg",
+    "caption": "",
+    "credit": "PZ Sunrays · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/146363329@N08/52900646968/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/146363329@N08/52900646968/",
+    "kind": "photo",
+    "image": "images/idea_zjj_nebel_3.jpg",
+    "caption": "",
+    "credit": "kckang1 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj-tmseilbahn",
+  "region": "cn",
+  "idea": true,
+  "name": "Seilbahn über die Dächer zum Tianmen-Berg 天门山索道",
+  "city": "Zhangjiajie",
+  "district": "Yongding, Zhangjiajie",
+  "category": "Fotoidee",
+  "address": "Yongding, Zhangjiajie",
+  "lat": 29.1147772,
+  "lng": 110.4784833,
+  "approx": false,
+  "when": "day",
+  "note": "Die 7,5 km lange Tianmen-Seilbahn startet mitten in der Stadt: Die Gondeln schweben erst über Wohnblöcke und Hinterhöfe, dann über Reisfelder und schließlich über die 99 Kehren der Tongtian-Straße. Aus der Kabine entsteht eine Bildreihe vom Stadtalltag bis zur Felswand.",
+  "tip": "Nur falls Tianmen eingeplant wird: Talstation am Bahnhof Zhangjiajie, Fahrt ca. 30 Min. Platz hinten in der Kabine mit Blick zurück auf die nachfolgenden Gondeln. 24–105 mm, Objektiv an die Scheibe, 1/1000 s gegen Wackeln; Polfilter verstärkt Spiegelungen eher – weglassen. Die 99 Kehren sieht man am besten im oberen Drittel nach links unten. Früh (ab 8 Uhr) sind die Schlangen kürzer.",
+  "image": "images/idea_zjj_tmseilbahn_1.jpg",
+  "image_page": "https://www.flickr.com/photos/tjetjep/23038365049/",
+  "image_credit": "T Ξ Ξ J Ξ · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/tjetjep/23038365049/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/tjetjep/23038365049/",
+    "kind": "photo",
+    "image": "images/idea_zjj_tmseilbahn_1.jpg",
+    "caption": "",
+    "credit": "T Ξ Ξ J Ξ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/11988311@N03/20164099293/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/11988311@N03/20164099293/",
+    "kind": "photo",
+    "image": "images/idea_zjj_tmseilbahn_2.jpg",
+    "caption": "",
+    "credit": "◄ІΜЯАΝ► · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-zjj-glas",
+  "region": "cn",
+  "idea": true,
+  "name": "Mutprobe auf dem Glasweg 盘龙崖玻璃栈道",
+  "city": "Zhangjiajie",
+  "district": "Tianmen Mountain, Hunan",
+  "category": "Fotoidee",
+  "address": "Tianmen Mountain, Hunan",
+  "lat": 29.0547555,
+  "lng": 110.4773878,
+  "approx": false,
+  "when": "day",
+  "note": "Auf den Glasstegen an der Tianmen-Felswand ist nicht der Blick nach unten das Motiv, sondern die Menschen: kreischende Paare, Kriechende, Mutige mit ausgebreiteten Armen. Von etwas weiter weg wirkt die Plattform voller Menschen vor dem Wolkenmeer wie ein schwebender Balkon.",
+  "tip": "Nur bei Tianmen-Besuch. Für die Totale: vom Felsweg vor dem Steg mit 24–35 mm die Plattform am Bildrand, Wolken als Negativraum. Für Gesichter: 35–85 mm, 1/500 s. Auf dem Glas Überzieher-Schuhe Pflicht, Stative unerwünscht. Silhouetten-Variante gegen den hellen Himmel am späten Nachmittag.",
+  "image": "images/idea_zjj_glas_1.jpg",
+  "image_page": "https://www.flickr.com/photos/mshiffphotography/26387841129/",
+  "image_credit": "Matt Shiffler Photography · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/mshiffphotography/26387841129/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/mshiffphotography/26387841129/",
+    "kind": "photo",
+    "image": "images/idea_zjj_glas_1.jpg",
+    "caption": "",
+    "credit": "Matt Shiffler Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/najeebmahmud/31579668494/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/najeebmahmud/31579668494/",
+    "kind": "photo",
+    "image": "images/idea_zjj_glas_2.jpg",
+    "caption": "",
+    "credit": "najeebmahmud · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq-liziba",
+  "region": "cn",
+  "idea": true,
+  "name": "Zug mitgezogen durchs Haus 李子坝",
+  "city": "Chongqing",
+  "district": "Yuzhong, Chongqing",
+  "category": "Fotoidee",
+  "address": "Yuzhong, Chongqing",
+  "lat": 29.5557,
+  "lng": 106.5339,
+  "approx": false,
+  "when": "day",
+  "note": "Die Monorail Linie 2 fährt in Liziba durch den 6.–8. Stock eines Wohnhauses. Das Standardfoto ist der Zug in der Hauswand – spannender: Zug mitgezogen mit verwischtem Hintergrund, oder umgekehrt die Menge der Fotografen, die alle gleichzeitig das Handy heben, mit dem Zug als Nebensache.",
+  "tip": "Am 27.10. 7:30–8:30, Aussichtsplattform unter der Trasse (李子坝观景平台). Züge alle 3–6 Min. Mitzieher: 1/30–1/60 s, 70–200 mm, Serienbild, Hüfte mitdrehen. Meta-Bild: von der Treppe oberhalb mit 24 mm über die Köpfe. Für die Hausdurchfahrt von innen: im Bahnhof (Ticket 2 Yuan) Wartezone 6. Stock. Wochentags früh am leersten.",
+  "image": "images/idea_cq_liziba_1.jpg",
+  "image_page": "https://www.flickr.com/photos/nvr89/54400736365/",
+  "image_credit": "NvR.Photography · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/nvr89/54400736365/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/nvr89/54400736365/",
+    "kind": "photo",
+    "image": "images/idea_cq_liziba_1.jpg",
+    "caption": "",
+    "credit": "NvR.Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/chanmelmel/51608851098/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chanmelmel/51608851098/",
+    "kind": "photo",
+    "image": "images/idea_cq_liziba_2.jpg",
+    "caption": "",
+    "credit": "MelindaChan ^..^ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/201441975@N05/54405484495/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/201441975@N05/54405484495/",
+    "kind": "photo",
+    "image": "images/idea_cq_liziba_3.jpg",
+    "caption": "",
+    "credit": "Kanda Boy · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq-seilbahn",
+  "region": "cn",
+  "idea": true,
+  "name": "Gondel als Rahmen im Nebel 长江索道",
+  "city": "Chongqing",
+  "district": "Yuzhong, Chongqing",
+  "category": "Fotoidee",
+  "address": "Yuzhong, Chongqing",
+  "lat": 29.558528,
+  "lng": 106.581348,
+  "approx": false,
+  "when": "day",
+  "note": "Chongqing ist die Nebelstadt (雾都). Bei Dunst wird die Yangtse-Seilbahn zum grafischen Motiv: die Seile laufen als dunkle Linien ins Grau, die Gondel hängt als Silhouette vor kaum sichtbaren Hochhäusern. Aus der Kabine selbst rahmt das Fenster die Stadt.",
+  "tip": "Am 27.10. ca. 11:30–12:30 an der Station Xinhua Road (新华路) bzw. Baixiangju. Von der Plattform der Bergstation mit 70–200 mm Seile + Gondel + Skyline, auf Kontrast belichten (+0,7 EV). In der Kabine Platz ganz vorne/hinten am Fenster, Seile als Fluchtlinien. Betrieb ca. 7:30–22 Uhr, Wartezeiten bis 1 h – früh oder abends fahren.",
+  "image": "images/idea_cq_seilbahn_1.jpg",
+  "image_page": "https://www.flickr.com/photos/99229749@N05/55089904916/",
+  "image_credit": "Nina Papiorek Photography · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/99229749@N05/55089904916/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/99229749@N05/55089904916/",
+    "kind": "photo",
+    "image": "images/idea_cq_seilbahn_1.jpg",
+    "caption": "",
+    "credit": "Nina Papiorek Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/lilleabe/8059421104/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lilleabe/8059421104/",
+    "kind": "photo",
+    "image": "images/idea_cq_seilbahn_2.jpg",
+    "caption": "",
+    "credit": "lille abe · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/wicks/2598408567/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/wicks/2598408567/",
+    "kind": "photo",
+    "image": "images/idea_cq_seilbahn_3.jpg",
+    "caption": "",
+    "credit": "A-Wix · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq-kuixing",
+  "region": "cn",
+  "idea": true,
+  "name": "Straße auf dem Dach – Kuixing-Gebäude 魁星楼",
+  "city": "Chongqing",
+  "district": "Jiefangbei, Chongqing",
+  "category": "Fotoidee",
+  "address": "Jiefangbei, Chongqing",
+  "lat": 29.5633,
+  "lng": 106.5699,
+  "approx": true,
+  "when": "day",
+  "note": "Beim Kuixing-Gebäude ist das Erdgeschoss die 22. Etage: Der Platz auf dem Dach ist ebenerdig mit der oberen Straße, unten 21 Stockwerke tiefer fährt der Verkehr. Eine Fußgängerbrücke springt von dort zu Nachbarhochhäusern – perfektes Material für das „Cyberpunk-Stadt“-Motiv mit Ebenenwechsel.",
+  "tip": "Von der oberen Straßenebene direkt auf den Dachplatz, ans Geländer und mit 14–20 mm senkrecht hinab (Taxis als Maßstab); dann über die Brücke für die Linie Pavillon–Brücke–Hochhaus. Kreisöffnung im Brückengeländer als Rahmen nutzen. Von der unteren Straße fährt ein Aufzug in den 22. Stock = Ebene null. Bewölktes Mittagslicht reicht.",
+  "image": "images/idea_cq_kuixing_1.jpg",
+  "image_page": "https://www.flickr.com/photos/twiga_swala/54767766034/",
+  "image_credit": "twiga-swala · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/twiga_swala/54767766034/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/twiga_swala/54767766034/",
+    "kind": "photo",
+    "image": "images/idea_cq_kuixing_1.jpg",
+    "caption": "",
+    "credit": "twiga-swala · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/twiga_swala/54767523186/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/twiga_swala/54767523186/",
+    "kind": "photo",
+    "image": "images/idea_cq_kuixing_2.jpg",
+    "caption": "",
+    "credit": "twiga-swala · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/essencephotography/55018746576/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/essencephotography/55018746576/",
+    "kind": "photo",
+    "image": "images/idea_cq_kuixing_3.jpg",
+    "caption": "",
+    "credit": "Essence Photo · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq-qiansimen",
+  "region": "cn",
+  "idea": true,
+  "name": "Brücke von unten mit Lichtspuren 千厮门大桥",
+  "city": "Chongqing",
+  "district": "Jiangbei, Chongqing",
+  "category": "Fotoidee",
+  "address": "Jiangbei, Chongqing",
+  "lat": 29.5727233,
+  "lng": 106.5774751,
+  "approx": false,
+  "when": "night",
+  "note": "Vom Jiangbeizui-Ufer zieht sich die orange beleuchtete Qiansimen-Brücke über den Kopf, gegenüber glüht Hongyadong. Mit Fisheye/Ultraweitwinkel direkt unter dem Pylon wird die Brücke zur dramatischen Diagonale; mit Langzeit werden Ausflugsboote zu Lichtbändern auf dem Jialing.",
+  "tip": "Am 26.10. nach Hongyadong: über die Brücke (Fußweg) auf die Jiangbei-Seite, Treppe zum Ufer am Großen Theater hinab. 10–16 mm, Stativ, f/8, 10–30 s, ND für Bootsspuren. Lichter meist bis ca. 22:30 (am Wochenende länger). Höhere Variante mit Lichtspuren von oben: vom Fußweg der Brücke selbst auf die Uferstraße.",
+  "image": "images/idea_cq_qiansimen_1.jpg",
+  "image_page": "https://www.flickr.com/photos/gdn35/23537293398/",
+  "image_credit": "Graeme Noble's Photography · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/gdn35/23537293398/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/gdn35/23537293398/",
+    "kind": "photo",
+    "image": "images/idea_cq_qiansimen_1.jpg",
+    "caption": "",
+    "credit": "Graeme Noble's Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/kevho86/49045515223/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kevho86/49045515223/",
+    "kind": "photo",
+    "image": "images/idea_cq_qiansimen_2.jpg",
+    "caption": "",
+    "credit": "kevinho86 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/rabbit75/42017631280/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/rabbit75/42017631280/",
+    "kind": "photo",
+    "image": "images/idea_cq_qiansimen_3.jpg",
+    "caption": "",
+    "credit": "BestCityscape · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq-teehaus",
+  "region": "cn",
+  "idea": true,
+  "name": "Alte Männer, Tee und Xiangqi im Jiaotong-Teehaus 交通茶馆",
+  "city": "Chongqing",
+  "district": "Huangjueping, Jiulongpo, Chongqing",
+  "category": "Fotoidee",
+  "address": "Huangjueping, Jiulongpo, Chongqing",
+  "lat": 29.4975,
+  "lng": 106.5325,
+  "approx": true,
+  "when": "day",
+  "note": "Eine Kantine der Verkehrsarbeiter aus den 1970ern, heute eines der letzten echten Teehäuser: rußige Wände, Thermoskannen, Rentner beim chinesischen Schach. Licht fällt durch die Dachfenster wie in einem Gemälde – Street-Fotografie mit Rembrandt-Licht.",
+  "tip": "Ergänzung zu Huangjueping: vormittags (ca. 9–12 Uhr) ist am meisten los. Ohne Blitz, 35/50 mm f/1.8, ISO 1600–3200, auf Lichtinseln belichten (−1 EV). Einen Tee bestellen (wenige Yuan), sitzen bleiben, die Kamera erst nach einer Weile heben – dann wird man ignoriert. Vor dem Besuch prüfen, ob noch geöffnet.",
+  "image": "images/idea_cq_teehaus_1.jpg",
+  "image_page": "https://www.flickr.com/photos/163075220@N04/49121684806/",
+  "image_credit": "strikefreedom1618 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/163075220@N04/49121684806/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/163075220@N04/49121684806/",
+    "kind": "photo",
+    "image": "images/idea_cq_teehaus_1.jpg",
+    "caption": "",
+    "credit": "strikefreedom1618 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/95592965@N04/50007536313/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/95592965@N04/50007536313/",
+    "kind": "photo",
+    "image": "images/idea_cq_teehaus_2.jpg",
+    "caption": "",
+    "credit": "Piggyfly0908 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/163075220@N04/49121686861/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/163075220@N04/49121686861/",
+    "kind": "photo",
+    "image": "images/idea_cq_teehaus_3.jpg",
+    "caption": "",
+    "credit": "strikefreedom1618 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq-bangbang",
+  "region": "cn",
+  "idea": true,
+  "name": "Bangbang-Träger und Leben auf den Treppen 棒棒军",
+  "city": "Chongqing",
+  "district": "Yuzhong, Chongqing",
+  "category": "Fotoidee",
+  "address": "Yuzhong, Chongqing",
+  "lat": 29.5553088,
+  "lng": 106.5696443,
+  "approx": true,
+  "when": "day",
+  "note": "Die „Bangbang“ – Träger mit Bambusstock und Seil – waren lange das Rückgrat der Treppenstadt; heute sind es noch wenige ältere Männer. Zusammen mit Garküchen auf Stufen, Markthändlerinnen und Rentnern bildet das Treppenleben rund um Shibati und die Altgassen das ehrlichste Chongqing-Motiv.",
+  "tip": "Am 28.10. früh rund um Shibati, Jiaochangkou und Richtung Chaotianmen-Großmarkt (Träger warten oft an Marktzugängen). 28–35 mm, Zonenfokus, Stufen als Linien. Wer einen Bangbang porträtieren will: ins Gespräch kommen oder kleinen Auftrag geben (Tasche tragen lassen, 10–20 Yuan). Schwarz-Weiß unterstreicht das Zeitlose.",
+  "image": "images/idea_cq_bangbang_1.jpg",
+  "image_page": "https://www.flickr.com/photos/wupeng/3107396900/",
+  "image_credit": "wu.peng · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/wupeng/3107396900/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/wupeng/3107396900/",
+    "kind": "photo",
+    "image": "images/idea_cq_bangbang_1.jpg",
+    "caption": "",
+    "credit": "wu.peng · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/gauthierdelecroix/49432332818/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/gauthierdelecroix/49432332818/",
+    "kind": "photo",
+    "image": "images/idea_cq_bangbang_2.jpg",
+    "caption": "",
+    "credit": "Gauthier 郭天 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/gauthierdelecroix/48950358533/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/gauthierdelecroix/48950358533/",
+    "kind": "photo",
+    "image": "images/idea_cq_bangbang_3.jpg",
+    "caption": "",
+    "credit": "Gauthier 郭天 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq-hotpot",
+  "region": "cn",
+  "idea": true,
+  "name": "Dampf über dem Hot Pot 重庆老火锅",
+  "city": "Chongqing",
+  "district": "Jiefangbei, Chongqing",
+  "category": "Fotoidee",
+  "address": "Jiefangbei, Chongqing",
+  "lat": 29.5578,
+  "lng": 106.5771,
+  "approx": true,
+  "when": "night",
+  "note": "Im Neun-Gitter-Topf (九宫格) brodelt rotes Chiliöl, der Dampf steigt im Gegenlicht der Hängelampen auf, ringsum Bierflaschen, Stäbchen und schwitzende Gesichter. Am stärksten in einfachen Keller- oder Gassenlokalen (老火锅) – Food- und Street-Foto in einem.",
+  "tip": "Platz so wählen, dass eine Lampe oder Fensterlicht hinter dem Topf steht – nur dann wird der Dampf sichtbar. 24–35 mm von oben für die Tischlandschaft, 50 mm f/1.8 für Dampf + Gesichter, 1/125 s. Objektiv vom Fettdampf fernhalten (Filter drauf). Bekannte Gassenlokale gibt es rund um Jiefangbei/Jiaochangkou; ab 18 Uhr Wartezeiten.",
+  "image": "images/idea_cq_hotpot_1.jpg",
+  "image_page": "https://www.flickr.com/photos/slumber_six/2114800404/",
+  "image_credit": "slumber.six · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/slumber_six/2114800404/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/slumber_six/2114800404/",
+    "kind": "photo",
+    "image": "images/idea_cq_hotpot_1.jpg",
+    "caption": "",
+    "credit": "slumber.six · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/leadenhall/5587695602/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/leadenhall/5587695602/",
+    "kind": "photo",
+    "image": "images/idea_cq_hotpot_2.jpg",
+    "caption": "",
+    "credit": "leadenhall · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq-nebelstadt",
+  "region": "cn",
+  "idea": true,
+  "name": "Nebelstadt in Graustufen 雾都",
+  "city": "Chongqing",
+  "district": "Nan'an (Nanshan), Chongqing",
+  "category": "Fotoidee",
+  "address": "Nan'an (Nanshan), Chongqing",
+  "lat": 29.5479478,
+  "lng": 106.5988349,
+  "approx": false,
+  "when": "day",
+  "note": "An dunstigen Tagen verliert Chongqing jede Farbe: Hochhäuser staffeln sich in zehn Grautönen, die vorderen scharf, die hinteren nur Ahnung. Statt sich über schlechtes Wetter zu ärgern, die Stadt als Tuschezeichnung fotografieren – ideal in Schwarz-Weiß oder mit tiefstehender Sonne als blasser Scheibe.",
+  "tip": "Vom Yikeshu-Aussichtspunkt (oder Eling-Turm 瞰胜楼) mit 100–400 mm einzelne Hochhausgruppen isolieren, auf hellste Partie belichten. Bei Dunst bringt die Sonne kurz vor Untergang (27.10. ca. 17:45–18:10) eine orange Scheibe ohne Filter. Polfilter bringt hier wenig; Kontrast später in der Bearbeitung.",
+  "image": "images/idea_cq_nebelstadt_1.jpg",
+  "image_page": "https://www.flickr.com/photos/sarmu/4860806133/",
+  "image_credit": "Sarmu · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/sarmu/4860806133/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/sarmu/4860806133/",
+    "kind": "photo",
+    "image": "images/idea_cq_nebelstadt_1.jpg",
+    "caption": "",
+    "credit": "Sarmu · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/sunfishandbluecrabs/5761381041/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/sunfishandbluecrabs/5761381041/",
+    "kind": "photo",
+    "image": "images/idea_cq_nebelstadt_2.jpg",
+    "caption": "",
+    "credit": "G. Chen · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/september_i/28243019519/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/september_i/28243019519/",
+    "kind": "photo",
+    "image": "images/idea_cq_nebelstadt_3.jpg",
+    "caption": "",
+    "credit": "September Đi · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq-monorail",
+  "region": "cn",
+  "idea": true,
+  "name": "Monorail am Jialing-Ufer 轨道2号线",
+  "city": "Chongqing",
+  "district": "Yuzhong, Chongqing",
+  "category": "Fotoidee",
+  "address": "Yuzhong, Chongqing",
+  "lat": 29.5661367,
+  "lng": 106.5612278,
+  "approx": true,
+  "when": "day",
+  "note": "Zwischen Huanghuayuan und Zengjiayan gleitet die Linie 2 auf ihrem schmalen Betonbalken direkt am Steilufer entlang – unten der grüne Jialing, oben die Hochhausfront. Von der Uferkante oder einer Brücke wirkt der Zug wie ein Spielzeug in der Megastadt.",
+  "tip": "Kombinierbar mit Liziba am 27.10. früh: Station Huanghuayuan (黄花园) bzw. Fußweg an der Jialing-Uferstraße; auch von der Huanghuayuan-Brücke Richtung Westen. 70–200 mm für Kompression Zug + Skyline, 1/500 s. Züge alle paar Minuten, gelbe/bunte Werbezüge abwarten. Morgendunst über dem Fluss gibt Tiefe.",
+  "image": "images/idea_cq_monorail_1.jpg",
+  "image_page": "https://www.flickr.com/photos/201441975@N05/54405485285/",
+  "image_credit": "Kanda Boy · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/201441975@N05/54405485285/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/201441975@N05/54405485285/",
+    "kind": "photo",
+    "image": "images/idea_cq_monorail_1.jpg",
+    "caption": "",
+    "credit": "Kanda Boy · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/201441975@N05/54405116091/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/201441975@N05/54405116091/",
+    "kind": "photo",
+    "image": "images/idea_cq_monorail_2.jpg",
+    "caption": "",
+    "credit": "Kanda Boy · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq-rolltreppe",
+  "region": "cn",
+  "idea": true,
+  "name": "In den Schlund: Huangguan-Rolltreppe 皇冠大扶梯",
+  "city": "Chongqing",
+  "district": "Lianglukou, Yuzhong, Chongqing",
+  "category": "Fotoidee",
+  "address": "Lianglukou, Yuzhong, Chongqing",
+  "lat": 29.5545689,
+  "lng": 106.5453781,
+  "approx": false,
+  "when": "both",
+  "note": "Eine der längsten Rolltreppen Asiens (112 m, rund 2,5 Min. Fahrt) taucht in einem Tunnel steil zum Bahnhof Caiyuanba hinab. Zentralperspektive, Stahlstreben und die Menschen, die in der Tiefe verschwinden, ergeben ein grafisches Bild wie aus einem Science-Fiction-Film.",
+  "tip": "Eingang an der Station Lianglukou (Linie 1/3). Oben mittig stellen und mit 16–24 mm genau symmetrisch nach unten, f/8, 1/15 s für leicht verwischte Fahrgäste (Stativ hier nicht gerne gesehen – Kamera aufs Geländer). Fahrt kostet 2 Yuan, ca. 6:30–22:00. Abends mit Kunstlicht stimmungsvoller.",
+  "image": "images/idea_cq_rolltreppe_1.jpg",
+  "image_page": "https://www.flickr.com/photos/lightmeister/53627568154/",
+  "image_credit": "lightmeister · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/lightmeister/53627568154/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lightmeister/53627568154/",
+    "kind": "photo",
+    "image": "images/idea_cq_rolltreppe_1.jpg",
+    "caption": "",
+    "credit": "lightmeister · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/alexcsgoh/16337530271/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/alexcsgoh/16337530271/",
+    "kind": "photo",
+    "image": "images/idea_cq_rolltreppe_2.jpg",
+    "caption": "",
+    "credit": "alexcsgoh · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq-mondaufgang",
+  "region": "cn",
+  "idea": true,
+  "name": "Vollmond über dem Zusammenfluss 来福士 · 朝天门",
+  "city": "Chongqing",
+  "district": "Yuzhong (Chaotianmen), Chongqing",
+  "category": "Fotoidee",
+  "address": "Yuzhong (Chaotianmen), Chongqing",
+  "lat": 29.5675551,
+  "lng": 106.5831253,
+  "approx": false,
+  "when": "night",
+  "note": "Seltene Gelegenheit: Am 26.10. ist Vollmond. Um 18:02 geht er im Ostnordosten (Azimut ca. 69°) über Jiangbei/Nan'an auf, nur zehn Minuten bevor die Sonne untergeht. Vom Raffles-Crystal sieht man gleichzeitig, wie sich der grüne Jialing und der braune Yangtse unter einem treffen – Mond, Zwei-Farben-Fluss und erste Lichter in einem Bild.",
+  "tip": "Am 26.10. 17:15–18:30 im Crystal/„Exploration Deck“ (Ticket online, Fenster Richtung Nordost reservieren, früh hingehen). Mond wird über den Bergen am Horizont ca. 18:20 sichtbar: 100–300 mm, Fenster entspiegeln (Objektiv an die Scheibe, dunkle Kleidung), ca. 1/60 s, f/5.6, ISO 800, Belichtungsreihe. Danach unten von der Chaotianmen-Spitze den Mond über dem Yangtse fotografieren.",
+  "image": "images/idea_cq_mondaufgang_1.jpg",
+  "image_page": "https://www.flickr.com/photos/reelmemories/5180853570/",
+  "image_credit": "Carlton Chong · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/reelmemories/5180853570/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/reelmemories/5180853570/",
+    "kind": "photo",
+    "image": "images/idea_cq_mondaufgang_1.jpg",
+    "caption": "",
+    "credit": "Carlton Chong · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/yangtzerivercruise/28583996147/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/yangtzerivercruise/28583996147/",
+    "kind": "photo",
+    "image": "images/idea_cq_mondaufgang_2.jpg",
+    "caption": "",
+    "credit": "yangtze-river-cruise · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/chee_hian/53646130726/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chee_hian/53646130726/",
+    "kind": "photo",
+    "image": "images/idea_cq_mondaufgang_3.jpg",
+    "caption": "",
+    "credit": "chee_hian · Flickr"
+   }
+  ]
  }
 ];
