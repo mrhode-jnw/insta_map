@@ -2674,5 +2674,817 @@
     "caption": "Ähnliches Motiv – Fensterblick in einem Holzhaus"
    }
   ]
+ },
+ {
+  "id": "idea-sh3-mondperle",
+  "city": "Shanghai",
+  "name": "Der Mond klettert den Perlenturm hinauf 外滩 · 东方明珠",
+  "lat": 31.2399,
+  "lng": 121.4888,
+  "approx": false,
+  "district": "Bund, Huangpu",
+  "when": "night",
+  "note": "Drei Abende nach Vollmond (26.10.) steigt der abnehmende Mond im Ostnordosten genau hinter dem Perlenturm auf – vom Bund aus gesehen „wandert“ er im Lauf des Abends an der Turmachse entlang: erst neben die untere Kugel, dann in die obere Kugel, schließlich auf die Antennenspitze. Eine Serie aus drei Teleaufnahmen von drei Bund-Standpunkten (nur ~150 m auseinander) erzählt das als Triptychon – ein Motiv, das sich nur an wenigen Abenden im Jahr so ergibt.",
+  "tip": "Gerechnet (ephem) für die Bund-Promenade: Do 29.10. untere Kugel 20:10 Uhr gegenüber dem Zollhaus (31.2389 N), obere Kugel 21:27 Uhr zwischen Zollhaus und Bund 18 (31.2399 N), Spitze 22:41 Uhr auf Höhe Nanjing-Straße/Chen-Yi-Platz (31.2406 N); Fr 30.10. jeweils ~65 min später (21:17 / 22:33 / 23:47), Sa 31.10. ~2 h 15 min später (22:26 / 23:42). Mond-Azimut 62–77°, Höhe 7–35°, 85 % → 64 % beleuchtet. 400–600 mm vom Stativ, Belichtungsreihe (Mond ~1/125 s f/8 ISO 400, Turm 1/4–1 s) und blenden, oder direkt auf den Mond belichten und Turm als Silhouette. Vor Ort mit PhotoPills/Planit seitlich entlang der Brüstung nachjustieren (±20 m = ±1 Monddurchmesser). Achtung: Beleuchtung von Lujiazui geht wochentags um 22 Uhr aus (Fr/Sa meist 23 Uhr) – deshalb Do 29.10. obere Kugel um 21:27 Uhr als Hauptchance. ★★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_mondperle_1.jpg",
+    "url": "https://www.flickr.com/photos/ladaga/5542084664/",
+    "credit": "風景獵人 · Flickr",
+    "caption": "Mond über Lujiazui vom Bund"
+   },
+   {
+    "image": "images/idea_sh3_mondperle_2.jpg",
+    "url": "https://www.flickr.com/photos/fangwei/8160696201/",
+    "credit": "Brady Fang · Flickr",
+    "caption": "Mond neben dem Perlenturm"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-flaschenoeffner",
+  "city": "Shanghai",
+  "name": "Sonne im Flaschenöffner 上海环球金融中心",
+  "lat": 31.2414,
+  "lng": 121.4884,
+  "approx": false,
+  "district": "Bund, Huangpu",
+  "when": "day",
+  "note": "Das trapezförmige Loch in der Spitze des Shanghai World Financial Center (492 m) ist 46 m breit – aus 1,6 km Entfernung gerade dreimal so breit wie die Sonnenscheibe. Am Reisewochenende steht die Morgensonne vom nördlichen Bund aus für etwa zwei Minuten exakt im „Flaschenöffner“: ein gleißender Kern im dunklen Turm, wie ein Auge. Im typischen Shanghaier Morgendunst wird die Sonne orange und lässt sich ohne Überstrahlung abbilden.",
+  "tip": "Rechnerischer Standpunkt: Bund-Promenade knapp nördlich des Chen-Yi-Platzes, gegenüber dem Peace Hotel (31.2413–31.2416 N), an allen drei Morgen (29./30./31.10.) gegen 07:33–07:34 Uhr, Sonnenhöhe 16°, Azimut 117–118°. 400–600 mm, Stativ, ND-Filter (ND 3.0) oder bei Dunst ohne; Belichtung auf die Sonnenkante, 1/1000 s f/11 ISO 100, Serie im 2-s-Intervall. Die Sonne wandert in ~1 min ihren Durchmesser – schon 10 Minuten vorher Position suchen und seitlich an der Brüstung justieren, bis die Turmachse mit dem Sonnenweg fluchtet. Nie ohne Filter durch den Sucher in die Sonne blicken (Live-View nutzen). ★★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_flaschenoeffner_1.jpg",
+    "url": "https://www.flickr.com/photos/8281403@N07/4702926615/",
+    "credit": "matteroffact · Flickr",
+    "caption": "Sonne exakt im Loch des SWFC (aus Puxi, vor Bau des Shanghai Tower)"
+   },
+   {
+    "image": "images/idea_sh3_flaschenoeffner_2.jpg",
+    "url": "https://www.flickr.com/photos/cnmark/5873246876/",
+    "credit": "cnmark · Flickr",
+    "caption": "Sonnenaufgang hinter Lujiazui vom Bund"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-sonnenturm",
+  "city": "Shanghai",
+  "name": "Sonnenstern auf der Spitze des Shanghai Tower 浙江路桥",
+  "lat": 31.2455,
+  "lng": 121.4762,
+  "approx": true,
+  "district": "Suzhou Creek, Huangpu/Jing'an",
+  "when": "day",
+  "note": "Vom Stahlbogen der Zhejiang-Road-Brücke über den Suzhou Creek aus steht die Morgensonne für einen kurzen Moment exakt auf der 632-m-Spitze des Shanghai Tower – die Sonne als Leuchtfeuer auf Chinas höchstem Gebäude, davor die geschichteten Silhouetten der Altbauten und der schimmernde Kanal. Mit kleiner Blende (f/16–22) und der Sonne knapp an der Turmkante entsteht ein scharfer Stern.",
+  "tip": "Gerechnet: Do 29.10. 07:18 Uhr, Fr 30.10. 07:19 Uhr, Sa 31.10. 07:20 Uhr; Sonnenhöhe 13,5°, Azimut 115–116°, Entfernung 2,6 km. Standpunkt Nordende der Brücke (an jedem Tag ~20–40 m weiter nordöstlich). 300–600 mm für die Spitze formatfüllend, oder 70–200 mm mit dem Kanal im Vordergrund; für den Stern f/16 und Sonne halb hinter der Turmkante verstecken. ND-Filter bei klarer Luft. Danach direkt weiter zum Bund (10 Min. zu Fuß) für den Flaschenöffner um 07:33 Uhr. ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_sonnenturm_1.jpg",
+    "url": "https://www.flickr.com/photos/cnmark/51911473988/",
+    "credit": "cnmark · Flickr",
+    "caption": "Ähnliches Motiv – Sonnenaufgang hinter Lujiazui vom Bund"
+   },
+   {
+    "image": "images/idea_sh3_sonnenturm_2.jpg",
+    "url": "https://www.flickr.com/photos/wfxue/50658099276/",
+    "credit": "wfxue · Flickr",
+    "caption": "Ähnliches Motiv – Sonnenhalo im Dunst zwischen den Türmen"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-vuebar",
+  "city": "Shanghai",
+  "name": "Gartenbrücke & Huangpu-Bogen aus der Vue Bar 外滩茂悦大酒店 VUE",
+  "lat": 31.2474,
+  "lng": 121.4895,
+  "approx": true,
+  "district": "Hongkou (Hyatt on the Bund)",
+  "when": "night",
+  "note": "Die Dachbar Vue im 32./33. Stock des eigenen Hotels liegt genau an der Mündung des Suzhou Creek: Unter dir zieht der rote Stahlfachwerkbogen der Waibaidu-Brücke Lichtspuren, dahinter schwingt sich die komplette Bund-Fassadenreihe in einer Kurve nach Süden, gegenüber leuchtet Lujiazui wie eine Insel in der Flussschleife. Kein anderer Standpunkt verbindet Alt-Shanghai, Brücke und Skyline so dicht in einem Bild – ideal für eine 2–3-Bilder-Panoramareihe in der Blauen Stunde.",
+  "tip": "Blaue Stunde Do–Sa ca. 17:10–17:35 Uhr (Sonnenuntergang 17:05) – am besten schon um 16:45 Uhr oben sein, Platz an der Südwest-Brüstung sichern. Stativ ist in Bars oft unerwünscht: kleines Tischstativ/Bohnensack auf der Brüstung, 24–70 mm, f/8, 2–8 s für die Lichtspuren auf der Brücke; Panorama hochkant 3–5 Bilder. Öffnungszeiten/Eintritt (abends oft Mindestverzehr, Wochenende Eintritt inkl. Drink) an der Rezeption erfragen – als Hotelgast gelegentlich früherer Zugang. ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_vuebar_1.jpg",
+    "url": "https://www.flickr.com/photos/tonyshi/51492432156/",
+    "credit": "Tony Shi Photos · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_vuebar_2.jpg",
+    "url": "https://www.flickr.com/photos/tonyshi/51331046081/",
+    "credit": "Tony Shi Photos · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-hyattfenster",
+  "city": "Shanghai",
+  "name": "Hotelzimmer als Zeitraffer-Studio 外滩茂悦 · 窗景",
+  "lat": 31.2472,
+  "lng": 121.49,
+  "approx": true,
+  "district": "Hongkou (Hyatt on the Bund)",
+  "when": "both",
+  "note": "Zwei Nächte, ein Fenster, eine Kamera: Ein Intervall vom Hotelzimmer mit Bund-/Lujiazui-Blick über 24 Stunden zeigt, wie Shanghai atmet – Blaue Stunde, Lichtermeer, der Moment um 22/23 Uhr, wenn Lujiazui schlagartig dunkel wird, Morgennebel über dem Huangpu, Frachtkähne im Gegenlicht. Als Standbild entsteht daraus ein „Vorher/Nachher“-Diptychon (Lichter an / Lichter aus) oder ein Day-to-Night-Blend aus exakt derselben Perspektive.",
+  "tip": "Beim Check-in um ein hohes Zimmer mit Bund-/Lujiazui-Blick bitten (Bund View, hohe Etage, West- oder Riverside-Tower). Kamera mit Gummi-Gegenlichtblende direkt an die Scheibe, Zimmerlicht aus, schwarzes Tuch gegen Spiegelungen. 14–24 bzw. 24–70 mm, Intervall alle 10 s (abends), Belichtungsautomatik mit Holy-Grail-Rampe (LRTimelapse) oder fester Wechsel auf M nach der Dämmerung. Schlüsselmomente: Lichter aus um 22:00 (Do) bzw. 23:00 Uhr (Fr/Sa, vor Ort prüfen); Sonnenaufgang 06:10 Uhr (Azimut 106°), Nebel am ehesten bei windstiller, feuchter Nacht. ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_hyattfenster_1.jpg",
+    "url": "https://www.flickr.com/photos/sunsetnoir/3274944232/",
+    "credit": "Han Lei Photo · Flickr",
+    "caption": "Ähnliches Motiv – Nebel über Lujiazui aus großer Höhe"
+   },
+   {
+    "image": "images/idea_sh3_hyattfenster_2.jpg",
+    "url": "https://www.flickr.com/photos/66145957@N05/14123399321/",
+    "credit": "omnia2070 · Flickr",
+    "caption": "Ähnliches Motiv – Blick aus einem Shanghaier Hotelzimmer"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-timeslice",
+  "city": "Shanghai",
+  "name": "Time-Slice: Bund vom Tag in die Nacht 外滩 · 时间切片",
+  "lat": 31.2422,
+  "lng": 121.4889,
+  "approx": true,
+  "district": "Bund, Huangpu",
+  "when": "both",
+  "note": "Ein Bild, zwei Stunden: Aus 15–25 Aufnahmen vom selben Stativplatz werden schmale vertikale Streifen geschnitten und nebeneinandergesetzt – links das goldene Spätnachmittagslicht auf den Glastürmen, in der Mitte die Blaue Stunde, rechts die volle Neon-Nacht. Lujiazui eignet sich perfekt, weil die Türme ihre Fassadenbeleuchtung nacheinander einschalten und die Skyline-Silhouette sehr klar ist.",
+  "tip": "Standpunkt: nördlicher Bund am Huangpu-Park/Denkmal (erhöhte Promenade, alle drei Riesen + Perlenturm in einer Reihe), 24–70 mm, Stativ unbedingt fest (Sandsack), manueller Fokus, RAW. Intervall 16:30–18:30 Uhr (Sonnenuntergang 17:05, Ende bürgerliche Dämmerung 17:33), alle 60 s – später 15–20 gleichmäßig verteilte Frames auswählen. Weißabgleich fix (z. B. 5000 K). Montage in Photoshop mit Rechteckmasken oder StackSlice; Streifen entlang der Gebäudekanten statt stur gleich breit setzt die Wirkung. Geduld nötig, sonst ★.",
+  "images": [
+   {
+    "image": "images/idea_sh3_timeslice_1.jpg",
+    "url": "https://www.flickr.com/photos/rjsnyc/14768310442/",
+    "credit": "rjsnyc2 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-top118",
+  "city": "Shanghai",
+  "name": "Auf Jin Mao herabsehen – 546 m 上海中心 118层",
+  "lat": 31.2356,
+  "lng": 121.5012,
+  "approx": false,
+  "district": "Lujiazui, Pudong",
+  "when": "both",
+  "note": "Vom „Top of Shanghai“ im 118. Stock blickt man senkrecht hinunter auf die Pagoden-Spitze des Jin Mao (421 m) und auf das Dach des „Flaschenöffners“ – Wolkenkratzer, die sonst den Himmel füllen, werden zu Spielzeug. Bei Nacht laufen darunter die Lichtadern der Century Avenue und der kreisrunde Lujiazui-Fußgängerring – ein Bild, das wie eine Drohnenaufnahme wirkt, aber legal ist.",
+  "tip": "Ticket online/vor Ort (ca. 180 ¥), Einlass ca. 9–21 Uhr (vorher prüfen). Am besten 16:15 Uhr hinauf, Sonnenuntergang 17:05 Uhr nach Westen über Puxi, dann Blaue Stunde nach unten auf Jin Mao. 14–24 mm für die Senkrechte, 70–200 mm für Ausschnitte (Jin-Mao-Krone, Ring). Kein Stativ: Objektiv mit Gummi-Gegenlichtblende an die Scheibe pressen, dunkle Jacke über Kamera gegen Reflexe, ISO 1600–3200. Bei Dunst/AQI > 100 lieber am Morgen eines klaren Tages. ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_top118_1.jpg",
+    "url": "https://www.flickr.com/photos/paulreiffer/19932741625/",
+    "credit": "PaulReiffer · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_top118_2.jpg",
+    "url": "https://www.flickr.com/photos/mobaig/4338791374/",
+    "credit": "Mo Baig · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-cloud9",
+  "city": "Shanghai",
+  "name": "Turm an Turm in der Cloud-9-Bar 金茂君悦 九重天",
+  "lat": 31.2373,
+  "lng": 121.5014,
+  "approx": false,
+  "district": "Lujiazui, Pudong",
+  "when": "night",
+  "note": "Im 87. Stock des Jin Mao steht man auf Augenhöhe mit dem Bauch des SWFC und dem Schraubengewinde des Shanghai Tower, die nur 100–200 m entfernt sind – Glasfassaden füllen das Bild wie Wände. Statt die Fensterreflexe zu bekämpfen, bewusst einsetzen: Kerzen, Barlichter und die Silhouette eines Gastes legen sich als zweite Ebene über die Stadt, eine „Doppelbelichtung“ ohne Montage.",
+  "tip": "Cloud 9 Bar im Grand Hyatt (Jin Mao 87. OG), ab ca. 17/18 Uhr, Mindestverzehr/Eintritt möglich – Tisch am Fenster Richtung SWFC/Shanghai Tower reservieren. Zwei Varianten: (1) sauber – Objektiv mit Gummi-Blende an die Scheibe, 24–70 mm, ISO 3200, 1/15 s; (2) mit Reflex – 1–2 m Abstand, Kerze/Glas im Vordergrund leicht unscharf, 50–85 mm offen. Beste Zeit Blaue Stunde 17:15–17:35 Uhr, dann Nacht bis 22 Uhr (danach Lichter aus). ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_cloud9_1.jpg",
+    "url": "https://www.flickr.com/photos/meandmyshadow/5686541799/",
+    "credit": "JULIAN MASON · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_cloud9_2.jpg",
+    "url": "https://www.flickr.com/photos/meandmyshadow/5687083870/",
+    "credit": "JULIAN MASON · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-edition",
+  "city": "Shanghai",
+  "name": "Zollhaus-Uhr vor dem Shanghai Tower 艾迪逊酒店屋顶",
+  "lat": 31.2396,
+  "lng": 121.4814,
+  "approx": true,
+  "district": "Nanjing East Road, Huangpu",
+  "when": "both",
+  "note": "Von der Dachterrasse der Shanghai EDITION (ehem. Shanghai Power Company, Nanjing Dong Lu 199) fluchten Uhrturm des Zollhauses (1927) und Shanghai Tower fast exakt auf einer Linie – mit Tele gestaucht wächst der 632-m-Turm scheinbar direkt aus dem Art-déco-Uhrturm. Alt-Shanghai und das neue China in einem einzigen vertikalen Bild, ohne Montage.",
+  "tip": "Sichtlinie nachgerechnet: Shanghai Tower → Zollhaus → EDITION liegt auf einer Geraden (Peilung ~105°). 100–200 mm (Zollhaus 400 m, Turm 1,9 km entfernt), hochkant. Am stärksten zur Blauen Stunde (17:10–17:35 Uhr), wenn Uhrzifferblatt und Turmspitze gleichzeitig leuchten; tagsüber bei Dunst als Grafik in Graustufen. Dachbar/Terrasse ist saisonal und wetterabhängig geöffnet – vorher anrufen; notfalls aus einem hohen Zimmer der Ostseite. Die Uhr schlägt zur vollen Stunde „Der Osten ist rot“ – Video mit Ton! ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_edition_1.jpg",
+    "url": "https://www.flickr.com/photos/tonyshi/51352697950/",
+    "credit": "Tony Shi Photos · Flickr",
+    "caption": "Zollhaus-Uhrturm von oben"
+   },
+   {
+    "image": "images/idea_sh3_edition_2.jpg",
+    "url": "https://www.flickr.com/photos/touristwithcamera/10950869914/",
+    "credit": "tourist with camera · Flickr",
+    "caption": "Zollhaus-Uhrturm im Dunst"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-bulgari",
+  "city": "Shanghai",
+  "name": "Die Schlangenlinie des Suzhou Creek von oben 宝格丽酒店 47层",
+  "lat": 31.2455,
+  "lng": 121.4805,
+  "approx": true,
+  "district": "Suzhou Creek, Jing'an",
+  "when": "night",
+  "note": "Von der Bvlgari-Bar im 47. Stock zieht der Suzhou Creek als leuchtendes S durchs Bild: der Uhrturm der alten Hauptpost, eine Kette angestrahlter Brücken (Sichuan Lu, Zhapu Lu, Waibaidu) und am Ende die Lujiazui-Skyline, die den Kanal wie ein Tor abschließt. Eine Komposition mit natürlicher Führungslinie aus dem Vordergrund bis zum Horizont – bekannt aus wenigen Profi-Bildern, kaum aus Instagram.",
+  "tip": "Bvlgari Hotel, Henan Bei Lu 33; Bar im 47. OG ab ca. 17 Uhr (Dresscode smart, Mindestverzehr). Tisch an der Ostseite verlangen. 24–70 mm, Tischstativ/Ellbogen an die Scheibe, 1–4 s bei f/8 für Lichtspuren auf den Uferstraßen; Gummi-Gegenlichtblende gegen Spiegelungen. Blaue Stunde 17:10–17:35 Uhr, danach Hochformat-Panorama aus 3 Bildern. Alternative ohne Bar: Dachgarten des Postmuseums (tagsüber). ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_bulgari_1.jpg",
+    "url": "https://www.flickr.com/photos/tonyshi/53101591239/",
+    "credit": "Tony Shi Photos · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_bulgari_2.jpg",
+    "url": "https://www.flickr.com/photos/tonyshi/41817960652/",
+    "credit": "Tony Shi Photos · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-postdach",
+  "city": "Shanghai",
+  "name": "Geheimgarten auf dem Postmuseum 上海邮政博物馆屋顶花园",
+  "lat": 31.2464,
+  "lng": 121.4808,
+  "approx": false,
+  "district": "Suzhou Creek, Hongkou",
+  "when": "day",
+  "note": "Kaum ein Tourist kennt den kostenlosen Dachgarten des Hauptpostamts von 1924: Barockturm mit Bronzefiguren, Rosen und Pergolen – und dahinter Perlenturm, Jin Mao und Shanghai Tower über dem Suzhou Creek. Das Bild lebt vom Kontrast: europäisches Kolonialdach im Vordergrund, Zukunftsstadt dahinter; mit 24 mm und tiefem Standpunkt rahmen die Pergolabögen die Skyline.",
+  "tip": "Bei Sichuan Bei Lu/Bei Suzhou Lu 250, geöffnet nur Mi/Do/Sa/So 9–17 Uhr (letzter Einlass ~16 Uhr, Pass mitnehmen) – also Do 29.10. oder Sa 31.10. Bestes Licht 15:30–16:45 Uhr, wenn die Sonne von Westen die Glasfassaden in Pudong golden anstrahlt. 16–35 mm für Rahmen-im-Rahmen, 70–200 mm für den Uhrturm vor dem Shanghai Tower. Polfilter gegen Dunst. ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_postdach_1.jpg",
+    "url": "https://www.flickr.com/photos/evileve24/4966096008/",
+    "credit": "Eveil Eve · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_postdach_2.jpg",
+    "url": "https://www.flickr.com/photos/evileve24/4966093814/",
+    "credit": "Eveil Eve · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-goldbund",
+  "city": "Shanghai",
+  "name": "Der Bund glüht im ersten Licht 浦东滨江大道",
+  "lat": 31.2395,
+  "lng": 121.4925,
+  "approx": true,
+  "district": "Lujiazui Binjiang, Pudong",
+  "when": "day",
+  "note": "Alle fotografieren vom Bund nach Pudong – morgens lohnt die Gegenrichtung: Die Sonne geht hinter dir im Ostsüdosten auf und taucht die nach Osten blickenden Granitfassaden von Zollhaus, HSBC-Gebäude und Peace Hotel in warmes Streiflicht, das Wasser davor bleibt noch blau. Mit Jogger-Silhouetten, Morgennebel über dem Fluss und vorbeiziehenden Frachtkähnen entsteht ein stilles, goldenes Alt-Shanghai-Panorama.",
+  "tip": "Promenade Binjiang Dadao zwischen Museum of Art Pudong und Fähre Dongchang Lu; Sonnenaufgang 06:10 Uhr (Azimut 106°), bestes Streiflicht 06:15–06:50 Uhr. 70–200 mm für Fassadenausschnitte (Zollhausuhr, HSBC-Kuppel), 24–70 mm als Panorama mit Kahn; ND 1,8 + 15–30 s für glattes Wasser, solange das Licht noch weich ist. Anfahrt vom Hotel per Taxi 10 Min. (oder Metro Linie 2 Lujiazui, erst ab ~05:30). ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_goldbund_1.jpg",
+    "url": "https://www.flickr.com/photos/cnmark/14364261045/",
+    "credit": "cnmark · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-yangpu",
+  "city": "Shanghai",
+  "name": "Kräne, Wasserburg & Yangpu-Brücke 杨浦滨江",
+  "lat": 31.2535,
+  "lng": 121.526,
+  "approx": true,
+  "district": "Yangpu Riverside",
+  "when": "both",
+  "note": "Der 5,5 km lange neue Uferweg in Yangpu führt durch Shanghais Industriegeschichte: rostige Portalkräne, Schiffsrampen, die zinnenbewehrte Yangshupu-Wasserwerk-„Burg“ von 1883 – und darüber spannt sich die 602-m-Schrägseilbrücke von Yangpu. Zur Blauen Stunde ergibt das ein Industriestillleben mit schwebender Lichterbrücke, das mit dem Bund-Klischee nichts zu tun hat.",
+  "tip": "Uferweg zwischen Qinhuangdao Lu und Yangshupu-Wasserwerk (Metro Linie 12 Ningguo Lu / Linie 4 Dalian Lu, ~15 Min. Taxi vom Hotel). Ab 16:30 Uhr laufen, Sonnenuntergang 17:05 Uhr flussaufwärts (Westen) hinter Lujiazui – Gegenlicht-Silhouetten der Kräne; danach Blaue Stunde zur Brücke (Osten). 24–70 mm, Stativ, ND für 20–60-s-Belichtungen, damit Schiffe zu Lichtbändern werden. Den Kran als Rahmen für die Brücke nutzen. ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_yangpu_1.jpg",
+    "url": "https://www.flickr.com/photos/gropius/11463947213/",
+    "credit": "gropius(SHANGHAiMAGE) · Flickr",
+    "caption": "Yangshupu-Ufer mit Kränen und Yangpu-Brücke"
+   },
+   {
+    "image": "images/idea_sh3_yangpu_2.jpg",
+    "url": "https://www.flickr.com/photos/kk9k/4807467363/",
+    "credit": "A very ordinary person · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-tank",
+  "city": "Shanghai",
+  "name": "Kreise und Hügel im Tank Shanghai 油罐艺术中心",
+  "lat": 31.1665,
+  "lng": 121.4596,
+  "approx": false,
+  "district": "West Bund, Xuhui",
+  "when": "both",
+  "note": "Fünf ehemalige Kerosintanks des alten Longhua-Flughafens wurden zum Kunstzentrum, umgeben von begrünten Hügeln, Rampen und Rundwegen. Fotografisch ist das reine Geometrie: weiße Zylinder, grüne Hügelkuppen, winzige Menschen als Maßstab – und abends leuchtende runde Öffnungen. Ein minimalistisches Gegenbild zu Lujiazui.",
+  "tip": "Longteng Dadao 2380, Park frei zugänglich, Ausstellungen Di–So ca. 10–18 Uhr. Minimalismus: 70–200 mm aus Distanz, Hügelkuppe + ein Zylinder + ein Mensch gegen leeren Himmel; Belichtung +1 EV für High-Key. Weitwinkel 14 mm von unten an der Tankwand für Kurven. Abends Blaue Stunde (17:10–17:35 Uhr) mit beleuchteten Tanks; danach zu Fuß zum Long Museum / Uferweg West Bund. ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_tank_1.jpg",
+    "url": "https://www.flickr.com/photos/jason_hindle/49066015981/",
+    "credit": "jason_hindle · Flickr",
+    "caption": "Öltanks des Tank Shanghai"
+   },
+   {
+    "image": "images/idea_sh3_tank_2.jpg",
+    "url": "https://www.flickr.com/photos/jason_hindle/49065498168/",
+    "credit": "jason_hindle · Flickr",
+    "caption": "Grashügel am West Bund"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-psa",
+  "city": "Shanghai",
+  "name": "Thermometer-Schlot der Power Station of Art 上海当代艺术博物馆",
+  "lat": 31.2031,
+  "lng": 121.4939,
+  "approx": false,
+  "district": "Huangpu (Expo-Gelände Puxi)",
+  "when": "both",
+  "note": "Der 165 m hohe Schornstein des alten Nanshi-Kraftwerks ist heute ein riesiges Thermometer: Nachts zeigt er in Leuchtziffern die Lufttemperatur über dem Fluss. Innen erzeugen die langen, schrägen Rolltreppen in der Turbinenhalle grafische Diagonalen mit kleinen Menschen. Zwei Bilder: der leuchtende Schlot als einsame Nadel über dem Huangpu (mit Lichtspuren der Schiffe), und die Rolltreppen-Abstraktion.",
+  "tip": "Huayuangang Lu 200; Museum Di–So ca. 11–19 Uhr (Eintritt je Ausstellung). Innen: 24–70 mm, von der obersten Ebene schräg nach unten, warten bis eine Person im Licht steht. Außen: vom Uferpark davor oder vom Pudong-Ufer gegenüber (Expo-Park), 70–200 mm, Stativ, 20–30 s ab Blauer Stunde 17:15 Uhr; Temperaturanzeige als Datumsstempel des Abends. ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_psa_1.jpg",
+    "url": "https://www.flickr.com/photos/memostothefuture/9068714302/",
+    "credit": "memos to the future · Flickr",
+    "caption": "Schornstein-Thermometer der Power Station of Art bei Nacht"
+   },
+   {
+    "image": "images/idea_sh3_psa_2.jpg",
+    "url": "https://www.flickr.com/photos/rupert-arrowsmith/45298405565/",
+    "credit": "ARROWSMITH · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-theater",
+  "city": "Shanghai",
+  "name": "Das schwebende Dach des Grand Theatre 上海大剧院",
+  "lat": 31.2315,
+  "lng": 121.4673,
+  "approx": false,
+  "district": "People's Square, Huangpu",
+  "when": "night",
+  "note": "Jean-Marie Charpentiers Opernhaus (1998) trägt ein nach oben gewölbtes Dach wie eine Schale – nachts glüht der gläserne Kubus darunter wie eine Laterne, und das weiße Dach scheint zu schweben. Streng symmetrisch frontal von der Renmin Dadao, mit den roten und weißen Lichtspuren der Allee im Vordergrund, wird es zu einem Bühnenbild.",
+  "tip": "Standpunkt: Mittelstreifen/Fußgängerweg der Renmin Dadao frontal vor dem Haupteingang, Kamera exakt mittig ausrichten (Gitter im Sucher). 16–35 mm, Stativ, f/11, 10–20 s für Lichtspuren, Blaue Stunde 17:15–17:35 Uhr, wenn Himmel und Innenlicht gleich hell sind. Bei Regen Spiegelung auf dem Vorplatz nutzen. Kombinierbar mit Grand Cinema und Park Hotel (Art déco) gleich nebenan. ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_theater_1.jpg",
+    "url": "https://www.flickr.com/photos/cnmark/47579020141/",
+    "credit": "cnmark · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_theater_2.jpg",
+    "url": "https://www.flickr.com/photos/franck-chilli/49195548861/",
+    "credit": "frankartculinary · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-gruenteich",
+  "city": "Shanghai",
+  "name": "Spiegelteich zwischen den Riesen 陆家嘴中心绿地",
+  "lat": 31.2395,
+  "lng": 121.502,
+  "approx": true,
+  "district": "Lujiazui, Pudong",
+  "when": "both",
+  "note": "Im Lujiazui-Zentralpark liegt ein stiller Teich, in dem sich die Bürotürme spiegeln – und am Rand steht die Chen-Guichun-Villa (1917), das letzte alte Wohnhaus Lujiazuis, ein Shikumen-Hofhaus mit Holzbalustraden. Ziel: Teich-Spiegelung mit Wolkenkratzern und das alte Ziegeldach am Rand als „letzter Zeuge“ – von hier aus ist das Bauernland von 1990 zur Hochhausschlucht geworden.",
+  "tip": "Park täglich ca. 5–22 Uhr frei; Villa (heute Wu-Changshuo-Gedenkhalle) Di–So 9–16 Uhr. Für die Spiegelung: windstille Blaue Stunde 17:15–17:35 Uhr oder früher Morgen, Kamera knapp über der Wasseroberfläche, 16–35 mm, f/8. Für den Kontrast: 70–200 mm von der Westseite, Villa-Dachfirst vor dem Shanghai Tower. ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_gruenteich_1.jpg",
+    "url": "https://www.flickr.com/photos/jb_1984/19565009536/",
+    "credit": "JB_1984 · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_gruenteich_2.jpg",
+    "url": "https://www.flickr.com/photos/luke-in-china/3870264920/",
+    "credit": "Luke in China · Flickr",
+    "caption": "Lujiazui-Zentralpark von oben"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-duoyun",
+  "city": "Shanghai",
+  "name": "Lesen über den Wolken – Buchhandlung im 52. Stock 朵云书院旗舰店",
+  "lat": 31.2357,
+  "lng": 121.5011,
+  "approx": false,
+  "district": "Shanghai Tower, Pudong",
+  "when": "day",
+  "note": "Die Duoyun-Buchhandlung im 52. Stock des Shanghai Tower (239 m) ist ganz in Weiß gestaltet wie eine Wolke; hinter der gekrümmten Doppelfassade liegt Shanghai bis zum Horizont. Menschen, die in Bücher versunken vor dem Fenster sitzen, werden zu Silhouetten über einer Stadt aus Glas – ein ruhiges, fast surreales Porträt der Megastadt, und deutlich günstiger als die Aussichtsdecks.",
+  "tip": "Eingang über den eigenen Lift der Buchhandlung im Shanghai Tower (Zugang/Eintrittsregel vor Ort prüfen; meist ca. 10–22 Uhr). Gegenlicht nutzen: auf den hellen Himmel belichten (−1 EV), Lesende als Silhouette, 35–85 mm. Bestes Licht später Nachmittag (Sonne im Westen hinter Puxi) oder Blaue Stunde. Leise sein, nicht blitzen, Personen nur aus der Distanz oder nach Nachfrage. ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_duoyun_1.jpg",
+    "url": "https://www.flickr.com/photos/204826481@N07/55436167140/",
+    "credit": "mxchen48 · Flickr",
+    "caption": "Doppelfassade des Shanghai Tower (Etage der Duoyun-Buchhandlung)"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-jazz",
+  "city": "Shanghai",
+  "name": "Die Old Jazz Band im Peace Hotel 和平饭店老年爵士乐队",
+  "lat": 31.2411,
+  "lng": 121.4851,
+  "approx": false,
+  "district": "Bund, Huangpu",
+  "when": "night",
+  "note": "Seit den 1980ern spielt im Art-déco-Jazzbar des Peace Hotel (1929) die „Old Jazz Band“ – Musiker, von denen manche über 80 sind, in weißen Jacketts, vor holzgetäfelten Wänden und Lalique-Glas. Eine Reportage-Serie über Hände an Saxophon und Kontrabass, faltige Gesichter im Spot und tanzende Paare ist pures Retro-Shanghai – nicht nachgestellt, sondern echt.",
+  "tip": "Jazz Bar im Fairmont Peace Hotel, Nanjing Dong Lu 20, Live-Musik abends ab ca. 19 Uhr (Cover Charge, vorher reservieren). 35/50/85 mm lichtstark, f/1.4–2, ISO 3200–6400, kein Blitz. Höflich in einer Pause fragen, ob Nahaufnahmen der Musiker ok sind; ein kleiner Ausdruck/Trinkgeld öffnet Türen. Danach direkt an den Bund (Mond-Idee). ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_jazz_1.jpg",
+    "url": "https://www.flickr.com/photos/austinjosa/54827483795/",
+    "credit": "Jeremy Austin (austinjosa) · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_jazz_2.jpg",
+    "url": "https://www.flickr.com/photos/12810816@N08/31334219067/",
+    "credit": "JuhaOnTheRoad · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-sowjetstern",
+  "city": "Shanghai",
+  "name": "Goldspitze mit rotem Stern 上海展览中心",
+  "lat": 31.2261,
+  "lng": 121.448,
+  "approx": false,
+  "district": "Jing'an",
+  "when": "night",
+  "note": "Das Shanghai Exhibition Centre (1955, ehem. Sino-Sowjetischer Freundschaftspalast) ist Stalin-Zuckerbäckerstil mitten in Jing'an: vergoldete Turmspitze mit rotem Stern, Säulen, Arkaden. Zur Blauen Stunde leuchtet das Gold vor tiefblauem Himmel, dahinter die Glastürme der Nanjing Xi Lu – ein Kalter-Krieg-Relikt im Turbokapitalismus.",
+  "tip": "Yan'an Zhonglu 1000. Frontal-Symmetrie von der Südseite (Yan'an-Hochstraße darüber vermeiden – Standpunkt im Vorgarten bzw. vom Fußweg), oder von Norden über den Platz an der Nanjing Xi Lu. 24–70 mm, Stativ, Blaue Stunde 17:10–17:35 Uhr. Gelände bei Messen nur mit Ticket – von außen geht immer. Kombinierbar mit Jing'an-Tempel (1 Station). ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_sowjetstern_1.jpg",
+    "url": "https://www.flickr.com/photos/studiokumar/1432480515/",
+    "credit": "studiokumar · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-kathedrale",
+  "city": "Shanghai",
+  "name": "Doppelturm-Kathedrale von Xujiahui 徐家汇天主教堂",
+  "lat": 31.193,
+  "lng": 121.4316,
+  "approx": false,
+  "district": "Xujiahui, Xuhui",
+  "when": "both",
+  "note": "Die neugotische St.-Ignatius-Kathedrale (1910) mit ihren beiden 50-m-Türmen steht inmitten der Shoppingmalls von Xujiahui. Innen ein rot-weißer Kreuzrippengewölbe-Tunnel mit modernen Glasfenstern, außen rote Backsteingotik vor Glastürmen. Nach Regen spiegeln sich die Türme im Vorplatz; zur Blauen Stunde leuchten sie vor kobaltblauem Himmel.",
+  "tip": "Puxi Lu 158, Metro Xujiahui. Besichtigung meist nur zu bestimmten Zeiten (oft Sa/So nachmittags, Messe So vormittags) – vor Ort prüfen, respektvoll ohne Blitz. Außen: 14–24 mm aus der Froschperspektive vom Vorplatz, Blaue Stunde 17:10–17:35 Uhr, 2–5 s für Wolkenzug. Innen: zentral im Mittelgang, 14 mm, Symmetrie. ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_kathedrale_1.jpg",
+    "url": "https://www.flickr.com/photos/cjli1980/7656528394/",
+    "credit": "cjli1980 · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_kathedrale_2.jpg",
+    "url": "https://www.flickr.com/photos/gropius/9081671875/",
+    "credit": "gropius(SHANGHAiMAGE) · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-wujiaochang",
+  "city": "Shanghai",
+  "name": "Lichtstrudel unter dem „Ei“ von Wujiaochang 五角场彩蛋",
+  "lat": 31.2998,
+  "lng": 121.5138,
+  "approx": true,
+  "district": "Wujiaochang, Yangpu",
+  "when": "night",
+  "note": "Über dem Fünf-Straßen-Kreisel von Wujiaochang schwebt eine riesige, ovale Gitterschale (das „Colorful Egg“), nachts wechselnd farbig beleuchtet. Darunter kreisen Autos und Busse – mit Langzeitbelichtung aus erhöhter Position wird daraus ein leuchtender Strudel unter einem UFO. Science-Fiction-Ästhetik, die außerhalb Shanghais kaum jemand kennt.",
+  "tip": "Metro Linie 10 Wujiaochang (~25 Min. vom Bund). Erhöhte Standpunkte: Fenster der oberen Etagen der umliegenden Malls (Wanda, Bailian, Hopson One) oder Fußgängerbrücken; Bodenperspektive aus dem Sunken Plaza direkt unter dem Ei. 14–24 mm, Stativ, f/11, 15–30 s, ND bei Restlicht. Beste Zeit 18:00–21:00 Uhr bei dichtem Verkehr. ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_wujiaochang_1.jpg",
+    "url": "https://www.flickr.com/photos/fangwei/9425892879/",
+    "credit": "Brady Fang · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_wujiaochang_2.jpg",
+    "url": "https://www.flickr.com/photos/memostothefuture/14751148918/",
+    "credit": "memos to the future · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-riesenrad",
+  "city": "Shanghai",
+  "name": "Riesenrad auf dem Dach – Lichtkreise 大悦城摩天轮",
+  "lat": 31.2466,
+  "lng": 121.4675,
+  "approx": false,
+  "district": "Suzhou Creek, Jing'an",
+  "when": "night",
+  "note": "Auf dem Dach der Joy City Mall ragt das „Sky Ring“-Riesenrad freitragend über die Kante, 10 Stockwerke über der Straße. In der Langzeitbelichtung werden die farbig beleuchteten Gondeln zu konzentrischen Lichtringen, darunter ziehen Lichtspuren über die Kreuzung Xizang/Haining Lu. Variante: aus der Gondel selbst den Suzhou Creek und Lujiazui mit Mitzieh-Effekt.",
+  "tip": "Xizang Beilu 166, Betrieb ca. 10–22 Uhr (Ticket ~100 ¥, prüfen). Von der Fußgänger-Hochbrücke an Xizang/Haining Lu: 16–35 mm, Stativ, f/11, 8–20 s, damit das Rad mindestens eine Teilumdrehung zeigt. In der Gondel: Objektiv an die Scheibe, Blaue Stunde 17:15–17:35 Uhr Richtung Lujiazui (Osten). Kombinierbar mit Sihang-Lagerhaus (5 Min.). ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_riesenrad_1.jpg",
+    "url": "https://www.flickr.com/photos/cnmark/30412096912/",
+    "credit": "cnmark · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_riesenrad_2.jpg",
+    "url": "https://www.flickr.com/photos/cnmark/48852541207/",
+    "credit": "cnmark · Flickr",
+    "caption": "Fußgängerring an der Xizang-Straße, dahinter das Riesenrad"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-zoomburst",
+  "city": "Shanghai",
+  "name": "Zoom-Burst in den Neon der Nanjing-Straße 南京东路",
+  "lat": 31.2378,
+  "lng": 121.478,
+  "approx": true,
+  "district": "Nanjing East Road, Huangpu",
+  "when": "night",
+  "note": "Die Neonwerbung der Nanjing Dong Lu ist das meistfotografierte Kitschmotiv Shanghais – also nicht abbilden, sondern explodieren lassen: Während einer 1/4–1-s-Belichtung wird gezoomt, die Schriftzeichen fliegen als Lichtstrahlen aus der Mitte heraus. Mit einem stehenden Passanten oder einem roten Taxi im Zentrum (Blitz zweiter Vorhang) entsteht ein energiegeladenes Bild der Konsummeile.",
+  "tip": "Fußgängerzone zwischen Henan Lu und Xizang Lu, ab 18 Uhr bis ~22 Uhr. 24–70 oder 70–200 mm, f/11–16, ISO 100, 1/2–1 s; in der ersten Hälfte der Belichtung stillhalten (scharfer Kern), dann gleichmäßig zoomen. Aus der Hand möglich, mit Einbeinstativ sauberer. Mit Blitz auf den zweiten Vorhang friert ein Mensch im Zentrum ein. 30–50 Versuche einplanen – Trefferquote gering. ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_zoomburst_1.jpg",
+    "url": "https://www.flickr.com/photos/22658121@N00/1417049377/",
+    "credit": "Lady Vervaine · Flickr",
+    "caption": "Ähnliches Motiv – Zoom-Burst auf Neon (anderer Ort)"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-metro",
+  "city": "Shanghai",
+  "name": "Wischende Züge, stehende Menschen 南京东路站 2号线",
+  "lat": 31.2386,
+  "lng": 121.48,
+  "approx": true,
+  "district": "Huangpu (Metro Linie 2)",
+  "when": "both",
+  "note": "Shanghais U-Bahn mit ihren grünen Linie-2-Zügen, Glastüren und hellen Bahnsteigen ist eine Bühne für Zeitbilder: Bei 1/4–1/2 s verschmilzt der einfahrende Zug zu einem grün-weißen Lichtband, während Wartende – Großmutter mit Einkaufstasche, Schüler mit Handy – scharf bleiben. Eine Serie aus mehreren Stationen ergibt eine Typologie stiller Menschen im Strom.",
+  "tip": "Station Nanjing East Road oder Jiangsu Road (Linie 2), außerhalb der Rushhour (10–16 Uhr) für sauberere Bilder. Kein Stativ erlaubt/sinnvoll: Kamera an Säule lehnen oder auf die Tasche stellen, 24–35 mm, f/8, 1/4 s, Bildstabilisator an. Fotografieren in der Metro ist meist geduldet, aber kein Blitz, keine Sicherheitskontrollen ablichten, Gesichter nicht aufdringlich. ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_metro_1.jpg",
+    "url": "https://www.flickr.com/photos/liu2953255/11728677614/",
+    "credit": "liu2953255 · Flickr",
+    "caption": "Linie 2, Station Jiangsu Road"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-rider",
+  "city": "Shanghai",
+  "name": "Typologie der Lieferfahrer 外卖骑手肖像",
+  "lat": 31.2248,
+  "lng": 121.4453,
+  "approx": true,
+  "district": "Jing'an (Kerry Centre)",
+  "when": "day",
+  "note": "Die gelben (Meituan) und blauen (Ele.me) Lieferfahrer sind Shanghais unsichtbare Armee – Tausende warten mittags vor Bürotürmen auf Bestellungen. Eine Serie aus 9–12 Porträts, jeweils frontal vor derselben neutralen Wand, mit Helm, Handyhalterung, Regencape: eine Typologie im Stil von August Sander, die mehr über das heutige China erzählt als jede Skyline.",
+  "tip": "Mittags 11:00–12:30 Uhr vor Jing'an Kerry Centre oder an der Nanjing Xi Lu, wenn die Fahrer warten (nicht im Stress ansprechen!). Mit Übersetzungs-App fragen („可以给您拍一张照片吗？“), danach Bild zeigen, gern per WeChat schicken oder kleines Getränk geben. 50–85 mm, f/2.8, immer gleiche Distanz und Bildaufbau, offener Schatten. Wer ablehnt, wird nicht fotografiert. ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_rider_1.jpg",
+    "url": "https://www.flickr.com/photos/disqueliu/51398956622/",
+    "credit": "Ρούνες Λιου · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-brautpaare",
+  "city": "Shanghai",
+  "name": "Typologie der Morgen-Bräute 外滩婚纱照",
+  "lat": 31.2448,
+  "lng": 121.487,
+  "approx": true,
+  "district": "Bund / Waibaidu-Brücke",
+  "when": "day",
+  "note": "Ab Sonnenaufgang posieren am Bund und auf der Waibaidu-Brücke Dutzende Paare für Hochzeitsfotos – mit Assistenten, die Schleppen werfen, Reflektoren, Windmaschinen. Statt eines einzelnen Paares: die Inszenierung als Serie „Making of Romance“ fotografieren – Fotografen, die Bräute in Pose biegen, die Assistentin unter dem Kleid, das Paar zwischen Joggern. Ironisch, liebevoll, sehr shanghaiisch.",
+  "tip": "06:15–08:30 Uhr am nördlichen Bund und an der Waibaidu-Brücke (gute Kombination mit Flaschenöffner um 07:33 Uhr). 70–200 mm aus Distanz für unbemerkte Momente, 35 mm für Kontext. Frontal gegen das Morgenlicht (Sonne aus 106°) für Gegenlichtsäume im Schleier. Nicht ins Shooting laufen; wer ein Paar direkt porträtiert, fragt die Fotografen. ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_brautpaare_1.jpg",
+    "url": "https://www.flickr.com/photos/18378305@N00/6155519921/",
+    "credit": "Can Pac Swire · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_brautpaare_2.jpg",
+    "url": "https://www.flickr.com/photos/_eyelean_/17929865288/",
+    "credit": "Eileen Seto · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-brenizer",
+  "city": "Shanghai",
+  "name": "Brenizer-Porträt vor Art-déco-Fassaden 圆明园路",
+  "lat": 31.2433,
+  "lng": 121.4836,
+  "approx": true,
+  "district": "Yuanmingyuan Road, Huangpu",
+  "when": "day",
+  "note": "Die Brenizer-Methode (Bokeh-Panorama) ergibt Porträts mit „unmöglicher“ Optik: weitwinkliger Bildausschnitt, aber Schärfentiefe wie bei 200 mm f/2. Die Yuanmingyuan Lu hinter dem Bund mit ihren Backstein- und Art-déco-Fassaden ist dafür ideal – die Person (Mitreisende oder ein älterer Herr im Mao-Anzug, nach Rückfrage) steht messerscharf, die Kolonialfassaden schmelzen ringsum zu cremigem Ocker.",
+  "tip": "Yuanmingyuan Lu (autofreie Kopfsteinstraße), weiches Licht 15:30–16:45 Uhr oder bewölkt. 70–200 mm f/2.8 (oder 85 mm f/1.4), alles manuell (Fokus, Belichtung, WB fix), erst Gesicht, dann in Spiralen 20–40 überlappende Bilder bis zum gewünschten Rahmen. Person muss 30–60 s stillhalten. Zusammensetzen in Lightroom/PTGui. ★★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_brenizer_1.jpg",
+    "url": "https://www.flickr.com/photos/alex62420/43864400981/",
+    "credit": "Alexandre D_ · Flickr",
+    "caption": "Ähnliches Motiv – Brenizer-Porträt (anderer Ort)"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-tempeldoppel",
+  "city": "Shanghai",
+  "name": "Goldtempel × Glasturm in der Kamera 静安寺 · 多重曝光",
+  "lat": 31.2252,
+  "lng": 121.4408,
+  "approx": false,
+  "district": "Jing'an",
+  "when": "both",
+  "note": "Statt Tempel und Hochhaus nebeneinander zu zeigen, verschmelzen beide in einer Mehrfachbelichtung direkt in der Kamera: Die vergoldete Dachsilhouette des Jing'an-Tempels als dunkle Form, gefüllt mit den Fensterrastern des Kerry Centre, oder Buddha-Löwen überlagert mit Lichtspuren der Nanjing Xi Lu. Ein Bild über Spiritualität und Kommerz in einem einzigen Frame, ohne Photoshop.",
+  "tip": "Mehrfachbelichtungsmodus (Nikon/Canon: „Mehrfachbelichtung“ / Sony per App bzw. in Post). Erste Aufnahme: Tempeldach/Pagode als Silhouette gegen hellen Himmel (−1 EV), zweite: Glasfassade/Leuchtreklame, Modus „Aufhellen“ oder „Durchschnitt“. Am besten Blaue Stunde 17:10–17:35 Uhr, wenn Tempel und Türme beleuchtet sind. Tempel tagsüber ca. 7:30–17 Uhr (Eintritt 50 ¥), Außenansicht von der Nanjing Xi Lu jederzeit. ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_tempeldoppel_1.jpg",
+    "url": "https://www.flickr.com/photos/hodachrome/25176411854/",
+    "credit": "Hodaka Yamamoto · Flickr",
+    "caption": "Ähnliches Motiv – Mehrfachbelichtung Stadt + Blüten, Yokohama"
+   },
+   {
+    "image": "images/idea_sh3_tempeldoppel_2.jpg",
+    "url": "https://www.flickr.com/photos/cnmark/4759397406/",
+    "credit": "cnmark · Flickr",
+    "caption": "Goldene Löwen des Jing’an-Tempels vor Hochhaus"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-chedun",
+  "city": "Shanghai",
+  "name": "Shanghai 1930 im Filmstudio Chedun 上海影视乐园",
+  "lat": 31.0133,
+  "lng": 121.3076,
+  "approx": true,
+  "district": "Chedun, Songjiang",
+  "when": "day",
+  "note": "Im Filmpark Chedun steht die alte Nanjing-Straße der 1930er als begehbare Kulisse – mit Straßenbahn, Leuchtschriften, Stahlbrücke und Shikumen-Gassen. Mit einer Model-/Mitreisenden im Qipao (Verleih vor Ort) und harter Retro-Lichtführung entstehen Noir-Bilder, die man für echte Archivaufnahmen halten könnte – Retro-Shanghai ohne die heutige Skyline.",
+  "tip": "Yingdu Lu 4915, Chedun, ca. 50 km/1 h per Taxi oder Metro 9 + Taxi; Öffnung ca. 8:30–16:30 Uhr (Ticket ~80 ¥). Für Noir: 35/50 mm, Schwarzweiß-Profil, Gegenlicht oder Blitz mit Wabe von der Seite, Körnung später. Werktags (Do/Fr) weniger Gruppen – aber an Drehtagen sind Bereiche gesperrt. Optionale Halbtagestour, gut mit Qibao/Zhujiajiao kombinierbar. ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_chedun_1.jpg",
+    "url": "https://www.flickr.com/photos/33758615@N02/5249023927/",
+    "credit": "Ewoker · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_chedun_2.jpg",
+    "url": "https://www.flickr.com/photos/33758615@N02/5249575530/",
+    "credit": "Ewoker · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-qibao",
+  "city": "Shanghai",
+  "name": "Qibao zur Laternenstunde 七宝古镇",
+  "lat": 31.1575,
+  "lng": 121.349,
+  "approx": true,
+  "district": "Qibao, Minhang",
+  "when": "night",
+  "note": "Die kleinste Wasserstadt im Stadtgebiet – direkt an der Metro – ist abends schön, wenn die Tagesbesucher weg sind: rote Laternen spiegeln sich im Puhuitang-Kanal, Steinbogenbrücke, Dampf aus Garküchen (Tangyuan, Lammspieße). Ziel ist eine ruhige Langzeit-Spiegelung mit Brücke als Bogen und Laternenbändern – oder Street-Food-Porträts im Dampf.",
+  "tip": "Metro Linie 9 Station Qibao (ca. 40 Min. vom Bund). Ab 17:00 Uhr da sein, Blaue Stunde 17:10–17:35 Uhr an der Brücke über den Puhuitang (Spiegelung bei Windstille), danach Garküchen. 16–35 mm, Stativ, ND für 10–20 s gegen Menschen auf der Brücke. Schnelle Alternative zu Zhujiajiao, wenn die Zeit knapp ist. ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_qibao_1.jpg",
+    "url": "https://www.flickr.com/photos/dycp168/36612885830/",
+    "credit": "Daniel Poon 2012 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-ringgeister",
+  "city": "Shanghai",
+  "name": "Geister auf dem Lujiazui-Ring 陆家嘴环形天桥",
+  "lat": 31.2396,
+  "lng": 121.496,
+  "approx": false,
+  "district": "Lujiazui, Pudong",
+  "when": "night",
+  "note": "Auf dem kreisrunden Fußgängerring über dem Lujiazui-Kreisverkehr drängen sich abends Hunderte Menschen mit Handys. Eine 30–60-s-Langzeitbelichtung lässt die Menge zu Schemen zerfließen, während eine einzige stillstehende Person (Mitreisende) scharf bleibt – darunter wirbeln die Lichtspuren um den Kreisel, darüber Perlenturm und die drei Riesen. Einsamkeit inmitten der Masse.",
+  "tip": "Aufgang z. B. an der Metro Lujiazui (Linie 2). Stativ auf dem Ring wird meist toleriert, aber zügig arbeiten. 14–24 mm, f/11, ISO 64–100, ND 1,8–3,0 für 30–60 s; Person muss absolut stillstehen (lehnen lassen). Beste Zeit Blaue Stunde 17:15–17:40 Uhr (Himmel noch blau, Lichter an) oder bis 21:45 Uhr (danach Lichter aus). ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_ringgeister_1.jpg",
+    "url": "https://www.flickr.com/photos/129214447@N08/15891103034/",
+    "credit": "chuck_bondoc · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-lupu",
+  "city": "Shanghai",
+  "name": "Auf dem Bogen der Lupu-Brücke 卢浦大桥观光平台",
+  "lat": 31.1907,
+  "lng": 121.4766,
+  "approx": true,
+  "district": "Huangpu / Expo",
+  "when": "day",
+  "note": "Die Lupu-Brücke war lange die längste Bogenbrücke der Welt – über 367 Stufen auf dem Bogenrücken erreicht man eine Plattform 100 m über dem Huangpu. Von dort führt der stählerne Bogen als Kurve ins Bild, der Fluss zieht nach Norden Richtung Lujiazui, unten das ehemalige Expo-Gelände mit dem roten China-Pavillon. Ein ungewöhnlicher Hochstandpunkt mitten in einer Brückenkonstruktion.",
+  "tip": "Zugang am Puxi-Brückenkopf (Luban Lu 909) per Aufzug + Treppe auf dem Bogen; die Aussichtsplattform war in der Vergangenheit zeitweise geschlossen – unbedingt vorher prüfen (Trip.com/Dianping „卢浦大桥观光“). Bei Öffnung: Nachmittag 15:30–16:30 Uhr mit Licht von Westen. 14–24 mm für den Bogen als Linie, 100–400 mm für Lujiazui im Dunst. Höhenangst-Warnung. ★★",
+  "images": [
+   {
+    "image": "images/idea_sh3_lupu_1.jpg",
+    "url": "https://www.flickr.com/photos/wade_bryant/7819249726/",
+    "credit": "Wade Bryant · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_lupu_2.jpg",
+    "url": "https://www.flickr.com/photos/picturenarrative/3890768485/",
+    "credit": "picturenarrative · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-shikumen",
+  "city": "Shanghai",
+  "name": "Typologie: 12 Shikumen-Tore 步高里",
+  "lat": 31.209,
+  "lng": 121.4579,
+  "approx": false,
+  "district": "Former French Concession, Huangpu",
+  "when": "day",
+  "note": "Die steinumrahmten Tore der Shikumen-Häuser (石库门) mit schwarzen Holzflügeln, Messingringen und barocken Giebeln sind Shanghais architektonischer Fingerabdruck – und sie verschwinden. Eine Rasterserie aus 12 Toren, alle frontal, gleiche Größe, gleiches weiches Licht, dokumentiert die Vielfalt (Art-déco, chinesische Ornamente, Graffiti, Fahrräder davor) wie ein Becher-Archiv.",
+  "tip": "Cité Bourgogne / Bugaoli (Shaanxi Nanlu 287), Jianyeli (Jianguo Xilu), Gassen um Tianzifang und die Laochengxiang-Altstadt. Bewölkter Tag oder Schatten (10–15 Uhr), 24–70 mm auf 35–50 mm fix, Kamera exakt parallel (Wasserwaage), Tor immer gleich groß im Rahmen. Bewohnte Häuser: nicht hineinfotografieren, kurz grüßen. Später als 3×4-Raster montieren. ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_shikumen_1.jpg",
+    "url": "https://www.flickr.com/photos/gropius/7900313952/",
+    "credit": "gropius(SHANGHAiMAGE) · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_shikumen_2.jpg",
+    "url": "https://www.flickr.com/photos/gropius/7909509276/",
+    "credit": "gropius(SHANGHAiMAGE) · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh3-sihang",
+  "city": "Shanghai",
+  "name": "Einschusslöcher im Abendlicht 四行仓库",
+  "lat": 31.2415,
+  "lng": 121.4668,
+  "approx": true,
+  "district": "Suzhou Creek, Jing'an",
+  "when": "day",
+  "note": "Die Westwand des Sihang-Lagerhauses, 1937 von 400 (tatsächlich ~420) chinesischen Soldaten gegen die japanische Armee verteidigt, ist mit Hunderten Granat- und Einschusslöchern übersät (heute rekonstruiert). Wenn die tiefe Sonne am Spätnachmittag streifend auf die Wand fällt, werden die Krater zu tiefen Schattenkerben – ein starkes Geschichtsbild, minimalistisch als Detail oder mit dem Suzhou Creek im Vordergrund.",
+  "tip": "Guangfu Lu 1, Museum Di–So 9–16:30 Uhr (frei, Anmeldung/Pass). Westwand vom Platz davor oder vom Südufer des Suzhou Creek (Xizang-Lu-Brücke). Bestes Streiflicht 15:45–16:45 Uhr (Sonne Azimut ~240–250°). 70–200 mm für die Kraterstruktur, Seitenlicht betonen (−0,7 EV). Respektvoll: Gedenkort. ★",
+  "images": [
+   {
+    "image": "images/idea_sh3_sihang_1.jpg",
+    "url": "https://www.flickr.com/photos/gunman47/51006815985/",
+    "credit": "guineapig33 · Flickr"
+   },
+   {
+    "image": "images/idea_sh3_sihang_2.jpg",
+    "url": "https://www.flickr.com/photos/jackcao/30804084521/",
+    "credit": "Jack Cao · Flickr"
+   }
+  ]
  }
 ]
