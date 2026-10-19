@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 19.10.2026 12:49 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 19.10.2026 15:34 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -110,9 +110,13 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **6:20–8:00** ✅ **Huanggang Dong Village 黄岗侗寨** (Liping (Shuangjiang), Guizhou) · Licht: Sonnenaufgang – Vom Hang: Nebel und Kochrauch zwischen den Trommeltürmen; danach die Getreidespeicher am Bach im weichen Licht.
 - **8:15–10:15** 🚶 ◻︎ optional: **Rundgang Huanggang (Sightseeing)** – Nach dem Fotografieren in Ruhe durchs Dorf: Trommeltürme, Speicher am Bach, Reistrockengestelle – Stationen und Hintergründe in der App.
 - **10:30** 🏨 Abfahrt: **Huanggang Hecang Granary Inn**
-  - ↓ 🚗 Auto · ca. 65 Min. · 69 km
+  - ↓ 🚗 Auto · ca. 20 Min. · 9 km (Fahrzeit geschätzt (Dorfstraßen nicht kartiert))
+- **10:45–11:30** ◻︎ optional: **Xiaohuang Dong Village 小黄侗寨** (Congjiang (Gaozeng), Guizhou) · Licht: Vormittag – „Heimat des Dong-Großen-Gesangs“, direkt an der Straße südlich von Huanggang. Im Oktober trocknet Reis auf Matten am Trommelturm – grafische Motive von oben (aus einem Obergeschoss, vorher fragen).
+  - ↓ 🚗 Auto · ca. 55 Min. · 32 km (Fahrzeit geschätzt (Dorfstraßen nicht kartiert))
+- **12:15–13:00** ◻︎ optional: **Basha Miao Village 岜沙苗寨** (Congjiang, Guizhou) · Licht: Mittag – Schatten im Kiefernwald – Miao-Dorf bei Congjiang: Männer mit Musketen und Sichel-Haarschnitt, Speicher im Kiefernwald. Die Gewehr-Vorführung ist eine Show – Alltag abseits davon ist spannender. Kostet Zeit für den Dali-Rundgang.
+  - ↓ 🚗 Auto · ca. 60 Min. · 48 km (Fahrzeit geschätzt (Dorfstraßen nicht kartiert))
 - **11:35–12:00** ◻︎ optional: **Zengchong Drum Tower 增冲鼓楼** (Congjiang (Wangdong), Guizhou) · Licht: Mittag – nur Beleg-Foto – Ältester Dong-Trommelturm (1672), kurz vom Ufer gegenüber.
-  - ↓ 🚗 Auto · ca. 65 Min. · 37 km
+  - ↓ 🚗 Auto · ca. 65 Min. · 37 km (Fahrzeit geschätzt (Dorfstraßen nicht kartiert))
 - **~13:30** 🏨 Check-in – ihr seid schon im Dorf: **See you on the well · Dali Dongzhai The Well House**
 - **14:00–16:00** 🚶 ◻︎ optional: **Rundgang Dali (Sightseeing)** – Fünf Blumenbrücken entlang des Bachs, Trommelturm mit Sa-Altar, alte Brunnen und der Qing-Steinweg – Stationen und Hintergründe in der App.
 - **16:30–18:40** ✅ **Dali Dong Village 大利侗寨** (Rongjiang (Zaima), Guizhou) · Licht: goldene Stunde → blaue Stunde (Sonnenuntergang ~18:13) – Zuerst das Dachmeer vom alten Steinplattenweg am Hang im warmen Licht, zur blauen Stunde hinunter an den Bach: beleuchtete Wind-und-Regen-Brücken, Langzeitbelichtung.

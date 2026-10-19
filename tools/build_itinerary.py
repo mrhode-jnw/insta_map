@@ -42,8 +42,14 @@ def load_hotels():
     return out
 
 
+FIXED = {}  # feste Etappen (cn/itinerary.json → fixLegs): wo OpenStreetMap die Dorfstraßen nicht kennt
+
+
 def osrm(a, b, cache):
     key = f"{a[0]:.5f},{a[1]:.5f};{b[0]:.5f},{b[1]:.5f}"
+    fx = FIXED.get(key) or FIXED.get(f"{b[0]:.5f},{b[1]:.5f};{a[0]:.5f},{a[1]:.5f}")
+    if fx:
+        return {"m": fx["km"] * 1000, "s": fx["min"] * 60 / 1.2, "path": [[a[0], a[1]], [b[0], b[1]]], "fixed": True}
     if key not in cache:
         u = (f"https://routing.openstreetmap.de/routed-car/route/v1/driving/{a[1]},{a[0]};{b[1]},{b[0]}"
              "?overview=simplified&geometries=geojson")
@@ -67,6 +73,8 @@ def apply_legs(items, cache):
         if "min" not in it:
             it["min"] = max(5, int(round(r["s"] / 60 * 1.2 / 5) * 5))
         it["path"] = r["path"]
+        if r.get("fixed") and not it.get("text"):
+            it["text"] = "Fahrzeit geschätzt (Dorfstraßen nicht kartiert)"
 
 
 def core_items(items, cache):
@@ -104,6 +112,18 @@ def main():
         hotels[k] = {**hotels.get(k, {}), **h}
     cache = json.load(open(CACHE)) if os.path.exists(CACHE) else {}
     errors = []
+    def pos(k):
+        if k in places:
+            return places[k]["lat"], places[k]["lng"]
+        if k in hotels and "lat" in hotels[k]:
+            return hotels[k]["lat"], hotels[k]["lng"]
+        errors.append(f"fixLegs: unbekannt: {k}")
+    fixed_out = []
+    for f in src.get("fixLegs", []):
+        a, b = pos(f["from"]), pos(f["to"])
+        if a and b:
+            FIXED[f"{a[0]:.5f},{a[1]:.5f};{b[0]:.5f},{b[1]:.5f}"] = f
+            fixed_out.append({"a": [a[0], a[1]], "b": [b[0], b[1]], "min": f["min"], "km": f["km"]})
     for day in src["days"]:
         items = day["items"]
         for it in items:  # Koordinaten je Eintrag
@@ -125,7 +145,7 @@ def main():
         sys.exit("\n".join(errors))
     json.dump(cache, open(CACHE, "w"), separators=(",", ":"))
     used = {it["name"] for d in src["days"] for it in d["items"] if it["type"] == "hotel"}
-    data = {"days": src["days"], "hotels": {k: v for k, v in hotels.items() if k in used}}
+    data = {"days": src["days"], "hotels": {k: v for k, v in hotels.items() if k in used}, "fixLegs": fixed_out}
     with open(OUT, "w", encoding="utf-8") as f:
         f.write("// Reiseplan Tag für Tag – erzeugt von tools/build_itinerary.py aus cn/itinerary.json\n")
         f.write("window.ITINERARY = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")

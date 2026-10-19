@@ -538,6 +538,33 @@
     },
     {
      "type": "stop",
+     "t": "10:45–11:30",
+     "spot": "claude-cn-xiaohuang-dong-village",
+     "opt": true,
+     "sel": true,
+     "light": "day",
+     "lightText": "Vormittag",
+     "text": "„Heimat des Dong-Großen-Gesangs“, direkt an der Straße südlich von Huanggang. Im Oktober trocknet Reis auf Matten am Trommelturm – grafische Motive von oben (aus einem Obergeschoss, vorher fragen)."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "12:15–13:00",
+     "spot": "claude-cn-basha-miao-village",
+     "opt": true,
+     "light": "midday",
+     "lightText": "Mittag – Schatten im Kiefernwald",
+     "text": "Miao-Dorf bei Congjiang: Männer mit Musketen und Sichel-Haarschnitt, Speicher im Kiefernwald. Die Gewehr-Vorführung ist eine Show – Alltag abseits davon ist spannender. Kostet Zeit für den Dali-Rundgang."
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
      "t": "11:35–12:00",
      "spot": "claude-cn-zengchong-drum-tower",
      "light": "midday",
@@ -1822,5 +1849,61 @@
    "room": "",
    "booked": true
   }
- }
+ },
+ "fixLegs": [
+  {
+   "from": "Huanggang Hecang Granary Inn",
+   "to": "claude-cn-xiaohuang-dong-village",
+   "min": 20,
+   "km": 9
+  },
+  {
+   "from": "claude-cn-xiaohuang-dong-village",
+   "to": "claude-cn-basha-miao-village",
+   "min": 55,
+   "km": 32
+  },
+  {
+   "from": "claude-cn-xiaohuang-dong-village",
+   "to": "claude-cn-zengchong-drum-tower",
+   "min": 75,
+   "km": 65
+  },
+  {
+   "from": "claude-cn-basha-miao-village",
+   "to": "claude-cn-zengchong-drum-tower",
+   "min": 60,
+   "km": 48
+  },
+  {
+   "from": "Huanggang Hecang Granary Inn",
+   "to": "claude-cn-zengchong-drum-tower",
+   "min": 65,
+   "km": 69
+  },
+  {
+   "from": "claude-cn-zengchong-drum-tower",
+   "to": "See you on the well · Dali Dongzhai The Well House",
+   "min": 65,
+   "km": 37
+  },
+  {
+   "from": "claude-cn-xiaohuang-dong-village",
+   "to": "See you on the well · Dali Dongzhai The Well House",
+   "min": 120,
+   "km": 95
+  },
+  {
+   "from": "claude-cn-basha-miao-village",
+   "to": "See you on the well · Dali Dongzhai The Well House",
+   "min": 110,
+   "km": 80
+  },
+  {
+   "from": "Huanggang Hecang Granary Inn",
+   "to": "See you on the well · Dali Dongzhai The Well House",
+   "min": 120,
+   "km": 100
+  }
+ ]
 }
