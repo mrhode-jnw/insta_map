@@ -632,5 +632,8 @@
  "idea-gz-ernte": {
   "fav": true,
   "prio": "hoch"
+ },
+ "idea-gz2-hg-sternspuren": {
+  "hidden": true
  }
 }
