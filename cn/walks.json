@@ -1,5 +1,161 @@
 [
  {
+  "id": "walk-zhanli",
+  "region": "cn",
+  "area": "Guizhou",
+  "place": "Zhanli",
+  "title": "Zhanli: Zwei-Kinder-Regel, Trommelturm und Reisgestelle",
+  "date": "2026-10-19",
+  "when": "Mo 19.10., ca. 14:00–15:45",
+  "duration": "ca. 1,5 h (ca. 1 km, Gassen am Hang, teils Stufen)",
+  "intro": "Zhanli (占里) ist ein Dong-Dorf mit rund 190 Haushalten und gut 800 Einwohnern in einem bewaldeten Talkessel bei Gaozeng, etwa 15 km von Congjiang. Die Vorfahren kamen nach der Überlieferung vor über 700 Jahren aus Wuzhou in Guangxi. Als später Land und Wald knapp wurden, beschloss eine Versammlung im Trommelturm unter dem Ältesten Wu Gongli Dorfregeln, darunter die Begrenzung der Kinderzahl. Bekannt ist Zhanli deshalb als Dorf mit fast stabiler Bevölkerung und auffallend ausgeglichenem Verhältnis von Jungen und Mädchen. Mitte Oktober hängt am Bach und in den Gassen der frisch geerntete Klebreis zum Trocknen.",
+  "tips": [
+   "Am Dorftor werden Gruppen oft mit „Straßensperren-Wein“ (拦门酒) und Dong-Liedern empfangen. Ablehnen ist erlaubt, nur andeuten.",
+   "Die Geschichte vom geheimen Kraut (换花草), das das Geschlecht der Kinder steuern soll, ist Überlieferung und nicht belegt. Respektvoll nachfragen, nicht als Tatsache erzählen.",
+   "Alle Positionen sind nur aus dem Satellitenbild geschätzt (approx). Vor Ort am Trommelturm orientieren, der Weg folgt grob dem Bach von Süden nach Norden.",
+   "Gassen und Treppen sind bei Nässe glatt. Vor Porträts fragen, besonders bei Älteren."
+  ],
+  "sources": [
+   "https://www.thepaper.cn/newsDetail_forward_27400864",
+   "https://gs.ctrip.com/html5/you/travels/2344/4037716.html",
+   "https://www.ourchinastory.com/cn/9781",
+   "https://www.flickr.com/photos/faooftheun/32346255572/",
+   "https://www.flickr.com/photos/davidthegray/35282320386/"
+  ],
+  "stops": [
+   {
+    "name": "Dorfeingang und Wind-und-Regen-Brücke",
+    "name_cn": "寨门 · 风雨桥",
+    "lat": 25.84385,
+    "lng": 108.91005,
+    "approx": true,
+    "text": "Von der Straße kommt man im Süden über den Bach ins Dorf. Die überdachte Wind-und-Regen-Brücke mit ihren kleinen Pagodendächern dient wie ein Tor: Hier verabschiedet und empfängt man Gäste, und Ältere sitzen im Schatten auf den Bänken. Bei Dong-Brücken ist das Dach nicht nur Schutz, es soll auch das Glück im Dorf halten.",
+    "images": [
+     {
+      "image": "images/walk_zhanli_1_1.jpg",
+      "url": "https://www.flickr.com/photos/davidthegray/35282317306/",
+      "credit": "David Gray (davidthegray) · Flickr",
+      "caption": "Wind-und-Regen-Brücke in Zhanli"
+     },
+     {
+      "image": "images/walk_zhanli_1_2.jpg",
+      "url": "https://www.flickr.com/photos/davidthegray/35282330796/",
+      "credit": "David Gray (davidthegray) · Flickr",
+      "caption": "Pfeiferaucher auf der Brücke"
+     }
+    ]
+   },
+   {
+    "name": "Reistrockengestelle am Bach",
+    "name_cn": "禾晾架",
+    "lat": 25.84472,
+    "lng": 108.91048,
+    "approx": true,
+    "text": "Am Bach stehen über zehn Meter hohe Holzgestelle (禾晾), an denen im Herbst Bündel von goldenem Klebreis trocknen. Geerntet wird der Klebreis noch mit der Hand, Halm für Halm, und gebündelt aufgehängt. Zhanli gehört zum Reis-Fisch-Enten-System von Congjiang, das die FAO 2011 als Welt-Agrarerbe (GIAHS) anerkannt hat: In den Feldern schwimmen Fische und Enten, die Unkraut und Schädlinge fressen. Diebstahl soll es nie gegeben haben, die Speicher bleiben unverschlossen.",
+    "images": [
+     {
+      "image": "images/walk_zhanli_2_1.jpg",
+      "url": "https://www.flickr.com/photos/faooftheun/32346255572/",
+      "credit": "©FAO/Dave Nowell · Flickr",
+      "caption": "Dong-Bauer aus Zhanli hängt Klebreis zum Trocknen auf (Nov. 2016)"
+     }
+    ]
+   },
+   {
+    "name": "Trommelturm und Stein der Dorfregeln",
+    "name_cn": "占里鼓楼 · 村规碑",
+    "lat": 25.8454,
+    "lng": 108.91134,
+    "approx": true,
+    "text": "Der sechseckige Trommelturm hat 13 Dachtraufen und ist rund 18 m hoch. Innen brennt in der Mitte eine große Feuerstelle, an der man sich wärmt und berät. Hier fasste das Dorf seine Regeln, die vor dem Turm in Stein gehauen sind: Kinderzahl begrenzen (ein Paar soll nur zwei Kinder haben, möglichst einen Jungen und ein Mädchen), kein illegaler Holzeinschlag, Feuerschutz, kein Diebstahl, kein Glücksspiel. Am 1. Tag des 2. und 8. Mondmonats erneuert das Dorf hier beim „Schwurfest“ (盟誓节) seine Regeln.",
+    "images": [
+     {
+      "image": "images/walk_zhanli_3_1.jpg",
+      "url": "https://www.flickr.com/photos/davidthegray/35282320386/",
+      "credit": "David Gray (davidthegray) · Flickr",
+      "caption": "Trommelturm von Zhanli"
+     },
+     {
+      "image": "images/walk_zhanli_3_2.jpg",
+      "url": "https://www.flickr.com/photos/-break/8506450641/",
+      "credit": "-break · Flickr",
+      "caption": "Dorf mit Trommelturm im Hintergrund"
+     }
+    ]
+   },
+   {
+    "name": "Quelle und Dorfbrunnen",
+    "name_cn": "水井",
+    "lat": 25.84496,
+    "lng": 108.91091,
+    "approx": true,
+    "text": "Die gefasste Quelle mit steinernen Becken war lange die Wasserversorgung des Dorfs: oben wird geschöpft, darunter gewaschen. Besucher nennen sie „magische Quelle“, weil sich um das Wasser Geschichten über Gesundheit und Fruchtbarkeit ranken. Am Brunnen trifft man am Nachmittag Frauen beim Gemüsewaschen.",
+    "images": [
+     {
+      "image": "images/walk_zhanli_4_1.jpg",
+      "url": "https://www.flickr.com/photos/davidthegray/35282325686/",
+      "credit": "David Gray (davidthegray) · Flickr",
+      "caption": "Gefasste Quelle in Zhanli"
+     }
+    ]
+   },
+   {
+    "name": "Gassen und Wohnhäuser: Alltag und Bevölkerungsregel",
+    "name_cn": "寨中巷道",
+    "lat": 25.84578,
+    "lng": 108.91166,
+    "approx": true,
+    "text": "Die Holzhäuser stehen dicht am Hang, unten Werkstatt und Tiere, oben Wohnräume und Speicher. Zwischen 1952 und 2000 wuchs die Bevölkerung kaum, und in fast allen Familien gibt es einen Sohn und eine Tochter. Erklärt wird das mit der rund 300 Jahre alten Regel und dem überlieferten Wissen einer Kräuterfrau (药师) über das Kraut 换花草, das nur an Frauen weitergegeben wird. Heute bauen die Dorfbewohner auf rund 1.000 Mu Heilkräuter an.",
+    "images": [
+     {
+      "image": "images/walk_zhanli_5_1.jpg",
+      "url": "https://www.flickr.com/photos/davidthegray/34501116704/",
+      "credit": "David Gray (davidthegray) · Flickr",
+      "caption": "Gasse mit Holzhäusern in Zhanli"
+     },
+     {
+      "image": "images/walk_zhanli_5_2.jpg",
+      "url": "https://www.flickr.com/photos/davidthegray/35198228672/",
+      "credit": "David Gray (davidthegray) · Flickr",
+      "caption": "Dong-Frau in Zhanli"
+     }
+    ]
+   },
+   {
+    "name": "Nordende: Bach und Fischteiche",
+    "name_cn": "溪流 · 鱼塘",
+    "lat": 25.84675,
+    "lng": 108.91123,
+    "approx": true,
+    "text": "Am oberen Dorfende fließt der Bach aus dem Wald ins Tal. Kleine Teiche und Becken dienen der Fischzucht und als Löschwasser, denn Feuer ist in einem Holzdorf die größte Gefahr. Die Forstregel des Dorfs wird bis heute als Lied in Dong-Sprache gesungen: 85 % der Fläche sind bewaldet, 58 Bäume sind älter als 100 Jahre.",
+    "images": [
+     {
+      "image": "images/walk_zhanli_6_1.jpg",
+      "url": "https://www.flickr.com/photos/davidthegray/34478845624/",
+      "credit": "David Gray (davidthegray) · Flickr",
+      "caption": "Bach und Teich in Zhanli"
+     }
+    ]
+   },
+   {
+    "name": "Aussicht vom Hang",
+    "name_cn": "观景",
+    "lat": 25.84472,
+    "lng": 108.91262,
+    "approx": true,
+    "text": "Vom Weg am Osthang sieht man den ganzen Talkessel: dicht gedrängte Holzdächer, den Trommelturm und davor die Reisterrassen. Von hier wird deutlich, warum das Dorf Land und Menschen im Gleichgewicht halten musste: Fläche gibt es nur so viel, wie der Talkessel hergibt.",
+    "images": [
+     {
+      "image": "images/walk_zhanli_7_1.jpg",
+      "url": "https://www.flickr.com/photos/davidthegray/34478837144/",
+      "credit": "David Gray (davidthegray) · Flickr",
+      "caption": "Zhanli über den Reisfeldern"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "walk-huanggang",
   "region": "cn",
   "area": "Guizhou",
