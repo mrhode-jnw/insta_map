@@ -1319,11 +1319,51 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     // Einstellung „Kartenbild“: Karte oder Satellit (auch über den Ebenen-Knopf; beides bleibt gleich)
     const saveBaseSet = v => { try { window.SETTINGS = window.SETTINGS || {}; window.SETTINGS.baseMap = v; localStorage.setItem("settings", JSON.stringify(window.SETTINGS)); } catch {} };
     window._setBase = v => { baseBefore = null; const c = curBase();
+      if (v === "auto") { if (c === "sat" || c === "esriSat") { map.removeLayer(BASES[c]); try { localStorage.removeItem("tileBase2"); } catch {} osm.addTo(map); } autoPrev = null; setTimeout(() => window._autoBase && window._autoBase(), 0); return; }
       if (v === "sat") { if (c !== "sat" && c !== "esriSat") { if (c) map.removeLayer(BASES[c]); sat.addTo(map); } try { localStorage.setItem("tileBase2", "sat"); } catch {} }
       else { if (c === "sat" || c === "esriSat") { map.removeLayer(BASES[c]); try { localStorage.removeItem("tileBase2"); } catch {} osm.addTo(map); } } };
+    // einmalig: bisher „Karte“ → neue Voreinstellung „Automatisch“
+    try { if (!localStorage.getItem("baseAutoMig")) { localStorage.setItem("baseAutoMig", "1"); if ((window.SETTINGS || {}).baseMap === "map") saveBaseSet("auto"); } } catch {}
     if ((window.SETTINGS || {}).baseMap === "sat") try { localStorage.setItem("tileBase2", "sat"); } catch {}
     else try { if (/sat/i.test(localStorage.getItem("tileBase2") || "")) localStorage.removeItem("tileBase2"); } catch {}
-    map.on("baselayerchange", e => { if (!baseBefore) saveBaseSet(e.layer === sat || e.layer === esriSat ? "sat" : "map"); baseBefore = null; try { e.layer === osm ? localStorage.removeItem("tileBase2") : localStorage.setItem("tileBase2", e.layer === gaode ? "gaode" : e.layer === esri ? "esri" : e.layer === sat ? "sat" : "esriSat"); } catch {} });
+    // Automatisch: keine Straßen/Häuser in der Karte (Dorf nicht kartiert) → Satellitenbild, sonst Karte.
+    // Prüft die Kartenkacheln um die Mitte (Zoom 16): fast einfarbig = leer. Gaode in Festland-China, sonst OSM.
+    const roadCache = new Map();
+    const tileScore = (url) => roadCache.has(url) ? Promise.resolve(roadCache.get(url)) : new Promise(res => {
+      const im = new Image(); im.crossOrigin = "anonymous";
+      im.onload = () => { try { const c = document.createElement("canvas"); c.width = c.height = 64; const g = c.getContext("2d"); g.drawImage(im, 0, 0, 64, 64);
+        const d = g.getImageData(0, 0, 64, 64).data, cnt = new Map(); let best = 0, bk = "";
+        for (let i = 0; i < d.length; i += 4) { if (d[i + 3] < 128) continue; const k = (d[i] >> 4) + "," + (d[i + 1] >> 4) + "," + (d[i + 2] >> 4), n = (cnt.get(k) || 0) + 1; cnt.set(k, n); if (n > best) { best = n; bk = k; } }
+        const [r0, g0, b0] = bk.split(",").map(Number); let diff = 0, tot = 0;
+        for (let i = 0; i < d.length; i += 4) { tot++; if (d[i + 3] < 128) continue; if (Math.abs((d[i] >> 4) - r0) + Math.abs((d[i + 1] >> 4) - g0) + Math.abs((d[i + 2] >> 4) - b0) > 2) diff++; }
+        const v = tot ? diff / tot : 1; roadCache.set(url, v); res(v); } catch { res(null); } };
+      im.onerror = () => res(null); im.src = url; });
+    let autoPrev = null, autoT = null, autoSeq = 0;
+    const autoOn = () => (window.SETTINGS || {}).baseMap === "auto" || !(window.SETTINGS || {}).baseMap;
+    async function autoBase() {
+      if (!autoOn() || baseBefore) return;  // Rundgang hat eigenes Satellitenbild
+      const my = ++autoSeq, z = map.getZoom(), c = map.getCenter();
+      let empty = false;
+      if (z >= 15) {
+        const n = 2 ** 16, tx = Math.floor((c.lng + 180) / 360 * n), r = c.lat * Math.PI / 180, ty = Math.floor((1 - Math.log(Math.tan(r) + 1 / Math.cos(r)) / Math.PI) / 2 * n);
+        const cn = inMainland({ lat: c.lat, lng: c.lng }), urls = [];
+        for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) urls.push(cn ? `https://webrd0${1 + ((tx + dy + dx + 3) % 4)}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x=${tx + dx}&y=${ty + dy}&z=16`
+          : `https://tile.openstreetmap.org/16/${tx + dx}/${ty + dy}.png`);
+        const v = (await Promise.all(urls.map(tileScore))).filter(x => x != null); if (my !== autoSeq || !v.length) return;
+        const avg = v.reduce((a, b) => a + b, 0) / v.length, isSat = !!autoPrev;
+        empty = isSat ? avg < 0.08 : avg < 0.05;  // etwas Spielraum, damit es nicht hin und her springt
+      }
+      const cur = curBase();
+      if (empty && !autoPrev && cur !== "sat" && cur !== "esriSat") { autoPrev = cur; if (cur) map.removeLayer(BASES[cur]); sat.addTo(map); toast("Keine Kartendaten hier – Satellitenbild", 1800); }
+      else if (!empty && autoPrev) { const p = autoPrev; autoPrev = null; if (cur === "sat" || cur === "esriSat") { map.removeLayer(BASES[cur]); BASES[p].addTo(map); } }
+    }
+    map.on("moveend", () => { clearTimeout(autoT); autoT = setTimeout(autoBase, 700); });
+    setTimeout(autoBase, 2500);
+    window._autoBase = () => { if (!autoOn() && autoPrev) { const c = curBase(), p = autoPrev; autoPrev = null; if (c === "sat" || c === "esriSat") { map.removeLayer(BASES[c]); BASES[p].addTo(map); } } autoBase(); };
+    // Leaflet meldet „baselayerchange“ auch bei Wechseln aus dem Code → nur echte Klicks im Ebenen-Menü zählen als Wahl
+    let userPick = 0;
+    if (window._baseSel) window._baseSel.getContainer().addEventListener("click", () => { userPick = Date.now(); }, true);
+    map.on("baselayerchange", e => { if (Date.now() - userPick > 1500) return; userPick = 0; autoPrev = null; if (!baseBefore) saveBaseSet(e.layer === sat || e.layer === esriSat ? "sat" : "map"); baseBefore = null; try { e.layer === osm ? localStorage.removeItem("tileBase2") : localStorage.setItem("tileBase2", e.layer === gaode ? "gaode" : e.layer === esri ? "esri" : e.layer === sat ? "sat" : "esriSat"); } catch {} });
   }
 
   // ---------- Kartenhintergrund: Google Maps (offizielle JS-API via GoogleMutant), sonst OpenStreetMap
@@ -3165,19 +3205,19 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // ---------- Symbolleiste unten
   const DLG = { plan: "#itin", tours: "#toursDlg", walk: "#wk", insp: "#insp", time: "#tl", set: "#settings" };
   // ---------- Einstellungen
-  const SET_DEF = { theme: "auto", engine: "auto", mapColor: "app", hotels: true, pins: "normal", baseMap: "map", walkSat: true };
+  const SET_DEF = { theme: "auto", engine: "auto", mapColor: "app", hotels: true, pins: "normal", baseMap: "auto", walkSat: true };
   const SETS = [
     ["Darstellung", [["theme", "Erscheinungsbild", [["auto", "Automatisch"], ["light", "Hell"], ["dark", "Dunkel"]], "Automatisch folgt der Einstellung des iPhones."]]],
     ["Karte", [
       ["engine", "Kartenanbieter", [["auto", "Automatisch"], ["google", "Google"], ["osm", "OSM"], ["rotate", "Drehbar"]], "Automatisch: Google, in Festland-China OpenStreetMap (Google ist dort verschoben). Drehbar: OpenStreetMap/Satellit mit zwei Fingern drehen. Wechsel lädt die App neu."],
       ["mapColor", "Kartenfarbe", [["app", "Wie App"], ["light", "Hell"], ["dark", "Dunkel"]], "Bei Google wirkt die Änderung nach dem Neuladen."],
-      ["baseMap", "Kartenbild", [["map", "Karte"], ["sat", "Satellit"]], "Satellit zeigt Dächer, Gassen und Felder – gut in Dörfern ohne Kartendaten. Auch über den Ebenen-Knopf oben rechts."],
+      ["baseMap", "Kartenbild", [["auto", "Automatisch"], ["map", "Karte"], ["sat", "Satellit"]], "Automatisch: Satellitenbild, wo die Karte keine Straßen und Häuser hat (z. B. in Dörfern), sonst Karte. Auch über den Ebenen-Knopf oben rechts (wählt fest)."],
       ["walkSat", "Bei Rundgängen", [[true, "Satellit"], [false, "Wie Kartenbild"]], "Beim Öffnen eines Rundgangs automatisch aufs Satellitenbild wechseln."],
       ["pins", "Spot-Pins", [["normal", "Normal"], ["big", "Groß"]], ""],
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "98 · Rundgang Zhanli";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "99 · Satellit automatisch, wo keine Straßen sind";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
