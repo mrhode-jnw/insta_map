@@ -517,6 +517,16 @@
      "text": "Vom Hang: Nebel und Kochrauch zwischen den Trommeltürmen; danach die Getreidespeicher am Bach im weichen Licht."
     },
     {
+     "type": "info",
+     "t": "8:15–10:15",
+     "icon": "🚶",
+     "title": "Rundgang Huanggang (Sightseeing)",
+     "opt": true,
+     "walk": "walk-huanggang",
+     "text": "Nach dem Fotografieren in Ruhe durchs Dorf: Trommeltürme, Speicher am Bach, Reistrockengestelle – Stationen und Hintergründe in der App.",
+     "sel": true
+    },
+    {
      "type": "hotel",
      "name": "Huanggang Hecang Granary Inn",
      "t": "10:30",
@@ -546,22 +556,23 @@
      "label": "Check-in – ihr seid schon im Dorf"
     },
     {
-     "type": "stop",
-     "t": "16:30–18:10",
-     "spot": "claude-cn-dali-dong-village",
-     "plan": true,
-     "light": "golden",
-     "lightText": "goldene Stunde",
-     "text": "Dachmeer vom alten Steinplattenweg am Hang."
+     "type": "info",
+     "t": "14:00–16:00",
+     "icon": "🚶",
+     "title": "Rundgang Dali (Sightseeing)",
+     "opt": true,
+     "walk": "walk-dali",
+     "text": "Fünf Blumenbrücken entlang des Bachs, Trommelturm mit Sa-Altar, alte Brunnen und der Qing-Steinweg – Stationen und Hintergründe in der App.",
+     "sel": true
     },
     {
      "type": "stop",
-     "t": "18:10–18:40",
+     "t": "16:30–18:40",
      "spot": "claude-cn-dali-dong-village",
      "plan": true,
-     "light": "blue",
-     "lightText": "blaue Stunde",
-     "text": "Beleuchtete Wind-und-Regen-Brücken über dem Bach, Langzeitbelichtung."
+     "light": "golden",
+     "lightText": "goldene Stunde → blaue Stunde (Sonnenuntergang ~18:13)",
+     "text": "Zuerst das Dachmeer vom alten Steinplattenweg am Hang im warmen Licht, zur blauen Stunde hinunter an den Bach: beleuchtete Wind-und-Regen-Brücken, Langzeitbelichtung."
     },
     {
      "type": "hotel",

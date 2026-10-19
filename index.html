@@ -3079,7 +3079,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const card = it.type === "stop" ? stopCard(it, d.date) : it.type === "hotel" ? (again ? `<div class="ihmini">${SVG_BED} ${esc(it.label || "zurück im Hotel")} · ${esc(shortName((ITIN.hotels[it.name] || {}).name || it.name))}</div>` : hotelCard(it, d.date))
         : `<div class="icard"><div class="iinfo"><span class="iic">${esc(it.icon || "•")}</span><div><h3>${esc(it.title || "")}</h3>
             ${it.plan || it.opt ? `<div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}</div>` : ""}${lightHtml(it)}${it.text ? `<p>${esc(it.text)}</p>` : ""}
-            ${(it.spots || []).length ? `<div class="iact">${it.spots.map(id => spotOf(id)).filter(Boolean).map(p => `<button data-spot="${esc(p.id)}">📍 ${esc(shortName(p.name))}</button>`).join("")}</div>` : ""}</div></div></div>`;
+            ${(it.spots || []).length ? `<div class="iact">${it.spots.map(id => spotOf(id)).filter(Boolean).map(p => `<button data-spot="${esc(p.id)}">📍 ${esc(shortName(p.name))}</button>`).join("")}</div>` : ""}
+            ${it.walk && (window.WALKS || []).some(w => w.id === it.walk) ? `<div class="iact"><button data-walkid="${esc(it.walk)}">🚶 Rundgang auf der Karte</button></div>` : ""}</div></div></div>`;
       const sel = it.opt && !it._sugg;
       const choose = "";
       const sc = sch.get(it), moved = sc && sc.t.replace("~", "") !== String(it.t || "").replace("~", "").replace(/\s/g, "");
@@ -3188,6 +3189,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       saveChoiceStd(dd).then(() => { toast("Als Standard gespeichert – gilt jetzt als Reiseplan", 2500); renderItin(); drawItin(false); })
         .catch(err => { toast("Nicht gespeichert: " + err.message, 4000); renderItin(); }); return; }
     if (b.dataset.map) { showItinDay(itinShown === b.dataset.map ? null : b.dataset.map, true); if (itinShown) $("#itin").hidden = true; else renderItin(); return; }
+    if (b.dataset.walkid) { $("#itin").hidden = true; showWalk(b.dataset.walkid); return; }
     if (b.dataset.spot || b.dataset.ll) itinOpenSpot(b.dataset.spot, b.dataset.ll);
   });
   // Spot aus dem Reiseplan öffnen: klein an der Karte (Standard) oder groß; „zurück“ führt wieder in den Plan (bzw. die Spot-Auswahl)
@@ -3217,7 +3219,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "99 · Satellit automatisch, wo keine Straßen sind";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "100 · Rundgänge im Tagesplan";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
