@@ -638,5 +638,9 @@
  },
  "idea-gz2-dl-zeitscheibe": {
   "hidden": true
+ },
+ "idea-sh3-zoomburst": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
