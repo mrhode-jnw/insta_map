@@ -645,5 +645,9 @@
  },
  "idea-gz2-dl-wanderer": {
   "hidden": true
+ },
+ "idea-gz2-xj-fenster": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
