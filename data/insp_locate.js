@@ -53,5 +53,13 @@ window.INSP_LOCATE = {
   "id": "loc:DdwYK7Aoyzy_13:mvdlxuse",
   "date": "2026-10-18",
   "note": "Wohnturm mit „Dragon Gate“ und Blick auf Meer + Containerschiff (Drohnenfoto @llittlepig) – Gebäude nicht sicher identifiziert. Vermutung: meerseitiges Hochhaus an einer Schifffahrtsroute (Lamma Channel/Ma Wan/Tuen Mun), unbestätigt. Mit Hinweis (Gebäudename) erneut beauftragen."
+ },
+ "images/insp/DXR-cr5Ed_7_1.jpg": {
+  "status": "found",
+  "id": "loc:DXR-cr5Ed_7_1:mveizhiv",
+  "date": "2026-10-19",
+  "spot": "hk-choi-hung-estate",
+  "mode": "photo",
+  "note": "Regenbogen-Basketballplatz auf dem Parkhausdach vor den pastellfarbenen Wohnblöcken des Choi Hung Estate – unverwechselbar (Spielfeldfarben, Korb, Fassade)"
  }
 };
