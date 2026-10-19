@@ -90,5 +90,13 @@
    "claude-cn-zhanli-dong-village@14:00–15:45": 45,
    "Ankunft Zhanli, Mittagessen@~12:45–14:00": 30
   }
+ },
+ "2026-10-20": {
+  "opt": [
+   "Rundgang Huanggang (Sightseeing)",
+   "Rundgang Dali (Sightseeing)"
+  ],
+  "dur": {},
+  "off": []
  }
 }
