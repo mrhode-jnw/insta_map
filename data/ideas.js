@@ -8693,5 +8693,1607 @@ window.IDEAS = [
     "credit": "onyame · Flickr"
    }
   ]
+ },
+ {
+  "id": "idea-cq2-mond-raffles",
+  "region": "cn",
+  "idea": true,
+  "name": "Riesenmond krönt Raffles – 600 mm vom Eling-Turm 鹅岭 瞰胜楼",
+  "city": "Chongqing",
+  "district": "Eling Park, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Eling Park, Yuzhong",
+  "lat": 29.55276,
+  "lng": 106.53455,
+  "approx": false,
+  "when": "night",
+  "note": "Vom Aussichtsturm im Eling-Park liegt Raffles City exakt auf der Mondaufgangslinie des 26.10.: Azimut 70,0° zu den 350-m-Türmen, 5,1 km entfernt. Mit 600 mm füllt der Komplex samt „Crystal“ die Bildbreite (ca. 3°), der Vollmond (0,5°) steigt direkt neben den Segeltürmen aus dem Dunst – Tele-Kompression, wie man sie von New York kennt, aber mit dem markantesten Bau Chongqings. Kein Postkartenblick, sondern eine präzise geplante Konstellation.",
+  "tip": "Am 26.10. um 17:45 oben auf dem Kanshenglou (瞰胜楼, Eintritt einige Yuan, Öffnungszeit vor Ort prüfen – sonst Plattform am Fuß des Turms). Mondaufgang geometrisch 17:57, Az 69°; Raffles-Krone liegt bei 1,3° Höhe → Mond erscheint dort ca. 18:10–18:15 (Az 70,3°), bei Dunst eher erst 18:25–18:35 bei 4–5° Höhe knapp rechts der Türme (Az 72–73°). 150–600 mm, Stativ, 1/30–1/4 s, ISO 400–800, f/8; Belichtungsreihe für Mond + Stadtlichter, die um diese Zeit angehen. Alternative zum Raffles-Stopp im Plan; danach 15 Min. Taxi nach Hongyadong. ★★★",
+  "image": "images/idea_cq2_mond-raffles_1.jpg",
+  "image_page": "https://www.flickr.com/photos/jeffdai/39342431264/",
+  "image_credit": "Jeff Dai · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/jeffdai/39342431264/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/jeffdai/39342431264/",
+    "kind": "photo",
+    "image": "images/idea_cq2_mond-raffles_1.jpg",
+    "caption": "Mond über Chongqing (Mondfinsternis-Sequenz, anderer Termin) – zeigt die Wirkung",
+    "credit": "Jeff Dai · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/128294308@N05/30412454080/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/128294308@N05/30412454080/",
+    "kind": "photo",
+    "image": "images/idea_cq2_mond-raffles_2.jpg",
+    "caption": "",
+    "credit": "Rogg4n · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-mond-wfc",
+  "region": "cn",
+  "idea": true,
+  "name": "Vollmond sinkt hinter die WFC-Spitze 环球金融中心 · 南滨路",
+  "city": "Chongqing",
+  "district": "Nanbin Road (Longmenhao), Nan’an",
+  "category": "Fotoidee",
+  "address": "Nanbin Road (Longmenhao), Nan’an",
+  "lat": 29.5577,
+  "lng": 106.5909,
+  "approx": false,
+  "when": "night",
+  "note": "Am Morgen des 27.10. geht der fast volle Mond im Westnordwesten unter, während die Sonne hinter dem Betrachter aufgeht: Rosa Gegendämmerung auf den Glasfassaden, darüber der Mond. Vom Nanbin-Ufer genau gegenüber dem World Financial Center (339 m) steht der Mond um 6:55 auf 13° Höhe – exakt die Höhe der WFC-Spitze von dort. Mit Tele „sitzt“ der Mond auf der Antenne.",
+  "tip": "Standpunkt Uferpromenade Nanbin Road an der Bushaltestelle 龙门皓月 (ca. 120 m südlich der Dongshuimen-Brückenrampe). Mond-Azimut 6:40 = 285°, 6:55 = 286°, 7:20 = 289°; WFC liegt von hier bei ca. 286° → 20–30 m Gehen entlang des Geländers verschiebt um ~1°, mit PhotoPills/Planit vor Ort feinjustieren. 6:30 da sein, 200–600 mm, Stativ, ISO 200, 1/15–1/2 s, mehrere Belichtungen (Mond hell, Stadt im Blau). Danach Taxi zur Liziba-Plattform (ca. 20 Min., 7:30). ★★★",
+  "image": "images/idea_cq2_mond-wfc_1.jpg",
+  "image_page": "https://www.flickr.com/photos/133370863@N05/24342777192/",
+  "image_credit": "Ben De La Rosa · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/133370863@N05/24342777192/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/133370863@N05/24342777192/",
+    "kind": "photo",
+    "image": "images/idea_cq2_mond-wfc_1.jpg",
+    "caption": "Ähnliches Motiv – Monduntergang hinter Skyline im Morgendunst, New York",
+    "credit": "Ben De La Rosa · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/sushiyico/27221997765/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/sushiyico/27221997765/",
+    "kind": "photo",
+    "image": "images/idea_cq2_mond-wfc_2.jpg",
+    "caption": "",
+    "credit": "苏适Sushiyico · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-sonne-crystal",
+  "region": "cn",
+  "idea": true,
+  "name": "Sonne fädelt sich in den Crystal ein – vom Ciyun-Tempel-Ufer 慈云寺",
+  "city": "Chongqing",
+  "district": "Ciyun / Tushan Road, Nan’an",
+  "category": "Fotoidee",
+  "address": "Ciyun / Tushan Road, Nan’an",
+  "lat": 29.5725,
+  "lng": 106.597,
+  "approx": true,
+  "when": "day",
+  "note": "Der 300 m lange liegende „Crystal“ von Raffles City ist das Motiv – und die tiefstehende Sonne setzt sich am 26./27.10. von einem Punkt am Südufer genau auf ihn: Raffles liegt dort bei Azimut ~249°, die Oberkante auf ~10,5° Höhe; die Sonne erreicht genau diese Position gegen 17:17. Im typischen Chongqing-Dunst wird sie zur blassorangen Scheibe, die man ohne Filter fotografieren kann – Sonnenscheibe + Glasbrücke als minimalistische Silhouette über dem Zusammenfluss.",
+  "tip": "Standpunkt nahe Kreuzung Tushan Rd/Ciyun Rd (涂山路慈云路口) bzw. Uferweg unterhalb des Ciyun-Tempels, 1,4 km von Raffles. Vorher mit Planit/PhotoPills die Linie prüfen (Sonnen-Az 17:10 = 248,5°, 17:20 = 249,5°); 10 m seitlich verschieben das Bild schon spürbar. 300–600 mm, Spot auf den Himmel neben der Sonne, −1 EV, Serie über 10 Minuten. Bei klarer Luft nicht direkt durch den Sucher in die Sonne (Live-View/ND). Kombinierbar mit einem Blick in den Ciyun-Tempel (Bogentor zum Fluss). ★★★",
+  "image": "images/idea_cq2_sonne-crystal_1.jpg",
+  "image_page": "https://www.flickr.com/photos/tomasz_solak/52097227351/",
+  "image_credit": "Tomasz Solak Photography · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/tomasz_solak/52097227351/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/tomasz_solak/52097227351/",
+    "kind": "photo",
+    "image": "images/idea_cq2_sonne-crystal_1.jpg",
+    "caption": "",
+    "credit": "Tomasz Solak Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/chee_hian/53646130726/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chee_hian/53646130726/",
+    "kind": "photo",
+    "image": "images/idea_cq2_sonne-crystal_2.jpg",
+    "caption": "",
+    "credit": "chee_hian · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-zeitscheibe",
+  "region": "cn",
+  "idea": true,
+  "name": "Zeitscheibe: Hongyadong wird Gold 洪崖洞 · 江北嘴",
+  "city": "Chongqing",
+  "district": "Jiangbeizui-Ufer, Jiangbei",
+  "category": "Fotoidee",
+  "address": "Jiangbeizui-Ufer, Jiangbei",
+  "lat": 29.5698,
+  "lng": 106.5752,
+  "approx": true,
+  "when": "both",
+  "note": "Statt eines Nachtbilds die Verwandlung in einem einzigen Bild: 12–15 vertikale Streifen von „Tageslicht“ (links) bis „volle Beleuchtung“ (rechts) zeigen, wie die Klippe mit Hongyadong, Qiansimen-Brücke und Skyline zwischen Sonnenuntergang und Nacht aufglüht. Time-Slice-Bilder dieser Art sind in Wettbewerben gefragt, weil sie Zeit sichtbar machen.",
+  "tip": "Am 26.10. von 17:45 bis ca. 19:00 vom Jiangbei-Ufer (Treppen unter dem Nordende der Qiansimen-Brücke). Stativ absolut fix, Intervall alle 4–5 Min., manuelle Belichtung in Stufen nachführen (oder Blendenautomatik mit fester Blende f/8, ISO 100). 16–35 mm. Sonnenuntergang 18:16, Ende bürgerliche Dämmerung 18:37 – die besten Streifen liegen zwischen 18:20 und 18:50. In Photoshop Streifen per Maske zusammensetzen. ★★",
+  "image": "images/idea_cq2_zeitscheibe_1.jpg",
+  "image_page": "https://www.flickr.com/photos/peacezxp/37236221564/",
+  "image_credit": "Hafidz Abdul Kadir · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/peacezxp/37236221564/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/peacezxp/37236221564/",
+    "kind": "photo",
+    "image": "images/idea_cq2_zeitscheibe_1.jpg",
+    "caption": "Ähnliches Motiv – Zeitscheibe Tag→Nacht, Kuala Lumpur",
+    "credit": "Hafidz Abdul Kadir · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/vladislavihl/28641646380/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/vladislavihl/28641646380/",
+    "kind": "photo",
+    "image": "images/idea_cq2_zeitscheibe_2.jpg",
+    "caption": "",
+    "credit": "Vladislav Ihl · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-laternen-icm",
+  "region": "cn",
+  "idea": true,
+  "name": "Laternen-Rausch: ICM in Hongyadong 洪崖洞",
+  "city": "Chongqing",
+  "district": "Hongyadong, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Hongyadong, Yuzhong",
+  "lat": 29.56507,
+  "lng": 106.57534,
+  "approx": false,
+  "when": "night",
+  "note": "Hongyadong ist das meistfotografierte Nachtmotiv Chongqings – scharf ist es tausendfach gezeigt. Mit bewusster Kamerabewegung (ICM) werden die hunderten Laternen und goldenen Dachkanten zu malerischen Lichtschlieren, das „Chihiro“-Märchenschloss löst sich in Farbe auf. Ein abstraktes Bild, das man trotzdem sofort erkennt.",
+  "tip": "Ab ca. 19:00 (Lichter voll an) von den oberen Ebenen (11. Stock = Straßenniveau Cangbai Road) hinab oder vom Ufer gegenüber. 1/4–1 s bei f/11–16, ISO 100, ggf. ND 3 Stufen; Bewegungen: vertikaler Wisch, Drehung, oder Zoom-Ziehen während der Belichtung. 30–50 Versuche einplanen, die Trefferquote ist niedrig. Im Gedränge Kamera mit Schlaufe sichern, kein Stativ auf den Gängen. ★★",
+  "image": "images/idea_cq2_laternen-icm_1.jpg",
+  "image_page": "https://www.flickr.com/photos/beelz/24849055787/",
+  "image_credit": "beelzebub2011 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/beelz/24849055787/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/beelz/24849055787/",
+    "kind": "photo",
+    "image": "images/idea_cq2_laternen-icm_1.jpg",
+    "caption": "Ähnliches Motiv – ICM mit Lichtern",
+    "credit": "beelzebub2011 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/192500310@N06/54541719531/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/192500310@N06/54541719531/",
+    "kind": "photo",
+    "image": "images/idea_cq2_laternen-icm_2.jpg",
+    "caption": "",
+    "credit": "Toni F. Abruña · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-gigapan",
+  "region": "cn",
+  "idea": true,
+  "name": "Gigapixel-Wand: Hongyadong Fenster für Fenster 洪崖洞",
+  "city": "Chongqing",
+  "district": "Jiangbeizui / Qiansimen-Nordende",
+  "category": "Fotoidee",
+  "address": "Jiangbeizui / Qiansimen-Nordende",
+  "lat": 29.57,
+  "lng": 106.576,
+  "approx": true,
+  "when": "night",
+  "note": "Ein 600-mm-Mosaik aus 40–80 Einzelbildern macht die elf Stockwerke Pfahlbauten zu einem Wimmelbild: in jedem Fenster ein Kellner, ein Selfie, eine Laterne. Gedruckt in 2 m Breite ist das ein Bild zum Hineinlaufen – völlig anders als die übliche Totale.",
+  "tip": "Vom Jiangbei-Ufer (unter der Qiansimen-Brücke) 400–600 mm, Panoramakopf oder sauber geführter Kugelkopf, 30 % Überlappung, manuelle Belichtung (z. B. 1/30 s, f/8, ISO 800 – kurz genug gegen Menschen-Unschärfe). Am besten 19:00–20:30, wenn alles beleuchtet ist und der Himmel noch Restblau hat. Zeilenweise abfahren, zusammensetzen mit PTGui/Lightroom. ★★★",
+  "image": "images/idea_cq2_gigapan_1.jpg",
+  "image_page": "https://www.flickr.com/photos/virtualwayfarer/55274290141/",
+  "image_credit": "virtualwayfarer · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/virtualwayfarer/55274290141/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/virtualwayfarer/55274290141/",
+    "kind": "photo",
+    "image": "images/idea_cq2_gigapan_1.jpg",
+    "caption": "",
+    "credit": "virtualwayfarer · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/virtualwayfarer/55274524969/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/virtualwayfarer/55274524969/",
+    "kind": "photo",
+    "image": "images/idea_cq2_gigapan_2.jpg",
+    "caption": "",
+    "credit": "virtualwayfarer · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-geister-bruecke",
+  "region": "cn",
+  "idea": true,
+  "name": "Geister auf der Qiansimen-Brücke 千厮门大桥",
+  "city": "Chongqing",
+  "district": "Qiansimen-Brücke, Fußweg",
+  "category": "Fotoidee",
+  "address": "Qiansimen-Brücke, Fußweg",
+  "lat": 29.5687,
+  "lng": 106.5752,
+  "approx": true,
+  "when": "night",
+  "note": "Abends schieben sich Tausende über den Fußweg der Qiansimen-Brücke, um Hongyadong zu sehen. Mit 20–60 s Belichtung werden sie zu einem fließenden, leuchtenden Strom, nur wer stillsteht (z. B. ein Mitreisender), bleibt scharf – Einsamkeit inmitten der Masse, mit der goldenen Klippe im Hintergrund.",
+  "tip": "Am 26.10. 20:05–20:35 (laut Plan auf der Brücke): Stativ eng ans Geländer, damit niemand stolpert. 14–24 mm, f/11, ISO 64–100, ND 6–10 Stufen für 20–60 s. Eine Person 30 s regungslos in die Mitte stellen. Die Brücke vibriert durch Verkehr und Monorail-Linie 6 im Unterdeck – Serien machen, zwischen Zügen auslösen. ★★",
+  "image": "images/idea_cq2_geister-bruecke_1.jpg",
+  "image_page": "https://www.flickr.com/photos/jixxer/15116124118/",
+  "image_credit": "Kristofer Williams · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/jixxer/15116124118/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/jixxer/15116124118/",
+    "kind": "photo",
+    "image": "images/idea_cq2_geister-bruecke_1.jpg",
+    "caption": "Ähnliches Motiv – Menschen als Geister auf der Millennium Bridge, London",
+    "credit": "Kristofer Williams · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/38074751@N06/54898025116/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/38074751@N06/54898025116/",
+    "kind": "photo",
+    "image": "images/idea_cq2_geister-bruecke_2.jpg",
+    "caption": "",
+    "credit": "Nanulak · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-doppeldeck",
+  "region": "cn",
+  "idea": true,
+  "name": "Sandwich aus Licht: Dongshuimen-Brücke 东水门长江大桥",
+  "city": "Chongqing",
+  "district": "Nan’an-Brückenkopf, Nanbin Road",
+  "category": "Fotoidee",
+  "address": "Nan’an-Brückenkopf, Nanbin Road",
+  "lat": 29.5592,
+  "lng": 106.5908,
+  "approx": true,
+  "when": "night",
+  "note": "Die Dongshuimen-Brücke ist zweistöckig: oben Autos, im orangen Fachwerk darunter die Metro-Linie 6. Eine Langzeitbelichtung von unten fängt beides: rote/weiße Spuren auf dem Deck und ein heller Strich, wenn die Bahn durch das Fachwerk zieht – davor die gerahmte Skyline von Yuzhong. Eine Brücke, zwei Lichtströme.",
+  "tip": "Am 27.10. nach Longmenhao (19:15–20:15, 3 Gehminuten): unter dem Brückenkopf an der Nanbin Road bzw. die Treppen zum Ufer hinab. 14–20 mm schräg nach oben entlang des Fachwerks, f/9, 20–30 s; nur auslösen, wenn eine Bahn einfährt (Takt ca. 5–10 Min., Geräusch ankündigend). Blende f/16 gibt Sterne an den Laternen. ★★",
+  "image": "images/idea_cq2_doppeldeck_1.jpg",
+  "image_page": "https://www.flickr.com/photos/111714485@N04/27934810939/",
+  "image_credit": "gaelmonk · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/111714485@N04/27934810939/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/111714485@N04/27934810939/",
+    "kind": "photo",
+    "image": "images/idea_cq2_doppeldeck_1.jpg",
+    "caption": "",
+    "credit": "gaelmonk · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/fxtc/16077585518/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fxtc/16077585518/",
+    "kind": "photo",
+    "image": "images/idea_cq2_doppeldeck_2.jpg",
+    "caption": "",
+    "credit": "FXTC · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-caiyuanba",
+  "region": "cn",
+  "idea": true,
+  "name": "Monorail im Bauch der Bogenbrücke 菜园坝长江大桥",
+  "city": "Chongqing",
+  "district": "Caiyuanba, Yuzhong / Line 3",
+  "category": "Fotoidee",
+  "address": "Caiyuanba, Yuzhong / Line 3",
+  "lat": 29.5505,
+  "lng": 106.5505,
+  "approx": true,
+  "when": "both",
+  "note": "In der Caiyuanba-Brücke fährt die Monorail-Linie 3 im Unterdeck durch ein langes Stahlfachwerk – von innen ein symmetrischer Tunnel aus Diagonalen, an dessen Ende der Zug auftaucht. Nachts leuchtet der rote Bogen über dem Jangtse. Zwei Bilder, ein Ort: Fluchtpunkt-Geometrie von innen und Bogen-Spiegelung von außen.",
+  "tip": "Innen: Linie 3 Lianglukou → Tongyuanju fahren, im ersten/letzten Wagen an die Stirnscheibe (Kabinen-Durchsicht), 24 mm, 1/250 s, ISO 1600. Außen ab ca. 18:45: Uferweg auf der Yuzhong-Seite östlich der Brücke, 24–70 mm, 15–25 s, f/8, Spiegelung im Fluss; ND bei Wind gegen Wellenmuster. Monorail im Unterdeck = heller Strich in der Spiegelung. ★★",
+  "image": "images/idea_cq2_caiyuanba_1.jpg",
+  "image_page": "https://www.flickr.com/photos/dorasky/14250145309/",
+  "image_credit": "哆叔 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/dorasky/14250145309/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/dorasky/14250145309/",
+    "kind": "photo",
+    "image": "images/idea_cq2_caiyuanba_1.jpg",
+    "caption": "",
+    "credit": "哆叔 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/stryder/7147440427/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/stryder/7147440427/",
+    "kind": "photo",
+    "image": "images/idea_cq2_caiyuanba_2.jpg",
+    "caption": "",
+    "credit": "TOPS78 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-gondel-lichtspur",
+  "region": "cn",
+  "idea": true,
+  "name": "Lichtspur über den Jangtse: Seilbahn bei Nacht 长江索道",
+  "city": "Chongqing",
+  "district": "Nanbin Road an der Südstation, Nan’an",
+  "category": "Fotoidee",
+  "address": "Nanbin Road an der Südstation, Nan’an",
+  "lat": 29.556,
+  "lng": 106.5905,
+  "approx": true,
+  "when": "night",
+  "note": "Die beleuchteten Gondeln der Jangtse-Seilbahn brauchen rund 4 Minuten über den Fluss. Eine Belichtung über die ganze Fahrt macht aus der Kabine einen leuchtenden Faden zwischen Nan’an und den Hochhäusern von Yuzhong – die Seile selbst verschwinden im Dunkel. Das zeigt die Seilbahn als Lichtzeichnung statt als Touristenattraktion.",
+  "tip": "Standpunkt Nanbin Road unterhalb der Südstation (长江索道南站) mit Blick nach Nordwest. 24–70 mm, f/11, ISO 64, ND 10 Stufen → 2–4 Min. (Bulb, Fernauslöser), Start beim Ablegen der Gondel. Betrieb bis ca. 22 Uhr (vor Ort prüfen). Alternativ Stack aus vielen 15-s-Bildern (Lighten-Modus). Bester Zeitpunkt 18:45–19:30 mit Restblau. ★★",
+  "image": "images/idea_cq2_gondel-lichtspur_1.jpg",
+  "image_page": "https://www.flickr.com/photos/penguindave/48256278852/",
+  "image_credit": "Dave Fieldhouse Photography · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/penguindave/48256278852/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/penguindave/48256278852/",
+    "kind": "photo",
+    "image": "images/idea_cq2_gondel-lichtspur_1.jpg",
+    "caption": "Ähnliches Motiv – Seilbahn-Lichtspuren bei Nacht, London (Emirates Air Line)",
+    "credit": "Dave Fieldhouse Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/danvan-foto/48078776913/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/danvan-foto/48078776913/",
+    "kind": "photo",
+    "image": "images/idea_cq2_gondel-lichtspur_2.jpg",
+    "caption": "",
+    "credit": "danvan foto · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-baixiangju",
+  "region": "cn",
+  "idea": true,
+  "name": "Fenster im Fenster: Baixiangju 白象居",
+  "city": "Chongqing",
+  "district": "Baixiangju, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Baixiangju, Yuzhong",
+  "lat": 29.55853,
+  "lng": 106.58135,
+  "approx": false,
+  "when": "day",
+  "note": "Das 24-stöckige Wohnhaus ohne Aufzug ist ein vertikales Dorf: Laubengänge, Treppenhäuser, Brücken auf mehreren Ebenen. Durch die rohen Betonöffnungen im Treppenhaus sieht man die Fassaden der Nachbarblöcke – und alle paar Minuten schwebt die Seilbahn-Gondel vorbei. Rahmen im Rahmen im Rahmen.",
+  "tip": "Am 27.10. 11:30–12:30 (laut Plan): über die Brücke im oberen Stock hinein und die Treppen abwärts. 24–35 mm, Öffnung als harten schwarzen Rahmen nutzen, auf Gondel im Ausschnitt warten (Seilbahntakt ca. 5–10 Min.). Dunkle Gänge: f/4, ISO 1600–3200, auf das Fenster belichten. Es wohnen hier Menschen – leise sein, keine Wohnungstüren fotografieren, nicht in Privatbereiche. ★",
+  "image": "images/idea_cq2_baixiangju_1.jpg",
+  "image_page": "https://www.flickr.com/photos/alfred-lin/53415981841/",
+  "image_credit": "Alfred Life · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/alfred-lin/53415981841/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/alfred-lin/53415981841/",
+    "kind": "photo",
+    "image": "images/idea_cq2_baixiangju_1.jpg",
+    "caption": "",
+    "credit": "Alfred Life · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/alfred-lin/53415062507/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/alfred-lin/53415062507/",
+    "kind": "photo",
+    "image": "images/idea_cq2_baixiangju_2.jpg",
+    "caption": "",
+    "credit": "Alfred Life · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-seidenfluss",
+  "region": "cn",
+  "idea": true,
+  "name": "Zwei Flüsse als Seide: Zusammenfluss bei Sonnenaufgang 朝天门",
+  "city": "Chongqing",
+  "district": "Chaotianmen-Spitze, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Chaotianmen-Spitze, Yuzhong",
+  "lat": 29.5705,
+  "lng": 106.5844,
+  "approx": false,
+  "when": "day",
+  "note": "Am Morgen des 28.10. treffen sich unten an der Landspitze der grünliche Jialing und der braune Jangtse. Mit einer Minuten-Langzeitbelichtung werden Wellen und Schiffe zu Seide und Lichtbändern, die Farbgrenze tritt als weiche Linie hervor, Raffles ragt als Silhouette in den Morgenhimmel. Ruhe statt Gewimmel – an einem der hektischsten Orte der Stadt.",
+  "tip": "Am 28.10. 6:45–8:00 (laut Plan): ganz vorne auf der unteren Plattform. Sonnenaufgang 6:59 (Az 104°, ESE über Nan’an-Hügeln – echte Sonne erst ca. 7:10). 16–35 mm, GND 3 Stufen für den Himmel, ND 10 Stufen: 60–180 s bei f/11. Schiffe mit Positionslichtern zwischen 6:45 und 7:05 geben die schönsten Spuren. Wasserstand Ende Oktober hoch (Stausee) – die Spitze kann teils überflutet sein. ★★",
+  "image": "images/idea_cq2_seidenfluss_1.jpg",
+  "image_page": "https://www.flickr.com/photos/kennethckv/55229602604/",
+  "image_credit": "kenneth chin · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/kennethckv/55229602604/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kennethckv/55229602604/",
+    "kind": "photo",
+    "image": "images/idea_cq2_seidenfluss_1.jpg",
+    "caption": "",
+    "credit": "kenneth chin · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/zjjxpeter/22972304204/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/zjjxpeter/22972304204/",
+    "kind": "photo",
+    "image": "images/idea_cq2_seidenfluss_2.jpg",
+    "caption": "",
+    "credit": "zjjxpeter · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-morgenrituale",
+  "region": "cn",
+  "idea": true,
+  "name": "Morgenrituale auf der Chaotianmen-Treppe 朝天门广场",
+  "city": "Chongqing",
+  "district": "Chaotianmen-Platz, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Chaotianmen-Platz, Yuzhong",
+  "lat": 29.5697,
+  "lng": 106.58408,
+  "approx": false,
+  "when": "day",
+  "note": "Früh morgens gehört die große Treppe am Zusammenfluss den Einheimischen: Tai Chi, Fächertanz, Rentner mit Vogelkäfigen, Jogger. Gegen den hellen Morgenhimmel werden sie zu grafischen Silhouetten auf schrägen Stufenlinien – eine Serie „Chongqing erwacht“ mit Menschen statt Architektur.",
+  "tip": "Am 28.10. ab 6:45, parallel zum Seidenfluss-Bild: auf der Treppe von unten gegen den Osthimmel (Sonne 7:00–7:15 knapp über den Hügeln). 70–200 mm, auf den Himmel belichten (−1,5 EV) für reine Silhouetten, Stufen als Diagonale. Wer jemanden nah porträtiert: vorher mit Gesten fragen; Tai-Chi-Gruppen haben meist nichts gegen Zuschauer. ★",
+  "image": "images/idea_cq2_morgenrituale_1.jpg",
+  "image_page": "https://www.flickr.com/photos/beckyrong/41465431300/",
+  "image_credit": "Becky-Rong · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/beckyrong/41465431300/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/beckyrong/41465431300/",
+    "kind": "photo",
+    "image": "images/idea_cq2_morgenrituale_1.jpg",
+    "caption": "",
+    "credit": "Becky-Rong · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/patrick_foto/28969240455/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/patrick_foto/28969240455/",
+    "kind": "photo",
+    "image": "images/idea_cq2_morgenrituale_2.jpg",
+    "caption": "Ähnliches Motiv – Tai Chi im Gegenlicht, Shanghai",
+    "credit": "Patrick Foto ;) · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-crystal-decke",
+  "region": "cn",
+  "idea": true,
+  "name": "Der liegende Wolkenkratzer als Decke 来福士 水晶连廊",
+  "city": "Chongqing",
+  "district": "Raffles City Plaza, Chaotianmen",
+  "category": "Fotoidee",
+  "address": "Raffles City Plaza, Chaotianmen",
+  "lat": 29.5672,
+  "lng": 106.5835,
+  "approx": false,
+  "when": "both",
+  "note": "Direkt unter den vier Türmen, die den 300 m langen Crystal tragen, wird die Architektur zur Science-Fiction: Mit 14 mm senkrecht nach oben schließen sich die Fassaden wie ein Schlund, quer darüber liegt die Glasbrücke als Decke des Himmels. Eine Perspektive, die man so nur hier bekommt.",
+  "tip": "Auf dem Platz zwischen T3N/T4N und T3S/T4S (Erdgeschoss-Vorplatz). 12–16 mm, Kamera auf den Boden legen (Selbstauslöser), f/8. Tag: bewölkter Himmel ist ideal (weiß, grafisch); Nacht ab 18:30 mit beleuchteter Crystal-Unterseite. Variante: Mensch mit roter Jacke als Punkt am unteren Bildrand. Kombinierbar mit dem Raffles-Stopp am 26.10. ★",
+  "image": "images/idea_cq2_crystal-decke_1.jpg",
+  "image_page": "https://www.flickr.com/photos/fran001/53226848412/",
+  "image_credit": "Francisco Anzola · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/fran001/53226848412/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fran001/53226848412/",
+    "kind": "photo",
+    "image": "images/idea_cq2_crystal-decke_1.jpg",
+    "caption": "",
+    "credit": "Francisco Anzola · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/roblawol/47145799791/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/roblawol/47145799791/",
+    "kind": "photo",
+    "image": "images/idea_cq2_crystal-decke_2.jpg",
+    "caption": "",
+    "credit": "Roblawol · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-glasboden",
+  "region": "cn",
+  "idea": true,
+  "name": "Senkrecht hinab: Glasboden im Crystal 来福士 探索舱",
+  "city": "Chongqing",
+  "district": "Raffles City Crystal (Exploration Deck), Chaotianmen",
+  "category": "Fotoidee",
+  "address": "Raffles City Crystal (Exploration Deck), Chaotianmen",
+  "lat": 29.5675551,
+  "lng": 106.5831253,
+  "approx": false,
+  "when": "both",
+  "note": "Im Crystal-Aussichtsbereich gibt es Glasboden-Abschnitte rund 250 m über dem Boden (vorab prüfen, welche Bereiche offen sind). Senkrecht nach unten fotografiert, liegt der Zusammenfluss mit Booten, Kais und der Chaotianmen-Spitze wie eine Landkarte unter den eigenen Schuhspitzen – das 8D-Gefühl in einem Bild.",
+  "tip": "Am 26.10. beim Raffles-Stopp (17:15–18:30): 14–24 mm, Gegenlichtblende/Gummihaube flach aufs Glas gegen Spiegelungen, dunkle Kleidung. Bestes Licht kurz vor 18:15, dann nochmal nach Einschalten der Uferbeleuchtung (18:30–18:40). Schuhspitzen oder Hand als Maßstab mit ins Bild. Ticket für das Exploration Deck vorab prüfen, Stative meist nicht erlaubt. ★",
+  "image": "images/idea_cq2_glasboden_1.jpg",
+  "image_page": "https://www.flickr.com/photos/maugiart/6087455707/",
+  "image_credit": "Noah J Katz · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/maugiart/6087455707/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/maugiart/6087455707/",
+    "kind": "photo",
+    "image": "images/idea_cq2_glasboden_1.jpg",
+    "caption": "Ähnliches Motiv – Blick senkrecht in die Hochhausschlucht, Chicago",
+    "credit": "Noah J Katz · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-zoom-burst",
+  "region": "cn",
+  "idea": true,
+  "name": "Zoom-Burst am Befreiungsdenkmal 解放碑",
+  "city": "Chongqing",
+  "district": "Jiefangbei, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Jiefangbei, Yuzhong",
+  "lat": 29.5578,
+  "lng": 106.5771,
+  "approx": false,
+  "when": "night",
+  "note": "Das Befreiungsdenkmal steht wie ein Leuchtturm im Zentrum der Fußgängerzone. Beim Zoom-Burst bleibt die Turmspitze scharf, während Werbetafeln und Hochhäuser in Lichtstrahlen nach außen explodieren – Energie und Lautstärke Jiefangbeis als Bild.",
+  "tip": "Abends 19:30–21:30 (Werbung voll an). Stativ (oder Geländer), 24–105/70–200 mm, f/11, 1/2–1 s: erste ~0,2 s ruhig auf Teleende, dann gleichmäßig zum Weitwinkel drehen. Denkmal exakt in Bildmitte. Mit Blitz am zweiten Vorhang kann ein Passant zusätzlich scharf werden. Keine Stative im dichten Gedränge – Ränder des Platzes nutzen. ★★",
+  "image": "images/idea_cq2_zoom-burst_1.jpg",
+  "image_page": "https://www.flickr.com/photos/auc_xu/7042049539/",
+  "image_credit": "@Auc徐奥 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/auc_xu/7042049539/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/auc_xu/7042049539/",
+    "kind": "photo",
+    "image": "images/idea_cq2_zoom-burst_1.jpg",
+    "caption": "",
+    "credit": "@Auc徐奥 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-menschenstrom",
+  "region": "cn",
+  "idea": true,
+  "name": "Menschenströme von oben: Jiefangbei-Kreuz 解放碑",
+  "city": "Chongqing",
+  "district": "Jiefangbei, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Jiefangbei, Yuzhong",
+  "lat": 29.5583,
+  "lng": 106.5768,
+  "approx": true,
+  "when": "night",
+  "note": "Von einer erhöhten Galerie oder Fußgängerbrücke wird die Kreuzung um das Denkmal zum Organismus: Mit 1–2 s Belichtung zeichnen Tausende Passanten Strömungslinien, nur das Denkmal und Stehende bleiben scharf. Aus der Vogelperspektive eine abstrakte Grafik der Megastadt.",
+  "tip": "Höhere Ebenen der Einkaufszentren am Platz oder Fußgängerbrücken der Umgebung nutzen (vor Ort nach freien Fenstern/Terrassen suchen). 24–70 mm, ND 3–6 Stufen, 1–4 s, Kamera aufs Geländer. Freitag/Samstagabend am vollsten, aber unter der Woche 19–21 Uhr reicht. Kein Glas spiegelfrei? Objektiv direkt an die Scheibe. ★★",
+  "image": "images/idea_cq2_menschenstrom_1.jpg",
+  "image_page": "https://www.flickr.com/photos/wupeng/3061607198/",
+  "image_credit": "wu.peng · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/wupeng/3061607198/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/wupeng/3061607198/",
+    "kind": "photo",
+    "image": "images/idea_cq2_menschenstrom_1.jpg",
+    "caption": "",
+    "credit": "wu.peng · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/82880736@N07/7595172764/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/82880736@N07/7595172764/",
+    "kind": "photo",
+    "image": "images/idea_cq2_menschenstrom_2.jpg",
+    "caption": "",
+    "credit": "jlkoch · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-regen-neon",
+  "region": "cn",
+  "idea": true,
+  "name": "Cyberpunk-Pfützen: Regenabend in Jiefangbei 解放碑",
+  "city": "Chongqing",
+  "district": "Jiefangbei / Bayi Road, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Jiefangbei / Bayi Road, Yuzhong",
+  "lat": 29.5565,
+  "lng": 106.576,
+  "approx": true,
+  "when": "night",
+  "note": "Ende Oktober nieselt es in Chongqing oft. Dann verdoppeln die nassen Platten der Fußgängerzone jede Leuchtreklame, Schirme in Rot und Weiß ziehen als Farbtupfer durch – Blade-Runner-Stimmung ganz ohne Kulisse. Aus der Froschperspektive wird eine Pfütze zum Spiegel der Hochhausschlucht.",
+  "tip": "Wetter-Plan B für jeden Abend: Kamera fast auf den Boden (Klappdisplay), 16–35 mm, f/4–5.6, 1/60–1/125 s, ISO 1600–3200; Fokus auf die Spiegelung. Leichte Unschärfe bei 1/8 s gibt „gemalte“ Schirme. Regenschutz für die Kamera, Mikrofasertuch. Gute Ecken: Bayi Road (八一路), Zourong Road. ★",
+  "image": "images/idea_cq2_regen-neon_1.jpg",
+  "image_page": "https://www.flickr.com/photos/le_pictavien/2074190805/",
+  "image_credit": "Le Pictavien · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/le_pictavien/2074190805/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/le_pictavien/2074190805/",
+    "kind": "photo",
+    "image": "images/idea_cq2_regen-neon_1.jpg",
+    "caption": "",
+    "credit": "Le Pictavien · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/joskraaijeveld/33564753320/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/joskraaijeveld/33564753320/",
+    "kind": "photo",
+    "image": "images/idea_cq2_regen-neon_2.jpg",
+    "caption": "",
+    "credit": "joskraaijeveld.nl · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-guotai",
+  "region": "cn",
+  "idea": true,
+  "name": "Rote Stäbchen und Lichtspuren: Guotai-Kunstzentrum 国泰艺术中心",
+  "city": "Chongqing",
+  "district": "Jiefangbei, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Jiefangbei, Yuzhong",
+  "lat": 29.5612,
+  "lng": 106.5733,
+  "approx": true,
+  "when": "night",
+  "note": "Das Guotai Arts Center sieht aus wie ein Stapel roter Essstäbchen – oder wie ein Bündel Hotpot-Spieße. Zur Blauen Stunde leuchtet die Unterseite, davor schwingen Autos als Lichtbögen um die Kurve, dahinter ragt das WFC auf. Rot, Blau, Gold – ein grafisches Nachtbild mitten im Zentrum.",
+  "tip": "Am 26. oder 27.10. 18:30–19:00 (blaue Stunde, Ende Dämmerung ca. 18:37). Standpunkt Gehweg an der Kurve Linjiangmen/Jiefangbei-Seite, 14–20 mm Froschperspektive, Stativ niedrig, f/11, 8–20 s. Mit Fisheye wird die Straße zur Kurve um das Gebäude. ★",
+  "image": "images/idea_cq2_guotai_1.jpg",
+  "image_page": "https://www.flickr.com/photos/sushiyico/27222014955/",
+  "image_credit": "苏适Sushiyico · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/sushiyico/27222014955/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/sushiyico/27222014955/",
+    "kind": "photo",
+    "image": "images/idea_cq2_guotai_1.jpg",
+    "caption": "",
+    "credit": "苏适Sushiyico · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/141848731@N07/30370266453/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/141848731@N07/30370266453/",
+    "kind": "photo",
+    "image": "images/idea_cq2_guotai_2.jpg",
+    "caption": "",
+    "credit": "kiatthaworn khorthawornwong · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-shibati-vertikal",
+  "region": "cn",
+  "idea": true,
+  "name": "Shibati als Vertorama: von der Altstadt in den Himmel 十八梯",
+  "city": "Chongqing",
+  "district": "Shibati, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Shibati, Yuzhong",
+  "lat": 29.55531,
+  "lng": 106.56964,
+  "approx": false,
+  "when": "day",
+  "note": "Shibati verbindet die Oberstadt mit dem Jangtse-Ufer – heute rekonstruiert, aber noch immer eine Treppenschlucht mit Hochhäusern dahinter. Ein vertikales Panorama aus 4–6 Hochformat-Bildern zeigt in einem Bild die Stufen zu den Füßen, die geschwungenen Dächer und die Wohntürme ganz oben: das 8D-Chongqing in voller Höhe.",
+  "tip": "Am 28.10. 8:30–9:30 (laut Plan), wenn die Treppen noch leer sind. Unten in der Treppenmitte stehen, 24 mm Hochformat, von den Füßen bis über die Türme schwenken (Nodalpunkt grob über den Fuß halten), 40 % Überlappung, manuelle Belichtung. Weiches Morgenlicht ohne harte Schatten ist ideal. Zusammensetzen mit „Vertikal“-Projektion. ★★",
+  "image": "images/idea_cq2_shibati-vertikal_1.jpg",
+  "image_page": "https://www.flickr.com/photos/kkyang/29647063130/",
+  "image_credit": "kk.yang · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/kkyang/29647063130/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kkyang/29647063130/",
+    "kind": "photo",
+    "image": "images/idea_cq2_shibati-vertikal_1.jpg",
+    "caption": "",
+    "credit": "kk.yang · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/wil5oncle7us/54895375950/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/wil5oncle7us/54895375950/",
+    "kind": "photo",
+    "image": "images/idea_cq2_shibati-vertikal_2.jpg",
+    "caption": "",
+    "credit": "wil5oncle7us · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-kaixuan-aufzug",
+  "region": "cn",
+  "idea": true,
+  "name": "Fahrstuhl als Straße: Kaixuan-Lu-Aufzug 凯旋路电梯",
+  "city": "Chongqing",
+  "district": "Jiefangbei / Nanjimen, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Jiefangbei / Nanjimen, Yuzhong",
+  "lat": 29.55504,
+  "lng": 106.57293,
+  "approx": false,
+  "when": "day",
+  "note": "Seit 1986 ersetzt ein öffentlicher Aufzug den Fußweg zwischen zwei Stadtebenen: Man betritt ihn auf der unteren Straße und steigt auf dem Dach in eine andere Straße aus. Der brutalistische Betonkegel, die Fahrstuhlführerin, das Kassenhäuschen – ein Stück Verkehrsgeschichte, das zeigt, wie Chongqing Höhe denkt.",
+  "tip": "Wenige Gehminuten von Jiefangbei/Shibati, gut vor oder nach Shibati am 28.10. Fahrt kostet 1–2 Yuan. Bilder: Weitwinkel von der oberen Plattform mit dem Kegel und Hochhäusern; Porträt der Aufzugsführerin im Kabinenlicht (fragen!); Fahrgäste beim Aussteigen auf „Dachstraßen-Niveau“. 24–50 mm, ISO 800. ★",
+  "image": "images/idea_cq2_kaixuan-aufzug_1.jpg",
+  "image_page": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86%E5%B8%82%E5%87%AF%E6%97%8B%E8%B7%AF%E7%94%B5%E6%A2%AF.jpg",
+  "image_credit": "Limingqimonkey · Wikimedia Commons (CC BY-SA 3.0)",
+  "posts": [
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86%E5%B8%82%E5%87%AF%E6%97%8B%E8%B7%AF%E7%94%B5%E6%A2%AF.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86%E5%B8%82%E5%87%AF%E6%97%8B%E8%B7%AF%E7%94%B5%E6%A2%AF.jpg",
+    "kind": "photo",
+    "image": "images/idea_cq2_kaixuan-aufzug_1.jpg",
+    "caption": "",
+    "credit": "Limingqimonkey · Wikimedia Commons (CC BY-SA 3.0)"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%87%AF%E6%97%8B%E8%B7%AF%E7%94%B5%E6%A2%AF%EF%BC%8C%E9%87%8D%E5%BA%86_ChongQing_19-04-12_-_panoramio.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:%E5%87%AF%E6%97%8B%E8%B7%AF%E7%94%B5%E6%A2%AF%EF%BC%8C%E9%87%8D%E5%BA%86_ChongQing_19-04-12_-_panoramio.jpg",
+    "kind": "photo",
+    "image": "images/idea_cq2_kaixuan-aufzug_2.jpg",
+    "caption": "",
+    "credit": "Panoramio · Wikimedia Commons (CC BY 3.0)"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-treppen-typologie",
+  "region": "cn",
+  "idea": true,
+  "name": "Typologie: 12 Treppen von Chongqing 山城步道",
+  "city": "Chongqing",
+  "district": "Shancheng-Pfad / Yuzhong",
+  "category": "Fotoidee",
+  "address": "Shancheng-Pfad / Yuzhong",
+  "lat": 29.5553,
+  "lng": 106.56206,
+  "approx": false,
+  "when": "day",
+  "note": "Chongqing ist eine Stadt aus Treppen – jede anders: moosig, bemalt, betoniert, mit Garküche, mit Handlauf aus Rohren. Eine strenge Serie (gleicher Standpunkt-Typ, z. B. senkrecht von oben mit genau einer Person) macht daraus ein Kunstwerk im Stil von Becher-Typologien. Einzelbilder sind schön, die Serie ist preiswürdig.",
+  "tip": "Über den Aufenthalt verteilt sammeln: Shancheng-Pfad (山城步道), Shibati, Baixiangju, Longmenhao, Treppen an der Kuixing-Brücke. Regel festlegen: z. B. senkrecht von oben von Brücken/Absätzen mit 24 mm, nur Menschen in Bewegung, Schwarzweiß. Am Ende 3×4 Raster. Bedecktes Licht ist am einheitlichsten. ★",
+  "image": "images/idea_cq2_treppen-typologie_1.jpg",
+  "image_page": "https://www.flickr.com/photos/gauthierdelecroix/49197448452/",
+  "image_credit": "Gauthier 郭天 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/gauthierdelecroix/49197448452/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/gauthierdelecroix/49197448452/",
+    "kind": "photo",
+    "image": "images/idea_cq2_treppen-typologie_1.jpg",
+    "caption": "",
+    "credit": "Gauthier 郭天 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/ningxinfu/54266187074/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/ningxinfu/54266187074/",
+    "kind": "photo",
+    "image": "images/idea_cq2_treppen-typologie_2.jpg",
+    "caption": "",
+    "credit": "keylimeberliner · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-fenster-wand",
+  "region": "cn",
+  "idea": true,
+  "name": "Rear Window: 1000 Fenster, eine Geschichte 临华路",
+  "city": "Chongqing",
+  "district": "Linhua Road, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Linhua Road, Yuzhong",
+  "lat": 29.559721,
+  "lng": 106.557113,
+  "approx": true,
+  "when": "night",
+  "note": "Die Wohnhochhäuser rund um Linhua Road bilden zur Blauen Stunde eine Wand aus Hunderten Fenstern: blau, gelb, grün beleuchtet, Wäsche, Klimageräte. Mit Tele gerahmt wird das ein Raster ohne Himmel und Boden – und irgendwo darin ein Fenster mit einer Geschichte (ein Kind am Schreibtisch, jemand beim Kochen). Hitchcocks „Fenster zum Hof“ als Chongqing-Bild.",
+  "tip": "18:40–19:30, wenn innen Licht brennt und außen noch Blau bleibt. 100–400 mm, Stativ, f/8, 1–2 s, ISO 200; parallel zur Fassade ausrichten (keine stürzenden Linien). Diskret bleiben: keine identifizierbaren Personen in privaten Räumen groß zeigen – nur Silhouetten/Details. ★★",
+  "image": "images/idea_cq2_fenster-wand_1.jpg",
+  "image_page": "https://www.flickr.com/photos/chinapix/4746324803/",
+  "image_credit": "nataliebehring.com · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/chinapix/4746324803/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chinapix/4746324803/",
+    "kind": "photo",
+    "image": "images/idea_cq2_fenster-wand_1.jpg",
+    "caption": "",
+    "credit": "nataliebehring.com · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/rabbit75/28933483967/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/rabbit75/28933483967/",
+    "kind": "photo",
+    "image": "images/idea_cq2_fenster-wand_2.jpg",
+    "caption": "",
+    "credit": "BestCityscape · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-schichten-400",
+  "region": "cn",
+  "idea": true,
+  "name": "Häusergebirge: 400-mm-Schichten von Eling 鹅岭二厂",
+  "city": "Chongqing",
+  "district": "Eling Second Factory, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Eling Second Factory, Yuzhong",
+  "lat": 29.552512,
+  "lng": 106.536826,
+  "approx": true,
+  "when": "day",
+  "note": "Von den Dachterrassen des Eling-Kreativparks staffeln sich am Jialing-Steilhang die Wohntürme hintereinander wie Gebirgsketten. Mit 400 mm und etwas Dunst verschwinden Himmel und Horizont, es bleiben Schichten aus Fassaden in abnehmendem Kontrast – Chongqing als abstraktes Häusergebirge in Graustufen.",
+  "tip": "Am 27.10. 10:15–11:15 (laut Plan) von den Terrassen nach Norden/Nordosten über den Jialing (Richtung Huaxin/Jiangbei). 200–400 mm, f/8, 1/500 s, auf die hellste Schicht belichten, später Kontrast nach hinten verflachen lassen. Mittagsdunst ist hier ein Vorteil. Schwarzweiß oder entsättigtes Blau. ★",
+  "image": "images/idea_cq2_schichten-400_1.jpg",
+  "image_page": "https://www.flickr.com/photos/manualphoto/39169583541/",
+  "image_credit": "reassembling.visions · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/manualphoto/39169583541/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/manualphoto/39169583541/",
+    "kind": "photo",
+    "image": "images/idea_cq2_schichten-400_1.jpg",
+    "caption": "",
+    "credit": "reassembling.visions · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/estaufi/51164659340/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/estaufi/51164659340/",
+    "kind": "photo",
+    "image": "images/idea_cq2_schichten-400_2.jpg",
+    "caption": "",
+    "credit": "staufi · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-nanshan-serpentinen",
+  "region": "cn",
+  "idea": true,
+  "name": "Lichtschlangen am Nanshan 南山盘山公路",
+  "city": "Chongqing",
+  "district": "Nanshan, Nan’an",
+  "category": "Fotoidee",
+  "address": "Nanshan, Nan’an",
+  "lat": 29.5465,
+  "lng": 106.6005,
+  "approx": true,
+  "when": "night",
+  "note": "Die Bergstraße auf den Nanshan windet sich in Kehren zum Yikeshu-Aussichtspunkt hinauf. Von einer Kehre oberhalb gesehen ziehen die Autos rot-weiße Schlangenlinien den Hang hinab, dahinter glüht die Halbinsel Yuzhong. Lichtspuren mit Natur im Vordergrund statt Kreuzung.",
+  "tip": "Am 27.10. nach Yikeshu (bis ca. 19:00): auf dem Rückweg an einer sicheren Haltebucht oberhalb einer Kehre stoppen (Taxi warten lassen oder vorher vereinbaren). 24–70 mm, f/11, 20–60 s, ISO 100, mehrere Belichtungen stacken für dichte Spuren. Achtung: schmale Straße, Warnweste/Stirnlampe, nie auf der Fahrbahn stehen. ★★",
+  "image": "images/idea_cq2_nanshan-serpentinen_1.jpg",
+  "image_page": "https://www.flickr.com/photos/borisss1982/8545466672/",
+  "image_credit": "borisss1982 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/borisss1982/8545466672/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/borisss1982/8545466672/",
+    "kind": "photo",
+    "image": "images/idea_cq2_nanshan-serpentinen_1.jpg",
+    "caption": "Ähnliches Motiv – Lichtspuren in Serpentinen",
+    "credit": "borisss1982 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/143721324@N03/52222615450/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/143721324@N03/52222615450/",
+    "kind": "photo",
+    "image": "images/idea_cq2_nanshan-serpentinen_2.jpg",
+    "caption": "",
+    "credit": "Jerry18969 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-panlong-knoten",
+  "region": "cn",
+  "idea": true,
+  "name": "Asphalt-Spaghetti: Huangjuewan-Knoten 黄桷湾立交",
+  "city": "Chongqing",
+  "district": "Huangjuewan, Nan’an",
+  "category": "Fotoidee",
+  "address": "Huangjuewan, Nan’an",
+  "lat": 29.556,
+  "lng": 106.611,
+  "approx": true,
+  "when": "night",
+  "note": "Der fünfstöckige Autobahnknoten mit 15 Rampen ist berühmt als „verrücktestes Kreuz der Welt“. Von einem Hang oberhalb werden die Rampen bei Nacht zu goldenen Bändern, die sich übereinander schlingen – die Verkehrsarchitektur als Skulptur. Das Bild, das die 8D-Stadt in Asphalt übersetzt.",
+  "tip": "Genauen Aussichtspunkt vorab in Amap/Baidu prüfen (Suchbegriff 黄桷湾立交 观景; beliebt sind Hangwege und Wohnanlagen oberhalb). Ab Blauer Stunde 18:35, 16–35 mm, f/11, 15–30 s, Stack aus 5–10 Bildern für volle Spuren. Gut kombinierbar mit Nanshan/Yikeshu am 27.10. Hinweis: Standort hier nur ungefähr verortet. ★★★",
+  "image": "images/idea_cq2_panlong-knoten_1.jpg",
+  "image_page": "https://www.flickr.com/photos/lightmeister/53662605743/",
+  "image_credit": "lightmeister · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/lightmeister/53662605743/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lightmeister/53662605743/",
+    "kind": "photo",
+    "image": "images/idea_cq2_panlong-knoten_1.jpg",
+    "caption": "",
+    "credit": "lightmeister · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/faunubes/9366964802/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/faunubes/9366964802/",
+    "kind": "photo",
+    "image": "images/idea_cq2_panlong-knoten_2.jpg",
+    "caption": "",
+    "credit": "Faunubes · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-longmenhao-miniatur",
+  "region": "cn",
+  "idea": true,
+  "name": "Miniaturwelt Longmenhao 龙门浩老街",
+  "city": "Chongqing",
+  "district": "Longmenhao, Nan’an",
+  "category": "Fotoidee",
+  "address": "Longmenhao, Nan’an",
+  "lat": 29.55882,
+  "lng": 106.59121,
+  "approx": false,
+  "when": "both",
+  "note": "Die Backsteinvillen und Kontore der alten Handelskais liegen am Hang unterhalb der modernen Türme. Von oben mit Tilt-Shift (oder Brenizer-Panorama mit offener Blende) wird das Viertel zur Modelleisenbahn-Landschaft – ein spielerischer Kontrast zur sonst übermächtigen Megastadt. Bei Nacht: alte Dächer im Lampenlicht vor der leuchtenden Skyline gegenüber.",
+  "tip": "Am 27.10. 19:15–20:15 (laut Plan) von der Aussichtsterrasse an der Nanbin Road hinab. Tilt-Shift-Objektiv oder Brenizer (85 mm f/1.8, 20–30 Bilder) für extreme Unschärfe; tagsüber kräftige Farbsättigung, nachts 2–4 s auf Stativ. Alternative: Smartphone-„Miniatur“-Modus als Skizze. ★★",
+  "image": "images/idea_cq2_longmenhao-miniatur_1.jpg",
+  "image_page": "https://www.flickr.com/photos/10877508@N04/55219367722/",
+  "image_credit": "Mike Turner-Jones 摄影 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/10877508@N04/55219367722/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/10877508@N04/55219367722/",
+    "kind": "photo",
+    "image": "images/idea_cq2_longmenhao-miniatur_1.jpg",
+    "caption": "",
+    "credit": "Mike Turner-Jones 摄影 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/197426283@N08/55529712561/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/197426283@N08/55529712561/",
+    "kind": "photo",
+    "image": "images/idea_cq2_longmenhao-miniatur_2.jpg",
+    "caption": "",
+    "credit": "zhenglaoshi · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-huguang-feuermauern",
+  "region": "cn",
+  "idea": true,
+  "name": "Gelbe Wellen: Feuermauern der Huguang-Gildehalle 湖广会馆",
+  "city": "Chongqing",
+  "district": "Huguang Guild Hall, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Huguang Guild Hall, Yuzhong",
+  "lat": 29.56052,
+  "lng": 106.58288,
+  "approx": false,
+  "when": "day",
+  "note": "Die geschwungenen gelben Feuerschutzmauern (封火墙) der Gildehallen bilden von oben ein Muster aus Wellen und dunklen Ziegelkanten – mit Tele isoliert ein abstraktes Bild. Und direkt dahinter ragt der weiße Pylon der Dongshuimen-Brücke auf: Qing-Dynastie trifft Schrägseilbrücke in einem Ausschnitt.",
+  "tip": "Am 27.10. 13:30–15:00 (laut Plan). Von den oberen Höfen und Treppen hinab auf die Dachlandschaft: 70–200 mm, f/8, enge Ausschnitte nur aus Mauerkronen. Für Alt/Neu: im unteren Hof 16–24 mm hochkant, Dachspitze + Pylon. Mittagslicht macht das Gelb satt; Polfilter für blauen Himmel. ★",
+  "image": "images/idea_cq2_huguang-feuermauern_1.jpg",
+  "image_page": "https://www.flickr.com/photos/chanmelmel/51529280226/",
+  "image_credit": "MelindaChan ^..^ · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/chanmelmel/51529280226/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chanmelmel/51529280226/",
+    "kind": "photo",
+    "image": "images/idea_cq2_huguang-feuermauern_1.jpg",
+    "caption": "",
+    "credit": "MelindaChan ^..^ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/chanmelmel/51535518344/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chanmelmel/51535518344/",
+    "kind": "photo",
+    "image": "images/idea_cq2_huguang-feuermauern_2.jpg",
+    "caption": "",
+    "credit": "MelindaChan ^..^ · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-luohan-rauch",
+  "region": "cn",
+  "idea": true,
+  "name": "Weihrauch vor Glasfassaden: Luohan-Tempel 罗汉寺",
+  "city": "Chongqing",
+  "district": "Luohan Temple, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Luohan Temple, Yuzhong",
+  "lat": 29.562566,
+  "lng": 106.577843,
+  "approx": false,
+  "when": "day",
+  "note": "Der tausend Jahre alte Tempel liegt eingekeilt zwischen Hochhäusern. Im Innenhof steigt der Rauch der Räucherstäbchen auf, Sonnenstrahlen fallen schräg durch – und über den geschwungenen Traufen spiegeln Glastürme. Gegenlicht im Rauch macht Strahlen sichtbar; der Kontrast Tempel/Turm erzählt Chongqing in einem Bild.",
+  "tip": "Vormittags (Sonne steht Ende Oktober tief im Südosten): Standpunkt im Hof so wählen, dass Sonne hinter dem Rauch steht. 24–70 mm, auf die Lichter belichten (−1 EV), 1/250 s. Für Alt/Neu: 16 mm senkrecht an der Traufe hoch zum Hochhaus. Gläubige nicht von vorne beim Beten fotografieren; in der Arhat-Halle Fotoverbot beachten. ★",
+  "image": "images/idea_cq2_luohan-rauch_1.jpg",
+  "image_page": "https://www.flickr.com/photos/fran001/53226850792/",
+  "image_credit": "Francisco Anzola · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/fran001/53226850792/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fran001/53226850792/",
+    "kind": "photo",
+    "image": "images/idea_cq2_luohan-rauch_1.jpg",
+    "caption": "",
+    "credit": "Francisco Anzola · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/jonathankosread/54636727015/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/jonathankosread/54636727015/",
+    "kind": "photo",
+    "image": "images/idea_cq2_luohan-rauch_2.jpg",
+    "caption": "",
+    "credit": "Jonathan Kos-Read · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-graffiti-angeln",
+  "region": "cn",
+  "idea": true,
+  "name": "Auf der Lauer: Mensch vor Graffiti-Wand 黄桷坪涂鸦街",
+  "city": "Chongqing",
+  "district": "Huangjueping, Jiulongpo",
+  "category": "Fotoidee",
+  "address": "Huangjueping, Jiulongpo",
+  "lat": 29.4989842,
+  "lng": 106.5329914,
+  "approx": true,
+  "when": "day",
+  "note": "Die Huangjueping-Straße ist auf Kilometern bemalt – ganze Wohnhochhäuser. Statt die Wand allein zu zeigen: einen starken Hintergrund wählen und warten („Fishing“), bis der richtige Passant hineinläuft – ein Opa mit Vogelkäfig vor einem Comic-Monster, ein Bangbang vor einer Pop-Art-Figur. Erst die Interaktion macht das Bild.",
+  "tip": "Vormittags 9–12 Uhr, wenn Anwohner unterwegs sind (Teehaus nebenan, siehe Jiaotong-Teehaus). 28–50 mm, Zonenfokus 3 m, f/8, 1/500 s, Serienbild. Mindestens 20 Minuten pro Wand einplanen. Die bemalten Wohnblöcke am Kunstakademie-Campus mit 16 mm von unten zeigen die Größe. ★★",
+  "image": "images/idea_cq2_graffiti-angeln_1.jpg",
+  "image_page": "https://www.flickr.com/photos/triplefivedrew/6613022935/",
+  "image_credit": "triplefivedrew · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/triplefivedrew/6613022935/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/triplefivedrew/6613022935/",
+    "kind": "photo",
+    "image": "images/idea_cq2_graffiti-angeln_1.jpg",
+    "caption": "",
+    "credit": "triplefivedrew · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/konrad_shek/7152706277/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/konrad_shek/7152706277/",
+    "kind": "photo",
+    "image": "images/idea_cq2_graffiti-angeln_2.jpg",
+    "caption": "",
+    "credit": "Konrad Shek · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-mahjong-tuer",
+  "region": "cn",
+  "idea": true,
+  "name": "Lichtkasten Mahjong: das Spiel hinter der Tür 麻将馆",
+  "city": "Chongqing",
+  "district": "Altwohnviertel (z. B. Huangjueping/Yuzhong)",
+  "category": "Fotoidee",
+  "address": "Altwohnviertel (z. B. Huangjueping/Yuzhong)",
+  "lat": 29.4985,
+  "lng": 106.532,
+  "approx": true,
+  "when": "night",
+  "note": "Abends leuchten in Chongqings Altvierteln kleine Mahjong-Stuben wie Bühnen in die dunkle Gasse: grünes Tuch, Neonröhre, vier Spieler im Unterhemd, Zigarettenrauch. Von der dunklen Straße aus fotografiert wird die Tür zum Bilderrahmen – Edward Hopper auf Sichuanesisch. Ergänzend: die Hände von oben, wenn die Steine gemischt werden.",
+  "tip": "Nach dem Abendessen 19–22 Uhr durch Altviertel schlendern (Huangjueping, Gassen um Shibati/Jiaochangkou, Nan’an-Hänge). 35 mm f/1.8, ISO 3200, auf die beleuchtete Tür belichten, Straße absaufen lassen. Für Nahaufnahmen der Hände: fragen, eine Runde zuschauen, gern Zigaretten/Getränk anbieten. Nie mitten ins Spiel blitzen. ★★",
+  "image": "images/idea_cq2_mahjong-tuer_1.jpg",
+  "image_page": "https://www.flickr.com/photos/76451136@N02/14636419293/",
+  "image_credit": "bpjmoreau · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/76451136@N02/14636419293/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/76451136@N02/14636419293/",
+    "kind": "photo",
+    "image": "images/idea_cq2_mahjong-tuer_1.jpg",
+    "caption": "",
+    "credit": "bpjmoreau · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/grace_ma/32690880886/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/grace_ma/32690880886/",
+    "kind": "photo",
+    "image": "images/idea_cq2_mahjong-tuer_2.jpg",
+    "caption": "",
+    "credit": "min.ma · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-xiaomian-dampf",
+  "region": "cn",
+  "idea": true,
+  "name": "Dampf im Morgenlicht: Xiaomian-Frühstück 重庆小面",
+  "city": "Chongqing",
+  "district": "Jiaochangkou / Shibati, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Jiaochangkou / Shibati, Yuzhong",
+  "lat": 29.556,
+  "lng": 106.57,
+  "approx": true,
+  "when": "day",
+  "note": "Chongqings Frühstück ist eine Schale scharfe Nudeln, gegessen auf Plastikhockern am Straßenrand. Wenn um 7–8 Uhr die tiefe Sonne in die Gasse fällt, leuchtet der Dampf aus den Nudelkesseln im Gegenlicht, der Koch schöpft mit langen Stäbchen – ein Alltagsritual voller Licht und Bewegung.",
+  "tip": "Am 28.10. zwischen Chaotianmen (bis 8:00) und Shibati (8:30): eine kleine Nudelküche mit offenem Kessel zur Straße suchen (Jiaochangkou/Zhongxing Road). Selbst eine Schale bestellen (ca. 10 Yuan), dann fotografieren. 35–50 mm, Gegenlicht, auf den Dampf belichten, 1/250 s. Dunkler Hintergrund hinter dem Dampf = maximale Wirkung. ★",
+  "image": "images/idea_cq2_xiaomian-dampf_1.jpg",
+  "image_page": "https://www.flickr.com/photos/mattweibo/24323986464/",
+  "image_credit": "Matt@CKG · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/mattweibo/24323986464/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/mattweibo/24323986464/",
+    "kind": "photo",
+    "image": "images/idea_cq2_xiaomian-dampf_1.jpg",
+    "caption": "",
+    "credit": "Matt@CKG · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/navjotsingh1/16279311656/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/navjotsingh1/16279311656/",
+    "kind": "photo",
+    "image": "images/idea_cq2_xiaomian-dampf_2.jpg",
+    "caption": "",
+    "credit": "British Journalist and Photographer · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-ciqikou-frueh",
+  "region": "cn",
+  "idea": true,
+  "name": "Ciqikou vor den Massen: nasse Gassen und Miniatur 磁器口",
+  "city": "Chongqing",
+  "district": "Ciqikou, Shapingba",
+  "category": "Fotoidee",
+  "address": "Ciqikou, Shapingba",
+  "lat": 29.58334,
+  "lng": 106.446649,
+  "approx": false,
+  "when": "day",
+  "note": "Ab 10 Uhr ist Ciqikou eine einzige Menschenmenge. Früh am Morgen (oder nach Regen) gehören die steinernen Gassen den Bewohnern: nasse Platten glänzen, Holzläden öffnen, Mahua-Bäcker drehen Teigzöpfe in Mehlstaub. Von der Uferböschung oberhalb wirkt das Ziegeldach-Gewirr am Jialing mit Tilt-Shift wie ein Modell.",
+  "tip": "Nicht im Plan – nur bei freiem Vormittag am 28.10. (vor Check-out 14:45) machbar: 7:30–9:30, Metro Linie 1 bis Ciqikou. 35 mm für Gassen, Fensterlicht in den Mahua-Backstuben (fragen, kurz kaufen). Von den Hangtreppen hinten (Baoshan-Tempelweg) 70–200 mm auf die Dachlandschaft. ★",
+  "image": "images/idea_cq2_ciqikou-frueh_1.jpg",
+  "image_page": "https://www.flickr.com/photos/stefan_janecka/26189899350/",
+  "image_credit": "cefan · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/stefan_janecka/26189899350/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/stefan_janecka/26189899350/",
+    "kind": "photo",
+    "image": "images/idea_cq2_ciqikou-frueh_1.jpg",
+    "caption": "",
+    "credit": "cefan · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/navona-pics/7622417952/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/navona-pics/7622417952/",
+    "kind": "photo",
+    "image": "images/idea_cq2_ciqikou-frueh_2.jpg",
+    "caption": "",
+    "credit": "Navona · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-doppelbelichtung",
+  "region": "cn",
+  "idea": true,
+  "name": "Doppelbelichtung: Gesicht eines Bangbang und seine Stadt 棒棒",
+  "city": "Chongqing",
+  "district": "Shibati / Jiaochangkou, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Shibati / Jiaochangkou, Yuzhong",
+  "lat": 29.55531,
+  "lng": 106.56964,
+  "approx": true,
+  "when": "day",
+  "note": "Die letzten Bangbang-Träger haben die Treppenstadt ein Leben lang auf ihren Schultern getragen. Eine In-Kamera-Doppelbelichtung legt ihr Profil (als Silhouette gegen hellen Himmel) über die steilen Häuserschluchten – die Stadt füllt das Gesicht. Ein Porträt, das Geschichte erzählt, statt nur einen Menschen zu zeigen.",
+  "tip": "Kamera-Mehrfachbelichtungsmodus (Überblendung „Aufhellen“): 1) Profil gegen bedeckten Himmel, 85 mm, +1 EV überbelichtet; 2) Häuserwand/Treppen mit 24–35 mm, normal. Vorher vertrauensvoll fragen, kleinen Tragauftrag geben (10–20 Yuan) und Ausdruck/Handyfoto zeigen. Morgens am 28.10. rund um Shibati/Jiaochangkou. ★★★",
+  "image": "images/idea_cq2_doppelbelichtung_1.jpg",
+  "image_page": "https://www.flickr.com/photos/wupeng/3107396900/",
+  "image_credit": "wu.peng · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/wupeng/3107396900/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/wupeng/3107396900/",
+    "kind": "photo",
+    "image": "images/idea_cq2_doppelbelichtung_1.jpg",
+    "caption": "",
+    "credit": "wu.peng · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/hikaru-vision/34438351714/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/hikaru-vision/34438351714/",
+    "kind": "photo",
+    "image": "images/idea_cq2_doppelbelichtung_2.jpg",
+    "caption": "Ähnliches Motiv – Doppelbelichtung Porträt + Stadt, Shanghai",
+    "credit": "Yinjia Pan · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-angler-dunst",
+  "region": "cn",
+  "idea": true,
+  "name": "Angler im Morgendunst vor der Skyline 嘉陵江边",
+  "city": "Chongqing",
+  "district": "Jiangbeizui-Ufer, Jiangbei",
+  "category": "Fotoidee",
+  "address": "Jiangbeizui-Ufer, Jiangbei",
+  "lat": 29.5705,
+  "lng": 106.58,
+  "approx": true,
+  "when": "day",
+  "note": "An beiden Flüssen stehen frühmorgens Angler mit meterlangen Ruten, oft schon vor Sonnenaufgang. Im Morgendunst wird daraus ein Tuschebild: dünne Rutenlinien, eine kleine Figur, dahinter die Wohntürme als blasse Kulissen. Ruhe, Maßstab und das Gegenbild zur hektischen Megastadt.",
+  "tip": "Am 28.10. 6:30–7:30 – vom Chaotianmen-Standpunkt mit 200–600 mm auf das gegenüberliegende Jiangbei-Ufer, oder am Jialing-Ufer unterhalb des Großen Theaters. Minimalistisch komponieren, viel Leerraum, auf Dunst belichten (+0,7 EV). Wasserstand Ende Oktober hoch – Angler stehen dann direkt auf den Uferstufen. ★",
+  "image": "images/idea_cq2_angler-dunst_1.jpg",
+  "image_page": "https://www.flickr.com/photos/oxfordblues84/38437235794/",
+  "image_credit": "oxfordblues84 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/oxfordblues84/38437235794/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/oxfordblues84/38437235794/",
+    "kind": "photo",
+    "image": "images/idea_cq2_angler-dunst_1.jpg",
+    "caption": "",
+    "credit": "oxfordblues84 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/wasgibtsdenn/10262547615/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/wasgibtsdenn/10262547615/",
+    "kind": "photo",
+    "image": "images/idea_cq2_angler-dunst_2.jpg",
+    "caption": "",
+    "credit": "水洗电须刨 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-gaotie-shapingba",
+  "region": "cn",
+  "idea": true,
+  "name": "Hochgeschwindigkeitszug unter der Shopping-Mall 沙坪坝站",
+  "city": "Chongqing",
+  "district": "Shapingba Station, Shapingba",
+  "category": "Fotoidee",
+  "address": "Shapingba Station, Shapingba",
+  "lat": 29.5568,
+  "lng": 106.45623,
+  "approx": false,
+  "when": "day",
+  "note": "Der Bahnhof Shapingba liegt komplett unter einem Hochhaus- und Einkaufskomplex: Weiße CRH-Züge gleiten aus dem Tunnel in eine marmorhelle Halle, darüber 200 m Stadt. Mit 1/15 s Mitzieher oder Langzeit auf dem Bahnsteig verschwimmen Reisende zu Schemen, der Zug bleibt Geometrie – das futuristische Chongqing unter Tage.",
+  "tip": "Bahnsteige nur mit gültiger Fahrkarte (z. B. günstigste Kurzstrecke Richtung Chengdu-Ost-Linie, Ausweis nötig) – Aufwand vorher abwägen. 24 mm, 1/8–1/15 s aus der Hand an eine Säule gelehnt, ISO 800. Personal sieht Stative ungern; gelbe Linie beachten. Nur bei freiem Halbtag. ★★",
+  "image": "images/idea_cq2_gaotie-shapingba_1.jpg",
+  "image_page": "https://www.flickr.com/photos/hitachi3_2c/43445042700/",
+  "image_credit": "Takk D. Martin · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/hitachi3_2c/43445042700/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/hitachi3_2c/43445042700/",
+    "kind": "photo",
+    "image": "images/idea_cq2_gaotie-shapingba_1.jpg",
+    "caption": "",
+    "credit": "Takk D. Martin · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/hitachi3_2c/44328214975/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/hitachi3_2c/44328214975/",
+    "kind": "photo",
+    "image": "images/idea_cq2_gaotie-shapingba_2.jpg",
+    "caption": "",
+    "credit": "Takk D. Martin · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-flussfahrt-icm",
+  "region": "cn",
+  "idea": true,
+  "name": "Skyline zerfließt: ICM auf der Nachtschifffahrt 两江游",
+  "city": "Chongqing",
+  "district": "Chaotianmen-Pier, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Chaotianmen-Pier, Yuzhong",
+  "lat": 29.569,
+  "lng": 106.5855,
+  "approx": true,
+  "when": "night",
+  "note": "Auf den Ausflugsbooten kann man nicht stillhalten – also die Bewegung nutzen: Mit 1/2–2 s und bewusstem horizontalem Mitschwenken werden Hongyadong, Raffles und die Brücken zu farbigen Lichtstreifen über schwarzem Wasser, wie Farbfelder eines Rothko. Kein Mensch hat dieses Bild auf seinem Handy.",
+  "tip": "Zwei-Flüsse-Fahrt ab Chaotianmen (ca. 1–1,5 h, Abfahrten ab ca. 19:00, Tickets am Pier/online). Platz an der Reling oben. 24–70 mm, f/16, ISO 64, ND 3 Stufen, 1–2 s, Kamera gleichmäßig waagerecht ziehen, Horizont halten. Zwischendurch scharfe Variante mit 1/60 s, ISO 6400 durch das Reling-Gitter als Rahmen. ★★",
+  "image": "images/idea_cq2_flussfahrt-icm_1.jpg",
+  "image_page": "https://www.flickr.com/photos/45909111@N00/27143267460/",
+  "image_credit": "Gwydion M. Williams · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/45909111@N00/27143267460/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/45909111@N00/27143267460/",
+    "kind": "photo",
+    "image": "images/idea_cq2_flussfahrt-icm_1.jpg",
+    "caption": "",
+    "credit": "Gwydion M. Williams · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/ozpaul/12987899653/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/ozpaul/12987899653/",
+    "kind": "photo",
+    "image": "images/idea_cq2_flussfahrt-icm_2.jpg",
+    "caption": "",
+    "credit": "ozipital · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-tag-nacht-blend",
+  "region": "cn",
+  "idea": true,
+  "name": "Tag-Nacht-Blend über Yuzhong vom Yikeshu 一棵树",
+  "city": "Chongqing",
+  "district": "Yikeshu Viewing Platform, Nanshan",
+  "category": "Fotoidee",
+  "address": "Yikeshu Viewing Platform, Nanshan",
+  "lat": 29.5479478,
+  "lng": 106.5988349,
+  "approx": false,
+  "when": "both",
+  "note": "Ein Bild, zwei Zeiten: links die Halbinsel im letzten Tageslicht mit Flussstruktur und Brücken, nach rechts fließend übergehend in dieselbe Stadt bei voller Beleuchtung. Anders als die Zeitscheibe mit weichem Verlauf – wie ein Augenblick, in dem die Stadt den Schalter umlegt.",
+  "tip": "Am 27.10. 17:15–19:00 (laut Plan): Stativ absolut fix (Platz früh sichern), 24–70 mm. Belichtungen 17:50 (Tageslicht, Sonnenuntergang 18:15 links außerhalb des Bildes im Westsüdwesten), 18:35 (Blau) und 19:00 (Nacht). In Photoshop mit großem Verlaufsmaske-Pinsel verbinden. Eintritt Yikeshu ca. 30 Yuan; Stative in der ersten Reihe sind begehrt. ★★",
+  "image": "images/idea_cq2_tag-nacht-blend_1.jpg",
+  "image_page": "https://www.flickr.com/photos/143721324@N03/52222612935/",
+  "image_credit": "Jerry18969 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/143721324@N03/52222612935/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/143721324@N03/52222612935/",
+    "kind": "photo",
+    "image": "images/idea_cq2_tag-nacht-blend_1.jpg",
+    "caption": "",
+    "credit": "Jerry18969 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/143721324@N03/52221119987/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/143721324@N03/52221119987/",
+    "kind": "photo",
+    "image": "images/idea_cq2_tag-nacht-blend_2.jpg",
+    "caption": "",
+    "credit": "Jerry18969 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-bruecken-stapel",
+  "region": "cn",
+  "idea": true,
+  "name": "Brücken-Stapel: Jialing-Querungen mit 400 mm 曾家岩大桥",
+  "city": "Chongqing",
+  "district": "Zengjiayan-Brücke, Yuzhong/Jiangbei",
+  "category": "Fotoidee",
+  "address": "Zengjiayan-Brücke, Yuzhong/Jiangbei",
+  "lat": 29.5712,
+  "lng": 106.5463,
+  "approx": true,
+  "when": "both",
+  "note": "Von der Zengjiayan-Brücke liegen flussabwärts Huanghuayuan- (1,6 km) und Qiansimen-Brücke (2,8 km) fast exakt hintereinander (Azimut 95–96°). Mit 400 mm werden sie zu Schichten übereinander gestapelter Fahrbahnen, Pfeiler und Bögen, dazwischen Uferstraßen und Hochhauskanten – Tele-Kompression als Essenz der Brückenstadt.",
+  "tip": "Blaue Stunde 18:35–19:00 (Brücken leuchten, Himmel noch blau) oder Morgen mit Dunst. 300–600 mm, Stativ auf dem Gehweg, f/8–11, Zeit je nach Licht. Am 28.10. geht die Sonne bei Az ~105° etwa 10° rechts der Achse auf (ca. 7:10) – mit 150–200 mm noch im Bild, bei klarer Luft eine Alternative zu Chaotianmen. Brücke vibriert: Spiegelvorauswahl, Serie. ★★",
+  "image": "images/idea_cq2_bruecken-stapel_1.jpg",
+  "image_page": "https://www.flickr.com/photos/sunfishandbluecrabs/5751067552/",
+  "image_credit": "G. Chen · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/sunfishandbluecrabs/5751067552/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/sunfishandbluecrabs/5751067552/",
+    "kind": "photo",
+    "image": "images/idea_cq2_bruecken-stapel_1.jpg",
+    "caption": "",
+    "credit": "G. Chen · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/hitachi3_2c/44535069045/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/hitachi3_2c/44535069045/",
+    "kind": "photo",
+    "image": "images/idea_cq2_bruecken-stapel_2.jpg",
+    "caption": "Monorail Linie 3 über dem Jialing (andere Brücke) – Motiv der Brückenstadt",
+    "credit": "Takk D. Martin · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-bogen-raffles",
+  "region": "cn",
+  "idea": true,
+  "name": "Kolonialbögen rahmen die Zukunft: Raffles von Danzishi 弹子石",
+  "city": "Chongqing",
+  "district": "Danzishi-Ufer, Nan’an",
+  "category": "Fotoidee",
+  "address": "Danzishi-Ufer, Nan’an",
+  "lat": 29.57497,
+  "lng": 106.58768,
+  "approx": true,
+  "when": "night",
+  "note": "Am Danzishi-Ufer gegenüber Chaotianmen stehen Backsteinbögen der alten Hafen- und Kolonialbauten. Durch einen Bogen gesehen, steht Raffles City leuchtend im Halbrund wie ein Raumschiff im Torbogen einer anderen Epoche – Rahmen im Rahmen mit 150 Jahren Abstand.",
+  "tip": "Standpunkt nach Flickr-Geotag ca. 29.5750/106.5877 (Danzishi-Altstadt am Ufer); die Bögen vor Ort suchen, auch die Veranda der Französischen Marinekaserne (法国水师兵营) weiter nördlich bietet Bögen. Blaue Stunde 18:35–19:00, 24–50 mm, f/8, Belichtungsreihe (dunkler Bogen + helle Stadt), Stativ. ★★",
+  "image": "images/idea_cq2_bogen-raffles_1.jpg",
+  "image_page": "https://www.flickr.com/photos/kevho86/52722734073/",
+  "image_credit": "kevinho86 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/kevho86/52722734073/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kevho86/52722734073/",
+    "kind": "photo",
+    "image": "images/idea_cq2_bogen-raffles_1.jpg",
+    "caption": "",
+    "credit": "kevinho86 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-laojundong",
+  "region": "cn",
+  "idea": true,
+  "name": "Taoistische Dächer über der Megastadt: Laojundong 老君洞",
+  "city": "Chongqing",
+  "district": "Laojundong, Nanshan",
+  "category": "Fotoidee",
+  "address": "Laojundong, Nanshan",
+  "lat": 29.544,
+  "lng": 106.606,
+  "approx": true,
+  "when": "day",
+  "note": "Der taoistische Tempel Laojundong klebt am Nanshan-Hang über dem Jangtse. Von seinen Terrassen sieht man die Skyline mit Dongshuimen-Brücke und Fluss – mit geschwungenen Tempeltraufen, Räucherrauch und roten Laternen als Vordergrund. Weniger überlaufen als Yikeshu, mit viel mehr Bildtiefe.",
+  "tip": "Am 27.10. vor Yikeshu (z. B. 16:00–17:00, weiches Spätnachmittagslicht von Westen auf die Tempelfassaden). 24–70 mm, Traufe oder Laterne als dunkler Rahmen, f/11 für Schärfentiefe. Eintritt wenige Yuan; ruhiges Verhalten in den Hallen, Innenräume nicht fotografieren, wenn ausgeschildert. ★",
+  "image": "images/idea_cq2_laojundong_1.jpg",
+  "image_page": "https://www.flickr.com/photos/mickmcd/54840218119/",
+  "image_credit": "mick mcd · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/mickmcd/54840218119/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/mickmcd/54840218119/",
+    "kind": "photo",
+    "image": "images/idea_cq2_laojundong_1.jpg",
+    "caption": "",
+    "credit": "mick mcd · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/mickmcd/54840228533/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/mickmcd/54840228533/",
+    "kind": "photo",
+    "image": "images/idea_cq2_laojundong_2.jpg",
+    "caption": "",
+    "credit": "mick mcd · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq2-liziba-nacht",
+  "region": "cn",
+  "idea": true,
+  "name": "Liziba bei Nacht: Lichtband durchs Wohnhaus 李子坝",
+  "city": "Chongqing",
+  "district": "Liziba, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Liziba, Yuzhong",
+  "lat": 29.55667,
+  "lng": 106.53441,
+  "approx": false,
+  "when": "night",
+  "note": "Tagsüber ist Liziba das Selfie-Motiv schlechthin. Nach Einbruch der Dunkelheit leeren sich die Plattformen, und mit 10–20 s Belichtung wird der beleuchtete Zug zu einem einzigen Lichtband, das aus der Wohnhausfassade herausschießt, während die Fenster darüber gelb leuchten – das Haus als Lichtmaschine.",
+  "tip": "Abend 26. oder 27.10. (z. B. nach Yikeshu, ca. 20:30; Linie 2 fährt bis ca. 22:30). Plattform an der Straße (李子坝观景平台), Stativ, 16–35 mm, f/8, ISO 100, 8–20 s; erst auslösen, wenn der Zug ins Haus einfährt (Ankündigung durch Geräusch). Zwei Belichtungen (Zug beide Richtungen) stacken. ★",
+  "image": "images/idea_cq2_liziba-nacht_1.jpg",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Train_going_through_resident_building_in_Liziba_Station,_Aug_14_2016.jpg",
+  "image_credit": "A Chinese ID · Wikimedia Commons (CC BY-SA 4.0)",
+  "posts": [
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Train_going_through_resident_building_in_Liziba_Station,_Aug_14_2016.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Train_going_through_resident_building_in_Liziba_Station,_Aug_14_2016.jpg",
+    "kind": "photo",
+    "image": "images/idea_cq2_liziba-nacht_1.jpg",
+    "caption": "Liziba bei Tag – nachts wird der Zug zum Lichtband",
+    "credit": "A Chinese ID · Wikimedia Commons (CC BY-SA 4.0)"
+   }
+  ]
  }
 ];
