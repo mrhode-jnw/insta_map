@@ -476,7 +476,16 @@
   #wkFilter button.on { background: var(--accent); color: #fff; }
   #wkBody { flex: 1; overflow-y: auto; padding: 8px 12px calc(env(safe-area-inset-bottom) + 90px); }
   #wkBody .wcard { border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; margin: 8px 0 14px; }
-  #wkBody .wcard h3 { margin: 0 0 2px; font-size: 17px; }
+  #wkBody .wcard { padding: 0 14px; margin: 0 0 10px; }
+  #wkBody .wcard[open] { padding-bottom: 12px; }
+  #wkBody .wsum { display: flex; gap: 12px; align-items: center; padding: 10px 0; cursor: pointer; list-style: none; }
+  #wkBody .wsum::-webkit-details-marker { display: none; }
+  #wkBody .wsum::after { content: "▾"; margin-left: auto; color: var(--muted); transition: transform .15s; }
+  #wkBody .wcard[open] > .wsum::after { transform: rotate(180deg); }
+  #wkBody .wsum img { flex: none; width: 56px; height: 56px; border-radius: 10px; object-fit: cover; }
+  #wkBody .wsum > span { min-width: 0; } #wkBody .wsum b { display: block; font-size: 15px; line-height: 1.3; }
+  #wkBody .wsum small { display: block; font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+  #wkBody .wsum em { flex: none; font-style: normal; font-size: 11px; font-weight: 700; color: #fff; background: #7c3aed; padding: 2px 7px; border-radius: 999px; }
   #wkBody .wmeta { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
   #wkBody .wintro { font-size: 14px; line-height: 1.45; margin: 0 0 10px; }
   #wkBody .wbtns { display: flex; gap: 8px; margin: 0 0 10px; }
@@ -2673,16 +2682,23 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#wkFilter").innerHTML = areas.length > 1 ? `<button data-wf="" class="${wkF ? "" : "on"}">Alle</button>` + areas.map(a => `<button data-wf="${esc(a)}" class="${wkF === a ? "on" : ""}">${esc(a)}</button>`).join("") : "";
     const list = WALKS.filter(w => !wkF || w.area === wkF);
     $("#wkSub").textContent = `${list.length} ${list.length === 1 ? "Rundgang" : "Rundgänge"}`;
-    $("#wkBody").innerHTML = list.map(w => `<div class="wcard">
-      <h3>${esc(w.title)}</h3>
-      <div class="wmeta">${esc([w.area, w.when, w.duration, w.km ? `${String(w.km).replace(".", ",")} km` : "", `${w.stops.length} Stationen`].filter(Boolean).join(" · "))}</div>
+    let wkOpen = ""; try { wkOpen = localStorage.getItem("wkOpen") || ""; } catch {}
+    const thumb = w => (w.stops.find(st => (st.images || []).length) || {}).images;
+    $("#wkBody").innerHTML = list.map(w => `<details class="wcard" data-wid="${esc(w.id)}"${wkOpen === w.id ? " open" : ""}>
+      <summary class="wsum">${thumb(w) ? `<img src="${esc(thumb(w)[0].image)}" alt="" loading="lazy">` : ""}<span><b>${esc(w.title)}</b>
+        <small>${esc([w.when, w.km ? `${String(w.km).replace(".", ",")} km` : "", `${w.stops.length} Stationen`].filter(Boolean).join(" · "))}</small></span>${walkShown === w.id ? `<em>auf Karte</em>` : ""}</summary>
+      <div class="wmeta">${esc([w.area, w.duration].filter(Boolean).join(" · "))}</div>
       ${w.intro ? `<p class="wintro">${esc(w.intro)}</p>` : ""}
       ${w.stops.filter(st => st.approx).length > w.stops.length / 2 ? `<div class="wmeta" style="color:#92400e">Das Dorf ist auf keiner Karte erfasst – Stationen nach Satellitenbild und Dorfbeschreibungen gesetzt, vor Ort können sie 50–150 m abweichen. Gestrichelt = Luftlinie.</div>` : ""}
       <div class="wbtns"><button data-wshow="${esc(w.id)}">Auf der Karte zeigen</button>${walkShown === w.id ? `<button class="sec" data-whide="1">Ausblenden</button>` : ""}</div>
       ${(w.tips || []).length ? `<details><summary>Tipps</summary><ul class="wtips">${w.tips.map(t => `<li>${esc(t)}</li>`).join("")}</ul></details>` : ""}
       <details open><summary>Stationen</summary><ol class="wstops">${w.stops.map((st, i) => `<li><button data-wstop="${esc(w.id)}" data-i="${i}">Karte</button><b>${esc(st.name)}</b><span class="cn">${esc(st.name_cn || "")}</span>${st.approx && w.stops.filter(x => x.approx).length <= w.stops.length / 2 ? `<span class="ap">Position ungefähr</span>` : ""}${(st.images || []).length ? `<div class="wth">${st.images.slice(0, 4).map(x => `<img src="${esc(x.image)}" alt="" loading="lazy">`).join("")}</div>` : "<br>"}${esc(st.text || "")}</li>`).join("")}</ol></details>
       ${(w.sources || []).length ? `<div class="wsrc">Quellen: ${w.sources.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 40))}</a>`).join(" · ")}</div>` : ""}
-    </div>`).join("") || `<p style="color:var(--muted);padding:12px">Noch keine Rundgänge.</p>`;
+    </details>`).join("") || `<p style="color:var(--muted);padding:12px">Noch keine Rundgänge.</p>`;
+    // nur einer offen (Liste zum Aufklappen); geöffneter bleibt gemerkt
+    $("#wkBody").querySelectorAll("details.wcard").forEach(d => d.addEventListener("toggle", () => {
+      if (d.open) { $("#wkBody").querySelectorAll("details.wcard[open]").forEach(o => { if (o !== d) o.open = false; }); d.scrollIntoView({ block: "start", behavior: "smooth" }); }
+      try { const o = $("#wkBody").querySelector("details.wcard[open]"); o ? localStorage.setItem("wkOpen", o.dataset.wid) : localStorage.removeItem("wkOpen"); } catch {} }));
     $("#wkBody").querySelectorAll("[data-wshow]").forEach(b => b.onclick = () => showWalk(b.dataset.wshow));
     $("#wkBody").querySelectorAll("[data-whide]").forEach(b => b.onclick = () => { hideWalk(); renderWalks(); });
     $("#wkBody").querySelectorAll("[data-wstop]").forEach(b => b.onclick = () => showWalk(b.dataset.wstop, +b.dataset.i));
@@ -3115,7 +3131,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "92 · Auswahl bleibt gespeichert";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "93 · Rundgänge als Liste zum Aufklappen";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
