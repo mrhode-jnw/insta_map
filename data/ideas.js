@@ -2396,5 +2396,749 @@ window.IDEAS = [
     "credit": "Vera & Jean-Christophe · Flickr"
    }
   ]
+ },
+ {
+  "id": "idea-sh-metro",
+  "region": "cn",
+  "idea": true,
+  "name": "Rushhour-Strom in der Metro 人民广场换乘",
+  "city": "Shanghai",
+  "district": "Huangpu, Shanghai",
+  "category": "Fotoidee",
+  "address": "Huangpu, Shanghai",
+  "lat": 31.23389,
+  "lng": 121.47099,
+  "approx": false,
+  "when": "day",
+  "note": "People's Square ist der größte Umsteigeknoten der Stadt (Linien 1, 2 und 8): Im Berufsverkehr ergießen sich Menschenmassen über Rolltreppen und durch endlose Verbindungsgänge. Mit Langzeitbelichtung wird die Menge zum farbigen Strom, während ein einzelner stillstehender Mensch scharf bleibt – das klassische „Fels in der Brandung“-Motiv.",
+  "tip": "Do 29.10. oder Fr 30.10., 8:00–9:15 bzw. 17:30–19:00. Am Kopf der langen Rolltreppen zwischen Linie 1 und 2 an eine Säule oder ein Geländer lehnen (Stative sind in der Metro unerwünscht – Mini-Stativ/Bohnensack am Geländer, Bildstabi): 1/4–1 s, f/8, ISO 100–200, ND hilft. Nicht im Strom stehen bleiben, Sicherheitspersonal duldet Fotos meist, aber keine Aufbauten an Sperren.",
+  "image": "images/idea_sh2_metro_1.jpg",
+  "image_page": "https://www.flickr.com/photos/ruudvandenberg/4666603647/",
+  "image_credit": "Ruud van den Berg · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/ruudvandenberg/4666603647/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/ruudvandenberg/4666603647/",
+    "kind": "photo",
+    "image": "images/idea_sh2_metro_1.jpg",
+    "caption": "",
+    "credit": "Ruud van den Berg · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/iloveboeing/13438969515/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/iloveboeing/13438969515/",
+    "kind": "photo",
+    "image": "images/idea_sh2_metro_2.jpg",
+    "caption": "",
+    "credit": "Chiu Ho-yang · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/mlq4296/3123779413/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/mlq4296/3123779413/",
+    "kind": "photo",
+    "image": "images/idea_sh2_metro_3.jpg",
+    "caption": "",
+    "credit": "mlq4296 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-glas",
+  "region": "cn",
+  "idea": true,
+  "name": "Spiegel-Abstraktion in Lujiazui 陆家嘴玻璃幕墙",
+  "city": "Shanghai",
+  "district": "Pudong, Shanghai",
+  "category": "Fotoidee",
+  "address": "Pudong, Shanghai",
+  "lat": 31.2389,
+  "lng": 121.499,
+  "approx": true,
+  "when": "day",
+  "note": "Statt der bekannten Skyline das Spiegelbild: Die Glasfassaden rund um den Lujiazui-Ring brechen Perlenturm, Jin Mao und Wolken in verzerrte, kubistische Fragmente. Mit langer Brennweite entstehen abstrakte Bilder aus Rastern, Kurven und gespiegelten Türmen, die man auf keiner Postkarte findet.",
+  "tip": "Vom Lujiazui-Ringsteg (陆家嘴环形天桥) und den Wegen entlang Yincheng Middle Road die gegenüberliegenden Glastürme mit 70–200 mm abtasten; Polfilter dosiert drehen, um Spiegelungen zu verstärken statt zu löschen. Am besten 15–17 Uhr, wenn tiefe Sonne die Westfassaden trifft und andere Türme beleuchtet. Auch Pfützen nach Regen und spiegelnde Bushaltestellen-Scheiben ausprobieren.",
+  "image": "images/idea_sh2_glas_1.jpg",
+  "image_page": "https://www.flickr.com/photos/yan_fu/15879296693/",
+  "image_credit": "Yan Fu · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/yan_fu/15879296693/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/yan_fu/15879296693/",
+    "kind": "photo",
+    "image": "images/idea_sh2_glas_1.jpg",
+    "caption": "",
+    "credit": "Yan Fu · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/deus77/5414461814/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/deus77/5414461814/",
+    "kind": "photo",
+    "image": "images/idea_sh2_glas_2.jpg",
+    "caption": "",
+    "credit": "Nando Pizzini · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-yuyuan",
+  "region": "cn",
+  "idea": true,
+  "name": "Zickzack-Brücke & Basar bei Nacht 豫园九曲桥",
+  "city": "Shanghai",
+  "district": "Huangpu, Shanghai",
+  "category": "Fotoidee",
+  "address": "Huangpu, Shanghai",
+  "lat": 31.22871,
+  "lng": 121.4874,
+  "approx": false,
+  "when": "night",
+  "note": "Das Teehaus Huxinting und die neunfach geknickte Brücke liegen außerhalb des eigentlichen Gartens und sind abends angestrahlt; rundherum leuchten die geschwungenen Dächer des Yuyuan-Basars. Mit Langzeitbelichtung werden die dichten Besucherströme auf der Brücke zu geisterhaften Schlieren, während Architektur und Spiegelung im Teich scharf bleiben.",
+  "tip": "Blaue Stunde ab ca. 17:20 bis gegen 21 Uhr (Basar-Beleuchtung endet meist 21–22 Uhr). Vom Teichufer westlich der Brücke mit 16–35 mm, f/8–11, 2–8 s – Stative sind im Gedränge nur am Rand möglich, sonst Mini-Stativ auf Geländer. Am Wochenende (Sa 31.10.) besonders voll – gut für Bewegungsunschärfe, schlecht für Stative; unter der Woche entspannter.",
+  "image": "images/idea_sh2_yuyuan_1.jpg",
+  "image_page": "https://www.flickr.com/photos/kongxinzhu/10373568565/",
+  "image_credit": "Lijuan  Guo · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/kongxinzhu/10373568565/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kongxinzhu/10373568565/",
+    "kind": "photo",
+    "image": "images/idea_sh2_yuyuan_1.jpg",
+    "caption": "",
+    "credit": "Lijuan  Guo · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/alieh/2376169609/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/alieh/2376169609/",
+    "kind": "photo",
+    "image": "images/idea_sh2_yuyuan_2.jpg",
+    "caption": "",
+    "credit": "Alieh Saadatpour · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-jinmao",
+  "region": "cn",
+  "idea": true,
+  "name": "Goldener Strudel im Jin-Mao-Atrium 金茂大厦中庭",
+  "city": "Shanghai",
+  "district": "Pudong, Shanghai",
+  "category": "Fotoidee",
+  "address": "Pudong, Shanghai",
+  "lat": 31.23725,
+  "lng": 121.50142,
+  "approx": false,
+  "when": "both",
+  "note": "Im Jin Mao Tower öffnet sich über dem Hotel-Foyer ein über 30 Etagen hohes, ringförmiges Atrium. Von oben fotografiert wird es zu einem hypnotischen, goldenen Tunnel – eines der stärksten Architektur-Abstraktionen Chinas, und mit dem Ultraweitwinkel fast surreal.",
+  "tip": "Die Aussichtsplattform im 88. Stock (Eingang im Sockelbau, ca. 9–21:30 Uhr) erlaubt den Blick hinab ins Atrium; alternativ ein Drink im Cloud 9 (87. Stock) oder als Hotelgast. 14–16 mm, Kamera mittig über dem Schacht auf das Glas legen (Gegenlichtblende aus Gummi gegen Spiegelungen), f/5,6, ISO 800–1600. Abends ist das Gold am wärmsten.",
+  "image": "images/idea_sh2_jinmao_1.jpg",
+  "image_page": "https://www.flickr.com/photos/joergrockenberger/20851424963/",
+  "image_credit": "Joerg Rockenberger · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/joergrockenberger/20851424963/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/joergrockenberger/20851424963/",
+    "kind": "photo",
+    "image": "images/idea_sh2_jinmao_1.jpg",
+    "caption": "",
+    "credit": "Joerg Rockenberger · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/47412998@N08/6825708866/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/47412998@N08/6825708866/",
+    "kind": "photo",
+    "image": "images/idea_sh2_jinmao_2.jpg",
+    "caption": "",
+    "credit": "Sophie et Fred · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-lilong",
+  "region": "cn",
+  "idea": true,
+  "name": "Straßenfriseur & Mahjong im Lilong 弄堂生活",
+  "city": "Shanghai",
+  "district": "Xuhui, Shanghai",
+  "category": "Fotoidee",
+  "address": "Xuhui, Shanghai",
+  "lat": 31.215,
+  "lng": 121.4535,
+  "approx": true,
+  "when": "day",
+  "note": "In den Hinterhöfen der alten Lilong-Gassen wird das Leben nach draußen verlegt: Der Friseur schneidet auf einem Klappstuhl, Nachbarn klappern beim Mahjong, Pyjama-Rentner kommentieren. Die Szene um die Gasse 1252 an der Fuxing Middle Road ist dokumentiert – ähnliche Momente gibt es in vielen Lanes der früheren Konzession.",
+  "tip": "Vormittags 9–11 Uhr oder später Nachmittag, in den Seitengassen zwischen Fuxing Middle Rd. und Huaihai Rd. umherstreifen. Diskret mit 28–35 mm oder 50 mm, f/4–5,6; vor Porträts kurz lächelnd fragen („可以拍吗？“) – Mahjong-Runden mögen keine Nahaufnahmen von Geld. Kein Blitz, nicht in private Höfe hineingehen.",
+  "image": "images/idea_sh2_lilong_1.jpg",
+  "image_page": "https://www.flickr.com/photos/runenliu/53749958885/",
+  "image_credit": "Ρούνες Λιου · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/runenliu/53749958885/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/runenliu/53749958885/",
+    "kind": "photo",
+    "image": "images/idea_sh2_lilong_1.jpg",
+    "caption": "",
+    "credit": "Ρούνες Λιου · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/longbowive/8002117857/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/longbowive/8002117857/",
+    "kind": "photo",
+    "image": "images/idea_sh2_lilong_2.jpg",
+    "caption": "Straßenfriseur in einer anderen Shanghaier Gasse (Old Taiping Lane)",
+    "credit": "希佳 曹 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-markt",
+  "region": "cn",
+  "idea": true,
+  "name": "Morgens im Nassmarkt 乌中市集",
+  "city": "Shanghai",
+  "district": "Xuhui, Shanghai",
+  "category": "Fotoidee",
+  "address": "Xuhui, Shanghai",
+  "lat": 31.215,
+  "lng": 121.4408,
+  "approx": true,
+  "when": "day",
+  "note": "Shanghais Nassmärkte sind die ehrlichste Bühne der Stadt: Fischbecken, zappelnde Krebse, Berge von Grün und das Feilschen der Großmütter um sieben Uhr früh. Der Wuzhong-Markt (乌鲁木齐中路318号) wurde 2019 im Retro-Look umgestaltet und kombiniert Designer-Optik mit echtem Markttreiben.",
+  "tip": "Do 29.10. oder Fr 30.10., 6:30–8:30 Uhr – danach wird es leer. 23–35 mm, Offenblende f/2–2,8 für die Tiefe in den Gängen, ISO 1600 unter Neonröhren; Weißabgleich manuell. Händler vorher grüßen, kurz etwas kaufen öffnet Türen; nasser Boden – Schuhe beachten.",
+  "image": "images/idea_sh2_markt_1.jpg",
+  "image_page": "https://www.flickr.com/photos/lushdesigncreative/8318862650/",
+  "image_credit": "whiz-ka · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/lushdesigncreative/8318862650/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lushdesigncreative/8318862650/",
+    "kind": "photo",
+    "image": "images/idea_sh2_markt_1.jpg",
+    "caption": "Ähnliches Motiv – anderer Nassmarkt in Shanghai",
+    "credit": "whiz-ka · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/pfesta/55282564228/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/pfesta/55282564228/",
+    "kind": "photo",
+    "image": "images/idea_sh2_markt_2.jpg",
+    "caption": "Ähnliches Motiv – Fischmarkt in Guangzhou",
+    "credit": "Paul Festa · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-kontrast",
+  "region": "cn",
+  "idea": true,
+  "name": "Altstadt vs. Wolkenkratzer 老城厢",
+  "city": "Shanghai",
+  "district": "Huangpu, Shanghai",
+  "category": "Fotoidee",
+  "address": "Huangpu, Shanghai",
+  "lat": 31.21949,
+  "lng": 121.49173,
+  "approx": true,
+  "when": "day",
+  "note": "In der Laochengxiang-Altstadt zwischen Yuyuan und Dongjiadu stehen die letzten Shikumen- und Holzhäuser zwischen Abrissflächen, während dahinter Wohntürme und Lujiazui aufragen. Dieses Bild von „Shanghai im Umbruch“ wird jedes Jahr seltener – noch kann man es fotografieren.",
+  "tip": "Rund um Qiaojia Road (乔家路), Mengzi Road und Fuxing East Road nach Lücken suchen, durch die Hochhäuser hinter alten Dächern auftauchen; 70–200 mm verdichtet die Ebenen. Gutes Licht 15–17 Uhr. Baustellen nicht betreten, Bewohner respektieren; Absperrungen und Sicherheitsleute können Fotografieren untersagen.",
+  "image": "images/idea_sh2_kontrast_1.jpg",
+  "image_page": "https://www.flickr.com/photos/cnmark/5283154994/",
+  "image_credit": "Markus Bahlmann · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/cnmark/5283154994/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/5283154994/",
+    "kind": "photo",
+    "image": "images/idea_sh2_kontrast_1.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/forestgan/4130912730/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/forestgan/4130912730/",
+    "kind": "photo",
+    "image": "images/idea_sh2_kontrast_2.jpg",
+    "caption": "",
+    "credit": "forest gan · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/zinka/8056719327/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/zinka/8056719327/",
+    "kind": "photo",
+    "image": "images/idea_sh2_kontrast_3.jpg",
+    "caption": "",
+    "credit": "avezink · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-suzhouhe",
+  "region": "cn",
+  "idea": true,
+  "name": "Brücken-Silhouetten am Suzhou Creek 苏州河夜桥",
+  "city": "Shanghai",
+  "district": "Huangpu / Jing'an, Shanghai",
+  "category": "Fotoidee",
+  "address": "Huangpu / Jing'an, Shanghai",
+  "lat": 31.24334,
+  "lng": 121.47201,
+  "approx": false,
+  "when": "night",
+  "note": "Der Suzhou Creek wird abends von einer Reihe beleuchteter Stahl- und Bogenbrücken überspannt – Zhejiang Road Bridge, Sichuan Road Bridge, Wuzhen Road Bridge. Spiegelungen auf dem ruhigen Wasser und Lichtspuren des Verkehrs durch die Fachwerkbögen ergeben grafische Nachtbilder abseits des Bund-Gedränges.",
+  "tip": "Am Uferweg zwischen Zhejiang Road und Sichuan Road Bridge: Blaue Stunde ca. 17:15–17:50, Stativ, 24–70 mm, f/8–11, 5–20 s. Für Lichtspuren auf der Zhejiang Road Bridge selbst am Gehweg stehen, Fokus auf die Fachwerkstruktur. Beleuchtung meist bis 22 Uhr; Do/Fr-Abend ist ruhiger als Samstag.",
+  "image": "images/idea_sh2_suzhouhe_1.jpg",
+  "image_page": "https://www.flickr.com/photos/cnmark/14235022556/",
+  "image_credit": "Markus Bahlmann · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/cnmark/14235022556/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/14235022556/",
+    "kind": "photo",
+    "image": "images/idea_sh2_suzhouhe_1.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/cnmark/5448198064/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/5448198064/",
+    "kind": "photo",
+    "image": "images/idea_sh2_suzhouhe_2.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/cnmark/5246681216/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cnmark/5246681216/",
+    "kind": "photo",
+    "image": "images/idea_sh2_suzhouhe_3.jpg",
+    "caption": "",
+    "credit": "Markus Bahlmann · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-halloween",
+  "region": "cn",
+  "idea": true,
+  "name": "Halloween-Nacht auf der Julu Road 巨鹿路万圣节",
+  "city": "Shanghai",
+  "district": "Jing'an / Huangpu, Shanghai",
+  "category": "Fotoidee",
+  "address": "Jing'an / Huangpu, Shanghai",
+  "lat": 31.2224,
+  "lng": 121.4465,
+  "approx": true,
+  "when": "night",
+  "note": "2023 verwandelte sich die Julu Road am Halloween-Abend in eine spontane Kostüm-Parade mit Tausenden Verkleideten – vieles davon mit politischen Untertönen. 2024 sperrte die Polizei das Viertel, Cosplay wurde untersagt und Kostümierte abgeführt. Sa 31.10. ist also ein ungewisses, aber womöglich einmaliges Zeitdokument zwischen Fest und Kontrolle.",
+  "tip": "Sa 31.10. ab ca. 19 Uhr zuerst aus der Distanz schauen, was erlaubt ist (Julu Rd. zwischen Shaanxi South Rd. und Fumin Rd.; Ausweichen nach Xintiandi, wo Bars Halloween-Partys drinnen veranstalten). Kleine Kamera, 35 mm, f/1,8, ISO 3200; keine Polizei und keine Kontrollen fotografieren, keine Konfrontation, Pass dabei haben. Selbst nicht kostümiert gehen.",
+  "image": "images/idea_sh2_halloween_1.jpg",
+  "image_page": "https://www.nbcnews.com/news/world/shanghai-puts-stop-spooky-season-rcna177545",
+  "image_credit": "NBC News",
+  "posts": [
+   {
+    "url": "https://www.nbcnews.com/news/world/shanghai-puts-stop-spooky-season-rcna177545",
+    "username": "",
+    "profile_url": "https://www.nbcnews.com/news/world/shanghai-puts-stop-spooky-season-rcna177545",
+    "kind": "photo",
+    "image": "images/idea_sh2_halloween_1.jpg",
+    "caption": "Halloween 2024 in Shanghai",
+    "credit": "NBC News"
+   },
+   {
+    "url": "https://www.flickr.com/photos/charhyz/4068090202/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/charhyz/4068090202/",
+    "kind": "photo",
+    "image": "images/idea_sh2_halloween_2.jpg",
+    "caption": "Halloween in Xintiandi (2009)",
+    "credit": "rhyz cusile · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-longmuseum",
+  "region": "cn",
+  "idea": true,
+  "name": "Betonbögen im Long Museum 龙美术馆西岸馆",
+  "city": "Shanghai",
+  "district": "Xuhui, Shanghai",
+  "category": "Fotoidee",
+  "address": "Xuhui, Shanghai",
+  "lat": 31.18592,
+  "lng": 121.46019,
+  "approx": false,
+  "when": "day",
+  "note": "Atelier Deshaus hat neben einem alten Kohle-Verladekai ein Museum aus freistehenden, regenschirmartigen Sichtbeton-Gewölben gebaut. Die Bögen erzeugen außen wie innen grafische Licht-Schatten-Spiele – ein Paradies für minimalistische Architektur- und Silhouettenbilder mit einer einzelnen Person.",
+  "tip": "Außenanlage frei zugänglich, Museum Di–So ca. 10–18 Uhr (Mo zu). Nachmittags 14–16:30 Uhr streift tiefes Licht die Gewölbe; 16–35 mm für die Bögen, 50–85 mm für Schattenfiguren. Kombinierbar mit West-Bund-Uferweg und Kohletrichter (煤漏斗) – Fr 30.10. bietet sich an.",
+  "image": "images/idea_sh2_longmuseum_1.jpg",
+  "image_page": "https://www.flickr.com/photos/kimyeesan/15559303584/",
+  "image_credit": "Yee Kim · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/kimyeesan/15559303584/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kimyeesan/15559303584/",
+    "kind": "photo",
+    "image": "images/idea_sh2_longmuseum_1.jpg",
+    "caption": "",
+    "credit": "Yee Kim · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/soujo/14123966197/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/soujo/14123966197/",
+    "kind": "photo",
+    "image": "images/idea_sh2_longmuseum_2.jpg",
+    "caption": "",
+    "credit": "soujo · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/ding_jia_ming/34625985336/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/ding_jia_ming/34625985336/",
+    "kind": "photo",
+    "image": "images/idea_sh2_longmuseum_3.jpg",
+    "caption": "",
+    "credit": "hdqbei · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-tausendbaeume",
+  "region": "cn",
+  "idea": true,
+  "name": "Hängende Gärten von 1000 Trees 天安千树",
+  "city": "Shanghai",
+  "district": "Putuo, Shanghai",
+  "category": "Fotoidee",
+  "address": "Putuo, Shanghai",
+  "lat": 31.25087,
+  "lng": 121.44089,
+  "approx": false,
+  "when": "both",
+  "note": "Thomas Heatherwicks „1000 Trees“ am Suzhou Creek sieht aus wie ein bewaldeter Berg: Hunderte Betonsäulen tragen Pflanzkübel mit Bäumen über terrassierten Fassaden. Von unten fotografiert entsteht ein Wald aus Säulen, von der gegenüberliegenden Creek-Seite eine babylonische Silhouette über dem Wasser.",
+  "tip": "Für die Gesamtansicht von der Fußgängerbrücke bzw. dem Südufer des Suzhou Creek (Nähe M50) mit 24–35 mm, abends zur Blauen Stunde, wenn die Säulen beleuchtet sind (ca. 17:20–18:00). Tagsüber auf den Terrassen mit 14–20 mm steil nach oben. Mall ca. 10–22 Uhr geöffnet; leicht mit M50-Kunstviertel kombinieren.",
+  "image": "images/idea_sh2_tausendbaeume_1.jpg",
+  "image_page": "https://www.flickr.com/photos/herrera/53241940516/",
+  "image_credit": "fernando herrera · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/herrera/53241940516/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/herrera/53241940516/",
+    "kind": "photo",
+    "image": "images/idea_sh2_tausendbaeume_1.jpg",
+    "caption": "",
+    "credit": "fernando herrera · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/cranjam/54979469994/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cranjam/54979469994/",
+    "kind": "photo",
+    "image": "images/idea_sh2_tausendbaeume_2.jpg",
+    "caption": "",
+    "credit": "Luca Rosean · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/herrera/53242234453/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/herrera/53242234453/",
+    "kind": "photo",
+    "image": "images/idea_sh2_tausendbaeume_3.jpg",
+    "caption": "",
+    "credit": "fernando herrera · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-zhujiajiao",
+  "region": "cn",
+  "idea": true,
+  "name": "Boote in der Dämmerung von Zhujiajiao 朱家角放生桥",
+  "city": "Shanghai",
+  "district": "Qingpu, Shanghai",
+  "category": "Fotoidee",
+  "address": "Qingpu, Shanghai",
+  "lat": 31.11358,
+  "lng": 121.05145,
+  "approx": false,
+  "when": "night",
+  "note": "Die Wasserstadt Zhujiajiao ist tagsüber voller Reisegruppen – zur Dämmerung leert sie sich, Laternen gehen an und die letzten Ruderboote gleiten unter der fünfbogigen Fangsheng-Brücke hindurch. Mit Langzeitbelichtung werden die Boote zu Lichtbändern im Kanal.",
+  "tip": "Mit Metro-Linie 17 ca. 1 h ab Innenstadt; gegen 16 Uhr ankommen, Blaue Stunde ca. 17:15–17:50 an der Fangsheng-Brücke oder vom Kanalufer an der North Street. Stativ, 24–70 mm, f/8, 4–30 s; ND für Wasser-Glättung schon vor Sonnenuntergang. Boote fahren meist bis ca. 17:30–18 Uhr – Fr 30.10. statt Wochenende.",
+  "image": "images/idea_sh2_zhujiajiao_1.jpg",
+  "image_page": "https://www.flickr.com/photos/arndalarm/11293175795/",
+  "image_credit": "Arnd Dewald · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/arndalarm/11293175795/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/arndalarm/11293175795/",
+    "kind": "photo",
+    "image": "images/idea_sh2_zhujiajiao_1.jpg",
+    "caption": "",
+    "credit": "Arnd Dewald · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/marcosrow/54586411886/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/marcosrow/54586411886/",
+    "kind": "photo",
+    "image": "images/idea_sh2_zhujiajiao_2.jpg",
+    "caption": "",
+    "credit": "marcosrow · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/eyecatcher/2277147160/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/eyecatcher/2277147160/",
+    "kind": "photo",
+    "image": "images/idea_sh2_zhujiajiao_3.jpg",
+    "caption": "",
+    "credit": "Simon Wong · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-dishu",
+  "region": "cn",
+  "idea": true,
+  "name": "Kalligrafie mit Wasser im Park 襄阳公园地书",
+  "city": "Shanghai",
+  "district": "Xuhui, Shanghai",
+  "category": "Fotoidee",
+  "address": "Xuhui, Shanghai",
+  "lat": 31.21906,
+  "lng": 121.45209,
+  "approx": true,
+  "when": "day",
+  "note": "Ältere Herren schreiben mit meterlangen Schwammpinseln und Wasser Gedichte auf die Gehwegplatten – Zeichen, die nach wenigen Minuten verdunsten. Im kleinen Xiangyang-Park an der Huaihai Road ist das „Dishu“ (地书) dokumentiert; ein poetisches Motiv über Vergänglichkeit.",
+  "tip": "Früh morgens 6:30–8:30 Uhr, am besten Do 29.10. oder Fr 30.10. Tiefe Gegenlichtsonne lässt die nassen Zeichen glänzen – flach mit 24–35 mm über die Schrift fotografieren, den Schreibenden als Silhouette dahinter. Zuschauen und fragen, was er schreibt; oft dürfen Besucher selbst einen Strich probieren. Gibt es dort keinen Schreiber, sind Fuxing-Park oder Lu-Xun-Park Alternativen.",
+  "image": "images/idea_sh2_dishu_1.jpg",
+  "image_page": "https://www.flickr.com/photos/pcollingridge/260884286/",
+  "image_credit": "Peter Collingridge · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/pcollingridge/260884286/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/pcollingridge/260884286/",
+    "kind": "photo",
+    "image": "images/idea_sh2_dishu_1.jpg",
+    "caption": "",
+    "credit": "Peter Collingridge · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/bluealpha/118244138/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/bluealpha/118244138/",
+    "kind": "photo",
+    "image": "images/idea_sh2_dishu_2.jpg",
+    "caption": "Ähnliches Motiv – Wasserkalligrafie in Peking",
+    "credit": "Justin Daoust · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-expo",
+  "region": "cn",
+  "idea": true,
+  "name": "Roter Expo-Pavillon von unten 中华艺术宫",
+  "city": "Shanghai",
+  "district": "Pudong, Shanghai",
+  "category": "Fotoidee",
+  "address": "Pudong, Shanghai",
+  "lat": 31.18648,
+  "lng": 121.48993,
+  "approx": false,
+  "when": "both",
+  "note": "Der umgedrehte Pyramiden-Pavillon der Expo 2010 (heute China Art Museum) mit seinen kragenden roten Dougong-Trägern ist ein Geschenk für grafische Fotografie: aus der Froschperspektive ein leuchtend rotes Raster gegen blauen Himmel, von der geschwungenen Expo-Achse aus gerahmt wie ein Bild im Bild.",
+  "tip": "Bei blauem Himmel 10–15 Uhr direkt unter die Auskragung treten, 14–24 mm steil nach oben, leicht unterbelichten für sattes Rot. Von der Expo Axis (世博轴) mit ihrem Membrandach als Rahmen fotografieren; abends rot beleuchtet. Museum Di–So ca. 10–18 Uhr, Eintritt frei mit Reservierung; Mo geschlossen.",
+  "image": "images/idea_sh2_expo_1.jpg",
+  "image_page": "https://www.flickr.com/photos/sergioo/5034477170/",
+  "image_credit": "5ERG10 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/sergioo/5034477170/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/sergioo/5034477170/",
+    "kind": "photo",
+    "image": "images/idea_sh2_expo_1.jpg",
+    "caption": "",
+    "credit": "5ERG10 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/septimuslow/17586380580/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/septimuslow/17586380580/",
+    "kind": "photo",
+    "image": "images/idea_sh2_expo_2.jpg",
+    "caption": "",
+    "credit": "Septimus Low · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/gzlu/4989656381/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/gzlu/4989656381/",
+    "kind": "photo",
+    "image": "images/idea_sh2_expo_3.jpg",
+    "caption": "",
+    "credit": "George Lu · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-shouning",
+  "region": "cn",
+  "idea": true,
+  "name": "Flammen & Neon in der Krebs-Straße 寿宁路小龙虾",
+  "city": "Shanghai",
+  "district": "Huangpu, Shanghai",
+  "category": "Fotoidee",
+  "address": "Huangpu, Shanghai",
+  "lat": 31.22544,
+  "lng": 121.47623,
+  "approx": false,
+  "when": "night",
+  "note": "Die kurze Shouning Road bei Xintiandi ist Shanghais Flusskrebs-Meile: Neonschilder, Plastikhocker, Woks mit Stichflammen und Berge roter Krebse. Ein hektisches, stimmungsvolles Street-Food-Motiv – Gegenentwurf zu den edlen Bars nebenan.",
+  "tip": "Ab 19 Uhr bis spät; Do/Fr weniger überlaufen als Sa. 35 mm f/1,4–2, ISO 1600–3200, 1/125 s für eingefrorene Flammen oder 1/15 s für bewegte Köche. Gegenlicht der Neonschilder nutzen. Am besten selbst bestellen (Saison der Krebse endet Oktober – Angebot evtl. kleiner) und vom Tisch aus fotografieren.",
+  "image": "images/idea_sh2_shouning_1.jpg",
+  "image_page": "https://www.flickr.com/photos/violetlara1/2566502103/",
+  "image_credit": "violetlara1 · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/violetlara1/2566502103/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/violetlara1/2566502103/",
+    "kind": "photo",
+    "image": "images/idea_sh2_shouning_1.jpg",
+    "caption": "",
+    "credit": "violetlara1 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/40672236@N06/3748777813/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/40672236@N06/3748777813/",
+    "kind": "photo",
+    "image": "images/idea_sh2_shouning_2.jpg",
+    "caption": "",
+    "credit": "lxander88 · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-jingan",
+  "region": "cn",
+  "idea": true,
+  "name": "Goldtempel zwischen Glastürmen 静安寺",
+  "city": "Shanghai",
+  "district": "Jing'an, Shanghai",
+  "category": "Fotoidee",
+  "address": "Jing'an, Shanghai",
+  "lat": 31.22521,
+  "lng": 121.44079,
+  "approx": false,
+  "when": "both",
+  "note": "Die vergoldeten Pagoden und Dachfirste des Jing'an-Tempels stehen mitten zwischen spiegelnden Bürotürmen – mit langer Brennweite verschmelzen Gold und Glas zu einem Bild über Glaube und Kommerz. Abends leuchten die Dächer golden vor dem dunklen Himmel.",
+  "tip": "Außen von der Kreuzung Nanjing West Road/Huashan Road und aus dem Jing'an-Park gegenüber mit 70–200 mm; Tempel ca. 7:30–17 Uhr, Eintritt ca. 50 RMB, Hallen innen nicht fotografieren. Bestes Licht: Nachmittagssonne ab 15 Uhr auf den Goldspitzen; abends 18–21 Uhr die beleuchteten Dächer aus dem Park bzw. vom Jing'an-Kerry-Center.",
+  "image": "images/idea_sh2_jingan_1.jpg",
+  "image_page": "https://www.flickr.com/photos/61893602@N00/46681091532/",
+  "image_credit": "Amol Panchabhai · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/61893602@N00/46681091532/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/61893602@N00/46681091532/",
+    "kind": "photo",
+    "image": "images/idea_sh2_jingan_1.jpg",
+    "caption": "",
+    "credit": "Amol Panchabhai · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/d_burtsev/11357409394/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/d_burtsev/11357409394/",
+    "kind": "photo",
+    "image": "images/idea_sh2_jingan_2.jpg",
+    "caption": "",
+    "credit": "Dmitry Burtsev · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/yvesandre/8655452742/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/yvesandre/8655452742/",
+    "kind": "photo",
+    "image": "images/idea_sh2_jingan_3.jpg",
+    "caption": "",
+    "credit": "Yves ANDRE · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-sh-longhua",
+  "region": "cn",
+  "idea": true,
+  "name": "Räucherstäbchen-Rauch im Longhua-Tempel 龙华寺",
+  "city": "Shanghai",
+  "district": "Xuhui, Shanghai",
+  "category": "Fotoidee",
+  "address": "Xuhui, Shanghai",
+  "lat": 31.17679,
+  "lng": 121.44725,
+  "approx": false,
+  "when": "day",
+  "note": "Shanghais ältester Tempel ist kein Museum, sondern lebendige Andacht: Gläubige verbrennen bündelweise Räucherwerk im großen Ofen, Flammen und dichter Rauch ziehen durch die Höfe. Im Gegenlicht werden Rauchschwaden und Silhouetten der Betenden zu einem fast filmischen Motiv.",
+  "tip": "Morgens 7–9:30 Uhr (geöffnet ca. 7–16:30, Eintritt ca. 10 RMB), wenn tiefe Sonne quer durch den Rauch scheint; gegen das Licht mit 50–85 mm, auf Hellstes belichten. Am 1. und 15. des Mondmonats besonders voll. Betende nicht frontal in Nahaufnahme, Hallen-Innenräume nicht fotografieren.",
+  "image": "images/idea_sh2_longhua_1.jpg",
+  "image_page": "https://www.flickr.com/photos/78797573@N00/11682707246/",
+  "image_credit": "Phreddie · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/78797573@N00/11682707246/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/78797573@N00/11682707246/",
+    "kind": "photo",
+    "image": "images/idea_sh2_longhua_1.jpg",
+    "caption": "",
+    "credit": "Phreddie · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/barryoneilphotography/11415691876/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/barryoneilphotography/11415691876/",
+    "kind": "photo",
+    "image": "images/idea_sh2_longhua_2.jpg",
+    "caption": "",
+    "credit": "Barry O'Neil · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/78797573@N00/11682193183/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/78797573@N00/11682193183/",
+    "kind": "photo",
+    "image": "images/idea_sh2_longhua_3.jpg",
+    "caption": "",
+    "credit": "Phreddie · Flickr"
+   }
+  ]
  }
 ];

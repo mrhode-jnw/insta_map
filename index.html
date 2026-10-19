@@ -327,6 +327,9 @@
   #list li { position: relative; }
   .ifav { flex: none; align-self: center; width: 38px; height: 38px; border-radius: 50%; border: 0; background: transparent; color: var(--muted); font-size: 21px; cursor: pointer; }
   .ifav.on { color: #e11d48; }
+  /* Listenansicht: Herz auf dem Vorschaubild (rechts liegt auf dem Handy die Menüleiste darüber) */
+  #list:not(.grid) .ifav { position: absolute; left: 22px; top: 12px; z-index: 2; width: 30px; height: 30px; font-size: 16px; background: rgba(0,0,0,.5); color: #fff; }
+  #list:not(.grid) .ifav.on { color: #fb7185; }
   .ifav.g { position: absolute; top: 6px; right: 6px; left: auto; z-index: 2; width: 32px; height: 32px; font-size: 17px; background: rgba(0,0,0,.45); color: #fff; }
   .ifav.g.on { color: #fb7185; }
   .pin.idea::before { content: "✷"; position: absolute; left: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
@@ -3234,7 +3237,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "104 · Fotoideen-Raster repariert";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "105 · Herz nicht mehr unter der Menüleiste";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
