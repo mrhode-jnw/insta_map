@@ -642,5 +642,8 @@
  "idea-sh3-zoomburst": {
   "fav": true,
   "prio": "hoch"
+ },
+ "idea-gz2-dl-wanderer": {
+  "hidden": true
  }
 }
