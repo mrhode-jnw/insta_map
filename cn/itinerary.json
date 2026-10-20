@@ -857,19 +857,13 @@
      "text": "Entspannter erster Abend: Teeplantage und See hinter dem Resort, Sunset-Spot des Resorts (Personal fragen, laut Gästen vorhanden), dabei den Weg zur Busstraße anschauen, damit ihr morgen früh wisst, wo der Bus hält. Sonnenuntergang 18:00. Früh essen und schlafen – morgen 5:45 Start. Mihun Tai und Avatar seht ihr morgen früh ohne Gruppen, ein Abstecher heute Abend lohnt den Busstress nicht."
     },
     {
-     "type": "move",
-     "mode": "walk",
-     "min": 60,
-     "text": "Alternative: zu Fuß über die Straße nach Yangjiajie (4,6 km, 1 Std.)"
-    },
-    {
      "type": "stop",
      "t": "16:30–17:40",
      "spot": "claude-cn-yangjiajie-tianbo-mansion",
      "opt": true,
      "light": "golden",
      "lightText": "Spätes Licht – Sonnenuntergang 18:00",
-     "text": "Alternative für den ersten Abend, wenn ihr Lust auf Bewegung habt: Aussichtspunkte „Natürliche Große Mauer“ nahe der Haltestelle (nicht die Leitern zum Tianbo Fu, das ist für Sonntagmorgen). Zurück mit dem letzten Parkbus Richtung Yuanjiajie (ca. 17:45–18:00, am Resort aussteigen) oder 1 Std. zu Fuß mit Stirnlampe."
+     "text": "Alternative für den ersten Abend, wenn ihr Lust auf Bewegung habt: zu Fuß über die Straße 4,6 km (1 Std.) zu den Aussichtspunkten „Natürliche Große Mauer“ nahe der Yangjiajie-Haltestelle (nicht die Leitern zum Tianbo Fu, das ist für Sonntagmorgen). Zurück mit dem letzten Parkbus Richtung Yuanjiajie (ca. 17:45–18:00, am Resort aussteigen) oder 1 Std. zu Fuß mit Stirnlampe."
     },
     {
      "type": "hotel",
