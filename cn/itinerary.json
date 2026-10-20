@@ -831,7 +831,7 @@
      "title": "Zhangjiajie West",
      "lat": 29.1714,
      "lng": 110.458,
-     "text": "Vorbestelltes Auto für ca. 13:50."
+     "text": "Vorbestelltes Auto für ca. 13:50 – bis zum Parktor (Privatautos dürfen nicht in den Park), dort Parkbus zum Resort. Einlass in den Park nur bis ca. 16:30!"
     },
     {
      "type": "move",
@@ -840,30 +840,30 @@
     {
      "type": "hotel",
      "name": "Zhangjiajie YOLO Resort",
-     "t": "~15:10",
+     "t": "~15:45",
      "label": "Check-in"
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 15,
-     "text": "Parkbus bzw. zu Fuß (ca. 3 km) – Rückweg mit Stirnlampe"
+     "text": "Parkbus (ca. 15 Min.; das Resort ist keine offizielle Haltestelle – Bus heranwinken, ggf. warten)"
     },
     {
      "type": "stop",
-     "t": "16:45–18:15",
+     "t": "16:30–17:40",
      "spot": "claude-cn-avatar-hallelujah-mountain",
      "opt": true,
-     "light": "sunset",
-     "lightText": "Sonnenuntergang 18:00 – Seitenlicht auf den Felssäulen",
-     "text": "Erster Blick auf Yuanjiajie, entspannt nach der Anreise. Danach Abendessen im Resort.",
+     "light": "golden",
+     "lightText": "Spätes Licht – Sonnenuntergang 18:00 nur mit Hotelauto zurück",
+     "text": "Erster Blick auf Yuanjiajie. Letzter Parkbus ab Yuanjiajie/Tianzi ca. 18:00 – danach nur Hotelauto oder 7–11 km zu Fuß im Dunkeln. Alternative: Sunset-Spot des Resorts an der Teeplantage.",
      "sel": true
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 15,
-     "text": "Parkbus bzw. zu Fuß zurück"
+     "text": "letzter Parkbus ca. 17:45–18:00 zurück"
     },
     {
      "type": "hotel",
@@ -883,9 +883,9 @@
     },
     {
      "type": "move",
-     "mode": "shuttle",
-     "min": 20,
-     "text": "Parkbus bzw. zu Fuß (ca. 3 km, Stirnlampe)"
+     "mode": "car",
+     "min": 15,
+     "text": "Hotelauto am Vorabend bestellen – Parkbusse fahren erst ab ca. 7:00, zu Fuß wären es 7,4 km"
     },
     {
      "type": "stop",
@@ -943,11 +943,11 @@
      "type": "move",
      "mode": "shuttle",
      "min": 40,
-     "text": "Parkbus zum Tianzi-Berg (Helong Park)"
+     "text": "Parkbus zum Tianzi-Berg (Helong Park), Abfahrt ca. 13:45"
     },
     {
      "type": "stop",
-     "t": "15:30–16:15",
+     "t": "14:30–15:15",
      "spot": "claude-cn-helong-park",
      "opt": true,
      "light": "day",
@@ -962,11 +962,11 @@
     },
     {
      "type": "stop",
-     "t": "16:25–17:10",
+     "t": "15:25–16:10",
      "spot": "claude-cn-imperial-brush-peaks",
      "opt": true,
      "light": "golden",
-     "lightText": "goldene Stunde – Streiflicht",
+     "lightText": "Nachmittagslicht – Streiflicht",
      "text": "70-200, Felsnadeln isolieren.",
      "sel": true
     },
@@ -977,19 +977,19 @@
     },
     {
      "type": "stop",
-     "t": "17:25–18:30",
+     "t": "16:25–17:30",
      "spot": "claude-cn-xihai-stone-forest",
      "opt": true,
-     "light": "sunset",
-     "lightText": "Sonnenuntergang 18:00",
-     "text": "Weit mit dem 16-35. Vorher die Zeit des letzten Parkbusses klären!",
+     "light": "golden",
+     "lightText": "goldene Stunde (Sonnenuntergang 18:00 nur mit Hotelauto)",
+     "text": "Weit mit dem 16-35. Spätestens 17:30 an der Bushaltestelle – Letzter Parkbus ab Yuanjiajie/Tianzi ca. 18:00 – danach nur Hotelauto oder 7–11 km zu Fuß im Dunkeln.",
      "sel": true
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 45,
-     "text": "letzter Parkbus zurück"
+     "text": "letzter Parkbus ab Tianzi ca. 17:45 (spätestens 18:00!)"
     },
     {
      "type": "hotel",
@@ -1005,13 +1005,13 @@
     {
      "type": "hotel",
      "name": "Zhangjiajie YOLO Resort",
-     "t": "5:30"
+     "t": "5:00"
     },
     {
      "type": "move",
-     "mode": "shuttle",
-     "min": 15,
-     "text": "Parkbus/Taxi zum Yangjiajie-Eingang"
+     "mode": "walk",
+     "min": 60,
+     "text": "zu Fuß ca. 4,6 km (Stirnlampe) oder Hotelauto – Parkbusse fahren noch nicht"
     },
     {
      "type": "stop",
@@ -1064,7 +1064,7 @@
      "opt": true,
      "light": "midday",
      "lightText": "Mittag – im schattigen Tal",
-     "text": "Ebene Wanderung (7,5 km), Pol-Filter für Spiegelungen.",
+     "text": "Nicht die ganzen 7,5 km: unten am Bailong-Lift (Shuiraosimen) bachaufwärts ca. 3–4 km und auf demselben Weg zurück – sonst endet ihr am Südtor außerhalb (Taxi nötig). Pol-Filter für Spiegelungen.",
      "sel": true
     },
     {
@@ -1075,19 +1075,19 @@
     },
     {
      "type": "stop",
-     "t": "16:45–18:15",
+     "t": "16:30–17:40",
      "spot": "claude-cn-mihun-tai-enchanting-terrace",
      "opt": true,
-     "light": "sunset",
-     "lightText": "Sonnenuntergang 18:00",
-     "text": "Zweiter Versuch – je nachdem, was am Samstag besser war (oder Tianzi).",
+     "light": "golden",
+     "lightText": "Spätes Licht – Sonnenuntergang 18:00 nur mit Hotelauto",
+     "text": "Zweiter Versuch – je nachdem, was am Samstag besser war. Letzter Parkbus ab Yuanjiajie/Tianzi ca. 18:00 – danach nur Hotelauto oder 7–11 km zu Fuß im Dunkeln.",
      "sel": true
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 20,
-     "text": "zurück"
+     "text": "letzter Parkbus ca. 17:45–18:00 zurück"
     },
     {
      "type": "hotel",
@@ -1103,9 +1103,9 @@
     {
      "type": "hotel",
      "name": "Zhangjiajie YOLO Resort",
-     "t": "~6:55",
+     "t": "~6:30",
      "label": "Check-out",
-     "text": "Frühstück früh; Sonnenaufgang am Mihun Tai (6:46) ist vor dem Zug nicht zu schaffen."
+     "text": "Vor dem ersten Parkbus: Transfer über das Resort bestellen (Hotelauto bis zum Parktor bzw. direkt zum Bahnhof). Frühstück als Lunchpaket."
     },
     {
      "type": "move",

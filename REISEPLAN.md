@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 19.10.2026 15:34 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 20.10.2026 16:50 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -160,18 +160,18 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚗 Auto · ca. 10 Min. · 5 km (Taxi (Autos kommen nicht bis an die Hotels))
 - **12:43** 🚄 **Bahnhof Fenghuang Gucheng (凤凰古城站) – Zug G6174 ✓ gebucht** – 2. Klasse, Wagen 06, Plätze 3A + 3B (nebeneinander). Ticket-Gate 1. Etage. Mind. 30 Min. vorher da sein (Pass- und Sicherheitskontrolle); Abholnummer in der Trip.com-Buchung.
   - ↓ 🚄 Zug · ca. 59 Min. (G6174, an 13:42 – Wagen 06)
-- **13:42** 🚄 **Zhangjiajie West** – Vorbestelltes Auto für ca. 13:50.
+- **13:42** 🚄 **Zhangjiajie West** – Vorbestelltes Auto für ca. 13:50 – bis zum Parktor (Privatautos dürfen nicht in den Park), dort Parkbus zum Resort. Einlass in den Park nur bis ca. 16:30!
   - ↓ 🚗 Auto · ca. 75 Min. · 60 km
-- **~15:10** 🏨 Check-in: **Zhangjiajie YOLO Resort**
-  - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus bzw. zu Fuß (ca. 3 km) – Rückweg mit Stirnlampe)
-- **16:45–18:15** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Sonnenuntergang 18:00 – Seitenlicht auf den Felssäulen – Erster Blick auf Yuanjiajie, entspannt nach der Anreise. Danach Abendessen im Resort.
-  - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus bzw. zu Fuß zurück)
+- **~15:45** 🏨 Check-in: **Zhangjiajie YOLO Resort**
+  - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus (ca. 15 Min.; das Resort ist keine offizielle Haltestelle – Bus heranwinken, ggf. warten))
+- **16:30–17:40** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Spätes Licht – Sonnenuntergang 18:00 nur mit Hotelauto zurück – Erster Blick auf Yuanjiajie. Letzter Parkbus ab Yuanjiajie/Tianzi ca. 18:00 – danach nur Hotelauto oder 7–11 km zu Fuß im Dunkeln. Alternative: Sunset-Spot des Resorts an der Teeplantage.
+  - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (letzter Parkbus ca. 17:45–18:00 zurück)
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
 ### Sa 24.10. – Zhangjiajie: Yuanjiajie früh · Tianzi-Berg zum Sonnenuntergang _(Entwurf)_
 
 - **5:45** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
-  - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (Parkbus bzw. zu Fuß (ca. 3 km, Stirnlampe))
+  - ↓ 🚗 Auto · ca. 15 Min. · 8 km (Hotelauto am Vorabend bestellen – Parkbusse fahren erst ab ca. 7:00, zu Fuß wären es 7,4 km)
 - **6:15–7:30** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Sonnenaufgang 6:45 – bei Nebel nach Regen am stärksten – Stativ ans Geländer, 70-200 für einzelne Säulen.
   - ↓ 🚶 zu Fuß · ca. 10 Min.
 - **7:40–8:25** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Morgenlicht – Vor den Gruppen aus dem Bailong-Lift (ab ca. 9 Uhr).
@@ -179,34 +179,34 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **8:35–9:20** ◻︎ optional: **First Bridge Under Heaven 天下第一桥** (Wulingyuan, Hunan) · Licht: Vormittag – Vom offiziellen Aussichtspunkt seitlich.
   - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (Parkbus zurück)
 - **~9:40** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
-  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Parkbus zum Tianzi-Berg (Helong Park))
-- **15:30–16:15** ◻︎ optional: **Helong Park 贺龙公园** (Tianzi Mountain, Hunan) · Licht: Nachmittag – Ausgangspunkt der Aussichtspunkte.
+  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Parkbus zum Tianzi-Berg (Helong Park), Abfahrt ca. 13:45)
+- **14:30–15:15** ◻︎ optional: **Helong Park 贺龙公园** (Tianzi Mountain, Hunan) · Licht: Nachmittag – Ausgangspunkt der Aussichtspunkte.
   - ↓ 🚶 zu Fuß · ca. 10 Min.
-- **16:25–17:10** ◻︎ optional: **Imperial Brush Peaks 御笔峰** (Tianzi Mountain, Hunan) · Licht: goldene Stunde – Streiflicht – 70-200, Felsnadeln isolieren.
+- **15:25–16:10** ◻︎ optional: **Imperial Brush Peaks 御笔峰** (Tianzi Mountain, Hunan) · Licht: Nachmittagslicht – Streiflicht – 70-200, Felsnadeln isolieren.
   - ↓ 🚶 zu Fuß · ca. 15 Min.
-- **17:25–18:30** ◻︎ optional: **Xihai Stone Forest 西海峰林** (Tianzi Mountain, Hunan) · Licht: Sonnenuntergang 18:00 – Weit mit dem 16-35. Vorher die Zeit des letzten Parkbusses klären!
-  - ↓ 🚌 Bus/Seilbahn · ca. 45 Min. (letzter Parkbus zurück)
+- **16:25–17:30** ◻︎ optional: **Xihai Stone Forest 西海峰林** (Tianzi Mountain, Hunan) · Licht: goldene Stunde (Sonnenuntergang 18:00 nur mit Hotelauto) – Weit mit dem 16-35. Spätestens 17:30 an der Bushaltestelle – Letzter Parkbus ab Yuanjiajie/Tianzi ca. 18:00 – danach nur Hotelauto oder 7–11 km zu Fuß im Dunkeln.
+  - ↓ 🚌 Bus/Seilbahn · ca. 45 Min. (letzter Parkbus ab Tianzi ca. 17:45 (spätestens 18:00!))
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
 ### So 25.10. – Zhangjiajie: Yangjiajie früh · Golden Whip Stream · Yuanjiajie am Abend _(Entwurf)_
 
-- **5:30** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
-  - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus/Taxi zum Yangjiajie-Eingang)
+- **5:00** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
+  - ↓ 🚶 zu Fuß · ca. 60 Min. (zu Fuß ca. 4,6 km (Stirnlampe) oder Hotelauto – Parkbusse fahren noch nicht)
 - **6:00–8:30** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Sonnenaufgang 6:45 – Steiler Aufstieg ca. 1 Std., dafür kaum Gruppen.
   - ↓ 🚌 Bus/Seilbahn · ca. 30 Min. (zurück)
 - **~9:00** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
   - ↓ 🚌 Bus/Seilbahn · ca. 30 Min. (Parkbus zum Bailong-Lift)
 - **10:30–11:00** ◻︎ optional: **Bailong Elevator 百龙天梯** (Wulingyuan, Hunan) · Licht: Mittag – Architektur – Den Lift von oben entlang der Wand fotografieren.
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Lift hinunter, Bus zum Talweg)
-- **11:15–14:30** ◻︎ optional: **Golden Whip Stream 金鞭溪** (Wulingyuan, Hunan) · Licht: Mittag – im schattigen Tal – Ebene Wanderung (7,5 km), Pol-Filter für Spiegelungen.
+- **11:15–14:30** ◻︎ optional: **Golden Whip Stream 金鞭溪** (Wulingyuan, Hunan) · Licht: Mittag – im schattigen Tal – Nicht die ganzen 7,5 km: unten am Bailong-Lift (Shuiraosimen) bachaufwärts ca. 3–4 km und auf demselben Weg zurück – sonst endet ihr am Südtor außerhalb (Taxi nötig). Pol-Filter für Spiegelungen.
   - ↓ 🚌 Bus/Seilbahn · ca. 60 Min. (Bus + Bailong-Lift wieder hinauf)
-- **16:45–18:15** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Sonnenuntergang 18:00 – Zweiter Versuch – je nachdem, was am Samstag besser war (oder Tianzi).
-  - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (zurück)
+- **16:30–17:40** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Spätes Licht – Sonnenuntergang 18:00 nur mit Hotelauto – Zweiter Versuch – je nachdem, was am Samstag besser war. Letzter Parkbus ab Yuanjiajie/Tianzi ca. 18:00 – danach nur Hotelauto oder 7–11 km zu Fuß im Dunkeln.
+  - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (letzter Parkbus ca. 17:45–18:00 zurück)
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
 ### Mo 26.10. – Zhangjiajie → Chongqing (Zug G2428) · Abendlichter _(Entwurf)_
 
-- **~6:55** 🏨 Check-out: **Zhangjiajie YOLO Resort**
+- **~6:30** 🏨 Check-out: **Zhangjiajie YOLO Resort**
   - ↓ 🚗 Auto · ca. 100 Min. · 88 km (Auto/Taxi zum Bahnhof (ca. 1 h 40) – Auto am Vortag im Resort bestellen)
 - **9:16** 🚄 **Bahnhof Zhangjiajie West (张家界西) – Zug G2428 ✓ gebucht** – 2. Klasse, Wagen 07, Plätze 2D + 2F (nebeneinander). Ticket-Gate 2. Etage. Mind. 30 Min. vorher da sein (Pass- und Sicherheitskontrolle); Abholnummer in der Trip.com-Buchung.
   - ↓ 🚄 Zug · ca. 149 Min. (G2428, an 11:45 – Wagen 07)
