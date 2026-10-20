@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 07:47 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 07:52 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -153,7 +153,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - 🏨 Unterkunft: **Mount Villa by T Residence**
 - 🔀 ◻︎ optional: **Plan B bei Nebel am Gipfel (Entscheidung 21.10. abends)** – Langde morgens im Nebel fotografieren → Auto nach Kaili Süd (40 Min.) → Zug nach Fenghuang Gucheng → abends Fenghuang. Fanjingshan-Tickets stornieren.
 
-### Fr 23.10. – Fenghuang → Zhangjiajie · Abend in Yuanjiajie _(Entwurf)_
+### Fr 23.10. – Fenghuang → Zhangjiajie · ankommen im YOLO Resort _(Entwurf)_
 
 - **6:15–7:45** ✅ **Fenghuang Ancient Town 凤凰古城** (Xiangxi, Hunan) · Licht: Sonnenaufgang 6:46, Dunst über dem Fluss – Gassen und Ufer noch leer.
 - **~11:30** 🏨 Check-out: **Mount Villa by T Residence**
@@ -163,9 +163,10 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **13:42** 🚄 **Zhangjiajie West** – Vorbestelltes Auto für ca. 13:50 – fährt direkt bis zum YOLO Resort (ca. 1 Std. 15). Parkticket (239 CNY, 4 Tage gültig bis 26.10., Pass = Ticket) – mit dem Resort klären, wo das Ticket am Tor kontrolliert wird.
   - ↓ 🚗 Auto · ca. 75 Min. · 60 km (Auto direkt zum Resort)
 - **~15:10** 🏨 Check-in: **Zhangjiajie YOLO Resort**
-  - ↓ 🚌 Bus/Seilbahn · ca. 10 Min. (Parkbus zum Busbahnhof Yuanjiajie (Resort ist keine offizielle Haltestelle – Bus heranwinken), dann ca. 10 Min. zu Fuß)
-- **16:30–17:40** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Spätes Licht – Sonnenuntergang 18:00 nur mit Hotelauto zurück – Erster Blick auf die Avatar-Säulen. Letzter Parkbus ca. 18:00 – danach nur Hotelauto. Alternative ohne Stress: Sunset-Spot des Resorts an der Teeplantage.
-  - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (letzter Parkbus ca. 17:45–18:00 zurück)
+- **15:30–18:15** 🍵 ◻︎ optional: **Ankommen: Teeplantage, Sunset-Spot des Resorts** – Entspannter erster Abend: Teeplantage und See hinter dem Resort, Sunset-Spot des Resorts (Personal fragen, laut Gästen vorhanden), dabei den Weg zur Busstraße anschauen, damit ihr morgen früh wisst, wo der Bus hält. Sonnenuntergang 18:00. Früh essen und schlafen – morgen 5:45 Start. Mihun Tai und Avatar seht ihr morgen früh ohne Gruppen, ein Abstecher heute Abend lohnt den Busstress nicht.
+  - ↓ 🚶 zu Fuß · ca. 60 Min. (Alternative: zu Fuß über die Straße nach Yangjiajie (4,6 km, 1 Std.))
+- **16:30–17:40** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Spätes Licht – Sonnenuntergang 18:00 – Alternative für den ersten Abend, wenn ihr Lust auf Bewegung habt: Aussichtspunkte „Natürliche Große Mauer“ nahe der Haltestelle (nicht die Leitern zum Tianbo Fu, das ist für Sonntagmorgen). Zurück mit dem letzten Parkbus Richtung Yuanjiajie (ca. 17:45–18:00, am Resort aussteigen) oder 1 Std. zu Fuß mit Stirnlampe.
+  - ↓ 🚌 Bus/Seilbahn · ca. 10 Min. (letzter Parkbus ca. 17:45–18:00 (am Resort aussteigen) oder zu Fuß)
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
 ### Sa 24.10. – Zhangjiajie: Yuanjiajie zum Sonnenaufgang · Tianzi-Berg am Nachmittag _(Entwurf)_

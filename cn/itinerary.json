@@ -785,7 +785,7 @@
   },
   {
    "date": "2026-10-23",
-   "title": "Fenghuang → Zhangjiajie · Abend in Yuanjiajie",
+   "title": "Fenghuang → Zhangjiajie · ankommen im YOLO Resort",
    "status": "Entwurf",
    "items": [
     {
@@ -842,29 +842,40 @@
      "type": "hotel",
      "name": "Zhangjiajie YOLO Resort",
      "t": "~15:10",
-     "label": "Check-in"
+     "label": "Check-in",
+     "text": "Lage: Teeplantage auf dem Plateau, 600 m von der Parkbus-Straße Yuanjiajie–Yangjiajie. Zu Fuß über die Straße: Yangjiajie-Haltestelle 4,6 km (1 Std.), Busbahnhof Yuanjiajie/Mihun Tai 7,5 km (1 Std. 40) – einen Direktweg gibt es laut Karte und Satellitenbild nicht."
+    },
+    {
+     "type": "info",
+     "t": "15:30–18:15",
+     "icon": "🍵",
+     "title": "Ankommen: Teeplantage, Sunset-Spot des Resorts",
+     "opt": true,
+     "sel": true,
+     "lat": 29.3716,
+     "lng": 110.4296,
+     "text": "Entspannter erster Abend: Teeplantage und See hinter dem Resort, Sunset-Spot des Resorts (Personal fragen, laut Gästen vorhanden), dabei den Weg zur Busstraße anschauen, damit ihr morgen früh wisst, wo der Bus hält. Sonnenuntergang 18:00. Früh essen und schlafen – morgen 5:45 Start. Mihun Tai und Avatar seht ihr morgen früh ohne Gruppen, ein Abstecher heute Abend lohnt den Busstress nicht."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 60,
+     "text": "Alternative: zu Fuß über die Straße nach Yangjiajie (4,6 km, 1 Std.)"
+    },
+    {
+     "type": "stop",
+     "t": "16:30–17:40",
+     "spot": "claude-cn-yangjiajie-tianbo-mansion",
+     "opt": true,
+     "light": "golden",
+     "lightText": "Spätes Licht – Sonnenuntergang 18:00",
+     "text": "Alternative für den ersten Abend, wenn ihr Lust auf Bewegung habt: Aussichtspunkte „Natürliche Große Mauer“ nahe der Haltestelle (nicht die Leitern zum Tianbo Fu, das ist für Sonntagmorgen). Zurück mit dem letzten Parkbus Richtung Yuanjiajie (ca. 17:45–18:00, am Resort aussteigen) oder 1 Std. zu Fuß mit Stirnlampe."
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 10,
-     "text": "Parkbus zum Busbahnhof Yuanjiajie (Resort ist keine offizielle Haltestelle – Bus heranwinken), dann ca. 10 Min. zu Fuß"
-    },
-    {
-     "type": "stop",
-     "t": "16:30–17:40",
-     "spot": "claude-cn-avatar-hallelujah-mountain",
-     "opt": true,
-     "light": "golden",
-     "lightText": "Spätes Licht – Sonnenuntergang 18:00 nur mit Hotelauto zurück",
-     "text": "Erster Blick auf die Avatar-Säulen. Letzter Parkbus ca. 18:00 – danach nur Hotelauto. Alternative ohne Stress: Sunset-Spot des Resorts an der Teeplantage.",
-     "sel": true
-    },
-    {
-     "type": "move",
-     "mode": "shuttle",
-     "min": 15,
-     "text": "letzter Parkbus ca. 17:45–18:00 zurück"
+     "text": "letzter Parkbus ca. 17:45–18:00 (am Resort aussteigen) oder zu Fuß"
     },
     {
      "type": "hotel",
