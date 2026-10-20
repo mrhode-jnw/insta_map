@@ -831,33 +831,17 @@
      "title": "Zhangjiajie West",
      "lat": 29.1714,
      "lng": 110.458,
-     "text": "Vorbestelltes Auto (ca. 13:50) zum Osttor Wulingyuan (武陵源东门, ca. 50 Min.). Privatautos dürfen nicht in den Park. Parkticket (239 CNY, 4 Tage gültig bis 26.10., Pass = Ticket) mit Einlass-Zeitfenster vorab buchen – seit 2025 Pflicht. Einlass nur bis ca. 16:30!"
+     "text": "Vorbestelltes Auto für ca. 13:50 – fährt direkt bis zum YOLO Resort (ca. 1 Std. 15). Parkticket (239 CNY, 4 Tage gültig bis 26.10., Pass = Ticket) – mit dem Resort klären, wo das Ticket am Tor kontrolliert wird."
     },
     {
      "type": "move",
      "mode": "car",
-     "min": 50,
-     "text": "Auto zum Osttor Wulingyuan"
-    },
-    {
-     "type": "info",
-     "t": "~14:45",
-     "icon": "🚌",
-     "title": "Osttor → Bailong-Lift → Yuanjiajie",
-     "lat": 29.3511795,
-     "lng": 110.4611722,
-     "text": "Parkbus zum Bailong-Lift (ca. 25 Min.), Lift hinauf (65–72 CNY, 66 Sek.; nachmittags kaum Schlange), oben Parkbus Richtung Yangjiajie bis zur Teeplantage/YOLO (ca. 10 Min., Fahrer Bescheid sagen)."
-    },
-    {
-     "type": "move",
-     "mode": "shuttle",
-     "min": 50,
-     "text": "Parkbus + Bailong-Lift + Parkbus"
+     "text": "Auto direkt zum Resort"
     },
     {
      "type": "hotel",
      "name": "Zhangjiajie YOLO Resort",
-     "t": "~16:00",
+     "t": "~15:10",
      "label": "Check-in"
     },
     {
@@ -868,7 +852,7 @@
     },
     {
      "type": "stop",
-     "t": "16:45–17:40",
+     "t": "16:30–17:40",
      "spot": "claude-cn-avatar-hallelujah-mountain",
      "opt": true,
      "light": "golden",
@@ -1134,7 +1118,7 @@
      "name": "Zhangjiajie YOLO Resort",
      "t": "~6:30",
      "label": "Check-out",
-     "text": "Vor dem ersten Parkbus: Transfer über das Resort bestellen (Hotelauto bis zum Parktor bzw. direkt zum Bahnhof). Frühstück als Lunchpaket."
+     "text": "Vor dem ersten Parkbus: Auto direkt am Resort (wie bei der Anreise) am Vortag bestellen. Frühstück als Lunchpaket."
     },
     {
      "type": "move",

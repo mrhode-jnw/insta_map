@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 07:38 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 07:47 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -160,13 +160,11 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚗 Auto · ca. 10 Min. · 5 km (Taxi (Autos kommen nicht bis an die Hotels))
 - **12:43** 🚄 **Bahnhof Fenghuang Gucheng (凤凰古城站) – Zug G6174 ✓ gebucht** – 2. Klasse, Wagen 06, Plätze 3A + 3B (nebeneinander). Ticket-Gate 1. Etage. Mind. 30 Min. vorher da sein (Pass- und Sicherheitskontrolle); Abholnummer in der Trip.com-Buchung.
   - ↓ 🚄 Zug · ca. 59 Min. (G6174, an 13:42 – Wagen 06)
-- **13:42** 🚄 **Zhangjiajie West** – Vorbestelltes Auto (ca. 13:50) zum Osttor Wulingyuan (武陵源东门, ca. 50 Min.). Privatautos dürfen nicht in den Park. Parkticket (239 CNY, 4 Tage gültig bis 26.10., Pass = Ticket) mit Einlass-Zeitfenster vorab buchen – seit 2025 Pflicht. Einlass nur bis ca. 16:30!
-  - ↓ 🚗 Auto · ca. 50 Min. · 34 km (Auto zum Osttor Wulingyuan)
-- **~14:45** 🚌 **Osttor → Bailong-Lift → Yuanjiajie** – Parkbus zum Bailong-Lift (ca. 25 Min.), Lift hinauf (65–72 CNY, 66 Sek.; nachmittags kaum Schlange), oben Parkbus Richtung Yangjiajie bis zur Teeplantage/YOLO (ca. 10 Min., Fahrer Bescheid sagen).
-  - ↓ 🚌 Bus/Seilbahn · ca. 50 Min. (Parkbus + Bailong-Lift + Parkbus)
-- **~16:00** 🏨 Check-in: **Zhangjiajie YOLO Resort**
+- **13:42** 🚄 **Zhangjiajie West** – Vorbestelltes Auto für ca. 13:50 – fährt direkt bis zum YOLO Resort (ca. 1 Std. 15). Parkticket (239 CNY, 4 Tage gültig bis 26.10., Pass = Ticket) – mit dem Resort klären, wo das Ticket am Tor kontrolliert wird.
+  - ↓ 🚗 Auto · ca. 75 Min. · 60 km (Auto direkt zum Resort)
+- **~15:10** 🏨 Check-in: **Zhangjiajie YOLO Resort**
   - ↓ 🚌 Bus/Seilbahn · ca. 10 Min. (Parkbus zum Busbahnhof Yuanjiajie (Resort ist keine offizielle Haltestelle – Bus heranwinken), dann ca. 10 Min. zu Fuß)
-- **16:45–17:40** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Spätes Licht – Sonnenuntergang 18:00 nur mit Hotelauto zurück – Erster Blick auf die Avatar-Säulen. Letzter Parkbus ca. 18:00 – danach nur Hotelauto. Alternative ohne Stress: Sunset-Spot des Resorts an der Teeplantage.
+- **16:30–17:40** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Spätes Licht – Sonnenuntergang 18:00 nur mit Hotelauto zurück – Erster Blick auf die Avatar-Säulen. Letzter Parkbus ca. 18:00 – danach nur Hotelauto. Alternative ohne Stress: Sunset-Spot des Resorts an der Teeplantage.
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (letzter Parkbus ca. 17:45–18:00 zurück)
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
