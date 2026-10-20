@@ -6316,6 +6316,51 @@ window.PLACES_CN = [
     "image": "images/claude_gz_dali_6.jpg",
     "caption": "",
     "credit": "Hayes Oliver55Oliver · trip.com Moments"
+   },
+   {
+    "url": "https://www.instagram.com/p/DaXobwLGx3n/?img_index=2",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DaXobwLGx3n/?img_index=2",
+    "kind": "photo",
+    "image": "images/DaXobwLGx3n_2.jpg",
+    "caption": "",
+    "credit": "@dyarllon.soares · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/p/DaXobwLGx3n/?img_index=3",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DaXobwLGx3n/?img_index=3",
+    "kind": "photo",
+    "image": "images/DaXobwLGx3n_3.jpg",
+    "caption": "",
+    "credit": "@dyarllon.soares · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/p/DaXobwLGx3n/?img_index=8",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DaXobwLGx3n/?img_index=8",
+    "kind": "photo",
+    "image": "images/DaXobwLGx3n_8.jpg",
+    "caption": "",
+    "credit": "@dyarllon.soares · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/p/DaXobwLGx3n/?img_index=10",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DaXobwLGx3n/?img_index=10",
+    "kind": "photo",
+    "image": "images/DaXobwLGx3n_10.jpg",
+    "caption": "",
+    "credit": "@dyarllon.soares · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/p/DaXobwLGx3n/?img_index=11",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DaXobwLGx3n/?img_index=11",
+    "kind": "photo",
+    "image": "images/DaXobwLGx3n_11.jpg",
+    "caption": "",
+    "credit": "@dyarllon.soares · Instagram"
    }
   ],
   "pop": 3,
