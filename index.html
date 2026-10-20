@@ -242,6 +242,11 @@
   .ic .itm.moved { color: #f59e0b; }
   .ilate { display: inline-block; max-width: 100%; white-space: normal; margin: 0 0 8px; padding: 3px 9px; border-radius: 999px; background: rgba(245,158,11,.18); color: #f59e0b; font-size: 12.5px; font-weight: 600; }
   .b-opt { background: #f3e8ff; color: #6b21a8; }
+  .iigd { margin: 6px 0 4px; font-size: 13px; }
+  .iigd summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+  .iigd summary b { font-weight: 500; color: var(--muted); }
+  .iigd ul { margin: 6px 0 4px; padding: 0; list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 2px 12px; max-height: 220px; overflow-y: auto; }
+  .iigd li a { color: var(--accent); text-decoration: none; font-weight: 600; display: block; padding: 3px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .iig { display: flex; flex-wrap: wrap; gap: 5px; margin: 4px 0 2px; }
   .iig a, .iig button { font-size: 12.5px; padding: 4px 9px; border-radius: 999px; border: 0; background: #fce7f3; color: #9d174d; text-decoration: none; cursor: pointer; font-weight: 600; }
   #itinBody { flex: 1; overflow-y: auto; overflow-x: hidden; overscroll-behavior-x: none; padding: 12px 12px calc(env(safe-area-inset-bottom) + 24px); }
@@ -3051,12 +3056,14 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const igPosts = p => (p.posts || []).filter(x => /instagram\.com\//.test(x.url || ""));
   const igNear = p => places.filter(q => q.id !== p.id && igPosts(q).length && dist(p, q) <= 3000)
     .map(q => ({ q, d: dist(p, q) })).sort((a, b) => a.d - b.d).slice(0, 3);
-  function igHtml(p) {
+  function igHtml(p) {  // zugeklappt: sonst wird die Karte bei vielen Posts lang
     const own = igPosts(p), seen = new Set(), near = igNear(p);
-    const links = own.filter(x => { const u = x.url.split("?")[0]; if (seen.has(u)) return false; seen.add(u); return true; }).slice(0, 6)
-      .map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">📸 ${x.username ? "@" + esc(x.username) : "Post"} ↗</a>`).join("");
+    const posts = own.filter(x => { const u = x.url.split("?")[0]; if (seen.has(u)) return false; seen.add(u); return true; });
+    if (!posts.length && !near.length) return "";
+    const links = posts.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">@${esc(x.username || "Post")} ↗</a></li>`).join("");
     const nb = near.map(({ q, d }) => `<button data-spot="${esc(q.id)}">📸 ${esc(shortName(q.name))} · ${d < 950 ? Math.round(d / 10) * 10 + " m" : (d / 1000).toFixed(1) + " km"}</button>`).join("");
-    return (links ? `<div class="iig">${links}</div>` : "") + (nb ? `<div class="iig" title="Instagram-Spots in der Nähe">${nb}</div>` : "");
+    const sum = [posts.length ? `${posts.length} Post${posts.length > 1 ? "s" : ""}` : "", near.length ? `${near.length} in der Nähe` : ""].filter(Boolean).join(" · ");
+    return `<details class="iigd"><summary>📸 Instagram <b>${sum}</b></summary>${links ? `<ul>${links}</ul>` : ""}${nb ? `<div class="iig" title="Instagram-Spots in der Nähe">${nb}</div>` : ""}</details>`;
   }
   function stopCard(it, date) {
     const p = spotOf(it.spot); if (!p) return "";
@@ -3260,7 +3267,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "107 · Fotoideen ablehnen (✕)";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "108 · Instagram im Reiseplan zuklappbar";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
