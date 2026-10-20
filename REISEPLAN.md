@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 07:52 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 07:53 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -166,7 +166,6 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **15:30–18:15** 🍵 ◻︎ optional: **Ankommen: Teeplantage, Sunset-Spot des Resorts** – Entspannter erster Abend: Teeplantage und See hinter dem Resort, Sunset-Spot des Resorts (Personal fragen, laut Gästen vorhanden), dabei den Weg zur Busstraße anschauen, damit ihr morgen früh wisst, wo der Bus hält. Sonnenuntergang 18:00. Früh essen und schlafen – morgen 5:45 Start. Mihun Tai und Avatar seht ihr morgen früh ohne Gruppen, ein Abstecher heute Abend lohnt den Busstress nicht.
   - ↓ 🚶 zu Fuß · ca. 60 Min. (Alternative: zu Fuß über die Straße nach Yangjiajie (4,6 km, 1 Std.))
 - **16:30–17:40** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Spätes Licht – Sonnenuntergang 18:00 – Alternative für den ersten Abend, wenn ihr Lust auf Bewegung habt: Aussichtspunkte „Natürliche Große Mauer“ nahe der Haltestelle (nicht die Leitern zum Tianbo Fu, das ist für Sonntagmorgen). Zurück mit dem letzten Parkbus Richtung Yuanjiajie (ca. 17:45–18:00, am Resort aussteigen) oder 1 Std. zu Fuß mit Stirnlampe.
-  - ↓ 🚌 Bus/Seilbahn · ca. 10 Min. (letzter Parkbus ca. 17:45–18:00 (am Resort aussteigen) oder zu Fuß)
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
 ### Sa 24.10. – Zhangjiajie: Yuanjiajie zum Sonnenaufgang · Tianzi-Berg am Nachmittag _(Entwurf)_

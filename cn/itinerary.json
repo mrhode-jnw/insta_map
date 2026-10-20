@@ -872,12 +872,6 @@
      "text": "Alternative für den ersten Abend, wenn ihr Lust auf Bewegung habt: Aussichtspunkte „Natürliche Große Mauer“ nahe der Haltestelle (nicht die Leitern zum Tianbo Fu, das ist für Sonntagmorgen). Zurück mit dem letzten Parkbus Richtung Yuanjiajie (ca. 17:45–18:00, am Resort aussteigen) oder 1 Std. zu Fuß mit Stirnlampe."
     },
     {
-     "type": "move",
-     "mode": "shuttle",
-     "min": 10,
-     "text": "letzter Parkbus ca. 17:45–18:00 (am Resort aussteigen) oder zu Fuß"
-    },
-    {
      "type": "hotel",
      "name": "Zhangjiajie YOLO Resort"
     }
