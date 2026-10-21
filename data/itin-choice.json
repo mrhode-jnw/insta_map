@@ -30,7 +30,9 @@
    "claude-cn-golden-whip-stream",
    "claude-cn-mihun-tai-enchanting-terrace"
   ],
-  "dur": {},
+  "dur": {
+   "claude-cn-yangjiajie-tianbo-mansion@7:30–9:15": 150
+  },
   "off": []
  },
  "2026-10-26": {
