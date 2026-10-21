@@ -996,47 +996,34 @@
      "text": "Tujia-Dorf/Museum direkt am Busbahnhof Yuanjiajie, 8–17 Uhr, Extra-Ticket. Optional vor dem Bus zurück."
     },
     {
-     "type": "move",
-     "mode": "shuttle",
-     "min": 15,
-     "text": "Parkbus Richtung Yangjiajie/Tianzi, an der Resort-Abzweigung aussteigen (500 m)"
-    },
-    {
-     "type": "hotel",
-     "name": "Zhangjiajie YOLO Resort",
-     "t": "~9:45",
-     "label": "Frühstück, Pause",
-     "text": "Bis 13:00 frei – Mittagslicht ist flach, die Tianzi-Aussichten schauen nach Westen und werden erst nachmittags gut."
-    },
-    {
      "type": "info",
-     "t": "13:10",
+     "t": "10:45",
      "icon": "🚌",
-     "title": "Feste Abfahrt: Parkbus an der Resort-Abzweigung Richtung Tianzi",
+     "title": "Feste Abfahrt: Parkbus ab Busbahnhof Yuanjiajie zum Tianzi-Berg",
      "anchor": true,
-     "lat": 29.3703,
-     "lng": 110.431,
-     "text": "Feste Zeit, damit der Nachmittag auf dem Tianzi-Berg unabhängig vom Morgen bleibt (letzter Bus zurück ca. 18:00). Spätestens 13:00 am Resort los."
+     "lat": 29.35407,
+     "lng": 110.43067,
+     "text": "Direkt weiter, keine Rückkehr zum Resort. Ca. 35–40 Min. bis Helong Park, ggf. in Yangjiajie umsteigen. Feste Zeit, damit der Nachmittag auf dem Tianzi-Berg unabhängig vom Morgen bleibt (letzter Bus zurück ca. 18:00)."
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 40,
-     "text": "Parkbus Richtung Tianzi (Helong Park), ca. 35–40 Min., ggf. in Yangjiajie oder am Busbahnhof umsteigen"
+     "text": "Parkbus zum Tianzi-Berg (Helong Park)"
     },
     {
      "type": "stop",
-     "t": "14:00–14:40",
+     "t": "11:30–13:30",
      "spot": "claude-cn-helong-park",
      "opt": true,
      "sel": true,
      "light": "day",
-     "lightText": "Nachmittag",
-     "text": "Zentrum des Tianzi-Plateaus: Lokale, Imbisse, Seilbahn-Bergstation. Gemütliche Runde über die Aussichtspunkte (Fabio Nodari: 1,5–2,5 Std.)."
+     "lightText": "Mittag – Pause im Park statt im Resort",
+     "text": "Zentrum des Tianzi-Plateaus: Lokale, Imbisse, Seilbahn-Bergstation. Hier Mittag essen und ausruhen; die kleine Runde über die nahen Aussichtspunkte ist eben. Das Licht auf den Nadeln wird erst am Nachmittag gut."
     },
     {
      "type": "stop",
-     "t": "14:40–15:40",
+     "t": "13:30–14:30",
      "spot": "claude-cn-tianzi-mountain-cable-car",
      "opt": true,
      "light": "day",
@@ -1050,7 +1037,7 @@
     },
     {
      "type": "stop",
-     "t": "15:40–16:25",
+     "t": "15:00–16:10",
      "spot": "claude-cn-imperial-brush-peaks",
      "opt": true,
      "sel": true,
@@ -1065,7 +1052,7 @@
     },
     {
      "type": "stop",
-     "t": "16:25–16:40",
+     "t": "16:10–16:30",
      "spot": "claude-cn-fairy-offering-flowers",
      "opt": true,
      "light": "golden",
@@ -1208,27 +1195,14 @@
      "text": "Bergstation 150 m vom Aussichtspunkt Natürliche Große Mauer. 5–6 Min. Fahrt an den Yangjiajie-Wänden entlang, 76 CNY je Richtung, kaum Schlange. Unten gleich wieder hinauf – sonst steht ihr im Tal beim Westtor, 40 Min. Bus bis zum Osttor. Nur wenn Zeit und Lust, kostet gut 30 Min."
     },
     {
-     "type": "move",
-     "mode": "shuttle",
-     "min": 15,
-     "text": "Parkbus Richtung Yuanjiajie, an der Resort-Abzweigung aussteigen (500 m)"
-    },
-    {
-     "type": "hotel",
-     "name": "Zhangjiajie YOLO Resort",
-     "t": "~9:45",
-     "label": "Frühstück, Pause",
-     "text": "Bis ca. 11:00. Lunchpaket oder Snacks mitnehmen, am Bach gibt es nur wenige Stände."
-    },
-    {
      "type": "info",
-     "t": "11:15",
+     "t": "10:30",
      "icon": "🚌",
-     "title": "Feste Abfahrt: Parkbus an der Resort-Abzweigung zum Busbahnhof Yuanjiajie",
+     "title": "Feste Abfahrt: Parkbus ab Yangjiajie-Haltestelle zum Busbahnhof Yuanjiajie",
      "anchor": true,
-     "lat": 29.3703,
-     "lng": 110.431,
-     "text": "Feste Zeit, damit Lift, Bach und Mihun Tai am Abend unabhängig vom Morgen bleiben. Spätestens 11:05 am Resort los."
+     "lat": 29.36178,
+     "lng": 110.42303,
+     "text": "Direkt weiter, keine Rückkehr zum Resort – Snacks und Wasser für den Bach von Anfang an dabeihaben (an der Haltestelle gibt es Imbisse). Ca. 15 Min. Fahrt, dann 800 m zur Bailong-Bergstation. Feste Zeit, damit Lift, Bach und Mihun Tai am Abend unabhängig vom Morgen bleiben."
     },
     {
      "type": "move",
@@ -1238,7 +1212,7 @@
     },
     {
      "type": "stop",
-     "t": "11:30–11:50",
+     "t": "11:00–11:20",
      "spot": "claude-cn-bailong-elevator",
      "opt": true,
      "sel": true,
@@ -1253,7 +1227,7 @@
     },
     {
      "type": "stop",
-     "t": "11:50–13:20",
+     "t": "11:20–12:50",
      "spot": "claude-cn-luanchuanpo-trail",
      "opt": true,
      "light": "day",
@@ -1267,7 +1241,7 @@
     },
     {
      "type": "stop",
-     "t": "13:20–13:35",
+     "t": "12:50–13:05",
      "spot": "claude-cn-qianlixianghui",
      "opt": true,
      "light": "midday",
@@ -1281,7 +1255,7 @@
     },
     {
      "type": "stop",
-     "t": "12:00–14:30",
+     "t": "11:30–14:30",
      "spot": "claude-cn-golden-whip-stream",
      "opt": true,
      "sel": true,

@@ -6752,6 +6752,51 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_hallelujah_3.jpg",
     "caption": "",
     "credit": "Pierre Bodilis · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/47248097@N07/4331000455/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/47248097@N07/4331000455/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_avatar_1.jpg",
+    "caption": "",
+    "credit": "xiangqian ni2 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/41562754@N00/5061388276/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/41562754@N00/5061388276/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_avatar_2.jpg",
+    "caption": "",
+    "credit": "狂奔的蜗牛-Leo · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/losk/6975082110/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/losk/6975082110/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_avatar_3.jpg",
+    "caption": "",
+    "credit": "Sek Keung Lo (S.K. LO) · Flickr · CC BY-NC 2.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/speeed/6240885730/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/speeed/6240885730/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_avatar_4.jpg",
+    "caption": "",
+    "credit": "speeedr · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/chicosan/6038032497/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chicosan/6038032497/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_avatar_5.jpg",
+    "caption": "",
+    "credit": "Chris Leung (Chico Leung) · Flickr"
    }
   ],
   "pop": 5,
@@ -6805,6 +6850,51 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_first-bridge_3.jpg",
     "caption": "",
     "credit": "Toby Garden · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/magalidevrin/6025562398/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/magalidevrin/6025562398/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_firstbridge_1.jpg",
+    "caption": "",
+    "credit": "maga_dv · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/chriswv/4605367851/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chriswv/4605367851/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_firstbridge_2.jpg",
+    "caption": "",
+    "credit": "Christopher Fisher (cfisher6) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/rwoan/26896797730/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/rwoan/26896797730/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_firstbridge_3.jpg",
+    "caption": "",
+    "credit": "Ronald Woan (rwoan) · Flickr · CC BY-NC 2.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/maggie-photo-gallery/483424732/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/maggie-photo-gallery/483424732/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_firstbridge_4.jpg",
+    "caption": "",
+    "credit": "Little Mai · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/30476772@N00/13715349/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/30476772@N00/13715349/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_firstbridge_5.jpg",
+    "caption": "",
+    "credit": "Xin Gao (Gaoxin) · Flickr"
    }
   ],
   "pop": 5,
@@ -6840,6 +6930,78 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_mihuntai_1.jpg",
     "caption": "",
     "credit": "Sura Ark (suraark) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/woodtommy/3007233458/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/woodtommy/3007233458/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_mihuntai_1.jpg",
+    "caption": "",
+    "credit": "woodtommy · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/hengdamay/5116333421/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/hengdamay/5116333421/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_mihuntai_2.jpg",
+    "caption": "",
+    "credit": "hengda may · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/cangyingmayixiezi/8246415409/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/cangyingmayixiezi/8246415409/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_mihuntai_3.jpg",
+    "caption": "",
+    "credit": "Yeye 张 (苍蝇蚂蚁蝎子) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/hengdamay/5116341889/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/hengdamay/5116341889/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_mihuntai_4.jpg",
+    "caption": "",
+    "credit": "hengda may · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/21568093@N00/25670321185/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/21568093@N00/25670321185/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_mihuntai_5.jpg",
+    "caption": "",
+    "credit": "martinwnl · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/ida_leo/6374951229/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/ida_leo/6374951229/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_mihuntai_6.jpg",
+    "caption": "",
+    "credit": "Ida & Leo · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/xjtusynyan/8439757355/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/xjtusynyan/8439757355/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_mihuntai_7.jpg",
+    "caption": "",
+    "credit": "Tiger-Hunts-At-Night · Flickr"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/zhangjiajie-23-139212320/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/zhangjiajie-23-139212320/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_mihuntai_8.jpg",
+    "caption": "",
+    "credit": "Lee Lee Sam · Trip Moments"
    }
   ],
   "pop": 4,
@@ -8894,6 +9056,51 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_yuanjiazhai_3.jpg",
     "caption": "",
     "credit": "紀 奇珍 (chi19631) · Flickr"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/zhangjiajie-23-149034873/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/zhangjiajie-23-149034873/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yuanjiazhai_1.jpg",
+    "caption": "",
+    "credit": "RadiantSun333333 · Trip Moments"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/zhangjiajie-23-149034873/",
+    "username": "",
+    "profile_url": "https://www.trip.com/moments/detail/zhangjiajie-23-149034873/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yuanjiazhai_2.jpg",
+    "caption": "",
+    "credit": "RadiantSun333333 · Trip Moments"
+   },
+   {
+    "url": "https://touch.travel.qunar.com/poi/7469528",
+    "username": "",
+    "profile_url": "https://touch.travel.qunar.com/poi/7469528",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yuanjiazhai_3.jpg",
+    "caption": "",
+    "credit": "去哪儿用户 · Qunar"
+   },
+   {
+    "url": "https://touch.travel.qunar.com/poi/7469528",
+    "username": "",
+    "profile_url": "https://touch.travel.qunar.com/poi/7469528",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yuanjiazhai_4.jpg",
+    "caption": "",
+    "credit": "去哪儿用户 · Qunar"
+   },
+   {
+    "url": "https://www.flickr.com/photos/28075177@N02/3753660058/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/28075177@N02/3753660058/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yuanjiazhai_5.jpg",
+    "caption": "",
+    "credit": "Wing Chung Ma (mawingchung,,,) · Flickr"
    }
   ],
   "pop": 3,
@@ -9115,6 +9322,42 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_backgarden_4.jpg",
     "caption": "",
     "credit": "Lingyu Wang (wlyu2001) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/traveller/461484999/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/traveller/461484999/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_backgarden_1.jpg",
+    "caption": "",
+    "credit": "hk_traveller · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/iamariver2011/5490253917/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/iamariver2011/5490253917/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_backgarden_2.jpg",
+    "caption": "",
+    "credit": "iamariver2011 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/iamariver2011/5490254291/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/iamariver2011/5490254291/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_backgarden_3.jpg",
+    "caption": "",
+    "credit": "iamariver2011 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/smarttony/106333933/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/smarttony/106333933/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_backgarden_4.jpg",
+    "caption": "",
+    "credit": "mftonywong · Flickr"
    }
   ],
   "pop": 4,

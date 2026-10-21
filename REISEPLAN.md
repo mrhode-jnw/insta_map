@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 09:00 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 09:11 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -184,16 +184,14 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **9:35–9:55** ◻︎ optional: **Yuanjiajie Back Garden 后花园** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Vormittag – Aussichtspunkt am Ostrand des Yuanjiajie-Rundwegs, oberhalb des Luanchuanpo-Steigs (400 m östlich vom Mihun Tai). Optional, wenn nach der Runde noch Lust ist.
   - ↓ 🚶 zu Fuß · ca. 15 Min.
 - **10:10–10:40** ◻︎ optional: **Yuanjiazhai 袁家寨子** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Vormittag – Innenhöfe – Tujia-Dorf/Museum direkt am Busbahnhof Yuanjiajie, 8–17 Uhr, Extra-Ticket. Optional vor dem Bus zurück.
-  - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus Richtung Yangjiajie/Tianzi, an der Resort-Abzweigung aussteigen (500 m))
-- **~9:45** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
-- **13:10** 🚌 **Feste Abfahrt: Parkbus an der Resort-Abzweigung Richtung Tianzi** – Feste Zeit, damit der Nachmittag auf dem Tianzi-Berg unabhängig vom Morgen bleibt (letzter Bus zurück ca. 18:00). Spätestens 13:00 am Resort los.
-  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Parkbus Richtung Tianzi (Helong Park), ca. 35–40 Min., ggf. in Yangjiajie oder am Busbahnhof umsteigen)
-- **14:00–14:40** ◻︎ optional: **Helong Park 贺龙公园** (Tianzi Mountain, Hunan) · Licht: Nachmittag – Zentrum des Tianzi-Plateaus: Lokale, Imbisse, Seilbahn-Bergstation. Gemütliche Runde über die Aussichtspunkte (Fabio Nodari: 1,5–2,5 Std.).
-- **14:40–15:40** ◻︎ optional: **Tianzi Mountain Cable Car 天子山索道** (Tianzi Mountain, Wulingyuan, Hunan) · Licht: Nachmittag – aus der Gondel über die Felsnadeln – Nur zum Fotografieren: Bergstation gut 1 km nördlich vom Helong Park (15 Min. zu Fuß), 6–7 Min. Fahrt über die Felsnadeln, 72 CNY je Richtung, unten gleich wieder hinauf (Schlange nach 15 Uhr meist unter 15 Min.). Kostet mit Hin- und Rückweg etwa eine Stunde – wer die Zeit lieber an den Aussichtspunkten verbringt, lässt es weg.
+- **10:45** 🚌 **Feste Abfahrt: Parkbus ab Busbahnhof Yuanjiajie zum Tianzi-Berg** – Direkt weiter, keine Rückkehr zum Resort. Ca. 35–40 Min. bis Helong Park, ggf. in Yangjiajie umsteigen. Feste Zeit, damit der Nachmittag auf dem Tianzi-Berg unabhängig vom Morgen bleibt (letzter Bus zurück ca. 18:00).
+  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Parkbus zum Tianzi-Berg (Helong Park))
+- **11:30–13:30** ◻︎ optional: **Helong Park 贺龙公园** (Tianzi Mountain, Hunan) · Licht: Mittag – Pause im Park statt im Resort – Zentrum des Tianzi-Plateaus: Lokale, Imbisse, Seilbahn-Bergstation. Hier Mittag essen und ausruhen; die kleine Runde über die nahen Aussichtspunkte ist eben. Das Licht auf den Nadeln wird erst am Nachmittag gut.
+- **13:30–14:30** ◻︎ optional: **Tianzi Mountain Cable Car 天子山索道** (Tianzi Mountain, Wulingyuan, Hunan) · Licht: Nachmittag – aus der Gondel über die Felsnadeln – Nur zum Fotografieren: Bergstation gut 1 km nördlich vom Helong Park (15 Min. zu Fuß), 6–7 Min. Fahrt über die Felsnadeln, 72 CNY je Richtung, unten gleich wieder hinauf (Schlange nach 15 Uhr meist unter 15 Min.). Kostet mit Hin- und Rückweg etwa eine Stunde – wer die Zeit lieber an den Aussichtspunkten verbringt, lässt es weg.
   - ↓ 🚶 zu Fuß · ca. 10 Min.
-- **15:40–16:25** ◻︎ optional: **Imperial Brush Peaks 御笔峰** (Tianzi Mountain, Hunan) · Licht: Nachmittagslicht – Streiflicht auf den Nadeln – 70-200, Felsnadeln isolieren. Daneben „Fee bietet Blumen dar“ (仙女献花).
+- **15:00–16:10** ◻︎ optional: **Imperial Brush Peaks 御笔峰** (Tianzi Mountain, Hunan) · Licht: Nachmittagslicht – Streiflicht auf den Nadeln – 70-200, Felsnadeln isolieren. Daneben „Fee bietet Blumen dar“ (仙女献花).
   - ↓ 🚶 zu Fuß · ca. 3 Min.
-- **16:25–16:40** ◻︎ optional: **Fairy Offering Flowers 仙女献花** (Tianzi Mountain, Wulingyuan, Hunan) · Licht: Nachmittagslicht – Direkt neben dem Kaiserpinsel-Aussichtspunkt, 100 m vom Helong Park: die einzelne Säule „Fee streut Blumen“ vor dem Nadelwald. 70-200. Optional, 15 Min.
+- **16:10–16:30** ◻︎ optional: **Fairy Offering Flowers 仙女献花** (Tianzi Mountain, Wulingyuan, Hunan) · Licht: Nachmittagslicht – Direkt neben dem Kaiserpinsel-Aussichtspunkt, 100 m vom Helong Park: die einzelne Säule „Fee streut Blumen“ vor dem Nadelwald. 70-200. Optional, 15 Min.
   - ↓ 🚶 zu Fuß · ca. 15 Min.
 - **16:40–17:25** ◻︎ optional: **Xihai Stone Forest 西海峰林** (Tianzi Mountain, Hunan) · Licht: goldene Stunde – das „Westmeer“ liegt im Abendlicht (Sonnenuntergang 18:00 nur mit Hotelauto) – Weit mit dem 16-35. Spätestens 17:30 am Busbahnhof Tianzi: letzter Parkbus ca. 18:00. Wer bis zum Sonnenuntergang bleiben will, bestellt das Hotelauto für 18:15 an den Helong Park.
   - ↓ 🚌 Bus/Seilbahn · ca. 45 Min. (letzter Parkbus ab Tianzi spätestens 18:00 (ca. 35–45 Min., an der Resort-Abzweigung aussteigen))
@@ -214,17 +212,15 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚶 zu Fuß · ca. 20 Min.
 - **9:15–9:45** ◻︎ optional: **One Step to Heaven 一步登天** (Yangjiajie, Wulingyuan, Hunan) · Licht: Vormittag – Kleine Aussichtsplattform über eine 32-stufige Eisenleiter, südlich vom Tianbo-Weg. Optional, wenn die Runde gut lief.
 - **9:45–10:15** ◻︎ optional: **Yangjiajie Cable Car 杨家界索道** (Yangjiajie, Wulingyuan, Hunan) · Licht: Vormittag – steilste Bahn im Park – Bergstation 150 m vom Aussichtspunkt Natürliche Große Mauer. 5–6 Min. Fahrt an den Yangjiajie-Wänden entlang, 76 CNY je Richtung, kaum Schlange. Unten gleich wieder hinauf – sonst steht ihr im Tal beim Westtor, 40 Min. Bus bis zum Osttor. Nur wenn Zeit und Lust, kostet gut 30 Min.
-  - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus Richtung Yuanjiajie, an der Resort-Abzweigung aussteigen (500 m))
-- **~9:45** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
-- **11:15** 🚌 **Feste Abfahrt: Parkbus an der Resort-Abzweigung zum Busbahnhof Yuanjiajie** – Feste Zeit, damit Lift, Bach und Mihun Tai am Abend unabhängig vom Morgen bleiben. Spätestens 11:05 am Resort los.
+- **10:30** 🚌 **Feste Abfahrt: Parkbus ab Yangjiajie-Haltestelle zum Busbahnhof Yuanjiajie** – Direkt weiter, keine Rückkehr zum Resort – Snacks und Wasser für den Bach von Anfang an dabeihaben (an der Haltestelle gibt es Imbisse). Ca. 15 Min. Fahrt, dann 800 m zur Bailong-Bergstation. Feste Zeit, damit Lift, Bach und Mihun Tai am Abend unabhängig vom Morgen bleiben.
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus zum Busbahnhof Yuanjiajie, 800 m zu Fuß zur Bailong-Bergstation)
-- **11:30–11:50** ◻︎ optional: **Bailong Elevator 百龙天梯** (Wulingyuan, Hunan) · Licht: Mittag – Architektur – Mit Hike: statt Lift den Luanchuanpo-Steig (乱窜坡, ca. 3.000 Stufen, 1,5–2 Std., Einstieg am Yuanjiajie-Rundweg nahe der Ersten Brücke) hinunter – unten am Bach bei Qianlixianghui (千里相会) heraus, von dort 2,5 km bachabwärts bis Shuiraosimen. Ohne Hike: Lift hinunter (65–72 CNY, mittags kaum Schlange); den Lift von der Plattform oben entlang der Wand fotografieren.
+- **11:00–11:20** ◻︎ optional: **Bailong Elevator 百龙天梯** (Wulingyuan, Hunan) · Licht: Mittag – Architektur – Mit Hike: statt Lift den Luanchuanpo-Steig (乱窜坡, ca. 3.000 Stufen, 1,5–2 Std., Einstieg am Yuanjiajie-Rundweg nahe der Ersten Brücke) hinunter – unten am Bach bei Qianlixianghui (千里相会) heraus, von dort 2,5 km bachabwärts bis Shuiraosimen. Ohne Hike: Lift hinunter (65–72 CNY, mittags kaum Schlange); den Lift von der Plattform oben entlang der Wand fotografieren.
   - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **11:50–13:20** ◻︎ optional: **Luanchuanpo Trail 乱窜坡** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Mittag – im Wald – Hike-Variante statt Lift: Einstieg am Ostende des Yuanjiajie-Rundwegs beim Hintergarten, über 2.000 Stufen hinunter zum Bach (abwärts ca. 1–1,5 Std.), unten bei Qianlixianghui heraus. Wer das wählt, wählt den Bailong-Lift hinunter ab.
+- **11:20–12:50** ◻︎ optional: **Luanchuanpo Trail 乱窜坡** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Mittag – im Wald – Hike-Variante statt Lift: Einstieg am Ostende des Yuanjiajie-Rundwegs beim Hintergarten, über 2.000 Stufen hinunter zum Bach (abwärts ca. 1–1,5 Std.), unten bei Qianlixianghui heraus. Wer das wählt, wählt den Bailong-Lift hinunter ab.
   - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **13:20–13:35** ◻︎ optional: **Qianlixianghui 千里相会** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Mittag – Felsnadeln von unten – Doppelte Felsnadel „Treffen nach tausend Meilen“ am Bach, unteres Ende des Luanchuanpo-Steigs. Von hier 2,5 km bachabwärts bis Shuiraosimen.
+- **12:50–13:05** ◻︎ optional: **Qianlixianghui 千里相会** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Mittag – Felsnadeln von unten – Doppelte Felsnadel „Treffen nach tausend Meilen“ am Bach, unteres Ende des Luanchuanpo-Steigs. Von hier 2,5 km bachabwärts bis Shuiraosimen.
   - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **12:00–14:30** ◻︎ optional: **Golden Whip Stream 金鞭溪** (Wulingyuan, Hunan) · Licht: Mittag – im schattigen Tal, Pol-Filter – Ebener Bachweg unter den Säulen, Makaken (kein Essen in Plastiktüten). Mit Hike: ihr kommt vom Luanchuanpo bachabwärts und seht so 2,5 km des Bachs. Ohne Hike: ab Shuiraosimen 2–3 km bachaufwärts und zurück (Fabio Nodari: „a gentle taste“, 1,5–2 Std.). Der ganze Bach (5,8 km) endet am Südtor außerhalb des Parks – nicht an diesem Tag.
+- **11:30–14:30** ◻︎ optional: **Golden Whip Stream 金鞭溪** (Wulingyuan, Hunan) · Licht: Mittag – im schattigen Tal, Pol-Filter – Ebener Bachweg unter den Säulen, Makaken (kein Essen in Plastiktüten). Mit Hike: ihr kommt vom Luanchuanpo bachabwärts und seht so 2,5 km des Bachs. Ohne Hike: ab Shuiraosimen 2–3 km bachaufwärts und zurück (Fabio Nodari: „a gentle taste“, 1,5–2 Std.). Der ganze Bach (5,8 km) endet am Südtor außerhalb des Parks – nicht an diesem Tag.
   - ↓ 🚶 zu Fuß · ca. 5 Min.
 - **14:30–14:45** ◻︎ optional: **Shuiraosimen 水绕四门** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Nachmittag – Zusammenfluss von vier Bächen am Ende des Golden Whip Stream; Busknoten, von hier Parkbus 10 Min. zur Bailong-Talstation.
   - ↓ 🚌 Bus/Seilbahn · ca. 30 Min. (Bailong-Lift hinauf (65–72 CNY, nachmittags kurze Schlange) – oben 800 m zum Mihun Tai; Pause an den Lokalen am Busbahnhof Yuanjiajie / Yuanjiazhai)
