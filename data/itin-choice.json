@@ -22,9 +22,10 @@
  },
  "2026-10-25": {
   "opt": [
-   "Start A: Hotelauto zur Yangjiajie-Haltestelle",
+   "Start B: mit dem ersten Parkbus",
    "claude-cn-natural-great-wall-viewpoint",
    "claude-cn-yangjiajie-tianbo-mansion",
+   "claude-cn-yangjiajie-cable-car",
    "claude-cn-bailong-elevator",
    "claude-cn-golden-whip-stream",
    "claude-cn-mihun-tai-enchanting-terrace"
