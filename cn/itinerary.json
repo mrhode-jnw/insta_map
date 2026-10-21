@@ -785,7 +785,7 @@
   },
   {
    "date": "2026-10-23",
-   "title": "Fenghuang → Zhangjiajie · ankommen im YOLO Resort",
+   "title": "Fenghuang → Zhangjiajie · ankommen im YOLO Resort · Sonnenuntergang zu Fuß in Yangjiajie",
    "status": "Entwurf",
    "items": [
     {
@@ -843,27 +843,28 @@
      "name": "Zhangjiajie YOLO Resort",
      "t": "~15:10",
      "label": "Check-in",
-     "text": "Lage: Teeplantage auf dem Plateau, 600 m von der Parkbus-Straße Yuanjiajie–Yangjiajie. Zu Fuß über die Straße: Yangjiajie-Haltestelle 4,6 km (1 Std.), Busbahnhof Yuanjiajie/Mihun Tai 7,5 km (1 Std. 40) – einen Direktweg gibt es laut Karte und Satellitenbild nicht."
+     "text": "Lage: Teeplantage „云上茶园“ am Nordrand des Plateaus, Zufahrt 500 m bis zur Parkbus-Straße Yuanjiajie–Yangjiajie (an der Abzweigung halten die Parkbusse). Zu Fuß über die Straße: Yangjiajie-Haltestelle 3,7 km (50 Min.), Busbahnhof Yuanjiajie 4,7 km (1 Std.), von dort 800 m zum Mihun Tai – einen Direktpfad gibt es nicht. Parkbusse ca. 7:00–18:00; alles davor/danach nur mit dem Hotelauto (am Vorabend bestellen)."
     },
     {
      "type": "info",
-     "t": "15:30–18:15",
+     "t": "15:20–15:50",
      "icon": "🍵",
-     "title": "Ankommen: Teeplantage, Sunset-Spot des Resorts",
+     "title": "Ankommen: Teeplantage, Weg zur Busstraße anschauen",
      "opt": true,
      "sel": true,
      "lat": 29.3716,
      "lng": 110.4296,
-     "text": "Entspannter erster Abend: Teeplantage und See hinter dem Resort, Sunset-Spot des Resorts (Personal fragen, laut Gästen vorhanden), dabei den Weg zur Busstraße anschauen, damit ihr morgen früh wisst, wo der Bus hält. Sonnenuntergang 18:00. Früh essen und schlafen – morgen 5:45 Start. Mihun Tai und Avatar seht ihr morgen früh ohne Gruppen, ein Abstecher heute Abend lohnt den Busstress nicht."
+     "text": "Kurz ankommen, Rucksack mit Stirnlampe, Jacke und Wasser packen. Beim Rausgehen die 500 m Zufahrt bis zur Busstraße merken – dort steigt ihr morgen ein. Hotelauto für Samstag 5:45 (Busbahnhof Yuanjiajie) und für Montag 6:30 (Bahnhof) gleich an der Rezeption bestellen. Wer lieber nicht läuft: das Resort wirbt mit „Teeplantagen-Tal-Sonnenuntergang“ – Terrasse bzw. Teefelder hinter dem Haus, Sonnenuntergang 18:00; 1,3 km nördlich über den Feldweg liegt der Hügel 凤栖山 (17 Min., in OSM als Sehenswürdigkeit, nicht geprüft)."
     },
     {
      "type": "stop",
-     "t": "16:30–17:40",
+     "t": "16:45–17:50",
      "spot": "claude-cn-yangjiajie-tianbo-mansion",
      "opt": true,
-     "light": "golden",
-     "lightText": "Spätes Licht – Sonnenuntergang 18:00",
-     "text": "Alternative für den ersten Abend, wenn ihr Lust auf Bewegung habt: zu Fuß über die Straße 4,6 km (1 Std.) zu den Aussichtspunkten „Natürliche Große Mauer“ nahe der Yangjiajie-Haltestelle (nicht die Leitern zum Tianbo Fu, das ist für Sonntagmorgen). Zurück mit dem letzten Parkbus Richtung Yuanjiajie (ca. 17:45–18:00, am Resort aussteigen) oder 1 Std. zu Fuß mit Stirnlampe."
+     "sel": true,
+     "light": "sunset",
+     "lightText": "Spätes Licht auf den Felswänden – Sonnenuntergang 18:00",
+     "text": "Sonnenuntergangs-Spot in Laufweite: ab 15:50 zu Fuß 3,7 km über die Parkbus-Straße bis zur Yangjiajie-Haltestelle (50 Min., oder ab der Abzweigung in einen Parkbus Richtung Yangjiajie springen), von dort 10 Min. zu den Aussichtspunkten „Natürliche Große Mauer“ (天然长城, 29.3620/110.4181) – ohne Leitern, die Tianbo-Fu-Runde ist für Sonntagmorgen. 70-200 für die Felsrippen im Streiflicht. Rückweg: letzter Parkbus Richtung Yuanjiajie ca. 17:45–18:00 (an der Resort-Abzweigung aussteigen, 500 m) – oder 50 Min. zu Fuß mit Stirnlampe; zur Sicherheit vorher fragen, ob das Hotelauto abholen kann."
     },
     {
      "type": "hotel",
@@ -873,7 +874,7 @@
   },
   {
    "date": "2026-10-24",
-   "title": "Zhangjiajie: Yuanjiajie zum Sonnenaufgang · Tianzi-Berg am Nachmittag",
+   "title": "Zhangjiajie Tag 1 (ohne Hikes): Yuanjiajie zum Sonnenaufgang · Tianzi-Berg am Nachmittag",
    "status": "Entwurf",
    "items": [
     {
@@ -885,17 +886,17 @@
      "type": "move",
      "mode": "car",
      "min": 15,
-     "text": "Hotelauto (am Vorabend bestellen) bis Busbahnhof Yuanjiajie – Parkbusse fahren erst ab ca. 7:00, zu Fuß wären es 7,4 km; dann ca. 800 m zu Fuß"
+     "text": "Hotelauto (am Vorabend bestellt) bis Busbahnhof Yuanjiajie – Parkbusse fahren erst ab ca. 7:00, zu Fuß wären es 4,7 km; dann 800 m zu Fuß zum Mihun Tai"
     },
     {
      "type": "stop",
      "t": "6:15–7:30",
      "spot": "claude-cn-mihun-tai-enchanting-terrace",
      "opt": true,
+     "sel": true,
      "light": "sunrise",
-     "lightText": "Sonnenaufgang 6:45 – bei Nebel nach Regen am stärksten",
-     "text": "Stativ ans Geländer, 70-200 für einzelne Säulen. Bis ca. 8:30 fast leer.",
-     "sel": true
+     "lightText": "Sonnenaufgang 6:45 – nach Regen Nebel zwischen den Säulen",
+     "text": "Stativ ans Geländer, 70-200 für einzelne Säulen. Bis ca. 8:30 fast leer – die Gruppen kommen mit dem Bailong-Lift ab ca. 8:00."
     },
     {
      "type": "move",
@@ -907,10 +908,10 @@
      "t": "7:40–8:25",
      "spot": "claude-cn-avatar-hallelujah-mountain",
      "opt": true,
+     "sel": true,
      "light": "golden",
      "lightText": "Morgenlicht",
-     "text": "Vor den Gruppen aus dem Bailong-Lift (Lift fährt ab ca. 7:30–8:00, Gruppen ab ca. 8:30).",
-     "sel": true
+     "text": "Vor den Gruppen (Lift ab ca. 7:30–8:00, Gruppen ab 8:30). Yuanjiajie-Runde insgesamt ca. 2 Std., eben."
     },
     {
      "type": "move",
@@ -922,38 +923,49 @@
      "t": "8:35–9:20",
      "spot": "claude-cn-first-bridge-under-heaven",
      "opt": true,
+     "sel": true,
      "light": "day",
      "lightText": "Vormittag",
-     "text": "Vom offiziellen Aussichtspunkt seitlich. Ganze Yuanjiajie-Runde ca. 2 Std.",
-     "sel": true
+     "text": "Vom offiziellen Aussichtspunkt seitlich. Danach zurück zum Busbahnhof Yuanjiajie (800 m); Imbisse und das Dorf Yuanjiazhai (袁家寨子) liegen direkt daneben."
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 15,
-     "text": "Parkbus ab Busbahnhof Yuanjiajie zurück (fährt jetzt)"
+     "text": "Parkbus Richtung Yangjiajie/Tianzi, an der Resort-Abzweigung aussteigen (500 m)"
     },
     {
      "type": "hotel",
      "name": "Zhangjiajie YOLO Resort",
      "t": "~9:45",
-     "label": "Frühstück, Pause"
+     "label": "Frühstück, Pause",
+     "text": "Bis 13:00 frei – Mittagslicht ist flach, die Tianzi-Aussichten schauen nach Westen und werden erst nachmittags gut."
     },
     {
      "type": "move",
      "mode": "shuttle",
-     "min": 35,
-     "text": "Parkbus zum Tianzi-Berg (Helong Park, ca. 35 Min.), Abfahrt ca. 13:15 – ggf. am Busbahnhof Yuanjiajie umsteigen"
+     "min": 40,
+     "text": "Parkbus ab der Abzweigung Richtung Tianzi (Helong Park) – ca. 35–40 Min., ggf. in Yangjiajie oder am Busbahnhof umsteigen; Abfahrt ca. 13:10"
     },
     {
      "type": "stop",
-     "t": "14:00–14:45",
+     "t": "14:00–14:40",
      "spot": "claude-cn-helong-park",
      "opt": true,
+     "sel": true,
      "light": "day",
      "lightText": "Nachmittag",
-     "text": "Ausgangspunkt der Aussichtspunkte; einfache Lokale/Imbisse. Rundweg Tianzi gemütlich ca. 1,5–2,5 Std.",
-     "sel": true
+     "text": "Zentrum des Tianzi-Plateaus: Lokale, Imbisse, Seilbahn-Bergstation. Gemütliche Runde über die Aussichtspunkte (Fabio Nodari: 1,5–2,5 Std.)."
+    },
+    {
+     "type": "info",
+     "t": "14:40–15:30",
+     "icon": "🚡",
+     "title": "Optional: Tianzi-Seilbahn (天子山索道) hinunter und zurück",
+     "opt": true,
+     "lat": 29.3815,
+     "lng": 110.4897,
+     "text": "Nur zum Fotografieren: 10 Min. Fahrt über die Felsnadeln, 72 CNY je Richtung, unten gleich wieder hinauf (Schlange nachmittags kurz). Die Bergstation liegt am Helong Park. Wer die Zeit lieber an den Aussichtspunkten verbringt, lässt es weg."
     },
     {
      "type": "move",
@@ -962,13 +974,13 @@
     },
     {
      "type": "stop",
-     "t": "14:55–15:50",
+     "t": "15:30–16:20",
      "spot": "claude-cn-imperial-brush-peaks",
      "opt": true,
+     "sel": true,
      "light": "golden",
-     "lightText": "Nachmittagslicht – Streiflicht",
-     "text": "70-200, Felsnadeln isolieren. Daneben „Fee bietet Blumen dar“ (仙女献花).",
-     "sel": true
+     "lightText": "Nachmittagslicht – Streiflicht auf den Nadeln",
+     "text": "70-200, Felsnadeln isolieren. Daneben „Fee bietet Blumen dar“ (仙女献花)."
     },
     {
      "type": "move",
@@ -977,19 +989,19 @@
     },
     {
      "type": "stop",
-     "t": "16:05–17:20",
+     "t": "16:35–17:25",
      "spot": "claude-cn-xihai-stone-forest",
      "opt": true,
+     "sel": true,
      "light": "golden",
-     "lightText": "goldene Stunde (Sonnenuntergang 18:00 nur mit Hotelauto)",
-     "text": "Weit mit dem 16-35. Spätestens 17:30 am Busbahnhof Tianzi – Letzter Parkbus ca. 18:00 – danach nur Hotelauto.",
-     "sel": true
+     "lightText": "goldene Stunde – das „Westmeer“ liegt im Abendlicht (Sonnenuntergang 18:00 nur mit Hotelauto)",
+     "text": "Weit mit dem 16-35. Spätestens 17:30 am Busbahnhof Tianzi: letzter Parkbus ca. 18:00. Wer bis zum Sonnenuntergang bleiben will, bestellt das Hotelauto für 18:15 an den Helong Park."
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 45,
-     "text": "letzter Parkbus ab Tianzi spätestens 18:00 (ca. 35–45 Min., ggf. in Yuanjiajie umsteigen)"
+     "text": "letzter Parkbus ab Tianzi spätestens 18:00 (ca. 35–45 Min., an der Resort-Abzweigung aussteigen)"
     },
     {
      "type": "hotel",
@@ -999,57 +1011,68 @@
   },
   {
    "date": "2026-10-25",
-   "title": "Zhangjiajie: Yangjiajie zum Sonnenaufgang · Golden Whip Stream · Mihun Tai am Abend",
+   "title": "Zhangjiajie Tag 2 (mit Hikes): Yangjiajie-Leitern zum Sonnenaufgang · Abstieg zum Golden Whip Stream · Mihun Tai am Abend",
    "status": "Entwurf",
    "items": [
     {
      "type": "hotel",
      "name": "Zhangjiajie YOLO Resort",
-     "t": "5:15"
+     "t": "5:20"
     },
     {
      "type": "move",
      "mode": "walk",
-     "min": 60,
-     "text": "zu Fuß ca. 4,6 km mit Stirnlampe (oder Hotelauto) – Parkbusse fahren noch nicht"
+     "min": 50,
+     "text": "zu Fuß 3,7 km über die Parkbus-Straße mit Stirnlampe (Parkbusse fahren noch nicht) – oder Hotelauto für 5:50"
     },
     {
      "type": "stop",
-     "t": "6:15–9:00",
+     "t": "6:15–9:15",
      "spot": "claude-cn-yangjiajie-tianbo-mansion",
      "opt": true,
+     "sel": true,
      "light": "sunrise",
-     "lightText": "Sonnenaufgang 6:45",
-     "text": "Sonnenaufgang an den Aussichtspunkten „Natürliche Große Mauer“ (天然长城) nahe der Bushaltestelle – die Eisenleitern hinauf zum Tianbo Fu (天波府) erst bei Tageslicht. Runde Tianbo Fu + Wulong-Dorf (乌龙寨) ca. 2,5–3 Std., steile Leitern.",
-     "sel": true
+     "lightText": "Sonnenaufgang 6:45 an der Natürlichen Großen Mauer, danach Morgenlicht im Tianbo Fu",
+     "text": "Erst die Aussichtspunkte „Natürliche Große Mauer“ (天然长城) nahe der Haltestelle für den Sonnenaufgang. Ab ca. 7:15 bei Tageslicht die Hike-Runde Tianbo Fu (天波府) + Wulong-Dorf (乌龙寨): senkrechte Eisenleitern, enge Felsspalten, oben die Blicke auf die Felswände – laut Fabio Nodari der beste Trail im Park (ca. 3 Std.). Ohne Hike: die leichten Aussichtswege Richtung Natürliche Große Mauer (ca. 2 Std.). Imbisse an der Haltestelle."
+    },
+    {
+     "type": "info",
+     "t": "9:15–9:45",
+     "icon": "🚡",
+     "title": "Optional: Yangjiajie-Seilbahn (杨家界索道) hinunter und zurück",
+     "opt": true,
+     "lat": 29.3577,
+     "lng": 110.415,
+     "text": "8 Min. Fahrt an den Yangjiajie-Wänden entlang, 76 CNY je Richtung; die Bergstation liegt beim Wulong-Dorf. Unten gleich wieder hinauf (sonst steht ihr im Tal, 40 Min. Bus bis zum Osttor). Nur wenn Zeit und Lust – kostet gut 30 Min."
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 15,
-     "text": "Parkbus zurück (ca. 10–15 Min.)"
+     "text": "Parkbus Richtung Yuanjiajie, an der Resort-Abzweigung aussteigen (500 m)"
     },
     {
      "type": "hotel",
      "name": "Zhangjiajie YOLO Resort",
-     "t": "~9:30",
-     "label": "Frühstück, Pause"
+     "t": "~9:45",
+     "label": "Frühstück, Pause",
+     "text": "Bis ca. 11:00. Lunchpaket oder Snacks mitnehmen, am Bach gibt es nur wenige Stände."
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 15,
-     "text": "Parkbus zum Busbahnhof Yuanjiajie, zu Fuß zur Bailong-Bergstation"
+     "text": "Parkbus zum Busbahnhof Yuanjiajie, 800 m zu Fuß zur Bailong-Bergstation"
     },
     {
      "type": "stop",
-     "t": "10:30–10:50",
+     "t": "11:30–11:50",
      "spot": "claude-cn-bailong-elevator",
      "opt": true,
+     "sel": true,
      "light": "midday",
      "lightText": "Mittag – Architektur",
-     "text": "Lift hinunter (65–72 CNY). Den Lift von der Plattform oben entlang der Wand fotografieren. Alternative für Wanderer: Abstieg über den Luanchuanpo-Steig (乱窜坡, ca. 3.000 Stufen, 1,5–2 Std.) direkt hinunter zum Golden Whip Stream.",
-     "sel": true
+     "text": "Mit Hike: statt Lift den Luanchuanpo-Steig (乱窜坡, ca. 3.000 Stufen, 1,5–2 Std., Einstieg am Yuanjiajie-Rundweg nahe der Ersten Brücke) hinunter – unten am Bach bei Qianlixianghui (千里相会) heraus, von dort 2,5 km bachabwärts bis Shuiraosimen. Ohne Hike: Lift hinunter (65–72 CNY, mittags kaum Schlange); den Lift von der Plattform oben entlang der Wand fotografieren."
     },
     {
      "type": "move",
@@ -1059,47 +1082,35 @@
     },
     {
      "type": "stop",
-     "t": "11:00–13:45",
+     "t": "12:00–14:30",
      "spot": "claude-cn-golden-whip-stream",
      "opt": true,
+     "sel": true,
      "light": "midday",
-     "lightText": "Mittag – im schattigen Tal",
-     "text": "Ganzer Bach 5,8 km (ca. 2,5 Std.) bis zum Südtor – dort wärt ihr aber außerhalb (Taxi). Daher ab Shuiraosimen bachaufwärts ca. 2,5–3 km und auf demselben Weg zurück. Affen: kein Essen in Plastiktüten. Pol-Filter für Spiegelungen.",
-     "sel": true
+     "lightText": "Mittag – im schattigen Tal, Pol-Filter",
+     "text": "Ebener Bachweg unter den Säulen, Makaken (kein Essen in Plastiktüten). Mit Hike: ihr kommt vom Luanchuanpo bachabwärts und seht so 2,5 km des Bachs. Ohne Hike: ab Shuiraosimen 2–3 km bachaufwärts und zurück (Fabio Nodari: „a gentle taste“, 1,5–2 Std.). Der ganze Bach (5,8 km) endet am Südtor außerhalb des Parks – nicht an diesem Tag."
     },
     {
      "type": "move",
      "mode": "shuttle",
-     "min": 45,
-     "text": "Bailong-Lift hinauf (nachmittags kaum Schlange) + Parkbus zurück"
-    },
-    {
-     "type": "hotel",
-     "name": "Zhangjiajie YOLO Resort",
-     "t": "~14:45",
-     "label": "Pause"
-    },
-    {
-     "type": "move",
-     "mode": "shuttle",
-     "min": 15,
-     "text": "Parkbus zum Busbahnhof Yuanjiajie, ca. 800 m zu Fuß"
+     "min": 30,
+     "text": "Bailong-Lift hinauf (65–72 CNY, nachmittags kurze Schlange) – oben 800 m zum Mihun Tai; Pause an den Lokalen am Busbahnhof Yuanjiajie / Yuanjiazhai"
     },
     {
      "type": "stop",
-     "t": "16:30–17:40",
+     "t": "16:30–17:45",
      "spot": "claude-cn-mihun-tai-enchanting-terrace",
      "opt": true,
+     "sel": true,
      "light": "golden",
      "lightText": "Spätes Licht – Sonnenuntergang 18:00 nur mit Hotelauto",
-     "text": "Zweiter Versuch – je nachdem, was am Samstag besser war. Letzter Parkbus ca. 18:00 – danach nur Hotelauto.",
-     "sel": true
+     "text": "Zweiter Versuch im Abendlicht – je nachdem, was am Samstag gefehlt hat (oder Avatar-Säule 10 Min. weiter). Letzter Parkbus ab Busbahnhof Yuanjiajie ca. 18:00; wer den Sonnenuntergang voll mitnehmen will, bestellt das Hotelauto für 18:15."
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 15,
-     "text": "letzter Parkbus ca. 17:45–18:00 zurück"
+     "text": "letzter Parkbus ca. 17:45–18:00 zurück (Resort-Abzweigung)"
     },
     {
      "type": "hotel",
@@ -1117,7 +1128,7 @@
      "name": "Zhangjiajie YOLO Resort",
      "t": "~6:30",
      "label": "Check-out",
-     "text": "Vor dem ersten Parkbus: Auto direkt am Resort (wie bei der Anreise) am Vortag bestellen. Frühstück als Lunchpaket."
+     "text": "Nur Abreise: Auto direkt am Resort (wie bei der Anreise) am Vortag bestellen – vor dem ersten Parkbus, ca. 1 Std. 40 bis zum Bahnhof. Frühstück als Lunchpaket. Sonnenaufgang 6:46 fällt in die Fahrt."
     },
     {
      "type": "move",
