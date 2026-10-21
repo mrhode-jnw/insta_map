@@ -7344,7 +7344,80 @@ window.PLACES_CN = [
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/77604163@N00/207164262/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/77604163@N00/207164262/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_helong_1.jpg",
+    "caption": "",
+    "credit": "东门晒日头 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/11215832@N07/38633147291/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/11215832@N07/38633147291/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_helong_2.jpg",
+    "caption": "",
+    "credit": "tracy_winglam · Flickr"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:He_Long_statue.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:He_Long_statue.jpg",
+    "kind": "photo",
+    "image": "images/claude_zjj2_helong_3.jpg",
+    "caption": "",
+    "credit": "Codas · CC BY-SA 4.0 · Wikimedia Commons"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Helong_park_06.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Helong_park_06.jpg",
+    "kind": "photo",
+    "image": "images/claude_zjj2_helong_4.jpg",
+    "caption": "",
+    "credit": "Codas · CC BY-SA 4.0 · Wikimedia Commons"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Helong_park_07.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Helong_park_07.jpg",
+    "kind": "photo",
+    "image": "images/claude_zjj2_helong_5.jpg",
+    "caption": "",
+    "credit": "Codas · CC BY-SA 4.0 · Wikimedia Commons"
+   },
+   {
+    "url": "https://www.flickr.com/photos/lowiget/4752286665/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lowiget/4752286665/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_helong_6.jpg",
+    "caption": "",
+    "credit": "lowiget · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/wishingbone/5280350550/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/wishingbone/5280350550/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_helong_7.jpg",
+    "caption": "",
+    "credit": "Jesse (wishingbone) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/mplau/510777504/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/mplau/510777504/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_helong_8.jpg",
+    "caption": "",
+    "credit": "mplau · Flickr"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Zentrum von Tianzi Mountain mit Aussicht auf Imperial Brush",
   "image_page": "https://commons.wikimedia.org/wiki/File:Helong_park_04.jpg",
@@ -7405,6 +7478,51 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_yubi_3.jpg",
     "caption": "",
     "credit": "Jay Huang (Jaykhuang) · Flickr · CC BY-NC 2.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/kurtlee/7835025470/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kurtlee/7835025470/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_imperialbrush_1.jpg",
+    "caption": "",
+    "credit": "Kurt LEE (Kurtlee) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/virtualwayfarer/55355145731/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/virtualwayfarer/55355145731/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_imperialbrush_2.jpg",
+    "caption": "",
+    "credit": "Alex Berger (virtualwayfarer) · Flickr · CC BY-NC 4.0"
+   },
+   {
+    "url": "https://www.flickr.com/photos/hengdamay/5116750876/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/hengdamay/5116750876/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_imperialbrush_3.jpg",
+    "caption": "",
+    "credit": "hengda may · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/39489005@N05/31117958477/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/39489005@N05/31117958477/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_imperialbrush_4.jpg",
+    "caption": "",
+    "credit": "Clement Tang (Clement Tang *) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/suraark/6320025183/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/suraark/6320025183/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_imperialbrush_5.jpg",
+    "caption": "",
+    "credit": "Sura Ark (suraark) · Flickr"
    }
   ],
   "pop": 5,
@@ -7458,6 +7576,51 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_xihai_2.jpg",
     "caption": "",
     "credit": "Toby Garden · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/24164990@N07/2880773137/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/24164990@N07/2880773137/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_xihai_1.jpg",
+    "caption": "",
+    "credit": "Vincent LIU (Vincent H P Liu) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/51779706@N02/8708784597/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/51779706@N02/8708784597/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_xihai_2.jpg",
+    "caption": "",
+    "credit": "YanShots · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/vreal/1961404/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/vreal/1961404/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_xihai_3.jpg",
+    "caption": "",
+    "credit": "zhou ye (Bruce Zhou) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/toby_garden/11664508474/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/toby_garden/11664508474/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_xihai_4.jpg",
+    "caption": "",
+    "credit": "Toby Garden · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/24164990@N07/2881620428/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/24164990@N07/2881620428/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_xihai_5.jpg",
+    "caption": "",
+    "credit": "Vincent LIU (Vincent H P Liu) · Flickr"
    }
   ],
   "pop": 5,
@@ -9124,6 +9287,51 @@ window.PLACES_CN = [
     "image": "images/claude-cn-tianzi-mountain-cable-car_3.jpg",
     "caption": "",
     "credit": "Laurent ICOLEF · CC BY-SA 4.0 · Wikimedia Commons"
+   },
+   {
+    "url": "https://www.flickr.com/photos/79191095@N00/37608301845/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/79191095@N00/37608301845/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_tianzicable_1.jpg",
+    "caption": "",
+    "credit": "Mark Tindale · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/supersky77/55489150925/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/supersky77/55489150925/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_tianzicable_2.jpg",
+    "caption": "",
+    "credit": "Michele D'Amico (supersky77) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/wwny/2471906819/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/wwny/2471906819/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_tianzicable_3.jpg",
+    "caption": "",
+    "credit": "wEnDy (wEnDaLicious) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/danieltam/53432376340/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/danieltam/53432376340/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_tianzicable_4.jpg",
+    "caption": "",
+    "credit": "Daniel 谭 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/regulusliu/240515179/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/regulusliu/240515179/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_tianzicable_5.jpg",
+    "caption": "",
+    "credit": "jingxuan liu (jingxuan_l) · Flickr · CC BY-NC 2.0"
    }
   ],
   "pop": 3,
@@ -10077,6 +10285,51 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_fairyflowers_4.jpg",
     "caption": "",
     "credit": "martinwnl · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/hengdamay/5116674938/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/hengdamay/5116674938/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_fairyflowers_1.jpg",
+    "caption": "",
+    "credit": "hengda may · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/llin98/29556068370/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/llin98/29556068370/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_fairyflowers_2.jpg",
+    "caption": "",
+    "credit": "llin98 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/kwokkklo/2555190403/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kwokkklo/2555190403/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_fairyflowers_3.jpg",
+    "caption": "",
+    "credit": "老懵兔 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/24896895@N06/3193650834/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/24896895@N06/3193650834/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_fairyflowers_4.jpg",
+    "caption": "",
+    "credit": "GZDJK · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/wwny/2428112814/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/wwny/2428112814/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_fairyflowers_5.jpg",
+    "caption": "",
+    "credit": "wEnDy (wEnDaLicious) · Flickr"
    }
   ],
   "pop": 3,
