@@ -1258,5 +1258,89 @@
   "image": "images/claude_fjs_laojinding_1.jpg",
   "image_page": "https://www.flickr.com/photos/lightmeister/55570927768/",
   "image_credit": "lightmeister · Flickr"
+ },
+ {
+  "name": "Xueqiao Snow Bridge 雪桥",
+  "lat": 27.95446,
+  "lng": 109.59663,
+  "approx": false,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "cat": "Brücke",
+  "pop": 4,
+  "reason": "Überdachte Brücke flussaufwärts mit Blick den Tuo-Fluss hinab",
+  "tip": "Holzbrücke am oberen Ende der Altstadt, 5 Min. vom Hotel. Von der Brücke flussabwärts: Stelzenhäuser, Schrittsteine, dahinter Hongqiao. Morgens Gegenlicht im Dunst (Sonnenaufgang 6:46 aus Osten, also flussabwärts), abends weiches Seitenlicht. 70–200 für Boote von oben, 24–70 für den Fluss.",
+  "date": "22./23.10."
+ },
+ {
+  "name": "Tuojiang Stepping Stones 跳岩",
+  "lat": 27.95346,
+  "lng": 109.5981,
+  "approx": false,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "cat": "Aussicht",
+  "pop": 4,
+  "reason": "Schrittsteine über den Tuo-Fluss, das klassische Motiv",
+  "tip": "Die Steine liegen flussaufwärts vom Nordtor. Vom Ufer daneben mit Stativ flussabwärts Richtung Hongqiao: zur blauen Stunde (ca. 18:15–18:50) Lichter und Spiegelungen, morgens vor 7 Uhr fast leer. 16–35, f/8–11, 10–30 s. Nicht auf den Steinen stehen bleiben – dort ist Gegenverkehr.",
+  "date": "22./23.10."
+ },
+ {
+  "name": "North Gate Tower 北门城楼",
+  "lat": 27.95291,
+  "lng": 109.59837,
+  "approx": false,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "cat": "Architektur",
+  "pop": 4,
+  "reason": "Stadttor am Fluss mit Stadtmauer",
+  "tip": "Das Nordtor mit Mauerstück direkt am Ufer, daneben Bootsanleger und Schrittsteine. Durch das Tor auf die Lichter am Fluss (Silhouette), von der Mauer flussabwärts auf Hongqiao. Abends ab 18:15 beleuchtet.",
+  "date": "22./23.10."
+ },
+ {
+  "name": "Rainbow Bridge 虹桥",
+  "lat": 27.9518,
+  "lng": 109.60184,
+  "approx": false,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "cat": "Brücke",
+  "pop": 4,
+  "reason": "Überdachte Wahrzeichen-Brücke, nachts beleuchtet",
+  "tip": "Die Hongqiao (虹桥风雨楼) überspannt den Fluss mitten in der Altstadt, im Obergeschoss Galerie und Cafés mit Flussfenstern. Nachts in Gelb und Rot beleuchtet – vom Ufer beim Nordtor oder von den Schrittsteinen aus fotografieren, auf der Brücke selbst ist es eng.",
+  "date": "22./23.10."
+ },
+ {
+  "name": "Wanming Pagoda 万名塔",
+  "lat": 27.95131,
+  "lng": 109.60369,
+  "approx": false,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "cat": "Architektur",
+  "pop": 4,
+  "reason": "Pagode am Ufer flussabwärts, nachts beleuchtet",
+  "tip": "Siebenstöckige Pagode am Südufer flussabwärts von Hongqiao, daneben der Bootsanleger Shawan. Nachts angestrahlt – mit Langzeitbelichtung und der Spiegelung im Fluss. Vom Wind- oder Aussichtsbrücke (风桥/观景桥) flussaufwärts: Pagode, Hongqiao und Häuser hintereinander.",
+  "date": "22./23.10."
+ },
+ {
+  "name": "Wind Bridge 风桥",
+  "lat": 27.94985,
+  "lng": 109.60408,
+  "approx": false,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "cat": "Aussicht",
+  "pop": 4,
+  "reason": "Brücke flussabwärts mit Blick zurück auf Pagode und Altstadt",
+  "tip": "Von hier flussaufwärts (Blick nach NW): Wanming-Pagode, Hongqiao und die Stelzenhäuser hintereinander gestapelt. Morgens bekommt die Häuserzeile Licht von hinten-links, abends Gegenlicht. 70–200 für den Tele-Stapel.",
+  "date": "22./23.10."
+ },
+ {
+  "name": "Nanhua Mountain Viewpoint 南华山观景台",
+  "lat": 27.9475,
+  "lng": 109.6005,
+  "approx": true,
+  "district": "Fenghuang, Xiangxi, Hunan",
+  "cat": "Aussicht",
+  "pop": 4,
+  "reason": "Blick von oben über das Dächermeer der Altstadt",
+  "tip": "Treppenaufstieg ab dem Wenhua-Platz / Nanhua-Tor, ca. 20–30 Min. Oben Blick nach Norden über die grauen Ziegeldächer und den Fluss. Morgens Streiflicht von Osten, gut mit 70–200 für das Ziegelmeer. Öffnungszeit und eventuelles Ticket vor Ort prüfen.",
+  "date": "22./23.10."
  }
 ]

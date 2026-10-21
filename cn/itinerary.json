@@ -847,17 +847,106 @@
     },
     {
      "type": "stop",
-     "t": "17:10–18:45",
+     "t": "16:30–17:00",
      "spot": "cn-fenghuang-ancient-town",
      "plan": true,
-     "light": "blue",
-     "lightText": "goldene Stunde → Sonnenuntergang ~18:05 → blaue Stunde",
-     "text": "Stelzenhäuser am Tuo-Fluss; Hauptmotiv sind die Lichter, wenn sie angehen. Stativ."
+     "light": "golden",
+     "lightText": "später Nachmittag – Gassen und Ufer",
+     "text": "Ankommen in der Altstadt: vom Westtor durch die Gassen zum Fluss. Danach die Aussichtspunkte flussabwärts zur blauen Stunde."
     },
     {
      "type": "move",
      "mode": "walk",
      "min": 5
+    },
+    {
+     "type": "stop",
+     "t": "17:05–17:35",
+     "spot": "claude-cn-xueqiao-snow-bridge",
+     "opt": true,
+     "sel": true,
+     "light": "golden",
+     "lightText": "goldene Stunde – Blick flussabwärts",
+     "text": "Von der Brücke den Fluss hinab: Stelzenhäuser, Schrittsteine, Boote von oben mit 70–200."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 5
+    },
+    {
+     "type": "stop",
+     "t": "17:40–18:20",
+     "spot": "claude-cn-tuojiang-stepping-stones",
+     "opt": true,
+     "sel": true,
+     "light": "sunset",
+     "lightText": "Sonnenuntergang 18:06, die Lichter gehen an",
+     "text": "Stativplatz am Ufer neben den Steinen sichern, Blick flussabwärts zu Hongqiao. Warten, bis die Beleuchtung angeht (ca. 18:15)."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 3
+    },
+    {
+     "type": "stop",
+     "t": "18:20–18:50",
+     "spot": "claude-cn-north-gate-tower",
+     "opt": true,
+     "sel": true,
+     "light": "blue",
+     "lightText": "blaue Stunde 18:15–18:50",
+     "text": "Von der Mauer neben dem Nordtor flussabwärts auf die beleuchtete Hongqiao; durch das Tor Silhouetten gegen die Lichter."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 8
+    },
+    {
+     "type": "stop",
+     "t": "19:00–19:20",
+     "spot": "claude-cn-rainbow-bridge",
+     "opt": true,
+     "sel": true,
+     "light": "night",
+     "lightText": "Nacht – Brücke beleuchtet",
+     "text": "Über die Brücke ans Südufer; oben im Hongqiao-Turm Cafés mit Flussfenster."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 8
+    },
+    {
+     "type": "stop",
+     "t": "19:30–20:10",
+     "spot": "claude-cn-wind-bridge",
+     "opt": true,
+     "sel": true,
+     "light": "night",
+     "lightText": "Nacht – Pagode und Hongqiao in einer Linie",
+     "text": "Von der Windbrücke flussaufwärts: beleuchtete Wanming-Pagode vorn, Hongqiao dahinter, lange Belichtung für glattes Wasser."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 5
+    },
+    {
+     "type": "stop",
+     "t": "20:15–20:35",
+     "spot": "claude-cn-wanming-pagoda",
+     "opt": true,
+     "light": "night",
+     "lightText": "Nacht",
+     "text": "Direkt an der Pagode, Spiegelung im Fluss vom Anleger Shawan."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
     },
     {
      "type": "hotel",
@@ -879,12 +968,70 @@
    "items": [
     {
      "type": "stop",
-     "t": "6:15–7:45",
+     "t": "6:15–6:45",
+     "spot": "claude-cn-tuojiang-stepping-stones",
+     "opt": true,
+     "sel": true,
+     "light": "dawn",
+     "lightText": "Dämmerung – Fluss fast leer",
+     "text": "Vor Sonnenaufgang: einzelne Menschen auf den Steinen, Langzeitbelichtung für glattes Wasser."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 5
+    },
+    {
+     "type": "stop",
+     "t": "6:50–7:20",
+     "spot": "claude-cn-xueqiao-snow-bridge",
+     "opt": true,
+     "sel": true,
+     "light": "sunrise",
+     "lightText": "Sonnenaufgang 6:46, über den Hügeln ca. 7:05 – Gegenlicht im Dunst",
+     "text": "Flussabwärts in die aufgehende Sonne: Dunst, Boote, Angler am Ufer."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
+    },
+    {
+     "type": "stop",
+     "t": "7:35–8:00",
      "spot": "cn-fenghuang-ancient-town",
      "plan": true,
-     "light": "sunrise",
-     "lightText": "Sonnenaufgang 6:46, Dunst über dem Fluss",
-     "text": "Gassen und Ufer noch leer."
+     "light": "golden",
+     "lightText": "Morgenlicht auf den Fassaden",
+     "text": "Uferweg und Gassen, Frauen beim Waschen am Fluss, Läden öffnen."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "8:05–8:30",
+     "spot": "claude-cn-wind-bridge",
+     "opt": true,
+     "light": "golden",
+     "lightText": "Morgen – Sonne von hinten-links auf die Häuserzeile",
+     "text": "Tele-Stapel flussaufwärts: Pagode, Hongqiao, Stelzenhäuser im Frontallicht."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 25
+    },
+    {
+     "type": "stop",
+     "t": "8:45–9:30",
+     "spot": "claude-cn-nanhua-mountain-viewpoint",
+     "opt": true,
+     "light": "day",
+     "lightText": "Vormittag – Streiflicht über den Dächern",
+     "text": "Treppen ab dem Wenhua-Platz (20–30 Min.), oben Blick über das Ziegelmeer. Vor dem Check-out um 11:30 genug Zeit."
     },
     {
      "type": "hotel",
