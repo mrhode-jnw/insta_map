@@ -1767,5 +1767,39 @@
    "url": "https://www.instagram.com/p/DeoaxnlmLO7/?img_index=9",
    "credit": "@demas · Instagram"
   }
+ ],
+ "Tianzi Mountain Cable Car 天子山索道": [
+  {
+   "image": "images/claude-cn-tianzi-mountain-cable-car_1.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Tianzi_Mountain_(%E5%A4%A9%E5%AD%90%E5%B1%B1%EF%BC%89cable_car.jpg",
+   "credit": "Dewxio · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "image": "images/claude-cn-tianzi-mountain-cable-car_2.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Misty_cable_car_trip_to_the_top_of_Tianzi_Mountain(%E5%A4%A9%E5%AD%90%E5%B1%B1).jpg",
+   "credit": "Dewxio · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "image": "images/claude-cn-tianzi-mountain-cable-car_3.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Monts_Tianzi_et_t%C3%A9l%C3%A9ph%C3%A9rique,_Zhangjiajie_(2026).jpg",
+   "credit": "Laurent ICOLEF · CC BY-SA 4.0 · Wikimedia Commons"
+  }
+ ],
+ "Yangjiajie Cable Car 杨家界索道": [
+  {
+   "image": "images/claude-cn-yangjiajie-cable-car_1.jpg",
+   "url": "https://www.flickr.com/photos/146243032@N07/40298356010/",
+   "credit": "simoncheung · Flickr"
+  },
+  {
+   "image": "images/claude-cn-yangjiajie-cable-car_2.jpg",
+   "url": "https://us.trip.com/travel-guide/attraction/zhangjiajie/yangjiajie-cableway-23124856/",
+   "credit": "trip.com · Attraktionsseite Yangjiajie Cableway"
+  },
+  {
+   "image": "images/claude-cn-yangjiajie-cable-car_3.jpg",
+   "url": "https://www.flickr.com/photos/dmackie/50819692973/",
+   "credit": "David Mackie (dmackie) · Flickr"
+  }
  ]
 }

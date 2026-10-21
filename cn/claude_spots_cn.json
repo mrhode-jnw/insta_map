@@ -1003,5 +1003,35 @@
   "image": "images/claude_cn_tiantou-village-dazhai.jpg",
   "image_page": "https://commons.wikimedia.org/wiki/File:Sunset_over_the_Yao_village_Dazhai.jpg",
   "image_credit": "Henrik Hansson Globaljuggler · CC BY-SA 3.0 · Wikimedia Commons"
+ },
+ {
+  "name": "Tianzi Mountain Cable Car 天子山索道",
+  "lat": 29.3938814,
+  "lng": 110.495545,
+  "approx": false,
+  "district": "Tianzi Mountain, Wulingyuan, Hunan",
+  "cat": "Aussicht",
+  "pop": 3,
+  "reason": "6 Minuten Gondelfahrt mitten durch die Felsnadeln von Tianzi Mountain",
+  "tip": "Bergstation oben am Tianzi-Plateau, ca. 1 km nördlich vom Helong Park; Talstation unten bei Shilipu/Wulingyuan (Y302). Schräglänge 2.084 m, 692 m Höhenunterschied, Fahrt ca. 6–7 Min., Doppelmayr-Kabinen (Neubau 2016). Einfach ca. 72 CNY (ermäßigt 40), im Mehrfach-Kombiticket „drei Seilbahnen + Lift“ (298 CNY, 4 Tage) enthalten. Betrieb etwa 7:30–17:30 (Nebensaison ab 8:00). Die Gondel fährt dicht an den Imperial-Brush-Nadeln und dem Steinwald vorbei – bergab Platz mit Blick talwärts bzw. zu den Stützen nehmen, Rückfenster lohnt sich. Durch die Scheibe fotografieren: Objektiv nah ans Glas, Polfilter bringt auf Glas nichts, dunkle Kleidung gegen Spiegelungen, 24–35 mm. Mittags 30–90 Min. Warteschlange (Sommer bis 2 Std.); nach 15–16 Uhr meist unter 15 Min. Wer oben auf dem Plateau bleibt, braucht die Bahn nicht – Shuttlebus fährt bis Helong Park.",
+  "date": "24.10.",
+  "image": "images/claude-cn-tianzi-mountain-cable-car_1.jpg",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Tianzi_Mountain_(%E5%A4%A9%E5%AD%90%E5%B1%B1%EF%BC%89cable_car.jpg",
+  "image_credit": "Dewxio · CC BY-SA 4.0 · Wikimedia Commons"
+ },
+ {
+  "name": "Yangjiajie Cable Car 杨家界索道",
+  "lat": 29.3617207,
+  "lng": 110.4195734,
+  "approx": false,
+  "district": "Yangjiajie, Wulingyuan, Hunan",
+  "cat": "Aussicht",
+  "pop": 3,
+  "reason": "Steilste Seilbahn im Park, Blick auf die „Natürliche Große Mauer“",
+  "tip": "Bergstation beim Parkplatz Liujiayan auf dem Yangjiajie-Plateau (Nähe Tianbo-Mansion-Weg), Talstation beim Dorf Yejipu/Westtor (Zhonghu). Poma-Umlaufbahn mit 8er-Kabinen (gelb/grün), eröffnet 2014: 1.876 m lang, 517 m Höhenunterschied, 14 Stützen, 6 m/s, Fahrt ca. 5–6 Min., bis 2.300 Pers./Std. Einfach ca. 76 CNY (ermäßigt 46), im Kombiticket enthalten. Betrieb ca. 8:30–18:00 (manche Quellen 7:30). Die Bahn klettert fast senkrecht an der Felswand hoch; unten Wald und rote Herbstbäume, oben die Reihen der Felsmauern (Peak Walls). Platz Richtung Stützen/Tal nehmen, durch die Scheibe mit 24–35 mm fotografieren – Polfilter hilft auf Glas nicht, Objektiv dicht ans Fenster. Deutlich weniger Andrang als Bailong-Lift und Tianzi-Bahn; über das Westtor früh um 7:30 praktisch ohne Schlange. Hinweis: wird bei Nebel/Sturm und zur Wartung (z. B. 31.3.) gesperrt.",
+  "date": "23.–25.10.",
+  "image": "images/claude-cn-yangjiajie-cable-car_1.jpg",
+  "image_page": "https://www.flickr.com/photos/146243032@N07/40298356010/",
+  "image_credit": "simoncheung · Flickr"
  }
 ]

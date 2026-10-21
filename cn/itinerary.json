@@ -958,14 +958,13 @@
      "text": "Zentrum des Tianzi-Plateaus: Lokale, Imbisse, Seilbahn-Bergstation. Gemütliche Runde über die Aussichtspunkte (Fabio Nodari: 1,5–2,5 Std.)."
     },
     {
-     "type": "info",
-     "t": "14:40–15:30",
-     "icon": "🚡",
-     "title": "Optional: Tianzi-Seilbahn (天子山索道) hinunter und zurück",
+     "type": "stop",
+     "t": "14:40–15:40",
+     "spot": "claude-cn-tianzi-mountain-cable-car",
      "opt": true,
-     "lat": 29.3815,
-     "lng": 110.4897,
-     "text": "Nur zum Fotografieren: 10 Min. Fahrt über die Felsnadeln, 72 CNY je Richtung, unten gleich wieder hinauf (Schlange nachmittags kurz). Die Bergstation liegt am Helong Park. Wer die Zeit lieber an den Aussichtspunkten verbringt, lässt es weg."
+     "light": "day",
+     "lightText": "Nachmittag – aus der Gondel über die Felsnadeln",
+     "text": "Nur zum Fotografieren: Bergstation gut 1 km nördlich vom Helong Park (15 Min. zu Fuß), 6–7 Min. Fahrt über die Felsnadeln, 72 CNY je Richtung, unten gleich wieder hinauf (Schlange nach 15 Uhr meist unter 15 Min.). Kostet mit Hin- und Rückweg etwa eine Stunde – wer die Zeit lieber an den Aussichtspunkten verbringt, lässt es weg."
     },
     {
      "type": "move",
@@ -974,7 +973,7 @@
     },
     {
      "type": "stop",
-     "t": "15:30–16:20",
+     "t": "15:40–16:25",
      "spot": "claude-cn-imperial-brush-peaks",
      "opt": true,
      "sel": true,
@@ -989,7 +988,7 @@
     },
     {
      "type": "stop",
-     "t": "16:35–17:25",
+     "t": "16:40–17:25",
      "spot": "claude-cn-xihai-stone-forest",
      "opt": true,
      "sel": true,
@@ -1036,14 +1035,13 @@
      "text": "Erst die Aussichtspunkte „Natürliche Große Mauer“ (天然长城) nahe der Haltestelle für den Sonnenaufgang. Ab ca. 7:15 bei Tageslicht die Hike-Runde Tianbo Fu (天波府) + Wulong-Dorf (乌龙寨): senkrechte Eisenleitern, enge Felsspalten, oben die Blicke auf die Felswände – laut Fabio Nodari der beste Trail im Park (ca. 3 Std.). Ohne Hike: die leichten Aussichtswege Richtung Natürliche Große Mauer (ca. 2 Std.). Imbisse an der Haltestelle."
     },
     {
-     "type": "info",
-     "t": "9:15–9:45",
-     "icon": "🚡",
-     "title": "Optional: Yangjiajie-Seilbahn (杨家界索道) hinunter und zurück",
+     "type": "stop",
+     "t": "9:15–9:50",
+     "spot": "claude-cn-yangjiajie-cable-car",
      "opt": true,
-     "lat": 29.3577,
-     "lng": 110.415,
-     "text": "8 Min. Fahrt an den Yangjiajie-Wänden entlang, 76 CNY je Richtung; die Bergstation liegt beim Wulong-Dorf. Unten gleich wieder hinauf (sonst steht ihr im Tal, 40 Min. Bus bis zum Osttor). Nur wenn Zeit und Lust – kostet gut 30 Min."
+     "light": "day",
+     "lightText": "Vormittag – steilste Bahn im Park",
+     "text": "Bergstation 150 m vom Aussichtspunkt Natürliche Große Mauer. 5–6 Min. Fahrt an den Yangjiajie-Wänden entlang, 76 CNY je Richtung, kaum Schlange. Unten gleich wieder hinauf – sonst steht ihr im Tal beim Westtor, 40 Min. Bus bis zum Osttor. Nur wenn Zeit und Lust, kostet gut 30 Min."
     },
     {
      "type": "move",

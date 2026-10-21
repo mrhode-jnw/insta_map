@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 08:13 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 08:18 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -180,11 +180,11 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **~9:45** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
   - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Parkbus ab der Abzweigung Richtung Tianzi (Helong Park) – ca. 35–40 Min., ggf. in Yangjiajie oder am Busbahnhof umsteigen; Abfahrt ca. 13:10)
 - **14:00–14:40** ◻︎ optional: **Helong Park 贺龙公园** (Tianzi Mountain, Hunan) · Licht: Nachmittag – Zentrum des Tianzi-Plateaus: Lokale, Imbisse, Seilbahn-Bergstation. Gemütliche Runde über die Aussichtspunkte (Fabio Nodari: 1,5–2,5 Std.).
-- **14:40–15:30** 🚡 ◻︎ optional: **Optional: Tianzi-Seilbahn (天子山索道) hinunter und zurück** – Nur zum Fotografieren: 10 Min. Fahrt über die Felsnadeln, 72 CNY je Richtung, unten gleich wieder hinauf (Schlange nachmittags kurz). Die Bergstation liegt am Helong Park. Wer die Zeit lieber an den Aussichtspunkten verbringt, lässt es weg.
+- **14:40–15:40** ◻︎ optional: **Tianzi Mountain Cable Car 天子山索道** (Tianzi Mountain, Wulingyuan, Hunan) · Licht: Nachmittag – aus der Gondel über die Felsnadeln – Nur zum Fotografieren: Bergstation gut 1 km nördlich vom Helong Park (15 Min. zu Fuß), 6–7 Min. Fahrt über die Felsnadeln, 72 CNY je Richtung, unten gleich wieder hinauf (Schlange nach 15 Uhr meist unter 15 Min.). Kostet mit Hin- und Rückweg etwa eine Stunde – wer die Zeit lieber an den Aussichtspunkten verbringt, lässt es weg.
   - ↓ 🚶 zu Fuß · ca. 10 Min.
-- **15:30–16:20** ◻︎ optional: **Imperial Brush Peaks 御笔峰** (Tianzi Mountain, Hunan) · Licht: Nachmittagslicht – Streiflicht auf den Nadeln – 70-200, Felsnadeln isolieren. Daneben „Fee bietet Blumen dar“ (仙女献花).
+- **15:40–16:25** ◻︎ optional: **Imperial Brush Peaks 御笔峰** (Tianzi Mountain, Hunan) · Licht: Nachmittagslicht – Streiflicht auf den Nadeln – 70-200, Felsnadeln isolieren. Daneben „Fee bietet Blumen dar“ (仙女献花).
   - ↓ 🚶 zu Fuß · ca. 15 Min.
-- **16:35–17:25** ◻︎ optional: **Xihai Stone Forest 西海峰林** (Tianzi Mountain, Hunan) · Licht: goldene Stunde – das „Westmeer“ liegt im Abendlicht (Sonnenuntergang 18:00 nur mit Hotelauto) – Weit mit dem 16-35. Spätestens 17:30 am Busbahnhof Tianzi: letzter Parkbus ca. 18:00. Wer bis zum Sonnenuntergang bleiben will, bestellt das Hotelauto für 18:15 an den Helong Park.
+- **16:40–17:25** ◻︎ optional: **Xihai Stone Forest 西海峰林** (Tianzi Mountain, Hunan) · Licht: goldene Stunde – das „Westmeer“ liegt im Abendlicht (Sonnenuntergang 18:00 nur mit Hotelauto) – Weit mit dem 16-35. Spätestens 17:30 am Busbahnhof Tianzi: letzter Parkbus ca. 18:00. Wer bis zum Sonnenuntergang bleiben will, bestellt das Hotelauto für 18:15 an den Helong Park.
   - ↓ 🚌 Bus/Seilbahn · ca. 45 Min. (letzter Parkbus ab Tianzi spätestens 18:00 (ca. 35–45 Min., an der Resort-Abzweigung aussteigen))
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
@@ -193,7 +193,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **5:20** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
   - ↓ 🚶 zu Fuß · ca. 50 Min. (zu Fuß 3,7 km über die Parkbus-Straße mit Stirnlampe (Parkbusse fahren noch nicht) – oder Hotelauto für 5:50)
 - **6:15–9:15** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Sonnenaufgang 6:45 an der Natürlichen Großen Mauer, danach Morgenlicht im Tianbo Fu – Erst die Aussichtspunkte „Natürliche Große Mauer“ (天然长城) nahe der Haltestelle für den Sonnenaufgang. Ab ca. 7:15 bei Tageslicht die Hike-Runde Tianbo Fu (天波府) + Wulong-Dorf (乌龙寨): senkrechte Eisenleitern, enge Felsspalten, oben die Blicke auf die Felswände – laut Fabio Nodari der beste Trail im Park (ca. 3 Std.). Ohne Hike: die leichten Aussichtswege Richtung Natürliche Große Mauer (ca. 2 Std.). Imbisse an der Haltestelle.
-- **9:15–9:45** 🚡 ◻︎ optional: **Optional: Yangjiajie-Seilbahn (杨家界索道) hinunter und zurück** – 8 Min. Fahrt an den Yangjiajie-Wänden entlang, 76 CNY je Richtung; die Bergstation liegt beim Wulong-Dorf. Unten gleich wieder hinauf (sonst steht ihr im Tal, 40 Min. Bus bis zum Osttor). Nur wenn Zeit und Lust – kostet gut 30 Min.
+- **9:15–9:50** ◻︎ optional: **Yangjiajie Cable Car 杨家界索道** (Yangjiajie, Wulingyuan, Hunan) · Licht: Vormittag – steilste Bahn im Park – Bergstation 150 m vom Aussichtspunkt Natürliche Große Mauer. 5–6 Min. Fahrt an den Yangjiajie-Wänden entlang, 76 CNY je Richtung, kaum Schlange. Unten gleich wieder hinauf – sonst steht ihr im Tal beim Westtor, 40 Min. Bus bis zum Osttor. Nur wenn Zeit und Lust, kostet gut 30 Min.
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus Richtung Yuanjiajie, an der Resort-Abzweigung aussteigen (500 m))
 - **~9:45** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus zum Busbahnhof Yuanjiajie, 800 m zu Fuß zur Bailong-Bergstation)

@@ -635,7 +635,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hen_uoc_trunghoa/",
     "kind": "p",
     "image": "images/CeNNAJXJg_a_1.jpg",
-    "caption": "📍西江千户苗寨 - Xijiang Miao Village\n西江千户苗寨在半山建造独具特色的木结构吊脚楼，千余户吊脚楼随着地形的起伏变化，层峦叠嶂，鳞次栉比，蔚为壮观。西江千户苗寨是一座露天博物馆，展览着一部苗族发展史诗，成为观赏和研究苗族传统文化的大看台。\n\n#henuoctrunghoa\n\nTây Giang Thiên Hộ Miêu Trại đã xây dựng những ngôi nhà sàn bằng gỗ độc đáo ở lưng chừng núi. Với sự uốn lượn và thay đổi của địa hình, hàng nghìn ngôi nhà sàn được xếp chồng lên nhau bằng núi non trùng điệp, tạo nên vẻ đẹp ngoạn mục. Tây Giang Thiên Hộ Miêu Trại là một bảo tàng ngoài trời trưng bày sử thi về sự phát triển của dân tộc Miêu và đã trở thành một địa điểm lớn để xem và nghiên cứu văn hóa truyền thống của dân tộc Miêu.\n________________",
+    "caption": "",
     "match": "slide",
     "slide": 1
    },
@@ -906,7 +906,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/chinadestinations/",
     "kind": "p",
     "image": "images/DPLvIhaCZ4F.jpg",
-    "caption": "《笠影古韻》\n青山綠水間，\n古寨像幅畫。\n那戴鬥笠的身影，\n似是在與山水對談，\n訴說著這片土地的悠悠古韻。\nAmidst the green mountains and clear waters,\nThe ancient village is like a painting.\nThe figure wearing a bamboo hat\nSeems to be conversing with the mountains and waters,\nTelling the long-standing charm of this land.\n▪️\n#hellofrom #chinatravel #贵州 #guizhou\n———————————————————————\nPhoto by @justice_gto\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to me",
+    "caption": "《笠影古韻》\n青山綠水間，\n古寨像幅畫。\n那戴鬥笠的身影，\n似是在與山水對談，\n訴說著這片土地的悠悠古韻。\nAmidst the green mountains and clear waters,\nThe ancient village is like a painting.\nThe figure wearing a bamboo hat\nSeems to be conversing with the mountains and waters,\nTelling the long-standing charm of this land.\n▪️\n#hellofrom #chinatravel #贵州 #guizhou \n———————————————————————\nPhoto by @justice_gto\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to m",
     "match": "single"
    },
    {
@@ -915,7 +915,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQMWDmggDER_3.jpg",
-    "caption": "🍂 Autumn Sanctuaries in #Guizhou: Where Forests Meet the Sea of Clouds\n\n🗻 Wanfenglin Scenic Area\nAmong thousands of karst peaks, the forests turn amber and ochre, creating a magnificent autumn panorama that stretches endlessly across the horizon.\nBest viewing period: Mid-October to early November\nLocation: Xiawutun, #Xingyi City, Qianxinan Buyi and Miao Autonomous Prefecture\n\n🌄 Fanjing Mountain\nIn autumn, mist curls around the peaks of Fanjing Mountain while the slopes shimmer with shades of gold and crimson.\nBest viewing period: Mid-October to December\nLocation: Fanjingshan Village, #Taiping ",
+    "caption": "",
     "match": "slide",
     "slide": 3
    },
@@ -997,7 +997,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQMWDmggDER_4.jpg",
-    "caption": "🍂 Autumn Sanctuaries in #Guizhou: Where Forests Meet the Sea of Clouds\n\n🗻 Wanfenglin Scenic Area\nAmong thousands of karst peaks, the forests turn amber and ochre, creating a magnificent autumn panorama that stretches endlessly across the horizon.\nBest viewing period: Mid-October to early November\nLocation: Xiawutun, #Xingyi City, Qianxinan Buyi and Miao Autonomous Prefecture\n\n🌄 Fanjing Mountain\nIn autumn, mist curls around the peaks of Fanjing Mountain while the slopes shimmer with shades of gold and crimson.\nBest viewing period: Mid-October to December\nLocation: Fanjingshan Village, #Taiping ",
+    "caption": "",
     "match": "slide",
     "slide": 4
    },
@@ -1317,7 +1317,7 @@ window.PLACES_CN = [
   "lng": 106.8363,
   "approx": true,
   "image": "images/DQZODOpDYAu_4.jpg",
-  "caption": "🌊 Guizhou Wujiang Village: A Water Maze Lost in Time\n\nIf you're weary of commercialized ancient towns and yearn for a true escape where you can unwind and immerse yourself in landscapes of mountains and waters, then Wujiang Village in Guizhou should be next on your list.\n\n📍【Location】 Guizhou Zunyi Wujiang Village International Tourism Resort\nHere, you can witness intangible cultural heritage skills such as traditional paper-making, bamboo weaving, and Miao silver craftsmanship – and even roll up your sleeves to try them yourself.\n\n🌈【Must-Experience Highlights】\n① Take a rowing boat: Glide along",
+  "caption": "",
   "post_url": "https://www.instagram.com/amazingguizhou/p/DQZODOpDYAu/?img_index=4",
   "username": "amazingguizhou",
   "profile_url": "https://www.instagram.com/amazingguizhou/",
@@ -1328,7 +1328,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQZODOpDYAu_4.jpg",
-    "caption": "🌊 Guizhou Wujiang Village: A Water Maze Lost in Time\n\nIf you're weary of commercialized ancient towns and yearn for a true escape where you can unwind and immerse yourself in landscapes of mountains and waters, then Wujiang Village in Guizhou should be next on your list.\n\n📍【Location】 Guizhou Zunyi Wujiang Village International Tourism Resort\nHere, you can witness intangible cultural heritage skills such as traditional paper-making, bamboo weaving, and Miao silver craftsmanship – and even roll up your sleeves to try them yourself.\n\n🌈【Must-Experience Highlights】\n① Take a rowing boat: Glide along",
+    "caption": "",
     "match": "slide",
     "slide": 4
    },
@@ -1338,7 +1338,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/chinadiscover/",
     "kind": "p",
     "image": "images/DD2GMNvtapF_2.jpg",
-    "caption": "This quiet paradise hidden deep in northern Guizhou.\n\n📍Wujiang Village\n\nℹ️ Sourced from Xiaohongshu\n\nTag @chinadiscover for your photos in China!\n\n#halicinde #chinadiscover #chinadestinations #china #reels #chinaculture #studyinginchina #chinalife #chinatravel #chinatravel #chineseculture #wujiang",
+    "caption": "",
     "match": "slide",
     "slide": 2
    },
@@ -1348,7 +1348,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/tourismeguizhou/",
     "kind": "p",
     "image": "images/DLHh2XzodtQ_1.jpg",
-    "caption": "🌿 wujiangzhai : un écrin de beauté au cœur du guizhou \n\ndécouvrez ce village authentique où les maisons sur pilotis se mirent dans les eaux paisibles, entourées de montagnes verdoyantes. un lieu unique où traditions ethniques et créations contemporaines se rencontrent harmonieusement. \n\n✨ expériences à vivre : \n- le \"phoenix céleste\" : un spectacle envoûtant mêlant feu et lumière, inspiré des légendes locales \n- la danse des drones : une féérie nocturne où les lumières dessinent des tableaux magiques dans le ciel \n- l'artisanat traditionnel : ateliers de papier fait main, techniques de cire pe",
+    "caption": "",
     "match": "slide",
     "slide": 1
    }
@@ -1900,7 +1900,7 @@ window.PLACES_CN = [
   "lng": 110.119,
   "approx": true,
   "image": "images/DRo8DqWCiXB.jpg",
-  "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
+  "caption": "",
   "post_url": "https://www.instagram.com/hanaleytravel/p/DRo8DqWCiXB/",
   "username": "hanaleytravel",
   "profile_url": "https://www.instagram.com/hanaleytravel/",
@@ -1911,7 +1911,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hanaleytravel/",
     "kind": "p",
     "image": "images/DRo8DqWCiXB.jpg",
-    "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
+    "caption": "",
     "match": "single"
    },
    {
@@ -2039,7 +2039,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_2.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 2
    },
@@ -2295,7 +2295,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_3.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 3
    },
@@ -2397,7 +2397,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_7.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 7
    }
@@ -2499,7 +2499,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_6.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 6
    },
@@ -2591,7 +2591,7 @@ window.PLACES_CN = [
   "lng": 106.5891,
   "approx": true,
   "image": "images/DdiudFSEbF0_5.jpg",
-  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+  "caption": "",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=5",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -2602,7 +2602,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_5.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 5
    },
@@ -2633,7 +2633,7 @@ window.PLACES_CN = [
   "lng": 106.52597,
   "approx": false,
   "image": "images/DdiudFSEbF0_4.jpg",
-  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+  "caption": "",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=4",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -2644,7 +2644,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_4.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 4
    }
@@ -8661,6 +8661,112 @@ window.PLACES_CN = [
   "image_page": "https://commons.wikimedia.org/wiki/File:Sunset_over_the_Yao_village_Dazhai.jpg",
   "image_credit": "Henrik Hansson Globaljuggler · CC BY-SA 3.0 · Wikimedia Commons",
   "when": "both"
+ },
+ {
+  "id": "claude-cn-tianzi-mountain-cable-car",
+  "region": "cn",
+  "by_claude": true,
+  "name": "Tianzi Mountain Cable Car 天子山索道",
+  "district": "Tianzi Mountain, Wulingyuan, Hunan",
+  "category": "Aussicht",
+  "note": "",
+  "tip": "Bergstation oben am Tianzi-Plateau, ca. 1 km nördlich vom Helong Park; Talstation unten bei Shilipu/Wulingyuan (Y302). Schräglänge 2.084 m, 692 m Höhenunterschied, Fahrt ca. 6–7 Min., Doppelmayr-Kabinen (Neubau 2016). Einfach ca. 72 CNY (ermäßigt 40), im Mehrfach-Kombiticket „drei Seilbahnen + Lift“ (298 CNY, 4 Tage) enthalten. Betrieb etwa 7:30–17:30 (Nebensaison ab 8:00). Die Gondel fährt dicht an den Imperial-Brush-Nadeln und dem Steinwald vorbei – bergab Platz mit Blick talwärts bzw. zu den Stützen nehmen, Rückfenster lohnt sich. Durch die Scheibe fotografieren: Objektiv nah ans Glas, Polfilter bringt auf Glas nichts, dunkle Kleidung gegen Spiegelungen, 24–35 mm. Mittags 30–90 Min. Warteschlange (Sommer bis 2 Std.); nach 15–16 Uhr meist unter 15 Min. Wer oben auf dem Plateau bleibt, braucht die Bahn nicht – Shuttlebus fährt bis Helong Park.",
+  "address": "Tianzi Mountain, Wulingyuan, Hunan",
+  "lat": 29.3938814,
+  "lng": 110.495545,
+  "approx": false,
+  "image": "images/claude-cn-tianzi-mountain-cable-car_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Tianzi_Mountain_(%E5%A4%A9%E5%AD%90%E5%B1%B1%EF%BC%89cable_car.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Tianzi_Mountain_(%E5%A4%A9%E5%AD%90%E5%B1%B1%EF%BC%89cable_car.jpg",
+    "kind": "photo",
+    "image": "images/claude-cn-tianzi-mountain-cable-car_1.jpg",
+    "caption": "",
+    "credit": "Dewxio · CC BY-SA 4.0 · Wikimedia Commons"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Misty_cable_car_trip_to_the_top_of_Tianzi_Mountain(%E5%A4%A9%E5%AD%90%E5%B1%B1).jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Misty_cable_car_trip_to_the_top_of_Tianzi_Mountain(%E5%A4%A9%E5%AD%90%E5%B1%B1).jpg",
+    "kind": "photo",
+    "image": "images/claude-cn-tianzi-mountain-cable-car_2.jpg",
+    "caption": "",
+    "credit": "Dewxio · CC BY-SA 4.0 · Wikimedia Commons"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Monts_Tianzi_et_t%C3%A9l%C3%A9ph%C3%A9rique,_Zhangjiajie_(2026).jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Monts_Tianzi_et_t%C3%A9l%C3%A9ph%C3%A9rique,_Zhangjiajie_(2026).jpg",
+    "kind": "photo",
+    "image": "images/claude-cn-tianzi-mountain-cable-car_3.jpg",
+    "caption": "",
+    "credit": "Laurent ICOLEF · CC BY-SA 4.0 · Wikimedia Commons"
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "6 Minuten Gondelfahrt mitten durch die Felsnadeln von Tianzi Mountain",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Tianzi_Mountain_(%E5%A4%A9%E5%AD%90%E5%B1%B1%EF%BC%89cable_car.jpg",
+  "image_credit": "Dewxio · CC BY-SA 4.0 · Wikimedia Commons",
+  "when": "day"
+ },
+ {
+  "id": "claude-cn-yangjiajie-cable-car",
+  "region": "cn",
+  "by_claude": true,
+  "name": "Yangjiajie Cable Car 杨家界索道",
+  "district": "Yangjiajie, Wulingyuan, Hunan",
+  "category": "Aussicht",
+  "note": "",
+  "tip": "Bergstation beim Parkplatz Liujiayan auf dem Yangjiajie-Plateau (Nähe Tianbo-Mansion-Weg), Talstation beim Dorf Yejipu/Westtor (Zhonghu). Poma-Umlaufbahn mit 8er-Kabinen (gelb/grün), eröffnet 2014: 1.876 m lang, 517 m Höhenunterschied, 14 Stützen, 6 m/s, Fahrt ca. 5–6 Min., bis 2.300 Pers./Std. Einfach ca. 76 CNY (ermäßigt 46), im Kombiticket enthalten. Betrieb ca. 8:30–18:00 (manche Quellen 7:30). Die Bahn klettert fast senkrecht an der Felswand hoch; unten Wald und rote Herbstbäume, oben die Reihen der Felsmauern (Peak Walls). Platz Richtung Stützen/Tal nehmen, durch die Scheibe mit 24–35 mm fotografieren – Polfilter hilft auf Glas nicht, Objektiv dicht ans Fenster. Deutlich weniger Andrang als Bailong-Lift und Tianzi-Bahn; über das Westtor früh um 7:30 praktisch ohne Schlange. Hinweis: wird bei Nebel/Sturm und zur Wartung (z. B. 31.3.) gesperrt.",
+  "address": "Yangjiajie, Wulingyuan, Hunan",
+  "lat": 29.3617207,
+  "lng": 110.4195734,
+  "approx": false,
+  "image": "images/claude-cn-yangjiajie-cable-car_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/146243032@N07/40298356010/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/146243032@N07/40298356010/",
+    "kind": "photo",
+    "image": "images/claude-cn-yangjiajie-cable-car_1.jpg",
+    "caption": "",
+    "credit": "simoncheung · Flickr"
+   },
+   {
+    "url": "https://us.trip.com/travel-guide/attraction/zhangjiajie/yangjiajie-cableway-23124856/",
+    "username": "",
+    "profile_url": "https://us.trip.com/travel-guide/attraction/zhangjiajie/yangjiajie-cableway-23124856/",
+    "kind": "photo",
+    "image": "images/claude-cn-yangjiajie-cable-car_2.jpg",
+    "caption": "",
+    "credit": "trip.com · Attraktionsseite Yangjiajie Cableway"
+   },
+   {
+    "url": "https://www.flickr.com/photos/dmackie/50819692973/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/dmackie/50819692973/",
+    "kind": "photo",
+    "image": "images/claude-cn-yangjiajie-cable-car_3.jpg",
+    "caption": "",
+    "credit": "David Mackie (dmackie) · Flickr"
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Steilste Seilbahn im Park, Blick auf die „Natürliche Große Mauer“",
+  "image_page": "https://www.flickr.com/photos/146243032@N07/40298356010/",
+  "image_credit": "simoncheung · Flickr",
+  "when": "day"
  },
  {
   "id": "cn-haus-nowhere-im-mixc-world",
