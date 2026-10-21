@@ -48,6 +48,7 @@ POSTS = {
  91: ("chinadestinations", "p", "DepB6mjiF8V"),
  92: ("jassminechi", "reel", "DemN0Tqs_n0"),
  93: ("jamierymer", "p", "DeenYbwiKNh"),
+ 94: ("long.explorer", "p", "DNtIYdSWkpJ"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -56,7 +57,7 @@ UNPLACED_REGION = {13: "hk"}
 SPOTS = [
  # Hunan
  ("Zhangjiajie National Forest Park 张家界国家森林公园", 29.3499, 110.4352, True, "Wulingyuan, Hunan", "Natur",
-  [1, 6, 15, 24, 31, 32, (30, 7), 91], "„Avatar“-Felssäulen. 2 Tage einplanen + 1 Puffertag; Seilbahn lohnt sich; beste Zeit April oder Juni–Aug (Nebel in den Tälern). Abseits der Hauptwege suchen."),
+  [1, 6, 15, 24, 31, 32, (30, 7), 91, 94], "„Avatar“-Felssäulen. 2 Tage einplanen + 1 Puffertag; Seilbahn lohnt sich; beste Zeit April oder Juni–Aug (Nebel in den Tälern). Abseits der Hauptwege suchen."),
  ("Tianmen Mountain 天门山", 29.0499, 110.4789, False, "Zhangjiajie, Hunan", "Natur",
   [(1, 3)], "1 Tag einplanen, Seilbahn direkt ab der Stadt."),
  ("Furong Town 芙蓉镇", 28.7731, 109.9819, False, "Yongshun, Hunan", "Dorf",

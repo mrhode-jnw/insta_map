@@ -90,6 +90,17 @@ window.PLACES_CN = [
     "image": "images/DepB6mjiF8V.jpg",
     "caption": "One of the most surreal landscapes we’ve ever seen.\n\nNo drone.\nNo AI.\nJust Zhangjiajie on a misty morning.\n\nHow lucky are we 🥹\n▪️\n#hellofrom #chinatravel #张家界 #Zhangjiajie\n———————————————————————\nPhoto by @the.world_wanderers\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to meet more Instafriends.\nBy Adding Official Wechat Account 【InstaCN】to reply 【group】\n————————————————————————\n搜索微信公众号【InstaCN】，回复【入群】结",
     "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/long.explorer/p/DNtIYdSWkpJ/",
+    "username": "long.explorer",
+    "profile_url": "https://www.instagram.com/long.explorer/",
+    "kind": "p",
+    "image": null,
+    "caption": "Until today, the Zhangjiajie Mountains in China are among the most incredible places I’ve ever seen, unlike anything else. These towering rocks rising out of the dense jungle look absolutely unreal.\n—\n#chinadestinations #nomadict #earthoutdoors #visualsoflife #chinatravels #zhanjiajie",
+    "match": "single",
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 5,
