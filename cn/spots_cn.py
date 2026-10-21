@@ -43,6 +43,9 @@ POSTS = {
  86: ("chinadestinations", "p", "Del3W9MDrOL"),
  87: ("shanghaieye", "p", "Dd1lRy7TpdU"),
  88: ("demas", "p", "DeoaxnlmLO7"),
+ 89: ("via.abdulaziz", "reel", "DeHxWdUu-sU"),
+ 90: ("da_frames", "p", "DeuF05wJYKU"),
+ 91: ("chinadestinations", "p", "DepB6mjiF8V"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -51,7 +54,7 @@ UNPLACED_REGION = {13: "hk"}
 SPOTS = [
  # Hunan
  ("Zhangjiajie National Forest Park 张家界国家森林公园", 29.3499, 110.4352, True, "Wulingyuan, Hunan", "Natur",
-  [1, 6, 15, 24, 31, 32, (30, 7)], "„Avatar“-Felssäulen. 2 Tage einplanen + 1 Puffertag; Seilbahn lohnt sich; beste Zeit April oder Juni–Aug (Nebel in den Tälern). Abseits der Hauptwege suchen."),
+  [1, 6, 15, 24, 31, 32, (30, 7), 91], "„Avatar“-Felssäulen. 2 Tage einplanen + 1 Puffertag; Seilbahn lohnt sich; beste Zeit April oder Juni–Aug (Nebel in den Tälern). Abseits der Hauptwege suchen."),
  ("Tianmen Mountain 天门山", 29.0499, 110.4789, False, "Zhangjiajie, Hunan", "Natur",
   [(1, 3)], "1 Tag einplanen, Seilbahn direkt ab der Stadt."),
  ("Furong Town 芙蓉镇", 28.7731, 109.9819, False, "Yongshun, Hunan", "Dorf",
@@ -104,7 +107,7 @@ SPOTS = [
  ("Baixiangju & Yangtze River Cableway 白象居 · 长江索道", 29.558528, 106.581348, False, "Yuzhong, Chongqing", "Architektur",
   [37, 39, (38, 5), 54], "Die rote Seilbahn über den Jangtse schwebt zwischen den Wohntürmen hindurch."),
  ("Luohan Temple 罗汉寺", 29.562566, 106.577843, False, "Yuzhong, Chongqing", "Tempel",
-  [(38, 3), (41, 6), (53, 1)], "Tausend Jahre alter buddhistischer Tempel mitten zwischen Hochhäusern."),
+  [(38, 3), (41, 6), (53, 1), 90], "Tausend Jahre alter buddhistischer Tempel mitten zwischen Hochhäusern."),
  ("Chaodong Road 朝东路", 29.566677, 106.584101, True, "Yuzhong, Chongqing", "Street",
   [(38, 6)], "Alltagsstraße mit Blick auf Raffles City."),
  ("Yalan International Rooftop 雅兰国际大厦 (Dach)", 29.5606, 106.5798, True, "Jiefangbei, Chongqing", "Aussicht",
@@ -222,6 +225,8 @@ SPOTS = [
   [(21, 9)], "Halle der Ernteopfer mit blauem Rundtempel-Dach."),
  ("Guge Kingdom Ruins 古格王国遗址", 31.4653, 79.6699, False, "Zanda, Tibet", "Tempel",
   [(21, 11)], "Ruinenstadt im Westen Tibets."),
+ ("Deyi World 得意世界", 29.5560, 106.5700, True, "Jiefangbei (Jiaochangkou), Chongqing", "Neon",
+  [89], "Neon-Vergnügungsviertel am Jiaochangkou (较场口87号, Adresse laut fang.com; Pin ungefähr): Leuchtreklamen in mehreren Ebenen wie ein Videospiel – ab Einbruch der Dunkelheit."),
 ]
 
 # Beliebtheit 1–5 (5 = Wahrzeichen, 4 = in vielen Guides, 3 = bei Fotografen bekannt)
@@ -277,6 +282,7 @@ POP = {
  "Temple of Heaven": (5, "UNESCO-Welterbe in Beijing"),
  "Guge": (4, "Abgelegene Ruinenstadt, Fotografen-Traum"),
  "Baixiangju": (4, "Viraler Seilbahn-Fotospot zwischen Wohntürmen"),
+ "Deyi World": (3, 'Neon-Viertel am Jiaochangkou, viral als „Videospiel-Stadt“'),
  "Luohan": (3, "Historischer Stadttempel, in vielen Chongqing-Guides"),
  "Chaodong": (2, "Alltagsstraße, kaum in Reiseführern"),
  "Nanbin": (4, "Bekannte Uferpromenade mit Nachtblick"),

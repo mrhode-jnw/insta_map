@@ -81,6 +81,15 @@ window.PLACES_CN = [
     "caption": "Hello everyone, hope you all doing well. I’ll thought I’ll come in and share with you some cool drone shots I took throughout China and the amount of scenery it has especially the landscapes and the night scenery it has.\n\nHere are the locations of the drone shots that I’ll thought I’ll share.\n\n1.Furong Town\n2.Huanglong National Park\n3.Chongqing \n4.Phoenix’s Ancient City \n5.Chongqing \n6.Huangshan Mountain\n7.Zhangjiajie \n8.Chengdu\n9.Huanglong National Park\n10.Wangxian Valley\n11.Chengdu\n12.Wangxian Valley\n13.Zhangjiajie \n\nIf you like the looks of these colour grades you can grab my video luts by ",
     "match": "slide",
     "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/chinadestinations/p/DepB6mjiF8V/",
+    "username": "chinadestinations",
+    "profile_url": "https://www.instagram.com/chinadestinations/",
+    "kind": "p",
+    "image": "images/DepB6mjiF8V.jpg",
+    "caption": "One of the most surreal landscapes we’ve ever seen.\n\nNo drone.\nNo AI.\nJust Zhangjiajie on a misty morning.\n\nHow lucky are we 🥹\n▪️\n#hellofrom #chinatravel #张家界 #Zhangjiajie\n———————————————————————\nPhoto by @the.world_wanderers\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to meet more Instafriends.\nBy Adding Official Wechat Account 【InstaCN】to reply 【group】\n————————————————————————\n搜索微信公众号【InstaCN】，回复【入群】结",
+    "match": "single"
    }
   ],
   "pop": 5,
@@ -2512,6 +2521,15 @@ window.PLACES_CN = [
     "caption": "Chongqing ❤️\n\n#chongqing #china #streetphotography #travelphotography #moodedits",
     "match": "slide",
     "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/da_frames/p/DeuF05wJYKU/",
+    "username": "da_frames",
+    "profile_url": "https://www.instagram.com/da_frames/",
+    "kind": "p",
+    "image": "images/DeuF05wJYKU.jpg",
+    "caption": "Crimson steps\n\n•\n\n#china #chongqing #cinematic #luohantemple #photography",
+    "match": "single"
    }
   ],
   "pop": 3,
@@ -5210,6 +5228,37 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Abgelegene Ruinenstadt, Fotografen-Traum",
   "when": "day"
+ },
+ {
+  "id": "cn-deyi-world",
+  "region": "cn",
+  "name": "Deyi World 得意世界",
+  "district": "Jiefangbei (Jiaochangkou), Chongqing",
+  "category": "Neon",
+  "note": "Neon-Vergnügungsviertel am Jiaochangkou (较场口87号, Adresse laut fang.com; Pin ungefähr): Leuchtreklamen in mehreren Ebenen wie ein Videospiel – ab Einbruch der Dunkelheit.",
+  "address": "Jiefangbei (Jiaochangkou), Chongqing",
+  "lat": 29.556,
+  "lng": 106.57,
+  "approx": true,
+  "image": "images/DeHxWdUu-sU.jpg",
+  "caption": "POV: this city is a real life video game 🎮✨\n\n.\n\n📍DEYI WORLD, CHONGQING, CHINA 🇨🇳 \n\n.\n\n#china #chongqing #fyp #viral #game",
+  "post_url": "https://www.instagram.com/via.abdulaziz/reel/DeHxWdUu-sU/",
+  "username": "via.abdulaziz",
+  "profile_url": "https://www.instagram.com/via.abdulaziz/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/via.abdulaziz/reel/DeHxWdUu-sU/",
+    "username": "via.abdulaziz",
+    "profile_url": "https://www.instagram.com/via.abdulaziz/",
+    "kind": "reel",
+    "image": "images/DeHxWdUu-sU.jpg",
+    "caption": "POV: this city is a real life video game 🎮✨\n\n.\n\n📍DEYI WORLD, CHONGQING, CHINA 🇨🇳 \n\n.\n\n#china #chongqing #fyp #viral #game",
+    "match": "single"
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Neon-Viertel am Jiaochangkou, viral als „Videospiel-Stadt“",
+  "when": "night"
  },
  {
   "id": "claude-cn-nantou-ancient-city",
