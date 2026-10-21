@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 14:32 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 14:33 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -159,34 +159,25 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚗 Auto · ca. 110 Min. · 121 km
 - **~14:50** 🏨 Ankunft, einchecken: **Mount Villa by T Residence**
   - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **16:30–17:00** ✅ **Fenghuang Ancient Town 凤凰古城** (Xiangxi, Hunan) · Licht: später Nachmittag – Gassen und Ufer – Ankommen in der Altstadt: vom Westtor durch die Gassen zum Fluss. Danach die Aussichtspunkte flussabwärts zur blauen Stunde.
+- **16:45–17:40** ◻︎ optional: **Xueqiao Snow Bridge 雪桥** (Fenghuang, Xiangxi, Hunan) · Licht: goldene Stunde – Sonne im Rücken (W), Licht flussabwärts auf Häuser und Boote – Standpunkt: auf der Brücke bzw. am Ufer daneben, Blick flussabwärts nach Osten. Motive: Staker auf den Booten von oben (100–400 mm senkrecht, viel leeres Wasser), Mitzieher quer zur Fahrt (70–200, 1/15–1/30 s, Serie), Stelzenhäuser mit Spiegelung. Hier ist das Licht jetzt am wärmsten – nicht vor 17:40 weiter.
   - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **17:05–17:35** ◻︎ optional: **Xueqiao Snow Bridge 雪桥** (Fenghuang, Xiangxi, Hunan) · Licht: goldene Stunde – Blick flussabwärts – Von der Brücke den Fluss hinab: Stelzenhäuser, Schrittsteine, Boote von oben mit 70–200.
-  - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **17:40–18:20** ◻︎ optional: **Tuojiang Stepping Stones 跳岩** (Fenghuang, Xiangxi, Hunan) · Licht: Sonnenuntergang 18:06, die Lichter gehen an – Stativplatz am Ufer neben den Steinen sichern, Blick flussabwärts zu Hongqiao. Warten, bis die Beleuchtung angeht (ca. 18:15).
-  - ↓ 🚶 zu Fuß · ca. 3 Min.
-- **18:20–18:50** ◻︎ optional: **North Gate Tower 北门城楼** (Fenghuang, Xiangxi, Hunan) · Licht: blaue Stunde 18:15–18:50 – Von der Mauer neben dem Nordtor flussabwärts auf die beleuchtete Hongqiao; durch das Tor Silhouetten gegen die Lichter.
-  - ↓ 🚶 zu Fuß · ca. 8 Min.
-- **19:00–19:20** ◻︎ optional: **Rainbow Bridge 虹桥** (Fenghuang, Xiangxi, Hunan) · Licht: Nacht – Brücke beleuchtet – Über die Brücke ans Südufer; oben im Hongqiao-Turm Cafés mit Flussfenster.
-  - ↓ 🚶 zu Fuß · ca. 8 Min.
-- **19:30–20:10** ◻︎ optional: **Wind Bridge 风桥** (Fenghuang, Xiangxi, Hunan) · Licht: Nacht – Pagode und Hongqiao in einer Linie – Von der Windbrücke flussaufwärts: beleuchtete Wanming-Pagode vorn, Hongqiao dahinter, lange Belichtung für glattes Wasser.
-  - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **20:15–20:35** ◻︎ optional: **Wanming Pagoda 万名塔** (Fenghuang, Xiangxi, Hunan) · Licht: Nacht – Direkt an der Pagode, Spiegelung im Fluss vom Anleger Shawan.
+- **17:45–19:00** ◻︎ optional: **Tuojiang Stepping Stones 跳岩** (Fenghuang, Xiangxi, Hunan) · Licht: Sonnenuntergang 18:06 → Lichter ca. 18:15 → blaue Stunde bis 18:50 – Das Hauptbild des Abends, ein Standpunkt, Stativ bleibt stehen: Ufer neben den Schrittsteinen (nicht auf den Steinen), Blick flussabwärts zur Hongqiao (≈118°), 16–35 mm. Ab 17:45 Platz sichern, Ausschnitt festlegen, manuell fokussieren. Ab ca. 18:15, wenn die Lichter angehen und der Himmel noch blau ist: f/8–11, ISO 100, 10–30 s (ND 3 Stufen bei Restlicht) – Fluss glatt, Lichter spiegeln. Zusätzlich Intervall alle 30 s von 17:50–18:50 für ein Time-Slice Tag→Nacht. Zum Schluss Zoom-Burst auf die Hongqiao (70–200, f/11, 1–2 s). Die Mauer am Nordtor (50 m) als zweiter Blickwinkel: Laternenlinie auf der Mauerkrone, 16–24 mm, 4–8 s.
+  - ↓ 🚶 zu Fuß · ca. 15 Min. (am Ufer entlang über die Hongqiao zum Südufer)
+- **19:15–20:00** ◻︎ optional: **Wind Bridge 风桥** (Fenghuang, Xiangxi, Hunan) · Licht: Nacht – Pagode und Hongqiao beleuchtet, Blick flussaufwärts – Standpunkt: Windbrücke (风桥), Blick flussaufwärts nach NW. Beleuchtete Wanming-Pagode vorn, Hongqiao und Häuserzeile dahinter gestapelt: 70–200 mm, f/8–11, Langzeit 5–20 s, Stativ am Geländer (Vibrationen von Passanten – Serie machen). Danach optional an der Pagode selbst die Spiegelung vom Anleger Shawan.
   - ↓ 🚶 zu Fuß · ca. 15 Min.
+- **20:15–20:45** ✅ **Fenghuang Ancient Town 凤凰古城** (Xiangxi, Hunan) · Licht: Nacht – Laternengassen – Auf dem Rückweg zum Hotel durch die Hauptgasse (东正街): Laternen-Wischbilder (24–50 mm, f/11–16, 1/4–1/2 s, beim Auslösen schwenken), Ingwerzucker-Zieher (1/8–1/15 s, Hände verwischen lassen), nasse Gassen als Spiegel.
+  - ↓ 🚶 zu Fuß · ca. 10 Min.
 - 🏨 Unterkunft: **Mount Villa by T Residence**
 - 🔀 ◻︎ optional: **Plan B bei Nebel am Gipfel (Entscheidung 21.10. abends)** – Langde morgens im Nebel fotografieren → Auto nach Kaili Süd (40 Min.) → Zug nach Fenghuang Gucheng → abends Fenghuang. Achtung: Die Fanjingshan-Tickets sind nicht erstattungsfähig – Plan B nur bei wirklich aussichtslosem Wetter.
 
 ### Fr 23.10. – Fenghuang → Zhangjiajie · ankommen im YOLO Resort · Sonnenuntergang am YOLO-Sunset-Felsen _(Entwurf)_
 
-- **6:15–6:45** ◻︎ optional: **Tuojiang Stepping Stones 跳岩** (Fenghuang, Xiangxi, Hunan) · Licht: Dämmerung – Fluss fast leer – Vor Sonnenaufgang: einzelne Menschen auf den Steinen, Langzeitbelichtung für glattes Wasser.
-  - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **6:50–7:20** ◻︎ optional: **Xueqiao Snow Bridge 雪桥** (Fenghuang, Xiangxi, Hunan) · Licht: Sonnenaufgang 6:46, über den Hügeln ca. 7:05 – Gegenlicht im Dunst – Flussabwärts in die aufgehende Sonne: Dunst, Boote, Angler am Ufer.
-  - ↓ 🚶 zu Fuß · ca. 15 Min.
-- **7:35–8:00** ✅ **Fenghuang Ancient Town 凤凰古城** (Xiangxi, Hunan) · Licht: Morgenlicht auf den Fassaden – Uferweg und Gassen, Frauen beim Waschen am Fluss, Läden öffnen.
-  - ↓ 🚶 zu Fuß · ca. 10 Min.
-- **8:05–8:30** ◻︎ optional: **Wind Bridge 风桥** (Fenghuang, Xiangxi, Hunan) · Licht: Morgen – Sonne von hinten-links auf die Häuserzeile – Tele-Stapel flussaufwärts: Pagode, Hongqiao, Stelzenhäuser im Frontallicht.
-  - ↓ 🚶 zu Fuß · ca. 25 Min.
-- **8:45–9:30** ◻︎ optional: **Nanhua Mountain Viewpoint 南华山观景台** (Fenghuang, Xiangxi, Hunan) · Licht: Vormittag – Streiflicht über den Dächern – Treppen ab dem Wenhua-Platz (20–30 Min.), oben Blick über das Ziegelmeer. Vor dem Check-out um 11:30 genug Zeit.
+- **6:15–7:30** ◻︎ optional: **Tuojiang Stepping Stones 跳岩** (Fenghuang, Xiangxi, Hunan) · Licht: Dämmerung → Sonnenaufgang 6:46, über den Hügeln ca. 7:05 (Az ~105°, genau flussabwärts) – Ein Standpunkt für die ganze Morgenstunde, Ufer neben den Steinen: 6:15–6:45 einzelne Menschen auf den Steinen diagonal im Bild, ND 6–10 Stufen, 2–15 s (Wasser glatt, Person scharf, wenn sie stehen bleibt). Ab 7:00 Gegenlicht im Dunst flussabwärts: 70–200, leicht unterbelichten, Angler und Wäscherinnen an den Uferstufen als Silhouetten. Wer Lust auf Bewegung hat: 150 m flussaufwärts auf die Xueqiao, Boote von oben.
+  - ↓ 🚶 zu Fuß · ca. 15 Min. (am Ufer flussabwärts zur Windbrücke)
+- **7:45–8:30** ◻︎ optional: **Wind Bridge 风桥** (Fenghuang, Xiangxi, Hunan) · Licht: Morgenlicht von hinten-links (Az 106–110°) – Fassaden frontal beleuchtet – Derselbe Blick wie gestern Nacht, jetzt im Morgenlicht: Pagode, Hongqiao, Stelzenhäuser als Tele-Stapel, 100–400 mm, f/8. Unter dem Huilongge die Pfahlwälder der Stelzenhäuser (70–200 frontal).
+  - ↓ 🚶 zu Fuß · ca. 15 Min. (durch die Gassen zurück, Läden öffnen)
+- **8:45–9:30** ✅ **Fenghuang Ancient Town 凤凰古城** (Xiangxi, Hunan) · Licht: Vormittag – Licht von Osten in die Gassen – Gassen hinter dem Yang-Ahnentempel: Türen und Fenster als Serie (35–50 mm, Kamera parallel), Porträts nur nach Fragen (可以拍吗?), Chili zum Trocknen. Danach zum Hotel – Check-out 11:30.
+- **9:30–10:30** ◻︎ optional: **Nanhua Mountain Viewpoint 南华山观景台** (Fenghuang, Xiangxi, Hunan) · Licht: Vormittag – Streiflicht über den Dächern – Alternative zu den Gassen: Treppen ab dem Wenhua-Platz (20–30 Min.), oben das Ziegelmeer als Abstraktion mit 200–400 mm, f/8–11.
 - **~11:30** 🏨 Check-out: **Mount Villa by T Residence**
   - ↓ 🚗 Auto · ca. 10 Min. · 5 km (Taxi (Autos kommen nicht bis an die Hotels))
 - **12:43** 🚄 **Bahnhof Fenghuang Gucheng (凤凰古城站) – Zug G6174 ✓ gebucht** – 2. Klasse, Wagen 06, Plätze 3A + 3B (nebeneinander). Ticket-Gate 1. Etage. Mind. 30 Min. vorher da sein (Pass- und Sicherheitskontrolle); Abholnummer in der Trip.com-Buchung.

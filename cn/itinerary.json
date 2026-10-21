@@ -847,27 +847,13 @@
     },
     {
      "type": "stop",
-     "t": "16:30–17:00",
-     "spot": "cn-fenghuang-ancient-town",
-     "plan": true,
-     "light": "golden",
-     "lightText": "später Nachmittag – Gassen und Ufer",
-     "text": "Ankommen in der Altstadt: vom Westtor durch die Gassen zum Fluss. Danach die Aussichtspunkte flussabwärts zur blauen Stunde."
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 5
-    },
-    {
-     "type": "stop",
-     "t": "17:05–17:35",
+     "t": "16:45–17:40",
      "spot": "claude-cn-xueqiao-snow-bridge",
      "opt": true,
      "sel": true,
      "light": "golden",
-     "lightText": "goldene Stunde – Blick flussabwärts",
-     "text": "Von der Brücke den Fluss hinab: Stelzenhäuser, Schrittsteine, Boote von oben mit 70–200."
+     "lightText": "goldene Stunde – Sonne im Rücken (W), Licht flussabwärts auf Häuser und Boote",
+     "text": "Standpunkt: auf der Brücke bzw. am Ufer daneben, Blick flussabwärts nach Osten. Motive: Staker auf den Booten von oben (100–400 mm senkrecht, viel leeres Wasser), Mitzieher quer zur Fahrt (70–200, 1/15–1/30 s, Serie), Stelzenhäuser mit Spiegelung. Hier ist das Licht jetzt am wärmsten – nicht vor 17:40 weiter."
     },
     {
      "type": "move",
@@ -876,77 +862,48 @@
     },
     {
      "type": "stop",
-     "t": "17:40–18:20",
+     "t": "17:45–19:00",
      "spot": "claude-cn-tuojiang-stepping-stones",
      "opt": true,
      "sel": true,
-     "light": "sunset",
-     "lightText": "Sonnenuntergang 18:06, die Lichter gehen an",
-     "text": "Stativplatz am Ufer neben den Steinen sichern, Blick flussabwärts zu Hongqiao. Warten, bis die Beleuchtung angeht (ca. 18:15)."
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 3
-    },
-    {
-     "type": "stop",
-     "t": "18:20–18:50",
-     "spot": "claude-cn-north-gate-tower",
-     "opt": true,
-     "sel": true,
      "light": "blue",
-     "lightText": "blaue Stunde 18:15–18:50",
-     "text": "Von der Mauer neben dem Nordtor flussabwärts auf die beleuchtete Hongqiao; durch das Tor Silhouetten gegen die Lichter."
+     "lightText": "Sonnenuntergang 18:06 → Lichter ca. 18:15 → blaue Stunde bis 18:50",
+     "text": "Das Hauptbild des Abends, ein Standpunkt, Stativ bleibt stehen: Ufer neben den Schrittsteinen (nicht auf den Steinen), Blick flussabwärts zur Hongqiao (≈118°), 16–35 mm. Ab 17:45 Platz sichern, Ausschnitt festlegen, manuell fokussieren. Ab ca. 18:15, wenn die Lichter angehen und der Himmel noch blau ist: f/8–11, ISO 100, 10–30 s (ND 3 Stufen bei Restlicht) – Fluss glatt, Lichter spiegeln. Zusätzlich Intervall alle 30 s von 17:50–18:50 für ein Time-Slice Tag→Nacht. Zum Schluss Zoom-Burst auf die Hongqiao (70–200, f/11, 1–2 s). Die Mauer am Nordtor (50 m) als zweiter Blickwinkel: Laternenlinie auf der Mauerkrone, 16–24 mm, 4–8 s."
     },
     {
      "type": "move",
      "mode": "walk",
-     "min": 8
+     "min": 15,
+     "text": "am Ufer entlang über die Hongqiao zum Südufer"
     },
     {
      "type": "stop",
-     "t": "19:00–19:20",
-     "spot": "claude-cn-rainbow-bridge",
-     "opt": true,
-     "sel": true,
-     "light": "night",
-     "lightText": "Nacht – Brücke beleuchtet",
-     "text": "Über die Brücke ans Südufer; oben im Hongqiao-Turm Cafés mit Flussfenster."
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 8
-    },
-    {
-     "type": "stop",
-     "t": "19:30–20:10",
+     "t": "19:15–20:00",
      "spot": "claude-cn-wind-bridge",
      "opt": true,
      "sel": true,
      "light": "night",
-     "lightText": "Nacht – Pagode und Hongqiao in einer Linie",
-     "text": "Von der Windbrücke flussaufwärts: beleuchtete Wanming-Pagode vorn, Hongqiao dahinter, lange Belichtung für glattes Wasser."
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 5
-    },
-    {
-     "type": "stop",
-     "t": "20:15–20:35",
-     "spot": "claude-cn-wanming-pagoda",
-     "opt": true,
-     "light": "night",
-     "lightText": "Nacht",
-     "text": "Direkt an der Pagode, Spiegelung im Fluss vom Anleger Shawan."
+     "lightText": "Nacht – Pagode und Hongqiao beleuchtet, Blick flussaufwärts",
+     "text": "Standpunkt: Windbrücke (风桥), Blick flussaufwärts nach NW. Beleuchtete Wanming-Pagode vorn, Hongqiao und Häuserzeile dahinter gestapelt: 70–200 mm, f/8–11, Langzeit 5–20 s, Stativ am Geländer (Vibrationen von Passanten – Serie machen). Danach optional an der Pagode selbst die Spiegelung vom Anleger Shawan."
     },
     {
      "type": "move",
      "mode": "walk",
      "min": 15
+    },
+    {
+     "type": "stop",
+     "t": "20:15–20:45",
+     "spot": "cn-fenghuang-ancient-town",
+     "plan": true,
+     "light": "night",
+     "lightText": "Nacht – Laternengassen",
+     "text": "Auf dem Rückweg zum Hotel durch die Hauptgasse (东正街): Laternen-Wischbilder (24–50 mm, f/11–16, 1/4–1/2 s, beim Auslösen schwenken), Ingwerzucker-Zieher (1/8–1/15 s, Hände verwischen lassen), nasse Gassen als Spiegel."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
     },
     {
      "type": "hotel",
@@ -968,70 +925,53 @@
    "items": [
     {
      "type": "stop",
-     "t": "6:15–6:45",
+     "t": "6:15–7:30",
      "spot": "claude-cn-tuojiang-stepping-stones",
      "opt": true,
      "sel": true,
-     "light": "dawn",
-     "lightText": "Dämmerung – Fluss fast leer",
-     "text": "Vor Sonnenaufgang: einzelne Menschen auf den Steinen, Langzeitbelichtung für glattes Wasser."
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 5
-    },
-    {
-     "type": "stop",
-     "t": "6:50–7:20",
-     "spot": "claude-cn-xueqiao-snow-bridge",
-     "opt": true,
-     "sel": true,
      "light": "sunrise",
-     "lightText": "Sonnenaufgang 6:46, über den Hügeln ca. 7:05 – Gegenlicht im Dunst",
-     "text": "Flussabwärts in die aufgehende Sonne: Dunst, Boote, Angler am Ufer."
+     "lightText": "Dämmerung → Sonnenaufgang 6:46, über den Hügeln ca. 7:05 (Az ~105°, genau flussabwärts)",
+     "text": "Ein Standpunkt für die ganze Morgenstunde, Ufer neben den Steinen: 6:15–6:45 einzelne Menschen auf den Steinen diagonal im Bild, ND 6–10 Stufen, 2–15 s (Wasser glatt, Person scharf, wenn sie stehen bleibt). Ab 7:00 Gegenlicht im Dunst flussabwärts: 70–200, leicht unterbelichten, Angler und Wäscherinnen an den Uferstufen als Silhouetten. Wer Lust auf Bewegung hat: 150 m flussaufwärts auf die Xueqiao, Boote von oben."
     },
     {
      "type": "move",
      "mode": "walk",
-     "min": 15
+     "min": 15,
+     "text": "am Ufer flussabwärts zur Windbrücke"
     },
     {
      "type": "stop",
-     "t": "7:35–8:00",
-     "spot": "cn-fenghuang-ancient-town",
-     "plan": true,
-     "light": "golden",
-     "lightText": "Morgenlicht auf den Fassaden",
-     "text": "Uferweg und Gassen, Frauen beim Waschen am Fluss, Läden öffnen."
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 10
-    },
-    {
-     "type": "stop",
-     "t": "8:05–8:30",
+     "t": "7:45–8:30",
      "spot": "claude-cn-wind-bridge",
      "opt": true,
+     "sel": true,
      "light": "golden",
-     "lightText": "Morgen – Sonne von hinten-links auf die Häuserzeile",
-     "text": "Tele-Stapel flussaufwärts: Pagode, Hongqiao, Stelzenhäuser im Frontallicht."
+     "lightText": "Morgenlicht von hinten-links (Az 106–110°) – Fassaden frontal beleuchtet",
+     "text": "Derselbe Blick wie gestern Nacht, jetzt im Morgenlicht: Pagode, Hongqiao, Stelzenhäuser als Tele-Stapel, 100–400 mm, f/8. Unter dem Huilongge die Pfahlwälder der Stelzenhäuser (70–200 frontal)."
     },
     {
      "type": "move",
      "mode": "walk",
-     "min": 25
+     "min": 15,
+     "text": "durch die Gassen zurück, Läden öffnen"
     },
     {
      "type": "stop",
      "t": "8:45–9:30",
+     "spot": "cn-fenghuang-ancient-town",
+     "plan": true,
+     "light": "day",
+     "lightText": "Vormittag – Licht von Osten in die Gassen",
+     "text": "Gassen hinter dem Yang-Ahnentempel: Türen und Fenster als Serie (35–50 mm, Kamera parallel), Porträts nur nach Fragen (可以拍吗?), Chili zum Trocknen. Danach zum Hotel – Check-out 11:30."
+    },
+    {
+     "type": "stop",
+     "t": "9:30–10:30",
      "spot": "claude-cn-nanhua-mountain-viewpoint",
      "opt": true,
      "light": "day",
      "lightText": "Vormittag – Streiflicht über den Dächern",
-     "text": "Treppen ab dem Wenhua-Platz (20–30 Min.), oben Blick über das Ziegelmeer. Vor dem Check-out um 11:30 genug Zeit."
+     "text": "Alternative zu den Gassen: Treppen ab dem Wenhua-Platz (20–30 Min.), oben das Ziegelmeer als Abstraktion mit 200–400 mm, f/8–11."
     },
     {
      "type": "hotel",
