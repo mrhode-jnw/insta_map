@@ -10131,6 +10131,325 @@ window.PLACES_CN = [
   "when": "both"
  },
  {
+  "id": "claude-cn-mushroom-stone",
+  "region": "cn",
+  "by_claude": true,
+  "name": "Mushroom Stone 蘑菇石",
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "category": "Natur",
+  "note": "",
+  "tip": "Vom Aussichtsdeck mit den roten Bändern sieht man den Pilzfelsen frei vor dem Talraum, dahinter Alter Goldgipfel und bei klarer Sicht Hongyun Jinding. Am 22.10. vormittags steht die Sonne im Osten/Südosten und gibt Seiten-/Streiflicht auf die Schichten; bei Nebel als Silhouette gegen das Weiß belichten (+1 EV). 16–35 mm für Felsen samt Wolkenmeer, 70–200 mm, um ihn vor Hongyun Jinding zu isolieren. Ab Bergstation ca. 30–40 Min. bergauf über den Waldsteg.",
+  "address": "Fanjingshan, Tongren, Guizhou",
+  "lat": 27.91216,
+  "lng": 108.69381,
+  "approx": false,
+  "image": "images/claude_fjs_mushroom_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/lightmeister/55571205190/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lightmeister/55571205190/",
+    "kind": "photo",
+    "image": "images/claude_fjs_mushroom_1.jpg",
+    "caption": "",
+    "credit": "lightmeister · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/oeyvind/54105734872/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/oeyvind/54105734872/",
+    "kind": "photo",
+    "image": "images/claude_fjs_mushroom_2.jpg",
+    "caption": "",
+    "credit": "Tim Chong · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/e_kaspersky/53322759701/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/e_kaspersky/53322759701/",
+    "kind": "photo",
+    "image": "images/claude_fjs_mushroom_3.jpg",
+    "caption": "",
+    "credit": "Eugene Kaspersky · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/lanson_chen/21110357408/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lanson_chen/21110357408/",
+    "kind": "photo",
+    "image": "images/claude_fjs_mushroom_4.jpg",
+    "caption": "",
+    "credit": "lansonchen · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/qxde/399291219/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/qxde/399291219/",
+    "kind": "photo",
+    "image": "images/claude_fjs_mushroom_5.jpg",
+    "caption": "",
+    "credit": "qxde2000 · Flickr"
+   }
+  ],
+  "pop": 5,
+  "pop_reason": "Das Wahrzeichen des Fanjingshan: ein rund 10 m hoher, oben breiterer Turm aus gestapelten Schieferplatten an der Abbruchkante.",
+  "image_page": "https://www.flickr.com/photos/lightmeister/55571205190/",
+  "image_credit": "lightmeister · Flickr",
+  "when": "day"
+ },
+ {
+  "id": "claude-cn-chengen-temple",
+  "region": "cn",
+  "by_claude": true,
+  "name": "Chengen Temple 承恩寺",
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "category": "Kultur",
+  "note": "",
+  "tip": "Rote Hallen, Löwen und Drachenscheiben vor dem Hongyun Jinding; aus dem Innenhof Blick die Treppen hinauf zur Haupthalle. Vormittags liegt der Hof in schrägem Licht; bei Nebel wirken die roten Wände besonders satt (Weißabgleich nicht zu warm). 24–70 mm für Hallen und Treppen, Tele für Dachfiguren vor dem Gipfel. Ab Bergstation ca. 20–30 Min. über den Weg beim 万宝岩; wer auf seine Hongyun-Nummer wartet, kann hier sitzen (ab 11:30 Reissuppe).",
+  "address": "Fanjingshan, Tongren, Guizhou",
+  "lat": 27.91078,
+  "lng": 108.69302,
+  "approx": false,
+  "image": "images/claude_fjs_chengen_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/oeyvind/54106857868/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/oeyvind/54106857868/",
+    "kind": "photo",
+    "image": "images/claude_fjs_chengen_1.jpg",
+    "caption": "",
+    "credit": "Tim Chong · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/21885507@N05/53639196263/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/21885507@N05/53639196263/",
+    "kind": "photo",
+    "image": "images/claude_fjs_chengen_2.jpg",
+    "caption": "",
+    "credit": "Lee Hew-Son · Flickr"
+   },
+   {
+    "url": "https://you.ctrip.com/travels/tongren680/4150797.html",
+    "username": "",
+    "profile_url": "https://you.ctrip.com/travels/tongren680/4150797.html",
+    "kind": "photo",
+    "image": "images/claude_fjs_chengen_3.jpg",
+    "caption": "",
+    "credit": "fswpq · Ctrip"
+   },
+   {
+    "url": "https://www.flickr.com/photos/tpatrick_99/7342359894/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/tpatrick_99/7342359894/",
+    "kind": "photo",
+    "image": "images/claude_fjs_chengen_4.jpg",
+    "caption": "",
+    "credit": "Patrick Cheung · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/oeyvind/54107052260/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/oeyvind/54107052260/",
+    "kind": "photo",
+    "image": "images/claude_fjs_chengen_5.jpg",
+    "caption": "",
+    "credit": "Tim Chong · Flickr"
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Haupttempel des Gipfelplateaus (Ming-Gründung, 2009–2011 neu aufgebaut) mit roten Mauern und goldenen Drachenmedaillons direkt am Pudu-Platz unter dem Hongyun Jinding.",
+  "image_page": "https://www.flickr.com/photos/oeyvind/54106857868/",
+  "image_credit": "Tim Chong · Flickr",
+  "when": "day"
+ },
+ {
+  "id": "claude-cn-fanjingshan-cloud-forest-boardwalk",
+  "region": "cn",
+  "by_claude": true,
+  "name": "Fanjingshan Cloud Forest Boardwalk 梵净山森林栈道",
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "category": "Natur",
+  "note": "",
+  "tip": "Moosbehangene Äste, Bambus und Holztreppen, die im Nebel verschwinden: im Wald sind Nebelmorgen ein Geschenk. Am 22.10. vormittags fällt Licht von Osten schräg durch die Kronen; mit 24–35 mm die Treppe als Fluchtlinie nutzen, ISO hochdrehen statt Stativ (eng, viel Verkehr). Aufwärts 30–40 Min. ab Bergstation, abwärts ca. 20 Min.; mittags fast leer.",
+  "address": "Fanjingshan, Tongren, Guizhou",
+  "lat": 27.91151,
+  "lng": 108.69527,
+  "approx": false,
+  "image": "images/claude_fjs_boardwalk_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/thomas66/53605831941/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/thomas66/53605831941/",
+    "kind": "photo",
+    "image": "images/claude_fjs_boardwalk_1.jpg",
+    "caption": "",
+    "credit": "Thomas Cheang · Flickr"
+   },
+   {
+    "url": "https://you.ctrip.com/travels/tongren680/3970711.html",
+    "username": "",
+    "profile_url": "https://you.ctrip.com/travels/tongren680/3970711.html",
+    "kind": "photo",
+    "image": "images/claude_fjs_boardwalk_2.jpg",
+    "caption": "",
+    "credit": "sds88 · Ctrip"
+   },
+   {
+    "url": "https://www.flickr.com/photos/thomas66/53606297650/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/thomas66/53606297650/",
+    "kind": "photo",
+    "image": "images/claude_fjs_boardwalk_3.jpg",
+    "caption": "",
+    "credit": "Thomas Cheang · Flickr"
+   },
+   {
+    "url": "https://you.ctrip.com/travels/tongren680/3964770.html",
+    "username": "",
+    "profile_url": "https://you.ctrip.com/travels/tongren680/3964770.html",
+    "kind": "photo",
+    "image": "images/claude_fjs_boardwalk_4.jpg",
+    "caption": "",
+    "credit": "逆光行走的荷尔蒙 · Ctrip"
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Holzsteg mit rund 1.400 Stufen (ca. 750 m, +200 Hm) durch den moosigen Zwergwald aus Rhododendron, Bambus und knorrigen Bäumen zwischen Seilbahn-Bergstation und Pilzfelsen.",
+  "image_page": "https://www.flickr.com/photos/thomas66/53605831941/",
+  "image_credit": "Thomas Cheang · Flickr",
+  "when": "day"
+ },
+ {
+  "id": "claude-cn-wanjuanshu",
+  "region": "cn",
+  "by_claude": true,
+  "name": "Wanjuanshu 万卷书",
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "category": "Natur",
+  "note": "",
+  "tip": "Liegt am Rückweg vom Alten Goldgipfel (Abzweig hinter 般若泉 links, über 果然寺 und 老鹰岩) kurz oberhalb des Pilzfelsens; eine Infotafel „万卷经书 Wanjuanshu Stone“ markiert die Stelle. Vormittags Streiflicht von Osten auf die Schichtkanten, 35–85 mm für Details der Plattenstruktur, Hochformat für die Lichtspalte. Ab Pilzfelsen 5–10 Min. bergauf, ab Bergstation ca. 45 Min.",
+  "address": "Fanjingshan, Tongren, Guizhou",
+  "lat": 27.9129,
+  "lng": 108.6935,
+  "approx": true,
+  "image": "images/claude_fjs_wanjuanshu_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://you.ctrip.com/travels/tongren680/4150797.html",
+    "username": "",
+    "profile_url": "https://you.ctrip.com/travels/tongren680/4150797.html",
+    "kind": "photo",
+    "image": "images/claude_fjs_wanjuanshu_1.jpg",
+    "caption": "",
+    "credit": "fswpq · Ctrip"
+   },
+   {
+    "url": "https://www.flickr.com/photos/29868194@N08/51173320070/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/29868194@N08/51173320070/",
+    "kind": "photo",
+    "image": "images/claude_fjs_wanjuanshu_2.jpg",
+    "caption": "",
+    "credit": "hanming_huang · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/xiaoxuesygdc/7186614567/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/xiaoxuesygdc/7186614567/",
+    "kind": "photo",
+    "image": "images/claude_fjs_wanjuanshu_3.jpg",
+    "caption": "",
+    "credit": "杜小雪 · Flickr"
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "„Zehntausend Bücher“: eine Felswand aus waagrecht geschichteten Schieferplatten, die wie Stapel alter Sutren aussieht, gespalten von einer schmalen Lichtspalte, durch die die Treppe führt.",
+  "image_page": "https://you.ctrip.com/travels/tongren680/4150797.html",
+  "image_credit": "fswpq · Ctrip",
+  "when": "day"
+ },
+ {
+  "id": "claude-cn-old-golden-summit",
+  "region": "cn",
+  "by_claude": true,
+  "name": "Old Golden Summit 老金顶",
+  "district": "Fanjingshan, Tongren, Guizhou",
+  "category": "Aussicht",
+  "note": "",
+  "tip": "Vom Plateau vor dem 燃灯殿 und vom Felsbalkon schaut man nach Süd-Südwest auf die Hongyun-Nadel mit Tempeln am Fuß; bei Inversion liegt das Wolkenmeer darunter. Am 22.10. vormittags kommt die Sonne von links/hinten (Osten) – gutes Seitenlicht, nachmittags Gegenlicht. 70–200 mm für Hongyun Jinding im Wolkenmeer, 16–35 mm für den Tempel. Ab Pilzfelsen 40–50 Min. steile Stufen (eine enge, nasse Felsspalte), ab Bergstation ca. 1:15–1:30 h; Abstieg als Schleife über 万卷书 zurück zum Pilzfelsen.",
+  "address": "Fanjingshan, Tongren, Guizhou",
+  "lat": 27.9143,
+  "lng": 108.69304,
+  "approx": false,
+  "image": "images/claude_fjs_laojinding_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/lightmeister/55570927768/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/lightmeister/55570927768/",
+    "kind": "photo",
+    "image": "images/claude_fjs_laojinding_1.jpg",
+    "caption": "",
+    "credit": "lightmeister · Flickr"
+   },
+   {
+    "url": "https://you.ctrip.com/travels/tongren680/3964770.html",
+    "username": "",
+    "profile_url": "https://you.ctrip.com/travels/tongren680/3964770.html",
+    "kind": "photo",
+    "image": "images/claude_fjs_laojinding_2.jpg",
+    "caption": "",
+    "credit": "逆光行走的荷尔蒙 · Ctrip"
+   },
+   {
+    "url": "https://www.flickr.com/photos/21885507@N05/53639317894/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/21885507@N05/53639317894/",
+    "kind": "photo",
+    "image": "images/claude_fjs_laojinding_3.jpg",
+    "caption": "",
+    "credit": "Lee Hew-Son · Flickr"
+   },
+   {
+    "url": "https://you.ctrip.com/travels/tongren680/4150797.html",
+    "username": "",
+    "profile_url": "https://you.ctrip.com/travels/tongren680/4150797.html",
+    "kind": "photo",
+    "image": "images/claude_fjs_laojinding_4.jpg",
+    "caption": "",
+    "credit": "fswpq · Ctrip"
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Höchster Punkt des Besucherbereichs (2.494 m) mit dem kleinen Randeng-Tempel 燃灯殿 und dem besten Blick hinab auf Hongyun Jinding, Cheng'en-Tempel und das Wolkenmeer.",
+  "image_page": "https://www.flickr.com/photos/lightmeister/55570927768/",
+  "image_credit": "lightmeister · Flickr",
+  "when": "day"
+ },
+ {
   "id": "cn-haus-nowhere-im-mixc-world",
   "region": "cn",
   "name": "Haus Nowhere 巨人展 im MixC World 深圳万象天地",

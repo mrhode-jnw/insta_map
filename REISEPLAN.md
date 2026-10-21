@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 09:17 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 10:45 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -142,8 +142,17 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚗 Auto · ca. 215 Min. · 252 km (im Dunkeln fahren)
 - **~8:20** 🎟 **Fanjingshan Ost-Eingang (梵净山东门)** – Gebucht: Ticket Osttor + Sightseeing-Bus hin und zurück + Seilbahn hin und zurück, 2 Personen, nicht erstattungsfähig. Einlass 8:40–8:59 – spätestens 8:20 da sein, Tickets mit Pass am Schalter abholen (Abholnummer in der Trip.com-Buchung). Seilbahn-Zeitfenster steht unter Ticket 2 in der Buchung.
   - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Bus ca. 25 Min. + Seilbahn (Zeitfenster laut Ticket 2, vermutlich ca. 9:20–9:39))
-- **9:40–12:00** ✅ **Fanjingshan 梵净山** (Tongren, Guizhou) · Licht: Vormittag – beste Chance auf Wolkenmeer und freie Sicht – Gipfelplateau zu Fuß: Pilzfelsen (蘑菇石) und Blick auf den Hongyun Jinding – nicht hinaufsteigen. Oben 10–15 °C kälter: Jacke.
-  - ↓ 🚌 Bus/Seilbahn · ca. 45 Min. (Seilbahn + Bus hinunter)
+- **9:40–10:20** ◻︎ optional: **Fanjingshan Cloud Forest Boardwalk 梵净山森林栈道** (Fanjingshan, Tongren, Guizhou) · Licht: Vormittag – im Nebel am stimmungsvollsten – Ab der Seilbahn-Bergstation den Waldsteg (森林栈道) hinauf: ca. 750 m, gut 1.400 Stufen, 30–40 Min. durch moosigen Zwergwald und Bambus. 16–24 mm, bei Nebel Person in roter Jacke als Maßstab.
+  - ↓ 🚶 zu Fuß · ca. 5 Min.
+- **10:25–11:00** ◻︎ optional: **Mushroom Stone 蘑菇石** (Fanjingshan, Tongren, Guizhou) · Licht: Vormittag – Sonne aus SO, Felsen von der NW-Seite im Gegenlicht – Das Wahrzeichen. Vom oberen Weg mit 24–35 mm aus leichter Untersicht, Gipfel Hongyun Jinding im Hintergrund nach SW. Kurz warten, bis die Menge am Geländer wechselt.
+  - ↓ 🚶 zu Fuß · ca. 5 Min.
+- **11:00–11:10** ◻︎ optional: **Wanjuanshu 万卷书** (Fanjingshan, Tongren, Guizhou) · Licht: Vormittag – Streiflicht auf den Schieferschichten – „Zehntausend Bücher“: gespaltene Schieferwand kurz oberhalb des Pilzfelsens (Lage geschätzt, Infotafel 万卷经书). 70–200 frontal für parallele Linien. Nur ein kurzer Abstecher.
+  - ↓ 🚶 zu Fuß · ca. 15 Min. (vom Pilzfelsen hinunter zum Pudu-Platz (普渡广场))
+- **11:10–11:25** ✅ **Fanjingshan 梵净山** (Tongren, Guizhou) · Licht: Mittag – Sonne im Süden, Seitenlicht auf der Ostflanke – Blick vom Pudu-Platz hinauf zum Hongyun Jinding (红云金顶) mit den zwei Tempeln. Nicht hinaufsteigen: Nummernsystem und Schlange, Ende Oktober 1–3 Std. Wartezeit plus 20–45 Min. Aufstieg – passt nicht ins Zeitfenster.
+  - ↓ 🚶 zu Fuß · ca. 3 Min.
+- **11:30–11:45** ◻︎ optional: **Chengen Temple 承恩寺** (Fanjingshan, Tongren, Guizhou) · Licht: Mittag – Weihrauch im Gegenlicht – Tempel am Fuß des Gipfels, rote Schlösser und Dachreiter vor der Felswand. 50–85 mm, drinnen nur wo erlaubt fotografieren.
+  - ↓ 🚶 zu Fuß · ca. 15 Min. (über 万宝岩 hinunter zur Seilbahn-Bergstation (abwärts gut 10–15 Min.))
+  - ↓ 🚌 Bus/Seilbahn · ca. 45 Min. (Seilbahn + Bus hinunter – spätestens 12:00 an der Bergstation)
 - **~13:00** 🚗 **Abfahrt am Ost-Eingang**
   - ↓ 🚗 Auto · ca. 110 Min. · 121 km
 - **~14:50** 🏨 Ankunft, einchecken: **Mount Villa by T Residence**

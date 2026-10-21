@@ -2406,5 +2406,120 @@
    "url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
    "credit": "Zhangjiajie YOLO Resort · Booking.com"
   }
+ ],
+ "Mushroom Stone 蘑菇石": [
+  {
+   "image": "images/claude_fjs_mushroom_1.jpg",
+   "url": "https://www.flickr.com/photos/lightmeister/55571205190/",
+   "credit": "lightmeister · Flickr"
+  },
+  {
+   "image": "images/claude_fjs_mushroom_2.jpg",
+   "url": "https://www.flickr.com/photos/oeyvind/54105734872/",
+   "credit": "Tim Chong · Flickr"
+  },
+  {
+   "image": "images/claude_fjs_mushroom_3.jpg",
+   "url": "https://www.flickr.com/photos/e_kaspersky/53322759701/",
+   "credit": "Eugene Kaspersky · Flickr"
+  },
+  {
+   "image": "images/claude_fjs_mushroom_4.jpg",
+   "url": "https://www.flickr.com/photos/lanson_chen/21110357408/",
+   "credit": "lansonchen · Flickr"
+  },
+  {
+   "image": "images/claude_fjs_mushroom_5.jpg",
+   "url": "https://www.flickr.com/photos/qxde/399291219/",
+   "credit": "qxde2000 · Flickr"
+  }
+ ],
+ "Chengen Temple 承恩寺": [
+  {
+   "image": "images/claude_fjs_chengen_1.jpg",
+   "url": "https://www.flickr.com/photos/oeyvind/54106857868/",
+   "credit": "Tim Chong · Flickr"
+  },
+  {
+   "image": "images/claude_fjs_chengen_2.jpg",
+   "url": "https://www.flickr.com/photos/21885507@N05/53639196263/",
+   "credit": "Lee Hew-Son · Flickr"
+  },
+  {
+   "image": "images/claude_fjs_chengen_3.jpg",
+   "url": "https://you.ctrip.com/travels/tongren680/4150797.html",
+   "credit": "fswpq · Ctrip"
+  },
+  {
+   "image": "images/claude_fjs_chengen_4.jpg",
+   "url": "https://www.flickr.com/photos/tpatrick_99/7342359894/",
+   "credit": "Patrick Cheung · Flickr"
+  },
+  {
+   "image": "images/claude_fjs_chengen_5.jpg",
+   "url": "https://www.flickr.com/photos/oeyvind/54107052260/",
+   "credit": "Tim Chong · Flickr"
+  }
+ ],
+ "Fanjingshan Cloud Forest Boardwalk 梵净山森林栈道": [
+  {
+   "image": "images/claude_fjs_boardwalk_1.jpg",
+   "url": "https://www.flickr.com/photos/thomas66/53605831941/",
+   "credit": "Thomas Cheang · Flickr"
+  },
+  {
+   "image": "images/claude_fjs_boardwalk_2.jpg",
+   "url": "https://you.ctrip.com/travels/tongren680/3970711.html",
+   "credit": "sds88 · Ctrip"
+  },
+  {
+   "image": "images/claude_fjs_boardwalk_3.jpg",
+   "url": "https://www.flickr.com/photos/thomas66/53606297650/",
+   "credit": "Thomas Cheang · Flickr"
+  },
+  {
+   "image": "images/claude_fjs_boardwalk_4.jpg",
+   "url": "https://you.ctrip.com/travels/tongren680/3964770.html",
+   "credit": "逆光行走的荷尔蒙 · Ctrip"
+  }
+ ],
+ "Wanjuanshu 万卷书": [
+  {
+   "image": "images/claude_fjs_wanjuanshu_1.jpg",
+   "url": "https://you.ctrip.com/travels/tongren680/4150797.html",
+   "credit": "fswpq · Ctrip"
+  },
+  {
+   "image": "images/claude_fjs_wanjuanshu_2.jpg",
+   "url": "https://www.flickr.com/photos/29868194@N08/51173320070/",
+   "credit": "hanming_huang · Flickr"
+  },
+  {
+   "image": "images/claude_fjs_wanjuanshu_3.jpg",
+   "url": "https://www.flickr.com/photos/xiaoxuesygdc/7186614567/",
+   "credit": "杜小雪 · Flickr"
+  }
+ ],
+ "Old Golden Summit 老金顶": [
+  {
+   "image": "images/claude_fjs_laojinding_1.jpg",
+   "url": "https://www.flickr.com/photos/lightmeister/55570927768/",
+   "credit": "lightmeister · Flickr"
+  },
+  {
+   "image": "images/claude_fjs_laojinding_2.jpg",
+   "url": "https://you.ctrip.com/travels/tongren680/3964770.html",
+   "credit": "逆光行走的荷尔蒙 · Ctrip"
+  },
+  {
+   "image": "images/claude_fjs_laojinding_3.jpg",
+   "url": "https://www.flickr.com/photos/21885507@N05/53639317894/",
+   "credit": "Lee Hew-Son · Flickr"
+  },
+  {
+   "image": "images/claude_fjs_laojinding_4.jpg",
+   "url": "https://you.ctrip.com/travels/tongren680/4150797.html",
+   "credit": "fswpq · Ctrip"
+  }
  ]
 }

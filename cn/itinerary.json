@@ -719,18 +719,84 @@
     },
     {
      "type": "stop",
-     "t": "9:40–12:00",
+     "t": "9:40–10:20",
+     "spot": "claude-cn-fanjingshan-cloud-forest-boardwalk",
+     "opt": true,
+     "sel": true,
+     "light": "day",
+     "lightText": "Vormittag – im Nebel am stimmungsvollsten",
+     "text": "Ab der Seilbahn-Bergstation den Waldsteg (森林栈道) hinauf: ca. 750 m, gut 1.400 Stufen, 30–40 Min. durch moosigen Zwergwald und Bambus. 16–24 mm, bei Nebel Person in roter Jacke als Maßstab."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 5
+    },
+    {
+     "type": "stop",
+     "t": "10:25–11:00",
+     "spot": "claude-cn-mushroom-stone",
+     "opt": true,
+     "sel": true,
+     "light": "day",
+     "lightText": "Vormittag – Sonne aus SO, Felsen von der NW-Seite im Gegenlicht",
+     "text": "Das Wahrzeichen. Vom oberen Weg mit 24–35 mm aus leichter Untersicht, Gipfel Hongyun Jinding im Hintergrund nach SW. Kurz warten, bis die Menge am Geländer wechselt."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 5
+    },
+    {
+     "type": "stop",
+     "t": "11:00–11:10",
+     "spot": "claude-cn-wanjuanshu",
+     "opt": true,
+     "light": "day",
+     "lightText": "Vormittag – Streiflicht auf den Schieferschichten",
+     "text": "„Zehntausend Bücher“: gespaltene Schieferwand kurz oberhalb des Pilzfelsens (Lage geschätzt, Infotafel 万卷经书). 70–200 frontal für parallele Linien. Nur ein kurzer Abstecher."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15,
+     "text": "vom Pilzfelsen hinunter zum Pudu-Platz (普渡广场)"
+    },
+    {
+     "type": "stop",
+     "t": "11:10–11:25",
      "spot": "cn-fanjingshan",
      "plan": true,
-     "light": "day",
-     "lightText": "Vormittag – beste Chance auf Wolkenmeer und freie Sicht",
-     "text": "Gipfelplateau zu Fuß: Pilzfelsen (蘑菇石) und Blick auf den Hongyun Jinding – nicht hinaufsteigen. Oben 10–15 °C kälter: Jacke."
+     "light": "midday",
+     "lightText": "Mittag – Sonne im Süden, Seitenlicht auf der Ostflanke",
+     "text": "Blick vom Pudu-Platz hinauf zum Hongyun Jinding (红云金顶) mit den zwei Tempeln. Nicht hinaufsteigen: Nummernsystem und Schlange, Ende Oktober 1–3 Std. Wartezeit plus 20–45 Min. Aufstieg – passt nicht ins Zeitfenster."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 3
+    },
+    {
+     "type": "stop",
+     "t": "11:30–11:45",
+     "spot": "claude-cn-chengen-temple",
+     "opt": true,
+     "sel": true,
+     "light": "midday",
+     "lightText": "Mittag – Weihrauch im Gegenlicht",
+     "text": "Tempel am Fuß des Gipfels, rote Schlösser und Dachreiter vor der Felswand. 50–85 mm, drinnen nur wo erlaubt fotografieren."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15,
+     "text": "über 万宝岩 hinunter zur Seilbahn-Bergstation (abwärts gut 10–15 Min.)"
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 45,
-     "text": "Seilbahn + Bus hinunter"
+     "text": "Seilbahn + Bus hinunter – spätestens 12:00 an der Bergstation"
     },
     {
      "type": "info",
