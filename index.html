@@ -3201,19 +3201,21 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ${opts.map(row).join("")}<button class="xa-save" data-ok>Übernehmen</button></div>`;
     box.style.zIndex = 3500; box.hidden = false;
     const close = () => { box.hidden = true; box.style.zIndex = ""; };
-    box.querySelector(".tpclose").onclick = close;
-    box.onclick = e => { if (e.target === box) close(); };
-    // zum Spot: Auswahl bleibt erhalten (wird beim Zurückkommen wieder angezeigt)
-    box.querySelectorAll("[data-pkmap],[data-pkbig]").forEach(b => b.onclick = e => { e.preventDefault(); e.stopPropagation();
-      pickState = [...box.querySelectorAll("input[data-k]")].map(x => [x.dataset.k, x.checked]);
-      close(); itinOpenSpot(b.dataset.pkmap || b.dataset.pkbig, null, !!b.dataset.pkbig, true); });
-    if (pickState) { pickState.forEach(([k, c]) => { const x = box.querySelector(`input[data-k="${CSS.escape(k)}"]`); if (x) x.checked = c; }); pickState = null; }
-    box.querySelector("[data-ok]").onclick = () => {
+    // Auswahl gilt auch beim Schließen mit ✕ oder Tipp daneben – nicht nur über „Übernehmen“
+    const apply = () => {
       const inp = [...box.querySelectorAll("input[data-k]")];
       const sel = inp.filter(x => x.dataset.opt === "1" && x.checked).map(x => x.dataset.k);
       const offN = inp.filter(x => x.dataset.opt === "0" && !x.checked).map(x => x.dataset.k);
       putChoice(d, sel, durOf(d), offN); close(); renderItin(); drawItin(false);
     };
+    box.querySelector(".tpclose").onclick = apply;
+    box.onclick = e => { if (e.target === box) apply(); };
+    // zum Spot: Auswahl bleibt erhalten (wird beim Zurückkommen wieder angezeigt)
+    box.querySelectorAll("[data-pkmap],[data-pkbig]").forEach(b => b.onclick = e => { e.preventDefault(); e.stopPropagation();
+      pickState = [...box.querySelectorAll("input[data-k]")].map(x => [x.dataset.k, x.checked]);
+      close(); itinOpenSpot(b.dataset.pkmap || b.dataset.pkbig, null, !!b.dataset.pkbig, true); });
+    if (pickState) { pickState.forEach(([k, c]) => { const x = box.querySelector(`input[data-k="${CSS.escape(k)}"]`); if (x) x.checked = c; }); pickState = null; }
+    box.querySelector("[data-ok]").onclick = apply;
   }
   $("#itinDays").addEventListener("click", e => { const b = e.target.closest("button[data-day]"); if (!b) return; setItinDay(b.dataset.day); renderItin(); $("#itinBody").scrollTop = 0; });
   $("#itinSave").addEventListener("click", e => {
@@ -3267,7 +3269,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "109 · Start-Varianten mit festen Busabfahrten";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "110 · Spot-Auswahl gilt auch beim Schließen mit ✕";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
