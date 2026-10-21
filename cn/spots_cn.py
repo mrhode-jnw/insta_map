@@ -46,6 +46,8 @@ POSTS = {
  89: ("via.abdulaziz", "reel", "DeHxWdUu-sU"),
  90: ("da_frames", "p", "DeuF05wJYKU"),
  91: ("chinadestinations", "p", "DepB6mjiF8V"),
+ 92: ("jassminechi", "reel", "DemN0Tqs_n0"),
+ 93: ("jamierymer", "p", "DeenYbwiKNh"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -107,7 +109,7 @@ SPOTS = [
  ("Baixiangju & Yangtze River Cableway 白象居 · 长江索道", 29.558528, 106.581348, False, "Yuzhong, Chongqing", "Architektur",
   [37, 39, (38, 5), 54], "Die rote Seilbahn über den Jangtse schwebt zwischen den Wohntürmen hindurch."),
  ("Luohan Temple 罗汉寺", 29.562566, 106.577843, False, "Yuzhong, Chongqing", "Tempel",
-  [(38, 3), (41, 6), (53, 1), 90], "Tausend Jahre alter buddhistischer Tempel mitten zwischen Hochhäusern."),
+  [(38, 3), (41, 6), (53, 1), 90, (93, 4), (93, 3), (93, 1), (93, 2)], "Tausend Jahre alter buddhistischer Tempel mitten zwischen Hochhäusern."),
  ("Chaodong Road 朝东路", 29.566677, 106.584101, True, "Yuzhong, Chongqing", "Street",
   [(38, 6)], "Alltagsstraße mit Blick auf Raffles City."),
  ("Yalan International Rooftop 雅兰国际大厦 (Dach)", 29.5606, 106.5798, True, "Jiefangbei, Chongqing", "Aussicht",
@@ -227,6 +229,8 @@ SPOTS = [
   [(21, 11)], "Ruinenstadt im Westen Tibets."),
  ("Deyi World 得意世界", 29.5560, 106.5700, True, "Jiefangbei (Jiaochangkou), Chongqing", "Neon",
   [89], "Neon-Vergnügungsviertel am Jiaochangkou (较场口87号, Adresse laut fang.com; Pin ungefähr): Leuchtreklamen in mehreren Ebenen wie ein Videospiel – ab Einbruch der Dunkelheit."),
+ ("The Stage – White Magnolia Plaza 白玉兰观景台", 31.2512, 121.4945, True, "North Bund (Hongkou), Shanghai", "Aussicht",
+  [92], "Offene Aussichtsplattform auf dem ehemaligen Hubschrauberlandeplatz des Sinar Mas/White Magnolia Plaza (320 m, 东大名路501号), ohne Glasscheiben, 360° auf Bund, Lujiazui und North Bund. Seit April 2025, ca. 200–230 ¥, Di–So; Slot 16:30–19:30 (Sonnenuntergang → Blaue Stunde) ist schnell ausgebucht – vorab im Mini-Programm buchen. Pin ungefähr (Turm am Ostende des Komplexes)."),
 ]
 
 # Beliebtheit 1–5 (5 = Wahrzeichen, 4 = in vielen Guides, 3 = bei Fotografen bekannt)
@@ -237,6 +241,7 @@ POP = {
  "Linhua": (2, "Geheimtipp, kaum in Reiseführern"),
  "Eling Second": (4, "Kreativpark und Filmkulisse, sehr beliebt"),
  "Eling": (3, "Aussichtspark, bei Fotografen bekannt"),
+ "The Stage": (4, 'Neue offene Plattform in 320 m, viral als „Shibuya Sky“ Shanghais'),
  "North Bund": (3, "Ruhiger Skyline-Blick abseits des Bund"),
  "RockBund": (4, "Historisches Viertel am Nordende des Bund"),
  "Bvlgari": (3, "Bekannte Rooftop-Bar mit Bund-Blick"),

@@ -2530,6 +2530,46 @@ window.PLACES_CN = [
     "image": "images/DeuF05wJYKU.jpg",
     "caption": "Crimson steps\n\n•\n\n#china #chongqing #cinematic #luohantemple #photography",
     "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/jamierymer/p/DeenYbwiKNh/?img_index=4",
+    "username": "jamierymer",
+    "profile_url": "https://www.instagram.com/jamierymer/",
+    "kind": "p",
+    "image": "images/DeenYbwiKNh_4.jpg",
+    "caption": "Welcome to Luohan Temple\n\nRight in the heart of Chongqing city - despite China’s huge cities and use of technology you will often stumble across ancient and cultural places right in the middle of it all!\n\nCosting only 20 yuan ($3) and located right outside exit 6 of Xiaoshizi metro station, means there really is no excuse not to visit. And you can take one of China’s iconic temple photo (number 4).\n\nI spent over 2 hours wandering the temple grounds and finding all the different rooms and angles so factor that in for your planning. \n\nWho has been to Chongqing?",
+    "match": "slide",
+    "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/jamierymer/p/DeenYbwiKNh/?img_index=3",
+    "username": "jamierymer",
+    "profile_url": "https://www.instagram.com/jamierymer/",
+    "kind": "p",
+    "image": "images/DeenYbwiKNh_3.jpg",
+    "caption": "Welcome to Luohan Temple\n\nRight in the heart of Chongqing city - despite China’s huge cities and use of technology you will often stumble across ancient and cultural places right in the middle of it all!\n\nCosting only 20 yuan ($3) and located right outside exit 6 of Xiaoshizi metro station, means there really is no excuse not to visit. And you can take one of China’s iconic temple photo (number 4).\n\nI spent over 2 hours wandering the temple grounds and finding all the different rooms and angles so factor that in for your planning. \n\nWho has been to Chongqing?",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/jamierymer/p/DeenYbwiKNh/?img_index=1",
+    "username": "jamierymer",
+    "profile_url": "https://www.instagram.com/jamierymer/",
+    "kind": "p",
+    "image": "images/DeenYbwiKNh_1.jpg",
+    "caption": "Welcome to Luohan Temple\n\nRight in the heart of Chongqing city - despite China’s huge cities and use of technology you will often stumble across ancient and cultural places right in the middle of it all!\n\nCosting only 20 yuan ($3) and located right outside exit 6 of Xiaoshizi metro station, means there really is no excuse not to visit. And you can take one of China’s iconic temple photo (number 4).\n\nI spent over 2 hours wandering the temple grounds and finding all the different rooms and angles so factor that in for your planning. \n\nWho has been to Chongqing?",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/jamierymer/p/DeenYbwiKNh/?img_index=2",
+    "username": "jamierymer",
+    "profile_url": "https://www.instagram.com/jamierymer/",
+    "kind": "p",
+    "image": "images/DeenYbwiKNh_2.jpg",
+    "caption": "Welcome to Luohan Temple\n\nRight in the heart of Chongqing city - despite China’s huge cities and use of technology you will often stumble across ancient and cultural places right in the middle of it all!\n\nCosting only 20 yuan ($3) and located right outside exit 6 of Xiaoshizi metro station, means there really is no excuse not to visit. And you can take one of China’s iconic temple photo (number 4).\n\nI spent over 2 hours wandering the temple grounds and finding all the different rooms and angles so factor that in for your planning. \n\nWho has been to Chongqing?",
+    "match": "slide",
+    "slide": 2
    }
   ],
   "pop": 3,
@@ -5259,6 +5299,37 @@ window.PLACES_CN = [
   "pop": 3,
   "pop_reason": "Neon-Viertel am Jiaochangkou, viral als „Videospiel-Stadt“",
   "when": "night"
+ },
+ {
+  "id": "cn-the-stage-white-magnolia-plaza",
+  "region": "cn",
+  "name": "The Stage – White Magnolia Plaza 白玉兰观景台",
+  "district": "North Bund (Hongkou), Shanghai",
+  "category": "Aussicht",
+  "note": "Offene Aussichtsplattform auf dem ehemaligen Hubschrauberlandeplatz des Sinar Mas/White Magnolia Plaza (320 m, 东大名路501号), ohne Glasscheiben, 360° auf Bund, Lujiazui und North Bund. Seit April 2025, ca. 200–230 ¥, Di–So; Slot 16:30–19:30 (Sonnenuntergang → Blaue Stunde) ist schnell ausgebucht – vorab im Mini-Programm buchen. Pin ungefähr (Turm am Ostende des Komplexes).",
+  "address": "North Bund (Hongkou), Shanghai",
+  "lat": 31.2512,
+  "lng": 121.4945,
+  "approx": true,
+  "image": "images/DemN0Tqs_n0.jpg",
+  "caption": "📍| The Stage, Shanghai\n\nIF you’re looking for a “shibuya sky” experience in shanghai, i’d recommend checking this one out 👀\n\nLocated next to W Hotel on the North Bund, you get panoramic views of both sides of the Huangpu River from Pudong’s iconic skyline to the other side of the city ✨ \n\nCome around sunset 🌞 and you might catch the city transitioning from golden hour to blue hour, just as the skyline lights up!\n\nIt feels a little touristy, but honestly, this is one of those experiences i’d say is worth it 🤍",
+  "post_url": "https://www.instagram.com/jassminechi/reel/DemN0Tqs_n0/",
+  "username": "jassminechi",
+  "profile_url": "https://www.instagram.com/jassminechi/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/jassminechi/reel/DemN0Tqs_n0/",
+    "username": "jassminechi",
+    "profile_url": "https://www.instagram.com/jassminechi/",
+    "kind": "reel",
+    "image": "images/DemN0Tqs_n0.jpg",
+    "caption": "📍| The Stage, Shanghai\n\nIF you’re looking for a “shibuya sky” experience in shanghai, i’d recommend checking this one out 👀\n\nLocated next to W Hotel on the North Bund, you get panoramic views of both sides of the Huangpu River from Pudong’s iconic skyline to the other side of the city ✨ \n\nCome around sunset 🌞 and you might catch the city transitioning from golden hour to blue hour, just as the skyline lights up!\n\nIt feels a little touristy, but honestly, this is one of those experiences i’d say is worth it 🤍",
+    "match": "single"
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Neue offene Plattform in 320 m, viral als „Shibuya Sky“ Shanghais",
+  "when": "both"
  },
  {
   "id": "claude-cn-nantou-ancient-city",
