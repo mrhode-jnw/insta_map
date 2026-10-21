@@ -6946,6 +6946,51 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_tianbo_2.jpg",
     "caption": "",
     "credit": "外面好冷 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/yvesguillemot/48572872727/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/yvesguillemot/48572872727/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_tianbo_1.jpg",
+    "caption": "",
+    "credit": "yves guillemot · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/fengwei888/6140346088/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fengwei888/6140346088/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_tianbo_2.jpg",
+    "caption": "",
+    "credit": "Feng Wei Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/204490011@N04/55269513891/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/204490011@N04/55269513891/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_tianbo_3.jpg",
+    "caption": "",
+    "credit": "isami la photo · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/77483944@N04/6796425022/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/77483944@N04/6796425022/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_tianbo_4.jpg",
+    "caption": "",
+    "credit": "Zhang Jia Jie Forest National Park · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/oboye/4820200308/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/oboye/4820200308/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_tianbo_5.jpg",
+    "caption": "",
+    "credit": "Oboye · Flickr"
    }
   ],
   "pop": 4,
@@ -8760,6 +8805,42 @@ window.PLACES_CN = [
     "image": "images/claude-cn-yangjiajie-cable-car_3.jpg",
     "caption": "",
     "credit": "David Mackie (dmackie) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/29868194@N08/51168398644/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/29868194@N08/51168398644/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yjjcable_1.jpg",
+    "caption": "",
+    "credit": "hanming_huang · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/12453390@N07/16495832148/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/12453390@N07/16495832148/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yjjcable_2.jpg",
+    "caption": "",
+    "credit": "Benny朱 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/12453390@N07/16063466043/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/12453390@N07/16063466043/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yjjcable_3.jpg",
+    "caption": "",
+    "credit": "Benny朱 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/12453390@N07/16063463913/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/12453390@N07/16063463913/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yjjcable_4.jpg",
+    "caption": "",
+    "credit": "Benny朱 · Flickr"
    }
   ],
   "pop": 3,
@@ -9096,6 +9177,42 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_greatwall_4.jpg",
     "caption": "",
     "credit": "chew hon keong · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/145039691@N02/35692724191/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/145039691@N02/35692724191/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_greatwall_1.jpg",
+    "caption": "",
+    "credit": "April@Shenandoah · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/145039691@N02/34984834544/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/145039691@N02/34984834544/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_greatwall_2.jpg",
+    "caption": "",
+    "credit": "April@Shenandoah · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/victormakmacau/34832972233/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/victormakmacau/34832972233/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_greatwall_3.jpg",
+    "caption": "",
+    "credit": "Victor.M Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/singing172/16237642906/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/singing172/16237642906/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_greatwall_4.jpg",
+    "caption": "",
+    "credit": "吳冠霖 · Flickr"
    }
   ],
   "pop": 3,
@@ -9158,6 +9275,51 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_wulong_4.jpg",
     "caption": "",
     "credit": "richard0428 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/x-alli-x/3412003134/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/x-alli-x/3412003134/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_wulong_1.jpg",
+    "caption": "",
+    "credit": "X-Alli-X · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/10981951@N02/1017406629/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/10981951@N02/1017406629/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_wulong_2.jpg",
+    "caption": "",
+    "credit": "swordinchina · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/supersky77/55485624907/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/supersky77/55485624907/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_wulong_3.jpg",
+    "caption": "",
+    "credit": "supersky77 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/supersky77/55456707468/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/supersky77/55456707468/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_wulong_4.jpg",
+    "caption": "",
+    "credit": "supersky77 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/singing172/16261743071/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/singing172/16261743071/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_wulong_5.jpg",
+    "caption": "",
+    "credit": "吳冠霖 · Flickr"
    }
   ],
   "pop": 3,
@@ -9220,6 +9382,42 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_onestep_4.jpg",
     "caption": "",
     "credit": "Feng Wei Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/johnmawer/54858426466/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/johnmawer/54858426466/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_onestep_1.jpg",
+    "caption": "",
+    "credit": "JohnMawer · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/55854377@N07/28696202363/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/55854377@N07/28696202363/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_onestep_2.jpg",
+    "caption": "",
+    "credit": "liucong0108 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/supersky77/55449266588/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/supersky77/55449266588/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_onestep_3.jpg",
+    "caption": "",
+    "credit": "supersky77 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/29712358@N04/7643791364/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/29712358@N04/7643791364/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_onestep_4.jpg",
+    "caption": "",
+    "credit": "richard0428 · Flickr"
    }
   ],
   "pop": 3,

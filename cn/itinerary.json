@@ -888,19 +888,18 @@
    "items": [
     {
      "type": "hotel",
-     "name": "Zhangjiajie YOLO Resort",
-     "t": "5:45"
+     "name": "Zhangjiajie YOLO Resort"
     },
     {
      "type": "info",
      "t": "5:45–6:00",
      "icon": "🚗",
-     "title": "Start A: eigener Transport – Hotelauto zum Busbahnhof Yuanjiajie",
+     "title": "Start A: Hotelauto zum Busbahnhof Yuanjiajie",
      "opt": true,
      "sel": true,
-     "lat": 29.3716,
-     "lng": 110.4296,
-     "text": "Am Vorabend an der Rezeption bestellen (Hotelauto oder Fahrer aus dem Dorf). 15 Min. bis zum Busbahnhof Yuanjiajie, 800 m zu Fuß zum Mihun Tai – pünktlich zum Sonnenaufgang 6:45, bis 8:30 fast allein. Nur eine der beiden Start-Varianten wählen."
+     "lat": 29.35407,
+     "lng": 110.43067,
+     "text": "Am Vorabend an der Rezeption bestellen (Hotelauto oder Fahrer aus dem Dorf), 15 Min. Fahrt. Pünktlich zum Sonnenaufgang 6:45 am Mihun Tai, bis 8:30 fast allein. Nur eine der drei Start-Varianten wählen."
     },
     {
      "type": "info",
@@ -908,15 +907,25 @@
      "icon": "🚌",
      "title": "Start B: mit dem ersten Parkbus",
      "opt": true,
-     "lat": 29.3703,
-     "lng": 110.431,
-     "text": "Kein Auto nötig: 6:45 die 500 m Zufahrt hinunter zur Busstraße, erster Parkbus Richtung Yuanjiajie ca. 7:00–7:15 (Betrieb ca. 7:00–18:00, manche Quellen 7:30), 15 Min. Fahrt, 800 m zu Fuß. Ankunft Mihun Tai ca. 7:45: Sonnenaufgang verpasst, aber noch weiches Morgenlicht und vor den Lift-Gruppen (ab 8:30). Alle folgenden Zeiten verschieben sich in der App automatisch."
+     "lat": 29.35407,
+     "lng": 110.43067,
+     "text": "Kein Auto nötig: 6:45 die 500 m Zufahrt hinunter zur Busstraße, erster Parkbus Richtung Yuanjiajie ca. 7:00–7:15 (Betrieb ca. 7:00–18:00, manche Quellen 7:30), 15 Min. Fahrt. Mihun Tai ab ca. 7:35: Sonnenaufgang verpasst, aber weiches Morgenlicht und vor den Lift-Gruppen (ab 8:30). Die folgenden Zeiten verschieben sich automatisch."
+    },
+    {
+     "type": "info",
+     "t": "4:50–6:00",
+     "icon": "🚶",
+     "title": "Start C: zu Fuß",
+     "opt": true,
+     "lat": 29.35407,
+     "lng": 110.43067,
+     "text": "4,7 km über die Parkbus-Straße bis zum Busbahnhof Yuanjiajie, ca. 1 Std. 10 mit Stirnlampe (Zufahrt 500 m, dann 3 km Straße nach Süden, zuletzt 1,2 km Abzweig zum Busbahnhof), kein Verkehr vor 7 Uhr. Pünktlich zum Sonnenaufgang 6:45 – dafür sehr früh raus."
     },
     {
      "type": "move",
-     "mode": "car",
-     "min": 15,
-     "text": "Hotelauto bzw. Parkbus bis Busbahnhof Yuanjiajie, dann 800 m zu Fuß"
+     "mode": "walk",
+     "min": 10,
+     "text": "800 m zu Fuß zum Mihun Tai"
     },
     {
      "type": "stop",
@@ -1097,19 +1106,18 @@
    "items": [
     {
      "type": "hotel",
-     "name": "Zhangjiajie YOLO Resort",
-     "t": "5:15"
+     "name": "Zhangjiajie YOLO Resort"
     },
     {
      "type": "info",
-     "t": "5:15–5:20",
-     "icon": "🚶",
-     "title": "Start A: eigener Transport – zu Fuß mit Stirnlampe oder Hotelauto",
+     "t": "5:50–6:05",
+     "icon": "🚗",
+     "title": "Start A: Hotelauto zur Yangjiajie-Haltestelle",
      "opt": true,
      "sel": true,
-     "lat": 29.3716,
-     "lng": 110.4296,
-     "text": "Zu Fuß 3,7 km über die Parkbus-Straße bis zur Yangjiajie-Haltestelle (50 Min., Stirnlampe, kaum Verkehr vor 7 Uhr) – oder Hotelauto für 5:50 bestellen (10 Min.). So seid ihr zum Sonnenaufgang 6:45 an der Natürlichen Großen Mauer. Nur eine der beiden Start-Varianten wählen."
+     "lat": 29.36178,
+     "lng": 110.42303,
+     "text": "Am Vorabend bestellen, 10 Min. Fahrt. Pünktlich zum Sonnenaufgang 6:45 an der Natürlichen Großen Mauer. Nur eine der drei Start-Varianten wählen."
     },
     {
      "type": "info",
@@ -1117,15 +1125,25 @@
      "icon": "🚌",
      "title": "Start B: mit dem ersten Parkbus",
      "opt": true,
-     "lat": 29.3703,
-     "lng": 110.431,
-     "text": "6:50 zur Busstraße, erster Parkbus Richtung Yangjiajie ca. 7:00–7:15 (10 Min. Fahrt). Ankunft an der Natürlichen Großen Mauer ca. 7:20: Sonnenaufgang verpasst, das Streiflicht auf den Wänden hält aber bis ca. 8:30. Alle folgenden Zeiten verschieben sich automatisch."
+     "lat": 29.36178,
+     "lng": 110.42303,
+     "text": "6:50 zur Busstraße, erster Parkbus Richtung Yangjiajie ca. 7:00–7:15 (10 Min. Fahrt). Natürliche Große Mauer ab ca. 7:20: Sonnenaufgang verpasst, das Streiflicht auf den Wänden hält aber bis ca. 8:30. Die folgenden Zeiten verschieben sich automatisch."
+    },
+    {
+     "type": "info",
+     "t": "5:15–6:05",
+     "icon": "🚶",
+     "title": "Start C: zu Fuß",
+     "opt": true,
+     "lat": 29.36178,
+     "lng": 110.42303,
+     "text": "3,7 km über die Parkbus-Straße bis zur Yangjiajie-Haltestelle, 50 Min. mit Stirnlampe, kaum Verkehr vor 7 Uhr. Pünktlich zum Sonnenaufgang 6:45."
     },
     {
      "type": "move",
      "mode": "walk",
      "min": 5,
-     "text": ""
+     "text": "von der Haltestelle zu den Aussichtspunkten"
     },
     {
      "type": "stop",
