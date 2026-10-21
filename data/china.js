@@ -644,7 +644,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hen_uoc_trunghoa/",
     "kind": "p",
     "image": "images/CeNNAJXJg_a_1.jpg",
-    "caption": "",
+    "caption": "📍西江千户苗寨 - Xijiang Miao Village\n西江千户苗寨在半山建造独具特色的木结构吊脚楼，千余户吊脚楼随着地形的起伏变化，层峦叠嶂，鳞次栉比，蔚为壮观。西江千户苗寨是一座露天博物馆，展览着一部苗族发展史诗，成为观赏和研究苗族传统文化的大看台。\n\n#henuoctrunghoa\n\nTây Giang Thiên Hộ Miêu Trại đã xây dựng những ngôi nhà sàn bằng gỗ độc đáo ở lưng chừng núi. Với sự uốn lượn và thay đổi của địa hình, hàng nghìn ngôi nhà sàn được xếp chồng lên nhau bằng núi non trùng điệp, tạo nên vẻ đẹp ngoạn mục. Tây Giang Thiên Hộ Miêu Trại là một bảo tàng ngoài trời trưng bày sử thi về sự phát triển của dân tộc Miêu và đã trở thành một địa điểm lớn để xem và nghiên cứu văn hóa truyền thống của dân tộc Miêu.\n________________",
     "match": "slide",
     "slide": 1
    },
@@ -915,7 +915,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/chinadestinations/",
     "kind": "p",
     "image": "images/DPLvIhaCZ4F.jpg",
-    "caption": "《笠影古韻》\n青山綠水間，\n古寨像幅畫。\n那戴鬥笠的身影，\n似是在與山水對談，\n訴說著這片土地的悠悠古韻。\nAmidst the green mountains and clear waters,\nThe ancient village is like a painting.\nThe figure wearing a bamboo hat\nSeems to be conversing with the mountains and waters,\nTelling the long-standing charm of this land.\n▪️\n#hellofrom #chinatravel #贵州 #guizhou \n———————————————————————\nPhoto by @justice_gto\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to m",
+    "caption": "《笠影古韻》\n青山綠水間，\n古寨像幅畫。\n那戴鬥笠的身影，\n似是在與山水對談，\n訴說著這片土地的悠悠古韻。\nAmidst the green mountains and clear waters,\nThe ancient village is like a painting.\nThe figure wearing a bamboo hat\nSeems to be conversing with the mountains and waters,\nTelling the long-standing charm of this land.\n▪️\n#hellofrom #chinatravel #贵州 #guizhou\n———————————————————————\nPhoto by @justice_gto\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to me",
     "match": "single"
    },
    {
@@ -924,7 +924,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQMWDmggDER_3.jpg",
-    "caption": "",
+    "caption": "🍂 Autumn Sanctuaries in #Guizhou: Where Forests Meet the Sea of Clouds\n\n🗻 Wanfenglin Scenic Area\nAmong thousands of karst peaks, the forests turn amber and ochre, creating a magnificent autumn panorama that stretches endlessly across the horizon.\nBest viewing period: Mid-October to early November\nLocation: Xiawutun, #Xingyi City, Qianxinan Buyi and Miao Autonomous Prefecture\n\n🌄 Fanjing Mountain\nIn autumn, mist curls around the peaks of Fanjing Mountain while the slopes shimmer with shades of gold and crimson.\nBest viewing period: Mid-October to December\nLocation: Fanjingshan Village, #Taiping ",
     "match": "slide",
     "slide": 3
    },
@@ -1006,7 +1006,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQMWDmggDER_4.jpg",
-    "caption": "",
+    "caption": "🍂 Autumn Sanctuaries in #Guizhou: Where Forests Meet the Sea of Clouds\n\n🗻 Wanfenglin Scenic Area\nAmong thousands of karst peaks, the forests turn amber and ochre, creating a magnificent autumn panorama that stretches endlessly across the horizon.\nBest viewing period: Mid-October to early November\nLocation: Xiawutun, #Xingyi City, Qianxinan Buyi and Miao Autonomous Prefecture\n\n🌄 Fanjing Mountain\nIn autumn, mist curls around the peaks of Fanjing Mountain while the slopes shimmer with shades of gold and crimson.\nBest viewing period: Mid-October to December\nLocation: Fanjingshan Village, #Taiping ",
     "match": "slide",
     "slide": 4
    },
@@ -1326,7 +1326,7 @@ window.PLACES_CN = [
   "lng": 106.8363,
   "approx": true,
   "image": "images/DQZODOpDYAu_4.jpg",
-  "caption": "",
+  "caption": "🌊 Guizhou Wujiang Village: A Water Maze Lost in Time\n\nIf you're weary of commercialized ancient towns and yearn for a true escape where you can unwind and immerse yourself in landscapes of mountains and waters, then Wujiang Village in Guizhou should be next on your list.\n\n📍【Location】 Guizhou Zunyi Wujiang Village International Tourism Resort\nHere, you can witness intangible cultural heritage skills such as traditional paper-making, bamboo weaving, and Miao silver craftsmanship – and even roll up your sleeves to try them yourself.\n\n🌈【Must-Experience Highlights】\n① Take a rowing boat: Glide along",
   "post_url": "https://www.instagram.com/amazingguizhou/p/DQZODOpDYAu/?img_index=4",
   "username": "amazingguizhou",
   "profile_url": "https://www.instagram.com/amazingguizhou/",
@@ -1337,7 +1337,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQZODOpDYAu_4.jpg",
-    "caption": "",
+    "caption": "🌊 Guizhou Wujiang Village: A Water Maze Lost in Time\n\nIf you're weary of commercialized ancient towns and yearn for a true escape where you can unwind and immerse yourself in landscapes of mountains and waters, then Wujiang Village in Guizhou should be next on your list.\n\n📍【Location】 Guizhou Zunyi Wujiang Village International Tourism Resort\nHere, you can witness intangible cultural heritage skills such as traditional paper-making, bamboo weaving, and Miao silver craftsmanship – and even roll up your sleeves to try them yourself.\n\n🌈【Must-Experience Highlights】\n① Take a rowing boat: Glide along",
     "match": "slide",
     "slide": 4
    },
@@ -1347,7 +1347,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/chinadiscover/",
     "kind": "p",
     "image": "images/DD2GMNvtapF_2.jpg",
-    "caption": "",
+    "caption": "This quiet paradise hidden deep in northern Guizhou.\n\n📍Wujiang Village\n\nℹ️ Sourced from Xiaohongshu\n\nTag @chinadiscover for your photos in China!\n\n#halicinde #chinadiscover #chinadestinations #china #reels #chinaculture #studyinginchina #chinalife #chinatravel #chinatravel #chineseculture #wujiang",
     "match": "slide",
     "slide": 2
    },
@@ -1357,7 +1357,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/tourismeguizhou/",
     "kind": "p",
     "image": "images/DLHh2XzodtQ_1.jpg",
-    "caption": "",
+    "caption": "🌿 wujiangzhai : un écrin de beauté au cœur du guizhou \n\ndécouvrez ce village authentique où les maisons sur pilotis se mirent dans les eaux paisibles, entourées de montagnes verdoyantes. un lieu unique où traditions ethniques et créations contemporaines se rencontrent harmonieusement. \n\n✨ expériences à vivre : \n- le \"phoenix céleste\" : un spectacle envoûtant mêlant feu et lumière, inspiré des légendes locales \n- la danse des drones : une féérie nocturne où les lumières dessinent des tableaux magiques dans le ciel \n- l'artisanat traditionnel : ateliers de papier fait main, techniques de cire pe",
     "match": "slide",
     "slide": 1
    }
@@ -1909,7 +1909,7 @@ window.PLACES_CN = [
   "lng": 110.119,
   "approx": true,
   "image": "images/DRo8DqWCiXB.jpg",
-  "caption": "",
+  "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
   "post_url": "https://www.instagram.com/hanaleytravel/p/DRo8DqWCiXB/",
   "username": "hanaleytravel",
   "profile_url": "https://www.instagram.com/hanaleytravel/",
@@ -1920,7 +1920,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hanaleytravel/",
     "kind": "p",
     "image": "images/DRo8DqWCiXB.jpg",
-    "caption": "",
+    "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
     "match": "single"
    },
    {
@@ -2048,7 +2048,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_2.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 2
    },
@@ -2304,7 +2304,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_3.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 3
    },
@@ -2406,7 +2406,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_7.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 7
    }
@@ -2508,7 +2508,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_6.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 6
    },
@@ -2530,6 +2530,46 @@ window.PLACES_CN = [
     "image": "images/DeuF05wJYKU.jpg",
     "caption": "Crimson steps\n\n•\n\n#china #chongqing #cinematic #luohantemple #photography",
     "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/jamierymer/p/DeenYbwiKNh/?img_index=4",
+    "username": "jamierymer",
+    "profile_url": "https://www.instagram.com/jamierymer/",
+    "kind": "p",
+    "image": "images/DeenYbwiKNh_4.jpg",
+    "caption": "Welcome to Luohan Temple\n\nRight in the heart of Chongqing city - despite China’s huge cities and use of technology you will often stumble across ancient and cultural places right in the middle of it all!\n\nCosting only 20 yuan ($3) and located right outside exit 6 of Xiaoshizi metro station, means there really is no excuse not to visit. And you can take one of China’s iconic temple photo (number 4).\n\nI spent over 2 hours wandering the temple grounds and finding all the different rooms and angles so factor that in for your planning. \n\nWho has been to Chongqing?",
+    "match": "slide",
+    "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/jamierymer/p/DeenYbwiKNh/?img_index=3",
+    "username": "jamierymer",
+    "profile_url": "https://www.instagram.com/jamierymer/",
+    "kind": "p",
+    "image": "images/DeenYbwiKNh_3.jpg",
+    "caption": "Welcome to Luohan Temple\n\nRight in the heart of Chongqing city - despite China’s huge cities and use of technology you will often stumble across ancient and cultural places right in the middle of it all!\n\nCosting only 20 yuan ($3) and located right outside exit 6 of Xiaoshizi metro station, means there really is no excuse not to visit. And you can take one of China’s iconic temple photo (number 4).\n\nI spent over 2 hours wandering the temple grounds and finding all the different rooms and angles so factor that in for your planning. \n\nWho has been to Chongqing?",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/jamierymer/p/DeenYbwiKNh/?img_index=1",
+    "username": "jamierymer",
+    "profile_url": "https://www.instagram.com/jamierymer/",
+    "kind": "p",
+    "image": "images/DeenYbwiKNh_1.jpg",
+    "caption": "Welcome to Luohan Temple\n\nRight in the heart of Chongqing city - despite China’s huge cities and use of technology you will often stumble across ancient and cultural places right in the middle of it all!\n\nCosting only 20 yuan ($3) and located right outside exit 6 of Xiaoshizi metro station, means there really is no excuse not to visit. And you can take one of China’s iconic temple photo (number 4).\n\nI spent over 2 hours wandering the temple grounds and finding all the different rooms and angles so factor that in for your planning. \n\nWho has been to Chongqing?",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/jamierymer/p/DeenYbwiKNh/?img_index=2",
+    "username": "jamierymer",
+    "profile_url": "https://www.instagram.com/jamierymer/",
+    "kind": "p",
+    "image": "images/DeenYbwiKNh_2.jpg",
+    "caption": "Welcome to Luohan Temple\n\nRight in the heart of Chongqing city - despite China’s huge cities and use of technology you will often stumble across ancient and cultural places right in the middle of it all!\n\nCosting only 20 yuan ($3) and located right outside exit 6 of Xiaoshizi metro station, means there really is no excuse not to visit. And you can take one of China’s iconic temple photo (number 4).\n\nI spent over 2 hours wandering the temple grounds and finding all the different rooms and angles so factor that in for your planning. \n\nWho has been to Chongqing?",
+    "match": "slide",
+    "slide": 2
    }
   ],
   "pop": 3,
@@ -2609,7 +2649,7 @@ window.PLACES_CN = [
   "lng": 106.5891,
   "approx": true,
   "image": "images/DdiudFSEbF0_5.jpg",
-  "caption": "",
+  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=5",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -2620,7 +2660,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_5.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 5
    },
@@ -2651,7 +2691,7 @@ window.PLACES_CN = [
   "lng": 106.52597,
   "approx": false,
   "image": "images/DdiudFSEbF0_4.jpg",
-  "caption": "",
+  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=4",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -2662,7 +2702,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_4.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 4
    }
@@ -5259,6 +5299,37 @@ window.PLACES_CN = [
   "pop": 3,
   "pop_reason": "Neon-Viertel am Jiaochangkou, viral als „Videospiel-Stadt“",
   "when": "night"
+ },
+ {
+  "id": "cn-the-stage-white-magnolia-plaza",
+  "region": "cn",
+  "name": "The Stage – White Magnolia Plaza 白玉兰观景台",
+  "district": "North Bund (Hongkou), Shanghai",
+  "category": "Aussicht",
+  "note": "Offene Aussichtsplattform auf dem ehemaligen Hubschrauberlandeplatz des Sinar Mas/White Magnolia Plaza (320 m, 东大名路501号), ohne Glasscheiben, 360° auf Bund, Lujiazui und North Bund. Seit April 2025, ca. 200–230 ¥, Di–So; Slot 16:30–19:30 (Sonnenuntergang → Blaue Stunde) ist schnell ausgebucht – vorab im Mini-Programm buchen. Pin ungefähr (Turm am Ostende des Komplexes).",
+  "address": "North Bund (Hongkou), Shanghai",
+  "lat": 31.2512,
+  "lng": 121.4945,
+  "approx": true,
+  "image": "images/DemN0Tqs_n0.jpg",
+  "caption": "📍| The Stage, Shanghai\n\nIF you’re looking for a “shibuya sky” experience in shanghai, i’d recommend checking this one out 👀\n\nLocated next to W Hotel on the North Bund, you get panoramic views of both sides of the Huangpu River from Pudong’s iconic skyline to the other side of the city ✨ \n\nCome around sunset 🌞 and you might catch the city transitioning from golden hour to blue hour, just as the skyline lights up!\n\nIt feels a little touristy, but honestly, this is one of those experiences i’d say is worth it 🤍",
+  "post_url": "https://www.instagram.com/jassminechi/reel/DemN0Tqs_n0/",
+  "username": "jassminechi",
+  "profile_url": "https://www.instagram.com/jassminechi/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/jassminechi/reel/DemN0Tqs_n0/",
+    "username": "jassminechi",
+    "profile_url": "https://www.instagram.com/jassminechi/",
+    "kind": "reel",
+    "image": "images/DemN0Tqs_n0.jpg",
+    "caption": "📍| The Stage, Shanghai\n\nIF you’re looking for a “shibuya sky” experience in shanghai, i’d recommend checking this one out 👀\n\nLocated next to W Hotel on the North Bund, you get panoramic views of both sides of the Huangpu River from Pudong’s iconic skyline to the other side of the city ✨ \n\nCome around sunset 🌞 and you might catch the city transitioning from golden hour to blue hour, just as the skyline lights up!\n\nIt feels a little touristy, but honestly, this is one of those experiences i’d say is worth it 🤍",
+    "match": "single"
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Neue offene Plattform in 320 m, viral als „Shibuya Sky“ Shanghais",
+  "when": "both"
  },
  {
   "id": "claude-cn-nantou-ancient-city",
