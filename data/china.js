@@ -7104,6 +7104,51 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_bailong_3.jpg",
     "caption": "",
     "credit": "Sura Ark (suraark) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/dans180/10889471526/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/dans180/10889471526/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_bailong_1.jpg",
+    "caption": "",
+    "credit": "Daniel M Shih (*dans) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/really_fast/14895122110/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/really_fast/14895122110/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_bailong_2.jpg",
+    "caption": "",
+    "credit": "Patrik Jonsson (really_fast) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/tjetjep/22410253844/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/tjetjep/22410253844/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_bailong_3.jpg",
+    "caption": "",
+    "credit": "T Ξ Ξ J Ξ · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/146006298@N06/39945616230/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/146006298@N06/39945616230/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_bailong_4.jpg",
+    "caption": "",
+    "credit": "Tu Nguyen minh (zion682) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/59238173@N07/46742577514/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/59238173@N07/46742577514/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_bailong_5.jpg",
+    "caption": "",
+    "credit": "Jochen Hertweck (JH_1982) · Flickr"
    }
   ],
   "pop": 4,
@@ -7395,6 +7440,51 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_golden-whip_3.jpg",
     "caption": "",
     "credit": "cattan2011 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/great-t/20311303395/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/great-t/20311303395/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_goldenwhip_1.jpg",
+    "caption": "",
+    "credit": "great.T · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/petebrunelli/2099126198/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/petebrunelli/2099126198/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_goldenwhip_2.jpg",
+    "caption": "",
+    "credit": "Pete Brunelli (petebrunelli) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/7951165@N07/2368082524/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/7951165@N07/2368082524/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_goldenwhip_3.jpg",
+    "caption": "",
+    "credit": "Vincent (vince2047) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/amanda_hughes/28705105310/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/amanda_hughes/28705105310/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_goldenwhip_4.jpg",
+    "caption": "",
+    "credit": "Amanda Hughes (Landscape & Travel) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/10946461@N05/4390067925/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/10946461@N05/4390067925/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_goldenwhip_5.jpg",
+    "caption": "",
+    "credit": "Eric (lacitadelle) · Flickr"
    }
   ],
   "pop": 3,
@@ -9194,6 +9284,51 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_luanchuanpo_2.jpg",
     "caption": "",
     "credit": "不在意终点 · Ctrip 游记"
+   },
+   {
+    "url": "https://touch.travel.qunar.com/comment/5401463",
+    "username": "",
+    "profile_url": "https://touch.travel.qunar.com/comment/5401463",
+    "kind": "photo",
+    "image": "images/claude_zjj2_luanchuanpo_1.jpg",
+    "caption": "",
+    "credit": "Syu20 · 去哪儿攻略"
+   },
+   {
+    "url": "https://touch.travel.qunar.com/comment/5401463",
+    "username": "",
+    "profile_url": "https://touch.travel.qunar.com/comment/5401463",
+    "kind": "photo",
+    "image": "images/claude_zjj2_luanchuanpo_2.jpg",
+    "caption": "",
+    "credit": "Syu20 · 去哪儿攻略"
+   },
+   {
+    "url": "https://touch.travel.qunar.com/comment/5401463",
+    "username": "",
+    "profile_url": "https://touch.travel.qunar.com/comment/5401463",
+    "kind": "photo",
+    "image": "images/claude_zjj2_luanchuanpo_3.jpg",
+    "caption": "",
+    "credit": "Syu20 · 去哪儿攻略"
+   },
+   {
+    "url": "https://touch.travel.qunar.com/comment/4959397",
+    "username": "",
+    "profile_url": "https://touch.travel.qunar.com/comment/4959397",
+    "kind": "photo",
+    "image": "images/claude_zjj2_luanchuanpo_4.jpg",
+    "caption": "",
+    "credit": "Zzzz_智 · 去哪儿攻略"
+   },
+   {
+    "url": "https://touch.travel.qunar.com/comment/5444446",
+    "username": "",
+    "profile_url": "https://touch.travel.qunar.com/comment/5444446",
+    "kind": "photo",
+    "image": "images/claude_zjj2_luanchuanpo_5.jpg",
+    "caption": "",
+    "credit": "太妹店小二 · 去哪儿攻略"
    }
   ],
   "pop": 3,
@@ -9247,6 +9382,51 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_shuiraosimen_3.jpg",
     "caption": "",
     "credit": "Angel Xiang (Angelxz) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/21568093@N00/25043605053/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/21568093@N00/25043605053/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_shuiraosimen_1.jpg",
+    "caption": "",
+    "credit": "martinwnl · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/tianming_bu/2619788743/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/tianming_bu/2619788743/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_shuiraosimen_2.jpg",
+    "caption": "",
+    "credit": "tianming.bu · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/tianming_bu/2619789375/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/tianming_bu/2619789375/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_shuiraosimen_3.jpg",
+    "caption": "",
+    "credit": "tianming.bu · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/tianming_bu/2620614110/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/tianming_bu/2620614110/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_shuiraosimen_4.jpg",
+    "caption": "",
+    "credit": "tianming.bu · Flickr"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/23/3977567.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/23/3977567.html",
+    "kind": "photo",
+    "image": "images/claude_zjj2_shuiraosimen_5.jpg",
+    "caption": "",
+    "credit": "开手排挡的老头 · Ctrip 游记"
    }
   ],
   "pop": 3,
@@ -9309,6 +9489,60 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_qianli_4.jpg",
     "caption": "",
     "credit": "Becky草鸟 (beckycn) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/zanywei/3596318059/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/zanywei/3596318059/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_qianli_1.jpg",
+    "caption": "",
+    "credit": "zanywei · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/13438971@N05/1502581881/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/13438971@N05/1502581881/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_qianli_2.jpg",
+    "caption": "",
+    "credit": "pollykpl · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/sirius_ran/4311068566/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/sirius_ran/4311068566/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_qianli_3.jpg",
+    "caption": "",
+    "credit": "Sirius Ran · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/garycjw/4754822090/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/garycjw/4754822090/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_qianli_4.jpg",
+    "caption": "",
+    "credit": "Gary Chang (garycjw) · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/13438971@N05/1502584679/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/13438971@N05/1502584679/",
+    "kind": "photo",
+    "image": "images/claude_zjj2_qianli_5.jpg",
+    "caption": "",
+    "credit": "pollykpl · Flickr"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/23/3977567.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/23/3977567.html",
+    "kind": "photo",
+    "image": "images/claude_zjj2_qianli_6.jpg",
+    "caption": "",
+    "credit": "开手排挡的老头 · Ctrip 游记"
    }
   ],
   "pop": 3,
