@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 09:12 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 09:17 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -138,20 +138,20 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 
 ### Do 22.10. – Langde → Fanjingshan → Fenghuang _(fest)_
 
-- **5:15** 🏨 Abfahrt: **Qixi Homestay**
+- **4:45** 🏨 Abfahrt: **Qixi Homestay**
   - ↓ 🚗 Auto · ca. 215 Min. · 252 km (im Dunkeln fahren)
-- **~8:50** 🎟 **Fanjingshan Ost-Eingang (梵净山东门)** – Tickets mit Pass am Schalter abholen. Einlass 9:20–9:39 (gebucht).
-  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Bus (ca. 25 Min.) + Seilbahn 10:00–10:19)
-- **10:20–12:30** ✅ **Fanjingshan 梵净山** (Tongren, Guizhou) · Licht: Vormittag – beste Chance auf Wolkenmeer und freie Sicht – Gipfelplateau zu Fuß: Pilzfelsen (蘑菇石) und Blick auf den Hongyun Jinding – nicht hinaufsteigen. Oben 10–15 °C kälter: Jacke.
+- **~8:20** 🎟 **Fanjingshan Ost-Eingang (梵净山东门)** – Gebucht: Ticket Osttor + Sightseeing-Bus hin und zurück + Seilbahn hin und zurück, 2 Personen, nicht erstattungsfähig. Einlass 8:40–8:59 – spätestens 8:20 da sein, Tickets mit Pass am Schalter abholen (Abholnummer in der Trip.com-Buchung). Seilbahn-Zeitfenster steht unter Ticket 2 in der Buchung.
+  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Bus ca. 25 Min. + Seilbahn (Zeitfenster laut Ticket 2, vermutlich ca. 9:20–9:39))
+- **9:40–12:00** ✅ **Fanjingshan 梵净山** (Tongren, Guizhou) · Licht: Vormittag – beste Chance auf Wolkenmeer und freie Sicht – Gipfelplateau zu Fuß: Pilzfelsen (蘑菇石) und Blick auf den Hongyun Jinding – nicht hinaufsteigen. Oben 10–15 °C kälter: Jacke.
   - ↓ 🚌 Bus/Seilbahn · ca. 45 Min. (Seilbahn + Bus hinunter)
-- **~13:30** 🚗 **Abfahrt am Ost-Eingang**
+- **~13:00** 🚗 **Abfahrt am Ost-Eingang**
   - ↓ 🚗 Auto · ca. 110 Min. · 121 km
-- **~15:20** 🏨 Ankunft, einchecken: **Mount Villa by T Residence**
+- **~14:50** 🏨 Ankunft, einchecken: **Mount Villa by T Residence**
   - ↓ 🚶 zu Fuß · ca. 5 Min.
 - **17:10–18:45** ✅ **Fenghuang Ancient Town 凤凰古城** (Xiangxi, Hunan) · Licht: goldene Stunde → Sonnenuntergang ~18:05 → blaue Stunde – Stelzenhäuser am Tuo-Fluss; Hauptmotiv sind die Lichter, wenn sie angehen. Stativ.
   - ↓ 🚶 zu Fuß · ca. 5 Min.
 - 🏨 Unterkunft: **Mount Villa by T Residence**
-- 🔀 ◻︎ optional: **Plan B bei Nebel am Gipfel (Entscheidung 21.10. abends)** – Langde morgens im Nebel fotografieren → Auto nach Kaili Süd (40 Min.) → Zug nach Fenghuang Gucheng → abends Fenghuang. Fanjingshan-Tickets stornieren.
+- 🔀 ◻︎ optional: **Plan B bei Nebel am Gipfel (Entscheidung 21.10. abends)** – Langde morgens im Nebel fotografieren → Auto nach Kaili Süd (40 Min.) → Zug nach Fenghuang Gucheng → abends Fenghuang. Achtung: Die Fanjingshan-Tickets sind nicht erstattungsfähig – Plan B nur bei wirklich aussichtslosem Wetter.
 
 ### Fr 23.10. – Fenghuang → Zhangjiajie · ankommen im YOLO Resort · Sonnenuntergang am YOLO-Sunset-Felsen _(Entwurf)_
 

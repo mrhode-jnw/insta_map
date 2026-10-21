@@ -692,7 +692,7 @@
     {
      "type": "hotel",
      "name": "Qixi Homestay",
-     "t": "5:15",
+     "t": "4:45",
      "label": "Abfahrt"
     },
     {
@@ -702,23 +702,24 @@
     },
     {
      "type": "info",
-     "t": "~8:50",
+     "t": "~8:20",
      "icon": "🎟",
      "title": "Fanjingshan Ost-Eingang (梵净山东门)",
      "plan": true,
      "lat": 27.879,
      "lng": 108.779,
-     "text": "Tickets mit Pass am Schalter abholen. Einlass 9:20–9:39 (gebucht)."
+     "text": "Gebucht: Ticket Osttor + Sightseeing-Bus hin und zurück + Seilbahn hin und zurück, 2 Personen, nicht erstattungsfähig. Einlass 8:40–8:59 – spätestens 8:20 da sein, Tickets mit Pass am Schalter abholen (Abholnummer in der Trip.com-Buchung). Seilbahn-Zeitfenster steht unter Ticket 2 in der Buchung.",
+     "anchor": true
     },
     {
      "type": "move",
      "mode": "shuttle",
      "min": 40,
-     "text": "Bus (ca. 25 Min.) + Seilbahn 10:00–10:19"
+     "text": "Bus ca. 25 Min. + Seilbahn (Zeitfenster laut Ticket 2, vermutlich ca. 9:20–9:39)"
     },
     {
      "type": "stop",
-     "t": "10:20–12:30",
+     "t": "9:40–12:00",
      "spot": "cn-fanjingshan",
      "plan": true,
      "light": "day",
@@ -733,7 +734,7 @@
     },
     {
      "type": "info",
-     "t": "~13:30",
+     "t": "~13:00",
      "icon": "🚗",
      "title": "Abfahrt am Ost-Eingang",
      "lat": 27.879,
@@ -748,7 +749,7 @@
     {
      "type": "hotel",
      "name": "Mount Villa by T Residence",
-     "t": "~15:20",
+     "t": "~14:50",
      "label": "Ankunft, einchecken"
     },
     {
@@ -779,7 +780,7 @@
      "icon": "🔀",
      "opt": true,
      "title": "Plan B bei Nebel am Gipfel (Entscheidung 21.10. abends)",
-     "text": "Langde morgens im Nebel fotografieren → Auto nach Kaili Süd (40 Min.) → Zug nach Fenghuang Gucheng → abends Fenghuang. Fanjingshan-Tickets stornieren."
+     "text": "Langde morgens im Nebel fotografieren → Auto nach Kaili Süd (40 Min.) → Zug nach Fenghuang Gucheng → abends Fenghuang. Achtung: Die Fanjingshan-Tickets sind nicht erstattungsfähig – Plan B nur bei wirklich aussichtslosem Wetter."
     }
    ]
   },
