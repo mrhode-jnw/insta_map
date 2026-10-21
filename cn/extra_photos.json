@@ -1801,5 +1801,95 @@
    "url": "https://www.flickr.com/photos/dmackie/50819692973/",
    "credit": "David Mackie (dmackie) · Flickr"
   }
+ ],
+ "Yuanjiazhai 袁家寨子": [
+  {
+   "image": "images/claude_zjj_yuanjiazhai_1.jpg",
+   "url": "https://www.flickr.com/photos/pictorios/4880962319/",
+   "credit": "Kim (fotoholic2006) · Flickr"
+  },
+  {
+   "image": "images/claude_zjj_yuanjiazhai_2.jpg",
+   "url": "https://www.flickr.com/photos/47248097@N07/4331738706/",
+   "credit": "xiangqian ni2 · Flickr"
+  },
+  {
+   "image": "images/claude_zjj_yuanjiazhai_3.jpg",
+   "url": "https://www.flickr.com/photos/101816434@N05/25523920940/",
+   "credit": "紀 奇珍 (chi19631) · Flickr"
+  }
+ ],
+ "Luanchuanpo Trail 乱窜坡": [
+  {
+   "image": "images/claude_zjj_luanchuanpo_1.jpg",
+   "url": "https://www.flickr.com/photos/cutekitten/22634356219/",
+   "credit": "cat oven · Flickr"
+  },
+  {
+   "image": "images/claude_zjj_luanchuanpo_2.jpg",
+   "url": "https://gs.ctrip.com/html5/you/travels/23/3997004.html",
+   "credit": "不在意终点 · Ctrip 游记"
+  }
+ ],
+ "Shuiraosimen 水绕四门": [
+  {
+   "image": "images/claude_zjj_shuiraosimen_1.jpg",
+   "url": "https://www.flickr.com/photos/21568093@N00/25644179156/",
+   "credit": "martinwnl · Flickr"
+  },
+  {
+   "image": "images/claude_zjj_shuiraosimen_2.jpg",
+   "url": "https://www.flickr.com/photos/wly/12760441/",
+   "credit": "Lingyu Wang (wlyu2001) · Flickr"
+  },
+  {
+   "image": "images/claude_zjj_shuiraosimen_3.jpg",
+   "url": "https://www.flickr.com/photos/angelxz/2921462142/",
+   "credit": "Angel Xiang (Angelxz) · Flickr"
+  }
+ ],
+ "Qianlixianghui 千里相会": [
+  {
+   "image": "images/claude_zjj_qianli_1.jpg",
+   "url": "https://www.flickr.com/photos/wwny/2470050432/",
+   "credit": "wEnDy (wEnDaLicious) · Flickr"
+  },
+  {
+   "image": "images/claude_zjj_qianli_2.jpg",
+   "url": "https://www.flickr.com/photos/yiyigem/6115592612/",
+   "credit": "@grace · Flickr"
+  },
+  {
+   "image": "images/claude_zjj_qianli_3.jpg",
+   "url": "https://www.flickr.com/photos/44039215@N03/4048861067/",
+   "credit": "Andrea Zhou · Flickr"
+  },
+  {
+   "image": "images/claude_zjj_qianli_4.jpg",
+   "url": "https://www.flickr.com/photos/beckycn/3012400370/",
+   "credit": "Becky草鸟 (beckycn) · Flickr"
+  }
+ ],
+ "Yuanjiajie Back Garden 后花园": [
+  {
+   "image": "images/claude_zjj_backgarden_1.jpg",
+   "url": "https://www.flickr.com/photos/21568093@N00/25369474270/",
+   "credit": "martinwnl · Flickr"
+  },
+  {
+   "image": "images/claude_zjj_backgarden_2.jpg",
+   "url": "https://www.flickr.com/photos/21568093@N00/25369472590/",
+   "credit": "martinwnl · Flickr"
+  },
+  {
+   "image": "images/claude_zjj_backgarden_3.jpg",
+   "url": "https://www.flickr.com/photos/21568093@N00/25043575823/",
+   "credit": "martinwnl · Flickr"
+  },
+  {
+   "image": "images/claude_zjj_backgarden_4.jpg",
+   "url": "https://www.flickr.com/photos/wly/12760438/",
+   "credit": "Lingyu Wang (wlyu2001) · Flickr"
+  }
  ]
 }

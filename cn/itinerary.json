@@ -930,6 +930,34 @@
     },
     {
      "type": "move",
+     "mode": "walk",
+     "min": 15
+    },
+    {
+     "type": "stop",
+     "t": "9:35–9:55",
+     "spot": "claude-cn-yuanjiajie-back-garden",
+     "opt": true,
+     "light": "day",
+     "lightText": "Vormittag",
+     "text": "Aussichtspunkt am Ostrand des Yuanjiajie-Rundwegs, oberhalb des Luanchuanpo-Steigs (400 m östlich vom Mihun Tai). Optional, wenn nach der Runde noch Lust ist."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
+    },
+    {
+     "type": "stop",
+     "t": "10:10–10:40",
+     "spot": "claude-cn-yuanjiazhai",
+     "opt": true,
+     "light": "day",
+     "lightText": "Vormittag – Innenhöfe",
+     "text": "Tujia-Dorf/Museum direkt am Busbahnhof Yuanjiajie, 8–17 Uhr, Extra-Ticket. Optional vor dem Bus zurück."
+    },
+    {
+     "type": "move",
      "mode": "shuttle",
      "min": 15,
      "text": "Parkbus Richtung Yangjiajie/Tianzi, an der Resort-Abzweigung aussteigen (500 m)"
@@ -1075,8 +1103,35 @@
     {
      "type": "move",
      "mode": "walk",
-     "min": 5,
-     "text": "unten am Shuiraosimen (水绕四门) in den Talweg"
+     "min": 5
+    },
+    {
+     "type": "stop",
+     "t": "11:50–13:20",
+     "spot": "claude-cn-luanchuanpo-trail",
+     "opt": true,
+     "light": "day",
+     "lightText": "Mittag – im Wald",
+     "text": "Hike-Variante statt Lift: Einstieg am Ostende des Yuanjiajie-Rundwegs beim Hintergarten, über 2.000 Stufen hinunter zum Bach (abwärts ca. 1–1,5 Std.), unten bei Qianlixianghui heraus. Wer das wählt, wählt den Bailong-Lift hinunter ab."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 5
+    },
+    {
+     "type": "stop",
+     "t": "13:20–13:35",
+     "spot": "claude-cn-qianlixianghui",
+     "opt": true,
+     "light": "midday",
+     "lightText": "Mittag – Felsnadeln von unten",
+     "text": "Doppelte Felsnadel „Treffen nach tausend Meilen“ am Bach, unteres Ende des Luanchuanpo-Steigs. Von hier 2,5 km bachabwärts bis Shuiraosimen."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 5
     },
     {
      "type": "stop",
@@ -1087,6 +1142,20 @@
      "light": "midday",
      "lightText": "Mittag – im schattigen Tal, Pol-Filter",
      "text": "Ebener Bachweg unter den Säulen, Makaken (kein Essen in Plastiktüten). Mit Hike: ihr kommt vom Luanchuanpo bachabwärts und seht so 2,5 km des Bachs. Ohne Hike: ab Shuiraosimen 2–3 km bachaufwärts und zurück (Fabio Nodari: „a gentle taste“, 1,5–2 Std.). Der ganze Bach (5,8 km) endet am Südtor außerhalb des Parks – nicht an diesem Tag."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 5
+    },
+    {
+     "type": "stop",
+     "t": "14:30–14:45",
+     "spot": "claude-cn-shuiraosimen",
+     "opt": true,
+     "light": "midday",
+     "lightText": "Nachmittag",
+     "text": "Zusammenfluss von vier Bächen am Ende des Golden Whip Stream; Busknoten, von hier Parkbus 10 Min. zur Bailong-Talstation."
     },
     {
      "type": "move",

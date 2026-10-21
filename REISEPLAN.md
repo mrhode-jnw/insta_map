@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 08:18 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 08:28 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -176,6 +176,10 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **7:40–8:25** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Morgenlicht – Vor den Gruppen (Lift ab ca. 7:30–8:00, Gruppen ab 8:30). Yuanjiajie-Runde insgesamt ca. 2 Std., eben.
   - ↓ 🚶 zu Fuß · ca. 10 Min.
 - **8:35–9:20** ◻︎ optional: **First Bridge Under Heaven 天下第一桥** (Wulingyuan, Hunan) · Licht: Vormittag – Vom offiziellen Aussichtspunkt seitlich. Danach zurück zum Busbahnhof Yuanjiajie (800 m); Imbisse und das Dorf Yuanjiazhai (袁家寨子) liegen direkt daneben.
+  - ↓ 🚶 zu Fuß · ca. 15 Min.
+- **9:35–9:55** ◻︎ optional: **Yuanjiajie Back Garden 后花园** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Vormittag – Aussichtspunkt am Ostrand des Yuanjiajie-Rundwegs, oberhalb des Luanchuanpo-Steigs (400 m östlich vom Mihun Tai). Optional, wenn nach der Runde noch Lust ist.
+  - ↓ 🚶 zu Fuß · ca. 15 Min.
+- **10:10–10:40** ◻︎ optional: **Yuanjiazhai 袁家寨子** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Vormittag – Innenhöfe – Tujia-Dorf/Museum direkt am Busbahnhof Yuanjiajie, 8–17 Uhr, Extra-Ticket. Optional vor dem Bus zurück.
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus Richtung Yangjiajie/Tianzi, an der Resort-Abzweigung aussteigen (500 m))
 - **~9:45** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
   - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Parkbus ab der Abzweigung Richtung Tianzi (Helong Park) – ca. 35–40 Min., ggf. in Yangjiajie oder am Busbahnhof umsteigen; Abfahrt ca. 13:10)
@@ -198,8 +202,14 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **~9:45** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus zum Busbahnhof Yuanjiajie, 800 m zu Fuß zur Bailong-Bergstation)
 - **11:30–11:50** ◻︎ optional: **Bailong Elevator 百龙天梯** (Wulingyuan, Hunan) · Licht: Mittag – Architektur – Mit Hike: statt Lift den Luanchuanpo-Steig (乱窜坡, ca. 3.000 Stufen, 1,5–2 Std., Einstieg am Yuanjiajie-Rundweg nahe der Ersten Brücke) hinunter – unten am Bach bei Qianlixianghui (千里相会) heraus, von dort 2,5 km bachabwärts bis Shuiraosimen. Ohne Hike: Lift hinunter (65–72 CNY, mittags kaum Schlange); den Lift von der Plattform oben entlang der Wand fotografieren.
-  - ↓ 🚶 zu Fuß · ca. 5 Min. (unten am Shuiraosimen (水绕四门) in den Talweg)
+  - ↓ 🚶 zu Fuß · ca. 5 Min.
+- **11:50–13:20** ◻︎ optional: **Luanchuanpo Trail 乱窜坡** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Mittag – im Wald – Hike-Variante statt Lift: Einstieg am Ostende des Yuanjiajie-Rundwegs beim Hintergarten, über 2.000 Stufen hinunter zum Bach (abwärts ca. 1–1,5 Std.), unten bei Qianlixianghui heraus. Wer das wählt, wählt den Bailong-Lift hinunter ab.
+  - ↓ 🚶 zu Fuß · ca. 5 Min.
+- **13:20–13:35** ◻︎ optional: **Qianlixianghui 千里相会** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Mittag – Felsnadeln von unten – Doppelte Felsnadel „Treffen nach tausend Meilen“ am Bach, unteres Ende des Luanchuanpo-Steigs. Von hier 2,5 km bachabwärts bis Shuiraosimen.
+  - ↓ 🚶 zu Fuß · ca. 5 Min.
 - **12:00–14:30** ◻︎ optional: **Golden Whip Stream 金鞭溪** (Wulingyuan, Hunan) · Licht: Mittag – im schattigen Tal, Pol-Filter – Ebener Bachweg unter den Säulen, Makaken (kein Essen in Plastiktüten). Mit Hike: ihr kommt vom Luanchuanpo bachabwärts und seht so 2,5 km des Bachs. Ohne Hike: ab Shuiraosimen 2–3 km bachaufwärts und zurück (Fabio Nodari: „a gentle taste“, 1,5–2 Std.). Der ganze Bach (5,8 km) endet am Südtor außerhalb des Parks – nicht an diesem Tag.
+  - ↓ 🚶 zu Fuß · ca. 5 Min.
+- **14:30–14:45** ◻︎ optional: **Shuiraosimen 水绕四门** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Nachmittag – Zusammenfluss von vier Bächen am Ende des Golden Whip Stream; Busknoten, von hier Parkbus 10 Min. zur Bailong-Talstation.
   - ↓ 🚌 Bus/Seilbahn · ca. 30 Min. (Bailong-Lift hinauf (65–72 CNY, nachmittags kurze Schlange) – oben 800 m zum Mihun Tai; Pause an den Lokalen am Busbahnhof Yuanjiajie / Yuanjiazhai)
 - **16:30–17:45** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Spätes Licht – Sonnenuntergang 18:00 nur mit Hotelauto – Zweiter Versuch im Abendlicht – je nachdem, was am Samstag gefehlt hat (oder Avatar-Säule 10 Min. weiter). Letzter Parkbus ab Busbahnhof Yuanjiajie ca. 18:00; wer den Sonnenuntergang voll mitnehmen will, bestellt das Hotelauto für 18:15.
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (letzter Parkbus ca. 17:45–18:00 zurück (Resort-Abzweigung))
