@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 08:28 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 08:35 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -153,7 +153,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - 🏨 Unterkunft: **Mount Villa by T Residence**
 - 🔀 ◻︎ optional: **Plan B bei Nebel am Gipfel (Entscheidung 21.10. abends)** – Langde morgens im Nebel fotografieren → Auto nach Kaili Süd (40 Min.) → Zug nach Fenghuang Gucheng → abends Fenghuang. Fanjingshan-Tickets stornieren.
 
-### Fr 23.10. – Fenghuang → Zhangjiajie · ankommen im YOLO Resort · Sonnenuntergang zu Fuß in Yangjiajie _(Entwurf)_
+### Fr 23.10. – Fenghuang → Zhangjiajie · ankommen im YOLO Resort · Sonnenuntergang am YOLO-Sunset-Felsen _(Entwurf)_
 
 - **6:15–7:45** ✅ **Fenghuang Ancient Town 凤凰古城** (Xiangxi, Hunan) · Licht: Sonnenaufgang 6:46, Dunst über dem Fluss – Gassen und Ufer noch leer.
 - **~11:30** 🏨 Check-out: **Mount Villa by T Residence**
@@ -163,8 +163,9 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **13:42** 🚄 **Zhangjiajie West** – Vorbestelltes Auto für ca. 13:50 – fährt direkt bis zum YOLO Resort (ca. 1 Std. 15). Parkticket (239 CNY, 4 Tage gültig bis 26.10., Pass = Ticket) – mit dem Resort klären, wo das Ticket am Tor kontrolliert wird.
   - ↓ 🚗 Auto · ca. 75 Min. · 60 km (Auto direkt zum Resort)
 - **~15:10** 🏨 Check-in: **Zhangjiajie YOLO Resort**
-- **15:20–15:50** 🍵 ◻︎ optional: **Ankommen: Teeplantage, Weg zur Busstraße anschauen** – Kurz ankommen, Rucksack mit Stirnlampe, Jacke und Wasser packen. Beim Rausgehen die 500 m Zufahrt bis zur Busstraße merken – dort steigt ihr morgen ein. Hotelauto für Samstag 5:45 (Busbahnhof Yuanjiajie) und für Montag 6:30 (Bahnhof) gleich an der Rezeption bestellen. Wer lieber nicht läuft: das Resort wirbt mit „Teeplantagen-Tal-Sonnenuntergang“ – Terrasse bzw. Teefelder hinter dem Haus, Sonnenuntergang 18:00; 1,3 km nördlich über den Feldweg liegt der Hügel 凤栖山 (17 Min., in OSM als Sehenswürdigkeit, nicht geprüft).
-- **16:45–17:50** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Spätes Licht auf den Felswänden – Sonnenuntergang 18:00 – Sonnenuntergangs-Spot in Laufweite: ab 15:50 zu Fuß 3,7 km über die Parkbus-Straße bis zur Yangjiajie-Haltestelle (50 Min., oder ab der Abzweigung in einen Parkbus Richtung Yangjiajie springen), von dort 10 Min. zu den Aussichtspunkten „Natürliche Große Mauer“ (天然长城, 29.3620/110.4181) – ohne Leitern, die Tianbo-Fu-Runde ist für Sonntagmorgen. 70-200 für die Felsrippen im Streiflicht. Rückweg: letzter Parkbus Richtung Yuanjiajie ca. 17:45–18:00 (an der Resort-Abzweigung aussteigen, 500 m) – oder 50 Min. zu Fuß mit Stirnlampe; zur Sicherheit vorher fragen, ob das Hotelauto abholen kann.
+- **15:20–16:30** 🍵 ◻︎ optional: **Ankommen: Teeplantage, Weg zur Busstraße anschauen** – Kurz ankommen, Rucksack mit Stirnlampe, Jacke und Wasser packen. Beim Rausgehen die 500 m Zufahrt bis zur Busstraße merken – dort steigt ihr morgen ein. Hotelauto für Samstag 5:45 (Busbahnhof Yuanjiajie) und für Montag 6:30 (Bahnhof) gleich an der Rezeption bestellen und nach dem Weg zum „YOLO Sunset“-Felsen fragen (10–15 Min., etwas steil). Hügel 凤栖山 1,3 km nördlich ist laut Quellen nur ein kaum erschlossener Felsrücken ohne ausgebauten Aussichtspunkt.
+- **17:00–18:20** ◻︎ optional: **YOLO Resort Tea Plantation Sunset 云上茶园日落** (Yuanjiajie Tea Farm, Wulingyuan, Hunan) · Licht: Sonnenuntergang 18:00 über den Yangjiajie-Nadeln, danach blaue Stunde über den Teefeldern – Der eigene Sunset-Felsen des Resorts (laut Booking-Galerie „10 minutes walk from YOLO resort“, Gäste: 15 Min., etwas steil) am westlichen Plateaurand – Blick nach Westen über die Felsnadeln von Yangjiajie, dahinter die Teeterrassen und das Resort in der blauen Stunde. Stativ, 16-35 und 70-200; Stirnlampe für den Rückweg. Sonntag früh gibt es dazu den „Sky Garden“ für den Sonnenaufgang über den Teefeldern.
+- **16:45–17:50** ◻︎ optional: **Natural Great Wall Viewpoint 天然长城观景台** (Yangjiajie, Wulingyuan, Hunan) · Licht: Spätes Licht auf den Felswänden – Sonnenuntergang 18:00 – Alternative mit mehr Bewegung: ab 15:50 zu Fuß 3,7 km über die Parkbus-Straße bis zur Yangjiajie-Haltestelle (50 Min., oder ab der Abzweigung in einen Parkbus Richtung Yangjiajie springen), 10 Min. zu den Aussichtspunkten auf die gestaffelten Felswände – ohne Leitern. Rückweg: letzter Parkbus Richtung Yuanjiajie ca. 17:45–18:00 (an der Resort-Abzweigung aussteigen, 500 m) oder 50 Min. mit Stirnlampe. Wer das wählt, wählt den YOLO-Sunset-Felsen ab – beides geht nicht.
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
 ### Sa 24.10. – Zhangjiajie Tag 1 (ohne Hikes): Yuanjiajie zum Sonnenaufgang · Tianzi-Berg am Nachmittag _(Entwurf)_
@@ -187,6 +188,8 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **14:40–15:40** ◻︎ optional: **Tianzi Mountain Cable Car 天子山索道** (Tianzi Mountain, Wulingyuan, Hunan) · Licht: Nachmittag – aus der Gondel über die Felsnadeln – Nur zum Fotografieren: Bergstation gut 1 km nördlich vom Helong Park (15 Min. zu Fuß), 6–7 Min. Fahrt über die Felsnadeln, 72 CNY je Richtung, unten gleich wieder hinauf (Schlange nach 15 Uhr meist unter 15 Min.). Kostet mit Hin- und Rückweg etwa eine Stunde – wer die Zeit lieber an den Aussichtspunkten verbringt, lässt es weg.
   - ↓ 🚶 zu Fuß · ca. 10 Min.
 - **15:40–16:25** ◻︎ optional: **Imperial Brush Peaks 御笔峰** (Tianzi Mountain, Hunan) · Licht: Nachmittagslicht – Streiflicht auf den Nadeln – 70-200, Felsnadeln isolieren. Daneben „Fee bietet Blumen dar“ (仙女献花).
+  - ↓ 🚶 zu Fuß · ca. 3 Min.
+- **16:25–16:40** ◻︎ optional: **Fairy Offering Flowers 仙女献花** (Tianzi Mountain, Wulingyuan, Hunan) · Licht: Nachmittagslicht – Direkt neben dem Kaiserpinsel-Aussichtspunkt, 100 m vom Helong Park: die einzelne Säule „Fee streut Blumen“ vor dem Nadelwald. 70-200. Optional, 15 Min.
   - ↓ 🚶 zu Fuß · ca. 15 Min.
 - **16:40–17:25** ◻︎ optional: **Xihai Stone Forest 西海峰林** (Tianzi Mountain, Hunan) · Licht: goldene Stunde – das „Westmeer“ liegt im Abendlicht (Sonnenuntergang 18:00 nur mit Hotelauto) – Weit mit dem 16-35. Spätestens 17:30 am Busbahnhof Tianzi: letzter Parkbus ca. 18:00. Wer bis zum Sonnenuntergang bleiben will, bestellt das Hotelauto für 18:15 an den Helong Park.
   - ↓ 🚌 Bus/Seilbahn · ca. 45 Min. (letzter Parkbus ab Tianzi spätestens 18:00 (ca. 35–45 Min., an der Resort-Abzweigung aussteigen))
@@ -196,8 +199,14 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 
 - **5:20** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
   - ↓ 🚶 zu Fuß · ca. 50 Min. (zu Fuß 3,7 km über die Parkbus-Straße mit Stirnlampe (Parkbusse fahren noch nicht) – oder Hotelauto für 5:50)
-- **6:15–9:15** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Sonnenaufgang 6:45 an der Natürlichen Großen Mauer, danach Morgenlicht im Tianbo Fu – Erst die Aussichtspunkte „Natürliche Große Mauer“ (天然长城) nahe der Haltestelle für den Sonnenaufgang. Ab ca. 7:15 bei Tageslicht die Hike-Runde Tianbo Fu (天波府) + Wulong-Dorf (乌龙寨): senkrechte Eisenleitern, enge Felsspalten, oben die Blicke auf die Felswände – laut Fabio Nodari der beste Trail im Park (ca. 3 Std.). Ohne Hike: die leichten Aussichtswege Richtung Natürliche Große Mauer (ca. 2 Std.). Imbisse an der Haltestelle.
-- **9:15–9:50** ◻︎ optional: **Yangjiajie Cable Car 杨家界索道** (Yangjiajie, Wulingyuan, Hunan) · Licht: Vormittag – steilste Bahn im Park – Bergstation 150 m vom Aussichtspunkt Natürliche Große Mauer. 5–6 Min. Fahrt an den Yangjiajie-Wänden entlang, 76 CNY je Richtung, kaum Schlange. Unten gleich wieder hinauf – sonst steht ihr im Tal beim Westtor, 40 Min. Bus bis zum Osttor. Nur wenn Zeit und Lust, kostet gut 30 Min.
+- **6:15–7:15** ◻︎ optional: **Natural Great Wall Viewpoint 天然长城观景台** (Yangjiajie, Wulingyuan, Hunan) · Licht: Sonnenaufgang 6:45 – Streiflicht auf den Felswänden – Direkt an der Yangjiajie-Haltestelle, ohne Leitern: Stativ an die Brüstung, 70-200 für die gestaffelten Wände, 16-35 bei Nebel im Tal.
+  - ↓ 🚶 zu Fuß · ca. 15 Min.
+- **7:15–7:30** ◻︎ optional: **Wulong Village 乌龙寨** (Yangjiajie, Wulingyuan, Hunan) · Licht: Morgen – im Felsspalt – Räuberfestung auf dem Felssporn: Engstellen „Ein Faden Himmel“ und „Drei Tore“, dahinter die Leitern zum Tianbo Fu. Teil der Hike-Runde.
+  - ↓ 🚶 zu Fuß · ca. 15 Min.
+- **7:30–9:15** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Morgenlicht auf dem Felsplateau – Hike-Runde bei Tageslicht: über die Engstellen des Wulong-Dorfs und die senkrechten Eisenleitern hinauf aufs Tianbo-Plateau, oben die Blicke auf die Felswände – laut Fabio Nodari der beste Trail im Park (ganze Runde ca. 3 Std.). Ohne Hike: nur die leichten Aussichtswege an der Natürlichen Großen Mauer (ca. 2 Std.). Imbisse an der Haltestelle.
+  - ↓ 🚶 zu Fuß · ca. 20 Min.
+- **9:15–9:45** ◻︎ optional: **One Step to Heaven 一步登天** (Yangjiajie, Wulingyuan, Hunan) · Licht: Vormittag – Kleine Aussichtsplattform über eine 32-stufige Eisenleiter, südlich vom Tianbo-Weg. Optional, wenn die Runde gut lief.
+- **9:45–10:15** ◻︎ optional: **Yangjiajie Cable Car 杨家界索道** (Yangjiajie, Wulingyuan, Hunan) · Licht: Vormittag – steilste Bahn im Park – Bergstation 150 m vom Aussichtspunkt Natürliche Große Mauer. 5–6 Min. Fahrt an den Yangjiajie-Wänden entlang, 76 CNY je Richtung, kaum Schlange. Unten gleich wieder hinauf – sonst steht ihr im Tal beim Westtor, 40 Min. Bus bis zum Osttor. Nur wenn Zeit und Lust, kostet gut 30 Min.
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus Richtung Yuanjiajie, an der Resort-Abzweigung aussteigen (500 m))
 - **~9:45** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus zum Busbahnhof Yuanjiajie, 800 m zu Fuß zur Bailong-Bergstation)

@@ -9043,6 +9043,316 @@ window.PLACES_CN = [
   "when": "day"
  },
  {
+  "id": "claude-cn-natural-great-wall-viewpoint",
+  "region": "cn",
+  "by_claude": true,
+  "name": "Natural Great Wall Viewpoint 天然长城观景台",
+  "district": "Yangjiajie, Wulingyuan, Hunan",
+  "category": "Aussicht",
+  "note": "",
+  "tip": "Von der Plattform blickt man auf kilometerlange, parallel gestaffelte Felswände mit Kiefern auf dem Grat – Yangjiajie zeigt hier Wände statt Säulen. Am besten früh (ab ca. 7 Uhr) oder spät, wenn flaches Seitenlicht jede Schichtfuge modelliert; mittags flach und diesig. 70–200 mm, um die Wände zu stapeln, dazu Polfilter gegen Dunst. Vom Parkbus-Halt Yangjiajie 10–15 Min. fast eben zu Fuß, 20–30 Min. vor Ort; danach weiter zu Wulong Village und Tianbo Mansion.",
+  "address": "Yangjiajie, Wulingyuan, Hunan",
+  "lat": 29.36196,
+  "lng": 110.41814,
+  "approx": false,
+  "image": "images/claude_zjj_greatwall_2.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/singing172/15643661633/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/singing172/15643661633/",
+    "kind": "photo",
+    "image": "images/claude_zjj_greatwall_2.jpg",
+    "caption": "",
+    "credit": "吳冠霖 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/singing172/16262729962/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/singing172/16262729962/",
+    "kind": "photo",
+    "image": "images/claude_zjj_greatwall_3.jpg",
+    "caption": "",
+    "credit": "吳冠霖 · Flickr"
+   },
+   {
+    "url": "https://gs.ctrip.com/html5/you/travels/23/4004028.html",
+    "username": "",
+    "profile_url": "https://gs.ctrip.com/html5/you/travels/23/4004028.html",
+    "kind": "photo",
+    "image": "images/claude_zjj_greatwall_1.jpg",
+    "caption": "",
+    "credit": "YoYo_0P0M5D1B · Ctrip"
+   },
+   {
+    "url": "https://www.flickr.com/photos/26379250@N02/39764076560/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/26379250@N02/39764076560/",
+    "kind": "photo",
+    "image": "images/claude_zjj_greatwall_4.jpg",
+    "caption": "",
+    "credit": "chew hon keong · Flickr"
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Reihen dünner Sandsteinwände wie eine Festungsmauer – das Markenzeichen von Yangjiajie, nur 10 Min. von der Bushaltestelle",
+  "image_page": "https://www.flickr.com/photos/singing172/15643661633/",
+  "image_credit": "吳冠霖 · Flickr",
+  "when": "day"
+ },
+ {
+  "id": "claude-cn-wulong-village",
+  "region": "cn",
+  "by_claude": true,
+  "name": "Wulong Village 乌龙寨",
+  "district": "Yangjiajie, Wulingyuan, Hunan",
+  "category": "Aussicht",
+  "note": "",
+  "tip": "Der Weg führt durch die „drei Tore“ (一步难行, 谁敢不低头, 缩身谷): meterhohe Felsspalten, in denen man sich seitlich durchschiebt – Rucksack vorher abnehmen, kein Stativ. Die Holzhäuser der Räuberfestung kleben an der Felswand; von dort führt die Eisenleiter weiter hinauf zur Tianbo Mansion. Fotografisch: 16–35 mm in den Spalten (hoher ISO, Licht von oben am besten mittags), 24–70 für die Häuser am Abgrund. Vom Parkbus-Halt Yangjiajie ca. 1 km / 30–40 Min. Aufstieg, insgesamt 2–2,5 Std. mit Tianbo Mansion. Nichts für Platzangst.",
+  "address": "Yangjiajie, Wulingyuan, Hunan",
+  "lat": 29.36032,
+  "lng": 110.41659,
+  "approx": true,
+  "image": "images/claude_zjj_wulong_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/levins/2166239580/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/levins/2166239580/",
+    "kind": "photo",
+    "image": "images/claude_zjj_wulong_1.jpg",
+    "caption": "",
+    "credit": "Xiening Dai · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/77483944@N04/6796423746/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/77483944@N04/6796423746/",
+    "kind": "photo",
+    "image": "images/claude_zjj_wulong_2.jpg",
+    "caption": "",
+    "credit": "Zhang Jia Jie Forest National Park · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/singing172/16077697377/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/singing172/16077697377/",
+    "kind": "photo",
+    "image": "images/claude_zjj_wulong_3.jpg",
+    "caption": "",
+    "credit": "吳冠霖 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/29712358@N04/7643801908/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/29712358@N04/7643801908/",
+    "kind": "photo",
+    "image": "images/claude_zjj_wulong_4.jpg",
+    "caption": "",
+    "credit": "richard0428 · Flickr"
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Ehemaliges Banditennest auf einem Felssporn: drei Engstellen, ein 30 cm breiter Spalt und Holzhäuser am Abgrund",
+  "image_page": "https://www.flickr.com/photos/levins/2166239580/",
+  "image_credit": "Xiening Dai · Flickr",
+  "when": "day"
+ },
+ {
+  "id": "claude-cn-one-step-to-heaven",
+  "region": "cn",
+  "by_claude": true,
+  "name": "One Step to Heaven 一步登天",
+  "district": "Yangjiajie, Wulingyuan, Hunan",
+  "category": "Aussicht",
+  "note": "",
+  "tip": "Ein Felsspalt zwischen zwei Gipfeln, darüber 32 schmale Eisenstufen auf eine 5×4 m große Plattform mit Geländer – nur eine Person gleichzeitig, bei Nässe oder Nebel meiden. Oben Blick auf freistehende Säulen und die Täler Richtung Suoxiyu; abgestorbene Kiefern am Rand sind gute Vordergründe. Nachmittags Streiflicht auf den Säulen, 24–70 mm und 70–200 mm; Kamera umhängen, Hände frei. Vom Parkbus-Halt Yangjiajie 1,5–2 Std. über den weniger gepflegten Südweg (Richtung 空中走廊), mit Rückweg gut 3 Std. – eher für den 25.10. als Tagesziel.",
+  "address": "Yangjiajie, Wulingyuan, Hunan",
+  "lat": 29.35324,
+  "lng": 110.41861,
+  "approx": false,
+  "image": "images/claude_zjj_onestep_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/paulsila/15826151654/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/paulsila/15826151654/",
+    "kind": "photo",
+    "image": "images/claude_zjj_onestep_1.jpg",
+    "caption": "",
+    "credit": "paulsila · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/paulsila/16422678746/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/paulsila/16422678746/",
+    "kind": "photo",
+    "image": "images/claude_zjj_onestep_2.jpg",
+    "caption": "",
+    "credit": "paulsila · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/fengwei888/6141992845/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fengwei888/6141992845/",
+    "kind": "photo",
+    "image": "images/claude_zjj_onestep_3.jpg",
+    "caption": "",
+    "credit": "Feng Wei Photography · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/fengwei888/6142625292/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fengwei888/6142625292/",
+    "kind": "photo",
+    "image": "images/claude_zjj_onestep_4.jpg",
+    "caption": "",
+    "credit": "Feng Wei Photography · Flickr"
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Über eine steile Eisenleiter auf einen Felsgipfel (1.130 m) mit winziger Plattform und Rundumblick über die Südhälfte von Yangjiajie",
+  "image_page": "https://www.flickr.com/photos/paulsila/15826151654/",
+  "image_credit": "paulsila · Flickr",
+  "when": "day"
+ },
+ {
+  "id": "claude-cn-fairy-offering-flowers",
+  "region": "cn",
+  "by_claude": true,
+  "name": "Fairy Offering Flowers 仙女献花",
+  "district": "Tianzi Mountain, Wulingyuan, Hunan",
+  "category": "Aussicht",
+  "note": "",
+  "tip": "Geländer-Aussichtspunkt 100 m südöstlich von Helong Park, gleich neben dem Imperial-Brush-Blick: eine freistehende Sandsteinsäule, deren Kopf wie eine Fee mit Blumenstrauß wirkt, dahinter das Peak-Forest-Tal Richtung Westen. Bestes Licht morgens mit Nebelresten im Tal oder am späten Nachmittag, wenn die Säulen von der Seite angestrahlt werden; Tele 70–200 für die Säule, 24–35 für das Tal mit Kiefern im Vordergrund. Mit dem Parkshuttle nach Tianzishan/Helong Park, 10–15 Min. zusammen mit dem Kaiserpinsel, früh vor den Seilbahn-Gruppen.",
+  "address": "Tianzi Mountain, Wulingyuan, Hunan",
+  "lat": 29.3822809,
+  "lng": 110.4914161,
+  "approx": false,
+  "image": "images/claude_zjj_fairyflowers_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/jayhuangphotos/53671973957/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/jayhuangphotos/53671973957/",
+    "kind": "photo",
+    "image": "images/claude_zjj_fairyflowers_1.jpg",
+    "caption": "",
+    "credit": "Jay Huang · Flickr (CC BY-NC)"
+   },
+   {
+    "url": "https://www.flickr.com/photos/istephenchu/3819010341/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/istephenchu/3819010341/",
+    "kind": "photo",
+    "image": "images/claude_zjj_fairyflowers_2.jpg",
+    "caption": "",
+    "credit": "Stephen W. Chu · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/hengdamay/5116081639/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/hengdamay/5116081639/",
+    "kind": "photo",
+    "image": "images/claude_zjj_fairyflowers_3.jpg",
+    "caption": "",
+    "credit": "hengda may · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/21568093@N00/25039875274/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/21568093@N00/25039875274/",
+    "kind": "photo",
+    "image": "images/claude_zjj_fairyflowers_4.jpg",
+    "caption": "",
+    "credit": "martinwnl · Flickr"
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Felsnadel mit „Blumenstrauß“-Krone am Rand des Tianzi-Plateaus, direkt neben dem Kaiserpinsel",
+  "image_page": "https://www.flickr.com/photos/jayhuangphotos/53671973957/",
+  "image_credit": "Jay Huang · Flickr (CC BY-NC)",
+  "when": "day"
+ },
+ {
+  "id": "claude-cn-yolo-resort-tea-plantation-sunset",
+  "region": "cn",
+  "by_claude": true,
+  "name": "YOLO Resort Tea Plantation Sunset 云上茶园日落",
+  "district": "Yuanjiajie Tea Farm, Wulingyuan, Hunan",
+  "category": "Aussicht",
+  "note": "",
+  "tip": "Das YOLO Resort (云上茶园) liegt auf einer bewirtschafteten Teeplantage am Westrand des Yuanjiajie-Plateaus (Adresse 袁家界茶场), 1,3 km südlich von Dingxiangrong. Die Teeterrassen rund ums Haus mit Teekannen-Skulptur sind nachmittags und in der blauen Stunde (Terrassenbeleuchtung) fotogen; die eigentliche „YOLO Sunset“-Aussicht ist laut Hotel und Gästen ein Felsvorsprung 10–15 Min. Fußweg (leicht steil, Pfad nach Nordwesten zur westlichen Felskante), mit freiem Blick nach Westen über die Felsnadeln von Yangjiajie und die Täler von Zhonghu – nur für Hausgäste gedacht, nachfragen. Sonnenuntergang am 24.10. gegen 17:55 Uhr, Weitwinkel 16–35 plus Stativ, Stirnlampe für den Rückweg; morgens Sonnenaufgang vom „Sky Garden“ des Resorts über den Teefeldern (ca. 6:45 Uhr).",
+  "address": "Yuanjiajie Tea Farm, Wulingyuan, Hunan",
+  "lat": 29.3715948,
+  "lng": 110.4295636,
+  "approx": false,
+  "image": "images/claude_zjj_yoloteasunset_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "username": "",
+    "profile_url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "kind": "photo",
+    "image": "images/claude_zjj_yoloteasunset_1.jpg",
+    "caption": "",
+    "credit": "Zhangjiajie YOLO Resort · Booking.com"
+   },
+   {
+    "url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "username": "",
+    "profile_url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "kind": "photo",
+    "image": "images/claude_zjj_yoloteasunset_2.jpg",
+    "caption": "",
+    "credit": "Zhangjiajie YOLO Resort · Booking.com"
+   },
+   {
+    "url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "username": "",
+    "profile_url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "kind": "photo",
+    "image": "images/claude_zjj_yoloteasunset_3.jpg",
+    "caption": "",
+    "credit": "Zhangjiajie YOLO Resort · Booking.com"
+   },
+   {
+    "url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "username": "",
+    "profile_url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "kind": "photo",
+    "image": "images/claude_zjj_yoloteasunset_4.jpg",
+    "caption": "",
+    "credit": "Zhangjiajie YOLO Resort · Booking.com (Gästefoto)"
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Teeterrassen mitten im Park und ein eigener Sonnenuntergangs-Felsen mit Blick auf die Felsnadeln",
+  "image_page": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+  "image_credit": "Zhangjiajie YOLO Resort · Booking.com",
+  "when": "both"
+ },
+ {
   "id": "cn-haus-nowhere-im-mixc-world",
   "region": "cn",
   "name": "Haus Nowhere 巨人展 im MixC World 深圳万象天地",

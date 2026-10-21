@@ -785,7 +785,7 @@
   },
   {
    "date": "2026-10-23",
-   "title": "Fenghuang → Zhangjiajie · ankommen im YOLO Resort · Sonnenuntergang zu Fuß in Yangjiajie",
+   "title": "Fenghuang → Zhangjiajie · ankommen im YOLO Resort · Sonnenuntergang am YOLO-Sunset-Felsen",
    "status": "Entwurf",
    "items": [
     {
@@ -847,24 +847,33 @@
     },
     {
      "type": "info",
-     "t": "15:20–15:50",
+     "t": "15:20–16:30",
      "icon": "🍵",
      "title": "Ankommen: Teeplantage, Weg zur Busstraße anschauen",
      "opt": true,
      "sel": true,
      "lat": 29.3716,
      "lng": 110.4296,
-     "text": "Kurz ankommen, Rucksack mit Stirnlampe, Jacke und Wasser packen. Beim Rausgehen die 500 m Zufahrt bis zur Busstraße merken – dort steigt ihr morgen ein. Hotelauto für Samstag 5:45 (Busbahnhof Yuanjiajie) und für Montag 6:30 (Bahnhof) gleich an der Rezeption bestellen. Wer lieber nicht läuft: das Resort wirbt mit „Teeplantagen-Tal-Sonnenuntergang“ – Terrasse bzw. Teefelder hinter dem Haus, Sonnenuntergang 18:00; 1,3 km nördlich über den Feldweg liegt der Hügel 凤栖山 (17 Min., in OSM als Sehenswürdigkeit, nicht geprüft)."
+     "text": "Kurz ankommen, Rucksack mit Stirnlampe, Jacke und Wasser packen. Beim Rausgehen die 500 m Zufahrt bis zur Busstraße merken – dort steigt ihr morgen ein. Hotelauto für Samstag 5:45 (Busbahnhof Yuanjiajie) und für Montag 6:30 (Bahnhof) gleich an der Rezeption bestellen und nach dem Weg zum „YOLO Sunset“-Felsen fragen (10–15 Min., etwas steil). Hügel 凤栖山 1,3 km nördlich ist laut Quellen nur ein kaum erschlossener Felsrücken ohne ausgebauten Aussichtspunkt."
+    },
+    {
+     "type": "stop",
+     "t": "17:00–18:20",
+     "spot": "claude-cn-yolo-resort-tea-plantation-sunset",
+     "opt": true,
+     "sel": true,
+     "light": "sunset",
+     "lightText": "Sonnenuntergang 18:00 über den Yangjiajie-Nadeln, danach blaue Stunde über den Teefeldern",
+     "text": "Der eigene Sunset-Felsen des Resorts (laut Booking-Galerie „10 minutes walk from YOLO resort“, Gäste: 15 Min., etwas steil) am westlichen Plateaurand – Blick nach Westen über die Felsnadeln von Yangjiajie, dahinter die Teeterrassen und das Resort in der blauen Stunde. Stativ, 16-35 und 70-200; Stirnlampe für den Rückweg. Sonntag früh gibt es dazu den „Sky Garden“ für den Sonnenaufgang über den Teefeldern."
     },
     {
      "type": "stop",
      "t": "16:45–17:50",
-     "spot": "claude-cn-yangjiajie-tianbo-mansion",
+     "spot": "claude-cn-natural-great-wall-viewpoint",
      "opt": true,
-     "sel": true,
      "light": "sunset",
      "lightText": "Spätes Licht auf den Felswänden – Sonnenuntergang 18:00",
-     "text": "Sonnenuntergangs-Spot in Laufweite: ab 15:50 zu Fuß 3,7 km über die Parkbus-Straße bis zur Yangjiajie-Haltestelle (50 Min., oder ab der Abzweigung in einen Parkbus Richtung Yangjiajie springen), von dort 10 Min. zu den Aussichtspunkten „Natürliche Große Mauer“ (天然长城, 29.3620/110.4181) – ohne Leitern, die Tianbo-Fu-Runde ist für Sonntagmorgen. 70-200 für die Felsrippen im Streiflicht. Rückweg: letzter Parkbus Richtung Yuanjiajie ca. 17:45–18:00 (an der Resort-Abzweigung aussteigen, 500 m) – oder 50 Min. zu Fuß mit Stirnlampe; zur Sicherheit vorher fragen, ob das Hotelauto abholen kann."
+     "text": "Alternative mit mehr Bewegung: ab 15:50 zu Fuß 3,7 km über die Parkbus-Straße bis zur Yangjiajie-Haltestelle (50 Min., oder ab der Abzweigung in einen Parkbus Richtung Yangjiajie springen), 10 Min. zu den Aussichtspunkten auf die gestaffelten Felswände – ohne Leitern. Rückweg: letzter Parkbus Richtung Yuanjiajie ca. 17:45–18:00 (an der Resort-Abzweigung aussteigen, 500 m) oder 50 Min. mit Stirnlampe. Wer das wählt, wählt den YOLO-Sunset-Felsen ab – beides geht nicht."
     },
     {
      "type": "hotel",
@@ -1012,6 +1021,20 @@
     {
      "type": "move",
      "mode": "walk",
+     "min": 3
+    },
+    {
+     "type": "stop",
+     "t": "16:25–16:40",
+     "spot": "claude-cn-fairy-offering-flowers",
+     "opt": true,
+     "light": "golden",
+     "lightText": "Nachmittagslicht",
+     "text": "Direkt neben dem Kaiserpinsel-Aussichtspunkt, 100 m vom Helong Park: die einzelne Säule „Fee streut Blumen“ vor dem Nadelwald. 70-200. Optional, 15 Min."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
      "min": 15
     },
     {
@@ -1054,17 +1077,60 @@
     },
     {
      "type": "stop",
-     "t": "6:15–9:15",
-     "spot": "claude-cn-yangjiajie-tianbo-mansion",
+     "t": "6:15–7:15",
+     "spot": "claude-cn-natural-great-wall-viewpoint",
      "opt": true,
      "sel": true,
      "light": "sunrise",
-     "lightText": "Sonnenaufgang 6:45 an der Natürlichen Großen Mauer, danach Morgenlicht im Tianbo Fu",
-     "text": "Erst die Aussichtspunkte „Natürliche Große Mauer“ (天然长城) nahe der Haltestelle für den Sonnenaufgang. Ab ca. 7:15 bei Tageslicht die Hike-Runde Tianbo Fu (天波府) + Wulong-Dorf (乌龙寨): senkrechte Eisenleitern, enge Felsspalten, oben die Blicke auf die Felswände – laut Fabio Nodari der beste Trail im Park (ca. 3 Std.). Ohne Hike: die leichten Aussichtswege Richtung Natürliche Große Mauer (ca. 2 Std.). Imbisse an der Haltestelle."
+     "lightText": "Sonnenaufgang 6:45 – Streiflicht auf den Felswänden",
+     "text": "Direkt an der Yangjiajie-Haltestelle, ohne Leitern: Stativ an die Brüstung, 70-200 für die gestaffelten Wände, 16-35 bei Nebel im Tal."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
     },
     {
      "type": "stop",
-     "t": "9:15–9:50",
+     "t": "7:15–7:30",
+     "spot": "claude-cn-wulong-village",
+     "opt": true,
+     "light": "day",
+     "lightText": "Morgen – im Felsspalt",
+     "text": "Räuberfestung auf dem Felssporn: Engstellen „Ein Faden Himmel“ und „Drei Tore“, dahinter die Leitern zum Tianbo Fu. Teil der Hike-Runde."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15
+    },
+    {
+     "type": "stop",
+     "t": "7:30–9:15",
+     "spot": "claude-cn-yangjiajie-tianbo-mansion",
+     "opt": true,
+     "sel": true,
+     "light": "golden",
+     "lightText": "Morgenlicht auf dem Felsplateau",
+     "text": "Hike-Runde bei Tageslicht: über die Engstellen des Wulong-Dorfs und die senkrechten Eisenleitern hinauf aufs Tianbo-Plateau, oben die Blicke auf die Felswände – laut Fabio Nodari der beste Trail im Park (ganze Runde ca. 3 Std.). Ohne Hike: nur die leichten Aussichtswege an der Natürlichen Großen Mauer (ca. 2 Std.). Imbisse an der Haltestelle."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 20
+    },
+    {
+     "type": "stop",
+     "t": "9:15–9:45",
+     "spot": "claude-cn-one-step-to-heaven",
+     "opt": true,
+     "light": "day",
+     "lightText": "Vormittag",
+     "text": "Kleine Aussichtsplattform über eine 32-stufige Eisenleiter, südlich vom Tianbo-Weg. Optional, wenn die Runde gut lief."
+    },
+    {
+     "type": "stop",
+     "t": "9:45–10:15",
      "spot": "claude-cn-yangjiajie-cable-car",
      "opt": true,
      "light": "day",
