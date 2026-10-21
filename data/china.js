@@ -81,6 +81,15 @@ window.PLACES_CN = [
     "caption": "Hello everyone, hope you all doing well. I’ll thought I’ll come in and share with you some cool drone shots I took throughout China and the amount of scenery it has especially the landscapes and the night scenery it has.\n\nHere are the locations of the drone shots that I’ll thought I’ll share.\n\n1.Furong Town\n2.Huanglong National Park\n3.Chongqing \n4.Phoenix’s Ancient City \n5.Chongqing \n6.Huangshan Mountain\n7.Zhangjiajie \n8.Chengdu\n9.Huanglong National Park\n10.Wangxian Valley\n11.Chengdu\n12.Wangxian Valley\n13.Zhangjiajie \n\nIf you like the looks of these colour grades you can grab my video luts by ",
     "match": "slide",
     "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/chinadestinations/p/DepB6mjiF8V/",
+    "username": "chinadestinations",
+    "profile_url": "https://www.instagram.com/chinadestinations/",
+    "kind": "p",
+    "image": "images/DepB6mjiF8V.jpg",
+    "caption": "One of the most surreal landscapes we’ve ever seen.\n\nNo drone.\nNo AI.\nJust Zhangjiajie on a misty morning.\n\nHow lucky are we 🥹\n▪️\n#hellofrom #chinatravel #张家界 #Zhangjiajie\n———————————————————————\nPhoto by @the.world_wanderers\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to meet more Instafriends.\nBy Adding Official Wechat Account 【InstaCN】to reply 【group】\n————————————————————————\n搜索微信公众号【InstaCN】，回复【入群】结",
+    "match": "single"
    }
   ],
   "pop": 5,
@@ -635,7 +644,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hen_uoc_trunghoa/",
     "kind": "p",
     "image": "images/CeNNAJXJg_a_1.jpg",
-    "caption": "",
+    "caption": "📍西江千户苗寨 - Xijiang Miao Village\n西江千户苗寨在半山建造独具特色的木结构吊脚楼，千余户吊脚楼随着地形的起伏变化，层峦叠嶂，鳞次栉比，蔚为壮观。西江千户苗寨是一座露天博物馆，展览着一部苗族发展史诗，成为观赏和研究苗族传统文化的大看台。\n\n#henuoctrunghoa\n\nTây Giang Thiên Hộ Miêu Trại đã xây dựng những ngôi nhà sàn bằng gỗ độc đáo ở lưng chừng núi. Với sự uốn lượn và thay đổi của địa hình, hàng nghìn ngôi nhà sàn được xếp chồng lên nhau bằng núi non trùng điệp, tạo nên vẻ đẹp ngoạn mục. Tây Giang Thiên Hộ Miêu Trại là một bảo tàng ngoài trời trưng bày sử thi về sự phát triển của dân tộc Miêu và đã trở thành một địa điểm lớn để xem và nghiên cứu văn hóa truyền thống của dân tộc Miêu.\n________________",
     "match": "slide",
     "slide": 1
    },
@@ -906,7 +915,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/chinadestinations/",
     "kind": "p",
     "image": "images/DPLvIhaCZ4F.jpg",
-    "caption": "《笠影古韻》\n青山綠水間，\n古寨像幅畫。\n那戴鬥笠的身影，\n似是在與山水對談，\n訴說著這片土地的悠悠古韻。\nAmidst the green mountains and clear waters,\nThe ancient village is like a painting.\nThe figure wearing a bamboo hat\nSeems to be conversing with the mountains and waters,\nTelling the long-standing charm of this land.\n▪️\n#hellofrom #chinatravel #贵州 #guizhou \n———————————————————————\nPhoto by @justice_gto\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to m",
+    "caption": "《笠影古韻》\n青山綠水間，\n古寨像幅畫。\n那戴鬥笠的身影，\n似是在與山水對談，\n訴說著這片土地的悠悠古韻。\nAmidst the green mountains and clear waters,\nThe ancient village is like a painting.\nThe figure wearing a bamboo hat\nSeems to be conversing with the mountains and waters,\nTelling the long-standing charm of this land.\n▪️\n#hellofrom #chinatravel #贵州 #guizhou\n———————————————————————\nPhoto by @justice_gto\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to me",
     "match": "single"
    },
    {
@@ -915,7 +924,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQMWDmggDER_3.jpg",
-    "caption": "",
+    "caption": "🍂 Autumn Sanctuaries in #Guizhou: Where Forests Meet the Sea of Clouds\n\n🗻 Wanfenglin Scenic Area\nAmong thousands of karst peaks, the forests turn amber and ochre, creating a magnificent autumn panorama that stretches endlessly across the horizon.\nBest viewing period: Mid-October to early November\nLocation: Xiawutun, #Xingyi City, Qianxinan Buyi and Miao Autonomous Prefecture\n\n🌄 Fanjing Mountain\nIn autumn, mist curls around the peaks of Fanjing Mountain while the slopes shimmer with shades of gold and crimson.\nBest viewing period: Mid-October to December\nLocation: Fanjingshan Village, #Taiping ",
     "match": "slide",
     "slide": 3
    },
@@ -997,7 +1006,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQMWDmggDER_4.jpg",
-    "caption": "",
+    "caption": "🍂 Autumn Sanctuaries in #Guizhou: Where Forests Meet the Sea of Clouds\n\n🗻 Wanfenglin Scenic Area\nAmong thousands of karst peaks, the forests turn amber and ochre, creating a magnificent autumn panorama that stretches endlessly across the horizon.\nBest viewing period: Mid-October to early November\nLocation: Xiawutun, #Xingyi City, Qianxinan Buyi and Miao Autonomous Prefecture\n\n🌄 Fanjing Mountain\nIn autumn, mist curls around the peaks of Fanjing Mountain while the slopes shimmer with shades of gold and crimson.\nBest viewing period: Mid-October to December\nLocation: Fanjingshan Village, #Taiping ",
     "match": "slide",
     "slide": 4
    },
@@ -1317,7 +1326,7 @@ window.PLACES_CN = [
   "lng": 106.8363,
   "approx": true,
   "image": "images/DQZODOpDYAu_4.jpg",
-  "caption": "",
+  "caption": "🌊 Guizhou Wujiang Village: A Water Maze Lost in Time\n\nIf you're weary of commercialized ancient towns and yearn for a true escape where you can unwind and immerse yourself in landscapes of mountains and waters, then Wujiang Village in Guizhou should be next on your list.\n\n📍【Location】 Guizhou Zunyi Wujiang Village International Tourism Resort\nHere, you can witness intangible cultural heritage skills such as traditional paper-making, bamboo weaving, and Miao silver craftsmanship – and even roll up your sleeves to try them yourself.\n\n🌈【Must-Experience Highlights】\n① Take a rowing boat: Glide along",
   "post_url": "https://www.instagram.com/amazingguizhou/p/DQZODOpDYAu/?img_index=4",
   "username": "amazingguizhou",
   "profile_url": "https://www.instagram.com/amazingguizhou/",
@@ -1328,7 +1337,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQZODOpDYAu_4.jpg",
-    "caption": "",
+    "caption": "🌊 Guizhou Wujiang Village: A Water Maze Lost in Time\n\nIf you're weary of commercialized ancient towns and yearn for a true escape where you can unwind and immerse yourself in landscapes of mountains and waters, then Wujiang Village in Guizhou should be next on your list.\n\n📍【Location】 Guizhou Zunyi Wujiang Village International Tourism Resort\nHere, you can witness intangible cultural heritage skills such as traditional paper-making, bamboo weaving, and Miao silver craftsmanship – and even roll up your sleeves to try them yourself.\n\n🌈【Must-Experience Highlights】\n① Take a rowing boat: Glide along",
     "match": "slide",
     "slide": 4
    },
@@ -1338,7 +1347,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/chinadiscover/",
     "kind": "p",
     "image": "images/DD2GMNvtapF_2.jpg",
-    "caption": "",
+    "caption": "This quiet paradise hidden deep in northern Guizhou.\n\n📍Wujiang Village\n\nℹ️ Sourced from Xiaohongshu\n\nTag @chinadiscover for your photos in China!\n\n#halicinde #chinadiscover #chinadestinations #china #reels #chinaculture #studyinginchina #chinalife #chinatravel #chinatravel #chineseculture #wujiang",
     "match": "slide",
     "slide": 2
    },
@@ -1348,7 +1357,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/tourismeguizhou/",
     "kind": "p",
     "image": "images/DLHh2XzodtQ_1.jpg",
-    "caption": "",
+    "caption": "🌿 wujiangzhai : un écrin de beauté au cœur du guizhou \n\ndécouvrez ce village authentique où les maisons sur pilotis se mirent dans les eaux paisibles, entourées de montagnes verdoyantes. un lieu unique où traditions ethniques et créations contemporaines se rencontrent harmonieusement. \n\n✨ expériences à vivre : \n- le \"phoenix céleste\" : un spectacle envoûtant mêlant feu et lumière, inspiré des légendes locales \n- la danse des drones : une féérie nocturne où les lumières dessinent des tableaux magiques dans le ciel \n- l'artisanat traditionnel : ateliers de papier fait main, techniques de cire pe",
     "match": "slide",
     "slide": 1
    }
@@ -1900,7 +1909,7 @@ window.PLACES_CN = [
   "lng": 110.119,
   "approx": true,
   "image": "images/DRo8DqWCiXB.jpg",
-  "caption": "",
+  "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
   "post_url": "https://www.instagram.com/hanaleytravel/p/DRo8DqWCiXB/",
   "username": "hanaleytravel",
   "profile_url": "https://www.instagram.com/hanaleytravel/",
@@ -1911,7 +1920,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hanaleytravel/",
     "kind": "p",
     "image": "images/DRo8DqWCiXB.jpg",
-    "caption": "",
+    "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
     "match": "single"
    },
    {
@@ -2039,7 +2048,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_2.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 2
    },
@@ -2295,7 +2304,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_3.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 3
    },
@@ -2397,7 +2406,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_7.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 7
    }
@@ -2499,7 +2508,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_6.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 6
    },
@@ -2512,6 +2521,15 @@ window.PLACES_CN = [
     "caption": "Chongqing ❤️\n\n#chongqing #china #streetphotography #travelphotography #moodedits",
     "match": "slide",
     "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/da_frames/p/DeuF05wJYKU/",
+    "username": "da_frames",
+    "profile_url": "https://www.instagram.com/da_frames/",
+    "kind": "p",
+    "image": "images/DeuF05wJYKU.jpg",
+    "caption": "Crimson steps\n\n•\n\n#china #chongqing #cinematic #luohantemple #photography",
+    "match": "single"
    }
   ],
   "pop": 3,
@@ -2591,7 +2609,7 @@ window.PLACES_CN = [
   "lng": 106.5891,
   "approx": true,
   "image": "images/DdiudFSEbF0_5.jpg",
-  "caption": "",
+  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=5",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -2602,7 +2620,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_5.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 5
    },
@@ -2633,7 +2651,7 @@ window.PLACES_CN = [
   "lng": 106.52597,
   "approx": false,
   "image": "images/DdiudFSEbF0_4.jpg",
-  "caption": "",
+  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=4",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -2644,7 +2662,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_4.jpg",
-    "caption": "",
+    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
     "match": "slide",
     "slide": 4
    }
@@ -5210,6 +5228,37 @@ window.PLACES_CN = [
   "pop": 4,
   "pop_reason": "Abgelegene Ruinenstadt, Fotografen-Traum",
   "when": "day"
+ },
+ {
+  "id": "cn-deyi-world",
+  "region": "cn",
+  "name": "Deyi World 得意世界",
+  "district": "Jiefangbei (Jiaochangkou), Chongqing",
+  "category": "Neon",
+  "note": "Neon-Vergnügungsviertel am Jiaochangkou (较场口87号, Adresse laut fang.com; Pin ungefähr): Leuchtreklamen in mehreren Ebenen wie ein Videospiel – ab Einbruch der Dunkelheit.",
+  "address": "Jiefangbei (Jiaochangkou), Chongqing",
+  "lat": 29.556,
+  "lng": 106.57,
+  "approx": true,
+  "image": "images/DeHxWdUu-sU.jpg",
+  "caption": "POV: this city is a real life video game 🎮✨\n\n.\n\n📍DEYI WORLD, CHONGQING, CHINA 🇨🇳 \n\n.\n\n#china #chongqing #fyp #viral #game",
+  "post_url": "https://www.instagram.com/via.abdulaziz/reel/DeHxWdUu-sU/",
+  "username": "via.abdulaziz",
+  "profile_url": "https://www.instagram.com/via.abdulaziz/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/via.abdulaziz/reel/DeHxWdUu-sU/",
+    "username": "via.abdulaziz",
+    "profile_url": "https://www.instagram.com/via.abdulaziz/",
+    "kind": "reel",
+    "image": "images/DeHxWdUu-sU.jpg",
+    "caption": "POV: this city is a real life video game 🎮✨\n\n.\n\n📍DEYI WORLD, CHONGQING, CHINA 🇨🇳 \n\n.\n\n#china #chongqing #fyp #viral #game",
+    "match": "single"
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Neon-Viertel am Jiaochangkou, viral als „Videospiel-Stadt“",
+  "when": "night"
  },
  {
   "id": "claude-cn-nantou-ancient-city",
