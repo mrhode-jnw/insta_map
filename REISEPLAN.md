@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 10:46 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 12:39 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -128,9 +128,11 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **8:30** 🏨 Abfahrt: **See you on the well · Dali Dongzhai The Well House**
   - ↓ 🚗 Auto · ca. 160 Min. · 130 km
 - **11:15–13:30** ✅ **Maliao Silversmith Village 麻料村** (Leishan (Xijiang), Guizhou) · Licht: Fensterlicht drinnen – Mittag ideal – Silberschmiede in den Werkstätten: Hände und Werkzeug, offene Blende.
+- 🚶 ◻︎ optional: **Rundgang Maliao (Sightseeing)** – Alte Grundschule mit Silberwerkstatt, Familienwerkstätten und Arbeitsschritte, die Geschichte der Rückkehrer – Stationen und Hintergründe in der App.
   - ↓ 🚗 Auto · ca. 55 Min. · 37 km
 - **14:30** 🏨 Check-in, Pause: **Qixi Homestay**
 - **16:30–17:45** ✅ **Langde Upper Miao Village 郎德上寨** (Leishan (Langde), Guizhou) · Licht: goldene Stunde – Überblick von der Terrasse, die überdachte Brücke am Eingang im Abendlicht.
+- 🚶 ◻︎ optional: **Rundgang Langde (Sightseeing)** – Osttor mit Begrüßungswein, Bronzetrommelplatz, Rebellengeschichte und Wasserräder – Stationen und Hintergründe in der App.
   - ↓ 🚗 Auto · ca. 35 Min. · 22 km
 - **18:20–19:20** ◻︎ optional: **Xijiang Qianhu Miao Village 西江千户苗寨** (Leishan, Guizhou) · Licht: blaue Stunde – Vom Aussichtspunkt oberhalb: das Lichtermeer der tausend Häuser.
   - ↓ 🚗 Auto · ca. 35 Min. · 22 km

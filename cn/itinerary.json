@@ -641,6 +641,17 @@
      "text": "Silberschmiede in den Werkstätten: Hände und Werkzeug, offene Blende."
     },
     {
+     "type": "info",
+     "icon": "🚶",
+     "title": "Rundgang Maliao (Sightseeing)",
+     "opt": true,
+     "sel": true,
+     "walk": "walk-maliao",
+     "lat": 26.543,
+     "lng": 108.213,
+     "text": "Alte Grundschule mit Silberwerkstatt, Familienwerkstätten und Arbeitsschritte, die Geschichte der Rückkehrer – Stationen und Hintergründe in der App."
+    },
+    {
      "type": "move",
      "mode": "car"
     },
@@ -658,6 +669,17 @@
      "light": "golden",
      "lightText": "goldene Stunde",
      "text": "Überblick von der Terrasse, die überdachte Brücke am Eingang im Abendlicht."
+    },
+    {
+     "type": "info",
+     "icon": "🚶",
+     "title": "Rundgang Langde (Sightseeing)",
+     "opt": true,
+     "sel": true,
+     "walk": "walk-langde",
+     "lat": 26.4747,
+     "lng": 108.05735,
+     "text": "Osttor mit Begrüßungswein, Bronzetrommelplatz, Rebellengeschichte und Wasserräder – Stationen und Hintergründe in der App."
     },
     {
      "type": "move",

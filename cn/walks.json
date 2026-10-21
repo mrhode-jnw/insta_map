@@ -766,5 +766,104 @@
     ]
    }
   ]
+ },
+ {
+  "id": "walk-maliao",
+  "region": "cn",
+  "area": "Guizhou",
+  "place": "Maliao",
+  "title": "Maliao: Das Dorf der Silberschmiede",
+  "date": "2026-10-21",
+  "when": "Mi 21.10., ca. 11:15–13:30",
+  "duration": "ca. 1,5–2 h, kurze Wege, Gassen mit Stufen am Hang",
+  "intro": "Maliao (麻料村) ist ein Miao-Dorf mit rund 180 Haushalten im Nordosten der Gemeinde Xijiang im Kreis Leishan, 15 km von Xijiang. Seit der Ming- und Qing-Zeit lebt das Dorf vom Silberschmieden; mehr als 70 % der Bewohner beherrschen das Handwerk. Mit Maliao bilden die Nachbardörfer Kongbai (控拜) und Wugao (乌高) das „Silberdreieck“ der Miao. Nach 2000 verdrängten Maschinen die Handarbeit, die Jungen gingen nach Guangdong und das Dorf leerte sich. Seit die Miao-Silberverarbeitung 2006 nationales Kulturerbe wurde, kehrten Silberschmiede zurück; 2017/18 gründete das Dorf eine eigene Silberfirma und baute die alte Grundschule zur Werkstatt um.",
+  "tips": [
+   "Werkstätten sind Privathäuser: kurz fragen, ob man zuschauen und fotografieren darf. Ein kleiner Kauf öffnet Türen.",
+   "Bestes Licht für Hände und Werkzeug ist Fensterlicht in den Werkstätten – offene Blende, 50–85 mm.",
+   "Wer selbst etwas schmieden will (DIY), fragt in einer Werkstatt; ein einfacher Ring oder Armreif dauert 1–3 Std. Preise vor Ort klären.",
+   "Die Positionen der Stationen sind nur ungefähr verortet (approx); das Dorf ist klein, einfach durch die Gassen gehen und auf das Hämmern hören."
+  ],
+  "sources": [
+   "http://country.people.com.cn/n1/2021/0116/c419842-32001621.html",
+   "https://www.ihchina.cn/character_detail/18215.html",
+   "https://www.ihchina.cn/project_details/19445.html",
+   "https://news.gmw.cn/2018-10/07/content_31562737.htm",
+   "https://www.chinadaily.com.cn/a/202006/09/WS5edef839a310834817251c5a.html",
+   "https://www.chinawriter.com.cn/n1/2019/1216/c404100-31508417.html"
+  ],
+  "stops": [
+   {
+    "name": "Dorfeingang und Blick über die Dächer",
+    "name_cn": "麻料村 · 寨门",
+    "lat": 26.5425,
+    "lng": 108.2125,
+    "approx": true,
+    "text": "Maliao liegt am Hang: dunkle Holz-Stelzenhäuser mit grauen Ziegeldächern, darüber Wald und oft Nebel. Lange war das Dorf schwer erreichbar – Strom gibt es erst seit 1997, eine Straße seit 2000. Früher zogen die Silberschmiede von hier tagelang zu Fuß von Dorf zu Dorf, um Schmuck für Feste und Hochzeiten zu fertigen.",
+    "images": [
+     {
+      "image": "images/walk_maliao_1_1.jpg",
+      "url": "http://country.people.com.cn/n1/2021/0116/c419842-32001621.html",
+      "credit": "Volkszeitung (人民日报)",
+      "caption": "Maliao von oben, im Bild zwei Silberschmiede bei der Arbeit"
+     },
+     {
+      "image": "images/claude_gz_maliao_1.jpg",
+      "url": "https://govt.chinadaily.com.cn/s/202006/11/WS5eef49e5498ed1e2f340731a/craftsmans-village-sees-silver-lining-from-jewelry.html",
+      "credit": "Xinhua · China Daily",
+      "caption": "Stelzenhäuser am Hang"
+     }
+    ]
+   },
+   {
+    "name": "Alte Grundschule: Silber- und Stickerei-Werkstatt",
+    "name_cn": "银饰刺绣传习馆",
+    "lat": 26.543,
+    "lng": 108.213,
+    "approx": true,
+    "text": "Die aufgegebene Dorfschule wurde 2017/18 mit 580.000 Yuan Armutshilfe und knapp 1 Mio. Yuan Einlage der Dorfbewohner zur Vorführwerkstatt und zur Ausstellung für Silber und Stickerei umgebaut, mit Unterstützung der Suzhou-Hochschule für Kunsthandwerk. Hier wird ausgebildet und vorgeführt – der beste Ort, um den ganzen Ablauf an einem Platz zu sehen.",
+    "images": []
+   },
+   {
+    "name": "Familienwerkstätten in den Gassen",
+    "name_cn": "银匠作坊",
+    "lat": 26.5433,
+    "lng": 108.2136,
+    "approx": true,
+    "text": "Fast jede Familie hat ihre Spezialität: Blumen, Vögel, Insekten, Fische. Ein Schmuckstück durchläuft über zehn Schritte: Silber schmelzen (熔银), schmieden (锻打), Stäbe formen (制条), Draht ziehen (制丝), Bleche formen (制片), Reliefs pressen (压花), ziselieren (纹饰钻雕), flechten (编结), montieren und reinigen. Eine einfache Haarnadel braucht mindestens drei Stunden. Auf das Klopfen der kleinen Hämmer hören – so findet man die offenen Werkstätten.",
+    "images": [
+     {
+      "image": "images/walk_maliao_3_1.jpg",
+      "url": "http://country.people.com.cn/n1/2021/0116/c419842-32001621.html",
+      "credit": "Volkszeitung (人民日报)",
+      "caption": "Miao-Silberschmuck aus Maliao"
+     }
+    ]
+   },
+   {
+    "name": "Werkstatt eines Rückkehrers",
+    "name_cn": "春富银饰工坊",
+    "lat": 26.5428,
+    "lng": 108.2139,
+    "approx": true,
+    "text": "Pan Shixue (潘仕学), Jahrgang der 1980er, ging nach der Schule zum Arbeiten fort und kam 2018 zurück. Er baute sein Elternhaus zur Werkstatt um, gründete sechs Silberwerkstätten im Dorf, leitet den Silberschmiedeverband und lässt Aufträge von weiteren Handwerkern zu Hause fertigen. Heute verdienen über 50 Familien mit Silber gut; viele Stücke gehen über Online-Shops in ganz China. Nach der Werkstatt fragen – Name und Lage nur ungefähr.",
+    "images": [
+     {
+      "image": "images/walk_maliao_4_1.jpg",
+      "url": "http://country.people.com.cn/n1/2021/0116/c419842-32001621.html",
+      "credit": "Volkszeitung (人民日报)",
+      "caption": "Silberarbeit mit Emaille-Pfau"
+     }
+    ]
+   },
+   {
+    "name": "Blick Richtung Kongbai",
+    "name_cn": "控拜方向",
+    "lat": 26.542,
+    "lng": 108.214,
+    "approx": true,
+    "text": "Am Dorfrand Richtung Süden geht der Blick über Terrassen zum Nachbardorf Kongbai (控拜), knapp 1.000 m hoch und älter als Silberdorf bekannt – „Kongbai war berühmt, Maliao kannte keiner“, sagt Pan Shixue. Zusammen mit Wugao bilden die drei Dörfer das Silberdreieck, aus dem ein Großteil des Miao-Festschmucks von Xijiang stammt.",
+    "images": []
+   }
+  ]
  }
 ]
