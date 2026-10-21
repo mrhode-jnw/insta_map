@@ -9542,6 +9542,60 @@ window.PLACES_CN = [
     "image": "images/claude_zjj_yoloteasunset_4.jpg",
     "caption": "",
     "credit": "Zhangjiajie YOLO Resort · Booking.com (Gästefoto)"
+   },
+   {
+    "url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "username": "",
+    "profile_url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yolosunset_1.jpg",
+    "caption": "",
+    "credit": "Zhangjiajie YOLO Resort · Booking.com"
+   },
+   {
+    "url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "username": "",
+    "profile_url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yolosunset_2.jpg",
+    "caption": "",
+    "credit": "Zhangjiajie YOLO Resort · Booking.com"
+   },
+   {
+    "url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "username": "",
+    "profile_url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yolosunset_3.jpg",
+    "caption": "",
+    "credit": "Zhangjiajie YOLO Resort · Booking.com"
+   },
+   {
+    "url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "username": "",
+    "profile_url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yolosunset_4.jpg",
+    "caption": "",
+    "credit": "Zhangjiajie YOLO Resort · Booking.com"
+   },
+   {
+    "url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "username": "",
+    "profile_url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yolosunset_5.jpg",
+    "caption": "",
+    "credit": "Zhangjiajie YOLO Resort · Booking.com"
+   },
+   {
+    "url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "username": "",
+    "profile_url": "https://www.booking.com/hotel/cn/zhangjiajie-yolo-resort.html",
+    "kind": "photo",
+    "image": "images/claude_zjj2_yolosunset_6.jpg",
+    "caption": "",
+    "credit": "Zhangjiajie YOLO Resort · Booking.com"
    }
   ],
   "pop": 3,
