@@ -1,6 +1,6 @@
 # Routine: neue Links aus dem Eingang verarbeiten (Instagram, Google Maps, OpenStreetMap, Locationscout)
 
-Diese Anleitung führt die stündliche Claude-Routine aus. Neue Post-Links landen über die Karte
+Diese Anleitung führt die Claude-Routine (3× täglich, 6:41, 12:41 und 18:41 Uhr China-Zeit) aus. Neue Post-Links landen über die Karte
 (Teilen-Menü/Kurzbefehl `…/insta_map/?add=<link>` oder ＋ → „Instagram-Post übernehmen“) in
 `data/inbox.json` im Branch **map-data**. Die Routine macht daraus Spots in `hk/spots.py` und
 veröffentlicht die Karte im Branch **claude/sweet-mayer-wqdght**.

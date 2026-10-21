@@ -28,5 +28,5 @@
 ## Wetter- & Sichtprognose
 - `tools/build_forecast.py` → `data/forecast.json` (Open-Meteo, je Reiseplan-Stopp zur geplanten Uhrzeit: Wetter,
   Wolken, Regen, Sicht, AQI/PM2,5, Einschätzung „klar … sehr diesig“). Liegt im Branch **map-data**, nicht im Seiten-Branch.
-- `sh tools/update_forecast.sh` rechnet neu und pusht nach map-data; die stündliche Routine ruft das
+- `sh tools/update_forecast.sh` rechnet neu und pusht nach map-data; die Routine (3× täglich) ruft das
   in jedem Lauf auf (ROUTINE.md, Schritt 0b). Nach Änderungen am Reiseplan reicht ein Lauf dieses Skripts.
