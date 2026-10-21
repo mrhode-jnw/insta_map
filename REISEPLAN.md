@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 08:35 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 08:58 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -171,7 +171,9 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 ### Sa 24.10. – Zhangjiajie Tag 1 (ohne Hikes): Yuanjiajie zum Sonnenaufgang · Tianzi-Berg am Nachmittag _(Entwurf)_
 
 - **5:45** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
-  - ↓ 🚗 Auto · ca. 15 Min. · 8 km (Hotelauto (am Vorabend bestellt) bis Busbahnhof Yuanjiajie – Parkbusse fahren erst ab ca. 7:00, zu Fuß wären es 4,7 km; dann 800 m zu Fuß zum Mihun Tai)
+- **5:45–6:00** 🚗 ◻︎ optional: **Start A: eigener Transport – Hotelauto zum Busbahnhof Yuanjiajie** – Am Vorabend an der Rezeption bestellen (Hotelauto oder Fahrer aus dem Dorf). 15 Min. bis zum Busbahnhof Yuanjiajie, 800 m zu Fuß zum Mihun Tai – pünktlich zum Sonnenaufgang 6:45, bis 8:30 fast allein. Nur eine der beiden Start-Varianten wählen.
+- **6:45–7:20** 🚌 ◻︎ optional: **Start B: mit dem ersten Parkbus** – Kein Auto nötig: 6:45 die 500 m Zufahrt hinunter zur Busstraße, erster Parkbus Richtung Yuanjiajie ca. 7:00–7:15 (Betrieb ca. 7:00–18:00, manche Quellen 7:30), 15 Min. Fahrt, 800 m zu Fuß. Ankunft Mihun Tai ca. 7:45: Sonnenaufgang verpasst, aber noch weiches Morgenlicht und vor den Lift-Gruppen (ab 8:30). Alle folgenden Zeiten verschieben sich in der App automatisch.
+  - ↓ 🚗 Auto · ca. 15 Min. · 8 km (Hotelauto bzw. Parkbus bis Busbahnhof Yuanjiajie, dann 800 m zu Fuß)
 - **6:15–7:30** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Sonnenaufgang 6:45 – nach Regen Nebel zwischen den Säulen – Stativ ans Geländer, 70-200 für einzelne Säulen. Bis ca. 8:30 fast leer – die Gruppen kommen mit dem Bailong-Lift ab ca. 8:00.
   - ↓ 🚶 zu Fuß · ca. 10 Min.
 - **7:40–8:25** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Morgenlicht – Vor den Gruppen (Lift ab ca. 7:30–8:00, Gruppen ab 8:30). Yuanjiajie-Runde insgesamt ca. 2 Std., eben.
@@ -183,7 +185,8 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **10:10–10:40** ◻︎ optional: **Yuanjiazhai 袁家寨子** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Vormittag – Innenhöfe – Tujia-Dorf/Museum direkt am Busbahnhof Yuanjiajie, 8–17 Uhr, Extra-Ticket. Optional vor dem Bus zurück.
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus Richtung Yangjiajie/Tianzi, an der Resort-Abzweigung aussteigen (500 m))
 - **~9:45** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
-  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Parkbus ab der Abzweigung Richtung Tianzi (Helong Park) – ca. 35–40 Min., ggf. in Yangjiajie oder am Busbahnhof umsteigen; Abfahrt ca. 13:10)
+- **13:10** 🚌 **Feste Abfahrt: Parkbus an der Resort-Abzweigung Richtung Tianzi** – Feste Zeit, damit der Nachmittag auf dem Tianzi-Berg unabhängig vom Morgen bleibt (letzter Bus zurück ca. 18:00). Spätestens 13:00 am Resort los.
+  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Parkbus Richtung Tianzi (Helong Park), ca. 35–40 Min., ggf. in Yangjiajie oder am Busbahnhof umsteigen)
 - **14:00–14:40** ◻︎ optional: **Helong Park 贺龙公园** (Tianzi Mountain, Hunan) · Licht: Nachmittag – Zentrum des Tianzi-Plateaus: Lokale, Imbisse, Seilbahn-Bergstation. Gemütliche Runde über die Aussichtspunkte (Fabio Nodari: 1,5–2,5 Std.).
 - **14:40–15:40** ◻︎ optional: **Tianzi Mountain Cable Car 天子山索道** (Tianzi Mountain, Wulingyuan, Hunan) · Licht: Nachmittag – aus der Gondel über die Felsnadeln – Nur zum Fotografieren: Bergstation gut 1 km nördlich vom Helong Park (15 Min. zu Fuß), 6–7 Min. Fahrt über die Felsnadeln, 72 CNY je Richtung, unten gleich wieder hinauf (Schlange nach 15 Uhr meist unter 15 Min.). Kostet mit Hin- und Rückweg etwa eine Stunde – wer die Zeit lieber an den Aussichtspunkten verbringt, lässt es weg.
   - ↓ 🚶 zu Fuß · ca. 10 Min.
@@ -197,8 +200,10 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 
 ### So 25.10. – Zhangjiajie Tag 2 (mit Hikes): Yangjiajie-Leitern zum Sonnenaufgang · Abstieg zum Golden Whip Stream · Mihun Tai am Abend _(Entwurf)_
 
-- **5:20** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
-  - ↓ 🚶 zu Fuß · ca. 50 Min. (zu Fuß 3,7 km über die Parkbus-Straße mit Stirnlampe (Parkbusse fahren noch nicht) – oder Hotelauto für 5:50)
+- **5:15** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
+- **5:15–5:20** 🚶 ◻︎ optional: **Start A: eigener Transport – zu Fuß mit Stirnlampe oder Hotelauto** – Zu Fuß 3,7 km über die Parkbus-Straße bis zur Yangjiajie-Haltestelle (50 Min., Stirnlampe, kaum Verkehr vor 7 Uhr) – oder Hotelauto für 5:50 bestellen (10 Min.). So seid ihr zum Sonnenaufgang 6:45 an der Natürlichen Großen Mauer. Nur eine der beiden Start-Varianten wählen.
+- **6:50–7:15** 🚌 ◻︎ optional: **Start B: mit dem ersten Parkbus** – 6:50 zur Busstraße, erster Parkbus Richtung Yangjiajie ca. 7:00–7:15 (10 Min. Fahrt). Ankunft an der Natürlichen Großen Mauer ca. 7:20: Sonnenaufgang verpasst, das Streiflicht auf den Wänden hält aber bis ca. 8:30. Alle folgenden Zeiten verschieben sich automatisch.
+  - ↓ 🚶 zu Fuß · ca. 5 Min.
 - **6:15–7:15** ◻︎ optional: **Natural Great Wall Viewpoint 天然长城观景台** (Yangjiajie, Wulingyuan, Hunan) · Licht: Sonnenaufgang 6:45 – Streiflicht auf den Felswänden – Direkt an der Yangjiajie-Haltestelle, ohne Leitern: Stativ an die Brüstung, 70-200 für die gestaffelten Wände, 16-35 bei Nebel im Tal.
   - ↓ 🚶 zu Fuß · ca. 15 Min.
 - **7:15–7:30** ◻︎ optional: **Wulong Village 乌龙寨** (Yangjiajie, Wulingyuan, Hunan) · Licht: Morgen – im Felsspalt – Räuberfestung auf dem Felssporn: Engstellen „Ein Faden Himmel“ und „Drei Tore“, dahinter die Leitern zum Tianbo Fu. Teil der Hike-Runde.
@@ -209,6 +214,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **9:45–10:15** ◻︎ optional: **Yangjiajie Cable Car 杨家界索道** (Yangjiajie, Wulingyuan, Hunan) · Licht: Vormittag – steilste Bahn im Park – Bergstation 150 m vom Aussichtspunkt Natürliche Große Mauer. 5–6 Min. Fahrt an den Yangjiajie-Wänden entlang, 76 CNY je Richtung, kaum Schlange. Unten gleich wieder hinauf – sonst steht ihr im Tal beim Westtor, 40 Min. Bus bis zum Osttor. Nur wenn Zeit und Lust, kostet gut 30 Min.
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus Richtung Yuanjiajie, an der Resort-Abzweigung aussteigen (500 m))
 - **~9:45** 🏨 Frühstück, Pause: **Zhangjiajie YOLO Resort**
+- **11:15** 🚌 **Feste Abfahrt: Parkbus an der Resort-Abzweigung zum Busbahnhof Yuanjiajie** – Feste Zeit, damit Lift, Bach und Mihun Tai am Abend unabhängig vom Morgen bleiben. Spätestens 11:05 am Resort los.
   - ↓ 🚌 Bus/Seilbahn · ca. 15 Min. (Parkbus zum Busbahnhof Yuanjiajie, 800 m zu Fuß zur Bailong-Bergstation)
 - **11:30–11:50** ◻︎ optional: **Bailong Elevator 百龙天梯** (Wulingyuan, Hunan) · Licht: Mittag – Architektur – Mit Hike: statt Lift den Luanchuanpo-Steig (乱窜坡, ca. 3.000 Stufen, 1,5–2 Std., Einstieg am Yuanjiajie-Rundweg nahe der Ersten Brücke) hinunter – unten am Bach bei Qianlixianghui (千里相会) heraus, von dort 2,5 km bachabwärts bis Shuiraosimen. Ohne Hike: Lift hinunter (65–72 CNY, mittags kaum Schlange); den Lift von der Plattform oben entlang der Wand fotografieren.
   - ↓ 🚶 zu Fuß · ca. 5 Min.

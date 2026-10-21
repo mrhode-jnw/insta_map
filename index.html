@@ -3017,7 +3017,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const s = +m[2] * 60 + +m[3], e = m[4] ? +m[4] * 60 + +m[5] : null; return { s, e: e != null && e < s ? e + 1440 : e, approx: !!m[1] }; };
   const hm = x => `${Math.floor(x / 60) % 24}:${String(x % 60).padStart(2, "0")}`;
   // feste Abfahrten (Zug/Flug) bleiben, alles andere rechnet sich aus Vorgänger-Ende + Fahrzeit + geplanter Wartezeit
-  const isAnchor = (it, next) => it.type === "info" && (/🚄|✈️|🚆|⛴/.test(it.icon || "") || (next && next.type === "move" && /train|flight|boat/.test(next.mode)));
+  const isAnchor = (it, next) => it.anchor === true || it.type === "info" && (/🚄|✈️|🚆|⛴/.test(it.icon || "") || (next && next.type === "move" && /train|flight|boat/.test(next.mode)));
   function schedule(d, items) {
     const du = durOf(d), out = new Map();
     let cur = null, curPlan = null, travel = 0;
@@ -3267,7 +3267,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "108 · Instagram im Reiseplan zuklappbar";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "109 · Start-Varianten mit festen Busabfahrten";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
