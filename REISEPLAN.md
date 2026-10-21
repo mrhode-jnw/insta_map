@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 14:33 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 21.10.2026 14:34 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -143,16 +143,12 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **4:45** 🏨 Abfahrt: **Qixi Homestay**
   - ↓ 🚗 Auto · ca. 215 Min. · 252 km (im Dunkeln fahren)
 - **~8:20** 🎟 **Fanjingshan Ost-Eingang (梵净山东门)** – Gebucht: Ticket Osttor + Sightseeing-Bus hin und zurück + Seilbahn hin und zurück, 2 Personen, nicht erstattungsfähig. Einlass 8:40–8:59 – spätestens 8:20 da sein, Tickets mit Pass am Schalter abholen (Abholnummer in der Trip.com-Buchung). Seilbahn-Zeitfenster steht unter Ticket 2 in der Buchung.
-  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Bus ca. 25 Min. + Seilbahn (Zeitfenster laut Ticket 2, vermutlich ca. 9:20–9:39))
-- **9:40–10:20** ◻︎ optional: **Fanjingshan Cloud Forest Boardwalk 梵净山森林栈道** (Fanjingshan, Tongren, Guizhou) · Licht: Vormittag – im Nebel am stimmungsvollsten – Ab der Seilbahn-Bergstation den Waldsteg (森林栈道) hinauf: ca. 750 m, gut 1.400 Stufen, 30–40 Min. durch moosigen Zwergwald und Bambus. 16–24 mm, bei Nebel Person in roter Jacke als Maßstab.
+  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Bus ca. 25 Min. + Seilbahn (Zeitfenster laut Ticket 2). In der Gondel: Platz vorn/talseitig, Gegenlichtblende auf die Scheibe, dunkle Jacke gegen Spiegelungen; 70–200 auf die vorausfahrende Gondel (1/1000 s), 16 mm auf die Seile als Fluchtlinien – und genau beim Durchstoßen der Wolkendecke auslösen.)
+- **9:40–10:15** ◻︎ optional: **Fanjingshan Cloud Forest Boardwalk 梵净山森林栈道** (Fanjingshan, Tongren, Guizhou) · Licht: Vormittag – bei Nebel das stärkste Motiv des Wegs – Nicht durchhetzen, der Weg ist ein Motiv: Holzsteg als Linie zur Bildmitte, 16–24 mm tief am Boden, 1/30 s, ISO 800; Mitreisende in roter Jacke 20 m voraus als Maßstab. Einzelner Baum im Weiß: klein ins untere Drittel, +1,5–2 EV, schwarzweiß denken. Bei Nebel Wischbilder (ICM): 35–70 mm, f/16, 1/4–1 s, senkrecht ziehen, 30 Versuche.
   - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **10:25–11:00** ◻︎ optional: **Mushroom Stone 蘑菇石** (Fanjingshan, Tongren, Guizhou) · Licht: Vormittag – Sonne aus SO, Felsen von der NW-Seite im Gegenlicht – Das Wahrzeichen. Vom oberen Weg mit 24–35 mm aus leichter Untersicht, Gipfel Hongyun Jinding im Hintergrund nach SW. Kurz warten, bis die Menge am Geländer wechselt.
-  - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **11:00–11:10** ◻︎ optional: **Wanjuanshu 万卷书** (Fanjingshan, Tongren, Guizhou) · Licht: Vormittag – Streiflicht auf den Schieferschichten – „Zehntausend Bücher“: gespaltene Schieferwand kurz oberhalb des Pilzfelsens (Lage geschätzt, Infotafel 万卷经书). 70–200 frontal für parallele Linien. Nur ein kurzer Abstecher.
+- **10:15–11:15** ◻︎ optional: **Mushroom Stone 蘑菇石** (Fanjingshan, Tongren, Guizhou) · Licht: Sonne 10:30 Az 139° (SO), 41° hoch – Gegenlicht von der NW-Seite des Felsens – Hauptstandpunkt des Tages, eine Stunde bleiben, Stativ am Geländer am Weg oberhalb des Felsens. 1) Pilzfelsen aus leichter Untersicht, 24–35 mm, Person 15–20 m entfernt als Maßstab; mit Sonnenstern: von NW tief gehen, bis die Sonne gerade an der Kante steht, f/16, Belichtungsreihe ±2 EV. 2) Hongyun Jinding nach SW (≈220°) als Scherenschnitt: 70–200, bei Nebel +1 bis +1,7 EV, Serie, bis nur die Tempelspitzen aus dem Grau ragen. 3) Wolken um den Gipfel mit ND 1000: f/11, ISO 64, 15–60 s, mehrere Belichtungen wegen der Wanderer. 4) Bei Wolkenmeer im Norden: Gratschichten mit 150–600, 1/500 s. Wanjuanshu (Schieferwand) liegt direkt darüber: 70–200 frontal, parallele Linien. Buddha-Licht (佛光): bei Nebel unten und Sonne oben an der Nord-/NW-Kante prüfen – Ring um den eigenen Schatten, 14–20 mm, −0,7 EV.
   - ↓ 🚶 zu Fuß · ca. 15 Min. (vom Pilzfelsen hinunter zum Pudu-Platz (普渡广场))
-- **11:10–11:25** ✅ **Fanjingshan 梵净山** (Tongren, Guizhou) · Licht: Mittag – Sonne im Süden, Seitenlicht auf der Ostflanke – Blick vom Pudu-Platz hinauf zum Hongyun Jinding (红云金顶) mit den zwei Tempeln. Nicht hinaufsteigen: Nummernsystem und Schlange, Ende Oktober 1–3 Std. Wartezeit plus 20–45 Min. Aufstieg – passt nicht ins Zeitfenster.
-  - ↓ 🚶 zu Fuß · ca. 3 Min.
-- **11:30–11:45** ◻︎ optional: **Chengen Temple 承恩寺** (Fanjingshan, Tongren, Guizhou) · Licht: Mittag – Weihrauch im Gegenlicht – Tempel am Fuß des Gipfels, rote Schlösser und Dachreiter vor der Felswand. 50–85 mm, drinnen nur wo erlaubt fotografieren.
+- **11:15–11:50** ✅ **Fanjingshan 梵净山** (Tongren, Guizhou) · Licht: Mittag – Sonne 11:30 Az 158°, Seitenlicht auf der Ostflanke des Jinding – Vom Pudu-Platz hinauf zum Hongyun Jinding: 100–400 mm auf die Treppen und Ketten mit den kleinen Figuren (1/500 s) – Maßstab für die Steilwand; Vertikalpanorama Gipfel–Tempel–Wolken mit 35–50 mm hochkant. Am Cheng'en-Tempel daneben: Weihrauch im Gegenlicht, rote Schlösser mit offener Blende, Dachreiter als Silhouette gegen die Wolkenwand (100–400, +1 EV). Nicht auf den Gipfel: 1–3 Std. Schlange.
   - ↓ 🚶 zu Fuß · ca. 15 Min. (über 万宝岩 hinunter zur Seilbahn-Bergstation (abwärts gut 10–15 Min.))
   - ↓ 🚌 Bus/Seilbahn · ca. 45 Min. (Seilbahn + Bus hinunter – spätestens 12:00 an der Bergstation)
 - **~13:00** 🚗 **Abfahrt am Ost-Eingang**
