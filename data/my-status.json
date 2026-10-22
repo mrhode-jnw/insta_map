@@ -670,5 +670,8 @@
  },
  "claude-cn-zhaoxing-dong-village": {
   "prio": "nein"
+ },
+ "claude-cn-zengchong-drum-tower": {
+  "prio": "nein"
  }
 }
