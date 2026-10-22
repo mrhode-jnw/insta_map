@@ -218,6 +218,8 @@
     border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; font-size: 11.5px; line-height: 1.25; }
   #itinDays button b { font-size: 16px; } #itinDays button.on { background: #0f766e; border-color: #0f766e; color: #fff; }
   #itinDays button.today:not(.on) { border-color: #0f766e; }
+  #itinDays button.ipast { min-width: 40px; justify-content: center; font-size: 20px; opacity: .8; } #itinDays button.ipast small { font-size: 11px; margin-left: 3px; }
+  #itinDays button.past:not(.on) { opacity: .6; }
   #itinOpt { display: flex; gap: 6px; padding: 8px 12px; border-bottom: 1px solid var(--line); }
   #itinOpt button { flex: 1; padding: 7px 8px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 13.5px; cursor: pointer; }
   #itinOpt button.on { background: var(--fg); color: var(--bg); border-color: var(--fg); }
@@ -3138,10 +3140,15 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <div class="iact">${H.lat ? `<button data-ll="${H.lat},${H.lng}">📍 Auf der Karte</button><a href="https://www.google.com/maps/dir/?api=1&destination=${H.lat},${H.lng}" target="_blank" rel="noopener">Route ↗</a>` : ""}
           ${H.link ? `<a href="${esc(H.link)}" target="_blank" rel="noopener">Trip.com ↗</a>` : ""}</div></div></div>`;
   }
+  let itinPastOpen = false;  // vergangene Tage: nur nach Klick auf den Pfeil sichtbar
   function renderItin() {
     const d = ITIN.days.find(x => x.date === itinDay) || ITIN.days[0]; if (!d) return;
-    $("#itinDays").innerHTML = ITIN.days.map(x => { const [w, dm] = dayLabel(x).split(" ");
-      return `<button data-day="${x.date}" class="${x.date === d.date ? "on" : ""}${x.date === today ? " today" : ""}">${w}<b>${dm.split(".")[0]}</b>${dm.split(".")[1]}.</button>`; }).join("");
+    // vergangene Tage sind eingeklappt und erscheinen erst nach Klick auf den Pfeil
+    const past = ITIN.days.filter(x => today && x.date < today);
+    const shownDays = ITIN.days.filter(x => !(past.includes(x) && !itinPastOpen));
+    $("#itinDays").innerHTML = (past.length ? `<button type="button" class="ipast" data-past="1" title="${itinPastOpen ? "Vergangene Tage ausblenden" : "Vergangene Tage anzeigen"}" aria-label="${itinPastOpen ? "Vergangene Tage ausblenden" : "Vergangene Tage anzeigen"}">${itinPastOpen ? "›" : "‹"}<small>${past.length}</small></button>` : "")
+      + shownDays.map(x => { const [w, dm] = dayLabel(x).split(" ");
+      return `<button data-day="${x.date}" class="${x.date === d.date ? "on" : ""}${x.date === today ? " today" : ""}${today && x.date < today ? " past" : ""}">${w}<b>${dm.split(".")[0]}</b>${dm.split(".")[1]}.</button>`; }).join("");
     const comp = composeDay(d), items = comp.active, nOpt = d.items.filter(it => it.opt && it.type !== "move").length, nSel = chosenOf(d).size;
     $("#itinOpt").innerHTML = `<button data-o="0" class="on">★ Reiseplan${nSel ? ` (+${nSel})` : ""}</button><button data-o="1">✓ Spots wählen${nOpt ? ` (+${nSel}/${nOpt} optional)` : ""}${offOf(d).size ? ` · ${offOf(d).size} abgewählt` : ""}</button>`;
     // Licht am Ort: Aufgang am ersten, Abendlicht am letzten Punkt des Tages
@@ -3247,7 +3254,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (pickState) { pickState.forEach(([k, c]) => { const x = box.querySelector(`input[data-k="${CSS.escape(k)}"]`); if (x) x.checked = c; }); pickState = null; }
     box.querySelector("[data-ok]").onclick = apply;
   }
-  $("#itinDays").addEventListener("click", e => { const b = e.target.closest("button[data-day]"); if (!b) return; setItinDay(b.dataset.day); renderItin(); $("#itinBody").scrollTop = 0; });
+  $("#itinDays").addEventListener("click", e => {
+    const p = e.target.closest("button[data-past]"); if (p) { itinPastOpen = !itinPastOpen; renderItin(); return; }
+    const b = e.target.closest("button[data-day]"); if (!b) return; setItinDay(b.dataset.day); renderItin(); $("#itinBody").scrollTop = 0; });
   $("#itinSave").addEventListener("click", e => {
     const b = e.target.closest("button"), dd = ITIN.days.find(x => x.date === itinDay); if (!b || !dd) return;
     if (b.dataset.resetstd) { delete choiceLocal[dd.date]; try { localStorage.setItem("itinChoice", JSON.stringify(choiceLocal)); } catch {} renderItin(); drawItin(false); return; }
@@ -3299,7 +3308,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "113 · Vollbild: Icons oben rechts (Inspiration, Löschen)";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "114 · Tagesplan: vergangene Tage per Pfeil einblenden";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
