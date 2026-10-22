@@ -84,5 +84,18 @@
    "Rundgang Huanggang (Sightseeing)@8:15–10:15": 150
   },
   "off": []
+ },
+ "2026-10-24": {
+  "opt": [
+   "Start B: erster Parkbus (7:00, wie in der Route)",
+   "claude-cn-mihun-tai-enchanting-terrace",
+   "claude-cn-avatar-hallelujah-mountain",
+   "claude-cn-bailong-elevator",
+   "claude-cn-tianzi-mountain-cable-car",
+   "claude-cn-imperial-brush-peaks",
+   "claude-cn-xihai-stone-forest"
+  ],
+  "dur": {},
+  "off": []
  }
 }
