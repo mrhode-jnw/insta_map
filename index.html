@@ -2520,7 +2520,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       : ls.status === "notfound" ? "❓ Ort nicht gefunden" : "⏳ Ort wird recherchiert"; $("#lbLoc").disabled = !!ls && ls.status === "pending"; }
     const sp = lbSpot(), idx = lbIdx();
     $("#lbIns").hidden = $("#lbDel").hidden = !sp || idx < 0;
-    if (sp && idx >= 0) { const on = isInsp(it.src); $("#lbIns").textContent = on ? "💡 Inspiration ✓" : "💡 Inspiration"; $("#lbIns").classList.toggle("on", on); }
+    if (sp && idx >= 0) { const on = isInsp(it.src); $("#lbIns").title = on ? "Inspiration entfernen" : "Als Inspiration markieren"; $("#lbIns").classList.toggle("on", on); }
     $("#lbGal").querySelectorAll("img").forEach((im, k) => im.classList.toggle("cur", k === i));
     [i - 1, i + 1, i + 2].forEach(k => { const d = lbStrip.children[k]; if (d && d.firstElementChild.loading === "lazy") d.firstElementChild.loading = "eager"; });  // Nachbarn laden
   }
