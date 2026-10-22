@@ -673,5 +673,8 @@
  },
  "claude-cn-zengchong-drum-tower": {
   "prio": "nein"
+ },
+ "claude-cn-langde-upper-miao-village": {
+  "done": true
  }
 }
