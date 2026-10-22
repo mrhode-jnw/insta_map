@@ -676,5 +676,8 @@
  },
  "claude-cn-langde-upper-miao-village": {
   "done": true
+ },
+ "cn-jiabang-rice-terraces": {
+  "prio": "nein"
  }
 }
