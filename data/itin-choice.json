@@ -100,5 +100,17 @@
   ],
   "dur": {},
   "off": []
+ },
+ "2026-10-25": {
+  "opt": [
+   "Start B: erster Parkbus (7:00, wie in der Route)",
+   "claude-cn-natural-great-wall-viewpoint",
+   "claude-cn-yangjiajie-tianbo-mansion",
+   "claude-cn-one-step-to-heaven",
+   "claude-cn-mihun-tai-enchanting-terrace",
+   "claude-cn-avatar-hallelujah-mountain"
+  ],
+  "dur": {},
+  "off": []
  }
 }
