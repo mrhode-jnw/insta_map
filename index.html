@@ -1095,6 +1095,7 @@
     </div>
     <div id="chips"></div>
     <div id="chips2">
+      <button type="button" id="filterSw" title="Alle Filter auf einmal aus- bzw. wieder einschalten">Filter aus</button>
       <select id="fDone" aria-label="Fotografiert">
         <option value="">📷 Alle</option><option value="open">📷 Nicht fotografiert</option><option value="done">📷 Fotografiert</option>
       </select>
@@ -2166,6 +2167,28 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   renderChips();
   // Der gerade geöffnete Spot bleibt sichtbar, auch wenn er durch Bewerten nicht mehr zum Filter passt
   let stickyId = null;
+  // Schalter: alle Filter auf einmal aus bzw. den gemerkten Stand wieder an
+  let filterSnap = null;
+  const setSel = (id, v) => { const el = $("#" + id); el.value = v; el.classList.toggle("on", !!v); FILTERS[id](v); };
+  const filtersActive = () => !!($("#fDone").value || $("#fPrio").value || $("#fWhen").value || $("#fMore").value || areaF || $("#search").value.trim() || cat || inView);
+  const syncFilterSw = () => { const b = $("#filterSw"); if (!b) return; b.textContent = filterSnap ? "Filter an" : "Filter aus"; b.classList.toggle("on", !!filterSnap); b.disabled = !filterSnap && !filtersActive(); };
+  $("#filterSw").addEventListener("click", () => {
+    if (filterSnap) {
+      const s = filterSnap; filterSnap = null;
+      ["fDone", "fPrio", "fWhen", "fMore"].forEach(id => setSel(id, s[id]));
+      areaF = s.area; try { localStorage.setItem("areaF", areaF); } catch {}
+      $("#search").value = s.search;
+      cat = s.cat; saveCat(); renderChips();
+      inView = s.inView; try { localStorage.setItem("inView2", inView ? "1" : "0"); } catch {}
+    } else {
+      filterSnap = { fDone: $("#fDone").value, fPrio: $("#fPrio").value, fWhen: $("#fWhen").value, fMore: $("#fMore").value, area: areaF, search: $("#search").value, cat, inView };
+      ["fDone", "fPrio", "fWhen", "fMore"].forEach(id => setSel(id, ""));
+      areaF = ""; try { localStorage.setItem("areaF", ""); } catch {}
+      $("#search").value = ""; cat = null; saveCat(); renderChips();
+      inView = false; try { localStorage.setItem("inView2", "0"); } catch {}
+    }
+    renderList(); syncFilterSw();
+  });
   const matches = p => p.id === stickyId || matchesFilter(p);
   const matchesFilter = p => {
     const q = $("#search").value.trim().toLowerCase();
@@ -3269,7 +3292,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "110 · Spot-Auswahl gilt auch beim Schließen mit ✕";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "111 · Schalter: alle Filter aus/an";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3456,6 +3479,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     { const t = $("#group [data-nltop]"); if (t) { t.classList.toggle("on", showNl); t.hidden = routeF || !places.some(p => p.noloc && inRegion(p)); } }
 
     $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
+    syncFilterSw();
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
     const filtered = favF || trashF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
