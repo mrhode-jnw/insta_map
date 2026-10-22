@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 22.10.2026 12:36 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 22.10.2026 13:04 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -138,18 +138,34 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚗 Auto · ca. 35 Min. · 22 km
 - **~19:45** 🏨 Unterkunft: **Qixi Homestay**
 
-### Do 22.10. – Fenghuang · Ankunft ab 14 Uhr, Abendlicht an Brücken und Schrittsteinen _(fest)_
+### Do 22.10. – Langde → Fanjingshan → Fenghuang _(fest)_
 
-- **14:00** 🏨 Ankunft (ab 14 Uhr, laut euch): **Mount Villa by T Residence**
-- **14:20–16:30** 🌤 ◻︎ optional: **Ankommen, Altstadt bei Tageslicht** – Einchecken, dann Gassen und Ufer im Tageslicht erkunden. Regenalternative: Shen-Congwen-Haus und Xiong-Xiliong-Residenz am Weg (Öffnungszeiten vor Ort prüfen), Hongqiao-Galerie mit Flussfenstern. Nasse Gassen als Spiegel, Schirme als Motiv.
-  - ↓ 🚶 zu Fuß · ca. 5 Min. (zur Xueqiao)
+- **4:45** 🏨 Abfahrt: **Qixi Homestay**
+  - ↓ 🚗 Auto · ca. 215 Min. · 252 km (im Dunkeln fahren)
+- **~8:20** 🎟 **Fanjingshan Ost-Eingang (梵净山东门)** – Gebucht: Ticket Osttor + Sightseeing-Bus hin und zurück + Seilbahn hin und zurück, 2 Personen, nicht erstattungsfähig. Einlass 8:40–8:59 – spätestens 8:20 da sein, Tickets mit Pass am Schalter abholen (Abholnummer in der Trip.com-Buchung). Seilbahn-Zeitfenster steht unter Ticket 2 in der Buchung.
+  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Bus ca. 25 Min. + Seilbahn (Zeitfenster laut Ticket 2). In der Gondel: Platz vorn/talseitig, Gegenlichtblende auf die Scheibe, dunkle Jacke gegen Spiegelungen; 70–200 auf die vorausfahrende Gondel (1/1000 s), 16 mm auf die Seile als Fluchtlinien – und genau beim Durchstoßen der Wolkendecke auslösen.)
+  - ↓ 🚶 zu Fuß · ca. 25 Min. (ab Bergstation über 万宝岩 direkt zum Pudu-Platz (20–30 Min., bergauf))
+- **~10:05** 🎫 **Pudu-Platz (普渡广场): Nummer für den Hongyun Jinding ziehen** – Als Erstes am Pudu-Platz per QR-Code eine kostenlose Nummer für den Gipfelaufstieg ziehen (nur für heute gültig, verpasster Aufruf = neu ziehen). Aufruf im Handy im Blick behalten, in der Wartezeit fotografieren. In der Hauptsaison 1–2 Std. Wartezeit; Donnerstag nach der Golden Week vermutlich kürzer (nicht belegt).
+- **10:05–10:20** ◻︎ optional: **Chengen Temple 承恩寺** (Fanjingshan, Tongren, Guizhou) · Licht: Vormittag – Sonne aus SO, Weihrauch im Gegenlicht – Gleich neben dem Pudu-Platz, während die Nummer läuft: Weihrauch am Ofen gegen die Sonne (Rauch leuchtet nur im Gegenlicht), rote Schlösser mit offener Blende (85 mm f/1.8), Dachreiter als Silhouette vor der Wolkenwand (100–400, +1 EV). Vom Platz hinauf zum Jinding: 100–400 mm auf Treppen und Ketten mit kleinen Figuren (1/500 s).
+  - ↓ 🚶 zu Fuß · ca. 15 Min. (hinauf zum Pilzfelsen)
+- **10:30–11:20** ◻︎ optional: **Mushroom Stone 蘑菇石** (Fanjingshan, Tongren, Guizhou) · Licht: Sonne 10:30 Az 139° (SO) – Seitenlicht von links auf die Ostflanke des Jinding – Hauptstandpunkt des Tages, Stativ am Geländer. 1) DAS GANZE BERGBILD: vom Weg bzw. der Plattform beim Pilzfelsen nach SW (≈220°) auf den Hongyun Jinding, 320 m entfernt, etwas erhöht – Felsnadel mit den Tempeln oben, der Treppenweg die grüne Flanke hinauf und links unten die Dächer des Cheng'en-Tempels. 24–35 mm hochkant, f/8–11, Horizont gerade, Belichtung auf den Himmel (sonst brennt er aus) und Schatten später anheben; für mehr Wolken/Himmel ein Hochformat-Panorama aus 2–3 Bildern. Licht: um 10:30 streift die Sonne die Ostflanke von links – plastischer als mittags. Treibt Nebel vorbei, Serie machen, bis der Gipfel frei ist. So entstehen die Ganzkörper-Bilder in den Instagram-Posts von @jasmine_pirsch (in der Galerie des Fanjingshan-Spots). Die Bilder von schräg oben sind Drohnenaufnahmen – ob Drohnen hier erlaubt sind, habe ich nicht verifiziert, im Schutzgebiet ist eine Genehmigung wahrscheinlich nötig. Noch weiter und höher (mit Wolkenmeer darunter) ginge es vom Alten Goldgipfel, 500 m nördlich – passt aber mit 40–50 Min. je Weg nicht ins Zeitfenster. ZWILLINGE NEBENEINANDER – unsicher: Vom Boden gibt es kaum Bilder mit beiden Tempeln nebeneinander; fast alle solchen Aufnahmen sind Drohnenbilder. Das einzige Bodenbild in unserer Sammlung (Bild 20 im Post von @jasmine_pirsch, ein Sammelaccount mit vielen Drohnenbildern) kann bearbeitet oder montiert sein. Wenn Zeit ist: 5–10 Min. die Treppe Richtung Bai-Fo-Tai hinauf und nach Süden zurückschauen, ob sich die Tempel trennen – sonst nicht weiter suchen. 35–70 mm hochkant. 2) Pilzfelsen aus leichter Untersicht, 24–35 mm, Person 15–20 m entfernt als Maßstab; mit Sonnenstern von der NW-Seite, f/16, Belichtungsreihe ±2 EV. 3) Jinding als Scherenschnitt im Nebel: 70–200, +1 bis +1,7 EV. 4) Wolken um den Gipfel mit ND 1000: f/11, ISO 64, 15–60 s. 5) Bei Wolkenmeer Gratschichten im Norden mit 150–600. Wanjuanshu (Schieferwand) direkt darüber. Buddha-Licht (佛光): bei Nebel unten und Sonne oben an der Nord-/NW-Kante prüfen.
+  - ↓ 🚶 zu Fuß · ca. 10 Min. (zurück zum Pudu-Platz – Aufruf abwarten)
+- **11:30–12:40** ✅ **Fanjingshan 梵净山** (Tongren, Guizhou) · Licht: Mittag – Sonne im Süden, Licht von oben auf Tempel und Brücke – Aufstieg, sobald die Nummer aufgerufen wird (enge Stufen und Ketten, ohne Stau ca. 20 Min. hinauf, 10 Min. hinunter; mit Stau bis 45 Min.). Oben: die Brücke zwischen den beiden Tempeln über dem Spalt – von einer Seite auf die andere fotografieren, 16–24 mm, Menschen auf der Brücke als Maßstab; in den Spalt hinunter 16 mm hochkant. Blick zurück auf Pilzfelsen und Alten Goldgipfel, bei Wolkenmeer 70–200 auf die Grate. Kleine Kamera, Rucksack eng, beide Hände für die Ketten. Wird die Nummer bis ca. 12:15 nicht aufgerufen: aufgeben und zur Seilbahn – spätestens 13:00 an der Bergstation.
+- **12:40–13:00** ◻︎ optional: **Fanjingshan Cloud Forest Boardwalk 梵净山森林栈道** (Fanjingshan, Tongren, Guizhou) · Licht: Mittag – bei Nebel stimmungsvoll – Alternative für den Rückweg, wenn Zeit bleibt: vom Pudu-Platz über den Pilzfelsen den Waldsteg hinunter (ca. 20–25 Min.) statt über 万宝岩. Bei Nebel: Steg als Linie, Person in roter Jacke als Maßstab, 16–24 mm.
+  - ↓ 🚶 zu Fuß · ca. 15 Min. (über 万宝岩 hinunter zur Seilbahn-Bergstation (gut 10–15 Min.))
+  - ↓ 🚌 Bus/Seilbahn · ca. 45 Min. (Seilbahn + Bus hinunter – spätestens 13:00 an der Bergstation)
+- **~13:45** 🚗 **Abfahrt am Ost-Eingang**
+  - ↓ 🚗 Auto · ca. 110 Min. · 121 km
+- **~15:35** 🏨 Ankunft, einchecken: **Mount Villa by T Residence**
+  - ↓ 🚶 zu Fuß · ca. 5 Min.
 - **16:45–17:40** ◻︎ optional: **Xueqiao Snow Bridge 雪桥** (Fenghuang, Xiangxi, Hunan) · Licht: goldene Stunde – Sonne im Rücken (W), Licht flussabwärts auf Häuser und Boote – Standpunkt: auf der Brücke bzw. am Ufer daneben, Blick flussabwärts nach Osten. Motive: Staker auf den Booten von oben (100–400 mm senkrecht, viel leeres Wasser), Mitzieher quer zur Fahrt (70–200, 1/15–1/30 s, Serie), Stelzenhäuser mit Spiegelung. Hier ist das Licht jetzt am wärmsten – nicht vor 17:40 weiter.
-  - ↓ 🚶 zu Fuß · ca. 5 Min. (zu den Schrittsteinen)
+  - ↓ 🚶 zu Fuß · ca. 5 Min.
 - **17:45–19:00** ◻︎ optional: **Tuojiang Stepping Stones 跳岩** (Fenghuang, Xiangxi, Hunan) · Licht: Sonnenuntergang 18:06 → Lichter ca. 18:15 → blaue Stunde bis 18:50 – Das Hauptbild des Abends, ein Standpunkt, Stativ bleibt stehen: Ufer neben den Schrittsteinen (nicht auf den Steinen), Blick flussabwärts zur Hongqiao (≈118°), 16–35 mm. Ab 17:45 Platz sichern, Ausschnitt festlegen, manuell fokussieren. Ab ca. 18:15, wenn die Lichter angehen und der Himmel noch blau ist: f/8–11, ISO 100, 10–30 s (ND 3 Stufen bei Restlicht) – Fluss glatt, Lichter spiegeln. Zusätzlich Intervall alle 30 s von 17:50–18:50 für ein Time-Slice Tag→Nacht. Zum Schluss Zoom-Burst auf die Hongqiao (70–200, f/11, 1–2 s). Die Mauer am Nordtor (50 m) als zweiter Blickwinkel: Laternenlinie auf der Mauerkrone, 16–24 mm, 4–8 s.
-  - ↓ 🚶 zu Fuß · ca. 15 Min. (am Ufer entlang zur Windbrücke)
+  - ↓ 🚶 zu Fuß · ca. 15 Min. (am Ufer entlang über die Hongqiao zum Südufer)
 - **19:15–20:00** ◻︎ optional: **Wind Bridge 风桥** (Fenghuang, Xiangxi, Hunan) · Licht: Nacht – Pagode und Hongqiao beleuchtet, Blick flussaufwärts – Standpunkt: Windbrücke (风桥), Blick flussaufwärts nach NW. Beleuchtete Wanming-Pagode vorn, Hongqiao und Häuserzeile dahinter gestapelt: 70–200 mm, f/8–11, Langzeit 5–20 s, Stativ am Geländer (Vibrationen von Passanten – Serie machen). Danach optional an der Pagode selbst die Spiegelung vom Anleger Shawan.
-  - ↓ 🚶 zu Fuß · ca. 15 Min. (zurück Richtung Hotel)
+  - ↓ 🚶 zu Fuß · ca. 15 Min.
 - **20:15–20:45** ✅ **Fenghuang Ancient Town 凤凰古城** (Xiangxi, Hunan) · Licht: Nacht – Laternengassen – Auf dem Rückweg zum Hotel durch die Hauptgasse (东正街): Laternen-Wischbilder (24–50 mm, f/11–16, 1/4–1/2 s, beim Auslösen schwenken), Ingwerzucker-Zieher (1/8–1/15 s, Hände verwischen lassen), nasse Gassen als Spiegel.
+  - ↓ 🚶 zu Fuß · ca. 10 Min.
 - 🏨 Unterkunft: **Mount Villa by T Residence**
 
 ### Fr 23.10. – Fenghuang → Zhangjiajie · ankommen im YOLO Resort · Sonnenuntergang am YOLO-Sunset-Felsen _(Entwurf)_
