@@ -667,5 +667,8 @@
  },
  "claude-cn-huanggang-dong-village": {
   "done": true
+ },
+ "claude-cn-zhaoxing-dong-village": {
+  "prio": "nein"
  }
 }
