@@ -702,5 +702,8 @@
  "idea-fh-spiegelung": {
   "fav": true,
   "prio": "hoch"
+ },
+ "idea-gz-feuerstelle": {
+  "hidden": true
  }
 }
