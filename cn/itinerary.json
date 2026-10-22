@@ -961,8 +961,20 @@
      "text": "Gassen hinter dem Yang-Ahnentempel: Türen und Fenster als Serie (35–50 mm, Kamera parallel), Porträts nur nach Fragen (可以拍吗?), Chili zum Trocknen. Danach zum Hotel – Check-out 11:30."
     },
     {
+     "type": "info",
+     "icon": "🚶",
+     "title": "Rundgang Fenghuang (Sightseeing)",
+     "opt": true,
+     "sel": true,
+     "walk": "walk-fenghuang",
+     "t": "9:30–10:45",
+     "lat": 27.951,
+     "lng": 109.599,
+     "text": "Westtor, Shen-Congwen-Haus, Schrittsteine, Nordtor, Hongqiao und Stelzenhäuser – Stationen und Hintergründe in der App."
+    },
+    {
      "type": "stop",
-     "t": "9:30–10:30",
+     "t": "10:55–11:25",
      "spot": "claude-cn-nanhua-mountain-viewpoint",
      "opt": true,
      "light": "day",

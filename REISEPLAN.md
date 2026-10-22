@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 22.10.2026 11:17 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 22.10.2026 11:58 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -176,7 +176,8 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **7:45–8:30** ◻︎ optional: **Wind Bridge 风桥** (Fenghuang, Xiangxi, Hunan) · Licht: Morgenlicht von hinten-links (Az 106–110°) – Fassaden frontal beleuchtet – Derselbe Blick wie gestern Nacht, jetzt im Morgenlicht: Pagode, Hongqiao, Stelzenhäuser als Tele-Stapel, 100–400 mm, f/8. Unter dem Huilongge die Pfahlwälder der Stelzenhäuser (70–200 frontal).
   - ↓ 🚶 zu Fuß · ca. 15 Min. (durch die Gassen zurück, Läden öffnen)
 - **8:45–9:30** ✅ **Fenghuang Ancient Town 凤凰古城** (Xiangxi, Hunan) · Licht: Vormittag – Licht von Osten in die Gassen – Gassen hinter dem Yang-Ahnentempel: Türen und Fenster als Serie (35–50 mm, Kamera parallel), Porträts nur nach Fragen (可以拍吗?), Chili zum Trocknen. Danach zum Hotel – Check-out 11:30.
-- **9:30–10:30** ◻︎ optional: **Nanhua Mountain Viewpoint 南华山观景台** (Fenghuang, Xiangxi, Hunan) · Licht: Vormittag – Streiflicht über den Dächern – Alternative zu den Gassen: Treppen ab dem Wenhua-Platz (20–30 Min.), oben das Ziegelmeer als Abstraktion mit 200–400 mm, f/8–11.
+- **9:30–10:45** 🚶 ◻︎ optional: **Rundgang Fenghuang (Sightseeing)** – Westtor, Shen-Congwen-Haus, Schrittsteine, Nordtor, Hongqiao und Stelzenhäuser – Stationen und Hintergründe in der App.
+- **10:55–11:25** ◻︎ optional: **Nanhua Mountain Viewpoint 南华山观景台** (Fenghuang, Xiangxi, Hunan) · Licht: Vormittag – Streiflicht über den Dächern – Alternative zu den Gassen: Treppen ab dem Wenhua-Platz (20–30 Min.), oben das Ziegelmeer als Abstraktion mit 200–400 mm, f/8–11.
 - **~11:30** 🏨 Check-out: **Mount Villa by T Residence**
   - ↓ 🚗 Auto · ca. 10 Min. · 5 km (Taxi (Autos kommen nicht bis an die Hotels))
 - **12:43** 🚄 **Bahnhof Fenghuang Gucheng (凤凰古城站) – Zug G6174 ✓ gebucht** – 2. Klasse, Wagen 06, Plätze 3A + 3B (nebeneinander). Ticket-Gate 1. Etage. Mind. 30 Min. vorher da sein (Pass- und Sicherheitskontrolle); Abholnummer in der Trip.com-Buchung.

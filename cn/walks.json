@@ -865,5 +865,131 @@
     "images": []
    }
   ]
+ },
+ {
+  "id": "walk-fenghuang",
+  "region": "cn",
+  "area": "Hunan",
+  "place": "Fenghuang",
+  "title": "Fenghuang: Stadtmauer, Schrittsteine und Stelzenhäuser am Tuo-Fluss",
+  "date": "2026-10-23",
+  "when": "Fr 23.10., ca. 9:30–10:45",
+  "duration": "ca. 1 Std. 15 Min., etwa 2,6 km zu Fuß (Ufer und Gassen, Route per Fußnetz berechnet)",
+  "intro": "Fenghuang (凤凰古城) liegt am Tuo-Fluss (沱江) im Westen Hunans, im Autonomen Bezirk der Tujia und Miao. Die Altstadt wird in Reiseberichten auf das Jahr 1704 datiert; die Angaben dazu schwanken. Die Stelzenhäuser stehen dicht am Wasser, Teile der Stadtmauer stammen aus der Qing-Zeit. Der Schriftsteller Shen Congwen (沈从文) und der Politiker Xiong Xiliong (熊希龄) sind hier aufgewachsen.",
+  "tips": [
+   "Am Morgen vor 9 Uhr sind die Ufer leer; die Läden öffnen erst danach.",
+   "Die Trittsteine sind glatt, Schuhe mit Profil tragen.",
+   "Menschen fotografieren nur nach Frage (Zeigen auf die Kamera, „可以拍吗?“), ein kleiner Kauf öffnet Türen.",
+   "Die Stationen sind bewusst kurz: der Rundgang passt zwischen Check-out-Weg und Frühstück, Nanhua-Berg ist als optionaler Stopp danach geplant."
+  ],
+  "sources": [
+   "https://www.ourchinastory.com/cn/9407",
+   "https://paper.people.com.cn/zgnybwap/html/2023-08/14/content_26012499.htm",
+   "https://www.openstreetmap.org/#map=17/27.9510/109.5990"
+  ],
+  "stops": [
+   {
+    "name": "Westtor 西门",
+    "name_cn": "西门",
+    "lat": 27.9501496,
+    "lng": 109.5962139,
+    "approx": false,
+    "text": "Start am Westtor, das am Ende des Stadtmauerstücks liegt. Hier beginnt der Weg Richtung Fluss: Gassen, Läden, Ziegeldächer. Für den Weg ist die Morgenstunde ideal, bevor die Gruppen kommen.",
+    "images": []
+   },
+   {
+    "name": "Former Home of Shen Congwen 沈从文故居",
+    "name_cn": "沈从文故居",
+    "lat": 27.950633,
+    "lng": 109.59831,
+    "approx": false,
+    "text": "Wohnhaus des Schriftstellers Shen Congwen (沈从文, 1902–1988), der in Fenghuang aufwuchs. Viele verbinden die Stadt mit seinem Roman „Grenzstadt“ (边城). Das Haus ist klein, Fotos vor der Tür sind einfach – die Gasse dahinter lohnt mehr.",
+    "images": []
+   },
+   {
+    "name": "Xiong Xiliong Residence 熊希龄故居",
+    "name_cn": "熊希龄故居",
+    "lat": 27.9530816,
+    "lng": 109.5973304,
+    "approx": false,
+    "text": "Wohnhaus des Politikers Xiong Xiliong (熊希龄), der in der frühen Republik China Ministerpräsident war. Heute ist es ein Museum mit Holzgiebel und Innenhof – Fenster- und Türmotive im weichen Morgenlicht.",
+    "images": []
+   },
+   {
+    "name": "Xueqiao 雪桥",
+    "name_cn": "雪桥",
+    "lat": 27.95446,
+    "lng": 109.59663,
+    "approx": true,
+    "text": "Überdachte Brücke flussaufwärts am Ufer. Von hier aus schaut ihr den Fluss hinab: Stelzenhäuser, Boote und die Brücken in einer Reihe. Morgens Gegenlicht im Dunst.",
+    "images": []
+   },
+   {
+    "name": "Stepping Stones 跳岩",
+    "name_cn": "跳岩",
+    "lat": 27.95346,
+    "lng": 109.5981,
+    "approx": true,
+    "text": "Die Trittsteine über den Tuo-Fluss. Sie sind nass und glatt; mit Stativ am Ufer stehen, nicht auf den Steinen. Bei tief stehender Sonne gibt es Spiegelungen im flachen Wasser, morgens treten am Ufer Frauen zum Waschen.",
+    "images": [
+     {
+      "image": "images/CTji2C7sEim_9.jpg",
+      "url": "https://www.instagram.com/chriskerriganphotography/p/CTji2C7sEim/?img_index=9",
+      "credit": "@chriskerriganphotography · Instagram",
+      "caption": "Trittsteine im Morgennebel"
+     }
+    ]
+   },
+   {
+    "name": "Nordtor 北门",
+    "name_cn": "北门城楼",
+    "lat": 27.9529056,
+    "lng": 109.5983692,
+    "approx": false,
+    "text": "Das Nordtor mit seiner Stadtmauer am Fluss, die Torbauten gehen größtenteils auf die Qing-Zeit zurück (laut Reiseberichten). Durch das Tor auf die Brücke und die Häuser am Wasser fotografieren.",
+    "images": []
+   },
+   {
+    "name": "Hongqiao 虹桥",
+    "name_cn": "虹桥",
+    "lat": 27.9518,
+    "lng": 109.60184,
+    "approx": false,
+    "text": "Die überdachte Regenbogenbrücke ist das bekannteste Motiv der Altstadt. Angaben zum Alter schwanken in den Quellen (Ming oder Qing). Oben gibt es Galerien mit Blick auf den Fluss, abends wird sie beleuchtet.",
+    "images": []
+   },
+   {
+    "name": "Stelzenhäuser am Südufer 吊脚楼",
+    "name_cn": "吊脚楼",
+    "lat": 27.95106,
+    "lng": 109.59999,
+    "approx": true,
+    "text": "Die Reihe der Stelzenhäuser (吊脚楼) auf Pfählen am Wasser ist das eigentliche Stadtbild. Reiseberichte nennen rund 240 m Länge, Teile aus Qing- und Republikzeit. Am Morgen fällt das Licht von oben auf die Fassaden.",
+    "images": [
+     {
+      "image": "images/CTji2C7sEim_4.jpg",
+      "url": "https://www.instagram.com/chriskerriganphotography/p/CTji2C7sEim/?img_index=4",
+      "credit": "@chriskerriganphotography · Instagram",
+      "caption": "Stelzenhäuser am Tuo-Fluss"
+     }
+    ]
+   },
+   {
+    "name": "Windbrücke 风桥",
+    "name_cn": "风桥",
+    "lat": 27.94985,
+    "lng": 109.60408,
+    "approx": true,
+    "text": "Blick flussaufwärts auf die Häuserzeile, die Hongqiao und die Pagode im Hintergrund. Hier endet der Rundgang; zurück über die Brücke oder am Ufer.",
+    "images": [
+     {
+      "image": "images/DSHn-OrArn0_8.jpg",
+      "url": "https://www.instagram.com/tomrus/p/DSHn-OrArn0/?img_index=8",
+      "credit": "@tomrus · Instagram",
+      "caption": "Boot unter den Stelzenhäusern"
+     }
+    ]
+   }
+  ]
  }
 ]
