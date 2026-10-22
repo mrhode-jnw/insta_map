@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 22.10.2026 13:04 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 22.10.2026 15:51 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -194,6 +194,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **5:45–6:00** 🚗 ◻︎ optional: **Start A: Hotelauto zum Busbahnhof Yuanjiajie** – Am Vorabend an der Rezeption bestellen. 15 Min. bis zum Busbahnhof Yuanjiajie, dann 800 m zu Fuß. Du kommst früh an – Puffer für den Mihun Tai.
 - **7:00–7:20** 🚌 ◻︎ optional: **Start B: erster Parkbus (7:00, wie in der Route)** – Erster Parkbus ab der Resort-Abzweigung um 7:00. Mihun Tai um 7:20 ist damit knapp: realistisch ca. 7:35, die Zeiten danach verschieben sich.
 - **4:50–6:00** 🚶 ◻︎ optional: **Start C: zu Fuß** – 4,7 km über die Parkbus-Straße, ca. 1 Std. 10 mit Stirnlampe. Nur wenn du sehr früh raus willst.
+- 🚶 ◻︎ optional: **Rundgang Zhangjiajie: Yuanjiajie und Tianzi-Berg** – Die Stationen des Tages mit Fotohinweisen – auf der Karte und in der Liste.
 - **7:20–8:05** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Frühes Licht – mögliche Nebelschichten zwischen den Säulen – Stativ ans Geländer, 70–200 für einzelne Säulen. Nebelschichten bevorzugt nach Regen, bis ca. 8:30 wenig Betrieb.
 - **8:05–9:20** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Vormittag – mehrere Perspektiven und Brennweiten – Mehrere Standpunkte: 16–35 für das ganze Felsfeld, 70–200 für die Säule allein. Bei besonders guter Sicht hier länger bleiben.
 - **9:20–9:45** ◻︎ optional: **First Bridge Under Heaven 天下第一桥** (Wulingyuan, Hunan) · Licht: Vormittag – Vom offiziellen Aussichtspunkt seitlich. Bei guter Sicht am Hallelujah wird dieser Stopp zuerst gestrichen.
@@ -221,6 +222,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **5:50–6:05** 🚗 ◻︎ optional: **Start A: Hotelauto zur Yangjiajie-Haltestelle** – Am Vorabend bestellen, 10 Min. Fahrt zur Yangjiajie-Haltestelle. Zum Sonnenaufgang 6:45 am Aussichtspunkt.
 - **7:00–7:20** 🚌 ◻︎ optional: **Start B: erster Parkbus (7:00, wie in der Route)** – Erster Parkbus Richtung Yangjiajie um 7:00 (10 Min. Fahrt). Natürliche Große Mauer ab ca. 7:20 – das Streiflicht hält bis ca. 8:30.
 - **5:15–6:05** 🚶 ◻︎ optional: **Start C: zu Fuß** – 3,7 km über die Parkbus-Straße, 50 Min. mit Stirnlampe.
+- 🚶 ◻︎ optional: **Rundgang Zhangjiajie: Yangjiajie und Tianbo** – Die Stationen des Tages mit Fotohinweisen – auf der Karte und in der Liste.
 - **7:20–8:45** ◻︎ optional: **Natural Great Wall Viewpoint 天然长城观景台** (Yangjiajie, Wulingyuan, Hunan) · Licht: Morgenlicht – Streiflicht auf den Wänden – Gestaffelte Felswände an der Haltestelle: 70–200 für die Schichten, 16–35 bei Nebel im Tal.
 - **8:45–11:30** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Vormittag – Hike-Runde (Wulong-Dorf, Eisenleitern) – Wanderung über das Wulong-Dorf (Engstelle „Ein Faden Himmel“) und die Eisenleitern zum Tianbo Fu – sofern geöffnet, Erreichbarkeit noch nicht bestätigt.
 - **11:30–12:00** ◻︎ optional: **Yangjiajie Cable Car 杨家界索道** (Yangjiajie, Wulingyuan, Hunan) · Licht: Vormittag – steilste Bahn im Park – Optional statt des Rückwegs zu Fuß: Seilbahn hinunter und gleich wieder hinauf (ca. 30–40 Min., 76 CNY je Richtung). Kaum Schlange, aber Zeit im Blick behalten.

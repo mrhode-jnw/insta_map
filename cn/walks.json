@@ -991,5 +991,271 @@
     ]
    }
   ]
+ },
+ {
+  "id": "walk-zhangjiajie-yuanjiajie",
+  "region": "cn",
+  "area": "Hunan",
+  "place": "Zhangjiajie",
+  "title": "Zhangjiajie: Yuanjiajie, Bailong und Tianzi-Berg",
+  "date": "2026-10-24",
+  "when": "Sa 24.10., ca. 7:20–17:25",
+  "duration": "ganzer Tag, Fußwege und Parkbusse – Zeiten siehe Reiseplan",
+  "intro": "Der Tag verbindet das Yuanjiajie-Plateau mit dem Tianzi-Berg. Ab dem Resort fährt man mit dem Parkbus zum Busbahnhof Yuanjiajie, dann über die Plateau-Runde zum Bailong-Lift und dem Tal, am Nachmittag mit Seilbahn und Bus zum Tianzi-Berg. Die Reihenfolge und Zeiten stammen aus der Route, die Fahrzeiten sind nicht bestätigt.",
+  "tips": [
+   "Der erste Parkbus fährt ab ca. 7:00, Fahrzeit ab dem Resort-Abzweig etwa 15 Min.",
+   "Der Bailong-Lift wird gegen Mittag ruhiger, die Gruppen kommen am Vormittag.",
+   "Letzter Parkbus vom Tianzi-Berg ca. 18:00, sonst nur das Hotelauto."
+  ],
+  "sources": [
+   "https://www.fabionodariphoto.com/en/zhangjiajie-map-planner/"
+  ],
+  "stops": [
+   {
+    "name": "Mihun Tai (Enchanting Terrace) 迷魂台",
+    "name_cn": "",
+    "lat": 29.3461947,
+    "lng": 110.4390228,
+    "approx": false,
+    "text": "Sonnenaufgang nach Regen: Nebelschichten zwischen den Säulen. Stativ ans Geländer, 70–200 für einzelne Säulen. Bis ca. 8:30 wenig Betrieb.",
+    "images": [
+     {
+      "image": "images/claude_zjj_mihuntai_1.jpg",
+      "url": "https://www.flickr.com/photos/8616486@N08/6319996777/",
+      "credit": "Sura Ark (suraark) · Flickr",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Avatar Hallelujah Mountain 乾坤柱",
+    "name_cn": "",
+    "lat": 29.3451921,
+    "lng": 110.4372172,
+    "approx": false,
+    "text": "Das Felsfeld mit der Säule, die für den Avatar-Berg Pate stand. Mehrere Standpunkte: 16–35 für das ganze Feld, 70–200 für die Säule allein. Bei guter Sicht länger bleiben.",
+    "images": [
+     {
+      "image": "images/claude_zjj_hallelujah_1.jpg",
+      "url": "https://www.flickr.com/photos/39489005@N05/46408478644/",
+      "credit": "Clement Tang (Clement Tang *) · Flickr",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "First Bridge Under Heaven 天下第一桥",
+    "name_cn": "",
+    "lat": 29.3473214,
+    "lng": 110.4334624,
+    "approx": false,
+    "text": "Die natürliche Brücke vom offiziellen Aussichtspunkt seitlich. Optional, bei guter Sicht am Hallelujah zuerst streichen.",
+    "images": [
+     {
+      "image": "images/claude_zjj_first-bridge_1.jpg",
+      "url": "https://www.flickr.com/photos/18023272@N00/31774100050/",
+      "credit": "Istvan Kadar (fesign) · Flickr",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Bailong Elevator 百龙天梯",
+    "name_cn": "",
+    "lat": 29.3511795,
+    "lng": 110.4611722,
+    "approx": false,
+    "text": "Lift hinunter (65–72 CNY). Den Lift an der Wand entlang fotografieren; Mittag ist die ruhigste Zeit.",
+    "images": [
+     {
+      "image": "images/claude_zjj_bailong_1.jpg",
+      "url": "https://www.flickr.com/photos/32368927@N02/55482154246/",
+      "credit": "Alex Berger (virtualwayfarer) · Flickr · CC BY-NC 4.0",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Golden Whip Stream 金鞭溪",
+    "name_cn": "",
+    "lat": 29.3338673,
+    "lng": 110.4389038,
+    "approx": false,
+    "text": "Kurzes Stück des Bachs, Rückweg. Makaken: kein Essen in Plastiktüten. Pol-Filter gegen Spiegelungen auf den Steinen.",
+    "images": [
+     {
+      "image": "images/claude_zjj_golden-whip_1.jpg",
+      "url": "https://www.flickr.com/photos/22392439@N04/49381601736/",
+      "credit": "David Pratt (ttarpd) · Flickr",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Tianzi Mountain Cable Car 天子山索道",
+    "name_cn": "",
+    "lat": 29.3938814,
+    "lng": 110.495545,
+    "approx": false,
+    "text": "Bergfahrt 6–7 Min. über die Felsnadeln, 72 CNY je Richtung. Vom Gondelfenster auf die Nadeln schauen.",
+    "images": [
+     {
+      "image": "images/claude-cn-tianzi-mountain-cable-car_1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tianzi_Mountain_(%E5%A4%A9%E5%AD%90%E5%B1%B1%EF%BC%89cable_car.jpg",
+      "credit": "Dewxio · CC BY-SA 4.0 · Wikimedia Commons",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Imperial Brush Peaks 御笔峰",
+    "name_cn": "",
+    "lat": 29.3823,
+    "lng": 110.4913,
+    "approx": true,
+    "text": "Felsnadeln isolieren, 70–200. Daneben die Fee (仙女献花) als optionaler Blick.",
+    "images": [
+     {
+      "image": "images/claude_zjj_yubi_4.jpg",
+      "url": "https://www.flickr.com/photos/32368927@N02/55339570220/",
+      "credit": "Alex Berger (virtualwayfarer) · Flickr · CC BY-NC 4.0",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Xihai Stone Forest 西海峰林",
+    "name_cn": "",
+    "lat": 29.3832294,
+    "lng": 110.4891885,
+    "approx": false,
+    "text": "Weit mit dem 16–35 im Nachmittagslicht. Die letzte Rückfahrt ist ab 16:30 im Blick zu behalten.",
+    "images": [
+     {
+      "image": "images/claude_zjj_xihai_3.jpg",
+      "url": "https://www.flickr.com/photos/7931729@N05/11664413023/",
+      "credit": "Toby Garden · Flickr",
+      "caption": ""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "walk-zhangjiajie-yangjiajie",
+  "region": "cn",
+  "area": "Hunan",
+  "place": "Zhangjiajie",
+  "title": "Zhangjiajie: Yangjiajie, Tianbo-Runde und Abend am Mihun Tai",
+  "date": "2026-10-25",
+  "when": "So 25.10., ca. 7:20–17:45",
+  "duration": "ganzer Tag, Wanderung am Vormittag, Abend am Mihun Tai",
+  "intro": "Am Sonntag steht Yangjiajie im Vordergrund: Morgenlicht an der Natürlichen Großen Mauer, die Tianbo-Runde mit Engstellen und Leitern, am Nachmittag Rückkehr zum Yuanjiajie-Plateau und zum Abend-Licht am Mihun Tai.",
+  "tips": [
+   "Die Tianbo-Runde ist nur bei Tageslicht und bei offenem Weg zu machen. Erreichbarkeit vor Ort prüfen.",
+   "Festes Schuhwerk: Eisenleitern und nasse Stufen.",
+   "Letzter Parkbus am Abend ca. 17:45–18:00, für den Sonnenuntergang das Hotelauto."
+  ],
+  "sources": [
+   "https://www.fabionodariphoto.com/en/zhangjiajie-map-planner/"
+  ],
+  "stops": [
+   {
+    "name": "Natural Great Wall Viewpoint 天然长城观景台",
+    "name_cn": "",
+    "lat": 29.36196,
+    "lng": 110.41814,
+    "approx": false,
+    "text": "Gestaffelte Felswände an der Haltestelle. 70–200 für die Schichten, 16–35 bei Nebel im Tal. Morgenlicht am besten.",
+    "images": [
+     {
+      "image": "images/claude_zjj_greatwall_2.jpg",
+      "url": "https://www.flickr.com/photos/singing172/15643661633/",
+      "credit": "吳冠霖 · Flickr",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Yangjiajie Tianbo Mansion 天波府",
+    "name_cn": "",
+    "lat": 29.3609393,
+    "lng": 110.4166337,
+    "approx": false,
+    "text": "Wanderung über das Wulong-Dorf und die Eisenleitern zum Tianbo Fu – sofern geöffnet. Engstellen als Serie, Leitern nur bei Tageslicht.",
+    "images": [
+     {
+      "image": "images/claude_zjj_tianbo_3.jpg",
+      "url": "https://www.flickr.com/photos/79533221@N08/48484741186/",
+      "credit": "yves guillemot · Flickr",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "One Step to Heaven 一步登天",
+    "name_cn": "",
+    "lat": 29.35324,
+    "lng": 110.41861,
+    "approx": false,
+    "text": "Kleine Plattform über eine Eisenleiter. Optional, erster Kandidat zum Streichen.",
+    "images": [
+     {
+      "image": "images/claude_zjj_onestep_1.jpg",
+      "url": "https://www.flickr.com/photos/paulsila/15826151654/",
+      "credit": "paulsila · Flickr",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Yangjiajie Cable Car 杨家界索道",
+    "name_cn": "",
+    "lat": 29.3617207,
+    "lng": 110.4195734,
+    "approx": false,
+    "text": "Seilbahn hinunter und gleich wieder hinauf (ca. 30–40 Min.). Vom Gondelfenster die steilen Wände, 24–35 mm.",
+    "images": [
+     {
+      "image": "images/claude-cn-yangjiajie-cable-car_1.jpg",
+      "url": "https://www.flickr.com/photos/146243032@N07/40298356010/",
+      "credit": "simoncheung · Flickr",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Mihun Tai (Enchanting Terrace) 迷魂台",
+    "name_cn": "",
+    "lat": 29.3461947,
+    "lng": 110.4390228,
+    "approx": false,
+    "text": "Zweiter Besuch im Abendlicht. Der Sonnenuntergang fällt nach 18 Uhr, Hotelauto für den Heimweg bestellen.",
+    "images": [
+     {
+      "image": "images/claude_zjj_mihuntai_1.jpg",
+      "url": "https://www.flickr.com/photos/8616486@N08/6319996777/",
+      "credit": "Sura Ark (suraark) · Flickr",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Avatar Hallelujah Mountain 乾坤柱",
+    "name_cn": "",
+    "lat": 29.3451921,
+    "lng": 110.4372172,
+    "approx": false,
+    "text": "Zweite Fotochance im Abendlicht. Optional; wird zuerst gestrichen, wenn der Rückweg eng wird.",
+    "images": [
+     {
+      "image": "images/claude_zjj_hallelujah_1.jpg",
+      "url": "https://www.flickr.com/photos/39489005@N05/46408478644/",
+      "credit": "Clement Tang (Clement Tang *) · Flickr",
+      "caption": ""
+     }
+    ]
+   }
+  ]
  }
 ]

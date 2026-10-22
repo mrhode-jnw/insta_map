@@ -1091,6 +1091,15 @@
      "lng": 110.4296
     },
     {
+     "type": "info",
+     "icon": "🚶",
+     "title": "Rundgang Zhangjiajie: Yuanjiajie und Tianzi-Berg",
+     "opt": true,
+     "sel": true,
+     "walk": "walk-zhangjiajie-yuanjiajie",
+     "text": "Die Stationen des Tages mit Fotohinweisen – auf der Karte und in der Liste."
+    },
+    {
      "type": "stop",
      "t": "7:20–8:05",
      "spot": "claude-cn-mihun-tai-enchanting-terrace",
@@ -1303,6 +1312,15 @@
      "sel": false,
      "lat": 29.3716,
      "lng": 110.4296
+    },
+    {
+     "type": "info",
+     "icon": "🚶",
+     "title": "Rundgang Zhangjiajie: Yangjiajie und Tianbo",
+     "opt": true,
+     "sel": true,
+     "walk": "walk-zhangjiajie-yangjiajie",
+     "text": "Die Stationen des Tages mit Fotohinweisen – auf der Karte und in der Liste."
     },
     {
      "type": "stop",

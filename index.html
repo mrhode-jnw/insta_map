@@ -2821,10 +2821,26 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   function hideWalk() { walkLayer.clearLayers(); map.removeLayer(walkLayer); walkShown = null; try { localStorage.removeItem("walkShown"); } catch {} if (window._satOff) window._satOff(); walkMk = []; $("#walkPill").hidden = true; $("#wcard").hidden = true; dockSync(); }
   $("#walkPill").onclick = hideWalk;
+  // Rundgänge löschen: ausgeblendete Ids liegen mit den übrigen Extras im Datenbranch (__walkHide)
+  const walkHidden = () => new Set(spotExtras.__walkHide || []);
+  const visibleWalks = () => WALKS.filter(w => !walkHidden().has(w.id));
+  async function deleteWalk(id) {
+    const w = WALKS.find(x => x.id === id); if (!w) return;
+    if (!confirm(`Rundgang „${w.title}“ löschen?`)) return;
+    if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+    const before = spotExtras;
+    spotExtras = { ...before, __walkHide: [...new Set([...(before.__walkHide || []), id])] };
+    if (walkShown === id) hideWalk();
+    renderWalks(); toast("Rundgang gelöscht", 1500);
+    try {
+      spotExtras = await mutate(d => { d = d && !Array.isArray(d) ? d : {}; d.__walkHide = [...new Set([...(d.__walkHide || []), id])]; return d; },
+        `Rundgang ausgeblendet (${id})`, EXTRAS_PATH, {});
+    } catch (e) { spotExtras = before; renderWalks(); toast(e.message, 5000); }
+  }
   function renderWalks() {
-    const areas = [...new Set(WALKS.map(w => w.area || ""))];
+    const areas = [...new Set(visibleWalks().map(w => w.area || ""))];
     $("#wkFilter").innerHTML = areas.length > 1 ? `<button data-wf="" class="${wkF ? "" : "on"}">Alle</button>` + areas.map(a => `<button data-wf="${esc(a)}" class="${wkF === a ? "on" : ""}">${esc(a)}</button>`).join("") : "";
-    const list = WALKS.filter(w => !wkF || w.area === wkF);
+    const list = visibleWalks().filter(w => !wkF || w.area === wkF);
     $("#wkSub").textContent = `${list.length} ${list.length === 1 ? "Rundgang" : "Rundgänge"}`;
     let wkOpen = ""; try { wkOpen = localStorage.getItem("wkOpen") || ""; } catch {}
     const thumb = w => (w.stops.find(st => (st.images || []).length) || {}).images;
@@ -2834,7 +2850,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <div class="wmeta">${esc([w.area, w.duration].filter(Boolean).join(" · "))}</div>
       ${w.intro ? `<p class="wintro">${esc(w.intro)}</p>` : ""}
       ${w.stops.filter(st => st.approx).length > w.stops.length / 2 ? `<div class="wmeta" style="color:#92400e">Das Dorf ist auf keiner Karte erfasst – Stationen nach Satellitenbild und Dorfbeschreibungen gesetzt, vor Ort können sie 50–150 m abweichen. Gestrichelt = Luftlinie.</div>` : ""}
-      <div class="wbtns"><button data-wshow="${esc(w.id)}">Auf der Karte zeigen</button>${walkShown === w.id ? `<button class="sec" data-whide="1">Ausblenden</button>` : ""}</div>
+      <div class="wbtns"><button data-wshow="${esc(w.id)}">Auf der Karte zeigen</button>${walkShown === w.id ? `<button class="sec" data-whide="1">Ausblenden</button>` : ""}<button class="sec" data-wdel="${esc(w.id)}">🗑 Löschen</button></div>
       ${(w.tips || []).length ? `<details><summary>Tipps</summary><ul class="wtips">${w.tips.map(t => `<li>${esc(t)}</li>`).join("")}</ul></details>` : ""}
       <details open><summary>Stationen</summary><ol class="wstops">${w.stops.map((st, i) => `<li><button data-wstop="${esc(w.id)}" data-i="${i}">Karte</button><b>${esc(st.name)}</b><span class="cn">${esc(st.name_cn || "")}</span>${st.approx && w.stops.filter(x => x.approx).length <= w.stops.length / 2 ? `<span class="ap">Position ungefähr</span>` : ""}${(st.images || []).length ? `<div class="wth">${st.images.slice(0, 4).map(x => `<img src="${esc(x.image)}" alt="" loading="lazy">`).join("")}</div>` : "<br>"}${esc(st.text || "")}</li>`).join("")}</ol></details>
       ${(w.sources || []).length ? `<div class="wsrc">Quellen: ${w.sources.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 40))}</a>`).join(" · ")}</div>` : ""}
@@ -2845,6 +2861,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       try { const o = $("#wkBody").querySelector("details.wcard[open]"); o ? localStorage.setItem("wkOpen", o.dataset.wid) : localStorage.removeItem("wkOpen"); } catch {} }));
     $("#wkBody").querySelectorAll("[data-wshow]").forEach(b => b.onclick = () => showWalk(b.dataset.wshow));
     $("#wkBody").querySelectorAll("[data-whide]").forEach(b => b.onclick = () => { hideWalk(); renderWalks(); });
+    $("#wkBody").querySelectorAll("[data-wdel]").forEach(b => b.onclick = () => deleteWalk(b.dataset.wdel));
     $("#wkBody").querySelectorAll("[data-wstop]").forEach(b => b.onclick = () => showWalk(b.dataset.wstop, +b.dataset.i));
     $("#wkFilter").querySelectorAll("[data-wf]").forEach(b => b.onclick = () => { wkF = b.dataset.wf; try { localStorage.setItem("wkF", wkF); } catch {} renderWalks(); });
   }
@@ -3175,7 +3192,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         : `<div class="icard"><div class="iinfo"><span class="iic">${esc(it.icon || "•")}</span><div><h3>${esc(it.title || "")}</h3>
             ${it.plan || it.opt ? `<div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}</div>` : ""}${lightHtml(it)}${it.text ? `<p>${esc(it.text)}</p>` : ""}
             ${(it.spots || []).length ? `<div class="iact">${it.spots.map(id => spotOf(id)).filter(Boolean).map(p => `<button data-spot="${esc(p.id)}">📍 ${esc(shortName(p.name))}</button>`).join("")}</div>` : ""}
-            ${it.walk && (window.WALKS || []).some(w => w.id === it.walk) ? `<div class="iact"><button data-walkid="${esc(it.walk)}">🚶 Rundgang auf der Karte</button></div>` : ""}</div></div></div>`;
+            ${it.walk && !(spotExtras.__walkHide || []).includes(it.walk) && (window.WALKS || []).some(w => w.id === it.walk) ? `<div class="iact"><button data-walkid="${esc(it.walk)}">🚶 Rundgang auf der Karte</button></div>` : ""}</div></div></div>`;
       const sel = it.opt && !it._sugg;
       const choose = "";
       const sc = sch.get(it), moved = sc && sc.t.replace("~", "") !== String(it.t || "").replace("~", "").replace(/\s/g, "");
@@ -3318,7 +3335,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "115 · Inspiration: sofortige Anzeige, Speichern im Hintergrund";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "116 · Rundgänge löschbar, Zhangjiajie-Rundgänge";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
