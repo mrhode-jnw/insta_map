@@ -2621,20 +2621,30 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   const inspMarks = () => (spotExtras.__insp || []);
   const isInsp = img => inspMarks().some(m => m.image === img);
-  async function toggleInsp(id, i, btn) {
+  async function toggleInsp(id, i, btn, after) {
     const p = places.find(x => x.id === id); if (!p) return;
     const x = imgsOf(p)[i]; if (!x || !x.image) return;
     if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
     const on = !isInsp(x.image), sub = subOf(p), r = sub === "hk" ? "hk" : sub === "sh" ? "sh" : "cn";
+    // sofort anzeigen, Speichern läuft danach im Hintergrund (sonst wartet die Anzeige auf GitHub)
+    const before = spotExtras, entry = { image: x.image, spot: id, name: p.name, region: r, url: x.url || "", credit: who(x), added: new Date().toISOString() };
+    const local = (before.__insp || []).filter(m => m.image !== x.image);
+    if (on) local.unshift(entry);
+    spotExtras = { ...before, __insp: local }; if (!local.length) delete spotExtras.__insp;
+    if (btn) btn.classList.toggle("on", on);
+    toast(on ? "💡 Als Inspiration markiert" : "Aus Inspiration entfernt", 1500);
+    if (after) after();
     try {
       const next = await mutate(d => {
         d = d && !Array.isArray(d) ? d : {}; const l = (d.__insp || []).filter(m => m.image !== x.image);
-        if (on) l.unshift({ image: x.image, spot: id, name: p.name, region: r, url: x.url || "", credit: who(x), added: new Date().toISOString() });
+        if (on) l.unshift(entry);
         d.__insp = l; if (!l.length) delete d.__insp; return d;
       }, `Inspiration: Bild ${on ? "markiert" : "entfernt"} (${id})`, EXTRAS_PATH, {});
-      spotExtras = next; if (btn) btn.classList.toggle("on", on);
-      toast(on ? "💡 Als Inspiration markiert" : "Aus Inspiration entfernt", 1800);
-    } catch (e) { toast(e.message, 5000); }
+      spotExtras = next;
+    } catch (e) {  // Speichern fehlgeschlagen: Anzeige zurücksetzen
+      spotExtras = before; if (btn) btn.classList.toggle("on", !on);
+      toast(e.message, 5000); if (after) after();
+    }
   }
   const INSP_REG = { hk: "🇭🇰 Hongkong", sh: "🇨🇳 Shanghai", cn: "🇨🇳 China" };
   // Ortsfilter oben (Mehrfachauswahl, leer = alle); gemerkt pro Gerät
@@ -3308,7 +3318,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "114 · Tagesplan: vergangene Tage per Pfeil einblenden";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "115 · Inspiration: sofortige Anzeige, Speichern im Hintergrund";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3390,7 +3400,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const lbClose = () => { lb.el.hidden = true; zoomSet(1, 0, 0); lbStrip.innerHTML = ""; lb.locCtx = null; };
   const lbSpot = () => lb.spot ? places.find(x => x.id === lb.spot) || null : null;
   const lbIdx = () => { const sp = lbSpot(), it = lb.list[lb.i]; return sp && it ? imgsOf(sp).findIndex(x => x.image === it.src) : -1; };
-  $("#lbIns").onclick = e => { e.stopPropagation(); const sp = lbSpot(), idx = lbIdx(); if (sp && idx >= 0) toggleInsp(sp.id, idx, null).then(() => lbMeta(lb.i)); };
+  $("#lbIns").onclick = e => { e.stopPropagation(); const sp = lbSpot(), idx = lbIdx(); if (sp && idx >= 0) toggleInsp(sp.id, idx, null, () => lbMeta(lb.i)); };
   $("#lbDel").onclick = async e => { e.stopPropagation(); const sp = lbSpot(), idx = lbIdx(); if (!sp || idx < 0) return;
     await removePhoto(sp.id, idx); lbClose(); };
   $("#lbLoc").onclick = e => { e.stopPropagation(); const img = lb.list[lb.i].src, ls = locState(img), c = lb.locCtx.get(img);
