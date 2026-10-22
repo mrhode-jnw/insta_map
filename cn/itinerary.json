@@ -708,137 +708,28 @@
   },
   {
    "date": "2026-10-22",
-   "title": "Langde → Fanjingshan → Fenghuang",
+   "title": "Fenghuang · Ankunft ab 14 Uhr, Abendlicht an Brücken und Schrittsteinen",
    "status": "fest",
    "items": [
     {
      "type": "hotel",
-     "name": "Qixi Homestay",
-     "t": "4:45",
-     "label": "Abfahrt"
-    },
-    {
-     "type": "move",
-     "mode": "car",
-     "text": "im Dunkeln fahren"
-    },
-    {
-     "type": "info",
-     "t": "~8:20",
-     "icon": "🎟",
-     "title": "Fanjingshan Ost-Eingang (梵净山东门)",
-     "plan": true,
-     "lat": 27.879,
-     "lng": 108.779,
-     "text": "Gebucht: Ticket Osttor + Sightseeing-Bus hin und zurück + Seilbahn hin und zurück, 2 Personen, nicht erstattungsfähig. Einlass 8:40–8:59 – spätestens 8:20 da sein, Tickets mit Pass am Schalter abholen (Abholnummer in der Trip.com-Buchung). Seilbahn-Zeitfenster steht unter Ticket 2 in der Buchung.",
-     "anchor": true
-    },
-    {
-     "type": "move",
-     "mode": "shuttle",
-     "min": 40,
-     "text": "Bus ca. 25 Min. + Seilbahn (Zeitfenster laut Ticket 2). In der Gondel: Platz vorn/talseitig, Gegenlichtblende auf die Scheibe, dunkle Jacke gegen Spiegelungen; 70–200 auf die vorausfahrende Gondel (1/1000 s), 16 mm auf die Seile als Fluchtlinien – und genau beim Durchstoßen der Wolkendecke auslösen."
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 25,
-     "text": "ab Bergstation über 万宝岩 direkt zum Pudu-Platz (20–30 Min., bergauf)"
-    },
-    {
-     "type": "info",
-     "t": "~10:05",
-     "icon": "🎫",
-     "title": "Pudu-Platz (普渡广场): Nummer für den Hongyun Jinding ziehen",
-     "lat": 27.91078,
-     "lng": 108.69302,
-     "text": "Als Erstes am Pudu-Platz per QR-Code eine kostenlose Nummer für den Gipfelaufstieg ziehen (nur für heute gültig, verpasster Aufruf = neu ziehen). Aufruf im Handy im Blick behalten, in der Wartezeit fotografieren. In der Hauptsaison 1–2 Std. Wartezeit; Donnerstag nach der Golden Week vermutlich kürzer (nicht belegt)."
-    },
-    {
-     "type": "stop",
-     "t": "10:05–10:20",
-     "spot": "claude-cn-chengen-temple",
-     "opt": true,
-     "sel": true,
-     "light": "day",
-     "lightText": "Vormittag – Sonne aus SO, Weihrauch im Gegenlicht",
-     "text": "Gleich neben dem Pudu-Platz, während die Nummer läuft: Weihrauch am Ofen gegen die Sonne (Rauch leuchtet nur im Gegenlicht), rote Schlösser mit offener Blende (85 mm f/1.8), Dachreiter als Silhouette vor der Wolkenwand (100–400, +1 EV). Vom Platz hinauf zum Jinding: 100–400 mm auf Treppen und Ketten mit kleinen Figuren (1/500 s)."
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 15,
-     "text": "hinauf zum Pilzfelsen"
-    },
-    {
-     "type": "stop",
-     "t": "10:30–11:20",
-     "spot": "claude-cn-mushroom-stone",
-     "opt": true,
-     "sel": true,
-     "light": "day",
-     "lightText": "Sonne 10:30 Az 139° (SO) – Seitenlicht von links auf die Ostflanke des Jinding",
-     "text": "Hauptstandpunkt des Tages, Stativ am Geländer. 1) DAS GANZE BERGBILD: vom Weg bzw. der Plattform beim Pilzfelsen nach SW (≈220°) auf den Hongyun Jinding, 320 m entfernt, etwas erhöht – Felsnadel mit den Tempeln oben, der Treppenweg die grüne Flanke hinauf und links unten die Dächer des Cheng'en-Tempels. 24–35 mm hochkant, f/8–11, Horizont gerade, Belichtung auf den Himmel (sonst brennt er aus) und Schatten später anheben; für mehr Wolken/Himmel ein Hochformat-Panorama aus 2–3 Bildern. Licht: um 10:30 streift die Sonne die Ostflanke von links – plastischer als mittags. Treibt Nebel vorbei, Serie machen, bis der Gipfel frei ist. So entstehen die Ganzkörper-Bilder in den Instagram-Posts von @jasmine_pirsch (in der Galerie des Fanjingshan-Spots). Die Bilder von schräg oben sind Drohnenaufnahmen – ob Drohnen hier erlaubt sind, habe ich nicht verifiziert, im Schutzgebiet ist eine Genehmigung wahrscheinlich nötig. Noch weiter und höher (mit Wolkenmeer darunter) ginge es vom Alten Goldgipfel, 500 m nördlich – passt aber mit 40–50 Min. je Weg nicht ins Zeitfenster. ZWILLINGE NEBENEINANDER – unsicher: Vom Boden gibt es kaum Bilder mit beiden Tempeln nebeneinander; fast alle solchen Aufnahmen sind Drohnenbilder. Das einzige Bodenbild in unserer Sammlung (Bild 20 im Post von @jasmine_pirsch, ein Sammelaccount mit vielen Drohnenbildern) kann bearbeitet oder montiert sein. Wenn Zeit ist: 5–10 Min. die Treppe Richtung Bai-Fo-Tai hinauf und nach Süden zurückschauen, ob sich die Tempel trennen – sonst nicht weiter suchen. 35–70 mm hochkant. 2) Pilzfelsen aus leichter Untersicht, 24–35 mm, Person 15–20 m entfernt als Maßstab; mit Sonnenstern von der NW-Seite, f/16, Belichtungsreihe ±2 EV. 3) Jinding als Scherenschnitt im Nebel: 70–200, +1 bis +1,7 EV. 4) Wolken um den Gipfel mit ND 1000: f/11, ISO 64, 15–60 s. 5) Bei Wolkenmeer Gratschichten im Norden mit 150–600. Wanjuanshu (Schieferwand) direkt darüber. Buddha-Licht (佛光): bei Nebel unten und Sonne oben an der Nord-/NW-Kante prüfen."
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 10,
-     "text": "zurück zum Pudu-Platz – Aufruf abwarten"
-    },
-    {
-     "type": "stop",
-     "t": "11:30–12:40",
-     "spot": "cn-fanjingshan",
-     "plan": true,
-     "light": "midday",
-     "lightText": "Mittag – Sonne im Süden, Licht von oben auf Tempel und Brücke",
-     "text": "Aufstieg, sobald die Nummer aufgerufen wird (enge Stufen und Ketten, ohne Stau ca. 20 Min. hinauf, 10 Min. hinunter; mit Stau bis 45 Min.). Oben: die Brücke zwischen den beiden Tempeln über dem Spalt – von einer Seite auf die andere fotografieren, 16–24 mm, Menschen auf der Brücke als Maßstab; in den Spalt hinunter 16 mm hochkant. Blick zurück auf Pilzfelsen und Alten Goldgipfel, bei Wolkenmeer 70–200 auf die Grate. Kleine Kamera, Rucksack eng, beide Hände für die Ketten. Wird die Nummer bis ca. 12:15 nicht aufgerufen: aufgeben und zur Seilbahn – spätestens 13:00 an der Bergstation."
-    },
-    {
-     "type": "stop",
-     "t": "12:40–13:00",
-     "spot": "claude-cn-fanjingshan-cloud-forest-boardwalk",
-     "opt": true,
-     "light": "day",
-     "lightText": "Mittag – bei Nebel stimmungsvoll",
-     "text": "Alternative für den Rückweg, wenn Zeit bleibt: vom Pudu-Platz über den Pilzfelsen den Waldsteg hinunter (ca. 20–25 Min.) statt über 万宝岩. Bei Nebel: Steg als Linie, Person in roter Jacke als Maßstab, 16–24 mm."
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 15,
-     "text": "über 万宝岩 hinunter zur Seilbahn-Bergstation (gut 10–15 Min.)"
-    },
-    {
-     "type": "move",
-     "mode": "shuttle",
-     "min": 45,
-     "text": "Seilbahn + Bus hinunter – spätestens 13:00 an der Bergstation"
-    },
-    {
-     "type": "info",
-     "t": "~13:45",
-     "icon": "🚗",
-     "title": "Abfahrt am Ost-Eingang",
-     "lat": 27.879,
-     "lng": 108.779,
-     "light": "midday",
-     "lightText": "Mittag – fahren"
-    },
-    {
-     "type": "move",
-     "mode": "car"
-    },
-    {
-     "type": "hotel",
      "name": "Mount Villa by T Residence",
-     "t": "~15:35",
-     "label": "Ankunft, einchecken"
+     "t": "14:00",
+     "label": "Ankunft (ab 14 Uhr, laut euch)"
+    },
+    {
+     "type": "info",
+     "t": "14:20–16:30",
+     "icon": "🌤",
+     "title": "Ankommen, Altstadt bei Tageslicht",
+     "opt": true,
+     "sel": true,
+     "text": "Einchecken, dann Gassen und Ufer im Tageslicht erkunden. Regenalternative: Shen-Congwen-Haus und Xiong-Xiliong-Residenz am Weg (Öffnungszeiten vor Ort prüfen), Hongqiao-Galerie mit Flussfenstern. Nasse Gassen als Spiegel, Schirme als Motiv."
     },
     {
      "type": "move",
      "mode": "walk",
+     "text": "zur Xueqiao",
      "min": 5
     },
     {
@@ -854,6 +745,7 @@
     {
      "type": "move",
      "mode": "walk",
+     "text": "zu den Schrittsteinen",
      "min": 5
     },
     {
@@ -869,8 +761,8 @@
     {
      "type": "move",
      "mode": "walk",
-     "min": 15,
-     "text": "am Ufer entlang über die Hongqiao zum Südufer"
+     "text": "am Ufer entlang zur Windbrücke",
+     "min": 15
     },
     {
      "type": "stop",
@@ -885,6 +777,7 @@
     {
      "type": "move",
      "mode": "walk",
+     "text": "zurück Richtung Hotel",
      "min": 15
     },
     {
@@ -897,20 +790,8 @@
      "text": "Auf dem Rückweg zum Hotel durch die Hauptgasse (东正街): Laternen-Wischbilder (24–50 mm, f/11–16, 1/4–1/2 s, beim Auslösen schwenken), Ingwerzucker-Zieher (1/8–1/15 s, Hände verwischen lassen), nasse Gassen als Spiegel."
     },
     {
-     "type": "move",
-     "mode": "walk",
-     "min": 10
-    },
-    {
      "type": "hotel",
      "name": "Mount Villa by T Residence"
-    },
-    {
-     "type": "info",
-     "icon": "🔀",
-     "opt": true,
-     "title": "Plan B bei Nebel am Gipfel (Entscheidung 21.10. abends)",
-     "text": "Langde morgens im Nebel fotografieren → Auto nach Kaili Süd (40 Min.) → Zug nach Fenghuang Gucheng → abends Fenghuang. Achtung: Die Fanjingshan-Tickets sind nicht erstattungsfähig – Plan B nur bei wirklich aussichtslosem Wetter."
     }
    ]
   },
@@ -927,7 +808,7 @@
      "sel": true,
      "light": "sunrise",
      "lightText": "Dämmerung → Sonnenaufgang 6:46, über den Hügeln ca. 7:05 (Az ~105°, genau flussabwärts)",
-     "text": "Ein Standpunkt für die ganze Morgenstunde, Ufer neben den Steinen: 6:15–6:45 einzelne Menschen auf den Steinen diagonal im Bild, ND 6–10 Stufen, 2–15 s (Wasser glatt, Person scharf, wenn sie stehen bleibt). Ab 7:00 Gegenlicht im Dunst flussabwärts: 70–200, leicht unterbelichten, Angler und Wäscherinnen an den Uferstufen als Silhouetten. Wer Lust auf Bewegung hat: 150 m flussaufwärts auf die Xueqiao, Boote von oben."
+     "text": "Ein Standpunkt für die ganze Morgenstunde, Ufer neben den Steinen: 6:15–6:45 einzelne Menschen auf den Steinen diagonal im Bild, ND 6–10 Stufen, 2–15 s (Wasser glatt, Person scharf, wenn sie stehen bleibt). Ab 7:00 Gegenlicht im Dunst flussabwärts: 70–200, leicht unterbelichten, Angler und Wäscherinnen an den Uferstufen als Silhouetten. Wer Lust auf Bewegung hat: 150 m flussaufwärts auf die Xueqiao, Boote von oben. Bei Regen: Schirme über den Steinen als Farbtupfer, 70–200 mm, 1/250 s, oder 1/15 s für fließenden Regen (Idee „Schirme auf den Schrittsteinen“)."
     },
     {
      "type": "move",
@@ -943,7 +824,7 @@
      "sel": true,
      "light": "golden",
      "lightText": "Morgenlicht von hinten-links (Az 106–110°) – Fassaden frontal beleuchtet",
-     "text": "Derselbe Blick wie gestern Nacht, jetzt im Morgenlicht: Pagode, Hongqiao, Stelzenhäuser als Tele-Stapel, 100–400 mm, f/8. Unter dem Huilongge die Pfahlwälder der Stelzenhäuser (70–200 frontal)."
+     "text": "Derselbe Blick wie gestern Nacht, jetzt im Morgenlicht: Pagode, Hongqiao, Stelzenhäuser als Tele-Stapel, 100–400 mm, f/8. Unter dem Huilongge die Pfahlwälder der Stelzenhäuser (70–200 frontal). Bei Nebel und Regen (Vorhersage 9 Uhr: 2,8 km Sicht): den Standpunkt früh nutzen, die Pagode verschwindet dann im Dunst – das wird eher ein Stimmungsbild."
     },
     {
      "type": "move",
@@ -953,33 +834,22 @@
     },
     {
      "type": "stop",
-     "t": "8:45–9:30",
+     "t": "8:45–9:45",
      "spot": "cn-fenghuang-ancient-town",
      "plan": true,
      "light": "day",
-     "lightText": "Vormittag – Licht von Osten in die Gassen",
-     "text": "Gassen hinter dem Yang-Ahnentempel: Türen und Fenster als Serie (35–50 mm, Kamera parallel), Porträts nur nach Fragen (可以拍吗?), Chili zum Trocknen. Danach zum Hotel – Check-out 11:30."
-    },
-    {
-     "type": "info",
-     "icon": "🚶",
-     "title": "Rundgang Fenghuang (Sightseeing)",
-     "opt": true,
-     "sel": true,
-     "walk": "walk-fenghuang",
-     "t": "9:30–10:45",
-     "lat": 27.951,
-     "lng": 109.599,
-     "text": "Westtor, Shen-Congwen-Haus, Schrittsteine, Nordtor, Hongqiao und Stelzenhäuser – Stationen und Hintergründe in der App."
+     "lightText": "Regen und Nebel – unter Vordächern, nasse Gassen als Spiegel",
+     "text": "Gassen unter den Vordächern: Türen und Fenster als Serie, nasse Pflastersteine als Spiegel (Kamera fast am Boden, 16–35 mm), Porträts nur nach Frage. Museen und Wohnhäuser am Weg, falls es stärker regnet."
     },
     {
      "type": "stop",
-     "t": "10:55–11:25",
-     "spot": "claude-cn-nanhua-mountain-viewpoint",
+     "t": "9:55–10:30",
+     "spot": "claude-cn-rainbow-bridge",
      "opt": true,
-     "light": "day",
-     "lightText": "Vormittag – Streiflicht über den Dächern",
-     "text": "Alternative zu den Gassen: Treppen ab dem Wenhua-Platz (20–30 Min.), oben das Ziegelmeer als Abstraktion mit 200–400 mm, f/8–11."
+     "sel": true,
+     "light": "indoor",
+     "lightText": "Regen – Hongqiao mit Flussgalerie als trockene Option",
+     "text": "Oberes Geschoss der überdachten Brücke mit Flussfenstern: Regen auf dem Wasser, Häuserzeile dahinter, durch die Scheiben fotografieren (Fensterrahmen-Idee). Öffnungszeit vor Ort prüfen."
     },
     {
      "type": "hotel",
