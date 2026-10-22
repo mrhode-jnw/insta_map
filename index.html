@@ -635,6 +635,9 @@
   #lb .bottom a { color: #fff; }
   #lb .bottom #lbLoc { flex: 0 1 auto; width: auto; height: auto; max-width: 48%; border-radius: 10px; padding: 9px 12px; font-size: 14px; font-weight: 600;
     background: rgba(255,255,255,.2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #lb .bottom #lbIns, #lb .bottom #lbDel { flex: 0 0 auto; width: auto; height: auto; border-radius: 10px; padding: 9px 11px; font-size: 14px; font-weight: 600; }
+  #lb .bottom #lbIns { background: rgba(255,255,255,.15); } #lb .bottom #lbIns.on { background: #facc15; color: #000; } #lb .bottom #lbDel { background: #b91c1c; }
+  #lb .bottom #lbIns[hidden], #lb .bottom #lbDel[hidden] { display: none; }
   #lb .bottom #lbLoc[hidden] { display: none; } #lb .bottom #lbLoc:disabled { opacity: .7; cursor: default; }
   #lb .bottom a.btn { flex: none; background: var(--accent); padding: 9px 14px; border-radius: 10px; text-decoration: none; font-size: 14px; }
   .pop img[data-lb], .gal img[data-lb] { cursor: zoom-in; }
@@ -1152,7 +1155,7 @@
 <div id="lb" hidden>
   <div class="top"><span id="lbCount"></span><button id="lbClose" aria-label="Schließen">✕</button></div>
   <div class="stage"><div id="lbStrip"></div><button class="nav prev" id="lbPrev" aria-label="Vorheriges Bild">‹</button><button class="nav next" id="lbNext" aria-label="Nächstes Bild">›</button></div>
-  <div class="bottom"><div class="who" id="lbWho"></div><a class="btn" id="lbPost" target="_blank" rel="noopener">Post öffnen ↗</a><button class="btn" id="lbLoc" type="button" hidden>🔎 Ort recherchieren</button></div>
+  <div class="bottom"><div class="who" id="lbWho"></div><a class="btn" id="lbPost" target="_blank" rel="noopener">Post öffnen ↗</a><button class="btn" id="lbLoc" type="button" hidden>🔎 Ort recherchieren</button><button class="btn" id="lbIns" type="button" hidden>💡 Inspiration</button><button class="btn" id="lbDel" type="button" hidden>🗑 Löschen</button></div>
   <div id="lbGal"></div>
 </div>
 
@@ -2514,6 +2517,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#lbLoc").hidden = !lc; if (lc) $("#lbPost").textContent = "Post ↗";
     if (lc) { $("#lbLoc").textContent = !ls ? "🔎 Ort finden" : ls.status === "found" ? `📍 ${(places.find(x => x.id === ls.spot) || {}).name ? shortName(places.find(x => x.id === ls.spot).name) : "Spot"}`
       : ls.status === "notfound" ? "❓ Ort nicht gefunden" : "⏳ Ort wird recherchiert"; $("#lbLoc").disabled = !!ls && ls.status === "pending"; }
+    const sp = lbSpot(), idx = lbIdx();
+    $("#lbIns").hidden = $("#lbDel").hidden = !sp || idx < 0;
+    if (sp && idx >= 0) { const on = isInsp(it.src); $("#lbIns").textContent = on ? "💡 Inspiration ✓" : "💡 Inspiration"; $("#lbIns").classList.toggle("on", on); }
     $("#lbGal").querySelectorAll("img").forEach((im, k) => im.classList.toggle("cur", k === i));
     [i - 1, i + 1, i + 2].forEach(k => { const d = lbStrip.children[k]; if (d && d.firstElementChild.loading === "lazy") d.firstElementChild.loading = "eager"; });  // Nachbarn laden
   }
@@ -3292,7 +3298,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "111 · Schalter: alle Filter aus/an";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "112 · Vollbild: Inspiration und Löschen";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3368,10 +3374,15 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   new MutationObserver(dockSync).observe(document.body, { subtree: true, attributes: true, attributeFilter: ["hidden"] });
   $("#fMore").addEventListener("change", dockSync);
   dockSync();
-  function lbOpen(p, i) { lb.list = spotImages(p); lb.name = p.name.replace(/\s[\u3000-\u9fff].*$/, ""); lb.el.hidden = false; lb.el.scrollTop = 0; lb.i = -1; lbGallery();
+  function lbOpen(p, i) { lb.list = spotImages(p); lb.name = p.name.replace(/\s[\u3000-\u9fff].*$/, ""); lb.spot = p && p.id && places.some(x => x.id === p.id) ? p.id : null; lb.el.hidden = false; lb.el.scrollTop = 0; lb.i = -1; lbGallery();
     const d = lbStrip.children[i]; if (d) d.firstElementChild.loading = "eager"; lbShow(i); }
   $("#lbGal").addEventListener("click", e => { const im = e.target.closest("img[data-i]"); if (!im) return; lbShow(+im.dataset.i); lb.el.scrollTo({ top: 0, behavior: "smooth" }); });
   const lbClose = () => { lb.el.hidden = true; zoomSet(1, 0, 0); lbStrip.innerHTML = ""; lb.locCtx = null; };
+  const lbSpot = () => lb.spot ? places.find(x => x.id === lb.spot) || null : null;
+  const lbIdx = () => { const sp = lbSpot(), it = lb.list[lb.i]; return sp && it ? imgsOf(sp).findIndex(x => x.image === it.src) : -1; };
+  $("#lbIns").onclick = e => { e.stopPropagation(); const sp = lbSpot(), idx = lbIdx(); if (sp && idx >= 0) toggleInsp(sp.id, idx, null).then(() => lbMeta(lb.i)); };
+  $("#lbDel").onclick = async e => { e.stopPropagation(); const sp = lbSpot(), idx = lbIdx(); if (!sp || idx < 0) return;
+    await removePhoto(sp.id, idx); lbClose(); };
   $("#lbLoc").onclick = e => { e.stopPropagation(); const img = lb.list[lb.i].src, ls = locState(img), c = lb.locCtx.get(img);
     if (ls && ls.status === "found") { lbClose(); $("#insp").hidden = true; location.hash = "spot=" + ls.spot; return; }
     if (ls && ls.status === "notfound" && !confirm(`Ort nicht gefunden.\n\n${ls.note || ""}\n\nNochmal recherchieren?`)) return;
