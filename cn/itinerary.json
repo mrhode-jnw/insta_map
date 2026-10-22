@@ -1127,10 +1127,40 @@
      "text": "Vom offiziellen Aussichtspunkt seitlich. Bei guter Sicht am Hallelujah wird dieser Stopp zuerst gestrichen."
     },
     {
+     "type": "stop",
+     "t": "9:45–10:00",
+     "spot": "claude-cn-yuanjiajie-back-garden",
+     "opt": true,
+     "sel": false,
+     "light": "day",
+     "lightText": "Vormittag – Blick vom Ostrand des Rundwegs",
+     "text": "Optional, 400 m östlich vom Mihun Tai, oberhalb des Luanchuanpo-Steigs. Verschiebt die Transferzeit nach hinten."
+    },
+    {
+     "type": "stop",
+     "t": "10:05–10:25",
+     "spot": "claude-cn-yuanjiazhai",
+     "opt": true,
+     "sel": false,
+     "light": "day",
+     "lightText": "Vormittag – Innenhöfe",
+     "text": "Tujia-Dorf am Busbahnhof Yuanjiajie, nicht am Weg zur Bailong-Station: Umweg ca. 20 Min. Nur wenn Zeit bleibt."
+    },
+    {
      "type": "move",
      "mode": "walk",
      "text": "Zur oberen Bailong-Station (laut Route 45 Min.)",
      "min": 45
+    },
+    {
+     "type": "stop",
+     "t": "10:30–12:00",
+     "spot": "claude-cn-luanchuanpo-trail",
+     "opt": true,
+     "sel": false,
+     "light": "midday",
+     "lightText": "Mittag – im Wald, Stufen",
+     "text": "Alternative zum Bailong-Lift bergab: Abstieg über den Steig (über 2.000 Stufen, 1–1,5 Std.) bis zum Bach. Wer diesen Weg wählt, wählt den Lift ab."
     },
     {
      "type": "stop",
@@ -1147,6 +1177,16 @@
      "mode": "shuttle",
      "text": "Shuttle nach Shuiraosimen (水绕四门)",
      "min": 20
+    },
+    {
+     "type": "stop",
+     "t": "11:20–11:40",
+     "spot": "claude-cn-qianlixianghui",
+     "opt": true,
+     "sel": false,
+     "light": "midday",
+     "lightText": "Mittag – Felsnadeln von unten",
+     "text": "Doppelte Felsnadel „Treffen nach tausend Meilen“ am Bach. Liegt am unteren Ende des Luanchuanpo-Steigs, auf dem Weg zum Golden-Whip-Stück."
     },
     {
      "type": "stop",
@@ -1289,6 +1329,16 @@
      "light": "day",
      "lightText": "Vormittag – Hike-Runde (Wulong-Dorf, Eisenleitern)",
      "text": "Wanderung über das Wulong-Dorf (Engstelle „Ein Faden Himmel“) und die Eisenleitern zum Tianbo Fu – sofern geöffnet, Erreichbarkeit noch nicht bestätigt."
+    },
+    {
+     "type": "stop",
+     "t": "11:30–12:00",
+     "spot": "claude-cn-yangjiajie-cable-car",
+     "opt": true,
+     "sel": false,
+     "light": "day",
+     "lightText": "Vormittag – steilste Bahn im Park",
+     "text": "Optional statt des Rückwegs zu Fuß: Seilbahn hinunter und gleich wieder hinauf (ca. 30–40 Min., 76 CNY je Richtung). Kaum Schlange, aber Zeit im Blick behalten."
     },
     {
      "type": "move",

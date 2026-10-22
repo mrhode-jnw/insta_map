@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 22.10.2026 11:15 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 22.10.2026 11:17 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -198,9 +198,13 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **7:20–8:05** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Frühes Licht – mögliche Nebelschichten zwischen den Säulen – Stativ ans Geländer, 70–200 für einzelne Säulen. Nebelschichten bevorzugt nach Regen, bis ca. 8:30 wenig Betrieb.
 - **8:05–9:20** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Vormittag – mehrere Perspektiven und Brennweiten – Mehrere Standpunkte: 16–35 für das ganze Felsfeld, 70–200 für die Säule allein. Bei besonders guter Sicht hier länger bleiben.
 - **9:20–9:45** ◻︎ optional: **First Bridge Under Heaven 天下第一桥** (Wulingyuan, Hunan) · Licht: Vormittag – Vom offiziellen Aussichtspunkt seitlich. Bei guter Sicht am Hallelujah wird dieser Stopp zuerst gestrichen.
+- **9:45–10:00** ◻︎ optional: **Yuanjiajie Back Garden 后花园** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Vormittag – Blick vom Ostrand des Rundwegs – Optional, 400 m östlich vom Mihun Tai, oberhalb des Luanchuanpo-Steigs. Verschiebt die Transferzeit nach hinten.
+- **10:05–10:25** ◻︎ optional: **Yuanjiazhai 袁家寨子** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Vormittag – Innenhöfe – Tujia-Dorf am Busbahnhof Yuanjiajie, nicht am Weg zur Bailong-Station: Umweg ca. 20 Min. Nur wenn Zeit bleibt.
   - ↓ 🚶 zu Fuß · ca. 45 Min. (Zur oberen Bailong-Station (laut Route 45 Min.))
+- **10:30–12:00** ◻︎ optional: **Luanchuanpo Trail 乱窜坡** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Mittag – im Wald, Stufen – Alternative zum Bailong-Lift bergab: Abstieg über den Steig (über 2.000 Stufen, 1–1,5 Std.) bis zum Bach. Wer diesen Weg wählt, wählt den Lift ab.
 - **10:30–11:00** ◻︎ optional: **Bailong Elevator 百龙天梯** (Wulingyuan, Hunan) · Licht: Mittag – Architektur – Lift bergab (65–72 CNY). Den Lift an der Wand entlang fotografieren.
   - ↓ 🚌 Bus/Seilbahn · ca. 20 Min. (Shuttle nach Shuiraosimen (水绕四门))
+- **11:20–11:40** ◻︎ optional: **Qianlixianghui 千里相会** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Mittag – Felsnadeln von unten – Doppelte Felsnadel „Treffen nach tausend Meilen“ am Bach. Liegt am unteren Ende des Luanchuanpo-Steigs, auf dem Weg zum Golden-Whip-Stück.
 - **11:20–12:20** ◻︎ optional: **Golden Whip Stream 金鞭溪** (Wulingyuan, Hunan) · Licht: Mittag – schattiges Tal, Pol-Filter – Kurzes Teilstück des Bachs und Rückweg. Makaken: kein Essen in Plastiktüten. Bei Zeitmangel als Erstes streichen.
   - ↓ 🚌 Bus/Seilbahn · ca. 55 Min. (Shuttle zur unteren Tianzi-Seilbahnstation, ggf. mit Umstieg (Fahrzeit nicht bestätigt))
 - **13:15–14:00** ◻︎ optional: **Tianzi Mountain Cable Car 天子山索道** (Tianzi Mountain, Wulingyuan, Hunan) · Licht: Nachmittag – aus der Gondel über die Felsnadeln – Bergfahrt 6–7 Min., 72 CNY je Richtung. Vom Gondelfenster die Felsnadeln von oben.
@@ -220,6 +224,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **5:15–6:05** 🚶 ◻︎ optional: **Start C: zu Fuß** – 3,7 km über die Parkbus-Straße, 50 Min. mit Stirnlampe.
 - **7:20–8:45** ◻︎ optional: **Natural Great Wall Viewpoint 天然长城观景台** (Yangjiajie, Wulingyuan, Hunan) · Licht: Morgenlicht – Streiflicht auf den Wänden – Gestaffelte Felswände an der Haltestelle: 70–200 für die Schichten, 16–35 bei Nebel im Tal.
 - **8:45–11:30** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Vormittag – Hike-Runde (Wulong-Dorf, Eisenleitern) – Wanderung über das Wulong-Dorf (Engstelle „Ein Faden Himmel“) und die Eisenleitern zum Tianbo Fu – sofern geöffnet, Erreichbarkeit noch nicht bestätigt.
+- **11:30–12:00** ◻︎ optional: **Yangjiajie Cable Car 杨家界索道** (Yangjiajie, Wulingyuan, Hunan) · Licht: Vormittag – steilste Bahn im Park – Optional statt des Rückwegs zu Fuß: Seilbahn hinunter und gleich wieder hinauf (ca. 30–40 Min., 76 CNY je Richtung). Kaum Schlange, aber Zeit im Blick behalten.
   - ↓ 🚶 zu Fuß · ca. 45 Min. (Rückweg zum Yangjiajie-Busbereich)
 - **12:15–13:00** 🥪 **Mittagspause am Yangjiajie-Busbereich** – Imbiss oder Lunchpaket, kein Resort.
 - **13:00–14:00** ◻︎ optional: **One Step to Heaven 一步登天** (Yangjiajie, Wulingyuan, Hunan) · Licht: Vormittag/Mittag – Aussichtsplattform – Weitere Yangjiajie-Aussichtspunkte: kleine Plattform über die Eisenleiter. Erster Kandidat zum Streichen.
