@@ -694,5 +694,9 @@
  },
  "claude-cn-maliao-silversmith-village": {
   "done": true
+ },
+ "idea-fh2-rooftop": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
