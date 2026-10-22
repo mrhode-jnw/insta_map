@@ -698,5 +698,9 @@
  "idea-fh2-rooftop": {
   "fav": true,
   "prio": "hoch"
+ },
+ "idea-fh-spiegelung": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
