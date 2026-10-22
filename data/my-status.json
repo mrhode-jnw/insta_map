@@ -688,5 +688,8 @@
  },
  "cn-wujiang-village": {
   "prio": "nein"
+ },
+ "claude-cn-dali-dong-village": {
+  "done": true
  }
 }
