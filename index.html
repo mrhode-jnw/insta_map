@@ -635,9 +635,10 @@
   #lb .bottom a { color: #fff; }
   #lb .bottom #lbLoc { flex: 0 1 auto; width: auto; height: auto; max-width: 48%; border-radius: 10px; padding: 9px 12px; font-size: 14px; font-weight: 600;
     background: rgba(255,255,255,.2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  #lb .bottom #lbIns, #lb .bottom #lbDel { flex: 0 0 auto; width: auto; height: auto; border-radius: 10px; padding: 9px 11px; font-size: 14px; font-weight: 600; }
-  #lb .bottom #lbIns { background: rgba(255,255,255,.15); } #lb .bottom #lbIns.on { background: #facc15; color: #000; } #lb .bottom #lbDel { background: #b91c1c; }
-  #lb .bottom #lbIns[hidden], #lb .bottom #lbDel[hidden] { display: none; }
+  #lb .acts { display: flex; gap: 8px; align-items: center; }
+  #lb .acts button { width: 40px; height: 40px; font-size: 20px; }
+  #lb #lbIns.on { background: #facc15; }
+  #lb .acts button[hidden] { display: none; }
   #lb .bottom #lbLoc[hidden] { display: none; } #lb .bottom #lbLoc:disabled { opacity: .7; cursor: default; }
   #lb .bottom a.btn { flex: none; background: var(--accent); padding: 9px 14px; border-radius: 10px; text-decoration: none; font-size: 14px; }
   .pop img[data-lb], .gal img[data-lb] { cursor: zoom-in; }
@@ -1153,9 +1154,9 @@
   <div id="tlBody"></div>
 </div>
 <div id="lb" hidden>
-  <div class="top"><span id="lbCount"></span><button id="lbClose" aria-label="Schließen">✕</button></div>
+  <div class="top"><span id="lbCount"></span><div class="acts"><button id="lbIns" type="button" hidden title="Als Inspiration markieren" aria-label="Als Inspiration markieren">💡</button><button id="lbDel" type="button" hidden title="Foto entfernen" aria-label="Foto entfernen">🗑</button><button id="lbClose" aria-label="Schließen">✕</button></div></div>
   <div class="stage"><div id="lbStrip"></div><button class="nav prev" id="lbPrev" aria-label="Vorheriges Bild">‹</button><button class="nav next" id="lbNext" aria-label="Nächstes Bild">›</button></div>
-  <div class="bottom"><div class="who" id="lbWho"></div><a class="btn" id="lbPost" target="_blank" rel="noopener">Post öffnen ↗</a><button class="btn" id="lbLoc" type="button" hidden>🔎 Ort recherchieren</button><button class="btn" id="lbIns" type="button" hidden>💡 Inspiration</button><button class="btn" id="lbDel" type="button" hidden>🗑 Löschen</button></div>
+  <div class="bottom"><div class="who" id="lbWho"></div><a class="btn" id="lbPost" target="_blank" rel="noopener">Post öffnen ↗</a><button class="btn" id="lbLoc" type="button" hidden>🔎 Ort recherchieren</button></div>
   <div id="lbGal"></div>
 </div>
 
@@ -3298,7 +3299,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "112 · Vollbild: Inspiration und Löschen";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "113 · Vollbild: Icons oben rechts (Inspiration, Löschen)";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
