@@ -3335,10 +3335,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "116 · Rundgänge löschbar, Zhangjiajie-Rundgänge";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "117 · Einstellungen: Sprung zu Claude für die Verarbeitung";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
+      + `<div class="sgrp">Verarbeitung</div><div class="scard"><div class="srow"><b>Eingang verarbeiten</b><div class="seg2"><a class="btn" href="https://claude.ai/code/session_01WCp2y27wSqANYmiaxPV7YA" target="_blank" rel="noopener">Zu Claude ↗</a></div><small>Öffnet die Claude-Sitzung der Routine. Dort schreibst du „verarbeite den Eingang“, dann läuft die Verarbeitung sofort.</small></div></div>`
       + `<div class="sgrp">App</div><div class="scard"><div class="srow"><b>Neu laden</b><div class="seg2"><button data-reload="1">Jetzt neu laden</button></div><small>Holt die neueste Version und alle Daten. Stand dieser Version: ${APP_VER}</small></div></div>`;
   }
   $("#setBody").addEventListener("click", e => {
