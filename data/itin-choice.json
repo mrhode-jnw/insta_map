@@ -88,27 +88,19 @@
  "2026-10-24": {
   "opt": [
    "Start B: erster Parkbus (7:00, wie in der Route)",
-   "claude-cn-mihun-tai-enchanting-terrace",
-   "claude-cn-avatar-hallelujah-mountain",
-   "claude-cn-first-bridge-under-heaven",
-   "claude-cn-bailong-elevator",
-   "claude-cn-golden-whip-stream",
-   "claude-cn-tianzi-mountain-cable-car",
-   "claude-cn-imperial-brush-peaks",
-   "claude-cn-fairy-offering-flowers",
-   "claude-cn-xihai-stone-forest"
+   "claude-cn-golden-whip-stream"
   ],
   "dur": {},
   "off": []
  },
  "2026-10-25": {
   "opt": [
-   "Start B: erster Parkbus (7:00, wie in der Route)",
-   "claude-cn-natural-great-wall-viewpoint",
-   "claude-cn-yangjiajie-tianbo-mansion",
-   "claude-cn-one-step-to-heaven",
+   "Rundgang Zhangjiajie: Yuanjiajie und Tianzi-Berg",
    "claude-cn-mihun-tai-enchanting-terrace",
-   "claude-cn-avatar-hallelujah-mountain"
+   "claude-cn-avatar-hallelujah-mountain",
+   "claude-cn-first-bridge-under-heaven",
+   "claude-cn-natural-great-wall-viewpoint",
+   "claude-cn-yangjiajie-tianbo-mansion"
   ],
   "dur": {},
   "off": []
