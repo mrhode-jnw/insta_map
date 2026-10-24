@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 22.10.2026 15:51 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 25.10.2026 07:32 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -216,25 +216,22 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - 💡 **Samstagsregel** – Gute Sicht am Hallelujah Mountain: länger bleiben und zuerst First Bridge und Golden Whip Stream streichen.
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
-### So 25.10. – Zhangjiajie Tag 2: Yangjiajie zum Sonnenaufgang · Tianbo · Mihun Tai am Abend _(Entwurf)_
+### So 25.10. – Zhangjiajie Tag 2: Hallelujah & Yuanjiajie am Morgen · Große Mauer & Yangjiajie _(Entwurf)_
 
-- **5:15** 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
-- **5:50–6:05** 🚗 ◻︎ optional: **Start A: Hotelauto zur Yangjiajie-Haltestelle** – Am Vorabend bestellen, 10 Min. Fahrt zur Yangjiajie-Haltestelle. Zum Sonnenaufgang 6:45 am Aussichtspunkt.
-- **7:00–7:20** 🚌 ◻︎ optional: **Start B: erster Parkbus (7:00, wie in der Route)** – Erster Parkbus Richtung Yangjiajie um 7:00 (10 Min. Fahrt). Natürliche Große Mauer ab ca. 7:20 – das Streiflicht hält bis ca. 8:30.
-- **5:15–6:05** 🚶 ◻︎ optional: **Start C: zu Fuß** – 3,7 km über die Parkbus-Straße, 50 Min. mit Stirnlampe.
-- 🚶 ◻︎ optional: **Rundgang Zhangjiajie: Yangjiajie und Tianbo** – Die Stationen des Tages mit Fotohinweisen – auf der Karte und in der Liste.
-- **7:20–8:45** ◻︎ optional: **Natural Great Wall Viewpoint 天然长城观景台** (Yangjiajie, Wulingyuan, Hunan) · Licht: Morgenlicht – Streiflicht auf den Wänden – Gestaffelte Felswände an der Haltestelle: 70–200 für die Schichten, 16–35 bei Nebel im Tal.
-- **8:45–11:30** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Vormittag – Hike-Runde (Wulong-Dorf, Eisenleitern) – Wanderung über das Wulong-Dorf (Engstelle „Ein Faden Himmel“) und die Eisenleitern zum Tianbo Fu – sofern geöffnet, Erreichbarkeit noch nicht bestätigt.
-- **11:30–12:00** ◻︎ optional: **Yangjiajie Cable Car 杨家界索道** (Yangjiajie, Wulingyuan, Hunan) · Licht: Vormittag – steilste Bahn im Park – Optional statt des Rückwegs zu Fuß: Seilbahn hinunter und gleich wieder hinauf (ca. 30–40 Min., 76 CNY je Richtung). Kaum Schlange, aber Zeit im Blick behalten.
-  - ↓ 🚶 zu Fuß · ca. 45 Min. (Rückweg zum Yangjiajie-Busbereich)
-- **12:15–13:00** 🥪 **Mittagspause am Yangjiajie-Busbereich** – Imbiss oder Lunchpaket, kein Resort.
-- **13:00–14:00** ◻︎ optional: **One Step to Heaven 一步登天** (Yangjiajie, Wulingyuan, Hunan) · Licht: Vormittag/Mittag – Aussichtsplattform – Weitere Yangjiajie-Aussichtspunkte: kleine Plattform über die Eisenleiter. Erster Kandidat zum Streichen.
-  - ↓ 🚌 Bus/Seilbahn · ca. 60 Min. (Parkbus Richtung Yuanjiajie)
-- **15:00–16:00** ⏳ **Wetter- und Zeitpuffer** – Flexibel: hier fängst du Verzögerungen auf.
-- **16:00–16:50** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Spätes Licht – Sonnenuntergang 18:00 – Zweiter Versuch im Abendlicht. Letzter Parkbus ca. 17:45–18:00, für den Sonnenuntergang das Hotelauto bestellen.
-- **16:50–17:30** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Abendlicht – zweite Fotochance – Zweite Fotochance am Hallelujah. Wird zuerst gestrichen, wenn der Rückweg eng wird.
-  - ↓ 🚗 Auto · ca. 15 Min. · 8 km (Rückfahrt zum YOLO Resort – hat Vorrang vor dem optionalen Hallelujah-Stopp; Hotelauto am Vortag bestellen)
-- ✂️ **Bei Verzögerungen streichen** – 1 weitere Yangjiajie-Punkte · 2 First Bridge (Samstag) · 3 Fee (Samstag) · 4 Golden Whip (Samstag) · 5 Hallelujah am Sonntag, wenn Samstag gut lief.
+- 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
+- 🚶 ◻︎ optional: **Rundgang Zhangjiajie: Yuanjiajie und Tianzi-Berg** – Heute nur der Yuanjiajie-Teil: Mihun Tai, Hallelujah, First Bridge.
+- **7:30–8:15** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Frühes Licht – mögliche Nebelschichten zwischen den Säulen – Stativ ans Geländer, 70–200 für einzelne Säulen. Bis ca. 8:30 wenig Betrieb.
+- **8:15–9:30** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Vormittag – mehrere Perspektiven und Brennweiten – 16–35 für das ganze Felsfeld, 70–200 für die Säule allein. Bei guter Sicht hier länger bleiben, dann fällt die First Bridge weg.
+- **9:30–10:00** ◻︎ optional: **First Bridge Under Heaven 天下第一桥** (Wulingyuan, Hunan) · Licht: Vormittag – Vom offiziellen Aussichtspunkt seitlich.
+- **10:00–10:20** ◻︎ optional: **Yuanjiajie Back Garden 后花园** (Yuanjiajie, Wulingyuan, Hunan) · Licht: Vormittag – Blick vom Ostrand des Rundwegs – Optional, 400 m östlich vom Mihun Tai, oberhalb des Luanchuanpo-Steigs.
+  - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Parkbus Yuanjiajie → Yangjiajie (auf dem Plateau, ggf. mit Umstieg; Fahrzeit nicht bestätigt))
+- **11:00–11:30** 🥪 **Mittagspause am Yangjiajie-Busbereich** – Imbiss oder Lunchpaket.
+- **11:30–12:15** ◻︎ optional: **Natural Great Wall Viewpoint 天然长城观景台** (Yangjiajie, Wulingyuan, Hunan) · Licht: Mittag – flaches Licht, Wände eher im Dunst – Gestaffelte Felswände an der Haltestelle: 70–200 für die Schichten, Wolken/Nebel im Tal als Trenner nutzen. Bei hartem Licht lieber enge Ausschnitte statt Panorama.
+- **12:15–15:15** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Nachmittag – Hike-Runde (Wulong-Dorf, Eisenleitern) – Wanderung über das Wulong-Dorf (Engstelle „Ein Faden Himmel“) und die Eisenleitern zum Tianbo Fu. Gegen Nachmittag wird das Licht seitlicher – gut für die Felskanten.
+- **15:15–16:00** ◻︎ optional: **One Step to Heaven 一步登天** (Yangjiajie, Wulingyuan, Hunan) · Licht: Später Nachmittag – Aussichtsplattform – Kleine Plattform über die Eisenleiter. Erster Kandidat zum Streichen.
+- **16:00–16:30** ◻︎ optional: **Yangjiajie Cable Car 杨家界索道** (Yangjiajie, Wulingyuan, Hunan) · Licht: Später Nachmittag – steilste Bahn im Park – Optional: Seilbahn hinunter statt Parkbus zurück, dann Hotelauto vom unteren Ende bestellen (76 CNY).
+  - ↓ 🚗 Auto · ca. 10 Min. · 4 km (Rückfahrt zum YOLO Resort – letzter Parkbus ca. 17:45–18:00, sonst Hotelauto bestellen.)
+- ✂️ **Bei Verzögerungen streichen** – 1 Back Garden · 2 First Bridge · 3 One Step to Heaven. Golden Whip war schon gestern.
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
 ### Mo 26.10. – Zhangjiajie → Chongqing (Zug G2428) · Abendlichter _(Entwurf)_
