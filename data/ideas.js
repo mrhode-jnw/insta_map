@@ -10295,5 +10295,283 @@ window.IDEAS = [
     "credit": "A Chinese ID · Wikimedia Commons (CC BY-SA 4.0)"
    }
   ]
+ },
+ {
+  "id": "idea-cq3-crystal-tropfen",
+  "region": "cn",
+  "idea": true,
+  "name": "Regentropfen am Crystal: die Stadt hinter Wasser 来福士 水晶连廊",
+  "city": "Chongqing",
+  "district": "Chaotianmen, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Chaotianmen, Yuzhong",
+  "lat": 29.5672,
+  "lng": 106.5835,
+  "approx": false,
+  "when": "night",
+  "note": "Der gläserne Korridor liegt rund 250 m hoch quer über den Türmen von Raffles City. Bei Regen perlen Tropfen am Glas, dahinter verschwimmen Zusammenfluss und Brückenlichter zu Bokeh. Steckt die Wolkendecke tief, steht man mitten in der Wolke – dann wird das Fenster zur weißen Wand und die Menschen davor zu Silhouetten.",
+  "tip": "26.10. 17:15–18:50 (im Plan). Vorhersage 17 Uhr: tiefe Wolken, 0,3 mm, Sicht 3,5 km. Objektiv oder Gegenlichtblende direkt ans Glas, dunkle Jacke dahinter gegen Spiegelungen. 50–85 mm, f/1.8–2.8, Fokus auf die Tropfen, die Stadtlichter werden zu Kreisen; zur blauen Stunde 18:15–18:50. Liegt der Korridor in der Wolke: Menschen am Fenster gegen das Weiß, +1 EV. Eingang L1 bei Tor 7; Plattform-Angaben 2025: 10–22 Uhr, 120 CNY. ★★",
+  "image": "images/idea_cq2_crystal-decke_1.jpg",
+  "image_page": "https://www.flickr.com/photos/fran001/53226848412/",
+  "image_credit": "Francisco Anzola · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/fran001/53226848412/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/fran001/53226848412/",
+    "kind": "photo",
+    "image": "images/idea_cq2_crystal-decke_1.jpg",
+    "caption": "",
+    "credit": "Francisco Anzola · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq3-daijiaxiang",
+  "region": "cn",
+  "idea": true,
+  "name": "Nasse Planken über dem Jialing: Daijiaxiang-Klippensteg 戴家巷崖壁步道",
+  "city": "Chongqing",
+  "district": "Linjiangmen, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Linjiangmen, Yuzhong",
+  "lat": 29.5645,
+  "lng": 106.5727,
+  "approx": true,
+  "when": "night",
+  "note": "Der Steg klebt an der Felswand zwischen der Altstadtgasse Daijiaxiang und dem Jialing-Ufer, knapp 60 m Höhenunterschied: im Osten Zickzack-Treppen, im Westen ein frei hängender Steg parallel zur alten Stadtmauer. Ostwärts sieht man Hongyadong im Profil. Nasse Planken werfen das Licht zurück und führen ins Bild.",
+  "tip": "26.10. ca. 18:00–18:40, direkt vor Hongyadong (Plan 18:45). Vom westlichen Hängesteg nach Osten auf das Hongyadong-Profil: Planken als Linie, 16–35 mm, f/8, Kamera aufs Geländer, 2–6 s, wenn die Lichter angehen. Zugang ab Station Linjiangmen Ausgang 2, ca. 600 m; Bus bis „嘉滨路洪崖洞“. Öffnungszeit und Beleuchtung nicht verifiziert, Position geschätzt. ★★",
+  "image": null,
+  "image_page": null,
+  "image_credit": null,
+  "posts": []
+ },
+ {
+  "id": "idea-cq3-qiansimen-schirme",
+  "region": "cn",
+  "idea": true,
+  "name": "Schirme auf der Qiansimen-Brücke vor Hongyadong 千厮门大桥",
+  "city": "Chongqing",
+  "district": "Jialing, Yuzhong/Jiangbei",
+  "category": "Fotoidee",
+  "address": "Jialing, Yuzhong/Jiangbei",
+  "lat": 29.5694,
+  "lng": 106.5747,
+  "approx": false,
+  "when": "night",
+  "note": "Vom Gehweg der Qiansimen-Brücke liegt Hongyadong als leuchtende Felswand gegenüber. Im Regen ziehen Fußgänger mit Schirmen durchs Bild, und der nasse Gehweg verdoppelt die Lichter.",
+  "tip": "26.10. 20:05–20:35 (im Plan). Gehweg der Brücke, Blick nach Südwesten auf Hongyadong. Kamera aufs Geländer, 0,5–1 s: Schirme werden zu Farbschlieren vor der scharfen Fassade; freihändig 1/15 s für halbscharfe Gestalten. Die Brücke schwingt mit dem Verkehr – kurze Zeiten bevorzugen, Serie machen. Vorhersage 20 Uhr: bewölkt, 45 % Regenrisiko, Sicht 4,3 km. ★★",
+  "image": "images/idea_cq_qiansimen_1.jpg",
+  "image_page": "https://www.flickr.com/photos/gdn35/23537293398/",
+  "image_credit": "Graeme Noble's Photography · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/gdn35/23537293398/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/gdn35/23537293398/",
+    "kind": "photo",
+    "image": "images/idea_cq_qiansimen_1.jpg",
+    "caption": "",
+    "credit": "Graeme Noble's Photography · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq3-liziba-regen",
+  "region": "cn",
+  "idea": true,
+  "name": "Liziba im Regen: Zug, Schirme und Regenfäden 李子坝",
+  "city": "Chongqing",
+  "district": "Liziba, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Liziba, Yuzhong",
+  "lat": 29.55667,
+  "lng": 106.53441,
+  "approx": false,
+  "when": "day",
+  "note": "Die Monorail fährt durch das Wohnhaus, unten auf der Aussichtsplattform stehen die Zuschauer. Im Regen werden ihre Schirme zum bunten Vordergrund, und vor der dunklen Fassade zeichnen sich Regenfäden ab, sobald der Zug mit Licht herauskommt.",
+  "tip": "27.10. 7:30–8:30 (im Plan). Vorhersage 7 Uhr: Regen 2,3 mm, Sicht 1,9 km. Von der Rückseite der Plattform etwas erhöht: Schirme unten, Zug oben im Bild. Regenfäden sieht man nur mit Licht von vorn oder seitlich: 70–200 mm, 1/250 s, auf den Zugscheinwerfer warten. Alternative 1/30 s: Schirm vorn scharf, Zug verwischt. Zwischen den Zügen Objektiv nach unten, Tuch griffbereit. ★★",
+  "image": "images/idea_cq_liziba_1.jpg",
+  "image_page": "https://www.flickr.com/photos/nvr89/54400736365/",
+  "image_credit": "NvR.Photography · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/nvr89/54400736365/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/nvr89/54400736365/",
+    "kind": "photo",
+    "image": "images/idea_cq_liziba_1.jpg",
+    "caption": "",
+    "credit": "NvR.Photography · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq3-eling-regen",
+  "region": "cn",
+  "idea": true,
+  "name": "Regen im Eling-Park: Kreise im Teich, gelbe Mauern 鹅岭公园",
+  "city": "Chongqing",
+  "district": "Eling, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Eling, Yuzhong",
+  "lat": 29.55276,
+  "lng": 106.53455,
+  "approx": true,
+  "when": "day",
+  "note": "Bei Nebel wird der Fernblick vom Kansheng-Turm grau. Dann lohnt der Park im Kleinen: Regentropfen ziehen Kreise auf dem Teich, der Steinbogen der Seilbrücke am Ronghu-See spiegelt sich, und die gelben Mauern des Eling-Herrenhauses bekommen dunkle Regenspuren.",
+  "tip": "27.10. 8:45–10:00 (im Plan). Vorhersage 9 Uhr: 0,5 mm, Sicht 3,8 km. Teich: 70–200 mm flach über der Wasseroberfläche, 1/500 s, Tropfenkreise vor Spiegelung; Steinbogen als Rahmen. Mauer: 35–50 mm, Pol gegen Glanz, Ranken als Linie. Park 6–22 Uhr. Steinbogen-Brücke, Mondtor und das Seilgeländer der Brücke zeigen die Fotos; Herrenhaus und genaue Positionen nicht verortet – im Park fragen. ★",
+  "image": "images/idea_cq3_eling-regen_1.jpg",
+  "image_page": "https://www.flickr.com/photos/vladislavihl/28667684464/",
+  "image_credit": "Vladislav Ihl · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/vladislavihl/28667684464/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/vladislavihl/28667684464/",
+    "kind": "photo",
+    "image": "images/idea_cq3_eling-regen_1.jpg",
+    "caption": "",
+    "credit": "Vladislav Ihl · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/vladislavihl/29256188576/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/vladislavihl/29256188576/",
+    "kind": "photo",
+    "image": "images/idea_cq3_eling-regen_2.jpg",
+    "caption": "",
+    "credit": "Vladislav Ihl · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/63532254@N00/32613119362/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/63532254@N00/32613119362/",
+    "kind": "photo",
+    "image": "images/idea_cq3_eling-regen_3.jpg",
+    "caption": "",
+    "credit": "Uli · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq3-erchang-regen",
+  "region": "cn",
+  "idea": true,
+  "name": "Alte Druckerei im Regen: Eling Second Factory 鹅岭二厂",
+  "city": "Chongqing",
+  "district": "Eling, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Eling, Yuzhong",
+  "lat": 29.552512,
+  "lng": 106.536826,
+  "approx": false,
+  "when": "day",
+  "note": "Die ehemalige Druckerei ist heute ein Kreativpark mit Galerien, Retro-Schildern und Graffiti. Im Regen werden die Farben satter, Böden und Treppen glänzen, und unter den Vordächern bleibt man trocken.",
+  "tip": "27.10. 10:15–11:15 (im Plan). Vorhersage 10 Uhr: 0,1 mm, 99 % Regenrisiko, Sicht 7,6 km. Retro-Schilder in nassen Bodenplatten spiegeln: Kamera tief, 24–35 mm. Graffiti-Wände mit Pol gegen Glanz, 24–70 mm. Dachkanten mit Tropfen als Rahmen für Menschen mit Schirm. ★",
+  "image": "images/idea_cq2_schichten-400_1.jpg",
+  "image_page": "https://www.flickr.com/photos/manualphoto/39169583541/",
+  "image_credit": "reassembling.visions · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/manualphoto/39169583541/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/manualphoto/39169583541/",
+    "kind": "photo",
+    "image": "images/idea_cq2_schichten-400_1.jpg",
+    "caption": "",
+    "credit": "reassembling.visions · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq3-huguang-traufe",
+  "region": "cn",
+  "idea": true,
+  "name": "Regenvorhang von den Traufen: Huguang-Gildehalle 湖广会馆",
+  "city": "Chongqing",
+  "district": "Dongshuimen, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Dongshuimen, Yuzhong",
+  "lat": 29.56052,
+  "lng": 106.58288,
+  "approx": false,
+  "when": "day",
+  "note": "Die Gildehallen der Einwanderer aus Hunan und Guangdong liegen terrassiert am Hang über dem Jangtse: Innenhöfe, geschwungene Dächer, gelbe Feuermauern. Bei Regen fällt das Wasser in Fäden von den Traufen in die Höfe – ein Vorhang vor dunklem Holz.",
+  "tip": "27.10. 13:30–15:00 (im Plan). Vorhersage 13 Uhr: 0,1 mm, 83 % Regenrisiko. Im Innenhof vom Gang unter dem Dach auf die Traufkante: 70–200 mm, Hintergrund dunkles Holz, 1/500 s für einzelne Tropfen oder 1/30 s für Fäden. Gelbe Mauern wirken nass satter. Laut Reiseberichten 9–18 Uhr, Einlass bis 17 Uhr, ca. 25 CNY. ★★",
+  "image": "images/idea_cq2_huguang-feuermauern_1.jpg",
+  "image_page": "https://www.flickr.com/photos/chanmelmel/51529280226/",
+  "image_credit": "MelindaChan ^..^ · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/chanmelmel/51529280226/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/chanmelmel/51529280226/",
+    "kind": "photo",
+    "image": "images/idea_cq2_huguang-feuermauern_1.jpg",
+    "caption": "",
+    "credit": "MelindaChan ^..^ · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq3-raffles-wolke",
+  "region": "cn",
+  "idea": true,
+  "name": "Raffles in den Wolken: Chaotianmen am Regenmorgen 朝天门",
+  "city": "Chongqing",
+  "district": "Chaotianmen, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Chaotianmen, Yuzhong",
+  "lat": 29.5697,
+  "lng": 106.58408,
+  "approx": false,
+  "when": "day",
+  "note": "Bei tiefer Wolkendecke stecken die Türme von Raffles City mit dem querliegenden Crystal in der Wolke. Unten auf dem Platz und der großen Treppe stehen Menschen mit Schirmen, die Flüsse verschwinden im Dunst.",
+  "tip": "28.10. 6:45–8:00 (im Plan, statt Sonnenaufgang). Vorhersage 7 Uhr: Regen 1,2 mm, Sicht 2,4 km, Nebel. Vom Platz bzw. der großen Treppe nach oben: 16–24 mm hochkant, Türme stoßen in die Wolke, +0,7 EV. Mit Tele 100–400 mm Schiffe, die im Dunst verschwinden. Menschen mit Schirm als Maßstab vorn. ★★",
+  "image": "images/idea_cq_mondaufgang_1.jpg",
+  "image_page": "https://www.flickr.com/photos/reelmemories/5180853570/",
+  "image_credit": "Carlton Chong · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/reelmemories/5180853570/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/reelmemories/5180853570/",
+    "kind": "photo",
+    "image": "images/idea_cq_mondaufgang_1.jpg",
+    "caption": "",
+    "credit": "Carlton Chong · Flickr"
+   }
+  ]
+ },
+ {
+  "id": "idea-cq3-shibati-regen",
+  "region": "cn",
+  "idea": true,
+  "name": "Shibati im Regen: Schirme auf nassen Stufen 十八梯",
+  "city": "Chongqing",
+  "district": "Jiaochangkou, Yuzhong",
+  "category": "Fotoidee",
+  "address": "Jiaochangkou, Yuzhong",
+  "lat": 29.55531,
+  "lng": 106.56964,
+  "approx": false,
+  "when": "day",
+  "note": "Die wiederaufgebauten Treppengassen von Shibati verbinden die Oberstadt mit der Unterstadt. Im Regen glänzen die Steinstufen, Holzfassaden werden dunkel, und die Schirme setzen Farbpunkte auf der Treppe.",
+  "tip": "28.10. 8:30–9:30 (im Plan). Vorhersage 8 Uhr: Regen 1,2 mm, Sicht 2,8 km. Von oben (Jiaochangkou-Seite) die Treppe hinunter: 70–200 mm komprimiert die Stufen, Schirme als Punkte, 1/125 s. Nasse Platten spiegeln Laternen, am stärksten bei Dunkelheit. Belichtung −0,3 EV, damit die Holzfassaden nicht grau werden. ★",
+  "image": "images/idea_cq2_shibati-vertikal_1.jpg",
+  "image_page": "https://www.flickr.com/photos/kkyang/29647063130/",
+  "image_credit": "kk.yang · Flickr",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/kkyang/29647063130/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/kkyang/29647063130/",
+    "kind": "photo",
+    "image": "images/idea_cq2_shibati-vertikal_1.jpg",
+    "caption": "",
+    "credit": "kk.yang · Flickr"
+   }
+  ]
  }
 ];
