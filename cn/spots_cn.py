@@ -49,6 +49,10 @@ POSTS = {
  92: ("jassminechi", "reel", "DemN0Tqs_n0"),
  93: ("jamierymer", "p", "DeenYbwiKNh"),
  94: ("long.explorer", "p", "DNtIYdSWkpJ"),
+ 95: ("smartshanghai", "p", "DeLwoggjnJ8"),
+ 96: ("city_news_service", "p", "DeOTnRWkggX"),
+ 97: ("architecturelab", "p", "DeNCuGnCB2G"),
+ 98: ("dezeen", "p", "DemmIuglxrx"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -215,7 +219,7 @@ SPOTS = [
  ("Vanke Cloud City Tower aus der Urban-Village-Gasse 万科云城", 22.5767, 113.9387, True, "Nanshan (Xili), Shenzhen", "Architektur",
   [(56, 1), (56, 2), (56, 3), (57, 1)], "Nachtmotiv: enge Gasse eines Urban Village (城中村), am Ende der beleuchtete Turm von 万科云城 Vanke Cloud City (Phase 6, in Abschnitte mit Himmelsplattformen gestaffelt, goldene Lamellen). Ort laut Caption „Vanke Cloud City, Nanshan“; MTR Linie 5/7 Xili bzw. Liuxiandong. Abends ab Einbruch der Dunkelheit, Personen als Silhouette in der Gasse. Die genaue Gasse ist nicht bekannt – vor Ort in den Urban Villages rund um Vanke Cloud City (z. B. 留仙洞村 im Nordwesten) nach der Blickachse auf den Turm suchen."),
  ("Shanghai Grand Opera 上海大歌剧院", 31.180607, 121.466378, False, "Pudong (Expo-Gelände), Shanghai", "Architektur",
-  [(58, 2), (58, 4)], "Neues Opernhaus von Snøhetta am Huangpu im Expo Cultural Park (世博文化公园): spiralförmiges, begehbares Dach wie ein aufgefächerter Fächer. Eröffnung Oktober 2026. Schönster Blick von der Uferpromenade bzw. vom Dach selbst; abends beleuchtet."),
+  [(58, 2), (58, 4), (98, 1), (97, 9), (97, 4), (97, 8), (98, 5), (97, 1), (97, 2), (97, 3), (97, 5), (97, 6), (97, 7), (98, 2), (98, 3), (98, 4)], "Neues Opernhaus von Snøhetta am Huangpu im Expo Cultural Park (世博文化公园): spiralförmiges, begehbares Dach wie ein aufgefächerter Fächer. Eröffnung Oktober 2026. Schönster Blick von der Uferpromenade bzw. vom Dach selbst; abends beleuchtet."),
  ("Shenzhen Bay Cultural Square 深圳湾文化广场", 22.515302, 113.940468, False, "Houhai, Nanshan, Shenzhen", "Architektur",
   [(59, 9), (59, 16)], "Kulturzentrum von MAD Architects (Ma Yansong) mit weißen, kieselartigen Baukörpern und Museum für Kreativität; im Hintergrund der China Resources Tower („Frühlingsbambus“). Direkt am Houhai-Ufer."),
  ("DJI Sky City 大疆天空之城", 22.580384, 113.937978, False, "Xili, Nanshan, Shenzhen", "Architektur",
@@ -232,6 +236,8 @@ SPOTS = [
   [89], "Neon-Vergnügungsviertel am Jiaochangkou (较场口87号, Adresse laut fang.com; Pin ungefähr): Leuchtreklamen in mehreren Ebenen wie ein Videospiel – ab Einbruch der Dunkelheit."),
  ("The Stage – White Magnolia Plaza 白玉兰观景台", 31.2512, 121.4945, True, "North Bund (Hongkou), Shanghai", "Aussicht",
   [92], "Offene Aussichtsplattform auf dem ehemaligen Hubschrauberlandeplatz des Sinar Mas/White Magnolia Plaza (320 m, 东大名路501号), ohne Glasscheiben, 360° auf Bund, Lujiazui und North Bund. Seit April 2025, ca. 200–230 ¥, Di–So; Slot 16:30–19:30 (Sonnenuntergang → Blaue Stunde) ist schnell ausgebucht – vorab im Mini-Programm buchen. Pin ungefähr (Turm am Ostende des Komplexes)."),
+ ("Tank Shanghai 油罐艺术中心 (LEGO Bloom)", 31.1666, 121.4594, False, "West Bund (Xuhui), Shanghai", "Architektur",
+  [(95, 5), (96, 1), (95, 4), (95, 11), (96, 4), (95, 2), (96, 2), (96, 3), (96, 5), (95, 10), (95, 1), (95, 3), (95, 6), (95, 7), (95, 8), (95, 9)], "Kunstzentrum in fünf alten Flugbenzin-Tanks am West Bund (龙腾大道2380号, nahe 龙启路). Bis 29. Oktober 2026 die LEGO-Bloom-Ausstellung: 380.000 LEGO-Blumen als 30 m lange „Flower Wave“, die aus einem Tank quillt, draußen frei zugänglich; Innenräume mit Reservierung über das WeChat-Mini-Programm „LEGO乐高“. Im Reiseplan wäre nur der 29.10. möglich. Die Tanks selbst sind auch danach ein Fotomotiv."),
 ]
 
 # Beliebtheit 1–5 (5 = Wahrzeichen, 4 = in vielen Guides, 3 = bei Fotografen bekannt)
@@ -243,6 +249,7 @@ POP = {
  "Eling Second": (4, "Kreativpark und Filmkulisse, sehr beliebt"),
  "Eling": (3, "Aussichtspark, bei Fotografen bekannt"),
  "The Stage": (4, 'Neue offene Plattform in 320 m, viral als „Shibuya Sky“ Shanghais'),
+ "Tank Shanghai": (4, 'Bekanntes Kunstzentrum in alten Öltanks, LEGO-Ausstellung viral'),
  "North Bund": (3, "Ruhiger Skyline-Blick abseits des Bund"),
  "RockBund": (4, "Historisches Viertel am Nordende des Bund"),
  "Bvlgari": (3, "Bekannte Rooftop-Bar mit Bund-Blick"),
