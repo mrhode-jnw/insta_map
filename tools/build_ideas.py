@@ -24,7 +24,7 @@ def main():
             "id": x["id"], "region": "cn", "idea": True, "name": x["name"], "city": x.get("city", ""),
             "district": x.get("district", ""), "category": "Fotoidee", "address": x.get("district", ""),
             "lat": x["lat"], "lng": x["lng"], "approx": bool(x.get("approx")), "when": x.get("when", "both"),
-            "note": x.get("note", ""), "tip": x.get("tip", ""),
+            "note": x.get("note", ""), "tip": x.get("tip", ""), "rain": bool(x.get("rain")),
             "image": first.get("image"), "image_page": first.get("url"), "image_credit": first.get("credit"),
             "posts": [{"url": i["url"], "username": "", "profile_url": i["url"], "kind": "photo", "image": i["image"],
                        "caption": i.get("caption", ""), "credit": i["credit"]} for i in imgs],

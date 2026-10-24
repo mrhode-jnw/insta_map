@@ -1113,7 +1113,7 @@
         <option value="">☀️🌙 Tag & Nacht</option><option value="day">☀️ Tag</option><option value="night">🌙 Nacht</option>
       </select>
       <select id="fMore" aria-label="Auswahl">
-        <option value="">✨ Alle Spots</option><option value="fav">❤️ Favoriten</option><option value="pop">🔥 Beliebte</option><option value="trash">🗑 Gelöschte</option>
+        <option value="">✨ Alle Spots</option><option value="fav">❤️ Favoriten</option><option value="pop">🔥 Beliebte</option><option value="rain">🌧 Bei Regen</option><option value="trash">🗑 Gelöschte</option>
       </select>
       <select id="area" aria-label="Viertel"><option value="">Alle Viertel</option></select>
     </div>
@@ -1543,7 +1543,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <div class="b">
         ${PLAN_AT[p.id] ? `<div class="kick">★ ${esc(PLAN_AT[p.id].long)}</div>` : ""}
         <h3>${esc(p.name)}</h3>
-        <div class="mline">${p.idea ? `<span class="mtag cl" style="background:#f59e0b;color:#fff" title="Ungewöhnliche Foto-Idee – von Claude recherchiert">✷ Fotoidee</span>` : ""}${p.by_claude ? `<span class="mtag cl" title="Nicht aus deiner Sammlung – von Claude als beliebter Spot ergänzt">✦ Claude-Tipp</span>` : ""}${p.mine ? `<span class="mtag">★ Eigener Spot</span>` : ""}${
+        <div class="mline">${p.idea ? `<span class="mtag cl" style="background:#f59e0b;color:#fff" title="Ungewöhnliche Foto-Idee – von Claude recherchiert">✷ Fotoidee</span>` : ""}${p.rain ? `<span class="mtag" style="background:#0ea5e9;color:#fff" title="Funktioniert gut bei Regen">🌧 Regen</span>` : ""}${p.by_claude ? `<span class="mtag cl" title="Nicht aus deiner Sammlung – von Claude als beliebter Spot ergänzt">✦ Claude-Tipp</span>` : ""}${p.mine ? `<span class="mtag">★ Eigener Spot</span>` : ""}${
           [p.category, p.district, WHEN_LABEL[p.when] || "", routeLabel(p), p.pop ? `🔥 ${p.pop}/5` : "", here() ? `📍 ${fmt(dist(me, p))}` : ""].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join(" ")}</div>
         ${lightBox(p)}
         ${fcHtml(p.id) || areaWx(p)}
@@ -2077,7 +2077,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) { cat = null; saveCat(); }
     renderChips(); renderList();
   });
-  let favF = false, trashF = false, areaF = ""; try { areaF = localStorage.getItem("areaF") || ""; } catch {}
+  let favF = false, trashF = false, rainF = false, areaF = ""; try { areaF = localStorage.getItem("areaF") || ""; } catch {}
   // Viertel/Bereich: Hongkong-Bezirke vereinheitlicht, China als „Stadt – Viertel“
   const AREA_ALIAS = { "Mongkok": "Mong Kok", "Mongkok / Yau Ma Tei": "Mong Kok", "Mong Kok East": "Mong Kok", "Mid-levels": "Mid-Levels", "Harbour": "Victoria Harbour" };
   // Hongkong: Stadtteile zu größeren Bereichen zusammengefasst
@@ -2127,7 +2127,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const FILTERS = {
     fDone: v => { doneF = v || null; },
     fPrio: v => { prioF.clear(); if (v) v.split(",").forEach(x => prioF.add(x)); },
-    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; },
+    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; rainF = v === "rain"; },
     fWhen: v => { whenF = v || null; },
   };
   Object.entries(FILTERS).forEach(([id, apply]) => {
@@ -2201,10 +2201,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const hay = [p.name, p.address, p.district, p.category, p.note, p.tip, p.caption, p.username,
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
     const s = st(p.id);
-    return !p.noloc && inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
+    return !p.noloc && (rainF ? !!p.rain : inGroup(p)) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
       && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio || "none")) && (s.prio !== "nein" || prioF.has("nein") || trashF) && (!doneF || (doneF === "done" ? s.done : !s.done))
-      && (!popF || (p.pop || 0) >= 4) && (!favF || s.fav) && (!areaF || areaOf(p) === areaF)
+      && (!popF || (p.pop || 0) >= 4) && (!favF || s.fav) && (!rainF || p.rain) && (!areaF || areaOf(p) === areaF)
       && (!whenF || !p.when || p.when === "both" || p.when === whenF)
       && (trashF ? s.hidden : !s.hidden);  // gelöschte Spots nur im Filter „Gelöscht“
   };
@@ -3335,7 +3335,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "117 · Einstellungen: Sprung zu Claude für die Verarbeitung";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "118 · Fotoideen: Regen-Markierung und Filter";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3531,9 +3531,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     syncFilterSw();
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = favF || trashF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = favF || trashF || rainF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
-      return `${s.fav && !p.idea ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
+      return `${p.rain ? `<span title="Gut bei Regen">🌧 </span>` : ""}${s.fav && !p.idea ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
     const head = (p, i) => sortBy === "area" && (i === 0 || items[i - 1]._a !== p._a)
       ? `<li class="sec areahead">${esc(p._a)} <small>(${items.filter(x => x._a === p._a).length})</small></li>` : "";
