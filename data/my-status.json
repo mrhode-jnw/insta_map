@@ -711,5 +711,9 @@
  },
  "cn-tianmen-mountain": {
   "prio": "nein"
+ },
+ "idea-cq2-fenster-wand": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
