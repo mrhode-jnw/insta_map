@@ -101,6 +101,26 @@ window.PLACES_CN = [
     "match": "single",
     "generic": true,
     "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/long.explorer/p/Cq0kWfMIPSW/?img_index=1",
+    "username": "long.explorer",
+    "profile_url": "https://www.instagram.com/long.explorer/",
+    "kind": "p",
+    "image": "images/Cq0kWfMIPSW_1.jpg",
+    "caption": "Lost in the mountains of Zhangjiajie, a breathtaking natural wonderland in China. The towering sandstone pillars, surrounded by mist, create a surreal landscape that seems to be from another world. While I was there I tried to capture as many drone photos as possible, but I wasn’t very lucky on this trip. I had a problem with the drone and lost the signal before the battery died. Not only was the drone gone, but also the SD card with all of the photos that I took the days before. The next day we went deep into the forest for a rescue mission. After 3 hours we finally found it with a few scratc",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/long.explorer/p/Cq0kWfMIPSW/?img_index=2",
+    "username": "long.explorer",
+    "profile_url": "https://www.instagram.com/long.explorer/",
+    "kind": "p",
+    "image": "images/Cq0kWfMIPSW_2.jpg",
+    "caption": "Lost in the mountains of Zhangjiajie, a breathtaking natural wonderland in China. The towering sandstone pillars, surrounded by mist, create a surreal landscape that seems to be from another world. While I was there I tried to capture as many drone photos as possible, but I wasn’t very lucky on this trip. I had a problem with the drone and lost the signal before the battery died. Not only was the drone gone, but also the SD card with all of the photos that I took the days before. The next day we went deep into the forest for a rescue mission. After 3 hours we finally found it with a few scratc",
+    "match": "slide",
+    "slide": 2
    }
   ],
   "pop": 5,
@@ -131,6 +151,16 @@ window.PLACES_CN = [
     "kind": "p",
     "image": "images/DeKUZY_k8EI_3.jpg",
     "caption": "you should prepare your visit to the legendary movie location of Avatar aka Zhangjiajie well👇🏻\n\n1. it is not just a single attraction with an entrance and an exit, it covers the two main scenic areas Tianmen mountain and the national forest park. The combined area is about 360km2\n\n2. you should take 2 days for the national forest park and 1 day for tianmen, and 1 day as buffer because weather is really random. Avoid the chinese holidays, yes the videos you see on insta are real, not funny. \n\n3. Best time visiting zhangjiajie is april or surprisingly june until august, the weather is humid enou",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/long.explorer/p/Cq0kWfMIPSW/?img_index=3",
+    "username": "long.explorer",
+    "profile_url": "https://www.instagram.com/long.explorer/",
+    "kind": "p",
+    "image": "images/Cq0kWfMIPSW_3.jpg",
+    "caption": "Lost in the mountains of Zhangjiajie, a breathtaking natural wonderland in China. The towering sandstone pillars, surrounded by mist, create a surreal landscape that seems to be from another world. While I was there I tried to capture as many drone photos as possible, but I wasn’t very lucky on this trip. I had a problem with the drone and lost the signal before the battery died. Not only was the drone gone, but also the SD card with all of the photos that I took the days before. The next day we went deep into the forest for a rescue mission. After 3 hours we finally found it with a few scratc",
     "match": "slide",
     "slide": 3
    }

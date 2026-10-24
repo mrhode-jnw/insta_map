@@ -752,6 +752,22 @@ window.INSPIRATION = {
  "cn": [],
  "sh": [
   {
+   "code": "DeIm-vXAfTH",
+   "user": "_5fivegraphy",
+   "url": "https://www.instagram.com/p/DeIm-vXAfTH/",
+   "caption": "One evening on the Bund. I stayed in the same spot and let Shanghai change around me: gold, then blue, then neon.\n\nShot on NikonZ6III + Nikkor 24-120mm f4 S\n\n#NikonCreators #Shanghai\n#Bluehour #cityscapephotography \n#aethestic",
+   "images": [
+    "images/insp/DeIm-vXAfTH_1.jpg",
+    "images/insp/DeIm-vXAfTH_2.jpg",
+    "images/insp/DeIm-vXAfTH_3.jpg",
+    "images/insp/DeIm-vXAfTH_4.jpg",
+    "images/insp/DeIm-vXAfTH_5.jpg",
+    "images/insp/DeIm-vXAfTH_6.jpg",
+    "images/insp/DeIm-vXAfTH_7.jpg",
+    "images/insp/DeIm-vXAfTH_8.jpg"
+   ]
+  },
+  {
    "code": "DeeSyCbuTH2",
    "user": "shanghaieye",
    "url": "https://www.instagram.com/p/DeeSyCbuTH2/",
