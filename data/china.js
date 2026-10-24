@@ -3400,6 +3400,16 @@ window.PLACES_CN = [
     "slide": 12
    },
    {
+    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=10",
+    "username": "jackyy_wch",
+    "profile_url": "https://www.instagram.com/jackyy_wch/",
+    "kind": "p",
+    "image": "images/De1Y1TXElV9_10.jpg",
+    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
+    "match": "slide",
+    "slide": 10
+   },
+   {
     "url": "https://www.instagram.com/hotelsandhandluggage/p/Dcl8WxlAqf_/",
     "username": "",
     "profile_url": "https://www.instagram.com/hotelsandhandluggage/p/Dcl8WxlAqf_/",
@@ -3498,6 +3508,26 @@ window.PLACES_CN = [
     "image": "images/Dd1lRy7TpdU.jpg",
     "caption": "Obsessed with this pink 💞\n\n#shanghai #shanghaicity #shanghaitower #lujiazui #orientalpearltower",
     "match": "single"
+   },
+   {
+    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=2",
+    "username": "jackyy_wch",
+    "profile_url": "https://www.instagram.com/jackyy_wch/",
+    "kind": "p",
+    "image": "images/De1Y1TXElV9_2.jpg",
+    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=5",
+    "username": "jackyy_wch",
+    "profile_url": "https://www.instagram.com/jackyy_wch/",
+    "kind": "p",
+    "image": "images/De1Y1TXElV9_5.jpg",
+    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
+    "match": "slide",
+    "slide": 5
    },
    {
     "url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=3",
@@ -3837,6 +3867,16 @@ window.PLACES_CN = [
     "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
     "match": "slide",
     "slide": 6
+   },
+   {
+    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=9",
+    "username": "jackyy_wch",
+    "profile_url": "https://www.instagram.com/jackyy_wch/",
+    "kind": "p",
+    "image": "images/De1Y1TXElV9_9.jpg",
+    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
+    "match": "slide",
+    "slide": 9
    }
   ],
   "pop": 5,
@@ -4068,11 +4108,21 @@ window.PLACES_CN = [
     "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
     "match": "slide",
     "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=1",
+    "username": "jackyy_wch",
+    "profile_url": "https://www.instagram.com/jackyy_wch/",
+    "kind": "p",
+    "image": "images/De1Y1TXElV9_1.jpg",
+    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
+    "match": "slide",
+    "slide": 1
    }
   ],
   "pop": 5,
   "pop_reason": "Wahrzeichen Shanghais",
-  "when": "night"
+  "when": "both"
  },
  {
   "id": "cn-1933-old-millfun-1933",
@@ -4164,11 +4214,31 @@ window.PLACES_CN = [
     "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
     "match": "slide",
     "slide": 10
+   },
+   {
+    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=3",
+    "username": "jackyy_wch",
+    "profile_url": "https://www.instagram.com/jackyy_wch/",
+    "kind": "p",
+    "image": "images/De1Y1TXElV9_3.jpg",
+    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=7",
+    "username": "jackyy_wch",
+    "profile_url": "https://www.instagram.com/jackyy_wch/",
+    "kind": "p",
+    "image": "images/De1Y1TXElV9_7.jpg",
+    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
+    "match": "slide",
+    "slide": 7
    }
   ],
   "pop": 5,
   "pop_reason": "Ikonischer Wolkenkratzer mit Aussichtsdeck",
-  "when": "day"
+  "when": "both"
  },
  {
   "id": "cn-shanghai-astronomy-museum",
@@ -4575,6 +4645,16 @@ window.PLACES_CN = [
     "caption": "Moments from Shanghai Oriental Pearl TV Tower 🇨🇳\n\n1. Shanghai North Bund Park (北外滩湖滨江绿地）\n2. Dongchangzhi Road (东长治路与旅顺路交叉口）- beside W Hotel\n3. Jiulong Road (九龙路与东长治路交叉口)\n3. Nanjing Road\n5. Rockbund (乍浦路与南苏州路交叉口）\n6. Waibaidu Bridge (外白渡桥）\n7. 礼和洋行 （behind Edition Hotel)\n8. Shanghai Postal Musuem (上海邮政博物馆)\n\nI can walk the whole Shanghai street and the bund the whole day is the weather is good. There are so much to capture and explore! Many spots I haven’t have time to cover as well!\n\n#shanghaicity #shanghaistreet #shanghaitower #shanghaiorientalpearltower #shanghaibund #shanghaichina #shanghaitri",
     "match": "slide",
     "slide": 9
+   },
+   {
+    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=6",
+    "username": "jackyy_wch",
+    "profile_url": "https://www.instagram.com/jackyy_wch/",
+    "kind": "p",
+    "image": "images/De1Y1TXElV9_6.jpg",
+    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
+    "match": "slide",
+    "slide": 6
    }
   ],
   "pop": 3,
@@ -4685,6 +4765,16 @@ window.PLACES_CN = [
     "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
     "match": "slide",
     "slide": 11
+   },
+   {
+    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=4",
+    "username": "jackyy_wch",
+    "profile_url": "https://www.instagram.com/jackyy_wch/",
+    "kind": "p",
+    "image": "images/De1Y1TXElV9_4.jpg",
+    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
+    "match": "slide",
+    "slide": 4
    },
    {
     "url": "https://www.flickr.com/photos/cnmark/49017044256/",
