@@ -1,0 +1,1766 @@
+{
+ "accessed_at": "2026-10-25",
+ "photographers": [
+  {
+   "key": "burkett",
+   "name": "Christopher Burkett",
+   "born": 1951,
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/about/",
+     "title": "About Christopher – christopherburkett.com",
+     "excerpt": "Christopher Burkett was born in 1951 and grew up in Oregon. In 1975, while he was a brother in a Christian order, he became interested in photography as a means of expressing the grace, light and beauty he saw present in the world of nature."
+    },
+    {
+     "url": "https://christopherburkett.com/about/",
+     "title": "About Christopher – christopherburkett.com",
+     "excerpt": "He works with color 8 x 10″ and medium format transparencies."
+    },
+    {
+     "url": "https://westernartandarchitecture.com/features/a-sense-of-real-life",
+     "title": "A Sense of Real Life – Western Art & Architecture (Mai 2019)",
+     "excerpt": "In the secular art world, it may seem unusual to learn that an artist who’s been described as “the Ansel Adams of color photography” explains his artistic ethos as a way to reveal the “gift of God’s grace to share with others.” But as one of the last few photographers still using an 8-by-10-inch view camera and Cibachrome paper, Burkett’s reverence for the transcendent makes perfect sense."
+    }
+   ],
+   "projects": [
+    {
+     "key": "burkett-cibachrome",
+     "title": "Farblandschaften auf 8×10-Dia und Cibachrome",
+     "year_from": 1987,
+     "year_to": 2005,
+     "sources": [
+      {
+       "url": "https://westernartandarchitecture.com/features/a-sense-of-real-life",
+       "title": "A Sense of Real Life – Western Art & Architecture (Mai 2019) (Zitat Julia Christopher, Photography West)",
+       "excerpt": "Julia Christopher, gallery director at Photography West in Carmel-by-the-Sea, California, which has been representing Burkett since 1985, underscores the point: “Photography is the only medium that uses pure light as its mechanism, and with Christopher, it truly is all about the light.”"
+      },
+      {
+       "url": "https://westernartandarchitecture.com/features/a-sense-of-real-life",
+       "title": "A Sense of Real Life – Western Art & Architecture (Mai 2019)",
+       "excerpt": "The tonal balance that Burkett has become famous for results from his mastery of contrast masking, a process that sandwiches a black and white negative (made from the color positive) in perfect registration with the color transparency. “Masking is the key to good color printing,” Burkett says."
+      },
+      {
+       "url": "https://christopherburkett.com/reviews-and-inteviews/",
+       "title": "Reviews and Interviews – christopherburkett.com (San Diego Union-Tribune, 16.12.1999, Ausstellung Joseph Bellows Gallery)",
+       "excerpt": "Burkett has an extraordinary eye for framing nature, for making his rectangular windows onto it seem as if they were destined to be pictures. In this respect, he is a lot like Ansel Adams. He isn’t grounded in one locale, as Adams was with Yosemite. But the same reverence is palpable…"
+      },
+      {
+       "url": "https://christopherburkett.com/essays/",
+       "title": "Essays – christopherburkett.com (James Alinder: Paradise Found)",
+       "excerpt": "Christopher Burkett is the hardest-working artist I know. For two months of each year he searches for subject matter, driving about the country with his wife Ruth to discover locales where distinct images can be unearthed. The other ten months he spends printing in the darkroom, logging six, fourteen-hour days each week."
+      }
+     ],
+     "images": [
+      {
+       "key": "burkett-aspen-grove",
+       "title": "Aspen Grove",
+       "year": 1993,
+       "location": "Colorado, USA",
+       "tags": [
+        "landschaft",
+        "wald",
+        "licht",
+        "farbe"
+       ],
+       "source_url": "https://christopherburkett.com/print/aspen-grove/",
+       "image_url": "https://christopherburkett.com/wp-content/uploads/2025/07/ag.jpg",
+       "sources": [
+        {
+         "url": "https://christopherburkett.com/print/aspen-grove/",
+         "title": "Aspen Grove – Christopher Burkett (Bildtext des Fotografen, christopherburkett.com)",
+         "excerpt": "These trees are literally on the top of the ridge, so that the soft, colored light of evening causes the trunks to glow from all sides. At this time of day, with the sun just over the horizon, the air oftentimes becomes quite still, as if nature is holding her breath–in sharp contrast to the rest of the day, when strong breezes rush over the mountain tops, causing the leaves to constantly rustle and shimmer.",
+         "kind": "fotograf",
+         "author": "Christopher Burkett",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "burkett-cottonwood-and-light",
+       "title": "Cottonwood and Light",
+       "year": 1987,
+       "location": "Utah, USA",
+       "tags": [
+        "landschaft",
+        "baum",
+        "gegenlicht",
+        "farbe"
+       ],
+       "source_url": "https://christopherburkett.com/print/cottonwood-and-light/",
+       "image_url": "https://christopherburkett.com/wp-content/uploads/2025/07/cwl.jpg",
+       "sources": [
+        {
+         "url": "https://christopherburkett.com/print/cottonwood-and-light/",
+         "title": "Cottonwood and Light – Christopher Burkett (Bildtext des Fotografen, christopherburkett.com)",
+         "excerpt": "As I came around a corner, I came to a sudden stop as this cottonwood tree fairly leapt out at me–backlit by the sun, with the shadowed canyon wall as a background. The russet colors in the furrowed trunks of the tree were enhanced by the light reflected by the orange sandstone cliff behind me.",
+         "kind": "fotograf",
+         "author": "Christopher Burkett",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "burkett-beaver-lodge-at-sunrise",
+       "title": "Beaver Lodge at Sunrise",
+       "year": 1997,
+       "location": "Colorado, USA",
+       "tags": [
+        "landschaft",
+        "wasser",
+        "spiegelung",
+        "farbe"
+       ],
+       "source_url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+       "image_url": "https://christopherburkett.com/wp-content/uploads/2025/07/bls.jpg",
+       "sources": [
+        {
+         "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+         "title": "Beaver Lodge at Sunrise – Christopher Burkett (Bildtext des Fotografen, christopherburkett.com)",
+         "excerpt": "Taking spot meter readings I could see that the brightness levels of the scene were pushing past the ability of the film to record detail in the brightest and very dark areas. However I knew if I waited until the sun was almost in the scene there would be just enough bounce light off the dried grass in the field to make it work.",
+         "kind": "fotograf",
+         "author": "Christopher Burkett",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "burkett-forest-light",
+       "title": "Forest Light",
+       "year": 2005,
+       "location": "Grand Mesa, Colorado, USA",
+       "tags": [
+        "landschaft",
+        "wald",
+        "gegenlicht",
+        "farbe"
+       ],
+       "source_url": "https://christopherburkett.com/print/forest-light/",
+       "image_url": "https://christopherburkett.com/wp-content/uploads/2025/07/fl.jpg",
+       "sources": [
+        {
+         "url": "https://christopherburkett.com/print/forest-light/",
+         "title": "Forest Light – Christopher Burkett (Bildtext des Fotografen, christopherburkett.com)",
+         "excerpt": "I used a 450mm lens at f/64 and 1/2 second on Provia film and made two identical backup exposures. The rising front on the view camera was moved about 1” to keep the trunks vertical.",
+         "kind": "fotograf",
+         "author": "Christopher Burkett",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "burkett-canyon-of-the-rio-grande",
+       "title": "Canyon of the Rio Grande",
+       "year": 1994,
+       "location": "New Mexico, USA",
+       "tags": [
+        "landschaft",
+        "fluss",
+        "schlucht",
+        "wetter"
+       ],
+       "source_url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+       "image_url": "https://christopherburkett.com/wp-content/uploads/2025/07/crg.jpg",
+       "sources": [
+        {
+         "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+         "title": "Canyon of the Rio Grande – Christopher Burkett (Bildtext des Fotografen, christopherburkett.com)",
+         "excerpt": "I had to wait 20 minutes or so for the right conditions—the gusty wind was blowing the bridge, causing everything to sway back and forth. After each gust, I would wait for about 40 seconds for the bridge to settle down—but compounding the problem were the cars and trucks which would cross the bridge, setting up more vibration and motion.",
+         "kind": "fotograf",
+         "author": "Christopher Burkett",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "burkett-elemental-light",
+       "title": "Elemental Light",
+       "year": 1987,
+       "location": "Vermont, USA",
+       "tags": [
+        "landschaft",
+        "detail",
+        "licht",
+        "struktur"
+       ],
+       "source_url": "https://christopherburkett.com/print/elemental-light/",
+       "image_url": "https://christopherburkett.com/wp-content/uploads/2025/07/elt.jpg",
+       "sources": [
+        {
+         "url": "https://christopherburkett.com/print/elemental-light/",
+         "title": "Elemental Light – Christopher Burkett (Bildtext des Fotografen, christopherburkett.com)",
+         "excerpt": "This photograph is of a schist stone wall, about 15’ across. It was illuminated by the noonday sun skimming the surface. It reflected the light so much that you had to squint to see it.",
+         "kind": "fotograf",
+         "author": "Christopher Burkett",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "burkett-daybreak",
+       "title": "Daybreak",
+       "year": 2004,
+       "location": "Jenny Lake, Grand Teton National Park, Wyoming, USA",
+       "tags": [
+        "landschaft",
+        "wasser",
+        "spiegelung",
+        "farbe"
+       ],
+       "source_url": "https://christopherburkett.com/print/daybreak/",
+       "image_url": "https://christopherburkett.com/wp-content/uploads/2025/07/d-1.jpg",
+       "sources": [
+        {
+         "url": "https://christopherburkett.com/print/daybreak/",
+         "title": "Daybreak – Christopher Burkett (Bildtext des Fotografen, christopherburkett.com)",
+         "excerpt": "I used the 800mm lens with the back tilt to adjust the plane of focus parallel with the water and stopped the lens down to f/45 to get everything in focus. I made one exposure on Provia film for one second.",
+         "kind": "fotograf",
+         "author": "Christopher Burkett",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "burkett-autumn-circus",
+       "title": "Autumn Circus",
+       "year": 2002,
+       "location": "Oregon, USA",
+       "tags": [
+        "landschaft",
+        "baum",
+        "farbe",
+        "herbst"
+       ],
+       "source_url": "https://christopherburkett.com/print/autumn-circus/",
+       "image_url": "https://christopherburkett.com/wp-content/uploads/2025/07/ac.jpg",
+       "sources": [
+        {
+         "url": "https://christopherburkett.com/print/autumn-circus/",
+         "title": "Autumn Circus – Christopher Burkett (Bildtext des Fotografen, christopherburkett.com)",
+         "excerpt": "There was sunlight shining on the tree but it was more enveloping and more diffuse. The previous day I used a 250mm lens but that was not going to work today.",
+         "kind": "fotograf",
+         "author": "Christopher Burkett",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "barnbaum",
+   "name": "Bruce Barnbaum",
+   "sources": [
+    {
+     "url": "https://www.barnbaum.com/about",
+     "title": "About Bruce Barnbaum – barnbaum.com",
+     "excerpt": "Bruce Barnbaum of Granite Falls gained Bachelor's and Master's degrees in mathematics from UCLA, then, after three years as a math analyst and computer programmer, abruptly turned to his hobby of photography as his life’s work in 1970."
+    },
+    {
+     "url": "https://www.barnbaum.com/about",
+     "title": "About Bruce Barnbaum – barnbaum.com",
+     "excerpt": "He understands light and relationships of forms to an extent rarely found, and combines these understandings to an extraordinarily wide range of subject matter. His photographs often contain ambiguities concerning either the size of the scene photographed and/or its orientation, forcing the viewer to pause and think, and to become part of the creative process."
+    },
+    {
+     "url": "https://www.barnbaum.com/essay",
+     "title": "Bruce Barnbaum: New Thoughts On Digital Photography (24.8.2024) – barnbaum.com",
+     "excerpt": "Having started using digital after nearly 40 years of traditional 4x5” film camera usage where I learned to carefully compose each image before exposing a negative, I find it hard to make an exposure — a so-called digital “capture” — without doing at least an initial quick assessment of some basic compositional elements within the scene...and also give thought to the quality of light before pressing the shutter."
+    }
+   ],
+   "projects": [
+    {
+     "key": "barnbaum-slit-canyons",
+     "title": "B&W Slit Canyons",
+     "year_from": 1980,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://www.barnbaum.com/about",
+       "title": "About Bruce Barnbaum – barnbaum.com",
+       "excerpt": "Starting in 1980 Bruce opened up photography of the slit canyons to the world for the first time."
+      },
+      {
+       "url": "https://www.icp.org/content/bruce-barnbaum",
+       "title": "Bruce Barnbaum (LensWork Publishing, 2005) – ICP Library",
+       "excerpt": "Barnbaum didn't discover the slit canyons of the desert southwest, but he was the first to see them as subject matter for fine art photographs. In the twenty-plus years since he first visited this strange and wondrous landscape, he's produced an extensive body of work from these bizarre and cosmic shapes."
+      },
+      {
+       "url": "https://app.oreilly.com/pub/pr/2943",
+       "title": "Plateaus and Canyons – Pressemitteilung Rocky Nook/O’Reilly",
+       "excerpt": "In a series of short essays throughout the book, Barnbaum shares his stories, thoughts, and feelings about this majestic territory—from his first introduction to the \"Canyon Country\" in 1974, when it was little-known and rarely photographed, through the changes he witnessed over the years as more and more people visited the area, and finally to the irreversible effects the multitudes have had on it."
+      }
+     ],
+     "images": [
+      {
+       "key": "barnbaum-wall-with-two-ridges-lower-antelope-canyon",
+       "title": "Wall with Two Ridges, Lower Antelope Canyon",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "licht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.barnbaum.com/bw-slit-canyons/wall-with-two-ridges-lower-antelope-canyon",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447457019166-AA8DPUJYFMZSSK1C7BO5/Wallw-2Ridges%2CLowerA.C.jpg",
+       "sources": []
+      },
+      {
+       "key": "barnbaum-circular-chimney-antelope-canyon",
+       "title": "Circular Chimney, Antelope Canyon",
+       "year": 1980,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "abstraktion",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.barnbaum.com/bw-slit-canyons/circular-chimney-antelope-canyon",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447456512303-DVPSF21N6YI664DT3UZL/CircularChimney%2CACyn.jpg",
+       "sources": [
+        {
+         "url": "https://hub.catalogit.app/apsu-art-collection/folder/entry/circular-chimney-antelope-canyon-1980",
+         "title": "Bruce Barnbaum, Circular Chimney, Antelope Canyon, 1980 – APSU Art Collection (Austin Peay State University)",
+         "excerpt": "Black and white gelatin silver print of the curving shape creating areas of light and dark in the Circular Chimney, Antelope Canyon",
+         "kind": "museum",
+         "author": "APSU Art Collection",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "barnbaum-the-slit-antelope-canyon",
+       "title": "The Slit, Antelope Canyon",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "licht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.barnbaum.com/bw-slit-canyons/the-slit-antelope-canyon",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447457286396-62465PUNHOEFMUSFVU9B/TheSlit%2CAntelopeCanyon.jpg",
+       "sources": []
+      },
+      {
+       "key": "barnbaum-layers-antelope-canyon",
+       "title": "Layers, Antelope Canyon",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "abstraktion",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.barnbaum.com/bw-slit-canyons/layers-antelope-canyon",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447456630837-6BYIQUZLNUBBO5ZHDZJK/Layers%2CAntelopeCanyon.jpg",
+       "sources": []
+      },
+      {
+       "key": "barnbaum-wall-curves-lower-antelope-canyon",
+       "title": "Wall Curves, Lower Antelope Canyon",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "form",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.barnbaum.com/bw-slit-canyons/wall-curves-lower-antelope-canyon",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447456915373-D68N56IQ1IE1D2B1U9WC/WallCurves%2CL.A.C.jpg",
+       "sources": []
+      },
+      {
+       "key": "barnbaum-hollows-points-peach-canyon",
+       "title": "Hollows & Points, Peach Canyon",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "form",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.barnbaum.com/bw-slit-canyons/hollows-points-peach-canyon",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447456268742-KW1AGUGKLH647I7P2MX2/Hollows%26PointsPeachCyn.jpg",
+       "sources": []
+      },
+      {
+       "key": "barnbaum-the-pinwheel-spooky-gulch",
+       "title": "The Pinwheel, Spooky Gulch",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "struktur",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.barnbaum.com/bw-slit-canyons/the-pinwheel-spooky-gulch",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447457583856-28S9FORSX0T7DSHK8Z2V/ThePinwheel%2CSpookyGulch.jpg",
+       "sources": []
+      },
+      {
+       "key": "barnbaum-gothic-fall-40-mile-canyon",
+       "title": "Gothic Fall, 40-Mile Canyon",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "wasser",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.barnbaum.com/bw-slit-canyons/gothic-fall-40-mile-canyon",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1686891962802-4J71K0TVXIIS246708VI/GothicFall%2C40-MileCyn.jpg",
+       "sources": []
+      },
+      {
+       "key": "barnbaum-in-peekaboo-canyon",
+       "title": "In Peekaboo Canyon",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "durchblick",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.barnbaum.com/bw-slit-canyons/in-peekaboo-canyon",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447456410728-416OEJXOSMTX30I8XUHY/InPeekabooCanyon.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "kenna",
+   "name": "Michael Kenna",
+   "born": 1953,
+   "sources": [
+    {
+     "url": "https://www.michaelkenna.com/resume.php",
+     "title": "Michael Kenna – Resume (michaelkenna.com)",
+     "excerpt": "Born 1953 in Widnes, Lancashire, England"
+    },
+    {
+     "url": "https://www.michaelkenna.com/resume.php",
+     "title": "Michael Kenna – Resume (michaelkenna.com)",
+     "excerpt": "Kenna is both a diurnal and nocturnal photographer, fascinated by light when it is most pliant. With long time-exposures, which might last throughout the night, his photographs often record details that the human eye is not able to perceive. Kenna is particularly well-known for the intimate scale of his photography and his meticulous personal printing style."
+    },
+    {
+     "url": "https://printsales.thephotographersgallery.org.uk/exhibitions/58/overview/",
+     "title": "Michael Kenna: Shin Shin (しんしん) – The Photographers' Gallery, Print Sales (27.11.2025–25.1.2026)",
+     "excerpt": "Many of Kenna’s images are made at dawn or at night, often using long exposures, some lasting up to ten hours. Primarily working with a 120 mm analogue camera and printing each image by hand in the darkroom, he creates luminous silver gelatin prints that he describes as, “an oasis, a calm place of rest, a catalyst for imagination.”"
+    },
+    {
+     "url": "https://blog.photoeye.com/2021/02/michael-kenna-new-images-from-japan.html",
+     "title": "Michael Kenna: New Images from Japan – photo-eye Blog (2021)",
+     "excerpt": "“I often think of my work as visual haiku. It is an attempt to evoke and suggest through as few elements as possible rather than to describe with tremendous detail.”"
+    }
+   ],
+   "projects": [
+    {
+     "key": "kenna-hokkaido",
+     "title": "Hokkaido",
+     "year_from": 2002,
+     "year_to": 2023,
+     "sources": [
+      {
+       "url": "https://www.michaelkenna.com/interviews/B&WMICHAEL24.pdf",
+       "title": "The Zen Landscape: Michael Kenna’s Japan: A Love Story – Interview von Mark Edward Harris, Black & White Magazine 168 (2024), PDF auf michaelkenna.com",
+       "excerpt": "I feel the starkness of Hokkaido’s winters accentuates an awareness of one’s immediate environment. The reduction of sensory distractions, leafless trees, absence of color, eerie silences, demands a more concentrated and pure focus on the land. These conditions have been of the utmost importance in my ongoing creative process."
+      },
+      {
+       "url": "https://www.michaelkenna.com/interviews/B&WMICHAEL24.pdf",
+       "title": "The Zen Landscape: Michael Kenna’s Japan: A Love Story – Interview von Mark Edward Harris, Black & White Magazine 168 (2024), PDF auf michaelkenna.com",
+       "excerpt": "I prefer “conditions”—snow, rain, fog, clouds, wind, et cetera—for my photographs."
+      },
+      {
+       "url": "https://www.michaelkenna.com/interviews/B&WMICHAEL24.pdf",
+       "title": "The Zen Landscape: Michael Kenna’s Japan: A Love Story – Interview von Mark Edward Harris, Black & White Magazine 168 (2024), PDF auf michaelkenna.com",
+       "excerpt": "I like to describe and compare the frozen snow-covered landscapes to sumi-e ink paintings on a white canvas. Everything is reduced to visual haiku—a few elements suggest a whole universe."
+      },
+      {
+       "url": "https://www.peterfetterman.com/blog/468-1349-michael-kenna/",
+       "title": "#1349 – Michael Kenna, Hillside Fence, Study 9 – Peter Fetterman Gallery, Daily Blog",
+       "excerpt": "Michael Kenna has been revisiting and capturing some of the same scenes in Hokkaido for over two decades. At first glance, many may think these photographs are all about simplicity. But as you dive deeper, the endless variations emerge, with ever-changing light, snow levels, and subtle shifts in perspective."
+      }
+     ],
+     "images": [
+      {
+       "key": "kenna-prolonged-snow-fence",
+       "title": "Prolonged Snow Fence, Teshikaga, Hokkaido, Japan",
+       "year": 2007,
+       "location": "Teshikaga, Hokkaido, Japan",
+       "tags": [
+        "landschaft",
+        "schnee",
+        "minimalismus",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.peterfetterman.com/artists/91-michael-kenna/works/37832-michael-kenna-prolonged-snow-fence-teshikaga-hokkaido-japan-2007-printed-2019/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/peterfetterman/images/view/6769216b4c97b68e4c513822bcb7b24fj.jpg",
+       "sources": []
+      },
+      {
+       "key": "kenna-torii-gate-shosanbetsu",
+       "title": "Torii Gate, Study 3, Shosanbetsu, Hokkaido, Japan",
+       "year": 2014,
+       "location": "Shosanbetsu, Hokkaido, Japan",
+       "tags": [
+        "landschaft",
+        "küste",
+        "minimalismus",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.peterfetterman.com/artists/91-michael-kenna/works/49086-michael-kenna-torii-gate-study-3-shosanbetsu-hokkaido-japan-2014/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/peterfetterman/images/view/2aa6e7ab89a479ecf9e6d48e0ffd9d4b.jpg",
+       "sources": []
+      },
+      {
+       "key": "kenna-philosophers-tree",
+       "title": "Philosopher’s Tree, Study 7, Biei, Hokkaido, Japan",
+       "year": 2009,
+       "location": "Biei, Hokkaido, Japan",
+       "tags": [
+        "landschaft",
+        "baum",
+        "schnee",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.peterfetterman.com/artists/91-michael-kenna/works/58844-michael-kenna-philosophers-tree-study-7-biei-hokkaido-japan-2009/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/peterfetterman/images/view/ffd5408eeb934e1e8b858032ca5c0fc4p.png",
+       "sources": [
+        {
+         "url": "https://www.michaelkenna.com/interviews/PopPhotointerview2023.pdf",
+         "title": "Interview Graeme Green mit Michael Kenna, B+W (2023), PDF auf michaelkenna.com",
+         "excerpt": "There was also the Philosopher’s Tree in Biei, Hokkaido, a gorgeous tree in the middle of a field, which I would photograph in winter when the field was covered in snow. It became extremely popular – coachloads of photographers on guided tours of Hokkaido would come to photograph it.",
+         "kind": "fotograf",
+         "author": "Michael Kenna",
+         "aspect": "rezeption",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "kenna-tracks-in-snow-biei",
+       "title": "Tracks in Snow, Biei, Hokkaido, Japan",
+       "year": 2013,
+       "location": "Biei, Hokkaido, Japan",
+       "tags": [
+        "landschaft",
+        "schnee",
+        "minimalismus",
+        "schwarzweiß"
+       ],
+       "source_url": "https://printsales.thephotographersgallery.org.uk/exhibitions/58/works/artworks-35966-michael-kenna-tracks-in-snow-biei-hokkaido-japan-2013/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/tpgallery/images/view/de548e324902e82949e1b65d366cb2d6/printsalesgallery-thephotographers-gallery-michael-kenna-tracks-in-snow-biei-hokkaido-japan-2013.jpg",
+       "sources": []
+      },
+      {
+       "key": "kenna-somewhere-only-we-know",
+       "title": "Somewhere Only We Know, Wakoto, Hokkaido, Japan",
+       "year": 2002,
+       "location": "Wakoto, Hokkaido, Japan",
+       "tags": [
+        "landschaft",
+        "wasser",
+        "baum",
+        "schwarzweiß"
+       ],
+       "source_url": "https://printsales.thephotographersgallery.org.uk/exhibitions/58/works/artworks-35963-michael-kenna-somewhere-only-we-know-wakoto-hokkaido-japan-2002/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/tpgallery/images/view/853b42cf72e720a86ff57f885c2c1b81/printsalesgallery-thephotographers-gallery-michael-kenna-somewhere-only-we-know-wakoto-hokkaido-japan-2002.jpg",
+       "sources": []
+      },
+      {
+       "key": "kenna-mt-kaibetsu",
+       "title": "Mt. Kaibetsu, Koshimizu, Hokkaido",
+       "year": 2004,
+       "location": "Koshimizu, Hokkaido, Japan",
+       "tags": [
+        "landschaft",
+        "berge",
+        "schnee",
+        "minimalismus",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.peterfetterman.com/artists/91-michael-kenna/works/58841-michael-kenna-mt.-kaibetsu-koshimizu-hokkaido-2004/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/peterfetterman/images/view/af6a0907a14973d39a9b09251d862e3bj.jpg",
+       "sources": [
+        {
+         "url": "https://www.peterfetterman.com/blog/671-1174-michael-kenna-mt.-kaibetsu-koshimizu-hokkaido-2004-printed-2009/",
+         "title": "#1174 – Michael Kenna, Mt. Kaibetsu, Koshimizu, Hokkaido – Peter Fetterman Gallery, Daily Blog (Zitat Kenna)",
+         "excerpt": "Working initially in Japan and then further afield in Asia reaffirmed for me what many artists, such as Albers, Brandt and Rothko, had already taught me: it is not necessary, or even desirable, to fill a rectangle with details. This “empty” white field of snow, shaded from grey to white, invites me, and I hope other viewers, to wander into its open expanse, leaving our tracks behind, before gazing into the distance where a magical mountain appears, floating on the horizon, almost as a mirage.",
+         "kind": "fotograf",
+         "author": "Michael Kenna",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "kenna-kussharo-lake-tree",
+       "title": "Kussharo Lake Tree, Study 8, Kotan, Hokkaido",
+       "year": 2008,
+       "location": "Kotan, Kussharo Lake, Hokkaido, Japan",
+       "tags": [
+        "landschaft",
+        "baum",
+        "wasser",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.peterfetterman.com/artists/91-michael-kenna/works/36221-michael-kenna-kussharo-lake-tree-study-8-kotan-hokkaido-2008-printed-2018/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/peterfetterman/images/view/244df55d7299a967bcfbb692945851f6j.jpg",
+       "sources": [
+        {
+         "url": "https://www.michaelkenna.com/interviews/PopPhotointerview2023.pdf",
+         "title": "Interview Graeme Green mit Michael Kenna, B+W (2023), PDF auf michaelkenna.com",
+         "excerpt": "There was a tree I called the Kussharo Lake tree, which was cut down because people were climbing it and sitting in the branches – it was considered a hazard.",
+         "kind": "fotograf",
+         "author": "Michael Kenna",
+         "aspect": "rezeption",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "kenna-dakekanba-snow-barriers",
+       "title": "Dakekanba and Snow Barriers, Hokkaido, Japan",
+       "year": 2020,
+       "location": "Hokkaido, Japan",
+       "tags": [
+        "landschaft",
+        "baum",
+        "schnee",
+        "schwarzweiß"
+       ],
+       "source_url": "https://printsales.thephotographersgallery.org.uk/exhibitions/58/works/artworks-35826-michael-kenna-dakekanba-and-snow-barriers-hokkaido-japan-2020/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/tpgallery/images/view/89c7f1569e64dba7f62a2c2c5c65345c/printsalesgallery-thephotographers-gallery-michael-kenna-dakekanba-and-snow-barriers-hokkaido-japan-2020.jpg",
+       "sources": [
+        {
+         "url": "https://www.michaelkenna.com/interviews/B&WMICHAEL24.pdf",
+         "title": "The Zen Landscape: Michael Kenna’s Japan: A Love Story – Interview von Mark Edward Harris, Black & White Magazine 168 (2024), PDF auf michaelkenna.com",
+         "excerpt": "They are also fiercely independent, graphically beautiful and seem quite happy to wait around in the cold for many hours while I make long time exposures.",
+         "kind": "fotograf",
+         "author": "Michael Kenna",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "kenna-ice-floe-cape-hinode",
+       "title": "Ice Floe, Cape Hinode, Hokkaido, Japan",
+       "year": 2005,
+       "location": "Cape Hinode, Hokkaido, Japan",
+       "tags": [
+        "landschaft",
+        "küste",
+        "eis",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.peterfetterman.com/artists/91-michael-kenna/works/35682-michael-kenna-ice-floe-cape-hinode-hokkaido-japan-2005-printed-2006/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/peterfetterman/images/view/61e3b27d0ffcae2c1b5a24bee67bd272j.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "waite",
+   "name": "Charlie Waite",
+   "born": 1949,
+   "sources": [
+    {
+     "url": "https://www.charliewaite.com/about-avenue",
+     "title": "About Charlie – charliewaite.com",
+     "excerpt": "He was born in 1949 and worked as an actor in British theatre and television for the first ten years of his professional life. Throughout this period, he became fascinated by theatrical lighting and design. Gradually, the landscape and the way it can be revealed to us through light and shade stole him away from the acting profession."
+    },
+    {
+     "url": "https://www.charliewaite.com/about-avenue",
+     "title": "About Charlie – charliewaite.com",
+     "excerpt": "Charlie is the owner and founder of Light and Land, the UK’s leading photographic workshop and tour company."
+    },
+    {
+     "url": "https://www.charliewaite.com/silent-exchange",
+     "title": "Silent Exchange – charliewaite.com",
+     "excerpt": "Stillness, the first volume in Silent Exchange , brings together photographs made by Charlie across many years and many places. Each reflects a moment when the elements within the frame seemed to settle into their own sense of balance - a stillness discovered through looking, composing and waiting."
+    }
+   ],
+   "projects": [
+    {
+     "key": "waite-colour-landscapes",
+     "title": "Colour – Landscapes (Farblandschaften aus dem Archiv)",
+     "year_from": 1984,
+     "year_to": 2017,
+     "sources": [
+      {
+       "url": "https://www.charliewaite.com",
+       "title": "Charlie Waite – Startseite (Zitat Hugh Mooney, Royal West of England Academy)",
+       "excerpt": "His photographer’s eye selects with such precision that often what we see in his images are beautiful designs, some verging on abstraction, and one might almost believe that man’s use of the land, where shown, has an aesthetic as well as a productive purpose. His pictures have luminosity, an inner quietness and possess a sense of “being there”."
+      },
+      {
+       "url": "https://www.onlandscape.co.uk/2019/12/behind-the-photograph-charlie-waite/",
+       "title": "Behind the Photograph – An interview with Charlie Waite (Tim Parkin), On Landscape, 8.12.2019 (Frage Tim Parkin)",
+       "excerpt": "There’s a dominant school of photographic composition that is very David Muench - foreground/background, powerfully forced compositions - but your pictures are almost the antithesis. They are very much in a more painterly frame of reference if anything."
+      },
+      {
+       "url": "https://www.onlandscape.co.uk/2019/12/behind-the-photograph-charlie-waite/",
+       "title": "Behind the Photograph – An interview with Charlie Waite (Tim Parkin), On Landscape, 8.12.2019",
+       "excerpt": "I’ve often thought of landscapes a bit like interior design, that’s the only analogy I can think of. Where something looks good if it’s got something else to support it. That probably does go back to the theatre and set design."
+      },
+      {
+       "url": "https://www.onlandscape.co.uk/2019/12/behind-the-photograph-charlie-waite/",
+       "title": "Behind the Photograph – An interview with Charlie Waite (Tim Parkin), On Landscape, 8.12.2019",
+       "excerpt": "I also want the landscape to present itself, in what I say is one of it’s best performances. I’m not very good with any aberrations or any wonky bits!"
+      }
+     ],
+     "images": [
+      {
+       "key": "waite-willoughby-hedge",
+       "title": "Willoughby Hedge, Wiltshire, England",
+       "year": 2000,
+       "location": "Willoughby Hedge, Wiltshire, England",
+       "tags": [
+        "landschaft",
+        "baum",
+        "feld",
+        "farbe"
+       ],
+       "source_url": "https://www.charliewaite.com/colour-landscapes",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/67c8a0f5cca6080920253318/1742155453044-JVKATAXJ9S9CZZNE734E/060017-Willoughby+Hedge-Wiltshire-England.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "waite-young-chestnut-tree",
+       "title": "Young Chestnut Tree, Dorset, England",
+       "year": 1984,
+       "location": "Dorset, England",
+       "tags": [
+        "landschaft",
+        "baum",
+        "himmel",
+        "farbe"
+       ],
+       "source_url": "https://www.charliewaite.com/colour-landscapes",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/67c8a0f5cca6080920253318/1741712225366-XO9OE5JOKPRU0M7AX12A/Young-Chestnut-Tree-Dorset.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "waite-sossusvlei",
+       "title": "Sossusvlei, Namibia",
+       "year": 2004,
+       "location": "Sossusvlei, Namibia",
+       "tags": [
+        "landschaft",
+        "wüste",
+        "panorama",
+        "farbe"
+       ],
+       "source_url": "https://www.charliewaite.com/colour-landscapes",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/67c8a0f5cca6080920253318/1742491115221-NS45W40UE9ZD17AQCFKN/Sossusvlei%2C+Namibia.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "waite-san-quirico-dorcia",
+       "title": "San Quirico d'Orcia, Tuscany, Italy",
+       "year": 1990,
+       "location": "San Quirico d'Orcia, Toskana, Italien",
+       "tags": [
+        "landschaft",
+        "wetter",
+        "hügel",
+        "farbe"
+       ],
+       "source_url": "https://www.charliewaite.com/colour-landscapes",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/67c8a0f5cca6080920253318/1742576301671-M4XB72FQ1N32PUBUHE3Z/San+Quirico+d%27Orcia+Tuscany.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "waite-mount-fuji-study-3",
+       "title": "Mount Fuji Study 3, Japan",
+       "year": 2000,
+       "location": "Fuji, Japan",
+       "tags": [
+        "landschaft",
+        "berge",
+        "vordergrund",
+        "farbe"
+       ],
+       "source_url": "https://www.charliewaite.com/colour-landscapes",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/67c8a0f5cca6080920253318/1742570501572-YRN5CAPGHLPNMR3MOUO2/Mount+Fuji+Study+3%2C+Japan+2000.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "waite-valensole-study-2",
+       "title": "Valensole Study 2, France",
+       "year": 2004,
+       "location": "Valensole, Provence, Frankreich",
+       "tags": [
+        "landschaft",
+        "feld",
+        "linien",
+        "farbe"
+       ],
+       "source_url": "https://www.charliewaite.com/colour-landscapes",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/67c8a0f5cca6080920253318/1742156905519-B4W4ZEF4G2HBFHSNADE9/Valensole%2C+Provence%2C+France.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "waite-south-of-granada",
+       "title": "South of Granada, Andalucia, Spain",
+       "year": 2017,
+       "location": "Andalusien, Spanien",
+       "tags": [
+        "landschaft",
+        "baum",
+        "wolke",
+        "farbe"
+       ],
+       "source_url": "https://www.charliewaite.com/colour-landscapes",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/67c8a0f5cca6080920253318/1742161511952-PUCSAOAP8GI5ZGARKM9T/South+Of+Granada%2C+Andalusia%2C+Spain_sm.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "waite-rydal-water",
+       "title": "Rydal Water, Cumbria, England",
+       "year": null,
+       "location": "Rydal Water, Cumbria, England",
+       "tags": [
+        "landschaft",
+        "see",
+        "dunst",
+        "farbe"
+       ],
+       "source_url": "https://www.charliewaite.com/colour-landscapes",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/67c8a0f5cca6080920253318/1741720996958-LBYI8CCXHSHDGXRA24EY/Rydal+Water+Boathouse+lr.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "waite-west-of-child-okeford",
+       "title": "West of Child Okeford, Cranborne Chase, Dorset, England",
+       "year": 2017,
+       "location": "Cranborne Chase, Dorset, England",
+       "tags": [
+        "landschaft",
+        "baum",
+        "dunst",
+        "farbe"
+       ],
+       "source_url": "https://www.charliewaite.com/colour-landscapes",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/67c8a0f5cca6080920253318/1743091366180-7WUQJAFHM0L5ING8FKM7/WEST+OF+CHILD+OAKFORD+v3.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.digitalcameraworld.com/news/landscape-master-charlie-waite-shares-the-stories-behind-five-of-his-photographs",
+         "title": "Landscape master Charlie Waite shares stories behind five of his top photographs – Digital Camera World (Lauren Scott, 2020)",
+         "excerpt": "I was suddenly aware of the middle distance being slightly soft, and yet the far distance being sharp, and of course the front of the image being sharp. And then I found out what was responsible for the unsharp area in the middle of the image, and it was a breeze that had just blown through a tunnel as it were, and only affected that middle area, hence the front of the image being sharp and the rear being sharp.",
+         "kind": "fotograf",
+         "author": "Charlie Waite",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://www.digitalcameraworld.com/news/landscape-master-charlie-waite-shares-the-stories-behind-five-of-his-photographs",
+         "title": "Landscape master Charlie Waite shares stories behind five of his top photographs – Digital Camera World (Lauren Scott, 2020)",
+         "excerpt": "And the blue trees were blue to my eye, and sometimes it’s a consequence of the material, the media you are using, be it digital or film, but it was just the most wonderful phenomenon.",
+         "kind": "fotograf",
+         "author": "Charlie Waite",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "cornish",
+   "name": "Joe Cornish",
+   "sources": [
+    {
+     "url": "https://www.joecornish.co.uk",
+     "title": "Joe Cornish – Startseite (joecornish.co.uk)",
+     "excerpt": "He works in the eye-witness tradition, creating images which are faithful to the subject. He is recognised for his grand landscapes of mountains, coast, moorland and woodland, particularly in the UK."
+    },
+    {
+     "url": "https://www.joecornish.co.uk/background",
+     "title": "Background – joecornish.co.uk",
+     "excerpt": "Joe’s goals were completely re-set after working as expedition photographer for Raleigh International in Alaska during the summer of 1991. That experience inspired his belief in the importance of preserving wilderness and wild land globally. Landscape photography soon became his focus, at around the same time as Joe moved to North Yorkshire in 1993."
+    },
+    {
+     "url": "https://www.joecornish.co.uk/background",
+     "title": "Background – joecornish.co.uk",
+     "excerpt": "Having worked consistently on landscape in the north of England, Scotland and beyond for several years, Joe was asked by Eddie Ephraums, the commissioning editor at Aurum/Argentum, to write a book on his photographic practice, which led to the publication of First Light in 2003."
+    }
+   ],
+   "projects": [
+    {
+     "key": "cornish-moor",
+     "title": "Moor (North York Moors und Moorland Nordbritanniens)",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://www.joecornish.co.uk/gallery/moor",
+       "title": "Moor – Galerie, joecornish.co.uk",
+       "excerpt": "Living on the edge of the North York Moors National Park, moorland is the dominant wild landscape archetype of our region. Although lacking the obvious drama of the Scottish Highlands or the Lake District these Moors still create brilliant viewpoints and details through their combination of windswept plateaus and deep valleys (dales)."
+      },
+      {
+       "url": "https://www.yorkshirepost.co.uk/news/joe-cornish-eye-for-a-magic-moment-1985205",
+       "title": "Joe Cornish: Eye for a magic moment – The Yorkshire Post",
+       "excerpt": "\"I don't wait for hours, anticipation is the critical watchword. Mostly things work out very well because I always try to load the dice in my favour. You hope the weather will unfold in the way you want."
+      },
+      {
+       "url": "https://www.yorkshirepost.co.uk/news/joe-cornish-eye-for-a-magic-moment-1985205",
+       "title": "Joe Cornish: Eye for a magic moment – The Yorkshire Post",
+       "excerpt": "It's on the edge of the weather, that transition between one type of weather to another, the edge of the time of day, possibly the edge of a cliff. The edge will give you an edge.\""
+      },
+      {
+       "url": "https://www.yorkshirepost.co.uk/news/joe-cornish-eye-for-a-magic-moment-1985205",
+       "title": "Joe Cornish: Eye for a magic moment – The Yorkshire Post",
+       "excerpt": "In practical terms, it's a commitment to lug a heavy field camera and a big tripod up and down hillsides which even sheep find tricky. \"I have to use a tripod, it's akin to easel painting against a quick sketch,\" says Joe."
+      }
+     ],
+     "images": [
+      {
+       "key": "cornish-roseberry-late-summer",
+       "title": "Roseberry, Late Summer",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "moor",
+        "licht",
+        "farbe"
+       ],
+       "source_url": "https://www.joecornish.co.uk/gallery/moor",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/6a05d38faab2af641082b5fc/2974cdeb-7c16-436d-8b09-4950f6599559/Roseberry_Late_summer-scaled.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.yorkshirepost.co.uk/news/joe-cornish-eye-for-a-magic-moment-1985205",
+         "title": "Joe Cornish: Eye for a magic moment – The Yorkshire Post",
+         "excerpt": "\"It's a wonderful backdrop for a landscape photographer and Roseberry Topping is such a distinctive landmark. People relate to it personally.",
+         "kind": "fotograf",
+         "author": "Joe Cornish",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "cornish-roseberry-mid-summer-evening",
+       "title": "Roseberry, Mid Summer Evening",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "moor",
+        "abendlicht",
+        "panorama"
+       ],
+       "source_url": "https://www.joecornish.co.uk/gallery/moor",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/6a05d38faab2af641082b5fc/62dae71e-ccfb-4a3e-9e4e-91054935a5b4/Roseberry_Mid_Summer_evening-scaled.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "cornish-hasty-bank-urra-moor-snow",
+       "title": "Hasty Bank from Urra Moor, Snow Blanket",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "moor",
+        "schnee",
+        "vordergrund"
+       ],
+       "source_url": "https://www.joecornish.co.uk/gallery/moor",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/6a05d38faab2af641082b5fc/f9b001dd-9d9a-4b2e-ab25-b3c540f61ab6/HastyBank_from-Urra_Moor_Snow_blanket-scaled.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.yorkshirepost.co.uk/news/joe-cornish-eye-for-a-magic-moment-1985205",
+         "title": "Joe Cornish: Eye for a magic moment – The Yorkshire Post",
+         "excerpt": "\"On so many days when the snow is around, you have to go out to catch one of those wonderful clearances in the sky that give you such an exciting moment.",
+         "kind": "fotograf",
+         "author": "Joe Cornish",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "cornish-hawnby-moor-hoar-frost",
+       "title": "Hawnby Moor, Hoar Frost",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "moor",
+        "frost",
+        "nebel"
+       ],
+       "source_url": "https://www.joecornish.co.uk/gallery/moor",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/6a05d38faab2af641082b5fc/c45c54c8-da24-4776-ab89-6ead32c00e7b/Hawnby_Moor_hoar_frost-scaled.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "cornish-hawnby-sunrise",
+       "title": "Hawnby Sunrise",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "nebel",
+        "morgenlicht",
+        "tal"
+       ],
+       "source_url": "https://www.joecornish.co.uk/gallery/moor",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/6a05d38faab2af641082b5fc/1d603dab-3141-4b13-af1e-03f82fab9b81/Hawnby-Sunrise.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "cornish-winters-rage",
+       "title": "Winter’s Rage",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "moor",
+        "schnee",
+        "wetter"
+       ],
+       "source_url": "https://www.joecornish.co.uk/gallery/moor",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/6a05d38faab2af641082b5fc/17e943d1-b6a4-446d-8ed5-a9d9e45f5f88/Winters_Rage-scaled.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "cornish-callanish-rain",
+       "title": "Callanish Rain",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "steinkreis",
+        "wetter",
+        "licht"
+       ],
+       "source_url": "https://www.joecornish.co.uk/gallery/moor",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/6a05d38faab2af641082b5fc/0f250212-9f59-444b-a92b-765fb06cb137/CallanishRain-scaled.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "cornish-carbon-sunk",
+       "title": "Carbon Sunk",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "moor",
+        "berge",
+        "vordergrund"
+       ],
+       "source_url": "https://www.joecornish.co.uk/gallery/moor",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/6a05d38faab2af641082b5fc/c4de0dcb-ef67-4301-8748-6b8d6c235bd3/Carbon-Sunk-scaled.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "cornish-sunburst-loughrigg-tarn",
+       "title": "Sunburst, Loughrigg Tarn, Autumn",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "see",
+        "licht",
+        "wetter"
+       ],
+       "source_url": "https://www.joecornish.co.uk/gallery/moor",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/6a05d38faab2af641082b5fc/64949f4c-e0c7-4968-945c-2968ad13436d/Sunburst-Loughrigg-Tarn-autumn-scaled.jpg?format=1500w",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "strand",
+   "name": "Hans Strand",
+   "born": 1955,
+   "sources": [
+    {
+     "url": "https://www.hansstrand.se",
+     "title": "About Hans Strand – hansstrand.se",
+     "excerpt": "Hans Strand, born in 1955 in Marmaverken, Sweden. In 1990, after a nine-year career in mechanical engineering he decided to devote his life to landscape photography."
+    },
+    {
+     "url": "https://www.hansstrand.se",
+     "title": "About Hans Strand – hansstrand.se",
+     "excerpt": "The internationally awarded landscape photography is seldom a portrait of a place, but an expression of forces that create and mold a landscape. Hispictures, frozen in a static frame, still tell a story of movement, time and evolution."
+    },
+    {
+     "url": "https://iceland-photo-tours.com/articles/photographer-interviews/interview-with-hans-strand",
+     "title": "Interview with Hans Strand – Iceland Photo Tours",
+     "excerpt": "Too much of today's landscape photography is sensation oriented. I would like to see more quiet visual poetry rather than high mountains with hallelujah skies. Unfortunately, the Internet has made photography more and more stereotyped."
+    },
+    {
+     "url": "https://iceland-photo-tours.com/articles/photographer-interviews/interview-with-hans-strand",
+     "title": "Interview with Hans Strand – Iceland Photo Tours",
+     "excerpt": "At first, the inspiration came from North American landscape photographers like Ansel Adams and David Muench and later from all kinds of documentary photographers like Henri Cartier Bresson, Sebastiao Salgado, Edward Burtynsky etc."
+    }
+   ],
+   "projects": [
+    {
+     "key": "strand-iceland",
+     "title": "Iceland – Landscapes in Transition (Luftbilder)",
+     "year_from": 1995,
+     "year_to": 2026,
+     "sources": [
+      {
+       "url": "https://www.hansstrand.se",
+       "title": "Iceland – Landscapes in Transition – hansstrand.se",
+       "excerpt": "My love affair with Iceland started in 1995. At that time Iceland had not yet become the fix star for tourism as it has become today and few photographers had been there."
+      },
+      {
+       "url": "https://www.hansstrand.se",
+       "title": "Iceland – Landscapes in Transition – hansstrand.se",
+       "excerpt": "I have criss crossed the landscape with 4W-drives and spent 180 hours shooting aerials from planes and helicopters. I have tried to avoid the most popular tourist locations. This to make my own interpretations of a unique landscape."
+      },
+      {
+       "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+       "title": "Hans Strand: Making the Impossible, Possible – Nature Photographers Network (14.9.2022)",
+       "excerpt": "When I fly, I am very concentrated on composition. By moving the camera around in all directions, I try to find a good balance in the framing. I pay special attention to the corners of the frame, and when these are in harmony, I make the photograph. Most of the time, I try to avoid horizons in my aerials, which helps to make them more abstract."
+      },
+      {
+       "url": "https://www.onlandscape.co.uk/2014/10/hans-strand-2/",
+       "title": "Tim Parkin: Above and Below by Hans Strand – On Landscape (Buchbesprechung, 24.10.2014)",
+       "excerpt": "The key to the success of Hans' pictures are their beautifully balanced compositions. There are few images in his portfolio that only succeed because of their subject matter - the vast majority show a strong design sensibility marrying the subject matter with the photographic frame."
+      }
+     ],
+     "images": [
+      {
+       "key": "strand-glacier-surface-sidujokull",
+       "title": "Glacier Surface, Sidujökull, Iceland",
+       "year": 2018,
+       "location": "Island",
+       "tags": [
+        "landschaft",
+        "luftbild",
+        "eis",
+        "abstraktion"
+       ],
+       "source_url": "https://www.hansstrand.se/iceland-gallery",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5992cb1c15d5db79b40171aa/1630827775738-FXZNYO5KM0CQUP3RTD7E/1_Glacier+Surface%2C+Siduj%C3%B6kull%2C+Iceland+2018.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "strand-grimsvotn-volcano",
+       "title": "Grimsvötn Volcano, Iceland",
+       "year": 2018,
+       "location": "Island",
+       "tags": [
+        "landschaft",
+        "luftbild",
+        "vulkan",
+        "eis"
+       ],
+       "source_url": "https://www.hansstrand.se/iceland-gallery",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5992cb1c15d5db79b40171aa/1630827833101-T29GIL5U11VNHLPKYPPL/2_Grimsv%C3%B6tn+Volcano%2C+Iceland+2018.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "strand-braided-river-i",
+       "title": "Braided River I, Iceland",
+       "year": 2017,
+       "location": "Island",
+       "tags": [
+        "landschaft",
+        "luftbild",
+        "wasser",
+        "abstraktion"
+       ],
+       "source_url": "https://www.hansstrand.se/iceland-gallery",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5992cb1c15d5db79b40171aa/1630827895399-8CJF6J4P0K3EEKKFBG5N/3_Braided+River+I%2C+Iceland+2017.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+         "title": "Hans Strand: Making the Impossible, Possible – Nature Photographers Network (14.9.2022)",
+         "excerpt": "I tend to shoot almost straight down from a fixed-winged airplane, and from a helicopter, I tend to shoot more with an angle towards the landscape under me.",
+         "kind": "fotograf",
+         "author": "Hans Strand",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "strand-ice-river",
+       "title": "Ice River, Iceland",
+       "year": 2018,
+       "location": "Island",
+       "tags": [
+        "landschaft",
+        "luftbild",
+        "wasser",
+        "muster"
+       ],
+       "source_url": "https://www.hansstrand.se/iceland-gallery",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5992cb1c15d5db79b40171aa/1630827965962-MFUMUF3TWSA70SG1WRLZ/4_Ice+River+%2C+Iceland+2018.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "strand-river-dance",
+       "title": "River Dance, Iceland",
+       "year": 2015,
+       "location": "Island",
+       "tags": [
+        "landschaft",
+        "luftbild",
+        "wasser",
+        "farbe"
+       ],
+       "source_url": "https://www.hansstrand.se/iceland-gallery",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5992cb1c15d5db79b40171aa/1630828011271-RNTBGM99PYH846M7TQNB/5_River+Dance%2C+Iceland+2015.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.hansstrand.se",
+         "title": "Water – Bringer of Life – hansstrand.se",
+         "excerpt": "On the South Coast of Iceland the deltas are gigantic and specially interesting to view from above. Since the land is almost completely flat, the influence of gravitation is reduced to almost zero. The water therefore flows in all kinds of directions, resulting in extremely complex flow patterns.",
+         "kind": "fotograf",
+         "author": "Hans Strand",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "strand-gulls-river-delta",
+       "title": "Gulls and River Delta, Iceland",
+       "year": 2015,
+       "location": "Island",
+       "tags": [
+        "landschaft",
+        "luftbild",
+        "wasser",
+        "farbe"
+       ],
+       "source_url": "https://www.hansstrand.se/iceland-gallery",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5992cb1c15d5db79b40171aa/1630828071644-X499BSNDHQVEE7YMXASI/6_Gulls+and+River+Delta%2C+Iceland+2015.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+         "title": "Hans Strand: Making the Impossible, Possible – Nature Photographers Network (14.9.2022)",
+         "excerpt": "Due to the high iron content in the volcanic soil and exposure to water, it transforms into iron oxide. Hence these rusty colours.",
+         "kind": "fotograf",
+         "author": "Hans Strand",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "strand-highland-river",
+       "title": "Highland River, Iceland",
+       "year": 2013,
+       "location": "Island",
+       "tags": [
+        "landschaft",
+        "luftbild",
+        "berge",
+        "wasser"
+       ],
+       "source_url": "https://www.hansstrand.se/iceland-gallery",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5992cb1c15d5db79b40171aa/1630828125685-Y4PE0Q4DXFTDYV288PVR/7_Highland+River%2C+Iceland+2013.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "strand-mountain-ridges",
+       "title": "Mountain Ridges, Iceland",
+       "year": 2013,
+       "location": "Island",
+       "tags": [
+        "landschaft",
+        "luftbild",
+        "berge",
+        "schnee"
+       ],
+       "source_url": "https://www.hansstrand.se/iceland-gallery",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5992cb1c15d5db79b40171aa/1630828271650-SHF8SLUTATUS2ZOJQ9RN/9_Mountain+Ridges%2C+Iceland+2013.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+         "title": "Hans Strand: Making the Impossible, Possible – Nature Photographers Network (14.9.2022)",
+         "excerpt": "The only time I include the horizon is when photographing mountains, as I believe it is relevant for this subject. I also try to avoid blue skies since I think it makes the images look too sweet. A cloudy sky gives the image a more serious character.",
+         "kind": "fotograf",
+         "author": "Hans Strand",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "strand-volcanic-hills-iv",
+       "title": "Volcanic Hills IV, Iceland",
+       "year": 2013,
+       "location": "Island",
+       "tags": [
+        "landschaft",
+        "luftbild",
+        "berge",
+        "farbe"
+       ],
+       "source_url": "https://www.hansstrand.se/iceland-gallery",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5992cb1c15d5db79b40171aa/1630828522723-OGJ20R2ZG0UEZ9DKWWBT/12_Volcanic+Hills+IV%2C+Iceland+2013.jpg?format=1500w",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "jungjin-lee",
+   "name": "Jungjin Lee",
+   "sources": [
+    {
+     "url": "https://bellasartesgallery.com/lee_bio.html",
+     "title": "Jungjin Lee: Wind Series – Bellas Artes Gallery (27.6.–26.7.2008)",
+     "excerpt": "In 1984 Lee received her BFA in ceramics at Hong-IK University in Seoul. The artist moved to New York City in 1988 and lived there until 1996. During this time she received a master’s degree in photography from New York University and worked as an assistant for photographer and filmmaker Robert Frank."
+    },
+    {
+     "url": "https://bellasartesgallery.com/lee_bio.html",
+     "title": "Jungjin Lee: Wind Series – Bellas Artes Gallery (27.6.–26.7.2008)",
+     "excerpt": "She brushes liquid emulsion onto large sheets of handmade rice and mulberry papers. Her brushstrokes sweep across the soft texture of the paper and capture the photographic image, revealing a painter’s sensibility in a gestural dance."
+    }
+   ],
+   "projects": [
+    {
+     "key": "lee-wind",
+     "title": "Wind",
+     "year_from": 2003,
+     "year_to": 2007,
+     "sources": [
+      {
+       "url": "https://aperture.org/exhibition/jungjin-lee-wind/",
+       "title": "Jungjin Lee: Wind – Aperture Gallery (25.3.–15.4.2011)",
+       "excerpt": "Beautiful in their composition and physical execution, Lee’s images present metaphors for an interior state of being and the forces that shape it. Lee’s landscapes are imbued with an elemental vastness, at once powerful and serene."
+      },
+      {
+       "url": "https://aperture.org/exhibition/jungjin-lee-wind/",
+       "title": "Jungjin Lee: Wind – Aperture Gallery (25.3.–15.4.2011) (Zitat Vicki Goldberg aus dem Buch Wind)",
+       "excerpt": "“In these photographs, subject is subservient to content. The subject may be a giant fog that eats a mountain and nibbles away the hills, or a cloud that has invaded a forest and advances steadily, softly, like a determined angel. The content is Jungjin Lee’s response to what she saw, shorthand notes from her spirit.”"
+      },
+      {
+       "url": "https://bellasartesgallery.com/lee_bio.html",
+       "title": "Jungjin Lee: Wind Series – Bellas Artes Gallery (27.6.–26.7.2008) (Zitat Jungjin Lee)",
+       "excerpt": "Out in the field, in the forest, or in the village, I am ready to press the shutter release when the scenery stirs my emotions and imagination. This moment of ‘absolute echo’ within myself travels through infinite time and space."
+      },
+      {
+       "url": "https://bellasartesgallery.com/lee_bio.html",
+       "title": "Jungjin Lee: Wind Series – Bellas Artes Gallery (27.6.–26.7.2008) (Zitat Jungjin Lee)",
+       "excerpt": "Wind is invisible and it contains more of inner thoughts than an actual fact or a definition. I don’t try to make my definite direction of wind in my works. That is why I like the title Wind. They are just landscape pictures..."
+      },
+      {
+       "url": "https://mimi.willamette.edu/a/6932",
+       "title": "Jungjin Lee: Wind – Philip Feldman Gallery + Project Space, PNCA",
+       "excerpt": "The photographs in Wind are selected from the 50 works in the series of the same name, which captures the ethereal quality of its namesake in a series of landscapes dominated by windswept expanses and foreboding cloud formations; panoramas that dare an adventurous spirit, while at the same time warn against casual entry."
+      }
+     ],
+     "images": [
+      {
+       "key": "lee-wind-04-49",
+       "title": "Wind 04-49",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "wolken",
+        "wetter",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.jungjinlee.com/wind",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534d3e73e4b0626384c1be3e/1565710636720-SYJ10K5LVVVBX6QI1GNH/Wind+04-49.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "lee-wind-04-53",
+       "title": "Wind 04-53",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "wetter",
+        "horizont",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.jungjinlee.com/wind",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534d3e73e4b0626384c1be3e/1565710637791-S9EUBRKQXTR860OOVX6T/Wind+04-53.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "lee-wind-04-54",
+       "title": "Wind 04-54",
+       "year": 2004,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "horizont",
+        "minimalismus",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.jungjinlee.com/wind",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534d3e73e4b0626384c1be3e/1565710646088-PE2H1BEIZVQKK4M3YMZS/Wind+04-54.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://phillips.com/detail/jungjin-lee/UK040123/20",
+         "title": "Jungjin Lee, Wind 04-54 – Phillips, Photographs, London (Los 20)",
+         "excerpt": "This work is number 3 from the sold-out edition of 3 + 1 AP. The Metropolitan Museum of Art, New York, the National Museum of Modern and Contemporary Art, Korea and the Goeun Museum of Photography, Busan each holds another print of this image.",
+         "kind": "kurator",
+         "author": "Phillips",
+         "aspect": "rezeption",
+         "series_level": false
+        },
+        {
+         "url": "https://phillips.com/detail/jungjin-lee/UK040123/20",
+         "title": "Jungjin Lee, Wind 04-54 – Phillips, Photographs, London (Los 20)",
+         "excerpt": "Gelatin silver emulsion on Korean mulberry paper. Sheet: 105 x 210 cm (41 3/8 x 82 5/8 in.)",
+         "kind": "kurator",
+         "author": "Phillips",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "lee-wind-04-55",
+       "title": "Wind 04-55",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "leere",
+        "horizont",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.jungjinlee.com/wind",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534d3e73e4b0626384c1be3e/1565710615948-4Z9SAKF9MN8H0YLZVSQP/Wind+04-55.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "lee-wind-06-59",
+       "title": "Wind 06-59",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "nebel",
+        "weite",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.jungjinlee.com/wind",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534d3e73e4b0626384c1be3e/1565711276123-HZ2P2X35FPO0TVGZ1K2I/Wind+06-59.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "lee-wind-07-62",
+       "title": "Wind 07-62",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "berge",
+        "tal",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.jungjinlee.com/wind",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534d3e73e4b0626384c1be3e/1565710640393-D629ZJDTPJEAVXP70FNJ/Wind+07-62.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "lee-wind-07-75",
+       "title": "Wind 07-75",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "schnee",
+        "tier",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.jungjinlee.com/wind",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534d3e73e4b0626384c1be3e/1565711259191-N7ZDH5W65OJLRI1OOF6E/Wind+07-75.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "lee-wind-07-82",
+       "title": "Wind 07-82",
+       "year": null,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "himmel",
+        "wetter",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.jungjinlee.com/wind",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534d3e73e4b0626384c1be3e/1565710677363-QCJ5C6DUAO3N7U8GULW1/Wind+07-82.jpg?format=1500w",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "van-der-molen",
+   "name": "Awoiska van der Molen",
+   "born": 1972,
+   "sources": [
+    {
+     "url": "https://huismarseille.nl/?p=19726",
+     "title": "Awoiska van der Molen: The Humanness of Our Lonely Selves – Huis Marseille, Museum voor Fotografie (2024)",
+     "excerpt": "In the summer of 2024 Huis Marseille will exhibit new work by the Dutch photographer Awoiska van der Molen (b. 1972 in Groningen). Critically acclaimed for her psychological landscape images, Awoiska van der Molen started out by photographing urban environments in 2003, shortly after graduating from art school."
+    },
+    {
+     "url": "https://www.awoiska.nl/biography",
+     "title": "Biography – awoiska.nl",
+     "excerpt": "Awoiska van der Molen is known for her monochrome analogue landscape images. Her work stems from an interest in the intangible, psychological qualities of her subjects."
+    },
+    {
+     "url": "https://www.awoiska.nl/books",
+     "title": "Books – awoiska.nl (Zitat Anna Dannemann, The Photographers’ Gallery, Deutsche Börse Photography Foundation Prize 2017)",
+     "excerpt": "“Spending long periods of time in solitude in remote landscapes, Awoiska van der Molen slowly uncovers the identity of the place, allowing it to impress upon her its specific emotional and physical qualities. Using her personal experience within the landscape for her creative process, she instinctively searches for a state of being in which the boundary between herself and her surroundings blur”."
+    }
+   ],
+   "projects": [
+    {
+     "key": "molen-nature-ii",
+     "title": "In Nature II (Landschaften 2015–2018)",
+     "year_from": 2015,
+     "year_to": 2018,
+     "sources": [
+      {
+       "url": "https://www.awoiska.nl/var/upload/essay_eng_maartje_vdheuvel.pdf",
+       "title": "Maartje van den Heuvel: Blank – Essay im Ausstellungsheft ‚Blanco‘, Foam Fotografiemuseum Amsterdam (Januar 2016), PDF auf awoiska.nl",
+       "excerpt": "Since 2009 Van der Molen has concentrated on the natural world. She seeks out diverse places, all the way from Japan or Norway to Crete. In this landscape work, the specific identity of the places in her final photographs is again irrelevant. Van der Molen is interested in the ‘being’ of the landscape and the experience of it."
+      },
+      {
+       "url": "https://www.awoiska.nl/var/upload/essay_eng_maartje_vdheuvel.pdf",
+       "title": "Maartje van den Heuvel: Blank – Essay im Ausstellungsheft ‚Blanco‘, Foam Fotografiemuseum Amsterdam (Januar 2016), PDF auf awoiska.nl",
+       "excerpt": "She often produces her prints in large- scale format, sometimes of more than two metres."
+      },
+      {
+       "url": "https://www.awoiska.nl/var/upload/essay_eng_maartje_vdheuvel.pdf",
+       "title": "Maartje van den Heuvel: Blank – Essay im Ausstellungsheft ‚Blanco‘, Foam Fotografiemuseum Amsterdam (Januar 2016), PDF auf awoiska.nl",
+       "excerpt": "Since she adds no descriptions or titles, she enables the viewer to experience them ‘with open senses’, or ‘blank’."
+      },
+      {
+       "url": "https://www.awoiska.nl/var/upload/essay_mulder_nl_eng.pdf",
+       "title": "Arjen Mulder: Larger than light – Essay in der Monografie ‚Blanco‘ (2017), PDF auf awoiska.nl",
+       "excerpt": "But a tree in all its glory in its natural setting requires an exposure of half an hour in the light of a crescent moon, or half a minute when the sun is low in the sky."
+      },
+      {
+       "url": "https://huismarseille.nl/?p=19726",
+       "title": "Awoiska van der Molen: The Humanness of Our Lonely Selves – Huis Marseille (2024)",
+       "excerpt": "For instance, her black-and-white landscape images taken between 2009 and 2021, with their many shades of black, grey, and white, are more than just a record of the physical characteristics of an expanse. During solitary walks in the remote wilderness, Van der Molen attempts to penetrate the essence of a place."
+      }
+     ],
+     "images": [
+      {
+       "key": "molen-382-14",
+       "title": "#382-14",
+       "year": 2015,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "baum",
+        "küste",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.awoiska.nl/works/2015-2018-nature",
+       "image_url": "https://www.awoiska.nl/var/upload/382_14.jpg",
+       "sources": [
+        {
+         "url": "https://www.awoiska.nl/var/upload/essay_mulder_nl_eng.pdf",
+         "title": "Arjen Mulder: Larger than light – Essay in der Monografie ‚Blanco‘ (2017), PDF auf awoiska.nl",
+         "excerpt": "The photographer isn’t projecting an image of what she expects from Nature; Nature projects its own image onto the camera, but only at that particular point in time for that particular photographer who has effaced herself so completely as to become part of what is happening.",
+         "kind": "kritik",
+         "author": "Arjen Mulder",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "molen-491-16",
+       "title": "#491-16",
+       "year": 2017,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "fels",
+        "licht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.awoiska.nl/works/2015-2018-nature",
+       "image_url": "https://www.awoiska.nl/var/upload/491_16.jpg",
+       "sources": []
+      },
+      {
+       "key": "molen-435-3",
+       "title": "#435-3",
+       "year": 2016,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "wasser",
+        "dunkelheit",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.awoiska.nl/works/2015-2018-nature",
+       "image_url": "https://www.awoiska.nl/var/upload/04435_3_2015.jpg",
+       "sources": []
+      },
+      {
+       "key": "molen-413-16",
+       "title": "#413-16",
+       "year": 2015,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "baum",
+        "meer",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.awoiska.nl/works/2015-2018-nature",
+       "image_url": "https://www.awoiska.nl/var/upload/05413_16_2015_copy.jpg",
+       "sources": []
+      },
+      {
+       "key": "molen-373-7",
+       "title": "#373-7",
+       "year": 2015,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "vegetation",
+        "hell",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.awoiska.nl/works/2015-2018-nature",
+       "image_url": "https://www.awoiska.nl/var/upload/08373_7_2015.jpg",
+       "sources": []
+      },
+      {
+       "key": "molen-380-14",
+       "title": "#380-14",
+       "year": 2015,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "gras",
+        "wasser",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.awoiska.nl/works/2015-2018-nature",
+       "image_url": "https://www.awoiska.nl/var/upload/09380_14_2015.jpg",
+       "sources": []
+      },
+      {
+       "key": "molen-422-7",
+       "title": "#422-7",
+       "year": 2015,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "meer",
+        "dämmerung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.awoiska.nl/works/2015-2018-nature",
+       "image_url": "https://www.awoiska.nl/var/upload/09422_7_2015.jpg",
+       "sources": []
+      },
+      {
+       "key": "molen-444-14",
+       "title": "#444-14",
+       "year": 2016,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "fels",
+        "dunkelheit",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.awoiska.nl/works/2015-2018-nature",
+       "image_url": "https://www.awoiska.nl/var/upload/02444_14.jpg",
+       "sources": [
+        {
+         "url": "https://www.awoiska.nl/var/upload/essay_eng_maartje_vdheuvel.pdf",
+         "title": "Maartje van den Heuvel: Blank – Essay im Ausstellungsheft ‚Blanco‘, Foam Fotografiemuseum Amsterdam (Januar 2016), PDF auf awoiska.nl",
+         "excerpt": "She seeks landscapes in which nature is dominant, or – as she puts it – where she can allow herself to be ‘absorbed, devoured, but also protected’ by the landscape.",
+         "kind": "kurator",
+         "author": "Maartje van den Heuvel",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "molen-448-18",
+       "title": "#448-18",
+       "year": 2018,
+       "location": "",
+       "tags": [
+        "landschaft",
+        "wald",
+        "dunkelheit",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.awoiska.nl/works/2015-2018-nature",
+       "image_url": "https://www.awoiska.nl/var/upload/448_18_2018.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 12,
+   "title": "Landschaftsfotografie: vom Erhabenen zur intimen Landschaft",
+   "period_from": 1850,
+   "period_to": 2025,
+   "sources": [],
+   "key_images": [
+    "kenna-mt-kaibetsu",
+    "kenna-philosophers-tree",
+    "burkett-aspen-grove",
+    "burkett-daybreak",
+    "barnbaum-circular-chimney-antelope-canyon",
+    "waite-willoughby-hedge",
+    "waite-west-of-child-okeford",
+    "cornish-hasty-bank-urra-moor-snow",
+    "strand-river-dance",
+    "strand-braided-river-i",
+    "lee-wind-04-54",
+    "molen-382-14"
+   ]
+  }
+ ]
+}

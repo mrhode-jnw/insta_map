@@ -66,10 +66,14 @@ def seed_order(path: Path) -> tuple:
     return (2 if "upgrade" in path.stem else 1, 0, path.name)
 
 
+TAG_ALIASES = {"schwarzweiss": "schwarzweiß", "strasse": "straße"}
+
+
 def norm_tags(tags) -> list[str]:
     out: list[str] = []
     for t in tags or []:
         t = t.strip().lower()
+        t = TAG_ALIASES.get(t, t)
         if t and t not in out:
             out.append(t)
     return out
