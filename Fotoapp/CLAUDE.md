@@ -10,7 +10,7 @@ Liegt im Repo `insta_map` im Unterordner `Fotoapp/`; Bilder und Datenbank (`data
 
 ## Ziel
 
-Mathias (fortgeschrittener Reise-, Landschafts- und Architekturfotograf) lernt an Bildern anderer Fotografen:
+Mathias (Reise- und Landschaftsfotograf auf fast professionellem Niveau; Architektur ist nicht sein Schwerpunkt) lernt an Bildern anderer Fotografen:
 - wie gute Bilder gebaut sind (Analyse),
 - wie sich die Fotografie in seinem Bereich entwickelt hat (Geschichte anhand konkreter Bilder),
 - durch eigenes Urteilen vor dem Aufdecken der Analyse (Lernmodus).
@@ -22,7 +22,7 @@ Eigene Bilder kommen erst in einer späteren Stufe dazu.
 1. **Quelle und Einschätzung strikt trennen.** Jede Faktenaussage (Name, Jahr, Ort, Projekt, Zitat, Einfluss) braucht eine hinterlegte Quelle mit URL. Alles Abgeleitete steht getrennt darunter unter der Überschrift „Meine Einschätzung“.
 2. **Nichts erfinden.** Keine Zitate, Jahreszahlen, Kamerainfos oder Biografiedetails ohne Quelle. Fehlt eine Quelle, steht dort: „Keine Quelle hinterlegt.“
 3. **Stabile Analysen.** Eine Analyse wird einmal erzeugt und gespeichert. Neu erzeugt wird nur auf ausdrücklichen Wunsch. Dann sieht das Modell die alte Analyse und muss jede Abweichung begründen. Die alte Version bleibt erhalten.
-4. **Niveau: fortgeschritten.** Keine Grundlagen wie Drittelregel, Belichtungsdreieck oder „führende Linien“ als Selbstzweck. Fokus auf Standpunkt, Moment, Licht, Ebenen, Weglassen, Farbe, Haltung, Sequenz.
+4. **Niveau: fast Profi.** Keine Grundlagen wie Drittelregel, Belichtungsdreieck oder „führende Linien“ als Selbstzweck. Keine Kameratechnik: keine Angaben zu Blende, Belichtungszeit, ISO, Belichtung oder Ausrüstung – auch nicht als Schätzung. Brennweite nur als Bildwirkung (Distanz, Raumverdichtung). Fokus auf Standpunkt, Moment, Licht, Ebenen, Weglassen, Farbe, Haltung, Sequenz.
 5. **Erst urteilen, dann lesen.** Im Lernmodus ist die Analyse verborgen, bis Mathias selbst geantwortet hat.
 6. **Sprache der Oberfläche und der Analysen: Deutsch.** Code, Bezeichner und Kommentare: Englisch.
 
@@ -72,6 +72,7 @@ Vorgeschlagene Kapitel (Inhalte erst beim Füllen mit Quellen belegen):
 8. Natur und Tiere: von der Expedition zur Naturschutzfotografie
 9. Zeitgenössische Landschaft: Mensch, Industrie, Klima
 10. Instagram und die Folgen
+11. Die Reise als Autorenprojekt: Roadtrip, Fremde, Blick von außen (ergänzt; Schwerpunkt Reise)
 
 ## Technik
 
@@ -95,9 +96,10 @@ Fotoapp/
     templates/
     static/
   prompts/
-    analysis_v1.md
-    learn_feedback_v1.md
-    chapter_draft_v1.md
+    analysis_v2.md         # aktuell (v1 bleibt für alte Analysen erhalten)
+    analysis_revision_v1.md
+    learn_feedback_v2.md
+    chapter_draft_v2.md
   data/            # images, thumbs, sehschule.db  (in .gitignore)
   seed/            # researched starter content: photographers, projects, images, sources, chapters
   migrations/

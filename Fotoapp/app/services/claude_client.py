@@ -7,10 +7,10 @@ import anthropic
 from app.config import PROMPTS_DIR, settings
 from app.schemas import AnalysisOut, AnalysisRevisionOut
 
-ANALYSIS_PROMPT = "analysis_v1"
+ANALYSIS_PROMPT = "analysis_v2"
 REVISION_PROMPT = "analysis_revision_v1"
-FEEDBACK_PROMPT = "learn_feedback_v1"
-CHAPTER_PROMPT = "chapter_draft_v1"
+FEEDBACK_PROMPT = "learn_feedback_v2"
+CHAPTER_PROMPT = "chapter_draft_v2"
 
 
 class ClaudeError(Exception):
