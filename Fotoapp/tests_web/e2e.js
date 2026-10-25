@@ -124,6 +124,31 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   ok(true, "encrypted thumbnails decrypted and shown");
   await shot("01-home");
 
+  // Theory: a lesson locks its drill until the test is passed
+  const lessons = lib.lessons || [];
+  const passLesson = async (lid, wrong = false) => {
+    const l = lessons.find(x => x.id === lid);
+    await page.goto(`${base}/Fotoapp/#/theorie/${lid}`); await waitText("Abschlusstest");
+    for (let n = 0; n < l.quiz.length; n++) {
+      const pick = wrong ? (l.quiz[n].correct + 1) % l.quiz[n].options.length : l.quiz[n].correct;
+      await page.check(`input[name="q${n}"][value="${pick}"]`);
+    }
+    await page.click('form[data-action="quiz"] button');
+    await waitText(wrong ? "noch nicht bestanden" : "bestanden.");
+  };
+  if (lessons.length) {
+    const first = lessons[0];
+    await page.goto(`${base}/Fotoapp/#/sehen`); await waitText("Worauf schauen?");
+    ok(await page.$(`a.dim.locked[href="#/theorie/${first.id}"]`) !== null, `drill "${first.id}" locked before the lesson`);
+    await page.goto(`${base}/Fotoapp/#/theorie`); await waitText("Theorie"); await shot("00-theorie");
+    await passLesson(first.id, true); ok(true, "failed test does not pass");
+    await passLesson(first.id); await shot("00b-lektion-test");
+    ok(files.has("sehschule/progress.enc@map-data"), "theory progress stored");
+    await page.goto(`${base}/Fotoapp/#/sehen`); await waitText("Worauf schauen?");
+    ok(await page.$(`input[name="dimension"][value="${first.id}"]`) !== null, `drill "${first.id}" unlocked after passing`);
+    for (const k of ["viewpoint", "moment", "omitted", "light"]) if (k !== first.id && lessons.some(x => x.id === k)) await passLesson(k);
+  }
+
   // Seeing drill
   await page.goto(`${base}/Fotoapp/#/sehen`); await waitText("Worauf schauen?");
   await page.check('input[value="light"]'); await page.selectOption('select[name="look"]', "30");

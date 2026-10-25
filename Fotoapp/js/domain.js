@@ -80,6 +80,18 @@ export const DIMENSIONS = [
   { key: "atmosphere", label: "Atmosphäre und Wetter", field: "atmosphere",
     q: "Was tun Wetter, Dunst, Wolken oder Jahreszeit in diesem Bild – und was wäre es bei klarem Mittagslicht?",
     hint: "Achte auf Luftperspektive, Kontrastabfall nach hinten, Wolkenschatten, nasse oder trockene Flächen." },
+  { key: "focus", label: "Schärfe und Unschärfe", field: "focus_plane",
+    q: "Wo liegt die Schärfe, wie tief reicht sie – und was gewinnt oder verliert das Bild dadurch?",
+    hint: "Vergleiche Vorder- und Hintergrund: Was ist lesbar, was wird zur Fläche oder Farbe?" },
+  { key: "order", label: "Bildordnung", field: "pictorial_order",
+    q: "Wie ist das Bild ins Gleichgewicht gebracht – wo liegt Gewicht, wo Spannung, in welche Richtung zieht es?",
+    hint: "Kneif die Augen zusammen: Welche Massen bleiben? Was ist Figur, was Grund?" },
+  { key: "surface", label: "Fläche und Raum", field: "surface_space",
+    q: "Liest du das Bild eher als Fläche (Muster, Geometrie, Rhythmus) oder als Raum – und wie erzeugt der Fotograf das?",
+    hint: "Achte auf Kanten, die Ebenen verbinden, auf Wiederholungen und darauf, ob Tiefe gezeigt oder unterdrückt wird." },
+  { key: "time", label: "Zeit und Bewegung", field: "time_motion",
+    q: "Wie viel Zeit steckt in diesem Bild – eingefroren, verwischt, gedehnt – und was macht das mit der Wirkung?",
+    hint: "Suche Bewegungsspuren: Wasser, Wolken, Menschen, Fahrzeuge. Was wäre bei 1/1000 s oder 30 s anders?" },
   { key: "sequence", label: "Sequenz", field: null },
 ];
 export const DIM = Object.fromEntries(DIMENSIONS.map(d => [d.key, d]));
@@ -103,6 +115,7 @@ export const CONSTRUCTION_LABELS = [
   ["light", "Licht und Tageszeit"], ["moment", "Moment"], ["layers", "Ebenen"], ["color", "Farbe / Tonwerte"],
   ["omitted", "Weggelassen"], ["edge", "Rahmen / Bildkante"], ["detail", "Detail"], ["focus_plane", "Schärfe und Tiefe"],
   ["scale", "Maßstab"], ["atmosphere", "Atmosphäre und Wetter"],
+  ["pictorial_order", "Bildordnung (Gewicht, Spannung, Richtung)"], ["surface_space", "Fläche und Raum"], ["time_motion", "Zeit und Bewegung"],
 ];
 export const referenceText = (data, field) => ((data?.construction || {})[field] || data?.[field] || "").trim();
 
