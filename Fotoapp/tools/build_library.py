@@ -96,8 +96,12 @@ class Library:
                 continue
             excerpt = s.get("excerpt", "")
             sid = source_id(scope, scope_id, url, excerpt)
-            if sid in self.sources and (self.sources[sid]["url"], self.sources[sid]["excerpt"]) != (url, excerpt):
-                raise SystemExit(f"Source id collision {sid}")
+            salt = 0
+            # On a hash collision probe deterministically; ids of earlier sources never change.
+            while sid in self.sources and (self.sources[sid]["url"], self.sources[sid]["excerpt"],
+                                           self.sources[sid]["scope"], self.sources[sid]["scope_id"]) != (url, excerpt, scope, scope_id):
+                salt += 1
+                sid = source_id(scope, scope_id, url, excerpt + f"#{salt}")
             entry = self.sources.setdefault(sid, {
                 "id": sid, "url": url, "title": s.get("title", ""), "excerpt": excerpt,
                 "accessed_at": s.get("accessed_at") or accessed, "scope": scope, "scope_id": scope_id,
