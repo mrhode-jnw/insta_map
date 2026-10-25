@@ -213,13 +213,13 @@ class Library:
 
 
 def q_to_s(text: str, ids: list[int]) -> str:
-    """[Q1, Q2] (position in the entry's own source list) -> [S<id>, S<id>]."""
+    """[Q1, Q2] (position in the entry's own source list) -> [S<id>, S<id>]; mixed groups like [Q7, S123] too."""
     def group(m: re.Match) -> str:
         def one(q: re.Match) -> str:
             k = int(q.group(1)) - 1
             return f"S{ids[k]}" if 0 <= k < len(ids) else q.group(0)
         return "[" + re.sub(r"Q(\d+)", one, m.group(1)) + "]"
-    return re.sub(r"\[(Q\d+(?:\s*,\s*Q\d+)*)\]", group, text or "")
+    return re.sub(r"\[([QS]\d+(?:\s*,\s*[QS]\d+)*)\]", group, text or "")
 
 
 def headers(url: str) -> dict:
