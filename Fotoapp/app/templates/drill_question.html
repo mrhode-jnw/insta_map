@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Sehübung {{ pos }}/{{ total }}{% endblock %}
+{% block content %}
+<p class="progress">Sehübung {{ pos }} von {{ total }} · <b>{{ dim.label }}</b></p>
+<figure class="hero learn"><img src="/media/{{ img.file_path }}" alt=""></figure>
+<form method="post" action="/sehen/answer/{{ img.id }}" id="questions" class="answers card"
+      onsubmit="this.querySelector('button').disabled=true; this.querySelector('.htmx-indicator').style.opacity=1;">
+  <input type="hidden" name="dimension" value="{{ dim.key }}">
+  <input type="hidden" name="looked" value="0">
+  <label>{{ dim.question }}<textarea name="answer" rows="5"></textarea></label>
+  <p class="muted small">{{ dim.hint }}</p>
+  <button>Aufdecken</button>
+  <span class="htmx-indicator">Analyse und Feedback werden geladen …</span>
+</form>
+{% include "partials/look_timer.html" %}
+{% endblock %}

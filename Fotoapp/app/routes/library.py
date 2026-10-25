@@ -281,7 +281,13 @@ def image_delete(iid: int, db: Session = Depends(get_db)):
 # --- Sources -----------------------------------------------------------------
 
 
-SCOPE_URL = {"photographer": "/photographers/{}", "project": "/projects/{}", "image": "/images/{}", "chapter": "/chapters/{}"}
+SCOPE_URL = {
+    "photographer": "/photographers/{}",
+    "project": "/projects/{}",
+    "image": "/images/{}",
+    "chapter": "/chapters/{}",
+    "concept": "/begriffe?id={}",
+}
 
 
 @router.post("/sources")

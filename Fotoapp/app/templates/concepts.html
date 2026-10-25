@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Seh-Begriffe – Sehschule{% endblock %}
+{% block content %}
+<h1>Seh-Begriffe</h1>
+<p class="lead">Begriffe, mit denen Fotografen und Kuratoren über Bilder sprechen – jeweils mit Quelle, Beispielbildern und einer Übung für unterwegs.</p>
+{% for d in dimensions if concepts.get(d.key) %}
+  <h2>{{ d.label }}</h2>
+  <ul class="concept-list">
+    {% for c in concepts[d.key] %}
+      <li><a href="/begriffe/{{ c.slug }}">{{ c.name }}</a>
+        <span class="muted small">{{ (c.exercise_md or "")[:140] }}</span></li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="muted">Noch keine Begriffe importiert.</p>
+{% endfor %}
+{% endblock %}

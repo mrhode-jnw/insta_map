@@ -38,6 +38,7 @@ def learn_session(
     tag: str = Form(""),
     chapter_id: str = Form(""),
     size: int = Form(4),
+    look_seconds: int = Form(60),
     db: Session = Depends(get_db),
 ):
     pool = db.scalars(select(Image)).all()
@@ -55,7 +56,7 @@ def learn_session(
     picked = (fresh + rest)[: max(3, min(5, size))]
     if not picked:
         return RedirectResponse("/learn?empty=1", status_code=303)
-    request.session["learn"] = {"ids": [i.id for i in picked], "pos": 0}
+    request.session["learn"] = {"ids": [i.id for i in picked], "pos": 0, "look": look_seconds if look_seconds in (0, 30, 60, 90) else 60}
     return RedirectResponse("/learn/current", status_code=303)
 
 
@@ -68,7 +69,7 @@ def learn_current(request: Request, db: Session = Depends(get_db)):
     return templates.TemplateResponse(
         request,
         "learn_question.html",
-        {"img": img, "pos": state["pos"] + 1, "total": len(state["ids"])},
+        {"img": img, "pos": state["pos"] + 1, "total": len(state["ids"]), "look": state.get("look", 0)},
     )
 
 

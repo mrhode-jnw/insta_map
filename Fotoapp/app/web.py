@@ -28,6 +28,10 @@ CONSTRUCTION_LABELS = [
 ]
 templates.env.globals["CONSTRUCTION_LABELS"] = CONSTRUCTION_LABELS
 
+from app.seeing import BY_KEY as _DIMS  # noqa: E402
+
+templates.env.filters["dimlabel"] = lambda key: _DIMS[key].label if key in _DIMS else key
+
 
 def _today_iso() -> str:
     from datetime import date

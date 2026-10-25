@@ -15,7 +15,7 @@ from sqlalchemy.orm import Session
 
 from app.config import SEED_DIR
 from app.db import SessionLocal
-from app.models import Chapter, ChapterImage, Image, Photographer, Project, Source
+from app.models import Chapter, ChapterImage, Concept, ConceptImage, Image, Photographer, Project, Source
 from app.routes.common import normalize_tags
 from app.services import images as image_service
 
@@ -165,7 +165,51 @@ def import_file(db: Session, path: Path, keys: dict[str, int], failed: list[str]
             pos += 1
             db.add(ChapterImage(chapter_id=ch.id, image_id=iid, position=pos))
         db.commit()
+    for c in data.get("concepts", []):
+        import_concept(db, c, keys, accessed)
+        stats.setdefault("concepts", 0)
+        stats["concepts"] += 1
+    db.commit()
     return stats
+
+
+def import_concept(db: Session, data: dict, keys: dict[str, int], accessed: date) -> Concept:
+    """Create or update a concept; [Q1]-style references become [S<id>] of its stored sources."""
+    concept = db.scalar(select(Concept).where(Concept.slug == data["key"]))
+    if concept is None:
+        concept = Concept(slug=data["key"], name=data["name"])
+        db.add(concept)
+        db.flush()
+    concept.name = data["name"]
+    concept.dimension = data.get("dimension", "")
+    concept.exercise_md = data.get("exercise_md", "")
+    add_sources(db, data.get("sources"), "concept", concept.id, accessed)
+    db.flush()
+    ids = []
+    for src in data.get("sources") or []:
+        sid = db.scalar(
+            select(Source.id).where(
+                Source.scope_type == "concept", Source.scope_id == concept.id, Source.url == src.get("url", "").strip()
+            )
+        )
+        ids.append(sid)
+
+    def one(m: re.Match) -> str:
+        n = int(m.group(1)) - 1
+        return f"S{ids[n]}" if 0 <= n < len(ids) and ids[n] else m.group(0)
+
+    def group(m: re.Match) -> str:
+        return "[" + re.sub(r"Q(\d+)", one, m.group(1)) + "]"
+
+    concept.summary_md = re.sub(r"\[(Q\d+(?:\s*,\s*Q\d+)*)\]", group, data.get("summary_md", ""))
+    linked = {ci.image_id for ci in concept.images}
+    for pos, ex in enumerate(data.get("example_images", []), start=1):
+        iid = keys.get(ex.get("key", ""))
+        if iid is None or iid in linked:
+            continue
+        linked.add(iid)
+        db.add(ConceptImage(concept_id=concept.id, image_id=iid, position=pos, note_md=ex.get("note", "")))
+    return concept
 
 
 def _seed_order(path: Path) -> tuple[int, int, str]:
@@ -173,6 +217,8 @@ def _seed_order(path: Path) -> tuple[int, int, str]:
     m = re.match(r"content_ch(\d+)", path.stem)
     if m:
         return (0, int(m.group(1)), path.name)
+    if "sehen" in path.stem:  # concepts reference images from all other files
+        return (3, 0, path.name)
     return (2 if "upgrade" in path.stem else 1, 0, path.name)
 
 

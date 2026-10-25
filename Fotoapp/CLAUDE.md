@@ -28,6 +28,11 @@ Eigene Bilder kommen erst in einer späteren Stufe dazu.
 
 ## Stufe 1 – Umfang
 
+### 0. Sehen lernen (Schwerpunkt, ergänzt)
+- **Sehübungen** (`/sehen`, Tabelle `drills`): je Bild ein Aspekt (Dimensionen in `app/seeing.py`), Frage eng gefasst, erst schauen (Timer), dann Antwort; aufgedeckt wird das passende Feld der gespeicherten Analyse; Feedback per `prompts/drill_feedback_v1.md` (Claude sieht das Bild).
+- **„Erst schauen“-Timer** auch im Lernmodus; tatsächliche Schauzeit wird gespeichert.
+- **Seh-Begriffe** (`/begriffe`, Tabellen `concepts`, `concept_images`, Quellen mit `scope_type=concept`): Kurztext nur aus Quellen, Übung für unterwegs, Beispielbilder mit „Meine Einschätzung“. Import aus `seed/content_sehen.json`.
+
 ### 1. Bibliothek
 - Struktur: Fotograf → Projekt → Bild.
 - Bild hinzufügen per Formular: Seiten-URL (Quelle), Bild-URL oder Datei-Upload, Fotograf, Projekt, Jahr (optional), Ort (optional), Schlagworte.

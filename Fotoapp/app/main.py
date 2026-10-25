@@ -11,7 +11,7 @@ from starlette.middleware.sessions import SessionMiddleware
 from app import auth
 from app.config import BASE_DIR, settings
 from app.db import SessionLocal, engine
-from app.routes import analysis, history, learn, library
+from app.routes import analysis, history, learn, library, seeing
 from app.seed import ensure_chapters
 
 
@@ -56,3 +56,4 @@ app.include_router(library.router)
 app.include_router(analysis.router)
 app.include_router(learn.router)
 app.include_router(history.router)
+app.include_router(seeing.router)

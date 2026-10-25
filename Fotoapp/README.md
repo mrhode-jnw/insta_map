@@ -22,6 +22,8 @@ Python 3.12+. `SECRET_KEY` erzeugen: `python3 -c "import secrets; print(secrets.
 
 | Bereich | Was |
 |---|---|
+| **Sehen lernen** | Sehübungen zu je einem Aspekt (Standpunkt, Distanz, Licht, Moment, Ebenen, Farbe, Weglassen): erst schauen (Timer 30–90 s), dann eine Beobachtung, dann genau dieser Teil der Analyse + Feedback von Claude, das das Bild selbst sieht. |
+| **Seh-Begriffe** | Vokabular mit Quellen (Szarkowski, Shore, Adams, Cartier-Bresson …), je mit Beispielbildern und einer Übung für unterwegs. |
 | **Bibliothek** | Fotograf → Projekt → Bild. Bild per Bild-URL oder Upload; Original unverändert in `data/images/`, Thumbnail in `data/thumbs/`. Quelle + Abrufdatum immer verlinkt. |
 | **Quellen** | URL + wörtlicher Textauszug, gehängt an Fotograf, Projekt, Bild oder Kapitel. Nur diese Auszüge dürfen als Fakten in Analysen und Kapitel. |
 | **Analyse** | Vier Ebenen (zu sehen · gebaut · Kontext mit `[S<id>]` + „Meine Einschätzung“ · übertragbare Technik). Einmal erzeugt, dann stabil. „Neu erzeugen“ gibt die alte Version mit und verlangt begründete Abweichungen; alte Versionen bleiben. Aussagen ohne gültige Quellen-ID werden verworfen. |

@@ -1,0 +1,24 @@
+{# expects: look (seconds). Hides #questions until the look time is over; fills input[name=looked]. #}
+<div id="look-timer" class="look-timer" {% if not look %}hidden{% endif %}>
+  <p>Erst nur schauen. <span id="look-left">{{ look }}</span> s</p>
+  <button type="button" class="link" id="look-skip">überspringen</button>
+</div>
+<script>
+(function () {
+  var left = {{ look or 0 }}, started = Date.now();
+  var q = document.getElementById("questions"), t = document.getElementById("look-timer");
+  function show() { t.hidden = true; q.hidden = false; var f = q.querySelector("textarea"); if (f) f.focus(); }
+  if (left > 0) {
+    q.hidden = true;
+    var iv = setInterval(function () {
+      left -= 1; document.getElementById("look-left").textContent = left;
+      if (left <= 0) { clearInterval(iv); show(); }
+    }, 1000);
+    document.getElementById("look-skip").onclick = function () { clearInterval(iv); show(); };
+  }
+  q.addEventListener("submit", function () {
+    var l = q.querySelector("input[name=looked]");
+    if (l) l.value = Math.round((Date.now() - started) / 1000);
+  });
+})();
+</script>

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <h1>Sehschule</h1>
-<p class="lead">Bilder anderer lesen lernen: erst selbst urteilen, dann die Analyse. Fakten nur mit Quelle.</p>
+<p class="lead">Sehen lernen an Bildern anderer: erst schauen, dann selbst urteilen, dann die Analyse. Fakten nur mit Quelle.</p>
 <div class="stats">
   <a href="/photographers"><b>{{ counts.photographers }}</b> Fotografen</a>
   <a href="/images"><b>{{ counts.images }}</b> Bilder</a>
@@ -13,7 +13,8 @@
   <p class="warn">Kein <code>ANTHROPIC_API_KEY</code> gesetzt – Bibliothek und Quellen funktionieren, Analysen und Feedback nicht.</p>
 {% endif %}
 <div class="actions">
-  <form method="post" action="/learn/session"><input type="hidden" name="size" value="4"><button>Lernrunde starten (4 Bilder, zufällig)</button></form>
+  <a class="button" href="/sehen">Sehen lernen</a>
+  <form method="post" action="/learn/session"><input type="hidden" name="size" value="4"><button class="secondary">Lernrunde (4 Bilder, vier Fragen)</button></form>
   <a class="button secondary" href="/images/new">Bild hinzufügen</a>
 </div>
 <h2>Zuletzt hinzugefügt</h2>

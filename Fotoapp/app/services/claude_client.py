@@ -11,6 +11,7 @@ ANALYSIS_PROMPT = "analysis_v2"
 REVISION_PROMPT = "analysis_revision_v1"
 FEEDBACK_PROMPT = "learn_feedback_v2"
 CHAPTER_PROMPT = "chapter_draft_v2"
+DRILL_PROMPT = "drill_feedback_v1"
 
 
 class ClaudeError(Exception):
@@ -166,3 +167,31 @@ def chapter_draft(chapter_meta: dict, sources_block: str, key_images: list[dict]
     )
     _check(response)
     return Result(_text(response), response.model, CHAPTER_PROMPT)
+
+
+def drill_feedback(
+    media_type: str,
+    image_b64: str,
+    dimension_label: str, question: str, reference: str, full_analysis: dict, answer: str) -> Result:
+    response = _call(
+        _client().beta.messages.create,
+        max_tokens=4000,
+        system=load_prompt(DRILL_PROMPT),
+        messages=[
+            {
+                "role": "user",
+                "content": [
+                    {"type": "image", "source": {"type": "base64", "media_type": media_type, "data": image_b64}},
+                    {"type": "text", "text": (
+                    f"<dimension>{dimension_label}</dimension>\n<question>{question}</question>\n\n"
+                    f"<reference>{reference}</reference>\n\n"
+                    "<full_analysis>\n" + json.dumps(full_analysis, ensure_ascii=False, indent=2) + "\n</full_analysis>\n\n"
+                    f"<answer>{answer.strip() or '(keine Antwort)'}</answer>"
+                    )},
+                ],
+            }
+        ],
+        **_common_kwargs(),
+    )
+    _check(response)
+    return Result(_text(response), response.model, DRILL_PROMPT)

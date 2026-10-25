@@ -7,7 +7,7 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db import Base
 
-SCOPE_TYPES = ("photographer", "project", "image", "chapter")
+SCOPE_TYPES = ("photographer", "project", "image", "chapter", "concept")
 
 
 class Photographer(Base):
@@ -150,4 +150,50 @@ class ChapterImage(Base):
     caption_md: Mapped[str] = mapped_column(Text, default="")
 
     chapter: Mapped[Chapter] = relationship(back_populates="images")
+    image: Mapped[Image] = relationship()
+
+
+class Drill(Base):
+    """One focused seeing exercise: a single dimension of one image."""
+
+    __tablename__ = "drills"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    image_id: Mapped[int] = mapped_column(ForeignKey("images.id", ondelete="CASCADE"))
+    analysis_id: Mapped[int | None] = mapped_column(ForeignKey("analyses.id"))
+    dimension: Mapped[str] = mapped_column(String(30))
+    look_seconds: Mapped[int] = mapped_column(Integer, default=0)
+    answer: Mapped[str] = mapped_column(Text, default="")
+    feedback_md: Mapped[str] = mapped_column(Text, default="")
+    created_at: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+    image: Mapped[Image] = relationship()
+
+
+class Concept(Base):
+    """A sourced term of seeing (e.g. Szarkowski's vantage point)."""
+
+    __tablename__ = "concepts"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    slug: Mapped[str] = mapped_column(String(100), unique=True)
+    name: Mapped[str] = mapped_column(String(200))
+    dimension: Mapped[str] = mapped_column(String(30), default="")
+    summary_md: Mapped[str] = mapped_column(Text, default="")
+    exercise_md: Mapped[str] = mapped_column(Text, default="")
+
+    images: Mapped[list["ConceptImage"]] = relationship(
+        back_populates="concept", order_by="ConceptImage.position", cascade="all, delete-orphan"
+    )
+
+
+class ConceptImage(Base):
+    __tablename__ = "concept_images"
+
+    concept_id: Mapped[int] = mapped_column(ForeignKey("concepts.id", ondelete="CASCADE"), primary_key=True)
+    image_id: Mapped[int] = mapped_column(ForeignKey("images.id", ondelete="CASCADE"), primary_key=True)
+    position: Mapped[int] = mapped_column(Integer, default=0)
+    note_md: Mapped[str] = mapped_column(Text, default="")
+
+    concept: Mapped[Concept] = relationship(back_populates="images")
     image: Mapped[Image] = relationship()
