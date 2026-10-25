@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Adams' visualisation as a method map + schematic tone scale -->
+  <rect x="8" y="10" width="100" height="40" rx="6"/>
+  <text x="58" y="27" text-anchor="middle">Motiv</text><text x="58" y="41" text-anchor="middle">sehen</text>
+  <rect x="130" y="10" width="100" height="40" rx="6" class="a"/>
+  <text x="180" y="27" text-anchor="middle" class="a">fertigen Abzug</text><text x="180" y="41" text-anchor="middle" class="a">vorstellen</text>
+  <rect x="252" y="10" width="100" height="40" rx="6"/>
+  <text x="302" y="27" text-anchor="middle">Belichtung +</text><text x="302" y="41" text-anchor="middle">Entwicklung</text>
+  <path d="M110 30 h16 M121 25 l5 5 l-5 5 M232 30 h16 M243 25 l5 5 l-5 5" class="m"/>
+  <path d="M302 52 v16 H120 v12 M115 75 l5 5 l5 -5" class="m"/>
+  <rect x="58" y="84" width="110" height="40" rx="6"/>
+  <text x="113" y="101" text-anchor="middle">Negativ</text><text x="113" y="115" text-anchor="middle" class="m">= Partitur</text>
+  <rect x="200" y="84" width="110" height="40" rx="6" class="a"/>
+  <text x="255" y="101" text-anchor="middle">Abzug</text><text x="255" y="115" text-anchor="middle" class="m">= Aufführung</text>
+  <path d="M170 104 h26 M191 99 l5 5 l-5 5" class="m"/>
+  <text x="180" y="156" text-anchor="middle" class="h">Vorher entscheiden: welcher Ton wohin?</text>
+  <rect x="30.0" y="168" width="33.3" height="24" fill="#0d0d0d" stroke="none"/><rect x="63.3" y="168" width="33.3" height="24" fill="#262626" stroke="none"/><rect x="96.6" y="168" width="33.3" height="24" fill="#3d3d3d" stroke="none"/><rect x="129.9" y="168" width="33.3" height="24" fill="#575757" stroke="none"/><rect x="163.2" y="168" width="33.3" height="24" fill="#717171" stroke="none"/><rect x="196.5" y="168" width="33.3" height="24" fill="#8c8c8c" stroke="none"/><rect x="229.8" y="168" width="33.3" height="24" fill="#a8a8a8" stroke="none"/><rect x="263.1" y="168" width="33.3" height="24" fill="#c4c4c4" stroke="none"/><rect x="296.4" y="168" width="33.3" height="24" fill="#e2e2e2" stroke="none"/>
+  <rect x="30" y="168" width="300" height="24" class="m"/>
+  <path d="M80 196 v10 M280 196 v10" class="a"/>
+  <text x="80" y="220" text-anchor="middle" class="a">Schatten mit</text><text x="80" y="234" text-anchor="middle" class="a">Zeichnung</text>
+  <text x="280" y="220" text-anchor="middle" class="a">Schnee mit</text><text x="280" y="234" text-anchor="middle" class="a">Zeichnung</text>
+  <text x="180" y="227" text-anchor="middle" class="m">Tonskala, schematisch</text>
+</svg>

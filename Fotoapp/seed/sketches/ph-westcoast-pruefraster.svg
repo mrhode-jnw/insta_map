@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 286" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- four look-alike pairs of the West Coast school, mini frames per pole -->
+  <text x="180" y="14" text-anchor="middle" class="m">vier Paare, die man verwechselt</text>
+  <!-- row 1 Edward / Brett -->
+  <g transform="translate(0,26)">
+    <rect x="10" y="0" width="52" height="38"/>
+    <path d="M10 26 Q30 8 44 20 T62 18 L62 38 L10 38 Z" class="f"/>
+    <path d="M16 32 q10 -6 20 -2" class="m"/>
+    <text x="70" y="13" class="h">Edward Weston</text>
+    <text x="70" y="28">Körper, Mitteltöne</text>
+    <rect x="298" y="0" width="52" height="38"/>
+    <path d="M300 8 q24 6 48 0 M300 15 q24 6 48 0 M300 22 q24 6 48 0 M300 29 q24 6 48 0 M300 36 q24 4 48 0" />
+    <text x="290" y="13" text-anchor="end" class="h">Brett Weston</text>
+    <text x="290" y="28" text-anchor="end">Muster, hart</text>
+  </g>
+  <!-- row 2 Weston / Adams -->
+  <g transform="translate(0,90)">
+    <rect x="10" y="0" width="52" height="38"/>
+    <path d="M14 34 C18 10 34 4 40 16 C46 28 54 12 58 6" />
+    <path d="M20 34 C24 18 34 14 38 24" class="m"/>
+    <text x="70" y="13" class="h">E. Weston</text>
+    <text x="70" y="28">Ausschnitt, Form</text>
+    <rect x="298" y="0" width="52" height="38"/>
+    <rect x="298" y="0" width="52" height="14" class="f" stroke="none"/>
+    <path d="M298 20 L310 12 L318 17 L330 8 L342 16 L350 13" />
+    <path d="M304 38 q14 -10 22 -6 q10 4 20 -8" class="a"/>
+    <text x="290" y="13" text-anchor="end" class="h">Adams</text>
+    <text x="290" y="28" text-anchor="end">Raum, Himmel</text>
+  </g>
+  <!-- row 3 Adams / Gilpin -->
+  <g transform="translate(0,154)">
+    <rect x="10" y="0" width="52" height="38"/>
+    <rect x="10" y="0" width="52" height="16" class="f" stroke="none"/>
+    <path d="M10 22 L22 14 L32 19 L44 9 L62 18" />
+    <text x="70" y="13" class="h">Adams</text>
+    <text x="70" y="28">Pathos, menschenleer</text>
+    <rect x="298" y="0" width="52" height="38"/>
+    <path d="M298 16 q26 -4 52 0" class="m"/>
+    <path d="M302 36 q18 -14 46 -16" class="a"/>
+    <path d="M314 22 h6 v-4 l3 -3 l3 3 v4 M330 24 h6 v-4 l3 -3 l3 3 v4"/>
+    <path d="M300 30 h14 M302 34 h14" class="m"/>
+    <text x="290" y="13" text-anchor="end" class="h">Gilpin</text>
+    <text x="290" y="28" text-anchor="end">Fluss, Dorf, Feld</text>
+  </g>
+  <!-- row 4 Adams / Porter -->
+  <g transform="translate(0,218)">
+    <rect x="10" y="0" width="52" height="38"/>
+    <path d="M10 24 L20 12 L30 18 L40 6 L52 16 L62 12" />
+    <path d="M10 30 h52" class="m"/>
+    <text x="70" y="13" class="h">Adams</text>
+    <text x="70" y="28">Panorama, s/w</text>
+    <rect x="298" y="0" width="52" height="38"/>
+    <path d="M306 36 l4 -28 M316 36 l2 -30 M326 36 l-2 -26 M336 36 l3 -24 M344 36 l-2 -28" class="m"/>
+    <circle cx="310" cy="12" r="2.5" fill="#c0392b" stroke="none"/>
+    <circle cx="328" cy="18" r="2.5" fill="#d68910" stroke="none"/>
+    <circle cx="340" cy="10" r="2.5" fill="#c0392b" stroke="none"/>
+    <circle cx="320" cy="26" r="2.5" fill="#7d9a3a" stroke="none"/>
+    <text x="290" y="13" text-anchor="end" class="h">Porter</text>
+    <text x="290" y="28" text-anchor="end">Nahsicht in Farbe</text>
+  </g>
+  <text x="180" y="280" text-anchor="middle" class="m">Prüffrage: Form oder Raum? Pathos oder Alltag?</text>
+</svg>

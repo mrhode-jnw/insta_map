@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- from the Becher grid to the single wall-sized tableau -->
+  <text x="70" y="16" text-anchor="middle" class="h">Typologie</text>
+  <text x="250" y="16" text-anchor="middle" class="h">Tableau</text>
+  <g class="m">
+    <rect x="14" y="40" width="32" height="40"/><rect x="54" y="40" width="32" height="40"/><rect x="94" y="40" width="32" height="40"/>
+    <rect x="14" y="88" width="32" height="40"/><rect x="54" y="88" width="32" height="40"/><rect x="94" y="88" width="32" height="40"/>
+    <rect x="14" y="136" width="32" height="40"/><rect x="54" y="136" width="32" height="40"/><rect x="94" y="136" width="32" height="40"/>
+  </g>
+  <g>
+    <path d="M24 72 v-18 h12 v18 M64 72 v-20 h12 v20 M104 72 v-16 h12 v16 M24 120 v-18 h12 v18 M64 120 v-16 h12 v16 M104 120 v-20 h12 v20 M24 168 v-20 h12 v20 M64 168 v-18 h12 v18 M104 168 v-16 h12 v16"/>
+  </g>
+  <text x="70" y="196" text-anchor="middle">viele Blätter,</text>
+  <text x="70" y="210" text-anchor="middle" class="m">Vergleich zwischen Bildern</text>
+  <path d="M138 108 h22 M155 103 l5 5 l-5 5" class="m"/>
+  <!-- Rhein II like bands, ~4 m wide, with a person -->
+  <rect x="170" y="70" width="160" height="80" class="m"/>
+  <rect x="170" y="70" width="160" height="22" class="f" stroke="none"/>
+  <path d="M170 98 h160 M170 112 h160 M170 128 h160 M170 140 h160" class="m"/>
+  <rect x="170" y="112" width="160" height="16" class="f" stroke="none"/>
+  <line x1="342" y1="128" x2="342" y2="92"/><circle cx="342" cy="86" r="5"/><path d="M334 112 l8 -14 l8 14 M342 128 l-6 22 M342 128 l6 22"/>
+  <path d="M170 160 h160 M170 156 v8 M330 156 v8" class="a"/>
+  <text x="250" y="176" text-anchor="middle" class="a">fast 4 m breit (Rhein II)</text>
+  <text x="250" y="196" text-anchor="middle">ein Bild, Wandgröße,</text>
+  <text x="250" y="210" text-anchor="middle" class="m">Vergleich im Bild</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 290" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- who learned from whom (sourced links only) -->
+  <g class="m">
+    <rect x="6" y="8" width="104" height="38" rx="6"/>
+    <rect x="128" y="8" width="104" height="38" rx="6"/>
+    <rect x="250" y="8" width="104" height="38" rx="6"/>
+  </g>
+  <text x="58" y="24" text-anchor="middle" class="m">Stieglitz</text><text x="58" y="38" text-anchor="middle" class="m">Wolken 1925–34</text>
+  <text x="180" y="24" text-anchor="middle" class="m">Ansel Adams</text><text x="180" y="38" text-anchor="middle" class="m">Westküste</text>
+  <text x="302" y="24" text-anchor="middle" class="m">Edward Weston</text><text x="302" y="38" text-anchor="middle" class="m">Westküste</text>
+  <!-- White -->
+  <rect x="60" y="92" width="120" height="40" rx="6" class="a"/>
+  <text x="120" y="109" text-anchor="middle" class="h">Minor White</text><text x="120" y="124" text-anchor="middle" class="m">Äquivalenz, Aperture</text>
+  <path d="M58 48 L100 88 M95 84 l5 4 l-1 -6" class="m"/>
+  <text x="24" y="74" class="m">Begriff</text>
+  <path d="M170 48 L140 88 M139 81 l1 7 l6 -3" class="m"/>
+  <text x="166" y="74" class="m">1946 Einladung</text>
+  <!-- Bullock -->
+  <rect x="236" y="92" width="118" height="40" rx="6"/>
+  <text x="295" y="109" text-anchor="middle" class="h">Wynn Bullock</text><text x="295" y="124" text-anchor="middle" class="m">Zeit, Ereignis</text>
+  <path d="M302 48 V88 M297 83 l5 5 l5 -5" class="m"/>
+  <text x="308" y="74" class="m">1948</text>
+  <!-- Caponigro -->
+  <rect x="100" y="168" width="140" height="40" rx="6"/>
+  <text x="170" y="185" text-anchor="middle" class="h">Paul Caponigro</text><text x="170" y="200" text-anchor="middle" class="m">Steinkreise, Irland</text>
+  <path d="M130 134 L156 164 M150 162 l6 2 l0 -6" class="m"/>
+  <path d="M232 46 Q250 120 196 164 M196 157 l0 7 l7 -2" class="m"/>
+  <text x="90" y="156" class="m">Lehrer</text>
+  <!-- Europe and Barnbaum, no lineage -->
+  <line x1="6" y1="224" x2="354" y2="224" class="m" stroke-dasharray="3 4"/>
+  <text x="180" y="240" text-anchor="middle" class="m">eigene Wege</text>
+  <text x="62" y="262" text-anchor="middle" class="h">Giacomelli</text><text x="62" y="277" text-anchor="middle" class="m">Gruppe Miza 1952</text>
+  <text x="180" y="262" text-anchor="middle" class="h">Godwin</text><text x="180" y="277" text-anchor="middle" class="m">Wandern, Hughes</text>
+  <text x="298" y="262" text-anchor="middle" class="h">Barnbaum</text><text x="298" y="277" text-anchor="middle" class="m">Slot Canyons 1980</text>
+</svg>

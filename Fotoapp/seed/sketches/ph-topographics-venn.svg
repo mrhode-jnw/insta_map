@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 244" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- what changed and what stayed between Adams/Weston and New Topographics -->
+  <g transform="translate(0,14)">
+  <ellipse cx="128" cy="112" rx="120" ry="90" class="m"/>
+  <ellipse cx="232" cy="112" rx="120" ry="90" class="a"/>
+  <text x="70" y="16" text-anchor="middle" class="h">Adams / Weston</text>
+  <text x="290" y="16" text-anchor="middle" class="h">New Topographics</text>
+  <text x="56" y="86" text-anchor="middle">erhabene</text>
+  <text x="56" y="100" text-anchor="middle">Natur</text>
+  <text x="56" y="124" text-anchor="middle">Pathos,</text>
+  <text x="56" y="138" text-anchor="middle">Erleben</text>
+  <text x="304" y="86" text-anchor="middle">Zersiedelung,</text>
+  <text x="304" y="100" text-anchor="middle">Gewerbe</text>
+  <text x="304" y="124" text-anchor="middle">„neutral“,</text>
+  <text x="304" y="138" text-anchor="middle">keine Pose</text>
+  <text x="180" y="72" text-anchor="middle" class="m">blieb gleich:</text>
+  <text x="180" y="90" text-anchor="middle">scharf</text>
+  <text x="180" y="105" text-anchor="middle">viel Detail</text>
+  <text x="180" y="120" text-anchor="middle">klassisch</text>
+  <text x="180" y="135" text-anchor="middle">komponiert</text>
+  <text x="180" y="150" text-anchor="middle">menschenleer</text>
+  <text x="180" y="165" text-anchor="middle">unmanipuliert</text>
+  </g>
+  <text x="180" y="238" text-anchor="middle" class="m">Neu war das Motiv, nicht die Technik.</text>
+</svg>

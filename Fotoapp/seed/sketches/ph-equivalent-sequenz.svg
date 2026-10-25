@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- a sequence: meaning arises in the transitions, not in the single frame -->
+  <text x="180" y="14" text-anchor="middle" class="m">Einzelbild = Wort · Sequenz = Satz</text>
+  <!-- frame 1: dark rock -->
+  <rect x="8" y="28" width="72" height="54"/>
+  <path d="M18 82 L26 44 L52 36 L70 58 L66 82 Z" class="f"/>
+  <circle cx="44" cy="54" r="3" class="af" stroke="none"/>
+  <!-- frame 2: wave -->
+  <rect x="98" y="28" width="72" height="54"/>
+  <path d="M98 64 q12 -18 26 -4 q10 10 22 -2 q12 -12 24 4" />
+  <path d="M98 72 q18 -6 36 0 t36 0" class="m"/>
+  <!-- frame 3: fog bank -->
+  <rect x="188" y="28" width="72" height="54"/>
+  <rect x="188" y="44" width="72" height="18" class="f" stroke="none"/>
+  <path d="M188 62 q18 -4 36 0 t36 0" class="m"/>
+  <!-- frame 4: light on water -->
+  <rect x="278" y="28" width="72" height="54"/>
+  <path d="M284 66 h20 M300 72 h30 M290 60 h14" class="a"/>
+  <circle cx="314" cy="44" r="5" class="a"/>
+  <!-- transitions -->
+  <path d="M82 55 h14 M176 55 h10 M266 55 h10" class="m"/>
+  <text x="44" y="98" text-anchor="middle" class="m">Fels</text>
+  <text x="134" y="98" text-anchor="middle" class="m">Welle</text>
+  <text x="224" y="98" text-anchor="middle" class="m">Nebel</text>
+  <text x="314" y="98" text-anchor="middle" class="m">Licht</text>
+  <!-- mood line -->
+  <text x="8" y="124" class="h">Stimmung beim Betrachter</text>
+  <path d="M20 170 C60 160 80 136 120 146 S190 182 230 168 S300 132 340 138" class="a" stroke-width="2"/>
+  <path d="M20 184 h320" class="m"/>
+  <text x="44" y="198" text-anchor="middle" class="m">schwer</text>
+  <text x="134" y="198" text-anchor="middle" class="m">Bewegung</text>
+  <text x="224" y="198" text-anchor="middle" class="m">Stille</text>
+  <text x="314" y="198" text-anchor="middle" class="m">Öffnung</text>
+</svg>

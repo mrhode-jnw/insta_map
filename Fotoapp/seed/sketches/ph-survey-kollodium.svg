@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- three visible consequences of the wet collodion process -->
+  <text x="60" y="16" text-anchor="middle" class="h">Weißer Himmel</text>
+  <text x="180" y="16" text-anchor="middle" class="h">Glattes Wasser</text>
+  <text x="300" y="16" text-anchor="middle" class="h">Bild = Platte</text>
+  <!-- panel 1: sky white -->
+  <rect x="15" y="30" width="90" height="70"/>
+  <path d="M15 82 L35 58 L50 70 L68 54 L88 66 L105 56 L105 100 L15 100 Z" class="f" stroke="none"/>
+  <path d="M15 82 L35 58 L50 70 L68 54 L88 66 L105 56"/>
+  <text x="60" y="43" text-anchor="middle" class="a">leer, weiß</text>
+  <!-- panel 2: silky water -->
+  <rect x="135" y="30" width="90" height="70"/>
+  <path d="M135 62 L155 50 L170 58 L190 44 L210 56 L225 50" class="m"/>
+  <path d="M135 70 h90" class="m"/>
+  <path d="M140 78 q20 -2 40 0 t40 0 M140 86 q20 -2 40 0 t40 0 M140 94 q20 -2 40 0 t40 0" class="a"/>
+  <!-- panel 3: plate sizes to scale -->
+  <rect x="262" y="30" width="62" height="74" class="f"/>
+  <text x="293" y="64" text-anchor="middle" class="m">20×24</text>
+  <text x="293" y="77" text-anchor="middle" class="m">Zoll</text>
+  <rect x="330" y="96" width="4.6" height="3" class="af" stroke="none"/>
+  <line x1="332" y1="94" x2="338" y2="84" class="a"/>
+  <text x="336" y="80" class="a" text-anchor="middle">KB</text>
+  <!-- causes -->
+  <g>
+    <text x="60" y="124" text-anchor="middle">Schicht übermäßig</text>
+    <text x="60" y="138" text-anchor="middle">blauempfindlich:</text>
+    <text x="60" y="152" text-anchor="middle">Himmel wird weiß</text>
+    <text x="180" y="124" text-anchor="middle">lange Belichtung:</text>
+    <text x="180" y="138" text-anchor="middle">Wellen mitteln</text>
+    <text x="180" y="152" text-anchor="middle">sich zu Seide</text>
+    <text x="300" y="124" text-anchor="middle">keine Vergrößerung:</text>
+    <text x="300" y="138" text-anchor="middle">große Kamera,</text>
+    <text x="300" y="152" text-anchor="middle">Dunkelzelt mit</text>
+    <text x="300" y="166" text-anchor="middle">in die Berge</text>
+  </g>
+  <line x1="20" y1="186" x2="340" y2="186" class="m"/>
+  <text x="180" y="206" text-anchor="middle" class="m">Platte vor Ort beschichten, belichten,</text>
+  <text x="180" y="221" text-anchor="middle" class="m">entwickeln – solange sie nass ist. KB = Kleinbild</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 272" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- how colour became art (sourced dates) -->
+  <text x="14" y="16" class="h">Jahr</text><text x="100" y="16" class="h">Was geschah</text>
+  <line x1="82" y1="28" x2="82" y2="258"/>
+  <g>
+    <circle cx="82" cy="36" r="3.5" class="mf" stroke="none"/><text x="14" y="40">1953</text><text x="100" y="40">LIFE: Haas' Farbessay New York</text>
+    <circle cx="82" cy="60" r="3.5" class="mf" stroke="none"/><text x="14" y="64">1961</text><text x="100" y="64">Fontana beginnt als Amateur</text>
+    <circle cx="82" cy="84" r="3.5" class="af" stroke="none"/><text x="14" y="88" class="a">1962</text><text x="100" y="88" class="a">MoMA: erste Farbschau – Haas</text>
+    <circle cx="82" cy="108" r="3.5" class="mf" stroke="none"/><text x="14" y="112">1969</text><text x="100" y="112">Walker Evans: Farbe „vulgar“</text>
+    <circle cx="82" cy="132" r="3.5" class="mf" stroke="none"/><text x="14" y="136">1971</text><text x="100" y="136">Haas: „The Creation“</text>
+    <circle cx="82" cy="156" r="3.5" class="af" stroke="none"/><text x="14" y="160" class="a">1976</text><text x="100" y="160" class="a">MoMA: Eggleston – Kramer: „boring“</text>
+    <circle cx="82" cy="180" r="3.5" class="mf" stroke="none"/><text x="14" y="184">1976</text><text x="100" y="184">Meyerowitz: Farbe, Großformat</text>
+    <circle cx="82" cy="204" r="3.5" class="mf" stroke="none"/><text x="14" y="208">1978</text><text x="100" y="208">„Cape Light“, „Kodachrome“, „Skyline“</text>
+    <circle cx="82" cy="228" r="3.5" class="mf" stroke="none"/><text x="8" y="232">Ende 70er</text><text x="100" y="232">Gruyaert: ganz in Farbe</text>
+    <circle cx="82" cy="252" r="3.5" class="mf" stroke="none"/><text x="14" y="256">1984</text><text x="100" y="256">Ghirri: „Viaggio in Italia“, Bari</text>
+  </g>
+</svg>

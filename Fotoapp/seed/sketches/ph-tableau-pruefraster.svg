@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 222" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- three look-alike pairs of the tableau photographers -->
+  <text x="180" y="14" text-anchor="middle" class="m">drei Paare, die man verwechselt</text>
+  <g transform="translate(0,26)">
+    <rect x="10" y="0" width="52" height="38"/>
+    <path d="M14 8 h44 M14 15 h44 M14 22 h44 M14 29 h44 M20 4 v30 M30 4 v30 M40 4 v30 M50 4 v30" class="m"/>
+    <text x="70" y="13" class="h">Gursky</text>
+    <text x="70" y="28">alles gleich scharf</text>
+    <rect x="298" y="0" width="52" height="38"/>
+    <path d="M298 26 q12 -10 24 -2 q14 8 28 -6 L350 38 L298 38 Z" class="f"/>
+    <path d="M304 32 l4 -3 M316 34 l5 -4 M330 30 l3 -2 M340 34 l4 -3" class="a"/>
+    <text x="290" y="13" text-anchor="end" class="h">Burtynsky</text>
+    <text x="290" y="28" text-anchor="end">Dreck, Zufall, Ort</text>
+  </g>
+  <g transform="translate(0,90)">
+    <rect x="10" y="0" width="52" height="38"/>
+    <path d="M10 38 L32 20 L40 20 L62 38 M10 0 L32 20 M62 0 L40 20" class="m"/>
+    <path d="M32 20 h8"/>
+    <text x="70" y="13" class="h">Struth</text>
+    <text x="70" y="28">Straße, Augenhöhe</text>
+    <rect x="298" y="0" width="52" height="38"/>
+    <path d="M304 32 h40 M308 32 v-20 M340 32 v-20 M308 12 q16 -10 32 0" />
+    <path d="M318 32 v-10 h12 v10" class="a"/>
+    <text x="290" y="13" text-anchor="end" class="h">Höfer</text>
+    <text x="290" y="28" text-anchor="end">Innenraum, Achse</text>
+  </g>
+  <g transform="translate(0,154)">
+    <rect x="10" y="0" width="52" height="38"/>
+    <path d="M10 10 h52 M10 18 h52 M10 26 h52 M10 32 h52" class="m"/>
+    <text x="70" y="13" class="h">Gursky (Fluss)</text>
+    <text x="70" y="28">geleert, kühl</text>
+    <rect x="298" y="0" width="52" height="38" class="f"/>
+    <path d="M298 28 h52" class="m"/>
+    <path d="M318 28 l5 -10 l5 4 l4 6" class="a"/>
+    <path d="M318 30 l5 6 l5 -2" class="m"/>
+    <text x="290" y="13" text-anchor="end" class="h">Esser</text>
+    <text x="290" y="28" text-anchor="end">alt, Erinnerung</text>
+  </g>
+</svg>

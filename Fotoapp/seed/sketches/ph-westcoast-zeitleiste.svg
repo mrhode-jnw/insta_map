@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 292" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- vertical timeline of the West Coast modernists (sourced dates only) -->
+  <text x="20" y="16" class="h">Jahr</text><text x="100" y="16" class="h">Was geschah</text>
+  <line x1="82" y1="28" x2="82" y2="276"/>
+  <circle cx="82" cy="36" r="3.5" class="mf" stroke="none"/><text x="20" y="40">1925</text><text x="100" y="40">Brett Weston: Lehrling in Mexiko</text>
+  <circle cx="82" cy="59" r="3.5" class="mf" stroke="none"/><text x="20" y="63">1927</text><text x="100" y="63">Adams: „Monolith“, visualisiert</text>
+  <circle cx="82" cy="82" r="3.5" class="mf" stroke="none"/><text x="20" y="86">1929</text><text x="100" y="86">E. Weston zieht nach Carmel</text>
+  <circle cx="82" cy="105" r="3.5" class="af" stroke="none"/><text x="20" y="109" class="a">1932</text><text x="100" y="109" class="a">Gruppe f/64 gegründet</text>
+  <circle cx="82" cy="128" r="3.5" class="af" stroke="none"/><text x="20" y="132" class="a">1935</text><text x="100" y="132" class="a">f/64 löst sich auf</text>
+  <circle cx="82" cy="151" r="3.5" class="mf" stroke="none"/><text x="20" y="155">1936</text><text x="100" y="155">E. Weston: Dünen von Oceano</text>
+  <circle cx="82" cy="174" r="3.5" class="mf" stroke="none"/><text x="20" y="178">1937</text><text x="100" y="178">E. Weston: Guggenheim</text>
+  <circle cx="82" cy="197" r="3.5" class="mf" stroke="none"/><text x="20" y="201">1939</text><text x="100" y="201">Porter wechselt zur Farbe</text>
+  <circle cx="82" cy="220" r="3.5" class="mf" stroke="none"/><text x="20" y="224">1939–40</text><text x="100" y="224">Adams/Archer: Zonensystem</text>
+  <circle cx="82" cy="243" r="3.5" class="mf" stroke="none"/><text x="20" y="247">1949</text><text x="100" y="247">Gilpin: „The Rio Grande“</text>
+  <circle cx="82" cy="266" r="3.5" class="mf" stroke="none"/><text x="20" y="270">1962</text><text x="100" y="270">Porter: „In Wildness …“</text>
+</svg>

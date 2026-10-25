@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- the same survey print in three places: album, museum wall, archive -->
+  <text x="60" y="16" text-anchor="middle" class="h">1871</text>
+  <text x="180" y="16" text-anchor="middle" class="h">Mitte 20. Jh.</text>
+  <text x="300" y="16" text-anchor="middle" class="h">1982</text>
+  <!-- album page with seal -->
+  <rect x="18" y="30" width="84" height="96" class="m"/>
+  <circle cx="60" cy="40" r="5" class="m"/>
+  <rect x="30" y="52" width="60" height="42"/>
+  <path d="M30 86 L42 64 L52 80 L62 60 L76 84 L90 70" class="m"/>
+  <path d="M38 104 h44 M44 112 h32" class="m"/>
+  <!-- museum wall: frame + spot -->
+  <line x1="130" y1="126" x2="230" y2="126" class="m"/>
+  <path d="M168 26 L160 40 M192 26 L200 40" class="a"/>
+  <rect x="146" y="46" width="68" height="54"/>
+  <rect x="154" y="54" width="52" height="38" class="m"/>
+  <path d="M154 86 L164 66 L172 80 L182 62 L194 84 L206 72" class="m"/>
+  <!-- archive box -->
+  <path d="M256 70 h88 v54 h-88 Z"/>
+  <path d="M256 70 l10 -14 h68 l10 14" class="m"/>
+  <rect x="270" y="46" width="40" height="30" class="f"/>
+  <path d="M276 72 L284 58 L290 68 L298 56 L306 70" class="m"/>
+  <rect x="290" y="90" width="20" height="8" class="m"/>
+  <!-- labels -->
+  <text x="60" y="146" text-anchor="middle" class="a">Dokument</text>
+  <text x="60" y="162" text-anchor="middle">Survey-Karton,</text>
+  <text x="60" y="176" text-anchor="middle">Auftrag, Nummer</text>
+  <text x="180" y="146" text-anchor="middle" class="a">Kunstwerk</text>
+  <text x="180" y="162" text-anchor="middle">Adams, Newhall:</text>
+  <text x="180" y="176" text-anchor="middle">„proto-modern“</text>
+  <text x="300" y="146" text-anchor="middle" class="a">Wissen</text>
+  <text x="300" y="162" text-anchor="middle">Krauss: Archiv,</text>
+  <text x="300" y="176" text-anchor="middle">nicht Kunst</text>
+  <path d="M110 80 h26 M131 75 l5 5 l-5 5 M232 80 h18 M245 75 l5 5 l-5 5" class="m"/>
+  <text x="180" y="206" text-anchor="middle" class="m">dasselbe Bild – drei Orte, drei Bedeutungen</text>
+</svg>

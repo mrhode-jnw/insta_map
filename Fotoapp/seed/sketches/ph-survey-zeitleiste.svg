@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 290" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- vertical timeline of the eight photographers -->
+  <text x="20" y="16" class="h">Jahr</text><text x="96" y="16" class="h">Wer – was</text>
+  <line x1="74" y1="28" x2="74" y2="196"/>
+  <line x1="74" y1="222" x2="74" y2="270"/>
+  <path d="M68 200 l12 -6 M68 210 l12 -6" class="m"/>
+  <text x="96" y="210" class="m">… knapp 40 Jahre später</text>
+  <g>
+    <circle cx="74" cy="36" r="3.5" class="af" stroke="none"/><text x="20" y="40">1861</text><text x="96" y="40">Watkins: erste Yosemite-Platten</text>
+    <circle cx="74" cy="60" r="3.5" class="af" stroke="none"/><text x="20" y="64">1866</text><text x="96" y="64">Bourne: Himalaya-Reise</text>
+    <circle cx="74" cy="84" r="3.5" class="af" stroke="none"/><text x="20" y="88">1867</text><text x="96" y="88">O'Sullivan: King-Survey</text>
+    <circle cx="74" cy="108" r="3.5" class="af" stroke="none"/><text x="20" y="112">1871</text><text x="96" y="112">Jackson: Yellowstone (Hayden)</text>
+    <circle cx="74" cy="132" r="3.5" class="af" stroke="none"/><text x="20" y="136">1871</text><text x="96" y="136">O'Sullivan: Wheeler-Survey</text>
+    <circle cx="74" cy="156" r="3.5" class="af" stroke="none"/><text x="20" y="160">1872</text><text x="96" y="160">Muybridge: 51 Mammutplatten</text>
+    <circle cx="74" cy="180" r="3.5" class="af" stroke="none"/><text x="20" y="184">1873</text><text x="96" y="184">Thomson: Buch über China</text>
+    <circle cx="74" cy="236" r="3.5" class="af" stroke="none"/><text x="20" y="240">1910–13</text><text x="96" y="240">Ponting: Scott, Antarktis</text>
+    <circle cx="74" cy="260" r="3.5" class="af" stroke="none"/><text x="20" y="264">1914–16</text><text x="96" y="264">Hurley: Shackleton, Antarktis</text>
+  </g>
+  <text x="96" y="284" class="m">Nassplatte (Kollodium) … Glasplatte im Eis</text>
+</svg>

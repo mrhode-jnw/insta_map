@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 286" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- four pairs: mini frames show the typical picture of each pole -->
+  <text x="180" y="14" text-anchor="middle" class="m">vier Paare mit gleichem Motiv</text>
+  <!-- row 1 Watkins / Muybridge -->
+  <g transform="translate(0,26)">
+    <rect x="10" y="0" width="52" height="38"/>
+    <path d="M10 14 L24 8 L34 12 L46 4 L62 10" class="m"/>
+    <path d="M10 20 Q36 16 62 20" class="m"/>
+    <path d="M24 28 l3 -8 l3 8 M32 28 l3 -9 l3 9 M44 26 l3 -7 l3 7"/>
+    <path d="M10 38 L10 28 L48 38 Z" class="f"/>
+    <text x="70" y="13" class="h">Watkins</text>
+    <text x="70" y="28">Ordnung, Ebenen</text>
+    <rect x="298" y="0" width="52" height="38"/>
+    <path d="M298 38 L306 4 L314 38 Z" class="f"/>
+    <path d="M314 22 q12 -6 36 -2 M318 30 q14 -4 32 -2" class="m"/>
+    <rect x="316" y="2" width="34" height="18" class="f" stroke="none"/>
+    <text x="290" y="13" text-anchor="end" class="h">Muybridge</text>
+    <text x="290" y="28" text-anchor="end">Dunst, Abgrund</text>
+  </g>
+  <!-- row 2 O'Sullivan / Jackson -->
+  <g transform="translate(0,90)">
+    <rect x="10" y="0" width="52" height="38"/>
+    <path d="M10 26 L18 6 L28 26 M44 26 L52 4 L62 8" class="f"/>
+    <path d="M10 26 h52" class="m"/>
+    <text x="70" y="13" class="h">O'Sullivan</text>
+    <text x="70" y="28">leer, hart, tief</text>
+    <rect x="298" y="0" width="52" height="38"/>
+    <path d="M298 4 L314 30 L298 30 Z M350 4 L334 30 L350 30 Z" class="f" stroke="none"/>
+    <line x1="324" y1="4" x2="324" y2="28" class="a" stroke-width="5"/>
+    <line x1="342" y1="36" x2="342" y2="30"/><circle cx="342" cy="28.5" r="1.5"/>
+    <text x="290" y="13" text-anchor="end" class="h">Jackson</text>
+    <text x="290" y="28" text-anchor="end">frontal, mittig</text>
+  </g>
+  <!-- row 3 Bourne / Thomson -->
+  <g transform="translate(0,154)">
+    <rect x="10" y="0" width="52" height="38"/>
+    <path d="M10 12 L22 6 L34 10 L48 4 L62 9" class="m"/>
+    <rect x="30" y="16" width="8" height="5" class="af" stroke="none"/>
+    <path d="M10 38 L10 26 Q36 18 62 30 L62 38 Z" class="f" stroke="none"/>
+    <text x="70" y="13" class="h">Bourne</text>
+    <text x="70" y="28">Gebirge als Bühne</text>
+    <rect x="298" y="0" width="52" height="38"/>
+    <path d="M298 30 h52" class="m"/>
+    <path d="M310 4 L320 30 M340 4 L330 30" class="m"/>
+    <line x1="322" y1="30" x2="322" y2="16"/><circle cx="322" cy="12.5" r="3"/>
+    <path d="M326 22 h9 v8 M328 22 v8 M335 22 l3 -3"/>
+    <text x="290" y="13" text-anchor="end" class="h">Thomson</text>
+    <text x="290" y="28" text-anchor="end">Mensch als Thema</text>
+  </g>
+  <!-- row 4 Ponting / Hurley -->
+  <g transform="translate(0,218)">
+    <rect x="10" y="0" width="52" height="38"/>
+    <path d="M16 30 V14 h10 V8 h18 v22 Z" class="f"/>
+    <path d="M10 30 h52" class="m"/>
+    <path d="M50 30 h6" class="a"/>
+    <text x="70" y="13" class="h">Ponting</text>
+    <text x="70" y="28">ruhig, Maßstab</text>
+    <rect x="298" y="0" width="52" height="38"/>
+    <path d="M306 34 L326 18 L346 30 Z" class="f"/>
+    <path d="M318 26 L334 2 M326 22 L344 6" class="a"/>
+    <text x="290" y="13" text-anchor="end" class="h">Hurley</text>
+    <text x="290" y="28" text-anchor="end">Diagonale, Drama</text>
+  </g>
+  <text x="180" y="280" text-anchor="middle" class="m">das Motiv ist gleich – die Haltung trennt</text>
+</svg>

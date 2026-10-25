@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- same composition in grey and in colour: the red disc pulls only in colour -->
+  <text x="90" y="16" text-anchor="middle" class="h">in Graustufen</text>
+  <text x="270" y="16" text-anchor="middle" class="h">in Farbe</text>
+  <!-- grey version -->
+  <rect x="20" y="28" width="140" height="100" fill="#9a9a9a" stroke="none"/>
+  <rect x="20" y="100" width="140" height="28" fill="#6e6e6e" stroke="none"/>
+  <path d="M20 100 L60 80 L100 100 Z" fill="#5a5a5a" stroke="none"/>
+  <line x1="122" y1="128" x2="122" y2="58" stroke="#444" stroke-width="3"/>
+  <circle cx="122" cy="52" r="9" fill="#7f7f7f" stroke="none"/>
+  <rect x="20" y="28" width="140" height="100"/>
+  <!-- colour version -->
+  <rect x="200" y="28" width="140" height="100" fill="#8fc1e3" stroke="none"/>
+  <rect x="200" y="100" width="140" height="28" fill="#8a7f6a" stroke="none"/>
+  <path d="M200 100 L240 80 L280 100 Z" fill="#5f6f52" stroke="none"/>
+  <line x1="302" y1="128" x2="302" y2="58" stroke="#444" stroke-width="3"/>
+  <circle cx="302" cy="52" r="9" fill="#d7261e" stroke="none"/>
+  <rect x="200" y="28" width="140" height="100"/>
+  <text x="90" y="150" text-anchor="middle">Rot und Blau werden</text>
+  <text x="90" y="165" text-anchor="middle">fast gleiches Grau:</text>
+  <text x="90" y="180" text-anchor="middle" class="m">Bild wirkt statisch</text>
+  <text x="270" y="150" text-anchor="middle">der rote Kreis</text>
+  <text x="270" y="165" text-anchor="middle">zieht das Auge:</text>
+  <text x="270" y="180" text-anchor="middle" class="a">„compositional torque“</text>
+</svg>

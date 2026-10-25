@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- the Becher class and its students, plus outside influences -->
+  <rect x="40" y="8" width="200" height="40" rx="6" class="a"/>
+  <text x="140" y="25" text-anchor="middle" class="h">Bernd und Hilla Becher</text>
+  <text x="140" y="40" text-anchor="middle" class="m">Fotoklasse ab 1976</text>
+  <rect x="262" y="8" width="92" height="40" rx="6" class="m"/>
+  <text x="308" y="25" text-anchor="middle" class="m">Stephen Shore</text>
+  <text x="308" y="40" text-anchor="middle" class="m">Farbe, 8×10</text>
+  <text x="308" y="64" text-anchor="middle" class="m">→ Gursky, Struth,</text><text x="308" y="78" text-anchor="middle" class="m">Höfer</text>
+  <path d="M100 50 L44 92 M135 50 L124 92 M185 50 L204 92 M225 50 L284 92" class="m"/>
+  <g>
+    <text x="44" y="108" text-anchor="middle" class="h">Höfer</text><text x="44" y="122" text-anchor="middle" class="m">1973–82</text>
+    <text x="124" y="108" text-anchor="middle" class="h">Struth</text><text x="124" y="122" text-anchor="middle" class="m">erst Richter</text>
+    <text x="204" y="108" text-anchor="middle" class="h">Gursky</text><text x="204" y="122" text-anchor="middle" class="m">1980–87</text>
+    <text x="290" y="108" text-anchor="middle" class="h">Esser</text><text x="290" y="122" text-anchor="middle" class="m">1991–97</text>
+  </g>
+  <text x="44" y="142" text-anchor="middle" class="a">Innenräume</text>
+  <text x="124" y="142" text-anchor="middle" class="a">Orte, Menschen</text>
+  <text x="204" y="142" text-anchor="middle" class="a">Weltbild</text>
+  <text x="290" y="142" text-anchor="middle" class="a">Erinnerung</text>
+  <line x1="6" y1="166" x2="354" y2="166" class="m" stroke-dasharray="3 4"/>
+  <text x="180" y="184" text-anchor="middle" class="m">keine Becher-Schule, aber verwandt:</text>
+  <rect x="70" y="196" width="220" height="40" rx="6"/>
+  <text x="180" y="213" text-anchor="middle" class="h">Edward Burtynsky</text>
+  <text x="180" y="228" text-anchor="middle" class="m">Toronto, New-Topographics-Linie</text>
+</svg>

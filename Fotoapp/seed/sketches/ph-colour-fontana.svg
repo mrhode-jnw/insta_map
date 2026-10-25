@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Fontana's recipe: zoom compresses depth into bands, tight exposure deepens colour -->
+  <text x="100" y="16" text-anchor="middle" class="h">Zoom staucht den Raum</text>
+  <line x1="10" y1="120" x2="200" y2="120" class="m"/>
+  <rect x="12" y="106" width="12" height="8" class="af" stroke="none"/>
+  <path d="M24 108 L196 70 M24 112 L196 112" class="a" stroke-dasharray="3 3"/>
+  <path d="M70 120 q20 -10 40 0 M120 120 q22 -18 44 0 M160 120 q20 -30 40 0" class="m"/>
+  <text x="90" y="140" text-anchor="middle" class="m">Felder hintereinander,</text>
+  <text x="90" y="154" text-anchor="middle" class="m">enger Bildwinkel</text>
+  <path d="M208 92 h20 M223 87 l5 5 l-5 5" class="m"/>
+  <!-- resulting bands -->
+  <rect x="236" y="40" width="112" height="22" fill="#2d6cc0" stroke="none"/>
+  <rect x="236" y="62" width="112" height="16" fill="#3f8a3a" stroke="none"/>
+  <rect x="236" y="78" width="112" height="2" fill="#d7261e" stroke="none"/>
+  <rect x="236" y="80" width="112" height="18" fill="#8fb13a" stroke="none"/>
+  <rect x="236" y="98" width="112" height="22" fill="#e3c13b" stroke="none"/>
+  <rect x="236" y="40" width="112" height="80"/>
+  <text x="292" y="140" text-anchor="middle" class="m">Bänder ohne Tiefe</text>
+  <!-- exposure -->
+  <text x="180" y="180" text-anchor="middle" class="h">knapp belichtet = satter</text>
+  <rect x="96" y="192" width="70" height="26" fill="#6fa0dc" stroke="none"/>
+  <rect x="194" y="192" width="70" height="26" fill="#1f4f9a" stroke="none"/>
+  <text x="131" y="209" text-anchor="middle" fill="#10243f" style="fill:#10243f">normal</text>
+  <text x="229" y="209" text-anchor="middle" style="fill:#e8eef8">knapp</text>
+  <path d="M168 205 h22 M185 200 l5 5 l-5 5" class="m"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 272" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- from the 1975 show to the colour followers (sourced dates) -->
+  <text x="14" y="16" class="h">Jahr</text><text x="100" y="16" class="h">Was geschah</text>
+  <line x1="82" y1="28" x2="82" y2="258"/>
+  <g>
+    <circle cx="82" cy="36" r="3.5" class="mf" stroke="none"/><text x="14" y="40">1967</text><text x="100" y="40">R. Adams: Vororte, Colorado</text>
+    <circle cx="82" cy="60" r="3.5" class="mf" stroke="none"/><text x="14" y="64">1973–79</text><text x="100" y="64">Shore: quer durch Nordamerika</text>
+    <circle cx="82" cy="84" r="3.5" class="mf" stroke="none"/><text x="14" y="88">1974</text><text x="100" y="88">R. Adams: „The New West“</text>
+    <circle cx="82" cy="108" r="3.5" class="mf" stroke="none"/><text x="14" y="112">1974</text><text x="100" y="112">Misrach: „Telegraph 3 AM“</text>
+    <rect x="76" y="124" width="12" height="28" rx="3" class="af" stroke="none"/>
+    <text x="14" y="136" class="a">1975–76</text><text x="100" y="136" class="a">„New Topographics“,</text><text x="100" y="150" class="a">Rochester</text>
+    <circle cx="82" cy="174" r="3.5" class="mf" stroke="none"/><text x="14" y="178">1978</text><text x="100" y="178">Sternfeld: zur Großformatkamera</text>
+    <circle cx="82" cy="198" r="3.5" class="mf" stroke="none"/><text x="14" y="202">ab ~1979</text><text x="100" y="202">Misrach: „Desert Cantos“</text>
+    <circle cx="82" cy="222" r="3.5" class="mf" stroke="none"/><text x="14" y="226">1982</text><text x="100" y="226">Shore: „Uncommon Places“</text>
+    <circle cx="82" cy="246" r="3.5" class="mf" stroke="none"/><text x="14" y="250">1987</text><text x="100" y="250">Sternfeld: „American Prospects“</text>
+  </g>
+</svg>

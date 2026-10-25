@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- negative formats in the 1975 show, drawn to the same scale -->
+  <text x="180" y="14" text-anchor="middle" class="m">Negativformate, im selben Maßstab</text>
+  <rect x="14" y="34" width="127" height="101" class="f"/>
+  <text x="77" y="80" text-anchor="middle" class="h">8×10 Zoll</text>
+  <text x="77" y="96" text-anchor="middle" class="m">Fachkamera</text>
+  <rect x="190" y="105" width="30" height="30" class="f"/>
+  <text x="205" y="80" text-anchor="middle" class="h">Mittelformat</text><text x="205" y="94" text-anchor="middle" class="m">quadratisch</text>
+  <rect x="291" y="123" width="18" height="12" class="af" stroke="none"/>
+  <text x="300" y="112" text-anchor="middle" class="h">Kleinbild</text>
+  <line x1="10" y1="145" x2="350" y2="145" class="m"/>
+  <text x="77" y="164" text-anchor="middle">etwa die Hälfte,</text>
+  <text x="77" y="179" text-anchor="middle">u. a. Bechers, Shore</text>
+  <text x="205" y="164" text-anchor="middle">Deal,</text>
+  <text x="205" y="179" text-anchor="middle">Gohlke</text>
+  <text x="300" y="164" text-anchor="middle">Baltz,</text>
+  <text x="300" y="179" text-anchor="middle">Wessel</text>
+  <rect x="118" y="196" width="10" height="10" fill="#d9822b" stroke="none"/>
+  <text x="134" y="205" class="a">Farbe: nur Shore</text>
+</svg>

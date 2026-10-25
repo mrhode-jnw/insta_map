@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- schematic tonal distribution: Edward vs Brett Weston (own judgement) -->
+  <text x="88" y="16" text-anchor="middle" class="h">Edward Weston</text>
+  <text x="272" y="16" text-anchor="middle" class="h">Brett Weston</text>
+  <text x="88" y="32" text-anchor="middle" class="m">Körper modellieren</text>
+  <text x="272" y="32" text-anchor="middle" class="m">Grafik zeichnen</text>
+  <rect x="18" y="116" width="12" height="14" class="f" stroke="none"/>
+  <rect x="18" y="136" width="12" height="12" fill="#0d0d0d" stroke="none"/>
+  <rect x="34" y="108" width="12" height="22" class="f" stroke="none"/>
+  <rect x="34" y="136" width="12" height="12" fill="#262626" stroke="none"/>
+  <rect x="50" y="96" width="12" height="34" class="f" stroke="none"/>
+  <rect x="50" y="136" width="12" height="12" fill="#3d3d3d" stroke="none"/>
+  <rect x="66" y="86" width="12" height="44" class="f" stroke="none"/>
+  <rect x="66" y="136" width="12" height="12" fill="#575757" stroke="none"/>
+  <rect x="82" y="80" width="12" height="50" class="f" stroke="none"/>
+  <rect x="82" y="136" width="12" height="12" fill="#717171" stroke="none"/>
+  <rect x="98" y="84" width="12" height="46" class="f" stroke="none"/>
+  <rect x="98" y="136" width="12" height="12" fill="#8c8c8c" stroke="none"/>
+  <rect x="114" y="92" width="12" height="38" class="f" stroke="none"/>
+  <rect x="114" y="136" width="12" height="12" fill="#a8a8a8" stroke="none"/>
+  <rect x="130" y="100" width="12" height="30" class="f" stroke="none"/>
+  <rect x="130" y="136" width="12" height="12" fill="#c4c4c4" stroke="none"/>
+  <rect x="146" y="112" width="12" height="18" class="f" stroke="none"/>
+  <rect x="146" y="136" width="12" height="12" fill="#e2e2e2" stroke="none"/>
+  <line x1="14" y1="130" x2="162" y2="130" class="m"/>
+  <text x="88" y="168" text-anchor="middle">viele Mitteltöne,</text><text x="88" y="183" text-anchor="middle" class="m">weich verbunden</text>
+  <rect x="202" y="60" width="12" height="70" class="f" stroke="none"/>
+  <rect x="202" y="136" width="12" height="12" fill="#0d0d0d" stroke="none"/>
+  <rect x="218" y="96" width="12" height="34" class="f" stroke="none"/>
+  <rect x="218" y="136" width="12" height="12" fill="#262626" stroke="none"/>
+  <rect x="234" y="118" width="12" height="12" class="f" stroke="none"/>
+  <rect x="234" y="136" width="12" height="12" fill="#3d3d3d" stroke="none"/>
+  <rect x="250" y="124" width="12" height="6" class="f" stroke="none"/>
+  <rect x="250" y="136" width="12" height="12" fill="#575757" stroke="none"/>
+  <rect x="266" y="126" width="12" height="4" class="f" stroke="none"/>
+  <rect x="266" y="136" width="12" height="12" fill="#717171" stroke="none"/>
+  <rect x="282" y="124" width="12" height="6" class="f" stroke="none"/>
+  <rect x="282" y="136" width="12" height="12" fill="#8c8c8c" stroke="none"/>
+  <rect x="298" y="118" width="12" height="12" class="f" stroke="none"/>
+  <rect x="298" y="136" width="12" height="12" fill="#a8a8a8" stroke="none"/>
+  <rect x="314" y="100" width="12" height="30" class="f" stroke="none"/>
+  <rect x="314" y="136" width="12" height="12" fill="#c4c4c4" stroke="none"/>
+  <rect x="330" y="72" width="12" height="58" class="f" stroke="none"/>
+  <rect x="330" y="136" width="12" height="12" fill="#e2e2e2" stroke="none"/>
+  <line x1="198" y1="130" x2="346" y2="130" class="m"/>
+  <text x="272" y="168" text-anchor="middle">Schwarz gegen Weiß,</text><text x="272" y="183" text-anchor="middle" class="m">Mitte gekappt</text>
+  <path d="M60 64 q28 -28 56 0" class="a"/>
+  <text x="180" y="214" text-anchor="middle" class="m">Wie viel Fläche hat jeder Ton? (Schema)</text>
+</svg>
