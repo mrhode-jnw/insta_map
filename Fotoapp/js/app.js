@@ -950,6 +950,75 @@ function showSource(s, label) {
 function closeSheet() { document.querySelector(".src-sheet")?.remove(); }
 window.addEventListener("hashchange", closeSheet);
 
+// ---------- full-screen viewer: tap an image or sketch in a lesson/chapter, pinch or double-tap to zoom, drag to pan
+document.addEventListener("click", e => {
+  const img = e.target.closest('.chapter img[data-kind="m"], .quiz-img img');
+  const svg = !img && e.target.closest(".chapter figure.sketch svg");
+  if (!img && !svg) return;
+  e.preventDefault(); e.stopPropagation();
+  const fig = (img || svg).closest("figure, .compare > div, .quiz-img");
+  const cap = fig?.querySelector(":scope > figcaption, :scope figcaption");
+  openViewer({ img, svg, caption: cap ? cap.innerHTML : "" });
+}, true);
+
+function openViewer({ img, svg, caption }) {
+  closeViewer();
+  const id = img?.dataset.media;
+  const v = document.createElement("div"); v.className = "viewer";
+  v.innerHTML = `<div class="viewer-bar"><button class="secondary" data-close>Schließen</button>
+      ${id && lib.by.images.has(id) ? `<a href="#/bild/${id}">Zur Bildseite</a>` : ""}<span class="muted small">Zwei Finger oder Doppeltippen zum Zoomen</span></div>
+    <div class="viewer-stage"><div class="viewer-content"></div></div>
+    ${caption ? `<div class="viewer-cap">${caption}</div>` : ""}`;
+  const content = v.querySelector(".viewer-content"), stage = v.querySelector(".viewer-stage");
+  if (svg) content.innerHTML = `<div class="viewer-svg sketch">${svg.outerHTML}</div>`;
+  else {
+    const el = document.createElement("img"); el.alt = ""; el.draggable = false; content.append(el);
+    if (img.src) el.src = img.src; else mediaUrl(id, "m").then(u => (el.src = u));
+  }
+  document.body.append(v); document.body.classList.add("noscroll");
+  history.pushState({ viewer: true }, "");
+  v.querySelector("[data-close]").onclick = () => history.back();
+  v.querySelector(".viewer-bar a")?.addEventListener("click", () => closeViewer());
+  v.addEventListener("gesturestart", e => e.preventDefault());
+
+  let s = 1, tx = 0, ty = 0, start = null, lastTap = 0;
+  const pts = new Map();
+  const apply = () => { if (s <= 1.001) { s = 1; tx = ty = 0; } content.style.transform = `translate(${tx}px, ${ty}px) scale(${s})`; };
+  const rel = p => { const r = stage.getBoundingClientRect(); return { x: p.x - r.left - r.width / 2, y: p.y - r.top - r.height / 2 }; };
+  const snapshot = () => {
+    const [a, b] = [...pts.values()];
+    start = b ? { s, tx, ty, d: Math.hypot(a.x - b.x, a.y - b.y), m: rel({ x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }) } : { s, tx, ty, p: rel(a), moved: false };
+  };
+  const zoomAt = (to, at) => { to = Math.min(8, Math.max(1, to)); tx = at.x - (at.x - tx) * (to / s); ty = at.y - (at.y - ty) * (to / s); s = to; apply(); };
+  stage.addEventListener("pointerdown", e => { stage.setPointerCapture(e.pointerId); pts.set(e.pointerId, { x: e.clientX, y: e.clientY }); snapshot(); });
+  stage.addEventListener("pointermove", e => {
+    if (!pts.has(e.pointerId)) return;
+    pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    const [a, b] = [...pts.values()];
+    if (b && start.d) {
+      const m = rel({ x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }), to = Math.min(8, Math.max(1, start.s * Math.hypot(a.x - b.x, a.y - b.y) / start.d));
+      s = to; tx = m.x - (start.m.x - start.tx) * (to / start.s); ty = m.y - (start.m.y - start.ty) * (to / start.s); apply();
+    } else if (!b && start.p) {
+      const p = rel(a); if (Math.hypot(p.x - start.p.x, p.y - start.p.y) > 8) start.moved = true;
+      if (s > 1) { tx = start.tx + p.x - start.p.x; ty = start.ty + p.y - start.p.y; apply(); }
+    }
+  });
+  const up = e => {
+    if (!pts.has(e.pointerId)) return;
+    const single = pts.size === 1 && start.p && !start.moved;
+    pts.delete(e.pointerId);
+    if (single) {
+      const now = Date.now();
+      if (now - lastTap < 320) { zoomAt(s > 1.5 ? 1 : 2.5, rel({ x: e.clientX, y: e.clientY })); lastTap = 0; } else lastTap = now;
+    }
+    if (pts.size) snapshot();
+  };
+  stage.addEventListener("pointerup", up); stage.addEventListener("pointercancel", up);
+  stage.addEventListener("wheel", e => { e.preventDefault(); zoomAt(s * (e.deltaY < 0 ? 1.15 : 1 / 1.15), rel({ x: e.clientX, y: e.clientY })); }, { passive: false });
+}
+function closeViewer() { document.querySelector(".viewer")?.remove(); document.body.classList.remove("noscroll"); }
+window.addEventListener("popstate", closeViewer);
+
 // ---------- boot
 async function start(code, remember) {
   await unlock(code);

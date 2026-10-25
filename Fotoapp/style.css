@@ -287,3 +287,17 @@ sup.refs a.ref { display: inline-block; min-width: 1.35em; padding: 0 3px; margi
 .src-sheet .sheet-head { display: flex; justify-content: space-between; align-items: center; }
 .src-sheet blockquote { margin: 8px 0; padding-left: 10px; border-left: 2px solid var(--line); color: var(--text); }
 .nw { white-space: nowrap; }
+
+/* --- full-screen image viewer */
+.chapter img[data-kind="m"], .quiz-img img, .chapter figure.sketch svg { cursor: zoom-in; }
+body.noscroll { overflow: hidden; }
+.viewer { position: fixed; inset: 0; z-index: 60; background: #000; display: flex; flex-direction: column; touch-action: none; }
+.viewer-bar { display: flex; align-items: center; gap: 14px; padding: 10px 12px; padding-top: max(10px, env(safe-area-inset-top)); background: rgba(0,0,0,.7); }
+.viewer-bar .muted { margin-left: auto; text-align: right; }
+.viewer-stage { flex: 1; position: relative; overflow: hidden; touch-action: none; }
+.viewer-content { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; transform-origin: 50% 50%; will-change: transform; }
+.viewer-content img { max-width: 100%; max-height: 100%; object-fit: contain; user-select: none; -webkit-user-drag: none; pointer-events: none; }
+.viewer-svg { width: 100%; max-width: 900px; background: var(--panel); padding: 10px; }
+.viewer-svg svg { width: 100%; height: auto; pointer-events: none; }
+.viewer-cap { max-height: 22vh; overflow: auto; padding: 8px 14px; padding-bottom: max(12px, env(safe-area-inset-bottom)); color: var(--muted); font-size: 0.88rem; background: rgba(0,0,0,.7); }
+.viewer-cap .who { color: var(--text); }

@@ -130,6 +130,14 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
     const l = lessons.find(x => x.id === lid);
     await page.goto(`${base}/Fotoapp/#/theorie/${lid}`); await waitText("Abschlusstest");
     if (!wrong) {
+      const lim = page.locator('.chapter img[data-kind="m"]').first();
+      if (await lim.count()) {
+        await lim.scrollIntoViewIfNeeded(); await lim.click(); await page.waitForSelector(".viewer .viewer-stage");
+        await page.mouse.move(195, 420); await page.mouse.wheel(0, -400); await page.waitForTimeout(100);
+        ok(/scale\((?!1\))/.test(await page.$eval(".viewer-content", e => e.style.transform)), "lesson image opens full screen and zooms");
+        await page.goBack(); await page.waitForTimeout(200);
+        ok(!(await page.$(".viewer")) && (await page.evaluate(() => location.hash)).startsWith("#/theorie/"), "back closes the viewer and stays on the lesson");
+      }
       const firsts = await page.$$eval('form[data-action="quiz"] fieldset', fs => fs.map(f => f.querySelector('input[type="radio"]').value));
       ok(firsts.some(v => v !== "0") && firsts.some(v => v !== String(firsts[0])), "quiz answer order shuffled");
     }
