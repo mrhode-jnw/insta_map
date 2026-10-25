@@ -15,7 +15,7 @@
   </div>
   <div>
     <h2>{{ dim.label }}: Analyse</h2>
-    {% if analysis %}<p>{{ analysis.data.construction[dim.analysis_field] or "—" }}</p>
+    {% if analysis %}<p>{{ reference or "Die gespeicherte Analyse (ältere Version) behandelt diesen Aspekt nicht – auf der Bildseite neu erzeugen." }}</p>
       <details><summary>Ganze Analyse</summary>{% set a = analysis.data %}{% include "partials/analysis_body.html" %}</details>
     {% else %}<p class="muted">Keine Analyse vorhanden.</p>{% endif %}
     {% if concepts %}

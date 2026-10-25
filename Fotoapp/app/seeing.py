@@ -33,11 +33,32 @@ DIMENSIONS = [
     Dimension("omitted", "Weglassen", "omitted",
               "Was ist außerhalb des Rahmens geblieben – und warum hilft das dem Bild?",
               "Stell dir das Bild 20 % weiter vor. Was käme hinein, was ginge kaputt?"),
-    Dimension("frame", "Rahmen", None, "", ""),
-    Dimension("attitude", "Haltung", None, "", ""),
+    Dimension("frame", "Rahmen", "edge",
+              "Was entsteht genau an den vier Bildkanten – was wird angeschnitten, was berührt den Rand, was hält Abstand?",
+              "Gehe die Kanten einzeln ab. Warum steht der Rand hier und nicht eine Handbreit weiter?"),
+    Dimension("detail", "Detail", "detail",
+              "Welches Detail trägt das Bild – und was erzählt es, das die Gesamtszene nicht erzählt?",
+              "Suche das Kleinste, das du nicht weglassen könntest."),
+    Dimension("attitude", "Haltung", "stance",
+              "Welche Haltung hat der Fotograf zu dem, was er zeigt – Nähe, Distanz, Respekt, Ironie, Außenblick?",
+              "Woran im Bild machst du das fest: Höhe, Abstand, Blickkontakt, Auswahl, Moment?"),
     Dimension("sequence", "Sequenz", None, "", ""),
 ]
 
 BY_KEY = {d.key: d for d in DIMENSIONS}
 DRILLABLE = [d for d in DIMENSIONS if d.analysis_field]
 LOOK_CHOICES = [0, 30, 60, 90]
+
+
+def reference_text(analysis_data: dict, field: str) -> str:
+    """The stored analysis text for a dimension (construction fields or top-level like 'stance')."""
+    return (analysis_data.get("construction", {}).get(field) or analysis_data.get(field) or "").strip()
+
+
+# Rotating fifth question in the learning round, after Szarkowski's categories (MoMA 1966).
+EXTRA_QUESTIONS = [
+    ("thing", "Das Ding selbst: Was ist hier eigentlich das Motiv – und was daran sieht man nur auf dem Foto so?"),
+    ("detail", "Detail: Welches Detail steht für das Ganze?"),
+    ("frame", "Rahmen: Was entsteht an den Bildkanten?"),
+    ("time", "Zeit: Wie viel Zeit steckt in diesem Bild – ein Bruchteil, ein Tag, Jahrzehnte?"),
+]

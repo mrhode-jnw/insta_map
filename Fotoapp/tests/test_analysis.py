@@ -109,9 +109,15 @@ def test_learn_flow_hides_then_reveals(client, db, monkeypatch):
     assert r.status_code == 200
     assert "Wo stand der Fotograf?" in r.text
     assert VALID["seen"] not in r.text  # analysis hidden before answering
+    from app.seeing import EXTRA_QUESTIONS
+    assert any(q in r.text for _, q in EXTRA_QUESTIONS)  # rotating fifth question
     assert "Photographer" not in r.text and ">P<" not in r.text
 
-    r = client.post(f"/learn/answer/{img.id}", data={"q_position": "unten", "q_wait": "Licht"})
+    r = client.post(
+        f"/learn/answer/{img.id}",
+        data={"q_position": "unten", "q_wait": "Licht", "q_extra_label": "Detail: X?", "q_extra": "die Hand"},
+    )
     assert VALID["seen"] in r.text and "Gut gesehen." in r.text
     ans = db.scalar(select(Answer))
+    assert ans.q_extra == "die Hand" and "die Hand" in r.text
     assert ans.q_position == "unten" and ans.feedback_md == "Gut gesehen." and ans.analysis_id

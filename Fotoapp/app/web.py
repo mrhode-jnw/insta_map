@@ -25,6 +25,9 @@ CONSTRUCTION_LABELS = [
     ("layers", "Ebenen"),
     ("color", "Farbe / Tonwerte"),
     ("omitted", "Weggelassen"),
+    ("edge", "Rahmen / Bildkante"),
+    ("detail", "Detail"),
+    ("focus_plane", "Schärfe und Tiefe"),
 ]
 templates.env.globals["CONSTRUCTION_LABELS"] = CONSTRUCTION_LABELS
 

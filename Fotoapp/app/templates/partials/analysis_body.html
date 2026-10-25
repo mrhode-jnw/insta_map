@@ -6,7 +6,7 @@
 <section class="level">
   <h3><span class="num">2</span> Wie es gebaut ist</h3>
   <dl class="construction">
-    {% for key, label in CONSTRUCTION_LABELS %}
+    {% for key, label in CONSTRUCTION_LABELS if key in a.construction %}
       <dt>{{ label }}</dt><dd>{{ a.construction[key] or "—" }}</dd>
     {% endfor %}
   </dl>
@@ -25,10 +25,17 @@
   <h4>Meine Einschätzung</h4>
   <p>{{ a.context.assessment or "—" }}</p>
 </section>
+{% if a.stance %}
+<section class="level">
+  <h3><span class="num">·</span> Haltung <span class="muted small">(Meine Einschätzung)</span></h3>
+  <p>{{ a.stance }}</p>
+</section>
+{% endif %}
 <section class="level">
   <h3><span class="num">4</span> Übertragbare Technik</h3>
   <ol>{% for t in a.transferable %}<li>{{ t }}</li>{% endfor %}</ol>
 </section>
+{% if a.not_assessable %}<p class="muted small">Nicht beurteilbar an der Bildschirmkopie: {{ a.not_assessable }}</p>{% endif %}
 {% if a.deviations %}
 <section class="level deviations">
   <h4>Begründete Abweichungen zur Vorversion</h4>

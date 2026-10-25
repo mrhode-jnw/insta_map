@@ -64,3 +64,12 @@ def test_concept_import_rewrites_refs(tmp_path, db, client):
     page = client.get("/begriffe/vantage").text
     assert "Geh höher." in page and f'href="#source-{ids[0]}"' in page
     assert "Standpunkt" in client.get("/sehen").text
+
+
+def test_reference_text_reads_stance_and_construction():
+    from app.seeing import reference_text
+
+    data = {"construction": {"light": " Seitenlicht "}, "stance": "Distanziert."}
+    assert reference_text(data, "light") == "Seitenlicht"
+    assert reference_text(data, "stance") == "Distanziert."
+    assert reference_text(data, "edge") == ""  # older analyses lack the v3 fields

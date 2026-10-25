@@ -10,6 +10,8 @@
   {% for key, label in QUESTIONS %}
     <label>{{ label }}<textarea name="{{ key }}" rows="3"></textarea></label>
   {% endfor %}
+  <input type="hidden" name="q_extra_label" value="{{ extra }}">
+  <label>{{ extra }}<textarea name="q_extra" rows="2"></textarea></label>
   <button>Antwort abgeben und Analyse aufdecken</button>
   <span class="htmx-indicator">Analyse und Feedback werden geladen … (bis zu 2 Minuten)</span>
 </form>

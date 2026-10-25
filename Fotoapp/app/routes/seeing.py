@@ -9,7 +9,7 @@ from sqlalchemy.orm import Session
 from app.db import get_db
 from app.models import Concept, Drill, Image
 from app.routes.common import get_or_404
-from app.seeing import BY_KEY, DIMENSIONS, DRILLABLE, LOOK_CHOICES
+from app.seeing import BY_KEY, DIMENSIONS, DRILLABLE, LOOK_CHOICES, reference_text
 from app.services import analysis as analysis_service
 from app.services import claude_client, images as image_service
 from app.services import sources as source_service
@@ -120,7 +120,7 @@ def drill_answer(
         data = analysis.data
         media_type, b64 = image_service.for_api(img.file_path)
         fb = claude_client.drill_feedback(
-            media_type, b64, dim.label, dim.question, data["construction"].get(dim.analysis_field, ""), data, drill.answer
+            media_type, b64, dim.label, dim.question, reference_text(data, dim.analysis_field), data, drill.answer
         )
         drill.feedback_md = fb.output
         db.commit()
@@ -147,6 +147,7 @@ def drill_reveal(did: int, request: Request, error: str = "", db: Session = Depe
             "img": img,
             "dim": dim,
             "analysis": img.current_analysis,
+            "reference": reference_text(img.current_analysis.data, dim.analysis_field) if img.current_analysis else "",
             "sources": source_service.for_image(db, img),
             "concepts": concepts,
             "in_session": in_session,

@@ -10,6 +10,9 @@ class Construction(BaseModel):
     layers: str = ""
     color: str = ""
     omitted: str = ""
+    edge: str = ""
+    detail: str = ""
+    focus_plane: str = ""
 
 
 class SourcedStatement(BaseModel):
@@ -31,7 +34,9 @@ class AnalysisOut(BaseModel):
     seen: str = ""
     construction: Construction = Field(default_factory=Construction)
     context: Context = Field(default_factory=Context)
+    stance: str = ""
     transferable: list[str] = Field(default_factory=list)
+    not_assessable: str = ""
 
 
 class AnalysisRevisionOut(AnalysisOut):

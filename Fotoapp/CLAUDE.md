@@ -55,6 +55,7 @@ Erzeugt per Claude API (Bildanalyse), Ausgabe als JSON nach Schema (unten), gesp
   - Worauf hat er gewartet?
   - Was ist weggelassen?
   - Was hättest du anders gemacht?
+  - plus eine wechselnde fünfte Frage nach Szarkowskis Kategorien (Ding selbst, Detail, Rahmen, Zeit; `answers.q_extra_label/q_extra`).
 - Nach dem Absenden: Analyse aufdecken, daneben die eigenen Antworten.
 - Kurzes Feedback (3–5 Sätze) von Claude: Wo deckt sich die Antwort mit der Analyse, was wurde übersehen.
 - Antworten und Feedback werden gespeichert (`answers`).
@@ -101,10 +102,12 @@ Fotoapp/
     templates/
     static/
   prompts/
-    analysis_v2.md         # aktuell (v1 bleibt für alte Analysen erhalten)
+    analysis_v3.md         # aktuell (v1/v2 bleiben für alte Analysen erhalten)
     analysis_revision_v1.md
-    learn_feedback_v2.md
-    chapter_draft_v2.md
+    learn_feedback_v3.md   # mit Gegenlesart wie in einer Crit-Runde
+    drill_feedback_v1.md
+    chapter_draft_v3.md
+  docs/benchmark_hochschulen.md  # Vergleich mit Hochschul-Curricula, Lücken, Empfehlungen
   data/            # images, thumbs, sehschule.db  (in .gitignore)
   seed/            # researched starter content: photographers, projects, images, sources, chapters
   migrations/
@@ -140,13 +143,18 @@ Umgesetzt in `app/models.py`, Migration `migrations/versions/0001_initial_schema
     "moment": "string",
     "layers": "string",
     "color": "string",
-    "omitted": "string"
+    "omitted": "string",
+    "edge": "string (Rahmen/Bildkante, ab v3)",
+    "detail": "string (ab v3)",
+    "focus_plane": "string (Schärfe und Tiefe als Bildwirkung, ab v3)"
   },
   "context": {
     "sourced": [{"text": "string", "source_ids": [1]}],
     "assessment": "string (Meine Einschätzung)"
   },
-  "transferable": ["string", "string"]
+  "stance": "string (Haltung, Meine Einschätzung, ab v3)",
+  "transferable": ["string", "string"],
+  "not_assessable": "string (an der Bildschirmkopie nicht beurteilbar, ab v3)"
 }
 ```
 Leere Felder statt erfundener Inhalte. `context.sourced` darf nur Aussagen enthalten, die durch übergebene Quellenauszüge gedeckt sind.

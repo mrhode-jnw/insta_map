@@ -7,10 +7,10 @@ import anthropic
 from app.config import PROMPTS_DIR, settings
 from app.schemas import AnalysisOut, AnalysisRevisionOut
 
-ANALYSIS_PROMPT = "analysis_v2"
+ANALYSIS_PROMPT = "analysis_v3"
 REVISION_PROMPT = "analysis_revision_v1"
-FEEDBACK_PROMPT = "learn_feedback_v2"
-CHAPTER_PROMPT = "chapter_draft_v2"
+FEEDBACK_PROMPT = "learn_feedback_v3"
+CHAPTER_PROMPT = "chapter_draft_v3"
 DRILL_PROMPT = "drill_feedback_v1"
 
 
@@ -129,6 +129,9 @@ def learn_feedback(analysis: dict, answers: dict) -> Result:
         "q_different": "Was hättest du anders gemacht?",
     }
     answer_text = "\n".join(f"{labels[k]}\n{answers.get(k, '').strip() or '(keine Antwort)'}\n" for k in labels)
+    if "extra" in answers:
+        label, text = answers["extra"]
+        answer_text += f"\n{label}\n{text.strip() or '(keine Antwort)'}\n"
     response = _call(
         _client().beta.messages.create,
         max_tokens=4000,

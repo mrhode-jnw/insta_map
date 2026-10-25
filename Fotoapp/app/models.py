@@ -119,6 +119,8 @@ class Answer(Base):
     q_wait: Mapped[str] = mapped_column(Text, default="")
     q_omitted: Mapped[str] = mapped_column(Text, default="")
     q_different: Mapped[str] = mapped_column(Text, default="")
+    q_extra_label: Mapped[str] = mapped_column(Text, default="")
+    q_extra: Mapped[str] = mapped_column(Text, default="")
     feedback_md: Mapped[str] = mapped_column(Text, default="")
     created_at: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
 

@@ -13,6 +13,7 @@
     <h2>Deine Antworten</h2>
     <dl class="my-answers">
       {% for key, label in questions %}<dt>{{ label }}</dt><dd>{{ answer[key] or "—" }}</dd>{% endfor %}
+      {% if answer.q_extra_label %}<dt>{{ answer.q_extra_label }}</dt><dd>{{ answer.q_extra or "—" }}</dd>{% endif %}
     </dl>
     <h2>Feedback</h2>
     {% if answer.feedback_md %}<div class="prose feedback">{{ md(answer.feedback_md) }}</div>

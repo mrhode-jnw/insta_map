@@ -13,9 +13,14 @@ from app.services import analysis as analysis_service
 from app.services import claude_client
 from app.services import sources as source_service
 from app.services.claude_client import ClaudeError
+from app.seeing import EXTRA_QUESTIONS
 from app.web import QUESTIONS, templates
 
 router = APIRouter(prefix="/learn")
+
+
+def _extra(answer: Answer) -> dict:
+    return {"extra": (answer.q_extra_label, answer.q_extra)} if answer.q_extra_label else {}
 
 
 @router.get("")
@@ -69,7 +74,13 @@ def learn_current(request: Request, db: Session = Depends(get_db)):
     return templates.TemplateResponse(
         request,
         "learn_question.html",
-        {"img": img, "pos": state["pos"] + 1, "total": len(state["ids"]), "look": state.get("look", 0)},
+        {
+            "img": img,
+            "pos": state["pos"] + 1,
+            "total": len(state["ids"]),
+            "look": state.get("look", 0),
+            "extra": EXTRA_QUESTIONS[(img.id + state["pos"]) % len(EXTRA_QUESTIONS)][1],
+        },
     )
 
 
@@ -81,11 +92,18 @@ def learn_answer(
     q_wait: str = Form(""),
     q_omitted: str = Form(""),
     q_different: str = Form(""),
+    q_extra_label: str = Form(""),
+    q_extra: str = Form(""),
     db: Session = Depends(get_db),
 ):
     img = get_or_404(db, Image, iid)
     answers = {"q_position": q_position, "q_wait": q_wait, "q_omitted": q_omitted, "q_different": q_different}
-    answer = Answer(image_id=img.id, **{k: v.strip() for k, v in answers.items()})
+    answer = Answer(
+        image_id=img.id,
+        q_extra_label=q_extra_label.strip(),
+        q_extra=q_extra.strip(),
+        **{k: v.strip() for k, v in answers.items()},
+    )
     db.add(answer)
     db.commit()
 
@@ -93,7 +111,7 @@ def learn_answer(
     try:
         analysis, _ = analysis_service.generate(db, img)
         answer.analysis_id = analysis.id
-        fb = claude_client.learn_feedback(analysis.data, answers)
+        fb = claude_client.learn_feedback(analysis.data, answers | _extra(answer))
         answer.feedback_md = fb.output
         db.commit()
     except ClaudeError as exc:
@@ -132,7 +150,7 @@ def learn_retry_feedback(aid: int, db: Session = Depends(get_db)):
         answer.analysis_id = analysis.id
         fb = claude_client.learn_feedback(
             analysis.data,
-            {k: getattr(answer, k) for k, _ in QUESTIONS},
+            {k: getattr(answer, k) for k, _ in QUESTIONS} | _extra(answer),
         )
         answer.feedback_md = fb.output
         db.commit()
