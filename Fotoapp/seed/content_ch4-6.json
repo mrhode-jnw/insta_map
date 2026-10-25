@@ -1,0 +1,976 @@
+{
+ "accessed_at": "2026-10-25",
+ "photographers": [
+  {
+   "key": "shore",
+   "name": "Stephen Shore",
+   "born": 1947,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Stephen_Shore",
+     "title": "Stephen Shore – Wikipedia",
+     "excerpt": "Stephen Shore (born October 8, 1947) is an American photographer known for his images of scenes and objects of the banal, and for his pioneering use of color in art photography. His books include Uncommon Places (1982) and American Surfaces (1999), photographs that he took on cross-country road trips in the 1970s."
+    },
+    {
+     "url": "https://www.303gallery.com/artists/stephen-shore/biography",
+     "title": "Stephen Shore – Biography – 303 Gallery",
+     "excerpt": "Color photography attracted Shore for its ability to record the range and intensity of hues seen in life. In 1971, at age twenty-three, he became the first living photographer to have a one-person show at the Metropolitan Museum of Art, New York."
+    },
+    {
+     "url": "https://www.artic.edu/artworks/104203",
+     "title": "Stephen Shore, Second Street East & South Main Street, Kalispell, Montana – Art Institute of Chicago",
+     "excerpt": "After achieving success at an early age—he sold three prints to the Museum of Modern Art at 14, photographed at Andy Warhol’s Factory at 17, and held a solo exhibition at the Metropolitan Museum of Art at 24—Stephen Shore took a new direction in his work with a series of cross-country road trips beginning in 1972. He explained, “I started photographing everyone I met, every meal, every toilet, every bed I slept in, the streets I walked on, the towns I visited.”"
+    }
+   ],
+   "projects": [
+    {
+     "key": "shore-uncommon-places",
+     "title": "Uncommon Places",
+     "year_from": 1973,
+     "year_to": 1982,
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Stephen_Shore",
+       "title": "Stephen Shore – Wikipedia",
+       "excerpt": "Viewing the streets and towns he passed through, he conceived the idea to photograph them in color, first using 35 mm hand-held camera and then a 4×5\" view camera before finally settling on the 8×10 format."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Stephen_Shore",
+       "title": "Stephen Shore – Wikipedia",
+       "excerpt": "The change to a large format camera is believed to have happened because of a conversation with John Szarkowski. In 1974 a National Endowment for the Arts (NEA) grant funded further work, followed in 1975 by a Guggenheim Fellowship."
+      },
+      {
+       "url": "https://www.303gallery.com/artists/stephen-shore/biography",
+       "title": "Stephen Shore – Biography – 303 Gallery",
+       "excerpt": "His 1982 book, Uncommon Places became a bible for young photographers seeking to work in color, because, along with that of William Eggleston, his work exemplified the fact that the medium could be considered art."
+      },
+      {
+       "url": "https://www.303gallery.com/artists/stephen-shore/images/uncommon-places",
+       "title": "Stephen Shore – Uncommon Places – 303 Gallery",
+       "excerpt": "Stephen Shore Badlands National Monument, South Dakota, July 14, 1973 Chromogenic color print"
+      }
+     ],
+     "images": [
+      {
+       "key": "shore-kalispell-1974",
+       "title": "Second Street East & South Main Street, Kalispell, Montana",
+       "year": 1974,
+       "location": "Kalispell, Montana, USA",
+       "source_url": "https://www.artic.edu/artworks/104203",
+       "image_url": "https://www.artic.edu/iiif/2/12e1b431-4e08-5c20-6dd0-b6345f020c5e/full/843,/0/default.jpg",
+       "tags": [
+        "straße",
+        "farbe",
+        "architektur",
+        "kleinstadt"
+       ],
+       "sources": [
+        {
+         "url": "https://www.artic.edu/artworks/104203",
+         "title": "Stephen Shore, Second Street East & South Main Street, Kalispell, Montana – Art Institute of Chicago",
+         "excerpt": "With a deadpan appraisal of the built environment of modern America, Shore built a reputation as part of a generation of photographers who used color in an anticommercial fashion. The street corner in this image is unremarkable, yet Shore’s attention to the landscape—vernacular signs and architecture, patterns in the street and pavement—and muted color palette render the mundane significant."
+        }
+       ]
+      },
+      {
+       "key": "shore-hoff-avenue-tucson-1976",
+       "title": "Hoff Avenue, Tucson, Arizona",
+       "year": 1976,
+       "location": "Tucson, Arizona, USA",
+       "source_url": "https://www.artic.edu/artworks/94310",
+       "image_url": "https://www.artic.edu/iiif/2/90cf2a8e-b04f-2391-f165-2d6528017da4/full/843,/0/default.jpg",
+       "tags": [
+        "straße",
+        "farbe",
+        "vorstadt",
+        "licht"
+       ],
+       "sources": []
+      },
+      {
+       "key": "shore-us97-klamath-falls-1973",
+       "title": "U.S. 97, South of Klamath Falls, Oregon",
+       "year": 1973,
+       "location": "South of Klamath Falls, Oregon, USA",
+       "source_url": "https://www.303gallery.com/artists/stephen-shore/images/uncommon-places",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5576fee507a72c0678771e53/3e33ed2de987a67bf346c2f1ecc57295.jpeg",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "weite",
+        "straße"
+       ],
+       "sources": []
+      },
+      {
+       "key": "shore-badlands-1973",
+       "title": "Badlands National Monument, South Dakota",
+       "year": 1973,
+       "location": "Badlands National Monument, South Dakota, USA",
+       "source_url": "https://www.303gallery.com/artists/stephen-shore/images/uncommon-places",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5576fee507a72c0678771e53/89e889e6df64e44fe71ccd3de433b378.jpeg",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "auto",
+        "tourismus"
+       ],
+       "sources": []
+      },
+      {
+       "key": "shore-us93-kingman-1975",
+       "title": "U.S. 93, Kingman, Arizona",
+       "year": 1975,
+       "location": "Kingman, Arizona, USA",
+       "source_url": "https://www.303gallery.com/artists/stephen-shore/images/uncommon-places",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5576fee507a72c0678771e53/f0c0446c9bc0f8a164bd40f6ccdf5ae5.jpeg",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "weite",
+        "straße"
+       ],
+       "sources": []
+      },
+      {
+       "key": "shore-presidio-1975",
+       "title": "Presidio, Texas",
+       "year": 1975,
+       "location": "Presidio, Texas, USA",
+       "source_url": "https://www.303gallery.com/artists/stephen-shore/images/uncommon-places",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5576fee507a72c0678771e53/876f8274cfd8f34d5b29bdc6199c9b41.jpeg",
+       "tags": [
+        "straße",
+        "farbe",
+        "kleinstadt",
+        "licht"
+       ],
+       "sources": []
+      },
+      {
+       "key": "shore-meeting-street-charleston-1975",
+       "title": "Meeting Street, Charleston, South Carolina",
+       "year": 1975,
+       "location": "Charleston, South Carolina, USA",
+       "source_url": "https://www.303gallery.com/artists/stephen-shore/images/uncommon-places",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5576fee507a72c0678771e53/5abc300189edd00b4f4a741e2dbdacfb.jpeg",
+       "tags": [
+        "architektur",
+        "farbe",
+        "fassade",
+        "stadt"
+       ],
+       "sources": []
+      },
+      {
+       "key": "shore-trails-end-kanab-1973",
+       "title": "Trail’s End Restaurant, Kanab, Utah",
+       "year": 1973,
+       "location": "Kanab, Utah, USA",
+       "source_url": "https://www.303gallery.com/artists/stephen-shore/images/uncommon-places",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5576fee507a72c0678771e53/44bc7231ecedd271788da4a18105cda8.jpeg",
+       "tags": [
+        "stillleben",
+        "farbe",
+        "aufsicht",
+        "reise"
+       ],
+       "sources": []
+      },
+      {
+       "key": "shore-merced-river-1979",
+       "title": "Merced River, Yosemite National Park, California",
+       "year": 1979,
+       "location": "Yosemite National Park, California, USA",
+       "source_url": "https://www.303gallery.com/artists/stephen-shore/images/uncommon-places",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5576fee507a72c0678771e53/735795abfffb044ecdd52d22853fba83.jpeg",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "menschen",
+        "nationalpark"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "adams",
+   "name": "Robert Adams",
+   "born": 1937,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Robert_Adams_(photographer)",
+     "title": "Robert Adams (photographer) – Wikipedia",
+     "excerpt": "Robert Adams (born 1937) is an American photographer who has focused on the changing landscape of the American West. His work first came to prominence in the mid-1970s through his book The New West (1974) and his participation in the exhibition New Topographics: Photographs of a Man-Altered Landscape in 1975, which helped to define the New Topographics genre."
+    },
+    {
+     "url": "http://www.getty.edu/art/exhibitions/adams/",
+     "title": "Robert Adams: Landscapes of Harmony and Dissonance – J. Paul Getty Museum (Exhibition 2006)",
+     "excerpt": "His work is inspired both by his joy in the inherent beauty of the landscape, and his dismay at its exploitation and degradation for residential and commercial development. In his images of main streets, tract houses, trees, and waterways, Adams records two kinds of landscapes, one damaged by people and the other somehow beyond their power to harm."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Robert_Adams_(photographer)",
+     "title": "Robert Adams (photographer) – Wikipedia",
+     "excerpt": "In 1963, Adams bought a 35 mm camera and began to take pictures mostly of nature and architecture."
+    },
+    {
+     "url": "https://www.nevadaart.org/art/exhibitions/american-silence-the-photographs-of-robert-adams/",
+     "title": "American Silence: The Photographs of Robert Adams – Nevada Museum of Art",
+     "excerpt": "For 50 years, Robert Adams (born 1937) has made compelling, provocative, and highly influential photographs that show the wonder and fragility of the American landscape, its inherent beauty, and the inadequacy of our response to it."
+    }
+   ],
+   "projects": [
+    {
+     "key": "adams-the-new-west",
+     "title": "The New West",
+     "year_from": 1968,
+     "year_to": 1974,
+     "sources": [
+      {
+       "url": "http://www.getty.edu/art/exhibitions/adams/",
+       "title": "Robert Adams: Landscapes of Harmony and Dissonance – J. Paul Getty Museum (Exhibition 2006)",
+       "excerpt": "Adams explored new housing tracts that were being built along the Colorado Front Range in the late 1960s and early 1970s. The developments filled with people who had migrated west in search of a new Eden, only to discover themselves isolated in an artificial landscape."
+      },
+      {
+       "url": "http://www.getty.edu/art/exhibitions/adams/",
+       "title": "Robert Adams: Landscapes of Harmony and Dissonance – J. Paul Getty Museum (Exhibition 2006)",
+       "excerpt": "About his 1970s work, published under the title The New West, Adams wrote, \"The subject of these pictures is...the source of all Form, light.\" He asserted, \"I love the light,\" underscoring that the deeper subject of these pictures is not the tract homes or freeways they depict."
+      },
+      {
+       "url": "https://fraenkelgallery.com/artists/robert-adams",
+       "title": "Robert Adams – Fraenkel Gallery",
+       "excerpt": "In a seminal series of images representing the suburban Southwest, Adams shows the brutal squalor of suburban architecture and its effect on the landscape, as well as the hopeful aspects of nature that are beyond our impact."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Robert_Adams_(photographer)",
+       "title": "Robert Adams (photographer) – Wikipedia",
+       "excerpt": "The New West: Landscapes Along the Colorado Front Range. Boulder, CO: Colorado Associated University Press, 1974."
+      }
+     ],
+     "images": [
+      {
+       "key": "adams-green-mountain-1970",
+       "title": "Green Mountain. Jefferson County, Colorado",
+       "year": 1970,
+       "location": "Jefferson County, Colorado, USA",
+       "source_url": "https://fraenkelgallery.com/artists/robert-adams",
+       "image_url": "https://i0.wp.com/fraenkelgallery.com/wp-content/uploads/2026/07/RA-03-0072.jpg",
+       "tags": [
+        "landschaft",
+        "vorstadt",
+        "schwarzweiß",
+        "weite"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-golden-1969",
+       "title": "Golden, Colorado",
+       "year": 1969,
+       "location": "Golden, Colorado, USA",
+       "source_url": "https://fraenkelgallery.com/artists/robert-adams",
+       "image_url": "https://i0.wp.com/fraenkelgallery.com/wp-content/uploads/2012/01/RA-03-0081.jpg",
+       "tags": [
+        "landschaft",
+        "vorstadt",
+        "schwarzweiß",
+        "stadtrand"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-clear-creek-1968-72",
+       "title": "Clear Creek, near Idaho Springs",
+       "year": null,
+       "location": "Clear Creek, near Idaho Springs, Colorado, USA",
+       "source_url": "https://fraenkelgallery.com/artists/robert-adams",
+       "image_url": "https://i0.wp.com/fraenkelgallery.com/wp-content/uploads/2012/04/Adams_TheNewWest-2.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiß",
+        "fluss",
+        "schild"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-eden-1968",
+       "title": "Eden, Colorado",
+       "year": 1968,
+       "location": "Eden, Colorado, USA",
+       "source_url": "https://fraenkelgallery.com/artists/robert-adams",
+       "image_url": "https://i0.wp.com/fraenkelgallery.com/wp-content/uploads/2023/03/RA-02-1224.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiß",
+        "weite",
+        "leere"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-grazing-land-falcon-1968",
+       "title": "Grazing Land with Pines, near Falcon, Colorado",
+       "year": 1968,
+       "location": "near Falcon, Colorado, USA",
+       "source_url": "https://fraenkelgallery.com/artists/robert-adams",
+       "image_url": "https://i0.wp.com/fraenkelgallery.com/wp-content/uploads/2012/04/RA-03-0026.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiß",
+        "weite",
+        "himmel"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-golden-1970",
+       "title": "Golden, Colorado",
+       "year": 1970,
+       "location": "Golden, Colorado, USA",
+       "source_url": "https://fraenkelgallery.com/artists/robert-adams",
+       "image_url": "https://i0.wp.com/fraenkelgallery.com/wp-content/uploads/2022/10/RA-03-0066b.jpg",
+       "tags": [
+        "straße",
+        "schwarzweiß",
+        "vorstadt",
+        "berge"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-basement-tract-house-1969",
+       "title": "Basement for a tract house, Colorado Springs",
+       "year": 1969,
+       "location": "Colorado Springs, Colorado, USA",
+       "source_url": "https://fraenkelgallery.com/artists/robert-adams",
+       "image_url": "https://i0.wp.com/fraenkelgallery.com/wp-content/uploads/2017/01/RA-03-0034.jpg",
+       "tags": [
+        "vorstadt",
+        "schwarzweiß",
+        "baustelle",
+        "berge"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "mccurry",
+   "name": "Steve McCurry",
+   "born": 1950,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Steve_McCurry",
+     "title": "Steve McCurry – Wikipedia",
+     "excerpt": "Steve McCurry (born April 23, 1950) is an American photographer, freelancer, and photojournalist. His photo Afghan Girl, of a girl with piercing green eyes, has appeared on the cover of National Geographic several times. McCurry has photographed many assignments for National Geographic and has been a member of Magnum Photos since 1986."
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/steve-mccurry/",
+     "title": "Steve McCurry – Photographer Profile – Magnum Photos",
+     "excerpt": "\"What is important to my work is the individual picture. I photograph stories on assignment, and of course they have to be put together coherently. But what matters most is that each picture stands on its own, with its own place and feeling.\" - Steve McCurry"
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/steve-mccurry/",
+     "title": "Steve McCurry – Photographer Profile – Magnum Photos",
+     "excerpt": "McCurry went on to document other conflicts around the world, but prefers to focus on the human condition and ways in which cultures and peoples share common characteristics, activities and emotions."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Steve_McCurry",
+     "title": "Steve McCurry – Wikipedia",
+     "excerpt": "McCurry states, \"I shot it for 30 years and I have several hundred thousand pictures on Kodachrome in my archive."
+    }
+   ],
+   "projects": [
+    {
+     "key": "mccurry-monsoons",
+     "title": "Monsoons (Monsoon)",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://www.stevemccurry.com/monsoons",
+       "title": "Monsoons – Steve McCurry (offizielle Website)",
+       "excerpt": "\"During the year I spent following the monsoon in a dozen countries, I learned to see it as a critically important event, and not the disaster it had first seemed.\" – Steve McCurry"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Steve_McCurry",
+       "title": "Steve McCurry – Wikipedia",
+       "excerpt": "McCurry, Steve (1988). Monsoon. London: Thames & Hudson."
+      }
+     ],
+     "images": [
+      {
+       "key": "mccurry-banaue-1985",
+       "title": "Banaue, Philippines",
+       "year": 1985,
+       "location": "Banaue, Philippines",
+       "source_url": "https://www.stevemccurry.com/monsoons",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/64ee3953126c653b251cff47/b74fb822-bf23-4396-80da-9438e0086800/PHILIPPINES-10001NF2.JPG?format=1500w",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "reisterrassen",
+        "menschen"
+       ],
+       "sources": []
+      },
+      {
+       "key": "mccurry-pokhara-1984",
+       "title": "Pokhara, Nepal",
+       "year": 1984,
+       "location": "Pokhara, Nepal",
+       "source_url": "https://www.stevemccurry.com/monsoons",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/64ee3953126c653b251cff47/7c22f32c-5464-463b-8695-1eb24b2e8ce0/NEPAL-10017NF5.JPG?format=1500w",
+       "tags": [
+        "porträt",
+        "farbe",
+        "regen",
+        "menschen"
+       ],
+       "sources": []
+      },
+      {
+       "key": "mccurry-java-1983",
+       "title": "Java, Indonesia",
+       "year": 1983,
+       "location": "Java, Indonesia",
+       "source_url": "https://www.stevemccurry.com/monsoons",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/64ee3953126c653b251cff47/2f8fbbd9-f209-4ec8-9668-6aa9a64a40c9/INDONESIA-10001NF6.JPG?format=1500w",
+       "tags": [
+        "porträt",
+        "farbe",
+        "menschen",
+        "reise"
+       ],
+       "sources": []
+      },
+      {
+       "key": "mccurry-chandni-chowk-1983",
+       "title": "Chandni Chowk, Old Delhi, India",
+       "year": 1983,
+       "location": "Chandni Chowk, Old Delhi, India",
+       "source_url": "https://www.stevemccurry.com/monsoons",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/64ee3953126c653b251cff47/257c2186-cf41-4855-b4df-e18f9a1e488e/INDIA-10220.JPG?format=1500w",
+       "tags": [
+        "straße",
+        "farbe",
+        "regen",
+        "menschen"
+       ],
+       "sources": []
+      },
+      {
+       "key": "mccurry-porbandar-1983",
+       "title": "Porbandar, India",
+       "year": 1983,
+       "location": "Porbandar, India",
+       "source_url": "https://www.stevemccurry.com/monsoons",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/64ee3953126c653b251cff47/6558304e-044f-4613-a5a5-a4835c7bc5bd/INDIA-10004NF.JPG?format=1500w",
+       "tags": [
+        "porträt",
+        "farbe",
+        "wasser",
+        "reportage"
+       ],
+       "sources": []
+      },
+      {
+       "key": "mccurry-jodhpur-1984",
+       "title": "Jodhpur, India",
+       "year": 1984,
+       "location": "Jodhpur, India",
+       "source_url": "https://www.stevemccurry.com/monsoons",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/64ee3953126c653b251cff47/fb5a859b-67e1-47b4-b05e-b54f938dfa53/INDIA-10678.JPG?format=1500w",
+       "tags": [
+        "menschen",
+        "farbe",
+        "regen",
+        "reise"
+       ],
+       "sources": []
+      },
+      {
+       "key": "mccurry-arnhem-land-1984",
+       "title": "Arnhem Land, Northern Territory, Australia",
+       "year": 1984,
+       "location": "Arnhem Land, Northern Territory, Australia",
+       "source_url": "https://www.stevemccurry.com/monsoons",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/64ee3953126c653b251cff47/175bed30-3823-433e-86fb-2771e6b87142/AUSTRALIA-10014NF4.JPG?format=1500w",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "wasser",
+        "menschen"
+       ],
+       "sources": []
+      },
+      {
+       "key": "mccurry-kathmandu-1984",
+       "title": "Kathmandu, Nepal",
+       "year": 1984,
+       "location": "Kathmandu, Nepal",
+       "source_url": "https://www.stevemccurry.com/monsoons",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/64ee3953126c653b251cff47/39e471c4-01d1-4f02-a879-f0a60b49f93b/NEPAL-10016.JPG?format=1500w",
+       "tags": [
+        "straße",
+        "farbe",
+        "regen",
+        "menschen"
+       ],
+       "sources": []
+      },
+      {
+       "key": "mccurry-uttar-pradesh-1978",
+       "title": "Uttar Pradesh, India",
+       "year": 1978,
+       "location": "Uttar Pradesh, India",
+       "source_url": "https://www.stevemccurry.com/monsoons",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/64ee3953126c653b251cff47/aba108d9-200d-4891-90f2-884ca41ae6b1/INDIA-11087.JPG?format=1500w",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "regen",
+        "tiere"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "eggleston",
+   "name": "William Eggleston",
+   "born": 1939,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/William_Eggleston",
+     "title": "William Eggleston – Wikipedia",
+     "excerpt": "William Eggleston (born July 27, 1939) is an American photographer. He is widely credited with increasing recognition of color photography as a legitimate artistic medium. Eggleston's books include William Eggleston's Guide (1976) and The Democratic Forest (1989)."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/William_Eggleston",
+     "title": "William Eggleston – Wikipedia",
+     "excerpt": "During these years, whilst examining the price list of a photographic lab in Chicago, he discovered dye-transfer printing."
+    }
+   ],
+   "projects": [
+    {
+     "key": "eggleston-aic-einzelbild",
+     "title": "Einzelbild: Shiloh National Military Park (Art Institute of Chicago)",
+     "year_from": 1978,
+     "year_to": 1978,
+     "sources": [
+      {
+       "url": "https://www.artic.edu/artworks/58364",
+       "title": "William Eggleston, Shiloh National Military Park, Pittsburgh Landing, Tennessee – Art Institute of Chicago",
+       "excerpt": "He is best known, however, as a pioneer of color photography, which he took up later that decade “I had wanted to see a lot of things in color because the world is in color,” he explained."
+      }
+     ],
+     "images": [
+      {
+       "key": "eggleston-shiloh-1978",
+       "title": "Shiloh National Military Park, Pittsburgh Landing, Tennessee",
+       "year": 1978,
+       "location": "Shiloh National Military Park, Pittsburgh Landing, Tennessee, USA",
+       "source_url": "https://www.artic.edu/artworks/58364",
+       "image_url": "https://www.artic.edu/iiif/2/16fdc32b-1dd8-6fb6-b22b-3b66f9602118/full/843,/0/default.jpg",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "himmel",
+        "detail"
+       ],
+       "sources": [
+        {
+         "url": "https://www.artic.edu/artworks/58364",
+         "title": "William Eggleston, Shiloh National Military Park, Pittsburgh Landing, Tennessee – Art Institute of Chicago",
+         "excerpt": "This image was taken at Shiloh National Military Park, site of one of the Civil War’s bloodiest battles, which took place April 6–7, 1862."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "meyerowitz",
+   "name": "Joel Meyerowitz",
+   "born": 1938,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Joel_Meyerowitz",
+     "title": "Joel Meyerowitz – Wikipedia",
+     "excerpt": "Joel Meyerowitz (born March 6, 1938) is an American street, portrait and landscape photographer. He began photographing in color in 1962 and was an early advocate of the use of color during a time when there was significant resistance to the idea of color photography as serious art."
+    }
+   ],
+   "projects": [
+    {
+     "key": "meyerowitz-the-cape",
+     "title": "The Cape (Cape Light)",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Joel_Meyerowitz",
+       "title": "Joel Meyerowitz – Wikipedia",
+       "excerpt": "He is the author of many books including Cape Light, considered a classic work of color photography."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Joel_Meyerowitz",
+       "title": "Joel Meyerowitz – Wikipedia",
+       "excerpt": "Cape Light: Color Photographs by Joel Meyerowitz. With a transcript of an interview between Meyerowitz and Bruce K. MacDonald. Boston: Museum of Fine Arts, Boston, 1979."
+      }
+     ],
+     "images": [
+      {
+       "key": "meyerowitz-hartwig-house-1976",
+       "title": "Hartwig House, Truro, Cape Cod, from the series \"The Cape\"",
+       "year": 1976,
+       "location": "Truro, Cape Cod, Massachusetts, USA",
+       "source_url": "https://www.artic.edu/artworks/58356",
+       "image_url": "https://www.artic.edu/iiif/2/e6c7720e-23ac-5f93-f152-cf6caf2161cd/full/843,/0/default.jpg",
+       "tags": [
+        "innenraum",
+        "farbe",
+        "licht",
+        "architektur"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "baltz",
+   "name": "Lewis Baltz",
+   "born": 1945,
+   "died": 2014,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Lewis_Baltz",
+     "title": "Lewis Baltz – Wikipedia",
+     "excerpt": "Lewis \"Duke\" Baltz (September 12, 1945 – November 22, 2014) was an American visual artist, photographer, and educator. He was an important figure in the New topographics movement of the late 1970s and was one of the photographers featured in the seminal New Topographics exhibition at the Eastman House."
+    }
+   ],
+   "projects": [
+    {
+     "key": "baltz-prototypes",
+     "title": "The Prototype Works",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://www.artic.edu/artworks/200882",
+       "title": "Lewis Baltz, Corona del Mar – Art Institute of Chicago",
+       "excerpt": "During and directly after his student years, Lewis Baltz made what he called Prototypes, photographs of recent residential and commercial “subarchitecture” in his home state of California. They are among the earliest artworks to show the fascinating, disturbing transformation of the American landscape into an unending terrain of anonymous buildings; they are also among the first photographs to seek the starkly reductive forms of Minimalist and Post-Minimalist art “out in the world.”"
+      }
+     ],
+     "images": [
+      {
+       "key": "baltz-corona-del-mar-1971",
+       "title": "Corona del Mar",
+       "year": 1971,
+       "location": "Corona del Mar, California, USA",
+       "source_url": "https://www.artic.edu/artworks/200882",
+       "image_url": "https://www.artic.edu/iiif/2/fbb50ce0-0ad5-d78c-49d3-76dc922f8a7a/full/843,/0/default.jpg",
+       "tags": [
+        "architektur",
+        "schwarzweiß",
+        "minimalismus",
+        "fassade"
+       ],
+       "sources": [
+        {
+         "url": "https://www.artic.edu/artworks/200882",
+         "title": "Lewis Baltz, Corona del Mar – Art Institute of Chicago",
+         "excerpt": "Corona del Mar is nearly devoid of shadows, making the image appear as shallow as the paper on which it is printed. Baltz emphasized this congruence by mounting the photograph onto board and rimming the perimeter with India ink."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "gohlke",
+   "name": "Frank Gohlke",
+   "born": 1942,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Frank_Gohlke",
+     "title": "Frank Gohlke – Wikipedia",
+     "excerpt": "Frank Gohlke (born April 3, 1942) is an American landscape photographer."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Frank_Gohlke",
+     "title": "Frank Gohlke – Wikipedia",
+     "excerpt": "During a career spanning nearly five decades, Gohlke has photographed grain elevators in the American midwest; the aftermath of a 1979 tornado in his hometown of Wichita Falls, Texas; changes in the land around Mount St. Helens during the decade following its 1980 eruption; agriculture in central France; and the wild apple forests of Kazakhstan."
+    }
+   ],
+   "projects": [
+    {
+     "key": "gohlke-grain-elevators",
+     "title": "Grain Elevators",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/New_Topographics",
+       "title": "New Topographics – Wikipedia",
+       "excerpt": "Frank Gohlke photographed grain elevators and their connection to the surrounding landscape,"
+      }
+     ],
+     "images": [
+      {
+       "key": "gohlke-hennesey-1973",
+       "title": "Grain Elevators, Series III, Hennesey, Oklahoma, 1973",
+       "year": 1973,
+       "location": "Hennesey, Oklahoma, USA",
+       "source_url": "https://www.artic.edu/artworks/118934",
+       "image_url": "https://www.artic.edu/iiif/2/0723ab03-a351-05a2-5242-8cf406fac343/full/843,/0/default.jpg",
+       "tags": [
+        "industrie",
+        "schwarzweiß",
+        "architektur",
+        "kleinstadt"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "becher",
+   "name": "Bernd und Hilla Becher",
+   "born": null,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Bernd_and_Hilla_Becher",
+     "title": "Bernd and Hilla Becher – Wikipedia",
+     "excerpt": "They are best known for their extensive series of photographic images, or typologies, of industrial buildings and structures, often organised in grids. As the founders of what has come to be known as the 'Becher school' or the Düsseldorf School of Photography, they influenced generations of documentary photographers and artists in Germany and abroad."
+    }
+   ],
+   "projects": [
+    {
+     "key": "becher-typologien",
+     "title": "Typologien industrieller Bauten (Einzelblatt aus dem Portfolio \"Artists & Photographs\", 1975)",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/New_Topographics",
+       "title": "New Topographics – Wikipedia",
+       "excerpt": "They presented the images in series they called \"typologies\", often arranged in grids under the heading \"Anonymous Sculptures\", a method that conceptual artists took up."
+      }
+     ],
+     "images": [
+      {
+       "key": "becher-coal-tipple-goodspring-1975",
+       "title": "Coal Tipple, Goodspring, Pa. Four Views",
+       "year": 1975,
+       "location": "Goodspring, Pennsylvania, USA",
+       "source_url": "https://www.artic.edu/artworks/119203",
+       "image_url": "https://www.artic.edu/iiif/2/8d7f2843-95d5-5826-a5ff-dabc92f860a5/full/843,/0/default.jpg",
+       "tags": [
+        "industrie",
+        "schwarzweiß",
+        "typologie",
+        "serie"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "haas",
+   "name": "Ernst Haas",
+   "born": 1921,
+   "died": 1986,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Ernst_Haas",
+     "title": "Ernst Haas – Wikipedia",
+     "excerpt": "Ernst Haas (March 2, 1921 – September 12, 1986) was an Austrian-American photojournalist and color photographer. During his 40-year career Haas trod the line between photojournalism and art photography."
+    },
+    {
+     "url": "https://www.icp.org/browse/archive/constituents/ernst-haas",
+     "title": "Ernst Haas – International Center of Photography",
+     "excerpt": "His \"Magic Images of New York,\" a twenty-four-page color photo essay, which appeared in LIFE in 1951 was both his and LIFE's first long color feature in print. Throughout the 1950s and 1960s, Haas worked in both black-and-white and color, contributing to LIFE, Look, Vogue, and Holiday."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Ernst_Haas",
+     "title": "Ernst Haas – Wikipedia",
+     "excerpt": "Once he began working in color, he most often used Kodachrome, known for its rich, saturated colors."
+    }
+   ],
+   "projects": [
+    {
+     "key": "haas-icp-einzelbild",
+     "title": "Einzelbild: Bryce Canyon, Utah (ICP-Sammlung)",
+     "year_from": 1960,
+     "year_to": 1960,
+     "sources": [
+      {
+       "url": "https://www.icp.org/browse/archive/constituents/ernst-haas",
+       "title": "Ernst Haas – International Center of Photography",
+       "excerpt": "His innovative use of the slow shutter speed, which gave many of his pictures the illusion of movement, and his emphasis on audiovisual presentations (works involving sound, poetry, and pictures) opened many possibilities in color photography and in multimedia art."
+      }
+     ],
+     "images": [
+      {
+       "key": "haas-bryce-canyon-1960",
+       "title": "Bryce Canyon, Utah",
+       "year": 1960,
+       "location": "Bryce Canyon, Garfield, Utah, USA",
+       "source_url": "https://www.icp.org/browse/archive/objects/bryce-canyon-utah-0",
+       "image_url": "https://s3.amazonaws.com/icptmsdata/h/a/a/s/haas_ernst_123_1976_465789_displaysize.jpg",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "nationalpark",
+        "struktur"
+       ],
+       "sources": [
+        {
+         "url": "https://www.icp.org/browse/archive/objects/bryce-canyon-utah-0",
+         "title": "Ernst Haas, Bryce Canyon, Utah – International Center of Photography",
+         "excerpt": "Ernst Haas Bryce Canyon, Utah Date 1960 Location United States Garfield Bryce Canyon Utah"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 4,
+   "title": "Farbe wird ernst genommen: die Farbfotografen der 70er",
+   "period_from": 1970,
+   "period_to": 1985,
+   "sources": [
+    {
+     "url": "https://www.303gallery.com/artists/stephen-shore/biography",
+     "title": "Stephen Shore – Biography – 303 Gallery",
+     "excerpt": "His 1982 book, Uncommon Places became a bible for young photographers seeking to work in color, because, along with that of William Eggleston, his work exemplified the fact that the medium could be considered art."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Stephen_Shore",
+     "title": "Stephen Shore – Wikipedia",
+     "excerpt": "Along with others, especially William Eggleston, Shore is recognized as one of the leading photographers who established color photography as an art form. His book Uncommon Places (1982) was influential for new color photographers of his own and later generations."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Joel_Meyerowitz",
+     "title": "Joel Meyerowitz – Wikipedia",
+     "excerpt": "He began photographing in color in 1962 and was an early advocate of the use of color during a time when there was significant resistance to the idea of color photography as serious art."
+    },
+    {
+     "url": "https://www.artic.edu/artworks/104203",
+     "title": "Stephen Shore, Second Street East & South Main Street, Kalispell, Montana – Art Institute of Chicago",
+     "excerpt": "With a deadpan appraisal of the built environment of modern America, Shore built a reputation as part of a generation of photographers who used color in an anticommercial fashion."
+    }
+   ],
+   "key_images": [
+    "shore-kalispell-1974",
+    "shore-us97-klamath-falls-1973",
+    "shore-presidio-1975",
+    "shore-trails-end-kanab-1973",
+    "shore-merced-river-1979",
+    "eggleston-shiloh-1978",
+    "meyerowitz-hartwig-house-1976"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Neue Topografie: Landschaft mit Spuren des Menschen",
+   "period_from": 1965,
+   "period_to": 1985,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/New_Topographics",
+     "title": "New Topographics – Wikipedia",
+     "excerpt": "\"New Topographics: Photographs of a Man-Altered Landscape\" was a groundbreaking exhibition of landscape photography, held from October 1975 to February 1976 at the International Museum of Photography at the George Eastman House in Rochester, New York. The show, curated by William Jenkins, had a lasting impact on aesthetic and conceptual approaches to American landscape photography helping to define the New Topographics genre."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/New_Topographics",
+     "title": "New Topographics – Wikipedia",
+     "excerpt": "Jenkins described the images as \"neutral\" in style, \"reduced to an essentially topographic state, conveying substantial amounts of visual information but eschewing entirely the aspects of beauty, emotion, and opinion\"."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/New_Topographics",
+     "title": "New Topographics – Wikipedia",
+     "excerpt": "About half the photographers used large-format 8 in × 10 in (20 cm × 25 cm) view cameras, with prints of roughly 20 cm × 25 cm (8 in × 10 in). Deal and Gohlke worked in square medium format, printing at 32 cm × 32 cm and 24 cm × 24 cm, while Baltz and Wessel used 35 mm, Baltz with Technical Pan, a slow, fine-grained Kodak film that he enlarged onto 8 in × 10 in paper."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/New_Topographics",
+     "title": "New Topographics – Wikipedia",
+     "excerpt": "All but Stephen Shore worked in black and white; his color photographs, the only color in the show, marked a break from the established belief that fine art photography belonged in black and white."
+    }
+   ],
+   "key_images": [
+    "adams-basement-tract-house-1969",
+    "adams-golden-1970",
+    "adams-eden-1968",
+    "adams-clear-creek-1968-72",
+    "baltz-corona-del-mar-1971",
+    "gohlke-hennesey-1973",
+    "becher-coal-tipple-goodspring-1975"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Das Reisemagazin-Zeitalter: ikonische Reportage- und Porträtbilder",
+   "period_from": 1950,
+   "period_to": 1990,
+   "sources": [
+    {
+     "url": "https://www.icp.org/browse/archive/constituents/ernst-haas",
+     "title": "Ernst Haas – International Center of Photography",
+     "excerpt": "His \"Magic Images of New York,\" a twenty-four-page color photo essay, which appeared in LIFE in 1951 was both his and LIFE's first long color feature in print."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Ernst_Haas",
+     "title": "Ernst Haas – Wikipedia",
+     "excerpt": "His images were carried by magazines like Life and Vogue and, in 1962, were the subject of the first single-artist exhibition of color photography at New York's Museum of Modern Art."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Steve_McCurry",
+     "title": "Steve McCurry – Wikipedia",
+     "excerpt": "McCurry has photographed many assignments for National Geographic and has been a member of Magnum Photos since 1986."
+    },
+    {
+     "url": "https://www.stevemccurry.com/about",
+     "title": "About – Steve McCurry (offizielle Website)",
+     "excerpt": "After two years, McCurry made his first of what would become many trips to India. Traveling with little more than a bag of clothes and film, he made his way across the subcontinent, exploring the country with his camera."
+    }
+   ],
+   "key_images": [
+    "mccurry-banaue-1985",
+    "mccurry-porbandar-1983",
+    "mccurry-chandni-chowk-1983",
+    "mccurry-pokhara-1984",
+    "mccurry-kathmandu-1984",
+    "haas-bryce-canyon-1960"
+   ]
+  }
+ ]
+}
