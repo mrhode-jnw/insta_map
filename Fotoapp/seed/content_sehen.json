@@ -1,0 +1,595 @@
+{
+ "accessed_at": "2026-10-25",
+ "concepts": [
+  {
+   "key": "szarkowski-thing-itself",
+   "name": "Das Ding selbst (The Thing Itself)",
+   "dimension": "attitude",
+   "summary_md": "Zu „The Thing Itself“ schreibt Szarkowski: Motiv und Bild seien nicht dasselbe, auch wenn sie hinterher so wirkten – der Fotograf müsse nicht nur die Wirklichkeit vor sich sehen, sondern das noch unsichtbare Bild, und danach wählen [Q1]. Zugleich beschwöre eine Fotografie überzeugender als jedes andere Bild die greifbare Gegenwart der Wirklichkeit [Q2]. David Hurn spitzt es zu: Der Fotograf sei in erster Linie ein Motiv-Wähler, seine erste Entscheidung sei, was er fotografiert [Q3].",
+   "exercise_md": "Wähle an einem Reisetag ein einziges gewöhnliches Ding (Garküche, Haustür, Lastenrad) und fotografiere es zehnmal ohne Effekt, bis es auch ohne Kontext als es selbst trägt. Abends: Welches Bild zeigt das Ding, welches nur deine Idee davon?",
+   "sources": [
+    {
+     "url": "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf",
+     "title": "MoMA Pressemitteilung Nr. 150, 5. Dezember 1966: The Photographer's Eye (Buch) von John Szarkowski",
+     "excerpt": "The subject and the picture were not the same thing, although they would afterwards seem so. It was the photographer's problem to see not simply the reality before him but the still invisible picture, and to make his choice in terms of the latter."
+    },
+    {
+     "url": "https://www.moma.org/docs/press_archives/3231/releases/MOMA_1964_0018_1964-05-27_20.pdf",
+     "title": "MoMA Pressemitteilung Nr. 20, 27. Mai 1964: The Photographer's Eye (Ausstellung)",
+     "excerpt": "More convincingly than any other picture, a photograph evokes the tangible presence of reality."
+    },
+    {
+     "url": "https://lenswork.com/obpexc.htm",
+     "title": "LensWork: Auszug „Selecting a Subject“ aus David Hurn / Bill Jay, On Being a Photographer (1997)",
+     "excerpt": "Yet the photographer is, primarily, a subject-selector. Much as it might offend the artistically inclined, the history of photography is primarily the history of the subject matter. So, a photographer’s first decision is what to photograph."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "shore-trails-end-kanab-1973",
+     "note": "Ein Frühstückstisch, steil von oben und ohne Inszenierung – das Banale wird als es selbst ernst genommen."
+    },
+    {
+     "key": "becher-gas-tanks-tate",
+     "note": "Gasbehälter frontal und gleichförmig: Das Objekt steht für sich, nicht für eine Stimmung."
+    }
+   ]
+  },
+  {
+   "key": "szarkowski-detail",
+   "name": "Das Detail (The Detail)",
+   "dimension": "detail",
+   "summary_md": "Laut Szarkowski konnte der Fotograf außerhalb des Ateliers die Handlung nicht inszenieren; er konnte aus der Wirklichkeit nur den Teil wählen, der relevant und stimmig schien, und fand intuitiv das bedeutsame Detail – seine Arbeit, unfähig zur Erzählung, wandte sich dem Symbol zu [Q1]. Paul Strands Türriegel wird so zum Mikrokosmos einer Neuengland-Landschaft [Q1].",
+   "exercise_md": "Auf einem überwältigenden Markt oder in einem Tempelbezirk: 30 Minuten lang nur Dinge fotografieren, die kleiner als ein Schuhkarton sind und für den ganzen Ort stehen könnten. Danach ein einziges Bild auswählen, das den Ort ersetzt.",
+   "sources": [
+    {
+     "url": "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf",
+     "title": "MoMA Pressemitteilung Nr. 150, 5. Dezember 1966: The Photographer's Eye (Buch) von John Szarkowski",
+     "excerpt": "From the reality before him he could only choose that part that seemed relevant and consistent, and that would fill his plate.... Intuitively, he sought and found the significant detail. His work, incapable of narrative, turned toward symbol.\" Roger Fenton's lonely Valley of the Shadow of Death stands for the futility and pathos of the Crimean War; Paul Strand's Door Latch is a microcosm of a New England landscape; and Walker Evans' Interior of West Virginia Coal Miner's House is the essence of the poverty of the Depression."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "burtynsky-china-recycling-9",
+     "note": "Ein Haufen Platinenreste im Ausschnitt – das Detail steht für eine ganze Recycling-Industrie."
+    },
+    {
+     "key": "haas-bryce-canyon-1960",
+     "note": "Ohne Himmel und Horizont wird die Felswand zum dichten Ausschnitt, der für die Landschaft spricht."
+    }
+   ]
+  },
+  {
+   "key": "szarkowski-frame",
+   "name": "Der Rahmen (The Frame)",
+   "dimension": "frame",
+   "summary_md": "Für Szarkowski ist das zentrale Problem des Fotografen einfach: was einschließen, was verwerfen – die Entscheidungslinie zwischen innen und außen ist der Bildrand [Q1]. Stephen Shore beschreibt zwei Haltungen: Oft sei der Rahmen nicht das Ende, sondern der Anfang des Bildes – der Fotograf beginne beim Rahmen und baue das Bild von ihm aus nach innen [Q2].",
+   "exercise_md": "Stell dich an einen belebten Platz und lege zuerst nur die vier Bildränder fest (z. B. Bordstein, Laterne, Dachkante), ohne auf Menschen zu achten. Dann warte, was in diesen Rahmen hineinläuft, und mache höchstens 10 Bilder.",
+   "sources": [
+    {
+     "url": "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf",
+     "title": "MoMA Pressemitteilung Nr. 150, 5. Dezember 1966: The Photographer's Eye (Buch) von John Szarkowski",
+     "excerpt": "His central problem is a simple one: what shall he include, what shall he reject? The line of decision between in and out is the picture's edge,"
+    },
+    {
+     "url": "https://aperture.org/editorial/archive-nature-photographs/",
+     "title": "Aperture: On The Nature of Photographs – Luc Sante im Gespräch mit Stephen Shore (Aperture #186, 2007)",
+     "excerpt": "But often with the view camera, the frame is not the end but the beginning of the picture. It’s as though the photographer starts with the frame and builds the picture in from the frame."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "wolf-aod-a39",
+     "note": "Die Fassaden laufen über alle vier Ränder hinaus; der Rahmen schneidet ein Stück aus einem scheinbar endlosen Muster."
+    },
+    {
+     "key": "shore-us97-klamath-falls-1973",
+     "note": "Die Plakatwand mit Bergbild ist ein Rahmen im Rahmen – das Bild thematisiert das Herausschneiden selbst."
+    }
+   ]
+  },
+  {
+   "key": "szarkowski-time",
+   "name": "Zeit (Time)",
+   "dimension": "moment",
+   "summary_md": "Szarkowski hält fest, dass es die Momentaufnahme eigentlich nicht gibt: Alle Fotografien sind Zeitbelichtungen von kürzerer oder längerer Dauer, jede beschreibt ein eigenes „Zeitpaket“, und diese Zeit ist immer die Gegenwart [Q1]. Shore übernimmt die Formel der „discrete parcels of time“ von Szarkowski in „The Nature of Photographs“ [Q2].",
+   "exercise_md": "Fotografiere dieselbe Straßenszene (Fähranleger, Bahnsteig) in einer Viertelstunde dreimal: einmal so, dass Bewegung eingefroren wirkt, einmal so, dass sie als Spur sichtbar ist, einmal als Moment ohne Ereignis. Vergleiche, welches Zeitpaket den Ort erzählt.",
+   "sources": [
+    {
+     "url": "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf",
+     "title": "MoMA Pressemitteilung Nr. 150, 5. Dezember 1966: The Photographer's Eye (Buch) von John Szarkowski",
+     "excerpt": "\"There is in fact no such thing as an instantaneous photograph,\" comments Mr. Szarkowski in the section on 'Time.' \"All photographs are time exposures, of shorter or longer duration, and each describes a discrete parcel of time. This time is always the present,\""
+    },
+    {
+     "url": "https://eyemagazine.com/review/article/essential-on-every-level",
+     "title": "Eye Magazine: Essential on every level – Rezension von Stephen Shore, The Nature of Photographs",
+     "excerpt": "Few of the pictures capture vigorous movement or even much sign of human interaction, and of those that do, Larry Fink’s dancer at Studio 54 in 1977 provides one of the book’s strangest ‘discrete parcels of time’ – a phrase Shore borrows from the late John Szarkowski."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "hoefer-stiftsbibliothek-st-gallen-i",
+     "note": "Die Besucher erscheinen als durchscheinende Bewegungsspuren – die Dauer der Aufnahme wird selbst sichtbar."
+    }
+   ]
+  },
+  {
+   "key": "szarkowski-vantage-point",
+   "name": "Standpunkt (Vantage Point)",
+   "dimension": "viewpoint",
+   "summary_md": "Wenn der Fotograf sein Motiv nicht bewegen konnte, so Szarkowski, konnte er die Kamera bewegen: Um es klar – oft überhaupt – zu sehen, musste er den normalen Standpunkt aufgeben und von oben oder unten, zu nah, zu fern oder von der Rückseite fotografieren [Q1]. Dabei entdeckte er, dass seine Bilder nicht nur die Klarheit, sondern auch die Unklarheit der Dinge zeigen konnten [Q1].",
+   "exercise_md": "Nimm eine berühmte Sehenswürdigkeit und verbiete dir den Standpunkt der Postkarte: je fünf Bilder von sehr hoch, sehr tief, zu nah, zu fern und von hinten. Notiere, welcher Standpunkt etwas zeigt, das der Normalblick verdeckt.",
+   "sources": [
+    {
+     "url": "https://www.moma.org/docs/press_archives/3231/releases/MOMA_1964_0018_1964-05-27_20.pdf",
+     "title": "MoMA Pressemitteilung Nr. 20, 27. Mai 1964: The Photographer's Eye (Ausstellung)",
+     "excerpt": "If the photographer could not move his subject, he could move his camera. To see the subject clearly—often to see it at all—he had to abandon a normal vantage point and shoot his picture from above or below, or from too close, or too far away, or from the back side. He discovered that his pictures could reveal not only the clarity but the obscurity of things,"
+    }
+   ],
+   "example_images": [
+    {
+     "key": "burtynsky-urban-renewal-5",
+     "note": "Laut Titel vom Dach eines Militärkrankenhauses: Der erhöhte Standpunkt macht die Stadt zur dichten Fläche ohne Fluchtpunkt."
+    },
+    {
+     "key": "gursky-bahrain-i",
+     "note": "Senkrechte Aufsicht – die Rennstrecke wird zur Zeichnung, ihre Funktion tritt zurück."
+    },
+    {
+     "key": "mccurry-porbandar-1983",
+     "note": "Standpunkt knapp über der Wasserlinie: Der Betrachter steht mit im Hochwasser."
+    }
+   ]
+  },
+  {
+   "key": "cartier-bresson-decisive-moment",
+   "name": "Der entscheidende Augenblick (Images à la sauvette / The Decisive Moment)",
+   "dimension": "moment",
+   "summary_md": "Cartier-Bresson beschrieb Fotografie als das gleichzeitige Erkennen, im Bruchteil einer Sekunde, der Bedeutung eines Ereignisses und einer präzisen Organisation der Formen, die diesem Ereignis seinen Ausdruck geben [Q1]. Szarkowski präzisierte 1964: entscheidend nicht wegen des äußeren Ereignisses, sondern weil in diesem Moment der Fluss der Formen Gleichgewicht, Klarheit und Ordnung erreichte – das Bild wurde für einen Augenblick zum Bild [Q2].",
+   "exercise_md": "Such dir eine Bühne mit klarer Geometrie (Treppe, Torbogen, Lichtfleck) und bleib 30 Minuten dort. Löse nur aus, wenn eine Figur die Form vervollständigt – nicht, wenn nur „etwas passiert“.",
+   "sources": [
+    {
+     "url": "https://www.henricartierbresson.org/wp-content/uploads/2016/12/Press-Kit-Images-a%CC%80-la-Sauvette-FHCB-GB.pdf",
+     "title": "Fondation Henri Cartier-Bresson: Pressemappe zur Ausstellung „Images à la Sauvette“ (2017)",
+     "excerpt": "To me, photography is the simultaneous recognition, in a fraction of a second, of the significance of an event as well as of a precise organization of forms which give that event its proper expression."
+    },
+    {
+     "url": "https://www.moma.org/docs/press_archives/3231/releases/MOMA_1964_0018_1964-05-27_20.pdf",
+     "title": "MoMA Pressemitteilung Nr. 20, 27. Mai 1964: The Photographer's Eye (Ausstellung)",
+     "excerpt": "decisive not because of the exterior event, but because in that moment the flux of changing forms and patterns were sensed to have achieved balance and clarity and order--because the image became for an instant, a picture,"
+    }
+   ],
+   "example_images": [
+    {
+     "key": "mccurry-jodhpur-1984",
+     "note": "Schirm, Kind und Mann bilden in einem kurzen Moment eine geschlossene Form."
+    },
+    {
+     "key": "mccurry-chandni-chowk-1983",
+     "note": "Mehrere Schirmträger in verschiedenen Tiefen sind im Moment der Aufnahme so verteilt, dass keiner den anderen verdeckt."
+    }
+   ]
+  },
+  {
+   "key": "temps-faible",
+   "name": "Schwache Zeit (temps faible)",
+   "dimension": "moment",
+   "summary_md": "In den 1980er-Jahren wurde dem „entscheidenden Augenblick“ die „schwache Zeit“ (temps faible) gegenübergestellt, entwickelt von Alain Bergala in seinem Essay zu Raymond Depardons „Correspondance new-yorkaise“; der Irrtum sei, den entscheidenden Augenblick als Norm zu verstehen, als gäbe es nur den einen richtigen, geometrisch einrastenden Moment [Q1]. Bergala schrieb, Reporter könnten gerade dann zerstreut sein, wenn man sie ganz auf das Hier und Jetzt konzentriert glaubt [Q2]. Depardons „Correspondance“ habe seine Art begründet, die Welt in ihren „schwachen“ Zeiten zu zeigen [Q3].",
+   "exercise_md": "Fotografiere einen ganzen Reisetag lang wie Depardon in New York: ein einziges Bild pro Tag, gemacht zwischen den Ereignissen (Warten, Umsteigen, Hotelflur), dazu ein Satz Bildunterschrift.",
+   "sources": [
+    {
+     "url": "https://www.henricartierbresson.org/wp-content/uploads/2016/12/Press-Kit-Images-a%CC%80-la-Sauvette-FHCB-GB.pdf",
+     "title": "Fondation Henri Cartier-Bresson: Pressemappe zur Ausstellung „Images à la Sauvette“ (2017)",
+     "excerpt": "In the 1980s, the concept of the ‘decisive moment’ was contrasted with that of the ‘slack time’ (temps faible), as brilliantly developed by French critic Alain Bergala in his essay accompanying Raymond Depardon’s Correspondance New-Yorkaise. The error, the misunderstanding concerning this ‘decisive moment’ attached to the name of Henri Cartier-Bresson is that it has become a kind of standard, as if there were only one right moment, the one where everything falls into place in a geometric way."
+    },
+    {
+     "url": "https://www.blind-magazine.com/?p=6819",
+     "title": "Blind Magazine: A Clear View of the World (zu Alain Bergala und der Reihe „Écrit sur l’image“)",
+     "excerpt": "“What this ‘New York correspondence,’ photos and notes are telling us,’ wrote Alain Bergala, ‘is that reporters can also be absentminded, right when, by definition, we would think them focused on what’s in front of them, on the here and now.”"
+    },
+    {
+     "url": "https://www.lalibre.be/culture/arts/2008/12/31/manhattan-out-6GL6KRG5DRGZPFUETTIWJQL7AM/",
+     "title": "La Libre Belgique: Manhattan Out (zu Raymond Depardon, 2008)",
+     "excerpt": "Il suffit de relire sa \"Correspondance New-Yorkaise\" pour comprendre que cela a même fondé, pour une part, cette fameuse façon de voir et de montrer le monde dans ses temps \"faibles\"."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "shore-us93-kingman-1975",
+     "note": "Ein leerer Betonplatz am Straßenrand – nichts geschieht, und genau das ist das Bild."
+    },
+    {
+     "key": "adams-green-mountain-1970",
+     "note": "Ein Motorradfahrer auf einer Brache: kein Höhepunkt, eher ein beiläufiger Zwischenmoment."
+    }
+   ]
+  },
+  {
+   "key": "shore-solving",
+   "name": "Ordnen statt Komponieren (Solving, not composing)",
+   "dimension": "frame",
+   "summary_md": "Shore unterscheidet: Malerei setze aus Bausteinen etwas Komplexeres zusammen (synthetisch), die Fotografie tue das Gegenteil – sie nehme die Welt, lege eine Ordnung darauf und vereinfache sie (analytisch) [Q1]. In „The Nature of Photographs“ ordnet er die Eigenschaften des Bildes in eine physische, eine abbildende (Flächigkeit, Rahmen, Zeit, Fokus) und eine mentale Ebene [Q2].",
+   "exercise_md": "Stell dich vor eine unordentliche Kreuzung oder Dorfstraße und baue nichts hinzu: Suche nur den Standpunkt, von dem aus Masten, Kanten und Schilder eine Ordnung bekommen. Maximal 5 Aufnahmen, jede von einem anderen Standpunkt.",
+   "sources": [
+    {
+     "url": "https://aperture.org/editorial/archive-nature-photographs/",
+     "title": "Aperture: On The Nature of Photographs – Luc Sante im Gespräch mit Stephen Shore (Aperture #186, 2007)",
+     "excerpt": "With a painting, you’re taking basic building blocks and making something that’s more complex than what you started with. It is a synthetic process. A photograph does the opposite: it takes the world, and puts an order on it, simplifies it. It is an analytic process."
+    },
+    {
+     "url": "https://eyemagazine.com/review/article/essential-on-every-level",
+     "title": "Eye Magazine: Essential on every level – Rezension von Stephen Shore, The Nature of Photographs",
+     "excerpt": "These attributes he divides into three categories: the physical level, the depictive level (consisting of flatness, the frame, time and focus) and the mental level, illustrating each proposition with many examples."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "shore-presidio-1975",
+     "note": "Masten, Zaun und Straße ordnen sich von diesem Standpunkt zu einer klaren Tiefenstaffelung."
+    },
+    {
+     "key": "shore-meeting-street-charleston-1975",
+     "note": "Fassade und Parkmarkierungen liegen parallel zum Bildrand – Ordnung durch Standpunkt, nicht durch Arrangement."
+    }
+   ]
+  },
+  {
+   "key": "winogrand-photographed",
+   "name": "Wie es fotografiert aussieht (to find out what something will look like photographed)",
+   "dimension": "attitude",
+   "summary_md": "Winogrand wollte keine vorab festgelegte Bedeutung übermitteln; seine Abneigung gegen vorfotografische Bedeutungen zeigt der Satz „I photograph to find out what something will look like photographed“ – die Auswahl traf er danach im Studio [Q1]. Tod Papageorge zitiert ihn: Fotografie handle nicht vom fotografierten Ding, sondern davon, wie dieses Ding fotografiert aussieht [Q2].",
+   "exercise_md": "Fotografiere eine Stunde lang alles, was dich irgendwie anzieht, ohne zu begründen warum – und sieh die Bilder erst nach zwei Tagen an. Notiere, welche Bilder anders aussehen als die Szene, an die du dich erinnerst.",
+   "sources": [
+    {
+     "url": "https://collections.uag.pitt.edu/Detail/objects/8063",
+     "title": "University Art Gallery, University of Pittsburgh: Garry Winogrand, Ausstellungstext zum Portfolio „Women are better than men“",
+     "excerpt": "Winogrand had little interest in establishing a meaning ahead of time that his photographs would subsequently communicate. His aversion to the idea of pre-existing, non-photographic meanings comes through in his statement: “I photograph to find out what something will look like photographed.” Having taken his photographs, Winogrand would then appraise them in his studio, selecting for publication or display those that appeared to offer the most exciting material for interpretation."
+    },
+    {
+     "url": "https://www.moma.org/momaorg/shared/pdfs/docs/learn/courses/Papageorge_About-a-Photograph.pdf",
+     "title": "Tod Papageorge: About a Photograph: New York, 1967, by Garry Winogrand (Transatlantica 2/2014, PDF bei moma.org)",
+     "excerpt": "“Photography is not about the thing photographed. It is about how that thing looks photographed,” he said."
+    }
+   ],
+   "example_images": []
+  },
+  {
+   "key": "eggleston-democratic",
+   "name": "Demokratisch sehen (photographing democratically)",
+   "dimension": "attitude",
+   "summary_md": "Auf die Frage, was er an diesem Tag fotografiert habe, antwortete Eggleston beim Abendessen mit Schriftstellern aus der Gegend um Oxford: „democratically“ [Q1]. Ein Porträt (Vogue, bei David Zwirner) fasst es so: Nichts war tabu, nichts zählte mehr als anderes – ein Kindergesicht hatte nicht mehr fotografisches Gewicht als eine rostige Autotür [Q2].",
+   "exercise_md": "Halte an einer Stelle an, an der „nichts ist“ (Straßenrand, Parkplatz hinter dem Hotel), und fotografiere dort eine ganze Viertelstunde lang, als wäre jeder Gegenstand gleich wichtig.",
+   "sources": [
+    {
+     "url": "https://americansuburbx.com/?p=765",
+     "title": "American Suburb X: William Eggleston, Nachwort zu „The Democratic Forest“ (Gespräch mit Mark Holborn, 1988)",
+     "excerpt": "Later, when I was having dinner with some friends, writers from around Oxford, or maybe at the bar of the Holiday Inn, someone said, ‘What have you been photographing here today, Eggleston?’ ‘Well, I’ve been photographing democratically,’ I replied."
+    },
+    {
+     "url": "https://www.davidzwirner.com/news/2017/how-william-eggleston-changed-the-way-we-see-the-world",
+     "title": "David Zwirner (Nachdruck aus Vogue, 2017): How William Eggleston Changed the Way We See the World",
+     "excerpt": "Nothing was off limits, and nothing mattered more than anything else. The image of a child’s face—even the face of his own child—carried no more photographic weight than a rusted car door."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "shore-us93-kingman-1975",
+     "note": "Ein Betonplatz wird mit derselben Sorgfalt behandelt wie eine Sehenswürdigkeit."
+    },
+    {
+     "key": "shore-trails-end-kanab-1973",
+     "note": "Pfannkuchen und Melone als vollwertiges Bildthema – eine verwandte, gleichrangige Aufmerksamkeit."
+    }
+   ]
+  },
+  {
+   "key": "color-as-world",
+   "name": "Farbe als Teil der Welt (as though the world itself existed in color)",
+   "dimension": "color",
+   "summary_md": "Szarkowski sah Egglestons Beitrag darin, Farbe als festen Teil des Motivs zu sehen: nicht als gesondertes Problem, sondern als ob die Welt selbst in Farbe existiere, als ob das Blau und der Himmel eins seien [Q1]. Laut Kurator James Lingwood sagte Luigi Ghirri, er fotografiere in Farbe, weil die Welt farbig sei [Q2]. Alex Webb stellte in Haiti und Mexiko fest, dass seine Schwarzweißbilder die dort fast in die Kultur eingeschriebene Farbe nicht erfassten [Q3].",
+   "exercise_md": "Wähle für einen Tag eine einzige Farbe, die der Ort dir anbietet (Tempelrot, Taxigelb), und fotografiere nur Szenen, in denen diese Farbe Teil des Inhalts ist – nicht Dekoration.",
+   "sources": [
+    {
+     "url": "https://www.moma.org/docs/press_archives/5392/releases/MOMA_1976_0052_41.pdf",
+     "title": "MoMA Pressemitteilung Nr. 41, 25. Mai 1976: William Eggleston's Guide von John Szarkowski",
+     "excerpt": "Eggleston's most significant contribution, Mr. Szarkowski feels, lies in his ability to see color as an integral part of the subject: \"In the past decade, a number of photographers have begun to work in a more confident, more natural, and yet more ambitious spirit, working not as though color were a separate issue, a problem to be solved in isolation (not thinking of color as photographers seventy years ago thought of composition), but rather as though the world itself existed in color, as though the blue and the sky were one thing.\""
+    },
+    {
+     "url": "https://www.anothermag.com/art-photography/10853/a-20th-century-salve-for-our-image-saturated-lives",
+     "title": "AnOther Magazine: Luigi Ghirri – A 20th-Century Salve for Our Image-Saturated Lives (Interview mit James Lingwood, 2018)",
+     "excerpt": "“The world of the amateur was of great interest to Ghirri,” Lingwood explains. “So he decided to make his photographs, from the beginning, in colour. He said: ‘I take photographs in colour because the world is in colour’."
+    },
+    {
+     "url": "https://www.leica-camera.blog/2016/05/17/alex-webb-exhibition-photo-london-2016/",
+     "title": "Leica Camera Blog: Interview mit Alex Webb zur Photo London 2016",
+     "excerpt": "As I worked more in Haiti, Mexico, and deeper into the Caribbean and Latin America — places where intense, vibrant color seems almost embedded in the culture — I realized my black and white photographs weren’t capturing this aspect of these worlds. As a result, I began to photograph in color, which I continue to do to this day."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "mccurry-java-1983",
+     "note": "Pinkes Hemd vor Wassergrün: Die Farbe trägt das Bild, nicht nur die Figur."
+    },
+    {
+     "key": "shore-badlands-1973",
+     "note": "Grünes Auto, ockerfarbene Felsen, Himmelsblau – die Farben sind Teil der Aussage über den Ort."
+    }
+   ]
+  },
+  {
+   "key": "ghirri-deleted-space",
+   "name": "Gelöschter Raum (spazio cancellato / deleted space)",
+   "dimension": "omitted",
+   "summary_md": "Für Ghirri ist das Löschen des Raums um den gerahmten Ausschnitt so wichtig wie das Dargestellte: Erst dadurch erhält das Bild Bedeutung, und es setzt sich im gelöschten Raum fort, der uns einlädt, den Rest der Wirklichkeit zu sehen [Q1]. Michael Wolf strich in „Architecture of Density“ Himmel und Horizont, um die Hongkonger Fassaden zu scheinbar endlosen Abstraktionen zu machen [Q2].",
+   "exercise_md": "Fotografiere einen Aussichtspunkt, ohne das, wofür man hinfährt (Gipfel, Skyline, Meer), ins Bild zu nehmen – das Weggelassene soll trotzdem spürbar sein. Drei Bilder, jedes mit einem anderen weggelassenen Element.",
+   "sources": [
+    {
+     "url": "https://aperture.org/editorial/luigi-ghirri-kodachrome/",
+     "title": "Aperture: Luigi Ghirri, Kodachrome – Einleitung (aus „It’s Beautiful Here, Isn’t It“, 2008)",
+     "excerpt": "In photography, the deletion of the space that surrounds the framed portion is as important for me as what is represented: it is thanks to this deletion that the image takes on meaning, becoming measurable. The image continues, of course, in the visible realm of the deleted space, inviting us to see the rest of reality that is not represented."
+    },
+    {
+     "url": "https://photomichaelwolf.com/about-michael-wolf/introduction/",
+     "title": "Michael Wolf (offizielle Website): Introduction",
+     "excerpt": "in his best known series on hong kong’s highly compressed, often brutal architecture, architecture of density, wolf uses the city’s sky-scraping tower blocks to great effect, eliminating the sky and horizon line to flatten each image and turn these façades into seemingly never-ending abstractions."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "wolf-aod-a32",
+     "note": "Kein Himmel, kein Boden: Die Fassade füllt alles, die Stadt setzt sich jenseits der Ränder fort."
+    },
+    {
+     "key": "wolf-aod-a04",
+     "note": "Durch das Weglassen jeder Begrenzung wird das Fenstermuster zum Bild der Dichte."
+    }
+   ]
+  },
+  {
+   "key": "adams-form",
+   "name": "Form – alles passt (Form)",
+   "dimension": "frame",
+   "summary_md": "Robert Adams sieht das Bemerkenswerte großer Bilder darin, dass alles passt: nichts Überflüssiges, nichts zu viel oder zu wenig, alles im Rahmen bezieht sich aufeinander [Q1]. Der Ausstellungstext zu „The Place We Live“ beschreibt seine Suche nach erlösendem Licht und Schönheit in einer verfallenden Landschaft und die Mischung aus Trauer und Hoffnung in seinen Bildern [Q2].",
+   "exercise_md": "Fotografiere eine beschädigte Landschaft (Baustelle am Stadtrand, Kiesgrube, Brache) und suche so lange den Standpunkt, bis kein Element mehr überflüssig ist. Mach nur ein Bild – dann prüfe, ob etwas „zu viel“ ist.",
+   "sources": [
+    {
+     "url": "https://art21.org/read/robert-adams-photography-life-and-beauty/",
+     "title": "Art21: Robert Adams – Photography, Life, and Beauty (Interview)",
+     "excerpt": "The notable thing, it seems to me, about great pictures is that everything fits. There is nothing extraneous. There is nothing too much, too little, and everything within that frame relates. Nothing is isolated."
+    },
+    {
+     "url": "https://jeudepaume.org/en/?p=9328",
+     "title": "Jeu de Paume: Robert Adams – The Place We Live (Ausstellungstext, 2014)",
+     "excerpt": "The exhibition “Robert Adams: The Place We Live“ reflects Adams’ longstanding interest in tragic relationship between man and nature and his quest to find redeeming light and beauty in a deteriorating landscape. His photographs are distinguished not only by their economy and lucidity, but also by their mixture of grief and hope."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "adams-eden-1968",
+     "note": "Straßenbogen, Schattenkante und Horizont greifen ineinander; nichts wirkt zufällig im Rahmen."
+    },
+    {
+     "key": "adams-basement-tract-house-1969",
+     "note": "Baugrube vor Bergkette – Verletzung und Weite in einem Bild, Trauer und Hoffnung zugleich."
+    }
+   ]
+  },
+  {
+   "key": "new-topographics-neutral",
+   "name": "Topografischer Blick (New Topographics)",
+   "dimension": "attitude",
+   "summary_md": "Die Tate beschreibt die New Topographics als Fotografen, die sich am Menschengemachten orientierten und sachliche Motive wählten: Parkplätze, Vorstadthäuser und Lagerhallen in strenger Kargheit, fast wie frühe Fotografen die Naturlandschaft dokumentierten [Q1]. Jenkins sprach von einem gemeinsamen Blick, „anthropologisch statt kritisch, wissenschaftlich statt künstlerisch“ [Q2].",
+   "exercise_md": "Fotografiere am Ankunftstag die Zone zwischen Flughafen und Zentrum (Gewerbegebiet, Neubausiedlung) frontal, aus Augenhöhe, bei flachem Tageslicht und ohne Kommentar. Zehn Bilder, alle mit gleichem Abstand zum Motiv.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/n/new-topographics",
+     "title": "Tate Glossar: New topographics",
+     "excerpt": "Many of the photographers associated with new topographics including Robert Adams, Lewis Baltz, Nicholas Nixon and Bernd and Hiller Becher, were inspired by the man-made, selecting subject matter that was matter-of-fact. Parking lots, suburban housing and warehouses were all depicted with a beautiful stark austerity, almost in the way early photographers documented the natural landscape."
+    },
+    {
+     "url": "https://student-journals.ucl.ac.uk/obj/article/1915/galley/1508/view",
+     "title": "Object (UCL): Stephen Shore and the style of a ‘New Topographics’",
+     "excerpt": "In language that recalls foundational debates about the medium’s objectivity, Jenkins suggested they had successfully cultivated a shared viewpoint which was ‘anthropological rather than critical, scientific rather than artistic’."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "adams-golden-1970",
+     "note": "Straße, Schild, Tafelberg – frontal und ohne Dramatisierung registriert."
+    },
+    {
+     "key": "shore-meeting-street-charleston-1975",
+     "note": "Fassade und Parkplatz nüchtern parallel zur Bildebene; der Ort wird beschrieben, nicht kommentiert."
+    },
+    {
+     "key": "becher-gas-tanks-tate",
+     "note": "Typologisches Raster gleichartiger Bauten – Sachlichkeit als Methode."
+    }
+   ]
+  },
+  {
+   "key": "berger-ways-of-seeing",
+   "name": "Sehweise (Ways of Seeing)",
+   "dimension": "attitude",
+   "summary_md": "Berger: Das Sehen kommt vor den Worten; es verortet uns in der Welt, und das Verhältnis zwischen dem, was wir sehen, und dem, was wir wissen, ist nie geklärt [Q1]. Jedes Bild verkörpere eine Sehweise – auch eine Fotografie, denn jedes Mal spüren wir, dass der Fotograf diesen Anblick aus unendlich vielen anderen möglichen ausgewählt hat [Q2].",
+   "exercise_md": "Fotografiere eine Szene zuerst, bevor du den Reiseführertext dazu liest, und ein zweites Mal danach. Vergleiche, was das Wissen an deinem Blick verändert hat.",
+   "sources": [
+    {
+     "url": "https://www.penguin.co.uk/books/56989/ways-of-seeing-by-john-berger/9780141035796",
+     "title": "Penguin Books: John Berger, Ways of Seeing (Verlagsseite mit Auszug)",
+     "excerpt": "But there is also another sense in which seeing comes before words. It is seeing which establishes our place in the surrounding world; we explain that world with words, but word can never undo the fact that we are surrounded by it. The relation between what we see and what we know is never settled."
+    },
+    {
+     "url": "https://phc.hse.ru/data/2013/11/28/1337608722/Berger_Ways%20of%20Seeing.pdf",
+     "title": "John Berger: Ways of Seeing (1972), Kapitel 1 – Scan auf phc.hse.ru (Higher School of Economics, Moskau)",
+     "excerpt": "Every image embodies a way of seeing. Even a photograph. For photographs are not, as is often assumed, a mechanical record. Every time we look at a photograph, we are aware, however slightly, of the photographer selecting that sight from an infinity of other possible sights."
+    }
+   ],
+   "example_images": []
+  },
+  {
+   "key": "tourist-gaze",
+   "name": "Touristischer Blick (taking pictures / tourist gaze)",
+   "dimension": "attitude",
+   "summary_md": "Sontag: Fotografieren heißt, sich das Fotografierte anzueignen und sich in ein Verhältnis zur Welt zu setzen, das sich wie Wissen und damit wie Macht anfühlt [Q1]. Touristen nutzen die Kamera als Schild zwischen sich und dem, was ihnen begegnet; die Fotografie gibt der Reise die Struktur „anhalten, fotografieren, weiterfahren“ [Q2]. John Urry beschreibt mit dem „Tourist Gaze“ den Vorrang des Sehens im westlichen Tourismus, der das Erleben der Reisenden wie die Herstellung von Orten für den visuellen Konsum betrifft [Q3].",
+   "exercise_md": "Stell dich an einen Instagram-Spot und fotografiere 20 Minuten lang nicht den Spot, sondern die Fotografierenden und das, was hinter ihrem Rücken liegt. Danach ein einziges Bild des Spots – mit dem, was du jetzt weißt.",
+   "sources": [
+    {
+     "url": "https://www.themarginalian.org/2013/09/16/susan-sontag-on-photography-social-media/",
+     "title": "The Marginalian: Susan Sontag on Photography (Auszüge aus „On Photography“)",
+     "excerpt": "Photographs really are experience captured, and the camera is the ideal arm of consciousness in its acquisitive mood. To photograph is to appropriate the thing photographed. It means putting oneself into a certain relation to the world that feels like knowledge — and, therefore, like power."
+    },
+    {
+     "url": "https://theconversation.com/tourists-in-our-own-reality-susan-sontags-photography-at-50-197615",
+     "title": "The Conversation: Tourists in our own reality – Susan Sontag’s ‘Photography’ at 50 (2023)",
+     "excerpt": "Tourists use their cameras as shields between themselves and whatever they encounter. According to Sontag, photography gives the tourist’s experience a definite structure: “stop, take a photograph, and move on.”"
+    },
+    {
+     "url": "https://forumviesmobiles.org/index.php/en/book/export/html/12906",
+     "title": "Forum Vies Mobiles: The Tourist Gaze, by John Urry (Buchbesprechung)",
+     "excerpt": "The notion of the tourist gaze refers to the pre-eminence of vision in organising the development of Western tourism since the end of the eighteenth century. It emphasizes the social, sensual and discursive character of travel, and concerns both the actual experience of tourists and the production of places for visual consumption."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "oobecker-point-660",
+     "note": "Menschen, die auf dem Inlandeis fotografieren, werden selbst zum Motiv – der Blick auf den Blick."
+    },
+    {
+     "key": "ponting-ponting-and-his-camera",
+     "note": "Der Expeditionsfotograf mit Kamera als Bildmotiv: Das Fotografieren gehört zur Erzählung der Reise."
+    }
+   ]
+  },
+  {
+   "key": "webb-layers",
+   "name": "Vielschichtigkeit (layered complexity)",
+   "dimension": "layers",
+   "summary_md": "Aperture beschreibt Webbs Bilder als von intensiver Farbe und Licht geprägt, mit reich geschichteter, komplexer Komposition [Q1]. Webb selbst begründet das mit seiner Erfahrung der Welt als sehr komplizierter, letztlich unerklärlicher Ort, für den es keine einfachen Antworten gebe [Q2]. Magnum nennt seine Palette gesättigte Farben in hellem Sonnenlicht, durchschnitten von tiefen Schatten [Q3].",
+   "exercise_md": "Such eine Straßenecke mit Vorder-, Mittel- und Hintergrund (Schatten, Hauswand, Durchgang) und bleib eine Stunde. Ziel: ein Bild, in dem auf drei Ebenen etwas geschieht, ohne dass sich Figuren überdecken.",
+   "sources": [
+    {
+     "url": "https://aperture.org/books/the-suffering-of-light/",
+     "title": "Aperture: Alex Webb – The Suffering of Light (Verlagsseite)",
+     "excerpt": "Recognized as a pioneer of American color photography since the 1970s, Webb has consistently created photographs characterized by intense color and light. His work, with its richly layered and complex composition, touches on multiple genres, including street photography, photojournalism, and fine art, but as Webb claims, “to me it all is photography. You have to go out and explore the world with a camera.”"
+    },
+    {
+     "url": "https://magazine.urth.co/articles/alex-webb-street-photography",
+     "title": "Urth Magazine: The Greats – How Alex Webb Found His Street Photography Style",
+     "excerpt": "In a 2013 interview, Webb explains his photographic philosophy: “I take complex photographs because I experience the world – particularly more and more as I get older – as a very complicated and ultimately inexplicable place. My experiences in the world, my travels as a photographer, lead me to believe that there are no simple solutions, no easy answers, just a lot of difficult and perhaps unanswerable questions.”"
+    },
+    {
+     "url": "https://www.magnumphotos.com/?p=126582",
+     "title": "Magnum Photos: Alex Webb über seine Saint-Laurent-Arbeit in Los Angeles (Maisie Skidmore)",
+     "excerpt": "Above all else, they are full of color – a palette of saturated hues bathed in bright sunshine and cut through with dark shadows, which has become his signature."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "mccurry-chandni-chowk-1983",
+     "note": "Figuren mit Schirmen auf mehreren Tiefenebenen der überfluteten Gasse – jede Ebene trägt eine eigene Handlung."
+    },
+    {
+     "key": "mccurry-uttar-pradesh-1978",
+     "note": "Rinder, Menschen und Bäume im Dunst staffeln sich in Schichten bis zum Horizont."
+    }
+   ]
+  },
+  {
+   "key": "meyerowitz-light",
+   "name": "Licht als Motiv (Cape Light)",
+   "dimension": "light",
+   "summary_md": "Meyerowitz beschreibt, wie er zum ersten Mal langsamer wurde und die allmählichen Bewegungen von Licht und Schatten über einer Sandbank beobachtete; Sonnenlicht auf Holzverschalung erinnerte ihn an Edward Hoppers Wunsch, Sonnenlicht auf einer Hauswand zu malen [Q1]. Aperture fasst zusammen, dass in „Cape Light“ alltägliche Szenen – ein Gewitter, ein Laden in der Dämmerung, der Blick aus einem Schlafzimmerfenster – durch das Licht von Cape Cod verwandelt werden [Q2].",
+   "exercise_md": "Wähle eine einzige Hauswand oder Uferlinie und fotografiere sie vom gleichen Standpunkt fünfmal über einen Tag. Wähle abends das Bild, in dem das Licht das eigentliche Motiv ist.",
+   "sources": [
+    {
+     "url": "https://aperture.org/editorial/the-summer-belongs-to-joel-meyerowitz/",
+     "title": "Aperture: The Summer Belongs to Joel Meyerowitz – Vorwort zur Neuausgabe von Cape Light",
+     "excerpt": "For the first time in my life I slowed down, took a deep breath, and watched the slow, incremental movements of light and shadow cross a sandbar in the ebbing tide, or a grassy hill ripple in sea-blown wind. I stared at sunlight raking over clapboard siding, transfixed by the simplicity of it all. It reminded me of Edward Hopper, who said, “What I wanted to do was to paint sunlight on the side of a house.”"
+    },
+    {
+     "url": "https://store.aperture.org/products/cape-light",
+     "title": "Aperture: Joel Meyerowitz – Cape Light (Verlagsseite)",
+     "excerpt": "In it, everyday scenes—an approaching storm, a local grocery store at dusk, the view through a bedroom window—are transformed by the stunning light of Cape Cod and the luminous vision of the photographer."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "mccurry-arnhem-land-1984",
+     "note": "Dunkler Gewitterhimmel, die Figur im Vordergrund noch beleuchtet – das Licht vor dem Sturm ist das Thema."
+    },
+    {
+     "key": "ponting-midnight-sun",
+     "note": "Gegenlicht der Mitternachtssonne auf dem Wasser; Licht als eigentliches Motiv der Polarlandschaft."
+    }
+   ]
+  },
+  {
+   "key": "burtynsky-distance",
+   "name": "Distanz (distance)",
+   "dimension": "distance",
+   "summary_md": "Eine Buchbesprechung zu Burtynskys „Manufactured Landscapes“ berichtet, dass er bei der Planung topografische Karten nach hohen Standpunkten durchsucht [Q1]. Burtynsky selbst beschreibt, wie in bestimmten Entfernungen der Gebrauch eines Objekts erkennbar blieb und es zugleich abstrakt wirkte, ohne seinen Ursprung zu verlieren [Q2].",
+   "exercise_md": "Fotografiere dasselbe Motiv (Hafen, Reisterrasse, Baustelle) aus drei Entfernungen: so nah, dass es nur Material ist, so fern, dass es nur Muster ist, und dazwischen die Distanz, in der beides gleichzeitig gilt.",
+   "sources": [
+    {
+     "url": "https://www.racar-racar.com/uploads/5/7/7/4/57749791/_racar_30_1_2_zz_bassnett.pdf",
+     "title": "RACAR 30/1–2: Rezension von „Manufactured Landscapes: The Photographs of Edward Burtynsky“ (National Gallery of Canada, 2003)",
+     "excerpt": "We learn that when Burtynsky is planning a shooting trip, he consults topographical maps in search of the high vantage points that viewers will recognize in his landscapes."
+    },
+    {
+     "url": "https://americansuburbx.com/?p=408",
+     "title": "American Suburb X: Manufactured Landscapes – An Interview with Ed Burtynsky (John K. Grande, 2006)",
+     "excerpt": "When I first began the series, it was more like a pure documentary project, but as I worked through the process, I noticed that, at certain distances, the object’s usage remained apparent–an oil drum or a filter–yet it also resonated with an abstract quality that made an intriguing visual statement, without losing sight of its origins."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "burtynsky-fengjie-6",
+     "note": "Aus erhöhter Distanz wird die abgerissene Stadt zur Fläche, die Wege bleiben aber lesbar."
+    },
+    {
+     "key": "gursky-paris-montparnasse",
+     "note": "Aus großer Entfernung frontal: Der Wohnblock wird zum Raster, einzelne Fenster bleiben erkennbar."
+    }
+   ]
+  },
+  {
+   "key": "sequence",
+   "name": "Sequenz (sequence)",
+   "dimension": "sequence",
+   "summary_md": "Walker Evans’ „American Photographs“ ist in zwei Sequenzen geordnet – die eine vor allem Menschen, die andere Architektur – und ergibt so ein zusammenhängendes Bild Amerikas [Q1]. Egglestons „The Democratic Forest“ beginnt mit einem präzisen Ortsgefühl und endet in einer verwischten Luftaufnahme, losgelöst und in Bewegung [Q2]. Ghirris „Kodachrome“ lenkt durch Einzelbilder und pointierte Abfolge, wie wir schauen sollen [Q3].",
+   "exercise_md": "Wähle am Ende der Reise 12 Bilder und lege zwei Folgen: eine nach Chronologie, eine nach Distanz (nah – fern – nah). Schreib auf, welche Folge mehr über den Ort sagt und warum.",
+   "sources": [
+    {
+     "url": "https://www.moma.org/docs/press_archives/6639/releases/MOMA_1989_0006_6.pdf",
+     "title": "MoMA Fact Sheet Nr. 6, Januar 1989: Fiftieth-Anniversary Publication of American Photographs (Walker Evans)",
+     "excerpt": "American Photographs reproduces eighty-five photographs made by Evans between 1929 and 1936. Carefully organized in two sequences — one devoted mainly to people, the other to architecture—the book presents a coherent and persuasive image of essential America."
+    },
+    {
+     "url": "https://www.artforum.com/features/william-eggleston-democracy-chaos-206154/",
+     "title": "Artforum: William Eggleston – Democracy & Chaos (Mark Holborn)",
+     "excerpt": "The book ends in an abstraction—a blurred aerial view of Saint Louis, the green nocturnal city strung together with electric lights. Beginning with a precise sense of place, it culminates in a suspension, in a modern urban view glimpsed from a plane, detached, distant, and in motion."
+    },
+    {
+     "url": "https://americansuburbx.com/?p=28599",
+     "title": "American Suburb X: Allie Haeusslein, Luigi Ghirri: ‘Kodachrome’ (2013)",
+     "excerpt": "Through both individual images and witty sequencing in Kodachrome, Ghirri’s tactic feels almost instructional, guiding us how to look and see when things are not always as they seem."
+    }
+   ],
+   "example_images": [
+    {
+     "key": "oobecker-river-2-position-1",
+     "note": "Teil einer nummerierten Folge von Schmelzwasserflüssen – das einzelne Bild gewinnt im Vergleich mit den anderen Positionen."
+    },
+    {
+     "key": "oobecker-river-3-position-4",
+     "note": "Gleiche Bildsprache, anderer Fluss: Die Serie macht Unterschiede sichtbar, die ein Einzelbild nicht zeigt."
+    },
+    {
+     "key": "becher-gas-tanks-tate",
+     "note": "Das Raster ist eine Sequenz ohne Anfang und Ende; der Vergleich ist die Aussage."
+    }
+   ]
+  }
+ ]
+}
