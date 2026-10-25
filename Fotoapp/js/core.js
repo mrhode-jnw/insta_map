@@ -123,7 +123,16 @@ export async function loadState(name, empty) {
 }
 
 // Fetch fresh, apply fn, write back; on a conflict retry once with the newer version.
-export async function mutateState(name, empty, fn, message) {
+const writeChains = new Map();
+// Writes to the same file run one after another (background jobs may finish at the same time).
+export function mutateState(name, empty, fn, message) {
+  const prev = writeChains.get(name) || Promise.resolve();
+  const next = prev.catch(() => {}).then(() => doMutateState(name, empty, fn, message));
+  writeChains.set(name, next);
+  return next;
+}
+
+async function doMutateState(name, empty, fn, message) {
   const path = `${STATE_DIR}/${name}.enc`;
   await ensureBranch(DATA_BRANCH, true);
   for (let attempt = 0; attempt < 3; attempt++) {
@@ -203,11 +212,12 @@ export async function ai(opts) {
   return session.provider === "openai" ? openai(opts) : anthropic(opts);
 }
 
-async function anthropic({ system, content, schema = null, maxTokens = 16000 }) {
+async function anthropic({ system, content, schema = null, maxTokens = 16000, light = false }) {
   if (!session.anthropicKey) throw new AIError("Kein Anthropic-API-Key hinterlegt (setup.html).");
   const body = {
     model: session.model, max_tokens: maxTokens, system, messages: [{ role: "user", content }],
-    output_config: { effort: session.effort, ...(schema ? { format: { type: "json_schema", schema } } : {}) },
+    // Short feedback runs at lower effort: faster answers, same model.
+    output_config: { effort: light ? "medium" : session.effort, ...(schema ? { format: { type: "json_schema", schema } } : {}) },
   };
   const send = async withFallback => {
     const headers = {
@@ -235,7 +245,7 @@ async function anthropic({ system, content, schema = null, maxTokens = 16000 }) 
   return result(text, j.model, schema);
 }
 
-async function openai({ system, content, schema = null, maxTokens = 16000 }) {
+async function openai({ system, content, schema = null, maxTokens = 16000, light = false }) {
   if (!session.openaiKey) throw new AIError("Kein OpenAI-API-Key hinterlegt (setup.html).");
   const parts = typeof content === "string" ? [{ type: "text", text: content }] : content.map(b => b.type === "image"
     ? { type: "image_url", image_url: { url: `data:${b.source.media_type};base64,${b.source.data}`, detail: "high" } }
@@ -245,10 +255,13 @@ async function openai({ system, content, schema = null, maxTokens = 16000 }) {
     messages: [{ role: "system", content: system }, { role: "user", content: parts }],
     ...(schema ? { response_format: { type: "json_schema", json_schema: { name: "result", strict: true, schema } } } : {}),
   };
+  // Reasoning models take reasoning_effort (faster feedback at "low"); others reject it -> retry without.
+  const send = b => fetch("https://api.openai.com/v1/chat/completions", { method: "POST",
+    headers: { "content-type": "application/json", authorization: `Bearer ${session.openaiKey}` }, body: JSON.stringify(b) });
   let r;
   try {
-    r = await fetch("https://api.openai.com/v1/chat/completions", { method: "POST",
-      headers: { "content-type": "application/json", authorization: `Bearer ${session.openaiKey}` }, body: JSON.stringify(body) });
+    r = await send({ ...body, reasoning_effort: light ? "low" : "medium" });
+    if (r.status === 400 && /reasoning/i.test(JSON.stringify(await r.clone().json().catch(() => ({}))))) r = await send(body);
   } catch { throw new AIError("Keine Verbindung zur OpenAI API."); }
   const j = await r.json().catch(() => ({}));
   if (!r.ok) throw httpError(r.status, j.error?.message || r.statusText);

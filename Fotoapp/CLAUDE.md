@@ -5,7 +5,7 @@ Browser-App auf GitHub Pages (https://mrhode-jnw.github.io/insta_map/Fotoapp/), 
 ## Zugang
 
 - Zugangscode wie bei der Karte (`../crypto.js`, AES-GCM/PBKDF2). Er entschlüsselt den Bilder-Schlüssel und die KI-Keys (OpenAI und/oder Anthropic) aus `Fotoapp/config.js`, den GitHub-Token aus `../config.js`.
-- Bilder: Branch `sehschule-media` (`m/`, `t/`, verschlüsselt). Eigene Daten: Branch `map-data`, `sehschule/{analyses,answers,drills,chapters,user_library}.enc` (verschlüsselt).
+- Bilder: Branch `sehschule-media` (`m/`, `t/`, verschlüsselt). Eigene Daten: Branch `map-data`, `sehschule/{analyses,answers,drills,discussions,chapters,user_library}.enc` (verschlüsselt).
 - Nichts Unverschlüsseltes mit Bildern oder persönlichen Antworten committen.
 
 ## Ziel
@@ -22,7 +22,7 @@ Eigene Bilder kommen erst in einer späteren Stufe dazu.
 1. **Quelle und Einschätzung strikt trennen.** Jede Faktenaussage (Name, Jahr, Ort, Projekt, Zitat, Einfluss) braucht eine hinterlegte Quelle mit URL. Alles Abgeleitete steht getrennt darunter unter der Überschrift „Meine Einschätzung“.
 2. **Nichts erfinden.** Keine Zitate, Jahreszahlen, Kamerainfos oder Biografiedetails ohne Quelle. Fehlt eine Quelle, steht dort: „Keine Quelle hinterlegt.“
 3. **Stabile Analysen.** Eine Analyse wird einmal erzeugt und gespeichert. Neu erzeugt wird nur auf ausdrücklichen Wunsch. Dann sieht das Modell die alte Analyse und muss jede Abweichung begründen. Die alte Version bleibt erhalten.
-4. **Niveau: fast Profi.** Keine Grundlagen wie Drittelregel, Belichtungsdreieck oder „führende Linien“ als Selbstzweck. Keine Kameratechnik: keine Angaben zu Blende, Belichtungszeit, ISO, Belichtung oder Ausrüstung – auch nicht als Schätzung. Brennweite nur als Bildwirkung (Distanz, Raumverdichtung). Fokus auf Standpunkt, Moment, Licht, Ebenen, Weglassen, Farbe, Haltung, Sequenz.
+4. **Niveau: fast Profi.** Keine Grundlagen wie Drittelregel, Belichtungsdreieck oder „führende Linien“ als Selbstzweck. Technik (Format, Kamera, Objektivwirkung, Belichtungszeit, Material, Abzug) dort, wo sie erklärt, warum das Bild so aussieht – Fakten dazu nur mit Quelle, Abgelesenes als Schätzung; keine Anfänger-Erklärungen. Fokus auf Standpunkt, Moment, Licht, Ebenen, Weglassen, Farbe, Haltung, Sequenz.
 5. **Erst urteilen, dann lesen.** Im Lernmodus ist die Analyse verborgen, bis Mathias selbst geantwortet hat.
 6. **Sprache der Oberfläche und der Analysen: Deutsch.** Code, Bezeichner und Kommentare: Englisch.
 
@@ -32,6 +32,15 @@ Eigene Bilder kommen erst in einer späteren Stufe dazu.
 - **Sehübungen** (`#/sehen`, `drills.enc`): je Bild ein Aspekt (Dimensionen in `js/domain.js`), Frage eng gefasst, erst schauen (Timer), dann Antwort; aufgedeckt wird das passende Feld der gespeicherten Analyse; Feedback per `prompts/drill_feedback_v1.md` (die KI sieht das Bild).
 - **„Erst schauen“-Timer** auch im Lernmodus; tatsächliche Schauzeit wird gespeichert.
 - **Seh-Begriffe** (`#/begriffe`, `concepts` in `library.json`, Quellen mit `scope=concept`): Kurztext nur aus Quellen, Übung für unterwegs, Beispielbilder mit „Meine Einschätzung“. Import aus `seed/content_sehen.json`.
+
+### 0b. Experten, Fotografen, Fortschritt, Diskussion (ergänzt)
+- **Expertenstimmen pro Bild:** wörtliche Auszüge von Museen, Kurator:innen, Kritik, Wissenschaft oder den Fotograf:innen selbst (`seed/experts_*.json` → Quellen mit `kind`, `author`, `aspect`, `series_level`), getrennt von der KI-Analyse angezeigt.
+- **Qualität und Wirkung:** Analyse-Feld `quality` (effect, strengths, weaknesses, significance) und `technique` – als Einschätzung der KI gekennzeichnet; Bedeutung als Fakt nur mit Quelle.
+- **Fotograf:innen:** Porträt (verschlüsselt, `p/<id>.bin`), `bio_md`/`method_md` nur aus Quellen (`seed/photographers_bio.json`).
+- **Bewertung der eigenen Einschätzung:** Feedback als JSON mit `hit` (Treffer 0–5), `precision` (Genauigkeit 0–5), `per_question` (Punkte je Frage), `missed` (was fehlte).
+- **Kein Warten:** Analysen einer Runde werden beim Start im Hintergrund erzeugt; nach dem Absenden sofort aufdecken und weiter, Bewertung kommt nach; Rundenübersicht am Ende; offene Runden lassen sich fortsetzen.
+- **Rückfragen/Diskussion** je Bild (`prompts/discuss_v1.md`, `discussions.enc`), mit Bild, Analyse, Quellen und eigenen Antworten als Kontext.
+- **Fortschritt** (`#/fortschritt`: Treffer/Genauigkeit je Aspekt, Trend, häufig Übersehenes, Kapitelabdeckung) und **Verlauf** (`#/lernen/antworten`: alle gesehenen Bilder nach Tagen mit Punkten und Gesprächen).
 
 ### 1. Bibliothek
 - Struktur: Fotograf → Projekt → Bild.
@@ -94,7 +103,7 @@ Vorgeschlagene Kapitel (Inhalte erst beim Füllen mit Quellen belegen):
 Fotoapp/
   index.html, setup.html, style.css, config.js, manifest.webmanifest
   js/            # core.js, domain.js, app.js
-  prompts/       # analysis_v3, analysis_revision_v1, learn_feedback_v3, drill_feedback_v1, chapter_draft_v3 (+ ältere Versionen)
+  prompts/       # analysis_v4, analysis_revision_v1, learn_feedback_v4, drill_feedback_v2, discuss_v1, chapter_draft_v4 (+ ältere Versionen)
   data/library.json
   seed/          # recherchierter Startbestand (Quellen wörtlich)
   tools/build_library.py

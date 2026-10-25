@@ -81,26 +81,31 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
     files.set(key, { content: body.content, sha });
     return r.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify({ content: { sha } }) });
   });
-  const fakeText = (isSchema, system, userText) => {
-    if (!isSchema) return system.includes("Kapitel") ? "## Teil\nText [S1].\n\n## Meine Einschätzung\nX." : "TESTFEEDBACK: Gut gesehen, schau auf die linke Kante.";
+  const fakeText = (schema, system, userText) => {
+    if (!schema) return system.includes("Gespräch") ? "TESTANTWORT: Schau auf die Kante rechts." : "## Teil\nText [S1].\n\n## Meine Einschätzung\nX.";
+    if (schema.properties.hit) return JSON.stringify({ feedback: "TESTFEEDBACK: Gut gesehen, schau auf die linke Kante.", hit: 4, precision: 7,
+      per_question: [{ question: "Wo stand der Fotograf?", points: 3, note: "Richtig erkannt." }, { question: "Worauf hat er gewartet?", points: 1, note: "Zu allgemein." }],
+      missed: ["Lichtkante links"] });
     const data = JSON.parse(JSON.stringify(ANALYSIS));
     const src = userText.match(/<source id="(\d+)"/);
     if (src) data.context.sourced[0].source_ids = [Number(src[1])];
     return JSON.stringify(data);
   };
-  await page.route("https://api.anthropic.com/**", r => {
+  await page.route("https://api.anthropic.com/**", async r => {
     const req = r.request(), body = JSON.parse(req.postData()), h = req.headers();
     claudeCalls.push({ provider: "anthropic", body, headers: h });
     if (h["anthropic-dangerous-direct-browser-access"] !== "true" || h["x-api-key"] !== "sk-ant-test") return r.fulfill({ status: 401, body: "{}" });
-    const text = fakeText(!!body.output_config?.format, body.system, body.messages[0].content.find?.(c => c.type === "text")?.text || "");
+    await new Promise(res => setTimeout(res, 600)); // simulate model latency
+    const text = fakeText(body.output_config?.format?.schema, body.system, body.messages[0].content.find?.(c => c.type === "text")?.text || "");
     return r.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify({ model: body.model, stop_reason: "end_turn", content: [{ type: "text", text }] }) });
   });
-  await page.route("https://api.openai.com/**", r => {
+  await page.route("https://api.openai.com/**", async r => {
     const req = r.request(), body = JSON.parse(req.postData()), h = req.headers();
     claudeCalls.push({ provider: "openai", body, headers: h });
     if (h.authorization !== "Bearer sk-openai-test") return r.fulfill({ status: 401, body: "{}" });
     const user = body.messages[1].content;
-    const text = fakeText(!!body.response_format, body.messages[0].content, user.find(c => c.type === "text")?.text || "");
+    await new Promise(res => setTimeout(res, 600));
+    const text = fakeText(body.response_format?.json_schema?.schema, body.messages[0].content, user.find(c => c.type === "text")?.text || "");
     return r.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify({ model: body.model, choices: [{ finish_reason: "stop", message: { content: text } }] }) });
   });
 
@@ -130,7 +135,9 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   ok(!(await page.content()).includes("TESTLICHT"), "analysis not visible before answering");
   await page.click("#look-skip"); await page.fill('textarea[name="answer"]', "Licht von links, harte Schatten.");
   await page.click('#questions button'); await waitText("TESTFEEDBACK", 30000);
-  ok((await page.content()).includes("TESTLICHT"), "reveal shows the light part of the analysis");
+  await waitText("TESTLICHT", 30000); ok(true, "reveal shows the light part of the analysis");
+  ok(await page.evaluate(() => document.querySelector(".scores")?.innerText.includes("4/5") && document.querySelector(".scores").innerText.includes("5/5")), "scores shown, clamped to 0–5");
+  ok((await page.content()).includes("Lichtkante links"), "missed keywords shown");
   await shot("04-drill-reveal");
   ok(claudeCalls.every(c => c.provider === PROVIDER), `all AI calls go to ${PROVIDER}`);
   if (PROVIDER === "anthropic") {
@@ -158,9 +165,25 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   await page.selectOption('select[name="look"]', "0"); await page.click('form[data-action="learn-start"] button');
   await waitText("Wo stand der Fotograf?");
   ok(await page.$('input[name="q_extra_label"]') !== null, "fifth rotating question present");
-  await page.fill('textarea[name="q_position"]', "Von unten"); await page.click("#questions button");
+  await page.fill('textarea[name="q_position"]', "Von unten"); const t0 = Date.now(); await page.click("#questions button");
+  await waitText("Deine Antworten"); ok(Date.now() - t0 < 1500, "reveal opens immediately (AI runs in background)");
   await waitText("TESTFEEDBACK", 30000); await shot("05-learn-reveal");
+  ok(await page.$("table.pq") !== null, "points per question shown");
   ok(files.has("sehschule/answers.enc@map-data"), "answer stored");
+  // discussion
+  await page.fill('form.ask textarea', "Warum ist der Horizont so tief?"); await page.click("form.ask button");
+  await waitText("TESTANTWORT", 30000); ok(files.has("sehschule/discussions.enc@map-data"), "discussion stored");
+  await shot("06-diskussion");
+  // next images without waiting for feedback, then round summary
+  for (let n = 0; n < 6; n++) {
+    const btn = page.locator('.next:not(.top) button'); const label = await btn.textContent(); await btn.click();
+    if (/abschließen/.test(label)) break;
+    await waitText("Wo stand der Fotograf?").catch(async e => { await page.screenshot({ path: "/tmp/claude-0/-home-user-insta-map/5fc4c78c-ca4f-5664-a94f-49f6fadf1033/scratchpad/fail.png" }); console.log("hash", await page.evaluate(() => location.hash)); throw e; });
+    await page.click("#questions button"); await waitText("Deine Antworten");
+  }
+  await waitText("Runde abgeschlossen"); await waitText("Treffer ⌀"); await shot("06b-runde");
+  await page.waitForFunction(() => !document.body.innerText.includes("Bewertung läuft"), null, { timeout: 30000 });
+  ok(true, "round summary collects all scores");
 
   // Image page: analysis already exists for drilled image -> no new call when opening reveal again
   await page.goto(`${base}/Fotoapp/#/bibliothek`); await waitText("Bibliothek");
@@ -175,8 +198,10 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   await page.click('form[data-action="chapter-save"] button'); await waitText("Gespeichert");
   ok(files.has("sehschule/chapters.enc@map-data"), "chapter text stored");
   await page.goto(`${base}/Fotoapp/#/zeitleiste`); await waitText("Zeitleiste"); await shot("09-zeitleiste");
-  await page.goto(`${base}/Fotoapp/#/lernen/antworten`); await waitText("Lerntagebuch");
-  ok((await page.$$(".answer-list li")).length >= 2, "journal lists drill and answer");
+  await page.goto(`${base}/Fotoapp/#/lernen/antworten`); await waitText("Verlauf");
+  ok((await page.$$(".answer-list li")).length >= 3, "history lists drills, answers and discussion");
+  await page.goto(`${base}/Fotoapp/#/fortschritt`); await waitText("Lernfortschritt"); await shot("10-fortschritt");
+  ok((await page.textContent("main")).includes("Lernrunde (5 Fragen)"), "progress page per aspect");
 
   // Reload: remembered code, state read back from mocked GitHub
   await page.goto(`${base}/Fotoapp/#/`); await page.reload(); await waitText("Zuletzt hinzugefügt");

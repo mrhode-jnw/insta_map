@@ -28,6 +28,7 @@ export function sourcesForImage(img) {
     || (s.scope === "project" && s.scope_id === img.project_id)
     || (s.scope === "photographer" && s.scope_id === img.photographer_id));
 }
+export const expertsFor = img => lib.sources.filter(s => s.kind && s.scope === "image" && s.scope_id === img.id);
 export const allTags = () => [...new Set(lib.images.flatMap(i => i.tags || []))].sort();
 
 export async function addOwn(kind, item, message) {
@@ -105,12 +106,23 @@ const ANALYSIS_PROPS = {
   construction: obj(Object.fromEntries(CONSTRUCTION_KEYS.map(k => [k, str]))),
   context: obj({ sourced: { type: "array", items: obj({ text: str, source_ids: { type: "array", items: { type: "integer" } } }) }, assessment: str }),
   stance: str,
+  technique: str,
+  quality: obj({ effect: str, strengths: str, weaknesses: str, significance: str }),
   transferable: { type: "array", items: str },
   not_assessable: str,
 };
 export const ANALYSIS_SCHEMA = obj(ANALYSIS_PROPS);
+const int = { type: "integer" };
+export const FEEDBACK_SCHEMA = obj({
+  feedback: str, hit: int, precision: int,
+  per_question: { type: "array", items: obj({ question: str, points: int, note: str }) },
+  missed: { type: "array", items: str },
+});
+// Clamp model scores into 0–5.
+export const clampScores = fb => ({ ...fb, hit: Math.max(0, Math.min(5, fb.hit | 0)), precision: Math.max(0, Math.min(5, fb.precision | 0)),
+  per_question: (fb.per_question || []).map(q => ({ ...q, points: Math.max(0, Math.min(5, q.points | 0)) })) });
 export const REVISION_SCHEMA = obj({ ...ANALYSIS_PROPS, deviations: { type: "array", items: obj({ field: str, reason: str }) } });
-const ANALYSIS_PROMPT = "analysis_v3", REVISION_PROMPT = "analysis_revision_v1";
+const ANALYSIS_PROMPT = "analysis_v4", REVISION_PROMPT = "analysis_revision_v1";
 
 // Drop sourced statements without a valid source id (principle: no fact without a source).
 export function enforceSources(data, allowedIds) {
@@ -129,7 +141,7 @@ export function enforceSources(data, allowedIds) {
 }
 
 export const formatSources = srcs => srcs.length
-  ? srcs.map(s => `<source id="${s.id}" scope="${s.scope}" url="${s.url}" title="${s.title}">\n${(s.excerpt || "").trim()}\n</source>`).join("\n")
+  ? srcs.map(s => `<source id="${s.id}" scope="${s.scope}"${s.kind ? ` kind="expert:${s.kind}"` : ""}${s.author ? ` author="${s.author}"` : ""} url="${s.url}" title="${s.title}">\n${(s.excerpt || "").trim()}\n</source>`).join("\n")
   : "(Keine Quellen hinterlegt.)";
 
 export const imageMeta = img => ({
@@ -144,7 +156,16 @@ export async function currentAnalysis(imgId) {
 }
 
 // Stable analyses: generated once; regeneration only on request, with the previous version and justified deviations.
-export async function generateAnalysis(img, regenerate = false) {
+const inflight = new Map();
+export function generateAnalysis(img, regenerate = false) {
+  if (!regenerate && inflight.has(img.id)) return inflight.get(img.id);
+  const p = doGenerateAnalysis(img, regenerate).finally(() => inflight.delete(img.id));
+  if (!regenerate) inflight.set(img.id, p);
+  return p;
+}
+export const analysisPending = id => inflight.has(id);
+
+async function doGenerateAnalysis(img, regenerate) {
   const current = await currentAnalysis(img.id);
   if (current && !regenerate) return current;
   const srcs = sourcesForImage(img);
@@ -165,15 +186,28 @@ export async function generateAnalysis(img, regenerate = false) {
 export async function learnFeedback(analysis, answers) {
   let txt = QUESTIONS.map(([k, l]) => `${l}\n${(answers[k] || "").trim() || "(keine Antwort)"}\n`).join("\n");
   if (answers.q_extra_label) txt += `\n${answers.q_extra_label}\n${(answers.q_extra || "").trim() || "(keine Antwort)"}\n`;
-  const res = await ai({ system: await prompt("learn_feedback_v3"), maxTokens: 4000,
+  const res = await ai({ system: await prompt("learn_feedback_v4"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true,
     content: `<analysis>\n${JSON.stringify(analysis, null, 2)}\n</analysis>\n\n<answers>\n${txt}</answers>` });
-  return res.text;
+  return clampScores(res.data);
 }
 
 export async function drillFeedback(img, dim, analysis, answer) {
-  const res = await ai({ system: await prompt("drill_feedback_v1"), maxTokens: 4000, content: [
+  const res = await ai({ system: await prompt("drill_feedback_v2"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true, content: [
     { type: "image", source: { type: "base64", media_type: "image/jpeg", data: await mediaBase64(img.id) } },
     { type: "text", text: `<dimension>${dim.label}</dimension>\n<question>${dim.q}</question>\n\n<reference>${referenceText(analysis, dim.field)}</reference>\n\n<full_analysis>\n${JSON.stringify(analysis, null, 2)}\n</full_analysis>\n\n<answer>${answer.trim() || "(keine Antwort)"}</answer>` },
+  ] });
+  return clampScores(res.data);
+}
+
+// Follow-up questions / discussion about one image, with everything known about it.
+export async function discuss(img, analysis, myAnswers, thread, question) {
+  const srcs = sourcesForImage(img);
+  const history = thread.map(m => `${m.role === "user" ? "Er" : "Du"}: ${m.text}`).join("\n\n");
+  const res = await ai({ system: await prompt("discuss_v1"), maxTokens: 4000, light: true, content: [
+    { type: "image", source: { type: "base64", media_type: "image/jpeg", data: await mediaBase64(img.id) } },
+    { type: "text", text: `<metadata>\n${JSON.stringify(imageMeta(img), null, 2)}\n</metadata>\n\n<sources>\n${formatSources(srcs)}\n</sources>\n\n`
+      + `<analysis>\n${JSON.stringify(analysis || {}, null, 2)}\n</analysis>\n\n<his_answers>\n${JSON.stringify(myAnswers, null, 2)}\n</his_answers>\n\n`
+      + `<conversation>\n${history || "(noch kein Gespräch)"}\n</conversation>\n\n<question>${question}</question>` },
   ] });
   return res.text;
 }
@@ -183,7 +217,7 @@ export async function chapterDraft(ch, keyImages) {
   if (!srcs.length) throw new AIError("Erst Quellen mit Textauszug hinterlegen – ohne Quellen kein Entwurf.");
   const meta = { nummer: ch.number, titel: ch.title, zeitraum: [ch.period_from, ch.period_to] };
   const imgs = keyImages.map(i => ({ fotograf: photographerOf(i).name, titel: i.title, jahr: i.year }));
-  const res = await ai({ system: await prompt("chapter_draft_v3"),
+  const res = await ai({ system: await prompt("chapter_draft_v4"),
     content: `<chapter>\n${JSON.stringify(meta, null, 2)}\n</chapter>\n\n<key_images>\n${JSON.stringify(imgs, null, 2)}\n</key_images>\n\n<sources>\n${formatSources(srcs)}\n</sources>` });
   return res.text;
 }

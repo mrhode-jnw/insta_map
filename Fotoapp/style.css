@@ -196,8 +196,43 @@ input, textarea, select { font-size: 16px; } /* no iOS zoom on focus */
   .hero img, .hero.learn img { max-height: 70vh; }
   .grid-form { grid-template-columns: 1fr; }
   .dims { grid-template-columns: 1fr; }
-  table.list th:nth-child(n+3), table.list td:nth-child(n+3) { display: none; }
+  table.list:not(.keep) th:nth-child(n+3), table.list:not(.keep) td:nth-child(n+3) { display: none; }
   .answer-list img { width: 90px; height: 64px; }
   .stats { gap: 14px; }
   .stats b { font-size: 1.2rem; }
 }
+
+/* experts, artist, scores, discussion, progress */
+.experts { margin-bottom: 18px; }
+.expert { margin: 0 0 16px; }
+.expert blockquote { font-size: 0.98rem; color: var(--text); border-left-color: var(--accent); }
+.expert figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 4px; }
+.artist { display: flex; gap: 14px; align-items: flex-start; border: 1px solid var(--line); border-radius: var(--radius); padding: 12px; margin: 18px 0; }
+.artist .portrait { width: 84px; height: 104px; object-fit: cover; border-radius: 3px; flex: none; background: var(--panel); }
+.artist.big { border: 0; padding: 0; }
+.artist.big .portrait { width: 160px; height: 200px; }
+.tiny { font-size: 0.75rem; }
+.scores { display: flex; gap: 18px; flex-wrap: wrap; margin: 6px 0 10px; }
+.scores b { color: var(--accent); }
+.dots { font-style: normal; color: var(--accent); letter-spacing: 1px; }
+table.pq { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-bottom: 8px; }
+table.pq td { padding: 3px 0; vertical-align: top; }
+table.pq td.pts { text-align: right; color: var(--accent); white-space: nowrap; padding-left: 10px; }
+.tag.miss { border-color: #6b4a3f; color: #e0a090; }
+.pending { color: var(--accent); }
+.pending::before { content: "◌ "; display: inline-block; animation: spin 1.2s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.discussion { margin-top: 22px; }
+.msg { padding: 10px 12px; border-radius: var(--radius); margin-bottom: 10px; background: var(--panel); }
+.msg.user { border-left: 2px solid var(--accent); }
+.msg .who { font-size: 0.78rem; color: var(--muted); margin-bottom: 4px; }
+.msg .prose p { margin: 0.3em 0; }
+form.ask { display: flex; gap: 8px; align-items: flex-end; }
+form.ask textarea { flex: 1; }
+.bar { width: 120px; height: 6px; background: var(--panel); border-radius: 3px; overflow: hidden; }
+.bar span { display: block; height: 100%; background: var(--accent); }
+.jobs { font-size: 0.8rem; color: var(--accent); white-space: nowrap; }
+.my-history { margin: -6px 0 16px; }
+.next { position: sticky; bottom: 0; background: linear-gradient(transparent, var(--bg) 30%); padding: 18px 0 max(10px, env(safe-area-inset-bottom)); }
+@media (max-width: 600px) { .artist.big { flex-direction: column; } .artist.big .portrait { width: 100%; height: auto; max-height: 60vh; } }
+.next.top { position: static; background: none; padding: 0 0 8px; text-align: right; }

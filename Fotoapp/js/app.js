@@ -3,7 +3,7 @@ import { AIError, loadState, mediaUrl, providerLabel, mutateState, session, stor
 import {
   CONSTRUCTION_LABELS, DIM, DIMENSIONS, DRILLABLE, EXTRA_QUESTIONS, QUESTIONS, addOwn, allTags, analyses, chapterDraft,
   currentAnalysis, drillFeedback, esc, generateAnalysis, learnFeedback, lib, loadLibrary, md, newSourceId, ownId,
-  photographerOf, projectOf, referenceText, referencedIds, sourcesFor, sourcesForImage,
+  analysisPending, discuss, expertsFor, photographerOf, projectOf, referenceText, referencedIds, sourcesFor, sourcesForImage,
 } from "./domain.js";
 
 const $ = s => document.querySelector(s);
@@ -11,12 +11,39 @@ const main = () => $("#main");
 const LOOK_CHOICES = [0, 30, 60, 90];
 const fmtDate = iso => iso ? new Date(iso).toLocaleDateString("de-DE") : "";
 const scopeLabel = { photographer: "Fotograf", project: "Projekt", image: "Bild", chapter: "Kapitel", concept: "Begriff" };
-const sess = { get: k => JSON.parse(sessionStorage.getItem(k) || "null"), set: (k, v) => v == null ? sessionStorage.removeItem(k) : sessionStorage.setItem(k, JSON.stringify(v)) };
+// Round state lives in localStorage, so an unfinished round can be resumed later.
+const sess = { get: k => JSON.parse(store.get("round:" + k) || "null"), set: (k, v) => store.set("round:" + k, v == null ? null : JSON.stringify(v)) };
 const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
 function toast(msg, ms = 2500) {
   const t = $("#toast"); t.textContent = msg; t.hidden = false;
   clearTimeout(toast.t); toast.t = setTimeout(() => (t.hidden = true), ms);
+}
+
+// ---------- background work: AI calls run while the user continues with the next image
+const jobs = { running: 0 };
+function bg(fn) {
+  jobs.running++; jobBadge();
+  return Promise.resolve().then(fn).catch(e => console.warn(e)).finally(() => { jobs.running--; jobBadge(); });
+}
+function jobBadge() { const b = $("#jobs"); if (b) { b.hidden = !jobs.running; b.textContent = `KI arbeitet … ${jobs.running}`; } }
+// Analyses for a whole round are generated up front, in round order.
+function prefetch(ids) { bg(async () => { for (const id of ids) await generateAnalysis(lib.by.images.get(id)).catch(() => {}); }); }
+const pendingItems = new Map(); // answers/drills not yet written back, so reveal pages can show them at once
+async function findItem(kind, id) { return pendingItems.get(id) || (await loadState(kind, [])).find(x => x.id === id); }
+const rerenderIf = id => { if (location.hash.includes(id)) route(true); };
+
+const dots = n => `<i class="dots">${"●".repeat(n)}${"○".repeat(5 - n)}</i>`;
+function scoreBlock(x) {
+  if (x.hit == null) return "";
+  return `<div class="scores"><span>Treffer <b>${x.hit}/5</b> ${dots(x.hit)}</span><span>Genauigkeit <b>${x.precision}/5</b> ${dots(x.precision)}</span></div>
+  ${(x.per_question || []).length > 1 ? `<table class="pq">${x.per_question.map(q => `<tr><td>${esc(q.question)}</td><td class="pts">${q.points}/5</td></tr><tr><td colspan="2" class="muted small">${esc(q.note)}</td></tr>`).join("")}</table>` : ""}
+  ${(x.missed || []).length ? `<p class="small">Was fehlte: ${x.missed.map(m => `<span class="tag miss">${esc(m)}</span>`).join(" ")}</p>` : ""}`;
+}
+function feedbackBlock(x, retryAction) {
+  if (x.feedback_md) return `<h3>Bewertung deiner Einschätzung</h3>${scoreBlock(x)}<div class="prose feedback">${md(x.feedback_md)}</div>`;
+  if (x.error) return `<p class="error">${esc(x.error)}</p><button class="secondary" data-action="${retryAction}" data-id="${x.id}">Erneut versuchen</button>`;
+  return `<p class="pending">Bewertung wird erstellt … du kannst schon weitermachen, sie wird gespeichert.</p>`;
 }
 
 // ---------- rendering helpers
@@ -27,6 +54,7 @@ const thumbs = images => images.length ? `<div class="thumbs">${images.map(i => 
   : `<p class="muted">Noch keine Bilder.</p>`;
 
 function sourcesBlock(srcs, { scope = null, scopeId = null, editable = false } = {}) {
+  srcs = srcs.filter(s => !s.kind);
   return `<section id="sources" class="sources"><h3>Quellen</h3>
     ${srcs.length ? "" : `<p class="muted">Keine Quelle hinterlegt.</p>`}
     <ol class="source-list">${srcs.map(s => `<li id="source-${s.id}"><span class="sid">S${s.id}</span>
@@ -42,6 +70,43 @@ function sourcesBlock(srcs, { scope = null, scopeId = null, editable = false } =
   </section>`;
 }
 
+const KIND = { museum: "Museum", kurator: "Kuratorin/Kurator", kritik: "Kritik", fotograf: "Fotograf/in selbst", wissenschaft: "Wissenschaft" };
+const ASPECT = { entstehung: "Entstehung", deutung: "Deutung", wirkung: "Wirkung", rezeption: "Rezeption", technik: "Technik" };
+function expertsBlock(img) {
+  const ex = expertsFor(img);
+  return `<section class="experts"><h2>Expertenstimmen</h2>
+    ${ex.length ? ex.map(s => `<figure class="expert" id="source-${s.id}"><blockquote>${esc(s.excerpt)}</blockquote>
+      <figcaption>— ${esc(s.author || KIND[s.kind] || "")}${s.author && KIND[s.kind] ? ` <span class="muted">(${KIND[s.kind]})</span>` : ""}
+      ${s.aspect ? `<span class="tag">${ASPECT[s.aspect] || esc(s.aspect)}</span>` : ""}${s.series_level ? `<span class="tag">zur Serie</span>` : ""}
+      · <a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title || "Quelle")}</a> <span class="sid">S${s.id}</span></figcaption></figure>`).join("")
+      : `<p class="muted">Zu diesem Bild ist noch keine Expertenstimme hinterlegt.</p>`}</section>`;
+}
+async function discussionBlock(img) {
+  const thread = (await loadState("discussions", {}))[img.id] || [];
+  const pending = pendingQuestions.get(img.id);
+  return `<section class="discussion" id="discussion"><h2>Rückfragen und Diskussion</h2>
+    ${thread.map(m => `<div class="msg ${m.role}"><div class="who">${m.role === "user" ? "Du" : "KI"} · ${fmtDate(m.at)}</div><div class="prose">${md(m.text)}</div></div>`).join("")}
+    ${pending ? `<div class="msg user"><div class="who">Du</div><div class="prose">${md(pending)}</div></div><p class="pending">Antwort kommt …</p>` : ""}
+    <form data-action="ask" data-img="${img.id}" class="ask"><textarea name="q" rows="2" placeholder="z. B. Warum wirkt der Horizont so tief? Ich sehe das Licht anders, weil …" required></textarea>
+      <button>Fragen</button></form></section>`;
+}
+const pendingQuestions = new Map();
+
+async function myHistory(img) {
+  const [answers, drills] = await Promise.all([loadState("answers", []), loadState("drills", [])]);
+  const mine = [...answers.filter(a => a.image_id === img.id).map(a => ({ ...a, href: `#/lernen/r/${a.id}`, label: "Lernrunde" })),
+    ...drills.filter(d => d.image_id === img.id).map(d => ({ ...d, href: `#/sehen/r/${d.id}`, label: DIM[d.dimension]?.label }))];
+  if (!mine.length) return "";
+  return `<p class="my-history">Deine Übungen zu diesem Bild: ${mine.map(x => `<a href="${x.href}" class="tag">${x.label} · ${fmtDate(x.created_at)}${x.hit != null ? ` · ${x.hit}/${x.precision}` : ""}</a>`).join(" ")}</p>`;
+}
+
+function artistCard(p, full = false) {
+  return `<div class="artist">${p.portrait ? `<img data-media="${esc(p.id)}" data-kind="p" class="portrait" alt="">` : ""}
+    <div><b><a href="#/fotograf/${p.id}">${esc(p.name)}</a></b> ${p.born ? `<span class="muted">${p.born}–${p.died || ""}</span>` : ""}
+    ${p.bio_md ? `<div class="prose small">${md(full ? p.bio_md : p.bio_md.split(/(?<=\.)\s/).slice(0, 2).join(" "))}</div>` : ""}
+    ${p.portrait?.credit ? `<p class="muted tiny">Porträt: ${esc(p.portrait.credit)}</p>` : ""}</div></div>`;
+}
+
 function analysisBody(a) {
   if (!a) return `<p class="muted">Keine Analyse vorhanden.</p>`;
   return `
@@ -52,6 +117,10 @@ function analysisBody(a) {
     ${(a.context?.sourced || []).length ? `<ul class="sourced">${a.context.sourced.map(st => `<li>${esc(st.text)} [${st.source_ids.map(i => `<a class="ref" href="#source-${i}" data-src="${i}">S${i}</a>`).join(", ")}]</li>`).join("")}</ul>` : `<p class="muted">Keine Quelle hinterlegt.</p>`}
     <h4>Meine Einschätzung</h4><p>${esc(a.context?.assessment || "—")}</p></section>
   ${a.stance ? `<section class="level"><h3><span class="num">·</span> Haltung <span class="muted small">(Meine Einschätzung)</span></h3><p>${esc(a.stance)}</p></section>` : ""}
+  ${a.technique ? `<section class="level"><h3><span class="num">·</span> Technik im Dienst der Wirkung</h3><div class="prose">${md(a.technique)}</div></section>` : ""}
+  ${a.quality ? `<section class="level quality"><h3><span class="num">·</span> Qualität und Wirkung <span class="muted small">(Einschätzung der KI)</span></h3><dl class="construction">
+    <dt>Wirkung</dt><dd>${esc(a.quality.effect || "—")}</dd><dt>Stärken</dt><dd>${esc(a.quality.strengths || "—")}</dd>
+    <dt>Schwächen</dt><dd>${esc(a.quality.weaknesses || "—")}</dd><dt>Bedeutung</dt><dd>${md(a.quality.significance || "—")}</dd></dl></section>` : ""}
   <section class="level"><h3><span class="num">4</span> Übertragbar auf die eigene Reise</h3><ol>${(a.transferable || []).map(t => `<li>${esc(t)}</li>`).join("")}</ol></section>
   ${a.not_assessable ? `<p class="muted small">Nicht beurteilbar an der Bildschirmkopie: ${esc(a.not_assessable)}</p>` : ""}
   ${(a.deviations || []).length ? `<section class="level"><h4>Begründete Abweichungen zur Vorversion</h4><ul>${a.deviations.map(d => `<li><code>${esc(d.field)}</code>: ${esc(d.reason)}</li>`).join("")}</ul></section>` : ""}
@@ -89,7 +158,9 @@ views.home = async () => {
   ${session.anthropicKey || session.openaiKey ? `<p class="muted small">KI: ${esc(providerLabel())} · <a href="setup.html">ändern</a></p>`
     : `<p class="warn">Kein KI-Key hinterlegt – Analysen und Feedback gehen erst nach <a href="setup.html">Einrichtung</a>.</p>`}
   ${session.ghToken ? "" : `<p class="warn">Kein GitHub-Token – Analysen und Antworten können nicht gespeichert werden.</p>`}
-  <div class="actions"><a class="button" href="#/sehen">Sehen lernen</a><a class="button secondary" href="#/lernen">Lernrunde</a></div>
+  ${["learn", "drill"].map(k => [k, sess.get(k)]).filter(([, v]) => v && v.pos < (v.ids || v.items).length).map(([k, v]) =>
+    `<p class="card">Offene ${k === "learn" ? "Lernrunde" : "Sehübung"}: Bild ${v.pos + 1} von ${(v.ids || v.items).length} · <a href="#/${k === "learn" ? "lernen/runde" : "sehen/uebung"}">fortsetzen</a></p>`).join("")}
+  <div class="actions"><a class="button" href="#/sehen">Sehen lernen</a><a class="button secondary" href="#/lernen">Lernrunde</a><a class="button secondary" href="#/fortschritt">Fortschritt</a></div>
   <h2>Zuletzt hinzugefügt</h2>${thumbs(recent)}
   <h2>Geschichte</h2><ol class="chapter-list">${lib.chapters.map(c => `<li value="${c.number}"><a href="#/kapitel/${c.id}">${esc(c.title)}</a></li>`).join("")}</ol>`;
 };
@@ -120,33 +191,36 @@ views.sehen = async () => {
 
 views.drill = async () => {
   const st = sess.get("drill");
-  if (!st || st.pos >= st.items.length) { sess.set("drill", null); location.hash = "#/sehen"; return ""; }
+  if (!st) { location.hash = "#/sehen"; return ""; }
+  if (st.pos >= st.items.length) { location.hash = "#/runde/sehen"; return ""; }
   const [iid, dkey] = st.items[st.pos]; const img = lib.by.images.get(iid), d = DIM[dkey];
-  setTimeout(() => { const looked = startLookTimer(st.look); $("#questions").dataset.looked = ""; $("#questions").addEventListener("submit", () => ($("#questions").dataset.looked = looked()), { capture: true }); });
+  setTimeout(() => { const looked = startLookTimer(st.look); $("#questions").addEventListener("submit", () => ($("#questions").dataset.looked = looked()), { capture: true }); });
   return `<p class="progress">Sehübung ${st.pos + 1} von ${st.items.length} · <b>${d.label}</b></p>
   <figure class="hero learn">${media(img.id, "m")}</figure>
   <form data-action="drill-answer" data-img="${img.id}" data-dim="${d.key}" id="questions" class="answers card">
     <label>${d.q}<textarea name="answer" rows="5"></textarea></label><p class="muted small">${d.hint}</p>
-    <button>Aufdecken</button><span class="busy">Analyse und Feedback werden geladen … (bis zu 2 Minuten)</span></form>${lookTimer(st.look)}`;
+    <button>Aufdecken</button></form>${lookTimer(st.look)}`;
 };
 
 views.drillReveal = async id => {
-  const drill = (await loadState("drills", [])).find(x => x.id === id);
+  const drill = await findItem("drills", id);
   if (!drill) return `<p class="muted">Nicht gefunden.</p>`;
   const img = lib.by.images.get(drill.image_id), d = DIM[drill.dimension], an = await currentAnalysis(img.id);
   const st = sess.get("drill"), inSession = st && st.items[st.pos]?.[0] === img.id && st.items[st.pos]?.[1] === drill.dimension;
   const concepts = lib.concepts.filter(c => c.dimension === d.key);
   return `${inSession ? `<p class="progress">Sehübung ${st.pos + 1} von ${st.items.length} · <b>${d.label}</b></p>` : ""}
+  ${inSession ? nextButton("drill-next", st.pos + 1 < st.items.length, true) : ""}
   ${imageHeader(img)}
-  ${drill.error ? `<p class="error">${esc(drill.error)} Deine Antwort ist gespeichert.</p>` : ""}
   <div class="two-col reveal"><div><h2>${d.label}: deine Beobachtung</h2><p class="muted small">${d.q}</p><p class="pre">${esc(drill.answer || "—")}</p>
-    ${drill.feedback_md ? `<h3>Feedback</h3><div class="prose feedback">${md(drill.feedback_md)}</div>` : `<button data-action="drill-retry" data-id="${drill.id}" class="secondary">Feedback anfordern</button>`}</div>
+    ${feedbackBlock(drill, "drill-retry")}</div>
   <div><h2>${d.label}: Analyse</h2>${an ? `<p>${esc(referenceText(an.data, d.field) || "Die gespeicherte Analyse (ältere Version) behandelt diesen Aspekt nicht – auf der Bildseite neu erzeugen.")}</p>
-    <details><summary>Ganze Analyse</summary>${analysisBody(an.data)}</details>` : `<p class="muted">Keine Analyse vorhanden.</p>`}
+    <details><summary>Ganze Analyse</summary>${analysisBody(an.data)}</details>` : `<p class="pending">Analyse wird erzeugt …</p>`}
     ${concepts.length ? `<h3>Begriffe dazu</h3><ul>${concepts.map(c => `<li><a href="#/begriffe/${c.id}">${esc(c.name)}</a></li>`).join("")}</ul>` : ""}</div></div>
+  ${expertsBlock(img)}${await discussionBlock(img)}${artistCard(photographerOf(img))}
   ${sourcesBlock(sourcesForImage(img), { scope: "image" })}
-  ${inSession ? `<div class="next"><button data-action="drill-next">${st.pos + 1 < st.items.length ? "Nächstes Bild" : "Übung beenden"}</button></div>` : `<p><a href="#/sehen">Zurück zu Sehen lernen</a></p>`}`;
+  ${inSession ? nextButton("drill-next", st.pos + 1 < st.items.length) : `<p><a href="#/sehen">Zurück zu Sehen lernen</a></p>`}`;
 };
+const nextButton = (action, more, top = false) => `<div class="next${top ? " top" : ""}"><button data-action="${action}">${more ? "Nächstes Bild →" : "Runde abschließen"}</button></div>`;
 
 const imageHeader = img => `<h1>${esc(img.title || "Ohne Titel")} <span class="muted">· ${esc(photographerOf(img).name)}${img.year ? `, ${img.year}` : ""}</span></h1>
   <figure class="hero">${media(img.id, "m")}<figcaption><a href="#/bild/${img.id}">Bildseite</a> · <a href="${esc(img.source_url)}" target="_blank" rel="noopener noreferrer">Quelle</a></figcaption></figure>`;
@@ -188,6 +262,10 @@ views.fotograf = async id => {
   const p = lib.by.photographers.get(id); if (!p) return `<p class="muted">Nicht gefunden.</p>`;
   const projects = lib.projects.filter(r => r.photographer_id === id);
   return `<h1>${esc(p.name)} ${p.born ? `<span class="muted">(${p.born}–${p.died || ""})</span>` : ""}</h1>
+  <div class="artist big">${p.portrait ? `<img data-media="${esc(p.id)}" data-kind="p" class="portrait" alt="">` : ""}<div>
+    ${p.bio_md ? `<div class="prose">${md(p.bio_md)}</div>` : `<p class="muted">Noch kein Kurztext – Grundlage sind die Quellen unten.</p>`}
+    ${p.method_md ? `<h3>Arbeitsweise</h3><div class="prose">${md(p.method_md)}</div>` : ""}
+    ${p.portrait?.credit ? `<p class="muted tiny">Porträt: ${esc(p.portrait.credit)}${p.portrait.source_url ? ` · <a href="${esc(p.portrait.source_url)}" target="_blank" rel="noopener noreferrer">Quelle</a>` : ""}</p>` : ""}</div></div>
   <div class="two-col"><div><h3>Projekte</h3><ul>${projects.map(r => `<li><a href="#/projekt/${r.id}">${esc(r.title)}</a> <span class="muted">${period(r)}</span></li>`).join("")}</ul></div>
   <div>${sourcesBlock(sourcesFor("photographer", id), { scope: "photographer", scopeId: id, editable: true })}</div></div>
   <h2>Bilder</h2>${thumbs(lib.images.filter(i => i.photographer_id === id))}`;
@@ -212,8 +290,10 @@ views.bild = async id => {
     · <a href="${esc(img.source_url)}" target="_blank" rel="noopener noreferrer">Quelle</a> <span class="muted">(abgerufen ${fmtDate(img.accessed_at)})</span>
     ${(img.tags || []).map(t => `<a class="tag" href="#/bibliothek?tag=${encodeURIComponent(t)}">${esc(t)}</a>`).join("")}
     ${inCh.map(c => `<a class="tag chapter" href="#/kapitel/${c.id}">Kap. ${c.number}</a>`).join("")}</figcaption></figure>
-  <div class="two-col wide-left"><div><h2>Analyse</h2><div id="analysis">${analysisPanel(img, an)}</div></div>
-  <div>${sourcesBlock(sourcesForImage(img), { scope: "image", scopeId: id, editable: true })}
+  ${await myHistory(img)}
+  <div class="two-col wide-left"><div>${expertsBlock(img)}<h2>Analyse <span class="muted small">(KI)</span></h2><div id="analysis">${analysisPanel(img, an)}</div>
+    ${await discussionBlock(img)}</div>
+  <div>${artistCard(p)}${sourcesBlock(sourcesForImage(img), { scope: "image", scopeId: id, editable: true })}
     <p class="muted small">Angezeigt werden Quellen zu Bild, Projekt und Fotograf.</p></div></div>`;
 };
 const analysisPanel = (img, an) => an ? `${analysisBody(an.data)}
@@ -254,7 +334,8 @@ views.lernen = async () => {
 
 views.learn = async () => {
   const st = sess.get("learn");
-  if (!st || st.pos >= st.ids.length) { sess.set("learn", null); location.hash = "#/lernen"; return ""; }
+  if (!st) { location.hash = "#/lernen"; return ""; }
+  if (st.pos >= st.ids.length) { location.hash = "#/runde/lernen"; return ""; }
   const img = lib.by.images.get(st.ids[st.pos]);
   const extra = EXTRA_QUESTIONS[(st.pos + st.seed) % EXTRA_QUESTIONS.length];
   setTimeout(() => { const looked = startLookTimer(st.look); $("#questions").addEventListener("submit", () => ($("#questions").dataset.looked = looked()), { capture: true }); });
@@ -262,33 +343,86 @@ views.learn = async () => {
   <form data-action="learn-answer" data-img="${img.id}" id="questions" class="answers card">
     ${QUESTIONS.map(([k, l]) => `<label>${l}<textarea name="${k}" rows="3"></textarea></label>`).join("")}
     <input type="hidden" name="q_extra_label" value="${esc(extra)}"><label>${esc(extra)}<textarea name="q_extra" rows="2"></textarea></label>
-    <button>Antwort abgeben und Analyse aufdecken</button><span class="busy">Analyse und Feedback werden geladen … (bis zu 2 Minuten)</span></form>
+    <button>Antwort abgeben und aufdecken</button></form>
   ${lookTimer(st.look)}<p class="muted small">Fotograf und Titel werden erst nach dem Absenden angezeigt.</p>`;
 };
 
 views.learnReveal = async id => {
-  const a = (await loadState("answers", [])).find(x => x.id === id); if (!a) return `<p class="muted">Nicht gefunden.</p>`;
+  const a = await findItem("answers", id); if (!a) return `<p class="muted">Nicht gefunden.</p>`;
   const img = lib.by.images.get(a.image_id), an = await currentAnalysis(img.id);
   const st = sess.get("learn"), inSession = st && st.ids[st.pos] === img.id;
-  return `${inSession ? `<p class="progress">Bild ${st.pos + 1} von ${st.ids.length}</p>` : ""}${imageHeader(img)}
-  ${a.error ? `<p class="error">${esc(a.error)} Deine Antworten sind gespeichert.</p>` : ""}
+  return `${inSession ? `<p class="progress">Bild ${st.pos + 1} von ${st.ids.length}</p>${nextButton("learn-next", st.pos + 1 < st.ids.length, true)}` : ""}${imageHeader(img)}
   <div class="two-col reveal"><div><h2>Deine Antworten</h2><dl class="my-answers">
     ${QUESTIONS.map(([k, l]) => `<dt>${l}</dt><dd>${esc(a[k] || "—")}</dd>`).join("")}
     ${a.q_extra_label ? `<dt>${esc(a.q_extra_label)}</dt><dd>${esc(a.q_extra || "—")}</dd>` : ""}</dl>
-    <h2>Feedback</h2>${a.feedback_md ? `<div class="prose feedback">${md(a.feedback_md)}</div>` : `<button class="secondary" data-action="learn-retry" data-id="${a.id}">Feedback anfordern</button>`}</div>
-  <div><h2>Analyse</h2>${analysisBody(an?.data)}</div></div>
+    ${feedbackBlock(a, "learn-retry")}</div>
+  <div>${expertsBlock(img)}<h2>Analyse <span class="muted small">(KI)</span></h2>${an ? analysisBody(an.data) : `<p class="pending">Analyse wird erzeugt …</p>`}</div></div>
+  ${await discussionBlock(img)}${artistCard(photographerOf(img))}
   ${sourcesBlock(sourcesForImage(img), { scope: "image" })}
-  ${inSession ? `<div class="next"><button data-action="learn-next">${st.pos + 1 < st.ids.length ? "Nächstes Bild" : "Runde abschließen"}</button></div>` : `<p><a href="#/lernen">Zurück</a></p>`}`;
+  ${inSession ? nextButton("learn-next", st.pos + 1 < st.ids.length) : `<p><a href="#/lernen">Zurück</a></p>`}`;
 };
 
+// End of a round: all images with their scores (feedback may still be arriving).
+views.rundeEnde = async kind => {
+  const isLearn = kind === "lernen", st = sess.get(isLearn ? "learn" : "drill");
+  if (!st) { location.hash = isLearn ? "#/lernen" : "#/sehen"; return ""; }
+  const items = await Promise.all((st.done || []).map(id => findItem(isLearn ? "answers" : "drills", id)));
+  const ok = items.filter(x => x?.hit != null);
+  const avg = k => ok.length ? (ok.reduce((n, x) => n + x[k], 0) / ok.length).toFixed(1) : "–";
+  return `<h1>Runde abgeschlossen</h1>
+  <div class="stats"><span><b>${avg("hit")}</b> Treffer ⌀</span><span><b>${avg("precision")}</b> Genauigkeit ⌀</span><span><b>${items.length}</b> Bilder</span></div>
+  ${ok.length < items.length ? `<p class="pending">${items.length - ok.length} Bewertung(en) laufen noch – diese Seite aktualisiert sich.</p>` : ""}
+  <ul class="answer-list">${items.filter(Boolean).map(x => { const i = lib.by.images.get(x.image_id), href = isLearn ? `#/lernen/r/${x.id}` : `#/sehen/r/${x.id}`;
+    return `<li><a href="${href}">${media(i.id)}</a><div><a href="${href}">${esc(i.title || "Bild")}</a> <span class="muted">${esc(photographerOf(i).name)}${isLearn ? "" : ` · ${DIM[x.dimension]?.label}`}</span>
+      ${x.hit != null ? `<div class="small">Treffer ${x.hit}/5 · Genauigkeit ${x.precision}/5${(x.missed || []).length ? ` · fehlte: ${x.missed.map(esc).join(", ")}` : ""}</div>` : x.error ? `<div class="error small">${esc(x.error)}</div>` : `<div class="pending small">Bewertung läuft …</div>`}</div></li>`; }).join("")}</ul>
+  <div class="actions"><button data-action="round-close" data-kind="${kind}">Neue Runde</button><a class="button secondary" href="#/fortschritt">Fortschritt</a></div>`;
+};
+
+// Learning progress across all exercises.
+views.fortschritt = async () => {
+  const answers = await loadState("answers", []), drills = await loadState("drills", []);
+  const all = [...answers.map(a => ({ ...a, dim: "lernrunde" })), ...drills.map(d => ({ ...d, dim: d.dimension }))].sort((a, b) => a.created_at.localeCompare(b.created_at));
+  const scored = all.filter(x => x.hit != null);
+  const avg = (xs, k) => xs.length ? xs.reduce((n, x) => n + x[k], 0) / xs.length : null;
+  const fmt = v => v == null ? "–" : v.toFixed(1);
+  const last = scored.slice(-10), prev = scored.slice(-20, -10);
+  const trend = (k) => { const a = avg(last, k), b = avg(prev, k); return a == null || b == null ? "" : a > b + 0.2 ? " ↑" : a < b - 0.2 ? " ↓" : " →"; };
+  const rows = [["lernrunde", "Lernrunde (5 Fragen)"], ...DRILLABLE.map(d => [d.key, d.label])].map(([k, label]) => {
+    const xs = scored.filter(x => x.dim === k), n = all.filter(x => x.dim === k).length;
+    return `<tr><td>${label}</td><td>${n}</td><td>${fmt(avg(xs, "hit"))}</td><td>${fmt(avg(xs, "precision"))}</td></tr>`;
+  }).join("");
+  const missed = {}; scored.slice(-40).forEach(x => (x.missed || []).forEach(m => { const k = m.toLowerCase().trim(); missed[k] = (missed[k] || 0) + 1; }));
+  const topMissed = Object.entries(missed).sort((a, b) => b[1] - a[1]).slice(0, 12);
+  const seen = new Set(all.map(x => x.image_id));
+  const days = [...new Set(all.map(x => x.created_at.slice(0, 10)))];
+  const chapters = await Promise.all(lib.chapters.map(async c => { const s = await chapterState(c); return [c, s.ids.filter(i => seen.has(i)).length, s.ids.length]; }));
+  const open = ["learn", "drill"].map(k => [k, sess.get(k)]).filter(([, v]) => v && v.pos < (v.ids || v.items).length);
+  return `<h1>Lernfortschritt</h1>
+  ${open.map(([k, v]) => `<p class="card">Offene ${k === "learn" ? "Lernrunde" : "Sehübung"}: Bild ${v.pos + 1} von ${(v.ids || v.items).length} · <a href="#/${k === "learn" ? "lernen/runde" : "sehen/uebung"}">fortsetzen</a></p>`).join("")}
+  <div class="stats"><span><b>${all.length}</b> Übungen</span><span><b>${seen.size}</b>/${lib.images.length} Bilder gesehen</span><span><b>${days.length}</b> Übungstage</span>
+    <span><b>${fmt(avg(last, "hit"))}${trend("hit")}</b> Treffer (letzte 10)</span><span><b>${fmt(avg(last, "precision"))}${trend("precision")}</b> Genauigkeit (letzte 10)</span></div>
+  <h2>Nach Aspekt</h2><table class="list keep"><thead><tr><th>Aspekt</th><th>Anzahl</th><th>Treffer ⌀</th><th>Genauigkeit ⌀</th></tr></thead><tbody>${rows}</tbody></table>
+  ${topMissed.length ? `<h2>Was dir oft fehlt</h2><p>${topMissed.map(([m, n]) => `<span class="tag miss">${esc(m)} · ${n}</span>`).join(" ")}</p>` : ""}
+  <h2>Kapitel</h2><table class="list keep"><tbody>${chapters.map(([c, n, t]) => `<tr><td><a href="#/kapitel/${c.id}">${c.number}. ${esc(c.title)}</a></td><td>${n}/${t}</td><td><div class="bar"><span style="width:${t ? Math.round(n / t * 100) : 0}%"></span></div></td></tr>`).join("")}</tbody></table>
+  <p><a href="#/lernen/antworten">Lerntagebuch: alle Antworten</a></p>`;
+};
+
+// History of everything seen and practised, grouped by day.
 views.antworten = async () => {
-  const items = [...(await loadState("answers", [])).map(a => ({ ...a, kind: "learn" })), ...(await loadState("drills", [])).map(d => ({ ...d, kind: "drill" }))]
-    .sort((a, b) => b.created_at.localeCompare(a.created_at));
-  return `<h1>Lerntagebuch</h1><ul class="answer-list">${items.map(x => { const i = lib.by.images.get(x.image_id); if (!i) return "";
-    const href = x.kind === "learn" ? `#/lernen/r/${x.id}` : `#/sehen/r/${x.id}`;
+  const [answers, drills, disc] = await Promise.all([loadState("answers", []), loadState("drills", []), loadState("discussions", {})]);
+  const items = [...answers.map(a => ({ ...a, kind: "learn" })), ...drills.map(d => ({ ...d, kind: "drill" }))];
+  Object.entries(disc).forEach(([iid, msgs]) => { const first = msgs.find(m => m.role === "user"); if (first) items.push({ kind: "talk", image_id: iid, created_at: msgs[msgs.length - 1].at, count: msgs.length / 2 }); });
+  items.sort((a, b) => b.created_at.localeCompare(a.created_at));
+  const byDay = {}; items.forEach(x => (byDay[x.created_at.slice(0, 10)] ||= []).push(x));
+  return `<h1>Verlauf</h1><p class="lead">Alle Bilder, die du gesehen hast – mit Punkten, Bewertung und Gesprächen. <a href="#/fortschritt">Fortschritt</a></p>
+  ${Object.entries(byDay).map(([day, xs]) => `<h2>${new Date(day).toLocaleDateString("de-DE", { weekday: "long", day: "numeric", month: "long", year: "numeric" })}</h2>
+  <ul class="answer-list">${xs.map(x => { const i = lib.by.images.get(x.image_id); if (!i) return "";
+    const href = x.kind === "learn" ? `#/lernen/r/${x.id}` : x.kind === "drill" ? `#/sehen/r/${x.id}` : `#/bild/${i.id}`;
+    const label = x.kind === "learn" ? "Lernrunde" : x.kind === "drill" ? `Sehübung ${DIM[x.dimension]?.label}` : `Diskussion (${x.count} Fragen)`;
     return `<li><a href="${href}">${media(i.id)}</a><div><a href="${href}">${esc(i.title || "Bild")}</a>
-      <span class="muted">${esc(photographerOf(i).name)} · ${x.kind === "learn" ? "Lernrunde" : DIM[x.dimension]?.label} · ${fmtDate(x.created_at)}</span>
-      <p class="small">${esc((x.feedback_md || "Kein Feedback").slice(0, 220))}</p></div></li>`; }).join("") || `<li class="muted">Noch nichts geübt.</li>`}</ul>`;
+      <span class="muted">${esc(photographerOf(i).name)} · ${label}</span>
+      ${x.hit != null ? `<div class="small">Treffer ${x.hit}/5 · Genauigkeit ${x.precision}/5${(x.missed || []).length ? ` · fehlte: ${x.missed.map(esc).join(", ")}` : ""}</div>` : ""}
+      ${x.feedback_md ? `<p class="small">${esc(x.feedback_md.slice(0, 200))}${x.feedback_md.length > 200 ? " …" : ""}</p>` : ""}</div></li>`; }).join("")}</ul>`).join("") || `<p class="muted">Noch nichts geübt.</p>`}`;
 };
 
 // --- history
@@ -374,21 +508,30 @@ const routes = [
   [/^\/fotograf\/(.+)$/, m => views.fotograf(m[1])], [/^\/projekt\/(.+)$/, m => views.projekt(m[1])],
   [/^\/bild\/([^/]+)\/versionen$/, m => views.versionen(m[1])], [/^\/bild\/(.+)$/, m => views.bild(m[1])], [/^\/neu$/, () => views.neu()],
   [/^\/lernen$/, () => views.lernen()], [/^\/lernen\/runde$/, () => views.learn()], [/^\/lernen\/r\/(.+)$/, m => views.learnReveal(m[1])],
-  [/^\/lernen\/antworten$/, () => views.antworten()],
+  [/^\/lernen\/antworten$/, () => views.antworten()], [/^\/fortschritt$/, () => views.fortschritt()],
+  [/^\/runde\/(lernen|sehen)$/, m => views.rundeEnde(m[1])],
   [/^\/geschichte$/, () => views.geschichte()], [/^\/kapitel\/([^/]+)\/bearbeiten$/, m => views.kapitelEdit(m[1])],
   [/^\/kapitel\/(.+)$/, m => views.kapitel(m[1])], [/^\/zeitleiste$/, (m, p) => views.zeitleiste(p)],
 ];
 
-async function route() {
+// keep=true: background results re-render the page in place without jumping to the top.
+async function route(keep = false) {
   const [path, query = ""] = location.hash.replace(/^#/, "").split("?");
   const params = new URLSearchParams(query);
   for (const [re, fn] of routes) {
     const m = path.match(re);
     if (!m) continue;
-    main().innerHTML = `<p class="muted">Lädt …</p>`;
+    const y = window.scrollY;
+    // keep what the user is typing when the page re-renders in place
+    const typed = keep ? [...main().querySelectorAll("textarea")].map(t => [t.closest("form")?.dataset.action + "|" + t.name, t.value]) : [];
+    if (!keep) main().innerHTML = `<p class="muted">Lädt …</p>`;
     try {
       const html = await fn(m, params);
-      if (html !== "") { main().innerHTML = html; hydrate(); window.scrollTo(0, 0); }
+      if (html !== "") {
+        main().innerHTML = html; hydrate();
+        for (const [k, v] of typed) { const [a, n] = k.split("|"); const t = main().querySelector(`form[data-action="${a}"] textarea[name="${n}"]`); if (t && v) t.value = v; }
+        window.scrollTo(0, keep ? y : 0);
+      }
     } catch (e) { console.error(e); main().innerHTML = `<p class="error">${esc(e.message)}</p>`; }
     document.querySelectorAll("header nav a").forEach(a => a.classList.toggle("on", location.hash.startsWith(a.getAttribute("href")) && a.getAttribute("href") !== "#/"));
     return;
@@ -422,23 +565,25 @@ const actions = {
   async "drill-answer"(form) {
     const img = lib.by.images.get(form.dataset.img), d = DIM[form.dataset.dim];
     const drill = { id: uid(), image_id: img.id, dimension: d.key, answer: new FormData(form).get("answer").trim(), look_seconds: Number(form.dataset.looked || 0), created_at: new Date().toISOString() };
-    await busy(form, async () => {
-      try { const an = await generateAnalysis(img); drill.analysis_version = an.version; drill.feedback_md = await drillFeedback(img, d, an.data, drill.answer); }
-      catch (e) { drill.error = errMsg(e); }
-      await mutateState("drills", [], s => [...s, drill], "Sehübung");
-    });
+    pendingItems.set(drill.id, drill);
+    const st = sess.get("drill"); if (st) { st.done = [...(st.done || []), drill.id]; sess.set("drill", st); }
+    bg(() => mutateState("drills", [], s => [...s, drill], "Sehübung"));
+    bg(() => evaluate("drills", drill, async () => {
+      const an = await generateAnalysis(img); rerenderIf(drill.id);
+      return { analysis_version: an.version, ...await drillFeedback(img, d, an.data, drill.answer) };
+    }));
     location.hash = `#/sehen/r/${drill.id}`;
   },
   async "drill-retry"(btn) {
-    const drills = await loadState("drills", []), dr = drills.find(x => x.id === btn.dataset.id), img = lib.by.images.get(dr.image_id);
-    await busy(btn.parentElement, async () => {
-      try { const an = await generateAnalysis(img); const fb = await drillFeedback(img, DIM[dr.dimension], an.data, dr.answer);
-        await mutateState("drills", [], s => s.map(x => x.id === dr.id ? { ...x, feedback_md: fb, analysis_version: an.version, error: undefined } : x), "Sehübung Feedback");
-      } catch (e) { toast(errMsg(e), 5000); }
-    });
-    route();
+    const dr = await findItem("drills", btn.dataset.id), img = lib.by.images.get(dr.image_id);
+    pendingItems.set(dr.id, { ...dr, error: undefined }); route();
+    bg(() => evaluate("drills", pendingItems.get(dr.id), async () => {
+      const an = await generateAnalysis(img);
+      return { analysis_version: an.version, ...await drillFeedback(img, DIM[dr.dimension], an.data, dr.answer) };
+    }));
   },
-  async "drill-next"() { const st = sess.get("drill"); st.pos++; sess.set("drill", st); location.hash = "#/sehen/uebung"; route(); },
+  async "drill-next"() { const st = sess.get("drill"); st.pos++; sess.set("drill", st); location.hash = st.pos < st.items.length ? "#/sehen/uebung" : "#/runde/sehen"; },
+  async "round-close"(btn) { sess.set(btn.dataset.kind === "lernen" ? "learn" : "drill", null); location.hash = btn.dataset.kind === "lernen" ? "#/lernen" : "#/sehen"; },
 
   async "learn-start"(form) {
     const f = new FormData(form); let pool = lib.images.slice();
@@ -447,31 +592,51 @@ const actions = {
     const done = new Set((await loadState("answers", [])).map(a => a.image_id));
     const ids = [...shuffle(pool.filter(i => !done.has(i.id))), ...shuffle(pool.filter(i => done.has(i.id)))].slice(0, Number(f.get("size"))).map(i => i.id);
     if (!ids.length) return toast("Für diese Auswahl gibt es keine Bilder.");
-    sess.set("learn", { ids, pos: 0, look: Number(f.get("look")), seed: Math.floor(Math.random() * 4) });
+    sess.set("learn", { ids, pos: 0, look: Number(f.get("look")), seed: Math.floor(Math.random() * 4), done: [] });
+    prefetch(ids);
     location.hash = "#/lernen/runde";
   },
   async "learn-answer"(form) {
     const img = lib.by.images.get(form.dataset.img), f = new FormData(form);
     const a = { id: uid(), image_id: img.id, created_at: new Date().toISOString(), look_seconds: Number(form.dataset.looked || 0) };
     for (const k of ["q_position", "q_wait", "q_omitted", "q_different", "q_extra_label", "q_extra"]) a[k] = (f.get(k) || "").trim();
-    await busy(form, async () => {
-      try { const an = await generateAnalysis(img); a.analysis_version = an.version; a.feedback_md = await learnFeedback(an.data, a); }
-      catch (e) { a.error = errMsg(e); }
-      await mutateState("answers", [], s => [...s, a], "Lernantwort");
-    });
+    pendingItems.set(a.id, a);
+    const st = sess.get("learn"); if (st) { st.done = [...(st.done || []), a.id]; sess.set("learn", st); }
+    bg(() => mutateState("answers", [], s => [...s, a], "Lernantwort"));
+    bg(() => evaluate("answers", a, async () => {
+      const an = await generateAnalysis(img); rerenderIf(a.id);
+      const fb = await learnFeedback(an.data, a);
+      return { analysis_version: an.version, ...fb };
+    }));
     location.hash = `#/lernen/r/${a.id}`;
   },
   async "learn-retry"(btn) {
-    const a = (await loadState("answers", [])).find(x => x.id === btn.dataset.id), img = lib.by.images.get(a.image_id);
-    await busy(btn.parentElement, async () => {
-      try { const an = await generateAnalysis(img); const fb = await learnFeedback(an.data, a);
-        await mutateState("answers", [], s => s.map(x => x.id === a.id ? { ...x, feedback_md: fb, analysis_version: an.version, error: undefined } : x), "Lernantwort Feedback");
-      } catch (e) { toast(errMsg(e), 5000); }
-    });
-    route();
+    const a = await findItem("answers", btn.dataset.id), img = lib.by.images.get(a.image_id);
+    pendingItems.set(a.id, { ...a, error: undefined }); route();
+    bg(() => evaluate("answers", pendingItems.get(a.id), async () => {
+      const an = await generateAnalysis(img);
+      return { analysis_version: an.version, ...await learnFeedback(an.data, a) };
+    }));
   },
-  async "learn-next"() { const st = sess.get("learn"); st.pos++; sess.set("learn", st); location.hash = "#/lernen/runde"; route(); },
+  async "learn-next"() { const st = sess.get("learn"); st.pos++; sess.set("learn", st); location.hash = st.pos < st.ids.length ? "#/lernen/runde" : "#/runde/lernen"; },
 
+  async ask(form) {
+    const img = lib.by.images.get(form.dataset.img), q = new FormData(form).get("q").trim(); if (!q) return;
+    const [answers, drills] = await Promise.all([loadState("answers", []), loadState("drills", [])]);
+    const mine = [...answers, ...drills].filter(x => x.image_id === img.id)
+      .map(({ id, image_id, feedback_md, per_question, error, ...rest }) => rest);
+    const thread = (await loadState("discussions", {}))[img.id] || [];
+    pendingQuestions.set(img.id, q); route();
+    bg(async () => {
+      let reply;
+      try { reply = await discuss(img, (await currentAnalysis(img.id))?.data, mine, thread, q); }
+      catch (e) { toast(errMsg(e), 6000); pendingQuestions.delete(img.id); return route(); }
+      const now = new Date().toISOString();
+      await mutateState("discussions", {}, s => { (s[img.id] ||= []).push({ role: "user", text: q, at: now }, { role: "ai", text: reply, at: new Date().toISOString() }); return s; }, "Diskussion");
+      pendingQuestions.delete(img.id);
+      if (location.hash.includes(img.id) || document.querySelector(`form[data-img="${img.id}"].ask`)) route();
+    });
+  },
   async analyze(btn) {
     const img = lib.by.images.get(btn.dataset.img), regen = !!btn.dataset.regen;
     if (regen && !confirm("Analyse wirklich neu erzeugen? Die alte Version bleibt erhalten; Abweichungen müssen begründet werden.")) return;
@@ -527,6 +692,20 @@ const actions = {
   },
 };
 
+// Run the AI evaluation for an answer/drill, then store the result next to it.
+async function evaluate(kind, item, fn) {
+  let patch;
+  try {
+    const r = await fn();
+    patch = { analysis_version: r.analysis_version, feedback_md: r.feedback, hit: r.hit, precision: r.precision,
+      per_question: r.per_question, missed: r.missed, error: undefined };
+  } catch (e) { patch = { error: errMsg(e) }; }
+  Object.assign(item, patch); pendingItems.set(item.id, item);
+  rerenderIf(item.id); if (location.hash.startsWith("#/runde/")) route(true);
+  await mutateState(kind, [], s => s.map(x => x.id === item.id ? { ...x, ...patch } : x), "Bewertung");
+  pendingItems.delete(item.id);
+}
+
 async function editChapterImages(id, fn) {
   const ch = lib.by.chapters.get(id);
   await mutateState("chapters", {}, s => { const cur = s[id]?.images || ch.images.slice(); s[id] = { ...(s[id] || {}), images: fn(cur.slice()) }; return s; }, `Kapitel ${id} Bilder`);
@@ -537,7 +716,9 @@ function startDrill(dims, size, look) {
   loadState("drills", []).then(drills => {
     const done = new Set(drills.map(d => d.image_id + "|" + d.dimension));
     const pool = shuffle(lib.images.slice()).sort((a, b) => dims.some(d => done.has(a.id + "|" + d)) - dims.some(d => done.has(b.id + "|" + d)));
-    sess.set("drill", { items: pool.slice(0, size).map(i => [i.id, dims[Math.floor(Math.random() * dims.length)]]), pos: 0, look });
+    const items = pool.slice(0, size).map(i => [i.id, dims[Math.floor(Math.random() * dims.length)]]);
+    sess.set("drill", { items, pos: 0, look, done: [] });
+    prefetch(items.map(([id]) => id));
     location.hash = "#/sehen/uebung";
   });
 }

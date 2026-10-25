@@ -98,10 +98,14 @@ class Library:
             sid = source_id(scope, scope_id, url, excerpt)
             if sid in self.sources and (self.sources[sid]["url"], self.sources[sid]["excerpt"]) != (url, excerpt):
                 raise SystemExit(f"Source id collision {sid}")
-            self.sources.setdefault(sid, {
+            entry = self.sources.setdefault(sid, {
                 "id": sid, "url": url, "title": s.get("title", ""), "excerpt": excerpt,
                 "accessed_at": s.get("accessed_at") or accessed, "scope": scope, "scope_id": scope_id,
             })
+            # expert voices carry who said it and about what
+            for k in ("kind", "author", "aspect", "series_level"):
+                if s.get(k):
+                    entry[k] = s[k]
             ids.append(sid)
         return ids
 
@@ -150,19 +154,52 @@ class Library:
             cid = c["key"]
             ids = self.add_sources(c.get("sources"), "concept", cid, accessed)
 
-            def group(m: re.Match) -> str:
-                def one(q: re.Match) -> str:
-                    n = int(q.group(1)) - 1
-                    return f"S{ids[n]}" if 0 <= n < len(ids) else q.group(0)
-                return "[" + re.sub(r"Q(\d+)", one, m.group(1)) + "]"
-
             self.concepts[cid] = {
                 "id": cid, "name": c["name"], "dimension": c.get("dimension", ""),
-                "summary_md": re.sub(r"\[(Q\d+(?:\s*,\s*Q\d+)*)\]", group, c.get("summary_md", "")),
+                "summary_md": q_to_s(c.get("summary_md", ""), ids),
                 "exercise_md": c.get("exercise_md", ""),
                 "images": [{"id": self.keys[e["key"]], "note": e.get("note", "")}
                            for e in c.get("example_images", []) if e.get("key") in self.keys],
             }
+
+
+    def import_experts(self, data: dict) -> int:
+        accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
+        n = 0
+        for entry in data.get("images", []):
+            iid = self.by_url.get(entry.get("image_url", ""))
+            if not iid:
+                continue
+            n += len(self.add_sources(entry.get("experts"), "image", iid, accessed))
+        return n
+
+    def import_bios(self, data: dict) -> int:
+        accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
+        by_name = {p["name"]: p for p in self.photographers.values()}
+        n = 0
+        for b in data.get("photographers", []):
+            ph = by_name.get(b.get("name"))
+            if not ph:
+                continue
+            ids = self.add_sources(b.get("sources"), "photographer", ph["id"], accessed)
+            ph["born"] = ph["born"] or b.get("born")
+            ph["died"] = ph["died"] or b.get("died")
+            ph["bio_md"] = q_to_s(b.get("bio_md", ""), ids)
+            ph["method_md"] = q_to_s(b.get("method_md", ""), ids)
+            if b.get("portrait") and b["portrait"].get("image_url"):
+                ph["portrait"] = {k: b["portrait"].get(k, "") for k in ("image_url", "source_url", "credit")}
+            n += 1
+        return n
+
+
+def q_to_s(text: str, ids: list[int]) -> str:
+    """[Q1, Q2] (position in the entry's own source list) -> [S<id>, S<id>]."""
+    def group(m: re.Match) -> str:
+        def one(q: re.Match) -> str:
+            k = int(q.group(1)) - 1
+            return f"S{ids[k]}" if 0 <= k < len(ids) else q.group(0)
+        return "[" + re.sub(r"Q(\d+)", one, m.group(1)) + "]"
+    return re.sub(r"\[(Q\d+(?:\s*,\s*Q\d+)*)\]", group, text or "")
 
 
 def headers(url: str) -> dict:
@@ -201,6 +238,29 @@ def encrypt(key: bytes, data: bytes) -> bytes:
     return iv + AESGCM(key).encrypt(iv, data, None)
 
 
+def build_portraits(lib: Library, media_dir: Path, key: bytes) -> list[str]:
+    (media_dir / "p").mkdir(parents=True, exist_ok=True)
+    failed = []
+    for ph in lib.photographers.values():
+        portrait = ph.get("portrait")
+        if not portrait:
+            continue
+        out = media_dir / "p" / f"{ph['id']}.bin"
+        if not out.exists():
+            try:
+                with Image.open(io.BytesIO(download(portrait["image_url"]))) as img:
+                    img.load()
+                    out.write_bytes(encrypt(key, scaled_jpeg(img, 800, 84)))
+                print("  + Porträt", ph["name"])
+                time.sleep(1.0)
+            except Exception as exc:  # noqa: BLE001 - report and continue
+                failed.append(f"Porträt {ph['name']}: {exc}"[:200])
+                ph.pop("portrait")
+                continue
+        portrait.pop("image_url", None)
+    return failed
+
+
 def build_media(lib: Library, media_dir: Path, key: bytes) -> list[str]:
     (media_dir / "m").mkdir(parents=True, exist_ok=True)
     (media_dir / "t").mkdir(parents=True, exist_ok=True)
@@ -236,13 +296,16 @@ def main() -> None:
     args = ap.parse_args()
 
     lib = Library()
-    for f in sorted(SEED_DIR.glob("*.json"), key=seed_order):
+    for f in sorted(SEED_DIR.glob("content_*.json"), key=seed_order):
         lib.import_file(json.loads(f.read_text(encoding="utf-8")))
+    experts = sum(lib.import_experts(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("experts_*.json")))
+    bio_file = SEED_DIR / "photographers_bio.json"
+    bios = lib.import_bios(json.loads(bio_file.read_text(encoding="utf-8"))) if bio_file.exists() else 0
 
     failed: list[str] = []
     if args.media_dir:
         key = bytes.fromhex(args.key_file.read_text().strip())
-        failed = build_media(lib, args.media_dir, key)
+        failed = build_media(lib, args.media_dir, key) + build_portraits(lib, args.media_dir, key)
         present = {p.stem for p in (args.media_dir / "m").glob("*.bin")}
         missing = [i for i in lib.images if i not in present]
         for i in missing:
@@ -252,6 +315,9 @@ def main() -> None:
         for c in lib.concepts.values():
             c["images"] = [e for e in c["images"] if e["id"] in lib.images]
 
+    if not args.media_dir:  # without media no portrait files exist; keep the source info only
+        for ph in lib.photographers.values():
+            ph.pop("portrait", None)
     out = {
         "built_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
         "photographers": sorted(lib.photographers.values(), key=lambda p: p["name"]),
@@ -263,8 +329,8 @@ def main() -> None:
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    print(f"{len(out['photographers'])} Fotografen, {len(out['images'])} Bilder, {len(out['sources'])} Quellen, "
-          f"{len(out['concepts'])} Begriffe → {OUT.relative_to(ROOT)}")
+    print(f"{len(out['photographers'])} Fotografen, {len(out['images'])} Bilder, {len(out['sources'])} Quellen "
+          f"({experts} Expertenstimmen), {bios} Biografien, {len(out['concepts'])} Begriffe → {OUT.relative_to(ROOT)}")
     if failed:
         print("\nNicht geladen:", *failed, sep="\n  - ")
 
