@@ -667,11 +667,14 @@ const actions = {
     $("#quiz-result").innerHTML = `<p class="${passed ? "ok" : "warn"}"><b>${right}/${total}</b> – ${passed ? "bestanden. Die Sehübung ist freigeschaltet." : "noch nicht bestanden. Lies die Erklärungen und versuch es noch einmal."}</p>
       ${passed && DIM[l.id]?.field ? `<button data-action="drill-quick" data-dim="${l.id}">Sehübung „${DIM[l.id].label}“ starten</button>` : `<button class="secondary" onclick="location.reload()">Test neu starten</button>`}`;
     $("#quiz-result").scrollIntoView({ behavior: "smooth", block: "center" });
-    await mutateState("progress", { theory: {} }, st => {
+    const apply = st => {
       const t = (st.theory ||= {}), prev = t[l.id] || {};
       t[l.id] = { passed: prev.passed || passed, best: Math.max(prev.best || 0, right), total, attempts: (prev.attempts || 0) + 1, at: new Date().toISOString() };
       return st;
-    }, `Theorie ${l.id}`).catch(e => toast(errMsg(e), 5000));
+    };
+    // Unlock immediately in this session; the write to GitHub follows.
+    apply(await loadState("progress", { theory: {} }));
+    await mutateState("progress", { theory: {} }, apply, `Theorie ${l.id}`).catch(e => toast(errMsg(e), 5000));
   },
   async "lesson-ask"(form) {
     const l = lib.by.lessons.get(form.dataset.id), q = new FormData(form).get("q").trim(); if (!q) return;

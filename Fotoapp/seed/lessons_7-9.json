@@ -1,0 +1,561 @@
+{
+ "accessed_at": "2026-10-25",
+ "lessons": [
+  {
+   "dimension": "atmosphere",
+   "order": 7,
+   "title": "Atmosphäre und Wetter",
+   "sources": [
+    {
+     "url": "https://www.nationalgallery.org.uk/paintings/glossary/aerial-perspective",
+     "title": "The National Gallery, London: Glossary – Aerial perspective",
+     "excerpt": "Leonardo da Vinci, among others, observed that as a landscape recedes from the viewer its colours and tones alter due to the nature of the atmosphere. The pictorial equivalent of this phenomenon is called aerial or atmospheric perspective. This effect can be achieved in a painting by establishing gradual tonal changes between foreground and background, so creating an impression of space which approximates to that seen in nature."
+    }
+   ],
+   "intro_md": "Zwischen Kamera und Motiv liegt nie leerer Raum, sondern Luft – mit Feuchtigkeit, Staub, Rauch, Regen, Schnee. Diese Luft verändert, was im Bild ankommt: Kontrast und Farbe nehmen mit der Entfernung ab, Formen lösen sich auf, Licht wird gestreut, gebündelt oder abgeschnitten. Für Landschafts- und Reisefotografie ist das Wetter deshalb nicht Kulisse, sondern Bildmaterial: Es erzeugt Tiefe (Luftperspektive, Nebelschichten), es lässt weg (Nebel, Schnee, bedeckter Himmel) und es trägt Stimmung, die man nicht nachträglich hinzufügen kann. Die Lektion zeigt, wie Atmosphäre Raum baut, wie Profis das Wetter lesen und vorwegnehmen, warum „schlechtes“ Wetter oft das ergiebigere ist – und wo Wetter zum bloßen Effekt wird.",
+   "sections": [
+    {
+     "heading": "Luft als Bildmaterial: die Luftperspektive",
+     "body_md": "Die National Gallery beschreibt, dass schon Leonardo da Vinci beobachtete, wie sich Farben und Töne einer Landschaft mit wachsender Entfernung durch die Atmosphäre verändern; die malerische Entsprechung heißt Luft- oder atmosphärische Perspektive und entsteht durch allmähliche Tonabstufungen zwischen Vorder- und Hintergrund [Q1]. Die Fotografie bekommt diesen Effekt geschenkt – aber nur, wenn Luft und Licht mitspielen.\n\nPhysikalisch streuen Wassertröpfchen und Partikel das Licht. Je mehr Luft zwischen Kamera und Objekt liegt, desto mehr Streulicht legt sich über das Objekt: Schwarz wird zu Grau, Farben verlieren Sättigung, Konturen werden weich. Bei klarer Luft wirkt das kühl-bläulich, bei Dunst im Gegenlicht warm und hell. Daraus folgt eine **Tonwerttreppe**: Jeder weiter entfernte Hügelrücken liegt eine Stufe heller. Das Auge liest diese Stufen als Raum, auch dort, wo keine Fluchtlinie existiert.\n\nZwei Variablen steuern den Effekt. Erstens die **Lichtrichtung**: Mit der Sonne im Rücken wirkt Dunst schwach, gegen die Sonne hellt er sich stark auf und trennt die Ebenen deutlich. Zweitens die **Brennweite**: Ein Tele staucht die Abstände, sodass viele Schichten übereinanderliegen und die Treppe sichtbar wird; ein Weitwinkel verteilt dieselbe Tiefe auf wenige Ebenen. Wer Bergketten, Karstkegel oder Reisterrassen in Schichten zeigen will, sucht also Gegen- oder Streiflicht, etwas Feuchtigkeit in der Luft und eine längere Brennweite."
+    },
+    {
+     "heading": "Nebel, Dunst, Schnee: Weglassen durch Wetter",
+     "body_md": "Nebel ist das wirksamste Werkzeug zum Weglassen, das die Natur liefert. Er löscht Hintergründe, trennt Formen voneinander und macht aus einer unübersichtlichen Landschaft eine klare Figur-Grund-Beziehung. Michael Kenna sagt, er bevorzuge „conditions“ – Schnee, Regen, Nebel, Wolken, Wind – für seine Fotografien [S517768]; schneebedeckte Landschaften vergleicht er mit Sumi-e-Tuschmalerei auf weißem Grund, alles werde auf ein visuelles Haiku reduziert, wenige Elemente deuteten ein ganzes Universum an [S234774]. Es sei weder nötig noch wünschenswert, ein Rechteck mit Details zu füllen [S917495].\n\nIm Begleittext zu Jungjin Lees Serie „Wind“ heißt es, das Sujet könne ein riesiger Nebel sein, der einen Berg frisst, oder eine Wolke, die in einen Wald eindringt – der Inhalt aber sei Lees Antwort auf das Gesehene [S969423]. Das ist die entscheidende Unterscheidung: Nebel ist nicht schon das Bild, sondern das Material, aus dem ein Bild gebaut wird.\n\nPraktisch zählt die **Dichte**. Zu dichter Nebel ergibt eine graue Fläche ohne Halt; die guten Bilder entstehen am Rand – wo ein Baum, ein Grat, ein Dach gerade auftaucht oder verschwindet. Bodennebel bildet sich typischerweise nach klaren, windstillen Nächten in Tälern und löst sich nach Sonnenaufgang auf. Wer dann **oberhalb** steht, sieht die Nebelschicht als Ebene, die Hügel als Inseln; wer im Nebel steht, arbeitet mit Nähe, Silhouette und Verschwinden. Beides sind verschiedene Bilder, und die Entscheidung fällt am Abend vorher bei der Wahl des Standorts."
+    },
+    {
+     "heading": "Am Rand des Wetters",
+     "body_md": "Joe Cornish beschreibt, wo er die stärksten Bilder sucht: am Rand des Wetters, im Übergang von einer Wetterlage in die andere, am Rand der Tageszeit, vielleicht am Rand einer Klippe [S410584]. Er warte nicht stundenlang, Vorwegnahme sei das entscheidende Wort; er versuche, die Würfel zu seinen Gunsten zu laden, und hoffe, dass sich das Wetter wie gewünscht entwickle [S833307]. Bei Schnee müsse man hinaus, um eines der Aufklaren am Himmel zu erwischen, die einen aufregenden Moment ergeben [S583007].\n\nWarum gerade der Übergang? Weil dort zwei Lichtsorten gleichzeitig im Bild sind. Unter einer abziehenden oder heranrückenden Gewitterfront wird der Himmel dunkler als die beleuchtete Erde – die gewohnte Tonordnung (heller Himmel, dunkler Boden) kehrt sich um, und jedes besonnte Objekt leuchtet vor dem Dunkel. Aperture beschreibt Meyerowitz’ „Cape Light“ als Alltagsszenen – darunter ein heraufziehender Sturm –, die durch das Licht von Cape Cod verwandelt werden [S390326].\n\nEin verwandtes Werkzeug sind **Wolkenschatten**. An Tagen mit aufgerissener Bewölkung wandern Lichtflecken über das Land. Sie trennen Ebenen (beleuchteter Mittelgrund vor beschattetem Hintergrund), sie lenken den Blick und sie lassen sich abwarten: Man legt den Bildausschnitt fest, beobachtet Zug und Tempo der Wolken und löst aus, wenn der Lichtfleck auf dem Schlüsselmotiv liegt. Das ist Wetterfotografie als Arbeit am Moment – ein Thema der Lektion 9."
+    },
+    {
+     "heading": "Bedeckter Himmel und das weiche Bild",
+     "body_md": "Bedeckter Himmel gilt vielen als Ausfall. Für eine bestimmte Art von Bild ist er Voraussetzung. Zhang Kechun fotografierte den Gelben Fluss an bewölkten Tagen und belichtete über, um einen weichen, subtilen Tonumfang zu erhalten [S763808]; als Inspiration nannte er Landschaftsmalerei der Song-Dynastie, deren gedämpften Ton er so erreichen wollte [S994730]. Eine Kritik beschreibt die gedämpfte Palette – sandige Gelbtöne, graue Himmel, blasse Grüntöne – als Träger von Größe und Ruhe [S852998]. Nick Brandt sagt über seine Panoramen, jede Szene werde durch den Himmel und das begleitende Licht in Aussehen, Stimmung und Emotion verwandelt; in harter Sonne hätte keines funktioniert, die gesuchte melancholische Atmosphäre wäre sofort verschwunden [S105352].\n\nWas bewirkt der bedeckte Himmel konkret? Der Kontrast sinkt, Schatten verschwinden, Farben auf Vegetation und nassem Stein wirken satter, weil keine Glanzlichter sie überstrahlen. Der Himmel wird zur fast weißen Fläche: Entweder man schließt ihn aus und arbeitet mit den gesättigten Mitteltönen der Erde, oder man nutzt ihn bewusst als leeren Grund, wie Zhang. Ein Gegenpol ist Hans Strands Kritik, zu viel heutige Landschaftsfotografie sei auf Sensation aus; er wünsche sich mehr stille visuelle Poesie statt hoher Berge mit „Halleluja-Himmeln“ [S427017]."
+    },
+    {
+     "heading": "Regen, Schnee und Jahreszeit",
+     "body_md": "**Regen** verkürzt die Sicht und baut damit eine sehr kurze Tonwerttreppe: Schon der Mittelgrund verblasst. Nasse Oberflächen spiegeln, dunkeln ab und gewinnen Sättigung; Regentropfen selbst werden nur vor dunklem Grund und im Gegenlicht sichtbar. Regen erzeugt außerdem Verhalten – Schirme, gebeugte Körper, Eile –, also Gesten, die einen Ort charakterisieren.\n\n**Schnee** reduziert Landschaft auf Grafik, ist aber tonal heikel. Schon Samuel Bourne schrieb im 19. Jahrhundert, Schnee komme in der Fotografie nur dann mit der Reinheit heraus, die den Eindruck von Schnee vermittelt, wenn breite Massen davon von der Sonne gut beleuchtet seien [S917751]. Das Problem besteht bis heute: Ein Belichtungsmesser behandelt die helle Fläche als Mittelton und belichtet zu knapp; Schnee wird grau. Umgekehrt zeigt Kennas Hokkaido-Werk, dass Schnee nicht reinweiß sein muss – er beschreibt ein „leeres“ weißes Schneefeld, das von Grau zu Weiß schattiert ist [S917495]. Die Kargheit der Hokkaido-Winter, kahle Bäume, fehlende Farbe und Stille verlangen nach seinen Worten einen konzentrierteren Blick auf das Land [S508588].\n\n**Jahreszeit** ist eine Variable, die man über Wiederholung nutzt. Kenna kehrt seit über zwei Jahrzehnten zu denselben Orten auf Hokkaido zurück; die Galerie betont die endlosen Variationen durch wechselndes Licht, Schneehöhen und kleine Verschiebungen der Perspektive [S700752]. Für Reisende heißt das: Ein Ort ist nicht „fotografiert“, wenn man ihn einmal bei Sonne gesehen hat."
+    },
+    {
+     "heading": "Stimmung ist Information – und Wetter als Effekt",
+     "body_md": "Wetter trägt Bedeutung. Ein Bericht über Ansel Adams’ „The Tetons and the Snake River“ zitiert die Einschätzung, die Wolken im Hintergrund seien „Wettereffekte“, die dem Bild seine „opernhafte“ Qualität geben [S236552]. Genau darin liegt die Gefahr: Ein dramatischer Himmel kann ein schwaches Bild nicht retten, er überdeckt es höchstens. Die Prüffrage lautet daher: Sagt das Wetter etwas über diesen Ort – Feuchtigkeit eines Tropentals, Staub einer Industrieregion, Kälte einer Hochebene – oder ist es austauschbares Spektakel?\n\nDunst ist nicht gleich Dunst. Fan Ho erinnert sich, wie er mit der Kamera durch die Gassen Hongkongs „through the haze“ ging [S897230]; in heutigen Großstädten Asiens ist Dunst oft Luftverschmutzung. Fotografisch wirkt beides ähnlich (Kontrastverlust, Lichtstreuung), inhaltlich ist es ein Unterschied – und Teil dessen, was ein ehrliches Bild über einen Ort zeigt.\n\nDaraus folgt eine Arbeitsweise: Wetter **lesen statt hoffen**. Bewölkungsgrad in verschiedenen Höhen, Luftfeuchte und Taupunkt (Nebelwahrscheinlichkeit), Sichtweite und Feinstaub, Windrichtung und Front-Durchzug lassen sich am Vortag prüfen – die Sicht- und Feinstaubprognose der Karte ist genau dafür gedacht. Dann wird der Standort zur Wetterlage gewählt: Talblick von oben bei erwartetem Bodennebel, Gegenlichtstandort bei Dunst, Nahmotive und Innenräume bei flachem Grau. So wird aus Cornishs „Würfel laden“ [S833307] eine Planungsroutine."
+    },
+    {
+     "heading": "Klischee, Gegenlesart und was der Bildschirm verschweigt",
+     "body_md": "**Klischee.** Der Nebel im Tal vom bekannten Aussichtspunkt, der violette Gewitterhimmel über der Zypressengruppe, der „Halleluja-Himmel“ über dem Gipfel, den Hans Strand kritisiert [S427017]: Solche Wetterbilder sind nicht schlecht, aber erwartbar. Ein Wetter-Klischee erkennt man daran, dass das Wetter austauschbar über jedem Ort liegen könnte und das Bild ohne das Wetter nichts mehr hätte. Ghirri, über den Hyperallergic schreibt, er habe die Klischees der Landschaftsfotografie systematisch unterlaufen [S376489], ist dafür ein Gegenmodell: Er nimmt dem Ort die Grandeur, statt sie zu steigern.\n\n**Gegenlesart.** Atmosphäre ist mehrdeutig. Zhang Kechuns blasse, dunstige Flussbilder lassen sich mit Sixth Tone als ruhige, fast surreale Palette im Geist der Song-Malerei lesen [S994730] – oder mit Huxley-Parlour als Bilder einer von Überschwemmungen gezeichneten Region, deren unheimlich stille Atmosphäre die Verletzlichkeit der Menschen zeigt [S445890]. Dasselbe Grau kann Andacht oder Bedrohung sein; erst Kontext und Serie entscheiden.\n\n**Grenze der Bildschirmkopie.** Gerade atmosphärische Bilder leben von feinen Tonabstufungen in den Lichtern. Auf einem hellen, kontrastreichen Handydisplay verschwinden sie oder verklumpen; wie viel Zeichnung ein Abzug im Dunst wirklich hat, ist an einer JPEG-Kopie nicht zu beurteilen."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "i7ce2da0cfd",
+     "caption_md": "Lehrbuchbeispiel der Luftperspektive: Schilf und Wasser im Vordergrund sind dunkel, warm und scharf gezeichnet; das Bootshaus und die Bäume des Mittelgrunds sind schon heller und weicher; die Hügel dahinter lösen sich in blassem Dunst fast ins Himmelsweiß auf. Der Raum entsteht hier kaum durch Linien, sondern durch die Tonwerttreppe von unten links nach oben rechts.",
+     "look_for": [
+      "Drei bis vier Helligkeitsstufen vom Schilf bis zu den Hügeln",
+      "Die Spiegelung im Wasser wiederholt die Dunsttöne",
+      "Kaum harte Schatten: das Licht ist durch den Dunst gefiltert"
+     ]
+    },
+    {
+     "image_id": "i13acc97d83",
+     "caption_md": "Bodennebel als Ebene: Der Nebel liegt in Bändern im Talboden, Hügel und Baumgruppen ragen als Inseln heraus. Der Standort oberhalb des Nebels macht ihn zur Schicht, die Vorder-, Mittel- und Hintergrund trennt. Das warme Licht trifft den fernen Hügel und den Himmel, während die bewaldeten Hänge vorn noch im Schatten liegen – Rand der Tageszeit und Rand des Wetters zugleich.",
+     "look_for": [
+      "Nebelbänder als waagerechte Trenner zwischen den Ebenen",
+      "Warmer Ferngrund, kühler, dunkler Vordergrund",
+      "Standpunkt über der Nebelschicht"
+     ]
+    },
+    {
+     "image_id": "idd43ebb5ff",
+     "caption_md": "Bedeckter Himmel und Überbelichtung als Methode [S763808]: Fluss, Sandbank und Himmel liegen in fast demselben hellen Ton, ein Horizont ist kaum auszumachen. Die winzige Figur auf der Sandbank und das blassrosa Boot sind die einzigen Akzente. Atmosphäre wirkt hier nicht als Drama, sondern als Entzug – sie löscht den Raum, bis Maßstab und Leere das Thema sind.",
+     "look_for": [
+      "Fehlender Horizont: Wasser und Himmel gehen ineinander über",
+      "Rosa Boot als einziger Farbpunkt",
+      "Keine Schatten, sehr enger Tonumfang"
+     ]
+    },
+    {
+     "image_id": "ia890f1a244",
+     "caption_md": "Licht unter dem Sturm: Ein fast schwarzvioletter Gewitterhimmel nimmt die obere Bildhälfte ein, darunter leuchtet das grüne Getreidefeld in Sonne. Die Tonordnung ist umgekehrt – der Himmel dunkler als die Erde –, wodurch die Zypressengruppe als Silhouette auf der hellen Hügelkuppe steht. Der Wind zeichnet die Halme im Vordergrund leicht unscharf; ein einzelner roter Mohn unten rechts setzt den Komplementärakzent zum Grün. Meine Einschätzung zugleich: Gruppe, Hügel und Sturmhimmel sind heute ein vielfach wiederholtes Toskana-Motiv – das Bild zeigt, wie stark diese Lichtsituation ist, und warum ihre Nachahmung zum Klischee wurde.",
+     "look_for": [
+      "Dunkler Himmel über heller Erde",
+      "Bewegungsunschärfe der Halme als Spur des Windes",
+      "Kleiner roter Akzent im Grün"
+     ]
+    },
+    {
+     "image_id": "i657187a7db",
+     "caption_md": "Monsunregen verkürzt die Tiefe: Schon die Baumreihe im Hintergrund ist nur noch als blasser Schattenriss zu sehen, der Himmel ist ein graues Feld. Vorn glänzt der nasse Boden, die Rinder und Schirme zeichnen sich klar ab. Der Regen ist hier nicht nur Wetter, sondern erzeugt Verhalten – geduckte Körper unter Schirmen, ein Mann im Schritt durch den Schlamm.",
+     "look_for": [
+      "Sehr kurze Tonwerttreppe: Hintergrund nach wenigen Metern verblasst",
+      "Nasse, spiegelnde Bodenflächen",
+      "Schirme und Körperhaltungen als Wetterzeichen"
+     ]
+    },
+    {
+     "image_id": "i2b5d89e520",
+     "caption_md": "Schnee als Weglassen: Das Schneefeld nimmt den größten Teil des Bildes ein und ist, wie Kenna selbst schreibt, von Grau zu Weiß schattiert; dahinter erscheint der Berg wie schwebend am Horizont [S917495]. Der dunkle Himmel und die kleine Baumgruppe am rechten Rand halten die Fläche zusammen. Atmosphäre und Jahreszeit erzeugen hier die Reduktion, nicht der Bildausschnitt allein.",
+     "look_for": [
+      "Schneefläche ist nicht reinweiß, sondern abgestuft",
+      "Berg als helle Form zwischen dunklem Himmel und hellem Feld",
+      "Bäume am Rand als einziger Maßstab"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Luft baut Raum: Mit der Entfernung nehmen Kontrast und Sättigung ab – jede ferne Ebene liegt eine Tonstufe heller.",
+    "Luftperspektive sieht man am stärksten im Gegenlicht und mit längerer Brennweite.",
+    "Nebel und Schnee sind Werkzeuge des Weglassens; die guten Bilder entstehen an ihrem Rand, wo Formen auftauchen oder verschwinden.",
+    "Die stärksten Lichtsituationen liegen im Übergang zwischen Wetterlagen – Vorwegnahme schlägt bloßes Warten.",
+    "Bedeckter Himmel ist kein Ausfall, sondern ein anderer Bildtyp: weicher Tonumfang, satte Mitteltöne, Himmel als leere Fläche.",
+    "Wetter muss etwas über den Ort sagen – sonst ist es Effekt."
+   ],
+   "exercises": [
+    "Tonwerttreppe: An einem dunstigen Tag mit Hügeln, Karstkegeln oder Terrassen gegen das Licht fotografieren, mit langer Brennweite. Danach am Bild zählen, wie viele klar unterscheidbare Helligkeitsstufen es gibt, und denselben Ausschnitt mit der Sonne im Rücken vergleichen.",
+    "Nebel planen: Am Vorabend Taupunkt, Wind und Bewölkung prüfen; bei Nebelchance einen Standort oberhalb eines Tals wählen und die halbe Stunde vor bis eine Stunde nach Sonnenaufgang durchfotografieren. Ziel: ein Bild, in dem der Nebel als Ebene trennt, und eins, in dem eine Form gerade aus ihm auftaucht.",
+    "Wetterwechsel abpassen: Bei aufziehendem oder abziehendem Schauer einen Ausschnitt mit einem klaren Hauptmotiv festlegen und warten, bis ein Lichtfleck darauf fällt, während der Himmel dahinter dunkel bleibt.",
+    "Ein Ort, zwei Wetter: Ein Motiv der Reise bei Sonne und bei bedecktem Himmel oder Regen aufnehmen, beide Bilder nebeneinanderlegen und in zwei Sätzen festhalten, was sich an Raum, Farbe und Aussage ändert."
+   ],
+   "quiz": [
+    {
+     "question": "Warum erscheinen ferne Bergrücken in einer Landschaft heller und kontrastärmer als nahe?",
+     "image_id": null,
+     "options": [
+      "Weil Partikel und Feuchtigkeit in der Luft Licht streuen und sich dieses Streulicht mit der Entfernung zunehmend über das Motiv legt",
+      "Weil der Sensor ferne Objekte mit geringerer Auflösung aufzeichnet",
+      "Weil das Objektiv zum Bildrand hin vignettiert",
+      "Weil die Schärfentiefe des Objektivs zum Hintergrund hin abnimmt"
+     ],
+     "correct": 0,
+     "explanation": "Die Luftperspektive ist ein Effekt der Atmosphäre, nicht der Optik: Mit jedem Kilometer Luft kommt mehr Streulicht hinzu, Schwarz wird grau, Farben verblassen. Unschärfe oder Vignettierung erzeugen keine gleichmäßige Aufhellung der Ferne."
+    },
+    {
+     "question": "Was löst in diesem Bild die Grenze zwischen Meer und Himmel fast auf?",
+     "image_id": "i1cebb88136",
+     "options": [
+      "Hartes Gegenlicht, das den Horizont überstrahlt",
+      "Ein starker Verlaufsfilter, der den Himmel abdunkelt",
+      "Dunst über dem Wasser, der Meer und Himmel in sehr ähnliche Grautöne bringt",
+      "Ein bewusst unscharf gestellter Fokus"
+     ],
+     "correct": 2,
+     "explanation": "Der Horizont ist nicht unscharf und nicht überstrahlt, sondern im Ton angeglichen: Der Dunst hebt die Wasserfläche zum Horizont hin an und senkt den Unterschied zum Himmel. Die Wasseroberfläche im Vordergrund ist dagegen klar gezeichnet."
+    },
+    {
+     "question": "Joe Cornish spricht vom „Rand des Wetters“. Welche Situation entspricht dem am besten?",
+     "image_id": null,
+     "options": [
+      "Ein wolkenloser Tag mit stabilem Hochdruck und klarer Fernsicht",
+      "Ein ganzer Tag gleichmäßig grauer Hochnebel",
+      "Ein Schauer zieht ab, die Sonne bricht durch und beleuchtet die Landschaft vor noch dunklem Himmel",
+      "Die Mittagssonne im Hochsommer bei geringer Luftfeuchte"
+     ],
+     "correct": 2,
+     "explanation": "Cornish meint den Übergang von einer Wetterlage in die andere [S410584]. Dort treffen zwei Lichtsorten aufeinander – etwa beleuchtete Erde vor dunklem Himmel. Stabile Wetterlagen bieten kein solches Spannungsmoment."
+    },
+    {
+     "question": "Was ist in diesem Bild das eigentliche Motiv?",
+     "image_id": "i7320f4846b",
+     "options": [
+      "Der kleine dunkle Gegenstand in der Bildmitte",
+      "Die Bergkette am linken Bildrand",
+      "Die Nebel- oder Wolkenwand, die über die flache Ebene heranrückt und den Horizont verschluckt",
+      "Die Textur des Bodens im Vordergrund"
+     ],
+     "correct": 2,
+     "explanation": "Der Gegenstand in der Mitte ist nur Maßstab; der Boden ist neutraler Grund. Das Bild handelt vom Wetter selbst – im Sinne des Aperture-Textes, wonach das Sujet ein Nebel sein kann, der einen Berg frisst [S969423]."
+    },
+    {
+     "question": "Warum wirkt der Dunst in diesem Straßenbild so hell und dicht?",
+     "image_id": "i3480af4337",
+     "options": [
+      "Weil die Häuserfassaden das Licht als Spiegel zurückwerfen",
+      "Weil die Straße frontal von der Sonne im Rücken des Fotografen beleuchtet ist",
+      "Weil die Aufnahme bei Nacht mit Kunstlicht entstand",
+      "Weil das Licht von vorn, gegen die Kamera, kommt und der Dunst es zur Kamera hin streut"
+     ],
+     "correct": 3,
+     "explanation": "Die langen Schatten laufen auf die Kamera zu – die Sonne steht also vor dem Fotografen. Im Gegenlicht leuchtet Dunst auf und trennt die hinteren Ebenen; mit der Sonne im Rücken wäre er kaum sichtbar."
+    },
+    {
+     "question": "Du belichtest eine sonnige Schneelandschaft mit der Mehrfeld-Automatik und das Ergebnis ist grau. Was ist die Ursache, und was hilft?",
+     "image_id": null,
+     "options": [
+      "Die Blende ist zu weit offen – auf f/16 abblenden",
+      "Der Schnee reflektiert UV-Licht – ein UV-Filter behebt das",
+      "Die Messung behandelt die helle Fläche als Mittelton und belichtet zu knapp – Belichtung bewusst erhöhen, ohne die Lichter zu verlieren",
+      "Der Weißabgleich ist falsch – auf Kunstlicht umstellen"
+     ],
+     "correct": 2,
+     "explanation": "Belichtungsmesser zielen auf einen mittleren Ton; eine überwiegend weiße Szene wird deshalb zu dunkel. Das Problem ist seit den Anfängen bekannt – Bourne beschrieb, dass Schnee nur bei guter Beleuchtung „rein“ herauskommt [S917751]."
+    }
+   ]
+  },
+  {
+   "dimension": "color",
+   "order": 8,
+   "title": "Farbe und Ton",
+   "sources": [
+    {
+     "url": "https://www.albersfoundation.org/alberses/teaching/interaction-of-color",
+     "title": "The Josef & Anni Albers Foundation: Interaction of Color",
+     "excerpt": "In visual perception a color is almost never seen as it really is—as it physically is. This fact makes color the most relative medium in art. In order to use color effectively it is necessary to recognize that color deceives continually."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Johannes_Itten",
+     "title": "Wikipedia: Johannes Itten (Notlösung, zitiert eine Fachquelle)",
+     "excerpt": "Itten theorized seven types of color contrast and devised exercises to teach them. His color contrasts include[d] (1) contrast by hue, (2) contrast by value, (3) contrast by temperature, (4) contrast by complements (neutralization), (5) simultaneous contrast (from Chevreul), (6) contrast by saturation (mixtures with gray), and (7) contrast by extension (from Goethe)."
+    }
+   ],
+   "intro_md": "Farbe und Ton sind die Ebene, auf der ein Bild zuerst wirkt – noch bevor man erkennt, was es zeigt. Farbe kann Gegenstand sein (ein rotes Ding, ein Himmelblau), Beziehung (Komplementärkontrast, gedämpfte Harmonie, ein einzelner Akzent) und Information über Licht, Ort und Zeit. Ton – die Verteilung von Hell und Dunkel – trägt das Bild auch dann, wenn die Farbe fehlt, und entscheidet über Raum, Gewicht und Stimmung. Die Lektion verfolgt, wie Farbe in der Kunstfotografie vom Werbe-Verdacht zum eigentlichen Thema wurde, wie Farbbeziehungen funktionieren, warum Sättigung eine Entscheidung ist, wie man in Grauwerten denkt und was das Zonensystem als Denkfigur bedeutet: den Ton vor der Aufnahme festzulegen.",
+   "sections": [
+    {
+     "heading": "Vom Verdacht zum Gegenstand: Farbe in der Kunstfotografie",
+     "body_md": "Lange galt in der Kunstfotografie Schwarzweiß als Norm. Ein Text bei David Zwirner hält fest, dass Eggleston lebhafte Bilder banaler Szenen machte, als nur Schwarzweißfotografien als Kunst galten und Farbe vor allem der Werbung vorbehalten war [S968782]. Walker Evans erklärte 1969, Farbfotografie sei „vulgär“, und revidierte das später [S199720].\n\nDie Wende wird mit einer bestimmten Haltung verbunden. Szarkowski sah Egglestons Beitrag darin, Farbe als festen Teil des Motivs zu sehen: nicht als gesondertes Problem, sondern als ob die Welt selbst in Farbe existiere, als ob das Blau und der Himmel eins seien [S258801]. Eggleston selbst sagte, er habe vieles in Farbe sehen wollen, weil die Welt farbig sei [S241946]; Ghirri begründete seine Farbwahl laut James Lingwood fast wortgleich [S373067]. Shore zog die Farbfotografie an, weil sie Umfang und Intensität der Farbtöne der Wirklichkeit aufzeichnen kann [S568202]; das Art Institute of Chicago zählt ihn zu einer Generation, die Farbe antikommerziell einsetzte [S333133].\n\nMeyerowitz formulierte, was Farbe inhaltlich leistet: Mit Farbe könnten subtilere Dinge zum Gegenstand werden – das Gewicht der Atmosphäre, die Temperatur eines Tages, die Beschaffenheit einer Haut –, die sich in Schwarzweiß nicht zeigen [S132895]. Für Reisefotografie ist das der Kern: Farbe ist nicht Dekor, sondern trägt Auskunft über Klima, Material, Licht und Kultur eines Ortes."
+    },
+    {
+     "heading": "Farbe ist relativ: Beziehungen statt Einzelfarben",
+     "body_md": "Josef Albers stellte an den Anfang von „Interaction of Color“, dass eine Farbe in der Wahrnehmung fast nie so gesehen werde, wie sie physikalisch ist; das mache Farbe zum relativsten Medium der Kunst, und wer sie wirksam einsetzen wolle, müsse erkennen, dass Farbe ständig täuscht [Q1]. Für die Fotografie folgt daraus: Man komponiert nicht mit Farben, sondern mit **Farbbeziehungen**. Ein brauchbares Raster dafür stammt aus dem Bauhaus-Unterricht: Johannes Itten unterschied sieben Farbkontraste – Farbton, Hell-Dunkel, Kalt-Warm, Komplementär, Simultan, Qualität (Sättigung) und Quantität (Ausdehnung) [Q2].\n\nFür Fotografen am wichtigsten: **Komplementärkontrast** (Rot–Grün, Blau–Orange, Gelb–Violett) steigert beide Partner und erzeugt Spannung. **Warm–kalt** baut zusätzlich Raum, weil warme Töne eher nach vorn, kühle eher zurück zu treten scheinen – dieselbe Tendenz, die die Luftperspektive mit bläulicher Ferne liefert. **Analoge Paletten** (benachbarte Töne wie Ocker, Orange, Rosa) wirken geschlossen und ruhig. Und der **Quantitätskontrast**: Farben haben unterschiedliches Gewicht pro Fläche – ein kleines gesättigtes Rot hält einer großen grünen oder graublauen Fläche die Waage. Daraus folgt der **Akzent**: Ein kleines gesättigtes Feld in einer entsättigten Umgebung trägt ein Vielfaches seines Flächenanteils.\n\nSzarkowski beschrieb diese Gewichtsverschiebung präzise: Auf Monochrom reduziert wären Egglestons Kompositionen fast statisch; in Farbe aber habe der Keil einer violetten Krawatte oder die rote Scheibe der Ampel vor dem Himmel ein anderes kompositorisches Drehmoment als ihr panchromatisches Grau – und eine andere Bedeutung [S594725]. Farbe ist also nicht nur Stimmung, sondern Gewicht im Bildgefüge. Ein roter Punkt am Rand kann ein Bild aus dem Gleichgewicht bringen, das in Schwarzweiß ausbalanciert wäre."
+    },
+    {
+     "heading": "Palette: Akzent, Klang und Zurückhaltung",
+     "body_md": "Fotografen entwickeln über ihre Werke erkennbare Paletten – meist nicht durch Eingriff, sondern durch die Wahl von Ort, Licht und Ausschnitt. Alex Webb schreibt, ihm sei nach Haiti klar geworden, dass die intensive, lebhafte Farbe dieser Welten eine eigene emotionale Note sei, ganz anders als die „grau-braune Zurückhaltung“ seiner Herkunft aus Neuengland [S646229]; Magnum beschreibt seine Palette als gesättigte Töne in hellem Sonnenlicht, durchschnitten von dunklen Schatten [S887414]. Bei Gruyaert betont ein Magnum-Text die Harmonie zwischen Formen, Farben, Natur und alltäglichen Gesten in Marokko [S223826].\n\nDas Gegenmodell ist die gedämpfte Palette. Das Art Institute of Chicago schreibt über ein Shore-Bild, die Aufmerksamkeit für Zeichen, Architektur und Muster und die gedämpfte Farbpalette machten das Alltägliche bedeutsam [S473531]; bei Zhang Kechun beschreibt eine Kritik sandige Gelbtöne, graue Himmel und blasse Grüntöne [S852998]. Martin Parr wiederum ist laut Kyotographie für „grelle Farben“ bekannt [S228623] – Farbe als Ironie.\n\nFür die eigene Arbeit heißt das: Vor dem Auslösen die Palette des Ortes benennen (zwei, drei Haupttöne) und entscheiden, ob ein Akzent das Bild tragen soll oder ob die Harmonie selbst das Thema ist. Ein Akzent funktioniert nur, wenn er allein steht; zwei konkurrierende rote Punkte teilen die Aufmerksamkeit."
+    },
+    {
+     "heading": "Sättigung und Lichtfarbe",
+     "body_md": "Sättigung hängt am Licht. Harte Sonne erzeugt Glanzlichter, die Oberflächen aufhellen und Farbe überstrahlen; diffuses Licht, Nässe und Schatten lassen Pigmentfarben satter erscheinen. Tageszeit verschiebt die Lichtfarbe: warm am Rand des Tages, kühl im Schatten und in der blauen Stunde. Mischlicht (Tageslicht und Kunstlicht) erzeugt Farbkontraste, die das Auge vor Ort ausgleicht, die Kamera aber zeigt.\n\nSättigung ist außerdem eine Entscheidung im Material und in der Verarbeitung. Das Getty beschreibt, dass Eliot Porter jahrzehntelang gegen den Vorwurf kämpfte, Farbe sei für Künstler „zu wörtlich“, und den Farbprozess für ausdrucksstarke Abzüge nutzte, indem er Brillanz, Kontrast oder Sättigung in den Diapositiven leicht anhob [S524693]. Charlie Waite fotografierte laut Amateur Photographer auf Fujichrome Velvia [S769707]; für Joel Sternfeld war die Dichte des Kodachrome-Diafilms untrennbar mit seinem Werk verbunden [S963845]. Christopher Burketts Tonbalance beruht laut einem Porträt auf Kontrastmasken, bei denen ein Schwarzweißnegativ passgenau mit dem Farbdia kombiniert wird [S798941].\n\nHeute ersetzt die Raw-Entwicklung den Film. Die Frage bleibt dieselbe: Steigere ich, was da war, oder erfinde ich eine Farbe, die der Ort nicht hatte? Übersättigung ist der häufigste Fehler zeitgenössischer Landschaftsbilder – sie nivelliert die Unterschiede, auf denen Farbbeziehungen beruhen."
+    },
+    {
+     "heading": "In Grauwerten denken",
+     "body_md": "Schwarzweiß ist kein entfärbtes Farbbild, sondern ein eigener Bildtyp. Farbunterschiede verschwinden, wenn die Helligkeit gleich ist: Ein rotes Tuch auf grüner Wiese kann in Grau zu einer einzigen Fläche verschmelzen. Wer schwarzweiß denkt, fragt daher nicht „welche Farbe?“, sondern „wie hell?“ – und verteilt Gewicht über Ton, Form und Textur.\n\nFotografen begründen die Wahl unterschiedlich. Fan Ho sagte, Farben passten nicht in seine Welt, Schwarzweiß gebe ihm Distanz [S315026]. Kenna nennt die fehlende Farbe im Hokkaido-Winter einen Teil der Reduktion, die konzentrierteres Sehen verlange [S508588]. Über Ansel Adams heißt es auf anseladams.com, seine Schwarzweißbilder seien keine „realistischen“ Dokumente gewesen, sondern hätten eine Steigerung und Läuterung des Naturerlebnisses gesucht [S409710]. Über Sugimotos „Seascapes“ schreibt die Galerie Koyanagi von einem außerordentlichen Reichtum an Tonabstufungen auf reduziertester Komposition [S125293]; bei Awoiska van der Molen hebt Huis Marseille die vielen Schattierungen von Schwarz, Grau und Weiß hervor [S101250].\n\n**Schwarzweiß als Entscheidung** heißt: nicht nachträglich umwandeln, weil das Farbbild nicht funktioniert, sondern vorher fragen, ob die Farbe Information trägt (Klima, Kultur, Licht – Webbs Grund für den Wechsel zur Farbe [S346654]) oder ablenkt (bunte Werbung, Mischlicht, Kleidung, die mit dem Thema nichts zu tun hat). Tonumfang ist dabei eine Wahl, keine Norm. Ein voller Umfang von Tiefschwarz bis Papierweiß wirkt kräftig und plastisch; ein enger, heller Umfang (High Key) wirkt still und entrückt; ein enger, dunkler (Low Key) schwer und verdichtet. Entscheidend ist, wo die wichtigsten Töne liegen: das Gesicht, der Fluss, der Gipfel."
+    },
+    {
+     "heading": "Das Zonensystem als Denkfigur",
+     "body_md": "Laut der Seite anseladams.com entwickelte Adams das „Zone System“, ein System zur Steuerung und Abstimmung von Belichtung und Entwicklung, das es Fotografen ermöglicht, ein Bild vorab zu visualisieren und eine Fotografie zu erzeugen, die dieser Vorstellung entspricht; zusammen mit Abwedeln und Nachbelichten diene es dazu, die Tonalität zu „manipulieren“ und zu gestalten statt nur aufzuzeichnen [S998029].\n\nFür die Praxis ist weniger die Technik des Films wichtig als die Denkfigur: **Vor dem Auslösen festlegen, wo ein Schlüsselton im fertigen Bild liegen soll** – der Schnee knapp unter Weiß mit Zeichnung, der Waldrand dunkel, aber nicht abgesoffen, die Haut im mittleren Bereich – und Belichtung wie Entwicklung danach ausrichten. Digital entspricht das dem Belichten auf die Lichter (Histogramm und Überbelichtungswarnung) und einer Raw-Entwicklung, die die Töne gezielt an ihren Platz schiebt, statt einen Automatikregler zu benutzen.\n\nDiese Denkfigur gilt auch in Farbe. Ein Farbbild hat ebenfalls eine Tonarchitektur; wer sie nicht kontrolliert, bekommt flache oder ausgefressene Bilder, wie stimmig die Farben auch sein mögen. Eine gute Übung ist deshalb, jedes Farbbild zur Kontrolle einmal in Graustufen anzusehen: Trägt es dann noch? Liegt der Akzent, der in Farbe leuchtet, auch tonal an der richtigen Stelle – oder lebt das Bild allein vom Farbton?"
+    },
+    {
+     "heading": "Bildschirm und Druck, Klischee und Gegenlesart",
+     "body_md": "**Bildschirm und Druck.** Ein Display leuchtet selbst, ein Abzug wirft nur Licht zurück. Deshalb wirken Bilder am Bildschirm heller, kontrastreicher und oft gesättigter als auf Papier; tiefe Schatten, die am Monitor noch Zeichnung haben, laufen im Druck zu, und sehr gesättigte Farben liegen teils außerhalb dessen, was Papier und Tinte wiedergeben können. Wer für Druck arbeitet, entwickelt an einem kalibrierten, nicht zu hellen Monitor und prüft per Softproof. Umgekehrt gilt für diese App: Ob Shores gedämpfte Palette in Kalispell Absicht ist [S473531] oder auch vom Altern des Farbabzugs und der Reproduktion herrührt, lässt sich an einer Bildschirmkopie nicht entscheiden – das ist eine echte Gegenlesart, kein Detail.\n\n**Klischee.** Das typische Farbklischee heutiger Reisebilder ist der überall gleich angehobene Sonnenuntergang, die Orange-Türkis-Gradierung, das in der Sättigung hochgezogene Grün. Es zerstört genau die Beziehungen, von denen dieses Kapitel handelt, weil alles gleich laut wird. Ghirri gilt als Fotograf, der die Klischees der Landschaftsfotografie unterlief [S376489] – bei ihm trägt eine einzige blasse Fläche oder ein roter Schirm mehr als jeder glühende Himmel.\n\n**Gegenlesart.** Parrs „grelle Farben“ [S228623] kann man als Geschmacklosigkeit lesen – oder als präzise Wahl: Laut Kyotographie verbirgt sich seine Kritik am Tourismus hinter fröhlichen Farben und humorvollen Szenen [S312650]. Farbe ist dann nicht Schmuck, sondern Ironie."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "i652928a239",
+     "caption_md": "Farbe als das eigentliche Motiv: Ein Zweig mit jungem, gelbgrünem Laub ragt von oben rechts diagonal ins Bild, dahinter nur ein kühlgrauer, bewölkter Himmel. Inhaltlich passiert fast nichts; das Bild lebt vom Zusammenklang des warmen Frühlingsgrüns mit dem kalten Grau – genau das, was Szarkowski meinte, als er Farbe als festen Teil des Gegenstands beschrieb [S258801].",
+     "look_for": [
+      "Gelbgrün gegen Kühlgrau: warm–kalt-Kontrast",
+      "Diagonale des Zweigs als einzige Struktur",
+      "Kein Ereignis – die Farbe ist das Ereignis"
+     ]
+    },
+    {
+     "image_id": "i43ffe1086c",
+     "caption_md": "Gedämpfte Palette als Haltung [S473531]: Cremefarbener Beton, verblichene Fassaden, ein grau-violetter Wolkenhimmel und tief stehendes, leicht warmes Gegenlicht. Kein Ton dominiert, Rot taucht nur in kleinen Schriftzügen und Ampeln auf. Die zurückhaltende Farbe verhindert, dass die Straßenecke zum Postkartenmotiv wird, und lenkt die Aufmerksamkeit auf Zeichen, Schatten und Strukturen des Pflasters.",
+     "look_for": [
+      "Enger Farbumfang in Creme, Ocker, Grau",
+      "Lange Schatten der Parkuhren und Masten",
+      "Rote Schriftzüge und Ampeln als einzige gesättigte Stellen"
+     ]
+    },
+    {
+     "image_id": "i04ec2f8b0c",
+     "caption_md": "Akzent in reiner Form: Der zusammengebundene rote Sonnenschirm ist die einzige gesättigte Farbe im Bild; Sand, Meer und grau-violetter Himmel sind blass. Er steht groß im Vordergrund, die Badenden sind winzige Figuren am Wasser. Würde man das Bild in Grau umsetzen, verlöre der Schirm einen Großteil seines Gewichts – sein „Drehmoment“ kommt aus der Farbe.",
+     "look_for": [
+      "Ein einziges Rot gegen Beige und Graublau",
+      "Größenkontrast: Schirm vorn, Menschen klein hinten",
+      "Schatten des Schirms als dunkle Gegenform im Sand"
+     ]
+    },
+    {
+     "image_id": "i83bea30e0f",
+     "caption_md": "Analoge, warme Palette: Eine ockerorangefarbene Wand füllt den Hintergrund, davor vier Jungen in rosa Hemden und dunklen Hosen. Rosa und Ocker liegen im Farbkreis nah beieinander und verschmelzen zu einem geschlossenen Klang; die dunklen Hosen, der Tisch und die Schatten bilden das tonale Gerüst unten. Dazu kommt die Varianz der Gesten – verschränkte Arme, eine Hand vor dem Gesicht.",
+     "look_for": [
+      "Ocker und Rosa als benachbarte Töne",
+      "Dunkles Band am unteren Bildrand trägt die Komposition",
+      "Wiederholung der Hemdfarbe in vier Figuren"
+     ]
+    },
+    {
+     "image_id": "i551eb9e87c",
+     "caption_md": "Kalte Farbfläche, dunkle Masse: Weiß und Hellblau gekalkte Wände rahmen eine Gasse, durch die eine Person ein riesiges schwarzes Reisigbündel trägt. Das tiefe Dunkel des Bündels steht in maximalem Tonkontrast zum kühlen Blau, der warme, ockerfarbene Pflasterboden ist der Gegenpol zur Wandfarbe. Farbe und Tonwert arbeiten hier zusammen: Das Bündel wäre auch in Schwarzweiß das Zentrum, das Blau bestimmt die Temperatur des Ortes.",
+     "look_for": [
+      "Schwarzes Bündel gegen hellblaue Wände",
+      "Warmer Boden als Gegenfarbe",
+      "Die Figur ist fast vollständig verdeckt – die Form zählt"
+     ]
+    },
+    {
+     "image_id": "ie8b47098fa",
+     "caption_md": "Denken in Grauwerten: Der Fluss ist als hellste S-Kurve gesetzt, die Waldflächen sind tiefdunkel, die Schneegipfel und Wolkenränder hell, der Himmel dazwischen in vielen Grautönen. Ein Bericht spricht vom „Spektrum“ der Grautöne, das dem Bild seine kräftige Wirkung gibt [S236552]. Hier ist zu sehen, was „Ton vorab festlegen“ heißt: Jede Bildzone hat ihren eigenen Helligkeitsbereich.",
+     "look_for": [
+      "Fluss als hellstes Element führt durch das Bild",
+      "Voller Tonumfang vom fast schwarzen Wald bis zum Weiß des Schnees",
+      "Dunkle Wolken oben rahmen die hellen Gipfel"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Farbe ist Inhalt: Sie trägt Auskunft über Licht, Klima, Material und Kultur eines Ortes.",
+    "Man komponiert mit Farbbeziehungen, nicht mit Einzelfarben – Farbe ist relativ.",
+    "Ein kleiner gesättigter Akzent in gedämpfter Umgebung wiegt mehr als eine große bunte Fläche.",
+    "Sättigung ist eine Entscheidung von Licht, Material und Entwicklung; Übersättigung zerstört die Beziehungen.",
+    "In Schwarzweiß zählt nur Helligkeit: Farbunterschiede gleicher Helligkeit verschwinden.",
+    "Zonensystem als Denkfigur: Vor dem Auslösen festlegen, wo der Schlüsselton liegen soll."
+   ],
+   "exercises": [
+    "Palette benennen: An jedem Reisetag einen Ort mit drei Wörtern für seine Hauptfarben beschreiben, bevor die Kamera herauskommt. Dann ein Bild machen, das genau diese Palette zeigt, und eines, das einen einzigen Fremdakzent darin isoliert.",
+    "Ein-Akzent-Serie: 30 Minuten lang nur Bilder machen, in denen genau eine gesättigte Farbe vorkommt und alles andere gedämpft ist. Abends prüfen, wo der Akzent im Bild liegt und ob er zu groß oder zu klein ist.",
+    "Graustufen-Test: Fünf eigene Farbbilder des Tages in Graustufen ansehen. Notieren, welche weiter tragen und welche zerfallen, und begründen, ob das an Ton oder Farbe liegt.",
+    "Tonplanung: Vor einer Aufnahme mit großem Kontrast (Schnee, Gegenlicht, weiße Fassade im Schatten) aufschreiben, wo die hellste Stelle mit Zeichnung und wo die dunkelste Stelle mit Zeichnung liegen soll; danach belichten und am Histogramm kontrollieren."
+   ],
+   "quiz": [
+    {
+     "question": "Was meinte Szarkowski, als er Egglestons Farbe als „integral part of the subject“ beschrieb?",
+     "image_id": null,
+     "options": [
+      "Farbe wird nicht als separates Gestaltungsproblem behandelt, sondern als Eigenschaft der Welt selbst – als wären das Blau und der Himmel eins",
+      "Eggleston habe Farben im Labor besonders stark gesättigt",
+      "Eggleston habe vor allem bunte Gegenstände ausgewählt",
+      "Farbe solle in der Fotografie wie in der Werbung eingesetzt werden"
+     ],
+     "correct": 0,
+     "explanation": "Szarkowski stellt die Arbeit „as though the world itself existed in color“ dem älteren Denken gegenüber, das Farbe als isoliert zu lösendes Problem behandelte [S258801]. Es geht um eine Sichtweise, nicht um Sättigung oder Motivauswahl."
+    },
+    {
+     "question": "Welche Farbbeziehung trägt dieses Porträt vor allem?",
+     "image_id": "i7420e4bdb4",
+     "options": [
+      "Ein Schwarz-Weiß-Kontrast zwischen Zaun und Haus",
+      "Warm–kalt-Kontrast zwischen Himmel und Erde",
+      "Analoge Palette aus benachbarten Grüntönen",
+      "Komplementärkontrast: das pinkfarbene Oberteil vor der leuchtend grünen Wasserfläche"
+     ],
+     "correct": 3,
+     "explanation": "Pink und Grün liegen sich im Farbkreis nahezu gegenüber und steigern sich gegenseitig; das Mädchen tritt dadurch aus der großen grünen Fläche heraus. Der weiße Zaun ist ein tonaler Rhythmus, aber nicht die tragende Farbbeziehung."
+    },
+    {
+     "question": "Warum kann der kleine rote Schirm die große Fläche aus Sand, Meer und Himmel aufwiegen?",
+     "image_id": "i04ec2f8b0c",
+     "options": [
+      "Weil er scharf ist und der Hintergrund unscharf",
+      "Quantitätskontrast: Ein kleines, stark gesättigtes Rot trägt gegen große, blasse Flächen ein Vielfaches seines Flächenanteils",
+      "Weil er genau im Goldenen Schnitt steht",
+      "Weil er die hellste Stelle im Bild ist"
+     ],
+     "correct": 1,
+     "explanation": "Itten zählt den Kontrast der Ausdehnung (Quantität) zu den sieben Farbkontrasten [Q2]. Der Schirm ist weder die hellste Stelle noch durch Schärfe getrennt – sein Gewicht kommt aus der Sättigung gegen die blasse Umgebung."
+    },
+    {
+     "question": "Ein rotes Tuch liegt auf einer grünen Wiese, beide Flächen sind etwa gleich hell. Was passiert bei der Umsetzung in Schwarzweiß ohne Filter oder Kanalmischung?",
+     "image_id": null,
+     "options": [
+      "Tuch und Wiese verschmelzen zu einem ähnlichen Grau; der Kontrast, der das Bild trug, verschwindet",
+      "Das Tuch wird automatisch schwarz, die Wiese weiß",
+      "Nichts ändert sich, weil Schwarzweiß Farben als Grauwerte bewahrt",
+      "Das Tuch wird heller, weil Rot mehr Energie hat"
+     ],
+     "correct": 0,
+     "explanation": "Schwarzweiß kennt nur Helligkeit. Gleich helle, aber farblich gegensätzliche Flächen werden zu fast demselben Grau – darum muss man in Schwarzweiß in Tonwerten statt in Farbtönen denken."
+    },
+    {
+     "question": "Was ist der Kern des Zonensystems als Denkfigur, unabhängig von Film oder Sensor?",
+     "image_id": null,
+     "options": [
+      "Jedes Bild in genau zehn gleich große Helligkeitsflächen aufteilen",
+      "Immer so belichten, dass das Histogramm mittig liegt",
+      "Nur bei bedecktem Himmel fotografieren, um den Kontrast zu begrenzen",
+      "Vor der Aufnahme festlegen, wo wichtige Töne im fertigen Bild liegen sollen, und Belichtung und Entwicklung danach ausrichten"
+     ],
+     "correct": 3,
+     "explanation": "Laut anseladams.com dient das System dazu, Belichtung und Entwicklung zu steuern, ein Bild vorab zu visualisieren und die Tonalität zu gestalten statt nur aufzuzeichnen [S998029]."
+    },
+    {
+     "question": "Womit hat Eliot Porter laut dem Getty dem Vorwurf begegnet, Farbe sei „zu wörtlich“?",
+     "image_id": "i6523aea7ce",
+     "options": [
+      "Er kolorierte Schwarzweißabzüge von Hand",
+      "Er verzichtete auf Details und zeigte nur weite Panoramen",
+      "Er fotografierte ausschließlich bei Mittagslicht",
+      "Er hob Brillanz, Kontrast oder Sättigung in den Diapositiven leicht an, um ausdrucksstarke Abzüge zu erhalten"
+     ],
+     "correct": 3,
+     "explanation": "Das Getty beschreibt genau diese behutsame Steigerung im Material [S524693]. Am Wasserfall sieht man das Ergebnis: rostrote Felswand, grüne Moospolster, weißes Wasser in deutlich gesteigerten, aber nicht grellen Tönen."
+    }
+   ]
+  },
+  {
+   "dimension": "moment",
+   "order": 9,
+   "title": "Moment",
+   "sources": [],
+   "intro_md": "Jedes Bild ist eine Wahl aus einem Strom von Momenten. Der Moment ist deshalb keine Spezialität der Straßenfotografie, sondern eine Dimension jedes Bildes: Wann fallen Licht, Figur, Geste und Form so zusammen, dass das Bild hält? Die Lektion klärt, was Cartier-Bressons „entscheidender Augenblick“ genau meint und warum Szarkowski ihn formal und nicht dramatisch las; sie zeigt, wie Profis warten, vorwegnehmen und eine Situation durcharbeiten, was Geste und Konstellation leisten, wo die Grenze zwischen Finden und Arrangieren liegt, und stellt mit der „schwachen Zeit“ (temps faible) das Gegenmodell zum Höhepunkt vor. Wie viel Zeit ein Bild enthält – Verschlusszeit, Langzeitbelichtung, Bewegungsunschärfe – behandelt die eigene Lektion „Zeit und Bewegung“.",
+   "sections": [
+    {
+     "heading": "Der entscheidende Augenblick – genau gelesen",
+     "body_md": "Cartier-Bresson beschrieb Fotografie als das gleichzeitige Erkennen, im Bruchteil einer Sekunde, der Bedeutung eines Ereignisses und einer präzisen Organisation der Formen, die diesem Ereignis seinen Ausdruck geben [S656456]. Das Motto seines Buchs „Images à la sauvette“ stammt vom Kardinal de Retz: Es gebe nichts auf der Welt, das nicht seinen entscheidenden Augenblick habe [S255454].\n\nSzarkowski präzisierte 1964, was „entscheidend“ heißt: nicht wegen des äußeren Ereignisses, sondern weil in diesem Moment der Fluss wechselnder Formen und Muster Gleichgewicht, Klarheit und Ordnung erreichte – weil das Bild für einen Augenblick zum Bild wurde [S558393]. Ein Auktionstext fasst die Praxis so: Cartier-Bresson habe nicht geplant oder arrangiert, sondern ausgelöst, wenn sein Instinkt ihm sagte, die Szene sei im Gleichgewicht [S198322].\n\nDiese Lesart ist für Landschafts- und Reisefotografie entscheidend. Der Moment ist kein Nachrichtenereignis, sondern ein **formales Einrasten**: die Figur, die in die Lücke zwischen zwei Häusern tritt; der Vogel, der die leere Himmelsfläche besetzt; der Lichtfleck, der auf die Kirche fällt; die Welle, die den Felsen gerade umspült. Wer nur nach „etwas passiert“ sucht, verpasst die Mehrzahl dieser Momente – sie sind still, aber sie entscheiden, ob das Bild hält."
+    },
+    {
+     "heading": "Warten, vorwegnehmen, durcharbeiten",
+     "body_md": "Eine bewährte Methode ist **Bühne und Akteur**: erst den Rahmen bauen, dann warten, bis etwas hineinkommt. Das Nelson-Atkins Museum beschreibt, wie Cartier-Bresson in Hyères oben an einer gewundenen Treppe stand und auf Aktivität wartete, die sein Bild beleben würde; er löste aus, als ein Radfahrer vorbeifuhr, sodass die verwischte Form nicht vom Geländer verdeckt wurde [S662901]. M+ ordnet Fan Ho dieser Methode des Wartens auf den perfekten Moment zum Auslösen zu [S341861].\n\nAlex Webb beschreibt die Gegenstrategie des Gehens: Ein Straßenfotograf gehe, schaue, warte und rede, schaue und warte erneut – im Vertrauen, dass das Unerwartete hinter der nächsten Ecke liegt [S710267]. Steve McCurry sagt, wenn er eine Komposition erkenne, arbeite er sie aus und warte, solange es nötig sei; in Venedig habe er nachts im Nebel über eine Stunde gewartet [S157558]. Zugleich betont er, er sei kein besonders geduldiger Mensch: Man müsse zur richtigen Zeit ankommen, Timing sei alles [S939236]. Joe Cornish formuliert es für die Landschaft: Vorwegnahme statt stundenlangen Wartens [S833307].\n\nDrittens das **Durcharbeiten** einer Situation. Ein Sotheby’s-Text beschreibt, dass Robert Frank „Canal Street“ Augenblicke bevor er sich umdrehte und „Trolley“ fotografierte aufnahm – zwei herausragende Bilder auf demselben Streifen von nur fünf Aufnahmen [S150076]. Bei Winogrand fiel die Auswahl erst danach im Studio [S988238]. Wer reist, sollte also beides können: vor dem Moment stehen und ihn vorwegnehmen, und eine Szene in Varianten durchfotografieren, um später den einen Frame zu wählen."
+    },
+    {
+     "heading": "Geste und Konstellation",
+     "body_md": "Die kleinste Einheit des Moments ist die **Geste**: eine Hand, eine Kopfwendung, ein Schritt, eine Haltung unter dem Regenschirm. Magnum beschreibt Webbs Fähigkeit, Geste, Farbe und kulturelle Spannungen in einzelne Bilder zu verdichten [S433888]; bei Gruyaert ist von der Harmonie zwischen Formen, Farben, Natur und alltäglichen Gesten die Rede [S223826].\n\nDer Höhepunkt einer Bewegung ist nicht immer ihr stärkster Moment. Ein Kritiker beschreibt Cartier-Bressons Sprung über die Pfütze als den Augenblick, bevor die rechte Ferse die spiegelnde Wasserfläche berührt – einen Moment voller Möglichkeiten; im Hintergrund zeige ein Plakat eine Tänzerin, die in die Gegenrichtung springt [S553336]. Der Moment **vor** der Auflösung hält Spannung, der Moment danach erzählt nur noch Ergebnis.\n\nBei mehreren Figuren wird der Moment zur **Konstellation**. Über Stephen Shores Bild am Merced River heißt es, er habe genau in dem Augenblick belichtet, als eine Mutter ihr Kind beim Baden fotografiert und sechs Figuren im Vordergrund ein Dreieck entlang des Wassers bilden [S332121]. Typische Kriterien: Keine Figur überschneidet die andere; jede steht vor einem ruhigen Grund; Blickrichtungen und Gesten antworten einander; die Abstände sind ungleich, aber nicht zufällig. Gerade in der Landschaft mit kleinen Figuren entscheidet diese Verteilung, ob die Menschen Maßstab, Erzählung oder Störung sind."
+    },
+    {
+     "heading": "Temps faible: die schwache Zeit",
+     "body_md": "Die Fondation Henri Cartier-Bresson selbst hält fest, dass dem „entscheidenden Augenblick“ in den 1980er-Jahren die „schwache Zeit“ (temps faible) gegenübergestellt wurde, entwickelt von Alain Bergala in seinem Essay zu Raymond Depardons „Correspondance New-Yorkaise“; der Irrtum sei, den entscheidenden Augenblick als Norm zu verstehen, als gäbe es nur einen richtigen, geometrisch einrastenden Moment [S202770]. Bergala schrieb, Reporter könnten gerade dann zerstreut sein, wenn man sie ganz auf das Hier und Jetzt konzentriert glaubt [S421059]; Depardons „Correspondance“ habe seine Art begründet, die Welt in ihren „schwachen“ Zeiten zu zeigen [S135833].\n\nVerwandt ist Winogrands Haltung, keine vorab festgelegte Bedeutung zu übermitteln: Er fotografiere, um herauszufinden, wie etwas fotografiert aussieht [S988238]; Fotografie handle nicht vom fotografierten Ding, sondern davon, wie es fotografiert aussieht [S380876].\n\nFür Reisefotografie ist das eine wichtige Korrektur. Die Höhepunkte eines Ortes – Festumzug, Sonnenaufgang am Aussichtspunkt, das Boot im Gegenlicht – sind die meistfotografierten und damit die vorhersehbarsten Momente. Die Zwischenzeiten – Warten an der Haltestelle, der leere Platz nach dem Markt, der Mittag, an dem nichts geschieht – zeigen oft genauer, wie ein Ort lebt. Ein schwacher Moment ist aber kein beliebiger: Er braucht ebenso genaue Form, sonst bleibt nur Leere ohne Spannung."
+    },
+    {
+     "heading": "Der Augenblick im Zeitfluss",
+     "body_md": "Szarkowski widmete der Zeit einen eigenen Abschnitt „Time“. Laut einer MoMA-Pressemitteilung von 1966 schrieb er, es gebe eigentlich keine Momentaufnahme: Alle Fotografien seien Zeitbelichtungen von kürzerer oder längerer Dauer, jede beschreibe ein eigenes „Zeitpaket“, und diese Zeit sei immer die Gegenwart [S134943]. Für diese Lektion zählt der erste Teil des Gedankens: Jedes Bild ist ein Ausschnitt aus einem Ablauf, und der Fotograf wählt, **welcher** Ausschnitt es wird. (Wie lang er ist, behandelt „Zeit und Bewegung“.)\n\nIn der Landschaft verläuft dieser Ablauf langsamer, aber er verläuft. Hans Strands Website beschreibt seine Bilder als Ausdruck der Kräfte, die eine Landschaft formen; in einem statischen Rahmen erstarrt, erzählten sie dennoch von Bewegung, Zeit und Entwicklung [S673974]. Charlie Waites Website beschreibt jedes Bild seines Bandes „Stillness“ als einen Moment, in dem sich die Elemente im Rahmen in ihr eigenes Gleichgewicht fügten – eine Ruhe, gefunden durch Schauen, Komponieren und Warten [S358800]. Auch das ruhigste Landschaftsbild hat also seinen Augenblick: die Welle im Rückzug, der Schatten, der gerade die Kante erreicht, der Vogel in der Lücke, das letzte Licht auf dem Gipfel. Joe Cornish nennt die Aufklarungen am Himmel nach Schnee einen „aufregenden Moment“ [S583007]."
+    },
+    {
+     "heading": "Finden oder arrangieren – Klischee und Gegenlesart",
+     "body_md": "**Finden oder arrangieren.** Laut Phillips plante oder arrangierte Cartier-Bresson seine Bilder nicht [S198322]. Fan Hos „On the Stage of Life“ dagegen zeigt laut M+ seine Studienkollegen; er habe schon damals ein Talent für das Inszenieren dramatischer Szenen gezeigt [S419197]. Beides ist legitim, aber nicht dasselbe: Ein gefundener Moment behauptet, so sei es gewesen; ein arrangierter ist eine Konstruktion. Für Reisebilder gilt deshalb eine einfache Regel der Redlichkeit – wer eine Figur bittet, noch einmal durch das Tor zu gehen, sollte das Bild nicht als gefundenen Augenblick ausgeben.\n\n**Klischee.** Der Moment-Klischee schlechthin ist der vorgegebene Höhepunkt: die Hand, die den Schiefen Turm „stützt“, der Sprung vor dem Sonnenuntergang, das Boot im Gegenlicht am bekannten Steg. Martin Parr macht genau das zum Thema; ein Kritiker beschreibt bei ihm Hände, die den Schiefen Turm von Pisa stützen, als Teil eines satirischen Panoramas des Tourismus [S810555]. Der Moment ist hier nicht entschieden, sondern einstudiert – und wiederholt sich bei jedem Besucher.\n\n**Gegenlesart.** Shores Bild am Merced River lässt sich als entscheidender Augenblick lesen – Mutter mit Kamera, Dreieck der Figuren [S332121]. David Campany liest es anders: Den Ausschlag gebe der Rhythmus eines gemächlichen Tages; die Figuren erreichten zufällig und für einen Moment ein unwahrscheinliches bildnerisches Ideal, und formale Vollkommenheit rufe immer ein Aussetzen der Zeit hervor [S142772]. Dasselbe Bild ist dann zugleich Höhepunkt und schwache Zeit."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "ic02846fa6d",
+     "caption_md": "Der Moment vor der Auflösung: Die springende Figur schwebt über der Pfütze, die Ferse knapp über ihrem Spiegelbild [S553336]. Das Bild rastet formal ein: Figur und Spiegelung bilden eine geschlossene Form, die Ringe im Wasser wiederholen Kreisformen, das Plakat links oben zeigt eine weitere springende Figur. Eine Zehntelsekunde später wäre aus Spannung bloßes Ergebnis geworden.",
+     "look_for": [
+      "Ferse knapp über der Wasserfläche",
+      "Figur und Spiegelbild als Doppelform",
+      "Springende Figur auf dem Plakat als Echo"
+     ]
+    },
+    {
+     "image_id": "i7fd8cb9704",
+     "caption_md": "Bühne und Akteur: Treppe, Geländer und Gasse bilden einen festen Rahmen aus Spiralen und Diagonalen, der Radfahrer erscheint als verwischte Form in der einzigen freien Fläche oben links. Laut Museum wartete Cartier-Bresson oben an der Treppe und löste aus, als der Radfahrer nicht vom Geländer verdeckt wurde [S662901]. Zeit ist doppelt im Bild: Die Architektur steht, die Figur fließt.",
+     "look_for": [
+      "Radfahrer in der Lücke zwischen Geländer und Mauer",
+      "Bewegungsunschärfe nur bei der Figur",
+      "Spirale des Geländers führt zur Figur"
+     ]
+    },
+    {
+     "image_id": "i73c5f80960",
+     "caption_md": "Konstellation in der Landschaft: Auf der Sandbank verteilen sich kleine Figuren, ein Kind steht im flachen Wasser, in der Mitte fotografiert eine Frau. Keine Figur überschneidet eine andere, jede steht vor ruhigem Sand. Laut einem Ausstellungsbericht belichtete Shore genau, als die Mutter ihr Kind fotografiert und die Figuren eine Dreiecksform bilden [S332121] – ein stiller, aber präzise gewählter Moment.",
+     "look_for": [
+      "Fotografierende Figur in der Bildmitte",
+      "Abstände zwischen den Figuren: keine Überschneidung",
+      "Kind im Wasser als Bezugspunkt der Geste"
+     ]
+    },
+    {
+     "image_id": "ifee6b93228",
+     "caption_md": "Geste als Moment: Unter einem großen schwarzen Schirm hockt ein Mann mit gelbem Turban, vor ihm ein Kind, das sich mit beiden Händen das Gesicht wischt; links eine zweite Figur unter einem Schirm. Der Regen ist als Schleier im Hintergrund und auf dem nassen Boden sichtbar. Das Bild hängt an der Geste des Kindes und der schützenden Haltung des Mannes – einen Augenblick früher oder später wäre es ein Bild von Menschen im Regen, nicht von dieser Beziehung.",
+     "look_for": [
+      "Hände des Kindes vor dem Gesicht",
+      "Schirm als Dach über der Zweiergruppe",
+      "Zweite Figur links als ruhiges Gegengewicht"
+     ]
+    },
+    {
+     "image_id": "iae1f069335",
+     "caption_md": "Schwache Zeit: Eine leere Betonfläche im Vordergrund, dahinter ein Geländer, Gestrüpp, Tankstellenschilder und eine Straße am Rand einer Kleinstadt, darüber ein großer, blassblauer Himmel mit Stromleitungen. Kein Ereignis, keine Figur, kein Höhepunkt. Das Bild zeigt den Ort in einem Moment, den niemand für fotografierenswert hielte – und gerade dadurch, wie er gewöhnlich aussieht.",
+     "look_for": [
+      "Betonplatte als leere Bühne",
+      "Stromleitungen als einzige Bewegung im Himmel",
+      "Schilder am Horizont als Hinweis auf Durchreise"
+     ]
+    },
+    {
+     "image_id": "i861ba6c39d",
+     "caption_md": "Klischee als Gegenbeispiel: Vor dem Schiefen Turm stehen mehrere Touristen in derselben einstudierten Pose – Arme ausgestreckt, Handflächen gegen die Luft –, vorn eine Frau mit erhobenen Händen, rechts ein Mann im Ausfallschritt. Für sich genommen sieht das wie ein seltsamer Tanz aus, weil die Illusion nur vom Standpunkt ihrer eigenen Fotografen aus funktioniert – aus Parrs Blickwinkel steht der Turm nicht dort, wo die Hände ihn erwarten. Parr fotografiert nicht den gewünschten Moment, sondern das Ritual, ihn herzustellen [S810555].",
+     "look_for": [
+      "Gleiche Geste bei mehreren Personen",
+      "Hände zielen ins Leere: falscher Standpunkt für die Illusion",
+      "Turm klein und am Rand – das Ritual ist das Motiv"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Entscheidend ist ein Moment, wenn die Formen einrasten – nicht, weil etwas Spektakuläres geschieht.",
+    "Bühne bauen und warten, eine Situation durcharbeiten oder vorwegnehmen: Drei Wege zum selben Ziel.",
+    "Der Moment vor der Auflösung einer Bewegung hält mehr Spannung als ihr Ergebnis.",
+    "Bei mehreren Figuren entscheidet die Konstellation: keine Überschneidung, ruhiger Grund, antwortende Gesten.",
+    "Die „schwache Zeit“ zeigt oft genauer, wie ein Ort lebt, als sein Höhepunkt – braucht aber ebenso genaue Form.",
+    "Gefundener und arrangierter Moment sind beide legitim – aber man darf das eine nicht als das andere ausgeben."
+   ],
+   "exercises": [
+    "Bühne und Akteur: An einem Ort mit klarer Architektur (Treppe, Tor, Lichtfleck, Brücke) einen festen Ausschnitt mit einer freien Fläche wählen und 20 Minuten warten. Nur auslösen, wenn eine Figur genau in der Fläche steht und von nichts überschnitten wird.",
+    "Eine Situation durcharbeiten: Eine Marktszene oder einen Anleger zehn Minuten lang in mindestens 30 Aufnahmen begleiten, dabei Standpunkt und Abstand variieren. Abends den einen Frame wählen und schriftlich begründen, warum gerade dieser Moment hält.",
+    "Schwache Zeit: Einen bekannten Aussichtspunkt oder Tempel zu einer Zeit besuchen, in der nichts geschieht (Mittag, nach Schließung, Regen), und drei Bilder machen, die den Ort ohne Höhepunkt zeigen.",
+    "Landschaftsmoment: An einem Küsten- oder Bergstandort den Ausschnitt auf dem Stativ festlegen und 30 Minuten lang nur dann auslösen, wenn sich ein Element ändert (Welle, Lichtfleck, Vogel, Figur). Danach die Serie durchsehen und den Frame wählen, in dem das Element die Form schließt."
+   ],
+   "quiz": [
+    {
+     "question": "Worin lag laut Szarkowski das „Entscheidende“ am entscheidenden Augenblick?",
+     "image_id": null,
+     "options": [
+      "Darin, dass die Szene vorher arrangiert wurde",
+      "Darin, dass die kürzestmögliche Verschlusszeit verwendet wurde",
+      "Darin, dass im Fluss der Formen für einen Augenblick Gleichgewicht, Klarheit und Ordnung entstanden",
+      "Darin, dass ein historisch bedeutendes Ereignis festgehalten wurde"
+     ],
+     "correct": 2,
+     "explanation": "Szarkowski schreibt ausdrücklich, entscheidend sei der Moment nicht wegen des äußeren Ereignisses, sondern weil das Bild für einen Augenblick zum Bild wurde [S558393]."
+    },
+    {
+     "question": "Welche Arbeitsweise liegt diesem Bild nach der Museumsbeschreibung zugrunde?",
+     "image_id": "i7fd8cb9704",
+     "options": [
+      "Den Radfahrer nachträglich in die Architekturaufnahme montieren",
+      "Zuerst einen festen Bildraum wählen, dann warten, bis eine Figur an der richtigen Stelle hindurchkommt",
+      "Die Figur mit dem Fotografen absprechen und mehrfach fahren lassen",
+      "Aus der Bewegung heraus fotografieren, ohne den Ausschnitt vorher festzulegen"
+     ],
+     "correct": 1,
+     "explanation": "Laut Nelson-Atkins Museum stand Cartier-Bresson oben an der Treppe, wartete auf Aktivität und löste aus, als der Radfahrer nicht vom Geländer verdeckt war [S662901]. Das ist das Prinzip „Bühne und Akteur“."
+    },
+    {
+     "question": "Gefunden oder arrangiert? Was gilt laut M+ für dieses Bild?",
+     "image_id": "id5d981907d",
+     "options": [
+      "Arrangiert: Die Figuren in den drei Fenstern waren Fan Hos Studienkollegen, die Szene ist inszeniert",
+      "Gefunden: Es handelt sich um eine Theateraufführung, die er aus dem Publikum fotografierte",
+      "Gefunden: Fan Ho wartete stundenlang, bis drei Passanten zufällig in den Fenstern standen",
+      "Montiert: Die drei Figuren stammen aus verschiedenen Negativen"
+     ],
+     "correct": 0,
+     "explanation": "M+ schreibt, die Personen seien seine Studienkollegen gewesen, und Fan Ho habe schon damals ein Talent für das Inszenieren dramatischer Szenen gezeigt [S419197]. Die strenge Verteilung der drei Silhouetten ist kein Zufall, sondern Regie."
+    },
+    {
+     "question": "Was meint „temps faible“ im Gegensatz zum entscheidenden Augenblick?",
+     "image_id": null,
+     "options": [
+      "Eine bewusst unscharfe, schwache Bildgestaltung",
+      "Den Moment kurz nach einem Ereignis, wenn die Spannung abfällt, als Fehler",
+      "Die Zwischen- und Nebenzeiten, in denen nichts Bedeutendes geschieht, als vollwertigen Bildgegenstand",
+      "Fotografieren bei schwachem Licht mit langen Belichtungszeiten"
+     ],
+     "correct": 2,
+     "explanation": "Bergalas Begriff wendet sich gegen die Vorstellung, es gebe nur den einen geometrisch einrastenden Moment [S202770]; Depardon zeigt die Welt in ihren „schwachen“ Zeiten [S135833]. Mit Licht oder Unschärfe hat der Begriff nichts zu tun."
+    },
+    {
+     "question": "Was macht den Moment in diesem Bild aus?",
+     "image_id": "ib6d3202de9",
+     "options": [
+      "Eine einzelne, schnelle Bewegung, die mit sehr kurzer Verschlusszeit eingefroren wurde",
+      "Die Langzeitbelichtung, die den Abendhimmel glättet",
+      "Mehrere Figuren stehen jeweils in eigenen Bildzonen – die Jungen am Zaun rechts, der Mann oben links, die Frauen im Schatten unten links – ohne einander zu verdecken",
+      "Das Fehlen jeder menschlichen Figur, das die Farbe allein sprechen lässt"
+     ],
+     "correct": 2,
+     "explanation": "Das Bild hält eine Konstellation: Jede Figur besetzt eine eigene Fläche vor ruhigem Grund (Wand, Himmel, Schatten), und die Haltungen antworten einander. Eine schnelle Einzelbewegung oder Langzeitbelichtung ist nicht zu sehen."
+    },
+    {
+     "question": "Welche Lesart des Bildes vertritt David Campany?",
+     "image_id": "i73c5f80960",
+     "options": [
+      "Die Wirkung beruhe auf einer sehr kurzen Verschlusszeit, die die Bewegung einfriert",
+      "Shore habe die Familie am Fluss in Position gebracht",
+      "Die Figuren erreichen zufällig und für einen Moment ein bildnerisches Ideal; formale Vollkommenheit lässt die Zeit stillstehen",
+      "Das Bild sei ein Beispiel für die Zerstörung des Nationalparks durch Tourismus"
+     ],
+     "correct": 2,
+     "explanation": "Campany schreibt, die Figuren erreichten „accidentally and momentarily“ ein unwahrscheinliches bildnerisches Ideal, und dies sei nicht einfach ein Effekt von Shores Verschluss [S142772]. Damit liest er den Moment als formales Ereignis in einem gemächlichen Tag."
+    }
+   ]
+  }
+ ]
+}
