@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Das fremde Auge</text>
+  <text x="10" y="32" class="m">sieht nur die Bilder – keine Mühe, kein Erlebnis</text>
+  <!-- grid 6x3 -->
+  <g class="m">
+    <rect x="10" y="48" width="34" height="24"/><rect x="50" y="48" width="34" height="24"/><rect x="90" y="48" width="34" height="24"/><rect x="130" y="48" width="34" height="24"/><rect x="170" y="48" width="34" height="24"/><rect x="210" y="48" width="34" height="24"/>
+    <rect x="10" y="80" width="34" height="24"/><rect x="50" y="80" width="34" height="24"/><rect x="90" y="80" width="34" height="24"/><rect x="130" y="80" width="34" height="24"/><rect x="170" y="80" width="34" height="24"/><rect x="210" y="80" width="34" height="24"/>
+    <rect x="10" y="112" width="34" height="24"/><rect x="50" y="112" width="34" height="24"/><rect x="90" y="112" width="34" height="24"/><rect x="130" y="112" width="34" height="24"/><rect x="170" y="112" width="34" height="24"/><rect x="210" y="112" width="34" height="24"/>
+  </g>
+  <rect x="50" y="48" width="34" height="24" class="a"/><rect x="170" y="80" width="34" height="24" class="a"/><rect x="90" y="112" width="34" height="24" class="a"/>
+  <!-- your darling -->
+  <rect x="210" y="48" width="34" height="24" class="m" stroke-dasharray="2 2"/>
+  <path d="M224 56 c-4 -6 -12 0 0 10 c12 -10 4 -16 0 -10" class="m"/>
+  <!-- eye -->
+  <path d="M270 92 q40 -32 80 0 q-40 32 -80 0 z"/><circle cx="310" cy="92" r="9" class="af" stroke="none"/>
+  <text x="310" y="132" text-anchor="middle">nennt drei</text>
+  <text x="310" y="146" text-anchor="middle" class="m">ohne Erklärung</text>
+  <text x="10" y="166" class="a">□ gewählt vom fremden Blick</text>
+  <text x="10" y="184" class="m">♡ dein Liebling – vielleicht nicht dabei</text>
+  <text x="10" y="202" class="m">Ersatz: du selbst als Fremder, der nur die Bilder kennt</text>
+</svg>

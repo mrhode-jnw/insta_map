@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Ortsangaben: wie genau?</text>
+  <!-- three tiers -->
+  <rect x="10" y="30" width="108" height="112" rx="6"/>
+  <rect x="126" y="30" width="108" height="112" rx="6" class="f" stroke="none"/><rect x="126" y="30" width="108" height="112" rx="6" class="a"/>
+  <rect x="242" y="30" width="108" height="112" rx="6" class="m" stroke-dasharray="4 3"/>
+  <!-- pin -->
+  <path d="M76 58 c0 -14 -20 -14 -20 0 c0 8 10 18 10 18 c0 0 10 -10 10 -18 z"/><circle cx="66" cy="58" r="3"/>
+  <!-- region -->
+  <ellipse cx="180" cy="62" rx="30" ry="16" class="a" stroke-dasharray="4 3"/>
+  <!-- wrong place: pin crossed -->
+  <path d="M306 58 c0 -14 -20 -14 -20 0 c0 8 10 18 10 18 c0 0 10 -10 10 -18 z" class="m"/><path d="M280 44 l32 32 M312 44 l-32 32" class="m"/>
+  <text x="64" y="100" text-anchor="middle">exakt</text>
+  <text x="64" y="116" text-anchor="middle" class="m">heikel bei</text>
+  <text x="64" y="128" text-anchor="middle" class="m">empfindl. Orten</text>
+  <text x="180" y="100" text-anchor="middle" class="a">offen unscharf</text>
+  <text x="180" y="116" text-anchor="middle" class="m">„Karstgebiet,</text>
+  <text x="180" y="128" text-anchor="middle" class="m">Südchina“</text>
+  <text x="296" y="100" text-anchor="middle" class="m">falsch genau</text>
+  <text x="296" y="116" text-anchor="middle" class="m">berühmter Ort</text>
+  <text x="296" y="128" text-anchor="middle" class="m">statt echtem</text>
+  <text x="64" y="166" text-anchor="middle" class="m">abwägen</text>
+  <text x="180" y="166" text-anchor="middle" class="a">ehrlich</text>
+  <text x="296" y="166" text-anchor="middle" class="m">Täuschung</text>
+  <text x="10" y="196" class="m">„Magic hour in paradise #wanderlust“</text>
+  <text x="10" y="210" class="m">verankert nichts, erzählt nichts – behauptet Stimmung.</text>
+</svg>

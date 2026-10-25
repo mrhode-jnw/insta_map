@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="90" y="16" text-anchor="middle" class="h">in der Kamera</text>
+  <text x="270" y="16" text-anchor="middle" class="h">am Material</text>
+  <rect x="75" y="26" width="30" height="20" rx="3"/><circle cx="90" cy="36" r="6"/>
+  <rect x="252" y="24" width="36" height="24" rx="2"/><path d="M256 44 l8 -10 l7 7 l5 -5 l8 8" class="m"/>
+  <text x="90" y="66" text-anchor="middle" class="m">Standpunkt, Rahmen,</text>
+  <text x="90" y="80" text-anchor="middle" class="m">Moment – alle Sinne</text>
+  <text x="270" y="66" text-anchor="middle" class="m">nur noch das Bild,</text>
+  <text x="270" y="80" text-anchor="middle" class="m">kein Erlebnis</text>
+  <line x1="180" y1="8" x2="180" y2="88" class="m" stroke-dasharray="2 4"/>
+  <!-- three passes -->
+  <rect x="10" y="108" width="104" height="80" rx="6"/>
+  <rect x="128" y="108" width="104" height="80" rx="6" class="f" stroke="none"/><rect x="128" y="108" width="104" height="80" rx="6"/>
+  <rect x="246" y="108" width="104" height="80" rx="6"/>
+  <line x1="114" y1="148" x2="126" y2="148" class="a"/><path d="M121 144 L127 148 L121 152" class="a"/>
+  <line x1="232" y1="148" x2="244" y2="148" class="a"/><path d="M239 144 L245 148 L239 152" class="a"/>
+  <text x="62" y="128" text-anchor="middle" class="a">1 Aussortieren</text>
+  <text x="62" y="148" text-anchor="middle">unscharf,</text>
+  <text x="62" y="162" text-anchor="middle">Fehlbelichtung,</text>
+  <text x="62" y="176" text-anchor="middle">Dubletten</text>
+  <text x="180" y="128" text-anchor="middle" class="a">2 Auswählen</text>
+  <text x="180" y="148" text-anchor="middle">tragende Bilder</text>
+  <text x="180" y="162" text-anchor="middle">je Situation</text>
+  <text x="298" y="128" text-anchor="middle" class="a">3 Zusammen-</text>
+  <text x="298" y="142" text-anchor="middle" class="a">stellen</text>
+  <text x="298" y="162" text-anchor="middle">was gemeinsam</text>
+  <text x="298" y="176" text-anchor="middle">funktioniert</text>
+  <text x="180" y="214" text-anchor="middle" class="m">am Material: drei getrennte Durchgänge</text>
+</svg>

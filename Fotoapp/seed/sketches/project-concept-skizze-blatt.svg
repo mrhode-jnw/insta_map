@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 290" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- one page -->
+  <path d="M60 10 H280 L300 30 V280 H60 Z"/><path d="M280 10 V30 H300" class="m"/>
+  <text x="76" y="34" class="h">Arbeitstitel</text>
+  <line x1="76" y1="42" x2="270" y2="42" class="m"/>
+  <text x="76" y="62" class="a">Frage</text><text x="170" y="62" class="m">ein Satz</text>
+  <text x="76" y="84" class="a">Gegenstand, Ort</text>
+  <text x="76" y="106" class="a">Konstanten</text><text x="170" y="106" class="m">2–4</text>
+  <text x="76" y="128" class="a">Variable</text><text x="170" y="128" class="m">genau 1</text>
+  <text x="76" y="150" class="a">Recherche</text><text x="170" y="150" class="m">mit Quellen</text>
+  <text x="76" y="172" class="a">Plan</text><text x="170" y="172" class="m">Orte, Licht, Zeit</text>
+  <text x="76" y="194" class="a">Abbruch</text><text x="170" y="194" class="m">wann steht es?</text>
+  <text x="76" y="216" class="a">Form</text><text x="170" y="216" class="m">Buch, Wand, 12er</text>
+  <line x1="76" y1="232" x2="284" y2="232" class="m" stroke-dasharray="2 4"/>
+  <text x="180" y="256" text-anchor="middle" class="m">passt auf eine Seite –</text>
+  <text x="180" y="270" text-anchor="middle" class="m">und darf wachsen</text>
+</svg>

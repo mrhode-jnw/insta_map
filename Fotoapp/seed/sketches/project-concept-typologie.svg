@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 236" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="90" y="16" text-anchor="middle" class="h">Typologie</text>
+  <text x="270" y="16" text-anchor="middle" class="h">Wiederholung</text>
+  <line x1="180" y1="8" x2="180" y2="226" class="m" stroke-dasharray="2 4"/>
+  <!-- typology: same view, different structures -->
+  <g>
+    <rect x="22" y="30" width="44" height="44"/><rect x="72" y="30" width="44" height="44"/><rect x="122" y="30" width="44" height="44"/>
+    <rect x="22" y="80" width="44" height="44"/><rect x="72" y="80" width="44" height="44"/><rect x="122" y="80" width="44" height="44"/>
+    <rect x="32" y="44" width="24" height="26"/><path d="M32 52 h24 M32 60 h24"/>
+    <path d="M84 70 v-22 a10 6 0 0 1 20 0 v22"/>
+    <rect x="128" y="50" width="32" height="20"/><path d="M128 56 h32 M128 63 h32"/>
+    <path d="M34 120 v-30 h20 v30 M34 100 h20"/>
+    <path d="M80 120 l14 -30 l14 30 z"/>
+    <rect x="132" y="94" width="24" height="26"/><path d="M144 94 v26"/>
+  </g>
+  <text x="90" y="148" text-anchor="middle">gleiche Methode,</text>
+  <text x="90" y="162" text-anchor="middle">verschiedene Bauten</text>
+  <text x="90" y="186" text-anchor="middle" class="a">→ Vergleich wird möglich</text>
+  <!-- repeat: same motif same view -->
+  <g class="m">
+    <rect x="202" y="30" width="44" height="44"/><rect x="252" y="30" width="44" height="44"/><rect x="302" y="30" width="44" height="44"/>
+    <rect x="202" y="80" width="44" height="44"/><rect x="252" y="80" width="44" height="44"/><rect x="302" y="80" width="44" height="44"/>
+    <path d="M210 66 h12 v-8 l6 -6 l6 6 v8 h4 M260 66 h12 v-8 l6 -6 l6 6 v8 h4 M310 66 h12 v-8 l6 -6 l6 6 v8 h4 M210 116 h12 v-8 l6 -6 l6 6 v8 h4 M260 116 h12 v-8 l6 -6 l6 6 v8 h4 M310 116 h12 v-8 l6 -6 l6 6 v8 h4"/>
+    <circle cx="214" cy="40" r="3"/><circle cx="264" cy="40" r="3"/><circle cx="314" cy="40" r="3"/><circle cx="214" cy="90" r="3"/><circle cx="264" cy="90" r="3"/><circle cx="314" cy="90" r="3"/>
+  </g>
+  <text x="270" y="148" text-anchor="middle">gleicher Ort, gleicher</text>
+  <text x="270" y="162" text-anchor="middle">Blick, gleicher Look</text>
+  <text x="270" y="186" text-anchor="middle" class="m">→ nichts zu vergleichen</text>
+  <text x="270" y="200" text-anchor="middle" class="m">(„insta repeat“)</text>
+</svg>

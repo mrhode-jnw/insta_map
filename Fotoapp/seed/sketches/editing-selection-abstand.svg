@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="20" y1="60" x2="340" y2="60"/>
+  <circle cx="40" cy="60" r="6" class="af" stroke="none"/><circle cx="170" cy="60" r="6" class="af" stroke="none"/><circle cx="300" cy="60" r="6" class="af" stroke="none"/>
+  <text x="40" y="36" text-anchor="middle" class="h">Abend</text>
+  <text x="170" y="36" text-anchor="middle" class="h">nach 1 Woche</text>
+  <text x="300" y="36" text-anchor="middle" class="h">nach Monaten</text>
+  <text x="20" y="88">nur Ausschuss</text>
+  <text x="20" y="102">löschen</text>
+  <text x="130" y="88">erste Auswahl</text>
+  <text x="130" y="102">mit Begründung</text>
+  <text x="262" y="88">endgültige</text>
+  <text x="262" y="102">Auswahl</text>
+  <!-- memory bar fading -->
+  <text x="20" y="136" class="m">Erinnerung stimmt mit:</text>
+  <rect x="20" y="146" width="110" height="14" class="af" stroke="none"/>
+  <rect x="130" y="146" width="100" height="14" class="f" stroke="none"/>
+  <rect x="20" y="146" width="320" height="14" class="m"/>
+  <text x="20" y="182" class="a">laut</text><text x="160" y="182" class="m">leiser</text><text x="300" y="182">still</text>
+  <text x="20" y="202" class="m">Erst wenn sie schweigt, spricht nur noch das Bild.</text>
+</svg>

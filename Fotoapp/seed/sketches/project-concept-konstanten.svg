@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 236" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Konstant</text>
+  <text x="10" y="32" class="m">Horizont Mitte · gleicher Standpunkt · gleiches Format</text>
+  <!-- four frames: horizon fixed in center, sky/water tone varies -->
+  <g>
+    <rect x="10" y="44" width="76" height="56"/><rect x="96" y="44" width="76" height="56"/><rect x="182" y="44" width="76" height="56"/><rect x="268" y="44" width="76" height="56"/>
+    <line x1="10" y1="72" x2="86" y2="72" class="a"/><line x1="96" y1="72" x2="172" y2="72" class="a"/><line x1="182" y1="72" x2="258" y2="72" class="a"/><line x1="268" y1="72" x2="344" y2="72" class="a"/>
+    <path d="M18 54 h60 M22 62 h52 M18 82 h60 M24 90 h48" class="m" stroke-dasharray="2 4"/>
+    <path d="M106 60 q6 -8 14 -2 q6 -6 12 2 z M140 56 q6 -8 14 -2 q6 -6 12 2 z" class="m"/>
+    <circle cx="220" cy="58" r="7" class="m"/>
+    <path d="M290 58 q6 -8 14 -2 q6 -6 12 2 z" class="m"/><path d="M294 62 l-3 7 M302 62 l-3 7 M310 62 l-3 7 M318 62 l-3 7 M326 56 l-3 7 M334 56 l-3 7" class="m"/>
+  </g>
+  <text x="48" y="118" text-anchor="middle" class="m">Dunst</text>
+  <text x="134" y="118" text-anchor="middle" class="m">Wolken</text>
+  <text x="220" y="118" text-anchor="middle" class="m">klar</text>
+  <text x="306" y="118" text-anchor="middle" class="m">Regen</text>
+  <text x="10" y="146" class="h">Variabel: genau eins</text>
+  <!-- four slots -->
+  <rect x="10" y="158" width="76" height="30" rx="15"/><rect x="96" y="158" width="76" height="30" rx="15" class="a"/><rect x="182" y="158" width="76" height="30" rx="15"/><rect x="268" y="158" width="76" height="30" rx="15"/>
+  <text x="48" y="177" text-anchor="middle" class="m">Ort</text>
+  <text x="134" y="177" text-anchor="middle" class="a">Wetter</text>
+  <text x="220" y="177" text-anchor="middle" class="m">Tageszeit</text>
+  <text x="306" y="177" text-anchor="middle" class="m">Mensch</text>
+  <text x="10" y="214" class="m">Wählbare Konstanten: Standpunkthöhe, Brennweite,</text>
+  <text x="10" y="228" class="m">Lichtart, Format – zwei bis vier davon festlegen.</text>
+</svg>

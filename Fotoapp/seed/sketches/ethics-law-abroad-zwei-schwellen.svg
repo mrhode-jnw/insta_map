@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 304" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="90" y="16" text-anchor="middle" class="h">1 · Auslösen</text>
+  <text x="270" y="16" text-anchor="middle" class="h">2 · Zeigen</text>
+  <!-- icons -->
+  <rect x="75" y="28" width="30" height="20" rx="3"/><circle cx="90" cy="38" r="6"/>
+  <rect x="255" y="26" width="30" height="24" rx="2"/><path d="M259 46 l7 -9 l6 6 l4 -4 l6 7" class="m"/>
+  <line x1="112" y1="38" x2="246" y2="38" class="m" stroke-dasharray="3 4"/><path d="M240 33 L247 38 L240 43" class="m"/>
+  <!-- left column -->
+  <rect x="14" y="62" width="152" height="94" rx="6"/>
+  <text x="24" y="80" class="a">§ 201a StGB</text>
+  <text x="24" y="97">unbefugt in Wohnung</text>
+  <text x="24" y="111">oder geschütztem Raum</text>
+  <text x="24" y="129">Hilflosigkeit</text>
+  <text x="24" y="143">zur Schau stellen</text>
+  <text x="90" y="176" text-anchor="middle" class="m">schon die Aufnahme</text>
+  <text x="90" y="190" text-anchor="middle" class="m">kann strafbar sein</text>
+  <!-- right column: tree -->
+  <rect x="194" y="62" width="152" height="40" rx="6"/>
+  <text x="204" y="80" class="a">§ 22 KUG</text>
+  <text x="204" y="95">nur mit Einwilligung</text>
+  <line x1="270" y1="102" x2="270" y2="118"/><path d="M265 112 L270 119 L275 112"/>
+  <rect x="194" y="120" width="152" height="40" rx="6" class="f" stroke="none"/>
+  <rect x="194" y="120" width="152" height="40" rx="6"/>
+  <text x="204" y="138" class="a">Ausnahme § 23</text>
+  <text x="204" y="153">Person nur Beiwerk</text>
+  <line x1="270" y1="160" x2="270" y2="176"/><path d="M265 170 L270 177 L275 170"/>
+  <rect x="194" y="178" width="152" height="40" rx="6"/>
+  <text x="204" y="196" class="a">Grenze</text>
+  <text x="204" y="211">berechtigtes Interesse</text>
+  <!-- frames: Beiwerk vs Thema -->
+  <rect x="200" y="232" width="62" height="40"/>
+  <path d="M200 258 l14 -10 l12 6 l16 -12 l20 14" class="m"/>
+  <line x1="244" y1="266" x2="244" y2="259"/><circle cx="244" cy="257" r="1.6"/>
+  <rect x="282" y="232" width="62" height="40"/>
+  <circle cx="313" cy="248" r="9"/><path d="M296 272 q17 -20 34 0"/>
+  <text x="231" y="286" text-anchor="middle" class="m">Beiwerk</text>
+  <text x="231" y="300" text-anchor="middle" class="a">§ 23 passt</text>
+  <text x="313" y="286" text-anchor="middle" class="m">Person = Thema</text>
+  <text x="313" y="300" text-anchor="middle" class="m">passt nicht</text>
+</svg>

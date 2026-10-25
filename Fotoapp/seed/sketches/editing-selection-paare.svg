@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Zwei Bilder, eine dritte Bedeutung</text>
+  <!-- echo -->
+  <text x="10" y="50" class="a">Echo</text>
+  <text x="10" y="64" class="m">gleiche Form,</text>
+  <text x="10" y="78" class="m">anderer Inhalt</text>
+  <rect x="140" y="32" width="90" height="56"/><rect x="250" y="32" width="90" height="56"/>
+  <path d="M150 80 L185 42 L220 80" /><line x1="140" y1="80" x2="230" y2="80" class="m"/>
+  <path d="M265 80 L295 44 L325 80" class="a"/><path d="M285 80 v-14 h20 v14" class="a"/><line x1="250" y1="80" x2="340" y2="80" class="m"/>
+  <!-- contrast -->
+  <text x="10" y="120" class="a">Kontrast</text>
+  <text x="10" y="134" class="m">nah/fern, voll/leer</text>
+  <text x="10" y="148" class="m">Mensch/Landschaft</text>
+  <rect x="140" y="102" width="90" height="56"/><rect x="250" y="102" width="90" height="56"/>
+  <circle cx="185" cy="124" r="13"/><path d="M160 158 q25 -26 50 0"/>
+  <line x1="250" y1="140" x2="340" y2="140" class="m"/><line x1="300" y1="140" x2="300" y2="134"/><circle cx="300" cy="132" r="1.6"/>
+  <!-- narrative -->
+  <text x="10" y="190" class="a">Erzählen</text>
+  <text x="10" y="204" class="m">vorher / nachher</text>
+  <rect x="140" y="172" width="90" height="56"/><rect x="250" y="172" width="90" height="56"/>
+  <line x1="140" y1="214" x2="230" y2="214" class="m"/><line x1="185" y1="214" x2="185" y2="194"/><circle cx="185" cy="188" r="12"/>
+  <line x1="250" y1="214" x2="340" y2="214" class="m"/><path d="M290 214 v-8 h10 v8"/>
+  <text x="235" y="64" text-anchor="middle" class="m">+</text><text x="240" y="134" text-anchor="middle" class="m">+</text><text x="240" y="204" text-anchor="middle" class="m">→</text>
+</svg>

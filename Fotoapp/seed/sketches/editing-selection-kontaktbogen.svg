@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 252" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Vier Dinge auf dem Kontaktbogen</text>
+  <!-- row 1: approach - figure grows -->
+  <text x="10" y="58" class="m">wie näher?</text>
+  <text x="10" y="44" class="a">Annäherung</text>
+  <g transform="translate(110 28)">
+    <rect x="0" y="0" width="44" height="32"/><rect x="48" y="0" width="44" height="32"/><rect x="96" y="0" width="44" height="32"/><rect x="144" y="0" width="44" height="32"/><rect x="192" y="0" width="44" height="32"/>
+    <line x1="22" y1="26" x2="22" y2="21"/><circle cx="22" cy="19" r="1.5"/>
+    <line x1="70" y1="27" x2="70" y2="19"/><circle cx="70" cy="16" r="2.5"/>
+    <line x1="118" y1="30" x2="118" y2="17"/><circle cx="118" cy="13" r="3.5"/>
+    <line x1="166" y1="32" x2="166" y2="18"/><circle cx="166" cy="12" r="5"/>
+    <circle cx="214" cy="14" r="8"/><path d="M200 32 q14 -12 28 0"/>
+  </g>
+  <!-- row 2: variants - same frame, gesture changes -->
+  <text x="10" y="118" class="m">was anders?</text>
+  <text x="10" y="104" class="a">Varianten</text>
+  <g transform="translate(110 88)">
+    <rect x="0" y="0" width="44" height="32"/><rect x="48" y="0" width="44" height="32"/><rect x="96" y="0" width="44" height="32" class="a"/><rect x="144" y="0" width="44" height="32"/><rect x="192" y="0" width="44" height="32"/>
+    <g><circle cx="22" cy="12" r="4"/><line x1="22" y1="16" x2="22" y2="28"/><path d="M16 22 h12"/></g>
+    <g><circle cx="70" cy="12" r="4"/><line x1="70" y1="16" x2="70" y2="28"/><path d="M64 22 l6 -3 l6 3"/></g>
+    <g><circle cx="118" cy="12" r="4"/><line x1="118" y1="16" x2="118" y2="28"/><path d="M112 22 l6 -3 l9 -7"/></g>
+    <g><circle cx="166" cy="12" r="4"/><line x1="166" y1="16" x2="166" y2="28"/><path d="M160 22 h12"/></g>
+    <g><circle cx="214" cy="12" r="4"/><line x1="214" y1="16" x2="214" y2="28"/><path d="M208 24 l6 -2 l6 2"/></g>
+  </g>
+  <!-- row 3: stop too early -->
+  <text x="10" y="178" class="m">wo Schluss?</text>
+  <text x="10" y="164" class="a">Abbruch</text>
+  <g transform="translate(110 148)">
+    <rect x="0" y="0" width="44" height="32"/><rect x="48" y="0" width="44" height="32"/>
+    <path d="M6 24 h32 M54 24 h32" class="m"/><circle cx="18" cy="12" r="5" class="m"/><circle cx="72" cy="10" r="5" class="m"/>
+    <rect x="96" y="0" width="44" height="32" class="m" stroke-dasharray="3 3"/><rect x="144" y="0" width="44" height="32" class="m" stroke-dasharray="3 3"/><rect x="192" y="0" width="44" height="32" class="m" stroke-dasharray="3 3"/>
+    <text x="118" y="21" text-anchor="middle" class="m">?</text><text x="166" y="21" text-anchor="middle" class="m">?</text><text x="214" y="21" text-anchor="middle" class="m">?</text>
+  </g>
+  <!-- row 4: turn around -->
+  <text x="10" y="238" class="m">wo umgedreht?</text>
+  <text x="10" y="224" class="a">Wendung</text>
+  <g transform="translate(110 208)">
+    <rect x="0" y="0" width="44" height="32"/><rect x="48" y="0" width="44" height="32"/><rect x="96" y="0" width="44" height="32"/>
+    <g class="m"><circle cx="12" cy="16" r="3"/><circle cx="22" cy="14" r="3"/><circle cx="32" cy="17" r="3"/><circle cx="60" cy="15" r="3"/><circle cx="70" cy="17" r="3"/><circle cx="80" cy="14" r="3"/><circle cx="110" cy="16" r="3"/><circle cx="120" cy="14" r="3"/><circle cx="130" cy="17" r="3"/></g>
+    <rect x="144" y="0" width="44" height="32" class="a"/><rect x="192" y="0" width="44" height="32" class="a"/>
+    <path d="M148 8 h36 v14 h-36 z M160 8 v14 M172 8 v14" /><path d="M196 8 h36 v14 h-36 z M208 8 v14 M220 8 v14"/>
+    <path d="M136 -6 a10 8 0 1 1 18 0" class="a"/><path d="M150 -10 L154 -5 L148 -3" class="a"/>
+  </g>
+</svg>

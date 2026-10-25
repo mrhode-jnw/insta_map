@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Eine Methode wandert weiter</text>
+  <rect x="10" y="30" width="150" height="56" rx="6" class="f" stroke="none"/><rect x="10" y="30" width="150" height="56" rx="6"/>
+  <text x="20" y="50" class="a">Bernd + Hilla Becher</text>
+  <text x="20" y="66">Typologien, feste</text>
+  <text x="20" y="80">Perspektiven</text>
+  <line x1="160" y1="58" x2="196" y2="58" class="a"/><path d="M190 53 L197 58 L190 63" class="a"/>
+  <rect x="200" y="30" width="150" height="56" rx="6"/>
+  <text x="210" y="50" class="a">1976 Düsseldorf</text>
+  <text x="210" y="66">Fotoklasse an der</text>
+  <text x="210" y="80">Akademie</text>
+  <!-- students -->
+  <line x1="275" y1="86" x2="275" y2="100"/><line x1="49" y1="100" x2="311" y2="100"/>
+  <line x1="49" y1="100" x2="49" y2="112"/><line x1="136" y1="100" x2="136" y2="112"/><line x1="224" y1="100" x2="224" y2="112"/><line x1="311" y1="100" x2="311" y2="112"/>
+  <rect x="10" y="114" width="78" height="30" rx="6" class="a"/><text x="49" y="133" text-anchor="middle">Gursky</text>
+  <rect x="97" y="114" width="78" height="30" rx="6" class="a"/><text x="136" y="133" text-anchor="middle">Ruff</text>
+  <rect x="185" y="114" width="78" height="30" rx="6"/><text x="224" y="133" text-anchor="middle">Struth</text>
+  <rect x="272" y="114" width="78" height="30" rx="6"/><text x="311" y="133" text-anchor="middle">Höfer</text>
+  <text x="300" y="162" text-anchor="middle" class="m">u. v. a.</text>
+  <!-- sky + ground -->
+  <path d="M49 144 V160 H136 V144 M92 160 V170" class="a" stroke-dasharray="2 3"/>
+  <rect x="58" y="170" width="70" height="40"/><line x1="58" y1="190" x2="128" y2="190" class="a"/><rect x="82" y="178" width="22" height="12" class="m"/>
+  <text x="138" y="184">„Himmel und Boden“</text>
+  <text x="138" y="198" class="m">Gebäude nicht</text>
+  <text x="138" y="212" class="m">abgeschnitten</text>
+  <text x="10" y="240" class="m">Jede:r entwickelt eine eigene Bildsprache.</text>
+</svg>

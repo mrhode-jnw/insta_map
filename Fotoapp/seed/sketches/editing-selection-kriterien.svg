@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 262" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Prüfreihenfolge: grob → fein</text>
+  <rect x="10" y="36" width="330" height="32" rx="5" class="f" stroke="none"/>
+  <circle cx="26" cy="52" r="9" class="a"/><text x="26" y="56" text-anchor="middle" class="a">1</text>
+  <text x="44" y="56" class="h">Schwelle</text><text x="130" y="56" class="m">nur zum Ausschließen</text>
+  <rect x="10" y="74" width="300" height="32" rx="5" class="f" stroke="none"/>
+  <circle cx="26" cy="90" r="9" class="a"/><text x="26" y="94" text-anchor="middle" class="a">2</text>
+  <text x="44" y="94" class="h">Form</text><text x="130" y="94" class="m">Ränder, Horizont</text>
+  <rect x="10" y="112" width="270" height="32" rx="5" class="f" stroke="none"/>
+  <circle cx="26" cy="128" r="9" class="a"/><text x="26" y="132" text-anchor="middle" class="a">3</text>
+  <text x="44" y="132" class="h">Moment</text><text x="130" y="132" class="m">Geste, Blick, Licht</text>
+  <rect x="10" y="150" width="240" height="32" rx="5" class="f" stroke="none"/>
+  <circle cx="26" cy="166" r="9" class="a"/><text x="26" y="170" text-anchor="middle" class="a">4</text>
+  <text x="44" y="170" class="h">Information</text><text x="130" y="170" class="m">über den Ort</text>
+  <rect x="10" y="188" width="210" height="32" rx="5" class="f" stroke="none"/>
+  <circle cx="26" cy="204" r="9" class="a"/><text x="26" y="208" text-anchor="middle" class="a">5</text>
+  <text x="44" y="208" class="h">Rätsel</text><text x="130" y="208" class="m">2. Hinsehen</text>
+  <line x1="10" y1="230" x2="350" y2="230" class="m" stroke-dasharray="2 4"/>
+  <text x="10" y="250" class="a">+ in Serien:</text><text x="90" y="250">Was tut es für die anderen?</text>
+</svg>
