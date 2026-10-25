@@ -1,0 +1,1631 @@
+{
+ "accessed_at": "2026-10-25",
+ "photographers": [
+  {
+   "key": "muybridge",
+   "name": "Eadweard Muybridge",
+   "born": 1830,
+   "died": 1904,
+   "sources": [
+    {
+     "url": "https://americanart.si.edu/node/4551",
+     "title": "Eadweard Muybridge – Smithsonian American Art Museum (Biografie, Merry A. Foresta, American Photographs: The First Century, 1996)",
+     "excerpt": "born Kingston-upon-Thames, England 1830-died Kingston-upon-Thames, England 1904"
+    },
+    {
+     "url": "https://americanart.si.edu/node/4551",
+     "title": "Eadweard Muybridge – Smithsonian American Art Museum (Biografie, Merry A. Foresta, American Photographs: The First Century, 1996)",
+     "excerpt": "Perhaps to distinguish his work from that of other photographers of Yosemite, such as Watkins and Charles Leander Weed (plate 27), Muybridge chose points of view that heighten dramatic intensity. His photographs are notable for the inaccessibility of the subject matter."
+    },
+    {
+     "url": "https://www.cartermuseum.org/collection/sylvan-bar-valley-yosemite-p1972321",
+     "title": "Sylvan Bar, Valley of the Yosemite – Amon Carter Museum of American Art (Text aus dem Carter Handbook, 2023)",
+     "excerpt": "Muybridge was willing to do almost anything to create the most striking images, including cutting down trees, waiting days for the right weather, and venturing onto precipitous overhangs where others were unwilling to accompany him."
+    }
+   ],
+   "projects": [
+    {
+     "key": "muybridge-yosemite-1872",
+     "title": "Valley of the Yosemite (Mammutplatten 1872)",
+     "year_from": 1872,
+     "year_to": 1872,
+     "sources": [
+      {
+       "url": "https://americanart.si.edu/node/4551",
+       "title": "Eadweard Muybridge – Smithsonian American Art Museum (Biografie, Merry A. Foresta, American Photographs: The First Century, 1996)",
+       "excerpt": "In direct competition with Carleton Watkin's acclaimed Yosemite views of 1861–62 (Plate 26), Muybridge's fifty-one mammoth plates, made in 1872, confirmed his reputation as a preeminent landscape photographer."
+      },
+      {
+       "url": "https://www.clevelandart.org/art/1990.133",
+       "title": "Valley of the Yosemite, from Rocky Ford – Cleveland Museum of Art",
+       "excerpt": "During his second journey there, lasting from June through November 1872, he made his most significant and extensive body of landscape photographs, many taken with mammoth glass plate negatives measuring 20 x 24 inches."
+      },
+      {
+       "url": "https://www.cartermuseum.org/collection/sylvan-bar-valley-yosemite-p1972321",
+       "title": "Sylvan Bar, Valley of the Yosemite – Amon Carter Museum of American Art (Text aus dem Carter Handbook, 2023)",
+       "excerpt": "After several months in the valley, Muybridge returned to San Francisco with over 500 glass-plate negatives, including several “mammoth” images like this one, that were published to wide commercial and critical success."
+      }
+     ],
+     "images": [
+      {
+       "key": "muybridge-rocky-ford",
+       "title": "Valley of the Yosemite, from Rocky Ford",
+       "year": 1872,
+       "location": "Yosemite Valley, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "spiegelung",
+        "fluss",
+        "schwarzweiß",
+        "19. jahrhundert"
+       ],
+       "source_url": "https://www.clevelandart.org/art/1990.133",
+       "image_url": "https://openaccess-cdn.clevelandart.org/1990.133/1990.133_print.jpg",
+       "sources": [
+        {
+         "url": "https://www.clevelandart.org/art/1990.133",
+         "title": "Valley of the Yosemite, from Rocky Ford – Cleveland Museum of Art",
+         "excerpt": "This image of the valley from Rocky Ford is one of his most luminous and sublime views. Taken in early morning light, this carefully framed and dramatically lit photograph reveals Muybridge's interest in atmospheric conditions, shimmering reflections, and the movement of water.",
+         "kind": "museum",
+         "author": "Cleveland Museum of Art",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "muybridge-union-point",
+       "title": "Valley of the Yosemite from Union Point",
+       "year": 1872,
+       "location": "Yosemite Valley, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "berg",
+        "standpunkt",
+        "schwarzweiß",
+        "19. jahrhundert"
+       ],
+       "source_url": "https://americanart.si.edu/node/42178",
+       "image_url": "https://ids.si.edu/ids/deliveryService?id=SAAM-1994.89.1_1&max=1600",
+       "sources": [
+        {
+         "url": "https://americanart.si.edu/node/42178",
+         "title": "Valley of the Yosemite from Union Point – Smithsonian American Art Museum (A Democracy of Images, 2013)",
+         "excerpt": "Eadweard Muybridge went to great lengths to photograph the best possible views of the West. He chopped down trees if they obstructed his camera, and ventured to “points where his packers refused to follow him.”",
+         "kind": "museum",
+         "author": "Smithsonian American Art Museum",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "muybridge-sylvan-bar",
+       "title": "Sylvan Bar, Valley of the Yosemite",
+       "year": 1872,
+       "location": "Yosemite Valley, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "fluss",
+        "spiegelung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.cartermuseum.org/collection/sylvan-bar-valley-yosemite-p1972321",
+       "image_url": "https://d2ujpqfu85jxzw.cloudfront.net/website/panth-live/artwork/P1972-32-1/carter_p1972-32-1_o2_15.jpg",
+       "sources": [
+        {
+         "url": "https://www.cartermuseum.org/collection/sylvan-bar-valley-yosemite-p1972321",
+         "title": "Sylvan Bar, Valley of the Yosemite – Amon Carter Museum of American Art (Text aus dem Carter Handbook, 2023)",
+         "excerpt": "For this image he took a more painterly approach, crafting a composition with a gentle and gradual foreground that leads to far-off looming cliffs.",
+         "kind": "museum",
+         "author": "Amon Carter Museum of American Art",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "muybridge-tenaya-canyon",
+       "title": "Tenaya Canyon from Union Point, Valley of the Yosemite",
+       "year": 1872,
+       "location": "Yosemite, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "berg",
+        "wald",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.95411.html",
+       "image_url": "https://api.nga.gov/iiif/2ca076d1-5e84-4c46-82d3-28df28beb342/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "muybridge-cathedral-spires",
+       "title": "Cathedral Spires, Valley of the Yosemite",
+       "year": 1872,
+       "location": "Yosemite, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "fels",
+        "spiegelung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.136528.html",
+       "image_url": "https://api.nga.gov/iiif/5dcd4bc2-e8a5-45fa-a0a2-ff9524a0e717/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "muybridge-mosquito-camp",
+       "title": "Valley of the Yosemite from Mosquito Camp, No. 22",
+       "year": 1872,
+       "location": "Yosemite, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "spiegelung",
+        "baum",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.174951.html",
+       "image_url": "https://api.nga.gov/iiif/9e3078c2-92c2-455a-8a63-e7a015f54a78/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "muybridge-merced-river",
+       "title": "Clark & Moore, Merced River, Yosemite",
+       "year": 1872,
+       "location": "Yosemite, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "fluss",
+        "wald",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.226546.html",
+       "image_url": "https://api.nga.gov/iiif/c4422926-d3c9-4108-8533-6fd76e8a1b79/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "muybridge-mirror-lake",
+       "title": "Mirror Lake, Yosemite Valley",
+       "year": 1872,
+       "location": "Yosemite, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "see",
+        "spiegelung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.226866.html",
+       "image_url": "https://api.nga.gov/iiif/5843d2f8-a15c-40e7-843b-65256f28cbef/full/1600,/0/default.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "wh-jackson",
+   "name": "William Henry Jackson",
+   "born": 1843,
+   "died": 1942,
+   "sources": [
+    {
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/william-henry-jackson",
+     "title": "William Henry Jackson – Linda Hall Library, Scientist of the Day (William B. Ashworth Jr., 2017)",
+     "excerpt": "William Henry Jackson, a photographer of the American West, was born Apr. 4, 1843."
+    },
+    {
+     "url": "https://www.nps.gov/people/william-henry-jackson.htm",
+     "title": "William Henry Jackson – U.S. National Park Service",
+     "excerpt": "Date of Death: June 30, 1942"
+    },
+    {
+     "url": "https://www.nps.gov/people/william-henry-jackson.htm",
+     "title": "William Henry Jackson – U.S. National Park Service",
+     "excerpt": "William Henry Jackson is best known as the first person to photograph the wonders of Yellowstone. His images adorned the parlors of millions of American households and aided in the effort to create the world's first national park."
+    },
+    {
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/william-henry-jackson",
+     "title": "William Henry Jackson – Linda Hall Library, Scientist of the Day (William B. Ashworth Jr., 2017)",
+     "excerpt": "They spent the day of Aug. 23 maneuvering to a position on the mountain just opposite, and at dawn, Jackson was ready. He prepared 8 wet glass plates and exposed each of them to the cross across the valley; we see one of them above (fourth image)."
+    }
+   ],
+   "projects": [
+    {
+     "key": "wh-jackson-yellowstone-1871",
+     "title": "Hayden-Survey: Yellowstone 1871",
+     "year_from": 1871,
+     "year_to": 1871,
+     "sources": [
+      {
+       "url": "https://www.lindahall.org/about/news/scientist-of-the-day/william-henry-jackson",
+       "title": "William Henry Jackson – Linda Hall Library, Scientist of the Day (William B. Ashworth Jr., 2017)",
+       "excerpt": "The second survey of 1871 explored the newly discovered Yellowstone area, and Jackson's photographs of such sites as Old Faithful (first image), the Grand Canyon of the Yellowstone (second image), and Mammoth Hot Springs (third image) are truly amazing, given the primitive wet-plate technology that Jackson was using."
+      },
+      {
+       "url": "https://www.lindahall.org/about/news/scientist-of-the-day/william-henry-jackson",
+       "title": "William Henry Jackson – Linda Hall Library, Scientist of the Day (William B. Ashworth Jr., 2017)",
+       "excerpt": "That spring Jackson accompanied Hayden to Washington, where the two labored hard to convince Congress to preserve the unique Yellowstone area from commercial encroachment."
+      },
+      {
+       "url": "https://www.nps.gov/people/william-henry-jackson.htm",
+       "title": "William Henry Jackson – U.S. National Park Service",
+       "excerpt": "Anyone else might have been daunted by the thought of transporting delicate camera equipment and glass plate negatives across the West, but Jackson’s experience as a bullwhacker would serve him well. The images he brought back caused a sensation. For many years, stories about geysers and waterfalls were thought to be tall tales, but Jackson provided proof of their existence."
+      }
+     ],
+     "images": [
+      {
+       "key": "jackson-great-falls",
+       "title": "Great Falls of the Yellowstone",
+       "year": 1871,
+       "location": "Yellowstone, Wyoming, USA",
+       "tags": [
+        "landschaft",
+        "wasserfall",
+        "schlucht",
+        "schwarzweiß",
+        "19. jahrhundert"
+       ],
+       "source_url": "https://www.loc.gov/item/2020630255/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/68700/68716v.jpg",
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2020630255/",
+         "title": "Great Falls of the Yellowstone – Library of Congress, Prints & Photographs (Katalogtext)",
+         "excerpt": "Photograph taken during F.V. Hayden's 1871 U.S. Geological Survey of the Territories for the Department of the Interior shows waterfalls of Yellowstone River flowing into canyon, Yellowstone National Park, Wyoming.",
+         "kind": "museum",
+         "author": "Library of Congress",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "jackson-grand-canyon",
+       "title": "Grand Canyon of the Yellowstone River",
+       "year": 1871,
+       "location": "Yellowstone, Wyoming, USA",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "schwarzweiß",
+        "19. jahrhundert"
+       ],
+       "source_url": "https://www.loc.gov/item/95514206/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a20000/3a21000/3a21400/3a21404v.jpg",
+       "sources": []
+      },
+      {
+       "key": "jackson-upper-falls",
+       "title": "Upper Falls of the Yellowstone River",
+       "year": 1871,
+       "location": "Yellowstone, Wyoming, USA",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "wasserfall",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.loc.gov/item/95514223/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a20000/3a21000/3a21400/3a21403v.jpg",
+       "sources": []
+      },
+      {
+       "key": "jackson-river-above-falls",
+       "title": "Yellowstone River above the falls",
+       "year": 1871,
+       "location": "Yellowstone, Wyoming, USA",
+       "tags": [
+        "landschaft",
+        "fluss",
+        "wald",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.loc.gov/item/95514162/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3b00000/3b00000/3b00400/3b00460v.jpg",
+       "sources": []
+      },
+      {
+       "key": "jackson-mammoth-hot-springs",
+       "title": "Mammoth Hot Springs",
+       "year": 1871,
+       "location": "Yellowstone, Wyoming, USA",
+       "tags": [
+        "landschaft",
+        "quelle",
+        "geologie",
+        "schwarzweiß",
+        "19. jahrhundert"
+       ],
+       "source_url": "https://www.loc.gov/item/2020630262/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/68700/68723v.jpg",
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2020630262/",
+         "title": "Mammoth Hot Springs – Library of Congress, Prints & Photographs (Katalogtext)",
+         "excerpt": "Photograph taken during F.V. Hayden's 1871 U.S. Geological Survey of the Territories for the Department of the Interior shows view of terraced rock formation at hot spring, Yellowstone National Park, Wyoming.",
+         "kind": "museum",
+         "author": "Library of Congress",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "jackson-gardiners-river",
+       "title": "Hot springs on the Gardiners River, Upper Basin",
+       "year": 1871,
+       "location": "Yellowstone, Wyoming, USA",
+       "tags": [
+        "landschaft",
+        "quelle",
+        "mensch",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.loc.gov/item/95514246/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3b10000/3b10000/3b10700/3b10779v.jpg",
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/95514246/",
+         "title": "Hot springs on the Gardiners River, Upper Basin – Library of Congress, Prints & Photographs (Katalogtext)",
+         "excerpt": "Man standing on ridge of hot springs; Gardiner River flowing down the ridge.",
+         "kind": "museum",
+         "author": "Library of Congress",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "jackson-valley-of-the-yellowstone",
+       "title": "Valley of the Yellowstone",
+       "year": 1871,
+       "location": "Montana/Wyoming, USA",
+       "tags": [
+        "landschaft",
+        "fluss",
+        "tal",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.loc.gov/item/94501670/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3c00000/3c09000/3c09700/3c09739v.jpg",
+       "sources": []
+      },
+      {
+       "key": "jackson-yellowstone-lake-se-arm",
+       "title": "Looking up S.E. Arm with Promontory Point in center, Yellowstone Lake",
+       "year": 1871,
+       "location": "Yellowstone Lake, Wyoming, USA",
+       "tags": [
+        "landschaft",
+        "see",
+        "schwarzweiß",
+        "19. jahrhundert"
+       ],
+       "source_url": "https://www.loc.gov/item/95514174/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/06700/06773v.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "edward-weston",
+   "name": "Edward Weston",
+   "born": 1886,
+   "died": 1958,
+   "sources": [
+    {
+     "url": "https://www.edward-weston.com/edwardweston",
+     "title": "Edward Weston Biography – edward-weston.com (Website der Familie Weston)",
+     "excerpt": "Edward Henry Weston was born March 24, 1886, in Highland Park, Illinois."
+    },
+    {
+     "url": "https://www.edward-weston.com/edwardweston",
+     "title": "Edward Weston Biography – edward-weston.com (Website der Familie Weston)",
+     "excerpt": "Edward Weston died on January 1, 1958 at his home, Wildcat Hill, in Carmel, California."
+    },
+    {
+     "url": "https://ccp.arizona.edu/artists/edward-weston",
+     "title": "Edward Weston – Center for Creative Photography, University of Arizona",
+     "excerpt": "Along with Ansel Adams, Weston pioneered a modernist style characterized by the use of a large-format camera to create sharply focused and richly detailed black-and-white photographs."
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Edward_Weston/",
+     "title": "Edward Weston – SFMOMA (Audio-Einführung, Transkript)",
+     "excerpt": "Weston wrote: “Clouds, torsos, shells, peppers, trees, rocks, smokestacks are but interdependent, interrelated parts of a whole, which is life. Life rhythms felt in no matter what—be it a cabbage leaf, a human body, or a strand of kelp—become symbols of the whole.”"
+    }
+   ],
+   "projects": [
+    {
+     "key": "weston-point-lobos-oceano",
+     "title": "Point Lobos und die Dünen von Oceano (Project Prints)",
+     "year_from": 1929,
+     "year_to": 1940,
+     "sources": [
+      {
+       "url": "https://www.edward-weston.com/edwardweston",
+       "title": "Edward Weston Biography – edward-weston.com (Website der Familie Weston)",
+       "excerpt": "Weston moved to Carmel, California in 1929 and shot the first of many photographs of rocks and trees at Point Lobos, California."
+      },
+      {
+       "url": "https://www.edward-weston.com/edwardweston",
+       "title": "Edward Weston Biography – edward-weston.com (Website der Familie Weston)",
+       "excerpt": "1936 marked the start of Weston’s series of nudes and sand dunes in Oceano, California, which are often considered some of his finest work."
+      },
+      {
+       "url": "https://www.edward-weston.com/edwardweston",
+       "title": "Edward Weston Biography – edward-weston.com (Website der Familie Weston)",
+       "excerpt": "The group chose this optical term because they habitually set their lenses to that aperture to secure maximum image sharpness of both foreground and distance."
+      },
+      {
+       "url": "https://www.edward-weston.com/edwardweston",
+       "title": "Edward Weston Biography – edward-weston.com (Website der Familie Weston)",
+       "excerpt": "Brett printed what was known as the Project Prints. A series of 8 -10 prints from 832 negatives considered Edward’s lifetime best."
+      }
+     ],
+     "images": [
+      {
+       "key": "weston-cypress-root",
+       "title": "Cypress Root, Point Lobos",
+       "year": 1929,
+       "location": "Point Lobos, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "baum",
+        "struktur",
+        "nahaufnahme",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/120840",
+       "image_url": "https://www.artic.edu/iiif/2/d4735d28-a3bd-563b-3d2d-13f723bea1e4/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "weston-rock-erosion",
+       "title": "Rock Erosion, Point Lobos",
+       "year": 1930,
+       "location": "Point Lobos, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "fels",
+        "struktur",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/120849",
+       "image_url": "https://www.artic.edu/iiif/2/9b3970d4-92bb-c793-85f4-febd8bd6f8eb/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "weston-surf-point-lobos",
+       "title": "Surf, Point Lobos",
+       "year": 1938,
+       "location": "Point Lobos, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "meer",
+        "fels",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/121022",
+       "image_url": "https://www.artic.edu/iiif/2/43c2d500-4728-641c-876b-157e3633f170/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "weston-south-shore",
+       "title": "South Shore, Point Lobos",
+       "year": 1938,
+       "location": "Point Lobos, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "fels",
+        "meer",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/121010",
+       "image_url": "https://www.artic.edu/iiif/2/e2e25ec7-c740-9446-696f-9ade2f7c28e9/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "weston-sunset-point-lobos",
+       "title": "Sunset, Point Lobos",
+       "year": 1938,
+       "location": "Point Lobos, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "gegenlicht",
+        "meer",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/121003",
+       "image_url": "https://www.artic.edu/iiif/2/61bad079-7ac1-4c6d-95c2-b54a74afddd4/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "weston-china-cove",
+       "title": "China Cove, Point Lobos",
+       "year": 1940,
+       "location": "Point Lobos, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "wasser",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/121044",
+       "image_url": "https://www.artic.edu/iiif/2/7f79e693-690f-3cf1-2b40-f288094bfb8b/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "weston-dried-kelp",
+       "title": "Dried Kelp, Point Lobos",
+       "year": 1940,
+       "location": "Point Lobos, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "nahaufnahme",
+        "struktur",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/121043",
+       "image_url": "https://www.artic.edu/iiif/2/db1c949a-3295-dc64-6a84-06869414ebaa/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "weston-sand-dunes-oceano-1934",
+       "title": "Sand Dunes, Oceano",
+       "year": 1934,
+       "location": "Oceano, Kalifornien, USA",
+       "tags": [
+        "düne",
+        "schatten",
+        "form",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/120914",
+       "image_url": "https://www.artic.edu/iiif/2/5466955d-4e90-58e5-9683-8f422a8533cc/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "weston-dunes-oceano-1936",
+       "title": "Dunes, Oceano",
+       "year": 1936,
+       "location": "Oceano, Kalifornien, USA",
+       "tags": [
+        "düne",
+        "form",
+        "schatten",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/120929",
+       "image_url": "https://www.artic.edu/iiif/2/0b30b70e-8dc1-44af-31f1-c789bee5ba97/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "weston-oceano-dunes-1936",
+       "title": "Oceano, Dunes",
+       "year": 1936,
+       "location": "Oceano, Kalifornien, USA",
+       "tags": [
+        "düne",
+        "form",
+        "reduktion",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/120930",
+       "image_url": "https://www.artic.edu/iiif/2/946f6e1c-6462-ed98-8acd-52e2510a6343/full/843,/0/default.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "brett-weston",
+   "name": "Brett Weston",
+   "born": 1911,
+   "died": 1993,
+   "sources": [
+    {
+     "url": "https://brettwestonarchive.com/about-brett-weston/",
+     "title": "About Brett Weston – The Brett Weston Archive",
+     "excerpt": "Born in Los Angeles in 1911, the second son of photographer Edward Weston, he had perhaps the closest artistic relationship with his famous father of all four of the Weston sons."
+    },
+    {
+     "url": "https://brettwestonarchive.com/about-brett-weston/",
+     "title": "About Brett Weston – The Brett Weston Archive",
+     "excerpt": "Brett Weston died in Kona, Hawaii, January 22, 1993."
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Brett_Weston/",
+     "title": "Brett Weston – SFMOMA (Biografie)",
+     "excerpt": "Like his father, his primary concern was formal and his subject was the natural landscape, yet his interest in abstract pattern and design was all his own."
+    },
+    {
+     "url": "https://brettwestonarchive.com/about-brett-weston/",
+     "title": "About Brett Weston – The Brett Weston Archive",
+     "excerpt": "He concentrated mostly on close-ups and abstracted details, but his prints reflected a preference for high contrast that reduced his subjects to pure form."
+    }
+   ],
+   "projects": [
+    {
+     "key": "brett-weston-white-sands",
+     "title": "White Sands (Portfolio)",
+     "year_from": 1945,
+     "year_to": 1946,
+     "sources": [
+      {
+       "url": "https://www.holdenluntz.com/magazine/photo-spotlight/brett-westons-dunes/",
+       "title": "Father & Son: Brett Weston’s Dunes – Holden Luntz Gallery (Photo Spotlight)",
+       "excerpt": "He first encountered the subject of dunes on a cross-country drive at the White Sands National Monument in New Mexico. This area holds the largest concentration of white gypsum dunes. Its harsh, minimalist desert landscape, along with the sensuous texture of the sand, provided an excellent subject for Brett Weston."
+      },
+      {
+       "url": "https://www.holdenluntz.com/magazine/photo-spotlight/brett-westons-dunes/",
+       "title": "Father & Son: Brett Weston’s Dunes – Holden Luntz Gallery (Photo Spotlight)",
+       "excerpt": "For Brett, mornings were ideal for photographing the dunes. The cool of the night cleared the air, and the wind was at its most calm. The early morning sunlight would transform the muted dune shapes into sharp-edged swirling forms of light and dark."
+      },
+      {
+       "url": "https://www.holdenluntz.com/magazine/photo-spotlight/brett-westons-dunes/",
+       "title": "Father & Son: Brett Weston’s Dunes – Holden Luntz Gallery (Photo Spotlight)",
+       "excerpt": "He exploited dramatic side lighting, sometimes photographing directly into the light, but used only the range of natural light for his compositions."
+      },
+      {
+       "url": "https://annarbor.com/entertainment/umma-brett-weston",
+       "title": "Brett Weston's distinct landscape photography on display at UMMA – AnnArbor.com (John Carlos Cantu, 7.9.2013) – Zitat Carole McNamara (UMMA)",
+       "excerpt": "Although some influence from his father was inescapable, the young Weston quickly set off in his own direction, printing his negatives with a higher gloss paper and in gelatin silver rather than platinum in order to achieve the deep contrasts and sharp edges he so valued.",
+       "kind": "kurator",
+       "author": "Carole McNamara",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "brett-weston-dunes-and-mountains",
+       "title": "Dunes And Mountains",
+       "year": 1945,
+       "location": "White Sands, New Mexico, USA",
+       "tags": [
+        "düne",
+        "berg",
+        "form",
+        "schwarzweiß"
+       ],
+       "source_url": "https://brettwestonarchive.com/portfolio-white-sands/",
+       "image_url": "https://brettwestonarchive.com/wp-content/uploads/2020/01/03_Dunes-And-Mountains-1945.jpg",
+       "sources": [
+        {
+         "url": "https://annarbor.com/entertainment/umma-brett-weston",
+         "title": "Brett Weston's distinct landscape photography on display at UMMA – AnnArbor.com (John Carlos Cantu, 7.9.2013)",
+         "excerpt": "“Dunes and Mountains” from the same year and the same portfolio, on the other hand, finds Weston enamored with the ripples of the White Sands landscape.",
+         "kind": "kritik",
+         "author": "John Carlos Cantu",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "brett-weston-yucca-and-dunes",
+       "title": "Yucca And Dunes",
+       "year": 1946,
+       "location": "White Sands, New Mexico, USA",
+       "tags": [
+        "düne",
+        "pflanze",
+        "himmel",
+        "schwarzweiß"
+       ],
+       "source_url": "https://brettwestonarchive.com/portfolio-white-sands/",
+       "image_url": "https://brettwestonarchive.com/wp-content/uploads/2020/01/02_Yucca-And-Dunes-1946-1.jpg",
+       "sources": []
+      },
+      {
+       "key": "brett-weston-dunes-1946",
+       "title": "Dunes",
+       "year": 1946,
+       "location": "White Sands, New Mexico, USA",
+       "tags": [
+        "düne",
+        "schatten",
+        "form",
+        "schwarzweiß"
+       ],
+       "source_url": "https://brettwestonarchive.com/portfolio-white-sands/",
+       "image_url": "https://brettwestonarchive.com/wp-content/uploads/2020/01/04_Dunes-1946.jpg",
+       "sources": []
+      },
+      {
+       "key": "brett-weston-white-sands-06",
+       "title": "White Sands",
+       "year": 1946,
+       "location": "White Sands, New Mexico, USA",
+       "tags": [
+        "düne",
+        "pflanze",
+        "schatten",
+        "schwarzweiß"
+       ],
+       "source_url": "https://brettwestonarchive.com/portfolio-white-sands/",
+       "image_url": "https://brettwestonarchive.com/wp-content/uploads/2020/01/06_White-Sands-1946.jpg",
+       "sources": []
+      },
+      {
+       "key": "brett-weston-yucca-and-scrub-08",
+       "title": "Yucca And Scrub",
+       "year": 1946,
+       "location": "White Sands, New Mexico, USA",
+       "tags": [
+        "düne",
+        "pflanze",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://brettwestonarchive.com/portfolio-white-sands/",
+       "image_url": "https://brettwestonarchive.com/wp-content/uploads/2020/01/08_Yucca-And-Scrub-1946.jpg",
+       "sources": []
+      },
+      {
+       "key": "brett-weston-scrub",
+       "title": "Scrub",
+       "year": 1946,
+       "location": "White Sands, New Mexico, USA",
+       "tags": [
+        "düne",
+        "pflanze",
+        "muster",
+        "schwarzweiß"
+       ],
+       "source_url": "https://brettwestonarchive.com/portfolio-white-sands/",
+       "image_url": "https://brettwestonarchive.com/wp-content/uploads/2020/01/10_Scrub-1946.jpg",
+       "sources": []
+      },
+      {
+       "key": "brett-weston-white-sands-11",
+       "title": "White Sands",
+       "year": 1946,
+       "location": "White Sands, New Mexico, USA",
+       "tags": [
+        "düne",
+        "pflanze",
+        "reduktion",
+        "schwarzweiß"
+       ],
+       "source_url": "https://brettwestonarchive.com/portfolio-white-sands/",
+       "image_url": "https://brettwestonarchive.com/wp-content/uploads/2020/01/11_White-Sands-1946.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "minor-white",
+   "name": "Minor White",
+   "born": 1908,
+   "died": 1976,
+   "sources": [
+    {
+     "url": "https://www.sfmoma.org/artist/Minor_White/",
+     "title": "Minor White – SFMOMA (Biografie)",
+     "excerpt": "Minor White American 1908, Minneapolis, Minnesota 1976, Boston, Massachusetts"
+    },
+    {
+     "url": "https://www.getty.edu/art/exhibitions/minor_white/",
+     "title": "Minor White: Manifestations of the Spirit – J. Paul Getty Museum (Ausstellung 2014)",
+     "excerpt": "Throughout his career, White sought to photograph things not only for what they are but also for what they may suggest, and his pictures teem with symbolic and metaphorical allusions."
+    },
+    {
+     "url": "https://www.getty.edu/art/exhibitions/minor_white/",
+     "title": "Minor White: Manifestations of the Spirit – J. Paul Getty Museum (Ausstellung 2014)",
+     "excerpt": "Born and educated in Minnesota, White began his photographic career when he moved to Oregon in 1937 and began to photograph rural landscapes in the spirit of Ansel Adams."
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Minor_White/",
+     "title": "Minor White – SFMOMA (Biografie)",
+     "excerpt": "Art was a quasi-religious dedication for White, who saw photography as a means of tapping into deep, spiritual realms of the human psyche. He exhorted his students, as well as readers of the magazine Aperture, which he cofounded in 1952 and edited for 23 years, to use photography to express and explore their inner selves."
+    }
+   ],
+   "projects": [
+    {
+     "key": "minor-white-these-images",
+     "title": "These Images – Küste von San Mateo County (1947, Portfolio 1950)",
+     "year_from": 1947,
+     "year_to": 1950,
+     "sources": [
+      {
+       "url": "https://www.getty.edu/art/exhibitions/minor_white/",
+       "title": "Minor White: Manifestations of the Spirit – J. Paul Getty Museum (Ausstellung 2014)",
+       "excerpt": "At the invitation of Ansel Adams, White moved to San Francisco to teach at the California School of Fine Arts in 1946. There, he investigated the critical aspect called \"equivalency,\" where an image serves as an idea or emotional state beyond the subject pictured."
+      },
+      {
+       "url": "https://www.sfmoma.org/artist/Minor_White/",
+       "title": "Minor White – SFMOMA (Biografie)",
+       "excerpt": "White taught at the California School of Fine Arts (now the San Francisco Art Institute) for only seven years, from 1946 to 1953, but his impact on photography in the Bay Area was profound and sustained."
+      }
+     ],
+     "images": [
+      {
+       "key": "minor-white-121764",
+       "title": "Sun in Rock, Devil's Slide",
+       "year": 1947,
+       "location": "San Mateo County, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "gegenlicht",
+        "fels",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/121764",
+       "image_url": "https://www.artic.edu/iiif/2/399e4639-8a0b-2bdf-471e-647ccd62d759/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "minor-white-123516",
+       "title": "Fog Bank and Surf, San Mateo County",
+       "year": 1947,
+       "location": "San Mateo County, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "nebel",
+        "meer",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/123516",
+       "image_url": "https://www.artic.edu/iiif/2/d0f0e9c5-4350-b214-6cd3-ebc280cb44d9/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "minor-white-121760",
+       "title": "Black Cliff and Waves, Matchstick Cove",
+       "year": 1947,
+       "location": "San Mateo County, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "fels",
+        "welle",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/121760",
+       "image_url": "https://www.artic.edu/iiif/2/09ba3efd-4790-7481-f167-90161ecbc805/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "minor-white-123508",
+       "title": "Matchstick Cove, San Mateo County, California",
+       "year": 1947,
+       "location": "San Mateo County, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "bucht",
+        "berg",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/123508",
+       "image_url": "https://www.artic.edu/iiif/2/4806036a-fc35-a0f5-756d-2016e8c9ae0a/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "minor-white-123506",
+       "title": "Fog Bank, San Mateo County",
+       "year": 1947,
+       "location": "San Mateo County, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "nebel",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/123506",
+       "image_url": "https://www.artic.edu/iiif/2/e9297ae4-2535-8065-b192-a89ae0111455/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "minor-white-123518",
+       "title": "Devil's Slide, San Mateo County, California (Highway 1)",
+       "year": 1948,
+       "location": "San Mateo County, Kalifornien, USA",
+       "tags": [
+        "meer",
+        "nebel",
+        "licht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/123518",
+       "image_url": "https://www.artic.edu/iiif/2/26d0dbbf-6a53-d3a9-fb41-be6045d6f500/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "minor-white-121759",
+       "title": "One Wave, Matchstick Cove",
+       "year": 1947,
+       "location": "San Mateo County, Kalifornien, USA",
+       "tags": [
+        "meer",
+        "welle",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/121759",
+       "image_url": "https://www.artic.edu/iiif/2/2e594c8e-44da-72fe-2b22-aea36d5d1158/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "minor-white-123512",
+       "title": "Cloud over Pacific, San Mateo County",
+       "year": 1947,
+       "location": "San Mateo County, Kalifornien, USA",
+       "tags": [
+        "meer",
+        "wolke",
+        "himmel",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/123512",
+       "image_url": "https://www.artic.edu/iiif/2/f304cc23-9d30-77a1-a3bc-1ed9b514ef8a/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "minor-white-121765",
+       "title": "San Mateo County, California (Coast)",
+       "year": 1947,
+       "location": "San Mateo County, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "brandung",
+        "aufsicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/121765",
+       "image_url": "https://www.artic.edu/iiif/2/e7e7d143-daed-28d4-3469-748b6a95c108/full/843,/0/default.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "caponigro",
+   "name": "Paul Caponigro",
+   "born": 1932,
+   "died": 2024,
+   "sources": [
+    {
+     "url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+     "title": "Bruce Davidson / Paul Caponigro at The Huntington Library – Art Blart (mit Pressetext der Huntington Library, 2015)",
+     "excerpt": "Paul Caponigro (American, 1932-2024) Avebury, Wiltshire, England 1967"
+    },
+    {
+     "url": "https://paulcaponigro.com/index.php/about/",
+     "title": "About Paul Caponigro – paulcaponigro.com",
+     "excerpt": "Minor White and Ansel Adams were among Paul’s teachers. In short order, those masters of photography became his friends and he joined their ranks in his own right."
+    },
+    {
+     "url": "https://paulcaponigro.com/index.php/about/",
+     "title": "About Paul Caponigro – paulcaponigro.com",
+     "excerpt": "Paul has traveled across the Unites States, Britain, Europe, and Japan photographing small details and vast landscapes. While one might see the underpinnings of modernist photography, it is subdued by Paul’s focus on atmosphere and unique framing that often gives life to sacred places or finds the sacred in the ordinary."
+    }
+   ],
+   "projects": [
+    {
+     "key": "caponigro-britain-ireland",
+     "title": "Megalithen und Landschaft in Britannien und Irland",
+     "year_from": 1967,
+     "year_to": 1977,
+     "sources": [
+      {
+       "url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+       "title": "Bruce Davidson / Paul Caponigro at The Huntington Library – Art Blart (mit Pressetext der Huntington Library, 2015)",
+       "excerpt": "During numerous visits starting in 1967, Caponigro focused on the ancient stone circles, dolmens, and early churches in the British and Celtic landscape. “There’s a force in the land and it’s intelligent” became Caponigro’s mantra and guide."
+      },
+      {
+       "url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+       "title": "Bruce Davidson / Paul Caponigro at The Huntington Library – Art Blart (mit Pressetext der Huntington Library, 2015)",
+       "excerpt": "In 1966, he went to Ireland and Britain on a Guggenheim grant. He had intended to travel to Egypt, but unrest in the Middle East interrupted his plans. “Ireland became my Egypt,” he said, “and the stones my temples.”"
+      },
+      {
+       "url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+       "title": "Bruce Davidson / Paul Caponigro at The Huntington Library – Art Blart (mit Pressetext der Huntington Library, 2015)",
+       "excerpt": "Davidson is a photojournalist and member of the prestigious Magnum Agency; Caponigro practices a pure, formalist approach to landscape photography. Both are devoted to black-and-white film and continue to make prints by hand.",
+       "kind": "museum",
+       "author": "The Huntington Library (Pressetext)",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "caponigro-stonehenge-1967",
+       "title": "Stonehenge, England",
+       "year": 1967,
+       "location": "Wiltshire, England",
+       "tags": [
+        "landschaft",
+        "stein",
+        "monument",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/31786",
+       "image_url": "https://www.artic.edu/iiif/2/b8dc5294-bcd4-f979-6d20-7fa52297078d/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "caponigro-stone-and-tree-avebury",
+       "title": "Stone and Tree",
+       "year": 1967,
+       "location": "Avebury, Wiltshire, England",
+       "tags": [
+        "landschaft",
+        "stein",
+        "baum",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/31783",
+       "image_url": "https://www.artic.edu/iiif/2/895da148-4a8d-988c-1cef-522a837dda76/full/843,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+         "title": "Art Blart – Kommentar Marcus Bunyan zur Ausstellung (2015)",
+         "excerpt": "Best to just enjoy the photographs individually, especially Caponigro’s glorious paen to ancient forces Avebury, Wiltshire, England (1967, above). The life force of the tree, the life force of the stone – the communion of those two things with the landscape – with sheep in the background.",
+         "kind": "kritik",
+         "author": "Marcus Bunyan",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "caponigro-running-white-deer",
+       "title": "Running White Deer, Wicklow, Ireland",
+       "year": 1967,
+       "location": "County Wicklow, Irland",
+       "tags": [
+        "landschaft",
+        "tier",
+        "bewegung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+       "image_url": "https://artblart.com/wp-content/uploads/2015/01/caponigro-deer-web.jpg",
+       "sources": []
+      },
+      {
+       "key": "caponigro-cloud-and-tree-clonfert",
+       "title": "Cloud and Tree, Clonfert Co, Galway, Ireland",
+       "year": 1967,
+       "location": "County Galway, Irland",
+       "tags": [
+        "landschaft",
+        "baum",
+        "wolke",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.peterfetterman.com/artists/72-paul-caponigro/works/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/peterfetterman/images/view/5644c510a7d7bcdb1524d47adc4ea4ebp.png",
+       "sources": []
+      },
+      {
+       "key": "caponigro-connemara",
+       "title": "Connemara, County Galway, Ireland",
+       "year": 1970,
+       "location": "County Galway, Irland",
+       "tags": [
+        "landschaft",
+        "weg",
+        "haus",
+        "schwarzweiß"
+       ],
+       "source_url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+       "image_url": "https://artblart.com/wp-content/uploads/2015/01/04_caponigro_connemara-web.jpg",
+       "sources": []
+      },
+      {
+       "key": "caponigro-callanish",
+       "title": "Callanish Stone Circle, Isle of Lewis, Outer Hebrides, Scotland",
+       "year": 1972,
+       "location": "Isle of Lewis, Schottland",
+       "tags": [
+        "landschaft",
+        "stein",
+        "monument",
+        "schwarzweiß"
+       ],
+       "source_url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+       "image_url": "https://artblart.com/wp-content/uploads/2015/01/02_caponigro_callanish-web.jpg",
+       "sources": []
+      },
+      {
+       "key": "caponigro-stonehenge-1977",
+       "title": "Stonehenge, Wiltshire, England",
+       "year": 1977,
+       "location": "Wiltshire, England",
+       "tags": [
+        "stein",
+        "monument",
+        "spiegelung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+       "image_url": "https://artblart.com/wp-content/uploads/2015/01/09_caponigro_stonehenge-web.jpg",
+       "sources": []
+      },
+      {
+       "key": "caponigro-trethevy-quoit",
+       "title": "Trethevy Quoit, Cornwall, England",
+       "year": 1977,
+       "location": "Cornwall, England",
+       "tags": [
+        "stein",
+        "monument",
+        "form",
+        "schwarzweiß"
+       ],
+       "source_url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+       "image_url": "https://artblart.com/wp-content/uploads/2015/01/11_caponigro_trethevy-quoit-web.jpg",
+       "sources": []
+      },
+      {
+       "key": "caponigro-tralee-bay",
+       "title": "Tralee Bay, County Kerry, Ireland",
+       "year": 1977,
+       "location": "County Kerry, Irland",
+       "tags": [
+        "küste",
+        "sand",
+        "struktur",
+        "schwarzweiß"
+       ],
+       "source_url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+       "image_url": "https://artblart.com/wp-content/uploads/2015/01/10_caponigro-3-web.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "wynn-bullock",
+   "name": "Wynn Bullock",
+   "born": 1902,
+   "died": 1975,
+   "sources": [
+    {
+     "url": "http://www.wynnbullockphotography.com/bio_full.html",
+     "title": "Wynn Bullock – Biografie (Barbara Bullock-Wilson, April 2010), wynnbullockphotography.com",
+     "excerpt": "Wynn Bullock (April 18, 1902 – November, 16, 1975) was born in Chicago, Illinois, and raised in South Pasadena, California."
+    },
+    {
+     "url": "http://www.wynnbullockphotography.com/bio_full.html",
+     "title": "Wynn Bullock – Biografie (Barbara Bullock-Wilson, April 2010), wynnbullockphotography.com",
+     "excerpt": "A major turning point in Wynn’s life as a creative photographer occurred in 1948 when he met Edward Weston. Inspired by the power and beauty of Weston’s prints, he began to explore “straight” photography for himself."
+    },
+    {
+     "url": "http://www.wynnbullockphotography.com/quotes.html",
+     "title": "Wynn in his own words – wynnbullockphotography.com",
+     "excerpt": "My pictures are never pre-visualized or planned. I feel strongly that pictures must come from contact with things at the time and place of taking."
+    },
+    {
+     "url": "http://www.wynnbullockphotography.com/quotes.html",
+     "title": "Wynn in his own words – wynnbullockphotography.com",
+     "excerpt": "As I became aware that all things have unique spatial and temporal qualities which visually define and relate them, I began to perceive the things I was photographing not as objects but as events."
+    }
+   ],
+   "projects": [
+    {
+     "key": "wynn-bullock-monterey-coast",
+     "title": "Point Lobos und die Küste bei Monterey (1950er–60er)",
+     "year_from": 1954,
+     "year_to": 1966,
+     "sources": [
+      {
+       "url": "http://www.wynnbullockphotography.com/featured/2012-06/featured-1206-text.html",
+       "title": "Point Lobos Wave, 1958 – Kommentar von Barbara Bullock-Wilson (Featured Image Juni 2012, wynnbullockphotography.com)",
+       "excerpt": "For my father, such a place was a stretch of land and sea along the central coast of California called Point Lobos State Reserve."
+      },
+      {
+       "url": "http://www.wynnbullockphotography.com/featured/2012-06/featured-1206-text.html",
+       "title": "Point Lobos Wave, 1958 – Kommentar von Barbara Bullock-Wilson (Featured Image Juni 2012, wynnbullockphotography.com)",
+       "excerpt": "Initially, he spent a great deal of time in the field, peering through his 8 x 10 view camera, re-acquainting himself with familiar locales as he learned to relate to them in different ways."
+      },
+      {
+       "url": "http://www.wynnbullockphotography.com/bio_full.html",
+       "title": "Wynn Bullock – Biografie (Barbara Bullock-Wilson, April 2010), wynnbullockphotography.com",
+       "excerpt": "Although he included several different alternative processes (extremely long time exposures, multiple images, up-side-down and negative printing) in his repertoire of techniques, each was always used in the service of symbolizing new ways of relating to and knowing the world."
+      }
+     ],
+     "images": [
+      {
+       "key": "bullock-let-there-be-light",
+       "title": "Let There Be Light",
+       "year": 1954,
+       "tags": [
+        "meer",
+        "gegenlicht",
+        "nacht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.231011.html",
+       "image_url": "https://api.nga.gov/iiif/f586f12c-b314-4598-bacd-4e23ac0a0baa/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "bullock-seascape-1955",
+       "title": "Seascape",
+       "year": 1955,
+       "tags": [
+        "meer",
+        "nacht",
+        "wolke",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.peterfetterman.com/artists/49-wynn-bullock/works/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/peterfetterman/images/view/2384aa5d528465a910c203fc98248c93j.jpg",
+       "sources": []
+      },
+      {
+       "key": "bullock-stark-tree",
+       "title": "Stark Tree",
+       "year": 1956,
+       "tags": [
+        "baum",
+        "gegenlicht",
+        "nebel",
+        "schwarzweiß"
+       ],
+       "source_url": "http://www.wynnbullockphotography.com/featured/2013-02/index.html",
+       "image_url": "http://wynnbullockphotography.com/featured/2013-02/images/starktree700pxl.jpg",
+       "sources": [
+        {
+         "url": "http://www.wynnbullockphotography.com/featured/2013-02/featured-1302-text.html",
+         "title": "Stark Tree, 1956 – Kommentar von Barbara Bullock-Wilson mit Zitaten aus Darkroom (1977), wynnbullockphotography.com",
+         "excerpt": "A perfect example of this is the print of the Stark Tree. I passed that place on a mountain freeway maybe a dozen times and never wanted to take a picture. But one day the clouds, the atmospheric feeling of the scene, appealed to me. I got out of my car, set up the 8 x 10 camera and shot straight into the sun.",
+         "kind": "fotograf",
+         "author": "Wynn Bullock",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "bullock-del-monte-forest-1956",
+       "title": "Del Monte Forest",
+       "year": 1956,
+       "location": "Monterey-Halbinsel, Kalifornien, USA",
+       "tags": [
+        "wald",
+        "nebel",
+        "baum",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.213994.html",
+       "image_url": "https://api.nga.gov/iiif/5053845b-fd9b-45ed-b26e-f44ea3bf4bfb/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "bullock-pilings",
+       "title": "The Pilings",
+       "year": 1957,
+       "tags": [
+        "küste",
+        "langzeitbelichtung",
+        "nebel",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/212080",
+       "image_url": "https://www.artic.edu/iiif/2/15e899f3-dcf9-6b60-fa19-6edcd1823d33/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "bullock-point-lobos-tide-pool",
+       "title": "Point Lobos Tide Pool",
+       "year": 1957,
+       "location": "Point Lobos, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "wasser",
+        "struktur",
+        "schwarzweiß"
+       ],
+       "source_url": "http://www.wynnbullockphotography.com/featured/2013-01/index.html",
+       "image_url": "http://wynnbullockphotography.com/featured/2013-01/images/pointlobostidepool700.jpg",
+       "sources": [
+        {
+         "url": "http://www.wynnbullockphotography.com/featured/2013-01/featured-1301-text.html",
+         "title": "Point Lobos Tide Pool, 1957 – Kommentar von Barbara Bullock-Wilson (Featured Image Januar 2013, wynnbullockphotography.com)",
+         "excerpt": "The day this photograph was made, Dad was hauling his heavy field camera along the South Shore Trail when he happened upon a tide pool with a galaxy in its midst. He set up his equipment as quickly as he could and made his first exposure. Normally, he liked to bracket his exposures, but before he could make a second one, a gust of wind swept across the pool and the complex pattern of microscopic organisms vanished.",
+         "kind": "fotograf",
+         "author": "Barbara Bullock-Wilson",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "bullock-point-lobos-wave",
+       "title": "Point Lobos Wave",
+       "year": 1958,
+       "location": "Point Lobos, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "welle",
+        "fels",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.peterfetterman.com/artists/49-wynn-bullock/works/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/peterfetterman/images/view/cbdc17daad007c3e6b6a90177f4ec38dj.jpg",
+       "sources": [
+        {
+         "url": "http://www.wynnbullockphotography.com/featured/2012-06/featured-1206-text.html",
+         "title": "Point Lobos Wave, 1958 – Kommentar von Barbara Bullock-Wilson (Featured Image Juni 2012, wynnbullockphotography.com)",
+         "excerpt": "Our Featured Image Point Lobos Wave, 1958, is a vibrant symbol of both the spirit of the Reserve and his deep personal connection with it.",
+         "kind": "fotograf",
+         "author": "Barbara Bullock-Wilson",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "bullock-night-scene",
+       "title": "Night Scene",
+       "year": 1959,
+       "tags": [
+        "nacht",
+        "baum",
+        "nebel",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.peterfetterman.com/artists/49-wynn-bullock/works/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/peterfetterman/images/view/ffd8ebb94618a5f7ad001ec5dbb6b186j.jpg",
+       "sources": []
+      },
+      {
+       "key": "bullock-the-shore",
+       "title": "The Shore",
+       "year": 1966,
+       "tags": [
+        "küste",
+        "langzeitbelichtung",
+        "stein",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.peterfetterman.com/artists/49-wynn-bullock/works/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/peterfetterman/images/view/b19a5b536916836763dc06c4f0542a86j.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "giacomelli",
+   "name": "Mario Giacomelli",
+   "born": 1925,
+   "died": 2000,
+   "sources": [
+    {
+     "url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+     "title": "Mario Giacomelli's “Paesaggio” – Danziger Gallery (Online-Ausstellung 2025, Pressetext)",
+     "excerpt": "Recognized as one of the greatest Italian photographers, Mario Giacomelli (1925–2000) supported himself running his own print shop in Senigallia."
+    },
+    {
+     "url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+     "title": "Mario Giacomelli's “Paesaggio” – Danziger Gallery (Online-Ausstellung 2025, Pressetext)",
+     "excerpt": "Giving new meaning to the term “Sunday painter”, however, for the next four decades Giacomelli only photographed on Sundays when his shop was closed."
+    },
+    {
+     "url": "https://mamm-mdf.ru/en/exhibitions/poetry-of-landscape",
+     "title": "Mario Giacomelli – Poetry of landscape, Multimedia Art Museum Moscow (2017)",
+     "excerpt": "“I believe in abstraction, for me abstraction is a way to get closer to reality. The defocusing or blurring of the image, the grainy quality, the faded out white, the enclosed black — it’s as if it’s an explosion of a thought, allowing the image to exist for a long time, so that, in harmony with the material, with reality, the image is filled with a spiritual content and is able to reflect the internal world, the drama of life.”"
+    }
+   ],
+   "projects": [
+    {
+     "key": "giacomelli-paesaggio",
+     "title": "Paesaggio – Presa di coscienza sulla natura / Metamorfosi della terra",
+     "year_from": 1954,
+     "year_to": 2000,
+     "sources": [
+      {
+       "url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+       "title": "Mario Giacomelli's “Paesaggio” – Danziger Gallery (Online-Ausstellung 2025, Pressetext)",
+       "excerpt": "The Paesaggio series picture fields carved by tractors, furrows deepened by time, and soil shaped as much by man as by nature. His elevated and aerial viewpoints — either achieved by shooting from hillsides or taken from a friend’s small plane — compress distance and distort scale, rendering the terrain somewhat abstract, almost calligraphic."
+      },
+      {
+       "url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+       "title": "Mario Giacomelli's “Paesaggio” – Danziger Gallery (Online-Ausstellung 2025, Pressetext)",
+       "excerpt": "The stark contrasts of black and white, pushed and manipulated in the darkroom, create landscapes that feel etched, emphasizing line and texture along with the seasonal rhythm of farm work."
+      },
+      {
+       "url": "https://mamm-mdf.ru/en/exhibitions/poetry-of-landscape",
+       "title": "Mario Giacomelli – Poetry of landscape, Multimedia Art Museum Moscow (2017)",
+       "excerpt": "“Presa di coscienza sulla natura” (“A new consciousness of nature”, 1954–2000); “Metamorfosi della terra” (“Metamorphoses of the earth”, 1960–1980)"
+      },
+      {
+       "url": "https://art.nelson-atkins.org/objects/65654/paesaggi",
+       "title": "Paesaggi – Nelson-Atkins Museum of Art (Stempel auf der Rückseite des Abzugs)",
+       "excerpt": "PRESA DI CONSCIENZA SULLA NATURA / Il lavoro dell'uomo e il mio intervento / (i se gni, la materia, il caso, ecc.) regi-strati come document prima che va-dano persi per la relativa durata nel tempo.",
+       "kind": "fotograf",
+       "author": "Mario Giacomelli",
+       "aspect": "entstehung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "giacomelli-paesaggio-01",
+       "title": "On Being Aware of Nature",
+       "location": "Marken, Italien",
+       "tags": [
+        "landschaft",
+        "feld",
+        "kontrast",
+        "schwarzweiß"
+       ],
+       "source_url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5abb9910a09a728e158b4568/cfcc5fe3b2bf8804b358d4261f2024ea.jpeg",
+       "sources": []
+      },
+      {
+       "key": "giacomelli-paesaggio-02",
+       "title": "On Being Aware of Nature",
+       "location": "Marken, Italien",
+       "tags": [
+        "feld",
+        "muster",
+        "aufsicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5abb9910a09a728e158b4568/cb8653d750266a88c123fb9860d70a10.jpeg",
+       "sources": []
+      },
+      {
+       "key": "giacomelli-paesaggio-04",
+       "title": "Metamorphosis of the Land",
+       "location": "Marken, Italien",
+       "tags": [
+        "feld",
+        "muster",
+        "hügel",
+        "schwarzweiß"
+       ],
+       "source_url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5abb9910a09a728e158b4568/26d72d36618543e9da536d7a566e456e.jpeg",
+       "sources": []
+      },
+      {
+       "key": "giacomelli-paesaggio-06",
+       "title": "Metamorphosis of the Land",
+       "location": "Marken, Italien",
+       "tags": [
+        "feld",
+        "landwirtschaft",
+        "aufsicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5abb9910a09a728e158b4568/0be1e0c34a39cf6bb5c00c63f234bd2c.jpeg",
+       "sources": []
+      },
+      {
+       "key": "giacomelli-paesaggio-08",
+       "title": "Metamorphosis of the Land",
+       "location": "Marken, Italien",
+       "tags": [
+        "feld",
+        "fläche",
+        "kontrast",
+        "schwarzweiß"
+       ],
+       "source_url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5abb9910a09a728e158b4568/055f3039dca732a0773a2d2287d95840.jpeg",
+       "sources": []
+      },
+      {
+       "key": "giacomelli-paesaggio-14",
+       "title": "On Being Aware of Nature",
+       "location": "Marken, Italien",
+       "tags": [
+        "feld",
+        "struktur",
+        "abstraktion",
+        "schwarzweiß"
+       ],
+       "source_url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5abb9910a09a728e158b4568/26ba8e2f44b4e9569c67425aff61e737.jpeg",
+       "sources": []
+      },
+      {
+       "key": "giacomelli-paesaggio-16",
+       "title": "On Being Aware of Nature",
+       "location": "Marken, Italien",
+       "tags": [
+        "feld",
+        "muster",
+        "haus",
+        "schwarzweiß"
+       ],
+       "source_url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5abb9910a09a728e158b4568/4fa70a34a1bf01e4e0937703de23d859.jpeg",
+       "sources": []
+      },
+      {
+       "key": "giacomelli-paesaggio-19",
+       "title": "Metamorphosis of the Land",
+       "location": "Marken, Italien",
+       "tags": [
+        "feld",
+        "hügel",
+        "linie",
+        "schwarzweiß"
+       ],
+       "source_url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/5abb9910a09a728e158b4568/4c2805426567dc5fff119155e23403a9.jpeg",
+       "sources": []
+      },
+      {
+       "key": "giacomelli-come-fili-di-lana",
+       "title": "\"Come fili di lana\" (\"Like Threads of Wool\"), aus Storie di terra",
+       "tags": [
+        "feld",
+        "linie",
+        "bäume",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.232111.html",
+       "image_url": "https://api.nga.gov/iiif/ea3ff4e4-9e67-4850-a9ab-598fe1aea712/full/1600,/0/default.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 12,
+   "title": "Landschaftsfotografie: vom Erhabenen zur intimen Landschaft",
+   "period_from": 1850,
+   "period_to": 2025,
+   "sources": [],
+   "key_images": [
+    "muybridge-rocky-ford",
+    "jackson-great-falls",
+    "weston-dunes-oceano-1936",
+    "weston-cypress-root",
+    "brett-weston-dunes-and-mountains",
+    "minor-white-121764",
+    "caponigro-stone-and-tree-avebury",
+    "bullock-stark-tree",
+    "bullock-point-lobos-tide-pool",
+    "giacomelli-paesaggio-04"
+   ]
+  },
+  {
+   "number": 1,
+   "title": "Expeditions- und Reisefotografie des 19. Jahrhunderts",
+   "sources": [],
+   "key_images": [
+    "muybridge-union-point",
+    "muybridge-rocky-ford",
+    "jackson-great-falls",
+    "jackson-mammoth-hot-springs"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Die große Landschaftsfotografie in Schwarzweiß",
+   "sources": [],
+   "key_images": [
+    "weston-cypress-root",
+    "weston-dunes-oceano-1936",
+    "brett-weston-yucca-and-dunes",
+    "minor-white-123516",
+    "bullock-let-there-be-light",
+    "caponigro-callanish"
+   ]
+  }
+ ]
+}
