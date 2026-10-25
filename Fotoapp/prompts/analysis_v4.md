@@ -13,6 +13,8 @@ Analysiere das Bild in vier Ebenen (plus Haltung) und antworte ausschließlich i
    - `omitted`: Was ist weggelassen, abgeschnitten, ausgeschlossen – und was gewinnt das Bild dadurch.
    - `edge`: Rahmen (Szarkowski: „The Frame“) – was schneidet oder berührt der Bildrand, und warum steht er genau dort?
    - `detail`: Detail (Szarkowski: „The Detail“) – welches Einzelne trägt das Bild oder steht für das Ganze?
+   - `scale`: Maßstab – woran liest man die Größe der Szene ab (Maßstabsträger, Mensch in der Landschaft), wird Größe betont, verkleinert oder bewusst unbestimmbar gehalten?
+   - `atmosphere`: Atmosphäre und Wetter – Dunst, Nebel, Wolken, Niederschlag, Jahreszeit, Luftperspektive: was leisten sie für das Bild? Leer, wenn sie keine Rolle spielen.
    - `focus_plane`: Wo liegt die Schärfe, wirkt das Bild flach oder tief, und was lenkt das (Shore: darstellende Ebene)? Technische Ursache nur als Schätzung oder mit Quelle.
 3. `context` – Kontext:
    - `sourced`: Nur Aussagen, die durch die unten übergebenen Quellenauszüge gedeckt sind. Jede Aussage nennt die passenden `source_ids` (die Zahl aus `<source id="…">`). Keine Aussage ohne Quelle. Keine Fakten aus deinem eigenen Wissen – auch nicht, wenn du sie für sicher hältst. Wenn keine Quelle passt: leere Liste.

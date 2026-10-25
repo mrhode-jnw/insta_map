@@ -72,6 +72,12 @@ export const DIMENSIONS = [
   { key: "attitude", label: "Haltung", field: "stance",
     q: "Welche Haltung hat der Fotograf zu dem, was er zeigt – Nähe, Distanz, Respekt, Ironie, Außenblick?",
     hint: "Woran im Bild machst du das fest: Höhe, Abstand, Blickkontakt, Auswahl, Moment?" },
+  { key: "scale", label: "Maßstab", field: "scale",
+    q: "Woran liest du die Größe dieser Landschaft ab – und wie steuert der Fotograf, ob sie groß, klein oder unbestimmbar wirkt?",
+    hint: "Suche Maßstabsträger: Menschen, Bäume, Wege, Häuser. Fehlen sie, was passiert dann?" },
+  { key: "atmosphere", label: "Atmosphäre und Wetter", field: "atmosphere",
+    q: "Was tun Wetter, Dunst, Wolken oder Jahreszeit in diesem Bild – und was wäre es bei klarem Mittagslicht?",
+    hint: "Achte auf Luftperspektive, Kontrastabfall nach hinten, Wolkenschatten, nasse oder trockene Flächen." },
   { key: "sequence", label: "Sequenz", field: null },
 ];
 export const DIM = Object.fromEntries(DIMENSIONS.map(d => [d.key, d]));
@@ -94,6 +100,7 @@ export const CONSTRUCTION_LABELS = [
   ["viewpoint", "Standpunkt"], ["distance_focal_estimate", "Distanz / Brennweite (Schätzung)"],
   ["light", "Licht und Tageszeit"], ["moment", "Moment"], ["layers", "Ebenen"], ["color", "Farbe / Tonwerte"],
   ["omitted", "Weggelassen"], ["edge", "Rahmen / Bildkante"], ["detail", "Detail"], ["focus_plane", "Schärfe und Tiefe"],
+  ["scale", "Maßstab"], ["atmosphere", "Atmosphäre und Wetter"],
 ];
 export const referenceText = (data, field) => ((data?.construction || {})[field] || data?.[field] || "").trim();
 

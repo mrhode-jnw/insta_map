@@ -426,11 +426,13 @@ views.antworten = async () => {
 };
 
 // --- history
+const STATUS = { draft: "Entwurf", reviewed: "geprüft", base: "Grundtext (quellenbasiert)" };
 async function chapterState(ch) {
   const all = await loadState("chapters", {});
   const s = all[ch.id] || {};
   const ids = (s.images || ch.images || []).filter(i => lib.by.images.has(i));
-  return { text: s.text_md || "", status: s.status || "draft", ids, captions: s.captions || {} };
+  // Own edits win; otherwise the sourced base text from the library.
+  return { text: s.text_md || ch.text_md || "", own: !!s.text_md, status: s.status || (ch.text_md ? "base" : "draft"), ids, captions: s.captions || {} };
 }
 
 views.geschichte = async () => {
@@ -438,7 +440,7 @@ views.geschichte = async () => {
   return `<h1>Geschichte</h1><p class="lead">Kapitel entstehen aus hinterlegten Quellen. Ohne Beleg keine Aussage.</p>
   <table class="list"><thead><tr><th>#</th><th>Kapitel</th><th>Bilder</th><th>Status</th></tr></thead><tbody>
   ${lib.chapters.map(c => { const s = all[c.id] || {}; return `<tr><td>${c.number}</td><td><a href="#/kapitel/${c.id}">${esc(c.title)}</a></td>
-    <td>${(s.images || c.images || []).length}</td><td><span class="status ${s.status || "draft"}">${s.status === "reviewed" ? "geprüft" : "Entwurf"}</span>${s.text_md ? "" : ` <span class="muted">· ohne Text</span>`}</td></tr>`; }).join("")}
+    <td>${(s.images || c.images || []).length}</td><td><span class="status">${STATUS[s.status || (c.text_md ? "base" : "draft")]}</span>${s.text_md || c.text_md ? "" : ` <span class="muted">· ohne Text</span>`}</td></tr>`; }).join("")}
   </tbody></table><p><a href="#/zeitleiste">Zeitleiste</a></p>`;
 };
 
@@ -453,8 +455,9 @@ views.kapitel = async id => {
   pics.slice(used).forEach(p => blocks.push(fig(p)));
   return `<p class="crumbs"><a href="#/geschichte">Geschichte</a> › Kapitel ${ch.number}</p>
   <h1>${esc(ch.title)} <span class="muted">${ch.period_from || ""}–${ch.period_to || ""}</span></h1>
-  <p><span class="status ${s.status}">${s.status === "reviewed" ? "geprüft" : "Entwurf"}</span> · <a href="#/kapitel/${id}/bearbeiten">bearbeiten</a> · <a href="#/zeitleiste?k=${id}">Zeitleiste</a></p>
+  <p><span class="status ${s.status}">${STATUS[s.status]}</span> · <a href="#/kapitel/${id}/bearbeiten">bearbeiten</a> · <a href="#/zeitleiste?k=${id}">Zeitleiste</a></p>
   ${s.text ? "" : `<p class="muted">Noch kein Kapiteltext. Unter „bearbeiten“ einen Entwurf aus den Quellen erzeugen.</p>`}
+  ${s.text ? `<nav class="toc">${[...s.text.matchAll(/^## (.+)$/gm)].map(m => `<a href="#" data-toc="${esc(m[1])}">${esc(m[1])}</a>`).join("")}</nav>` : ""}
   <article class="chapter">${blocks.join("")}</article>${sourcesBlock(sourcesFor("chapter", id), { scope: "chapter" })}`;
 };
 
@@ -469,7 +472,7 @@ views.kapitelEdit = async id => {
   <div class="two-col wide-left"><div>
     <form data-action="chapter-save" data-id="${id}" class="grid-form card">
       <label class="wide">Text (Markdown; Belege als [S&lt;id&gt;], Ableitungen unter „## Meine Einschätzung“)<textarea name="text_md" rows="22" class="mono">${esc(text)}</textarea></label>
-      <label>Status <select name="status"><option value="draft">Entwurf</option><option value="reviewed" ${s.status === "reviewed" ? "selected" : ""}>geprüft</option></select></label>
+      <label>Status <select name="status"><option value="draft">Entwurf</option><option value="reviewed" ${s.status === "reviewed" ? "selected" : ""}>geprüft</option><option value="base" ${s.status === "base" ? "selected" : ""}>Grundtext</option></select></label>
       <button>Speichern</button></form>
     <div class="card"><button class="secondary" data-action="chapter-draft" data-id="${id}">Entwurf aus Quellen erzeugen</button><span class="busy">KI schreibt … (bis zu 2 Minuten)</span>
       <p class="muted small">Die KI sieht nur die ${srcs.length} Quellenauszüge dieses Kapitels und die Angaben zu den Schlüsselbildern.</p></div>
@@ -745,6 +748,13 @@ document.addEventListener("click", e => {
   const el = e.target.closest("button[data-action]");
   if (!el || !actions[el.dataset.action] || el.form?.dataset.action) return;
   e.preventDefault(); actions[el.dataset.action](el);
+});
+// Chapter table of contents: scroll to the heading.
+document.addEventListener("click", e => {
+  const a = e.target.closest("a[data-toc]"); if (!a) return;
+  e.preventDefault();
+  const h = [...document.querySelectorAll(".chapter h3, .chapter h2")].find(x => x.textContent.trim() === a.dataset.toc);
+  h?.scrollIntoView({ behavior: "smooth", block: "start" });
 });
 // [S<id>] links: scroll to the source instead of changing the route
 document.addEventListener("click", e => {

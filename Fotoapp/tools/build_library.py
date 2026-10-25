@@ -44,6 +44,7 @@ CHAPTERS = [
     (9, "Zeitgenössische Landschaft: Mensch, Industrie, Klima"),
     (10, "Instagram und die Folgen"),
     (11, "Die Reise als Autorenprojekt: Roadtrip, Fremde, Blick von außen"),
+    (12, "Landschaftsfotografie: vom Erhabenen zur intimen Landschaft"),
 ]
 
 
@@ -177,6 +178,21 @@ class Library:
             n += len(self.add_sources(entry.get("experts"), "image", iid, accessed))
         return n
 
+    def import_chapter_texts(self, data: dict) -> int:
+        """Sourced base texts for chapters ([S<id>] for library sources, [Qn] for the file's own sources)."""
+        accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
+        n = 0
+        for c in data.get("chapters", []):
+            ch = self.chapters.setdefault(c["number"], {
+                "id": f"c{c['number']}", "number": c["number"], "title": c.get("title", ""),
+                "period_from": None, "period_to": None, "images": []})
+            if ch["period_from"] is None:
+                ch["period_from"], ch["period_to"] = c.get("period_from"), c.get("period_to")
+            ids = self.add_sources(c.get("sources"), "chapter", ch["id"], accessed)
+            ch["text_md"] = q_to_s(c.get("text_md", ""), ids)
+            n += 1
+        return n
+
     def import_bios(self, data: dict) -> int:
         accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
         by_name = {p["name"]: p for p in self.photographers.values()}
@@ -303,6 +319,7 @@ def main() -> None:
     for f in sorted(SEED_DIR.glob("content_*.json"), key=seed_order):
         lib.import_file(json.loads(f.read_text(encoding="utf-8")))
     experts = sum(lib.import_experts(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("experts_*.json")))
+    texts = sum(lib.import_chapter_texts(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("chapter_texts_*.json")))
     bio_file = SEED_DIR / "photographers_bio.json"
     bios = lib.import_bios(json.loads(bio_file.read_text(encoding="utf-8"))) if bio_file.exists() else 0
 
@@ -334,7 +351,7 @@ def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"{len(out['photographers'])} Fotografen, {len(out['images'])} Bilder, {len(out['sources'])} Quellen "
-          f"({experts} Expertenstimmen), {bios} Biografien, {len(out['concepts'])} Begriffe → {OUT.relative_to(ROOT)}")
+          f"({experts} Expertenstimmen), {bios} Biografien, {texts} Kapiteltexte, {len(out['concepts'])} Begriffe → {OUT.relative_to(ROOT)}")
     if failed:
         print("\nNicht geladen:", *failed, sep="\n  - ")
 

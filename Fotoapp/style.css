@@ -236,3 +236,4 @@ form.ask textarea { flex: 1; }
 .next { position: sticky; bottom: 0; background: linear-gradient(transparent, var(--bg) 30%); padding: 18px 0 max(10px, env(safe-area-inset-bottom)); }
 @media (max-width: 600px) { .artist.big { flex-direction: column; } .artist.big .portrait { width: 100%; height: auto; max-height: 60vh; } }
 .next.top { position: static; background: none; padding: 0 0 8px; text-align: right; }
+.toc { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 10px 0 18px; font-size: 0.9rem; } .status.base { color: var(--ok); border-color: var(--ok); }
