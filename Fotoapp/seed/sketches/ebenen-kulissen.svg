@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 196" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="10" y="10" width="250" height="150" fill="#e8edf2" stroke="none"/>
+  <path d="M10 70 L40 58 L80 66 L120 50 L170 62 L210 52 L260 60 V160 H10 Z" fill="#c2cedb" stroke="none"/>
+  <path d="M10 92 L50 76 L95 88 L140 72 L190 86 L230 76 L260 82 V160 H10 Z" fill="#8ea0b4" stroke="none"/>
+  <path d="M10 116 L45 102 L90 110 L130 96 L175 112 L220 100 L260 108 V160 H10 Z" fill="#5a6b80" stroke="none"/>
+  <path d="M10 140 L60 124 L110 136 L160 122 L210 138 L260 128 V160 H10 Z" fill="#26303c" stroke="none"/>
+  <rect x="10" y="10" width="250" height="150"/>
+  <path d="M266 58 H276 M266 80 H276 M266 104 H276 M266 128 H276" class="a"/>
+  <text x="282" y="56" class="m">4 hell, blass</text>
+  <text x="282" y="70" class="m">bläulich</text>
+  <text x="282" y="84" class="m">3</text>
+  <text x="282" y="108" class="m">2</text>
+  <text x="282" y="132">1 dunkel,</text>
+  <text x="282" y="146">kontrastreich</text>
+  <text x="10" y="180">Dunst liefert die Tiefe, das Tele staucht sie</text>
+  <text x="10" y="194" class="m">zu Kulissen.</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="90" y="16" text-anchor="middle" class="h">Ecken sichtbar</text>
+  <text x="270" y="16" text-anchor="middle" class="h">Ränder beschnitten</text>
+  <!-- left: whole block with receding ends -->
+  <rect x="15" y="28" width="150" height="100"/>
+  <path d="M40 50 L140 50 L150 58 L150 108 L140 112 L40 112 L30 108 L30 58 Z" class="m"/>
+  <path d="M40 50 v62 M140 50 v62"/>
+  <g class="m"><path d="M48 62 h84 M48 74 h84 M48 86 h84 M48 98 h84"/></g>
+  <path d="M30 58 L40 50 M150 58 L140 50" class="a"/>
+  <path d="M30 108 L40 112 M150 108 L140 112" class="a"/>
+  <!-- right: cropped, only grid -->
+  <rect x="195" y="28" width="150" height="100"/>
+  <rect x="195" y="44" width="150" height="72" class="f" stroke="none"/>
+  <g class="m"><path d="M195 56 h150 M195 68 h150 M195 80 h150 M195 92 h150 M195 104 h150"/><path d="M215 44 v72 M240 44 v72 M265 44 v72 M290 44 v72 M315 44 v72"/></g>
+  <text x="90" y="148" text-anchor="middle" class="a">Enden sichtbar:</text>
+  <text x="90" y="162" text-anchor="middle" class="m">Block steht im Raum</text>
+  <text x="270" y="148" text-anchor="middle" class="a">keine Kante flieht:</text>
+  <text x="270" y="162" text-anchor="middle" class="m">Fassade wird Raster</text>
+  <text x="180" y="184" text-anchor="middle" class="m">Gursky, Paris, Montparnasse</text>
+</svg>

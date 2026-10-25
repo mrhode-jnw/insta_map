@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 244" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="180" y="16" text-anchor="middle" class="h">Gleiches Tempo, gleiche Zeit – andere Spur</text>
+  <!-- across vs toward camera -->
+  <text x="90" y="40" text-anchor="middle">quer zur Kamera</text>
+  <text x="270" y="40" text-anchor="middle">auf die Kamera zu</text>
+  <rect x="30" y="50" width="120" height="70"/>
+  <path d="M52 86 h56" class="m" stroke-width="12" stroke-opacity="0.3"/>
+  <circle cx="108" cy="86" r="6" class="af" stroke="none"/>
+  <path d="M60 104 h40 m-5 -4 l5 4 l-5 4" class="a"/>
+  <rect x="210" y="50" width="120" height="70"/>
+  <circle cx="270" cy="86" r="9" class="f" stroke="none"/>
+  <circle cx="270" cy="86" r="6" class="af" stroke="none"/>
+  <text x="270" y="112" text-anchor="middle" class="m">wächst nur</text>
+  <text x="90" y="136" text-anchor="middle" class="a">lange Spur</text>
+  <text x="270" y="136" text-anchor="middle" class="a">kaum Spur</text>
+  <!-- wide vs tele -->
+  <line x1="10" y1="150" x2="350" y2="150" class="m" stroke-dasharray="2 4"/>
+  <text x="180" y="170" text-anchor="middle">Dasselbe Boot aus gleichem Abstand</text>
+  
+  <rect x="30" y="180" width="120" height="40"/>
+  <path d="M80 200 h14" class="m" stroke-width="6" stroke-opacity="0.35"/><circle cx="94" cy="200" r="3" class="af" stroke="none"/>
+  <rect x="210" y="180" width="120" height="40"/>
+  <path d="M226 200 h70" class="m" stroke-width="14" stroke-opacity="0.3"/><circle cx="296" cy="200" r="8" class="af" stroke="none"/>
+  <text x="90" y="238" text-anchor="middle" class="m">Weitwinkel</text><text x="270" y="238" text-anchor="middle" class="m">Tele</text>
+</svg>

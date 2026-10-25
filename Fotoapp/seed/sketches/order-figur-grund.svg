@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="60" y="16" text-anchor="middle" class="h">Figur auf Grund</text>
+  <text x="180" y="16" text-anchor="middle" class="h">Lücke wird Form</text>
+  <text x="300" y="16" text-anchor="middle" class="h">Verschmelzung</text>
+  <!-- normal: roofs are figure -->
+  <rect x="15" y="28" width="90" height="90"/>
+  <path d="M15 118 v-40 l22 -22 l22 22 v40 z" class="mf" stroke="none"/>
+  <path d="M65 118 v-50 l20 -18 l20 18 v50 z" class="mf" stroke="none"/>
+  <!-- flipped: sky gap between roofs is the figure -->
+  <rect x="135" y="28" width="90" height="90"/>
+  <path d="M135 28 h90 v90 h-90 z M135 118 v-46 l26 -20 l18 26 l20 -30 l26 24 v46 z" fill-rule="evenodd" class="mf" stroke="none"/>
+  <path d="M135 72 l26 -20 l18 26 l20 -30 l26 24" class="a"/>
+  <path d="M135 28 h90" stroke="none"/>
+  <!-- merge: head in front of branch -->
+  <rect x="255" y="28" width="90" height="90"/>
+  <path d="M255 52 l55 18 l35 -10" class="m" stroke-width="4"/>
+  <circle cx="300" cy="66" r="9"/><path d="M282 118 q0 -34 18 -34 q18 0 18 34"/>
+  <circle cx="300" cy="66" r="15" class="a" stroke-dasharray="3 3"/>
+  <text x="60" y="136" text-anchor="middle" class="m">Häuser = Figur,</text>
+  <text x="60" y="150" text-anchor="middle" class="m">Himmel = Grund</text>
+  <text x="180" y="136" text-anchor="middle" class="m">Himmel zwischen</text>
+  <text x="180" y="150" text-anchor="middle" class="m">Dächern = Figur</text>
+  <text x="300" y="136" text-anchor="middle" class="m">Ast durch den Kopf:</text>
+  <text x="300" y="150" text-anchor="middle" class="m">Kontur geht verloren</text>
+  <text x="180" y="180" text-anchor="middle" class="a">Negativraum ist keine Leere, sondern Form</text>
+</svg>

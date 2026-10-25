@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 196" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <defs><linearGradient id="licht-d-g"><stop offset="0" stop-color="#0d0d0d"/><stop offset="1" stop-color="#fafafa"/></linearGradient></defs>
+  <text x="20" y="22" class="h">Szene</text>
+  <rect x="20" y="28" width="320" height="16" fill="url(#licht-d-g)" stroke="none"/>
+  <text x="80" y="66" class="h">Sensor / Film</text>
+  <rect x="80" y="72" width="200" height="16" fill="url(#licht-d-g)" stroke="none" opacity="0.9"/>
+  <rect x="80" y="72" width="200" height="16" class="a"/>
+  <text x="110" y="110" class="h">Abzug / Bildschirm</text>
+  <rect x="110" y="116" width="140" height="16" fill="url(#licht-d-g)" stroke="none" opacity="0.9"/>
+  <rect x="110" y="116" width="140" height="16"/>
+  <path d="M80 48 V70 M280 48 V70 M110 92 V114 M250 92 V114" class="m" stroke-dasharray="2 3"/>
+  <text x="20" y="150" class="m">Schatten</text>
+  <text x="20" y="164" class="m">ohne Zeichnung</text>
+  <text x="340" y="150" text-anchor="end" class="m">Lichter</text>
+  <text x="340" y="164" text-anchor="end" class="m">ausgefressen</text>
+  <text x="180" y="150" text-anchor="middle" class="a">Fenster wählen:</text>
+  <text x="180" y="164" text-anchor="middle" class="a">Moment, Filter,</text>
+  <text x="180" y="178" text-anchor="middle" class="a">Belichtung</text>
+  <path d="M20 54 H78 M282 54 H340" class="m" stroke-dasharray="1 3"/>
+</svg>

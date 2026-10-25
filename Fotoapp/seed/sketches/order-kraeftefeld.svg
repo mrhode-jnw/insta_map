@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="60" y="16" text-anchor="middle" class="h">Verborgene</text>
+  <text x="60" y="30" text-anchor="middle" class="h">Struktur</text>
+  <text x="180" y="23" text-anchor="middle" class="h">Mitte: Ruhe</text>
+  <text x="300" y="23" text-anchor="middle" class="h">Versetzt: Unruhe</text>
+  <!-- empty frame with axes, diagonals, centre -->
+  <rect x="15" y="40" width="90" height="90"/>
+  <g class="m" stroke-dasharray="2 4"><line x1="60" y1="40" x2="60" y2="130"/><line x1="15" y1="85" x2="105" y2="85"/><line x1="15" y1="40" x2="105" y2="130"/><line x1="105" y1="40" x2="15" y2="130"/></g>
+  <circle cx="60" cy="85" r="3" class="af" stroke="none"/>
+  <!-- centred disc -->
+  <rect x="135" y="40" width="90" height="90"/>
+  <circle cx="180" cy="85" r="13" class="mf" stroke="none"/>
+  <!-- off-centre disc with pull arrows -->
+  <rect x="255" y="40" width="90" height="90"/>
+  <circle cx="318" cy="66" r="13" class="mf" stroke="none"/>
+  <path d="M332 60 l8 -3 M330 52 l5 -7" class="a"/>
+  <path d="M306 76 l-10 8 m3 -8 l-3 8 l8 -1" class="a"/>
+  <text x="60" y="150" text-anchor="middle" class="m">Mitte, Achsen,</text>
+  <text x="60" y="164" text-anchor="middle" class="m">Diagonalen, Ränder</text>
+  <text x="180" y="150" text-anchor="middle" class="m">nichts zieht:</text>
+  <text x="180" y="164" text-anchor="middle" class="m">stabil, statisch</text>
+  <text x="300" y="150" text-anchor="middle" class="m">Rand zieht, Mitte</text>
+  <text x="300" y="164" text-anchor="middle" class="m">zieht zurück</text>
+  <text x="180" y="190" text-anchor="middle" class="a">Nicht „wohin?“, sondern „welche Kräfte?“</text>
+</svg>

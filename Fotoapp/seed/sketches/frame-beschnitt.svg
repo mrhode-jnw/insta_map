@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 246" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<rect x="60" y="26" width="240" height="160"/>
+<text x="180" y="16" text-anchor="middle" class="h">3:2 aufgenommen</text>
+<rect x="116" y="26" width="128" height="160" class="a" stroke-dasharray="5 3"/>
+<rect x="135" y="26" width="90" height="160" class="m" stroke-dasharray="2 3"/>
+<text x="150" y="204" text-anchor="end" class="a">4:5</text>
+<text x="158" y="204" class="m">und</text>
+<text x="182" y="204" class="m">9:16</text>
+<line x1="60" y1="140" x2="300" y2="140" class="m"/>
+<line x1="180" y1="140" x2="180" y2="94.4"/><circle cx="180" cy="87.2" r="7.2"/>
+<path d="M72 140 V120 L87.0 109.5 L102 120 V140 Z" class="m"/>
+<path d="M262 140 V122 L275.0 112.9 L288 122 V140 Z" class="m"/>
+<text x="180" y="224" text-anchor="middle" class="m">Beschnitt verwirft nur – Zielformat beim Auslösen</text>
+<text x="180" y="238" text-anchor="middle" class="m">mitdenken und Luft an den Rändern lassen</text>
+</svg>

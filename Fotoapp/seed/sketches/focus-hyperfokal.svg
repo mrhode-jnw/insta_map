@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 226" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="180" y="16" text-anchor="middle" class="h">Auf die Hyperfokaldistanz H stellen</text>
+  <rect x="14" y="56" width="12" height="9" class="af" stroke="none"/>
+  <line x1="26" y1="60" x2="340" y2="60" class="m" stroke-dasharray="2 4"/>
+  <rect x="110" y="42" width="236" height="36" class="f" stroke="none"/>
+  <line x1="194" y1="34" x2="194" y2="86" class="a"/>
+  <line x1="20" y1="96" x2="345" y2="96" class="m"/>
+  <path d="M110 92 v8 M194 92 v8" class="m"/>
+  <text x="20" y="112" text-anchor="middle" class="m">0</text>
+  <text x="110" y="112" text-anchor="middle">H/2</text>
+  <text x="194" y="112" text-anchor="middle" class="a">H</text>
+  <text x="338" y="112" text-anchor="middle">∞</text>
+  <text x="228" y="132" text-anchor="middle" class="m">scharf von H/2 bis unendlich</text>
+  <line x1="10" y1="146" x2="350" y2="146" class="m" stroke-dasharray="2 4"/>
+  <text x="180" y="164" text-anchor="middle" class="h">Kleinere Blende: mehr Tiefe, weniger Detail</text>
+  <line x1="30" y1="196" x2="330" y2="196" class="m"/>
+  <path d="M60 192 v8 M150 192 v8 M240 192 v8 M320 192 v8" class="m"/>
+  <text x="60" y="216" text-anchor="middle">f/8</text>
+  <text x="150" y="216" text-anchor="middle">f/22</text>
+  <text x="240" y="216" text-anchor="middle">f/45</text>
+  <text x="320" y="216" text-anchor="middle">f/64</text>
+  <text x="150" y="187" text-anchor="middle" class="a">KB: weicher</text>
+  <text x="300" y="187" text-anchor="middle" class="a">Großformat</text>
+</svg>

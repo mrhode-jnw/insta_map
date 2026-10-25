@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="60" y="16" text-anchor="middle" class="h">nah</text>
+  <text x="180" y="16" text-anchor="middle" class="h">Kippschwelle</text>
+  <text x="300" y="16" text-anchor="middle" class="h">fern</text>
+  <!-- near: terraces with house and figure, clearly a place -->
+  <rect x="15" y="28" width="90" height="80"/>
+  <path d="M15 60 q45 -14 90 0 M15 80 q45 -14 90 0 M15 100 q45 -14 90 0"/>
+  <path d="M60 52 v-10 l8 -6 l8 6 v10" /><line x1="38" y1="74" x2="38" y2="64"/><circle cx="38" cy="61" r="2.5"/>
+  <!-- threshold: pattern plus a tiny sign of use -->
+  <rect x="135" y="28" width="90" height="80" class="a"/>
+  <path d="M135 46 q22 -8 45 0 t45 0 M135 60 q22 -8 45 0 t45 0 M135 74 q22 -8 45 0 t45 0 M135 88 q22 -8 45 0 t45 0 M135 102 q22 -8 45 0 t45 0"/>
+  <rect x="186" y="62" width="5" height="3" class="af" stroke="none"/>
+  <!-- far: pure pattern -->
+  <rect x="255" y="28" width="90" height="80"/>
+  <g class="m"><path d="M255 38 q11 -4 22 0 t22 0 t22 0 t24 0 M255 48 q11 -4 22 0 t22 0 t22 0 t24 0 M255 58 q11 -4 22 0 t22 0 t22 0 t24 0 M255 68 q11 -4 22 0 t22 0 t22 0 t24 0 M255 78 q11 -4 22 0 t22 0 t22 0 t24 0 M255 88 q11 -4 22 0 t22 0 t22 0 t24 0 M255 98 q11 -4 22 0 t22 0 t22 0 t24 0"/></g>
+  <text x="60" y="126" text-anchor="middle" class="m">Dokument:</text>
+  <text x="60" y="140" text-anchor="middle" class="m">Ort, Haus, Mensch</text>
+  <text x="180" y="126" text-anchor="middle" class="a">Form und Gebrauch</text>
+  <text x="180" y="140" text-anchor="middle" class="a">zugleich lesbar</text>
+  <text x="300" y="126" text-anchor="middle" class="m">nur Muster:</text>
+  <text x="300" y="140" text-anchor="middle" class="m">Ornament</text>
+  <line x1="20" y1="166" x2="340" y2="166" class="m"/>
+  <path d="M332 162 l8 4 l-8 4" class="m"/>
+  <text x="180" y="186" text-anchor="middle" class="m">Abstand und Höhe wachsen</text>
+</svg>

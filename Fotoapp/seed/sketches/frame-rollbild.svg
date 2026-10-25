@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 166" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M10 70 L40 56 L66 64 L96 40 L124 58 L150 48 L176 62 L206 36 L236 56 L262 46 L292 60 L318 42 L350 54" class="m"/>
+<line x1="10" y1="96" x2="350" y2="96" class="m"/>
+<path d="M10 112 Q90 100 170 108 T350 104" class="m"/>
+<path d="M30 96 V87 L36.0 82.8 L42 87 V96 Z" class="m"/>
+<path d="M140 96 V87 L146.0 82.8 L152 87 V96 Z" class="m"/>
+<path d="M270 96 V87 L276.0 82.8 L282 87 V96 Z" class="m"/>
+<line x1="90" y1="96" x2="90" y2="78" class="m"/><circle cx="90" cy="74" r="6" class="m"/>
+<line x1="210" y1="96" x2="210" y2="78" class="m"/><circle cx="210" cy="74" r="6" class="m"/>
+<line x1="320" y1="96" x2="320" y2="78" class="m"/><circle cx="320" cy="74" r="6" class="m"/>
+<rect x="14" y="30" width="112" height="88" class="m" stroke-dasharray="3 3"/>
+<rect x="120" y="26" width="112" height="88" class="m" stroke-dasharray="3 3"/>
+<rect x="226" y="30" width="112" height="88" class="a"/>
+<line x1="110" y1="140" x2="250" y2="140" class="a"/><path d="M244.6 142.6 L250 140 L244.6 137.4" class="a"/>
+<text x="180" y="158" text-anchor="middle" class="m">abrollen: unendlich viele Rahmungen</text>
+<text x="282" y="22" text-anchor="middle" class="a">gewählt</text>
+</svg>

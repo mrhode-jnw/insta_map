@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 206" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="60" y="16" text-anchor="middle" class="h">Raum davor</text>
+  <text x="180" y="16" text-anchor="middle" class="h">Raum dahinter</text>
+  <text x="300" y="16" text-anchor="middle" class="h">Ecken</text>
+  <!-- figure walking right, space ahead -->
+  <rect x="15" y="28" width="90" height="70"/>
+  <circle cx="34" cy="56" r="4"/><line x1="34" y1="60" x2="34" y2="78"/><path d="M34 78 l-5 12 M34 78 l6 12 M34 66 l7 4"/>
+  <path d="M46 62 h40 m-5 -4 l5 4 l-5 4" class="a"/>
+  <!-- figure walking right, at right edge -->
+  <rect x="135" y="28" width="90" height="70"/>
+  <circle cx="212" cy="56" r="4"/><line x1="212" y1="60" x2="212" y2="78"/><path d="M212 78 l-5 12 M212 78 l6 12 M212 66 l7 4"/>
+  <path d="M219 62 h12" class="a"/>
+  <!-- corners as entries and exits -->
+  <rect x="255" y="28" width="90" height="70"/>
+  <path d="M255 98 q30 -20 45 -40 t45 -30" class="a"/>
+  <text x="60" y="114" text-anchor="middle" class="m">geht ins Bild</text>
+  <text x="180" y="114" text-anchor="middle" class="m">geht hinaus,</text>
+  <text x="180" y="128" text-anchor="middle" class="m">wird bedrängt</text>
+  <text x="300" y="114" text-anchor="middle" class="m">Ein- und Ausgang</text>
+  <!-- diagonal vs horizontal -->
+  <line x1="10" y1="142" x2="350" y2="142" class="m" stroke-dasharray="2 4"/>
+  <line x1="30" y1="172" x2="100" y2="172"/><line x1="140" y1="186" x2="210" y2="156" class="a"/><line x1="276" y1="186" x2="276" y2="156"/>
+  <text x="65" y="194" text-anchor="middle" class="m">liegt</text>
+  <text x="175" y="198" text-anchor="middle" class="a">kippt: Dynamik</text>
+  <text x="276" y="198" text-anchor="middle" class="m">steht</text>
+</svg>

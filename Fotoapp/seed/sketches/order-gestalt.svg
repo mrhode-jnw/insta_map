@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 236" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- proximity -->
+  <rect x="10" y="10" width="165" height="105" class="m"/>
+  <text x="20" y="28" class="h">Nähe</text>
+  <g class="mf" stroke="none"><circle cx="34" cy="70" r="6"/><circle cx="52" cy="70" r="6"/><circle cx="43" cy="86" r="6"/><circle cx="118" cy="70" r="6"/><circle cx="136" cy="70" r="6"/><circle cx="154" cy="76" r="6"/></g>
+  <text x="92" y="106" text-anchor="middle" class="m">zwei Gruppen</text>
+  <!-- similarity -->
+  <rect x="185" y="10" width="165" height="105" class="m"/>
+  <text x="195" y="28" class="h">Ähnlichkeit</text>
+  <circle cx="208" cy="50" r="6" class="af" stroke="none"/><circle cx="330" cy="86" r="6" class="af" stroke="none"/><circle cx="268" cy="72" r="6" class="af" stroke="none"/>
+  <g class="mf" stroke="none"><rect x="230" y="46" width="10" height="10"/><rect x="300" y="50" width="10" height="10"/><rect x="214" y="80" width="10" height="10"/><rect x="290" y="80" width="10" height="10"/><rect x="250" y="42" width="10" height="10"/></g>
+  <path d="M208 50 L268 72 L330 86" class="a" stroke-dasharray="2 4"/>
+  <text x="268" y="106" text-anchor="middle" class="m">Gold verbindet sich</text>
+  <!-- closure -->
+  <rect x="10" y="125" width="165" height="105" class="m"/>
+  <text x="20" y="143" class="h">Geschlossenheit</text>
+  <path d="M58 166 a22 22 0 1 0 20 0" />
+  <path d="M112 202 l14 -30 M132 172 l14 30 M116 202 h26" stroke-dasharray="10 6"/>
+  <text x="92" y="222" text-anchor="middle" class="m">Lücken ergänzt das Auge</text>
+  <!-- common fate -->
+  <rect x="185" y="125" width="165" height="105" class="m"/>
+  <text x="195" y="143" class="h">Gem. Schicksal</text>
+  <path d="M206 162 l6 5 l-6 5 M228 178 l6 5 l-6 5 M246 160 l6 5 l-6 5 M262 184 l6 5 l-6 5 M282 166 l6 5 l-6 5"/>
+  <path d="M298 176 h36 m-5 -4 l5 4 l-5 4" class="a"/>
+<path d="M214 204 l-6 -5 l6 -5" class="m"/>
+  <text x="268" y="222" text-anchor="middle" class="m">gleiche Richtung = Gruppe</text>
+</svg>

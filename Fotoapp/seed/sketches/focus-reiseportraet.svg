@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 186" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="90" y="16" text-anchor="middle" class="h">Offenblende</text>
+  <text x="270" y="16" text-anchor="middle" class="h">Mittlere Tiefe</text>
+  <!-- left: bokeh background, place erased -->
+  <rect x="20" y="28" width="140" height="100"/>
+  <circle cx="44" cy="52" r="12" class="f" stroke="none"/><circle cx="72" cy="44" r="8" class="f" stroke="none"/>
+  <circle cx="132" cy="50" r="14" class="f" stroke="none"/><circle cx="140" cy="86" r="9" class="f" stroke="none"/>
+  <circle cx="38" cy="92" r="10" class="f" stroke="none"/><circle cx="118" cy="104" r="7" class="f" stroke="none"/>
+  <circle cx="90" cy="70" r="13"/><path d="M62 128 q0 -36 28 -36 q28 0 28 36"/>
+  <!-- right: market stalls stay readable -->
+  <rect x="200" y="28" width="140" height="100"/>
+  <g stroke-opacity="0.55">
+    <path d="M206 66 l14 -12 l14 12 z M210 66 v22 M230 66 v22"/>
+    <path d="M298 62 l16 -12 l16 12 z M302 62 v26 M326 62 v26"/>
+    <line x1="200" y1="88" x2="340" y2="88"/>
+    <circle cx="244" cy="80" r="3"/><line x1="244" y1="83" x2="244" y2="88"/>
+    <rect x="304" y="72" width="8" height="6"/><rect x="314" y="72" width="8" height="6"/>
+  </g>
+  <circle cx="270" cy="70" r="13"/><path d="M242 128 q0 -36 28 -36 q28 0 28 36"/>
+  <text x="90" y="148" text-anchor="middle" class="m">Person freigestellt,</text>
+  <text x="90" y="162" text-anchor="middle" class="m">Ort gelöscht:</text>
+  <text x="90" y="176" text-anchor="middle" class="a">könnte überall sein</text>
+  <text x="270" y="148" text-anchor="middle" class="m">Person bleibt vorn,</text>
+  <text x="270" y="162" text-anchor="middle" class="m">Umgebung lesbar:</text>
+  <text x="270" y="176" text-anchor="middle" class="a">Ort ist Information</text>
+</svg>

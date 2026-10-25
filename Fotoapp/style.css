@@ -282,7 +282,8 @@ form.ask textarea { flex: 1; }
 .sketch svg text.a, .sketch svg text.af { fill: var(--accent); stroke: none; }
 .sketch svg text.m { fill: var(--muted); stroke: none; }
 sup.refs { font-size: 0.68em; line-height: 0; margin-left: 1px; }
-sup.refs a.ref { display: inline-block; min-width: 1.35em; padding: 0 3px; margin-left: 2px; text-align: center; border-radius: 8px; background: rgba(217, 178, 111, 0.16); font-size: 1em; }
+sup.refs a.ref { display: inline-block; min-width: 1.35em; padding: 0 3px; margin-left: 1px; text-align: center; border-radius: 8px; background: rgba(217, 178, 111, 0.16); font-size: 1em; }
 .src-sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; max-height: 60vh; overflow: auto; background: var(--panel); border-top: 1px solid var(--accent); padding: 12px 16px 28px; box-shadow: 0 -10px 30px rgba(0,0,0,.5); }
 .src-sheet .sheet-head { display: flex; justify-content: space-between; align-items: center; }
 .src-sheet blockquote { margin: 8px 0; padding-left: 10px; border-left: 2px solid var(--line); color: var(--text); }
+.nw { white-space: nowrap; }

@@ -26,7 +26,7 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
-SEED_DIR = ROOT / "seed"
+SEED_DIR = Path(os.environ.get("SEHSCHULE_SEED", ROOT / "seed"))  # override to build from a staging copy
 OUT = ROOT / "data" / "library.json"
 FULL_EDGE = 1568  # what the Claude API uses at most
 THUMB_EDGE = 480

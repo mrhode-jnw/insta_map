@@ -85,7 +85,9 @@ function rich(text) {
 function compactRefs(html, nums) {
   return html.replace(/\s?\[((?:<a class="ref"[^>]*>S\d+<\/a>(?:,\s*)?)+)\]/g, (_, g) => `<sup class="refs">${[...g.matchAll(/data-src="(\d+)"/g)].map(([, id]) => {
     if (!nums.has(+id)) nums.set(+id, nums.size + 1);
-    return `<a class="ref" href="#source-${id}" data-src="${id}">${nums.get(+id)}</a>`; }).join("")}</sup>`);
+    return `<a class="ref" href="#source-${id}" data-src="${id}">${nums.get(+id)}</a>`; }).join("")}</sup>`)
+    // keep "word¹." together so the number never wraps onto its own line
+    .replace(/([^\s>]*)(<sup class="refs">.*?<\/sup>)([.,;:!?)»“"]*)/g, `<span class="nw">$1$2$3</span>`);
 }
 const thumbs = images => images.length ? `<div class="thumbs">${images.map(i => `
   <a class="thumb" href="#/bild/${i.id}">${media(i.id)}

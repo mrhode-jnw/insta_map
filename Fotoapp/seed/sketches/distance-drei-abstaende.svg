@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 176" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<line x1="10" y1="64" x2="350" y2="64" class="m"/>
+<path d="M300 64 V42 L318.0 29.4 L336 42 V64 Z"/>
+<rect x="265" y="50.5" width="10" height="7" class="af" stroke="none"/>
+<text x="270" y="44" text-anchor="middle" class="a">nah</text>
+<rect x="185" y="50.5" width="10" height="7" class="af" stroke="none"/>
+<text x="190" y="44" text-anchor="middle" class="a">mittel</text>
+<rect x="35" y="50.5" width="10" height="7" class="af" stroke="none"/>
+<text x="40" y="44" text-anchor="middle" class="a">fern</text>
+<line x1="275" y1="54" x2="296" y2="54" class="a" stroke-dasharray="2 2"/>
+<rect x="15" y="84" width="90" height="64"/>
+<line x1="15" y1="93.0" x2="105" y2="93.0" class="m"/>
+<line x1="15" y1="102.5" x2="105" y2="102.5" class="m"/>
+<line x1="15" y1="112.0" x2="105" y2="112.0" class="m"/>
+<line x1="15" y1="121.5" x2="105" y2="121.5" class="m"/>
+<line x1="15" y1="131.0" x2="105" y2="131.0" class="m"/>
+<line x1="15" y1="140.5" x2="105" y2="140.5" class="m"/>
+<line x1="33" y1="84.5" x2="33" y2="93.0" class="m"/>
+<line x1="57" y1="84.5" x2="57" y2="93.0" class="m"/>
+<line x1="81" y1="84.5" x2="81" y2="93.0" class="m"/>
+<line x1="45" y1="94.0" x2="45" y2="102.5" class="m"/>
+<line x1="69" y1="94.0" x2="69" y2="102.5" class="m"/>
+<line x1="93" y1="94.0" x2="93" y2="102.5" class="m"/>
+<line x1="33" y1="103.5" x2="33" y2="112.0" class="m"/>
+<line x1="57" y1="103.5" x2="57" y2="112.0" class="m"/>
+<line x1="81" y1="103.5" x2="81" y2="112.0" class="m"/>
+<line x1="45" y1="113.0" x2="45" y2="121.5" class="m"/>
+<line x1="69" y1="113.0" x2="69" y2="121.5" class="m"/>
+<line x1="93" y1="113.0" x2="93" y2="121.5" class="m"/>
+<line x1="33" y1="122.5" x2="33" y2="131.0" class="m"/>
+<line x1="57" y1="122.5" x2="57" y2="131.0" class="m"/>
+<line x1="81" y1="122.5" x2="81" y2="131.0" class="m"/>
+<line x1="45" y1="132.0" x2="45" y2="140.5" class="m"/>
+<line x1="69" y1="132.0" x2="69" y2="140.5" class="m"/>
+<line x1="93" y1="132.0" x2="93" y2="140.5" class="m"/>
+<rect x="135" y="84" width="90" height="64"/>
+<line x1="135" y1="140" x2="225" y2="140" class="m"/>
+<path d="M160 140 V114 L180.0 100.0 L200 114 V140 Z"/>
+<rect x="174" y="124" width="10" height="16" class="m"/>
+<rect x="255" y="84" width="90" height="64"/>
+<path d="M255 114 Q280 102 300 112 T345 106" class="m"/>
+<line x1="255" y1="134" x2="345" y2="134" class="m"/>
+<path d="M262 134 V129 L265.5 126.5 L269 129 V134 Z"/>
+<path d="M274 130 V125 L277.5 122.5 L281 125 V130 Z"/>
+<path d="M286 134 V129 L289.5 126.5 L293 129 V134 Z"/>
+<path d="M298 130 V125 L301.5 122.5 L305 125 V130 Z"/>
+<path d="M310 134 V129 L313.5 126.5 L317 129 V134 Z"/>
+<path d="M322 130 V125 L325.5 122.5 L329 125 V130 Z"/>
+<path d="M334 134 V129 L337.5 126.5 L341 129 V134 Z"/>
+<text x="60" y="166" text-anchor="middle" class="m">Material</text>
+<text x="180" y="166" text-anchor="middle" class="m">Gegenstand</text>
+<text x="300" y="166" text-anchor="middle" class="m">Muster, Ort</text>
+</svg>

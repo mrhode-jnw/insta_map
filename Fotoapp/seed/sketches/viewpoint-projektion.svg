@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="90" y="16" text-anchor="middle" class="h">Gleicher Standpunkt</text>
+<text x="270" y="16" text-anchor="middle" class="h">2 m weiter links</text>
+<rect x="68" y="30" width="44" height="12" class="f" stroke="none"/>
+<rect x="68" y="30" width="44" height="12"/>
+<circle cx="90" cy="72" r="3" class="mf" stroke="none"/>
+<rect x="85" y="104.5" width="10" height="7" class="af" stroke="none"/>
+<rect x="248" y="30" width="44" height="12" class="f" stroke="none"/>
+<rect x="248" y="30" width="44" height="12"/>
+<circle cx="270" cy="72" r="3" class="mf" stroke="none"/>
+<rect x="240" y="104.5" width="10" height="7" class="af" stroke="none"/>
+<line x1="90" y1="104" x2="90" y2="44" class="a" stroke-dasharray="3 3"/>
+<line x1="245" y1="104" x2="302" y2="26" class="a" stroke-dasharray="3 3"/>
+<text x="118" y="75" class="m">Mast</text>
+<text x="118" y="40" class="m">Haus</text>
+<rect x="20" y="128" width="140" height="80"/>
+<path d="M62 196 V170 L90.0 150.4 L118 170 V196 Z"/>
+<line x1="20" y1="196" x2="160" y2="196" class="m"/>
+<line x1="90" y1="208" x2="90" y2="134"/>
+<line x1="84" y1="134" x2="96" y2="134"/>
+<rect x="52" y="150" width="76" height="50" class="a" stroke-dasharray="4 3"/>
+<text x="132" y="147" class="a">Tele</text>
+<rect x="200" y="128" width="140" height="80"/>
+<path d="M232 196 V170 L260.0 150.4 L288 170 V196 Z"/>
+<line x1="200" y1="196" x2="340" y2="196" class="m"/>
+<line x1="310" y1="208" x2="310" y2="134"/>
+<line x1="304" y1="134" x2="316" y2="134"/>
+<text x="90" y="226" text-anchor="middle" class="m">Zoom schneidet nur aus:</text>
+<text x="90" y="240" text-anchor="middle" class="m">Mast bleibt vor dem Haus</text>
+<text x="270" y="226" text-anchor="middle" class="m">Gehen ändert die Lage:</text>
+<text x="270" y="240" text-anchor="middle" class="m">Mast steht frei</text>
+</svg>

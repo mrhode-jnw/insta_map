@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 228" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="90" y="16" text-anchor="middle" class="h">Frontal</text>
+<text x="270" y="16" text-anchor="middle" class="h">Schräg</text>
+<line x1="40" y1="36" x2="140" y2="36"/>
+<rect x="40" y="30" width="100" height="6" class="f" stroke="none"/>
+<rect x="85" y="88.5" width="10" height="7" class="af" stroke="none"/>
+<line x1="90" y1="88" x2="40" y2="38" class="a" stroke-dasharray="3 3"/>
+<line x1="90" y1="88" x2="140" y2="38" class="a" stroke-dasharray="3 3"/>
+<path d="M90 36 v8 h8 v-8" class="m"/>
+<line x1="90" y1="44" x2="90" y2="88" class="m" stroke-dasharray="2 3"/>
+<line x1="220" y1="36" x2="320" y2="36"/>
+<rect x="220" y="30" width="100" height="6" class="f" stroke="none"/>
+<rect x="201" y="88.5" width="10" height="7" class="af" stroke="none"/>
+<line x1="206" y1="88" x2="222" y2="38" class="a" stroke-dasharray="3 3"/>
+<line x1="206" y1="88" x2="318" y2="38" class="a" stroke-dasharray="3 3"/>
+<text x="36" y="30" text-anchor="end" class="m">Wand</text>
+<rect x="30" y="112" width="120" height="76"/>
+<rect x="42" y="122" width="96" height="56" class="f" stroke="none"/>
+<rect x="42" y="122" width="96" height="56"/>
+<line x1="66" y1="122" x2="66" y2="178" class="m"/>
+<line x1="90" y1="122" x2="90" y2="178" class="m"/>
+<line x1="114" y1="122" x2="114" y2="178" class="m"/>
+<line x1="42" y1="140.66666666666666" x2="138" y2="140.66666666666666" class="m"/>
+<line x1="42" y1="159.33333333333334" x2="138" y2="159.33333333333334" class="m"/>
+<rect x="210" y="112" width="120" height="76"/>
+<path d="M216 116.0 L324 138.0 L324 164.0 L216 186.0 Z" class="f" stroke="none"/>
+<path d="M216 116.0 L324 138.0 M216 186.0 L324 164.0 M216 116.0 V186.0"/>
+<line x1="252" y1="123.3" x2="252" y2="178.7" class="m"/>
+<line x1="280" y1="129.0" x2="280" y2="173.0" class="m"/>
+<line x1="300" y1="133.1" x2="300" y2="168.9" class="m"/>
+<line x1="314" y1="136.0" x2="314" y2="166.0" class="m"/>
+<line x1="216" y1="139.3" x2="324" y2="146.7" class="m"/>
+<line x1="216" y1="162.7" x2="324" y2="155.3" class="m"/>
+<text x="90" y="206" text-anchor="middle" class="m">Fläche, Raster:</text>
+<text x="90" y="220" text-anchor="middle" class="m">vergleichbar</text>
+<text x="270" y="206" text-anchor="middle" class="m">Fluchten ziehen</text>
+<text x="270" y="220" text-anchor="middle" class="m">in den Raum</text>
+</svg>

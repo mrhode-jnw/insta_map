@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="90" y="16" text-anchor="middle" class="h">Von der Seite</text>
+<text x="270" y="16" text-anchor="middle" class="h">Von oben</text>
+<line x1="20" y1="140" x2="165" y2="140" class="m"/>
+<rect x="43" y="88.5" width="10" height="7" class="af" stroke="none"/>
+<line x1="53" y1="92" x2="140" y2="112" class="a" stroke-dasharray="3 3"/>
+<line x1="145" y1="140" x2="145" y2="114.16"/><circle cx="145" cy="110.08" r="4.1"/>
+<line x1="32" y1="120" x2="32" y2="64"/><path d="M34.6 69.4 L32 64 L29.4 69.4"/><path d="M29.4 114.6 L32 120 L34.6 114.6"/>
+<text x="28" y="56" class="a">Höhe</text>
+<line x1="48" y1="152" x2="140" y2="152"/><path d="M134.6 154.6 L140 152 L134.6 149.4"/><path d="M53.4 149.4 L48 152 L53.4 154.6"/>
+<text x="94" y="168" text-anchor="middle" class="a">Abstand</text>
+<line x1="32" y1="92" x2="43" y2="92" class="m" stroke-dasharray="2 2"/>
+<circle cx="285" cy="52" r="7"/>
+<text x="316" y="56" class="m">Motiv</text>
+<rect x="275" y="124.5" width="10" height="7" class="af" stroke="none"/>
+<line x1="280" y1="124" x2="266" y2="40" class="a" stroke-dasharray="3 3"/>
+<line x1="280" y1="124" x2="304" y2="40" class="a" stroke-dasharray="3 3"/>
+<line x1="240" y1="145" x2="320" y2="145"/><path d="M314.6 147.6 L320 145 L314.6 142.4"/><path d="M245.4 142.4 L240 145 L245.4 147.6"/>
+<text x="280" y="168" text-anchor="middle" class="a">seitliche Lage</text>
+<path d="M250 104 A34 34 0 0 1 270 92" class="a"/><path d="M265.7 96.2 L270 92 L264.0 91.2" class="a"/>
+<text x="246" y="88" text-anchor="end" class="a">Richtung</text>
+</svg>

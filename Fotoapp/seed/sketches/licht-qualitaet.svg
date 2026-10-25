@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 206" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <defs><linearGradient id="licht-q-l" x1="0" x2="1"><stop offset="0" stop-color="currentColor" stop-opacity="0.45"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient>
+  <linearGradient id="licht-q-r" x1="1" x2="0"><stop offset="0" stop-color="currentColor" stop-opacity="0.45"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient></defs>
+  <text x="60" y="16" text-anchor="middle" class="h">Kleine Quelle</text>
+  <text x="180" y="16" text-anchor="middle" class="h">Große Quelle</text>
+  <text x="300" y="16" text-anchor="middle" class="h">Reflektiert</text>
+  <!-- small source: sun high, hard shadow under -->
+  <circle cx="30" cy="38" r="6" class="af" stroke="none"/>
+  <path d="M36 44 L60 92 M36 44 L72 92" class="a" stroke-dasharray="2 3"/>
+  <line x1="10" y1="126" x2="110" y2="126" class="m"/>
+  <rect x="52" y="92" width="20" height="34"/>
+  <rect x="72" y="122" width="30" height="4" class="f" stroke="none"/>
+  <line x1="102" y1="121" x2="102" y2="127"/>
+  <!-- large source: cloud, soft shadow -->
+  <path d="M136 52 C132 38 152 32 160 40 C166 28 190 28 196 40 C206 34 224 42 220 54 Z" class="m"/>
+  <path d="M150 58 L164 88 M180 58 L180 88 M210 58 L196 88" class="m" stroke-dasharray="2 3"/>
+  <line x1="130" y1="126" x2="230" y2="126" class="m"/>
+  <rect x="170" y="92" width="20" height="34"/>
+  <rect x="140" y="122" width="30" height="4" fill="url(#licht-q-r)" stroke="none"/>
+  <rect x="190" y="122" width="30" height="4" fill="url(#licht-q-l)" stroke="none"/>
+  <!-- reflected: sun lights wall, wall lights object in shade -->
+  <circle cx="262" cy="34" r="6" class="af" stroke="none"/>
+  <path d="M268 40 L340 78" class="a" stroke-dasharray="2 3"/>
+  <line x1="342" y1="46" x2="342" y2="126" class="a" stroke-width="3"/>
+  <path d="M338 92 L304 102 M310 98 L304 102 L310 107" class="a"/>
+  <path d="M338 110 L304 114 M310 110 L304 114 L310 118" class="a"/>
+  <path d="M246 70 H300 V80" class="m"/>
+  <rect x="276" y="96" width="22" height="30" class="f"/>
+  <line x1="250" y1="126" x2="350" y2="126" class="m"/>
+  <text x="60" y="148" text-anchor="middle" class="m">klare Sonne:</text>
+  <text x="60" y="162" text-anchor="middle" class="m">scharfe Kante</text>
+  <text x="180" y="148" text-anchor="middle" class="m">Wolkendecke:</text>
+  <text x="180" y="162" text-anchor="middle" class="m">weicher Rand</text>
+  <text x="300" y="148" text-anchor="middle" class="m">besonnte Wand</text>
+  <text x="300" y="162" text-anchor="middle" class="m">hellt Schatten auf</text>
+  <text x="180" y="194" text-anchor="middle" class="a">Härte = scheinbare Größe der Quelle</text>
+</svg>

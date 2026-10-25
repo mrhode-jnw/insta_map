@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="14" class="h">Weitwinkel, nah</text>
+  <line x1="10" y1="75" x2="250" y2="75" class="m"/>
+  <rect x="146" y="66" width="8" height="6" class="af" stroke="none"/>
+  <path d="M154 69 L250 30 M154 69 L250 80" class="a" stroke-dasharray="3 3"/>
+  <line x1="168" y1="75" x2="168" y2="60"/><circle cx="168" cy="56" r="3"/>
+  <path d="M200 75 L225 40 L250 75" class="m"/>
+  <rect x="265" y="22" width="85" height="55"/>
+  <path d="M265 77 Z M318 77 L328 66 L338 77" class="m"/>
+  <line x1="292" y1="77" x2="292" y2="48"/><circle cx="292" cy="41" r="7"/>
+  <text x="307" y="90" text-anchor="middle" class="m">Raum gedehnt</text>
+  <text x="10" y="104" class="h">Tele, aus Distanz</text>
+  <line x1="10" y1="165" x2="250" y2="165" class="m"/>
+  <rect x="12" y="156" width="8" height="6" class="af" stroke="none"/>
+  <path d="M20 159 L250 128 M20 159 L250 168" class="a" stroke-dasharray="3 3"/>
+  <line x1="168" y1="165" x2="168" y2="150"/><circle cx="168" cy="146" r="3"/>
+  <path d="M200 165 L225 130 L250 165" class="m"/>
+  <rect x="265" y="112" width="85" height="55"/>
+  <path d="M265 167 L305 120 L350 160" class="m"/>
+  <line x1="298" y1="167" x2="298" y2="157"/><circle cx="298" cy="154" r="2.5"/>
+  <text x="307" y="182" text-anchor="middle" class="a">Ebenen gestaucht</text>
+  <text x="168" y="89" text-anchor="middle" class="m">Person</text>
+  <text x="225" y="89" text-anchor="middle" class="m">Berg</text>
+</svg>

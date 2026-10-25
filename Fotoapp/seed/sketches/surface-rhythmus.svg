@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 170" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="22" class="h">Muster</text>
+  <g class="mf" stroke="none"><rect x="110" y="10" width="14" height="18"/><rect x="140" y="10" width="14" height="18"/><rect x="170" y="10" width="14" height="18"/><rect x="200" y="10" width="14" height="18"/><rect x="230" y="10" width="14" height="18"/><rect x="260" y="10" width="14" height="18"/><rect x="290" y="10" width="14" height="18"/><rect x="320" y="10" width="14" height="18"/></g>
+  <text x="110" y="44" class="m">gleicher Takt: schnell erfasst, schnell leer</text>
+  <text x="10" y="76" class="h">Rhythmus</text>
+  <g class="mf" stroke="none"><rect x="110" y="64" width="14" height="18"/><rect x="132" y="64" width="14" height="18"/><rect x="172" y="64" width="14" height="18"/><rect x="194" y="64" width="14" height="18"/><rect x="242" y="64" width="14" height="18"/><rect x="264" y="64" width="14" height="18"/><rect x="286" y="64" width="14" height="18"/><rect x="330" y="64" width="14" height="18"/></g>
+  <text x="110" y="98" class="m">Intervalle wechseln: der Blick geht mit</text>
+  <text x="10" y="130" class="h">Taktwechsel</text>
+  <g class="mf" stroke="none"><rect x="110" y="118" width="14" height="18"/><rect x="140" y="118" width="14" height="18"/><rect x="170" y="118" width="14" height="18"/><rect x="230" y="118" width="14" height="18"/><rect x="260" y="118" width="14" height="18"/><rect x="290" y="118" width="14" height="18"/><rect x="320" y="118" width="14" height="18"/></g>
+  <rect x="200" y="114" width="14" height="22" class="af" stroke="none"/>
+  <text x="110" y="152" class="a">ein Element bricht: Wäsche, Vorhang, Kind</text>
+  <text x="110" y="166" class="m">fehlt es, ist das Bild Tapete</text>
+</svg>

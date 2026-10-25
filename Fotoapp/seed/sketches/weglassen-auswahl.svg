@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="105" y="18" text-anchor="middle" class="h">Die Welt</text>
+  <text x="291" y="18" text-anchor="middle" class="h">Das Bild</text>
+  <!-- world -->
+  <path d="M10 100 L50 70 L80 90 L120 60 L160 95 L200 80" class="m"/>
+  <line x1="10" y1="130" x2="200" y2="130" class="m"/>
+  <path d="M20 130 V112 H44 V130 M17 113 L32 102 L47 113"/>
+  <path d="M70 130 V76 M62 82 H78 M64 88 H76"/>
+  <line x1="120" y1="130" x2="120" y2="106"/><circle cx="120" cy="97" r="10"/>
+  <rect x="158" y="120" width="20" height="8" rx="2"/><circle cx="162" cy="129" r="2"/><circle cx="174" cy="129" r="2"/>
+  <line x1="188" y1="130" x2="188" y2="114"/><circle cx="188" cy="110" r="3"/>
+  <rect x="95" y="50" width="55" height="84" class="a" stroke-dasharray="4 3"/>
+  <text x="122" y="45" text-anchor="middle" class="a">Rahmen</text>
+  <!-- arrow -->
+  <path d="M206 92 H240 M233 86 L240 92 L233 98" class="a"/>
+  <!-- picture -->
+  <rect x="250" y="40" width="82" height="126"/>
+  <path d="M250 83 L287.5 55 L332 94" class="m"/>
+  <line x1="250" y1="160" x2="332" y2="160" class="m"/>
+  <line x1="287.5" y1="160" x2="287.5" y2="126"/><circle cx="287.5" cy="112" r="14"/>
+  <text x="105" y="160" text-anchor="middle" class="m">Haus, Mast, Auto, Person</text>
+  <text x="105" y="174" text-anchor="middle" class="m">bleiben draußen</text>
+  <text x="180" y="194" text-anchor="middle">Maler fügen hinzu – Fotografen ziehen ab.</text>
+</svg>

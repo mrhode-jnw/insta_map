@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 236" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- row 1 -->
+  <!-- Standpunkt: mast hidden behind tree, camera steps aside -->
+  <line x1="45" y1="14" x2="45" y2="34" class="m"/><path d="M39 20 H51" class="m"/>
+  <circle cx="45" cy="44" r="12"/><line x1="45" y1="56" x2="45" y2="66"/>
+  <rect x="40" y="70" width="10" height="7" class="af" stroke="none"/>
+  <path d="M28 74 H38 M32 70 L28 74 L32 78" class="a"/>
+  <!-- Brennweite -->
+  <rect x="122" y="66" width="10" height="7" class="af" stroke="none"/>
+  <path d="M127 66 L95 18 M127 66 L159 18" class="m" stroke-dasharray="3 3"/>
+  <path d="M127 66 L119 18 M127 66 L135 18" class="a"/>
+  <!-- Bildkante -->
+  <rect x="198" y="18" width="54" height="56"/>
+  <path d="M252 30 A18 18 0 0 0 252 66" class="a"/>
+  <path d="M252 30 A18 18 0 0 1 252 66" class="m" stroke-dasharray="2 3"/>
+  <!-- Schatten -->
+  <rect x="288" y="18" width="54" height="56"/>
+  <path d="M288 30 L300 18 M288 44 L314 18 M288 58 L318 28 M288 72 L318 42 M300 74 L318 56 M314 74 L318 70" class="m"/>
+  <line x1="318" y1="18" x2="318" y2="74"/>
+  <path d="M318 38 A10 10 0 0 1 318 58" class="a"/>
+  <path d="M318 38 A10 10 0 0 0 318 58" class="m" stroke-dasharray="2 3"/>
+  <text x="45" y="96" text-anchor="middle" class="h">Standpunkt</text>
+  <text x="45" y="110" text-anchor="middle" class="m">verstecken</text>
+  <text x="135" y="96" text-anchor="middle" class="h">Brennweite</text>
+  <text x="135" y="110" text-anchor="middle" class="m">Kontext kappen</text>
+  <text x="225" y="96" text-anchor="middle" class="h">Bildkante</text>
+  <text x="225" y="110" text-anchor="middle" class="m">abtrennen</text>
+  <text x="315" y="96" text-anchor="middle" class="h">Schatten</text>
+  <text x="315" y="110" text-anchor="middle" class="m">verschlucken</text>
+  <!-- row 2 -->
+  <!-- Nebel -->
+  <path d="M18 168 L35 146 L48 158 L62 140 L74 168" class="m" stroke-dasharray="2 4"/>
+  <path d="M16 158 H74 M22 165 H68 M16 172 H74"/>
+  <!-- Langzeit -->
+  <path d="M100 150 q6 -6 12 0 t12 0 t12 0" class="m"/>
+  <path d="M130 162 v8 M126 166 l4 4 l4 -4" class="a"/>
+  <line x1="100" y1="180" x2="160" y2="180" class="a"/>
+  <!-- Schwarzweiss -->
+  <circle cx="208" cy="162" r="10" class="af" stroke="none"/>
+  <path d="M222 162 H232 M228 158 L232 162 L228 166" class="m"/>
+  <circle cx="246" cy="162" r="10" class="mf" stroke="none"/>
+  <!-- Retusche -->
+  <rect x="288" y="136" width="54" height="52"/>
+  <line x1="288" y1="172" x2="342" y2="172" class="m"/>
+  <path d="M322 172 V146 M316 152 H328"/>
+  <path d="M312 142 L332 166 M332 142 L312 166" class="a"/>
+  <text x="45" y="208" text-anchor="middle" class="h">Nebel, Schnee</text>
+  <text x="45" y="222" text-anchor="middle" class="m">Grund löschen</text>
+  <text x="135" y="208" text-anchor="middle" class="h">Langzeit</text>
+  <text x="135" y="222" text-anchor="middle" class="m">Wellen glätten</text>
+  <text x="225" y="208" text-anchor="middle" class="h">Schwarzweiß</text>
+  <text x="225" y="222" text-anchor="middle" class="m">Farbe weg</text>
+  <text x="315" y="208" text-anchor="middle" class="h">Retusche</text>
+  <text x="315" y="222" text-anchor="middle" class="a">am heikelsten</text>
+</svg>

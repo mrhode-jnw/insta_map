@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 170" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="90" y="16" text-anchor="middle" class="h">24 mm, Ausschnitt markiert</text>
+<text x="270" y="16" text-anchor="middle" class="h">100 mm, gleicher Ort</text>
+<rect x="15" y="26" width="150" height="100"/>
+<g><path d="M15.0 76.0 L55.0 56.0 L77.0 66.0 L105.0 48.0 L135.0 64.0 L165.0 54.0" class="m"/><path d="M15.0 104.0 L165.0 104.0" class="m"/><path d="M77.0 104.0 L77.0 92.0 L85.0 86.0 L93.0 92.0 L93.0 104.0"/><path d="M103.0 104.0 L103.0 92.0"/><circle cx="103.0" cy="88.0" r="5.0"/></g>
+<rect x="67" y="76" width="42" height="28" class="a" stroke-dasharray="4 3"/>
+<line x1="115" y1="90" x2="188" y2="76" class="a"/><path d="M183.2 79.6 L188 76 L182.2 74.5" class="a"/>
+<clipPath id="distance-ausschnitt-clip"><rect x="195" y="26" width="150" height="100"/></clipPath>
+<g clip-path="url(#distance-ausschnitt-clip)"><path d="M9.3 26.0 L152.1 -45.4 L230.7 -9.7 L330.7 -74.0 L437.9 -16.9 L545.0 -52.6" class="m"/><path d="M9.3 126.0 L545.0 126.0" class="m"/><path d="M230.7 126.0 L230.7 83.1 L259.3 61.7 L287.9 83.1 L287.9 126.0"/><path d="M323.6 126.0 L323.6 83.1"/><circle cx="323.6" cy="68.9" r="17.9"/></g>
+<rect x="195" y="26" width="150" height="100.0"/>
+<text x="180" y="146" text-anchor="middle" class="m">Gleiche Perspektive, gleiche Überdeckung –</text>
+<text x="180" y="160" text-anchor="middle" class="m">nur die Auflösung ist beim Ausschnitt kleiner.</text>
+</svg>

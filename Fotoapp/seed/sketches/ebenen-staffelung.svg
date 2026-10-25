@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 236" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Seitenansicht</text>
+  <line x1="10" y1="96" x2="350" y2="96" class="m"/>
+  <rect x="14" y="80" width="10" height="7" class="af" stroke="none"/>
+  <path d="M24 83 L345 40" class="a" stroke-dasharray="3 3"/>
+  <path d="M55 96 C58 84 72 80 84 96"/>
+  <path d="M140 96 L148 72 L156 96 M156 96 L165 66 L174 96 M174 96 L182 74 L190 96"/>
+  <path d="M235 96 L290 30 L345 96" class="m"/>
+  <text x="70" y="112" text-anchor="middle" class="m">vorn</text>
+  <text x="165" y="112" text-anchor="middle" class="m">Mitte</text>
+  <text x="290" y="112" text-anchor="middle" class="m">hinten</text>
+  <text x="10" y="138" class="h">Im Bild</text>
+  <rect x="110" y="128" width="160" height="96"/>
+  <path d="M110 176 L170 142 L215 166 L245 152 L270 162" class="m"/>
+  <path d="M120 194 L127 178 L134 194 M134 194 L142 172 L150 194 M150 194 L157 180 L164 194 M200 194 L208 176 L216 194 M216 194 L223 182 L230 194"/>
+  <line x1="110" y1="194" x2="270" y2="194" class="m"/>
+  <path d="M130 224 C140 200 190 196 225 224" class="f" stroke="none"/>
+  <path d="M130 224 C140 200 190 196 225 224"/>
+  <path d="M276 152 H286 M276 185 H286 M276 212 H286" class="a"/>
+  <text x="292" y="156" class="a">hinten</text>
+  <text x="292" y="189" class="a">Mitte</text>
+  <text x="292" y="216" class="a">vorn</text>
+  <text x="60" y="166" text-anchor="middle" class="m">hinten = oben,</text>
+  <text x="60" y="180" text-anchor="middle" class="m">klein, blass</text>
+  <text x="60" y="204" text-anchor="middle" class="m">vorn = unten,</text>
+  <text x="60" y="218" text-anchor="middle" class="m">groß, deckt</text>
+</svg>

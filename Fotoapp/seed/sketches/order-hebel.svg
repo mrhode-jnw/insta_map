@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="180" y="16" text-anchor="middle" class="h">Das Hebelbild</text>
+  <!-- frame: big calm mass near centre, small dark element far right -->
+  <rect x="20" y="30" width="150" height="100"/>
+  <path d="M40 130 q30 -60 70 -50 q20 4 20 50 z" class="f m"/>
+  <circle cx="156" cy="48" r="5" class="af" stroke="none"/>
+  <line x1="95" y1="30" x2="95" y2="130" class="m" stroke-dasharray="2 4"/>
+  <!-- seesaw -->
+  <line x1="192" y1="96" x2="332" y2="96"/>
+  <path d="M240 96 l-8 16 h16 z" class="m"/>
+  <ellipse cx="226" cy="80" rx="22" ry="16" class="f m"/>
+  <circle cx="326" cy="88" r="7" class="af" stroke="none"/>
+  <text x="230" y="128" text-anchor="middle" class="m">groß, ruhig,</text>
+  <text x="230" y="141" text-anchor="middle" class="m">am Drehpunkt</text>
+  <text x="312" y="128" text-anchor="middle" class="m">klein, stark,</text>
+  <text x="312" y="141" text-anchor="middle" class="m">weit draußen</text>
+  <!-- weight list -->
+  <text x="20" y="160" class="h">Gewicht geben:</text>
+  <text x="20" y="176" class="m">Kontrast · Isolation · Gesicht, Tier, Schrift</text>
+  <text x="20" y="192" class="m">warme, satte Farbe · Schärfe · Lage am Rand</text>
+</svg>

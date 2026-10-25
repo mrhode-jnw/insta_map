@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 150" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="80" y="16" text-anchor="middle" class="h">Maler: füllt</text>
+<text x="260" y="16" text-anchor="middle" class="h">Fotograf: schneidet aus</text>
+<rect x="30" y="34" width="100" height="70"/>
+<line x1="14" y1="50" x2="40" y2="60" class="a"/><path d="M34.0 60.5 L40 60 L35.9 55.6" class="a"/>
+<line x1="150" y1="120" x2="112" y2="90" class="a"/><path d="M117.9 91.3 L112 90 L114.6 95.4" class="a"/>
+<line x1="78" y1="124" x2="78" y2="98" class="a"/><path d="M80.6 103.4 L78 98 L75.4 103.4" class="a"/>
+<circle cx="14" cy="50" r="3" class="mf" stroke="none"/><rect x="146" y="118" width="8" height="8" class="mf" stroke="none"/><path d="M74 128 l4 -6 l4 6 Z" class="mf" stroke="none"/>
+<text x="80" y="140" text-anchor="middle" class="m">leere Fläche → Bild</text>
+<path d="M180 70 L206 52 L226 62 L252 40 L276 58 L300 46 L330 60 L350 54" class="m"/>
+<line x1="180" y1="98" x2="350" y2="98" class="m"/>
+<path d="M196 98 V90 L202.0 85.8 L208 90 V98 Z" class="m"/>
+<path d="M236 98 V90 L242.0 85.8 L248 90 V98 Z" class="m"/>
+<path d="M316 98 V90 L322.0 85.8 L328 90 V98 Z" class="m"/>
+<line x1="286" y1="98" x2="286" y2="82.8" class="m"/><circle cx="286" cy="80.4" r="2.4" class="m"/>
+<line x1="342" y1="98" x2="342" y2="84.32" class="m"/><circle cx="342" cy="82.16" r="2.2" class="m"/>
+<circle cx="214" cy="30" r="7" class="m"/>
+<rect x="232" y="36" width="76" height="54" class="a"/>
+<path d="M236 98 V90 L242.0 85.8 L248 90 V98 Z"/>
+<line x1="286" y1="98" x2="286" y2="82.8"/><circle cx="286" cy="80.4" r="2.4"/>
+<text x="265" y="140" text-anchor="middle" class="m">ganze Welt → Ausschnitt</text>
+</svg>

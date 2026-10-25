@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="180" y="14" text-anchor="middle" class="h">Tiefenhinweis → so schaltest du ihn ab</text>
+  <!-- row 1 -->
+  <rect x="10" y="24" width="110" height="64" class="m"/>
+  <path d="M30 62 l14 -24 l14 24 z" class="f"/><path d="M48 62 l18 -30 l18 30 z"/>
+  <text x="65" y="84" text-anchor="middle" class="m">Überdeckung</text>
+  <rect x="125" y="24" width="110" height="64" class="m"/>
+  <path d="M140 66 v-30 M166 60 v-20 M186 56 v-12 M200 53 v-7 M210 51 v-4"/>
+  <text x="180" y="84" text-anchor="middle" class="m">Größenabnahme</text>
+  <rect x="240" y="24" width="110" height="64" class="m"/>
+  <path d="M250 66 L295 34 L340 66" /><path d="M268 66 L295 34 L322 66" class="m"/>
+  <text x="295" y="84" text-anchor="middle" class="m">Fluchtlinien</text>
+  <!-- row 2 -->
+  <rect x="10" y="96" width="110" height="64" class="m"/>
+  <path d="M14 118 l20 -10 l20 8 l20 -12 l20 8 l20 -6" stroke-opacity="0.3"/>
+  <path d="M14 134 l22 -12 l20 8 l22 -14 l22 10 l8 -2"/>
+  <text x="65" y="156" text-anchor="middle" class="m">Luftperspektive</text>
+  <rect x="125" y="96" width="110" height="64" class="m"/>
+  <path d="M164 134 v-26 l16 -8 l16 8 v26 z"/><path d="M180 100 v34 l16 0 v-26 z" class="mf" stroke="none"/>
+  <text x="180" y="156" text-anchor="middle" class="m">Licht modelliert</text>
+  <rect x="240" y="96" width="110" height="64" class="m"/>
+  <circle cx="262" cy="120" r="6"/><circle cx="295" cy="120" r="6" class="f" stroke-opacity="0.5" stroke-dasharray="2 2"/><circle cx="328" cy="120" r="6" class="f" stroke="none"/>
+  <text x="295" y="156" text-anchor="middle" class="m">Schärfeverlauf</text>
+  <!-- switches -->
+  <line x1="10" y1="172" x2="350" y2="172" class="m" stroke-dasharray="2 4"/>
+  <text x="10" y="190" class="a">frontal und parallel stehen</text>
+  <text x="196" y="190" class="a">Himmel abschneiden</text>
+  <text x="10" y="206" class="a">fern + lange Brennweite</text>
+  <text x="196" y="206" class="a">diffuses Licht</text>
+  <text x="10" y="222" class="a">senkrecht von oben</text>
+  <text x="196" y="222" class="a">gleichmäßig scharf</text>
+  <text x="180" y="244" text-anchor="middle" class="m">Was übrig bleibt: Massen, Kanten, Intervalle</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 226" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="45" y="14" text-anchor="middle" class="h">Frontlicht</text>
+  <text x="135" y="14" text-anchor="middle" class="h">Seitenlicht</text>
+  <text x="225" y="14" text-anchor="middle" class="h">Gegenlicht</text>
+  <text x="315" y="14" text-anchor="middle" class="h">Oberlicht</text>
+  <!-- top views: object circle at y 55, camera at y 86 -->
+  <g>
+    <rect x="39" y="38" width="12" height="17" class="f" stroke="none"/>
+    <circle cx="45" cy="55" r="6"/>
+    <rect x="40" y="84" width="10" height="7" class="af" stroke="none"/>
+    <circle cx="45" cy="104" r="5" class="af" stroke="none"/>
+    <path d="M45 97 V64" class="a" stroke-dasharray="2 3"/>
+
+    <rect x="135" y="49" width="24" height="12" class="f" stroke="none"/>
+    <circle cx="135" cy="55" r="6"/>
+    <rect x="130" y="84" width="10" height="7" class="af" stroke="none"/>
+    <circle cx="100" cy="55" r="5" class="af" stroke="none"/>
+    <path d="M107 55 H126" class="a" stroke-dasharray="2 3"/>
+
+    <rect x="219" y="55" width="12" height="20" class="f" stroke="none"/>
+    <circle cx="225" cy="55" r="6"/>
+    <rect x="220" y="84" width="10" height="7" class="af" stroke="none"/>
+    <circle cx="225" cy="28" r="5" class="af" stroke="none"/>
+    <path d="M225 35 V46" class="a" stroke-dasharray="2 3"/>
+
+    <circle cx="315" cy="55" r="6"/>
+    <circle cx="315" cy="55" r="12" class="a" stroke-dasharray="2 3"/>
+    <rect x="310" y="84" width="10" height="7" class="af" stroke="none"/>
+    <text x="315" y="34" text-anchor="middle" class="a">Sonne steil</text>
+  </g>
+  <!-- what the camera sees -->
+  <g>
+    <rect x="10" y="114" width="70" height="56"/>
+    <line x1="10" y1="156" x2="80" y2="156" class="m"/>
+    <rect x="35" y="130" width="20" height="26" rx="2"/>
+
+    <rect x="100" y="114" width="70" height="56"/>
+    <line x1="100" y1="156" x2="170" y2="156" class="m"/>
+    <rect x="135" y="130" width="10" height="26" class="f" stroke="none"/>
+    <rect x="125" y="130" width="20" height="26" rx="2"/>
+    <line x1="125" y1="130" x2="125" y2="156" class="a"/>
+    <rect x="145" y="153" width="22" height="5" class="f" stroke="none"/>
+
+    <rect x="190" y="114" width="70" height="56"/>
+    <line x1="190" y1="156" x2="260" y2="156" class="m"/>
+    <path d="M211 156 L239 156 L246 170 L204 170 Z" class="f" stroke="none"/>
+    <rect x="215" y="130" width="20" height="26" rx="2" fill="currentColor" fill-opacity="0.55" stroke="none"/>
+    <path d="M215 156 V132 Q215 130 217 130 H233 Q235 130 235 132 V156" class="a"/>
+
+    <rect x="280" y="114" width="70" height="56"/>
+    <line x1="280" y1="156" x2="350" y2="156" class="m"/>
+    <rect x="305" y="130" width="20" height="26" rx="2"/>
+    <line x1="305" y1="130" x2="325" y2="130" class="a" stroke-width="2.5"/>
+    <rect x="303" y="155" width="24" height="3" class="f" stroke="none"/>
+  </g>
+  <text x="45" y="188" text-anchor="middle" class="m">Farbe, Fläche</text>
+  <text x="45" y="202" text-anchor="middle" class="m">kaum Form</text>
+  <text x="135" y="188" text-anchor="middle" class="m">Form, Relief</text>
+  <text x="135" y="202" text-anchor="middle" class="m">Textur</text>
+  <text x="225" y="188" text-anchor="middle" class="m">Silhouette,</text>
+  <text x="225" y="202" text-anchor="middle" class="m">Lichtsaum</text>
+  <text x="315" y="188" text-anchor="middle" class="m">kurze Schatten</text>
+  <text x="315" y="202" text-anchor="middle" class="m">nach unten</text>
+  <text x="180" y="221" text-anchor="middle" class="a">Schatten zeigen die Richtung.</text>
+</svg>

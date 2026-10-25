@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="180" y="16" text-anchor="middle" class="h">Jedes Foto ist ein Zeitpaket</text>
+  <!-- axis -->
+  <line x1="20" y1="100" x2="345" y2="100"/>
+  <path d="M338 96 l7 4 l-7 4"/>
+  <g class="m"><path d="M40 95 v10 M100 95 v10 M150 95 v10 M195 95 v10 M252 95 v10 M310 95 v10"/></g>
+  <text x="40" y="120" text-anchor="middle">1/250</text>
+  <text x="100" y="120" text-anchor="middle">1/30</text>
+  <text x="150" y="120" text-anchor="middle">1/8</text>
+  <text x="195" y="120" text-anchor="middle">Sek.</text>
+  <text x="252" y="120" text-anchor="middle">Min.</text>
+  <text x="310" y="120" text-anchor="middle">Std.</text>
+  <!-- walking figure at each stage, increasingly ghostly -->
+  <g>
+    <circle cx="40" cy="58" r="4"/><path d="M40 62 v16 M40 78 l-5 12 M40 78 l5 12 M40 68 l6 4"/>
+  </g>
+  <g>
+    <circle cx="100" cy="58" r="4"/><path d="M100 62 v16 M100 78 l-5 12 M100 78 l5 12 M100 68 l6 4"/>
+    <path d="M95 62 v16" class="m" stroke-opacity="0.5"/>
+  </g>
+  <g stroke-opacity="0.6">
+    <path d="M140 58 h22" class="m" stroke-width="7" stroke-opacity="0.3"/>
+    <circle cx="152" cy="58" r="4"/><path d="M152 62 v16 M152 78 l-5 12 M152 78 l5 12"/>
+    <path d="M140 74 h22" class="m" stroke-width="10" stroke-opacity="0.25"/>
+  </g>
+  <g stroke-opacity="0.25" stroke-dasharray="2 3">
+    <circle cx="195" cy="58" r="4"/><path d="M195 62 v16 M195 78 l-5 12 M195 78 l5 12"/>
+  </g>
+  <!-- minutes / hours: only the sharp anchor remains, light accumulates -->
+  <path d="M239 90 h26 M243 90 v-26 h18 v26" />
+  <path d="M296 80 q14 -30 28 -10" class="a"/>
+  <path d="M292 86 q18 -40 36 -8" class="a" stroke-opacity="0.6"/>
+  <text x="40" y="146" text-anchor="middle" class="m">eingefroren</text>
+  <text x="100" y="146" text-anchor="middle" class="m">Ansätze</text>
+  <text x="150" y="146" text-anchor="middle" class="m">Spuren</text>
+  <text x="195" y="146" text-anchor="middle" class="m">durch-</text>
+  <text x="195" y="159" text-anchor="middle" class="m">scheinend</text>
+  <text x="252" y="146" text-anchor="middle" class="m">Gehende</text>
+  <text x="252" y="159" text-anchor="middle" class="m">weg</text>
+  <text x="312" y="146" text-anchor="middle" class="m">Licht</text>
+  <text x="312" y="159" text-anchor="middle" class="m">sammelt sich</text>
+  <text x="180" y="190" text-anchor="middle" class="m">Gehende in mittlerer Distanz (Faustwerte)</text>
+</svg>

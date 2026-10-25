@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="95" y="16" text-anchor="middle" class="h">Im Raum: hintereinander</text>
+  <text x="275" y="16" text-anchor="middle" class="h">Im Bild: nebeneinander</text>
+  <!-- top view: camera, mast near, station far, aligned on one line of sight -->
+  <rect x="14" y="110" width="10" height="8" class="af" stroke="none"/>
+  <path d="M24 114 L186 74 M24 114 L186 128" class="m" stroke-dasharray="2 4"/>
+  <path d="M24 114 L140 88" class="a"/>
+  <circle cx="70" cy="104" r="4" class="mf" stroke="none"/>
+  <rect x="140" y="88" width="34" height="22" class="f m"/>
+  <text x="66" y="92" text-anchor="middle">Mast</text>
+  <text x="160" y="66" text-anchor="middle">Tankstelle</text>
+  <path d="M70 150 h100 M70 146 v8 M170 146 v8" class="m"/>
+  <text x="120" y="168" text-anchor="middle" class="m">Hunderte Meter</text>
+  <text x="95" y="186" text-anchor="middle" class="m">von oben gesehen</text>
+  <!-- resulting frame: mast touches station edge -->
+  <rect x="210" y="40" width="130" height="100"/>
+  <line x1="210" y1="112" x2="340" y2="112" class="m"/>
+  <rect x="262" y="84" width="64" height="28" class="f"/>
+  <path d="M256 84 h76" />
+  <line x1="262" y1="140" x2="262" y2="48" stroke-width="3"/>
+  <circle cx="262" cy="84" r="6" class="a"/>
+  <text x="275" y="158" text-anchor="middle" class="a">Mast trifft genau</text>
+  <text x="275" y="172" text-anchor="middle" class="a">die Dachkante</text>
+  <text x="275" y="186" text-anchor="middle" class="m">Bildebene</text>
+</svg>

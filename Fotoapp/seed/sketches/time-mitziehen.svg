@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="180" y="16" text-anchor="middle" class="h">Mitziehen: Kamera dreht mit</text>
+  <!-- top view: subject path, rotating camera -->
+  <line x1="30" y1="40" x2="330" y2="40" class="m" stroke-dasharray="2 4"/>
+  <circle cx="110" cy="40" r="5" class="mf" stroke="none"/><circle cx="180" cy="40" r="5" class="mf" stroke="none"/><circle cx="250" cy="40" r="5" class="af" stroke="none"/>
+  <path d="M262 40 h30 m-5 -4 l5 4 l-5 4" class="a"/>
+  <rect x="174" y="98" width="12" height="9" class="af" stroke="none"/>
+  <path d="M180 98 L110 46 M180 98 L180 46 M180 98 L250 46" class="m"/>
+  <path d="M150 78 q30 -14 60 0" class="a"/><path d="M204 72 l6 6 l-8 2" class="a"/>
+  <text x="70" y="70" text-anchor="middle" class="m">vorher</text>
+  <text x="70" y="84" text-anchor="middle" class="m">drehen</text>
+  <text x="292" y="70" text-anchor="middle" class="m">nachher</text>
+  <text x="292" y="84" text-anchor="middle" class="m">weiterdrehen</text>
+  <!-- result frame -->
+  <rect x="60" y="122" width="240" height="64"/>
+  <g class="m" stroke-opacity="0.6"><path d="M66 134 h80 M170 134 h120 M66 146 h60 M150 146 h140 M66 172 h100 M200 172 h90 M66 180 h228"/></g>
+  <circle cx="182" cy="150" r="5"/><path d="M182 155 v12 M174 160 h16"/>
+  <circle cx="174" cy="174" r="6" class="m" stroke-dasharray="2 2"/><circle cx="192" cy="174" r="6" class="m" stroke-dasharray="2 2"/>
+  <text x="180" y="202" text-anchor="middle" class="m">Fahrer scharf, Räder und Hintergrund ziehen Streifen</text>
+</svg>

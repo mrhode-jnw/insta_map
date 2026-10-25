@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 236" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 1 Ueberdeckung -->
+  <path d="M40 50 H24 V22 H52 V36" class="m"/>
+  <rect x="40" y="36" width="28" height="28"/>
+  <!-- 2 Groesse -->
+  <line x1="110" y1="70" x2="110" y2="40"/><circle cx="110" cy="33" r="6"/>
+  <line x1="152" y1="42" x2="152" y2="32" class="m"/><circle cx="152" cy="29" r="2.5" class="m"/>
+  <!-- 3 Lage -->
+  <line x1="190" y1="30" x2="260" y2="30" class="m"/>
+  <circle cx="210" cy="64" r="5"/><circle cx="240" cy="36" r="3" class="m"/>
+  <!-- 4 Linearperspektive -->
+  <path d="M282 70 L315 26 L348 70" />
+  <path d="M300 70 L315 26 L330 70" class="m"/>
+  <circle cx="315" cy="26" r="2" class="af" stroke="none"/>
+  <text x="45" y="92" text-anchor="middle" class="h">1 Überdeckung</text>
+  <text x="45" y="106" text-anchor="middle" class="m">deckt = vorn</text>
+  <text x="135" y="92" text-anchor="middle" class="h">2 Größe</text>
+  <text x="135" y="106" text-anchor="middle" class="m">fern = kleiner</text>
+  <text x="225" y="92" text-anchor="middle" class="h">3 Lage</text>
+  <text x="225" y="106" text-anchor="middle" class="m">fern = höher</text>
+  <text x="315" y="92" text-anchor="middle" class="h">4 Fluchten</text>
+  <text x="315" y="106" text-anchor="middle" class="m">Linien laufen zu</text>
+  <!-- 5 Luftperspektive -->
+  <path d="M12 150 L35 132 L52 142 L78 128" stroke-opacity="0.3"/>
+  <path d="M12 162 L30 148 L50 158 L78 144" stroke-opacity="0.6"/>
+  <path d="M12 178 L38 160 L60 172 L78 164"/>
+  <!-- 6 Schaerfe, Textur -->
+  <path d="M100 180 l6 -8 M108 180 l6 -8 M116 180 l6 -8 M124 180 l6 -8 M100 170 l6 -8 M108 170 l6 -8 M116 170 l6 -8 M124 170 l6 -8"/>
+  <rect x="140" y="136" width="30" height="14" class="m"/>
+  <!-- 7 Licht -->
+  <rect x="190" y="134" width="70" height="48" class="f" stroke="none"/>
+  <rect x="204" y="148" width="26" height="34" class="a"/>
+  <!-- legend -->
+  <path d="M300 130 V182 M294 176 L300 182 L306 176" class="m"/>
+  <text x="312" y="142" class="m">stark</text>
+  <text x="312" y="182" class="m">schwach</text>
+  <text x="45" y="208" text-anchor="middle" class="h">5 Luft</text>
+  <text x="45" y="222" text-anchor="middle" class="m">fern = heller</text>
+  <text x="135" y="208" text-anchor="middle" class="h">6 Textur</text>
+  <text x="135" y="222" text-anchor="middle" class="m">nah = Struktur</text>
+  <text x="225" y="208" text-anchor="middle" class="h">7 Licht</text>
+  <text x="225" y="222" text-anchor="middle" class="m">hell vor dunkel</text>
+  <text x="315" y="208" text-anchor="middle" class="h">Reihenfolge</text>
+  <text x="315" y="222" text-anchor="middle" class="m">nach Stärke</text>
+</svg>

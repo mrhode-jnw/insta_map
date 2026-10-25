@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 236" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- long exposure -->
+  <rect x="10" y="10" width="165" height="105" class="m"/>
+  <text x="20" y="28" class="h">Eine lange Belichtung</text>
+  <path d="M30 80 q30 -6 60 0 t60 0" stroke-opacity="0.35" stroke-width="6"/>
+  <path d="M60 92 v-30 h20 v30"/>
+  <text x="92" y="106" text-anchor="middle" class="m">Mittelwert der Zeit</text>
+  <!-- median -->
+  <rect x="185" y="10" width="165" height="105" class="m"/>
+  <text x="195" y="28" class="h">Median-Stapel</text>
+  <path d="M230 92 v-36 l18 -10 l18 10 v36"/>
+  <g class="m" stroke-dasharray="2 3" stroke-opacity="0.5"><circle cx="292" cy="66" r="3"/><path d="M292 70 v12"/><circle cx="312" cy="70" r="3"/><path d="M312 74 v12"/></g>
+  <path d="M286 60 l32 32 M318 60 l-32 32" class="a"/>
+  <text x="268" y="106" text-anchor="middle" class="m">Passanten verschwinden</text>
+  <!-- maximum -->
+  <rect x="10" y="125" width="165" height="105" class="m"/>
+  <text x="20" y="143" class="h">Maximum-Stapel</text>
+  <g class="a"><path d="M40 205 a52 52 0 0 1 104 0"/><path d="M54 205 a38 38 0 0 1 76 0" stroke-opacity="0.7"/><path d="M68 205 a24 24 0 0 1 48 0" stroke-opacity="0.5"/></g>
+  <text x="92" y="222" text-anchor="middle" class="m">Lichtspuren addieren sich</text>
+  <!-- day-night / multiple -->
+  <rect x="185" y="125" width="165" height="105" class="m"/>
+  <text x="195" y="143" class="h">Tag-Nacht-Blende</text>
+  <rect x="200" y="152" width="135" height="50" class="m"/>
+  <path d="M200 202 L335 152 L335 202 Z" class="mf" stroke="none"/>
+  <circle cx="226" cy="166" r="6"/><path d="M300 170 l3 -6 l3 6" class="af" stroke="none"/>
+  <text x="268" y="222" text-anchor="middle" class="m">Stunden in einem Bild</text>
+</svg>

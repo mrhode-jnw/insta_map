@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 128" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="54.0" y="16" text-anchor="middle" class="h">Querformat</text>
+<rect x="15" y="40" width="78" height="52"/>
+<text x="54.0" y="118" text-anchor="middle" class="m">Ausdehnung</text>
+<text x="136.0" y="16" text-anchor="middle" class="h">Hochformat</text>
+<rect x="113" y="26" width="46" height="70"/>
+<text x="136.0" y="118" text-anchor="middle" class="m">Höhe, Schichten</text>
+<text x="220.0" y="16" text-anchor="middle" class="h">Quadrat</text>
+<rect x="190" y="34" width="60" height="60"/>
+<text x="220.0" y="118" text-anchor="middle" class="m">Ruhe, Mitte</text>
+<text x="310.0" y="16" text-anchor="middle" class="h">Panorama</text>
+<rect x="268" y="52" width="84" height="28"/>
+<text x="310.0" y="118" text-anchor="middle" class="m">Blick wandert</text>
+<line x1="26" y1="66" x2="82" y2="66" class="a"/><path d="M76.6 68.6 L82 66 L76.6 63.4" class="a"/><path d="M31.4 63.4 L26 66 L31.4 68.6" class="a"/>
+<line x1="136" y1="36" x2="136" y2="86" class="a"/><path d="M133.4 80.6 L136 86 L138.6 80.6" class="a"/><path d="M138.6 41.4 L136 36 L133.4 41.4" class="a"/>
+<line x1="116" y1="50" x2="156" y2="50" class="m"/>
+<line x1="116" y1="72" x2="156" y2="72" class="m"/>
+<circle cx="220" cy="64" r="7" class="a"/>
+<path d="M274 72 q10 -14 20 0 t20 0 t20 0 t12 -4" class="a"/><path d="M341.7 70.2 L346 66 L340.0 65.2" class="a"/>
+</svg>

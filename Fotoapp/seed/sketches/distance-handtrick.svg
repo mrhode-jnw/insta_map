@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 186" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="100" y="14" text-anchor="middle" class="h">Von oben</text>
+<rect x="176" y="28" width="14" height="14" class="f" stroke="none"/>
+<rect x="176" y="28" width="14" height="14"/>
+<text x="198" y="39" class="m">Turm</text>
+
+<circle cx="80" cy="84" r="5" class="mf" stroke="none"/>
+<text x="70" y="80" text-anchor="end" class="m">Hand</text>
+<rect x="25" y="108.5" width="10" height="7" class="af" stroke="none"/>
+<line x1="34" y1="109" x2="180" y2="37" class="a" stroke-dasharray="3 3"/>
+<text x="14" y="130" class="a">richtiger Punkt</text>
+<rect x="145" y="124.5" width="10" height="7" class="mf" stroke="none"/>
+<line x1="146" y1="124" x2="84" y2="88" class="m" stroke-dasharray="3 3"/>
+<line x1="150" y1="124" x2="182" y2="44" class="m" stroke-dasharray="3 3"/>
+<text x="150" y="144" text-anchor="middle" class="m">von der Seite</text>
+<text x="290" y="14" text-anchor="middle" class="h">Was die Kamera sieht</text>
+<rect x="240" y="24" width="100" height="56"/>
+<line x1="240" y1="72" x2="340" y2="72" class="m"/>
+<path d="M286 72 L288 34 L296 34 L300 72" class="m"/>
+<path d="M302 52 q10 -4 12 4 l-4 14 h-8 Z"/>
+<text x="290" y="94" text-anchor="middle" class="a">Hand „hält“ den Turm</text>
+<rect x="240" y="108" width="100" height="56"/>
+<line x1="240" y1="156" x2="340" y2="156" class="m"/>
+<path d="M318 156 L319 136 L323 136 L325 156" class="m"/>
+<path d="M250 132 q14 -6 18 6 l-6 18 h-10 Z"/>
+<text x="290" y="178" text-anchor="middle" class="m">Illusion zerfällt: Pose</text>
+</svg>

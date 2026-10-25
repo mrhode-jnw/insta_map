@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 214" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="60" y="16" text-anchor="middle" class="h">Verschmolzen</text>
+  <text x="180" y="16" text-anchor="middle" class="h">Kontrolliert</text>
+  <text x="300" y="16" text-anchor="middle" class="h">Getrennt</text>
+  <rect x="12" y="26" width="96" height="76"/>
+  <rect x="132" y="26" width="96" height="76" class="a"/>
+  <rect x="252" y="26" width="96" height="76"/>
+  <!-- mast out of head -->
+  <line x1="60" y1="26" x2="60" y2="60" class="m"/>
+  <circle cx="60" cy="66" r="6"/><path d="M60 72 V102 M50 82 H70"/>
+  <!-- controlled: figure overlaps tree trunk, head free -->
+  <line x1="196" y1="40" x2="196" y2="102" class="m"/><circle cx="196" cy="40" r="14" class="m"/>
+  <circle cx="176" cy="66" r="6"/><path d="M176 72 V102 M166 82 H186"/>
+  <!-- separated -->
+  <line x1="320" y1="26" x2="320" y2="102" class="m"/>
+  <circle cx="290" cy="66" r="6"/><path d="M290 72 V102 M280 82 H300"/>
+  <text x="60" y="118" text-anchor="middle" class="m">Mast wächst</text>
+  <text x="60" y="132" text-anchor="middle" class="m">aus dem Kopf</text>
+  <text x="180" y="118" text-anchor="middle" class="a">Raum + Umriss</text>
+  <text x="180" y="132" text-anchor="middle" class="m">Umriss bleibt frei</text>
+  <text x="300" y="118" text-anchor="middle" class="m">klar, aber</text>
+  <text x="300" y="132" text-anchor="middle" class="m">wenig Raum</text>
+  <text x="10" y="162" class="h">Werkzeuge</text>
+  <rect x="12" y="176" width="10" height="7" class="af" stroke="none"/>
+  <path d="M40 179 H60 M54 174 L60 179 L54 184" class="a"/>
+  <text x="68" y="183" class="m">½ Schritt</text>
+  <path d="M148 172 V190 M143 185 L148 190 L153 185" class="a"/>
+  <text x="160" y="183" class="m">Hocke</text>
+  <circle cx="226" cy="179" r="6" class="a"/>
+  <text x="238" y="183" class="m">Sekundenbruchteil</text>
+  <text x="10" y="206" class="m">Parallaxe verschiebt nah gegen fern</text>
+</svg>
