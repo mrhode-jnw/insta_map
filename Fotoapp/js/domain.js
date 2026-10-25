@@ -285,19 +285,21 @@ export function md(text) {
 export const referencedIds = text => new Set([...String(text).matchAll(/\[(S\d+(?:\s*,\s*S?\d+)*)\]/g)].flatMap(m => m[1].match(/\d+/g).map(Number)));
 
 // Estimated study time (minutes) for a lesson's core path and its Vertiefung — same formula as tools/lesson_time.py,
-// calibrated on the user's pace: 80 words/min, 1.5 min per image or sketch, 1 min per quiz question.
-const WPM = 80, PER_VISUAL = 1.5, PER_QUESTION = 1;
+// calibrated on the user's pace: 80 words/min, 1.5 min per image or sketch, 0.3 min per gallery thumbnail, 1 min per quiz question.
+const WPM = 80, PER_VISUAL = 1.5, PER_QUESTION = 1, PER_GLANCE = 0.3; // gallery thumbnail = a quick look
 const textCost = text => String(text || "").split("\n").reduce((m, line) => {
   const d = line.trim().match(/^::(\w+)\s*(.*)$/);
   const visual = d ? (d[1] === "vergleich" ? 2 : ["bild", "skizze"].includes(d[1]) ? 1 : 0) : 0;
-  return m + visual * PER_VISUAL + (d ? d[2] : line).replace(/\[(?:S|Q)\d+[^\]]*\]/g, "").split(/\s+/).filter(Boolean).length / WPM;
+  const glance = d?.[1] === "galerie" ? d[2].split("|")[0].trim().split(/\s+/).length * PER_GLANCE : 0;
+  return m + visual * PER_VISUAL + glance + (d ? d[2] : line).replace(/\[(?:S|Q)\d+[^\]]*\]/g, "").split(/\s+/).filter(Boolean).length / WPM;
 }, 0);
 export const splitDeep = text => { const [a, ...b] = String(text || "").split(/^::vertiefung\s*$/m); return [a, b.join("\n")]; };
 export function lessonTime(l) {
   let core = textCost(l.intro_md), deep = 0;
   for (const s of l.sections) { const [a, b] = splitDeep(s.body_md); if (s.deep) deep += textCost(a) + textCost(b); else { core += textCost(a); deep += textCost(b); } }
   for (const e of l.examples) { const t = PER_VISUAL + `${e.caption_md} ${(e.look_for || []).join(" ")}`.split(/\s+/).length / WPM; e.deep ? (deep += t) : (core += t); }
-  core += [...l.takeaways, ...l.exercises].join(" ").split(/\s+/).length / WPM;
+  core += l.takeaways.join(" ").split(/\s+/).length / WPM;
+  deep += l.exercises.join(" ").split(/\s+/).length / WPM; // exercises are for the road, collapsed
   for (const q of l.quiz) q.deep ? (deep += PER_QUESTION) : (core += PER_QUESTION);
   return { core: Math.round(core), deep: Math.round(deep) };
 }

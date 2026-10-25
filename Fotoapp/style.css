@@ -320,3 +320,10 @@ form.numbered fieldset.q legend::before { counter-increment: q; content: counter
 details.lsec.deep > summary { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 8px; }
 details.lsec.deep > summary::before { flex: none; }
 details.lsec.deep > summary .deep-tag { margin-left: 0; }
+/* recognition gallery: one small image per photographer */
+.galerie { margin: 18px 0; }
+.galerie-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.g-item span { display: block; font-size: 0.75rem; line-height: 1.25; color: var(--muted); margin-top: 3px; }
+.g-img { aspect-ratio: 1 / 1; background: #000; border-radius: 3px; overflow: hidden; }
+.g-img img { width: 100%; height: 100%; object-fit: cover; cursor: zoom-in; }
+.galerie figcaption { color: var(--muted); font-size: 0.88rem; margin-top: 6px; }

@@ -64,13 +64,15 @@ function rich(text) {
   const out = [], buf = [];
   const flush = () => { if (buf.length) out.push(md(buf.join("\n"))); buf.length = 0; };
   for (const line of String(text || "").split("\n")) {
-    const m = line.trim().match(/^::(kurz|merke|schau|bild|vergleich|skizze)\s+(.*)$/);
+    const m = line.trim().match(/^::(kurz|merke|schau|bild|vergleich|skizze|galerie)\s+(.*)$/);
     if (!m) { buf.push(line); continue; }
     flush();
     const [head, ...caps] = m[2].split("|").map(x => x.trim());
     if (m[1] === "kurz") out.push(`<p class="kurz">${inlineMd(m[2])}</p>`);
     else if (m[1] === "merke") out.push(`<div class="merke"><span>Merke</span>${inlineMd(m[2])}</div>`);
     else if (m[1] === "schau") out.push(`<div class="schau"><span>Schau hin</span>${inlineMd(m[2])}</div>`);
+    else if (m[1] === "galerie") { const imgs = head.split(/\s+/).map(x => lib.by.images.get(x)).filter(Boolean);
+      if (imgs.length) out.push(`<figure class="galerie"><div class="galerie-grid">${imgs.map(i => `<div class="g-item"><div class="g-img">${media(i.id, "t", "g")}</div><span>${esc(photographerOf(i).name)}</span></div>`).join("")}</div>${caps[0] ? `<figcaption>${inlineMd(caps[0])}</figcaption>` : ""}</figure>`); }
     else if (m[1] === "skizze") { const svg = lib.sketches?.[head];
       if (svg) out.push(`<figure class="sketch">${svg}${caps[0] ? `<figcaption>${inlineMd(caps[0])}</figcaption>` : ""}</figure>`); }
     else if (m[1] === "bild") { const i = lib.by.images.get(head);
@@ -330,7 +332,7 @@ views.lektion = async id => {
     ${coreEx.map(example).join("")}
     ${deepEx.length ? `<details class="deep more"><summary>Weitere Beispiele (${deepEx.length})</summary>${deepEx.map(example).join("")}</details>` : ""}
     <h3>Merksätze</h3><ul class="takeaways">${l.takeaways.map(t => `<li>${md(t).replace(/^<p>|<\/p>$/g, "")}</li>`).join("")}</ul>
-    <h3>Übungen für unterwegs</h3><ul>${l.exercises.map(t => `<li>${md(t).replace(/^<p>|<\/p>$/g, "")}</li>`).join("")}</ul>
+    <details class="deep more"><summary>Übungen für unterwegs (${l.exercises.length})</summary><ul>${l.exercises.map(t => `<li>${md(t).replace(/^<p>|<\/p>$/g, "")}</li>`).join("")}</ul></details>
     ${concepts.length ? `<p class="small">Seh-Begriffe dazu: ${concepts.map(c => `<a href="#/begriffe/${c.id}" class="tag">${esc(c.name)}</a>`).join(" ")}</p>` : ""}
   </article>
   <section class="card quiz" id="quiz"><h3>Abschlusstest</h3>
@@ -967,12 +969,14 @@ window.addEventListener("hashchange", closeSheet);
 
 // ---------- full-screen viewer: tap an image or sketch in a lesson/chapter, pinch or double-tap to zoom, drag to pan
 document.addEventListener("click", e => {
-  const img = e.target.closest('.chapter img[data-kind="m"], .quiz-img img');
+  const img = e.target.closest('.chapter img[data-kind="m"], .quiz-img img, .galerie img');
   const svg = !img && e.target.closest(".chapter figure.sketch svg");
   if (!img && !svg) return;
   e.preventDefault(); e.stopPropagation();
-  const fig = (img || svg).closest("figure, .compare > div, .quiz-img");
-  const cap = fig?.querySelector(":scope > figcaption, :scope figcaption");
+  const fig = (img || svg).closest(".g-item, figure, .compare > div, .quiz-img");
+  const gi = img && lib.by.images.get(img.dataset.media);
+  const cap = fig?.classList.contains("g-item") && gi ? { innerHTML: `<span class="who"><b>${esc(photographerOf(gi).name)}</b> – ${esc(gi.title || "")}${gi.year ? `, ${gi.year}` : ""}</span>` }
+    : fig?.querySelector(":scope > figcaption, :scope figcaption");
   openViewer({ img, svg, caption: cap ? cap.innerHTML : "" });
 }, true);
 
@@ -988,7 +992,8 @@ function openViewer({ img, svg, caption }) {
   if (svg) content.innerHTML = `<div class="viewer-svg sketch">${svg.outerHTML}</div>`;
   else {
     const el = document.createElement("img"); el.alt = ""; el.draggable = false; content.append(el);
-    if (img.src) el.src = img.src; else mediaUrl(id, "m").then(u => (el.src = u));
+    if (img.src && img.dataset.kind === "m") el.src = img.src;
+    else { if (img.src) el.src = img.src; mediaUrl(id, "m").then(u => (el.src = u)); } // thumbnail first, sharp version follows
   }
   document.body.append(v); document.body.classList.add("noscroll");
   history.pushState({ viewer: true }, "");

@@ -1,7 +1,7 @@
 """Estimated study time per lesson: core path vs. Vertiefung (same formula as lessonTime() in js/domain.js).
 
 Calibrated on the user's own pace (lesson "viewpoint" before the split: ~80 min):
-80 words/min for dense text, 1.5 min per image or sketch, 1 min per quiz question.
+80 words/min for dense text, 1.5 min per image or sketch, 0.3 min per gallery thumbnail (::galerie), 1 min per quiz question.
 Usage: python3 tools/lesson_time.py [seed/lessons_x.json ...]   (default: all seed lessons)
 """
 import json
@@ -9,7 +9,7 @@ import re
 import sys
 from pathlib import Path
 
-WPM, PER_VISUAL, PER_QUESTION = 80, 1.5, 1.0
+WPM, PER_VISUAL, PER_QUESTION, PER_GLANCE = 80, 1.5, 1.0, 0.3
 REF = re.compile(r"\[(?:S|Q)\d+[^\]]*\]")
 
 
@@ -21,6 +21,8 @@ def text_cost(text: str) -> float:
             minutes += 2 * PER_VISUAL
         elif m and m.group(1) in ("bild", "skizze"):
             minutes += PER_VISUAL
+        elif m and m.group(1) == "galerie":
+            minutes += len(m.group(2).split("|")[0].split()) * PER_GLANCE
         words = REF.sub("", m.group(2) if m else line).split()
         minutes += len(words) / WPM
     return minutes
@@ -47,7 +49,8 @@ def lesson_time(le: dict) -> tuple[float, float]:
             deep += t
         else:
             core += t
-    core += len(" ".join(le.get("takeaways", []) + le.get("exercises", [])).split()) / WPM
+    core += len(" ".join(le.get("takeaways", [])).split()) / WPM
+    deep += len(" ".join(le.get("exercises", [])).split()) / WPM  # exercises are for the road, collapsed
     for q in le.get("quiz", []):
         if q.get("deep"):
             deep += PER_QUESTION

@@ -340,7 +340,7 @@ def build_media(lib: Library, media_dir: Path, key: bytes) -> list[str]:
 
 
 SKETCH_DIR = SEED_DIR / "sketches"
-DIRECTIVE = re.compile(r"^::(bild|vergleich|skizze)\s+([^|]*)", re.M)
+DIRECTIVE = re.compile(r"^::(bild|vergleich|galerie|skizze)\s+([^|]*)", re.M)
 
 
 def load_sketches() -> dict:
