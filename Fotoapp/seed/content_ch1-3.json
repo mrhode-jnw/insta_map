@@ -1,0 +1,863 @@
+{
+ "accessed_at": "2026-10-25",
+ "photographers": [
+  {
+   "key": "osullivan",
+   "name": "Timothy H. O'Sullivan",
+   "born": 1840,
+   "died": 1882,
+   "sources": [
+    {
+     "url": "https://americanart.si.edu/artist/timothy-h-osullivan-3600",
+     "title": "Timothy H. O'Sullivan | Smithsonian American Art Museum",
+     "excerpt": "Timothy H. O'Sullivan (1840–1882) was a photographer for two of the most ambitious geographical surveys of the nineteenth century."
+    },
+    {
+     "url": "https://americanart.si.edu/artist/timothy-h-osullivan-3600",
+     "title": "Timothy H. O'Sullivan | Smithsonian American Art Museum",
+     "excerpt": "O'Sullivan began his photography career as an apprentice in Mathew Brady's Fulton Street gallery in New York City and then moved on to the Washington, D.C., branch managed by Alexander Gardner. In 1861, at the age of twenty-one, O'Sullivan joined Brady's team of Civil War photographers."
+    },
+    {
+     "url": "https://americanart.si.edu/artist/timothy-h-osullivan-3600",
+     "title": "Timothy H. O'Sullivan | Smithsonian American Art Museum",
+     "excerpt": "Along these journeys, O’Sullivan produced photographs that exhibit a forthright and rigorous style formed in response to the landscapes he encountered. Faced with challenging terrain and lacking previous photographic examples on which to rely, O’Sullivan created a body of work that was without precedent in its visual and emotional complexities."
+    },
+    {
+     "url": "https://oac.cdlib.org/findaid/ark:/13030/tf9r29p4fh",
+     "title": "Western Survey Expeditions of 1871, 1872, 1873, and 1874 – Finding aid, The Bancroft Library (Online Archive of California)",
+     "excerpt": "He became Photographer to the U.S. Treasury Department in 1880. O'Sullivan died of tuberculosis in Staten Island in 1882."
+    }
+   ],
+   "projects": [
+    {
+     "key": "osullivan-wheeler",
+     "title": "Geographical Surveys West of the 100th Meridian (Wheeler Survey)",
+     "year_from": 1871,
+     "year_to": 1874,
+     "sources": [
+      {
+       "url": "https://americanart.si.edu/artist/timothy-h-osullivan-3600",
+       "title": "Timothy H. O'Sullivan | Smithsonian American Art Museum",
+       "excerpt": "In 1871 O'Sullivan joined the geological surveys west of the one hundredth meridian, under the command of Lieutenant George M. Wheeler of the U.S. Corps of Engineers. An army man rather than a civilian scientist like King, Wheeler insisted on a survey that would be of practical value."
+      },
+      {
+       "url": "https://americanart.si.edu/artist/timothy-h-osullivan-3600",
+       "title": "Timothy H. O'Sullivan | Smithsonian American Art Museum",
+       "excerpt": "Flat-bottomed boats were used to go up the Colorado River through the Grand Canyon to the mouth of Diamond Creek. O'Sullivan commanded one of the boats, which he christened The Picture. Many of his negatives on glass plates were lost in transport, but surviving views of the Colorado's canyons are among his finest."
+      },
+      {
+       "url": "https://americanart.si.edu/artist/timothy-h-osullivan-3600",
+       "title": "Timothy H. O'Sullivan | Smithsonian American Art Museum",
+       "excerpt": "In 1873 O'Sullivan led an independent expedition for Wheeler, visiting the Zuni and Magia pueblos and the Canyon de Chelly, with its remnants of a cliff-dwelling culture."
+      },
+      {
+       "url": "https://oac.cdlib.org/findaid/ark:/13030/tf9r29p4fh",
+       "title": "Western Survey Expeditions of 1871, 1872, 1873, and 1874 – Finding aid, The Bancroft Library (Online Archive of California)",
+       "excerpt": "This survey expedition stereograph collection consists of 150 albumen stereographs taken of and for the Geographical Surveys West of the 100th Meridian from 1871-1874. The publisher is the War Department Corps of Engineers, U.S.A. The U.S. Geographical and Geological Surveys were implemented for the purpose of surveying, mapping, and studying the vast expanses of the previously unknown western landscapes of the United States."
+      }
+     ],
+     "images": [
+      {
+       "key": "osullivan-snow-peaks-bull-run",
+       "title": "Snow Peaks, Bull Run Mining District, Nevada",
+       "year": 1871,
+       "location": "Bull Run Mining District, Nevada, USA",
+       "source_url": "https://www.metmuseum.org/art/collection/search/264701",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-31141-002.jpg",
+       "tags": [
+        "landschaft",
+        "berge",
+        "schnee",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "osullivan-furnace-creek-death-valley",
+       "title": "View Up Furnace Creek, Death Valley, California",
+       "year": 1871,
+       "location": "Furnace Creek, Death Valley, California, USA",
+       "source_url": "https://www.metmuseum.org/art/collection/search/264702",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-31141-011.jpg",
+       "tags": [
+        "landschaft",
+        "wüste",
+        "schlucht",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "osullivan-eroded-strata-cottonwood",
+       "title": "Eroded Strata, Near Cottonwood Springs, Nevada",
+       "year": 1871,
+       "location": "Cottonwood Springs, Nevada, USA",
+       "source_url": "https://www.metmuseum.org/art/collection/search/264703",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-31141-012.jpg",
+       "tags": [
+        "landschaft",
+        "geologie",
+        "weite",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "osullivan-black-canon-camp-8",
+       "title": "Black Cañon, From Camp 8, Looking Above",
+       "year": 1871,
+       "location": "Black Cañon, Colorado River, USA",
+       "source_url": "https://www.metmuseum.org/art/collection/search/264711",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-31141-020.jpg",
+       "tags": [
+        "landschaft",
+        "wasser",
+        "schlucht",
+        "menschen"
+       ],
+       "sources": []
+      },
+      {
+       "key": "osullivan-light-shadow-black-canon",
+       "title": "Light and Shadow in Black Cañon, From Mirror Bar",
+       "year": 1871,
+       "location": "Black Cañon, Colorado River, USA",
+       "source_url": "https://www.metmuseum.org/art/collection/search/264715",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-31141-023.jpg",
+       "tags": [
+        "landschaft",
+        "wasser",
+        "licht",
+        "schlucht"
+       ],
+       "sources": []
+      },
+      {
+       "key": "osullivan-castellated-sand-bluffs",
+       "title": "Castellated Sand-Bluffs, Fortification Rock",
+       "year": 1871,
+       "location": "Fortification Rock, Colorado River, USA",
+       "source_url": "https://www.metmuseum.org/art/collection/search/264718",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-31141-026.jpg",
+       "tags": [
+        "landschaft",
+        "wasser",
+        "felsen",
+        "spiegelung"
+       ],
+       "sources": []
+      },
+      {
+       "key": "osullivan-columnar-basalt-grand-wash",
+       "title": "Columnar Basalt, Mouth of Grand Wash",
+       "year": 1871,
+       "location": "Grand Wash, Colorado River, USA",
+       "source_url": "https://www.metmuseum.org/art/collection/search/264720",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-31141-028.jpg",
+       "tags": [
+        "landschaft",
+        "geologie",
+        "felsen",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "osullivan-wall-grand-canon",
+       "title": "Wall in the Grand Cañon",
+       "year": 1871,
+       "location": "Grand Cañon, Colorado River, USA",
+       "source_url": "https://www.metmuseum.org/art/collection/search/264722",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-31141-030.jpg",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "maßstab",
+        "menschen"
+       ],
+       "sources": []
+      },
+      {
+       "key": "osullivan-canfields-mill-belmont",
+       "title": "Canfield's Mill, Belmont, Nevada",
+       "year": 1871,
+       "location": "Belmont, Nevada, USA",
+       "source_url": "https://www.metmuseum.org/art/collection/search/264712",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-31141-003.jpg",
+       "tags": [
+        "architektur",
+        "industrie",
+        "landschaft",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "osullivan-canyon-de-chelly",
+       "title": "Head of Cañyon de Chelle, Looking Down",
+       "year": 1873,
+       "location": "Cañon de Chelle (Canyon de Chelly), Arizona, USA",
+       "source_url": "https://www.metmuseum.org/art/collection/search/700114",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-2597-221.jpg",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "felsen",
+        "schwarzweiß"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "watkins",
+   "name": "Carleton E. Watkins",
+   "born": 1829,
+   "died": 1916,
+   "sources": [
+    {
+     "url": "https://americanart.si.edu/artist/carleton-e-watkins-5251",
+     "title": "Carleton Watkins | Smithsonian American Art Museum",
+     "excerpt": "born Oneonta, NY 1829-died Imola, CA 1916"
+    },
+    {
+     "url": "https://americanart.si.edu/artist/carleton-e-watkins-5251",
+     "title": "Carleton Watkins | Smithsonian American Art Museum",
+     "excerpt": "He made his first trip to Yosemite in the fall of 1861, producing thirty mammoth-plate and one hundred stereoscopic negatives. They were among the first photographs of the valley sent back east. It was partly based on this material that President Lincoln signed a bill in 1864 banning development in the valley, which led to the establishment of the national-parks system."
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Carleton_E._Watkins/",
+     "title": "Carleton E. Watkins | SFMOMA",
+     "excerpt": "In wide-ranging travels across the length and breadth of the frontier West, Watkins energetically balanced a practical need to characterize the land before him with his craftsman's pride in a picture plumbed and mitred to perfection."
+    }
+   ],
+   "projects": [
+    {
+     "key": "watkins-yosemite",
+     "title": "Yosemite (Mammutplatten-Aufnahmen)",
+     "year_from": 1861,
+     "year_to": 1881,
+     "sources": [
+      {
+       "url": "https://americanart.si.edu/artist/carleton-e-watkins-5251",
+       "title": "Carleton Watkins | Smithsonian American Art Museum",
+       "excerpt": "Over the next twenty years Watkins returned to the valley at least seven times."
+      },
+      {
+       "url": "https://www.sfmoma.org/artist/Carleton_E._Watkins/",
+       "title": "Carleton E. Watkins | SFMOMA",
+       "excerpt": "In the 1860s Carleton Watkins loaded a team of mules with his mammoth-plate camera and glass negatives and ventured into Yosemite Valley. The pictures he made there helped lay the foundation for American landscape photography, before the San Francisco earthquake of 1906 destroyed much of his life’s work."
+      }
+     ],
+     "images": [
+      {
+       "key": "watkins-sentinel-dome",
+       "title": "View from the Sentinel Dome, Yosemite",
+       "year": null,
+       "location": "Sentinel Dome, Yosemite, California, USA",
+       "source_url": "https://www.metmuseum.org/art/collection/search/689997",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DT6342.jpg",
+       "tags": [
+        "landschaft",
+        "berge",
+        "weite",
+        "schwarzweiß"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "bourne",
+   "name": "Samuel Bourne",
+   "born": null,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O120414/",
+     "title": "Taj and garden from the Entrance Gate, Agra | Samuel Bourne | V&A Explore The Collections",
+     "excerpt": "This view of the Taj Mahal is by the English photographer Samuel Bourne. He first travelled to India in 1863 and spent six years there, photographing extensively. He wrote about his journey in The British Journal of Photography, outlining his route and in some cases describing the scenes he photographed."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O107939/",
+     "title": "View taken from above the Nithal | Samuel Bourne | V&A Explore The Collections",
+     "excerpt": "Bourne writes about the difficulty of photographing this landscape: 'In taking views of snow, unless you get broad masses of it well lit up by the sun, it does not \"come out\" in the photograph with that purity which conveys the impression of snow.’"
+    }
+   ],
+   "projects": [
+    {
+     "key": "bourne-himalaya-1866",
+     "title": "Himalaya-Reise 1866 (Spiti, Kinnaur, Kulu)",
+     "year_from": 1866,
+     "year_to": 1866,
+     "sources": [
+      {
+       "url": "https://collections.vam.ac.uk/item/O107724/",
+       "title": "Dunkar Fort, with the Manirung Pass and range in the distance | Samuel Bourne | V&A Explore The Collections",
+       "excerpt": "This is one of many images of India captured by the English photographer Samuel Bourne. From July to December 1866, he toured part of the Himalayan region. He wrote about his journey in The British Journal of Photography, outlining his route and in some cases describing the scenes he photographed."
+      },
+      {
+       "url": "https://collections.vam.ac.uk/item/O107724/",
+       "title": "Dunkar Fort, with the Manirung Pass and range in the distance | Samuel Bourne | V&A Explore The Collections",
+       "excerpt": "The houses were built into the sides of the hill, which have been scooped out by nature into holes and caverns; and the way these had been taken advantage of and built into, until the hand of man and the hand of nature seemed to unite, was ingenious and picturesque."
+      }
+     ],
+     "images": [
+      {
+       "key": "bourne-dunkar-fort",
+       "title": "Dunkar Fort, with the Manirung Pass and range in the distance",
+       "year": 1866,
+       "location": "Dankar, Spiti, India",
+       "source_url": "https://collections.vam.ac.uk/item/O107724/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AC7540/full/1600,/0/default.jpg",
+       "tags": [
+        "architektur",
+        "berge",
+        "landschaft",
+        "schwarzweiß"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "adams",
+   "name": "Ansel Adams",
+   "born": 1902,
+   "died": 1984,
+   "sources": [
+    {
+     "url": "https://www.anseladams.com/ansel-adams-bio/",
+     "title": "Ansel Adams Biography | The Ansel Adams Gallery",
+     "excerpt": "Adams, Ansel (Feb. 20 1902 — Apr. 22, 1984), photographer and environmentalist, was born in San Francisco, California, the son of Charles Hitchcock Adams, a businessman, and Olive Bray."
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Ansel_Adams/",
+     "title": "Ansel Adams | SFMOMA",
+     "excerpt": "Adams went to great lengths to make his pictures appear unmanipulated. In fact, much of his creative work took place in the darkroom, where he painstakingly perfected the tones of each individual print."
+    },
+    {
+     "url": "https://www.anseladams.com/ansel-adams-bio/",
+     "title": "Ansel Adams Biography | The Ansel Adams Gallery",
+     "excerpt": "Nineteen twenty seven was the pivotal year of Adams’s life. He made his first fully visualized photograph, Monolith, the Face of Half Dome , and took his first HighTrip."
+    }
+   ],
+   "projects": [
+    {
+     "key": "adams-mural-project",
+     "title": "Mural Project: Photographs of National Parks and Monuments",
+     "year_from": 1941,
+     "year_to": 1942,
+     "sources": [
+      {
+       "url": "https://www.archives.gov/research/ansel-adams",
+       "title": "Ansel Adams Photographs | National Archives",
+       "excerpt": "In 1941 the National Park Service commissioned noted photographer Ansel Adams to create a photo mural for the Department of the Interior Building in Washington, DC. The theme was to be nature as exemplified and protected in the U.S. National Parks. The mural project was halted because of World War II and never resumed, however the photographs remained."
+      },
+      {
+       "url": "https://www.archives.gov/research/ansel-adams",
+       "title": "Ansel Adams Photographs | National Archives",
+       "excerpt": "The holdings of the National Archives' Still Picture Branch include 226 photographs taken for this project, most of them signed and captioned by Adams."
+      },
+      {
+       "url": "https://www.archives.gov/research/ansel-adams",
+       "title": "Ansel Adams Photographs | National Archives",
+       "excerpt": "The Kings Canyon photographs were taken in 1936 when the establishment of the park was being proposed. These prints were added by Adams to the mural project."
+      },
+      {
+       "url": "https://www.archives.gov/research/ansel-adams",
+       "title": "Ansel Adams Photographs | National Archives",
+       "excerpt": "The photographs within this list--with the exception of those in the series 79-G--are within the public domain."
+      }
+     ],
+     "images": [
+      {
+       "key": "adams-tetons-snake-river",
+       "title": "The Tetons and the Snake River",
+       "year": 1942,
+       "location": "Grand Teton National Park, Wyoming, USA",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Adams_The_Tetons_and_the_Snake_River.jpg",
+       "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Adams_The_Tetons_and_the_Snake_River.jpg",
+       "tags": [
+        "landschaft",
+        "berge",
+        "wasser",
+        "schwarzweiß",
+        "weite"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-grand-canyon-broad-view",
+       "title": "Grand Canyon National Park (Broad view with detail of canyon, horizon, and mountains above)",
+       "year": 1941,
+       "location": "Grand Canyon National Park, Arizona, USA",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-F12.jpg",
+       "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Ansel_Adams_-_National_Archives_79-AA-F12.jpg",
+       "tags": [
+        "landschaft",
+        "schlucht",
+        "weite",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-rocky-mountain-clouds",
+       "title": "In Rocky Mountain National Park (Mountain tops, low horizon, dramatic clouded sky)",
+       "year": 1941,
+       "location": "Rocky Mountain National Park, Colorado, USA",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-M04.jpg",
+       "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Ansel_Adams_-_National_Archives_79-AA-M04.jpg",
+       "tags": [
+        "landschaft",
+        "berge",
+        "wolken",
+        "himmel",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-near-death-valley",
+       "title": "Near Death Valley National Monument",
+       "year": 1942,
+       "location": "Death Valley, California, USA",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-D03.jpg",
+       "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ansel_Adams_-_National_Archives_79-AA-D03.jpg",
+       "tags": [
+        "landschaft",
+        "wüste",
+        "berge",
+        "weite"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-st-marys-lake",
+       "title": "St. Mary's Lake, Glacier National Park",
+       "year": 1942,
+       "location": "Glacier National Park, Montana, USA",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-E01.jpg",
+       "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ansel_Adams_-_National_Archives_79-AA-E01.jpg",
+       "tags": [
+        "landschaft",
+        "berge",
+        "wasser",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-clouds-white-pass",
+       "title": "Clouds - White Pass, Kings River Canyon",
+       "year": 1936,
+       "location": "Kings River Canyon, California, USA",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-H24.jpg",
+       "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Ansel_Adams_-_National_Archives_79-AA-H24.jpg",
+       "tags": [
+        "landschaft",
+        "berge",
+        "wolken",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-cliff-palace-mesa-verde",
+       "title": "Cliff Palace, Mesa Verde National Park",
+       "year": 1941,
+       "location": "Mesa Verde National Park, Colorado, USA",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-J03.jpg",
+       "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ansel_Adams_-_National_Archives_79-AA-J03.jpg",
+       "tags": [
+        "architektur",
+        "felsen",
+        "ruinen",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-walpi",
+       "title": "Walpi, Arizona",
+       "year": 1941,
+       "location": "Walpi, Arizona, USA",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-S01.jpg",
+       "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ansel_Adams_-_National_Archives_79-AA-S01.jpg",
+       "tags": [
+        "architektur",
+        "landschaft",
+        "dorf",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-boulder-dam-power-units",
+       "title": "Looking Up at Wires of the Boulder Dam Power Units",
+       "year": 1941,
+       "location": "Boulder Dam (Hoover Dam), USA",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AAB-05.jpg",
+       "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Ansel_Adams_-_National_Archives_79-AAB-05.jpg",
+       "tags": [
+        "architektur",
+        "industrie",
+        "linien",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "adams-old-faithful-dusk",
+       "title": "Old Faithful Geyser, Yellowstone National Park",
+       "year": 1941,
+       "location": "Yellowstone National Park, Wyoming, USA",
+       "source_url": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AA-T22.jpg",
+       "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Ansel_Adams_-_National_Archives_79-AA-T22.jpg",
+       "tags": [
+        "landschaft",
+        "wasser",
+        "dämmerung",
+        "schwarzweiß"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "cartier-bresson",
+   "name": "Henri Cartier-Bresson",
+   "born": 1908,
+   "died": 2004,
+   "sources": [
+    {
+     "url": "https://www.henricartierbresson.org/en/hcb/biography/",
+     "title": "Biography | Fondation Henri Cartier-Bresson",
+     "excerpt": "1908: Born on August 22nd in Chanteloup, Seine-et-Marne. Educated at the Lycée Condorcet, Paris."
+    },
+    {
+     "url": "https://www.henricartierbresson.org/en/hcb/biography/",
+     "title": "Biography | Fondation Henri Cartier-Bresson",
+     "excerpt": "1931-32: Buys his first Leica in Paris and travels across Europe with his friends Leonor Fini and Pieyre de Mandiargues."
+    },
+    {
+     "url": "https://www.henricartierbresson.org/en/hcb/biography/",
+     "title": "Biography | Fondation Henri Cartier-Bresson",
+     "excerpt": "2004: Henri Cartier-Bresson dies peacefully in Montjustin, Provence on August 3rd."
+    },
+    {
+     "url": "https://www.henricartierbresson.org/en/hcb/",
+     "title": "Henri Cartier-Bresson | Fondation Henri Cartier-Bresson",
+     "excerpt": "For me the camera is a sketch book, an instrument of intuition and spontaneity, the master of the instant which, in visual terms, questions and decides simultaneously. In order to give a “meaning” to the world, one has to feel involved in what one frames through the viewfinder. This attitude requires concentration, discipline of mind, sensitivity, and a sense of geometry."
+    }
+   ],
+   "projects": [
+    {
+     "key": "cartier-bresson-europeans",
+     "title": "Les Européens / Europeans",
+     "year_from": 1931,
+     "year_to": 1991,
+     "sources": [
+      {
+       "url": "https://www.henricartierbresson.org/en/hcb/biography/",
+       "title": "Biography | Fondation Henri Cartier-Bresson",
+       "excerpt": "1955: First exhibition in France at the Pavillon de Marsan in the Louvre. Tériade publishes Les Européens ( cover illustrated by Miró)."
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/henri-cartier-bresson-the-europeans/",
+       "title": "Henri Cartier-Bresson finds a common humanity among Europeans | Magnum Photos",
+       "excerpt": "Cartier-Bresson’s photo-study Europeans presented a portrait of the continent, documenting a landscape shadowed by the war. Travelling across Europe, from the Scandinavian shield to the Irish bogs, the photographer looked beyond nationalism to find a shared human experience and a greater, more unifying sense of European identity."
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/henri-cartier-bresson-the-europeans/",
+       "title": "Henri Cartier-Bresson finds a common humanity among Europeans | Magnum Photos",
+       "excerpt": "A book featuring these images was published in 1955, and in later years Cartier-Bresson revisited the theme, which had been central throughout his career, pulling together a collection of images from pre and post-war Europe that, combined, create a nuanced yet universal portrait of shared humanity."
+      }
+     ],
+     "images": [
+      {
+       "key": "hcb-gare-saint-lazare",
+       "title": "Place de l'Europe. Gare Saint Lazare",
+       "year": 1932,
+       "location": "Paris, France",
+       "source_url": "https://www.magnumphotos.com/arts-culture/henri-cartier-bresson-the-europeans/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/06/cortex/par43607-teaser-story-big.jpg",
+       "tags": [
+        "straße",
+        "wasser",
+        "spiegelung",
+        "menschen",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "hcb-hyeres",
+       "title": "Hyères",
+       "year": 1932,
+       "location": "Hyères, France",
+       "source_url": "https://www.magnumphotos.com/arts-culture/henri-cartier-bresson-the-europeans/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/06/cortex/par44919-teaser-story-big.jpg",
+       "tags": [
+        "straße",
+        "architektur",
+        "bewegung",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "hcb-scanno",
+       "title": "Scanno, Abruzzo",
+       "year": 1951,
+       "location": "Scanno, Abruzzo, Italy",
+       "source_url": "https://www.magnumphotos.com/arts-culture/henri-cartier-bresson-the-europeans/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/06/cortex/par45590-teaser-story-big.jpg",
+       "tags": [
+        "straße",
+        "menschen",
+        "dorf",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "hcb-dublin",
+       "title": "Dublin",
+       "year": 1952,
+       "location": "Dublin, Ireland",
+       "source_url": "https://www.magnumphotos.com/arts-culture/henri-cartier-bresson-the-europeans/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/06/cortex/par46679-teaser-story-big.jpg",
+       "tags": [
+        "straße",
+        "menschen",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "hcb-quai-des-tuileries",
+       "title": "Quai des Tuileries",
+       "year": 1956,
+       "location": "Paris, France",
+       "source_url": "https://www.magnumphotos.com/arts-culture/henri-cartier-bresson-the-europeans/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/06/cortex/par18776-teaser-story-big.jpg",
+       "tags": [
+        "straße",
+        "menschen",
+        "stadt",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "hcb-frozen-rhine-cologne",
+       "title": "The frozen Rhine with the Cathedral in the background",
+       "year": 1956,
+       "location": "Cologne, West Germany",
+       "source_url": "https://www.magnumphotos.com/arts-culture/henri-cartier-bresson-the-europeans/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/06/cortex/par18782-teaser-story-big.jpg",
+       "tags": [
+        "architektur",
+        "wasser",
+        "winter",
+        "stadt",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "hcb-siphnos",
+       "title": "Island of Siphnos",
+       "year": 1961,
+       "location": "Siphnos, Cyclades, Greece",
+       "source_url": "https://www.magnumphotos.com/arts-culture/henri-cartier-bresson-the-europeans/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/06/cortex/par18964-teaser-story-big.jpg",
+       "tags": [
+        "architektur",
+        "menschen",
+        "geometrie",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "hcb-golden-horn-istanbul",
+       "title": "The Golden Horn",
+       "year": 1964,
+       "location": "Istanbul, Turkey",
+       "source_url": "https://www.magnumphotos.com/arts-culture/henri-cartier-bresson-the-europeans/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/06/cortex/par104001-teaser-story-big.jpg",
+       "tags": [
+        "stadt",
+        "wasser",
+        "menschen",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "hcb-prizren",
+       "title": "Prizren, Kosovo",
+       "year": 1965,
+       "location": "Prizren, Kosovo, Yugoslavia",
+       "source_url": "https://www.magnumphotos.com/arts-culture/henri-cartier-bresson-the-europeans/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/06/cortex/par19026-teaser-story-big.jpg",
+       "tags": [
+        "straße",
+        "menschen",
+        "stadt",
+        "schwarzweiß"
+       ],
+       "sources": []
+      },
+      {
+       "key": "hcb-simiane-la-rotonde",
+       "title": "Simiane-la-Rotonde, Alpes de Haute-Provence",
+       "year": 1969,
+       "location": "Simiane-la-Rotonde, Alpes de Haute-Provence, France",
+       "source_url": "https://www.magnumphotos.com/arts-culture/henri-cartier-bresson-the-europeans/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/06/cortex/par19121-teaser-story-big.jpg",
+       "tags": [
+        "landschaft",
+        "dorf",
+        "menschen",
+        "schwarzweiß"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 1,
+   "title": "Expeditions- und Reisefotografie des 19. Jahrhunderts",
+   "period_from": 1850,
+   "period_to": 1900,
+   "sources": [
+    {
+     "url": "https://americanart.si.edu/artist/carleton-e-watkins-5251",
+     "title": "Carleton Watkins | Smithsonian American Art Museum",
+     "excerpt": "A prolific landscape record evolved as soon as cameras and equipment could be reliably used outdoors. Most nineteenth-century photographers worked on government-sponsored surveys. Others helped to lure investors westward with the images they made along the routes of the railroads."
+    },
+    {
+     "url": "https://oac.cdlib.org/findaid/ark:/13030/tf9r29p4fh",
+     "title": "Western Survey Expeditions of 1871, 1872, 1873, and 1874 – Finding aid, The Bancroft Library (Online Archive of California)",
+     "excerpt": "The U.S. Geographical and Geological Surveys were implemented for the purpose of surveying, mapping, and studying the vast expanses of the previously unknown western landscapes of the United States. Timothy H. O'Sullivan and William Bell were the official photographers of the surveys."
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Carleton_E._Watkins/",
+     "title": "Carleton E. Watkins | SFMOMA",
+     "excerpt": "Carleton Watkins saw his mammoth-plate photographs as something more than just mere documents of what he had seen. He considered them to be more like paintings, and conceived of them as something to be hung on the wall, to be framed and to be considered like landscape paintings."
+    },
+    {
+     "url": "https://americanart.si.edu/artist/timothy-h-osullivan-3600",
+     "title": "Timothy H. O'Sullivan | Smithsonian American Art Museum",
+     "excerpt": "His work for the King survey often functioned as both objective scientific documentation and a personal evocation of the fantastic and beautiful qualities of the western landscape."
+    }
+   ],
+   "key_images": [
+    "osullivan-canyon-de-chelly",
+    "osullivan-black-canon-camp-8",
+    "osullivan-light-shadow-black-canon",
+    "osullivan-castellated-sand-bluffs",
+    "osullivan-wall-grand-canon",
+    "osullivan-furnace-creek-death-valley",
+    "watkins-sentinel-dome",
+    "bourne-dunkar-fort"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Die große Landschaftsfotografie in Schwarzweiß",
+   "period_from": 1927,
+   "period_to": 1960,
+   "sources": [
+    {
+     "url": "https://www.anseladams.com/ansel-adams-bio/",
+     "title": "Ansel Adams Biography | The Ansel Adams Gallery",
+     "excerpt": "In the same year Adams met photographer Paul Strand, whose images had a powerful impact on Adams and helped to move him away from the “pictorial” style he had favored in the 1920s. Adams began to pursue “straight photography,” in which the clarity of the lens was emphasized, and the final print gave no appearance of being manipulated in the camera or the darkroom."
+    },
+    {
+     "url": "https://www.anseladams.com/ansel-adams-bio/",
+     "title": "Ansel Adams Biography | The Ansel Adams Gallery",
+     "excerpt": "In 1927 Adams met photographer Edward Weston . They became increasingly important to each other as friends and colleagues. The renowned Group f/64, founded in 1932, coalesced around the recognized greatness of Weston and the dynamic energy of Adams."
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Ansel_Adams/",
+     "title": "Ansel Adams | SFMOMA",
+     "excerpt": "Instead, the San Francisco–born Adams tried to establish a photographic style unique to the American West."
+    },
+    {
+     "url": "https://www.anseladams.com/ansel-adams-bio/",
+     "title": "Ansel Adams Biography | The Ansel Adams Gallery",
+     "excerpt": "His black-and-white images were not “realistic” documents of nature. Instead, they sought an intensification and purification of the psychological experience of natural beauty."
+    },
+    {
+     "url": "https://americanart.si.edu/artist/carleton-e-watkins-5251",
+     "title": "Carleton Watkins | Smithsonian American Art Museum",
+     "excerpt": "Photographs of unspoiled national treasures such as those by Ansel Adams exerted considerable influence on the federal government’s efforts to create national parks."
+    }
+   ],
+   "key_images": [
+    "adams-tetons-snake-river",
+    "adams-grand-canyon-broad-view",
+    "adams-rocky-mountain-clouds",
+    "adams-clouds-white-pass",
+    "adams-st-marys-lake",
+    "adams-cliff-palace-mesa-verde",
+    "adams-boulder-dam-power-units",
+    "adams-old-faithful-dusk"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Der entscheidende Augenblick: Straßenfotografie und die Gründung von Magnum",
+   "period_from": 1930,
+   "period_to": 1975,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/about-magnum/history/",
+     "title": "History of Magnum | Magnum Photos",
+     "excerpt": "The world’s most prestigious photographic agency was formed by four photographers – Robert Capa, Henri Cartier-Bresson, George Rodger and David “Chim” Seymour – who had been very much scarred by the conflict and were motivated both by a sense of relief that the world had somehow survived and the curiosity to see what was still there. They created Magnum in 1947 to reflect their independent natures as both people and photographers – the idiosyncratic mix of reporter and artist that continues to define Magnum, emphasizing not only what is seen but also the way one sees it."
+    },
+    {
+     "url": "https://www.magnumphotos.com/about-magnum/history/",
+     "title": "History of Magnum | Magnum Photos",
+     "excerpt": "It was founded as a co-operative in which the staff, including co-founders Maria Eisner and Rita Vandivert, would support rather than direct the photographers. Copyright would be held by the authors of the imagery, not by the magazines that published the work."
+    },
+    {
+     "url": "https://www.henricartierbresson.org/en/hcb/",
+     "title": "Henri Cartier-Bresson | Fondation Henri Cartier-Bresson",
+     "excerpt": "To take a photograph means to recognize, simultaneously and within a fraction of a second‚ both the fact itself and the rigorous organization of visually perceived forms that give it meaning."
+    },
+    {
+     "url": "https://www.henricartierbresson.org/en/hcb/biography/",
+     "title": "Biography | Fondation Henri Cartier-Bresson",
+     "excerpt": "1952: His first book, Images à la Sauvette , with its cover by Matisse, is published by Tériade."
+    }
+   ],
+   "key_images": [
+    "hcb-gare-saint-lazare",
+    "hcb-hyeres",
+    "hcb-scanno",
+    "hcb-siphnos",
+    "hcb-frozen-rhine-cologne",
+    "hcb-golden-horn-istanbul",
+    "hcb-simiane-la-rotonde"
+   ]
+  }
+ ]
+}

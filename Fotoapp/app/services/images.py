@@ -13,7 +13,8 @@ from app.config import settings
 
 THUMB_LONG_EDGE = 640
 API_LONG_EDGE = 1568
-USER_AGENT = "Sehschule/1.0 (private study app)"
+# Wikimedia asks for a contact URL in the User-Agent.
+USER_AGENT = "Sehschule/1.0 (private study app; https://github.com/mrhode-jnw/insta_map)"
 EXT_BY_FORMAT = {"JPEG": ".jpg", "PNG": ".png", "WEBP": ".webp", "TIFF": ".tif", "GIF": ".gif"}
 
 

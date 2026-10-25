@@ -42,4 +42,4 @@ Base64 an die API. `ANTHROPIC_FALLBACKS=default` schaltet den serverseitigen Fal
 
 `seed/content_*.json` enthält recherchierte Fotografen, Projekte, Bilder (Seiten- und Bild-URL) und
 Quellenauszüge für die Kapitel. Import mit `make seed` – idempotent, kann wiederholt werden; Bilder, die sich
-nicht laden lassen, werden aufgelistet und übersprungen. Die Bilder bleiben lokal (`data/` ist in `.gitignore`).
+nicht laden lassen, werden aufgelistet und übersprungen – einfach `make seed` später noch einmal ausführen (z. B. wenn Wikimedia kurzzeitig drosselt). Die Bilder bleiben lokal (`data/` ist in `.gitignore`).
