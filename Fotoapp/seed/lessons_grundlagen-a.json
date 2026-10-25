@@ -1,0 +1,652 @@
+{
+ "accessed_at": "2026-10-25",
+ "lessons": [
+  {
+   "dimension": "image-reading",
+   "track": "grundlagen",
+   "order": 1,
+   "title": "Bilder lesen: Beschreiben, Analysieren, Deuten, Urteilen",
+   "sources": [
+    {
+     "url": "https://campusstore.miamioh.edu/criticizing-photographs-5th-barrett-terry/bk/9780073526539",
+     "title": "Terry Barrett: Criticizing Photographs, 5. Aufl. – Beschreibung und Inhaltsverzeichnis (Miami University Campus Store)",
+     "excerpt": "Organized around the major activities of criticism (describing, interpreting, evaluating, and theorizing), Criticizing Photographs provides a clear framework and vocabulary for students' critical skill development. … Describing Subject Matter Describing Form Describing Medium Describing Style Comparing and Contrasting Identifying Internal and External Sources of Information … Photographs and Contexts Internal Context Original Context External Context … Judgments and Criteria Different Criteria Realism Expressionism Formalism Activism Other Criteria Choosing Among Criteria Differing Judgments Judgments Are Arguments Reappraisals Judgments and Preferences"
+    },
+    {
+     "url": "https://artdoc.photo/books/criticizing-photographs",
+     "title": "Artdoc Photography Magazine: Terry Barrett, Criticizing Photographs (6. Aufl., 2020)",
+     "excerpt": "From showing how critics verbalize what they see in images and how they persuade us to see similarly, to dealing with what different photographs might mean, the book posits that some interpretations are better than others and explains how to deliberate among competing interpretations."
+    },
+    {
+     "url": "https://monoskop.org/images/9/9f/Barrett_A_Theoretical_Construct_for_Interpreting_Photographs_1986.pdf",
+     "title": "Terry Barrett: A Theoretical Construct for Interpreting Photographs, Studies in Art Education 27/2 (1986)",
+     "excerpt": "Past categorizations of photographs are critiqued and a new category system is offered which asks viewers to consider photographs as if they were analogous to various types of language statements: descriptive, explanatory, interpretive, ethically evaluative, aesthetically evaluative, and theoretical. … The new category system reinforces that photographs, despite their aura of objective, mechanical, neutral authority, are expressions made by individuals which ought to be interpreted and evaluated before they are accepted. … His division is by \"mirrors\" and \"windows.\" … This category system adds specificity to common art criticism formats (Chapman,1978;Feldman,1981;Broudy,1983)"
+    },
+    {
+     "url": "https://www2.gvsu.edu/hipshean/resources/Feldman's%20Model%20Crit.pdf",
+     "title": "Grand Valley State University (Lehrmaterial): Feldman’s Model of Art Criticism",
+     "excerpt": "Description- Make a list of the visual qualities of the work that are obvious and immediately perceived. … Analysis- Focus on the formal aspects of elements of art, principles of design, and other formal considerations: exaggeration, composition etc. … Interpretation- Propose ideas for possible meaning based on evidence. … Judgment- Discuss the overall strengths/success/merit of the work."
+    },
+    {
+     "url": "https://monoskop.org/images/8/8a/Barthes_Roland_rhetoric_of_the_image.pdf",
+     "title": "Roland Barthes: Rhetoric of the Image (engl. Übersetzung, PDF bei Monoskop)",
+     "excerpt": "we may say immediately that the literal image is denoted and the symbolic image connoted. … There appear to be two: anchorage and relay. … the text directs the reader through the signifieds of the image, causing him to avoid some and receive others"
+    },
+    {
+     "url": "https://www.fh-dortmund.de/medien/MHB_FB2_BA-Fotografie.pdf",
+     "title": "FH Dortmund: Modulhandbuch BA Fotografie",
+     "excerpt": "Sie kennen Kriterien zur Bildanalyse und Bildkritik und können diese ebenso wie Techniken zur Bildanalyse exemplarisch erproben und anwenden."
+    }
+   ],
+   "intro_md": "Bilder lesen heißt, über ein Bild so zu sprechen, dass andere die eigenen Gründe prüfen können. Gemeint ist nicht „gefällt mir“, sondern eine Reihenfolge von Schritten: erst festhalten, was zu sehen ist, dann zeigen, wie es gebaut ist, dann eine Deutung vorschlagen und belegen, zuletzt urteilen – nach einem genannten Maßstab. Terry Barrett ordnet die Bildkritik nach den Tätigkeiten Beschreiben, Deuten, Bewerten und Theoretisieren [Q1]; das Feldman-Schema der Kunstkritik kennt Beschreibung, Analyse, Interpretation und Urteil [Q4]. Fotografie-Studiengänge lehren Bildanalyse und Bildkritik als eigenes Fach [Q6]. Für dich ist die Methode das Werkzeug, mit dem alle folgenden Seh-Lektionen arbeiten – und der Schritt, der vom treffenden Beschreiben zum begründeten Urteil führt, auch über eigene Reisebilder.",
+   "sections": [
+    {
+     "heading": "Warum eine Methode – und welche",
+     "body_md": "Wer viele Bilder gesehen hat, urteilt schnell und meist richtig. Das Problem ist nicht das Urteil, sondern dass es nicht weitergegeben und nicht überprüft werden kann. Eine Methode verlangsamt das Sehen gezielt, damit die Gründe sichtbar werden.\n\nZwei Schemata liegen nahe beieinander. Edmund Burke Feldmans vierstufiges Modell trennt **Beschreibung, Analyse, Interpretation und Urteil** [Q4]. Terry Barrett ordnet sein Lehrbuch zur Fotokritik nach **Beschreiben, Deuten, Bewerten und Theoretisieren** [Q1]. Barrett nennt Feldman ausdrücklich unter den gängigen Kritik-Formaten, die sein Kategoriensystem für Fotografien präzisieren soll [Q3]. Der Unterschied ist lehrreich: Feldman macht aus der formalen Analyse einen eigenen Schritt, Barrett lässt sie im Beschreiben aufgehen (Form, Medium, Stil) und fügt am Ende die Theorie hinzu – die Frage, was ein Foto überhaupt ist und was es beweisen kann (Lektion 2).\n\nBarretts Begründung, warum Fotografien eine eigene Methode brauchen, ist der Kern dieser Lektion: Fotografien seien trotz ihrer Aura objektiver, mechanischer, neutraler Autorität Äußerungen von Einzelnen, die gedeutet und bewertet werden sollten, bevor man sie annimmt [Q3]. Gerade Reise- und Landschaftsbilder wirken wie bloße Ansichten; die Methode zwingt dazu, die Entscheidungen dahinter zu sehen."
+    },
+    {
+     "heading": "Beschreiben: Was sehe ich – und woher weiß ich es?",
+     "body_md": "Feldmans erster Schritt verlangt eine Liste der sichtbaren Eigenschaften, die offensichtlich und unmittelbar wahrnehmbar sind [Q4]. Barrett teilt die Beschreibung in Gegenstand, Form, Medium und Stil, ergänzt den Vergleich und unterscheidet **interne und externe Informationsquellen** [Q1]. Das ist die wichtigste Disziplin des ersten Schritts: Was das Bild selbst zeigt (intern), wird getrennt von dem, was du aus Titel, Bildunterschrift, Ausstellungstext oder Wissen über die Fotografin hast (extern).\n\nGute Beschreibung ist präzise und räumlich: nicht „ein Dorf“, sondern „eine überdachte Halle, drei Säulen teilen den hellen Hintergrund in Felder, im Vordergrund links unten zwei Kinder auf einer Steinbank“. Sie nennt auch das Medium (Schwarzweiß, Farbe, Format, Abzug, Bildschirm) und auffällige Abwesenheiten (kein Himmel, keine Menschen). Wer gut beschreibt, hat die Hälfte der Analyse schon geleistet, weil die Aufmerksamkeit dann auf Beziehungen fällt.\n\nRoland Barthes hat für die Fotografie zwei Schichten unterschieden: das wörtliche Bild ist denotiert, das symbolische konnotiert [Q5]. Beschreibung bleibt so weit wie möglich auf der denotierten Ebene. Ganz gelingt das nie – schon die Wahl des Wortes „Hütte“ statt „Haus“ deutet –, aber die Anstrengung lohnt, weil sie die spätere Deutung überprüfbar macht."
+    },
+    {
+     "heading": "Analysieren: Wie ist es gebaut?",
+     "body_md": "Analyse fragt nach den formalen Entscheidungen und ihren Beziehungen: bei Feldman Elemente, Gestaltungsprinzipien und weitere formale Mittel [Q4]. Für die Fotografie heißen diese Mittel anders als in der Malerei. Stephen Shore teilt das Bild in eine physische, eine darstellende (mit Flächigkeit, Rahmen, Zeit und Schärfe) und eine mentale Ebene [S971481]; die Seh-Lektionen dieser App übersetzen das in Standpunkt, Distanz, Rahmen, Weglassen, Ebenen, Licht, Farbe, Moment und Sequenz.\n\nPraktisch heißt Analyse: Für jede Beobachtung aus der Beschreibung fragen, was sie im Bild tut. Ein Horizont am oberen Rand drückt die Fläche nach unten; zwei gleiche Figuren links und rechts schaffen Symmetrie und damit Ruhe; eine harte Kante, die ein Gesicht anschneidet, erzeugt Spannung. Analyse bleibt noch ohne Bedeutung, sie beschreibt Wirkungen: Gewicht, Richtung, Lesefolge, Tiefe, Kontrast.\n\nDas stärkste Werkzeug ist der **Vergleich**, den Barrett ausdrücklich zum Beschreiben zählt [Q1]. Zwei Bilder desselben Motivs, nebeneinander gelegt, zeigen sofort, welche Entscheidung welche Wirkung hat. Für Reisefotografie ist das der Normalfall: Am Aussichtspunkt stehen deine Aufnahme und tausend ähnliche nebeneinander. Die Analyse fragt, worin deine sich unterscheidet – und ob der Unterschied etwas trägt."
+    },
+    {
+     "heading": "Deuten: Was bedeutet es – und woran mache ich das fest?",
+     "body_md": "Interpretation heißt bei Feldman, mögliche Bedeutungen auf Grundlage von Belegen vorzuschlagen [Q4]. Barrett zieht daraus die entscheidende Folgerung: Manche Deutungen sind besser als andere, und man kann zwischen konkurrierenden Deutungen abwägen [Q2]. Eine Deutung ist also eine Behauptung mit Gründen. Sie ist gut, wenn sie möglichst viel vom Bild erklärt, nichts Sichtbarem widerspricht und nicht mehr behauptet, als die Belege tragen.\n\nBarrett unterscheidet drei Kontexte: den internen (was im Bild steht), den ursprünglichen (wofür, wann und wo es gemacht wurde) und den externen (wo und wie es heute gezeigt wird) [Q1]. Dasselbe Bild kann in einer Zeitschrift Nachricht, in einem Museum Kunst und auf Instagram Werbung für einen Ort sein. Eine Deutung, die den Kontext verschweigt, ist unvollständig.\n\nTexte steuern das besonders stark. Barthes nennt zwei Funktionen des Textes zum Bild, Verankerung und Relais [Q5]: Die Bildunterschrift lenkt den Leser durch die möglichen Bedeutungen, lässt ihn manche meiden und andere annehmen [Q5]. Wenn du ein Bild deutest, prüfe deshalb immer zweimal: einmal ohne Titel, einmal mit. Der Unterschied zeigt, wie viel der Text leistet – und wie viel das Bild."
+    },
+    {
+     "heading": "Urteilen: Gut – nach welchem Maßstab?",
+     "body_md": "Feldmans letzter Schritt fragt nach Stärken, Gelingen und Wert des Werks [Q4]. Barrett macht daraus eine Frage der Kriterien: Er stellt Realismus, Expressionismus, Formalismus und „Activism“ als unterschiedliche Maßstäbe nebeneinander, fragt, wie man zwischen ihnen wählt, und hält fest, dass Urteile Argumente sind – getrennt von bloßen Vorlieben [Q1].\n\nIn der Praxis heißt das: Ein Urteil nennt seinen Maßstab. „Das Bild ist stark, weil es die Ordnung des Ortes klarer zeigt, als man sie vor Ort sieht“ ist ein realistisches oder formales Urteil; „es ist stark, weil es eine Haltung zum Massentourismus sichtbar macht“ urteilt nach gesellschaftlicher Wirkung; „weil es die Einsamkeit des Fotografen spürbar macht“ nach Ausdruck. Mehrere Maßstäbe können gleichzeitig gelten und einander widersprechen. Ein gutes Urteil sagt, welcher hier zählt und warum.\n\nZwei Fehler sind typisch. Der erste ist das Lob der Mittel statt der Leistung: „tolles Licht“ ist eine Beobachtung, kein Urteil, solange nicht gesagt wird, was das Licht im Bild leistet. Der zweite ist der Maßstabswechsel mitten im Satz – ein Bild formal loben und dann an seiner fehlenden Aussage messen. Beides lässt sich vermeiden, wenn der Maßstab vor dem Urteil benannt wird."
+    },
+    {
+     "heading": "Theoretisieren und Gegenlesart",
+     "body_md": "Barretts vierte Tätigkeit, das Theoretisieren, fragt grundsätzlicher: Welche Art Aussage macht dieses Foto? Er schlägt vor, Fotografien wie Sprachäußerungen zu behandeln – beschreibend, erklärend, deutend, ethisch wertend, ästhetisch wertend, theoretisch [Q3]. Eine Ansicht des Tals für einen Reiseführer ist eine andere Aussage als dieselbe Ansicht in einer Ausstellung über Landschaftsverbrauch. Barrett setzt sich dabei auch mit John Szarkowskis Einteilung in „Spiegel“ und „Fenster“ auseinander [Q3] und setzt solchen Zweiteilungen seine sechs Kategorien entgegen.\n\nZur Theorie gehört die **Gegenlesart**: eine zweite, begründete Deutung, die der naheliegenden widerspricht. Ein berühmtes Beispiel ist die Kritik von Barthes an der Ausstellung „The Family of Man“: Wo das Publikum universelle Menschlichkeit sah, warf er ihr vor, einen Mythos zu verbreiten und das Leid seines politischen Kontexts zu berauben [S643383]. Die Gegenlesart ist keine Pflicht zur Ablehnung; sie testet, ob die erste Deutung trägt.\n\nFür die eigene Arbeit ist sie unbequem und nützlich: Ein Sonnenaufgang über Reisterrassen ist für dich vielleicht Stille, für eine Gegenlesart ein Bild, das die Arbeit der Bauern unsichtbar macht. Beide Lesarten an denselben Bildstellen zu belegen, ist die beste Übung für ein eigenes Urteil."
+    },
+    {
+     "heading": "Die Crit: Wie man ein Bild bespricht",
+     "body_md": "In Kunsthochschulen ist die Besprechung („Crit“) die Form, in der diese Schritte gemeinsam vollzogen werden. Eine bewährte Reihenfolge, die du auch allein oder mit Reisebegleitern nutzen kannst:\n\n1. **Schweigen und Schauen** – eine Minute, ohne zu sprechen.\n2. **Beschreiben** – reihum je eine Beobachtung, nur Sichtbares, mit Ort im Bild.\n3. **Analysieren** – Was bewirkt diese Beobachtung? Wohin geht der Blick zuerst, wohin danach?\n4. **Deuten** – Vorschläge mit Belegen, ausdrücklich mehrere; mindestens eine Gegenlesart.\n5. **Urteilen** – Maßstab nennen, dann urteilen; Stärken und Schwächen am Bild zeigen.\n6. **Erst jetzt die Autorin** – Absicht, Umstände, Auswahl. Spricht sie zuerst, verankert ihre Absicht alle Deutungen wie eine Bildunterschrift.\n\nDie Formulierung hilft: „Ich sehe …“, „Das bewirkt …“, „Ich lese das als …, weil …“, „Nach dem Maßstab … überzeugt mich …“. Das Klischee einer Besprechung ist das Gegenteil – „schönes Licht, toller Ort, würde ich aufhängen“: drei Urteile ohne Beschreibung, ohne Analyse, ohne Maßstab. Die Lernfragen dieser App (Wo stand der Fotograf? Worauf hat er gewartet? Was ist weggelassen?) sind eine verkürzte Form derselben Methode."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "if27a4cb845",
+     "caption_md": "Ein Lehrstück für Beschreiben vor Deuten. Sichtbar: eine überdachte Halle, Säulen gliedern den hellen Hintergrund in Felder; auf der Brüstung zwei Figuren, fast spiegelbildlich; ein Hund, ein Mann im rechten Feld; vorn unten zwei Jungen, einer liegt, einer sitzt; rechts ein Plakat „Donnez un peu de votre sang“. Ein Auktionshaus beschreibt die Komposition als ausgewogen, um Figurenpaare zentriert, und deutet sie als Bild eines bald vergehenden ländlichen Gemeinschaftslebens [S199650]. Meine Einschätzung: Diese Deutung ist gut belegt (Paare, Ruhe, Stein). Eine Gegenlesart setzt beim Plakat an – der Aufruf zur Blutspende als einziges Zeichen einer Welt außerhalb des Dorfes.",
+     "look_for": [
+      "Säulen als Rahmen im Rahmen",
+      "Figurenpaare: Brüstung oben, Jungen unten",
+      "das Plakat rechts als Text im Bild",
+      "helle Fläche hinten gegen dunkle Halle"
+     ]
+    },
+    {
+     "image_id": "ife74fb6ada",
+     "caption_md": "Hier lohnt die Trennung von interner und externer Information. Intern: eine Straße mit Mittellinie, die ohne Kurve zum Horizont läuft, flaches Land, heller Himmel; am Rand des Abzugs eine handschriftliche Nummer – auch der Abzug selbst ist sichtbar. Extern: Walker Evans las in dem Bild „instantly … the continent“ [S716826]; im Buch schließt es nach Bildern eines Autounfalls eine Sequenz ab und wirkt dort wie ein filmischer Schnitt [S975157]. Meine Einschätzung: Ohne die Sequenz liest man Weite und Versprechen; nach dem Unfallbild liest man dieselbe Straße als Weiterfahren nach etwas Schrecklichem.",
+     "look_for": [
+      "Fluchtpunkt der Mittellinie",
+      "Anteil Himmel und Land",
+      "die Nummer am Rand: physische Ebene",
+      "wie die Sequenz die Deutung verschiebt"
+     ]
+    },
+    {
+     "image_id": "i861ba6c39d",
+     "caption_md": "Das Klischee-Gegenbeispiel – fotografiert von jemandem, der es zum Thema macht. Mehrere Touristen stehen auf dem Rasen in der Pose „ich halte den Turm“, vorn eine Frau mit erhobenen Händen; der Turm selbst steht links hinten. Parr zeigt nicht den Turm, sondern das Ritual, das ihn umgibt; eine Rezension beschreibt das als satirische Erzählung, die ohne Moralisieren einen Spiegel vorhält [S810555]. Meine Einschätzung: Für ein Urteil ist der Maßstab entscheidend. Formal ist das Bild bewusst unaufgeräumt; nach gesellschaftlicher Wirkung ist es stark. Gegenlesart: Parr macht sich über die Touristen lustig, zu denen er selbst gehört.",
+     "look_for": [
+      "Gesten, die aus dem Standpunkt der Touristen Sinn ergeben, aus Parrs nicht",
+      "Turm nicht im Zentrum",
+      "Wiederholung derselben Pose"
+     ]
+    },
+    {
+     "image_id": "i652928a239",
+     "caption_md": "Wie der Titel die Deutung verankert. Sichtbar: ein Zweig mit jungem Laub, der von oben ins Bild hängt, dahinter grauer Wolkenhimmel – kein Boden, kein Ort. Erst der Titel sagt: Shiloh National Military Park, Schauplatz einer der blutigsten Schlachten des Bürgerkriegs [S291848]. Meine Einschätzung: Ohne Titel ist das eine leise Farbstudie über Frühling; mit Titel wird das junge Grün zum Gegenbild eines Massengrabs. Beide Lesarten sind belegbar – das Bild trägt beide, der Text entscheidet, welche zuerst kommt.",
+     "look_for": [
+      "Gelbgrün gegen kühles Grau",
+      "Fehlen jeder Ortsangabe im Bild",
+      "Lesart mit und ohne Titel"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Erst beschreiben, dann analysieren, dann deuten, zuletzt urteilen – wer früher urteilt, sieht nur noch Belege für das eigene Urteil.",
+    "Beschreibung trennt Sichtbares (intern) von Gewusstem (extern: Titel, Text, Biografie).",
+    "Eine Deutung ist eine begründete Behauptung; manche Deutungen sind besser belegt als andere.",
+    "Jedes Urteil braucht einen genannten Maßstab – Realismus, Form, Ausdruck oder gesellschaftliche Wirkung.",
+    "Text verankert die Lesart; prüfe jedes Bild einmal ohne und einmal mit Titel.",
+    "Eine gute Besprechung enthält mindestens eine Gegenlesart, und die Autorin spricht zuletzt."
+   ],
+   "exercises": [
+    "Abends im Hotel: Wähle ein Bild des Tages und schreibe drei Sätze reine Beschreibung (nur Sichtbares, mit Ort im Bild), drei Sätze Analyse, eine Deutung mit Beleg und ein Urteil mit genanntem Maßstab – genau in dieser Reihenfolge.",
+    "Vergleichsübung am Aussichtspunkt: Fotografiere die Standardansicht und dein eigenes Bild. Schreibe auf, worin sie sich formal unterscheiden und ob der Unterschied etwas bedeutet.",
+    "Gegenlesart: Formuliere für dein liebstes Bild der Reise eine zweite, möglichst widersprechende Deutung, die sich an denselben Bildstellen belegen lässt.",
+    "Mini-Crit mit Reisebegleitung: ein Bild, eine Minute Schweigen, dann reihum nur Beschreibungen; erst am Ende erzählst du, was du wolltest."
+   ],
+   "quiz": [
+    {
+     "question": "Welcher Satz ist eine reine Beschreibung dieses Bildes?",
+     "image_id": "if27a4cb845",
+     "options": [
+      "Das Bild strahlt eine tiefe dörfliche Ruhe aus.",
+      "Cartier-Bresson wollte ein verschwindendes Landleben festhalten.",
+      "Säulen teilen den hellen Hintergrund in mehrere Felder, auf der Brüstung sitzen zwei Figuren.",
+      "Die Komposition ist meisterhaft ausgewogen."
+     ],
+     "correct": 2,
+     "explanation": "Nur der erste Satz nennt Sichtbares mit Ort im Bild. „Ruhe“ ist bereits Deutung, die Absicht ist externe Information, „meisterhaft“ ist ein Urteil."
+    },
+    {
+     "question": "Wie versteht Terry Barrett Deutungen von Fotografien?",
+     "image_id": null,
+     "options": [
+      "Als Argumente, von denen manche besser begründet sind als andere",
+      "Als subjektive Eindrücke, die gleichwertig nebeneinanderstehen",
+      "Als Rekonstruktion der Absicht der Fotografin",
+      "Als Übersetzung des Titels in Bildsprache"
+     ],
+     "correct": 0,
+     "explanation": "Barrett hält fest, dass manche Deutungen besser sind als andere und man zwischen konkurrierenden Deutungen abwägen kann [Q2]. Die Absicht ist nur eine externe Information unter mehreren."
+    },
+    {
+     "question": "Du erfährst, dass dieses Bild in einem Gedenkpark für eine Bürgerkriegsschlacht entstand. Welcher Schritt ändert sich dadurch am meisten?",
+     "image_id": "i652928a239",
+     "options": [
+      "Die Beschreibung",
+      "Die formale Analyse",
+      "Nichts, weil der Ort nicht sichtbar ist",
+      "Die Deutung"
+     ],
+     "correct": 3,
+     "explanation": "Was sichtbar ist und wie es gebaut ist, bleibt gleich. Die externe Information verschiebt die Konnotation: das junge Laub wird zum Gegenbild des Ortes."
+    },
+    {
+     "question": "Eine Kritikerin lobt dieses Bild, weil es den Massentourismus sichtbar macht. Nach welchem Maßstab urteilt sie?",
+     "image_id": "i861ba6c39d",
+     "options": [
+      "Nach Formalismus",
+      "Nach gesellschaftlicher Wirkung (bei Barrett „Activism“)",
+      "Nach Realismus im Sinne genauer Wiedergabe",
+      "Nach Expressionismus"
+     ],
+     "correct": 1,
+     "explanation": "Sie bewertet die Wirkung des Bildes auf eine gesellschaftliche Frage, nicht Form, Genauigkeit oder Ausdruck. Barrett nennt diese Kriterien nebeneinander [Q1]."
+    },
+    {
+     "question": "Was leistet nach Barthes eine Bildunterschrift wie „Overtourism in Pisa“ unter einem Bild?",
+     "image_id": null,
+     "options": [
+      "Sie beschreibt nur, was ohnehin denotiert ist",
+      "Sie ersetzt das Bild als Informationsträger",
+      "Sie verankert die Lesart und lenkt durch die möglichen Bedeutungen",
+      "Sie hat keinen Einfluss, weil das Bild polysem bleibt"
+     ],
+     "correct": 2,
+     "explanation": "Barthes nennt diese Funktion Verankerung: Der Text lässt den Leser manche Bedeutungen meiden und andere annehmen [Q5]."
+    },
+    {
+     "question": "Warum spricht in einer Crit die Autorin des Bildes zuletzt?",
+     "image_id": null,
+     "options": [
+      "Weil ihre Absicht für die Kritik keine Rolle spielt",
+      "Damit ihre Absicht die Deutungen nicht vorab verankert und sich zeigt, was das Bild allein trägt",
+      "Damit sie die Kritik am Ende widerlegen kann",
+      "Weil Barrett Absichtsfragen verbietet"
+     ],
+     "correct": 1,
+     "explanation": "Die Absicht wirkt wie eine Bildunterschrift. Wer sie zuerst hört, deutet in ihre Richtung; zuletzt gehört, kann man Absicht und Wirkung vergleichen."
+    }
+   ]
+  },
+  {
+   "dimension": "photo-as-trace",
+   "track": "grundlagen",
+   "order": 2,
+   "title": "Was ist ein Foto? Spur, Dokument, Konstruktion",
+   "sources": [
+    {
+     "url": "https://philosophynow.org/issues/95/The_Ontology_of_Photography_From_Analogue_To_Digital",
+     "title": "Peter Benson: The Ontology of Photography – From Analogue to Digital, Philosophy Now 95",
+     "excerpt": "In 1945 Bazin wrote an essay entitled ‘The Ontology of the Photographic Image’ (English translation available in What is Cinema?, Vol 1, 1967). … photography is “a mechanical reproduction in the making of which man plays no part” (p.12), which means “we are forced to accept as real the existence of the object reproduced… [there is a] transference of reality from the thing to the reproduction” (p.13, my emphasis)."
+    },
+    {
+     "url": "https://plato.stanford.edu/entries/peirce-semiotics/",
+     "title": "Albert Atkin: Peirce’s Theory of Signs, Stanford Encyclopedia of Philosophy",
+     "excerpt": "If the constraints of successful signification require that the sign utilize some existential or physical connection between it and its object, then the sign is an index. … Peirce was aware that any single sign may display some combination of iconic, indexical and symbolic characteristics."
+    },
+    {
+     "url": "https://art.uga.edu/galleries/rachel-cox-some-points",
+     "title": "University of Georgia, Lamar Dodd School of Art: Rachel Cox – Some Points (Ausstellungstext)",
+     "excerpt": "Peirce also maintained that the photograph is intrinsically attached to that which it represents, that it is “physically forced to correspond point by point to nature.”"
+    },
+    {
+     "url": "https://monoskop.org/images/8/8a/Barthes_Roland_rhetoric_of_the_image.pdf",
+     "title": "Roland Barthes: Rhetoric of the Image (engl. Übersetzung, PDF bei Monoskop)",
+     "excerpt": "The type of consciousness the photograph involves is indeed truly unprecedented, since it establishes not a consciousness of the being-there of the thing (which any copy could provoke) but an awareness of its having-been-there. What we have is a new space-time category: spatial immediacy and temporal anteriority, the photograph being an illogical conjunction between the here-now and the there-then."
+    },
+    {
+     "url": "https://www.universalis.fr/encyclopedie/la-chambre-claire/",
+     "title": "Encyclopædia Universalis: La Chambre claire, Roland Barthes – Fiche de lecture",
+     "excerpt": "La spécificité de la photographie tient à l’indéniable réalité de son référent : « Dans la Photographie je ne puis jamais nier que la chose a été là. » C’est bien dans la clarté de ce « ça a été » que réside son essence : sa fonction d’authentification. Mais « ça a été » signifie aussi « c’est mort », ou « ça va (doit) mourir »."
+    },
+    {
+     "url": "https://csmt.uchicago.edu/annotations/barthescamera.htm",
+     "title": "University of Chicago, Theories of Media: Annotation zu Barthes, Camera Lucida (Kasia Houlihan)",
+     "excerpt": "The studium refers to the range of meanings available and obvious to everyone; it is unary and coded … The punctum is a detail or “partial object” that attracts and holds the viewer’s (the Spectator’s) gaze; it pricks or wounds the observer."
+    },
+    {
+     "url": "https://kirkusreviews.com/book-reviews/roland-barthes/camera-lucida/print",
+     "title": "Kirkus Reviews: Roland Barthes, Camera Lucida (1981)",
+     "excerpt": "Other recognitions, other distinctions emerge—between \"landscapes of predilection\" (where one feels one has been, or is going) and tourist photographs; between erotica (\"disturbed, fissured\") and pornography."
+    },
+    {
+     "url": "https://www.flusserstudies.net/sites/www.flusserstudies.net/files/media/attachments/tratnik-art-acting-against-program-apparatus.pdf",
+     "title": "Polona Tratnik: Art – Acting against the Program of the Apparatus, Flusser Studies",
+     "excerpt": "“The camera is programmed to produce photographs, and every photograph is a realization of one of the possibilities contained within the program of the camera. The number of such possibilities is large, but it is nevertheless finite” (Flusser 2000: 26). … Therefore, photographers are functionaries of the apparatus of the camera” (Flusser 2000: 27)."
+    },
+    {
+     "url": "https://www.themarginalian.org/2013/09/16/susan-sontag-on-photography-social-media/",
+     "title": "The Marginalian: Susan Sontag on Photography (Auszüge aus „On Photography“)",
+     "excerpt": "A way of certifying experience, taking photographs is also a way of refusing it — by limiting experience to a search for the photogenic, by converting experience into an image, a souvenir."
+    },
+    {
+     "url": "https://www.folkwang-uni.de/fileadmin/medien/Gestaltung/PDFs/Foto/20220804_MHB_BA_Foto_PO423.pdf",
+     "title": "Folkwang Universität der Künste: Modulhandbuch BA Fotografie (FOB 8.1 Dokumentarfotografie)",
+     "excerpt": "In der Wechselwirkung zwischen Wahrnehmung und Fotografie stellen sich Fragen nach der Konstruktion von Welt im Bild und nach Formen der Repräsentation."
+    },
+    {
+     "url": "https://campusstore.miamioh.edu/criticizing-photographs-5th-barrett-terry/bk/9780073526539",
+     "title": "Terry Barrett: Criticizing Photographs, 5. Aufl. – Inhaltsverzeichnis (Miami University Campus Store)",
+     "excerpt": "Ontological Concerns: What Is a Photograph? Digital Images and Ontology Epistemological Concerns: Are Photographs True? Realist Theory Conventionalist Theory Photographic Truth"
+    }
+   ],
+   "intro_md": "Reise- und Landschaftsbilder gelten als „echt“: Man war dort, das Licht war so, der Berg steht wirklich da. Diese Lektion klärt, was an diesem Glauben stimmt und was nicht. Drei Antworten konkurrieren seit jeher. Das Foto ist eine **Spur** – Licht des Gegenstands hat sich physisch eingeschrieben (Bazin, Peirce, Barthes). Es ist ein **Dokument** – sein Beweiswert entsteht erst durch Gebrauch, Kontext und Bildunterschrift. Und es ist eine **Konstruktion** – Apparat, Standpunkt, Ausschnitt und Auswahl erzeugen ein Bild, das es so nie gab (Flusser, Shore, Sontag). Barrett nennt diese Fragen ontologisch (Was ist ein Foto?) und erkenntnistheoretisch (Ist es wahr?) [Q11]. Keine der drei Antworten genügt allein; wer sie zusammendenkt, kann sagen, was ein Bild beweist, was es behauptet und was es verschweigt.",
+   "sections": [
+    {
+     "heading": "Drei Antworten auf eine Frage",
+     "body_md": "In der Theorie stehen sich zwei Grundpositionen gegenüber, die Barrett als realistische und konventionalistische Theorie nebeneinanderstellt [Q11]. Die realistische betont, dass ein Foto kausal mit seinem Gegenstand verbunden ist; die konventionalistische, dass es wie jedes Bild nach Regeln gemacht und gelesen wird. Für die Praxis ist eine Dreiteilung hilfreicher:\n\n- **Spur:** Was physisch vor dem Objektiv war, hat Licht auf Platte oder Sensor gebracht. Das ist der Kern des fotografischen Wahrheitsanspruchs.\n- **Dokument:** Ein Bild wird zum Beleg, wenn es für eine Aussage gebraucht wird – mit Ort, Zeit, Zusammenhang. Der Beweiswert hängt am Gebrauch.\n- **Konstruktion:** Jede Aufnahme ist gewählt – Standpunkt, Zeitpunkt, Ausschnitt, Belichtung, Auswahl aus vielen. Das Ergebnis ist ein Bild, nicht der Ort.\n\nDie Folkwang-Universität fragt im Fach Dokumentarfotografie ausdrücklich nach der Konstruktion von Welt im Bild und nach Formen der Repräsentation [Q10]. Diese Frage betrifft gerade das Genre, das am selbstverständlichsten „zeigt, wie es ist“."
+    },
+    {
+     "heading": "Spur: Bazin und Peirce",
+     "body_md": "André Bazin schrieb 1945 den Aufsatz „Ontologie des fotografischen Bildes“ [Q1]. Seine These: Die Fotografie sei eine mechanische Reproduktion, an deren Entstehung der Mensch keinen Anteil habe; deshalb seien wir gezwungen, die Existenz des Abgebildeten als wirklich anzunehmen – es gebe eine Übertragung von Wirklichkeit vom Ding auf die Reproduktion [Q1]. Das ist keine Aussage über Ähnlichkeit, sondern über Herkunft: Ein gemalter Berg kann ähnlicher sein als ein fotografierter, aber nur der fotografierte war da.\n\nCharles S. Peirce liefert dafür das Vokabular. Ein Zeichen, das auf einer existenziellen oder physischen Verbindung mit seinem Gegenstand beruht, ist ein **Index** [Q2] – wie Rauch für Feuer. Von der Fotografie sagte Peirce, sie sei gezwungen, Punkt für Punkt der Natur zu entsprechen [Q3]. Zugleich hielt er fest, dass ein einzelnes Zeichen ikonische, indexikalische und symbolische Züge kombinieren kann [Q2]. Ein Foto ist also Index (Lichtspur), Ikon (es sieht aus wie der Gegenstand) und Symbol (wir lesen es nach Konventionen: Schwarzweiß als „früher“, warmes Licht als „schön“).\n\nWas der Index garantiert, ist schmal: dass etwas vor der Kamera war. Er garantiert nicht, wo, wann, in welchem Zusammenhang – und nicht, dass das Bild aus nur einer Aufnahme besteht."
+    },
+    {
+     "heading": "Barthes: „ça a été“, studium und punctum",
+     "body_md": "Roland Barthes hat den Spur-Gedanken zweimal formuliert. In der „Rhetorik des Bildes“: Das Foto erzeuge kein Bewusstsein vom Hier-Sein der Sache, sondern von ihrem **Dort-gewesen-Sein** – eine neue Raum-Zeit-Kategorie aus räumlicher Unmittelbarkeit und zeitlicher Vorzeitigkeit [Q4]. Später, in „Die helle Kammer“: Im Foto könne man nie leugnen, dass die Sache da war; im „ça a été“ („es ist so gewesen“) liege sein Wesen, seine Beglaubigungsfunktion – und zugleich bedeute es „das ist tot“ oder „das wird sterben“ [Q5].\n\nDazu kommen zwei Begriffe für die Wirkung auf den Betrachter. Das **studium** ist der Bereich der allgemein zugänglichen, kulturell kodierten Bedeutungen; das **punctum** ein Detail, das den Blick festhält und den Betrachter sticht oder verletzt [Q6]. Das punctum ist persönlich und lässt sich nicht planen; es ist kein Synonym für „Blickfang“. Eine Rezension hebt außerdem Barthes’ Unterscheidung zwischen „Landschaften der Vorliebe“ – wo man meint, gewesen zu sein oder hinzugehen – und touristischen Fotografien hervor [Q7].\n\nFür Landschaftsfotografie ist das ernüchternd und nützlich: Das studium eines Sonnenaufgangs über Bergen teilt jeder. Was ein Bild über die Postkarte hebt, ist selten das große Motiv, häufiger ein Detail, das nur dieser Ort zu dieser Zeit hatte."
+    },
+    {
+     "heading": "Dokument: was ein Bild beweist – und was nicht",
+     "body_md": "Frank Hurleys Aufnahmen der „Endurance“ im Packeis sind Spuren im strengsten Sinn: Er rettete einige hundert Glasnegative, in Blechkanister eingelötet, aus dem Eis [S897430]. Und doch arbeitete derselbe Hurley mit Kombinationsabzügen aus mehreren Negativen, die er „Photographic Impression Pictures“ nannte – Bilder, die einen realistischen Eindruck von Ereignissen erzeugen sollten; sein Zeitgenosse Bean nannte sie „Fälschungen“ [S273810]. Spur und Konstruktion stecken also im selben Werk.\n\nDer Beweiswert entsteht erst im Gebrauch. Eine Katalogangabe („das Schiff, nach rechts geneigt, im Eis festgesetzt“ [S306331]) macht aus der Spur ein Dokument mit überprüfbarer Aussage. Bei John Thomsons Aufnahmen aus China zeigt sich die Kehrseite: Seine Bildunterschriften beschreiben die Frauen mit dem Blick des europäischen Reisenden – kräftig, gesund, hübsch geschmückt [S946842]. Die Aufnahme ist echt; die Aussage, die mit ihr gemacht wird, stammt aus seinem Buch „Illustrations of China and its People“ (London 1873–74) [S905206] und ist eine Deutung.\n\nDaraus folgt für die Bildkritik eine einfache Prüfreihe: Was ist Spur (was war da)? Was ist Eingriff (gestellt, kombiniert, retuschiert)? Was ist Behauptung (Text, Titel, Zusammenhang)?"
+    },
+    {
+     "heading": "Konstruktion: Apparat, Programm, Ebenen",
+     "body_md": "Vilém Flusser dreht die Perspektive um. Nicht der Fotograf benutzt die Kamera, sondern er bewegt sich in ihrem Programm: Die Kamera sei programmiert, Fotografien zu erzeugen, jede Fotografie verwirkliche eine der Möglichkeiten dieses Programms, und deren Zahl sei groß, aber endlich; Fotografen seien darum Funktionäre des Apparats [Q8]. Für Reisefotografie ist das kein abstrakter Gedanke. Kamera, Objektiv, Kameraprofil, Nachbearbeitungs-Presets, Aussichtsplattform und Feed-Format bilden zusammen ein Programm, das bestimmte Bilder fast automatisch hervorbringt.\n\nStephen Shore beschreibt dasselbe von der Seite des Bildes: Ein Foto hat eine physische Ebene (Abzug, Material), eine darstellende (Flächigkeit, Rahmen, Zeit, Schärfe) und eine mentale [S971481]. Auf jeder Ebene wird entschieden. Herbert Pontings Selbstbildnis mit Kamera im Schnee zeigt den Apparat als Teil der Expedition – ein Bild über das Bildermachen [S317330].\n\nKonstruktion heißt nicht Lüge. Ein Bild ist konstruiert, wenn es gewählt ist – also immer. Es wird erst problematisch, wenn die Konstruktion verschwiegen wird, wo der Betrachter eine Spur erwartet (Lektion 3)."
+    },
+    {
+     "heading": "Sontag: Aneignung, Beleg, Souvenir",
+     "body_md": "Susan Sontag hat den Zusammenhang von Fotografie und Reisen schärfer gefasst als jede andere: Fotografieren heiße, sich das Fotografierte anzueignen und sich in ein Verhältnis zur Welt zu setzen, das sich wie Wissen und damit wie Macht anfühlt [S146452]. Fotos lieferten den unbestreitbaren Beleg, dass die Reise stattfand [S503667]; das Fotografieren strukturiere die Erfahrung des Touristen: anhalten, fotografieren, weitergehen [S474292]. Und: Als Beglaubigung der Erfahrung sei Fotografieren zugleich eine Weise, sie zu verweigern – durch die Suche nach dem Fotogenen, durch die Verwandlung der Erfahrung in ein Bild, ein Souvenir [Q9].\n\nCorinne Vionnets Serie „Photo Opportunities“ macht diesen Mechanismus sichtbar: Sie legt rund hundert Touristenbilder eines Wahrzeichens übereinander und untersucht dabei, wie wir den optimalen Standpunkt wählen und das Überflüssige aus unseren konstruierten Wirklichkeiten der Freizeit herausschneiden [S430641][S280520]. Das Ergebnis ist zugleich Spur (alle Bilder waren dort) und Konstruktion (niemand hat diesen Ort je so gesehen).\n\nDas Klischee-Gegenbeispiel dieser Lektion ist das „unberührte“ Landschaftsbild vom überfüllten Aussichtspunkt: als Spur echt, als Dokument irreführend, weil das Wichtigste – die zweihundert Menschen links und rechts – weggelassen ist."
+    },
+    {
+     "heading": "Beobachtet, arrangiert, inszeniert",
+     "body_md": "Für die Sehübungen dieser App reicht eine dreistufige Skala:\n\n- **Beobachtet:** Der Fotograf hat nichts verändert; er wählt Standpunkt, Moment und Ausschnitt.\n- **Arrangiert:** Der Fotograf greift in die Szene ein, ohne sie zu erfinden – Menschen posieren, ein Gegenstand wird verrückt, man wartet auf den Wanderer im roten Anorak, den man selbst hingestellt hat.\n- **Inszeniert:** Die Szene wird für die Kamera hergestellt oder aus mehreren Aufnahmen zusammengesetzt; sie hat so nicht stattgefunden.\n\nAlle drei sind legitim, solange klar ist, welcher Vertrag gilt. Ein gestelltes Porträt einer Teepflückerin ist kein Betrug; es wird erst einer, wenn es als zufällige Beobachtung ausgegeben wird.\n\nDie **Gegenlesart** zu dieser ganzen Lektion: Vielleicht ist die Frage „echt oder konstruiert?“ für die Kunst falsch gestellt. Barthes’ punctum entsteht gerade im echten Detail, Flussers Funktionär entkommt dem Programm gerade durch bewusste Konstruktion. Ein gutes Bild kann beides zugleich ernst nehmen: Es weiß, dass es gewählt ist, und zeigt doch etwas, das wirklich da war."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "if30d7f0679",
+     "caption_md": "Die Spur im strengsten Sinn: das Schiff, stark nach rechts geneigt, die Takelage als dunkles Netz vor hellem Himmel, vorn aufgeworfene Eisschollen; unten rechts eine Archivnummer. Der Katalog beschreibt nur, was zu sehen ist [S306331]; Shackletons Bericht liefert die Erfahrung dazu („the worst squeeze we had experienced“) [S776961]. Hurley rettete die Negative unter extremen Bedingungen [S897430] – und setzte in anderen Arbeiten Kombinationsabzüge ein [S273810]. Ob dieses Bild aus einem Negativ besteht, ist hier nicht belegt (keine Quelle hinterlegt). Meine Einschätzung: Gerade deshalb ist es ein gutes Prüfbild – der Index sagt „das Schiff war im Eis“, nicht „genau so sah es aus“.",
+     "look_for": [
+      "Neigung des Schiffs als Zeichen der Eispressung",
+      "Archivnummer unten: das Bild als Dokument",
+      "was der Index garantiert und was nicht"
+     ]
+    },
+    {
+     "image_id": "iff0cdb62dd",
+     "caption_md": "Eine Stereo-Aufnahme: zweimal fast dieselbe Szene nebeneinander, darunter seitenverkehrte Beschriftung auf dem Negativ, Kratzer quer durchs Bild. Der Katalog beschreibt fünf Frauen vor einem Haus, drei stehend, zwei sitzend [S716043]; Thomsons eigener Text lobt ihre Erscheinung mit europäischem Blick [S946842]. Meine Einschätzung: Die Gruppe ist arrangiert – frontal zur Kamera vor der Hauswand aufgestellt, eine Frau mit dem Rücken zum Objektiv, sodass Haarschmuck sichtbar wird. Das ist kein Betrug, sondern ein Typenbild; es zeigt, was der Fotograf zeigen wollte.",
+     "look_for": [
+      "Doppelbild: Stereo-Format als Apparat",
+      "Aufstellung frontal zur Kamera",
+      "Rückenfigur zeigt den Haarschmuck",
+      "Spuren der Platte: Kratzer, Spiegelschrift"
+     ]
+    },
+    {
+     "image_id": "i14fcc88e57",
+     "caption_md": "Die physische Ebene als Teil der Spur: Man sieht das Glasnegativ selbst – schwarzer Rand, Kratzer und Flecken, oben rechts eine Beschriftung, unten rechts ein heller Streifen. Die Mauer ist nur ein dünnes Band auf dem fernen Grat; den größten Teil der Fläche nehmen erodierte Hänge ein. Die Negative wurden 1868–1872 aufgenommen und 1921 von Henry Wellcome gekauft [S558580]. Meine Einschätzung: Das Bild ist zugleich Dokument einer Reise von 1871 und Spur seiner eigenen Geschichte als Objekt – die Schäden gehören zum „ça a été“ dazu.",
+     "look_for": [
+      "Mauer klein auf dem Grat",
+      "Schäden der Platte als eigene Zeitschicht",
+      "Verhältnis von Motiv und Material"
+     ]
+    },
+    {
+     "image_id": "ie4f79c3c05",
+     "caption_md": "Ein Bild über den Apparat: Ponting steht in Pelz und Stiefeln im Schnee neben einer Filmkamera auf hohem Stativ, den Blick zum Betrachter; unten links das Kürzel „H.G.P.“. Der Katalog beschreibt ein ganzfiguriges Porträt mit Filmkamera während der Expedition [S317330]. Meine Einschätzung: Das Bild ist eindeutig arrangiert – frontal, ruhig, mit Pose. Im Sinne Flussers zeigt es den Fotografen als Teil der Maschine: Kamera und Mann stehen gleichwertig nebeneinander.",
+     "look_for": [
+      "Kamera und Mensch gleich groß im Bild",
+      "Pose: Blick in die Kamera",
+      "Schnee als neutraler Grund"
+     ]
+    },
+    {
+     "image_id": "ib80d6c76b4",
+     "caption_md": "Rund hundert Touristenbilder des Taj Mahal übereinandergelegt: Die Fassade bleibt erstaunlich scharf und symmetrisch, Minarette erscheinen mehrfach, der Vordergrund mit den Menschen zerfließt zu einem farbigen Schleier. Vionnet fragt, wo wir am Tor stehen, um die Fassade in vollkommener Symmetrie wiederzugeben [S430641]. Meine Einschätzung: Was scharf bleibt, ist der gemeinsame Standpunkt – das „Programm“ des Ortes. Das Klischee wird hier selbst zum Motiv.",
+     "look_for": [
+      "scharfe Fassade, unscharfe Menschen",
+      "mehrfache Minarette als Spur abweichender Standpunkte",
+      "Symmetrie als gemeinsamer Nenner"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Ein Foto ist Index, Ikon und Symbol zugleich: Lichtspur, Ähnlichkeit und Konvention.",
+    "Der Index garantiert nur, dass etwas vor der Kamera war – nicht wann, wo, in welchem Zusammenhang oder aus wie vielen Aufnahmen.",
+    "Zum Dokument wird ein Bild erst durch Gebrauch, Kontext und Bildunterschrift.",
+    "Studium teilt jeder; das punctum ist ein persönliches Detail und lässt sich nicht planen.",
+    "Kamera, Standort und Gewohnheit bilden ein Programm; eigene Bilder entstehen, wo man es bewusst verlässt.",
+    "Beobachtet, arrangiert, inszeniert – alles legitim, solange der Vertrag mit dem Betrachter offen ist."
+   ],
+   "exercises": [
+    "Am nächsten Aussichtspunkt: Mache die Standardaufnahme, dann eine zweite, die zeigt, was sie weglässt (Menschen, Geländer, Parkplatz). Notiere, welche der beiden das bessere Dokument ist und welche das bessere Bild.",
+    "Spur-Prüfung für drei eigene Bilder: Was ist Spur (was war da)? Was ist Eingriff (gestellt, kombiniert, retuschiert)? Was ist Behauptung (Ort, Zeit, Titel)? Je ein Satz.",
+    "Punctum-Suche: Gehe dein Tagesmaterial durch und markiere nur Bilder, in denen dich ein kleines Detail festhält. Beschreibe das Detail und frage, ob du es beim Fotografieren bemerkt hast.",
+    "Programm verlassen: Fotografiere einen Tag lang einen bekannten Ort mit einer Einschränkung, die nicht deiner Gewohnheit entspricht (feste Brennweite, nur Hochformat, nur von hinten), und vergleiche die Ergebnisse mit deinem üblichen Material."
+   ],
+   "quiz": [
+    {
+     "question": "Warum ist ein Foto nach Peirce ein Index?",
+     "image_id": null,
+     "options": [
+      "Weil es dem Gegenstand ähnlich sieht",
+      "Weil es auf einer physischen Verbindung mit dem Gegenstand beruht",
+      "Weil wir es nach kulturellen Konventionen lesen",
+      "Weil es meist mit einer Bildunterschrift erscheint"
+     ],
+     "correct": 1,
+     "explanation": "Ein Index beruht auf einer existenziellen oder physischen Verbindung zum Gegenstand [Q2]. Ähnlichkeit macht das Foto zum Ikon, Konvention zum Symbol – beides kommt hinzu."
+    },
+    {
+     "question": "Was garantiert der indexikalische Charakter dieses Bildes?",
+     "image_id": "if30d7f0679",
+     "options": [
+      "Dass die Szene genau so aussah, ohne jeden Eingriff",
+      "Dass das Bild aus nur einem Negativ besteht",
+      "Dass Ort und Datum der Aufnahme stimmen",
+      "Dass Licht von einem Schiff im Eis auf die Platte fiel"
+     ],
+     "correct": 3,
+     "explanation": "Der Index belegt nur, dass etwas vor der Kamera war. Kombination, Ort und Zeit muss man aus anderen Belegen erschließen – gerade bei Hurley, der auch Kombinationsabzüge machte [S273810]."
+    },
+    {
+     "question": "Du schaust ein Landschaftsbild an und bleibst an einem verrosteten Fahrradreifen im Gras hängen, der dich an deine Kindheit erinnert. Wie nennt Barthes das?",
+     "image_id": null,
+     "options": [
+      "Punctum",
+      "Studium",
+      "Konnotation",
+      "Verankerung"
+     ],
+     "correct": 0,
+     "explanation": "Das punctum ist ein Detail, das den Blick festhält und den Betrachter persönlich trifft [Q6]. Das studium wären die allgemein geteilten Bedeutungen des Bildes."
+    },
+    {
+     "question": "Was meint Flusser mit dem „Programm“ der Kamera?",
+     "image_id": null,
+     "options": [
+      "Die Belichtungsautomatik",
+      "Den Plan, den die Fotografin vor der Reise macht",
+      "Die große, aber endliche Menge an Bildern, die der Apparat ermöglicht",
+      "Die Software, mit der Bilder nachbearbeitet werden"
+     ],
+     "correct": 2,
+     "explanation": "Jede Fotografie verwirklicht eine der Möglichkeiten im Programm der Kamera; deren Zahl ist groß, aber endlich [Q8]. Automatik und Software sind nur Teile davon."
+    },
+    {
+     "question": "Beobachtet, arrangiert oder inszeniert?",
+     "image_id": "iff0cdb62dd",
+     "options": [
+      "Beobachtet – der Fotograf hat nichts verändert",
+      "Inszeniert – die Szene hat nie stattgefunden",
+      "Nicht entscheidbar, weil es eine Stereo-Aufnahme ist",
+      "Arrangiert – die Frauen sind für die Kamera aufgestellt, die Szene ist nicht erfunden"
+     ],
+     "correct": 3,
+     "explanation": "Meine Einschätzung: Die frontale Aufstellung vor dem Haus und die Rückenfigur zeigen eine Pose. Arrangiert heißt Eingriff ohne Erfindung; inszeniert wäre eine hergestellte Szene."
+    },
+    {
+     "question": "Was meint Sontag, wenn sie Fotografieren eine Beglaubigung und zugleich eine Verweigerung der Erfahrung nennt?",
+     "image_id": null,
+     "options": [
+      "Fotos sind als Belege unbrauchbar",
+      "Das Bild belegt die Reise, aber die Suche nach dem Fotogenen ersetzt das Erleben durch ein Souvenir",
+      "Nur unbearbeitete Fotos beglaubigen eine Reise",
+      "Wer fotografiert, lügt über den Ort"
+     ],
+     "correct": 1,
+     "explanation": "Sontag beschreibt das Fotografieren als Beglaubigung, die die Erfahrung zugleich auf die Suche nach dem Fotogenen und das Souvenir verengt [Q9]."
+    }
+   ]
+  },
+  {
+   "dimension": "truth-manipulation-ai",
+   "track": "grundlagen",
+   "order": 3,
+   "title": "Wahrheit, Bearbeitung, KI-Bilder",
+   "sources": [
+    {
+     "url": "https://www.worldpressphoto.org/contest/verification-process/what-counts-as-manipulation",
+     "title": "World Press Photo: What counts as manipulation (2026 Contest)",
+     "excerpt": "The content of a photograph must not be altered by adding, rearranging, reversing, distorting or removing people and/or objects from within the frame. There are two exceptions: (i) Cropping that removes extraneous details is permitted; (ii) Removing sensor dust or scratches on scans of negatives is permitted. … It is important to note that processing by itself is not manipulation, therefore adjustments of color or conversion to grayscale that do not alter content are permitted. … No synthetic or artificially generated images are allowed, and no use of artificially generative fill is allowed."
+    },
+    {
+     "url": "https://www.worldpressphoto.org/contest/verification-process/why-manipulation-matters",
+     "title": "World Press Photo: Why manipulation matters",
+     "excerpt": "The World Press Photo Contest rewards photographs that are visual documents, providing an accurate and fair representation of the scene the photographer witnessed. … The first entry rule concerned with manipulation came into force in 2009. In 2014, the requirement that all photographers submit original camera files for entries remaining in the second to last round was introduced. … Manipulation is about altering the content of a photograph."
+    },
+    {
+     "url": "https://www.bronxdoc.org/bronx-documentary-center/exhibits/altered-images/roger-fenton/",
+     "title": "Bronx Documentary Center, Ausstellung „Altered Images“: Roger Fenton",
+     "excerpt": "In 2012, documentary filmmaker Errol Morris investigated the claims that Fenton had staged the photo. Morris was able to prove that Fenton’s famous photo with the cannonballs in the middle of the road was indeed the second photo taken. … Fenton made two exposures from the same tripod position: in the first version of the celebrated photo he was to call “The Valley of the Shadow of Death” (despite the title, it was not across this landscape, that the Light Brigade made its doomed charge), the cannonballs are thick on the ground to the left of the road, but before taking the second picture – the one that is always reproduced – he oversaw the scattering of the cannonballs on the road itself."
+    },
+    {
+     "url": "https://www.thamesandhudsonusa.com/books/the-synthetic-eye-photography-transformed-in-the-age-of-ai-softcover",
+     "title": "Thames & Hudson: Fred Ritchin, The Synthetic Eye – Photography Transformed in the Age of AI",
+     "excerpt": "The revolution caused by artificial intelligence in terms of what a photograph can and cannot do is profound. … He points to his own concept of Four Corners, where an image online provides information about an image’s backstory, authorship, links, and related imagery."
+    },
+    {
+     "url": "https://c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html",
+     "title": "C2PA: Content Credentials – Technical Specification 2.2",
+     "excerpt": "C2PA specifications SHOULD NOT provide value judgments about whether a given set of provenance data is 'good' or 'bad,' merely whether the assertions included within can be validated as associated with the underlying asset, correctly formed, and free from tampering."
+    },
+    {
+     "url": "https://contentauthenticity.org/faq",
+     "title": "Content Authenticity Initiative: FAQ",
+     "excerpt": "Each asset is cryptographically hashed and signed to capture a verifiable, tamper-evident record that enables exposure of any changes to the asset or its metadata. … They are essentially a nutrition label for digital content, and can contain information about who produced a piece of content, when they produced it, and which tools and editing processes they used. … Leica released the M11-P camera — the world’s first camera with Content Credentials built in."
+    },
+    {
+     "url": "https://insight.kellogg.northwestern.edu/article/ai-photos-identification",
+     "title": "Kellogg Insight (Northwestern University): 5 Telltale Signs That a Photo Is AI-generated",
+     "excerpt": "Matt Groh and his colleagues have identified five categories of artifacts and implausibilities to help people tell the difference between real and AI-generated images: anatomical implausibilities, stylistic artifacts, functional implausibilities, violations of physics, and sociocultural implausibilities. … In AI-generated photos, shadows often defy the laws of physics. For example, they might fall at different angles from their sources, as if the sun were shining from multiple positions. … An extra finger or a missing limb does not automatically imply an image is fake."
+    },
+    {
+     "url": "https://arxiv.org/abs/2406.08651v1",
+     "title": "Kamali u. a.: How to Distinguish AI-Generated Images from Authentic Photographs (arXiv 2406.08651)",
+     "excerpt": "Human-perceptible artifacts are not always present in AI-generated images, but this guide reveals artifacts and implausibilities that often emerge."
+    },
+    {
+     "url": "https://www.artforum.com/news/sony-world-photography-award-winner-reveals-entry-was-ai-generated-rejects-prize-90416",
+     "title": "Artforum: Sony World Photography Award Winner Reveals Entry Was AI-Generated, Rejects Prize",
+     "excerpt": "April 19, 2023 … German photographer Boris Eldagsen, who won the Creative category of the prestigious Sony World Photography Award, has refused the prize on the grounds that he used an artificial intelligence image generator to create his submission. … In fact, Eldagsen made the work by supplying prompts to the image generator DALL-E 2, which was developed by OpenAI, the Bay Area company responsible for AI chatbot ChatGPT."
+    },
+    {
+     "url": "https://www.cbsnews.com/news/artificial-intelligence-photo-competition-won-rejected-award-ai-boris-eldagsen-sony-world-photography-awards/",
+     "title": "CBS News: He submitted an AI image to a photography competition and won – then rejected the award",
+     "excerpt": "\"AI images and photography should not compete with each other in an award like this. They are different entities. AI is not photography. Therefore I will not accept the award,\" he said."
+    },
+    {
+     "url": "https://philosophynow.org/issues/95/The_Ontology_of_Photography_From_Analogue_To_Digital",
+     "title": "Peter Benson: The Ontology of Photography – From Analogue to Digital, Philosophy Now 95",
+     "excerpt": "One implication of this is spelled out by William J. Mitchell in his book The Reconfigured Eye (1992). … Image files therefore leave no trail, and it is often impossible to establish with certainty the provenance of a digital image."
+    }
+   ],
+   "intro_md": "Reise- und Landschaftsfotografie ist das Feld mit den meisten getauschten Himmeln, zusammengesetzten Sternenhimmeln und retuschierten Touristen – und inzwischen mit Bildern, die nie eine Kamera gesehen haben. Diese Lektion ordnet, was erlaubt ist, nach dem einzigen Maßstab, der trägt: dem **Vertrag mit dem Betrachter**. Bearbeitung an sich ist keine Manipulation; World Press Photo erlaubt Farb- und Tonwertarbeit, solange der Inhalt nicht verändert wird [Q1]. Manipulation beginnt, wo Inhalt hinzugefügt, entfernt oder gestellt wird, und Betrug dort, wo das verschwiegen wird. Die Geschichte reicht von Fenton, Beato und Hurley über Gursky und den Fall McCurry bis zu KI-Bildern, die einen Fotowettbewerb gewannen. Am Ende stehen zwei Werkzeuge: das Erkennen von KI-Spuren und die Provenienz per Content Credentials – beide mit klaren Grenzen.",
+   "sections": [
+    {
+     "heading": "Bearbeiten ist nicht Manipulieren",
+     "body_md": "Jedes Foto ist bearbeitet: durch Objektiv, Sensor, Profil, Entwicklung, Abzug. Schon im 19. Jahrhundert arbeiteten Fotografen an ihren Kollodium-Negativen; Porträts wurden mit Grafitstift retuschiert, Landschaftshimmel abgedeckt oder mit Gouache bemalt [S828459]. Ansel Adams gab sich große Mühe, dass seine Bilder unmanipuliert wirkten, leistete aber einen großen Teil der schöpferischen Arbeit in der Dunkelkammer, wo er die Tonwerte jedes Abzugs perfektionierte [S245847]. Die Gruppe f/64, der er angehörte, stand für „straight“, unmanipulierte Fotografie [S287094] – „straight“ hieß also nie „unbearbeitet“.\n\nWorld Press Photo zieht die Linie dort, wo es für Reportage nötig ist: Bearbeitung an sich sei keine Manipulation, Farbanpassungen und Schwarzweiß-Umsetzung seien erlaubt, solange sie den Inhalt nicht verändern; verboten ist, Menschen oder Objekte im Bild hinzuzufügen, umzuordnen, zu spiegeln, zu verzerren oder zu entfernen, ausgenommen Beschnitt und Sensorstaub [Q1]. Manipulation, so die Organisation, betreffe den Inhalt eines Fotos [Q2].\n\nDiese Regel ist nicht die einzig mögliche, aber sie ist präzise. Sie trennt **Interpretation** (wie hell, wie warm, wie kontrastreich) von **Inhalt** (was da war). Für Landschaftsfotografie ist das die nützlichste Unterscheidung: Ein dunklerer Himmel ist Interpretation, ein anderer Himmel ist Inhalt."
+    },
+    {
+     "heading": "Inszenierung von Anfang an: Fenton, Beato, Hurley",
+     "body_md": "Die ersten berühmten Kriegs- und Expeditionsbilder sind zugleich die ersten Streitfälle. Roger Fenton machte zwei Aufnahmen vom selben Stativpunkt: auf der einen liegen die Kanonenkugeln neben der Straße, auf der anderen auf der Straße – Susan Sontag schrieb, er habe vor der zweiten, immer reproduzierten Aufnahme das Verteilen der Kugeln beaufsichtigt [Q3]. Errol Morris untersuchte 2012 den Vorwurf und konnte nach Darstellung des Bronx Documentary Center zeigen, dass das Bild mit den Kugeln auf der Straße das zweite war [Q3]. Bemerkenswert ist der Weg: Nicht ein Bild, sondern der Vergleich zweier Aufnahmen machte den Eingriff erkennbar.\n\nFelice Beato fügte in Indien in einigen Ansichten Leichen hinzu, um die dramatische Wirkung zu steigern, und arrangierte ausgegrabene Knochen im Vordergrund, um das Massaker von Lucknow darzustellen [S584736]. Frank Hurley setzte Kombinationsabzüge aus mehreren Negativen ein – „Photographic Impression Pictures“, die einen realistischen Eindruck von Ereignissen erzeugen sollten; sein Zeitgenosse Bean nannte sie „Fälschungen“ [S273810].\n\nDie Lehre daraus ist nicht „früher war es auch nicht besser“, sondern: Der Streit um Inszenierung ist so alt wie der Anspruch der Fotografie, Zeugnis zu sein. Wer ein Bild als Zeugnis ausgibt, übernimmt eine Pflicht, die ein Maler nicht hat."
+    },
+    {
+     "heading": "Kunst darf – wenn sie es sagt: Gursky",
+     "body_md": "Andreas Gurskys „Rhein II“ zeigt den Fluss als Folge waagerechter Streifen. Gursky hat die Gebäude am anderen Ufer digital entfernt; die Tate schreibt, die Manipulation gebe dem Bild formale Geschlossenheit und vermittle eher eine fast platonische Idee eines Flusses als einen bestimmten Ort [S430375]. Er selbst beschrieb, der Ort habe nur einen Teil eines Bildes geboten, und er habe die Bilder digitalisiert und die störenden Elemente weggelassen [S162733]. Die Pinakothek der Moderne nennt es ein Bild, das in der Wirklichkeit nicht zu finden sei, sondern fiktiv komponiert werden müsse [S798370]. Auch „Bahrain I“ wurde aus dem Hubschrauber aufgenommen und anschließend digital bearbeitet [S558554].\n\nNiemand wirft Gursky Betrug vor. Der Vertrag ist offen: Museum, Kunst, Bearbeitung bekannt und Teil der Aussage. Die Frage an das Bild lautet nicht „ist es wahr?“, sondern „was zeigt die Konstruktion, was die Aufnahme nicht könnte?“.\n\nFür eigene Landschaftsbilder heißt das: Ein Composite kann ein starkes Bild sein, wenn es als Bild auftritt – mit Hinweis, im passenden Kontext. Dasselbe Bild in einem Reisebericht, der „so war es am Morgen in Guilin“ behauptet, bricht den Vertrag."
+    },
+    {
+     "heading": "Der Fall McCurry (2016)",
+     "body_md": "2016 bemerkte der italienische Fotograf Paolo Viglione in einer McCurry-Ausstellung in Venaria Reale an einem großen Abzug Spuren einer schlecht ausgeführten Photoshop-Retusche; weitere Bilder mit entfernten Elementen folgten [S643241]. McCurry erklärte danach, er sei kein Fotojournalist im klassischen Sinn, sondern ein „visual storyteller“ [S608496]. Er hielt Tonwertänderungen in Bildbereichen für vertretbar, das Verschieben von Elementen nicht – unklar blieb, wer für die entfernten Elemente verantwortlich war [S643241].\n\nAufschlussreich ist sein eigenes Beispiel: Beim Titelbild mit dem Schneider im Monsun sei für das Hochformat das Wasser nach unten verlängert worden; manche hielten das für falsch, er für angemessen, weil Wahrheit und Integrität des Bildes gewahrt blieben [S608496]. Dasselbe Motiv ist in der Sammlung von World Press Photo als Teil seiner Monsun-Serie aufgeführt [S778832] – also in einem Kontext, dessen heutige Regeln das Hinzufügen von Bildinhalt ausschließen [Q1].\n\nDer Kern des Falls ist nicht die Retusche, sondern der **nachträgliche Rollenwechsel**: Ein Publikum, das Bilder jahrzehntelang als Reportage gelesen hat, liest sie weiter so. Die Gegenlesart verdient Gehör: Für einen Bildautor, der Geschichten erzählt, kann ein verlängerter Wasserstreifen die Wahrheit des Bildes tatsächlich nicht berühren. Strittig ist, wer das entscheidet – der Autor oder der Vertrag, unter dem das Bild bekannt wurde."
+    },
+    {
+     "heading": "KI-Bilder: was sie sind und wie man sie erkennt",
+     "body_md": "2023 gewann Boris Eldagsen die Kategorie „Creative“ der Sony World Photography Awards und lehnte den Preis ab, weil er sein Bild mit einem KI-Bildgenerator erzeugt hatte – mit Prompts für DALL-E 2 [Q9]. Seine Begründung: KI-Bilder und Fotografie seien verschiedene Dinge, „AI is not photography“ [Q10]. World Press Photo schließt synthetische Bilder und generatives Füllen heute ausdrücklich aus [Q1].\n\nEin KI-Bild ist kein manipuliertes Foto, sondern ein Bild ohne Index: Es gab keinen Gegenstand, dessen Licht eine Spur hinterließ. Es kann trotzdem fotografisch aussehen, weil es aus Mustern unzähliger Fotos errechnet ist. Forschende der Northwestern University ordnen typische Hinweise in fünf Gruppen: anatomische Unstimmigkeiten, stilistische Artefakte, funktionale Unstimmigkeiten, Verstöße gegen die Physik und soziokulturelle Unstimmigkeiten [Q7]. Für Landschaft am wichtigsten sind die physikalischen: Schatten, die in verschiedene Richtungen fallen, als stünde die Sonne an mehreren Orten [Q7], Spiegelungen, die nicht zum Gegenstand passen, Perspektiven, die nicht aufgehen.\n\nDie Grenzen gehören dazu. Ein sechster Finger beweist allein nichts [Q7]; wahrnehmbare Artefakte sind nicht immer vorhanden [Q8]. Und schon für digitale Fotos galt, was William J. Mitchell 1992 festhielt: Bilddateien hinterlassen keine Spur, ihre Herkunft ist oft nicht sicher feststellbar [Q11]. Pixel-Forensik mit bloßem Auge ist darum ein Verdachtsinstrument, kein Beweis."
+    },
+    {
+     "heading": "Provenienz statt Pixel-Prüfung: Content Credentials",
+     "body_md": "Die Antwort der Industrie verschiebt die Frage vom Bild zur Herkunft. Content Credentials nach dem C2PA-Standard speichern, wer ein Bild wann mit welchen Werkzeugen erzeugt und bearbeitet hat – die Content Authenticity Initiative nennt sie eine Art Nährwertetikett für digitale Inhalte; jedes Asset werde kryptografisch gehasht und signiert, sodass Änderungen an Bild oder Metadaten erkennbar werden [Q6]. Mit der Leica M11-P kam nach Angabe der Initiative die erste Kamera mit eingebauten Content Credentials auf den Markt [Q6].\n\nWichtig ist, was der Standard ausdrücklich nicht leistet: Die C2PA-Spezifikation soll keine Werturteile darüber fällen, ob Provenienzdaten „gut“ oder „schlecht“ sind, sondern nur prüfen, ob die Angaben zum Bild gehören, korrekt gebildet und unverändert sind [Q5]. Ein gültiges Zertifikat sagt: Diese Datei kommt aus dieser Kamera und wurde so bearbeitet. Es sagt nicht, dass die Szene nicht gestellt war, und ein Bild ohne Zertifikat ist nicht deshalb falsch.\n\nFred Ritchin hält in „The Synthetic Eye“ die Umwälzung durch KI für tiefgreifend und verweist auf sein Konzept „Four Corners“, bei dem ein Bild online Angaben zu Hintergrund, Autorschaft und Zusammenhängen mitführt [Q4]. Provenienz und Kontext ersetzen damit nicht das Urteil, sie machen es erst möglich."
+    },
+    {
+     "heading": "Eigene Regeln für die eigene Praxis",
+     "body_md": "Für dich als Reise- und Landschaftsfotograf lassen sich daraus Arbeitsregeln ableiten:\n\n- **Interpretation offen, Inhalt geschützt:** Licht, Farbe, Kontrast, Schwarzweiß frei; Hinzufügen, Entfernen, Tauschen nur mit Hinweis.\n- **Vertrag benennen:** Reisebericht, Wettbewerb, Ausstellung, Instagram – jeder Ort hat eigene Erwartungen. Wettbewerbsregeln vor dem Einreichen lesen; World Press Photo verlangt seit 2014 in späten Runden die Originaldateien [Q2].\n- **Originale aufheben:** RAW-Dateien und Varianten sind dein eigener Kontaktbogen und dein Beleg.\n- **Offenlegen statt rechtfertigen:** „Composite aus zwei Aufnahmen, 20 Minuten Abstand“ kostet einen Satz.\n\nDas Klischee-Gegenbeispiel ist das Social-Media-Landschaftsbild mit eingesetzter Milchstraße über einem beleuchteten Tempel, Mondsichel am falschen Ort und Nebel aus dem Pinsel – technisch perfekt, ohne Hinweis. Es ist nicht schlecht, weil es gebaut ist, sondern weil es behauptet, gefunden zu sein.\n\nDasselbe gilt für die KI-Analysen dieser App: Sie sind Einschätzungen über Bilder, keine Quellen. Darum stehen Fakten mit Quelle getrennt von „Meine Einschätzung“ – dieselbe Trennung von Spur, Eingriff und Behauptung, die diese Lektion lehrt."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "i99f20775bb",
+     "caption_md": "Sechs waagerechte Bänder: heller Himmel, grüner Uferstreifen, graues Wasser, grünes Ufer, ein grauer Weg, wieder Grün. Keine Gebäude, keine Menschen, kein Maßstab. Die Gebäude am anderen Ufer hat Gursky digital entfernt [S430375]; nach seinen Worten bot der Ort nur einen Teil eines Bildes [S162733]. Meine Einschätzung: Gerade weil der Eingriff bekannt und Teil der Idee ist, ist das Bild kein Betrugsfall, sondern ein Lehrstück für den offenen Vertrag. Gegenlesart: Die getilgte Besiedlung ist selbst eine Aussage – ein Rhein, den es nicht gibt.",
+     "look_for": [
+      "streng parallele Bänder",
+      "Fehlen jeder Bebauung",
+      "Was wäre der Bildinhalt mit den Gebäuden?"
+     ]
+    },
+    {
+     "image_id": "i6cd4bc86d1",
+     "caption_md": "Von oben fallen die schwarzen Asphaltbänder der Rennstrecke in Schleifen über hellen Sand, oben ein schmaler Streifen Horizont mit Gebäuden. Laut Tate wurde das Bild aus dem Hubschrauber aufgenommen und anschließend digital bearbeitet [S558554]. Meine Einschätzung: Was genau verändert wurde, lässt sich dem Bild nicht ansehen – ein gutes Beispiel dafür, dass man Bearbeitung nicht „erkennt“, sondern erfährt. Die Frage nach Wahrheit wird hier zur Frage nach Kontext und Offenlegung.",
+     "look_for": [
+      "Asphaltschleifen als Kalligrafie",
+      "schmaler Horizont als Ortsanker",
+      "was das Auge über Bearbeitung nicht sagen kann"
+     ]
+    },
+    {
+     "image_id": "i54a878c173",
+     "caption_md": "Ein alter Mann steht bis zur Brust im Wasser, lächelt und trägt eine verrostete Nähmaschine auf der Schulter; hinten unscharf Gebäude, vorn viel Wasserfläche. McCurry erzählt, er habe den Schneider die Straße entlanggehen sehen [S378326]. Für das Titelbild im Hochformat wurde das Wasser nach unten verlängert, was McCurry für vertretbar hielt [S608496]. Meine Einschätzung: Der verlängerte Wasserstreifen ändert die Deutung kaum, wohl aber den Vertrag – für ein Reportagebild ist es hinzugefügter Inhalt, für ein Erzählbild ein Formatwechsel. Diese Version zeigt das Querformat.",
+     "look_for": [
+      "Wasserlinie als unterer Bildanteil",
+      "Gesicht und Maschine auf einer Höhe",
+      "welcher Vertrag gilt hier: Reportage oder Erzählung?"
+     ]
+    },
+    {
+     "image_id": "if30d7f0679",
+     "caption_md": "Ein Prüffall statt eines Urteils: das Schiff im Eis, nach rechts geneigt [S306331]. Hurley hat in anderen Arbeiten Kombinationsabzüge eingesetzt [S273810]; für dieses Bild ist das nicht belegt (keine Quelle hinterlegt). Meine Einschätzung: Hier zeigt sich, wie man vorgeht – nicht raten, sondern nach Belegen fragen: Gibt es Negative (die Negative der Expedition wurden gerettet und sind erhalten [S596779]), Parallelaufnahmen, Vergleichsbilder wie bei Fenton? Bis dahin bleibt es ein Dokument mit offener Frage.",
+     "look_for": [
+      "Himmel und Eis: Hinweise auf Montage oder nicht?",
+      "Archivnummer als Spur der Überlieferung",
+      "welche Belege würden die Frage klären?"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Bearbeitung ist Interpretation; Manipulation verändert den Inhalt – hinzufügen, entfernen, umordnen, stellen.",
+    "Maßstab ist der Vertrag mit dem Betrachter: Reportage, Wettbewerb, Kunst und Werbung erlauben Verschiedenes.",
+    "Inszenierung ist so alt wie die Fotografie; entdeckt wird sie meist durch Vergleich und Kontext, nicht durch Hinsehen.",
+    "Ein KI-Bild ist kein manipuliertes Foto, sondern ein Bild ohne Spur; sichtbare Artefakte sind Hinweise, keine Beweise.",
+    "Content Credentials belegen Herkunft und Bearbeitungsweg einer Datei, nicht die Wahrheit der Szene.",
+    "Offenlegen kostet einen Satz und schützt die Glaubwürdigkeit aller anderen Bilder."
+   ],
+   "exercises": [
+    "Bearbeite ein Landschaftsbild der Reise in zwei Fassungen: einmal nur Interpretation (Licht, Farbe, Kontrast), einmal mit einem Inhaltseingriff (Element entfernt oder Himmel getauscht). Lege beide nebeneinander und schreibe den Hinweistext, den die zweite bräuchte.",
+    "Fenton-Übung: Mache am selben Standpunkt zwei Aufnahmen, zwischen denen du etwas veränderst (Gegenstand verschoben, Person gebeten weiterzugehen). Prüfe später, woran ein Fremder die Reihenfolge erkennen könnte.",
+    "Regel-Check vor einem Wettbewerb: Lies die Manipulationsregeln eines Wettbewerbs (z. B. World Press Photo oder eines Naturfotopreises) und prüfe drei eigene Bilder: zulässig, Grenzfall, unzulässig – mit Begründung.",
+    "KI-Spurensuche: Suche in deinem Feed drei auffällig perfekte Landschaftsbilder und prüfe sie auf physikalische Unstimmigkeiten (Schattenrichtung, Spiegelung, Perspektive). Notiere nur Verdachtsmomente, keine Urteile."
+   ],
+   "quiz": [
+    {
+     "question": "Was ist nach den Regeln von World Press Photo ausdrücklich erlaubt?",
+     "image_id": null,
+     "options": [
+      "Eine Person am Bildrand wegretuschieren, die sich nicht wegschneiden lässt",
+      "Den Himmel aus einer zweiten Aufnahme einsetzen",
+      "Das Bild mit KI hochrechnen und dabei Details ergänzen lassen",
+      "Ein Beschnitt, der störende Nebensachen entfernt"
+     ],
+     "correct": 3,
+     "explanation": "Beschnitt und das Entfernen von Sensorstaub sind die beiden Ausnahmen vom Verbot, Inhalte zu verändern; synthetische Ergänzungen sind ausgeschlossen [Q1]."
+    },
+    {
+     "question": "Warum gilt Gurskys Eingriff in diesem Bild nicht als Betrug?",
+     "image_id": "i99f20775bb",
+     "options": [
+      "Weil digitale Bearbeitung 1999 noch nicht erkennbar war",
+      "Weil der Eingriff bekannt und Teil eines künstlerischen Vertrags ist",
+      "Weil nur Gebäude, keine Menschen entfernt wurden",
+      "Weil Landschaftsbilder grundsätzlich nicht dokumentarisch sind"
+     ],
+     "correct": 1,
+     "explanation": "Tate und Pinakothek beschreiben die Entfernung der Gebäude offen als Teil des Werks [S430375][S798370]. Betrug entsteht erst, wenn ein Eingriff verschwiegen wird, wo ein Zeugnis erwartet wird."
+    },
+    {
+     "question": "Für das Hochformat-Titelbild wurde bei diesem Motiv das Wasser nach unten verlängert. Wie fällt das unter die heutigen Regeln von World Press Photo?",
+     "image_id": "i54a878c173",
+     "options": [
+      "Es wäre zulässiger Beschnitt",
+      "Es wäre zulässige Tonwertbearbeitung",
+      "Es wäre Hinzufügen von Bildinhalt und damit unzulässig",
+      "Es fällt nicht unter die Regeln, weil es nur Wasser ist"
+     ],
+     "correct": 2,
+     "explanation": "Inhalte dürfen nicht hinzugefügt werden [Q1]; erweitertes Wasser ist neuer Inhalt. McCurry selbst hielt es für vertretbar, weil die Integrität des Bildes gewahrt blieb [S608496] – ein Streit um den Vertrag, nicht um die Technik."
+    },
+    {
+     "question": "In einem Landschaftsbild fallen die Schatten zweier Bäume in deutlich verschiedene Richtungen, obwohl nur die Sonne leuchtet. Was folgt daraus?",
+     "image_id": null,
+     "options": [
+      "Ein begründeter Verdacht auf ein KI-Bild oder eine Montage, aber noch kein Beweis",
+      "Ein sicherer Beweis für ein KI-Bild",
+      "Nichts, weil Schatten auf Fotos immer verzerrt sind",
+      "Ein Hinweis auf eine sehr kurze Belichtungszeit"
+     ],
+     "correct": 0,
+     "explanation": "Verstöße gegen die Physik gehören zu den typischen Hinweisen [Q7], doch wahrnehmbare Artefakte sind weder immer vorhanden noch allein beweisend [Q8]. Unebenes Gelände kann Schattenrichtungen verändern."
+    },
+    {
+     "question": "Ein Bild trägt gültige Content Credentials einer Kamera. Was ist damit belegt?",
+     "image_id": null,
+     "options": [
+      "Dass die Szene nicht gestellt war",
+      "Dass Herkunft und Bearbeitungsangaben zur Datei gehören und unverändert sind",
+      "Dass das Bild gut ist",
+      "Dass ein Bild ohne Credentials gefälscht ist"
+     ],
+     "correct": 1,
+     "explanation": "C2PA prüft nur, ob die Angaben zum Asset gehören, korrekt gebildet und unverändert sind, und fällt ausdrücklich keine Werturteile [Q5]."
+    },
+    {
+     "question": "Wodurch wurde der Eingriff bei Fentons „Valley of the Shadow of Death“ überhaupt untersuchbar?",
+     "image_id": null,
+     "options": [
+      "Durch Retuschespuren auf dem Negativ",
+      "Durch ein Geständnis Fentons",
+      "Durch eine zweite Aufnahme vom selben Stativpunkt",
+      "Durch die Bildunterschrift der Erstveröffentlichung"
+     ],
+     "correct": 2,
+     "explanation": "Fenton machte zwei Aufnahmen vom selben Standpunkt; erst ihr Vergleich und die Reihenfolge machen die Inszenierung zur prüfbaren Frage [Q3]."
+    }
+   ]
+  }
+ ]
+}
