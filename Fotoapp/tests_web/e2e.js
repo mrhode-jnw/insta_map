@@ -129,6 +129,10 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   const passLesson = async (lid, wrong = false) => {
     const l = lessons.find(x => x.id === lid);
     await page.goto(`${base}/Fotoapp/#/theorie/${lid}`); await waitText("Abschlusstest");
+    if (!wrong) {
+      const firsts = await page.$$eval('form[data-action="quiz"] fieldset', fs => fs.map(f => f.querySelector('input[type="radio"]').value));
+      ok(firsts.some(v => v !== "0") && firsts.some(v => v !== String(firsts[0])), "quiz answer order shuffled");
+    }
     for (let n = 0; n < l.quiz.length; n++) {
       const pick = wrong ? (l.quiz[n].correct + 1) % l.quiz[n].options.length : l.quiz[n].correct;
       await page.check(`input[name="q${n}"][value="${pick}"]`);

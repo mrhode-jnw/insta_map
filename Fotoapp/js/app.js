@@ -9,6 +9,13 @@ import {
 const $ = s => document.querySelector(s);
 const main = () => $("#main");
 const LOOK_CHOICES = [0, 30, 60, 90];
+// Stable pseudo-random order per seed, so quiz answers aren't always in the authored position.
+const shuffled = (arr, seed) => {
+  let h = 2166136261; for (const c of seed) h = Math.imul(h ^ c.charCodeAt(0), 16777619);
+  const a = [...arr], rnd = () => ((h = Math.imul(h ^ (h >>> 15), 2246822507) ^ Math.imul(h ^ (h >>> 13), 3266489909)) >>> 0) / 4294967296;
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+};
 const fmtDate = iso => iso ? new Date(iso).toLocaleDateString("de-DE") : "";
 const scopeLabel = { photographer: "Fotograf", project: "Projekt", image: "Bild", chapter: "Kapitel", concept: "Begriff" };
 // Round state lives in localStorage, so an unfinished round can be resumed later.
@@ -281,7 +288,7 @@ views.lektion = async id => {
     <p class="muted small">${l.quiz.length} Fragen · bestanden ab ${Math.ceil(l.quiz.length * PASS_RATIO)} richtigen Antworten${prog ? ` · bisher bestes Ergebnis ${prog.best}/${prog.total}` : ""}</p>
     <form data-action="quiz" data-id="${id}">${l.quiz.map((q, n) => `<fieldset class="q" data-n="${n}"><legend>${n + 1}. ${md(q.question).replace(/^<p>|<\/p>$/g, "")}</legend>
       ${q.image_id && lib.by.images.has(q.image_id) ? `<div class="quiz-img">${media(q.image_id, "m")}</div>` : ""}
-      ${q.options.map((o, k) => `<label class="radio"><input type="radio" name="q${n}" value="${k}" required> ${md(o).replace(/^<p>|<\/p>$/g, "")}</label>`).join("")}
+      ${shuffled(q.options.map((o, k) => [o, k]), `${id}:${n}`).map(([o, k]) => `<label class="radio"><input type="radio" name="q${n}" value="${k}" required> ${md(o).replace(/^<p>|<\/p>$/g, "")}</label>`).join("")}
       <div class="explain" hidden></div></fieldset>`).join("")}
       <button>Auswerten</button></form>
     <div id="quiz-result"></div></section>
