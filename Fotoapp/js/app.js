@@ -237,9 +237,11 @@ views.theorie = async () => {
   <p class="lead">Ein Kurs in ${lib.lessons.length} Lektionen: Beschreibung, Erklärung, Beispiele, Abschlusstest. Erst wenn eine Lektion bestanden ist, öffnet sich die Sehübung dazu.</p>
   <div class="stats"><span><b>${done}</b>/${lib.lessons.length} bestanden</span></div>
   ${next ? `<p><a class="button" href="#/theorie/${next.id}">${done ? "Weiter mit" : "Beginnen mit"}: ${esc(next.title)}</a></p>` : `<p class="ok">Alle Lektionen bestanden.</p>`}
-  <ol class="lesson-list">${lib.lessons.map(l => { const p = prog[l.id];
+  ${[["sehen", "Sehen: Bildmerkmale"], ["fotografen", "Fotografen: Traditionen, Handschriften, Werke"]].map(([track, label]) => {
+    const ls = lib.lessons.filter(l => (l.track || "sehen") === track); if (!ls.length) return "";
+    return `<h2>${label}</h2><ol class="lesson-list">${ls.map(l => { const p = prog[l.id];
     return `<li><a href="#/theorie/${l.id}">${esc(l.title)}</a>
-      ${p?.passed ? `<span class="status reviewed">bestanden ${p.best}/${p.total}</span>` : p ? `<span class="status">${p.best}/${p.total} – noch nicht bestanden</span>` : `<span class="muted small">offen</span>`}</li>`; }).join("")}</ol>
+      ${p?.passed ? `<span class="status reviewed">bestanden ${p.best}/${p.total}</span>` : p ? `<span class="status">${p.best}/${p.total} – noch nicht bestanden</span>` : `<span class="muted small">offen</span>`}</li>`; }).join("")}</ol>`; }).join("")}
   ${lib.lessons.length ? "" : `<p class="muted">Die Lektionen werden gerade erstellt.</p>`}`;
 };
 
@@ -260,6 +262,11 @@ views.lektion = async id => {
   <article class="chapter lesson">
     <h3>Beschreibung</h3><div class="prose">${md(l.intro_md)}</div>
     ${l.sections.map(x => `<h3>${esc(x.heading)}</h3><div class="prose">${md(x.body_md)}</div>`).join("")}
+    ${(l.photographers || []).length ? `<h3>Fotografen im Porträt</h3>${l.photographers.map(pid => { const p = lib.by.photographers.get(pid); if (!p) return "";
+      const imgs = lib.images.filter(i => i.photographer_id === pid).slice(0, 6);
+      return `<div class="profile">${artistCard(p, true)}${p.method_md ? `<p class="small"><b>Arbeitsweise:</b></p><div class="prose small">${md(p.method_md)}</div>` : ""}
+        ${p.signature_md ? `<p class="small"><b>Handschrift – woran man die Bilder erkennt</b> <span class="muted">(Einschätzung)</span></p><div class="prose small">${md(p.signature_md)}</div>` : ""}
+        ${imgs.length ? `<div class="thumbs mini">${imgs.map(i => `<a class="thumb" href="#/bild/${i.id}">${media(i.id)}</a>`).join("")}</div>` : ""}</div>`; }).join("")}` : ""}
     <h3>Beispiele</h3>
     ${l.examples.map(e => { const i = lib.by.images.get(e.image_id); return i ? `<figure class="key-image example">
       <a href="#/bild/${i.id}">${media(i.id, "m")}</a><figcaption><b>${esc(photographerOf(i).name)}</b> – ${esc(i.title || "Ohne Titel")}${i.year ? `, ${i.year}` : ""}
@@ -326,6 +333,8 @@ views.fotograf = async id => {
   <div class="artist big">${p.portrait ? `<img data-media="${esc(p.id)}" data-kind="p" class="portrait" alt="">` : ""}<div>
     ${p.bio_md ? `<div class="prose">${md(p.bio_md)}</div>` : `<p class="muted">Noch kein Kurztext – Grundlage sind die Quellen unten.</p>`}
     ${p.method_md ? `<h3>Arbeitsweise</h3><div class="prose">${md(p.method_md)}</div>` : ""}
+    ${p.signature_md ? `<h3>Handschrift <span class="muted small">(Einschätzung)</span></h3><div class="prose">${md(p.signature_md)}</div>` : ""}
+    ${lib.lessons.filter(l => (l.photographers || []).includes(p.id)).map(l => `<p><a href="#/theorie/${l.id}" class="tag">Lektion: ${esc(l.title)}</a></p>`).join("")}
     ${p.portrait?.credit ? `<p class="muted tiny">Porträt: ${esc(p.portrait.credit)}${p.portrait.source_url ? ` · <a href="${esc(p.portrait.source_url)}" target="_blank" rel="noopener noreferrer">Quelle</a>` : ""}</p>` : ""}</div></div>
   <div class="two-col"><div><h3>Projekte</h3><ul>${projects.map(r => `<li><a href="#/projekt/${r.id}">${esc(r.title)}</a> <span class="muted">${period(r)}</span></li>`).join("")}</ul></div>
   <div>${sourcesBlock(sourcesFor("photographer", id), { scope: "photographer", scopeId: id, editable: true })}</div></div>

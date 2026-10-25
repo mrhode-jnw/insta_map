@@ -205,8 +205,11 @@ class Library:
             dim = le["dimension"]
             ids = self.add_sources(le.get("sources"), "lesson", dim, accessed)
             q = lambda t: q_to_s(t or "", ids)  # noqa: E731 - small local helper
+            by_name = {p["name"]: p["id"] for p in self.photographers.values()}
             self.lessons[dim] = {
                 "id": dim, "order": le.get("order", 99), "title": le.get("title", dim),
+                "track": le.get("track", "sehen"),
+                "photographers": [by_name[n] for n in le.get("photographers", []) if n in by_name],
                 "intro_md": q(le.get("intro_md")),
                 "sections": [{"heading": s.get("heading", ""), "body_md": q(s.get("body_md"))} for s in le.get("sections", [])],
                 "examples": [{"image_id": e["image_id"], "caption_md": q(e.get("caption_md")), "look_for": e.get("look_for", [])}
@@ -231,6 +234,7 @@ class Library:
             ph["died"] = ph["died"] or b.get("died")
             ph["bio_md"] = q_to_s(b.get("bio_md", ""), ids)
             ph["method_md"] = q_to_s(b.get("method_md", ""), ids)
+            ph["signature_md"] = q_to_s(b.get("signature_md", ""), ids)
             if b.get("portrait") and b["portrait"].get("image_url"):
                 ph["portrait"] = {k: b["portrait"].get(k, "") for k in ("image_url", "source_url", "credit")}
             n += 1
@@ -346,8 +350,7 @@ def main() -> None:
     experts = sum(lib.import_experts(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("experts_*.json")))
     texts = sum(lib.import_chapter_texts(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("chapter_texts_*.json")))
     lessons = sum(lib.import_lessons(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("lessons_*.json")))
-    bio_file = SEED_DIR / "photographers_bio.json"
-    bios = lib.import_bios(json.loads(bio_file.read_text(encoding="utf-8"))) if bio_file.exists() else 0
+    bios = sum(lib.import_bios(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("photographers_bio*.json")))
 
     failed: list[str] = []
     if args.media_dir:
