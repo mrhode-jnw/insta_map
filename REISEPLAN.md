@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 25.10.2026 07:32 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 25.10.2026 13:57 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -216,10 +216,10 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - 💡 **Samstagsregel** – Gute Sicht am Hallelujah Mountain: länger bleiben und zuerst First Bridge und Golden Whip Stream streichen.
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
-### So 25.10. – Zhangjiajie Tag 2: Hallelujah & Yuanjiajie am Morgen · Große Mauer & Yangjiajie _(Entwurf)_
+### So 25.10. – Zhangjiajie Tag 2: Hallelujah am Morgen · Große Mauer & Yangjiajie · Tianzi-Berg am Nachmittag _(Entwurf)_
 
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
-- 🚶 ◻︎ optional: **Rundgang Zhangjiajie: Yuanjiajie und Tianzi-Berg** – Heute nur der Yuanjiajie-Teil: Mihun Tai, Hallelujah, First Bridge.
+- 🚶 ◻︎ optional: **Rundgang Zhangjiajie: Yuanjiajie und Tianzi-Berg** – Yuanjiajie am Morgen, Tianzi-Berg am Nachmittag – Stationen mit Fotohinweisen.
 - **7:30–8:15** ◻︎ optional: **Mihun Tai (Enchanting Terrace) 迷魂台** (Wulingyuan, Hunan) · Licht: Frühes Licht – mögliche Nebelschichten zwischen den Säulen – Stativ ans Geländer, 70–200 für einzelne Säulen. Bis ca. 8:30 wenig Betrieb.
 - **8:15–9:30** ◻︎ optional: **Avatar Hallelujah Mountain 乾坤柱** (Wulingyuan, Hunan) · Licht: Vormittag – mehrere Perspektiven und Brennweiten – 16–35 für das ganze Felsfeld, 70–200 für die Säule allein. Bei guter Sicht hier länger bleiben, dann fällt die First Bridge weg.
 - **9:30–10:00** ◻︎ optional: **First Bridge Under Heaven 天下第一桥** (Wulingyuan, Hunan) · Licht: Vormittag – Vom offiziellen Aussichtspunkt seitlich.
@@ -227,11 +227,15 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚌 Bus/Seilbahn · ca. 40 Min. (Parkbus Yuanjiajie → Yangjiajie (auf dem Plateau, ggf. mit Umstieg; Fahrzeit nicht bestätigt))
 - **11:00–11:30** 🥪 **Mittagspause am Yangjiajie-Busbereich** – Imbiss oder Lunchpaket.
 - **11:30–12:15** ◻︎ optional: **Natural Great Wall Viewpoint 天然长城观景台** (Yangjiajie, Wulingyuan, Hunan) · Licht: Mittag – flaches Licht, Wände eher im Dunst – Gestaffelte Felswände an der Haltestelle: 70–200 für die Schichten, Wolken/Nebel im Tal als Trenner nutzen. Bei hartem Licht lieber enge Ausschnitte statt Panorama.
-- **12:15–15:15** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Nachmittag – Hike-Runde (Wulong-Dorf, Eisenleitern) – Wanderung über das Wulong-Dorf (Engstelle „Ein Faden Himmel“) und die Eisenleitern zum Tianbo Fu. Gegen Nachmittag wird das Licht seitlicher – gut für die Felskanten.
-- **15:15–16:00** ◻︎ optional: **One Step to Heaven 一步登天** (Yangjiajie, Wulingyuan, Hunan) · Licht: Später Nachmittag – Aussichtsplattform – Kleine Plattform über die Eisenleiter. Erster Kandidat zum Streichen.
-- **16:00–16:30** ◻︎ optional: **Yangjiajie Cable Car 杨家界索道** (Yangjiajie, Wulingyuan, Hunan) · Licht: Später Nachmittag – steilste Bahn im Park – Optional: Seilbahn hinunter statt Parkbus zurück, dann Hotelauto vom unteren Ende bestellen (76 CNY).
-  - ↓ 🚗 Auto · ca. 10 Min. · 4 km (Rückfahrt zum YOLO Resort – letzter Parkbus ca. 17:45–18:00, sonst Hotelauto bestellen.)
-- ✂️ **Bei Verzögerungen streichen** – 1 Back Garden · 2 First Bridge · 3 One Step to Heaven. Golden Whip war schon gestern.
+- **12:15–14:30** ◻︎ optional: **Yangjiajie Tianbo Mansion 天波府** (Wulingyuan, Hunan) · Licht: Mittag – Hike-Runde (Wulong-Dorf, Eisenleitern) – Wanderung über das Wulong-Dorf (Engstelle „Ein Faden Himmel“) und die Eisenleitern zum Tianbo Fu – wegen Tianzi am Nachmittag gekürzt: spätestens 14:30 zurück am Yangjiajie-Busbereich.
+- **14:30–14:45** ◻︎ optional: **One Step to Heaven 一步登天** (Yangjiajie, Wulingyuan, Hunan) · Licht: Nachmittag – Nur wenn der Tianbo-Hike früh fertig ist – sonst streichen, Tianzi hat Vorrang.
+  - ↓ 🚌 Bus/Seilbahn · ca. 30 Min. (Parkbus Yangjiajie → Tianzi-Berg (Helong Park), ggf. mit Umstieg; Fahrzeit nicht bestätigt)
+- **15:15–15:30** ◻︎ optional: **Helong Park 贺龙公园** (Tianzi Mountain, Hunan) · Licht: Nachmittag – Ankunft am Tianzi-Plateau – Kurzer Halt an der Statue, dann gleich zu den Aussichtspunkten.
+- **15:30–16:15** ◻︎ optional: **Imperial Brush Peaks 御笔峰** (Tianzi Mountain, Hunan) · Licht: Später Nachmittag – Seitenlicht auf den Felsnadeln – 70–200, Felsnadeln isolieren. Die Fee liegt direkt daneben.
+- **16:15–16:35** ◻︎ optional: **Fairy Offering Flowers 仙女献花** (Tianzi Mountain, Wulingyuan, Hunan) · Licht: Später Nachmittag – Einzelne Säule direkt neben dem Kaiserpinsel-Aussichtspunkt.
+- **16:35–17:20** ◻︎ optional: **Xihai Stone Forest 西海峰林** (Tianzi Mountain, Hunan) · Licht: Abendlicht – Sonnenuntergang 17:59 – Weit mit dem 16–35, Schichten mit dem 70–200. Letzten Parkbus im Blick behalten (ca. 17:45–18:00).
+  - ↓ 🚗 Auto · ca. 25 Min. · 11 km (Rückfahrt zum YOLO Resort – letzter Parkbus ab Tianzi ca. 17:45–18:00. Für den Sonnenuntergang am Xihai das Hotelauto zum Tianzi-Busbereich bestellen.)
+- ✂️ **Bei Verzögerungen streichen** – 1 One Step to Heaven · 2 Back Garden · 3 First Bridge · 4 Fee (Tianzi). Golden Whip war schon gestern.
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
 ### Mo 26.10. – Zhangjiajie → Chongqing (Zug G2428) · Abendlichter _(Entwurf)_

@@ -1272,7 +1272,7 @@
   },
   {
    "date": "2026-10-25",
-   "title": "Zhangjiajie Tag 2: Hallelujah & Yuanjiajie am Morgen · Große Mauer & Yangjiajie",
+   "title": "Zhangjiajie Tag 2: Hallelujah am Morgen · Große Mauer & Yangjiajie · Tianzi-Berg am Nachmittag",
    "status": "Entwurf",
    "items": [
     {
@@ -1286,7 +1286,7 @@
      "opt": true,
      "sel": true,
      "walk": "walk-zhangjiajie-yuanjiajie",
-     "text": "Heute nur der Yuanjiajie-Teil: Mihun Tai, Hallelujah, First Bridge."
+     "text": "Yuanjiajie am Morgen, Tianzi-Berg am Nachmittag – Stationen mit Fotohinweisen."
     },
     {
      "type": "stop",
@@ -1353,44 +1353,80 @@
     },
     {
      "type": "stop",
-     "t": "12:15–15:15",
+     "t": "12:15–14:30",
      "spot": "claude-cn-yangjiajie-tianbo-mansion",
      "opt": true,
      "sel": true,
      "light": "day",
-     "lightText": "Nachmittag – Hike-Runde (Wulong-Dorf, Eisenleitern)",
-     "text": "Wanderung über das Wulong-Dorf (Engstelle „Ein Faden Himmel“) und die Eisenleitern zum Tianbo Fu. Gegen Nachmittag wird das Licht seitlicher – gut für die Felskanten."
+     "lightText": "Mittag – Hike-Runde (Wulong-Dorf, Eisenleitern)",
+     "text": "Wanderung über das Wulong-Dorf (Engstelle „Ein Faden Himmel“) und die Eisenleitern zum Tianbo Fu – wegen Tianzi am Nachmittag gekürzt: spätestens 14:30 zurück am Yangjiajie-Busbereich."
     },
     {
      "type": "stop",
-     "t": "15:15–16:00",
+     "t": "14:30–14:45",
      "spot": "claude-cn-one-step-to-heaven",
      "opt": true,
      "sel": false,
-     "light": "golden",
-     "lightText": "Später Nachmittag – Aussichtsplattform",
-     "text": "Kleine Plattform über die Eisenleiter. Erster Kandidat zum Streichen."
+     "light": "day",
+     "lightText": "Nachmittag",
+     "text": "Nur wenn der Tianbo-Hike früh fertig ist – sonst streichen, Tianzi hat Vorrang."
+    },
+    {
+     "type": "move",
+     "mode": "shuttle",
+     "min": 30,
+     "text": "Parkbus Yangjiajie → Tianzi-Berg (Helong Park), ggf. mit Umstieg; Fahrzeit nicht bestätigt"
     },
     {
      "type": "stop",
-     "t": "16:00–16:30",
-     "spot": "claude-cn-yangjiajie-cable-car",
+     "t": "15:15–15:30",
+     "spot": "claude-cn-helong-park",
      "opt": true,
-     "sel": false,
+     "sel": true,
      "light": "day",
-     "lightText": "Später Nachmittag – steilste Bahn im Park",
-     "text": "Optional: Seilbahn hinunter statt Parkbus zurück, dann Hotelauto vom unteren Ende bestellen (76 CNY)."
+     "lightText": "Nachmittag – Ankunft am Tianzi-Plateau",
+     "text": "Kurzer Halt an der Statue, dann gleich zu den Aussichtspunkten."
+    },
+    {
+     "type": "stop",
+     "t": "15:30–16:15",
+     "spot": "claude-cn-imperial-brush-peaks",
+     "opt": true,
+     "sel": true,
+     "light": "golden",
+     "lightText": "Später Nachmittag – Seitenlicht auf den Felsnadeln",
+     "text": "70–200, Felsnadeln isolieren. Die Fee liegt direkt daneben."
+    },
+    {
+     "type": "stop",
+     "t": "16:15–16:35",
+     "spot": "claude-cn-fairy-offering-flowers",
+     "opt": true,
+     "sel": true,
+     "light": "golden",
+     "lightText": "Später Nachmittag",
+     "text": "Einzelne Säule direkt neben dem Kaiserpinsel-Aussichtspunkt."
+    },
+    {
+     "type": "stop",
+     "t": "16:35–17:20",
+     "spot": "claude-cn-xihai-stone-forest",
+     "opt": true,
+     "sel": true,
+     "light": "golden",
+     "lightText": "Abendlicht – Sonnenuntergang 17:59",
+     "text": "Weit mit dem 16–35, Schichten mit dem 70–200. Letzten Parkbus im Blick behalten (ca. 17:45–18:00)."
     },
     {
      "type": "move",
      "mode": "car",
-     "text": "Rückfahrt zum YOLO Resort – letzter Parkbus ca. 17:45–18:00, sonst Hotelauto bestellen."
+     "text": "Rückfahrt zum YOLO Resort – letzter Parkbus ab Tianzi ca. 17:45–18:00. Für den Sonnenuntergang am Xihai das Hotelauto zum Tianzi-Busbereich bestellen."
     },
     {
      "type": "info",
      "icon": "✂️",
      "title": "Bei Verzögerungen streichen",
-     "text": "1 Back Garden · 2 First Bridge · 3 One Step to Heaven. Golden Whip war schon gestern."
+     "text": "1 One Step to Heaven · 2 Back Garden · 3 First Bridge · 4 Fee (Tianzi). Golden Whip war schon gestern."
     },
     {
      "type": "hotel",
