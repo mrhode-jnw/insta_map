@@ -12,6 +12,7 @@ export async function loadLibrary() {
   lib.chapters = base.chapters;
   lib.concepts = base.concepts;
   lib.lessons = base.lessons || [];
+  lib.sketches = base.sketches || {};
   lib.built_at = base.built_at;
   index();
 }

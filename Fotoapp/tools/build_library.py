@@ -338,6 +338,41 @@ def build_media(lib: Library, media_dir: Path, key: bytes) -> list[str]:
     return failed
 
 
+SKETCH_DIR = SEED_DIR / "sketches"
+DIRECTIVE = re.compile(r"^::(bild|vergleich|skizze)\s+([^|]*)", re.M)
+
+
+def load_sketches() -> dict:
+    """Inline SVG sketches for lessons (seed/sketches/<name>.svg); scripts and event handlers are stripped."""
+    out = {}
+    for f in sorted(SKETCH_DIR.glob("*.svg")):
+        svg = f.read_text(encoding="utf-8")
+        svg = re.sub(r"<\?xml[^>]*>|<!DOCTYPE[^>]*>|<!--.*?-->", "", svg, flags=re.S)
+        svg = re.sub(r"<script.*?</script>|<foreignObject.*?</foreignObject>", "", svg, flags=re.S | re.I)
+        svg = re.sub(r"\s(on\w+|href|xlink:href)\s*=\s*(\"[^\"]*\"|'[^']*')", "", svg)
+        out[f.stem] = svg.strip()
+    return out
+
+
+def check_directives(le: dict, images: dict, sketches: dict) -> None:
+    """Drop ::bild/::vergleich/::skizze lines whose image or sketch is missing, and say so."""
+    def clean(text: str) -> str:
+        keep = []
+        for line in (text or "").split("\n"):
+            m = DIRECTIVE.match(line.strip())
+            if m:
+                kind, args = m.group(1), m.group(2).split()
+                bad = [a for a in args if (a not in sketches if kind == "skizze" else a not in images)] or (not args)
+                if bad:
+                    print(f"  ! {le['id']}: {kind} {' '.join(args)} fehlt – Zeile entfernt", file=sys.stderr)
+                    continue
+            keep.append(line)
+        return "\n".join(keep)
+    le["intro_md"] = clean(le["intro_md"])
+    for s in le["sections"]:
+        s["body_md"] = clean(s["body_md"])
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--media-dir", type=Path, help="checkout of the sehschule-media branch")
@@ -368,6 +403,10 @@ def main() -> None:
             le["examples"] = [e for e in le["examples"] if e["image_id"] in lib.images]
             le["quiz"] = [q for q in le["quiz"] if not q.get("image_id") or q["image_id"] in lib.images]
 
+    sketches = load_sketches()
+    for le in lib.lessons.values():
+        check_directives(le, lib.images, sketches)
+
     if not args.media_dir:  # without media no portrait files exist; keep the source info only
         for ph in lib.photographers.values():
             ph.pop("portrait", None)
@@ -380,6 +419,7 @@ def main() -> None:
         "chapters": [lib.chapters[n] for n in sorted(lib.chapters)],
         "concepts": sorted(lib.concepts.values(), key=lambda c: c["name"]),
         "lessons": sorted(lib.lessons.values(), key=lambda le: le["order"]),
+        "sketches": sketches,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

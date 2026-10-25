@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- four camera heights, each with the frame it produces -->
+  <g>
+    <text x="45" y="16" text-anchor="middle" class="h">Tief</text>
+    <text x="135" y="16" text-anchor="middle" class="h">Augenhöhe</text>
+    <text x="225" y="16" text-anchor="middle" class="h">Erhöht</text>
+    <text x="315" y="16" text-anchor="middle" class="h">Aufsicht</text>
+  </g>
+  <!-- side views -->
+  <g>
+    <line x1="10" y1="120" x2="80" y2="120" class="m"/>
+    <rect x="14" y="112" width="10" height="7" class="af" stroke="none"/>
+    <line x1="24" y1="115" x2="78" y2="98" class="a" stroke-dasharray="3 3"/>
+    <line x1="64" y1="120" x2="64" y2="86"/><circle cx="64" cy="82" r="4"/>
+
+    <line x1="100" y1="120" x2="170" y2="120" class="m"/>
+    <line x1="108" y1="120" x2="108" y2="94"/><circle cx="108" cy="90" r="4"/>
+    <rect x="112" y="87" width="10" height="7" class="af" stroke="none"/>
+    <line x1="122" y1="90" x2="168" y2="90" class="a" stroke-dasharray="3 3"/>
+    <line x1="154" y1="120" x2="154" y2="86"/><circle cx="154" cy="82" r="4"/>
+
+    <path d="M188 120 L200 72 L214 72 L222 120" class="m"/>
+    <line x1="222" y1="120" x2="262" y2="120" class="m"/>
+    <rect x="202" y="62" width="10" height="7" class="af" stroke="none"/>
+    <line x1="212" y1="67" x2="258" y2="104" class="a" stroke-dasharray="3 3"/>
+    <line x1="248" y1="120" x2="248" y2="100"/><circle cx="248" cy="97" r="3"/>
+
+    <line x1="280" y1="120" x2="350" y2="120" class="m"/>
+    <path d="M303 36 h24 M309 36 v-4 M321 36 v-4" class="m"/>
+    <rect x="310" y="38" width="10" height="7" class="af" stroke="none"/>
+    <line x1="315" y1="45" x2="315" y2="116" class="a" stroke-dasharray="3 3"/>
+    <line x1="303" y1="118" x2="327" y2="118"/>
+  </g>
+  <!-- resulting frames -->
+  <g>
+    <rect x="15" y="150" width="60" height="44" />
+    <line x1="15" y1="184" x2="75" y2="184" class="a"/>
+    <line x1="45" y1="184" x2="45" y2="160"/><circle cx="45" cy="157" r="3.5"/>
+
+    <rect x="105" y="150" width="60" height="44" />
+    <line x1="105" y1="172" x2="165" y2="172" class="a"/>
+    <line x1="135" y1="180" x2="135" y2="168"/><circle cx="135" cy="165" r="2.5"/>
+
+    <rect x="195" y="150" width="60" height="44" />
+    <line x1="195" y1="158" x2="255" y2="158" class="a"/>
+    <line x1="225" y1="186" x2="225" y2="178"/><circle cx="225" cy="176" r="2"/>
+    <rect x="195" y="158" width="60" height="36" class="f" stroke="none"/>
+
+    <rect x="285" y="150" width="60" height="44" />
+    <path d="M291 158 l12 0 M310 166 l20 0 M292 176 l14 0 M316 184 l22 0" class="m"/>
+    <circle cx="315" cy="172" r="3.5"/>
+  </g>
+  <g>
+    <text x="45" y="212" text-anchor="middle" class="m">Horizont tief</text>
+    <text x="45" y="226" text-anchor="middle" class="m">Figur ragt auf</text>
+    <text x="135" y="212" text-anchor="middle" class="m">Horizont mittig</text>
+    <text x="135" y="226" text-anchor="middle" class="m">Alltagsblick</text>
+    <text x="225" y="212" text-anchor="middle" class="m">Horizont oben</text>
+    <text x="225" y="226" text-anchor="middle" class="m">Boden = Karte</text>
+    <text x="315" y="212" text-anchor="middle" class="m">ohne Horizont</text>
+    <text x="315" y="226" text-anchor="middle" class="m">Form statt Ort</text>
+  </g>
+  <rect x="150" y="238" width="9" height="6" class="af" stroke="none"/><text x="164" y="245" class="m">= Kamera</text>
+</svg>

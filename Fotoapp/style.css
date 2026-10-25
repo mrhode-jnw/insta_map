@@ -254,3 +254,35 @@ form.ask textarea { flex: 1; }
 .quiz-img img { max-width: 100%; max-height: 50vh; display: block; margin: 6px 0; }
 .lesson .prose { max-width: 72ch; }
 .profile { border-top: 1px solid var(--line); padding-top: 10px; margin-bottom: 18px; } .profile .artist { border: 0; padding: 0; margin: 8px 0; } .thumbs.mini { grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: 6px; } .thumbs.mini img { aspect-ratio: 1; }
+
+/* --- visual lesson blocks */
+.lsec { border-top: 1px solid var(--line); margin-top: 28px; padding-top: 4px; }
+.lsec h3 { display: flex; align-items: baseline; gap: 10px; font-size: 1.12rem; }
+.lsec h3 .num { flex: none; width: 1.7em; height: 1.7em; line-height: 1.7em; text-align: center; border-radius: 50%; background: var(--accent); color: #111; font-size: 0.8rem; font-weight: 700; }
+.lesson .prose p { margin: 0.55em 0; }
+.kurz { font-size: 1.08rem; font-weight: 500; color: var(--text); border-left: 3px solid var(--accent); padding: 2px 0 2px 12px; margin: 0.6em 0 1em; }
+.merke, .schau { background: var(--panel); border-radius: var(--radius); padding: 10px 14px; margin: 1em 0; }
+.merke { border: 1px solid rgba(217, 178, 111, 0.45); }
+.schau { border: 1px dashed var(--line); }
+.merke > span, .schau > span { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 2px; }
+.schau > span { color: var(--ok); }
+.inline-img, .compare, .sketch { margin: 18px 0; }
+.inline-img img { width: 100%; max-height: 70vh; object-fit: contain; border-radius: 3px; background: #000; }
+.inline-img figcaption, .compare figcaption, .sketch figcaption { color: var(--muted); font-size: 0.88rem; margin-top: 6px; }
+.inline-img .who, .compare .who { color: var(--text); display: block; }
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.compare img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 3px; background: #000; }
+.sketch { background: var(--panel); border-radius: var(--radius); padding: 10px; text-align: center; }
+.sketch svg { width: 100%; max-width: 560px; height: auto; color: var(--text); }
+.sketch svg .a { stroke: var(--accent); } .sketch svg .af { fill: var(--accent); }
+.sketch svg .m { stroke: var(--muted); } .sketch svg .mf { fill: var(--muted); }
+.sketch svg .f { fill: currentColor; fill-opacity: 0.12; }
+.sketch svg text { fill: currentColor; stroke: none; font: 11px -apple-system, Helvetica, Arial, sans-serif; }
+.sketch svg text.h { font-weight: 600; font-size: 12px; }
+.sketch svg text.a, .sketch svg text.af { fill: var(--accent); stroke: none; }
+.sketch svg text.m { fill: var(--muted); stroke: none; }
+sup.refs { font-size: 0.68em; line-height: 0; margin-left: 1px; }
+sup.refs a.ref { display: inline-block; min-width: 1.35em; padding: 0 3px; margin-left: 2px; text-align: center; border-radius: 8px; background: rgba(217, 178, 111, 0.16); font-size: 1em; }
+.src-sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; max-height: 60vh; overflow: auto; background: var(--panel); border-top: 1px solid var(--accent); padding: 12px 16px 28px; box-shadow: 0 -10px 30px rgba(0,0,0,.5); }
+.src-sheet .sheet-head { display: flex; justify-content: space-between; align-items: center; }
+.src-sheet blockquote { margin: 8px 0; padding-left: 10px; border-left: 2px solid var(--line); color: var(--text); }

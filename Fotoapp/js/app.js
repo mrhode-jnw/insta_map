@@ -55,16 +55,49 @@ function feedbackBlock(x, retryAction) {
 
 // ---------- rendering helpers
 const media = (id, kind = "t", cls = "") => `<img data-media="${esc(id)}" data-kind="${kind}" class="${cls}" alt="">`;
+const inlineMd = t => md(t).replace(/^<p>|<\/p>$/g, "");
+const imgLabel = i => `<b>${esc(photographerOf(i).name)}</b> – ${esc(i.title || "Ohne Titel")}${i.year ? `, ${i.year}` : ""}`;
+// Lesson text with visual blocks, one directive per line:
+//   ::kurz Satz · ::merke Satz · ::schau Seh-Aufgabe · ::bild <imgId> | Text
+//   ::vergleich <imgA> <imgB> | Text A | Text B · ::skizze <name> | Text
+function rich(text) {
+  const out = [], buf = [];
+  const flush = () => { if (buf.length) out.push(md(buf.join("\n"))); buf.length = 0; };
+  for (const line of String(text || "").split("\n")) {
+    const m = line.trim().match(/^::(kurz|merke|schau|bild|vergleich|skizze)\s+(.*)$/);
+    if (!m) { buf.push(line); continue; }
+    flush();
+    const [head, ...caps] = m[2].split("|").map(x => x.trim());
+    if (m[1] === "kurz") out.push(`<p class="kurz">${inlineMd(m[2])}</p>`);
+    else if (m[1] === "merke") out.push(`<div class="merke"><span>Merke</span>${inlineMd(m[2])}</div>`);
+    else if (m[1] === "schau") out.push(`<div class="schau"><span>Schau hin</span>${inlineMd(m[2])}</div>`);
+    else if (m[1] === "skizze") { const svg = lib.sketches?.[head];
+      if (svg) out.push(`<figure class="sketch">${svg}${caps[0] ? `<figcaption>${inlineMd(caps[0])}</figcaption>` : ""}</figure>`); }
+    else if (m[1] === "bild") { const i = lib.by.images.get(head);
+      if (i) out.push(`<figure class="inline-img"><a href="#/bild/${i.id}">${media(i.id, "m")}</a><figcaption><span class="who">${imgLabel(i)}</span>${caps[0] ? ` ${inlineMd(caps[0])}` : ""}</figcaption></figure>`); }
+    else { const ids = head.split(/\s+/).map(x => lib.by.images.get(x)).filter(Boolean);
+      if (ids.length) out.push(`<figure class="compare">${ids.map((i, k) => `<div><a href="#/bild/${i.id}">${media(i.id, "m")}</a><figcaption><span class="who">${imgLabel(i)}</span>${caps[k] ? ` ${inlineMd(caps[k])}` : ""}</figcaption></div>`).join("")}</figure>`); }
+  }
+  flush();
+  return out.join("\n");
+}
+// "[S12, S34]" → small superscript numbers, numbered in order of first appearance
+function compactRefs(html, nums) {
+  return html.replace(/\s?\[((?:<a class="ref"[^>]*>S\d+<\/a>(?:,\s*)?)+)\]/g, (_, g) => `<sup class="refs">${[...g.matchAll(/data-src="(\d+)"/g)].map(([, id]) => {
+    if (!nums.has(+id)) nums.set(+id, nums.size + 1);
+    return `<a class="ref" href="#source-${id}" data-src="${id}">${nums.get(+id)}</a>`; }).join("")}</sup>`);
+}
 const thumbs = images => images.length ? `<div class="thumbs">${images.map(i => `
   <a class="thumb" href="#/bild/${i.id}">${media(i.id)}
     <span class="cap">${esc(photographerOf(i).name)}${i.year ? ` · ${i.year}` : ""}</span></a>`).join("")}</div>`
   : `<p class="muted">Noch keine Bilder.</p>`;
 
-function sourcesBlock(srcs, { scope = null, scopeId = null, editable = false } = {}) {
+function sourcesBlock(srcs, { scope = null, scopeId = null, editable = false, nums = null } = {}) {
   srcs = srcs.filter(s => !s.kind);
+  if (nums) srcs = [...srcs].sort((a, b) => (nums.get(a.id) || 1e9) - (nums.get(b.id) || 1e9));
   return `<section id="sources" class="sources"><h3>Quellen</h3>
     ${srcs.length ? "" : `<p class="muted">Keine Quelle hinterlegt.</p>`}
-    <ol class="source-list">${srcs.map(s => `<li id="source-${s.id}"><span class="sid">S${s.id}</span>
+    <ol class="source-list">${srcs.map(s => `<li id="source-${s.id}"><span class="sid">${nums?.has(s.id) ? nums.get(s.id) : `S${s.id}`}</span>
       <a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title || s.url)}</a>
       <span class="muted">· abgerufen ${fmtDate(s.accessed_at)}${scope && s.scope !== scope ? ` · ${scopeLabel[s.scope]}` : ""}</span>
       ${s.excerpt ? `<blockquote>${esc(s.excerpt)}</blockquote>` : ""}</li>`).join("")}</ol>
@@ -259,17 +292,18 @@ views.lektion = async id => {
   const idx = lib.lessons.indexOf(l), nextL = lib.lessons[idx + 1];
   const d = DIM[id], concepts = lib.concepts.filter(c => c.dimension === id);
   const srcs = lib.sources.filter(x => x.scope === "lesson" && x.scope_id === id);
+  const nums = new Map();
   const cited = [...referencedIds([l.intro_md, ...l.sections.map(x => x.body_md), ...l.examples.map(e => e.caption_md)].join(" "))]
     .filter(i => !srcs.some(x => x.id === i)).map(i => lib.by.sources.get(i)).filter(Boolean).map(x => ({ ...x, kind: undefined }));
   const thread = (await loadState("discussions", {}))["lesson:" + id] || [];
   const pend = pendingQuestions.get("lesson:" + id);
-  return `<p class="crumbs"><a href="#/theorie">Theorie</a> › Lektion ${l.order}</p>
+  const page = `<p class="crumbs"><a href="#/theorie">Theorie</a> › Lektion ${l.order}</p>
   <h1>${esc(l.title)} ${prog?.passed ? `<span class="status reviewed">bestanden</span>` : ""}</h1>
   <nav class="toc"><a href="#" data-toc="Beschreibung">Beschreibung</a>${l.sections.map(x => `<a href="#" data-toc="${esc(x.heading)}">${esc(x.heading)}</a>`).join("")}
     <a href="#" data-toc="Beispiele">Beispiele</a><a href="#" data-toc="Abschlusstest">Abschlusstest</a></nav>
   <article class="chapter lesson">
-    <h3>Beschreibung</h3><div class="prose">${md(l.intro_md)}</div>
-    ${l.sections.map(x => `<h3>${esc(x.heading)}</h3><div class="prose">${md(x.body_md)}</div>`).join("")}
+    <h3 data-h="Beschreibung">Beschreibung</h3><div class="prose">${rich(l.intro_md)}</div>
+    ${l.sections.map((x, n) => `<section class="lsec"><h3 data-h="${esc(x.heading)}"><span class="num">${n + 1}</span>${esc(x.heading)}</h3><div class="prose">${rich(x.body_md)}</div></section>`).join("")}
     ${(l.photographers || []).length ? `<h3>Fotografen im Porträt</h3>${l.photographers.map(pid => { const p = lib.by.photographers.get(pid); if (!p) return "";
       const imgs = lib.images.filter(i => i.photographer_id === pid).slice(0, 6);
       return `<div class="profile">${artistCard(p, true)}${p.method_md ? `<p class="small"><b>Arbeitsweise:</b></p><div class="prose small">${md(p.method_md)}</div>` : ""}
@@ -298,7 +332,9 @@ views.lektion = async id => {
     ${thread.map(m => `<div class="msg ${m.role}"><div class="who">${m.role === "user" ? "Du" : "Dozent (KI)"} · ${fmtDate(m.at)}</div><div class="prose">${md(m.text)}</div></div>`).join("")}
     ${pend ? `<div class="msg user"><div class="who">Du</div><div class="prose">${md(pend)}</div></div><p class="pending">Antwort kommt …</p>` : ""}
     <form data-action="lesson-ask" data-id="${id}" class="ask"><textarea name="q" rows="2" placeholder="Was ist dir unklar? z. B. Warum wirkt Gegenlicht flächiger?" required></textarea><button>Fragen</button></form></section>
-  ${sourcesBlock([...srcs, ...cited], { scope: "lesson" })}`;
+`;
+  const body = compactRefs(page, nums);
+  return body + sourcesBlock([...srcs, ...cited], { scope: "lesson", nums });
 };
 
 // --- concepts
@@ -886,15 +922,31 @@ document.addEventListener("click", e => {
 document.addEventListener("click", e => {
   const a = e.target.closest("a[data-toc]"); if (!a) return;
   e.preventDefault();
-  const h = [...document.querySelectorAll(".chapter h3, .chapter h2")].find(x => x.textContent.trim() === a.dataset.toc);
+  const h = [...document.querySelectorAll(".chapter h3, .chapter h2")].find(x => (x.dataset.h || x.textContent.trim()) === a.dataset.toc);
   h?.scrollIntoView({ behavior: "smooth", block: "start" });
 });
 // [S<id>] links: scroll to the source instead of changing the route
 document.addEventListener("click", e => {
   const ref = e.target.closest("a.ref"); if (!ref) return;
-  e.preventDefault(); const t = document.getElementById("source-" + ref.dataset.src);
+  e.preventDefault();
+  const src = lib.by?.sources.get(Number(ref.dataset.src));
+  if (src && !ref.closest(".src-sheet")) return showSource(src, ref.textContent);
+  closeSheet(); const t = document.getElementById("source-" + ref.dataset.src);
   if (t) { t.scrollIntoView({ behavior: "smooth", block: "center" }); t.classList.add("flash"); setTimeout(() => t.classList.remove("flash"), 1500); }
 });
+// Source as a bottom sheet: read the evidence without losing your place in the text
+function showSource(s, label) {
+  closeSheet();
+  const el = document.createElement("div"); el.className = "src-sheet";
+  el.innerHTML = `<div class="sheet-head"><span class="sid">${esc(label)}</span><button class="secondary" data-close>Schließen</button></div>
+    ${s.author ? `<p class="small"><b>${esc(s.author)}</b></p>` : ""}${s.excerpt ? `<blockquote>${esc(s.excerpt)}</blockquote>` : ""}
+    <p class="small"><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title || s.url)}</a> <span class="muted">· abgerufen ${fmtDate(s.accessed_at)}</span></p>
+    ${document.getElementById("source-" + s.id) ? `<p class="small"><a class="ref" href="#source-${s.id}" data-src="${s.id}">In der Quellenliste zeigen</a></p>` : ""}`;
+  el.addEventListener("click", e => { if (e.target.closest("[data-close]")) closeSheet(); });
+  document.body.append(el);
+}
+function closeSheet() { document.querySelector(".src-sheet")?.remove(); }
+window.addEventListener("hashchange", closeSheet);
 
 // ---------- boot
 async function start(code, remember) {
