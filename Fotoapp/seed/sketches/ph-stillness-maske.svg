@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Burketts Kontrastmaske</text>
+  <!-- slide: dark wall left, bright tree right -->
+  <rect x="10" y="34" width="34" height="56" fill="#262626" stroke="none"/>
+  <rect x="44" y="34" width="36" height="56" fill="#e2e2e2" stroke="none"/>
+  <circle cx="60" cy="56" r="11" fill="#f5d27a" stroke="none"/><rect x="58.5" y="66" width="3" height="22" fill="#8a6a2a" stroke="none"/>
+  <rect x="10" y="34" width="70" height="56"/>
+  <text x="45" y="106" text-anchor="middle">Dia</text>
+  <text x="45" y="120" text-anchor="middle" class="m">harter Kontrast</text>
+  <text x="96" y="66" text-anchor="middle" class="a">+</text>
+  <!-- mask: unsharp negative, low density -->
+  <rect x="112" y="34" width="34" height="56" fill="#b4b4b4" stroke="none"/>
+  <rect x="146" y="34" width="36" height="56" fill="#6e6e6e" stroke="none"/>
+  <circle cx="162" cy="56" r="12" fill="#5a5a5a" stroke="none"/>
+  <rect x="112" y="34" width="70" height="56"/>
+  <text x="147" y="106" text-anchor="middle">SW-Negativ</text>
+  <text x="147" y="120" text-anchor="middle" class="m">vom Dia gezogen</text>
+  <path d="M192 62 h14 m-5 -4 l5 4 l-5 4" class="a"/>
+  <!-- sandwich -->
+  <rect x="218" y="40" width="62" height="50" fill="#8a8a8a" stroke="none"/>
+  <rect x="212" y="34" width="62" height="50" fill="#4a4a4a" fill-opacity="0.6" stroke="currentColor"/>
+  <text x="244" y="106" text-anchor="middle">passgenau</text>
+  <text x="244" y="120" text-anchor="middle" class="m">kombiniert</text>
+  <path d="M286 62 h14 m-5 -4 l5 4 l-5 4" class="a"/>
+  <!-- print: balanced -->
+  <rect x="306" y="34" width="22" height="56" fill="#6a6a6a" stroke="none"/>
+  <rect x="328" y="34" width="24" height="56" fill="#b8b8b8" stroke="none"/>
+  <circle cx="340" cy="56" r="8" fill="#e8c46a" stroke="none"/><rect x="338.5" y="63" width="3" height="25" fill="#8a6a2a" stroke="none"/>
+  <rect x="306" y="34" width="46" height="56"/>
+  <text x="329" y="106" text-anchor="middle">Abzug</text>
+  <text x="329" y="120" text-anchor="middle" class="m">Cibachrome</text>
+  <line x1="10" y1="140" x2="350" y2="140" class="m"/>
+  <text x="180" y="160" text-anchor="middle">Das Negativ dämpft den Kontrast des Dias:</text>
+  <text x="180" y="176" text-anchor="middle" class="a">Licht und Schatten kommen in Balance.</text>
+</svg>

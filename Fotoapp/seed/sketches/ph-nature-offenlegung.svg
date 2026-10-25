@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 214" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="90" y="16" text-anchor="middle" class="h">sichtbar gebaut</text>
+  <text x="270" y="16" text-anchor="middle" class="h">heimlich verändert</text>
+  <!-- left: panel with edges in a landscape -->
+  <rect x="20" y="28" width="140" height="84"/>
+  <line x1="20" y1="90" x2="160" y2="90" class="m"/>
+  <path d="M24 90 l10 -6 l8 4 l12 -8 l10 6 M110 90 l10 -4 l12 2 l10 -6 l14 8" class="m"/>
+  <rect x="66" y="44" width="40" height="46" class="a"/>
+  <path d="M74 80 q6 -16 18 -14 q8 2 8 -6 M80 80 v6 M94 80 v6" />
+  <text x="86" y="104" text-anchor="middle" class="a" >Rand der Tafel</text>
+  <!-- right: zebra herd with a hidden copied animal -->
+  <rect x="200" y="28" width="140" height="84"/>
+  <g><path d="M212 72 q0 -7 9 -7 h8 q4 0 5 -5 l3 1 q-1 6 -4 8 q0 3 -3 3 h-9 q-9 0 -9 0 z M214 72 v7 M219 72 v7 M225 72 v7 M229 72 v7"/><path d="M240 64 q0 -7 9 -7 h8 q4 0 5 -5 l3 1 q-1 6 -4 8 q0 3 -3 3 h-9 q-9 0 -9 0 z M242 64 v7 M247 64 v7 M253 64 v7 M257 64 v7"/><path d="M266 76 q0 -7 9 -7 h8 q4 0 5 -5 l3 1 q-1 6 -4 8 q0 3 -3 3 h-9 q-9 0 -9 0 z M268 76 v7 M273 76 v7 M279 76 v7 M283 76 v7"/><path d="M296 62 q0 -7 9 -7 h8 q4 0 5 -5 l3 1 q-1 6 -4 8 q0 3 -3 3 h-9 q-9 0 -9 0 z M298 62 v7 M303 62 v7 M309 62 v7 M313 62 v7"/><path d="M318 80 q0 -7 9 -7 h8 q4 0 5 -5 l3 1 q-1 6 -4 8 q0 3 -3 3 h-9 q-9 0 -9 0 z M320 80 v7 M325 80 v7 M331 80 v7 M335 80 v7"/></g>
+  <rect x="290" y="50" width="34" height="24" class="a" stroke-dasharray="3 3"/>
+  <text x="270" y="104" text-anchor="middle" class="a">nicht gekennzeichnet</text>
+  <g text-anchor="middle">
+    <text x="90" y="134">Brandt: Tafel, Set</text>
+    <text x="90" y="149" class="m">dokumentiert</text>
+    <text x="270" y="134">Wolfe: Migrations</text>
+    <text x="270" y="149" class="m">ein Drittel verändert</text>
+    <text x="90" y="172" class="h">= Argument</text>
+    <text x="270" y="172" class="h">= Vertrauensbruch</text>
+  </g>
+  <line x1="20" y1="186" x2="340" y2="186" class="m"/>
+  <text x="180" y="206" text-anchor="middle" class="a">Rowell: Was du tust, muss in die Bildunterschrift.</text>
+</svg>

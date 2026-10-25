@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="180" y="16" text-anchor="middle" class="m">gegen: Halleluja-Himmel · Spektakel</text>
+  <path d="M90 26 v12 M270 26 v12 M90 26 h180 M180 22 v4" class="m"/>
+  <rect x="8" y="42" width="164" height="198" rx="6"/>
+  <rect x="188" y="42" width="164" height="198" rx="6"/>
+  <text x="90" y="62" text-anchor="middle" class="h">Konzeptuelle</text>
+  <text x="90" y="77" text-anchor="middle" class="h">Reduktion</text>
+  <text x="270" y="62" text-anchor="middle" class="h">Kompositorische</text>
+  <text x="270" y="77" text-anchor="middle" class="h">Stille</text>
+  <!-- icons -->
+  <rect x="70" y="88" width="40" height="40" class="f"/>
+  <line x1="70" y1="116" x2="110" y2="116" class="m"/>
+  <path d="M92 116 v-12 M92 108 l-5 -5 M92 106 l5 -6"/>
+  <rect x="246" y="88" width="48" height="40"/>
+  <path d="M246 112 q24 -8 48 -2 v18 h-48 z" class="af" fill-opacity="0.35" stroke="none"/>
+  <path d="M276 112 v-12" /><circle cx="276" cy="96" r="5"/>
+  <text x="90" y="146" text-anchor="middle" class="a">Schwarzweiß</text>
+  <text x="90" y="162" text-anchor="middle">Zeit, Dunkelheit,</text>
+  <text x="90" y="177" text-anchor="middle">Material</text>
+  <text x="90" y="200" text-anchor="middle" class="m">Kenna · Sugimoto</text>
+  <text x="90" y="214" text-anchor="middle" class="m">van der Molen</text>
+  <text x="90" y="228" text-anchor="middle" class="m">Cooper · Lee</text>
+  <text x="270" y="146" text-anchor="middle" class="a">Farbe</text>
+  <text x="270" y="162" text-anchor="middle">Balance, Licht,</text>
+  <text x="270" y="177" text-anchor="middle">kein Effekt</text>
+  <text x="270" y="200" text-anchor="middle" class="m">Burkett · Strand</text>
+  <text x="270" y="214" text-anchor="middle" class="m">Cornish · Waite</text>
+</svg>

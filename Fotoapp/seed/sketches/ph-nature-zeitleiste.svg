@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="10" y="16" class="h">Wege und Wendepunkte</text>
+<line x1="80" y1="26" x2="80" y2="232" class="m"/>
+<text x="70" y="38" text-anchor="end" class="h">1971</text>
+<circle cx="80" cy="34" r="4" class="af" stroke="none"/>
+<text x="92" y="38" >Dykinga: Pulitzerpreis</text>
+<text x="70" y="62" text-anchor="end" class="h">1985</text>
+<circle cx="80" cy="58" r="4" class="af" stroke="none"/>
+<text x="92" y="62" >Dykinga verlässt den Journalismus</text>
+<text x="70" y="86" text-anchor="end" class="h">1986–92</text>
+<circle cx="80" cy="82" r="4" class="af" stroke="none"/>
+<text x="92" y="86" >Salgado: Workers</text>
+<text x="70" y="110" text-anchor="end" class="h">1993–99</text>
+<circle cx="80" cy="106" r="4" class="af" stroke="none"/>
+<text x="92" y="110" >Salgado: Exodus</text>
+<text x="70" y="134" text-anchor="end" class="h">1994</text>
+<circle cx="80" cy="130" r="4" class="af" stroke="none"/>
+<text x="92" y="134" >Wolfe: Migrations, als Triumph gefeiert</text>
+<text x="70" y="158" text-anchor="end" class="h">1995</text>
+<circle cx="80" cy="154" r="4" class="af" stroke="none"/>
+<text x="92" y="158" >Brandt: Dreh in Tansania</text>
+<text x="70" y="182" text-anchor="end" class="a">2 J. später</text>
+<circle cx="80" cy="178" r="4" class="mf" stroke="none"/>
+<text x="92" y="182" class="a">Kritik: ein Drittel digital verändert</text>
+<text x="70" y="206" text-anchor="end" class="h">1998</text>
+<circle cx="80" cy="202" r="4" class="af" stroke="none"/>
+<text x="92" y="206" >Instituto Terra (Wiederaufforstung)</text>
+<text x="70" y="230" text-anchor="end" class="h">2004</text>
+<circle cx="80" cy="226" r="4" class="af" stroke="none"/>
+<text x="92" y="230" >Salgado beginnt Genesis</text>
+</svg>

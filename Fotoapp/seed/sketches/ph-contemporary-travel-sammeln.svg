@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="90" y="16" text-anchor="middle" class="h">Vionnet: überlagern</text>
+<text x="270" y="16" text-anchor="middle" class="h">Umbrico: reihen</text>
+<rect x="33" y="48" width="100" height="74" class="m" stroke-width="1" stroke-opacity="0.6"/>
+<rect x="43" y="34" width="100" height="74" class="m" stroke-width="1" stroke-opacity="0.6"/>
+<rect x="37" y="49" width="100" height="74" class="m" stroke-width="1" stroke-opacity="0.6"/>
+<rect x="41" y="50" width="100" height="74" class="m" stroke-width="1" stroke-opacity="0.6"/>
+<rect x="44" y="32" width="100" height="74" class="m" stroke-width="1" stroke-opacity="0.6"/>
+<rect x="45" y="30" width="100" height="74" class="m" stroke-width="1" stroke-opacity="0.6"/>
+<rect x="52" y="45" width="100" height="74" class="m" stroke-width="1" stroke-opacity="0.6"/>
+<rect x="34" y="47" width="100" height="74" class="m" stroke-width="1" stroke-opacity="0.6"/>
+<rect x="33" y="36" width="100" height="74" class="m" stroke-width="1" stroke-opacity="0.6"/>
+<path d="M78 112 v-26 q12 -22 24 0 v26 z" class="a"/><circle cx="90" cy="70" r="3" class="af" stroke="none"/>
+<rect x="40" y="40" width="100" height="74"/>
+<rect x="196" y="32" width="16" height="13" class="f" stroke="none"/><circle cx="204" cy="39" r="3" class="a" stroke-width="1.2"/>
+<rect x="215" y="32" width="16" height="13" class="f" stroke="none"/><circle cx="223" cy="39" r="3" class="a" stroke-width="1.2"/>
+<rect x="234" y="32" width="16" height="13" class="f" stroke="none"/><circle cx="242" cy="39" r="3" class="a" stroke-width="1.2"/>
+<rect x="253" y="32" width="16" height="13" class="f" stroke="none"/><circle cx="261" cy="39" r="3" class="a" stroke-width="1.2"/>
+<rect x="272" y="32" width="16" height="13" class="f" stroke="none"/><circle cx="280" cy="39" r="3" class="a" stroke-width="1.2"/>
+<rect x="291" y="32" width="16" height="13" class="f" stroke="none"/><circle cx="299" cy="39" r="3" class="a" stroke-width="1.2"/>
+<rect x="310" y="32" width="16" height="13" class="f" stroke="none"/><circle cx="318" cy="39" r="3" class="a" stroke-width="1.2"/>
+<rect x="329" y="32" width="16" height="13" class="f" stroke="none"/><circle cx="337" cy="39" r="3" class="a" stroke-width="1.2"/>
+<rect x="196" y="48" width="16" height="13" class="f" stroke="none"/><circle cx="204" cy="55" r="3" class="a" stroke-width="1.2"/>
+<rect x="215" y="48" width="16" height="13" class="f" stroke="none"/><circle cx="223" cy="55" r="3" class="a" stroke-width="1.2"/>
+<rect x="234" y="48" width="16" height="13" class="f" stroke="none"/><circle cx="242" cy="55" r="3" class="a" stroke-width="1.2"/>
+<rect x="253" y="48" width="16" height="13" class="f" stroke="none"/><circle cx="261" cy="55" r="3" class="a" stroke-width="1.2"/>
+<rect x="272" y="48" width="16" height="13" class="f" stroke="none"/><circle cx="280" cy="55" r="3" class="a" stroke-width="1.2"/>
+<rect x="291" y="48" width="16" height="13" class="f" stroke="none"/><circle cx="299" cy="55" r="3" class="a" stroke-width="1.2"/>
+<rect x="310" y="48" width="16" height="13" class="f" stroke="none"/><circle cx="318" cy="55" r="3" class="a" stroke-width="1.2"/>
+<rect x="329" y="48" width="16" height="13" class="f" stroke="none"/><circle cx="337" cy="55" r="3" class="a" stroke-width="1.2"/>
+<rect x="196" y="64" width="16" height="13" class="f" stroke="none"/><circle cx="204" cy="71" r="3" class="a" stroke-width="1.2"/>
+<rect x="215" y="64" width="16" height="13" class="f" stroke="none"/><circle cx="223" cy="71" r="3" class="a" stroke-width="1.2"/>
+<rect x="234" y="64" width="16" height="13" class="f" stroke="none"/><circle cx="242" cy="71" r="3" class="a" stroke-width="1.2"/>
+<rect x="253" y="64" width="16" height="13" class="f" stroke="none"/><circle cx="261" cy="71" r="3" class="a" stroke-width="1.2"/>
+<rect x="272" y="64" width="16" height="13" class="f" stroke="none"/><circle cx="280" cy="71" r="3" class="a" stroke-width="1.2"/>
+<rect x="291" y="64" width="16" height="13" class="f" stroke="none"/><circle cx="299" cy="71" r="3" class="a" stroke-width="1.2"/>
+<rect x="310" y="64" width="16" height="13" class="f" stroke="none"/><circle cx="318" cy="71" r="3" class="a" stroke-width="1.2"/>
+<rect x="329" y="64" width="16" height="13" class="f" stroke="none"/><circle cx="337" cy="71" r="3" class="a" stroke-width="1.2"/>
+<rect x="196" y="80" width="16" height="13" class="f" stroke="none"/><circle cx="204" cy="87" r="3" class="a" stroke-width="1.2"/>
+<rect x="215" y="80" width="16" height="13" class="f" stroke="none"/><circle cx="223" cy="87" r="3" class="a" stroke-width="1.2"/>
+<rect x="234" y="80" width="16" height="13" class="f" stroke="none"/><circle cx="242" cy="87" r="3" class="a" stroke-width="1.2"/>
+<rect x="253" y="80" width="16" height="13" class="f" stroke="none"/><circle cx="261" cy="87" r="3" class="a" stroke-width="1.2"/>
+<rect x="272" y="80" width="16" height="13" class="f" stroke="none"/><circle cx="280" cy="87" r="3" class="a" stroke-width="1.2"/>
+<rect x="291" y="80" width="16" height="13" class="f" stroke="none"/><circle cx="299" cy="87" r="3" class="a" stroke-width="1.2"/>
+<rect x="310" y="80" width="16" height="13" class="f" stroke="none"/><circle cx="318" cy="87" r="3" class="a" stroke-width="1.2"/>
+<rect x="329" y="80" width="16" height="13" class="f" stroke="none"/><circle cx="337" cy="87" r="3" class="a" stroke-width="1.2"/>
+<rect x="196" y="96" width="16" height="13" class="f" stroke="none"/><circle cx="204" cy="103" r="3" class="a" stroke-width="1.2"/>
+<rect x="215" y="96" width="16" height="13" class="f" stroke="none"/><circle cx="223" cy="103" r="3" class="a" stroke-width="1.2"/>
+<rect x="234" y="96" width="16" height="13" class="f" stroke="none"/><circle cx="242" cy="103" r="3" class="a" stroke-width="1.2"/>
+<rect x="253" y="96" width="16" height="13" class="f" stroke="none"/><circle cx="261" cy="103" r="3" class="a" stroke-width="1.2"/>
+<rect x="272" y="96" width="16" height="13" class="f" stroke="none"/><circle cx="280" cy="103" r="3" class="a" stroke-width="1.2"/>
+<rect x="291" y="96" width="16" height="13" class="f" stroke="none"/><circle cx="299" cy="103" r="3" class="a" stroke-width="1.2"/>
+<rect x="310" y="96" width="16" height="13" class="f" stroke="none"/><circle cx="318" cy="103" r="3" class="a" stroke-width="1.2"/>
+<rect x="329" y="96" width="16" height="13" class="f" stroke="none"/><circle cx="337" cy="103" r="3" class="a" stroke-width="1.2"/>
+<rect x="196" y="112" width="16" height="13" class="f" stroke="none"/><circle cx="204" cy="119" r="3" class="a" stroke-width="1.2"/>
+<rect x="215" y="112" width="16" height="13" class="f" stroke="none"/><circle cx="223" cy="119" r="3" class="a" stroke-width="1.2"/>
+<rect x="234" y="112" width="16" height="13" class="f" stroke="none"/><circle cx="242" cy="119" r="3" class="a" stroke-width="1.2"/>
+<rect x="253" y="112" width="16" height="13" class="f" stroke="none"/><circle cx="261" cy="119" r="3" class="a" stroke-width="1.2"/>
+<rect x="272" y="112" width="16" height="13" class="f" stroke="none"/><circle cx="280" cy="119" r="3" class="a" stroke-width="1.2"/>
+<rect x="291" y="112" width="16" height="13" class="f" stroke="none"/><circle cx="299" cy="119" r="3" class="a" stroke-width="1.2"/>
+<rect x="310" y="112" width="16" height="13" class="f" stroke="none"/><circle cx="318" cy="119" r="3" class="a" stroke-width="1.2"/>
+<rect x="329" y="112" width="16" height="13" class="f" stroke="none"/><circle cx="337" cy="119" r="3" class="a" stroke-width="1.2"/>
+<g text-anchor="middle">
+<text x="90" y="144">rund 100 Fotos,</text>
+<text x="90" y="158">an einem Punkt ausgerichtet</text>
+<text x="90" y="182" class="a">sichtbar: der gemeinsame</text>
+<text x="90" y="196" class="a">Standpunkt</text>
+<text x="270" y="144">Tausende Sonnen</text>
+<text x="270" y="158">aus Flickr, beschnitten</text>
+<text x="270" y="182" class="a">sichtbar: die Menge –</text>
+<text x="270" y="196" class="a">der Ort verschwindet</text>
+</g>
+</svg>

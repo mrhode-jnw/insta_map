@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Der Titel als Information</text>
+  <rect x="10" y="30" width="214" height="40" rx="3"/>
+  <text x="20" y="46">Stranded Duck Blind, Exposed</text>
+  <text x="20" y="61">by Receding Seawater</text>
+  <text x="236" y="46" class="a">Beahan</text>
+  <text x="236" y="61" class="m">erklärt den Ort</text>
+  <rect x="10" y="84" width="214" height="40" rx="3"/>
+  <text x="20" y="100">Shadow at 300’,</text>
+  <text x="20" y="115">1300 hours, Deep Springs …</text>
+  <text x="236" y="100" class="a">Light</text>
+  <text x="236" y="115" class="m">Höhe + Uhrzeit</text>
+  <rect x="10" y="138" width="214" height="40" rx="3"/>
+  <text x="20" y="162">The Lake Project 1</text>
+  <text x="236" y="154" class="a">Maisel</text>
+  <text x="236" y="169" class="m">Nummer, kein Ort</text>
+  <path d="M340 36 v136 m-4 -6 l4 6 l4 -6" class="m"/>
+  <text x="180" y="194" text-anchor="middle" class="m">immer weniger Erklärung</text>
+</svg>

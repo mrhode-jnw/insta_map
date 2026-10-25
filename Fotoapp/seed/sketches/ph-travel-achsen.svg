@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 236" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <g>
+    <text x="180" y="16" text-anchor="middle" class="h">1 · Was ist die Einheit?</text>
+    <line x1="40" y1="34" x2="320" y2="34" class="m"/>
+    <circle cx="40" cy="34" r="5" class="af" stroke="none"/><circle cx="320" cy="34" r="5" class="af" stroke="none"/>
+    <text x="40" y="54" text-anchor="start" class="a">Moment</text>
+    <text x="320" y="54" text-anchor="end" class="a">Sequenz</text>
+    <text x="40" y="68" text-anchor="start" class="m">Cartier-Bresson, Fan Ho, McCurry</text>
+    <text x="320" y="68" text-anchor="end" class="m">Frank</text>
+  </g>
+  <g>
+    <text x="180" y="96" text-anchor="middle" class="h">2 · Wie nah?</text>
+    <line x1="40" y1="114" x2="320" y2="114" class="m"/>
+    <circle cx="40" cy="114" r="5" class="af" stroke="none"/><circle cx="320" cy="114" r="5" class="af" stroke="none"/>
+    <text x="40" y="134" text-anchor="start" class="a">Beobachten</text>
+    <text x="320" y="134" text-anchor="end" class="a">Ansprechen</text>
+    <text x="40" y="148" text-anchor="start" class="m">Cartier-Bresson</text>
+    <text x="320" y="148" text-anchor="end" class="m">Arnold, Parr</text>
+  </g>
+  <g>
+    <text x="180" y="176" text-anchor="middle" class="h">3 · Welche Haltung?</text>
+    <line x1="40" y1="194" x2="320" y2="194" class="m"/>
+    <circle cx="40" cy="194" r="5" class="af" stroke="none"/><circle cx="320" cy="194" r="5" class="af" stroke="none"/>
+    <text x="40" y="214" text-anchor="start" class="a">Feier</text>
+    <text x="320" y="214" text-anchor="end" class="a">Kritik</text>
+    <text x="40" y="228" text-anchor="start" class="m">Cartier-Bresson</text>
+    <text x="320" y="228" text-anchor="end" class="m">Parr</text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="180" y="16" text-anchor="middle" class="h">Franks Auswahl</text>
+  <path d="M30 30 L330 30 L210 120 L210 150 L150 150 L150 120 Z" class="f"/>
+  <g class="m" stroke-width="1">
+    <path d="M50 40 h8 M64 40 h8 M78 40 h8 M92 40 h8 M106 40 h8 M120 40 h8 M134 40 h8 M148 40 h8 M162 40 h8 M176 40 h8 M190 40 h8 M204 40 h8 M218 40 h8 M232 40 h8 M246 40 h8 M260 40 h8 M274 40 h8 M288 40 h8 M302 40 h8"/>
+    <path d="M70 50 h8 M84 50 h8 M98 50 h8 M112 50 h8 M126 50 h8 M140 50 h8 M154 50 h8 M168 50 h8 M182 50 h8 M196 50 h8 M210 50 h8 M224 50 h8 M238 50 h8 M252 50 h8 M266 50 h8 M280 50 h8"/>
+  </g>
+  <text x="180" y="72" text-anchor="middle">767 Filme · rund 27.000 Aufnahmen</text>
+  <path d="M180 82 v40 m-5 -6 l5 6 l5 -6" class="a"/>
+  <text x="180" y="142" text-anchor="middle" class="a">83 Bilder</text>
+  <g>
+    <rect x="60" y="168" width="20" height="14"/><rect x="88" y="168" width="20" height="14"/><rect x="116" y="168" width="20" height="14"/><rect x="144" y="168" width="20" height="14"/><rect x="172" y="168" width="20" height="14"/><rect x="200" y="168" width="20" height="14"/><rect x="228" y="168" width="20" height="14"/><rect x="256" y="168" width="20" height="14"/><rect x="284" y="168" width="20" height="14"/>
+    <path d="M80 175 h8 M108 175 h8 M136 175 h8 M164 175 h8 M192 175 h8 M220 175 h8 M248 175 h8 M276 175 h8" class="a"/>
+  </g>
+  <text x="180" y="202" text-anchor="middle" class="m">als Sequenz: Bilder sprechen miteinander</text>
+</svg>

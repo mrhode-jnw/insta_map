@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 236" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M180 34 L46 200 L314 200 Z" class="f"/>
+  <text x="180" y="22" text-anchor="middle" class="h">Staunen</text>
+  <text x="46" y="220" text-anchor="middle" class="h">Schutz</text>
+  <text x="314" y="220" text-anchor="middle" class="h">Inszenierung</text>
+  <circle cx="180" cy="34" r="4" class="af" stroke="none"/>
+  <circle cx="46" cy="200" r="4" class="af" stroke="none"/>
+  <circle cx="314" cy="200" r="4" class="af" stroke="none"/>
+  <g text-anchor="middle">
+    <text x="180" y="72">Lanting</text>
+    <text x="180" y="88">Dykinga</text>
+    <text x="268" y="118" class="a">Wolfe</text>
+    <text x="268" y="132" class="m">Migrations</text>
+    <text x="96" y="170" class="a">Salgado</text>
+    <text x="210" y="186" class="a">Brandt</text>
+    <text x="210" y="172" class="m">Tafeln, Sets</text>
+  </g>
+  <text x="180" y="122" text-anchor="middle" class="m">Schutz wollen</text>
+  <text x="180" y="136" text-anchor="middle" class="m">alle fünf</text>
+</svg>

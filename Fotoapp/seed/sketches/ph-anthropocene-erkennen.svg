@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="60" y="16" text-anchor="middle" class="h">Maisel</text>
+  <text x="180" y="16" text-anchor="middle" class="h">Hegen</text>
+  <text x="300" y="16" text-anchor="middle" class="h">Light</text>
+  <!-- Maisel: organic veins, no horizon -->
+  <rect x="14" y="28" width="92" height="70"/>
+  <path d="M40 28 C48 46 34 58 50 72 C60 82 54 92 58 98" class="a" stroke-width="3"/>
+  <path d="M50 72 C62 66 70 70 84 62 M44 50 C32 54 24 50 14 56 M54 84 C70 88 80 84 96 92" class="a"/>
+  <path d="M80 34 c6 4 14 2 20 6 M20 84 c6 -2 10 2 14 0" class="m"/>
+  <!-- Hegen: orthogonal grid of colour fields -->
+  <rect x="134" y="28" width="92" height="70"/>
+  <rect x="138" y="32" width="26" height="28" class="f"/><rect x="167" y="32" width="26" height="28"/><rect x="196" y="32" width="26" height="28" class="f"/>
+  <rect x="138" y="63" width="40" height="31"/><rect x="181" y="63" width="41" height="31" class="f"/>
+  <!-- Light: oblique, horizon and haze at top, black and white -->
+  <rect x="254" y="28" width="92" height="70"/>
+  <rect x="254" y="28" width="92" height="14" class="f" stroke="none"/>
+  
+  <path d="M300 46 L264 98 L300 98 Z" class="f" stroke="none"/><path d="M300 46 L264 98 M300 46 L282 98 M300 46 L300 98 M300 46 L318 98 M300 46 L336 98" class="m"/><path d="M254 52 q20 -4 46 -6 q26 2 46 8"/>
+  <!-- traits -->
+  <g>
+    <text x="60" y="118" text-anchor="middle">Farbe</text>
+    <text x="60" y="133" text-anchor="middle">senkrecht</text>
+    <text x="60" y="148" text-anchor="middle" class="a">Adern, Wunden</text>
+    <text x="60" y="163" text-anchor="middle" class="m">kein Maßstab</text>
+    <text x="60" y="178" text-anchor="middle" class="m">Titel: Nummer</text>
+    <text x="180" y="118" text-anchor="middle">Farbe</text>
+    <text x="180" y="133" text-anchor="middle">senkrecht</text>
+    <text x="180" y="148" text-anchor="middle" class="a">Raster, Felder</text>
+    <text x="180" y="163" text-anchor="middle" class="m">Ordnung</text>
+    <text x="180" y="178" text-anchor="middle" class="m">statt Wunde</text>
+    <text x="300" y="118" text-anchor="middle">Schwarzweiß</text>
+    <text x="300" y="133" text-anchor="middle">schräg, tief</text>
+    <text x="300" y="148" text-anchor="middle" class="a">Horizont, Dunst</text>
+    <text x="300" y="163" text-anchor="middle" class="m">Streiflicht</text>
+    <text x="300" y="178" text-anchor="middle" class="m">Titel: Höhe, Uhr</text>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="180" y="16" text-anchor="middle" class="h">Der Horizont als Entscheidung</text>
+  <!-- Sugimoto: middle -->
+  <rect x="10" y="34" width="76" height="76"/>
+  <line x1="10" y1="72" x2="86" y2="72" class="a"/>
+  <path d="M16 82 h22 M44 82 h34 M14 92 h30 M50 92 h28 M18 102 h20 M42 102 h38" class="m" stroke-width="1"/>
+  <!-- Cooper: none, looking into water and rock -->
+  <rect x="98" y="34" width="76" height="76"/>
+  <path d="M98 92 q14 -14 28 -8 q10 -14 22 -4 l26 10 v20 h-76 z" class="f"/>
+  <path d="M106 44 q16 6 30 0 q16 -6 32 2 M104 58 q20 8 40 0 q14 -4 28 2 M110 70 q14 6 26 0" class="m"/>
+  <!-- Strand: from above, braided river -->
+  <rect x="186" y="34" width="76" height="76"/>
+  <path d="M196 34 C206 56 192 74 212 110 M206 34 C220 60 214 80 232 110 M200 60 C212 64 222 60 236 70 M214 88 C226 84 240 92 252 88" class="a"/>
+  <!-- Lee: thin line, wide panorama with brushed edges -->
+  <path d="M274 52 l4 -2 l6 2 l8 -2 l10 2 l8 -1 l10 2 l8 -2 l10 1 l8 -1 v40 l-6 2 l-10 -2 l-8 2 l-10 -1 l-8 2 l-10 -2 l-8 1 l-8 -1 z"/>
+  <line x1="276" y1="74" x2="348" y2="74" class="a"/>
+  <rect x="318" y="70" width="5" height="4" class="mf" stroke="none"/>
+  <rect x="276" y="74" width="72" height="16" class="f" stroke="none"/>
+  <g text-anchor="middle">
+    <text x="48" y="128" class="h">Sugimoto</text>
+    <text x="48" y="143" class="m">genau Mitte</text>
+    <text x="48" y="157" class="m">Serie trägt</text>
+    <text x="136" y="128" class="h">Cooper</text>
+    <text x="136" y="143" class="m">weggelassen:</text>
+    <text x="136" y="157" class="m">kein Ausgang</text>
+    <text x="224" y="128" class="h">Strand</text>
+    <text x="224" y="143" class="m">weggelassen:</text>
+    <text x="224" y="157" class="m">abstrakter</text>
+    <text x="312" y="128" class="h">Lee</text>
+    <text x="312" y="143" class="m">Linie zwischen</text>
+    <text x="312" y="157" class="m">Erde und Himmel</text>
+  </g>
+  <text x="180" y="186" text-anchor="middle" class="a">Wo du den Horizont setzt, entscheidet die Ruhe.</text>
+</svg>

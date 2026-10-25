@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 236" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="96" y="16" text-anchor="middle" class="h">Wolf: Himmel weg</text>
+  <text x="290" y="16" text-anchor="middle" class="h">Conner: Rollbild</text>
+  <!-- Wolf full scene -->
+  <rect x="8" y="30" width="72" height="96"/>
+  <line x1="8" y1="116" x2="80" y2="116" class="m"/>
+  <rect x="22" y="48" width="44" height="68"/>
+  <path d="M26 54 h36 M26 62 h36 M26 70 h36 M26 78 h36 M26 86 h36 M26 94 h36 M26 102 h36 M26 110 h36" class="m" stroke-width="1"/>
+  <rect x="24" y="58" width="40" height="42" class="a" stroke-dasharray="3 3"/>
+  <path d="M86 78 h14 m-5 -4 l5 4 l-5 4" class="a"/>
+  <!-- Wolf result -->
+  <rect x="106" y="36" width="76" height="84"/>
+  <path d="M106 46 h76 M106 56 h76 M106 66 h76 M106 76 h76 M106 86 h76 M106 96 h76 M106 106 h76 M106 116 h76" class="m" stroke-width="1"/>
+  <path d="M120 36 v84 M138 36 v84 M156 36 v84 M172 36 v84" class="m" stroke-width="1"/>
+  <rect x="140" y="68" width="4" height="6" class="af" stroke="none"/>
+  <g text-anchor="middle">
+    <text x="96" y="146" class="m">Himmel und Horizont</text>
+    <text x="96" y="160" class="m">fallen weg</text>
+    <text x="96" y="182" class="a">Maß unklar: 100 oder</text>
+    <text x="96" y="196" class="a">200 Stockwerke?</text>
+    <text x="96" y="218" class="m">nah: Hemd, Fenster, Leben</text>
+  </g>
+  <!-- Conner strip -->
+  <rect x="216" y="30" width="38" height="164"/>
+  <path d="M216 66 l10 -12 l9 7 l10 -15 l9 10" class="m"/>
+  <path d="M216 128 c12 -5 26 -2 38 -9 M216 146 c14 -4 24 2 38 -5" class="m"/>
+  <path d="M222 182 q9 -18 19 -21 q7 -2 13 -9"/>
+  <line x1="236" y1="174" x2="236" y2="166" class="a"/><circle cx="236" cy="164" r="2" class="a"/>
+  <text x="262" y="60" class="m">7 × 17 Zoll,</text>
+  <text x="262" y="74" class="m">extrem gestreckt</text>
+  <text x="262" y="112" class="m">Landschaft</text>
+  <text x="262" y="126" class="m">„entrollen“</text>
+  <text x="262" y="168" class="a">Mensch klein</text>
+  <text x="235" y="214" text-anchor="middle" class="m">Dauer, Lesefluss</text>
+</svg>

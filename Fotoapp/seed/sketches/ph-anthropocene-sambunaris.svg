@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 1 research: folded map with route -->
+  <path d="M20 38 l12 -5 l13 5 l12 -5 v38 l-12 5 l-13 -5 l-12 5 z"/>
+  <path d="M32 33 v38 M45 38 v38" class="m"/>
+  <path d="M24 66 q10 -14 18 -8 q8 6 12 -16" class="a" stroke-dasharray="3 3"/>
+  <!-- 2 sketch with medium format -->
+  <rect x="122" y="40" width="28" height="24" rx="2"/><circle cx="136" cy="52" r="7"/><rect x="128" y="34" width="10" height="6"/>
+  <!-- 3 waiting for diffuse light -->
+  <circle cx="232" cy="40" r="7" class="m"/>
+  <path d="M210 62 a9 9 0 0 1 4 -17 a12 12 0 0 1 22 -2 a9 9 0 0 1 4 19 z" class="f"/>
+  
+  <!-- 4 two sheets of film -->
+  <rect x="300" y="34" width="22" height="31" class="f"/><rect x="308" y="40" width="22" height="31"/>
+  <!-- arrows -->
+  <path d="M74 54 h26 m-5 -4 l5 4 l-5 4 M164 54 h26 m-5 -4 l5 4 l-5 4 M254 54 h26 m-5 -4 l5 4 l-5 4" class="a"/>
+  <g text-anchor="middle">
+    <text x="45" y="102" class="h">Recherche</text>
+    <text x="45" y="117" class="m">Karten, Bücher,</text>
+    <text x="45" y="131" class="m">Gespräche</text>
+    <text x="136" y="102" class="h">Erkunden</text>
+    <text x="136" y="117" class="m">Mittelformat</text>
+    <text x="136" y="131" class="m">als Skizze</text>
+    <text x="226" y="102" class="h">Warten</text>
+    <text x="226" y="117" class="m">bis zu 2 Wochen</text>
+    <text x="226" y="131" class="m">diffuses Licht</text>
+    <text x="315" y="102" class="h">Belichten</text>
+    <text x="315" y="117" class="m">meist 2 Blatt</text>
+    <text x="315" y="131" class="m">5×7 Zoll</text>
+  </g>
+  <line x1="20" y1="148" x2="340" y2="148" class="m"/>
+  <text x="180" y="168" text-anchor="middle" class="a">frontal · scharf · gleiches Licht</text>
+  <text x="180" y="183" text-anchor="middle" class="m">= als Serie lesbar</text>
+</svg>

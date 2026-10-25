@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">This Empty World: zwei Momente, ein Standpunkt</text>
+  <!-- frame 1: partial set, animal arrives -->
+  <rect x="10" y="30" width="100" height="56"/>
+  <line x1="10" y1="72" x2="110" y2="72" class="m"/>
+  <rect x="62" y="52" width="26" height="20" class="f"/>
+  <path d="M22 70 q4 -10 14 -10 q8 0 10 4 l4 -6 l2 6 v6 M28 70 v2 M42 70 v2" class="a"/>
+  <!-- frame 2: weeks later, full set -->
+  <rect x="130" y="30" width="100" height="56"/>
+  <line x1="130" y1="72" x2="230" y2="72" class="m"/>
+  <rect x="182" y="52" width="26" height="20" class="f"/>
+  <rect x="140" y="44" width="34" height="28" class="f"/><path d="M144 44 v-8 h26 v8 M150 52 h8 M150 60 h8 M162 52 h6" />
+  <rect x="210" y="40" width="16" height="32" class="f"/>
+  <!-- frame 3: combined -->
+  <rect x="250" y="30" width="100" height="56"/>
+  <line x1="250" y1="72" x2="350" y2="72" class="m"/>
+  <rect x="302" y="52" width="26" height="20" class="f"/>
+  <rect x="260" y="44" width="34" height="28" class="f"/><path d="M264 44 v-8 h26 v8"/>
+  <rect x="330" y="40" width="16" height="32" class="f"/>
+  <path d="M262 70 q4 -10 14 -10 q8 0 10 4 l4 -6 l2 6 v6 M268 70 v2 M282 70 v2" class="a"/>
+  <text x="120" y="62" text-anchor="middle" class="a">→</text>
+  <text x="240" y="62" text-anchor="middle" class="a">=</text>
+  <!-- fixed camera -->
+  <g>
+    <rect x="52" y="104" width="14" height="10" class="af" stroke="none"/><path d="M59 114 l-7 16 M59 114 l7 16 M59 114 v16"/>
+    <rect x="172" y="104" width="14" height="10" class="af" stroke="none"/><path d="M179 114 l-7 16 M179 114 l7 16 M179 114 v16"/>
+    <path d="M70 120 h96" class="a" stroke-dasharray="3 3"/>
+  </g>
+  <text x="120" y="146" text-anchor="middle" class="m">Kamera bleibt fest stehen</text>
+  <g text-anchor="middle">
+    <text x="60" y="168">Teilset bauen,</text>
+    <text x="60" y="182" class="m">auf Tiere warten</text>
+    <text x="180" y="168">Wochen später:</text>
+    <text x="180" y="182" class="m">volles Set bauen</text>
+    <text x="300" y="168">Panorama aus</text>
+    <text x="300" y="182" class="m">beiden Momenten</text>
+  </g>
+</svg>
