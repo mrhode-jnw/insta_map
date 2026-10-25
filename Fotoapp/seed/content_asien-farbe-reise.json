@@ -1,0 +1,1720 @@
+{
+ "accessed_at": "2026-10-25",
+ "photographers": [
+  {
+   "key": "thomson",
+   "name": "John Thomson",
+   "born": 1837,
+   "died": 1921,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/John_Thomson_(photographer)",
+     "title": "John Thomson (photographer) – Wikipedia (letzte Option; keine verifizierbare Museumsbiografie abrufbar)",
+     "excerpt": "John Thomson FRGS (14 June 1837 – 29 September 1921) was a pioneering Scottish photographer, geographer, and traveller. He was one of the first photographers to travel to the Far East, documenting the people, landscapes and artefacts of eastern cultures."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/John_Thomson_(photographer)",
+     "title": "John Thomson (photographer) – Wikipedia",
+     "excerpt": "He returned to Singapore in July 1867, before moving to Saigon for three months and finally settling in Hong Kong in 1868. He established a studio in the Commercial Bank building, and spent the next four years photographing the people of China and recording the diversity of Chinese culture."
+    }
+   ],
+   "projects": [
+    {
+     "key": "thomson-illustrations-of-china",
+     "title": "Illustrations of China and Its People",
+     "year_from": 1873,
+     "year_to": 1874,
+     "sources": [
+      {
+       "url": "https://wellcomecollection.org/works/zpfvjpx3",
+       "title": "Illustrations of China and its people (London 1873–1874) – Wellcome Collection, Katalog",
+       "excerpt": "London : Sampson Low, Marston, Low, and Searle, 1873-1874."
+      },
+      {
+       "url": "https://wellcomecollection.org/works/fjh2q3s4",
+       "title": "Badaling … part of the Great Wall of China. Photograph by John Thomson, 1871 – Wellcome Collection",
+       "excerpt": "This is one of a collection of original glass negatives made by John Thomson. The negatives, made between 1868 and 1872, were purchased from Thomson by Sir Henry Wellcome in 1921"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/John_Thomson_(photographer)",
+       "title": "John Thomson (photographer) – Wikipedia",
+       "excerpt": "His expeditions were also especially challenging because he had to transport his bulky wooden camera, many large, fragile glass plates, and potentially explosive chemicals. He photographed in a wide variety of conditions and often had to improvise because chemicals were difficult to acquire."
+      }
+     ],
+     "images": [
+      {
+       "key": "thomson-great-wall-1871",
+       "title": "The Great Wall of China",
+       "year": 1871,
+       "location": "Badaling, Pechili (Hebei/Beijing), China",
+       "source_url": "https://wellcomecollection.org/works/fjh2q3s4",
+       "image_url": "https://iiif.wellcomecollection.org/image/L0056157/full/1600,/0/default.jpg",
+       "tags": [
+        "landschaft",
+        "gebirge",
+        "große mauer",
+        "expedition"
+       ],
+       "sources": [
+        {
+         "url": "https://wellcomecollection.org/works/fjh2q3s4",
+         "title": "Badaling, Pechili province, China: part of the Great Wall of China. Photograph by John Thomson, 1871. – Wellcome Collection",
+         "excerpt": "John Thomson, Illustrations of China and its people, London, 1873-4, vol. IV, pl XXIV, \"The Great Wall of China\""
+        },
+        {
+         "url": "https://wellcomecollection.org/works/fjh2q3s4",
+         "title": "Badaling, Pechili province, China: part of the Great Wall of China. Photograph by John Thomson, 1871. – Wellcome Collection",
+         "excerpt": "According to Thomson, 'no illustrated work on China would be worthy of its name if it did not contain a picture of some portion of the Great Wall'."
+        }
+       ]
+      },
+      {
+       "key": "thomson-nankow-pass-1871",
+       "title": "The Nankow Pass",
+       "year": 1871,
+       "location": "Nankou-Pass, Pechili, China",
+       "source_url": "https://wellcomecollection.org/works/bkfjdepv",
+       "image_url": "https://iiif.wellcomecollection.org/image/L0056153/full/1600,/0/default.jpg",
+       "tags": [
+        "landschaft",
+        "pass",
+        "reise",
+        "expedition"
+       ],
+       "sources": [
+        {
+         "url": "https://wellcomecollection.org/works/bkfjdepv",
+         "title": "Nankow pass, Pechili province, China. Photograph by John Thomson, 1871. – Wellcome Collection",
+         "excerpt": "John Thomson, Illustrations of China and its people, London, 1873-4, vol. IV, pl. XXIII, fig. 55 \"The Nankow Pass\""
+        },
+        {
+         "url": "https://wellcomecollection.org/works/bkfjdepv",
+         "title": "Nankow pass, Pechili province, China. Photograph by John Thomson, 1871. – Wellcome Collection",
+         "excerpt": "A river running through a pass between mountains, with a man and a donkey standing in the foreground."
+        }
+       ]
+      },
+      {
+       "key": "thomson-snowy-valley-fall-1871",
+       "title": "Sung-Lng-Day Fall, Snowy Valley",
+       "year": 1871,
+       "location": "Snowy Valley, Chekiang (Zhejiang), China",
+       "source_url": "https://wellcomecollection.org/works/mrxj8kqn",
+       "image_url": "https://iiif.wellcomecollection.org/image/L0056091/full/1600,/0/default.jpg",
+       "tags": [
+        "wasserfall",
+        "schlucht",
+        "landschaft",
+        "expedition"
+       ],
+       "sources": [
+        {
+         "url": "https://wellcomecollection.org/works/mrxj8kqn",
+         "title": "Snowy Valley, Chekiang province, China. Photograph by John Thomson, 1871. – Wellcome Collection",
+         "excerpt": "John Thomson, Illustrations of China and its people, London, 1873-4, vol. III pl. III fig. 4. \"Sung-Lng-Day Fall, Snowy Valley\""
+        },
+        {
+         "url": "https://wellcomecollection.org/works/mrxj8kqn",
+         "title": "Snowy Valley, Chekiang province, China. Photograph by John Thomson, 1871. – Wellcome Collection",
+         "excerpt": "A deep fissure in a valley with a waterfall running along it. A building high on a mountain in the background."
+        }
+       ]
+      },
+      {
+       "key": "thomson-tenacing-hills-1870",
+       "title": "Tenacing Hills",
+       "year": null,
+       "location": "Foochow (Fuzhou), Fukien, China",
+       "source_url": "https://wellcomecollection.org/works/mhtf8b8m",
+       "image_url": "https://iiif.wellcomecollection.org/image/L0056337/full/1600,/0/default.jpg",
+       "tags": [
+        "terrassen",
+        "landwirtschaft",
+        "stereo",
+        "expedition"
+       ],
+       "sources": [
+        {
+         "url": "https://wellcomecollection.org/works/mhtf8b8m",
+         "title": "Foochow, Fukien province, China. Photograph by John Thomson, 1870/1871. – Wellcome Collection",
+         "excerpt": "John Thomson, Illustrations of China and its people, vol. II, pl. XX, no. 48 \"Tenacing Hills\""
+        },
+        {
+         "url": "https://wellcomecollection.org/works/mhtf8b8m",
+         "title": "Foochow, Fukien province, China. Photograph by John Thomson, 1870/1871. – Wellcome Collection",
+         "excerpt": "Man with two children and two oxen walking along a track next to tiered fields. Trees in the distance"
+        }
+       ]
+      },
+      {
+       "key": "thomson-chao-chow-fu-bridge-1870",
+       "title": "Chao-chow-fu bridge",
+       "year": 1870,
+       "location": "Chouchow Fu (Chaozhou), Kwangtung, China",
+       "source_url": "https://wellcomecollection.org/works/zawqbb2m",
+       "image_url": "https://iiif.wellcomecollection.org/image/V0036773/full/1600,/0/default.jpg",
+       "tags": [
+        "brücke",
+        "architektur",
+        "fluss",
+        "expedition"
+       ],
+       "sources": [
+        {
+         "url": "https://wellcomecollection.org/works/zawqbb2m",
+         "title": "Chouchow Fu, Kwangtung province, China. Photograph by John Thomson, 1870. – Wellcome Collection",
+         "excerpt": "John Thomson, Illustrations of China and its people, vol. 2, pl. VIII, fig. 19, \"Chao-chow-fu bridge\""
+        },
+        {
+         "url": "https://wellcomecollection.org/works/zawqbb2m",
+         "title": "Chouchow Fu, Kwangtung province, China. Photograph by John Thomson, 1870. – Wellcome Collection",
+         "excerpt": "A large stone bridge with houses built on top. Many people looking down from the balconies of the houses."
+        }
+       ]
+      },
+      {
+       "key": "thomson-foochow-field-women-1871",
+       "title": "Foochow field women",
+       "year": 1871,
+       "location": "Fukien (Fujian), China",
+       "source_url": "https://wellcomecollection.org/works/uj3qqh92",
+       "image_url": "https://iiif.wellcomecollection.org/image/L0056403/full/1600,/0/default.jpg",
+       "tags": [
+        "porträt",
+        "gruppe",
+        "stereo",
+        "expedition"
+       ],
+       "sources": [
+        {
+         "url": "https://wellcomecollection.org/works/uj3qqh92",
+         "title": "Fukien province, China: women tea plantation workers. Photograph by John Thomson, 1871. – Wellcome Collection",
+         "excerpt": "John Thomson, Illustrations of China and its people, London, 1873-4, vol. II pl. XX fig. 49. \"Foochow field women.\""
+        },
+        {
+         "url": "https://wellcomecollection.org/works/uj3qqh92",
+         "title": "Fukien province, China: women tea plantation workers. Photograph by John Thomson, 1871. – Wellcome Collection",
+         "excerpt": "Five women on a path outside a house, three standing, two sitting."
+        }
+       ]
+      },
+      {
+       "key": "thomson-shanghai-bund",
+       "title": "Shanghai Bund in 1869",
+       "year": null,
+       "location": "Shanghai, China",
+       "source_url": "https://wellcomecollection.org/works/yvpzn5wv",
+       "image_url": "https://iiif.wellcomecollection.org/image/L0055877/full/1600,/0/default.jpg",
+       "tags": [
+        "hafen",
+        "stadt",
+        "ufer",
+        "expedition"
+       ],
+       "sources": [
+        {
+         "url": "https://wellcomecollection.org/works/yvpzn5wv",
+         "title": "Shanghai, Kiangsu province, China. Photograph by John Thomson, 1871. – Wellcome Collection",
+         "excerpt": "John Thomson, Illustrations of China and its people, London, 1873-4, vol. III pl. IV, fig. 7. \"Shanghai Bund in 1869\""
+        },
+        {
+         "url": "https://wellcomecollection.org/works/yvpzn5wv",
+         "title": "Shanghai, Kiangsu province, China. Photograph by John Thomson, 1871. – Wellcome Collection",
+         "excerpt": "View of harbour/shore including, on the right, the building shown in Thomson's negative number 530. Many boats in the foreground"
+        }
+       ]
+      },
+      {
+       "key": "thomson-pekingese-camel-1871",
+       "title": "A Pekingese Camel",
+       "year": 1871,
+       "location": "Peking (Beijing), China",
+       "source_url": "https://wellcomecollection.org/works/msnvua58",
+       "image_url": "https://iiif.wellcomecollection.org/image/L0056197/full/1600,/0/default.jpg",
+       "tags": [
+        "porträt",
+        "tier",
+        "mauer",
+        "expedition"
+       ],
+       "sources": [
+        {
+         "url": "https://wellcomecollection.org/works/msnvua58",
+         "title": "Peking, Pechili province, China: a camel with its owner. Photograph by John Thomson, 1871. – Wellcome Collection",
+         "excerpt": "John Thomson, Illustrations of China and its people, London, 1873-4, vol IV pl. XXII fig. 53. \"A Pekingese Camel\""
+        },
+        {
+         "url": "https://wellcomecollection.org/works/msnvua58",
+         "title": "Peking, Pechili province, China: a camel with its owner. Photograph by John Thomson, 1871. – Wellcome Collection",
+         "excerpt": "A man with a very furry camel, standing in front of a brick wall with a lattice at the top."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "fanho",
+   "name": "Fan Ho",
+   "born": 1931,
+   "died": 2016,
+   "sources": [
+    {
+     "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+     "title": "10 Facts about the Photographer Who Captured 1950s and ‘60s Hong Kong – M+ Magazine",
+     "excerpt": "Fan Ho (American, b. China, 1931–2016) was a photographer, film director, and actor. He spent his early years in Shanghai, where he began taking photographs after receiving his first camera at fourteen. After moving to Hong Kong in 1949, he started taking black-and-white photographs of everyday moments in the city."
+    },
+    {
+     "url": "https://fanho-forgetmenot.com/about",
+     "title": "Bio – Fan Ho Photography (offizielle Website des Fan Ho Trust and Estate)",
+     "excerpt": "Dubbed the “Cartier-Bresson of the East”, Fan Ho patiently waited for ‘the decisive moment’; very often a collision of the unexpected, framed against a very clever composed background of geometrical construction, patterns and texture. He often created drama and atmosphere with backlit effects or through the combination of smoke and light. His favorite locations were the streets, alleys and markets around dusk or life on the sea."
+    },
+    {
+     "url": "https://www.mplus.org.hk/en/magazine/ho-fan-on-the-decisive-moment/",
+     "title": "Fan Ho: On the ‘Decisive Moment’ – Video-Transkript, M+ Magazine",
+     "excerpt": "I always pay attention to the light. I consider photography as the art of light. The light needs to fit my needs, not to mention achieve contrast. So it’s important to wait for the right light."
+    }
+   ],
+   "projects": [
+    {
+     "key": "fanho-hongkong-1950er-60er",
+     "title": "Hongkong in den 1950er und 60er Jahren (M+ Sammlung)",
+     "year_from": 1954,
+     "year_to": 1963,
+     "sources": [
+      {
+       "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+       "title": "10 Facts about the Photographer Who Captured 1950s and ‘60s Hong Kong – M+ Magazine",
+       "excerpt": "He took photos spontaneously, making use of ‘the decisive moment’. Fan Ho’s style of photography exemplifies what the French photographer Henri Cartier-Bresson dubbed the ‘decisive moment’. This method—of waiting for the perfect moment to click the camera shutter—remains a practice that street photographers and photojournalists widely adopt."
+      },
+      {
+       "url": "https://www.mplus.org.hk/en/magazine/ho-fan-on-the-decisive-moment/",
+       "title": "Fan Ho: On the ‘Decisive Moment’ – Video-Transkript, M+ Magazine",
+       "excerpt": "I would take my camera with me, down from MacDonnell Road, walking the backstreets and narrow lanes through the haze, where there were ordinary folk: ordinary, grassroots, and minority people. The kind of ‘Hong Kong spirit’ that they represented is unforgettable."
+      },
+      {
+       "url": "https://www.mplus.org.hk/en/magazine/ho-fan-on-the-decisive-moment/",
+       "title": "Fan Ho: On the ‘Decisive Moment’ – Video-Transkript, M+ Magazine",
+       "excerpt": "I actually prefer black and white. It’s not that I don’t take colour photographs, but I’ve realised one thing. Colours do not fit well in my world. Black and white offers me a distance."
+      },
+      {
+       "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+       "title": "10 Facts about the Photographer Who Captured 1950s and ‘60s Hong Kong – M+ Magazine",
+       "excerpt": "He radically cropped the photo to be unusually thin and narrow, creating a kind of rhythm in the composition with the shapes of the children, the tram lines, and the drainage holes. Fan Ho enjoyed cropping and editing his photographs, describing this process as ‘like making a movie’."
+      }
+     ],
+     "images": [
+      {
+       "key": "fanho-approaching-shadow-1954",
+       "title": "Approaching Shadow",
+       "year": 1954,
+       "location": "Hongkong",
+       "source_url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+       "image_url": "https://webmedia.mplus.org.hk/original_images/yaeo5jvimlcyip82hlab.jpeg",
+       "tags": [
+        "schatten",
+        "geometrie",
+        "schwarzweiß",
+        "straße"
+       ],
+       "sources": [
+        {
+         "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+         "title": "10 Facts about the Photographer Who Captured 1950s and ‘60s Hong Kong – M+ Magazine",
+         "excerpt": "Fan Ho. Approaching Shadow, 1954, reprinted 2013. Archival pigment print. M+, Hong Kong. © Fan Ho"
+        }
+       ]
+      },
+      {
+       "key": "fanho-stage-of-life-1954",
+       "title": "On the Stage of Life",
+       "year": 1954,
+       "location": "Hongkong",
+       "source_url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+       "image_url": "https://webmedia.mplus.org.hk/original_images/ho-fan-on-the-stage-of-life.jpg",
+       "tags": [
+        "silhouette",
+        "inszenierung",
+        "architektur",
+        "schwarzweiß"
+       ],
+       "sources": [
+        {
+         "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+         "title": "10 Facts about the Photographer Who Captured 1950s and ‘60s Hong Kong – M+ Magazine",
+         "excerpt": "Fan Ho photographed On the Stage of Life while studying at the Chinese University of Hong Kong’s New Asia College. In anticipation of his future filmmaking career, he already showed an aptitude for directing dramatic performances. The characters in this photograph were his university classmates."
+        }
+       ]
+      },
+      {
+       "key": "fanho-street-scene-1956",
+       "title": "Street Scene",
+       "year": 1956,
+       "location": "Hongkong",
+       "source_url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+       "image_url": "https://webmedia.mplus.org.hk/original_images/irj1h5hoelybswfv4f67.jpeg",
+       "tags": [
+        "treppe",
+        "gegenlicht",
+        "straße",
+        "schwarzweiß"
+       ],
+       "sources": [
+        {
+         "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+         "title": "10 Facts about the Photographer Who Captured 1950s and ‘60s Hong Kong – M+ Magazine",
+         "excerpt": "Fan Ho. Street Scene, 1956. Archival pigment print. M+, Hong Kong. © Fan Ho"
+        }
+       ]
+      },
+      {
+       "key": "fanho-a-day-is-done-1957",
+       "title": "A Day is Done",
+       "year": 1957,
+       "location": "Hongkong",
+       "source_url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+       "image_url": "https://webmedia.mplus.org.hk/original_images/ho-fan-a-day-is-done.jpg",
+       "tags": [
+        "gegenlicht",
+        "dunst",
+        "straße",
+        "abend"
+       ],
+       "sources": [
+        {
+         "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+         "title": "10 Facts about the Photographer Who Captured 1950s and ‘60s Hong Kong – M+ Magazine",
+         "excerpt": "Fan Ho. A Day is Done, 1957. Gelatin silver print. M+ Hong Kong. © Fan Ho"
+        }
+       ]
+      },
+      {
+       "key": "fanho-market-parade-1963",
+       "title": "The Market Parade",
+       "year": 1963,
+       "location": "Hongkong",
+       "source_url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+       "image_url": "https://webmedia.mplus.org.hk/original_images/ho-fan-the-market-parade-gelatin-print.jpg",
+       "tags": [
+        "markt",
+        "menschenmenge",
+        "straße",
+        "schwarzweiß"
+       ],
+       "sources": [
+        {
+         "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+         "title": "10 Facts about the Photographer Who Captured 1950s and ‘60s Hong Kong – M+ Magazine",
+         "excerpt": "Fan Ho. The Market Parade, 1963. Gelatin silver print. M+ Hong Kong. © Fan Ho"
+        }
+       ]
+      },
+      {
+       "key": "fanho-her-study-1963",
+       "title": "Her Study",
+       "year": 1963,
+       "location": "Hongkong",
+       "source_url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+       "image_url": "https://webmedia.mplus.org.hk/original_images/ix6vps5mnhhyvobn8bk9.jpeg",
+       "tags": [
+        "gasse",
+        "rahmung",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "sources": [
+        {
+         "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+         "title": "10 Facts about the Photographer Who Captured 1950s and ‘60s Hong Kong – M+ Magazine",
+         "excerpt": "Fan Ho. Her Study, 1963. Archival pigment print. M+, Hong Kong. © Fan Ho"
+        }
+       ]
+      },
+      {
+       "key": "fanho-school-is-over-1963",
+       "title": "School is Over",
+       "year": 1963,
+       "location": "Hongkong",
+       "source_url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+       "image_url": "https://webmedia.mplus.org.hk/original_images/ho-fan-school-is-over_unU13rI.jpg",
+       "tags": [
+        "beschnitt",
+        "rhythmus",
+        "straße",
+        "kinder"
+       ],
+       "sources": [
+        {
+         "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+         "title": "10 Facts about the Photographer Who Captured 1950s and ‘60s Hong Kong – M+ Magazine",
+         "excerpt": "Fan Ho referred to this photo, School is Over, as ‘a joke that God played on me. In fact, I wasn’t even taking a picture of the children. The negative was in a square format. I was actually photographing the tram lines."
+        }
+       ]
+      },
+      {
+       "key": "fanho-smoky-world-1959",
+       "title": "Smoky World",
+       "year": 1959,
+       "location": "Central Market, Hongkong",
+       "source_url": "https://www.mplus.org.hk/en/collection/objects/smoky-world-201533",
+       "image_url": "https://res.cloudinary.com/mplustms/image/upload/v1627829632/v2/prod/small/001501_002000/001571_003.jpg",
+       "tags": [
+        "rauch",
+        "lichtkegel",
+        "treppe",
+        "schwarzweiß"
+       ],
+       "sources": [
+        {
+         "url": "https://www.mplus.org.hk/en/collection/objects/smoky-world-201533",
+         "title": "Smoky World (1959) – Fan Ho – M+ Collection",
+         "excerpt": "Fan Ho’s photographs of people walking through the Central Market in Hong Kong, including this low-angle shot, are some of his most celebrated works. Playing with the effects of light and shadow in the open-roof building, Ho adds an air of drama to the everyday scene."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ghirri",
+   "name": "Luigi Ghirri",
+   "born": 1943,
+   "died": 1992,
+   "sources": [
+    {
+     "url": "https://matthewmarks.com/artists/luigi-ghirri",
+     "title": "Luigi Ghirri – Matthew Marks Gallery",
+     "excerpt": "Luigi Ghirri (1943–1992) spent his working life in the Emilia-Romagna region of Italy."
+    },
+    {
+     "url": "https://matthewmarks.com/artists/luigi-ghirri",
+     "title": "Luigi Ghirri – Matthew Marks Gallery",
+     "excerpt": "His subject was the landscape around him, but his photographs are much more than visual documents of 1970s and 1980s Italy. With his uncanny eye for composition, Ghirri searched out chance arrangements in the human-built world, framing them in his camera’s viewfinder like found photomontages. He worked in color because, as he put it, “the real world is in color,” and he made modestly sized meticulous prints, rarely producing more than one or two from each image."
+    },
+    {
+     "url": "https://mackbooks.us/products/kodachrome-br-luigi-ghirri",
+     "title": "Kodachrome – Luigi Ghirri – MACK",
+     "excerpt": "Born in Scandiano in 1943, Luigi Ghirri spent his working life in the Emilia Romagna region, where he produced one of the most open and layered bodies of work in the history of photography."
+    }
+   ],
+   "projects": [
+    {
+     "key": "ghirri-kodachrome",
+     "title": "Kodachrome",
+     "year_from": 1971,
+     "year_to": 1978,
+     "sources": [
+      {
+       "url": "https://matthewmarks.com/artists/luigi-ghirri",
+       "title": "Luigi Ghirri – Matthew Marks Gallery",
+       "excerpt": "In 1978 he published Kodachrome, a book of his photographs that touches on many of the subjects that defined his career, including windows, billboards, murals, and other sites where, as he put it, “the world of signs merges with the physical world.”"
+      },
+      {
+       "url": "https://mackbooks.us/products/kodachrome-br-luigi-ghirri",
+       "title": "Kodachrome – Luigi Ghirri – MACK",
+       "excerpt": "In 1978 Luigi Ghirri self-published his first book, an avant-garde manifesto for the medium of photography and a landmark in his own remarkable oeuvre."
+      },
+      {
+       "url": "https://mackbooks.us/products/kodachrome-br-luigi-ghirri",
+       "title": "Kodachrome – Luigi Ghirri – MACK",
+       "excerpt": "Part amateur photo-album, Ghirri presents his surroundings in tightly cropped images, making photographs of photographs and recording the Italian landscape through it’s adverts, postcards, potted plants, walls, windows, and people."
+      },
+      {
+       "url": "https://mackbooks.us/products/kodachrome-br-luigi-ghirri",
+       "title": "Kodachrome – Luigi Ghirri – MACK",
+       "excerpt": "‘Ghirri fights to maintain our ability to see. His works are powerful devices for the re-education of the gaze."
+      }
+     ],
+     "images": [
+      {
+       "key": "ghirri-marina-di-ravenna-1972",
+       "title": "Marina di Ravenna",
+       "year": 1972,
+       "location": "Marina di Ravenna, Italien",
+       "source_url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/marina-di-ravenna-1972-35826",
+       "image_url": "https://cdn.matthewmarks.com/online/marina-di-ravenna-1972-35826/_1800x1800_fit_center-center_none/Ghirri_Marina-di-Ravenna_1972_35826_01.jpg",
+       "tags": [
+        "strand",
+        "farbe",
+        "sonnenschirm",
+        "weglassen"
+       ],
+       "sources": [
+        {
+         "url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/marina-di-ravenna-1972-35826",
+         "title": "Marina di Ravenna 1972 – Luigi Ghirri: Kodachrome – Matthew Marks Gallery",
+         "excerpt": "Marina di Ravenna 1972 From the series Kodachrome Vintage C-print"
+        }
+       ]
+      },
+      {
+       "key": "ghirri-luzern-1971",
+       "title": "Luzern",
+       "year": 1971,
+       "location": "Luzern, Schweiz",
+       "source_url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/luzern-1971-37039",
+       "image_url": "https://cdn.matthewmarks.com/online/luzern-1971-37039/_1800x1800_fit_center-center_none/Gober_Luzern_1971_37039_01.jpg",
+       "tags": [
+        "fassade",
+        "schaufenster",
+        "farbe",
+        "zeichen"
+       ],
+       "sources": [
+        {
+         "url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/luzern-1971-37039",
+         "title": "Luzern 1971 – Luigi Ghirri: Kodachrome – Matthew Marks Gallery",
+         "excerpt": "Luzern 1971 From the series Kodachrome Vintage C-print"
+        }
+       ]
+      },
+      {
+       "key": "ghirri-engelberg-1972",
+       "title": "Engelberg",
+       "year": 1972,
+       "location": "Engelberg, Schweiz",
+       "source_url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/engelberg-1972-37059",
+       "image_url": "https://cdn.matthewmarks.com/online/engelberg-1972-37059/_1800x1800_fit_center-center_none/Ghirri_Engelberg_1972_37059_01.jpg",
+       "tags": [
+        "plakat",
+        "bild im bild",
+        "alpen",
+        "tourismus"
+       ],
+       "sources": [
+        {
+         "url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/engelberg-1972-37059",
+         "title": "Engelberg 1972 – Luigi Ghirri: Kodachrome – Matthew Marks Gallery",
+         "excerpt": "Engelberg 1972 From the series Kodachrome Vintage Cibachrome print"
+        }
+       ]
+      },
+      {
+       "key": "ghirri-urbino-1975",
+       "title": "Urbino",
+       "year": 1975,
+       "location": "Urbino, Italien",
+       "source_url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/urbino-1975-37023",
+       "image_url": "https://cdn.matthewmarks.com/online/urbino-1975-37023/_1800x1800_fit_center-center_none/Ghirri_Urbino_1975_37023_01.jpg",
+       "tags": [
+        "horizont",
+        "silhouette",
+        "landschaft",
+        "weite"
+       ],
+       "sources": [
+        {
+         "url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/urbino-1975-37023",
+         "title": "Urbino 1975 – Luigi Ghirri: Kodachrome – Matthew Marks Gallery",
+         "excerpt": "Urbino 1975 From the series Kodachrome Vintage C-print"
+        }
+       ]
+      },
+      {
+       "key": "ghirri-bastia-1976",
+       "title": "Bastia",
+       "year": 1976,
+       "location": "Bastia, Korsika",
+       "source_url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/bastia-1976-37066",
+       "image_url": "https://cdn.matthewmarks.com/online/bastia-1976-37066/_1800x1800_fit_center-center_none/Ghirri_Bastia_1976_37066_01.jpg",
+       "tags": [
+        "schiff",
+        "täuschung",
+        "bild im bild",
+        "farbe"
+       ],
+       "sources": [
+        {
+         "url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/bastia-1976-37066",
+         "title": "Bastia 1976 – Luigi Ghirri: Kodachrome – Matthew Marks Gallery",
+         "excerpt": "Bastia 1976 From the series Kodachrome Vintage C-print"
+        }
+       ]
+      },
+      {
+       "key": "ghirri-calvi-1976",
+       "title": "Calvi",
+       "year": 1976,
+       "location": "Calvi, Korsika",
+       "source_url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/calvi-1976-37061",
+       "image_url": "https://cdn.matthewmarks.com/online/calvi-1976-37061/_1800x1800_fit_center-center_none/Ghirri_Calvi_1976_37061_01.jpg",
+       "tags": [
+        "postkarten",
+        "sonnenuntergang",
+        "tourismus",
+        "bild im bild"
+       ],
+       "sources": [
+        {
+         "url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/calvi-1976-37061",
+         "title": "Calvi 1976 – Luigi Ghirri: Kodachrome – Matthew Marks Gallery",
+         "excerpt": "Calvi 1976 From the series Kodachrome Vintage Cibachrome print"
+        }
+       ]
+      },
+      {
+       "key": "ghirri-ile-rousse-1976",
+       "title": "Ile Rousse",
+       "year": 1976,
+       "location": "L’Île-Rousse, Korsika",
+       "source_url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/ile-rousse-1976-37018",
+       "image_url": "https://cdn.matthewmarks.com/online/ile-rousse-1976-37018/_1800x1800_fit_center-center_none/Ghirri_Ile-Rousse_1976_37018_01.jpg",
+       "tags": [
+        "strand",
+        "meer",
+        "figuren",
+        "farbe"
+       ],
+       "sources": [
+        {
+         "url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/ile-rousse-1976-37018",
+         "title": "Ile Rousse 1976 – Luigi Ghirri: Kodachrome – Matthew Marks Gallery",
+         "excerpt": "Ile Rousse 1976 From the series Kodachrome Vintage C-print"
+        }
+       ]
+      },
+      {
+       "key": "ghirri-riva-di-tures-1977",
+       "title": "Riva di Tures",
+       "year": 1977,
+       "location": "Riva di Tures (Rein in Taufers), Südtirol",
+       "source_url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/riva-di-tures-1977-37024",
+       "image_url": "https://cdn.matthewmarks.com/online/riva-di-tures-1977-37024/_1800x1800_fit_center-center_none/Ghirri_Riva-di-Tures_1977_37024_01.jpg",
+       "tags": [
+        "gebirge",
+        "himmel",
+        "kondensstreifen",
+        "landschaft"
+       ],
+       "sources": [
+        {
+         "url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/riva-di-tures-1977-37024",
+         "title": "Riva di Tures 1977 – Luigi Ghirri: Kodachrome – Matthew Marks Gallery",
+         "excerpt": "Riva di Tures 1977 From the series Kodachrome Vintage C-print"
+        }
+       ]
+      },
+      {
+       "key": "ghirri-versailles-1977",
+       "title": "Versailles",
+       "year": 1977,
+       "location": "Versailles, Frankreich",
+       "source_url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/versailles-1977-35797",
+       "image_url": "https://cdn.matthewmarks.com/online/versailles-1977-35797/_1800x1800_fit_center-center_none/Ghirri_Versailles_1977_35797_01.jpg",
+       "tags": [
+        "fenster",
+        "rahmung",
+        "garten",
+        "tourismus"
+       ],
+       "sources": [
+        {
+         "url": "https://matthewmarks.com/exhibitions/luigi-ghirri-kodachrome-03-2013/lightbox/works/versailles-1977-35797",
+         "title": "Versailles 1977 – Luigi Ghirri: Kodachrome – Matthew Marks Gallery",
+         "excerpt": "Versailles 1977 From the series Kodachrome and Vedute Vintage Cibachrome print"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "webb",
+   "name": "Alex Webb",
+   "born": 1952,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/alex-webb/",
+     "title": "Alex Webb – Magnum Photos",
+     "excerpt": "Alex Webb was born in San Francisco, California, in 1952."
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/alex-webb/",
+     "title": "Alex Webb – Magnum Photos",
+     "excerpt": "During the mid-1970s, Webb photographed in the American South, documenting small-town life in black and white. He also began working in the Caribbean and Mexico, which prompted his starting to photograph in color, which he has continued to do to this day."
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/alex-webb/",
+     "title": "Alex Webb – Magnum Photos",
+     "excerpt": "\"I only know how to approach a place by walking. For what does a street photographer do but walk and watch and wait and talk, and then watch and wait some more, trying to remain confident that the unexpected, the unknown, or the secret heart of the known awaits just around the corner.\""
+    }
+   ],
+   "projects": [
+    {
+     "key": "webb-suffering-of-light",
+     "title": "The Suffering of Light",
+     "year_from": 1979,
+     "year_to": 2001,
+     "sources": [
+      {
+       "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+       "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+       "excerpt": "Three years after my first trip to Haiti, I realized there was another emotional note that had to be reckoned with: the intense, vibrant color of these worlds. Searing light and intense color seemed somehow embedded in the cultures that I had begun working in, so utterly different than the gray-brown reticence of my New England background. Since then, I have worked predominantly in color."
+      },
+      {
+       "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+       "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+       "excerpt": "Whatever insights—sociopolitical, cultural, or aesthetic—I may have into the societies I have photographed over the years come not from preconception, but from the process of wandering the street."
+      },
+      {
+       "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+       "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+       "excerpt": "I have been consistently drawn to places of cultural and often political uncertainty—borders, islands, edges of societies—where cultures merge, sometimes clashing, sometimes fusing."
+      },
+      {
+       "url": "https://aperture.org/books/the-suffering-of-light/",
+       "title": "Alex Webb: The Suffering of Light – Aperture",
+       "excerpt": "His work, with its richly layered and complex composition, touches on multiple genres, including street photography, photojournalism, and fine art, but as Webb claims, “to me it all is photography. You have to go out and explore the world with a camera.”"
+      }
+     ],
+     "images": [
+      {
+       "key": "webb-gouyave-1979",
+       "title": "Gouyave, Grenada",
+       "year": 1979,
+       "location": "Gouyave, Grenada",
+       "source_url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+       "image_url": "https://aperture.org/wp-content/uploads/2024/07/WEBB_06_hires.jpg",
+       "tags": [
+        "farbe",
+        "innenraum",
+        "ebenen",
+        "karibik"
+       ],
+       "sources": [
+        {
+         "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+         "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+         "excerpt": "Alex Webb, Gouyave, Grenada, 1979"
+        }
+       ]
+      },
+      {
+       "key": "webb-san-ysidro-1979",
+       "title": "San Ysidro, California",
+       "year": 1979,
+       "location": "San Ysidro, Kalifornien, USA",
+       "source_url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+       "image_url": "https://aperture.org/wp-content/uploads/2024/07/WEBB_05_hires.jpg",
+       "tags": [
+        "grenze",
+        "abendlicht",
+        "ebenen",
+        "gruppe"
+       ],
+       "sources": [
+        {
+         "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+         "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+         "excerpt": "Alex Webb, San Ysidro, California, 1979"
+        }
+       ]
+      },
+      {
+       "key": "webb-bombardopolis-1986",
+       "title": "Bombardopolis, Haiti",
+       "year": 1986,
+       "location": "Bombardopolis, Haiti",
+       "source_url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+       "image_url": "https://aperture.org/wp-content/uploads/2024/07/WEBB_07_hires.jpg",
+       "tags": [
+        "farbe",
+        "wand",
+        "figuren",
+        "haiti"
+       ],
+       "sources": [
+        {
+         "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+         "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+         "excerpt": "Alex Webb, Bombardopolis, Haiti, 1986"
+        }
+       ]
+      },
+      {
+       "key": "webb-leon-1987",
+       "title": "León, Mexico",
+       "year": 1987,
+       "location": "León, Mexiko",
+       "source_url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+       "image_url": "https://aperture.org/wp-content/uploads/2024/07/WEBB_08_hires.jpg",
+       "tags": [
+        "schatten",
+        "hartes licht",
+        "straße",
+        "mexiko"
+       ],
+       "sources": [
+        {
+         "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+         "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+         "excerpt": "Alex Webb, León, Mexico, 1987"
+        }
+       ]
+      },
+      {
+       "key": "webb-alto-paraguay-1990",
+       "title": "Alto Paraguay, Paraguay",
+       "year": 1990,
+       "location": "Alto Paraguay, Paraguay",
+       "source_url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+       "image_url": "https://aperture.org/wp-content/uploads/2024/07/WEBB_10_hires.jpg",
+       "tags": [
+        "blaue stunde",
+        "fluss",
+        "bewegung",
+        "farbe"
+       ],
+       "sources": [
+        {
+         "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+         "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+         "excerpt": "Alex Webb, Alto Paraguay, Paraguay, 1990"
+        }
+       ]
+      },
+      {
+       "key": "webb-sancti-spiritus-1993",
+       "title": "Sancti Spíritus, Cuba",
+       "year": 1993,
+       "location": "Sancti Spíritus, Kuba",
+       "source_url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+       "image_url": "https://aperture.org/wp-content/uploads/2024/07/WEBB_12_hires.jpg",
+       "tags": [
+        "dämmerung",
+        "farbe",
+        "ebenen",
+        "kuba"
+       ],
+       "sources": [
+        {
+         "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+         "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+         "excerpt": "Alex Webb, Sancti Spíritus, Cuba, 1993"
+        }
+       ]
+      },
+      {
+       "key": "webb-nuevo-laredo-1996",
+       "title": "Nuevo Laredo, Mexico",
+       "year": 1996,
+       "location": "Nuevo Laredo, Mexiko",
+       "source_url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+       "image_url": "https://aperture.org/wp-content/uploads/2024/07/WEBB_13_hires.jpg",
+       "tags": [
+        "grenze",
+        "schatten",
+        "ebenen",
+        "mexiko"
+       ],
+       "sources": [
+        {
+         "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+         "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+         "excerpt": "Alex Webb, Nuevo Laredo, Mexico, 1996"
+        }
+       ]
+      },
+      {
+       "key": "webb-havana-2000",
+       "title": "Havana",
+       "year": 2000,
+       "location": "Havanna, Kuba",
+       "source_url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+       "image_url": "https://aperture.org/wp-content/uploads/2024/07/WEBB_03_hires.jpg",
+       "tags": [
+        "anschnitt",
+        "gedränge",
+        "ebenen",
+        "kuba"
+       ],
+       "sources": [
+        {
+         "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+         "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+         "excerpt": "Alex Webb, Havana, 2000"
+        }
+       ]
+      },
+      {
+       "key": "webb-istanbul-2001",
+       "title": "Istanbul, Turkey",
+       "year": 2001,
+       "location": "Istanbul, Türkei",
+       "source_url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+       "image_url": "https://aperture.org/wp-content/uploads/2024/07/WEBB_04_hires.jpg",
+       "tags": [
+        "mischlicht",
+        "farbe",
+        "gasse",
+        "abend"
+       ],
+       "sources": [
+        {
+         "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+         "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+         "excerpt": "Alex Webb, Istanbul, Turkey, 2001"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "parr",
+   "name": "Martin Parr",
+   "born": 1952,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/martin-parr/",
+     "title": "Martin Parr – Magnum Photos",
+     "excerpt": "Martin Parr was born in 1952 in Epsom, Surrey. He is one of the best-known documentary photographers of his generation."
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/martin-parr/",
+     "title": "Martin Parr – Magnum Photos",
+     "excerpt": "\"With photography, I like to create fiction out of reality. I try and do this by taking society's natural prejudice and giving this a twist.\""
+    },
+    {
+     "url": "https://www.kyotographie.jp/en/programs/2025/martin-parr",
+     "title": "Martin Parr – KYOTOGRAPHIE 2025",
+     "excerpt": "Known for his use of garish colours and esoteric composition, he has studied cultural peculiarities around the world from Japan to America, Europe, and his home country of Britain, also making numerous trips to China since 1985."
+    }
+   ],
+   "projects": [
+    {
+     "key": "parr-small-world",
+     "title": "Small World",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://www.kyotographie.jp/en/programs/2025/martin-parr",
+       "title": "Martin Parr – KYOTOGRAPHIE 2025",
+       "excerpt": "In his series Small World, Parr photographs the average tourist that we all are. However, his aim is not to capture the usual ‘vacation shot’; he is not interested in ‘tourist vacation pictures,’ but in picturing tourism itself. What he focuses his camera on is the gap between our shared mythologies of ‘must see’ tourist spots and their (sometimes rather disappointing) reality."
+      },
+      {
+       "url": "https://www.kyotographie.jp/en/programs/2025/martin-parr",
+       "title": "Martin Parr – KYOTOGRAPHIE 2025",
+       "excerpt": "His statement on tourism as a form of modern ‘imperialism,’ on the ‘Americanization’ or even ‘Disneyfication’ of the world, is disguised in happy colors and humorous scenes."
+      },
+      {
+       "url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59-small-world-martin-parr",
+       "title": "Small World: Martin Parr – Galerie Clémentine de la Féronnière (2026)",
+       "excerpt": "First published in 1993 under the title Home and Abroad, then as Small World in 1995 — translated into French successively as Quel monde ! (Marval, 1995) and Petite Planète (Hoëbeke, 2008) — this series was enriched and revisited throughout Martin Parr’s life. In it, he documented the ultimate pleasure of ordinary people, according to a contradiction all too familiar to us: driven by the search for authenticity, we tourists are the very agents of its disappearance."
+      }
+     ],
+     "images": [
+      {
+       "key": "parr-giza-sphinx",
+       "title": "Giza, The Sphinx",
+       "year": null,
+       "location": "Gizeh, Ägypten",
+       "source_url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-9585-martin-parr-giza-the-sphinx-1989-95/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/galerieclementinedelaferonniere/images/view/ded54b035dfd432ff10a18ff9e9cf9afj/galeriecl-mentinedelaf-ronni-re-martin-parr-giza-the-sphinx-1989-95.jpg",
+       "tags": [
+        "tourismus",
+        "rückenfigur",
+        "sehenswürdigkeit",
+        "humor"
+       ],
+       "sources": [
+        {
+         "url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-9585-martin-parr-giza-the-sphinx-1989-95/",
+         "title": "Martin Parr, Giza, The Sphinx – Small World: Martin Parr, Galerie Clémentine de la Féronnière",
+         "excerpt": "Giza, The Sphinx, 1989-95 Vintage c-print"
+        }
+       ]
+      },
+      {
+       "key": "parr-pisa-1990",
+       "title": "The Leaning Tower of Pisa",
+       "year": 1990,
+       "location": "Pisa, Italien",
+       "source_url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-3839-martin-parr-the-leaning-tower-of-pisa-1990/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/galerieclementinedelaferonniere/images/view/02d40f1fc18cd003ce7a5374b8e22e46j/galeriecl-mentinedelaf-ronni-re-martin-parr-the-leaning-tower-of-pisa-1990.jpg",
+       "tags": [
+        "tourismus",
+        "geste",
+        "sehenswürdigkeit",
+        "humor"
+       ],
+       "sources": [
+        {
+         "url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-3839-martin-parr-the-leaning-tower-of-pisa-1990/",
+         "title": "Martin Parr, The Leaning Tower of Pisa – Small World: Martin Parr, Galerie Clémentine de la Féronnière",
+         "excerpt": "The Leaning Tower of Pisa, 1990 Pigment print 50 x 60 cm Edition of 25 Series: Small World"
+        }
+       ]
+      },
+      {
+       "key": "parr-venice-1990",
+       "title": "Venice, Italy",
+       "year": 1990,
+       "location": "Venedig, Italien",
+       "source_url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-4336-martin-parr-venice-italy-1990/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/galerieclementinedelaferonniere/images/view/a4891e77dc98001b17f5390945d8a7a4j/galeriecl-mentinedelaf-ronni-re-martin-parr-venice-italy-1990.jpg",
+       "tags": [
+        "tourismus",
+        "kamera",
+        "souvenir",
+        "blitz"
+       ],
+       "sources": [
+        {
+         "url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-4336-martin-parr-venice-italy-1990/",
+         "title": "Martin Parr, Venice, Italy – Small World: Martin Parr, Galerie Clémentine de la Féronnière",
+         "excerpt": "Venice, Italy, 1990 Vintage C-Print 50 x 60 cm Edition of 25 Series: Home and Abroad"
+        }
+       ]
+      },
+      {
+       "key": "parr-goa-1993",
+       "title": "India, Goa",
+       "year": 1993,
+       "location": "Goa, Indien",
+       "source_url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-5362-martin-parr-india-goa-1993/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/galerieclementinedelaferonniere/images/view/3106f858fe68d80cf86d105c2e42c879p/galeriecl-mentinedelaf-ronni-re-martin-parr-india-goa-1993.png",
+       "tags": [
+        "strand",
+        "tourismus",
+        "kuh",
+        "farbe"
+       ],
+       "sources": [
+        {
+         "url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-5362-martin-parr-india-goa-1993/",
+         "title": "Martin Parr, India, Goa – Small World: Martin Parr, Galerie Clémentine de la Féronnière",
+         "excerpt": "India, Goa, 1993 C-print 42,5 x 54 Edition of 25 Series: Small World"
+        }
+       ]
+      },
+      {
+       "key": "parr-kleine-scheidegg-1994",
+       "title": "Kleine Scheidegg, Switzerland",
+       "year": 1994,
+       "location": "Kleine Scheidegg, Schweiz",
+       "source_url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-3876-martin-parr-kleine-scheidegg-switzerland-1994/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/galerieclementinedelaferonniere/images/view/98a75b34895c615591ba04828ec7f912j/galeriecl-mentinedelaf-ronni-re-martin-parr-kleine-scheidegg-switzerland-1994.jpg",
+       "tags": [
+        "postkarten",
+        "schnee",
+        "tourismus",
+        "bild im bild"
+       ],
+       "sources": [
+        {
+         "url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-3876-martin-parr-kleine-scheidegg-switzerland-1994/",
+         "title": "Martin Parr, Kleine Scheidegg, Switzerland – Small World: Martin Parr, Galerie Clémentine de la Féronnière",
+         "excerpt": "Kleine Scheidegg, Switzerland, 1994 Pigment print 50 x 60 cm Edition of 25 Series: Small world"
+        }
+       ]
+      },
+      {
+       "key": "parr-san-marco-1994",
+       "title": "Piazza St. Marco, Venice, Italy",
+       "year": 1994,
+       "location": "Venedig, Italien",
+       "source_url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-4294-martin-parr-piazza-st.-marco-venice-italy-1994/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/galerieclementinedelaferonniere/images/view/e2f9a914d0113cf8f3d718f9fa07ab64j/galeriecl-mentinedelaf-ronni-re-martin-parr-piazza-st.-marco-venice-italy-1994.jpg",
+       "tags": [
+        "reiseleitung",
+        "farbe",
+        "platz",
+        "blitz"
+       ],
+       "sources": [
+        {
+         "url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-4294-martin-parr-piazza-st.-marco-venice-italy-1994/",
+         "title": "Martin Parr, Piazza St. Marco, Venice, Italy – Small World: Martin Parr, Galerie Clémentine de la Féronnière",
+         "excerpt": "Piazza St. Marco, Venice, Italy, 1994 Pigment Print 50 x 60 cm Edition of 25 Series: Small World"
+        }
+       ]
+      },
+      {
+       "key": "parr-benidorm-1997",
+       "title": "Benidorm, Spain",
+       "year": 1997,
+       "location": "Benidorm, Spanien",
+       "source_url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-9468-martin-parr-benidorm-spain-1997/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/galerieclementinedelaferonniere/images/view/62248e2cde4861bea4c9ae5ed78ef634j/galeriecl-mentinedelaf-ronni-re-martin-parr-benidorm-spain-1997.jpg",
+       "tags": [
+        "nahaufnahme",
+        "blitz",
+        "urlaub",
+        "farbe"
+       ],
+       "sources": [
+        {
+         "url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-9468-martin-parr-benidorm-spain-1997/",
+         "title": "Martin Parr, Benidorm, Spain – Small World: Martin Parr, Galerie Clémentine de la Féronnière",
+         "excerpt": "Benidorm, Spain, 1997 50 x 76 cm Edition of 25"
+        }
+       ]
+      },
+      {
+       "key": "parr-mona-lisa-2012",
+       "title": "Mona Lisa, Louvre, Paris",
+       "year": 2012,
+       "location": "Louvre, Paris, Frankreich",
+       "source_url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-7485-martin-parr-mona-lisa-louvre-paris-2012/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,c_limit,f_jpg,fl_lossy,q_auto/artlogicstorage/galerieclementinedelaferonniere/images/view/721ae0bcf30873aa0ff4d35a19980dfaj/galeriecl-mentinedelaf-ronni-re-martin-parr-mona-lisa-louvre-paris-2012.jpg",
+       "tags": [
+        "smartphone",
+        "menschenmenge",
+        "tourismus",
+        "bild im bild"
+       ],
+       "sources": [
+        {
+         "url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-7485-martin-parr-mona-lisa-louvre-paris-2012/",
+         "title": "Martin Parr, Mona Lisa, Louvre, Paris – Small World: Martin Parr, Galerie Clémentine de la Féronnière",
+         "excerpt": "Mona Lisa, Louvre, Paris, 2012 Pigment print 50,8 x 76,2 cm Edition of 10 plus 1 artist's proof Series: Small World"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "zhangkechun",
+   "name": "Zhang Kechun",
+   "born": 1980,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://huxleyparlour.com/critical-texts/zhang-kechun-the-yellow-river/",
+     "title": "Zhang Kechun: The Yellow River – Huxley-Parlour (Critical Texts)",
+     "excerpt": "Zhang Kechun was born in 1980 in Sichuan, China, and started painting when he was a child. He studied art and design and worked as a designer in Chengdu before becoming interested in photography."
+    },
+    {
+     "url": "https://huxleyparlour.com/artists/zhang-kechun/",
+     "title": "Zhang Kechun – Huxley-Parlour",
+     "excerpt": "Zhang Kechun’s work examines the post-industrial landscape of China. Working with a large-format camera he produces epic vistas that dwell on the significance of the landscape in modern Chinese national identity. In particular, Kechun explores the relationship between the country’s cultural heritage and the effects of modernisation."
+    },
+    {
+     "url": "https://c41magazine.com/zhang-kechun-the-yellow-river-photography",
+     "title": "Zhang Kechun: The Yellow River – C41 Magazine (Statement des Fotografen)",
+     "excerpt": "Mountains and rivers are very significant for Chinese people. In this country, there is a cultural awareness that says mountains are virtuous and rivers are moral."
+    }
+   ],
+   "projects": [
+    {
+     "key": "zhangkechun-yellow-river",
+     "title": "The Yellow River",
+     "year_from": 2010,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://huxleyparlour.com/critical-texts/zhang-kechun-the-yellow-river/",
+       "title": "Zhang Kechun: The Yellow River – Huxley-Parlour (Critical Texts)",
+       "excerpt": "Zhang received the inspiration for The Yellow River from Chengzhi Zhang’s novel River of the North. The project took him on a journey along the river from the coastal flats of Shandong to the mountains of Qinghai on a fold-up bicycle, all the time carrying with him a large format Linhof camera."
+      },
+      {
+       "url": "https://huxleyparlour.com/critical-texts/zhang-kechun-the-yellow-river/",
+       "title": "Zhang Kechun: The Yellow River – Huxley-Parlour (Critical Texts)",
+       "excerpt": "“I started off wanting to photograph my ideal of the river, but I kept running into pollution,” he has said, “I realised that I couldn’t run away from it, and that I didn’t need to run away from it.” Zhang won the Discovery Award at Les Rencontres d’Arles for The Yellow River in 2014"
+      },
+      {
+       "url": "https://newrepublic.com/article/117974/zhang-kechun-photos-yellow-river-china",
+       "title": "Zhang Kechun Photos: The Yellow River, China – The New Republic",
+       "excerpt": "Over a three-year period beginning in 2010, Chinese photographer Zhang Kechun followed the mythical Yellow River, walking from the estuary of the river in Shandong westward to the river’s source near the Bayan Har Mountain with a large-format camera, capturing images of life along the waterway."
+      },
+      {
+       "url": "https://c41magazine.com/zhang-kechun-the-yellow-river-photography",
+       "title": "Zhang Kechun: The Yellow River – C41 Magazine (Statement des Fotografen)",
+       "excerpt": "The tiny human figures, insignificant when set against the vast natural forms, are inspired by Chinese artistic tradition."
+      },
+      {
+       "url": "https://huxleyparlour.com/exhibitions/zhang-kechun-the-yellow-river/",
+       "title": "Zhang Kechun: The Yellow River – Ausstellung Huxley-Parlour, 2016",
+       "excerpt": "His first series, The Yellow River, documents the effects of modernisation along the third longest river in Asia."
+      }
+     ],
+     "images": [
+      {
+       "key": "zhang-man-on-island-shaanxi-2012",
+       "title": "A Man Standing on an Island in the Middle of the River Shaanxi, China",
+       "year": 2012,
+       "location": "Shaanxi, China",
+       "source_url": "https://huxleyparlour.com/artwork/a-man-standing-on-an-island-in-the-middle-of-the-river-shaanxi-china-2012/",
+       "image_url": "https://huxleyparlour.com/wp-content/uploads/2021/06/BHC0639MA-scaled.jpg",
+       "tags": [
+        "gelber fluss",
+        "weite",
+        "kleine figur",
+        "diesig"
+       ],
+       "sources": [
+        {
+         "url": "https://huxleyparlour.com/artwork/a-man-standing-on-an-island-in-the-middle-of-the-river-shaanxi-china-2012/",
+         "title": "A Man Standing on an Island in the Middle of the River Shaanxi, China – Zhang Kechun – Huxley-Parlour",
+         "excerpt": "A Man Standing on an Island in the Middle of the River Shaanxi, China 2012 Signed and numbered on artist’s label on reverse Archival pigment print"
+        }
+       ]
+      },
+      {
+       "key": "zhang-rockery-dry-lake-shandong-2011",
+       "title": "A Rockery in the Middle of a Dry Lake, Shandong",
+       "year": 2011,
+       "location": "Shandong, China",
+       "source_url": "https://huxleyparlour.com/artwork/a-rockery-in-the-middle-of-a-dry-lake-shandong-2011/",
+       "image_url": "https://huxleyparlour.com/wp-content/uploads/2021/06/A-ROCKERY-IN-THE-MIDDLE-OF-A-DRY-LAKE-SHANDONG-2011-by-ZHANG-KECHUN-BHC0829MA.jpg",
+       "tags": [
+        "ausgetrocknet",
+        "leere",
+        "diesig",
+        "mitte"
+       ],
+       "sources": [
+        {
+         "url": "https://huxleyparlour.com/artwork/a-rockery-in-the-middle-of-a-dry-lake-shandong-2011/",
+         "title": "A Rockery in the Middle of a Dry Lake, Shandong – Zhang Kechun – Huxley-Parlour",
+         "excerpt": "A Rockery in the Middle of a Dry Lake, Shandong 2011 Signed and numbered on artist’s label on reverse Archival pigment print"
+        }
+       ]
+      },
+      {
+       "key": "zhang-family-under-bridge-shandong-2011",
+       "title": "A Family Spending the Weekend under a Bridge, Shandong, China",
+       "year": 2011,
+       "location": "Shandong, China",
+       "source_url": "https://huxleyparlour.com/artwork/a-family-spending-the-weekend-under-a-bridge-shandong-china-2011/",
+       "image_url": "https://huxleyparlour.com/wp-content/uploads/2021/06/A-FAMILY-SPENDING-THE-WEEKEND-UNDER-A-BRIDGE-SHANDONG-CHINA-2011-by-ZHANG-KECHUN-BHC0640MA.jpg",
+       "tags": [
+        "brücke",
+        "infrastruktur",
+        "freizeit",
+        "symmetrie"
+       ],
+       "sources": [
+        {
+         "url": "https://huxleyparlour.com/artwork/a-family-spending-the-weekend-under-a-bridge-shandong-china-2011/",
+         "title": "A Family Spending the Weekend under a Bridge, Shandong, China – Zhang Kechun – Huxley-Parlour",
+         "excerpt": "A Family Spending the Weekend under a Bridge, Shandong, China 2011 Signed and numbered on artist’s label on reverse Archival pigment print"
+        }
+       ]
+      },
+      {
+       "key": "zhang-painting-house-gansu-2011",
+       "title": "Two Men Painting a House in the River, Gansu",
+       "year": 2011,
+       "location": "Gansu, China",
+       "source_url": "https://huxleyparlour.com/artwork/two-men-painting-a-house-in-the-river-gansu-2011/",
+       "image_url": "https://huxleyparlour.com/wp-content/uploads/2021/06/TWO-MEN-PAINTING-A-HOUSE-IN-THE-RIVER-GANSU-2011-by-ZHANG-KECHUN-BHC0837MA-1.jpg",
+       "tags": [
+        "fluss",
+        "architektur",
+        "absurdität",
+        "pastell"
+       ],
+       "sources": [
+        {
+         "url": "https://huxleyparlour.com/artwork/two-men-painting-a-house-in-the-river-gansu-2011/",
+         "title": "Two Men Painting a House in the River, Gansu – Zhang Kechun – Huxley-Parlour",
+         "excerpt": "Two Men Painting a House in the River, Gansu 2011 Signed and numbered on artist’s label on reverse Archival pigment print"
+        }
+       ]
+      },
+      {
+       "key": "zhang-bridge-piers-shaanxi-2011",
+       "title": "Workers Building Bridge Piers for a High-Speed Railway, Shaanxi",
+       "year": 2011,
+       "location": "Shaanxi, China",
+       "source_url": "https://huxleyparlour.com/artwork/workers-building-bridge-piers-for-a-high-speed-railway-shaanxi-2011/",
+       "image_url": "https://huxleyparlour.com/wp-content/uploads/2021/06/WORKERS-BUILDING-BRIDGE-PIERS-FOR-A-HIGH-SPEED-RAILWAY-SHAANXI-2011-by-ZHANG-KECHUN-BHC0828MA.jpg",
+       "tags": [
+        "baustelle",
+        "gerüst",
+        "infrastruktur",
+        "diesig"
+       ],
+       "sources": [
+        {
+         "url": "https://huxleyparlour.com/artwork/workers-building-bridge-piers-for-a-high-speed-railway-shaanxi-2011/",
+         "title": "Workers Building Bridge Piers for a High-Speed Railway, Shaanxi – Zhang Kechun – Huxley-Parlour",
+         "excerpt": "Workers Building Bridge Piers for a High-Speed Railway, Shaanxi 2011 Signed and numbered on artist’s label on reverse Archival pigment print"
+        }
+       ]
+      },
+      {
+       "key": "zhang-dragon-lamp-gansu-2011",
+       "title": "People doing Morning Exercise under a Dragon Lamp, Gansu",
+       "year": 2011,
+       "location": "Gansu, China",
+       "source_url": "https://huxleyparlour.com/artwork/people-doing-morning-exercise-under-a-dragon-lamp-gansu-2011/",
+       "image_url": "https://huxleyparlour.com/wp-content/uploads/2021/06/PEOPLE-DOING-MORNING-EXERCISE-UNDER-A-DRAGON-LAMP-GANSU-2011-by-ZHANG-KECHUN-BHC0830MA.jpg",
+       "tags": [
+        "alltag",
+        "kitsch",
+        "morgen",
+        "gruppe"
+       ],
+       "sources": [
+        {
+         "url": "https://huxleyparlour.com/artwork/people-doing-morning-exercise-under-a-dragon-lamp-gansu-2011/",
+         "title": "People doing Morning Exercise under a Dragon Lamp, Gansu – Zhang Kechun – Huxley-Parlour",
+         "excerpt": "People doing Morning Exercise under a Dragon Lamp, Gansu, 2011 2011 Signed and numbered on artist’s label on reverse Archival pigment print"
+        }
+       ]
+      },
+      {
+       "key": "zhang-cement-truck-qinghai-2011",
+       "title": "An Overturned Cement Truck, Qinghai",
+       "year": 2011,
+       "location": "Qinghai, China",
+       "source_url": "https://huxleyparlour.com/artwork/an-overturned-cement-truck-qinghai-2011/",
+       "image_url": "https://huxleyparlour.com/wp-content/uploads/2021/06/AN-OVERTURNED-CEMENT-TRUCK-QINGHAI-2011-by-ZHANG-KECHUN-BHC0832MA-2.jpg",
+       "tags": [
+        "unfall",
+        "industrie",
+        "weite",
+        "bedeckt"
+       ],
+       "sources": [
+        {
+         "url": "https://huxleyparlour.com/artwork/an-overturned-cement-truck-qinghai-2011/",
+         "title": "An Overturned Cement Truck, Qinghai – Zhang Kechun – Huxley-Parlour",
+         "excerpt": "An Overturned Cement Truck, Qinghai 2011 Signed and numbered on artist’s label on reverse Archival pigment print"
+        }
+       ]
+      },
+      {
+       "key": "zhang-fishing-shaanxi-2012",
+       "title": "People Fishing by the River, Shaanxi",
+       "year": 2012,
+       "location": "Shaanxi, China",
+       "source_url": "https://huxleyparlour.com/artwork/people-fishing-by-the-river-shaanxi-2012/",
+       "image_url": "https://huxleyparlour.com/wp-content/uploads/2021/06/PEOPLE-FISHING-BY-THE-RIVER-SHAANXI-2012-by-ZHANG-KECHUN-BHC0835MA.jpg",
+       "tags": [
+        "ruine",
+        "wasser",
+        "kleine figur",
+        "gelber fluss"
+       ],
+       "sources": [
+        {
+         "url": "https://huxleyparlour.com/artwork/people-fishing-by-the-river-shaanxi-2012/",
+         "title": "People Fishing by the River, Shaanxi – Zhang Kechun – Huxley-Parlour",
+         "excerpt": "People Fishing by the River, Shaanxi 2012 Signed and numbered on artist’s label on reverse Archival pigment print"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "kawauchi",
+   "name": "Rinko Kawauchi",
+   "born": 1972,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://rinkokawauchi.com/en/biography/",
+     "title": "Biography – Rinko Kawauchi (offizielle Website)",
+     "excerpt": "1972 Born in Shiga"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Rinko_Kawauchi",
+     "title": "Rinko Kawauchi – Wikipedia (letzte Option)",
+     "excerpt": "She focuses on just shooting, photographing everything that attracts her eyes before looking back and thinking about why she was interested in those subjects."
+    }
+   ],
+   "projects": [
+    {
+     "key": "kawauchi-ametsuchi",
+     "title": "Ametsuchi",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://aperture.org/editorial/rinko-kawauchi-on-ametsuchi-video/",
+       "title": "Rinko Kawauchi on Ametsuchi (Video) – Aperture",
+       "excerpt": "In this video, Kawauchi describes the genesis of her journey to photograph at Aso, a city and volcanic mountain region in southern Japan, whose image first appeared to her in a dream years ago. Ametsuchi brings together images from her exploration of the area’s landscapes, distant constellations, and tiny figures lost within land—as well as her observations of a traditional style of controlled-burn farming (yakihata), Buddhist rituals, and other religious ceremonies."
+      },
+      {
+       "url": "https://aperture.org/editorial/rinko-kawauchi-on-ametsuchi-video/",
+       "title": "Rinko Kawauchi on Ametsuchi (Video) – Aperture",
+       "excerpt": "Kawauchi also discusses the title of this new volume, whose multiple meanings (“heaven and earth,” “top and bottom”) have been translated into a moving physical object by Dutch designer Hans Gremmen."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Rinko_Kawauchi",
+       "title": "Rinko Kawauchi – Wikipedia (letzte Option)",
+       "excerpt": "The ritual is a long-standing tradition dating back about 1,300 years in which farmland is burned yearly to maintain its sustainability for new crops as opposed to using chemicals, and the communities at Aso are among the few that continue this tradition."
+      },
+      {
+       "url": "https://rinkokawauchi.com/en/works/181/",
+       "title": "Ametsuchi – Rinko Kawauchi (offizielle Website, Werkseite)",
+       "excerpt": "Ametsuchi 2013"
+      }
+     ],
+     "images": [
+      {
+       "key": "kawauchi-ametsuchi-001",
+       "title": "Untitled (Ametsuchi, RK_001)",
+       "year": null,
+       "location": null,
+       "source_url": "https://rinkokawauchi.com/en/works/181/",
+       "image_url": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/RK_001.jpg",
+       "tags": [
+        "feuer",
+        "gras",
+        "rauch",
+        "farbe"
+       ],
+       "sources": []
+      },
+      {
+       "key": "kawauchi-ametsuchi-002",
+       "title": "Untitled (Ametsuchi, RK_002)",
+       "year": null,
+       "location": null,
+       "source_url": "https://rinkokawauchi.com/en/works/181/",
+       "image_url": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/RK_002.jpg",
+       "tags": [
+        "feuer",
+        "himmel",
+        "gras",
+        "kontrast"
+       ],
+       "sources": []
+      },
+      {
+       "key": "kawauchi-ametsuchi-007",
+       "title": "Untitled (Ametsuchi, RK_007)",
+       "year": null,
+       "location": null,
+       "source_url": "https://rinkokawauchi.com/en/works/181/",
+       "image_url": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/RK_007.jpg",
+       "tags": [
+        "vulkan",
+        "brandgrenze",
+        "rauch",
+        "landschaft"
+       ],
+       "sources": []
+      },
+      {
+       "key": "kawauchi-ametsuchi-011",
+       "title": "Untitled (Ametsuchi, RK_011)",
+       "year": null,
+       "location": null,
+       "source_url": "https://rinkokawauchi.com/en/works/181/",
+       "image_url": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/RK_011.jpg",
+       "tags": [
+        "feuer",
+        "strommast",
+        "rauch",
+        "bewegung"
+       ],
+       "sources": []
+      },
+      {
+       "key": "kawauchi-ametsuchi-016",
+       "title": "Untitled (Ametsuchi, RK_016)",
+       "year": null,
+       "location": null,
+       "source_url": "https://rinkokawauchi.com/en/works/181/",
+       "image_url": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/RK_016.jpg",
+       "tags": [
+        "hügel",
+        "schnee",
+        "weiß",
+        "stille"
+       ],
+       "sources": []
+      },
+      {
+       "key": "kawauchi-ametsuchi-017",
+       "title": "Untitled (Ametsuchi, RK_017)",
+       "year": null,
+       "location": null,
+       "source_url": "https://rinkokawauchi.com/en/works/181/",
+       "image_url": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/RK_017.jpg",
+       "tags": [
+        "caldera",
+        "weite",
+        "unschärfe",
+        "landschaft"
+       ],
+       "sources": []
+      },
+      {
+       "key": "kawauchi-ametsuchi-023",
+       "title": "Untitled (Ametsuchi, RK_023)",
+       "year": null,
+       "location": null,
+       "source_url": "https://rinkokawauchi.com/en/works/181/",
+       "image_url": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/RK_023.jpg",
+       "tags": [
+        "feuer",
+        "hang",
+        "rauch",
+        "diagonale"
+       ],
+       "sources": []
+      },
+      {
+       "key": "kawauchi-ametsuchi-027",
+       "title": "Untitled (Ametsuchi, RK_027)",
+       "year": null,
+       "location": null,
+       "source_url": "https://rinkokawauchi.com/en/works/181/",
+       "image_url": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/RK_027.jpg",
+       "tags": [
+        "kleine figuren",
+        "grasland",
+        "feuer",
+        "weite"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 1,
+   "title": "Expeditions- und Reisefotografie des 19. Jahrhunderts",
+   "period_from": null,
+   "period_to": null,
+   "sources": [
+    {
+     "url": "https://wellcomecollection.org/works/fjh2q3s4",
+     "title": "Badaling … part of the Great Wall of China. Photograph by John Thomson, 1871 – Wellcome Collection",
+     "excerpt": "This is one of a collection of original glass negatives made by John Thomson. The negatives, made between 1868 and 1872, were purchased from Thomson by Sir Henry Wellcome in 1921"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/John_Thomson_(photographer)",
+     "title": "John Thomson (photographer) – Wikipedia",
+     "excerpt": "He returned to Singapore in July 1867, before moving to Saigon for three months and finally settling in Hong Kong in 1868. He established a studio in the Commercial Bank building, and spent the next four years photographing the people of China and recording the diversity of Chinese culture."
+    }
+   ],
+   "key_images": [
+    "thomson-great-wall-1871",
+    "thomson-nankow-pass-1871",
+    "thomson-chao-chow-fu-bridge-1870",
+    "thomson-pekingese-camel-1871"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Der entscheidende Augenblick: Straßenfotografie und die Gründung von Magnum",
+   "period_from": null,
+   "period_to": null,
+   "sources": [
+    {
+     "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+     "title": "10 Facts about the Photographer Who Captured 1950s and ‘60s Hong Kong – M+ Magazine",
+     "excerpt": "He took photos spontaneously, making use of ‘the decisive moment’. Fan Ho’s style of photography exemplifies what the French photographer Henri Cartier-Bresson dubbed the ‘decisive moment’. This method—of waiting for the perfect moment to click the camera shutter—remains a practice that street photographers and photojournalists widely adopt."
+    },
+    {
+     "url": "https://fanho-forgetmenot.com/about",
+     "title": "Bio – Fan Ho Photography (offizielle Website des Fan Ho Trust and Estate)",
+     "excerpt": "Dubbed the “Cartier-Bresson of the East”, Fan Ho patiently waited for ‘the decisive moment’; very often a collision of the unexpected, framed against a very clever composed background of geometrical construction, patterns and texture. He often created drama and atmosphere with backlit effects or through the combination of smoke and light. His favorite locations were the streets, alleys and markets around dusk or life on the sea."
+    }
+   ],
+   "key_images": [
+    "fanho-approaching-shadow-1954",
+    "fanho-a-day-is-done-1957",
+    "fanho-smoky-world-1959",
+    "fanho-school-is-over-1963"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Farbe wird ernst genommen: die Farbfotografen der 70er",
+   "period_from": null,
+   "period_to": null,
+   "sources": [
+    {
+     "url": "https://matthewmarks.com/artists/luigi-ghirri",
+     "title": "Luigi Ghirri – Matthew Marks Gallery",
+     "excerpt": "His subject was the landscape around him, but his photographs are much more than visual documents of 1970s and 1980s Italy. With his uncanny eye for composition, Ghirri searched out chance arrangements in the human-built world, framing them in his camera’s viewfinder like found photomontages. He worked in color because, as he put it, “the real world is in color,” and he made modestly sized meticulous prints, rarely producing more than one or two from each image."
+    },
+    {
+     "url": "https://matthewmarks.com/artists/luigi-ghirri",
+     "title": "Luigi Ghirri – Matthew Marks Gallery",
+     "excerpt": "In 1978 he published Kodachrome, a book of his photographs that touches on many of the subjects that defined his career, including windows, billboards, murals, and other sites where, as he put it, “the world of signs merges with the physical world.”"
+    }
+   ],
+   "key_images": [
+    "ghirri-marina-di-ravenna-1972",
+    "ghirri-engelberg-1972",
+    "ghirri-calvi-1976",
+    "ghirri-versailles-1977"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Das Reisemagazin-Zeitalter: ikonische Reportage- und Porträtbilder",
+   "period_from": null,
+   "period_to": null,
+   "sources": [
+    {
+     "url": "https://www.kyotographie.jp/en/programs/2025/martin-parr",
+     "title": "Martin Parr – KYOTOGRAPHIE 2025",
+     "excerpt": "In his series Small World, Parr photographs the average tourist that we all are. However, his aim is not to capture the usual ‘vacation shot’; he is not interested in ‘tourist vacation pictures,’ but in picturing tourism itself. What he focuses his camera on is the gap between our shared mythologies of ‘must see’ tourist spots and their (sometimes rather disappointing) reality."
+    },
+    {
+     "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+     "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+     "excerpt": "Three years after my first trip to Haiti, I realized there was another emotional note that had to be reckoned with: the intense, vibrant color of these worlds. Searing light and intense color seemed somehow embedded in the cultures that I had begun working in, so utterly different than the gray-brown reticence of my New England background. Since then, I have worked predominantly in color."
+    },
+    {
+     "url": "https://aperture.org/editorial/how-alex-webb-sees-in-color/",
+     "title": "How Alex Webb Sees in Color – Aperture (Auszug aus The Suffering of Light)",
+     "excerpt": "Whatever insights—sociopolitical, cultural, or aesthetic—I may have into the societies I have photographed over the years come not from preconception, but from the process of wandering the street."
+    }
+   ],
+   "key_images": [
+    "webb-bombardopolis-1986",
+    "webb-sancti-spiritus-1993",
+    "webb-istanbul-2001",
+    "parr-pisa-1990",
+    "parr-kleine-scheidegg-1994",
+    "parr-mona-lisa-2012"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Zeitgenössische Landschaft: Mensch, Industrie, Klima",
+   "period_from": null,
+   "period_to": null,
+   "sources": [
+    {
+     "url": "https://huxleyparlour.com/artists/zhang-kechun/",
+     "title": "Zhang Kechun – Huxley-Parlour",
+     "excerpt": "Zhang Kechun’s work examines the post-industrial landscape of China. Working with a large-format camera he produces epic vistas that dwell on the significance of the landscape in modern Chinese national identity. In particular, Kechun explores the relationship between the country’s cultural heritage and the effects of modernisation."
+    },
+    {
+     "url": "https://huxleyparlour.com/critical-texts/zhang-kechun-the-yellow-river/",
+     "title": "Zhang Kechun: The Yellow River – Huxley-Parlour (Critical Texts)",
+     "excerpt": "“I started off wanting to photograph my ideal of the river, but I kept running into pollution,” he has said, “I realised that I couldn’t run away from it, and that I didn’t need to run away from it.” Zhang won the Discovery Award at Les Rencontres d’Arles for The Yellow River in 2014"
+    },
+    {
+     "url": "https://aperture.org/editorial/rinko-kawauchi-on-ametsuchi-video/",
+     "title": "Rinko Kawauchi on Ametsuchi (Video) – Aperture",
+     "excerpt": "In this video, Kawauchi describes the genesis of her journey to photograph at Aso, a city and volcanic mountain region in southern Japan, whose image first appeared to her in a dream years ago. Ametsuchi brings together images from her exploration of the area’s landscapes, distant constellations, and tiny figures lost within land—as well as her observations of a traditional style of controlled-burn farming (yakihata), Buddhist rituals, and other religious ceremonies."
+    }
+   ],
+   "key_images": [
+    "zhang-man-on-island-shaanxi-2012",
+    "zhang-bridge-piers-shaanxi-2011",
+    "zhang-painting-house-gansu-2011",
+    "kawauchi-ametsuchi-007",
+    "kawauchi-ametsuchi-027"
+   ]
+  }
+ ]
+}
