@@ -1,0 +1,827 @@
+{
+ "accessed_at": "2026-10-25",
+ "lessons": [
+  {
+   "dimension": "ethics-law-abroad",
+   "track": "grundlagen",
+   "order": 4,
+   "title": "Ethik und Recht auf Reisen",
+   "sources": [
+    {
+     "url": "https://www.gesetze-im-internet.de/kunsturhg/__22.html",
+     "title": "§ 22 KunstUrhG (Recht am eigenen Bild), gesetze-im-internet.de",
+     "excerpt": "Bildnisse dürfen nur mit Einwilligung des Abgebildeten verbreitet oder öffentlich zur Schau gestellt werden. Die Einwilligung gilt im Zweifel als erteilt, wenn der Abgebildete dafür, daß er sich abbilden ließ, eine Entlohnung erhielt."
+    },
+    {
+     "url": "https://www.gesetze-im-internet.de/kunsturhg/__23.html",
+     "title": "§ 23 KunstUrhG (Ausnahmen), gesetze-im-internet.de",
+     "excerpt": "Bilder, auf denen die Personen nur als Beiwerk neben einer Landschaft oder sonstigen Örtlichkeit erscheinen; … (2) Die Befugnis erstreckt sich jedoch nicht auf eine Verbreitung und Schaustellung, durch die ein berechtigtes Interesse des Abgebildeten oder, falls dieser verstorben ist, seiner Angehörigen verletzt wird."
+    },
+    {
+     "url": "https://www.gesetze-im-internet.de/urhg/__59.html",
+     "title": "§ 59 UrhG (Werke an öffentlichen Plätzen), gesetze-im-internet.de",
+     "excerpt": "Zulässig ist, Werke, die sich bleibend an öffentlichen Wegen, Straßen oder Plätzen befinden, mit Mitteln der Malerei oder Graphik, durch Lichtbild oder durch Film zu vervielfältigen, zu verbreiten und öffentlich wiederzugeben. Bei Bauwerken erstrecken sich diese Befugnisse nur auf die äußere Ansicht."
+    },
+    {
+     "url": "https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2024/2024204.html",
+     "title": "Bundesgerichtshof, Pressemitteilung Nr. 204/2024: Urheberrechtliche Unzulässigkeit von Luftbildaufnahmen mittels einer Drohne",
+     "excerpt": "Der unter anderem für das Urheberrecht zuständige I. Zivilsenat des Bundesgerichtshofs hat entschieden, dass unter Zuhilfenahme einer Drohne gefertigte Luftbildaufnahmen von urheberrechtlich geschützten Werken nicht der Panoramafreiheit unterfallen. … Die in § 59 Abs. 1 Satz 1 UrhG geregelte Panoramafreiheit bezweckt die Freistellung der Nutzung von Werken, wenn und soweit sie Teil des von der Allgemeinheit wahrnehmbaren Straßen- oder Landschaftsbildes sind."
+    },
+    {
+     "url": "https://www.gesetze-im-internet.de/stgb/__201a.html",
+     "title": "§ 201a StGB (Verletzung des höchstpersönlichen Lebensbereichs durch Bildaufnahmen), gesetze-im-internet.de",
+     "excerpt": "von einer anderen Person, die sich in einer Wohnung oder einem gegen Einblick besonders geschützten Raum befindet, unbefugt eine Bildaufnahme herstellt oder überträgt und dadurch den höchstpersönlichen Lebensbereich der abgebildeten Person verletzt, … eine Bildaufnahme, die die Hilflosigkeit einer anderen Person zur Schau stellt, unbefugt herstellt oder überträgt"
+    },
+    {
+     "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/open-category-low-risk-civil-drones",
+     "title": "EASA: Open category – low-risk civil drones",
+     "excerpt": "The 'open' category is the main reference for the majority of leisure drone activities and low-risk commercial activities. … Maintain flight altitude below 120m above ground level. … No, unless camera / sensor on board and a drone is not a toy"
+    },
+    {
+     "url": "https://www.chinajusticeobserver.com/a/china-issues-regulations-for-uav-management",
+     "title": "China Justice Observer: China Issues Regulations for UAV Management",
+     "excerpt": "The Regulations was jointly issued by China's State Council and the Central Military Commission, and will take effect from 1 Jan. 2024. … Any entities engaged in the design, production, and use of civil UAV systems must comply with regulations on real-name registration and activation, flight area restrictions, emergency response, cybersecurity, and information security, and take effective measures to reduce air pollutants and noise emissions."
+    },
+    {
+     "url": "https://english.shanghai.gov.cn/en-Individuals-DailyLife-Flyadrone/index.html",
+     "title": "Shanghai Municipal People's Government (english.shanghai.gov.cn): Fly a drone",
+     "excerpt": "Drone owners and users must complete real-name registration before flying a drone in Shanghai."
+    },
+    {
+     "url": "https://nanpa.org/why-nanpa/ethics/",
+     "title": "NANPA (North American Nature Photography Association): Ethics",
+     "excerpt": "The viewing public generally assumes that nature images are straightforward depictions of events and scenes that occurred without human interference. It is essential the photographer communicate completely and accurately the field conditions and circumstances of a nature image. There should be truthful disclosure of the conditions under which the image was captured."
+    },
+    {
+     "url": "https://site.picter.com/nppa-bop-2025/terms",
+     "title": "NPPA Best of Photojournalism 2025, Regeln mit dem NPPA Code of Ethics",
+     "excerpt": "Be complete and provide context when photographing or recording subjects. Avoid stereotyping individuals and groups. Recognize and work to avoid presenting one's own biases in the work. Treat all subjects with respect and dignity. … Do not pay sources or subjects or reward them materially for information or participation."
+    },
+    {
+     "url": "https://theconversation.com/tourists-in-our-own-reality-susan-sontags-photography-at-50-197615",
+     "title": "The Conversation: Tourists in our own reality – Susan Sontag's Photography at 50",
+     "excerpt": "Sontag claimed that we photograph most when we feel most insecure, particularly when we are in an unfamiliar place where we don't know how to react or what is expected of us. Taking a photograph becomes a way of attenuating the otherness of a place, holding it at a distance."
+    }
+   ],
+   "intro_md": "Wer auf Reisen fotografiert, nimmt etwas mit: Gesichter, Rituale, Orte und Landschaften, die anderen gehören oder von anderen gepflegt werden. Diese Lektion behandelt die Fragen vor und nach dem Auslösen: Darf ich diesen Menschen fotografieren – und darf ich das Bild zeigen? Was sagen das Recht am eigenen Bild (§§ 22/23 KUG) und die Panoramafreiheit (§ 59 UrhG), was gilt für Drohnen in der EU und in China? Und jenseits des Rechts: Welche Verantwortung entsteht durch Machtgefälle, Klischees, Geotags und Bildunterschriften, die mehr behaupten, als das Bild hergibt? Ethik ist kein Anhang zur Ästhetik; sie entscheidet mit, welche Bilder entstehen und wie sie gelesen werden.\n\n**Hinweis: Diese Lektion ist keine Rechtsberatung.** Sie gibt Gesetzestexte und Quellen wieder, Stand des Abrufs. Im Einzelfall, und im Ausland ohnehin, zählt die geltende Rechtslage vor Ort; im Zweifel fachkundigen Rat einholen.",
+   "sections": [
+    {
+     "heading": "Recht ist territorial – und keine Rechtsberatung",
+     "body_md": "Die erste Regel ist unspektakulär: Es gilt das Recht des Ortes, an dem du fotografierst, und das Recht des Ortes, an dem du veröffentlichst. Die deutschen Normen unten betreffen vor allem die Veröffentlichung in Deutschland; was du in China, Vietnam oder Marokko aufnehmen darf, regelt deren Recht, dazu Hausrecht, Tempelordnungen, Verbotsschilder und Anweisungen von Aufsichtspersonen. Diese Lektion zitiert Gesetzestexte und offizielle oder fachliche Quellen; sie ersetzt keine Prüfung im Einzelfall.\n\nPraktisch heißt das: Vor der Reise die Lage für Drohnen und für sensible Orte (Grenzen, Militär, Verkehrsinfrastruktur, religiöse Innenräume) bei offiziellen Stellen nachlesen und die Antwort mit Datum notieren. Vor Ort gilt: Ein Schild oder ein Wächter, der abwinkt, ist eine Antwort – auch wenn du die Rechtsgrundlage nicht kennst."
+    },
+    {
+     "heading": "Recht am eigenen Bild: §§ 22 und 23 KUG",
+     "body_md": "§ 22 KUG ist knapp: Bildnisse dürfen nur mit Einwilligung des Abgebildeten verbreitet oder öffentlich zur Schau gestellt werden [Q1]. Zwei Dinge stecken darin. Erstens regelt die Norm dem Wortlaut nach das **Zeigen**, nicht das Auslösen [Q1]. Zweitens kennt sie eine Vermutung: Wer für das Abbilden eine Entlohnung erhielt, hat im Zweifel eingewilligt [Q1].\n\n§ 23 nennt Ausnahmen, unter anderem Bilder, auf denen Personen nur als **Beiwerk** neben einer Landschaft oder sonstigen Örtlichkeit erscheinen [Q2]. Für Landschaftsfotografen ist das die wichtigste Zeile – aber der Wortlaut ist eng: „nur als Beiwerk“. Ist die Person das, worum es im Bild geht (Blick, Geste, Bildmitte, Schärfe), passt die Ausnahme dem Wortlaut nach nicht. Und jede Ausnahme endet dort, wo ein berechtigtes Interesse des Abgebildeten verletzt wird [Q2].\n\nDas Aufnehmen selbst kann ebenfalls strafbar sein, etwa wenn jemand in einer Wohnung oder einem gegen Einblick besonders geschützten Raum unbefugt aufgenommen und dadurch sein höchstpersönlicher Lebensbereich verletzt wird, oder wenn eine Aufnahme die Hilflosigkeit einer Person zur Schau stellt [Q5]. Datenschutzrechtliche Fragen behandelt diese Lektion nicht."
+    },
+    {
+     "heading": "Panoramafreiheit (§ 59 UrhG) – und ihre Grenze in der Luft",
+     "body_md": "Die Panoramafreiheit betrifft nicht Menschen, sondern **Werke**: Skulpturen, Bauwerke, Wandbilder. Zulässig ist, Werke, die sich bleibend an öffentlichen Wegen, Straßen oder Plätzen befinden, durch Lichtbild zu vervielfältigen und zu verbreiten; bei Bauwerken gilt das nur für die äußere Ansicht [Q3]. „Bleibend“ und „äußere Ansicht“ sind die beiden Stolpersteine: eine temporäre Installation oder ein Innenraum fallen nicht unter diesen Wortlaut.\n\nFür Drohnenpiloten ist ein Urteil von 2024 wichtig: Der Bundesgerichtshof hat entschieden, dass mit einer Drohne gefertigte Luftbildaufnahmen urheberrechtlich geschützter Werke nicht der Panoramafreiheit unterfallen [Q4]. Die Begründung: Die Panoramafreiheit stellt Werke frei, soweit sie Teil des von der Allgemeinheit wahrnehmbaren Straßen- oder Landschaftsbildes sind [Q4]. Der Blick von oben gehört nach dieser Entscheidung nicht dazu. Für eine reine Naturlandschaft stellt sich die Frage nicht – wohl aber für Land-Art, Haldenkunst oder markante Architektur."
+    },
+    {
+     "heading": "Drohnen: EU und China",
+     "body_md": "In der EU fallen die meisten Freizeitflüge in die „Open“-Kategorie [Q6]. Für die verbreiteten Klassen nennt die EASA eine Flughöhe unter 120 m über Grund; auch für kleine Drohnen unter 250 g ist eine Betreiberregistrierung nötig, sobald eine Kamera an Bord ist und die Drohne kein Spielzeug ist [Q6]. Dazu kommen Unterkategorien je nach Nähe zu Menschen und nationale Flugverbotszonen.\n\nIn China gelten seit dem 1. Januar 2024 die „Interim Regulations“ zum Drohnenflug, erlassen von Staatsrat und Zentraler Militärkommission; wer zivile Drohnen nutzt, muss unter anderem Real-Name-Registrierung und Aktivierung sowie Flugbeschränkungsgebiete beachten [Q7]. Die Stadt Shanghai formuliert es für Nutzer direkt: Vor dem Flug ist die Real-Name-Registrierung abzuschließen [Q8]. Wie das für Reisende mit ausländischem Pass praktisch läuft und welche Zonen gesperrt sind, sagen diese Quellen nicht – das ist vor der Reise bei offiziellen Stellen zu klären.\n\nEthisch kommt hinzu, was kein Gesetz vollständig regelt: Lärm über Wildtieren, über Menschen, die sich nicht fotografieren lassen wollen, über Andachtsorten. Die Drohne ist der Standpunkt, den niemand vor Ort teilt – und genau deshalb verdient er besondere Rücksicht."
+    },
+    {
+     "heading": "Einverständnis und Machtgefälle",
+     "body_md": "Sontag beobachtete, dass wir am meisten fotografieren, wenn wir unsicher sind, besonders an fremden Orten; das Foto wird ein Mittel, die Fremdheit eines Ortes auf Abstand zu halten [Q11]. Touristen benutzen ihre Kameras als Schild [S474292]. Wer mit Kamera, Geld und Rückflugticket reist, steht fast immer am längeren Hebel – auch wenn er sich selbst als neugierigen Gast sieht.\n\nZwei Arbeitsweisen zeigen Alternativen. Bieke Depoorter fragte Bewohner entlang der Transsibirischen Eisenbahn, ob sie bei ihnen übernachten dürfe [S237539]; die Nähe ihrer Bilder ist erbeten, nicht erschlichen. Carolyn Drake ließ in Xinjiang Menschen mit Stickerei- und Holzschnitzwerkzeugen in ihre Fotos eingreifen; das Projekt wurde, wie sie sagt, mehr zu einem „wir zusammen“ [S238543] – und sie bleibt selbstkritisch, welches Bild die Presse daraus auswählt [S860347].\n\nAufschlussreich ist der Widerspruch beim Bezahlen: Im deutschen Zivilrecht spricht eine Entlohnung im Zweifel für die Einwilligung [Q1], der Ethik-Kodex der US-Pressefotografen verbietet dagegen, Motive für ihre Teilnahme zu bezahlen [Q10]. Recht und Berufsethik beantworten verschiedene Fragen: das eine, ob du zeigen darfst, das andere, ob das Bild noch ein unbeeinflusstes Dokument ist."
+    },
+    {
+     "heading": "Klischee, Respekt und die ehrliche Bildunterschrift",
+     "body_md": "Der Kodex der NPPA verlangt, Kontext zu liefern, Stereotype zu vermeiden, die eigenen Vorannahmen zu erkennen und Menschen mit Respekt und Würde zu behandeln [Q10]. Für Reisefotografie ist das eine präzise Checkliste. Das **Klischee-Gegenbeispiel** kennt jeder: das namenlose Kind in leuchtender Kleidung vor bröckelnder Fassade, frontal, mit großen Augen – ein Bild, das mehr über die Erwartung des Reisenden erzählt als über den Ort. Es ist nicht verboten; es ist nur oft ungenau: Wer ist das, wo, warum steht sie da?\n\nFür Naturbilder fordert die NANPA, die Umstände einer Aufnahme vollständig und wahrheitsgemäß offenzulegen, weil das Publikum annimmt, das Bild zeige ein ungestörtes Geschehen [Q9]. Übertragen auf Reisen: gestellte Szenen als gestellt kennzeichnen, bezahlte Fotomodelle in Tracht nicht als „Alltag“ ausgeben, Komposits und Montagen benennen."
+    },
+    {
+     "heading": "Natur, Geotagging und Overtourism",
+     "body_md": "Eine Untersuchung zu den meistfotografierten Sehenswürdigkeiten fand, dass mehr als die Hälfte aus denselben drei Grundwinkeln aufgenommen wird, und 55 % der Reisenden gaben an, ihre Route nach Fotomöglichkeiten zu planen [S449005]. Corinne Vionnet hat genau das sichtbar gemacht: Sie fragt, wo wir am Tor des Taj Mahal stehen, um die Fassade perfekt symmetrisch zu bekommen [S430641].\n\nDaraus folgt eine Verantwortung beim Veröffentlichen. Die Social-Media-Leitlinien des Leave No Trace Center raten, Fotos überlegt zu taggen und die Folgen zu bedenken, wenn man stark genutzte Wege teilt; empfindliche Orte können unter übergroßer Aufmerksamkeit leiden [S116109]. Gute Praxis: Region statt Koordinate, keine Pfadspuren durch Vegetation für den besseren Vordergrund, nicht über Absperrungen. Und als **alternative Lesart** gegen die eigene Bequemlichkeit: Ein Bild, das den Andrang zeigt, statt ihn wegzuretuschieren, ist oft das ehrlichere Reisebild."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "i8898939306",
+     "caption_md": "Eine Familie am Küchentisch, sehr nah und von innen gesehen: links ein junger Mann mit Tasse, eine Frau steht mit verschränkten Armen, dahinter ein Mann, ein Mädchen lehnt sich an die Frau rechts. Niemand posiert, niemand weicht aus. Depoorter fragte Bewohner, ob sie bei ihnen übernachten dürfe [S237539]. Meine Einschätzung: Diese Nähe ist ohne Erlaubnis nicht herstellbar – kein Teleobjektiv ersetzt sie. **Alternative Lesart:** Man kann dasselbe Bild als Ausstellung privater Momente vor einem fremden Publikum lesen; die Erlaubnis zu bleiben ist nicht automatisch die Erlaubnis zu zeigen – genau diese Trennung zieht auch § 22 KUG [Q1].",
+     "look_for": [
+      "Abstand: der Fotograf sitzt mit am Tisch",
+      "keine Pose, keine Abwehrgeste",
+      "Frage: Wer hat hier was erlaubt?"
+     ]
+    },
+    {
+     "image_id": "i7420e4bdb4",
+     "caption_md": "Ein Mädchen in pinkfarbenem Oberteil lehnt an einem verwitterten weißen Zaun, hinter ihr ein grüner Teppich aus Wasserlinsen und ein Holzhaus mit blauen Fenstern; sie blickt direkt in die Kamera. Die World-Press-Photo-Unterschrift verankert es: Wasserlinsen bedecken das Wasser im Vorgarten, während des Monsuns in Bojonegoro, Java [S383232]. Meine Einschätzung: Ohne diesen Text kippt das Bild leicht ins **Klischee** des farbigen, namenlosen Reiseporträts. **Alternative Lesart:** Der grüne „Rasen“ ist stehendes Hochwasser – das Bild dokumentiert eine Überschwemmung, nicht Idylle. Ob und wie eingewilligt wurde: Keine Quelle hinterlegt.",
+     "look_for": [
+      "der grüne Boden ist Wasser",
+      "direkter Blick, aber kein Name",
+      "was die Unterschrift hinzufügt"
+     ]
+    },
+    {
+     "image_id": "i8065e5cd18",
+     "caption_md": "Ein Wald aus Händen, Smartphones und Kameras; die Mona Lisa hängt klein im Hintergrund, mehrfach wiederholt auf den Displays. Parr sagt, im Mona-Lisa-Saal fotografierten die Leute das Gemälde und er die Leute davor [S161937]. Meine Einschätzung: Gesichter sind angeschnitten oder abgewandt, das Thema ist das Verhalten, nicht die Person. **Alternative Lesart:** Die Kyotographie beschreibt Parrs Arbeit als Statement über Tourismus als moderne Form von „Imperialismus“, verkleidet in fröhliche Farben [S312650] – man kann darin aber auch Herablassung gegenüber Menschen sehen, die nur tun, was alle tun.",
+     "look_for": [
+      "Motiv im Hintergrund, Publikum im Vordergrund",
+      "Hände statt Gesichter",
+      "Bild im Bild auf den Displays"
+     ]
+    },
+    {
+     "image_id": "ib80d6c76b4",
+     "caption_md": "Das Taj Mahal als Nebel aus Überlagerungen: Jedes Bild der Serie ist eine Collage aus etwa hundert Fotos, ausgerichtet an einem einzigen Punkt [S954702]. Scharf bleibt nur die Mitte – die Fassade, auf die sich alle einigen –, Ränder und Vordergrund zerfließen. Meine Einschätzung: Die Schärfe zeigt den Konsens des Standpunkts, die Unschärfe die Menge, die ihn teilt. Für Overtourism ist das ein präziser Befund: Das eigene „perfekte“ Bild ist meist das hundertunderste.",
+     "look_for": [
+      "scharfer Kern, zerfließende Ränder",
+      "Symmetrie als gemeinsamer Standpunkt",
+      "Menschen als Schleier im Vordergrund"
+     ]
+    },
+    {
+     "image_id": "i341db8a11b",
+     "caption_md": "Ein Foto einer weiten, dunstigen Fläche mit einer winzigen Figur; in den Abzug wurden ein Baum und eine Reihe Vögel eingebrannt. Drake bat Menschen vor Ort, mit eigenen Werkzeugen in ihre Bilder einzugreifen, weil Reportagefotografie dort nicht zur Bildsprache gehöre [S238543]. Meine Einschätzung: Das Einverständnis ist hier nicht nur eingeholt, sondern sichtbar ins Bild eingeschrieben – die fremde Hand steht neben der eigenen.",
+     "look_for": [
+      "zwei Bildschichten: Foto und Brandzeichnung",
+      "kleine Figur im Dunst",
+      "wer ist hier Autor?"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Diese Lektion ist keine Rechtsberatung: Es gilt das Recht am Aufnahme- und am Veröffentlichungsort.",
+    "§ 22 KUG regelt das Zeigen von Bildnissen; „nur als Beiwerk“ ist eng – wer im Bild die Hauptsache ist, ist kein Beiwerk.",
+    "Panoramafreiheit gilt für bleibende Werke im öffentlichen Raum aus der Perspektive der Allgemeinheit – Drohnenaufnahmen geschützter Werke deckt sie nach dem BGH nicht.",
+    "Drohnen: EU „Open“-Kategorie mit 120-m-Grenze und Registrierung bei Kamera; China seit 2024 mit Real-Name-Registrierung.",
+    "Einwilligung ist mehr als ein Rechtsbegriff: Fragen, zeigen, ein Nein akzeptieren – und Machtgefälle mitdenken.",
+    "Ehrlich beschriften, überlegt taggen: Inszenierung offenlegen, empfindliche Orte nicht punktgenau verraten."
+   ],
+   "exercises": [
+    "Auf dem nächsten Markt: zehn Porträts nur nach Frage und Zustimmung, jeweils mit Namen und einem Satz der Person notiert. Danach mit zehn „gefundenen“ Bildern derselben Stunde vergleichen: Was ändert sich im Blick?",
+    "Vor der Reise ein Ein-Seiten-Blatt: Drohnenregeln des Ziellands und der Region aus offiziellen Quellen, mit Datum und Link; Flugverbotszonen der geplanten Spots markieren.",
+    "An einer überlaufenen Sehenswürdigkeit drei Bilder: das Standardmotiv, das Standardmotiv mit Menge, und die Menge ohne das Motiv. Welches ist das ehrlichste Reisebild?",
+    "Für fünf eigene Bilder mit Menschen schreiben: Wer ist das? Beiwerk oder Hauptsache? Wurde gefragt? Würdest du es der Person zeigen?"
+   ],
+   "quiz": [
+    {
+     "question": "Was regelt § 22 KUG nach seinem Wortlaut?",
+     "image_id": null,
+     "options": [
+      "Dass Bildnisse nur mit Einwilligung verbreitet oder öffentlich zur Schau gestellt werden dürfen",
+      "Dass jedes Fotografieren einer Person im öffentlichen Raum eine Einwilligung braucht",
+      "Dass nur kommerzielle Nutzungen von Personenfotos zustimmungspflichtig sind",
+      "Dass Personen im Ausland nicht ohne Genehmigung der Behörden fotografiert werden dürfen"
+     ],
+     "correct": 0,
+     "explanation": "Der Text spricht vom Verbreiten und öffentlichen Zurschaustellen, nicht vom Auslösen [Q1]. Für das Aufnehmen selbst gibt es andere Grenzen, etwa § 201a StGB [Q5]. Keine Rechtsberatung."
+    },
+    {
+     "question": "Am Bergsee stehen zwei Wanderer winzig am Ufer, das Bild handelt vom See und den Gipfeln. Welche Ausnahme des § 23 KUG passt dem Wortlaut nach am ehesten?",
+     "image_id": null,
+     "options": [
+      "Personen nur als Beiwerk neben einer Landschaft",
+      "Bildnis aus dem Bereich der Zeitgeschichte",
+      "Bild von Versammlungen und Aufzügen",
+      "Keine – Personen brauchen immer eine Einwilligung"
+     ],
+     "correct": 0,
+     "explanation": "§ 23 nennt Bilder, auf denen Personen nur als Beiwerk neben einer Landschaft erscheinen [Q2]. Wären die Wanderer groß und bildbestimmend, passte „nur als Beiwerk“ nicht mehr."
+    },
+    {
+     "question": "Du fotografierst eine geschützte Skulptur auf einem öffentlichen Platz in Deutschland mit der Drohne von oben und willst das Bild in einem Buch veröffentlichen. Was sagt der BGH (2024)?",
+     "image_id": null,
+     "options": [
+      "Drohnen-Luftaufnahmen geschützter Werke fallen nicht unter die Panoramafreiheit",
+      "Die Panoramafreiheit gilt unabhängig vom Standpunkt, solange das Werk öffentlich steht",
+      "Nur Bauwerke sind von oben ausgeschlossen, Skulpturen nicht",
+      "Die Panoramafreiheit gilt aus der Luft, wenn die Drohne unter 120 m fliegt"
+     ],
+     "correct": 0,
+     "explanation": "Der BGH bezieht die Panoramafreiheit auf das von der Allgemeinheit wahrnehmbare Straßen- oder Landschaftsbild; Drohnenaufnahmen gehören nicht dazu [Q4]. Die 120-m-Grenze ist Luftrecht, kein Urheberrecht [Q6]."
+    },
+    {
+     "question": "Was gilt laut den Quellen seit dem 1. Januar 2024 für zivile Drohnen in China?",
+     "image_id": null,
+     "options": [
+      "Die Interim Regulations verlangen u. a. Real-Name-Registrierung und Beachtung von Flugbeschränkungsgebieten",
+      "Für Touristen gelten die EU-Regeln der Open-Kategorie",
+      "Nur Drohnen über 25 kg müssen registriert werden",
+      "Drohnen dürfen ohne Registrierung fliegen, solange sie unter 120 m bleiben"
+     ],
+     "correct": 0,
+     "explanation": "Die Regulations traten am 1. 1. 2024 in Kraft und verlangen Real-Name-Registrierung und Aktivierung [Q7]; Shanghai fordert die Registrierung vor dem Flug [Q8]. Details für ausländische Reisende vor der Reise offiziell klären."
+    },
+    {
+     "question": "Was macht dieses Bild anfällig für eine klischeehafte Lesart – und was wirkt dagegen?",
+     "image_id": "i7420e4bdb4",
+     "options": [
+      "Direkter Blick, leuchtende Farbe, namenloses „Mädchen“ – dagegen steht der Kontext Monsun und Überschwemmung, den die Bildunterschrift liefert",
+      "Die Unschärfe im Hintergrund – dagegen hilft nur ein anderes Objektiv",
+      "Das Hochformat – im Querformat wäre es dokumentarisch",
+      "Nichts: Ein frontales Porträt kann nie ein Klischee sein"
+     ],
+     "correct": 0,
+     "explanation": "Das Muster des farbigen, namenlosen Reiseporträts liegt nahe; die Unterschrift verankert es als Bild aus dem Monsun auf Java [S383232]. Der grüne Boden ist Wasser – Information, die gegen die Idylle arbeitet."
+    },
+    {
+     "question": "Was zeigt diese Überlagerung über Fotografie an berühmten Orten?",
+     "image_id": "ib80d6c76b4",
+     "options": [
+      "Die meisten Besucher wählen fast denselben Standpunkt – der scharfe Kern ist ihr Konsens",
+      "Das Taj Mahal ist bei Dunst nicht fotografierbar",
+      "Die Künstlerin hat ein einziges Foto stark weichgezeichnet",
+      "Touristenfotos sind technisch schlechter als professionelle"
+     ],
+     "correct": 0,
+     "explanation": "Die Bilder sind etwa hundert ausgerichtete Fotos [S954702]; Vionnet fragt, wo wir stehen, um die Fassade symmetrisch zu bekommen [S430641]. Scharf bleibt, was alle gleich gewählt haben."
+    }
+   ]
+  },
+  {
+   "dimension": "editing-selection",
+   "track": "grundlagen",
+   "order": 5,
+   "title": "Auswahl und Editing: vom Kontaktbogen zur Auswahl",
+   "sources": [
+    {
+     "url": "https://www.icp.org/content/magnum-contact-sheets",
+     "title": "ICP (International Center of Photography): Magnum Contact Sheets",
+     "excerpt": "Contact sheets tell the truth behind a photograph. They unveil its process, and provide its back story. Was it the outcome of what a photographer had in mind from the outset? Did it emerge from a diligently worked sequence, or was the right shot down to pure serendipity - a matter of being in the right place at the right time?"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-contact-sheets/",
+     "title": "Magnum Photos: Magnum Contact Sheets",
+     "excerpt": "Presenting a remarkable selection of contact sheets and related material by 67 Magnum photographers, Magnum Contact Sheets lays bare the creative methods, strategies and editing processes behind some of the world's most iconic images — was the final image a set-up, or a serendipitous encounter; did the photographer work to extract the potential from a situation, or was it the fabled 'decisive moment'?"
+    },
+    {
+     "url": "https://unitednationsofphotography.com/2012/10/21/magnum-contacts/",
+     "title": "United Nations of Photography: Grant Scott im Gespräch mit Kristen Lubben (Herausgeberin von „Magnum Contact Sheets“)",
+     "excerpt": "You have your hopes and intentions about what you are striving for, but then you have to sit down with a contact sheet and a loupe to deal with the reality of what you have actually captured."
+    },
+    {
+     "url": "https://unitednationsofphotography.com/2012/10/21/magnum-contacts/",
+     "title": "United Nations of Photography: Lubben über Chris Andersons Kontaktbögen",
+     "excerpt": "Chris Anderson's contact sheets of images from Afghanistan contain the marked circle around the image he chose for its newsworthiness at the time, which was used in magazines around the world. It was only in subsequent years, when he returned to the sheets, that he saw another frame, which to him was much more symbolically meaningful about the war. It's that process of being able to go back and re-edit your own work with a different eye, or purpose."
+    },
+    {
+     "url": "https://unitednationsofphotography.com/2012/10/21/magnum-contacts/",
+     "title": "United Nations of Photography: Grant Scott über Fotografen als Editoren",
+     "excerpt": "However, it is a widely recognised fact that many photographers are the worst editors of their own work. They also often believe that their latest shots are their best; whether they are or not."
+    },
+    {
+     "url": "https://unitednationsofphotography.com/2012/10/21/magnum-contacts/",
+     "title": "United Nations of Photography: Lubben über die Bildredaktion",
+     "excerpt": "Photographers now edit their own work in the field and upload only the images they believe to be right, therefore cutting out the role of the photo editor; a role which, at the height of photo magazines in the middle of the 20th century, was so huge and important."
+    },
+    {
+     "url": "https://unitednationsofphotography.com/2012/10/21/magnum-contacts/",
+     "title": "United Nations of Photography: Scott über zwei Arten des Editing",
+     "excerpt": "That brings me round to the fact that editing can be broken down into two separate processes: the art of editing in camera, and the art of editing the captured images; two art forms that are very difficult to teach and are often undervalued."
+    },
+    {
+     "url": "https://unitednationsofphotography.com/2012/10/21/magnum-contacts/",
+     "title": "United Nations of Photography: Lubben über Begeisterung und Auswahl",
+     "excerpt": "The issue is getting them to understand that what they are most excited about, or are currently working on, does not necessarily show their work at its best."
+    }
+   ],
+   "intro_md": "Editing heißt hier nicht Bildbearbeitung, sondern **Auswahl**: aus vielen Aufnahmen die wenigen finden, die tragen, und den Rest ehrlich liegen lassen. Robert Frank ging 767 Filme mit 27.000 Bildern durch; daraus wurde eine Folge von 83 Bildern [S123467]. Das Verhältnis zeigt, wo Autorschaft auch entsteht – nicht nur beim Auslösen, sondern beim Weglassen. Der Kontaktbogen war jahrzehntelang das Werkzeug dafür; er zeigt, wie ein Bild entstanden ist, ob geplant, erarbeitet oder geschenkt [Q1]. Diese Lektion lehrt, das eigene Material so zu lesen, Kriterien zu benennen, Lieblinge zu streichen, Abstand zu gewinnen und Paare zu bilden – die Vorstufe zur Sequenz.",
+   "sections": [
+    {
+     "heading": "Zwei Arten von Editing",
+     "body_md": "Grant Scott unterscheidet das Editieren in der Kamera vom Editieren der gemachten Bilder – zwei Künste, die schwer zu lehren sind und oft unterschätzt werden [Q7]. Die erste ist dir vertraut: Standpunkt, Rahmen, Moment wählen heißt schon auswählen. Die zweite beginnt zu Hause und folgt anderen Regeln. Beim Fotografieren entscheidest du unter Zeitdruck und mit allen Sinnen; am Bildschirm hast du nur noch das Bild. Alles, was nicht im Rahmen steht – die Kälte, der Aufstieg, das Gespräch –, zählt dann nicht mehr.\n\nDaraus folgt der Grundsatz dieser Lektion: **Ausgewählt wird, was das Bild zeigt, nicht, was du erlebt hast.**"
+    },
+    {
+     "heading": "Den Kontaktbogen lesen",
+     "body_md": "„Magnum Contact Sheets“ versammelt Kontaktbögen von 67 Magnum-Fotografen und fragt an jedem Beispiel: war das Bild inszeniert oder gefunden, hat der Fotograf eine Situation ausgearbeitet oder war es der „entscheidende Moment“ [Q2]? Genau so liest du deinen eigenen Bogen – heute die Rasteransicht im Katalog.\n\nAchte auf vier Dinge. **Annäherung:** Wie kommst du dem Motiv näher, von welcher Seite, in wie vielen Schritten? **Varianten:** Welche Bilder unterscheiden sich nur in Geste, Blick oder einer Überschneidung am Rand? **Abbruch:** Wo hörst du auf – zu früh, weil du dachtest, du hättest es? **Wendungen:** Wo drehst du dich plötzlich um? Ein Auktionstext zu Robert Frank beschreibt, dass „Canal Street“ und „Trolley“ auf demselben Streifen von nur fünf Aufnahmen liegen; Frank drehte sich nach der einen um und machte die andere, von „Trolley“ gibt es nur zwei Belichtungen [S150076].\n\nKristen Lubben, die Herausgeberin des Magnum-Bandes, beschreibt den Moment am Leuchttisch: Man hat Hoffnungen und Absichten, und dann muss man sich mit Kontaktbogen und Lupe der Wirklichkeit dessen stellen, was man tatsächlich aufgenommen hat [Q3]."
+    },
+    {
+     "heading": "Kriterien: Was ein Bild trägt",
+     "body_md": "Gute Auswahl braucht Kriterien, die du aussprechen kannst. Bewährt hat sich eine Reihenfolge vom Unverzichtbaren zum Feinen:\n\n1. **Schwelle:** Schärfe, Belichtung, Bewegung – nur als Ausschluss, nie als Grund für die Wahl. Ein technisch perfektes Bild ist noch kein Bild.\n2. **Form:** Sind Ränder, Überschneidungen, Horizont und Gewichte gelöst? Gibt es einen Fehler, den du mit Zuschneiden nicht beheben kannst?\n3. **Moment:** Geste, Blick, Licht auf dem Höhepunkt – oder eine Sekunde zu früh?\n4. **Information:** Erzählt das Bild etwas über den Ort, das ein anderes nicht erzählt?\n5. **Rätsel:** Bleibt etwas offen, das beim zweiten Hinsehen wächst?\n\nZwischen zwei fast gleichen Bildern entscheidet selten die Technik, sondern eine Kleinigkeit in Punkt 2 oder 3. Bei Serien kommt ein sechstes Kriterium hinzu: Was tut das Bild für die anderen? Ein schwächeres Einzelbild kann in der Folge wichtiger sein als ein starkes, das alles wiederholt."
+    },
+    {
+     "heading": "Kill your darlings",
+     "body_md": "Scott hält es für bekannt, dass viele Fotografen die schlechtesten Editoren ihrer eigenen Arbeit sind und ihre neuesten Bilder oft für ihre besten halten [Q5]. Lubben stimmt zu: Das, wovon man gerade begeistert ist, zeigt die Arbeit nicht unbedingt am besten [Q8].\n\nEin „Darling“ ist ein Bild, dessen Wert für dich aus dem Erlebnis kommt: der Sonnenaufgang nach drei Stunden Aufstieg, das Tier nach zwei Tagen Warten, der Ort, der so schwer zu erreichen war. Das **Klischee-Gegenbeispiel** ist die Best-of-Auswahl einer Reise, in der jedes Bild ein Höhepunkt sein will: zwölf Sonnenuntergänge, die einander das Licht stehlen. Ein Test hilft: Begründe die Wahl in einem Satz, in dem weder die Mühe noch die Umstände vorkommen. Gelingt das nicht, gehört das Bild ins Archiv, nicht in die Auswahl."
+    },
+    {
+     "heading": "Abstand und Wiederkehr",
+     "body_md": "Lubben erzählt von Chris Andersons Kontaktbögen aus Afghanistan: Markiert war das Bild, das damals als Nachricht taugte und weltweit gedruckt wurde; erst Jahre später sah er ein anderes Bild, das ihm symbolisch mehr über den Krieg sagte – Editing heißt auch, mit anderem Blick oder Zweck zurückzukehren [Q4]. Abstand ist also kein Luxus, sondern ein Werkzeug.\n\nFay Godwins Ausstellung „Land“ zeigte eine Auswahl von 111 Fotografien als Resümee von zehn Jahren Arbeit [S158031]. Wer so lange auswählt, sieht ein einzelnes Bild immer wieder in neuen Nachbarschaften. Für Reisen bedeutet das einen Dreischritt: am Abend grob aussortieren (nur Ausschüsse löschen), nach einer Woche eine erste Auswahl mit Begründung, nach Monaten die endgültige – dann, wenn die Erinnerung nicht mehr mitstimmt."
+    },
+    {
+     "heading": "Paare, Diptychon und der Weg zur Sequenz",
+     "body_md": "Zwei Bilder nebeneinander erzeugen eine dritte Bedeutung. Sie können sich **echoen** (gleiche Form, anderer Inhalt), **kontrastieren** (nah/fern, voll/leer, Mensch/Landschaft) oder **erzählen** (vorher/nachher). Die Bechers zeigten ihre Werke in Typologien, Gruppen von Bildern desselben Bautyps [S167031]; bei „Gas Tanks“ ist Gruppierung und Reihenfolge eigens von Hilla Becher festgelegt [S374621]. Auch die strengste Serie braucht also eine redaktionelle Entscheidung.\n\nFrank verdichtete seine 27.000 Bilder zu einer Folge von 83 [S123467] – das ist bereits Sequenz, Thema einer späteren Lektion. Für die Auswahl genügt hier eine Übung: Lege jedes Kandidatenbild neben jedes andere und frage, ob das Paar mehr sagt als jedes allein. Bilder, die nur allein funktionieren, sind gute Einzelbilder; Bilder, die nur im Paar funktionieren, sind Bausteine."
+    },
+    {
+     "heading": "Das fremde Auge: Bildredaktion",
+     "body_md": "Lubben beobachtet, dass Fotografen heute schon im Feld editieren und nur hochladen, was sie für richtig halten – und damit die Rolle der Bildredaktion umgehen, die zur Blütezeit der Magazine enorm wichtig war [Q6]. Eine Bildredakteurin kennt deine Mühen nicht und ist deshalb frei von deinen Darlings.\n\nOhne Redaktion hilft ein Ersatz: eine Person, die dein Material ohne Erklärung sieht und drei Bilder nennt; oder du selbst in einer anderen Rolle, etwa indem du die Auswahl als Fremder vorführst, der nur die Bilder kennt. **Alternative Lesart** zur ganzen Lektion: Nicht jede Auswahl muss verdichten. Manche Arbeiten leben gerade von der Fülle, von Wiederholung und Variation – auch das ist eine Entscheidung, keine Faulheit."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "i5afdcfbda0",
+     "caption_md": "Die Fahrgäste stehen in Fensterfeldern wie in Einzelbildern übereinander und nebeneinander; oben spiegeln die Scheiben, unten die genietete Wand. Ein Auktionstext vergleicht die Wirkung mit einem Kontaktbogen oder Filmstreifen [S324972]. Auf diesem Abzug stehen am unteren Rand handschriftliche Markierungen – eine Ziffer, ein Buchstabe, ein Kreis; was sie bedeuten: Keine Quelle hinterlegt. „Trolley“ wurde das Titelbild der ersten amerikanischen Ausgabe [S348838]. **Alternative Lesart:** Dass es zur Ikone wurde, ist auch eine Folge der Auswahl – im Buch steht es für die ganze Serie.",
+     "look_for": [
+      "Raster aus Fenstern",
+      "jeder Kopf in eigenem Feld",
+      "Markierungen auf dem Rand des Abzugs"
+     ]
+    },
+    {
+     "image_id": "i153680a238",
+     "caption_md": "Das Gegenstück vom selben Filmstreifen: dichtes Gedränge auf dem Gehweg, Gesichter überlagern sich, niemand ist getrennt. Laut Auktionstext entstand es Momente bevor Frank sich umdrehte und „Trolley“ aufnahm [S150076]; dort wird es als völliger Gegensatz zur Strenge der Fensterreihe beschrieben [S609476]. Meine Einschätzung: Zwei starke Bilder aus einer Minute – das eine wurde Ikone, das andere ist weniger bekannt. So sieht eine Entscheidung am Kontaktbogen aus.",
+     "look_for": [
+      "Gedränge ohne Ordnung",
+      "Kontrast zum Raster von „Trolley“",
+      "derselbe Ort, eine Drehung"
+     ]
+    },
+    {
+     "image_id": "iec5ad837fd",
+     "caption_md": "Neun Gasbehälter im Raster, jeder frontal, in flachem Licht, gleich groß im Format. Gleiche Aufnahmebedingungen machen die Unterschiede der Konstruktion lesbar [S352486]; Gruppierung und Reihenfolge dieser Arbeit hat Hilla Becher bestimmt [S374621]. Meine Einschätzung: Auch eine Typologie ist ediert – welche neun, in welcher Ordnung, ist eine Entscheidung über Rhythmus (offenes Gerüst neben geschlossener Wand).",
+     "look_for": [
+      "gleicher Standpunkt, gleiches Licht",
+      "Unterschiede in Gerüst und Hülle",
+      "Rhythmus der Reihen"
+     ]
+    },
+    {
+     "image_id": "i8c9432c5bd",
+     "caption_md": "Quadratisch, unten Marschland mit Wasserläufen, oben Himmel, die abgelegene Kirche in der Mitte – so beschreibt es auch der Katalog der British Library, die zugleich festhält, dass eine farbige Version als Umschlag eines Buches diente und das Bild später in „Land“ erschien [S779038]. Meine Einschätzung: Ein Bild, mehrere Verwendungen – die Auswahl entscheidet nicht nur ob, sondern wo und in welcher Fassung ein Bild arbeitet.",
+     "look_for": [
+      "Kirche winzig in der Mitte",
+      "Wasserläufe als Leitlinien",
+      "ein Bild in mehreren Zusammenhängen"
+     ]
+    },
+    {
+     "image_id": "i1f600f7db9",
+     "caption_md": "Fast nur Wand: die dunkle, zerkratzte Fläche eines Getreidesilos, links und rechts ein schmaler heller Spalt. Daneben gelegt mit „Belmond, Iowa“ (ic98bf10edf), wo die Silos klein in Straße und Himmel stehen, entsteht ein Paar aus Nähe und Überblick. Gohlke suchte über Jahre nach der Kraft der Silos als Architektur in einer Landschaft, deren Dramen im Himmel stattfinden [S857765]. Meine Einschätzung: Allein ist dieses Bild fast abstrakt; im Paar wird es zum Maßstab.",
+     "look_for": [
+      "Wand füllt das Format",
+      "zwei Lichtspalte als Rand",
+      "Paar: Detail gegen Kontext"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Editing ist Auswahl und Ausschluss – Autorschaft entsteht auch beim Weglassen.",
+    "Den Kontaktbogen lesen: Annäherung, Varianten, Abbruch, Wendungen.",
+    "Kriterien aussprechen: Technik nur als Schwelle, dann Form, Moment, Information, Rätsel.",
+    "Begründe jede Wahl ohne die Mühe der Aufnahme – sonst ist es ein Darling.",
+    "Abstand ist ein Werkzeug: grob am Abend, Auswahl nach einer Woche, endgültig nach Monaten.",
+    "Paare erzeugen eine dritte Bedeutung und sind der erste Schritt zur Sequenz."
+   ],
+   "exercises": [
+    "Nach einem Fototag: die Rasteransicht eines Motivs mit mindestens 20 Aufnahmen als „Kontaktbogen“ betrachten und notieren, wo du dich angenähert, variiert und abgebrochen hast. Was hättest du noch versuchen müssen?",
+    "Aus einem Reisetag zehn Kandidaten wählen, dann auf drei reduzieren – für jedes der drei ein Satz Begründung ohne Wörter wie „früh“, „mühsam“, „endlich“.",
+    "Aus einer ganzen Reise fünf Paare bilden: je ein Echo, ein Kontrast und ein Vorher/Nachher. Welches Paar sagt mehr als seine Einzelbilder?",
+    "Drei Monate nach der Reise dieselbe Auswahl erneut machen, ohne die alte anzusehen, und vergleichen."
+   ],
+   "quiz": [
+    {
+     "question": "„Canal Street“ und „Trolley“ liegen laut Quelle auf demselben Streifen von nur fünf Aufnahmen. Was lehrt das für das Lesen eines Kontaktbogens?",
+     "image_id": "i153680a238",
+     "options": [
+      "Der Bogen zeigt die Arbeitsweise – Reagieren, Umdrehen –, nicht nur die Treffer",
+      "Gute Bilder entstehen nur bei langer Annäherung an ein Motiv",
+      "Man sollte jedes Motiv mindestens zwanzigmal belichten",
+      "Der Kontaktbogen ist für die Auswahl unerheblich, nur der Abzug zählt"
+     ],
+     "correct": 0,
+     "explanation": "Frank drehte sich nach „Canal Street“ um und machte „Trolley“, von dem es nur zwei Belichtungen gibt [S150076]. Der Bogen dokumentiert Prozess und Zufall – genau das, was laut ICP seine Wahrheit ausmacht [Q1]."
+    },
+    {
+     "question": "Welches Bild ist am ehesten ein „Darling“, den du streichen solltest?",
+     "image_id": null,
+     "options": [
+      "Der Gipfel-Sonnenaufgang, den du nur mit der Mühe des Aufstiegs begründen kannst",
+      "Ein unscheinbares Bild, das in der Folge zwei andere verbindet",
+      "Ein Bild, dessen Form gelöst ist und das etwas Neues über den Ort zeigt",
+      "Ein Detail, das im Paar mit einer Übersicht den Maßstab klärt"
+     ],
+     "correct": 0,
+     "explanation": "Ein Darling lebt von der Erinnerung an seine Entstehung, nicht von dem, was im Rahmen steht. Scott und Lubben beschreiben, wie Fotografen das Neueste und Aufregendste überschätzen [Q5]."
+    },
+    {
+     "question": "Warum ist zeitlicher Abstand beim Auswählen wichtig?",
+     "image_id": null,
+     "options": [
+      "Mit Abstand sieht man andere Bilder und andere Bedeutungen, wie bei Chris Andersons späterem Re-Edit",
+      "Weil Rohdaten nach einiger Zeit besser zu bearbeiten sind",
+      "Weil man nach Monaten die technischen Fehler nicht mehr sieht",
+      "Abstand ist unwichtig; die erste spontane Wahl ist immer die ehrlichste"
+     ],
+     "correct": 0,
+     "explanation": "Anderson fand erst Jahre später ein Bild, das ihm symbolisch mehr über den Krieg sagte [Q4]. Die Erinnerung stimmt mit der Zeit weniger mit, das Bild steht für sich."
+    },
+    {
+     "question": "Was macht diese Neunergruppe als Auswahl lesbar?",
+     "image_id": "iec5ad837fd",
+     "options": [
+      "Gleiche Aufnahmebedingungen und eine bewusst festgelegte Reihenfolge machen die Unterschiede der Bauten vergleichbar",
+      "Jedes Bild ist anders belichtet, damit keine Langeweile entsteht",
+      "Die Bilder sind zufällig angeordnet, die Reihenfolge spielt keine Rolle",
+      "Die Wirkung beruht auf dramatischem Seitenlicht"
+     ],
+     "correct": 0,
+     "explanation": "Die Bechers fotografierten nach gleichem Aufbau in schattenlosem Licht [S352486]; Gruppierung und Reihenfolge dieser Arbeit bestimmte Hilla Becher [S374621]."
+    },
+    {
+     "question": "Welche Funktion hat dieses Bild, wenn man es mit „Belmond, Iowa“ (Silos klein unter weitem Himmel) paart?",
+     "image_id": "i1f600f7db9",
+     "options": [
+      "Kontrast von Nähe und Überblick – das Detail gibt dem Überblick Material und Maßstab",
+      "Echo: beide Bilder zeigen dieselbe Form in derselben Größe",
+      "Vorher/Nachher eines Bauprozesses",
+      "Keine – ein fast abstraktes Bild lässt sich nicht paaren"
+     ],
+     "correct": 0,
+     "explanation": "Hier füllt die Wand das Format, dort stehen die Silos klein in der Landschaft. Das Paar verbindet Oberfläche und Monumentalität – mehr, als jedes Bild allein zeigt."
+    },
+    {
+     "question": "Frank wählte aus rund 27.000 Aufnahmen eine Folge von 83. Was folgt daraus für die eigene Arbeit?",
+     "image_id": null,
+     "options": [
+      "Die meisten Aufnahmen sind Arbeitsmaterial – Auswahl ist ein eigener schöpferischer Schritt",
+      "Frank war ein schlechter Fotograf, weil fast alles misslang",
+      "Man sollte möglichst wenig fotografieren, um nicht auswählen zu müssen",
+      "Eine Serie sollte immer etwa 80 Bilder haben"
+     ],
+     "correct": 0,
+     "explanation": "Die Verdichtung von 27.000 Bildern auf 83 [S123467] zeigt, dass Weglassen Teil der Autorschaft ist; ungenutzte Bilder sind kein Scheitern, sondern Weg."
+    }
+   ]
+  },
+  {
+   "dimension": "project-concept",
+   "track": "grundlagen",
+   "order": 6,
+   "title": "Vom Einzelbild zum Projekt: Konzept, Recherche, Autorschaft",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+     "title": "Magnum Photos: Alec Soth, Sleeping by the Mississippi (Arbeitsweise)",
+     "excerpt": "He drove from location to location, going from one thing to another, with a list of keywords for things he was interested in taped to his steering wheel; … \"Often these are photo clichés, things that look like work by another photographer,\" he says. He first needed to weed out these well-trodden tropes in order to find the personal, the things that would allow him to honestly carve out his own meaning and make pictures"
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+     "title": "Magnum Photos: Alec Soth und die Tradition der Roadtrip-Fotografie",
+     "excerpt": "it was this very relaxation of his personal ambition that eventually allowed him the degree of freedom necessary to accept the influence of the American tradition of road trip photography in his own work – to stop pretending he was reinventing the wheel, to carry on the tradition and make it his own."
+    }
+   ],
+   "intro_md": "Ein gutes Reisebild beantwortet die Frage „Wie sieht es hier aus?“. Ein Projekt stellt eine andere: „Was will ich an diesem Ort wissen, und wie muss ich fotografieren, um es zu zeigen?“ Die Fotografen, die in dieser App am stärksten wirken, arbeiten fast alle so – Burtynsky lässt sich von Ideen an den Ort führen, der fotografiert werden muss [S186617], Sugimoto begann seine Seestücke mit einer Frage [S177371], die Bechers mit einer festen Methode [S352486]. Diese Lektion zeigt den Weg vom Motiv zur Fragestellung, von der Recherche zu den Konstanten einer Serie und von der Wiederholung zur Handschrift. Am Ende steht eine Projektskizze, die du vor der nächsten Reise schreiben kannst.",
+   "sections": [
+    {
+     "heading": "Fragestellung statt Motiv",
+     "body_md": "Ein Motiv ist ein Gegenstand („Karstberge“, „Reisterrassen“), eine Fragestellung ist eine Spannung, die Bilder auflösen sollen. Frank Gohlke fuhr in den 1970er Jahren zwischen Minneapolis und dem Texas Panhandle hin und her, auf der Suche nach einer Antwort auf das Rätsel der Kraft der Getreidesilos als Architektur in einer Landschaft, deren Dramen im Himmel stattfinden [S857765]. Hiroshi Sugimoto fragte, was die unveränderteste Szene auf der Erdoberfläche sei [S177371]. Beide Fragen sind visuell: Sie sagen, wohin man schauen muss, und sie sind nicht mit einem Bild erledigt.\n\nEine brauchbare Projektfrage hat drei Eigenschaften. Sie ist **sichtbar** (ein Bild kann zu ihr etwas beitragen), **offen** (sie verlangt viele Bilder, nicht eines) und **eigen** (sie stammt aus deinem Interesse, nicht aus einer Liste von Sehenswürdigkeiten). „Die schönsten Orte Südchinas“ erfüllt keine davon – das ist das **Klischee-Gegenbeispiel**: eine Ortssammlung mit Länderetikett, kein Projekt."
+    },
+    {
+     "heading": "Recherche vor der Reise",
+     "body_md": "Burtynsky beschreibt, wie die Idee ihn zum Ort drängt und wie die Recherche die Form bestimmt: Für Wasser verlangt die beste Beschreibung meist Höhe [S186617]. Recherche entscheidet also nicht nur das Wohin, sondern auch den Standpunkt. Alec Soth fuhr dem Mississippi entlang zu Orten, die er vage recherchiert hatte, und nutzte den Fluss als Route, um Menschen zu begegnen [S325858] – Recherche als Gerüst, nicht als Drehbuch. Am Lenkrad klebte eine Liste von Stichworten zu dem, was ihn interessierte; was ihn unterwegs anhalten ließ, waren oft Foto-Klischees, die nach der Arbeit anderer aussahen, und die musste er erst aussortieren, um das Eigene zu finden [Q1]. Zhang Kechun bekam den Anstoß für „The Yellow River“ aus einem Roman [S459740]; Richard Misrach begann „Bravo 20“, nachdem bekannt wurde, dass die US-Marine öffentliches Land illegal als Bombenabwurfgebiet nutzte [S260260].\n\nFür eine Reise heißt das vier Arten von Recherche: **Stoff** (Geschichte, Literatur, Nachrichten zum Ort), **Gelände** (Karten, Licht, Wetter, Zugänge – die App liefert davon einiges), **Bilder** (was ist schon da, welche Standpunkte sind verbraucht – mehr als die Hälfte der Top-Sehenswürdigkeiten werden aus denselben drei Winkeln fotografiert [S449005]) und **Menschen** (wen müsste ich fragen, wer kennt den Ort – siehe Lektion Ethik)."
+    },
+    {
+     "heading": "Konstanten: die Methode der Serie",
+     "body_md": "Eine Serie wird lesbar, wenn etwas gleich bleibt und etwas anderes sich ändert. Die Bechers fotografierten jeden Bau nach demselben Aufbau, mit Großformatkamera aus einer von drei festen Perspektiven, in schattenlosem Licht [S352486], und zeigten die Bilder als Typologien [S167031]. Das MoMA beschrieb ihre Absicht: Bauten desselben Prinzips werden verglichen, um die Vielfalt möglicher funktionaler Lösungen zu zeigen [S427577]. Sugimoto setzt den Horizont stets genau in die Mitte, ohne Spuren von Menschen [S598379].\n\nDer Gewinn ist ein Blick, der sich schärft. Thomas Struth sagt, sehr ähnliche Interpretationen desselben Gegenstands schärften den Blick, das Werkzeug des Sehens [S408206]. Für dich heißt das: Lege vor der Reise zwei bis vier Konstanten fest – zum Beispiel Standpunkthöhe, Brennweite, Lichtart, Format – und lass genau eine Variable frei: den Ort, die Tageszeit, das Wetter oder den Menschen im Bild."
+    },
+    {
+     "heading": "Beschränkung als Werkzeug",
+     "body_md": "Konstanten sind selbstgewählte Beschränkungen, und Beschränkungen erzeugen Stil. Stephen Shore wechselte für „Uncommon Places“ zu 4×5- und 8×10-Zoll-Film; die schwerfällige Kamera machte Schnappschüsse schwierig, aber er wollte mehr Details [S477561]. Zhang Kechun reiste mit Faltrad und großformatiger Linhof den Gelben Fluss entlang [S459740], fotografierte an bewölkten Tagen und überbelichtete für einen weichen Tonwertumfang [S763808]. Die Beschränkung ist in jedem Bild sichtbar – und gerade deshalb erkennt man die Serie.\n\nFür einen Reisefotografen mit großer Ausrüstung kann die stärkste Entscheidung sein, sie zu Hause zu lassen: ein Objektiv, ein Seitenverhältnis, eine Tageszeit. Die Frage ist nicht, was die Ausrüstung kann, sondern welche Beschränkung deiner Frage dient."
+    },
+    {
+     "heading": "Handschrift, Stil und die Falle der Wiederholung",
+     "body_md": "John Berger schreibt, jedes Bild verkörpere eine Art zu sehen; auch eine Fotografie sei keine mechanische Aufzeichnung, weil wir immer spüren, dass der Fotograf diese Ansicht aus unendlich vielen ausgewählt hat [S474154]. Handschrift ist deshalb kein Preset, sondern die Summe wiederholter Entscheidungen: wo du stehst, was du weglässt, wann du auslöst.\n\nDie Falle ist Wiederholung ohne Frage. Der Account „insta repeat“ sammelt Bilder, die einander zum Verwechseln gleichen [S135058] – das ist Stil ohne Autor. Der Unterschied zur Typologie der Bechers: Dort dient die Gleichheit einem Vergleich, hier ersetzt sie ihn. Prüfe deine Serie daher mit der Frage, ob die Wiederholung etwas sichtbar macht, das ein Einzelbild nicht zeigen könnte."
+    },
+    {
+     "heading": "Referenzen bewusst nutzen",
+     "body_md": "Niemand arbeitet ohne Vorbilder; die Frage ist, ob man sie kennt. Alec Soth beschreibt, wie er erst die Tradition der amerikanischen Roadtrip-Fotografie annehmen konnte, als er aufhörte, so zu tun, als erfinde er das Rad neu – um sie fortzuführen und zu seiner eigenen zu machen [Q2]. 1976 wurde an der Düsseldorfer Akademie eine Fotoklasse unter Bernd Becher eingerichtet, in ständiger Zusammenarbeit mit Hilla Becher [S158138]. Andreas Gursky sagt, seine Bilder hätten normalerweise einen Himmel und einen Boden, und das gelte nicht nur für ihn, sondern auch für Thomas Ruff, ebenfalls Becher-Schüler [S135721] – ein Beispiel, wie eine Methode über Generationen weiterwirkt und sich verändert.\n\nArbeitsweise: Nenne zu deinem Projekt zwei Referenzen und schreibe auf, was du von ihnen übernimmst (Methode, nicht Look) und wo du bewusst abweichst. Wer nur den Look übernimmt – die Pastelltöne, die winzige Figur –, kopiert; wer die Methode übernimmt und sie auf eine eigene Frage richtet, lernt."
+    },
+    {
+     "heading": "Die Projektskizze",
+     "body_md": "Eine Projektskizze passt auf eine Seite: **Arbeitstitel**; **Frage** in einem Satz; **Gegenstand und Ort**; **Konstanten** (zwei bis vier) und die eine **Variable**; **Recherche** (Stoff, Gelände, Bilder, Menschen) mit Quellen; **Plan** (Orte, Licht, Zeit); **Abbruchkriterium** – woran merkst du, dass die Serie steht?; **Form** (Buch, Wand, Folge von zwölf).\n\nDas Projekt darf wachsen. Misrach fasst seine Arbeit unter dem Begriff „Desert Cantos“, wobei ein Canto der Abschnitt eines langen Gedichts ist [S403485] – eine Struktur, die neue Kapitel aufnehmen kann. **Alternative Lesart** zur ganzen Lektion: Manche starke Arbeit entsteht ohne Plan, aus dem Driften; Soths „vage recherchierte“ Orte [S325858] zeigen, dass ein Konzept auch ein Rahmen für Zufälle sein kann statt eine Liste von Pflichtbildern."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "i7c6568910c",
+     "caption_md": "Vier Ansichten derselben hölzernen Kohleverladeanlage auf einem Blatt, jeweils aus anderer Richtung, in grauem, schattenarmem Licht; unten handschriftlich der Titel. Die MoMA-Pressemitteilung nennt 40 Coal Tipples, aufgenommen 1974 und 1975, jeweils in einer perspektivischen und einer frontalen Ansicht [S939148]. Meine Einschätzung: Die Methode ist hier selbst Bildinhalt – erst im Umrunden wird die Konstruktion verständlich.",
+     "look_for": [
+      "gleiches Licht in allen vier Bildern",
+      "Umrunden als Methode",
+      "Konstruktion statt Stimmung"
+     ]
+    },
+    {
+     "image_id": "icf5d974f03",
+     "caption_md": "Horizont genau in der Mitte, oben heller Dunst, unten dunkles, fein gekräuseltes Wasser, nichts sonst. Sugimoto begann die Serie mit der Frage nach der unveränderten Szene der Erde [S177371]; die Konstante – Horizont in der Mitte, keine Menschen – beschreibt das Cleveland Museum [S598379]. **Alternative Lesart:** Man kann die Serie monoton finden; man kann sie aber als Messinstrument lesen, an dem jede Abweichung in Ton und Dunst bedeutsam wird.",
+     "look_for": [
+      "Horizont exakt in der Mitte",
+      "Tonwert der Wasseroberfläche",
+      "was fehlt: Ort, Mensch, Maßstab"
+     ]
+    },
+    {
+     "image_id": "i1cebb88136",
+     "caption_md": "Dieselbe Konstante, ein anderer Ort: Hier verschwimmt der Horizont fast im Dunst, Himmel und Wasser liegen tonal nah beieinander. Neben „Caribbean Sea, Jamaica“ gelegt, zeigt das Paar, wofür die Methode da ist: Die Variable ist das Wetter des Ortes. Meine Einschätzung: Diese Differenz sähe man im Einzelbild nicht.",
+     "look_for": [
+      "Horizont kaum sichtbar",
+      "geringer Kontrast",
+      "Vergleich mit dem Bild aus Jamaika"
+     ]
+    },
+    {
+     "image_id": "idd43ebb5ff",
+     "caption_md": "Ein Mann steht auf einer flachen Sandinsel im fast weißen, diesigen Fluss, daneben ein orangefarbenes Schlauchboot; der Rest ist helle Fläche. Zhang fotografierte an bewölkten Tagen und überbelichtete für weiche Töne [S763808]; die kleinen Figuren seien dennoch wesentlich, sagt er, ohne sie funktioniere die Szene nicht [S537786]. Meine Einschätzung: Lichtart und Belichtung sind hier Projektentscheidungen, nicht Zufall des Tages.",
+     "look_for": [
+      "helle, kontrastarme Tonwerte",
+      "winzige Figur als Maß",
+      "orangefarbener Akzent"
+     ]
+    },
+    {
+     "image_id": "i76c3e01db2",
+     "caption_md": "Ein Blick von erhöhter Position in eine riesige Baustelle mit Kränen, Turbinenschächten und Gerüsten, ohne Himmel als Ausweg. Burtynsky beschreibt, wie Ideen und Recherche ihn zum Ort drängen und die Form bestimmen – oft von oben [S186617]. Meine Einschätzung: Der hohe Standpunkt ist hier die Konsequenz einer Fragestellung nach Maßstab, nicht ein Effekt.",
+     "look_for": [
+      "erhöhter Standpunkt",
+      "Dichte ohne Horizont",
+      "Menschen kaum auffindbar"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Ein Projekt beginnt mit einer sichtbaren, offenen, eigenen Frage – nicht mit einer Motivliste.",
+    "Recherche bestimmt Ort und Standpunkt: Stoff, Gelände, vorhandene Bilder, Menschen.",
+    "Konstanten machen Unterschiede sichtbar; lass genau eine Variable frei.",
+    "Beschränkung erzeugt Stil – wähle sie nach der Frage, nicht nach der Ausrüstung.",
+    "Handschrift ist die Summe wiederholter Entscheidungen; Wiederholung ohne Frage ist Masche.",
+    "Referenzen: Methode übernehmen, Look nicht – und die Abweichung benennen."
+   ],
+   "exercises": [
+    "Für die nächste Reise eine Projektskizze auf einer Seite schreiben (Arbeitstitel, Frage, Konstanten, Variable, Recherche, Abbruchkriterium, Form).",
+    "Eine Typologie vor Ort: zwölf gleichartige Dinge (Brücken, Tempeltore, Bootsanleger) mit identischem Standpunkt, gleicher Brennweite und gleichem Licht fotografieren und als Raster legen.",
+    "Einen Tag mit einer Beschränkung arbeiten (ein Objektiv, nur Hochformat, nur bei Bewölkung) und am Abend notieren, was die Beschränkung sichtbar gemacht hat.",
+    "Für einen bekannten Spot drei Standardbilder aus dem Netz sammeln, ihre Standpunkte auf der Karte markieren und einen eigenen Standpunkt planen, der deiner Projektfrage dient."
+   ],
+   "quiz": [
+    {
+     "question": "Welche Formulierung ist eine Projektfrage im Sinne dieser Lektion?",
+     "image_id": null,
+     "options": [
+      "Wie verändert der Tagestourismus das Ufer des Li-Flusses zwischen Morgen und Mittag?",
+      "Die schönsten Karstberge um Guilin",
+      "Meine besten Bilder aus Südchina",
+      "Reisterrassen bei Sonnenaufgang"
+     ],
+     "correct": 0,
+     "explanation": "Nur die erste ist sichtbar, offen und verlangt viele Bilder; die anderen nennen Motive oder Sammlungen – das Klischee-Gegenbeispiel einer Ortsliste."
+    },
+    {
+     "question": "Warum zeigt dieses Blatt dieselbe Anlage aus mehreren Richtungen?",
+     "image_id": "i7c6568910c",
+     "options": [
+      "Die feste Methode (perspektivische und frontale Ansicht) macht die Konstruktion vergleichbar und verständlich",
+      "Weil keine der Aufnahmen allein scharf genug war",
+      "Um die Anlage in verschiedenen Jahreszeiten zu zeigen",
+      "Weil die Bechers für jede Ansicht ein anderes Licht suchten"
+     ],
+     "correct": 0,
+     "explanation": "Die Coal Tipples wurden jeweils perspektivisch und frontal gezeigt [S939148]; gleiche Aufnahmebedingungen sind Teil der Methode [S352486]."
+    },
+    {
+     "question": "Was bleibt in dieser Serie konstant, und was ist die Variable?",
+     "image_id": "icf5d974f03",
+     "options": [
+      "Konstant: Horizont in der Mitte, keine Menschen – variabel: Ton, Dunst, Wasseroberfläche des Ortes",
+      "Konstant: das Wetter – variabel: die Höhe des Horizonts",
+      "Konstant: der Ort – variabel: die Brennweite",
+      "Nichts ist konstant; jedes Bild ist ein Einzelwerk"
+     ],
+     "correct": 0,
+     "explanation": "Laut Cleveland Museum liegt der Horizont stets genau in der Mitte, ohne Menschen [S598379]; was sich ändert, ist das Licht und Wasser jedes Ortes."
+    },
+    {
+     "question": "Was sagt Burtynsky über das Verhältnis von Recherche und Standpunkt?",
+     "image_id": null,
+     "options": [
+      "Die Idee drängt ihn an den Ort und bestimmt die Form – für Wasser oft eine erhöhte Position",
+      "Er wählt den Standpunkt zuerst und sucht dann ein Thema dafür",
+      "Recherche spielt keine Rolle, er arbeitet intuitiv vor Ort",
+      "Er fotografiert grundsätzlich auf Augenhöhe, um neutral zu bleiben"
+     ],
+     "correct": 0,
+     "explanation": "Er sucht die Form, die einem Aspekt der Recherche am besten entspricht; Wasser verlange meist Höhe [S186617]."
+    },
+    {
+     "question": "Welche Projektentscheidung ist in diesem Bild sichtbar?",
+     "image_id": "idd43ebb5ff",
+     "options": [
+      "Helles, weiches Licht durch bewölkte Tage und Überbelichtung – eine Konstante der Serie",
+      "Starkes Gegenlicht zur Silhouettenbildung",
+      "Teleobjektiv-Verdichtung zur Steigerung der Dramatik",
+      "Nachtaufnahme mit langer Belichtungszeit"
+     ],
+     "correct": 0,
+     "explanation": "Zhang fotografierte an bewölkten Tagen und überbelichtete für einen weichen Tonwertumfang [S763808]; das macht die Serie wiedererkennbar."
+    },
+    {
+     "question": "Was unterscheidet eine Typologie von bloßer Wiederholung eines Looks?",
+     "image_id": null,
+     "options": [
+      "In der Typologie dient die Gleichheit einem Vergleich, der Unterschiede sichtbar macht",
+      "Typologien sind immer schwarzweiß",
+      "Wiederholung ist erlaubt, wenn die Bilder auf Instagram erfolgreich sind",
+      "Es gibt keinen Unterschied, beides ist Stil"
+     ],
+     "correct": 0,
+     "explanation": "Die Bechers verglichen Bauten desselben Prinzips, um die Vielfalt der Lösungen zu zeigen [S427577]; „insta repeat“ zeigt dagegen Gleichheit ohne Erkenntnis [S135058]."
+    }
+   ]
+  },
+  {
+   "dimension": "image-and-text",
+   "track": "grundlagen",
+   "order": 7,
+   "title": "Bild und Text: Titel, Bildunterschrift, Statement",
+   "sources": [
+    {
+     "url": "https://www.uv.es/~fores/programa/barthes_rhetoricimage.html",
+     "title": "Universitat de València, Kursseite: Zusammenfassung von Roland Barthes, „Rhetoric of the Image“ (mit Seitenangaben nach „Image, Music, Text“)",
+     "excerpt": "With anchorage, \"the text directs the reader through the signifieds of the image...remote-control[ing] him towards a meaning chosen in advance\" (39-40, italics in text). In a system of relay, \"text...and image stand in a complementary relationship...and the unity of the message is realized at [the] level of the story, the anecdote, the diegesis\" (41). Most systems are actually a combination of anchorage and relay and \"the dominance of the one or the other is of consequence for the general economy of a work\" (41)."
+    },
+    {
+     "url": "https://site.picter.com/nppa-bop-2025/terms",
+     "title": "NPPA Best of Photojournalism 2025, Caption Guide",
+     "excerpt": "Captions must be accurate and answer the basic questions of good journalism. … The first clause should describe who is in the photograph and what is going on within the photo in the present tense followed by the city, state or province and country (if outside the United States) as appropriate. The last portion of the first sentence should be the date. … Captions must give attribution of action not seen (e.g. the scene of an accident where more than 10 died, according to police)."
+    },
+    {
+     "url": "https://site.picter.com/nppa-bop-2025/terms",
+     "title": "NPPA Best of Photojournalism 2025, Caption Guide (Porträts)",
+     "excerpt": "The second sentence of the caption is used to give context to the news event or describes why the photo is significant. … If the photograph is a portrait, the caption must make it explicitly clear that the photograph is a portrait and was posed and directed."
+    },
+    {
+     "url": "https://nanpa.org/why-nanpa/ethics/",
+     "title": "NANPA (North American Nature Photography Association): Ethics",
+     "excerpt": "It is essential the photographer communicate completely and accurately the field conditions and circumstances of a nature image. There should be truthful disclosure of the conditions under which the image was captured."
+    },
+    {
+     "url": "https://minerva.union.edu/PhotoAtUnion/ArtistStatement/StatementPage.html",
+     "title": "Union College, Photography: Artist Statements – A Quick(er) Guide",
+     "excerpt": "Your artist statement is a written description of your work that gives your audience deeper insight into it. Your statement should include whatever is most important to you and your work. Your artist statement supplements the visual information in your portfolio. … Write in simple sentences using simple words. … Never use weak phrases that reflect insecutities like \"I am hoping to,\" \"I am trying to,\" or \"I would like to.\""
+    }
+   ],
+   "intro_md": "Kaum ein Foto erscheint ohne Text: Titel an der Wand, Bildunterschrift in Zeitung und Buch, Ortsangabe und Hashtag im Netz, ein Statement neben der Serie. Text ist kein Zubehör – er entscheidet mit, was man im Bild sieht. Roland Barthes hat dafür zwei Begriffe geprägt: **Verankerung**, bei der der Text den Leser zu einer vorab gewählten Bedeutung lenkt, und **Relais**, bei der Text und Bild sich ergänzen und erst zusammen erzählen [Q1]. Diese Lektion zeigt, wie Titel deuten, wie eine journalistische Bildunterschrift gebaut ist, warum ehrliche Ortsangaben eine ethische Frage sind und wie man ein Künstlerstatement schreibt, das die Bilder stützt statt sie zu erklären.",
+   "sections": [
+    {
+     "heading": "Verankerung und Relais",
+     "body_md": "Ein Bild ist mehrdeutig; es kann vieles bedeuten. In Barthes' Analyse lenkt der Text bei der Verankerung den Leser durch die Bedeutungen des Bildes zu einer vorab gewählten; beim Relais stehen Text und Bild in einem ergänzenden Verhältnis, und die Einheit der Botschaft entsteht auf der Ebene der Geschichte [Q1]. Die meisten Systeme kombinieren beides, und welches überwiegt, prägt das ganze Werk [Q1].\n\nFür Fotografen heißt das: Eine Bildunterschrift wie „Bauern beim Pflanzen von Reis, Provinz Guangxi, Mai“ verankert – sie schließt andere Lesarten aus (Tourismusinszenierung, Landschaftsstudie). Ein Satz aus einem Reisetagebuch neben einem Bild, das etwas anderes zeigt, ist Relais: Er erzählt, was das Bild nicht kann, und das Bild zeigt, was der Satz nicht sagt. Verankerung ist richtig, wo Information zählt; Relais, wo eine Erzählung entstehen soll. Falsch ist nur, nicht zu wissen, welches man gerade tut."
+    },
+    {
+     "heading": "Der Titel als Deutung",
+     "body_md": "Titel reichen von nüchterner Inventarnummer bis zur These. Awoiska van der Molen gibt ihren Landschaften nur Nummern; ein Essay beschreibt, dass sie ohne Beschreibungen und Titel dem Betrachter ermöglicht, die Bilder „mit offenen Sinnen“ zu erleben [S348685]. Zhang Kechun benennt seine Bilder dagegen wie einen Satz aus einem Bericht: „A Family Spending the Weekend under a Bridge, Shandong, China“ [S629035] – Wer, was, wo, ohne Wertung.\n\nAndere Titel deuten. Thomas Struth wollte mit dem Ausstellungstitel „Unbewusste Orte“ betonen, dass es nicht um Architekturstile gehe, sondern um das, was Gemeinschaften jenseits der Verantwortung einzelner Architekten schaffen [S438089]. Die Bechers nannten ihre Motive „anonyme Skulpturen“ – laut Tate eine Anspielung auf Duchamps Readymades [S167031]. Und Misrachs „White Man Contemplating Pyramids“ macht aus einer winzigen Figur das Thema des Bildes. Ein Titel ist also eine Entscheidung darüber, wie viel Verankerung ein Bild verträgt."
+    },
+    {
+     "heading": "Die journalistische Bildunterschrift",
+     "body_md": "Im Fotojournalismus ist die Bildunterschrift Pflicht und folgt Regeln. Der Wettbewerb der NPPA verlangt: genau sein und die Grundfragen beantworten; der erste Satz nennt im Präsens, wer zu sehen ist und was geschieht, dann den Ort, am Ende das Datum; Handlungen, die nicht im Bild sind, müssen belegt werden („laut Polizei“) [Q2]. Der zweite Satz liefert Kontext oder sagt, warum das Bild bedeutsam ist; ein Porträt muss ausdrücklich als gestellt und angeleitet ausgewiesen werden [Q3].\n\nEin Beispiel aus der World-Press-Photo-Sammlung zeigt die Form: Wasserlinsen bedecken das Wasser im Vorgarten eines Mädchens, während des Monsuns in Bojonegoro, Java; der zweite Satz ordnet den Monsun ein [S383232]. Für die Natur fordert die NANPA, die Umstände der Aufnahme vollständig und wahrheitsgemäß mitzuteilen [Q4]. Und von den 226 Fotografien aus Ansel Adams' Mural Project im US-Nationalarchiv sind die meisten von ihm signiert und beschriftet [S190193]. Das sind Regeln für Glaubwürdigkeit, nicht für Poesie."
+    },
+    {
+     "heading": "Sachlich, poetisch, irreführend – und ehrliche Ortsangaben",
+     "body_md": "In der Kunst darf eine Bildunterschrift poetisch sein; sie darf aber nicht lügen. Gefährlich ist der Text, der mehr behauptet, als das Bild zeigt: „Die letzten Kormoranfischer“ unter einer Szene, deren Umstände man nicht kennt; „unberührte Wildnis“ zehn Meter neben dem Parkplatz. Das **Klischee-Gegenbeispiel** ist die austauschbare Netz-Unterschrift „Magic hour in paradise #wanderlust“: Sie verankert nichts und erzählt nichts, sie behauptet nur Stimmung.\n\nWie ein Text ein Bild in der Öffentlichkeit festlegen kann, beschreibt Carolyn Drake: Ein Bild, auf dem eine Han-chinesische Jadeschnitzerin einen Spruch über die Seele der Jade an den Rand geschrieben hat, wird fast immer gewählt, um ihr Projekt zu repräsentieren – was sie mit Unbehagen sieht [S860347]. Bei Ortsangaben gilt: Bewusste Unschärfe ist ehrlich, wenn sie offen ist („Karstgebiet, Südchina“); die Social-Media-Leitlinien des Leave No Trace Center raten, Fotos überlegt zu taggen, weil empfindliche Orte unter übergroßer Aufmerksamkeit leiden können [S116109]. Falsche Genauigkeit – ein bekannterer Ort statt des tatsächlichen – ist dagegen eine Täuschung."
+    },
+    {
+     "heading": "Das Künstlerstatement",
+     "body_md": "Ein Leitfaden des Union College beschreibt das Statement als schriftliche Beschreibung der Arbeit, die dem Publikum tieferen Einblick gibt und die visuelle Information ergänzt; er rät zu einfachen Sätzen mit einfachen Wörtern und warnt vor unsicheren Formulierungen wie „Ich versuche …“ oder „Ich hoffe …“ [Q5].\n\nEin brauchbarer Aufbau in vier Schritten: **Was** (Gegenstand und Ort, ein Satz), **Wie** (Methode, Konstanten, Zeitraum – das, was man den Bildern nicht ansieht), **Warum** (die Frage des Projekts), **Wofür** (Form und Kontext: Buch, Serie, Ausstellung). Nicht hinein gehört, was der Betrachter fühlen soll – das ist Verankerung an der falschen Stelle –, ebenso wenig Fachjargon oder eine Wiederholung dessen, was ohnehin im Bild steht. Gute Statements sind kurz, konkret und überprüfbar: Man kann an den Bildern nachsehen, ob stimmt, was dort steht."
+    },
+    {
+     "heading": "Schreiben als Werkzeug des Sehens",
+     "body_md": "Text kommt nicht erst am Ende. Wer vor der Reise ein Statement im Entwurf schreibt, hat eine Projektfrage (Lektion Projekt); wer nach der Reise jedem ausgewählten Bild eine sachliche Unterschrift gibt, prüft, was das Bild wirklich zeigt und was er nur weiß (Lektion Auswahl). Oft zeigt sich dabei, dass ein Bild ohne Text nicht funktioniert – dann ist es ein Dokument, kein eigenständiges Bild, und das ist eine wichtige Erkenntnis für die Sequenz.\n\n**Alternative Lesart** zur ganzen Lektion: Manche Fotografen verzichten bewusst auf jeden Text außer einer Nummer, wie van der Molen [S348685]. Auch das ist eine Textentscheidung – die stärkste Form des Relais ist manchmal das Schweigen, das den Betrachter allein lässt."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "iccd5038e42",
+     "caption_md": "Links die steile Flanke einer Pyramide, rechts eine Mauer, in der Mitte ein Schuttweg mit einer winzigen dunklen Figur, im Hintergrund eine zweite Pyramide. Ohne Titel wäre die Figur ein Maßstab; der Titel „White Man Contemplating Pyramids“ macht sie zum Thema und den Blick selbst zum Gegenstand. Das Bild gehört zu Misrachs „Desert Cantos“, benannt nach den Abschnitten eines langen Gedichts [S403485]. **Alternative Lesart:** Man kann den Titel als Selbstironie des westlichen Reisenden lesen – oder als Kritik an genau dem Blick, mit dem der Betrachter gerade schaut.",
+     "look_for": [
+      "winzige Figur im Zentrum",
+      "wie der Titel den Blick lenkt",
+      "Ironie zwischen Monument und Betrachter"
+     ]
+    },
+    {
+     "image_id": "i3d60a64c98",
+     "caption_md": "Ein Baum klammert sich an einen fast schwarzen Hang, seine Äste leuchten hell vor grauem Dunst; der Raum dahinter bleibt unbestimmt. Der Titel ist nur eine Nummer, „#382-14“; laut einem Essay ermöglicht van der Molen ohne Titel und Beschreibung ein Erleben „mit offenen Sinnen“ [S348685]. Meine Einschätzung: Der fehlende Ort hält das Bild in der Schwebe – eine Ortsangabe würde es sofort in ein Reisebild verwandeln.",
+     "look_for": [
+      "kein Ort, kein Horizont",
+      "heller Baum vor Dunkel",
+      "was ein Ortsname ändern würde"
+     ]
+    },
+    {
+     "image_id": "ib4d86934fb",
+     "caption_md": "Ein Panorama aus aufgewühltem Boden mit kleinen Grabenden, ringsum von Hand beschriftet mit chinesischen Schriftzeichen; im Bild selbst farbige Zeichnungen. Drake bat eine Han-chinesische Jadeschnitzerin, an einem Foto von uigurischen Jadegräbern zu arbeiten; sie schrieb einen Spruch über die Seele der Jade an den Rand [S378626]. Meine Einschätzung: Hier ist der Text Teil des Bildes – Verankerung durch eine fremde Stimme, die der Fotografin selbst nicht gehört.",
+     "look_for": [
+      "Schrift als Rahmen",
+      "kleine Figuren im Gelände",
+      "wessen Stimme spricht?"
+     ]
+    },
+    {
+     "image_id": "ie8b47098fa",
+     "caption_md": "Der Snake River zieht in einer hellen S-Kurve durch dunklen Wald auf die Gipfelkette zu, darüber schwere Wolken mit hellen Rändern. Von den Fotografien dieses Auftrags im US-Nationalarchiv sind die meisten von Adams signiert und beschriftet [S190193]; der Titel ist rein topografisch: „The Tetons and the Snake River“. Meine Einschätzung: Die nüchterne Unterschrift überlässt das Pathos ganz dem Bild – ein Fall, in dem knappe Verankerung (Ort) und starke Bildrhetorik sich nicht stören.",
+     "look_for": [
+      "S-Kurve des Flusses",
+      "Licht auf den Wolkenrändern",
+      "rein topografischer Titel"
+     ]
+    },
+    {
+     "image_id": "i2b86d15a66",
+     "caption_md": "Eine riesige Brücke schneidet von oben ein dunkles Dreieck in den hellen Himmel; darunter, klein am sandigen Ufer, eine Familie mit Kindern. Der Titel benennt nüchtern, was zu sehen ist: „A Family Spending the Weekend under a Bridge, Shandong, China“ [S629035]. Meine Einschätzung: Der Satz klingt wie eine Bildunterschrift aus der Zeitung; die Spannung zwischen Infrastruktur und Freizeit überlässt er dem Bild.",
+     "look_for": [
+      "Brücke als Dreieck",
+      "kleine Figuren am Ufer",
+      "Titel im Reportagestil"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Verankerung lenkt auf eine Bedeutung, Relais erzählt zusammen mit dem Bild – wisse, welches du tust.",
+    "Ein Titel ist eine Deutung: von der Nummer (offen) bis zur These (geführt).",
+    "Journalistische Bildunterschrift: wer, was, wo, wann im ersten Satz; Kontext im zweiten; Inszenierung offenlegen.",
+    "Text darf poetisch sein, aber nicht mehr behaupten, als das Bild und deine Kenntnis tragen.",
+    "Ortsangaben: offene Unschärfe ist ehrlich, falsche Genauigkeit ist Täuschung.",
+    "Statement: einfach, kurz, überprüfbar – Was, Wie, Warum, Wofür; nicht vorschreiben, was man fühlen soll."
+   ],
+   "exercises": [
+    "Für fünf Reisebilder je drei Texte schreiben: eine NPPA-Bildunterschrift (wer, was, wo, wann), einen Titel als These und einen Relais-Satz aus dem Tagebuch. Welche Version verändert das Bild am stärksten?",
+    "Ein Bild ohne jeden Text einer anderen Person zeigen und ihre Deutung notieren; dann mit Bildunterschrift zeigen. Was ist verloren gegangen, was gewonnen?",
+    "Für dein nächstes Projekt ein Statement von höchstens 150 Wörtern nach Was – Wie – Warum – Wofür schreiben, ohne „ich versuche“ und ohne Adjektive der Wirkung.",
+    "Die Ortsangaben deiner letzten 20 Veröffentlichungen prüfen: genau, bewusst vage oder falsch? Bei empfindlichen Orten auf Regionsangabe umstellen."
+   ],
+   "quiz": [
+    {
+     "question": "Was meint Barthes mit „Verankerung“ (anchorage)?",
+     "image_id": null,
+     "options": [
+      "Der Text lenkt den Leser durch die Bedeutungen des Bildes zu einer vorab gewählten",
+      "Text und Bild erzählen gemeinsam eine Geschichte, die keiner allein trägt",
+      "Das Bild wird am Rand durch einen Rahmen fixiert",
+      "Die Bildunterschrift steht immer unter dem Bild statt daneben"
+     ],
+     "correct": 0,
+     "explanation": "So fasst die Quelle Barthes zusammen [Q1]; die zweite Option beschreibt das Relais."
+    },
+    {
+     "question": "Welches Beispiel ist am ehesten ein Relais?",
+     "image_id": null,
+     "options": [
+      "Neben einem leeren Hotelzimmer steht ein Tagebuchsatz über ein Gespräch am Vorabend",
+      "„Bauern pflanzen Reis, Guangxi, 12. Mai 2026“",
+      "„#382-14“",
+      "„Gelber Fluss bei Lanzhou“"
+     ],
+     "correct": 0,
+     "explanation": "Beim Relais ergänzen sich Text und Bild, die Einheit entsteht auf der Ebene der Erzählung [Q1]. Die anderen Texte verankern oder benennen nur."
+    },
+    {
+     "question": "Was gehört laut NPPA-Leitfaden in den ersten Satz einer Bildunterschrift?",
+     "image_id": null,
+     "options": [
+      "Wer zu sehen ist und was geschieht (Präsens), dann der Ort, am Ende das Datum",
+      "Die Kameradaten und die Brennweite",
+      "Eine Deutung, warum das Bild schön ist",
+      "Der Name des Fotografen und der Bildagentur"
+     ],
+     "correct": 0,
+     "explanation": "So beschreibt es der Caption Guide [Q2]; Kontext folgt im zweiten Satz [Q3], Bildnachweise gehören nicht in die Unterschrift."
+    },
+    {
+     "question": "Was bewirkt der Titel „White Man Contemplating Pyramids“ in diesem Bild?",
+     "image_id": "iccd5038e42",
+     "options": [
+      "Er macht die winzige Figur zum Thema und den Blick des Reisenden selbst zum Gegenstand",
+      "Er liefert die genaue Ortsangabe nach journalistischem Standard",
+      "Er ist bloß eine Inventarnummer ohne Deutung",
+      "Er beschreibt die Lichtsituation"
+     ],
+     "correct": 0,
+     "explanation": "Ohne Titel wäre die Figur nur Maßstab; mit Titel wird sie Subjekt und Pointe. Das ist Verankerung mit Ironie."
+    },
+    {
+     "question": "Warum hat dieses Bild nur eine Nummer als Titel?",
+     "image_id": "i3d60a64c98",
+     "options": [
+      "Ohne Beschreibung und Titel soll man es „mit offenen Sinnen“ erleben – der fehlende Ort hält es offen",
+      "Weil der Ort geheim bleiben muss, um ihn vor Touristen zu schützen",
+      "Weil die Fotografin den Ort vergessen hat",
+      "Weil Schwarzweißbilder grundsätzlich nummeriert werden"
+     ],
+     "correct": 0,
+     "explanation": "So beschreibt es der Essay zu van der Molen [S348685]. Über Schutzgründe sagt die Quelle nichts."
+    },
+    {
+     "question": "Welcher Statement-Satz entspricht dem Union-College-Leitfaden am besten?",
+     "image_id": null,
+     "options": [
+      "„Ich fotografiere seit 2024 Flussufer in Südchina, immer bei Bewölkung und aus Augenhöhe, um zu zeigen, wie Freizeit die Ufer verändert.“",
+      "„I am trying to explore the liminal spaces of being.“",
+      "„Diese Bilder sollen den Betrachter tief berühren und zum Nachdenken anregen.“",
+      "„Meine Arbeit dekonstruiert hegemoniale Narrative der Landschaft im postdigitalen Diskurs.“"
+     ],
+     "correct": 0,
+     "explanation": "Einfache Sätze, konkrete Methode, keine unsicheren Formeln wie „I am trying to“ [Q5]; die dritte Option schreibt Gefühle vor, die vierte ist Jargon."
+    }
+   ]
+  }
+ ]
+}
