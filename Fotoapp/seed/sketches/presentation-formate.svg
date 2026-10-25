@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 215" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- same phone width: how much screen each format takes in the feed -->
+  <rect x="20" y="14" width="80" height="150" rx="10" class="m"/>
+  <rect x="140" y="14" width="80" height="150" rx="10" class="m"/>
+  <rect x="260" y="14" width="80" height="150" rx="10" class="m"/>
+  <rect x="25" y="70" width="70" height="37" class="f"/>
+  <path d="M25 100 l20 -16 l12 9 l14 -12 l24 19" />
+  <rect x="145" y="54" width="70" height="70" class="f"/>
+  <path d="M145 112 l20 -24 l12 12 l14 -18 l24 28" />
+  <rect x="265" y="45" width="70" height="88" class="a"/>
+  <rect x="265" y="45" width="70" height="88" class="af" stroke="none" fill-opacity="0.18"/>
+  <path d="M265 120 l20 -30 l12 14 l14 -22 l24 34" />
+  <text x="60" y="184" text-anchor="middle">Querformat</text>
+  <text x="60" y="198" text-anchor="middle" class="m">kleinste Fläche</text>
+  <text x="180" y="184" text-anchor="middle">Quadrat</text>
+  <text x="180" y="198" text-anchor="middle" class="m">Pflicht 2010–2015</text>
+  <text x="300" y="184" text-anchor="middle" class="a">4:5 hoch</text>
+  <text x="300" y="198" text-anchor="middle" class="m">größte Fläche</text>
+</svg>

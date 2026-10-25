@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- observed / arranged / staged on one scale of intervention -->
+  <text x="180" y="16" text-anchor="middle" class="m">Eingriff in die Szene</text>
+  <line x1="20" y1="110" x2="335" y2="110" class="m"/>
+  <path d="M329 106 l6 4 l-6 4" class="m"/>
+  <circle cx="60" cy="110" r="5" class="af" stroke="none"/>
+  <circle cx="180" cy="110" r="5" class="af" stroke="none"/>
+  <circle cx="300" cy="110" r="5" class="af" stroke="none"/>
+  <!-- observed: eye + figure untouched -->
+  <path d="M30 70 q14 -12 28 0 q-14 12 -28 0 z"/><circle cx="44" cy="70" r="3.5"/>
+  <line x1="78" y1="88" x2="78" y2="62"/><circle cx="78" cy="57" r="4"/>
+  <path d="M62 70 h8" class="m" stroke-dasharray="2 2"/>
+  <!-- arranged: hand moves figure -->
+  <line x1="166" y1="88" x2="166" y2="62" class="m" stroke-dasharray="2 2"/><circle cx="166" cy="57" r="4" class="m" stroke-dasharray="2 2"/>
+  <line x1="196" y1="88" x2="196" y2="62"/><circle cx="196" cy="57" r="4"/>
+  <path d="M172 46 Q182 36 192 46" class="a"/><path d="M186 44 l6 2 l0 -6" class="a"/>
+  <!-- staged: two frames merged -->
+  <rect x="268" y="48" width="40" height="30"/>
+  <rect x="284" y="58" width="40" height="30" class="a"/>
+  <path d="M284 78 h24 v-20" class="f" stroke="none"/>
+  <text x="60" y="134" text-anchor="middle" class="h">Beobachtet</text>
+  <text x="60" y="150" text-anchor="middle" class="m">nichts verändert;</text>
+  <text x="60" y="163" text-anchor="middle" class="m">Standpunkt, Moment</text>
+  <text x="180" y="134" text-anchor="middle" class="h">Arrangiert</text>
+  <text x="180" y="150" text-anchor="middle" class="m">eingegriffen,</text>
+  <text x="180" y="163" text-anchor="middle" class="m">nicht erfunden</text>
+  <text x="300" y="134" text-anchor="middle" class="h">Inszeniert</text>
+  <text x="300" y="150" text-anchor="middle" class="m">hergestellt oder</text>
+  <text x="300" y="163" text-anchor="middle" class="m">zusammengesetzt</text>
+  <text x="180" y="192" text-anchor="middle" class="a">Alle legitim – wenn klar ist, welcher Vertrag gilt.</text>
+</svg>

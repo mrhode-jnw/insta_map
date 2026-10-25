@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Fenton: two exposures from one tripod position; cannonballs beside vs on the road -->
+  <text x="180" y="16" text-anchor="middle" class="m">derselbe Stativpunkt, zwei Aufnahmen</text>
+  <rect x="15" y="28" width="150" height="100"/>
+  <path d="M15 70 Q60 58 90 64 Q130 54 165 66" class="m"/>
+  <path d="M70 128 L88 68 M120 128 L94 68"/>
+  <g class="mf">
+    <circle cx="45" cy="110" r="3" stroke="none"/><circle cx="52" cy="98" r="3" stroke="none"/><circle cx="38" cy="96" r="3" stroke="none"/>
+    <circle cx="140" cy="112" r="3" stroke="none"/><circle cx="132" cy="100" r="3" stroke="none"/><circle cx="148" cy="96" r="3" stroke="none"/>
+    <circle cx="60" cy="84" r="2.5" stroke="none"/><circle cx="122" cy="84" r="2.5" stroke="none"/>
+  </g>
+  <rect x="195" y="28" width="150" height="100" class="a"/>
+  <path d="M195 70 Q240 58 270 64 Q310 54 345 66" class="m"/>
+  <path d="M250 128 L268 68 M300 128 L274 68"/>
+  <g class="af">
+    <circle cx="268" cy="112" r="3" stroke="none"/><circle cx="282" cy="104" r="3" stroke="none"/><circle cx="274" cy="96" r="3" stroke="none"/>
+    <circle cx="262" cy="100" r="3" stroke="none"/><circle cx="286" cy="118" r="3" stroke="none"/><circle cx="272" cy="84" r="2.5" stroke="none"/>
+    <circle cx="276" cy="78" r="2" stroke="none"/><circle cx="258" cy="118" r="3" stroke="none"/>
+  </g>
+  <text x="90" y="148" text-anchor="middle" class="h">Kugeln neben</text>
+  <text x="90" y="162" text-anchor="middle" class="h">der Straße</text>
+  <text x="270" y="148" text-anchor="middle" class="a">Kugeln auf der Straße</text>
+  <text x="270" y="162" text-anchor="middle" class="m">das zweite, berühmte Bild</text>
+  <text x="180" y="190" text-anchor="middle" class="a">Erst der Vergleich zeigt den Eingriff.</text>
+</svg>

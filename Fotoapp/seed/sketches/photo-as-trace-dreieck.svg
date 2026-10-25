@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- three answers to "what is a photo?" as corners of one triangle -->
+  <path d="M180 52 L78 168 L282 168 Z" class="m" stroke-dasharray="4 4"/>
+  <rect x="155" y="112" width="50" height="36"/><rect x="155" y="112" width="50" height="36" class="f" stroke="none"/>
+  <path d="M155 140 L170 126 L180 134 L192 122 L205 136"/>
+  <text x="180" y="162" text-anchor="middle" class="m">Foto</text>
+  <circle cx="180" cy="52" r="6" class="af" stroke="none"/>
+  <circle cx="78" cy="168" r="6" class="af" stroke="none"/>
+  <circle cx="282" cy="168" r="6" class="af" stroke="none"/>
+  <text x="180" y="16" text-anchor="middle" class="h">Spur</text>
+  <text x="180" y="30" text-anchor="middle" class="a">Was war da?</text>
+  <text x="250" y="48" class="m">Bazin, Peirce,</text>
+  <text x="250" y="61" class="m">Barthes</text>
+  <text x="70" y="192" text-anchor="middle" class="h">Dokument</text>
+  <text x="70" y="206" text-anchor="middle" class="a">Wofür gebraucht?</text>
+  <text x="70" y="220" text-anchor="middle" class="m">Kontext, Text</text>
+  <text x="290" y="192" text-anchor="middle" class="h">Konstruktion</text>
+  <text x="290" y="206" text-anchor="middle" class="a">Was wurde gewählt?</text>
+  <text x="290" y="220" text-anchor="middle" class="m">Flusser, Shore, Sontag</text>
+</svg>

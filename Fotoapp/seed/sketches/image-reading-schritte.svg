@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- four steps as a staircase; dashed shortcut = "gefällt mir" -->
+  <text x="175" y="14" text-anchor="middle" class="a">„gefällt mir“ – Urteil ohne Gründe</text>
+  <path d="M28 64 Q175 -6 318 52" class="a" stroke-dasharray="4 4"/>
+  <path d="M311 46 l7 6 l-8 3" class="a"/>
+  <rect x="10" y="120" width="80" height="30" class="f"/>
+  <rect x="97" y="105" width="80" height="45" class="f"/>
+  <rect x="184" y="90" width="80" height="60" class="f"/>
+  <rect x="271" y="75" width="80" height="75" class="f"/>
+  <line x1="5" y1="150" x2="355" y2="150" class="m"/>
+  <text x="50" y="112" text-anchor="middle" class="h">Beschreiben</text>
+  <text x="137" y="97" text-anchor="middle" class="h">Analysieren</text>
+  <text x="224" y="82" text-anchor="middle" class="h">Deuten</text>
+  <text x="311" y="67" text-anchor="middle" class="h">Urteilen</text>
+  <text x="50" y="140" text-anchor="middle" class="a">1</text>
+  <text x="137" y="132" text-anchor="middle" class="a">2</text>
+  <text x="224" y="125" text-anchor="middle" class="a">3</text>
+  <text x="311" y="117" text-anchor="middle" class="a">4</text>
+  <text x="50" y="166" text-anchor="middle" class="m">Was sehe ich?</text>
+  <text x="137" y="166" text-anchor="middle" class="m">Wie gebaut?</text>
+  <text x="224" y="166" text-anchor="middle" class="m">Was bedeutet</text>
+  <text x="224" y="180" text-anchor="middle" class="m">es, warum?</text>
+  <text x="311" y="166" text-anchor="middle" class="m">Gut – nach</text>
+  <text x="311" y="180" text-anchor="middle" class="m">welchem Maß?</text>
+</svg>

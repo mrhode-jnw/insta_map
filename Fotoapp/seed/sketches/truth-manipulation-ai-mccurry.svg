@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 215" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- landscape frame turned into a portrait cover by extending the water downwards -->
+  <rect x="15" y="50" width="140" height="92"/>
+  <path d="M15 112 Q85 106 155 112" class="m"/>
+  <rect x="15" y="112" width="140" height="30" class="f" stroke="none"/>
+  <circle cx="100" cy="98" r="8"/><path d="M62 112 v-24 h20 v24" class="m"/><circle cx="72" cy="84" r="9" class="m"/>
+  <text x="85" y="162" text-anchor="middle" class="h">Aufnahme</text>
+  <text x="85" y="176" text-anchor="middle" class="m">Querformat</text>
+  <path d="M168 96 h26" class="m"/><path d="M189 92 l5 4 l-5 4" class="m"/>
+  <rect x="210" y="14" width="110" height="168"/>
+  <rect x="210" y="14" width="110" height="92" class="m" stroke-dasharray="2 2"/>
+  <path d="M210 76 Q265 70 320 76" class="m"/>
+  <rect x="210" y="76" width="110" height="30" class="f" stroke="none"/>
+  <circle cx="276" cy="62" r="8"/><path d="M234 76 v-24 h20 v24" class="m"/><circle cx="244" cy="48" r="9" class="m"/>
+  <rect x="210" y="106" width="110" height="76" class="af" stroke="none" fill-opacity="0.25"/>
+  <path d="M220 124 q8 -4 16 0 t16 0 t16 0 t16 0 t16 0 M220 146 q8 -4 16 0 t16 0 t16 0 t16 0 t16 0 M220 166 q8 -4 16 0 t16 0 t16 0 t16 0 t16 0" class="a"/>
+  <text x="265" y="200" text-anchor="middle" class="a">Wasser nach unten verlängert</text>
+</svg>

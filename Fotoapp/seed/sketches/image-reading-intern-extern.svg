@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- inner frame = internal information, dashed ring = external information -->
+  <rect x="10" y="22" width="340" height="150" rx="10" class="a" stroke-dasharray="5 4"/>
+  <text x="20" y="16" class="a">extern: was du aus anderen Quellen weißt</text>
+  <text x="22" y="46" class="m">Titel</text>
+  <text x="22" y="100" class="m">Bild-</text><text x="22" y="113" class="m">unterschrift</text>
+  <text x="338" y="46" text-anchor="end" class="m">Ausstellungstext</text>
+  <text x="338" y="100" text-anchor="end" class="m">Wissen über</text>
+  <text x="338" y="113" text-anchor="end" class="m">die Fotografin</text>
+  <rect x="115" y="45" width="130" height="95"/>
+  <rect x="115" y="45" width="130" height="95" class="f" stroke="none"/>
+  <path d="M115 112 L150 80 L170 96 L195 70 L245 110" />
+  <text x="180" y="158" text-anchor="middle" class="h">intern: was das Bild zeigt</text>
+  <!-- denotation vs connotation -->
+  <text x="20" y="196" class="h">Wortwahl:</text>
+  <text x="95" y="196">„Haus“</text>
+  <text x="95" y="212" class="m">denotiert</text>
+  <path d="M150 192 h40" class="m"/><path d="M185 188 l5 4 l-5 4" class="m"/>
+  <text x="205" y="196" class="a">„Hütte“</text>
+  <text x="205" y="212" class="m">konnotiert – deutet schon</text>
+</svg>

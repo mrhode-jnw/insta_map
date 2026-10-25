@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- the picturesque recipe: coulisse, foreground, middle ground with ruin, background, winding path -->
+  <rect x="10" y="12" width="230" height="160"/>
+  <path d="M10 82 Q60 62 100 74 Q150 56 190 70 Q220 64 240 72" class="m"/>
+  <path d="M10 112 Q80 100 140 108 Q200 98 240 106"/>
+  <path d="M10 150 Q70 140 120 146 Q190 136 240 144 V172 H10 Z" class="f"/>
+  <!-- coulisse tree -->
+  <path d="M38 172 V60" /><path d="M38 70 q-22 -6 -20 -28 q4 -22 26 -18 q24 -2 22 22 q2 20 -28 24" class="f"/>
+  <path d="M38 96 l14 -10" />
+  <!-- ruin -->
+  <path d="M150 108 v-22 h8 v6 h6 v-10 h8 v26" />
+  <!-- winding path -->
+  <path d="M120 172 Q90 154 128 140 Q160 130 140 118 Q132 112 150 108" class="a"/>
+  <!-- labels -->
+  <g class="m">
+    <path d="M60 50 H252" stroke-dasharray="2 3"/>
+    <path d="M200 74 H252" stroke-dasharray="2 3"/>
+    <path d="M172 96 H252" stroke-dasharray="2 3"/>
+    <path d="M140 124 H252" stroke-dasharray="2 3"/>
+    <path d="M200 158 H252" stroke-dasharray="2 3"/>
+  </g>
+  <text x="256" y="54">Baum als Kulisse</text>
+  <text x="256" y="78">Hintergrund</text>
+  <text x="256" y="100">Ruine, Mittelgrund</text>
+  <text x="256" y="128" class="a">gewundener Weg</text>
+  <text x="256" y="162">Vordergrund</text>
+  <text x="125" y="192" text-anchor="middle" class="m">Natur, die aussieht wie ein Bild</text>
+</svg>

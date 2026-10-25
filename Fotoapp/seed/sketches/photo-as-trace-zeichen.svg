@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Peirce: index, icon, symbol - a photo combines all three -->
+  <text x="60" y="18" text-anchor="middle" class="h">Index</text>
+  <text x="180" y="18" text-anchor="middle" class="h">Ikon</text>
+  <text x="300" y="18" text-anchor="middle" class="h">Symbol</text>
+  <!-- index: fire and smoke -->
+  <path d="M48 112 q-6 -14 6 -24 q0 10 8 12 q4 -10 0 -18 q14 10 10 30 z" class="a"/>
+  <path d="M40 114 h44" class="m"/>
+  <path d="M58 80 q-10 -10 0 -20 q10 -10 0 -22" class="m"/>
+  <path d="M68 76 q-8 -10 2 -18" class="m"/>
+  <!-- icon: mountain and its likeness -->
+  <path d="M130 112 L150 70 L170 112" />
+  <rect x="182" y="72" width="48" height="40"/>
+  <path d="M184 110 L206 80 L228 110" class="m"/>
+  <text x="176" y="96" text-anchor="middle" class="m">≈</text>
+  <!-- symbol: b/w frame read by convention -->
+  <rect x="270" y="70" width="60" height="42"/>
+  <rect x="270" y="70" width="60" height="42" class="f" stroke="none"/>
+  <text x="300" y="95" text-anchor="middle" class="m">S/W</text>
+  <text x="60" y="136" text-anchor="middle">Rauch → Feuer</text>
+  <text x="60" y="152" text-anchor="middle" class="m">physische</text>
+  <text x="60" y="165" text-anchor="middle" class="m">Verbindung</text>
+  <text x="180" y="136" text-anchor="middle">sieht aus wie</text>
+  <text x="180" y="152" text-anchor="middle" class="m">Ähnlichkeit</text>
+  <text x="300" y="136" text-anchor="middle">S/W = „früher“</text>
+  <text x="300" y="152" text-anchor="middle" class="m">Konvention</text>
+  <text x="180" y="192" text-anchor="middle" class="a">Ein Foto ist alles drei zugleich.</text>
+</svg>

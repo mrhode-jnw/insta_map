@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 215" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- same scene: original, darker sky (interpretation), other sky (content) -->
+  <rect x="15" y="14" width="96" height="62"/>
+  <path d="M15 62 L45 36 L62 50 L82 30 L111 58"/>
+  <rect x="132" y="14" width="96" height="62"/>
+  <path d="M132 14 h96 v40 L199 30 L179 50 L162 36 L132 62 z" class="f" stroke="none"/>
+  <path d="M132 14 h96 v40 L199 30 L179 50 L162 36 L132 62 z" class="f" stroke="none"/>
+  <path d="M132 62 L162 36 L179 50 L199 30 L228 58"/>
+  <rect x="249" y="14" width="96" height="62" class="a"/>
+  <path d="M249 62 L279 36 L296 50 L316 30 L345 58"/>
+  <circle cx="330" cy="26" r="5" class="a"/>
+  <path d="M262 24 h1 M276 20 h1 M292 28 h1 M304 18 h1 M268 34 h1" class="a"/>
+  <text x="63" y="94" text-anchor="middle" class="m">Aufnahme</text>
+  <text x="180" y="94" text-anchor="middle">Himmel dunkler</text>
+  <text x="180" y="108" text-anchor="middle" class="m">= Interpretation</text>
+  <text x="297" y="94" text-anchor="middle" class="a">anderer Himmel</text>
+  <text x="297" y="108" text-anchor="middle" class="m">= Inhalt</text>
+  <!-- scale -->
+  <rect x="15" y="134" width="150" height="16" class="f"/>
+  <rect x="165" y="134" width="95" height="16"/>
+  <rect x="260" y="134" width="85" height="16" class="a"/>
+  <rect x="260" y="134" width="85" height="16" class="af" stroke="none" fill-opacity="0.3"/>
+  <text x="90" y="172" text-anchor="middle" class="h">Interpretation</text>
+  <text x="90" y="186" text-anchor="middle" class="m">Ton, Farbe, S/W: frei</text>
+  <text x="212" y="172" text-anchor="middle" class="h">Manipulation</text>
+  <text x="212" y="186" text-anchor="middle" class="m">Inhalt geändert</text>
+  <text x="302" y="172" text-anchor="middle" class="a">Betrug</text>
+  <text x="302" y="186" text-anchor="middle" class="m">verschwiegen</text>
+  <text x="180" y="208" text-anchor="middle" class="a">Maßstab: der Vertrag mit dem Betrachter</text>
+</svg>

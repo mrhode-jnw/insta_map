@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 185" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- facing pages read as a pair; a landscape across the gutter loses its middle -->
+  <path d="M10 30 Q50 22 90 30 Q130 22 170 30 V130 Q130 122 90 130 Q50 122 10 130 Z" class="m"/>
+  <line x1="90" y1="30" x2="90" y2="130" class="m"/>
+  <rect x="22" y="52" width="56" height="44" class="f"/><path d="M22 86 l18 -16 l12 10 l26 -20" />
+  <rect x="102" y="52" width="56" height="44" class="f"/><path d="M102 86 l18 -16 l12 10 l26 -20" />
+  <path d="M60 110 Q90 124 120 110" class="a"/><path d="M114 108 l6 2 l-2 6 M66 108 l-6 2 l2 6" class="a"/>
+  <text x="90" y="150" text-anchor="middle">gegenüber = Paar</text>
+  <text x="90" y="164" text-anchor="middle" class="m">ob gewollt oder nicht</text>
+  <path d="M190 30 Q230 22 270 30 Q310 22 350 30 V130 Q310 122 270 130 Q230 122 190 130 Z" class="m"/>
+  <rect x="200" y="46" width="140" height="64" class="f"/>
+  <path d="M200 96 l40 -26 l30 18 l20 -12 l50 26" />
+  <line x1="270" y1="30" x2="270" y2="130" class="a" stroke-width="3"/>
+  <circle cx="270" cy="84" r="10" class="a" stroke-dasharray="2 2"/>
+  <text x="270" y="150" text-anchor="middle">quer über den Bund</text>
+  <text x="270" y="164" text-anchor="middle" class="a">die Mitte geht verloren</text>
+</svg>

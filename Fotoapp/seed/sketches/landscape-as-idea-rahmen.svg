@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 205" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- one terrain, two frames: the frame decides what the land "is" -->
+  <path d="M10 100 L50 60 L75 78 L110 34 L150 80 L185 50 L230 92 L270 70 L350 104"/>
+  <path d="M10 132 Q120 120 200 128 T350 124" class="m"/>
+  <!-- road and village -->
+  <path d="M200 175 Q215 140 245 120 Q262 110 300 106" />
+  <path d="M260 150 h14 v-10 l7 -6 l7 6 v10 M292 156 h14 v-10 l7 -6 l7 6 v10" class="m"/>
+  <path d="M330 168 v-46 M326 126 h8" class="m"/>
+  <!-- frame A: peaks only -->
+  <rect x="40" y="22" width="150" height="88" class="a"/>
+  <text x="115" y="16" text-anchor="middle" class="a">A: nur Gipfel</text>
+  <!-- frame B: wider, with road -->
+  <rect x="150" y="40" width="200" height="140" class="m" stroke-dasharray="4 3"/>
+  <text x="250" y="196" text-anchor="middle" class="m">B: mit Straße und Dorf</text>
+  <text x="20" y="160">A: leer, erhaben,</text>
+  <text x="20" y="174">„unberührt“</text>
+  <text x="20" y="196" class="m">B: bewohnt, genutzt</text>
+</svg>

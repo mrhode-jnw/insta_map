@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 235" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- decision tree for own practice -->
+  <rect x="80" y="10" width="200" height="40" rx="6"/>
+  <text x="180" y="27" text-anchor="middle" class="h">Inhalt verändert?</text>
+  <text x="180" y="42" text-anchor="middle" class="m">hinzu, weg, getauscht</text>
+  <path d="M120 50 L70 86 M240 50 L270 86"/>
+  <text x="88" y="66" text-anchor="end" class="m">nein</text><text x="262" y="70" class="m">ja</text>
+  <rect x="10" y="88" width="130" height="54" rx="6" class="f"/>
+  <text x="75" y="108" text-anchor="middle" class="h">frei</text>
+  <text x="75" y="122" text-anchor="middle" class="m">Licht, Farbe,</text>
+  <text x="75" y="135" text-anchor="middle" class="m">Kontrast, S/W</text>
+  <rect x="205" y="88" width="130" height="40" rx="6"/>
+  <text x="270" y="106" text-anchor="middle" class="h">offengelegt?</text>
+  <text x="270" y="120" text-anchor="middle" class="m">Hinweis, Kontext</text>
+  <path d="M240 128 L200 164 M300 128 L320 164"/>
+  <text x="200" y="148" class="m">ja</text><text x="316" y="148" class="m">nein</text>
+  <rect x="140" y="166" width="120" height="54" rx="6" class="f"/>
+  <text x="200" y="186" text-anchor="middle" class="h">Composite, Kunst</text>
+  <text x="200" y="200" text-anchor="middle" class="m">kann stark sein –</text>
+  <text x="200" y="213" text-anchor="middle" class="m">als Bild</text>
+  <rect x="270" y="166" width="80" height="54" rx="6" class="a"/>
+  <text x="310" y="186" text-anchor="middle" class="a">Vertrag</text>
+  <text x="310" y="200" text-anchor="middle" class="a">gebrochen</text>
+</svg>

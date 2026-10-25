@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- one negative / raw file, several valid prints -->
+  <rect x="15" y="60" width="80" height="58" class="m" stroke-dasharray="3 3"/>
+  <path d="M15 104 L38 82 L52 94 L70 76 L95 100" class="m"/>
+  <text x="55" y="136" text-anchor="middle" class="h">Partitur</text>
+  <text x="55" y="150" text-anchor="middle" class="m">Negativ, Raw</text>
+  <path d="M100 89 Q130 89 150 40 M100 89 H150 M100 89 Q130 89 150 138" class="a"/>
+  <!-- three performances -->
+  <rect x="160" y="16" width="70" height="46" fill="#b4b4b4"/>
+  <path d="M160 52 L180 36 L192 46 L207 32 L230 50 V62 H160 Z" fill="#9c9c9c" stroke="none"/>
+  <rect x="160" y="16" width="70" height="46"/>
+  <rect x="160" y="70" width="70" height="46" fill="#2e2e2e"/>
+  <path d="M160 106 L180 90 L192 100 L207 86 L230 104 V116 H160 Z" fill="#8c8c8c" stroke="none"/>
+  <rect x="160" y="70" width="70" height="46"/>
+  <rect x="160" y="124" width="70" height="46" fill="#f4f4f4"/>
+  <path d="M160 160 L180 144 L192 154 L207 140 L230 158 V170 H160 Z" fill="#0a0a0a" stroke="none"/>
+  <rect x="160" y="124" width="70" height="46"/>
+  <text x="240" y="36">ruhig, leise</text>
+  <text x="240" y="50" class="m">flach, hell</text>
+  <text x="240" y="90">dramatisch</text>
+  <text x="240" y="104" class="m">Himmel dunkel</text>
+  <text x="240" y="144">hart, grafisch</text>
+  <text x="240" y="158" class="m">Schwarz und Weiß voll</text>
+  <text x="180" y="192" text-anchor="middle" class="a">viele gültige Aufführungen</text>
+</svg>

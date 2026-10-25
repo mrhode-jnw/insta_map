@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 195" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- visual weight of picture parts: ranked vs everything equally loud -->
+  <text x="90" y="16" text-anchor="middle" class="h">ausgearbeitet</text>
+  <text x="270" y="16" text-anchor="middle" class="a">„Pop“-Look</text>
+  <line x1="20" y1="130" x2="160" y2="130" class="m"/>
+  <rect x="28" y="40" width="20" height="90" class="af" stroke="none"/>
+  <rect x="56" y="80" width="20" height="50" class="f"/>
+  <rect x="84" y="96" width="20" height="34" class="f"/>
+  <rect x="112" y="108" width="20" height="22" class="f"/>
+  <rect x="140" y="116" width="14" height="14" class="f"/>
+  <line x1="200" y1="130" x2="340" y2="130" class="m"/>
+  <rect x="208" y="48" width="20" height="82" class="f"/>
+  <rect x="236" y="46" width="20" height="84" class="f"/>
+  <rect x="264" y="50" width="20" height="80" class="f"/>
+  <rect x="292" y="47" width="20" height="83" class="f"/>
+  <rect x="320" y="49" width="16" height="81" class="f"/>
+  <text x="90" y="146" text-anchor="middle" class="m">Motiv · Ebenen · Rand</text>
+  <text x="270" y="146" text-anchor="middle" class="m">Motiv · Ebenen · Rand</text>
+  <text x="90" y="170" text-anchor="middle">klare Rangfolge</text>
+  <text x="270" y="170" text-anchor="middle">alles gleich laut</text>
+  <text x="270" y="184" text-anchor="middle" class="m">= nichts wichtig</text>
+</svg>

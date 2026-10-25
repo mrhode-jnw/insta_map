@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 225" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- flat vs steep tone curve and the resulting tonal scale -->
+  <text x="90" y="16" text-anchor="middle" class="h">flache Kurve</text>
+  <text x="270" y="16" text-anchor="middle" class="h">steile Kurve</text>
+  <rect x="30" y="26" width="120" height="110" class="m"/>
+  <line x1="30" y1="136" x2="150" y2="26" class="m" stroke-dasharray="2 3"/>
+  <path d="M30 108 C70 92 110 72 150 54" class="a"/>
+  <rect x="210" y="26" width="120" height="110" class="m"/>
+  <line x1="210" y1="136" x2="330" y2="26" class="m" stroke-dasharray="2 3"/>
+  <path d="M226 136 C252 136 258 100 270 81 C282 62 290 26 314 26" class="a"/>
+  <circle cx="226" cy="136" r="3.5" class="af" stroke="none"/>
+  <circle cx="314" cy="26" r="3.5" class="af" stroke="none"/>
+  <text x="240" y="132" text-anchor="middle" class="m">S</text>
+  <text x="300" y="44" class="m">W</text>
+  <!-- resulting tone bars -->
+  <g stroke="none">
+    <rect x="30" y="148" width="24" height="14" fill="#5a5a5a"/>
+    <rect x="54" y="148" width="24" height="14" fill="#6e6e6e"/>
+    <rect x="78" y="148" width="24" height="14" fill="#828282"/>
+    <rect x="102" y="148" width="24" height="14" fill="#969696"/>
+    <rect x="126" y="148" width="24" height="14" fill="#aaaaaa"/>
+    <rect x="210" y="148" width="24" height="14" fill="#050505"/>
+    <rect x="234" y="148" width="24" height="14" fill="#2a2a2a"/>
+    <rect x="258" y="148" width="24" height="14" fill="#808080"/>
+    <rect x="282" y="148" width="24" height="14" fill="#dcdcdc"/>
+    <rect x="306" y="148" width="24" height="14" fill="#fafafa"/>
+  </g>
+  <rect x="30" y="148" width="120" height="14" class="m"/>
+  <rect x="210" y="148" width="120" height="14" class="m"/>
+  <text x="90" y="182" text-anchor="middle">weich, atmosphärisch</text>
+  <text x="90" y="196" text-anchor="middle" class="m">Mitteltöne tragen</text>
+  <text x="90" y="209" text-anchor="middle" class="m">Dunst und Tiefe</text>
+  <text x="270" y="182" text-anchor="middle">hart, grafisch</text>
+  <text x="270" y="196" text-anchor="middle" class="m">S/W = Schwarz- und</text>
+  <text x="270" y="209" text-anchor="middle" class="m">Weißpunkt</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 215" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Kant's dynamic sublime: overwhelming nature seen from a safe standpoint -->
+  <!-- safe ledge with figure and railing -->
+  <path d="M10 120 H95 V180 H10" class="f"/>
+  <path d="M10 120 H95 V190" />
+  <path d="M85 120 v-16 M70 120 v-16 M64 104 h28" class="m"/>
+  <line x1="52" y1="120" x2="52" y2="96"/><circle cx="52" cy="91" r="4.5"/>
+  <!-- abyss and huge mountain -->
+  <path d="M95 190 Q120 200 150 190" class="m" stroke-dasharray="3 3"/>
+  <path d="M150 190 L190 70 L215 96 L250 30 L300 110 L350 150 V190 Z" class="f"/>
+  <path d="M150 190 L190 70 L215 96 L250 30 L300 110 L350 150"/>
+  <!-- storm -->
+  <path d="M200 30 q10 -18 30 -10 q14 -16 32 -2 q22 -6 26 14 q14 6 4 18 h-92 q-12 -8 0 -20 z" class="m"/>
+  <path d="M262 52 l-8 18 h10 l-8 20" class="a"/>
+  <path d="M60 92 L190 70" class="a" stroke-dasharray="2 3"/>
+  <text x="290" y="146" text-anchor="middle" class="h">Übermacht</text>
+  <text x="290" y="162" text-anchor="middle" class="m">Sturm, Abgrund</text>
+  <text x="52" y="146" text-anchor="middle" class="h">sicherer</text>
+  <text x="52" y="160" text-anchor="middle" class="h">Standpunkt</text>
+  <text x="105" y="20" text-anchor="middle" class="a">beides zusammen</text>
+  <text x="105" y="34" text-anchor="middle" class="a">= erhaben</text>
+  <text x="10" y="206" class="m">ohne Sicherheit: nur Angst</text>
+</svg>

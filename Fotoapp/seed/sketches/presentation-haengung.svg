@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- wall elevation: common centre line at eye level, spacing groups pictures -->
+  <line x1="10" y1="160" x2="350" y2="160" class="m"/>
+  <line x1="10" y1="84" x2="350" y2="84" class="a" stroke-dasharray="5 4"/>
+  <rect x="30" y="66" width="34" height="36"/>
+  <rect x="70" y="66" width="34" height="36"/>
+  <rect x="110" y="66" width="34" height="36"/>
+  <rect x="200" y="44" width="110" height="80" class="f"/>
+  <line x1="335" y1="160" x2="335" y2="96"/><circle cx="335" cy="88" r="6"/>
+  <path d="M341 86 h8" class="a"/>
+  <text x="87" y="124" text-anchor="middle">Gruppe</text>
+  <text x="87" y="138" text-anchor="middle" class="m">enge Abstände</text>
+  <text x="172" y="124" text-anchor="middle" class="m">Pause</text>
+  <path d="M150 112 h44" class="m"/><path d="M150 108 v8 M194 108 v8" class="m"/>
+  <text x="255" y="142" text-anchor="middle">Höhepunkt</text>
+  <text x="180" y="30" text-anchor="middle" class="a">Mittellinie auf Augenhöhe</text>
+  <path d="M30 182 H300" class="m"/><path d="M295 178 l5 4 l-5 4" class="m"/>
+  <text x="20" y="196" class="m">Weg durch den Raum: erste Wand → Höhepunkt → Ausgang</text>
+</svg>

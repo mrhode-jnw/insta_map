@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 215" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- content credentials: a signed chain from camera to publication -->
+  <rect x="10" y="20" width="96" height="56" rx="6"/>
+  <rect x="132" y="20" width="96" height="56" rx="6"/>
+  <rect x="254" y="20" width="96" height="56" rx="6"/>
+  <path d="M106 48 h26 M228 48 h26" class="m"/>
+  <path d="M127 44 l5 4 l-5 4 M249 44 l5 4 l-5 4" class="m"/>
+  <rect x="36" y="36" width="30" height="20" rx="3"/><circle cx="51" cy="46" r="6"/>
+  <path d="M158 54 l20 -20 l6 6 l-20 20 z"/>
+  <rect x="284" y="32" width="34" height="28" rx="2"/><path d="M284 52 l10 -8 l8 6 l16 -10" class="m"/>
+  <circle cx="96" cy="70" r="8" class="a"/><path d="M92 70 l3 3 l5 -6" class="a"/>
+  <circle cx="218" cy="70" r="8" class="a"/><path d="M214 70 l3 3 l5 -6" class="a"/>
+  <circle cx="340" cy="70" r="8" class="a"/><path d="M336 70 l3 3 l5 -6" class="a"/>
+  <text x="58" y="96" text-anchor="middle">Kamera</text>
+  <text x="180" y="96" text-anchor="middle">Bearbeitung</text>
+  <text x="302" y="96" text-anchor="middle">Veröffentlichung</text>
+  <text x="180" y="114" text-anchor="middle" class="m">jeder Schritt gehasht und signiert</text>
+  <line x1="180" y1="128" x2="180" y2="200" class="m"/>
+  <text x="95" y="146" text-anchor="middle" class="h">prüft</text>
+  <text x="95" y="162" text-anchor="middle" class="m">gehört zum Bild,</text>
+  <text x="95" y="176" text-anchor="middle" class="m">korrekt, unverändert</text>
+  <text x="265" y="146" text-anchor="middle" class="a">prüft nicht</text>
+  <text x="265" y="162" text-anchor="middle" class="m">War die Szene gestellt?</text>
+  <text x="265" y="176" text-anchor="middle" class="m">Ist die Angabe „gut“?</text>
+  <text x="265" y="198" text-anchor="middle" class="m">ohne Zertifikat ≠ falsch</text>
+</svg>

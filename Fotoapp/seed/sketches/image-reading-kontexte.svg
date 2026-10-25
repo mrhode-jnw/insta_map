@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- the same picture in three places -->
+  <text x="180" y="16" text-anchor="middle" class="h">Dasselbe Bild – drei Orte</text>
+  <!-- magazine page -->
+  <rect x="15" y="34" width="95" height="110" class="m"/>
+  <path d="M24 44 h60 M24 52 h76" class="m"/>
+  <rect x="24" y="60" width="76" height="46"/><rect x="24" y="60" width="76" height="46" class="f" stroke="none"/>
+  <path d="M24 94 L50 74 L64 86 L80 70 L100 92"/>
+  <path d="M24 116 h76 M24 124 h70 M24 132 h76" class="m"/>
+  <!-- museum wall -->
+  <line x1="130" y1="144" x2="230" y2="144" class="m"/>
+  <rect x="142" y="52" width="76" height="46"/><rect x="142" y="52" width="76" height="46" class="f" stroke="none"/>
+  <path d="M142 86 L168 66 L182 78 L198 62 L218 84"/>
+  <rect x="137" y="47" width="86" height="56" class="m"/>
+  <rect x="226" y="72" width="6" height="8" class="mf" stroke="none"/>
+  <path d="M158 132 h44 M162 132 v12 M198 132 v12" class="m"/>
+  <!-- phone -->
+  <rect x="262" y="30" width="72" height="118" rx="10" class="m"/>
+  <circle cx="274" cy="44" r="4" class="m"/><path d="M282 44 h30" class="m"/>
+  <rect x="266" y="54" width="64" height="40"/><rect x="266" y="54" width="64" height="40" class="f" stroke="none"/>
+  <path d="M266 84 L288 66 L300 76 L314 62 L330 80"/>
+  <path d="M272 104 l4 -3 l4 3 l-4 5 z M288 101 h6 M300 101 h6" class="a"/>
+  <path d="M272 120 h50 M272 128 h40" class="m"/>
+  <!-- labels -->
+  <text x="62" y="166" text-anchor="middle" class="m">Zeitschrift</text>
+  <text x="180" y="166" text-anchor="middle" class="m">Museum</text>
+  <text x="298" y="166" text-anchor="middle" class="m">Instagram</text>
+  <text x="62" y="186" text-anchor="middle" class="a">= Nachricht</text>
+  <text x="180" y="186" text-anchor="middle" class="a">= Kunst</text>
+  <text x="298" y="186" text-anchor="middle" class="a">= Werbung</text>
+</svg>

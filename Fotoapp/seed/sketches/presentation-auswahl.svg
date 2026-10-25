@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Robert Frank, The Americans: from contact sheets to 83 pictures -->
+  <text x="180" y="16" text-anchor="middle" class="h">Robert Frank: Weg zum Buch</text>
+  <rect x="20" y="30" width="320" height="34" class="f"/>
+  <text x="180" y="45" text-anchor="middle">767 Filme</text>
+  <text x="180" y="58" text-anchor="middle" class="m">27.000 Aufnahmen</text>
+  <path d="M60 64 L110 82 M300 64 L250 82" class="m"/>
+  <rect x="110" y="82" width="140" height="34" class="f"/>
+  <text x="180" y="97" text-anchor="middle">ca. 1.000</text>
+  <text x="180" y="110" text-anchor="middle" class="m">Arbeitsabzüge</text>
+  <path d="M130 116 L158 134 M230 116 L202 134" class="m"/>
+  <rect x="158" y="134" width="44" height="34" class="a"/>
+  <text x="180" y="156" text-anchor="middle" class="a">83</text>
+  <text x="180" y="186" text-anchor="middle" class="m">Bilder in Folge – das Buch beginnt mit Weglassen</text>
+  <text x="262" y="97" class="m">am Boden,</text>
+  <text x="262" y="110" class="m">an der Wand</text>
+</svg>
