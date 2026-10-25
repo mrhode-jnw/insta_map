@@ -1,12 +1,12 @@
 # Sehschule – private Fotografie-Lern-App
 
-Lokale Web-App auf dem Mac, nur für den privaten Gebrauch von Mathias. Kein Deployment, keine Veröffentlichung von Bildern.
-Liegt im Repo `insta_map` im Unterordner `Fotoapp/`; Bilder und Datenbank (`data/`) werden nie committet.
+Browser-App auf GitHub Pages (https://mrhode-jnw.github.io/insta_map/Fotoapp/), am Handy nutzbar, nur für den privaten Gebrauch von Mathias. Keine Veröffentlichung von Bildern: Bilder und eigene Daten liegen nur verschlüsselt im Repo (siehe README).
 
 ## Zugang
 
-- Passwortschutz: `APP_PASSWORD` aus `.env`, Login-Seite, signiertes Session-Cookie (`SECRET_KEY`).
-- Alles außer `/login` und `/static/` verlangt Login – auch die Bilddateien (`/media/...`).
+- Zugangscode wie bei der Karte (`../crypto.js`, AES-GCM/PBKDF2). Er entschlüsselt den Bilder-Schlüssel und den Anthropic-Key aus `Fotoapp/config.js`, den GitHub-Token aus `../config.js`.
+- Bilder: Branch `sehschule-media` (`m/`, `t/`, verschlüsselt). Eigene Daten: Branch `map-data`, `sehschule/{analyses,answers,drills,chapters,user_library}.enc` (verschlüsselt).
+- Nichts Unverschlüsseltes mit Bildern oder persönlichen Antworten committen.
 
 ## Ziel
 
@@ -29,9 +29,9 @@ Eigene Bilder kommen erst in einer späteren Stufe dazu.
 ## Stufe 1 – Umfang
 
 ### 0. Sehen lernen (Schwerpunkt, ergänzt)
-- **Sehübungen** (`/sehen`, Tabelle `drills`): je Bild ein Aspekt (Dimensionen in `app/seeing.py`), Frage eng gefasst, erst schauen (Timer), dann Antwort; aufgedeckt wird das passende Feld der gespeicherten Analyse; Feedback per `prompts/drill_feedback_v1.md` (Claude sieht das Bild).
+- **Sehübungen** (`#/sehen`, `drills.enc`): je Bild ein Aspekt (Dimensionen in `js/domain.js`), Frage eng gefasst, erst schauen (Timer), dann Antwort; aufgedeckt wird das passende Feld der gespeicherten Analyse; Feedback per `prompts/drill_feedback_v1.md` (Claude sieht das Bild).
 - **„Erst schauen“-Timer** auch im Lernmodus; tatsächliche Schauzeit wird gespeichert.
-- **Seh-Begriffe** (`/begriffe`, Tabellen `concepts`, `concept_images`, Quellen mit `scope_type=concept`): Kurztext nur aus Quellen, Übung für unterwegs, Beispielbilder mit „Meine Einschätzung“. Import aus `seed/content_sehen.json`.
+- **Seh-Begriffe** (`#/begriffe`, `concepts` in `library.json`, Quellen mit `scope=concept`): Kurztext nur aus Quellen, Übung für unterwegs, Beispielbilder mit „Meine Einschätzung“. Import aus `seed/content_sehen.json`.
 
 ### 1. Bibliothek
 - Struktur: Fotograf → Projekt → Bild.
@@ -55,7 +55,7 @@ Erzeugt per Claude API (Bildanalyse), Ausgabe als JSON nach Schema (unten), gesp
   - Worauf hat er gewartet?
   - Was ist weggelassen?
   - Was hättest du anders gemacht?
-  - plus eine wechselnde fünfte Frage nach Szarkowskis Kategorien (Ding selbst, Detail, Rahmen, Zeit; `answers.q_extra_label/q_extra`).
+  - plus eine wechselnde fünfte Frage nach Szarkowskis Kategorien (Ding selbst, Detail, Rahmen, Zeit; Felder `q_extra_label`/`q_extra`).
 - Nach dem Absenden: Analyse aufdecken, daneben die eigenen Antworten.
 - Kurzes Feedback (3–5 Sätze) von Claude: Wo deckt sich die Antwort mit der Analyse, was wurde übersehen.
 - Antworten und Feedback werden gespeichert (`answers`).
@@ -82,44 +82,29 @@ Vorgeschlagene Kapitel (Inhalte erst beim Füllen mit Quellen belegen):
 
 ## Technik
 
-- **Backend:** Python 3.12, FastAPI, SQLite (SQLModel oder SQLAlchemy), Alembic für Migrationen.
-- **Frontend:** serverseitig gerenderte Templates (Jinja2) + HTMX; schlichtes, dunkles Layout, Bilder groß.
-- **Bilder:** Pillow für Thumbnails; Originale unverändert speichern.
-- **KI:** Anthropic Python SDK. Modellname aus `.env` (`ANTHROPIC_MODEL`), API-Key aus `.env` (`ANTHROPIC_API_KEY`). Bilder als Base64 an die API, verkleinert auf max. 1568 px lange Kante.
-- **Prompts:** als Dateien unter `prompts/` (versioniert), jede Analyse speichert `prompt_version` und `model`.
-- **Start:** `make dev` → `http://localhost:8000`; im Heimnetz auch vom Handy erreichbar (`--host 0.0.0.0`).
+- **Frontend:** statische Browser-App, Vanilla-JS-Module (`js/core.js` Krypto/GitHub/Bilder/Claude, `js/domain.js` Bibliothek/Analyse/Prompts, `js/app.js` Ansichten). Dunkles Layout, mobil zuerst, PWA-Manifest.
+- **Daten:** `data/library.json` wird aus `seed/*.json` gebaut (`tools/build_library.py`, stabile IDs: Bilder `i…`, Quellen 6-stellig für `[S<id>]`). Eigene Bilder/Quellen kommen aus `user_library.enc` dazu.
+- **Bilder:** beim Build auf 1568 px (API-Grenze) und 480 px skaliert, verschlüsselt; im Browser per WebCrypto entschlüsselt und im Cache-Storage gehalten.
+- **KI:** Claude API direkt aus dem Browser (`x-api-key` + `anthropic-dangerous-direct-browser-access`), Modell/Effort aus `config.js`, Structured Outputs (`output_config.format` json_schema), Server-Fallback bei Ablehnung.
+- **Prompts:** Dateien unter `prompts/` (versioniert), jede Analyse speichert `prompt_version` und `model`.
+- **Test:** `tests_web/e2e.js` (Playwright, GitHub/Claude simuliert).
 
 ### Verzeichnisstruktur
 ```
 Fotoapp/
-  app/
-    main.py
-    models.py
-    auth.py        # login / password protection
-    seed.py        # import of seed/*.json (researched starter content)
-    routes/        # library, analysis, learn, history
-    services/      # claude_client.py, images.py, sources.py
-    templates/
-    static/
-  prompts/
-    analysis_v3.md         # aktuell (v1/v2 bleiben für alte Analysen erhalten)
-    analysis_revision_v1.md
-    learn_feedback_v3.md   # mit Gegenlesart wie in einer Crit-Runde
-    drill_feedback_v1.md
-    chapter_draft_v3.md
-  docs/benchmark_hochschulen.md  # Vergleich mit Hochschul-Curricula, Lücken, Empfehlungen
-  data/            # images, thumbs, sehschule.db  (in .gitignore)
-  seed/            # researched starter content: photographers, projects, images, sources, chapters
-  migrations/
-  tests/
-  .env.example
-  Makefile
-  CLAUDE.md
+  index.html, setup.html, style.css, config.js, manifest.webmanifest
+  js/            # core.js, domain.js, app.js
+  prompts/       # analysis_v3, analysis_revision_v1, learn_feedback_v3, drill_feedback_v1, chapter_draft_v3 (+ ältere Versionen)
+  data/library.json
+  seed/          # recherchierter Startbestand (Quellen wörtlich)
+  tools/build_library.py
+  docs/benchmark_hochschulen.md
+  tests_web/e2e.js
 ```
 
 ## Datenmodell (Stufe 1)
 
-Umgesetzt in `app/models.py`, Migration `migrations/versions/0001_initial_schema.py`. Abweichung: `answers.analysis_id` (welche Analyseversion gezeigt wurde). Bei Neuerzeugung enthält das Analyse-JSON zusätzlich `deviations` [{field, reason}], bei entfernten unbelegten Aussagen `warnings`.
+Umgesetzt als JSON: Bibliothek in `data/library.json` (photographers, projects, images, sources mit `scope`/`scope_id`, chapters mit `images`, concepts), Nutzerdaten verschlüsselt in `map-data` (`analyses`: {image_id: [Versionen]}, `answers`, `drills`, `chapters`: {id: {text_md, status, images}}). Bei Neuerzeugung enthält das Analyse-JSON zusätzlich `deviations` [{field, reason}], bei entfernten unbelegten Aussagen `warnings`. Die ursprünglich geplanten SQL-Tabellen unten dienen als Feldbeschreibung.
 
 
 - `photographers` (id, name, born, died, bio_md, created_at)
@@ -292,4 +277,4 @@ Tabellen (Entwurf): `own_images` (id, file_path, original_path, exif_json, impor
 
 - Startbestand an Fotografen/Projekten festlegen (Vorschlag: 8–10 Fotografen à 8–10 Bilder aus je einem Projekt).
 - Welche Quellen pro Kapitel verwendet werden (Museen, Stiftungen, Interviews) – vor dem Schreiben sammeln.
-- Prüfen, ob die Claude API auf Reisen (z. B. China) ohne VPN erreichbar ist.
+- Prüfen, ob die Claude API und GitHub auf Reisen (z. B. China) ohne VPN erreichbar sind.

@@ -51,7 +51,9 @@ window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; wind
   const page = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2 });
   const errors = [];
   page.on("pageerror", e => errors.push(String(e)));
-  page.on("console", m => m.type() === "error" && !/404|Failed to load resource/.test(m.text()) && errors.push(m.text()));
+  page.on("console", m => { if (process.env.DEBUG) console.log("console:", m.type(), m.text()); m.type() === "error" && !/404|Failed to load resource/.test(m.text()) && errors.push(m.text()); });
+  if (process.env.DEBUG) page.on("response", r => r.status() >= 400 && console.log("http", r.status(), r.url().slice(0, 140)));
+  if (process.env.DEBUG) page.on("requestfailed", r => console.log("failed:", r.url(), r.failure()?.errorText));
 
   await page.route(`${base}/Fotoapp/config.js`, r => r.fulfill({ contentType: "text/javascript", body: configJs }));
   await page.route(`${base}/config.js`, r => r.fulfill({ contentType: "text/javascript", body: rootConfig }));
@@ -97,7 +99,9 @@ window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; wind
   await page.fill("#code", "falsch"); await page.click("#lock-form button");
   await waitText("Falscher Zugangscode"); ok(true, "wrong code rejected");
   await page.fill("#code", CODE); await page.click("#lock-form button");
-  await waitText("Zuletzt hinzugefügt"); ok(true, "unlocked, library loaded");
+  await waitText("Zuletzt hinzugefügt"); ok(await page.isHidden("#lock"), "unlocked, lock screen gone, library loaded");
+  if (process.env.DEBUG) { await page.waitForTimeout(3000); console.log(await page.evaluate(() => { const i = document.querySelector("img[data-media]"); return JSON.stringify({ n: document.querySelectorAll("img[data-media]").length, src: i?.src?.slice(0, 40), rect: i?.getBoundingClientRect(), cls: i?.className }); })); }
+  await page.evaluate(() => document.querySelector(".thumbs").scrollIntoView());
   await page.waitForFunction(() => [...document.querySelectorAll("img[data-media]")].some(i => i.src.startsWith("blob:") && i.naturalWidth > 0), null, { timeout: 20000 });
   ok(true, "encrypted thumbnails decrypted and shown");
   await shot("01-home");
@@ -119,7 +123,8 @@ window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; wind
   ok(an.body.messages[0].content[0].type === "image" && an.body.messages[0].content[0].source.data.length > 1000, "analysis request carries the decrypted image");
   ok(an.headers["anthropic-beta"] === "server-side-fallback-2026-07-01" && an.body.fallbacks === "default", "fallback enabled");
   ok(an.body.output_config.format.schema.additionalProperties === false, "strict JSON schema sent");
-  ok(!(await page.content()).includes("Erfundene Aussage"), "unsourced statement dropped");
+  ok(await page.evaluate(() => ![...document.querySelectorAll(".sourced li")].some(li => li.textContent.includes("Erfundene Aussage"))
+    && [...document.querySelectorAll(".sourced li")].some(li => li.textContent.includes("Belegte Aussage"))), "unsourced statement dropped, sourced one kept");
   const stored = [...files.keys()];
   ok(stored.includes("sehschule/analyses.enc@map-data") && stored.includes("sehschule/drills.enc@map-data"), "analysis and drill stored in map-data");
   const raw = Buffer.from(files.get("sehschule/drills.enc@map-data").content, "base64").toString();
@@ -154,7 +159,7 @@ window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; wind
   ok((await page.$$(".answer-list li")).length >= 2, "journal lists drill and answer");
 
   // Reload: remembered code, state read back from mocked GitHub
-  await page.reload(); await waitText("Zuletzt hinzugefügt");
+  await page.goto(`${base}/Fotoapp/#/`); await page.reload(); await waitText("Zuletzt hinzugefügt");
   ok((await page.textContent(".stats")).includes("Analysen"), "remembered code unlocks after reload");
 
   ok(errors.length === 0, "no page errors" + (errors.length ? ": " + errors.join(" | ") : ""));

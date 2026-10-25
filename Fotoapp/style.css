@@ -1,3 +1,4 @@
+[hidden] { display: none !important; }
 :root {
   --bg: #111213;
   --panel: #1b1c1e;
@@ -188,6 +189,8 @@ img.broken { outline: 1px dashed var(--danger); }
 .row-actions button:disabled { opacity: .3; }
 input, textarea, select { font-size: 16px; } /* no iOS zoom on focus */
 @media (max-width: 600px) {
+  header.top { flex-wrap: wrap; row-gap: 6px; }
+  header nav { order: 3; flex-basis: 100%; gap: 18px; padding-bottom: 2px; }
   h1 { font-size: 1.45rem; }
   .thumbs { grid-template-columns: repeat(2, 1fr); gap: 8px; }
   .hero img, .hero.learn img { max-height: 70vh; }

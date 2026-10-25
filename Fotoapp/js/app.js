@@ -402,6 +402,7 @@ function loadImg(el) { mediaUrl(el.dataset.media, el.dataset.kind).then(u => (el
 function hydrate() {
   document.querySelectorAll("img[data-media]").forEach(el => el.dataset.kind === "m" || !io ? loadImg(el) : io.observe(el));
   const f = $("#tl-filter"); if (f) f.onchange = () => (location.hash = f.value ? `#/zeitleiste?k=${f.value}` : "#/zeitleiste");
+  const tl = document.querySelector(".timeline"); if (tl) tl.scrollIntoView({ block: "end" });
 }
 
 // ---------- actions

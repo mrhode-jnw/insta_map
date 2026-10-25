@@ -1,45 +1,41 @@
-# Sehschule – private Fotografie-Lern-App
+# Sehschule – Fotografie-Lern-App (Web)
 
-Lokale Web-App (FastAPI + SQLite + Jinja2/HTMX) zum Lernen an Bildern anderer Fotografen:
-Bibliothek mit Quellen, Bildanalyse in vier Ebenen per Claude, Lernmodus „erst urteilen, dann lesen“,
-quellenbasierte Geschichtskapitel und Zeitleiste. Konzept und Regeln: [CLAUDE.md](CLAUDE.md).
+Läuft im Browser, auch am Handy: **https://mrhode-jnw.github.io/insta_map/Fotoapp/**
+Zugang mit demselben Zugangscode wie die Karte. Konzept und Regeln: [CLAUDE.md](CLAUDE.md).
 
-## Start (Mac)
+## Einrichtung (einmalig)
+
+1. `https://mrhode-jnw.github.io/insta_map/Fotoapp/setup.html` öffnen.
+2. Zugangscode der Karte, den **Bilder-Schlüssel** (von Claude) und den **Anthropic-API-Key** eingeben → „Verschlüsseln und speichern“.
+   Die Seite verschlüsselt beides im Browser und schreibt `Fotoapp/config.js` (mit dem GitHub-Token aus `../config.js`).
+3. Nach 1–2 Minuten die Sehschule öffnen, Code eingeben („auf diesem Gerät merken“). Am Handy: „Zum Home-Bildschirm“.
+
+## Wie es gebaut ist
+
+| Teil | Wo | Sichtbarkeit |
+|---|---|---|
+| App (HTML/JS/CSS), Prompts, Seed, `data/library.json` | Seiten-Branch, `Fotoapp/` | öffentlich (Metadaten, Quellenauszüge – stehen ohnehin im Seed) |
+| Bilder (1568 px + 480 px Vorschau) | Branch `sehschule-media`, `m/<id>.bin`, `t/<id>.bin` | AES-256-GCM-verschlüsselt |
+| Analysen, Lernantworten, Sehübungen, Kapiteltexte, eigene Bilder/Quellen | Branch `map-data`, `sehschule/*.enc` | AES-256-GCM-verschlüsselt |
+| Bilder-Schlüssel, Anthropic-Key | `Fotoapp/config.js` | mit dem Zugangscode verschlüsselt (wie der Maps-Key der Karte) |
+
+GitHub Pages hat keinen Server, der ein Passwort prüfen könnte – nur durch die Verschlüsselung schützt der Zugangscode
+die Bilder (urheberrechtlich geschützt) und deine Daten tatsächlich. Für dich ist es ein einfacher Passwortschutz.
+
+Claude wird direkt aus dem Browser aufgerufen (`anthropic-dangerous-direct-browser-access`), Modell und Effort stehen in
+`config.js`. Analysen werden einmal erzeugt und gespeichert (Versionen bleiben erhalten).
+
+## Bibliothek neu bauen (nach Änderungen an `seed/`)
 
 ```sh
-cd Fotoapp
-make install        # .venv + Abhängigkeiten, legt .env aus .env.example an
-# .env bearbeiten: APP_PASSWORD, SECRET_KEY, ANTHROPIC_API_KEY
-make seed           # optional: recherchierten Startbestand importieren (lädt Bilder nach data/)
-make dev            # → http://localhost:8000 (im Heimnetz: http://<Mac-IP>:8000)
-make test
+git worktree add ../media sehschule-media        # einmalig
+python3 Fotoapp/tools/build_library.py --media-dir ../media --key-file <Datei mit Bilder-Schlüssel>
+(cd ../media && git add -A && git commit -m "Bilder" && git push)
 ```
+Fehlende Downloads (z. B. Wikimedia-Drosselung) einfach später erneut ausführen – vorhandene Bilder werden übersprungen.
+Danach `SEHSCHULE_BUILD` in `config.js` hochzählen (Cache).
 
-Python 3.12+. `SECRET_KEY` erzeugen: `python3 -c "import secrets; print(secrets.token_hex(32))"`
-(ohne festen Schlüssel ist man nach jedem Neustart abgemeldet).
+## Test
 
-## Bereiche
-
-| Bereich | Was |
-|---|---|
-| **Sehen lernen** | Sehübungen zu je einem Aspekt (Standpunkt, Distanz, Licht, Moment, Ebenen, Farbe, Weglassen): erst schauen (Timer 30–90 s), dann eine Beobachtung, dann genau dieser Teil der Analyse + Feedback von Claude, das das Bild selbst sieht. |
-| **Seh-Begriffe** | Vokabular mit Quellen (Szarkowski, Shore, Adams, Cartier-Bresson …), je mit Beispielbildern und einer Übung für unterwegs. |
-| **Bibliothek** | Fotograf → Projekt → Bild. Bild per Bild-URL oder Upload; Original unverändert in `data/images/`, Thumbnail in `data/thumbs/`. Quelle + Abrufdatum immer verlinkt. |
-| **Quellen** | URL + wörtlicher Textauszug, gehängt an Fotograf, Projekt, Bild oder Kapitel. Nur diese Auszüge dürfen als Fakten in Analysen und Kapitel. |
-| **Analyse** | Vier Ebenen (zu sehen · gebaut · Kontext mit `[S<id>]` + „Meine Einschätzung“ · übertragbare Technik). Einmal erzeugt, dann stabil. „Neu erzeugen“ gibt die alte Version mit und verlangt begründete Abweichungen; alte Versionen bleiben. Aussagen ohne gültige Quellen-ID werden verworfen. |
-| **Lernen** | Runde mit 3–5 Bildern (zufällig, Schlagwort, Kapitel). Vier Freitextfragen, danach Analyse + 3–5 Sätze Feedback. Alles gespeichert. |
-| **Geschichte** | 10 Kapitel. Quellen sammeln → „Entwurf aus Quellen erzeugen“ → prüfen, speichern, Status „geprüft“. Schlüsselbilder zuordnen; Ansicht wechselt Text und Bilder. |
-| **Zeitleiste** | Alle Bilder mit Jahr, filterbar nach Kapitel. |
-
-## KI
-
-`ANTHROPIC_MODEL` (Standard `claude-opus-5-5`) und `ANTHROPIC_EFFORT` aus `.env`. Prompts liegen versioniert
-in `prompts/`; jede Analyse speichert Modell und Prompt-Version. Bilder gehen verkleinert (max. 1568 px) als
-Base64 an die API. `ANTHROPIC_FALLBACKS=default` schaltet den serverseitigen Fallback bei Ablehnungen ein
-(nur direkte Claude API; leer lassen, um ihn abzuschalten).
-
-## Startbestand (`seed/`)
-
-`seed/content_*.json` enthält recherchierte Fotografen, Projekte, Bilder (Seiten- und Bild-URL) und
-Quellenauszüge für die Kapitel. Import mit `make seed` – idempotent, kann wiederholt werden; Bilder, die sich
-nicht laden lassen, werden aufgelistet und übersprungen – einfach `make seed` später noch einmal ausführen (z. B. wenn Wikimedia kurzzeitig drosselt). Die Bilder bleiben lokal (`data/` ist in `.gitignore`).
+`node Fotoapp/tests_web/e2e.js <media-dir> <schlüssel-hex> [screenshot-dir]` – Ende-zu-Ende im Headless-Chromium
+(GitHub und Claude simuliert, Bilder echt entschlüsselt).
