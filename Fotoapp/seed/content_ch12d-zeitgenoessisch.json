@@ -1,0 +1,2434 @@
+{
+ "accessed_at": "2026-10-25",
+ "photographers": [
+  {
+   "key": "cooper",
+   "name": "Thomas Joshua Cooper",
+   "born": 1946,
+   "sources": [
+    {
+     "url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/overview/",
+     "title": "Thomas Joshua Cooper – Overview, Ingleby Gallery Edinburgh",
+     "excerpt": "Like artists such as Richard Long, and Hamish Fulton, Cooper is a traveller, a nomadic artist whose extraordinary photographs are made in series at significant points around the globe, most often at its extremities. The capturing of any one image can involve days, weeks and months of preparation and arduous travel."
+    },
+    {
+     "url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/overview/",
+     "title": "Thomas Joshua Cooper – Overview, Ingleby Gallery Edinburgh",
+     "excerpt": "The locations are found on a map, tracked down and then photographed, each place the subject of a single negative made with a weighty antique field camera."
+    },
+    {
+     "url": "https://www.thedrouth.org/thomas-joshua-cooper-the-worlds-edge-by-dana-macfarlane/",
+     "title": "Dana Macfarlane: Thomas Joshua Cooper: ‘The World’s Edge …’ – The Drouth (Rezension)",
+     "excerpt": "He rejects conventional language for photographing: he does not ‘shoot’ or ‘take’ photographs, preferring to think of his practice as a giving back, an offering."
+    }
+   ],
+   "projects": [
+    {
+     "key": "cooper-edges-and-rivers",
+     "title": "An den Rändern und Flüssen – Auswahl (u. a. Atlantikbecken und schottische Flüsse)",
+     "year_from": 1991,
+     "year_to": 2015,
+     "sources": [
+      {
+       "url": "https://www.lacma.org/node/37939",
+       "title": "Thomas Joshua Cooper: The World’s Edge – Artist Audio Commentary, LACMA (2019/20; Transkripte)",
+       "excerpt": "On view from September 22, 2019 to January 26th, 2020 in the Resnick Pavilion, the exhibition comprises 140 works, showcasing Cooper’s The World’s Edge—The Atlas of Emptiness and Extremity , a project to chart the Atlantic basin at its most extreme northern, southern, eastern, and western points that he began in 1987."
+      },
+      {
+       "url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/overview/",
+       "title": "Thomas Joshua Cooper – Overview, Ingleby Gallery Edinburgh",
+       "excerpt": "Over 32 years Cooper voyaged to the cardinal points of the continents fringing the Atlantic Basin, charting from pole to pole, and making photographs out to horizonless seas and over apparently limitless landscapes."
+      },
+      {
+       "url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/overview/",
+       "title": "Thomas Joshua Cooper – Overview, Ingleby Gallery Edinburgh",
+       "excerpt": "They are meditative, almost philosophical images, exquisitely printed by the artist in the 19th century manner with layers of silver and gold chloride.",
+       "kind": "kurator",
+       "author": "Ingleby Gallery",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "cooper-river-north-esk-gorge",
+       "title": "The River North Esk - The North Esk Gorge - Edzell, Angus, Scotland",
+       "location": "North Esk Gorge, Edzell, Angus, Schottland",
+       "tags": [
+        "fluss",
+        "schlucht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/57358-thomas-joshua-cooper-the-river-north-esk-the-north-esk-1997-2000/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/inglebygallery/images/view/5428cec4eaaa51cd01f80aeb181c4d57j.jpg",
+       "sources": [
+        {
+         "url": "https://www.thedrouth.org/thomas-joshua-cooper-the-worlds-edge-by-dana-macfarlane/",
+         "title": "Dana Macfarlane: Thomas Joshua Cooper: ‘The World’s Edge …’ – The Drouth (Rezension)",
+         "excerpt": "It is this emergence that is evoked in Cooper’s mesmerisingly beautiful, nuanced and subtly tonal evocations of land and sea – the idea that one is seeing through some antediluvian lens to a first, to an origin, to something mysterious and out of reach, to a gap ‘before’ the grasp of the technological, before the world picture was taken.",
+         "kind": "kritik",
+         "author": "Dana Macfarlane",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "cooper-failure-and-annihilation-darien",
+       "title": "Failure and Annihilation, Looking toward Scotland, Darien and Caledonia - Bahia Escocese, Puerto Escocés, Guna Yala, Panama",
+       "location": "Puerto Escocés, Guna Yala, Panama",
+       "tags": [
+        "meer",
+        "fels",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/55412-thomas-joshua-cooper-failure-and-annihilation-looking-toward-scotland-darien-and-2007-2015/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/inglebygallery/images/view/69ae0765f9ef7a76c7beff5add00fc29j.jpg",
+       "sources": [
+        {
+         "url": "https://www.lacma.org/node/37939",
+         "title": "Thomas Joshua Cooper: The World’s Edge – Artist Audio Commentary, LACMA (2019/20; Transkripte)",
+         "excerpt": "I made this picture in Panama. It's the remains of the colony that Scotland set out to found in 1700. This colony was completely, totally, and thoroughly obliterated.",
+         "kind": "fotograf",
+         "author": "Thomas Joshua Cooper",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://www.lacma.org/node/37939",
+         "title": "Thomas Joshua Cooper: The World’s Edge – Artist Audio Commentary, LACMA (2019/20; Transkripte)",
+         "excerpt": "That shaking limb wasn't the only thing the shaking. I am quivering behind the camera but nothing stops the picture.",
+         "kind": "fotograf",
+         "author": "Thomas Joshua Cooper",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "cooper-butt-of-lewis",
+       "title": "The North Atlantic Ocean, The Butt of Lewis, The Isle of Lewis, The Western Isles, Scotland, The North-most point of the Western Isles",
+       "location": "Butt of Lewis, Isle of Lewis, Schottland",
+       "tags": [
+        "meer",
+        "fels",
+        "brandung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/56423-thomas-joshua-cooper-the-north-atlantic-ocean-the-butt-of-lewis/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/inglebygallery/images/view/086b3061de54411043168d09e258c96dp.png",
+       "sources": [
+        {
+         "url": "https://www.lacma.org/node/37939",
+         "title": "Thomas Joshua Cooper: The World’s Edge – Artist Audio Commentary, LACMA (2019/20; Transkripte)",
+         "excerpt": "I'm determined that in making pictures outdoors as I do that the minute you put a horizon line in, you create an automatic exit point for the eye and body to move. But by removing the horizon, I interiorize all of my pictures.",
+         "kind": "fotograf",
+         "author": "Thomas Joshua Cooper",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "cooper-picnicking-river-north-esk",
+       "title": "Picnicking on the River North Esk - Glen Esk, Angus, Scotland",
+       "location": "Glen Esk, Angus, Schottland",
+       "tags": [
+        "fluss",
+        "diptychon",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/43236-thomas-joshua-cooper-picnicking-on-the-river-north-esk-glen-1997-2014/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/inglebygallery/images/view/5f89388799ded881928a60c318b7b341j.jpg",
+       "sources": [
+        {
+         "url": "https://www.lacma.org/node/37939",
+         "title": "Thomas Joshua Cooper: The World’s Edge – Artist Audio Commentary, LACMA (2019/20; Transkripte)",
+         "excerpt": "What I try and do by interiorizing these pictures is insisting that the outdoor world is familiar to us, it's not foreign. It is as familiar as a living room.",
+         "kind": "fotograf",
+         "author": "Thomas Joshua Cooper",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "cooper-mouth-water-of-leith",
+       "title": "The mouth of the Water of Leith - Rennie’s Lock - Edinburgh, Scotland",
+       "location": "Rennie’s Lock, Edinburgh, Schottland",
+       "tags": [
+        "fluss",
+        "abstraktion",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/16938-thomas-joshua-cooper-the-mouth-of-the-water-of-leith-1997-2014/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/inglebygallery/images/view/062fb2fad6531f8701180528b6031621j.jpg",
+       "sources": [
+        {
+         "url": "https://www.thedrouth.org/thomas-joshua-cooper-the-worlds-edge-by-dana-macfarlane/",
+         "title": "Dana Macfarlane: Thomas Joshua Cooper: ‘The World’s Edge …’ – The Drouth (Rezension)",
+         "excerpt": "Here there are no human figures, and as viewers we are given little indication as to where we stand in relation to nature. There are few visible horizons to situate us – and those that exist are made strange by the way the prints draw ones’s gaze to the surface.",
+         "kind": "kritik",
+         "author": "Dana Macfarlane",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "cooper-mouth-river-kelvin",
+       "title": "Near the mouth of the River Kelvin - Glasgow, Scotland",
+       "location": "Glasgow, Schottland",
+       "tags": [
+        "fluss",
+        "bewegung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/16940-thomas-joshua-cooper-near-the-mouth-of-the-river-kelvin-1997-2014/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/inglebygallery/images/view/766d5fbf2c1622da4cef9f33c9360c49516a3f83.jpg",
+       "sources": [
+        {
+         "url": "https://www.thedrouth.org/thomas-joshua-cooper-the-worlds-edge-by-dana-macfarlane/",
+         "title": "Dana Macfarlane: Thomas Joshua Cooper: ‘The World’s Edge …’ – The Drouth (Rezension)",
+         "excerpt": "Such offerings are the result of arduous and excessively risky journeys to his chosen sites. Once there, he allows himself only one negative exposure with his nineteenth-century Agfa-Ansco view camera.",
+         "kind": "kritik",
+         "author": "Dana Macfarlane",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "cooper-east-most-burr-point",
+       "title": "East-most - Looking towards Scotland - The North Channel and The Irish Sea - Burr Point, The Ards Peninsula - County Down, Northern Ireland - The East-most point of Ireland",
+       "year": 2013,
+       "location": "Burr Point, Ards Peninsula, County Down, Nordirland",
+       "tags": [
+        "meer",
+        "gischt",
+        "fels",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/15723-thomas-joshua-cooper-east-most-looking-towards-scotland-the-north-2013/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/inglebygallery/images/view/52ee7a9e76cbdcfc780511da9ed74d2372c17a95.jpg",
+       "sources": [
+        {
+         "url": "https://www.thedrouth.org/thomas-joshua-cooper-the-worlds-edge-by-dana-macfarlane/",
+         "title": "Dana Macfarlane: Thomas Joshua Cooper: ‘The World’s Edge …’ – The Drouth (Rezension)",
+         "excerpt": "The pictures are captioned in a way that has all the appearance of describing precisely what we are seeing, although they aren’t consistent: sometimes the temperature is given, sometimes not.",
+         "kind": "kritik",
+         "author": "Dana Macfarlane",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "cooper-evening-mouth-river-clyde",
+       "title": "Evening - The mouth of the River Clyde - The Firth of Clyde - Cloch Point, Renfrewshire, Scotland",
+       "location": "Cloch Point, Renfrewshire, Schottland",
+       "tags": [
+        "meer",
+        "welle",
+        "abendlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/16930-thomas-joshua-cooper-evening-the-mouth-of-the-river-clyde-1991-2014/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/inglebygallery/images/view/a3f22bdafa2af28a3af4cc47b80360a4j.jpg",
+       "sources": []
+      },
+      {
+       "key": "cooper-bridal-falls-shoshone",
+       "title": "Bridal Falls - Shoshone Falls - The Snake River Basin - The West Bank Rim Top - The West Bank Rim Floor, Jerome County",
+       "location": "Shoshone Falls, Snake River, Jerome County",
+       "tags": [
+        "wasserfall",
+        "diptychon",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/17208-thomas-joshua-cooper-bridal-falls-shoshone-falls-the-snake-2003-04/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/inglebygallery/images/view/5fdb078a030bf4fb476db1151da9e75aj.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "esser",
+   "name": "Elger Esser",
+   "born": 1967,
+   "sources": [
+    {
+     "url": "https://vandergrintengalerie.com/artists/elger-esser/",
+     "title": "Elger Esser – Künstlerseite der Van der Grinten Galerie, Köln",
+     "excerpt": "Elger Esser ist Vertreter der sogenannten Düsseldorfer Fotoschule, und angesichts der ausgesprochenen Schönheit und emotionalen Wirkung seiner Arbeiten scheint zu verwundern, wie einflussreich der konzeptuelle Ansatz seiner Lehrer Bernd und Hilla Becher sich in Elger Essers Werk fortschreibt."
+    },
+    {
+     "url": "https://vandergrintengalerie.com/artists/elger-esser/",
+     "title": "Elger Esser – Künstlerseite der Van der Grinten Galerie, Köln",
+     "excerpt": "Darüber hinaus verbindet der Künstler sein Wissen und die Beherrschung alter Techniken (Aufnahmen mit der Fachkamera, Heliogravur, Kolorierung von Schwarz-Weiß-Vorlagen) mit den neuesten digitalen Technologien – digitale Aufnahme, künstliche Intelligenz und sogar noch nie dagewesene Verfahren."
+    },
+    {
+     "url": "https://www.flowersgallery.com/exhibitions/605-elger-esser-sky-and-sand/",
+     "title": "Elger Esser: Sky and Sand – Flowers Gallery London (Ausstellungstext, 2025)",
+     "excerpt": "This approach has been central to his practice since he began his career in 1996, a deliberate decision to situate his work in a poetic realm while grounding it in a strong conceptual framework."
+    }
+   ],
+   "projects": [
+    {
+     "key": "esser-sky-and-sand",
+     "title": "Sky and Sand – französische Küsten- und Flusslandschaften",
+     "year_from": 2014,
+     "year_to": 2024,
+     "sources": [
+      {
+       "url": "https://www.flowersgallery.com/exhibitions/605-elger-esser-sky-and-sand/",
+       "title": "Elger Esser: Sky and Sand – Flowers Gallery London (Ausstellungstext, 2025)",
+       "excerpt": "Continuing Esser’s lifelong exploration of the landscape genre, Sky and Sand delves into the poetic interplay between history, memory, and topography, inviting viewers into a meditative world that reflects Esser’s deep connection to France, a country he describes as carrying \"history in its landscape like no other.\""
+      },
+      {
+       "url": "https://www.flowersgallery.com/exhibitions/605-elger-esser-sky-and-sand/",
+       "title": "Elger Esser: Sky and Sand – Flowers Gallery London (Ausstellungstext, 2025)",
+       "excerpt": "The photographs in Sky and Sand are deeply rooted in the artistic legacy of the French landscape, drawing inspiration from masters such as Monet, Courbet, and Chateaubriand."
+      },
+      {
+       "url": "https://www.flowersgallery.com/exhibitions/605-elger-esser-sky-and-sand/",
+       "title": "Elger Esser: Sky and Sand – Flowers Gallery London (Ausstellungstext, 2025)",
+       "excerpt": "For Sky and Sand , he incorporates silver-plated copper plates and Diasec face techniques, melding historical processes with contemporary advancements. “Silver and copper have been photographic materials from the very beginning,” Esser notes, referencing the early photographic experiments of Niépce.",
+       "kind": "kurator",
+       "author": "Flowers Gallery",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "esser-mont-saint-michel-vii",
+       "title": "Mont Saint Michel VII",
+       "year": 2022,
+       "location": "Mont-Saint-Michel",
+       "tags": [
+        "küste",
+        "watt",
+        "dunst",
+        "farbe"
+       ],
+       "source_url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176110/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit/artlogicstorage/flowers/images/view/1012c3e4e0bfe51bac7b967e0898ec54j.jpg",
+       "sources": [
+        {
+         "url": "https://www.flowersgallery.com/exhibitions/605-elger-esser-sky-and-sand/",
+         "title": "Elger Esser: Sky and Sand – Flowers Gallery London (Ausstellungstext, 2025)",
+         "excerpt": "As Esser explains, “My ambition has always been to make a timeless photograph—one that can age well, far from being datable.”",
+         "kind": "fotograf",
+         "author": "Elger Esser",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "esser-mont-saint-michel-ix",
+       "title": "Mont Saint Michel IX",
+       "year": 2022,
+       "location": "Mont-Saint-Michel",
+       "tags": [
+        "küste",
+        "spiegelung",
+        "dämmerung",
+        "farbe"
+       ],
+       "source_url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176959/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit/artlogicstorage/flowers/images/view/8a2918943e0f0470161f6e61f29fde91j.jpg",
+       "sources": [
+        {
+         "url": "https://elger-esser.com/wp-content/uploads/2025/01/Elger-Esser-Press-Release.pdf",
+         "title": "Elger Esser: Sky and Sand – Pressemitteilung Flowers Gallery (2025), PDF auf elger-esser.com",
+         "excerpt": "Mont Saint Michel IX, 2022, Mixed Media: Kupferplatte versilbert, Directprint, Schellack, 60 x 80 x 5 cm",
+         "kind": "museum",
+         "author": "Flowers Gallery (Bildangabe)",
+         "aspect": "technik",
+         "series_level": false
+        },
+        {
+         "url": "https://vandergrintengalerie.com/artists/elger-esser/",
+         "title": "Elger Esser – Künstlerseite der Van der Grinten Galerie, Köln",
+         "excerpt": "Es scheint, als sei Essers bildnerische Entwicklung stark durch die Möglichkeiten angeregt, die ihm die von ihm entwickelten Techniken bieten: Die analogen Aufnahmen werden auf versilberte Kupferplatten im direkten Pigmentdruckverfahren übertragen, mit Schellack lackiert und in speziell entworfenen Rahmen gerahmt, so dass eine Erscheinung zwischen Malerei und Fotografie entsteht.",
+         "kind": "kurator",
+         "author": "Van der Grinten Galerie",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "esser-beaugency-iii",
+       "title": "Beaugency III",
+       "year": 2014,
+       "location": "Beaugency",
+       "tags": [
+        "fluss",
+        "brücke",
+        "spiegelung",
+        "farbe"
+       ],
+       "source_url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176971/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit/artlogicstorage/flowers/images/view/5914be981cc5d7ce772f97aa7dd46434j.jpg",
+       "sources": [
+        {
+         "url": "https://vandergrintengalerie.com/artists/elger-esser/",
+         "title": "Elger Esser – Künstlerseite der Van der Grinten Galerie, Köln",
+         "excerpt": "Im changierenden Spiel des Lichts berühren sich Himmel, Wasser und Erde.",
+         "kind": "kurator",
+         "author": "Van der Grinten Galerie",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "esser-les-andelys-ii",
+       "title": "Les Andelys II",
+       "year": 2018,
+       "location": "Les Andelys",
+       "tags": [
+        "fluss",
+        "spiegelung",
+        "horizont",
+        "farbe"
+       ],
+       "source_url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176963/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit/artlogicstorage/flowers/images/view/84cc8107fa33f9a18ae8e5a1f5ddd70aj.jpg",
+       "sources": [
+        {
+         "url": "https://www.flowersgallery.com/exhibitions/605-elger-esser-sky-and-sand/",
+         "title": "Elger Esser: Sky and Sand – Flowers Gallery London (Ausstellungstext, 2025)",
+         "excerpt": "He describes his works as existing in a “time tunnel,” connecting the past, present, and future.",
+         "kind": "fotograf",
+         "author": "Elger Esser",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "esser-plouescat",
+       "title": "Plouescat",
+       "year": 2019,
+       "location": "Plouescat",
+       "tags": [
+        "meer",
+        "himmel",
+        "gegenlicht",
+        "farbe"
+       ],
+       "source_url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176965/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit/artlogicstorage/flowers/images/view/2323835b751be9afeaac368aba0befbbj.jpg",
+       "sources": [
+        {
+         "url": "https://www.flowersgallery.com/exhibitions/605-elger-esser-sky-and-sand/",
+         "title": "Elger Esser: Sky and Sand – Flowers Gallery London (Ausstellungstext, 2025)",
+         "excerpt": "Yet, Esser’s unique vision, evident in his attention to dramatic skies and the fusion of motif and mood brings a poetic quality to his works, shaping what he describes as 'internal landscapes.'",
+         "kind": "kurator",
+         "author": "Flowers Gallery",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "esser-fort-louvois",
+       "title": "Fort Louvois",
+       "year": 2014,
+       "location": "Fort Louvois",
+       "tags": [
+        "meer",
+        "horizont",
+        "farbe"
+       ],
+       "source_url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176969/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit/artlogicstorage/flowers/images/view/143e0a050b7e6b0e1116509f3b45c98bj.jpg",
+       "sources": []
+      },
+      {
+       "key": "esser-kerhervy",
+       "title": "Kerhervy",
+       "year": 2017,
+       "location": "Kerhervy",
+       "tags": [
+        "fluss",
+        "wrack",
+        "spiegelung",
+        "farbe"
+       ],
+       "source_url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176975/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit/artlogicstorage/flowers/images/view/7399bf39c1a7f44683056fab0eb45e83j.jpg",
+       "sources": [
+        {
+         "url": "https://elger-esser.com/wp-content/uploads/2025/01/Elger-Esser-Press-Release.pdf",
+         "title": "Elger Esser: Sky and Sand – Pressemitteilung Flowers Gallery (2025), PDF auf elger-esser.com",
+         "excerpt": "Kerhervy, 2017, Mixed Media: Kupferplatte versilbert, Directprint, Schellack, 47 x 62 x 5 cm",
+         "kind": "museum",
+         "author": "Flowers Gallery (Bildangabe)",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "esser-etang-de-peyriac",
+       "title": "Ètang de Peyriac",
+       "year": 2024,
+       "location": "Étang de Peyriac",
+       "tags": [
+        "lagune",
+        "spiegelung",
+        "abendlicht",
+        "farbe"
+       ],
+       "source_url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176961/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit/artlogicstorage/flowers/images/view/96e4f3542bfb85383aa578fa74d66a37j.jpg",
+       "sources": []
+      },
+      {
+       "key": "esser-mont-saint-michel-ciel-et-mer",
+       "title": "Mont Saint Michel-Ciel et Mer",
+       "year": 2023,
+       "location": "Mont-Saint-Michel",
+       "tags": [
+        "watt",
+        "wolken",
+        "küste",
+        "farbe"
+       ],
+       "source_url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176957/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit/artlogicstorage/flowers/images/view/210d2af4969ef11b40d4703f5a06aabcj.jpg",
+       "sources": [
+        {
+         "url": "https://www.flowersgallery.com/exhibitions/605-elger-esser-sky-and-sand/",
+         "title": "Elger Esser: Sky and Sand – Flowers Gallery London (Ausstellungstext, 2025)",
+         "excerpt": "Esser adds, “They tell of lingering, traveling, staying, and passing away, a state of suspension between heaven, sky, and sand.”",
+         "kind": "fotograf",
+         "author": "Elger Esser",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "light",
+   "name": "Michael Light",
+   "born": 1963,
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/about",
+     "title": "Biography and CV – michaellight.net",
+     "excerpt": "For the last eighteen years, Light has aerially photographed over settled and unsettled areas of American space, pursuing themes of mapping, vertigo, human impact on the land, and various aspects of geologic time and the sublime. A private pilot and Guggenheim Fellow in photography, he is currently working on an extended aerial survey of the arid Western states."
+    },
+    {
+     "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+     "title": "Geoff Manaugh: Spatial Delirium: An Interview with Michael Light – BLDGBLOG (Oktober 2013)",
+     "excerpt": "An artist widely known for his aerial work, Light flies the trip himself in a small airplane, usually departing very early in the morning, near dawn, before the turbulence builds up."
+    },
+    {
+     "url": "http://blog.photoeye.com/2019/12/lake-lahontan-lake-bonneville-interview.html",
+     "title": "Lake Lahontan | Lake Bonneville — An Interview with Michael Light – photo-eye Blog (Dezember 2019)",
+     "excerpt": "My work aims to look at the consequences and limitations of that human power carefully in the context of beauty and terror—the fundamentals of the classical landscape sublime—as well as attempt to channel and transcribe some of the power inherent in the many and almost infinite worlds that are not us."
+    },
+    {
+     "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+     "title": "Geoff Manaugh: Spatial Delirium: An Interview with Michael Light – BLDGBLOG (Oktober 2013)",
+     "excerpt": "In 1952, the landscape sublime shifted wholly over to humans as the architect."
+    }
+   ],
+   "projects": [
+    {
+     "key": "light-some-dry-space",
+     "title": "Some Dry Space (Handbuch 2003, Aufnahmen 2000–2001)",
+     "year_from": 2000,
+     "year_to": 2001,
+     "sources": [
+      {
+       "url": "https://www.michaellight.net/some-dry-space-2003",
+       "title": "Some Dry Space 2003 – michaellight.net (Text des Fotografen)",
+       "excerpt": "The Great Basin and Mojave deserts offer some of the more majestic and varied environments on Earth. This book, the first of my large hand-made efforts, also represents the first time I was able to work with a aircraft at my personal direction, and my tempered awe at the privilege."
+      },
+      {
+       "url": "https://www.michaellight.net/some-dry-space-2003",
+       "title": "Some Dry Space 2003 – michaellight.net",
+       "excerpt": "Hand-made book of 18 images made by the photographer from 2000-2001."
+      },
+      {
+       "url": "http://blog.photoeye.com/2019/12/lake-lahontan-lake-bonneville-interview.html",
+       "title": "Lake Lahontan | Lake Bonneville — An Interview with Michael Light – photo-eye Blog (Dezember 2019)",
+       "excerpt": "Some Dry Space: An Inhabited West is an effort to look at various aspects of how we live in that part of America that still offers a mythic—and to some degree, actual—promise of emptiness and the concurrent sense of possibility that attends it."
+      }
+     ],
+     "images": [
+      {
+       "key": "light-sds-shadow-deep-springs",
+       "title": "Shadow at 300’, 1300 hours, Deep Springs Valley, CA",
+       "year": 2001,
+       "location": "Deep Springs Valley, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "wüste",
+        "schatten",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.michaellight.net/some-dry-space-2003",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5266a78ae4b06564b8445078/1382654795517-KIE4R142GEUZGOLX5HUZ/00+SDS+REPRO.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+         "title": "Geoff Manaugh: Spatial Delirium: An Interview with Michael Light – BLDGBLOG (Oktober 2013)",
+         "excerpt": "Every once in a while, though, I will shoot in the desert at midday, but it’s usually only when I’m specifically seeking a flat, blown out, almost stunning or hallucinatory light.",
+         "kind": "fotograf",
+         "author": "Michael Light",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "light-sds-southern-pacific-carson-sink",
+       "title": "Southern Pacific Railroad at 500’, 1700 hours, Carson Sink, NV",
+       "year": 2000,
+       "location": "Carson Sink, Nevada, USA",
+       "tags": [
+        "luftbild",
+        "wüste",
+        "eisenbahn",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.michaellight.net/some-dry-space-2003",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5266a78ae4b06564b8445078/1382654791525-P9Q4J8AAGDV66MRUQRC6/01+SDS+REPRO.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "http://blog.photoeye.com/2019/12/lake-lahontan-lake-bonneville-interview.html",
+         "title": "Lake Lahontan | Lake Bonneville — An Interview with Michael Light – photo-eye Blog (Dezember 2019)",
+         "excerpt": "The photographic work in Some Dry Space: An Inhabited West , his ongoing project about the environment of the American West, simultaneously interrogates the conceptual spaces between human presence and absence, beauty and terror, emptiness and lack-thereof, American culture’s power, and the dwarfing of that power in a monumental landscape.",
+         "kind": "kritik",
+         "author": "photo-eye Blog (Einleitung zum Interview)",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "light-sds-black-mountain-wash",
+       "title": "Black Mountain Wash at 500’, 1800 hours, Nixon, NV",
+       "year": 2000,
+       "location": "Nixon, Nevada, USA",
+       "tags": [
+        "luftbild",
+        "wüste",
+        "streiflicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.michaellight.net/some-dry-space-2003",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5266a78ae4b06564b8445078/1382654838023-1U1I2XOIBEC3659TOOAH/05+SDS+REPRO.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+         "title": "Geoff Manaugh: Spatial Delirium: An Interview with Michael Light – BLDGBLOG (Oktober 2013)",
+         "excerpt": "Specifically, I tend to shoot early in the morning and then again in the evening, which is pretty much standard practice because, of course, the lower axial light gives that 3-dimensionality and creates a feeling of revelation.",
+         "kind": "fotograf",
+         "author": "Michael Light",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "light-sds-chidago-canyon",
+       "title": "Chidago Canyon at 500’, 1800 hours, Chalfant, CA",
+       "year": 2001,
+       "location": "Chalfant, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "schlucht",
+        "streiflicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.michaellight.net/some-dry-space-2003",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5266a78ae4b06564b8445078/1382654853267-2FWXAPWMCTEW5UK3SRY8/07+SDS+REPRO.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "light-sds-slot-canyon",
+       "title": "Slot Canyon at 400’, 1900 hours, Deep Springs Valley, CA",
+       "year": 2001,
+       "location": "Deep Springs Valley, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "berg",
+        "abendlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.michaellight.net/some-dry-space-2003",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5266a78ae4b06564b8445078/1382655498897-MKW952O7TPVC47QRSWYH/09+SDS+REPRO.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+         "title": "Geoff Manaugh: Spatial Delirium: An Interview with Michael Light – BLDGBLOG (Oktober 2013)",
+         "excerpt": "You’re flying and imaging and circling—again and again and again, around and around and around—because you can’t just move the camera two inches to the left, or wait 15 minutes. You’re moving along at 60 miles an hour through space.",
+         "kind": "fotograf",
+         "author": "Michael Light",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "light-sds-owens-river-valley",
+       "title": "Owens River Valley at 400’, 1700 hours, Bishop, CA",
+       "year": 2001,
+       "location": "Bishop, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "fluss",
+        "tal",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.michaellight.net/some-dry-space-2003",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5266a78ae4b06564b8445078/1382654890694-UY9XUMCSQF0GKAUTV43T/12+SDS+REPRO.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+         "title": "Geoff Manaugh: Spatial Delirium: An Interview with Michael Light – BLDGBLOG (Oktober 2013)",
+         "excerpt": "The short answer is that the aerial view affords a breadth of scale that offers direct access to many of the bigger, more “meta” themes that have always been of interest to me.",
+         "kind": "fotograf",
+         "author": "Michael Light",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "light-sds-calumet-mountains",
+       "title": "Calumet Mountains at 600’, 0700 hours, Twentynine Palms, CA",
+       "year": 2000,
+       "location": "Twentynine Palms, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "wüste",
+        "morgenlicht",
+        "dunst",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.michaellight.net/some-dry-space-2003",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5266a78ae4b06564b8445078/1382654888212-PF7J38N171VW52G0X9YW/13+SDS+REPRO.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+         "title": "Geoff Manaugh: Spatial Delirium: An Interview with Michael Light – BLDGBLOG (Oktober 2013)",
+         "excerpt": "But, early in the morning, the sun seems to go off in the desert like a gun—and, of course, the sun is much softer in the evening, because there’s so much more dust in the air.",
+         "kind": "fotograf",
+         "author": "Michael Light",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "light-sds-cadiz-lake",
+       "title": "Cadiz Lake at 600’, 0700 hours, Twentynine Palms, CA",
+       "year": 2000,
+       "location": "Twentynine Palms, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "salzsee",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.michaellight.net/some-dry-space-2003",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5266a78ae4b06564b8445078/1382654898493-7OKECYIHA3M596982W5V/14+SDS+REPRO.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "light-sds-pinto-basin",
+       "title": "Pinto Basin at 500’, 1830 hours, Joshua Tree National Park, CA",
+       "year": 2000,
+       "location": "Joshua Tree National Park, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "wüste",
+        "abendlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.michaellight.net/some-dry-space-2003",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5266a78ae4b06564b8445078/1382654923412-W18JQQZ6DP1VAWVO3FVQ/17+SDS+REPRO.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+         "title": "Geoff Manaugh: Spatial Delirium: An Interview with Michael Light – BLDGBLOG (Oktober 2013)",
+         "excerpt": "I’ll shoot for an hour and a half, which is all I can really take with the doors off of the aircraft. It’s very windy. It’s very intense. The camera I use is about 20 pounds.",
+         "kind": "fotograf",
+         "author": "Michael Light",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "maisel",
+   "name": "David Maisel",
+   "born": 1961,
+   "sources": [
+    {
+     "url": "https://davidmaisel.com/info/",
+     "title": "Info / Bio – davidmaisel.com",
+     "excerpt": "His in-depth photographic series and video installations address the psychological and environmental impact of landscapes radically transformed by mineral extraction, natural resource reclamation, desertification, and military weapons testing."
+    },
+    {
+     "url": "https://davidmaisel.com/info/",
+     "title": "Info / Bio – davidmaisel.com",
+     "excerpt": "His images describe a world wholly remade by human activity; although visually resplendent, they are also spatially ambiguous and destabilizing, with aspects of beauty, fascination, and horror in equal measure."
+    },
+    {
+     "url": "https://davidmaisel.com/essays/david-maisel-the-lake-project/",
+     "title": "Diana Gaston: David Maisel: The Lake Project – Aperture 172 (Nachdruck auf davidmaisel.com)",
+     "excerpt": "The early thinking for this series actually began during his undergraduate work at Princeton, when he accompanied his photography professor Emmet Gowin on flights over Mount Saint Helens and the heavily logged forests of the Pacific Northwest."
+    }
+   ],
+   "projects": [
+    {
+     "key": "maisel-the-lake-project",
+     "title": "The Lake Project",
+     "year_from": 2001,
+     "year_to": 2015,
+     "sources": [
+      {
+       "url": "https://davidmaisel.com/works/the-lake-project/",
+       "title": "The Lake Project – davidmaisel.com (Projekttext)",
+       "excerpt": "The Lake Project comprises images from Owens Lake, the site of a formerly 200 square-mile lake in California on the eastern side of the Sierra Mountains. Beginning in 1913, the Owens River was diverted into the Owens Valley Aqueduct, to bring water to the fledgling desert city of Los Angeles."
+      },
+      {
+       "url": "https://davidmaisel.com/works/the-lake-project/",
+       "title": "The Lake Project – davidmaisel.com (Projekttext)",
+       "excerpt": "Viewed from the air, vestiges of the lake appear as a river of blood, a microchip, a bisected vein, or a galaxy’s map. It is this contemporary version of the sublime that Maisel finds find compelling– a strange beauty born of environmental degradation."
+      },
+      {
+       "url": "https://davidmaisel.com/works/the-lake-project/",
+       "title": "The Lake Project – davidmaisel.com (Projekttext)",
+       "excerpt": "Maisel initially worked at Owens Lake making aerial images of this surreal landscape from 2001-2002. He returned to Owens Lake in 2015 to make new images and to see how the intervening years had brought additional layers of human intervention to the lakebed."
+      },
+      {
+       "url": "https://davidmaisel.com/essays/david-maisel-the-lake-project/",
+       "title": "Diana Gaston: David Maisel: The Lake Project – Aperture 172 (Nachdruck auf davidmaisel.com)",
+       "excerpt": "It was the unusual pink glow of the lakebed that caught David Maisel’s attention when he drove through Owens Valley on a return trip to the San Francisco Bay Area."
+      }
+     ],
+     "images": [
+      {
+       "key": "maisel-lake-1",
+       "title": "The Lake Project 1",
+       "year": 2001,
+       "location": "Owens Lake, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "salzsee",
+        "rot",
+        "abstraktion"
+       ],
+       "source_url": "https://davidmaisel.com/works/the-lake-project/",
+       "image_url": "https://davidmaisel.com/wp-content/uploads/2025/08/LAKE_PROJECT_01.jpg",
+       "sources": [
+        {
+         "url": "https://davidmaisel.com/essays/david-maisel-the-lake-project/",
+         "title": "Diana Gaston: David Maisel: The Lake Project – Aperture 172 (Nachdruck auf davidmaisel.com)",
+         "excerpt": "The ground is bleeding. A red river cuts a path through a bleached valley, winding toward a lake that is no longer there. Seen from the air, the river and its dry terminus appear otherworldly.",
+         "kind": "kurator",
+         "author": "Diana Gaston",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "maisel-lake-2",
+       "title": "The Lake Project 2",
+       "year": 2001,
+       "location": "Owens Lake, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "salzsee",
+        "rot",
+        "abstraktion"
+       ],
+       "source_url": "https://davidmaisel.com/works/the-lake-project/",
+       "image_url": "https://davidmaisel.com/wp-content/uploads/2025/08/LAKE_PROJECT_02.jpg",
+       "sources": [
+        {
+         "url": "https://davidmaisel.com/essays/report-from-the-lake/",
+         "title": "David Maisel: Report from the Lake – Essay des Fotografen (davidmaisel.com)",
+         "excerpt": "We move in lower. The frame fills with blood-red saline fields. We are within the lake’s body now; it will subsume us.",
+         "kind": "fotograf",
+         "author": "David Maisel",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "maisel-lake-3",
+       "title": "The Lake Project 3",
+       "year": 2001,
+       "location": "Owens Lake, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "salzsee",
+        "rot",
+        "struktur"
+       ],
+       "source_url": "https://davidmaisel.com/works/the-lake-project/",
+       "image_url": "https://davidmaisel.com/wp-content/uploads/2025/08/LAKE_PROJECT_03.jpg",
+       "sources": [
+        {
+         "url": "https://davidmaisel.com/essays/report-from-the-lake/",
+         "title": "David Maisel: Report from the Lake – Essay des Fotografen (davidmaisel.com)",
+         "excerpt": "Red, pink, coral, rose, pearl, graphite, opal. The seduction of surfaces.",
+         "kind": "fotograf",
+         "author": "David Maisel",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "maisel-lake-14",
+       "title": "The Lake Project 14",
+       "year": 2002,
+       "location": "Owens Lake, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "industrie",
+        "salzsee"
+       ],
+       "source_url": "https://davidmaisel.com/works/the-lake-project/",
+       "image_url": "https://davidmaisel.com/wp-content/uploads/2025/08/LAKE_PROJECT_14.jpg",
+       "sources": [
+        {
+         "url": "https://davidmaisel.com/essays/david-maisel-the-lake-project/",
+         "title": "Diana Gaston: David Maisel: The Lake Project – Aperture 172 (Nachdruck auf davidmaisel.com)",
+         "excerpt": "The elevation serves as a compositional device, enabling him to either fill the frame with the tumultuous pattern of the ground by flying very low, or to glean a broad view of the valley from a higher elevation.",
+         "kind": "kurator",
+         "author": "Diana Gaston",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "maisel-lake-20",
+       "title": "The Lake Project 20",
+       "year": 2002,
+       "location": "Owens Lake, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "fluss",
+        "salzsee",
+        "farbe"
+       ],
+       "source_url": "https://davidmaisel.com/works/the-lake-project/",
+       "image_url": "https://davidmaisel.com/wp-content/uploads/2025/08/LAKE_PROJECT_20_EDIT.jpg",
+       "sources": [
+        {
+         "url": "https://davidmaisel.com/essays/david-maisel-the-lake-project/",
+         "title": "Diana Gaston: David Maisel: The Lake Project – Aperture 172 (Nachdruck auf davidmaisel.com)",
+         "excerpt": "His perspective is constantly shifting as the ground rises or falls away, and the images register a sense of his suspension and dread; the horizon lies somewhere beyond the frame of these photographs, and the viewer is rendered directionless.",
+         "kind": "kurator",
+         "author": "Diana Gaston",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "maisel-lake-38",
+       "title": "The Lake Project 38",
+       "year": 2001,
+       "location": "Owens Lake, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "salzsee",
+        "abstraktion"
+       ],
+       "source_url": "https://davidmaisel.com/works/the-lake-project/",
+       "image_url": "https://davidmaisel.com/wp-content/uploads/2025/08/LAKE_PROJECT_38.jpg",
+       "sources": [
+        {
+         "url": "https://davidmaisel.com/essays/a-dread-so-close-to-zero/",
+         "title": "Kazys Varnelis: A Dread So Close to Zero – aus ‚Black Maps: American Landscape and the Apocalyptic Sublime‘, Steidl 2013 (Nachdruck auf davidmaisel.com)",
+         "excerpt": "Even as supersaturated fields of reds, greens, and blues crossed by organic patterns and regular geometries seduce us, we wonder what we are looking at.",
+         "kind": "wissenschaft",
+         "author": "Kazys Varnelis",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "maisel-lake-43",
+       "title": "The Lake Project 43",
+       "year": 2001,
+       "location": "Owens Lake, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "salzsee",
+        "rot",
+        "abstraktion"
+       ],
+       "source_url": "https://davidmaisel.com/works/the-lake-project/",
+       "image_url": "https://davidmaisel.com/wp-content/uploads/2025/08/LAKE_PROJECT_43.jpg",
+       "sources": [
+        {
+         "url": "https://davidmaisel.com/press/the-new-york-times-5/",
+         "title": "The New York Times: „Hell from the Air“ (Amei Wallach, 9. Mai 2004) – Pressenotiz auf davidmaisel.com",
+         "excerpt": "In Mr.Maisel’s photos, the vistas are majestic, terrifying and weirdly beautiful. They seem more intimate than microscopic data, vaster than extraterrestrial space.",
+         "kind": "kritik",
+         "author": "Amei Wallach (The New York Times)",
+         "aspect": "rezeption",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "maisel-lake-60",
+       "title": "The Lake Project 60",
+       "year": 2015,
+       "location": "Owens Lake, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "salzsee",
+        "farbe"
+       ],
+       "source_url": "https://davidmaisel.com/works/the-lake-project/",
+       "image_url": "https://davidmaisel.com/wp-content/uploads/2025/08/Lake_Project_60.jpg",
+       "sources": [
+        {
+         "url": "https://davidmaisel.com/essays/david-maisel-the-lake-project/",
+         "title": "Diana Gaston: David Maisel: The Lake Project – Aperture 172 (Nachdruck auf davidmaisel.com)",
+         "excerpt": "Nor do his numbered titles offer any information beyond a rigorous cataloguing system of his own making. As engaged as he is in the surrounding issues, Maisel is not attempting to make literal records of environmental destruction. Rather, he seeks a distance that scrambles a conventional reading of the landscape.",
+         "kind": "kurator",
+         "author": "Diana Gaston",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "maisel-lake-66",
+       "title": "The Lake Project 66",
+       "year": 2015,
+       "location": "Owens Lake, Kalifornien, USA",
+       "tags": [
+        "luftbild",
+        "fluss",
+        "salzsee",
+        "farbe"
+       ],
+       "source_url": "https://davidmaisel.com/works/the-lake-project/",
+       "image_url": "https://davidmaisel.com/wp-content/uploads/2025/08/Lake_Project_66.jpg",
+       "sources": [
+        {
+         "url": "https://davidmaisel.com/essays/david-maisel-the-lake-project/",
+         "title": "Diana Gaston: David Maisel: The Lake Project – Aperture 172 (Nachdruck auf davidmaisel.com)",
+         "excerpt": "With each succeeding layer of intervention the landscape becomes more and more complex, as previous scars are covered over, irrigation pools expand into an authoritative grid system, and the colors on the ground are artificially buffered.",
+         "kind": "kurator",
+         "author": "Diana Gaston",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hegen",
+   "name": "Tom Hegen",
+   "sources": [
+    {
+     "url": "https://www.tomhegen.com/about",
+     "title": "About – tomhegen.com",
+     "excerpt": "My name is Tom Hegen, I work as a Photographer and Designer in Munich, Germany. I focus on aerial photography projects that show impact of human presence on earth. As a photographer I am interested in the relationship between man and nature. In my aerial photography I focus on landscapes that have been heavily transformed by human intervention."
+    },
+    {
+     "url": "https://www.port-magazine.com/?p=88364",
+     "title": "Will Higginbotham: Tom Hegen – photographing humanity’s impact on Earth – Port Magazine (Interview)",
+     "excerpt": "I always felt drawn to landscape photography and spent a long time trying to find those classic landscape image compositions. I always encountered elements like power lines, roads or buildings that were nasty in the picture though. At that time, I started to question the term landscape photography and why I was focused on a composition that tried to pretend to be part of some sort of ‘perfect world’ that didn’t really exist. So I started to focus on man-made landscapes and tried to find visual beauty in them."
+    },
+    {
+     "url": "https://www.port-magazine.com/?p=88364",
+     "title": "Will Higginbotham: Tom Hegen – photographing humanity’s impact on Earth – Port Magazine (Interview)",
+     "excerpt": "I studied communication design. My eye is trained for composition, colour and shapes. The graphic quality of landscapes that comes with the overview perspective is quite unique. I’m still thinking and working as a graphic designer but solely with the medium of photography."
+    },
+    {
+     "url": "https://edition.cnn.com/style/article/tom-hegen-aerial-photography",
+     "title": "Tom Hegen’s aerial photography – CNN Style (Voice Memo, Telefoninterview)",
+     "excerpt": "Hunting for locations using Google Earth, and ensuring that weather conditions are suitable for flying, Hegen depicts aerial photography as an art grounded in painstaking preparation."
+    }
+   ],
+   "projects": [
+    {
+     "key": "hegen-lithium-series-i",
+     "title": "The Lithium Series I",
+     "year_from": 2021,
+     "year_to": 2021,
+     "sources": [
+      {
+       "url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+       "title": "The Lithium Series I – tomhegen.com (Projekttext)",
+       "excerpt": "More than 50% of the worlds lithium resources occur in South America, in the lithium Triangle of Bolivia, Chile and Argentina. The Salar de Atacama salt flats in northern Chile contain more than a quarter of the world's lithium supplies. The biggest lithium evaporation production site globally is even visible from space."
+      },
+      {
+       "url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+       "title": "The Lithium Series I – tomhegen.com (Projekttext)",
+       "excerpt": "Brine, rich in lithium from more than 100 meters underneath the salt flats, is pumped into huge pools. Sun evaporates the brine and the concentration of lithium increases"
+      },
+      {
+       "url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+       "title": "The Lithium Series I – tomhegen.com (Projekttext)",
+       "excerpt": "As we are slowly moving towards a world of sustainable energy, replacing fossil fuels with clean energy causes a new spiral of human impact on the environment."
+      }
+     ],
+     "images": [
+      {
+       "key": "hegen-lithium-01",
+       "title": "The Lithium Series I, N°TLiSI01",
+       "year": 2021,
+       "location": "Salar de Atacama, Chile",
+       "tags": [
+        "luftbild",
+        "industrie",
+        "wüste",
+        "farbe"
+       ],
+       "source_url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+       "image_url": "https://cdn.prod.website-files.com/5fb173c4176306108ceab3b2/64aeda569d3d704eab5c62c3_N%C2%B0TLiS_01.webp",
+       "sources": [
+        {
+         "url": "https://www.port-magazine.com/?p=88364",
+         "title": "Will Higginbotham: Tom Hegen – photographing humanity’s impact on Earth – Port Magazine (Interview)",
+         "excerpt": "The distance view shows the dimensions of human impact on the earth and puts our activities in the context of the surrounding landscape.",
+         "kind": "fotograf",
+         "author": "Tom Hegen",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "hegen-lithium-03",
+       "title": "The Lithium Series I, N°TLiSI03",
+       "year": 2021,
+       "location": "Salar de Atacama, Chile",
+       "tags": [
+        "luftbild",
+        "industrie",
+        "rohstoff",
+        "farbe"
+       ],
+       "source_url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+       "image_url": "https://cdn.prod.website-files.com/5fb173c4176306108ceab3b2/64aeda56b8ef105ff4695096_N%C2%B0TLiS_03.webp",
+       "sources": []
+      },
+      {
+       "key": "hegen-lithium-04",
+       "title": "The Lithium Series I, N°TLiSI04",
+       "year": 2021,
+       "location": "Salar de Atacama, Chile",
+       "tags": [
+        "luftbild",
+        "industrie",
+        "horizont",
+        "farbe"
+       ],
+       "source_url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+       "image_url": "https://cdn.prod.website-files.com/5fb173c4176306108ceab3b2/64aeda5634007b83789192be_N%C2%B0TLiS_04.webp",
+       "sources": [
+        {
+         "url": "https://www.port-magazine.com/?p=88364",
+         "title": "Will Higginbotham: Tom Hegen – photographing humanity’s impact on Earth – Port Magazine (Interview)",
+         "excerpt": "German photographer, Tom Hegen, has made a name for himself as a documentarian of the Anthropocene – the current geological age characterised by the impacts of humans on climate and environment.",
+         "kind": "kritik",
+         "author": "Will Higginbotham (Port Magazine)",
+         "aspect": "rezeption",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "hegen-lithium-05",
+       "title": "The Lithium Series I, N°TLiSI05",
+       "year": 2021,
+       "location": "Salar de Atacama, Chile",
+       "tags": [
+        "luftbild",
+        "industrie",
+        "salz",
+        "farbe"
+       ],
+       "source_url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+       "image_url": "https://cdn.prod.website-files.com/5fb173c4176306108ceab3b2/64aeda563b173afc47e8ee7e_N%C2%B0TLiS_05.webp",
+       "sources": []
+      },
+      {
+       "key": "hegen-lithium-06",
+       "title": "The Lithium Series I, N°TLiSI06",
+       "year": 2021,
+       "location": "Salar de Atacama, Chile",
+       "tags": [
+        "luftbild",
+        "abstraktion",
+        "industrie",
+        "farbe"
+       ],
+       "source_url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+       "image_url": "https://cdn.prod.website-files.com/5fb173c4176306108ceab3b2/64aeda56878db5621c53e6ed_N%C2%B0TLiS_06.webp",
+       "sources": []
+      },
+      {
+       "key": "hegen-lithium-09",
+       "title": "The Lithium Series I, N°TLiSI09",
+       "year": 2021,
+       "location": "Salar de Atacama, Chile",
+       "tags": [
+        "luftbild",
+        "abstraktion",
+        "salz",
+        "muster"
+       ],
+       "source_url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+       "image_url": "https://cdn.prod.website-files.com/5fb173c4176306108ceab3b2/64aeda5616f90a7638946fd0_N%C2%B0TLiS_09.webp",
+       "sources": [
+        {
+         "url": "https://edition.cnn.com/style/article/tom-hegen-aerial-photography",
+         "title": "Tom Hegen’s aerial photography – CNN Style (Voice Memo, Telefoninterview)",
+         "excerpt": "“I use abstraction and aestheticization to get the viewer’s attention,” the German photographer said in a phone interview. “When first looking at the photos I (want people to) think, ‘wow this is really stunning and beautiful.’ But I hope that, on second glance, they wonder what they’re looking at, and why it looks the way it does.”",
+         "kind": "fotograf",
+         "author": "Tom Hegen",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "hegen-lithium-10",
+       "title": "The Lithium Series I, N°TLiSI10",
+       "year": 2021,
+       "location": "Salar de Atacama, Chile",
+       "tags": [
+        "luftbild",
+        "abstraktion",
+        "farbe"
+       ],
+       "source_url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+       "image_url": "https://cdn.prod.website-files.com/5fb173c4176306108ceab3b2/64aeda566ec22a15d4644ff0_N%C2%B0TLiS_10.webp",
+       "sources": [
+        {
+         "url": "https://www.port-magazine.com/?p=88364",
+         "title": "Will Higginbotham: Tom Hegen – photographing humanity’s impact on Earth – Port Magazine (Interview)",
+         "excerpt": "My images possess a great level of abstraction and with a graphical approach. Some images will take time to decode to understand what you are looking at. This adds a fundamental level to it as the audience has to interact with the image and build a relationship with what they see.",
+         "kind": "fotograf",
+         "author": "Tom Hegen",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "hegen-lithium-13",
+       "title": "The Lithium Series I, N°TLiSI13",
+       "year": 2021,
+       "location": "Salar de Atacama, Chile",
+       "tags": [
+        "luftbild",
+        "abstraktion",
+        "wasser",
+        "muster"
+       ],
+       "source_url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+       "image_url": "https://cdn.prod.website-files.com/5fb173c4176306108ceab3b2/64aeda572e8274e056bbceb9_N%C2%B0TLiS_13.webp",
+       "sources": [
+        {
+         "url": "https://edition.cnn.com/style/article/tom-hegen-aerial-photography",
+         "title": "Tom Hegen’s aerial photography – CNN Style (Voice Memo, Telefoninterview)",
+         "excerpt": "By pointing the camera directly down at the Earth, the images appear completely flat, giving them a surreal aesthetic quality.",
+         "kind": "kritik",
+         "author": "CNN Style",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "conner",
+   "name": "Lois Conner",
+   "born": 1951,
+   "sources": [
+    {
+     "url": "https://www.sixthtone.com/news/1002089",
+     "title": "Zong Chen, Ding Yining: How China Became One American Photographer’s Muse – Sixth Tone (12. April 2018, Interview)",
+     "excerpt": "My subject, I always tell everybody, is landscape as culture. None of my photographs are just about nature. I feel like you have to step back and include more for me, to make myself interested."
+    },
+    {
+     "url": "https://www.sixthtone.com/news/1002089",
+     "title": "Zong Chen, Ding Yining: How China Became One American Photographer’s Muse – Sixth Tone (12. April 2018, Interview)",
+     "excerpt": "When I was a young student, I had to take a class and use a big camera on a tripod, and the day I did that, I felt like my life changed. I no longer had to quickly move around with the small camera — it’s on the tripod, I can set it up, I can walk around, I can carry it over my shoulder, but I can pause and look at the landscape."
+    },
+    {
+     "url": "https://www.sixthtone.com/news/1002089",
+     "title": "Zong Chen, Ding Yining: How China Became One American Photographer’s Muse – Sixth Tone (12. April 2018, Interview)",
+     "excerpt": "I might go to a place and do absolutely no work, because I don’t really know where to begin. But then I keep going back until I become familiar enough to have something to say that’s my own."
+    },
+    {
+     "url": "https://m97gallery.com/lois-conner-solo",
+     "title": "Lois Conner: 1984 – M97 Gallery Shanghai (Ausstellungstext)",
+     "excerpt": "“The people in my landscapes are just as important as the landscapes themselves ... Without them there is no context, scale, or connection to place. Often they are the reason that I am making the photograph.”"
+    }
+   ],
+   "projects": [
+    {
+     "key": "conner-china-panoramen",
+     "title": "China – Panoramen mit der Banquet-Kamera",
+     "year_from": 1986,
+     "sources": [
+      {
+       "url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+       "title": "Geremie R. Barmé: 顛倒 Downside Up — the art of Lois Conner – China Heritage (20. April 2017; Katalogessay zur Ausstellung in Beijing, mit Text von Xu Zhiyuan)",
+       "excerpt": "Lois Conner uses a banquet camera, a modern version of a nineteenth-century camera employed by photographers to make pictures of people massed together at such occasions as banquets because of its breadth of vision. It allowed for an elongated frame that could eliminate the distractions of the ceiling and the floor."
+      },
+      {
+       "url": "https://m97gallery.com/lois-conner-solo",
+       "title": "Lois Conner: 1984 – M97 Gallery Shanghai (Ausstellungstext)",
+       "excerpt": "With a Guggenheim Fellowship, she left her work at the United Nations in New York to explore the Chinese landscape of Guangxi province using her 7\"x17” panoramic camera. The elongated format of her photographs are similar to classical scroll painting and cinematic form."
+      },
+      {
+       "url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+       "title": "Geremie R. Barmé: 顛倒 Downside Up — the art of Lois Conner – China Heritage (20. April 2017; Katalogessay zur Ausstellung in Beijing, mit Text von Xu Zhiyuan)",
+       "excerpt": "She has travelled from south to north and back again numerous times as she weaves the worlds of China — modern and traditional, natural and manmade — into an ever-growing body of work that embraces the past, constantly touches on the present, and addresses itself to the future."
+      }
+     ],
+     "images": [
+      {
+       "key": "conner-le-shan",
+       "title": "Le Shan, Sichuan",
+       "year": 1986,
+       "location": "Leshan, Sichuan, China",
+       "tags": [
+        "hochformat",
+        "fluss",
+        "fels",
+        "schwarzweiß"
+       ],
+       "source_url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+       "image_url": "https://chinaheritage.net/wp-content/uploads/2017/03/VERTICAL_CH86134_Buddha_35x90.jpg",
+       "sources": [
+        {
+         "url": "https://www.sixthtone.com/news/1002089",
+         "title": "Zong Chen, Ding Yining: How China Became One American Photographer’s Muse – Sixth Tone (12. April 2018, Interview)",
+         "excerpt": "(Vertical image: ‘Colossal Buddha,’ taken in Leshan, Sichuan province, 1986. Courtesy of Lois Conner)",
+         "kind": "kritik",
+         "author": "Sixth Tone",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+         "title": "Geremie R. Barmé: 顛倒 Downside Up — the art of Lois Conner – China Heritage (20. April 2017; Katalogessay zur Ausstellung in Beijing, mit Text von Xu Zhiyuan)",
+         "excerpt": "First drawn to this format as an arts student at Yale University after she studied the landscape scroll paintings of the Ming dynasty, Conner has been using the format of the panoramic camera to pursue her work in China since 1984. The vistas embraced by the banquet camera allow her to ‘unfurl the landscape’ in a manner suggested by the scroll paintings.",
+         "kind": "kritik",
+         "author": "Geremie R. Barmé",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "conner-beihai",
+       "title": "Beihai, Beijing",
+       "location": "Beihai-Park, Beijing, China",
+       "tags": [
+        "hochformat",
+        "garten",
+        "brücke",
+        "schwarzweiß"
+       ],
+       "source_url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+       "image_url": "https://chinaheritage.net/wp-content/uploads/2017/03/VERTICAL_CH85234-Beihai-Yuan-Beijing.jpg",
+       "sources": [
+        {
+         "url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+         "title": "Geremie R. Barmé: 顛倒 Downside Up — the art of Lois Conner – China Heritage (20. April 2017; Katalogessay zur Ausstellung in Beijing, mit Text von Xu Zhiyuan)",
+         "excerpt": "Here, hidden under the cloth, everything that to the causal eye appears as upright and quotidian is inverted, all that is left-to-right becomes right-to-left. It is the world on the down low.",
+         "kind": "kritik",
+         "author": "Geremie R. Barmé",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "conner-west-lake",
+       "title": "West Lake, Hangzhou",
+       "location": "Westsee, Hangzhou, Zhejiang, China",
+       "tags": [
+        "panorama",
+        "lotus",
+        "garten",
+        "schwarzweiß"
+       ],
+       "source_url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+       "image_url": "https://chinaheritage.net/wp-content/uploads/2017/03/CH04354-Quyuan-Fenghe_Hangzhou.jpg",
+       "sources": [
+        {
+         "url": "https://art.nelson-atkins.org/objects/47711/yangshuo-china",
+         "title": "Lois Conner, Yangshuo, China, 1985 – The Nelson-Atkins Museum of Art (Objektseite mit Ausstellungstext)",
+         "excerpt": "To make this unique landscape view, Lois Conner used a banquet camera, which produces a panoramic negative. The orientation of the landscape evokes parallels with Chinese scroll painting. This is a platinum print, which is characterized by matte surfaces and tonal nuance.",
+         "kind": "museum",
+         "author": "The Nelson-Atkins Museum of Art",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "conner-no-name-lake",
+       "title": "No-name Lake, Peking University",
+       "year": 1998,
+       "location": "Weiming-See, Peking-Universität, Beijing, China",
+       "tags": [
+        "panorama",
+        "see",
+        "baum",
+        "schwarzweiß"
+       ],
+       "source_url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+       "image_url": "https://chinaheritage.net/wp-content/uploads/2017/04/LoisConner_CH98117_Flower-Temple.jpg",
+       "sources": [
+        {
+         "url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+         "title": "Geremie R. Barmé: 顛倒 Downside Up — the art of Lois Conner – China Heritage (20. April 2017; Katalogessay zur Ausstellung in Beijing, mit Text von Xu Zhiyuan)",
+         "excerpt": "这张照片摄于1998年，那正是北京大学建校一百周年之际。",
+         "kind": "kritik",
+         "author": "Xu Zhiyuan",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "conner-temple-beijing",
+       "title": "The Temple, Beijing",
+       "location": "Beijing, China",
+       "tags": [
+        "panorama",
+        "architektur",
+        "schwarzweiß"
+       ],
+       "source_url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+       "image_url": "https://chinaheritage.net/wp-content/uploads/2017/03/CH09107a-Temple_Beijing.jpg",
+       "sources": [
+        {
+         "url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+         "title": "Geremie R. Barmé: 顛倒 Downside Up — the art of Lois Conner – China Heritage (20. April 2017; Katalogessay zur Ausstellung in Beijing, mit Text von Xu Zhiyuan)",
+         "excerpt": "她的对象不是冬日之树，而是一个人群散去的北京——紫禁城的一角，圆明园的盛开莲花、国贸写字楼中一件空办公桌，还有干面胡同里四合院的屋顶……即使偶尔出现人物，他们也是以作为景物出现的。",
+         "kind": "kritik",
+         "author": "Xu Zhiyuan",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "conner-shijing-shan",
+       "title": "Shijing Shan, Beijing",
+       "location": "Shijingshan, Beijing, China",
+       "tags": [
+        "panorama",
+        "stadt",
+        "himmel",
+        "schwarzweiß"
+       ],
+       "source_url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+       "image_url": "https://chinaheritage.net/wp-content/uploads/2017/03/CH00107-Beijing-China-Star-Roof.jpg",
+       "sources": [
+        {
+         "url": "https://www.sixthtone.com/news/1002089",
+         "title": "Zong Chen, Ding Yining: How China Became One American Photographer’s Muse – Sixth Tone (12. April 2018, Interview)",
+         "excerpt": "There’s something just so beautiful and poetic about it, and I’m really interested in this scale of a man to the landscape — so that’s why the people mostly appear small [in my works].",
+         "kind": "fotograf",
+         "author": "Lois Conner",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "conner-cctv",
+       "title": "The CCTV building during construction",
+       "location": "Beijing, China",
+       "tags": [
+        "panorama",
+        "stadt",
+        "baustelle",
+        "schwarzweiß"
+       ],
+       "source_url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+       "image_url": "https://chinaheritage.net/wp-content/uploads/2017/04/Lois.CCTV_.jpg",
+       "sources": [
+        {
+         "url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+         "title": "Geremie R. Barmé: 顛倒 Downside Up — the art of Lois Conner – China Heritage (20. April 2017; Katalogessay zur Ausstellung in Beijing, mit Text von Xu Zhiyuan)",
+         "excerpt": "在Lois Conner的镜头中，兴建中的CCTV大厦正式这股新动力的表达。",
+         "kind": "kritik",
+         "author": "Xu Zhiyuan",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "conner-triangle-lotus",
+       "title": "Triangle Lotus",
+       "year": 1998,
+       "location": "Hangzhou, Zhejiang, China",
+       "tags": [
+        "lotus",
+        "wasser",
+        "spiegelung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.sixthtone.com/news/1002089",
+       "image_url": "https://image5.sixthtone.com/image/5/9/965.jpg",
+       "sources": [
+        {
+         "url": "https://www.sixthtone.com/news/1002089",
+         "title": "Zong Chen, Ding Yining: How China Became One American Photographer’s Muse – Sixth Tone (12. April 2018, Interview)",
+         "excerpt": "But instead of focusing on the flowers, she hones in on the plants’ drooping seed pods, the patterns created by the leaves, and the reflections the stems cast on still water. The shapes created by the lotuses’ dead leaves and stalks also form miniature landscapes.",
+         "kind": "kritik",
+         "author": "Sixth Tone",
+         "aspect": "deutung",
+         "series_level": true
+        },
+        {
+         "url": "https://www.sixthtone.com/news/1002089",
+         "title": "Zong Chen, Ding Yining: How China Became One American Photographer’s Muse – Sixth Tone (12. April 2018, Interview)",
+         "excerpt": "But, in the end, I find the power of black and white better for my eye and what I am trying to describe.",
+         "kind": "fotograf",
+         "author": "Lois Conner",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "sambunaris",
+   "name": "Victoria Sambunaris",
+   "born": 1964,
+   "sources": [
+    {
+     "url": "https://www.victoriasambunaris.com/about",
+     "title": "About – victoriasambunaris.com",
+     "excerpt": "For over 25 years, Victoria Sambunaris has structured her life around a photographic journey traversing the American landscape. Equipped with a 5x7 inch field camera, film, a video camera and research material, she crosses the country alone by car for several months per year."
+    },
+    {
+     "url": "https://lenscratch.com/?p=183561",
+     "title": "Jessica Hays im Gespräch mit Victoria Sambunaris – Lenscratch (Photographers on Photographers)",
+     "excerpt": "The work is project based and researched in advance. Once I arrive at my destination, I begin by exploring the area, talking to locals, and absorbing information about the place. Of course, chance, luck and the unexpected always factor into the work."
+    },
+    {
+     "url": "https://www.mocp.org/wp-content/uploads/2021/09/MoCP_Ed-Exh_Sambunaris.pdf",
+     "title": "Corinne Rose: Viewer’s Guide zu ‚Victoria Sambunaris: Taxonomy of a Landscape‘ – Museum of Contemporary Photography Chicago (2013), PDF",
+     "excerpt": "She says that she spends much of her time scouting the locations she shoots and uses a medium format camera to create photographic sketches of locations she is interested in photographing."
+    },
+    {
+     "url": "https://lenscratch.com/?p=183561",
+     "title": "Jessica Hays im Gespräch mit Victoria Sambunaris – Lenscratch (Photographers on Photographers)",
+     "excerpt": "I see these places more clearly after the distance and the time away."
+    }
+   ],
+   "projects": [
+    {
+     "key": "sambunaris-amerikanische-landschaft",
+     "title": "Untitled – Fahrten durch die amerikanische Landschaft (Auswahl 2001–2012)",
+     "year_from": 2001,
+     "year_to": 2012,
+     "sources": [
+      {
+       "url": "https://www.mocp.org/wp-content/uploads/2021/09/Jan-11-Mar-31-2013-Victoria-Sambunaris-Taxonomy-of-a-Landscape.pdf",
+       "title": "Victoria Sambunaris: Taxonomy of a Landscape – Ausstellungsblatt, Museum of Contemporary Photography Chicago (2013), PDF",
+       "excerpt": "For more than a decade, Victoria Sambunaris (American, born 1964) has traversed the United States equipped with a five-by-seven wooden field camera and sheets of color negative film. Covering seemingly every road and freeway between the coasts and beyond, she has captured the vast American landscape and terrain, and its intersection with civilization."
+      },
+      {
+       "url": "https://www.mocp.org/wp-content/uploads/2021/09/Jan-11-Mar-31-2013-Victoria-Sambunaris-Taxonomy-of-a-Landscape.pdf",
+       "title": "Victoria Sambunaris: Taxonomy of a Landscape – Ausstellungsblatt, Museum of Contemporary Photography Chicago (2013), PDF",
+       "excerpt": "Sambunaris photographs the landscape as a document and metaphor for the American experience, bringing into view with photographic precision the vast, open-ended mystery and unease of a country where human intervention and natural beauty inspire wonder in equal measure."
+      },
+      {
+       "url": "https://www.victoriasambunaris.com/about",
+       "title": "About – victoriasambunaris.com",
+       "excerpt": "Her large-scale photographs document the continuing transformation of the American landscape with specific attention given to expanding political, technological and industrial interventions."
+      }
+     ],
+     "images": [
+      {
+       "key": "sambunaris-red-containers-newark",
+       "title": "Untitled, Red containers stacked, Newark, New Jersey",
+       "year": 2001,
+       "location": "Newark, New Jersey, USA",
+       "tags": [
+        "industrie",
+        "container",
+        "farbe"
+       ],
+       "source_url": "https://www.yanceyrichardson.com/artists/victoria-sambunaris",
+       "image_url": "https://static-assets.artlogic.net/w_2020,h_1160,c_limit/exhibit-e/55f7ef8984184eba568b4568/fc31017a7d0992d75568d803d48bb85c.jpeg",
+       "sources": [
+        {
+         "url": "https://www.mocp.org/wp-content/uploads/2021/09/MoCP_Ed-Exh_Sambunaris.pdf",
+         "title": "Corinne Rose: Viewer’s Guide zu ‚Victoria Sambunaris: Taxonomy of a Landscape‘ – Museum of Contemporary Photography Chicago (2013), PDF",
+         "excerpt": "From 2000-2002 she created more minimal works that focused on the presence of trains and trucks—vehicles that transport the products of American consumption—in the landscape.",
+         "kind": "museum",
+         "author": "Corinne Rose (MoCP)",
+         "aspect": "deutung",
+         "series_level": true
+        },
+        {
+         "url": "https://www.mocp.org/wp-content/uploads/2021/09/Jan-11-Mar-31-2013-Victoria-Sambunaris-Taxonomy-of-a-Landscape.pdf",
+         "title": "Victoria Sambunaris: Taxonomy of a Landscape – Ausstellungsblatt, Museum of Contemporary Photography Chicago (2013), PDF",
+         "excerpt": "As she explains, “It is the anomalies of an ordinary landscape that have become the locus of my work: massive warehousing, infinite distribution facilities, and systematized shipping terminals. These numerous paradigmatic structures, I sense, portend the future of landscape and our relationship to it.”",
+         "kind": "fotograf",
+         "author": "Victoria Sambunaris",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "sambunaris-potash-mine-wendover",
+       "title": "Untitled, Potash Mine, Wendover, Utah",
+       "year": 2004,
+       "location": "Wendover, Utah, USA",
+       "tags": [
+        "industrie",
+        "salz",
+        "weite",
+        "farbe"
+       ],
+       "source_url": "https://www.yanceyrichardson.com/artists/victoria-sambunaris",
+       "image_url": "https://static-assets.artlogic.net/w_2020,h_1160,c_limit/exhibit-e/55f7ef8984184eba568b4568/2edc530e13c2b09fc3a7f257963d7e4a.jpeg",
+       "sources": [
+        {
+         "url": "https://www.mocp.org/wp-content/uploads/2021/09/MoCP_Ed-Exh_Sambunaris.pdf",
+         "title": "Corinne Rose: Viewer’s Guide zu ‚Victoria Sambunaris: Taxonomy of a Landscape‘ – Museum of Contemporary Photography Chicago (2013), PDF",
+         "excerpt": "Since creating that work, Sambunaris has continued to photograph the American landscape, but has pulled further back so that evidence of human presence can often be seen, but the land itself dominates most of the frame.",
+         "kind": "museum",
+         "author": "Corinne Rose (MoCP)",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "sambunaris-haleakala-crater",
+       "title": "Untitled, Haleakala Crater, Hawaii",
+       "year": 2005,
+       "location": "Haleakalā, Hawaii, USA",
+       "tags": [
+        "vulkan",
+        "weite",
+        "farbe"
+       ],
+       "source_url": "https://www.yanceyrichardson.com/artists/victoria-sambunaris",
+       "image_url": "https://static-assets.artlogic.net/w_2020,h_1160,c_limit/exhibit-e/55f7ef8984184eba568b4568/804a9d5be36dd25f3188d1b83b0e7d1f.jpeg",
+       "sources": []
+      },
+      {
+       "key": "sambunaris-wendover",
+       "title": "Untitled, Wendover, Utah",
+       "year": 2007,
+       "location": "Wendover, Utah, USA",
+       "tags": [
+        "siedlung",
+        "wüste",
+        "weite",
+        "farbe"
+       ],
+       "source_url": "https://www.yanceyrichardson.com/artists/victoria-sambunaris",
+       "image_url": "https://static-assets.artlogic.net/w_2020,h_1160,c_limit/exhibit-e/55f7ef8984184eba568b4568/eb5311ec36da2bfe44bb4f9e0bf91e21.jpeg",
+       "sources": [
+        {
+         "url": "https://www.mocp.org/wp-content/uploads/2021/09/MoCP_Ed-Exh_Sambunaris.pdf",
+         "title": "Corinne Rose: Viewer’s Guide zu ‚Victoria Sambunaris: Taxonomy of a Landscape‘ – Museum of Contemporary Photography Chicago (2013), PDF",
+         "excerpt": "In 2007-08 Sambunaris traveled and photographed along Interstate 80, a main artery of travel and commerce that roughly follows historic routes west and bisects the US from Teaneck, New Jersey to San Francisco, California, connecting many points of cultural and geographic interest along the way.",
+         "kind": "museum",
+         "author": "Corinne Rose (MoCP)",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "sambunaris-gillette",
+       "title": "Untitled, Gillette, Wyoming",
+       "year": 2007,
+       "location": "Gillette, Wyoming, USA",
+       "tags": [
+        "winter",
+        "eisenbahn",
+        "industrie",
+        "farbe"
+       ],
+       "source_url": "https://www.yanceyrichardson.com/artists/victoria-sambunaris",
+       "image_url": "https://static-assets.artlogic.net/w_2020,h_1160,c_limit/exhibit-e/55f7ef8984184eba568b4568/9bc677642304c2d71cf8a1265e585ab3.jpeg",
+       "sources": [
+        {
+         "url": "https://www.mocp.org/wp-content/uploads/2021/09/MoCP_Ed-Exh_Sambunaris.pdf",
+         "title": "Corinne Rose: Viewer’s Guide zu ‚Victoria Sambunaris: Taxonomy of a Landscape‘ – Museum of Contemporary Photography Chicago (2013), PDF",
+         "excerpt": "The consistency in the color and mood of her images is in part due to her consistent use of light. Sambunaris says that she might wait as much as two weeks for for the weather to change to provide the neutral and diffused light she prefers for her work.",
+         "kind": "museum",
+         "author": "Corinne Rose (MoCP)",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "sambunaris-talc-mine",
+       "title": "Untitled (Talc mine with truck), Cameron, Montana",
+       "year": 2009,
+       "location": "Cameron, Montana, USA",
+       "tags": [
+        "bergbau",
+        "industrie",
+        "farbe"
+       ],
+       "source_url": "https://www.yanceyrichardson.com/artists/victoria-sambunaris",
+       "image_url": "https://static-assets.artlogic.net/w_2020,h_1160,c_limit/exhibit-e/55f7ef8984184eba568b4568/67f3b9a59019a9017f647cb57ba63b7d.jpeg",
+       "sources": [
+        {
+         "url": "https://www.mocp.org/wp-content/uploads/2021/09/Jan-11-Mar-31-2013-Victoria-Sambunaris-Taxonomy-of-a-Landscape.pdf",
+         "title": "Victoria Sambunaris: Taxonomy of a Landscape – Ausstellungsblatt, Museum of Contemporary Photography Chicago (2013), PDF",
+         "excerpt": "Through straight-on framing, precise focus, and uniform lighting, Sambunaris uses consistent photographic methods to depict diverse subject matter from trains in Nebraska and Texas to trucks in New Jersey and Wisconsin, the oil pipeline in Alaska, uranium tailings in Utah, and steam vents in Yellowstone National Park.",
+         "kind": "museum",
+         "author": "Museum of Contemporary Photography",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "sambunaris-santa-elena-canyon",
+       "title": "Untitled (Santa Elena Canyon), Texas",
+       "year": 2010,
+       "location": "Big Bend National Park, Texas, USA",
+       "tags": [
+        "schlucht",
+        "fluss",
+        "grenze",
+        "farbe"
+       ],
+       "source_url": "https://www.yanceyrichardson.com/artists/victoria-sambunaris",
+       "image_url": "https://static-assets.artlogic.net/w_2020,h_1160,c_limit/exhibit-e/55f7ef8984184eba568b4568/faa96b7eb88af6ce129d4b0e16ea4dd4.jpeg",
+       "sources": [
+        {
+         "url": "https://www.mocp.org/wp-content/uploads/2021/09/Jan-11-Mar-31-2013-Victoria-Sambunaris-Taxonomy-of-a-Landscape.pdf",
+         "title": "Victoria Sambunaris: Taxonomy of a Landscape – Ausstellungsblatt, Museum of Contemporary Photography Chicago (2013), PDF",
+         "excerpt": "Her photographs refer to the border’s political drama through conceptual references, as in her photograph of the Rio Grande River in Big Bend National Park, where dramatic deep canyon river walls physically divide the United States and Mexico, or by documenting tangible",
+         "kind": "museum",
+         "author": "Museum of Contemporary Photography",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "sambunaris-dunes-el-centro",
+       "title": "Untitled (Dunes) near El Centro, California",
+       "year": 2010,
+       "location": "bei El Centro, Kalifornien, USA",
+       "tags": [
+        "wüste",
+        "düne",
+        "grenze",
+        "farbe"
+       ],
+       "source_url": "https://www.yanceyrichardson.com/artists/victoria-sambunaris",
+       "image_url": "https://static-assets.artlogic.net/w_2020,h_1160,c_limit/exhibit-e/55f7ef8984184eba568b4568/b696a08d677cc42def8cdf41cd27e01c.jpeg",
+       "sources": [
+        {
+         "url": "https://www.mocp.org/wp-content/uploads/2021/09/MoCP_Ed-Exh_Sambunaris.pdf",
+         "title": "Corinne Rose: Viewer’s Guide zu ‚Victoria Sambunaris: Taxonomy of a Landscape‘ – Museum of Contemporary Photography Chicago (2013), PDF",
+         "excerpt": "Since October 2009, Sambunaris has photographed along the nearly 2,000 miles of territory that make up the border between Mexico and the United States. She has traveled from Brownsville, Texas to San Diego, California and back, attempting to convey a unity within the landscape, regardless of where one happens to stand.",
+         "kind": "museum",
+         "author": "Corinne Rose (MoCP)",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "sambunaris-border-hereford",
+       "title": "Untitled (Border view south from grasslands), Hereford, Arizona",
+       "year": 2010,
+       "location": "Hereford, Arizona, USA",
+       "tags": [
+        "grasland",
+        "grenze",
+        "weite",
+        "farbe"
+       ],
+       "source_url": "https://www.yanceyrichardson.com/artists/victoria-sambunaris",
+       "image_url": "https://static-assets.artlogic.net/w_2020,h_1160,c_limit/exhibit-e/55f7ef8984184eba568b4568/91e0a16df2300962b05179bfcf31447c.jpeg",
+       "sources": [
+        {
+         "url": "https://www.mocp.org/wp-content/uploads/2021/09/MoCP_Ed-Exh_Sambunaris.pdf",
+         "title": "Corinne Rose: Viewer’s Guide zu ‚Victoria Sambunaris: Taxonomy of a Landscape‘ – Museum of Contemporary Photography Chicago (2013), PDF",
+         "excerpt": "Sambunaris says she tries to not be directly political in her work.",
+         "kind": "museum",
+         "author": "Corinne Rose (MoCP)",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "sambunaris-parallel-cars-cotulla",
+       "title": "Untitled (Parallel cars) near Cotulla, Texas",
+       "year": 2012,
+       "location": "bei Cotulla, Texas, USA",
+       "tags": [
+        "eisenbahn",
+        "industrie",
+        "farbe"
+       ],
+       "source_url": "https://www.yanceyrichardson.com/artists/victoria-sambunaris",
+       "image_url": "https://static-assets.artlogic.net/w_2020,h_1160,c_limit/exhibit-e/55f7ef8984184eba568b4568/a6fbb279cdcc20fed57000ffe8182ff3.jpeg",
+       "sources": [
+        {
+         "url": "https://www.mocp.org/wp-content/uploads/2021/09/MoCP_Ed-Exh_Sambunaris.pdf",
+         "title": "Corinne Rose: Viewer’s Guide zu ‚Victoria Sambunaris: Taxonomy of a Landscape‘ – Museum of Contemporary Photography Chicago (2013), PDF",
+         "excerpt": "When she is ready to photograph, Sambunaris generally only shoots two sheets of film of each scene.",
+         "kind": "museum",
+         "author": "Corinne Rose (MoCP)",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "mcphee",
+   "name": "Laura McPhee",
+   "born": 1958,
+   "sources": [
+    {
+     "url": "https://lauramcphee.com/about",
+     "title": "About – lauramcphee.com",
+     "excerpt": "She is noted for her stunning large-scale landscapes and portraits of the people who live and work in them. She is currently working in the desert west of the United States where she is chronicling visual stories about time, both geologic and human."
+    },
+    {
+     "url": "https://booooooom.com/2023/03/14/river-of-no-return-by-photographer-laura-mcphee",
+     "title": "“River of No Return” by Photographer Laura McPhee – Booooooom (14. März 2023)",
+     "excerpt": "“Photography is, of course, a form of preservation, an attempt to distill and to keep. Using 19th-century technology in the 21st, I attempt to slow time and open a space for both contemporary facts and imagination.”"
+    },
+    {
+     "url": "https://booooooom.com/2023/03/14/river-of-no-return-by-photographer-laura-mcphee",
+     "title": "“River of No Return” by Photographer Laura McPhee – Booooooom (14. März 2023)",
+     "excerpt": "“The work is both personal and political, as it takes in the conflicts over land use and considers the possible futures of a landscape we believe to be quintessentially American,” she explains."
+    }
+   ],
+   "projects": [
+    {
+     "key": "mcphee-desert-chronicle",
+     "title": "Desert Chronicle",
+     "year_from": 2010,
+     "year_to": 2017,
+     "sources": [
+      {
+       "url": "https://lauramcphee.com/desert-chronicle",
+       "title": "Desert Chronicle – lauramcphee.com (Projekttext der Fotografin)",
+       "excerpt": "Collectively, the pictures evoke contemplation of how we use the earth and to what ends."
+      },
+      {
+       "url": "https://boiseartmuseum.org/exhibition/mirage-artist-spotlight/",
+       "title": "Mirage | Artist Spotlight – Boise Art Museum",
+       "excerpt": "For a number of years, photographer Laura McPhee has been working on Desert Chronicle, a project inspired by her great-grandmother’s work as an itinerant schoolteacher in Nevada, traveling with her two daughters from town to town to educate the children of miners and ranchers."
+      },
+      {
+       "url": "https://gregcookland.com/wonderland/2020/01/29/laura-mcphee/",
+       "title": "Greg Cook: The Beautiful Desolation Of Photographer Laura McPhee’s ‘Desert Chronicle’ – Wonderland (29. Januar 2020)",
+       "excerpt": "“Desert Chronicle” is a working title for photographs that grew out of her “River of No Return” and “Guardians of Solitude” series."
+      }
+     ],
+     "images": [
+      {
+       "key": "mcphee-scotty-lake",
+       "title": "Scotty Lake, Sweetwater County, Wyoming",
+       "year": 2013,
+       "location": "Sweetwater County, Wyoming, USA",
+       "tags": [
+        "see",
+        "abendlicht",
+        "wolken",
+        "farbe"
+       ],
+       "source_url": "https://lauramcphee.com/desert-chronicle",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5b719b6ac3c16aa413b19bb0/1534520339316-62AOCLIAET03E9QZ2N3S/Scotty+Lake%2C+Sweetwater+County%2C+Wyoming%2C+2013.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://boiseartmuseum.org/exhibition/mirage-artist-spotlight/",
+         "title": "Mirage | Artist Spotlight – Boise Art Museum",
+         "excerpt": "Some photographs are the result of intensely close observation; others convey the basin’s vastness— vastness that sometimes obscures both the ecological and human activity these spaces contain, despite the fact that so much of that activity exists on the land’s surface.",
+         "kind": "museum",
+         "author": "Boise Art Museum",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "mcphee-owens-lake-mitigation",
+       "title": "Mitigation of Toxic Dust in the Owens Lake Bed, Near Olancha, California",
+       "year": 2015,
+       "location": "Owens Lake bei Olancha, Kalifornien, USA",
+       "tags": [
+        "salzsee",
+        "sanierung",
+        "dämmerung",
+        "farbe"
+       ],
+       "source_url": "https://lauramcphee.com/desert-chronicle",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5b719b6ac3c16aa413b19bb0/1534520305389-8UF82Y3LO16JDCJCG3C2/Mitigation+of+Toxic+Dust+in+the+Owens+Lake+Bed%2C+Near+Olancha%2C+California%2C+2015.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://lauramcphee.com/desert-chronicle",
+         "title": "Desert Chronicle – lauramcphee.com (Projekttext der Fotografin)",
+         "excerpt": "A meditation on our material lives and the unintended consequences of humanity's attempts to control and manage nature, the images depict our paradoxical efforts as we variously restore, protect, alter, and exploit the land.",
+         "kind": "fotograf",
+         "author": "Laura McPhee",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "mcphee-lightning-joe-jump-basin",
+       "title": "Lightning over Joe Jump Basin, Custer County, Idaho",
+       "year": 2017,
+       "location": "Custer County, Idaho, USA",
+       "tags": [
+        "gewitter",
+        "nacht",
+        "berg",
+        "farbe"
+       ],
+       "source_url": "https://lauramcphee.com/desert-chronicle",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5b719b6ac3c16aa413b19bb0/1534520294568-XEVH4YTSYIMIGKEXGLVQ/Lightening+over+Joe+Jump+Basin%2C+Custer+County%2C+Idaho%2C+2017.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://gregcookland.com/wonderland/2020/01/29/laura-mcphee/",
+         "title": "Greg Cook: The Beautiful Desolation Of Photographer Laura McPhee’s ‘Desert Chronicle’ – Wonderland (29. Januar 2020)",
+         "excerpt": "The pictures here include images of distant hillsides of trees that read like slashing lines; the whoosh of water blurred smooth white by a long shutter exposure as it rushes through a bony black lava flow; lightning crackling out of a blue-black night to touch down in mountains and scrubby desert.",
+         "kind": "kritik",
+         "author": "Greg Cook",
+         "aspect": "wirkung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "mcphee-badlands-mancos",
+       "title": "Badlands, Cretaceous Mancos Sea, Near Caineville, Utah",
+       "year": 2010,
+       "location": "bei Caineville, Utah, USA",
+       "tags": [
+        "badlands",
+        "geologie",
+        "farbe"
+       ],
+       "source_url": "https://lauramcphee.com/desert-chronicle",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5b719b6ac3c16aa413b19bb0/1534520194444-6IP8G4D4O7X527ZAD4LP/Badlands%2C+Cretaceous+Mancos+Sea%2C+Near+Caineville%2C+Utah%2C+2010.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://lauramcphee.com/desert-chronicle",
+         "title": "Desert Chronicle – lauramcphee.com (Projekttext der Fotografin)",
+         "excerpt": "Made with film and a large-format view camera, the photographs envelop time, both geologic and human.",
+         "kind": "fotograf",
+         "author": "Laura McPhee",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "mcphee-breached-dam-sunbeam",
+       "title": "Breached Dam at Sunbeam, Salmon River, Custer County, Idaho",
+       "year": 2011,
+       "location": "Sunbeam, Salmon River, Idaho, USA",
+       "tags": [
+        "fluss",
+        "damm",
+        "langzeitbelichtung",
+        "farbe"
+       ],
+       "source_url": "https://lauramcphee.com/desert-chronicle",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5b719b6ac3c16aa413b19bb0/1534520211520-NH3ITMUO8OQI5FSHUS94/Breached+Dam+at+Sunbeam%2C+Salmon+River%2C+Custer+County%2C+Idaho%2C+2011.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://gregcookland.com/wonderland/2020/01/29/laura-mcphee/",
+         "title": "Greg Cook: The Beautiful Desolation Of Photographer Laura McPhee’s ‘Desert Chronicle’ – Wonderland (29. Januar 2020)",
+         "excerpt": "They are photos about the ways of water, about landscapes vast and empty of people but littered with their remains: dirt roads, worn fences, exhausted houses, lonely grain elevators, abandoned gas stations, junk yards of rusting mid-20th century cars.",
+         "kind": "kritik",
+         "author": "Greg Cook",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "mcphee-electrical-storm-cholla",
+       "title": "Electrical Storm and Cholla Cactus, Joshua Tree National Park, California",
+       "year": 2015,
+       "location": "Joshua Tree National Park, Kalifornien, USA",
+       "tags": [
+        "gewitter",
+        "kaktus",
+        "wüste",
+        "farbe"
+       ],
+       "source_url": "https://lauramcphee.com/desert-chronicle",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5b719b6ac3c16aa413b19bb0/1534520247031-JIZWR2AT82YTY4YQGIAV/Electrical+Storm+and+Cholla+Cactus%2C+Joshua+Tree+National+Park%2C+California%2C+2015.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://gregcookland.com/wonderland/2020/01/29/laura-mcphee/",
+         "title": "Greg Cook: The Beautiful Desolation Of Photographer Laura McPhee’s ‘Desert Chronicle’ – Wonderland (29. Januar 2020)",
+         "excerpt": "They are cool, sumptuous color photos of landscapes so stark they seem like black and white.",
+         "kind": "kritik",
+         "author": "Greg Cook",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "mcphee-farewell-bend",
+       "title": "Farewell Bend on the Snake River, Baker County, Oregon",
+       "year": 2014,
+       "location": "Baker County, Oregon, USA",
+       "tags": [
+        "fluss",
+        "eis",
+        "berg",
+        "farbe"
+       ],
+       "source_url": "https://lauramcphee.com/desert-chronicle",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5b719b6ac3c16aa413b19bb0/1534520251404-SC2SHIHTP2RVC998C7CH/Farewell+Bend+on+the+Snake+River%2C+Baker+County%2C+Oregon%2C+2014.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "mcphee-open-pit-coal-mine",
+       "title": "Open Pit Coal Mine, Kemmerer, Wyoming",
+       "year": 2013,
+       "location": "Kemmerer, Wyoming, USA",
+       "tags": [
+        "bergbau",
+        "industrie",
+        "wolken",
+        "farbe"
+       ],
+       "source_url": "https://lauramcphee.com/desert-chronicle",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5b719b6ac3c16aa413b19bb0/1534520318617-24ULAUO44BLODNO46RDI/Open+Pit+Coal+Mine%2C+Kemmerer%2C+Wyoming%2C+2013.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://boiseartmuseum.org/exhibition/mirage-artist-spotlight/",
+         "title": "Mirage | Artist Spotlight – Boise Art Museum",
+         "excerpt": "From images of the detritus left behind in abandoned towns to photographs of the infrastructure of contemporary gold mines and solar installations, McPhee’s work considers the human relationship to the landscape of the Great Basin as a place of reinvention, exploitation and renewal.",
+         "kind": "museum",
+         "author": "Boise Art Museum",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "mcphee-snake-river-canyon",
+       "title": "Snake River Canyon Below the Dam at Shoshone Falls, Twin Falls, Idaho",
+       "year": 2010,
+       "location": "Twin Falls, Idaho, USA",
+       "tags": [
+        "schlucht",
+        "fluss",
+        "damm",
+        "farbe"
+       ],
+       "source_url": "https://lauramcphee.com/desert-chronicle",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5b719b6ac3c16aa413b19bb0/1534520348604-435XHKGPSCH6JOD8P56Y/Snake+River+Canyon+Below+the+Dam+at+Shoshone+Falls%2C+Twin+Falls%2C+Idaho%2C+2010.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://gregcookland.com/wonderland/2020/01/29/laura-mcphee/",
+         "title": "Greg Cook: The Beautiful Desolation Of Photographer Laura McPhee’s ‘Desert Chronicle’ – Wonderland (29. Januar 2020)",
+         "excerpt": "McPhee, who is presently chair of the photography department at Massachusetts College of Art and Design in Boston, often seems to be roaming a mythological American West of vast empty landscapes with scars from human extractive use creeping in at the edges.",
+         "kind": "kritik",
+         "author": "Greg Cook",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "beahan",
+   "name": "Virginia Beahan",
+   "sources": [
+    {
+     "url": "https://www.thedartmouth.com/article/2014/03/exhibit-tells-stories-of-the-salton-sea",
+     "title": "Exhibit tells stories of the Salton Sea – The Dartmouth (März 2014)",
+     "excerpt": "Beahan uses a Deardorff camera for large format photography, which captures greater details than other types of photography and makes larger prints from the negatives."
+    },
+    {
+     "url": "https://www.virginiabeahan.com/",
+     "title": "Virginia Beahan – Startseite virginiabeahan.com (Projektübersicht)",
+     "excerpt": "No Ordinary Land is a collaborative project with artist Laura McPhee begun in 1987."
+    },
+    {
+     "url": "https://www.thedartmouth.com/article/2014/03/exhibit-tells-stories-of-the-salton-sea",
+     "title": "Exhibit tells stories of the Salton Sea – The Dartmouth (März 2014)",
+     "excerpt": "“I don’t want to just tell a single story, so I’m attracted to landscapes that tell many stories.”"
+    }
+   ],
+   "projects": [
+    {
+     "key": "beahan-desert-sea",
+     "title": "Desert Sea (Salton Sea, ab 2012)",
+     "year_from": 2012,
+     "sources": [
+      {
+       "url": "https://www.virginiabeahan.com/portfolios/desert-sea/",
+       "title": "Desert Sea – virginiabeahan.com (Projekttext)",
+       "excerpt": "The sea itself is emblematic of some of the worst outcomes of human intervention, and as such, may also present opportunities for some of our most dramatic and creative solutions."
+      },
+      {
+       "url": "https://www.thedartmouth.com/article/2014/03/exhibit-tells-stories-of-the-salton-sea",
+       "title": "Exhibit tells stories of the Salton Sea – The Dartmouth (März 2014)",
+       "excerpt": "She had seen the area in the 1990s, after the Salton Sea had flooded nearby communities, and decided to begin “Elegy” after returning in 2012."
+      },
+      {
+       "url": "https://virginiabeahan.com/?p=327",
+       "title": "Salton Sea Exhibition at the Museum of Contemporary Art San Diego (2015) – Ankündigung mit Ausstellungstext, virginiabeahan.com",
+       "excerpt": "In Elegy for an Ancient Sea , Beahan examines the Salton Sea’s complexities as they manifest in the present."
+      }
+     ],
+     "images": [
+      {
+       "key": "beahan-salton-sea-beach",
+       "title": "Salton Sea Beach",
+       "location": "Salton Sea Beach, Kalifornien, USA",
+       "tags": [
+        "see",
+        "ufer",
+        "dämmerung",
+        "farbe"
+       ],
+       "source_url": "https://www.virginiabeahan.com/portfolios/desert-sea/",
+       "image_url": "https://www.virginiabeahan.com/wp-content/uploads/2015/06/1.-Pink-Chair-Salton-Sea-Beach.jpg",
+       "sources": [
+        {
+         "url": "https://www.virginiabeahan.com/portfolios/desert-sea/",
+         "title": "Desert Sea – virginiabeahan.com (Projekttext)",
+         "excerpt": "Like a mirage floating on the desert floor, the Salton Sea’s ethereal beauty belies the trouble beneath its still, reflective surface.",
+         "kind": "fotograf",
+         "author": "Virginia Beahan",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "beahan-bombay-beach-marina",
+       "title": "Bombay Beach Defunct Marina",
+       "location": "Bombay Beach, Salton Sea, Kalifornien, USA",
+       "tags": [
+        "see",
+        "verfall",
+        "rot",
+        "farbe"
+       ],
+       "source_url": "https://www.virginiabeahan.com/portfolios/desert-sea/",
+       "image_url": "https://www.virginiabeahan.com/wp-content/uploads/2015/06/Bombay-Beach-Marina-Now-Defunct.jpg",
+       "sources": [
+        {
+         "url": "https://virginiabeahan.com/?p=327",
+         "title": "Salton Sea Exhibition at the Museum of Contemporary Art San Diego (2015) – Ankündigung mit Ausstellungstext, virginiabeahan.com",
+         "excerpt": "Some photographs focus on destruction: bare expanses of lakebed, dilapidated homes and trailer parks. Others record the persistence of life amid the ruins.",
+         "kind": "museum",
+         "author": "Museum of Contemporary Art San Diego",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "beahan-coral-mountain",
+       "title": "Coral Mountain, Evidence of Ancient Shoreline",
+       "location": "Coachella Valley, Kalifornien, USA",
+       "tags": [
+        "berg",
+        "wüste",
+        "abendlicht",
+        "farbe"
+       ],
+       "source_url": "https://www.virginiabeahan.com/portfolios/desert-sea/",
+       "image_url": "https://www.virginiabeahan.com/wp-content/uploads/2015/06/Coral-Mountain-Evidence-of-Ancient-Shoreline.jpg",
+       "sources": [
+        {
+         "url": "https://www.sevendaysvt.com/arts-culture/american-geography-offers-signs-and-wonders-at-bigtown-gallery-41550330/",
+         "title": "‚American Geography‘ Offers Signs and Wonders at BigTown Gallery – Seven Days (Vermont), Rezension",
+         "excerpt": "The desert itself, with its horizon and palpable sense of punishing heat, dominates and unifies the images. Her long titles signal their relevance.",
+         "kind": "kritik",
+         "author": "Seven Days (Vermont)",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "beahan-dunes-at-dawn",
+       "title": "Dunes at Dawn, Vehicle Recreation Area",
+       "location": "Imperial Valley, Kalifornien, USA",
+       "tags": [
+        "düne",
+        "wüste",
+        "spuren",
+        "farbe"
+       ],
+       "source_url": "https://www.virginiabeahan.com/portfolios/desert-sea/",
+       "image_url": "https://www.virginiabeahan.com/wp-content/uploads/2015/06/Dunes-at-Dawn-Vehicle-Recreation-Area.jpg",
+       "sources": [
+        {
+         "url": "https://www.sevendaysvt.com/arts-culture/american-geography-offers-signs-and-wonders-at-bigtown-gallery-41550330/",
+         "title": "‚American Geography‘ Offers Signs and Wonders at BigTown Gallery – Seven Days (Vermont), Rezension",
+         "excerpt": "The landscapes Beahan pictures in the show’s selections from her “Desert Sea” series are, as the name suggests, huge and empty but full of tension.",
+         "kind": "kritik",
+         "author": "Seven Days (Vermont)",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "beahan-shallow-lagoon",
+       "title": "Shallow Lagoon on Western Edge of Salton Sea",
+       "location": "Salton Sea, Kalifornien, USA",
+       "tags": [
+        "see",
+        "spiegelung",
+        "dämmerung",
+        "farbe"
+       ],
+       "source_url": "https://www.virginiabeahan.com/portfolios/desert-sea/",
+       "image_url": "https://www.virginiabeahan.com/wp-content/uploads/2015/06/Shallow-Lagoon-on-Western-Edge-of-Salton-Sea.jpg",
+       "sources": [
+        {
+         "url": "https://virginiabeahan.com/?p=327",
+         "title": "Salton Sea Exhibition at the Museum of Contemporary Art San Diego (2015) – Ankündigung mit Ausstellungstext, virginiabeahan.com",
+         "excerpt": "Through her visually sumptuous photographs, the Salton Sea becomes a kind of character, struggling to sustain life as its physical reality deteriorates.",
+         "kind": "museum",
+         "author": "Museum of Contemporary Art San Diego",
+         "aspect": "wirkung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "beahan-stranded-duck-blind",
+       "title": "Stranded Duck Blind, Exposed by Receding Seawater",
+       "location": "Salton Sea, Kalifornien, USA",
+       "tags": [
+        "see",
+        "ufer",
+        "verfall",
+        "farbe"
+       ],
+       "source_url": "https://www.virginiabeahan.com/portfolios/desert-sea/",
+       "image_url": "https://www.virginiabeahan.com/wp-content/uploads/2015/06/Stranded-Duck-Blind-Exposed-by-Receding-Seawater.jpg",
+       "sources": [
+        {
+         "url": "https://www.thedartmouth.com/article/2014/03/exhibit-tells-stories-of-the-salton-sea",
+         "title": "Exhibit tells stories of the Salton Sea – The Dartmouth (März 2014)",
+         "excerpt": "“I always like to revisit places and see what has changed,” Beahan said. The 10-year span showed the Salton Sea receding, she said, an issue whose environmental, social and political facets she wanted to explore.",
+         "kind": "fotograf",
+         "author": "Virginia Beahan",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "beahan-geothermal-hot-springs",
+       "title": "Exposed Geothermal Hot Springs, San Andreas Fault",
+       "location": "Salton Sea, Kalifornien, USA",
+       "tags": [
+        "dampf",
+        "geologie",
+        "morgenlicht",
+        "farbe"
+       ],
+       "source_url": "https://www.virginiabeahan.com/portfolios/desert-sea/",
+       "image_url": "https://www.virginiabeahan.com/wp-content/uploads/2021/10/Exposed-Geothermal-Hot-Springs-San-Andreas-Fault.jpg",
+       "sources": [
+        {
+         "url": "https://www.thedartmouth.com/article/2014/03/exhibit-tells-stories-of-the-salton-sea",
+         "title": "Exhibit tells stories of the Salton Sea – The Dartmouth (März 2014)",
+         "excerpt": "“I like the way it links me to the entire history of photography because the first cameras were very much like this,” Beahan said. “I see myself as a part of a long tradition of landscape photography.”",
+         "kind": "fotograf",
+         "author": "Virginia Beahan",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "beahan-dust-storm",
+       "title": "Dust Storm on Torres Martinez Indian Reservation",
+       "location": "Torres Martinez Reservation, Kalifornien, USA",
+       "tags": [
+        "staub",
+        "wüste",
+        "gegenlicht",
+        "farbe"
+       ],
+       "source_url": "https://www.virginiabeahan.com/portfolios/desert-sea/",
+       "image_url": "https://www.virginiabeahan.com/wp-content/uploads/2021/10/Dust-Storm-on-Torres-Martinez-Indian-Reservation.jpg",
+       "sources": [
+        {
+         "url": "https://www.sevendaysvt.com/arts-culture/american-geography-offers-signs-and-wonders-at-bigtown-gallery-41550330/",
+         "title": "‚American Geography‘ Offers Signs and Wonders at BigTown Gallery – Seven Days (Vermont), Rezension",
+         "excerpt": "In the 1950s and ’60s, it hosted a resort community; since then, the lake has been shrinking, becoming more and more toxic. Poison dust from the lake bed contaminates the whole area.",
+         "kind": "kritik",
+         "author": "Seven Days (Vermont)",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "beahan-receding-shoreline",
+       "title": "Receding Shoreline at Dawn, North Shore of Salton Sea",
+       "location": "Nordufer Salton Sea, Kalifornien, USA",
+       "tags": [
+        "see",
+        "ufer",
+        "dämmerung",
+        "farbe"
+       ],
+       "source_url": "https://www.virginiabeahan.com/portfolios/desert-sea/",
+       "image_url": "https://www.virginiabeahan.com/wp-content/uploads/2021/10/Receding-Shoreline-at-Dawn-North-Shore-of-Salton-Sea.jpg",
+       "sources": [
+        {
+         "url": "https://virginiabeahan.com/?p=327",
+         "title": "Salton Sea Exhibition at the Museum of Contemporary Art San Diego (2015) – Ankündigung mit Ausstellungstext, virginiabeahan.com",
+         "excerpt": "Underlying the photographs’ allure exist questions about the implications of human intervention into the natural world.",
+         "kind": "museum",
+         "author": "Museum of Contemporary Art San Diego",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "beahan-borrego-badlands",
+       "title": "Borrego Badlands, Ancient Fossil Bed",
+       "location": "Borrego Badlands, Kalifornien, USA",
+       "tags": [
+        "badlands",
+        "wüste",
+        "geologie",
+        "farbe"
+       ],
+       "source_url": "https://www.virginiabeahan.com/portfolios/desert-sea/",
+       "image_url": "https://www.virginiabeahan.com/wp-content/uploads/2021/10/Borrego-Badlands-Ancient-Fossil-Bed.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 12,
+   "title": "Landschaftsfotografie: vom Erhabenen zur intimen Landschaft",
+   "period_from": 1850,
+   "period_to": 2025,
+   "sources": [],
+   "key_images": [
+    "cooper-butt-of-lewis",
+    "cooper-river-north-esk-gorge",
+    "esser-mont-saint-michel-ix",
+    "esser-kerhervy",
+    "light-sds-shadow-deep-springs",
+    "light-sds-cadiz-lake",
+    "maisel-lake-1",
+    "maisel-lake-20",
+    "hegen-lithium-01",
+    "hegen-lithium-09",
+    "conner-le-shan",
+    "conner-no-name-lake",
+    "sambunaris-santa-elena-canyon",
+    "sambunaris-potash-mine-wendover",
+    "mcphee-lightning-joe-jump-basin",
+    "mcphee-badlands-mancos",
+    "beahan-shallow-lagoon",
+    "beahan-receding-shoreline"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Zeitgenössische Landschaft: Mensch, Industrie, Klima",
+   "period_from": 1980,
+   "period_to": 2025,
+   "sources": [],
+   "key_images": [
+    "hegen-lithium-03",
+    "maisel-lake-14",
+    "maisel-lake-2",
+    "light-sds-southern-pacific-carson-sink",
+    "sambunaris-talc-mine",
+    "sambunaris-parallel-cars-cotulla",
+    "mcphee-open-pit-coal-mine",
+    "mcphee-owens-lake-mitigation",
+    "beahan-bombay-beach-marina",
+    "beahan-dust-storm"
+   ]
+  }
+ ]
+}
