@@ -4,6 +4,7 @@ Usage: python -m app.seed [files...]
 Images are downloaded into data/images; failures are listed and skipped.
 """
 import json
+import re
 import sys
 import time
 from datetime import date
@@ -83,6 +84,9 @@ def import_file(db: Session, path: Path, keys: dict[str, int], failed: list[str]
             db.add(ph)
             db.flush()
             stats["photographers"] += 1
+        # Later files may supply sourced life dates that earlier ones lacked.
+        ph.born = ph.born or p.get("born")
+        ph.died = ph.died or p.get("died")
         stats["sources"] += add_sources(db, p.get("sources"), "photographer", ph.id, accessed)
 
         for pr_data in p.get("projects", []):
@@ -98,6 +102,8 @@ def import_file(db: Session, path: Path, keys: dict[str, int], failed: list[str]
                 )
                 db.add(pr)
                 db.flush()
+            pr.year_from = pr.year_from or pr_data.get("year_from")
+            pr.year_to = pr.year_to or pr_data.get("year_to")
             stats["sources"] += add_sources(db, pr_data.get("sources"), "project", pr.id, accessed)
 
             for im in pr_data.get("images", []):
@@ -162,8 +168,16 @@ def import_file(db: Session, path: Path, keys: dict[str, int], failed: list[str]
     return stats
 
 
+def _seed_order(path: Path) -> tuple[int, int, str]:
+    """Chapter files first (content_ch1-3, content_ch4-6, …), then additions, upgrades last."""
+    m = re.match(r"content_ch(\d+)", path.stem)
+    if m:
+        return (0, int(m.group(1)), path.name)
+    return (2 if "upgrade" in path.stem else 1, 0, path.name)
+
+
 def main(argv: list[str]) -> None:
-    files = [Path(a) for a in argv] or sorted(SEED_DIR.glob("*.json"))
+    files = [Path(a) for a in argv] or sorted(SEED_DIR.glob("*.json"), key=_seed_order)
     keys: dict[str, int] = {}
     failed: list[str] = []
     with SessionLocal() as db:
