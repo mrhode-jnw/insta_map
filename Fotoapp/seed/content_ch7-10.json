@@ -1,0 +1,1365 @@
+{
+ "accessed_at": "2026-10-25",
+ "photographers": [
+  {
+   "key": "wolf",
+   "name": "Michael Wolf",
+   "born": 1954,
+   "died": 2019,
+   "sources": [
+    {
+     "url": "https://photomichaelwolf.com/about-michael-wolf/biography/",
+     "title": "Michael Wolf – Biography (photomichaelwolf.com)",
+     "excerpt": "michael wolf 1954 – 2019 lived in hong kong the focus of the german photographer michael wolf’s work is life in mega cities. many of his projects document the architecture and the vernacular culture of metropolises."
+    },
+    {
+     "url": "https://photomichaelwolf.com/about-michael-wolf/biography/",
+     "title": "Michael Wolf – Biography (photomichaelwolf.com)",
+     "excerpt": "wolf grew up in canada, europe and the united states, studying at uc berkeley and at the folkwang school with otto steinert in essen, germany. he moved to hong kong in 1994 where he worked for 8 years as contract photographer for stern magazine."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Michael_Wolf_(photographer)",
+     "title": "Michael Wolf (photographer) – Wikipedia",
+     "excerpt": "His work takes place primarily in Hong Kong and Paris and focuses on architectural patterns and structures, as well as the documentation of human life and interaction in the city."
+    }
+   ],
+   "projects": [
+    {
+     "key": "wolf-architecture-of-density",
+     "title": "Architecture of Density",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://photomichaelwolf.com/about-michael-wolf/introduction/",
+       "title": "Michael Wolf – Life in the City (Introduction, photomichaelwolf.com)",
+       "excerpt": "in his best known series on hong kong’s highly compressed, often brutal architecture, architecture of density, wolf uses the city’s sky-scraping tower blocks to great effect, eliminating the sky and horizon line to flatten each image and turn these façades into seemingly never-ending abstractions."
+      },
+      {
+       "url": "https://photomichaelwolf.com/about-michael-wolf/introduction/",
+       "title": "Michael Wolf – Life in the City (Introduction, photomichaelwolf.com)",
+       "excerpt": "although hong kong is all but deserted in these images, minute signs of life creep to its surface… a shirt hanging out to dry or a silhouette behind a blind."
+      },
+      {
+       "url": "https://photomichaelwolf.com/about-michael-wolf/introduction/",
+       "title": "Michael Wolf – Life in the City (Introduction, photomichaelwolf.com)",
+       "excerpt": "the formalism and deadpan approach of architecture of density echoes the work that emerged from the dusseldorf school of bernd and hilla becher. like the work of andreas gursky or thomas struth, wolf’s photographs reveal a desire to document and connect with the world around him, but with a contemporary visual approach."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Michael_Wolf_(photographer)",
+       "title": "Michael Wolf (photographer) – Wikipedia",
+       "excerpt": "The first book containing images from the series, Hong Kong: Front Door/ Back Door, was published in 2005."
+      }
+     ],
+     "images": [
+      {
+       "key": "wolf-aod-a04",
+       "title": "Architecture of Density, a04",
+       "year": null,
+       "location": "Hong Kong",
+       "source_url": "https://photomichaelwolf.com/hong-kong/architecture-of-densitiy/",
+       "image_url": "https://photomichaelwolf.com/wp-content/uploads/a04.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "dichte",
+        "fassade",
+        "muster"
+       ],
+       "sources": []
+      },
+      {
+       "key": "wolf-aod-a32",
+       "title": "Architecture of Density, a32",
+       "year": null,
+       "location": "Hong Kong",
+       "source_url": "https://photomichaelwolf.com/hong-kong/architecture-of-densitiy/",
+       "image_url": "https://photomichaelwolf.com/wp-content/uploads/a32.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "dichte",
+        "fassade",
+        "muster"
+       ],
+       "sources": []
+      },
+      {
+       "key": "wolf-aod-a36",
+       "title": "Architecture of Density, a36",
+       "year": null,
+       "location": "Hong Kong",
+       "source_url": "https://photomichaelwolf.com/hong-kong/architecture-of-densitiy/",
+       "image_url": "https://photomichaelwolf.com/wp-content/uploads/a36.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "dichte",
+        "fassade",
+        "muster"
+       ],
+       "sources": []
+      },
+      {
+       "key": "wolf-aod-a38",
+       "title": "Architecture of Density, a38",
+       "year": null,
+       "location": "Hong Kong",
+       "source_url": "https://photomichaelwolf.com/hong-kong/architecture-of-densitiy/",
+       "image_url": "https://photomichaelwolf.com/wp-content/uploads/a38.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "dichte",
+        "fassade",
+        "muster"
+       ],
+       "sources": []
+      },
+      {
+       "key": "wolf-aod-a39",
+       "title": "Architecture of Density, a39",
+       "year": null,
+       "location": "Hong Kong",
+       "source_url": "https://photomichaelwolf.com/hong-kong/architecture-of-densitiy/",
+       "image_url": "https://photomichaelwolf.com/wp-content/uploads/a39.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "dichte",
+        "fassade",
+        "muster"
+       ],
+       "sources": []
+      },
+      {
+       "key": "wolf-aod-a42",
+       "title": "Architecture of Density, a42",
+       "year": null,
+       "location": "Hong Kong",
+       "source_url": "https://photomichaelwolf.com/hong-kong/architecture-of-densitiy/",
+       "image_url": "https://photomichaelwolf.com/wp-content/uploads/a42.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "dichte",
+        "fassade",
+        "muster"
+       ],
+       "sources": []
+      },
+      {
+       "key": "wolf-aod-a43",
+       "title": "Architecture of Density, a43",
+       "year": null,
+       "location": "Hong Kong",
+       "source_url": "https://photomichaelwolf.com/hong-kong/architecture-of-densitiy/",
+       "image_url": "https://photomichaelwolf.com/wp-content/uploads/a43.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "dichte",
+        "fassade",
+        "muster"
+       ],
+       "sources": []
+      },
+      {
+       "key": "wolf-aod-a45",
+       "title": "Architecture of Density, a45",
+       "year": null,
+       "location": "Hong Kong",
+       "source_url": "https://photomichaelwolf.com/hong-kong/architecture-of-densitiy/",
+       "image_url": "https://photomichaelwolf.com/wp-content/uploads/a45.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "dichte",
+        "fassade",
+        "muster"
+       ],
+       "sources": []
+      },
+      {
+       "key": "wolf-aod-a57",
+       "title": "Architecture of Density, a57",
+       "year": null,
+       "location": "Hong Kong",
+       "source_url": "https://photomichaelwolf.com/hong-kong/architecture-of-densitiy/",
+       "image_url": "https://photomichaelwolf.com/wp-content/uploads/a57.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "dichte",
+        "fassade",
+        "muster"
+       ],
+       "sources": []
+      },
+      {
+       "key": "wolf-aod-a70",
+       "title": "Architecture of Density, a70",
+       "year": null,
+       "location": "Hong Kong",
+       "source_url": "https://photomichaelwolf.com/hong-kong/architecture-of-densitiy/",
+       "image_url": "https://photomichaelwolf.com/wp-content/uploads/a70.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "dichte",
+        "fassade",
+        "muster"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "gursky",
+   "name": "Andreas Gursky",
+   "born": 1955,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Andreas_Gursky",
+     "title": "Andreas Gursky – Wikipedia",
+     "excerpt": "Andreas Gursky (born 15 January 1955) is a German artist best known for his photography."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Andreas_Gursky",
+     "title": "Andreas Gursky – Wikipedia",
+     "excerpt": "He is known for his large-scale colour photographs of architecture, landscapes and contemporary life—crowds, consumer goods and the infrastructures of global capitalism—combining methodical observation with digital construction to achieve an all-over, hyper-detailed image field."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Andreas_Gursky",
+     "title": "Andreas Gursky – Wikipedia",
+     "excerpt": "Between 1981 and 1987, he studied at the Kunstakademie Düsseldorf, where he was a student of Bernd Becher."
+    }
+   ],
+   "projects": [
+    {
+     "key": "gursky-tate-works",
+     "title": "Großformatige Einzelbilder (Tate Collection)",
+     "year_from": 1993,
+     "year_to": 2005,
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Andreas_Gursky",
+       "title": "Andreas Gursky – Wikipedia",
+       "excerpt": "In the years since, Gursky has been frank about his reliance on computers to edit and enhance his pictures, creating an art of spaces larger than the subjects photographed."
+      },
+      {
+       "url": "https://www.tate.org.uk/art/artists/andreas-gursky-2349",
+       "title": "Andreas Gursky born 1955 | Tate",
+       "excerpt": "Thebes, West Andreas Gursky 1993 Parliament Andreas Gursky 1998 Centre Georges Pompidou Andreas Gursky 1995 Chicago, Board of Trade II Andreas Gursky 1999 Paris, Montparnasse Andreas Gursky 1993"
+      }
+     ],
+     "images": [
+      {
+       "key": "gursky-paris-montparnasse",
+       "title": "Paris, Montparnasse",
+       "year": 1993,
+       "location": "Paris",
+       "source_url": "https://www.tate.org.uk/art/artworks/gursky-paris-montparnasse-p77737",
+       "image_url": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/.width-600_2Ic2uxC.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "dichte",
+        "fassade",
+        "grossformat"
+       ],
+       "sources": []
+      },
+      {
+       "key": "gursky-chicago-board-of-trade-ii",
+       "title": "Chicago, Board of Trade II",
+       "year": 1999,
+       "location": "Chicago",
+       "source_url": "https://www.tate.org.uk/art/artworks/gursky-chicago-board-of-trade-ii-p20191",
+       "image_url": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/.width-600_xRqRxdl.jpg",
+       "tags": [
+        "menschenmenge",
+        "innenraum",
+        "dichte",
+        "farbe",
+        "grossformat"
+       ],
+       "sources": []
+      },
+      {
+       "key": "gursky-the-rhine-ii",
+       "title": "The Rhine II",
+       "year": 1999,
+       "location": null,
+       "source_url": "https://www.tate.org.uk/art/artworks/gursky-the-rhine-ii-p78372",
+       "image_url": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/.width-600_yxXxf6I.jpg",
+       "tags": [
+        "landschaft",
+        "fluss",
+        "minimalismus",
+        "horizont",
+        "grossformat"
+       ],
+       "sources": []
+      },
+      {
+       "key": "gursky-bahrain-i",
+       "title": "Bahrain I",
+       "year": 2005,
+       "location": "Bahrain",
+       "source_url": "https://www.tate.org.uk/art/artworks/gursky-bahrain-i-p79322",
+       "image_url": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/.width-600_mS3vLl1.jpg",
+       "tags": [
+        "luftbild",
+        "landschaft",
+        "strasse",
+        "wueste",
+        "grossformat"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "struth",
+   "name": "Thomas Struth",
+   "born": 1954,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/artists/thomas-struth-2339",
+     "title": "Thomas Struth born 1954 | Tate",
+     "excerpt": "Thomas Struth born 1954"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/d/dusseldorf-school-photography",
+     "title": "Dusseldorf School of Photography | Tate",
+     "excerpt": "Andreas Gursky, Candida Höfer, Axel Hütte, Thomas Ruff and Thomas Struth modified the approach of their teachers by applying new technical possibilities and a personal and contemporary vision, while retaining the documentary method their tutors propounded."
+    }
+   ],
+   "projects": [
+    {
+     "key": "struth-shinju-ku",
+     "title": "Shinju-ku (Skyscrapers), Tokyo 1986",
+     "year_from": 1986,
+     "year_to": 1986,
+     "sources": [
+      {
+       "url": "https://www.tate.org.uk/art/art-terms/d/dusseldorf-school-photography",
+       "title": "Dusseldorf School of Photography | Tate",
+       "excerpt": "Thomas Struth Shinju-ku (Skyscrapers), Tokyo 1986 (1986) Tate © Thomas Struth"
+      }
+     ],
+     "images": [
+      {
+       "key": "struth-shinju-ku-skyscrapers-tokyo-1986",
+       "title": "Shinju-ku (Skyscrapers), Tokyo 1986",
+       "year": 1986,
+       "location": "Tokyo",
+       "source_url": "https://www.tate.org.uk/art/artworks/struth-shinju-ku-skyscrapers-tokyo-1986-p77743",
+       "image_url": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/.width-600_S3gtXvK.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "hochhaus",
+        "schwarzweiss"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hoefer",
+   "name": "Candida Höfer",
+   "born": 1944,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/artists/candida-hofer-5119",
+     "title": "Candida Höfer born 1944 | Tate",
+     "excerpt": "Candida Höfer born 1944"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/d/dusseldorf-school-photography",
+     "title": "Dusseldorf School of Photography | Tate",
+     "excerpt": "The Dusseldorf School of Photography refers to a group of photographers who studied at the Kunstakademie Dusseldorf in the mid 1970s under the influential photographers Bernd and Hilla Becher"
+    }
+   ],
+   "projects": [
+    {
+     "key": "hoefer-stiftsbibliothek-st-gallen",
+     "title": "Stiftsbibliothek St. Gallen I",
+     "year_from": 2001,
+     "year_to": 2001,
+     "sources": [
+      {
+       "url": "https://www.tate.org.uk/art/artworks/gursky-bahrain-i-p79322",
+       "title": "‘Bahrain I‘, Andreas Gursky, 2005 | Tate (Empfehlungsliste)",
+       "excerpt": "Stiftsbibliothek St. Gallen I Candida Höfer 2001"
+      }
+     ],
+     "images": [
+      {
+       "key": "hoefer-stiftsbibliothek-st-gallen-i",
+       "title": "Stiftsbibliothek St. Gallen I",
+       "year": 2001,
+       "location": "St. Gallen",
+       "source_url": "https://www.tate.org.uk/art/artworks/hofer-stiftsbibliothek-st-gallen-i-p78678",
+       "image_url": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/.width-600_vYIAbMj.jpg",
+       "tags": [
+        "innenraum",
+        "architektur",
+        "bibliothek",
+        "symmetrie",
+        "farbe"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "becher",
+   "name": "Bernd und Hilla Becher",
+   "born": null,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Bernd_and_Hilla_Becher",
+     "title": "Bernd and Hilla Becher – Wikipedia",
+     "excerpt": "They are best known for their extensive series of photographic images, or typologies, of industrial buildings and structures, often organised in grids."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Bernd_and_Hilla_Becher",
+     "title": "Bernd and Hilla Becher – Wikipedia",
+     "excerpt": "As the founders of what has come to be known as the 'Becher school' or the Düsseldorf School of Photography, they influenced generations of documentary photographers and artists in Germany and abroad."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/d/dusseldorf-school-photography",
+     "title": "Dusseldorf School of Photography | Tate",
+     "excerpt": "Known for their rigorous devotion to the 1920s German tradition of Neue Sachlichkeit (New Objectivity), the Bechers’ photographs were clear, black and white pictures of industrial archetypes (pitheads, water towers, coal bunkers)."
+    }
+   ],
+   "projects": [
+    {
+     "key": "becher-gas-tanks",
+     "title": "Gas Tanks",
+     "year_from": 1965,
+     "year_to": 2009,
+     "sources": [
+      {
+       "url": "https://www.tate.org.uk/art/art-terms/d/dusseldorf-school-photography",
+       "title": "Dusseldorf School of Photography | Tate",
+       "excerpt": "Gas Tanks Bernd Becher and Hilla Becher 1965–2009"
+      }
+     ],
+     "images": [
+      {
+       "key": "becher-gas-tanks-tate",
+       "title": "Gas Tanks",
+       "year": null,
+       "location": null,
+       "source_url": "https://www.tate.org.uk/art/artworks/bernd-becher-and-hilla-becher-gas-tanks-p81237",
+       "image_url": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/.width-600_XdIDo8n.jpg",
+       "tags": [
+        "industrie",
+        "typologie",
+        "raster",
+        "schwarzweiss",
+        "architektur"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ponting",
+   "name": "Herbert Ponting",
+   "born": 1870,
+   "died": 1935,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Herbert_Ponting",
+     "title": "Herbert Ponting – Wikipedia",
+     "excerpt": "He is best known as the expedition photographer and cinematographer for Robert Falcon Scott's Terra Nova Expedition to the Ross Sea and South Pole (1910–1913)."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Herbert_Ponting",
+     "title": "Herbert Ponting – Wikipedia",
+     "excerpt": "His flair for journalism and ability to shape his photographic illustrations into a narrative led to his being signed as expedition photographer aboard the Terra Nova, the first time a professional photographer was included on an Antarctic expedition."
+    },
+    {
+     "url": "https://theatkinson.co.uk/news/new-exhibition-herbert-ponting-explorer-and-photographer/",
+     "title": "New Exhibition – Herbert Ponting: Explorer and Photographer – The Atkinson",
+     "excerpt": "After years of taking photographs in America, Japan, other parts of Asia and in Europe, Herbert Ponting (1870-1935) became and remains best-known for his work on Captain Scott’s Terra Nova expedition (1910-3)."
+    }
+   ],
+   "projects": [
+    {
+     "key": "ponting-terra-nova",
+     "title": "British Antarctic (Terra Nova) Expedition",
+     "year_from": 1910,
+     "year_to": 1913,
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Herbert_Ponting",
+       "title": "Herbert Ponting – Wikipedia",
+       "excerpt": "Although the expedition came more than 20 years after the invention of photographic film, Ponting preferred high-quality images taken on glass plates."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Herbert_Ponting",
+       "title": "Herbert Ponting – Wikipedia",
+       "excerpt": "Ponting also brought autochrome plates to Antarctica and took some of the first known color still photographs there."
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Herbert_Ponting",
+       "title": "Herbert Ponting – Wikipedia",
+       "excerpt": "After 14 months at Cape Evans, Ponting, along with eight other men, boarded the Terra Nova in February 1912 to return to civilization, arrange his inventory of more than 1,700 photographic plates, and shape a narrative of the expedition."
+      },
+      {
+       "url": "https://www.loc.gov/item/2009633367/",
+       "title": "The Castle berg, a weathered iceberg / H.G.P. – Library of Congress",
+       "excerpt": "Published in: The Great White South... / by Herbert G. Ponting, F.R.G.S. New York : Robert M. McBride & Co., 1922."
+      }
+     ],
+     "images": [
+      {
+       "key": "ponting-terra-nova-mcmurdo-sound",
+       "title": "The Terra Nova in McMurdo Sound",
+       "year": null,
+       "location": "McMurdo Sound, Antarctica",
+       "source_url": "https://www.loc.gov/item/2009633366/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a50000/3a52000/3a52100/3a52122r.jpg",
+       "tags": [
+        "eis",
+        "schiff",
+        "meer",
+        "weite",
+        "schwarzweiss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2009633366/",
+         "title": "The Terra Nova in McMurdo Sound – Library of Congress",
+         "excerpt": "Photograph shows sea ice in the foreground and the Terra Nova ship in McMurdo Sound during the British Antarctic Expedition."
+        }
+       ]
+      },
+      {
+       "key": "ponting-castle-berg",
+       "title": "The Castle berg, a weathered iceberg",
+       "year": null,
+       "location": "Antarctica",
+       "source_url": "https://www.loc.gov/item/2009633367/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a10000/3a12000/3a12400/3a12466v.jpg",
+       "tags": [
+        "eis",
+        "eisberg",
+        "landschaft",
+        "massstab",
+        "schwarzweiss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2009633367/",
+         "title": "The Castle berg, a weathered iceberg / H.G.P. – Library of Congress",
+         "excerpt": "Photograph shows a man on a dogsled in the foreground and a castle-shaped mountain of ice in the background, during the British Antarctic Expedition."
+        }
+       ]
+      },
+      {
+       "key": "ponting-seals-on-pancake-ice",
+       "title": "Seals on pancake ice",
+       "year": null,
+       "location": "Antarctica",
+       "source_url": "https://www.loc.gov/item/2009633372/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a40000/3a47000/3a47500/3a47514r.jpg",
+       "tags": [
+        "tiere",
+        "eis",
+        "robben",
+        "schwarzweiss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2009633372/",
+         "title": "Seals on pancake ice / H.G.P. – Library of Congress",
+         "excerpt": "Photograph shows Weddell seals lying on ice floes that have broken off a nearby glacier, during the British Antarctic Expedition."
+        }
+       ]
+      },
+      {
+       "key": "ponting-weddell-seal-and-calf",
+       "title": "Weddell seal and calf",
+       "year": null,
+       "location": "Antarctica",
+       "source_url": "https://www.loc.gov/item/2009633373/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a10000/3a12000/3a12400/3a12465r.jpg",
+       "tags": [
+        "tiere",
+        "eis",
+        "robben",
+        "schwarzweiss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2009633373/",
+         "title": "Weddell seal and calf / H.G.P. – Library of Congress",
+         "excerpt": "Photograph shows a Weddell seal and calf lying on ice, during the British Antarctic Expedition."
+        }
+       ]
+      },
+      {
+       "key": "ponting-ponting-and-his-camera",
+       "title": "Herbert G. Ponting and his camera",
+       "year": null,
+       "location": "Antarctica",
+       "source_url": "https://www.loc.gov/item/2009633374/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a30000/3a37000/3a37000/3a37019r.jpg",
+       "tags": [
+        "portraet",
+        "kamera",
+        "expedition",
+        "schwarzweiss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2009633374/",
+         "title": "Herbert G. Ponting and his camera / H.G.P. – Library of Congress",
+         "excerpt": "Photograph shows Herbert G. Ponting, full-length portrait, standing, facing front, with movie(?) camera on tripod, during the British Antarctic Expedition."
+        }
+       ]
+      },
+      {
+       "key": "ponting-dog-team-iceberg",
+       "title": "Dog team resting by an iceberg",
+       "year": null,
+       "location": "Antarctica",
+       "source_url": "https://www.loc.gov/item/2009633380/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a30000/3a30000/3a30800/3a30824r.jpg",
+       "tags": [
+        "eis",
+        "tiere",
+        "expedition",
+        "massstab",
+        "schwarzweiss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2009633380/",
+         "title": "Dog team resting by an iceberg – Library of Congress",
+         "excerpt": "Photograph shows two men resting with a dogsled team near an iceberg, during the British Antarctic Expedition."
+        }
+       ]
+      },
+      {
+       "key": "ponting-terra-nova-icebound",
+       "title": "Terra Nova icebound in the pack",
+       "year": null,
+       "location": "Antarctica",
+       "source_url": "https://www.loc.gov/item/2009633381/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a30000/3a37000/3a37000/3a37020v.jpg",
+       "tags": [
+        "eis",
+        "schiff",
+        "expedition",
+        "schwarzweiss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2009633381/",
+         "title": "Terra Nova icebound in the pack – Library of Congress",
+         "excerpt": "Photograph shows the Terra Nova ship icebound during the British Antarctic Expedition."
+        }
+       ]
+      },
+      {
+       "key": "ponting-grotto-iceberg-exterior",
+       "title": "Exterior of the Grotto iceberg",
+       "year": null,
+       "location": "Antarctica",
+       "source_url": "https://www.loc.gov/item/2009633382/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a40000/3a42000/3a42500/3a42504v.jpg",
+       "tags": [
+        "eis",
+        "eisberg",
+        "hoehle",
+        "rahmen",
+        "schwarzweiss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2009633382/",
+         "title": "Exterior of the Grotto iceberg – Library of Congress",
+         "excerpt": "Photograph shows T. Griffith Taylor and Charles S. Wright standing at the entrance to the Grotto Iceberg, during the British Antarctic Expedition."
+        }
+       ]
+      },
+      {
+       "key": "ponting-ramparts-mt-erebus",
+       "title": "Ramparts of Mt. Erebus",
+       "year": null,
+       "location": "Antarctica",
+       "source_url": "https://www.loc.gov/item/2009633386/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3b30000/3b34000/3b34800/3b34817r.jpg",
+       "tags": [
+        "eis",
+        "berg",
+        "landschaft",
+        "massstab",
+        "schwarzweiss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2009633386/",
+         "title": "Ramparts of Mt. Erebus – Library of Congress",
+         "excerpt": "Photograph shows a man with a dogsled in front of the ramparts of Mount Erebus, during the British Antarctic Expedition."
+        }
+       ]
+      },
+      {
+       "key": "ponting-midnight-sun",
+       "title": "Midnight sun in the Antarctic",
+       "year": null,
+       "location": "Antarctica",
+       "source_url": "https://www.loc.gov/item/2009633387/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3b30000/3b34000/3b34800/3b34818r.jpg",
+       "tags": [
+        "licht",
+        "eis",
+        "meer",
+        "weite",
+        "schwarzweiss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2009633387/",
+         "title": "Midnight sun in the Antarctic / H.G.P. – Library of Congress",
+         "excerpt": "Photograph shows a view across a bay with icebergs in the distance, during the British Antarctic Expedition."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hurley",
+   "name": "Frank Hurley",
+   "born": 1885,
+   "died": 1962,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Frank_Hurley",
+     "title": "Frank Hurley – Wikipedia",
+     "excerpt": "James Francis Hurley OBE (15 October 1885 – 16 January 1962) was an Australian photographer, cinematographer of documentary films, and director of drama feature films."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Frank_Hurley",
+     "title": "Frank Hurley – Wikipedia",
+     "excerpt": "He was the official photographer for the Australasian Antarctic Expedition (1911–14) led by Douglas Mawson, the Imperial Trans-Antarctic Expedition of 1914–16 led by Ernest Shackleton, and BANZARE (1929–31), again led by Mawson."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Frank_Hurley",
+     "title": "Frank Hurley – Wikipedia",
+     "excerpt": "He also used staged scenes, composites, and photographic manipulation."
+    }
+   ],
+   "projects": [
+    {
+     "key": "hurley-endurance",
+     "title": "Imperial Trans-Antarctic Expedition (Endurance)",
+     "year_from": 1914,
+     "year_to": 1916,
+     "sources": [
+      {
+       "url": "https://www.loc.gov/item/2013646123/",
+       "title": "Shackleton's expedition to the Antarctic Endurance squeezed between an ice jam – Library of Congress",
+       "excerpt": "Photograph shows the Endurace, leaning to the right, stuck within an ice jam."
+      }
+     ],
+     "images": [
+      {
+       "key": "hurley-endurance-ice-jam",
+       "title": "Shackleton's expedition to the Antarctic Endurance squeezed between an ice jam.",
+       "year": null,
+       "location": "Antarctica",
+       "source_url": "https://www.loc.gov/item/2013646123/",
+       "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a10000/3a19000/3a19300/3a19373r.jpg",
+       "tags": [
+        "eis",
+        "schiff",
+        "expedition",
+        "schwarzweiss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.loc.gov/item/2013646123/",
+         "title": "Library of Congress",
+         "excerpt": "Photograph shows the Endurace, leaning to the right, stuck within an ice jam."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "burtynsky",
+   "name": "Edward Burtynsky",
+   "born": 1955,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://www.edwardburtynsky.com/about/biography",
+     "title": "Biography — Edward Burtynsky",
+     "excerpt": "Edward Burtynsky is regarded as one of the world's most accomplished contemporary photographers. His remarkable photographic depictions of global industrial landscapes represent over 40 years of his dedication to bearing witness to the impact of human industry on the planet."
+    },
+    {
+     "url": "https://www.edwardburtynsky.com/about/biography",
+     "title": "Biography — Edward Burtynsky",
+     "excerpt": "Burtynsky was born in 1955 of Ukrainian heritage in St. Catharines, Ontario."
+    },
+    {
+     "url": "https://www.edwardburtynsky.com/about/biography",
+     "title": "Biography — Edward Burtynsky",
+     "excerpt": "His imagery explores the collective impact we as a species are having on the surface of the planet — an inspection of the human systems we've imposed onto natural landscapes."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Edward_Burtynsky",
+     "title": "Edward Burtynsky – Wikipedia",
+     "excerpt": "Most of Burtynsky's exhibited photography (pre-2007) was taken with a large format, field camera, on large 4×5-inch sheet film and developed into high-resolution, large-dimension prints of various sizes and editions ranging from 18 × 22 inches to 60 × 80 inches."
+    }
+   ],
+   "projects": [
+    {
+     "key": "burtynsky-china",
+     "title": "China",
+     "year_from": 2002,
+     "year_to": 2005,
+     "sources": [
+      {
+       "url": "https://www.edwardburtynsky.com/projects/photographs/china",
+       "title": "China — Edward Burtynsky",
+       "excerpt": "MANUFACTURING: In the province of Guangdong, one can drive for hours along numerous highways that reveal a virtually unbroken landscape of factories and workers’ dormitories."
+      },
+      {
+       "url": "https://www.edwardburtynsky.com/projects/photographs/china",
+       "title": "China — Edward Burtynsky",
+       "excerpt": "I no longer see my world as delineated by countries, with borders, or language, but as 7 billion humans living off a single, finite planet."
+      },
+      {
+       "url": "https://www.edwardburtynsky.com/about/biography",
+       "title": "Biography — Edward Burtynsky",
+       "excerpt": "China (toured internationally from 2005 - 2008)"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Edward_Burtynsky",
+       "title": "Edward Burtynsky – Wikipedia",
+       "excerpt": "He has made several excursions to China to photograph that country's industrial emergence, and construction of one of the world's largest engineering projects, the Three Gorges Dam."
+      }
+     ],
+     "images": [
+      {
+       "key": "burtynsky-dam-6",
+       "title": "Dam #6",
+       "year": 2005,
+       "location": "Three Gorges Dam Project, Yangtze River, China",
+       "source_url": "https://www.edwardburtynsky.com/projects/photographs/china",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5915c70e59cc6830f44a9d74/1501008594062-3DNWFHXK23EP20XSHLGP/TGD_DAM_06_05_big.jpg",
+       "tags": [
+        "industrie",
+        "staudamm",
+        "landschaft",
+        "massstab"
+       ],
+       "sources": []
+      },
+      {
+       "key": "burtynsky-fengjie-6",
+       "title": "Fengjie #6",
+       "year": 2002,
+       "location": "Three Gorges Dam Project, Yangtze River, China",
+       "source_url": "https://www.edwardburtynsky.com/projects/photographs/china",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5915c70e59cc6830f44a9d74/1501008602243-9MZE0OKV192ZI609DODO/TGD_FJ_06_02_big.jpg",
+       "tags": [
+        "stadt",
+        "abriss",
+        "landschaft",
+        "fluss"
+       ],
+       "sources": []
+      },
+      {
+       "key": "burtynsky-wushan-2",
+       "title": "Wushan #2",
+       "year": 2002,
+       "location": "Yangtze River, China",
+       "source_url": "https://www.edwardburtynsky.com/projects/photographs/china",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5915c70e59cc6830f44a9d74/1501008606496-LCDCVNJ3QBA340IIEMCX/TGD_WU_02_02_big.jpg",
+       "tags": [
+        "stadt",
+        "abriss",
+        "fluss",
+        "landschaft"
+       ],
+       "sources": []
+      },
+      {
+       "key": "burtynsky-old-factories-5",
+       "title": "Old Factories #5",
+       "year": 2005,
+       "location": "Shenyang Heavy Machinery Group, Tiexi District, Shenyang City, Liaoning Province, China",
+       "source_url": "https://www.edwardburtynsky.com/projects/photographs/china",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5915c70e59cc6830f44a9d74/1501008613627-93YMXZ09Y8EG1FH99GBL/CHNA_FAC_05_05_big.jpg",
+       "tags": [
+        "industrie",
+        "innenraum",
+        "verfall"
+       ],
+       "sources": []
+      },
+      {
+       "key": "burtynsky-china-recycling-9",
+       "title": "China Recycling #9, Circuit Boards",
+       "year": 2004,
+       "location": "Guiyu, Guangdong Province, China",
+       "source_url": "https://www.edwardburtynsky.com/projects/photographs/china",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5915c70e59cc6830f44a9d74/1501008643286-F72XQPIC6XOXBCEN9RKQ/CHNA_REC_09_04_big.jpg",
+       "tags": [
+        "recycling",
+        "muell",
+        "muster",
+        "farbe"
+       ],
+       "sources": []
+      },
+      {
+       "key": "burtynsky-manufacturing-17",
+       "title": "Manufacturing #17, Deda Chicken Processing Plant",
+       "year": 2005,
+       "location": "Dehui City, Jilin Province, China",
+       "source_url": "https://www.edwardburtynsky.com/projects/photographs/china",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5915c70e59cc6830f44a9d74/1501008631546-KYTPCQJVN8664EKJ7G9M/CHNA_MAN_17_05_big.jpg",
+       "tags": [
+        "industrie",
+        "menschenmenge",
+        "innenraum",
+        "wiederholung"
+       ],
+       "sources": []
+      },
+      {
+       "key": "burtynsky-shipyard-11",
+       "title": "Shipyard #11",
+       "year": 2005,
+       "location": "Qili Port, Zhejiang Province, China",
+       "source_url": "https://www.edwardburtynsky.com/projects/photographs/china",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5915c70e59cc6830f44a9d74/1501008660783-26WJ0YM6GDP9RONARN8B/CHNA_SHY_11_05_big.jpg",
+       "tags": [
+        "industrie",
+        "schiff",
+        "hafen",
+        "massstab"
+       ],
+       "sources": []
+      },
+      {
+       "key": "burtynsky-bao-steel-8",
+       "title": "Bao Steel #8",
+       "year": 2005,
+       "location": "Shanghai, China",
+       "source_url": "https://www.edwardburtynsky.com/projects/photographs/china",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5915c70e59cc6830f44a9d74/1501008684376-0IYNFHUYF4LE7D1HIEFP/CHNA_STE_BAO_08_05_big.jpg",
+       "tags": [
+        "industrie",
+        "stahl",
+        "rohstoff",
+        "farbe"
+       ],
+       "sources": []
+      },
+      {
+       "key": "burtynsky-urban-renewal-5",
+       "title": "Urban Renewal #5, City Overview From Top of Military Hospital",
+       "year": 2004,
+       "location": "Shanghai, China",
+       "source_url": "https://www.edwardburtynsky.com/projects/photographs/china",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5915c70e59cc6830f44a9d74/1501008688795-E28IGA6X7G2M64MS6ZZL/CHNA_UBR_05_04_big.jpg",
+       "tags": [
+        "stadt",
+        "dichte",
+        "weite",
+        "architektur"
+       ],
+       "sources": []
+      },
+      {
+       "key": "burtynsky-urban-renewal-6",
+       "title": "Urban Renewal #6, Apartment Complex",
+       "year": 2004,
+       "location": "JiangjunAo, Hong Kong",
+       "source_url": "https://www.edwardburtynsky.com/projects/photographs/china",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5915c70e59cc6830f44a9d74/1501008696088-CF0LQXUPG59UHTDOCESS/CHNA_UBR_06_04_big.jpg",
+       "tags": [
+        "architektur",
+        "stadt",
+        "dichte",
+        "wohnen"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "oobecker",
+   "name": "Olaf Otto Becker",
+   "born": 1959,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://www.olafottobecker.com/?page=about",
+     "title": "Olaf Otto Becker – Bio",
+     "excerpt": "Born 1959 in Travemünde, by the Baltic Sea, Germany."
+    },
+    {
+     "url": "https://www.olafottobecker.com/?page=about",
+     "title": "Olaf Otto Becker – Bio",
+     "excerpt": "For my book Broken Line, I traveled 4000 km in a small dinghy along the west coast of Greenland to document climate change with my 8 x 10 camera."
+    },
+    {
+     "url": "https://www.olafottobecker.com",
+     "title": "Olaf Otto Becker",
+     "excerpt": "For more than 30 years now, landscape photography constitutes the main topic of my photographic work. I am especially interested in documenting the visible traces of human overpopulation left behind in nature."
+    }
+   ],
+   "projects": [
+    {
+     "key": "oobecker-above-zero",
+     "title": "Above Zero",
+     "year_from": 2007,
+     "year_to": 2008,
+     "sources": [
+      {
+       "url": "https://www.olafottobecker.com/?page=projects_above_zero",
+       "title": "Olaf Otto Becker – Project: Above Zero",
+       "excerpt": "I show portraits of meltwater rivers that are increasingly appearing on the ice due to global warming. These were produced on two expeditions during which I traveled 450 km on foot in the melt zone of the Greenland Inland Ice with a companion."
+      },
+      {
+       "url": "https://www.olafottobecker.com/?page=projects_above_zero",
+       "title": "Olaf Otto Becker – Project: Above Zero",
+       "excerpt": "This series depicts how nature reacts causally to climate change and how these developments are confronted by humans."
+      },
+      {
+       "url": "https://www.olafottobecker.com/?page=about",
+       "title": "Olaf Otto Becker – Bio",
+       "excerpt": "In 2007 and 2008 my assistant and I went on two expeditions to Greenland’s inland ice and the world’s largest glacier to capture the melting process."
+      }
+     ],
+     "images": [
+      {
+       "key": "oobecker-inland-ice-1",
+       "title": "Inland Ice 1, Greenland, 07/2007",
+       "year": 2007,
+       "location": "Greenland Inland Ice",
+       "source_url": "https://www.olafottobecker.com/?page=projects_above_zero",
+       "image_url": "https://www.olafottobecker.com/gallery_img/z_70.png",
+       "tags": [
+        "eis",
+        "landschaft",
+        "klima",
+        "weite"
+       ],
+       "sources": []
+      },
+      {
+       "key": "oobecker-river-1-position-5",
+       "title": "River 1, 07/2007, Position 5",
+       "year": 2007,
+       "location": "Greenland Inland Ice",
+       "source_url": "https://www.olafottobecker.com/?page=projects_above_zero",
+       "image_url": "https://www.olafottobecker.com/gallery_img/z_75.png",
+       "tags": [
+        "eis",
+        "schmelzwasser",
+        "klima",
+        "abstraktion"
+       ],
+       "sources": []
+      },
+      {
+       "key": "oobecker-river-2-position-1",
+       "title": "River 2, 07/2008, Position 1",
+       "year": 2008,
+       "location": "Greenland Inland Ice",
+       "source_url": "https://www.olafottobecker.com/?page=projects_above_zero",
+       "image_url": "https://www.olafottobecker.com/gallery_img/z_89.png",
+       "tags": [
+        "eis",
+        "schmelzwasser",
+        "klima",
+        "abstraktion"
+       ],
+       "sources": []
+      },
+      {
+       "key": "oobecker-river-3-position-4",
+       "title": "River 3, 07/2008, Position 4",
+       "year": 2008,
+       "location": "Greenland Inland Ice",
+       "source_url": "https://www.olafottobecker.com/?page=projects_above_zero",
+       "image_url": "https://www.olafottobecker.com/gallery_img/z_110.png",
+       "tags": [
+        "eis",
+        "schmelzwasser",
+        "klima",
+        "linie"
+       ],
+       "sources": []
+      },
+      {
+       "key": "oobecker-river-4-position-6",
+       "title": "River 4, 07/2008, Position 6",
+       "year": 2008,
+       "location": "Greenland Inland Ice",
+       "source_url": "https://www.olafottobecker.com/?page=projects_above_zero",
+       "image_url": "https://www.olafottobecker.com/gallery_img/z_120.png",
+       "tags": [
+        "eis",
+        "schmelzwasser",
+        "klima",
+        "linie"
+       ],
+       "sources": []
+      },
+      {
+       "key": "oobecker-swiss-camp",
+       "title": "Swiss Camp, 05/2008",
+       "year": 2008,
+       "location": "Greenland Inland Ice",
+       "source_url": "https://www.olafottobecker.com/?page=projects_above_zero",
+       "image_url": "https://www.olafottobecker.com/gallery_img/z_125.png",
+       "tags": [
+        "eis",
+        "wissenschaft",
+        "klima",
+        "mensch"
+       ],
+       "sources": []
+      },
+      {
+       "key": "oobecker-measuring-station-1",
+       "title": "A measuring station being anchored deeper in the ice because of melting (1)",
+       "year": null,
+       "location": "Greenland Inland Ice",
+       "source_url": "https://www.olafottobecker.com/?page=projects_above_zero",
+       "image_url": "https://www.olafottobecker.com/gallery_img/z_134.png",
+       "tags": [
+        "eis",
+        "wissenschaft",
+        "klima",
+        "mensch"
+       ],
+       "sources": []
+      },
+      {
+       "key": "oobecker-point-660",
+       "title": "Point 660, 2, 08/2008",
+       "year": 2008,
+       "location": "Greenland Inland Ice",
+       "source_url": "https://www.olafottobecker.com/?page=projects_above_zero",
+       "image_url": "https://www.olafottobecker.com/gallery_img/z_138.png",
+       "tags": [
+        "eis",
+        "tourismus",
+        "klima",
+        "landschaft"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 7,
+   "title": "Die großen Formate: Düsseldorfer Schule und die Megastädte",
+   "period_from": 1980,
+   "period_to": 2010,
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/d/dusseldorf-school-photography",
+     "title": "Dusseldorf School of Photography | Tate",
+     "excerpt": "The Dusseldorf School of Photography refers to a group of photographers who studied at the Kunstakademie Dusseldorf in the mid 1970s under the influential photographers Bernd and Hilla Becher"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/d/dusseldorf-school-photography",
+     "title": "Dusseldorf School of Photography | Tate",
+     "excerpt": "Andreas Gursky, Candida Höfer, Axel Hütte, Thomas Ruff and Thomas Struth modified the approach of their teachers by applying new technical possibilities and a personal and contemporary vision, while retaining the documentary method their tutors propounded."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Bernd_and_Hilla_Becher",
+     "title": "Bernd and Hilla Becher – Wikipedia",
+     "excerpt": "As the founders of what has come to be known as the 'Becher school' or the Düsseldorf School of Photography, they influenced generations of documentary photographers and artists in Germany and abroad."
+    },
+    {
+     "url": "https://photomichaelwolf.com/about-michael-wolf/introduction/",
+     "title": "Michael Wolf – Life in the City (Introduction, photomichaelwolf.com)",
+     "excerpt": "contrary to the lyrical drama of ‘classic’ documentary photography, these images are coolly detached from their subject and the photographer’s presence behind the camera is barely perceptible."
+    }
+   ],
+   "key_images": [
+    "becher-gas-tanks-tate",
+    "struth-shinju-ku-skyscrapers-tokyo-1986",
+    "gursky-paris-montparnasse",
+    "gursky-chicago-board-of-trade-ii",
+    "gursky-the-rhine-ii",
+    "hoefer-stiftsbibliothek-st-gallen-i",
+    "wolf-aod-a04",
+    "wolf-aod-a38",
+    "wolf-aod-a70"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Natur und Tiere: von der Expedition zur Naturschutzfotografie",
+   "period_from": 1910,
+   "period_to": 2020,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Herbert_Ponting",
+     "title": "Herbert Ponting – Wikipedia",
+     "excerpt": "His flair for journalism and ability to shape his photographic illustrations into a narrative led to his being signed as expedition photographer aboard the Terra Nova, the first time a professional photographer was included on an Antarctic expedition."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Frank_Hurley",
+     "title": "Frank Hurley – Wikipedia",
+     "excerpt": "He participated in a number of expeditions to Antarctica and served as an official war photographer with Australian forces during both world wars."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Eliot_Porter",
+     "title": "Eliot Porter – Wikipedia",
+     "excerpt": "His 1962 book, In Wildness Is the Preservation of the World featured Porter's color nature studies of the New England woods."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Eliot_Porter",
+     "title": "Eliot Porter – Wikipedia",
+     "excerpt": "The book enjoyed considerable success despite its high price, pioneered the genre of the nature photography coffee-table book, and lead to several other titles by Porter in a similar format published by the Sierra Club and others."
+    }
+   ],
+   "key_images": [
+    "ponting-castle-berg",
+    "ponting-grotto-iceberg-exterior",
+    "ponting-midnight-sun",
+    "ponting-seals-on-pancake-ice",
+    "ponting-weddell-seal-and-calf",
+    "ponting-dog-team-iceberg",
+    "ponting-terra-nova-icebound",
+    "ponting-ponting-and-his-camera",
+    "hurley-endurance-ice-jam"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Zeitgenössische Landschaft: Mensch, Industrie, Klima",
+   "period_from": 1980,
+   "period_to": 2025,
+   "sources": [
+    {
+     "url": "https://www.edwardburtynsky.com/projects/the-anthropocene-project",
+     "title": "The Anthropocene Project — Edward Burtynsky",
+     "excerpt": "The Anthropocene Project is a multidisciplinary body of work combining fine art photography, film, virtual reality, augmented reality, and scientific research to investigate human influence on the state, dynamic, and future of the Earth."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Edward_Burtynsky",
+     "title": "Edward Burtynsky – Wikipedia",
+     "excerpt": "He often positions himself at high-vantage points over the landscape using elevated platforms, the natural topography, and more currently drones, helicopters and fixed-wing aircraft."
+    },
+    {
+     "url": "https://www.olafottobecker.com/?page=projects",
+     "title": "Olaf Otto Becker – Projects",
+     "excerpt": "The signs that can be found in landscapes are what interest me. I try to produce images that act as poetic images and documentation of processes at the same time and are relevant to all of us."
+    }
+   ],
+   "key_images": [
+    "burtynsky-dam-6",
+    "burtynsky-fengjie-6",
+    "burtynsky-shipyard-11",
+    "burtynsky-bao-steel-8",
+    "burtynsky-urban-renewal-5",
+    "burtynsky-china-recycling-9",
+    "oobecker-inland-ice-1",
+    "oobecker-river-2-position-1",
+    "oobecker-measuring-station-1"
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Instagram und die Folgen",
+   "period_from": 2010,
+   "period_to": 2026,
+   "sources": [
+    {
+     "url": "https://hyperallergic.com/alarming-homogeneity-of-instagram-travel-photos",
+     "title": "The Alarming Homogeneity of Instagram Travel Photos – Hyperallergic (Monica Uszerowicz, 2018)",
+     "excerpt": "Insta Repeat, an Instagram account advertising “Déjà Vu Vibes” — the way another account might herald wanderlust vibes — aggregates images from various unrelated travel accounts into collages of nearly indistinguishable photos"
+    },
+    {
+     "url": "https://hyperallergic.com/alarming-homogeneity-of-instagram-travel-photos",
+     "title": "The Alarming Homogeneity of Instagram Travel Photos – Hyperallergic (Monica Uszerowicz, 2018)",
+     "excerpt": "Popularity has never fostered risk taking or originality."
+    },
+    {
+     "url": "https://www.designboom.com/art/instagram-photos-look-the-same-insta-repeat-07-30-2018/",
+     "title": "everything on instagram is starting to look the same and insta repeat is here to prove it – designboom (2018)",
+     "excerpt": "insta repeat posts collages made up of photos by unrelated photographers that look remarkably similar."
+    },
+    {
+     "url": "https://amateurphotographer.com/latest/photo-news/getting-sick-same-old-instagram-shots",
+     "title": "Are we getting sick of the same old shots? – Amateur Photographer",
+     "excerpt": "The research revealed that more than half of the Top 30 landmarks are shot from the same three basic angles, while 55% of travellers saying they would plan their itinerary based on photography opportunities."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Instagram_tourism",
+     "title": "Instagram tourism – Wikipedia",
+     "excerpt": "Norway's Trolltunga, which had 800 visitors in 2010, experienced 80,000 in 2016, a change which was attributed to social media exposure."
+    },
+    {
+     "url": "https://www.npr.org/2019/05/28/726658317/instagramming-crowds-pack-national-parks",
+     "title": "Instagramming Crowds Pack National Parks – NPR (Nate Hegyi, 2019)",
+     "excerpt": "Horseshoe Bend in Arizona, for example, was once a sleepy, locals-only pitstop on the side of a highway until beautiful photos of the Colorado River there went viral on Instagram."
+    },
+    {
+     "url": "https://www.npr.org/2019/05/28/726658317/instagramming-crowds-pack-national-parks",
+     "title": "Instagramming Crowds Pack National Parks – NPR (Nate Hegyi, 2019)",
+     "excerpt": "\"There hasn't been a study done yet that's been published that's been able to show a direct cause and effect,\" said Ashley D'Antonio, a recreation ecologist and associate professor at Oregon State University."
+    },
+    {
+     "url": "https://www.afar.com/magazine/horseshoe-bend-adds-entrance-fee-due-to-instagram-popularity",
+     "title": "Horseshoe Bend Adds Entrance Fee After Becoming Instagram Magnet – AFAR (2019)",
+     "excerpt": "For the first time ever, travelers must pay an entrance fee to visit Horseshoe Bend, a regularly photographed spot in Arizona’s Glen Canyon National Recreation Area where the Colorado River takes a dramatic U-shaped turn."
+    },
+    {
+     "url": "https://roadtrippers.com/magazine/generic-geotagging-national-parks/",
+     "title": "Tag responsibly: A new campaign encourages thoughtful geotagging to protect wild spaces – Roadtrippers (2019)",
+     "excerpt": "The idea of the Jackson Hole campaign is to replace the actual geographic location with “Tag Responsibly, Keep Jackson Hole Wild”—or a location tag of a general area, like a state or a national park."
+    }
+   ],
+   "key_images": []
+  }
+ ]
+}

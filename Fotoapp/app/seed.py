@@ -101,7 +101,12 @@ def import_file(db: Session, path: Path, keys: dict[str, int], failed: list[str]
             stats["sources"] += add_sources(db, pr_data.get("sources"), "project", pr.id, accessed)
 
             for im in pr_data.get("images", []):
-                img = db.scalar(select(Image).where(Image.source_url == im["source_url"]))
+                # Several images can share one source page (series pages), so the image URL is the key.
+                img = db.scalar(
+                    select(Image).where(
+                        Image.image_url == im["image_url"] if im.get("image_url") else Image.source_url == im["source_url"]
+                    )
+                )
                 if img is None:
                     if not im.get("image_url"):
                         failed.append(f"{im.get('key')}: keine Bild-URL")
@@ -145,10 +150,12 @@ def import_file(db: Session, path: Path, keys: dict[str, int], failed: list[str]
             ch.period_from, ch.period_to = c.get("period_from"), c.get("period_to")
         stats["sources"] += add_sources(db, c.get("sources"), "chapter", ch.id, accessed)
         pos = len(ch.images)
+        linked = {ci.image_id for ci in ch.images}
         for key in c.get("key_images", []):
             iid = keys.get(key)
-            if iid is None or db.get(ChapterImage, (ch.id, iid)):
+            if iid is None or iid in linked:
                 continue
+            linked.add(iid)
             pos += 1
             db.add(ChapterImage(chapter_id=ch.id, image_id=iid, position=pos))
         db.commit()

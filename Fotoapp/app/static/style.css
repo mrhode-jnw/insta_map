@@ -144,7 +144,8 @@ table.list th { color: var(--muted); font-weight: 400; font-size: 0.85rem; }
 .key-row label { display: inline-block; margin-right: 8px; }
 
 .timeline-scroll { overflow-x: auto; padding-bottom: 12px; }
-.timeline { position: relative; min-width: 1100px; height: calc(var(--levels) * 96px + 50px); margin-top: 20px; }
+.timeline { position: relative; min-width: 1100px; margin-left: 50px; margin-right: 50px; height: calc(var(--levels) * 96px + 50px); margin-top: 20px; }
+.timeline-scroll .timeline { width: calc(100% - 100px); }
 .tl-item { position: absolute; bottom: calc(40px + var(--level) * 96px); transform: translateX(-50%); width: 84px; text-align: center; font-size: 0.75rem; color: var(--muted); }
 .tl-item img { width: 84px; height: 64px; object-fit: cover; border-radius: 2px; display: block; border: 1px solid var(--line); }
 .tl-item:hover img { border-color: var(--accent); }

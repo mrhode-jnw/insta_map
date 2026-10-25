@@ -187,18 +187,24 @@ def timeline(request: Request, chapter: int | None = None, db: Session = Depends
         y0 -= (y0 % 10)
         y1 += 10 - (y1 % 10)
         span = max(1, y1 - y0)
-        stack: dict[int, int] = {}
+        # Greedy stacking: each level keeps the right edge of its last item (in % of the axis).
+        width_px = max(1100, span * 24)  # wide axes scroll horizontally instead of stacking high
+        min_gap = 90 / width_px * 100
+        level_ends: list[float] = []
         for img in rows:
-            bucket = round((img.year - y0) / span * 40)  # collision buckets ~2.5 % wide
-            level = stack.get(bucket, 0)
-            stack[bucket] = level + 1
-            points.append({"img": img, "left": (img.year - y0) / span * 100, "level": level})
+            left = (img.year - y0) / span * 100
+            level = next((i for i, end in enumerate(level_ends) if left - end >= min_gap), len(level_ends))
+            if level == len(level_ends):
+                level_ends.append(left)
+            else:
+                level_ends[level] = left
+            points.append({"img": img, "left": left, "level": level})
         ticks = [(y, (y - y0) / span * 100) for y in range(y0, y1 + 1, 10 if span <= 120 else 20)]
-        height = max(stack.values()) if stack else 1
+        height = len(level_ends)
     else:
-        ticks, height = [], 1
+        ticks, height, width_px = [], 1, 1100
     return templates.TemplateResponse(
         request,
         "timeline.html",
-        {"points": points, "ticks": ticks, "chapters": chapters, "chapter": chapter, "height": height},
+        {"points": points, "ticks": ticks, "chapters": chapters, "chapter": chapter, "height": height, "width": width_px},
     )

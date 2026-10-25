@@ -12,7 +12,7 @@
   <p class="muted">Keine Bilder mit Jahresangabe{% if chapter %} in diesem Kapitel{% endif %}.</p>
 {% else %}
 <div class="timeline-scroll">
-  <div class="timeline" style="--levels: {{ height }}">
+  <div class="timeline" style="--levels: {{ height }}; min-width: {{ width }}px">
     {% for p in points %}
       <a class="tl-item" href="/images/{{ p.img.id }}" style="left: {{ '%.2f' % p.left }}%; --level: {{ p.level }}"
          title="{{ p.img.year }} · {{ p.img.photographer.name }} · {{ p.img.title }}">

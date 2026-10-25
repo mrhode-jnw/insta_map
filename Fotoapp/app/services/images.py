@@ -19,9 +19,17 @@ class ImageImportError(Exception):
     pass
 
 
+def _headers(url: str) -> dict[str, str]:
+    headers = {"User-Agent": USER_AGENT, "Accept": "image/jpeg,image/*;q=0.8"}
+    if "artic.edu" in url:
+        # The Art Institute of Chicago asks API/IIIF clients to identify themselves with this header.
+        headers["AIC-User-Agent"] = USER_AGENT
+    return headers
+
+
 def download(url: str, timeout: float = 60.0) -> bytes:
     try:
-        resp = httpx.get(url, headers={"User-Agent": USER_AGENT}, follow_redirects=True, timeout=timeout)
+        resp = httpx.get(url, headers=_headers(url), follow_redirects=True, timeout=timeout)
         resp.raise_for_status()
     except httpx.HTTPError as exc:
         raise ImageImportError(f"Download fehlgeschlagen: {exc}") from exc
