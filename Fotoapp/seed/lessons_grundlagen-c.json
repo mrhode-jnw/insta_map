@@ -1,0 +1,633 @@
+{
+ "accessed_at": "2026-10-25",
+ "lessons": [
+  {
+   "dimension": "print-and-processing",
+   "track": "grundlagen",
+   "order": 8,
+   "title": "Ausarbeitung und Abzug als Interpretation",
+   "sources": [
+    {
+     "url": "https://www.sothebys.com/en/articles/the-comprehensive-collectors-guide-to-ansel-adamss-photographs",
+     "title": "Sotheby’s: The Comprehensive Collector’s Guide to Ansel Adams’s Photographs (Stephen Pulvirent, 2024)",
+     "excerpt": "Ross recalls that “one of Ansel’s favorite lines was, ‘The negative is the score, and the print is the performance’ meaning that a poor musician can make a complete mess of a celebrated piece of music.” For Adams, a negative served as a blueprint for the art-object, and only in the hands of a virtuosic printer can the photograph achieve what the photographer originally conceived in his mind’s eye."
+    },
+    {
+     "url": "https://www.sothebys.com/en/articles/the-comprehensive-collectors-guide-to-ansel-adamss-photographs",
+     "title": "Sotheby’s: Collector’s Guide to Ansel Adams – The Print und Rückkehr zu den Negativen",
+     "excerpt": "“Photography is more than a medium for communication of reality, it is a creative art,” he wrote in the introduction of The Print (1982), the third in a trio of manuals intended for educating serious photographers (after The Camera, 1980, and The Negative, 1981). … Never satisfied, Adams continued to experiment subtly with his negatives for decades. He returned to negatives again and again, like a piece of music, finding new ways to evoke emotion through his landscapes."
+    },
+    {
+     "url": "https://www.sothebys.com/en/articles/the-comprehensive-collectors-guide-to-ansel-adamss-photographs",
+     "title": "Sotheby’s: Collector’s Guide to Ansel Adams – Papiere und Formate",
+     "excerpt": "These early pictures are Pictorialist in spirit, with soft focus, printed on papers that only allow for a shallow range of tones, and show bucolic, outdoor subjects that are largely free of human figures or man-made architecture. … While Adams typically printed his images in a format that hovered around 15 by 19 inches (or the reverse), he was one of the earliest enthusiasts of large-format photographic printing, making his first mural-sized prints in 1935 for the San Diego Exposition."
+    },
+    {
+     "url": "https://www.sothebys.com/en/articles/the-complete-collectors-guide-to-photographic-prints",
+     "title": "Sotheby’s: The Complete Collector’s Guide to Photographic Prints (Bryan Martin, 2025)",
+     "excerpt": "That negative is then used in the darkroom to expose light-sensitive gelatin-silver paper, typically via an enlarger, before being chemically developed into a final black-and-white print. … Methods like chromogenic prints (often abbreviated as c-prints), Cibachrome prints and dye-transfer prints use layers of cyan, magenta and yellow to produce full-color images. … Archival pigment prints utilize the same technology, except using an ink that’s less prone to degrading over time."
+    },
+    {
+     "url": "https://journals.openedition.org/etudesphotographiques/3440",
+     "title": "Olivier Lugon: Before the Tableau Form, Études photographiques 25 (2010)",
+     "excerpt": "This time it involved the Diasec, a technique also developed in the early 1970s for facemounting a print onto Plexiglas. Even though it had been developed for advertising and trade fairs, it was suddenly discovered by ambitious photographers, who now directed it toward the unexpected market of contemporary art."
+    },
+    {
+     "url": "https://www.worldpressphoto.org/contest/verification-process/what-counts-as-manipulation",
+     "title": "World Press Photo: What counts as manipulation (Wettbewerbsregeln)",
+     "excerpt": "The content of a photograph must not be altered by adding, rearranging, reversing, distorting or removing people and/or objects from within the frame. … Adjustments of color or conversion to grayscale that do not alter content are permitted, with two exceptions: (i) Changes in color may not result in significant changes in hue, to such an extent that the processed colors diverge from the original colors. (ii) Changes in density, contrast, color and/or saturation levels that significantly alter content by obscuring or eliminating information in the photograph are not permitted."
+    }
+   ],
+   "intro_md": "Zwischen Auslösen und fertigem Bild liegt ein zweiter Schöpfungsakt: die Ausarbeitung. Früher war das die Dunkelkammer, heute ist es der Raw-Entwickler – und am Ende ein Abzug auf Papier, ein Buchdruck oder ein leuchtender Bildschirm. In jedem dieser Schritte wird entschieden, wie hell der Himmel ist, wie tief die Schatten fallen, welche Farbe das Licht hat, wie groß das Bild ist und aus welcher Entfernung man es sieht. Diese Entscheidungen sind keine Korrektur einer „richtigen“ Aufnahme, sondern Interpretation: Dieselbe Datei kann ruhig oder dramatisch, kühl oder warm, intim oder monumental werden. Die Lektion zeigt, wie Fotografen von Ansel Adams bis Andreas Gursky darüber denken, welche Werkzeuge welche Bildwirkung erzeugen, wo Interpretation in Verfälschung umschlägt und warum Bildschirm und Papier zwei verschiedene Medien sind.",
+   "sections": [
+    {
+     "heading": "Partitur und Aufführung",
+     "body_md": "Der bekannteste Satz zur Ausarbeitung stammt von Ansel Adams. Sein früherer Assistent Alan Ross erinnert sich an Adams’ Lieblingssatz: Das Negativ sei die Partitur, der Abzug die Aufführung – ein schlechter Musiker könne auch ein berühmtes Stück ruinieren [Q1]. In einem auf der SFMOMA-Seite wiedergegebenen Text vergleicht Adams das entwickelte Negativ mit einer Partitur, die nun auf ihre Aufführung, den Abzug, wartet; schon beim Visualisieren gehe es darum, die Qualitäten des späteren Abzugs zu fühlen [S367550]. In der Einleitung zu *The Print* (1982), dem dritten seiner Lehrbücher, nennt er Fotografie eine schöpferische Kunst, nicht nur ein Medium zur Mitteilung von Wirklichkeit [Q2].\n\nZwei Folgerungen sind wichtig. Erstens: Die Interpretation beginnt vor der Aufnahme. Wer weiß, wohin er die Tonwerte später legen will, belichtet anders. Zweitens: Eine Partitur hat viele gültige Aufführungen. Adams kehrte jahrzehntelang zu denselben Negativen zurück und suchte neue Wege, Gefühl auszudrücken [Q2]. Das SFMOMA hält fest, dass er viel Mühe darauf verwandte, seine Bilder unmanipuliert erscheinen zu lassen, obwohl ein großer Teil seiner schöpferischen Arbeit in der Dunkelkammer stattfand [S245847].\n\nFür die Raw-Datei gilt dasselbe: Sie ist kein Bild, sondern ein Möglichkeitsraum. Die Kamera-Voreinstellung ist nur eine von vielen Aufführungen – und meist die am wenigsten durchdachte."
+    },
+    {
+     "heading": "Tonwerte sind Entscheidungen",
+     "body_md": "Das Auge geht zuerst zum hellsten Kontrast. Wer festlegt, wo im Bild das reinste Weiß und das tiefste Schwarz liegen, legt damit die Rangfolge der Bildteile fest. Die Grundentscheidungen sind:\n\n- **Schwarz- und Weißpunkt:** Wie viel Bildfläche darf ohne Zeichnung sein? Ein abgesoffener Vordergrund kann eine Form vereinfachen, ein ausgefressener Himmel kann eine Leere schaffen – oder einfach Information vernichten.\n- **Mitteltöne und Gradation:** Eine steile Kurve macht hart und grafisch, eine flache weich und atmosphärisch. Die Mitteltöne tragen in Landschaften oft die Tiefe (Dunst, Ebenen).\n- **Lokaler Kontrast:** Abwedeln und Nachbelichten (heute: Masken, Verläufe, Pinsel) verschieben Gewicht innerhalb des Bildes. Die Biografie auf anseladams.com nennt Burning und Dodging zusammen mit dem Zonensystem als Mittel, die Tonalität zu „manipulieren“ und so zu gestalten statt nur aufzuzeichnen [S998029].\n\nIn Schwarzweiß kommt die Übersetzung der Farben hinzu: Welches Grau bekommt Blau, welches Grün? Ein dunkel gelegter Himmel (früher Rot- oder Orangefilter, heute der Farbkanal-Mischer) lässt Wolken und Schneeflächen hervortreten. Die Kuratorin Becky Senf beschreibt bei Adams’ *The Tetons and the Snake River* das „Spektrum“ der Grautöne als Quelle der kraftvollen Wirkung und die Wolken als „Wettereffekte“ mit „opernhafter“ Qualität [S236552]. Das ist Ausarbeitung: dieselbe Szene könnte mit flacheren Grautönen sachlich und leise wirken."
+    },
+    {
+     "heading": "Von der Dunkelkammer zum Raw-Entwickler",
+     "body_md": "Die Werkzeuge haben sich geändert, die Fragen nicht. Global wirken Belichtung, Weißabgleich, Gradationskurve und Kameraprofil; lokal wirken Masken, die genau das tun, was früher Hände unter dem Vergrößerer taten. Wie viel Arbeit darin steckt, zeigt Christopher Burkett: Laut James Alinder verbringt er zwei Monate im Jahr mit der Motivsuche und zehn Monate in der Dunkelkammer [S731521]. Seine bekannte Tonbalance beruht auf Kontrastmasken, einem Schwarzweiß-Negativ, das passgenau mit dem Farbdia kombiniert wird – „Masking is the key to good color printing“ [S798941]. Lewis Baltz wiederum fotografierte mit einer leichten Leica und verließ sich auf Stativ, feinkörnigen Film und große Disziplin in der Dunkelkammer [S152264].\n\nDer heutige Fehler ist selten zu wenig, sondern zu viel und zu gleichmäßig: Wer überall Schatten aufhellt, Lichter absenkt und Klarheit erhöht, bekommt ein Bild ohne Rangordnung – alles ist gleich wichtig, also nichts. Gute Ausarbeitung arbeitet meist lokal und subtraktiv: Sie dämpft, was ablenkt, statt alles zu verstärken.\n\nWo endet Interpretation? Für den Fotojournalismus zieht World Press Photo eine klare Linie: Personen oder Objekte dürfen weder hinzugefügt noch entfernt oder verschoben werden; Farbanpassungen und Schwarzweiß-Umwandlung sind erlaubt, solange sie den Inhalt nicht verändern; nicht erlaubt sind starke Farbtonverschiebungen und Änderungen von Dichte, Kontrast oder Sättigung, die Informationen verdecken oder tilgen [Q6]. Bei Steve McCurrys Ausstellung in Venaria Reale entdeckte ein Besucher an den großen Abzügen Spuren einer schlechten Photoshop-Retusche; McCurry hatte an anderer Stelle gesagt, Tonwertänderungen in Bildbereichen seien in Ordnung, das Verschieben von Elementen nicht [S643241]. Für künstlerische Landschaftsfotografie gelten andere Regeln – aber wer Elemente entfernt, sollte wissen, dass er die Gattung wechselt."
+    },
+    {
+     "heading": "Farbe und Grading als Deutung",
+     "body_md": "Der Weißabgleich ist keine Wahrheit, sondern eine Entscheidung über die Temperatur des Lichts. Neutral gemacht verliert ein Abend seine Uhrzeit; wärmer gelegt wird er zur Erinnerung. Ebenso sind Sättigung, Farbtonverschiebung einzelner Farben, Teiltonung von Lichtern und Schatten und die Abstimmung der Farbtöne aufeinander (Farbharmonie) Deutungen.\n\nAuch das Material deutet mit. Charlie Waite sagt über blaue Bäume in einem seiner Bilder, sie seien für sein Auge blau gewesen, und manchmal sei so etwas eine Folge des Materials, ob digital oder Film [S911181]. Historisch prägten Druckverfahren den Farbcharakter ganzer Werke: Eliot Porters Fotografien wurden im Dye-Transfer-Verfahren gedruckt und wichen damit von den großen Schwarzweiß-Panoramen eines Ansel Adams ab [S403482]; beim Dye-Transfer wird Farbstoff über Gelatine-Reliefmatrizen in Registerdruck auf Papier übertragen [S668716]. Chromogene Abzüge, Cibachrome und Dye-Transfer bauen das Farbbild aus Cyan, Magenta und Gelb auf [Q4] – jedes mit eigenem Charakter in Kontrast, Glanz und Farbreinheit.\n\nDie Frage beim Grading lautet nicht „wie sieht es gut aus?“, sondern „was soll die Farbe tun?“ – Uhrzeit erzählen, Stille herstellen, ein Element hervorheben, Bilder einer Serie verbinden. Ein Preset, das über alle Bilder gelegt wird, beantwortet diese Frage nicht, es umgeht sie."
+    },
+    {
+     "heading": "Papier, Verfahren, Objekt",
+     "body_md": "Ein Abzug ist ein Gegenstand. Beim Gelatine-Silber-Abzug wird das Negativ meist über einen Vergrößerer auf lichtempfindliches Papier belichtet und chemisch entwickelt; Pigmentdrucke verwenden Inkjet-Technik mit beständigeren Tinten [Q4]. Papiere unterscheiden sich in Weißton, Oberfläche und maximaler Schwärze: Glänzende Barytpapiere erreichen tiefere Schwärzen und mehr Brillanz, matte Papiere wirken weicher, stiller und zeigen weniger Spiegelungen. Adams’ frühe Abzüge entstanden auf Papieren, die nur einen geringen Tonumfang erlaubten – passend zur piktorialistischen Weichheit jener Bilder [Q3].\n\nDaraus folgt der Unterschied zwischen Vintage-Abzug und späterem Abzug. Das M+ Museum besitzt Fan Hos *The Market Parade* (1963) als Gelatine-Silber-Abzug [S529128], *Approaching Shadow* (1954) dagegen als 2013 neu gedruckten Archival Pigment Print [S566042]. Dasselbe Motiv existiert also in Objekten aus verschiedenen Jahrzehnten und Techniken – und jedes ist eine eigene Aufführung.\n\nAuch der Ausschnitt gehört zur Ausarbeitung: Fan Ho beschnitt *School is Over* radikal zu einem ungewöhnlich schmalen Hochformat und verglich das Beschneiden und Bearbeiten mit dem Filmemachen [S204183]."
+    },
+    {
+     "heading": "Größe und Betrachtungsabstand",
+     "body_md": "Die Größe eines Abzugs bestimmt, wie man ihn ansieht. Ein kleines Bild holt den Betrachter heran: Man steht nah, allein, und das Bild wird zu einem privaten Gegenüber. Ein sehr großes Bild hält auf Abstand und lädt dann zum Herantreten ein – aus der Ferne wirkt es als Fläche und Struktur, aus der Nähe als Fülle von Einzelheiten. Als Faustregel schaut man ein Bild aus etwa seiner Diagonale an; je größer, desto mehr muss die Datei in der Nähe tragen.\n\nAdams druckte meist um 15 × 19 Zoll, war aber früh ein Anhänger sehr großer Abzüge und fertigte 1935 seine ersten Wandbild-Formate (murals) für die San Diego Exposition [Q3]. Michael Kenna ist dagegen für den „intimen Maßstab“ seiner Fotografie und seine sorgfältige eigene Abzugsarbeit bekannt [S377190]. Andreas Gurskys *Rhein II* wurde digital überarbeitet und auf eine Breite von fast vier Metern vergrößert [S798370].\n\nMit der Größe kam eine eigene Präsentationstechnik: Diasec, ein Verfahren zum Kaschieren eines Abzugs hinter Acrylglas, wurde nach Olivier Lugon für Werbung und Messen entwickelt und dann von ehrgeizigen Fotografen in den Kunstmarkt getragen [Q5]. Die Apollo-Analyse zur Düsseldorfer Schule warnt, dass Diasec-Abzüge beschädigungsanfällig sein können [S960563]. Hochglanz hinter Acryl bedeutet: maximale Brillanz und Farbtiefe, aber auch Spiegelungen und eine Anmutung von Werbung."
+    },
+    {
+     "heading": "Bildschirm und Papier",
+     "body_md": "Ein Bildschirm leuchtet selbst, Papier wirft nur Licht zurück. Daraus folgen vier praktische Unterschiede: Der Bildschirm zeigt größeren Kontrast und kräftigere Farben, als Papier wiedergeben kann; er ist meist viel heller eingestellt als ein beleuchtetes Blatt, sodass Ausdrucke „zu dunkel“ wirken; tiefe Schatten, die am Monitor noch Zeichnung haben, laufen im Druck zu; und das Bild am Handy ist klein, sodass feine Tonwerte und Details verschwinden, während grobe Kontraste und Farben dominieren.\n\nDeshalb braucht dieselbe Aufnahme oft zwei Ausarbeitungen: eine für den Bildschirm und eine für das Papier. Für den Druck helfen ein kalibrierter, nicht zu heller Monitor, Softproof mit dem Profil von Papier und Drucker, leicht angehobene Schatten und ein Probedruck in kleiner Größe vor dem großen. Für das Handy gilt umgekehrt: Was nur in der Vergrößerung funktioniert, funktioniert dort nicht."
+    },
+    {
+     "heading": "Klischee und Gegenlesart",
+     "body_md": "**Klischee:** der „Pop“-Look – Klarheit, Dynamik und Sättigung hochgezogen, alle Schatten geöffnet, der Himmel per Verlauf abgedunkelt, ein warmes Preset darüber. Am Bildschirm wirkt das sofort, im Druck und in der Serie wirkt es laut und austauschbar, weil die Tonwerte keine Rangfolge mehr haben.\n\n**Gegenlesart:** Ist die unbearbeitete Datei „ehrlicher“? Nein – sie ist nur die Interpretation des Kameraherstellers. Umgekehrt ist auch Adams’ scheinbar unmanipulierte, „gerade“ Fotografie das Ergebnis intensiver Dunkelkammerarbeit [S245847]. Die richtige Frage ist deshalb nicht „bearbeitet oder nicht?“, sondern: Dient die Ausarbeitung dem, was ich gesehen und gemeint habe – und verändert sie den Inhalt?"
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "ie8b47098fa",
+     "caption_md": "Tonwerte als Rangordnung: Das hellste Grau liegt auf der Flussschleife und an den Wolkenrändern, der Himmel darüber ist tief abgedunkelt, die Bäume im Vordergrund gehen fast ins Schwarz. So führt die Helligkeit das Auge vom Fluss zu den Gipfeln. Becky Senf nennt das „Spektrum“ der Grautöne und die opernhafte Wirkung der Wolken als Kern des Bildes [S236552]. Meine Einschätzung: Mit flacherer Gradation wäre dieselbe Szene eine sachliche Vermessung.",
+     "look_for": [
+      "hellster Ton auf dem Fluss, nicht auf dem Schnee",
+      "abgedunkelter Himmel oben",
+      "Vordergrundbäume ohne Zeichnung als Rahmen"
+     ]
+    },
+    {
+     "image_id": "i749edc2880",
+     "caption_md": "Ausschnitt als Ausarbeitung: Fan Ho beschnitt das Bild radikal zu einem schmalen Hochformat [S204183]. Die Kinder sitzen klein ganz oben, darunter folgen nur noch helle Straßenfläche, ein Gullydeckel und Abflussgitter. Meine Einschätzung: Erst der Beschnitt macht aus einer Straßenszene einen Rhythmus von oben nach unten – die leere Mitte ist der eigentliche Raum des Bildes.",
+     "look_for": [
+      "extremes Hochformat",
+      "Figuren nur im obersten Fünftel",
+      "Gullydeckel und Gitter als Taktschläge"
+     ]
+    },
+    {
+     "image_id": "ifecf290e27",
+     "caption_md": "Abzug als Objekt: Die Reproduktion zeigt den weißen Rand mit der handschriftlichen Zeile „Approaching Shadow 1954. Artist Proof“ und der Signatur mit der Jahreszahl 2013. Das M+ besitzt das Motiv als 2013 neu gedruckten Archival Pigment Print [S566042]. Meine Einschätzung: Man sieht hier nicht „das Bild von 1954“, sondern eine spätere Aufführung – mit einem gleichmäßig grauen Schattenkeil und klar gezeichneter Mauerstruktur.",
+     "look_for": [
+      "Rand mit Beschriftung und Signatur",
+      "Diagonale des Schattens",
+      "Mauerstruktur im Licht und im Schatten"
+     ]
+    },
+    {
+     "image_id": "i4a55592e19",
+     "caption_md": "Farbe als Material: orange-goldene Spiegelung auf blau-violettem Wasser, dazwischen dunkle Steine. Burkett belichtete mit 800-mm-Objektiv auf Provia-Film [S510886]; seine Tonbalance beruht auf Kontrastmasken in der Dunkelkammer [S798941]. Meine Einschätzung: Die Komplementärspannung von Orange und Blau ist so stark, dass jede weitere Sättigung kippen würde – hier zeigt sich, wie fein die Ausarbeitung die Farbwirkung dosiert.",
+     "look_for": [
+      "Komplementärkontrast Orange–Blau",
+      "Steine als dunkle Ruhepunkte",
+      "Zeichnung in hellen Spiegelungen"
+     ]
+    },
+    {
+     "image_id": "i2b5d89e520",
+     "caption_md": "High-Key und kleiner Maßstab: Die untere Bildhälfte ist fast reines Weiß, der Himmel ein dunkles Grau, dazwischen ein schmaler weißer Berg, rechts dunkle Bäume. Kenna ist für den intimen Maßstab seiner Abzüge und seine sorgfältige eigene Abzugsarbeit bekannt [S377190]. Meine Einschätzung: Ob das Weiß noch eine leichte Zeichnung hat oder leer ist, entscheidet im Abzug über „Schneefeld“ oder „Papier“.",
+     "look_for": [
+      "Schneefläche knapp über reinem Weiß",
+      "dunkler Himmel als Gegengewicht",
+      "Bäume als einziger Akzent rechts"
+     ]
+    },
+    {
+     "image_id": "i99f20775bb",
+     "caption_md": "Größe als Bedeutung: Das Bild besteht aus waagerechten Bändern – grauer Himmel, grünes Ufer, graues Wasser, grünes Ufer, heller Weg. Gursky ließ störende Elemente digital entfernen [S162733]; das Werk wurde auf fast vier Meter Breite vergrößert [S798370]. Meine Einschätzung: Als Handybild ist es ein schlichtes Streifenmuster; erst in Wandgröße wird es zur Landschaft, vor der man steht wie vor einem Gemälde.",
+     "look_for": [
+      "parallele Bänder ohne Fluchtpunkt",
+      "keine Spuren von Bebauung",
+      "Wirkung hängt am Format"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Die Datei ist die Partitur, der Abzug die Aufführung – es gibt viele gültige Aufführungen, aber keine neutrale.",
+    "Tonwerte legen die Rangordnung fest: Wo das hellste Licht liegt, beginnt das Auge.",
+    "Gute Ausarbeitung arbeitet lokal und dämpft Ablenkendes, statt alles zu verstärken.",
+    "Weißabgleich und Grading sind Deutungen der Uhrzeit und Stimmung, keine Korrekturen.",
+    "Papier, Verfahren und Größe verändern die Bedeutung eines Bildes – Bildschirm und Druck brauchen je eine eigene Ausarbeitung.",
+    "Interpretation endet dort, wo Inhalt hinzugefügt, entfernt oder verdeckt wird."
+   ],
+   "exercises": [
+    "Wähle ein Bild der Reise (z. B. Karstberge im Dunst) und entwickle drei Fassungen: zurückhaltend, dramatisch, High-Key. Schreibe zu jeder einen Satz, was sie behauptet, und entscheide dich begründet.",
+    "Wandle eine Farblandschaft in Schwarzweiß und lege den Himmel einmal hell, einmal dunkel (Farbmischer Blau/Cyan). Notiere, welches Bildelement jeweils zum Hauptmotiv wird.",
+    "Drucke ein Bild in 10 × 15 cm und in A3 (oder größer). Betrachte beide aus der Diagonalentfernung und aus 30 cm. Was trägt, was zerfällt?",
+    "Softproof: Prüfe dasselbe Bild mit dem Profil eines matten und eines glänzenden Papiers; korrigiere die Schatten für den matten Druck und vergleiche mit dem Bildschirm."
+   ],
+   "quiz": [
+    {
+     "question": "Was meint Adams’ Vergleich von Negativ und Abzug mit Partitur und Aufführung im Kern?",
+     "image_id": null,
+     "options": [
+      "Das Negativ legt alles fest; der Abzug muss es nur getreu wiedergeben.",
+      "Ein Abzug ist nur dann gut, wenn er ohne Abwedeln und Nachbelichten entsteht.",
+      "Aus demselben Negativ sind verschiedene gültige Abzüge möglich; erst der Abzug entscheidet über den Ausdruck.",
+      "Musikalisch begabte Fotografen machen bessere Abzüge."
+     ],
+     "correct": 2,
+     "explanation": "Eine Partitur kann gut oder schlecht aufgeführt werden [Q1]; Adams kehrte jahrzehntelang zu Negativen zurück, um neue Ausdrucksweisen zu finden [Q2]."
+    },
+    {
+     "question": "Wohin geht das Auge in diesem Bild zuerst – und warum?",
+     "image_id": "ie8b47098fa",
+     "options": [
+      "Zu den dunklen Bäumen unten links, weil dunkle Flächen schwer wirken",
+      "Zur hellen Flussschleife und den hellen Wolkenrändern, weil dort die hellsten Töne neben dunklen liegen",
+      "Zum Bildmittelpunkt, weil dort der Goldene Schnitt liegt",
+      "Zum Horizont, weil Horizonte immer zuerst gelesen werden"
+     ],
+     "correct": 1,
+     "explanation": "Die Ausarbeitung setzt den hellsten Ton auf Fluss und Wolkenränder und rahmt sie mit tiefen Schatten; Helligkeitskontrast zieht den Blick."
+    },
+    {
+     "question": "Nach den Regeln von World Press Photo: Welche Bearbeitung ist NICHT erlaubt?",
+     "image_id": null,
+     "options": [
+      "Umwandlung in Schwarzweiß, ohne den Inhalt zu verändern",
+      "Entfernen von Sensorstaub",
+      "Einen Strommast am Bildrand wegstempeln",
+      "Leichte Farbkorrektur ohne deutliche Farbtonverschiebung"
+     ],
+     "correct": 2,
+     "explanation": "Inhalte dürfen nicht hinzugefügt oder entfernt werden; Farb- und Schwarzweiß-Anpassungen ohne Inhaltsänderung sind erlaubt [Q6]."
+    },
+    {
+     "question": "Dein Ausdruck wirkt deutlich dunkler und matter als das Bild am Monitor. Was ist die wahrscheinlichste Ursache?",
+     "image_id": null,
+     "options": [
+      "Der selbstleuchtende Bildschirm ist viel heller und kontrastreicher eingestellt als beleuchtetes Papier wiedergeben kann.",
+      "Der Drucker ist defekt.",
+      "Raw-Dateien lassen sich grundsätzlich nicht gut drucken.",
+      "Das Papier hat zu viel Weiß."
+     ],
+     "correct": 0,
+     "explanation": "Papier reflektiert nur Licht und hat begrenzte Schwärze; ein zu heller Monitor täuscht. Abhilfe: Kalibrierung, Softproof, Probedruck."
+    },
+    {
+     "question": "Was zeigt dir der beschriftete Rand dieser Reproduktion?",
+     "image_id": "ifecf290e27",
+     "options": [
+      "Dass das Bild 1954 auf genau diesem Papier abgezogen wurde",
+      "Dass es sich um eine Fotomontage handelt",
+      "Dass der Rand Teil der ursprünglichen Komposition war",
+      "Dass hier ein bestimmter, später signierter Abzug als Objekt reproduziert ist – eine eigene Aufführung des Motivs"
+     ],
+     "correct": 3,
+     "explanation": "Am Rand stehen „Artist Proof“ und eine Signatur mit 2013; das M+ führt das Motiv als 2013 neu gedruckten Pigmentdruck [S566042]."
+    },
+    {
+     "question": "Kennas kleine Abzüge und Gurskys fast vier Meter breiter Rhein: Was verändert die Größe vor allem?",
+     "image_id": null,
+     "options": [
+      "Nur den Preis",
+      "Den Betrachtungsabstand und damit die Art des Sehens – intimes Nahsehen gegenüber Gegenüberstehen und Herantreten",
+      "Die Schärfentiefe der Aufnahme",
+      "Die Farbtemperatur"
+     ],
+     "correct": 1,
+     "explanation": "Kenna ist für den intimen Maßstab bekannt [S377190], Gurskys Bild ist auf fast vier Meter vergrößert [S798370]; Größe bestimmt Abstand und Lesart."
+    }
+   ]
+  },
+  {
+   "dimension": "landscape-as-idea",
+   "track": "grundlagen",
+   "order": 9,
+   "title": "Landschaft als Idee: das Erhabene, das Pittoreske, Macht, Shanshui",
+   "sources": [
+    {
+     "url": "https://press.uchicago.edu/ucp/books/book/chicago/L/bo3626791.html",
+     "title": "University of Chicago Press: W. J. T. Mitchell (Hg.), Landscape and Power, 2. Aufl. 2002",
+     "excerpt": "The first edition of this book, published in 1994, reshaped the direction of landscape studies by considering landscape not simply as an object to be seen or a text to be read, but as an instrument of cultural force, a central tool in the creation of national and social identities."
+    },
+    {
+     "url": "https://comer.utdallas.edu/?p=196",
+     "title": "UT Dallas, Comer Collection: Composed Perceptions – Landscape as Aesthetic Process (Amanda Dunbar, 2022)",
+     "excerpt": "Indeed, Mitchell urges the term landscape best be expressed as a verb — “to landscape” — as a reminder of how human agency imposes a particular order upon the natural environment."
+    },
+    {
+     "url": "https://plato.stanford.edu/entries/kant-aesthetics/",
+     "title": "Stanford Encyclopedia of Philosophy: Kant’s Aesthetics and Teleology (Hannah Ginsborg)",
+     "excerpt": "Kant distinguishes two notions of the sublime: the mathematically sublime and the dynamically sublime. … We have the feeling of the dynamically sublime when we experience nature as fearful while knowing ourselves to be in a position of safety and hence without in fact being afraid."
+    },
+    {
+     "url": "https://tang.princeton.edu/node/557",
+     "title": "Princeton, Tang Center for East Asian Art: Workshop zur chinesischen Landschaftskunst",
+     "excerpt": "In the mid-ninth century, when Zhang Yanyuan wrote Lidai minghua ji (Record of Famous Paintings of Successive Periods), the term shanshui, literally translated “mountains waters,” was used to refer to paintings that took landscape elements — mountains, waters, trees, and rocks — as their object of depiction."
+    },
+    {
+     "url": "https://projects.mcah.columbia.edu/jaanus/record/sanen",
+     "title": "JAANUS (Columbia University): san-en, die drei Fernen",
+     "excerpt": "The three types of distances desired for mountains in Chinese ink painting as defined by the famous Academy landscapist of the Northern Song, Guo Xi (Jp: Kaku Ki 郭煕, after 1000-ca. 1090) in The Lofty Message of Forests and Streams (Ch: Linquan gaozhi; Jp: Rinsen kōchi 林泉高致). They are based on his own observations of nature: 1) kō-en 高遠 (Ch: gaoyuan; high distance), looking up at a mountain from below; 2) shin-en 深遠 (Ch: shenyuan; deep distance), looking out from the front of a mountain and to see other mountains behind it; and 3) hei-en 平遠 (Ch: pingyuan; flat or level distance), looking out from a mountain to neighboring low-lying hills."
+    },
+    {
+     "url": "https://www.e-flux.com/announcements/219945/salt-14-yang-yongliang",
+     "title": "Utah Museum of Fine Arts: salt 14 – Yang Yongliang (Ankündigung auf e-flux)",
+     "excerpt": "Yang Yongliang presents the ancient tradition of Chinese landscape painting (shanshui) through a twenty-first-century photographic lens. Yang adheres to traditional formal requirements for depicting humans among mountains, water, and meandering pathways and, in keeping with shanshui concepts, creates images of what he thinks about nature, not what he has seen."
+    }
+   ],
+   "intro_md": "Niemand fotografiert „die Natur“. Wer einen Berg, einen Fluss oder ein Tal fotografiert, macht daraus Landschaft – und dafür gibt es Vorbilder, die älter sind als die Fotografie: das Erhabene, das Pittoreske, das Panorama des Eroberers, die Ansichtskarte, in China die jahrhundertealte Tradition von shanshui, „Berge und Wasser“. Diese Ideen entscheiden mit, wo wir das Stativ aufstellen, welche Wolken wir abwarten und was wir aus dem Bild halten. Die Lektion ergänzt das historische Kapitel 12 um die Begriffe: Was ist das Erhabene und warum ist es heute auf jedem Gipfel-Selfie? Was ist pittoresk? Warum spricht W. J. T. Mitchell von Landschaft als Instrument der Macht? Was ist das „toxische Erhabene“? Und was ändert sich am Sehen, wenn man chinesische Landschaften mit den Augen der Shanshui-Malerei betrachtet?",
+   "sections": [
+    {
+     "heading": "Landschaft ist ein Tun, kein Gelände",
+     "body_md": "Gelände ist da; Landschaft entsteht, wenn jemand es als Bild ordnet. W. J. T. Mitchells Sammelband *Landscape and Power* (1994) veränderte die Landschaftsforschung, indem er Landschaft nicht nur als Gegenstand des Sehens oder als lesbaren Text behandelte, sondern als „Instrument kultureller Kraft“, als Werkzeug zur Bildung nationaler und sozialer Identitäten [Q1]. Eine Ausstellung der UT Dallas fasst Mitchells Vorschlag so zusammen: Landschaft sei am besten als Verb zu verstehen, „to landscape“, als Erinnerung daran, wie menschliches Handeln der Umwelt eine Ordnung aufprägt [Q2].\n\nFür die eigene Praxis heißt das: Jede Landschaftsaufnahme beantwortet stillschweigend Fragen – Wem gehört dieser Ort? Wer ist im Bild, wer fehlt? Ist das Land leer, gefährlich, verfügbar, heilig, bedroht, idyllisch? Diese Antworten stecken in Standpunkt, Wetter, Ausschnitt und Weglassen, nicht erst in der Bildunterschrift."
+    },
+    {
+     "heading": "Das Erhabene: Schrecken aus sicherer Entfernung",
+     "body_md": "Edmund Burke definierte 1757 das Erhabene als Wirkung, die das stärkste Gefühl hervorruft, dessen der Geist fähig ist; Quelle sei alles, was in irgendeiner Weise schrecklich sei oder wie Schrecken wirke – in der Landschaft beispielhaft Turners Seestürme und Gebirgsszenen [S476282]. Kant unterschied das mathematisch und das dynamisch Erhabene; das dynamisch Erhabene empfinden wir, wenn wir Natur als furchterregend erfahren, uns aber in Sicherheit wissen und daher nicht wirklich Angst haben [Q3].\n\nDiese Struktur – Übermacht der Natur, sicherer Standpunkt des Betrachters – ist bis heute die Grundformel des dramatischen Landschaftsbildes: Gewitterwolken über Gipfeln, Abgründe, Brandung, winzige Figur. Caspar David Friedrichs Rückenfigur kommentiert diese romantische Natur- und Kunsterfahrung [S354405]. Die Kuratorin Becky Senf beschreibt bei Ansel Adams einen „allwissenden“, „gottgleichen“ Blickpunkt [S236552]. Der Sierra Club nutzte solche Bilder, um Wildnis als heilig und erhaben zu zeigen, als Ort, an dem Menschen Besucher sind, die nicht bleiben [S600393].\n\nUnd heute: Eine Untersuchung von Landschaftsbildern auf Instagram fand, dass sie Gemälde der Romantik mit ähnlichen Motiven und Strategien wiederholen – Einsamkeit, Mystifizierung, Erhabenheit, Nostalgie – und dass Menschen darin meist von hinten (59,5 %) oder seitlich gezeigt werden [S723312]."
+    },
+    {
+     "heading": "Das Pittoreske: Natur, die aussieht wie ein Bild",
+     "body_md": "Zwischen dem Erhabenen und dem Schönen lag im 18. Jahrhundert das Pittoreske: Ansichten, die als künstlerisch galten, aber Elemente von Wildheit oder Unregelmäßigkeit enthielten; die Theorie entwickelten William Gilpin (*Observations on the River Wye*, 1770) und Uvedale Price [S345946]. Pittoresk heißt wörtlich „malerisch“ – die Natur wird danach beurteilt, ob sie ein gutes Bild abgibt: Vordergrund, Mittelgrund, Hintergrund, ein Baum als seitliche Kulisse, eine Ruine, ein gewundener Weg.\n\nDie Reisefotografie des 19. Jahrhunderts übernahm diesen Blick. Samuel Bourne nannte das Dorf Dunkar „curious and picturesque“ und bewunderte, wie sich die Hand des Menschen und die der Natur zu vereinen schienen [S643649]. John Thomsons Hongkong-Fotografien gliedern sich in zwei Themen: malerische Ansichten und „Typen“ von Menschen, eine frühe anthropologische Kategorisierung kolonisierter Gruppen [S397828]. Das Pittoreske ist also nicht harmlos: Es macht Orte zu Ansichten für Besucher.\n\nHeute lebt es in jedem Aussichtspunkt mit Geländer, in der Ansichtskarte und im „Instagram-Spot“, an dem alle dasselbe Bild machen."
+    },
+    {
+     "heading": "Landschaft und Macht: zeigen, was da ist – und was nicht",
+     "body_md": "Die Fotografen der amerikanischen Landvermessungen arbeiteten im Auftrag von Staat und Militär. Ein Tate-Paper fasst zusammen, dass Landschaftsfotografie des amerikanischen Westens historisch zeigte, was da ist (Rohstoffe, verfügbares Land, erhabene Geologie) und was nicht da ist (keine Städte, keine Menschen, „erhabene Leere“) [S274483]. Leutnant Wheeler beschrieb O’Sullivans ruhig wirkende Aufnahme aus dem Black Cañon in einer Bildlegende mit „düsteren Schatten“ und den „Gefahren und Mühen“ der Reise – das Bild sollte das Gegenteil von Ruhe ausdrücken [S988577]. Carleton Watkins’ Yosemite-Bilder trugen zum Gesetz von 1864 bei, das Yosemite vor Erschließung schützte [S487105].\n\nSusan Sontag formulierte das allgemein: Fotografieren heißt, sich das Fotografierte anzueignen, und sich in eine Beziehung zur Welt zu setzen, die sich wie Wissen anfühlt – und damit wie Macht [S146452]. Für den Reisefotografen ist das keine abstrakte Frage: Ein „menschenleeres“ Dorfbild oder eine Ansicht ohne die Straße, die zum Aussichtspunkt führt, ist eine Entscheidung darüber, was der Ort sein soll."
+    },
+    {
+     "heading": "Gegenbilder: Anti-Ästhetik und das toxische Erhabene",
+     "body_md": "1975 brach die Ausstellung *New Topographics* mit der romantischen Tradition: eine bewusst unemotionale, nicht-romantische Sicht auf die gewöhnliche, vom Menschen gezeichnete Landschaft – das Gegenteil des romantisch-erhabenen Westens und seiner fotografischen Fortsetzung bei Ansel Adams und Group f/64 [S282345]. Robert Adams liest die Erscheinung einer einst erhabenen Landschaft als Metapher des ambivalenten „Neuen Westens“ [S423563].\n\nZugleich kehrte das Erhabene in anderer Gestalt zurück. Richard Misrach macht laut Art Institute of Chicago üppig schöne Fotografien oft schrecklicher Gegenstände [S660499]. Jennifer Peeples prägte den Begriff des „toxischen Erhabenen“: Er beschreibt die Spannungen in Bildern verseuchter Orte – Schönheit und Hässlichkeit, Größe und Bedeutungslosigkeit, Sicherheit und Risiko – und reagiert auf den Vorwurf, die Schönheit solcher Bilder verschleiere Gesundheits- und Umweltrisiken [S913794]. Über Burtynskys China-Serie heißt es, sie verwandle unsere Vorstellung vom Erhabenen [S338384].\n\nDie Formel bleibt dieselbe wie bei Kant – Übermacht und sicherer Standpunkt –, nur ist die Übermacht jetzt menschengemacht."
+    },
+    {
+     "heading": "Shanshui: ein anderer Bildbegriff",
+     "body_md": "Der chinesische Begriff *shanshui*, wörtlich „Berge Wasser“, bezeichnete laut einem Princeton-Workshop schon in Zhang Yanyuans *Lidai minghua ji* (Mitte 9. Jh.) Gemälde, die Berge, Gewässer, Bäume und Felsen darstellen [Q4]. Guo Xi (11. Jh.) definierte drei „Fernen“: die hohe Ferne (von unten zum Berg hinauf), die tiefe Ferne (von vorn auf einen Berg und die Berge dahinter) und die ebene Ferne (von einem Berg hinaus auf niedrige Hügel) [Q5]. Stephen Shore berichtet, Szarkowski habe über die chinesische und japanische Rollbild-Tradition gesprochen: Beim Abrollen ziehe das Bild vorbei, man sehe unendlich viele Ausschnitte [S827993].\n\nDer Unterschied zum europäischen Erhabenen: Hier steht nicht ein Betrachter vor einem überwältigenden Schauspiel, sondern Menschen sind Teil eines Gefüges aus Bergen, Wasser und Wegen. Das Utah Museum of Fine Arts beschreibt, dass Yang Yongliang die formalen Regeln – Menschen zwischen Bergen, Wasser und gewundenen Pfaden – einhält und im Sinne von shanshui Bilder dessen schafft, was er über Natur denkt, nicht was er gesehen hat [Q6]. Zhang Kechun sagt über seine Gelbfluss-Bilder, die winzigen Menschen vor den gewaltigen Naturformen seien von der chinesischen Kunsttradition inspiriert [S248604]. Yao Lu fotografierte mit grünen Netzen bedeckte Schuttberge und bearbeitete sie so, dass sie an Song-zeitliche Berg-und-Wasser-Malerei erinnern [S482168]. Michael Kenna vergleicht verschneite Landschaften Hokkaidos mit Sumi-e-Tuschebildern [S234774].\n\nMeine Einschätzung für Guilin oder Huangshan: Die drei Fernen sind brauchbare Standpunkt-Kategorien; Dunst ist kein Störfaktor, sondern trennt die Ebenen; und eine kleine Figur auf einem Weg ist dort kein Maßstabstrick, sondern gehört zur Bildidee."
+    },
+    {
+     "heading": "Klischee und Gegenlesart",
+     "body_md": "**Klischee:** die Rückenfigur auf dem Felsen über dem Nebelmeer bei Sonnenaufgang, Arme ausgebreitet. Sie ist Friedrichs Formel ohne Friedrichs Zweifel – das Erhabene als Pose, die jeder an denselben Punkten wiederholt [S723312].\n\n**Gegenlesart:** Ist Ansel Adams’ Erhabenes bloß Flucht aus der Gegenwart? Man kann es auch politisch lesen: Die Sierra-Club-Bücher dienten einer Kampagne für den Wilderness Act [S600393] – das Erhabene als Argument für Schutz. Umgekehrt kann man Burtynskys Schönheit als Kritik oder als Verharmlosung lesen; genau diese Spannung beschreibt Peeples [S913794]. Wer Landschaft fotografiert, sollte wissen, welche Lesart sein Bild nahelegt."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "i715f266a1b",
+     "caption_md": "Landschaft im Staatsauftrag: Die Reproduktion zeigt eine ganze Albumseite – oben das Wappen mit der Umschrift „War Department“, unten die gedruckte Legende der „Colorado River Series“. In der Mitte ruhiges Wasser, ein Boot am Ufer, dunkle Felswände. Wheeler wollte mit dem Bild gerade nicht Ruhe, sondern Gefahr und Mühe ausdrücken [S988577]. Meine Einschätzung: Der Kontext auf der Seite macht aus einer stillen Schlucht ein Dokument der Erschließung.",
+     "look_for": [
+      "Wappen „War Department“ über dem Bild",
+      "gedruckte Legende",
+      "Boot als Zeichen der Expedition"
+     ]
+    },
+    {
+     "image_id": "id2323a69db",
+     "caption_md": "Das Erhabene als Wetter: Zwei Drittel der Fläche nimmt ein bewegter Wolkenhimmel ein, links fällt ein Regenschleier, unten liegt ein schmaler Streifen Berggrat mit Schneeflecken. Senf spricht bei Adams von Wettereffekten und einem gottgleichen Blickpunkt [S236552]. Meine Einschätzung: Der niedrige Horizont macht die Atmosphäre zur Hauptsache – Übermacht der Natur, Betrachter sicher auf dem Grat.",
+     "look_for": [
+      "sehr tiefer Horizont",
+      "Regenschleier links",
+      "Schneeflecken als kleiner Maßstab"
+     ]
+    },
+    {
+     "image_id": "i55e4722bf6",
+     "caption_md": "Pittoresk im 19. Jahrhundert: ein auf einem Felsrücken thronendes Fort, dahinter Täler und Bergketten im Dunst, gezeigt als Albumblatt mit V&A-Farbkeil. Bourne nannte Dunkar „curious and picturesque“ [S643649]. Meine Einschätzung: Klassische Staffelung von Vorder-, Mittel- und Hintergrund – ein Ort wird zur Ansicht für ein europäisches Publikum.",
+     "look_for": [
+      "Fort auf dem Grat als Bildzentrum",
+      "Staffelung in den Dunst",
+      "Albumblatt als Objekt"
+     ]
+    },
+    {
+     "image_id": "i2d43a3a12b",
+     "caption_md": "Anti-Erhabenes: Im Vordergrund eine Baugrube für ein Haus, ein Mann darin, Leiter, Pflöcke, Absperrband; hinten die Bergkette als blasser Streifen. New Topographics stellte gegen das romantische Erhabene eine unemotionale Sicht auf die gezeichnete Landschaft [S282345]. Meine Einschätzung: Dieselben Berge, die bei Ansel Adams das Thema wären, sind hier Kulisse für die Parzellierung.",
+     "look_for": [
+      "Grube und Leiter im Vordergrund",
+      "Berge nur als heller Hintergrund",
+      "gleichmäßiges, hartes Licht"
+     ]
+    },
+    {
+     "image_id": "i76c3e01db2",
+     "caption_md": "Technisches Erhabenes: eine riesige Baustelle mit Kränen, runden Turbinenschächten und Rohrsegmenten, von erhöhtem Standpunkt bis in die Tiefe gestaffelt. Die Polygon Gallery schreibt, Burtynskys China-Bilder verwandelten unsere Vorstellung vom Erhabenen [S338384]. Meine Einschätzung: Die Überwältigung kommt nicht mehr von Gipfeln, sondern von menschlicher Infrastruktur – Peeples’ „toxisches Erhabenes“ in seiner industriellen Form [S913794].",
+     "look_for": [
+      "erhöhter Standpunkt, kein Himmel als Ruhepol",
+      "Wiederholung der runden Schächte",
+      "Menschen kaum sichtbar"
+     ]
+    },
+    {
+     "image_id": "idd43ebb5ff",
+     "caption_md": "Shanshui-Erbe: eine flache Sandinsel im fast weißen Fluss, darauf eine winzige Figur und ein rotes Boot, der Horizont im Dunst verloren. Zhang Kechun sagt, die winzigen Figuren vor den gewaltigen Naturformen seien von der chinesischen Kunsttradition inspiriert [S248604]. Meine Einschätzung: Die Leere ist nicht erhabener Schrecken, sondern Raum, in dem der Mensch klein, aber zugehörig bleibt.",
+     "look_for": [
+      "Figur und Boot als einzige Akzente",
+      "Dunst löst den Horizont auf",
+      "helle, fast monochrome Fläche"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Landschaft ist kein Gelände, sondern eine Ordnung, die jemand dem Land gibt – mit Folgen für Besitz, Identität und Politik.",
+    "Das Erhabene verbindet Übermacht der Natur mit dem sicheren Standpunkt des Betrachters; diese Formel prägt bis heute dramatische Landschaftsbilder.",
+    "Das Pittoreske beurteilt Natur danach, ob sie ein gutes Bild abgibt – und macht Orte zu Ansichten für Besucher.",
+    "Was im Landschaftsbild fehlt (Menschen, Straßen, Industrie), ist ebenso eine Aussage wie das Gezeigte.",
+    "Das toxische Erhabene überträgt die alte Formel auf menschengemachte Zerstörung – und lebt von der Spannung zwischen Schönheit und Risiko.",
+    "Shanshui denkt Landschaft als Gefüge aus Bergen, Wasser, Wegen und kleinen Menschen; die drei Fernen sind auch fotografische Standpunkte."
+   ],
+   "exercises": [
+    "Fotografiere einen bekannten Aussichtspunkt dreimal: erhaben (Wetter, Übermacht), pittoresk (Staffelung, Kulisse) und nach New Topographics (Geländer, Parkplatz, Menschen, flaches Licht). Schreibe zu jedem Bild, was es über den Ort behauptet.",
+    "Suche in Guilin oder Huangshan je ein Motiv für Guo Xis hohe, tiefe und ebene Ferne. Achte darauf, wie Dunst die Ebenen trennt.",
+    "Mache an einem „Instagram-Spot“ das typische Bild – und dann ein Bild der Menschen, die es machen. Vergleiche, welches mehr über den Ort sagt.",
+    "Notiere für einen Reisetag, was du bewusst aus dem Bild gehalten hast (Straßen, Bauten, Menschen), und frage dich, welche Idee von Landschaft dahintersteht."
+   ],
+   "quiz": [
+    {
+     "question": "Was ist der Kern von Mitchells Ansatz in „Landscape and Power“?",
+     "image_id": null,
+     "options": [
+      "Landschaft ist vor allem ein ästhetischer Gegenstand, der schön oder hässlich sein kann.",
+      "Landschaft ist ein Instrument kultureller Kraft, das an der Bildung nationaler und sozialer Identitäten mitwirkt.",
+      "Landschaft existiert nur in der Malerei, nicht in der Fotografie.",
+      "Landschaft ist eine neutrale Beschreibung von Geländeformen."
+     ],
+     "correct": 1,
+     "explanation": "Das Buch behandelt Landschaft nicht nur als Sehobjekt oder Text, sondern als Instrument kultureller Kraft [Q1]."
+    },
+    {
+     "question": "Welche Situation entspricht Kants dynamisch Erhabenem?",
+     "image_id": null,
+     "options": [
+      "Ein lieblicher Garten mit gepflegten Beeten",
+      "Ein Sturm, in dem man selbst um sein Leben fürchtet",
+      "Eine endlose Reihe gleicher Häuser",
+      "Ein Gewitter über den Bergen, das man aus einer sicheren Hütte beobachtet"
+     ],
+     "correct": 3,
+     "explanation": "Das dynamisch Erhabene: Natur erscheint furchterregend, man weiß sich aber in Sicherheit und hat keine wirkliche Angst [Q3]. Echte Todesangst lässt kein ästhetisches Erleben zu."
+    },
+    {
+     "question": "Was verändert die gezeigte Albumseite an der Lesart der Schlucht?",
+     "image_id": "i715f266a1b",
+     "options": [
+      "Das Wappen des War Department und die Serienlegende machen das Bild zum Dokument einer staatlichen Erkundung",
+      "Nichts, der Rand ist für die Bedeutung unwichtig",
+      "Sie zeigt, dass das Bild ein Gemälde ist",
+      "Sie beweist, dass O’Sullivan die Szene inszeniert hat"
+     ],
+     "correct": 0,
+     "explanation": "Survey-Fotografie zeigte, was da ist und was nicht [S274483]; Wheelers Legende deutete die ruhige Schlucht als Ort von Gefahr und Mühe [S988577]."
+    },
+    {
+     "question": "Warum ist die Figur in diesem Bild so klein?",
+     "image_id": "idd43ebb5ff",
+     "options": [
+      "Weil der Fotograf kein Teleobjektiv hatte",
+      "Weil Menschen nach den Regeln der New Topographics nicht erkennbar sein dürfen",
+      "Zhang Kechun bezieht sich auf die chinesische Kunsttradition, die kleine Menschen in gewaltige Naturformen setzt",
+      "Weil das Bild nachträglich verkleinert wurde"
+     ],
+     "correct": 2,
+     "explanation": "Zhang Kechun sagt, die winzigen Figuren seien von der chinesischen Kunsttradition inspiriert [S248604]."
+    },
+    {
+     "question": "Welcher Vorwurf steht hinter Peeples’ Begriff des „toxischen Erhabenen“?",
+     "image_id": null,
+     "options": [
+      "Dass die Schönheit von Bildern verseuchter Orte die Gesundheits- und Umweltrisiken verschleiern könne",
+      "Dass solche Bilder technisch unsauber seien",
+      "Dass Industrielandschaften nicht fotografiert werden dürften",
+      "Dass Schwarzweiß für Umweltthemen ungeeignet sei"
+     ],
+     "correct": 0,
+     "explanation": "Peeples reagiert auf die Kritik, Schönheit verschleiere Risiken, und beschreibt die Spannungen solcher Bilder [S913794]."
+    },
+    {
+     "question": "Welche Beschreibung trifft das Pittoreske nach Gilpin und Price?",
+     "image_id": null,
+     "options": [
+      "Reine Schönheit ohne jede Unregelmäßigkeit",
+      "Bilder, die Schrecken auslösen sollen",
+      "Luftbilder von Industrieanlagen",
+      "Ansichten, die als künstlerisch gelten, aber Wildheit oder Unregelmäßigkeit enthalten – zwischen Erhabenem und Schönem"
+     ],
+     "correct": 3,
+     "explanation": "So definiert die Tate das Pittoreske [S345946]."
+    }
+   ]
+  },
+  {
+   "dimension": "presentation",
+   "track": "grundlagen",
+   "order": 10,
+   "title": "Präsentation: Fotobuch, Ausstellung, Bildschirm",
+   "sources": [
+    {
+     "url": "https://lightresearch.net/light/?p=1214",
+     "title": "Robert Hirsch: Resurrection of the Photobook – Interview mit Martin Parr (Digital Camera Magazine, auf lightresearch.net)",
+     "excerpt": "How do you define a photobook? A photobook is a book, with or without text, where photographs carry the principal message. A photographer or photo editor is the author. It has its own distinctive character, which is different from a photographic print."
+    },
+    {
+     "url": "https://lightresearch.net/light/?p=1214",
+     "title": "Robert Hirsch: Interview mit Martin Parr – Buch und Ausstellung",
+     "excerpt": "More people see a book than see an exhibition. The wonderful thing about a book, instead of an exhibition, is that it’s here forever. Plus books travel inexpensively."
+    },
+    {
+     "url": "https://journals.openedition.org/etudesphotographiques/3440",
+     "title": "Olivier Lugon: Before the Tableau Form, Études photographiques 25 (2010)",
+     "excerpt": "In 1989, in the catalogues for two consecutive major exhibitions, Une autre objectivité and Foto-Kunst, historian and critic Jean-François Chevrier launched the idea of a tableau form in photography that was to become one of the key notions in photographic theory of the late twentieth century. … But above all else, the tableau form asserts the primacy of the exhibition as a vehicle for dissemination, designating photographs conceived as wall pieces, which impose their presence as much by their existence as an object as by their subject matter, as key elements in the staging of an ‘experience of confrontation’ with the spectator."
+    }
+   ],
+   "intro_md": "Ein Foto existiert nie allein: Es erscheint auf einer Doppelseite neben einem anderen Bild, an einer Wand in einem Raum, in einem Feed zwischen Werbung und Urlaubsbildern. Diese Umgebung verändert, was ein Bild bedeutet und wie lange man es ansieht. Martin Parr definiert das Fotobuch als eigene Form mit eigenem Charakter, verschieden vom Einzelabzug; die Ausstellung kann Bilder zu Wandstücken machen, die sich durch ihre Präsenz behaupten; der Bildschirm macht sie klein, leuchtend und austauschbar. Die Lektion zeigt, wie Fotografen und Kuratoren mit diesen drei Medien arbeiten – Auswahl, Reihenfolge, Doppelseite, Hängung, Größe, Raster, Feed – und wie man eigene Reisebilder so präsentiert, dass sie mehr werden als eine Sammlung guter Einzelbilder.",
+   "sections": [
+    {
+     "heading": "Die Form ist Teil der Aussage",
+     "body_md": "Für Martin Parr ist ein Fotobuch ein Buch, mit oder ohne Text, in dem die Fotografien die Hauptbotschaft tragen; sein Autor ist ein Fotograf oder Bildredakteur, und es hat einen eigenen Charakter, der sich vom einzelnen Abzug unterscheidet [Q1]. Dasselbe gilt für Ausstellung und Bildschirm: Jede Form legt fest, wie viele Bilder man sieht, in welcher Reihenfolge, wie groß, wie lange, allein oder in Gesellschaft.\n\nPräsentation beginnt deshalb mit drei Fragen: Was ist die Einheit – das Einzelbild, das Paar, die Serie? Wer bestimmt die Reihenfolge – ich, der Betrachter, ein Algorithmus? Und wie nah ist der Betrachter – 40 cm über einem Buch, drei Meter vor einer Wand, 30 cm vor einem Handy?"
+    },
+    {
+     "heading": "Das Fotobuch",
+     "body_md": "Parr und Gerry Badger haben mit *The Photobook: A History* (ab 2004) die Entwicklung des Fotobuchs vom frühen 19. Jahrhundert bis zu den radikalen japanischen Büchern der 1960er- und 70er-Jahre dargestellt [S663287]. Parr begründet die Bedeutung des Buchs so: Mehr Menschen sehen ein Buch als eine Ausstellung, es bleibt, und es reist billig [Q2].\n\nEin Buch beginnt mit dem Weglassen. Robert Frank ging ab 1956 durch 767 Filme und 27.000 Aufnahmen; Auswahl, Beschnitt und Nachfotografieren ergaben eine Sequenz von 83 Bildern [S123467]. Laut NPR breitete er etwa 1.000 Arbeitsabzüge auf dem Studioboden aus und heftete sie für die letzte Auswahl an die Wände [S883061]. Walker Evans’ *American Photographs* ordnet 85 Bilder in zwei Sequenzen, eine vor allem über Menschen, eine über Architektur [S794213]. Bei Alec Soths *Sleeping by the Mississippi* ist der Fluss weniger Gegenstand als Ordnungsstruktur des Buchs [S575480].\n\nAuch das Buch als Gegenstand spricht: Rinko Kawauchis *Ametsuchi* übersetzt die Mehrdeutigkeit des Titels („Himmel und Erde“, „oben und unten“) mit dem Gestalter Hans Gremmen in ein physisches Objekt [S557769]. Für die Sierra-Club-Bücher wollte David Brower eine Seitengröße, die die Dynamik eines Bildes trägt; das Auge solle sich innerhalb des Bildes bewegen müssen, statt es mit einem Blick zu erfassen [S600393]."
+    },
+    {
+     "heading": "Sequenz, Paar, Doppelseite",
+     "body_md": "Im Buch entsteht Bedeutung zwischen den Bildern. Sotheby’s beschreibt eine Passage aus Franks *The Americans*: Auf *Covered Car* folgt ein kompositorisch verwandtes Bild von Unfallopfern am Straßenrand unter einer Decke; die Folge endet mit einem senkrechten Bild der geraden Straße, *U.S. 285, New Mexico*, das wie ein Filmschnitt zwischen Szenen wirkt [S975157]. Drei Bilder erzählen so etwas, das keines allein erzählt: Verhüllung, Tod, Weiterfahren.\n\nDie wichtigsten Mittel der Sequenz:\n\n- **Reim:** eine Form, Farbe oder Geste kehrt im nächsten Bild wieder.\n- **Kontrast:** nah gegen weit, laut gegen still, voll gegen leer.\n- **Rhythmus:** dichte Folgen und Pausen; eine leere Seite ist ein Atemzug.\n- **Doppelseite:** Zwei Bilder nebeneinander werden als Paar gelesen – ob gewollt oder nicht. Querformate über den Bund verlieren ihre Mitte.\n- **Anfang und Ende:** Das erste Bild öffnet eine Frage, das letzte schließt sie oder lässt sie bewusst offen; das „beste“ Bild steht selten auf Seite eins.\n\nWeiterführend: Lektion „Sequenz“ (Dimension 13) behandelt Paar, Typologie und Rhythmus ausführlich."
+    },
+    {
+     "heading": "Ausstellung: Wand, Raum, Größe",
+     "body_md": "Schon Carleton Watkins sah seine Mammutplatten als Bilder, die gerahmt an die Wand gehören und wie Landschaftsgemälde betrachtet werden sollten [S311474]. 1989 prägte Jean-François Chevrier die „Tableau-Form“: Sie betont nach Olivier Lugon den Vorrang der Ausstellung und meint Fotografien, die als Wandstücke gedacht sind und sich als Objekt ebenso wie durch ihr Motiv behaupten, in einer „Erfahrung der Konfrontation“ mit dem Betrachter [Q3]. Gurskys *Rhein II* mit fast vier Metern Breite [S798370] steht für diese Linie, Michael Kennas intimer Maßstab [S377190] für die Gegenrichtung.\n\nAusstellungen ordnen auch Bilder zueinander. *The Family of Man* (MoMA 1955) umfasste mehr als 500 Fotografien aus 69 Ländern [S880256]; Roland Barthes warf ihr vor, durch die Gruppierung menschlicher Erfahrung in universelle Themen das Leiden seines politischen Kontexts zu berauben [S643383]. Bei den Bechers ist die Gruppierung und Abfolge der Bilder eines Tableaus Teil des Werks und wurde von Hilla Becher bestimmt [S374621]. Penelope Umbrico ließ ihre Sonnenbilder zufällig in einem Raster hängen und gab nur Mindesthöhe und -breite vor [S219252]; bei der Neuinstallation 2018 wurde das Raster höher und anders montiert – eine andere Seherfahrung im Rahmen ihrer Idee [S197440].\n\nPraktische Grundregeln (Lehrmeinung): eine gemeinsame Mittellinie der Hängung auf Augenhöhe, Abstände, die Bilder zu Gruppen binden oder trennen, Größe nach Betrachtungsabstand, und ein Raum, der einen Weg vorgibt – erste Wand, Höhepunkt, Ausgang."
+    },
+    {
+     "heading": "Bildschirm und Feed",
+     "body_md": "Der Bildschirm ist heute der häufigste Ort, an dem Fotos gesehen werden – und der unbeständigste. Lev Manovich hebt hervor, dass Instagram von 2010 bis August 2015 alle Bilder ins Quadrat zwang [S305168]; seit Juni 2016 ordnet ein Algorithmus den Feed [S269643]. Die Reihenfolge bestimmt also nicht mehr der Autor, sondern die Plattform, und jedes Bild konkurriert einzeln.\n\nFolgen für die Bildwirkung: Kleine Darstellung bevorzugt einfache Formen, starke Kontraste und wenige Elemente; feine Tonwerte und weite Panoramen verlieren. Hochformate (4:5) nehmen mehr Fläche ein als Querformate. Das Karussell ist eine Mini-Sequenz mit Anfang und Ende, aber der Betrachter kann jederzeit abbrechen. Das Profilraster ist eine Art Tableau, das als Ganzes gelesen wird. Eine Kritik in *Hyperallergic* zur Gleichförmigkeit von Instagram-Reisebildern hält fest: Popularität hat Risiko und Originalität nie gefördert [S473771].\n\nMeine Einschätzung: Wer für den Feed arbeitet, sollte das Einzelbild auf Fernwirkung prüfen (Vorschaugröße), aber Serien und Buchprojekte nicht nach Feed-Regeln bauen."
+    },
+    {
+     "heading": "Portfolio und Auswahl",
+     "body_md": "Ein Portfolio ist keine Bestenliste, sondern eine Behauptung darüber, wie man sieht. Lehrregeln, die sich bewährt haben: wenige Bilder (12–20) statt vieler; eine erkennbare Haltung und Bildsprache statt Vielfalt um ihrer selbst willen; jedes Bild muss etwas leisten, das kein anderes leistet – zwei ähnliche Bilder schwächen sich gegenseitig; Reihenfolge wie im Buch (Einstieg, Spannungsbogen, Schluss); und der Test mit Abstand: Auswahl einige Tage liegen lassen, ausdrucken, auf dem Boden auslegen – wie Frank mit seinen Arbeitsabzügen [S883061].\n\nFür eine Reise heißt das: Am Ende stehen nicht 300 gute Bilder, sondern ein Buch, eine Wand oder ein Karussell mit einer Idee. Die Präsentation zwingt zur Frage, was die Reise eigentlich gezeigt hat."
+    },
+    {
+     "heading": "Klischee und Gegenlesart",
+     "body_md": "**Klischee:** das „ästhetische“ Profilraster – alle Bilder mit demselben Preset, abwechselnd Landschaft und Rückenfigur, damit das Raster harmonisch aussieht. Das Ergebnis ist ein Farbmuster, keine Sequenz; die Bilder werden zu Kacheln.\n\n**Gegenlesart:** Ist das Raster deshalb wertlos? Umbricos Sonnenwand und die Becher-Tableaus zeigen das Gegenteil: Gerade die Wiederholung im Raster macht Unterschiede sichtbar oder legt ein kollektives Sehmuster offen [S374621][S219252]. Und *The Family of Man* lässt sich als humanistische Botschaft der Einheit lesen, wie das MoMA sie formulierte [S727910] – oder mit Barthes als Mythos, der Politik ausblendet [S643383]. Die Präsentationsform ist nie neutral; sie argumentiert."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "iad1c7dffdb",
+     "caption_md": "Sequenz im Buch: vier Männer stehen am Rand eines Feldes um eine Decke, unter der Unfallopfer liegen; Häuser am Horizont. Die Reproduktion zeigt einen Abzug mit Knicken und handschriftlicher Nummer „371“ am Rand. In *The Americans* folgt das Bild auf das kompositorisch verwandte *Covered Car* [S975157]. Meine Einschätzung: Allein ist es ein Unfallbild; in der Folge wird die Decke zum wiederkehrenden Motiv des Verhüllens.",
+     "look_for": [
+      "Decke als Bildmitte",
+      "Männer in einer Reihe",
+      "Abzug mit Nummer – das Bild als Arbeitsmaterial"
+     ]
+    },
+    {
+     "image_id": "ife74fb6ada",
+     "caption_md": "Der Schnitt: Hochformat, eine gerade Straße mit Mittellinie läuft bis zum Horizont, links der Rand des Abzugs mit der Nummer „373“. Laut Sotheby’s schließt dieses Bild die Sequenz und wirkt wie ein Filmschnitt zwischen Szenen [S975157]. Meine Einschätzung: Nach dem Tod am Straßenrand bedeutet die leere Straße Weiterfahren – eine Bedeutung, die erst die Reihenfolge stiftet.",
+     "look_for": [
+      "Fluchtpunkt in der Mitte",
+      "Hochformat als Bruch",
+      "leere Fahrbahn nach dem Unfallbild"
+     ]
+    },
+    {
+     "image_id": "i54431ad6b5",
+     "caption_md": "Installation als Bild: Hunderte kleiner Sonnenuntergangs-Abzüge bilden in einem hohen Ausstellungsraum eine fast raumhohe Wand, die aus der Distanz als orange-rote Farbfläche wirkt. Umbrico gab nur Mindestmaße und eine zufällige Rasteranordnung vor [S219252]; 2018 wurde die Wand höher gehängt [S197440]. Meine Einschätzung: Das einzelne Sonnenbild verschwindet; die Masse wird zur Aussage über das immer gleiche Motiv.",
+     "look_for": [
+      "Raster ohne Hierarchie",
+      "Wirkung aus der Distanz vs. Nähe",
+      "Raum und Boden als Maßstab"
+     ]
+    },
+    {
+     "image_id": "iec5ad837fd",
+     "caption_md": "Tableau und Typologie: neun gerahmte Schwarzweißbilder von Gasbehältern in drei Reihen, jedes frontal, ähnlich groß, unter grauem Himmel. Gruppierung und Abfolge dieses Tableaus bestimmte Hilla Becher [S374621]. Meine Einschätzung: Die gleiche Präsentation macht die Unterschiede – Gerüst, Höhe, Umgebung – erst vergleichbar; das Raster ist hier Erkenntnisinstrument.",
+     "look_for": [
+      "gleiche Ansicht, gleiches Licht",
+      "Raster 3 × 3",
+      "Unterschiede der Konstruktion"
+     ]
+    },
+    {
+     "image_id": "ifccce59f5b",
+     "caption_md": "Bild für die Wand: ein Börsensaal von oben, dicht gefüllt mit Händlern in bunten Jacken, Bildschirmen und Papier; keine Stelle ist leer. Gurskys Bild ist teils mehrfach belichtet, um Bewegung zu verstärken [S271343]. Meine Einschätzung: Als Handybild ist es Rauschen; erst in großer Ausstellungsgröße kann man aus der Distanz das Gewimmel und aus der Nähe die Einzelnen sehen – ein Bild, das die Tableau-Form voraussetzt [Q3].",
+     "look_for": [
+      "All-over ohne Zentrum",
+      "Farbpunkte als Muster",
+      "Details, die nur groß lesbar sind"
+     ]
+    },
+    {
+     "image_id": "i8065e5cd18",
+     "caption_md": "Bildschirm als Motiv: Hände halten Smartphones hoch, auf deren Displays die Mona Lisa erscheint; das Original hängt klein und unscharf im Hintergrund. Parr sagt, im Mona-Lisa-Saal fotografierten alle das Gemälde, er fotografiere die Menschen davor [S161937]. Meine Einschätzung: Das Bild zeigt, wie das Kunstwerk zum Bildschirmbild wird – Präsentation verdrängt Anschauung.",
+     "look_for": [
+      "Original klein im Hintergrund",
+      "mehrere Displays als Bild im Bild",
+      "Hände als Vordergrund"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Ein Bild bedeutet im Buch, an der Wand und im Feed Verschiedenes – die Präsentationsform ist Teil der Aussage.",
+    "Ein Fotobuch ist eine eigene Form: Auswahl, Reihenfolge und Doppelseite erzeugen Bedeutung zwischen den Bildern.",
+    "Sequenz arbeitet mit Reim, Kontrast, Rhythmus und Pausen; das stärkste Einzelbild ist nicht automatisch der beste Anfang.",
+    "In der Ausstellung bestimmen Größe, Abstand und Hängung, wie nah und wie lange man schaut.",
+    "Im Feed bestimmen Format, Vorschaugröße und Algorithmus die Wirkung – Serien nicht nach Feed-Regeln bauen.",
+    "Raster und Wiederholung können verflachen oder Erkenntnis stiften – es kommt auf die Idee an."
+   ],
+   "exercises": [
+    "Wähle aus einer Reise 15 Bilder, drucke sie klein aus und lege eine Sequenz auf dem Boden. Tausche dann Anfang und Ende und notiere, wie sich die Geschichte ändert.",
+    "Baue drei Doppelseiten: ein Reim-Paar, ein Kontrast-Paar und eine Seite mit Bild und Leerseite. Beschreibe, was das Paar sagt, was kein Einzelbild sagt.",
+    "Teste ein Bild in Vorschaugröße (ca. 3 cm Breite) und als A3-Druck. Was trägt in welchem Medium? Entscheide, welches Bild für den Feed und welches für die Wand ist.",
+    "Plane eine Wand mit 6 Reisebildern: Größe, Mittellinie, Abstände, Reihenfolge. Skizziere sie und begründe jede Entscheidung in einem Satz."
+   ],
+   "quiz": [
+    {
+     "question": "Wie definiert Martin Parr ein Fotobuch?",
+     "image_id": null,
+     "options": [
+      "Ein Buch, mit oder ohne Text, in dem die Fotografien die Hauptbotschaft tragen",
+      "Jedes Buch, das Fotos enthält",
+      "Ein Ausstellungskatalog",
+      "Ein Buch mit mindestens 100 Fotografien"
+     ],
+     "correct": 0,
+     "explanation": "So Parr im Interview; er betont außerdem den eigenen Charakter des Buchs gegenüber dem Einzelabzug [Q1]."
+    },
+    {
+     "question": "Dieses Bild folgt in „The Americans“ auf „Covered Car“. Was leistet die Folge?",
+     "image_id": "iad1c7dffdb",
+     "options": [
+      "Nichts – die Bilder sind nur chronologisch geordnet",
+      "Sie zeigt zweimal denselben Ort",
+      "Ein Motiv (die verhüllte Form) kehrt wieder und verschiebt die Bedeutung vom Auto zum Tod",
+      "Sie dient nur dem Wechsel von Hoch- und Querformat"
+     ],
+     "correct": 2,
+     "explanation": "Sotheby’s beschreibt das Bild als kompositorisches Echo von „Covered Car“ [S975157]; der Reim erzeugt Bedeutung zwischen den Bildern."
+    },
+    {
+     "question": "Was meint die „Tableau-Form“ nach Chevrier, wie Lugon sie beschreibt?",
+     "image_id": null,
+     "options": [
+      "Fotos, die man am besten im Buch betrachtet",
+      "Fotos in einer Tabelle angeordnet",
+      "Kleine, intime Abzüge zum Nahsehen",
+      "Fotografien als Wandstücke, die sich als Objekt behaupten und den Betrachter konfrontieren; die Ausstellung hat Vorrang"
+     ],
+     "correct": 3,
+     "explanation": "Die Tableau-Form betont den Vorrang der Ausstellung und Bilder als Wandstücke [Q3]."
+    },
+    {
+     "question": "Was bewirkt die Hängung dieser Arbeit vor allem?",
+     "image_id": "i54431ad6b5",
+     "options": [
+      "Sie hebt das schönste Sonnenbild hervor",
+      "Das Einzelbild tritt zurück; die Masse im Raster macht das immer gleiche Motiv selbst zum Thema",
+      "Sie erzählt eine chronologische Geschichte",
+      "Sie zeigt die Sonne in Originalgröße"
+     ],
+     "correct": 1,
+     "explanation": "Umbrico ließ die Abzüge zufällig im Raster hängen [S219252]; ohne Hierarchie wird die Wiederholung zur Aussage."
+    },
+    {
+     "question": "Warum wirkt ein weites, feintoniges Panorama im Instagram-Feed oft schwach?",
+     "image_id": null,
+     "options": [
+      "Weil Instagram Panoramen verbietet",
+      "Weil der Algorithmus Schwarzweiß bevorzugt",
+      "Weil es in kleiner Vorschau als schmaler Streifen erscheint, feine Tonwerte verliert und mit vereinfachten, kontrastreichen Bildern konkurriert",
+      "Weil Panoramen immer unscharf sind"
+     ],
+     "correct": 2,
+     "explanation": "Kleine, selbstleuchtende Darstellung bevorzugt einfache Formen und starke Kontraste; die Reihenfolge bestimmt zudem ein Algorithmus [S269643]."
+    },
+    {
+     "question": "Was ist der Zweck der gleichförmigen Präsentation in diesem Tableau?",
+     "image_id": "iec5ad837fd",
+     "options": [
+      "Vergleichbarkeit: gleiche Ansicht und Hängung machen die Unterschiede der Bauwerke sichtbar",
+      "Dekoration ohne inhaltliche Bedeutung",
+      "Die Bilder sollen wie ein Film ablaufen",
+      "Platz sparen"
+     ],
+     "correct": 0,
+     "explanation": "Die Bechers zeigen Varianten eines Bautyps; Gruppierung und Abfolge sind Teil des Werks [S374621]."
+    }
+   ]
+  }
+ ]
+}
