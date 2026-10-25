@@ -96,6 +96,7 @@ Vorgeschlagene Kapitel (Inhalte erst beim Füllen mit Quellen belegen):
 - **Bilder:** beim Build auf 1568 px (API-Grenze) und 480 px skaliert, verschlüsselt; im Browser per WebCrypto entschlüsselt und im Cache-Storage gehalten.
 - **KI:** zwei Anbieter, umschaltbar in `setup.html` (`SEHSCHULE_PROVIDER`): OpenAI Chat Completions (Bild als data-URL, `response_format` json_schema strict) oder Claude Messages API (`anthropic-dangerous-direct-browser-access`, `output_config.format`, Server-Fallback). Gleiche Prompts und gleiches Schema; jede Analyse speichert das tatsächlich verwendete Modell.
 - **Prompts:** Dateien unter `prompts/` (versioniert), jede Analyse speichert `prompt_version` und `model`.
+- **Theorie-Lektionen** (`seed/lessons_*.json`, Tracks sehen/grundlagen/fotografen): Texte sind bildhaft aufgebaut. Zeilen-Direktiven in `intro_md`/`body_md`: `::kurz`, `::merke`, `::schau`, `::bild <id> | Text`, `::vergleich <idA> <idB> | Text A | Text B`, `::skizze <name> | Text` (SVG in `seed/sketches/`, Stilklassen `a`/`af`/`m`/`mf`/`f`, beim Build bereinigt und in `library.json` eingebettet). Jeder Abschnitt beginnt mit `::kurz` und hat mindestens ein Bild oder eine Skizze; Quellen erscheinen als hochgestellte Nummern mit Einblendung.
 - **Test:** `tests_web/e2e.js` (Playwright, GitHub und KI simuliert; `PROVIDER=openai|anthropic`).
 
 ### Verzeichnisstruktur
