@@ -1,0 +1,1678 @@
+{
+ "accessed_at": "2026-10-25",
+ "photographers": [
+  {
+   "key": "fontana",
+   "name": "Franco Fontana",
+   "born": 1933,
+   "died": 2026,
+   "sources": [
+    {
+     "url": "https://www.ngv.vic.gov.au/explore/collection/artist/2278/",
+     "title": "Franco Fontana – National Gallery of Victoria, Collection Online",
+     "excerpt": "Franco FONTANA Born 09 December 1933 Modena, Emilia-Romagna, Italy"
+    },
+    {
+     "url": "https://en.ilsole24ore.com/art/franco-fontana-master-of-photography-and-colour-has-died-in-modena-AJc6FHy",
+     "title": "Franco Fontana, a master of photography and colour, has died in Modena – Il Sole 24 Ore (29.08.2026)",
+     "excerpt": "1933–2026 Franco Fontana, a master of photography and colour, has died in Modena His works are held in over 50 museums around the world 29 August 2026"
+    },
+    {
+     "url": "https://www.ngv.vic.gov.au/essay/franco-fontana/",
+     "title": "Franco Fontana – Essay von Isobel Crombie, National Gallery of Victoria",
+     "excerpt": "Fontana was a furniture dealer in Modena who began to work as an amateur photographer in 1961 and held his first exhibition seven years later. From the start, it was the interplay of colour and form in the natural environment that attracted his attention, and, while he worked in a number of genres, the landscape has provided him with the most sustained interest."
+    },
+    {
+     "url": "https://en.ilsole24ore.com/art/franco-fontana-master-of-photography-and-colour-has-died-in-modena-AJc6FHy",
+     "title": "Franco Fontana, a master of photography and colour, has died in Modena – Il Sole 24 Ore (29.08.2026)",
+     "excerpt": "Since the 1970s, Fontana has sought to develop a minimalist compositional style, based on blocks of colour, transforming nature and the landscape into abstract forms and almost geometric figures. His monograph *Skyline* (1978) brought him international recognition."
+    }
+   ],
+   "projects": [
+    {
+     "key": "fontana-paesaggi",
+     "title": "Paesaggi – Farblandschaften (1970–1995)",
+     "year_from": 1970,
+     "year_to": 1995,
+     "sources": [
+      {
+       "url": "https://www.ngv.vic.gov.au/essay/franco-fontana/",
+       "title": "Franco Fontana – Essay von Isobel Crombie, National Gallery of Victoria",
+       "excerpt": "As Fontana wrote of his approach in the 1970s: I try to isolate in space and time all that is normally mixed up with an infinity of details. Extracting a few essential elements from the entirety that presents itself to the human eye is one of my inner requirements: to achieve a harmonic unity through the elimination of all disturbing natural elements. In this way a landscape is born which is made up by subtle relations of space, form, drawing and colour."
+      },
+      {
+       "url": "https://www.ngv.vic.gov.au/essay/franco-fontana/",
+       "title": "Franco Fontana – Essay von Isobel Crombie, National Gallery of Victoria",
+       "excerpt": "Fontana has written that he does not manipulate his photographs, preferring that his work not be described as abstract but retain its connection to the real. However, it is also clear that he does adopt certain photographic strategies to create these works, such as using a zoom lens to compress space and create a two-dimensional perspective, and underexposing his work to accentuate colour saturation."
+      },
+      {
+       "url": "https://shop.atlasgallery.com/product/landscape-1978/",
+       "title": "Franco Fontana – Atlas Gallery (Produktseite)",
+       "excerpt": "Best-known for his abstract colour landscapes, he is credited as the inventor of the photographic line, often referred to as ‘the concept of line’. His bold use of colour has earned him comparisons with painters such as Newman, Rothko, and de Staël."
+      },
+      {
+       "url": "https://shop.atlasgallery.com/product/landscape-1978/",
+       "title": "Franco Fontana – Atlas Gallery (Produktseite)",
+       "excerpt": "He worked with 35mm cameras, mostly on location, claiming that his studio was the world."
+      }
+     ],
+     "images": [
+      {
+       "key": "fontana-untitled-1978-ngv",
+       "title": "Untitled (Landschaft mit Mohnlinie)",
+       "year": 1978,
+       "tags": [
+        "landschaft",
+        "farbe",
+        "feld",
+        "abstraktion"
+       ],
+       "source_url": "https://www.ngv.vic.gov.au/explore/collection/work/8735/",
+       "image_url": "https://content.ngv.vic.gov.au/col-images/api/Fe102345/1920",
+       "sources": [
+        {
+         "url": "https://www.ngv.vic.gov.au/essay/franco-fontana/",
+         "title": "Franco Fontana – Essay von Isobel Crombie, National Gallery of Victoria",
+         "excerpt": "This photograph is a prime example of his style and shows the natural world reduced to saturated bands of yellow, blue and brown, all offset by a thin red line of poppies.",
+         "kind": "museum",
+         "author": "Isobel Crombie (National Gallery of Victoria)",
+         "aspect": "deutung",
+         "series_level": false
+        },
+        {
+         "url": "https://www.ngv.vic.gov.au/essay/franco-fontana/",
+         "title": "Franco Fontana – Essay von Isobel Crombie, National Gallery of Victoria",
+         "excerpt": "The effect, as here, is a severe simplicity that transforms the natural colours of these cultivated landscapes into a work akin to a formalist painting.",
+         "kind": "museum",
+         "author": "Isobel Crombie (National Gallery of Victoria)",
+         "aspect": "wirkung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "fontana-puglia-1978",
+       "title": "Puglia, 1978",
+       "year": 1978,
+       "location": "Apulien, Italien",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "feld",
+        "reduktion"
+       ],
+       "source_url": "https://shop.atlasgallery.com/product/landscape-1978/",
+       "image_url": "https://shop.atlasgallery.com/wp-content/uploads/2021/07/FRANCO-FONTANA%C2%A9-PUGLIA-1978.jpg",
+       "sources": []
+      },
+      {
+       "key": "fontana-baia-delle-zagare-1970",
+       "title": "Baia delle Zagare, 1970",
+       "year": 1970,
+       "location": "Baia delle Zagare, Apulien, Italien",
+       "tags": [
+        "küste",
+        "meer",
+        "farbe",
+        "reduktion"
+       ],
+       "source_url": "https://shop.atlasgallery.com/product/baia-delle-zagare-1970/",
+       "image_url": "https://shop.atlasgallery.com/wp-content/uploads/2021/07/Franco-Fontana%C2%A9-Baia-delle-Zagare-1970.jpg",
+       "sources": []
+      },
+      {
+       "key": "fontana-basilicata-1978-a",
+       "title": "Basilicata, 1978",
+       "year": 1978,
+       "location": "Basilikata, Italien",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "hügel",
+        "feld"
+       ],
+       "source_url": "https://shop.atlasgallery.com/product/basilicata-1978/",
+       "image_url": "https://shop.atlasgallery.com/wp-content/uploads/2023/12/Franco_Fontana_AtlasGallery_Landscape_Colour_Photography_03-02.jpg",
+       "sources": []
+      },
+      {
+       "key": "fontana-basilicata-1978-b",
+       "title": "Basilicata, 1978 (mit Baum)",
+       "year": 1978,
+       "location": "Basilikata, Italien",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "hügel",
+        "baum"
+       ],
+       "source_url": "https://shop.atlasgallery.com/product/basilicata-1978-2/",
+       "image_url": "https://shop.atlasgallery.com/wp-content/uploads/2023/12/Franco_Fontana_AtlasGallery_Landscape_Colour_Photography_05-02.jpg",
+       "sources": []
+      },
+      {
+       "key": "fontana-camargue-1979",
+       "title": "Camargue, Paesaggio, 1979",
+       "year": 1979,
+       "location": "Camargue, Frankreich",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "horizont",
+        "reduktion"
+       ],
+       "source_url": "https://shop.atlasgallery.com/product/camargue-paesaggio-1979/",
+       "image_url": "https://shop.atlasgallery.com/wp-content/uploads/2023/12/Franco_Fontana_AtlasGallery_Landscape_Colour_Photography_01-02.jpg",
+       "sources": []
+      },
+      {
+       "key": "fontana-texas-1979",
+       "title": "Texas, 1979",
+       "year": 1979,
+       "location": "Texas, USA",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "feld",
+        "horizont"
+       ],
+       "source_url": "https://shop.atlasgallery.com/product/texas-1979/",
+       "image_url": "https://shop.atlasgallery.com/wp-content/uploads/2021/06/Franco-Fontana%C2%A9-Texas-1979-e1624286509275.jpg",
+       "sources": []
+      },
+      {
+       "key": "fontana-basilicata-1995",
+       "title": "Basilicata, 1995",
+       "year": 1995,
+       "location": "Basilikata, Italien",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "hügel",
+        "schatten"
+       ],
+       "source_url": "https://shop.atlasgallery.com/product/basilicata-1995/",
+       "image_url": "https://shop.atlasgallery.com/wp-content/uploads/2021/06/Fontana-Basilicata-italia-1995.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "haas-creation",
+   "name": "Ernst Haas",
+   "born": 1921,
+   "died": 1986,
+   "sources": [
+    {
+     "url": "https://ernst-haas.com/biography/",
+     "title": "Biography – Ernst Haas Estate",
+     "excerpt": "Ernst Haas (1921–1986) is acclaimed as one of the most celebrated and influential photographers of the 20th century and considered one of the pioneers of color photography."
+    },
+    {
+     "url": "https://ernst-haas.com/biography/",
+     "title": "Biography – Ernst Haas Estate",
+     "excerpt": "Haas moved to the United States in 1951 and soon after, began experimenting with Kodachrome color film. He went on to become the premier color photographer of the 1950s."
+    },
+    {
+     "url": "https://ernst-haas.com/writings-by-haas/",
+     "title": "Writings by Haas – Ernst Haas Estate",
+     "excerpt": "The camera only facilitates the taking. The photographer must do the giving in order to transform and transcend ordinary reality. The problem is to transform without deforming."
+    },
+    {
+     "url": "https://fujifilmsquare.jp/en/detail/19030104.html",
+     "title": "Realms of Color: The Creation by Ernst Haas – Fujifilm Square (Ausstellung 2019)",
+     "excerpt": "Ernst Haas died of a stroke in New York in 1986 at age sixty-five."
+    }
+   ],
+   "projects": [
+    {
+     "key": "haas-the-creation",
+     "title": "The Creation (Schöpfung)",
+     "year_from": 1960,
+     "year_to": 1971,
+     "sources": [
+      {
+       "url": "https://ernst-haas.com/essays-on-haas/",
+       "title": "Essays on Haas – Ernst Haas Estate (Inge Bondi, Biographical Essay)",
+       "excerpt": "His belief that a series of images seen together added up to more than the sum of their parts also led him to produce four monumental photographic books. The product of thirteen years of work, The Creation (1971) was the most successful color photography book of its time, selling over 350,000 copies."
+      },
+      {
+       "url": "https://ernst-haas.com/chronology/",
+       "title": "Chronology – Ernst Haas Estate",
+       "excerpt": "1964 Works as second director for the movie The Bible produced by Dino de Laurentis, with John Huston as director. Responsible for photography on The Creation section, the beginning of his photographic interpretation of Genesis. This movie takes him to the Galapagos Islands, Iceland and Italy."
+      },
+      {
+       "url": "https://fujifilmsquare.jp/en/detail/19030104.html",
+       "title": "Realms of Color: The Creation by Ernst Haas – Fujifilm Square (Ausstellung 2019)",
+       "excerpt": "The theme for The Creation is the Christian story of the creation of heaven and earth described at the start of the Book of Genesis in the Old Testament. A beautiful and dynamic rhapsody on the grand story—from the birth of the planet, the arrival of the four seasons, and the emergence of organic life—this famous work has made a significant mark on the history of photography. Expressed in colors that are both vivid and delicate, the photographs superimpose the majestic world of the creation of heaven and earth on natural forms, giving us a sense of Haas's unique ideas and perspectives."
+      },
+      {
+       "url": "https://ernst-haas.com/writings-by-haas/",
+       "title": "Writings by Haas – Ernst Haas Estate",
+       "excerpt": "Take color as a totality of relations within a frame. Don’t ever overanalyze your results! Don’t ever try to find your own secret of the one which you admire. One does not try to catch soap bubbles. One enjoys them in flight and is grateful for their fluid existence. The thinner they are, the more exuberant their color scheme. Color is joy."
+      }
+     ],
+     "images": [
+      {
+       "key": "haas-creation-surtsey",
+       "title": "Surtsey Volcano, Iceland",
+       "year": 1965,
+       "location": "Surtsey, Island",
+       "tags": [
+        "vulkan",
+        "farbe",
+        "elemente",
+        "lava"
+       ],
+       "source_url": "https://ernst-haas.com/classic-color-creation/",
+       "image_url": "https://ernst-haas.com/wp-content/uploads/color-creation/color-creation-10.jpg",
+       "sources": [
+        {
+         "url": "https://ernst-haas.com/reflections-on-haas/",
+         "title": "Reflections on Haas – Ernst Haas Estate (Lucien Clergue)",
+         "excerpt": "Then The Creation was published, and I was even more enthusiastic. It was after this publication that I dedicated myself more to color. Ernst was a superb artist and a master of color. With the high level of culture and the heritage of his European roots, he was able to bring an anonymous landscape to the level of masterpiece of color and perfect opposition. No one will be able to replace a man with such a vision, a deep sense of nature, the magic of the Earth, and his relationship with the cosmos.",
+         "kind": "fotograf",
+         "author": "Lucien Clergue",
+         "aspect": "rezeption",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "haas-creation-amazon-sky",
+       "title": "Amazon Sky, Brazil",
+       "year": 1960,
+       "location": "Amazonas, Brasilien",
+       "tags": [
+        "himmel",
+        "wolken",
+        "farbe",
+        "luftbild"
+       ],
+       "source_url": "https://ernst-haas.com/classic-color-creation/",
+       "image_url": "https://ernst-haas.com/wp-content/uploads/color-creation/color-creation-3%2A.jpg",
+       "sources": []
+      },
+      {
+       "key": "haas-creation-black-wave",
+       "title": "Black Wave",
+       "year": 1966,
+       "tags": [
+        "wasser",
+        "abstraktion",
+        "farbe",
+        "detail"
+       ],
+       "source_url": "https://ernst-haas.com/classic-color-creation/",
+       "image_url": "https://ernst-haas.com/wp-content/uploads/color-creation/color-creation-18%2A.jpg",
+       "sources": []
+      },
+      {
+       "key": "haas-creation-sulfur-landscape",
+       "title": "Sulfur Landscape, Yellowstone, USA",
+       "year": 1966,
+       "location": "Yellowstone, USA",
+       "tags": [
+        "landschaft",
+        "nationalpark",
+        "farbe",
+        "nebel"
+       ],
+       "source_url": "https://ernst-haas.com/classic-color-creation/",
+       "image_url": "https://ernst-haas.com/wp-content/uploads/color-creation/color-creation-29%2A.jpg",
+       "sources": [
+        {
+         "url": "https://ernst-haas.com/writings-by-haas/",
+         "title": "Writings by Haas – Ernst Haas Estate",
+         "excerpt": "William Blake saw “the world in a grain of sand.” It can be seen in many such things, for in the smallest cells are reflections of the largest. And in photography, through an interplay of scales, a whole universe within a universe can be revealed.",
+         "kind": "fotograf",
+         "author": "Ernst Haas",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "haas-creation-tobago-wave",
+       "title": "Tobago Wave, Caribbean",
+       "year": 1968,
+       "location": "Tobago, Karibik",
+       "tags": [
+        "meer",
+        "welle",
+        "farbe",
+        "horizont"
+       ],
+       "source_url": "https://ernst-haas.com/classic-color-creation/",
+       "image_url": "https://ernst-haas.com/wp-content/uploads/color-creation2/color-creation-111%2A.jpg",
+       "sources": []
+      },
+      {
+       "key": "haas-creation-ice-formation",
+       "title": "Ice Formation",
+       "year": 1966,
+       "tags": [
+        "eis",
+        "detail",
+        "struktur",
+        "farbe"
+       ],
+       "source_url": "https://ernst-haas.com/classic-color-creation/",
+       "image_url": "https://ernst-haas.com/wp-content/uploads/color-creation2/creation-color-130%2A.jpg",
+       "sources": []
+      },
+      {
+       "key": "haas-creation-snow-lovers",
+       "title": "Snow Lovers, USA",
+       "year": 1964,
+       "location": "USA",
+       "tags": [
+        "schnee",
+        "form",
+        "farbe",
+        "licht"
+       ],
+       "source_url": "https://ernst-haas.com/classic-color-creation/",
+       "image_url": "https://ernst-haas.com/wp-content/uploads/color-creation/color-creation-1.jpg",
+       "sources": []
+      },
+      {
+       "key": "haas-creation-aerial-flamingos",
+       "title": "Aerial Flamingos, Kenya",
+       "year": 1970,
+       "location": "Kenia",
+       "tags": [
+        "luftbild",
+        "tiere",
+        "farbe",
+        "muster"
+       ],
+       "source_url": "https://ernst-haas.com/classic-color-creation/",
+       "image_url": "https://ernst-haas.com/wp-content/uploads/color-creation/color-creation-2.jpg",
+       "sources": []
+      },
+      {
+       "key": "haas-creation-goliath-heron",
+       "title": "Goliath Heron, Malawi Lake, Mozambique",
+       "year": 1970,
+       "location": "Malawisee, Mosambik",
+       "tags": [
+        "tiere",
+        "vogel",
+        "farbe",
+        "pflanzen"
+       ],
+       "source_url": "https://ernst-haas.com/classic-color-creation/",
+       "image_url": "https://ernst-haas.com/wp-content/uploads/color-creation2/creation-color-127.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "wolfe",
+   "name": "Art Wolfe",
+   "born": 1951,
+   "sources": [
+    {
+     "url": "https://artwolfe.com/about/",
+     "title": "About – artwolfe.com",
+     "excerpt": "The son of commercial artists, Art Wolfe was born on September 13, 1951 in Seattle, Washington, and still calls the city home. He graduated from the University of Washington with Bachelor’s degrees in fine arts and art education in 1975, where he studied under professors such as Jacob Lawrence."
+    },
+    {
+     "url": "https://artwolfe.com/about/",
+     "title": "About – artwolfe.com",
+     "excerpt": "Wolfe’s photographic mission is multi-faceted. By employing artistic and journalistic styles, he documents his subjects and educates the viewer. His unique approach to photography is based on his training in the arts and his love of the environment. His goal has always been to win support for conservation issues by “focusing on what’s beautiful on the Earth.”"
+    },
+    {
+     "url": "https://artwolfe.com/about/",
+     "title": "About – artwolfe.com",
+     "excerpt": "Long before the genre of ‘conservation photography’ was conceived, Wolfe was practicing it."
+    }
+   ],
+   "projects": [
+    {
+     "key": "wolfe-earth-is-my-witness",
+     "title": "Earth Is My Witness – Landschaften (Druckauswahl)",
+     "sources": [
+      {
+       "url": "https://store.artwolfe.com/product/earth-is-my-witness-book2/",
+       "title": "Earth is My Witness – Art Wolfe Store (Buchseite)",
+       "excerpt": "Over the course of his thirty-year career, award-winning photographer ART WOLFE has worked on every continent and in hundreds of locations. His stunning images interpret and record the world’s fastest disappearing wildlife, landscapes, and native cultures and are a lasting inspiration to those who seek to preserve them all. Wolfe’s photographs are recognized throughout the world for their mastery of color, composition, and perspective, and his photographic mission is multifaceted: art, wildlife advocacy, and journalism all inform his work."
+      },
+      {
+       "url": "https://artwolfe.com/about/",
+       "title": "About – artwolfe.com",
+       "excerpt": "In 2014 Wolfe began a publishing relationship with Earth Aware Editions. This has resulted in numerous award-winning books including the encyclopedic Earth Is My Witness"
+      },
+      {
+       "url": "https://artwolfe.com/about/",
+       "title": "About – artwolfe.com (Zitat Robert Bateman)",
+       "excerpt": "“Art Wolfe is an artist. He works with all of the artistic elements... line, form, texture, composition, light and shadow and produces visual masterpieces…” —Robert Bateman"
+      }
+     ],
+     "images": [
+      {
+       "key": "wolfe-dolomites",
+       "title": "The Dolomites",
+       "location": "Dolomiten, Italien",
+       "tags": [
+        "berge",
+        "abendlicht",
+        "farbe",
+        "ebenen"
+       ],
+       "source_url": "https://store.artwolfe.com/product/the-dolomites/",
+       "image_url": "https://store.artwolfe.com/wp-content/uploads/sites/2/2015/09/dolomiti_italy_121005_1866.jpg",
+       "sources": []
+      },
+      {
+       "key": "wolfe-yunnan-rice-terraces",
+       "title": "Yunnan Rice Terraces",
+       "location": "Yuanyang, China",
+       "tags": [
+        "kulturlandschaft",
+        "terrassen",
+        "muster",
+        "farbe"
+       ],
+       "source_url": "https://store.artwolfe.com/product/yunnan-rice-terraces/",
+       "image_url": "https://store.artwolfe.com/wp-content/uploads/sites/2/2015/09/yuang-yang_110330_5781.jpg",
+       "sources": []
+      },
+      {
+       "key": "wolfe-ghost-gums",
+       "title": "Ghost Gums",
+       "location": "MacDonnell Ranges, Northern Territory, Australien",
+       "tags": [
+        "baum",
+        "spiegelung",
+        "farbe",
+        "schlucht"
+       ],
+       "source_url": "https://store.artwolfe.com/product/ghost-gums/",
+       "image_url": "https://store.artwolfe.com/wp-content/uploads/sites/2/2015/09/mcdonnell_ranges_aus_120327_1320.jpg",
+       "sources": []
+      },
+      {
+       "key": "wolfe-eye-of-the-mountain",
+       "title": "The Eye of the Mountain",
+       "location": "Kirkjufell, Vesturland, Island",
+       "tags": [
+        "berg",
+        "spiegelung",
+        "symmetrie",
+        "island"
+       ],
+       "source_url": "https://store.artwolfe.com/product/the-eye-of-the-mountain/",
+       "image_url": "https://store.artwolfe.com/wp-content/uploads/sites/2/2014/11/iceland_131024_2280.jpg",
+       "sources": []
+      },
+      {
+       "key": "wolfe-k2",
+       "title": "K2",
+       "location": "Karakorum, Pakistan",
+       "tags": [
+        "berg",
+        "wolken",
+        "hochgebirge",
+        "licht"
+       ],
+       "source_url": "https://store.artwolfe.com/product/k2/",
+       "image_url": "https://store.artwolfe.com/wp-content/uploads/sites/2/2014/11/DP126.jpg",
+       "sources": []
+      },
+      {
+       "key": "wolfe-les-aiguilles",
+       "title": "Les Aiguilles, The Chamonix Needles",
+       "location": "Lac Blanc, Savoyer Alpen, Frankreich",
+       "tags": [
+        "berge",
+        "spiegelung",
+        "see",
+        "abendlicht"
+       ],
+       "source_url": "https://store.artwolfe.com/product/les-aiguilles-the-chamonix-needles/",
+       "image_url": "https://store.artwolfe.com/wp-content/uploads/sites/2/2014/11/DP026.jpg",
+       "sources": []
+      },
+      {
+       "key": "wolfe-iceberg-iceland",
+       "title": "Iceberg, Iceland",
+       "location": "Jökulsárlón, Breiðamerkursandur, Island",
+       "tags": [
+        "eis",
+        "gegenlicht",
+        "küste",
+        "farbe"
+       ],
+       "source_url": "https://store.artwolfe.com/product/iceberg-iceland/",
+       "image_url": "https://store.artwolfe.com/wp-content/uploads/sites/2/2014/11/DP019.jpg",
+       "sources": []
+      },
+      {
+       "key": "wolfe-inland-sea-study-i",
+       "title": "The Inland Sea, Study I",
+       "location": "Kunene, Namibia",
+       "tags": [
+        "wüste",
+        "dünen",
+        "muster",
+        "streiflicht"
+       ],
+       "source_url": "https://store.artwolfe.com/product/the-inland-sea-study-i/",
+       "image_url": "https://store.artwolfe.com/wp-content/uploads/sites/2/2014/11/GP1098.jpg",
+       "sources": []
+      },
+      {
+       "key": "wolfe-moonrise-over-etna",
+       "title": "Moonrise over Etna",
+       "location": "Ätna, Sizilien, Italien",
+       "tags": [
+        "vulkan",
+        "nacht",
+        "mond",
+        "farbe"
+       ],
+       "source_url": "https://store.artwolfe.com/product/etna/",
+       "image_url": "https://store.artwolfe.com/wp-content/uploads/sites/2/2015/09/LITASI1_00838.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "dykinga",
+   "name": "Jack Dykinga",
+   "sources": [
+    {
+     "url": "https://www.arizonahighways.com/hall-fame-jack-dykinga",
+     "title": "Hall of Fame: Jack Dykinga – Arizona Highways",
+     "excerpt": "But only one has a Pulitzer Prize: Jack Dykinga. That accolade, in 1971, was the result of “his dramatic and sensitive photographs at the Lincoln and Dixon State Schools for the Retarded in Illinois.” Dykinga created the series while on assignment for the Chicago Sun-Times."
+    },
+    {
+     "url": "https://www.arizonahighways.com/hall-fame-jack-dykinga",
+     "title": "Hall of Fame: Jack Dykinga – Arizona Highways",
+     "excerpt": "After relocating to Arizona, he worked for the Arizona Daily Star in Tucson before leaving photojournalism in 1985."
+    },
+    {
+     "url": "https://thephotosociety.org/member/jack-dykinga/",
+     "title": "Jack Dykinga – The Photo Society",
+     "excerpt": "His nine wilderness advocacy, large format books include: Frog Mountain Blues, The Secret Forest, The Sierra Pinacate, The Sonoran Desert, Stone Canyons of the Colorado Plateau, and Desert: The Mojave and Death Valley. He authored and photographed Large Format Nature Photography, a “how to” guide to color landscape photography."
+    },
+    {
+     "url": "https://anyquestionsprivate.transistor.fm/30/transcript",
+     "title": "On Landscape – Any Questions, Episode 30: Jack Dykinga (Transkript, 12.08.2026)",
+     "excerpt": "Yeah, I mean I think it's a reflection of the journalistic background. You're basically d you know, documenting a place and then you're and it's sort of a a product of a curious mind. You know, I look at everything and say, what if or what is that and why is it why is it that way? And then you use images to kind of explain that to the viewer."
+    }
+   ],
+   "projects": [
+    {
+     "key": "dykinga-grand-canyon",
+     "title": "Grand Canyon",
+     "sources": [
+      {
+       "url": "https://thephotosociety.org/member/jack-dykinga/",
+       "title": "Jack Dykinga – The Photo Society",
+       "excerpt": "IMAGES: Jack Dykinga’s Grand Canyon released by Arizona Highways, May 2008, reflect Jack’s love for Arizona."
+      },
+      {
+       "url": "https://anyquestionsprivate.transistor.fm/30/transcript",
+       "title": "On Landscape – Any Questions, Episode 30: Jack Dykinga (Transkript, 12.08.2026)",
+       "excerpt": "landscapes, oftentimes you have to wait. And sometimes I'll wait days and I'll go back days after day after day."
+      },
+      {
+       "url": "https://anyquestionsprivate.transistor.fm/30/transcript",
+       "title": "On Landscape – Any Questions, Episode 30: Jack Dykinga (Transkript, 12.08.2026)",
+       "excerpt": "When I'm shooting landscape, however, I flip it all to manual. I use the flip-up screen like a four by five, look down at it at carefully compose."
+      },
+      {
+       "url": "https://www.arizonahighways.com/hall-fame-jack-dykinga",
+       "title": "Hall of Fame: Jack Dykinga – Arizona Highways (Zitat Jeff Kida)",
+       "excerpt": "“Jack Dykinga is a photographic dynamo who incorporates his journalistic roots into everything he shoots,” says Arizona Highways Photo Editor Jeff Kida. “All of Jack’s images come packaged with a story that allows viewers the ability to appreciate his work at a number of different levels."
+      }
+     ],
+     "images": [
+      {
+       "key": "dykinga-cape-royal-sunset-rays",
+       "title": "Sunset rays below Cape Royal, North Rim",
+       "location": "Grand Canyon National Park, Arizona, USA",
+       "tags": [
+        "canyon",
+        "gegenlicht",
+        "regen",
+        "abendlicht"
+       ],
+       "source_url": "https://www.dykinga.com/Grand-Canyon/i-WsZ3hP8",
+       "image_url": "https://photos.smugmug.com/Grand-Canyon/i-WsZ3hP8/0/NQ3xhtjWSD9fRMH63ZTb6zLqzcxbLw8b5JVBC7FBK/X3/010301-0343-X3.jpg",
+       "sources": [
+        {
+         "url": "https://anyquestionsprivate.transistor.fm/30/transcript",
+         "title": "On Landscape – Any Questions, Episode 30: Jack Dykinga (Transkript, 12.08.2026)",
+         "excerpt": "we have basically untrammeled sky. And when the light sweeps across the land, it creates that texture that Joe was talking about. So early and late, you get that really long shadow effect.",
+         "kind": "fotograf",
+         "author": "Jack Dykinga",
+         "aspect": "technik",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "dykinga-vishnu-temple-clouds",
+       "title": "Vishnu Temple in a sea of clouds",
+       "location": "Grand Canyon National Park, Arizona, USA",
+       "tags": [
+        "canyon",
+        "nebel",
+        "schnee",
+        "wetter"
+       ],
+       "source_url": "https://www.dykinga.com/Grand-Canyon/i-Qm7wpvJ",
+       "image_url": "https://photos.smugmug.com/Grand-Canyon/i-Qm7wpvJ/0/MvsNGtC6wbNXRD7S4CKvk866jrHbC93JhHsxsSbh3/X3/010301-0042-X3.jpg",
+       "sources": []
+      },
+      {
+       "key": "dykinga-north-canyon-rapids",
+       "title": "Colorado River at North Canyon Rapids, first light",
+       "location": "Marble Canyon, Arizona, USA",
+       "tags": [
+        "fluss",
+        "canyon",
+        "morgenlicht",
+        "vordergrund"
+       ],
+       "source_url": "https://www.dykinga.com/Grand-Canyon/i-TxGvxpx",
+       "image_url": "https://photos.smugmug.com/Grand-Canyon/i-TxGvxpx/0/NSgqC3sPCTwpWQch3WBqrFPhvQjwBXKkR6Lk6KZ8n/X3/010301-0529-00-X3.jpg",
+       "sources": []
+      },
+      {
+       "key": "dykinga-shoshone-point-snow",
+       "title": "Canyon wall near Shoshone Point at sunrise, snow-covered pinyon pines",
+       "location": "Grand Canyon National Park, Arizona, USA",
+       "tags": [
+        "canyon",
+        "schnee",
+        "morgenlicht",
+        "rahmen"
+       ],
+       "source_url": "https://www.dykinga.com/Grand-Canyon/i-D5c5N8w",
+       "image_url": "https://photos.smugmug.com/Grand-Canyon/i-D5c5N8w/0/KcnPrhqFnM9LBgWsTs7DDHrtTqGmJSHx9GBRdn6Lr/X3/010301-0645-00-X3.jpg",
+       "sources": []
+      },
+      {
+       "key": "dykinga-cape-royal-lightning",
+       "title": "Cape Royal with lightning striking the South Rim",
+       "location": "Grand Canyon National Park, Arizona, USA",
+       "tags": [
+        "canyon",
+        "gewitter",
+        "blitz",
+        "wetter"
+       ],
+       "source_url": "https://www.dykinga.com/Grand-Canyon/i-C6WBS9m",
+       "image_url": "https://photos.smugmug.com/Grand-Canyon/i-C6WBS9m/0/Mm6R8CWNf6TG4HSWJZ7VWgSJWHKJ6ZCN4px85Svdh/X3/010301-0738-00-X3.jpg",
+       "sources": []
+      },
+      {
+       "key": "dykinga-matkatamiba-narrows",
+       "title": "Matkatamiba Canyon reflections in the banded narrows",
+       "location": "Grand Canyon National Park, Arizona, USA",
+       "tags": [
+        "schlucht",
+        "reflexlicht",
+        "fels",
+        "intime landschaft"
+       ],
+       "source_url": "https://www.dykinga.com/Grand-Canyon/i-GR67JG2",
+       "image_url": "https://photos.smugmug.com/Grand-Canyon/i-GR67JG2/0/NG774S4LGX8FMcsLSvnDhG2vcjJR5dW23VxG9mF7v/X3/010301-0705-00-X3.jpg",
+       "sources": []
+      },
+      {
+       "key": "dykinga-marble-canyon-flash-flood",
+       "title": "Side-canyon flash floods pouring into Marble Canyon",
+       "location": "Marble Canyon, Grand Canyon National Park, Arizona, USA",
+       "tags": [
+        "canyon",
+        "wasserfall",
+        "unwetter",
+        "hochformat"
+       ],
+       "source_url": "https://www.dykinga.com/Grand-Canyon/i-ZWcmvC4",
+       "image_url": "https://photos.smugmug.com/Grand-Canyon/i-ZWcmvC4/0/K5t8F8nqw7xtFBVWqqm4NxCPnCz4Tg696d8ZWfjhf/X3/010301-0731-X3.jpg",
+       "sources": []
+      },
+      {
+       "key": "dykinga-point-sublime-agaves",
+       "title": "Agaves at Point Sublime",
+       "location": "Grand Canyon National Park, Arizona, USA",
+       "tags": [
+        "pflanzen",
+        "detail",
+        "muster",
+        "intime landschaft"
+       ],
+       "source_url": "https://www.dykinga.com/Grand-Canyon/i-vfDBtNt",
+       "image_url": "https://photos.smugmug.com/Grand-Canyon/i-vfDBtNt/0/NHFBZp8wjRT4ZN9Mvccj5PmsrtQnjt3bdmDdSgSt3/X3/010301-0776-00-X3.jpg",
+       "sources": []
+      },
+      {
+       "key": "dykinga-painted-desert-rain",
+       "title": "Veils of rain at sunset over the Painted Desert",
+       "location": "Painted Desert, Navajo Indian Reservation, Arizona, USA",
+       "tags": [
+        "regen",
+        "abendlicht",
+        "wetter",
+        "farbe"
+       ],
+       "source_url": "https://www.dykinga.com/Grand-Canyon/i-tHXdN7d",
+       "image_url": "https://photos.smugmug.com/Grand-Canyon/i-tHXdN7d/0/Nc27LDHQhxdK4mRdLdTRz582RXTFwJjhmDFXtCJK9/X3/010301-0800-00-X3.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "sternfeld",
+   "name": "Joel Sternfeld",
+   "born": 1944,
+   "sources": [
+    {
+     "url": "https://zandergalerie.com/artists/joel-sternfeld/",
+     "title": "Joel Sternfeld – Zander Galerie (Biografie)",
+     "excerpt": "Joel Sternfeld is an artist-photographer whose work is concerned with utopic and dystopic possibilities of the American experience. Since the publication of his landmark study, American Prospects in 1987 his work has maintained conceptual and political aspects, while being steeped in history, art history, landscape theory and attention to seasonal passage."
+    },
+    {
+     "url": "https://zandergalerie.com/artists/joel-sternfeld/",
+     "title": "Joel Sternfeld – Zander Galerie (Biografie)",
+     "excerpt": "Born 1944 in New York, NY Lives in Brooklyn, New York, NY Education and Teaching 1965 BA, Dartmouth College"
+    },
+    {
+     "url": "https://luhringaugustine.com/exhibitions/joel-sternfeld",
+     "title": "Joel Sternfeld: American Prospects and Before – Luhring Augustine (Pressemitteilung 2004)",
+     "excerpt": "Shot in 1976, the street photographs were made with a small camera and daytime flash during the New York rush hour."
+    }
+   ],
+   "projects": [
+    {
+     "key": "sternfeld-american-prospects",
+     "title": "American Prospects",
+     "year_from": 1978,
+     "year_to": 1987,
+     "sources": [
+      {
+       "url": "https://luhringaugustine.com/exhibitions/joel-sternfeld",
+       "title": "Joel Sternfeld: American Prospects and Before – Luhring Augustine (Pressemitteilung 2004)",
+       "excerpt": "Sternfeld received a Guggenheim Fellowship in 1978 to continue this series, but the award and its possibilities encouraged a change in his work. He set out with a large format camera to record the American landscape in ways that it had not been previously documented."
+      },
+      {
+       "url": "https://luhringaugustine.com/exhibitions/joel-sternfeld",
+       "title": "Joel Sternfeld: American Prospects and Before – Luhring Augustine (Pressemitteilung 2004)",
+       "excerpt": "Sternfeld experimented with color theories conceived originally in reference to architecture or painting and applied them to photography. He brought irony to the centuries-old tradition of landscape painting calling forth a new, postmodern conception of landscape. Moving high above and back from his subjects, Sternfeld presented the contingencies of human and natural events in the form of narrative tableaux."
+      },
+      {
+       "url": "https://www.artic.edu/artworks/127872",
+       "title": "After a Flash Flood, Rancho Mirage – Art Institute of Chicago (Objekttext)",
+       "excerpt": "In 1978 a Guggenheim grant allowed Sternfeld to embark on a nearly decade-long project that began as a drive across the United States. His photographic Wanderjahr, which echoed those of Walker Evans in the 1930s and Robert Frank in the 1950s, yielded the 1987 publication American Prospects, the contents of which the Art Institute owns in its entirety."
+      }
+     ],
+     "images": [
+      {
+       "key": "sternfeld-after-a-flash-flood",
+       "title": "After a Flash Flood, Rancho Mirage, California, July 1979",
+       "year": 1979,
+       "location": "Rancho Mirage, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "erzählung",
+        "spuren des menschen"
+       ],
+       "source_url": "https://www.artic.edu/artworks/127872",
+       "image_url": "https://www.artic.edu/iiif/2/f1182099-839a-3ee9-113e-c106c735b685/full/843,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://www.artic.edu/artworks/127872",
+         "title": "After a Flash Flood, Rancho Mirage – Art Institute of Chicago (Objekttext)",
+         "excerpt": "After a Flash Flood, Rancho Mirage, California, July 1979 is typical of photographs in that book, many replete with details that take time to register fully, such as the comparison between a more visible car that sits calmly parked and another, destroyed, that lies overturned and embedded in the underside of a largely beige-to-brown landscape. Sternfeld uses color here and often to add layers of emotional complexity to seemingly straightforward images.",
+         "kind": "museum",
+         "author": "Art Institute of Chicago",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "sternfeld-mclean-virginia",
+       "title": "McLean, Virginia, December 1978",
+       "year": 1978,
+       "location": "McLean, Virginia, USA",
+       "tags": [
+        "landschaft",
+        "farbe",
+        "erzählung",
+        "ironie"
+       ],
+       "source_url": "https://www.artic.edu/artworks/143119",
+       "image_url": "https://www.artic.edu/iiif/2/41ec7614-3519-e796-587c-0ca3532f510c/full/843,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://luhringaugustine.com/exhibitions/joel-sternfeld",
+         "title": "Joel Sternfeld: American Prospects and Before – Luhring Augustine (Pressemitteilung 2004)",
+         "excerpt": "If the contamination of paradise has often been Sternfeld's subject, he has likewise tainted the purity of photography in order to capture the condition of America. His shift from spontaneous snapshot to pre-determined picture-making helped open the gates for a new type of photography now practiced by Rineke Dijkstra, Andreas Gursky, Thomas Ruff, Thomas Struth, and Jeff Wall, among many others.",
+         "kind": "kurator",
+         "author": "Kerry Brougher",
+         "aspect": "rezeption",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "sternfeld-bear-lake",
+       "title": "Bear Lake, Utah",
+       "year": 1979,
+       "location": "Bear Lake, Utah, USA",
+       "tags": [
+        "landschaft",
+        "see",
+        "abendlicht",
+        "farbe"
+       ],
+       "source_url": "https://www.artic.edu/artworks/119395",
+       "image_url": "https://www.artic.edu/iiif/2/fee72fce-672a-bf12-7bf0-55e5d4d2ec9d/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "sternfeld-lake-oswego",
+       "title": "Lake Oswego, Oregon",
+       "year": 1979,
+       "location": "Lake Oswego, Oregon, USA",
+       "tags": [
+        "vorstadt",
+        "farbe",
+        "spuren des menschen",
+        "wetter"
+       ],
+       "source_url": "https://www.artic.edu/artworks/119399",
+       "image_url": "https://www.artic.edu/iiif/2/5ef90dfc-d043-ebba-d1b4-0956ecb51819/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "sternfeld-potato-harvest",
+       "title": "Potato Harvest, Aroostook County, Maine",
+       "year": 1982,
+       "location": "Aroostook County, Maine, USA",
+       "tags": [
+        "feld",
+        "farbe",
+        "bewölkt",
+        "figur"
+       ],
+       "source_url": "https://www.artic.edu/artworks/127877",
+       "image_url": "https://www.artic.edu/iiif/2/839b4072-e751-2908-1323-1da5d9350d5d/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "sternfeld-abandoned-freighter",
+       "title": "Abandoned Freighter, Homer, Alaska",
+       "year": 1984,
+       "location": "Homer, Alaska, USA",
+       "tags": [
+        "küste",
+        "schiff",
+        "farbe",
+        "stille"
+       ],
+       "source_url": "https://www.artic.edu/artworks/143087",
+       "image_url": "https://www.artic.edu/iiif/2/68517623-a2b1-0436-32e4-5e94ba2f6bab/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "sternfeld-after-a-tornado",
+       "title": "After a Tornado, Grand Island, Nebraska",
+       "year": 1980,
+       "location": "Grand Island, Nebraska, USA",
+       "tags": [
+        "zerstörung",
+        "farbe",
+        "spuren des menschen",
+        "erzählung"
+       ],
+       "source_url": "https://www.artic.edu/artworks/143098",
+       "image_url": "https://www.artic.edu/iiif/2/16d53c0c-2126-3e33-85cd-e5a3140cba06/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "sternfeld-blacks-beach",
+       "title": "Black's Beach, La Jolla, California",
+       "year": 1979,
+       "location": "La Jolla, Kalifornien, USA",
+       "tags": [
+        "küste",
+        "klippe",
+        "farbe",
+        "licht"
+       ],
+       "source_url": "https://www.artic.edu/artworks/143112",
+       "image_url": "https://www.artic.edu/iiif/2/c16ae9b1-0bb2-7321-90bb-9134d95fdb0b/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "sternfeld-sperm-whales",
+       "title": "Approximately 17 of 41 Sperm Whales Which Beached and Subsequently Died, Florence, Oregon",
+       "year": 1979,
+       "location": "Florence, Oregon, USA",
+       "tags": [
+        "strand",
+        "erzählung",
+        "farbe",
+        "distanz"
+       ],
+       "source_url": "https://www.artic.edu/artworks/143118",
+       "image_url": "https://www.artic.edu/iiif/2/1e9812e7-bfd9-bab5-13bc-663e8c0bb5f2/full/843,/0/default.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "epstein",
+   "name": "Mitch Epstein",
+   "born": 1952,
+   "sources": [
+    {
+     "url": "https://zandergalerie.com/artists/mitch-epstein/",
+     "title": "Mitch Epstein – Zander Galerie (Biografie)",
+     "excerpt": "Mitch Epstein (born 1952, Holyoke, Massachusetts) is a photographer who helped pioneer fine-art color photography in the 1970s, along with William Eggleston, Joel Meyerowitz and Stephen Shore. Epstein’s work investigates the politics of human intimacy and how intimacy interacts with the world at large, while also examining how corporate and governmental power is changing the landscape in which we live."
+    },
+    {
+     "url": "https://prix.pictet.com/cycles/growth/mitch-epstein",
+     "title": "American Power – Prix Pictet (Artist Statement, Zyklus „Growth“)",
+     "excerpt": "Mitch Epstein is a filmmaker and photographer. He studied at the Cooper Union, New York, Rhode Island School of Design and Union College, New York. After a time spent working abroad, Epstein returned to America and began photographing his native country."
+    },
+    {
+     "url": "https://www.foto8.com/live/mitch-epstein-interview/",
+     "title": "Mitch Epstein Interview – FOTO8 (Guy Lane, 29.09.2009)",
+     "excerpt": "Photography allows and encourages me to make pictures that are multi-tiered. The challenge for me is to create layers in one photograph. I am not interested in playing only a single note. At their best, these layered pictures point to the contradictions at play in the world."
+    },
+    {
+     "url": "https://www.foto8.com/live/mitch-epstein-interview/",
+     "title": "Mitch Epstein Interview – FOTO8 (Guy Lane, 29.09.2009)",
+     "excerpt": "I don’t think consciously about anything when I‘m taking pictures – in a way, I’m trying to tap into my unconscious."
+    }
+   ],
+   "projects": [
+    {
+     "key": "epstein-american-power",
+     "title": "American Power",
+     "year_from": 2003,
+     "year_to": 2008,
+     "sources": [
+      {
+       "url": "https://mitchepstein.net/american-power-intro",
+       "title": "American Power – mitchepstein.net",
+       "excerpt": "American Power examines how energy is produced and used in the United States, and how it influences American lives. Made at production sites and their environs, these pictures question the powers of nature, government, corporations, and mass consumption, as well as the power of looking."
+      },
+      {
+       "url": "https://prix.pictet.com/cycles/growth/mitch-epstein",
+       "title": "American Power – Prix Pictet (Artist Statement, Zyklus „Growth“)",
+       "excerpt": "To further examine the role of energy in the United States, I embarked on a five-year-long, twenty-five-state project called American Power."
+      },
+      {
+       "url": "https://www.foto8.com/live/mitch-epstein-interview/",
+       "title": "Mitch Epstein Interview – FOTO8 (Guy Lane, 29.09.2009)",
+       "excerpt": "Using a large format camera I was very visible – I mean it’s a commitment in itself – but I had to question whether or not it would be worth the risk of the whole process of interrogation, of being asked to leave, and of not being able to follow through on something. In a way there was a pervasive anxiety and uncertainty, or stress, that I carried with me which I think infused the pictures with a kind of gravity and tension."
+      },
+      {
+       "url": "https://steidl.de/Books/American-Power-2328344145.html",
+       "title": "American Power – Steidl Verlag (Buchseite)",
+       "excerpt": "From 2003 to 2008, he photographed at and around sites where fossil fuel, nuclear, hydroelectric, wind, and solar power are produced in the United States. The resulting photographs contain Epstein’s signature complex wit, surprising detail, and formal rigor. These pictures illuminate the intersection between American society and American landscape."
+      }
+     ],
+     "images": [
+      {
+       "key": "epstein-gavin-coal-power-plant",
+       "title": "Gavin Coal Power Plant, Cheshire, Ohio",
+       "year": 2003,
+       "location": "Cheshire, Ohio, USA",
+       "tags": [
+        "industrie",
+        "energie",
+        "rauch",
+        "farbe"
+       ],
+       "source_url": "https://mitchepstein.net/american-power",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5e8d10b21b814c618e87a227/1770230201143-UY5JQCXB8CPG8DLMJ9VB/9-Mitch+Epstein-Gavin+Coal+Power+Plant%2C+Cheshire%2C+Ohio+2003.jpg",
+       "sources": [
+        {
+         "url": "https://www.foto8.com/live/mitch-epstein-interview/",
+         "title": "Mitch Epstein Interview – FOTO8 (Guy Lane, 29.09.2009)",
+         "excerpt": "In 2003 I was commissioned to make pictures for a story about Cheshire, Ohio. The town sat in the shadow of one of the largest coal-fired power plants in the United States — owned by American Electric Power.",
+         "kind": "fotograf",
+         "author": "Mitch Epstein",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "epstein-cheshire-ohio-2004",
+       "title": "Cheshire, Ohio",
+       "year": 2004,
+       "location": "Cheshire, Ohio, USA",
+       "tags": [
+        "industrie",
+        "haus",
+        "spuren des menschen",
+        "erzählung"
+       ],
+       "source_url": "https://mitchepstein.net/american-power",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5e8d10b21b814c618e87a227/1770230207124-63YIDVVLTY2F1VXHXHYF/10-Mitch+Epstein-Cheshire%2C+Ohio+2004.jpg",
+       "sources": [
+        {
+         "url": "https://prix.pictet.com/cycles/growth/mitch-epstein",
+         "title": "American Power – Prix Pictet (Artist Statement, Zyklus „Growth“)",
+         "excerpt": "In 2003, I was asked to photograph the erasure of a small town in Ohio. In Cheshire, houses were being razed by the hour and the streets were nearly emptied of human life. American Electric Power, one of the world’s largest utility companies, had bought out the town and instituted a gag order after increasing complaints that AEP’s plant had contaminated the health of Cheshire’s citizens. I was not the same after this trip.",
+         "kind": "fotograf",
+         "author": "Mitch Epstein",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "epstein-poca-high-school-amos",
+       "title": "Poca High School and Amos Coal Power Plant, West Virginia",
+       "year": 2004,
+       "location": "Poca, West Virginia, USA",
+       "tags": [
+        "industrie",
+        "energie",
+        "alltag",
+        "farbe"
+       ],
+       "source_url": "https://mitchepstein.net/american-power",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5e8d10b21b814c618e87a227/1770230189387-9QQ0J95L1J5H6FF42PUO/4-Mitch+Epstein-Poca+High+School+and+Amos+Coal+Power+Plant%2C+West+Virginia+2004.jpg",
+       "sources": []
+      },
+      {
+       "key": "epstein-hoover-dam",
+       "title": "Hoover Dam and Lake Mead, Nevada/Arizona",
+       "year": 2007,
+       "location": "Nevada/Arizona, USA",
+       "tags": [
+        "wasserkraft",
+        "landschaft",
+        "spuren des menschen",
+        "abendlicht"
+       ],
+       "source_url": "https://mitchepstein.net/american-power",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5e8d10b21b814c618e87a227/1770230184420-PLFNJ776PT5F2M5XLF6I/2-Mitch+Epstein-Hoover+Dam+and+Lake+Mead%2C+Nevada_Arizona+2007.jpg",
+       "sources": []
+      },
+      {
+       "key": "epstein-bp-carson-refinery",
+       "title": "BP Carson Refinery, California",
+       "year": 2007,
+       "location": "Carson, Kalifornien, USA",
+       "tags": [
+        "industrie",
+        "energie",
+        "symbol",
+        "farbe"
+       ],
+       "source_url": "https://mitchepstein.net/american-power",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5e8d10b21b814c618e87a227/1770230184055-CMLL22NUQX7RIZRTL874/3-Mitch+Epstein-BP+Carson+Refinery%2C+California+2007.jpg",
+       "sources": []
+      },
+      {
+       "key": "epstein-chalmette-refinery",
+       "title": "Chalmette Oil Refinery, New Orleans, Louisiana II",
+       "year": 2007,
+       "location": "New Orleans, Louisiana, USA",
+       "tags": [
+        "bäume",
+        "industrie",
+        "zentralperspektive",
+        "farbe"
+       ],
+       "source_url": "https://mitchepstein.net/american-power",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5e8d10b21b814c618e87a227/1770230190399-OHRHO69LYHWV3XQI1QMK/5-Mitch+Epstein-Chalmette+Oil+Refinery%2C+New+Orleans%2C+Louisiana+II+2007.jpg",
+       "sources": []
+      },
+      {
+       "key": "epstein-ocean-warwick-platform",
+       "title": "Ocean Warwick Oil Platform, Dauphin Island, Alabama",
+       "year": 2005,
+       "location": "Dauphin Island, Alabama, USA",
+       "tags": [
+        "küste",
+        "industrie",
+        "spiegelung",
+        "dämmerung"
+       ],
+       "source_url": "https://mitchepstein.net/american-power",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5e8d10b21b814c618e87a227/1770230193951-CGWRRDMKR5LLOPMQDOLJ/6-Mitch+Epstein-Ocean+Warwick+Oil+Platform%2C+Dauphin+Island%2C+Alabama+2005.jpg",
+       "sources": []
+      },
+      {
+       "key": "epstein-biloxi-2005",
+       "title": "Biloxi, Mississippi",
+       "year": 2005,
+       "location": "Biloxi, Mississippi, USA",
+       "tags": [
+        "zerstörung",
+        "baum",
+        "klima",
+        "farbe"
+       ],
+       "source_url": "https://mitchepstein.net/american-power",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5e8d10b21b814c618e87a227/1770230198426-YTOAFPJEPESVIAZFBFFQ/7-Mitch+Epstein-Biloxi%2C+Mississippi+2005.jpg",
+       "sources": [
+        {
+         "url": "https://www.foto8.com/live/mitch-epstein-interview/",
+         "title": "Mitch Epstein Interview – FOTO8 (Guy Lane, 29.09.2009)",
+         "excerpt": "But Hurricane Katrina came along, which became an important opportunity to witness how both industry and community were impacted by the wrath of nature–a wrath that environmentalists believe was more severe due to climate change. Not to mention the government’s ill-planning.",
+         "kind": "fotograf",
+         "author": "Mitch Epstein",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "epstein-century-wind-project",
+       "title": "Century Wind Project, Blairsburg, Iowa",
+       "year": 2008,
+       "location": "Blairsburg, Iowa, USA",
+       "tags": [
+        "windkraft",
+        "erhöhter standpunkt",
+        "kulturlandschaft",
+        "farbe"
+       ],
+       "source_url": "https://mitchepstein.net/american-power",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5e8d10b21b814c618e87a227/1770230215782-QTKFGBYT2UB0S16RAZDT/15-Mitch+Epstein-Century+Wind+Project%2C+Blairsburg%2C+Iowa+2008.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "salgado",
+   "name": "Sebastião Salgado",
+   "born": 1944,
+   "died": 2025,
+   "sources": [
+    {
+     "url": "https://www.sundaramtagore.com/artists/sebastiao-salgado",
+     "title": "Sebastião Salgado – Sundaram Tagore Gallery (Biografie)",
+     "excerpt": "Sebastião Salgado (1944 – 2025) was a Brazilian-born photographer and artist-activist based in Paris. He made it his life’s work to document the impact of globalization on humankind."
+    },
+    {
+     "url": "https://www.sundaramtagore.com/artists/sebastiao-salgado",
+     "title": "Sebastião Salgado – Sundaram Tagore Gallery (Biografie)",
+     "excerpt": "In 1963, Salgado moved to São Paulo and trained as an economist. It was not until the early 1970s, after his wife, Lélia Wanick Salgado, loaned him a camera, that he embarked on a career as a photographer, eventually relocating to France."
+    },
+    {
+     "url": "https://www.sundaramtagore.com/artists/sebastiao-salgado",
+     "title": "Sebastião Salgado – Sundaram Tagore Gallery (Biografie)",
+     "excerpt": "Breaking down barriers, he lived with his subjects for weeks, immersing himself in their environments. He saw himself as a participant entering their story. Salgado described this approach as photographing from inside the circle."
+    },
+    {
+     "url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-landscapes-2004-2018",
+     "title": "Sebastião Salgado: Landscapes, 2004 – 2018 – Sundaram Tagore Gallery (Ausstellungstext)",
+     "excerpt": "Having studied economics, Salgado began his career as a professional photographer in 1973 in Paris. He worked with various agencies including Magnum Photos until 1994, when he and Lélia Wanick Salgado formed Amazonas Images, created exclusively for his work."
+    }
+   ],
+   "projects": [
+    {
+     "key": "salgado-genesis",
+     "title": "Genesis",
+     "year_from": 2004,
+     "year_to": 2011,
+     "sources": [
+      {
+       "url": "https://www.icp.org/exhibitions/sebastiao-salgado-genesis",
+       "title": "Sebastião Salgado: Genesis – International Center of Photography (Ausstellung 2014/15)",
+       "excerpt": "Salgado’s quest to capture nature in its original state began in 2004. During his travels across the globe, he documented arctic and desert landscapes, tropical rainforests, marine and other wildlife, and communities still living according to ancestral traditions."
+      },
+      {
+       "url": "https://www.icp.org/exhibitions/sebastiao-salgado-genesis",
+       "title": "Sebastião Salgado: Genesis – International Center of Photography (Ausstellung 2014/15)",
+       "excerpt": "“Genesis is a quest for the world as it was, as it was formed, as it evolved, as it existed for millennia before modern life accelerated and began distancing us from the very essence of our being,” said Lélia Wanick Salgado. “It is testimony that our planet still harbors vast and remote regions where nature reigns in silent and pristine majesty.”"
+      },
+      {
+       "url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-landscapes-2004-2018",
+       "title": "Sebastião Salgado: Landscapes, 2004 – 2018 – Sundaram Tagore Gallery (Ausstellungstext)",
+       "excerpt": "Salgado skillfully captures vast and remote realities where nature endures as it existed thousands of years ago. With deeply compelling narratives, these works may be photojournalistic in nature, but technically and compositionally, they stand on their own as masterful works of art."
+      },
+      {
+       "url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-landscapes-2004-2018",
+       "title": "Sebastião Salgado: Landscapes, 2004 – 2018 – Sundaram Tagore Gallery (Ausstellungstext)",
+       "excerpt": "Eight years in the making, Salgado calls Genesis his “love letter to the planet.”"
+      }
+     ],
+     "images": [
+      {
+       "key": "salgado-genesis-brooks-range",
+       "title": "The Eastern Part of the Brooks Range, Arctic National Wildlife Refuge",
+       "year": 2009,
+       "location": "Arctic National Wildlife Refuge, Alaska, USA",
+       "tags": [
+        "schwarzweiß",
+        "gebirge",
+        "fluss",
+        "luftbild"
+       ],
+       "source_url": "https://www.sundaramtagore.com/artists/sebastiao-salgado/featured-works?view=slider",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/575562f5cfaf34762c8b4568/be1812d16de87d50aa9adaab8bf5f4a5.jpeg",
+       "sources": [
+        {
+         "url": "https://www.icp.org/exhibitions/sebastiao-salgado-genesis",
+         "title": "Sebastião Salgado: Genesis – International Center of Photography (Ausstellung 2014/15)",
+         "excerpt": "So many times I've photographed stories that show the degradation of the planet. I had one idea to go and photograph the factories that were polluting, and to see all the deposits of garbage. But, in the end, I thought the only way to give us an incentive, to bring hope, is to show the pictures of the pristine planet - to see the innocence.",
+         "kind": "fotograf",
+         "author": "Sebastião Salgado",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "salgado-genesis-iceberg-paulet",
+       "title": "Iceberg between Paulet Island and the South Shetland Islands",
+       "year": 2005,
+       "location": "Weddellmeer, Antarktische Halbinsel",
+       "tags": [
+        "schwarzweiß",
+        "eis",
+        "meer",
+        "wolken"
+       ],
+       "source_url": "https://www.sundaramtagore.com/artists/sebastiao-salgado/featured-works?view=slider",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/575562f5cfaf34762c8b4568/0f96ff91a356830028c331e8c53bb747.jpg",
+       "sources": [
+        {
+         "url": "https://www.icp.org/exhibitions/sebastiao-salgado-genesis",
+         "title": "Sebastião Salgado: Genesis – International Center of Photography (Ausstellung 2014/15)",
+         "excerpt": "At sea level, earlier flotation levels are clearly visible where the ice has been polished by the oceans constant movement. High above, a shape resembling a castle tower has been carved by wind erosion and detached pieces of ice.",
+         "kind": "museum",
+         "author": "International Center of Photography",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "salgado-genesis-iceberg-weddell",
+       "title": "Iceberg moving on the Weddell Sea",
+       "year": 2005,
+       "location": "Antarktische Halbinsel",
+       "tags": [
+        "schwarzweiß",
+        "eis",
+        "meer",
+        "form"
+       ],
+       "source_url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-artist-activist/selected-works?view=slider",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/575562f5cfaf34762c8b4568/1b3a32d9e1ece7bce546a3f5e7db75ac.jpeg",
+       "sources": []
+      },
+      {
+       "key": "salgado-genesis-chinstrap-penguins",
+       "title": "Chinstrap penguins on an iceberg, between Zavodovski and Visokoi islands",
+       "year": 2009,
+       "location": "Südliche Sandwichinseln",
+       "tags": [
+        "schwarzweiß",
+        "eis",
+        "tiere",
+        "maßstab"
+       ],
+       "source_url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-artist-activist/selected-works?view=slider",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/575562f5cfaf34762c8b4568/14efe94f89fc8ff735ef81744e944c5b.jpeg",
+       "sources": []
+      },
+      {
+       "key": "salgado-genesis-bryce-canyon",
+       "title": "Bryce Canyon National Park during a snowstorm",
+       "year": 2010,
+       "location": "Bryce Canyon National Park, Utah, USA",
+       "tags": [
+        "schwarzweiß",
+        "canyon",
+        "schnee",
+        "wetter"
+       ],
+       "source_url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-artist-activist/selected-works?view=slider",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/575562f5cfaf34762c8b4568/3df248f816da929eecba7e2466c0e7e8.jpeg",
+       "sources": []
+      },
+      {
+       "key": "salgado-genesis-ili-dama-dunes",
+       "title": "Sand dunes in Ili Dama, Tadrart",
+       "year": 2009,
+       "location": "Tadrart, südlich von Djanet, Algerien",
+       "tags": [
+        "schwarzweiß",
+        "wüste",
+        "dünen",
+        "streiflicht"
+       ],
+       "source_url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-artist-activist/selected-works?view=slider",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/575562f5cfaf34762c8b4568/4e24ca77891e637872481ca1d7339f5a.jpeg",
+       "sources": []
+      },
+      {
+       "key": "salgado-genesis-adansonia",
+       "title": "Adansonia Grandidieri",
+       "year": 2010,
+       "tags": [
+        "schwarzweiß",
+        "wald",
+        "baobab",
+        "muster"
+       ],
+       "source_url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-artist-activist/selected-works?view=slider",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/575562f5cfaf34762c8b4568/a4745bc5d5480cef41d0fd2819d7c252.jpeg",
+       "sources": []
+      },
+      {
+       "key": "salgado-genesis-pachypodium",
+       "title": "Pachypodium Plant, Andohahela National Park",
+       "year": 2010,
+       "location": "Andohahela National Park, Madagaskar",
+       "tags": [
+        "schwarzweiß",
+        "pflanze",
+        "untersicht",
+        "form"
+       ],
+       "source_url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-selections-from-genesis/selected-works?view=slider",
+       "image_url": "https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/575562f5cfaf34762c8b4568/035f9842f76f5283e4b06b2b716977ca.jpeg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "lanting",
+   "name": "Frans Lanting",
+   "sources": [
+    {
+     "url": "https://lanting.com/frans-lanting/",
+     "title": "About Frans Lanting – lanting.com",
+     "excerpt": "Born in Rotterdam, the Netherlands, he earned a master’s degree in economics then moved to the United States to study environmental planning. Soon after, he began photographing the natural world–and never turned back."
+    },
+    {
+     "url": "https://lanting.com/frans-lanting/",
+     "title": "About Frans Lanting – lanting.com",
+     "excerpt": "For three decades he has documented wildlife from the Amazon to Antarctica to promote understanding about the Earth and its natural history through images that convey a passion for nature and a sense of wonder and concern about our living planet."
+    },
+    {
+     "url": "https://lanting.com/frans-lanting/",
+     "title": "About Frans Lanting – lanting.com (Zitat Thomas Kennedy)",
+     "excerpt": "“As a chronicler of natural history today, Frans Lanting is a singular, extraordinary talent,” says Thomas Kennedy, former Director of Photography at National Geographic. “He has the mind of a scientist, the heart of a hunter, and the eyes of a poet.”"
+    },
+    {
+     "url": "https://lanting.com/frans-lanting/",
+     "title": "About Frans Lanting – lanting.com",
+     "excerpt": "Lanting’s work has been commissioned frequently by National Geographic, where he served as a Photographer-in-Residence."
+    }
+   ],
+   "projects": [
+    {
+     "key": "lanting-life",
+     "title": "LIFE: A Journey Through Time",
+     "year_from": 2006,
+     "year_to": 2006,
+     "sources": [
+      {
+       "url": "https://lanting.com/projects/life-a-journey-through-time/",
+       "title": "LIFE: A Journey Through Time – lanting.com (Projektseite)",
+       "excerpt": "LIFE: A Journey Through Time presents a vision of life on Earth from the Big Bang to the present. For this project Lanting set off on a journey of photographic discovery that paralleled new scientific insights about the history of life."
+      },
+      {
+       "url": "https://lanting.com/projects/life-a-journey-through-time/",
+       "title": "LIFE: A Journey Through Time – lanting.com (Projektseite)",
+       "excerpt": "“LIFE is a synthesis of my career. I started out as a wildlife photographer pursuing animals one at a time. As I learned more about their lives, my view grew to include their habitats, and animals became ambassadors for ecosystems. Biodiversity superseded ecosystems as a concept for understanding nature as a network made up of untold numbers of species. Yet every one of those living organisms has a unique origin in time, and that is the dimension I have attempted to convey in this project."
+      },
+      {
+       "url": "https://lanting.com/projects/life-a-journey-through-time/",
+       "title": "LIFE: A Journey Through Time – lanting.com (Projektseite)",
+       "excerpt": "Each of Lanting’s images was conceived and produced to provide a window in time, enabling viewers to imagine what planet Earth looked like in different eras, as new forms of life evolved."
+      },
+      {
+       "url": "https://lanting.com/frans-lanting/",
+       "title": "About Frans Lanting – lanting.com",
+       "excerpt": "LIFE: A Journey Through Time is Lanting’s lyrical interpretation of the history of life on Earth from the Big Bang to the present. The LIFE Project was launched as a book, an exhibition, and a multimedia symphony with music by Philip Glass."
+      }
+     ],
+     "images": [
+      {
+       "key": "lanting-life-stromatolites",
+       "title": "Stromatolites at dawn",
+       "location": "Shark Bay, Western Australia",
+       "tags": [
+        "küste",
+        "morgenlicht",
+        "langzeitbelichtung",
+        "erdgeschichte"
+       ],
+       "source_url": "https://lanting.com/images/portfolios/life-a-journey-through-time/",
+       "image_url": "https://lanting.com/wp-content/uploads/Lanting_Stromatolites_Dawn_000631-01.jpg",
+       "sources": [
+        {
+         "url": "https://lanting.com/projects/life-a-journey-through-time/",
+         "title": "LIFE: A Journey Through Time – lanting.com (Projektseite)",
+         "excerpt": "Each of Lanting’s photographs was envisioned to provide a window in time, enabling viewers to imagine what planet Earth looked like in different eras, as new forms of life arose.",
+         "kind": "fotograf",
+         "author": "Frans Lanting Studio",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "lanting-life-banded-iron",
+       "title": "Banded iron",
+       "location": "Hammersley Range, Australien",
+       "tags": [
+        "gestein",
+        "detail",
+        "muster",
+        "erdgeschichte"
+       ],
+       "source_url": "https://lanting.com/images/portfolios/life-a-journey-through-time/",
+       "image_url": "https://lanting.com/wp-content/uploads/Lanting_Banded_Iron_010570-01-1.jpg",
+       "sources": []
+      },
+      {
+       "key": "lanting-life-volcano-dawn",
+       "title": "Volcano at dawn",
+       "location": "Hawaii Volcanoes National Park, Hawaii, USA",
+       "tags": [
+        "vulkan",
+        "morgenlicht",
+        "dunst",
+        "erdgeschichte"
+       ],
+       "source_url": "https://lanting.com/images/portfolios/life-a-journey-through-time/",
+       "image_url": "https://lanting.com/wp-content/uploads/Lanting_Volcano_Dawn_004415-01.jpg",
+       "sources": []
+      },
+      {
+       "key": "lanting-life-lava-river",
+       "title": "Lava river",
+       "location": "Hawaii Volcanoes National Park, Hawaii, USA",
+       "tags": [
+        "lava",
+        "nacht",
+        "abstraktion",
+        "farbe"
+       ],
+       "source_url": "https://lanting.com/images/portfolios/life-a-journey-through-time/",
+       "image_url": "https://lanting.com/wp-content/uploads/Lanting_Lava_River_010216-01.jpg",
+       "sources": []
+      },
+      {
+       "key": "lanting-life-puu-oo",
+       "title": "Lava overflowing caldera of Pu'u 'O'o",
+       "location": "Hawaii Volcanoes National Park, Hawaii, USA",
+       "tags": [
+        "lava",
+        "vulkan",
+        "wolken",
+        "farbe"
+       ],
+       "source_url": "https://lanting.com/images/portfolios/life-a-journey-through-time/",
+       "image_url": "https://lanting.com/wp-content/uploads/Lanting_Lava_010199-01.jpg",
+       "sources": []
+      },
+      {
+       "key": "lanting-life-mineral-terraces",
+       "title": "Moonrise over mineral terraces",
+       "location": "Yellowstone National Park, Wyoming, USA",
+       "tags": [
+        "sinterterrassen",
+        "mond",
+        "struktur",
+        "nationalpark"
+       ],
+       "source_url": "https://lanting.com/images/portfolios/life-a-journey-through-time/",
+       "image_url": "https://lanting.com/wp-content/uploads/Lanting_Moonrise_Mineral_Terraces_009713-01.jpg",
+       "sources": []
+      },
+      {
+       "key": "lanting-life-geyser-dawn",
+       "title": "Geyser at dawn",
+       "location": "Nevada, USA",
+       "tags": [
+        "geysir",
+        "gegenlicht",
+        "morgenlicht",
+        "farbe"
+       ],
+       "source_url": "https://lanting.com/images/portfolios/life-a-journey-through-time/",
+       "image_url": "https://lanting.com/wp-content/uploads/009725-01.jpg",
+       "sources": []
+      },
+      {
+       "key": "lanting-life-grand-prismatic",
+       "title": "Grand Prismatic Spring",
+       "location": "Yellowstone National Park, Wyoming, USA",
+       "tags": [
+        "luftbild",
+        "farbe",
+        "thermalquelle",
+        "nationalpark"
+       ],
+       "source_url": "https://lanting.com/images/portfolios/life-a-journey-through-time/",
+       "image_url": "https://lanting.com/wp-content/uploads/Lanting_Grand_Prismatic_Spring_007079-01-1.jpg",
+       "sources": []
+      },
+      {
+       "key": "lanting-life-quiver-trees",
+       "title": "Quiver trees",
+       "location": "Richtersveld National Park, Südafrika",
+       "tags": [
+        "bäume",
+        "wüste",
+        "farbe",
+        "streiflicht"
+       ],
+       "source_url": "https://lanting.com/images/portfolios/life-a-journey-through-time/",
+       "image_url": "https://lanting.com/wp-content/uploads/Lanting_Quiver_Trees_008479-01a.jpg",
+       "sources": []
+      },
+      {
+       "key": "lanting-life-silversword",
+       "title": "Silversword at sunset",
+       "location": "Mauna Kea, Hawaii, USA",
+       "tags": [
+        "pflanze",
+        "gegenlicht",
+        "abendlicht",
+        "vordergrund"
+       ],
+       "source_url": "https://lanting.com/images/portfolios/life-a-journey-through-time/",
+       "image_url": "https://lanting.com/wp-content/uploads/Lanting_Silversword_Sunset_004438-01.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 12,
+   "title": "Landschaftsfotografie: vom Erhabenen zur intimen Landschaft",
+   "period_from": 1850,
+   "period_to": 2025,
+   "sources": [],
+   "key_images": [
+    "fontana-puglia-1978",
+    "fontana-untitled-1978-ngv",
+    "haas-creation-sulfur-landscape",
+    "haas-creation-surtsey",
+    "wolfe-eye-of-the-mountain",
+    "wolfe-dolomites",
+    "dykinga-cape-royal-sunset-rays",
+    "dykinga-matkatamiba-narrows",
+    "sternfeld-after-a-flash-flood",
+    "sternfeld-mclean-virginia",
+    "epstein-hoover-dam",
+    "epstein-gavin-coal-power-plant",
+    "salgado-genesis-brooks-range",
+    "salgado-genesis-iceberg-paulet",
+    "lanting-life-stromatolites",
+    "lanting-life-volcano-dawn"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Neue Topografie: Landschaft mit Spuren des Menschen",
+   "sources": [],
+   "key_images": [
+    "sternfeld-after-a-flash-flood",
+    "sternfeld-lake-oswego",
+    "epstein-cheshire-ohio-2004"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Natur und Tiere: von der Expedition zur Naturschutzfotografie",
+   "sources": [],
+   "key_images": [
+    "haas-creation-aerial-flamingos",
+    "wolfe-yunnan-rice-terraces",
+    "dykinga-point-sublime-agaves",
+    "salgado-genesis-chinstrap-penguins",
+    "salgado-genesis-brooks-range",
+    "lanting-life-stromatolites",
+    "lanting-life-quiver-trees"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Zeitgenössische Landschaft: Mensch, Industrie, Klima",
+   "sources": [],
+   "key_images": [
+    "epstein-gavin-coal-power-plant",
+    "epstein-biloxi-2005",
+    "epstein-century-wind-project",
+    "sternfeld-after-a-tornado"
+   ]
+  }
+ ]
+}
