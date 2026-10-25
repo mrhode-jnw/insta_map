@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 262" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- two frames: same ridges, light against the camera vs. light from behind -->
+  <text x="90" y="16" text-anchor="middle" class="h">Gegenlicht + Dunst</text>
+  <text x="270" y="16" text-anchor="middle" class="h">Sonne im Rücken</text>
+  <g stroke="none">
+    <rect x="10" y="26" width="160" height="100" fill="#f1ece2"/>
+    <circle cx="122" cy="50" r="9" fill="#f3d27a"/>
+    <path d="M10 64 Q40 50 70 60 T130 54 T170 58 V126 H10Z" fill="#dcd8d0"/>
+    <path d="M10 78 Q50 64 90 74 T170 70 V126 H10Z" fill="#bbb7af"/>
+    <path d="M10 90 Q30 80 60 88 T120 84 T170 92 V126 H10Z" fill="#8f8b84"/>
+    <path d="M10 102 Q70 92 110 102 T170 100 V126 H10Z" fill="#5c5955"/>
+    <path d="M10 114 Q50 106 90 116 T170 112 V126 H10Z" fill="#262524"/>
+
+    <rect x="190" y="26" width="160" height="100" fill="#8fb0d0"/>
+    <path d="M190 64 Q220 50 250 60 T310 54 T350 58 V126 H190Z" fill="#6f8070"/>
+    <path d="M190 78 Q230 64 270 74 T350 70 V126 H190Z" fill="#617463"/>
+    <path d="M190 90 Q210 80 240 88 T300 84 T350 92 V126 H190Z" fill="#566a56"/>
+    <path d="M190 102 Q250 92 290 102 T350 100 V126 H190Z" fill="#4a5e49"/>
+    <path d="M190 114 Q230 106 270 116 T350 112 V126 H190Z" fill="#33432f"/>
+  </g>
+  <rect x="10" y="26" width="160" height="100"/>
+  <rect x="190" y="26" width="160" height="100"/>
+
+  <!-- side views: where is the sun? -->
+  <line x1="10" y1="196" x2="170" y2="196" class="m"/>
+  <path d="M50 196 Q62 180 74 196 M80 196 Q96 174 112 196 M118 196 Q136 168 154 196" class="m"/>
+  <rect x="16" y="186" width="10" height="7" class="af" stroke="none"/>
+  <line x1="27" y1="189" x2="128" y2="158" class="a" stroke-dasharray="3 3"/>
+  <circle cx="136" cy="154" r="6" class="a"/>
+  <path d="M136 142 v-4 M148 154 h4 M144 146 l3 -3 M128 146 l-3 -3" class="a"/>
+
+  <line x1="190" y1="196" x2="350" y2="196" class="m"/>
+  <path d="M250 196 Q262 180 274 196 M280 196 Q296 174 312 196 M318 196 Q336 168 354 196" class="m"/>
+  <rect x="222" y="186" width="10" height="7" class="af" stroke="none"/>
+  <line x1="233" y1="189" x2="340" y2="182" class="m" stroke-dasharray="3 3"/>
+  <circle cx="206" cy="160" r="6" class="a"/>
+  <path d="M206 148 v-4 M194 160 h-4 M198 152 l-3 -3 M214 152 l3 -3" class="a"/>
+  <path d="M214 166 L262 182" class="a"/><path d="M255 184 L262 182 L257 176" class="a"/>
+
+  <text x="90" y="218" text-anchor="middle" class="m">jeder Grat heller:</text>
+  <text x="90" y="232" text-anchor="middle" class="m">Stufen = Raum</text>
+  <text x="270" y="218" text-anchor="middle" class="m">Grate fast gleich,</text>
+  <text x="270" y="232" text-anchor="middle" class="m">Raum wird flach</text>
+  <rect x="140" y="246" width="9" height="6" class="af" stroke="none"/><text x="154" y="253" class="m">= Kamera</text>
+</svg>

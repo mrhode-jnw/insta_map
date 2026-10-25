@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Ein Tag an einem Ort</text>
+  <line x1="20" y1="150" x2="344" y2="150" class="m"/>
+  <path d="M338 145 l6 5 l-6 5" class="m"/>
+  <line x1="20" y1="150" x2="20" y2="30" class="m"/>
+  <text x="26" y="34" class="m">Ereignis</text>
+  <text x="344" y="166" text-anchor="end" class="m">Zeit</text>
+  <path d="M20 140 Q50 138 70 120 Q86 52 100 52 Q114 52 128 120 Q150 142 190 140 Q230 138 250 132 Q270 70 282 70 Q294 70 306 132 Q324 140 344 140" class="a" stroke-width="2"/>
+  <!-- many cameras at the peaks -->
+  <g stroke="none" class="af">
+    <rect x="80" y="36" width="8" height="5"/><rect x="92" y="32" width="8" height="5"/><rect x="104" y="34" width="8" height="5"/><rect x="114" y="40" width="8" height="5"/><rect x="86" y="42" width="8" height="5"/><rect x="100" y="42" width="8" height="5"/>
+    <rect x="270" y="54" width="8" height="5"/><rect x="282" y="52" width="8" height="5"/><rect x="290" y="58" width="8" height="5"/>
+  </g>
+  <text x="128" y="60" class="m">Festumzug</text>
+  <text x="282" y="44" text-anchor="middle" class="m">Sonnenuntergang</text>
+  <!-- one camera in the weak time -->
+  <rect x="180" y="124" width="10" height="7" class="af" stroke="none"/>
+  <circle cx="185" cy="128" r="12" class="a"/>
+  <text x="185" y="104" text-anchor="middle" class="a">schwache Zeit</text>
+  <text x="100" y="172" text-anchor="middle" class="m">alle fotografieren,</text>
+  <text x="100" y="186" text-anchor="middle" class="m">vorhersehbar</text>
+  <text x="200" y="172" text-anchor="start" class="m">Warten, leerer Platz:</text>
+  <text x="200" y="186" text-anchor="start" class="m">genau hinsehen</text>
+</svg>

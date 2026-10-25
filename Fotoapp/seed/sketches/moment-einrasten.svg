@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Fluss der Formen</text>
+  <path d="M120 12 H344 M338 7 l6 5 l-6 5" class="m"/>
+  <text x="232" y="30" text-anchor="middle" class="m">Zeit</text>
+  <!-- five frames: wall, lit gap, wall; figure walks left to right -->
+  <g>
+    <rect x="8" y="44" width="62" height="50"/><rect x="77" y="44" width="62" height="50"/><rect x="149" y="40" width="62" height="58" class="a" stroke-width="2.5"/><rect x="221" y="44" width="62" height="50"/><rect x="290" y="44" width="62" height="50"/>
+  </g>
+  <g stroke="none" class="mf" fill-opacity="0.55">
+    <rect x="9" y="45" width="24" height="48"/><rect x="45" y="45" width="24" height="48"/>
+    <rect x="78" y="45" width="24" height="48"/><rect x="114" y="45" width="24" height="48"/>
+    <rect x="150" y="41" width="24" height="56"/><rect x="186" y="41" width="24" height="56"/>
+    <rect x="222" y="45" width="24" height="48"/><rect x="258" y="45" width="24" height="48"/>
+    <rect x="291" y="45" width="24" height="48"/><rect x="327" y="45" width="24" height="48"/>
+  </g>
+  <!-- figures -->
+  <g>
+    <circle cx="20" cy="66" r="3"/><path d="M20 69 v12 M20 81 l-3 8 M20 81 l3 8"/>
+    <circle cx="98" cy="66" r="3"/><path d="M98 69 v12 M98 81 l-3 8 M98 81 l3 8"/>
+    <circle cx="180" cy="64" r="3.5" class="a"/><path d="M180 68 v14 M180 82 l-4 9 M180 82 l4 9 M180 72 l-5 5 M180 72 l5 5" class="a"/>
+    <circle cx="263" cy="66" r="3"/><path d="M263 69 v12 M263 81 l-3 8 M263 81 l3 8"/>
+    <circle cx="340" cy="66" r="3"/><path d="M340 69 v12 M340 81 l-3 8 M340 81 l3 8"/>
+  </g>
+  <text x="39" y="112" text-anchor="middle" class="m">noch in</text>
+  <text x="39" y="125" text-anchor="middle" class="m">der Wand</text>
+  <text x="108" y="112" text-anchor="middle" class="m">überdeckt</text>
+  <text x="108" y="125" text-anchor="middle" class="m">die Kante</text>
+  <text x="180" y="112" text-anchor="middle" class="a">Figur in</text>
+  <text x="180" y="125" text-anchor="middle" class="a">der Lücke</text>
+  <text x="252" y="112" text-anchor="middle" class="m">Lücke</text>
+  <text x="252" y="125" text-anchor="middle" class="m">wieder leer</text>
+  <text x="321" y="112" text-anchor="middle" class="m">vorbei</text>
+  <text x="180" y="156" text-anchor="middle" class="h">Das Bild rastet ein – ohne Ereignis:</text>
+  <text x="180" y="174" text-anchor="middle" class="m">Gleichgewicht, Klarheit, für einen Augenblick</text>
+</svg>

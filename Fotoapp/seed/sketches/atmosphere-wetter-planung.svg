@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 246" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Prognose am Vortag</text>
+  <text x="350" y="16" text-anchor="end" class="h">→ Standort</text>
+  <line x1="180" y1="26" x2="180" y2="240" class="m"/>
+  <line x1="10" y1="133" x2="350" y2="133" class="m"/>
+
+  <!-- 1 clear calm night: moon + valley fog -->
+  <path d="M34 44 a8 8 0 1 0 8 10 a6 6 0 1 1 -8 -10 Z" class="a"/>
+  <path d="M16 90 L32 70 L48 88 L64 72 L80 90" />
+  <path d="M18 88 Q48 82 78 88" class="m" stroke-dasharray="3 3"/>
+  <text x="92" y="50" class="h">klar, windstill</text>
+  <text x="92" y="66" class="m">Bodennebel</text>
+  <text x="92" y="80" class="m">wahrscheinlich</text>
+  <text x="92" y="104" class="a">Talblick</text>
+  <text x="92" y="118" class="a">von oben</text>
+
+  <!-- 2 haze: sun + horizontal veils -->
+  <circle cx="232" cy="56" r="8" class="a"/>
+  <path d="M196 78 h48 M200 86 h48 M196 94 h48" class="m"/>
+  <rect x="196" y="104" width="10" height="7" class="af" stroke="none"/>
+  <line x1="207" y1="107" x2="228" y2="64" class="a" stroke-dasharray="3 3"/>
+  <text x="262" y="50" class="h">Dunst, feucht</text>
+  <text x="262" y="66" class="m">Sicht mäßig</text>
+  <text x="262" y="104" class="a">Gegenlicht,</text>
+  <text x="262" y="118" class="a">Tele</text>
+
+  <!-- 3 flat grey -->
+  <path d="M16 160 h64 v10 h-64 Z" class="f" stroke="none"/>
+  <path d="M16 160 h64 M16 170 h64" class="m"/>
+  <path d="M30 220 v-24 l12 -10 l12 10 v24 Z M38 220 v-12 h8 v12" />
+  <text x="92" y="160" class="h">flaches Grau</text>
+  <text x="92" y="176" class="m">kein Schatten</text>
+  <text x="92" y="210" class="a">Nahmotive,</text>
+  <text x="92" y="224" class="a">Innenräume</text>
+
+  <!-- 4 front passing: dark cloud, sun break -->
+  <path d="M196 172 q4 -14 18 -10 q8 -12 22 -2 q14 -2 12 12 Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M232 178 L224 200 M240 178 L240 202 M248 178 L256 200" class="a"/>
+  <path d="M196 214 h52" class="m"/>
+  <text x="262" y="160" class="h">Front zieht</text>
+  <text x="262" y="176" class="h">durch</text>
+  <text x="262" y="210" class="a">Rand des Wetters</text>
+  <text x="262" y="224" class="a">abpassen</text>
+</svg>

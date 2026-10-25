@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 186" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- same grey on warm and cool ground -->
+  <g stroke="none">
+    <rect x="16" y="16" width="134" height="110" fill="#d9822b"/>
+    <rect x="210" y="16" width="134" height="110" fill="#2f5f9a"/>
+    <rect x="59" y="47" width="48" height="48" fill="#8a8a8a"/>
+    <rect x="253" y="47" width="48" height="48" fill="#8a8a8a"/>
+  </g>
+  <path d="M107 71 H253" class="a" stroke-dasharray="3 3"/>
+  <text x="180" y="62" text-anchor="middle" class="a">gleich</text>
+  <text x="83" y="146" text-anchor="middle" class="m">Grau wirkt</text>
+  <text x="83" y="160" text-anchor="middle" class="m">kühler, bläulich</text>
+  <text x="277" y="146" text-anchor="middle" class="m">Grau wirkt</text>
+  <text x="277" y="160" text-anchor="middle" class="m">wärmer, heller</text>
+  <text x="180" y="180" text-anchor="middle" class="h">Die Umgebung färbt mit</text>
+</svg>

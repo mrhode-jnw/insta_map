@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 186" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="60" y="16" text-anchor="middle" class="h">Vorher</text>
+  <text x="180" y="16" text-anchor="middle" class="h">Davor – offen</text>
+  <text x="300" y="16" text-anchor="middle" class="h">Danach</text>
+  <rect x="10" y="26" width="100" height="90"/>
+  <rect x="128" y="22" width="104" height="98" class="a" stroke-width="2.5"/>
+  <rect x="250" y="26" width="100" height="90"/>
+  <!-- puddles -->
+  <ellipse cx="72" cy="104" rx="30" ry="6" class="f" stroke="none"/>
+  <ellipse cx="184" cy="104" rx="30" ry="6" class="f" stroke="none"/>
+  <ellipse cx="300" cy="104" rx="30" ry="6" class="f" stroke="none"/>
+  <!-- 1 run-up -->
+  <circle cx="30" cy="62" r="4"/><path d="M30 66 L32 82 M32 82 L24 96 M32 82 L40 94 M31 70 L22 76 M31 70 L40 74"/>
+  <!-- 2 in the air, heel just above the reflection -->
+  <circle cx="172" cy="52" r="4" class="a"/><path d="M174 56 L178 72 M178 72 L160 78 M178 72 L196 96 M176 60 L160 56 M176 60 L194 54" class="a"/>
+  <path d="M196 96 l4 1" class="a" stroke-width="2.5"/>
+  <path d="M196 104 L196 112 M196 112 l-8 6" class="m" stroke-dasharray="2 2"/>
+  <path d="M206 92 v10 M202 98 l4 4 l4 -4" class="a"/>
+  <!-- 3 splash -->
+  <circle cx="300" cy="66" r="4"/><path d="M300 70 L300 86 M300 86 L294 102 M300 86 L306 102 M300 74 L292 82 M300 74 L308 82"/>
+  <path d="M284 100 l-6 -8 M290 98 l-2 -10 M312 98 l4 -9 M318 101 l7 -6" class="m"/>
+  <text x="60" y="138" text-anchor="middle" class="m">Anlauf:</text>
+  <text x="60" y="152" text-anchor="middle" class="m">noch nichts</text>
+  <text x="180" y="138" text-anchor="middle" class="a">Ferse knapp über</text>
+  <text x="180" y="152" text-anchor="middle" class="a">dem Spiegelbild</text>
+  <text x="300" y="138" text-anchor="middle" class="m">Platsch:</text>
+  <text x="300" y="152" text-anchor="middle" class="m">nur Ergebnis</text>
+  <text x="180" y="178" text-anchor="middle" class="h">Spannung liegt vor der Auflösung</text>
+</svg>

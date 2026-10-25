@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 262" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- side view: valley fog, camera A above, camera B inside -->
+  <path d="M10 86 Q60 88 110 84 Q170 80 230 86 Q290 90 350 84 L350 116 L10 116 Z" class="f" stroke="none"/>
+  <path d="M10 86 Q60 88 110 84 Q170 80 230 86 Q290 90 350 84" class="m" stroke-dasharray="4 3"/>
+  <path d="M10 110 L40 70 L62 44 L84 64 L120 106 L200 112 L260 106 L292 72 L318 58 L350 96" />
+  <rect x="56" y="34" width="10" height="7" class="af" stroke="none"/>
+  <line x1="67" y1="38" x2="300" y2="60" class="a" stroke-dasharray="3 3"/>
+  <rect x="164" y="101" width="10" height="7" class="af" stroke="none"/>
+  <line x1="175" y1="104" x2="235" y2="98" class="a" stroke-dasharray="3 3"/>
+  <path d="M236 108 v-14 M230 98 l6 -8 l6 8" />
+  <text x="40" y="30" class="a">A</text>
+  <text x="160" y="96" class="a">B</text>
+  <text x="300" y="134" text-anchor="middle" class="m">Nebel im Tal</text>
+  <text x="12" y="134" class="m">nach klarer, windstiller Nacht</text>
+
+  <!-- resulting frames -->
+  <g stroke="none">
+    <rect x="30" y="150" width="120" height="66" fill="#9aa3ad"/>
+    <path d="M44 182 L58 164 L72 182 Z M104 180 L122 158 L140 180 Z" fill="#3d3f42"/>
+    <path d="M30 180 Q60 172 90 178 T150 176 V216 H30 Z" fill="#e4e4e2"/>
+    <rect x="210" y="150" width="120" height="66" fill="#d8d8d6"/>
+    <path d="M300 214 V188 M300 194 l-6 -5 M300 192 l6 -6" stroke="#a9a9a7" stroke-width="2"/>
+    <path d="M232 214 V172 M232 182 l-10 -8 M232 178 l9 -10 M232 190 l12 -6" stroke="#2a2a2a" stroke-width="3.5"/>
+  </g>
+  <rect x="30" y="150" width="120" height="66"/>
+  <rect x="210" y="150" width="120" height="66"/>
+  <text x="34" y="164" class="a">A</text>
+  <text x="318" y="164" class="a">B</text>
+
+  <text x="90" y="234" text-anchor="middle" class="m">Nebel = Ebene,</text>
+  <text x="90" y="248" text-anchor="middle" class="m">Hügel als Inseln</text>
+  <text x="270" y="234" text-anchor="middle" class="m">Nähe, Silhouette,</text>
+  <text x="270" y="248" text-anchor="middle" class="m">Verschwinden</text>
+</svg>

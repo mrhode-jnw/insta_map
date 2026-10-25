@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 214" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="60" y="16" text-anchor="middle" class="h">Bühne + Akteur</text>
+  <text x="180" y="16" text-anchor="middle" class="h">Gehen, schauen</text>
+  <text x="300" y="16" text-anchor="middle" class="h">Durcharbeiten</text>
+  <line x1="120" y1="26" x2="120" y2="200" class="m"/>
+  <line x1="240" y1="26" x2="240" y2="200" class="m"/>
+
+  <!-- 1: fixed frame, figure enters -->
+  <rect x="22" y="40" width="76" height="56"/>
+  <path d="M22 84 H98 M60 96 V60 L80 52" class="m"/>
+  <rect x="18" y="104" width="10" height="7" class="af" stroke="none"/>
+  <path d="M28 104 L22 96" class="m"/>
+  <circle cx="108" cy="72" r="3" class="a"/><path d="M108 75 v10 M108 85 l-3 7 M108 85 l3 7" class="a"/>
+  <path d="M104 64 Q90 58 78 66 M84 61 l-6 5 l7 2" class="a"/>
+  <text x="60" y="132" text-anchor="middle" class="m">Rahmen steht,</text>
+  <text x="60" y="146" text-anchor="middle" class="m">warten, bis etwas</text>
+  <text x="60" y="160" text-anchor="middle" class="m">hineinkommt</text>
+
+  <!-- 2: walking path with several chances -->
+  <path d="M134 104 Q160 40 186 76 T226 44" class="m" stroke-dasharray="3 4"/>
+  <rect x="142" y="80" width="10" height="7" class="af" stroke="none"/>
+  <rect x="176" y="70" width="10" height="7" class="af" stroke="none"/>
+  <rect x="212" y="50" width="10" height="7" class="af" stroke="none"/>
+  <path d="M226 44 l-7 0 M226 44 l-2 7" class="m"/>
+  <text x="180" y="132" text-anchor="middle" class="m">gehen, warten,</text>
+  <text x="180" y="146" text-anchor="middle" class="m">reden, das</text>
+  <text x="180" y="160" text-anchor="middle" class="m">Unerwartete finden</text>
+
+  <!-- 3: contact strip, one frame chosen -->
+  <rect x="252" y="48" width="96" height="40" class="m"/>
+  <rect x="256" y="54" width="16" height="28"/><rect x="274" y="54" width="16" height="28"/><rect x="292" y="54" width="16" height="28"/><rect x="310" y="54" width="16" height="28"/><rect x="328" y="54" width="16" height="28"/>
+  <path d="M252 51 h96 M252 85 h96" class="m" stroke-dasharray="2 3"/>
+  <ellipse cx="300" cy="68" rx="14" ry="22" class="a" stroke-width="2"/>
+  <text x="300" y="132" text-anchor="middle" class="m">Szene in Varianten</text>
+  <text x="300" y="146" text-anchor="middle" class="m">fotografieren,</text>
+  <text x="300" y="160" text-anchor="middle" class="m">später wählen</text>
+
+  <text x="60" y="190" text-anchor="middle" class="a">vorwegnehmen</text>
+  <text x="180" y="190" text-anchor="middle" class="a">suchen</text>
+  <text x="300" y="190" text-anchor="middle" class="a">auswählen</text>
+</svg>

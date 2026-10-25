@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 214" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="16" class="h">Lichtfarbe über den Tag</text>
+  <g stroke="none">
+    <rect x="10" y="28" width="48" height="34" fill="#3f5f9c"/>
+    <rect x="58" y="28" width="48" height="34" fill="#f0a24a"/>
+    <rect x="106" y="28" width="48" height="34" fill="#f6dfb4"/>
+    <rect x="154" y="28" width="52" height="34" fill="#f7f5ee"/>
+    <rect x="206" y="28" width="48" height="34" fill="#f6dfb4"/>
+    <rect x="254" y="28" width="48" height="34" fill="#ec8f3c"/>
+    <rect x="302" y="28" width="48" height="34" fill="#34528f"/>
+  </g>
+  <rect x="10" y="28" width="340" height="34"/>
+  <path d="M10 92 Q95 92 120 80 Q180 54 240 80 Q265 92 350 92" class="a"/>
+  <line x1="10" y1="92" x2="350" y2="92" class="m"/>
+  <text x="42" y="110" text-anchor="middle" class="m">blau</text>
+  <text x="82" y="110" text-anchor="middle" class="m">gold</text>
+  <text x="180" y="110" text-anchor="middle" class="m">neutral, hart</text>
+  <text x="278" y="110" text-anchor="middle" class="m">gold</text>
+  <text x="318" y="110" text-anchor="middle" class="m">blau</text>
+  <text x="42" y="124" text-anchor="middle" class="m">Dämmerung</text>
+  <text x="180" y="124" text-anchor="middle" class="m">Mittag</text>
+  <text x="318" y="124" text-anchor="middle" class="m">Dämmerung</text>
+  <text x="252" y="74" class="a">Sonnenhöhe</text>
+
+  <!-- shadow is cool, mixed light -->
+  <text x="10" y="150" class="h">Im selben Bild</text>
+  <g stroke="none">
+    <rect x="10" y="160" width="80" height="44" fill="#f0b45e"/>
+    <rect x="90" y="160" width="70" height="44" fill="#5d7fb8"/>
+    <rect x="200" y="160" width="74" height="44" fill="#e9963f"/>
+    <rect x="274" y="160" width="76" height="44" fill="#4f9a8a"/>
+  </g>
+  <text x="50" y="186" text-anchor="middle" style="fill:#3a2a10">Sonne</text>
+  <text x="125" y="186" text-anchor="middle" style="fill:#eef2fa">Schatten</text>
+  <text x="237" y="180" text-anchor="middle" style="fill:#3a2410">Glüh-</text>
+  <text x="237" y="193" text-anchor="middle" style="fill:#3a2410">lampe</text>
+  <text x="312" y="180" text-anchor="middle" style="fill:#eaf6f2">Leucht-</text>
+  <text x="312" y="193" text-anchor="middle" style="fill:#eaf6f2">stoff</text>
+  <text x="200" y="150" class="h">Mischlicht</text>
+</svg>
