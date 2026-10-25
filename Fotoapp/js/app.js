@@ -236,10 +236,11 @@ views.theorie = async () => {
   return `<h1>Theorie</h1>
   <p class="lead">Ein Kurs in ${lib.lessons.length} Lektionen: Beschreibung, Erklärung, Beispiele, Abschlusstest. Erst wenn eine Lektion bestanden ist, öffnet sich die Sehübung dazu.</p>
   <div class="stats"><span><b>${done}</b>/${lib.lessons.length} bestanden</span></div>
-  ${next ? `<p><a class="button" href="#/theorie/${next.id}">${done ? "Weiter mit" : "Beginnen mit"}: ${esc(next.title)}</a></p>` : `<p class="ok">Alle Lektionen bestanden.</p>`}
+  ${next ? "" : `<p class="ok">Alle Lektionen bestanden.</p>`}
   ${[["sehen", "Sehen: Bildmerkmale"], ["grundlagen", "Grundlagen: Theorie, Methode, Praxis"], ["fotografen", "Fotografen: Traditionen, Handschriften, Werke"]].map(([track, label]) => {
     const ls = lib.lessons.filter(l => (l.track || "sehen") === track); if (!ls.length) return "";
-    return `<h2>${label}</h2><ol class="lesson-list">${ls.map(l => { const p = prog[l.id];
+    const nx = ls.find(l => !prog[l.id]?.passed);
+    return `<h2>${label}</h2>${nx ? `<p><a class="button secondary" href="#/theorie/${nx.id}">Weiter mit: ${esc(nx.title)}</a></p>` : `<p class="ok">Alle bestanden.</p>`}<ol class="lesson-list">${ls.map(l => { const p = prog[l.id];
     return `<li><a href="#/theorie/${l.id}">${esc(l.title)}</a>
       ${p?.passed ? `<span class="status reviewed">bestanden ${p.best}/${p.total}</span>` : p ? `<span class="status">${p.best}/${p.total} – noch nicht bestanden</span>` : `<span class="muted small">offen</span>`}</li>`; }).join("")}</ol>`; }).join("")}
   ${lib.lessons.length ? "" : `<p class="muted">Die Lektionen werden gerade erstellt.</p>`}`;
