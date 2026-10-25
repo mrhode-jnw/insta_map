@@ -1,0 +1,913 @@
+{
+ "accessed_at": "2026-10-25",
+ "photographers": [
+  {
+   "key": "frank",
+   "name": "Robert Frank",
+   "born": 1924,
+   "died": 2019,
+   "sources": [
+    {
+     "url": "https://www.sfmoma.org/artist/Robert_Frank/",
+     "title": "Robert Frank · SFMOMA",
+     "excerpt": "American, born Switzerland 1924, Zürich, Switzerland 2019, Nova Scotia, Canada"
+    },
+    {
+     "url": "https://www.howardgreenberg.com/artists/robert-frank",
+     "title": "Robert Frank | Howard Greenberg Gallery",
+     "excerpt": "From 1949 to 1953 Frank wandered restlessly, traveling back and forth between New York and Europe. In each place, he focused on one or two subjects that expressed his understanding of the people and their culture—chairs and flowers in Paris, bankers in London, and miners in Wales."
+    }
+   ],
+   "projects": [
+    {
+     "key": "frank-the-americans",
+     "title": "The Americans",
+     "year_from": 1955,
+     "year_to": 1956,
+     "sources": [
+      {
+       "url": "https://www.mocp.org/resources/robert-frank-and-the-street-tradition/",
+       "title": "Robert Frank and the Street Tradition – MoCP (Museum of Contemporary Photography, Columbia College Chicago)",
+       "excerpt": "In his application he wrote: The photographing of America is a large order — read at all literally, the phrase would be an absurdity. What I have in mind, then, is observation and record of what one naturalized American finds to see in the United States that signifies the kind of civilization born here and spreading elsewhere. Incidentally, it is fair to assume that when an observant American travels abroad his eye will see freshly; and that the reverse may be true when a European eye looks at the United States."
+      },
+      {
+       "url": "https://www.sothebys.com/en/articles/the-everlasting-influence-of-robert-franks-the-americans",
+       "title": "The Everlasting Influence of Robert Frank’s “The Americans” | Sotheby’s (Bryan Martin, 2023)",
+       "excerpt": "In 1956, Frank began going through the 767 rolls of film and 27,000 frames he’d accumulated. The rigorous distillation, editing, cropping and extra capturing of photographs resulted in a sequence of 83 images first published in France in 1958 and then in 1959 by Grove Press in the United States."
+      },
+      {
+       "url": "https://www.howardgreenberg.com/artists/robert-frank",
+       "title": "Robert Frank | Howard Greenberg Gallery",
+       "excerpt": "In the fall of 1954, he applied to the John Simon Guggenheim Memorial Foundation for a fellowship “to photograph freely throughout the United States,” as he wrote in his application, and “make a broad voluminous picture record of things American.” With letters of recommendation from the photographer Walker Evans, as well as Steichen and Brodovitch, he was awarded a fellowship in the spring of 1955 and began to make the photographs that would comprise The Americans."
+      }
+     ],
+     "images": [
+      {
+       "key": "frank-us-285",
+       "title": "U.S. 285, New Mexico",
+       "year": 1955,
+       "location": "New Mexico, USA",
+       "tags": [
+        "roadtrip",
+        "strasse",
+        "landschaft",
+        "schwarzweiss"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.83203.html",
+       "image_url": "https://api.nga.gov/iiif/a28adcae-2988-46bc-bbac-b305d4e84f90/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "frank-car-accident-us-66",
+       "title": "Car accident—U.S. 66, between Winslow and Flagstaff, Arizona",
+       "year": 1955,
+       "location": "U.S. 66, Arizona, USA",
+       "tags": [
+        "roadtrip",
+        "strasse",
+        "tod",
+        "schwarzweiss"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.83202.html",
+       "image_url": "https://api.nga.gov/iiif/5ade8f98-5891-42b2-99be-3da0ab5bc6ef/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "frank-santa-fe",
+       "title": "Santa Fe, New Mexico",
+       "year": 1955,
+       "location": "Santa Fe, New Mexico, USA",
+       "tags": [
+        "roadtrip",
+        "tankstelle",
+        "landschaft",
+        "schwarzweiss"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.83208.html",
+       "image_url": "https://api.nga.gov/iiif/cd271e59-8c83-41e0-bb68-c8aa771f238f/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "frank-trolley-new-orleans",
+       "title": "Trolley—New Orleans",
+       "year": 1955,
+       "location": "New Orleans, USA",
+       "tags": [
+        "strasse",
+        "menschen",
+        "segregation",
+        "schwarzweiss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.sothebys.com/en/articles/the-everlasting-influence-of-robert-franks-the-americans",
+         "title": "The Everlasting Influence of Robert Frank’s “The Americans” | Sotheby’s (Bryan Martin, 2023)",
+         "excerpt": "One of the most famous photographs, Trolley—New Orleans (1955), shows four white passengers seated in the first three rows – a man looking outwards, an older woman staring with a look of contempt and two young children in the third window with quizzical yet oddly guarded expressions. In the back, a Black man also stares out, his body exuding a curious and relaxed demeanor, while a Black, bespectacled woman is seated behind him. The shot is formally gorgeous in its still, gridded composition but also decisive in its confrontation of segregation."
+        }
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.83189.html",
+       "image_url": "https://api.nga.gov/iiif/615e0702-fc29-4460-8d81-d96328cb85e4/full/1600,/0/default.jpg"
+      },
+      {
+       "key": "frank-canal-street-new-orleans",
+       "title": "Canal Street—New Orleans",
+       "year": 1955,
+       "location": "New Orleans, USA",
+       "tags": [
+        "strasse",
+        "menge",
+        "menschen",
+        "schwarzweiss"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.83190.html",
+       "image_url": "https://api.nga.gov/iiif/4c1c0b13-f4bd-4013-a829-19775ec7c458/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "frank-bar-gallup",
+       "title": "Bar—Gallup, New Mexico",
+       "year": 1955,
+       "location": "Gallup, New Mexico, USA",
+       "tags": [
+        "innenraum",
+        "bar",
+        "menschen",
+        "schwarzweiss"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.83197.html",
+       "image_url": "https://api.nga.gov/iiif/3aac693c-f231-433c-a275-dd04612c7b2c/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "frank-chicago-car",
+       "title": "Chicago",
+       "year": 1956,
+       "location": "Chicago, USA",
+       "tags": [
+        "auto",
+        "detail",
+        "religion",
+        "schwarzweiss"
+       ],
+       "source_url": "https://www.nga.gov/collection/art-object-page.83226.html",
+       "image_url": "https://api.nga.gov/iiif/2c3eba8b-da14-455b-829e-9f5dd692bf51/full/1600,/0/default.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "gruyaert",
+   "name": "Harry Gruyaert",
+   "born": 1941,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/harry-gruyaert/",
+     "title": "Harry Gruyaert • Photographer Profile • Magnum Photos",
+     "excerpt": "Born in Antwerp in 1941, he originally dreamed of becoming a film director. In the late 1970s, Pop art and a trip to Morocco inspired him to become one of the first photographers in Europe to devote his work entirely to color photography."
+    },
+    {
+     "url": "https://panoramajournal.org/issues/issue-10-intimacy/intimacy-morocco-an-expression-of-enchantment-harry-gruyaert/",
+     "title": "Harry Gruyaert: Morocco: An Expression of Enchantment | Panorama: The Journal of Travel, Place, and Nature",
+     "excerpt": "Moreover, from my perspective, I don’t believe I’m ‘communicating’ directly with the people I photograph. Concentration and distance are vital to me. If there is ‘communication’ there, it occurs via a whole mass of visuals, including people but also buildings, fabrics, animals, light and more. Taking a photograph means both seeking out contact and avoiding it, being completely there yet not there at the same time."
+    }
+   ],
+   "projects": [
+    {
+     "key": "gruyaert-morocco",
+     "title": "Morocco",
+     "year_from": 1972,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/harry-gruyaert-returns-to-morocco/",
+       "title": "Harry Gruyaert Returns to Morocco | Magnum Photos (Nic Duffy, 2024)",
+       "excerpt": "For his new book, Gruyaert selected images from his archive of more than a half-century photographing Morocco. The work, unpublished until now, shows the country's people and landscapes from the perspective of a passionate outsider."
+      },
+      {
+       "url": "https://panoramajournal.org/issues/issue-10-intimacy/intimacy-morocco-an-expression-of-enchantment-harry-gruyaert/",
+       "title": "Harry Gruyaert: Morocco: An Expression of Enchantment | Panorama: The Journal of Travel, Place, and Nature",
+       "excerpt": "In the 1970s, in my VW camper van, I made the same journey through Morocco many times, seeing places as varied as the High Atlas mountains and the desert, the Atlantic coast and the Mediterranean shore. The people were never the same; from one tribal community or town to the next, they had different clothes and different customs, and different reactions to a stranger, much less a photographer. In this way, I learned how to behave when taking pictures in Marrakech or Fès, Essaouira or Erfoud: each place had its own tricks that would allow me to be accepted, up to a point. It was there that I eventually learned how to get close to people to take pictures."
+      }
+     ],
+     "images": [
+      {
+       "key": "gruyaert-marrakech-1976",
+       "title": "Near \"Jemma el Fna\" square. Shaded streets of the medina (old district). Marrakech",
+       "year": 1976,
+       "location": "Marrakesch, Marokko",
+       "tags": [
+        "farbe",
+        "licht",
+        "schatten",
+        "medina"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/harry-gruyaert-returns-to-morocco/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2024/05/PAR44624_.jpg",
+       "sources": []
+      },
+      {
+       "key": "gruyaert-nomad-camp-tan",
+       "title": "Nomad camp near Tan",
+       "year": 1976,
+       "location": "Marokko",
+       "tags": [
+        "farbe",
+        "wueste",
+        "landschaft",
+        "menschen"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/harry-gruyaert-returns-to-morocco/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2024/05/PAR42579_.jpg",
+       "sources": []
+      },
+      {
+       "key": "gruyaert-souk-meknes",
+       "title": "Souk. Meknes",
+       "year": 1981,
+       "location": "Meknès, Marokko",
+       "tags": [
+        "farbe",
+        "markt",
+        "licht",
+        "schatten"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/harry-gruyaert-returns-to-morocco/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2024/05/PAR43959_.jpg",
+       "sources": []
+      },
+      {
+       "key": "gruyaert-erfoud-1975",
+       "title": "Erfoud",
+       "year": 1975,
+       "location": "Erfoud, Marokko",
+       "tags": [
+        "farbe",
+        "verhuellt",
+        "tier",
+        "wand"
+       ],
+       "sources": [
+        {
+         "url": "https://panoramajournal.org/issues/issue-10-intimacy/intimacy-morocco-an-expression-of-enchantment-harry-gruyaert/",
+         "title": "Harry Gruyaert: Morocco: An Expression of Enchantment | Panorama (Zuordnung dieser Textstelle zu diesem Bild: eigene Einschätzung nach Bildinhalt)",
+         "excerpt": "One particular image in this book reflects this idea: a woman crouching next to a goat was getting up to leave. She didn’t want to show her face, so she turned around. In doing so she unwittingly gave me a wonderful gift: a view of the child on her back, whose presence I had no idea about."
+        }
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/harry-gruyaert-returns-to-morocco/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2024/05/PAR42517_.jpg"
+      },
+      {
+       "key": "gruyaert-erfoud-medina-1976",
+       "title": "In the Medina. South Erfout",
+       "year": 1976,
+       "location": "Erfoud, Marokko",
+       "tags": [
+        "farbe",
+        "gasse",
+        "verhuellt",
+        "wand"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/harry-gruyaert-returns-to-morocco/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2024/05/PAR42513_.jpg",
+       "sources": []
+      },
+      {
+       "key": "gruyaert-imilchil",
+       "title": "Region of the High Atlas. Imilchil",
+       "year": 1976,
+       "location": "Imilchil, Hoher Atlas, Marokko",
+       "tags": [
+        "farbe",
+        "landschaft",
+        "gebirge",
+        "weite"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/harry-gruyaert-returns-to-morocco/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2024/05/PAR43142_.jpg",
+       "sources": []
+      },
+      {
+       "key": "gruyaert-mhamid-1972",
+       "title": "Women carrying water in pitcher made in clay. M'Hamid El Ghizane, South Region of Tafilalt",
+       "year": 1972,
+       "location": "M'Hamid El Ghizlane, Marokko",
+       "tags": [
+        "farbe",
+        "menschen",
+        "verhuellt",
+        "daemmerung"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/harry-gruyaert-returns-to-morocco/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2024/05/PAR43124_.jpg",
+       "sources": []
+      },
+      {
+       "key": "gruyaert-chefchaouen-1975",
+       "title": "Street life. Walls are often painted in blue and white. Chefchaouen, Rif Mountains",
+       "year": 1975,
+       "location": "Chefchaouen, Rif, Marokko",
+       "tags": [
+        "farbe",
+        "blau",
+        "gasse",
+        "menschen"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/harry-gruyaert-returns-to-morocco/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2024/05/PAR44505_.jpg",
+       "sources": []
+      },
+      {
+       "key": "gruyaert-essaouira-1976",
+       "title": "Ramparts and fortified walls of the city. Essaouira",
+       "year": 1976,
+       "location": "Essaouira, Marokko",
+       "tags": [
+        "farbe",
+        "wand",
+        "menschen",
+        "geste"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/harry-gruyaert-returns-to-morocco/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2024/05/PAR43693_.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "soth",
+   "name": "Alec Soth",
+   "born": 1969,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/alec-soth/",
+     "title": "Alec Soth • Photographer Profile • Magnum Photos",
+     "excerpt": "Alec Soth was born in the USA in 1969. He became a nominee of Magnum Photos in 2004 and a full member in 2008. He is based in Minneapolis, Minnesota. Likening his process to web surfing in the real world, Soth prizes coincidence and serendipity."
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+     "title": "Sleeping By The Mississippi • Alec Soth • Magnum Photos",
+     "excerpt": "The most often-asked question people pose Soth is how he approaches strangers to take their picture. His response, unsurprisingly, is that it has changed over time. Describing himself as “painfully shy” in his 20s, he knew he had to get over his timidity in order to photograph people; yet he found this very same shyness – coupled with his huge large format box camera and its accompanying tripod – disarmed his subjects, and allowed him a way into their private spaces, following his desire for a deeper intimacy."
+    }
+   ],
+   "projects": [
+    {
+     "key": "soth-sleeping-by-the-mississippi",
+     "title": "Sleeping by the Mississippi",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+       "title": "Sleeping By The Mississippi • Alec Soth • Magnum Photos",
+       "excerpt": "He began to follow the Mississippi River in his car, driving from place to place, letting himself progress towards locations he had vaguely researched and “using the river as a route to connect with people along the way.” These were the early days of the web and the development of his process ran parallel to the growth of the internet. “It was like web surfing in the real world” he says, “it was like trying to ride a wave.”"
+      },
+      {
+       "url": "https://mackbooks.co.uk/products/sleeping-by-the-mississippi-br-alec-soth",
+       "title": "Sleeping by the Mississippi | MACK (Verlagsseite)",
+       "excerpt": "Evolving from a series of road trips along the Mississippi River, Sleeping by the Mississippi captures America’s iconic yet oft-neglected ‘third coast’. Soth’s richly descriptive, large-format colour photographs present an eclectic mix of individuals, landscapes, and interiors. Sensuous in detail and raw in subject, Sleeping by the Mississippi elicits a consistent mood of loneliness, longing, and reverie."
+      },
+      {
+       "url": "https://www.magnumphotos.com/theory-and-practice/desire-lines-reframing-american-road-trip-narrative-alec-soth-rebecca-bengal/",
+       "title": "Desire Lines: Reframing the American Road Trip Narrative in Alec Soth’s Photographs • Magnum Photos (Rebecca Bengal)",
+       "excerpt": "I’d always liked the poetry of those steering wheel lists, for instance, but rarely, Soth said, would the items on them actually pan out. They were an excuse to make other discoveries, just as the presence of the river was an excuse to wander along it."
+      }
+     ],
+     "images": [
+      {
+       "key": "soth-peters-houseboat",
+       "title": "Peter's houseboat. Winona, Minnesota",
+       "year": 2002,
+       "location": "Winona, Minnesota, USA",
+       "tags": [
+        "farbe",
+        "fluss",
+        "winter",
+        "behausung"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/nyc39687.jpg",
+       "sources": []
+      },
+      {
+       "key": "soth-lindbergh-bed",
+       "title": "Charles Lindbergh's boyhood bed. Little Falls, Minnesota",
+       "year": 1999,
+       "location": "Little Falls, Minnesota, USA",
+       "tags": [
+        "farbe",
+        "bett",
+        "innenraum",
+        "stille"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/nyc39956.jpg",
+       "sources": []
+      },
+      {
+       "key": "soth-mother-and-daughter",
+       "title": "Mother and daughter. Davenport, Iowa",
+       "year": 2002,
+       "location": "Davenport, Iowa, USA",
+       "tags": [
+        "farbe",
+        "portraet",
+        "innenraum",
+        "fremde"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/nyc39698.jpg",
+       "sources": []
+      },
+      {
+       "key": "soth-hotel-dallas-city",
+       "title": "Hotel in Dallas City, Illinois",
+       "year": 2002,
+       "location": "Dallas City, Illinois, USA",
+       "tags": [
+        "farbe",
+        "hotel",
+        "innenraum",
+        "detail"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/nyc39688.jpg",
+       "sources": []
+      },
+      {
+       "key": "soth-bonnie",
+       "title": "Bonnie, with a photograph of an angel. Port Gibson, Mississippi",
+       "year": 2000,
+       "location": "Port Gibson, Mississippi, USA",
+       "tags": [
+        "farbe",
+        "portraet",
+        "religion",
+        "innenraum"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/nyc39704.jpg",
+       "sources": []
+      },
+      {
+       "key": "soth-venice-louisiana",
+       "title": "Venice, Louisiana",
+       "year": 2002,
+       "location": "Venice, Louisiana, USA",
+       "tags": [
+        "farbe",
+        "bett",
+        "landschaft",
+        "fluss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/theory-and-practice/desire-lines-reframing-american-road-trip-narrative-alec-soth-rebecca-bengal/",
+         "title": "Desire Lines: Reframing the American Road Trip Narrative in Alec Soth’s Photographs • Magnum Photos (Rebecca Bengal)",
+         "excerpt": "There are visible desire lines within Soth’s frames for instance—the trampled weeds around a bedframe sinking into the ground, the footfalls in a cemetery."
+        }
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/nyc39692.jpg"
+      },
+      {
+       "key": "soth-fort-jefferson-cross",
+       "title": "Fort Jefferson Memorial Cross at the confluence. Wickliffe, Kentucky",
+       "year": 2002,
+       "location": "Wickliffe, Kentucky, USA",
+       "tags": [
+        "farbe",
+        "gruppe",
+        "religion",
+        "landschaft"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/nyc40419.jpg",
+       "sources": []
+      },
+      {
+       "key": "soth-charles-vasa",
+       "title": "Charles. Vasa, Minnesota",
+       "year": 2002,
+       "location": "Vasa, Minnesota, USA",
+       "tags": [
+        "farbe",
+        "portraet",
+        "winter",
+        "fremde"
+       ],
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+         "title": "Sleeping By The Mississippi • Alec Soth • Magnum Photos",
+         "excerpt": "Charles – perhaps one of the more well-known characters to inhabit the book, with his aviation gear and model airplanes – represents a “humble search for creative exploration” to Soth."
+        }
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/nyc39686.jpg"
+      },
+      {
+       "key": "soth-luxora",
+       "title": "Luxora, Arkansas",
+       "year": 2002,
+       "location": "Luxora, Arkansas, USA",
+       "tags": [
+        "farbe",
+        "wald",
+        "spuren",
+        "landschaft"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/alec-soth-sleeping-by-the-mississippi/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/nyc39961.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "depoorter",
+   "name": "Bieke Depoorter",
+   "born": 1986,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/bieke-depoorter/",
+     "title": "Bieke Depoorter • Photographer Profiles • Magnum Photos",
+     "excerpt": "Born in Belgium in 1986, Bieke Depoorter received a master’s degree in photography from the Royal Academy of Fine Arts in Ghent in 2009. Three years later, at 25 years old, she was made a nominee of Magnum Photos. She was named a full member in 2016."
+    },
+    {
+     "url": "https://pier24.org/?p=3609",
+     "title": "Bieke Depoorter – Pier 24 Photography (2018)",
+     "excerpt": "In her early work, Depoorter traveled to far-flung locales in Russia, Egypt, and the United States, befriending locals to photograph. She asked her subjects if she could spend the night in their homes, building rapport and trust that eventually allowed her to capture the mundane, routine, ordinary moments of their lives."
+    }
+   ],
+   "projects": [
+    {
+     "key": "depoorter-ou-menya",
+     "title": "Ou Menya",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/bieke-depoorter-ou-menya/",
+       "title": "Bieke Depoorter’s Journey Across Russia • Magnum Photos",
+       "excerpt": "For this project, Bieke Depoorter spent three periods of one month following the route of the TransSiberian Express stopping at the forgotten villages along the way. Once she reached a village, she would ask residents if she could stay with them, moving from living room to living room each night. She had some Russian words scribbled on a little piece of paper that allowed her to be welcomed and absorbed in the warm chaos of a family. Accidental encounters led her to the places where she could sleep."
+      },
+      {
+       "url": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/bieke-depoorter/",
+       "title": "Bieke Depoorter, Ou Menya | Kunsthal Rotterdam (Ausstellung 2011–2012)",
+       "excerpt": "Not speaking a word of Russian, Depoorter let people know she was looking for a place to spend the night by jotting a few Russian sentences on a scrap of paper. She rarely stayed more than one night in the same place and often slept on the sofa, from where she was absorbed and welcomed into the heart of the family."
+      }
+     ],
+     "images": [
+      {
+       "key": "depoorter-ou-menya-par419993",
+       "title": "Ou Menya (1) – Russia. 2009.",
+       "year": 2009,
+       "location": "Russland",
+       "tags": [
+        "farbe",
+        "innenraum",
+        "schlafzimmer",
+        "intimitaet"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bieke-depoorter-ou-menya/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/12/cortex/par419993.jpg",
+       "sources": []
+      },
+      {
+       "key": "depoorter-ou-menya-par419998",
+       "title": "Ou Menya (2) – Russia. 2009.",
+       "year": 2009,
+       "location": "Russland",
+       "tags": [
+        "farbe",
+        "familie",
+        "innenraum",
+        "winter"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bieke-depoorter-ou-menya/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/12/cortex/par419998.jpg",
+       "sources": []
+      },
+      {
+       "key": "depoorter-ou-menya-par420023",
+       "title": "Ou Menya (3) – Russia. 2009.",
+       "year": 2009,
+       "location": "Russland",
+       "tags": [
+        "farbe",
+        "familie",
+        "tisch",
+        "innenraum"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bieke-depoorter-ou-menya/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/12/cortex/par420023.jpg",
+       "sources": []
+      },
+      {
+       "key": "depoorter-ou-menya-par419989",
+       "title": "Ou Menya (4)",
+       "year": null,
+       "location": "Russland",
+       "tags": [
+        "farbe",
+        "fluss",
+        "daemmerung",
+        "landschaft"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bieke-depoorter-ou-menya/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/12/cortex/par419989.jpg",
+       "sources": []
+      },
+      {
+       "key": "depoorter-ou-menya-par420022",
+       "title": "Ou Menya (5)",
+       "year": null,
+       "location": "Russland",
+       "tags": [
+        "farbe",
+        "portraet",
+        "innenraum",
+        "fremde"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bieke-depoorter-ou-menya/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/12/cortex/par420022.jpg",
+       "sources": []
+      },
+      {
+       "key": "depoorter-ou-menya-par420025",
+       "title": "Ou Menya (6)",
+       "year": null,
+       "location": "Russland",
+       "tags": [
+        "farbe",
+        "kind",
+        "schlafzimmer",
+        "innenraum"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bieke-depoorter-ou-menya/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/12/cortex/par420025.jpg",
+       "sources": []
+      },
+      {
+       "key": "depoorter-ou-menya-par419996",
+       "title": "Ou Menya (7)",
+       "year": null,
+       "location": "Russland",
+       "tags": [
+        "nacht",
+        "schnee",
+        "strasse",
+        "landschaft"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bieke-depoorter-ou-menya/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/12/cortex/par419996.jpg",
+       "sources": []
+      },
+      {
+       "key": "depoorter-ou-menya-par420003",
+       "title": "Ou Menya (8)",
+       "year": null,
+       "location": "Russland",
+       "tags": [
+        "farbe",
+        "kind",
+        "schlafzimmer",
+        "intimitaet"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bieke-depoorter-ou-menya/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/12/cortex/par420003.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "drake",
+   "name": "Carolyn Drake",
+   "born": 1971,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/carolyn-drake/",
+     "title": "Carolyn Drake • Photographer Profiles • Magnum Photos",
+     "excerpt": "Carolyn Drake works on long-term, photo-based projects, seeking to interrogate dominant historical narratives and creatively reimagine them. Her practice embraces collaboration, and has, in recent years, melded photography with sewing, collage, and sculpture. She is interested in collapsing the traditional divides between author and subject, as well as the real and the imaginary. Drake was born in California in 1971, and studied media/culture and history at Brown University in the early 1990s."
+    },
+    {
+     "url": "https://photowork.foundation/carolyn-drake/",
+     "title": "Carolyn Drake – PhotoWork Foundation",
+     "excerpt": "Between 2007 and 2013, Drake traveled frequently to Central Asia from her base in Istanbul to work on two long term projects."
+    }
+   ],
+   "projects": [
+    {
+     "key": "drake-wild-pigeon",
+     "title": "Wild Pigeon",
+     "year_from": 2007,
+     "year_to": 2013,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/carolyn-drake-wild-pigeon/",
+       "title": "Wild Pigeon • Carolyn Drake • Magnum Photos (Laura Havlin, 2018)",
+       "excerpt": "The translator quit on the spot, telling me it was too dangerous for him, and that there was a prohibition against Uyghurs having this kind of a dialogue with foreigners. So I decided to try a less confrontational/threatening way to work with people: I brought prints and invited people to draw over them, thinking that maybe we could have a covert conversation through images."
+      },
+      {
+       "url": "https://carolyndrake.com/wild-pigeon",
+       "title": "Wild Pigeon 2007-14 — Carolyn Drake (Website der Fotografin)",
+       "excerpt": "Drake began to look for meaning at the intersection of Uyghur views and her own, and to seek ways to bring the people she was meeting into the creative process. Traveling with a box of prints, a pair of scissors, colored pencils, and a sketchbook, she asked willing collaborators to draw on, reassemble, and use their own tools on her photographs."
+      },
+      {
+       "url": "https://photowork.foundation/carolyn-drake/",
+       "title": "Carolyn Drake – PhotoWork Foundation",
+       "excerpt": "Wild Pigeon (self-published, 2014) is an amalgam of photographs, drawings, and embroideries made in collaboration with Uyghurs in western China. This work was presented in a six month solo exhibition at SFMOMA in 2018 and earned the Anamorphosis Book prize."
+      }
+     ],
+     "images": [
+      {
+       "key": "drake-burned-image-2013",
+       "title": "Image burned into photo by an artist who sells carved gourds to tourists",
+       "year": 2013,
+       "location": "Xinjiang, China",
+       "tags": [
+        "kollaboration",
+        "eingriff",
+        "wueste",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/carolyn-drake-wild-pigeon/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/05/NN11432648.jpg",
+       "sources": []
+      },
+      {
+       "key": "drake-desert-edge",
+       "title": "The desert's edge in southern Xinjiang",
+       "year": null,
+       "location": "Süd-Xinjiang, China",
+       "tags": [
+        "farbe",
+        "menschen",
+        "verdeckt",
+        "wueste"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/carolyn-drake-wild-pigeon/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2018/05/cortex/nn11432674.jpg",
+       "sources": []
+      },
+      {
+       "key": "drake-walnut-grove",
+       "title": "Dust inhibiting trees lining a walnut grove are chopped down to make way for a wider highway",
+       "year": null,
+       "location": "Südrand der Taklamakan, Xinjiang, China",
+       "tags": [
+        "farbe",
+        "strasse",
+        "wandel",
+        "landschaft"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/carolyn-drake-wild-pigeon/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11432683.jpg",
+       "sources": []
+      },
+      {
+       "key": "drake-urumqi-vendor",
+       "title": "A street vendor by the entrance to a highway in the Uyghur district of Urumqi",
+       "year": null,
+       "location": "Ürümqi, Xinjiang, China",
+       "tags": [
+        "farbe",
+        "strasse",
+        "stadt",
+        "menschen"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/carolyn-drake-wild-pigeon/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11432708.jpg",
+       "sources": []
+      },
+      {
+       "key": "drake-hotan-disco",
+       "title": "Uyghur disco in Hotan that has since been shut down",
+       "year": 2008,
+       "location": "Hotan, Xinjiang, China",
+       "tags": [
+        "farbe",
+        "nacht",
+        "innenraum",
+        "menschen"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/carolyn-drake-wild-pigeon/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11432692.jpg",
+       "sources": []
+      },
+      {
+       "key": "drake-kashgar-apartments",
+       "title": "Apartment complex built for Uyghurs displaced from their homes and businesses as the Old Town in Kashgar was torn down",
+       "year": 2009,
+       "location": "Kaschgar, Xinjiang, China",
+       "tags": [
+        "farbe",
+        "stadt",
+        "wandel",
+        "menschen"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/carolyn-drake-wild-pigeon/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11432673.jpg",
+       "sources": []
+      },
+      {
+       "key": "drake-kashgar-street-drawing",
+       "title": "\"Its the street I was born on. It is a beautiful street. My son drew his dream.\"",
+       "year": 2011,
+       "location": "Kaschgar, Xinjiang, China",
+       "tags": [
+        "kollaboration",
+        "zeichnung",
+        "gasse",
+        "nacht"
+       ],
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/carolyn-drake-wild-pigeon/",
+         "title": "Wild Pigeon • Carolyn Drake • Magnum Photos (Laura Havlin, 2018)",
+         "excerpt": "I had befriended and photographed a family in the Old Town of Kashgar before the neighborhood was restructured. The father of the family refused to draw anything on this picture because his religious beliefs forbid using figurative imagery, but he let his son and wife draw – a western style house and what looks like a beautiful woman."
+        }
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/carolyn-drake-wild-pigeon/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2018/05/cortex/nn11432653.jpg"
+      },
+      {
+       "key": "drake-jade-carver",
+       "title": "A message about the soul of jade written by a Chinese jade carver",
+       "year": null,
+       "location": "Xinjiang, China",
+       "tags": [
+        "kollaboration",
+        "schrift",
+        "landschaft",
+        "farbe"
+       ],
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/carolyn-drake-wild-pigeon/",
+         "title": "Wild Pigeon • Carolyn Drake • Magnum Photos (Laura Havlin, 2018)",
+         "excerpt": "I asked a Han Chinese jade carver to work on a photograph of Uyghur jade diggers on the White Jade River. She inscribed a slogan about the living soul of jade on the border of the picture. This is the image that’s nearly always used to represent this Wild Pigeon project in the press. I’m conflicted about this – it’s the only image made by a person who identifies as Han Chinese, yet the project purportedly aims to elevate Uyghur perspectives."
+        }
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/carolyn-drake-wild-pigeon/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2018/02/cortex/nn11432638.jpg"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 11,
+   "title": "Die Reise als Autorenprojekt: Roadtrip, Fremde, Blick von außen",
+   "period_from": 1950,
+   "period_to": 2020,
+   "sources": [
+    {
+     "url": "https://www.mocp.org/resources/robert-frank-and-the-street-tradition/",
+     "title": "Robert Frank and the Street Tradition – MoCP (Museum of Contemporary Photography, Columbia College Chicago)",
+     "excerpt": "The photographing of America is a large order — read at all literally, the phrase would be an absurdity. What I have in mind, then, is observation and record of what one naturalized American finds to see in the United States that signifies the kind of civilization born here and spreading elsewhere. Incidentally, it is fair to assume that when an observant American travels abroad his eye will see freshly; and that the reverse may be true when a European eye looks at the United States."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/desire-lines-reframing-american-road-trip-narrative-alec-soth-rebecca-bengal/",
+     "title": "Desire Lines: Reframing the American Road Trip Narrative in Alec Soth’s Photographs • Magnum Photos (Rebecca Bengal)",
+     "excerpt": "In 1954, when the Swiss photographer Robert Frank applied for his first Guggenheim fellowship, the things he planned to photograph, according to his proposal, included “a town at night, a parking lot, a supermarket, a highway, the man who owns three cars and the man who owns none.” Taped to Alec Soth’s steering wheel, when he drives out to photograph, are his own lists."
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/carolyn-drake-wild-pigeon/",
+     "title": "Wild Pigeon • Carolyn Drake • Magnum Photos (Laura Havlin, 2018)",
+     "excerpt": "I could explain through my pictures that Uyghur people speak a Turkish language, practice Islam, grow food in the desert, and trade across the borders, but I felt these kind of pictures basically fed the idea that Uyghurs were part of a culture waiting to be developed, and I stopped feeling I could justify that approach, so I had the choice of either going home and focusing on “what I already knew,” or finding a way to make the work more collaborative, and more conscious of photo documentation as a medium of control."
+    },
+    {
+     "url": "https://panoramajournal.org/issues/issue-10-intimacy/intimacy-morocco-an-expression-of-enchantment-harry-gruyaert/",
+     "title": "Harry Gruyaert: Morocco: An Expression of Enchantment | Panorama: The Journal of Travel, Place, and Nature",
+     "excerpt": "I also like the fact that these covered faces unwittingly reflect my own presence, as well as my status as an outsider, which I completely acknowledge."
+    }
+   ],
+   "key_images": [
+    "frank-us-285",
+    "frank-trolley-new-orleans",
+    "gruyaert-erfoud-1975",
+    "gruyaert-chefchaouen-1975",
+    "soth-peters-houseboat",
+    "soth-charles-vasa",
+    "depoorter-ou-menya-par420023",
+    "depoorter-ou-menya-par419996",
+    "drake-kashgar-street-drawing",
+    "drake-jade-carver"
+   ]
+  }
+ ]
+}
