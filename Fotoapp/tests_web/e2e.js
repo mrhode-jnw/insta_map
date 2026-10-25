@@ -142,6 +142,7 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
       ok(firsts.some(v => v !== "0") && firsts.some(v => v !== String(firsts[0])), "quiz answer order shuffled");
     }
     for (let n = 0; n < l.quiz.length; n++) {
+      if (l.quiz[n].deep) continue; // optional Vertiefung questions sit in a separate form
       const pick = wrong ? (l.quiz[n].correct + 1) % l.quiz[n].options.length : l.quiz[n].correct;
       await page.check(`input[name="q${n}"][value="${pick}"]`);
     }

@@ -301,3 +301,22 @@ body.noscroll { overflow: hidden; }
 .viewer-svg svg { width: 100%; height: auto; pointer-events: none; }
 .viewer-cap { max-height: 22vh; overflow: auto; padding: 8px 14px; padding-bottom: max(12px, env(safe-area-inset-bottom)); color: var(--muted); font-size: 0.88rem; background: rgba(0,0,0,.7); }
 .viewer-cap .who { color: var(--text); }
+
+/* --- core path vs. Vertiefung */
+.lesson-time { color: var(--muted); font-size: 0.9rem; margin: -0.3em 0 0.8em; }
+details.deep { border: 1px dashed var(--line); border-radius: var(--radius); margin: 22px 0; padding: 0 12px; }
+details.deep > summary { cursor: pointer; list-style: none; padding: 10px 0; color: var(--muted); }
+details.deep > summary::-webkit-details-marker { display: none; }
+details.deep > summary::before { content: "＋ "; color: var(--accent); }
+details.deep[open] > summary::before { content: "－ "; }
+details.lsec.deep > summary h3 { display: inline-flex; margin: 0; color: var(--text); font-size: 1rem; }
+details.lsec.deep > summary h3 .num { background: var(--line); color: var(--text); }
+.deep-tag { display: inline-block; margin-left: 8px; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); }
+details.deep.more > summary { font-size: 0.92rem; }
+details.profile { border-top: 1px solid var(--line); padding: 8px 0; }
+details.profile > summary { cursor: pointer; font-weight: 600; }
+form.numbered { counter-reset: q; }
+form.numbered fieldset.q legend::before { counter-increment: q; content: counter(q) ". "; }
+details.lsec.deep > summary { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 8px; }
+details.lsec.deep > summary::before { flex: none; }
+details.lsec.deep > summary .deep-tag { margin-left: 0; }

@@ -3,7 +3,7 @@ import { AIError, loadState, mediaUrl, providerLabel, mutateState, session, stor
 import {
   CONSTRUCTION_LABELS, DIM, DIMENSIONS, DRILLABLE, EXTRA_QUESTIONS, QUESTIONS, addOwn, allTags, analyses, chapterDraft,
   currentAnalysis, drillFeedback, esc, generateAnalysis, learnFeedback, lib, loadLibrary, md, newSourceId, ownId,
-  LEARN_ROUND_REQUIRES, PASS_RATIO, analysisPending, askLesson, discuss, expertsFor, isUnlocked, theoryProgress, photographerOf, projectOf, referenceText, referencedIds, sourcesFor, sourcesForImage,
+  LEARN_ROUND_REQUIRES, PASS_RATIO, analysisPending, lessonTime, splitDeep, askLesson, discuss, expertsFor, isUnlocked, theoryProgress, photographerOf, projectOf, referenceText, referencedIds, sourcesFor, sourcesForImage,
 } from "./domain.js";
 
 const $ = s => document.querySelector(s);
@@ -299,35 +299,47 @@ views.lektion = async id => {
     .filter(i => !srcs.some(x => x.id === i)).map(i => lib.by.sources.get(i)).filter(Boolean).map(x => ({ ...x, kind: undefined }));
   const thread = (await loadState("discussions", {}))["lesson:" + id] || [];
   const pend = pendingQuestions.get("lesson:" + id);
+  const time = lessonTime(l), coreQ = l.quiz.map((q, n) => [q, n]).filter(([q]) => !q.deep), deepQ = l.quiz.map((q, n) => [q, n]).filter(([q]) => q.deep);
+  const deepEx = l.examples.filter(e => e.deep), coreEx = l.examples.filter(e => !e.deep);
+  const example = e => { const i = lib.by.images.get(e.image_id); return i ? `<figure class="key-image example">
+      <a href="#/bild/${i.id}">${media(i.id, "m")}</a><figcaption><b>${esc(photographerOf(i).name)}</b> – ${esc(i.title || "Ohne Titel")}${i.year ? `, ${i.year}` : ""}
+      <div class="prose">${md(e.caption_md)}</div>
+      ${(e.look_for || []).length ? `<ul class="look-for">${e.look_for.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</figcaption></figure>` : ""; };
+  const question = ([q, n]) => `<fieldset class="q" data-n="${n}"><legend>${md(q.question).replace(/^<p>|<\/p>$/g, "")}</legend>
+      ${q.image_id && lib.by.images.has(q.image_id) ? `<div class="quiz-img">${media(q.image_id, "m")}</div>` : ""}
+      ${shuffled(q.options.map((o, k) => [o, k]), `${id}:${n}`).map(([o, k]) => `<label class="radio"><input type="radio" name="q${n}" value="${k}" required> ${md(o).replace(/^<p>|<\/p>$/g, "")}</label>`).join("")}
+      <div class="explain" hidden></div></fieldset>`;
+  const section = (x, n) => { const [core, more] = splitDeep(x.body_md);
+    const head = `<h3 data-h="${esc(x.heading)}"><span class="num">${n + 1}</span>${esc(x.heading)}</h3>`;
+    if (x.deep) return `<details class="lsec deep"><summary>${head}<span class="deep-tag">Vertiefung</span></summary><div class="prose">${rich(core)}${rich(more)}</div></details>`;
+    return `<section class="lsec">${head}<div class="prose">${rich(core)}</div>${more.trim() ? `<details class="deep more"><summary>Mehr dazu (Vertiefung)</summary><div class="prose">${rich(more)}</div></details>` : ""}</section>`; };
   const page = `<p class="crumbs"><a href="#/theorie">Theorie</a> › Lektion ${l.order}</p>
   <h1>${esc(l.title)} ${prog?.passed ? `<span class="status reviewed">bestanden</span>` : ""}</h1>
-  <nav class="toc"><a href="#" data-toc="Beschreibung">Beschreibung</a>${l.sections.map(x => `<a href="#" data-toc="${esc(x.heading)}">${esc(x.heading)}</a>`).join("")}
+  <p class="lesson-time">⏱ Kern ca. ${time.core} Min${time.deep ? ` · Vertiefung ca. ${time.deep} Min (aufklappbar, freiwillig)` : ""}</p>
+  <nav class="toc"><a href="#" data-toc="Beschreibung">Beschreibung</a>${l.sections.filter(x => !x.deep).map(x => `<a href="#" data-toc="${esc(x.heading)}">${esc(x.heading)}</a>`).join("")}
     <a href="#" data-toc="Beispiele">Beispiele</a><a href="#" data-toc="Abschlusstest">Abschlusstest</a></nav>
   <article class="chapter lesson">
     <h3 data-h="Beschreibung">Beschreibung</h3><div class="prose">${rich(l.intro_md)}</div>
-    ${l.sections.map((x, n) => `<section class="lsec"><h3 data-h="${esc(x.heading)}"><span class="num">${n + 1}</span>${esc(x.heading)}</h3><div class="prose">${rich(x.body_md)}</div></section>`).join("")}
-    ${(l.photographers || []).length ? `<h3>Fotografen im Porträt</h3>${l.photographers.map(pid => { const p = lib.by.photographers.get(pid); if (!p) return "";
+    ${l.sections.map(section).join("")}
+    ${(l.photographers || []).length ? `<h3>Fotografen im Porträt</h3><p class="muted small">Zum Nachschlagen – tippe auf einen Namen.</p>${l.photographers.map(pid => { const p = lib.by.photographers.get(pid); if (!p) return "";
       const imgs = lib.images.filter(i => i.photographer_id === pid).slice(0, 6);
-      return `<div class="profile">${artistCard(p, true)}${p.method_md ? `<p class="small"><b>Arbeitsweise:</b></p><div class="prose small">${md(p.method_md)}</div>` : ""}
+      return `<details class="profile"><summary>${esc(p.name)}${p.born ? ` <span class="muted">${p.born}–${p.died || ""}</span>` : ""}</summary>${artistCard(p, true)}${p.method_md ? `<p class="small"><b>Arbeitsweise:</b></p><div class="prose small">${md(p.method_md)}</div>` : ""}
         ${p.signature_md ? `<p class="small"><b>Handschrift – woran man die Bilder erkennt</b> <span class="muted">(Einschätzung)</span></p><div class="prose small">${md(p.signature_md)}</div>` : ""}
-        ${imgs.length ? `<div class="thumbs mini">${imgs.map(i => `<a class="thumb" href="#/bild/${i.id}">${media(i.id)}</a>`).join("")}</div>` : ""}</div>`; }).join("")}` : ""}
+        ${imgs.length ? `<div class="thumbs mini">${imgs.map(i => `<a class="thumb" href="#/bild/${i.id}">${media(i.id)}</a>`).join("")}</div>` : ""}</details>`; }).join("")}` : ""}
     <h3>Beispiele</h3>
-    ${l.examples.map(e => { const i = lib.by.images.get(e.image_id); return i ? `<figure class="key-image example">
-      <a href="#/bild/${i.id}">${media(i.id, "m")}</a><figcaption><b>${esc(photographerOf(i).name)}</b> – ${esc(i.title || "Ohne Titel")}${i.year ? `, ${i.year}` : ""}
-      <div class="prose">${md(e.caption_md)}</div>
-      ${(e.look_for || []).length ? `<ul class="look-for">${e.look_for.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</figcaption></figure>` : ""; }).join("")}
+    ${coreEx.map(example).join("")}
+    ${deepEx.length ? `<details class="deep more"><summary>Weitere Beispiele (${deepEx.length})</summary>${deepEx.map(example).join("")}</details>` : ""}
     <h3>Merksätze</h3><ul class="takeaways">${l.takeaways.map(t => `<li>${md(t).replace(/^<p>|<\/p>$/g, "")}</li>`).join("")}</ul>
     <h3>Übungen für unterwegs</h3><ul>${l.exercises.map(t => `<li>${md(t).replace(/^<p>|<\/p>$/g, "")}</li>`).join("")}</ul>
     ${concepts.length ? `<p class="small">Seh-Begriffe dazu: ${concepts.map(c => `<a href="#/begriffe/${c.id}" class="tag">${esc(c.name)}</a>`).join(" ")}</p>` : ""}
   </article>
   <section class="card quiz" id="quiz"><h3>Abschlusstest</h3>
-    <p class="muted small">${l.quiz.length} Fragen · bestanden ab ${Math.ceil(l.quiz.length * PASS_RATIO)} richtigen Antworten${prog ? ` · bisher bestes Ergebnis ${prog.best}/${prog.total}` : ""}</p>
-    <form data-action="quiz" data-id="${id}">${l.quiz.map((q, n) => `<fieldset class="q" data-n="${n}"><legend>${n + 1}. ${md(q.question).replace(/^<p>|<\/p>$/g, "")}</legend>
-      ${q.image_id && lib.by.images.has(q.image_id) ? `<div class="quiz-img">${media(q.image_id, "m")}</div>` : ""}
-      ${shuffled(q.options.map((o, k) => [o, k]), `${id}:${n}`).map(([o, k]) => `<label class="radio"><input type="radio" name="q${n}" value="${k}" required> ${md(o).replace(/^<p>|<\/p>$/g, "")}</label>`).join("")}
-      <div class="explain" hidden></div></fieldset>`).join("")}
+    <p class="muted small">${coreQ.length} Fragen zum Kern · bestanden ab ${Math.ceil(coreQ.length * PASS_RATIO)} richtigen Antworten${prog ? ` · bisher bestes Ergebnis ${prog.best}/${prog.total}` : ""}</p>
+    <form data-action="quiz" data-id="${id}" class="numbered">${coreQ.map(question).join("")}
       <button>Auswerten</button></form>
-    <div id="quiz-result"></div></section>
+    <div id="quiz-result"></div>
+    ${deepQ.length ? `<details class="deep more"><summary>Zusatzfragen zur Vertiefung (${deepQ.length}, freiwillig)</summary>
+      <form data-action="quiz" data-id="${id}" data-set="deep" class="numbered">${deepQ.map(question).join("")}<button class="secondary">Auswerten</button></form><div class="quiz-result-deep"></div></details>` : ""}</section>
   ${d?.field ? `<p>${prog?.passed ? `<button class="secondary" data-action="drill-quick" data-dim="${id}">Sehübung „${d.label}“ starten</button>` : `<span class="muted">🔒 Die Sehübung „${d.label}“ öffnet sich nach bestandenem Test.</span>`}</p>` : ""}
   ${nextL ? `<p><a href="#/theorie/${nextL.id}">Nächste Lektion: ${esc(nextL.title)} →</a></p>` : ""}
   <section class="discussion"><h2>Fragen zur Lektion</h2>
@@ -675,7 +687,8 @@ const io = "IntersectionObserver" in window ? new IntersectionObserver(es => es.
 }), { rootMargin: "400px" }) : null;
 function loadImg(el) { mediaUrl(el.dataset.media, el.dataset.kind).then(u => (el.src = u)).catch(() => el.classList.add("broken")); }
 function hydrate() {
-  document.querySelectorAll("img[data-media]").forEach(el => el.dataset.kind === "m" || !io ? loadImg(el) : io.observe(el));
+  // everything lazy: images in collapsed "Vertiefung" blocks load only when opened
+  document.querySelectorAll("img[data-media]").forEach(el => io ? io.observe(el) : loadImg(el));
   const f = $("#tl-filter"); if (f) f.onchange = () => (location.hash = f.value ? `#/zeitleiste?k=${f.value}` : "#/zeitleiste");
   const tl = document.querySelector(".timeline"); if (tl) tl.scrollIntoView({ block: "end" });
 }
@@ -700,16 +713,18 @@ const actions = {
     startDrill([btn.dataset.dim], 5, Number(store.get("lookSeconds") ?? 60));
   },
   async quiz(form) {
-    const l = lib.by.lessons.get(form.dataset.id), f = new FormData(form);
+    const l = lib.by.lessons.get(form.dataset.id), f = new FormData(form), deepSet = form.dataset.set === "deep";
     let right = 0;
-    l.quiz.forEach((q, n) => {
+    const asked = l.quiz.map((q, n) => [q, n]).filter(([q]) => !!q.deep === deepSet);
+    asked.forEach(([q, n]) => {
       const given = Number(f.get("q" + n)), fs = form.querySelector(`fieldset[data-n="${n}"]`), ok = given === q.correct;
       if (ok) right++;
       fs.classList.toggle("right", ok); fs.classList.toggle("wrong", !ok);
       const ex = fs.querySelector(".explain"); ex.hidden = false;
       ex.innerHTML = `${ok ? "✓ Richtig." : `✗ Richtig wäre: <b>${md(q.options[q.correct]).replace(/^<p>|<\/p>$/g, "")}</b>.`} ${md(q.explanation).replace(/^<p>|<\/p>$/g, "")}`;
     });
-    const total = l.quiz.length, passed = right >= Math.ceil(total * PASS_RATIO);
+    const total = asked.length, passed = right >= Math.ceil(total * PASS_RATIO);
+    if (deepSet) { form.parentElement.querySelector(".quiz-result-deep").innerHTML = `<p class="${passed ? "ok" : "warn"}"><b>${right}/${total}</b> Zusatzfragen richtig.</p>`; return; }
     $("#quiz-result").innerHTML = `<p class="${passed ? "ok" : "warn"}"><b>${right}/${total}</b> – ${passed ? "bestanden. Die Sehübung ist freigeschaltet." : "noch nicht bestanden. Lies die Erklärungen und versuch es noch einmal."}</p>
       ${passed && DIM[l.id]?.field ? `<button data-action="drill-quick" data-dim="${l.id}">Sehübung „${DIM[l.id].label}“ starten</button>` : `<button class="secondary" onclick="location.reload()">Test neu starten</button>`}`;
     $("#quiz-result").scrollIntoView({ behavior: "smooth", block: "center" });

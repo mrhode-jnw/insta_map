@@ -211,9 +211,10 @@ class Library:
                 "track": le.get("track", "sehen"),
                 "photographers": [by_name[n] for n in le.get("photographers", []) if n in by_name],
                 "intro_md": q(le.get("intro_md")),
-                "sections": [{"heading": s.get("heading", ""), "body_md": q(s.get("body_md"))} for s in le.get("sections", [])],
-                "examples": [{"image_id": e["image_id"], "caption_md": q(e.get("caption_md")), "look_for": e.get("look_for", [])}
-                             for e in le.get("examples", [])],
+                "sections": [{"heading": s.get("heading", ""), "body_md": q(s.get("body_md")), **({"deep": True} if s.get("deep") else {})}
+                             for s in le.get("sections", [])],
+                "examples": [{"image_id": e["image_id"], "caption_md": q(e.get("caption_md")), "look_for": e.get("look_for", []),
+                              **({"deep": True} if e.get("deep") else {})} for e in le.get("examples", [])],
                 "takeaways": [q(t) for t in le.get("takeaways", [])],
                 "exercises": [q(t) for t in le.get("exercises", [])],
                 "quiz": [{**qq, "question": q(qq.get("question")), "explanation": q(qq.get("explanation")),
