@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111213">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Sehschule</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="../crypto.js"></script>
+  <script src="../config.js"></script>
+  <script src="config.js"></script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <div id="lock" class="lock" hidden>
+    <form id="lock-form" class="card narrow">
+      <h1>Sehschule</h1>
+      <p class="muted">Zugangscode wie bei der Karte.</p>
+      <p id="lock-error" class="error"></p>
+      <label>Zugangscode <input id="code" type="password" autocomplete="current-password" required autofocus></label>
+      <label class="radio"><input id="remember" type="checkbox" checked> auf diesem Gerät merken</label>
+      <button>Öffnen</button>
+    </form>
+  </div>
+  <div id="app" hidden>
+    <header class="top">
+      <a class="brand" href="#/">Sehschule</a>
+      <nav>
+        <a href="#/sehen">Sehen</a>
+        <a href="#/lernen">Lernrunde</a>
+        <a href="#/begriffe">Begriffe</a>
+        <a href="#/bibliothek">Bibliothek</a>
+        <a href="#/fotografen">Fotografen</a>
+        <a href="#/geschichte">Geschichte</a>
+        <a href="#/zeitleiste">Zeitleiste</a>
+        <a href="#/lernen/antworten">Tagebuch</a>
+      </nav>
+      <button id="logout" class="link">Abmelden</button>
+    </header>
+    <main id="main"></main>
+  </div>
+  <div id="toast" class="toast" hidden></div>
+</body>
+</html>

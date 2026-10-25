@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Sehschule – Einrichtung</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="../crypto.js"></script>
+  <script src="../config.js"></script>
+  <script src="config.js"></script>
+</head>
+<body>
+<main>
+  <h1>Sehschule einrichten</h1>
+  <p class="lead">Schlüssel werden hier im Browser mit deinem Zugangscode verschlüsselt und als <code>Fotoapp/config.js</code> ins Repo geschrieben.
+    Im Klartext verlässt nichts dieses Gerät. Leere Felder lassen den bisherigen Wert unverändert.</p>
+  <form id="f" class="card grid-form">
+    <label class="wide">Zugangscode (wie bei der Karte) <input id="code" type="password" required></label>
+    <label class="wide">Bilder-Schlüssel (64 Hex-Zeichen, von Claude) <input id="media" autocomplete="off" spellcheck="false"></label>
+    <label class="wide">Anthropic-API-Key (sk-ant-…) <input id="akey" type="password" autocomplete="off"></label>
+    <label>Modell <input id="model" value=""></label>
+    <button>Verschlüsseln und speichern</button>
+  </form>
+  <p id="msg"></p>
+  <details class="card"><summary>Ergebnis zum manuellen Eintragen</summary><textarea id="out" rows="8" class="mono" readonly></textarea></details>
+</main>
+<script>
+const REPO = "mrhode-jnw/insta_map", BRANCH = "claude/sweet-mayer-wqdght", PATH = "Fotoapp/config.js";
+document.getElementById("model").value = window.SEHSCHULE_MODEL || "claude-opus-5-5";
+const msg = (t, cls = "") => { const m = document.getElementById("msg"); m.textContent = t; m.className = cls; };
+const b64enc = s => btoa(unescape(encodeURIComponent(s)));
+const b64dec = s => decodeURIComponent(escape(atob(s.replace(/\s/g, ""))));
+
+document.getElementById("f").addEventListener("submit", async e => {
+  e.preventDefault();
+  const C = window.InstaMapCrypto, code = document.getElementById("code").value;
+  const media = document.getElementById("media").value.trim(), akey = document.getElementById("akey").value.trim();
+  let token = "";
+  try { token = window.GITHUB_TOKEN_ENC ? (await C.decrypt(window.GITHUB_TOKEN_ENC, code)).trim() : ""; }
+  catch { return msg("Zugangscode passt nicht zum Code der Karte.", "error"); }
+  if (window.SEHSCHULE_MEDIA_KEY_ENC && !media) {
+    try { await C.decrypt(window.SEHSCHULE_MEDIA_KEY_ENC, code); } catch { return msg("Zugangscode passt nicht zum gespeicherten Bilder-Schlüssel.", "error"); }
+  }
+  if (media && !/^[0-9a-f]{64}$/i.test(media)) return msg("Bilder-Schlüssel muss aus 64 Hex-Zeichen bestehen.", "error");
+  msg("Verschlüssele …");
+  const mediaEnc = media ? await C.encrypt(media.toLowerCase(), code) : (window.SEHSCHULE_MEDIA_KEY_ENC || "");
+  const akeyEnc = akey ? await C.encrypt(akey, code) : (window.SEHSCHULE_ANTHROPIC_KEY_ENC || "");
+  const model = document.getElementById("model").value.trim() || "claude-opus-5-5";
+  const txt = `// Sehschule – verschlüsselte Schlüssel (AES-GCM, Zugangscode wie bei der Karte; siehe ../crypto.js).
+// Erzeugen bzw. ändern mit setup.html. Der GitHub-Token zum Speichern kommt aus ../config.js.
+window.SEHSCHULE_MEDIA_KEY_ENC = "${mediaEnc}";
+window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${akeyEnc}";
+window.SEHSCHULE_MODEL = "${model}";
+window.SEHSCHULE_EFFORT = "${window.SEHSCHULE_EFFORT || "high"}";
+window.SEHSCHULE_BUILD = "${window.SEHSCHULE_BUILD || "1"}";
+`;
+  document.getElementById("out").value = txt;
+  if (!token) return msg("Kein GitHub-Token in ../config.js – bitte das Ergebnis unten manuell in Fotoapp/config.js eintragen.", "warn");
+  const h = { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` };
+  const cur = await fetch(`https://api.github.com/repos/${REPO}/contents/${PATH}?ref=${encodeURIComponent(BRANCH)}&t=${Date.now()}`, { headers: h, cache: "no-store" });
+  const sha = cur.ok ? (await cur.json()).sha : undefined;
+  const put = await fetch(`https://api.github.com/repos/${REPO}/contents/${PATH}`, { method: "PUT", headers: h,
+    body: JSON.stringify({ message: "Sehschule: Schlüssel verschlüsselt hinterlegt", branch: BRANCH, content: b64enc(txt), ...(sha ? { sha } : {}) }) });
+  if (put.ok) msg("Gespeichert ✓ – nach ein bis zwei Minuten (GitHub Pages) ist die Sehschule einsatzbereit.", "ok");
+  else msg(`GitHub ${put.status} – bitte das Ergebnis unten manuell eintragen.`, "error");
+});
+</script>
+</body>
+</html>
