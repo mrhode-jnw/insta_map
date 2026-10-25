@@ -43,4 +43,4 @@ def test_seed_is_idempotent_and_merges(tmp_path, db, monkeypatch):
     assert db.scalar(select(func.count(Source.id))) == 3
     ch = db.scalar(select(Chapter).where(Chapter.number == 1))
     assert db.scalar(select(func.count()).select_from(ChapterImage).where(ChapterImage.chapter_id == ch.id)) == 2
-    assert db.scalar(select(func.count(Chapter.id))) == 10  # all proposed chapters exist
+    assert db.scalar(select(func.count(Chapter.id))) == 11  # all proposed chapters exist

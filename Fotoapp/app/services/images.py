@@ -2,10 +2,11 @@
 import base64
 import hashlib
 import io
-from pathlib import Path
-
 import urllib.error
 import urllib.request
+from pathlib import Path
+
+import httpx
 from PIL import Image as PILImage
 
 from app.config import settings
@@ -29,13 +30,18 @@ def _headers(url: str) -> dict[str, str]:
 
 
 def download(url: str, timeout: float = 60.0) -> bytes:
-    # urllib instead of httpx: several gallery CDNs (Cloudflare) reject httpx's TLS fingerprint with 403.
-    request = urllib.request.Request(url, headers=_headers(url))
+    """Fetch an image. Some CDNs reject httpx (Cloudflare 403), others reject urllib (wp.com 404) – try both."""
     try:
-        with urllib.request.urlopen(request, timeout=timeout) as resp:
-            return resp.read()
-    except (urllib.error.URLError, TimeoutError, ValueError) as exc:
-        raise ImageImportError(f"Download fehlgeschlagen: {exc}") from exc
+        resp = httpx.get(url, headers=_headers(url), follow_redirects=True, timeout=timeout)
+        resp.raise_for_status()
+        return resp.content
+    except httpx.HTTPError as first:
+        request = urllib.request.Request(url, headers=_headers(url))
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as fallback:
+                return fallback.read()
+        except (urllib.error.URLError, TimeoutError, ValueError):
+            raise ImageImportError(f"Download fehlgeschlagen: {first}") from first
 
 
 def store_original(data: bytes) -> tuple[str, str]:

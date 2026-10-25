@@ -30,6 +30,7 @@ CHAPTERS = [
     (8, "Natur und Tiere: von der Expedition zur Naturschutzfotografie"),
     (9, "Zeitgenössische Landschaft: Mensch, Industrie, Klima"),
     (10, "Instagram und die Folgen"),
+    (11, "Die Reise als Autorenprojekt: Roadtrip, Fremde, Blick von außen"),
 ]
 
 
@@ -46,8 +47,14 @@ def add_sources(db: Session, items: list[dict], scope_type: str, scope_id: int, 
         url = (s.get("url") or "").strip()
         if not url:
             continue
+        # One page may yield several distinct excerpts; only exact duplicates are skipped.
         exists = db.scalar(
-            select(Source).where(Source.scope_type == scope_type, Source.scope_id == scope_id, Source.url == url)
+            select(Source).where(
+                Source.scope_type == scope_type,
+                Source.scope_id == scope_id,
+                Source.url == url,
+                Source.excerpt == s.get("excerpt", ""),
+            )
         )
         if exists:
             continue
@@ -189,7 +196,10 @@ def import_concept(db: Session, data: dict, keys: dict[str, int], accessed: date
     for src in data.get("sources") or []:
         sid = db.scalar(
             select(Source.id).where(
-                Source.scope_type == "concept", Source.scope_id == concept.id, Source.url == src.get("url", "").strip()
+                Source.scope_type == "concept",
+                Source.scope_id == concept.id,
+                Source.url == src.get("url", "").strip(),
+                Source.excerpt == src.get("excerpt", ""),
             )
         )
         ids.append(sid)
