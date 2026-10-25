@@ -237,7 +237,7 @@ views.theorie = async () => {
   <p class="lead">Ein Kurs in ${lib.lessons.length} Lektionen: Beschreibung, Erklärung, Beispiele, Abschlusstest. Erst wenn eine Lektion bestanden ist, öffnet sich die Sehübung dazu.</p>
   <div class="stats"><span><b>${done}</b>/${lib.lessons.length} bestanden</span></div>
   ${next ? `<p><a class="button" href="#/theorie/${next.id}">${done ? "Weiter mit" : "Beginnen mit"}: ${esc(next.title)}</a></p>` : `<p class="ok">Alle Lektionen bestanden.</p>`}
-  ${[["sehen", "Sehen: Bildmerkmale"], ["fotografen", "Fotografen: Traditionen, Handschriften, Werke"]].map(([track, label]) => {
+  ${[["sehen", "Sehen: Bildmerkmale"], ["grundlagen", "Grundlagen: Theorie, Methode, Praxis"], ["fotografen", "Fotografen: Traditionen, Handschriften, Werke"]].map(([track, label]) => {
     const ls = lib.lessons.filter(l => (l.track || "sehen") === track); if (!ls.length) return "";
     return `<h2>${label}</h2><ol class="lesson-list">${ls.map(l => { const p = prog[l.id];
     return `<li><a href="#/theorie/${l.id}">${esc(l.title)}</a>
