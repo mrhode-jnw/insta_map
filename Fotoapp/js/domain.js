@@ -11,6 +11,7 @@ export async function loadLibrary() {
   for (const k of ["photographers", "projects", "images", "sources"]) lib[k] = [...base[k], ...(own[k] || [])];
   lib.chapters = base.chapters;
   lib.concepts = base.concepts;
+  lib.lessons = base.lessons || [];
   lib.built_at = base.built_at;
   index();
 }
@@ -18,6 +19,7 @@ function index() {
   lib.by = {};
   for (const k of ["photographers", "projects", "images", "chapters", "concepts"]) lib.by[k] = new Map(lib[k].map(x => [x.id, x]));
   lib.by.sources = new Map(lib.sources.map(s => [s.id, s]));
+  lib.by.lessons = new Map((lib.lessons || []).map(l => [l.id, l]));
   lib.photographers.sort((a, b) => a.name.localeCompare(b.name));
 }
 export const photographerOf = img => lib.by.photographers.get(img.photographer_id) || { name: "?" };
@@ -216,6 +218,21 @@ export async function discuss(img, analysis, myAnswers, thread, question) {
       + `<analysis>\n${JSON.stringify(analysis || {}, null, 2)}\n</analysis>\n\n<his_answers>\n${JSON.stringify(myAnswers, null, 2)}\n</his_answers>\n\n`
       + `<conversation>\n${history || "(noch kein Gespräch)"}\n</conversation>\n\n<question>${question}</question>` },
   ] });
+  return res.text;
+}
+
+// Theory progress: {theory: {<dimension>: {passed, best, total, attempts, at}}}
+export const PASS_RATIO = 0.8;
+export async function theoryProgress() { return (await loadState("progress", { theory: {} })).theory || {}; }
+export const isUnlocked = (progress, dim) => !lib.by.lessons?.has(dim) || !!progress[dim]?.passed;
+export const LEARN_ROUND_REQUIRES = ["viewpoint", "moment", "omitted"];
+
+export async function askLesson(lesson, thread, question) {
+  const text = [lesson.intro_md, ...lesson.sections.map(s => `## ${s.heading}\n${s.body_md}`), "Merksätze:\n- " + lesson.takeaways.join("\n- ")].join("\n\n");
+  const srcs = lib.sources.filter(s => s.scope === "lesson" && s.scope_id === lesson.id);
+  const history = thread.map(m => `${m.role === "user" ? "Er" : "Du"}: ${m.text}`).join("\n\n");
+  const res = await ai({ system: await prompt("lesson_discuss_v1"), maxTokens: 4000, light: true,
+    content: `<lesson title="${lesson.title}">\n${text}\n</lesson>\n\n<sources>\n${formatSources(srcs)}\n</sources>\n\n<conversation>\n${history || "(noch kein Gespräch)"}\n</conversation>\n\n<question>${question}</question>` });
   return res.text;
 }
 

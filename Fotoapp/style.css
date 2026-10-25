@@ -237,3 +237,19 @@ form.ask textarea { flex: 1; }
 @media (max-width: 600px) { .artist.big { flex-direction: column; } .artist.big .portrait { width: 100%; height: auto; max-height: 60vh; } }
 .next.top { position: static; background: none; padding: 0 0 8px; text-align: right; }
 .toc { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 10px 0 18px; font-size: 0.9rem; } .status.base { color: var(--ok); border-color: var(--ok); }
+
+/* theory course */
+.lesson-list li { margin-bottom: 8px; }
+.lesson-list .status { margin-left: 8px; }
+.dim.locked { opacity: .55; color: var(--muted); text-decoration: none; }
+.dim.locked .lock { grid-row: span 2; }
+.example figcaption { text-align: left; }
+.look-for { margin: 6px 0 0; padding-left: 18px; font-size: 0.9rem; }
+.takeaways li { margin-bottom: 6px; }
+.quiz fieldset.q { margin-bottom: 14px; }
+.quiz fieldset.q legend { color: var(--text); font-weight: 600; }
+.quiz fieldset.right { border-color: var(--ok); }
+.quiz fieldset.wrong { border-color: var(--danger); }
+.quiz .explain { font-size: 0.92rem; margin-top: 6px; }
+.quiz-img img { max-width: 100%; max-height: 50vh; display: block; margin: 6px 0; }
+.lesson .prose { max-width: 72ch; }

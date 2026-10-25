@@ -90,6 +90,7 @@ class Library:
             for n, t in CHAPTERS
         }
         self.concepts: dict[str, dict] = {}
+        self.lessons: dict[str, dict] = {}
         self.keys: dict[str, str] = {}  # seed image key -> image id
         self.by_url: dict[str, str] = {}
 
@@ -196,6 +197,26 @@ class Library:
             ch["text_md"] = q_to_s(c.get("text_md", ""), ids)
             n += 1
         return n
+
+    def import_lessons(self, data: dict) -> int:
+        """Theory lessons; [Qn] refer to the lesson's own sources (scope 'lesson')."""
+        accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
+        for le in data.get("lessons", []):
+            dim = le["dimension"]
+            ids = self.add_sources(le.get("sources"), "lesson", dim, accessed)
+            q = lambda t: q_to_s(t or "", ids)  # noqa: E731 - small local helper
+            self.lessons[dim] = {
+                "id": dim, "order": le.get("order", 99), "title": le.get("title", dim),
+                "intro_md": q(le.get("intro_md")),
+                "sections": [{"heading": s.get("heading", ""), "body_md": q(s.get("body_md"))} for s in le.get("sections", [])],
+                "examples": [{"image_id": e["image_id"], "caption_md": q(e.get("caption_md")), "look_for": e.get("look_for", [])}
+                             for e in le.get("examples", [])],
+                "takeaways": [q(t) for t in le.get("takeaways", [])],
+                "exercises": [q(t) for t in le.get("exercises", [])],
+                "quiz": [{**qq, "question": q(qq.get("question")), "explanation": q(qq.get("explanation")),
+                          "options": [q(o) for o in qq.get("options", [])]} for qq in le.get("quiz", [])],
+            }
+        return len(data.get("lessons", []))
 
     def import_bios(self, data: dict) -> int:
         accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
@@ -324,6 +345,7 @@ def main() -> None:
         lib.import_file(json.loads(f.read_text(encoding="utf-8")))
     experts = sum(lib.import_experts(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("experts_*.json")))
     texts = sum(lib.import_chapter_texts(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("chapter_texts_*.json")))
+    lessons = sum(lib.import_lessons(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("lessons_*.json")))
     bio_file = SEED_DIR / "photographers_bio.json"
     bios = lib.import_bios(json.loads(bio_file.read_text(encoding="utf-8"))) if bio_file.exists() else 0
 
@@ -339,6 +361,9 @@ def main() -> None:
             ch["images"] = [i for i in ch["images"] if i in lib.images]
         for c in lib.concepts.values():
             c["images"] = [e for e in c["images"] if e["id"] in lib.images]
+        for le in lib.lessons.values():
+            le["examples"] = [e for e in le["examples"] if e["image_id"] in lib.images]
+            le["quiz"] = [q for q in le["quiz"] if not q.get("image_id") or q["image_id"] in lib.images]
 
     if not args.media_dir:  # without media no portrait files exist; keep the source info only
         for ph in lib.photographers.values():
@@ -351,11 +376,12 @@ def main() -> None:
         "sources": sorted(lib.sources.values(), key=lambda s: s["id"]),
         "chapters": [lib.chapters[n] for n in sorted(lib.chapters)],
         "concepts": sorted(lib.concepts.values(), key=lambda c: c["name"]),
+        "lessons": sorted(lib.lessons.values(), key=lambda le: le["order"]),
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"{len(out['photographers'])} Fotografen, {len(out['images'])} Bilder, {len(out['sources'])} Quellen "
-          f"({experts} Expertenstimmen), {bios} Biografien, {texts} Kapiteltexte, {len(out['concepts'])} Begriffe → {OUT.relative_to(ROOT)}")
+          f"({experts} Expertenstimmen), {bios} Biografien, {texts} Kapiteltexte, {lessons} Lektionen, {len(out['concepts'])} Begriffe → {OUT.relative_to(ROOT)}")
     if failed:
         print("\nNicht geladen:", *failed, sep="\n  - ")
 
