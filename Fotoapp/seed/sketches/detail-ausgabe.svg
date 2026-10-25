@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="150" y="16" text-anchor="middle" class="h">Detail</text>
+  <text x="150" y="30" text-anchor="middle" class="m">(Ausschnitt)</text>
+  <text x="280" y="16" text-anchor="middle" class="h">Detailreichtum</text>
+  <text x="280" y="30" text-anchor="middle" class="m">(Auflösung)</text>
+  <text x="44" y="82" text-anchor="middle" class="h">Handy</text>
+  <text x="44" y="172" text-anchor="middle" class="h">Abzug</text>
+  <!-- grid cells -->
+  <rect x="100" y="44" width="100" height="72"/>
+  <path d="M110 108 C122 80 140 66 150 52 M130 108 C144 84 162 70 178 52 M150 108 C164 90 180 78 196 66" stroke-width="3"/>
+  <path d="M206 80 l4 5 l9 -11" class="a" stroke-width="2.5"/>
+  <rect x="230" y="44" width="100" height="72"/>
+  <rect x="230" y="44" width="100" height="72" class="f" stroke="none"/>
+  <path d="M238 70 h84 M238 86 h84 M238 100 h84" class="m" stroke-width="0.6" stroke-dasharray="1 2"/>
+  <path d="M337 74 l10 10 M347 74 l-10 10" class="m" stroke-width="2"/>
+  <rect x="100" y="134" width="100" height="72"/>
+  <path d="M110 198 C122 170 140 156 150 142 M130 198 C144 174 162 160 178 142 M150 198 C164 180 180 168 196 156" stroke-width="3"/>
+  <path d="M206 170 l4 5 l9 -11" class="a" stroke-width="2.5"/>
+  <rect x="230" y="134" width="100" height="72"/>
+  <g class="m" stroke-width="1">
+    <path d="M238 146 h12 v10 h-12z M256 146 h10 v10 h-10z M272 146 h12 v10 h-12z M290 146 h10 v10 h-10z M306 146 h16 v10 h-16z"/>
+    <path d="M238 164 h8 v8 h-8z M252 164 h14 v8 h-14z M272 164 h8 v8 h-8z M286 164 h12 v8 h-12z M304 164 h18 v8 h-18z"/>
+    <path d="M238 182 l6 -6 l6 6 M256 182 l4 -6 l4 6 M270 182 h10 M286 182 l6 -6 l6 6 M304 182 h18 M240 196 h80"/>
+  </g>
+  <path d="M336 170 l4 5 l9 -11" class="a" stroke-width="2.5"/>
+  <text x="180" y="228" text-anchor="middle" class="m">Fülle braucht Größe.</text>
+  <text x="180" y="243" text-anchor="middle" class="m">Auf dem Handy trägt nur die klare Form.</text>
+</svg>

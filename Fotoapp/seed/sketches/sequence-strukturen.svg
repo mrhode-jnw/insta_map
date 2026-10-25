@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- five ways to order -->
+  <!-- chronological -->
+  <line x1="12" y1="50" x2="104" y2="50" class="a"/>
+  <path d="M100 46 l5 4 l-5 4" class="a"/>
+  <rect x="16" y="36" width="16" height="12" class="m"/><rect x="40" y="36" width="16" height="12" class="m"/><rect x="64" y="36" width="16" height="12" class="m"/>
+  <text x="58" y="76" text-anchor="middle" class="h">chronologisch</text>
+  <text x="58" y="90" text-anchor="middle" class="m">Reise</text>
+  <!-- geographic: river -->
+  <path d="M130 30 C150 40 140 56 160 58 S186 46 210 60" class="a"/>
+  <circle cx="134" cy="32" r="3" class="af" stroke="none"/><circle cx="152" cy="50" r="3" class="af" stroke="none"/><circle cx="176" cy="54" r="3" class="af" stroke="none"/><circle cx="204" cy="58" r="3" class="af" stroke="none"/>
+  <text x="170" y="76" text-anchor="middle" class="h">geografisch</text>
+  <text x="170" y="90" text-anchor="middle" class="m">Route, Fluss (Soth)</text>
+  <!-- typological -->
+  <g class="m"><rect x="262" y="24" width="14" height="11"/><rect x="280" y="24" width="14" height="11"/><rect x="298" y="24" width="14" height="11"/>
+  <rect x="262" y="39" width="14" height="11"/><rect x="280" y="39" width="14" height="11"/><rect x="298" y="39" width="14" height="11"/></g>
+  <text x="290" y="76" text-anchor="middle" class="h">typologisch</text>
+  <text x="290" y="90" text-anchor="middle" class="m">Bechers</text>
+  <line x1="10" y1="108" x2="350" y2="108" class="m" stroke-dasharray="2 4"/>
+  <!-- two parts -->
+  <rect x="44" y="124" width="40" height="30" class="f"/><rect x="44" y="124" width="40" height="30" class="m"/>
+  <rect x="94" y="124" width="40" height="30"/>
+  <text x="64" y="144" text-anchor="middle" class="m">I</text><text x="114" y="144" text-anchor="middle" class="m">II</text>
+  <text x="89" y="172" text-anchor="middle" class="h">zweiteilig</text>
+  <text x="89" y="186" text-anchor="middle" class="m">Menschen / Bauten (Evans)</text>
+  <!-- associative -->
+  <g class="m"><rect x="222" y="134" width="16" height="12"/><rect x="250" y="120" width="16" height="12"/><rect x="278" y="140" width="16" height="12"/><rect x="306" y="124" width="16" height="12"/></g>
+  <path d="M238 138 C244 128 246 126 250 126 M266 128 C272 136 274 142 278 146 M294 144 C300 134 302 130 306 130" class="a"/>
+  <text x="272" y="172" text-anchor="middle" class="h">assoziativ</text>
+  <text x="272" y="186" text-anchor="middle" class="m">Reime, Kontraste (Frank)</text>
+</svg>

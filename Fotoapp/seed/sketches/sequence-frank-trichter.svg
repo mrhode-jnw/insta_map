@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="180" y="14" text-anchor="middle" class="h">Robert Frank, The Americans</text>
+  <path d="M30 30 H330 L250 92 H110 Z" class="f" stroke="none"/>
+  <path d="M30 30 H330 L250 92 H110 Z" class="m"/>
+  <path d="M110 92 H250 L215 136 H145 Z" class="f" stroke="none"/>
+  <path d="M110 92 H250 L215 136 H145 Z" class="m"/>
+  <rect x="152" y="136" width="56" height="26" class="af" stroke="none" fill-opacity="0.85"/>
+  <text x="180" y="52" text-anchor="middle" class="h">767 Filme</text>
+  <text x="180" y="68" text-anchor="middle" class="m">etwa 27.000 Aufnahmen</text>
+  <text x="180" y="110" text-anchor="middle" class="h">rund 1.000</text>
+  <text x="180" y="125" text-anchor="middle" class="m">Arbeitsabzüge</text>
+  <text x="180" y="154" text-anchor="middle" class="h" style="fill:#1b1c1e">83</text>
+  <text x="252" y="114" class="m">am Boden,</text>
+  <text x="252" y="128" class="m">an den Wänden</text>
+  <!-- a documented passage -->
+  <text x="180" y="178" text-anchor="middle" class="m">eine Stelle der Folge:</text>
+  <rect x="40" y="194" width="64" height="44"/>
+  <path d="M50 228 C54 208 92 208 96 228 Z" class="f"/><path d="M50 228 C54 208 92 208 96 228" />
+  <rect x="148" y="194" width="64" height="44"/>
+  <path d="M156 230 C162 218 196 218 204 230 Z" class="f"/><path d="M156 230 C162 218 196 218 204 230"/>
+  <path d="M172 214 v-12 M184 214 v-12 M196 214 v-12" class="m"/>
+  <text x="72" y="252" text-anchor="middle" class="m">Covered Car</text>
+  <text x="180" y="252" text-anchor="middle" class="m">Unfallopfer</text>
+  <path d="M74 193 C100 186 152 186 178 193" class="a"/>
+  <rect x="256" y="190" width="34" height="52"/>
+  <path d="M262 242 L272 200 M284 242 L274 200 M273 240 v-6 M273 228 v-6 M273 216 v-5" class="m"/>
+  <text x="273" y="256" text-anchor="middle" class="m">U.S. 285</text>
+  <path d="M220 216 h10 M236 216 h10" class="m" stroke-dasharray="2 3"/>
+</svg>

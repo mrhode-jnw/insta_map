@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="90" y="16" text-anchor="middle" class="h">Randabfallend</text>
+  <text x="270" y="16" text-anchor="middle" class="h">Mit Horizont</text>
+  <rect x="30" y="28" width="120" height="96"/>
+  <g class="m" stroke-width="1">
+    <path d="M30 40 L60 28 M30 60 L82 28 M30 82 L110 28 M30 104 L140 28 M40 124 L150 48 M70 124 L150 70 M100 124 L150 92 M130 124 L150 112"/>
+    <path d="M30 34 L150 120 M60 28 L150 92 M100 28 L150 62 M30 70 L106 124 M30 102 L60 124"/>
+  </g>
+  <path d="M30 28 l-6 -6 M150 28 l6 -6 M30 124 l-6 6 M150 124 l6 6" class="a"/>
+  <rect x="210" y="28" width="120" height="96"/>
+  <line x1="210" y1="70" x2="330" y2="70" class="a"/>
+  <path d="M210 70 L236 58 L262 66 L292 54 L330 64" class="m"/>
+  <g class="m" stroke-width="1">
+    <path d="M210 82 L224 70 M210 96 L240 70 M210 112 L258 70 M216 124 L280 70 M244 124 L304 70 M272 124 L328 72 M300 124 L330 98"/>
+  </g>
+  <text x="90" y="144" text-anchor="middle" class="m">Motiv läuft über</text>
+  <text x="90" y="158" text-anchor="middle" class="m">alle vier Kanten</text>
+  <text x="270" y="144" text-anchor="middle" class="m">wird wieder Land-</text>
+  <text x="270" y="158" text-anchor="middle" class="m">schaft mit Vordergrund</text>
+  <text x="90" y="174" text-anchor="middle" class="a">= Detail</text>
+</svg>

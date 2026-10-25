@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 170" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- strip: overview / detail alternating -->
+  <g>
+    <rect x="8" y="40" width="44" height="34"/><path d="M8 66 L22 52 L32 60 L44 48 L52 56" class="m"/>
+    <rect x="58" y="40" width="44" height="34" class="f"/><path d="M62 72 L72 42 M72 72 L82 42 M82 72 L92 42 M92 72 L100 48" class="m" stroke-width="1"/>
+    <rect x="108" y="40" width="44" height="34"/><path d="M108 64 h44 M120 64 v-10 h10 v10" class="m"/>
+    <rect x="158" y="40" width="44" height="34" class="f"/><path d="M164 52 h32 M164 58 h32 M164 64 h20" class="m" stroke-width="1"/>
+    <rect x="208" y="40" width="44" height="34"/><path d="M208 62 C220 54 236 66 252 58" class="m"/>
+    <rect x="258" y="40" width="44" height="34" class="f"/><circle cx="280" cy="57" r="9" class="m"/>
+    <rect x="308" y="40" width="44" height="34"/><path d="M308 66 L320 50 L330 60 L342 46 L352 58" class="m"/><circle cx="342" cy="50" r="2.5" class="m"/>
+  </g>
+  <text x="30" y="30" text-anchor="middle" class="m">Ü</text>
+  <text x="80" y="30" text-anchor="middle" class="a">D</text>
+  <text x="130" y="30" text-anchor="middle" class="m">Ü</text>
+  <text x="180" y="30" text-anchor="middle" class="a">D</text>
+  <text x="230" y="30" text-anchor="middle" class="m">Ü</text>
+  <text x="280" y="30" text-anchor="middle" class="a">D</text>
+  <text x="330" y="30" text-anchor="middle" class="m">Ü</text>
+  <path d="M80 80 v12 M180 80 v12 M280 80 v12" class="a"/>
+  <text x="80" y="108" text-anchor="middle" class="a">Pause</text>
+  <text x="80" y="122" text-anchor="middle" class="m">Atem zwischen</text>
+  <text x="80" y="136" text-anchor="middle" class="m">großen Ansichten</text>
+  <text x="180" y="108" text-anchor="middle" class="a">Beleg</text>
+  <text x="180" y="122" text-anchor="middle" class="m">Material, Schrift,</text>
+  <text x="180" y="136" text-anchor="middle" class="m">Gebrauch</text>
+  <text x="280" y="108" text-anchor="middle" class="a">Reim</text>
+  <text x="280" y="122" text-anchor="middle" class="m">Form/Farbe kehrt</text>
+  <text x="280" y="136" text-anchor="middle" class="m">später wieder</text>
+  <text x="180" y="162" text-anchor="middle" class="m">Ü = Übersicht   D = Detail</text>
+</svg>

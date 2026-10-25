@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="180" y1="8" x2="180" y2="242" class="m" stroke-dasharray="2 4"/>
+  <line x1="8" y1="125" x2="352" y2="125" class="m" stroke-dasharray="2 4"/>
+  <!-- Naehe: camera and person inside one circle -->
+  <circle cx="90" cy="58" r="34" class="m"/>
+  <rect x="64" y="56" width="10" height="7" class="af" stroke="none"/>
+  <line x1="74" y1="60" x2="102" y2="60" class="a" stroke-dasharray="3 3"/>
+  <line x1="108" y1="78" x2="108" y2="56"/><circle cx="108" cy="51" r="4.5"/>
+  <text x="90" y="106" text-anchor="middle" class="h">Nähe</text>
+  <text x="90" y="119" text-anchor="middle" class="m">Depoorter, Soth</text>
+  <!-- Aussenblick: camera outside a boundary -->
+  <path d="M232 26 h96 v62 h-96 z" class="f" stroke="none"/>
+  <path d="M232 26 h96 v62 h-96 z" class="m"/>
+  <line x1="292" y1="76" x2="292" y2="56"/><circle cx="292" cy="51" r="4.5"/>
+  <line x1="308" y1="76" x2="308" y2="58"/><circle cx="308" cy="53" r="4"/>
+  <rect x="200" y="52" width="10" height="7" class="af" stroke="none"/>
+  <line x1="210" y1="56" x2="286" y2="56" class="a" stroke-dasharray="3 3"/>
+  <text x="270" y="106" text-anchor="middle" class="h">Außenblick</text>
+  <text x="270" y="119" text-anchor="middle" class="m">Gruyaert, Frank</text>
+  <!-- Neutral: frontal facade, camera centered, straight -->
+  <rect x="58" y="140" width="64" height="44"/>
+  <path d="M70 152 h12 v10 h-12z M98 152 h12 v10 h-12z M70 168 h12 v10 h-12z M98 168 h12 v10 h-12z" class="m"/>
+  <line x1="90" y1="190" x2="90" y2="202" class="a" stroke-dasharray="3 3"/>
+  <rect x="85" y="204" width="10" height="7" class="af" stroke="none"/>
+  <text x="90" y="228" text-anchor="middle" class="h">Neutralität</text>
+  <text x="90" y="241" text-anchor="middle" class="m">Baltz, Adams</text>
+  <!-- Ironie: four figures with the same gesture -->
+  <g>
+    <path d="M222 196 v-22 M222 182 l10 -8 M216 196 l6 -8 l6 8"/><circle cx="222" cy="168" r="4"/>
+    <path d="M250 196 v-22 M250 182 l10 -8 M244 196 l6 -8 l6 8"/><circle cx="250" cy="168" r="4"/>
+    <path d="M278 196 v-22 M278 182 l10 -8 M272 196 l6 -8 l6 8"/><circle cx="278" cy="168" r="4"/>
+    <path d="M306 196 v-22 M306 182 l10 -8 M300 196 l6 -8 l6 8"/><circle cx="306" cy="168" r="4"/>
+  </g>
+  <path d="M326 196 L336 146 L344 196" class="m"/>
+  <text x="270" y="228" text-anchor="middle" class="h">Ironie</text>
+  <text x="270" y="241" text-anchor="middle" class="m">Parr</text>
+</svg>

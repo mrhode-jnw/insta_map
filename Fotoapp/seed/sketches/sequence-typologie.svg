@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 3x3 grid of different towers, same framing -->
+  <g>
+    <rect x="20" y="14" width="64" height="56"/><rect x="88" y="14" width="64" height="56"/><rect x="156" y="14" width="64" height="56"/>
+    <rect x="20" y="74" width="64" height="56"/><rect x="88" y="74" width="64" height="56"/><rect x="156" y="74" width="64" height="56"/>
+    <rect x="20" y="134" width="64" height="56"/><rect x="88" y="134" width="64" height="56"/><rect x="156" y="134" width="64" height="56"/>
+  </g>
+  <g>
+    <path d="M42 64 v-34 h20 v34 M42 30 l10 -8 l10 8"/>
+    <path d="M108 64 C108 40 132 40 132 64 M110 48 h20"/>
+    <path d="M176 64 L180 26 h20 L204 64 M182 40 h16 M184 52 h12"/>
+    <path d="M40 124 v-28 h24 v28 M40 96 h24 l-12 -12 z"/>
+    <path d="M110 124 v-36 h6 v36 M124 124 v-36 h6 v36 M110 98 h20"/>
+    <path d="M172 124 L188 84 L204 124 M178 108 h20"/>
+    <path d="M38 184 v-24 C38 146 66 146 66 160 v24"/>
+    <path d="M106 184 v-38 h28 v38 M106 156 h28 M106 168 h28"/>
+    <path d="M178 184 v-30 h16 v30 M174 154 h24 M186 154 v-12"/>
+  </g>
+  <!-- legend -->
+  <text x="236" y="40" class="h">konstant</text>
+  <text x="236" y="56" class="m">Standpunkt</text>
+  <text x="236" y="70" class="m">Ausschnitt, Größe</text>
+  <text x="236" y="84" class="m">Licht ohne Schatten</text>
+  <text x="236" y="98" class="m">Kamera, Format</text>
+  <text x="236" y="134" class="h">variabel</text>
+  <text x="236" y="150" class="a">nur die Form</text>
+  <text x="180" y="216" text-anchor="middle" class="m">Je mehr gleich bleibt, desto deutlicher</text>
+  <text x="180" y="231" text-anchor="middle" class="m">wird der Unterschied.</text>
+</svg>

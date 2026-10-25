@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="45" y="16" text-anchor="middle" class="h">Am Fuß</text>
+  <text x="135" y="16" text-anchor="middle" class="h">An der Kante</text>
+  <text x="225" y="16" text-anchor="middle" class="h">In der Leere</text>
+  <text x="315" y="16" text-anchor="middle" class="h">Im Gewimmel</text>
+  <!-- foot of wall -->
+  <rect x="8" y="28" width="74" height="96"/>
+  <path d="M8 28 L8 112 L82 112 L82 28" class="f" stroke="none"/>
+  <path d="M20 112 L26 60 L36 40 L54 46 L62 80 L70 112" class="m"/>
+  <line x1="8" y1="112" x2="82" y2="112" class="m"/>
+  <line x1="44" y1="112" x2="44" y2="104" stroke-width="2"/><circle cx="44" cy="102" r="1.8" fill="currentColor" stroke="none"/>
+  <!-- edge: silhouette on cliff edge against sky -->
+  <rect x="98" y="28" width="74" height="96"/>
+  <path d="M98 84 L146 84 L150 124 L98 124 Z" class="f" stroke="none"/>
+  <path d="M98 84 L146 84 L150 124" class="m"/>
+  <line x1="140" y1="84" x2="140" y2="75" stroke-width="2"/><circle cx="140" cy="73" r="1.8" fill="currentColor" stroke="none"/>
+  <!-- empty plain -->
+  <rect x="188" y="28" width="74" height="96"/>
+  <line x1="188" y1="66" x2="262" y2="66" class="m"/>
+  <line x1="236" y1="100" x2="236" y2="92" stroke-width="2"/><circle cx="236" cy="90" r="1.8" fill="currentColor" stroke="none"/>
+  <!-- crowd: figure lost -->
+  <rect x="278" y="28" width="74" height="96"/>
+  <g class="m" stroke-width="1">
+    <path d="M286 50 l4 -6 l4 6 M300 44 h8 v8 h-8z M314 52 l5 -8 l5 8 M330 46 h7 v7 h-7z M342 52 l3 -6 l3 6"/>
+    <path d="M284 74 h8 v8 h-8z M298 80 l4 -7 l4 7 M312 72 h6 v9 h-6z M324 80 l5 -8 l5 8 M338 72 h8 v8 h-8z"/>
+    <path d="M286 104 l5 -8 l5 8 M300 98 h7 v8 h-7z M314 106 l4 -7 l4 7 M328 98 h6 v8 h-6z M340 106 l5 -8 l5 8"/>
+    <path d="M290 118 h6 M306 116 h8 M322 118 h6 M336 116 h8"/>
+  </g>
+  <line x1="320" y1="96" x2="320" y2="89" stroke-width="2"/><circle cx="320" cy="87" r="1.6" fill="currentColor" stroke="none"/>
+  <text x="45" y="142" text-anchor="middle" class="a">misst Wand</text>
+  <text x="135" y="142" text-anchor="middle" class="a">vor Himmel</text>
+  <text x="225" y="142" text-anchor="middle" class="a">trägt allein</text>
+  <text x="315" y="142" text-anchor="middle" class="m">geht unter</text>
+  <text x="45" y="156" text-anchor="middle" class="m">stark</text>
+  <text x="135" y="156" text-anchor="middle" class="m">stark</text>
+  <text x="225" y="156" text-anchor="middle" class="m">stark</text>
+  <text x="315" y="156" text-anchor="middle" class="m">schwach</text>
+  <text x="180" y="180" text-anchor="middle" class="m">Lesbar bleibt sie nur mit Kontrast: dunkel auf hell.</text>
+</svg>

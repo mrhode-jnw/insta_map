@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="10" y="18" class="h">Bam-bam-bam</text>
+  <text x="350" y="18" text-anchor="end" class="m">nur Höhepunkte</text>
+  <line x1="10" y1="88" x2="350" y2="88" class="m"/>
+  <g class="af" stroke="none">
+    <rect x="16" y="32" width="22" height="56"/><rect x="50" y="30" width="22" height="58"/><rect x="84" y="34" width="22" height="54"/>
+    <rect x="118" y="30" width="22" height="58"/><rect x="152" y="32" width="22" height="56"/><rect x="186" y="34" width="22" height="54"/>
+    <rect x="220" y="30" width="22" height="58"/><rect x="254" y="32" width="22" height="56"/><rect x="288" y="34" width="22" height="54"/><rect x="322" y="30" width="22" height="58"/>
+  </g>
+  <text x="10" y="118" class="h">Mit Pausen</text>
+  <text x="350" y="118" text-anchor="end" class="m">laut – leise – laut</text>
+  <line x1="10" y1="188" x2="350" y2="188" class="m"/>
+  <g>
+    <rect x="16" y="130" width="22" height="58" class="af" stroke="none"/>
+    <rect x="50" y="170" width="22" height="18" class="mf" stroke="none"/>
+    <rect x="84" y="164" width="22" height="24" class="mf" stroke="none"/>
+    <rect x="118" y="140" width="22" height="48" class="af" stroke="none"/>
+    <rect x="152" y="174" width="22" height="14" class="mf" stroke="none"/>
+    <rect x="186" y="160" width="22" height="28" class="mf" stroke="none"/>
+    <rect x="220" y="168" width="22" height="20" class="mf" stroke="none"/>
+    <rect x="254" y="132" width="22" height="56" class="af" stroke="none"/>
+    <rect x="288" y="170" width="22" height="18" class="mf" stroke="none"/>
+    <rect x="322" y="150" width="22" height="38" class="af" stroke="none"/>
+  </g>
+  <text x="27" y="204" text-anchor="middle" class="m">Ton</text>
+  <text x="333" y="204" text-anchor="middle" class="m">Ende</text>
+  <text x="180" y="204" text-anchor="middle" class="m">Details, Leere, Übergänge</text>
+</svg>

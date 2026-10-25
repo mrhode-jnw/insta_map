@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="90" y="16" text-anchor="middle" class="h">Übersicht</text>
+  <text x="280" y="16" text-anchor="middle" class="h">Detail</text>
+  <!-- overview: farmhouse in landscape -->
+  <rect x="10" y="28" width="160" height="110"/>
+  <path d="M10 92 L50 70 L90 84 L130 64 L170 80" class="m"/>
+  <path d="M60 128 V96 L90 76 L120 96 V128" />
+  <rect x="84" y="106" width="13" height="22"/>
+  <circle cx="94" cy="117" r="1.2" fill="currentColor" stroke="none"/>
+  <line x1="10" y1="128" x2="170" y2="128" class="m"/>
+  <rect x="88" y="111" width="11" height="11" class="a" stroke-dasharray="2 2"/>
+  <path d="M100 116 C150 112 180 96 214 90" class="a" stroke-dasharray="3 3"/>
+  <path d="M208 86 l7 4 l-6 5" class="a"/>
+  <!-- detail: latch filling frame -->
+  <rect x="220" y="28" width="120" height="110"/>
+  <path d="M220 40 h120 M220 58 h120 M220 76 h120 M220 94 h120 M220 112 h120 M220 130 h120" class="m" stroke-width="1"/>
+  <rect x="262" y="66" width="44" height="22" rx="3" class="f"/>
+  <rect x="262" y="66" width="44" height="22" rx="3"/>
+  <line x1="244" y1="77" x2="292" y2="77" stroke-width="3"/>
+  <circle cx="300" cy="77" r="3"/>
+  <path d="M232 98 c4 3 8 -2 12 1 M316 50 c3 2 6 -1 9 1" class="m" stroke-width="1"/>
+  <text x="90" y="156" text-anchor="middle" class="m">zeigt den Ort</text>
+  <text x="280" y="156" text-anchor="middle" class="m">steht für den Ort</text>
+  <text x="180" y="182" text-anchor="middle" class="a">Material · Alter · Gebrauch · Klima</text>
+  <text x="180" y="198" text-anchor="middle" class="m">müssen im Ausschnitt stecken</text>
+</svg>

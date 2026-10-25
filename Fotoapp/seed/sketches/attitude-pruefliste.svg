@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- decision path on the road, after Magnum code -->
+  <rect x="70" y="8" width="220" height="30" rx="6"/>
+  <text x="180" y="27" text-anchor="middle">Person erkennbar, Hauptmotiv?</text>
+  <path d="M180 38 v14" class="a"/><path d="M176 48 l4 5 l4 -5" class="a"/>
+  <text x="188" y="50" class="a">ja</text>
+  <rect x="100" y="56" width="160" height="30" rx="6" class="f"/>
+  <rect x="100" y="56" width="160" height="30" rx="6"/>
+  <text x="180" y="75" text-anchor="middle" class="h">fragen, Bild zeigen</text>
+  <path d="M180 86 v14" class="a"/><path d="M176 96 l4 5 l4 -5" class="a"/>
+  <rect x="100" y="104" width="160" height="30" rx="6"/>
+  <text x="180" y="123" text-anchor="middle">„Nein“ ohne Diskussion</text>
+  <line x1="10" y1="150" x2="350" y2="150" class="m" stroke-dasharray="2 4"/>
+  <text x="180" y="168" text-anchor="middle" class="h">Immer mitdenken</text>
+  <rect x="10" y="180" width="106" height="48" rx="6"/>
+  <text x="63" y="199" text-anchor="middle">Kinder, religiöse</text>
+  <text x="63" y="214" text-anchor="middle" class="a">Orte: zurückhalten</text>
+  <rect x="127" y="180" width="106" height="48" rx="6"/>
+  <text x="180" y="199" text-anchor="middle">Not, Scham:</text>
+  <text x="180" y="214" text-anchor="middle" class="a">nicht vorführen</text>
+  <rect x="244" y="180" width="106" height="48" rx="6"/>
+  <text x="297" y="199" text-anchor="middle">Bildunterschrift:</text>
+  <text x="297" y="214" text-anchor="middle" class="a">sachlich, korrekt</text>
+  <text x="180" y="252" text-anchor="middle" class="m">Recht und Einverständnis: je Land verschieden</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="60" y="16" text-anchor="middle" class="h">Lesbar</text>
+  <text x="180" y="16" text-anchor="middle" class="h">Entzogen</text>
+  <text x="300" y="16" text-anchor="middle" class="h">Dosiert</text>
+  <!-- readable: horizon, haze ridge, house, figure -->
+  <rect x="12" y="28" width="96" height="72"/>
+  <path d="M12 60 L34 48 L56 58 L80 44 L108 56" class="m" stroke-dasharray="2 2"/>
+  <line x1="12" y1="66" x2="108" y2="66" class="m"/>
+  <path d="M74 66 v-8 h10 v8 M72 58 l7 -5 l7 5" />
+  <line x1="40" y1="88" x2="40" y2="78"/><circle cx="40" cy="76" r="2"/>
+  <!-- withheld: top-down pattern, no horizon -->
+  <rect x="132" y="28" width="96" height="72"/>
+  <g class="m">
+    <path d="M132 40 C150 46 160 36 178 44 S210 40 228 48"/>
+    <path d="M132 58 C148 64 166 52 184 62 S212 56 228 64"/>
+    <path d="M132 76 C152 82 164 70 182 80 S214 74 228 82"/>
+    <path d="M132 92 C150 98 168 88 186 96 S214 92 228 98"/>
+    <path d="M150 28 C156 50 146 70 156 100 M196 28 C190 52 202 74 194 100"/>
+  </g>
+  <!-- dosed: same pattern plus one tiny vehicle -->
+  <rect x="252" y="28" width="96" height="72"/>
+  <g class="m">
+    <path d="M252 40 C270 46 280 36 298 44 S330 40 348 48"/>
+    <path d="M252 58 C268 64 286 52 304 62 S332 56 348 64"/>
+    <path d="M252 76 C272 82 284 70 302 80 S334 74 348 82"/>
+    <path d="M252 92 C270 98 288 88 306 96 S334 92 348 98"/>
+    <path d="M270 28 C276 50 266 70 276 100 M316 28 C310 52 322 74 314 100"/>
+  </g>
+  <rect x="329" y="67" width="4" height="2.5" fill="currentColor" stroke="none"/>
+  <circle cx="331" cy="68" r="7" class="a"/>
+  <text x="60" y="118" text-anchor="middle" class="m">Horizont, Dunst,</text>
+  <text x="60" y="132" text-anchor="middle" class="m">Haus, Figur</text>
+  <text x="180" y="118" text-anchor="middle" class="m">kein Horizont,</text>
+  <text x="180" y="132" text-anchor="middle" class="m">nichts Bekanntes</text>
+  <text x="300" y="118" text-anchor="middle" class="m">Muster + ein</text>
+  <text x="300" y="132" text-anchor="middle" class="m">winziges Fahrzeug</text>
+  <text x="60" y="152" text-anchor="middle" class="a">= Ort</text>
+  <text x="180" y="152" text-anchor="middle" class="a">= Muster, Farbe</text>
+  <text x="300" y="152" text-anchor="middle" class="a">erst Muster,</text>
+  <text x="300" y="166" text-anchor="middle" class="a">dann Größe</text>
+</svg>

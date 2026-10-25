@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- the same middle picture between different neighbours -->
+  <text x="180" y="14" text-anchor="middle" class="h">Dasselbe Bild, andere Nachbarn</text>
+  <!-- row 1 -->
+  <rect x="20" y="28" width="90" height="64"/>
+  <circle cx="50" cy="50" r="9" class="m"/><path d="M20 80 C50 70 80 84 110 74" class="m"/>
+  <path d="M44 86 l4 -10 l4 10 M66 86 l4 -10 l4 10" class="m"/>
+  <rect x="135" y="28" width="90" height="64" class="f"/>
+  <rect x="135" y="28" width="90" height="64" stroke-width="2.5"/>
+  <path d="M160 82 v-22 h16 v22 M160 70 h16 M176 60 v-14" />
+  <rect x="250" y="28" width="90" height="64"/>
+  <path d="M262 84 h66 M270 84 v-14 M320 84 v-14 M266 70 h58" class="m"/>
+  <path d="M280 62 l4 -8 l4 8 M300 62 l4 -8 l4 8" class="m"/>
+  <text x="180" y="110" text-anchor="middle" class="a">leerer Stuhl = Pause, Erwartung</text>
+  <!-- row 2 -->
+  <rect x="20" y="124" width="90" height="64"/>
+  <path d="M34 176 C40 150 90 150 96 176 Z" class="f"/><path d="M34 176 C40 150 90 150 96 176" class="m"/>
+  <line x1="20" y1="176" x2="110" y2="176" class="m"/>
+  <rect x="135" y="124" width="90" height="64" class="f"/>
+  <rect x="135" y="124" width="90" height="64" stroke-width="2.5"/>
+  <path d="M160 178 v-22 h16 v22 M160 166 h16 M176 156 v-14" />
+  <rect x="250" y="124" width="90" height="64"/>
+  <path d="M268 188 L293 160 M322 188 L297 160 M250 160 h90 M295 184 v-5 M295 174 v-4 M295 166 v-3" class="m"/>
+  <text x="180" y="206" text-anchor="middle" class="a">leerer Stuhl = Verlust, Abwesenheit</text>
+  <path d="M112 60 h20 M227 60 h20 M112 156 h20 M227 156 h20" class="m"/>
+</svg>

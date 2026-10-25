@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- four depth/size cues -->
+  <text x="45" y="16" text-anchor="middle" class="h">Bekanntes</text>
+  <text x="135" y="16" text-anchor="middle" class="h">Textur</text>
+  <text x="225" y="16" text-anchor="middle" class="h">Dunst</text>
+  <text x="315" y="16" text-anchor="middle" class="h">Überdeckung</text>
+  <!-- 1 known size: tall cliff with tiny figure -->
+  <rect x="8" y="28" width="74" height="96"/>
+  <path d="M14 124 L22 40 L44 34 L60 46 L76 124" class="m"/>
+  <line x1="40" y1="124" x2="40" y2="116" class="a"/><circle cx="40" cy="114" r="1.6" class="af" stroke="none"/>
+  <circle cx="40" cy="118" r="9" class="a" stroke-dasharray="2 2"/>
+  <!-- 2 texture gradient: stones smaller and denser upward -->
+  <rect x="98" y="28" width="74" height="96"/>
+  <line x1="98" y1="48" x2="172" y2="48" class="m"/>
+  <g class="m">
+    <ellipse cx="114" cy="112" rx="9" ry="5"/><ellipse cx="140" cy="114" rx="10" ry="5"/><ellipse cx="162" cy="110" rx="7" ry="4"/>
+    <ellipse cx="108" cy="92" rx="5" ry="3"/><ellipse cx="126" cy="94" rx="6" ry="3"/><ellipse cx="146" cy="92" rx="5" ry="3"/><ellipse cx="163" cy="94" rx="5" ry="3"/>
+    <ellipse cx="106" cy="76" rx="3" ry="1.6"/><ellipse cx="118" cy="77" rx="3" ry="1.6"/><ellipse cx="130" cy="75" rx="3" ry="1.6"/><ellipse cx="142" cy="77" rx="3" ry="1.6"/><ellipse cx="154" cy="75" rx="3" ry="1.6"/><ellipse cx="165" cy="77" rx="3" ry="1.6"/>
+    <path d="M104 62 h3 M111 63 h3 M118 62 h3 M125 63 h3 M132 62 h3 M139 63 h3 M146 62 h3 M153 63 h3 M160 62 h3 M166 63 h3"/>
+    <path d="M102 54 h2 M107 55 h2 M112 54 h2 M117 55 h2 M122 54 h2 M127 55 h2 M132 54 h2 M137 55 h2 M142 54 h2 M147 55 h2 M152 54 h2 M157 55 h2 M162 54 h2 M167 55 h2"/>
+  </g>
+  <!-- 3 aerial perspective: ridges paler with distance -->
+  <rect x="188" y="28" width="74" height="96"/>
+  <path d="M188 70 L204 56 L220 66 L238 50 L262 64" class="m" stroke-width="1" stroke-dasharray="2 2"/>
+  <path d="M188 88 L206 72 L226 84 L244 70 L262 82" class="m"/>
+  <path d="M188 108 L210 88 L232 104 L250 92 L262 100 L262 124 L188 124 Z" class="f"/>
+  <path d="M188 108 L210 88 L232 104 L250 92 L262 100" stroke-width="2"/>
+  <!-- 4 overlap -->
+  <rect x="278" y="28" width="74" height="96"/>
+  <rect x="300" y="52" width="38" height="40" class="m"/>
+  <rect x="288" y="72" width="34" height="40" class="f" stroke="none"/>
+  <rect x="288" y="72" width="34" height="40"/>
+  <!-- captions -->
+  <text x="45" y="142" text-anchor="middle" class="m">Mensch, Boot:</text>
+  <text x="45" y="156" text-anchor="middle" class="m">misst sofort</text>
+  <text x="135" y="142" text-anchor="middle" class="m">fern = kleiner</text>
+  <text x="135" y="156" text-anchor="middle" class="m">und dichter</text>
+  <text x="225" y="142" text-anchor="middle" class="m">blass = fern</text>
+  <text x="225" y="156" text-anchor="middle" class="m">= groß</text>
+  <text x="315" y="142" text-anchor="middle" class="m">was verdeckt,</text>
+  <text x="315" y="156" text-anchor="middle" class="m">liegt vorn</text>
+  <text x="180" y="186" text-anchor="middle" class="a">Fehlen alle vier, gibt es keinen Maßstab.</text>
+</svg>

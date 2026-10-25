@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <text x="90" y="16" text-anchor="middle" class="h">Nur Breite</text>
+  <text x="270" y="16" text-anchor="middle" class="h">Erhaben</text>
+  <!-- wide panorama without cue -->
+  <rect x="10" y="58" width="160" height="40"/>
+  <path d="M10 84 L30 74 L52 80 L76 68 L100 78 L124 70 L148 80 L170 74" class="m"/>
+  <line x1="10" y1="90" x2="170" y2="90" class="m"/>
+  <!-- sublime: wall bursts the frame, tiny figure at foot -->
+  <rect x="230" y="28" width="80" height="104"/>
+  <path d="M230 28 L230 120 L310 120 L310 28 Z" class="f" stroke="none"/>
+  <path d="M238 120 L244 70 L250 28 M298 28 L302 76 L306 120" class="m"/>
+  <line x1="230" y1="120" x2="310" y2="120"/>
+  <line x1="268" y1="120" x2="268" y2="112" stroke-width="2"/><circle cx="268" cy="110" r="1.8" fill="currentColor" stroke="none"/>
+  <path d="M318 112 v-80" class="a"/><path d="M314 38 l4 -6 l4 6" class="a"/>
+  <text x="90" y="118" text-anchor="middle" class="m">Rundblick ohne</text>
+  <text x="90" y="132" text-anchor="middle" class="m">bekannte Größe</text>
+  <text x="270" y="150" text-anchor="middle" class="m">lesbarer Maßstab unten,</text>
+  <text x="270" y="164" text-anchor="middle" class="m">Ausdehnung sprengt den Rand</text>
+  <text x="180" y="190" text-anchor="middle" class="a">Erhaben = Maßstab, der gesprengt wird.</text>
+</svg>
