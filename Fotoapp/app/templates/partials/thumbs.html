@@ -1,0 +1,11 @@
+{# expects: images #}
+<div class="thumbs">
+  {% for i in images %}
+    <a class="thumb" href="/images/{{ i.id }}" title="{{ i.title }}">
+      <img src="/media/{{ i.thumb_path }}" alt="{{ i.title }}" loading="lazy">
+      <span class="cap">{{ i.photographer.name }}{% if i.year %} · {{ i.year }}{% endif %}{% if i.current_analysis %} <span class="dot" title="Analyse vorhanden">●</span>{% endif %}</span>
+    </a>
+  {% else %}
+    <p class="muted">Noch keine Bilder.</p>
+  {% endfor %}
+</div>

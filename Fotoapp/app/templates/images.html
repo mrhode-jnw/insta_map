@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Bibliothek – Sehschule{% endblock %}
+{% block content %}
+<h1>Bibliothek <span class="muted">{{ images | length }} Bilder</span></h1>
+<div class="tags">
+  <a href="/images" class="tag {% if not tag %}on{% endif %}">alle</a>
+  {% for t in all_tags %}<a href="/images?tag={{ t | urlencode }}" class="tag {% if t == tag %}on{% endif %}">{{ t }}</a>{% endfor %}
+</div>
+{% include "partials/thumbs.html" %}
+{% endblock %}

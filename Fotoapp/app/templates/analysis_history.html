@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Analyse-Versionen – Sehschule{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="/images/{{ img.id }}">{{ img.title or "Bild" }}</a> ›</p>
+<h1>Analyse-Versionen</h1>
+<img class="small-hero" src="/media/{{ img.thumb_path }}" alt="">
+{% for an in analyses %}
+  <details class="card" {% if loop.first %}open{% endif %}>
+    <summary>Version {{ an.version }} · {{ an.created_at.strftime('%d.%m.%Y %H:%M') }} · {{ an.model }} · {{ an.prompt_version }}{% if an.replaced_by is none %} · <b>aktuell</b>{% endif %}</summary>
+    {% set a = an.data %}
+    {% include "partials/analysis_body.html" %}
+  </details>
+{% endfor %}
+{% with sources=sources, scope_type="image", scope_id=img.id, editable=False %}{% include "partials/sources.html" %}{% endwith %}
+{% endblock %}

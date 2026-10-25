@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Zeitleiste – Sehschule{% endblock %}
+{% block content %}
+<h1>Zeitleiste</h1>
+<form method="get" action="/timeline" class="inline-form">
+  <select name="chapter" onchange="this.form.submit()">
+    <option value="">alle Bilder mit Jahr</option>
+    {% for c in chapters %}<option value="{{ c.id }}" {% if chapter == c.id %}selected{% endif %}>{{ c.number }}. {{ c.title }}</option>{% endfor %}
+  </select>
+</form>
+{% if not points %}
+  <p class="muted">Keine Bilder mit Jahresangabe{% if chapter %} in diesem Kapitel{% endif %}.</p>
+{% else %}
+<div class="timeline-scroll">
+  <div class="timeline" style="--levels: {{ height }}">
+    {% for p in points %}
+      <a class="tl-item" href="/images/{{ p.img.id }}" style="left: {{ '%.2f' % p.left }}%; --level: {{ p.level }}"
+         title="{{ p.img.year }} · {{ p.img.photographer.name }} · {{ p.img.title }}">
+        <img src="/media/{{ p.img.thumb_path }}" alt="" loading="lazy">
+        <span>{{ p.img.year }}</span>
+      </a>
+    {% endfor %}
+    <div class="axis">
+      {% for y, left in ticks %}<span class="tick" style="left: {{ '%.2f' % left }}%">{{ y }}</span>{% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endblock %}

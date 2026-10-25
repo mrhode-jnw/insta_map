@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}{{ pr.title }} – Sehschule{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="/photographers/{{ pr.photographer.id }}">{{ pr.photographer.name }}</a> ›</p>
+<h1>{{ pr.title }} <span class="muted">{{ pr.period }}</span></h1>
+<div class="two-col">
+  <div>
+    <h3>Kurztext</h3>
+    {% if pr.description_md %}<div class="prose">{{ md(pr.description_md) }}</div>
+    {% elif not sources %}<p class="muted">Keine Quelle hinterlegt.</p>
+    {% else %}<p class="muted">Noch kein Kurztext. Grundlage sind die Quellen rechts.</p>{% endif %}
+    <details class="card">
+      <summary>Bearbeiten</summary>
+      <form method="post" action="/projects/{{ pr.id }}" class="grid-form">
+        <label>Titel <input name="title" value="{{ pr.title }}" required></label>
+        <label>Von <input name="year_from" value="{{ pr.year_from or '' }}"></label>
+        <label>Bis <input name="year_to" value="{{ pr.year_to or '' }}"></label>
+        <label class="wide">Kurztext (Markdown, nur aus hinterlegten Quellen, [S&lt;id&gt;])
+          <textarea name="description_md" rows="6">{{ pr.description_md }}</textarea></label>
+        <button>Speichern</button>
+      </form>
+    </details>
+  </div>
+  <div>
+    {% with sources=sources, scope_type="project", scope_id=pr.id, editable=True %}{% include "partials/sources.html" %}{% endwith %}
+  </div>
+</div>
+<h2>Bilder</h2>
+{% with images=pr.images %}{% include "partials/thumbs.html" %}{% endwith %}
+<p><a class="button secondary" href="/images/new?photographer={{ pr.photographer.name | urlencode }}&project={{ pr.title | urlencode }}">Bild hinzufügen</a></p>
+{% endblock %}

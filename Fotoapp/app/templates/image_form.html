@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Bild hinzufügen – Sehschule{% endblock %}
+{% block content %}
+<h1>Bild hinzufügen</h1>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<form method="post" action="/images" enctype="multipart/form-data" class="grid-form card">
+  <label class="wide">Seiten-URL (Quelle) * <input type="url" name="source_url" value="{{ values.source_url or '' }}" required></label>
+  <label class="wide">Bild-URL <input type="url" name="image_url" value="{{ values.image_url or '' }}"></label>
+  <label class="wide">… oder Datei <input type="file" name="upload" accept="image/*"></label>
+  <label>Fotograf *
+    <input name="photographer" list="photographers" value="{{ values.photographer or '' }}" required></label>
+  <datalist id="photographers">{% for p in photographers %}<option value="{{ p.name }}">{% endfor %}</datalist>
+  <label>Projekt
+    <input name="project" list="projects" value="{{ values.project or '' }}"></label>
+  <datalist id="projects">{% for p in projects %}<option value="{{ p.title }}">{{ p.photographer.name }}</option>{% endfor %}</datalist>
+  <label>Titel <input name="title" value="{{ values.title or '' }}"></label>
+  <label>Jahr <input name="year" inputmode="numeric" value="{{ values.year or '' }}"></label>
+  <label>Ort <input name="location" value="{{ values.location or '' }}"></label>
+  <label>Schlagworte (kommagetrennt) <input name="tags" value="{{ values.tags or '' }}"></label>
+  <label>Abgerufen am <input type="date" name="accessed_at" value="{{ values.accessed_at or today }}"></label>
+  <p class="muted wide">Jahr, Ort und Titel nur eintragen, wenn sie auf der Quellseite stehen.</p>
+  <button>Speichern</button>
+</form>
+{% endblock %}

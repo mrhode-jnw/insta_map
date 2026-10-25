@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Bild {{ pos }}/{{ total }} – Lernen{% endblock %}
+{% block content %}
+<p class="progress">Bild {{ pos }} von {{ total }}</p>
+<figure class="hero learn">
+  <img src="/media/{{ img.file_path }}" alt="">
+</figure>
+<form method="post" action="/learn/answer/{{ img.id }}" class="answers card"
+      onsubmit="this.querySelector('button').disabled=true; this.querySelector('.htmx-indicator').style.opacity=1;">
+  {% for key, label in QUESTIONS %}
+    <label>{{ label }}<textarea name="{{ key }}" rows="3"></textarea></label>
+  {% endfor %}
+  <button>Antwort abgeben und Analyse aufdecken</button>
+  <span class="htmx-indicator">Analyse und Feedback werden geladen … (bis zu 2 Minuten)</span>
+</form>
+<p class="muted small">Fotograf und Titel werden erst nach dem Absenden angezeigt.</p>
+{% endblock %}

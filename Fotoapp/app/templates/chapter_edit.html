@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}Kapitel {{ ch.number }} bearbeiten – Sehschule{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="/chapters">Geschichte</a> › <a href="/chapters/{{ ch.id }}">Kapitel {{ ch.number }}</a></p>
+<h1>{{ ch.title }} bearbeiten</h1>
+{% if request.query_params.get('saved') %}<p class="ok">Gespeichert.</p>{% endif %}
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+{% if draft %}<p class="warn">Neuer Entwurf von Claude im Textfeld – noch nicht gespeichert. Prüfen, dann „Speichern“.</p>{% endif %}
+{% if unknown_refs %}<p class="error">Verweise auf Quellen, die diesem Kapitel nicht zugeordnet sind: {% for r in unknown_refs %}S{{ r }} {% endfor %}</p>{% endif %}
+
+<div class="two-col wide-left">
+  <div>
+    <form method="post" action="/chapters/{{ ch.id }}" class="grid-form card">
+      <label>Nummer <input name="number" type="number" value="{{ ch.number }}" required></label>
+      <label>Titel <input name="title" value="{{ ch.title }}" required></label>
+      <label>Von <input name="period_from" value="{{ ch.period_from or '' }}"></label>
+      <label>Bis <input name="period_to" value="{{ ch.period_to or '' }}"></label>
+      <label class="wide">Text (Markdown; Belege als [S&lt;id&gt;], Ableitungen unter „## Meine Einschätzung“)
+        <textarea name="text_md" rows="24" class="mono">{{ draft or ch.text_md }}</textarea></label>
+      <label>Status
+        <select name="status">
+          <option value="draft" {% if ch.status == 'draft' %}selected{% endif %}>Entwurf</option>
+          <option value="reviewed" {% if ch.status == 'reviewed' %}selected{% endif %}>geprüft</option>
+        </select></label>
+      <button>Speichern</button>
+    </form>
+    <form method="post" action="/chapters/{{ ch.id }}/draft" class="card"
+          onsubmit="return confirm('Entwurf aus den Quellen erzeugen? Der Text im Feld wird ersetzt (erst beim Speichern übernommen).') && (this.querySelector('.htmx-indicator').style.opacity=1, true)">
+      <button class="secondary">Entwurf aus Quellen erzeugen</button>
+      <span class="htmx-indicator">Claude schreibt … (bis zu 2 Minuten)</span>
+      <p class="muted small">Claude sieht nur die Quellenauszüge dieses Kapitels ({{ sources | length }}) und die Angaben zu den Schlüsselbildern.</p>
+    </form>
+
+    <h2 id="images">Schlüsselbilder <span class="muted">{{ ch.images | length }} (Ziel 5–10)</span></h2>
+    {% for ci in ch.images %}
+      <form method="post" action="/chapters/{{ ch.id }}/images/{{ ci.image_id }}" class="key-row">
+        <a href="/images/{{ ci.image.id }}"><img src="/media/{{ ci.image.thumb_path }}" alt=""></a>
+        <div>
+          <div>{{ ci.image.title or "Ohne Titel" }} <span class="muted">{{ ci.image.photographer.name }}{% if ci.image.year %}, {{ ci.image.year }}{% endif %}</span></div>
+          <label>Pos. <input name="position" type="number" value="{{ ci.position }}" class="short"></label>
+          <label>Bildunterschrift <input name="caption_md" value="{{ ci.caption_md }}"></label>
+          <button class="secondary">Speichern</button>
+          <button class="link danger" name="remove" value="1">entfernen</button>
+        </div>
+      </form>
+    {% endfor %}
+    <form method="post" action="/chapters/{{ ch.id }}/images" class="grid-form card">
+      <label class="wide">Bild aus der Bibliothek
+        <select name="image_id">{% for i in candidates %}<option value="{{ i.id }}">{{ i.year or "o. J." }} · {{ i.photographer.name }} · {{ i.title or "Ohne Titel" }}</option>{% endfor %}</select></label>
+      <label class="wide">Bildunterschrift <input name="caption_md"></label>
+      <button>Hinzufügen</button>
+    </form>
+  </div>
+  <div>
+    {% with sources=sources, scope_type="chapter", scope_id=ch.id, editable=True %}{% include "partials/sources.html" %}{% endwith %}
+  </div>
+</div>
+{% endblock %}

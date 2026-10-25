@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Antworten – Lernen{% endblock %}
+{% block content %}
+<h1>Lernantworten</h1>
+<ul class="answer-list">
+  {% for a in answers %}
+    <li><a href="/learn/reveal/{{ a.id }}"><img src="/media/{{ a.image.thumb_path }}" alt=""></a>
+      <div><a href="/learn/reveal/{{ a.id }}">{{ a.image.title or "Bild" }}</a>
+        <span class="muted">{{ a.image.photographer.name }} · {{ a.created_at.strftime('%d.%m.%Y %H:%M') }}</span>
+        <p class="small">{{ (a.feedback_md or "Kein Feedback")[:220] }}{% if a.feedback_md|length > 220 %} …{% endif %}</p></div></li>
+  {% else %}<li class="muted">Noch keine Antworten.</li>{% endfor %}
+</ul>
+{% endblock %}

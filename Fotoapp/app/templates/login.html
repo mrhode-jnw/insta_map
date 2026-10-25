@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sehschule – Anmelden</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="login">
+  <form method="post" action="/login" class="card narrow">
+    <h1>Sehschule</h1>
+    {% if not configured %}
+      <p class="warn">Kein Passwort gesetzt. Bitte <code>APP_PASSWORD</code> in der <code>.env</code> eintragen und neu starten.</p>
+    {% endif %}
+    {% if error %}<p class="error">{{ error }}</p>{% endif %}
+    <input type="hidden" name="next" value="{{ next }}">
+    <label>Passwort <input type="password" name="password" autofocus required></label>
+    <button>Anmelden</button>
+  </form>
+</body>
+</html>

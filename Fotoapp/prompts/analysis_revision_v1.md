@@ -1,0 +1,3 @@
+Es gibt bereits eine gespeicherte Analyse dieses Bildes (unten als `<previous_analysis>`). Mathias hat ausdrücklich eine Neuerzeugung angefordert.
+
+Erstelle die Analyse neu nach denselben Regeln. Die vorherige Version ist der Ausgangspunkt: Übernimm, was zutrifft. Jede inhaltliche Abweichung (andere Schätzung, anderer Standpunkt, andere Deutung, neue oder gestrichene Punkte) musst du im Feld `deviations` begründen – je Abweichung ein Eintrag mit `field` (z. B. `construction.light`) und `reason`. Rein sprachliche Umformulierungen sind keine Abweichung; vermeide sie. Wenn sich nichts ändert, bleibt `deviations` leer.

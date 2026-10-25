@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Geschichte – Sehschule{% endblock %}
+{% block content %}
+<h1>Geschichte</h1>
+<p class="lead">Kapitel entstehen aus hinterlegten Quellen. Ohne Beleg keine Aussage.</p>
+<table class="list">
+  <thead><tr><th>#</th><th>Kapitel</th><th>Zeitraum</th><th>Bilder</th><th>Status</th><th></th></tr></thead>
+  <tbody>
+  {% for c in chapters %}
+    <tr>
+      <td>{{ c.number }}</td>
+      <td><a href="/chapters/{{ c.id }}">{{ c.title }}</a></td>
+      <td>{{ c.period_from or "" }}–{{ c.period_to or "" }}</td>
+      <td>{{ c.images | length }}</td>
+      <td><span class="status {{ c.status }}">{{ {"draft": "Entwurf", "reviewed": "geprüft"}[c.status] }}</span>{% if not c.text_md %} <span class="muted">· ohne Text</span>{% endif %}</td>
+      <td><a href="/chapters/{{ c.id }}/edit">bearbeiten</a> · <a href="/timeline?chapter={{ c.id }}">Zeitleiste</a></td>
+    </tr>
+  {% else %}<tr><td colspan="6" class="muted">Noch keine Kapitel.</td></tr>{% endfor %}
+  </tbody>
+</table>
+<details class="card">
+  <summary>Kapitel anlegen</summary>
+  <form method="post" action="/chapters" class="grid-form">
+    <label>Nummer <input name="number" type="number" required></label>
+    <label>Titel <input name="title" required></label>
+    <label>Von <input name="period_from" inputmode="numeric"></label>
+    <label>Bis <input name="period_to" inputmode="numeric"></label>
+    <button>Anlegen</button>
+  </form>
+</details>
+{% endblock %}

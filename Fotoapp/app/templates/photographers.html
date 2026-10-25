@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Fotografen – Sehschule{% endblock %}
+{% block content %}
+<h1>Fotografen</h1>
+<table class="list">
+  <thead><tr><th>Name</th><th>Lebensdaten</th><th>Projekte</th><th>Bilder</th></tr></thead>
+  <tbody>
+  {% for p in photographers %}
+    <tr>
+      <td><a href="/photographers/{{ p.id }}">{{ p.name }}</a></td>
+      <td>{% if p.born %}{{ p.born }}–{{ p.died or "" }}{% endif %}</td>
+      <td>{{ p.projects | length }}</td>
+      <td><a href="/images?photographer={{ p.id }}">{{ p.images | length }}</a></td>
+    </tr>
+  {% else %}
+    <tr><td colspan="4" class="muted">Noch keine Fotografen.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+<details class="card">
+  <summary>Fotograf anlegen</summary>
+  <form method="post" action="/photographers" class="grid-form">
+    <label>Name <input name="name" required></label>
+    <label>Geboren (nur mit Quelle) <input name="born" inputmode="numeric"></label>
+    <label>Gestorben (nur mit Quelle) <input name="died" inputmode="numeric"></label>
+    <button>Anlegen</button>
+  </form>
+</details>
+{% endblock %}

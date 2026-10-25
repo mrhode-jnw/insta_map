@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}{{ img.title or "Bild" }} – Sehschule{% endblock %}
+{% block content %}
+<p class="crumbs">
+  <a href="/photographers/{{ img.photographer.id }}">{{ img.photographer.name }}</a> ›
+  {% if img.project %}<a href="/projects/{{ img.project.id }}">{{ img.project.title }}</a> ›{% endif %}
+</p>
+<h1>{{ img.title or "Ohne Titel" }}</h1>
+<figure class="hero">
+  <a href="/media/{{ img.file_path }}" target="_blank"><img src="/media/{{ img.file_path }}" alt="{{ img.title }}"></a>
+  <figcaption>
+    {{ img.photographer.name }}{% if img.year %}, {{ img.year }}{% endif %}{% if img.location %} · {{ img.location }}{% endif %}
+    · <a href="{{ img.source_url }}" target="_blank" rel="noopener noreferrer">Quelle</a>
+    <span class="muted">(abgerufen {{ img.accessed_at.strftime('%d.%m.%Y') }})</span>
+    {% for t in img.tag_list %}<a class="tag" href="/images?tag={{ t | urlencode }}">{{ t }}</a>{% endfor %}
+    {% for c in in_chapters %}<a class="tag chapter" href="/chapters/{{ c.id }}">Kap. {{ c.number }}</a>{% endfor %}
+  </figcaption>
+</figure>
+<div class="two-col wide-left">
+  <div>
+    <h2>Analyse</h2>
+    {% include "partials/analysis.html" %}
+  </div>
+  <div>
+    {% with sources=sources, scope_type="image", scope_id=img.id, editable=True %}{% include "partials/sources.html" %}{% endwith %}
+    <p class="muted small">Angezeigt werden Quellen zu Bild, Projekt und Fotograf. Neue Quellen hier hängen am Bild.</p>
+    <details class="card">
+      <summary>Metadaten bearbeiten</summary>
+      <form method="post" action="/images/{{ img.id }}" class="grid-form">
+        <label class="wide">Seiten-URL <input type="url" name="source_url" value="{{ img.source_url }}" required></label>
+        <label>Fotograf <input name="photographer" list="photographers" value="{{ img.photographer.name }}" required></label>
+        <datalist id="photographers">{% for p in photographers %}<option value="{{ p.name }}">{% endfor %}</datalist>
+        <label>Projekt <input name="project" list="projects" value="{{ img.project.title if img.project else '' }}"></label>
+        <datalist id="projects">{% for p in projects %}<option value="{{ p.title }}">{% endfor %}</datalist>
+        <label>Titel <input name="title" value="{{ img.title }}"></label>
+        <label>Jahr <input name="year" value="{{ img.year or '' }}"></label>
+        <label>Ort <input name="location" value="{{ img.location }}"></label>
+        <label>Schlagworte <input name="tags" value="{{ img.tags }}"></label>
+        <button>Speichern</button>
+      </form>
+      <form method="post" action="/images/{{ img.id }}/delete" onsubmit="return confirm('Bild samt Analysen löschen?')">
+        <button class="link danger">Bild löschen</button>
+      </form>
+    </details>
+  </div>
+</div>
+{% endblock %}
