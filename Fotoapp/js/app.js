@@ -426,6 +426,13 @@ views.antworten = async () => {
 };
 
 // --- history
+// Chapter sources plus every source the text cites (photographer, project, image sources).
+function chapterSources(id, text) {
+  const own = sourcesFor("chapter", id), seen = new Set(own.map(x => x.id));
+  const cited = [...referencedIds(text)].filter(i => !seen.has(i)).map(i => lib.by.sources.get(i)).filter(Boolean)
+    .map(x => (x.kind ? { ...x, kind: undefined } : x));
+  return [...own, ...cited];
+}
 const STATUS = { draft: "Entwurf", reviewed: "geprüft", base: "Grundtext (quellenbasiert)" };
 async function chapterState(ch) {
   const all = await loadState("chapters", {});
@@ -458,7 +465,7 @@ views.kapitel = async id => {
   <p><span class="status ${s.status}">${STATUS[s.status]}</span> · <a href="#/kapitel/${id}/bearbeiten">bearbeiten</a> · <a href="#/zeitleiste?k=${id}">Zeitleiste</a></p>
   ${s.text ? "" : `<p class="muted">Noch kein Kapiteltext. Unter „bearbeiten“ einen Entwurf aus den Quellen erzeugen.</p>`}
   ${s.text ? `<nav class="toc">${[...s.text.matchAll(/^## (.+)$/gm)].map(m => `<a href="#" data-toc="${esc(m[1])}">${esc(m[1])}</a>`).join("")}</nav>` : ""}
-  <article class="chapter">${blocks.join("")}</article>${sourcesBlock(sourcesFor("chapter", id), { scope: "chapter" })}`;
+  <article class="chapter">${blocks.join("")}</article>${sourcesBlock(chapterSources(id, s.text), { scope: "chapter" })}`;
 };
 
 views.kapitelEdit = async id => {
