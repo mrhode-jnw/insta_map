@@ -1,0 +1,611 @@
+{
+ "accessed_at": "2026-10-25",
+ "lessons": [
+  {
+   "dimension": "viewpoint",
+   "order": 1,
+   "title": "Standpunkt",
+   "sources": [
+    {
+     "url": "https://www.moma.org/docs/press_archives/3231/releases/MOMA_1964_0018_1964-05-27_20.pdf",
+     "title": "MoMA, Pressemitteilung zu „The Photographer's Eye“ (27. Mai 1964)",
+     "excerpt": "He discovered that his pictures could reveal not only the clarity but the obscurity of things, and that these mysterious and evasive images could also, in their own terms, seem ordered and meaningful."
+    },
+    {
+     "url": "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf",
+     "title": "MoMA, Pressemitteilung zum Buch „The Photographer's Eye“ (5. Dezember 1966)",
+     "excerpt": "These issues do not define discrete categories of work; on the contrary they should be regarded as interdependent aspects of a single problem — as section views through the body of photographic tradition."
+    },
+    {
+     "url": "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf",
+     "title": "MoMA, Pressemitteilung zum Buch „The Photographer's Eye“ (5. Dezember 1966)",
+     "excerpt": "The photographer's vantage point is often dictated by his subject"
+    },
+    {
+     "url": "https://aperture.org/editorial/archive-nature-photographs/",
+     "title": "Aperture: Stephen Shore im Gespräch über „The Nature of Photographs“",
+     "excerpt": "He’s so conscious of what he’s doing—he’s thinking about how this pole in the foreground relates to this gas station behind it in deep space in the real life, and how they also relate to each other sitting right on the picture plane."
+    }
+   ],
+   "intro_md": "Der Standpunkt ist der Punkt im Raum, an dem das Objektiv steht – Höhe, seitliche Lage, Abstand – und die Richtung, in die es blickt. Er ist die einzige Entscheidung, die festlegt, wie sich die Dinge im Bild zueinander verhalten: was was verdeckt, was neben was steht, wie groß Nahes gegen Fernes wirkt, wo der Horizont liegt. Brennweite, Ausschnitt und Belichtung können danach nur noch auswählen und gewichten, was dieser Punkt hergibt. John Szarkowski hat „Vantage Point“ als eigenen Abschnitt seiner Grammatik der Fotografie behandelt [S483678] und zugleich betont, dass seine fünf Begriffe zusammenhängende Ansichten eines einzigen Problems sind [Q2]. Deshalb beginnt der Kurs hier: Wer den Standpunkt beherrscht, hat Distanz, Rahmen und Ebenen schon halb entschieden.",
+   "sections": [
+    {
+     "heading": "Was der Standpunkt festlegt – und was nicht",
+     "body_md": "Ein Foto ist eine Zentralprojektion: Jeder Punkt der Szene wird entlang einer Geraden durch das Projektionszentrum des Objektivs auf die Bildfläche abgebildet. Daraus folgt der wichtigste Satz dieser Lektion: **Die räumlichen Beziehungen im Bild – Überdeckungen, Größenverhältnisse, Fluchten, die Lage des Horizonts – hängen nur vom Ort der Kamera ab.** Die Brennweite bestimmt lediglich, wie viel von diesem Strahlenbündel aufs Bild kommt (Lektion 2), der Rahmen, wo es abgeschnitten wird (Lektion 3).\n\nDrei Größen beschreiben den Standpunkt: die **Höhe** (Froschperspektive, Augenhöhe, erhöht, Aufsicht), die **seitliche Lage** (von wo aus sich Dinge überdecken oder freistellen) und die **Blickrichtung** (frontal zur Fläche oder schräg in die Tiefe, Kamera waagerecht oder geneigt). Ein vierter Faktor, der Abstand, ist so folgenreich, dass er eine eigene Lektion bekommt.\n\nPraktisch heißt das: Ein Standpunkt ist richtig, wenn die Beziehungen stimmen, nicht wenn „das Motiv drauf ist“. Ein halber Schritt nach links kann einen Mast aus einem Kopf herauslösen; zwanzig Zentimeter tiefer können eine Kante genau auf den Horizont legen."
+    },
+    {
+     "heading": "Szarkowski: den normalen Standpunkt aufgeben",
+     "body_md": "In „The Photographer's Eye“ (Ausstellung 1964, Buch 1966 [Q1][Q2]) beschreibt Szarkowski den Standpunkt als Antwort auf eine Grenze des Mediums: Konnte der Fotograf sein Motiv nicht bewegen, so konnte er die Kamera bewegen; um es klar – oft überhaupt – zu sehen, musste er den normalen Standpunkt aufgeben und von oben oder unten, zu nah, zu fern oder von der Rückseite fotografieren [S483678]. Dabei entdeckte er, dass seine Bilder nicht nur die Klarheit, sondern auch die Unklarheit der Dinge zeigen konnten – und dass diese rätselhaften Bilder in ihren eigenen Begriffen geordnet und bedeutungsvoll wirken konnten [Q1]. Zugleich hält er fest, dass der Standpunkt oft vom Motiv diktiert wird [Q3].\n\nZwei Gedanken stecken darin. Erstens: Augenhöhe im Stehen ist kein neutraler Nullpunkt, sondern der Standpunkt, den jeder Passant schon hat – also der, von dem aus das Motiv am wenigsten Neues zeigt. Zweitens: Ein ungewöhnlicher Standpunkt ist kein Effekt, solange er etwas am Motiv sichtbar macht, das vom normalen Punkt aus verborgen bleibt; er wird zum Effekt, wenn er nur die Erwartung „ungewöhnlich“ bedient."
+    },
+    {
+     "heading": "Höhe: Aufsicht, erhöhter Standpunkt, Untersicht",
+     "body_md": "**Erhöht** (Hügel, Dach, Turm): Die Bodenfläche klappt auf, Dinge, die sich auf Augenhöhe verdecken, treten nebeneinander, der Horizont wandert nach oben oder aus dem Bild. Das Bild wird Karte und Muster; der Mensch wird Teil eines Systems. Laut einer Besprechung sucht Edward Burtynsky bei der Planung auf topografischen Karten nach hohen Standpunkten [S131312]; er selbst sagt, die beste Beschreibung dessen, was wir mit Wasser tun, verlange nach Höhe, weil das Gesuchte oft so weit ausgedehnt sei [S186617]. Andreas Gursky beschreibt seinen Zugang so: Zentralperspektive, erhöhte Position – das komme vom Einfluss der Bechers, und so nähere er sich oft seinen Motiven [S540076].\n\n**Senkrechte Aufsicht** (Drohne, Flugzeug): Hier verschwindet der Horizont ganz. Ein Text auf On Landscape beschreibt den Unterschied: Vom hohen Standpunkt blicke man noch in die Landschaft hinaus, die Drohne erlaube den Blick senkrecht nach unten; die Landschaft wirke abstrahiert, es gebe wenige Hinweise auf den Maßstab [S445159]. Für die Praxis wichtig: Mit dem Horizont verliert das Bild sein Oben und Unten – Form ersetzt Ort.\n\n**Tief** (Wasserlinie, Boden, Hocke): Der Vordergrund wird groß, der Horizont sinkt, Himmel oder Wand werden zum Hintergrund, Figuren ragen auf. Timothy O'Sullivan erkundete die Canyons des Colorado laut Cleveland Museum of Art von einem niedrigen Standpunkt aus, aus seinem Boot [S242721] – die Wände wachsen über den Betrachter hinaus."
+    },
+    {
+     "heading": "Seitliche Lage: Überdeckung und Bildebene",
+     "body_md": "Die feinste Arbeit am Standpunkt geschieht seitlich und in Zentimetern. Weil sich nahe Dinge bei einer Kamerabewegung gegen ferne verschieben (Parallaxe), entscheidet der Standpunkt, welche Kante auf welche trifft, was frei steht und was verschmilzt. Stephen Shore beschreibt Walker Evans' Tankstellenbild so: Evans denke darüber nach, wie der Mast im Vordergrund sich zur Tankstelle dahinter im tiefen Raum verhält – und wie beide zugleich direkt auf der Bildebene aufeinander bezogen sind [Q4].\n\nGenau diese doppelte Beziehung – im Raum hintereinander, auf der Fläche nebeneinander – ist das Material des Standpunkts. Bei Shores „Merced River“ (1979) beschreibt David Campany, wie Shore das Profil des Half Dome am Horizont mit dem eines Baums am äußersten rechten Bildrand spiegelt [S617607]; eine solche Entsprechung entsteht nur von einem Punkt aus. Henri Cartier-Bresson stand bei „Hyères“ (1932) laut Nelson-Atkins Museum oben an einer gewundenen Treppe und wartete, bis Bewegung seinen Rahmen belebte; der Radfahrer erscheint, ohne vom Geländer verdeckt zu werden [S662901]. Der Standpunkt war zuerst da, der Moment kam hinzu."
+    },
+    {
+     "heading": "Frontal oder schräg: Fläche gegen Raum",
+     "body_md": "Steht die Bildebene parallel zu einer Fassade, einer Wand oder einem Feld, laufen deren Linien parallel zu den Bildrändern; die Tiefe wird zurückgenommen, das Motiv wird Fläche, Raster, Tafel. Schräg dazu entstehen Fluchten, die den Blick in den Raum ziehen. Frontalität ist kein Stilmittel an sich, sondern eine Methode der Vergleichbarkeit: Bernd und Hilla Becher nahmen laut Art Institute of Chicago einen gleichbleibenden Standpunkt ein, der den vergleichenden Blick ermöglichte [S324496].\n\nGursky hat das bis in die Bildbearbeitung getrieben: Für „Paris, Montparnasse“ (1993) nahm er die linke und rechte Fassadenhälfte von getrennten Standpunkten auf und fügte sie im Computer zusammen [S217543]; der doppelte Standpunkt lässt tiefer in die einzelnen Wohnungen sehen – mit einer Methode, die laut MoMA-Katalog die Konventionen perspektivischen Realismus verletzt [S564527]. Daran sieht man: Ein Einzelbild kann nur einen Standpunkt haben; wer mehrere will, muss montieren.\n\nDie Neigung der Kamera gehört ebenfalls dazu. Kippt man sie nach oben, stürzen die Senkrechten; Verschiebeobjektiv oder Großformat erlauben, den Standpunkt zu halten und die Bildebene senkrecht zu lassen."
+    },
+    {
+     "heading": "Standpunkt als Haltung",
+     "body_md": "Der Standpunkt ist auch eine Aussage über das Verhältnis des Fotografen zur Welt. In einem Artikel über Ansel Adams' „The Tetons and the Snake River“ wird ein Kurator (Senf) wiedergegeben, das Panorama betone Adams' „allwissenden Standpunkt“ und „gottgleiche Perspektive“ [S236552]. Der hohe Punkt über dem Fluss ist hier Weltanschauung: Überblick, Ordnung, Erhabenheit.\n\nWie stark schon eine Höhenänderung die Bedeutung kippen kann, zeigt Gurskys „Chicago, Board of Trade II“ (1999). Laut Tate war bei der früheren Fassung, von einem niedrigeren Standpunkt aus, eine Wand des Handelssaals sichtbar, was die Aktivität begrenzt wirken ließ; in der späteren Fassung füllt der überfüllte Börsenboden das ganze Bild [S677129]. Ein höherer Punkt nimmt die Begrenzung weg – und aus einem Raum wird ein endloses System.\n\nFür Menschenbilder gilt dasselbe im Kleinen: Augenhöhe mit einer sitzenden Person ist eine andere Beziehung als der Blick von oben. Das ist keine Regel, sondern eine Frage, die man vor dem Auslösen beantworten sollte: Von wo aus will ich, dass der Betrachter das sieht?"
+    },
+    {
+     "heading": "Arbeitsweise: den Standpunkt suchen statt nehmen",
+     "body_md": "Profis arbeiten den Standpunkt systematisch durch, oft ohne Kamera am Auge: das Motiv umrunden, in die Hocke gehen, eine Mauer hinaufsteigen, den Kopf seitlich bewegen und beobachten, wann eine Überdeckung kippt. Das Auge vor dem Sucher ist ehrlicher als der Bildschirm, weil man mit ihm schneller wandert.\n\nHilfreich ist eine feste Reihenfolge: (1) Welche zwei oder drei Dinge müssen zueinander in Beziehung treten? (2) Von wo aus stehen sie richtig – hintereinander, nebeneinander, getrennt? (3) In welcher Höhe trennt sich die wichtige Form vom Hintergrund (Himmel, ruhige Wand, Schatten)? (4) Erst dann: Brennweite und Ausschnitt.\n\nAuf Reisen kommt eine kulturelle Ebene hinzu: Viele Aussichtspunkte sind gebaute Standpunkte, die das Bild bereits vorgeben. Sie liefern das erwartbare Bild; der eigene Standpunkt beginnt oft zwanzig Meter daneben, darunter oder dahinter."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "i6cd4bc86d1",
+     "caption_md": "Von weit oben und fast senkrecht verlieren die Rennstrecken ihren Gebrauchswert und werden zu schwarzer Kalligrafie auf hellem Sand; nur oben ein schmaler Streifen Horizont mit Gebäuden verankert das Bild noch in der Welt. Über das Schwesterbild „Bahrain II“ sagt Gursky, es sei von erhöhter Position mit Zentralperspektive aufgenommen [S540076]. Meine Einschätzung: Gerade der kleine Rest Horizont hält die Spannung zwischen Karte und Landschaft.",
+     "look_for": [
+      "Horizont nur als dünner Streifen am oberen Rand",
+      "keine Überdeckungen: alles liegt nebeneinander",
+      "Maßstab nur an Tribüne und Gebäuden ablesbar"
+     ]
+    },
+    {
+     "image_id": "ifccce59f5b",
+     "caption_md": "Der Börsensaal von hoch oben: Händler, Bildschirme und Papier füllen die Fläche bis an alle Ränder, nur am oberen Rand ist noch Deckenkonstruktion zu ahnen. Laut Tate zeigte die frühere, tiefer aufgenommene Fassung eine Wand, die das Geschehen begrenzte; hier nimmt der Boden das ganze Bild ein [S677129]. Lehrreich, weil derselbe Ort mit nur geänderter Höhe eine andere Aussage bekommt.",
+     "look_for": [
+      "fehlende Begrenzung des Raums",
+      "Menschen als farbige Punkte, nicht als Individuen",
+      "Vergleich mit einem gedachten Blick von Saalhöhe"
+     ]
+    },
+    {
+     "image_id": "idb2e605d79",
+     "caption_md": "Laut Tate von einem hohen Standpunkt aus, mit Blick hinab in einen barocken Saal [S837493]. Die Kamera steht auf der Mittelachse: Vitrinen, Regale und Deckenfresken ordnen sich symmetrisch, der Boden klappt auf und zeigt sein Muster, die verwischten Besucher bleiben Nebensache. Meine Einschätzung: Der erhöhte, zentrale Punkt macht aus dem Raum ein Ordnungsbild, kein Erlebnisbild.",
+     "look_for": [
+      "Mittelachse und Symmetrie",
+      "aufgeklappter Boden",
+      "Decke und Boden zugleich sichtbar"
+     ]
+    },
+    {
+     "image_id": "i7fd8cb9704",
+     "caption_md": "Cartier-Bresson stand oben an der Treppe und wartete auf Bewegung in seinem Rahmen [S662901]. Der Standpunkt verwandelt Treppe und Geländer in eine Spirale, die links unten einsetzt und auf die gekrümmte Straße weiterläuft; der Radfahrer erscheint genau in der Lücke oberhalb des Geländers [S662901]. Aus Augenhöhe auf der Straße gäbe es diese Form nicht.",
+     "look_for": [
+      "Aufsicht macht die Spirale lesbar",
+      "Radfahrer frei vom Geländer",
+      "Treppe und Straße als zwei Bögen übereinander"
+     ]
+    },
+    {
+     "image_id": "i715f266a1b",
+     "caption_md": "O'Sullivan arbeitete laut Cleveland Museum of Art vom Boot aus und von niedrigem Standpunkt auf dem Fluss [S242721]. In diesem Albumblatt liegt der Horizont tief, das ruhige Wasser trennt den Uferstreifen vorn von den Wänden, die rechts dunkel und steil aufragen. Meine Einschätzung: Die geringe Höhe macht die Schlucht zur Wand, nicht zur Aussicht.",
+     "look_for": [
+      "tiefe Horizontlinie",
+      "Wasserfläche als Bühne",
+      "rechte Felswand ragt über das Auge"
+     ]
+    },
+    {
+     "image_id": "i54a878c173",
+     "caption_md": "Die Kamera steht kaum über der Wasseroberfläche, auf Höhe des Gesichts und der Nähmaschine (Schätzung nach Bildeindruck). Der Mann ist mitten im Wasser auf Augenhöhe getroffen, nicht von oben über ein Flutgebiet. Meine Einschätzung: Der tiefe Standpunkt macht den Betrachter zum Beteiligten und das Wasser zum Raum, in dem man selbst steht.",
+     "look_for": [
+      "Wasserlinie fast auf Kamerahöhe",
+      "Blickhöhe = Gesichtshöhe",
+      "verschwommener Hintergrund ohne Horizont"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Nur der Standpunkt bestimmt Überdeckungen, Größenverhältnisse und Fluchten; Brennweite und Ausschnitt wählen nur noch aus.",
+    "Augenhöhe im Stehen ist kein neutraler Nullpunkt, sondern der Standpunkt aller anderen.",
+    "Erhöht wird die Welt Karte und Muster, tief wird sie Wand und Bühne; ohne Horizont verliert das Bild Ort und Maßstab.",
+    "Arbeite seitlich in Zentimetern: Beziehungen auf der Bildfläche entstehen nur von einem Punkt aus.",
+    "Frontal macht Fläche und Vergleichbarkeit, schräg macht Raum.",
+    "Jeder Standpunkt ist auch eine Haltung zum Motiv: Überblick, Teilhabe oder Untersicht."
+   ],
+   "exercises": [
+    "Vor einer Sehenswürdigkeit: vom offiziellen Aussichtspunkt ein Referenzbild, dann je zwei Bilder von deutlich höher, deutlich tiefer, seitlich versetzt und von der Rückseite. Abends notieren, welcher Standpunkt etwas zeigt, das der offizielle verdeckt.",
+    "Zwei-Dinge-Übung: Wähle zwei Elemente (Baum und Gipfel, Laterne und Tempeldach) und suche nur durch Bewegen den Punkt, an dem sie auf der Bildfläche eine klare Beziehung eingehen (Berührung, Spiegelung, saubere Trennung). Zehn Bilder, Brennweite fest.",
+    "Höhenleiter: Ein Motiv aus fünf Höhen fotografieren – Boden, Hocke, Auge, erhöht (Mauer, Treppe), Drohne oder Dach. Den Horizont jedes Mal im Bild markieren und beschreiben, wie sich die Aussage ändert.",
+    "Bei Menschen auf dem Markt: dieselbe Person einmal stehend von oben, einmal auf ihrer Augenhöhe. Welche Beziehung zeigt welches Bild?"
+   ],
+   "quiz": [
+    {
+     "question": "Du fotografierst ein Tal mit einem Baum im Vordergrund. Der Baum verdeckt halb eine Kapelle in der Ferne. Was löst das Problem?",
+     "image_id": null,
+     "options": [
+      "Ein längeres Objektiv vom selben Punkt",
+      "Den Standpunkt seitlich oder in der Höhe verändern",
+      "Stärker abblenden, damit beides scharf wird",
+      "Den Ausschnitt enger wählen"
+     ],
+     "correct": 1,
+     "explanation": "Überdeckungen hängen allein vom Ort der Kamera ab. Brennweite und Ausschnitt verändern nur, wie viel von derselben Projektion zu sehen ist; die Kapelle bleibt verdeckt."
+    },
+    {
+     "question": "Was meint Szarkowski mit dem Abschnitt „Vantage Point“ im Kern?",
+     "image_id": null,
+     "options": [
+      "Dass man immer von oben fotografieren sollte, um Übersicht zu gewinnen",
+      "Dass der Fotograf, der das Motiv nicht bewegen kann, die Kamera bewegt und dafür den normalen Standpunkt aufgibt",
+      "Dass der Standpunkt durch die Wahl des Objektivs ersetzt werden kann",
+      "Dass ungewöhnliche Standpunkte die Wirklichkeit verfälschen"
+     ],
+     "correct": 1,
+     "explanation": "Szarkowski beschreibt, dass der Fotograf von oben, unten, zu nah, zu fern oder von hinten fotografieren musste, um das Motiv klar oder überhaupt zu sehen [S483678] – und dass dabei auch Unklarheit sichtbar werden konnte [Q1]."
+    },
+    {
+     "question": "Was leistet der Standpunkt in diesem Bild vor allem?",
+     "image_id": "i6cd4bc86d1",
+     "options": [
+      "Er macht die Rennstrecke durch Untersicht monumental",
+      "Er löst die Strecke aus ihrer Funktion und macht sie zur flächigen Zeichnung",
+      "Er erzeugt durch starke Weitwinkelverzerrung Dynamik",
+      "Er stellt die Zuschauer in den Mittelpunkt"
+     ],
+     "correct": 1,
+     "explanation": "Von weit oben liegen alle Teile nebeneinander, ohne Überdeckung; der Horizont ist nur ein schmaler Streifen. Die Strecke wird Muster, ihr Gebrauch tritt zurück."
+    },
+    {
+     "question": "Wo befand sich die Kamera ungefähr?",
+     "image_id": "i54a878c173",
+     "options": [
+      "Auf einem Dach über dem überfluteten Viertel",
+      "Knapp über der Wasseroberfläche, etwa auf Gesichtshöhe des Mannes",
+      "Am trockenen Ufer, mehrere Meter erhöht",
+      "Unter Wasser"
+     ],
+     "correct": 1,
+     "explanation": "Wasseroberfläche und Gesicht liegen fast auf Kamerahöhe, es ist keine Aufsicht und kein Horizont zu sehen. Der tiefe Standpunkt stellt den Betrachter mit ins Wasser."
+    },
+    {
+     "question": "Laut Tate unterscheidet sich Gurskys „Chicago, Board of Trade II“ von der früheren Fassung durch den Standpunkt. Welche Wirkung hat das?",
+     "image_id": "ifccce59f5b",
+     "options": [
+      "Der höhere Punkt zeigt eine begrenzende Wand und macht den Saal überschaubar",
+      "Ohne sichtbare Wand füllt das Gewimmel das ganze Bild und wirkt unbegrenzt",
+      "Der tiefere Punkt hebt einzelne Händler als Porträts hervor",
+      "Der Standpunkt bleibt gleich, nur die Farben ändern sich"
+     ],
+     "correct": 1,
+     "explanation": "Die frühere, tiefer aufgenommene Fassung zeigte eine Wand, die das Geschehen begrenzte; in der späteren füllt der Boden das ganze Bild [S677129]."
+    },
+    {
+     "question": "Warum reicht es nicht, ein Bild von zwei verschiedenen Standpunkten einfach „irgendwie“ zu vereinen, wie Gursky es bei „Paris, Montparnasse“ tat?",
+     "image_id": null,
+     "options": [
+      "Weil ein Einzelbild physikalisch nur ein Projektionszentrum hat; mehrere Standpunkte erfordern eine Montage",
+      "Weil die Belichtung sonst nicht passt",
+      "Weil Teleobjektive keine Fassaden abbilden können",
+      "Weil der Weißabgleich zwischen zwei Aufnahmen immer abweicht"
+     ],
+     "correct": 0,
+     "explanation": "Jede Aufnahme hat genau einen Standpunkt. Gursky nahm die Fassadenhälften getrennt auf und fügte sie im Computer zusammen [S217543], was laut MoMA-Katalog die Konventionen perspektivischen Realismus verletzt [S564527]."
+    }
+   ]
+  },
+  {
+   "dimension": "distance",
+   "order": 2,
+   "title": "Distanz",
+   "sources": [
+    {
+     "url": "https://www.photoreview.com.au/tips/shooting/perspective-and-focal-length/",
+     "title": "Photo Review: Perspective and focal length",
+     "excerpt": "But, in fact, lens focal length has no influence upon perspective as such; instead the perspective changes as the camera position or viewpoint changes. Changing the lens focal length without changing the camera position has no impact upon the perspective in the scene, even though it radically alters the size of objects within the scene, as the illustrations below show."
+    },
+    {
+     "url": "https://www.photoreview.com.au/tips/shooting/perspective-and-focal-length/",
+     "title": "Photo Review: Perspective and focal length",
+     "excerpt": "Perspective distortion depends upon the distance between the subject and the camera. Wide-angle lenses tend to be used closer to subjects because they have a wider field of view, while telephoto lenses have a narrower field of view and are generally used from further away."
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/robert-capa/",
+     "title": "Magnum Photos: Robert Capa",
+     "excerpt": "\"If your photographs aren't good enough, you're not close enough.\" - Robert Capa"
+    }
+   ],
+   "intro_md": "Distanz ist der Abstand zwischen Kamera und Motiv – und damit zugleich ein räumliches, ein inhaltliches und ein menschliches Verhältnis. Räumlich bestimmt sie, wie groß Nahes gegen Fernes erscheint und ob ein Raum gedehnt oder gestaut wirkt. Inhaltlich entscheidet sie, ob ein Ding als Material, als Gegenstand oder als Muster gelesen wird. Menschlich legt sie fest, ob der Fotograf Beteiligter oder Beobachter ist. Die Brennweite wird oft für die Ursache dieser Wirkungen gehalten; tatsächlich ändert sich die Perspektive nur mit dem Kamerastandort [Q1]. Die Lektion klärt diese Verwechslung und zeigt, wie Fotografen von Burtynsky bis Gohlke Distanz als bewusste Entscheidung einsetzen.",
+   "sections": [
+    {
+     "heading": "Zwei Bedeutungen von Distanz",
+     "body_md": "Im Bild wirkt Distanz auf zwei Ebenen, die man auseinanderhalten muss:\n\n1. **Aufnahmeabstand** – wie weit die Kamera vom Hauptmotiv entfernt ist. Er bestimmt die Perspektive: die Größenverhältnisse zwischen Vorder- und Hintergrund, die Stärke der Fluchten, wie viel Raum zwischen den Ebenen spürbar ist.\n2. **Bildmaßstab** – wie groß das Motiv im Bild erscheint (Detail, Gegenstand, Umgebung, Panorama). Er ergibt sich aus Abstand und Brennweite zusammen.\n\nDerselbe Bildmaßstab lässt sich von nah mit Weitwinkel oder von fern mit Tele erreichen – die Bilder sehen dennoch grundverschieden aus, weil der Aufnahmeabstand verschieden ist. Szarkowski zählt „zu nah“ und „zu fern“ ausdrücklich zu den Möglichkeiten, den normalen Standpunkt aufzugeben [S483678]: Distanz ist ein Sonderfall des Standpunkts."
+    },
+    {
+     "heading": "Brennweite als Wirkung: Kompression und Dehnung",
+     "body_md": "Die Faustregel „Tele verdichtet, Weitwinkel dehnt“ beschreibt eine Wirkung, deren Ursache aber der Abstand ist. Photo Review fasst es so: Die Brennweite habe auf die Perspektive als solche keinen Einfluss; sie ändere sich mit dem Kamerastandort. Wechselt man nur die Brennweite, ändert sich nur die Größe der Dinge im Bild [Q1]. Weitwinkel werden eher nah, Teleobjektive eher von weiter weg benutzt – daher die Verwechslung [Q2].\n\nDie Geometrie dahinter ist einfach: Die Bildgröße eines Gegenstands ist umgekehrt proportional zu seiner Entfernung. Steht ein Fels 2 m vor der Kamera und ein Berg 2 km entfernt, beträgt das Entfernungsverhältnis 1:1000 – der Fels wird riesig, der Berg winzig, der Raum dazwischen gedehnt. Fotografiert man aus 10 km Entfernung einen Kamm in 10 km und einen zweiten in 12 km, beträgt das Verhältnis nur 1:1,2 – beide Kämme erscheinen fast gleich groß, sie rücken optisch zusammen. Das Tele ist nötig, um aus dieser Entfernung überhaupt einen brauchbaren Ausschnitt zu bekommen; die „Kompression“ selbst stammt aus dem Abstand.\n\nPraktische Konsequenz: Ein enger Ausschnitt aus einem Weitwinkelbild hat dieselbe Perspektive wie ein Telebild vom selben Ort. Wer Berge hinter einem Dorf groß haben will, muss weiter weg, nicht nur länger zoomen. Wer einen Stein im Vordergrund mächtig haben will, muss nah heran, nicht nur kürzer zoomen."
+    },
+    {
+     "heading": "Nähe: Teilhabe und gedehnter Raum",
+     "body_md": "Robert Capa wird auf seiner Magnum-Seite mit dem Satz zitiert, wenn die Fotos nicht gut genug seien, sei man nicht nah genug dran gewesen [Q3]. Der Satz ist zur Formel geworden, aber man sollte ihn räumlich lesen: Nähe ändert nicht nur den Maßstab, sondern die Perspektive. Aus kurzer Distanz wird das Nahe übergroß, Linien fluchten stark, der Hintergrund rückt weg und wird klein. Der Betrachter steht mitten in der Szene.\n\nNick Brandt erklärt im Ausstellungstext zu „Dust“, er verzichte auf Actionaufnahmen und vor allem auf Teleobjektive und gehe stattdessen nah heran, oft auf wenige Fuß [S638598]. Aus wenigen Fuß Abstand hat ein Tier eine andere Präsenz als aus hundert Metern mit Tele bei gleichem Ausschnitt: Die Proportionen des Körpers, die Lage des Horizonts, der Blick des Tiers auf die Kamera ändern sich.\n\nDie Grenze der Nähe ist nicht technisch, sondern inhaltlich: Zu nah löst sich der Gegenstand vom Ort und wird Material, Textur, Detail (Lektion 11)."
+    },
+    {
+     "heading": "Die Schwelle der Lesbarkeit",
+     "body_md": "Zwischen Material und Muster gibt es einen Abstand, in dem beides zugleich gilt. Burtynsky beschreibt, er habe bemerkt, dass in bestimmten Entfernungen der Gebrauch eines Objekts – ein Ölfass, ein Filter – erkennbar blieb, es aber zugleich eine abstrakte Qualität bekam, ohne seinen Ursprung zu verlieren [S953831]. Michael Wolf beschreibt dieselbe Doppelung an Hongkonger Hochhäusern: Von weit weg könnten sie ein Muster, ein Wandteppich sein, beim Näherkommen sehe man plötzlich, dass dort Menschen wohnen – diese Dualität mache sie interessant [S149627].\n\nDiese Schwelle ist bei jedem Motiv anders und lässt sich nur durch Gehen finden. Ein nützliches Kriterium: Im Bild muss eine Einheit erkennbar bleiben, an der der Betrachter den Maßstab abliest – ein Fenster, ein Mensch, ein Auto. Verschwindet sie, kippt das Bild ins Ornament; dominiert sie, kippt es in die Beschreibung."
+    },
+    {
+     "heading": "Ferne: Luft, Umgebung, Zurückhaltung",
+     "body_md": "Zurücktreten zeigt das, was das Motiv umgibt. Eine MoMA-Pressemitteilung zu Frank Gohlkes Getreidesilos hält fest, dass er bis 1973 von den Silos zurückgetreten war, um die Luft um sie und das Land, auf dem sie stehen, zu zeigen [S664474]. Joel Meyerowitz berichtet, die Großformatkamera habe ihn gezwungen, aus seiner gewohnten Nähe zurückzutreten und die weitere Umgebung aufzunehmen [S500325]. Stephen Shore sagt über eine Aufnahme, ihm sei mit der Großformatkamera klar geworden, dass er nicht über die Straße gehen müsse, um einen Mann zu fotografieren; er könne ihn ein winziges Ding sein lassen, das im Bild zu entdecken ist [S121641].\n\nFerne ist damit auch eine Haltung. Lewis Baltz sagte, er habe seine Fotografie so stumm und distanziert wie möglich aussehen lassen wollen, um möglichst objektiv zu wirken [S532448]. Harry Gruyaert nennt Konzentration und Distanz für sich unverzichtbar [S312733]. Distanz heißt hier nicht Kälte, sondern Raum für den Betrachter: Er muss die Dinge im Bild selbst finden."
+    },
+    {
+     "heading": "Distanz, Schärfe und Hintergrund",
+     "body_md": "Auch die Wirkung der Unschärfe hängt am Abstand. Bei gleichem Bildmaßstab des Hauptmotivs und gleicher Blende ist die Schärfentiefe um das Motiv herum für kurze und lange Brennweiten annähernd gleich; verschieden ist der Hintergrund. Aus großer Distanz mit Tele wird ein kleiner Ausschnitt des Hintergrunds stark vergrößert – er erscheint als ruhige, weiche Fläche hinter dem Motiv. Aus kurzer Distanz mit Weitwinkel bleibt viel Umgebung im Bild, klein und oft noch erkennbar.\n\nDaraus folgt eine Entscheidung, die oft unbewusst fällt: Soll das Motiv aus seinem Ort gelöst werden (fern, lang, weicher Hintergrund) oder in ihm stehen (nah, kurz, lesbare Umgebung)? Für Reisefotografie ist die zweite Variante meist die informativere, die erste die gefälligere."
+    },
+    {
+     "heading": "Distanz in der Landschaft: Ebenen stauen oder strecken",
+     "body_md": "Für Landschaftsfotografen ist der Abstand das wichtigste Werkzeug der Tiefe. Aus großer Distanz mit langer Brennweite rücken hintereinander liegende Kämme, Dunstschichten oder Häuserreihen zusammen; die Luftperspektive (Helligkeits- und Kontrastabnahme mit der Entfernung) trennt sie dann tonal statt durch Größe. Christopher Burkett schreibt zu „Daybreak“, er habe das 800-mm-Objektiv mit Rückteil-Neigung benutzt und auf f/45 abgeblendet, um alles scharf zu bekommen [S510886] – ein Tele als Werkzeug, um aus dem Fluss ein dichtes, flaches Stück Fläche herauszuschneiden.\n\nAus kurzer Distanz mit Weitwinkel entsteht das Gegenteil: ein übergroßer Vordergrund, der in die Tiefe führt. In einem Interview auf On Landscape wird diese Schule – „foreground/background, powerfully forced compositions“ – mit David Muench verbunden [S873127]. Sie funktioniert, wenn der Vordergrund inhaltlich etwas zum Hintergrund sagt; sonst ist sie Formel.\n\nGute Arbeit mit Distanz beginnt mit einer Frage: Sollen die Ebenen des Bildes einander bedrängen oder auseinanderstehen? Die Antwort bestimmt den Abstand; die Brennweite folgt."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "i1c86e8ee57",
+     "caption_md": "Drei Silos frontal, mit sichtbarem Schotterboden vorn, Stromleitungen und einem Streifen Himmel. Laut MoMA war Gohlke bis 1973 von den Silos zurückgetreten, um Luft und Land um sie zu zeigen [S664474]. Meine Einschätzung: Der Abstand ist gerade so groß, dass die Silos die Bildhöhe noch fast füllen, aber Boden, Nachbarhaus und Masten mitspielen – das Bauwerk wird Teil eines Ortes.",
+     "look_for": [
+      "breiter Bodenstreifen im Vordergrund",
+      "Silos füllen die Höhe, aber nicht die Breite",
+      "Masten und Haus links als Umgebung"
+     ]
+    },
+    {
+     "image_id": "i88ceb1aba7",
+     "caption_md": "Eine Wand aus Hochhausfassaden ohne Himmel und Boden. Aus diesem Abstand bleiben Fenster und einzelne Wohnungen gerade noch erkennbar, das Ganze liest sich zugleich als Gewebe. Wolf beschreibt genau diese Dualität von Muster aus der Ferne und bewohnten Wohnungen beim Näherkommen [S149627].",
+     "look_for": [
+      "Fenster als Maßstabseinheit",
+      "keine Tiefe zwischen den Türmen",
+      "Muster und Wohnung zugleich"
+     ]
+    },
+    {
+     "image_id": "i16985dcefc",
+     "caption_md": "Erhöht und aus mittlerer Distanz: ein Trümmerfeld mit Notunterkünften, eine Straße windet sich durchs Bild, Menschen und Lastwagen sind klein, aber erkennbar. Burtynsky beschreibt Entfernungen, bei denen der Gebrauch eines Dings sichtbar bleibt und es zugleich abstrakt wirkt [S953831]. Meine Einschätzung: Ein Stück näher wäre es eine Reportage über Einzelne, ein Stück ferner ein graues Muster.",
+     "look_for": [
+      "Menschen als kleinste lesbare Einheit",
+      "Straße als Leitform durch das Muster",
+      "Abstand zwischen Beschreibung und Abstraktion"
+     ]
+    },
+    {
+     "image_id": "i4a55592e19",
+     "caption_md": "Ein Stück Fluss mit Steinen und gespiegeltem Licht in Orange und Blau, ohne Ufer und Horizont. Burkett nennt für dieses Bild das 800-mm-Objektiv [S510886]. Meine Einschätzung: Der große Abstand mit langer Brennweite schneidet aus dem Fluss eine flache Fläche heraus; die Steine wirken alle etwa gleich groß, Tiefe ist kaum spürbar – Kompression als Bildwirkung.",
+     "look_for": [
+      "kaum Größenabnahme der Steine nach oben",
+      "keine Raumbegrenzung",
+      "Fläche statt Raum"
+     ]
+    },
+    {
+     "image_id": "i73c5f80960",
+     "caption_md": "Vom erhöhten Ufer aus (Campany: ein Felsvorsprung über der Flussbiegung [S617607]) sind die Badenden klein im Mittelgrund, der Half Dome klein am Horizont. Shore rahmte laut Campany klassisch mit Vorder-, Mittel- und Hintergrund [S617607]. Meine Einschätzung: Der Abstand lässt die Familie zu einer Szene werden, die man im Bild entdeckt, statt ein Porträt zu sein.",
+     "look_for": [
+      "Menschen klein, aber in Gesten lesbar",
+      "drei Tiefenebenen",
+      "Wasser als Vordergrund ohne übergroßen Gegenstand"
+     ]
+    },
+    {
+     "image_id": "i572ccc0ec3",
+     "caption_md": "Laut Titel vom Dach eines Militärkrankenhauses aufgenommen. Die Hochhäuser stapeln sich bis zum Horizont, der kaum Abstand zu den vorderen Türmen zu haben scheint. Meine Einschätzung (Schätzung nach Bildeindruck): großer Abstand und eher lange Brennweite – die geringe Größenabnahme von vorn nach hinten verdichtet die Stadt zu einer Wand.",
+     "look_for": [
+      "Größenverhältnis vordere zu hinteren Türme",
+      "kein Himmel als Atemraum",
+      "Verdichtung als Aussage über Dichte"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Perspektive entsteht durch den Abstand, nicht durch die Brennweite; die Brennweite wählt nur den Ausschnitt.",
+    "„Kompression“ heißt: weit weg, daher kleine Entfernungsunterschiede; „Dehnung“ heißt: nah dran, daher große.",
+    "Erst den Abstand für die Beziehung der Ebenen wählen, dann die Brennweite für den Rahmen.",
+    "Jedes Motiv hat eine Lesbarkeitsschwelle, an der Gegenstand und Muster zugleich gelten.",
+    "Nähe macht zum Beteiligten, Ferne gibt dem Betrachter Raum, Dinge selbst zu entdecken.",
+    "Ein Weitwinkel-Vordergrund trägt nur, wenn er inhaltlich etwas zum Hintergrund sagt."
+   ],
+   "exercises": [
+    "Brennweitenlüge prüfen: Von einem Punkt aus mit 24 mm und 200 mm fotografieren, dann das 24-mm-Bild auf den 200-mm-Ausschnitt beschneiden und vergleichen. Danach vom Motiv weggehen, bis es mit 200 mm genauso groß ist wie vorher mit 24 mm, und beide Bilder nebeneinanderlegen.",
+    "Drei Abstände: Ein Motiv (Reisterrasse, Hafen, Markt) so nah, dass es nur Material ist, so fern, dass es nur Muster ist, und an der Schwelle dazwischen. Die Schwelle notieren: Welche Einheit macht den Maßstab lesbar?",
+    "Gebirgskämme stauen: Von einem fernen, erhöhten Punkt mit langer Brennweite drei bis fünf hintereinanderliegende Kämme im Dunst fotografieren, dann von näher mit kürzerer Brennweite bei gleicher Bildbreite des vordersten Kamms. Wie ändert sich der Abstand der Kämme im Bild?",
+    "Ein Mensch, zwei Distanzen: Dieselbe Person auf dem Markt einmal aus 1,5 m, einmal aus 30 m – so, dass sie klein in ihrer Umgebung steht. Welche Geschichte erzählt welches Bild?"
+   ],
+   "quiz": [
+    {
+     "question": "Du stehst an einem Punkt und fotografierst mit 24 mm. Später beschneidest du das Bild so, dass es dem Ausschnitt eines 100-mm-Objektivs entspricht. Was ist im Vergleich zu einem echten 100-mm-Bild vom selben Punkt anders?",
+     "image_id": null,
+     "options": [
+      "Die Perspektive ist gedehnter, weil Weitwinkel dehnen",
+      "Die Perspektive ist gleich; nur Auflösung und eventuell Schärfeverlauf unterscheiden sich",
+      "Der Hintergrund wirkt näher, weil beschnitten wurde",
+      "Die Fluchten sind stärker"
+     ],
+     "correct": 1,
+     "explanation": "Die Perspektive hängt nur vom Kamerastandort ab [Q1]. Ein Ausschnitt aus dem Weitwinkelbild ist geometrisch dieselbe Projektion wie das Telebild vom selben Ort."
+    },
+    {
+     "question": "Warum wirken zwei Bergkämme in 10 und 12 km Entfernung im Telebild fast gleich groß?",
+     "image_id": null,
+     "options": [
+      "Weil das Teleobjektiv den Raum optisch zusammenpresst",
+      "Weil ihre Entfernungen zur Kamera sich nur um den Faktor 1,2 unterscheiden",
+      "Weil Dunst die Konturen weicher macht",
+      "Weil lange Brennweiten weniger Schärfentiefe haben"
+     ],
+     "correct": 1,
+     "explanation": "Die Bildgröße ist umgekehrt proportional zur Entfernung. Bei 10 und 12 km ist das Verhältnis nur 1:1,2; das Tele liefert lediglich den engen Ausschnitt dazu."
+    },
+    {
+     "question": "Was ist laut Burtynsky an bestimmten Entfernungen interessant?",
+     "image_id": null,
+     "options": [
+      "Dass alle Gegenstände ununterscheidbar werden",
+      "Dass der Gebrauch eines Objekts erkennbar bleibt und es zugleich abstrakt wirkt",
+      "Dass Farben verschwinden und nur Formen bleiben",
+      "Dass Menschen den Maßstab übernehmen"
+     ],
+     "correct": 1,
+     "explanation": "Burtynsky beschreibt, dass in bestimmten Entfernungen etwa ein Ölfass erkennbar bleibt und zugleich eine abstrakte Qualität bekommt, ohne seinen Ursprung zu verlieren [S953831]."
+    },
+    {
+     "question": "Was hält dieses Bild an der Schwelle zwischen Muster und Beschreibung?",
+     "image_id": "i88ceb1aba7",
+     "options": [
+      "Der Himmel oben als Maßstab",
+      "Die erkennbaren einzelnen Fenster und Wohnungen",
+      "Die starke Fluchtung der Türme",
+      "Ein Mensch im Vordergrund"
+     ],
+     "correct": 1,
+     "explanation": "Es gibt weder Himmel noch Menschen noch Fluchten; die Fenster sind die kleinste lesbare Einheit. Sie lassen das Gewebe zugleich als Wohnraum lesen, wie Wolf es beschreibt [S149627]."
+    },
+    {
+     "question": "Was erklärt am besten, warum die Steine in diesem Bild nach oben kaum kleiner werden?",
+     "image_id": "i4a55592e19",
+     "options": [
+      "Großer Aufnahmeabstand mit sehr langer Brennweite",
+      "Ein Weitwinkel aus kurzer Distanz",
+      "Starkes Abblenden",
+      "Senkrechte Drohnenaufsicht aus geringer Höhe"
+     ],
+     "correct": 0,
+     "explanation": "Burkett nennt das 800-mm-Objektiv [S510886]. Aus großer Entfernung sind die relativen Entfernungsunterschiede klein, deshalb wirkt die Wasserfläche flach und gestaut."
+    },
+    {
+     "question": "Nick Brandt verzichtet laut eigener Aussage auf Teleobjektive und geht nah heran. Was ändert sich dadurch gegenüber einer Teleaufnahme mit gleichem Bildausschnitt?",
+     "image_id": null,
+     "options": [
+      "Nichts, nur die Bildqualität",
+      "Die Perspektive: Proportionen, Horizontlage und Verhältnis zum Hintergrund ändern sich mit dem Abstand",
+      "Nur die Schärfentiefe",
+      "Nur die Farbsättigung"
+     ],
+     "correct": 1,
+     "explanation": "Brandt nennt den Verzicht auf Tele und die Nähe von wenigen Fuß [S638598]. Gleicher Ausschnitt aus anderem Abstand bedeutet andere Perspektive – das Tier steht anders im Raum und zum Betrachter."
+    }
+   ]
+  },
+  {
+   "dimension": "frame",
+   "order": 3,
+   "title": "Rahmen",
+   "sources": [
+    {
+     "url": "https://aperture.org/editorial/archive-nature-photographs/",
+     "title": "Aperture: Stephen Shore im Gespräch über „The Nature of Photographs“",
+     "excerpt": "In some images, the frame acts as the end of the picture. I may want to take a portrait of you, and I decide where your face is going to go in the picture, and then I’m aware of the frame. The picture simply has to end somewhere, and I make a decision about where that is."
+    },
+    {
+     "url": "https://aperture.org/editorial/archive-nature-photographs/",
+     "title": "Aperture: Stephen Shore im Gespräch über „The Nature of Photographs“",
+     "excerpt": "As soon as you’re aware of what’s behind me, as well as me, you make a different framing decision. The frame resonates off of what you pay attention to."
+    },
+    {
+     "url": "https://aperture.org/editorial/archive-nature-photographs/",
+     "title": "Aperture: Stephen Shore im Gespräch über „The Nature of Photographs“",
+     "excerpt": "John Szarkowski talks about the Japanese and Chinese scroll tradition: you turn the scrolls to see the image pass by, so you see an infinite number of framings—the way a photographer going out in the world sees an infinite number of framings."
+    },
+    {
+     "url": "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf",
+     "title": "MoMA, Pressemitteilung zum Buch „The Photographer's Eye“ (5. Dezember 1966)",
+     "excerpt": "Jean Arp's sculpture bisects and echoes the shape of his face in the portrait by Arnold Newman"
+    },
+    {
+     "url": "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf",
+     "title": "MoMA, Pressemitteilung zum Buch „The Photographer's Eye“ (5. Dezember 1966)",
+     "excerpt": "and Paul Strand frames his Vermont church with two trees"
+    }
+   ],
+   "intro_md": "Der Rahmen ist die Grenze zwischen dem, was im Bild ist, und dem, was es nicht ist. Ein Maler beginnt mit einer leeren Fläche und füllt sie; der Fotograf beginnt mit der ganzen Welt und schneidet aus ihr heraus. Für Szarkowski ist das das zentrale Problem des Fotografen: was einschließen, was verwerfen – die Entscheidungslinie ist der Bildrand [S132139]. Der Rahmen schafft Beziehungen, die es in der Wirklichkeit nicht gibt: Dinge berühren den Rand, werden angeschnitten, stehen in Ecken, rücken durch das Format zusammen oder auseinander. Diese Lektion behandelt Bildkante, Ecken, Rahmen im Rahmen und das Seitenverhältnis – und den Unterschied zwischen einem Rahmen, der das Bild beendet, und einem, mit dem es anfängt [Q1][S184045].",
+   "sections": [
+    {
+     "heading": "Ausschneiden statt Zusammensetzen",
+     "body_md": "Stephen Shore hält den Begriff „Komposition“ für eine Leihgabe aus der Malerei: Ein Gemälde setze aus Bausteinen etwas Komplexeres zusammen (synthetisch), eine Fotografie nehme die Welt, lege eine Ordnung darauf und vereinfache sie (analytisch) [S547798]. Shore gibt einen Gedanken Szarkowskis wieder, der die japanische und chinesische Rollbildtradition heranzieht: Beim Abrollen sehe man unendlich viele Rahmungen – so wie ein Fotograf, der in die Welt hinausgeht [Q3].\n\nDaraus folgt: Der Rahmen ist kein Behälter, in den man Dinge ordnet, sondern ein Schnitt durch ein Kontinuum. Alles, was der Rand berührt oder schneidet, verweist nach draußen. Szarkowski stellte „The Frame“ deshalb als eigene Kategorie neben Ding, Detail, Zeit und Standpunkt [S132139]."
+    },
+    {
+     "heading": "Rahmen als Ende oder als Anfang",
+     "body_md": "Shore beschreibt zwei Arten zu rahmen. Bei manchen Bildern sei der Rahmen das Ende: Man entscheide, wo ein Gesicht im Bild sitzt, und sei sich dann des Rahmens bewusst; das Bild müsse irgendwo aufhören, und man entscheide, wo [Q1]. Oft aber sei der Rahmen mit der Großbildkamera nicht das Ende, sondern der Anfang: Der Fotograf beginne beim Rahmen und baue das Bild von ihm aus nach innen [S184045].\n\nIm ersten Fall steht ein Motiv im Zentrum der Aufmerksamkeit, und der Rand ist eine Folge. Im zweiten sind die vier Kanten das Gerüst: Was an ihnen anliegt, wird ausgewählt, bevor man auf das Innere schaut. Shore ergänzt, sobald man bemerke, was hinter einer Person liegt, treffe man eine andere Rahmungsentscheidung; der Rahmen schwinge mit dem, worauf man achtet [Q2].\n\nPraktisch: Wer nur das Motiv sieht, rahmt zentrierend und lässt Ränder dem Zufall. Wer Kanten sieht, prüft jeden Rand einzeln – was berührt ihn, was wird angeschnitten, was gerade ausgeschlossen?"
+    },
+    {
+     "heading": "Bildkanten und Ecken",
+     "body_md": "Die Kanten sind die stärksten Linien eines Bildes, weil sie das einzige sind, was jedes Foto hat. Was an ihnen geschieht, liest das Auge mit:\n\n- **Anschnitt**: Ein angeschnittener Gegenstand setzt sich gedanklich fort. Michael Wolf beschreibt, wie das Weglassen von Himmel und Horizont das Gefühl unbegrenzter Größe erzeugt, weil man nicht weiß, wie groß das Gebäude ist [S119409]. Laut MoMA-Katalog beschnitt Gursky bei „Paris, Montparnasse“ den Wohnblock links und rechts und nahm dem Bild so die Tiefe zwischen Fassade und Bildebene, während Ruffs Gebäude bequem von ihren Rahmen umschlossen seien [S162796].\n- **Berührung**: Eine Form, die den Rand gerade eben berührt, erzeugt Spannung oder wirkt unentschieden; klar drin oder klar angeschnitten ist meist stärker.\n- **Ecken**: Hans Strand achtet beim Fliegen besonders auf die Ecken des Rahmens und löst aus, wenn sie im Einklang sind [S147322].\n\nEliot Porters „Intimate Landscapes“ beschreiben ein zentrifugales Bild, das den Blick zu Ecken und Rändern führt; der Betrachter müsse dabei bedenken, was der Fotograf bei seiner Auswahl ausgeschlossen hat [S163872]. Das Gegenmodell – ein in sich geschlossenes Bild, das den Blick zur Mitte zieht – kann man zentripetal nennen. Beides sind Entscheidungen über die Kante."
+    },
+    {
+     "heading": "Rahmen im Rahmen",
+     "body_md": "Fenster, Türen, Bäume, Bögen oder Bilder in der Welt wiederholen den Bildrand im Inneren. Szarkowskis Beispiele für „The Frame“ beschreibt die MoMA-Mitteilung so: Jean Arps Skulptur halbiert und wiederholt in Arnold Newmans Porträt die Form seines Gesichts [Q4]; Paul Strand rahmt seine Kirche in Vermont mit zwei Bäumen [Q5].\n\nHerbert Ponting berichtet von einer Eisgrotte, deren Eingang durch einen glücklichen Zufall einen Blick auf die Terra Nova rahmte; wenige Stunden später hatte sich der Eisberg gedreht und das Schiff war nicht mehr zu sehen [S407736]. Bei Stephen Shores „U.S. 97, South of Klamath Falls“ zeigt eine Plakatwand ein Bergbild vor echten Bergen [S732498]: Der Rahmen im Rahmen thematisiert das Herausschneiden selbst.\n\nVorsicht: Der Torbogen-Rahmen ist eines der häufigsten Reiseklischees. Er trägt, wenn der innere Rahmen etwas über das Verhältnis von Hier und Dort sagt; als bloße Vignette lenkt er nur zur Mitte."
+    },
+    {
+     "heading": "Seitenverhältnis",
+     "body_md": "Das Format ist ein Rahmen vor jedem Rahmen. Allgemein gilt: Ein breites Querformat betont Ausdehnung und Bewegung entlang der Horizontalen; ein Hochformat betont Schichtung und Höhe; das Quadrat hat keine Vorzugsrichtung und begünstigt Ruhe, Symmetrie und zentrale Formen; ein Panorama zwingt den Blick zum Wandern.\n\nMichael Kenna arbeitet laut Amateur Photographer seit den 1980ern überwiegend mit Hasselblad-Quadratnegativen [S740265], ebenso viele Bilder von Charlie Waite [S769707]. Hiroshi Sugimotos Seestücke setzen laut Cleveland Museum of Art den Horizont exakt in die vertikale Mitte [S598379] – eine Teilung, die im Seitenverhältnis des Blattes Ruhe statt Spannung erzeugt. Fan Ho fotografierte „School is Over“ auf ein Quadratnegativ [S138152] und beschnitt es radikal zu einem dünnen, schmalen Streifen, der Kinder, Gleise und Abflusslöcher rhythmisch ordnet [S204183].\n\nDas Format ist auch eine Frage der Verwendung: Steve McCurry berichtet, sein querformatiges Bild des Schneiders im Monsun sei für das hochformatige National-Geographic-Cover nach unten mit Wasser erweitert worden [S608496]. Heute gilt das Gleiche für 4:5 und 9:16 im Netz – wer das spätere Format kennt, sollte es beim Rahmen bereits mitdenken."
+    },
+    {
+     "heading": "Füllen oder leer lassen",
+     "body_md": "Robert Adams sagt über große Bilder, alles passe, nichts sei überflüssig, und alles innerhalb des Rahmens stehe in Beziehung [S492259]. Das ist eine Forderung an jeden Quadratzentimeter, nicht an die Dichte. Michael Kenna schreibt, es sei weder nötig noch wünschenswert, ein Rechteck mit Details zu füllen [S917495]; die leere Fläche wird bei ihm Teil des Bildes. Die Bechers dagegen positionierten die Kamera so, dass die Form das ganze Bildfeld einnahm [S352486].\n\nEntscheidend ist, dass Leere einen Rand braucht: Eine leere Fläche wirkt nur gewollt, wenn ihre Begrenzung präzise ist. Und Fülle braucht eine Ordnung bis an die Ränder, sonst wird sie zu Unruhe."
+    },
+    {
+     "heading": "Rahmen in der Kamera, Rahmen am Tisch",
+     "body_md": "Der Rahmen wird nicht nur beim Auslösen gesetzt. Robert Frank sichtete laut Sotheby's 767 Filme und 27.000 Aufnahmen; Auswahl, Bearbeitung und Beschnitt führten zu 83 Bildern [S123467]. Michael Wolf fotografierte die Hongkonger Häuser zunächst ganz, mit Himmel und Boden, war nicht überzeugt und begann zu beschneiden – erst dann sah er, dass da mehr war als Gebäude [S147319].\n\nNachträglicher Beschnitt ist also legitim, aber er kann nur verwerfen, nie den Standpunkt ändern (Lektion 1). Wer am Tisch beschneiden will, sollte das im Feld wissen und Luft lassen; wer im Sucher rahmt, prüft vor dem Auslösen alle vier Kanten."
+    }
+   ],
+   "examples": [
+    {
+     "image_id": "i3312b69c1e",
+     "caption_md": "Ein Wohnblock im extremen Querformat, links und rechts angeschnitten, oben ein Streifen Himmel, unten Bäume. Laut MoMA-Katalog beschnitt Gursky das Gebäude seitlich und nahm dem Bild damit die Tiefe zwischen Fassade und Bildebene [S162796]. Meine Einschätzung: Weil der Block an beiden Rändern weiterläuft, wird er zum Ausschnitt eines endlosen Rasters.",
+     "look_for": [
+      "Anschnitt an beiden Seiten",
+      "breites Format verstärkt die Horizontale",
+      "kaum Raum zwischen Fassade und Bildfläche"
+     ]
+    },
+    {
+     "image_id": "i749edc2880",
+     "caption_md": "Ein extrem schmales Hochformat: oben kleine Figuren, darunter weite helle Fläche mit runden und eckigen Abdeckungen. Fan Ho beschnitt das Quadratnegativ radikal schmal [S138152][S204183]. Meine Einschätzung: Das Format macht die Leere zwischen den Figuren und den Abflussdeckeln zum Takt, der von oben nach unten gelesen wird.",
+     "look_for": [
+      "Seitenverhältnis als Rhythmus",
+      "Figuren nahe der oberen Kante",
+      "leere Fläche als Bildteil"
+     ]
+    },
+    {
+     "image_id": "i088f7e3424",
+     "caption_md": "Eine Plakatwand mit einem Schneeberg steht vor echter, flacher Bergkulisse; Zaun, Straße und Gras rahmen sie unten. Die Pitch beschreibt das Plakat, das vor den realen Bergen aus dem Land aufzutauchen scheint [S732498]. Meine Einschätzung: Der Rahmen im Rahmen stellt die Frage, welcher Ausschnitt die Landschaft „ist“.",
+     "look_for": [
+      "Plakat als zweites Bildfeld",
+      "reale Berge klein am Horizont",
+      "Zaun führt diagonal aus dem rechten Rand"
+     ]
+    },
+    {
+     "image_id": "iecbf4371f7",
+     "caption_md": "Rotes Abendlicht auf nassem Uferstreifen und Steinen, der Saum zieht diagonal von oben nach unten aus dem Bild. Für Bilder dieses Typs beschreibt der Text zu Porters „Intimate Landscapes“ die zentrifugale Komposition, die das Auge zu Ecken und Rändern führt [S163872]. Meine Einschätzung: Nichts hält den Blick in der Mitte; die Ränder schneiden ein Stück aus einem Fluss, der überall weitergeht.",
+     "look_for": [
+      "Uferlinie läuft aus zwei Rändern hinaus",
+      "kein Zentrum",
+      "Ecken dunkel, aber nicht leer"
+     ]
+    },
+    {
+     "image_id": "icf5d974f03",
+     "caption_md": "Ein heller Himmel, eine dunkle Wasserfläche, dazwischen ein klarer Horizont. Laut Cleveland Museum of Art liegt der Horizont bei Sugimotos Seestücken exakt in der vertikalen Mitte [S598379]. Meine Einschätzung: Die Teilung verweigert jede Gewichtung – das Format selbst wird zum Inhalt.",
+     "look_for": [
+      "Teilung der Fläche durch den Horizont",
+      "keine Form, die den Rand berührt",
+      "Querformat als ruhiges Feld"
+     ]
+    },
+    {
+     "image_id": "i2c414c1f0f",
+     "caption_md": "Hochhausfassaden reichen über alle vier Ränder hinaus; kein Himmel, kein Boden. Wolf beschreibt, dass das Weglassen von Himmel und Horizont das Gefühl unbegrenzter Größe gibt [S119409]. Meine Einschätzung: Die Ränder sind nicht Grenze, sondern Schnitt – die Stadt läuft gedanklich weiter.",
+     "look_for": [
+      "Anschnitt an allen Kanten",
+      "Höhenstaffelung ohne Bezugspunkt",
+      "fehlender Himmel als Rahmenentscheidung"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Fotografieren heißt ausschneiden: Der Rand ist die erste Bildentscheidung, nicht die letzte.",
+    "Der Rahmen kann das Bild beenden oder es beginnen; mit Stativ und Ruhe lohnt es sich, von den Kanten aus zu bauen.",
+    "Was die Kante schneidet, läuft gedanklich weiter; was sie knapp berührt, macht Unruhe.",
+    "Ecken und Ränder prüfen wie Motive: Was steht dort, was wird gerade ausgeschlossen?",
+    "Das Seitenverhältnis gewichtet: Quer dehnt, hoch schichtet, Quadrat beruhigt, Panorama lässt wandern.",
+    "Beschnitt kann verwerfen, aber nie den Standpunkt ändern."
+   ],
+   "exercises": [
+    "Kanten zuerst: Auf einem Platz oder Markt zuerst nur die vier Kanten festlegen (Dachlinie, Laterne, Bordstein, Schatten), Kamera auf Stativ oder fest an der Mauer, dann warten, was hineinkommt. Höchstens zehn Bilder.",
+    "Vier-Ränder-Protokoll: Bei zwanzig Aufnahmen eines Tages vor dem Auslösen jeden Rand einzeln benennen (was berührt, was wird geschnitten). Abends vergleichen: Welche Bilder haben saubere Kanten?",
+    "Formatwechsel: Dieselbe Szene (Fluss, Gasse, Berg) quer 3:2, hoch 4:5, quadratisch und als Panorama rahmen – jeweils neu komponiert, nicht beschnitten. Welches Format sagt etwas über das Motiv?",
+    "Rahmen im Rahmen ohne Klischee: Ein Fenster, Tor oder Schild suchen, durch das ein Stück Landschaft gezeigt wird, das zum inneren Rahmen in Spannung steht (Werbung gegen Wirklichkeit, Innen gegen Außen)."
+   ],
+   "quiz": [
+    {
+     "question": "Worin unterscheidet Shore Fotografie und Malerei?",
+     "image_id": null,
+     "options": [
+      "Fotografie ist synthetisch, Malerei analytisch",
+      "Malerei setzt aus Bausteinen zusammen, Fotografie nimmt die Welt und legt eine Ordnung darauf",
+      "Fotografie kennt keinen Rahmen, Malerei schon",
+      "Beide komponieren auf dieselbe Weise"
+     ],
+     "correct": 1,
+     "explanation": "Shore nennt das Malen synthetisch und das Fotografieren analytisch: Die Fotografie nimmt die Welt, ordnet und vereinfacht sie [S547798]."
+    },
+    {
+     "question": "Was meint Shore, wenn der Rahmen „der Anfang“ des Bildes ist?",
+     "image_id": null,
+     "options": [
+      "Man beschneidet erst am Computer",
+      "Man beginnt beim Rahmen und baut das Bild von ihm aus nach innen",
+      "Man stellt das Hauptmotiv immer in die Mitte",
+      "Man wählt zuerst das Seitenverhältnis und dann das Motiv"
+     ],
+     "correct": 1,
+     "explanation": "Bei der Großbildkamera sei der Rahmen oft nicht das Ende, sondern der Anfang: Der Fotograf beginne beim Rahmen und baue das Bild nach innen [S184045]. Das Gegenmodell ist der Rahmen als Ende [Q1]."
+    },
+    {
+     "question": "Was bewirkt der Anschnitt des Gebäudes an beiden Seiten?",
+     "image_id": "i3312b69c1e",
+     "options": [
+      "Er betont die Gebäudekanten als Abschluss",
+      "Der Block läuft gedanklich weiter und wirkt als Ausschnitt eines unbegrenzten Rasters",
+      "Er verstärkt die Tiefe zwischen Fassade und Betrachter",
+      "Er macht das Bild symmetrisch"
+     ],
+     "correct": 1,
+     "explanation": "Laut MoMA-Katalog nahm der seitliche Beschnitt dem Bild die Tiefe zwischen Fassade und Bildebene [S162796]; ohne Gebäudeende fehlt ein Abschluss."
+    },
+    {
+     "question": "Wie lässt sich die Komposition dieses Bildes am treffendsten beschreiben?",
+     "image_id": "iecbf4371f7",
+     "options": [
+      "Zentripetal: alles führt zu einem Punkt in der Mitte",
+      "Zentrifugal: Der Uferstreifen führt den Blick zu Rändern und Ecken hinaus",
+      "Symmetrisch um eine Mittelachse",
+      "Rahmen im Rahmen"
+     ],
+     "correct": 1,
+     "explanation": "Der leuchtende Saum läuft diagonal aus dem Bild; es gibt kein Zentrum. Das entspricht der zentrifugalen Komposition, die zu Ecken und Rändern führt [S163872]."
+    },
+    {
+     "question": "Fan Ho fotografierte „School is Over“ auf ein Quadratnegativ und beschnitt es zu einem schmalen Streifen. Was gewinnt das Bild dadurch?",
+     "image_id": "i749edc2880",
+     "options": [
+      "Mehr Umgebung und Kontext",
+      "Einen Rhythmus aus Figuren, Gleisen und Abflusslöchern, der von oben nach unten gelesen wird",
+      "Eine symmetrische Ruhe",
+      "Eine stärkere Farbwirkung"
+     ],
+     "correct": 1,
+     "explanation": "Laut M+ erzeugt der radikale Beschnitt einen Rhythmus aus Kindern, Gleisen und Abflusslöchern [S204183]; das Format wird zum Takt."
+    },
+    {
+     "question": "Du rahmst ein Bergpanorama, und ein Hüttendach berührt gerade eben den unteren Rand. Was ist meist die stärkere Lösung?",
+     "image_id": null,
+     "options": [
+      "So lassen, Berührungen sind neutral",
+      "Entweder klar Abstand lassen oder das Dach deutlich anschneiden",
+      "Die Belichtung ändern",
+      "Die Brennweite verdoppeln, ohne den Rahmen zu prüfen"
+     ],
+     "correct": 1,
+     "explanation": "Eine knappe Berührung des Randes wirkt unentschieden und zieht den Blick an die Kante. Klar drin oder klar angeschnitten macht die Entscheidung lesbar."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,304 @@
+{
+  "missing": [
+    {
+      "key": "image-reading",
+      "title": "Bilder lesen: Beschreiben, Analysieren, Deuten, Urteilen",
+      "track": "grundlagen",
+      "order_hint": 0.1,
+      "priority": 1,
+      "subtopics": [
+        "Barrett: describing, interpreting, evaluating, theorizing",
+        "Feldman-Schema",
+        "Denotation und Konnotation (Barthes)",
+        "vergleichende Analyse zweier Bilder",
+        "Kriterien für ein begründetes Urteil",
+        "Gegenlesart wie in der Crit"
+      ],
+      "sources": [
+        "https://www.folkwang-uni.de/fileadmin/medien/Gestaltung/PDFs/Foto/20220804_MHB_BA_Foto_PO423.pdf",
+        "https://www.fh-dortmund.de/medien/MHB_FB2_BA-Fotografie.pdf",
+        "https://www.freestylephoto.com/77434-Criticizing-Photographs-An-Introduction-to-Understanding-Images-(4th",
+        "https://www.phaidon.com/store/photography/the-nature-of-photographs-9780714859040/",
+        "https://www.rca.ac.uk/documents2/673/MA_Photography_Programme_Specification_2023-24.pdf"
+      ],
+      "drill": true
+    },
+    {
+      "key": "photo-as-trace",
+      "title": "Was ist ein Foto? Spur, Dokument, Konstruktion",
+      "track": "grundlagen",
+      "order_hint": 0.2,
+      "priority": 2,
+      "subtopics": [
+        "Bazin: Ontologie des fotografischen Bildes",
+        "Barthes: ça a été, studium und punctum",
+        "Sontag: Aneignung und Tourismus",
+        "Flusser: Apparat, Programm, technisches Bild",
+        "Authentizität und Inszenierung",
+        "Shores drei Ebenen (physisch, darstellend, mental)"
+      ],
+      "sources": [
+        "https://www.ucpress.edu/books/what-is-cinema-volume-i/paper",
+        "https://kirkusreviews.com/book-reviews/roland-barthes/camera-lucida/print",
+        "https://www.penguin.co.uk/books/7057/on-photography-by-susan-sontag/9780140053975",
+        "https://www.cca.qc.ca/en/search/details/library/publication/865579265",
+        "https://www.routledge.com/9780367222758"
+      ],
+      "drill": true
+    },
+    {
+      "key": "pictorial-order",
+      "title": "Bildordnung: Gewicht, Spannung, Richtung, Figur und Grund",
+      "track": "sehen",
+      "order_hint": 3.5,
+      "priority": 3,
+      "subtopics": [
+        "visuelles Gewicht",
+        "Gleichgewicht vs. gewollte Spannung",
+        "Blickrichtung und Lesefolge",
+        "Figur und Grund, Umkippen",
+        "Gestaltgesetze als Werkzeug",
+        "Negativraum"
+      ],
+      "sources": [
+        "https://www.ucpress.edu/books/art-and-visual-perception-second-edition/paper",
+        "https://search.icpl.org/Record/1344549",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3485801",
+        "https://www.folkwang-uni.de/fileadmin/medien/Gestaltung/PDFs/Foto/20220804_MHB_BA_Foto_PO423.pdf"
+      ],
+      "drill": true
+    },
+    {
+      "key": "time-and-motion",
+      "title": "Zeit und Bewegung: Belichtungszeit als Gestaltung",
+      "track": "sehen",
+      "order_hint": 9.5,
+      "priority": 4,
+      "subtopics": [
+        "Szarkowski: Time",
+        "eingefrorene vs. gedehnte Zeit",
+        "Langzeitbelichtung (Sugimoto, Seascapes)",
+        "Bewegungsunschärfe als Information",
+        "Mitziehen",
+        "Zeitschichtung und Überblendung",
+        "Klischee Seidenwasser"
+      ],
+      "sources": [
+        "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf",
+        "https://parrishart.org/exhibitions/time-exposed/",
+        "https://www.phaidon.com/store/photography/the-nature-of-photographs-9780714859040/"
+      ],
+      "drill": true
+    },
+    {
+      "key": "focus-and-depth",
+      "title": "Schärfe und Unschärfe als Entscheidung",
+      "track": "sehen",
+      "order_hint": 2.5,
+      "priority": 5,
+      "subtopics": [
+        "Lage der Schärfeebene als Aussage",
+        "durchgehende Schärfe (f/64-Tradition) vs. selektive Schärfe",
+        "Tilt und Fokus-Stacking als Haltung",
+        "Unschärfe durch Dunst vs. Optik"
+      ],
+      "sources": [
+        "https://www.phaidon.com/store/photography/the-nature-of-photographs-9780714859040/",
+        "https://eyemagazine.com/review/article/essential-on-every-level",
+        "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf"
+      ],
+      "drill": true
+    },
+    {
+      "key": "editing-selection",
+      "title": "Auswahl und Editing: vom Kontaktbogen zum Bild",
+      "track": "grundlagen",
+      "order_hint": 13.5,
+      "priority": 6,
+      "subtopics": [
+        "Kontaktbogen lesen: Annäherung und Varianten",
+        "Auswahlkriterien",
+        "Kill your darlings",
+        "Paare und Diptychon",
+        "Abstand zum eigenen Material",
+        "Rolle der Bildredaktion"
+      ],
+      "sources": [
+        "https://www.fh-dortmund.de/medien/MHB_FB2_BA-Fotografie.pdf",
+        "https://thamesandhudson.com.au/?p=70319",
+        "https://ostkreuzschule.de/en"
+      ],
+      "drill": true
+    },
+    {
+      "key": "truth-manipulation-ai",
+      "title": "Wahrheit, Bearbeitung und KI-Bilder",
+      "track": "grundlagen",
+      "order_hint": 14.5,
+      "priority": 7,
+      "subtopics": [
+        "Bearbeitung vs. Manipulation (World Press Photo)",
+        "Wettbewerbsregeln und Offenlegung",
+        "KI-generierte Bilder",
+        "Provenienz und Content Credentials (C2PA)",
+        "Bezug zu den KI-Analysen der App"
+      ],
+      "sources": [
+        "https://www.worldpressphoto.org/contest/verification-process/what-counts-as-manipulation",
+        "https://www.thamesandhudsonusa.com/books/the-synthetic-eye-photography-transformed-in-the-age-of-ai-softcover",
+        "https://c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html",
+        "https://www.routledge.com/9780367222758"
+      ],
+      "drill": true
+    },
+    {
+      "key": "ethics-law-abroad",
+      "title": "Ethik und Recht beim Fotografieren auf Reisen",
+      "track": "grundlagen",
+      "order_hint": 12.5,
+      "priority": 8,
+      "subtopics": [
+        "Einverständnis und Machtgefälle (Azoulay, Sontag)",
+        "Recht am eigenen Bild und Panoramafreiheit (DE) vs. Lage vor Ort",
+        "Drohnen (China: Real-Name-Registrierung seit 2024)",
+        "Naturschutz-Ethik (NANPA)",
+        "Geotagging und Overtourism",
+        "ehrliche Bildunterschrift"
+      ],
+      "sources": [
+        "https://www.fh-dortmund.de/medien/MHB_FB2_BA-Fotografie.pdf",
+        "https://www.timeshighereducation.com/node/81999",
+        "https://www.gesetze-im-internet.de/kunsturhg/__23.html",
+        "https://nanpa.org/why-nanpa/ethics/",
+        "https://developer.dji.com/doc/mobile-sdk-tutorial/en/tutorials/compliance-cn.html"
+      ],
+      "drill": true
+    },
+    {
+      "key": "project-concept",
+      "title": "Vom Einzelbild zum Projekt: Konzept, Recherche, Autorschaft",
+      "track": "grundlagen",
+      "order_hint": 18,
+      "priority": 9,
+      "subtopics": [
+        "Fragestellung statt Motiv",
+        "Recherche vor der Reise",
+        "Konstanten einer Serie (Becher)",
+        "Handschrift und Stil vs. Wiederholung",
+        "Referenzen bewusst nutzen",
+        "Projektskizze"
+      ],
+      "sources": [
+        "https://www.fh-dortmund.de/medien/MHB_FB2_BA-Fotografie.pdf",
+        "https://www.rca.ac.uk/documents2/673/MA_Photography_Programme_Specification_2023-24.pdf",
+        "https://www.lensculture.com/books/19332-basics-creative-photography-02-context-and-narrative",
+        "https://newsroom.staedelmuseum.de/files/press/2017/st_presse_fotografien_werden_bilder.pdf"
+      ],
+      "drill": false
+    },
+    {
+      "key": "surface-and-space",
+      "title": "Fläche und Raum: Geometrie, Rhythmus, Verflachung",
+      "track": "sehen",
+      "order_hint": 5.5,
+      "priority": 10,
+      "subtopics": [
+        "Shores Flächigkeit",
+        "Muster, Wiederholung, Rhythmus",
+        "Geometrie im Gelände",
+        "Kippen zwischen Raum und Fläche",
+        "Deadpan-Ästhetik"
+      ],
+      "sources": [
+        "https://www.phaidon.com/store/photography/the-nature-of-photographs-9780714859040/",
+        "https://search.icpl.org/Record/1344549",
+        "https://www.lensculture.com/books/1131-the-photograph-as-contemporary-art-world-of-art",
+        "https://eyemagazine.com/review/article/essential-on-every-level"
+      ],
+      "drill": true
+    },
+    {
+      "key": "image-and-text",
+      "title": "Bild und Text: Titel, Bildunterschrift, Statement",
+      "track": "grundlagen",
+      "order_hint": 15,
+      "priority": 11,
+      "subtopics": [
+        "Verankerung und Relais (Barthes)",
+        "Titel als Deutung",
+        "sachliche vs. poetische Bildunterschrift",
+        "Künstlerstatement",
+        "Wahrhaftigkeit von Ortsangaben"
+      ],
+      "sources": [
+        "https://www.rca.ac.uk/documents2/673/MA_Photography_Programme_Specification_2023-24.pdf",
+        "https://www.fh-dortmund.de/medien/MHB_FB2_BA-Fotografie.pdf",
+        "https://www.lensculture.com/books/19332-basics-creative-photography-02-context-and-narrative",
+        "https://www.mat.ucsb.edu/~g.legrady/rsc/barthes/rhetoric.html"
+      ],
+      "drill": true
+    },
+    {
+      "key": "print-and-processing",
+      "title": "Ausarbeitung und Abzug als Interpretation",
+      "track": "grundlagen",
+      "order_hint": 14,
+      "priority": 12,
+      "subtopics": [
+        "Negativ als Partitur, Abzug als Aufführung (Ansel Adams)",
+        "Tonwertinterpretation und Schwarzweiß-Umsetzung",
+        "Bildschirm vs. Papier",
+        "Größe und Betrachtungsabstand",
+        "Material und physische Ebene"
+      ],
+      "sources": [
+        "https://www.phaidon.com/store/photography/the-nature-of-photographs-9780714859040/",
+        "https://www.lensculture.com/books/1131-the-photograph-as-contemporary-art-world-of-art",
+        "https://sothebys.com/en/articles/the-comprehensive-collectors-guide-to-ansel-adamss-photographs",
+        "https://www.folkwang-uni.de/fileadmin/medien/Gestaltung/PDFs/Foto/20220804_MHB_BA_Foto_PO423.pdf"
+      ],
+      "drill": false
+    },
+    {
+      "key": "landscape-as-idea",
+      "title": "Landschaft als Idee: Erhabenes, Pittoreskes, Besitz und Blick",
+      "track": "grundlagen",
+      "order_hint": 17,
+      "priority": 13,
+      "subtopics": [
+        "erhaben und pittoresk",
+        "Landschaft, Macht und Vermessung",
+        "Robert Adams: Truth and Landscape",
+        "touristischer Blick",
+        "Shanshui als anderer Bildbegriff"
+      ],
+      "sources": [
+        "https://www.routledge.com/9780367222758",
+        "https://aperture.org/books/beauty-in-photography/",
+        "https://reaktionbooks.co.uk/work/zooming-in",
+        "https://www.penguin.co.uk/books/7057/on-photography-by-susan-sontag/9780140053975"
+      ],
+      "drill": false
+    },
+    {
+      "key": "presentation",
+      "title": "Präsentation: Fotobuch, Ausstellung, Bildschirm",
+      "track": "grundlagen",
+      "order_hint": 19,
+      "priority": 14,
+      "subtopics": [
+        "Fotobuch: Sequenz, Doppelseite, Rhythmus",
+        "Ausstellung: Hängung, Größe, Raum",
+        "Bildschirm und Feed: Format, Karussell, Reihenfolge",
+        "Portfolio"
+      ],
+      "sources": [
+        "https://catalog.yale.edu/art/areas-study/photography",
+        "https://ecal.ch/en/3072/studies/master/photography/downloads",
+        "https://www.lensculture.com/books/1767-the-photobook-a-history-volume-2",
+        "https://www.rca.ac.uk/documents2/673/MA_Photography_Programme_Specification_2023-24.pdf"
+      ],
+      "drill": false
+    }
+  ]
+}
