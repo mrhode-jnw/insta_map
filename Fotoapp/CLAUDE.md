@@ -4,7 +4,7 @@ Browser-App auf GitHub Pages (https://mrhode-jnw.github.io/insta_map/Fotoapp/), 
 
 ## Zugang
 
-- Zugangscode wie bei der Karte (`../crypto.js`, AES-GCM/PBKDF2). Er entschlüsselt den Bilder-Schlüssel und den Anthropic-Key aus `Fotoapp/config.js`, den GitHub-Token aus `../config.js`.
+- Zugangscode wie bei der Karte (`../crypto.js`, AES-GCM/PBKDF2). Er entschlüsselt den Bilder-Schlüssel und die KI-Keys (OpenAI und/oder Anthropic) aus `Fotoapp/config.js`, den GitHub-Token aus `../config.js`.
 - Bilder: Branch `sehschule-media` (`m/`, `t/`, verschlüsselt). Eigene Daten: Branch `map-data`, `sehschule/{analyses,answers,drills,chapters,user_library}.enc` (verschlüsselt).
 - Nichts Unverschlüsseltes mit Bildern oder persönlichen Antworten committen.
 
@@ -29,7 +29,7 @@ Eigene Bilder kommen erst in einer späteren Stufe dazu.
 ## Stufe 1 – Umfang
 
 ### 0. Sehen lernen (Schwerpunkt, ergänzt)
-- **Sehübungen** (`#/sehen`, `drills.enc`): je Bild ein Aspekt (Dimensionen in `js/domain.js`), Frage eng gefasst, erst schauen (Timer), dann Antwort; aufgedeckt wird das passende Feld der gespeicherten Analyse; Feedback per `prompts/drill_feedback_v1.md` (Claude sieht das Bild).
+- **Sehübungen** (`#/sehen`, `drills.enc`): je Bild ein Aspekt (Dimensionen in `js/domain.js`), Frage eng gefasst, erst schauen (Timer), dann Antwort; aufgedeckt wird das passende Feld der gespeicherten Analyse; Feedback per `prompts/drill_feedback_v1.md` (die KI sieht das Bild).
 - **„Erst schauen“-Timer** auch im Lernmodus; tatsächliche Schauzeit wird gespeichert.
 - **Seh-Begriffe** (`#/begriffe`, `concepts` in `library.json`, Quellen mit `scope=concept`): Kurztext nur aus Quellen, Übung für unterwegs, Beispielbilder mit „Meine Einschätzung“. Import aus `seed/content_sehen.json`.
 
@@ -85,9 +85,9 @@ Vorgeschlagene Kapitel (Inhalte erst beim Füllen mit Quellen belegen):
 - **Frontend:** statische Browser-App, Vanilla-JS-Module (`js/core.js` Krypto/GitHub/Bilder/Claude, `js/domain.js` Bibliothek/Analyse/Prompts, `js/app.js` Ansichten). Dunkles Layout, mobil zuerst, PWA-Manifest.
 - **Daten:** `data/library.json` wird aus `seed/*.json` gebaut (`tools/build_library.py`, stabile IDs: Bilder `i…`, Quellen 6-stellig für `[S<id>]`). Eigene Bilder/Quellen kommen aus `user_library.enc` dazu.
 - **Bilder:** beim Build auf 1568 px (API-Grenze) und 480 px skaliert, verschlüsselt; im Browser per WebCrypto entschlüsselt und im Cache-Storage gehalten.
-- **KI:** Claude API direkt aus dem Browser (`x-api-key` + `anthropic-dangerous-direct-browser-access`), Modell/Effort aus `config.js`, Structured Outputs (`output_config.format` json_schema), Server-Fallback bei Ablehnung.
+- **KI:** zwei Anbieter, umschaltbar in `setup.html` (`SEHSCHULE_PROVIDER`): OpenAI Chat Completions (Bild als data-URL, `response_format` json_schema strict) oder Claude Messages API (`anthropic-dangerous-direct-browser-access`, `output_config.format`, Server-Fallback). Gleiche Prompts und gleiches Schema; jede Analyse speichert das tatsächlich verwendete Modell.
 - **Prompts:** Dateien unter `prompts/` (versioniert), jede Analyse speichert `prompt_version` und `model`.
-- **Test:** `tests_web/e2e.js` (Playwright, GitHub/Claude simuliert).
+- **Test:** `tests_web/e2e.js` (Playwright, GitHub und KI simuliert; `PROVIDER=openai|anthropic`).
 
 ### Verzeichnisstruktur
 ```

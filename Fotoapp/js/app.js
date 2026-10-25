@@ -1,5 +1,5 @@
 // Sehschule web app: unlock, routing and views.
-import { ClaudeError, loadState, mediaUrl, mutateState, session, store, unlock, uid, uploadMedia } from "./core.js";
+import { AIError, loadState, mediaUrl, providerLabel, mutateState, session, store, unlock, uid, uploadMedia } from "./core.js";
 import {
   CONSTRUCTION_LABELS, DIM, DIMENSIONS, DRILLABLE, EXTRA_QUESTIONS, QUESTIONS, addOwn, allTags, analyses, chapterDraft,
   currentAnalysis, drillFeedback, esc, generateAnalysis, learnFeedback, lib, loadLibrary, md, newSourceId, ownId,
@@ -86,7 +86,8 @@ views.home = async () => {
     <a href="#/fotografen"><b>${lib.photographers.length}</b> Fotografen</a><a href="#/bibliothek"><b>${lib.images.length}</b> Bilder</a>
     <span><b>${Object.keys(an).length}</b> Analysen</span><a href="#/lernen/antworten"><b>${answers.length + drills.length}</b> Übungen</a>
     <a href="#/begriffe"><b>${lib.concepts.length}</b> Seh-Begriffe</a></div>
-  ${session.anthropicKey ? "" : `<p class="warn">Kein Anthropic-API-Key hinterlegt – Analysen und Feedback gehen erst nach <a href="setup.html">Einrichtung</a>.</p>`}
+  ${session.anthropicKey || session.openaiKey ? `<p class="muted small">KI: ${esc(providerLabel())} · <a href="setup.html">ändern</a></p>`
+    : `<p class="warn">Kein KI-Key hinterlegt – Analysen und Feedback gehen erst nach <a href="setup.html">Einrichtung</a>.</p>`}
   ${session.ghToken ? "" : `<p class="warn">Kein GitHub-Token – Analysen und Antworten können nicht gespeichert werden.</p>`}
   <div class="actions"><a class="button" href="#/sehen">Sehen lernen</a><a class="button secondary" href="#/lernen">Lernrunde</a></div>
   <h2>Zuletzt hinzugefügt</h2>${thumbs(recent)}
@@ -217,8 +218,8 @@ views.bild = async id => {
 };
 const analysisPanel = (img, an) => an ? `${analysisBody(an.data)}
   <p class="meta muted">Version ${an.version} · ${esc(an.model)} · ${esc(an.prompt_version)} · ${fmtDate(an.created_at)}${an.version > 1 ? ` · <a href="#/bild/${img.id}/versionen">frühere Versionen</a>` : ""}</p>
-  <button class="secondary" data-action="analyze" data-img="${img.id}" data-regen="1">Neu erzeugen …</button><span class="busy">Claude analysiert … (1–2 Minuten)</span>`
-  : `<p class="muted">Noch keine Analyse.</p><button data-action="analyze" data-img="${img.id}">Analyse erzeugen</button><span class="busy">Claude analysiert … (1–2 Minuten)</span>`;
+  <button class="secondary" data-action="analyze" data-img="${img.id}" data-regen="1">Neu erzeugen …</button><span class="busy">KI analysiert … (1–2 Minuten)</span>`
+  : `<p class="muted">Noch keine Analyse.</p><button data-action="analyze" data-img="${img.id}">Analyse erzeugen</button><span class="busy">KI analysiert … (1–2 Minuten)</span>`;
 
 views.versionen = async id => {
   const img = lib.by.images.get(id); const list = ((await analyses())[id] || []).slice().reverse();
@@ -329,15 +330,15 @@ views.kapitelEdit = async id => {
   const unknown = [...referencedIds(text)].filter(i => !srcs.some(x => x.id === i));
   const candidates = lib.images.filter(i => !s.ids.includes(i.id)).sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999));
   return `<p class="crumbs"><a href="#/geschichte">Geschichte</a> › <a href="#/kapitel/${id}">Kapitel ${ch.number}</a></p><h1>${esc(ch.title)} bearbeiten</h1>
-  ${draft != null ? `<p class="warn">Neuer Entwurf von Claude im Textfeld – noch nicht gespeichert.</p>` : ""}
+  ${draft != null ? `<p class="warn">Neuer KI-Entwurf im Textfeld – noch nicht gespeichert.</p>` : ""}
   ${unknown.length ? `<p class="error">Verweise auf Quellen, die diesem Kapitel nicht zugeordnet sind: ${unknown.map(i => "S" + i).join(" ")}</p>` : ""}
   <div class="two-col wide-left"><div>
     <form data-action="chapter-save" data-id="${id}" class="grid-form card">
       <label class="wide">Text (Markdown; Belege als [S&lt;id&gt;], Ableitungen unter „## Meine Einschätzung“)<textarea name="text_md" rows="22" class="mono">${esc(text)}</textarea></label>
       <label>Status <select name="status"><option value="draft">Entwurf</option><option value="reviewed" ${s.status === "reviewed" ? "selected" : ""}>geprüft</option></select></label>
       <button>Speichern</button></form>
-    <div class="card"><button class="secondary" data-action="chapter-draft" data-id="${id}">Entwurf aus Quellen erzeugen</button><span class="busy">Claude schreibt … (bis zu 2 Minuten)</span>
-      <p class="muted small">Claude sieht nur die ${srcs.length} Quellenauszüge dieses Kapitels und die Angaben zu den Schlüsselbildern.</p></div>
+    <div class="card"><button class="secondary" data-action="chapter-draft" data-id="${id}">Entwurf aus Quellen erzeugen</button><span class="busy">KI schreibt … (bis zu 2 Minuten)</span>
+      <p class="muted small">Die KI sieht nur die ${srcs.length} Quellenauszüge dieses Kapitels und die Angaben zu den Schlüsselbildern.</p></div>
     <h2 id="images">Schlüsselbilder <span class="muted">${s.ids.length} (Ziel 5–10)</span></h2>
     ${s.ids.map((iid, n) => { const i = lib.by.images.get(iid); return `<div class="key-row">${media(iid)}<div>${esc(i.title || "Ohne Titel")} <span class="muted">${esc(photographerOf(i).name)}${i.year ? `, ${i.year}` : ""}</span>
       <div class="row-actions"><button class="link" data-action="chapter-move" data-id="${id}" data-img="${iid}" data-dir="-1" ${n ? "" : "disabled"}>↑</button>
@@ -410,7 +411,7 @@ async function busy(el, fn) {
   const btns = el.querySelectorAll("button"); btns.forEach(b => (b.disabled = true)); el.classList.add("is-busy");
   try { return await fn(); } finally { btns.forEach(b => (b.disabled = false)); el.classList.remove("is-busy"); }
 }
-const errMsg = e => e instanceof ClaudeError ? e.message : `Fehler: ${e.message}`;
+const errMsg = e => e instanceof AIError ? e.message : `Fehler: ${e.message}`;
 
 const actions = {
   async "drill-start"(form) {

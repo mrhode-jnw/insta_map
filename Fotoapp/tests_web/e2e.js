@@ -8,6 +8,7 @@ const http = require("http"), fs = require("fs"), path = require("path"), vm = r
 const ROOT = path.resolve(__dirname, "..", "..");
 const [mediaDir, mediaKey, shotDir] = process.argv.slice(2);
 const CODE = "test-code-123";
+const PROVIDER = process.env.PROVIDER || "anthropic";
 
 async function encWithCode(plain) {
   const ctx = { window: {}, crypto: globalThis.crypto, TextEncoder, TextDecoder, btoa, atob };
@@ -44,7 +45,8 @@ const ANALYSIS = {
   const claudeCalls = [];
   let lib = JSON.parse(fs.readFileSync(path.join(ROOT, "Fotoapp/data/library.json"), "utf8"));
   const configJs = `window.SEHSCHULE_MEDIA_KEY_ENC = "${await encWithCode(mediaKey)}";
-window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; window.SEHSCHULE_MODEL = "claude-opus-5-5"; window.SEHSCHULE_EFFORT = "high";`;
+window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; window.SEHSCHULE_MODEL = "claude-opus-5-5"; window.SEHSCHULE_EFFORT = "high";
+window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; window.SEHSCHULE_OPENAI_MODEL = "gpt-test"; window.SEHSCHULE_PROVIDER = "${PROVIDER}";`;
   const rootConfig = `window.GITHUB_TOKEN_ENC = "${await encWithCode("ghp_test")}";`;
 
   const browser = await chromium.launch();
@@ -79,16 +81,27 @@ window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; wind
     files.set(key, { content: body.content, sha });
     return r.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify({ content: { sha } }) });
   });
+  const fakeText = (isSchema, system, userText) => {
+    if (!isSchema) return system.includes("Kapitel") ? "## Teil\nText [S1].\n\n## Meine Einschätzung\nX." : "TESTFEEDBACK: Gut gesehen, schau auf die linke Kante.";
+    const data = JSON.parse(JSON.stringify(ANALYSIS));
+    const src = userText.match(/<source id="(\d+)"/);
+    if (src) data.context.sourced[0].source_ids = [Number(src[1])];
+    return JSON.stringify(data);
+  };
   await page.route("https://api.anthropic.com/**", r => {
     const req = r.request(), body = JSON.parse(req.postData()), h = req.headers();
-    claudeCalls.push({ body, headers: h });
+    claudeCalls.push({ provider: "anthropic", body, headers: h });
     if (h["anthropic-dangerous-direct-browser-access"] !== "true" || h["x-api-key"] !== "sk-ant-test") return r.fulfill({ status: 401, body: "{}" });
-    const isSchema = !!body.output_config?.format;
-    const data = JSON.parse(JSON.stringify(ANALYSIS));
-    const src = (body.messages[0].content.find?.(c => c.type === "text")?.text || "").match(/<source id="(\d+)"/);
-    if (src) data.context.sourced[0].source_ids = [Number(src[1])];
-    const text = isSchema ? JSON.stringify(data) : (body.system.includes("Kapitel") ? "## Teil\nText [S1].\n\n## Meine Einschätzung\nX." : "TESTFEEDBACK: Gut gesehen, schau auf die linke Kante.");
+    const text = fakeText(!!body.output_config?.format, body.system, body.messages[0].content.find?.(c => c.type === "text")?.text || "");
     return r.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify({ model: body.model, stop_reason: "end_turn", content: [{ type: "text", text }] }) });
+  });
+  await page.route("https://api.openai.com/**", r => {
+    const req = r.request(), body = JSON.parse(req.postData()), h = req.headers();
+    claudeCalls.push({ provider: "openai", body, headers: h });
+    if (h.authorization !== "Bearer sk-openai-test") return r.fulfill({ status: 401, body: "{}" });
+    const user = body.messages[1].content;
+    const text = fakeText(!!body.response_format, body.messages[0].content, user.find(c => c.type === "text")?.text || "");
+    return r.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify({ model: body.model, choices: [{ finish_reason: "stop", message: { content: text } }] }) });
   });
 
   const shot = async name => shotDir && page.screenshot({ path: path.join(shotDir, name + ".png"), fullPage: false });
@@ -119,10 +132,18 @@ window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; wind
   await page.click('#questions button'); await waitText("TESTFEEDBACK", 30000);
   ok((await page.content()).includes("TESTLICHT"), "reveal shows the light part of the analysis");
   await shot("04-drill-reveal");
-  const an = claudeCalls.find(c => c.body.output_config?.format);
-  ok(an.body.messages[0].content[0].type === "image" && an.body.messages[0].content[0].source.data.length > 1000, "analysis request carries the decrypted image");
-  ok(an.headers["anthropic-beta"] === "server-side-fallback-2026-07-01" && an.body.fallbacks === "default", "fallback enabled");
-  ok(an.body.output_config.format.schema.additionalProperties === false, "strict JSON schema sent");
+  ok(claudeCalls.every(c => c.provider === PROVIDER), `all AI calls go to ${PROVIDER}`);
+  if (PROVIDER === "anthropic") {
+    const an = claudeCalls.find(c => c.body.output_config?.format);
+    ok(an.body.messages[0].content[0].type === "image" && an.body.messages[0].content[0].source.data.length > 1000, "analysis request carries the decrypted image");
+    ok(an.headers["anthropic-beta"] === "server-side-fallback-2026-07-01" && an.body.fallbacks === "default", "fallback enabled");
+    ok(an.body.output_config.format.schema.additionalProperties === false, "strict JSON schema sent");
+  } else {
+    const an = claudeCalls.find(c => c.body.response_format);
+    ok(an.body.messages[1].content[0].type === "image_url" && an.body.messages[1].content[0].image_url.url.startsWith("data:image/jpeg;base64,/9j/"), "analysis request carries the decrypted image (OpenAI)");
+    ok(an.body.response_format.json_schema.strict === true && an.body.response_format.json_schema.schema.additionalProperties === false, "strict JSON schema sent (OpenAI)");
+    ok(an.body.model === "gpt-test" && an.body.messages[0].role === "system", "model and system prompt from config");
+  }
   ok(await page.evaluate(() => ![...document.querySelectorAll(".sourced li")].some(li => li.textContent.includes("Erfundene Aussage"))
     && [...document.querySelectorAll(".sourced li")].some(li => li.textContent.includes("Belegte Aussage"))), "unsourced statement dropped, sourced one kept");
   const stored = [...files.keys()];
@@ -142,7 +163,6 @@ window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; wind
   ok(files.has("sehschule/answers.enc@map-data"), "answer stored");
 
   // Image page: analysis already exists for drilled image -> no new call when opening reveal again
-  const drillImg = JSON.parse(JSON.stringify(an.body.messages[0].content[1].text.match(/"titel": (.*)/)?.[1] || "null"));
   await page.goto(`${base}/Fotoapp/#/bibliothek`); await waitText("Bibliothek");
   await page.click(".thumb"); await waitText("Analyse"); await shot("06-bild");
   // Concepts and chapter
@@ -151,7 +171,7 @@ window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; wind
   await page.goto(`${base}/Fotoapp/#/kapitel/c5`); await waitText("Neue Topografie"); await shot("08-kapitel");
   await page.goto(`${base}/Fotoapp/#/kapitel/c5/bearbeiten`); await waitText("Schlüsselbilder");
   page.once("dialog", d => d.accept());
-  await page.click('button[data-action="chapter-draft"]'); await waitText("Neuer Entwurf", 30000);
+  await page.click('button[data-action="chapter-draft"]'); await waitText("Neuer KI-Entwurf", 30000);
   await page.click('form[data-action="chapter-save"] button'); await waitText("Gespeichert");
   ok(files.has("sehschule/chapters.enc@map-data"), "chapter text stored");
   await page.goto(`${base}/Fotoapp/#/zeitleiste`); await waitText("Zeitleiste"); await shot("09-zeitleiste");
@@ -163,6 +183,6 @@ window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; wind
   ok((await page.textContent(".stats")).includes("Analysen"), "remembered code unlocks after reload");
 
   ok(errors.length === 0, "no page errors" + (errors.length ? ": " + errors.join(" | ") : ""));
-  console.log(`claude calls: ${claudeCalls.length}`);
+  console.log(`AI calls (${PROVIDER}): ${claudeCalls.length}`);
   await browser.close(); srv.close();
 })().catch(e => { console.error(e); process.exit(1); });

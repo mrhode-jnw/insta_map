@@ -1,5 +1,5 @@
 // Domain logic: library (seed + own additions), sources, analysis generation and feedback.
-import { claude, ClaudeError, loadState, mediaBase64, mutateState, prompt, uid } from "./core.js";
+import { ai, AIError, loadState, mediaBase64, mutateState, prompt, uid } from "./core.js";
 
 // ---------- library
 export const lib = { photographers: [], projects: [], images: [], sources: [], chapters: [], concepts: [], by: {} };
@@ -152,7 +152,7 @@ export async function generateAnalysis(img, regenerate = false) {
   if (current) { system += "\n\n" + await prompt(REVISION_PROMPT); version += "+" + REVISION_PROMPT; }
   let text = `<metadata>\n${JSON.stringify(imageMeta(img), null, 2)}\n</metadata>\n\n<sources>\n${formatSources(srcs)}\n</sources>`;
   if (current) text += `\n\n<previous_analysis>\n${JSON.stringify(current.data, null, 2)}\n</previous_analysis>`;
-  const res = await claude({
+  const res = await ai({
     system, schema: current ? REVISION_SCHEMA : ANALYSIS_SCHEMA,
     content: [{ type: "image", source: { type: "base64", media_type: "image/jpeg", data: await mediaBase64(img.id) } }, { type: "text", text }],
   });
@@ -165,13 +165,13 @@ export async function generateAnalysis(img, regenerate = false) {
 export async function learnFeedback(analysis, answers) {
   let txt = QUESTIONS.map(([k, l]) => `${l}\n${(answers[k] || "").trim() || "(keine Antwort)"}\n`).join("\n");
   if (answers.q_extra_label) txt += `\n${answers.q_extra_label}\n${(answers.q_extra || "").trim() || "(keine Antwort)"}\n`;
-  const res = await claude({ system: await prompt("learn_feedback_v3"), maxTokens: 4000,
+  const res = await ai({ system: await prompt("learn_feedback_v3"), maxTokens: 4000,
     content: `<analysis>\n${JSON.stringify(analysis, null, 2)}\n</analysis>\n\n<answers>\n${txt}</answers>` });
   return res.text;
 }
 
 export async function drillFeedback(img, dim, analysis, answer) {
-  const res = await claude({ system: await prompt("drill_feedback_v1"), maxTokens: 4000, content: [
+  const res = await ai({ system: await prompt("drill_feedback_v1"), maxTokens: 4000, content: [
     { type: "image", source: { type: "base64", media_type: "image/jpeg", data: await mediaBase64(img.id) } },
     { type: "text", text: `<dimension>${dim.label}</dimension>\n<question>${dim.q}</question>\n\n<reference>${referenceText(analysis, dim.field)}</reference>\n\n<full_analysis>\n${JSON.stringify(analysis, null, 2)}\n</full_analysis>\n\n<answer>${answer.trim() || "(keine Antwort)"}</answer>` },
   ] });
@@ -180,10 +180,10 @@ export async function drillFeedback(img, dim, analysis, answer) {
 
 export async function chapterDraft(ch, keyImages) {
   const srcs = sourcesFor("chapter", ch.id);
-  if (!srcs.length) throw new ClaudeError("Erst Quellen mit Textauszug hinterlegen – ohne Quellen kein Entwurf.");
+  if (!srcs.length) throw new AIError("Erst Quellen mit Textauszug hinterlegen – ohne Quellen kein Entwurf.");
   const meta = { nummer: ch.number, titel: ch.title, zeitraum: [ch.period_from, ch.period_to] };
   const imgs = keyImages.map(i => ({ fotograf: photographerOf(i).name, titel: i.title, jahr: i.year }));
-  const res = await claude({ system: await prompt("chapter_draft_v3"),
+  const res = await ai({ system: await prompt("chapter_draft_v3"),
     content: `<chapter>\n${JSON.stringify(meta, null, 2)}\n</chapter>\n\n<key_images>\n${JSON.stringify(imgs, null, 2)}\n</key_images>\n\n<sources>\n${formatSources(srcs)}\n</sources>` });
   return res.text;
 }

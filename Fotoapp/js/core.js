@@ -20,7 +20,8 @@ const bytesFromB64 = b64 => Uint8Array.from(atob(b64.replace(/\s/g, "")), c => c
 const hexToBytes = hex => Uint8Array.from(hex.match(/../g).map(h => parseInt(h, 16)));
 
 // ---------- session: keys unlocked with the access code
-export const session = { mediaKey: null, anthropicKey: "", ghToken: "", model: "claude-opus-5-5", effort: "high" };
+export const session = { mediaKey: null, provider: "anthropic", anthropicKey: "", openaiKey: "", ghToken: "",
+  model: "claude-opus-5-5", effort: "high", openaiModel: "gpt-5" };
 
 export async function unlock(code) {
   const C = window.InstaMapCrypto;
@@ -32,12 +33,20 @@ export async function unlock(code) {
   if (window.SEHSCHULE_ANTHROPIC_KEY_ENC) {
     try { session.anthropicKey = (await C.decrypt(window.SEHSCHULE_ANTHROPIC_KEY_ENC, code)).trim(); } catch {}
   }
+  if (window.SEHSCHULE_OPENAI_KEY_ENC) {
+    try { session.openaiKey = (await C.decrypt(window.SEHSCHULE_OPENAI_KEY_ENC, code)).trim(); } catch {}
+  }
   if (window.GITHUB_TOKEN_ENC) {
     try { session.ghToken = (await C.decrypt(window.GITHUB_TOKEN_ENC, code)).trim(); } catch {}
   }
   session.ghToken = session.ghToken || store.get("ghToken") || "";
   session.model = window.SEHSCHULE_MODEL || session.model;
   session.effort = window.SEHSCHULE_EFFORT || session.effort;
+  session.openaiModel = window.SEHSCHULE_OPENAI_MODEL || session.openaiModel;
+  // Provider from config; falls back to whichever key exists.
+  session.provider = window.SEHSCHULE_PROVIDER || (session.anthropicKey ? "anthropic" : "openai");
+  if (session.provider === "openai" && !session.openaiKey && session.anthropicKey) session.provider = "anthropic";
+  if (session.provider === "anthropic" && !session.anthropicKey && session.openaiKey) session.provider = "openai";
 }
 
 export async function encryptBytes(bytes) {
@@ -174,8 +183,8 @@ export async function uploadMedia(id, fullJpeg, thumbJpeg) {
   }
 }
 
-// ---------- Claude API (direct from the browser)
-export class ClaudeError extends Error {}
+// ---------- AI providers (direct from the browser): Claude (Anthropic) or OpenAI
+export class AIError extends Error {}
 
 const prompts = new Map();
 export async function prompt(name) {
@@ -187,8 +196,15 @@ export async function prompt(name) {
   return prompts.get(name);
 }
 
-export async function claude({ system, content, schema = null, maxTokens = 16000 }) {
-  if (!session.anthropicKey) throw new ClaudeError("Kein Anthropic-API-Key hinterlegt (setup.html).");
+export const providerLabel = () => session.provider === "openai" ? `OpenAI (${session.openaiModel})` : `Claude (${session.model})`;
+
+// content: string or Anthropic-style blocks [{type:"text"}|{type:"image", source:{base64}}]
+export async function ai(opts) {
+  return session.provider === "openai" ? openai(opts) : anthropic(opts);
+}
+
+async function anthropic({ system, content, schema = null, maxTokens = 16000 }) {
+  if (!session.anthropicKey) throw new AIError("Kein Anthropic-API-Key hinterlegt (setup.html).");
   const body = {
     model: session.model, max_tokens: maxTokens, system, messages: [{ role: "user", content }],
     output_config: { effort: session.effort, ...(schema ? { format: { type: "json_schema", schema } } : {}) },
@@ -210,18 +226,46 @@ export async function claude({ system, content, schema = null, maxTokens = 16000
       const err = await r.clone().json().catch(() => ({}));
       if (/fallback/i.test(JSON.stringify(err))) r = await send(false);
     }
-  } catch { throw new ClaudeError("Keine Verbindung zur Claude API."); }
+  } catch { throw new AIError("Keine Verbindung zur Claude API."); }
   const j = await r.json().catch(() => ({}));
-  if (!r.ok) {
-    const msg = j.error?.message || r.statusText;
-    if (r.status === 401) throw new ClaudeError("API-Key ungültig.");
-    if (r.status === 429) throw new ClaudeError("Rate-Limit erreicht – bitte später erneut versuchen.");
-    throw new ClaudeError(`API-Fehler ${r.status}: ${msg}`);
-  }
-  if (j.stop_reason === "refusal") throw new ClaudeError("Das Modell hat die Anfrage abgelehnt.");
-  if (j.stop_reason === "max_tokens") throw new ClaudeError("Antwort wurde abgeschnitten.");
+  if (!r.ok) throw httpError(r.status, j.error?.message || r.statusText);
+  if (j.stop_reason === "refusal") throw new AIError("Das Modell hat die Anfrage abgelehnt.");
+  if (j.stop_reason === "max_tokens") throw new AIError("Antwort wurde abgeschnitten.");
   const text = (j.content || []).filter(b => b.type === "text").map(b => b.text).join("").trim();
-  if (!schema) return { text, model: j.model };
-  try { return { data: JSON.parse(text), model: j.model }; }
-  catch { throw new ClaudeError("Antwort entsprach nicht dem Schema."); }
+  return result(text, j.model, schema);
+}
+
+async function openai({ system, content, schema = null, maxTokens = 16000 }) {
+  if (!session.openaiKey) throw new AIError("Kein OpenAI-API-Key hinterlegt (setup.html).");
+  const parts = typeof content === "string" ? [{ type: "text", text: content }] : content.map(b => b.type === "image"
+    ? { type: "image_url", image_url: { url: `data:${b.source.media_type};base64,${b.source.data}`, detail: "high" } }
+    : { type: "text", text: b.text });
+  const body = {
+    model: session.openaiModel, max_completion_tokens: maxTokens,
+    messages: [{ role: "system", content: system }, { role: "user", content: parts }],
+    ...(schema ? { response_format: { type: "json_schema", json_schema: { name: "result", strict: true, schema } } } : {}),
+  };
+  let r;
+  try {
+    r = await fetch("https://api.openai.com/v1/chat/completions", { method: "POST",
+      headers: { "content-type": "application/json", authorization: `Bearer ${session.openaiKey}` }, body: JSON.stringify(body) });
+  } catch { throw new AIError("Keine Verbindung zur OpenAI API."); }
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) throw httpError(r.status, j.error?.message || r.statusText);
+  const choice = j.choices?.[0] || {};
+  if (choice.message?.refusal) throw new AIError("Das Modell hat die Anfrage abgelehnt.");
+  if (choice.finish_reason === "length") throw new AIError("Antwort wurde abgeschnitten.");
+  return result((choice.message?.content || "").trim(), j.model, schema);
+}
+
+function httpError(status, msg) {
+  if (status === 401) return new AIError("API-Key ungültig.");
+  if (status === 429) return new AIError("Rate-Limit oder Guthaben erschöpft – bitte später erneut versuchen.");
+  return new AIError(`API-Fehler ${status}: ${msg}`);
+}
+
+function result(text, model, schema) {
+  if (!schema) return { text, model };
+  try { return { data: JSON.parse(text), model }; }
+  catch { throw new AIError("Antwort entsprach nicht dem Schema."); }
 }
