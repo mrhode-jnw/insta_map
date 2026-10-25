@@ -1,0 +1,882 @@
+{
+ "accessed_at": "2026-10-25",
+ "photographers": [
+  {
+   "key": "godwin",
+   "name": "Fay Godwin",
+   "born": 1931,
+   "died": 2005,
+   "sources": [
+    {
+     "url": "https://www.sfmoma.org/artist/Fay_Godwin/",
+     "title": "Fay Godwin · SFMOMA",
+     "excerpt": "Fay Godwin British, born Germany 1931, Berlin, Germany 2005, Hastings, England"
+    },
+    {
+     "url": "https://www.murrayedwards.cam.ac.uk/womens-art-collection/artist/fay-godwin",
+     "title": "Fay Godwin – The Women's Art Collection, Murray Edwards College, University of Cambridge",
+     "excerpt": "Godwin published her first landscape photography book, The Oldest Road , in 1975. She rose to prominence in the late 1980s with the exhibition and accompanying book Land (1985), becoming the first living photographer featured on ITV’s South Bank Show in 1986. President of the Ramblers’ Association (1987–90) and campaigner for open access to the countryside, an appreciation of the British landscape underpinned her environmental activism. She increasingly sought to represent activist interests in her practice; for example, the photographic book Our Forbidden Land (1990) documents environmental degradation."
+    },
+    {
+     "url": "https://www.imperialcharity.org.uk/arts/exhibitions/fay-godwin",
+     "title": "Fay Godwin – Imperial College Healthcare Charity (Ausstellung 2017/18, Leihgaben der British Council Collection)",
+     "excerpt": "this exhibition of Fay Godwin’s work beautifully illustrated Godwin’s love of walking — a passion which inspired her to pursue landscape photography. These works show her photographing isolated and remote areas of the British landscape."
+    }
+   ],
+   "projects": [
+    {
+     "key": "godwin-land",
+     "title": "Land (Landschaften 1974–1983)",
+     "year_from": 1974,
+     "year_to": 1985,
+     "sources": [
+      {
+       "url": "https://www.serpentinegalleries.org/whats-on/fay-godwin-land/",
+       "title": "Fay Godwin: Land – Serpentine Galleries (Ausstellung 5. Okt.–17. Nov. 1985)",
+       "excerpt": "This was an exhibition of Fay Godwin’s photographs celebrating the British landscape. Shortly before the exhibition, Godwin (1931-2005) published a book of her work entitled Land . A selection of 111 photographs from this project was made for the exhibition at the Serpentine Gallery. The exhibition included photographs taken in a wide variety of locations – the Orkneys, Sutherland, the Pennines, Wales, Avebury, Stourhead, Romney Marsh, and Dover – and was a resumé of 10 years’ work."
+      },
+      {
+       "url": "https://www.serpentinegalleries.org/whats-on/fay-godwin-land/",
+       "title": "Fay Godwin: Land – Serpentine Galleries (Zitat Margaret Drabble, Guardian 2011)",
+       "excerpt": "Her imagination, like his, was attracted by the barren, the grand, and the bleak. These archetypal landscapes are probably the most enduring tributes to her great talent, and they are enduring in every sense – she catches the spirits of places that have been worn and weathered, deserted and abandoned, and yet still speak to us."
+      },
+      {
+       "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8364661",
+       "title": "Heptonstall backlit, Yorkshire – Science Museum Group Collection (Land-Ausstellungsabzug)",
+       "excerpt": "Sensitive, subtly political and unsentimental, her work was published in several books, the most influential of which was Land in 1985. Land featured work taken over a ten year period and included many photographs taken whilst Godwin was in receipt of a major Arts Council grant, awarded in 1978."
+      }
+     ],
+     "images": [
+      {
+       "key": "godwin-white-horse-dragon-hill",
+       "title": "White Horse and Dragon Hill, Uffington",
+       "year": 1974,
+       "location": "Uffington",
+       "source_url": "https://www.sfmoma.org/artwork/2007.343/",
+       "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/20192745/PH07.232_01_b02-web.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "england",
+        "huegel",
+        "spuren"
+       ],
+       "sources": []
+      },
+      {
+       "key": "godwin-lumbutts",
+       "title": "Paved Path and Reservoir above Lumbatts, Yorkshire",
+       "year": 1977,
+       "location": "Yorkshire",
+       "source_url": "https://www.sfmoma.org/artwork/2007.337/",
+       "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/17214637/2007.337_01_b02-web.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "england",
+        "weg",
+        "lichtstimmung"
+       ],
+       "sources": [
+        {
+         "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8237519",
+         "title": "Path and Reservoir Above Lumbutts – Science Museum Group Collection",
+         "excerpt": "Silver gelatin print by Fay godwin, 1977, entitled 'Path and Reservoir Above Lumbutts'. Part of`Land' exhibition by Fay Godwin comprising 111 black and white vintage exhibition prints."
+        }
+       ]
+      },
+      {
+       "key": "godwin-stenness",
+       "title": "Stones of Stenness, Orkney",
+       "year": 1979,
+       "location": "Orkney",
+       "source_url": "https://www.sfmoma.org/artwork/2007.341/",
+       "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/20192759/PH07.235_01_b02-web.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "schottland",
+        "steinkreis",
+        "gewitterlicht"
+       ],
+       "sources": []
+      },
+      {
+       "key": "godwin-fairfield",
+       "title": "St. Thomas à Becket Church, Fairfield",
+       "year": 1980,
+       "location": "Fairfield",
+       "source_url": "https://www.sfmoma.org/artwork/2007.340/",
+       "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/18202059/PH07.236_01_b02-web.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "england",
+        "weite",
+        "kirche"
+       ],
+       "sources": []
+      },
+      {
+       "key": "godwin-suilven",
+       "title": "Suilven, from Stac Pollaidh",
+       "year": 1981,
+       "location": "Stac Pollaidh, Sutherland",
+       "source_url": "https://www.sfmoma.org/artwork/2007.342/",
+       "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/18202127/PH07.238_01_b02-web.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "schottland",
+        "berg",
+        "standpunkt"
+       ],
+       "sources": [
+        {
+         "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8233180",
+         "title": "Suilven, From Stac Poliadh, Sutherland – Science Museum Group Collection",
+         "excerpt": "Gelatin silver print entitled 'Suilven, From Stac Poliadh, Sutherland', by Fay Godwin, 1981. Part of the `Land' exhibition by Fay Godwin comprising 111 black and white vintage exhibition prints, selected contact prints, book dummy and contextual material, 1985."
+        }
+       ]
+      },
+      {
+       "key": "godwin-rannoch-moor",
+       "title": "Four Trees, Rannoch Moor",
+       "year": 1981,
+       "location": "Rannoch Moor",
+       "source_url": "https://www.sfmoma.org/artwork/2007.335/",
+       "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/18202112/2007.335_01_b02-web.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "schottland",
+        "nebel",
+        "baeume"
+       ],
+       "sources": []
+      },
+      {
+       "key": "godwin-montacute",
+       "title": "Montacute House, Somerset",
+       "year": 1982,
+       "location": "Somerset",
+       "source_url": "https://www.sfmoma.org/artwork/2007.336/",
+       "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/18202142/2007.336_01_b02-web.jpg",
+       "tags": [
+        "garten",
+        "schwarzweiss",
+        "england",
+        "form",
+        "baeume"
+       ],
+       "sources": []
+      },
+      {
+       "key": "godwin-avebury",
+       "title": "Ridgeway: Avebury, sunrise with sheep",
+       "year": null,
+       "location": "Avebury",
+       "source_url": "https://collections.vam.ac.uk/item/O1060919/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2014GY7409/full/1600,/0/default.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "england",
+        "steinkreis",
+        "schafe"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "gilpin",
+   "name": "Laura Gilpin",
+   "born": 1891,
+   "died": 1979,
+   "sources": [
+    {
+     "url": "https://www.cartermuseum.org/artists/laura-gilpin",
+     "title": "Laura Gilpin – Amon Carter Museum of American Art",
+     "excerpt": "Laura Gilpin Creator Details Birth Apr. 22, 1891 (Colorado Springs, Colorado) Death Nov. 30, 1979 (Santa Fe, New Mexico) Laura Gilpin was one of the most prolific photographers of the 20th century, with a career spanning over 70 years. Study with Clarence H. White led her to initially embrace a pictorialist style that emphasized beauty and artistic creation over photography’s documentary qualities. But over time she developed a more straightforward photographic approach, becoming widely known for her extended documentation of the Southwestern landscape and the Diné (Navajo) people."
+    },
+    {
+     "url": "https://www.andrewsmithgallery.com/exhibitions/lauragilpin/masterworks/lauragilpin.htm",
+     "title": "Laura Gilpin – Masterworks, Andrew Smith Gallery (Liz Kay, 2007)",
+     "excerpt": "Gilpin's landscape photographs are among her greatest accomplishments. Her sensitivity to the canyons, prairies, dunes and mountains of the west was apparent in her work from the beginning. Indeed, photographs of unspoiled wilderness areas account for a large portion of her work. Wherever she traveled, her artistic eye was sensitive to compositions within nature and the harmony which Westerners brought to their lives on the land."
+    }
+   ],
+   "projects": [
+    {
+     "key": "gilpin-rio-grande",
+     "title": "The Rio Grande: River of Destiny",
+     "year_from": 1945,
+     "year_to": 1949,
+     "sources": [
+      {
+       "url": "https://www.andrewsmithgallery.com/exhibitions/lauragilpin/masterworks/lauragilpin.htm",
+       "title": "Laura Gilpin – Masterworks, Andrew Smith Gallery (Liz Kay, 2007)",
+       "excerpt": "A month after her father's death in May 1945, Gilpin left Colorado Springs for New York where she signed a contract with Duell, Sloan & Pearce for a photographic book on the Rio Grande. The book was to be a portrait of the river and the land through which it flows. In the fall of 1945, Gilpin and her friend Betsy Forster moved to Santa Fe, which was closer to the areas she wanted to photograph. Gilpin traveled over 27,000 miles to create a photographic record of the Rio Grande from its headwaters in the San Juan Mountains of southern Colorado to its effluence in the Gulf of Mexico. The Rio Grande: River of Destiny was published in 1949."
+      },
+      {
+       "url": "https://www.cartermuseum.org/artists/laura-gilpin",
+       "title": "Laura Gilpin – Amon Carter Museum of American Art",
+       "excerpt": "In 1979 Gilpin bequeathed the Museum over 6,000 prints and 20,000 negatives as well as her personal library collection, and the Laura Gilpin Papers ."
+      }
+     ],
+     "images": [
+      {
+       "key": "gilpin-infant-river",
+       "title": "The Infant River",
+       "year": 1946,
+       "location": "Colorado",
+       "source_url": "https://www.cartermuseum.org/collection/infant-river-p1979134214",
+       "image_url": "https://d2ujpqfu85jxzw.cloudfront.net/website/panth-live/artwork/P1979-134-214/carter_p1979-134-214_o2_8.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "fluss",
+        "quelle",
+        "nahsicht"
+       ],
+       "sources": [
+        {
+         "url": "https://www.cartermuseum.org/collection/infant-river-p1979134214",
+         "title": "The Infant River – Amon Carter Museum of American Art (Inschrift Rückseite)",
+         "excerpt": "[typed]: THE INFANT RIVER \\ from \\ RIO GRANDE, RIVER OF DESTINY \\ DUELL, SLOAN & PEARCE. PUB. \\ 1949"
+        }
+       ]
+      },
+      {
+       "key": "gilpin-san-juan-mountains",
+       "title": "In the San Juan Mountains",
+       "year": 1946,
+       "location": "San Juan Mountains, Colorado",
+       "source_url": "https://www.cartermuseum.org/collection/san-juan-mountains-p1979134186",
+       "image_url": "https://d2ujpqfu85jxzw.cloudfront.net/website/panth-live/artwork/P1979-134-186/carter_p1979-134-186_o2_8.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "gebirge",
+        "tal",
+        "ebenen"
+       ],
+       "sources": [
+        {
+         "url": "https://www.cartermuseum.org/collection/san-juan-mountains-p1979134186",
+         "title": "In the San Juan Mountains – Amon Carter Museum of American Art (Inschrift Rückseite)",
+         "excerpt": "[typed]: IN THE SAN JUAN MOUNTAINS \\ from \\ THE RIO GRANDE, RIVER OF DESTINY \\ DUELL, SLOAN & PEARCE, PUB. N.Y. 1949"
+        }
+       ]
+      },
+      {
+       "key": "gilpin-water-turned-upon-land",
+       "title": "Water from the Rio Grande is Turned Upon the Land",
+       "year": 1946,
+       "location": "San Luis Valley, Colorado",
+       "source_url": "https://www.cartermuseum.org/collection/water-rio-grande-turned-upon-land-p1979134194",
+       "image_url": "https://d2ujpqfu85jxzw.cloudfront.net/website/panth-live/artwork/P1979-134-194/carter_p1979-134-194_o2_8.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "arbeit",
+        "bewaesserung",
+        "mensch-und-land"
+       ],
+       "sources": [
+        {
+         "url": "https://www.cartermuseum.org/collection/water-rio-grande-turned-upon-land-p1979134194",
+         "title": "Water from the Rio Grande is Turned Upon the Land – Amon Carter Museum of American Art (Inschrift Rückseite)",
+         "excerpt": "[typed]: WATER FROM THE RIO GRANDE IS TURNED \\ UPON THE LAND. \\ SAN LUIS VALLEY, COLORADO \\ from \\ THE RIO GRANDE, RIVER OF DESTINY"
+        }
+       ]
+      },
+      {
+       "key": "gilpin-storm-rio-grande-valley",
+       "title": "Storm over the Rio Grande Valley",
+       "year": 1946,
+       "location": "New Mexico",
+       "source_url": "https://www.cartermuseum.org/collection/storm-over-rio-grande-valley-p197913489",
+       "image_url": "https://d2ujpqfu85jxzw.cloudfront.net/website/panth-live/artwork/P1979-134-89/carter_p1979-134-89_o2_15.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "gewitter",
+        "wolken",
+        "licht"
+       ],
+       "sources": [
+        {
+         "url": "https://www.cartermuseum.org/collection/storm-over-rio-grande-valley-p197913489",
+         "title": "Storm over the Rio Grande Valley – Amon Carter Museum of American Art (Inschrift Rückseite)",
+         "excerpt": "TITLE: [typed]: STORM OVER THE RIO GRANDE VALLEY \\ 1946 \\ [in graphite]: from \\ Rio Grande - River of Destiny"
+        }
+       ]
+      },
+      {
+       "key": "gilpin-mariscal-canyon",
+       "title": "Looking Upstream Below Mariscal Canyon, Big Bend National Park",
+       "year": 1946,
+       "location": "Big Bend National Park",
+       "source_url": "https://www.cartermuseum.org/collection/looking-upstream-below-mariscal-canyon-big-bend-national-park-p1979134120",
+       "image_url": "https://d2ujpqfu85jxzw.cloudfront.net/website/panth-live/artwork/P1979-134-120/carter_p1979-134-120_o2_9.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "fluss",
+        "wueste",
+        "vordergrund"
+       ],
+       "sources": [
+        {
+         "url": "https://www.cartermuseum.org/collection/looking-upstream-below-mariscal-canyon-big-bend-national-park-p1979134120",
+         "title": "Looking Upstream Below Mariscal Canyon – Amon Carter Museum of American Art (Inschrift Rückseite)",
+         "excerpt": "[typed]: LOOKING UP STREAM. BELOW \\ MARISCAL CANYON. \\ BIG BEND NATIONAL PARK \\ RIO GRANDE. RIVER OF DESTINY"
+        }
+       ]
+      },
+      {
+       "key": "gilpin-white-rock-canyon",
+       "title": "White Rock Canyon",
+       "year": 1947,
+       "location": "White Rock Canyon",
+       "source_url": "https://www.cartermuseum.org/collection/white-rock-canyon-p1979134126",
+       "image_url": "https://d2ujpqfu85jxzw.cloudfront.net/website/panth-live/artwork/P1979-134-126/carter_p1979-134-126_o2_9.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "luftbild",
+        "canyon",
+        "fluss"
+       ],
+       "sources": [
+        {
+         "url": "https://www.cartermuseum.org/collection/white-rock-canyon-p1979134126",
+         "title": "White Rock Canyon – Amon Carter Museum of American Art (Inschrift Rückseite)",
+         "excerpt": "[typed]: WHITE ROCK CANYON \\ from \\ THE RIO GRANDE. RIVER OF \\ DESTINY"
+        }
+       ]
+      },
+      {
+       "key": "gilpin-rio-grande-in-flood",
+       "title": "The Rio Grande in Flood",
+       "year": 1947,
+       "location": "",
+       "source_url": "https://www.cartermuseum.org/collection/rio-grande-flood-p1979134123",
+       "image_url": "https://d2ujpqfu85jxzw.cloudfront.net/website/panth-live/artwork/P1979-134-123/carter_p1979-134-123_o2_8.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "fluss",
+        "hochwasser",
+        "oberflaeche"
+       ],
+       "sources": [
+        {
+         "url": "https://www.cartermuseum.org/collection/rio-grande-flood-p1979134123",
+         "title": "The Rio Grande in Flood – Amon Carter Museum of American Art (Inschrift Rückseite)",
+         "excerpt": "[typed]: THE RIO GRANDE IN FLOOD \\ from \\ THE RIO GRANDE. RIVER OF DESTINY \\ DUELL, SLOAN & PEARCE PUB. N.Y. 1949"
+        }
+       ]
+      },
+      {
+       "key": "gilpin-surplus-to-the-sea",
+       "title": "The Rio Grande Yields Its Surplus to the Sea",
+       "year": 1947,
+       "location": "Gulf of Mexico, Texas",
+       "source_url": "https://www.cartermuseum.org/collection/rio-grande-yields-its-surplus-sea-p19799535",
+       "image_url": "https://d2ujpqfu85jxzw.cloudfront.net/website/panth-live/artwork/P1979-95-35/carter_p1979-95-35_o2_21.jpg",
+       "tags": [
+        "landschaft",
+        "schwarzweiss",
+        "luftbild",
+        "muendung",
+        "gegenlicht"
+       ],
+       "sources": [
+        {
+         "url": "https://www.cartermuseum.org/collection/rio-grande-yields-its-surplus-sea-p19799535",
+         "title": "The Rio Grande Yields Its Surplus to the Sea – Amon Carter Museum of American Art (Inschrift Rückseite)",
+         "excerpt": "[typed]: THE RIO GRANDE YIELDS ITS SURPLUS \\ TO THE SEA. \\ from \\ THE RIO GRANDE, RIVER OF DESTINY \\ DUELL, SLOAN & PEARCE, PUB. N. Y. 1949 [sic]"
+        },
+        {
+         "url": "https://www.andrewsmithgallery.com/exhibitions/lauragilpin/masterworks/lauragilpin.htm",
+         "title": "Laura Gilpin – Masterworks, Andrew Smith Gallery (Liz Kay, 2007)",
+         "excerpt": "In this masterpiece of abstract minimalism the serpentine Rio Grande, shining like a lightning bolt on the dark delta, flows into the shimmering gulf waters where sea and sky merge imperceptibly."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "sugimoto",
+   "name": "Hiroshi Sugimoto",
+   "born": 1948,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://www.sfmoma.org/artist/Hiroshi_Sugimoto/",
+     "title": "Hiroshi Sugimoto · SFMOMA",
+     "excerpt": "Known for his long-exposure photographic series of empty movie theaters and drive-ins, seascapes, museum dioramas, and waxworks, Hiroshi Sugimoto has been investigating the nature of time for nearly thirty years."
+    },
+    {
+     "url": "https://www.artic.edu/artworks/145296/lake-superior-cascade-river",
+     "title": "Hiroshi Sugimoto, Lake Superior, Cascade River, 1995 – The Art Institute of Chicago",
+     "excerpt": "Artist: Hiroshi Sugimoto Japanese, born 1948"
+    }
+   ],
+   "projects": [
+    {
+     "key": "sugimoto-seascapes",
+     "title": "Seascapes",
+     "year_from": 1980,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://www.artic.edu/artworks/145296/lake-superior-cascade-river",
+       "title": "Hiroshi Sugimoto, Lake Superior, Cascade River, 1995 – The Art Institute of Chicago",
+       "excerpt": "Sugimoto began photographing bodies of water with a large-format camera in 1980, resulting in the Seascapes series, which continues to this day. Although his fascination with the subject has spanned decades, his aim remains to “capture the sea as if it were being seen for the first time.” For each body of water he visits, he makes multiple images reflecting varying times of day, shutter speeds, lengths of exposure, and atmospheric conditions."
+      },
+      {
+       "url": "https://fraenkelgallery.com/portfolios/seascapes",
+       "title": "Hiroshi Sugimoto: Seascapes | Fraenkel Gallery",
+       "excerpt": "For more than four decades, Hiroshi Sugimoto has been photographing seascapes around the world. “A sharp horizon line and a cloudless sky– here began my consciousness.” writes Sugimoto, “From there my thoughts race to the origins of human consciousness itself. The sea reminds me that within my blood remain traces of human evolution over hundreds of thousands of years.”"
+      },
+      {
+       "url": "https://www.sugimotohiroshi.com/seascapes-1",
+       "title": "Seascapes — Hiroshi Sugimoto (Website des Künstlers)",
+       "excerpt": "Water and air. So very commonplace are these substances, they hardly attract attention―and yet they vouchsafe our very existence."
+      },
+      {
+       "url": "https://www.sugimotohiroshi.com/seascapes-1",
+       "title": "Seascapes — Hiroshi Sugimoto (Website des Künstlers)",
+       "excerpt": "Mystery of mysteries, water and air are right there before us in the sea. Every time I view the sea, I feel a calming sense of security, as if visiting my ancestral home; I embark on a voyage of seeing."
+      }
+     ],
+     "images": [
+      {
+       "key": "sugimoto-caribbean-sea-jamaica",
+       "title": "Caribbean Sea, Jamaica",
+       "year": 1980,
+       "location": "Jamaica",
+       "source_url": "https://www.artic.edu/artworks/143121/caribbean-sea-jamaica",
+       "image_url": "https://www.artic.edu/iiif/2/6b73bc63-ee7e-7155-509b-ccdd854a951e/full/843,/0/default.jpg",
+       "tags": [
+        "meer",
+        "horizont",
+        "schwarzweiss",
+        "serie",
+        "reduktion"
+       ],
+       "sources": []
+      },
+      {
+       "key": "sugimoto-sea-of-japan-hokkaido",
+       "title": "Sea of Japan, Hokkaido",
+       "year": 1986,
+       "location": "Hokkaido",
+       "source_url": "https://www.artic.edu/artworks/143126/sea-of-japan-hokkaido",
+       "image_url": "https://www.artic.edu/iiif/2/02e03f32-7af3-f109-1090-1611a7e341dd/full/843,/0/default.jpg",
+       "tags": [
+        "meer",
+        "horizont",
+        "schwarzweiss",
+        "dunst",
+        "serie"
+       ],
+       "sources": []
+      },
+      {
+       "key": "sugimoto-yellow-sea-cheju",
+       "title": "Yellow Sea, Cheju",
+       "year": 1992,
+       "location": "Cheju",
+       "source_url": "https://fraenkelgallery.com/portfolios/seascapes",
+       "image_url": "https://fraenkelgallery.com/wp-content/uploads/2018/02/SUG-384.jpg",
+       "tags": [
+        "meer",
+        "horizont",
+        "schwarzweiss",
+        "serie",
+        "tonwerte"
+       ],
+       "sources": []
+      },
+      {
+       "key": "sugimoto-ionian-sea-santa-cesarea",
+       "title": "Ionian Sea, Santa Cesarea",
+       "year": 1993,
+       "location": "Santa Cesarea",
+       "source_url": "https://fraenkelgallery.com/portfolios/seascapes",
+       "image_url": "https://fraenkelgallery.com/wp-content/uploads/2022/09/SUG-397.jpg",
+       "tags": [
+        "meer",
+        "horizont",
+        "schwarzweiss",
+        "dunkelheit",
+        "serie"
+       ],
+       "sources": []
+      },
+      {
+       "key": "sugimoto-north-pacific-stinson-beach",
+       "title": "North Pacific Ocean, Stinson Beach",
+       "year": 1994,
+       "location": "Stinson Beach",
+       "source_url": "https://fraenkelgallery.com/portfolios/seascapes",
+       "image_url": "https://fraenkelgallery.com/wp-content/uploads/2024/01/SUG-422.jpg",
+       "tags": [
+        "meer",
+        "horizont",
+        "schwarzweiss",
+        "nacht",
+        "serie"
+       ],
+       "sources": []
+      },
+      {
+       "key": "sugimoto-english-channel-weston-cliff",
+       "title": "English Channel, Weston Cliff",
+       "year": 1994,
+       "location": "Weston Cliff",
+       "source_url": "https://www.artic.edu/artworks/137080/english-channel-weston-cliff",
+       "image_url": "https://www.artic.edu/iiif/2/18d44de2-4c47-7424-bdcb-02ef38cd7b41/full/843,/0/default.jpg",
+       "tags": [
+        "meer",
+        "horizont",
+        "schwarzweiss",
+        "serie",
+        "reduktion"
+       ],
+       "sources": []
+      },
+      {
+       "key": "sugimoto-lake-superior-cascade-river",
+       "title": "Lake Superior, Cascade River",
+       "year": 1995,
+       "location": "Lake Superior, Cascade River",
+       "source_url": "https://fraenkelgallery.com/portfolios/seascapes",
+       "image_url": "https://fraenkelgallery.com/wp-content/uploads/2018/02/SUG-427-2.jpg",
+       "tags": [
+        "see",
+        "horizont",
+        "schwarzweiss",
+        "nacht",
+        "serie"
+       ],
+       "sources": [
+        {
+         "url": "https://www.artic.edu/artworks/145296/lake-superior-cascade-river",
+         "title": "Hiroshi Sugimoto, Lake Superior, Cascade River, 1995 – The Art Institute of Chicago",
+         "excerpt": "The spareness of this nocturnal image—with a barely visible horizon line bisecting sea and sky—suggests something at once elemental and eternal."
+        }
+       ]
+      },
+      {
+       "key": "sugimoto-sea-of-japan-rishiri",
+       "title": "Sea of Japan, Rishiri Island",
+       "year": 1996,
+       "location": "Rishiri Island",
+       "source_url": "https://fraenkelgallery.com/portfolios/seascapes",
+       "image_url": "https://fraenkelgallery.com/wp-content/uploads/2024/05/SUG-456.jpg",
+       "tags": [
+        "meer",
+        "horizont",
+        "schwarzweiss",
+        "wolken",
+        "serie"
+       ],
+       "sources": []
+      },
+      {
+       "key": "sugimoto-bass-strait-table-cape",
+       "title": "Bass Strait, Table Cape",
+       "year": 1997,
+       "location": "Table Cape",
+       "source_url": "https://fraenkelgallery.com/portfolios/seascapes",
+       "image_url": "https://fraenkelgallery.com/wp-content/uploads/2024/01/SUG-471.jpg",
+       "tags": [
+        "meer",
+        "horizont",
+        "schwarzweiss",
+        "serie",
+        "tonwerte"
+       ],
+       "sources": []
+      },
+      {
+       "key": "sugimoto-bay-of-sagami-enoura",
+       "title": "Bay of Sagami, Enoura",
+       "year": 2022,
+       "location": "Enoura",
+       "source_url": "https://fraenkelgallery.com/portfolios/seascapes",
+       "image_url": "https://fraenkelgallery.com/wp-content/uploads/2024/05/SUG-612.jpg",
+       "tags": [
+        "meer",
+        "horizont",
+        "schwarzweiss",
+        "serie",
+        "zeit"
+       ],
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "arnold",
+   "name": "Eve Arnold",
+   "born": 1912,
+   "died": 2012,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/eve-arnold/",
+     "title": "Eve Arnold • Magnum Photos (Fotografenprofil)",
+     "excerpt": "\"If a photographer cares about the people before the lens and is compassionate, much is given. It is the photographer, not the camera, that is the instrument.\" - Eve Arnold b. 1912 d. 2012"
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/eve-arnold/",
+     "title": "Eve Arnold • Magnum Photos (Fotografenprofil)",
+     "excerpt": "Eve Arnold was born in Philadelphia, Pennsylvania, in 1912 to Russian immigrant parents. She began photographing in 1946 while working at a photo-finishing plant in New York City. She then studied photography in 1948 with Alexei Brodovitch at the New School for Social Research in New York. Arnold first became associated with Magnum Photos in 1951 and became a full member in 1957."
+    }
+   ],
+   "projects": [
+    {
+     "key": "arnold-in-china",
+     "title": "In China",
+     "year_from": 1979,
+     "year_to": 1980,
+     "sources": [
+      {
+       "url": "https://store.magnumphotos.com/products/magnum-poster-horse-training-for-the-militia-1979",
+       "title": "Magnum Poster: Horse training for the militia, 1979 – Magnum Shop (Beschreibung)",
+       "excerpt": "Eve Arnold took extended trips to China in 1979, totalling five months, in which she was able to travel freely with almost unlimited access. She followed her own itinerary some 40,000 miles back and forth across the mainland, accompanied only by her interpreter."
+      },
+      {
+       "url": "https://www.csmonitor.com/1980/1208/120856.html",
+       "title": "Exotic places; In China, by Eve Arnold – The Christian Science Monitor (Gordon N. Converse, 8. Dez. 1980)",
+       "excerpt": "Picture-book lovers haven't truly glimpsed today's China until they have seen the 170 magnificent color photographs in this book, compiled from photojournalist Eve Arnold's 40,000-mile, five-month-long journey through that vast country in 1979. After waiting more than 10 years for approval of her special visa, she was given practically free access to all of China, traveling with only one interpreter."
+      },
+      {
+       "url": "https://www.magnumphotos.com/photographer/eve-arnold/",
+       "title": "Eve Arnold • Magnum Photos (Fotografenprofil)",
+       "excerpt": "In 1980, she held her first major solo exhibition at the Brooklyn Museum, showcasing the images she captured during her time in China. In the same year, she received the National Book Award for In China"
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/magnum-china/",
+       "title": "From Civil Strife to Global Superpower: 80 Years of Magnum in China • Magnum Photos",
+       "excerpt": "Morath shows the cultural side of China, while Arnold’s formally posed portraits shows the diversity of its people and presents quiet, domestic moments that are intimate, universal and empathetic."
+      }
+     ],
+     "images": [
+      {
+       "key": "arnold-horse-training-inner-mongolia",
+       "title": "Horse training for the militia. Inner Mongolia",
+       "year": 1979,
+       "location": "Inner Mongolia, China",
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/magnum-china/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2018/10/cortex/lon13165-teaser-story-big.jpg",
+       "tags": [
+        "reise",
+        "farbe",
+        "steppe",
+        "china",
+        "moment"
+       ],
+       "sources": []
+      },
+      {
+       "key": "arnold-equestrian-acrobats-mongolia",
+       "title": "Equestrian acrobats rehearsing in Mongolia",
+       "year": 1979,
+       "location": "Mongolia, China",
+       "source_url": "https://www.magnumphotos.com/event/photographers/eve-arnold/",
+       "image_url": "https://s3-eu-west-1.amazonaws.com/image-cdn-dev.magnum-dev.com/image/17734/1270x4000.jpg",
+       "tags": [
+        "reise",
+        "farbe",
+        "bewegung",
+        "china",
+        "reihung"
+       ],
+       "sources": []
+      },
+      {
+       "key": "arnold-retired-woman",
+       "title": "Retired woman",
+       "year": 1979,
+       "location": "China",
+       "source_url": "https://www.magnumphotos.com/event/photographers/eve-arnold/",
+       "image_url": "https://s3-eu-west-1.amazonaws.com/image-cdn-dev.magnum-dev.com/image/16469/1270x4000.jpg",
+       "tags": [
+        "portraet",
+        "farbe",
+        "china",
+        "dunkler-grund"
+       ],
+       "sources": []
+      },
+      {
+       "key": "arnold-scientists-children",
+       "title": "Scientist's children",
+       "year": 1979,
+       "location": "China",
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/magnum-china/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2018/10/cortex/lon12990-teaser-story-big.jpg",
+       "tags": [
+        "innenraum",
+        "farbe",
+        "china",
+        "rahmen-im-rahmen"
+       ],
+       "sources": []
+      },
+      {
+       "key": "arnold-permanent-wave",
+       "title": "Permanent wave",
+       "year": 1979,
+       "location": "China",
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/magnum-china/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2018/10/cortex/lon57347-teaser-story-big.jpg",
+       "tags": [
+        "portraet",
+        "farbe",
+        "china",
+        "kind"
+       ],
+       "sources": []
+      },
+      {
+       "key": "arnold-actors-making-up",
+       "title": "Actors making up for an opera performance",
+       "year": 1979,
+       "location": "China",
+       "source_url": "https://www.magnumphotos.com/arts-culture/fashion/dressing-up-magnum-archive-rosalind-jana-2/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/12/cortex/lon17098-teaser-story-big.jpg",
+       "tags": [
+        "innenraum",
+        "farbe",
+        "china",
+        "spiegel",
+        "theater"
+       ],
+       "sources": []
+      },
+      {
+       "key": "arnold-art-class-chongqing",
+       "title": "Art Class. Chongqing",
+       "year": 1979,
+       "location": "Chongqing, China",
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/photography-and-the-art-of-looking/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/06/cortex/lon13012-teaser-story-big.jpg",
+       "tags": [
+        "innenraum",
+        "farbe",
+        "china",
+        "blick",
+        "licht"
+       ],
+       "sources": []
+      },
+      {
+       "key": "arnold-drawing-class-advertising",
+       "title": "A drawing class for trainees in advertising",
+       "year": 1979,
+       "location": "China",
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/photography-and-the-art-of-looking/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/06/cortex/lon12986-teaser-story-big.jpg",
+       "tags": [
+        "innenraum",
+        "farbe",
+        "china",
+        "blick"
+       ],
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/theory-and-practice/photography-and-the-art-of-looking/",
+         "title": "Photography and the Art of Looking • Magnum Photos (Darran Anderson)",
+         "excerpt": "Inadvertently, these portraits, and the gazes within rooms or groups of people, are also portraits of the wider societies, whether it’s Eve Arnold’s image of Chinese advertising apprentices depicting the body or Martin Parr ’s tourists in Paris awaiting portraits."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 2,
+   "title": "Die große Landschaftsfotografie in Schwarzweiß",
+   "period_from": 1920,
+   "period_to": 1990,
+   "sources": [
+    {
+     "url": "https://www.serpentinegalleries.org/whats-on/fay-godwin-land/",
+     "title": "Fay Godwin: Land – Serpentine Galleries (Zitat Margaret Drabble, Guardian 2011)",
+     "excerpt": "They have a Wordsworthian timelessness, a sense of the Wordsworthian sublime. Her imagination, like his, was attracted by the barren, the grand, and the bleak."
+    },
+    {
+     "url": "https://www.andrewsmithgallery.com/exhibitions/lauragilpin/masterworks/lauragilpin.htm",
+     "title": "Laura Gilpin – Masterworks, Andrew Smith Gallery (Liz Kay, 2007)",
+     "excerpt": "As one of the few significant women landscape photographers in the history of photography, Gilpin photographed the American Southwest for more than sixty years, creating an extraordinary document of the land and its people."
+    }
+   ],
+   "key_images": [
+    "gilpin-surplus-to-the-sea",
+    "gilpin-storm-rio-grande-valley",
+    "gilpin-white-rock-canyon",
+    "gilpin-mariscal-canyon",
+    "godwin-suilven",
+    "godwin-lumbutts",
+    "godwin-stenness",
+    "godwin-fairfield"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Zeitgenössische Landschaft: Mensch, Industrie, Klima",
+   "period_from": 1980,
+   "period_to": 2025,
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/145296/lake-superior-cascade-river",
+     "title": "Hiroshi Sugimoto, Lake Superior, Cascade River, 1995 – The Art Institute of Chicago",
+     "excerpt": "Air and water are vital to life, and the world’s lakes, rivers, and oceans have been essential to the development of trade and other far-reaching human activities. Yet the body of water in this photograph seems untouched by civilization or the vicissitudes of individual lives."
+    }
+   ],
+   "key_images": [
+    "sugimoto-caribbean-sea-jamaica",
+    "sugimoto-lake-superior-cascade-river",
+    "sugimoto-ionian-sea-santa-cesarea",
+    "sugimoto-sea-of-japan-rishiri",
+    "sugimoto-bay-of-sagami-enoura"
+   ]
+  },
+  {
+   "number": 11,
+   "title": "Die Reise als Autorenprojekt: Roadtrip, Fremde, Blick von außen",
+   "period_from": 1950,
+   "period_to": 2020,
+   "sources": [
+    {
+     "url": "https://www.csmonitor.com/1980/1208/120856.html",
+     "title": "Exotic places; In China, by Eve Arnold – The Christian Science Monitor (Gordon N. Converse, 8. Dez. 1980)",
+     "excerpt": "Studying her remarkable series of portraits that look their subjects straight in the eye, a reader comes away with the feeling that the nearly 1 billion people living under Communist Chinese rule remain individuals."
+    }
+   ],
+   "key_images": [
+    "arnold-horse-training-inner-mongolia",
+    "arnold-retired-woman",
+    "arnold-scientists-children",
+    "arnold-actors-making-up",
+    "arnold-art-class-chongqing"
+   ]
+  }
+ ]
+}
