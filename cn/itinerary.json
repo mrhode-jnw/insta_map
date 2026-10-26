@@ -1550,7 +1550,7 @@
     {
      "type": "hotel",
      "name": "The Lixury Hotel Chongqing",
-     "t": "7:00"
+     "t": "10:00"
     },
     {
      "type": "move",
@@ -1558,10 +1558,10 @@
     },
     {
      "type": "stop",
-     "t": "7:30–8:30",
+     "t": "10:30–11:30",
      "spot": "cn-liziba-station-monorail-durchs-haus",
      "light": "day",
-     "lightText": "Morgen – vor dem Andrang",
+     "lightText": "Vormittag – Regen, nasse Straße",
      "text": "Plattform unten an der Straße, Bahnen alle paar Minuten. Bei Regen: nasse Straße und Schirme mit ins Bild, 1/500 s für die Einfahrt, Objektiv-Tuch griffbereit.",
      "plan": true
     },
@@ -1573,7 +1573,7 @@
     },
     {
      "type": "stop",
-     "t": "8:45–9:15",
+     "t": "11:45–12:00",
      "spot": "cn-eling-park-skywalk",
      "light": "day",
      "lightText": "Morgen",
@@ -1583,11 +1583,11 @@
     },
     {
      "type": "stop",
-     "t": "9:15–10:45",
+     "t": "12:00–14:00",
      "spot": "cn-eling-second-factory",
      "light": "day",
      "lightText": "Vormittag – Dachterrassen, bei Regen Innenhöfe",
-     "text": "Testbed 2 (鹅岭二厂): Backstein-Fabrik, überdachte Gänge und Treppen. Bei Regen die Innenhöfe und Durchgänge; der Blick über den Jialing ist heute eher dunstig. Öffnet ca. 9–10 Uhr.",
+     "text": "Testbed 2 (鹅岭二厂): Backstein-Fabrik, überdachte Gänge und Treppen – bei Regen Innenhöfe und Durchgänge. Mittagessen gleich hier in einem der Cafés/Restaurants.",
      "plan": true
     },
     {
@@ -1596,34 +1596,17 @@
     },
     {
      "type": "stop",
-     "t": "11:00–12:15",
+     "t": "14:30–15:15",
      "spot": "cn-huguang-guild-hall",
      "light": "indoor",
-     "lightText": "Regen-Spitze – Innenhöfe",
+     "lightText": "Nachmittag – Innenhöfe",
      "text": "Gildehallen am Jangtse-Ufer: Holzgalerien und Dachtraufen, bei Regen tropfen sie schön. Ganz in der Nähe von Baixiangju.",
      "opt": true,
-     "sel": true
-    },
-    {
-     "type": "info",
-     "icon": "🥢",
-     "title": "Mittagspause in Yuzhong",
-     "text": "Hotpot oder Nudeln, danach im Hotel trocknen und Akkus laden.",
-     "t": "12:15–13:30"
-    },
-    {
-     "type": "hotel",
-     "name": "The Lixury Hotel Chongqing",
-     "t": "13:45",
-     "label": "Pause – Regenspitze abwarten"
-    },
-    {
-     "type": "move",
-     "mode": "car"
+     "sel": false
     },
     {
      "type": "stop",
-     "t": "15:00–16:45",
+     "t": "15:15–16:45",
      "spot": "cn-baixiangju-yangtze-river-cableway",
      "light": "day",
      "lightText": "Nachmittag – Regen lässt nach",

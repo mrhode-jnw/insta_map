@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 26.10.2026 10:54 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 26.10.2026 10:55 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -258,18 +258,15 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 
 ### Di 27.10. – Chongqing: Liziba · Testbed 2 · Baixiangju · Shibati am Abend _(Entwurf)_
 
-- **7:00** 🏨 Unterkunft: **The Lixury Hotel Chongqing**
+- **10:00** 🏨 Unterkunft: **The Lixury Hotel Chongqing**
   - ↓ 🚗 Auto · ca. 10 Min. · 6 km
-- **7:30–8:30** ✅ **Liziba Station 李子坝 – Monorail durchs Haus** (Yuzhong, Chongqing) · Licht: Morgen – vor dem Andrang – Plattform unten an der Straße, Bahnen alle paar Minuten. Bei Regen: nasse Straße und Schirme mit ins Bild, 1/500 s für die Einfahrt, Objektiv-Tuch griffbereit.
+- **10:30–11:30** ✅ **Liziba Station 李子坝 – Monorail durchs Haus** (Yuzhong, Chongqing) · Licht: Vormittag – Regen, nasse Straße – Plattform unten an der Straße, Bahnen alle paar Minuten. Bei Regen: nasse Straße und Schirme mit ins Bild, 1/500 s für die Einfahrt, Objektiv-Tuch griffbereit.
   - ↓ 🚶 zu Fuß · ca. 15 Min. (Zu Fuß bergauf nach Eling)
-- **8:45–9:15** ◻︎ optional: **Eling Park Skywalk 鹅岭栈桥** (Yuzhong, Chongqing) · Licht: Morgen – Kurzer Abstecher auf dem Weg, optional.
-- **9:15–10:45** ✅ **Eling Second Factory 鹅岭二厂** (Yuzhong, Chongqing) · Licht: Vormittag – Dachterrassen, bei Regen Innenhöfe – Testbed 2 (鹅岭二厂): Backstein-Fabrik, überdachte Gänge und Treppen. Bei Regen die Innenhöfe und Durchgänge; der Blick über den Jialing ist heute eher dunstig. Öffnet ca. 9–10 Uhr.
+- **11:45–12:00** ◻︎ optional: **Eling Park Skywalk 鹅岭栈桥** (Yuzhong, Chongqing) · Licht: Morgen – Kurzer Abstecher auf dem Weg, optional.
+- **12:00–14:00** ✅ **Eling Second Factory 鹅岭二厂** (Yuzhong, Chongqing) · Licht: Vormittag – Dachterrassen, bei Regen Innenhöfe – Testbed 2 (鹅岭二厂): Backstein-Fabrik, überdachte Gänge und Treppen – bei Regen Innenhöfe und Durchgänge. Mittagessen gleich hier in einem der Cafés/Restaurants.
   - ↓ 🚗 Auto · ca. 10 Min. · 8 km
-- **11:00–12:15** ◻︎ optional: **Huguang Guild Hall 湖广会馆** (Yuzhong, Chongqing) · Licht: Regen-Spitze – Innenhöfe – Gildehallen am Jangtse-Ufer: Holzgalerien und Dachtraufen, bei Regen tropfen sie schön. Ganz in der Nähe von Baixiangju.
-- **12:15–13:30** 🥢 **Mittagspause in Yuzhong** – Hotpot oder Nudeln, danach im Hotel trocknen und Akkus laden.
-- **13:45** 🏨 Pause – Regenspitze abwarten: **The Lixury Hotel Chongqing**
-  - ↓ 🚗 Auto · ca. 5 Min. · 1 km
-- **15:00–16:45** ✅ **Baixiangju & Yangtze River Cableway 白象居 · 长江索道** (Yuzhong, Chongqing) · Licht: Nachmittag – Regen lässt nach – Baixiangju (白象居): Straße erreicht das Wohnhaus im 24. Stock über eine Brücke – von unten am Treppenweg hochfotografieren, 16–35. Laut Modellen lässt der Regen ab ca. 15 Uhr nach. Danach optional Jangtse-Seilbahn zum Südufer.
+- **14:30–15:15** ◻︎ optional: **Huguang Guild Hall 湖广会馆** (Yuzhong, Chongqing) · Licht: Nachmittag – Innenhöfe – Gildehallen am Jangtse-Ufer: Holzgalerien und Dachtraufen, bei Regen tropfen sie schön. Ganz in der Nähe von Baixiangju.
+- **15:15–16:45** ✅ **Baixiangju & Yangtze River Cableway 白象居 · 长江索道** (Yuzhong, Chongqing) · Licht: Nachmittag – Regen lässt nach – Baixiangju (白象居): Straße erreicht das Wohnhaus im 24. Stock über eine Brücke – von unten am Treppenweg hochfotografieren, 16–35. Laut Modellen lässt der Regen ab ca. 15 Uhr nach. Danach optional Jangtse-Seilbahn zum Südufer.
   - ↓ 🚶 zu Fuß · ca. 20 Min.
 - **17:15–19:30** ✅ **Shibati Old Steps 十八梯** (Yuzhong, Chongqing) · Licht: Blaue Stunde 18:10–18:40 → Laternen bei Nacht – Ladder Street (十八梯): von oben die Treppen hinunter mit den Laternen, 24–70, Stativ. Abends nur noch wenig Regen – nasse, glänzende Stufen sind ideal.
   - ↓ 🚗 Auto · ca. 10 Min. · 8 km
