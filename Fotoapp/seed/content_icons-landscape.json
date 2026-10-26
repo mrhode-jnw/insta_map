@@ -1,0 +1,216 @@
+{
+ "accessed_at": "2026-10-26",
+ "photographers": [
+  {
+   "key": "adams",
+   "name": "Ansel Adams",
+   "born": 1902,
+   "died": 1984,
+   "sources": [],
+   "projects": [
+    {
+     "key": "adams-ikonen-entstehung",
+     "title": "Ikonen mit dokumentierter Entstehung (Examples u. a.)",
+     "year_from": 1927,
+     "year_to": 1960,
+     "sources": [
+      {
+       "url": "https://www.anseladams.com/products/explore-monolith-the-face-of-half-dome",
+       "title": "The Ansel Adams Gallery: Explore – Monolith, The Face of Half Dome",
+       "excerpt": "The day would be paramount for his career as his success with Half Dome that afternoon led to his philosophy about visualizing the photograph in situ before snapping the shutter."
+      }
+     ],
+     "images": [
+      {
+       "key": "adams-winter-sunrise-lone-pine",
+       "title": "Winter Sunrise, Sierra Nevada, from Lone Pine, California",
+       "year": 1944,
+       "location": "Lone Pine, Owens Valley, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "berge",
+        "schnee",
+        "morgenlicht",
+        "schwarzweiß",
+        "pferd"
+       ],
+       "source_url": "https://www.anseladams.com/products/explore-winter-sunrise-sierra-nevada-from-lone-pine",
+       "image_url": "https://www.anseladams.com/cdn/shop/files/winter-sunrise-sierra-nevada-from-lone-pine-explore-photographs-the-ansel-adams-gallery-686256.jpg?v=1752016654",
+       "sources": [
+        {
+         "url": "https://www.anseladams.com/products/explore-winter-sunrise-sierra-nevada-from-lone-pine",
+         "title": "The Ansel Adams Gallery: Explore – Winter Sunrise, Sierra Nevada from Lone Pine",
+         "excerpt": "At the last possible moment, as though directed by some unseen hand, one of the horses grazing in the meadow turned to offer a picture-perfect profile silhouette.",
+         "kind": "kurator",
+         "author": "The Ansel Adams Gallery",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "adams-moonrise-hernandez",
+       "title": "Moonrise, Hernandez, New Mexico",
+       "year": 1941,
+       "location": "Hernandez, New Mexico, USA",
+       "tags": [
+        "landschaft",
+        "mond",
+        "dämmerung",
+        "dorf",
+        "friedhof",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.anseladams.com/products/explore-moonrise-hernandez-new-mexico",
+       "image_url": "https://www.anseladams.com/cdn/shop/files/moonrise-hernandez-new-mexico-explore-photographs-the-ansel-adams-gallery-640789.jpg?v=1752016646",
+       "sources": [
+        {
+         "url": "https://www.anseladams.com/products/explore-moonrise-hernandez-new-mexico",
+         "title": "The Ansel Adams Gallery: Explore – Moonrise, Hernandez, New Mexico",
+         "excerpt": "To produce the contrast and balance that has delighted generations of viewers, different areas must be dodged and burned, given more or less exposure in the enlarger, with great care.",
+         "kind": "kurator",
+         "author": "The Ansel Adams Gallery",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "adams-clearing-winter-storm",
+       "title": "Clearing Winter Storm, Yosemite National Park",
+       "year": 1938,
+       "location": "Inspiration Point, Yosemite Valley, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "tal",
+        "sturm",
+        "wolken",
+        "schnee",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.anseladams.com/products/explore-clearing-winter-storm",
+       "image_url": "https://www.anseladams.com/cdn/shop/files/clearing-winter-storm-explore-photographs-the-ansel-adams-gallery-172013.jpg?v=1752016633",
+       "sources": [
+        {
+         "url": "https://www.anseladams.com/products/explore-clearing-winter-storm",
+         "title": "The Ansel Adams Gallery: Explore – Clearing Winter Storm",
+         "excerpt": "That early December day started dreary with heavy rain but gave way to a fresh dusting of snow before clearing around noon.",
+         "kind": "kurator",
+         "author": "The Ansel Adams Gallery",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "adams-monolith",
+       "title": "Monolith, the Face of Half Dome, Yosemite National Park",
+       "year": 1927,
+       "location": "Diving Board, Yosemite, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "berge",
+        "fels",
+        "schwarzweiß",
+        "rotfilter"
+       ],
+       "source_url": "https://www.anseladams.com/products/explore-monolith-the-face-of-half-dome",
+       "image_url": "https://www.anseladams.com/cdn/shop/files/monolith-the-face-of-half-dome-explore-photographs-the-ansel-adams-gallery-592682.jpg?v=1776443779",
+       "sources": [
+        {
+         "url": "https://www.anseladams.com/products/explore-monolith-the-face-of-half-dome",
+         "title": "The Ansel Adams Gallery: Explore – Monolith, The Face of Half Dome",
+         "excerpt": "The day would be paramount for his career as his success with Half Dome that afternoon led to his philosophy about visualizing the photograph in situ before snapping the shutter.",
+         "kind": "kurator",
+         "author": "The Ansel Adams Gallery",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "adams-mount-williamson-manzanar",
+       "title": "Mount Williamson, Sierra Nevada, from Manzanar, California",
+       "year": 1944,
+       "location": "Manzanar, Owens Valley, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "berge",
+        "felsblöcke",
+        "wolken",
+        "lichtstrahlen",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.anseladams.com/products/explore-mt-williamson-from-manzanar",
+       "image_url": "https://www.anseladams.com/cdn/shop/files/mt-williamson-from-manzanar-explore-photographs-the-ansel-adams-gallery-526260.jpg?v=1752016613",
+       "sources": [
+        {
+         "url": "https://www.anseladams.com/products/explore-mt-williamson-from-manzanar",
+         "title": "The Ansel Adams Gallery: Explore – Mount Williamson from Manzanar (Zitate aus Examples)",
+         "excerpt": "On one of his visits, he drove to a spot behind Manzanar overlooking a field of boulders and made this photograph.",
+         "kind": "kurator",
+         "author": "The Ansel Adams Gallery",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "adams-mckinley-wonder-lake",
+       "title": "Mount McKinley and Wonder Lake, Denali National Park, Alaska",
+       "year": 1947,
+       "location": "Wonder Lake, Denali-Nationalpark, Alaska, USA",
+       "tags": [
+        "landschaft",
+        "berge",
+        "see",
+        "morgenlicht",
+        "schwarzweiß",
+        "tele"
+       ],
+       "source_url": "https://www.anseladams.com/products/explore-mt-mckinley-wonder-lake",
+       "image_url": "https://www.anseladams.com/cdn/shop/files/mt-mckinley-wonder-lake-explore-photographs-the-ansel-adams-gallery-211343.jpg?v=1752016620",
+       "sources": [
+        {
+         "url": "https://www.anseladams.com/products/explore-mt-mckinley-wonder-lake",
+         "title": "The Ansel Adams Gallery: Explore – Mount McKinley and Wonder Lake",
+         "excerpt": "Later research by Dr. Don Olson indicated it was closer to 3:42am on July 15th, 1948.",
+         "kind": "kurator",
+         "author": "The Ansel Adams Gallery",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "adams-redwoods-bull-creek",
+       "title": "Northern California Coast Redwoods",
+       "year": 1960,
+       "location": "Bull Creek Flat, Humboldt County, Kalifornien, USA",
+       "tags": [
+        "landschaft",
+        "wald",
+        "bäume",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.anseladams.com/products/explore-northern-california-coast-redwoods",
+       "image_url": "https://www.anseladams.com/cdn/shop/files/northern-california-coast-redwoods-explore-photographs-the-ansel-adams-gallery-283191.jpg?v=1752016934",
+       "sources": [
+        {
+         "url": "https://www.anseladams.com/products/explore-northern-california-coast-redwoods",
+         "title": "The Ansel Adams Gallery: Explore – Northern California Coast Redwoods",
+         "excerpt": "Northern California Coast Redwoods was made later in Ansel's career near Bull Creek Flat in Humboldt County, California, during a commission with the Redwood Empire Association.",
+         "kind": "kurator",
+         "author": "The Ansel Adams Gallery",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": []
+}

@@ -1,0 +1,528 @@
+{
+ "accessed_at": "2026-10-26",
+ "references": [
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/winter-sunrise-sierra-nevada-from-lone-pine-explore-photographs-the-ansel-adams-gallery-686256.jpg?v=1752016654",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://peterfetterman.com/blog/228-980-ansel-adams-winter-sunrise-sierra-nevada-from-lone-pine-1944",
+     "title": "Peter Fetterman Gallery: #980 – Ansel Adams, Winter Sunrise, Sierra Nevada from Lone Pine, 1944 (Zitat Adams)",
+     "author": "Ansel Adams (zitiert von der Peter Fetterman Gallery)",
+     "kind": "photographer",
+     "excerpt": "I set up my camera on my car platform at what I felt was the best location, overlooking a pasture."
+    },
+    {
+     "url": "https://www.anseladams.com/products/explore-winter-sunrise-sierra-nevada-from-lone-pine",
+     "title": "The Ansel Adams Gallery: Explore – Winter Sunrise, Sierra Nevada from Lone Pine",
+     "author": "The Ansel Adams Gallery",
+     "kind": "curator",
+     "excerpt": "On the fifth day it was still dark and bitterly cold when he set up his camera on the new platform he had built on top of his car before retreating to the warmth of the cab."
+    },
+    {
+     "url": "https://boomcalifornia.org/2013/10/14/camera-obscura/",
+     "title": "William L. Fox: Camera Obscura – A photographic history of the LA Aqueduct (Boom California, 2013)",
+     "author": "William L. Fox",
+     "kind": "magazine",
+     "excerpt": "The portrait of the eastern massif of the Sierra is organized into bands of contrasting light, a shadowed meadow in the foreground behind which a line of sunlit trees demarcates the pasture from the upsloping and dark Alabama Hills."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Adams stellte die Kamera auf die Plattform auf seinem Autodach, an einer Stelle mit Blick über eine Weide [Q1][Q2]. Von dort ordnet sich das Bild in Lichtbänder: beschattete Wiese vorn, eine Reihe sonnenbeschienener Bäume, dahinter die dunklen Alabama Hills und die verschneite Sierra [Q3].",
+   "checkable": [
+    "Leicht erhöhter Blick (Autodach-Plattform) über die Weide hinweg [Q1][Q2]",
+    "Bänder von vorn nach hinten: dunkle Wiese – helle Baumreihe – dunkle Hügel – helle Gipfel [Q3]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/winter-sunrise-sierra-nevada-from-lone-pine-explore-photographs-the-ansel-adams-gallery-686256.jpg?v=1752016654",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://peterfetterman.com/blog/228-980-ansel-adams-winter-sunrise-sierra-nevada-from-lone-pine-1944",
+     "title": "Peter Fetterman Gallery: #980 – Ansel Adams, Winter Sunrise, Sierra Nevada from Lone Pine, 1944 (Zitat Adams)",
+     "author": "Ansel Adams (zitiert von der Peter Fetterman Gallery)",
+     "kind": "photographer",
+     "excerpt": "It was very cold - perhaps near zero - and I waited, shivering, for a shaft of sunlight to flow over the distant trees. A horse grazing in the frosty pasture stood facing away from me with exasperating, stolid persistence."
+    },
+    {
+     "url": "https://peterfetterman.com/blog/228-980-ansel-adams-winter-sunrise-sierra-nevada-from-lone-pine-1944",
+     "title": "Peter Fetterman Gallery: #980 – Ansel Adams, Winter Sunrise, Sierra Nevada from Lone Pine, 1944 (Zitat Adams)",
+     "author": "Ansel Adams (zitiert von der Peter Fetterman Gallery)",
+     "kind": "photographer",
+     "excerpt": "I observed the final shaft of light approaching. At the last moment, the horse turned to show its profile, and I made the exposure. Within a minute the entire area was flooded with sunlight and the natural chiaroscuro was gone."
+    },
+    {
+     "url": "https://peterfetterman.com/blog/228-980-ansel-adams-winter-sunrise-sierra-nevada-from-lone-pine-1944",
+     "title": "Peter Fetterman Gallery: #980 – Ansel Adams, Winter Sunrise, Sierra Nevada from Lone Pine, 1944 (Zitat Adams)",
+     "author": "Ansel Adams (zitiert von der Peter Fetterman Gallery)",
+     "kind": "photographer",
+     "excerpt": "After four days of frustration when the mountains were blanketed with heavy cloud, I finally encountered a bright, glistening sunrise with light clouds streaming from the southeast and casting swift moving shadows on the meadow and the dark rolling hills."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Nach vier Morgen mit wolkenverhangenen Bergen [Q3] wartete Adams bei großer Kälte auf einen Lichtstrahl, der über die fernen Bäume streichen sollte; das Pferd auf der Weide stand lange abgewandt [Q1]. Mit dem letzten Lichtstreifen drehte es sich ins Profil – in diesem Moment belichtete er; eine Minute später lag alles in der Sonne und das Hell-Dunkel war weg [Q2].",
+   "checkable": [
+    "Pferd im Profil im sonnenbeschienenen Streifen der Wiese [Q2]",
+    "Nur ein Lichtstreifen über Bäumen und Wiese, der Rest im Schatten – Hell-Dunkel vor dem vollen Sonnenlicht [Q1][Q2]",
+    "Wolkenschatten auf Wiese und Hügeln [Q3]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/winter-sunrise-sierra-nevada-from-lone-pine-explore-photographs-the-ansel-adams-gallery-686256.jpg?v=1752016654",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://boomcalifornia.org/2013/10/14/camera-obscura/",
+     "title": "William L. Fox: Camera Obscura – A photographic history of the LA Aqueduct (Boom California, 2013)",
+     "author": "William L. Fox",
+     "kind": "magazine",
+     "excerpt": "Arrayed on the left-hand hillside of the Alabama Hills were the large letters LP spelled out in whitewashed rocks that stood for Lone Pine."
+    },
+    {
+     "url": "https://boomcalifornia.org/2013/10/14/camera-obscura/",
+     "title": "William L. Fox: Camera Obscura – A photographic history of the LA Aqueduct (Boom California, 2013)",
+     "author": "William L. Fox",
+     "kind": "magazine",
+     "excerpt": "Ansel Adams was so disturbed by what he considered to be an ugly scar in the landscape that he spot-toned out the letters in his prints with a small brush, and in the 1970s finally had them eliminated from the negative itself by his assistant."
+    },
+    {
+     "url": "https://www.si.edu/object/nmah_993399",
+     "title": "Smithsonian, National Museum of American History: Winter Sunrise, Sierra Nevada, from Lone Pine (PG.69.117.09)",
+     "author": "National Museum of American History",
+     "kind": "museum",
+     "excerpt": "Adams meticulously spotted out the graffiti in the darkroom before making his first prints, but the letters are still just visible in this print of the negative."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Weggelassen sind die großen Buchstaben „LP“ (für Lone Pine) aus weiß gekalkten Steinen am linken Hang der Alabama Hills [Q1]. Adams retuschierte sie in den Abzügen mit dem Pinsel weg und ließ sie in den 1970er-Jahren auch aus dem Negativ entfernen [Q2]; in manchen frühen Abzügen sind sie noch schwach zu ahnen [Q3].",
+   "checkable": [
+    "Linker Hang der dunklen Hügel ohne Buchstaben – dort stand das „LP“ [Q1][Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/moonrise-hernandez-new-mexico-explore-photographs-the-ansel-adams-gallery-640789.jpg?v=1752016646",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://sam.nmartmuseum.org/objects/19756/moonrise-hernandez-new-mexico",
+     "title": "New Mexico Museum of Art: Moonrise, Hernandez, New Mexico",
+     "author": "New Mexico Museum of Art",
+     "kind": "museum",
+     "excerpt": "He and his companions stopped the car and Adams quickly set up his 8 x 10 view camera to make a picture."
+    },
+    {
+     "url": "https://akronartmuseum.org/media/ansel-adams/",
+     "title": "Akron Art Museum: Ansel Adams – Moonrise, Hernandez, New Mexico",
+     "author": "Akron Art Museum",
+     "kind": "museum",
+     "excerpt": "He grabbed his camera, jumped on top of his car and, when he couldn't find his handheld light meter, calculated the necessary exposure time in his head."
+    },
+    {
+     "url": "https://sam.nmartmuseum.org/objects/19756/moonrise-hernandez-new-mexico",
+     "title": "New Mexico Museum of Art: Moonrise, Hernandez, New Mexico",
+     "author": "New Mexico Museum of Art",
+     "kind": "museum",
+     "excerpt": "Vista of Hernandez, New Mexico, with most of the picture taken up by a dark sky with horizontal cloud formations close to the snow-capped Sangre de Christo mountains and a near-full moon above them. In the foreground are the church and cemetery with white crosses prominent."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Adams hielt auf der Rückfahrt am Straßenrand an und baute die 8×10-Fachkamera auf [Q1]; laut Akron Art Museum stieg er dazu auf das Dach seines Autos [Q2]. Im Vordergrund liegen Kirche und Friedhof mit den weißen Kreuzen [Q3].",
+   "checkable": [
+    "Kirche und Friedhofskreuze vorn, Mond hoch im dunklen Himmel darüber [Q3]",
+    "Standpunkt am Straßenrand bzw. vom Autodach aus [Q1][Q2]"
+   ],
+   "scope_note": "Die Quellen weichen im Detail ab (Kamera neben dem Auto bzw. auf dem Autodach)."
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/moonrise-hernandez-new-mexico-explore-photographs-the-ansel-adams-gallery-640789.jpg?v=1752016646",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://learn.ncartmuseum.org/?p=150",
+     "title": "North Carolina Museum of Art, Art Cards: Ansel Adams, Moonrise, Hernandez, New Mexico (mit Adams-Zitat)",
+     "author": "Ansel Adams (zitiert vom North Carolina Museum of Art)",
+     "kind": "photographer",
+     "excerpt": "Meantime the sun was going down behind clouds in the west, and I was getting panicky, you know. And I couldn't find the exposure meter."
+    },
+    {
+     "url": "https://learn.ncartmuseum.org/?p=150",
+     "title": "North Carolina Museum of Art, Art Cards: Ansel Adams, Moonrise, Hernandez, New Mexico (mit Adams-Zitat)",
+     "author": "North Carolina Museum of Art",
+     "kind": "museum",
+     "excerpt": "The setting sun had reflected off the white crosses in a cemetery, creating their bright glow. By the time he tried to take the photo again, the sun had already set, and the effect was gone."
+    },
+    {
+     "url": "https://articles.anseladams.com/vintage-moonrise-hernandez-new-mexico/",
+     "title": "The Ansel Adams Gallery: Vintage Moonrise, Hernandez, New Mexico",
+     "author": "The Ansel Adams Gallery",
+     "kind": "curator",
+     "excerpt": "He even wanted to make a duplicate exposure, but in the 20 seconds it took to insert the negative slide, pull the carrier, flip it over and reinsert it into the camera, pull the slide and cock the shutter, the light was gone."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Nichts wurde abgewartet – im Gegenteil: Die Sonne sank hinter Wolken, Adams fand den Belichtungsmesser nicht und geriet in Panik [Q1]. Die tief stehende Sonne ließ die weißen Kreuze aufleuchten [Q2]; schon für eine zweite Belichtung (etwa 20 Sekunden später) war das Licht weg [Q2][Q3].",
+   "checkable": [
+    "Weiße Kreuze und Hauswände hell angestrahlt, während der Himmel schon dunkel ist [Q2]",
+    "Es gibt nur dieses eine Negativ – die Wiederholung kam zu spät [Q3]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/moonrise-hernandez-new-mexico-explore-photographs-the-ansel-adams-gallery-640789.jpg?v=1752016646",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://akronartmuseum.org/media/ansel-adams/",
+     "title": "Akron Art Museum: Ansel Adams – Moonrise, Hernandez, New Mexico",
+     "author": "Akron Art Museum",
+     "kind": "museum",
+     "excerpt": "He darkened the picture's low tones to make the sky an inky black expanse, and he brightened the highlights to make the crosses in a church cemetery brilliantly white."
+    },
+    {
+     "url": "https://articles.anseladams.com/vintage-moonrise-hernandez-new-mexico/",
+     "title": "The Ansel Adams Gallery: Vintage Moonrise, Hernandez, New Mexico",
+     "author": "The Ansel Adams Gallery",
+     "kind": "curator",
+     "excerpt": "There seems to be a linear progression of how Ansel printed the sky over time, from light to dark, early to late."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Weggelassen wird vor allem Zeichnung im Himmel: Adams dunkelte im Abzug die tiefen Töne ab, bis der Himmel zur tintenschwarzen Fläche wurde, und hellte die Kreuze auf [Q1]. Über die Jahre druckte er den Himmel immer dunkler [Q2].",
+   "checkable": [
+    "Himmel über dem Wolkenband fast schwarz, ohne Zeichnung [Q1]",
+    "Kreuze leuchtend weiß gegen die dunkle Umgebung [Q1]"
+   ],
+   "scope_note": "„Weglassen“ hier als Unterdrücken von Bildinformation im Abzug (Himmel), nicht als Bildausschnitt; spätere Abzüge sind dunkler als frühe."
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/clearing-winter-storm-explore-photographs-the-ansel-adams-gallery-172013.jpg?v=1752016633",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://christies.com.cn/lot/lot-5056453",
+     "title": "Christie's: Ansel Adams, Clearing Winter Storm, Yosemite Valley, 1944 (Zitat aus Examples)",
+     "author": "Ansel Adams (Examples, zitiert bei Christie's)",
+     "kind": "photographer",
+     "excerpt": "I drove to a place called Inspiration Point, which commands a marvelous vista of Yosemite Valley."
+    },
+    {
+     "url": "https://cartermuseum.org/collection/clearing-winter-storm-yosemite-national-park-p20085",
+     "title": "Amon Carter Museum of American Art: Clearing Winter Storm, Yosemite National Park",
+     "author": "Amon Carter Museum of American Art",
+     "kind": "museum",
+     "excerpt": "He made many images of Yosemite Valley from Inspiration Point, becoming intimately familiar with the seasonal changes of light, weather, and foliage."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Adams fotografierte von Inspiration Point, einem Aussichtspunkt mit weitem Blick über das Yosemite Valley [Q1] – ein Standort, von dem aus er das Tal viele Male zu allen Jahreszeiten aufgenommen hatte [Q2].",
+   "checkable": [
+    "Erhöhter Blick talaufwärts: El Capitan links, Bridalveil Fall rechts, das Tal dazwischen [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/clearing-winter-storm-explore-photographs-the-ansel-adams-gallery-172013.jpg?v=1752016633",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://christies.com.cn/lot/lot-5056453",
+     "title": "Christie's: Ansel Adams, Clearing Winter Storm, Yosemite Valley, 1944 (Zitat aus Examples)",
+     "author": "Ansel Adams (Examples, zitiert bei Christie's)",
+     "kind": "photographer",
+     "excerpt": "Clearing Winter Storm came about on an early December day. The storm was first of heavy rain, which turned to snow and began to clear about noon."
+    },
+    {
+     "url": "https://christies.com.cn/lot/lot-5056453",
+     "title": "Christie's: Ansel Adams, Clearing Winter Storm, Yosemite Valley, 1944 (Zitat aus Examples)",
+     "author": "Ansel Adams (Examples, zitiert bei Christie's)",
+     "kind": "photographer",
+     "excerpt": "A moment of beauty is revealed and photographed; clouds, snow or rain then obscure the scene, only to clear in a different way with another inviting prospect."
+    },
+    {
+     "url": "https://www.sothebys.com/en/auctions/ecatalogue/2007/photographs-n08309/lot.4.html",
+     "title": "Sotheby's, Photographs (2007), Lot 4: Ansel Adams, 'Clearing Winter Storm' (Katalogtext)",
+     "author": "Sotheby's (Katalogtext)",
+     "kind": "curator",
+     "excerpt": "Working quickly with his cumbersome 8 by 10-inch camera, Adams waited until the valley had been revealed to capture the fleeting retreat of the clouds and a sunlit Bridalveil fall on film."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "An einem Tag Anfang Dezember ging Regen in Schnee über, gegen Mittag riss der Sturm auf [Q1]. Bei so schnell wechselnden Bedingungen öffnet und schließt sich die Szene immer wieder [Q2]; Adams wartete, bis das Tal frei lag, und belichtete den Rückzug der Wolken mit einem sonnenbeschienenen Bridalveil Fall [Q3].",
+   "checkable": [
+    "Wolken ziehen sich gerade aus dem Tal zurück, Gipfel noch teils verhüllt [Q3]",
+    "Bridalveil Fall rechts im Licht [Q3]",
+    "Frischer Schnee auf Bäumen und Hängen [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/clearing-winter-storm-explore-photographs-the-ansel-adams-gallery-172013.jpg?v=1752016633",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.anseladams.com/products/explore-clearing-winter-storm",
+     "title": "The Ansel Adams Gallery: Explore – Clearing Winter Storm",
+     "author": "The Ansel Adams Gallery",
+     "kind": "curator",
+     "excerpt": "With no obvious human elements visible in Yosemite Valley below, the image has frequently been associated with ideal wilderness and intrepid adventure with an endless and rugged pristine landscape laid out before the viewer."
+    },
+    {
+     "url": "https://christies.com.cn/lot/lot-5056453",
+     "title": "Christie's: Ansel Adams, Clearing Winter Storm, Yosemite Valley, 1944 (Zitat aus Examples)",
+     "author": "Ansel Adams (Examples, zitiert bei Christie's)",
+     "kind": "photographer",
+     "excerpt": "A certain amount of dodging and burning was required to achieve the tonal balance demanded by my visualization. I never retouch a negative."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Im Tal ist nichts Menschengemachtes zu erkennen – das Bild wirkt deshalb wie unberührte Wildnis [Q1]. Weggelassen wurde dabei nichts durch Retusche: Adams betonte, er retuschiere nie ein Negativ, sondern arbeite nur mit Abwedeln und Nachbelichten [Q2].",
+   "checkable": [
+    "Keine Straßen, Gebäude oder Menschen im Tal sichtbar [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/monolith-the-face-of-half-dome-explore-photographs-the-ansel-adams-gallery-592682.jpg?v=1776443779",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://johnsexton.com/newsletter04-2012.html",
+     "title": "John Sexton Photography Newsletter, 10. April 2012: Monolith, The Face of Half Dome",
+     "author": "John Sexton",
+     "kind": "photographer",
+     "excerpt": "Their destination was an outcrop nearly 3,500 feet above the Valley floor known as the Diving Board."
+    },
+    {
+     "url": "https://articles.anseladams.com/story-behind-the-image-monolith-the-face-of-half-dome/",
+     "title": "The Ansel Adams Gallery: Story Behind the Image – Monolith, the Face of Half Dome",
+     "author": "The Ansel Adams Gallery",
+     "kind": "curator",
+     "excerpt": "When the group reached the Diving Board, a steep outcropping more than 3,500 feet above Yosemite Valley, Ansel knew this was the perfect vista from which to capture Half Dome's sheer face."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Adams stand auf dem „Diving Board“, einem steilen Felsvorsprung gut 1000 m (3500 Fuß) über dem Talboden, gegenüber der senkrechten Nordwestwand des Half Dome [Q1][Q2].",
+   "checkable": [
+    "Blick quer hinüber auf die Wand aus großer Höhe – nicht vom Talboden hinauf [Q1][Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/monolith-the-face-of-half-dome-explore-photographs-the-ansel-adams-gallery-592682.jpg?v=1776443779",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://johnsexton.com/newsletter04-2012.html",
+     "title": "John Sexton Photography Newsletter, 10. April 2012: Monolith, The Face of Half Dome",
+     "author": "John Sexton",
+     "kind": "photographer",
+     "excerpt": "The group arrived at their destination just before noon while the face of Half Dome was still in shade. According to Ansel,\"The sun moved onto the face in early afternoon.\" At that point Ansel had just two glass plates remaining - all of the others had already been exposed."
+    },
+    {
+     "url": "https://johnsexton.com/newsletter04-2012.html",
+     "title": "John Sexton Photography Newsletter, 10. April 2012: Monolith, The Face of Half Dome",
+     "author": "John Sexton",
+     "kind": "photographer",
+     "excerpt": "He set up his view camera with his Tessar lens and exposed the first glass plate, using a Wratten No. 8 (K2) yellow filter. This produced a fairly literal interpretation of the scene with a middle gray sky."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Gruppe kam kurz vor Mittag an, als die Wand noch im Schatten lag; Adams wartete, bis die Sonne am frühen Nachmittag auf die Wand rückte – und hatte da nur noch zwei Glasplatten [Q1]. Die erste belichtete er mit Gelbfilter, was einen mittelgrauen Himmel ergab [Q2].",
+   "checkable": [
+    "Wand im Streiflicht der Nachmittagssonne, nicht mehr im Schatten [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/monolith-the-face-of-half-dome-explore-photographs-the-ansel-adams-gallery-592682.jpg?v=1776443779",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://articles.anseladams.com/story-behind-the-image-monolith-the-face-of-half-dome/",
+     "title": "The Ansel Adams Gallery: Story Behind the Image – Monolith, the Face of Half Dome",
+     "author": "The Ansel Adams Gallery",
+     "kind": "curator",
+     "excerpt": "The photograph he made,\" Monolith, the Face of Half Dome,\" shows the mountain rising from an ink-black sky, its face illuminated by a dazzling midday sun just out of frame."
+    },
+    {
+     "url": "https://johnsexton.com/newsletter04-2012.html",
+     "title": "John Sexton Photography Newsletter, 10. April 2012: Monolith, The Face of Half Dome",
+     "author": "John Sexton",
+     "kind": "photographer",
+     "excerpt": "Ansel replaced the yellow filter with his only other filter, a deep red Wratten No.29 (F) filter that dramatically darkened the sky and created an image of simple austere abstract beauty."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Sonne, die die Wand beleuchtet, steht knapp außerhalb des Bildes [Q1]. Den Himmel hat Adams mit dem tiefroten Filter fast schwarz gemacht – alles, was im Gelbfilter-Negativ noch mittelgrau war, verschwindet in einer schlichten, abstrakten Fläche [Q2].",
+   "checkable": [
+    "Kein Sonnenstand im Bild, aber hell beleuchtete Wand [Q1]",
+    "Himmel tintenschwarz statt blau-grau [Q1][Q2]"
+   ],
+   "scope_note": "„Weglassen“ hier: Sonne außerhalb des Rahmens und Unterdrückung des Himmels durch Rotfilter."
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/mt-williamson-from-manzanar-explore-photographs-the-ansel-adams-gallery-526260.jpg?v=1752016613",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.anseladams.com/products/explore-mt-williamson-from-manzanar",
+     "title": "The Ansel Adams Gallery: Explore – Mount Williamson from Manzanar (Zitate aus Examples)",
+     "author": "Ansel Adams (Examples, zitiert von The Ansel Adams Gallery)",
+     "kind": "photographer",
+     "excerpt": "'There was a glorious storm going on in the mountains,' Adams wrote, and'I set up my camera on the rooftop platform om my car [which] enabled me to a get a good view over the boulders to the base of the range.'"
+    },
+    {
+     "url": "https://sites.middlebury.edu/landandlens/?p=453",
+     "title": "Middlebury College Museum of Art, Ausstellung „Land and Lens“: Fenced, Farmed, Mined (Ansel Adams, Mount Williamson)",
+     "author": "Middlebury College Museum of Art",
+     "kind": "museum",
+     "excerpt": "This elevated view enabled him to look over the boulders to the distant mountain range. He pointed the camera down and tilted the back to keep both the near rocks and the far mountains in sharp focus, setting up a composition with both near and far elements. He moved his car several times to position the camera for the composition he desired."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Adams stand auf der Dachplattform seines Autos; die Höhe erlaubte den Blick über das Geröllfeld bis zum Fuß der Bergkette [Q1]. Er neigte die Kamera nach unten und schwenkte die Rückwand, damit nahe Felsblöcke und ferne Berge scharf sind, und versetzte das Auto mehrmals, bis die Komposition stimmte [Q2].",
+   "checkable": [
+    "Leicht von oben auf die Felsblöcke im Vordergrund [Q2]",
+    "Nah und fern zugleich scharf – große Blöcke vorn, Bergkette hinten [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/mt-williamson-from-manzanar-explore-photographs-the-ansel-adams-gallery-526260.jpg?v=1752016613",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://sites.middlebury.edu/landandlens/?p=453",
+     "title": "Middlebury College Museum of Art, Ausstellung „Land and Lens“: Fenced, Farmed, Mined (Ansel Adams, Mount Williamson)",
+     "author": "Middlebury College Museum of Art",
+     "kind": "museum",
+     "excerpt": "Adams had visited this place several times, but the conditions had not been right for photographing Mount Williamson, whose dark granite rock tended to blend into the sky. He needed clouds to make the photograph work."
+    },
+    {
+     "url": "https://www.clevelandart.org/art/1989.18",
+     "title": "Cleveland Museum of Art: Mount Williamson, The Sierra Nevada, from Manzanar, California",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "He thus captured this view of Mount Williamson, located several miles away across a field of boulders, and the rays of the sun filtering through the storm clouds above."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Adams war mehrfach hier gewesen, doch der dunkle Granit verschmolz mit dem Himmel – er brauchte Wolken [Q1]. Er nutzte einen Sturm über den Bergen, als Sonnenstrahlen durch die Sturmwolken fielen [Q2].",
+   "checkable": [
+    "Lichtstrahlen fallen durch die Wolken auf die Bergflanken [Q2]",
+    "Wolken trennen die dunklen Gipfel vom Himmel [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/mt-mckinley-wonder-lake-explore-photographs-the-ansel-adams-gallery-211343.jpg?v=1752016620",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.anseladams.com/products/explore-mt-mckinley-wonder-lake",
+     "title": "The Ansel Adams Gallery: Explore – Mount McKinley and Wonder Lake",
+     "author": "The Ansel Adams Gallery",
+     "kind": "curator",
+     "excerpt": "The summer sun rose early the next morning and Ansel claimed he made this photograph, perched on a knoll above the lake around 1:30am."
+    },
+    {
+     "url": "https://www.americanheritage.com/picturing-alaska",
+     "title": "American Heritage: Picturing Alaska (Ansel Adams 1947)",
+     "author": "American Heritage",
+     "kind": "magazine",
+     "excerpt": "They found an ideal panoramic view from just above Wonder Lake."
+    },
+    {
+     "url": "https://www.americanheritage.com/picturing-alaska",
+     "title": "American Heritage: Picturing Alaska (Ansel Adams 1947)",
+     "author": "American Heritage",
+     "kind": "magazine",
+     "excerpt": "Taken on an 8-by-10 format camera with a telephoto lens at a 23-inch focal length, Mount McKinley and Wonder Lake shows the mountain and a few swiftly moving clouds to a shifting, otherworldly effect."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Adams stand auf einer Kuppe knapp oberhalb des Wonder Lake [Q1][Q2] und arbeitete mit der 8×10-Kamera und einem Teleobjektiv von 23 Zoll Brennweite [Q3].",
+   "checkable": [
+    "Blick von leicht oben auf den See, Uferlinie als dunkler Bogen [Q1][Q2]",
+    "Teleobjektiv rückt den fernen Berg groß hinter den See [Q3]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/mt-mckinley-wonder-lake-explore-photographs-the-ansel-adams-gallery-211343.jpg?v=1752016620",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://christies.com.cn/lot/lot-6059518",
+     "title": "Christie's: Ansel Adams, Mount McKinley and Wonder Lake, Denali National Park, Alaska, 1947 (Zitat Adams)",
+     "author": "Ansel Adams (zitiert bei Christie's)",
+     "kind": "photographer",
+     "excerpt": "At about 1:30am the next morning, as the sun rose, the clouds lifted and the mountain glowed an incredible shade of pink."
+    },
+    {
+     "url": "https://www.clevelandart.org/art/2011.219",
+     "title": "Cleveland Museum of Art: Mount McKinley and Wonder Lake, Denali National Park, Alaska",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "Ansel Adams shot this photograph in July 1947 at around 1:30 a.m., which is sunrise in that part of Alaska in midsummer."
+    },
+    {
+     "url": "https://www.americanheritage.com/picturing-alaska",
+     "title": "American Heritage: Picturing Alaska (Ansel Adams 1947)",
+     "author": "American Heritage",
+     "kind": "magazine",
+     "excerpt": "Adams set up the tripod, but it was still difficult to determine the best angle for the shot, while the right light would last only for two or three minutes."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Gegen 1:30 Uhr nachts – Sonnenaufgang im Hochsommer – hoben sich die Wolken und der Gipfel glühte auf [Q1][Q2]. Das richtige Licht hielt nur zwei, drei Minuten [Q3].",
+   "checkable": [
+    "Gipfel hell im ersten Licht, Vorland und Ufer noch dunkel [Q1]",
+    "Kaum noch Wolken am Berg [Q1]"
+   ],
+   "scope_note": "Die Galerie nennt spätere Forschung, nach der die Aufnahme eher um 3:42 Uhr am 15. Juli 1948 entstand."
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/northern-california-coast-redwoods-explore-photographs-the-ansel-adams-gallery-283191.jpg?v=1752016934",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.anseladams.com/products/explore-northern-california-coast-redwoods",
+     "title": "The Ansel Adams Gallery: Explore – Northern California Coast Redwoods",
+     "author": "The Ansel Adams Gallery",
+     "kind": "curator",
+     "excerpt": "The Coastal Redwoods are the tallest living trees on Earth, and as such, hard to include in a single photograph from a close perspective. Ansel has emphasized this famous height of the trees by positioning himself in near proximity to the trunks."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Adams stellte sich nah an die Stämme, statt die riesigen Bäume aus Distanz ganz zu zeigen [Q1].",
+   "checkable": [
+    "Stämme füllen die Bildhöhe, kein Abstand zum Wald [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.anseladams.com/cdn/shop/files/northern-california-coast-redwoods-explore-photographs-the-ansel-adams-gallery-283191.jpg?v=1752016934",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.anseladams.com/products/explore-northern-california-coast-redwoods",
+     "title": "The Ansel Adams Gallery: Explore – Northern California Coast Redwoods",
+     "author": "The Ansel Adams Gallery",
+     "kind": "curator",
+     "excerpt": "Cropping out the canopy of Redwood crowns, the height of the trees is all of a sudden left up to our imaginations, their luminous trunks visually advancing towards us as if emerging out from the recesses of an obscure, mythological land."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Weggelassen sind die Kronen: Der obere Bildrand schneidet die Stämme ab, die Höhe bleibt der Vorstellung überlassen [Q1].",
+   "checkable": [
+    "Keine Baumkrone, kein Himmel – die Stämme laufen oben aus dem Bild [Q1]"
+   ],
+   "scope_note": ""
+  }
+ ]
+}
