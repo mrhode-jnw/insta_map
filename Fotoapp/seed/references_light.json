@@ -1,0 +1,664 @@
+{
+ "accessed_at": "2026-10-26",
+ "references": [
+  {
+   "image_id": "i7004b09619",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/forest-light/",
+     "title": "Forest Light – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "The sun was behind the trees, backlighting the open central area with yellow light. Bright fill light was coming from the aspen trees behind me which intensified the orange colors in the trees."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Gegenlicht: Die Sonne stand hinter den Bäumen und durchleuchtete den offenen Mittelbereich gelb; helles Aufhelllicht kam von den Espen hinter dem Fotografen und verstärkte das Orange der Bäume [Q1].",
+   "checkable": [
+    "Gelb durchleuchtete, helle Zone in der Bildmitte (Sonne dahinter) [Q1]",
+    "Vorderste Bäume nicht im Schatten, sondern von vorn aufgehellt – kräftiges Orange [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib01bcf3028",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "A storm front was moving in, the temperature had dropped to below freezing, the wind was blowing, the sky was cloudy, and the sun was getting low in the sky, just before dusk."
+    },
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "With the unusual lighting and the fresh quality of the foliage and river, from the recent rains, I was excited by the possibilities and potentials for a worthwhile image."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Aufgenommen kurz vor der Dämmerung bei bewölktem Himmel und tiefstehender Sonne, während eine Sturmfront aufzog [Q1]; Burkett nennt das Licht „ungewöhnlich“, dazu frisch beregnetes Laub und Fluss [Q2].",
+   "checkable": [
+    "Keine harten Sonnenschatten im Canyon – weiches, gedämpftes Licht unter Wolken [Q1]",
+    "Frisch wirkende, satte Vegetation nach Regen [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4a55592e19",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/daybreak/",
+     "title": "Daybreak – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "This stream is the runoff from Jenny Lake and the sun was hitting a group of aspen trees with golden leaves."
+    },
+    {
+     "url": "https://christopherburkett.com/print/daybreak/",
+     "title": "Daybreak – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "The sun was rising and the sunlight was headed towards the camera. I had to take the photo before the light hit the lens which would ruin any possibility of a photograph."
+    },
+    {
+     "url": "https://christopherburkett.com/print/daybreak/",
+     "title": "Daybreak – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "You can see that the sun was hitting some of the stones at the bottom of the image."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Früh am Morgen bei aufgehender Sonne: Sie beleuchtete goldene Espen, deren Spiegelung im Bach das Bild trägt [Q1]; das Sonnenlicht wanderte auf die Kamera zu, daher musste die Aufnahme vor dem Streulicht ins Objektiv gelingen [Q2]. Unten im Bild trifft die Sonne bereits einige Steine [Q3].",
+   "checkable": [
+    "Gold im Wasser ist Spiegelung sonnenbeschienener Espen, nicht direktes Licht auf dem Wasser [Q1]",
+    "Unten im Bild sind einzelne Steine schon direkt von der Sonne getroffen [Q3]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib7672be1e9",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    548594
+   ],
+   "answer_md": "Abendlicht bei Sonne knapp über dem Horizont: das weiche, farbige Licht lässt die Stämme auf dem Grat von allen Seiten leuchten [S548594].",
+   "checkable": [
+    "Weiße Stämme leuchten gleichmäßig, ohne harte Schattenseite [S548594]",
+    "Warme Abendfarbe im Licht [S548594]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idaed126ed1",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    219258
+   ],
+   "answer_md": "Gegenlicht: Die Pappel ist von der Sonne hinterleuchtet vor einer schattigen Canyonwand; das vom orangen Sandstein hinter dem Fotografen reflektierte Licht verstärkt die rostroten Stämme [S219258].",
+   "checkable": [
+    "Krone leuchtet hell als Lichtsaum vor dunkler Felswand [S219258]",
+    "Stämme rötlich-warm aufgehellt (Reflexlicht von vorn) [S219258]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ice7056e3c3",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    564040
+   ],
+   "answer_md": "Sehr hoher Kontrastumfang; Burkett wartete, bis die Sonne fast im Bild stand, sodass genug Reflexlicht vom trockenen Gras die Szene trug [S564040].",
+   "checkable": [
+    "Sonne nahe am Bildrand/über der Szene (Gegenlicht, Sonnenaufgang) [S564040]",
+    "Schattenpartien durch Reflexlicht noch durchgezeichnet [S564040]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iae886d05e2",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    883145
+   ],
+   "answer_md": "Mittagssonne streifte die Schiefermauer flach, sodass die Oberfläche das Licht stark reflektierte – so hell, dass man blinzeln musste [S883145].",
+   "checkable": [
+    "Glänzende, fast silbrige Lichter auf der Steinoberfläche [S883145]",
+    "Streiflicht modelliert das Relief [S883145]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2d8c007dd3",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    959574
+   ],
+   "answer_md": "Sonnenlicht lag auf dem Baum, aber umhüllend und eher diffus [S959574].",
+   "checkable": [
+    "Keine harten Schlagschatten der Blätter – weiches, gleichmäßiges Licht [S959574]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic2bf3eadbb",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/the-dolomites/",
+     "title": "The Dolomites – Art Wolfe Fine Art Prints",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "This deep ochre and nearly neon orange sunrise was anything but pale!"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Aufgenommen bei Sonnenaufgang mit tief ockerfarbenem, fast neonorangem Himmel [Q1].",
+   "checkable": [
+    "Himmel kräftig orange, Berge davor im Gegenlicht dunkel-bläulich [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ifde040bf71",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/les-aiguilles-the-chamonix-needles/",
+     "title": "Les Aiguilles, The Chamonix Needles – Art Wolfe Fine Art Prints",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "Lit at sunset, the white glaciers soften to pink and the stark granite spires are gilded."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Sonnenuntergangslicht: Die Gletscher werden rosa, die Granitnadeln golden angestrahlt [Q1].",
+   "checkable": [
+    "Gipfel/Nadeln goldfarben angestrahlt [Q1]",
+    "Gletscherschnee rosa getönt [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i251caa1a1a",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/etna/",
+     "title": "Moonrise over Etna – Art Wolfe Fine Art Prints",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "Within 32 hours of hearing that Sicily's Mt. Etna was erupting, I was hiking up the volcano."
+    },
+    {
+     "url": "https://store.artwolfe.com/product/etna/",
+     "title": "Moonrise over Etna – Art Wolfe Fine Art Prints",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "As twilight descended, this timed exposure recorded the fiery exploding magma."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Aufgenommen in der einbrechenden Dämmerung als Zeitbelichtung, die die glühend herausgeschleuderte Magma aufzeichnete [Q2] – während eines Ausbruchs des Ätna [Q1].",
+   "checkable": [
+    "Restlicht der Dämmerung am Himmel, Mond sichtbar [Q2]",
+    "Glutspuren/Lava als Lichtspuren einer Langzeitbelichtung [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ifecf290e27",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://opencitylondon.com/non-fiction/non-fiction-05-the-obsolete-and-the-resurrected-archaeological-cinema-in-asia/lost-mi/",
+     "title": "Lost / Mí: Fan Ho and Experimental Cinema (Open City Documentary Festival, Non-Fiction 05)",
+     "author": "Timmy Chen",
+     "kind": "critic",
+     "excerpt": "A vertical line on the left, a horizontal line at the bottom, and a diagonal line separating light and shadow drive the viewer's attention toward a small, solitary woman who, in Fan Ho's words, is contemplating and mourning \"the shadow of ruthless time.\" The shadow was added in the darkroom during what we might call \"postproduction.\""
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die diagonale Licht-Schatten-Grenze lenkt den Blick zur kleinen Frau; der Schatten wurde erst in der Dunkelkammer hinzugefügt [Q1].",
+   "checkable": [
+    "Diagonale Grenze zwischen heller Wand und Schattenfläche führt zur Figur [Q1]",
+    "Schatten ist nicht (nur) natürliches Licht, sondern in der Dunkelkammer erzeugt [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1a38ff290d",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    661879
+   ],
+   "answer_md": "Fan Ho spielt mit Licht und Schatten im nach oben offenen Gebäude des Central Market; die Aufnahme ist aus niedriger Perspektive [S661879].",
+   "checkable": [
+    "Licht fällt von oben durch das offene Dach in Rauch/Dunst [S661879]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i5d312f2e74",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://high.org/exhibition/wynn-bullock-revelations/",
+     "title": "Wynn Bullock: Revelations – High Museum of Art",
+     "author": "High Museum of Art",
+     "kind": "museum",
+     "excerpt": "In this quietly dramatic image Bullock captures the sun hanging low over the sea, causing a narrow band of brilliant light to reflect across the water in contrast with a deeply shadowed landscape and darkened sky."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Tiefstehende Sonne über dem Meer: ein schmales, gleißendes Lichtband spiegelt sich auf dem Wasser, im Kontrast zu tief verschatteter Landschaft und dunklem Himmel [Q1].",
+   "checkable": [
+    "Schmales helles Reflexband auf dem Wasser [Q1]",
+    "Landschaft und Himmel fast schwarz [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6ab6b8327d",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    476082
+   ],
+   "answer_md": "Bullock fotografierte mit der 8x10-Kamera direkt gegen die Sonne; ihn reizten die Wolken und die atmosphärische Stimmung [S476082].",
+   "checkable": [
+    "Sonne im Bild, Baum als Silhouette im Gegenlicht [S476082]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i297daea532",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.peterfetterman.com/blog/388-1266-paul-caponigro-running-white-deer-ireland-1967-printed-2019/",
+     "title": "#1266 Paul Caponigro – Running White Deer, Ireland, 1967 (Peter Fetterman Gallery, mit Zitat des Fotografen)",
+     "author": "Paul Caponigro (zitiert von Peter Fetterman)",
+     "kind": "photographer",
+     "excerpt": "In the subdued light of the day my calculated exposure required the widest lens, aperture and a slow shutter speed of I second."
+    },
+    {
+     "url": "https://www.clevelandart.org/print/art/2025.189",
+     "title": "Running White Deer, County Wicklow, Ireland – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "When the herd showed up at dusk, their motion and the low light resulted in this magical image of ghostly, blurred deer contrasting with the sharper detail of the trees."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Gedämpftes Tageslicht – Caponigro brauchte offene Blende und 1 Sekunde Belichtungszeit [Q1]; laut Museum in der Abenddämmerung, sodass Bewegung und wenig Licht die Hirsche verwischt erscheinen ließen [Q2].",
+   "checkable": [
+    "Hirsche bewegungsunscharf, Bäume scharf [Q2]",
+    "Kein Sonnenlicht/keine harten Schatten – gedämpfte Stimmung [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ia9d40c2bc0",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://archive.org/download/the-place-no-one-knew/The%20Place%20No%20One%20Knew_djvu.txt",
+     "title": "Eliot Porter: The Place No One Knew. Glen Canyon on the Colorado (Sierra Club, 1963), Volltext archive.org",
+     "author": "Eliot Porter",
+     "kind": "photographer",
+     "excerpt": "Of all the phenomena of the side canyons, it is the light, even in the farthest depths of the narrowest canyon, that evokes the ultimate in awe. In somber, rocky caverns of purple and ocher stone into which the sun rarely strikes, shallow pools glitter brassily from sunlit cliffs high overhead."
+    }
+   ],
+   "library_source_ids": [
+    165596
+   ],
+   "answer_md": "Porter beschreibt das Licht der Seitencanyons: In die Tiefe dringt kaum direkte Sonne, Licht kommt als Reflex von hoch oben sonnenbeschienenen Wänden [Q1] [S165596].",
+   "checkable": [
+    "Wand leuchtet von indirektem, reflektiertem Licht, nicht von direkter Sonne [Q1]",
+    "Canyonboden dunkel [Q1]"
+   ],
+   "scope_note": "Quelle beschreibt das Licht der Glen-Canyon-Seitencanyons allgemein (Porters Text im Buch, in dem diese Aufnahme erschien), nicht ausdrücklich dieses Bild."
+  },
+  {
+   "image_id": "ia55cefec4e",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://archive.org/download/the-place-no-one-knew/The%20Place%20No%20One%20Knew_djvu.txt",
+     "title": "Eliot Porter: The Place No One Knew. Glen Canyon on the Colorado (Sierra Club, 1963), Volltext archive.org",
+     "author": "Eliot Porter",
+     "kind": "photographer",
+     "excerpt": "In somber, rocky caverns of purple and ocher stone into which the sun rarely strikes, shallow pools glitter brassily from sunlit cliffs high overhead."
+    },
+    {
+     "url": "https://archive.org/download/the-place-no-one-knew/The%20Place%20No%20One%20Knew_djvu.txt",
+     "title": "Eliot Porter: The Place No One Knew. Glen Canyon on the Colorado (Sierra Club, 1963), Volltext archive.org",
+     "author": "Eliot Porter",
+     "kind": "photographer",
+     "excerpt": "Their drooping leaves turn a dusky cyan-green in the blue shadows, creating a subdued, almost funereal atmosphere."
+    }
+   ],
+   "library_source_ids": [
+    245370
+   ],
+   "answer_md": "In den Seitencanyons trifft kaum direkte Sonne; Becken glänzen messingfarben im Licht hoch oben besonnter Wände [Q1], im Schatten färben sich Pflanzen dunkel cyan-grün in blauen Schatten [Q2] [S245370].",
+   "checkable": [
+    "Oben warm angestrahlter Fels, unten kühle, blaue Schatten [Q1][Q2]",
+    "Bewuchs im Schatten blaugrün [Q2]"
+   ],
+   "scope_note": "Porters allgemeine Beschreibung des Lichts in den Seitencanyons (Buchtext), nicht ausdrücklich zu diesem Bild."
+  },
+  {
+   "image_id": "ie127a266fa",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    400341
+   ],
+   "answer_md": "Im frühen Morgenlicht aufgenommen, dramatisch beleuchtet; Muybridges Interesse an atmosphärischen Bedingungen und schimmernden Spiegelungen [S400341].",
+   "checkable": [
+    "Schimmernde Spiegelungen auf dem Fluss [S400341]",
+    "Felswände im Dunst – Morgenatmosphäre [S400341]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ife74fb6ada",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    384847
+   ],
+   "answer_md": "Kein Nachtbild: Frank fotografierte bei Tag und unterbelichtete das Negativ stark („day for night“), was Mondlicht vortäuscht [S384847].",
+   "checkable": [
+    "Dunkler Himmel trotz Tageslicht – durch Unterbelichtung [S384847]",
+    "Glänzende Straße wie im Mondlicht [S384847]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ieb59cc085e",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    863794
+   ],
+   "answer_md": "Struth vermeidet starke Licht-Schatten-Kontraste und bevorzugt das leicht bedeckte, gräuliche Licht des frühen Morgens [S863794].",
+   "checkable": [
+    "Keine harten Schlagschatten an den Fassaden [S863794]",
+    "Grauer, gleichmäßig heller Himmel [S863794]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idb2e605d79",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    359698
+   ],
+   "answer_md": "Höfer nutzte das vorhandene Licht des Saals mit langer Belichtungszeit; dadurch erscheinen die Besucher verwischt wie Geister [S359698].",
+   "checkable": [
+    "Kein Blitz/Kunstlicht-Look, gleichmäßiges Raumlicht [S359698]",
+    "Unscharfe, transparente Personen [S359698]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i32660e82d5",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    730698
+   ],
+   "answer_md": "Das Bild ist nahezu schattenlos, wodurch es so flach wirkt wie das Papier [S730698].",
+   "checkable": [
+    "Kaum Schatten auf der Wandfläche – flächiges Licht [S730698]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ide0d8ba388",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    838650,
+    401122
+   ],
+   "answer_md": "Mitternachtssonne: Die Sonne stand um Mitternacht fast so hoch wie mittags [S838650]; das Licht war um Mitternacht so hell, dass Ponting korrekt belichtete Negative erhielt [S401122].",
+   "checkable": [
+    "Sonnenlicht/Gegenlicht über dem Wasser trotz „Mitternacht“ [S838650]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if524e7ef6d",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    998808
+   ],
+   "answer_md": "Bedeckter Himmel, durch den die Sonne zu brechen versucht; sie beleuchtet rechts das Reservoir [S998808].",
+   "checkable": [
+    "Lichtstrahlen durch Wolkenlücke [S998808]",
+    "Rechts hell aufleuchtendes Wasser des Reservoirs [S998808]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3a3cf2bd28",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    495769
+   ],
+   "answer_md": "Mittags (Titel: 1300 hours) fotografiert Light nur, wenn er gezielt ein flaches, ausgebranntes, fast halluzinatorisches Licht sucht [S495769].",
+   "checkable": [
+    "Flaches, sehr helles Licht ohne plastische Schatten; nur der Flugzeugschatten ist scharf [S495769]"
+   ],
+   "scope_note": "Aussage über seine Praxis bei Mittagsaufnahmen; die Uhrzeit 1300 steht im Bildtitel."
+  },
+  {
+   "image_id": "ida31a3379a",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    890028
+   ],
+   "answer_md": "Light fotografiert früh morgens und abends (Titel: 1800 hours); das tiefe Licht gibt Dreidimensionalität [S890028].",
+   "checkable": [
+    "Streiflicht macht die Oberflächenstruktur plastisch [S890028]"
+   ],
+   "scope_note": "Allgemeine Arbeitsweise; Uhrzeit 1800 aus dem Bildtitel."
+  },
+  {
+   "image_id": "i73c5f80960",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    142772
+   ],
+   "answer_md": "Die Personen werfen Schatten „wie Sonnenuhren“ [S142772].",
+   "checkable": [
+    "Jede Figur mit deutlichem Schlagschatten auf dem Sand [S142772]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iffab062b6b",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    981382
+   ],
+   "answer_md": "Laut Archivbeschreibung ist der Himmel eher bedeckt [S981382].",
+   "checkable": [
+    "Graue Wolkendecke, keine harten Schatten an Ballen und Steinen [S981382]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6ab6b8327d",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    476082
+   ],
+   "answer_md": "Bullock fotografierte die Stelle erst, als ihn eines Tages die Wolken und das „atmosphärische Gefühl“ der Szene ansprachen [S476082].",
+   "checkable": [
+    "Wolken/Nebel um die Sonne, verhangene Hügel [S476082]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i520a29cb2f",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    760617
+   ],
+   "answer_md": "Die fernen Berge rechts verschwinden allmählich in möglicherweise tief hängenden Wolken, was die entfernten Bäume hervorhebt [S760617].",
+   "checkable": [
+    "Berge rechts lösen sich in Wolken/Dunst auf [S760617]",
+    "Entfernte Bäume heben sich dadurch ab [S760617]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie7d8962b6e",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    591544
+   ],
+   "answer_md": "Brandt: Keines dieser Panoramen hätte in hartem Sonnenlicht funktioniert; die gesuchte melancholische Stimmung wäre verschwunden [S591544].",
+   "checkable": [
+    "Dunkler, bewölkter Himmel statt Sonne [S591544]"
+   ],
+   "scope_note": "Aussage über die ganze Serie, zu der das Bild gehört."
+  },
+  {
+   "image_id": "i1a38ff290d",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    661879
+   ],
+   "answer_md": "Licht und Schatten im offenen Gebäude verleihen der Alltagsszene Dramatik; Ho fing atmosphärische, poetische Szenen ein [S661879].",
+   "checkable": [
+    "Dunst/Rauch macht die Lichtbahnen sichtbar [S661879]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i9c726285b5",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://longnow.org/seminars/02007/apr/27/lifes-journey-through-time",
+     "title": "Life's Journey Through Time – Frans Lanting, Long Now Seminar (27.4.2007), Zusammenfassung",
+     "author": "Stewart Brand (Long Now Foundation, Zusammenfassung von Lantings Vortrag)",
+     "kind": "critic",
+     "excerpt": "Lanting took pains to photograph without blue sky in the background, because the sky was not blue until the cyanobacteria had generated a planet's worth of oxygen."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Lanting vermied bei den Stromatolithen bewusst blauen Himmel im Hintergrund, weil der Himmel erst blau wurde, als Cyanobakterien genug Sauerstoff erzeugt hatten [Q1].",
+   "checkable": [
+    "Himmel rosa/rot statt blau [Q1]"
+   ],
+   "scope_note": "Zusammenfassung von Lantings Vortrag über seine Stromatolithen-Aufnahmen allgemein; dieses Bild ist eine davon."
+  },
+  {
+   "image_id": "ic2bf3eadbb",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/the-dolomites/",
+     "title": "The Dolomites – Art Wolfe Fine Art Prints",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "The Dolomites, now named for the rock type that gives these mountains their characteristic shape and color, were originally known as the\"pale mountains\". This deep ochre and nearly neon orange sunrise was anything but pale!"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Gegen den Ruf der „bleichen Berge“ setzt das Bild einen tief ockerfarbenen, fast neonorangen Sonnenaufgang [Q1].",
+   "checkable": [
+    "Dominantes Ocker/Orange im Himmel [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ifde040bf71",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/les-aiguilles-the-chamonix-needles/",
+     "title": "Les Aiguilles, The Chamonix Needles – Art Wolfe Fine Art Prints",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "Lit at sunset, the white glaciers soften to pink and the stark granite spires are gilded."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Im Abendlicht werden die weißen Gletscher rosa und die Granitnadeln golden [Q1].",
+   "checkable": [
+    "Rosa im Schnee, Gold an den Felsspitzen [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7004b09619",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/forest-light/",
+     "title": "Forest Light – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Bright fill light was coming from the aspen trees behind me which intensified the orange colors in the trees."
+    },
+    {
+     "url": "https://christopherburkett.com/print/forest-light/",
+     "title": "Forest Light – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "While aspens are most commonly yellow, there are some groups of trees that turn orange under ideal spring, summer and fall weather conditions."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Orange stammt von einer Espengruppe, die sich ausnahmsweise orange statt gelb färbte [Q2]; Aufhelllicht von hinten verstärkte das Orange [Q1].",
+   "checkable": [
+    "Orange statt des üblichen Espen-Gelbs [Q2]",
+    "Gelbe Gegenlichtzone in der Mitte vs. orange Vordergrundbäume [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idaed126ed1",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    219258
+   ],
+   "answer_md": "Die rostroten Stämme wurden durch Licht verstärkt, das vom orangefarbenen Sandsteinfelsen hinter dem Fotografen reflektiert wurde [S219258].",
+   "checkable": [
+    "Rötlich-warme Stämme vor dunkler Wand [S219258]"
+   ],
+   "scope_note": ""
+  }
+ ]
+}

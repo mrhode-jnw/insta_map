@@ -1,0 +1,1669 @@
+{
+ "accessed_at": "2026-10-26",
+ "references": [
+  {
+   "image_id": "ia540427600",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    108865,
+    485743
+   ],
+   "answer_md": "Maisel fotografierte den Owens-Seeboden aus der Luft [S485743]. Die Flughöhe nutzt er als Kompositionsmittel: sehr tief, um den Rahmen mit dem Bodenmuster zu füllen, oder höher für einen weiten Blick über das Tal [S108865].",
+   "checkable": [
+    "Blick aus dem Flugzeug von oben auf den Seeboden [S485743]",
+    "Frage an das Bild: tief (Muster füllt den Rahmen) oder höher (weiter Überblick)? [S108865]"
+   ],
+   "scope_note": "Beide Quellen sprechen über The Lake Project insgesamt, nicht über Nr. 14 allein."
+  },
+  {
+   "image_id": "i73c5f80960",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    617607
+   ],
+   "answer_md": "Shore stellte seine 8×10-Kamera auf einen Felsvorsprung über einer trägen Biegung des Merced River [S617607].",
+   "checkable": [
+    "Erhöhter Standpunkt: Blick leicht von oben auf Sandbank und Wasser [S617607]",
+    "Half Dome am dunstigen Horizont [S617607]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3312b69c1e",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    217543,
+    564527
+   ],
+   "answer_md": "Gursky nahm die Fassade frontal auf – linke und rechte Hälfte von zwei getrennten Standpunkten, im Computer zusammengefügt [S217543]. Der doppelte Standpunkt lässt tiefer in die einzelnen Wohnungen blicken, gegen die Konventionen der Zentralperspektive [S564527].",
+   "checkable": [
+    "Fassade streng frontal, parallel zur Bildfläche [S217543]",
+    "In beiden Bildhälften blickt man gleich frontal in die Wohnungen – keine einseitige Flucht [S564527]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1af4efe118",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    229639,
+    257844
+   ],
+   "answer_md": "Struth arbeitete nach einem strengen formalen System und stand oft mitten auf der Straße, um den Blick zu komponieren [S229639]; die frühen Straßenbilder sind streng zentralperspektivisch aufgebaut [S257844].",
+   "checkable": [
+    "Kamera in der Straßenachse, Blick die Straße entlang [S229639]",
+    "Zentralperspektive: die Straße flieht zur Bildmitte [S257844]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i7c6b3d01d6",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    656632,
+    257844
+   ],
+   "answer_md": "Struth stand für diese Bilder oft mitten auf der Straße, um den Blick zu komponieren [S656632]; die frühen Straßenbilder folgen einer strengen Zentralperspektive [S257844].",
+   "checkable": [
+    "Kamera in der Straßenachse, Blick die Straße entlang [S656632]",
+    "Zentralperspektive: die Straße flieht zur Bildmitte [S257844]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ib01bcf3028",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    244307
+   ],
+   "answer_md": "Burkett stand auf einer Brücke über der Schlucht; böiger Wind und darüberfahrende Autos und Lastwagen brachten die Brücke zum Schwingen [S244307].",
+   "checkable": [
+    "Steiler Blick von oben in die Schlucht auf den Fluss – Standpunkt Brücke [S244307]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i715f266a1b",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    242721
+   ],
+   "answer_md": "O'Sullivan hatte ein eigenes Boot, die „Picture“, und erkundete die Canyons langsam aus seinem niedrigen Blickpunkt auf dem Colorado River [S242721].",
+   "checkable": [
+    "Kamera nahe der Wasserhöhe am Ufer, die Felswände steigen über dem Fluss auf [S242721]"
+   ],
+   "scope_note": "Die Quelle beschreibt O'Sullivans Arbeitsweise in den Colorado-Canyons allgemein."
+  },
+  {
+   "image_id": "ie5bb70b8b7",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    869442
+   ],
+   "answer_md": "O'Sullivan erkundete die Canyons vom eigenen Boot „Picture“ aus, aus niedrigem Blickpunkt auf dem Colorado River [S869442].",
+   "checkable": [
+    "Kamera nahe der Wasserhöhe zwischen den Canyonwänden [S869442]"
+   ],
+   "scope_note": "Die Quelle beschreibt O'Sullivans Arbeitsweise in den Colorado-Canyons allgemein."
+  },
+  {
+   "image_id": "if524a3197c",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    353486
+   ],
+   "answer_md": "O'Sullivan erkundete die Canyons vom eigenen Boot „Picture“ aus, aus niedrigem Blickpunkt auf dem Colorado River [S353486].",
+   "checkable": [
+    "Standpunkt unten am Fluss, Blick zur Wand hinauf [S353486]"
+   ],
+   "scope_note": "Die Quelle beschreibt O'Sullivans Arbeitsweise in den Colorado-Canyons allgemein."
+  },
+  {
+   "image_id": "idb2e605d79",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    837493
+   ],
+   "answer_md": "Das Bild ist von einem hohen Standpunkt aufgenommen und blickt hinab in den barocken Saal, in dem neun Glasvitrinen auf einem gemusterten Holzboden stehen [S837493].",
+   "checkable": [
+    "Blick von oben auf den Boden des Saals [S837493]",
+    "Neun Vitrinen auf gemustertem Holzboden [S837493]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id1445f705c",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    815438
+   ],
+   "answer_md": "Aufgenommen vom Fuß des Stac Pollaidh; der Blick geht über eine weite Felslandschaft mit kleinen Seen zum Berg, dessen Gipfel in Wolken liegt [S815438].",
+   "checkable": [
+    "Blick über Felsland mit kleinen Seen (Lochans) hinweg [S815438]",
+    "Gipfel des Bergs unter einer Wolke [S815438]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7c6568910c",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    939148
+   ],
+   "answer_md": "Jeder Förderturm wird in einer perspektivischen (schrägen) und einer frontalen Ansicht gezeigt [S939148].",
+   "checkable": [
+    "Derselbe Bau aus mehreren Richtungen: frontal und schräg [S939148]"
+   ],
+   "scope_note": "Die Pressemitteilung beschreibt die Serie der 40 Coal Tipples; dieses Blatt gehört dazu."
+  },
+  {
+   "image_id": "i6cd4bc86d1",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    558554
+   ],
+   "answer_md": "Aufgenommen aus einem Hubschrauber und danach digital bearbeitet; die Strecke windet sich schlangenartig durch die Wüste [S558554].",
+   "checkable": [
+    "Steiler Blick von oben auf die Rennstrecke [S558554]",
+    "Schwarzer Asphalt stark gegen beigen Sand [S558554]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1a38ff290d",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    435153
+   ],
+   "answer_md": "Fan Ho fotografierte die Menschen in der Central Market Hall aus niedrigem Blickwinkel (low-angle shot) [S435153].",
+   "checkable": [
+    "Kamera unten, Blick die Treppe hinauf zu den Figuren [S435153]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7fd8cb9704",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    662901
+   ],
+   "answer_md": "Cartier-Bresson stand oben an der gewundenen Treppe und wartete, dass etwas das Bild belebt [S662901].",
+   "checkable": [
+    "Steiler Blick von oben auf Wendeltreppe und Straße [S662901]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i830ba0dac2",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    610840
+   ],
+   "answer_md": "Die Kamera zeigt direkt senkrecht hinunter auf die Erde; dadurch wirken die Bilder völlig flach [S610840].",
+   "checkable": [
+    "Senkrechte Draufsicht ohne Horizont, Bild wirkt flach wie eine Karte [S610840]"
+   ],
+   "scope_note": "Die Quelle spricht über die Lithium-Serie allgemein."
+  },
+  {
+   "image_id": "i32d59b1183",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    621799,
+    485743
+   ],
+   "answer_md": "Maisel fotografierte aus der Luft [S485743]; zu diesem Bild: „Wir gehen tiefer. Der Rahmen füllt sich mit blutroten Salzfeldern.“ [S621799]",
+   "checkable": [
+    "Aufsicht aus geringer Flughöhe, rote Salzflächen füllen fast den ganzen Rahmen [S621799]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie8b47098fa",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    236552
+   ],
+   "answer_md": "Die Kuratorin Becky Senf beschreibt das weite Panorama als Ausdruck von Adams’ „allwissendem Blickpunkt“ und „gottgleicher Perspektive“ [S236552].",
+   "checkable": [
+    "Überblick von erhöhtem Standpunkt über die Flussschleife bis zu den Bergen [S236552]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i50cab9d733",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    236011,
+    667351
+   ],
+   "answer_md": "Light arbeitete für dieses Buch erstmals mit einem Flugzeug nach eigener Regie [S667351]; die Luftansicht bietet ihm eine Weite des Maßstabs [S236011]. Laut Titel aus 400 Fuß Höhe.",
+   "checkable": [
+    "Schräger Luftblick über das Tal [S236011]"
+   ],
+   "scope_note": "S667351 spricht über das Buch Some Dry Space insgesamt; Höhenangabe aus dem Bildtitel."
+  },
+  {
+   "image_id": "i409d561d98",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    515223,
+    667351
+   ],
+   "answer_md": "Light fotografiert aus einem Flugzeug mit ausgebauten Türen, etwa anderthalb Stunden lang, mit einer rund 20 Pfund schweren Kamera [S515223][S667351]. Laut Titel aus 500 Fuß Höhe.",
+   "checkable": [
+    "Schräger Luftblick aus geringer Höhe über das Becken [S515223]"
+   ],
+   "scope_note": "Die Quellen beschreiben Lights Arbeitsweise allgemein; Höhenangabe aus dem Bildtitel."
+  },
+  {
+   "image_id": "ia3ff44bc9b",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    773320
+   ],
+   "answer_md": "Light fotografiert aus dem fliegenden Flugzeug, kreist immer wieder um das Motiv – er kann die Kamera nicht zwei Zoll nach links rücken oder 15 Minuten warten, er bewegt sich mit 60 Meilen pro Stunde [S773320].",
+   "checkable": [
+    "Luftblick von oben auf Canyon und Schwemmfächer [S773320]"
+   ],
+   "scope_note": "Die Quelle beschreibt Lights Arbeitsweise allgemein; Höhenangabe 400 Fuß aus dem Bildtitel."
+  },
+  {
+   "image_id": "i4266c79470",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    456873,
+    147322
+   ],
+   "answer_md": "Strand fotografiert aus der Luft: aus dem Flächenflugzeug fast senkrecht nach unten, aus dem Hubschrauber eher schräg auf die Landschaft [S456873]; im Flug bewegt er die Kamera in alle Richtungen, bis die Bildecken stimmen [S147322].",
+   "checkable": [
+    "Luftaufnahme von oben, ohne Horizont [S147322]"
+   ],
+   "scope_note": "S147322 beschreibt Strands Luftbildarbeit allgemein."
+  },
+  {
+   "image_id": "i7004b09619",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    296202
+   ],
+   "answer_md": "Burkett arbeitete mit 450-mm-Objektiv bei f/64 und 1/2 s; die Standarte der Fachkamera verschob er etwa 1 Zoll nach oben, damit die Stämme senkrecht bleiben [S296202].",
+   "checkable": [
+    "Stämme stehen parallel senkrecht, keine stürzenden Linien [S296202]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iad3aaf5028",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.bookforum.com/print/1502/stephen-shore-talks-with-bookforum-2464",
+     "title": "Highways, Hamlet, and Pancakes – Stephen Shore talks with Bookforum (Darius Himes, Bookforum, 2008)",
+     "author": "Stephen Shore (Interview mit Darius Himes, Bookforum)",
+     "kind": "photographer",
+     "excerpt": "So when I photographed the pancakes [at Trail’s End Restaurant, Kanab, Utah] with a 4 x 5, I had been there, to that same restaurant, the preceding year for the American Surfaces project. It’s a very different thing to have the food in front of you and take a picture with a 35 mm—just like that. With the 4 x 5, I was standing on a chair, and the camera was over here, and the food was cold by the time I took the picture."
+    }
+   ],
+   "library_source_ids": [
+    908081
+   ],
+   "answer_md": "Shore fotografierte die Pfannkuchen mit der 4×5-Kamera: Er stand auf einem Stuhl, die Kamera daneben, und das Essen war kalt, als er auslöste [Q1][S908081].",
+   "checkable": [
+    "Blick von schräg oben auf den gedeckten Tisch [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i25c5de9f0f",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    458442,
+    252307
+   ],
+   "answer_md": "Keines der Panoramen hätte in hartem Sonnenlicht funktioniert; die angestrebte melancholische Stimmung wäre sofort verschwunden [S458442]. Die Crew wartete Tag für Tag am Ort darauf, dass Wolken am Himmel erschienen [S252307].",
+   "checkable": [
+    "Bewölkter Himmel, weiches Licht ohne harte Schlagschatten [S458442][S252307]"
+   ],
+   "scope_note": "Brandt spricht über alle Panoramen von Inherit the Dust."
+  },
+  {
+   "image_id": "ia79aaaf868",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    105352,
+    252307
+   ],
+   "answer_md": "Keines der Panoramen hätte in hartem Sonnenlicht funktioniert; die angestrebte melancholische Stimmung wäre sofort verschwunden [S105352]. Die Crew wartete Tag für Tag am Ort darauf, dass Wolken am Himmel erschienen [S252307].",
+   "checkable": [
+    "Bewölkter Himmel, weiches Licht ohne harte Schlagschatten [S105352][S252307]"
+   ],
+   "scope_note": "Brandt spricht über alle Panoramen von Inherit the Dust."
+  },
+  {
+   "image_id": "i8ff31c81ad",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    467253,
+    252307
+   ],
+   "answer_md": "Keines der Panoramen hätte in hartem Sonnenlicht funktioniert; die angestrebte melancholische Stimmung wäre sofort verschwunden [S467253]. Die Crew wartete Tag für Tag am Ort darauf, dass Wolken am Himmel erschienen [S252307].",
+   "checkable": [
+    "Bewölkter Himmel, weiches Licht ohne harte Schlagschatten [S467253][S252307]"
+   ],
+   "scope_note": "Brandt spricht über alle Panoramen von Inherit the Dust."
+  },
+  {
+   "image_id": "ie7d8962b6e",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    591544,
+    252307
+   ],
+   "answer_md": "Keines der Panoramen hätte in hartem Sonnenlicht funktioniert; die angestrebte melancholische Stimmung wäre sofort verschwunden [S591544]. Die Crew wartete Tag für Tag am Ort darauf, dass Wolken am Himmel erschienen [S252307].",
+   "checkable": [
+    "Bewölkter Himmel, weiches Licht ohne harte Schlagschatten [S591544][S252307]"
+   ],
+   "scope_note": "Brandt spricht über alle Panoramen von Inherit the Dust."
+  },
+  {
+   "image_id": "ia53b3af771",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    994730
+   ],
+   "answer_md": "Um den gedämpften Ton der Song-Malerei zu erreichen, fotografierte Zhang meist an bewölkten Tagen und belichtete leicht über [S994730].",
+   "checkable": [
+    "Heller, grauer Himmel ohne Sonne [S994730]",
+    "Gedämpfte Gelb- und Grautöne [S994730]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "idd43ebb5ff",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    763808
+   ],
+   "answer_md": "Zhang fotografierte an bewölkten Tagen und belichtete über, um einen weichen, subtilen Tonumfang zu erhalten [S763808].",
+   "checkable": [
+    "Kein Sonnenlicht, keine Schatten; helle, weiche Tonwerte [S763808]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "iaa1ad6ed22",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    822648,
+    994730
+   ],
+   "answer_md": "Die leichte Überbelichtung macht die Bilder weich und die Landschaft fremdartig [S822648]; Zhang fotografierte meist an bewölkten Tagen [S994730].",
+   "checkable": [
+    "Diffuses Licht ohne Sonne, sehr helle, weiche Tonwerte [S822648][S994730]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i32660e82d5",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    730698
+   ],
+   "answer_md": "Corona del Mar ist nahezu schattenlos; dadurch wirkt das Bild so flach wie das Papier, auf dem es gedruckt ist [S730698].",
+   "checkable": [
+    "Kaum Schatten auf der Wandfläche, das Bild wirkt flach [S730698]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idaed126ed1",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    219258
+   ],
+   "answer_md": "Der Pappelbaum stand im Gegenlicht der Sonne vor der verschatteten Canyonwand; die rostroten Stämme wurden vom Licht aufgehellt, das die orangefarbene Sandsteinwand hinter Burkett zurückwarf [S219258].",
+   "checkable": [
+    "Baum im Gegenlicht, Zweige leuchten hell [S219258]",
+    "Dunkle, verschattete Felswand als Hintergrund [S219258]",
+    "Warme Töne am Stamm durch reflektiertes Licht von vorn [S219258]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib7672be1e9",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    548594
+   ],
+   "answer_md": "Die Bäume stehen auf dem Grat; das weiche, farbige Abendlicht lässt die Stämme von allen Seiten glühen, die Sonne steht knapp über dem Horizont [S548594].",
+   "checkable": [
+    "Stämme rundum hell, ohne harte Schattenseite [S548594]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ice7056e3c3",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    564040
+   ],
+   "answer_md": "Die Helligkeitsunterschiede überstiegen den Film; Burkett wartete, bis die Sonne fast im Bild stand, damit gerade genug Licht vom trockenen Gras zurückprallte [S564040].",
+   "checkable": [
+    "Sehr großer Kontrast zwischen hellen und dunklen Partien [S564040]",
+    "Vordergrund von reflektiertem Licht aufgehellt [S564040]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iae886d05e2",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    883145
+   ],
+   "answer_md": "Die Schieferwand wurde von der Mittagssonne im Streiflicht über die Oberfläche beleuchtet; sie reflektierte so stark, dass man blinzeln musste [S883145].",
+   "checkable": [
+    "Streiflicht modelliert die Oberflächenstruktur [S883145]",
+    "Glänzende, stark reflektierende Stellen [S883145]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2d8c007dd3",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    959574
+   ],
+   "answer_md": "Sonnenlicht lag auf dem Baum, aber umhüllender und diffuser als am Vortag [S959574].",
+   "checkable": [
+    "Weiches, diffuses Licht ohne harte Schatten im Laub [S959574]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ife74fb6ada",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    384847
+   ],
+   "answer_md": "Nicht nachts aufgenommen: Frank fotografierte bei Tageslicht und unterbelichtete das Negativ drastisch („day for night“), sodass der Abzug wie eine Mondlandschaft wirkt [S384847].",
+   "checkable": [
+    "Wirkt nächtlich-dunkel, ist aber eine stark unterbelichtete Tagesaufnahme [S384847]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie127a266fa",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    400341
+   ],
+   "answer_md": "Im frühen Morgenlicht aufgenommen, sorgfältig gerahmt und dramatisch beleuchtet; das Bild zeigt Muybridges Interesse an atmosphärischen Bedingungen, schimmernden Spiegelungen und bewegtem Wasser [S400341].",
+   "checkable": [
+    "Dunst in den Felswänden, Spiegelungen auf dem Wasser [S400341]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ieb59cc085e",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    863794
+   ],
+   "answer_md": "Struth vermeidet starke Hell-Dunkel-Kontraste und bevorzugt das leicht bedeckte, gräuliche Licht des frühen Morgens; das verstärkt die neutrale Behandlung der Szene [S863794].",
+   "checkable": [
+    "Gleichmäßiges, graues Licht ohne harte Schatten [S863794]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3a3cf2bd28",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    495769
+   ],
+   "answer_md": "Light fotografiert in der Wüste nur ausnahmsweise mittags – wenn er gezielt ein flaches, ausgebranntes, fast halluzinatorisches Licht sucht [S495769]. Der Titel nennt 13 Uhr.",
+   "checkable": [
+    "Flaches, grelles Licht mit wenig Modellierung [S495769]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ida31a3379a",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    890028
+   ],
+   "answer_md": "Light fotografiert meist früh morgens und abends, weil das niedrig einfallende Licht Dreidimensionalität erzeugt [S890028]. Der Titel nennt 18 Uhr.",
+   "checkable": [
+    "Niedriges Streiflicht modelliert das Gelände plastisch [S890028]"
+   ],
+   "scope_note": "Die Quelle beschreibt Lights übliche Praxis; Uhrzeit aus dem Bildtitel."
+  },
+  {
+   "image_id": "i6ab6b8327d",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    476082
+   ],
+   "answer_md": "Bullock stellte die 8×10-Kamera auf und fotografierte direkt in die Sonne [S476082].",
+   "checkable": [
+    "Sonne im Bild, Baum als dunkle Silhouette [S476082]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i950fe71148",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    438067
+   ],
+   "answer_md": "Sambunaris bevorzugt neutrales, diffuses Licht und wartet bis zu zwei Wochen auf das passende Wetter; daher die Gleichmäßigkeit von Farbe und Stimmung ihrer Bilder [S438067].",
+   "checkable": [
+    "Gleichmäßiges Licht ohne starke Kontraste [S438067]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "iec5ad837fd",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    352486
+   ],
+   "answer_md": "Die flache, neutrale Wirkung der Abzüge entstand, weil die Bechers bei schattenlosem Licht arbeiteten [S352486].",
+   "checkable": [
+    "Keine Schlagschatten, flache gleichmäßige Tonwerte [S352486]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if524e7ef6d",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    998808
+   ],
+   "answer_md": "Ganz rechts liegt das Reservoir im Licht der Sonne, die durch den bedeckten Himmel zu brechen versucht [S998808].",
+   "checkable": [
+    "Bedeckter Himmel mit durchbrechendem Licht [S998808]",
+    "Das Reservoir rechts ist hell beleuchtet [S998808]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iffab062b6b",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    981382
+   ],
+   "answer_md": "Der Himmel ist eher bedeckt [S981382].",
+   "checkable": [
+    "Dunkler, bedeckter Himmel über dem Steinkreis [S981382]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ide0d8ba388",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    401122,
+    838650
+   ],
+   "answer_md": "Um Mitternacht war das Licht so hell, dass Ponting mit seiner 7×5-Spiegelreflex korrekt belichtete Negative erhielt [S401122]; die Sonne steht in dieser Jahreszeit um Mitternacht fast so hoch wie mittags [S838650].",
+   "checkable": [
+    "Sonne steht über dem Horizont, kräftiges Licht auf Wasser und Eis – um Mitternacht [S401122][S838650]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2242dd259a",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    633459
+   ],
+   "answer_md": "Ein nächtliches Bild; die Horizontlinie, die Meer und Himmel teilt, ist kaum sichtbar [S633459].",
+   "checkable": [
+    "Sehr dunkel, Horizont kaum erkennbar [S633459]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1a38ff290d",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    435153
+   ],
+   "answer_md": "Fan Ho spielt mit Licht und Schatten in dem nach oben offenen Gebäude und verleiht der Alltagsszene Dramatik [S435153].",
+   "checkable": [
+    "Licht fällt durch das offene Dach in den Dunst; starker Hell-Dunkel-Kontrast [S435153]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i749edc2880",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    138152
+   ],
+   "answer_md": "Fan Ho nannte das Bild einen Scherz Gottes: Er fotografierte eigentlich die Tramschienen, nicht die Kinder; erst beim Betrachten des Negativs fand er die zwei Kinder am Rand [S138152].",
+   "checkable": [
+    "Die zwei Kinder stehen seitlich, nicht als Hauptmotiv [S138152]",
+    "Tramschienen und Straßenfläche nehmen den größten Teil ein [S138152]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i73c5f80960",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    332121,
+    142772
+   ],
+   "answer_md": "Shore belichtete genau in dem Moment, als eine Mutter ihr badendes Kind fotografiert und sechs Figuren im Vordergrund ein Dreieck entlang des Ufers bilden [S332121]. Die Figuren erreichen – zufällig und für einen Moment – eine formale Vollkommenheit [S142772].",
+   "checkable": [
+    "Eine Figur fotografiert ein Kind im Wasser [S332121]",
+    "Die Personen bilden ein Dreieck entlang der Wasserkante [S332121]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic02846fa6d",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    209346,
+    553336
+   ],
+   "answer_md": "Das Bild hält den Moment kurz bevor der Fuß des springenden Mannes in die Pfütze taucht [S209346] – genau bevor die rechte Ferse die spiegelnde Wasserfläche berührt [S553336].",
+   "checkable": [
+    "Ferse knapp über dem Wasser, Spiegelbild darunter [S553336]",
+    "Plakat im Hintergrund mit einer Tänzerin, die in Gegenrichtung springt [S553336]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7fd8cb9704",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    662901
+   ],
+   "answer_md": "Cartier-Bresson wartete oben an der Treppe auf Bewegung und löste genau aus, als ein Radfahrer vorbeifuhr – so, dass die verwischte Gestalt nicht vom Geländer verdeckt wird [S662901].",
+   "checkable": [
+    "Radfahrer verwischt, frei zwischen den Geländerstäben [S662901]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i90eb207862",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    879318
+   ],
+   "answer_md": "Cartier-Bresson sah Formen, Linien, Licht und Schatten mit Blick auf den zentralen Durchgang und wartete geduldig auf die passende menschliche Figur [S879318].",
+   "checkable": [
+    "Eine kleine Figur auf der Treppe im zentralen Durchgang [S879318]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib01bcf3028",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    244307
+   ],
+   "answer_md": "Burkett wartete etwa 20 Minuten auf die richtigen Bedingungen: Nach jeder Windböe ließ er die Brücke rund 40 Sekunden zur Ruhe kommen, dazu kamen Erschütterungen durch Autos und Lastwagen [S244307].",
+   "checkable": [
+    "Trotz schwankender Brücke scharfe Details – Auslösen in einer Ruhepause [S244307]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ice7056e3c3",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    564040
+   ],
+   "answer_md": "Burkett wartete, bis die Sonne fast im Bild stand, weil erst dann genug Licht vom trockenen Gras zurückprallte [S564040].",
+   "checkable": [
+    "Sonne steht fast im Bild (knapp außerhalb des Rahmens) [S564040]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i626d608920",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    460763
+   ],
+   "answer_md": "Bullock stieß auf dem South Shore Trail auf den Gezeitentümpel, baute so schnell wie möglich auf und machte eine erste Belichtung; bevor er eine zweite machen konnte, fegte eine Böe über den Tümpel und das Muster verschwand [S460763].",
+   "checkable": [
+    "Feines galaxienartiges Muster auf ruhiger Wasserfläche [S460763]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6ab6b8327d",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    476082
+   ],
+   "answer_md": "Bullock fuhr ein Dutzend Mal an der Stelle vorbei, ohne fotografieren zu wollen; an einem Tag sprachen ihn die Wolken und die Atmosphäre an – er hielt an und fotografierte [S476082].",
+   "checkable": [
+    "Wolken und Dunst prägen das Bild [S476082]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i54a878c173",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    378326
+   ],
+   "answer_md": "McCurry sah eines Nachmittags den Schneider mitten auf der Straße gehen, die Nähmaschine auf der Schulter [S378326].",
+   "checkable": [
+    "Mann trägt eine Nähmaschine auf der Schulter durch das Wasser [S378326]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i038bd30111",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    237552
+   ],
+   "answer_md": "Die Bucht ist nur am Neujahrstag frei von Fischer- und Freizeitbooten; jedes Bild kann daher nur einmal im Jahr entstehen [S237552].",
+   "checkable": [
+    "Keine Boote auf dem Wasser [S237552]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i9a6e1ac0ae",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    241222
+   ],
+   "answer_md": "Eine Frau, die neben einer Ziege hockte, stand auf und drehte sich weg, um ihr Gesicht nicht zu zeigen – und gab damit unbeabsichtigt den Blick auf das Kind auf ihrem Rücken frei, von dem Gruyaert nichts wusste [S241222].",
+   "checkable": [
+    "Frau abgewandt, Gesicht nicht sichtbar [S241222]",
+    "Kind auf ihrem Rücken, Ziege daneben [S241222]"
+   ],
+   "scope_note": "Die Bibliothek ordnet die Textstelle diesem Bild nach Bildinhalt zu (Frau, Ziege, Kind auf dem Rücken stimmen überein)."
+  },
+  {
+   "image_id": "i95668e8ff2",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    336191,
+    936371
+   ],
+   "answer_md": "Ponting sah im Winter, dass der Eisberg gutes Material abgeben würde, „wenn die Sonne zurückkehrt“ [S336191], und fotografierte ihn so bald wie möglich nach ihrer Rückkehr [S936371].",
+   "checkable": [
+    "Eisberg im Sonnenlicht mit Licht- und Schattenseiten [S936371]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iaebd20ab3f",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    583007
+   ],
+   "answer_md": "An Schneetagen muss man hinaus, um eines der Aufklaren am Himmel zu erwischen, die einen aufregenden Moment schenken [S583007].",
+   "checkable": [
+    "Aufreißende Wolkendecke, Sonne auf dem Schnee [S583007]"
+   ],
+   "scope_note": "Cornishs Aussage gilt Schneetagen allgemein; die Bibliothek ordnet sie diesem Bild zu."
+  },
+  {
+   "image_id": "id5d981907d",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    419197
+   ],
+   "answer_md": "Kein gefundener Augenblick: Fan Ho machte das Bild als Student und inszenierte es; die Figuren sind seine Kommilitonen [S419197].",
+   "checkable": [
+    "Drei Figuren in drei Fenstern, wie auf einer Bühne [S419197]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i25c5de9f0f",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    252307
+   ],
+   "answer_md": "Brandt und seine Crew warteten Tag für Tag am Ort, bis Wolken am Himmel erschienen [S252307].",
+   "checkable": [
+    "Bewölkter Himmel [S252307]"
+   ],
+   "scope_note": "Brandt spricht über alle Panoramen von Inherit the Dust."
+  },
+  {
+   "image_id": "i2c414c1f0f",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    598005,
+    119409
+   ],
+   "answer_md": "Wolf hatte die Bauten zuerst ganz mit Himmel und Land fotografiert, war aber nicht überzeugt; dann beschnitt er die Bilder, bis nur Gebäude ohne Himmel und ohne Horizont blieben [S598005]. So weiß man nicht, wie groß das Gebäude ist – es entsteht ein Eindruck unbegrenzter Größe [S119409].",
+   "checkable": [
+    "Kein Himmel und kein Horizont im Bild [S598005]",
+    "Gebäudegröße nicht abschätzbar – kein oberes oder unteres Ende sichtbar [S119409]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density."
+  },
+  {
+   "image_id": "i88ceb1aba7",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    409809,
+    756230
+   ],
+   "answer_md": "Wolf hatte die Bauten zuerst ganz mit Himmel und Land fotografiert, war aber nicht überzeugt; dann beschnitt er die Bilder, bis nur Gebäude ohne Himmel und ohne Horizont blieben [S409809]. So weiß man nicht, wie groß das Gebäude ist – es entsteht ein Eindruck unbegrenzter Größe [S756230].",
+   "checkable": [
+    "Kein Himmel und kein Horizont im Bild [S409809]",
+    "Gebäudegröße nicht abschätzbar – kein oberes oder unteres Ende sichtbar [S756230]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density."
+  },
+  {
+   "image_id": "i7d5bdce00c",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    825945,
+    866879
+   ],
+   "answer_md": "Wolf hatte die Bauten zuerst ganz mit Himmel und Land fotografiert, war aber nicht überzeugt; dann beschnitt er die Bilder, bis nur Gebäude ohne Himmel und ohne Horizont blieben [S825945]. So weiß man nicht, wie groß das Gebäude ist – es entsteht ein Eindruck unbegrenzter Größe [S866879].",
+   "checkable": [
+    "Kein Himmel und kein Horizont im Bild [S825945]",
+    "Gebäudegröße nicht abschätzbar – kein oberes oder unteres Ende sichtbar [S866879]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density."
+  },
+  {
+   "image_id": "i0365451f8f",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    882918,
+    737912
+   ],
+   "answer_md": "Wolf hatte die Bauten zuerst ganz mit Himmel und Land fotografiert, war aber nicht überzeugt; dann beschnitt er die Bilder, bis nur Gebäude ohne Himmel und ohne Horizont blieben [S882918]. So weiß man nicht, wie groß das Gebäude ist – es entsteht ein Eindruck unbegrenzter Größe [S737912].",
+   "checkable": [
+    "Kein Himmel und kein Horizont im Bild [S882918]",
+    "Gebäudegröße nicht abschätzbar – kein oberes oder unteres Ende sichtbar [S737912]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density."
+  },
+  {
+   "image_id": "i61a13909b3",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    333062,
+    543701
+   ],
+   "answer_md": "Wolf hatte die Bauten zuerst ganz mit Himmel und Land fotografiert, war aber nicht überzeugt; dann beschnitt er die Bilder, bis nur Gebäude ohne Himmel und ohne Horizont blieben [S333062]. So weiß man nicht, wie groß das Gebäude ist – es entsteht ein Eindruck unbegrenzter Größe [S543701].",
+   "checkable": [
+    "Kein Himmel und kein Horizont im Bild [S333062]",
+    "Gebäudegröße nicht abschätzbar – kein oberes oder unteres Ende sichtbar [S543701]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density."
+  },
+  {
+   "image_id": "i99f20775bb",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    162733,
+    430375,
+    798370
+   ],
+   "answer_md": "Gursky entfernte digital die Elemente, die ihn störten [S162733]: die Gebäude am anderen Ufer [S430375]; alle Spuren menschlichen Lebens und Siedlung sind beseitigt [S798370].",
+   "checkable": [
+    "Gegenufer ohne Gebäude [S430375]",
+    "Keine Menschen, keine Häuser [S798370]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ifccce59f5b",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    677129
+   ],
+   "answer_md": "In der früheren Version, von einem tieferen Standpunkt, ist eine der Wände des Saals sichtbar; in dieser Version füllt das überfüllte Parkett das ganze Bild [S677129].",
+   "checkable": [
+    "Keine Raumwand, kein Abschluss – das Parkett füllt den Rahmen [S677129]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2eea36976e",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    114728
+   ],
+   "answer_md": "Cooper lässt den Horizont weg: Ein Horizont wäre ein automatischer Ausgang für Auge und Körper; ohne ihn werden die Bilder nach innen gekehrt [S114728].",
+   "checkable": [
+    "Kein Horizont, Blick nach unten auf Fels und Wasser [S114728]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i749edc2880",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    138152,
+    736921
+   ],
+   "answer_md": "Das Negativ war quadratisch [S138152]; Fan Ho beschnitt das Bild radikal zu einem ungewöhnlich schmalen Format und schuf so einen Rhythmus aus Kindern, Tramschienen und Abflusslöchern [S736921].",
+   "checkable": [
+    "Extrem schmales Hochformat [S736921]",
+    "Kinder, Schienen und Abflusslöcher als Rhythmus [S736921]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "icf5d974f03",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    598379
+   ],
+   "answer_md": "In den Seascapes gibt es keine Zeichen menschlicher Anwesenheit [S598379].",
+   "checkable": [
+    "Keine Schiffe, keine Küste, keine Menschen [S598379]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i1cebb88136",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    958220
+   ],
+   "answer_md": "In den Seascapes gibt es keine Zeichen menschlicher Anwesenheit [S958220].",
+   "checkable": [
+    "Keine Schiffe, keine Küste, keine Menschen [S958220]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i038bd30111",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    237552
+   ],
+   "answer_md": "Nur am Neujahrstag ist die Bucht frei von Fischer- und Freizeitbooten – deshalb entsteht das Bild an diesem Tag [S237552].",
+   "checkable": [
+    "Keine Boote auf der Wasserfläche [S237552]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie9df651c4e",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    379400
+   ],
+   "answer_md": "Der Horizont liegt irgendwo außerhalb des Bildrahmens; der Betrachter verliert die Orientierung [S379400].",
+   "checkable": [
+    "Kein Horizont im Bild [S379400]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2b5d89e520",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    917495
+   ],
+   "answer_md": "Es ist weder nötig noch wünschenswert, ein Rechteck mit Details zu füllen; die „leere“ weiße Schneefläche lädt ein, hineinzuwandern, bevor man den Berg sieht, der fast wie eine Fata Morgana am Horizont schwebt [S917495].",
+   "checkable": [
+    "Große leere Schneefläche im Vordergrund [S917495]",
+    "Berg klein am Horizont [S917495]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i53481fd680",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    147322
+   ],
+   "answer_md": "In seinen Luftbildern versucht Strand meist, den Horizont zu vermeiden – das macht sie abstrakter [S147322].",
+   "checkable": [
+    "Kein Horizont, kein Himmel [S147322]"
+   ],
+   "scope_note": "Strand spricht über seine Luftbilder allgemein."
+  },
+  {
+   "image_id": "i470e289645",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    147322
+   ],
+   "answer_md": "In seinen Luftbildern versucht Strand meist, den Horizont zu vermeiden – das macht sie abstrakter [S147322].",
+   "checkable": [
+    "Kein Horizont, kein Himmel [S147322]"
+   ],
+   "scope_note": "Strand spricht über seine Luftbilder allgemein."
+  },
+  {
+   "image_id": "ibbd7ccd719",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    147322
+   ],
+   "answer_md": "In seinen Luftbildern versucht Strand meist, den Horizont zu vermeiden – das macht sie abstrakter [S147322].",
+   "checkable": [
+    "Kein Horizont, kein Himmel [S147322]"
+   ],
+   "scope_note": "Strand spricht über seine Luftbilder allgemein."
+  },
+  {
+   "image_id": "i66fa654d1a",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    147322
+   ],
+   "answer_md": "In seinen Luftbildern versucht Strand meist, den Horizont zu vermeiden – das macht sie abstrakter [S147322].",
+   "checkable": [
+    "Kein Horizont, kein Himmel [S147322]"
+   ],
+   "scope_note": "Strand spricht über seine Luftbilder allgemein."
+  },
+  {
+   "image_id": "i4266c79470",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    147322
+   ],
+   "answer_md": "In seinen Luftbildern versucht Strand meist, den Horizont zu vermeiden – das macht sie abstrakter [S147322].",
+   "checkable": [
+    "Kein Horizont, kein Himmel [S147322]"
+   ],
+   "scope_note": "Strand spricht über seine Luftbilder allgemein."
+  },
+  {
+   "image_id": "i80b586506d",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    751368,
+    532448
+   ],
+   "answer_md": "Die Bilder sind auffallend menschenleer – ein Versuch, die Anwesenheit des Fotografen aus dem Bild zu nehmen [S751368]; Baltz wollte keinen Stil und keinen Standpunkt zeigen [S532448].",
+   "checkable": [
+    "Keine Menschen im Bild [S751368]"
+   ],
+   "scope_note": "S751368 beschreibt die Serie The New Industrial Parks."
+  },
+  {
+   "image_id": "i73c5f80960",
+   "dimension": "edge",
+   "sources": [],
+   "library_source_ids": [
+    617607
+   ],
+   "answer_md": "Um Half Dome ins eigene Bild einzubinden, spiegelte Shore dessen Profil mit dem eines Baums ganz am rechten Bildrand [S617607].",
+   "checkable": [
+    "Baum ganz am rechten Rand wiederholt die Form des Half Dome [S617607]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3312b69c1e",
+   "dimension": "edge",
+   "sources": [],
+   "library_source_ids": [
+    162796
+   ],
+   "answer_md": "Gursky schnitt das Wohnhaus links und rechts an; dadurch verschwindet die Tiefe zwischen Fassade und Bildfläche [S162796].",
+   "checkable": [
+    "Gebäude links und rechts vom Rahmen angeschnitten [S162796]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i8c9432c5bd",
+   "dimension": "pictorial_order",
+   "sources": [],
+   "library_source_ids": [
+    779038
+   ],
+   "answer_md": "Das quadratische Bild ist gleichmäßig geteilt: unten die Marsch, oben der Himmel; die abgelegene Kirche steht in der Mitte [S779038].",
+   "checkable": [
+    "Quadrat, Horizont etwa auf halber Höhe [S779038]",
+    "Kirche in der Bildmitte [S779038]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if27a4cb845",
+   "dimension": "pictorial_order",
+   "sources": [],
+   "library_source_ids": [
+    199650,
+    848342
+   ],
+   "answer_md": "Eine ausgewogene Komposition, die auf Figurenpaare zentriert ist [S199650]; aufgenommen in der überdachten Markthalle des Dorfes [S848342].",
+   "checkable": [
+    "Figuren paarweise angeordnet [S199650]",
+    "Stützen und Dach der Halle rahmen die Szene [S848342]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "icf5d974f03",
+   "dimension": "pictorial_order",
+   "sources": [],
+   "library_source_ids": [
+    598379
+   ],
+   "answer_md": "Sugimoto macht scheinbar immer dasselbe Bild: Der Horizont liegt genau in der senkrechten Mitte und teilt das Blatt in gleiche Teile Himmel und Wasser [S598379].",
+   "checkable": [
+    "Horizont genau auf halber Höhe [S598379]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i1cebb88136",
+   "dimension": "pictorial_order",
+   "sources": [],
+   "library_source_ids": [
+    958220
+   ],
+   "answer_md": "Der Horizont liegt genau in der senkrechten Mitte und teilt das Bild in gleiche Teile Himmel und Wasser [S958220].",
+   "checkable": [
+    "Horizont genau auf halber Höhe [S958220]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i5afdcfbda0",
+   "dimension": "pictorial_order",
+   "sources": [],
+   "library_source_ids": [
+    324972,
+    760973
+   ],
+   "answer_md": "Über den Fahrgästen liegen die oberen Fenster, unten die genietete Blechwand; die wiederholten Rechtecke wirken wie ein Kontaktbogen oder Filmstreifen [S324972] – eine stille, rasterartige Komposition [S760973].",
+   "checkable": [
+    "Fensterreihe als Raster, je Fenster eine Figurengruppe [S324972][S760973]",
+    "Oben Spiegelungen in den Oberlichtern, unten Nietenblech [S324972]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iad3aaf5028",
+   "dimension": "pictorial_order",
+   "sources": [],
+   "library_source_ids": [
+    482788
+   ],
+   "answer_md": "Ein sorgfältig komponiertes Gefüge aus Kreisen, dominiert von einem übergroßen Stapel butterüberzogener Pfannkuchen [S482788].",
+   "checkable": [
+    "Viele Kreisformen: Teller, Melone, Gläser [S482788]",
+    "Pfannkuchen dominieren [S482788]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iffab062b6b",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    981382
+   ],
+   "answer_md": "Vorne ein gerollter Strohballen, dahinter der Steinkreis [S981382].",
+   "checkable": [
+    "Strohballen im Vordergrund, Steine dahinter [S981382]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if524e7ef6d",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    998808
+   ],
+   "answer_md": "Ein Plattenweg führt vom Vordergrund zu den fernen Hügeln; ganz rechts liegt das Reservoir [S998808].",
+   "checkable": [
+    "Weg führt von vorn bis in die Ferne [S998808]",
+    "Reservoir ganz rechts [S998808]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib7183fbcbf",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    816031
+   ],
+   "answer_md": "Der untere Teil einer großen Eibe steht mittig im Vordergrund, links dahinter ein Teil des Herrenhauses hinter einer Hecke, rechts ein Baumstamm mit Drehwuchs [S816031].",
+   "checkable": [
+    "Eibe mittig vorn [S816031]",
+    "Herrenhaus links dahinter [S816031]",
+    "Gedrehter Stamm rechts [S816031]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i520a29cb2f",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    760617
+   ],
+   "answer_md": "Blick über die Hochebene mit vier verteilten Bäumen, der nächste an einem Bach; die fernen Berge rechts verschwinden in tiefen Wolken, wodurch die fernsten Bäume hervortreten [S760617].",
+   "checkable": [
+    "Vier Bäume in gestaffelter Tiefe [S760617]",
+    "Berge rechts im Dunst/Wolken [S760617]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i17cf409650",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    486145
+   ],
+   "answer_md": "Muybridge komponierte malerisch: ein sanfter, allmählicher Vordergrund führt zu fernen, aufragenden Felswänden [S486145].",
+   "checkable": [
+    "Wasser und Ufer vorn, Felswände in der Ferne [S486145]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6529d88033",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    465115
+   ],
+   "answer_md": "Unten ein Maschendrahtzaun und Baumaterial, darüber eine Sprite-Plakatwand mit zwei Wasserfällen, darüber die echten Alpen; im gleichen Blauton wirken Wasserfälle und Berge zunächst zusammenhängend [S465115].",
+   "checkable": [
+    "Drei Zonen: Zaun – Plakat – Alpen [S465115]",
+    "Gleicher Blauton in Plakat und Bergen [S465115]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i73c5f80960",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    617607
+   ],
+   "answer_md": "Shore rahmte die Landschaft klassisch mit klar definiertem Vorder-, Mittel- und Hintergrund [S617607].",
+   "checkable": [
+    "Vorne Wasser und Figuren, Mitte Wald, hinten Half Dome [S617607]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic02846fa6d",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    553336,
+    582133
+   ],
+   "answer_md": "Im Hintergrund zeigt ein Plakat eine Tänzerin, die in die entgegengesetzte Richtung springt [S553336]; die Formen im Bild antworten einander und erzeugen Spannung [S582133].",
+   "checkable": [
+    "Plakat mit springender Figur im Hintergrund [S553336]",
+    "Springer und Spiegelbild im Vordergrund [S582133]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2377a54636",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    482953,
+    584573
+   ],
+   "answer_md": "Nahansicht eines Postkartenständers mit elf Sonnenuntergängen [S584573]; oben in der Mitte ist ein Fach leer – gerade diese leere Lücke mit der Wand dahinter zieht den Blick an [S482953].",
+   "checkable": [
+    "Leeres Fach in der oberen Reihe, Mitte [S482953]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1fc4794920",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    856332
+   ],
+   "answer_md": "Die toten Fische liegen unten rechts im Bild [S856332].",
+   "checkable": [
+    "Fische unten rechts [S856332]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6749fddb8d",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    950987
+   ],
+   "answer_md": "Details, die Zeit brauchen: ein ruhig geparktes Auto und ein zweites, zerstörtes, das umgekippt unten in der beige-braunen Landschaft steckt [S950987].",
+   "checkable": [
+    "Geparktes Auto oben, umgestürztes Auto in der Senke [S950987]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idb2e605d79",
+   "dimension": "time_motion",
+   "sources": [],
+   "library_source_ids": [
+    359698
+   ],
+   "answer_md": "Die lange Belichtungszeit, die Höfer für das vorhandene Licht brauchte, ließ die Besucher verschwimmen; sie wirken wie Geistererscheinungen [S359698].",
+   "checkable": [
+    "Menschen unscharf und durchscheinend, Raum scharf [S359698]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ifccce59f5b",
+   "dimension": "time_motion",
+   "sources": [],
+   "library_source_ids": [
+    271343
+   ],
+   "answer_md": "Die hektische Bewegung der Händler gibt dem Bild etwas Verwischtes; Gursky belichtete einige Bereiche doppelt, um den Eindruck von Bewegung zu verstärken [S271343].",
+   "checkable": [
+    "Verwischte, überlagerte Figuren [S271343]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4e1ca0fad9",
+   "dimension": "time_motion",
+   "sources": [],
+   "library_source_ids": [
+    521208
+   ],
+   "answer_md": "Die Mittelzone war leicht unscharf, Vorder- und Hintergrund scharf: Ein Windstoß war wie durch einen Tunnel nur durch den mittleren Bereich gefahren [S521208].",
+   "checkable": [
+    "Mittlere Bildzone weicher als Vorder- und Hintergrund [S521208]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7fd8cb9704",
+   "dimension": "time_motion",
+   "sources": [],
+   "library_source_ids": [
+    662901
+   ],
+   "answer_md": "Der vorbeifahrende Radfahrer erscheint als verwischte Form [S662901].",
+   "checkable": [
+    "Radfahrer bewegungsunscharf, Treppe scharf [S662901]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4a55592e19",
+   "dimension": "focus_plane",
+   "sources": [],
+   "library_source_ids": [
+    510886
+   ],
+   "answer_md": "Burkett nutzte das 800-mm-Objektiv, stellte die Schärfeebene per Rückteil-Tilt parallel zur Wasserfläche und blendete auf f/45 ab, um alles scharf zu bekommen; eine Belichtung, eine Sekunde [S510886].",
+   "checkable": [
+    "Wasserfläche von vorn bis hinten scharf [S510886]",
+    "Weich fließende Spiegelungen (1 s) [S510886]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ieb59cc085e",
+   "dimension": "focus_plane",
+   "sources": [],
+   "library_source_ids": [
+    558003
+   ],
+   "answer_md": "Mit der Großformatkamera stellt Struth alle Elemente gleich scharf dar; die Fenster oben an den Bürotürmen sind so scharf wie Autos und Geländer am Boden [S558003].",
+   "checkable": [
+    "Durchgehende Schärfe von den Autos unten bis zu den obersten Fenstern [S558003]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6c7f99d0a3",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    307249,
+    817713
+   ],
+   "answer_md": "Die Natur ist auf gesättigte Bänder aus Gelb, Blau und Braun reduziert, abgesetzt durch eine dünne rote Mohnlinie [S307249]; die Wirkung ist eine strenge Einfachheit, ähnlich einem formalistischen Gemälde [S817713].",
+   "checkable": [
+    "Waagerechte Farbbänder Gelb, Blau, Braun [S307249]",
+    "Dünne rote Linie [S307249]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4e1ca0fad9",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    911181
+   ],
+   "answer_md": "Die blauen Bäume waren auch für Waites Auge blau – ein wunderbares Phänomen, nicht bloß eine Eigenheit des Materials [S911181].",
+   "checkable": [
+    "Blaugraue Stämme und Äste [S911181]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2377a54636",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    584573
+   ],
+   "answer_md": "Der Cibachrome-Abzug glüht von den übersteigerten Orange- und Gelbtönen der Sonnenuntergangs-Postkarten [S584573].",
+   "checkable": [
+    "Orange und Gelb dominieren [S584573]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i8fbeb4c2fe",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    852998
+   ],
+   "answer_md": "Die gedämpfte Palette – weiche Sandgelb-Töne, graue Himmel, blasse Grüns – vermittelt Majestät und Ruhe [S852998].",
+   "checkable": [
+    "Sandgelb und Grau, kaum gesättigte Farben [S852998]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "idd43ebb5ff",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    537786
+   ],
+   "answer_md": "Menschen wirken in Zhangs Bildern im Vergleich zur Umgebung oft winzig; trotzdem funktioniere die Szene ohne sie nicht [S537786].",
+   "checkable": [
+    "Winzige Figur auf der Sandinsel [S537786]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ia53b3af771",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    445890
+   ],
+   "answer_md": "Der Fluss lässt die Menschen, die von ihm abhängen, stets klein wirken [S445890].",
+   "checkable": [
+    "Zwei kleine Figuren am Gebäude über dem breiten Fluss [S445890]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "iaa1ad6ed22",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    822648
+   ],
+   "answer_md": "Zhangs weite Aufnahmen setzen die Landschaft ins Verhältnis zu ihren Bewohnern, die im Vergleich winzig erscheinen [S822648].",
+   "checkable": [
+    "Kleine Figuren im Wasser neben dem Bauwerk [S822648]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i55e4722bf6",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    192138
+   ],
+   "answer_md": "Das Fort auf dem Berggipfel ist von den umgebenden Felsformationen kaum zu unterscheiden; in der Ferne eine Bergkette, unten rechts ein Fluss [S192138].",
+   "checkable": [
+    "Fort kaum von den Felsen zu unterscheiden [S192138]",
+    "Bergkette in der Ferne [S192138]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1c86e8ee57",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    664474
+   ],
+   "answer_md": "Ab 1973 trat Gohlke von den Silos zurück, um die Luft um sie und das Land, auf dem sie stehen, zu zeigen [S664474].",
+   "checkable": [
+    "Viel Boden im Vordergrund, Himmel um die Silos [S664474]"
+   ],
+   "scope_note": "Szarkowski beschreibt Gohlkes Entwicklung ab 1973."
+  },
+  {
+   "image_id": "i308cf730a0",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    603160
+   ],
+   "answer_md": "Sambunaris trat weiter zurück: Spuren menschlicher Anwesenheit sind sichtbar, aber das Land beherrscht den größten Teil des Bildes [S603160].",
+   "checkable": [
+    "Straße und Anlagen klein, Land füllt den Großteil des Bildes [S603160]"
+   ],
+   "scope_note": "Die Quelle beschreibt Methode bzw. Serie; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i3860f5745f",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    408337
+   ],
+   "answer_md": "Der Blick aus der Distanz zeigt das Ausmaß menschlicher Eingriffe und setzt sie in den Kontext der umgebenden Landschaft [S408337].",
+   "checkable": [
+    "Anlage als Ganzes mit umgebender Landschaft [S408337]"
+   ],
+   "scope_note": ""
+  }
+ ]
+}

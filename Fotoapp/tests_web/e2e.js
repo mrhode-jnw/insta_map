@@ -240,7 +240,9 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   // Learning round
   await page.goto(`${base}/Fotoapp/#/lernen`); await waitText("Runde starten");
   await page.selectOption('select[name="look"]', "0"); await page.click('form[data-action="learn-start"] button');
-  await waitText("Wo stand der Fotograf?");
+  await waitText("Wo stand der Fotograf?").catch(async e => {
+    console.log("DIAG hash", await page.evaluate(() => location.hash), "main:", (await page.evaluate(() => document.querySelector("#main").innerText)).slice(0, 300).replace(/\n/g, " | "));
+    throw e; });
   ok(await page.$('input[name="q_extra_label"]') !== null, "fifth rotating question present");
   await page.fill('textarea[name="q_position"]', "Von unten"); const t0 = Date.now(); await page.click("#questions button");
   await waitText("Deine Antworten"); ok(Date.now() - t0 < 1500, "reveal opens immediately (AI runs in background)");

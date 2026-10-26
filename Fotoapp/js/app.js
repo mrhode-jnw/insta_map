@@ -695,7 +695,9 @@ const routes = [
 ];
 
 // keep=true: background results re-render the page in place without jumping to the top.
+let renderSeq = 0;
 async function route(keep = false) {
+  const ticket = ++renderSeq, hashAtStart = location.hash;
   const [path, query = ""] = location.hash.replace(/^#/, "").split("?");
   const params = new URLSearchParams(query);
   for (const [re, fn] of routes) {
@@ -703,13 +705,20 @@ async function route(keep = false) {
     if (!m) continue;
     const y = window.scrollY;
     // keep what the user is typing when the page re-renders in place
-    const typed = keep ? [...main().querySelectorAll("textarea")].map(t => [t.closest("form")?.dataset.action + "|" + t.name, t.value]) : [];
+    const typed = keep ? [...main().querySelectorAll("form [name]")].map(t => [`${t.closest("form").dataset.action}|${t.name}|${t.type === "radio" ? t.value : ""}`,
+      t.type === "radio" || t.type === "checkbox" ? t.checked : t.value]) : [];
     if (!keep) main().innerHTML = `<p class="muted">Lädt …</p>`;
     try {
       const html = await fn(m, params);
+      // a slower, older render (e.g. a background re-render) must not overwrite a newer page
+      if (ticket !== renderSeq || location.hash !== hashAtStart) return;
       if (html !== "") {
         main().innerHTML = html; hydrate();
-        for (const [k, v] of typed) { const [a, n] = k.split("|"); const t = main().querySelector(`form[data-action="${a}"] textarea[name="${n}"]`); if (t && v) t.value = v; }
+        for (const [k, v] of typed) {
+          const [a, n, rv] = k.split("|"), sel = `form[data-action="${a}"] [name="${n}"]${rv ? `[value="${CSS.escape(rv)}"]` : ""}`, t = main().querySelector(sel);
+          if (!t) continue;
+          if (t.type === "radio" || t.type === "checkbox") t.checked = v; else if (t.tagName === "TEXTAREA" ? v : true) t.value = v;
+        }
         window.scrollTo(0, keep ? y : 0);
       }
     } catch (e) { console.error(e); main().innerHTML = `<p class="error">${esc(e.message)}</p>`; }
