@@ -1,0 +1,678 @@
+{
+ "accessed_at": "2026-10-26",
+ "references": [
+  {
+   "image_id": "ib01bcf3028",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Eventually, a short lull in both the gusts of the wind and the traffic came together at the same time, and I was able to expose the film. Wanting to be sure of the sharpness of the exposure, I repeated the whole waiting procedure a second time and exposed a second piece of film."
+    }
+   ],
+   "library_source_ids": [
+    244307
+   ],
+   "answer_md": "Böen und der Verkehr ließen die Brücke, auf der die Kamera stand, schwanken; Burkett wartete nach jeder Böe etwa 40 Sekunden, bis sie sich beruhigt hatte [S244307]. Belichtet hat er erst in einer Pause von Wind und Verkehr, und um sicher eine scharfe Belichtung zu haben, wiederholte er das Warten für ein zweites Blatt Film [Q1].",
+   "checkable": [
+    "Kein Verwackeln trotz schwankender Brücke: Canyonwände und Fluss bis in die Tiefe scharf [Q1][S244307]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ice7056e3c3",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Because I didn't want to miss the image by waiting a few seconds too long I exposed one piece of Velvia 50 film for 6 seconds just before the sun got to the edge of the scene."
+    },
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Fortunately Ruth had another film holder ready that I popped into the camera, took a quick spot meter reading and made an exposure at f/64 for 2 seconds."
+    },
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "There is also the visual contrast between the mirror like stillness of the pond and the hard edges of the frosted grasses and beaver lodge sticks. We were grateful the beaver family had slept in a bit on that chilly morning, keeping the pond perfectly reflective."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Burkett belichtete mehrere Sekunden: zuerst 6 Sekunden, nach einem hängenden Verschluss ein zweites Blatt mit 2 Sekunden bei f/64 [Q1][Q2]. Weil die Biber noch schliefen, blieb der Teich trotzdem spiegelglatt – im Kontrast zu den harten Kanten der bereiften Gräser und Äste [Q3].",
+   "checkable": [
+    "Teichoberfläche spiegelglatt, ohne Wellen oder Verwischung [Q3]",
+    "Bereifte Gräser und Äste des Biberbaus mit harten, scharfen Kanten [Q3]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i73c5f80960",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    142772
+   ],
+   "answer_md": "Die Menschen am Fluss wirken wie in der Zeit angehalten, ihre Schatten fallen wie bei Sonnenuhren – laut Campany nicht nur eine Wirkung des Verschlusses, sondern der zufälligen formalen Vollkommenheit der Figuren [S142772].",
+   "checkable": [
+    "Figuren stehen wie eingefroren am Wasser, ihre Schatten wie Zeiger einer Sonnenuhr [S142772]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic02846fa6d",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    553336
+   ],
+   "answer_md": "Der Verschluss der Leica hält den Sprung genau in dem Augenblick fest, bevor die rechte Ferse des Mannes die spiegelnde Wasserfläche berührt [S553336].",
+   "checkable": [
+    "Springer in der Luft eingefroren, die Ferse knapp über dem Wasser [S553336]",
+    "Plakat im Hintergrund mit einer in Gegenrichtung springenden Tänzerin [S553336]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2b6528e713",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://www.atlasgallery.com/exhibition/hiroshi-sugimoto-seascapes",
+     "title": "Hiroshi Sugimoto: Seascapes – Atlas Gallery",
+     "author": "Atlas Gallery",
+     "kind": "curator",
+     "excerpt": "Often using long exposures, Sugimoto thus creates painterly images where clouds and waves are blurred in a timeless meditation"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Sugimoto arbeitet oft mit Langzeitbelichtungen, durch die Wolken und Wellen verwischen und malerisch wirken [Q1].",
+   "checkable": [
+    "Wolkenbänder am Himmel weich verwischt, ohne scharfe Konturen [Q1]",
+    "Wasserfläche ohne einzelne Wellenkämme [Q1]"
+   ],
+   "scope_note": "Galerietext zur ganzen Seascapes-Serie, nicht zu diesem Bild; Rishiri Island zeigt die beschriebene Verwischung der Wolken deutlich."
+  },
+  {
+   "image_id": "ic6657e5ef6",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://thisispaper.com/mag/cape-light-joel-meyerowitz",
+     "title": "Cape Light by Joel Meyerowitz – Thisispaper",
+     "author": "Hitoshi Arato (Thisispaper)",
+     "kind": "magazine",
+     "excerpt": "Laundry snaps on a line in Provincetown, orange and pink against striped blue, held long enough for the wind to smear it."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Belichtung der Wäscheleine in Provincetown war lang genug, dass der Wind die flatternde Wäsche verwischt [Q1].",
+   "checkable": [
+    "Orange, rosa und blau gestreifte Wäschestücke vom Wind verwischt [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie8e1600144",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://bau-xi.com/blogs/exhibitions/michael-kenna-japan",
+     "title": "Michael Kenna | Japan – Bau-Xi Gallery",
+     "author": "Bau-Xi Gallery",
+     "kind": "curator",
+     "excerpt": "By using regional atmospheric elements—such as mist, fog, rain, and snow—and long exposures, Kenna simplifies the landscape into its most basic form."
+    }
+   ],
+   "library_source_ids": [
+    980340
+   ],
+   "answer_md": "Kenna arbeitet oft im Morgengrauen oder nachts mit Langzeitbelichtungen, manche bis zu zehn Stunden [S980340]; mit Nebel, Schnee und langen Belichtungen vereinfacht er die Landschaft auf ihre Grundform [Q1].",
+   "checkable": [
+    "Meer um das Tor als glatte, gleichmäßige Fläche – Landschaft auf Grundformen vereinfacht [Q1][S980340]"
+   ],
+   "scope_note": "Beide Quellen beschreiben Kennas Arbeitsweise allgemein, nicht dieses Bild; die glatt verlaufene Wasserfläche zeigt die Langzeitwirkung."
+  },
+  {
+   "image_id": "i7fe123d22e",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://bau-xi.com/blogs/exhibitions/michael-kenna-japan",
+     "title": "Michael Kenna | Japan – Bau-Xi Gallery",
+     "author": "Bau-Xi Gallery",
+     "kind": "curator",
+     "excerpt": "By using regional atmospheric elements—such as mist, fog, rain, and snow—and long exposures, Kenna simplifies the landscape into its most basic form."
+    }
+   ],
+   "library_source_ids": [
+    980340
+   ],
+   "answer_md": "Kenna arbeitet oft im Morgengrauen oder nachts mit Langzeitbelichtungen, manche bis zu zehn Stunden [S980340]; mit langen Belichtungen vereinfacht er die Landschaft auf ihre Grundform [Q1].",
+   "checkable": [
+    "Wolken als lang gezogene, verwischte Streifen, der See glatt [Q1][S980340]"
+   ],
+   "scope_note": "Beide Quellen beschreiben Kennas Arbeitsweise allgemein, nicht dieses Bild; die gestreckten Wolken zeigen die Langzeitwirkung."
+  },
+  {
+   "image_id": "i861ba6c39d",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    810555,
+    867217
+   ],
+   "answer_md": "Parr baut eine satirische Erzählung, kommentiert den Tourismus aber ohne moralischen Unterton – er hält einen Spiegel hin: „Seht euch diesen Zirkus an“ [S810555]. Sein Thema ist die Lücke zwischen dem Mythos der Sehenswürdigkeit und ihrer Wirklichkeit [S867217].",
+   "checkable": [
+    "Touristen mit erhobenen Händen, als stützten sie den schiefen Turm [S810555]",
+    "Der Turm nur als Kulisse, die Posierenden sind das Motiv [S867217]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i8065e5cd18",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    161937,
+    378373
+   ],
+   "answer_md": "Parr fotografiert nicht das Gemälde, sondern die Menschen davor, die es fotografieren [S161937]; Smartphones und Selfies nimmt er als Material: „I take advantage of everything that's going on“ [S378373].",
+   "checkable": [
+    "Erhobene Hände mit Handys im Vordergrund, die Mona Lisa nur klein dahinter [S161937][S378373]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic1f0bb7e6b",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    651717
+   ],
+   "answer_md": "In Small World zeigt Parr mit Humor Menschen, die fotografiert werden oder selbst fotografieren [S651717].",
+   "checkable": [
+    "Kinder mit Kameras vor dem Souvenirstand – Fotografieren als Bildthema [S651717]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ibf23b82a61",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    584390
+   ],
+   "answer_md": "Die Bilder sind ein spielerischer Blick vor allem auf westliche Touristen, die Teil von etwas Größerem sein wollen [S584390].",
+   "checkable": [
+    "Westliche Badegäste am Strand als Hauptfiguren [S584390]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i41d67c87cc",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    634055
+   ],
+   "answer_md": "Parr will nicht das übliche Urlaubsfoto, sondern den Tourismus selbst zeigen – den Durchschnittstouristen, der wir alle sind [S634055].",
+   "checkable": [
+    "Ein Tourist von hinten im Vordergrund, die Sphinx dahinter [S634055]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i77eba327a0",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    133035
+   ],
+   "answer_md": "Parr zeigt den Widerspruch, dass wir Touristen auf der Suche nach Authentizität genau die Kräfte sind, die sie verschwinden lassen, und einen einst unerreichbaren Traum auf Abruf konsumieren [S133035].",
+   "checkable": [
+    "Postkartenständer mitten auf der Skipiste – die Landschaft als Konsumgut [S133035]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ia236f1faa8",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    225721
+   ],
+   "answer_md": "Small World hält einen besonders grausamen Spiegel vor: die Kritik am Tourismus als modernem Imperialismus ist in fröhliche Farben und humorvolle Szenen verpackt [S225721].",
+   "checkable": [
+    "Leuchtend roter Schirm über der Menge – heitere Farbe statt Anklage [S225721]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idb2e605d79",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    289364
+   ],
+   "answer_md": "Das Bild enthält einen visuellen Witz: an der hinteren Wand der barocken Bibliothek hängt ein großes Fotografierverbot-Schild [S289364].",
+   "checkable": [
+    "Großes modernes Verbotsschild an der Rückwand des Barocksaals [S289364]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1fc4794920",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    856332,
+    691601
+   ],
+   "answer_md": "Misrach macht üppige, schöne Fotografien oft schrecklicher Gegenstände [S691601]; die Reste im Salton Sea sind seltsame, oft ironische Mahnmale menschlicher Torheit, die tote Fische verweisen auf das Sterben im See – Landschaft als politisches Engagement [S856332].",
+   "checkable": [
+    "Tote Fische unten rechts im Bild [S856332]",
+    "Aus dem Wasser ragende Reste menschlicher Bauten [S856332]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4e72e266cc",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    559046,
+    425319
+   ],
+   "answer_md": "Der Salton Sea hinterließ seltsame, oft ironische Mahnmale menschlicher Torheit, die aus dem Wasser ragen [S559046]. Misrach setzt auf Schönheit als Träger schwieriger Ideen, damit man nicht wegschaut [S425319].",
+   "checkable": [
+    "Straßenlaterne steht mitten im Wasser [S559046]",
+    "Ruhige, schöne Lichtstimmung über einem Bild der Zerstörung [S425319]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if2dbf42717",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    738953,
+    158532
+   ],
+   "answer_md": "Der Krater mit blutfarbenem Wasser wirkt wie eine offene Wunde [S738953]; die verstörende Komposition hat dennoch formale Eleganz – Misrach glaubt, Schönheit transportiere schwierige Ideen [S158532].",
+   "checkable": [
+    "Bombenkrater mit rotem Wasser, verstreute verrostete Fahrzeugreste [S738953]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ieb24cfbe7a",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    225058,
+    848286
+   ],
+   "answer_md": "Misrachs Bilder aus der „Cancer Alley“ verführen mit schöner Komposition und Farbe, fordern aber zugleich heraus, die Folgen der Umweltzerstörung zu bedenken [S225058]. Der Kritiker fragt angesichts des Kruzifixes vor der Chemieanlage: „Büßt er für unsere Umweltsünden?“ [S848286]",
+   "checkable": [
+    "Kruzifix auf dem Friedhof vor der Industrieanlage, darüber dunkle Wolken [S848286]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ia79aaaf868",
+   "dimension": "attitude",
+   "sources": [
+    {
+     "url": "https://www.featureshoot.com/2020/03/nick-brandts-devastating-portrait-of-africa-on-the-brink-of-a-perilous-new-world/",
+     "title": "Nick Brandt’s Devastating Portrait of Africa on the Brink of a Perilous New World – Feature Shoot",
+     "author": "Feature Shoot",
+     "kind": "magazine",
+     "excerpt": "Between 2014 and 2015, Brandt created Inherit the Dust, a series of unreleased portraits of animals made in years prior that were then printed life-size, glued on panels, and placed in areas of African where they once roamed but no longer do as urban development is moving at an explosive pace."
+    },
+    {
+     "url": "https://www.featureshoot.com/2020/03/nick-brandts-devastating-portrait-of-africa-on-the-brink-of-a-perilous-new-world/",
+     "title": "Nick Brandt’s Devastating Portrait of Africa on the Brink of a Perilous New World – Feature Shoot",
+     "author": "Nick Brandt (Interview, Feature Shoot)",
+     "kind": "photographer",
+     "excerpt": "Most of the people, struggling to survive on a daily basis, had far more important things to think about than some crazy white guy putting giant photos of elephants up in the middle of the landscape."
+    }
+   ],
+   "library_source_ids": [
+    616939
+   ],
+   "answer_md": "Das Bild ist inszeniert: Brandt ließ ältere Tierporträts lebensgroß drucken, auf Tafeln kleben und dort aufstellen, wo diese Tiere nicht mehr leben [Q1]. Die Menschen in den Bildern sieht er selbst als Opfer der Umweltzerstörung [S616939]; die meisten hatten im Überlebenskampf Wichtigeres zu tun, als sich um den „verrückten Weißen“ mit den Riesenfotos zu kümmern [Q2].",
+   "checkable": [
+    "Gepardenporträt als aufgestellte Tafel auf der Müllhalde [Q1]",
+    "Kinder auf dem Müllberg als Teil der Szene [S616939]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i8ff31c81ad",
+   "dimension": "attitude",
+   "sources": [
+    {
+     "url": "https://www.featureshoot.com/2020/03/nick-brandts-devastating-portrait-of-africa-on-the-brink-of-a-perilous-new-world/",
+     "title": "Nick Brandt’s Devastating Portrait of Africa on the Brink of a Perilous New World – Feature Shoot",
+     "author": "Feature Shoot",
+     "kind": "magazine",
+     "excerpt": "Between 2014 and 2015, Brandt created Inherit the Dust, a series of unreleased portraits of animals made in years prior that were then printed life-size, glued on panels, and placed in areas of African where they once roamed but no longer do as urban development is moving at an explosive pace."
+    },
+    {
+     "url": "https://www.featureshoot.com/2020/03/nick-brandts-devastating-portrait-of-africa-on-the-brink-of-a-perilous-new-world/",
+     "title": "Nick Brandt’s Devastating Portrait of Africa on the Brink of a Perilous New World – Feature Shoot",
+     "author": "Nick Brandt (Interview, Feature Shoot)",
+     "kind": "photographer",
+     "excerpt": "Most of the people, struggling to survive on a daily basis, had far more important things to think about than some crazy white guy putting giant photos of elephants up in the middle of the landscape."
+    }
+   ],
+   "library_source_ids": [
+    232272
+   ],
+   "answer_md": "Inszeniert: Das Zebra ist ein lebensgroß gedrucktes älteres Tierporträt, auf Tafeln geklebt und an der Fabrikstraße aufgestellt [Q1]. Die Menschen darin versteht Brandt als ebenfalls Betroffene der Umweltzerstörung [S232272]; sie beachteten seine Riesenfotos kaum [Q2].",
+   "checkable": [
+    "Zebra-Tafel steht neben Bahngleis und Straße [Q1]",
+    "Menschen am Rand gehen ihren eigenen Dingen nach [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iaa8c1a5e38",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    408179
+   ],
+   "answer_md": "Drake hatte sich mit der Familie angefreundet und ließ sie auf ihr Foto zeichnen; der Vater verweigerte es aus religiösen Gründen, Sohn und Frau zeichneten – und Drake fragt selbst, für wen und über wen die Zeichnungen sind [S408179].",
+   "checkable": [
+    "Kinderzeichnungen (Haus, Figuren) direkt auf dem Foto der Gasse [S408179]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i341db8a11b",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    238543
+   ],
+   "answer_md": "Weil Reportagefotografie dort nicht zur Bildsprache gehört, bat Drake Menschen, mit Stickerei und Schnitzwerkzeug in ihre Bilder einzugreifen; das Projekt wurde „mehr über uns zusammen“ [S238543].",
+   "checkable": [
+    "Mit Werkzeug eingearbeiteter Baum und Vogelzug auf dem Abzug [S238543]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib4d86934fb",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    378626
+   ],
+   "answer_md": "Ein han-chinesischer Jadeschnitzer beschriftete das Foto der uigurischen Jadesucher; Drake ist zwiespältig, dass ausgerechnet dieses Bild das Projekt repräsentiert, das uigurische Perspektiven stärken will [S378626].",
+   "checkable": [
+    "Handschriftliche chinesische Inschrift rund um das Foto [S378626]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i494d0bc238",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    432347
+   ],
+   "answer_md": "Drake arbeitete in einem lyrisch-dokumentarischen Modus und rang darum, sich außerhalb kolonialer Muster zu stellen, in denen Westler das „Andere“ definieren [S432347].",
+   "checkable": [
+    "Lyrisch-metaphorisches Bild statt erklärender Dokumentation [S432347]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1740508527",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    717811
+   ],
+   "answer_md": "Depoorter geht es nicht darum, wie Menschen leben, sondern um Intimität – zwischen den Familienmitgliedern und zwischen ihnen und ihr [S717811].",
+   "checkable": [
+    "Private Szene im Schlafzimmer, Frau im Nachthemd vor dem Spiegel [S717811]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib02aaf8ff8",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    653631
+   ],
+   "answer_md": "Ohne gemeinsame Sprache verständigt sich Depoorter anders; sehr schnell sehen die Gastgeber sie nicht mehr als Fremde [S653631].",
+   "checkable": [
+    "Familie zeigt sich unbefangen und nah vor der Kamera [S653631]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i8898939306",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    191908,
+    680403
+   ],
+   "answer_md": "Das Wohnzimmer stellt den intimen Kontakt her; für einen Moment war Depoorter Teil davon, das Sofa wurde ihr Bett [S191908]. Weil sie nur kurz blieb, öffneten sich die Menschen ihr, bis zum Essen und Trinken mit der Familie am Tisch [S680403].",
+   "checkable": [
+    "Familie am gedeckten Tisch im Wohnzimmer [S680403][S191908]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "icfda0b23b2",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    261607,
+    313613
+   ],
+   "answer_md": "Soths Schüchternheit und die große Plattenkamera entwaffneten seine Gegenüber und öffneten ihm private Räume [S261607]; er gewann ihr Vertrauen – Peter, der auf dem Hausboot lebte, erzählte ihm seinen Traum von fließendem Wasser [S313613].",
+   "checkable": [
+    "Peters Hausboot als privater Lebensraum statt Porträt der Person [S313613][S261607]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib82dcb1cae",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    263234
+   ],
+   "answer_md": "Soth betont, dass seine Bilder nur das Äußere der Menschen an einem bestimmten Tag zeigen; er glaubt nicht, dass Fotografie eine tiefe Wahrheit über einen Menschen vermitteln kann [S263234].",
+   "checkable": [
+    "Das Bild zeigt nur das Äußere von Mutter und Tochter an einem bestimmten Tag [S263234]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie1f9940d97",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    365373,
+    485819
+   ],
+   "answer_md": "Gruyaert stieß in Marokko oft auf Ablehnung; der Moment des Auslösens kann als Aggression empfunden werden [S365373]. Verhüllte Gesichter geben den Menschen für ihn eine eigene visuelle Kraft, eine Präsenz ohne Etikett und Identität [S485819].",
+   "checkable": [
+    "Gesicht der Frau vom Krug verdeckt – Person ohne sichtbare Identität [S485819]"
+   ],
+   "scope_note": "S485819 spricht allgemein über verhüllte Gesichter in Gruyaerts Marokko-Bildern."
+  },
+  {
+   "image_id": "i9a6e1ac0ae",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    241222
+   ],
+   "answer_md": "Die Frau wollte ihr Gesicht nicht zeigen und drehte sich weg – und gab Gruyaert damit unabsichtlich den Blick auf das Kind auf ihrem Rücken, von dem er nichts wusste [S241222].",
+   "checkable": [
+    "Frau abgewandt, das Kind im gestreiften Tuch auf ihrem Rücken sichtbar [S241222]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i551eb9e87c",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    485819
+   ],
+   "answer_md": "Für Gruyaert geben verhüllte Gesichter den Menschen große visuelle Kraft: eine Präsenz ohne Gesicht, reduziert auf die Form eines bedeckten Körpers, ohne Etikett und Identität [S485819].",
+   "checkable": [
+    "Träger hinter dem Reisigbündel, kein Gesicht sichtbar [S485819]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id5d981907d",
+   "dimension": "attitude",
+   "sources": [
+    {
+     "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+     "title": "10 Facts about the Photographer Who Documented 1950s and 60s Hong Kong – M+ Magazine",
+     "author": "M+ (Ellen Oredsson)",
+     "kind": "museum",
+     "excerpt": "but he also loved to stage his photographs."
+    }
+   ],
+   "library_source_ids": [
+    419197
+   ],
+   "answer_md": "Fan Ho fotografierte nicht nur spontan, er inszenierte auch gern [Q1]: Die Figuren in diesem Bild sind seine Kommilitonen, geführt mit dem Talent eines künftigen Filmregisseurs [S419197].",
+   "checkable": [
+    "Drei Silhouetten in den Fenstern als gespielte Szene von Studienkollegen [S419197]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1af4efe118",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    229639
+   ],
+   "answer_md": "Struth arbeitete mit einem strengen Formsystem, oft mitten auf der Straße, und suchte Ansichten, die eine Stadt aus emotional distanzierter Perspektive „zusammenfassen“ [S229639].",
+   "checkable": [
+    "Ansicht, die die Stadt als Ganzes zusammenfasst, aus emotional distanzierter Perspektive [S229639]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i80b586506d",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    532448
+   ],
+   "answer_md": "Baltz wollte keinen Stil und keinen Standpunkt zeigen; die Bilder sollten so stumm und distanziert wie möglich wirken – wie von einem Anthropologen aus einem anderen Sonnensystem [S532448].",
+   "checkable": [
+    "Nüchterne, frontale Fassadenansicht ohne Kommentar [S532448]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id378960c2e",
+   "dimension": "attitude",
+   "sources": [
+    {
+     "url": "https://huxleyparlour.com/critical-texts/joel-sternfelds-mclean-virginia/",
+     "title": "Joel Sternfeld: McLean, Virginia – Huxley-Parlour",
+     "author": "Huxley-Parlour",
+     "kind": "curator",
+     "excerpt": "Joel Sternfeld's work is characterised by its attention to societal issues, delicately balanced with a subtle irony and humour."
+    },
+    {
+     "url": "https://huxleyparlour.com/critical-texts/joel-sternfelds-mclean-virginia/",
+     "title": "Joel Sternfeld: McLean, Virginia – Huxley-Parlour",
+     "author": "Huxley-Parlour",
+     "kind": "curator",
+     "excerpt": "Sternfeld had spotted the scene while travelling across America in his Volkswagon van, choosing to capture this shot with ambiguity. Certainly, Sternfeld makes no attempt to mediate his audience's unrest, titling the photograph only by its location and date, leaving viewers to their dismay."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Sternfelds Werk verbindet gesellschaftliche Themen mit leiser Ironie und Humor [Q1]. Die Szene – ein Feuerwehrmann kauft Kürbisse, während dahinter ein Haus brennt – hält er bewusst mehrdeutig und erklärt nichts; der Titel nennt nur Ort und Datum [Q2].",
+   "checkable": [
+    "Feuerwehrmann beim Kürbisstand im Vordergrund, brennendes Haus dahinter [Q2]",
+    "Keine Erklärung im Bild oder Titel – nur Ort und Datum [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i5afdcfbda0",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    528434,
+    760973
+   ],
+   "answer_md": "Das Bild ist formal streng im Raster der Fenster, zugleich aber eine entschiedene Konfrontation mit der Rassentrennung [S760973]: vorn weiße Fahrgäste, darunter eine Frau mit verächtlichem Blick, hinten ein Schwarzer Mann und eine Schwarze Frau [S528434].",
+   "checkable": [
+    "Weiße Fahrgäste in den vorderen Fenstern, Schwarze Fahrgäste hinten [S528434]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idd43ebb5ff",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    763808,
+    537786
+   ],
+   "answer_md": "Zhang wollte den Fluss „respektvoll“ fotografieren, er stehe für die Wurzel der Nation [S763808]. Die Menschen sind winzig, aber für ihn bedeutsam: ohne sie funktioniert die Szene nicht [S537786].",
+   "checkable": [
+    "Winzige Figur auf der Sandinsel, trotzdem Mittelpunkt der Szene [S537786]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1deea9af2d",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    244153
+   ],
+   "answer_md": "Arnolds China-Porträts sind formell posiert, zeigen die Vielfalt der Menschen und ruhige, alltägliche Momente, die intim, universell und einfühlsam sind [S244153].",
+   "checkable": [
+    "Ruhiger, alltäglicher Moment im Zeichensaal statt dramatischer Szene [S244153]"
+   ],
+   "scope_note": "Kuratorentext zu Arnolds China-Portfolio insgesamt."
+  },
+  {
+   "image_id": "i43ffe1086c",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    745545
+   ],
+   "answer_md": "Shore betrachtet die gebaute Umwelt Amerikas nüchtern-trocken („deadpan“); die unspektakuläre Straßenecke wird durch seine Aufmerksamkeit für Schilder, Architektur und Muster bedeutsam [S745545].",
+   "checkable": [
+    "Gewöhnliche Kreuzung ohne Ereignis, Schilder und Fassaden gleichwertig im Bild [S745545]"
+   ],
+   "scope_note": ""
+  }
+ ]
+}
