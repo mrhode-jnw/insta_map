@@ -98,7 +98,7 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
     claudeCalls.push({ provider: "anthropic", body, headers: h });
     if (h["anthropic-dangerous-direct-browser-access"] !== "true" || h["x-api-key"] !== "sk-ant-test") return r.fulfill({ status: 401, body: "{}" });
     await new Promise(res => setTimeout(res, 600)); // simulate model latency
-    const text = fakeText(body.output_config?.format?.schema, body.system, body.messages[0].content.find?.(c => c.type === "text")?.text || "");
+    const text = fakeText(body.output_config?.format?.schema, body.system, (Array.isArray(body.messages[0].content) ? body.messages[0].content.filter(c => c.type === "text").map(c => c.text).join("\n") : body.messages[0].content));
     return r.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify({ model: body.model, stop_reason: "end_turn", content: [{ type: "text", text }] }) });
   });
   await page.route("https://api.openai.com/**", async r => {
@@ -107,7 +107,7 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
     if (h.authorization !== "Bearer sk-openai-test") return r.fulfill({ status: 401, body: "{}" });
     const user = body.messages[1].content;
     await new Promise(res => setTimeout(res, 600));
-    const text = fakeText(body.response_format?.json_schema?.schema, body.messages[0].content, user.find(c => c.type === "text")?.text || "");
+    const text = fakeText(body.response_format?.json_schema?.schema, body.messages[0].content, (Array.isArray(user) ? user.filter(c => c.type === "text").map(c => c.text).join("\n") : user));
     return r.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify({ model: body.model, choices: [{ finish_reason: "stop", message: { content: text } }] }) });
   });
 
@@ -183,11 +183,13 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   if (PROVIDER === "anthropic") {
     const an = claudeCalls.find(c => c.body.output_config?.format);
     ok(an.body.messages[0].content[0].type === "image" && an.body.messages[0].content[0].source.data.length > 1000, "analysis request carries the decrypted image");
+    ok(an.body.messages[0].content.filter(c => c.type === "image").length === 2 && an.body.messages[0].content.some(c => c.text?.includes("Messraster")), "analysis gets the image plus a grid copy");
     ok(an.headers["anthropic-beta"] === "server-side-fallback-2026-07-01" && an.body.fallbacks === "default", "fallback enabled");
     ok(an.body.output_config.format.schema.additionalProperties === false, "strict JSON schema sent");
   } else {
     const an = claudeCalls.find(c => c.body.response_format);
     ok(an.body.messages[1].content[0].type === "image_url" && an.body.messages[1].content[0].image_url.url.startsWith("data:image/jpeg;base64,/9j/"), "analysis request carries the decrypted image (OpenAI)");
+    ok(an.body.messages[1].content.filter(c => c.type === "image_url").length === 2 && an.body.messages[1].content.some(c => c.text?.includes("Messraster")), "analysis gets the image plus a grid copy (OpenAI)");
     ok(an.body.response_format.json_schema.strict === true && an.body.response_format.json_schema.schema.additionalProperties === false, "strict JSON schema sent (OpenAI)");
     ok(an.body.model === "gpt-test" && an.body.messages[0].role === "system", "model and system prompt from config");
   }

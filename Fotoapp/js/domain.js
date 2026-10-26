@@ -125,6 +125,8 @@ const str = { type: "string" };
 const CONSTRUCTION_KEYS = CONSTRUCTION_LABELS.map(([k]) => k);
 const obj = props => ({ type: "object", properties: props, required: Object.keys(props), additionalProperties: false });
 const ANALYSIS_PROPS = {
+  // first: where the key things sit on the 10x10 grid, so every later position claim is anchored
+  layout: { type: "array", items: obj({ thing: str, where: str }) },
   seen: str,
   construction: obj(Object.fromEntries(CONSTRUCTION_KEYS.map(k => [k, str]))),
   context: obj({ sourced: { type: "array", items: obj({ text: str, source_ids: { type: "array", items: { type: "integer" } } }) }, assessment: str }),
@@ -145,7 +147,7 @@ export const FEEDBACK_SCHEMA = obj({
 export const clampScores = fb => ({ ...fb, hit: Math.max(0, Math.min(5, fb.hit | 0)), precision: Math.max(0, Math.min(5, fb.precision | 0)),
   per_question: (fb.per_question || []).map(q => ({ ...q, points: Math.max(0, Math.min(5, q.points | 0)) })) });
 export const REVISION_SCHEMA = obj({ ...ANALYSIS_PROPS, deviations: { type: "array", items: obj({ field: str, reason: str }) } });
-const ANALYSIS_PROMPT = "analysis_v5", REVISION_PROMPT = "analysis_revision_v2";
+const ANALYSIS_PROMPT = "analysis_v6", REVISION_PROMPT = "analysis_revision_v2";
 
 // Drop sourced statements without a valid source id (principle: no fact without a source).
 export function enforceSources(data, allowedIds) {
@@ -199,7 +201,7 @@ async function doGenerateAnalysis(img, regenerate, objection = "") {
   if (current && objection) text += `\n\n<objection>\n${objection}\n</objection>`;
   const res = await ai({
     system, schema: current ? REVISION_SCHEMA : ANALYSIS_SCHEMA, thorough: true,
-    content: [{ type: "image", source: { type: "base64", media_type: "image/jpeg", data: await mediaBase64(img.id) } }, { type: "text", text }],
+    content: [...await imageBlocks(img), { type: "text", text }],
   });
   const data = enforceSources(res.data, new Set(srcs.map(s => s.id)));
   const entry = { version: (current?.version || 0) + 1, model: res.model, prompt_version: version, created_at: new Date().toISOString(), data,
@@ -208,18 +210,44 @@ async function doGenerateAnalysis(img, regenerate, objection = "") {
   return entry;
 }
 
+// The picture twice: clean, and with a labelled 10x10 grid as a measuring aid. Vision models misjudge positions in the
+// frame ("near the right edge" for something right of centre); the grid anchors every position claim.
+const gridCache = new Map();
+async function griddedBase64(id, b64) {
+  if (gridCache.has(id)) return gridCache.get(id);
+  const bmp = await createImageBitmap(new Blob([Uint8Array.from(atob(b64), c => c.charCodeAt(0))], { type: "image/jpeg" }));
+  const pad = Math.round(Math.max(bmp.width, bmp.height) * 0.04), W = bmp.width, H = bmp.height;
+  const cv = document.createElement("canvas"); cv.width = W + pad; cv.height = H + pad;
+  const g = cv.getContext("2d");
+  g.fillStyle = "#000"; g.fillRect(0, 0, cv.width, cv.height); g.drawImage(bmp, pad, pad);
+  const line = (x1, y1, x2, y2) => { for (const [c, w] of [["rgba(0,0,0,.55)", 3], ["rgba(255,255,255,.75)", 1]]) { g.strokeStyle = c; g.lineWidth = w; g.beginPath(); g.moveTo(x1, y1); g.lineTo(x2, y2); g.stroke(); } };
+  for (let i = 1; i < 10; i++) { line(pad + W * i / 10, pad, pad + W * i / 10, pad + H); line(pad, pad + H * i / 10, pad + W, pad + H * i / 10); }
+  g.fillStyle = "#fff"; g.font = `bold ${Math.round(pad * 0.62)}px sans-serif`; g.textAlign = "center"; g.textBaseline = "middle";
+  for (let i = 0; i < 10; i++) { g.fillText("ABCDEFGHIJ"[i], pad + W * (i + 0.5) / 10, pad / 2); g.fillText(String(i + 1), pad / 2, pad + H * (i + 0.5) / 10); }
+  const blob = await new Promise(r => cv.toBlob(r, "image/jpeg", 0.88));
+  const out = btoa(Array.from(new Uint8Array(await blob.arrayBuffer()), c => String.fromCharCode(c)).join(""));
+  gridCache.set(id, out); return out;
+}
+export const GRID_NOTE = "Das Bild kommt zweimal: zuerst unverändert, dann mit einem Messraster (10 × 10; Spalten A–J von links nach rechts, Zeilen 1–10 von oben nach unten). Das Raster ist nur eine Messhilfe, nicht Teil des Bildes.";
+export async function imageBlocks(img) {
+  const b64 = await mediaBase64(img.id);
+  const grid = await griddedBase64(img.id, b64).catch(() => null); // without canvas (e.g. tests in node) the clean image suffices
+  return [{ type: "image", source: { type: "base64", media_type: "image/jpeg", data: b64 } },
+    ...(grid ? [{ type: "image", source: { type: "base64", media_type: "image/jpeg", data: grid } }, { type: "text", text: GRID_NOTE }] : [])];
+}
+
 export async function learnFeedback(analysis, answers, img = null) {
   let txt = QUESTIONS.map(([k, l]) => `${l}\n${(answers[k] || "").trim() || "(keine Antwort)"}\n`).join("\n");
   if (answers.q_extra_label) txt += `\n${answers.q_extra_label}\n${(answers.q_extra || "").trim() || "(keine Antwort)"}\n`;
-  const res = await ai({ system: await prompt("learn_feedback_v5"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true,
-    content: [...(img ? [{ type: "image", source: { type: "base64", media_type: "image/jpeg", data: await mediaBase64(img.id) } }] : []),
+  const res = await ai({ system: await prompt("learn_feedback_v6"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true,
+    content: [...(img ? await imageBlocks(img) : []),
       { type: "text", text: `<analysis>\n${JSON.stringify(analysis, null, 2)}\n</analysis>\n\n<answers>\n${txt}</answers>` }] });
   return clampScores(res.data);
 }
 
 export async function drillFeedback(img, dim, analysis, answer) {
-  const res = await ai({ system: await prompt("drill_feedback_v3"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true, content: [
-    { type: "image", source: { type: "base64", media_type: "image/jpeg", data: await mediaBase64(img.id) } },
+  const res = await ai({ system: await prompt("drill_feedback_v4"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true, content: [
+    ...await imageBlocks(img),
     { type: "text", text: `<dimension>${dim.label}</dimension>\n<question>${dim.q}</question>\n\n<reference>${referenceText(analysis, dim.field)}</reference>\n\n<full_analysis>\n${JSON.stringify(analysis, null, 2)}\n</full_analysis>\n\n<answer>${answer.trim() || "(keine Antwort)"}</answer>` },
   ] });
   return clampScores(res.data);
@@ -230,7 +258,7 @@ export async function discuss(img, analysis, myAnswers, thread, question) {
   const srcs = sourcesForImage(img);
   const history = thread.map(m => `${m.role === "user" ? "Er" : "Du"}: ${m.text}`).join("\n\n");
   const res = await ai({ system: await prompt("discuss_v1"), maxTokens: 4000, light: true, content: [
-    { type: "image", source: { type: "base64", media_type: "image/jpeg", data: await mediaBase64(img.id) } },
+    ...await imageBlocks(img),
     { type: "text", text: `<metadata>\n${JSON.stringify(imageMeta(img), null, 2)}\n</metadata>\n\n<sources>\n${formatSources(srcs)}\n</sources>\n\n`
       + `<analysis>\n${JSON.stringify(analysis || {}, null, 2)}\n</analysis>\n\n<his_answers>\n${JSON.stringify(myAnswers, null, 2)}\n</his_answers>\n\n`
       + `<conversation>\n${history || "(noch kein Gespräch)"}\n</conversation>\n\n<question>${question}</question>` },

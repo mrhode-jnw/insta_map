@@ -154,7 +154,8 @@ function artistCard(p, full = false) {
 function analysisBody(a) {
   if (!a) return `<p class="muted">Keine Analyse vorhanden.</p>`;
   return `
-  <section class="level"><h3><span class="num">1</span> Was zu sehen ist</h3><p>${esc(a.seen || "—")}</p></section>
+  <section class="level"><h3><span class="num">1</span> Was zu sehen ist</h3><p>${esc(a.seen || "—")}</p>
+    ${(a.layout || []).length ? `<details class="layout"><summary>Lage im Bild</summary><ul>${a.layout.map(x => `<li><b>${esc(x.thing)}</b>: ${esc(x.where)}</li>`).join("")}</ul></details>` : ""}</section>
   <section class="level"><h3><span class="num">2</span> Wie es gebaut ist</h3><dl class="construction">
     ${CONSTRUCTION_LABELS.filter(([k]) => k in (a.construction || {})).map(([k, l]) => `<dt>${l}</dt><dd>${esc(a.construction[k] || "—")}</dd>`).join("")}</dl></section>
   <section class="level"><h3><span class="num">3</span> Kontext</h3>
@@ -260,7 +261,7 @@ views.drillReveal = async id => {
   ${imageHeader(img)}
   <div class="two-col reveal"><div><h2>${d.label}: deine Beobachtung</h2><p class="muted small">${d.q}</p><p class="pre">${esc(drill.answer || "—")}</p>
     ${feedbackBlock(drill, "drill-retry")}</div>
-  <div><h2>${d.label}: Analyse</h2>${an ? `<p>${esc(referenceText(an.data, d.field) || "Die gespeicherte Analyse (ältere Version) behandelt diesen Aspekt nicht – auf der Bildseite neu erzeugen.")}</p>
+  <div><h2>${d.label}: Analyse <span class="muted small">(KI-Einschätzung, kann irren)</span></h2>${an ? `${analysisMeta(an)}<p>${esc(referenceText(an.data, d.field) || "Die gespeicherte Analyse (ältere Version) behandelt diesen Aspekt nicht – auf der Bildseite neu erzeugen.")}</p>
     <details><summary>Ganze Analyse</summary>${analysisBody(an.data)}</details>${objectionBlock(img, an, { drill: drill.id })}` : `<p class="pending">Analyse wird erzeugt …</p>`}
     ${concepts.length ? `<h3>Begriffe dazu</h3><ul>${concepts.map(c => `<li><a href="#/begriffe/${c.id}">${esc(c.name)}</a></li>`).join("")}</ul>` : ""}</div></div>
   ${expertsBlock(img)}${await discussionBlock(img)}${artistCard(photographerOf(img))}
@@ -281,6 +282,9 @@ function objectionBlock(img, an, ref = {}) {
       <p class="muted small">Die KI prüft deinen Einwand Punkt für Punkt am Bild, korrigiert oder begründet, warum nicht. Die bisherige Version bleibt erhalten; deine Bewertung wird danach neu berechnet.</p>
       <button>Prüfen lassen</button></form></details>`;
 }
+// Which analysis is this? Older prompt versions had no grid and misjudged positions more often.
+const analysisMeta = an => { const v = Number((an.prompt_version || "").match(/analysis_v(\d+)/)?.[1] || 0);
+  return `<p class="meta muted small">Version ${an.version} · ${esc(an.model || "")} · ${fmtDate(an.created_at)}${v && v < 6 ? ` · <span class="warn-inline">ältere Analyse ohne Lageprüfung – bei Zweifel „Analyse stimmt nicht?“</span>` : ""}</p>`; };
 const nextButton = (action, more, top = false) => `<div class="next${top ? " top" : ""}"><button data-action="${action}">${more ? "Nächstes Bild →" : "Runde abschließen"}</button></div>`;
 
 const imageHeader = img => `<h1>${esc(img.title || "Ohne Titel")} <span class="muted">· ${esc(photographerOf(img).name)}${img.year ? `, ${img.year}` : ""}</span></h1>
@@ -504,7 +508,7 @@ views.learnReveal = async id => {
     ${QUESTIONS.map(([k, l]) => `<dt>${l}</dt><dd>${esc(a[k] || "—")}</dd>`).join("")}
     ${a.q_extra_label ? `<dt>${esc(a.q_extra_label)}</dt><dd>${esc(a.q_extra || "—")}</dd>` : ""}</dl>
     ${feedbackBlock(a, "learn-retry")}</div>
-  <div>${expertsBlock(img)}<h2>Analyse <span class="muted small">(KI)</span></h2>${an ? analysisBody(an.data) + objectionBlock(img, an, { answer: a.id }) : `<p class="pending">Analyse wird erzeugt …</p>`}</div></div>
+  <div>${expertsBlock(img)}<h2>Analyse <span class="muted small">(KI-Einschätzung, kann irren)</span></h2>${an ? analysisMeta(an) + analysisBody(an.data) + objectionBlock(img, an, { answer: a.id }) : `<p class="pending">Analyse wird erzeugt …</p>`}</div></div>
   ${await discussionBlock(img)}${artistCard(photographerOf(img))}
   ${sourcesBlock(sourcesForImage(img), { scope: "image" })}
   ${inSession ? nextButton("learn-next", st.pos + 1 < st.ids.length) : `<p><a href="#/lernen">Zurück</a></p>`}`;

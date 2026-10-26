@@ -335,3 +335,6 @@ details.objection > summary { cursor: pointer; color: var(--accent); padding: 4p
 details.objection textarea { width: 100%; }
 .objection-answer { margin: 14px 0; padding: 10px 12px; background: var(--panel); border-left: 3px solid var(--accent); border-radius: var(--radius); }
 .objection-answer h4 { margin-top: 0.3em; }
+details.layout { margin: 6px 0; font-size: 0.88rem; color: var(--muted); }
+details.layout summary { cursor: pointer; }
+.warn-inline { color: var(--accent); }
