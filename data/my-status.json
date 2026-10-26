@@ -747,5 +747,8 @@
  "cn-deyi-world": {
   "fav": true,
   "prio": "hoch"
+ },
+ "cn-three-natural-bridges": {
+  "prio": "nein"
  }
 }
