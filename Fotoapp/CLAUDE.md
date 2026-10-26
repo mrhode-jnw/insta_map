@@ -91,7 +91,8 @@ Vorgeschlagene Kapitel (Inhalte erst beim Füllen mit Quellen belegen):
 
 ## Technik
 
-- **Navigation:** oben Theorie · Sehen · Lernrunde · Bibliothek · Fortschritt · Verlauf. **Theorie** ist der ganze Lernteil mit Unterleiste (`THEORY_TABS` in `js/app.js`): Kurs (Lektionen), Geschichte (Kapitel), Fotografen, Begriffe, Zeitleiste; die Adressen der Seiten bleiben gleich.
+- **Navigation:** oben Theorie · Sehen · Lernrunde · Häppchen · Bibliothek · Fortschritt · Verlauf.
+- **Häppchen** (`#/kurz`, `js/snacks.js`): schnelle Karten fürs Handy ohne KI-Aufruf, nur aus belegten Inhalten – „Wer hat's gemacht?“, Jahrzehnt, Kapitel der Geschichte, „Was stimmt laut Quelle?“ (richtige Antwort = prüfbarer Punkt der Quellen-Referenz, Ablenker aus Referenzen anderer Fotografen zum selben Aspekt), Lektions-Quizfragen, Wissenskarten zu Fotografen und Begriffen. Runden à 10/20 Karten, Weiter per Knopf oder Wischen, falsch beantwortete Karten kommen wieder (`progress.enc` → `snacks`). **Theorie** ist der ganze Lernteil mit Unterleiste (`THEORY_TABS` in `js/app.js`): Kurs (Lektionen), Geschichte (Kapitel), Fotografen, Begriffe, Zeitleiste; die Adressen der Seiten bleiben gleich.
 - **Frontend:** statische Browser-App, Vanilla-JS-Module (`js/core.js` Krypto/GitHub/Bilder/Claude, `js/domain.js` Bibliothek/Analyse/Prompts, `js/app.js` Ansichten). Dunkles Layout, mobil zuerst, PWA-Manifest.
 - **Daten:** `data/library.json` wird aus `seed/*.json` gebaut (`tools/build_library.py`, stabile IDs: Bilder `i…`, Quellen 6-stellig für `[S<id>]`). Eigene Bilder/Quellen kommen aus `user_library.enc` dazu.
 - **Bilder:** beim Build auf 1568 px (API-Grenze) und 480 px skaliert, verschlüsselt; im Browser per WebCrypto entschlüsselt und im Cache-Storage gehalten.

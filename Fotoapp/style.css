@@ -352,3 +352,32 @@ label.check input { width: auto; }
 .subnav::-webkit-scrollbar { display: none; }
 .subnav a { flex: none; padding: 5px 12px; border: 1px solid var(--line); border-radius: 16px; color: var(--text); font-size: 0.92rem; }
 .subnav a.on { border-color: var(--accent); color: var(--accent); }
+
+/* --- Häppchen (quick cards) */
+.snack-start { display: grid; gap: 14px; }
+.pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.pill input { position: absolute; opacity: 0; pointer-events: none; }
+.pill span { display: inline-block; padding: 8px 14px; border: 1px solid var(--line); border-radius: 18px; cursor: pointer; }
+.pill input:checked + span { border-color: var(--accent); color: var(--accent); }
+button.big { font-size: 1.05rem; padding: 12px 22px; }
+.snack { max-width: 640px; margin: 0 auto; padding-bottom: 90px; }
+.snack-top { display: flex; justify-content: space-between; align-items: baseline; }
+.snack-count { font-variant-numeric: tabular-nums; color: var(--muted); }
+.snack-bar { height: 3px; background: var(--line); border-radius: 2px; margin: 6px 0 12px; }
+.snack-bar i { display: block; height: 100%; background: var(--accent); border-radius: 2px; transition: width .2s; }
+.snack-img { margin: 0 0 12px; background: #000; border-radius: 4px; text-align: center; }
+.snack-img img { max-width: 100%; max-height: 46vh; object-fit: contain; display: block; margin: 0 auto; }
+.snack-img.portrait img { max-height: 30vh; }
+.snack-q { font-size: 1.15rem; line-height: 1.35; margin: 6px 0 12px; }
+.snack-opts { display: grid; gap: 8px; }
+.snack-opts .opt { text-align: left; padding: 12px 14px; background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: var(--radius); font: inherit; line-height: 1.35; }
+.snack-opts .opt.right { border-color: var(--ok); background: rgba(143, 196, 154, .14); }
+.snack-opts .opt.wrong { border-color: var(--danger); background: rgba(224, 122, 106, .14); }
+.snack-opts .opt.dim { opacity: .5; }
+.snack-explain { margin-top: 14px; font-size: 0.95rem; }
+.snack-next { position: fixed; left: 0; right: 0; bottom: 0; padding: 10px 16px; padding-bottom: max(12px, env(safe-area-inset-bottom)); background: linear-gradient(transparent, var(--bg) 30%); text-align: center; z-index: 20; }
+.snack-next button { width: 100%; max-width: 640px; }
+.preload { display: none; }
+.snack-wrong { list-style: none; padding: 0; }
+.snack-wrong li { display: flex; gap: 10px; align-items: flex-start; margin: 10px 0; }
+.snack-wrong img { width: 64px; height: 64px; object-fit: cover; border-radius: 3px; }

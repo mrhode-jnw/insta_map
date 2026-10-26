@@ -274,6 +274,18 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   // Image page: analysis already exists for drilled image -> no new call when opening reveal again
   await page.goto(`${base}/Fotoapp/#/bibliothek`); await waitText("Bibliothek");
   await page.click(".thumb"); await waitText("Analyse"); await shot("06-bild");
+  // Häppchen: quick multiple-choice/info cards, no AI
+  await page.goto(`${base}/Fotoapp/#/kurz`); await waitText("Kurze Karten für unterwegs");
+  const callsSnack = claudeCalls.length;
+  await page.click(".snack-start button");
+  for (let k = 0; k < 10; k++) {
+    await page.waitForSelector(".snack");
+    if (await page.$(".snack-opts .opt:not([disabled])")) { await page.click(".snack-opts .opt"); await page.waitForSelector(".snack-explain"); }
+    await page.click(".snack-next button");
+  }
+  await waitText("Runde geschafft"); await shot("06c-haeppchen");
+  ok(claudeCalls.length === callsSnack, "Häppchen round of 10 cards without any AI call");
+  ok(!(await page.content()).includes("[S"), "Häppchen shows sources as numbers, not raw [S…] ids");
   // Concepts and chapter
   await page.goto(`${base}/Fotoapp/#/begriffe`); await waitText("Seh-Begriffe");
   await page.click(".concept-list a"); await waitText("Übung für unterwegs"); await shot("07-begriff");

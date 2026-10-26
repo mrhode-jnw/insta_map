@@ -5,6 +5,7 @@ import {
   currentAnalysis, drillFeedback, esc, generateAnalysis, learnFeedback, lib, loadLibrary, md, newSourceId, ownId,
   LEARN_ROUND_REQUIRES, PASS_RATIO, analysisPending, lessonTime, splitDeep, refFor, refCount, drillFeedbackSourced, learnRefs, learnFeedbackSourced, LEARN_REF_DIMS, askLesson, discuss, expertsFor, isUnlocked, theoryProgress, photographerOf, projectOf, referenceText, referencedIds, sourcesFor, sourcesForImage,
 } from "./domain.js";
+import { TOPICS, buildCard, cardId, makeRound } from "./snacks.js";
 
 const $ = s => document.querySelector(s);
 const main = () => $("#main");
@@ -33,7 +34,7 @@ function bg(fn) {
   jobs.running++; jobBadge();
   return Promise.resolve().then(fn).catch(e => console.warn(e)).finally(() => { jobs.running--; jobBadge(); });
 }
-function jobBadge() { const b = $("#jobs"); if (b) { b.hidden = !jobs.running; b.textContent = `KI arbeitet … ${jobs.running}`; } }
+function jobBadge() { const b = $("#jobs"); if (b) { b.hidden = !jobs.running; b.textContent = `Im Hintergrund … ${jobs.running}`; } }
 // Analyses for a whole round are generated up front, in round order.
 function prefetch(ids) { bg(async () => { for (const id of ids) await generateAnalysis(lib.by.images.get(id)).catch(() => {}); }); }
 const pendingItems = new Map(); // answers/drills not yet written back, so reveal pages can show them at once
@@ -387,6 +388,50 @@ views.lektion = async id => {
   return body + sourcesBlock([...srcs, ...cited], { scope: "lesson", nums });
 };
 
+// --- Häppchen: quick cards for the train – no AI, instant
+async function snackStats() { return (await loadState("progress", { theory: {} })).snacks || { total: 0, right: 0, rounds: 0, last: {} }; }
+views.kurz = async () => {
+  const st = await snackStats(), open = sess.get("snack");
+  const wrongN = Object.values(st.last || {}).filter(v => v === 0).length;
+  return `<h1>Häppchen</h1><p class="lead">Kurze Karten für unterwegs: Bilder, Fotografen, Geschichte, Quellen, Theorie. Antippen, Erklärung lesen, weiter. Keine KI, alles aus belegten Inhalten.</p>
+  ${open && open.pos < open.cards.length ? `<p><a class="button" href="#/kurz/karte">Runde fortsetzen (${open.pos + 1}/${open.cards.length})</a></p>` : ""}
+  <form data-action="snack-start" class="card snack-start">
+    <div class="pills">${TOPICS.map(([k, l], n) => `<label class="pill"><input type="radio" name="topic" value="${k}" ${n ? "" : "checked"}><span>${l}</span></label>`).join("")}</div>
+    <div class="pills">${[10, 20].map((n, i) => `<label class="pill"><input type="radio" name="size" value="${n}" ${i ? "" : "checked"}><span>${n} Karten</span></label>`).join("")}</div>
+    <button class="big">Los</button></form>
+  ${st.total ? `<p class="muted small">Bisher ${st.total} Karten, ${Math.round(100 * st.right / st.total)} % richtig · ${st.rounds} Runden${wrongN ? ` · ${wrongN} Karten kommen zur Wiederholung` : ""}</p>` : ""}`;
+};
+views.kurzKarte = async () => {
+  const st = sess.get("snack");
+  if (!st) { location.hash = "#/kurz"; return ""; }
+  if (st.pos >= st.cards.length) return snackEnd(st);
+  const c = st.cards[st.pos], card = buildCard(c), res = st.results[st.pos];
+  if (!card) { st.pos++; sess.set("snack", st); return views.kurzKarte(); }
+  // preload the next card's image while this one is read
+  const nx = st.cards[st.pos + 1] && buildCard(st.cards[st.pos + 1]);
+  const answered = res != null || card.kind === "info";
+  return compactRefs(`<div class="snack" data-swipe="${answered ? "next" : ""}">
+    <div class="snack-top"><span class="muted small">${esc(card.label)}</span><span class="snack-count">${st.pos + 1}/${st.cards.length}</span></div>
+    <div class="snack-bar"><i style="width:${100 * st.pos / st.cards.length}%"></i></div>
+    ${card.image ? `<figure class="snack-img">${media(card.image, "m")}</figure>` : card.portrait ? `<figure class="snack-img portrait">${`<img data-media="${esc(card.portrait)}" data-kind="p" alt="">`}</figure>` : ""}
+    ${card.kind === "q" ? `<h2 class="snack-q">${md(card.prompt).replace(/^<p>|<\/p>$/g, "")}</h2>
+      <div class="snack-opts">${card.options.map((o, k) => `<button class="opt${res != null ? (o.correct ? " right" : k === res ? " wrong" : " dim") : ""}" data-action="snack-answer" data-i="${k}" ${res != null ? "disabled" : ""}>${md(o.text).replace(/^<p>|<\/p>$/g, "")}</button>`).join("")}</div>`
+      : `<h2 class="snack-q">${esc(card.title)}</h2>`}
+    ${answered ? `<div class="snack-explain prose">${card.kind === "q" ? `<p class="${card.options[res]?.correct ? "ok" : "warn"}"><b>${card.options[res]?.correct ? "Richtig." : "Nicht ganz."}</b></p>` : ""}
+      ${md(card.kind === "q" ? card.explain_md : card.body_md)}<p class="small"><a href="${card.link[0]}">${esc(card.link[1])} →</a></p></div>` : ""}
+    ${answered ? `<div class="snack-next"><button class="big" data-action="snack-next">${st.pos + 1 < st.cards.length ? "Weiter →" : "Ergebnis"}</button></div>` : ""}
+    ${nx?.image ? `<img data-media="${esc(nx.image)}" data-kind="m" class="preload" alt="">` : ""}</div>`, new Map());
+};
+function snackEnd(st) {
+  const qs = st.cards.map((c, i) => [c, st.results[i]]).filter(([c]) => buildCard(c)?.kind === "q");
+  const right = qs.filter(([c, r]) => buildCard(c).options[r]?.correct).length;
+  const wrong = qs.filter(([c, r]) => !buildCard(c).options[r]?.correct);
+  return `<h1>Runde geschafft</h1><p class="stats"><span><b>${right}</b>/${qs.length} richtig</span></p>
+  ${wrong.length ? `<h3>Zum Nachlesen</h3><ul class="snack-wrong">${wrong.map(([c]) => { const k = buildCard(c); return `<li>${k.image ? `<a href="${k.link[0]}">${media(k.image)}</a>` : ""}<div><span class="muted small">${esc(k.label)}</span><br>${md(k.options.find(o => o.correct).text).replace(/^<p>|<\/p>$/g, "")} <a href="${k.link[0]}">→</a></div></li>`; }).join("")}</ul>
+    <p class="muted small">Diese Karten kommen in einer der nächsten Runden wieder.</p>` : `<p class="ok">Alles richtig.</p>`}
+  <p><button class="big" data-action="snack-again">Neue Runde</button> <a href="#/kurz">Thema wechseln</a></p>`;
+}
+
 // --- concepts
 views.begriffe = async () => `<h1>Seh-Begriffe</h1>
   <p class="lead">Begriffe, mit denen Fotografen und Kuratoren über Bilder sprechen – mit Quelle, Beispielbildern und einer Übung für unterwegs.</p>
@@ -579,6 +624,7 @@ views.fortschritt = async () => {
   <div class="stats"><span><b>${all.length}</b> Übungen</span><span><b>${seen.size}</b>/${lib.images.length} Bilder gesehen</span><span><b>${days.length}</b> Übungstage</span>
     <span><b>${fmt(avg(last, "hit"))}${trend("hit")}</b> Treffer (letzte 10)</span><span><b>${fmt(avg(last, "precision"))}${trend("precision")}</b> Genauigkeit (letzte 10)</span></div>
   <h2>Theorie</h2><p>${await (async () => { const p = await theoryProgress(); return `${lib.lessons.filter(l => p[l.id]?.passed).length}/${lib.lessons.length} Lektionen bestanden · <a href="#/theorie">zum Kurs</a>`; })()}</p>
+  ${await (async () => { const sn = await snackStats(); return sn.total ? `<h2>Häppchen</h2><p>${sn.total} Karten in ${sn.rounds} Runden · ${Math.round(100 * sn.right / sn.total)} % richtig · ${Object.values(sn.last || {}).filter(v => v === 0).length} zur Wiederholung · <a href="#/kurz">weiter üben</a></p>` : ""; })()}
   <h2>Nach Aspekt</h2><table class="list keep"><thead><tr><th>Aspekt</th><th>Anzahl</th><th>Treffer ⌀</th><th>Genauigkeit ⌀</th></tr></thead><tbody>${rows}</tbody></table>
   ${topMissed.length ? `<h2>Was dir oft fehlt</h2><p>${topMissed.map(([m, n]) => `<span class="tag miss">${esc(m)} · ${n}</span>`).join(" ")}</p>` : ""}
   <h2>Kapitel</h2><table class="list keep"><tbody>${chapters.map(([c, n, t]) => `<tr><td><a href="#/kapitel/${c.id}">${c.number}. ${esc(c.title)}</a></td><td>${n}/${t}</td><td><div class="bar"><span style="width:${t ? Math.round(n / t * 100) : 0}%"></span></div></td></tr>`).join("")}</tbody></table>
@@ -690,6 +736,7 @@ views.zeitleiste = async params => {
 // ---------- routing
 const routes = [
   [/^\/?$/, () => views.home()],
+  [/^\/kurz$/, () => views.kurz()], [/^\/kurz\/karte$/, () => views.kurzKarte()],
   [/^\/sehen$/, () => views.sehen()], [/^\/sehen\/uebung$/, () => views.drill()], [/^\/sehen\/r\/(.+)$/, m => views.drillReveal(m[1])],
   [/^\/theorie$/, () => views.theorie()], [/^\/theorie\/(.+)$/, m => views.lektion(m[1])],
   [/^\/begriffe$/, () => views.begriffe()], [/^\/begriffe\/(.+)$/, m => views.begriff(m[1])],
@@ -753,7 +800,7 @@ const io = "IntersectionObserver" in window ? new IntersectionObserver(es => es.
 function loadImg(el) { mediaUrl(el.dataset.media, el.dataset.kind).then(u => (el.src = u)).catch(() => el.classList.add("broken")); }
 function hydrate() {
   // everything lazy: images in collapsed "Vertiefung" blocks load only when opened
-  document.querySelectorAll("img[data-media]").forEach(el => io ? io.observe(el) : loadImg(el));
+  document.querySelectorAll("img[data-media]").forEach(el => io && !el.classList.contains("preload") ? io.observe(el) : loadImg(el));
   const f = $("#tl-filter"); if (f) f.onchange = () => (location.hash = f.value ? `#/zeitleiste?k=${f.value}` : "#/zeitleiste");
   const tl = document.querySelector(".timeline"); if (tl) tl.scrollIntoView({ block: "end" });
 }
@@ -766,6 +813,28 @@ async function busy(el, fn) {
 const errMsg = e => e instanceof AIError ? e.message : `Fehler: ${e.message}`;
 
 const actions = {
+  async "snack-start"(form) {
+    const f = new FormData(form), st = await snackStats();
+    const wrong = Object.entries(st.last || {}).filter(([, v]) => v === 0).map(([k]) => k);
+    sess.set("snack", { topic: f.get("topic"), cards: makeRound(f.get("topic"), Number(f.get("size")), shuffle(wrong)), pos: 0, results: {} });
+    location.hash = "#/kurz/karte";
+  },
+  "snack-answer"(btn) {
+    const st = sess.get("snack"); if (!st || st.results[st.pos] != null) return;
+    st.results[st.pos] = Number(btn.dataset.i); sess.set("snack", st); route(true);
+  },
+  "snack-next"() {
+    const st = sess.get("snack"); if (!st) return;
+    st.pos++; sess.set("snack", st);
+    if (st.pos >= st.cards.length) saveSnackRound(st);
+    route(); window.scrollTo(0, 0);
+  },
+  async "snack-again"() {
+    const st = sess.get("snack"), stats = await snackStats();
+    const wrong = Object.entries(stats.last || {}).filter(([, v]) => v === 0).map(([k]) => k);
+    sess.set("snack", { topic: st?.topic || "alles", cards: makeRound(st?.topic || "alles", st?.cards.length || 10, shuffle(wrong)), pos: 0, results: {} });
+    route();
+  },
   async "drill-start"(form) {
     const f = new FormData(form), dim = f.get("dimension"), look = Number(f.get("look")); store.set("lookSeconds", look);
     const prog = await theoryProgress();
@@ -994,6 +1063,14 @@ async function editChapterImages(id, fn) {
   route();
 }
 
+// round stats into progress.enc: totals plus the last result per card (0 = wrong → comes back for repetition)
+function saveSnackRound(st) {
+  if (st.saved) return; st.saved = true; sess.set("snack", st);
+  const res = st.cards.map((c, i) => { const k = buildCard(c); return k?.kind === "q" ? [cardId(c), k.options[st.results[i]]?.correct ? 1 : 0] : null; }).filter(Boolean);
+  const apply = s => { const sn = (s.snacks ||= { total: 0, right: 0, rounds: 0, last: {} });
+    sn.total += res.length; sn.right += res.filter(([, v]) => v).length; sn.rounds++; for (const [id, v] of res) sn.last[id] = v; return s; };
+  bg(() => mutateState("progress", { theory: {} }, apply, "Häppchen"));
+}
 function startDrill(dims, size, look, sourcedOnly = true) {
   loadState("drills", []).then(drills => {
     const done = new Set(drills.map(d => d.image_id + "|" + d.dimension));
@@ -1135,6 +1212,14 @@ function openViewer({ img, svg, caption }) {
 }
 function closeViewer() { document.querySelector(".viewer")?.remove(); document.body.classList.remove("noscroll"); }
 window.addEventListener("popstate", closeViewer);
+
+// swipe left on an answered Häppchen card = next
+let swipeX = null;
+document.addEventListener("touchstart", e => { swipeX = e.target.closest('.snack[data-swipe="next"]') ? e.touches[0].clientX : null; }, { passive: true });
+document.addEventListener("touchend", e => {
+  if (swipeX == null) return; const dx = e.changedTouches[0].clientX - swipeX; swipeX = null;
+  if (dx < -70) actions["snack-next"]();
+}, { passive: true });
 
 // ---------- boot
 async function start(code, remember) {
