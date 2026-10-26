@@ -1534,7 +1534,53 @@
     {
      "type": "move",
      "mode": "walk",
-     "min": 20
+     "min": 15,
+     "text": "Über die Qiansimen-Brücke nach Jiangbeizui"
+    },
+    {
+     "type": "stop",
+     "t": "20:20–21:00",
+     "spot": "claude-cn-chongqing-grand-theatre-jiangbeizui",
+     "opt": true,
+     "sel": true,
+     "light": "night",
+     "lightText": "Nacht – Skyline-Beleuchtung meist bis ca. 23 Uhr",
+     "text": "Vom Jiangbeizui-Ufer: Yuzhong-Halbinsel mit Hongyadong und Raffles über dem Jialing, 24–70 und 70–200, Stativ, 5–15 s für ruhiges Wasser."
+    },
+    {
+     "type": "move",
+     "mode": "car",
+     "text": "Taxi zurück nach Jiefangbei"
+    },
+    {
+     "type": "stop",
+     "t": "21:30–22:15",
+     "spot": "cn-deyi-world",
+     "opt": true,
+     "sel": true,
+     "light": "night",
+     "lightText": "Nacht – Neon",
+     "text": "Neon-Gassen und Leuchtreklamen, nasses Pflaster spiegelt. 35 mm, offene Blende, ISO 1600–3200."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "22:15–22:45",
+     "spot": "cn-chongqing-skyline-rooftops",
+     "opt": true,
+     "sel": true,
+     "light": "night",
+     "lightText": "Nacht",
+     "text": "Jiefangbei-Hochhausschluchten von unten, Straßenspiegelungen. Direkt am Hotel."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 5
     },
     {
      "type": "hotel",
@@ -1629,15 +1675,61 @@
     },
     {
      "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "19:45–20:30",
+     "spot": "claude-cn-dongshuimen-bridge",
+     "opt": true,
+     "sel": true,
+     "light": "night",
+     "lightText": "Nacht",
+     "text": "Vom Fußweg der Brücke zurück auf Yuzhong und die Monorail-Spur, 24–70, Stativ an der Brüstung (Vibrationen durch Verkehr: kurze Zeiten, 1–4 s)."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 15,
+     "text": "Über die Dongshuimen-Brücke ans Südufer"
+    },
+    {
+     "type": "stop",
+     "t": "20:45–21:30",
+     "spot": "claude-cn-longmenhao-old-street",
+     "opt": true,
+     "sel": true,
+     "light": "night",
+     "lightText": "Nacht",
+     "text": "Backsteinvillen und Treppen mit Blick auf die beleuchtete Skyline."
+    },
+    {
+     "type": "move",
+     "mode": "walk",
+     "min": 10
+    },
+    {
+     "type": "stop",
+     "t": "21:30–22:15",
+     "spot": "cn-nanbin-road",
+     "opt": true,
+     "sel": true,
+     "light": "night",
+     "lightText": "Nacht – Lichter meist bis ca. 23 Uhr",
+     "text": "Uferstraße am Südufer: frontal auf die Yuzhong-Skyline über dem Jangtse, 16–35 und 70–200, lange Belichtung fürs Wasser."
+    },
+    {
+     "type": "move",
      "mode": "car"
     },
     {
      "type": "stop",
-     "t": "20:00–21:00",
+     "t": "22:30–23:00",
      "spot": "claude-cn-yikeshu-viewing-platform",
      "light": "night",
      "lightText": "Nacht – Skyline von Nanshan",
-     "text": "Optional: Nachtblick über Yuzhong, nur bei klarer Sicht lohnend.",
+     "text": "Optional zum Schluss: Nachtblick über Yuzhong vom Nanshan, nur bei klarer Sicht – sonst auslassen.",
      "opt": true,
      "sel": false
     },

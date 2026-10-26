@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 26.10.2026 10:55 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 26.10.2026 10:58 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -253,7 +253,13 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **17:45–19:30** ✅ **Hongyadong 洪崖洞** (Yuzhong, Chongqing) · Licht: Blaue Stunde 18:10–18:40, Lichter ab ca. 18:30 – Gegen 17:45 da sein und Platz sichern. Klassischer Blick: von der Qiansimen-Brücke (Fußweg, Nordende) zurück auf die beleuchteten Stelzenhäuser, Stativ, 24–70, 2–8 s bei f/8. Danach unten am Ufer (Jialing-Promenade) frontal mit Spiegelung. Bei Nieselregen: Spiegelungen auf dem nassen Pflaster. Laut Modellen ab ca. 14 Uhr weitgehend trocken, Pflaster vom Vormittag noch nass – gute Spiegelungen. Tiefe Wolkendecke (300–800 m): Hochhausspitzen können im Dunst verschwinden, das gibt Stimmung.
   - ↓ 🚶 zu Fuß · ca. 5 Min.
 - **19:30–20:00** ◻︎ optional: **Qiansimen Bridge 千厮门大桥** (Yuzhong, Chongqing) · Licht: Nacht – Über die Brücke Richtung Jiangbei: Hongyadong mit Skyline von weiter weg, 70–200.
-  - ↓ 🚶 zu Fuß · ca. 20 Min.
+  - ↓ 🚶 zu Fuß · ca. 15 Min. (Über die Qiansimen-Brücke nach Jiangbeizui)
+- **20:20–21:00** ◻︎ optional: **Chongqing Grand Theatre & Jiangbeizui 重庆大剧院** (Jiangbei, Chongqing) · Licht: Nacht – Skyline-Beleuchtung meist bis ca. 23 Uhr – Vom Jiangbeizui-Ufer: Yuzhong-Halbinsel mit Hongyadong und Raffles über dem Jialing, 24–70 und 70–200, Stativ, 5–15 s für ruhiges Wasser.
+  - ↓ 🚗 Auto · ca. 5 Min. · 4 km (Taxi zurück nach Jiefangbei)
+- **21:30–22:15** ◻︎ optional: **Deyi World 得意世界** (Jiefangbei (Jiaochangkou), Chongqing) · Licht: Nacht – Neon – Neon-Gassen und Leuchtreklamen, nasses Pflaster spiegelt. 35 mm, offene Blende, ISO 1600–3200.
+  - ↓ 🚶 zu Fuß · ca. 10 Min.
+- **22:15–22:45** ◻︎ optional: **Chongqing Skyline & Rooftops 解放碑** (Jiefangbei, Chongqing) · Licht: Nacht – Jiefangbei-Hochhausschluchten von unten, Straßenspiegelungen. Direkt am Hotel.
+  - ↓ 🚶 zu Fuß · ca. 5 Min.
 - 🏨 Unterkunft: **The Lixury Hotel Chongqing**
 
 ### Di 27.10. – Chongqing: Liziba · Testbed 2 · Baixiangju · Shibati am Abend _(Entwurf)_
@@ -269,8 +275,14 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **15:15–16:45** ✅ **Baixiangju & Yangtze River Cableway 白象居 · 长江索道** (Yuzhong, Chongqing) · Licht: Nachmittag – Regen lässt nach – Baixiangju (白象居): Straße erreicht das Wohnhaus im 24. Stock über eine Brücke – von unten am Treppenweg hochfotografieren, 16–35. Laut Modellen lässt der Regen ab ca. 15 Uhr nach. Danach optional Jangtse-Seilbahn zum Südufer.
   - ↓ 🚶 zu Fuß · ca. 20 Min.
 - **17:15–19:30** ✅ **Shibati Old Steps 十八梯** (Yuzhong, Chongqing) · Licht: Blaue Stunde 18:10–18:40 → Laternen bei Nacht – Ladder Street (十八梯): von oben die Treppen hinunter mit den Laternen, 24–70, Stativ. Abends nur noch wenig Regen – nasse, glänzende Stufen sind ideal.
-  - ↓ 🚗 Auto · ca. 10 Min. · 8 km
-- **20:00–21:00** ◻︎ optional: **Yikeshu Viewing Platform 一棵树观景台** (Nan'an (Nanshan), Chongqing) · Licht: Nacht – Skyline von Nanshan – Optional: Nachtblick über Yuzhong, nur bei klarer Sicht lohnend.
+  - ↓ 🚶 zu Fuß · ca. 10 Min.
+- **19:45–20:30** ◻︎ optional: **Dongshuimen Bridge 东水门大桥** (Yuzhong/Nan'an, Chongqing) · Licht: Nacht – Vom Fußweg der Brücke zurück auf Yuzhong und die Monorail-Spur, 24–70, Stativ an der Brüstung (Vibrationen durch Verkehr: kurze Zeiten, 1–4 s).
+  - ↓ 🚶 zu Fuß · ca. 15 Min. (Über die Dongshuimen-Brücke ans Südufer)
+- **20:45–21:30** ◻︎ optional: **Longmenhao Old Street 龙门浩老街** (Nan'an, Chongqing) · Licht: Nacht – Backsteinvillen und Treppen mit Blick auf die beleuchtete Skyline.
+  - ↓ 🚶 zu Fuß · ca. 10 Min.
+- **21:30–22:15** ◻︎ optional: **Nanbin Road 南滨路** (Nan'an, Chongqing) · Licht: Nacht – Lichter meist bis ca. 23 Uhr – Uferstraße am Südufer: frontal auf die Yuzhong-Skyline über dem Jangtse, 16–35 und 70–200, lange Belichtung fürs Wasser.
+  - ↓ 🚗 Auto · ca. 5 Min. · 2 km
+- **22:30–23:00** ◻︎ optional: **Yikeshu Viewing Platform 一棵树观景台** (Nan'an (Nanshan), Chongqing) · Licht: Nacht – Skyline von Nanshan – Optional zum Schluss: Nachtblick über Yuzhong vom Nanshan, nur bei klarer Sicht – sonst auslassen.
   - ↓ 🚗 Auto · ca. 15 Min. · 12 km
 - 🏨 Unterkunft: **The Lixury Hotel Chongqing**
 
