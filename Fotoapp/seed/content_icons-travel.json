@@ -1,0 +1,395 @@
+{
+ "accessed_at": "2026-10-26",
+ "photographers": [
+  {
+   "key": "lange",
+   "name": "Dorothea Lange",
+   "born": 1895,
+   "sources": [],
+   "projects": [
+    {
+     "key": "lange-migrant-mother",
+     "title": "Migrant Mother (FSA/Resettlement Administration, Nipomo 1936)",
+     "year_from": 1936,
+     "year_to": 1936,
+     "sources": [],
+     "images": [
+      {
+       "key": "lange-migrant-mother",
+       "title": "Destitute pea pickers in California. Mother of seven children. Age thirty-two. Nipomo, California (Migrant Mother)",
+       "year": 1936,
+       "location": "Nipomo, Kalifornien, USA",
+       "tags": [
+        "reportage",
+        "porträt",
+        "schwarzweiß",
+        "fsa"
+       ],
+       "source_url": "https://www.loc.gov/pictures/item/2017762891/",
+       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Lange-MigrantMother02.jpg/1920px-Lange-MigrantMother02.jpg",
+       "sources": [
+        {
+         "url": "https://guides.loc.gov/migrant-mother",
+         "title": "Dorothea Lange's \"Migrant Mother\" Photographs in the Farm Security Administration Collection – Research Guide",
+         "excerpt": "I saw and approached the hungry and desperate mother, as if drawn by a magnet. I do not remember how I explained my presence or my camera to her, but I do remember she asked me no questions. I made five exposures, working closer and closer from the same direction.",
+         "kind": "fotograf",
+         "author": "Dorothea Lange (1960, zitiert von der Library of Congress)",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://guides.loc.gov/migrant-mother/images",
+         "title": "Migrant Mother Series of Images – Research Guide",
+         "excerpt": "Note: This is an unretouched version of image #1, and shows a thumb in the immediate foreground on the right side.",
+         "kind": "museum",
+         "author": "Library of Congress, Prints & Photographs Division",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "rosenthal",
+   "name": "Joe Rosenthal",
+   "born": 1911,
+   "sources": [],
+   "projects": [
+    {
+     "key": "rosenthal-iwo-jima",
+     "title": "Iwo Jima (Associated Press, Februar 1945)",
+     "year_from": 1945,
+     "year_to": 1945,
+     "sources": [],
+     "images": [
+      {
+       "key": "rosenthal-iwo-jima-flag",
+       "title": "Raising the Flag on Iwo Jima",
+       "year": 1945,
+       "location": "Mount Suribachi, Iwo Jima, Japan",
+       "tags": [
+        "reportage",
+        "krieg",
+        "schwarzweiß",
+        "moment"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Raising_the_Flag_on_Iwo_Jima,_larger.jpeg",
+       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Raising_the_Flag_on_Iwo_Jima%2C_larger.jpeg/1920px-Raising_the_Flag_on_Iwo_Jima%2C_larger.jpeg",
+       "sources": [
+        {
+         "url": "https://americanheritage.com/was-flag-raising-iwo-jima-posed",
+         "title": "Was the Flag-Raising on Iwo Jima Posed? (American Heritage, Vol. 68, Issue 6)",
+         "excerpt": "Rosenthal stood only 5-foot-4, so he perched on a makeshift pile of sandbags and rocks to get a better angle. Just as he felt that he was set, he saw movement in his peripheral vision - the replacement flag was being raised by five Marines and a Navy corpsman.",
+         "kind": "kritik",
+         "author": "American Heritage",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "steele-perkins",
+   "name": "Chris Steele-Perkins",
+   "born": 1947,
+   "sources": [],
+   "projects": [
+    {
+     "key": "steele-perkins-fuji",
+     "title": "Fuji: Images of Contemporary Japan",
+     "year_from": 1998,
+     "year_to": 2001,
+     "sources": [],
+     "images": [
+      {
+       "key": "steele-perkins-red-fuji",
+       "title": "Road works and Fuji near Kawaguchiko (Red Fuji)",
+       "year": 1999,
+       "location": "bei Kawaguchiko, Japan",
+       "tags": [
+        "reise",
+        "nacht",
+        "langzeitbelichtung",
+        "farbe",
+        "berg"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-red-mount-fuji-japan-chris-steele-perkins/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/01/cortex/lon15482.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-red-mount-fuji-japan-chris-steele-perkins/",
+         "title": "Making the Image: Red Mount Fuji – Chris Steele-Perkins (Magnum Photos; Eintrag aus „Magnum Contact Sheets“)",
+         "excerpt": "The idea for the project started when Miyako gave me a book of Hokusai's prints, 36 Views of Mount Fuji. I was struck by the documentary nature of his images, which depict views of ordinary life, with the mountain as a presence in the background.",
+         "kind": "fotograf",
+         "author": "Chris Steele-Perkins",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "mark-power",
+   "name": "Mark Power",
+   "born": 1959,
+   "sources": [],
+   "projects": [
+    {
+     "key": "power-sound-of-two-songs",
+     "title": "The Sound of Two Songs (Polen 2004–2009)",
+     "year_from": 2004,
+     "year_to": 2009,
+     "sources": [],
+     "images": [
+      {
+       "key": "power-warsaw-dalmatian",
+       "title": "Warsaw, Poland (Dalmatian)",
+       "year": 2005,
+       "location": "Warschau, Polen",
+       "tags": [
+        "street",
+        "landschaft",
+        "schnee",
+        "farbe",
+        "stativ"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/mark-power-contact-sheets-warsaw-dalmatian/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/08/cortex/lon67891.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/theory-and-practice/mark-power-contact-sheets-warsaw-dalmatian/",
+         "title": "Mark Power: Contact Sheet Warsaw Dalmatian (Magnum Photos; Eintrag aus „Magnum Contact Sheets“)",
+         "excerpt": "This contact sheet contains my'Dalmatian' picture, perhaps the most recognizable photograph from the series. It was a remarkable slice of good fortune.",
+         "kind": "fotograf",
+         "author": "Mark Power",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "kalvar",
+   "name": "Richard Kalvar",
+   "born": 1944,
+   "sources": [],
+   "projects": [
+    {
+     "key": "kalvar-new-york",
+     "title": "New York (frühe Straßenfotografie)",
+     "year_from": 1966,
+     "year_to": 1975,
+     "sources": [],
+     "images": [
+      {
+       "key": "kalvar-woman-store-window",
+       "title": "Woman looking at herself in store window, New York City",
+       "year": 1969,
+       "location": "Madison Avenue, New York City, USA",
+       "tags": [
+        "street",
+        "spiegelung",
+        "schwarzweiß",
+        "humor"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-richard-kalvar-woman-window/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/07/cortex/par92911.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-richard-kalvar-woman-window/",
+         "title": "Contact Sheet: Richard Kalvar – Woman in Window (Magnum Photos; Eintrag aus „Magnum Contact Sheets“)",
+         "excerpt": "If I had wanted a funny little photograph of people looking through a window, frame 27A would have fit the bill. But what has always excited me in photography is to step out of'real' reality and enter a world of frozen dreams, abstracted from the ordinary.",
+         "kind": "fotograf",
+         "author": "Richard Kalvar",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "burri",
+   "name": "René Burri",
+   "born": 1933,
+   "sources": [],
+   "projects": [
+    {
+     "key": "burri-brazil-1960",
+     "title": "Brasilien 1960 (São Paulo, Rio, Brasília)",
+     "year_from": 1960,
+     "year_to": 1960,
+     "sources": [],
+     "images": [
+      {
+       "key": "burri-sao-paulo-1960",
+       "title": "São Paulo, Brazil",
+       "year": 1960,
+       "location": "Avenida Paulista, São Paulo, Brasilien",
+       "tags": [
+        "street",
+        "architektur",
+        "von oben",
+        "schwarzweiß",
+        "reise"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/behind-the-image-rene-burris-sao-paulo/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2024/03/PAR8679_.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/behind-the-image-rene-burris-sao-paulo/",
+         "title": "Behind the Image: René Burri's São Paulo (Magnum Photos)",
+         "excerpt": "Each line, shape and shadow in the image contributes to a dense visual universe, filling the entire frame - a lesson he took from Henri Cartier-Bresson - from the vertiginous ridges of the buildings to the street lines below.",
+         "kind": "kritik",
+         "author": "Magnum Photos",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "erwitt",
+   "name": "Elliott Erwitt",
+   "born": 1928,
+   "sources": [],
+   "projects": [
+    {
+     "key": "erwitt-dogs",
+     "title": "Hunde (DogDogs u. a.)",
+     "year_from": 1946,
+     "year_to": 2010,
+     "sources": [],
+     "images": [
+      {
+       "key": "erwitt-bulldog-nyc-2000",
+       "title": "New York City (Bulldog)",
+       "year": 2000,
+       "location": "Upper West Side, New York City, USA",
+       "tags": [
+        "street",
+        "humor",
+        "hund",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/elliot-erwitt-bulldog-contact-sheet-print/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/04/cortex/nyc15335.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/theory-and-practice/elliot-erwitt-bulldog-contact-sheet-print/",
+         "title": "Contact Sheet Prints – Elliott Erwitt, Bulldog in New York (Magnum Photos)",
+         "excerpt": "The contact shows Erwitt's patience, shooting around an image methodically until he has all the elements synchronized for maximum effect. As he says,'It's a lot of pictures getting to the good one.'",
+         "kind": "kurator",
+         "author": "Magnum Photos / Elliott Erwitt",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ian-berry",
+   "name": "Ian Berry",
+   "born": 1934,
+   "sources": [],
+   "projects": [
+    {
+     "key": "berry-the-english",
+     "title": "The English",
+     "year_from": 1974,
+     "year_to": 1978,
+     "sources": [],
+     "images": [
+      {
+       "key": "berry-whitby-1974",
+       "title": "Whitby, England (sunny Sunday afternoon)",
+       "year": 1974,
+       "location": "Whitby, Yorkshire, England",
+       "tags": [
+        "reise",
+        "street",
+        "landschaft",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-an-english-sunny-afternoon/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/05/cortex/lon1828.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-an-english-sunny-afternoon/",
+         "title": "Behind the Image: An English Sunny Afternoon – Ian Berry (Magnum Photos)",
+         "excerpt": "In the 1970s, Ian Berry set out to create a portrait of English life. The English is a document of culture and traditions during a transitional time.",
+         "kind": "kurator",
+         "author": "Magnum Photos",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "webb",
+   "name": "Alex Webb",
+   "sources": [],
+   "projects": [
+    {
+     "key": "webb-la-calle",
+     "title": "La Calle – Mexiko",
+     "year_from": 1975,
+     "year_to": 2007,
+     "sources": [],
+     "images": [
+      {
+       "key": "webb-tehuantepec-1985",
+       "title": "Tehuantepec, Mexico",
+       "year": 1985,
+       "location": "Tehuantepec, Oaxaca, Mexiko",
+       "tags": [
+        "street",
+        "farbe",
+        "reise",
+        "kinder"
+       ],
+       "source_url": "https://www.theguardian.com/artanddesign/2016/apr/07/alex-webb-best-photograph-children-mexico-ball",
+       "image_url": "https://media.guim.co.uk/69fca27b43b7aa6b4e7f885eed9f9b78bb57aae0/0_0_3900_2610/master/3900.jpg",
+       "sources": [
+        {
+         "url": "https://www.theguardian.com/artanddesign/2016/apr/07/alex-webb-best-photograph-children-mexico-ball",
+         "title": "Alex Webb's best photograph: children in Tehuantepec, Mexico (The Guardian)",
+         "excerpt": "It wasn't until later that I realised there was a second ball in the frame: a basketball falling through a hoop. This kind of photography - wandering the streets, exploring the world with few preconceptions - is so much about immediacy, intuition and serendipity.",
+         "kind": "fotograf",
+         "author": "Alex Webb (im Gespräch mit The Guardian)",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": []
+}
