@@ -245,13 +245,13 @@ async function anthropic({ system, content, schema = null, maxTokens = 16000, li
   return result(text, j.model, schema);
 }
 
-async function openai({ system, content, schema = null, maxTokens = 16000, light = false }) {
+async function openai({ system, content, schema = null, maxTokens = 16000, light = false, thorough = false }) {
   if (!session.openaiKey) throw new AIError("Kein OpenAI-API-Key hinterlegt (setup.html).");
   const parts = typeof content === "string" ? [{ type: "text", text: content }] : content.map(b => b.type === "image"
     ? { type: "image_url", image_url: { url: `data:${b.source.media_type};base64,${b.source.data}`, detail: "high" } }
     : { type: "text", text: b.text });
   const body = {
-    model: session.openaiModel, max_completion_tokens: maxTokens,
+    model: session.openaiModel, max_completion_tokens: thorough ? Math.max(maxTokens, 40000) : maxTokens, // high reasoning needs room
     messages: [{ role: "system", content: system }, { role: "user", content: parts }],
     ...(schema ? { response_format: { type: "json_schema", json_schema: { name: "result", strict: true, schema } } } : {}),
   };
@@ -260,7 +260,7 @@ async function openai({ system, content, schema = null, maxTokens = 16000, light
     headers: { "content-type": "application/json", authorization: `Bearer ${session.openaiKey}` }, body: JSON.stringify(b) });
   let r;
   try {
-    r = await send({ ...body, reasoning_effort: light ? "low" : "medium" });
+    r = await send({ ...body, reasoning_effort: light ? "low" : thorough ? "high" : "medium" }); // image analyses: high, they are stored for good
     if (r.status === 400 && /reasoning/i.test(JSON.stringify(await r.clone().json().catch(() => ({}))))) r = await send(body);
   } catch { throw new AIError("Keine Verbindung zur OpenAI API."); }
   const j = await r.json().catch(() => ({}));

@@ -87,6 +87,8 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
       per_question: [{ question: "Wo stand der Fotograf?", points: 3, note: "Richtig erkannt." }, { question: "Worauf hat er gewartet?", points: 1, note: "Zu allgemein." }],
       missed: ["Lichtkante links"] });
     const data = JSON.parse(JSON.stringify(ANALYSIS));
+    if (schema.properties.deviations) data.deviations = userText.includes("<objection>")
+      ? [{ field: "construction.viewpoint", reason: "TESTEINWAND: Der Bug überragt den Horizont – Augenhöhe, korrigiert." }] : [];
     const src = userText.match(/<source id="(\d+)"/);
     if (src) data.context.sourced[0].source_ids = [Number(src[1])];
     return JSON.stringify(data);
@@ -195,6 +197,19 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   ok(stored.includes("sehschule/analyses.enc@map-data") && stored.includes("sehschule/drills.enc@map-data"), "analysis and drill stored in map-data");
   const raw = Buffer.from(files.get("sehschule/drills.enc@map-data").content, "base64").toString();
   ok(!raw.includes("Licht von links"), "stored drill is encrypted");
+
+  // Objection: he disagrees with the analysis -> AI re-checks the image, answer shown, feedback re-graded, old version kept
+  await page.click("details.objection summary");
+  await page.fill('form[data-action="object"] textarea', "Die Kamera stand auf Augenhöhe, der Bug ragt über den Horizont.");
+  const callsBefore = claudeCalls.length;
+  await page.click('form[data-action="object"] button');
+  await waitText("TESTEINWAND", 30000); ok(true, "objection answered with a reasoned deviation");
+  const objCall = claudeCalls.slice(callsBefore).find(c => JSON.stringify(c.body).includes("<objection>"));
+  ok(objCall && JSON.stringify(objCall.body).includes("previous_analysis"), "objection sent with the previous analysis");
+  if (PROVIDER === "openai") ok(objCall.body.reasoning_effort === "high", "analysis runs with high reasoning effort");
+  await page.waitForFunction(() => !document.body.innerText.includes("prüft deinen Einwand"), null, { timeout: 30000 });
+  await waitText("TESTFEEDBACK", 30000);
+  ok(claudeCalls.slice(callsBefore).some(c => c.body.response_format?.json_schema?.schema?.properties?.hit || c.body.output_config?.format?.schema?.properties?.hit), "answer re-graded after the objection");
 
   // Stable analysis: second drill on same image must not call the analysis again
   const before = claudeCalls.filter(c => c.body.output_config?.format).length;

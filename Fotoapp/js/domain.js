@@ -145,7 +145,7 @@ export const FEEDBACK_SCHEMA = obj({
 export const clampScores = fb => ({ ...fb, hit: Math.max(0, Math.min(5, fb.hit | 0)), precision: Math.max(0, Math.min(5, fb.precision | 0)),
   per_question: (fb.per_question || []).map(q => ({ ...q, points: Math.max(0, Math.min(5, q.points | 0)) })) });
 export const REVISION_SCHEMA = obj({ ...ANALYSIS_PROPS, deviations: { type: "array", items: obj({ field: str, reason: str }) } });
-const ANALYSIS_PROMPT = "analysis_v4", REVISION_PROMPT = "analysis_revision_v1";
+const ANALYSIS_PROMPT = "analysis_v5", REVISION_PROMPT = "analysis_revision_v2";
 
 // Drop sourced statements without a valid source id (principle: no fact without a source).
 export function enforceSources(data, allowedIds) {
@@ -180,15 +180,15 @@ export async function currentAnalysis(imgId) {
 
 // Stable analyses: generated once; regeneration only on request, with the previous version and justified deviations.
 const inflight = new Map();
-export function generateAnalysis(img, regenerate = false) {
+export function generateAnalysis(img, regenerate = false, objection = "") {
   if (!regenerate && inflight.has(img.id)) return inflight.get(img.id);
-  const p = doGenerateAnalysis(img, regenerate).finally(() => inflight.delete(img.id));
+  const p = doGenerateAnalysis(img, regenerate, objection).finally(() => inflight.delete(img.id));
   if (!regenerate) inflight.set(img.id, p);
   return p;
 }
 export const analysisPending = id => inflight.has(id);
 
-async function doGenerateAnalysis(img, regenerate) {
+async function doGenerateAnalysis(img, regenerate, objection = "") {
   const current = await currentAnalysis(img.id);
   if (current && !regenerate) return current;
   const srcs = sourcesForImage(img);
@@ -196,26 +196,29 @@ async function doGenerateAnalysis(img, regenerate) {
   if (current) { system += "\n\n" + await prompt(REVISION_PROMPT); version += "+" + REVISION_PROMPT; }
   let text = `<metadata>\n${JSON.stringify(imageMeta(img), null, 2)}\n</metadata>\n\n<sources>\n${formatSources(srcs)}\n</sources>`;
   if (current) text += `\n\n<previous_analysis>\n${JSON.stringify(current.data, null, 2)}\n</previous_analysis>`;
+  if (current && objection) text += `\n\n<objection>\n${objection}\n</objection>`;
   const res = await ai({
-    system, schema: current ? REVISION_SCHEMA : ANALYSIS_SCHEMA,
+    system, schema: current ? REVISION_SCHEMA : ANALYSIS_SCHEMA, thorough: true,
     content: [{ type: "image", source: { type: "base64", media_type: "image/jpeg", data: await mediaBase64(img.id) } }, { type: "text", text }],
   });
   const data = enforceSources(res.data, new Set(srcs.map(s => s.id)));
-  const entry = { version: (current?.version || 0) + 1, model: res.model, prompt_version: version, created_at: new Date().toISOString(), data };
+  const entry = { version: (current?.version || 0) + 1, model: res.model, prompt_version: version, created_at: new Date().toISOString(), data,
+    ...(objection ? { objection } : {}) };
   await mutateState("analyses", {}, s => { (s[img.id] ||= []).push(entry); return s; }, `Analyse ${img.id} v${entry.version}`);
   return entry;
 }
 
-export async function learnFeedback(analysis, answers) {
+export async function learnFeedback(analysis, answers, img = null) {
   let txt = QUESTIONS.map(([k, l]) => `${l}\n${(answers[k] || "").trim() || "(keine Antwort)"}\n`).join("\n");
   if (answers.q_extra_label) txt += `\n${answers.q_extra_label}\n${(answers.q_extra || "").trim() || "(keine Antwort)"}\n`;
-  const res = await ai({ system: await prompt("learn_feedback_v4"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true,
-    content: `<analysis>\n${JSON.stringify(analysis, null, 2)}\n</analysis>\n\n<answers>\n${txt}</answers>` });
+  const res = await ai({ system: await prompt("learn_feedback_v5"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true,
+    content: [...(img ? [{ type: "image", source: { type: "base64", media_type: "image/jpeg", data: await mediaBase64(img.id) } }] : []),
+      { type: "text", text: `<analysis>\n${JSON.stringify(analysis, null, 2)}\n</analysis>\n\n<answers>\n${txt}</answers>` }] });
   return clampScores(res.data);
 }
 
 export async function drillFeedback(img, dim, analysis, answer) {
-  const res = await ai({ system: await prompt("drill_feedback_v2"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true, content: [
+  const res = await ai({ system: await prompt("drill_feedback_v3"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true, content: [
     { type: "image", source: { type: "base64", media_type: "image/jpeg", data: await mediaBase64(img.id) } },
     { type: "text", text: `<dimension>${dim.label}</dimension>\n<question>${dim.q}</question>\n\n<reference>${referenceText(analysis, dim.field)}</reference>\n\n<full_analysis>\n${JSON.stringify(analysis, null, 2)}\n</full_analysis>\n\n<answer>${answer.trim() || "(keine Antwort)"}</answer>` },
   ] });

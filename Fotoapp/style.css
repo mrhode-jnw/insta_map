@@ -327,3 +327,9 @@ details.lsec.deep > summary .deep-tag { margin-left: 0; }
 .g-img { aspect-ratio: 1 / 1; background: #000; border-radius: 3px; overflow: hidden; }
 .g-img img { width: 100%; height: 100%; object-fit: cover; cursor: zoom-in; }
 .galerie figcaption { color: var(--muted); font-size: 0.88rem; margin-top: 6px; }
+/* objection to an analysis */
+details.objection { margin: 14px 0; border: 1px solid var(--line); border-radius: var(--radius); padding: 6px 12px; }
+details.objection > summary { cursor: pointer; color: var(--accent); padding: 4px 0; }
+details.objection textarea { width: 100%; }
+.objection-answer { margin: 14px 0; padding: 10px 12px; background: var(--panel); border-left: 3px solid var(--accent); border-radius: var(--radius); }
+.objection-answer h4 { margin-top: 0.3em; }

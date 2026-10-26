@@ -261,12 +261,26 @@ views.drillReveal = async id => {
   <div class="two-col reveal"><div><h2>${d.label}: deine Beobachtung</h2><p class="muted small">${d.q}</p><p class="pre">${esc(drill.answer || "—")}</p>
     ${feedbackBlock(drill, "drill-retry")}</div>
   <div><h2>${d.label}: Analyse</h2>${an ? `<p>${esc(referenceText(an.data, d.field) || "Die gespeicherte Analyse (ältere Version) behandelt diesen Aspekt nicht – auf der Bildseite neu erzeugen.")}</p>
-    <details><summary>Ganze Analyse</summary>${analysisBody(an.data)}</details>` : `<p class="pending">Analyse wird erzeugt …</p>`}
+    <details><summary>Ganze Analyse</summary>${analysisBody(an.data)}</details>${objectionBlock(img, an, { drill: drill.id })}` : `<p class="pending">Analyse wird erzeugt …</p>`}
     ${concepts.length ? `<h3>Begriffe dazu</h3><ul>${concepts.map(c => `<li><a href="#/begriffe/${c.id}">${esc(c.name)}</a></li>`).join("")}</ul>` : ""}</div></div>
   ${expertsBlock(img)}${await discussionBlock(img)}${artistCard(photographerOf(img))}
   ${sourcesBlock(sourcesForImage(img), { scope: "image" })}
   ${inSession ? nextButton("drill-next", st.pos + 1 < st.items.length) : `<p><a href="#/sehen">Zurück zu Sehen lernen</a></p>`}`;
 };
+// "Analyse stimmt nicht?": the AI re-checks the picture against his objection; the old version stays (principle 3).
+const objecting = new Set();
+function objectionBlock(img, an, ref = {}) {
+  if (!an) return "";
+  const answered = an.objection ? `<div class="objection-answer"><h4>Dein Einwand (Version ${an.version})</h4><p class="pre">${esc(an.objection)}</p>
+    ${(an.data.deviations || []).length ? `<h4>Antwort der KI nach erneuter Prüfung am Bild</h4><ul>${an.data.deviations.map(d => `<li><code>${esc(d.field)}</code>: ${esc(d.reason)}</li>`).join("")}</ul>`
+      : `<p class="muted">Die KI hat keine Abweichung begründet.</p>`}</div>` : "";
+  if (objecting.has(img.id)) return answered + `<p class="pending">KI prüft deinen Einwand am Bild … (1–3 Minuten)</p>`;
+  return answered + `<details class="objection"><summary>Analyse stimmt nicht?</summary>
+    <form data-action="object" data-img="${img.id}" data-drill="${esc(ref.drill || "")}" data-answer="${esc(ref.answer || "")}">
+      <label>Was ist falsch – und woran siehst du es im Bild?<textarea name="text" rows="4" required placeholder="z. B. Die Kamera stand auf Augenhöhe: Der Bug des mittleren Boots ragt über den Horizont."></textarea></label>
+      <p class="muted small">Die KI prüft deinen Einwand Punkt für Punkt am Bild, korrigiert oder begründet, warum nicht. Die bisherige Version bleibt erhalten; deine Bewertung wird danach neu berechnet.</p>
+      <button>Prüfen lassen</button></form></details>`;
+}
 const nextButton = (action, more, top = false) => `<div class="next${top ? " top" : ""}"><button data-action="${action}">${more ? "Nächstes Bild →" : "Runde abschließen"}</button></div>`;
 
 const imageHeader = img => `<h1>${esc(img.title || "Ohne Titel")} <span class="muted">· ${esc(photographerOf(img).name)}${img.year ? `, ${img.year}` : ""}</span></h1>
@@ -428,6 +442,7 @@ views.bild = async id => {
 };
 const analysisPanel = (img, an) => an ? `${analysisBody(an.data)}
   <p class="meta muted">Version ${an.version} · ${esc(an.model)} · ${esc(an.prompt_version)} · ${fmtDate(an.created_at)}${an.version > 1 ? ` · <a href="#/bild/${img.id}/versionen">frühere Versionen</a>` : ""}</p>
+  ${objectionBlock(img, an)}
   <button class="secondary" data-action="analyze" data-img="${img.id}" data-regen="1">Neu erzeugen …</button><span class="busy">KI analysiert … (1–2 Minuten)</span>`
   : `<p class="muted">Noch keine Analyse.</p><button data-action="analyze" data-img="${img.id}">Analyse erzeugen</button><span class="busy">KI analysiert … (1–2 Minuten)</span>`;
 
@@ -489,7 +504,7 @@ views.learnReveal = async id => {
     ${QUESTIONS.map(([k, l]) => `<dt>${l}</dt><dd>${esc(a[k] || "—")}</dd>`).join("")}
     ${a.q_extra_label ? `<dt>${esc(a.q_extra_label)}</dt><dd>${esc(a.q_extra || "—")}</dd>` : ""}</dl>
     ${feedbackBlock(a, "learn-retry")}</div>
-  <div>${expertsBlock(img)}<h2>Analyse <span class="muted small">(KI)</span></h2>${an ? analysisBody(an.data) : `<p class="pending">Analyse wird erzeugt …</p>`}</div></div>
+  <div>${expertsBlock(img)}<h2>Analyse <span class="muted small">(KI)</span></h2>${an ? analysisBody(an.data) + objectionBlock(img, an, { answer: a.id }) : `<p class="pending">Analyse wird erzeugt …</p>`}</div></div>
   ${await discussionBlock(img)}${artistCard(photographerOf(img))}
   ${sourcesBlock(sourcesForImage(img), { scope: "image" })}
   ${inSession ? nextButton("learn-next", st.pos + 1 < st.ids.length) : `<p><a href="#/lernen">Zurück</a></p>`}`;
@@ -796,7 +811,7 @@ const actions = {
     bg(() => mutateState("answers", [], s => [...s, a], "Lernantwort"));
     bg(() => evaluate("answers", a, async () => {
       const an = await generateAnalysis(img); rerenderIf(a.id);
-      const fb = await learnFeedback(an.data, a);
+      const fb = await learnFeedback(an.data, a, img);
       return { analysis_version: an.version, ...fb };
     }));
     location.hash = `#/lernen/r/${a.id}`;
@@ -806,8 +821,25 @@ const actions = {
     pendingItems.set(a.id, { ...a, error: undefined }); route();
     bg(() => evaluate("answers", pendingItems.get(a.id), async () => {
       const an = await generateAnalysis(img);
-      return { analysis_version: an.version, ...await learnFeedback(an.data, a) };
+      return { analysis_version: an.version, ...await learnFeedback(an.data, a, img) };
     }));
+  },
+  async object(form) {
+    const img = lib.by.images.get(form.dataset.img), text = new FormData(form).get("text").trim(), { drill, answer } = form.dataset;
+    if (!text) return;
+    objecting.add(img.id); route(true);
+    bg(async () => {
+      try {
+        const an = await generateAnalysis(img, true, text);
+        objecting.delete(img.id); route(true);
+        // re-grade his answer against the checked analysis
+        if (drill) { const dr = await findItem("drills", drill); if (dr) { pendingItems.set(dr.id, { ...dr, error: undefined, hit: undefined, feedback_md: undefined }); route(true);
+          await evaluate("drills", pendingItems.get(dr.id), async () => ({ analysis_version: an.version, ...await drillFeedback(img, DIM[dr.dimension], an.data, dr.answer) })); } }
+        if (answer) { const a = await findItem("answers", answer); if (a) { pendingItems.set(a.id, { ...a, error: undefined, hit: undefined, feedback_md: undefined }); route(true);
+          await evaluate("answers", pendingItems.get(a.id), async () => ({ analysis_version: an.version, ...await learnFeedback(an.data, a, img) })); } }
+      } catch (e) { toast(errMsg(e), 6000); }
+      finally { objecting.delete(img.id); route(true); }
+    });
   },
   async "learn-next"() { const st = sess.get("learn"); st.pos++; sess.set("learn", st); location.hash = st.pos < st.ids.length ? "#/lernen/runde" : "#/runde/lernen"; },
 
