@@ -1,0 +1,285 @@
+{
+ "accessed_at": "2026-10-26",
+ "references": [
+  {
+   "image_id": "i2377a54636",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    584573
+   ],
+   "answer_md": "Ghirri fotografierte in Calvi einen Postkartenständer eines Souvenirladens aus der Nähe – das Bild ist eine Nahaufnahme, die sich auf die Reihe von Sonnenuntergangs-Postkarten konzentriert [S584573].",
+   "checkable": [
+    "Nahaufnahme: der Postkartenständer füllt das ganze Bild, keine Umgebung [S584573]",
+    "Die einzelnen Postkarten mit Sonnenuntergängen sind als Karten erkennbar, nicht als Landschaft [S584573]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1a31ccaacd",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana arbeitete laut NGV mit einem Zoomobjektiv, um den Raum zu verdichten und eine zweidimensional wirkende Perspektive zu erzeugen [S147496].",
+   "checkable": [
+    "Raum stark verdichtet: Feld- und Hügelbänder liegen wie flache Farbstreifen übereinander [S147496]",
+    "Kaum Tiefenhinweise – die Landschaft wirkt zweidimensional [S147496]"
+   ],
+   "scope_note": "Projekt-Text der National Gallery of Victoria (Isobel Crombie) über Fontanas Farblandschaften allgemein; das Bild ist ein Beispiel dieser Serie (flach gestaffelte Feldbänder)."
+  },
+  {
+   "image_id": "i75c55fc725",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana arbeitete laut NGV mit einem Zoomobjektiv, um den Raum zu verdichten und eine zweidimensional wirkende Perspektive zu erzeugen [S147496].",
+   "checkable": [
+    "Raum stark verdichtet: Feld- und Hügelbänder liegen wie flache Farbstreifen übereinander [S147496]",
+    "Kaum Tiefenhinweise – die Landschaft wirkt zweidimensional [S147496]"
+   ],
+   "scope_note": "Projekt-Text der National Gallery of Victoria (Isobel Crombie) über Fontanas Farblandschaften allgemein; das Bild ist ein Beispiel dieser Serie (flach gestaffelte Feldbänder)."
+  },
+  {
+   "image_id": "i8c728da0ac",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana arbeitete laut NGV mit einem Zoomobjektiv, um den Raum zu verdichten und eine zweidimensional wirkende Perspektive zu erzeugen [S147496].",
+   "checkable": [
+    "Raum stark verdichtet: Feld- und Hügelbänder liegen wie flache Farbstreifen übereinander [S147496]",
+    "Kaum Tiefenhinweise – die Landschaft wirkt zweidimensional [S147496]"
+   ],
+   "scope_note": "Projekt-Text der National Gallery of Victoria (Isobel Crombie) über Fontanas Farblandschaften allgemein; das Bild ist ein Beispiel dieser Serie (flach gestaffelte Feldbänder)."
+  },
+  {
+   "image_id": "if01782938a",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    775749
+   ],
+   "answer_md": "Giacomellis Landschaften entstanden von erhöhten Standorten – von Hügeln oder aus dem Kleinflugzeug eines Freundes – aus großer Entfernung; das verdichtet die Distanzen und verzerrt den Maßstab, das Gelände wird fast kalligrafisch abstrakt [S775749].",
+   "checkable": [
+    "Felder und Furchen aus Entfernung von oben gesehen, Raum verdichtet [S775749]",
+    "Maßstab schwer abzuschätzen – Bäume/Häuser wirken winzig, die Furchen wie Schrift [S775749]"
+   ],
+   "scope_note": "Galerie-Text (Danziger Gallery) über die Paesaggio-Serie allgemein; das Bild ist ein Beispiel der Serie."
+  },
+  {
+   "image_id": "i6a83638a3e",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    775749
+   ],
+   "answer_md": "Giacomellis Landschaften entstanden von erhöhten Standorten – von Hügeln oder aus dem Kleinflugzeug eines Freundes – aus großer Entfernung; das verdichtet die Distanzen und verzerrt den Maßstab, das Gelände wird fast kalligrafisch abstrakt [S775749].",
+   "checkable": [
+    "Felder und Furchen aus Entfernung von oben gesehen, Raum verdichtet [S775749]",
+    "Maßstab schwer abzuschätzen – Bäume/Häuser wirken winzig, die Furchen wie Schrift [S775749]"
+   ],
+   "scope_note": "Galerie-Text (Danziger Gallery) über die Paesaggio-Serie allgemein; das Bild ist ein Beispiel der Serie."
+  },
+  {
+   "image_id": "i1f600f7db9",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://www.moma.org/docs/press_archives/5684/releases/MOMA_1978_0120_114.pdf",
+     "title": "Frank Gohlke Photos on View at The Museum of Modern Art – Press Release No. 114 (1978)",
+     "author": "John Szarkowski (zitiert in der MoMA-Pressemitteilung)",
+     "kind": "curator",
+     "excerpt": "His pictures from that year deal with the subject in almost purely formal terms, and show geometrical fragments of the structures in a shallow, abstract space."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Gohlkes Getreidesilo-Bilder von 1972 zeigen geometrische Ausschnitte der Bauten in einem flachen, abstrakten Raum [Q1].",
+   "checkable": [
+    "Nur ein Ausschnitt des Silos, kein ganzes Gebäude [Q1]",
+    "Flacher Bildraum: kaum Tiefe, keine Landschaft dahinter [Q1]"
+   ],
+   "scope_note": "Szarkowski spricht über alle Bilder von 1972; das Bild (Minneapolis, 1972) ist eines davon."
+  },
+  {
+   "image_id": "iaf6f9cb056",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    664474
+   ],
+   "answer_md": "Ab 1973 trat Gohlke von den Silos zurück, um die Luft um sie herum und das Land, auf dem sie stehen, zu zeigen [S664474].",
+   "checkable": [
+    "Ganzer Gebäudekomplex mit Umgebung statt Fragment [S664474]",
+    "Vordergrund mit Boden/Gleisen und Himmel über den Bauten sichtbar [S664474]"
+   ],
+   "scope_note": "Szarkowskis Aussage betrifft Gohlkes Arbeiten ab 1973 allgemein; das Bild ist von 1973."
+  },
+  {
+   "image_id": "iaa1ad6ed22",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    822648,
+    739974
+   ],
+   "answer_md": "Zhangs weite Aufnahmen stellen die ausgedehnte Landschaft ihren Bewohnern gegenüber, die im Vergleich winzig erscheinen [S822648]; er arbeitete mit einer Großformatkamera [S739974].",
+   "checkable": [
+    "Menschen am Ufer sind winzig gegenüber der Ruine und der Fläche [S822648]",
+    "Weiter Bildausschnitt aus Abstand, keine Nahsicht auf Personen [S822648]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idd43ebb5ff",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    537786
+   ],
+   "answer_md": "Menschen wirken in Zhangs Bildern winzig gegenüber ihrer weiten Umgebung; er will sie trotzdem darin haben, weil die Szene ohne sie nicht funktioniert [S537786].",
+   "checkable": [
+    "Der Mann auf der Insel ist nur ein winziger Punkt in der Fläche [S537786]",
+    "Er ist trotzdem der Maßstab, an dem man die Weite abliest [S537786]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2b86d15a66",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    248604,
+    739974
+   ],
+   "answer_md": "Die winzigen menschlichen Figuren vor den großen Formen sind ein Merkmal der Gelben-Fluss-Serie, angelehnt an die chinesische Kunsttradition [S248604]; Zhang arbeitete mit Großformat [S739974].",
+   "checkable": [
+    "Die Familie unter der Brücke ist klein gegenüber dem Brückenpfeiler [S248604]",
+    "Abstand groß genug, dass die Brücke die Figuren klar überragt [S248604]"
+   ],
+   "scope_note": "C41-Text über die Serie The Yellow River allgemein; das Bild gehört zur Serie."
+  },
+  {
+   "image_id": "i2172940078",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://archive.org/details/greatwhitesouthb00pontuoft",
+     "title": "The Great White South (1922), Kapitel über die Ankunft am Cape Evans",
+     "author": "Herbert G. Ponting",
+     "kind": "photographer",
+     "excerpt": "Eastwards, over the frozen sea, in which half-a-dozen weathered bergs were imprisoned, a crenellated ice-cliff rose abruptly for a hundred feet or more of height, and extended northward for several miles. It was the face of the Barne Glacier. Over this formidable rampart there were miles of icy slopes, above which Erebus, the King of the mountains of the South, … sat enthroned in all his majesty of 13,500 feet of height"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Ponting beschreibt den Blick auf die Barne-Gletscherfront: eine zinnenartige Eisklippe von über hundert Fuß Höhe, dahinter kilometerweite Eishänge und darüber der 13.500 Fuß hohe Erebus [Q1].",
+   "checkable": [
+    "Eiskliff im Vordergrund (über 30 m hoch) [Q1]",
+    "Dahinter meilenweite Eishänge, darüber der Erebus-Gipfel [Q1]"
+   ],
+   "scope_note": "Die Bildtafel „The Ramparts of Mt. Erebus“ steht im Buch direkt an dieser Textstelle; Ponting beschreibt die Szene, nicht ausdrücklich die Aufnahme."
+  },
+  {
+   "image_id": "iae886d05e2",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/elemental-light/",
+     "title": "Elemental Light – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "This photograph is of a schist stone wall, about 15’ across. It was illuminated by the noonday sun skimming the surface. It reflected the light so much that you had to squint to see it. I used my 305mm G-Clarion lens at f/32 for 1/15 second on Fujichrome 50 film."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild zeigt eine Schiefermauer von etwa 15 Fuß Breite (gut 4,5 m), aufgenommen mit einem 305-mm-Objektiv [Q1].",
+   "checkable": [
+    "Bildbreite entspricht nur rund 4,5 m Mauerfläche [Q1]",
+    "Fläche füllt das ganze Bild, kein Horizont, keine Umgebung [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7004b09619",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/forest-light/",
+     "title": "Forest Light – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "The Cibachrome prints of this image continually astonish me with their depth, rich tonality and three dimensional qualities which exemplify what can be done with 8x10” film and skillful hand printing."
+    }
+   ],
+   "library_source_ids": [
+    296202
+   ],
+   "answer_md": "Burkett nahm die Baumgruppe am Rand einer kleinen Schotterstraße mit einem 450-mm-Objektiv auf [S296202] auf 8×10-Zoll-Film [Q1].",
+   "checkable": [
+    "Ausschnitt einer Baumgruppe, nicht der ganze Wald [S296202]",
+    "Stämme parallel und senkrecht (Verstellung der Fachkamera) [S296202]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1c7c70fe18",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    603160
+   ],
+   "answer_md": "Seit etwa 2003 ist Sambunaris weiter zurückgetreten: menschliche Spuren sind oft noch zu sehen, aber das Land beherrscht den größten Teil des Bildes [S603160].",
+   "checkable": [
+    "Der Lastwagen ist nur ein winziger Fleck in der Tagebau-Landschaft [S603160]",
+    "Gelände und Terrassen füllen fast das ganze Bild [S603160]"
+   ],
+   "scope_note": "Aussage über Sambunaris’ Arbeiten nach 2002 allgemein; das Bild ist von 2009."
+  },
+  {
+   "image_id": "i088f7e3424",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    732498
+   ],
+   "answer_md": "Vorn steht eine Plakatwand mit einem schneebedeckten Berg – vor echten Bergen in der Ferne [S732498].",
+   "checkable": [
+    "Nahes Plakat-Bergbild vs. echte Berge am Horizont [S732498]",
+    "Das Plakatbild wirkt größer als die fernen echten Berge [S732498]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if524e7ef6d",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    998808
+   ],
+   "answer_md": "Ein Plattenweg führt vom Vordergrund zu den fernen Hügeln; rechts liegt der Stausee [S998808].",
+   "checkable": [
+    "Weg beginnt groß im nahen Vordergrund und wird zu den Hügeln hin schmal [S998808]",
+    "Ferne Hügel und Stausee klein im Hintergrund [S998808]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i17cf409650",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    486145
+   ],
+   "answer_md": "Muybridge baute das Bild malerisch: ein sanfter, allmählicher Vordergrund führt zu fernen, aufragenden Felswänden [S486145].",
+   "checkable": [
+    "Breiter Vordergrund mit Fluss und Sandbank [S486145]",
+    "Felswände klein und fern im Hintergrund [S486145]"
+   ],
+   "scope_note": ""
+  }
+ ]
+}
