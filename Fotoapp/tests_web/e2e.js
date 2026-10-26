@@ -48,8 +48,12 @@ const ANALYSIS = {
   const refImg = lib.images[0];
   lib.sources.push({ id: 999999, url: "https://example.org/making-of", title: "Making-of (Testquelle)", excerpt: "TESTQUELLE: Das Licht kam am späten Nachmittag flach von links.",
     accessed_at: "2026-10-26", scope: "reference", scope_id: `${refImg.id}:light`, role: "photographer", author: "Test-Fotograf" });
+  lib.sources.push({ id: 999998, url: "https://example.org/standpunkt", title: "Interview (Testquelle)", excerpt: "TESTSTANDPUNKT: Ich stand auf dem Dach meines Wagens.",
+    accessed_at: "2026-10-26", scope: "reference", scope_id: `${refImg.id}:viewpoint`, role: "photographer", author: "Test-Fotograf" });
   lib.references = [{ image_id: refImg.id, dimension: "light", entries: [{ answer_md: "Flaches Licht von links am späten Nachmittag [S999999].",
-    checkable: ["Lange Schatten nach rechts [S999999]"], scope_note: "", source_ids: [999999] }] }];
+    checkable: ["Lange Schatten nach rechts [S999999]"], scope_note: "", source_ids: [999999] }] },
+    { image_id: refImg.id, dimension: "viewpoint", entries: [{ answer_md: "Vom Autodach aus, also erhöht [S999998].",
+    checkable: ["Blick leicht von oben [S999998]"], scope_note: "", source_ids: [999998] }] }];
   const libJson = JSON.stringify(lib);
   const configJs = `window.SEHSCHULE_MEDIA_KEY_ENC = "${await encWithCode(mediaKey)}";
 window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; window.SEHSCHULE_MODEL = "claude-opus-5-5"; window.SEHSCHULE_EFFORT = "high";
@@ -247,6 +251,8 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   await page.fill('textarea[name="q_position"]', "Von unten"); const t0 = Date.now(); await page.click("#questions button");
   await waitText("Deine Antworten"); ok(Date.now() - t0 < 1500, "reveal opens immediately (AI runs in background)");
   await waitText("TESTFEEDBACK", 30000); await shot("05-learn-reveal");
+  ok((await page.content()).includes("TESTSTANDPUNKT") && (await page.content()).includes("was die Quellen sagen"), "learning round reveals the sourced reference");
+  ok(claudeCalls.some(c => JSON.stringify(c.body).includes("references_and_answers") && JSON.stringify(c.body).includes("TESTSTANDPUNKT")), "learning round graded against the sources");
   ok(await page.$("table.pq") !== null, "points per question shown");
   ok(files.has("sehschule/answers.enc@map-data"), "answer stored");
   // discussion

@@ -3,7 +3,7 @@ import { AIError, loadState, mediaUrl, providerLabel, mutateState, session, stor
 import {
   CONSTRUCTION_LABELS, DIM, DIMENSIONS, DRILLABLE, EXTRA_QUESTIONS, QUESTIONS, addOwn, allTags, analyses, chapterDraft,
   currentAnalysis, drillFeedback, esc, generateAnalysis, learnFeedback, lib, loadLibrary, md, newSourceId, ownId,
-  LEARN_ROUND_REQUIRES, PASS_RATIO, analysisPending, lessonTime, splitDeep, refFor, refCount, drillFeedbackSourced, askLesson, discuss, expertsFor, isUnlocked, theoryProgress, photographerOf, projectOf, referenceText, referencedIds, sourcesFor, sourcesForImage,
+  LEARN_ROUND_REQUIRES, PASS_RATIO, analysisPending, lessonTime, splitDeep, refFor, refCount, drillFeedbackSourced, learnRefs, learnFeedbackSourced, LEARN_REF_DIMS, askLesson, discuss, expertsFor, isUnlocked, theoryProgress, photographerOf, projectOf, referenceText, referencedIds, sourcesFor, sourcesForImage,
 } from "./domain.js";
 
 const $ = s => document.querySelector(s);
@@ -291,7 +291,7 @@ function objectionBlock(img, an, ref = {}) {
 const ROLE = { photographer: "Fotograf:in selbst", museum: "Museum", curator: "Kurator:in", critic: "Kritik", teaching: "Lehrgang / Hochschule", magazine: "Fachmagazin" };
 function refBlock(ref, d) {
   const ids = [...new Set(ref.entries.flatMap(e => e.source_ids))], srcs = ids.map(i => lib.by.sources.get(i)).filter(Boolean);
-  return `<section class="refblock"><h2>${d.label}: was die Quellen sagen</h2>
+  return `<section class="refblock"><h2>${d.label} – was die Quellen sagen</h2>
     ${ref.entries.map(e => `<div class="prose">${md(e.answer_md)}</div>
       ${e.checkable.length ? `<p class="small"><b>Daran siehst du es im Bild:</b></p><ul class="checkable">${e.checkable.map(c => `<li>${md(c).replace(/^<p>|<\/p>$/g, "")}</li>`).join("")}</ul>` : ""}
       ${e.scope_note ? `<p class="muted small">${esc(e.scope_note)}</p>` : ""}`).join("")}
@@ -490,12 +490,14 @@ views.lernen = async () => {
   const missing = LEARN_ROUND_REQUIRES.filter(k => !isUnlocked(prog, k));
   if (missing.length) return `<h1>Lernrunde</h1><p class="lead">Die Lernrunde fragt Standpunkt, Moment und Weglassen ab – dafür zuerst diese Lektionen abschließen:</p>
     <ul>${missing.map(k => `<li><a href="#/theorie/${k}">${esc(lib.by.lessons.get(k)?.title || DIM[k].label)}</a></li>`).join("")}</ul>`;
-  return `<h1>Lernrunde</h1><p class="lead">Ein Bild, vier Fragen und eine wechselnde fünfte. Die Analyse bleibt verborgen, bis du geantwortet hast.</p>
+  const sourcedImgs = lib.images.filter(i => Object.keys(learnRefs(i.id)).length).length;
+  return `<h1>Lernrunde</h1><p class="lead">Ein Bild, vier Fragen und eine wechselnde fünfte. Die Referenzen bleiben verborgen, bis du geantwortet hast.</p>
   <form data-action="learn-start" class="card grid-form"><fieldset class="wide"><legend>Auswahl</legend>
     <label class="radio"><input type="radio" name="mode" value="random" checked> zufällig</label>
     <label class="radio"><input type="radio" name="mode" value="tag"> nach Schlagwort <select name="tag">${allTags().map(t => `<option>${esc(t)}</option>`).join("")}</select></label>
     <label class="radio"><input type="radio" name="mode" value="chapter"> nach Kapitel <select name="chapter">${lib.chapters.map(c => `<option value="${c.id}">${c.number}. ${esc(c.title)}</option>`).join("")}</select></label></fieldset>
     <label>Erst schauen <select name="look">${LOOK_CHOICES.map(s => `<option value="${s}" ${s === 60 ? "selected" : ""}>${s ? s + " Sekunden" : "ohne Timer"}</option>`).join("")}</select></label>
+    <label class="check wide"><input type="checkbox" name="sourced" ${sourcedImgs ? "checked" : ""}> Nur Bilder mit Quellenreferenz (empfohlen, ${sourcedImgs} Bilder) <span class="muted small">– Standpunkt, Moment und Weglassen werden mit Aussagen der Fotografen, Museen und Lehrgänge verglichen; die KI-Einschätzung gibt es nur auf Wunsch</span></label>
     <label>Bilder <select name="size"><option>3</option><option selected>4</option><option>5</option></select></label><button>Runde starten</button></form>
   ${answers.length ? `<p><a href="#/lernen/antworten">Alle Antworten (${answers.length})</a></p>` : ""}`;
 };
@@ -524,7 +526,14 @@ views.learnReveal = async id => {
     ${QUESTIONS.map(([k, l]) => `<dt>${l}</dt><dd>${esc(a[k] || "—")}</dd>`).join("")}
     ${a.q_extra_label ? `<dt>${esc(a.q_extra_label)}</dt><dd>${esc(a.q_extra || "—")}</dd>` : ""}</dl>
     ${feedbackBlock(a, "learn-retry")}</div>
-  <div>${expertsBlock(img)}<h2>Analyse <span class="muted small">(KI-Einschätzung, kann irren)</span></h2>${an ? analysisMeta(an) + analysisBody(an.data) + objectionBlock(img, an, { answer: a.id }) : `<p class="pending">Analyse wird erzeugt …</p>`}</div></div>
+  <div>${(() => { const refs = learnRefs(img.id, a.q_extra_label), keys = Object.keys(refs);
+    const aiPart = an ? analysisMeta(an) + analysisBody(an.data) + objectionBlock(img, an, { answer: a.id })
+      : keys.length ? `<div id="analysis"><button class="secondary" data-action="analyze" data-img="${img.id}">KI-Einschätzung erzeugen</button><span class="busy">KI analysiert … (1–3 Minuten)</span></div>` : `<p class="pending">Analyse wird erzeugt …</p>`;
+    if (!keys.length) return `${expertsBlock(img)}<h2>Analyse <span class="muted small">(KI-Einschätzung, kann irren – zu diesem Bild gibt es keine Quellenreferenz)</span></h2>${aiPart}`;
+    const label = k => k === "q_extra" ? a.q_extra_label.split(":")[0] : QUESTIONS.find(([q]) => q === k)[1];
+    return keys.map(k => refBlock(refs[k], { label: label(k) })).join("")
+      + `<p class="muted small">Ohne Quelle (nicht bewertet): ${[...QUESTIONS.map(([k, l]) => [k, l]), ...(a.q_extra_label ? [["q_extra", a.q_extra_label.split(":")[0]]] : [])].filter(([k]) => !refs[k]).map(([, l]) => esc(l)).join(" · ")}</p>`
+      + expertsBlock(img) + `<details class="ai-opt"><summary>KI-Einschätzung (zusätzlich, kann irren)</summary>${aiPart}</details>`; })()}</div></div>
   ${await discussionBlock(img)}${artistCard(photographerOf(img))}
   ${sourcesBlock(sourcesForImage(img), { scope: "image" })}
   ${inSession ? nextButton("learn-next", st.pos + 1 < st.ids.length) : `<p><a href="#/lernen">Zurück</a></p>`}`;
@@ -828,11 +837,14 @@ const actions = {
     const f = new FormData(form); let pool = lib.images.slice();
     if (f.get("mode") === "tag") pool = pool.filter(i => (i.tags || []).includes(f.get("tag")));
     if (f.get("mode") === "chapter") { const s = await chapterState(lib.by.chapters.get(f.get("chapter"))); pool = pool.filter(i => s.ids.includes(i.id)); }
+    const sourced = f.get("sourced") === "on";
+    if (sourced) pool = pool.filter(i => Object.keys(learnRefs(i.id)).length);
+    const nRefs = i => Object.keys(learnRefs(i.id)).length;
     const done = new Set((await loadState("answers", [])).map(a => a.image_id));
-    const ids = [...shuffle(pool.filter(i => !done.has(i.id))), ...shuffle(pool.filter(i => done.has(i.id)))].slice(0, Number(f.get("size"))).map(i => i.id);
-    if (!ids.length) return toast("Für diese Auswahl gibt es keine Bilder.");
-    sess.set("learn", { ids, pos: 0, look: Number(f.get("look")), seed: Math.floor(Math.random() * 4), done: [] });
-    prefetch(ids);
+    const ids = [...shuffle(pool.filter(i => !done.has(i.id))).sort((a, b) => nRefs(b) - nRefs(a)), ...shuffle(pool.filter(i => done.has(i.id)))].slice(0, Number(f.get("size"))).map(i => i.id);
+    if (!ids.length) return toast(sourced ? "Für diese Auswahl gibt es keine Bilder mit Quellenreferenz – Haken entfernen, um mit KI-Einschätzung zu üben." : "Für diese Auswahl gibt es keine Bilder.", 6000);
+    sess.set("learn", { ids, pos: 0, look: Number(f.get("look")), seed: Math.floor(Math.random() * 4), done: [], sourced });
+    if (!sourced) prefetch(ids); // with sources, the AI analysis is only made on request
     location.hash = "#/lernen/runde";
   },
   async "learn-answer"(form) {
@@ -842,7 +854,9 @@ const actions = {
     pendingItems.set(a.id, a);
     const st = sess.get("learn"); if (st) { st.done = [...(st.done || []), a.id]; sess.set("learn", st); }
     bg(() => mutateState("answers", [], s => [...s, a], "Lernantwort"));
+    const refs = learnRefs(img.id, a.q_extra_label);
     bg(() => evaluate("answers", a, async () => {
+      if (Object.keys(refs).length) return { reference: true, ...await learnFeedbackSourced(img, a, refs) };
       const an = await generateAnalysis(img); rerenderIf(a.id);
       const fb = await learnFeedback(an.data, a, img);
       return { analysis_version: an.version, ...fb };
@@ -852,7 +866,9 @@ const actions = {
   async "learn-retry"(btn) {
     const a = await findItem("answers", btn.dataset.id), img = lib.by.images.get(a.image_id);
     pendingItems.set(a.id, { ...a, error: undefined }); route();
+    const refs = learnRefs(img.id, a.q_extra_label);
     bg(() => evaluate("answers", pendingItems.get(a.id), async () => {
+      if (Object.keys(refs).length) return { reference: true, ...await learnFeedbackSourced(img, a, refs) };
       const an = await generateAnalysis(img);
       return { analysis_version: an.version, ...await learnFeedback(an.data, a, img) };
     }));
@@ -868,7 +884,7 @@ const actions = {
         // re-grade his answer against the checked analysis
         if (drill) { const dr = await findItem("drills", drill); if (dr && !refFor(dr.image_id, dr.dimension)) { pendingItems.set(dr.id, { ...dr, error: undefined, hit: undefined, feedback_md: undefined }); route(true);
           await evaluate("drills", pendingItems.get(dr.id), async () => ({ analysis_version: an.version, ...await drillFeedback(img, DIM[dr.dimension], an.data, dr.answer) })); } }
-        if (answer) { const a = await findItem("answers", answer); if (a) { pendingItems.set(a.id, { ...a, error: undefined, hit: undefined, feedback_md: undefined }); route(true);
+        if (answer) { const a = await findItem("answers", answer); if (a && !Object.keys(learnRefs(a.image_id, a.q_extra_label)).length) { pendingItems.set(a.id, { ...a, error: undefined, hit: undefined, feedback_md: undefined }); route(true);
           await evaluate("answers", pendingItems.get(a.id), async () => ({ analysis_version: an.version, ...await learnFeedback(an.data, a, img) })); } }
       } catch (e) { toast(errMsg(e), 6000); }
       finally { objecting.delete(img.id); route(true); }

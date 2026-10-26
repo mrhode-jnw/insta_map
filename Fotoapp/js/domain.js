@@ -256,6 +256,24 @@ export function referenceSourcesText(ref) {
     + "\n\nQuellen (wörtlich):\n" + ids.map(i => lib.by.sources.get(i)).filter(Boolean)
       .map(s => `[S${s.id}] ${s.author || ""}${s.role ? ` (${s.role})` : ""}: "${s.excerpt}" – ${s.title}`).join("\n");
 }
+// Learning round: which questions can be checked against sourced references
+export const LEARN_REF_DIMS = { q_position: "viewpoint", q_wait: "moment", q_omitted: "omitted" };
+export const EXTRA_REF_DIMS = [null, "detail", "edge", "time_motion"]; // matches EXTRA_QUESTIONS
+export function learnRefs(imageId, extraLabel = "") {
+  const out = {};
+  for (const [k, dim] of Object.entries(LEARN_REF_DIMS)) { const r = refFor(imageId, dim); if (r) out[k] = r; }
+  const xi = EXTRA_QUESTIONS.indexOf(extraLabel), xdim = EXTRA_REF_DIMS[xi];
+  if (xdim && refFor(imageId, xdim)) out.q_extra = refFor(imageId, xdim);
+  return out;
+}
+export async function learnFeedbackSourced(img, answers, refs) {
+  const qs = [...QUESTIONS, ...(answers.q_extra_label ? [["q_extra", answers.q_extra_label]] : [])];
+  const txt = qs.map(([k, l]) => `${l}\nAntwort: ${(answers[k] || "").trim() || "(keine Antwort)"}\nReferenz: ${refs[k] ? "\n" + referenceSourcesText(refs[k]) : "keine Quelle"}\n`).join("\n");
+  const res = await ai({ system: await prompt("learn_feedback_src_v1"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true,
+    content: [...await imageBlocks(img), { type: "text", text: `<references_and_answers>\n${txt}</references_and_answers>` }] });
+  return clampScores(res.data);
+}
+
 export async function drillFeedbackSourced(img, dim, ref, answer) {
   const res = await ai({ system: await prompt("drill_feedback_src_v1"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true, content: [
     ...await imageBlocks(img),
