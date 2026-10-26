@@ -347,3 +347,8 @@ details.ai-opt { margin: 12px 0; border: 1px dashed var(--line); border-radius: 
 details.ai-opt > summary { cursor: pointer; color: var(--muted); }
 label.check { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
 label.check input { width: auto; }
+/* theory sub-navigation (course, history, photographers, concepts, timeline) */
+.subnav { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; margin: -6px 0 18px; padding-bottom: 2px; }
+.subnav::-webkit-scrollbar { display: none; }
+.subnav a { flex: none; padding: 5px 12px; border: 1px solid var(--line); border-radius: 16px; color: var(--text); font-size: 0.92rem; }
+.subnav a.on { border-color: var(--accent); color: var(--accent); }

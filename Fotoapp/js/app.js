@@ -312,7 +312,7 @@ views.theorie = async () => {
   const done = lib.lessons.filter(l => prog[l.id]?.passed).length;
   const next = lib.lessons.find(l => !prog[l.id]?.passed);
   return `<h1>Theorie</h1>
-  <p class="lead">Ein Kurs in ${lib.lessons.length} Lektionen: Beschreibung, Erklärung, Beispiele, Abschlusstest. Erst wenn eine Lektion bestanden ist, öffnet sich die Sehübung dazu.</p>
+  <p class="lead">Der Lernteil: ein Kurs in ${lib.lessons.length} Lektionen (Beschreibung, Erklärung, Beispiele, Abschlusstest – erst wenn eine Lektion bestanden ist, öffnet sich die Sehübung dazu), dazu die <a href="#/geschichte">Geschichte</a> in ${lib.chapters.length} Kapiteln, <a href="#/fotografen">${lib.photographers.length} Fotografen</a>, die <a href="#/begriffe">Seh-Begriffe</a> und die <a href="#/zeitleiste">Zeitleiste</a>.</p>
   <div class="stats"><span><b>${done}</b>/${lib.lessons.length} bestanden</span></div>
   ${next ? "" : `<p class="ok">Alle Lektionen bestanden.</p>`}
   ${[["sehen", "Sehen: Bildmerkmale"], ["grundlagen", "Grundlagen: Theorie, Methode, Praxis"], ["fotografen", "Fotografen: Traditionen, Handschriften, Werke"]].map(([track, label]) => {
@@ -704,6 +704,13 @@ const routes = [
 ];
 
 // keep=true: background results re-render the page in place without jumping to the top.
+// Theory section: course, history, photographers, concepts and timeline are one learning area with a sub-navigation.
+const THEORY_TABS = [["theorie", "Kurs"], ["geschichte", "Geschichte"], ["fotografen", "Fotografen"], ["begriffe", "Begriffe"], ["zeitleiste", "Zeitleiste"]];
+const THEORY_OF = { theorie: "theorie", geschichte: "geschichte", kapitel: "geschichte", fotografen: "fotografen", fotograf: "fotografen", projekt: "fotografen",
+  begriffe: "begriffe", begriff: "begriffe", zeitleiste: "zeitleiste" };
+const theoryTab = path => THEORY_OF[path.split("/")[1]];
+const theoryNav = tab => `<nav class="subnav">${THEORY_TABS.map(([k, l]) => `<a href="#/${k}"${k === tab ? ' class="on"' : ""}>${l}</a>`).join("")}</nav>`;
+
 let renderSeq = 0;
 async function route(keep = false) {
   const ticket = ++renderSeq, hashAtStart = location.hash;
@@ -722,7 +729,8 @@ async function route(keep = false) {
       // a slower, older render (e.g. a background re-render) must not overwrite a newer page
       if (ticket !== renderSeq || location.hash !== hashAtStart) return;
       if (html !== "") {
-        main().innerHTML = html; hydrate();
+        const tab = theoryTab(path);
+        main().innerHTML = (tab ? theoryNav(tab) : "") + html; hydrate();
         for (const [k, v] of typed) {
           const [a, n, rv] = k.split("|"), sel = `form[data-action="${a}"] [name="${n}"]${rv ? `[value="${CSS.escape(rv)}"]` : ""}`, t = main().querySelector(sel);
           if (!t) continue;
@@ -731,7 +739,9 @@ async function route(keep = false) {
         window.scrollTo(0, keep ? y : 0);
       }
     } catch (e) { console.error(e); main().innerHTML = `<p class="error">${esc(e.message)}</p>`; }
-    document.querySelectorAll("header nav a").forEach(a => a.classList.toggle("on", location.hash.startsWith(a.getAttribute("href")) && a.getAttribute("href") !== "#/"));
+    const section = theoryTab(path) ? "#/theorie" : null;
+    document.querySelectorAll("header nav a").forEach(a => a.classList.toggle("on", section ? a.getAttribute("href") === section
+      : location.hash.startsWith(a.getAttribute("href")) && a.getAttribute("href") !== "#/"));
     return;
   }
   main().innerHTML = `<p class="muted">Seite nicht gefunden.</p>`;
