@@ -8435,7 +8435,26 @@ window.PLACES_CN = [
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Jailing_Jang_by_Night.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Jailing_Jang_by_Night.jpg",
+    "kind": "photo",
+    "image": "images/walk_cq_jiangbeizui_5.jpg",
+    "caption": "",
+    "credit": "Willi Weasel · CC BY-SA 4.0 · Wikimedia Commons"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Chongqing_Nightscape.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Chongqing_Nightscape.jpg",
+    "kind": "photo",
+    "image": "images/walk_cq_jiangbeizui_2.jpg",
+    "caption": "",
+    "credit": "Jay Huang · CC BY 2.0 · Wikimedia Commons"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Gläserner Kristallbau gegenüber Raffles City und Chaotianmen",
   "image_page": "https://commons.wikimedia.org/wiki/File:Chongqing_-_View_03.jpg",
@@ -8514,6 +8533,24 @@ window.PLACES_CN = [
     "image": "images/claude_cq_raffles_6.jpg",
     "caption": "",
     "credit": "Dean Jorquera · Flickr"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-2.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-2.jpg",
+    "kind": "photo",
+    "image": "images/walk_cq_raffles_16.jpg",
+    "caption": "",
+    "credit": "Suicasmo · CC0 · Wikimedia Commons"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-4.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-4.jpg",
+    "kind": "photo",
+    "image": "images/walk_cq_raffles_17.jpg",
+    "caption": "",
+    "credit": "Suicasmo · CC0 · Wikimedia Commons"
    }
   ],
   "pop": 4,
