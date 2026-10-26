@@ -22,39 +22,45 @@
    "sections": [
     {
      "heading": "Tradition: Von New Topographics zum Anthropozän",
-     "body_md": "::kurz Die Gruppe erbt von den New Topographics den nüchternen „straight“ Blick – und ergänzt ihn um den umstrittenen Begriff Anthropozän.\n::skizze ph-anthropocene-zeitleiste | Von der Umleitung des Owens-Zuflusses 1913 bis zur Entscheidung von 2024: die belegten Daten dieser Lektion.\n::merke Anthropozän ist ein Deutungsrahmen, kein geologisches Faktum – und noch kein Urteil.\n\n**New Topographics (1975)**\n- Kurator William Jenkins sprach von „stilistischer Anonymität“ – bewusst unemotional, gegen den gefühlsbetonten Ansatz von Ansel Adams [S282345].\n- Statt transzendenter Naturpanoramen: Industrielandschaft, Zersiedelung, Alltägliches [S704550].\n- Treu dem „straight“ Bild: unmanipulierter Abzug, große Schärfentiefe, viel Detail, klassische Komposition [S175906] – wie fast alle Bodenfotografen hier, nur in Farbe.\n\n**Anthropozän**\n- Burtynskys Projekt: Der Mensch beeinflusse die Erde stärker als alle anderen natürlichen Kräfte zusammen [S144253].\n- Geologisch nicht anerkannt: 2024 entschied ein Fachgremium, dass es keine offizielle Epoche wird [S924357].\n- Hegen nutzt ihn als Rahmen, ohne Wertung: Veränderung sei nicht automatisch gut oder schlecht [S550984].\n- Michael Light: 1952 sei das landschaftliche Erhabene ganz auf den Menschen als Architekten übergegangen [S544940].\n\n**Meine Einschätzung:** Luftbildner machen Muster sichtbar, die am Boden unsichtbar sind; Bodenfotografen setzen auf Frontalität und Nachbarschaft; Expeditionsfotografen erzählen eine Strecke statt eines Orts."
+     "body_md": "::kurz Die Gruppe erbt von den New Topographics den nüchternen „straight“ Blick – und ergänzt ihn um den umstrittenen Begriff Anthropozän.\n::skizze ph-anthropocene-zeitleiste | Von der Umleitung des Owens-Zuflusses 1913 bis zur Entscheidung von 2024: die belegten Daten dieser Lektion.\n::merke Anthropozän ist ein Deutungsrahmen, kein geologisches Faktum – und noch kein Urteil.\n\n**New Topographics (1975)**\n- Kurator William Jenkins sprach von „stilistischer Anonymität“ – bewusst unemotional, gegen den gefühlsbetonten Ansatz von Ansel Adams [S282345].\n- Statt transzendenter Naturpanoramen: Industrielandschaft, Zersiedelung, Alltägliches [S704550].\n- Treu dem „straight“ Bild: unmanipulierter Abzug, große Schärfentiefe, viel Detail, klassische Komposition [S175906] – wie fast alle Bodenfotografen hier, nur in Farbe.\n\n**Anthropozän**\n- Burtynskys Projekt: Der Mensch beeinflusse die Erde stärker als alle anderen natürlichen Kräfte zusammen [S144253].\n- Geologisch nicht anerkannt: 2024 entschied ein Fachgremium, dass es keine offizielle Epoche wird [S924357].\n- Hegen nutzt ihn als Rahmen, ohne Wertung: Veränderung sei nicht automatisch gut oder schlecht [S550984].\n- Michael Light: 1952 sei das landschaftliche Erhabene ganz auf den Menschen als Architekten übergegangen [S544940].\n\n**Meine Einschätzung:** Luftbildner machen Muster sichtbar, die am Boden unsichtbar sind; Bodenfotografen setzen auf Frontalität und Nachbarschaft; Expeditionsfotografen erzählen eine Strecke statt eines Orts.",
+     "deep": true
     },
     {
      "heading": "Von oben I: David Maisel und Michael Light",
-     "body_md": "::kurz Maisel macht aus einem ausgetrockneten See einen roten Körper ohne Maßstab; Light zeigt die Wüste schräg, schwarzweiß, mit Flughöhe und Uhrzeit im Titel.\n\n**David Maisel**\n- Kam zum Luftbild über Flüge mit seinem Lehrer Emmet Gowin über Mount St. Helens und abgeholzte Wälder [S767832].\n- *The Lake Project*: Owens Lake, einst 200 Quadratmeilen groß; sein Zufluss wurde ab 1913 ins Aquädukt nach Los Angeles umgeleitet [S734609]. Aufnahmen 2001–2002, Rückkehr 2015 für die neuen Schichten der Eingriffe [S650536].\n- Aus der Luft: Blutstrom, Mikrochip, aufgeschnittene Vene, Galaxienkarte – eine „zeitgenössische Version des Erhabenen“, seltsame Schönheit aus Umweltzerstörung [S485743].\n- Flughöhe komponiert: tief fürs Muster, höher für den Überblick [S108865]. Ohne Horizont wird der Betrachter orientierungslos [S379400]; Nummerntitel verweigern Zusatzinformation [S200536].\n\n**Michael Light**\n- Selbst Pilot, startet meist kurz nach Tagesanbruch, vor den Turbulenzen [S923647]; rund anderthalb Stunden mit ausgehängten Türen und einer etwa 20 Pfund schweren Kamera [S515223]. Er muss kreisen – die Kamera lässt sich nicht zwei Zoll nach links rücken [S773320].\n- Meist tiefes Morgen- und Abendlicht für Plastizität und „Offenbarung“ [S890028], manchmal gezielt das flache, „halluzinatorische“ Mittagslicht [S495769].\n- Archivbücher *FULL MOON* (Apollo) und *100 SUNS* (Atomtests) [S307438]; *Some Dry Space* war sein erstes großes handgemachtes Buch, 18 Bilder [S316504].\n::vergleich i32d59b1183 i4911b04482 | Maisel, Lake Project 2: senkrecht auf rot leuchtende, rissige Kruste, oben ein dunkler Spalt – kein Horizont, kein Maßstab. | Light, Carson Sink „at 500’, 1700 hours“: schräger Schwarzweißblick, die Bahntrasse zieht schnurgerade in den dunstigen Horizont, tiefes Licht modelliert die Senken.\n::schau Woran erkennst du in jedem der beiden Bilder, wie groß die Dinge sind? Suche Linie, Horizont, bekannte Form."
+     "body_md": "::kurz Maisel macht aus einem ausgetrockneten See einen roten Körper ohne Maßstab; Light zeigt die Wüste schräg, schwarzweiß, mit Flughöhe und Uhrzeit im Titel.\n\n**David Maisel**\n- Kam zum Luftbild über Flüge mit seinem Lehrer Emmet Gowin über Mount St. Helens und abgeholzte Wälder [S767832].\n- *The Lake Project*: Owens Lake, einst 200 Quadratmeilen groß; sein Zufluss wurde ab 1913 ins Aquädukt nach Los Angeles umgeleitet [S734609]. Aufnahmen 2001–2002, Rückkehr 2015 für die neuen Schichten der Eingriffe [S650536].\n- Aus der Luft: Blutstrom, Mikrochip, aufgeschnittene Vene, Galaxienkarte – eine „zeitgenössische Version des Erhabenen“, seltsame Schönheit aus Umweltzerstörung [S485743].\n- Flughöhe komponiert: tief fürs Muster, höher für den Überblick [S108865]. Ohne Horizont wird der Betrachter orientierungslos [S379400]; Nummerntitel verweigern Zusatzinformation [S200536].\n\n**Michael Light**\n- Selbst Pilot, startet meist kurz nach Tagesanbruch, vor den Turbulenzen [S923647]; rund anderthalb Stunden mit ausgehängten Türen und einer etwa 20 Pfund schweren Kamera [S515223]. Er muss kreisen – die Kamera lässt sich nicht zwei Zoll nach links rücken [S773320].\n- Meist tiefes Morgen- und Abendlicht für Plastizität und „Offenbarung“ [S890028], manchmal gezielt das flache, „halluzinatorische“ Mittagslicht [S495769].\n- Archivbücher *FULL MOON* (Apollo) und *100 SUNS* (Atomtests) [S307438]; *Some Dry Space* war sein erstes großes handgemachtes Buch, 18 Bilder [S316504].\n::vergleich i32d59b1183 i4911b04482 | Maisel, Lake Project 2: senkrecht auf rot leuchtende, rissige Kruste, oben ein dunkler Spalt – kein Horizont, kein Maßstab. | Light, Carson Sink „at 500’, 1700 hours“: schräger Schwarzweißblick, die Bahntrasse zieht schnurgerade in den dunstigen Horizont, tiefes Licht modelliert die Senken.\n::schau Woran erkennst du in jedem der beiden Bilder, wie groß die Dinge sind? Suche Linie, Horizont, bekannte Form.",
+     "deep": true
     },
     {
      "heading": "Von oben II: Tom Hegen – Landschaft als Grafik",
-     "body_md": "::kurz Hegen denkt wie ein Grafikdesigner: Erst soll das Bild gefallen, dann die Frage auslösen, was man da eigentlich sieht.\n\n- **Herkunft:** Kommunikationsdesigner, denkt „wie ein Grafikdesigner“, nur mit Fotografie [S830971]. Baute im Studium einen Quadrokopter mit Kamera [S589244]; Orte findet er über Google Earth, geplant wird nach Flugwetter [S668076].\n- **Wendepunkt:** Stromleitungen, Straßen und Gebäude störten ihn in klassischen Landschaften – bis er fragte, warum er eine „perfekte Welt“ vortäuschen wolle, die es nicht gibt [S933323].\n- **Methode:** Abstraktion und Ästhetisierung, damit man zuerst „wow“ denkt und beim zweiten Blick fragt, was man sieht und warum [S335177]. Der senkrechte Blick macht die Bilder völlig flach [S610840]; manche brauchen Zeit zum Entschlüsseln [S459848].\n- *The Lithium Series I* (Salar de Atacama): Lithiumreiche Sole wird in Becken gepumpt und von der Sonne eingedampft [S210836] – für Hegen eine neue Spirale menschlicher Eingriffe auf dem Weg zur sauberen Energie [S498201].\n::vergleich i830ba0dac2 i3860f5745f | Senkrecht: Türkis, Weiß und ein brauner Damm mit Fahrspuren – reine Fläche, kein Oben und Unten. | Aus derselben Serie, schräg und höher: Die Beckenanlage wird zum Gelände mit Bergrand – jetzt sieht man Größe und Lage.\n::merke Die Stromleitung ist kein Fehler im Bild, sondern oft sein Thema."
+     "body_md": "::kurz Hegen denkt wie ein Grafikdesigner: Erst soll das Bild gefallen, dann die Frage auslösen, was man da eigentlich sieht.\n\n- **Herkunft:** Kommunikationsdesigner, denkt „wie ein Grafikdesigner“, nur mit Fotografie [S830971]. Baute im Studium einen Quadrokopter mit Kamera [S589244]; Orte findet er über Google Earth, geplant wird nach Flugwetter [S668076].\n- **Wendepunkt:** Stromleitungen, Straßen und Gebäude störten ihn in klassischen Landschaften – bis er fragte, warum er eine „perfekte Welt“ vortäuschen wolle, die es nicht gibt [S933323].\n- **Methode:** Abstraktion und Ästhetisierung, damit man zuerst „wow“ denkt und beim zweiten Blick fragt, was man sieht und warum [S335177]. Der senkrechte Blick macht die Bilder völlig flach [S610840]; manche brauchen Zeit zum Entschlüsseln [S459848].\n- *The Lithium Series I* (Salar de Atacama): Lithiumreiche Sole wird in Becken gepumpt und von der Sonne eingedampft [S210836] – für Hegen eine neue Spirale menschlicher Eingriffe auf dem Weg zur sauberen Energie [S498201].\n::vergleich i830ba0dac2 i3860f5745f | Senkrecht: Türkis, Weiß und ein brauner Damm mit Fahrspuren – reine Fläche, kein Oben und Unten. | Aus derselben Serie, schräg und höher: Die Beckenanlage wird zum Gelände mit Bergrand – jetzt sieht man Größe und Lage.\n::merke Die Stromleitung ist kein Fehler im Bild, sondern oft sein Thema.",
+     "deep": true
     },
     {
      "heading": "Am Boden mit der Fachkamera: Epstein, McPhee, Beahan",
-     "body_md": "::kurz Mit der Fachkamera am Boden zeigen Epstein, McPhee und Beahan Energie, Wetter und verlassene Ufer – frontal, detailreich, langsam.\n\n**Mitch Epstein**\n- Mit Eggleston, Meyerowitz und Shore Pionier der künstlerischen Farbfotografie der 1970er [S273077].\n- *American Power* (2003–2008): Orte der Kohle-, Atom-, Wasser-, Wind- und Solarenergie [S352443] – fünf Jahre, 25 Bundesstaaten [S866114].\n- Auslöser war ein Auftrag in Cheshire, Ohio, einem Ort, den ein Energiekonzern aufgekauft und mit einer Schweigeverpflichtung belegt hatte [S610008].\n- Das Großformat machte ihn sichtbar; Kontrollen und Platzverweise gaben den Bildern laut Epstein Schwere [S876068]. Ziel: „mehrstufige“ Bilder mit Widersprüchen statt einer Note [S320799]. 2011 Prix Pictet [S557852].\n::bild i22c860437a | Gavin-Kraftwerk in Cheshire, dem Ort, der das Projekt auslöste: Von unten quellen zwei graue Wolkensäulen aus Rohren in den weißen Himmel – kein Horizont, nur Masse.\n\n**Laura McPhee**\n- Nutzt bewusst Technik des 19. Jahrhunderts, um Zeit zu verlangsamen und Raum für Fakten und Vorstellung zu öffnen [S797272].\n- *Desert Chronicle*: Film, Großformat, geologische wie menschliche Zeit [S112584] – Land, das wir wiederherstellen, schützen, verändern, ausbeuten [S557627]. Ein Kritiker: kühle, üppige Farbe, fast schwarzweiß karg [S200294].\n\n**Virginia Beahan**\n- Seit 1987 mit McPhee im Projekt *No Ordinary Land* [S439907]; Deardorff-Großformatkamera [S443614]; sieht sich in einer langen Tradition der Landschaftsfotografie [S505727].\n- Kehrt zurück, um Veränderung zu sehen [S668140]; sucht Landschaften, „die viele Geschichten erzählen“ [S524939]. Der Salton Sea steht für die schlimmsten Folgen menschlicher Eingriffe – und mögliche kreative Lösungen [S340960]. Die langen Titel gehören zur Aussage [S762637].\n::vergleich ib39c1a7468 i906a555bda | McPhee, Lightning over Joe Jump Basin: Nacht, ein Blitz zieht quer über dunkle Hügel – Wetter als Drama. | Beahan, Receding Shoreline at Dawn: rosa-blaues Dämmerlicht, Mond, flaches Wasser, viel Himmel – Stille statt Ereignis.\n::schau Epstein, McPhee, Beahan: Wo liegt das Ereignis jeweils – im Motiv, im Wetter oder im Licht?\n\n*Erkennen:* Epstein – frontale Nachbarschaften (Footballtraining vor Kühlturm), sachliches Licht, Ironie ohne Kommentar. McPhee – Wetterdrama, Blitz, Dämmerung, langzeitbelichtetes Wasser [S917641]. Beahan – weiches Dämmerlicht, viel Himmel, kleine verlassene Spuren, beschreibende Titel."
+     "body_md": "::kurz Mit der Fachkamera am Boden zeigen Epstein, McPhee und Beahan Energie, Wetter und verlassene Ufer – frontal, detailreich, langsam.\n\n**Mitch Epstein**\n- Mit Eggleston, Meyerowitz und Shore Pionier der künstlerischen Farbfotografie der 1970er [S273077].\n- *American Power* (2003–2008): Orte der Kohle-, Atom-, Wasser-, Wind- und Solarenergie [S352443] – fünf Jahre, 25 Bundesstaaten [S866114].\n- Auslöser war ein Auftrag in Cheshire, Ohio, einem Ort, den ein Energiekonzern aufgekauft und mit einer Schweigeverpflichtung belegt hatte [S610008].\n- Das Großformat machte ihn sichtbar; Kontrollen und Platzverweise gaben den Bildern laut Epstein Schwere [S876068]. Ziel: „mehrstufige“ Bilder mit Widersprüchen statt einer Note [S320799]. 2011 Prix Pictet [S557852].\n::bild i22c860437a | Gavin-Kraftwerk in Cheshire, dem Ort, der das Projekt auslöste: Von unten quellen zwei graue Wolkensäulen aus Rohren in den weißen Himmel – kein Horizont, nur Masse.\n\n**Laura McPhee**\n- Nutzt bewusst Technik des 19. Jahrhunderts, um Zeit zu verlangsamen und Raum für Fakten und Vorstellung zu öffnen [S797272].\n- *Desert Chronicle*: Film, Großformat, geologische wie menschliche Zeit [S112584] – Land, das wir wiederherstellen, schützen, verändern, ausbeuten [S557627]. Ein Kritiker: kühle, üppige Farbe, fast schwarzweiß karg [S200294].\n\n**Virginia Beahan**\n- Seit 1987 mit McPhee im Projekt *No Ordinary Land* [S439907]; Deardorff-Großformatkamera [S443614]; sieht sich in einer langen Tradition der Landschaftsfotografie [S505727].\n- Kehrt zurück, um Veränderung zu sehen [S668140]; sucht Landschaften, „die viele Geschichten erzählen“ [S524939]. Der Salton Sea steht für die schlimmsten Folgen menschlicher Eingriffe – und mögliche kreative Lösungen [S340960]. Die langen Titel gehören zur Aussage [S762637].\n::vergleich ib39c1a7468 i906a555bda | McPhee, Lightning over Joe Jump Basin: Nacht, ein Blitz zieht quer über dunkle Hügel – Wetter als Drama. | Beahan, Receding Shoreline at Dawn: rosa-blaues Dämmerlicht, Mond, flaches Wasser, viel Himmel – Stille statt Ereignis.\n::schau Epstein, McPhee, Beahan: Wo liegt das Ereignis jeweils – im Motiv, im Wetter oder im Licht?\n\n*Erkennen:* Epstein – frontale Nachbarschaften (Footballtraining vor Kühlturm), sachliches Licht, Ironie ohne Kommentar. McPhee – Wetterdrama, Blitz, Dämmerung, langzeitbelichtetes Wasser [S917641]. Beahan – weiches Dämmerlicht, viel Himmel, kleine verlassene Spuren, beschreibende Titel.",
+     "deep": true
     },
     {
      "heading": "Victoria Sambunaris: die geduldige Topografin",
-     "body_md": "::kurz Sambunaris hält Licht, Rahmung und Schärfe über Jahre konstant – deshalb lesen sich Container, Lkw und Uranhalden als eine Serie.\n::skizze ph-anthropocene-sambunaris | Ihr Ablauf: recherchieren, mit Mittelformat skizzieren, auf diffuses Licht warten, dann meist nur zwei Planfilme belichten.\n\n- **Unterwegs:** seit über 25 Jahren monatelang allein im Auto durch die USA, mit 5×7-Zoll-Fachkamera, Film, Video und Recherchematerial [S231743]; sie sammelt Karten, Fahrtenbücher, Geologiebücher, Mineralien [S616337].\n- **Ablauf:** Mittelformat als „Skizze“ [S288607], bis zu zwei Wochen Warten auf neutrales, diffuses Licht [S438067], meist nur zwei Planfilme pro Motiv [S992469].\n- **Konstanz:** frontale Rahmung, präzise Schärfe, gleichmäßiges Licht – bei Zügen, Lkw, Pipeline und Uranhalden gleichermaßen [S168913].\n- **Haltung:** Sie versucht, nicht direkt politisch zu sein [S369007]. Seit ihren frühen Bildern ist sie weiter zurückgetreten: Spuren des Menschen bleiben sichtbar, das Land beherrscht das Bild [S603160]. Ihr Thema: die „Anomalien einer gewöhnlichen Landschaft“ – Lager, Verteilzentren, Containerterminals [S106420].\n::vergleich i40facb438a i0f15c67b8a | Newark 2001: rote Container frontal vor weißem, bedecktem Himmel – das Objekt füllt das Bild. | Wendover 2007: erhöht und weit zurück; die Siedlung liegt klein zwischen Wüste und Schneebergen, das Land dominiert.\n::schau Suche in beiden Bildern harte Schatten. Wie gleichmäßig ist das Licht – und was gewinnt die Serie dadurch?\n\n**Meine Einschätzung:** die direkteste Erbin der New Topographics hier – ihr Pathos ist die Wiederholung."
+     "body_md": "::kurz Sambunaris hält Licht, Rahmung und Schärfe über Jahre konstant – deshalb lesen sich Container, Lkw und Uranhalden als eine Serie.\n::skizze ph-anthropocene-sambunaris | Ihr Ablauf: recherchieren, mit Mittelformat skizzieren, auf diffuses Licht warten, dann meist nur zwei Planfilme belichten.\n\n- **Konstanz:** frontale Rahmung, präzise Schärfe, gleichmäßiges Licht – bei Zügen, Lkw, Pipeline und Uranhalden gleichermaßen [S168913].\n::vertiefung\n- **Unterwegs:** seit über 25 Jahren monatelang allein im Auto durch die USA, mit 5×7-Zoll-Fachkamera, Film, Video und Recherchematerial [S231743]; sie sammelt Karten, Fahrtenbücher, Geologiebücher, Mineralien [S616337].\n- **Ablauf:** Mittelformat als „Skizze“ [S288607], bis zu zwei Wochen Warten auf neutrales, diffuses Licht [S438067], meist nur zwei Planfilme pro Motiv [S992469].\n- **Haltung:** Sie versucht, nicht direkt politisch zu sein [S369007]. Seit ihren frühen Bildern ist sie weiter zurückgetreten: Spuren des Menschen bleiben sichtbar, das Land beherrscht das Bild [S603160]. Ihr Thema: die „Anomalien einer gewöhnlichen Landschaft“ – Lager, Verteilzentren, Containerterminals [S106420].\n::vergleich i40facb438a i0f15c67b8a | Newark 2001: rote Container frontal vor weißem, bedecktem Himmel – das Objekt füllt das Bild. | Wendover 2007: erhöht und weit zurück; die Siedlung liegt klein zwischen Wüste und Schneebergen, das Land dominiert.\n::schau Suche in beiden Bildern harte Schatten. Wie gleichmäßig ist das Licht – und was gewinnt die Serie dadurch?\n\n**Meine Einschätzung:** die direkteste Erbin der New Topographics hier – ihr Pathos ist die Wiederholung."
     },
     {
      "heading": "Eis und Fluss: Olaf Otto Becker und Zhang Kechun",
-     "body_md": "::kurz Becker und Zhang machen die Reise selbst zur Methode – Schlauchboot und Inlandeis hier, Faltrad und Gelber Fluss dort, beide in blassem, diffusem Licht.\n\n**Olaf Otto Becker**\n- *Broken Line*: 4000 km im kleinen Schlauchboot an Grönlands Westküste, mit 8×10-Zoll-Kamera; Deutscher Fotobuchpreis 2007 [S868914]. Er notierte die GPS-Koordinaten jedes Standorts, damit spätere Fotografen die Veränderung dokumentieren können [S553496].\n- Auslöser: ein isländischer Gletscher, 1999 fotografiert, drei Jahre später verschwunden [S440311].\n- *Above Zero*: zwei Expeditionen, 450 km zu Fuß durch die Schmelzzone, Porträts von Schmelzwasserflüssen [S604464]; dazu begleitete er Klimaforscher [S197774].\n- Leerer Horizont und diffuses Licht nehmen jeden Anhaltspunkt für Tageszeit und Größe [S618901]. Ein Text sieht ihn in der Linie von Watkins und O’Sullivan: Entdecker und Lastträger [S173502].\n::bild i57c8962b83 | River 1, Position 5: Ein türkisgrauer Schmelzwasserfluss schneidet diagonal durch weißes Eis; Himmel und Eisfläche gehen fast grenzenlos ineinander über – kein Maßstab, keine Tageszeit.\n\n**Zhang Kechun**\n- Folgte ab 2010 drei Jahre lang dem Gelben Fluss von der Mündung bis zur Quellregion [S739974], mit Faltrad und Linhof-Großformatkamera [S880163].\n- Suchte das Ideal des Flusses, fand Verschmutzung – und lief nicht davor weg [S671588].\n- Bewölkte Tage, leicht überbelichtet – der gedämpfte Ton der Song-zeitlichen Landschaftsmalerei [S994730]. Winzige Figuren vor großen Naturformen nach chinesischer Kunsttradition [S248604], in der Berge und Flüsse als tugendhaft gelten [S627564]; ohne die Menschen funktioniere die Szene nicht [S537786].\n- 2014 Discovery Award in Arles für *The Yellow River* [S751993].\n::bild id3a3ef2dc6 | Morgengymnastik unter einer Drachenlampe: Eine Gruppe kleiner Figuren steht unter einem riesigen bunten Drachen aus Gerüst und Stoff, alles in blassem, grünlichem Licht.\n\n*Erkennen:* Becker – Weiß, Eisblau, kaum Menschen, Horizont fast aufgelöst. Zhang – Sandgelb, Grau, blasses Grün [S852998], winzige Menschen neben absurden Objekten (Kunstfelsen im trockenen See, Drache aus Gerüst).\n::merke Bedeckter Himmel ist hier keine Notlösung, sondern die Farbpalette."
+     "body_md": "::kurz Becker und Zhang machen die Reise selbst zur Methode – Schlauchboot und Inlandeis hier, Faltrad und Gelber Fluss dort, beide in blassem, diffusem Licht.\n::bild id3a3ef2dc6 | Morgengymnastik unter einer Drachenlampe: Eine Gruppe kleiner Figuren steht unter einem riesigen bunten Drachen aus Gerüst und Stoff, alles in blassem, grünlichem Licht.\n\n*Erkennen:* Becker – Weiß, Eisblau, kaum Menschen, Horizont fast aufgelöst. Zhang – Sandgelb, Grau, blasses Grün [S852998], winzige Menschen neben absurden Objekten (Kunstfelsen im trockenen See, Drache aus Gerüst).\n\n- *Broken Line*: 4000 km im kleinen Schlauchboot an Grönlands Westküste, mit 8×10-Zoll-Kamera; Deutscher Fotobuchpreis 2007 [S868914]. Er notierte die GPS-Koordinaten jedes Standorts, damit spätere Fotografen die Veränderung dokumentieren können [S553496].\n::vertiefung\n**Olaf Otto Becker**\n- Auslöser: ein isländischer Gletscher, 1999 fotografiert, drei Jahre später verschwunden [S440311].\n- *Above Zero*: zwei Expeditionen, 450 km zu Fuß durch die Schmelzzone, Porträts von Schmelzwasserflüssen [S604464]; dazu begleitete er Klimaforscher [S197774].\n- Leerer Horizont und diffuses Licht nehmen jeden Anhaltspunkt für Tageszeit und Größe [S618901]. Ein Text sieht ihn in der Linie von Watkins und O’Sullivan: Entdecker und Lastträger [S173502].\n::bild i57c8962b83 | River 1, Position 5: Ein türkisgrauer Schmelzwasserfluss schneidet diagonal durch weißes Eis; Himmel und Eisfläche gehen fast grenzenlos ineinander über – kein Maßstab, keine Tageszeit.\n\n**Zhang Kechun**\n- Folgte ab 2010 drei Jahre lang dem Gelben Fluss von der Mündung bis zur Quellregion [S739974], mit Faltrad und Linhof-Großformatkamera [S880163].\n- Suchte das Ideal des Flusses, fand Verschmutzung – und lief nicht davor weg [S671588].\n- Bewölkte Tage, leicht überbelichtet – der gedämpfte Ton der Song-zeitlichen Landschaftsmalerei [S994730]. Winzige Figuren vor großen Naturformen nach chinesischer Kunsttradition [S248604], in der Berge und Flüsse als tugendhaft gelten [S627564]; ohne die Menschen funktioniere die Szene nicht [S537786].\n- 2014 Discovery Award in Arles für *The Yellow River* [S751993].\n\n::merke Bedeckter Himmel ist hier keine Notlösung, sondern die Farbpalette."
     },
     {
      "heading": "Vergleich: was man leicht verwechselt",
-     "body_md": "::kurz Die Luftbildner unterscheidest du an Farbe, Blickwinkel und Form, die Bodenfotografen an Haltung und Licht.\n::skizze ph-anthropocene-erkennen | Die drei Luftbildner auf einen Blick: Maisel organisch und ohne Maßstab, Hegen rechtwinklig und geordnet, Light schwarzweiß, schräg und mit Horizont.\n\n- **Maisel vs. Hegen:** Maisel ist organisch – Schönheit, Faszination und Schrecken zu gleichen Teilen, räumlich desorientierend [S190804]. Hegen ist orthogonal, will erst gefallen, dann fragen lassen [S335177].\n::vergleich i98e3bc0868 i5a774edaf7 | Maisel, Lake Project 38: dunkelrote Adern verzweigen sich über hellen Grund wie Blutgefäße. | Hegen, TLiSI09: gelbe und weiße Streifen in strenger Wiederholung, ein winziges Fahrzeug als einziger Maßstab.\n- **Becker vs. Zhang** (beide blass, Großformat): Becker zeigt Natur, die schmilzt, fast menschenleer; Zhang Menschen in einer Kulturlandschaft, deren Modernisierung absurd wirkt.\n- **Sambunaris vs. Epstein** (Farbe, Fachkamera, Industrie): Sambunaris tritt zurück und vermeidet Politik [S369007]; Epstein rückt Widersprüche in dasselbe Bild [S320799].\n- **McPhee vs. Maisel am selben Ort:** Beide fotografierten Owens Lake – derselbe See, zwei Haltungen.\n::vergleich i9cfcda5fd0 i46d7ff5871 | Maisel 2015, Lake Project 66: Ein orangerotes Band windet sich durch grau-blauen Seeboden – Körper statt Ort. | McPhee 2015, Owens Lake bei Olancha: dunkler, gemusterter Boden, in den Wasserflächen spiegelt sich rosa Himmel – Landschaft mit Raum.\n::schau Derselbe See: Welches Bild sagt dir mehr über den Ort, welches mehr über ein Gefühl?"
+     "body_md": "::kurz Die Luftbildner unterscheidest du an Farbe, Blickwinkel und Form, die Bodenfotografen an Haltung und Licht.\n::galerie i98e3bc0868 i3a3cf2bd28 i830ba0dac2 i22c860437a ib39c1a7468 i906a555bda i40facb438a i57c8962b83 i8fbeb4c2fe | Je ein typisches Bild – tippe zum Vergrößern. Achte auf Blickwinkel, Horizont, Farbe und Licht.\n::skizze ph-anthropocene-erkennen | Die drei Luftbildner auf einen Blick: Maisel organisch und ohne Maßstab, Hegen rechtwinklig und geordnet, Light schwarzweiß, schräg und mit Horizont.\n\n- **Becker vs. Zhang** (beide blass, Großformat): Becker zeigt Natur, die schmilzt, fast menschenleer; Zhang Menschen in einer Kulturlandschaft, deren Modernisierung absurd wirkt.\n- **Sambunaris vs. Epstein** (Farbe, Fachkamera, Industrie): Sambunaris tritt zurück und vermeidet Politik [S369007]; Epstein rückt Widersprüche in dasselbe Bild [S320799].\n::vertiefung\n- **Maisel vs. Hegen:** Maisel ist organisch – Schönheit, Faszination und Schrecken zu gleichen Teilen, räumlich desorientierend [S190804]. Hegen ist orthogonal, will erst gefallen, dann fragen lassen [S335177].\n::vergleich i98e3bc0868 i5a774edaf7 | Maisel, Lake Project 38: dunkelrote Adern verzweigen sich über hellen Grund wie Blutgefäße. | Hegen, TLiSI09: gelbe und weiße Streifen in strenger Wiederholung, ein winziges Fahrzeug als einziger Maßstab.\n- **McPhee vs. Maisel am selben Ort:** Beide fotografierten Owens Lake – derselbe See, zwei Haltungen.\n::vergleich i9cfcda5fd0 i46d7ff5871 | Maisel 2015, Lake Project 66: Ein orangerotes Band windet sich durch grau-blauen Seeboden – Körper statt Ort. | McPhee 2015, Owens Lake bei Olancha: dunkler, gemusterter Boden, in den Wasserflächen spiegelt sich rosa Himmel – Landschaft mit Raum.\n::schau Derselbe See: Welches Bild sagt dir mehr über den Ort, welches mehr über ein Gefühl?"
     },
     {
      "heading": "Kritik, Gegenlesart und Klischee",
-     "body_md": "::kurz Der Hauptvorwurf heißt „toxisches Erhabenes“ – Schönheit, die Gefahr verschleiert; Zhang traf der umgekehrte Vorwurf.\n\n- **Toxisches Erhabenes:** Wer verschmutzte Orte fotografiert, dem wird oft vorgeworfen, die Schönheit verschleiere Gesundheits- und Umweltrisiken [S913794].\n- **Gegenargumente:** Für Hegen ist Schönheit der Köder für den zweiten Blick [S335177]; Maisel nennt seine Bilder selbst prachtvoll und destabilisierend zugleich [S190804].\n- **Umgekehrter Vorwurf:** Zhang wurde vorgeworfen, sein grauer Ton übertreibe die Verschmutzung für ein ausländisches Publikum; einige hielten ihn sogar für einen Spion [S658647].\n::vergleich i659121c450 i2b86d15a66 | Maisel, Lake Project 43: tiefrote und weiße Formen wie Fleisch und Fett – schön oder bedrohlich? | Zhang, Familie unter einer Brücke: grauer Dunst, ein riesiger Betonpfeiler, winzige Menschen am Sandufer – zu grau oder genau richtig?\n::schau Deck die Titel ab: Welches der beiden Bilder fändest du ohne Kontext nur „schön“?\n\n**Alternative Lesart (meine Einschätzung):** Das ist eher Fortsetzung der romantischen Landschaft als Bruch – das Staunen bleibt, nur der Gegenstand wechselt vom Gletscher zur Lithiumhalde. Frag also: Was sagen Titel, Serie, Text – und was fände ich ohne sie nur „schön“?\n\n**Klischee-Gegenbeispiel (meine Einschätzung):** das senkrechte Drohnenbild bunter Salzbecken, das nur „wie ein abstraktes Gemälde“ aussieht und weder Ort noch Prozess nennt – Hegens Oberfläche ohne seine Recherche. Was fehlt: Serie, Rückkehr, Titel, Begleittext."
+     "body_md": "::kurz Der Hauptvorwurf heißt „toxisches Erhabenes“ – Schönheit, die Gefahr verschleiert; Zhang traf der umgekehrte Vorwurf.\n\n- **Toxisches Erhabenes:** Wer verschmutzte Orte fotografiert, dem wird oft vorgeworfen, die Schönheit verschleiere Gesundheits- und Umweltrisiken [S913794].\n- **Gegenargumente:** Für Hegen ist Schönheit der Köder für den zweiten Blick [S335177]; Maisel nennt seine Bilder selbst prachtvoll und destabilisierend zugleich [S190804].\n- **Umgekehrter Vorwurf:** Zhang wurde vorgeworfen, sein grauer Ton übertreibe die Verschmutzung für ein ausländisches Publikum; einige hielten ihn sogar für einen Spion [S658647].\n::vergleich i659121c450 i2b86d15a66 | Maisel, Lake Project 43: tiefrote und weiße Formen wie Fleisch und Fett – schön oder bedrohlich? | Zhang, Familie unter einer Brücke: grauer Dunst, ein riesiger Betonpfeiler, winzige Menschen am Sandufer – zu grau oder genau richtig?\n::schau Deck die Titel ab: Welches der beiden Bilder fändest du ohne Kontext nur „schön“?\n\n**Alternative Lesart (meine Einschätzung):** Das ist eher Fortsetzung der romantischen Landschaft als Bruch – das Staunen bleibt, nur der Gegenstand wechselt vom Gletscher zur Lithiumhalde. Frag also: Was sagen Titel, Serie, Text – und was fände ich ohne sie nur „schön“?\n\n**Klischee-Gegenbeispiel (meine Einschätzung):** das senkrechte Drohnenbild bunter Salzbecken, das nur „wie ein abstraktes Gemälde“ aussieht und weder Ort noch Prozess nennt – Hegens Oberfläche ohne seine Recherche. Was fehlt: Serie, Rückkehr, Titel, Begleittext.",
+     "deep": true
     },
     {
      "heading": "Was du daraus mitnimmst",
-     "body_md": "::kurz Sechs Arbeitsregeln für Reisen durch umgebaute Landschaft – von der Stromleitung bis zum Bildtitel.\n\n- **Infrastruktur ist Motiv, nicht Störung.** Hegens Wendepunkt war die Stromleitung [S933323]. In China: Hochgeschwindigkeitstrasse, Staudamm, Gewächshausfolie gehören ins Bild, wenn sie die Landschaft prägen.\n- **Vorher recherchieren, vor Ort zuhören.** Sambunaris arbeitet projektbezogen, erkundet und spricht mit Einheimischen; Zufall bleibt Teil der Arbeit [S718480].\n- **Bedeckter Himmel als Entscheidung.** Zhang und Sambunaris warten auf weiches Licht [S994730][S438067]; Mittags-Flachlicht kann gewollt sein (Light) [S495769].\n- **Zurückkehren.** Maisel 2015, Beahan am Salton Sea, Becker mit GPS: Wiederholung macht Veränderung sichtbar.\n- **Titel als Information.** Entscheide bewusst, welche Information dein Bild braucht.\n::skizze ph-anthropocene-titel | Drei Titelstrategien: Beahan erklärt den Ort, Light protokolliert Flughöhe und Uhrzeit, Maisel gibt nur eine Nummer.\n- **Distanz wählen** (Skizze in der Einleitung): Teste senkrecht, schräg und Boden am selben Ort.\n::merke Zeig den Eingriff – und entscheide, was Titel und Text dazu sagen."
+     "body_md": "::kurz Sechs Arbeitsregeln für Reisen durch umgebaute Landschaft – von der Stromleitung bis zum Bildtitel.\n\n- **Infrastruktur ist Motiv, nicht Störung.** Hegens Wendepunkt war die Stromleitung [S933323]. In China: Hochgeschwindigkeitstrasse, Staudamm, Gewächshausfolie gehören ins Bild, wenn sie die Landschaft prägen.\n- **Vorher recherchieren, vor Ort zuhören.** Sambunaris arbeitet projektbezogen, erkundet und spricht mit Einheimischen; Zufall bleibt Teil der Arbeit [S718480].\n- **Bedeckter Himmel als Entscheidung.** Zhang und Sambunaris warten auf weiches Licht [S994730][S438067]; Mittags-Flachlicht kann gewollt sein (Light) [S495769].\n- **Zurückkehren.** Maisel 2015, Beahan am Salton Sea, Becker mit GPS: Wiederholung macht Veränderung sichtbar.\n- **Titel als Information.** Entscheide bewusst, welche Information dein Bild braucht.\n::skizze ph-anthropocene-titel | Drei Titelstrategien: Beahan erklärt den Ort, Light protokolliert Flughöhe und Uhrzeit, Maisel gibt nur eine Nummer.\n- **Distanz wählen** (Skizze in der Einleitung): Teste senkrecht, schräg und Boden am selben Ort.\n::merke Zeig den Eingriff – und entscheide, was Titel und Text dazu sagen.",
+     "deep": true
     }
    ],
    "examples": [
@@ -65,7 +71,8 @@
       "kein Horizont, kein Maßstab",
       "Rot gegen Weiß als Körpermetapher",
       "die dünne technische Linie als einziger Hinweis auf den Menschen"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i3a3cf2bd28",
@@ -74,7 +81,8 @@
       "Flugzeugschatten als Selbstporträt",
       "flaches Mittagslicht statt Streiflicht",
       "Höhe und Uhrzeit im Titel"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i5dfc6b8b51",
@@ -83,7 +91,8 @@
       "Raster und reine Farbfelder",
       "Diagonale der Wege als einzige Bewegung",
       "Schönheit als Köder für den zweiten Blick"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i89782f8e78",
@@ -92,7 +101,8 @@
       "zwei Ebenen, die sich widersprechen",
       "frontale, ruhige Großformat-Ansicht",
       "Rot als Bindeglied zwischen Trikots und Tribüne"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i46d7ff5871",
@@ -101,7 +111,8 @@
       "Vergleich mit Maisels Owens Lake",
       "Spiegelung als Schönheit, Titel als Information",
       "kühle, fast monochrome Farbe"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i96ca0566ff",
@@ -110,7 +121,8 @@
       "frontale Symmetrie",
       "neutrales, diffuses Licht",
       "Wiederholung als Aussage über Logistik"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "iddc0f0c4ac",
@@ -119,7 +131,8 @@
       "aufgelöster Horizont",
       "Gelb als einziger Farbakzent",
       "Maßstab nur durch winzige Zelte"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i8fbeb4c2fe",
@@ -128,7 +141,8 @@
       "Sandgelb und Grau statt Blau",
       "Kulturobjekt in falscher Umgebung",
       "Leere als Bildraum wie in der Tuschmalerei"
-     ]
+     ],
+     "deep": true
     }
    ],
    "quiz": [
@@ -142,7 +156,8 @@
       "Zhang Kechun"
      ],
      "correct": 0,
-     "explanation": "Ein verfallenes Holzgerüst im warmen Dämmerlicht auf freigelegtem Seeboden, rosa-blauer Himmel, langer erklärender Titel („Stranded Duck Blind, Exposed by Receding Seawater“): typisch Beahan am Salton Sea. Sambunaris würde neutrales Licht wählen, Zhang einen grauen, blassen Ton."
+     "explanation": "Ein verfallenes Holzgerüst im warmen Dämmerlicht auf freigelegtem Seeboden, rosa-blauer Himmel, langer erklärender Titel („Stranded Duck Blind, Exposed by Receding Seawater“): typisch Beahan am Salton Sea. Sambunaris würde neutrales Licht wählen, Zhang einen grauen, blassen Ton.",
+     "deep": true
     },
     {
      "question": "Wer hat dieses Bild gemacht?",
@@ -190,7 +205,8 @@
       "Dass Farbfotografie für Umweltthemen ungeeignet ist"
      ],
      "correct": 0,
-     "explanation": "Der Aufsatz zum „toxic sublime“ beschreibt genau diesen Vorwurf und analysiert die Spannung zwischen Schönheit und Risiko [S913794]."
+     "explanation": "Der Aufsatz zum „toxic sublime“ beschreibt genau diesen Vorwurf und analysiert die Spannung zwischen Schönheit und Risiko [S913794].",
+     "deep": true
     },
     {
      "question": "Was verbindet Sambunaris’ Arbeitsweise am stärksten mit den New Topographics?",
@@ -226,7 +242,8 @@
       "Ein Flug mit Emmet Gowin über Mount St. Helens"
      ],
      "correct": 0,
-     "explanation": "Hegen beschreibt, wie ihn Stromleitungen und Straßen in klassischen Kompositionen störten, bis er den Begriff Landschaftsfotografie infrage stellte [S933323]. Die Gowin-Flüge gehören zu Maisel [S767832]."
+     "explanation": "Hegen beschreibt, wie ihn Stromleitungen und Straßen in klassischen Kompositionen störten, bis er den Begriff Landschaftsfotografie infrage stellte [S933323]. Die Gowin-Flüge gehören zu Maisel [S767832].",
+     "deep": true
     }
    ],
    "takeaways": [
@@ -265,39 +282,45 @@
    "sections": [
     {
      "heading": "Tradition: Stille als Gegenprogramm",
-     "body_md": "::kurz Stille kommt aus zwei Richtungen: aus Kunst und Ostasien – und aus einer Landschaftsfotografie, die sich selbst diszipliniert.\n\n**Kunst und Ostasien**\n- Kenna nennt Albers, Brandt und Rothko als Lehrer der Einsicht, dass es weder nötig noch wünschenswert ist, ein Rechteck mit Details zu füllen [S917495].\n- Sugimoto war schon vor dem Studium in Los Angeles von Surrealisten wie Breton und Duchamp geprägt [S245699].\n- Kenna vergleicht Hokkaidos Schneelandschaften mit Sumi-e-Tuschmalerei [S234774]; Jungjin Lee beherrschte als Kind die Kalligrafie [S317171].\n\n**Landschaftsfotografie, die sich diszipliniert**\n- Strand, anfangs von Adams und Muench inspiriert [S587459], will heute „stille visuelle Poesie“ statt hoher Berge mit „Halleluja-Himmeln“; das Internet mache die Fotografie stereotyper [S427017].\n- Waites Bilder gelten einem Interviewer als beinahe Antithese zur Muench-Schule mit ihrem Vordergrund-Hintergrund-Schema [S873127].\n::skizze ph-stillness-familien | Meine Einschätzung als Karte: links die konzeptuelle Reduktion in Schwarzweiß, rechts die kompositorische Stille in Farbe.\n::merke Leere ist keine fehlende Information, sondern Raum für den Betrachter.\n\n**Meine Einschätzung:** Die Reduktion entfernt das Motiv bis an die Grenze; die kompositorische Stille behält es und erreicht Ruhe durch Balance und Verzicht auf Effekt."
+     "body_md": "::kurz Stille kommt aus zwei Richtungen: aus Kunst und Ostasien – und aus einer Landschaftsfotografie, die sich selbst diszipliniert.\n\n**Kunst und Ostasien**\n- Kenna nennt Albers, Brandt und Rothko als Lehrer der Einsicht, dass es weder nötig noch wünschenswert ist, ein Rechteck mit Details zu füllen [S917495].\n- Sugimoto war schon vor dem Studium in Los Angeles von Surrealisten wie Breton und Duchamp geprägt [S245699].\n- Kenna vergleicht Hokkaidos Schneelandschaften mit Sumi-e-Tuschmalerei [S234774]; Jungjin Lee beherrschte als Kind die Kalligrafie [S317171].\n\n**Landschaftsfotografie, die sich diszipliniert**\n- Strand, anfangs von Adams und Muench inspiriert [S587459], will heute „stille visuelle Poesie“ statt hoher Berge mit „Halleluja-Himmeln“; das Internet mache die Fotografie stereotyper [S427017].\n- Waites Bilder gelten einem Interviewer als beinahe Antithese zur Muench-Schule mit ihrem Vordergrund-Hintergrund-Schema [S873127].\n::skizze ph-stillness-familien | Meine Einschätzung als Karte: links die konzeptuelle Reduktion in Schwarzweiß, rechts die kompositorische Stille in Farbe.\n::merke Leere ist keine fehlende Information, sondern Raum für den Betrachter.\n\n**Meine Einschätzung:** Die Reduktion entfernt das Motiv bis an die Grenze; die kompositorische Stille behält es und erreicht Ruhe durch Balance und Verzicht auf Effekt.",
+     "deep": true
     },
     {
      "heading": "Michael Kenna: das visuelle Haiku",
-     "body_md": "::kurz Kenna deutet an statt zu beschreiben: ein Motiv, viel Leere, lange Zeit – das „visuelle Haiku“.\n\n- **Haltung:** andeuten mit möglichst wenigen Elementen statt detailreich beschreiben [S129050].\n- **Arbeitsweise:** Morgengrauen oder Nacht, Belichtungen bis zu zehn Stunden, meist analoges Mittelformat, jeder Abzug selbst vergrößert [S962316] – im intimen Format [S377190].\n- **Bedingungen:** Schnee, Regen, Nebel, Wolken, Wind [S517768]; Hokkaidos Winter reduziere Ablenkung [S508588].\n- **Wiederkehr:** seit über zwei Jahrzehnten zu denselben Szenen, variiert nur in Licht, Schneehöhe, kleinen Standpunktverschiebungen [S700752]. Ihn ziehen Orte an, an denen Menschen waren und nicht mehr sind [S656365].\n::vergleich ie8e1600144 i2e6e530e19 | Torii Gate, Study 3: Das Tor steht mittig im weiß verwischten Meer – die Langzeitbelichtung löscht die Wellen. | Ice Floe, Cape Hinode: fast schwarzes Wasser, eine einzige helle Eisscholle als Lichtkeil – Reduktion bis zur Grafik.\n\n*Erkennen:* Quadrat, ein Motiv (Baum, Zaun, Torii), große weiße oder graue Fläche, sanfte Verläufe, oft Langzeitbewegung.\n::schau Zähle die Elemente in beiden Bildern. Was müsste hinzukommen, damit sie unruhig würden?"
+     "body_md": "::kurz Kenna deutet an statt zu beschreiben: ein Motiv, viel Leere, lange Zeit – das „visuelle Haiku“.\n\n- **Haltung:** andeuten mit möglichst wenigen Elementen statt detailreich beschreiben [S129050].\n- **Arbeitsweise:** Morgengrauen oder Nacht, Belichtungen bis zu zehn Stunden, meist analoges Mittelformat, jeder Abzug selbst vergrößert [S962316] – im intimen Format [S377190].\n- **Bedingungen:** Schnee, Regen, Nebel, Wolken, Wind [S517768]; Hokkaidos Winter reduziere Ablenkung [S508588].\n- **Wiederkehr:** seit über zwei Jahrzehnten zu denselben Szenen, variiert nur in Licht, Schneehöhe, kleinen Standpunktverschiebungen [S700752]. Ihn ziehen Orte an, an denen Menschen waren und nicht mehr sind [S656365].\n::vergleich ie8e1600144 i2e6e530e19 | Torii Gate, Study 3: Das Tor steht mittig im weiß verwischten Meer – die Langzeitbelichtung löscht die Wellen. | Ice Floe, Cape Hinode: fast schwarzes Wasser, eine einzige helle Eisscholle als Lichtkeil – Reduktion bis zur Grafik.\n\n*Erkennen:* Quadrat, ein Motiv (Baum, Zaun, Torii), große weiße oder graue Fläche, sanfte Verläufe, oft Langzeitbewegung.\n::schau Zähle die Elemente in beiden Bildern. Was müsste hinzukommen, damit sie unruhig würden?",
+     "deep": true
     },
     {
      "heading": "Hiroshi Sugimoto: dasselbe Bild, immer wieder",
-     "body_md": "::kurz Sugimoto macht seit 1980 an jedem Gewässer dasselbe Bild – die Serie ist das Werk, das Thema ist Zeit.\n::skizze ph-stillness-serie | Oben Sugimoto: immer derselbe Bau, nur Tageszeit, Wetter und Belichtung wechseln. Unten Kenna: dasselbe Motiv bei wechselndem Schnee und leicht verschobenem Standpunkt.\n\n- Seit 1980 Gewässer im Großformat, je Ort mehrere Aufnahmen zu anderen Tageszeiten, Belichtungen, Wetterlagen – das Meer sehen wie zum ersten Mal [S305105].\n- Überall „im Wesentlichen dasselbe Bild“: Horizont genau in der Mitte, Himmel und Wasser gleich groß, keine Spur des Menschen [S598379]. Ausgangsfrage: Welche Szene der Erde hat sich am wenigsten verändert [S177371]?\n- Das übergreifende Thema ist Zeit – auch in den langbelichteten leeren Kinos [S892924].\n- Die Bucht von Sagami seit 2022 nur am Neujahrstag – dann ist sie frei von Booten [S237552]. Eine Galerie betont den Tonwertreichtum dieser einfachsten Komposition [S125293].\n::vergleich i1cebb88136 i038bd30111 | Sea of Japan, Hokkaido 1986: Dunst löst den Himmel auf, der Horizont ist nur ein weicher Übergang. | Bay of Sagami 2022: klarer, harter Horizont, glattes Grau darüber, feine Wellenstruktur darunter.\n::schau Wo genau liegt der Horizont in beiden Bildern – und was unterscheidet sie trotzdem?\n\n*Kenna oder Sugimoto?* Kenna: Motiv, Quadrat, poetische Titel („Philosopher’s Tree“). Sugimoto: kein Motiv, Horizont in der Mitte, Titel nur Gewässer und Ort."
+     "body_md": "::kurz Sugimoto macht seit 1980 an jedem Gewässer dasselbe Bild – die Serie ist das Werk, das Thema ist Zeit.\n::skizze ph-stillness-serie | Oben Sugimoto: immer derselbe Bau, nur Tageszeit, Wetter und Belichtung wechseln. Unten Kenna: dasselbe Motiv bei wechselndem Schnee und leicht verschobenem Standpunkt.\n\n*Kenna oder Sugimoto?* Kenna: Motiv, Quadrat, poetische Titel („Philosopher’s Tree“). Sugimoto: kein Motiv, Horizont in der Mitte, Titel nur Gewässer und Ort.\n\n- Überall „im Wesentlichen dasselbe Bild“: Horizont genau in der Mitte, Himmel und Wasser gleich groß, keine Spur des Menschen [S598379]. Ausgangsfrage: Welche Szene der Erde hat sich am wenigsten verändert [S177371]?\n::vertiefung\n- Seit 1980 Gewässer im Großformat, je Ort mehrere Aufnahmen zu anderen Tageszeiten, Belichtungen, Wetterlagen – das Meer sehen wie zum ersten Mal [S305105].\n- Das übergreifende Thema ist Zeit – auch in den langbelichteten leeren Kinos [S892924].\n- Die Bucht von Sagami seit 2022 nur am Neujahrstag – dann ist sie frei von Booten [S237552]. Eine Galerie betont den Tonwertreichtum dieser einfachsten Komposition [S125293].\n::vergleich i1cebb88136 i038bd30111 | Sea of Japan, Hokkaido 1986: Dunst löst den Himmel auf, der Horizont ist nur ein weicher Übergang. | Bay of Sagami 2022: klarer, harter Horizont, glattes Grau darüber, feine Wellenstruktur darunter.\n::schau Wo genau liegt der Horizont in beiden Bildern – und was unterscheidet sie trotzdem?"
     },
     {
      "heading": "Dunkelheit als Raum: Thomas Joshua Cooper und Awoiska van der Molen",
-     "body_md": "::kurz Cooper und van der Molen nehmen den Horizont weg und lassen das Bild nach innen kippen – in Wasser, Fels und Dunkelheit.\n\n**Thomas Joshua Cooper**\n- *The World’s Edge* (seit 1987) kartiert das Atlantikbecken an seinen nördlichsten, südlichsten, östlichsten und westlichsten Punkten [S790159].\n- Orte nach der Karte, je Ort ein einziges Negativ mit schwerer antiker Fachkamera [S998003], einer Agfa-Ansco aus dem 19. Jahrhundert [S764108]; Abzüge im Stil der Zeit mit Silber- und Goldchlorid [S844854].\n- Kein Horizont: Er schaffe einen Ausgang für Auge und Körper; ohne ihn werden die Bilder nach innen gekehrt [S114728]. Fotografieren sei kein „Schießen“ oder „Nehmen“, sondern eine Gabe [S111580].\n\n**Awoiska van der Molen**\n- Analoges Schwarzweiß für das Psychologische ihrer Motive [S163161]; auf einsamen Wanderungen sucht sie das Wesen eines Ortes [S939670].\n- Langsamkeit in Aufnahme, Ausarbeitung, Betrachtung [S106995]: ein Baum im zunehmenden Mond, eine halbe Stunde belichtet [S596011].\n- Keine Titel [S348685], der Ort ist irrelevant [S127583]; Abzüge teils über zwei Meter [S393700].\n::vergleich i78fcf82aa5 i3d60a64c98 | Cooper, East-most, Nordirland: Gischt wirbelt hell über dunklen Fels, kein Himmel, kein Ausgang – der Titel nennt den östlichsten Punkt Irlands. | Van der Molen, #382-14: ein Baum auf dunkler Felskante, darüber grauer Dunst – eine Nummer statt eines Orts.\n::schau Suche in beiden Bildern einen Ausgang für das Auge. Findest du einen?\n\n*Cooper oder van der Molen?* Cooper: bewegtes Wasser, Gischt, lange Titel mit Himmelsrichtung. Van der Molen: fast schwarze Tonwerte, Pflanzen oder Fels im Nachtlicht, nur Nummern."
+     "body_md": "::kurz Cooper und van der Molen nehmen den Horizont weg und lassen das Bild nach innen kippen – in Wasser, Fels und Dunkelheit.\n::vergleich i78fcf82aa5 i3d60a64c98 | Cooper, East-most, Nordirland: Gischt wirbelt hell über dunklen Fels, kein Himmel, kein Ausgang – der Titel nennt den östlichsten Punkt Irlands. | Van der Molen, #382-14: ein Baum auf dunkler Felskante, darüber grauer Dunst – eine Nummer statt eines Orts.\n::vertiefung\n**Thomas Joshua Cooper**\n- *The World’s Edge* (seit 1987) kartiert das Atlantikbecken an seinen nördlichsten, südlichsten, östlichsten und westlichsten Punkten [S790159].\n- Orte nach der Karte, je Ort ein einziges Negativ mit schwerer antiker Fachkamera [S998003], einer Agfa-Ansco aus dem 19. Jahrhundert [S764108]; Abzüge im Stil der Zeit mit Silber- und Goldchlorid [S844854].\n- Kein Horizont: Er schaffe einen Ausgang für Auge und Körper; ohne ihn werden die Bilder nach innen gekehrt [S114728]. Fotografieren sei kein „Schießen“ oder „Nehmen“, sondern eine Gabe [S111580].\n\n**Awoiska van der Molen**\n- Analoges Schwarzweiß für das Psychologische ihrer Motive [S163161]; auf einsamen Wanderungen sucht sie das Wesen eines Ortes [S939670].\n- Langsamkeit in Aufnahme, Ausarbeitung, Betrachtung [S106995]: ein Baum im zunehmenden Mond, eine halbe Stunde belichtet [S596011].\n- Keine Titel [S348685], der Ort ist irrelevant [S127583]; Abzüge teils über zwei Meter [S393700].\n::schau Suche in beiden Bildern einen Ausgang für das Auge. Findest du einen?\n\n*Cooper oder van der Molen?* Cooper: bewegtes Wasser, Gischt, lange Titel mit Himmelsrichtung. Van der Molen: fast schwarze Tonwerte, Pflanzen oder Fels im Nachtlicht, nur Nummern."
     },
     {
      "heading": "Jungjin Lee: Fotografie als Pinselstrich",
-     "body_md": "::kurz Jungjin Lee streicht die Emulsion von Hand auf Reispapier – das Bild wird Pinselstrich, das Motiv tritt hinter das Gefühl zurück.\n\n- Keramikstudium in Seoul, 1988–1996 in New York, Master in Fotografie, Assistentin von Robert Frank [S317171].\n- Jeder Abzug von Hand: flüssige Emulsion, mit dem Pinsel auf handgeschöpftes Reis- und Maulbeerpapier gestrichen [S295961]. *Wind*: breites Panorama auf koreanischem Hanji [S749226], 105 × 210 cm pro Blatt [S379886].\n- Sie löst aus, wenn eine Landschaft ihre Gefühle und Vorstellungskraft bewegt [S490770]. Wind sei unsichtbar und enthalte mehr innere Gedanken als Tatsachen – „es sind einfach Landschaftsbilder“ [S651300]. Ein Ausstellungstext: Das Motiv ist dem Inhalt untergeordnet [S969423].\n::bild ie73a2854ca | Wind 07-75: extrem breites Blatt mit unregelmäßig gestrichenem Rand; ein Tier läuft klein an einem Zaun entlang, dahinter ein dunkles Band aus Büschen, darüber leeres Grau.\n::merke Bei Lee ist der Abzug kein Fenster, sondern ein Objekt – der Rand gehört zum Bild.\n\n*Erkennen:* extrem breit, gestrichene Ränder, körnige Schwärzen, ein winziges Objekt auf der Linie zwischen Erde und Himmel."
+     "body_md": "::kurz Jungjin Lee streicht die Emulsion von Hand auf Reispapier – das Bild wird Pinselstrich, das Motiv tritt hinter das Gefühl zurück.\n\n- Keramikstudium in Seoul, 1988–1996 in New York, Master in Fotografie, Assistentin von Robert Frank [S317171].\n- Jeder Abzug von Hand: flüssige Emulsion, mit dem Pinsel auf handgeschöpftes Reis- und Maulbeerpapier gestrichen [S295961]. *Wind*: breites Panorama auf koreanischem Hanji [S749226], 105 × 210 cm pro Blatt [S379886].\n- Sie löst aus, wenn eine Landschaft ihre Gefühle und Vorstellungskraft bewegt [S490770]. Wind sei unsichtbar und enthalte mehr innere Gedanken als Tatsachen – „es sind einfach Landschaftsbilder“ [S651300]. Ein Ausstellungstext: Das Motiv ist dem Inhalt untergeordnet [S969423].\n::bild ie73a2854ca | Wind 07-75: extrem breites Blatt mit unregelmäßig gestrichenem Rand; ein Tier läuft klein an einem Zaun entlang, dahinter ein dunkles Band aus Büschen, darüber leeres Grau.\n::merke Bei Lee ist der Abzug kein Fenster, sondern ein Objekt – der Rand gehört zum Bild.\n\n*Erkennen:* extrem breit, gestrichene Ränder, körnige Schwärzen, ein winziges Objekt auf der Linie zwischen Erde und Himmel.",
+     "deep": true
     },
     {
      "heading": "Stille in Farbe: Christopher Burkett und Hans Strand",
-     "body_md": "::kurz Burkett holt Stille aus leuchtender Farbe und perfekter Tonbalance am Boden, Strand aus gedämpften Erdfarben aus der Luft.\n\n**Christopher Burkett**\n- Gilt als „Ansel Adams der Farbfotografie“, einer der letzten mit 8×10-Zoll-Fachkamera und Cibachrome [S250636].\n- Tonbalance durch Kontrastmaske: Ein vom Dia gezogenes Schwarzweißnegativ wird passgenau mit dem Dia kombiniert [S798941].\n::skizze ph-stillness-maske | So arbeitet die Kontrastmaske: Das vom Dia gezogene Negativ liegt passgenau darüber und gleicht helle und dunkle Partien an.\n- Zwei Monate Motivsuche, zehn Monate Drucken [S731521]; den Abzug kennt er schon im Feld [S722162].\n- *Cottonwood and Light*: Baum im Gegenlicht vor schattiger Canyonwand, aufgehellt vom Reflex der orangen Sandsteinwand [S219258]. *Forest Light*: 450 mm, f/64, ½ s [S296202].\n\n**Hans Strand**\n- Bis 1990 Maschinenbauingenieur [S427346]; seine Bilder sind selten Ortsporträts, eher Ausdruck der Kräfte, die eine Landschaft formen [S673974].\n- In der Luft achtet er auf die Ecken und meidet den Horizont, um abstrakter zu werden [S147322]; blauer Himmel mache Bilder „zu süß“ [S364355]. Fürs Island-Buch über 130 Flugstunden in Cessnas und Hubschraubern [S544199].\n::vergleich i7004b09619 i30716a18fd | Burkett, Forest Light: orange-gelbe Espen vor glühendem Gegenlicht – ein Ausschnitt, randvoll mit Farbe, scharf von vorn bis hinten. | Strand, Highland River: von oben ein türkisfarbenes Flussgeflecht zwischen Schneeflecken und dunklen Graten, kein Himmel.\n::schau Wo ist bei Burkett das hellste Licht – und wie viel Zeichnung bleibt in den Schatten?\n\n*Burkett oder Strand?* Burkett: Bodenansicht, leuchtende Farbe in einem Ausschnitt, Licht als Gnade. Strand: Luftbild, gedämpfte Erdfarben, Flussgeflecht als Kraftlinie."
+     "body_md": "::kurz Burkett holt Stille aus leuchtender Farbe und perfekter Tonbalance am Boden, Strand aus gedämpften Erdfarben aus der Luft.\n\n**Christopher Burkett**\n- Gilt als „Ansel Adams der Farbfotografie“, einer der letzten mit 8×10-Zoll-Fachkamera und Cibachrome [S250636].\n- Tonbalance durch Kontrastmaske: Ein vom Dia gezogenes Schwarzweißnegativ wird passgenau mit dem Dia kombiniert [S798941].\n::skizze ph-stillness-maske | So arbeitet die Kontrastmaske: Das vom Dia gezogene Negativ liegt passgenau darüber und gleicht helle und dunkle Partien an.\n- Zwei Monate Motivsuche, zehn Monate Drucken [S731521]; den Abzug kennt er schon im Feld [S722162].\n- *Cottonwood and Light*: Baum im Gegenlicht vor schattiger Canyonwand, aufgehellt vom Reflex der orangen Sandsteinwand [S219258]. *Forest Light*: 450 mm, f/64, ½ s [S296202].\n\n**Hans Strand**\n- Bis 1990 Maschinenbauingenieur [S427346]; seine Bilder sind selten Ortsporträts, eher Ausdruck der Kräfte, die eine Landschaft formen [S673974].\n- In der Luft achtet er auf die Ecken und meidet den Horizont, um abstrakter zu werden [S147322]; blauer Himmel mache Bilder „zu süß“ [S364355]. Fürs Island-Buch über 130 Flugstunden in Cessnas und Hubschraubern [S544199].\n::vergleich i7004b09619 i30716a18fd | Burkett, Forest Light: orange-gelbe Espen vor glühendem Gegenlicht – ein Ausschnitt, randvoll mit Farbe, scharf von vorn bis hinten. | Strand, Highland River: von oben ein türkisfarbenes Flussgeflecht zwischen Schneeflecken und dunklen Graten, kein Himmel.\n::schau Wo ist bei Burkett das hellste Licht – und wie viel Zeichnung bleibt in den Schatten?\n\n*Burkett oder Strand?* Burkett: Bodenansicht, leuchtende Farbe in einem Ausschnitt, Licht als Gnade. Strand: Luftbild, gedämpfte Erdfarben, Flussgeflecht als Kraftlinie.",
+     "deep": true
     },
     {
      "heading": "Die britische Schule: Joe Cornish und Charlie Waite",
-     "body_md": "::kurz Cornish arbeitet an der Wetterkante nah am Boden, Waite baut Landschaft wie ein Bühnenbild aus wenigen Flächen.\n\n**Joe Cornish**\n- Augenzeuge, treu zum Motiv [S627185]; das Stativ sei Malen an der Staffelei statt Skizze [S226714].\n- Antizipation statt stundenlangen Wartens – er „zinkt die Würfel“ [S833307]. Die besten Momente liegen „am Rand“: Wetterwechsel, Tageszeitwechsel, Klippenrand [S410584].\n- Druckt alles selbst auf matten Fine-Art-Papieren [S863326].\n\n**Charlie Waite**\n- Zehn Jahre Schauspieler, fasziniert von Bühnenlicht und Bühnenbild, bis ihn das Licht der Landschaft wegzog [S528755]. Landschaft sei wie Innenarchitektur – etwas sieht gut aus, wenn etwas anderes es stützt; das führt er selbst aufs Bühnenbild zurück [S998126].\n- Er will die Landschaft in einer ihrer „besten Vorstellungen“, ohne „schiefe Stellen“ [S169896]. *Stillness* sammelt Momente, in denen die Elemente im Rahmen ins Gleichgewicht fallen – durch Schauen, Komponieren, Warten [S638852].\n- Gründer von Light and Land [S310818] und 2007 von UK Landscape Photographer of the Year [S884588].\n::vergleich i83d2700937 i5606d85ce0 | Cornish, Hawnby Moor, Hoar Frost: Raureif auf der Heide ganz nah, dahinter Bäume und Berg im Nebel und Gegenlicht – Struktur an der Wetterkante. | Waite, Young Chestnut Tree: ein einzelner Baum auf gelber Wiese unter Schäfchenwolken – drei Flächen, ein Darsteller.\n::schau Wie viele Bildebenen zählst du bei Cornish, wie viele bei Waite?\n\n*Cornish oder Waite?* Cornish: Wetterkante, Weitwinkel-Nähe zum Boden, Struktur von Moor, Fels, Frost. Waite: wenige Flächen, Farbfelder wie Kulissen, Distanz und Tele-Verdichtung, kaum Vordergrund."
+     "body_md": "::kurz Cornish arbeitet an der Wetterkante nah am Boden, Waite baut Landschaft wie ein Bühnenbild aus wenigen Flächen.\n\n**Joe Cornish**\n- Augenzeuge, treu zum Motiv [S627185]; das Stativ sei Malen an der Staffelei statt Skizze [S226714].\n- Antizipation statt stundenlangen Wartens – er „zinkt die Würfel“ [S833307]. Die besten Momente liegen „am Rand“: Wetterwechsel, Tageszeitwechsel, Klippenrand [S410584].\n- Druckt alles selbst auf matten Fine-Art-Papieren [S863326].\n\n**Charlie Waite**\n- Zehn Jahre Schauspieler, fasziniert von Bühnenlicht und Bühnenbild, bis ihn das Licht der Landschaft wegzog [S528755]. Landschaft sei wie Innenarchitektur – etwas sieht gut aus, wenn etwas anderes es stützt; das führt er selbst aufs Bühnenbild zurück [S998126].\n- Er will die Landschaft in einer ihrer „besten Vorstellungen“, ohne „schiefe Stellen“ [S169896]. *Stillness* sammelt Momente, in denen die Elemente im Rahmen ins Gleichgewicht fallen – durch Schauen, Komponieren, Warten [S638852].\n- Gründer von Light and Land [S310818] und 2007 von UK Landscape Photographer of the Year [S884588].\n::vergleich i83d2700937 i5606d85ce0 | Cornish, Hawnby Moor, Hoar Frost: Raureif auf der Heide ganz nah, dahinter Bäume und Berg im Nebel und Gegenlicht – Struktur an der Wetterkante. | Waite, Young Chestnut Tree: ein einzelner Baum auf gelber Wiese unter Schäfchenwolken – drei Flächen, ein Darsteller.\n::schau Wie viele Bildebenen zählst du bei Cornish, wie viele bei Waite?\n\n*Cornish oder Waite?* Cornish: Wetterkante, Weitwinkel-Nähe zum Boden, Struktur von Moor, Fels, Frost. Waite: wenige Flächen, Farbfelder wie Kulissen, Distanz und Tele-Verdichtung, kaum Vordergrund.",
+     "deep": true
     },
     {
      "heading": "Vergleich, Kritik und Klischee",
-     "body_md": "::kurz Stille kann kippen – in Massentourismus am berühmten Baum, in Weltflucht oder in eine neue Gleichförmigkeit.\n\n**Noch zwei Verwechslungen:** Lee vs. Kenna – gestrichene Panoramaränder und körniges Schwarz gegen glatte, silbrige Verläufe. Burkett vs. Waite – Leuchtkraft im Detail gegen Fläche und Design.\n\n**Klischee-Gegenbeispiel:** Zu Kennas *Philosopher’s Tree* in Biei kamen Reisebusse voller Fotografen [S136106]; den Kussharo Lake Tree fällte man, weil Leute hineinkletterten [S544109]. Nachahmer kopieren den Ort statt der Methode.\n::bild i7fe123d22e | Kenna, Kussharo Lake Tree, Study 8: Der schräge Baum greift als Silhouette über den See, darüber ziehende Wolken – genau dieser Baum wurde gefällt.\n::merke Wer Kenna nachahmt, braucht seine Methode, nicht seinen Baum.\n\n**Kritische Lesart (meine Einschätzung):** Stille kann Weltflucht sein: Waites „beste Vorstellung“ [S169896] blendet Strommasten, Müll und Menschen planvoll aus – das Gegenteil der Anthropozän-Fotografie aus Lektion 7. Und wer alles auf Nebel und Langzeitbelichtung bringt, produziert die Gleichförmigkeit, die Strand dem Internet vorwirft [S427017].\n\nUmgekehrt kann Stille Geschichte tragen: Coopers Panama-Bild zeigt den Ort einer ausgelöschten schottischen Kolonie [S133463]; Kenna sucht Orte, an denen der Mensch verschwunden ist [S656365].\n::bild i3b48d06951 | Cooper, Failure and Annihilation, Panama: dunkler Fels unten, hell verwischtes Meer darüber, oben hängt ein Zweig ins Bild – ein stilles Bild über eine gescheiterte Kolonie."
+     "body_md": "::kurz Stille kann kippen – in Massentourismus am berühmten Baum, in Weltflucht oder in eine neue Gleichförmigkeit.\n::galerie i2e6e530e19 i1cebb88136 i4cc8ee15bc i2eea36976e ie73a2854ca i7004b09619 i30716a18fd i83d2700937 i5606d85ce0 | Je ein typisches Bild – tippe zum Vergrößern. Achte auf Horizont, Format und Tonwerte.\n::merke Wer Kenna nachahmt, braucht seine Methode, nicht seinen Baum.\n::vertiefung\n**Noch zwei Verwechslungen:** Lee vs. Kenna – gestrichene Panoramaränder und körniges Schwarz gegen glatte, silbrige Verläufe. Burkett vs. Waite – Leuchtkraft im Detail gegen Fläche und Design.\n\n**Klischee-Gegenbeispiel:** Zu Kennas *Philosopher’s Tree* in Biei kamen Reisebusse voller Fotografen [S136106]; den Kussharo Lake Tree fällte man, weil Leute hineinkletterten [S544109]. Nachahmer kopieren den Ort statt der Methode.\n::bild i7fe123d22e | Kenna, Kussharo Lake Tree, Study 8: Der schräge Baum greift als Silhouette über den See, darüber ziehende Wolken – genau dieser Baum wurde gefällt.\n\n**Kritische Lesart (meine Einschätzung):** Stille kann Weltflucht sein: Waites „beste Vorstellung“ [S169896] blendet Strommasten, Müll und Menschen planvoll aus – das Gegenteil der Anthropozän-Fotografie aus Lektion 7. Und wer alles auf Nebel und Langzeitbelichtung bringt, produziert die Gleichförmigkeit, die Strand dem Internet vorwirft [S427017].\n\nUmgekehrt kann Stille Geschichte tragen: Coopers Panama-Bild zeigt den Ort einer ausgelöschten schottischen Kolonie [S133463]; Kenna sucht Orte, an denen der Mensch verschwunden ist [S656365].\n::bild i3b48d06951 | Cooper, Failure and Annihilation, Panama: dunkler Fels unten, hell verwischtes Meer darüber, oben hängt ein Zweig ins Bild – ein stilles Bild über eine gescheiterte Kolonie."
     },
     {
      "heading": "Was du daraus mitnimmst",
-     "body_md": "::kurz Sechs Wege zur Stille, die auch auf Reisen funktionieren.\n\n- **Bedingungen statt Sonnenuntergang.** Schnee, Nebel und Nacht reduzieren Ablenkung [S508588]; Blau macht „zu süß“ [S364355].\n- **Ein Motiv, viele Versuche.** Sugimoto variiert Zeit und Belichtung am selben Ort [S305105]; Kenna kehrt jahrzehntelang zurück [S700752].\n- **Horizont als Entscheidung:** Mitte, weg oder dünne Linie.\n::skizze ph-stillness-horizont | Vier Antworten auf dieselbe Frage: Sugimoto setzt den Horizont genau in die Mitte, Cooper und Strand lassen ihn weg, Lee macht ihn zur dünnen Linie im Panorama.\n- **Am Rand arbeiten.** Cornishs Wetterkante [S410584] passt besser zur Reise als langes Warten: Prognose lesen, Standort kennen.\n- **Ausarbeitung gehört dazu.** Masken, Goldtonung, Pinsel: Ruhe entsteht auch im Abzug.\n- **Den berühmten Baum meiden** – oder ihn so fotografieren, dass der Tourismus darum herum sichtbar wird.\n::merke Stille ist eine Methode – Wiederkehr, Bedingungen, Weglassen –, kein Ort."
+     "body_md": "::kurz Sechs Wege zur Stille, die auch auf Reisen funktionieren.\n\n- **Bedingungen statt Sonnenuntergang.** Schnee, Nebel und Nacht reduzieren Ablenkung [S508588]; Blau macht „zu süß“ [S364355].\n- **Ein Motiv, viele Versuche.** Sugimoto variiert Zeit und Belichtung am selben Ort [S305105]; Kenna kehrt jahrzehntelang zurück [S700752].\n- **Horizont als Entscheidung:** Mitte, weg oder dünne Linie.\n::skizze ph-stillness-horizont | Vier Antworten auf dieselbe Frage: Sugimoto setzt den Horizont genau in die Mitte, Cooper und Strand lassen ihn weg, Lee macht ihn zur dünnen Linie im Panorama.\n- **Am Rand arbeiten.** Cornishs Wetterkante [S410584] passt besser zur Reise als langes Warten: Prognose lesen, Standort kennen.\n- **Ausarbeitung gehört dazu.** Masken, Goldtonung, Pinsel: Ruhe entsteht auch im Abzug.\n- **Den berühmten Baum meiden** – oder ihn so fotografieren, dass der Tourismus darum herum sichtbar wird.\n::merke Stille ist eine Methode – Wiederkehr, Bedingungen, Weglassen –, kein Ort.",
+     "deep": true
     }
    ],
    "examples": [
@@ -308,7 +331,8 @@
       "ein Element, große Leere",
       "Schnee als weiße Fläche wie in der Tuschmalerei",
       "wie aus Methode ein Massenmotiv wird"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "icf5d974f03",
@@ -317,7 +341,8 @@
       "Horizont exakt in der Mitte",
       "Tonwertverlauf im Himmel",
       "die Serie als eigentliches Werk"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i4cc8ee15bc",
@@ -326,7 +351,8 @@
       "fast nur dunkle Tonwerte",
       "Nummer statt Ortsname",
       "Bewegung des Wassers als einzige Handlung"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i2eea36976e",
@@ -335,7 +361,8 @@
       "kein Horizont",
       "Wasser als Bewegungsspur",
       "Titel mit Himmelsrichtung und Extrempunkt"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i8b69af42b2",
@@ -344,7 +371,8 @@
       "gestrichene Bildränder",
       "Panoramaformat 1:2",
       "winziges Objekt auf der Horizontlinie"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "idaed126ed1",
@@ -353,7 +381,8 @@
       "Gegenlicht vor schattigem Hintergrund",
       "Reflexlicht als warme Farbe",
       "Detailfülle des Großformats"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i4266c79470",
@@ -362,7 +391,8 @@
       "keine Horizontlinie",
       "ausgewogene Bildecken",
       "gedämpfte Erdfarben statt Blau"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i2a64b19693",
@@ -371,7 +401,8 @@
       "Farbfeld statt Tiefenstaffelung",
       "ein Element trägt das Bild",
       "Linien der Bewirtschaftung als Muster"
-     ]
+     ],
+     "deep": true
     }
    ],
    "quiz": [
@@ -385,7 +416,8 @@
       "Hans Strand"
      ],
      "correct": 0,
-     "explanation": "Steinkreis unter aufreißendem Regenhimmel mit warmem Licht am Wolkenrand: der Moment am Übergang des Wetters, den Cornish „die Kante“ nennt [S410584]. Waite würde reduzieren und flächig bauen, Strand meist aus der Luft."
+     "explanation": "Steinkreis unter aufreißendem Regenhimmel mit warmem Licht am Wolkenrand: der Moment am Übergang des Wetters, den Cornish „die Kante“ nennt [S410584]. Waite würde reduzieren und flächig bauen, Strand meist aus der Luft.",
+     "deep": true
     },
     {
      "question": "Wer hat dieses Bild gemacht?",
@@ -445,7 +477,8 @@
       "Er komponiert immer mit nahem Vordergrund und Weitwinkel"
      ],
      "correct": 0,
-     "explanation": "Strand kritisiert sensationsorientierte Landschaftsbilder [S427017], meidet blaue Himmel [S364355] und will Kräfte zeigen [S673974]."
+     "explanation": "Strand kritisiert sensationsorientierte Landschaftsbilder [S427017], meidet blaue Himmel [S364355] und will Kräfte zeigen [S673974].",
+     "deep": true
     },
     {
      "question": "Was zeigt die Geschichte von Kennas „Philosopher’s Tree“ über Reduktion als Stil?",
@@ -469,7 +502,8 @@
       "Aus der Fotoreportage"
      ],
      "correct": 0,
-     "explanation": "Waite war zehn Jahre Schauspieler [S528755] und führt seine Landschafts-Analogie selbst aufs Bühnenbild zurück [S998126]."
+     "explanation": "Waite war zehn Jahre Schauspieler [S528755] und führt seine Landschafts-Analogie selbst aufs Bühnenbild zurück [S998126].",
+     "deep": true
     }
    ],
    "takeaways": [
@@ -560,39 +594,45 @@
    "sections": [
     {
      "heading": "Tradition: Naturfotografie zwischen Wissenschaft, Kunst und Kampagne",
-     "body_md": "::kurz Naturfotografie lebt von Wissen, Ausdauer und Bildsprache – und von einem Vertrauensvorschuss, den kaum eine andere Gattung hat.\n::skizze ph-nature-zeitleiste | Belegte Daten der Lektion, von Dykingas Pulitzerpreis 1971 bis zum Beginn von Genesis 2004; in Gold die Debatte um Migrations.\n\n- Ein früherer Fotodirektor von National Geographic über Lanting: „der Verstand eines Wissenschaftlers, das Herz eines Jägers und die Augen eines Dichters“ [S171599].\n- Wolfe habe Naturschutzfotografie betrieben, lange bevor es den Begriff gab [S171051].\n- Gary Braasch, damals Vorsitzender der North American Nature Photography Association: Naturfotografie sei eine der letzten Bastionen von Bildern, die die meisten Menschen als wirklich akzeptieren [Q8].\n\n**Meine Einschätzung:** Drei Spannungen unterscheiden die fünf. *Staunen* – das Bild soll überwältigen (Wolfe, Lanting, Dykinga). *Schutz* – das Bild soll handeln lassen (alle, am explizitesten Brandt und Salgado). *Inszenierung* – das Bild wird gebaut, montiert oder verändert (Wolfe in *Migrations*, Brandt in *Inherit the Dust* und *This Empty World*).\n::merke Entscheidend ist nicht, ob inszeniert wird, sondern ob es offengelegt wird."
+     "body_md": "::kurz Naturfotografie lebt von Wissen, Ausdauer und Bildsprache – und von einem Vertrauensvorschuss, den kaum eine andere Gattung hat.\n::skizze ph-nature-zeitleiste | Belegte Daten der Lektion, von Dykingas Pulitzerpreis 1971 bis zum Beginn von Genesis 2004; in Gold die Debatte um Migrations.\n\n- Ein früherer Fotodirektor von National Geographic über Lanting: „der Verstand eines Wissenschaftlers, das Herz eines Jägers und die Augen eines Dichters“ [S171599].\n- Wolfe habe Naturschutzfotografie betrieben, lange bevor es den Begriff gab [S171051].\n- Gary Braasch, damals Vorsitzender der North American Nature Photography Association: Naturfotografie sei eine der letzten Bastionen von Bildern, die die meisten Menschen als wirklich akzeptieren [Q8].\n\n**Meine Einschätzung:** Drei Spannungen unterscheiden die fünf. *Staunen* – das Bild soll überwältigen (Wolfe, Lanting, Dykinga). *Schutz* – das Bild soll handeln lassen (alle, am explizitesten Brandt und Salgado). *Inszenierung* – das Bild wird gebaut, montiert oder verändert (Wolfe in *Migrations*, Brandt in *Inherit the Dust* und *This Empty World*).\n::merke Entscheidend ist nicht, ob inszeniert wird, sondern ob es offengelegt wird.",
+     "deep": true
     },
     {
      "heading": "Sebastião Salgado: Genesis als Gegenbild",
-     "body_md": "::kurz Salgado zeigt mit *Genesis* bewusst nur den unberührten Planeten – monumental, schwarzweiß, als Hoffnungsbild.\n\n- **Weg:** Salgado (1944–2025), Ökonom, begann Anfang der 1970er mit der geliehenen Kamera seiner Frau Lélia Wanick Salgado [S321854]; bis 1994 u. a. bei Magnum, dann mit Lélia Amazonas Images [S509311].\n- **Genesis:** nach *Workers* (1986–1992) und *Exodus* (1993–1999) die dritte Langzeitserie, acht Jahre, ein „Liebesbrief an den Planeten“ [S862410]. Ab 2004: Arktis, Wüsten, Regenwald, Tiere, traditionell lebende Gemeinschaften [S979920].\n- **Entscheidung:** Er erwog, verschmutzende Fabriken und Müllhalden zu fotografieren, fand aber, nur Bilder des unberührten Planeten könnten Hoffnung geben [S271983].\n- *Genesis* begann analog und wurde digital fortgesetzt; sonst blieb die Bildsprache gleich [Q5]. 1998 gründete er mit Lélia das Instituto Terra für Wiederaufforstung [S131027].\n::vergleich id16a5d38bb i9aee245d15 | Pinguine auf einem Eisberg: eine Reihe winziger Tiere auf steiler weißer Eiswand über schäumender Brandung – das Tier klein im monumentalen Gefüge. | Bryce Canyon im Schneesturm: Felstürme in tiefem Schwarz, darüber leuchtender Dunst – Landschaft wie ein Gemälde.\n::schau Wie groß sind Tiere und Felsformen im Verhältnis zum ganzen Bild? Miss mit dem Daumen.\n\n*Erkennen:* tiefe Schwärzen, leuchtende Lichter, aufgerissene Himmel, Gegenlicht, monumentale Formen, Tiere und Menschen klein. Linfield nennt die Bilder sorgfältig komponiert, dramatisch theatralisch, mit einem Licht wie in der Malerei [Q4]."
+     "body_md": "::kurz Salgado zeigt mit *Genesis* bewusst nur den unberührten Planeten – monumental, schwarzweiß, als Hoffnungsbild.\n\n- **Weg:** Salgado (1944–2025), Ökonom, begann Anfang der 1970er mit der geliehenen Kamera seiner Frau Lélia Wanick Salgado [S321854]; bis 1994 u. a. bei Magnum, dann mit Lélia Amazonas Images [S509311].\n- **Genesis:** nach *Workers* (1986–1992) und *Exodus* (1993–1999) die dritte Langzeitserie, acht Jahre, ein „Liebesbrief an den Planeten“ [S862410]. Ab 2004: Arktis, Wüsten, Regenwald, Tiere, traditionell lebende Gemeinschaften [S979920].\n- **Entscheidung:** Er erwog, verschmutzende Fabriken und Müllhalden zu fotografieren, fand aber, nur Bilder des unberührten Planeten könnten Hoffnung geben [S271983].\n- *Genesis* begann analog und wurde digital fortgesetzt; sonst blieb die Bildsprache gleich [Q5]. 1998 gründete er mit Lélia das Instituto Terra für Wiederaufforstung [S131027].\n::vergleich id16a5d38bb i9aee245d15 | Pinguine auf einem Eisberg: eine Reihe winziger Tiere auf steiler weißer Eiswand über schäumender Brandung – das Tier klein im monumentalen Gefüge. | Bryce Canyon im Schneesturm: Felstürme in tiefem Schwarz, darüber leuchtender Dunst – Landschaft wie ein Gemälde.\n::schau Wie groß sind Tiere und Felsformen im Verhältnis zum ganzen Bild? Miss mit dem Daumen.\n\n*Erkennen:* tiefe Schwärzen, leuchtende Lichter, aufgerissene Himmel, Gegenlicht, monumentale Formen, Tiere und Menschen klein. Linfield nennt die Bilder sorgfältig komponiert, dramatisch theatralisch, mit einem Licht wie in der Malerei [Q4].",
+     "deep": true
     },
     {
      "heading": "Frans Lanting: Naturgeschichte als Zeitreise",
-     "body_md": "::kurz Lanting isoliert ein Element – Gestein, Lava, eine Pflanze – und macht es zum „Fenster in der Zeit“.\n\n- Aus Rotterdam, Master in Wirtschaft, dann Umweltplanung in den USA [S628046]; oft für National Geographic, zeitweise Photographer-in-Residence [S272952]. Er will Naturschutz unterstützen, lokal wie global [S236176].\n- Sein Weg: vom einzelnen Tier zu Lebensräumen, Biodiversität, schließlich zur Zeit [S921892].\n- *LIFE: A Journey Through Time* erzählt die Geschichte des Lebens vom Urknall bis heute – als Buch, Ausstellung und Multimedia-Sinfonie mit Musik von Philip Glass [S481386]. Jedes Bild sollte ein „Fenster in der Zeit“ sein [S484039].\n::vergleich id9b464f3fc i133a419f49 | Banded iron: Ein Gesteinsanschnitt füllt das Bild, rote, blaue und goldene Bänder in Wellen – Erdgeschichte als Muster, ohne Maßstab. | Volcano at dawn: violetter Dunst über einem Lavafeld, kleine Glutpunkte, rosa Himmel – Urzeit-Anmutung durch Dämmerlicht.\n\n*Erkennen:* ein isoliertes Element in intensiver Farbe, Dämmerlicht, Langzeitbelichtung – eher ein Kapitel Erdgeschichte als ein Ort.\n::schau Suche in beiden Bildern einen Maßstab. Was verändert es, dass keiner da ist?"
+     "body_md": "::kurz Lanting isoliert ein Element – Gestein, Lava, eine Pflanze – und macht es zum „Fenster in der Zeit“.\n\n- Aus Rotterdam, Master in Wirtschaft, dann Umweltplanung in den USA [S628046]; oft für National Geographic, zeitweise Photographer-in-Residence [S272952]. Er will Naturschutz unterstützen, lokal wie global [S236176].\n- Sein Weg: vom einzelnen Tier zu Lebensräumen, Biodiversität, schließlich zur Zeit [S921892].\n- *LIFE: A Journey Through Time* erzählt die Geschichte des Lebens vom Urknall bis heute – als Buch, Ausstellung und Multimedia-Sinfonie mit Musik von Philip Glass [S481386]. Jedes Bild sollte ein „Fenster in der Zeit“ sein [S484039].\n::vergleich id9b464f3fc i133a419f49 | Banded iron: Ein Gesteinsanschnitt füllt das Bild, rote, blaue und goldene Bänder in Wellen – Erdgeschichte als Muster, ohne Maßstab. | Volcano at dawn: violetter Dunst über einem Lavafeld, kleine Glutpunkte, rosa Himmel – Urzeit-Anmutung durch Dämmerlicht.\n\n*Erkennen:* ein isoliertes Element in intensiver Farbe, Dämmerlicht, Langzeitbelichtung – eher ein Kapitel Erdgeschichte als ein Ort.\n::schau Suche in beiden Bildern einen Maßstab. Was verändert es, dass keiner da ist?",
+     "deep": true
     },
     {
      "heading": "Art Wolfe: Spektakel, Muster und der Fall Migrations",
-     "body_md": "::kurz Wolfe sucht die sofortige Wirkung – und löste mit *Migrations* die Grundsatzdebatte über veränderte Naturbilder aus.\n\n- Jahrgang 1951, Seattle, Sohn von Werbegrafikern, Kunststudium u. a. bei Jacob Lawrence [S463691].\n- Gewinnt Unterstützung für Naturschutz über „das Schöne der Erde“, künstlerisch und journalistisch zugleich [S998287]; sein Verlag rühmt Farbe, Komposition, Perspektive [S491058].\n\n**Der Fall Migrations**\n- Eine Hommage an Eschers Musterbilder; Wolfe veränderte etwa ein Drittel der Bilder digital, darunter das Titelbild einer Zebraherde [Q6].\n- 1994 als Triumph gefeiert, zwei Jahre später in der Kritik, als die Veränderungen bekannt wurden [Q9].\n- Wolfe: ein Kunstbuch, so stehe es im Vorwort; der Fehler sei die fehlende Kennzeichnung. Galen Rowell schrieb ihm fünf Seiten, Kernregel: Tu nichts, was du nicht in einer Bildunterschrift offenlegen würdest [Q7].\n::vergleich i3818ab4fd9 i50362a9e1f | Yunnan Rice Terraces: von erhöhtem Standpunkt füllen Terrassen das ganze Bild – Muster statt Horizont. | Iceberg, Iceland: ein goldener Eisbrocken im Vordergrund, dahinter Lagune und glühender Himmel – sofortige Wirkung.\n::schau Terrassen oder Eisbrocken: Wie lange brauchst du, bis du alles gesehen hast?\n\n*Erkennen:* ikonische Ansichten mit klarer Ordnung – Spiegelung in der Mitte, Gipfel im ersten oder letzten Licht, Komplementärfarben, Muster und Symmetrie."
+     "body_md": "::kurz Wolfe sucht die sofortige Wirkung – und löste mit *Migrations* die Grundsatzdebatte über veränderte Naturbilder aus.\n\n- Jahrgang 1951, Seattle, Sohn von Werbegrafikern, Kunststudium u. a. bei Jacob Lawrence [S463691].\n- Gewinnt Unterstützung für Naturschutz über „das Schöne der Erde“, künstlerisch und journalistisch zugleich [S998287]; sein Verlag rühmt Farbe, Komposition, Perspektive [S491058].\n\n**Der Fall Migrations**\n- Eine Hommage an Eschers Musterbilder; Wolfe veränderte etwa ein Drittel der Bilder digital, darunter das Titelbild einer Zebraherde [Q6].\n- 1994 als Triumph gefeiert, zwei Jahre später in der Kritik, als die Veränderungen bekannt wurden [Q9].\n- Wolfe: ein Kunstbuch, so stehe es im Vorwort; der Fehler sei die fehlende Kennzeichnung. Galen Rowell schrieb ihm fünf Seiten, Kernregel: Tu nichts, was du nicht in einer Bildunterschrift offenlegen würdest [Q7].\n::vergleich i3818ab4fd9 i50362a9e1f | Yunnan Rice Terraces: von erhöhtem Standpunkt füllen Terrassen das ganze Bild – Muster statt Horizont. | Iceberg, Iceland: ein goldener Eisbrocken im Vordergrund, dahinter Lagune und glühender Himmel – sofortige Wirkung.\n::schau Terrassen oder Eisbrocken: Wie lange brauchst du, bis du alles gesehen hast?\n\n*Erkennen:* ikonische Ansichten mit klarer Ordnung – Spiegelung in der Mitte, Gipfel im ersten oder letzten Licht, Komplementärfarben, Muster und Symmetrie.",
+     "deep": true
     },
     {
      "heading": "Jack Dykinga: der Journalist mit der Fachkamera",
-     "body_md": "::kurz Dykinga erklärt Landschaft wie ein Reporter: mit Geduld, Streiflicht und Wetter als Ereignis.\n\n- 1971 Pulitzerpreis für Bilder aus staatlichen Heimen in Illinois (*Chicago Sun-Times*) [S880423]; später *Arizona Daily Star*, 1985 Abschied vom Fotojournalismus [S283959].\n- Neun Großformatbücher für den Wildnisschutz und das Lehrbuch *Large Format Nature Photography* [S891397].\n- Journalistischer Zugang: neugierig fragen, warum etwas so ist, und es mit Bildern erklären [S294546]. Jedes Bild komme „mit einer Geschichte“, sagt ein Bildredakteur [S575605].\n- Früh und spät, wenn das Licht über das Land streicht und lange Schatten Textur erzeugen [S319283]; manchmal Tag für Tag am selben Ort [S476961]. Auch digital komponiert er wie mit der 4×5-Kamera: manuell, mit Blick auf den Klappbildschirm [S519240].\n::vergleich ia0320e84c5 i72c32bd170 | Cape Royal mit Blitz: rote Canyonfelsen, darüber ein Blitz aus blauem Gewitterhimmel und ein rosa Streifen Abendlicht – Wetter als Ereignis. | Agaves at Point Sublime: Blattrosetten von oben, bildfüllend – der stille Ausschnitt als Muster.\n::schau Woher kommt das Licht im Blitzbild – und welche Kanten hebt es hervor?\n\n*Erkennen:* Schärfe bis zum Horizont, Wetter als Ereignis, warmes Streiflicht – daneben stille Ausschnitte. **Meine Einschätzung:** der klassische amerikanische Landschaftsfotograf der Gruppe; das Ereignis ist das Wetter, nicht das Tier."
+     "body_md": "::kurz Dykinga erklärt Landschaft wie ein Reporter: mit Geduld, Streiflicht und Wetter als Ereignis.\n\n- 1971 Pulitzerpreis für Bilder aus staatlichen Heimen in Illinois (*Chicago Sun-Times*) [S880423]; später *Arizona Daily Star*, 1985 Abschied vom Fotojournalismus [S283959].\n- Neun Großformatbücher für den Wildnisschutz und das Lehrbuch *Large Format Nature Photography* [S891397].\n- Journalistischer Zugang: neugierig fragen, warum etwas so ist, und es mit Bildern erklären [S294546]. Jedes Bild komme „mit einer Geschichte“, sagt ein Bildredakteur [S575605].\n- Früh und spät, wenn das Licht über das Land streicht und lange Schatten Textur erzeugen [S319283]; manchmal Tag für Tag am selben Ort [S476961]. Auch digital komponiert er wie mit der 4×5-Kamera: manuell, mit Blick auf den Klappbildschirm [S519240].\n::vergleich ia0320e84c5 i72c32bd170 | Cape Royal mit Blitz: rote Canyonfelsen, darüber ein Blitz aus blauem Gewitterhimmel und ein rosa Streifen Abendlicht – Wetter als Ereignis. | Agaves at Point Sublime: Blattrosetten von oben, bildfüllend – der stille Ausschnitt als Muster.\n::schau Woher kommt das Licht im Blitzbild – und welche Kanten hebt es hervor?\n\n*Erkennen:* Schärfe bis zum Horizont, Wetter als Ereignis, warmes Streiflicht – daneben stille Ausschnitte. **Meine Einschätzung:** der klassische amerikanische Landschaftsfotograf der Gruppe; das Ereignis ist das Wetter, nicht das Tier.",
+     "deep": true
     },
     {
      "heading": "Nick Brandt: Porträt, Abwesenheit, Bühne",
-     "body_md": "::kurz Brandt geht ohne Tele bis auf wenige Fuß an Tiere heran – und baut später offen sichtbare Bühnen für ihre Abwesenheit.\n\n- Geboren 1964, studierte Malerei und Film an der Saint Martin’s School of Art [S278065]; 1995 fand er beim Dreh von Michael Jacksons „Earth Song“ in Tansania zur Natur Afrikas [S458762].\n- Ostafrika-Trilogie: Mittelformat-Schwarzweißfilm, kein Tele, kein Zoom; Panoramen und Tierporträts im Stil früher Atelierfotografie [S670833]. Statt Action Nähe von oft wenigen Fuß – Tierfotografie als Kunst [S675242].\n\n**Inherit the Dust:** lebensgroße Tierbilder auf Tafeln, dort, wo diese Tiere nicht mehr leben [S946495][S384677]. Die Horizonte der Originale mussten exakt zu den neuen Orten passen [S182167]; Crews warteten tagelang auf Wolken, denn hartes Licht hätte die Melancholie zerstört [S252307]. Die Menschen im Bild sind für ihn Mitopfer der Umweltzerstörung [S232272].\n::bild id84146c0c2 | Underpass with Elephants: Unter einer Betonbrücke steht die Tafel mit einer Elefantenfamilie, davor sitzen und gehen Menschen – Tafel und Boden gehen fast nahtlos ineinander über.\n::schau Wo hört die Tafel auf und beginnt die Szene? Such die Kante.\n\n**This Empty World:** Jedes Panorama verbindet zwei Momente, Wochen auseinander; erst baut er ein Teilset und wartet auf die Tiere, dann wird das volle Set um die fest stehende Kamera gebaut [Q11].\n::skizze ph-nature-brandt-set | Die Methode als Ablauf: gleicher Kamerastandpunkt, zwei Zeitpunkte, ein zusammengesetztes Panorama."
+     "body_md": "::kurz Brandt geht ohne Tele bis auf wenige Fuß an Tiere heran – und baut später offen sichtbare Bühnen für ihre Abwesenheit.\n::bild id84146c0c2 | Underpass with Elephants: Unter einer Betonbrücke steht die Tafel mit einer Elefantenfamilie, davor sitzen und gehen Menschen – Tafel und Boden gehen fast nahtlos ineinander über.\n::vertiefung\n- Geboren 1964, studierte Malerei und Film an der Saint Martin’s School of Art [S278065]; 1995 fand er beim Dreh von Michael Jacksons „Earth Song“ in Tansania zur Natur Afrikas [S458762].\n- Ostafrika-Trilogie: Mittelformat-Schwarzweißfilm, kein Tele, kein Zoom; Panoramen und Tierporträts im Stil früher Atelierfotografie [S670833]. Statt Action Nähe von oft wenigen Fuß – Tierfotografie als Kunst [S675242].\n\n**Inherit the Dust:** lebensgroße Tierbilder auf Tafeln, dort, wo diese Tiere nicht mehr leben [S946495][S384677]. Die Horizonte der Originale mussten exakt zu den neuen Orten passen [S182167]; Crews warteten tagelang auf Wolken, denn hartes Licht hätte die Melancholie zerstört [S252307]. Die Menschen im Bild sind für ihn Mitopfer der Umweltzerstörung [S232272].\n::schau Wo hört die Tafel auf und beginnt die Szene? Such die Kante.\n\n**This Empty World:** Jedes Panorama verbindet zwei Momente, Wochen auseinander; erst baut er ein Teilset und wartet auf die Tiere, dann wird das volle Set um die fest stehende Kamera gebaut [Q11].\n::skizze ph-nature-brandt-set | Die Methode als Ablauf: gleicher Kamerastandpunkt, zwei Zeitpunkte, ein zusammengesetztes Panorama."
     },
     {
      "heading": "Vergleich: was man leicht verwechselt",
-     "body_md": "::kurz Gleiche Mittel, andere Haltung: Achte auf den Abstand zum Tier, die Isolation des Elements und die Geduld im Bild.\n\n- **Salgado vs. Brandt** (Schwarzweiß, Afrika, Tier): Salgado zeigt Tiere klein im monumentalen Raum und arbeitet als Reporter über Jahre [S862410]; Brandt porträtiert Individuen aus wenigen Fuß [S675242] und baut später Bilder offen um.\n::vergleich i076b4b0a6f i25c5de9f0f | Salgado, Iceberg moving on the Weddell Sea: zerklüftetes Eis, weich und dunkel getont, kein Tier, kein Mensch – Form als Monument. | Brandt, Wasteland with Rhinos: die Tafel mit zwei Nashörnern mitten in einer Müllhalde, ringsum sammeln Menschen – das Tier als Abwesenheit.\n- **Lanting vs. Wolfe** (gesättigte Farbe, Spektakel): Lanting isoliert ein Element als Zeitzeugnis [S484039]; Wolfe baut das ikonische Gesamtbild mit Spiegelung, Muster und Symmetrie.\n::vergleich i73520c9ae8 i35ce4377a0 | Lanting, Lava river: ein glühender Lavastrom auf Schwarz, sonst nichts – ein Element, ein Erdprozess. | Wolfe, The Inland Sea, Study I: Dünenkämme im Streiflicht wiederholen sich bis an alle Ränder – Muster als Grafik.\n::schau Lava oder Dünen: Welches Bild erzählt einen Prozess, welches ein Muster?\n- **Dykinga vs. Wolfe** (Westen im Abendlicht): Dykinga erzählt Wetter und Ort mit Geduld [S476961]; Wolfe sucht das sofort Wirksame.\n- **Salgado vs. Lanting** („Urzustand“): Salgado will mit Unberührtheit Hoffnung stiften [S271983], Lanting Evolution sichtbar machen [S921892]. Beide zeigen bewusst nicht das Zerstörte – anders als Brandt."
+     "body_md": "::kurz Gleiche Mittel, andere Haltung: Achte auf den Abstand zum Tier, die Isolation des Elements und die Geduld im Bild.\n::galerie i9aee245d15 id9b464f3fc i3818ab4fd9 i22cb134355 ia79aaaf868 | Je ein typisches Bild – tippe zum Vergrößern. Achte auf Abstand zum Tier, Farbe und Licht.\n::vergleich i076b4b0a6f i25c5de9f0f | Salgado, Iceberg moving on the Weddell Sea: zerklüftetes Eis, weich und dunkel getont, kein Tier, kein Mensch – Form als Monument. | Brandt, Wasteland with Rhinos: die Tafel mit zwei Nashörnern mitten in einer Müllhalde, ringsum sammeln Menschen – das Tier als Abwesenheit.\n\n- **Salgado vs. Brandt** (Schwarzweiß, Afrika, Tier): Salgado zeigt Tiere klein im monumentalen Raum und arbeitet als Reporter über Jahre [S862410]; Brandt porträtiert Individuen aus wenigen Fuß [S675242] und baut später Bilder offen um.\n- **Lanting vs. Wolfe** (gesättigte Farbe, Spektakel): Lanting isoliert ein Element als Zeitzeugnis [S484039]; Wolfe baut das ikonische Gesamtbild mit Spiegelung, Muster und Symmetrie.\n- **Dykinga vs. Wolfe** (Westen im Abendlicht): Dykinga erzählt Wetter und Ort mit Geduld [S476961]; Wolfe sucht das sofort Wirksame.\n::vertiefung\n::vergleich i73520c9ae8 i35ce4377a0 | Lanting, Lava river: ein glühender Lavastrom auf Schwarz, sonst nichts – ein Element, ein Erdprozess. | Wolfe, The Inland Sea, Study I: Dünenkämme im Streiflicht wiederholen sich bis an alle Ränder – Muster als Grafik.\n::schau Lava oder Dünen: Welches Bild erzählt einen Prozess, welches ein Muster?\n- **Salgado vs. Lanting** („Urzustand“): Salgado will mit Unberührtheit Hoffnung stiften [S271983], Lanting Evolution sichtbar machen [S921892]. Beide zeigen bewusst nicht das Zerstörte – anders als Brandt."
     },
     {
      "heading": "Kritik: Romantisierung und Inszenierung",
-     "body_md": "::kurz Salgado trifft der Vorwurf der Romantisierung, Wolfe und Brandt der der Inszenierung – die Lehre daraus heißt Offenlegung.\n\n**Salgado**\n- Ingrid Sischy (1991, *New Yorker*): zu sehr mit Komposition, „Anmut“ und „Schönheit“ beschäftigt; Ästhetisieren betäube das Mitgefühl, Schönheit rufe zur Bewunderung, nicht zum Handeln [Q1].\n- Susan Sontag nannte ihn abschätzig einen Spezialisten für „Weltelend“ [Q2].\n- ZUM fasst zusammen: für die einen romantische Weltsicht, für die anderen ästhetisiertes Leid [Q3]; Linfield sieht eine nostalgische Romantik nahe dem Sozialistischen Realismus [Q4].\n\nDas zielt vor allem auf Bilder von Menschen. Für *Genesis* hieße es: Wer nur Unberührtes zeigt, macht Zerstörung unsichtbar – bewusst so entschieden [S271983].\n\n**Wolfe:** Die Debatte um *Migrations* [Q6][Q9] hinterließ eine einfache Lehre: Rowells Bildunterschriften-Regel [Q7].\n\n**Brandt:** Ein Fotografie-Blog fasst die Kritik zusammen – unrealistisch, mehr bearbeitet als zugegeben, sentimental; er fotografiere Tiere so, „wie wir sie uns wünschen“ [Q10].\n::bild i8b4992ad52 | Quarry with Lion: Die Tafel mit dem Löwen steht am Rand eines Steinbruchs, ihre Kanten sind deutlich zu sehen, dahinter Bagger, Lkw und Arbeiter – die Inszenierung zeigt sich selbst.\n\n**Alternative Lesart (meine Einschätzung):** Brandts spätere Arbeiten entziehen sich dem Täuschungsvorwurf, weil die Inszenierung sichtbar ist – die Tafel hat Ränder, das Set ist dokumentiert [Q11].\n\n**Klischee-Gegenbeispiel (meine Einschätzung):** Wolfes Kirkjufell mit perfekter Spiegelung – makellos, aber heute Standard jeder Islandreise. Wirkung ohne Erkenntnis wird austauschbar.\n::schau Stell dir die Tafel im Löwenbild ohne Rand vor: Was würde sich an deinem Vertrauen ins Bild ändern?"
+     "body_md": "::kurz Salgado trifft der Vorwurf der Romantisierung, Wolfe und Brandt der der Inszenierung – die Lehre daraus heißt Offenlegung.\n\n**Salgado**\n- Ingrid Sischy (1991, *New Yorker*): zu sehr mit Komposition, „Anmut“ und „Schönheit“ beschäftigt; Ästhetisieren betäube das Mitgefühl, Schönheit rufe zur Bewunderung, nicht zum Handeln [Q1].\n- Susan Sontag nannte ihn abschätzig einen Spezialisten für „Weltelend“ [Q2].\n- ZUM fasst zusammen: für die einen romantische Weltsicht, für die anderen ästhetisiertes Leid [Q3]; Linfield sieht eine nostalgische Romantik nahe dem Sozialistischen Realismus [Q4].\n\nDas zielt vor allem auf Bilder von Menschen. Für *Genesis* hieße es: Wer nur Unberührtes zeigt, macht Zerstörung unsichtbar – bewusst so entschieden [S271983].\n\n**Wolfe:** Die Debatte um *Migrations* [Q6][Q9] hinterließ eine einfache Lehre: Rowells Bildunterschriften-Regel [Q7].\n\n**Brandt:** Ein Fotografie-Blog fasst die Kritik zusammen – unrealistisch, mehr bearbeitet als zugegeben, sentimental; er fotografiere Tiere so, „wie wir sie uns wünschen“ [Q10].\n::bild i8b4992ad52 | Quarry with Lion: Die Tafel mit dem Löwen steht am Rand eines Steinbruchs, ihre Kanten sind deutlich zu sehen, dahinter Bagger, Lkw und Arbeiter – die Inszenierung zeigt sich selbst.\n\n**Alternative Lesart (meine Einschätzung):** Brandts spätere Arbeiten entziehen sich dem Täuschungsvorwurf, weil die Inszenierung sichtbar ist – die Tafel hat Ränder, das Set ist dokumentiert [Q11].\n\n**Klischee-Gegenbeispiel (meine Einschätzung):** Wolfes Kirkjufell mit perfekter Spiegelung – makellos, aber heute Standard jeder Islandreise. Wirkung ohne Erkenntnis wird austauschbar.\n::schau Stell dir die Tafel im Löwenbild ohne Rand vor: Was würde sich an deinem Vertrauen ins Bild ändern?",
+     "deep": true
     },
     {
      "heading": "Was du daraus mitnimmst",
-     "body_md": "::kurz Sechs Regeln für ehrliche, starke Naturbilder auf Reisen – vorneweg die Bildunterschrift.\n::skizze ph-nature-offenlegung | Meine Einschätzung im Bild: Sichtbar gebaute Inszenierung ist ein Argument, heimliche Veränderung ein Vertrauensbruch – Rowells Regel trennt beides.\n::merke Offenlegen statt verstecken: Composite, Stacking und Retusche gehören in die Bildunterschrift.\n\n- **Rowells Regel übernehmen:** Tu nichts, was du nicht in der Bildunterschrift offenlegen würdest [Q7]. Composites, Stacking, entfernte Objekte: kennzeichnen.\n- **Weglassen offen machen.** Salgado zeigt bewusst nur Unberührtes [S271983] – legitim als erkennbare Haltung.\n- **Nähe statt Tele**, wo sicher und erlaubt: Brandts Porträtwirkung kommt aus Nähe [S675242].\n- **Licht als Stimmung wählen:** Brandt wartet auf Wolken [S252307], Dykinga auf Streiflicht [S319283].\n- **Ein Thema über Jahre** (Zeit, Urzustand) trägt mehr als Einzelspektakel.\n- **Am bekannten Spot** frag dich, was du hinzufügst."
+     "body_md": "::kurz Sechs Regeln für ehrliche, starke Naturbilder auf Reisen – vorneweg die Bildunterschrift.\n::skizze ph-nature-offenlegung | Meine Einschätzung im Bild: Sichtbar gebaute Inszenierung ist ein Argument, heimliche Veränderung ein Vertrauensbruch – Rowells Regel trennt beides.\n::merke Offenlegen statt verstecken: Composite, Stacking und Retusche gehören in die Bildunterschrift.\n\n- **Rowells Regel übernehmen:** Tu nichts, was du nicht in der Bildunterschrift offenlegen würdest [Q7]. Composites, Stacking, entfernte Objekte: kennzeichnen.\n::vertiefung\n- **Weglassen offen machen.** Salgado zeigt bewusst nur Unberührtes [S271983] – legitim als erkennbare Haltung.\n- **Nähe statt Tele**, wo sicher und erlaubt: Brandts Porträtwirkung kommt aus Nähe [S675242].\n- **Licht als Stimmung wählen:** Brandt wartet auf Wolken [S252307], Dykinga auf Streiflicht [S319283].\n- **Ein Thema über Jahre** (Zeit, Urzustand) trägt mehr als Einzelspektakel.\n- **Am bekannten Spot** frag dich, was du hinzufügst."
     }
    ],
    "examples": [
@@ -603,7 +643,8 @@
       "Eis als Architektur",
       "dramatischer Himmel als Bühne",
       "tiefe Schwärzen gegen leuchtendes Weiß"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i65e8faec81",
@@ -612,7 +653,8 @@
       "Fluss als Lichtlinie",
       "Erhabenheit durch Höhe und Dunst",
       "die bewusste Abwesenheit des Menschen"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i9c726285b5",
@@ -621,7 +663,8 @@
       "isoliertes Element als Zeitzeuge",
       "Langzeitbelichtung des Wassers",
       "gesättigte Dämmerfarbe"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i59780175a1",
@@ -630,7 +673,8 @@
       "Symmetrie durch Spiegelung",
       "Mitte als Ordnung",
       "was das Bild über das Bekannte hinaus zeigt – oder nicht"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i22cb134355",
@@ -639,7 +683,8 @@
       "Gegenlicht mit Lichtstrahlen",
       "Staffelung der Canyonwände im Dunst",
       "Wetter als Ereignis"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "ie7d8962b6e",
@@ -648,7 +693,8 @@
       "die Tafel als sichtbare Inszenierung",
       "Horizont des Tierbilds und des Ortes",
       "Menschen als Mitbetroffene"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "ia79aaaf868",
@@ -657,7 +703,8 @@
       "bedecktes Licht als Stimmung",
       "Silhouetten gegen Himmel",
       "Gleichstellung von Tier und Mensch"
-     ]
+     ],
+     "deep": true
     }
    ],
    "quiz": [
@@ -719,7 +766,8 @@
       "Dass er Tiere digital in Landschaften montiere"
      ],
      "correct": 0,
-     "explanation": "Sischy: Ästhetisieren betäube das Mitgefühl, Schönheit sei ein Aufruf zur Bewunderung, nicht zum Handeln [Q1]."
+     "explanation": "Sischy: Ästhetisieren betäube das Mitgefühl, Schönheit sei ein Aufruf zur Bewunderung, nicht zum Handeln [Q1].",
+     "deep": true
     },
     {
      "question": "Warum fotografierte Salgado für *Genesis* bewusst keine verschmutzenden Fabriken?",
@@ -731,7 +779,8 @@
       "Weil Schwarzweiß Industrie nicht darstellen kann"
      ],
      "correct": 0,
-     "explanation": "Salgado beschreibt diese Entscheidung selbst im ICP-Text [S271983]."
+     "explanation": "Salgado beschreibt diese Entscheidung selbst im ICP-Text [S271983].",
+     "deep": true
     },
     {
      "question": "Wodurch unterscheiden sich Brandts Tierporträts technisch von klassischer Tierfotografie?",
@@ -755,7 +804,8 @@
       "Als Collage aus Archivbildern verschiedener Fotografen"
      ],
      "correct": 0,
-     "explanation": "Der Verlagstext beschreibt dieses zweistufige Verfahren mit fest stehender Kamera [Q11]."
+     "explanation": "Der Verlagstext beschreibt dieses zweistufige Verfahren mit fest stehender Kamera [Q11].",
+     "deep": true
     }
    ],
    "takeaways": [
