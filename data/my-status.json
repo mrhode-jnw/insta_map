@@ -750,5 +750,8 @@
  },
  "cn-three-natural-bridges": {
   "prio": "nein"
+ },
+ "cn-linhua-road-residential-complex": {
+  "prio": "hoch"
  }
 }
