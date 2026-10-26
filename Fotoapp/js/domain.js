@@ -279,7 +279,7 @@ export function referenceSourcesText(ref) {
 }
 // Learning round: which questions can be checked against sourced references
 export const LEARN_REF_DIMS = { q_position: "viewpoint", q_wait: "moment", q_omitted: "omitted" };
-export const EXTRA_REF_DIMS = [null, "detail", "edge", "time_motion"]; // matches EXTRA_QUESTIONS
+export const EXTRA_REF_DIMS = [null, "detail", "frame", "time"]; // matches EXTRA_QUESTIONS
 export function learnRefs(imageId, extraLabel = "") {
   const out = {};
   for (const [k, dim] of Object.entries(LEARN_REF_DIMS)) { const r = refFor(imageId, dim); if (r) out[k] = r; }
@@ -290,9 +290,8 @@ export function learnRefs(imageId, extraLabel = "") {
 export async function learnFeedbackSourced(img, answers, refs) {
   const qs = [...QUESTIONS, ...(answers.q_extra_label ? [["q_extra", answers.q_extra_label]] : [])];
   const dimOf = k => k === "q_extra" ? EXTRA_REF_DIMS[EXTRA_QUESTIONS.indexOf(answers.q_extra_label)] : LEARN_REF_DIMS[k];
-  const scopeKey = d => ({ edge: "frame", time_motion: "time" }[d] || d);
   const txt = qs.map(([k, l]) => `${l}\nAntwort: ${(answers[k] || "").trim() || "(keine Antwort)"}\n`
-    + (refs[k] ? `Umfang der Frage:\n${scopeText(scopeKey(dimOf(k)))}\nReferenz:\n${referenceSourcesText(refs[k])}\n` : "Referenz: keine Quelle\n")).join("\n");
+    + (refs[k] ? `Umfang der Frage:\n${scopeText(dimOf(k))}\nReferenz:\n${referenceSourcesText(refs[k])}\n` : "Referenz: keine Quelle\n")).join("\n");
   const res = await ai({ system: await prompt("learn_feedback_src_v2"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true,
     content: [...await imageBlocks(img), { type: "text", text: `<references_and_answers>\n${txt}</references_and_answers>` }] });
   return clampScores(res.data);

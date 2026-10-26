@@ -230,7 +230,8 @@ class Library:
         accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
         n = 0
         for r in data.get("references", []):
-            img, dim = r.get("image_id") or self.by_url.get(r.get("image_url", "")), r.get("dimension")  # new images: by image_url
+            img = r.get("image_id") or self.by_url.get(r.get("image_url", ""))  # new images: by image_url
+            dim = DIM_ALIASES.get(r.get("dimension"), r.get("dimension"))
             if img not in self.images or not dim:
                 print(f"  ! Referenz übersprungen: {img} {dim}", file=sys.stderr)
                 continue
@@ -270,6 +271,11 @@ class Library:
                 ph["portrait"] = {k: b["portrait"].get(k, "") for k in ("image_url", "source_url", "credit")}
             n += 1
         return n
+
+
+# reference files may use analysis field names; the app keys drills by aspect key (js/domain.js DIMENSIONS)
+DIM_ALIASES = {"edge": "frame", "focus_plane": "focus", "pictorial_order": "order", "surface_space": "surface",
+               "time_motion": "time", "stance": "attitude", "distance_focal_estimate": "distance"}
 
 
 def q_to_s(text: str, ids: list[int]) -> str:
