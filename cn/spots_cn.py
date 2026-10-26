@@ -114,7 +114,7 @@ SPOTS = [
  ("Three Natural Bridges 天生三桥", 29.4399, 107.7863, False, "Wulong, Chongqing", "Natur",
   [27, (14, 6), (38, 1), (41, 7)], "3 h ab Chongqing; 1 h Rundweg, Glas-Aufzug hinunter. Tagestour: 7 Uhr los, 15 Uhr zurück."),
  ("Baixiangju & Yangtze River Cableway 白象居 · 长江索道", 29.558528, 106.581348, False, "Yuzhong, Chongqing", "Architektur",
-  [37, 39, (38, 5), 54], "Die rote Seilbahn über den Jangtse schwebt zwischen den Wohntürmen hindurch."),
+  [37, 39, (38, 5), 54], "Die rote Seilbahn über den Jangtse schwebt zwischen den Wohntürmen hindurch. Standpunkt (eingegrenzt, nicht bestätigt): offene Verbindungsgänge zwischen den Türmen, am ehesten Haus 3/4, etwa ab der Plattform im 12. Stock aufwärts – Blick nach Norden, Raffles City mit der Glasbrücke steht hinter der Seilbahn. Bequemer Zugang von oben über die Brücke von der Jiefang East Road 解放东路 in den 24. Stock, dann zu Fuß hinunter (kein Aufzug). 85–135 mm, Gondel mittig zwischen zwei Türmen mit runden Erkern abpassen, Pendelbetrieb – alle paar Minuten eine Gondel, Serienbild 1/500 s. Dunst lässt Raffles weich verschwimmen. Bewohntes Haus: leise sein, nicht vor Wohnungstüren aufbauen."),
  ("Luohan Temple 罗汉寺", 29.562566, 106.577843, False, "Yuzhong, Chongqing", "Tempel",
   [(38, 3), (41, 6), (53, 1), 90, (93, 4), (93, 3), (93, 1), (93, 2)], "Tausend Jahre alter buddhistischer Tempel mitten zwischen Hochhäusern."),
  ("Chaodong Road 朝东路", 29.566677, 106.584101, True, "Yuzhong, Chongqing", "Street",

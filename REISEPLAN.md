@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 26.10.2026 10:58 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 26.10.2026 15:13 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -272,7 +272,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **12:00–14:00** ✅ **Eling Second Factory 鹅岭二厂** (Yuzhong, Chongqing) · Licht: Vormittag – Dachterrassen, bei Regen Innenhöfe – Testbed 2 (鹅岭二厂): Backstein-Fabrik, überdachte Gänge und Treppen – bei Regen Innenhöfe und Durchgänge. Mittagessen gleich hier in einem der Cafés/Restaurants.
   - ↓ 🚗 Auto · ca. 10 Min. · 8 km
 - **14:30–15:15** ◻︎ optional: **Huguang Guild Hall 湖广会馆** (Yuzhong, Chongqing) · Licht: Nachmittag – Innenhöfe – Gildehallen am Jangtse-Ufer: Holzgalerien und Dachtraufen, bei Regen tropfen sie schön. Ganz in der Nähe von Baixiangju.
-- **15:15–16:45** ✅ **Baixiangju & Yangtze River Cableway 白象居 · 长江索道** (Yuzhong, Chongqing) · Licht: Nachmittag – Regen lässt nach – Baixiangju (白象居): Straße erreicht das Wohnhaus im 24. Stock über eine Brücke – von unten am Treppenweg hochfotografieren, 16–35. Laut Modellen lässt der Regen ab ca. 15 Uhr nach. Danach optional Jangtse-Seilbahn zum Südufer.
+- **15:15–16:45** ✅ **Baixiangju & Yangtze River Cableway 白象居 · 长江索道** (Yuzhong, Chongqing) · Licht: Nachmittag – Regen lässt nach – Baixiangju (白象居): Seilbahn zwischen den Wohntürmen mit Raffles dahinter – von den Verbindungsgängen (Haus 3/4, ab ca. 12. Stock) nach Norden, 85–135 mm. Zugang von oben über die Brücke von der Jiefang East Road in den 24. Stock, dann zu Fuß hinunter. Details unter „Foto-Tipps & Infos“. Danach optional Jangtse-Seilbahn zum Südufer.
   - ↓ 🚶 zu Fuß · ca. 20 Min.
 - **17:15–19:30** ✅ **Shibati Old Steps 十八梯** (Yuzhong, Chongqing) · Licht: Blaue Stunde 18:10–18:40 → Laternen bei Nacht – Ladder Street (十八梯): von oben die Treppen hinunter mit den Laternen, 24–70, Stativ. Abends nur noch wenig Regen – nasse, glänzende Stufen sind ideal.
   - ↓ 🚶 zu Fuß · ca. 10 Min.
