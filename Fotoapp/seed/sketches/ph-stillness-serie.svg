@@ -8,18 +8,19 @@
 <rect x="80" y="26" width="60" height="25" fill="currentColor" fill-opacity="0.18" stroke="none"/>
 <path d="M86 58 h20 M112 58 h22 M84 64 h28 M118 64 h16 M88 70 h18 M110 70 h24" class="m" stroke-width="1"/>
 <rect x="80" y="26" width="60" height="50"/>
-<line x1="80" y1="51" x2="140" y2="51" class="a"/>
+<!-- 1986 Sea of Japan: haze, horizon only a soft transition -->
+<line x1="80" y1="51" x2="140" y2="51" class="a" stroke-opacity="0.4" stroke-width="3"/>
 <text x="110" y="90" text-anchor="middle" class="m">1986</text>
 <rect x="150" y="26" width="60" height="25" fill="currentColor" fill-opacity="0.03" stroke="none"/>
 <path d="M156 58 h20 M182 58 h22 M154 64 h28 M188 64 h16 M158 70 h18 M180 70 h24" class="m" stroke-width="1"/>
 <rect x="150" y="26" width="60" height="50"/>
 <line x1="150" y1="51" x2="210" y2="51" class="a"/>
-<text x="180" y="90" text-anchor="middle" class="m">1992</text>
+<text x="180" y="90" text-anchor="middle" class="m">…</text>
 <rect x="220" y="26" width="60" height="25" fill="currentColor" fill-opacity="0.12" stroke="none"/>
 <path d="M226 58 h20 M252 58 h22 M224 64 h28 M258 64 h16 M228 70 h18 M250 70 h24" class="m" stroke-width="1"/>
 <rect x="220" y="26" width="60" height="50"/>
 <line x1="220" y1="51" x2="280" y2="51" class="a"/>
-<text x="250" y="90" text-anchor="middle" class="m">1997</text>
+<text x="250" y="90" text-anchor="middle" class="m">…</text>
 <rect x="290" y="26" width="60" height="25" fill="currentColor" fill-opacity="0.22" stroke="none"/>
 <path d="M296 58 h20 M322 58 h22 M294 64 h28 M328 64 h16 M298 70 h18 M320 70 h24" class="m" stroke-width="1"/>
 <rect x="290" y="26" width="60" height="50"/>
@@ -34,9 +35,10 @@
 <path d="M60 212 v-18 M60 200 l-6 -6 M60 197 l6 -7 M60 205 l5 -3" />
 <rect x="140" y="160" width="56" height="56"/>
 <path d="M140 202 q28 -3 56 0" class="m"/>
-<path d="M170 202 v-18 M170 190 l-6 -6 M170 187 l6 -7 M170 195 l5 -3" />
+<!-- same tree, same standpoint: deeper snow buries the lower trunk, the crown stays put -->
+<path d="M170 202 v-8 M170 200 l-6 -6 M170 197 l6 -7" />
 <rect x="250" y="160" width="56" height="56"/>
 <path d="M250 208 q28 -3 56 0" class="m"/>
-<path d="M268 208 v-18 M268 196 l-6 -6 M268 193 l6 -7 M268 201 l5 -3" />
+<path d="M268 208 v-14 M268 200 l-6 -6 M268 197 l6 -7 M268 205 l5 -3" />
 <text x="58" y="230" text-anchor="middle" class="m">wenig Schnee</text><text x="168" y="230" text-anchor="middle" class="m">mehr Schnee</text><text x="278" y="230" text-anchor="middle" class="m">Schritt zur Seite</text>
 </svg>

@@ -13,13 +13,13 @@
     <circle cx="128" cy="80" r="4"/><path d="M128 84 v14 M128 98 l-4 10 M128 98 l4 10"/>
   </g>
   <!-- right: calm ground, distinct figures, triangle -->
-  <path d="M190 92 Q270 86 350 94" class="m"/>
-  <path d="M222 104 L300 60 L326 112 Z" class="a" stroke-dasharray="3 4"/>
+  <path d="M190 44 Q270 39 350 45" class="m"/>
+  <path d="M222 104 L300 62 L326 112 Z" class="a" stroke-dasharray="3 4"/>
   <g>
     <circle cx="222" cy="92" r="4"/><path d="M222 96 v10 M222 106 l-3 8 M222 106 l3 8 M222 99 l6 -4"/>
-    <circle cx="300" cy="50" r="3"/><path d="M300 53 v8 M300 61 l-2 6 M300 61 l2 6"/>
+    <circle cx="300" cy="55" r="2"/><path d="M300 57 v4 M300 61 l-1.5 4 M300 61 l1.5 4"/>
     <circle cx="326" cy="100" r="4"/><path d="M326 104 v8 M326 112 l-3 8 M326 112 l3 8 M326 107 l-6 -5"/>
-    <circle cx="262" cy="80" r="2.5"/><path d="M262 82 v6 M262 88 l-2 5 M262 88 l2 5"/>
+    <circle cx="290" cy="81" r="3"/><path d="M290 84 v7 M290 91 l-2.5 7 M290 91 l2.5 7"/>
   </g>
   <text x="90" y="146" text-anchor="middle" class="m">Figuren überdecken</text>
   <text x="90" y="160" text-anchor="middle" class="m">sich, unruhiger Grund</text>

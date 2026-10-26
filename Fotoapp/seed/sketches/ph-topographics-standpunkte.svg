@@ -23,11 +23,13 @@
   <g transform="translate(0,200)">
     <rect x="8" y="0" width="76" height="54"/>
     <path d="M8 22 h76" class="m"/>
-    <rect x="50" y="16" width="8" height="6"/>
+    <!-- camera higher than the roof: the building sits below the horizon -->
+    <rect x="50" y="26" width="8" height="6"/>
     <circle cx="30" cy="38" r="2" class="af" stroke="none"/>
     <rect x="96" y="0" width="76" height="54"/>
-    <path d="M96 54 L130 26 L172 54 M96 6 L124 24 M172 4 L140 24" class="m"/>
-    <rect x="124" y="14" width="16" height="12"/>
+    <!-- eye level: all lines run to a vanishing point a little above the base of the far building -->
+    <path d="M96 54 L127.4 27 M172 54 L137.2 27 M96 6 L122 18.3 M172 4 L142 18.3" class="m"/>
+    <rect x="122" y="13" width="20" height="14"/>
     <rect x="184" y="0" width="76" height="54"/>
     <rect x="208" y="10" width="28" height="38"/>
     <path d="M214 18 h6 v6 h-6 Z M224 18 h6 v6 h-6 Z" class="m"/>

@@ -9,8 +9,8 @@
   <g text-anchor="middle">
     <text x="180" y="72">Lanting</text>
     <text x="180" y="88">Dykinga</text>
-    <text x="268" y="118" class="a">Wolfe</text>
-    <text x="268" y="132" class="m">Migrations</text>
+    <text x="266" y="118" class="a" text-anchor="start">Wolfe</text>
+    <text x="266" y="132" class="m" text-anchor="start">Migrations</text>
     <text x="96" y="170" class="a">Salgado</text>
     <text x="210" y="186" class="a">Brandt</text>
     <text x="210" y="172" class="m">Tafeln, Sets</text>

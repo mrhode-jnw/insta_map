@@ -7,7 +7,8 @@
   <g>
     <circle cx="60" cy="132" r="7"/><circle cx="86" cy="124" r="7"/><circle cx="112" cy="132" r="7"/><circle cx="138" cy="124" r="7"/>
     <circle cx="72" cy="154" r="7"/><circle cx="100" cy="152" r="7"/><circle cx="126" cy="156" r="7"/>
-    <path d="M60 122 v-30 M86 114 v-30 M112 122 v-30 M138 114 v-30" class="m" stroke-dasharray="2 3"/>
+    <!-- lines of sight converge on the monument -->
+    <path d="M60 122 L75.5 94 M86 114 L92.8 82.7 M112 122 L106.7 90.4 M138 114 L121.7 86.5" class="m" stroke-dasharray="2 3"/>
   </g>
   <text x="100" y="182" text-anchor="middle" class="m">alle: das Werk</text>
   <rect x="226" y="70" width="14" height="10" class="af" stroke="none"/>

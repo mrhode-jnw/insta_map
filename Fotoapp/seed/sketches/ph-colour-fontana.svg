@@ -3,7 +3,8 @@
   <text x="100" y="16" text-anchor="middle" class="h">Zoom staucht den Raum</text>
   <line x1="10" y1="120" x2="200" y2="120" class="m"/>
   <rect x="12" y="106" width="12" height="8" class="af" stroke="none"/>
-  <path d="M24 108 L196 70 M24 112 L196 112" class="a" stroke-dasharray="3 3"/>
+  <!-- narrow cone, tilted slightly down: from the near field up to just above the farthest one -->
+  <path d="M24 108 L198 96 M24 112 L82 116" class="a" stroke-dasharray="3 3"/>
   <path d="M70 120 q20 -10 40 0 M120 120 q22 -18 44 0 M160 120 q20 -30 40 0" class="m"/>
   <text x="90" y="140" text-anchor="middle" class="m">Felder hintereinander,</text>
   <text x="90" y="154" text-anchor="middle" class="m">enger Bildwinkel</text>

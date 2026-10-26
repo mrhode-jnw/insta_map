@@ -8,7 +8,7 @@
   <path d="M150 104 L160 72 L190 66 L204 100 Z" class="f"/>
   <circle cx="178" cy="82" r="4" class="af" stroke="none"/>
   <path d="M252 70 h30 M277 65 l5 5 l-5 5" class="m"/>
-  <circle cx="316" cy="70" r="30" class="a"/>
+  <circle cx="316" cy="70" r="32" class="a"/>
   <text x="316" y="66" text-anchor="middle">Gefühl</text><text x="316" y="80" text-anchor="middle" class="m">Betrachter</text>
   <text x="180" y="130" text-anchor="middle" class="h">ein Bild, zwei Rollen</text>
   <text x="120" y="150" text-anchor="middle">Aufzeichnung:</text><text x="120" y="165" text-anchor="middle" class="m">Fels vor der Kamera</text>

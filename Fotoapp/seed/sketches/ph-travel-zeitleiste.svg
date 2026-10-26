@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 312" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-<text x="10" y="16" class="h">Neunzig Jahre Reisereportage</text>
+<text x="10" y="16" class="h">Reisereportage 1931–2016</text>
 <line x1="72" y1="26" x2="72" y2="282" class="m"/>
 <text x="62" y="38" text-anchor="end" class="h">1931/32</text>
 <circle cx="72" cy="34" r="4" class="af" stroke="none"/>
@@ -37,5 +37,5 @@
 <text x="62" y="280" text-anchor="end" class="m">2016</text>
 <circle cx="72" cy="276" r="4" class="m" />
 <text x="84" y="280" class="m">Debatte um McCurrys Retuschen</text>
-<circle cx="80" cy="298" r="4" class="af" stroke="none"/><text x="90" y="302" class="m">Werk</text><circle cx="140" cy="298" r="4" class="m"/><text x="150" y="302" class="m">Institution, Streit</text>
+<circle cx="80" cy="298" r="4" class="af" stroke="none"/><text x="90" y="302" class="m">Weg, Werk</text><circle cx="160" cy="298" r="4" class="m"/><text x="170" y="302" class="m">Institution, Streit</text>
 </svg>
