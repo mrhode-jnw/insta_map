@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 26.10.2026 15:13 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 26.10.2026 15:55 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -247,6 +247,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - **11:45** 🚄 **Chongqing Ost (重庆东)** – Taxi/DiDi in die Innenstadt (ca. 30 Min.).
   - ↓ 🚗 Auto · ca. 25 Min. · 20 km
 - **~16:00** 🏨 Check-in: **The Lixury Hotel Chongqing**
+- 🚶 ◻︎ optional: **Rundgang Chongqing: Abendrunde zu den Lichtern der Skyline** – Jiefangbei → Hongyadong → Qiansimen-Brücke → Jiangbeizui, ca. 4 km zu Fuß – auf der Karte und in der Liste.
   - ↓ 🚗 Auto · ca. 5 Min. · 2 km
 - **16:45–17:30** ◻︎ optional: **Raffles City – The Crystal 重庆来福士·水晶连廊** (Yuzhong (Chaotianmen), Chongqing) · Licht: Spätes Licht über dem Zusammenfluss – Nur wenn die Ankunft glatt läuft und Tickets frei sind. Bei Wolkenuntergrenze unter 400 m steckt die Brücke (250 m) im Dunst – dann auslassen.
   - ↓ 🚶 zu Fuß · ca. 15 Min.

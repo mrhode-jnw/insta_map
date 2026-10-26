@@ -1489,6 +1489,15 @@
      "text": "Ab 16:00 in Chongqing. Hotel direkt an der Jiefangbei – Hongyadong 900 m zu Fuß."
     },
     {
+     "type": "info",
+     "icon": "🚶",
+     "title": "Rundgang Chongqing: Abendrunde zu den Lichtern der Skyline",
+     "opt": true,
+     "sel": true,
+     "walk": "walk-chongqing-skyline",
+     "text": "Jiefangbei → Hongyadong → Qiansimen-Brücke → Jiangbeizui, ca. 4 km zu Fuß – auf der Karte und in der Liste."
+    },
+    {
      "type": "move",
      "mode": "car"
     },
