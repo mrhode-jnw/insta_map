@@ -12468,6 +12468,39 @@ window.PLACES_CN = [
   "image_page": "https://www.instagram.com/yantastic/",
   "image_credit": "@yantastic · Instagram",
   "when": "night"
+ },
+ {
+  "id": "cn-dongshuimen-brcke-mit-seilbahn-im-tele",
+  "region": "cn",
+  "name": "Dongshuimen-Brücke mit Seilbahn im Tele 东水门大桥 · 慈云寺",
+  "district": "Nan'an (Ciyun-Tempel), Chongqing",
+  "category": "Aussicht",
+  "note": "Teleblick: die rote Fachwerk-Hängebrücke Dongshuimen 东水门大桥 im Vordergrund, dahinter die rote Jangtse-Seilbahn und zwei goldene Türme mit Spitzdächern (Logo „S“, vermutlich Sheraton, Nan'an-Ufer). Standpunkt laut @yantastic: Uferweg am Südufer (Nan'an) nördlich der Brücke, nahe dem Ciyun-Tempel 慈云寺 – Blick nach Süden entlang des Ufers, durch die Brücke hindurch. Langes Tele (200–400 mm), damit Brücke, Seilbahn und Türme zusammenrücken; Seilbahn im Pendelbetrieb abwarten. Warmes, tiefes Licht im Original – also früher Morgen oder später Nachmittag. Hinkommen: Taxi zum 慈云寺, dann am Ufer Richtung Brücke.",
+  "address": "Nan'an (Ciyun-Tempel), Chongqing",
+  "lat": 29.5665,
+  "lng": 106.5903,
+  "approx": true,
+  "image": "images/cq_dongshuimen_tele_yantastic.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/yantastic/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/yantastic/",
+    "kind": "photo",
+    "image": "images/cq_dongshuimen_tele_yantastic.jpg",
+    "caption": "",
+    "credit": "@yantastic · Instagram"
+   }
+  ],
+  "source": "Instagram @yantastic (Karussell „China's most viral city – Chongqing“, Bild 8–9/18)",
+  "unsure": "Pin nach der Kartengrafik im Post (blauer Punkt am Ostufer nahe Ciyun-Tempel) – auf ca. 100–150 m genau; im Navi „慈云寺“ suchen und am Ufer Richtung Brücke gehen.",
+  "image_page": "https://www.instagram.com/yantastic/",
+  "image_credit": "@yantastic · Instagram",
+  "when": "day"
  }
 ];
 window.UNPLACED_CN = [
