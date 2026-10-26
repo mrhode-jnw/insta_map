@@ -1,0 +1,801 @@
+{
+ "accessed_at": "2026-10-26",
+ "references": [
+  {
+   "image_id": "i6529d88033",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    465115
+   ],
+   "answer_md": "Die Wasserfälle auf der Sprite-Reklame und die echten Alpen darüber sind im selben bläulichen Ton getönt; dadurch wirken sie zunächst zusammenhängend, wie Teil derselben Landschaft [S465115].",
+   "checkable": [
+    "Gleicher Blauton in den gemalten Wasserfällen der Reklame und im Gebirge darüber [S465115]",
+    "Werbebild und reale Berge gehen farblich ineinander über [S465115]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ibbd7ccd719",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    337579
+   ],
+   "answer_md": "Die rostigen Farben stammen vom hohen Eisengehalt des vulkanischen Bodens, der mit Wasser zu Eisenoxid wird [S337579].",
+   "checkable": [
+    "Rostfarbene, ockrige Töne im Flussdelta [S337579]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if0607eb95c",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    718064
+   ],
+   "answer_md": "Ein roter Fluss schneidet sich durch ein ausgebleichtes Tal – Rot gegen Gebleichtes [S718064].",
+   "checkable": [
+    "Kräftig roter Flusslauf [S718064]",
+    "Helles, ausgebleichtes Umland daneben [S718064]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i32d59b1183",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    621799
+   ],
+   "answer_md": "Maisel fliegt tiefer, bis blutrote Salzfelder den Rahmen füllen [S621799].",
+   "checkable": [
+    "Bildfeld fast vollständig blutrot [S621799]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ifccce59f5b",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    677129
+   ],
+   "answer_md": "Die Farben sind digital verstärkt; das steigert die dekorative Wirkung, die an Mosaik oder Glasfenster erinnert [S677129].",
+   "checkable": [
+    "Viele kleine, gesättigte Farbflecken über das ganze Bild – wie Mosaiksteine [S677129]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6749fddb8d",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    950987
+   ],
+   "answer_md": "Die Landschaft ist überwiegend beige bis braun; Sternfeld setzt Farbe ein, um scheinbar einfachen Bildern emotionale Vielschichtigkeit zu geben [S950987].",
+   "checkable": [
+    "Beige-braune Grundtönung des Geländes, in dem das umgestürzte Auto steckt [S950987]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i43ffe1086c",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    745545
+   ],
+   "answer_md": "Shores gedämpfte Farbpalette – zusammen mit Schildern, Architektur und den Mustern von Straße und Pflaster – macht die unscheinbare Straßenecke bedeutsam [S745545].",
+   "checkable": [
+    "Gedämpfte, zurückhaltende Farben statt greller Akzente [S745545]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ia53b3af771",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    994730
+   ],
+   "answer_md": "Himmel, Fluss und Erde verschmelzen in einer ruhigen Palette aus Gelb und Grau; den gedämpften Ton erreichte Zhang, indem er vor allem an bewölkten Tagen fotografierte und leicht überbelichtete [S994730].",
+   "checkable": [
+    "Kaum Kontrast zwischen Himmel und Fluss – beide blass gelblich-grau [S994730]"
+   ],
+   "scope_note": "Die Quelle spricht über Zhangs Yellow-River-Bilder allgemein; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i3312b69c1e",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    162796
+   ],
+   "answer_md": "Das Bild erinnert an Richters Farbtafeln: Wie dort die vielen feinen Töne, jeder an seinem Platz, belebt die flackernde Unregelmäßigkeit der Fenster-Vorhänge der einzelnen Wohnungen das streng geordnete Ganze [S162796].",
+   "checkable": [
+    "Jedes Fenster ein eigener kleiner Farbton – wie Felder einer Farbtafel [S162796]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2b5d89e520",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    917495,
+    508588
+   ],
+   "answer_md": "Das „leere“ weiße Schneefeld ist von Grau bis Weiß abgestuft [S917495]; Kenna nennt für Hokkaidos Winter ausdrücklich die Abwesenheit von Farbe als Reduktion [S508588].",
+   "checkable": [
+    "Großes Feld feiner Abstufungen von Grau zu Weiß [S917495]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i8b9c14fb6b",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    178633
+   ],
+   "answer_md": "In der Bildfolge der Schiffsbuge geht Burtynsky nah heran, um Rot, Blau und Rost des Metalls und die Schweißnähte einzufangen [S178633].",
+   "checkable": [
+    "Rote Lackflächen und Rost am Bug [S178633]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Sequenz der Schiffsbug-Bilder, zu der dieses gehört."
+  },
+  {
+   "image_id": "ib39c1a7468",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    917641
+   ],
+   "answer_md": "Ein Blitz zuckt aus einer blauschwarzen Nacht und schlägt in Berge und Buschwüste ein [S917641].",
+   "checkable": [
+    "Blauschwarzer Nachthimmel als Grundton [S917641]",
+    "Heller Blitz als einziger starker Lichtakzent [S917641]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib01bcf3028",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "The glowing, turquoise water knifing through the solid, steep and rocky canyon speaks to me of living water flowing forth from places unseen, bringing peace, life, and grace to our sometimes arid, parched and rocky lives."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Burkett beschreibt das leuchtend türkisfarbene Wasser, das sich durch den festen, steilen, felsigen Canyon schneidet [Q1].",
+   "checkable": [
+    "Türkiser Fluss gegen die erdigen Canyonwände [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4a55592e19",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/daybreak/",
+     "title": "Daybreak – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "I titled this image Daybreak not just because it was but also because its colors and drama were reminiscent to me of Maxfield Parrish. This image is a perfect example of what amazing work can be done with transparency film and Cibachrome printing. There’s an astonished depth and life to the image with incredible subtle color differentiations in the gold and blue reflections and delicate pastel images of the rocks beneath the water."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Farben und Dramatik erinnerten Burkett an Maxfield Parrish; er betont die feinen Farbunterschiede in den goldenen und blauen Spiegelungen und die zarten Pastelltöne der Steine unter Wasser [Q1].",
+   "checkable": [
+    "Gold- und Blautöne in den Spiegelungen [Q1]",
+    "Pastellfarbene Steine unter der Wasseroberfläche [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2d8c007dd3",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/autumn-circus/",
+     "title": "Autumn Circus – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "I titled the image “Autumn Circus” for several reasons. To me it has a festive, rambunctious quality… this is no polite, tame tree; the colors reminded me of circus colors."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Titel spielt auf die Farben an: Sie erinnerten Burkett an Zirkusfarben – festlich und ausgelassen, „kein höflicher, zahmer Baum“ [Q1].",
+   "checkable": [
+    "Festlich-bunte, „laute“ Farbmischung im Laub [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ice7056e3c3",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "The disorienting aspect of the upside down reflection of the bright aspens is enhanced by the fact that we are used to seeing scenes in nature where objects in the distance have bluer tones than objects in the foreground, due to haze and light scattering. Here, the colors are dramatically reversed."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Normalerweise sind ferne Dinge durch Dunst blauer als nahe; hier sind die Farben dramatisch vertauscht – das verstärkt die Desorientierung durch die kopfstehende Spiegelung der hellen Espen [Q1].",
+   "checkable": [
+    "Gelb leuchtende Espen nur in der Spiegelung [Q1]",
+    "Blaue Töne vorn statt in der Ferne – Farbordnung umgekehrt [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i140ba8da99",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/ghost-gums/",
+     "title": "Ghost Gums – Art Wolfe",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "From a distance the mountains seems very barren and dry, but water pools and collects in the deep canyons and gums and other plants and wildlife flourish. It is a beautiful contrast between the green foliage and the red rock beyond."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Wolfe nennt den Kontrast zwischen dem grünen Laub und dem roten Fels dahinter [Q1].",
+   "checkable": [
+    "Grünes Laub der Eukalypten vor rotem Fels [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id378960c2e",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://huxleyparlour.com/critical-texts/joel-sternfelds-mclean-virginia/",
+     "title": "Joel Sternfeld: McLean, Virginia – Huxley-Parlour",
+     "author": "Eleanor Lerman (Huxley-Parlour Gallery)",
+     "kind": "curator",
+     "excerpt": "Typical of Sternfeld’s aptitude for colour, the disparate elements of the photograph are connected by an orange accent. Indeed, the photograph itself appears artificial in some way. The swathe of rotten pumpkins littering the floor echo the fireman’s bright orange uniform, in turn mirroring the orange flames smouldering above. These colours appear too co-ordinated, garishly vibrant against the desolate farmland."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Ein orangefarbener Akzent verbindet die getrennten Bildteile: die Kürbisse am Boden spiegeln das Orange der Flammen oben; die Farben wirken fast zu abgestimmt, grell vor dem öden Farmland [Q1].",
+   "checkable": [
+    "Orange Kürbisse im Vordergrund [Q1]",
+    "Orange Flammen am Haus im Hintergrund [Q1]",
+    "Ansonsten fahles, ödes Farmland [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3312b69c1e",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    162796
+   ],
+   "answer_md": "Gursky schnitt das Gebäude links und rechts an und nahm dem Bild so die Tiefe zwischen Fassade und Bildebene [S162796].",
+   "checkable": [
+    "Fassade läuft an beiden Seiten aus dem Bild – keine Gebäudeecken, kein Raum davor/dahinter [S162796]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ifccce59f5b",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    732599
+   ],
+   "answer_md": "Die flache, gleichmäßig über das Bild verteilte Struktur und das Fehlen einer einzigen Perspektive machen die Architektur des Raums schwer lesbar; Händler, Monitore und Papierschnipsel werden Teil eines Gesamtmusters wie in abstrakt-expressionistischer Malerei [S732599].",
+   "checkable": [
+    "Kein klarer Fluchtpunkt, Raum kaum ablesbar [S732599]",
+    "Menschen und Dinge verschmelzen zu einem Muster über die ganze Fläche [S732599]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i830ba0dac2",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    610840
+   ],
+   "answer_md": "Weil die Kamera senkrecht nach unten zeigt, wirken die Bilder vollkommen flach [S610840].",
+   "checkable": [
+    "Senkrechte Draufsicht: das Bild wirkt vollkommen flach [S610840]"
+   ],
+   "scope_note": "Die Quelle spricht über die Luftbilder der Serie allgemein."
+  },
+  {
+   "image_id": "i0eb3ab4b1b",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    459848
+   ],
+   "answer_md": "Hegen nennt seine Bilder stark abstrahiert und grafisch; manche brauchen Zeit, bis man entschlüsselt, was man sieht [S459848].",
+   "checkable": [
+    "Bild liest sich zuerst als grafische Form, erst danach als Landschaft [S459848]"
+   ],
+   "scope_note": "Aussage des Fotografen zu seinen Bildern allgemein; dieses Bild ist ein Beispiel der Serie."
+  },
+  {
+   "image_id": "i5afdcfbda0",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    324972,
+    760973
+   ],
+   "answer_md": "Oben spiegeln die Fenster als halbabstrakte Formen, unten liegen die genieteten Blechfelder; die sich wiederholenden Rechtecke wirken wie ein Kontaktbogen oder Filmstreifen [S324972] – eine stille, gerasterte Komposition [S760973].",
+   "checkable": [
+    "Reihe gleicher Fensterrechtecke wie Filmbilder nebeneinander [S324972]",
+    "Waagerechte Bänder: Spiegelfenster oben, Blech unten [S324972]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6c7f99d0a3",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    147496,
+    307249
+   ],
+   "answer_md": "Fontana verdichtet mit dem Zoomobjektiv den Raum zu einer zweidimensionalen Perspektive [S147496]; das Bild zeigt die Natur reduziert auf gesättigte Bänder aus Gelb, Blau und Braun [S307249].",
+   "checkable": [
+    "Felder als flache Farbbänder übereinander statt räumlicher Tiefe [S307249]",
+    "Raum zusammengeschoben, zweidimensional wirkend [S147496]"
+   ],
+   "scope_note": "S147496 beschreibt Fontanas Vorgehen allgemein; laut NGV-Text ist dieses Bild ein Paradebeispiel seines Stils."
+  },
+  {
+   "image_id": "i485304436e",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    892008
+   ],
+   "answer_md": "Die Galerie nennt das Bild ein Meisterwerk abstrakter Reduktion: Der Fluss glänzt wie ein Blitz auf dem dunklen Delta, und Meer und Himmel gehen unmerklich ineinander über [S892008].",
+   "checkable": [
+    "Keine klare Grenze zwischen Meer und Himmel [S892008]",
+    "Heller Flusslauf als grafische Linie auf dunklem Grund [S892008]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i8b4671908b",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    808929
+   ],
+   "answer_md": "Kaum ein Horizont gibt Halt; die wenigen werden fremd, weil die Abzüge den Blick auf die Oberfläche ziehen – man weiß kaum, wo man steht [S808929].",
+   "checkable": [
+    "Kein verortender Horizont [S808929]",
+    "Blick bleibt an der Oberfläche (Wasser/Abzug) hängen [S808929]"
+   ],
+   "scope_note": "Die Quelle spricht über Coopers Bilder dieser Werkgruppe insgesamt."
+  },
+  {
+   "image_id": "i99f20775bb",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    533820
+   ],
+   "answer_md": "Kritiker verglichen das Bild mit Barnett Newman, dessen Leinwände monochrome Flächen mit geraden Streifen zeigen; Gurskys Bild liest sich wie eine waagerechte Version solcher Gemälde [S533820].",
+   "checkable": [
+    "Waagerechte Streifen (Wiese, Wasser, Wiese, Weg) wie Farbbahnen [S533820]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2b5d89e520",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    917495
+   ],
+   "answer_md": "Kenna lässt das Rechteck bewusst leer: Das weiße Schneefeld lädt ein, in seine offene Weite hineinzugehen und in die Ferne zu blicken, wo der Berg wie eine Fata Morgana auf dem Horizont schwebt [S917495].",
+   "checkable": [
+    "Große leere Fläche im Vordergrund [S917495]",
+    "Berg klein und fern, schwebend auf dem Horizont [S917495]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2c414c1f0f",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    925873,
+    984837
+   ],
+   "answer_md": "Wolf lässt Himmel und Horizont weg, um jedes Bild zu verflachen und die Fassaden zu scheinbar endlosen Abstraktionen zu machen [S925873]; aus der Ferne wirken sie wie ein Muster, ein Teppich [S984837].",
+   "checkable": [
+    "Kein Himmel, kein Horizont [S925873]",
+    "Fassaden füllen das Bild wie ein Muster [S984837]"
+   ],
+   "scope_note": "Beide Quellen sprechen über die Serie „Architecture of Density“ allgemein."
+  },
+  {
+   "image_id": "i6a83638a3e",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+     "title": "Mario Giacomelli – \"Paesaggio\" – Danziger Gallery",
+     "author": "Danziger Gallery (Pressetext)",
+     "kind": "curator",
+     "excerpt": "His elevated and aerial viewpoints – either achieved by shooting from hillsides or taken from a friend’s small plane – compress distance and distort scale, rendering the terrain somewhat abstract, almost calligraphic. The stark contrasts of black and white, pushed and manipulated in the darkroom, create landscapes that feel etched, emphasizing line and texture along with the seasonal rhythm of farm work."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die erhöhten Standorte verdichten die Distanz und verzerren den Maßstab, das Gelände wird fast abstrakt, kalligraphisch; harte Schwarzweißkontraste betonen Linie und Textur [Q1].",
+   "checkable": [
+    "Ackerfurchen als grafische Linien über die Fläche [Q1]",
+    "Harte Schwarz-Weiß-Kontraste statt Tiefenstaffelung [Q1]"
+   ],
+   "scope_note": "Der Galerietext beschreibt die Paesaggio-Serie insgesamt; dieses Bild gehört dazu."
+  },
+  {
+   "image_id": "i32660e82d5",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/200882",
+     "title": "Corona del Mar – The Art Institute of Chicago",
+     "author": "The Art Institute of Chicago",
+     "kind": "museum",
+     "excerpt": "Corona del Mar is nearly devoid of shadows, making the image appear as shallow as the paper on which it is printed. Baltz emphasized this congruence by mounting the photograph onto board and rimming the perimeter with India ink."
+    },
+    {
+     "url": "https://www.artic.edu/artworks/200882",
+     "title": "Corona del Mar – The Art Institute of Chicago",
+     "author": "The Art Institute of Chicago",
+     "kind": "museum",
+     "excerpt": "They are among the earliest artworks to show the fascinating, disturbing transformation of the American landscape into an unending terrain of anonymous buildings; they are also among the first photographs to seek the starkly reductive forms of Minimalist and Post-Minimalist art “out in the world.”"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild ist fast schattenlos und wirkt dadurch so flach wie das Papier, auf dem es gedruckt ist [Q1]; Baltz suchte die reduzierten Formen der Minimal Art in der Wirklichkeit [Q2].",
+   "checkable": [
+    "Fast keine Schatten [Q1]",
+    "Bild wirkt so flach wie das Papier [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie9df651c4e",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    379400
+   ],
+   "answer_md": "Der Horizont liegt irgendwo außerhalb des Rahmens; der Betrachter verliert die Richtung [S379400].",
+   "checkable": [
+    "Kein Horizont im Bild, keine Richtung zur Orientierung [S379400]"
+   ],
+   "scope_note": "Die Quelle spricht über die Lake-Project-Bilder insgesamt."
+  },
+  {
+   "image_id": "i2eea36976e",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    114728
+   ],
+   "answer_md": "Cooper lässt den Horizont weg: Eine Horizontlinie wäre ein Ausgang für Auge und Körper; ohne sie „verinnerlicht“ er seine Bilder [S114728].",
+   "checkable": [
+    "Keine Horizontlinie im Bild [S114728]"
+   ],
+   "scope_note": "Aussage Coopers zu seinem Vorgehen allgemein."
+  },
+  {
+   "image_id": "i17cf409650",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    486145
+   ],
+   "answer_md": "Muybridge baut das Bild malerisch: Ein sanfter, allmählicher Vordergrund führt zu den fernen, aufragenden Felswänden [S486145].",
+   "checkable": [
+    "Blick wird vom flachen Ufer/Wasser vorn nach hinten zu den Felsen geführt [S486145]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic02846fa6d",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    582133
+   ],
+   "answer_md": "Die Silhouette des springenden Mannes mit ihrem umgekehrten Spiegelbild im Wasser, die Figur auf dem Plakat dahinter – Motive und Formen im ganzen Bild antworten einander und erzeugen Spannung [S582133].",
+   "checkable": [
+    "Springer und sein Spiegelbild bilden ein Paar [S582133]",
+    "Springende Figur auf dem Plakat im Hintergrund antwortet ihm [S582133]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2377a54636",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    482953
+   ],
+   "answer_md": "In der obersten Reihe ist in der Mitte ein Postkartenfach leer; gerade diese stumpfe Rechteck-Geometrie – leeres Fach, Betonwand, Ständer – zieht den Blick auf sich [S482953].",
+   "checkable": [
+    "Leeres Fach oben in der Mitte als Blickfang zwischen den Sonnenuntergängen [S482953]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib7183fbcbf",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    816031
+   ],
+   "answer_md": "Der untere Teil einer großen Eibe steht mittig im Vordergrund, links dahinter das Herrenhaus hinter einer Hecke, rechts ein Stamm mit gewundenem Muster [S816031].",
+   "checkable": [
+    "Dunkle Eibe als schwere Form in der Mitte [S816031]",
+    "Haus links, gedrehter Stamm rechts als Gegengewichte [S816031]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i485304436e",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    892008
+   ],
+   "answer_md": "Der geschlängelte Rio Grande glänzt wie ein Blitz auf dem dunklen Delta und fließt in das schimmernde Wasser des Golfs [S892008].",
+   "checkable": [
+    "Heller Flusslauf als Schlangenlinie, die den Blick zum Meer führt [S892008]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i749edc2880",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    736921
+   ],
+   "answer_md": "Fan Ho beschnitt das Bild radikal schmal und hoch und schuf so einen Rhythmus aus den Formen der Kinder, den Straßenbahnschienen und den Abflusslöchern [S736921].",
+   "checkable": [
+    "Extrem schmales Hochformat [S736921]",
+    "Kinder, Schienen und Abflusslöcher als rhythmische Abfolge von oben nach unten [S736921]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2d8c007dd3",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/autumn-circus/",
+     "title": "Autumn Circus – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Also, the word “circus” is a version of the word “circle” and this image has a circular composition that revolves in a counterclockwise direction."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild hat eine kreisförmige Komposition, die sich gegen den Uhrzeigersinn dreht [Q1].",
+   "checkable": [
+    "Äste und Laub führen den Blick im Kreis – gegen den Uhrzeigersinn [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2242dd259a",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    633459,
+    752564
+   ],
+   "answer_md": "Eine kaum sichtbare Horizontlinie teilt Meer und Himmel [S633459]; die Komposition ist auf das Einfachste reduziert: Meer und Himmel, getrennt durch einen einzigen Horizont [S752564].",
+   "checkable": [
+    "Einzige Linie: der Horizont, der das Bild teilt [S633459]",
+    "Sonst nur zwei ruhige Flächen [S752564]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2b5d89e520",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    917495
+   ],
+   "answer_md": "Kenna füllt das Rechteck bewusst nicht mit Details: Das „leere“ Schneefeld führt den Blick hinein und in die Ferne, wo der Berg auf dem Horizont schwebt [S917495].",
+   "checkable": [
+    "Großes leeres Feld unten, kleines Gewicht (Berg) am Horizont [S917495]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie8b47098fa",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://sam.nmartmuseum.org/objects/6454/the-tetons-and-the-snake-river-grand-teton-national-park-w",
+     "title": "The Tetons and the Snake River, Grand Teton National Park, Wyoming – New Mexico Museum of Art",
+     "author": "New Mexico Museum of Art (Objektbeschreibung)",
+     "kind": "museum",
+     "excerpt": "A large river flowing through a valley is the focal point of the image. The river curves to the left into a strong bend at the central part of the image and then continues off to the lower right corner. The river is highlighted in the background, giving it a shiny appearance. In the background are rugged mountain peaks covered in snow."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Fluss ist der Blickpunkt: Er biegt nach links in eine starke Schleife in der Bildmitte und läuft dann zur rechten unteren Ecke weiter; hinten glänzt er hell, darüber die verschneiten Gipfel [Q1].",
+   "checkable": [
+    "Fluss als Hauptform: Schleife in der Mitte [Q1]",
+    "Fluss läuft zur rechten unteren Ecke aus [Q1]",
+    "Verschneite Gipfel als oberer Abschluss [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id378960c2e",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://huxleyparlour.com/critical-texts/joel-sternfelds-mclean-virginia/",
+     "title": "Joel Sternfeld: McLean, Virginia – Huxley-Parlour",
+     "author": "Eleanor Lerman (Huxley-Parlour Gallery)",
+     "kind": "curator",
+     "excerpt": "McLean, Virginia, December 1978 depicts a helmeted fireman shopping for pumpkins at a farm market, all while a two-story house blazes in the background."
+    },
+    {
+     "url": "https://huxleyparlour.com/critical-texts/joel-sternfelds-mclean-virginia/",
+     "title": "Joel Sternfeld: McLean, Virginia – Huxley-Parlour",
+     "author": "Eleanor Lerman (Huxley-Parlour Gallery)",
+     "kind": "curator",
+     "excerpt": "The repetition of colour brings an irony to the photograph, as the peaceful suburbia of the foreground is contrasted by the unfolding disaster of the background. The pyramidal composition, crossed by repeating horizontal lines, brings a classical monumentality to the scene and an ensuing sense of tragedy, incongruous in the context of small-town America."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Vorn kauft ein Feuerwehrmann Kürbisse am Farmstand, während hinten ein zweistöckiges Haus brennt [Q1]; friedlicher Vordergrund gegen Katastrophe im Hintergrund, die pyramidale Komposition wird von wiederholten Horizontalen gequert [Q2].",
+   "checkable": [
+    "Vordergrund (Stand, Kürbisse) gegen brennendes Haus hinten [Q1][Q2]",
+    "Wiederholte waagerechte Linien queren das Bild [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i90eb207862",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    879318
+   ],
+   "answer_md": "Cartier-Bresson sah Formen, Linien, Licht und Schatten, die sich auf den zentralen Durchgang des Bildes konzentrieren; es fehlte nur die passende menschliche Figur [S879318].",
+   "checkable": [
+    "Treppe/Durchgang als Zentrum, auf das Linien und Schatten zulaufen [S879318]",
+    "Kleine Figur im Durchgang [S879318]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7c6b3d01d6",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://www.mariangoodman.com/usr/documents/press/download_url/130/the-new-york-review-of-books-january-26-2015-.pdf",
+     "title": "Thomas Struth: Style Without Style (The New York Review of Books, 26.1.2015, Pressespiegel Marian Goodman Gallery)",
+     "author": "Jana Prikryl (The New York Review of Books)",
+     "kind": "magazine",
+     "excerpt": "No doubt influenced by the Bechers’ extensive series of coal plants and other neglected mammoths of industrial architecture, Struth started taking black-and-white, strictly composed streetscapes, always from the same symmetrical perspective in the middle of a street looking down to its vanishing point, and early in the morning so the scene would be deserted."
+    }
+   ],
+   "library_source_ids": [
+    656632
+   ],
+   "answer_md": "Struths Straßenbilder sind streng komponiert, stets aus derselben symmetrischen Perspektive in der Straßenmitte, mit Blick in den Fluchtpunkt [Q1]; er folgte dafür einem starren formalen System [S656632].",
+   "checkable": [
+    "Straße läuft mittig in die Tiefe zum Fluchtpunkt [Q1]",
+    "Symmetrischer Aufbau um die Straßenmitte [Q1]"
+   ],
+   "scope_note": "Beide Quellen beschreiben Struths Straßenbilder der späten 1970er insgesamt; dieses ist eines davon."
+  },
+  {
+   "image_id": "i4b21adf708",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/54896/untitled-dunes-and-mountains-white-sands",
+     "title": "Untitled, Dunes and Mountains, White Sands – The Nelson-Atkins Museum of Art",
+     "author": "The Nelson-Atkins Museum of Art (Objektbeschreibung)",
+     "kind": "museum",
+     "excerpt": "Landscape image of dunes. Bottom 2/3 of image is single dune slope with sand patterns. Top 1/3 looking out across dunes with mountains in BG."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die unteren zwei Drittel nimmt ein einziger Dünenhang mit Sandmuster ein, das obere Drittel blickt über die Dünen auf die Berge im Hintergrund [Q1].",
+   "checkable": [
+    "Unteres 2/3: ein Dünenhang mit Rippelmuster [Q1]",
+    "Oberes 1/3: Dünen und Bergkette [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if524e7ef6d",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://searcharchives.bl.uk/catalog/041-003204916",
+     "title": "[Barbican Exhibition Print: Path and reservoir above Lumbutts, Calder Valley, 1977.] – British Library, Fay Godwin Archive",
+     "author": "British Library, Fay Godwin Archive (Katalogbeschreibung)",
+     "kind": "museum",
+     "excerpt": "[Square format print showing a paving stone footpath leading from the foreground to the hills; to the far right there is the reservoir which is lit by the sun that is trying to break through the overcast sky.]"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Ein Plattenweg führt vom Vordergrund zu den Hügeln; ganz rechts liegt das Reservoir, von der durch die Wolken brechenden Sonne beleuchtet [Q1].",
+   "checkable": [
+    "Weg als Linie vom unteren Bildrand in die Hügel [Q1]",
+    "Helle Wasserfläche rechts als Gegenpunkt [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i520a29cb2f",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://searcharchives.bl.uk/catalog/041-003204890",
+     "title": "Barbican Exhibition Print: Four trees, Rannoch Moor, 1981 – British Library, Fay Godwin Archive",
+     "author": "British Library, Fay Godwin Archive (Katalogbeschreibung)",
+     "kind": "museum",
+     "excerpt": "View along the grassland plateau with four trees places at various points, the tree closest to the viewer is by a stream. The distant mountains on the right side of the plateau slowly disappear into possible low level clouds, making the trees furthest away more prominent."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Vier Bäume stehen an verschiedenen Stellen der Hochebene; die fernen Berge rechts verschwinden im Dunst, wodurch die hinteren Bäume stärker hervortreten [Q1].",
+   "checkable": [
+    "Kleine dunkle Bäume als Figuren auf hellem Grund [Q1]",
+    "Rechts lösen sich die Berge auf und treten zurück [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iffab062b6b",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://searcharchives.bl.uk/catalog/041-003204997",
+     "title": "Barbican Exhibition Print: Stones of Stenness, Orkney, 1979 – British Library, Fay Godwin Archive",
+     "author": "British Library, Fay Godwin Archive (Katalogbeschreibung)",
+     "kind": "museum",
+     "excerpt": "Square format print of a rolled bale of straw with the stone circle in the background; the sky is somewhat overcast."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Ein gerollter Strohballen steht vorn, der Steinkreis im Hintergrund, darüber bedeckter Himmel [Q1].",
+   "checkable": [
+    "Runder Strohballen als Hauptfigur vorn [Q1]",
+    "Aufrechte Steine dahinter als Gegenformen [Q1]"
+   ],
+   "scope_note": ""
+  }
+ ]
+}
