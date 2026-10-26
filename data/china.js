@@ -2462,7 +2462,7 @@ window.PLACES_CN = [
   "name": "Baixiangju & Yangtze River Cableway 白象居 · 长江索道",
   "district": "Yuzhong, Chongqing",
   "category": "Architektur",
-  "note": "Die rote Seilbahn über den Jangtse schwebt zwischen den Wohntürmen hindurch. Standpunkt (eingegrenzt, nicht bestätigt): offene Verbindungsgänge zwischen den Türmen, am ehesten Haus 3/4, etwa ab der Plattform im 12. Stock aufwärts – Blick nach Norden, Raffles City mit der Glasbrücke steht hinter der Seilbahn. Bequemer Zugang von oben über die Brücke von der Jiefang East Road 解放东路 in den 24. Stock, dann zu Fuß hinunter (kein Aufzug). 85–135 mm, Gondel mittig zwischen zwei Türmen mit runden Erkern abpassen, Pendelbetrieb – alle paar Minuten eine Gondel, Serienbild 1/500 s. Dunst lässt Raffles weich verschwimmen. Bewohntes Haus: leise sein, nicht vor Wohnungstüren aufbauen.",
+  "note": "Die rote Seilbahn über den Jangtse schwebt zwischen den Wohntürmen hindurch. Standpunkt (eingegrenzt, nicht bestätigt): offene Verbindungsgänge zwischen den Türmen, am ehesten Haus 3/4, etwa ab der Plattform im 12. Stock aufwärts – Blick nach Norden, Raffles City mit der Glasbrücke steht hinter der Seilbahn. Zugang auf mittlerer Höhe direkt von der Jiefang East Road 解放东路 (je nach Quelle 12. oder 15. Stock, keine Hausnummer bekannt) – im Navi/DiDi „白象居“ eingeben; weitere Eingänge unten am Ufer (1. Stock) und an der Baixiang Street 白象街. Kein Aufzug. 85–135 mm, Gondel mittig zwischen zwei Türmen mit runden Erkern abpassen, Pendelbetrieb – alle paar Minuten eine Gondel, Serienbild 1/500 s. Dunst lässt Raffles weich verschwimmen. Bewohntes Haus: leise sein, nicht vor Wohnungstüren aufbauen.",
   "address": "Yuzhong, Chongqing",
   "lat": 29.558528,
   "lng": 106.581348,
