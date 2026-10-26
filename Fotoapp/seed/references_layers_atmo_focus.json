@@ -1,0 +1,839 @@
+{
+ "accessed_at": "2026-10-26",
+ "references": [
+  {
+   "image_id": "ie8b47098fa",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    236552
+   ],
+   "answer_md": "Die Wolken im Hintergrund sind laut der Kuratorin Becky Senf „weather effects“, die dem Bild seine „operatic quality“ geben [S236552].",
+   "checkable": [
+    "Wolkenmassen über und hinter der Teton-Kette als Wetter-Bühne [S236552]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ia53b3af771",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    994730
+   ],
+   "answer_md": "Zhang fotografierte meist an bewölkten Tagen und belichtete leicht über; Himmel, Fluss und Erde verschmelzen dadurch in einer ruhigen Palette aus Gelb und Grau [S994730].",
+   "checkable": [
+    "Kein Sonnenlicht, keine harten Schatten: bewölkter Tag [S994730]",
+    "Himmel und Fluss gehen fast ohne Grenze ineinander über, gelblich-grau [S994730]"
+   ],
+   "scope_note": "Die Quelle beschreibt Zhangs Vorgehen in der Serie „The Yellow River“; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "idd43ebb5ff",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    763808
+   ],
+   "answer_md": "Zhang fotografierte an bewölkten Tagen und überbelichtete die Aufnahmen, um einen weichen, zarten Tonwertumfang zu erhalten [S763808].",
+   "checkable": [
+    "Weißlicher, bewölkter Himmel ohne Kontur, weiche Tonwerte im ganzen Bild [S763808]"
+   ],
+   "scope_note": "Die Quelle beschreibt Zhangs Vorgehen in der Serie „The Yellow River“; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "iaebd20ab3f",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    583007
+   ],
+   "answer_md": "Cornish sucht an Schneetagen die Momente, in denen der Himmel aufreißt („clearances in the sky“) [S583007].",
+   "checkable": [
+    "Frischer Schnee bedeckt Vordergrund und Hügel [S583007]",
+    "Wolkendecke reißt auf, blaue Lücken und Licht auf dem Schnee [S583007]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i73c5f80960",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    617607
+   ],
+   "answer_md": "Der Half Dome steht laut Campany am „hazy horizon“ – im Dunst am Horizont [S617607].",
+   "checkable": [
+    "Ferne Felswände am Horizont blasser und kontrastärmer als der Vordergrund [S617607]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id1445f705c",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    815438
+   ],
+   "answer_md": "Laut Archivbeschreibung blickt das Bild über die felsige Seenlandschaft auf den Berg, dessen Gipfel unter einer Wolkenhaube liegt [S815438].",
+   "checkable": [
+    "Wolke sitzt auf dem Gipfel des Suilven [S815438]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if524e7ef6d",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    998808
+   ],
+   "answer_md": "Der Himmel ist bedeckt; ganz rechts liegt das Reservoir im Licht der Sonne, die durch die Wolkendecke zu brechen versucht [S998808].",
+   "checkable": [
+    "Geschlossene Wolkendecke mit Durchbruch, Licht fällt auf das Wasser rechts [S998808]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iffab062b6b",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    981382
+   ],
+   "answer_md": "Laut Archivbeschreibung ist der Himmel „somewhat overcast“ – leicht bedeckt [S981382].",
+   "checkable": [
+    "Grauer, bedeckter Himmel über Steinkreis und Strohballen [S981382]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2b5d89e520",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    917495
+   ],
+   "answer_md": "Kenna lässt das „leere“ weiße Schneefeld, von Grau zu Weiß schattiert, den Großteil des Bildes einnehmen; in der Ferne erscheint der Berg, fast wie eine Luftspiegelung über dem Horizont schwebend [S917495].",
+   "checkable": [
+    "Schneefeld als fast leere, grau-weiß verlaufende Fläche [S917495]",
+    "Berg am Horizont wirkt schwebend, vom Boden gelöst [S917495]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3f26664767",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    136106
+   ],
+   "answer_md": "Kenna fotografierte den Philosopher’s Tree im Winter, wenn das Feld schneebedeckt war [S136106].",
+   "checkable": [
+    "Baum steht frei auf schneebedecktem Feld [S136106]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ieb24cfbe7a",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    848286
+   ],
+   "answer_md": "Dunkle Wolken lasten schwer über der Industrieanlage, die den Hintergrund des Friedhofs bildet [S848286].",
+   "checkable": [
+    "Dunkle, schwere Wolkendecke über den Anlagen im Hintergrund [S848286]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib01bcf3028",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "The weather was quite unusual for this part of the country-it had rained steadily for the previous three days and the weather was turning quite cold. A storm front was moving in, the temperature had dropped to below freezing, the wind was blowing, the sky was cloudy, and the sun was getting low in the sky, just before dusk."
+    },
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "With the unusual lighting and the fresh quality of the foliage and river, from the recent rains, I was excited by the possibilities and potentials for a worthwhile image."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Drei Tage Dauerregen, dann eine Sturmfront: Frost, Wind, bewölkter Himmel, kurz vor der Dämmerung [Q1]. Die Regenfälle gaben Vegetation und Fluss eine frische Qualität, die Burkett reizte [Q2].",
+   "checkable": [
+    "Kein direktes Sonnenlicht, gedämpftes Licht unter Wolken [Q1]",
+    "Frische, gesättigte Farben von Vegetation und Fluss nach dem Regen [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ice7056e3c3",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "The disorienting aspect of the upside down reflection of the bright aspens is enhanced by the fact that we are used to seeing scenes in nature where objects in the distance have bluer tones than objects in the foreground, due to haze and light scattering. Here, the colors are dramatically reversed."
+    },
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "It helped that the beaver lodge and many of the grasses had a heavy coat of frost that would provide a lot of detail contrast to give a healthy amount of tonal separation."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Normalerweise wirkt Fernes durch Dunst und Lichtstreuung blauer als Nahes; hier ist es umgekehrt – die Spiegelung der fernen Espen ist hellgelb, der Vordergrund blau [Q1]. Dazu trugen Biberburg und Gräser eine dicke Reifschicht [Q2].",
+   "checkable": [
+    "Umgekehrte Luftperspektive: warme, helle Ferne (gespiegelte Espen), kühles Blau vorn [Q1]",
+    "Raureif auf Gräsern und Biberburg [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i65e8faec81",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://www.holdenluntz.com/magazine/photo-spotlight/sebastiao-salgado-brooks-range-alaska-usa/",
+     "title": "Photo Spotlight: Sebastião Salgado – Brooks Range, Alaska, USA (Holden Luntz Gallery)",
+     "author": "Holden Luntz Gallery (mit Zitat von Sebastião Salgado)",
+     "kind": "curator",
+     "excerpt": "In one corner, dramatically lit clouds and rain slanting to the ground create a glistening river with preciously elemental water flowing through the moody landscape."
+    },
+    {
+     "url": "https://www.holdenluntz.com/magazine/photo-spotlight/sebastiao-salgado-brooks-range-alaska-usa/",
+     "title": "Photo Spotlight: Sebastião Salgado – Brooks Range, Alaska, USA (Holden Luntz Gallery)",
+     "author": "Holden Luntz Gallery (mit Zitat von Sebastião Salgado)",
+     "kind": "curator",
+     "excerpt": "And when I have shapes in the sky, when there are incredible clouds, you know, with this shock of weather, this very hot weather fighting against the very cold weather all over these highlands there, you have most daring fight with half the snow, half the rain, half the sunshine, all this light, mixed inside the pictures."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "In einer Ecke fallen dramatisch beleuchtete Wolken und schräger Regen zu Boden [Q1]. Salgado selbst beschreibt den Zusammenprall von warmem und kaltem Wetter: halb Schnee, halb Regen, halb Sonne, alles im Bild gemischt [Q2].",
+   "checkable": [
+    "Schräge Regenschleier aus den Wolken in der linken oberen Ecke [Q1]",
+    "Schneebedeckte Gipfel im Hintergrund unter bewegtem Wolkenhimmel [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i22c860437a",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://www.mitchepstein.net/art-in-america-mitch-epstein-at-sikkema-jenkins",
+     "title": "Art in America: Mitch Epstein at Sikkema Jenkins (Nachdruck auf mitchepstein.net)",
+     "author": "Art in America (Ausstellungsbesprechung)",
+     "kind": "critic",
+     "excerpt": "A gray sky is the background for two downward streaming clouds of smoke in Gavin Coal Power Plant, Cheshire, Ohio (2003). Only along the uppermost margin of the frame do we see the tops of the two smokestacks."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Vor grauem Himmel strömen zwei Rauchwolken nach unten; von den Schornsteinen sind nur die Spitzen am oberen Bildrand zu sehen [Q1].",
+   "checkable": [
+    "Grauer Himmel als Grund [Q1]",
+    "Zwei abwärts quellende Rauchsäulen füllen das Bild [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id2323a69db",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://www.archives.gov/research/ansel-adams",
+     "title": "Ansel Adams Photographs – National Archives (Bildliste mit Beschreibungen)",
+     "author": "U.S. National Archives (Katalogbeschreibung; Titel in Anführungszeichen von Ansel Adams)",
+     "kind": "museum",
+     "excerpt": "\" In Rocky Mountain National Park,\" mountain tops, low horizon, dramatic clouded sky."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Archivbeschreibung nennt Berggipfel, tiefen Horizont und einen „dramatic clouded sky“ [Q1].",
+   "checkable": [
+    "Tiefer Horizont, der Wolkenhimmel nimmt den Großteil des Bildes ein [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib76489a30c",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    589385,
+    840079
+   ],
+   "answer_md": "Die Bildlegende verortet die Szene auf der Straße in Chandni Chowk während des Monsuns [S589385]; McCurry folgte dem Monsun ein Jahr lang durch ein Dutzend Länder [S840079].",
+   "checkable": [
+    "Monsunregen: Schirme, Wasser auf der Straße [S589385]"
+   ],
+   "scope_note": "S840079 ist McCurrys Aussage zur ganzen Monsun-Serie."
+  },
+  {
+   "image_id": "if957868dce",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://www.worldpressphoto.org/collection/photo-contest/1985/steve-mccurry-nas/17",
+     "title": "Steve McCurry, Monsoon – World Press Photo Contest 1985, Nature, 1st prize",
+     "author": "World Press Photo (Sammlung, Bildlegenden)",
+     "kind": "museum",
+     "excerpt": "The East Alligator River during the Monsoon in Arnhem Land, Northern Territory, Australia."
+    }
+   ],
+   "library_source_ids": [
+    472005
+   ],
+   "answer_md": "Die Bildlegende: East Alligator River während des Monsuns in Arnhem Land [Q1]; McCurry folgte dem Monsun ein Jahr lang durch ein Dutzend Länder [S472005].",
+   "checkable": [
+    "Monsunzeit: Wasser steht im Gras, Mann und Boot im Hochwasser [Q1]"
+   ],
+   "scope_note": "Die Bildlegende stammt aus der World-Press-Photo-Serie 1985; S472005 ist McCurrys Aussage zur ganzen Serie."
+  },
+  {
+   "image_id": "i67d0f4bc78",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    993845
+   ],
+   "answer_md": "Ein Bananenblatt dient dem Jungen, der Wasserbüffel treibt, während des Monsuns als Regenschirm [S993845].",
+   "checkable": [
+    "Bananenblatt als Regenschutz, nasser Weg [S993845]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7320f4846b",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    969423
+   ],
+   "answer_md": "Die Aperture-Ausstellung beschreibt die Motive der Serie „Wind“: etwa ein riesiger Nebel, der einen Berg „frisst“ und an den Hügeln nagt, oder eine Wolke, die in einen Wald eindringt [S969423].",
+   "checkable": [
+    "Nebel- bzw. Wolkenbank liegt auf dem Bergzug im Hintergrund [S969423]"
+   ],
+   "scope_note": "Die Quelle spricht über die Serie „Wind“ insgesamt; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i6fdd9a645d",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    836132
+   ],
+   "answer_md": "Die Serie „Wind“ zeigt Landschaften, die von windgefegten Weiten und bedrohlichen Wolkenformationen beherrscht werden [S836132].",
+   "checkable": [
+    "Dunkle, bedrohliche Wolkenmasse nimmt fast das ganze Bild ein [S836132]"
+   ],
+   "scope_note": "Die Quelle spricht über die Serie „Wind“ insgesamt; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i765a04f938",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    517768,
+    234774
+   ],
+   "answer_md": "Kenna bevorzugt „conditions“ – Schnee, Regen, Nebel, Wolken, Wind [S517768]. Die gefrorenen Schneelandschaften Hokkaidos vergleicht er mit Sumi-e-Tuschebildern auf weißem Grund: alles auf wenige Elemente reduziert [S234774].",
+   "checkable": [
+    "Schnee macht den Boden zur weißen Fläche, nur Baum und Schneegitter bleiben [S234774]"
+   ],
+   "scope_note": "Beide Aussagen gelten Kennas Hokkaido-Winterbildern allgemein; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "ib39c1a7468",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    917641
+   ],
+   "answer_md": "Greg Cook beschreibt das Bild als Blitz, der aus blauschwarzer Nacht in Berge und Buschwüste einschlägt [S917641].",
+   "checkable": [
+    "Blitz über dem Bergrücken, Nachthimmel blau-schwarz [S917641]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "icfbdbe4dba",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    157063
+   ],
+   "answer_md": "Baum und Stein stehen vorn, Schafe im Hintergrund [S157063].",
+   "checkable": [
+    "Vorn links der Baum, rechts der Stein [S157063]",
+    "Schafe als helle Punkte im Hintergrund [S157063]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3312b69c1e",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    162796
+   ],
+   "answer_md": "Gursky schnitt das Gebäude links und rechts an und nahm dem Bild damit die Tiefe zwischen Fassade und Bildebene [S162796].",
+   "checkable": [
+    "Fassade läuft über beide Seitenränder – keine sichtbare Raumtiefe, das Bild bleibt eine einzige Ebene [S162796]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idaed126ed1",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    219258
+   ],
+   "answer_md": "Die gegenlichtbeleuchtete Pappel steht vor der beschatteten Canyonwand als Hintergrund [S219258].",
+   "checkable": [
+    "Helle Baumkrone vor dunkler Felswand – zwei klar getrennte Ebenen [S219258]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i976a68edf2",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    438765
+   ],
+   "answer_md": "Blick über Hafen und Ufer mit vielen Booten im Vordergrund [S438765].",
+   "checkable": [
+    "Boote im Vordergrund, Uferbebauung dahinter [S438765]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i82e87c092e",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    560897
+   ],
+   "answer_md": "Ein Fluss läuft durch einen Pass zwischen Bergen; im Vordergrund stehen ein Mann und ein Esel [S560897].",
+   "checkable": [
+    "Mann und Esel im Vordergrund, Flussbett und Pass dahinter, Berge in der Tiefe [S560897]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i9e9804c6d3",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    677586
+   ],
+   "answer_md": "Meereis im Vordergrund, die Terra Nova dahinter im McMurdo-Sund [S677586].",
+   "checkable": [
+    "Eisschollen füllen den Vordergrund, das Schiff klein in der Ferne [S677586]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i95668e8ff2",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    803882
+   ],
+   "answer_md": "Ein Mann auf dem Hundeschlitten im Vordergrund, der burgförmige Eisberg im Hintergrund [S803882].",
+   "checkable": [
+    "Kleiner Schlitten vorn, mächtiger Eisberg dahinter [S803882]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i89782f8e78",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://www.artforum.com/columns/mitch-epsteins-american-power-193047/",
+     "title": "Mitch Epstein's American Power – Artforum",
+     "author": "Michael Fried (Artforum)",
+     "kind": "critic",
+     "excerpt": "in which we observe in the middle distance the same or similar cooling towers and smokestacks, the former issuing thick clouds of white steam, and nearer to us-again from a raised vantage point- an athletic field with a football team in red jerseys and silver helmets running a play."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Fried beschreibt zwei Ebenen: im Mittelgrund Kühltürme und Schornsteine mit dicken weißen Dampfwolken, näher am Betrachter das Sportfeld mit der Footballmannschaft in roten Trikots [Q1].",
+   "checkable": [
+    "Vorn bzw. näher: Footballfeld mit Spielern in Rot [Q1]",
+    "Mittelgrund: Kühltürme und Schornsteine mit Dampf [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id378960c2e",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://huxleyparlour.com/critical-texts/joel-sternfelds-mclean-virginia/",
+     "title": "Joel Sternfeld's McLean, Virginia – Huxley-Parlour (Critical Texts)",
+     "author": "Huxley-Parlour Gallery",
+     "kind": "curator",
+     "excerpt": "the peaceful suburbia of the foreground is contrasted by the unfolding disaster of the background."
+    },
+    {
+     "url": "https://art.nelson-atkins.org/objects/73663/mclean-virginia",
+     "title": "McLean, Virginia – The Nelson-Atkins Museum of Art",
+     "author": "The Nelson-Atkins Museum of Art (Objektbeschreibung)",
+     "kind": "museum",
+     "excerpt": "Image of a house with flames and dark smoke rising above the roof while a uniformed firefighter shops for pumpkins at the bottom of the hill. Smashed pumpkins fill the foreground of the roadside market."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Vorn friedliche Vorstadt, hinten die Katastrophe [Q1]: unten am Hang kauft ein Feuerwehrmann Kürbisse, oben brennt das Haus; zerplatzte Kürbisse füllen den Vordergrund des Marktstands [Q2].",
+   "checkable": [
+    "Zerplatzte Kürbisse im Vordergrund [Q2]",
+    "Marktstand mit Feuerwehrmann in der Mitte, brennendes Haus oben im Hintergrund [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i65e8faec81",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://www.holdenluntz.com/magazine/photo-spotlight/sebastiao-salgado-brooks-range-alaska-usa/",
+     "title": "Photo Spotlight: Sebastião Salgado – Brooks Range, Alaska, USA (Holden Luntz Gallery)",
+     "author": "Holden Luntz Gallery (mit Zitat von Sebastião Salgado)",
+     "kind": "curator",
+     "excerpt": "visualizing the formation of valleys with shimmering rivers twisting through the seemingly newly created mountains that recede into a background with innumerable snow-topped peaks."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Täler mit glänzenden, gewundenen Flüssen ziehen durch die Berge, die in einen Hintergrund mit unzähligen schneebedeckten Gipfeln zurückweichen [Q1].",
+   "checkable": [
+    "Fluss führt von unten durch das Tal in die Tiefe [Q1]",
+    "Gestaffelte Bergrücken bis zu schneebedeckten Gipfeln hinten [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i55e4722bf6",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O107724/",
+     "title": "Dunkar Fort, with the Manirung Pass and range in the distance – V&A",
+     "author": "Victoria and Albert Museum (Objektbeschreibung)",
+     "kind": "museum",
+     "excerpt": "Perched on a mountain top, the fort at Dankar is just about distinguishable from the rocky formations that surround it. There is a range of mountains in the distance and a river in the bottom right hand corner."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Fort auf dem Berggipfel ist kaum von den umgebenden Felsformationen zu unterscheiden; in der Ferne liegt eine Bergkette, unten rechts ein Fluss [Q1].",
+   "checkable": [
+    "Fort verschmilzt mit dem Fels in der Bildmitte [Q1]",
+    "Bergkette in der Ferne, Fluss unten rechts [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idb421810a4",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://www.archives.gov/research/ansel-adams",
+     "title": "Ansel Adams Photographs – National Archives (Bildliste mit Beschreibungen)",
+     "author": "U.S. National Archives (Katalogbeschreibung; Titel in Anführungszeichen von Ansel Adams)",
+     "kind": "museum",
+     "excerpt": "\" St. Mary's Lake, Glacier National Park,\" looking across toward snow-capped mountains, lake in foreground."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Archivbeschreibung: Blick über den See auf schneebedeckte Berge, der See im Vordergrund [Q1].",
+   "checkable": [
+    "Seefläche füllt den Vordergrund, Berge dahinter [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2377a54636",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    482953
+   ],
+   "answer_md": "Der Postkartenständer steht vor einer strukturierten Wand; durch ein leeres Fach sieht man die blanke Betonwand dahinter [S482953].",
+   "checkable": [
+    "Zwei Ebenen: weißer Drahtständer mit Karten vorn, raue Wand dahinter [S482953]",
+    "Leeres Fach öffnet den Blick auf die Wand [S482953]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id1445f705c",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    815438
+   ],
+   "answer_md": "Vom Fuß des Stac Pollaidh blickt das Bild über die weite Felslandschaft mit kleinen Seen hinüber zum Berg [S815438].",
+   "checkable": [
+    "Vorn Felsen und Lochans, dahinter der Berg als Abschluss [S815438]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2b5d89e520",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    917495
+   ],
+   "answer_md": "Das leere Schneefeld lädt ein, hineinzuwandern, bevor der Blick in die Ferne geht, wo der Berg am Horizont erscheint [S917495].",
+   "checkable": [
+    "Weites Schneefeld vorn, Berg klein am Horizont [S917495]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7004b09619",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    296202
+   ],
+   "answer_md": "Burkett arbeitete mit 450-mm-Objektiv bei Blende f/64 und 1/2 s; die Standarte wurde verschoben, um die Stämme senkrecht zu halten [S296202].",
+   "checkable": [
+    "Frage an das Bild: Sind Stämme vorn und hinten gleich scharf (kleine Blende f/64)? [S296202]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6529d88033",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    517019
+   ],
+   "answer_md": "Ghirris Bilder haben oft eine „fathomless depth of field“: jeder Glanz, jeder Farbton, jede Kerbe bleibt erhalten [S517019].",
+   "checkable": [
+    "Plakat, Passanten und Straße gleichmäßig scharf [S517019]"
+   ],
+   "scope_note": "Die Quelle beschreibt Ghirris Bilder allgemein; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i4e1ca0fad9",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    521208
+   ],
+   "answer_md": "Vorder- und Hintergrund sind scharf, der Mittelgrund leicht weich: Ein Windstoß bewegte nur diesen Bereich [S521208].",
+   "checkable": [
+    "Vordere Gräser und hintere Stämme scharf [S521208]",
+    "Zone in der Bildmitte leicht unscharf [S521208]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3312b69c1e",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    564527
+   ],
+   "answer_md": "Gursky kombinierte zwei Negative; das verdoppelte die relative Schärfe der riesigen Vergrößerung, die jedes Detail brauchte [S564527].",
+   "checkable": [
+    "Fenster und Details über die ganze Fassade hinweg gleich scharf [S564527]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i79018cc562",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    764243
+   ],
+   "answer_md": "Bei Tag belichtete Meyerowitz eine halbe Sekunde bei f/90 – eine so kleine Blende, dass alles vom Vordergrund bis zum Horizont scharf bleibt [S764243].",
+   "checkable": [
+    "Türrahmen vorn und Fenster am Ende des Flurs gleich scharf [S764243]"
+   ],
+   "scope_note": "Die Quelle beschreibt Meyerowitz’ Arbeitsweise mit der Großformatkamera in der Serie „The Cape“."
+  },
+  {
+   "image_id": "i19fc07932c",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    350922
+   ],
+   "answer_md": "Meyerowitz: Die Fachkamera beschreibt alles mit so unglaublicher Schärfe und Leuchtkraft, dass man in das Bild hineingehen könnte [S350922].",
+   "checkable": [
+    "Pool, Möbel und Horizont gleichermaßen scharf gezeichnet [S350922]"
+   ],
+   "scope_note": "Die Aussage gilt Meyerowitz’ Arbeit mit der 8×10-Fachkamera allgemein."
+  },
+  {
+   "image_id": "i8dfb5eaad0",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    685626
+   ],
+   "answer_md": "Meyerowitz: Die Fachkamera beschreibt alles mit so unglaublicher Schärfe und Leuchtkraft, dass man in das Bild hineingehen könnte [S685626].",
+   "checkable": [
+    "Boot im Vordergrund und ferne Uferlinie gleichermaßen scharf [S685626]"
+   ],
+   "scope_note": "Die Aussage gilt Meyerowitz’ Arbeit mit der 8×10-Fachkamera („Cape Light“) allgemein."
+  },
+  {
+   "image_id": "i1c7c70fe18",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    168913
+   ],
+   "answer_md": "Sambunaris arbeitet mit frontaler Rahmung, präziser Schärfe und gleichmäßigem Licht [S168913].",
+   "checkable": [
+    "Terrassen der Mine bis zu den Bergen am Horizont durchgehend scharf [S168913]"
+   ],
+   "scope_note": "Die Quelle beschreibt Sambunaris’ Methode allgemein; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "ice7056e3c3",
+   "dimension": "focus",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "I used a 30\" Red Dot Artar lens at f/64."
+    },
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Fortunately Ruth had another film holder ready that I popped into the camera, took a quick spot meter reading and made an exposure at f/64 for 2 seconds."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Burkett fotografierte mit einem 30-Zoll-Objektiv bei f/64 [Q1]; die verwendete Aufnahme entstand bei f/64 und 2 Sekunden [Q2].",
+   "checkable": [
+    "Frage an das Bild: Sind Biberburg vorn und gespiegelte Espen gleichermaßen scharf (f/64)? [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i088f7e3424",
+   "dimension": "focus",
+   "sources": [
+    {
+     "url": "https://luminous-lint.com/phoenix.php/images/single/51157415575605146191/std",
+     "title": "Stephen Shore: U.S. 97, South of Klamath Falls, Oregon – Luminous-Lint (LL/41557)",
+     "author": "Luminous-Lint (Bildtext zum Werk, Abbildung courtesy 303 Gallery)",
+     "kind": "curator",
+     "excerpt": "These sharply focused, familiar, and figureless scenes of the human-altered landscape were indicative of the New Topographics style of the mid-1970s and follow Shore's axiom, \"Attention to focus concentrates our attention.\""
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Szenen sind scharf, vertraut und menschenleer; sie folgen Shores Grundsatz „Attention to focus concentrates our attention.“ [Q1]",
+   "checkable": [
+    "Plakatwand, Zaun und Pflanzen am Straßenrand gleich scharf [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i50d91537a3",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    760307,
+    983452
+   ],
+   "answer_md": "Die Gruppe f/64 benannte sich nach der Blende, die sie gewöhnlich wählte, um Vordergrund und Ferne maximal scharf zu bekommen [S760307]; Weston arbeitete mit der Großformatkamera für scharf fokussierte, detailreiche Bilder [S983452].",
+   "checkable": [
+    "Felsen im Vordergrund und Küste in der Ferne gleich scharf [S760307]"
+   ],
+   "scope_note": "Beide Quellen beschreiben Westons Methode allgemein; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i6cd4bc86d1",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    993604
+   ],
+   "answer_md": "Bei Gursky haben Vorder- und Hintergrund dieselbe Schärfentiefe; die Fülle an Details ist auf einmal nicht zu erfassen [S993604].",
+   "checkable": [
+    "Rennstrecke vorn und Gebäude am Horizont gleich scharf [S993604]"
+   ],
+   "scope_note": "Die Quelle beschreibt Gurskys Bilder allgemein; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i99f20775bb",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    993604
+   ],
+   "answer_md": "Bei Gursky haben Vorder- und Hintergrund dieselbe Schärfentiefe; die Fülle an Details ist auf einmal nicht zu erfassen [S993604].",
+   "checkable": [
+    "Grasstreifen vorn und gegenüberliegendes Ufer gleich scharf [S993604]"
+   ],
+   "scope_note": "Die Quelle beschreibt Gurskys Bilder allgemein; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i772b523c51",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    275119
+   ],
+   "answer_md": "Sugimoto: „A sharp horizon line and a cloudless sky – here began my consciousness.“ [S275119]",
+   "checkable": [
+    "Horizontlinie als scharf gezogene Kante zwischen Meer und Himmel [S275119]"
+   ],
+   "scope_note": "Das Zitat gilt der ganzen Seascapes-Serie."
+  },
+  {
+   "image_id": "ib01bcf3028",
+   "dimension": "focus",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "After composing the image and very carefully checking the focus, I stopped the lens down and prepared to expose the film."
+    },
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Wanting to be sure of the sharpness of the exposure, I repeated the whole waiting procedure a second time and exposed a second piece of film."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Burkett prüfte die Schärfe sehr sorgfältig und blendete ab [Q1]; weil Wind und Verkehr die Brücke schwanken ließen, wartete er auf eine Pause und belichtete zur Sicherheit ein zweites Blatt [Q2].",
+   "checkable": [
+    "Felsdetails der Canyonwände bis in die Tiefe scharf, trotz Aufnahme von schwankender Brücke [Q2]"
+   ],
+   "scope_note": ""
+  }
+ ]
+}
