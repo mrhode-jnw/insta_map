@@ -743,5 +743,9 @@
  },
  "claude-cn-shibati-old-steps": {
   "fav": true
+ },
+ "cn-deyi-world": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
