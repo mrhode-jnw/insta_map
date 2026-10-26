@@ -158,10 +158,14 @@ table.list th { color: var(--muted); font-weight: 400; font-size: 0.85rem; }
 body.login main { padding: 0; }
 
 .dims { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
-.dim { display: grid; grid-template-columns: auto 1fr; gap: 2px 8px; padding: 10px; border: 1px solid var(--line); border-radius: var(--radius); cursor: pointer; color: var(--text); }
-.dim input { width: auto; grid-row: span 3; margin-top: 4px; }
-.dim span { font-size: 0.88rem; color: var(--muted); }
+.dims { align-items: start; }
+.dim { display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--radius); cursor: pointer; color: var(--text); }
+.dim input { width: auto; flex: none; margin: 4px 0 0; }
+.dim-text { display: flex; flex-direction: column; gap: 2px; }
+.dim-text > span { font-size: 0.88rem; color: var(--muted); }
 .dim em { font-size: 0.78rem; font-style: normal; }
+.locked-list { margin: 12px 0 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.locked-list .tag { opacity: .75; }
 .dim:has(input:checked) { border-color: var(--accent); }
 .look-timer { text-align: center; color: var(--accent); font-size: 1.1rem; margin: 10px 0 30px; }
 .look-timer p { margin: 0 0 4px; }
@@ -241,8 +245,6 @@ form.ask textarea { flex: 1; }
 /* theory course */
 .lesson-list li { margin-bottom: 8px; }
 .lesson-list .status { margin-left: 8px; }
-.dim.locked { opacity: .55; color: var(--muted); text-decoration: none; }
-.dim.locked .lock { grid-row: span 2; }
 .example figcaption { text-align: left; }
 .look-for { margin: 6px 0 0; padding-left: 18px; font-size: 0.9rem; }
 .takeaways li { margin-bottom: 6px; }

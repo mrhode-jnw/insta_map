@@ -220,12 +220,12 @@ views.sehen = async () => {
   <p class="lead">Ein Aspekt, ein Bild, eine Frage. Erst schauen, dann beschreiben, was wirklich da ist – dann vergleichen.</p>
   <form data-action="drill-start" class="card grid-form">
     <fieldset class="wide"><legend>Worauf schauen?</legend><div class="dims">
-      ${DRILLABLE.map(d => isUnlocked(prog, d.key)
-        ? `<label class="dim"><input type="radio" name="dimension" value="${d.key}" ${d === open[0] ? "checked" : ""}>
-        <b>${d.label}</b><span>${d.q}</span><em class="muted">${counts[d.key] || 0} geübt</em></label>`
-        : `<a class="dim locked" href="#/theorie/${d.key}"><span class="lock">🔒</span><b>${d.label}</b><span>Erst die Lektion „${d.label}“ abschließen.</span></a>`).join("")}
-      ${open.length > 1 ? `<label class="dim"><input type="radio" name="dimension" value="mixed"><b>Gemischt</b><span>Jedes Bild mit einem freigeschalteten Aspekt.</span></label>` : ""}
-    </div></fieldset>
+      ${open.map(d => `<label class="dim"><input type="radio" name="dimension" value="${d.key}" ${d === open[0] ? "checked" : ""}>
+        <span class="dim-text"><b>${d.label}</b><span>${d.q}</span><em class="muted">${counts[d.key] || 0} geübt</em></span></label>`).join("")}
+      ${open.length > 1 ? `<label class="dim"><input type="radio" name="dimension" value="mixed"><span class="dim-text"><b>Gemischt</b><span>Jedes Bild mit einem freigeschalteten Aspekt.</span></span></label>` : ""}
+    </div>
+    ${DRILLABLE.length > open.length ? `<p class="locked-list"><span class="muted small">Noch gesperrt – erst die Lektion abschließen:</span>
+      ${DRILLABLE.filter(d => !isUnlocked(prog, d.key)).map(d => `<a class="tag" href="#/theorie/${d.key}">🔒 ${d.label}</a>`).join(" ")}</p>` : ""}</fieldset>
     <label>Bilder <select name="size"><option>3</option><option selected>5</option><option>8</option></select></label>
     <label>Erst schauen <select name="look">${LOOK_CHOICES.map(s => `<option value="${s}" ${s === look ? "selected" : ""}>${s ? s + " Sekunden" : "ohne Timer"}</option>`).join("")}</select></label>
     ${open.length ? `<button>Übung starten</button>` : `<p class="warn wide">Noch keine Sehübung freigeschaltet – beginne mit der <a href="#/theorie">Theorie</a>.</p>`}</form>

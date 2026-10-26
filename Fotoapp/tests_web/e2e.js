@@ -50,7 +50,7 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   const rootConfig = `window.GITHUB_TOKEN_ENC = "${await encWithCode("ghp_test")}";`;
 
   const browser = await chromium.launch();
-  const page = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2 });
+  const page = await browser.newPage({ viewport: { width: +(process.env.WIDTH || 390), height: 844 }, deviceScaleFactor: 2 }); // WIDTH=1400 for a desktop check
   const errors = [];
   page.on("pageerror", e => errors.push(String(e)));
   page.on("console", m => { if (process.env.DEBUG) console.log("console:", m.type(), m.text()); m.type() === "error" && !/404|Failed to load resource/.test(m.text()) && errors.push(m.text()); });
@@ -154,7 +154,7 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   if (lessons.length) {
     const first = lessons[0];
     await page.goto(`${base}/Fotoapp/#/sehen`); await waitText("Worauf schauen?");
-    ok(await page.$(`a.dim.locked[href="#/theorie/${first.id}"]`) !== null, `drill "${first.id}" locked before the lesson`);
+    ok(await page.$(`.locked-list a[href="#/theorie/${first.id}"]`) !== null, `drill "${first.id}" locked before the lesson`);
     await page.goto(`${base}/Fotoapp/#/theorie`); await waitText("Theorie"); await shot("00-theorie");
     await passLesson(first.id, true); ok(true, "failed test does not pass");
     await passLesson(first.id); await shot("00b-lektion-test");
