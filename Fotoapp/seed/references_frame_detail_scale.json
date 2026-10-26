@@ -1,0 +1,669 @@
+{
+ "accessed_at": "2026-10-26",
+ "references": [
+  {
+   "image_id": "ic02846fa6d",
+   "dimension": "frame",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/47855/behind-the-gare-st-lazare",
+     "title": "Behind the Gare St. Lazare – Works – eMuseum",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "\"This is what I saw. The space between the planks was not entirely wide enough for my lens, which is the reason the picture is cut off on the left.\""
+    },
+    {
+     "url": "https://www.cortissonderegger.ch/derriere-la-gare-saint-lazare",
+     "title": "Derriere la Gare Saint-Lazare – Behind the Gare St Lazare — CORTIS & SONDEREGGER",
+     "author": "Cortis & Sonderegger (Galerie)",
+     "kind": "curator",
+     "excerpt": "This was reportedly one of only two photographs that Cartier-Bresson ever cropped."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Cartier-Bresson fotografierte durch die Lücke eines Bretterzauns; die Lücke war nicht ganz breit genug für sein Objektiv, deshalb ist das Bild links abgeschnitten [Q1]. Es soll eines von nur zwei Bildern sein, die er je beschnitten hat [Q2].",
+   "checkable": [
+    "Linker Bildrand: das Bild ist dort abgeschnitten – Folge der zu schmalen Zaunlücke [Q1]",
+    "Das Format ist kein volles Kleinbildformat, sondern beschnitten [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i749edc2880",
+   "dimension": "frame",
+   "sources": [
+    {
+     "url": "https://www.mplus.org.hk/en/magazine/10-facts-about-the-photographer-who-documented-1950s-and-60s-hong-kong/",
+     "title": "10 Facts about the Photographer Who Captured 1950s and ‘60s Hong Kong – M+ Magazine",
+     "author": "M+ Museum, Hong Kong (mit Zitat Fan Ho)",
+     "kind": "museum",
+     "excerpt": "Fan Ho referred to this photo, School is Over, as 'a joke that God played on me. In fact, I wasn't even taking a picture of the children. The negative was in a square format. I was actually photographing the tram lines. My first impression was that the photograph wasn't any good. But as I looked at it, I found the two children on the side, which was even more fun and interesting.'"
+    }
+   ],
+   "library_source_ids": [
+    736921
+   ],
+   "answer_md": "Das Negativ war quadratisch; Fan Ho fotografierte eigentlich die Tramschienen und entdeckte erst später die zwei Kinder am Rand [Q1]. Er beschnitt das Bild radikal zu einem ungewöhnlich schmalen Hochformat, sodass Kinder, Schienen und Abflusslöcher einen Rhythmus bilden [S736921].",
+   "checkable": [
+    "Extrem schmales Hochformat – seitlich eng beschnitten [S736921]",
+    "Kinder, Schienen und Abflussgitter reihen sich im schmalen Streifen übereinander [S736921]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i99f20775bb",
+   "dimension": "frame",
+   "sources": [
+    {
+     "url": "https://www.sammlung.pinakothek.de/en/artwork/A9xl7ll4Wv/andreas-gursky/rhein-ii",
+     "title": "Andreas Gursky – Rhein II – Sammlung Online, Bayerische Staatsgemäldesammlungen (Pinakothek der Moderne)",
+     "author": "Bayerische Staatsgemäldesammlungen – Pinakothek der Moderne",
+     "kind": "museum",
+     "excerpt": "The viewer sees the Rhine as an almost monochromatic image made up of greyish-green fields of colour that … extend endlessly beyond the edges of the picture."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild besteht aus fast einfarbigen graugrünen Farbstreifen, die sich in der Vorstellung endlos über die Bildränder hinaus fortsetzen [Q1].",
+   "checkable": [
+    "Die waagrechten Streifen (Wiese, Fluss, Ufer, Himmel) laufen links und rechts ungebrochen aus dem Bild [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iec5ad837fd",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    352486
+   ],
+   "answer_md": "Jede Aufnahme entstand mit derselben Großformat-Anordnung, so positioniert, dass die Form das ganze Bildfeld einnimmt [S352486].",
+   "checkable": [
+    "In jedem Einzelbild füllt der Gasbehälter das Feld fast ganz aus, mit ähnlich knappem Abstand zu den Rändern [S352486]",
+    "Alle Tafeln sind gleich gerahmt – die Kanten wiederholen sich von Bild zu Bild [S352486]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie9df651c4e",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    379400
+   ],
+   "answer_md": "Der Horizont liegt irgendwo außerhalb des Bildrahmens; der Betrachter verliert die Orientierung [S379400].",
+   "checkable": [
+    "Kein Horizont an der oberen Kante – die Seebodenfläche läuft an allen vier Rändern aus dem Bild [S379400]"
+   ],
+   "scope_note": "Die Quelle spricht über die Bilder des Lake Project allgemein."
+  },
+  {
+   "image_id": "i32d59b1183",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    621799
+   ],
+   "answer_md": "Maisel beschreibt, wie das Flugzeug tiefer geht und sich der Bildrahmen mit blutroten Salzfeldern füllt [S621799].",
+   "checkable": [
+    "Die roten Salzfelder reichen bis an alle Bildränder – kein Rand ohne Seeboden [S621799]"
+   ],
+   "scope_note": "Der Text des Fotografen beschreibt das Überfliegen des Owens Lake; dieses Bild entspricht der beschriebenen Situation."
+  },
+  {
+   "image_id": "i55e4722bf6",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    192138
+   ],
+   "answer_md": "Die Festung auf dem Berggipfel ist von den Felsformationen kaum zu unterscheiden; in der Ferne liegt eine Bergkette, in der unteren rechten Ecke ein Fluss [S192138].",
+   "checkable": [
+    "Untere rechte Ecke: der Fluss [S192138]",
+    "Hinterer Rand oben: die ferne Bergkette [S192138]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i61a13909b3",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    333062
+   ],
+   "answer_md": "Wolf hatte die Gebäude zuerst ganz fotografiert, mit Himmel und Boden; erst als er die Bilder so beschnitt, dass nur noch Gebäude ohne Himmel und Horizont blieben, entstand für ihn mehr als ein Architekturbild [S333062].",
+   "checkable": [
+    "Oben kein Himmel, unten kein Boden: die Fassaden laufen über alle vier Bildkanten hinaus [S333062]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i6b2d4d41f6",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    397253
+   ],
+   "answer_md": "Wolf hatte die Gebäude zuerst ganz fotografiert, mit Himmel und Boden; erst als er die Bilder so beschnitt, dass nur noch Gebäude ohne Himmel und Horizont blieben, entstand für ihn mehr als ein Architekturbild [S397253].",
+   "checkable": [
+    "Oben kein Himmel, unten kein Boden: die Fassaden laufen über alle vier Bildkanten hinaus [S397253]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i7c416320fe",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    763601
+   ],
+   "answer_md": "Wolf hatte die Gebäude zuerst ganz fotografiert, mit Himmel und Boden; erst als er die Bilder so beschnitt, dass nur noch Gebäude ohne Himmel und Horizont blieben, entstand für ihn mehr als ein Architekturbild [S763601].",
+   "checkable": [
+    "Oben kein Himmel, unten kein Boden: die Fassaden laufen über alle vier Bildkanten hinaus [S763601]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i7d5bdce00c",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    825945
+   ],
+   "answer_md": "Wolf hatte die Gebäude zuerst ganz fotografiert, mit Himmel und Boden; erst als er die Bilder so beschnitt, dass nur noch Gebäude ohne Himmel und Horizont blieben, entstand für ihn mehr als ein Architekturbild [S825945].",
+   "checkable": [
+    "Oben kein Himmel, unten kein Boden: die Fassaden laufen über alle vier Bildkanten hinaus [S825945]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ia4babb5040",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    707578
+   ],
+   "answer_md": "Wolf hatte die Gebäude zuerst ganz fotografiert, mit Himmel und Boden; erst als er die Bilder so beschnitt, dass nur noch Gebäude ohne Himmel und Horizont blieben, entstand für ihn mehr als ein Architekturbild [S707578].",
+   "checkable": [
+    "Oben kein Himmel, unten kein Boden: die Fassaden laufen über alle vier Bildkanten hinaus [S707578]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i66fa654d1a",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    147322
+   ],
+   "answer_md": "Strand sucht beim Fliegen die Balance im Bildausschnitt, achtet besonders auf die Ecken des Rahmens und löst aus, wenn sie im Einklang sind; Horizonte vermeidet er meist, um die Bilder abstrakter zu machen [S147322].",
+   "checkable": [
+    "Kein Horizont – das Muster füllt das Bild bis an alle Kanten [S147322]",
+    "Ecken prüfen: Was läuft in jede der vier Ecken hinein? [S147322]"
+   ],
+   "scope_note": "Strand beschreibt seine Arbeitsweise bei Luftaufnahmen allgemein; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i53481fd680",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    147322
+   ],
+   "answer_md": "Strand sucht beim Fliegen die Balance im Bildausschnitt, achtet besonders auf die Ecken des Rahmens und löst aus, wenn sie im Einklang sind; Horizonte vermeidet er meist, um die Bilder abstrakter zu machen [S147322].",
+   "checkable": [
+    "Kein Horizont – das Muster füllt das Bild bis an alle Kanten [S147322]",
+    "Ecken prüfen: Was läuft in jede der vier Ecken hinein? [S147322]"
+   ],
+   "scope_note": "Strand beschreibt seine Arbeitsweise bei Luftaufnahmen allgemein; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ibbd7ccd719",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    147322
+   ],
+   "answer_md": "Strand sucht beim Fliegen die Balance im Bildausschnitt, achtet besonders auf die Ecken des Rahmens und löst aus, wenn sie im Einklang sind; Horizonte vermeidet er meist, um die Bilder abstrakter zu machen [S147322].",
+   "checkable": [
+    "Kein Horizont – das Muster füllt das Bild bis an alle Kanten [S147322]",
+    "Ecken prüfen: Was läuft in jede der vier Ecken hinein? [S147322]"
+   ],
+   "scope_note": "Strand beschreibt seine Arbeitsweise bei Luftaufnahmen allgemein; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "id378960c2e",
+   "dimension": "detail",
+   "sources": [
+    {
+     "url": "https://huxleyparlour.com/critical-texts/joel-sternfelds-mclean-virginia/",
+     "title": "Joel Sternfeld: McLean, Virginia – Critical Texts – Huxley-Parlour",
+     "author": "Huxley-Parlour Gallery",
+     "kind": "curator",
+     "excerpt": "McLean, Virginia, December 1978 depicts a helmeted fireman shopping for pumpkins at a farm market, all while a two-story house blazes in the background. Sternfeld's scene initially presents as both shocking and disturbing. This fireman appears to have abandoned his troupe in perilous conditions, leaving them behind to battle the scorching billows of smoke in order to peruse fresh fruit and veg."
+    },
+    {
+     "url": "https://huxleyparlour.com/critical-texts/joel-sternfelds-mclean-virginia/",
+     "title": "Joel Sternfeld: McLean, Virginia – Critical Texts – Huxley-Parlour",
+     "author": "Huxley-Parlour Gallery",
+     "kind": "curator",
+     "excerpt": "In reality, the image depicts a controlled burn training session for local firefighters, with the farm and home scheduled for demolition to make way for a housing development."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild zeigt einen Feuerwehrmann mit Helm, der an einem Hofladen Kürbisse aussucht, während im Hintergrund ein zweistöckiges Haus brennt – auf den ersten Blick scheint er seine Kollegen im Stich zu lassen [Q1]. Tatsächlich war es eine Übung mit kontrolliertem Abbrand; Hof und Haus sollten einer Siedlung weichen [Q2].",
+   "checkable": [
+    "Der Feuerwehrmann zwischen den Kürbissen vor dem Stand [Q1]",
+    "Das brennende Haus im Hintergrund oben rechts [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idb2e605d79",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    289364
+   ],
+   "answer_md": "Das Bild enthält einen visuellen Witz: An der Stirnwand der Bibliothek hängt ein großes Fotografierverbotsschild; das moderne Schild im barocken Raum und seine Größe machen das Detail schwer zu übersehen [S289364].",
+   "checkable": [
+    "Stirnwand der Bibliothek: das Schild, das das Fotografieren verbietet [S289364]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iad3aaf5028",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    351589
+   ],
+   "answer_md": "Ein kleiner Stapel Pfannkuchen, eine halbe Melone, Milch und Wasser auf einem Platzset im Western-Stil – in einem Diner, der überall in Amerika sein könnte [S351589].",
+   "checkable": [
+    "Pfannkuchen, halbe Melone, Milch- und Wasserglas [S351589]",
+    "Platzset mit Western-Motiven [S351589]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ieb59cc085e",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    470582
+   ],
+   "answer_md": "Es gibt kaum Details, an denen man die Hochhäuser als japanisch erkennt; sie könnten überall in der entwickelten Welt stehen – das Bild zeigt, wie globaler Kapitalismus kulturelle Eigenart auslöscht [S470582].",
+   "checkable": [
+    "Suche nach einem Hinweis auf Japan: Schrift, Zeichen, Bauform – fast nichts davon ist zu finden [S470582]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i76c3e01db2",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    538707
+   ],
+   "answer_md": "Erst beim genauen Hinsehen erkennt man zwischen Maschinen und abgerissenen Stadtteilen kleine Figuren, die ihrer Arbeit oder ihrem Alltag nachgehen – eine Erinnerung an das menschliche Ringen im Kern dieses Projekts [S538707].",
+   "checkable": [
+    "Kleine Menschen zwischen Baustelle und Trümmern – man muss sie suchen [S538707]"
+   ],
+   "scope_note": "Die Kritik spricht über Burtynskys Bilder vom Drei-Schluchten-Damm insgesamt."
+  },
+  {
+   "image_id": "i16985dcefc",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    785861
+   ],
+   "answer_md": "Erst beim genauen Hinsehen erkennt man zwischen Maschinen und abgerissenen Stadtteilen kleine Figuren, die ihrer Arbeit oder ihrem Alltag nachgehen – eine Erinnerung an das menschliche Ringen im Kern dieses Projekts [S785861].",
+   "checkable": [
+    "Kleine Menschen zwischen Baustelle und Trümmern – man muss sie suchen [S785861]"
+   ],
+   "scope_note": "Die Kritik spricht über Burtynskys Bilder vom Drei-Schluchten-Damm insgesamt."
+  },
+  {
+   "image_id": "idd43ebb5ff",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    537786
+   ],
+   "answer_md": "Die Figuren wirken in Zhangs Bildern winzig, sind aber trotzdem bedeutsam: „Obwohl sie klein sind, funktioniert die Szene ohne sie nicht“ [S537786].",
+   "checkable": [
+    "Der kleine Mann auf der Insel – ohne ihn wäre das Bild nur Fluss [S537786]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib7d9fac048",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    690781
+   ],
+   "answer_md": "Porter beschreibt, wie man nach dem Überwältigenden die kleineren, vertrauten Dinge sieht, die im Zusammenhang des Ganzen nicht weniger wunderbar sind – etwa die samtigen Rasen junger Tamarisken auf den nassen Sandbänken, die das Hochwasser gerade freigegeben hat [S690781].",
+   "checkable": [
+    "Junge Tamarisken und Gras auf nassem Sand am Flussrand [S690781]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i861ba6c39d",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    810555
+   ],
+   "answer_md": "Parr füllt das Bild mit einem Nebeneinander von Dingen und Menschen – darunter Hände, die den Schiefen Turm von Pisa „stützen“; so hält er dem Tourismus satirisch den Spiegel vor [S810555].",
+   "checkable": [
+    "Die ausgestreckten Hände der Touristen, die für das Foto den Turm „halten“ [S810555]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if2dbf42717",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    738953
+   ],
+   "answer_md": "Ein riesiger Krater, gefüllt mit blutfarbenem Wasser, erinnert an eine offene Wunde; Wasser, die Lebensquelle, ist hier buchstäblich und symbolisch verseucht [S738953].",
+   "checkable": [
+    "Rötliches Wasser im Krater [S738953]",
+    "Verstreute, rostige Reste eines gesprengten Militärfahrzeugs [S738953]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2b5d89e520",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    917495
+   ],
+   "answer_md": "Kenna hält es nicht für nötig oder wünschenswert, ein Rechteck mit Details zu füllen; das „leere“ weiße Schneefeld lädt ein, hineinzugehen, bevor der Blick auf den fernen Berg fällt, der wie eine Fata Morgana am Horizont schwebt [S917495].",
+   "checkable": [
+    "Großes, fast leeres Schneefeld im Vordergrund [S917495]",
+    "Einziger Blickpunkt: der ferne Berg am Horizont [S917495]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iff0cdb62dd",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    946842
+   ],
+   "answer_md": "Thomson hob an den Teepflückerinnen hervor: das glänzend schwarze Haar mit Silberschmuck und frischen Blumen, die schlichte, auffallend saubere Kleidung und bestickte Schuhe statt gebundener Füße [S946842].",
+   "checkable": [
+    "Haarschmuck der Frauen [S946842]",
+    "Füße und Schuhe der Frauen [S946842]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i5d7e33c848",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    586988
+   ],
+   "answer_md": "An fast jedem der gleich großen Balkone des Wohnblocks hängen pastellfarbene Hemden zum Trocknen [S586988].",
+   "checkable": [
+    "Wäsche an den Balkonen der Fassaden [S586988]"
+   ],
+   "scope_note": "Die Kritik beschreibt mehrere Bilder der China-Serie; der Satz zum Wohnblock passt zu diesem Bild."
+  },
+  {
+   "image_id": "i677e6a5815",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    618311
+   ],
+   "answer_md": "Die religiösen Symbole, denen Soth im Süden der USA überall begegnete und die seine Bilder durchziehen, empfand er als besonders aufgeladen [S618311].",
+   "checkable": [
+    "Das große weiße Kreuz über der Gruppe [S618311]"
+   ],
+   "scope_note": "Die Quelle spricht über religiöse Symbole in der Serie Sleeping by the Mississippi; das Kreuz hier ist eines davon."
+  },
+  {
+   "image_id": "i76c3e01db2",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    538707
+   ],
+   "answer_md": "Die riesige Architektur des Damms und die gewaltige Räumung der Siedlungen sind detailreich gezeigt; dazwischen gehen kleine Figuren ihrer Arbeit nach [S538707].",
+   "checkable": [
+    "Kleine Menschen als Maßstab gegen Maschinen, Baustelle und Trümmerfeld [S538707]"
+   ],
+   "scope_note": "Die Kritik spricht über Burtynskys Bilder vom Drei-Schluchten-Damm insgesamt."
+  },
+  {
+   "image_id": "i16985dcefc",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    785861
+   ],
+   "answer_md": "Die riesige Architektur des Damms und die gewaltige Räumung der Siedlungen sind detailreich gezeigt; dazwischen gehen kleine Figuren ihrer Arbeit nach [S785861].",
+   "checkable": [
+    "Kleine Menschen als Maßstab gegen Maschinen, Baustelle und Trümmerfeld [S785861]"
+   ],
+   "scope_note": "Die Kritik spricht über Burtynskys Bilder vom Drei-Schluchten-Damm insgesamt."
+  },
+  {
+   "image_id": "icde5f1cd40",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    472327
+   ],
+   "answer_md": "Die Recycling-Bilder zeigen das schiere Ausmaß der Verschwendung an riesigen Haufen von Schrott – Heizkörper, Telefonwählscheiben, Kabel, Leiterplatten –, jede Sorte für sich abgebildet und mit eigener Textur [S472327].",
+   "checkable": [
+    "Nur eine Sorte Schrott im Bild: ein Haufen Leiterplatten [S472327]",
+    "Die eigene Textur der Platten – grün, rot, kupferfarben, kantig übereinander [S472327]"
+   ],
+   "scope_note": "Die Kritik spricht über die Recycling-Bilder der China-Serie insgesamt; dieses Bild ist das der Leiterplatten."
+  },
+  {
+   "image_id": "ife74fb6ada",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    716826
+   ],
+   "answer_md": "Walker Evans: In diesem einfachen Bild einer Fernstraße findet man sofort den Kontinent; die ganze Seite ist erfüllt von amerikanischer Weite und Größe [S716826].",
+   "checkable": [
+    "Die Straße läuft bis zum Horizont – sie misst die Weite des Landes [S716826]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i8b4671908b",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    808929
+   ],
+   "answer_md": "Es gibt keine Menschen im Bild und kaum Hinweise, wo man in Bezug zur Natur steht; auch Horizonte, die verorten könnten, fehlen weitgehend [S808929].",
+   "checkable": [
+    "Kein Maßstabsträger: keine Figur, kaum Horizont – die Größe bleibt unbestimmbar [S808929]"
+   ],
+   "scope_note": "Die Kritik spricht über die ausgestellten Bilder Coopers insgesamt."
+  },
+  {
+   "image_id": "i2c414c1f0f",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    119409
+   ],
+   "answer_md": "Weil Himmel und Horizont fehlen, weiß man nicht, wie groß das Gebäude ist – 100 oder 200 Stockwerke, eine Meile lang; diese Illusion grenzenloser Größe entspricht der Erfahrung in Megastädten [S119409].",
+   "checkable": [
+    "Kein Gebäudeende sichtbar – Stockwerke und Breite lassen sich nicht abzählen [S119409]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i7c416320fe",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    279106
+   ],
+   "answer_md": "Weil Himmel und Horizont fehlen, weiß man nicht, wie groß das Gebäude ist – 100 oder 200 Stockwerke, eine Meile lang; diese Illusion grenzenloser Größe entspricht der Erfahrung in Megastädten [S279106].",
+   "checkable": [
+    "Kein Gebäudeende sichtbar – Stockwerke und Breite lassen sich nicht abzählen [S279106]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i61a13909b3",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    543701
+   ],
+   "answer_md": "Weil Himmel und Horizont fehlen, weiß man nicht, wie groß das Gebäude ist – 100 oder 200 Stockwerke, eine Meile lang; diese Illusion grenzenloser Größe entspricht der Erfahrung in Megastädten [S543701].",
+   "checkable": [
+    "Kein Gebäudeende sichtbar – Stockwerke und Breite lassen sich nicht abzählen [S543701]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i6b2d4d41f6",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    958247
+   ],
+   "answer_md": "Weil Himmel und Horizont fehlen, weiß man nicht, wie groß das Gebäude ist – 100 oder 200 Stockwerke, eine Meile lang; diese Illusion grenzenloser Größe entspricht der Erfahrung in Megastädten [S958247].",
+   "checkable": [
+    "Kein Gebäudeende sichtbar – Stockwerke und Breite lassen sich nicht abzählen [S958247]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i7d5bdce00c",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    866879
+   ],
+   "answer_md": "Weil Himmel und Horizont fehlen, weiß man nicht, wie groß das Gebäude ist – 100 oder 200 Stockwerke, eine Meile lang; diese Illusion grenzenloser Größe entspricht der Erfahrung in Megastädten [S866879].",
+   "checkable": [
+    "Kein Gebäudeende sichtbar – Stockwerke und Breite lassen sich nicht abzählen [S866879]"
+   ],
+   "scope_note": "Wolf spricht über die Serie Architecture of Density insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i87389556f1",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    871074
+   ],
+   "answer_md": "Ametsuchi versammelt unter anderem Landschaften mit winzigen Figuren, die im Land verloren wirken [S871074].",
+   "checkable": [
+    "Die kleinen Menschen im Grasland vor dem Feuer [S871074]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie Ametsuchi insgesamt."
+  },
+  {
+   "image_id": "i631692e473",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    139249
+   ],
+   "answer_md": "Zu den Bildern gehören Mauern mit riesigen, perspektivisch verzerrten Schatten, die die menschlichen Figuren daneben klein machen [S139249].",
+   "checkable": [
+    "Der Radfahrer neben den mächtigen Schattenbalken an der Wand [S139249]"
+   ],
+   "scope_note": "Die Rezension beschreibt das Marokko-Buch insgesamt; das Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i308cf730a0",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    603160
+   ],
+   "answer_md": "Sambunaris trat weiter zurück, sodass Spuren menschlicher Anwesenheit oft zu sehen sind, das Land selbst aber den größten Teil des Bildes beherrscht [S603160].",
+   "checkable": [
+    "Straßen und Becken als kleine menschliche Spuren in der weiten Fläche [S603160]"
+   ],
+   "scope_note": "Die Quelle beschreibt Sambunaris’ Vorgehen seit ihren frühen Arbeiten."
+  },
+  {
+   "image_id": "ie7d8962b6e",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    946495
+   ],
+   "answer_md": "Brandt stellte lebensgroße Tafeln mit Tieren an Orten auf, an denen diese Tiere früher lebten [S946495].",
+   "checkable": [
+    "Das Tier auf der Tafel ist lebensgroß – im Vergleich mit den Menschen und Dingen daneben ablesbar [S946495]"
+   ],
+   "scope_note": "Die Quelle ist Brandts Konzepttext zur Serie Inherit the Dust."
+  },
+  {
+   "image_id": "id84146c0c2",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    946495
+   ],
+   "answer_md": "Brandt stellte lebensgroße Tafeln mit Tieren an Orten auf, an denen diese Tiere früher lebten [S946495].",
+   "checkable": [
+    "Das Tier auf der Tafel ist lebensgroß – im Vergleich mit den Menschen und Dingen daneben ablesbar [S946495]"
+   ],
+   "scope_note": "Die Quelle ist Brandts Konzepttext zur Serie Inherit the Dust."
+  },
+  {
+   "image_id": "i8ff31c81ad",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    946495
+   ],
+   "answer_md": "Brandt stellte lebensgroße Tafeln mit Tieren an Orten auf, an denen diese Tiere früher lebten [S946495].",
+   "checkable": [
+    "Das Tier auf der Tafel ist lebensgroß – im Vergleich mit den Menschen und Dingen daneben ablesbar [S946495]"
+   ],
+   "scope_note": "Die Quelle ist Brandts Konzepttext zur Serie Inherit the Dust."
+  },
+  {
+   "image_id": "i4c6ec722c2",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    775749
+   ],
+   "answer_md": "Giacomellis erhöhte Standpunkte und Luftaufnahmen stauchen die Distanz und verzerren den Maßstab; das Gelände wird abstrakt, fast kalligrafisch [S775749].",
+   "checkable": [
+    "Felder und Furchen lesen sich als abstraktes Muster; ihre Größe ist schwer abzuschätzen [S775749]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie Paesaggio insgesamt."
+  },
+  {
+   "image_id": "i677e6a5815",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    749005
+   ],
+   "answer_md": "Das Bild zeigt eine Arbeitsgruppe von Häftlingen neben einem riesigen Gedenkkreuz in Kentucky [S749005].",
+   "checkable": [
+    "Die Männer im Vordergrund neben dem riesigen Kreuz [S749005]"
+   ],
+   "scope_note": ""
+  }
+ ]
+}
