@@ -21,15 +21,19 @@
   <text x="315" y="92" text-anchor="middle" class="h">4 Fluchten</text>
   <text x="315" y="106" text-anchor="middle" class="m">Linien laufen zu</text>
   <!-- 5 Luftperspektive -->
-  <path d="M12 150 L35 132 L52 142 L78 128" stroke-opacity="0.3"/>
-  <path d="M12 162 L30 148 L50 158 L78 144" stroke-opacity="0.6"/>
-  <path d="M12 178 L38 160 L60 172 L78 164"/>
+  <g stroke="none">
+    <rect x="12" y="128" width="66" height="54" fill="#e6e9ee"/>
+    <path d="M12 152 L35 136 L52 146 L78 132 V182 H12 Z" fill="#c3ccd8"/>
+    <path d="M12 164 L30 150 L50 160 L78 148 V182 H12 Z" fill="#8392a8"/>
+    <path d="M12 178 L38 162 L60 174 L78 166 V182 H12 Z" fill="#2a3340"/>
+  </g>
+  <rect x="12" y="128" width="66" height="54" class="m"/>
   <!-- 6 Schaerfe, Textur -->
   <path d="M100 180 l6 -8 M108 180 l6 -8 M116 180 l6 -8 M124 180 l6 -8 M100 170 l6 -8 M108 170 l6 -8 M116 170 l6 -8 M124 170 l6 -8"/>
   <rect x="140" y="136" width="30" height="14" class="m"/>
   <!-- 7 Licht -->
   <rect x="190" y="134" width="70" height="48" class="f" stroke="none"/>
-  <rect x="204" y="148" width="26" height="34" class="a"/>
+  <rect x="204" y="148" width="26" height="34" class="af" stroke="none"/>
   <!-- legend -->
   <path d="M300 130 V182 M294 176 L300 182 L306 176" class="m"/>
   <text x="312" y="142" class="m">stark</text>

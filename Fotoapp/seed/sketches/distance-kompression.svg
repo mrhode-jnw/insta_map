@@ -10,21 +10,21 @@
 <line x1="23" y1="88" x2="198" y2="56" class="a" stroke-dasharray="2 3"/>
 <path d="M100 92 l5 8 M106 92 l5 8" class="m"/>
 <rect x="250" y="30" width="100" height="70"/>
-<path d="M331 64 L339 55 L347 64" class="m"/>
+<path d="M331 64 L339 52 L347 64" class="m"/>
 <line x1="250" y1="64" x2="262" y2="64" class="m"/>
 <line x1="330" y1="64" x2="350" y2="64" class="m"/>
-<path d="M252 100 C258 66 284 56 300 58 C318 60 330 80 336 100 Z" class="f" stroke="none"/>
-<path d="M252 100 C258 66 284 56 300 58 C318 60 330 80 336 100"/>
+<path d="M252 100 C256 56 282 38 300 40 C318 42 330 76 336 100 Z" class="f" stroke="none"/>
+<path d="M252 100 C256 56 282 38 300 40 C318 42 330 76 336 100"/>
 <text x="298" y="116" text-anchor="middle" class="m">Fels riesig, Berg klein</text>
 <text x="10" y="146" class="h">Weit weg: 10 km zu 12 km = 1 : 1,2</text>
 <line x1="10" y1="226" x2="236" y2="226" class="m"/>
 <rect x="13" y="214.5" width="10" height="7" class="af" stroke="none"/>
-<path d="M178 226 L206 182 L236 226" class="m"/>
-<text x="218" y="176" class="m">12 km</text>
+<path d="M178 226 L206 172 L236 226" class="m"/>
+<text x="214" y="168" class="m">12 km</text>
 <path d="M150 226 L176 186 L204 226" class="f" stroke="none"/><path d="M150 226 L176 186 L204 226"/>
 <text x="162" y="178" text-anchor="end" class="m">10 km</text>
 <line x1="23" y1="218" x2="176" y2="186" class="a" stroke-dasharray="2 3"/>
-<line x1="23" y1="218" x2="206" y2="182" class="a" stroke-dasharray="2 3"/>
+<line x1="23" y1="218" x2="206" y2="172" class="a" stroke-dasharray="2 3"/>
 <path d="M80 222 l5 8 M86 222 l5 8" class="m"/>
 <rect x="250" y="160" width="100" height="70"/>
 <path d="M250 206 L268 186 L284 196 L304 178 L326 194 L350 184" class="m"/>

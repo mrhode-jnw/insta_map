@@ -40,36 +40,14 @@
 <text x="108" y="74" class="m">Person</text>
 <text x="90" y="112" text-anchor="middle" class="m">Abstand kurz</text>
 <text x="270" y="168" text-anchor="middle" class="m">Abstand groß</text>
-<rect x="30" y="180" width="120" height="70"/>
+<clipPath id="distance-hintergrund-clip1"><rect x="30" y="180" width="120" height="70"/></clipPath>
 <line x1="30" y1="224" x2="150" y2="224" class="m"/>
-<circle cx="36" cy="218" r="3" class="m"/>
-<line x1="36" y1="221" x2="36" y2="224" class="m"/>
-<circle cx="46" cy="218" r="3" class="m"/>
-<line x1="46" y1="221" x2="46" y2="224" class="m"/>
-<circle cx="56" cy="218" r="3" class="m"/>
-<line x1="56" y1="221" x2="56" y2="224" class="m"/>
-<circle cx="66" cy="218" r="3" class="m"/>
-<line x1="66" y1="221" x2="66" y2="224" class="m"/>
-<circle cx="76" cy="218" r="3" class="m"/>
-<line x1="76" y1="221" x2="76" y2="224" class="m"/>
-<circle cx="86" cy="218" r="3" class="m"/>
-<line x1="86" y1="221" x2="86" y2="224" class="m"/>
-<circle cx="96" cy="218" r="3" class="m"/>
-<line x1="96" y1="221" x2="96" y2="224" class="m"/>
-<circle cx="106" cy="218" r="3" class="m"/>
-<line x1="106" y1="221" x2="106" y2="224" class="m"/>
-<circle cx="116" cy="218" r="3" class="m"/>
-<line x1="116" y1="221" x2="116" y2="224" class="m"/>
-<circle cx="126" cy="218" r="3" class="m"/>
-<line x1="126" y1="221" x2="126" y2="224" class="m"/>
-<circle cx="136" cy="218" r="3" class="m"/>
-<line x1="136" y1="221" x2="136" y2="224" class="m"/>
-<circle cx="146" cy="218" r="3" class="m"/>
-<line x1="146" y1="221" x2="146" y2="224" class="m"/>
+<g clip-path="url(#distance-hintergrund-clip1)"><circle cx="29.2" cy="216" r="5" class="m"/><line x1="29.2" y1="221" x2="29.2" y2="224" class="m"/><circle cx="47.5" cy="216" r="5" class="m"/><line x1="47.5" y1="221" x2="47.5" y2="224" class="m"/><circle cx="65.7" cy="216" r="5" class="m"/><line x1="65.7" y1="221" x2="65.7" y2="224" class="m"/><circle cx="83.9" cy="216" r="5" class="m"/><line x1="83.9" y1="221" x2="83.9" y2="224" class="m"/><circle cx="102.2" cy="216" r="5" class="m"/><line x1="102.2" y1="221" x2="102.2" y2="224" class="m"/><circle cx="120.4" cy="216" r="5" class="m"/><line x1="120.4" y1="221" x2="120.4" y2="224" class="m"/><circle cx="138.6" cy="216" r="5" class="m"/><line x1="138.6" y1="221" x2="138.6" y2="224" class="m"/><circle cx="156.8" cy="216" r="5" class="m"/><line x1="156.8" y1="221" x2="156.8" y2="224" class="m"/></g>
+<rect x="30" y="180" width="120" height="70"/>
 <line x1="90" y1="250" x2="90" y2="210.48"/><circle cx="90" cy="204.24" r="6.2"/>
 <clipPath id="distance-hintergrund-clip"><rect x="210" y="180" width="120" height="70"/></clipPath>
+<g clip-path="url(#distance-hintergrund-clip)"><line x1="210" y1="224" x2="330" y2="224" class="m"/><circle cx="190.0" cy="208" r="10" class="f" stroke="none"/><line x1="190.0" y1="218" x2="190.0" y2="224" class="m" stroke-width="3"/><circle cx="224.3" cy="208" r="10" class="f" stroke="none"/><line x1="224.3" y1="218" x2="224.3" y2="224" class="m" stroke-width="3"/><circle cx="258.6" cy="208" r="10" class="f" stroke="none"/><line x1="258.6" y1="218" x2="258.6" y2="224" class="m" stroke-width="3"/><circle cx="292.9" cy="208" r="10" class="f" stroke="none"/><line x1="292.9" y1="218" x2="292.9" y2="224" class="m" stroke-width="3"/><circle cx="327.1" cy="208" r="10" class="f" stroke="none"/><line x1="327.1" y1="218" x2="327.1" y2="224" class="m" stroke-width="3"/><circle cx="361.4" cy="208" r="10" class="f" stroke="none"/><line x1="361.4" y1="218" x2="361.4" y2="224" class="m" stroke-width="3"/></g>
 <rect x="210" y="180" width="120" height="70"/>
-<g clip-path="url(#distance-hintergrund-clip)"><circle cx="236" cy="200" r="24" class="f" stroke="none"/><circle cx="312" cy="208" r="30" class="f" stroke="none"/></g>
 <line x1="270" y1="250" x2="270" y2="210.48"/><circle cx="270" cy="204.24" r="6.2"/>
 <text x="90" y="266" text-anchor="middle" class="m">viel Umgebung, klein</text>
 <text x="270" y="266" text-anchor="middle" class="m">wenig Umgebung, groß</text>

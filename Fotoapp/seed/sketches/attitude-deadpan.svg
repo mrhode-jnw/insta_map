@@ -4,8 +4,8 @@
   <!-- dramatic: tilted building, low sun, long shadow -->
   <rect x="20" y="28" width="140" height="100"/>
   <path d="M60 118 L72 52 L112 46 L118 118" />
-  <path d="M118 118 L160 104" class="a" stroke-width="2"/>
-  <circle cx="38" cy="50" r="7" class="a"/>
+  <path d="M118 118 L160 126" class="a" stroke-width="2"/>
+  <circle cx="36" cy="104" r="7" class="a"/>
   <path d="M20 28 L50 28 L20 58 Z M160 28 L130 28 L160 58 Z" class="f" stroke="none"/>
   <path d="M20 118 h140" class="m"/>
   <!-- deadpan: frontal facade, centered, even light -->

@@ -8,11 +8,11 @@
   <text x="180" y="120" text-anchor="middle" class="m">Mittelgrau</text>
   <text x="350" y="120" text-anchor="end" class="m">Weiß</text>
   <!-- markers -->
-  <path d="M88 70 V50" class="a"/><path d="M83 64 l5 6 l5 -6" class="a"/>
-  <text x="88" y="34" text-anchor="middle" class="a">Waldrand:</text>
-  <text x="88" y="46" text-anchor="middle" class="a">dunkel, mit Zeichnung</text>
-  <path d="M195 70 V50" class="a"/><path d="M190 64 l5 6 l5 -6" class="a"/>
-  <text x="195" y="46" text-anchor="middle" class="a">Haut: Mitte</text>
+  <path d="M118 70 V50" class="a"/><path d="M113 64 l5 6 l5 -6" class="a"/>
+  <text x="140" y="34" text-anchor="end" class="a">Waldrand:</text>
+  <text x="140" y="46" text-anchor="end" class="a">dunkel, mit Zeichnung</text>
+  <path d="M180 70 V50" class="a"/><path d="M175 64 l5 6 l5 -6" class="a"/>
+  <text x="180" y="46" text-anchor="middle" class="a">Haut: Mitte</text>
   <path d="M302 70 V50" class="a"/><path d="M297 64 l5 6 l5 -6" class="a"/>
   <text x="302" y="34" text-anchor="middle" class="a">Schnee: knapp</text>
   <text x="302" y="46" text-anchor="middle" class="a">unter Weiß</text>

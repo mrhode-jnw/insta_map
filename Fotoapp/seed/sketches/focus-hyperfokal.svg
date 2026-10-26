@@ -14,11 +14,11 @@
   <line x1="10" y1="146" x2="350" y2="146" class="m" stroke-dasharray="2 4"/>
   <text x="180" y="164" text-anchor="middle" class="h">Kleinere Blende: mehr Tiefe, weniger Detail</text>
   <line x1="30" y1="196" x2="330" y2="196" class="m"/>
-  <path d="M60 192 v8 M150 192 v8 M240 192 v8 M320 192 v8" class="m"/>
+  <path d="M60 192 v8 M190 192 v8 M277 192 v8 M320 192 v8" class="m"/>
   <text x="60" y="216" text-anchor="middle">f/8</text>
-  <text x="150" y="216" text-anchor="middle">f/22</text>
-  <text x="240" y="216" text-anchor="middle">f/45</text>
+  <text x="190" y="216" text-anchor="middle">f/22</text>
+  <text x="277" y="216" text-anchor="middle">f/45</text>
   <text x="320" y="216" text-anchor="middle">f/64</text>
-  <text x="150" y="187" text-anchor="middle" class="a">KB: weicher</text>
-  <text x="300" y="187" text-anchor="middle" class="a">Großformat</text>
+  <text x="190" y="187" text-anchor="middle" class="a">KB: weicher</text>
+  <text x="320" y="187" text-anchor="end" class="a">Großformat</text>
 </svg>

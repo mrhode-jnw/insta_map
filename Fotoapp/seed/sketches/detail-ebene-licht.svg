@@ -8,9 +8,9 @@
   <line x1="30" y1="38" x2="150" y2="38" class="a" stroke-dasharray="4 3"/>
   <line x1="210" y1="34" x2="330" y2="34" stroke-width="3"/>
   <g transform="rotate(-28 270 104)"><rect x="264" y="104" width="12" height="9" class="af" stroke="none"/></g>
-  <path d="M268 100 L218 38 M268 100 L326 46" class="m" stroke-dasharray="2 3"/>
-  <line x1="236" y1="20" x2="312" y2="60" class="a" stroke-dasharray="4 3"/>
-  <circle cx="262" cy="34" r="3" class="af" stroke="none"/>
+  <path d="M268 100 L212 65 M268 100 L270 37" class="m" stroke-dasharray="2 3"/>
+  <line x1="214" y1="24" x2="292" y2="65" class="a" stroke-dasharray="4 3"/>
+  <circle cx="233" cy="34" r="3" class="af" stroke="none"/>
   <text x="90" y="128" text-anchor="middle" class="m">Schärfe liegt auf</text>
   <text x="90" y="142" text-anchor="middle" class="m">der ganzen Fläche</text>
   <text x="270" y="128" text-anchor="middle" class="m">scharf nur auf</text>

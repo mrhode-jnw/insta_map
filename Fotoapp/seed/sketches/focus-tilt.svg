@@ -16,7 +16,7 @@
 
     <line x1="250" y1="96" x2="350" y2="96" class="m"/>
     <rect x="252" y="44" width="10" height="8" class="af" stroke="none"/>
-    <line x1="292" y1="104" x2="318" y2="30" class="a"/>
+    <line x1="306" y1="103" x2="262" y2="28" class="a"/>
     <circle cx="280" cy="93" r="3" class="m" stroke-dasharray="2 2"/><circle cx="302" cy="93" r="3"/><circle cx="324" cy="93" r="3" class="m" stroke-dasharray="2 2"/><circle cx="344" cy="93" r="3" class="m" stroke-dasharray="2 2"/>
   </g>
   <!-- resulting frames: sharp area shaded -->
@@ -33,6 +33,7 @@
   <text x="180" y="198" text-anchor="middle" class="m">Ebene liegt auf</text>
   <text x="180" y="212" text-anchor="middle" class="m">dem Boden: alles</text>
   <text x="180" y="226" text-anchor="middle" class="m">vorn bis hinten</text>
-  <text x="300" y="198" text-anchor="middle" class="m">Ebene steil:</text>
-  <text x="300" y="212" text-anchor="middle" class="m">schmaler Streifen</text>
+  <text x="300" y="198" text-anchor="middle" class="m">Ebene zur Kamera</text>
+  <text x="300" y="212" text-anchor="middle" class="m">gekippt: nur ein</text>
+  <text x="300" y="226" text-anchor="middle" class="m">schmaler Streifen</text>
 </svg>

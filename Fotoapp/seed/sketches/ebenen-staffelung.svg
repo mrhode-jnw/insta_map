@@ -2,8 +2,8 @@
   <text x="10" y="16" class="h">Seitenansicht</text>
   <line x1="10" y1="96" x2="350" y2="96" class="m"/>
   <rect x="14" y="80" width="10" height="7" class="af" stroke="none"/>
-  <path d="M24 83 L345 40" class="a" stroke-dasharray="3 3"/>
-  <path d="M55 96 C58 84 72 80 84 96"/>
+  <path d="M24 83 L330 14" class="a" stroke-dasharray="3 3"/>
+  <path d="M55 96 C58 88 72 84 84 96"/>
   <path d="M140 96 L148 72 L156 96 M156 96 L165 66 L174 96 M174 96 L182 74 L190 96"/>
   <path d="M235 96 L290 30 L345 96" class="m"/>
   <text x="70" y="112" text-anchor="middle" class="m">vorn</text>

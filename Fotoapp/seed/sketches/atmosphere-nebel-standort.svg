@@ -7,7 +7,8 @@
   <line x1="67" y1="38" x2="300" y2="60" class="a" stroke-dasharray="3 3"/>
   <rect x="164" y="101" width="10" height="7" class="af" stroke="none"/>
   <line x1="175" y1="104" x2="235" y2="98" class="a" stroke-dasharray="3 3"/>
-  <path d="M236 108 v-14 M230 98 l6 -8 l6 8" />
+  <path d="M190 111 V95 M190 103 l-5 -4 M190 100 l5 -5 M190 106 l5 -3" stroke-width="2"/>
+  <path d="M236 108 V97 M236 101 l-3 -3 M236 100 l3 -4" class="m"/>
   <text x="40" y="30" class="a">A</text>
   <text x="160" y="96" class="a">B</text>
   <text x="300" y="134" text-anchor="middle" class="m">Nebel im Tal</text>

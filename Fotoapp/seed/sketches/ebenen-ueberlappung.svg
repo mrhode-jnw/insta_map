@@ -9,8 +9,8 @@
   <line x1="60" y1="26" x2="60" y2="60" class="m"/>
   <circle cx="60" cy="66" r="6"/><path d="M60 72 V102 M50 82 H70"/>
   <!-- controlled: figure overlaps tree trunk, head free -->
-  <line x1="196" y1="40" x2="196" y2="102" class="m"/><circle cx="196" cy="40" r="14" class="m"/>
-  <circle cx="176" cy="66" r="6"/><path d="M176 72 V102 M166 82 H186"/>
+  <path d="M180 54 V79 M180 85 V102" class="m"/><circle cx="182" cy="40" r="14" class="m"/>
+  <circle cx="167" cy="66" r="6"/><path d="M167 72 V102 M153 82 H185"/>
   <!-- separated -->
   <line x1="320" y1="26" x2="320" y2="102" class="m"/>
   <circle cx="290" cy="66" r="6"/><path d="M290 72 V102 M280 82 H300"/>

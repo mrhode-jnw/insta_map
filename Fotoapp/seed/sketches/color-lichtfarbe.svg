@@ -10,7 +10,7 @@
     <rect x="302" y="28" width="48" height="34" fill="#34528f"/>
   </g>
   <rect x="10" y="28" width="340" height="34"/>
-  <path d="M10 92 Q95 92 120 80 Q180 54 240 80 Q265 92 350 92" class="a"/>
+  <path d="M10 100 Q34 99 58 92 Q86 87 112 84 C144 80 152 67 180 67 C208 67 216 80 248 84 Q274 87 302 92 Q326 99 350 100" class="a"/>
   <line x1="10" y1="92" x2="350" y2="92" class="m"/>
   <text x="42" y="110" text-anchor="middle" class="m">blau</text>
   <text x="82" y="110" text-anchor="middle" class="m">gold</text>
@@ -20,7 +20,7 @@
   <text x="42" y="124" text-anchor="middle" class="m">Dämmerung</text>
   <text x="180" y="124" text-anchor="middle" class="m">Mittag</text>
   <text x="318" y="124" text-anchor="middle" class="m">Dämmerung</text>
-  <text x="252" y="74" class="a">Sonnenhöhe</text>
+  <text x="226" y="74" class="a">Sonnenhöhe</text>
 
   <!-- shadow is cool, mixed light -->
   <text x="10" y="150" class="h">Im selben Bild</text>
