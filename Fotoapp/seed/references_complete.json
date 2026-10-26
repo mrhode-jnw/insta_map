@@ -1,0 +1,666 @@
+{
+ "accessed_at": "2026-10-26",
+ "references": [
+  {
+   "image_id": "i038bd30111",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://kenyonreview.org/2014/11/sugimoto-seascapes/",
+     "title": "Sugimoto’s Seascapes – Kenyon Review Blog (2014)",
+     "author": "Kenyon Review (Blog)",
+     "kind": "magazine",
+     "excerpt": "The photos in the series are all 20 x 24 inches, positioned with the horizon at the exact center and shot in black and white. Sugimoto shoots from cliffs using a large camera from the late nineteenth century."
+    }
+   ],
+   "library_source_ids": [
+    237552,
+    859472
+   ],
+   "answer_md": "Die Bucht von Sagami fotografierte Sugimoto vom Enoura Observatory der Odawara Art Foundation aus [S237552]. Für seine Seascapes steht er auf Klippen, mit einer großen Kamera aus dem späten 19. Jahrhundert; der Horizont liegt genau in der Bildmitte [Q1].",
+   "checkable": [
+    "Erhöhter Standpunkt über dem Wasser (Klippe/Observatorium), Blick hinaus aufs offene Meer [Q1][S237552]",
+    "Horizont exakt in der Bildmitte [Q1]",
+    "Nur Meer und Himmel, durch eine einzige Horizontlinie geteilt [S859472]"
+   ],
+   "scope_note": "Q1 beschreibt die Methode der ganzen Seascapes-Serie; der konkrete Standort (Enoura Observatory) ist für dieses Bild belegt [S237552]."
+  },
+  {
+   "image_id": "icf5d974f03",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://kenyonreview.org/2014/11/sugimoto-seascapes/",
+     "title": "Sugimoto’s Seascapes – Kenyon Review Blog (2014)",
+     "author": "Kenyon Review (Blog)",
+     "kind": "magazine",
+     "excerpt": "The photos in the series are all 20 x 24 inches, positioned with the horizon at the exact center and shot in black and white. Sugimoto shoots from cliffs using a large camera from the late nineteenth century."
+    }
+   ],
+   "library_source_ids": [
+    598379
+   ],
+   "answer_md": "Sugimoto fotografiert seine Seascapes von Klippen aus, mit einer großen Kamera aus dem späten 19. Jahrhundert [Q1]. An jedem Ort entsteht im Grunde dasselbe Bild: der Horizont genau in der vertikalen Mitte, Himmel und Wasser gleich groß [S598379].",
+   "checkable": [
+    "Erhöhter Standpunkt (Klippe), Blick hinaus aufs offene Meer [Q1]",
+    "Horizont exakt in der Bildmitte, Himmel und Wasser gleich große Flächen [S598379][Q1]"
+   ],
+   "scope_note": "Serienmethode (Seascapes); Q1 nennt dieses Bild nicht einzeln."
+  },
+  {
+   "image_id": "i1cebb88136",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://kenyonreview.org/2014/11/sugimoto-seascapes/",
+     "title": "Sugimoto’s Seascapes – Kenyon Review Blog (2014)",
+     "author": "Kenyon Review (Blog)",
+     "kind": "magazine",
+     "excerpt": "The photos in the series are all 20 x 24 inches, positioned with the horizon at the exact center and shot in black and white. Sugimoto shoots from cliffs using a large camera from the late nineteenth century."
+    }
+   ],
+   "library_source_ids": [
+    958220
+   ],
+   "answer_md": "Sugimoto fotografiert seine Seascapes von Klippen aus, mit einer großen Kamera aus dem späten 19. Jahrhundert [Q1]. Der Horizont liegt genau in der vertikalen Mitte, Himmel und Wasser teilen das Bild in gleiche Teile [S958220].",
+   "checkable": [
+    "Erhöhter Standpunkt (Klippe), Blick hinaus aufs offene Meer [Q1]",
+    "Horizont exakt in der Bildmitte [S958220][Q1]"
+   ],
+   "scope_note": "Serienmethode (Seascapes); Q1 nennt dieses Bild nicht einzeln."
+  },
+  {
+   "image_id": "i7b702608e6",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/2022.343.5",
+     "title": "Hiroshi Sugimoto, Caribbean Sea, Jamaica – Cleveland Museum of Art",
+     "author": "The Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "Hiroshi Sugimoto journeys to locations around the world to produce what appears, at first glance, to be essentially the same picture: the horizon falls exactly in the vertical center of the paper, dividing the page into equal segments of sky and water. There are no signs of human presence."
+    }
+   ],
+   "library_source_ids": [
+    498145
+   ],
+   "answer_md": "In Sugimotos Seascapes gibt es keine Spuren menschlicher Anwesenheit; an jedem Ort entsteht im Grunde dasselbe Bild aus Himmel und Wasser [Q1]. Weggelassen ist alles außer Meer, Himmel und der einen Horizontlinie [S498145].",
+   "checkable": [
+    "Keine Spur menschlicher Anwesenheit – keine Schiffe, keine Menschen [Q1]",
+    "Nur zwei Flächen: Himmel und Wasser, getrennt durch eine Horizontlinie [S498145][Q1]"
+   ],
+   "scope_note": "Q1 ist ein Museumstext zu einem anderen Bild der Serie (Caribbean Sea, Jamaica) und beschreibt die Serienmethode."
+  },
+  {
+   "image_id": "i297daea532",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.peterfetterman.com/blog/388-1266-paul-caponigro-running-white-deer-ireland-1967-printed-2019/",
+     "title": "#1266 – Paul Caponigro, Running White Deer, Ireland 1967 – Peter Fetterman Gallery",
+     "author": "Paul Caponigro (zitiert von der Peter Fetterman Gallery)",
+     "kind": "photographer",
+     "excerpt": "Some 25 or so of these deer were collected at one end of a long field and at my signal the dog was to chase them in my direction. My camera was set up so as to include on my ground glass the grass field as foreground and the trees and background with myself hidden in the tress so as not to be seen."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Caponigro stand am Rand eines langen Feldes, selbst zwischen den Bäumen versteckt, damit die Hirsche ihn nicht sehen; die Herde wurde vom anderen Ende des Feldes in seine Richtung getrieben [Q1]. Die Kamera richtete er so ein, dass die Wiese den Vordergrund und die Bäume den Hintergrund bilden [Q1].",
+   "checkable": [
+    "Wiese als Vordergrund unten im Bild [Q1]",
+    "Bäume als dunkler Hintergrund hinter den Hirschen [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idb2e605d79",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    359698
+   ],
+   "answer_md": "Kein abgepasster Augenblick, sondern eine lange Belichtung: Höfer brauchte sie, um mit dem vorhandenen Licht im Saal auszukommen – die Besucher wurden dabei unscharf und erscheinen wie geisterhafte Erscheinungen [S359698].",
+   "checkable": [
+    "Besucher als verwischte, halbtransparente Gestalten [S359698]",
+    "Raum, Bücher und Vitrinen dagegen scharf und fest [S359698]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6ab6b8327d",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "http://www.wynnbullockphotography.com/featured/2013-02/featured-1302-text.html",
+     "title": "Featured Image February 2013: Stark Tree – Wynn Bullock Photography",
+     "author": "Wynn Bullock (zitiert nach Darkroom, 1977)",
+     "kind": "photographer",
+     "excerpt": "I got out of my car, set up the 8 x 10 camera and shot straight into the sun. I knew I was going to have a terrible problem with contrast, shooting into the sun with the deep shadow of the hill below it."
+    }
+   ],
+   "library_source_ids": [
+    476082
+   ],
+   "answer_md": "Bullock hielt an einer Bergstraße, die er oft gefahren war, stieg aus und stellte die 8×10-Kamera auf [S476082]. Er fotografierte direkt in die Sonne, mit dem tiefen Schatten des Hügels darunter [Q1].",
+   "checkable": [
+    "Sonne steht im Bild, über dem Baum [Q1]",
+    "Hügel unter der Sonne im tiefen Schatten, Baum als dunkle Silhouette [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4a55592e19",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/daybreak/",
+     "title": "Daybreak – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "This stream is the runoff from Jenny Lake and the sun was hitting a group of aspen trees with golden leaves. I could see there was a photo possibility that combined the reflections from the trees and sky, the pattern of small stones in the creek, the water ripples and the subtle view of the rocks under the water."
+    },
+    {
+     "url": "https://christopherburkett.com/print/daybreak/",
+     "title": "Daybreak – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "I used the 800mm lens with the back tilt to adjust the plane of focus parallel with the water and stopped the lens down to f/45 to get everything in focus."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Burkett stand am Abfluss des Jenny Lake und blickte auf den Bach, in dem sich sonnenbeschienene Espen und Himmel spiegeln [Q1]. Mit 800-mm-Objektiv und geneigter Rückstandarte legte er die Schärfeebene parallel zur Wasserfläche [Q2].",
+   "checkable": [
+    "Bild zeigt nur Wasserfläche: Spiegelung der goldenen Bäume und des Himmels, kleine Steine, Wellen [Q1]",
+    "Steine von vorn bis hinten scharf – Schärfeebene parallel zum Wasser [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i53481fd680",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "Today, 22 years after my first flight, I have flown 150 hours total over Iceland. Most of the time in high-winged Cessnas, but in recent years also in helicopters."
+    },
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "Most of the time, I try to avoid horizons in my aerials, which helps to make them more abstract."
+    }
+   ],
+   "library_source_ids": [
+    456873
+   ],
+   "answer_md": "Luftaufnahme über Island: Strand fliegt meist in Hochdecker-Cessnas, in den letzten Jahren auch im Hubschrauber [Q1]. Aus dem Flächenflugzeug fotografiert er fast senkrecht nach unten, aus dem Hubschrauber eher schräg [S456873]; Horizonte meidet er meist [Q2].",
+   "checkable": [
+    "Blick von oben auf die Landschaft [S456873]",
+    "Kein Horizont – das Bild wirkt dadurch abstrakter [Q2]"
+   ],
+   "scope_note": "Strands eigener Text über seine Island-Luftbilder (Methode der Serie); das Bild selbst wird darin nicht einzeln besprochen."
+  },
+  {
+   "image_id": "ibbd7ccd719",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "Today, 22 years after my first flight, I have flown 150 hours total over Iceland. Most of the time in high-winged Cessnas, but in recent years also in helicopters."
+    },
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "Most of the time, I try to avoid horizons in my aerials, which helps to make them more abstract."
+    }
+   ],
+   "library_source_ids": [
+    456873
+   ],
+   "answer_md": "Luftaufnahme über Island: Strand fliegt meist in Hochdecker-Cessnas, in den letzten Jahren auch im Hubschrauber [Q1]. Aus dem Flächenflugzeug fotografiert er fast senkrecht nach unten, aus dem Hubschrauber eher schräg [S456873]; Horizonte meidet er meist [Q2].",
+   "checkable": [
+    "Blick von oben auf die Landschaft [S456873]",
+    "Kein Horizont – das Bild wirkt dadurch abstrakter [Q2]"
+   ],
+   "scope_note": "Strands eigener Text über seine Island-Luftbilder (Methode der Serie); das Bild selbst wird darin nicht einzeln besprochen."
+  },
+  {
+   "image_id": "i66fa654d1a",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "Today, 22 years after my first flight, I have flown 150 hours total over Iceland. Most of the time in high-winged Cessnas, but in recent years also in helicopters."
+    },
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "Most of the time, I try to avoid horizons in my aerials, which helps to make them more abstract."
+    }
+   ],
+   "library_source_ids": [
+    456873
+   ],
+   "answer_md": "Luftaufnahme über Island: Strand fliegt meist in Hochdecker-Cessnas, in den letzten Jahren auch im Hubschrauber [Q1]. Aus dem Flächenflugzeug fotografiert er fast senkrecht nach unten, aus dem Hubschrauber eher schräg [S456873]; Horizonte meidet er meist [Q2].",
+   "checkable": [
+    "Blick von oben auf die Landschaft [S456873]",
+    "Kein Horizont – das Bild wirkt dadurch abstrakter [Q2]"
+   ],
+   "scope_note": "Strands eigener Text über seine Island-Luftbilder (Methode der Serie); das Bild selbst wird darin nicht einzeln besprochen."
+  },
+  {
+   "image_id": "i470e289645",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "Today, 22 years after my first flight, I have flown 150 hours total over Iceland. Most of the time in high-winged Cessnas, but in recent years also in helicopters."
+    },
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "Most of the time, I try to avoid horizons in my aerials, which helps to make them more abstract."
+    }
+   ],
+   "library_source_ids": [
+    466469,
+    456873
+   ],
+   "answer_md": "Die riesigen Flussdeltas an Islands Südküste sind besonders interessant von oben betrachtet [S466469]. Strand fliegt dafür meist in Hochdecker-Cessnas, zuletzt auch im Hubschrauber [Q1]; aus dem Flugzeug fotografiert er fast senkrecht nach unten, aus dem Hubschrauber eher schräg [S456873], Horizonte meidet er meist [Q2].",
+   "checkable": [
+    "Draufsicht auf das Delta, kein Horizont, kein Himmel [S466469][Q2]",
+    "Wasserläufe fließen in viele Richtungen – das flache Land ist von oben gesehen [S466469]"
+   ],
+   "scope_note": "Strands eigener Text über seine Island-Luftbilder (Methode der Serie); das Bild selbst wird darin nicht einzeln besprochen."
+  },
+  {
+   "image_id": "i4266c79470",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "When I fly, I am very concentrated on composition. By moving the camera around in all directions, I try to find a good balance in the framing. I pay special attention to the corners of the frame, and when these are in harmony, I make the photograph."
+    },
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "You complete a full 360-degree turn over the landscape you want to photograph, and you shoot almost straight down. You will then get the object under you in all kinds of light: front light, sidelight, and backlight."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Strand löst aus, wenn beim Bewegen der Kamera die Rahmung im Gleichgewicht ist – besonders, wenn die vier Bildecken stimmen [Q1]. Vom Flugzeug aus fliegt er dafür eine volle 360-Grad-Kurve über dem Motiv und bekommt es so in Front-, Seiten- und Gegenlicht [Q2].",
+   "checkable": [
+    "Die vier Bildecken sind bewusst ausbalanciert – auf die Ecken achten [Q1]",
+    "Fast senkrechter Blick nach unten auf die Flussläufe [Q2]"
+   ],
+   "scope_note": "Strands eigener Text über seine Island-Luftbilder (Methode der Serie); das Bild selbst wird darin nicht einzeln besprochen."
+  },
+  {
+   "image_id": "ie9df651c4e",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel’s Aerial Photos Reveal Scars on the American West – KQED Arts",
+     "author": "KQED Arts",
+     "kind": "magazine",
+     "excerpt": "In 2001, during a flight in the tiny Cessna he’d chartered, photographer David Maisel felt his fingers grow so numb from the cold that he began to lose dexterity operating his medium-format camera."
+    },
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel’s Aerial Photos Reveal Scars on the American West – KQED Arts",
+     "author": "KQED Arts",
+     "kind": "magazine",
+     "excerpt": "The pilot had soared up to 10,000 feet, circling and banking the plane for hours at a time, and Maisel’s brain was indeed starved of oxygen."
+    }
+   ],
+   "library_source_ids": [
+    108865
+   ],
+   "answer_md": "Luftaufnahme aus einer kleinen gecharterten Cessna mit Mittelformatkamera [Q1]; der Pilot kreiste und flog stundenlang Schräglagen über dem See [Q2]. Die Flughöhe ist Gestaltungsmittel: sehr tief fliegend füllt das Muster des Bodens das ganze Bild [S108865].",
+   "checkable": [
+    "Blick von oben auf den ausgetrockneten Seeboden [Q1][S108865]",
+    "Bild randvoll mit dem Muster des Bodens – aus geringer Flughöhe [S108865]"
+   ],
+   "scope_note": "Serienmethode der Lake Project (Owens Lake, 2001–2002); die Quellen nennen dieses Bild nicht einzeln."
+  },
+  {
+   "image_id": "i98e3bc0868",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel’s Aerial Photos Reveal Scars on the American West – KQED Arts",
+     "author": "KQED Arts",
+     "kind": "magazine",
+     "excerpt": "In 2001, during a flight in the tiny Cessna he’d chartered, photographer David Maisel felt his fingers grow so numb from the cold that he began to lose dexterity operating his medium-format camera."
+    },
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel’s Aerial Photos Reveal Scars on the American West – KQED Arts",
+     "author": "KQED Arts",
+     "kind": "magazine",
+     "excerpt": "The pilot had soared up to 10,000 feet, circling and banking the plane for hours at a time, and Maisel’s brain was indeed starved of oxygen."
+    }
+   ],
+   "library_source_ids": [
+    108865
+   ],
+   "answer_md": "Luftaufnahme aus einer kleinen gecharterten Cessna mit Mittelformatkamera [Q1]; der Pilot kreiste und flog stundenlang Schräglagen über dem See [Q2]. Die Flughöhe ist Gestaltungsmittel: sehr tief fliegend füllt das Muster des Bodens das ganze Bild [S108865].",
+   "checkable": [
+    "Blick von oben auf den ausgetrockneten Seeboden [Q1][S108865]",
+    "Bild randvoll mit dem Muster des Bodens – aus geringer Flughöhe [S108865]"
+   ],
+   "scope_note": "Serienmethode der Lake Project (Owens Lake, 2001–2002); die Quellen nennen dieses Bild nicht einzeln."
+  },
+  {
+   "image_id": "i659121c450",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel’s Aerial Photos Reveal Scars on the American West – KQED Arts",
+     "author": "KQED Arts",
+     "kind": "magazine",
+     "excerpt": "In 2001, during a flight in the tiny Cessna he’d chartered, photographer David Maisel felt his fingers grow so numb from the cold that he began to lose dexterity operating his medium-format camera."
+    },
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel’s Aerial Photos Reveal Scars on the American West – KQED Arts",
+     "author": "KQED Arts",
+     "kind": "magazine",
+     "excerpt": "The pilot had soared up to 10,000 feet, circling and banking the plane for hours at a time, and Maisel’s brain was indeed starved of oxygen."
+    }
+   ],
+   "library_source_ids": [
+    108865
+   ],
+   "answer_md": "Luftaufnahme aus einer kleinen gecharterten Cessna mit Mittelformatkamera [Q1]; der Pilot kreiste und flog stundenlang Schräglagen über dem See [Q2]. Die Flughöhe ist Gestaltungsmittel: sehr tief fliegend füllt das Muster des Bodens das ganze Bild [S108865].",
+   "checkable": [
+    "Blick von oben auf den ausgetrockneten Seeboden [Q1][S108865]",
+    "Bild randvoll mit dem Muster des Bodens – aus geringer Flughöhe [S108865]"
+   ],
+   "scope_note": "Serienmethode der Lake Project (Owens Lake, 2001–2002); die Quellen nennen dieses Bild nicht einzeln."
+  },
+  {
+   "image_id": "ia540427600",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel’s Aerial Photos Reveal Scars on the American West – KQED Arts",
+     "author": "David Maisel (im Interview mit KQED Arts)",
+     "kind": "photographer",
+     "excerpt": "It also allows for a graphic intensity to the images. When you’re removing the sky and most sense of scale from the frame, the images become abstract."
+    }
+   ],
+   "library_source_ids": [
+    379400
+   ],
+   "answer_md": "Maisel lässt den Himmel und fast jeden Größenmaßstab aus dem Bild – so werden die Aufnahmen abstrakt [Q1]. Der Horizont liegt irgendwo jenseits des Bildrands, der Betrachter verliert die Orientierung [S379400].",
+   "checkable": [
+    "Kein Himmel, kein Horizont im Bild [Q1][S379400]",
+    "Kaum ein Anhaltspunkt für Größe und Maßstab [Q1]"
+   ],
+   "scope_note": "Serienmethode der Lake Project (Owens Lake, 2001–2002); die Quellen nennen dieses Bild nicht einzeln."
+  },
+  {
+   "image_id": "i78fcf82aa5",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://radar.gsa.ac.uk/5300/1/Thomas%20Joshua%20Cooper%20PhD%20by%20Publication.pdf",
+     "title": "Thomas Joshua Cooper: The Atlas of Emptiness and Extremity – PhD by Publication (Glasgow School of Art)",
+     "author": "Thomas Joshua Cooper",
+     "kind": "photographer",
+     "excerpt": "Almost always require a horizon-less, horizontal, “interiorized” view of any visual extent that I may intend to picture."
+    }
+   ],
+   "library_source_ids": [
+    114728
+   ],
+   "answer_md": "Cooper verlangt für seine Atlas-Bilder fast immer einen horizontlosen, ‚nach innen gekehrten‘ Blick [Q1]. Ein Horizont wäre ein automatischer Ausgang für Auge und Körper; ohne ihn werden die Bilder nach innen gekehrt [S114728].",
+   "checkable": [
+    "Nur Fels, Gischt und Wasser – der Blick geht nicht bis zum Meereshorizont [Q1][S114728]"
+   ],
+   "scope_note": "Arbeitsregel Coopers für das gesamte Atlas-Projekt; S114728 stammt aus seinem Audiokommentar zu einem anderen Bild der Serie."
+  },
+  {
+   "image_id": "i3b48d06951",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://radar.gsa.ac.uk/5300/1/Thomas%20Joshua%20Cooper%20PhD%20by%20Publication.pdf",
+     "title": "Thomas Joshua Cooper: The Atlas of Emptiness and Extremity – PhD by Publication (Glasgow School of Art)",
+     "author": "Thomas Joshua Cooper",
+     "kind": "photographer",
+     "excerpt": "Almost always require a horizon-less, horizontal, “interiorized” view of any visual extent that I may intend to picture."
+    }
+   ],
+   "library_source_ids": [
+    114728
+   ],
+   "answer_md": "Cooper verlangt für seine Atlas-Bilder fast immer einen horizontlosen, ‚nach innen gekehrten‘ Blick [Q1]. Ein Horizont wäre ein automatischer Ausgang für Auge und Körper; ohne ihn werden die Bilder nach innen gekehrt [S114728].",
+   "checkable": [
+    "Wasserfläche füllt das Bild bis zum oberen Rand, kein Horizont [Q1][S114728]"
+   ],
+   "scope_note": "Arbeitsregel Coopers für das gesamte Atlas-Projekt; S114728 stammt aus seinem Audiokommentar zu einem anderen Bild der Serie."
+  },
+  {
+   "image_id": "i801d6ed9bd",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://radar.gsa.ac.uk/5300/1/Thomas%20Joshua%20Cooper%20PhD%20by%20Publication.pdf",
+     "title": "Thomas Joshua Cooper: The Atlas of Emptiness and Extremity – PhD by Publication (Glasgow School of Art)",
+     "author": "Thomas Joshua Cooper",
+     "kind": "photographer",
+     "excerpt": "Almost always require a horizon-less, horizontal, “interiorized” view of any visual extent that I may intend to picture."
+    }
+   ],
+   "library_source_ids": [
+    114728
+   ],
+   "answer_md": "Cooper verlangt für seine Atlas-Bilder fast immer einen horizontlosen, ‚nach innen gekehrten‘ Blick [Q1]. Ein Horizont wäre ein automatischer Ausgang für Auge und Körper; ohne ihn werden die Bilder nach innen gekehrt [S114728].",
+   "checkable": [
+    "Wasserfall, Felswand und Fluss füllen beide Bildhälften, kein Horizont, kein Himmel [Q1][S114728]"
+   ],
+   "scope_note": "Arbeitsregel Coopers für das gesamte Atlas-Projekt; S114728 stammt aus seinem Audiokommentar zu einem anderen Bild der Serie."
+  },
+  {
+   "image_id": "i7c6b3d01d6",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.nybooks.com/online/2015/01/26/thomas-struth-style-without-style/",
+     "title": "Thomas Struth: Style Without Style – The New York Review of Books (2015)",
+     "author": "The New York Review of Books",
+     "kind": "magazine",
+     "excerpt": "Struth started taking black-and-white, strictly composed streetscapes, always from the same symmetrical perspective in the middle of a street looking down to its vanishing point, and early in the morning so the scene would be deserted."
+    },
+    {
+     "url": "https://www.nybooks.com/online/2015/01/26/thomas-struth-style-without-style/",
+     "title": "Thomas Struth: Style Without Style – The New York Review of Books (2015)",
+     "author": "The New York Review of Books",
+     "kind": "magazine",
+     "excerpt": "Rather than obeying the modernist notion of the photographer as a heroic hunter in a forest of constant flux, able to foresee and capture every “decisive moment,” Struth’s images catch the history of a place the way a reservoir catches rainwater. He just gets up early, sets up his tripod, and stands very still."
+    },
+    {
+     "url": "https://sammlung.staedelmuseum.de/en/work/broad-street-new-yorkwall-street",
+     "title": "Thomas Struth, Broad Street, New York/Wall Street – Städel Museum, Sammlung Online",
+     "author": "Städel Museum",
+     "kind": "museum",
+     "excerpt": "Soon after, he was awarded a scholarship for New York, where he concentrated on the empty streets in the early morning and recorded them in black-and-white photographs."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Kein ‚entscheidender Augenblick‘: Struth stand früh morgens auf, stellte das Stativ auf und blieb still stehen [Q2]. Er fotografierte früh am Morgen, damit die Straße menschenleer war [Q1] – in New York konzentrierte er sich auf die leeren Straßen am frühen Morgen [Q3].",
+   "checkable": [
+    "Straße fast menschenleer, nur wenige Autos [Q1][Q3]",
+    "Nichts ‚passiert‘ im Bild – keine Handlung, kein Höhepunkt [Q2]"
+   ],
+   "scope_note": "Q1/Q2 beschreiben Struths New-York-Straßenbilder von 1978 als Gruppe, Q3 die New-York-Serie (Museumstext zu einem anderen Bild)."
+  },
+  {
+   "image_id": "ifde040bf71",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/les-aiguilles-the-chamonix-needles/",
+     "title": "Les Aiguilles, The Chamonix Needles – Art Wolfe (Bildtext)",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "One of the most spectacular views in the European Alps is that across Lac Blanc to the Chamonix Needles. Lit at sunset, the white glaciers soften to pink and the stark granite spires are gilded."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Moment ist der Sonnenuntergang: Dann werden die weißen Gletscher rosa und die kahlen Granitspitzen der Chamonix-Nadeln vergoldet [Q1].",
+   "checkable": [
+    "Granitspitzen im letzten Sonnenlicht goldgelb angestrahlt [Q1]",
+    "Schnee und Gletscher warm getönt statt weiß [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i25c5de9f0f",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    599940,
+    252307
+   ],
+   "answer_md": "Für die Inherit-the-Dust-Bilder mussten die Horizontlinien des alten Tierfotos genau mit den Horizontlinien des neuen Ortes übereinstimmen [S252307]. Für Wasteland with Rhinos suchte Brandt monatelang nach Hügeln, deren Konturen genau zu den Hügeln im Nashornbild passen [S599940].",
+   "checkable": [
+    "Hügelkontur im Hintergrund des Nashorn-Panels setzt sich in der realen Landschaft dahinter fort [S599940]",
+    "Horizont im Panel und Horizont des Ortes liegen auf gleicher Höhe – Kamera entsprechend platziert [S252307]"
+   ],
+   "scope_note": "S252307 beschreibt die Methode der Serie; S599940 nennt dieses Bild ausdrücklich."
+  },
+  {
+   "image_id": "ie7d8962b6e",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    706394
+   ],
+   "answer_md": "Entscheidend war, dass die Horizontlinien im Original-Tierfoto genau mit den Horizontlinien am Aufstellungsort übereinstimmen [S706394].",
+   "checkable": [
+    "Horizont im Elefanten-Panel liegt auf derselben Höhe wie der reale Horizont der Müllhalde [S706394]"
+   ],
+   "scope_note": "Methode der Serie Inherit the Dust, in der Bibliothek diesem Bild zugeordnet."
+  },
+  {
+   "image_id": "i3b48d06951",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    368511,
+    133463
+   ],
+   "answer_md": "Cooper stand auf dem Felspunkt der zerstörten schottischen Kolonie in Panama [S133463]. Während der Aufnahme bewegte sich der herabhängende Ast – und er selbst zitterte hinter der Kamera; trotzdem lief die Aufnahme weiter [S368511].",
+   "checkable": [
+    "Der von oben ins Bild hängende Ast ist verwischt, mehrfach ‚geisterhaft‘ abgebildet [S368511]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i53481fd680",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "When I fly, I am very concentrated on composition. By moving the camera around in all directions, I try to find a good balance in the framing. I pay special attention to the corners of the frame, and when these are in harmony, I make the photograph."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Strand bewegt im Flug die Kamera in alle Richtungen, bis die Rahmung im Gleichgewicht ist; er achtet besonders auf die Bildecken und löst aus, wenn sie stimmen [Q1].",
+   "checkable": [
+    "Die vier Bildecken sind bewusst ausbalanciert – auf die Ecken achten [Q1]"
+   ],
+   "scope_note": "Strands Beschreibung seiner Arbeitsweise bei Luftaufnahmen (Serienmethode); das Bild wird nicht einzeln besprochen."
+  },
+  {
+   "image_id": "i470e289645",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "When I fly, I am very concentrated on composition. By moving the camera around in all directions, I try to find a good balance in the framing. I pay special attention to the corners of the frame, and when these are in harmony, I make the photograph."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Strand bewegt im Flug die Kamera in alle Richtungen, bis die Rahmung im Gleichgewicht ist; er achtet besonders auf die Bildecken und löst aus, wenn sie stimmen [Q1].",
+   "checkable": [
+    "Die vier Bildecken sind bewusst ausbalanciert – auf die Ecken achten [Q1]"
+   ],
+   "scope_note": "Strands Beschreibung seiner Arbeitsweise bei Luftaufnahmen (Serienmethode); das Bild wird nicht einzeln besprochen."
+  },
+  {
+   "image_id": "ibbd7ccd719",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "When I fly, I am very concentrated on composition. By moving the camera around in all directions, I try to find a good balance in the framing. I pay special attention to the corners of the frame, and when these are in harmony, I make the photograph."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Strand bewegt im Flug die Kamera in alle Richtungen, bis die Rahmung im Gleichgewicht ist; er achtet besonders auf die Bildecken und löst aus, wenn sie stimmen [Q1].",
+   "checkable": [
+    "Die vier Bildecken sind bewusst ausbalanciert – auf die Ecken achten [Q1]"
+   ],
+   "scope_note": "Strands Beschreibung seiner Arbeitsweise bei Luftaufnahmen (Serienmethode); das Bild wird nicht einzeln besprochen."
+  },
+  {
+   "image_id": "i66fa654d1a",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "When I fly, I am very concentrated on composition. By moving the camera around in all directions, I try to find a good balance in the framing. I pay special attention to the corners of the frame, and when these are in harmony, I make the photograph."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Strand bewegt im Flug die Kamera in alle Richtungen, bis die Rahmung im Gleichgewicht ist; er achtet besonders auf die Bildecken und löst aus, wenn sie stimmen [Q1].",
+   "checkable": [
+    "Die vier Bildecken sind bewusst ausbalanciert – auf die Ecken achten [Q1]"
+   ],
+   "scope_note": "Strands Beschreibung seiner Arbeitsweise bei Luftaufnahmen (Serienmethode); das Bild wird nicht einzeln besprochen."
+  }
+ ]
+}
