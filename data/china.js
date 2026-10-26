@@ -12501,6 +12501,48 @@ window.PLACES_CN = [
   "image_page": "https://www.instagram.com/yantastic/",
   "image_credit": "@yantastic · Instagram",
   "when": "day"
+ },
+ {
+  "id": "cn-chongqing-socialist-academy-la-la-land-treppen",
+  "region": "cn",
+  "name": "Chongqing Socialist Academy – „La La Land“-Treppen 重庆社会主义学院",
+  "district": "Longmenhao, Nan'an, Chongqing",
+  "category": "Aussicht",
+  "note": "Geschwungene, gestufte Aussichtsterrasse mit warm-gelben Laternen über dem Jangtse, gegenüber die beleuchtete Yuzhong-Skyline (World Financial Center, Jiefangbei-Türme). Wegen der Stimmung „La La Land Night View“ genannt – Treppenlinien als Vordergrund für Silhouetten/Porträts vor der Skyline. Beste Zeit laut Post 20:00–21:30. Lage: Gelände der Sozialistischen Akademie 重庆社会主义学院, Tushan Road 涂山路, direkt am Südende der Dongshuimen-Brücke; Metro Shangxinjie 上新街 (Linie 6) ca. 3 Min. 24–70 für Personen vor der Skyline, 70–200 für Türme; Stativ an der Brüstung.",
+  "address": "Longmenhao, Nan'an, Chongqing",
+  "lat": 29.5581,
+  "lng": 106.5919,
+  "approx": true,
+  "image": "images/cq_socialist_academy_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/china.youth_/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/china.youth_/",
+    "kind": "photo",
+    "image": "images/cq_socialist_academy_1.jpg",
+    "caption": "",
+    "credit": "@china.youth_ · China Compass · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/china.youth_/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/china.youth_/",
+    "kind": "photo",
+    "image": "images/cq_socialist_academy_2.jpg",
+    "caption": "",
+    "credit": "@china.youth_ · China Compass · Instagram"
+   }
+  ],
+  "source": "Instagram @china.youth_ (China Compass, „Chongqing's best viral + under-the-radar photo spots“, Bild 5/11)",
+  "unsure": "Pin = Akademie-Gelände laut OpenStreetMap; die Terrasse liegt am Hang zum Fluss hin – genauer Zugang vor Ort (Hochschulgelände, abends offenbar zugänglich, nicht bestätigt).",
+  "image_page": "https://www.instagram.com/china.youth_/",
+  "image_credit": "@china.youth_ · China Compass · Instagram",
+  "when": "day"
  }
 ];
 window.UNPLACED_CN = [
