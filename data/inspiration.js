@@ -749,7 +749,23 @@ window.INSPIRATION = {
    ]
   }
  ],
- "cn": [],
+ "cn": [
+  {
+   "code": "DMFZgFQIIEm",
+   "user": "throughlucaslens",
+   "url": "https://www.instagram.com/p/DMFZgFQIIEm/",
+   "caption": "Chongqing Chronicles\n\n#chongqing #symmetry #architecture #photography",
+   "images": [
+    "images/insp/DMFZgFQIIEm_1.jpg",
+    "images/insp/DMFZgFQIIEm_2.jpg",
+    "images/insp/DMFZgFQIIEm_3.jpg",
+    "images/insp/DMFZgFQIIEm_4.jpg",
+    "images/insp/DMFZgFQIIEm_5.jpg",
+    "images/insp/DMFZgFQIIEm_6.jpg",
+    "images/insp/DMFZgFQIIEm_7.jpg"
+   ]
+  }
+ ],
  "sh": [
   {
    "code": "DeIm-vXAfTH",
