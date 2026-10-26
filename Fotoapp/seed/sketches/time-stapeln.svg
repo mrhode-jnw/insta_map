@@ -22,6 +22,6 @@
   <text x="195" y="143" class="h">Tag-Nacht-Blende</text>
   <rect x="200" y="152" width="135" height="50" class="m"/>
   <path d="M200 202 L335 152 L335 202 Z" class="mf" stroke="none"/>
-  <circle cx="226" cy="166" r="6"/><path d="M300 170 l3 -6 l3 6" class="af" stroke="none"/>
+  <path d="M228 159 a7 7 0 1 0 6 11 a6 6 0 0 1 -6 -11 z"/><circle cx="246" cy="162" r="0.8" class="mf" stroke="none"/><circle cx="214" cy="176" r="0.8" class="mf" stroke="none"/><circle cx="316" cy="183" r="6" class="af" stroke="none"/>
   <text x="268" y="222" text-anchor="middle" class="m">Stunden in einem Bild</text>
 </svg>

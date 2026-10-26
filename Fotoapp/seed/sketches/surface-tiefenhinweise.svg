@@ -2,7 +2,7 @@
   <text x="180" y="14" text-anchor="middle" class="h">Tiefenhinweis → so schaltest du ihn ab</text>
   <!-- row 1 -->
   <rect x="10" y="24" width="110" height="64" class="m"/>
-  <path d="M30 62 l14 -24 l14 24 z" class="f"/><path d="M48 62 l18 -30 l18 30 z"/>
+  <path d="M53.1 53.6 L44 38 L30 62" class="m"/><path d="M48 62 l18 -30 l18 30 z" class="f"/><path d="M48 62 l18 -30 l18 30 z"/>
   <text x="65" y="84" text-anchor="middle" class="m">Überdeckung</text>
   <rect x="125" y="24" width="110" height="64" class="m"/>
   <path d="M140 66 v-30 M166 60 v-20 M186 56 v-12 M200 53 v-7 M210 51 v-4"/>

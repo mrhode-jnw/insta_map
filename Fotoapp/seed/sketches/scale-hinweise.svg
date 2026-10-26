@@ -27,7 +27,7 @@
   <path d="M188 108 L210 88 L232 104 L250 92 L262 100" stroke-width="2"/>
   <!-- 4 overlap -->
   <rect x="278" y="28" width="74" height="96"/>
-  <rect x="300" y="52" width="38" height="40" class="m"/>
+  <path d="M300 72 V52 H338 V92 H322" class="m"/>
   <rect x="288" y="72" width="34" height="40" class="f" stroke="none"/>
   <rect x="288" y="72" width="34" height="40"/>
   <!-- captions -->

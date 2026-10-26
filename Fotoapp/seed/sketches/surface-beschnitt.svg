@@ -1,13 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <text x="90" y="16" text-anchor="middle" class="h">Ecken sichtbar</text>
+  <text x="90" y="16" text-anchor="middle" class="h">Ganzer Block</text>
   <text x="270" y="16" text-anchor="middle" class="h">Ränder beschnitten</text>
-  <!-- left: whole block with receding ends -->
+  <!-- left: whole block, camera left of its left end: front face parallel to the sensor (no convergence), left end face recedes -->
   <rect x="15" y="28" width="150" height="100"/>
-  <path d="M40 50 L140 50 L150 58 L150 108 L140 112 L40 112 L30 108 L30 58 Z" class="m"/>
-  <path d="M40 50 v62 M140 50 v62"/>
-  <g class="m"><path d="M48 62 h84 M48 74 h84 M48 86 h84 M48 98 h84"/></g>
-  <path d="M30 58 L40 50 M150 58 L140 50" class="a"/>
-  <path d="M30 108 L40 112 M150 108 L140 112" class="a"/>
+  <path d="M48 50 H148 V112 H48 Z" class="f" stroke="none"/>
+  <path d="M48 50 H148 V112 H48 Z"/>
+  <g class="m"><path d="M56 62 h84 M56 74 h84 M56 86 h84 M56 98 h84"/></g>
+  <path d="M48 50 L34 58 V106 L48 112" class="a"/>
   <!-- right: cropped, only grid -->
   <rect x="195" y="28" width="150" height="100"/>
   <rect x="195" y="44" width="150" height="72" class="f" stroke="none"/>

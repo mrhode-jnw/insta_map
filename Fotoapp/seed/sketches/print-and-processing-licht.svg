@@ -10,7 +10,7 @@
   <circle cx="300" cy="22" r="7" class="a"/>
   <path d="M294 30 L262 58 M300 30 L282 58" class="a" stroke-dasharray="3 3"/>
   <rect x="230" y="60" width="90" height="26" class="f"/>
-  <path d="M262 58 L240 40 M282 58 L262 36" class="m" stroke-dasharray="3 3"/>
+  <path d="M262 58 L239 36 M282 58 L271 36" class="m" stroke-dasharray="3 3"/>
   <text x="275" y="112" text-anchor="middle" class="h">Papier</text>
   <text x="275" y="126" text-anchor="middle" class="m">wirft Licht zurück</text>
   <!-- tonal range -->

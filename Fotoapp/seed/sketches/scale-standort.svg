@@ -2,20 +2,21 @@
   <text x="90" y="16" text-anchor="middle" class="h">Nah + Weitwinkel</text>
   <text x="270" y="16" text-anchor="middle" class="h">Weit weg + Tele</text>
   <line x1="180" y1="26" x2="180" y2="236" class="m" stroke-dasharray="2 4"/>
-  <!-- left side view -->
-  <line x1="8" y1="100" x2="172" y2="100" class="m"/>
-  <rect x="10" y="88" width="10" height="7" class="af" stroke="none"/>
-  <line x1="38" y1="100" x2="38" y2="82"/><circle cx="38" cy="79" r="3"/>
-  <path d="M128 100 L150 52 L172 100" class="m"/>
-  <line x1="20" y1="91" x2="38" y2="76" class="a" stroke-dasharray="3 3"/>
-  <line x1="20" y1="91" x2="150" y2="52" class="a" stroke-dasharray="3 3"/>
-  <!-- right side view -->
-  <line x1="188" y1="100" x2="352" y2="100" class="m"/>
+  <!-- side views: same figure, same mountain (distance shortened, break marks); only the camera moves -->
+  <line x1="8" y1="100" x2="90" y2="100" class="m"/><line x1="100" y1="100" x2="172" y2="100" class="m"/>
+  <path d="M87 105 L93 95 M97 105 L103 95" class="m"/>
+  <rect x="50" y="88" width="10" height="7" class="af" stroke="none"/>
+  <line x1="70" y1="100" x2="70" y2="82"/><circle cx="70" cy="79" r="3"/>
+  <path d="M124 100 L148 48 L172 100" class="m"/>
+  <line x1="60" y1="91" x2="70" y2="76" class="a" stroke-dasharray="3 3"/>
+  <line x1="60" y1="91" x2="148" y2="48" class="a" stroke-dasharray="3 3"/>
+  <line x1="188" y1="100" x2="270" y2="100" class="m"/><line x1="280" y1="100" x2="352" y2="100" class="m"/>
+  <path d="M267 105 L273 95 M277 105 L283 95" class="m"/>
   <rect x="190" y="88" width="10" height="7" class="af" stroke="none"/>
-  <line x1="290" y1="100" x2="290" y2="82"/><circle cx="290" cy="79" r="3"/>
-  <path d="M308 100 L330 52 L352 100" class="m"/>
-  <line x1="200" y1="91" x2="290" y2="76" class="a" stroke-dasharray="3 3"/>
-  <line x1="200" y1="91" x2="330" y2="52" class="a" stroke-dasharray="3 3"/>
+  <line x1="250" y1="100" x2="250" y2="82"/><circle cx="250" cy="79" r="3"/>
+  <path d="M304 100 L328 48 L352 100" class="m"/>
+  <line x1="200" y1="91" x2="250" y2="76" class="a" stroke-dasharray="3 3"/>
+  <line x1="200" y1="91" x2="328" y2="48" class="a" stroke-dasharray="3 3"/>
   <text x="90" y="118" text-anchor="middle" class="m">Kamera dicht an der Figur</text>
   <text x="270" y="118" text-anchor="middle" class="m">weit zurückgetreten</text>
   <!-- resulting frames -->
