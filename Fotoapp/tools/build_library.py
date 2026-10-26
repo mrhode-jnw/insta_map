@@ -230,7 +230,7 @@ class Library:
         accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
         n = 0
         for r in data.get("references", []):
-            img, dim = r.get("image_id"), r.get("dimension")
+            img, dim = r.get("image_id") or self.by_url.get(r.get("image_url", "")), r.get("dimension")  # new images: by image_url
             if img not in self.images or not dim:
                 print(f"  ! Referenz übersprungen: {img} {dim}", file=sys.stderr)
                 continue
