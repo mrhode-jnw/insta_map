@@ -28,31 +28,35 @@
    "sections": [
     {
      "heading": "Drei Ursachen von Unschärfe – und wie man sie unterscheidet",
-     "body_md": "::kurz Weich ist nicht gleich weich: Optik, Bewegung und Dunst hinterlassen verschiedene Spuren – und jede bedeutet etwas anderes.\n::skizze focus-ursachen | Drei Ursachen, drei Muster. Unten Waites Wald: vorn und hinten scharf, nur die Mitte weich – das kann keine Optik sein.\n- **Optische Unschärfe:** Ein Punkt liegt vor oder hinter der Schärfeebene. Sie wächst stetig mit dem Abstand zu dieser Ebene, ist richtungslos (Lichtpunkte werden Scheiben) und trifft Bewegtes wie Unbewegtes.\n- **Bewegungsunschärfe:** Kanten ziehen sich in Bewegungsrichtung aus, quer dazu bleiben sie definiert. Sie trifft nur, was sich bewegt hat – oder alles gleichmäßig, wenn die Kamera wackelte.\n- **Atmosphärische Weichheit** (Dunst, Smog, Hitzeflimmern, Nebel): senkt vor allem den Kontrast und nimmt mit der Entfernung zu; Formen bleiben erkennbar, werden aber heller und flacher (Lektion Atmosphäre).\n\nCharlie Waite fiel an einem Waldbild auf, dass die Mitte leicht weich war, Vorder- und Hintergrund aber scharf – Ursache war ein Windstoß, der nur die mittlere Zone traf [S521208].\n::bild i4e1ca0fad9 | Waite, Dorset: helle Pappelstämme frontal, ohne Tiefenflucht. Die Rinde vorn ist klar, die feinen Zweige in der Mitte sind weicher.\n::schau Suche die weichste Zone im Bild: Liegt sie dort, wo Optik sie erzeugen könnte – oder dort, wo Wind durchging?"
+     "body_md": "::kurz Weich ist nicht gleich weich: Optik, Bewegung und Dunst hinterlassen verschiedene Spuren – und jede bedeutet etwas anderes.\n::skizze focus-ursachen | Drei Ursachen, drei Muster. Unten Waites Wald: vorn und hinten scharf, nur die Mitte weich – das kann keine Optik sein.\n- **Bewegungsunschärfe:** Kanten ziehen sich in Bewegungsrichtung aus, quer dazu bleiben sie definiert. Sie trifft nur, was sich bewegt hat – oder alles gleichmäßig, wenn die Kamera wackelte.\nCharlie Waite fiel an einem Waldbild auf, dass die Mitte leicht weich war, Vorder- und Hintergrund aber scharf – Ursache war ein Windstoß, der nur die mittlere Zone traf [S521208].\n::vertiefung\n- **Optische Unschärfe:** Ein Punkt liegt vor oder hinter der Schärfeebene. Sie wächst stetig mit dem Abstand zu dieser Ebene, ist richtungslos (Lichtpunkte werden Scheiben) und trifft Bewegtes wie Unbewegtes.\n- **Atmosphärische Weichheit** (Dunst, Smog, Hitzeflimmern, Nebel): senkt vor allem den Kontrast und nimmt mit der Entfernung zu; Formen bleiben erkennbar, werden aber heller und flacher (Lektion Atmosphäre).\n\n::bild i4e1ca0fad9 | Waite, Dorset: helle Pappelstämme frontal, ohne Tiefenflucht. Die Rinde vorn ist klar, die feinen Zweige in der Mitte sind weicher.\n::schau Suche die weichste Zone im Bild: Liegt sie dort, wo Optik sie erzeugen könnte – oder dort, wo Wind durchging?"
     },
     {
      "heading": "Die Schärfeebene als Aussage",
-     "body_md": "::kurz Die Schärfeebene ist ein Ort der Aufmerksamkeit: Was auf ihr liegt, wird betont, alles davor und dahinter tritt zurück.\n::skizze focus-schaerfeebene | Oben: Nur was in der scharfen Zone steht, bekommt volle Kontur. Unten: Bei gleicher Motivgröße zeigt das Tele einen kleineren, stärker vergrößerten Hintergrund – er wirkt weicher und ruhiger.\nBei einem unverstellten Objektiv ist die Schärfeebene eine Fläche parallel zum Sensor. Die Schärfe stellt damit eine **Rangordnung** auf, noch bevor Licht oder Farbe gewichten.\n\nDie Schärfentiefe hängt von Blende, Abstand und Brennweite ab. Bei gleichem Abbildungsmaßstab des Hauptmotivs und gleicher Blende ist sie um das Motiv herum nahezu gleich, ob Weitwinkel oder Tele.\n::merke Wer den Hintergrund „weg“ haben will, wechselt Abstand und Brennweite – nicht nur die Blende.\nUta Barth hat die Logik umgedreht: Ihre angeblich unscharfen Bilder seien vollkommen scharf, nur auf eine Ebene im Raum, die niemand besetzt [Q1]. Die Schärfeebene lässt sich also auch leer lassen.\n::bild i72e4270cae | McCurry, Pokhara: Die Frau mit dem Korb steht in der Schärfe, Reisfeld und Bäume dahinter werden nach hinten weicher und blasser – Schärfe und feuchte Luft ordnen gemeinsam."
+     "body_md": "::kurz Die Schärfeebene ist ein Ort der Aufmerksamkeit: Was auf ihr liegt, wird betont, alles davor und dahinter tritt zurück.\n::skizze focus-schaerfeebene | Oben: Nur was in der scharfen Zone steht, bekommt volle Kontur. Unten: Bei gleicher Motivgröße zeigt das Tele einen kleineren, stärker vergrößerten Hintergrund – er wirkt weicher und ruhiger.\nBei einem unverstellten Objektiv ist die Schärfeebene eine Fläche parallel zum Sensor. Die Schärfe stellt damit eine **Rangordnung** auf, noch bevor Licht oder Farbe gewichten.\n::merke Wer den Hintergrund „weg“ haben will, wechselt Abstand und Brennweite – nicht nur die Blende.\nUta Barth hat die Logik umgedreht: Ihre angeblich unscharfen Bilder seien vollkommen scharf, nur auf eine Ebene im Raum, die niemand besetzt [Q1]. Die Schärfeebene lässt sich also auch leer lassen.\n::vertiefung\nDie Schärfentiefe hängt von Blende, Abstand und Brennweite ab. Bei gleichem Abbildungsmaßstab des Hauptmotivs und gleicher Blende ist sie um das Motiv herum nahezu gleich, ob Weitwinkel oder Tele.\n::bild i72e4270cae | McCurry, Pokhara: Die Frau mit dem Korb steht in der Schärfe, Reisfeld und Bäume dahinter werden nach hinten weicher und blasser – Schärfe und feuchte Luft ordnen gemeinsam."
     },
     {
      "heading": "Durchgehende Schärfe: f/64 und die Demokratie der Details",
-     "body_md": "::kurz Durchgehende Schärfe verweigert eine Hierarchie – jedes Detail bekommt dasselbe Recht.\nDie Gruppe f/64 benannte sich nach der kleinen Großformatblende, die maximale Schärfentiefe vom nächsten Vordergrund bis in den Hintergrund liefert [S570187]; sie verstand sich als Gegenposition zum Piktorialismus mit seinen weichgezeichneten Abzügen [S834571]. Die Tate beschreibt diese „straight“-Ästhetik als kristallklare, dicht detaillierte Abzüge mit tiefer Schärfe [S274483]; auch die New Topographics bevorzugten große Schärfentiefe und dichte Details [S175906].\n\n- Bei Thomas Struth bekommen laut Tate die Fenster oben an den Hochhäusern so viel Gewicht und Schärfe wie Autos und Geländer am Boden [S558003].\n- Artforum schreibt Ghirris Bildern eine „unergründliche“ Schärfentiefe zu, in der jeder Glanz und Kratzer erhalten bleibt [S517019].\n- Joel Meyerowitz arbeitete in Cape Cod bei Tag mit f/90 [S764243] und schwärmte, die Großformatkamera beschreibe alles so scharf, dass man ins Bild steigen könne [S241758].\n::vergleich i6529d88033 i79018cc562 | Ghirri, Engelberg: Plakat-Alpen, Schrift, Flasche und das Paar davor – alles gleich scharf, das Bild im Bild wird so wirklich wie die Straße. | Meyerowitz, Hartwig House: Der Flur ist von der Türklinke vorn bis zum Fenster hinten scharf – man kann hineingehen.\n::merke Wer alles scharf zeigt, muss die Hierarchie mit Standpunkt, Licht und Rahmen bauen – sonst entsteht ein Bild ohne Mitte.\nBei Struth und Shore ist diese fehlende Mitte das Programm; bei einem Reisebild ohne Haltung ist sie ein Mangel."
+     "body_md": "::kurz Durchgehende Schärfe verweigert eine Hierarchie – jedes Detail bekommt dasselbe Recht.\nDie Gruppe f/64 benannte sich nach der kleinen Großformatblende, die maximale Schärfentiefe vom nächsten Vordergrund bis in den Hintergrund liefert [S570187]; sie verstand sich als Gegenposition zum Piktorialismus mit seinen weichgezeichneten Abzügen [S834571]. Die Tate beschreibt diese „straight“-Ästhetik als kristallklare, dicht detaillierte Abzüge mit tiefer Schärfe [S274483]; auch die New Topographics bevorzugten große Schärfentiefe und dichte Details [S175906].\n\n- Bei Thomas Struth bekommen laut Tate die Fenster oben an den Hochhäusern so viel Gewicht und Schärfe wie Autos und Geländer am Boden [S558003].\n- Artforum schreibt Ghirris Bildern eine „unergründliche“ Schärfentiefe zu, in der jeder Glanz und Kratzer erhalten bleibt [S517019].\n- Joel Meyerowitz arbeitete in Cape Cod bei Tag mit f/90 [S764243] und schwärmte, die Großformatkamera beschreibe alles so scharf, dass man ins Bild steigen könne [S241758].\n::vergleich i6529d88033 i79018cc562 | Ghirri, Engelberg: Plakat-Alpen, Schrift, Flasche und das Paar davor – alles gleich scharf, das Bild im Bild wird so wirklich wie die Straße. | Meyerowitz, Hartwig House: Der Flur ist von der Türklinke vorn bis zum Fenster hinten scharf – man kann hineingehen.\n::merke Wer alles scharf zeigt, muss die Hierarchie mit Standpunkt, Licht und Rahmen bauen – sonst entsteht ein Bild ohne Mitte.\nBei Struth und Shore ist diese fehlende Mitte das Programm; bei einem Reisebild ohne Haltung ist sie ein Mangel.",
+     "deep": true
     },
     {
      "heading": "Selektive Schärfe: Hierarchie, Nähe – und ein Klischee",
-     "body_md": "::kurz Geringe Schärfentiefe schafft Nähe und Ordnung – aber auf Reisen löscht sie leicht den Ort.\nGeringe Schärfentiefe trennt Figur und Grund, beruhigt chaotische Umgebung und erzeugt Nähe: So sieht man aus kurzer Distanz einen Menschen, der die ganze Aufmerksamkeit hat. Sie kann auch Zweifel ausdrücken – was ist da hinten, warum dürfen wir es nicht sehen?\n::skizze focus-reiseportraet | Das Klischee links: weiche Farbkreise statt Ort. Rechts bleibt die Person erste Ebene, die Umgebung erzählt mit.\n**Klischee-Gegenbeispiel:** das Reiseporträt bei Offenblende vor weichen Farbkreisen. Technisch leicht, sieht „professionell“ aus – und löscht genau die Information der Reisefotografie: den Ort. Erzählt der Hintergrund etwas über die Person (Werkstatt, Markt, Reisfeld), ist mittlere Schärfentiefe die mutigere Entscheidung.\n::bild i7420e4bdb4 | McCurry, Java: Das Mädchen am Zaun ist scharf, Haus, Fenster und Vogelkäfig dahinter bleiben lesbar – der Ort gehört zum Porträt.\n::merke Unschärfe ist berechtigt, wenn das Unscharfe als Form noch etwas beiträgt (Farbfläche, Lichtrichtung, Andeutung) – nicht, wenn sie verdecken soll, dass der Hintergrund nicht bewältigt wurde."
+     "body_md": "::kurz Geringe Schärfentiefe schafft Nähe und Ordnung – aber auf Reisen löscht sie leicht den Ort.\n::skizze focus-reiseportraet | Das Klischee links: weiche Farbkreise statt Ort. Rechts bleibt die Person erste Ebene, die Umgebung erzählt mit.\n**Klischee-Gegenbeispiel:** das Reiseporträt bei Offenblende vor weichen Farbkreisen. Technisch leicht, sieht „professionell“ aus – und löscht genau die Information der Reisefotografie: den Ort. Erzählt der Hintergrund etwas über die Person (Werkstatt, Markt, Reisfeld), ist mittlere Schärfentiefe die mutigere Entscheidung.\n::merke Unschärfe ist berechtigt, wenn das Unscharfe als Form noch etwas beiträgt (Farbfläche, Lichtrichtung, Andeutung) – nicht, wenn sie verdecken soll, dass der Hintergrund nicht bewältigt wurde.\n::vertiefung\nGeringe Schärfentiefe trennt Figur und Grund, beruhigt chaotische Umgebung und erzeugt Nähe: So sieht man aus kurzer Distanz einen Menschen, der die ganze Aufmerksamkeit hat. Sie kann auch Zweifel ausdrücken – was ist da hinten, warum dürfen wir es nicht sehen?\n::bild i7420e4bdb4 | McCurry, Java: Das Mädchen am Zaun ist scharf, Haus, Fenster und Vogelkäfig dahinter bleiben lesbar – der Ort gehört zum Porträt."
     },
     {
      "heading": "Schärfe herstellen: Verstellung, Stacking, Hyperfokaldistanz",
-     "body_md": "::kurz Schärfe lässt sich verteilen: Tilt legt die Ebene schräg, Stacking addiert, die Hyperfokaldistanz holt das Maximum aus einer Blende.\n**Verstellung (Tilt):** Kippt man Objektiv- oder Bildebene gegeneinander, liegt die Schärfeebene schräg im Raum.\n::skizze focus-tilt | Oben die Seitenansicht (Kamera links, Schärfeebene gold), unten das Bild: Mit Tilt liegt die Ebene auf dem Boden und alles ist scharf; mit Gegen-Tilt bleibt nur ein Streifen.\nChristopher Burkett beschreibt, wie er die Schärfeebene per Rückteil-Tilt parallel zur Wasserfläche legte und auf f/45 abblendete, um alles scharf zu haben [S510886]; für „Forest Light“ nennt er f/64 und eine halbe Sekunde [S296202].\n::vergleich i4a55592e19 i7004b09619 | Daybreak: Die Steine sind vom unteren Rand bis weit oben gleich scharf – die Schärfeebene liegt auf dem Wasser. | Forest Light: Stämme und Laub vorn wie hinten scharf, f/64 lässt keine weiche Zone.\n**Fokus-Stacking:** Mehrere Aufnahmen mit verschobener Schärfe werden verrechnet. Das Ergebnis kann schärfer sein, als ein Auge die Szene je sieht – das Bild behauptet eine Übersicht, die es vor Ort nicht gab. Bewegtes (Gras, Wasser, Menschen) erzeugt leicht Fehler.\n\n**Hyperfokaldistanz und Beugung:**\n::skizze focus-hyperfokal | Fokus auf H: Die Schärfe reicht von etwa H/2 bis unendlich. Kleinere Blenden vergrößern die Zone, kosten aber durch Beugung Detail.\nSehr kleine Blenden kosten Auflösung, besonders bei kleinen Sensoren: Bei Großformat ist f/64 üblich, bei Kleinbild-Digital wird das Bild auf f/22 schon sichtbar weicher. Schärfe überall ist immer ein Kompromiss mit der Schärfe im Detail."
+     "body_md": "::kurz Schärfe lässt sich verteilen: Tilt legt die Ebene schräg, Stacking addiert, die Hyperfokaldistanz holt das Maximum aus einer Blende.\n**Verstellung (Tilt):** Kippt man Objektiv- oder Bildebene gegeneinander, liegt die Schärfeebene schräg im Raum.\n::skizze focus-tilt | Oben die Seitenansicht (Kamera links, Schärfeebene gold), unten das Bild: Mit Tilt liegt die Ebene auf dem Boden und alles ist scharf; mit Gegen-Tilt bleibt nur ein Streifen.\nChristopher Burkett beschreibt, wie er die Schärfeebene per Rückteil-Tilt parallel zur Wasserfläche legte und auf f/45 abblendete, um alles scharf zu haben [S510886]; für „Forest Light“ nennt er f/64 und eine halbe Sekunde [S296202].\n::vergleich i4a55592e19 i7004b09619 | Daybreak: Die Steine sind vom unteren Rand bis weit oben gleich scharf – die Schärfeebene liegt auf dem Wasser. | Forest Light: Stämme und Laub vorn wie hinten scharf, f/64 lässt keine weiche Zone.\n**Fokus-Stacking:** Mehrere Aufnahmen mit verschobener Schärfe werden verrechnet. Das Ergebnis kann schärfer sein, als ein Auge die Szene je sieht – das Bild behauptet eine Übersicht, die es vor Ort nicht gab. Bewegtes (Gras, Wasser, Menschen) erzeugt leicht Fehler.\n\n**Hyperfokaldistanz und Beugung:**\n::skizze focus-hyperfokal | Fokus auf H: Die Schärfe reicht von etwa H/2 bis unendlich. Kleinere Blenden vergrößern die Zone, kosten aber durch Beugung Detail.\nSehr kleine Blenden kosten Auflösung, besonders bei kleinen Sensoren: Bei Großformat ist f/64 üblich, bei Kleinbild-Digital wird das Bild auf f/22 schon sichtbar weicher. Schärfe überall ist immer ein Kompromiss mit der Schärfe im Detail.",
+     "deep": true
     },
     {
      "heading": "Wie Schärfe gelesen wird: Aufmerksamkeit und Refokussieren",
-     "body_md": "::kurz Schärfe wirkt auch durch die Art, wie der Blick durchs Bild wandert.\nShore beschreibt eine Erfahrung jenseits der Optik: Bei einem Bild mit tiefem Raum habe er beim Wandern vom Mann im Vordergrund zum Gebäude dahinter kein Gefühl, nachzufokussieren; bei einem Bild von Frederick Sommer, dessen Raum nur wenige Fuß tief ist, dagegen ein starkes [Q2]. Eye fasst zusammen, Shore beschreibe, wie das Auge beim Wandern durch ein Bild scheinbar die Schärfe verstellt [Q3].\n::vergleich i57c4b1a1c7 i61dd87f89e | Struth, Venedig: tiefer, durchgehend scharfer Raum – die Gasse wird als Ganzes erfasst. | Porter, Foxtail Grass: ein flacher, dicht verwobener Nahraum aus Grannen – das Auge tastet ab und springt zwischen den Halmen.\n::schau Lass den Blick in beiden Bildern von vorn nach hinten wandern: Wo hast du das Gefühl, nachstellen zu müssen?\nMeine Einschätzung: Für eigene Bilder ist die Frage nicht „Ist es scharf?“, sondern „Wohin wandert der Blick, und wo darf er ankommen?“"
+     "body_md": "::kurz Schärfe wirkt auch durch die Art, wie der Blick durchs Bild wandert.\nShore beschreibt eine Erfahrung jenseits der Optik: Bei einem Bild mit tiefem Raum habe er beim Wandern vom Mann im Vordergrund zum Gebäude dahinter kein Gefühl, nachzufokussieren; bei einem Bild von Frederick Sommer, dessen Raum nur wenige Fuß tief ist, dagegen ein starkes [Q2]. Eye fasst zusammen, Shore beschreibe, wie das Auge beim Wandern durch ein Bild scheinbar die Schärfe verstellt [Q3].\n::vergleich i57c4b1a1c7 i61dd87f89e | Struth, Venedig: tiefer, durchgehend scharfer Raum – die Gasse wird als Ganzes erfasst. | Porter, Foxtail Grass: ein flacher, dicht verwobener Nahraum aus Grannen – das Auge tastet ab und springt zwischen den Halmen.\n::schau Lass den Blick in beiden Bildern von vorn nach hinten wandern: Wo hast du das Gefühl, nachstellen zu müssen?\nMeine Einschätzung: Für eigene Bilder ist die Frage nicht „Ist es scharf?“, sondern „Wohin wandert der Blick, und wo darf er ankommen?“",
+     "deep": true
     },
     {
      "heading": "Gegenlesart und Grenzen der Bildschirmkopie",
-     "body_md": "::kurz Unschärfe kann die eigentliche Information tragen – und am Handy ist Schärfe kaum zu beurteilen.\n**Gegenlesart:** Laut The New Republic gibt eine leichte Überbelichtung Zhang Kechuns Bildern vom Gelben Fluss Weichheit und lässt die Landschaft entrückt wirken [S822648]. Ein Kritiker der f/64-Tradition könnte sagen: Durchgehende Schärfe behauptet eine Kontrolle über die Welt, die Unschärfe ehrlicher verweigert. Entscheidend ist, ob die Lesart zum Gegenstand passt.\n::vergleich iaa1ad6ed22 iab672bcbbe | Zhang Kechun: Die Ruine hat scharfe Kanten, die Ferne ist nicht verschwommen, sondern kontrastarm – Weichheit durch Licht und Luft. | Kawauchi: Ein weiches Band trennt Gras und Tal; ob Rauch, Flimmern oder etwas vor dem Objektiv, bleibt offen.\n**Bildschirmkopie:** Auf dem Handy wirkt fast jedes Bild scharf. Ob die Schärfentiefe reicht, ob Beugung oder Verwacklung das Detail auflöst, zeigt erst die Vergrößerung oder der Abzug – Urteile an einer kleinen JPEG-Kopie bleiben Schätzungen."
+     "body_md": "::kurz Unschärfe kann die eigentliche Information tragen – und am Handy ist Schärfe kaum zu beurteilen.\n**Gegenlesart:** Laut The New Republic gibt eine leichte Überbelichtung Zhang Kechuns Bildern vom Gelben Fluss Weichheit und lässt die Landschaft entrückt wirken [S822648]. Ein Kritiker der f/64-Tradition könnte sagen: Durchgehende Schärfe behauptet eine Kontrolle über die Welt, die Unschärfe ehrlicher verweigert. Entscheidend ist, ob die Lesart zum Gegenstand passt.\n::vergleich iaa1ad6ed22 iab672bcbbe | Zhang Kechun: Die Ruine hat scharfe Kanten, die Ferne ist nicht verschwommen, sondern kontrastarm – Weichheit durch Licht und Luft. | Kawauchi: Ein weiches Band trennt Gras und Tal; ob Rauch, Flimmern oder etwas vor dem Objektiv, bleibt offen.\n**Bildschirmkopie:** Auf dem Handy wirkt fast jedes Bild scharf. Ob die Schärfentiefe reicht, ob Beugung oder Verwacklung das Detail auflöst, zeigt erst die Vergrößerung oder der Abzug – Urteile an einer kleinen JPEG-Kopie bleiben Schätzungen.",
+     "deep": true
     }
    ],
    "examples": [
@@ -63,7 +67,8 @@
       "Fensterraster oben so deutlich wie die Autos unten",
       "keine weiche Zone im ganzen Bild",
       "Hierarchie entsteht nur durch Helligkeit der Fassaden"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i4a55592e19",
@@ -72,7 +77,8 @@
       "Steine vorn und hinten gleich scharf",
       "Schärfeebene liegt auf dem Wasser, nicht quer zu ihm",
       "weiche Spiegelungen gegen harte Steinkanten"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i4e1ca0fad9",
@@ -81,7 +87,8 @@
       "Stämme vorn mit klarer Rinde",
       "feine Zweige in der Mitte weicher",
       "kein Schärfeverlauf von vorn nach hinten"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "iaa1ad6ed22",
@@ -90,7 +97,8 @@
       "scharfe Kanten an der Ruine",
       "Ferne ohne Kontrast, aber nicht verschwommen",
       "Horizont fast verschwunden"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "iab672bcbbe",
@@ -99,7 +107,8 @@
       "verwischte Halme: Bewegung",
       "weiches Band in der Bildmitte: Ursache offen",
       "Tal und Bergrand dahinter wieder klarer"
-     ]
+     ],
+     "deep": true
     }
    ],
    "takeaways": [
@@ -127,7 +136,8 @@
       "Gegen die Retusche von Negativen in der Werbung"
      ],
      "correct": 0,
-     "explanation": "Die Gruppe benannte sich nach der Blende, die maximale Schärfentiefe liefert [S570187], und trat als Herausforderung an den Piktorialismus mit seinen weichgezeichneten, handbearbeiteten Abzügen auf [S834571]."
+     "explanation": "Die Gruppe benannte sich nach der Blende, die maximale Schärfentiefe liefert [S570187], und trat als Herausforderung an den Piktorialismus mit seinen weichgezeichneten, handbearbeiteten Abzügen auf [S834571].",
+     "deep": true
     },
     {
      "question": "Waite fand in diesem Bild die Mitte leicht weich, Vorder- und Hintergrund aber scharf. Was war die Ursache?",
@@ -238,31 +248,34 @@
    "sections": [
     {
      "heading": "Das Bild als Kräftefeld",
-     "body_md": "::kurz Schon der leere Rahmen hat eine Struktur, und jedes Element wird von ihr gezogen oder gestoßen.\nArnheim beginnt mit einem schwarzen Kreis in einem Quadrat: Sitzt er außerhalb der Mitte, wirkt er unruhig; seine Beziehung zu den Rändern ist ein Spiel aus Anziehung und Abstoßung [Q3].\n::skizze order-kraeftefeld | Mitte, Achsen, Diagonalen und Ränder bilden ein unsichtbares Gerüst. Ein Kreis in der Mitte ruht, ein versetzter wird hin- und hergezogen.\nSzarkowski beschrieb den entscheidenden Augenblick in genau diesen Begriffen: entscheidend nicht wegen des Ereignisses, sondern weil der Fluss der Formen für einen Augenblick Gleichgewicht, Klarheit und Ordnung erreichte [S558393]. Cartier-Bresson selbst sprach vom gleichzeitigen Erkennen der Bedeutung eines Ereignisses und einer präzisen Organisation der Formen [S797955].\n::bild i90eb207862 | Cartier-Bresson, Siphnos: Weiße Mauern, schräge Schatten, eine dunkle Tür rechts – und auf der Treppe ein laufendes Kind, das genau in die Lücke zwischen den Massen fällt.\n::merke Frag nicht „Wo setze ich das Motiv hin?“, sondern „Welche Kräfte entstehen, wenn es dort steht?“"
+     "body_md": "::kurz Schon der leere Rahmen hat eine Struktur, und jedes Element wird von ihr gezogen oder gestoßen.\n::skizze order-kraeftefeld | Mitte, Achsen, Diagonalen und Ränder bilden ein unsichtbares Gerüst. Ein Kreis in der Mitte ruht, ein versetzter wird hin- und hergezogen.\nArnheim beginnt mit einem schwarzen Kreis in einem Quadrat: Sitzt er außerhalb der Mitte, wirkt er unruhig; seine Beziehung zu den Rändern ist ein Spiel aus Anziehung und Abstoßung [Q3].\n::merke Frag nicht „Wo setze ich das Motiv hin?“, sondern „Welche Kräfte entstehen, wenn es dort steht?“\n::vertiefung\nSzarkowski beschrieb den entscheidenden Augenblick in genau diesen Begriffen: entscheidend nicht wegen des Ereignisses, sondern weil der Fluss der Formen für einen Augenblick Gleichgewicht, Klarheit und Ordnung erreichte [S558393]. Cartier-Bresson selbst sprach vom gleichzeitigen Erkennen der Bedeutung eines Ereignisses und einer präzisen Organisation der Formen [S797955].\n::bild i90eb207862 | Cartier-Bresson, Siphnos: Weiße Mauern, schräge Schatten, eine dunkle Tür rechts – und auf der Treppe ein laufendes Kind, das genau in die Lücke zwischen den Massen fällt."
     },
     {
      "heading": "Visuelles Gewicht",
-     "body_md": "::kurz Gewicht im Bild ist Aufmerksamkeit, nicht Masse – und der Abstand zur Mitte wirkt wie ein Hebel.\nWas „schwer“ wirkt, hängt kaum von der realen Masse ab. Gewicht bekommen vor allem:\n- **Kontrast** zur Umgebung, dunkel auf hell oder hell auf dunkel;\n- **Isolation** – ein kleines, freistehendes Element wiegt eine große Masse auf;\n- **Menschen, Gesichter, Tiere, Schrift**, unabhängig von ihrer Größe;\n- **gesättigte, warme Farben** gegenüber stumpfen und kühlen;\n- **Schärfe und Detail** gegenüber weichen Zonen (Lektion Schärfe);\n- **Lage** nahe am Rand oder in der Ecke.\n::skizze order-hebel | Ein kleines, kontraststarkes Element weit draußen gleicht eine große, ruhige Masse nahe der Mitte aus – wie auf einer Wippe.\n::vergleich i8b69af42b2 ie4213978c5 | Jungjin Lee, Wind 04-54: Ein winziger Bus auf dem Horizont trägt das ganze Bild – Isolation schlägt Fläche. | Webb, León: Im Loch einer Pappkiste schaut ein Gesicht heraus; so klein es ist, zieht es den Blick gegen Schattenmassen und Schrift.\nBehauptungen, die rechte oder obere Bildhälfte sei grundsätzlich „schwerer“, sind verbreitet, aber nicht gesichert – eine Hypothese, kein Gesetz."
+     "body_md": "::kurz Gewicht im Bild ist Aufmerksamkeit, nicht Masse – und der Abstand zur Mitte wirkt wie ein Hebel.\n::skizze order-hebel | Ein kleines, kontraststarkes Element weit draußen gleicht eine große, ruhige Masse nahe der Mitte aus – wie auf einer Wippe.\nWas „schwer“ wirkt, hängt kaum von der realen Masse ab. Gewicht bekommen vor allem:\n- **Kontrast** zur Umgebung, dunkel auf hell oder hell auf dunkel;\n- **Isolation** – ein kleines, freistehendes Element wiegt eine große Masse auf;\n- **Menschen, Gesichter, Tiere, Schrift**, unabhängig von ihrer Größe;\n- **gesättigte, warme Farben** gegenüber stumpfen und kühlen;\n- **Schärfe und Detail** gegenüber weichen Zonen (Lektion Schärfe);\n- **Lage** nahe am Rand oder in der Ecke.\n::vertiefung\n::vergleich i8b69af42b2 ie4213978c5 | Jungjin Lee, Wind 04-54: Ein winziger Bus auf dem Horizont trägt das ganze Bild – Isolation schlägt Fläche. | Webb, León: Im Loch einer Pappkiste schaut ein Gesicht heraus; so klein es ist, zieht es den Blick gegen Schattenmassen und Schrift.\nBehauptungen, die rechte oder obere Bildhälfte sei grundsätzlich „schwerer“, sind verbreitet, aber nicht gesichert – eine Hypothese, kein Gesetz."
     },
     {
      "heading": "Gleichgewicht oder gewollte Spannung",
-     "body_md": "::kurz Gleichgewicht ist Ruhe, Spannung ist gewollte Störung – beides ist eine Entscheidung, keine Rechenregel.\nPhillips beschreibt, Cartier-Bresson habe ausgelöst, wenn ihm die Szene in vollkommener Balance erschien [S198322]; Charlie Waites Buch „Stillness“ versammelt Momente, in denen die Elemente im Rahmen in ihr eigenes Gleichgewicht fanden [S358800].\n::bild i10db930f5f | Cartier-Bresson, Prizren: Ein Mast teilt die Gasse, drei Figuren staffeln sich bergauf, rechts hält die helle Mauer dagegen – die Gewichte halten sich, nichts kippt.\n**Spannung** entsteht durch ein Element knapp am Rand, eine Masse ohne Gegengewicht, eine Diagonale, die aus dem Bild drängt, zwei Formen, die sich fast berühren. Sie ist kein Fehler, solange sie etwas sagt – Bedrängnis, Bewegung, Ungewissheit.\n::bild i70bf23736c | Kenna, Snow Fence: Der dunkle Zaun läuft von der Mitte schräg aus dem rechten Rand, links bleibt fast nur Weiß – das Bild drängt aus dem Rahmen.\nWie wenig sich Balance in Formeln fassen lässt, zeigt eine Studie: Der Schwerpunkt von Kunstfotografien lag zwar häufiger nahe einer Achse als bei Kontrollbildern; direkte Vergleiche innerhalb derselben Bilder stützten die Arnheim-Ross-Theorie aber nicht [Q4]. Victor Burgin wird dort zitiert: Man wisse sehr wohl, was gute Komposition ist, aber nicht warum [Q7].\n\nMeine Einschätzung: Gewicht und Gleichgewicht sind brauchbare Begriffe zum Sehen und Korrigieren, keine Rechenregeln."
+     "body_md": "::kurz Gleichgewicht ist Ruhe, Spannung ist gewollte Störung – beides ist eine Entscheidung, keine Rechenregel.\nPhillips beschreibt, Cartier-Bresson habe ausgelöst, wenn ihm die Szene in vollkommener Balance erschien [S198322]; Charlie Waites Buch „Stillness“ versammelt Momente, in denen die Elemente im Rahmen in ihr eigenes Gleichgewicht fanden [S358800].\n::bild i10db930f5f | Cartier-Bresson, Prizren: Ein Mast teilt die Gasse, drei Figuren staffeln sich bergauf, rechts hält die helle Mauer dagegen – die Gewichte halten sich, nichts kippt.\n**Spannung** entsteht durch ein Element knapp am Rand, eine Masse ohne Gegengewicht, eine Diagonale, die aus dem Bild drängt, zwei Formen, die sich fast berühren. Sie ist kein Fehler, solange sie etwas sagt – Bedrängnis, Bewegung, Ungewissheit.\n::bild i70bf23736c | Kenna, Snow Fence: Der dunkle Zaun läuft von der Mitte schräg aus dem rechten Rand, links bleibt fast nur Weiß – das Bild drängt aus dem Rahmen.\nWie wenig sich Balance in Formeln fassen lässt, zeigt eine Studie: Der Schwerpunkt von Kunstfotografien lag zwar häufiger nahe einer Achse als bei Kontrollbildern; direkte Vergleiche innerhalb derselben Bilder stützten die Arnheim-Ross-Theorie aber nicht [Q4]. Victor Burgin wird dort zitiert: Man wisse sehr wohl, was gute Komposition ist, aber nicht warum [Q7].\n\nMeine Einschätzung: Gewicht und Gleichgewicht sind brauchbare Begriffe zum Sehen und Korrigieren, keine Rechenregeln.",
+     "deep": true
     },
     {
      "heading": "Richtung und Lesefolge",
-     "body_md": "::kurz Blicke, Gesten, Linien und Kanten sind Vektoren: Sie bestimmen, wo der Blick einsteigt, wandert und ankommt.\n::skizze order-richtung | Raum vor einer Figur lässt sie ins Bild gehen, Raum hinter ihr lässt sie hinausgehen. Ecken sind Ein- und Ausgänge, Diagonalen kippen zwischen zwei stabilen Lagen.\n- **Raum vor der Bewegung** öffnet, Raum dahinter bedrängt – eine Aussage, keine Regel.\n- **Diagonalen** wirken dynamischer als Waagerechte und Senkrechte.\n- **Wiederholte Formen** bilden eine Bahn, auf der das Auge springt.\n- **Ecken** sind Ein- und Ausgänge. Hans Strand achtet beim Luftbild besonders auf die Ecken und löst aus, wenn sie im Einklang sind [S147322].\n::vergleich ic5772f7e66 i4266c79470 | Fan Ho, Street Scene: Die Treppe fällt diagonal auf uns zu, die Menschen kommen herunter – der Blick steigt oben im Licht ein und läuft mit ihnen nach vorn. | Strand, Braided River I: Die Flussarme treten oben ein und an allen Rändern aus; keine Ecke ist leer.\nDie oft zitierte Lesefolge von links nach rechts ist kulturell geprägt und empirisch umstritten; wichtiger sind die konkreten Vektoren im Bild.\n::schau Wo steigt dein Blick in die beiden Bilder ein – und wo verlässt er sie?"
+     "body_md": "::kurz Blicke, Gesten, Linien und Kanten sind Vektoren: Sie bestimmen, wo der Blick einsteigt, wandert und ankommt.\n::skizze order-richtung | Raum vor einer Figur lässt sie ins Bild gehen, Raum hinter ihr lässt sie hinausgehen. Ecken sind Ein- und Ausgänge, Diagonalen kippen zwischen zwei stabilen Lagen.\n- **Raum vor der Bewegung** öffnet, Raum dahinter bedrängt – eine Aussage, keine Regel.\n- **Diagonalen** wirken dynamischer als Waagerechte und Senkrechte.\n::vertiefung\n- **Wiederholte Formen** bilden eine Bahn, auf der das Auge springt.\n- **Ecken** sind Ein- und Ausgänge. Hans Strand achtet beim Luftbild besonders auf die Ecken und löst aus, wenn sie im Einklang sind [S147322].\n::vergleich ic5772f7e66 i4266c79470 | Fan Ho, Street Scene: Die Treppe fällt diagonal auf uns zu, die Menschen kommen herunter – der Blick steigt oben im Licht ein und läuft mit ihnen nach vorn. | Strand, Braided River I: Die Flussarme treten oben ein und an allen Rändern aus; keine Ecke ist leer.\nDie oft zitierte Lesefolge von links nach rechts ist kulturell geprägt und empirisch umstritten; wichtiger sind die konkreten Vektoren im Bild.\n::schau Wo steigt dein Blick in die beiden Bilder ein – und wo verlässt er sie?"
     },
     {
      "heading": "Figur und Grund",
-     "body_md": "::kurz Was Figur ist und was Grund, kann kippen – und die Lücke ist oft die stärkere Form.\nDie Figur scheint vorn zu liegen und besitzt die Kontur; der Grund läuft scheinbar dahinter weiter. Zur Figur werden bevorzugt geschlossene, kleinere, kontraststarke und bekannte Formen.\n::skizze order-figur-grund | Links das Gewohnte. In der Mitte kippt es: Der Himmel zwischen den Dächern wird zur Form. Rechts frisst der Grund die Figur – ein Ast wächst aus dem Kopf.\nInteressant wird es, wenn das **kippt**: Schatten werden zu Körpern, Lücken zu Formen. Dieser **Negativraum** ist keine Leere, sondern Form. Fan Ho, dessen Arbeit laut ArtAsiaPacific auf Komposition, Linie und geometrische Form achtete [S896478], ließ Menschen vor geometrisch gebauten Hintergründen mit Mustern und Texturen auftreten [S317090].\n::vergleich id5d981907d i5c8ed5e6c5 | Fan Ho, On the Stage of Life: Drei helle Fenster mit Silhouetten in einer dunklen Wand voller Lichtpunkte – die Menschen sind Figur, weil das Raster Grund wird. | Edward Weston, Dunes, Oceano: Das dunkle Schattenband ist kein Loch im Sand, sondern die stärkste Form im Bild.\nIn der Landschaft kippen Himmelsflächen zwischen Bergflanken, helle Wasserläufe in dunklem Gelände oder ein Weg durch den Wald. Gefahr sind **Verschmelzungen**: Kopf vor Ast, Kante genau auf dem Horizont, überlappende Silhouetten – dann frisst der Grund die Figur."
+     "body_md": "::kurz Was Figur ist und was Grund, kann kippen – und die Lücke ist oft die stärkere Form.\n::skizze order-figur-grund | Links das Gewohnte. In der Mitte kippt es: Der Himmel zwischen den Dächern wird zur Form. Rechts frisst der Grund die Figur – ein Ast wächst aus dem Kopf.\nInteressant wird es, wenn das **kippt**: Schatten werden zu Körpern, Lücken zu Formen. Dieser **Negativraum** ist keine Leere, sondern Form.\n::vertiefung\nDie Figur scheint vorn zu liegen und besitzt die Kontur; der Grund läuft scheinbar dahinter weiter. Zur Figur werden bevorzugt geschlossene, kleinere, kontraststarke und bekannte Formen.\nFan Ho, dessen Arbeit laut ArtAsiaPacific auf Komposition, Linie und geometrische Form achtete [S896478], ließ Menschen vor geometrisch gebauten Hintergründen mit Mustern und Texturen auftreten [S317090].\n::vergleich id5d981907d i5c8ed5e6c5 | Fan Ho, On the Stage of Life: Drei helle Fenster mit Silhouetten in einer dunklen Wand voller Lichtpunkte – die Menschen sind Figur, weil das Raster Grund wird. | Edward Weston, Dunes, Oceano: Das dunkle Schattenband ist kein Loch im Sand, sondern die stärkste Form im Bild.\nIn der Landschaft kippen Himmelsflächen zwischen Bergflanken, helle Wasserläufe in dunklem Gelände oder ein Weg durch den Wald. Gefahr sind **Verschmelzungen**: Kopf vor Ast, Kante genau auf dem Horizont, überlappende Silhouetten – dann frisst der Grund die Figur."
     },
     {
      "heading": "Gestaltgesetze als Werkzeug",
-     "body_md": "::kurz Die Gestaltgesetze sind keine Rezepte, sondern Prüffragen: Was gruppiert sich – gewollt oder ungewollt?\nDie klassischen Gestaltprinzipien – Geschlossenheit, Ähnlichkeit, Nähe, Symmetrie, gemeinsames Schicksal – stehen in jedem Lehrbuch des Sehens [Q5].\n::skizze order-gestalt | Vier Prinzipien in der Miniatur: Nähe bildet Gruppen, Ähnlichkeit verbindet über die Fläche, das Auge schließt Lücken, gleiche Richtung macht eine Gruppe.\n- **Nähe:** Ein halber Schritt kann zwei Figuren trennen oder verbinden.\n- **Ähnlichkeit:** Gleiche Farben oder Formen verbinden sich über die Fläche, auch wenn sie im Raum weit auseinander liegen.\n- **Geschlossenheit:** Ein angeschnittener Kreis bleibt ein Kreis.\n- **Gemeinsames Schicksal:** Was in dieselbe Richtung zieht, gehört zusammen – Vogelschwärme, Menschen auf einer Treppe.\n::vergleich if27a4cb845 i475ac19518 | Cartier-Bresson, Simiane-la-Rotonde: Zwei Mädchen links auf der Brüstung, die Jungen rechts vorn – Nähe ordnet die Loggia in Gruppen. | Haas, Aerial Flamingos: Tausende rosa Punkte auf Grün; am Ufer verdichten sie sich zu einem Band, das als eine Form gelesen wird.\nDie Prinzipien gelten als brauchbare Beschreibungen der Wahrnehmung, ihre theoretische Begründung aber als offen [Q6]."
+     "body_md": "::kurz Die Gestaltgesetze sind keine Rezepte, sondern Prüffragen: Was gruppiert sich – gewollt oder ungewollt?\nDie klassischen Gestaltprinzipien – Geschlossenheit, Ähnlichkeit, Nähe, Symmetrie, gemeinsames Schicksal – stehen in jedem Lehrbuch des Sehens [Q5].\n::skizze order-gestalt | Vier Prinzipien in der Miniatur: Nähe bildet Gruppen, Ähnlichkeit verbindet über die Fläche, das Auge schließt Lücken, gleiche Richtung macht eine Gruppe.\n- **Nähe:** Ein halber Schritt kann zwei Figuren trennen oder verbinden.\n- **Ähnlichkeit:** Gleiche Farben oder Formen verbinden sich über die Fläche, auch wenn sie im Raum weit auseinander liegen.\n- **Geschlossenheit:** Ein angeschnittener Kreis bleibt ein Kreis.\n- **Gemeinsames Schicksal:** Was in dieselbe Richtung zieht, gehört zusammen – Vogelschwärme, Menschen auf einer Treppe.\n::vergleich if27a4cb845 i475ac19518 | Cartier-Bresson, Simiane-la-Rotonde: Zwei Mädchen links auf der Brüstung, die Jungen rechts vorn – Nähe ordnet die Loggia in Gruppen. | Haas, Aerial Flamingos: Tausende rosa Punkte auf Grün; am Ufer verdichten sie sich zu einem Band, das als eine Form gelesen wird.\nDie Prinzipien gelten als brauchbare Beschreibungen der Wahrnehmung, ihre theoretische Begründung aber als offen [Q6].",
+     "deep": true
     },
     {
      "heading": "Klischee, Gegenlesart und Bildschirm",
-     "body_md": "::kurz Einfache Ordnung funktioniert sofort – und sagt deshalb oft nichts mehr.\n**Klischee-Gegenbeispiel:** der einsame Baum im Schnee, mittig oder exakt auf dem Drittelpunkt, ringsum leerer Weißraum. Bei Michael Kenna trägt diese Ordnung, weil Tonwert, Form des Baums und Leere präzise abgestimmt sind; als Rezept nachgestellt wird daraus ein Ornament ohne Spannung.\n::bild i3f26664767 | Kenna, Philosopher's Tree: Der kahle Baum steht fast genau in der Mitte, die dunkle Krone hebt sich vom hellgrauen Himmel ab – die Ordnung lebt von Tonwerten und Form, nicht von der Position.\n**Gegenlesart:** Ein „unausgewogenes“ Bild kann genau deshalb stimmen – etwa wenn eine Masse auf eine kleine Figur drückt und so Bedrohung ausdrückt. Die Begriffe beschreiben, sie bewerten nicht.\n\n**Bildschirm:** Auf dem Handy verschwinden kleine Kontraste, große Massen dominieren. Ein Bild, dessen Balance an einem Detail hängt, kippt in der Miniatur.\n::merke Prüfe Bildordnung einmal in Briefmarkengröße und einmal groß."
+     "body_md": "::kurz Einfache Ordnung funktioniert sofort – und sagt deshalb oft nichts mehr.\n**Klischee-Gegenbeispiel:** der einsame Baum im Schnee, mittig oder exakt auf dem Drittelpunkt, ringsum leerer Weißraum. Bei Michael Kenna trägt diese Ordnung, weil Tonwert, Form des Baums und Leere präzise abgestimmt sind; als Rezept nachgestellt wird daraus ein Ornament ohne Spannung.\n::bild i3f26664767 | Kenna, Philosopher's Tree: Der kahle Baum steht fast genau in der Mitte, die dunkle Krone hebt sich vom hellgrauen Himmel ab – die Ordnung lebt von Tonwerten und Form, nicht von der Position.\n**Gegenlesart:** Ein „unausgewogenes“ Bild kann genau deshalb stimmen – etwa wenn eine Masse auf eine kleine Figur drückt und so Bedrohung ausdrückt. Die Begriffe beschreiben, sie bewerten nicht.\n\n**Bildschirm:** Auf dem Handy verschwinden kleine Kontraste, große Massen dominieren. Ein Bild, dessen Balance an einem Detail hängt, kippt in der Miniatur.\n::merke Prüfe Bildordnung einmal in Briefmarkengröße und einmal groß.",
+     "deep": true
     }
    ],
    "examples": [
@@ -273,7 +286,8 @@
       "Schatten als Form, nicht als Lichtmangel",
       "kleine Figur am langen Hebel nahe dem Rand",
       "Diagonale gegen senkrechten Streifen"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "if27a4cb845",
@@ -282,7 +296,8 @@
       "Paare oben gegen Paar unten",
       "dunkle Masse unten rechts als Gegengewicht",
       "Säulen als ruhiges Raster"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i70bf23736c",
@@ -291,7 +306,8 @@
       "Eintritt vom rechten Rand",
       "offenes Ende als Spannung",
       "Weiß als aktiver Raum"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i8b69af42b2",
@@ -300,7 +316,8 @@
       "Gewicht durch Isolation, nicht durch Größe",
       "Horizont als Bühne",
       "hell oben gegen dunkel unten"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "ie4213978c5",
@@ -309,7 +326,8 @@
       "Schatten als eigenständige Formen",
       "Gesicht im Kartonloch als spätes Ziel",
       "Farbfläche Türkis gegen Schwarz"
-     ]
+     ],
+     "deep": true
     }
    ],
    "takeaways": [
@@ -349,7 +367,8 @@
       "Kunstfotos lagen mit ihrem Schwerpunkt häufiger nahe einer Achse, direkte Vergleiche innerhalb der Bilder stützten die Theorie aber nicht"
      ],
      "correct": 3,
-     "explanation": "Die Studie fand den Schwerpunkt bei Kunstfotos näher an einer Achse als bei Kontrollbildern, aber die stärkeren Vergleiche innerhalb derselben Bilder zeigten keine Unterstützung für die Theorie [Q4]."
+     "explanation": "Die Studie fand den Schwerpunkt bei Kunstfotos näher an einer Achse als bei Kontrollbildern, aber die stärkeren Vergleiche innerhalb derselben Bilder zeigten keine Unterstützung für die Theorie [Q4].",
+     "deep": true
     },
     {
      "question": "Was passiert in diesem Bild mit den schwarzen Schattenflächen?",
@@ -423,31 +442,34 @@
    "sections": [
     {
      "heading": "Doppelt sehen: Raum und Bildebene",
-     "body_md": "::kurz Was im Raum hintereinander liegt, liegt auf dem Bild nebeneinander – sieh beides zugleich.\nShore beschreibt das an einem Bild von Walker Evans: Evans denke darüber nach, wie der Mast im Vordergrund im realen Raum zur Tankstelle dahinter steht – und zugleich, wie beide direkt auf der Bildebene zueinander stehen [S461303].\n::skizze surface-doppelt | Links von oben: Mast und Tankstelle trennen Hunderte Meter. Rechts das Bild: Vom richtigen Punkt aus trifft der Mast genau die Dachkante.\nDinge, die im Raum weit auseinander liegen, können sich auf der Fläche berühren, eine Linie fortsetzen oder einen Rahmen bilden; ein räumlich eng verbundenes Paar kann auf der Fläche zerfallen.\n::bild i700a669164 | Struth, Marunouchi: Von oben stapeln sich Häuser aus ganz verschiedenen Entfernungen zu einer Wand aus Blöcken – Backstein stößt an Beton, Dach an Fassade.\n::schau Kneif die Augen zusammen oder stell das Display auf Schwarzweiß und klein: Was bleibt, ist die Fläche – Massen, Kanten, Intervalle."
+     "body_md": "::kurz Was im Raum hintereinander liegt, liegt auf dem Bild nebeneinander – sieh beides zugleich.\n::skizze surface-doppelt | Links von oben: Mast und Tankstelle trennen Hunderte Meter. Rechts das Bild: Vom richtigen Punkt aus trifft der Mast genau die Dachkante.\nShore beschreibt das an einem Bild von Walker Evans: Evans denke darüber nach, wie der Mast im Vordergrund im realen Raum zur Tankstelle dahinter steht – und zugleich, wie beide direkt auf der Bildebene zueinander stehen [S461303].\n::vertiefung\nDinge, die im Raum weit auseinander liegen, können sich auf der Fläche berühren, eine Linie fortsetzen oder einen Rahmen bilden; ein räumlich eng verbundenes Paar kann auf der Fläche zerfallen.\n::bild i700a669164 | Struth, Marunouchi: Von oben stapeln sich Häuser aus ganz verschiedenen Entfernungen zu einer Wand aus Blöcken – Backstein stößt an Beton, Dach an Fassade.\n::schau Kneif die Augen zusammen oder stell das Display auf Schwarzweiß und klein: Was bleibt, ist die Fläche – Massen, Kanten, Intervalle."
     },
     {
      "heading": "Wie Raum entsteht – und wie man ihn abschaltet",
-     "body_md": "::kurz Raum entsteht aus Hinweisen – und jeden davon kannst du einzeln abschalten.\n::skizze surface-tiefenhinweise | Oben sechs Tiefenhinweise, unten die Gegenmittel. Schalte genug davon ab, und das Bild wird Fläche.\nRäumliche Tiefe lesen wir aus Hinweisen – die Skizze zeigt sechs, dazu kommt der **Texturgradient**. Abschalten heißt:\n- **frontal und parallel** zur Hauptfläche, damit nichts fluchtet;\n- **Horizont und Himmel abschneiden**, damit kein Ort für die Ferne bleibt;\n- **aus großer Entfernung mit langer Brennweite**, damit Größenunterschiede schrumpfen;\n- **schattenloses, diffuses Licht** – die Tate erklärt die flache, neutrale Qualität der Becher-Abzüge mit Aufnahmen bei schattenlosem Licht [S352486];\n- **senkrecht von oben** – im Drohnenblick wirkt die Landschaft laut On Landscape abstrahiert, Hinweise auf den Maßstab fehlen [S445159];\n- **gleichmäßige Schärfe**, damit kein Schärfeverlauf Tiefe anzeigt (Lektion Schärfe).\n::vergleich iec5ad837fd i22b1d231fd | Bernd und Hilla Becher, Gas Tanks: neun Behälter frontal, ohne Schlagschatten, unter grauem Himmel – Körper werden Umrisse. | Franco Fontana, Puglia: gelbes Feld, blauer Himmel, dazwischen ein dunkler Streifen – keine Fluchtlinie, nur zwei Farbflächen."
+     "body_md": "::kurz Raum entsteht aus Hinweisen – und jeden davon kannst du einzeln abschalten.\n::skizze surface-tiefenhinweise | Oben sechs Tiefenhinweise, unten die Gegenmittel. Schalte genug davon ab, und das Bild wird Fläche.\nRäumliche Tiefe lesen wir aus Hinweisen – die Skizze zeigt sechs, dazu kommt der **Texturgradient**. Abschalten heißt:\n- **frontal und parallel** zur Hauptfläche, damit nichts fluchtet;\n- **Horizont und Himmel abschneiden**, damit kein Ort für die Ferne bleibt;\n- **aus großer Entfernung mit langer Brennweite**, damit Größenunterschiede schrumpfen;\n::vertiefung\n- **schattenloses, diffuses Licht** – die Tate erklärt die flache, neutrale Qualität der Becher-Abzüge mit Aufnahmen bei schattenlosem Licht [S352486];\n- **senkrecht von oben** – im Drohnenblick wirkt die Landschaft laut On Landscape abstrahiert, Hinweise auf den Maßstab fehlen [S445159];\n- **gleichmäßige Schärfe**, damit kein Schärfeverlauf Tiefe anzeigt (Lektion Schärfe).\n::vergleich iec5ad837fd i22b1d231fd | Bernd und Hilla Becher, Gas Tanks: neun Behälter frontal, ohne Schlagschatten, unter grauem Himmel – Körper werden Umrisse. | Franco Fontana, Puglia: gelbes Feld, blauer Himmel, dazwischen ein dunkler Streifen – keine Fluchtlinie, nur zwei Farbflächen."
     },
     {
      "heading": "Verflachung als Programm",
-     "body_md": "::kurz Verflachung ist bei Wolf und Gursky kein Effekt, sondern eine Aussage: Der einzelne Ort verschwindet hinter einem System.\nMichael Wolf strich in „Architecture of Density“ Himmel und Horizontlinie, um die Bilder zu verflachen und die Fassaden in scheinbar endlose Abstraktionen zu verwandeln [S925873]. Er selbst beschreibt die Doppelheit: von weitem ein Muster, ein Wandteppich – aus der Nähe sieht man plötzlich, dass dort Menschen wohnen [S149627].\n::bild i88ceb1aba7 | Wolf, a36: Hochhausscheiben füllen das Bild bis an alle Ränder, kein Himmel, kein Boden – erst beim Hinsehen werden aus Punkten Fenster.\nDer MoMA-Katalog beschreibt, wie Gursky in „Paris, Montparnasse“ das Gebäude links und rechts beschnitt und dem Bild so die Tiefe zwischen Fassade und Bildebene entzog [S162796].\n::skizze surface-beschnitt | Sind die Enden des Blocks zu sehen, steht er im Raum. Schneidet der Rahmen sie ab, bleibt nur das Raster.\nZu „Chicago, Board of Trade II“ schreibt die Tate, die flache, gleichmäßig verteilte Qualität und das Fehlen einer einzigen Perspektive machten die Architektur schwer lesbar; Händler, Bildschirme und Papier würden Teil eines Gesamtmusters [S732599].\n::vergleich i3312b69c1e ifccce59f5b | Gursky, Montparnasse: Die Fassade reicht über beide Ränder, oben ein Streifen Himmel, unten ein Saum Bäume – sonst nur Fensterraster. | Gursky, Board of Trade II: Menschen in bunten Jacken verteilen sich über die ganze Fläche, kein Punkt ist wichtiger als ein anderer.\nWolfs Einführungstext stellt seinen nüchternen Ansatz in die Nähe der Düsseldorfer Schule der Bechers [S222920]."
+     "body_md": "::kurz Verflachung ist bei Wolf und Gursky kein Effekt, sondern eine Aussage: Der einzelne Ort verschwindet hinter einem System.\n::skizze surface-beschnitt | Sind die Enden des Blocks zu sehen, steht er im Raum. Schneidet der Rahmen sie ab, bleibt nur das Raster.\nDer MoMA-Katalog beschreibt, wie Gursky in „Paris, Montparnasse“ das Gebäude links und rechts beschnitt und dem Bild so die Tiefe zwischen Fassade und Bildebene entzog [S162796].\n::vertiefung\nMichael Wolf strich in „Architecture of Density“ Himmel und Horizontlinie, um die Bilder zu verflachen und die Fassaden in scheinbar endlose Abstraktionen zu verwandeln [S925873]. Er selbst beschreibt die Doppelheit: von weitem ein Muster, ein Wandteppich – aus der Nähe sieht man plötzlich, dass dort Menschen wohnen [S149627].\n::bild i88ceb1aba7 | Wolf, a36: Hochhausscheiben füllen das Bild bis an alle Ränder, kein Himmel, kein Boden – erst beim Hinsehen werden aus Punkten Fenster.\nZu „Chicago, Board of Trade II“ schreibt die Tate, die flache, gleichmäßig verteilte Qualität und das Fehlen einer einzigen Perspektive machten die Architektur schwer lesbar; Händler, Bildschirme und Papier würden Teil eines Gesamtmusters [S732599].\n::vergleich i3312b69c1e ifccce59f5b | Gursky, Montparnasse: Die Fassade reicht über beide Ränder, oben ein Streifen Himmel, unten ein Saum Bäume – sonst nur Fensterraster. | Gursky, Board of Trade II: Menschen in bunten Jacken verteilen sich über die ganze Fläche, kein Punkt ist wichtiger als ein anderer.\nWolfs Einführungstext stellt seinen nüchternen Ansatz in die Nähe der Düsseldorfer Schule der Bechers [S222920]."
     },
     {
      "heading": "Muster, Wiederholung, Rhythmus",
-     "body_md": "::kurz Ein Muster ist schnell erschöpft – erst die Abweichung macht es sehenswert.\n**Muster** ist gleichförmige Wiederholung. **Rhythmus** entsteht, wenn Intervalle wechseln, Elemente variieren oder ein Takt gebrochen wird.\n::skizze surface-rhythmus | Gleicher Takt, wechselnde Intervalle, ein Bruch: Erst der Taktwechsel gibt dem Auge einen Ort.\nBei Gursky beleben laut MoMA die flackernd asymmetrischen Vorhänge der einzelnen Wohnungen das streng geordnete Ganze [S162796]; bei Wolf sind es Wäschestücke und Klimageräte.\n\nRhythmus lässt sich auch durch den Ausschnitt bauen. Fan Ho beschnitt „School is Over“ laut M+ radikal schmal und schuf so einen Rhythmus aus Kindern, Straßenbahnschienen und Abflusslöchern [S736921]. Shores Straßenecke in Kalispell lebt laut Art Institute of Chicago von Zeichen, Architektur und Mustern in Straße und Pflaster [S473531].\n::vergleich i749edc2880 i43ffe1086c | Fan Ho, School is Over: ein extrem schmaler Streifen – oben Kinder, in der Mitte ein runder Gully, unten ein eckiger Deckel. | Shore, Kalispell: Ampeln, Masten, Parkuhren und Risse im Asphalt bilden einen unregelmäßigen Takt aus Senkrechten.\n::merke Frag vor jedem Musterbild: Wo ist der Taktwechsel, das eine andere Element? Fehlt es, ist das Bild Tapete."
+     "body_md": "::kurz Ein Muster ist schnell erschöpft – erst die Abweichung macht es sehenswert.\n::skizze surface-rhythmus | Gleicher Takt, wechselnde Intervalle, ein Bruch: Erst der Taktwechsel gibt dem Auge einen Ort.\n**Muster** ist gleichförmige Wiederholung. **Rhythmus** entsteht, wenn Intervalle wechseln, Elemente variieren oder ein Takt gebrochen wird.\n::merke Frag vor jedem Musterbild: Wo ist der Taktwechsel, das eine andere Element? Fehlt es, ist das Bild Tapete.\n::vertiefung\nBei Gursky beleben laut MoMA die flackernd asymmetrischen Vorhänge der einzelnen Wohnungen das streng geordnete Ganze [S162796]; bei Wolf sind es Wäschestücke und Klimageräte.\n\nRhythmus lässt sich auch durch den Ausschnitt bauen. Fan Ho beschnitt „School is Over“ laut M+ radikal schmal und schuf so einen Rhythmus aus Kindern, Straßenbahnschienen und Abflusslöchern [S736921]. Shores Straßenecke in Kalispell lebt laut Art Institute of Chicago von Zeichen, Architektur und Mustern in Straße und Pflaster [S473531].\n::vergleich i749edc2880 i43ffe1086c | Fan Ho, School is Over: ein extrem schmaler Streifen – oben Kinder, in der Mitte ein runder Gully, unten ein eckiger Deckel. | Shore, Kalispell: Ampeln, Masten, Parkuhren und Risse im Asphalt bilden einen unregelmäßigen Takt aus Senkrechten."
     },
     {
      "heading": "Geometrie im Gelände",
-     "body_md": "::kurz Geometrie im Gelände wird durch Standpunkt und Abstand sichtbar – die stärksten Bilder liegen an der Kippschwelle.\nIn der Landschaft liegt Geometrie selten offen da: Reisterrassen, Feldgrenzen, Flussarme, Salzpfannen, Dünenkämme, Wege. Hans Strand vermeidet im Luftbild meist den Horizont, um die Bilder abstrakter zu machen [S147322].\n\nEdward Burtynsky beschreibt, dass in bestimmten Entfernungen der Gebrauch eines Objekts erkennbar blieb, es zugleich aber abstrakt wirkte [S953831]. Darunter ist das Bild Dokument, darüber reines Muster.\n::skizze surface-kippschwelle | Nah ein Dokument, fern ein Ornament. An der Schwelle dazwischen sieht man die Form und erkennt zugleich, wovon sie spricht.\n::vergleich i5a774edaf7 i53481fd680 | Tom Hegen, Lithium: gelbe und weiße Bänder wie ein Stoffmuster – bis man das kleine Fahrzeug auf dem Damm entdeckt. Gebrauch und Maßstab sind da. | Hans Strand, Ice River: verästelte helle Rinnen ohne Horizont und ohne Maßstab – reines Muster, Ort und Größe bleiben offen.\nMeine Einschätzung für die Reise: Suche erst die Form, dann den Abstand, an dem sie gerade noch etwas über den Ort sagt."
+     "body_md": "::kurz Geometrie im Gelände wird durch Standpunkt und Abstand sichtbar – die stärksten Bilder liegen an der Kippschwelle.\nIn der Landschaft liegt Geometrie selten offen da: Reisterrassen, Feldgrenzen, Flussarme, Salzpfannen, Dünenkämme, Wege. Hans Strand vermeidet im Luftbild meist den Horizont, um die Bilder abstrakter zu machen [S147322].\n\nEdward Burtynsky beschreibt, dass in bestimmten Entfernungen der Gebrauch eines Objekts erkennbar blieb, es zugleich aber abstrakt wirkte [S953831]. Darunter ist das Bild Dokument, darüber reines Muster.\n::skizze surface-kippschwelle | Nah ein Dokument, fern ein Ornament. An der Schwelle dazwischen sieht man die Form und erkennt zugleich, wovon sie spricht.\n::vergleich i5a774edaf7 i53481fd680 | Tom Hegen, Lithium: gelbe und weiße Bänder wie ein Stoffmuster – bis man das kleine Fahrzeug auf dem Damm entdeckt. Gebrauch und Maßstab sind da. | Hans Strand, Ice River: verästelte helle Rinnen ohne Horizont und ohne Maßstab – reines Muster, Ort und Größe bleiben offen.\nMeine Einschätzung für die Reise: Suche erst die Form, dann den Abstand, an dem sie gerade noch etwas über den Ort sagt.",
+     "deep": true
     },
     {
      "heading": "Kippen zwischen Raum und Fläche",
-     "body_md": "::kurz Manche Bilder lassen Raum und Fläche flackern – der Betrachter muss entscheiden, wie er sieht.\nLuc Sante beschreibt an einem Evans-Bild, der Himmel scheine auf einer anderen Ebene zu schweben, wie aus einem anderen Bild geschnitten; Shore erklärt diesen Collage-Effekt mit unterschiedlicher Aufmerksamkeit, die der Fotograf verschiedenen Bildteilen schenkt [Q2].\n\nKippbilder entstehen durch Spiegelungen, Fassaden wie Kulissen, Wände mit Plakaten von Landschaften oder Luftbilder, bei denen man nicht weiß, ob man auf eine Fläche oder in eine Schlucht blickt.\n::vergleich i6529d88033 i05ecad0d64 | Ghirri, Engelberg: Die Plakat-Alpen sind so scharf und farbig wie die echte Straße davor – welches ist die Landschaft? | Ghirri, Bastia: Über einer sandfarbenen Kante schaut ein Schiff hervor, als führe es über eine Düne.\nPraktisch entsteht das Kippen dort, wo ein starker Tiefenhinweis neben einer betont flachen Zone steht: eine fluchtende Gasse neben einer frontalen Wand, ein spiegelnder Teich, der den Himmel in den Boden holt, ein Berg im Dunst wie eine aufgeklebte Silhouette.\n::bild i397f96121b | Muybridge, Mirror Lake: Felswand und Bäume spiegeln sich fast vollständig im Wasser – die untere Bildhälfte ist zugleich Boden und Himmel.\n::schau Stell das Bild in Gedanken auf den Kopf: Liest du es noch als Ordnung? Dann trägt die Fläche, und der Raum ist eine zusätzliche Schicht."
+     "body_md": "::kurz Manche Bilder lassen Raum und Fläche flackern – der Betrachter muss entscheiden, wie er sieht.\nLuc Sante beschreibt an einem Evans-Bild, der Himmel scheine auf einer anderen Ebene zu schweben, wie aus einem anderen Bild geschnitten; Shore erklärt diesen Collage-Effekt mit unterschiedlicher Aufmerksamkeit, die der Fotograf verschiedenen Bildteilen schenkt [Q2].\n\nKippbilder entstehen durch Spiegelungen, Fassaden wie Kulissen, Wände mit Plakaten von Landschaften oder Luftbilder, bei denen man nicht weiß, ob man auf eine Fläche oder in eine Schlucht blickt.\n::vergleich i6529d88033 i05ecad0d64 | Ghirri, Engelberg: Die Plakat-Alpen sind so scharf und farbig wie die echte Straße davor – welches ist die Landschaft? | Ghirri, Bastia: Über einer sandfarbenen Kante schaut ein Schiff hervor, als führe es über eine Düne.\nPraktisch entsteht das Kippen dort, wo ein starker Tiefenhinweis neben einer betont flachen Zone steht: eine fluchtende Gasse neben einer frontalen Wand, ein spiegelnder Teich, der den Himmel in den Boden holt, ein Berg im Dunst wie eine aufgeklebte Silhouette.\n::bild i397f96121b | Muybridge, Mirror Lake: Felswand und Bäume spiegeln sich fast vollständig im Wasser – die untere Bildhälfte ist zugleich Boden und Himmel.\n::schau Stell das Bild in Gedanken auf den Kopf: Liest du es noch als Ordnung? Dann trägt die Fläche, und der Raum ist eine zusätzliche Schicht.",
+     "deep": true
     },
     {
      "heading": "Deadpan, Klischee, Gegenlesart, Bildgröße",
-     "body_md": "::kurz Deadpan ist eine Haltung, Verflachung ein Mittel – und auch die stärkste Tiefe kann zur Formel werden.\n**Deadpan** nennt man den nüchternen, frontalen, gleichmäßig beleuchteten Blick ohne Dramatisierung; das Art Institute of Chicago beschreibt Shores Bilder des gebauten Amerika als „deadpan appraisal“ [S333133].\n\n**Klischee-Gegenbeispiel:** Lavendelreihen, die zentralperspektivisch auf einen einzelnen Baum am Horizont zulaufen. Der stärkste Tiefenhinweis überhaupt arbeitet nach einer Formel, die man nach dem ersten Bild kennt. Die neue Variante ist das Drohnen-Muster ohne Ort, nur noch Ornament.\n::vergleich ia05f060220 i47da51bbcf | Shore, Charleston: frontal vor einer Rückfassade, Parkplatzlinien und Feuertreppe, keine Dramatik – Deadpan. | Waite, Valensole: Die Reihen fluchten auf den Baum am Horizont zu – die Tiefe ist sofort da und sofort bekannt.\n**Gegenlesart:** Verflachung lässt sich als Kälte lesen, als Ästhetisierung von Dichte oder Zerstörung. Wer flach fotografiert, muss fragen, ob das Muster etwas zeigt oder etwas verdeckt.\n\n**Bildgröße:** Ein Gursky wirkt als Wandbild anders als am Handy; Muster, die groß Details offenbaren, werden klein zur Textur. Am Bildschirm ist das nicht beurteilbar."
+     "body_md": "::kurz Deadpan ist eine Haltung, Verflachung ein Mittel – und auch die stärkste Tiefe kann zur Formel werden.\n**Deadpan** nennt man den nüchternen, frontalen, gleichmäßig beleuchteten Blick ohne Dramatisierung; das Art Institute of Chicago beschreibt Shores Bilder des gebauten Amerika als „deadpan appraisal“ [S333133].\n\n**Klischee-Gegenbeispiel:** Lavendelreihen, die zentralperspektivisch auf einen einzelnen Baum am Horizont zulaufen. Der stärkste Tiefenhinweis überhaupt arbeitet nach einer Formel, die man nach dem ersten Bild kennt. Die neue Variante ist das Drohnen-Muster ohne Ort, nur noch Ornament.\n::vergleich ia05f060220 i47da51bbcf | Shore, Charleston: frontal vor einer Rückfassade, Parkplatzlinien und Feuertreppe, keine Dramatik – Deadpan. | Waite, Valensole: Die Reihen fluchten auf den Baum am Horizont zu – die Tiefe ist sofort da und sofort bekannt.\n**Gegenlesart:** Verflachung lässt sich als Kälte lesen, als Ästhetisierung von Dichte oder Zerstörung. Wer flach fotografiert, muss fragen, ob das Muster etwas zeigt oder etwas verdeckt.\n\n**Bildgröße:** Ein Gursky wirkt als Wandbild anders als am Handy; Muster, die groß Details offenbaren, werden klein zur Textur. Am Bildschirm ist das nicht beurteilbar.",
+     "deep": true
     }
    ],
    "examples": [
@@ -458,7 +480,8 @@
       "kein Ort für Ferne: kein Himmel, kein Boden",
       "frontal: keine fluchtenden Linien",
       "kleine Abweichungen im Raster"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i3312b69c1e",
@@ -467,7 +490,8 @@
       "Gebäude links und rechts angeschnitten",
       "Fassade parallel zur Bildebene",
       "Einzelwohnungen als Farbtupfer"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i53481fd680",
@@ -476,7 +500,8 @@
       "keine Tiefenhinweise",
       "Richtung der Verästelung als Rhythmus",
       "Maßstab unbestimmbar"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i43ffe1086c",
@@ -485,7 +510,8 @@
       "Masten als senkrechter Takt",
       "Risse im Asphalt als Muster",
       "Raumtiefe trotzdem lesbar"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i388dd227aa",
@@ -494,7 +520,8 @@
       "diffuses Licht ohne Modellierung",
       "Wald als Teppich",
       "eine Farbe als Taktbruch"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i47da51bbcf",
@@ -503,7 +530,8 @@
       "Fluchtpunkt am Baum",
       "Reihen als Tiefenpfeile",
       "Vergleich: dieselbe Stelle frontal und ohne Horizont gedacht"
-     ]
+     ],
+     "deep": true
     }
    ],
    "takeaways": [
@@ -591,7 +619,8 @@
       "Schärfeverlauf; weil der Hintergrund unscharf ist"
      ],
      "correct": 0,
-     "explanation": "Die Reihen laufen zentralperspektivisch auf den Baum zu; diese Ordnung erzeugt stärkste Tiefe, ist aber als Rezept bekannt und sagt daher wenig Neues."
+     "explanation": "Die Reihen laufen zentralperspektivisch auf den Baum zu; diese Ordnung erzeugt stärkste Tiefe, ist aber als Rezept bekannt und sagt daher wenig Neues.",
+     "deep": true
     }
    ]
   },
@@ -632,31 +661,34 @@
    "sections": [
     {
      "heading": "Jedes Foto ist eine Zeitbelichtung",
-     "body_md": "::kurz Ob Bewegung sichtbar wird, entscheidet der Weg, den ein Punkt während der Belichtung auf dem Sensor zurücklegt.\nSzarkowskis Satz verschiebt die Frage: nicht ob Zeit im Bild steckt, sondern wie viel und wie sie sich zeigt [S134943]. Shore übernimmt die Formel der „discrete parcels of time“ [S255986]; als Beispiel für das kurze Extrem nennt Eye seine Besprechung eines Winogrand-Bildes: eine 250stel Sekunde, in der sich Stierzunge und Hutkrempe in vollkommener Symmetrie trafen [Q1].\n::skizze time-sensorweg | Oben: Quer zur Kamera zieht derselbe Läufer eine lange Spur, auf die Kamera zu wird er nur größer. Unten: Dasselbe Boot verwischt im Tele stärker als im Weitwinkel.\nDen Sensorweg bestimmen Geschwindigkeit, Abstand, Brennweite und Richtung. Auch die Kamera selbst bewegt sich: Burkett wartete auf einer Brücke nach jeder Windböe etwa 40 Sekunden, bis sie sich beruhigt hatte, während Autos weitere Erschütterungen erzeugten [S244307].\n::bild ib01bcf3028 | Burkett, Canyon of the Rio Grande: der Blick von oben in die Schlucht, jede Strauchgruppe an den Hängen klar gezeichnet – so bleibt es nur, wenn die Kamera wirklich stillsteht."
+     "body_md": "::kurz Ob Bewegung sichtbar wird, entscheidet der Weg, den ein Punkt während der Belichtung auf dem Sensor zurücklegt.\n::skizze time-sensorweg | Oben: Quer zur Kamera zieht derselbe Läufer eine lange Spur, auf die Kamera zu wird er nur größer. Unten: Dasselbe Boot verwischt im Tele stärker als im Weitwinkel.\nDen Sensorweg bestimmen Geschwindigkeit, Abstand, Brennweite und Richtung.\n::vertiefung\nSzarkowskis Satz verschiebt die Frage: nicht ob Zeit im Bild steckt, sondern wie viel und wie sie sich zeigt [S134943]. Shore übernimmt die Formel der „discrete parcels of time“ [S255986]; als Beispiel für das kurze Extrem nennt Eye seine Besprechung eines Winogrand-Bildes: eine 250stel Sekunde, in der sich Stierzunge und Hutkrempe in vollkommener Symmetrie trafen [Q1].\nAuch die Kamera selbst bewegt sich: Burkett wartete auf einer Brücke nach jeder Windböe etwa 40 Sekunden, bis sie sich beruhigt hatte, während Autos weitere Erschütterungen erzeugten [S244307].\n::bild ib01bcf3028 | Burkett, Canyon of the Rio Grande: der Blick von oben in die Schlucht, jede Strauchgruppe an den Hängen klar gezeichnet – so bleibt es nur, wenn die Kamera wirklich stillsteht."
     },
     {
      "heading": "Einfrieren: was das Auge nicht sieht",
-     "body_md": "::kurz Kurze Zeiten zeigen Zustände, die das Auge nie einzeln sieht – lebendig bleiben sie nur, wenn die Pose selbst Bewegung erzählt.\nSzarkowskis Abschnitt „Time“ reichte von Muybridges früher Bewegungsanalyse einer fliegenden Möwe bis zu Robert Riger, der die Aktion eines Footballspiels einfriert [Q2].\n::vergleich iaf4495b971 i3c2088d2c7 | Haas, Tobago Wave: Die brechende Welle steht als weiße Gischtkante still, jede Spritzerspitze ist einzeln zu sehen. | Eve Arnold, Mongolei: Reiter mitten im Sprung über die Pferde, Körper waagerecht in der Luft – der Schwerpunkt liegt außerhalb jeder Stütze.\nEingefrorene Bewegung kann auch töten: Ein Wasserfall bei 1/4000 s sieht aus wie Glas, ein Vogel wie ausgestopft.\n::merke Ein Sprung auf dem Scheitelpunkt wirkt schwerelos, derselbe Sprung beim Absprung kraftvoll – wähle die Phase, nicht nur die Zeit."
+     "body_md": "::kurz Kurze Zeiten zeigen Zustände, die das Auge nie einzeln sieht – lebendig bleiben sie nur, wenn die Pose selbst Bewegung erzählt.\nSzarkowskis Abschnitt „Time“ reichte von Muybridges früher Bewegungsanalyse einer fliegenden Möwe bis zu Robert Riger, der die Aktion eines Footballspiels einfriert [Q2].\n::vergleich iaf4495b971 i3c2088d2c7 | Haas, Tobago Wave: Die brechende Welle steht als weiße Gischtkante still, jede Spritzerspitze ist einzeln zu sehen. | Eve Arnold, Mongolei: Reiter mitten im Sprung über die Pferde, Körper waagerecht in der Luft – der Schwerpunkt liegt außerhalb jeder Stütze.\nEingefrorene Bewegung kann auch töten: Ein Wasserfall bei 1/4000 s sieht aus wie Glas, ein Vogel wie ausgestopft.\n::merke Ein Sprung auf dem Scheitelpunkt wirkt schwerelos, derselbe Sprung beim Absprung kraftvoll – wähle die Phase, nicht nur die Zeit.",
+     "deep": true
     },
     {
      "heading": "Bewegungsunschärfe als Information",
-     "body_md": "::kurz Bewegungsunschärfe ist eine Spur: Sie zeigt, was sich bewegt, wohin und wie schnell – aber nur neben etwas Scharfem.\nCartier-Bresson löste laut Nelson-Atkins Museum in Hyères aus, als ein Radfahrer vorbeifuhr, sodass die verwischte Gestalt frei vom Geländer erscheint [S662901]. Bei Candida Höfer hat die lange Belichtung, die sie für das vorhandene Licht in der Stiftsbibliothek brauchte, die Besucher laut Tate zu geisterhaften Erscheinungen gemacht; Gebäude und Bücher wirken dagegen beständig [S359698].\n::vergleich i7fd8cb9704 idb2e605d79 | Cartier-Bresson, Hyères: Das Geländer schwingt scharf durchs Bild, darüber der verwischte Radfahrer auf dem Pflaster. | Höfer, St. Gallen: Regale, Decke und Vitrinen gestochen scharf, die Besucher im Mittelgang nur durchscheinende Schleier.\nDem ICP zufolge gab Ernst Haas’ innovativer Einsatz langer Verschlusszeiten vielen seiner Bilder die Illusion von Bewegung [S572528].\n::merke Unschärfe braucht einen scharfen Anker – Treppe, Architektur, Horizont. Verwischt alles, weiß niemand mehr, was sich bewegt hat.\n::bild i297daea532 | Caponigro, Running White Deer: Die Hirsche ziehen als helle, verwischte Kette vor dem dunklen, ruhigen Waldrand vorbei – der Wald ist der Anker.\nAls Faustwert für Menschen in mittlerer Distanz: ab etwa 1/30 s Ansätze, ab 1/8 s deutliche Spuren, ab mehreren Sekunden durchscheinend."
+     "body_md": "::kurz Bewegungsunschärfe ist eine Spur: Sie zeigt, was sich bewegt, wohin und wie schnell – aber nur neben etwas Scharfem.\n::bild i297daea532 | Caponigro, Running White Deer: Die Hirsche ziehen als helle, verwischte Kette vor dem dunklen, ruhigen Waldrand vorbei – der Wald ist der Anker.\nBei Candida Höfer hat die lange Belichtung, die sie für das vorhandene Licht in der Stiftsbibliothek brauchte, die Besucher laut Tate zu geisterhaften Erscheinungen gemacht; Gebäude und Bücher wirken dagegen beständig [S359698].\n::merke Unschärfe braucht einen scharfen Anker – Treppe, Architektur, Horizont. Verwischt alles, weiß niemand mehr, was sich bewegt hat.\n::vertiefung\nCartier-Bresson löste laut Nelson-Atkins Museum in Hyères aus, als ein Radfahrer vorbeifuhr, sodass die verwischte Gestalt frei vom Geländer erscheint [S662901].\n::vergleich i7fd8cb9704 idb2e605d79 | Cartier-Bresson, Hyères: Das Geländer schwingt scharf durchs Bild, darüber der verwischte Radfahrer auf dem Pflaster. | Höfer, St. Gallen: Regale, Decke und Vitrinen gestochen scharf, die Besucher im Mittelgang nur durchscheinende Schleier.\nDem ICP zufolge gab Ernst Haas’ innovativer Einsatz langer Verschlusszeiten vielen seiner Bilder die Illusion von Bewegung [S572528].\nAls Faustwert für Menschen in mittlerer Distanz: ab etwa 1/30 s Ansätze, ab 1/8 s deutliche Spuren, ab mehreren Sekunden durchscheinend."
     },
     {
      "heading": "Mitziehen",
-     "body_md": "::kurz Beim Mitziehen folgt die Kamera dem Motiv: Es bleibt relativ scharf, der Hintergrund wird zur Farbspur.\nTypisch sind 1/15 bis 1/60 s. So entsteht Tempo ohne Verlust der Figur, und ein unruhiger Hintergrund wird ruhig.\n::skizze time-mitziehen | Die Drehung beginnt vor dem Auslösen und läuft danach weiter. Im Bild bleibt der Fahrer scharf, Räder und Hintergrund ziehen Streifen.\n- Die Bewegung sollte etwa parallel zur Bildebene laufen.\n- Drehen schon vor dem Auslösen, weiterdrehen danach.\n- Teile, die sich anders bewegen als der Körper – Beine, Räder, Arme –, verwischen trotzdem; das ist oft der eigentliche Reiz.\n- Ein Blitz am Ende der Belichtung legt eine scharfe Kontur über die Spur.\n\nAuf Reisen: Rikschas, Radfahrer, Züge, Reiter, Boote auf Kanälen."
+     "body_md": "::kurz Beim Mitziehen folgt die Kamera dem Motiv: Es bleibt relativ scharf, der Hintergrund wird zur Farbspur.\n::skizze time-mitziehen | Die Drehung beginnt vor dem Auslösen und läuft danach weiter. Im Bild bleibt der Fahrer scharf, Räder und Hintergrund ziehen Streifen.\nTypisch sind 1/15 bis 1/60 s. So entsteht Tempo ohne Verlust der Figur, und ein unruhiger Hintergrund wird ruhig.\n::vertiefung\n- Die Bewegung sollte etwa parallel zur Bildebene laufen.\n- Drehen schon vor dem Auslösen, weiterdrehen danach.\n- Teile, die sich anders bewegen als der Körper – Beine, Räder, Arme –, verwischen trotzdem; das ist oft der eigentliche Reiz.\n- Ein Blitz am Ende der Belichtung legt eine scharfe Kontur über die Spur.\n\nAuf Reisen: Rikschas, Radfahrer, Züge, Reiter, Boote auf Kanälen."
     },
     {
      "heading": "Gedehnte Zeit: Langzeitbelichtung",
-     "body_md": "::kurz Lange Belichtungen bilden keinen Moment ab, sondern einen Mittelwert: Bewegtes verschwindet, Stillstehendes bleibt, Licht sammelt sich.\nHiroshi Sugimoto erforscht laut SFMOMA seit Jahrzehnten in Langzeitbelichtungen die Natur der Zeit [S892924]. Für die Seascapes macht er an jedem Gewässer mehrere Bilder mit unterschiedlichen Tageszeiten, Verschlusszeiten, Belichtungsdauern und Wetterlagen [S305105]; manche zeigen die Bewegung des Wassers deutlich, andere gehen ganz in einer Gradation auf, in der der Nebel die Szene überdeckt [Q3].\n::vergleich i1cebb88136 i2242dd259a | Sugimoto, Sea of Japan: Die Wasserfläche ist noch leicht strukturiert, nach oben löst sich alles in Grau auf, der Horizont ist nur zu ahnen. | Sugimoto, Lake Superior: oben helles Grau, unten fast Schwarz, dazwischen eine harte Kante – zwei Flächen statt Wellen.\nIn „Theaters“ sollte laut Marian Goodman Gallery ein ganzer Film in einer einzigen Belichtung festgehalten werden [Q4]; laut CNN erfasst die Technik den Film und löscht ihn dabei aus – Fellinis ganzer Film wird zu einem Rechteck aus weißem Licht [Q5].\n\nMichael Kenna nutzt laut Amateur Photographer lange Belichtungen, um „kumulative Zeit“ einzufangen, die das Auge nicht sehen kann [S740265]; manche dauern bis zu zehn Stunden [S980340].\n::bild i2e6e530e19 | Kenna, Ice Floe: Das Meer ist eine glatte, dunkle Fläche ohne Wellen, das Eis ein heller Keil ohne Kanten – Zeit hat die Oberfläche ausgelöscht.\n::merke Lange Zeit lohnt sich nur, wo die Summe etwas zeigt, das kein Augenblick zeigt – Ruhe einer Fläche, Spur eines Lichts, Abwesenheit von Menschen."
+     "body_md": "::kurz Lange Belichtungen bilden keinen Moment ab, sondern einen Mittelwert: Bewegtes verschwindet, Stillstehendes bleibt, Licht sammelt sich.\n::bild i2e6e530e19 | Kenna, Ice Floe: Das Meer ist eine glatte, dunkle Fläche ohne Wellen, das Eis ein heller Keil ohne Kanten – Zeit hat die Oberfläche ausgelöscht.\nDas Extrem zeigt Hiroshi Sugimoto:\nIn „Theaters“ sollte laut Marian Goodman Gallery ein ganzer Film in einer einzigen Belichtung festgehalten werden [Q4]; laut CNN erfasst die Technik den Film und löscht ihn dabei aus – Fellinis ganzer Film wird zu einem Rechteck aus weißem Licht [Q5].\n::merke Lange Zeit lohnt sich nur, wo die Summe etwas zeigt, das kein Augenblick zeigt – Ruhe einer Fläche, Spur eines Lichts, Abwesenheit von Menschen.\n::vertiefung\nHiroshi Sugimoto erforscht laut SFMOMA seit Jahrzehnten in Langzeitbelichtungen die Natur der Zeit [S892924]. Für die Seascapes macht er an jedem Gewässer mehrere Bilder mit unterschiedlichen Tageszeiten, Verschlusszeiten, Belichtungsdauern und Wetterlagen [S305105]; manche zeigen die Bewegung des Wassers deutlich, andere gehen ganz in einer Gradation auf, in der der Nebel die Szene überdeckt [Q3].\n::vergleich i1cebb88136 i2242dd259a | Sugimoto, Sea of Japan: Die Wasserfläche ist noch leicht strukturiert, nach oben löst sich alles in Grau auf, der Horizont ist nur zu ahnen. | Sugimoto, Lake Superior: oben helles Grau, unten fast Schwarz, dazwischen eine harte Kante – zwei Flächen statt Wellen.\n\nMichael Kenna nutzt laut Amateur Photographer lange Belichtungen, um „kumulative Zeit“ einzufangen, die das Auge nicht sehen kann [S740265]; manche dauern bis zu zehn Stunden [S980340]."
     },
     {
      "heading": "Zeit schichten: Mehrfachbelichtung, Überblendung, Stapeln",
-     "body_md": "::kurz Statt einer langen Belichtung lassen sich viele kurze übereinanderlegen – das Bild zeigt dann einen Zustand, den es nie gab.\nSzarkowski nannte Gjon Mill und Harry Callahan, die das Mehrfachbild nutzten, um die Kunst des Jongleurs und den Geist Detroits zu zeigen [Q2]. Gursky belichtete laut Tate Teile von „Chicago, Board of Trade II“ doppelt, um den Eindruck von Bewegung zu verstärken [S271343].\n::bild ifccce59f5b | Gursky, Board of Trade II: ein Gewimmel aus bunten Jacken, Papier und Bildschirmen. Wo die Doppelbelichtung sitzt, ist in der kleinen Kopie nicht zu erkennen – das Gewimmel wirkt aber dichter als jeder Moment.\n::skizze time-stapeln | Vier Arten, Zeit zu schichten: eine lange Belichtung mittelt, der Median löscht Passanten, das Maximum addiert Lichtspuren, Überblendungen setzen Tag und Nacht in ein Bild.\nHier beginnt die Frage nach Wahrhaftigkeit: Ein gestapeltes Bild ist legitim, solange es nicht als Augenblick ausgegeben wird (Lektion Wahrheit und Bearbeitung)."
+     "body_md": "::kurz Statt einer langen Belichtung lassen sich viele kurze übereinanderlegen – das Bild zeigt dann einen Zustand, den es nie gab.\nSzarkowski nannte Gjon Mill und Harry Callahan, die das Mehrfachbild nutzten, um die Kunst des Jongleurs und den Geist Detroits zu zeigen [Q2]. Gursky belichtete laut Tate Teile von „Chicago, Board of Trade II“ doppelt, um den Eindruck von Bewegung zu verstärken [S271343].\n::bild ifccce59f5b | Gursky, Board of Trade II: ein Gewimmel aus bunten Jacken, Papier und Bildschirmen. Wo die Doppelbelichtung sitzt, ist in der kleinen Kopie nicht zu erkennen – das Gewimmel wirkt aber dichter als jeder Moment.\n::skizze time-stapeln | Vier Arten, Zeit zu schichten: eine lange Belichtung mittelt, der Median löscht Passanten, das Maximum addiert Lichtspuren, Überblendungen setzen Tag und Nacht in ein Bild.\nHier beginnt die Frage nach Wahrhaftigkeit: Ein gestapeltes Bild ist legitim, solange es nicht als Augenblick ausgegeben wird (Lektion Wahrheit und Bearbeitung).",
+     "deep": true
     },
     {
      "heading": "Seidenwasser: Klischee, Gegenlesart, Bildschirm",
-     "body_md": "::kurz Seidenwasser ist nur stark, wenn die geglättete Form eine Aufgabe hat – und Zeitlosigkeit entsteht auch bei 1/250 s.\n**Klischee-Gegenbeispiel:** jeder Bach, jede Küste mit Graufilter auf mehrere Sekunden belichtet, bis Wasser wie Watte aussieht. Der Effekt nimmt dem Wasser Kraft, Turbulenz und Richtung. Stark wird er erst, wenn die geglättete Form eine Aufgabe hat – als Band, das Felsformen nachzeichnet, oder als ruhige Fläche gegen bewegten Himmel.\n::vergleich i832ad1ce01 i9c726285b5 | McPhee, Breached Dam: Das glatte Wasser zeichnet die Lücke im Damm und die Felskante nach – die Glättung zeigt den Weg des Flusses. | Lanting, Stromatolites: Das Wasser ist zu Nebel geworden, darüber eine gemusterte Wolkendecke – Ruhe gegen Struktur.\n**Gegenlesart:** David Campany schreibt zu Shores Bild am Merced River, die Menschen schienen in der Zeit schwebend, und das sei nicht nur Wirkung des Verschlusses; formale Vollkommenheit rufe immer ein Aussetzen der Zeit hervor [S142772].\n::bild i73c5f80960 | Shore, Merced River: Badende verteilt über Sandbank und flaches Wasser, keine Spur von Bewegung – und doch wirkt die Szene wie angehalten.\n**Bildschirm:** Ob eine Spur Bewegung des Motivs oder Verwacklung der Kamera ist, entscheidet oft erst die Vergrößerung."
+     "body_md": "::kurz Seidenwasser ist nur stark, wenn die geglättete Form eine Aufgabe hat – und Zeitlosigkeit entsteht auch bei 1/250 s.\n**Klischee-Gegenbeispiel:** jeder Bach, jede Küste mit Graufilter auf mehrere Sekunden belichtet, bis Wasser wie Watte aussieht. Der Effekt nimmt dem Wasser Kraft, Turbulenz und Richtung. Stark wird er erst, wenn die geglättete Form eine Aufgabe hat – als Band, das Felsformen nachzeichnet, oder als ruhige Fläche gegen bewegten Himmel.\n::vergleich i832ad1ce01 i9c726285b5 | McPhee, Breached Dam: Das glatte Wasser zeichnet die Lücke im Damm und die Felskante nach – die Glättung zeigt den Weg des Flusses. | Lanting, Stromatolites: Das Wasser ist zu Nebel geworden, darüber eine gemusterte Wolkendecke – Ruhe gegen Struktur.\n**Gegenlesart:** David Campany schreibt zu Shores Bild am Merced River, die Menschen schienen in der Zeit schwebend, und das sei nicht nur Wirkung des Verschlusses; formale Vollkommenheit rufe immer ein Aussetzen der Zeit hervor [S142772].\n::bild i73c5f80960 | Shore, Merced River: Badende verteilt über Sandbank und flaches Wasser, keine Spur von Bewegung – und doch wirkt die Szene wie angehalten.\n**Bildschirm:** Ob eine Spur Bewegung des Motivs oder Verwacklung der Kamera ist, entscheidet oft erst die Vergrößerung.",
+     "deep": true
     }
    ],
    "examples": [
@@ -667,7 +699,8 @@
       "keine einzelnen Wellen",
       "Horizont weich, nicht scharf",
       "zwei Flächen statt Landschaft"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "idb2e605d79",
@@ -676,7 +709,8 @@
       "Architektur scharf als Anker",
       "Menschen durchscheinend",
       "Dauer als Bedeutung"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i7fd8cb9704",
@@ -685,7 +719,8 @@
       "Radfahrer als Bewegungsspur",
       "scharfe Treppe und Geländer",
       "Lücke über dem Geländer"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i3c2088d2c7",
@@ -694,7 +729,8 @@
       "Körper ohne Stütze",
       "verschiedene Sprungphasen nebeneinander",
       "Pferde als ruhige Grundlinie"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "ie3efa9e9cf",
@@ -703,7 +739,8 @@
       "verwischte Köpfe, ruhigere Körper",
       "tiefes Blau des Restlichts",
       "Spiegelungen als zweite Zeitebene"
-     ]
+     ],
+     "deep": true
     },
     {
      "image_id": "i533292524c",
@@ -712,7 +749,8 @@
       "Wasser als Band statt Tropfen",
       "scharfer Fels als Anker",
       "Linie folgt der Felsform"
-     ]
+     ],
+     "deep": true
     }
    ],
    "takeaways": [
@@ -800,7 +838,8 @@
       "Sie verlängert die Dämmerung"
      ],
      "correct": 1,
-     "explanation": "Die Körper hängen klar umrissen in der Luft, jeder in einer anderen Phase. Lebendig bleibt das Bild, weil die Posen selbst Bewegung erzählen."
+     "explanation": "Die Körper hängen klar umrissen in der Luft, jeder in einer anderen Phase. Lebendig bleibt das Bild, weil die Posen selbst Bewegung erzählen.",
+     "deep": true
     }
    ]
   }

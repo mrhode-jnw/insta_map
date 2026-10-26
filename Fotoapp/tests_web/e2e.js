@@ -130,7 +130,7 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
     const l = lessons.find(x => x.id === lid);
     await page.goto(`${base}/Fotoapp/#/theorie/${lid}`); await waitText("Abschlusstest");
     if (!wrong) {
-      const lim = page.locator('.chapter img[data-kind="m"]').first();
+      const lim = page.locator('.chapter img[data-kind="m"]:visible').first();
       if (await lim.count()) {
         await lim.scrollIntoViewIfNeeded(); await lim.click(); await page.waitForSelector(".viewer .viewer-stage");
         await page.mouse.move(195, 420); await page.mouse.wheel(0, -400); await page.waitForTimeout(100);
