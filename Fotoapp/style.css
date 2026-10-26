@@ -338,3 +338,12 @@ details.objection textarea { width: 100%; }
 details.layout { margin: 6px 0; font-size: 0.88rem; color: var(--muted); }
 details.layout summary { cursor: pointer; }
 .warn-inline { color: var(--accent); }
+/* sourced references in drills */
+.refblock { background: var(--panel); border-left: 3px solid var(--ok); border-radius: var(--radius); padding: 4px 14px 10px; margin-bottom: 14px; }
+.refblock h2 { margin-top: 0.6em; }
+.refblock .checkable li { margin: 3px 0; }
+.ref-quotes .expert { margin: 10px 0; }
+details.ai-opt { margin: 12px 0; border: 1px dashed var(--line); border-radius: var(--radius); padding: 6px 12px; }
+details.ai-opt > summary { cursor: pointer; color: var(--muted); }
+label.check { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+label.check input { width: auto; }

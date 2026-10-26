@@ -91,6 +91,7 @@ class Library:
         }
         self.concepts: dict[str, dict] = {}
         self.lessons: dict[str, dict] = {}
+        self.references: dict[str, dict] = {}
         self.keys: dict[str, str] = {}  # seed image key -> image id
         self.by_url: dict[str, str] = {}
 
@@ -221,6 +222,35 @@ class Library:
                           "options": [q(o) for o in qq.get("options", [])]} for qq in le.get("quiz", [])],
             }
         return len(data.get("lessons", []))
+
+    def import_references(self, data: dict) -> int:
+        """Sourced reference answers for drills: per image and aspect, verbatim excerpts from photographers,
+        museums, courses (not AI). Sources get scope 'reference'; who said it is kept as 'role' (not 'kind',
+        which marks expert voices shown on the image page)."""
+        accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
+        n = 0
+        for r in data.get("references", []):
+            img, dim = r.get("image_id"), r.get("dimension")
+            if img not in self.images or not dim:
+                print(f"  ! Referenz übersprungen: {img} {dim}", file=sys.stderr)
+                continue
+            key = f"{img}:{dim}"
+            items = [{k: v for k, v in x.items() if k != "kind"} for x in r.get("sources", [])]
+            ids = self.add_sources(items, "reference", key, accessed)
+            for sid, x in zip(ids, r.get("sources", [])):
+                self.sources[sid]["role"] = x.get("kind", "")
+                if x.get("author"):
+                    self.sources[sid]["author"] = x["author"]
+            lib_ids = [i for i in r.get("library_source_ids", []) if i in self.sources]
+            ref = self.references.setdefault(key, {"image_id": img, "dimension": dim, "entries": []})
+            ref["entries"].append({
+                "answer_md": q_to_s(r.get("answer_md", ""), ids),
+                "checkable": [q_to_s(c, ids) for c in r.get("checkable", [])],
+                "scope_note": r.get("scope_note", ""),
+                "source_ids": ids + lib_ids,
+            })
+            n += 1
+        return n
 
     def import_bios(self, data: dict) -> int:
         accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
@@ -387,6 +417,7 @@ def main() -> None:
     texts = sum(lib.import_chapter_texts(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("chapter_texts_*.json")))
     lessons = sum(lib.import_lessons(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("lessons_*.json")))
     bios = sum(lib.import_bios(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("photographers_bio*.json")))
+    refs = sum(lib.import_references(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("references_*.json")))
 
     failed: list[str] = []
     if args.media_dir:
@@ -421,11 +452,12 @@ def main() -> None:
         "concepts": sorted(lib.concepts.values(), key=lambda c: c["name"]),
         "lessons": sorted(lib.lessons.values(), key=lambda le: le["order"]),
         "sketches": sketches,
+        "references": [r for r in lib.references.values() if r["image_id"] in lib.images],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"{len(out['photographers'])} Fotografen, {len(out['images'])} Bilder, {len(out['sources'])} Quellen "
-          f"({experts} Expertenstimmen), {bios} Biografien, {texts} Kapiteltexte, {lessons} Lektionen, {len(out['concepts'])} Begriffe → {OUT.relative_to(ROOT)}")
+          f"({experts} Expertenstimmen), {bios} Biografien, {texts} Kapiteltexte, {lessons} Lektionen, {len(out['concepts'])} Begriffe, {refs} Quellen-Referenzen → {OUT.relative_to(ROOT)}")
     if failed:
         print("\nNicht geladen:", *failed, sep="\n  - ")
 

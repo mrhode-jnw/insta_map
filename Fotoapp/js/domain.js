@@ -13,6 +13,7 @@ export async function loadLibrary() {
   lib.concepts = base.concepts;
   lib.lessons = base.lessons || [];
   lib.sketches = base.sketches || {};
+  lib.references = base.references || [];
   lib.built_at = base.built_at;
   index();
 }
@@ -21,6 +22,7 @@ function index() {
   for (const k of ["photographers", "projects", "images", "chapters", "concepts"]) lib.by[k] = new Map(lib[k].map(x => [x.id, x]));
   lib.by.sources = new Map(lib.sources.map(s => [s.id, s]));
   lib.by.lessons = new Map((lib.lessons || []).map(l => [l.id, l]));
+  lib.by.refs = new Map((lib.references || []).map(r => [`${r.image_id}:${r.dimension}`, r]));
   lib.photographers.sort((a, b) => a.name.localeCompare(b.name));
 }
 export const photographerOf = img => lib.by.photographers.get(img.photographer_id) || { name: "?" };
@@ -242,6 +244,23 @@ export async function learnFeedback(analysis, answers, img = null) {
   const res = await ai({ system: await prompt("learn_feedback_v6"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true,
     content: [...(img ? await imageBlocks(img) : []),
       { type: "text", text: `<analysis>\n${JSON.stringify(analysis, null, 2)}\n</analysis>\n\n<answers>\n${txt}</answers>` }] });
+  return clampScores(res.data);
+}
+
+// Sourced reference for an image and aspect (photographers, museums, courses — not AI), or null.
+export const refFor = (imageId, dim) => lib.by.refs?.get(`${imageId}:${dim}`) || null;
+export const refCount = dim => (lib.references || []).filter(r => r.dimension === dim && lib.by.images.has(r.image_id)).length;
+export function referenceSourcesText(ref) {
+  const ids = [...new Set(ref.entries.flatMap(e => e.source_ids))];
+  return ref.entries.map(e => `Musterantwort: ${e.answer_md}\nPrüfbare Punkte:\n${e.checkable.map(c => "- " + c).join("\n")}${e.scope_note ? `\nHinweis: ${e.scope_note}` : ""}`).join("\n\n")
+    + "\n\nQuellen (wörtlich):\n" + ids.map(i => lib.by.sources.get(i)).filter(Boolean)
+      .map(s => `[S${s.id}] ${s.author || ""}${s.role ? ` (${s.role})` : ""}: "${s.excerpt}" – ${s.title}`).join("\n");
+}
+export async function drillFeedbackSourced(img, dim, ref, answer) {
+  const res = await ai({ system: await prompt("drill_feedback_src_v1"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true, content: [
+    ...await imageBlocks(img),
+    { type: "text", text: `<dimension>${dim.label}</dimension>\n<question>${dim.q}</question>\n\n<reference>\n${referenceSourcesText(ref)}\n</reference>\n\n<answer>${answer.trim() || "(keine Antwort)"}</answer>` },
+  ] });
   return clampScores(res.data);
 }
 

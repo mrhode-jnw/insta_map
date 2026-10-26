@@ -44,6 +44,13 @@ const ANALYSIS = {
   const files = new Map(); // GitHub contents mock: path@branch -> {content(b64), sha}
   const claudeCalls = [];
   let lib = JSON.parse(fs.readFileSync(path.join(ROOT, "Fotoapp/data/library.json"), "utf8"));
+  // one sourced reference (fixture) so the drill can be tested against sources instead of AI
+  const refImg = lib.images[0];
+  lib.sources.push({ id: 999999, url: "https://example.org/making-of", title: "Making-of (Testquelle)", excerpt: "TESTQUELLE: Das Licht kam am späten Nachmittag flach von links.",
+    accessed_at: "2026-10-26", scope: "reference", scope_id: `${refImg.id}:light`, role: "photographer", author: "Test-Fotograf" });
+  lib.references = [{ image_id: refImg.id, dimension: "light", entries: [{ answer_md: "Flaches Licht von links am späten Nachmittag [S999999].",
+    checkable: ["Lange Schatten nach rechts [S999999]"], scope_note: "", source_ids: [999999] }] }];
+  const libJson = JSON.stringify(lib);
   const configJs = `window.SEHSCHULE_MEDIA_KEY_ENC = "${await encWithCode(mediaKey)}";
 window.SEHSCHULE_ANTHROPIC_KEY_ENC = "${await encWithCode("sk-ant-test")}"; window.SEHSCHULE_MODEL = "claude-opus-5-5"; window.SEHSCHULE_EFFORT = "high";
 window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; window.SEHSCHULE_OPENAI_MODEL = "gpt-test"; window.SEHSCHULE_PROVIDER = "${PROVIDER}";`;
@@ -58,6 +65,7 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   if (process.env.DEBUG) page.on("requestfailed", r => console.log("failed:", r.url(), r.failure()?.errorText));
 
   await page.route(`${base}/Fotoapp/config.js`, r => r.fulfill({ contentType: "text/javascript", body: configJs }));
+  await page.route(`${base}/Fotoapp/data/library.json*`, r => r.fulfill({ contentType: "application/json", body: libJson }));
   await page.route(`${base}/config.js`, r => r.fulfill({ contentType: "text/javascript", body: rootConfig }));
   await page.route("https://raw.githubusercontent.com/**", r => {
     const m = r.request().url().match(/sehschule-media\/(.+)$/);
@@ -164,9 +172,23 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
     for (const k of ["viewpoint", "moment", "omitted", "light"]) if (k !== first.id && lessons.some(x => x.id === k)) await passLesson(k);
   }
 
-  // Seeing drill
+  // Seeing drill against fixed sources (default): no AI analysis, grading only against the sourced reference
+  await page.goto(`${base}/Fotoapp/#/sehen`); await waitText("Worauf schauen?");
+  ok((await page.content()).includes("1 Bilder mit Quellenreferenz"), "drill cards show how many images have sourced references");
+  await page.check('input[value="light"]'); await page.selectOption('select[name="look"]', "0");
+  const callsBeforeRef = claudeCalls.length;
+  await page.click('form[data-action="drill-start"] button');
+  await page.waitForSelector("#questions"); await page.fill('textarea[name="answer"]', "Flaches Licht von links.");
+  await page.click('#questions button'); await waitText("was die Quellen sagen"); await waitText("TESTQUELLE");
+  await waitText("TESTFEEDBACK", 30000);
+  const refCalls = claudeCalls.slice(callsBeforeRef);
+  ok(refCalls.length === 1 && JSON.stringify(refCalls[0].body).includes("<reference>") && JSON.stringify(refCalls[0].body).includes("TESTQUELLE"), "sourced drill: one grading call against the sourced reference, no AI analysis");
+  ok(await page.$("details.ai-opt") !== null, "AI assessment only as an optional, collapsed extra");
+  await shot("02b-drill-quelle");
+  // AI path when he opts out of "only sourced"
   await page.goto(`${base}/Fotoapp/#/sehen`); await waitText("Worauf schauen?");
   await page.check('input[value="light"]'); await page.selectOption('select[name="look"]', "30");
+  await page.uncheck('input[name="sourced"]');
   await shot("02-sehen");
   await page.click('form[data-action="drill-start"] button');
   await waitText("Erst nur schauen"); ok(await page.isHidden("#questions"), "question hidden during look timer");

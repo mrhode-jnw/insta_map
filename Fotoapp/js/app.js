@@ -3,7 +3,7 @@ import { AIError, loadState, mediaUrl, providerLabel, mutateState, session, stor
 import {
   CONSTRUCTION_LABELS, DIM, DIMENSIONS, DRILLABLE, EXTRA_QUESTIONS, QUESTIONS, addOwn, allTags, analyses, chapterDraft,
   currentAnalysis, drillFeedback, esc, generateAnalysis, learnFeedback, lib, loadLibrary, md, newSourceId, ownId,
-  LEARN_ROUND_REQUIRES, PASS_RATIO, analysisPending, lessonTime, splitDeep, askLesson, discuss, expertsFor, isUnlocked, theoryProgress, photographerOf, projectOf, referenceText, referencedIds, sourcesFor, sourcesForImage,
+  LEARN_ROUND_REQUIRES, PASS_RATIO, analysisPending, lessonTime, splitDeep, refFor, refCount, drillFeedbackSourced, askLesson, discuss, expertsFor, isUnlocked, theoryProgress, photographerOf, projectOf, referenceText, referencedIds, sourcesFor, sourcesForImage,
 } from "./domain.js";
 
 const $ = s => document.querySelector(s);
@@ -222,11 +222,12 @@ views.sehen = async () => {
   <form data-action="drill-start" class="card grid-form">
     <fieldset class="wide"><legend>Worauf schauen?</legend><div class="dims">
       ${open.map(d => `<label class="dim"><input type="radio" name="dimension" value="${d.key}" ${d === open[0] ? "checked" : ""}>
-        <span class="dim-text"><b>${d.label}</b><span>${d.q}</span><em class="muted">${counts[d.key] || 0} geübt</em></span></label>`).join("")}
+        <span class="dim-text"><b>${d.label}</b><span>${d.q}</span><em class="muted">${counts[d.key] || 0} geübt · ${refCount(d.key)} Bilder mit Quellenreferenz</em></span></label>`).join("")}
       ${open.length > 1 ? `<label class="dim"><input type="radio" name="dimension" value="mixed"><span class="dim-text"><b>Gemischt</b><span>Jedes Bild mit einem freigeschalteten Aspekt.</span></span></label>` : ""}
     </div>
     ${DRILLABLE.length > open.length ? `<p class="locked-list"><span class="muted small">Noch gesperrt – erst die Lektion abschließen:</span>
       ${DRILLABLE.filter(d => !isUnlocked(prog, d.key)).map(d => `<a class="tag" href="#/theorie/${d.key}">🔒 ${d.label}</a>`).join(" ")}</p>` : ""}</fieldset>
+    <label class="check wide"><input type="checkbox" name="sourced" ${open.some(d => refCount(d.key)) ? "checked" : ""}> Nur Bilder mit Quellenreferenz (empfohlen) <span class="muted small">– verglichen wird mit Aussagen der Fotografen, Museen und Lehrgänge, nicht mit einer KI-Einschätzung</span></label>
     <label>Bilder <select name="size"><option>3</option><option selected>5</option><option>8</option></select></label>
     <label>Erst schauen <select name="look">${LOOK_CHOICES.map(s => `<option value="${s}" ${s === look ? "selected" : ""}>${s ? s + " Sekunden" : "ohne Timer"}</option>`).join("")}</select></label>
     ${open.length ? `<button>Übung starten</button>` : `<p class="warn wide">Noch keine Sehübung freigeschaltet – beginne mit der <a href="#/theorie">Theorie</a>.</p>`}</form>
@@ -261,8 +262,12 @@ views.drillReveal = async id => {
   ${imageHeader(img)}
   <div class="two-col reveal"><div><h2>${d.label}: deine Beobachtung</h2><p class="muted small">${d.q}</p><p class="pre">${esc(drill.answer || "—")}</p>
     ${feedbackBlock(drill, "drill-retry")}</div>
-  <div><h2>${d.label}: Analyse <span class="muted small">(KI-Einschätzung, kann irren)</span></h2>${an ? `${analysisMeta(an)}<p>${esc(referenceText(an.data, d.field) || "Die gespeicherte Analyse (ältere Version) behandelt diesen Aspekt nicht – auf der Bildseite neu erzeugen.")}</p>
-    <details><summary>Ganze Analyse</summary>${analysisBody(an.data)}</details>${objectionBlock(img, an, { drill: drill.id })}` : `<p class="pending">Analyse wird erzeugt …</p>`}
+  <div>${(() => { const ref = refFor(img.id, d.key);
+    const aiPart = an ? `${analysisMeta(an)}<p>${esc(referenceText(an.data, d.field) || "Die gespeicherte Analyse (ältere Version) behandelt diesen Aspekt nicht – auf der Bildseite neu erzeugen.")}</p>
+      <details><summary>Ganze Analyse</summary>${analysisBody(an.data)}</details>${objectionBlock(img, an, { drill: drill.id })}`
+      : ref ? `<div id="analysis"><button class="secondary" data-action="analyze" data-img="${img.id}">KI-Einschätzung erzeugen</button><span class="busy">KI analysiert … (1–3 Minuten)</span></div>` : `<p class="pending">Analyse wird erzeugt …</p>`;
+    return ref ? `${refBlock(ref, d)}<details class="ai-opt"><summary>KI-Einschätzung (zusätzlich, kann irren)</summary>${aiPart}</details>`
+      : `<h2>${d.label}: Analyse <span class="muted small">(KI-Einschätzung, kann irren – zu diesem Bild gibt es keine Quellenreferenz)</span></h2>${aiPart}`; })()}
     ${concepts.length ? `<h3>Begriffe dazu</h3><ul>${concepts.map(c => `<li><a href="#/begriffe/${c.id}">${esc(c.name)}</a></li>`).join("")}</ul>` : ""}</div></div>
   ${expertsBlock(img)}${await discussionBlock(img)}${artistCard(photographerOf(img))}
   ${sourcesBlock(sourcesForImage(img), { scope: "image" })}
@@ -281,6 +286,17 @@ function objectionBlock(img, an, ref = {}) {
       <label>Was ist falsch – und woran siehst du es im Bild?<textarea name="text" rows="4" required placeholder="z. B. Die Kamera stand auf Augenhöhe: Der Bug des mittleren Boots ragt über den Horizont."></textarea></label>
       <p class="muted small">Die KI prüft deinen Einwand Punkt für Punkt am Bild, korrigiert oder begründet, warum nicht. Die bisherige Version bleibt erhalten; deine Bewertung wird danach neu berechnet.</p>
       <button>Prüfen lassen</button></form></details>`;
+}
+// Reference from fixed sources (photographers, museums, courses): the yardstick in drills, shown before any AI text.
+const ROLE = { photographer: "Fotograf:in selbst", museum: "Museum", curator: "Kurator:in", critic: "Kritik", teaching: "Lehrgang / Hochschule", magazine: "Fachmagazin" };
+function refBlock(ref, d) {
+  const ids = [...new Set(ref.entries.flatMap(e => e.source_ids))], srcs = ids.map(i => lib.by.sources.get(i)).filter(Boolean);
+  return `<section class="refblock"><h2>${d.label}: was die Quellen sagen</h2>
+    ${ref.entries.map(e => `<div class="prose">${md(e.answer_md)}</div>
+      ${e.checkable.length ? `<p class="small"><b>Daran siehst du es im Bild:</b></p><ul class="checkable">${e.checkable.map(c => `<li>${md(c).replace(/^<p>|<\/p>$/g, "")}</li>`).join("")}</ul>` : ""}
+      ${e.scope_note ? `<p class="muted small">${esc(e.scope_note)}</p>` : ""}`).join("")}
+    <div class="ref-quotes">${srcs.map(s => `<figure class="expert" id="source-${s.id}"><blockquote>${esc(s.excerpt)}</blockquote>
+      <figcaption>— ${esc(s.author || "")}${s.role || s.kind ? ` <span class="tag">${esc(ROLE[s.role] || s.role || s.kind)}</span>` : ""} · <a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title || s.url)}</a></figcaption></figure>`).join("")}</div></section>`;
 }
 // Which analysis is this? Older prompt versions had no grid and misjudged positions more often.
 const analysisMeta = an => { const v = Number((an.prompt_version || "").match(/analysis_v(\d+)/)?.[1] || 0);
@@ -727,11 +743,11 @@ const actions = {
     const prog = await theoryProgress();
     const dims = (dim === "mixed" ? DRILLABLE.map(d => d.key) : [dim]).filter(k => isUnlocked(prog, k));
     if (!dims.length) return toast("Erst die Lektion abschließen.");
-    startDrill(dims, Number(f.get("size")), look);
+    startDrill(dims, Number(f.get("size")), look, f.get("sourced") === "on");
   },
   async "drill-quick"(btn) {
     if (!isUnlocked(await theoryProgress(), btn.dataset.dim)) { location.hash = `#/theorie/${btn.dataset.dim}`; return toast("Erst die Lektion abschließen."); }
-    startDrill([btn.dataset.dim], 5, Number(store.get("lookSeconds") ?? 60));
+    startDrill([btn.dataset.dim], 5, Number(store.get("lookSeconds") ?? 60), true);
   },
   async quiz(form) {
     const l = lib.by.lessons.get(form.dataset.id), f = new FormData(form), deepSet = form.dataset.set === "deep";
@@ -778,7 +794,9 @@ const actions = {
     pendingItems.set(drill.id, drill);
     const st = sess.get("drill"); if (st) { st.done = [...(st.done || []), drill.id]; sess.set("drill", st); }
     bg(() => mutateState("drills", [], s => [...s, drill], "Sehübung"));
+    const ref = refFor(img.id, d.key);
     bg(() => evaluate("drills", drill, async () => {
+      if (ref) return { reference: true, ...await drillFeedbackSourced(img, d, ref, drill.answer) };
       const an = await generateAnalysis(img); rerenderIf(drill.id);
       return { analysis_version: an.version, ...await drillFeedback(img, d, an.data, drill.answer) };
     }));
@@ -787,7 +805,9 @@ const actions = {
   async "drill-retry"(btn) {
     const dr = await findItem("drills", btn.dataset.id), img = lib.by.images.get(dr.image_id);
     pendingItems.set(dr.id, { ...dr, error: undefined }); route();
+    const ref = refFor(img.id, dr.dimension);
     bg(() => evaluate("drills", pendingItems.get(dr.id), async () => {
+      if (ref) return { reference: true, ...await drillFeedbackSourced(img, DIM[dr.dimension], ref, dr.answer) };
       const an = await generateAnalysis(img);
       return { analysis_version: an.version, ...await drillFeedback(img, DIM[dr.dimension], an.data, dr.answer) };
     }));
@@ -837,7 +857,7 @@ const actions = {
         const an = await generateAnalysis(img, true, text);
         objecting.delete(img.id); route(true);
         // re-grade his answer against the checked analysis
-        if (drill) { const dr = await findItem("drills", drill); if (dr) { pendingItems.set(dr.id, { ...dr, error: undefined, hit: undefined, feedback_md: undefined }); route(true);
+        if (drill) { const dr = await findItem("drills", drill); if (dr && !refFor(dr.image_id, dr.dimension)) { pendingItems.set(dr.id, { ...dr, error: undefined, hit: undefined, feedback_md: undefined }); route(true);
           await evaluate("drills", pendingItems.get(dr.id), async () => ({ analysis_version: an.version, ...await drillFeedback(img, DIM[dr.dimension], an.data, dr.answer) })); } }
         if (answer) { const a = await findItem("answers", answer); if (a) { pendingItems.set(a.id, { ...a, error: undefined, hit: undefined, feedback_md: undefined }); route(true);
           await evaluate("answers", pendingItems.get(a.id), async () => ({ analysis_version: an.version, ...await learnFeedback(an.data, a, img) })); } }
@@ -939,13 +959,19 @@ async function editChapterImages(id, fn) {
   route();
 }
 
-function startDrill(dims, size, look) {
+function startDrill(dims, size, look, sourcedOnly = true) {
   loadState("drills", []).then(drills => {
     const done = new Set(drills.map(d => d.image_id + "|" + d.dimension));
-    const pool = shuffle(lib.images.slice()).sort((a, b) => dims.some(d => done.has(a.id + "|" + d)) - dims.some(d => done.has(b.id + "|" + d)));
-    const items = pool.slice(0, size).map(i => [i.id, dims[Math.floor(Math.random() * dims.length)]]);
+    // pairs (image, aspect): with a sourced reference first; unseen before seen
+    const pairs = shuffle(lib.images.flatMap(i => dims.map(d => [i.id, d])))
+      .filter(([i, d]) => !sourcedOnly || refFor(i, d))
+      .sort((a, b) => (done.has(a.join("|")) - done.has(b.join("|"))) || (!refFor(...a) - !refFor(...b)));
+    const items = [], used = new Set();
+    for (const p of pairs) { if (items.length >= size) break; if (!used.has(p[0])) { used.add(p[0]); items.push(p); } }
+    if (!items.length) return toast("Zu diesem Aspekt gibt es noch keine Bilder mit Quellenreferenz – Haken „Nur Bilder mit Quellenreferenz“ entfernen, um mit KI-Einschätzung zu üben.", 7000);
+    if (items.length < size) toast(`Nur ${items.length} Bild(er) mit Quellenreferenz verfügbar.`, 4000);
     sess.set("drill", { items, pos: 0, look, done: [] });
-    prefetch(items.map(([id]) => id));
+    prefetch(items.filter(([i, d]) => !refFor(i, d)).map(([id]) => id)); // AI analysis only where no sourced reference exists
     location.hash = "#/sehen/uebung";
   });
 }
