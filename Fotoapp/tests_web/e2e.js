@@ -187,6 +187,7 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   await waitText("TESTFEEDBACK", 30000);
   const refCalls = claudeCalls.slice(callsBeforeRef);
   ok(refCalls.length === 1 && JSON.stringify(refCalls[0].body).includes("<reference>") && JSON.stringify(refCalls[0].body).includes("TESTQUELLE"), "sourced drill: one grading call against the sourced reference, no AI analysis");
+  ok(JSON.stringify(refCalls[0].body).includes("Gehört NICHT dazu"), "grading gets the scope of the aspect (no off-topic deductions)");
   ok(await page.$("details.ai-opt") !== null, "AI assessment only as an optional, collapsed extra");
   await shot("02b-drill-quelle");
   // AI path when he opts out of "only sourced"

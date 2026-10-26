@@ -98,6 +98,27 @@ export const DIMENSIONS = [
   { key: "sequence", label: "Sequenz", field: null },
 ];
 export const DIM = Object.fromEntries(DIMENSIONS.map(d => [d.key, d]));
+// What each aspect covers – and what belongs to other aspects. Feedback must stay inside this scope:
+// a distance drill must not mark camera height (viewpoint) or reflections (layers) as "missing".
+export const DIM_SCOPE = {
+  viewpoint: ["Kamerahöhe, seitliche Lage, Blickachse und Abstand des Standorts; woran man sie im Bild abliest (Horizont relativ zu Dingen, Überschneidungen, Ober-/Unterseiten)", "Licht, Moment, Farbe, Bildwirkung der Ebenen"],
+  distance: ["Abstand zum Motiv und die daraus folgenden Größenverhältnisse von Nah und Fern, Raumdehnung oder -stauchung, Brennweitenwirkung, Maßstabsanker zum Abschätzen des Abstands", "Kamerahöhe und Blickachse (Standpunkt), Spiegelungen, Licht, Farbe, Moment, Ebenenaufbau als Gestaltung"],
+  light: ["Lichtrichtung, -qualität, Tageszeit/Wetter als Lichtquelle, Schatten, Kontrast, was das Licht hervorhebt oder verschweigt", "Standpunkt, Distanz, Moment (außer Lichtwechsel), Farbe als Gestaltung"],
+  moment: ["worauf gewartet wurde, was den Augenblick ausmacht, was früher oder später verloren wäre (Gesten, Konstellation, Wetter- und Lichtwechsel)", "Standpunkt, Distanz, Bildaufbau ohne Zeitbezug"],
+  layers: ["Zahl und Staffelung der Raumebenen, wie sie sich überlagern, verdecken oder öffnen, Tiefenhinweise", "Standpunkt, Licht als Thema, Farbe, Moment"],
+  color: ["tragende Farben oder Tonwerte, Farbbeziehungen, Akzente, was farblich fehlt", "Standpunkt, Distanz, Moment, Ebenen"],
+  omitted: ["was außerhalb des Rahmens bleibt oder ausgeschnitten ist und was das Bild dadurch gewinnt", "Kamerahöhe, Licht, Moment, Farbe"],
+  frame: ["was an den vier Bildkanten geschieht: Anschnitte, Berührungen, Abstände zum Rand", "Standpunkt, Licht, Farbe, Moment"],
+  detail: ["welches Einzelne für das Ganze steht und warum", "Standpunkt, Licht, Distanz als Messung"],
+  attitude: ["Haltung zum Motiv und zu Menschen: Nähe/Distanz im übertragenen Sinn, Respekt, Ironie, beobachtet oder inszeniert", "Technik, Licht, Farbe als Selbstzweck"],
+  scale: ["woran man die Größe der Szene abliest, Maßstabsträger, betonte oder unbestimmbare Größe", "Licht, Farbe, Moment"],
+  atmosphere: ["Dunst, Nebel, Wolken, Niederschlag, Jahreszeit, Luftperspektive und was sie leisten", "Standpunkt, Moment ohne Wetterbezug"],
+  focus: ["wo die Schärfe liegt, Tiefe oder Flachheit, was die Schärfe lenkt", "Standpunkt, Licht, Farbe"],
+  order: ["Gewichtsverteilung, Gleichgewicht oder Spannung, Richtung, Blickführung, Figur und Grund", "Standpunkt als Ort, Licht als Quelle, Moment"],
+  surface: ["ob sich das Bild als Fläche oder Raum liest und wodurch (Geometrie, Rhythmus, Verflachung)", "Standpunkt als Ort, Moment, Licht als Quelle"],
+  time: ["Belichtungszeit als Bildwirkung: eingefroren, Bewegungsunschärfe, Langzeit", "Standpunkt, Farbe, Ebenen"],
+};
+export const scopeText = key => DIM_SCOPE[key] ? `Gehört zu diesem Aspekt: ${DIM_SCOPE[key][0]}.\nGehört NICHT dazu (andere Aspekte, weder als Fehler noch als fehlend werten): ${DIM_SCOPE[key][1]}.` : "";
 export const DRILLABLE = DIMENSIONS.filter(d => d.field);
 
 export const QUESTIONS = [
@@ -268,24 +289,27 @@ export function learnRefs(imageId, extraLabel = "") {
 }
 export async function learnFeedbackSourced(img, answers, refs) {
   const qs = [...QUESTIONS, ...(answers.q_extra_label ? [["q_extra", answers.q_extra_label]] : [])];
-  const txt = qs.map(([k, l]) => `${l}\nAntwort: ${(answers[k] || "").trim() || "(keine Antwort)"}\nReferenz: ${refs[k] ? "\n" + referenceSourcesText(refs[k]) : "keine Quelle"}\n`).join("\n");
-  const res = await ai({ system: await prompt("learn_feedback_src_v1"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true,
+  const dimOf = k => k === "q_extra" ? EXTRA_REF_DIMS[EXTRA_QUESTIONS.indexOf(answers.q_extra_label)] : LEARN_REF_DIMS[k];
+  const scopeKey = d => ({ edge: "frame", time_motion: "time" }[d] || d);
+  const txt = qs.map(([k, l]) => `${l}\nAntwort: ${(answers[k] || "").trim() || "(keine Antwort)"}\n`
+    + (refs[k] ? `Umfang der Frage:\n${scopeText(scopeKey(dimOf(k)))}\nReferenz:\n${referenceSourcesText(refs[k])}\n` : "Referenz: keine Quelle\n")).join("\n");
+  const res = await ai({ system: await prompt("learn_feedback_src_v2"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true,
     content: [...await imageBlocks(img), { type: "text", text: `<references_and_answers>\n${txt}</references_and_answers>` }] });
   return clampScores(res.data);
 }
 
 export async function drillFeedbackSourced(img, dim, ref, answer) {
-  const res = await ai({ system: await prompt("drill_feedback_src_v1"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true, content: [
+  const res = await ai({ system: await prompt("drill_feedback_src_v2"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true, content: [
     ...await imageBlocks(img),
-    { type: "text", text: `<dimension>${dim.label}</dimension>\n<question>${dim.q}</question>\n\n<reference>\n${referenceSourcesText(ref)}\n</reference>\n\n<answer>${answer.trim() || "(keine Antwort)"}</answer>` },
+    { type: "text", text: `<dimension>${dim.label}</dimension>\n<question>${dim.q}</question>\n<scope>\n${scopeText(dim.key)}\n</scope>\n\n<reference>\n${referenceSourcesText(ref)}\n</reference>\n\n<answer>${answer.trim() || "(keine Antwort)"}</answer>` },
   ] });
   return clampScores(res.data);
 }
 
 export async function drillFeedback(img, dim, analysis, answer) {
-  const res = await ai({ system: await prompt("drill_feedback_v4"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true, content: [
+  const res = await ai({ system: await prompt("drill_feedback_v5"), maxTokens: 4000, schema: FEEDBACK_SCHEMA, light: true, content: [
     ...await imageBlocks(img),
-    { type: "text", text: `<dimension>${dim.label}</dimension>\n<question>${dim.q}</question>\n\n<reference>${referenceText(analysis, dim.field)}</reference>\n\n<full_analysis>\n${JSON.stringify(analysis, null, 2)}\n</full_analysis>\n\n<answer>${answer.trim() || "(keine Antwort)"}</answer>` },
+    { type: "text", text: `<dimension>${dim.label}</dimension>\n<question>${dim.q}</question>\n<scope>\n${scopeText(dim.key)}\n</scope>\n\n<reference>${referenceText(analysis, dim.field)}</reference>\n\n<answer>${answer.trim() || "(keine Antwort)"}</answer>` },
   ] });
   return clampScores(res.data);
 }
