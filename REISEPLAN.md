@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 26.10.2026 10:43 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 26.10.2026 10:54 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -248,9 +248,9 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚗 Auto · ca. 25 Min. · 20 km
 - **~16:00** 🏨 Check-in: **The Lixury Hotel Chongqing**
   - ↓ 🚗 Auto · ca. 5 Min. · 2 km
-- **16:45–17:30** ◻︎ optional: **Raffles City – The Crystal 重庆来福士·水晶连廊** (Yuzhong (Chaotianmen), Chongqing) · Licht: Spätes Licht über dem Zusammenfluss – Nur wenn die Ankunft glatt läuft und Tickets frei sind (kontingentiert). Sonst direkt zum Hongyadong.
+- **16:45–17:30** ◻︎ optional: **Raffles City – The Crystal 重庆来福士·水晶连廊** (Yuzhong (Chaotianmen), Chongqing) · Licht: Spätes Licht über dem Zusammenfluss – Nur wenn die Ankunft glatt läuft und Tickets frei sind. Bei Wolkenuntergrenze unter 400 m steckt die Brücke (250 m) im Dunst – dann auslassen.
   - ↓ 🚶 zu Fuß · ca. 15 Min.
-- **17:45–19:30** ✅ **Hongyadong 洪崖洞** (Yuzhong, Chongqing) · Licht: Blaue Stunde 18:10–18:40, Lichter ab ca. 18:30 – Gegen 17:45 da sein und Platz sichern. Klassischer Blick: von der Qiansimen-Brücke (Fußweg, Nordende) zurück auf die beleuchteten Stelzenhäuser, Stativ, 24–70, 2–8 s bei f/8. Danach unten am Ufer (Jialing-Promenade) frontal mit Spiegelung. Bei Nieselregen: Spiegelungen auf dem nassen Pflaster.
+- **17:45–19:30** ✅ **Hongyadong 洪崖洞** (Yuzhong, Chongqing) · Licht: Blaue Stunde 18:10–18:40, Lichter ab ca. 18:30 – Gegen 17:45 da sein und Platz sichern. Klassischer Blick: von der Qiansimen-Brücke (Fußweg, Nordende) zurück auf die beleuchteten Stelzenhäuser, Stativ, 24–70, 2–8 s bei f/8. Danach unten am Ufer (Jialing-Promenade) frontal mit Spiegelung. Bei Nieselregen: Spiegelungen auf dem nassen Pflaster. Laut Modellen ab ca. 14 Uhr weitgehend trocken, Pflaster vom Vormittag noch nass – gute Spiegelungen. Tiefe Wolkendecke (300–800 m): Hochhausspitzen können im Dunst verschwinden, das gibt Stimmung.
   - ↓ 🚶 zu Fuß · ca. 5 Min.
 - **19:30–20:00** ◻︎ optional: **Qiansimen Bridge 千厮门大桥** (Yuzhong, Chongqing) · Licht: Nacht – Über die Brücke Richtung Jiangbei: Hongyadong mit Skyline von weiter weg, 70–200.
   - ↓ 🚶 zu Fuß · ca. 20 Min.
@@ -260,18 +260,18 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 
 - **7:00** 🏨 Unterkunft: **The Lixury Hotel Chongqing**
   - ↓ 🚗 Auto · ca. 10 Min. · 6 km
-- **7:30–8:30** ✅ **Liziba Station 李子坝 – Monorail durchs Haus** (Yuzhong, Chongqing) · Licht: Morgen – vor dem Andrang – Plattform unten an der Straße (Aussichtsplattform Liziba), Bahnen alle paar Minuten. 24–70, 1/500 s für die Einfahrt ins Haus; bei Regen glänzende Straße mit ins Bild.
+- **7:30–8:30** ✅ **Liziba Station 李子坝 – Monorail durchs Haus** (Yuzhong, Chongqing) · Licht: Morgen – vor dem Andrang – Plattform unten an der Straße, Bahnen alle paar Minuten. Bei Regen: nasse Straße und Schirme mit ins Bild, 1/500 s für die Einfahrt, Objektiv-Tuch griffbereit.
   - ↓ 🚶 zu Fuß · ca. 15 Min. (Zu Fuß bergauf nach Eling)
 - **8:45–9:15** ◻︎ optional: **Eling Park Skywalk 鹅岭栈桥** (Yuzhong, Chongqing) · Licht: Morgen – Kurzer Abstecher auf dem Weg, optional.
-- **9:15–10:45** ✅ **Eling Second Factory 鹅岭二厂** (Yuzhong, Chongqing) · Licht: Vormittag – Dachterrassen, bei Regen Innenhöfe – Testbed 2 (鹅岭二厂): Backstein-Fabrik, Treppen und Dachterrassen mit Blick über den Jialing. Öffnet ca. 9–10 Uhr.
-  - ↓ 🚗 Auto · ca. 10 Min. · 7 km
-- **11:15–12:45** 🥢 **Mittagspause in Yuzhong** – Hotpot oder Nudeln, ggf. im Hotel kurz trocknen.
-- **13:00–14:30** ✅ **Baixiangju & Yangtze River Cableway 白象居 · 长江索道** (Yuzhong, Chongqing) · Licht: Mittag/Nachmittag – Architektur, Licht egal – Baixiangju (白象居): Straße erreicht das Wohnhaus im 24. Stock über eine Brücke – von unten am Treppenweg hochfotografieren, 16–35. Danach optional Jangtse-Seilbahn zum Südufer.
-  - ↓ 🚶 zu Fuß · ca. 10 Min.
-- **14:45–15:45** ◻︎ optional: **Huguang Guild Hall 湖广会馆** (Yuzhong, Chongqing) · Licht: Nachmittag – Innenhöfe – Gildehallen am Jangtse-Ufer, gut bei Regen.
-- **16:00** 🏨 Pause: **The Lixury Hotel Chongqing**
-  - ↓ 🚶 zu Fuß · ca. 10 Min.
-- **17:45–19:30** ✅ **Shibati Old Steps 十八梯** (Yuzhong, Chongqing) · Licht: Blaue Stunde 18:10–18:40 → Laternen bei Nacht – Ladder Street (十八梯): von oben die Treppen hinunter mit den Laternen, 24–70, Stativ. Bei Nässe glänzen die Stufen.
+- **9:15–10:45** ✅ **Eling Second Factory 鹅岭二厂** (Yuzhong, Chongqing) · Licht: Vormittag – Dachterrassen, bei Regen Innenhöfe – Testbed 2 (鹅岭二厂): Backstein-Fabrik, überdachte Gänge und Treppen. Bei Regen die Innenhöfe und Durchgänge; der Blick über den Jialing ist heute eher dunstig. Öffnet ca. 9–10 Uhr.
+  - ↓ 🚗 Auto · ca. 10 Min. · 8 km
+- **11:00–12:15** ◻︎ optional: **Huguang Guild Hall 湖广会馆** (Yuzhong, Chongqing) · Licht: Regen-Spitze – Innenhöfe – Gildehallen am Jangtse-Ufer: Holzgalerien und Dachtraufen, bei Regen tropfen sie schön. Ganz in der Nähe von Baixiangju.
+- **12:15–13:30** 🥢 **Mittagspause in Yuzhong** – Hotpot oder Nudeln, danach im Hotel trocknen und Akkus laden.
+- **13:45** 🏨 Pause – Regenspitze abwarten: **The Lixury Hotel Chongqing**
+  - ↓ 🚗 Auto · ca. 5 Min. · 1 km
+- **15:00–16:45** ✅ **Baixiangju & Yangtze River Cableway 白象居 · 长江索道** (Yuzhong, Chongqing) · Licht: Nachmittag – Regen lässt nach – Baixiangju (白象居): Straße erreicht das Wohnhaus im 24. Stock über eine Brücke – von unten am Treppenweg hochfotografieren, 16–35. Laut Modellen lässt der Regen ab ca. 15 Uhr nach. Danach optional Jangtse-Seilbahn zum Südufer.
+  - ↓ 🚶 zu Fuß · ca. 20 Min.
+- **17:15–19:30** ✅ **Shibati Old Steps 十八梯** (Yuzhong, Chongqing) · Licht: Blaue Stunde 18:10–18:40 → Laternen bei Nacht – Ladder Street (十八梯): von oben die Treppen hinunter mit den Laternen, 24–70, Stativ. Abends nur noch wenig Regen – nasse, glänzende Stufen sind ideal.
   - ↓ 🚗 Auto · ca. 10 Min. · 8 km
 - **20:00–21:00** ◻︎ optional: **Yikeshu Viewing Platform 一棵树观景台** (Nan'an (Nanshan), Chongqing) · Licht: Nacht – Skyline von Nanshan – Optional: Nachtblick über Yuzhong, nur bei klarer Sicht lohnend.
   - ↓ 🚗 Auto · ca. 15 Min. · 12 km
@@ -279,11 +279,11 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 
 ### Mi 28.10. – Chongqing → Shanghai (Flug CA4541) · Bund bei Nacht _(Entwurf)_
 
-- **9:00** 🏨 Unterkunft: **The Lixury Hotel Chongqing**
+- **10:30** 🏨 Unterkunft: **The Lixury Hotel Chongqing**
   - ↓ 🚗 Auto · ca. 15 Min. · 14 km (Taxi/DiDi nach Huangjueping (ca. 25 Min.))
-- **9:30–11:30** ✅ **Huangjueping Graffiti Street 黄桷坪涂鸦艺术街** (Jiulongpo, Chongqing) · Licht: Vormittag – bedeckter Himmel ideal für Farben – Graffiti-Straße an der Kunsthochschule Sichuan (黄桷坪涂鸦艺术街): ganze Häuserfassaden bemalt. 16–35 für Fassaden, Menschen als Maßstab; Mittagessen im Viertel.
+- **11:00–13:00** ✅ **Huangjueping Graffiti Street 黄桷坪涂鸦艺术街** (Jiulongpo, Chongqing) · Licht: Später Vormittag – Regen lässt nach, bedeckt ideal für Farben – Graffiti-Straße an der Kunsthochschule Sichuan (黄桷坪涂鸦艺术街): ganze Häuserfassaden bemalt. Später gestartet, weil es laut Modellen bis ca. 11 Uhr regnet. 16–35 für Fassaden, Menschen als Maßstab; Mittagessen im Viertel. Spätestens 13:30 zurück zum Hotel.
   - ↓ 🚗 Auto · ca. 20 Min. · 15 km
-- **12:30–13:30** ◻︎ optional: **Chaotianmen 朝天门** (Yuzhong, Chongqing) · Licht: Mittag – Optional: Landspitze am Zusammenfluss, 10 Min. vom Hotel.
+- **13:45–14:30** ◻︎ optional: **Chaotianmen 朝天门** (Yuzhong, Chongqing) · Licht: Mittag – Optional: Landspitze am Zusammenfluss, 10 Min. vom Hotel.
   - ↓ 🚗 Auto · ca. 5 Min. · 3 km
 - **~14:45** 🏨 Check-out: **The Lixury Hotel Chongqing**
   - ↓ 🚗 Auto · ca. 25 Min. · 24 km (Taxi/DiDi zum Flughafen Jiangbei (T3, Air China))

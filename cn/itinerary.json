@@ -1498,7 +1498,7 @@
      "spot": "claude-cn-raffles-city-the-crystal",
      "light": "golden",
      "lightText": "Spätes Licht über dem Zusammenfluss",
-     "text": "Nur wenn die Ankunft glatt läuft und Tickets frei sind (kontingentiert). Sonst direkt zum Hongyadong.",
+     "text": "Nur wenn die Ankunft glatt läuft und Tickets frei sind. Bei Wolkenuntergrenze unter 400 m steckt die Brücke (250 m) im Dunst – dann auslassen.",
      "opt": true,
      "sel": false
     },
@@ -1513,7 +1513,7 @@
      "spot": "cn-hongyadong",
      "light": "blue",
      "lightText": "Blaue Stunde 18:10–18:40, Lichter ab ca. 18:30",
-     "text": "Gegen 17:45 da sein und Platz sichern. Klassischer Blick: von der Qiansimen-Brücke (Fußweg, Nordende) zurück auf die beleuchteten Stelzenhäuser, Stativ, 24–70, 2–8 s bei f/8. Danach unten am Ufer (Jialing-Promenade) frontal mit Spiegelung. Bei Nieselregen: Spiegelungen auf dem nassen Pflaster.",
+     "text": "Gegen 17:45 da sein und Platz sichern. Klassischer Blick: von der Qiansimen-Brücke (Fußweg, Nordende) zurück auf die beleuchteten Stelzenhäuser, Stativ, 24–70, 2–8 s bei f/8. Danach unten am Ufer (Jialing-Promenade) frontal mit Spiegelung. Bei Nieselregen: Spiegelungen auf dem nassen Pflaster. Laut Modellen ab ca. 14 Uhr weitgehend trocken, Pflaster vom Vormittag noch nass – gute Spiegelungen. Tiefe Wolkendecke (300–800 m): Hochhausspitzen können im Dunst verschwinden, das gibt Stimmung.",
      "plan": true
     },
     {
@@ -1562,7 +1562,7 @@
      "spot": "cn-liziba-station-monorail-durchs-haus",
      "light": "day",
      "lightText": "Morgen – vor dem Andrang",
-     "text": "Plattform unten an der Straße (Aussichtsplattform Liziba), Bahnen alle paar Minuten. 24–70, 1/500 s für die Einfahrt ins Haus; bei Regen glänzende Straße mit ins Bild.",
+     "text": "Plattform unten an der Straße, Bahnen alle paar Minuten. Bei Regen: nasse Straße und Schirme mit ins Bild, 1/500 s für die Einfahrt, Objektiv-Tuch griffbereit.",
      "plan": true
     },
     {
@@ -1587,7 +1587,7 @@
      "spot": "cn-eling-second-factory",
      "light": "day",
      "lightText": "Vormittag – Dachterrassen, bei Regen Innenhöfe",
-     "text": "Testbed 2 (鹅岭二厂): Backstein-Fabrik, Treppen und Dachterrassen mit Blick über den Jialing. Öffnet ca. 9–10 Uhr.",
+     "text": "Testbed 2 (鹅岭二厂): Backstein-Fabrik, überdachte Gänge und Treppen. Bei Regen die Innenhöfe und Durchgänge; der Blick über den Jialing ist heute eher dunstig. Öffnet ca. 9–10 Uhr.",
      "plan": true
     },
     {
@@ -1595,54 +1595,53 @@
      "mode": "car"
     },
     {
+     "type": "stop",
+     "t": "11:00–12:15",
+     "spot": "cn-huguang-guild-hall",
+     "light": "indoor",
+     "lightText": "Regen-Spitze – Innenhöfe",
+     "text": "Gildehallen am Jangtse-Ufer: Holzgalerien und Dachtraufen, bei Regen tropfen sie schön. Ganz in der Nähe von Baixiangju.",
+     "opt": true,
+     "sel": true
+    },
+    {
      "type": "info",
      "icon": "🥢",
      "title": "Mittagspause in Yuzhong",
-     "text": "Hotpot oder Nudeln, ggf. im Hotel kurz trocknen.",
-     "t": "11:15–12:45"
+     "text": "Hotpot oder Nudeln, danach im Hotel trocknen und Akkus laden.",
+     "t": "12:15–13:30"
+    },
+    {
+     "type": "hotel",
+     "name": "The Lixury Hotel Chongqing",
+     "t": "13:45",
+     "label": "Pause – Regenspitze abwarten"
+    },
+    {
+     "type": "move",
+     "mode": "car"
     },
     {
      "type": "stop",
-     "t": "13:00–14:30",
+     "t": "15:00–16:45",
      "spot": "cn-baixiangju-yangtze-river-cableway",
      "light": "day",
-     "lightText": "Mittag/Nachmittag – Architektur, Licht egal",
-     "text": "Baixiangju (白象居): Straße erreicht das Wohnhaus im 24. Stock über eine Brücke – von unten am Treppenweg hochfotografieren, 16–35. Danach optional Jangtse-Seilbahn zum Südufer.",
+     "lightText": "Nachmittag – Regen lässt nach",
+     "text": "Baixiangju (白象居): Straße erreicht das Wohnhaus im 24. Stock über eine Brücke – von unten am Treppenweg hochfotografieren, 16–35. Laut Modellen lässt der Regen ab ca. 15 Uhr nach. Danach optional Jangtse-Seilbahn zum Südufer.",
      "plan": true
     },
     {
      "type": "move",
      "mode": "walk",
-     "min": 10
+     "min": 20
     },
     {
      "type": "stop",
-     "t": "14:45–15:45",
-     "spot": "cn-huguang-guild-hall",
-     "light": "indoor",
-     "lightText": "Nachmittag – Innenhöfe",
-     "text": "Gildehallen am Jangtse-Ufer, gut bei Regen.",
-     "opt": true,
-     "sel": false
-    },
-    {
-     "type": "hotel",
-     "name": "The Lixury Hotel Chongqing",
-     "t": "16:00",
-     "label": "Pause"
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 10
-    },
-    {
-     "type": "stop",
-     "t": "17:45–19:30",
+     "t": "17:15–19:30",
      "spot": "claude-cn-shibati-old-steps",
      "light": "blue",
      "lightText": "Blaue Stunde 18:10–18:40 → Laternen bei Nacht",
-     "text": "Ladder Street (十八梯): von oben die Treppen hinunter mit den Laternen, 24–70, Stativ. Bei Nässe glänzen die Stufen.",
+     "text": "Ladder Street (十八梯): von oben die Treppen hinunter mit den Laternen, 24–70, Stativ. Abends nur noch wenig Regen – nasse, glänzende Stufen sind ideal.",
      "plan": true
     },
     {
@@ -1677,7 +1676,7 @@
     {
      "type": "hotel",
      "name": "The Lixury Hotel Chongqing",
-     "t": "9:00"
+     "t": "10:30"
     },
     {
      "type": "move",
@@ -1686,11 +1685,11 @@
     },
     {
      "type": "stop",
-     "t": "9:30–11:30",
+     "t": "11:00–13:00",
      "spot": "claude-cn-huangjueping-graffiti-street",
      "light": "day",
-     "lightText": "Vormittag – bedeckter Himmel ideal für Farben",
-     "text": "Graffiti-Straße an der Kunsthochschule Sichuan (黄桷坪涂鸦艺术街): ganze Häuserfassaden bemalt. 16–35 für Fassaden, Menschen als Maßstab; Mittagessen im Viertel.",
+     "lightText": "Später Vormittag – Regen lässt nach, bedeckt ideal für Farben",
+     "text": "Graffiti-Straße an der Kunsthochschule Sichuan (黄桷坪涂鸦艺术街): ganze Häuserfassaden bemalt. Später gestartet, weil es laut Modellen bis ca. 11 Uhr regnet. 16–35 für Fassaden, Menschen als Maßstab; Mittagessen im Viertel. Spätestens 13:30 zurück zum Hotel.",
      "plan": true
     },
     {
@@ -1699,7 +1698,7 @@
     },
     {
      "type": "stop",
-     "t": "12:30–13:30",
+     "t": "13:45–14:30",
      "spot": "cn-chaotianmen",
      "light": "day",
      "lightText": "Mittag",
