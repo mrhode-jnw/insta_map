@@ -2214,7 +2214,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const hay = [p.name, p.address, p.district, p.category, p.note, p.tip, p.caption, p.username,
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
     const s = st(p.id);
-    return !p.noloc && (rainF ? !!p.rain : inGroup(p)) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
+    return !p.noloc && inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
       && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio || "none")) && (s.prio !== "nein" || prioF.has("nein") || trashF) && (!doneF || (doneF === "done" ? s.done : !s.done))
       && (!popF || (p.pop || 0) >= 4) && (!favF || s.fav) && (!rainF || p.rain) && (!areaF || areaOf(p) === areaF)
@@ -3359,7 +3359,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "120 · Favoriten im Tagesplan";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "121 · Regenfilter beachtet Fotos/Tipps/Ideen";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
