@@ -21,18 +21,22 @@ const label = i => `**${photographerOf(i).name}** – ${i.title || "Ohne Titel"}
 export const SEGMENTS = {
   order: { name: "Zeitreise", scored: true }, crop: { name: "Ausschnitt", scored: true }, tf: { name: "Stimmt's?", scored: true },
   look: { name: "Eine Minute schauen" }, pair: { name: "Gegenüber" }, story: { name: "So entstand es" }, quote: { name: "O-Ton" },
+  memory: { name: "Aus dem Gedächtnis", scored: true }, tiles: { name: "Aufdecken", scored: true }, mirror: { name: "Original oder gespiegelt?", scored: true },
+  guess: { name: "Jahr schätzen", scored: true }, stamp: { name: "Briefmarken-Test" },
   sketch: { name: "Mini-Lektion" }, merke: { name: "Merksatz" }, pinfo: { name: "Porträt" }, concept: { name: "Seh-Begriff" },
   who: { name: "Wer war's?", scored: true, quiz: true }, year: { name: "Jahrzehnt", scored: true, quiz: true },
   chap: { name: "Geschichte", scored: true, quiz: true }, ref: { name: "Laut Quelle", scored: true, quiz: true }, quiz: { name: "Theoriefrage", scored: true, quiz: true },
 };
 export const TOPICS = [
-  ["mix", "Bunt gemischt", { order: 2, crop: 2, tf: 2, look: 2, pair: 2, story: 2, quote: 2, sketch: 1, merke: 1, pinfo: 1, concept: 1, who: 2, year: 1, chap: 1, ref: 1, quiz: 1 }],
-  ["schauen", "Schauen", { look: 3, crop: 3, pair: 3, story: 2, tf: 2 }],
-  ["menschen", "Fotografen & O-Töne", { quote: 3, who: 3, pinfo: 2, story: 2, crop: 1 }],
-  ["geschichte", "Geschichte", { order: 3, chap: 2, year: 2, story: 2, quote: 1, pinfo: 1 }],
+  ["mix", "Bunt gemischt", { order: 2, crop: 2, tf: 2, look: 2, pair: 2, story: 2, quote: 2, sketch: 1, merke: 1, pinfo: 1, concept: 1, memory: 2, tiles: 2, mirror: 1, guess: 2, stamp: 1, who: 1, year: 1, chap: 1, ref: 1, quiz: 1 }],
+  ["schauen", "Schauen", { look: 3, memory: 3, crop: 2, pair: 2, stamp: 2, mirror: 2, story: 2, tf: 1 }],
+  ["menschen", "Fotografen & O-Töne", { quote: 3, tiles: 3, who: 1, pinfo: 2, story: 2, crop: 1 }],
+  ["geschichte", "Geschichte", { order: 3, guess: 3, chap: 2, year: 1, story: 2, quote: 1, pinfo: 1 }],
   ["theorie", "Theorie kompakt", { sketch: 3, merke: 3, concept: 2, quiz: 2, pair: 1 }],
-  ["quiz", "Nur Quiz", { who: 2, year: 1, chap: 1, ref: 2, quiz: 2, tf: 2, order: 1, crop: 1 }],
+  ["quiz", "Nur Quiz", { who: 2, year: 1, chap: 1, ref: 2, quiz: 2, tf: 2, order: 1, crop: 1, guess: 1, tiles: 1 }],
 ];
+
+const SIDE = /\b(links|rechts|linke[nmrs]?|rechte[nmrs]?)\b/i, STAMP_DIMS = ["order", "layers", "frame", "light", "color", "surface"];
 
 // ---- material pools (built once)
 let P = null;
@@ -65,11 +69,13 @@ function pools() {
 function candidates(type) {
   const p = pools();
   switch (type) {
-    case "who": case "crop": return lib.images.filter(i => who(i.id) !== "?").map(i => i.id);
-    case "year": return p.dated.map(i => i.id);
+    case "who": case "crop": case "tiles": return lib.images.filter(i => who(i.id) !== "?").map(i => i.id);
+    case "year": case "guess": return p.dated.map(i => i.id);
     case "order": return p.dated.map(i => i.id); // anchor image; the other three are picked from other decades
     case "chap": return lib.chapters.flatMap(c => c.images.filter(img).map(id => `${id}|${c.id}`));
-    case "ref": case "tf": return p.refs.filter(r => r.entries.some(e => e.checkable.length)).map(r => `${r.image_id}|${r.dimension}`);
+    case "mirror": return p.refs.filter(r => r.entries.some(e => e.checkable.some(t => SIDE.test(t)))).map(r => `${r.image_id}|${r.dimension}`);
+    case "stamp": return Object.keys(p.byImg).filter(id => p.byImg[id].some(x => STAMP_DIMS.includes(x.dimension)));
+    case "ref": case "tf": case "memory": return p.refs.filter(r => r.entries.some(e => e.checkable.length)).map(r => `${r.image_id}|${r.dimension}`);
     case "look": return Object.keys(p.byImg);
     case "story": return p.stories;
     case "quote": return p.quotes.map(q => String(q.id));
@@ -108,13 +114,13 @@ export function buildCard(c) {
   const base = { type: c.type, label: seg?.name || "", scored: !!seg?.scored };
   const shuffleOpts = opts => pickN(opts, opts.length, r);
   switch (c.type) {
-    case "who": {
+    case "who": case "tiles": {
       const i = img(c.key), name = who(c.key);
       const near = new Set(lib.chapters.filter(ch => ch.images.includes(i.id)).flatMap(ch => ch.images.map(who)));
       const others = [...new Set([...near, ...pickN(lib.photographers.map(x => x.name), 14, r)])].filter(n => n && n !== "?" && n !== name);
       const wrong = pickN(others.filter(n => near.has(n)), 3, r); for (const n of pickN(others, 10, r)) if (wrong.length < 3 && !wrong.includes(n)) wrong.push(n);
       const ph = photographerOf(i);
-      return { ...base, kind: "mc", prompt: "Von wem ist dieses Bild?", image: i.id, options: shuffleOpts([{ text: name, correct: true }, ...wrong.map(n => ({ text: n }))]),
+      return { ...base, kind: "mc", prompt: c.type === "tiles" ? "Das Bild deckt sich auf – erkennst du es vorher? Von wem ist es?" : "Von wem ist dieses Bild?", image: i.id, tiles: c.type === "tiles", tileOrder: pickN([...Array(16).keys()], 16, r), options: shuffleOpts([{ text: name, correct: true }, ...wrong.map(n => ({ text: n }))]),
         explain_md: `${label(i)}.${ph.bio_md ? "\n\n" + firstSentences(ph.bio_md, 1) : ""}`, link: [`#/fotograf/${ph.id}`, "Zum Fotografen"] };
     }
     case "year": {
@@ -130,7 +136,7 @@ export function buildCard(c) {
         explain_md: `**Kapitel ${ch.number}: ${ch.title}** (${ch.period_from}–${ch.period_to}).\n\n${firstSentences((ch.text_md || "").split("## ")[1]?.replace(/^[^\n]*\n/, "") || "", 2)}`,
         link: [`#/kapitel/${ch.id}`, "Zum Kapitel"] };
     }
-    case "ref": case "tf": {
+    case "ref": case "tf": case "memory": {
       const [id, dim] = c.key.split("|"), ref = lib.by.refs.get(`${id}:${dim}`), entry = ref.entries.find(e => e.checkable.length);
       const right = entry.checkable[Math.floor(r() * entry.checkable.length)], name = who(id);
       const others = p.refs.filter(x => x.dimension === dim && x.image_id !== id && who(x.image_id) !== name)
@@ -138,14 +144,32 @@ export function buildCard(c) {
       const src = lib.by.sources.get(entry.source_ids[0]);
       const explain = `${entry.answer_md}${src ? `\n\n„${src.excerpt.length > 260 ? src.excerpt.slice(0, 257) + "…" : src.excerpt}“ – ${src.author || src.title}` : ""}`;
       const dl = DIM[dim]?.label || dim;
-      if (c.type === "tf") {
+      if (c.type !== "ref") {
         const truth = r() < 0.5 || !others.length, statement = truth ? right : pickN(others, 1, r)[0];
-        return { ...base, kind: "tf", prompt: `${dl}: Stimmt das für dieses Bild?`, statement: stripRefs(statement), image: id, truth,
+        return { ...base, kind: "tf", memorize: c.type === "memory" ? 8 : 0, prompt: c.type === "memory" ? `${dl}: War das so im Bild?` : `${dl}: Stimmt das für dieses Bild?`, statement: stripRefs(statement), image: id, truth,
           explain_md: (truth ? "" : `Das stammt aus einer Quelle zu einem anderen Bild. Für dieses Bild gilt:\n\n`) + explain, link: [`#/bild/${id}`, "Zur Bildseite"] };
       }
       return { ...base, kind: "mc", label: `Laut Quelle · ${dl}`, prompt: `${dl}: Was stimmt laut Quelle?`, image: id,
         options: shuffleOpts([{ text: stripRefs(right), correct: true }, ...[...new Set(pickN(others, 8, r).map(stripRefs))].slice(0, 3).map(t => ({ text: t }))]),
         explain_md: explain, link: [`#/bild/${id}`, "Zur Bildseite"] };
+    }
+    case "guess": { // slider, right within ±5 years (tolerance as in Greengo's focal-length quiz)
+      const i = img(c.key);
+      return { ...base, kind: "slider", prompt: "In welchem Jahr entstand das Bild?", image: i.id, year: +i.year, min: 1840, max: 2025, tolerance: 5,
+        explain_md: `${label(i)}.`, link: [`#/bild/${i.id}`, "Zur Bildseite"] };
+    }
+    case "mirror": { // one of two is flipped; the source names what is left or right
+      const [id, dim] = c.key.split("|"), ref = lib.by.refs.get(`${id}:${dim}`), e = ref.entries.find(x => x.checkable.some(t => SIDE.test(t)));
+      const hint = e.checkable.filter(t => SIDE.test(t));
+      return { ...base, kind: "mc", prompt: "Eins der beiden ist gespiegelt. Welches ist das Original?",
+        options: shuffleOpts([{ image: id, text: "Original", correct: true }, { image: id, text: "Gespiegelt", flip: true }]),
+        explain_md: `${label(img(id))}.\n\n**Laut Quelle (${DIM[dim]?.label || dim}):**\n${hint.map(t => "- " + t).join("\n")}\n\n${e.answer_md}`, link: [`#/bild/${id}`, "Zur Bildseite"] };
+    }
+    case "stamp": { // the thumbnail test: does the structure still carry at stamp size?
+      const ref = pickN(p.byImg[c.key].filter(x => STAMP_DIMS.includes(x.dimension)), 1, r)[0], e = ref.entries[0];
+      return { ...base, kind: "reveal", stamp: c.key, prompt: "Briefmarken-Test: Was trägt das Bild noch, wenn es so klein ist? Formen, Helligkeiten, Linien?",
+        back_image: c.key, back_md: `**${DIM[ref.dimension]?.label || ref.dimension} – was die Quellen sagen:** ${e.answer_md}${e.checkable.length ? "\n\n" + e.checkable.map(x => "- " + x).join("\n") : ""}`,
+        caption_md: label(img(c.key)), link: [`#/bild/${c.key}`, "Zur Bildseite"] };
     }
     case "quiz": {
       const [lid, n] = c.key.split("|"), l = lib.by.lessons.get(lid), q = l.quiz[+n];
@@ -218,6 +242,7 @@ export function isRight(card, res) {
   if (res == null) return null;
   if (card.kind === "mc") return !!card.options[res]?.correct;
   if (card.kind === "tf") return res === (card.truth ? 1 : 0);
+  if (card.kind === "slider") return Math.abs(res - card.year) <= card.tolerance;
   if (card.kind === "order") return Array.isArray(res) && res.length === card.items.length && res.every((v, k) => v === card.solution[k]);
   return null;
 }

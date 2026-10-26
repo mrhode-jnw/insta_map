@@ -283,7 +283,7 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
     await page.waitForSelector(".snack");
     kinds.add(await page.$eval(".snack", e => e.className));
     for (let step = 0; step < 8 && !(await page.$(".snack-next button")); step++) { // play whatever the card asks for
-      const b = await page.$(".snack-opts .opt:not([disabled]), .tf-btns .opt:not([disabled]), .order-item:not([disabled]), .reveal-btn, [data-action='snack-reveal']");
+      const b = await page.$(".snack-opts .opt:not([disabled]), .tf-btns .opt:not([disabled]), .order-item:not([disabled]), .reveal-btn, [data-action='snack-reveal'], [data-action='snack-guess']");
       if (!b) break; await b.click(); await page.waitForTimeout(80);
     }
     await page.click(".snack-next button");

@@ -388,7 +388,7 @@ button.big { font-size: 1.05rem; padding: 12px 22px; }
 .snack-img.tall img { max-height: 62vh; }
 .snack-crop { position: relative; aspect-ratio: 4 / 3; overflow: hidden; border-radius: 4px; background: #000; margin: 0 0 12px; }
 .snack-crop img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.snack-opts.thumbs3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.snack-opts.thumbs3 { grid-template-columns: repeat(var(--n, 3), minmax(0, 1fr)); }
 .snack-opts.thumbs3 .opt { padding: 4px; display: flex; flex-direction: column; justify-content: flex-start; min-width: 0; }
 .snack-opts.thumbs3 .opt img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; border-radius: 3px; }
 .snack-opts.thumbs3 .opt span { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; font-size: 0.72rem; margin-top: 4px; overflow-wrap: break-word; }
@@ -416,3 +416,23 @@ button.big { font-size: 1.05rem; padding: 12px 22px; }
 .story-slide h3 { margin: 0 0 4px; font-size: 0.95rem; color: var(--accent); }
 .snack-big { font-size: 1.25rem; line-height: 1.4; }
 .snack-info .sketch { margin-top: 0; }
+/* Häppchen v3: tiles, memory, mirror, stamp, year slider */
+.snack-img.tiles { position: relative; overflow: hidden; }
+.tile-cover { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(4, 1fr); pointer-events: none; }
+.tile-cover i { background: var(--panel); border: 1px solid var(--bg); animation: tile-off .5s ease forwards; }
+@keyframes tile-off { to { opacity: 0; transform: scale(.6); } }
+.memo-bar { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; margin: 6px 0 14px; }
+.memo-bar i { display: block; height: 100%; background: var(--accent); animation: memo-run linear forwards; }
+@keyframes memo-run { from { width: 100%; } to { width: 0; } }
+.memo-gone { display: grid; place-items: center; height: 120px; margin-bottom: 12px; border: 1px dashed var(--line); border-radius: 4px; color: var(--muted); }
+.snack-opts.thumbs3[style*="--n:2"] .opt img { aspect-ratio: auto; max-height: 46vh; object-fit: contain; background: #000; }
+.flip { display: block; transform: scaleX(-1); }
+.snack-stamp { display: grid; place-items: center; height: 180px; margin-bottom: 12px; background: var(--panel); border-radius: 4px; }
+.snack-stamp img { width: 64px; height: auto; display: block; box-shadow: 0 0 0 3px #fff; }
+.year-guess { margin: 8px 0 14px; text-align: center; }
+.year-guess output { display: block; font-size: 2.4rem; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
+.year-guess input { width: 100%; accent-color: var(--accent); height: 32px; }
+.year-scale { display: flex; justify-content: space-between; font-size: .8rem; color: var(--muted); }
+.year-result { display: flex; justify-content: space-around; margin: 4px 0 10px; font-size: 1.05rem; }
+.year-result b { color: var(--accent); }
+.snack-slider button.big { width: 100%; }

@@ -391,11 +391,11 @@ views.lektion = async id => {
 // --- Häppchen: short, varied cards for the train – games, stories, looking, short knowledge, some quiz; no AI
 async function snackStats() { return (await loadState("progress", { theory: {} })).snacks || { total: 0, right: 0, rounds: 0, last: {} }; }
 const SEG_ICON = { order: "⏳", crop: "🔍", tf: "✓✗", look: "👁", pair: "⇆", story: "📖", quote: "❝", sketch: "✎", merke: "★", pinfo: "◉", concept: "◇",
-  who: "?", year: "#", chap: "§", ref: "❞", quiz: "?" };
+  memory: "◐", tiles: "▦", mirror: "⇋", guess: "≈", stamp: "▪", who: "?", year: "#", chap: "§", ref: "❞", quiz: "?" };
 views.kurz = async () => {
   const st = await snackStats(), open = sess.get("snack");
   const wrongN = Object.values(st.last || {}).filter(v => v === 0).length;
-  return `<h1>Häppchen</h1><p class="lead">Fünf Minuten in der Bahn: Zeitreisen, Ausschnitte, O-Töne, Making-ofs, Bildpaare, Mini-Lektionen – und ab und zu eine Frage. Alles aus belegten Inhalten, ohne Wartezeit.</p>
+  return `<h1>Häppchen</h1><p class="lead">Fünf Minuten in der Bahn: Zeitreisen, Ausschnitte, Bilder aus dem Gedächtnis, O-Töne, Making-ofs, Bildpaare, Mini-Lektionen – und ab und zu eine Frage. Alles aus belegten Inhalten, ohne Wartezeit.</p>
   ${open && open.pos < open.cards.length ? `<p><a class="button" href="#/kurz/karte">Runde fortsetzen (${open.pos + 1}/${open.cards.length})</a></p>` : ""}
   <form data-action="snack-start" class="card snack-start">
     <div class="pills">${TOPICS.map(([k, l], n) => `<label class="pill"><input type="radio" name="topic" value="${k}" ${n ? "" : "checked"}><span>${l}</span></label>`).join("")}</div>
@@ -411,12 +411,16 @@ function snackBody(card, res, st) {
   const hero = id => `<figure class="snack-img">${media(id, "m")}</figure>`;
   switch (card.kind) {
     case "mc": return `${card.crop ? `<figure class="snack-crop"><img data-media="${esc(card.crop.id)}" data-kind="m" alt="" style="object-position:${card.crop.x}% ${card.crop.y}%;transform-origin:${card.crop.x}% ${card.crop.y}%;transform:scale(${card.crop.zoom})"></figure>`
+        : card.image && card.tiles && !done ? `<figure class="snack-img tiles">${media(card.image, "m")}<div class="tile-cover">${card.tileOrder.map(k => `<i style="animation-delay:${0.4 + 0.55 * k}s"></i>`).join("")}</div></figure>`
         : card.image ? hero(card.image) : ""}
       <h2 class="snack-q">${mdInline(card.prompt)}</h2>
-      <div class="snack-opts${card.options[0].image ? " thumbs3" : ""}">${card.options.map((o, k) => `<button class="opt${done ? (o.correct ? " right" : k === res ? " wrong" : " dim") : ""}" data-action="snack-answer" data-i="${k}" ${done ? "disabled" : ""}>
-        ${o.image ? `${media(o.image)}${done ? `<span>${esc(o.text)}</span>` : ""}` : mdInline(o.text)}</button>`).join("")}</div>
+      <div class="snack-opts${card.options[0].image ? " thumbs3" : ""}" style="--n:${card.options.length}">${card.options.map((o, k) => `<button class="opt${done ? (o.correct ? " right" : k === res ? " wrong" : " dim") : ""}" data-action="snack-answer" data-i="${k}" ${done ? "disabled" : ""}>
+        ${o.image ? `${o.flip ? `<span class="flip">${media(o.image, card.kind === "mc" && card.options.length === 2 ? "m" : undefined)}</span>` : card.options.length === 2 ? media(o.image, "m") : media(o.image)}${done ? `<span>${esc(o.text)}</span>` : ""}` : mdInline(o.text)}</button>`).join("")}</div>
       ${done ? after(okText(card.options[res]?.correct) + md(card.explain_md)) : ""}`;
-    case "tf": return `${hero(card.image)}<p class="muted small">${esc(card.prompt)}</p><blockquote class="snack-statement">${esc(card.statement)}</blockquote>
+    case "tf": if (card.memorize && !done && !st.memo?.[st.pos]) return `<figure class="snack-img tall">${media(card.image, "m")}</figure>
+        <p class="snack-q">Präg dir das Bild ein – gleich ist es weg.</p><div class="memo-bar"><i style="animation-duration:${card.memorize}s"></i></div>
+        <button class="big secondary reveal-btn" data-action="snack-memo">Hab's – Bild ausblenden</button>`;
+      return `${card.memorize && !done ? `<div class="memo-gone">Bild ausgeblendet</div>` : hero(card.image)}<p class="muted small">${esc(card.prompt)}</p><blockquote class="snack-statement">${esc(card.statement)}</blockquote>
       <div class="tf-btns"><button class="opt${done ? (card.truth ? " right" : res === 1 ? " wrong" : " dim") : ""}" data-action="snack-tf" data-v="1" ${done ? "disabled" : ""}>✓ Stimmt</button>
         <button class="opt${done ? (!card.truth ? " right" : res === 0 ? " wrong" : " dim") : ""}" data-action="snack-tf" data-v="0" ${done ? "disabled" : ""}>✗ Stimmt nicht</button></div>
       ${done ? after(okText(res === (card.truth ? 1 : 0)) + md(card.explain_md)) : ""}`;
@@ -429,7 +433,16 @@ function snackBody(card, res, st) {
       return `<figure class="snack-img tall">${media(card.image, "m")}</figure>
         ${done ? `<div class="snack-explain prose"><p class="small muted">${mdInline(card.caption_md)}</p>${md(card.fact_md)}<p class="small"><a href="${card.link[0]}">${esc(card.link[1])} →</a></p></div>`
           : `<p class="snack-q">${esc(card.prompt)}</p><div class="look-timer"><b id="snack-timer" data-left="${left}">${left}</b> s <button class="secondary" data-action="snack-reveal">Auflösen</button></div>`}`; }
-    case "reveal": return `${card.quote ? `<blockquote class="snack-quote">„${esc(card.quote)}“</blockquote>` : ""}
+    case "slider": { const mid = Math.round((card.min + card.max) / 2 / 5) * 5;
+      if (!done) return `${hero(card.image)}<h2 class="snack-q">${esc(card.prompt)}</h2>
+        <div class="year-guess"><output id="snack-year-out">${mid}</output><input type="range" id="snack-year" min="${card.min}" max="${card.max}" step="1" value="${mid}">
+        <div class="year-scale"><span>${card.min}</span><span>${card.max}</span></div></div>
+        <button class="big" data-action="snack-guess">Tippen</button>`;
+      const off = Math.abs(res - card.year);
+      return `${hero(card.image)}<h2 class="snack-q">${esc(card.prompt)}</h2>
+        <div class="year-result"><span>Dein Tipp <b>${res}</b></span><span>Tatsächlich <b>${card.year}</b></span></div>
+        ${after(`<p class="${off <= card.tolerance ? "ok" : "warn"}"><b>${off === 0 ? "Volltreffer." : off <= card.tolerance ? `Richtig – ${off} ${off === 1 ? "Jahr" : "Jahre"} daneben.` : off <= 15 ? `Nah dran – ${off} Jahre daneben.` : `${off} Jahre daneben.`}</b></p>` + md(card.explain_md))}`; }
+    case "reveal": return `${card.stamp && !done ? `<div class="snack-stamp">${media(card.stamp)}</div>` : ""}${card.quote ? `<blockquote class="snack-quote">„${esc(card.quote)}“</blockquote>` : ""}
       ${card.images ? `<div class="snack-pair">${card.images.map(id => `<figure>${media(id, "m")}</figure>`).join("")}</div>` : ""}
       <h2 class="snack-q">${esc(card.prompt)}</h2>
       ${done ? `<div class="snack-explain prose">${card.back_image ? hero(card.back_image) : ""}${md(card.back_md)}${card.caption_md ? `<p class="small muted">${mdInline(card.caption_md)}</p>` : ""}<p class="small"><a href="${card.link[0]}">${esc(card.link[1])} →</a></p></div>`
@@ -457,6 +470,7 @@ views.kurzKarte = async () => {
   const body = snackBody(card, res, st);
   sess.set("snack", st); // keeps the look timer's start time
   clearTimeout(snackTimer); if (card.kind === "look" && !done) snackTimer = setTimeout(snackTick, 1000);
+  if (card.memorize && !done && !st.memo?.[st.pos]) snackTimer = setTimeout(() => actions["snack-memo"](), card.memorize * 1000);
   return compactRefs(`<div class="snack snack-${card.kind}" data-swipe="${done ? "next" : ""}">
     <div class="snack-top"><span class="seg"><i>${SEG_ICON[card.type] || ""}</i>${esc(card.label)}</span><span class="snack-count">${st.pos + 1}/${st.cards.length}</span></div>
     <div class="snack-bar"><i style="width:${100 * st.pos / st.cards.length}%"></i></div>
@@ -465,6 +479,7 @@ views.kurzKarte = async () => {
     ${nx?.image || nx?.crop ? `<img data-media="${esc(nx.image || nx.crop.id)}" data-kind="m" class="preload" alt="">` : ""}</div>`, new Map());
 };
 let snackTimer = null;
+document.addEventListener("input", e => { if (e.target.id === "snack-year") document.getElementById("snack-year-out").textContent = e.target.value; });
 function snackTick() {
   const el = document.getElementById("snack-timer"); if (!el) return;
   const left = Number(el.dataset.left) - 1;
@@ -477,7 +492,7 @@ function snackEnd(st) {
   const seen = st.cards.length - scored.length;
   return `<h1>Runde geschafft</h1><div class="stats"><span><b>${right}</b>/${scored.length} richtig</span>${seen ? `<span><b>${seen}</b> Geschichten, Bilder und Wissenskarten</span>` : ""}</div>
   ${wrong.length ? `<h3>Zum Nachlesen</h3><ul class="snack-wrong">${wrong.map(([, k]) => { const im = k.image || k.crop?.id || k.items?.[0]?.id;
-    return `<li>${im ? `<a href="${k.link[0]}">${media(im)}</a>` : ""}<div><span class="muted small">${esc(k.label)}</span><br>${k.kind === "mc" ? mdInline(k.options.find(o => o.correct).text) : k.kind === "tf" ? (k.truth ? "Stimmt: " : "Stimmt nicht: ") + esc(k.statement) : "Reihenfolge: " + k.solution.map(x => k.items[x].year).join(" → ")} <a href="${k.link[0]}">→</a></div></li>`; }).join("")}</ul>
+    return `<li>${im ? `<a href="${k.link[0]}">${media(im)}</a>` : ""}<div><span class="muted small">${esc(k.label)}</span><br>${k.kind === "mc" ? mdInline(k.options.find(o => o.correct).text) : k.kind === "tf" ? (k.truth ? "Stimmt: " : "Stimmt nicht: ") + esc(k.statement) : k.kind === "slider" ? `Entstanden ${k.year}` : "Reihenfolge: " + k.solution.map(x => k.items[x].year).join(" → ")} <a href="${k.link[0]}">→</a></div></li>`; }).join("")}</ul>
     <p class="muted small">Diese Karten kommen in einer der nächsten Runden wieder.</p>` : scored.length ? `<p class="ok">Alles richtig.</p>` : ""}
   <p><button class="big" data-action="snack-again">Noch eine Runde</button> <a href="#/kurz">Thema wechseln</a></p>`;
 }
@@ -873,6 +888,8 @@ const actions = {
   "snack-tf"(btn) { snackSet(st => st.results[st.pos] ?? Number(btn.dataset.v)); },
   "snack-order"(btn) { snackSet(st => { const cur = st.results[st.pos] || []; const k = Number(btn.dataset.k); return cur.includes(k) ? cur : [...cur, k]; }); },
   "snack-reveal"() { snackSet(st => st.results[st.pos] ?? "shown"); },
+  "snack-memo"() { const st = sess.get("snack"); if (location.hash !== "#/kurz/karte" || !st || st.memo?.[st.pos]) return; (st.memo ||= {})[st.pos] = 1; sess.set("snack", st); route(true); },
+  "snack-guess"() { const v = Number(document.getElementById("snack-year")?.value); if (v) snackSet(st => st.results[st.pos] ?? v); },
   "snack-step"() { snackSet(st => (typeof st.results[st.pos] === "number" ? st.results[st.pos] : 0) + 1); },
   "snack-next"() {
     const st = sess.get("snack"); if (!st) return;
