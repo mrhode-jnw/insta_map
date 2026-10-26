@@ -81,5 +81,16 @@
   "note": "Laut Reiseplan: 17.10. Kormoranfischer mit Laterne am Li River vor dem Luoshi-Berg („Schneckenberg“), vermutlich zur Abenddämmerung.",
   "source": "Reiseplan Fotoreise 15.–19.10.",
   "unsure": "Lage nur grob bekannt: Luoshi-Berg liegt laut Reisebericht östlich des Damian Hill beim Dorf Huangnitian 黄泥田 (Xingping) – genauer Standpunkt vom Guide"
+ },
+ {
+  "name": "Cloud Eye Observation Deck 云端之眼 (United International Mansion)",
+  "lat": 29.56022,
+  "lng": 106.57843,
+  "approx": true,
+  "district": "Jiefangbei, Yuzhong, Chongqing",
+  "cat": "Aussicht",
+  "note": "Aussichtsplattform 云端之眼 („Auge in den Wolken“) im 67. Stock des United International Mansion 联合国际大厦, Xinhua Road 201 新华路201号 – 520 m über dem Meer (Gebäude 318 m). 360°-Rundblick über Jiefangbei und die Flüsse, frei hängende rote Treppe. Laut 大河票务网 (08/2024): 9:00–23:00, letzter Einlass 22:30, ab 38 CNY, Kinder bis 1,30 m frei – nicht aktuell geprüft. Navi: in Amap „云端之眼“ suchen; Metro Xiaoshizi 小什字 ca. 3 Min. zu Fuß. Foto: blaue Stunde ca. 18:10–18:40, danach Nacht; Objektiv dicht an die Scheibe bzw. Gummi-Gegenlichtblende gegen Spiegelungen.",
+  "source": "https://www.dahepiao.com/lvyounews1/20240823483802.html",
+  "unsure": "Pin aus den GPS-Daten eines Nachtfotos vom Turm (Wikimedia Commons) – auf ca. 50 m genau; ob die Plattform im Freien liegt, ist nicht bestätigt."
  }
 ]

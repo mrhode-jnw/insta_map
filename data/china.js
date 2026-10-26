@@ -12393,6 +12393,48 @@ window.PLACES_CN = [
   "image_page": "https://www.instagram.com/scotthowes/p/DdA4hImlOyb/",
   "image_credit": "@scotthowes · Instagram",
   "when": "day"
+ },
+ {
+  "id": "cn-cloud-eye-observation-deck-united-international-",
+  "region": "cn",
+  "name": "Cloud Eye Observation Deck 云端之眼 (United International Mansion)",
+  "district": "Jiefangbei, Yuzhong, Chongqing",
+  "category": "Aussicht",
+  "note": "Aussichtsplattform 云端之眼 („Auge in den Wolken“) im 67. Stock des United International Mansion 联合国际大厦, Xinhua Road 201 新华路201号 – 520 m über dem Meer (Gebäude 318 m). 360°-Rundblick über Jiefangbei und die Flüsse, frei hängende rote Treppe. Laut 大河票务网 (08/2024): 9:00–23:00, letzter Einlass 22:30, ab 38 CNY, Kinder bis 1,30 m frei – nicht aktuell geprüft. Navi: in Amap „云端之眼“ suchen; Metro Xiaoshizi 小什字 ca. 3 Min. zu Fuß. Foto: blaue Stunde ca. 18:10–18:40, danach Nacht; Objektiv dicht an die Scheibe bzw. Gummi-Gegenlichtblende gegen Spiegelungen.",
+  "address": "Jiefangbei, Yuzhong, Chongqing",
+  "lat": 29.56022,
+  "lng": 106.57843,
+  "approx": true,
+  "image": "images/claude_cq_cloudeye_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_4).jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_4).jpg",
+    "kind": "photo",
+    "image": "images/claude_cq_cloudeye_1.jpg",
+    "caption": "Nachtblick vom United International Mansion (GPS am Turm)",
+    "credit": "Fumikas Sagisavas · CC0 · Wikimedia Commons"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_2).jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_2).jpg",
+    "kind": "photo",
+    "image": "images/claude_cq_cloudeye_0.jpg",
+    "caption": "Nachtblick vom United International Mansion (GPS am Turm)",
+    "credit": "Fumikas Sagisavas · CC0 · Wikimedia Commons"
+   }
+  ],
+  "source": "https://www.dahepiao.com/lvyounews1/20240823483802.html",
+  "unsure": "Pin aus den GPS-Daten eines Nachtfotos vom Turm (Wikimedia Commons) – auf ca. 50 m genau; ob die Plattform im Freien liegt, ist nicht bestätigt.",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_4).jpg",
+  "image_credit": "Fumikas Sagisavas · CC0 · Wikimedia Commons",
+  "when": "both"
  }
 ];
 window.UNPLACED_CN = [

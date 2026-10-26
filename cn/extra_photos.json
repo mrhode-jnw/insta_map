@@ -2685,5 +2685,19 @@
    "url": "https://commons.wikimedia.org/wiki/File:Chongqing_Nightscape.jpg",
    "credit": "Jay Huang · CC BY 2.0 · Wikimedia Commons"
   }
+ ],
+ "Cloud Eye Observation Deck 云端之眼 (United International Mansion)": [
+  {
+   "image": "images/claude_cq_cloudeye_1.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_4).jpg",
+   "credit": "Fumikas Sagisavas · CC0 · Wikimedia Commons",
+   "caption": "Nachtblick vom United International Mansion (GPS am Turm)"
+  },
+  {
+   "image": "images/claude_cq_cloudeye_0.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_2).jpg",
+   "credit": "Fumikas Sagisavas · CC0 · Wikimedia Commons",
+   "caption": "Nachtblick vom United International Mansion (GPS am Turm)"
+  }
  ]
 }
