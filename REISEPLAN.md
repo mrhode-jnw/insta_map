@@ -1,6 +1,6 @@
 # Reiseplan China (Herbst 2026)
 
-_Automatisch erzeugt aus der Foto-Spot-App am 25.10.2026 13:57 (China-Zeit)._
+_Automatisch erzeugt aus der Foto-Spot-App am 26.10.2026 10:43 (China-Zeit)._
 _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vorschlag von Claude · Zeiten Ortszeit China._
 
 ## Route im Überblick
@@ -238,7 +238,7 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
 - ✂️ **Bei Verzögerungen streichen** – 1 One Step to Heaven · 2 Back Garden · 3 First Bridge · 4 Fee (Tianzi). Golden Whip war schon gestern.
 - 🏨 Unterkunft: **Zhangjiajie YOLO Resort**
 
-### Mo 26.10. – Zhangjiajie → Chongqing (Zug G2428) · Abendlichter _(Entwurf)_
+### Mo 26.10. – Zhangjiajie → Chongqing · Hongyadong zur blauen Stunde _(Entwurf)_
 
 - **~6:30** 🏨 Check-out: **Zhangjiajie YOLO Resort**
   - ↓ 🚗 Auto · ca. 100 Min. · 88 km (Auto/Taxi zum Bahnhof (ca. 1 h 40) – Auto am Vortag im Resort bestellen)
@@ -246,44 +246,45 @@ _Legende: ✅ = fester Programmpunkt (Plan der Agentur) · ◻︎ optional = Vor
   - ↓ 🚄 Zug · ca. 149 Min. (G2428, an 11:45 – Wagen 07)
 - **11:45** 🚄 **Chongqing Ost (重庆东)** – Taxi/DiDi in die Innenstadt (ca. 30 Min.).
   - ↓ 🚗 Auto · ca. 25 Min. · 20 km
-- **~12:30** 🏨 Check-in (bzw. Gepäck abgeben): **The Lixury Hotel Chongqing**
+- **~16:00** 🏨 Check-in: **The Lixury Hotel Chongqing**
   - ↓ 🚗 Auto · ca. 5 Min. · 2 km
-- **17:15–18:30** ◻︎ optional: **Raffles City – The Crystal 重庆来福士·水晶连廊** (Yuzhong (Chaotianmen), Chongqing) · Licht: Sonnenuntergang 18:12 – Blick über den Zusammenfluss – Ticket vorab prüfen (kontingentiert).
-  - ↓ 🚗 Auto · ca. 5 Min. · 5 km
-- **18:45–20:00** ◻︎ optional: **Hongyadong 洪崖洞** (Yuzhong, Chongqing) · Licht: blaue Stunde → Nacht, Lichter ab ca. 18:30 – Vom Ufer bzw. von der Qiansimen-Brücke aus, Stativ.
-  - ↓ 🚶 zu Fuß · ca. 5 Min.
-- **20:05–20:35** ◻︎ optional: **Qiansimen Bridge 千厮门大桥** (Yuzhong, Chongqing) · Licht: Nacht – Rote Fachwerkbrücke mit Hongyadong und Skyline.
+- **16:45–17:30** ◻︎ optional: **Raffles City – The Crystal 重庆来福士·水晶连廊** (Yuzhong (Chaotianmen), Chongqing) · Licht: Spätes Licht über dem Zusammenfluss – Nur wenn die Ankunft glatt läuft und Tickets frei sind (kontingentiert). Sonst direkt zum Hongyadong.
   - ↓ 🚶 zu Fuß · ca. 15 Min.
+- **17:45–19:30** ✅ **Hongyadong 洪崖洞** (Yuzhong, Chongqing) · Licht: Blaue Stunde 18:10–18:40, Lichter ab ca. 18:30 – Gegen 17:45 da sein und Platz sichern. Klassischer Blick: von der Qiansimen-Brücke (Fußweg, Nordende) zurück auf die beleuchteten Stelzenhäuser, Stativ, 24–70, 2–8 s bei f/8. Danach unten am Ufer (Jialing-Promenade) frontal mit Spiegelung. Bei Nieselregen: Spiegelungen auf dem nassen Pflaster.
+  - ↓ 🚶 zu Fuß · ca. 5 Min.
+- **19:30–20:00** ◻︎ optional: **Qiansimen Bridge 千厮门大桥** (Yuzhong, Chongqing) · Licht: Nacht – Über die Brücke Richtung Jiangbei: Hongyadong mit Skyline von weiter weg, 70–200.
+  - ↓ 🚶 zu Fuß · ca. 20 Min.
 - 🏨 Unterkunft: **The Lixury Hotel Chongqing**
 
-### Di 27.10. – Chongqing: Monorail, Altstadt, Nachtblick vom Nanshan _(Entwurf)_
+### Di 27.10. – Chongqing: Liziba · Testbed 2 · Baixiangju · Shibati am Abend _(Entwurf)_
 
 - **7:00** 🏨 Unterkunft: **The Lixury Hotel Chongqing**
   - ↓ 🚗 Auto · ca. 10 Min. · 6 km
-- **7:30–8:30** ◻︎ optional: **Liziba Station 李子坝 – Monorail durchs Haus** (Yuzhong, Chongqing) · Licht: Morgen – vor dem Andrang – Plattform unten an der Straße; Bahnen alle paar Minuten.
-  - ↓ 🚶 zu Fuß · ca. 15 Min.
-- **8:45–10:00** ◻︎ optional: **Eling Park Skywalk 鹅岭栈桥** (Yuzhong, Chongqing) · Licht: weiches Morgenlicht – Danach Eling Second Factory (15 Min. bergauf).
-  - ↓ 🚶 zu Fuß · ca. 15 Min.
-- **10:15–11:15** ◻︎ optional: **Eling Second Factory 鹅岭二厂** (Yuzhong, Chongqing) · Licht: Vormittag – Dachterrassen des Kreativparks.
+- **7:30–8:30** ✅ **Liziba Station 李子坝 – Monorail durchs Haus** (Yuzhong, Chongqing) · Licht: Morgen – vor dem Andrang – Plattform unten an der Straße (Aussichtsplattform Liziba), Bahnen alle paar Minuten. 24–70, 1/500 s für die Einfahrt ins Haus; bei Regen glänzende Straße mit ins Bild.
+  - ↓ 🚶 zu Fuß · ca. 15 Min. (Zu Fuß bergauf nach Eling)
+- **8:45–9:15** ◻︎ optional: **Eling Park Skywalk 鹅岭栈桥** (Yuzhong, Chongqing) · Licht: Morgen – Kurzer Abstecher auf dem Weg, optional.
+- **9:15–10:45** ✅ **Eling Second Factory 鹅岭二厂** (Yuzhong, Chongqing) · Licht: Vormittag – Dachterrassen, bei Regen Innenhöfe – Testbed 2 (鹅岭二厂): Backstein-Fabrik, Treppen und Dachterrassen mit Blick über den Jialing. Öffnet ca. 9–10 Uhr.
   - ↓ 🚗 Auto · ca. 10 Min. · 7 km
-- **11:30–12:30** ◻︎ optional: **Baixiangju & Yangtze River Cableway 白象居 · 长江索道** (Yuzhong, Chongqing) · Licht: Mittag – Architektur, Seilbahn zwischen den Türmen – Auf der Seilbahn über den Jangtse zum Südufer möglich.
+- **11:15–12:45** 🥢 **Mittagspause in Yuzhong** – Hotpot oder Nudeln, ggf. im Hotel kurz trocknen.
+- **13:00–14:30** ✅ **Baixiangju & Yangtze River Cableway 白象居 · 长江索道** (Yuzhong, Chongqing) · Licht: Mittag/Nachmittag – Architektur, Licht egal – Baixiangju (白象居): Straße erreicht das Wohnhaus im 24. Stock über eine Brücke – von unten am Treppenweg hochfotografieren, 16–35. Danach optional Jangtse-Seilbahn zum Südufer.
   - ↓ 🚶 zu Fuß · ca. 10 Min.
-- **13:30–15:00** ◻︎ optional: **Huguang Guild Hall 湖广会馆** (Yuzhong, Chongqing) · Licht: Mittag – Innenhöfe – Gildehallen am Jangtse-Ufer.
-- **15:15** 🏨 Pause: **The Lixury Hotel Chongqing**
-  - ↓ 🚗 Auto · ca. 5 Min. · 4 km
-- **17:15–19:00** ◻︎ optional: **Yikeshu Viewing Platform 一棵树观景台** (Nan'an (Nanshan), Chongqing) · Licht: Sonnenuntergang 18:11 → blaue Stunde über Yuzhong – Gegen 17:15 da sein, Platz am Geländer sichern.
-  - ↓ 🚗 Auto · ca. 15 Min. · 10 km
-- **19:15–20:15** ◻︎ optional: **Longmenhao Old Street 龙门浩老街** (Nan'an, Chongqing) · Licht: Nacht – Backsteinvillen und Treppen, Blick auf die Skyline.
-  - ↓ 🚗 Auto · ca. 10 Min. · 7 km
+- **14:45–15:45** ◻︎ optional: **Huguang Guild Hall 湖广会馆** (Yuzhong, Chongqing) · Licht: Nachmittag – Innenhöfe – Gildehallen am Jangtse-Ufer, gut bei Regen.
+- **16:00** 🏨 Pause: **The Lixury Hotel Chongqing**
+  - ↓ 🚶 zu Fuß · ca. 10 Min.
+- **17:45–19:30** ✅ **Shibati Old Steps 十八梯** (Yuzhong, Chongqing) · Licht: Blaue Stunde 18:10–18:40 → Laternen bei Nacht – Ladder Street (十八梯): von oben die Treppen hinunter mit den Laternen, 24–70, Stativ. Bei Nässe glänzen die Stufen.
+  - ↓ 🚗 Auto · ca. 10 Min. · 8 km
+- **20:00–21:00** ◻︎ optional: **Yikeshu Viewing Platform 一棵树观景台** (Nan'an (Nanshan), Chongqing) · Licht: Nacht – Skyline von Nanshan – Optional: Nachtblick über Yuzhong, nur bei klarer Sicht lohnend.
+  - ↓ 🚗 Auto · ca. 15 Min. · 12 km
 - 🏨 Unterkunft: **The Lixury Hotel Chongqing**
 
 ### Mi 28.10. – Chongqing → Shanghai (Flug CA4541) · Bund bei Nacht _(Entwurf)_
 
-- **6:30** 🏨 Unterkunft: **The Lixury Hotel Chongqing**
-  - ↓ 🚗 Auto · ca. 5 Min. · 2 km
-- **6:45–8:00** ◻︎ optional: **Chaotianmen 朝天门** (Yuzhong, Chongqing) · Licht: Sonnenaufgang 7:03 über dem Zusammenfluss – Landspitze mit Raffles City im Morgenlicht.
-  - ↓ 🚗 Auto · ca. 10 Min. · 4 km
-- **8:30–9:30** ◻︎ optional: **Shibati Old Steps 十八梯** (Yuzhong, Chongqing) · Licht: Morgen – Treppen noch leer
+- **9:00** 🏨 Unterkunft: **The Lixury Hotel Chongqing**
+  - ↓ 🚗 Auto · ca. 15 Min. · 14 km (Taxi/DiDi nach Huangjueping (ca. 25 Min.))
+- **9:30–11:30** ✅ **Huangjueping Graffiti Street 黄桷坪涂鸦艺术街** (Jiulongpo, Chongqing) · Licht: Vormittag – bedeckter Himmel ideal für Farben – Graffiti-Straße an der Kunsthochschule Sichuan (黄桷坪涂鸦艺术街): ganze Häuserfassaden bemalt. 16–35 für Fassaden, Menschen als Maßstab; Mittagessen im Viertel.
+  - ↓ 🚗 Auto · ca. 20 Min. · 15 km
+- **12:30–13:30** ◻︎ optional: **Chaotianmen 朝天门** (Yuzhong, Chongqing) · Licht: Mittag – Optional: Landspitze am Zusammenfluss, 10 Min. vom Hotel.
+  - ↓ 🚗 Auto · ca. 5 Min. · 3 km
 - **~14:45** 🏨 Check-out: **The Lixury Hotel Chongqing**
   - ↓ 🚗 Auto · ca. 25 Min. · 24 km (Taxi/DiDi zum Flughafen Jiangbei (T3, Air China))
 - **17:25** ✈️ **Flughafen Chongqing Jiangbei (CKG) – Flug CA4541 ✓ gebucht** – Economy, nach Shanghai Hongqiao (SHA). Spätestens 1 h 30 vorher am Schalter (Inlandsflug, Pass).

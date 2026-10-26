@@ -1436,7 +1436,7 @@
   },
   {
    "date": "2026-10-26",
-   "title": "Zhangjiajie → Chongqing (Zug G2428) · Abendlichter",
+   "title": "Zhangjiajie → Chongqing · Hongyadong zur blauen Stunde",
    "status": "Entwurf",
    "items": [
     {
@@ -1484,8 +1484,9 @@
     {
      "type": "hotel",
      "name": "The Lixury Hotel Chongqing",
-     "t": "~12:30",
-     "label": "Check-in (bzw. Gepäck abgeben)"
+     "t": "~16:00",
+     "label": "Check-in",
+     "text": "Ab 16:00 in Chongqing. Hotel direkt an der Jiefangbei – Hongyadong 900 m zu Fuß."
     },
     {
      "type": "move",
@@ -1493,27 +1494,27 @@
     },
     {
      "type": "stop",
-     "t": "17:15–18:30",
+     "t": "16:45–17:30",
      "spot": "claude-cn-raffles-city-the-crystal",
+     "light": "golden",
+     "lightText": "Spätes Licht über dem Zusammenfluss",
+     "text": "Nur wenn die Ankunft glatt läuft und Tickets frei sind (kontingentiert). Sonst direkt zum Hongyadong.",
      "opt": true,
-     "light": "sunset",
-     "lightText": "Sonnenuntergang 18:12 – Blick über den Zusammenfluss",
-     "text": "Ticket vorab prüfen (kontingentiert).",
-     "sel": true
+     "sel": false
     },
     {
      "type": "move",
-     "mode": "car"
+     "mode": "walk",
+     "min": 15
     },
     {
      "type": "stop",
-     "t": "18:45–20:00",
+     "t": "17:45–19:30",
      "spot": "cn-hongyadong",
-     "opt": true,
      "light": "blue",
-     "lightText": "blaue Stunde → Nacht, Lichter ab ca. 18:30",
-     "text": "Vom Ufer bzw. von der Qiansimen-Brücke aus, Stativ.",
-     "sel": true
+     "lightText": "Blaue Stunde 18:10–18:40, Lichter ab ca. 18:30",
+     "text": "Gegen 17:45 da sein und Platz sichern. Klassischer Blick: von der Qiansimen-Brücke (Fußweg, Nordende) zurück auf die beleuchteten Stelzenhäuser, Stativ, 24–70, 2–8 s bei f/8. Danach unten am Ufer (Jialing-Promenade) frontal mit Spiegelung. Bei Nieselregen: Spiegelungen auf dem nassen Pflaster.",
+     "plan": true
     },
     {
      "type": "move",
@@ -1522,18 +1523,18 @@
     },
     {
      "type": "stop",
-     "t": "20:05–20:35",
+     "t": "19:30–20:00",
      "spot": "cn-qiansimen-bridge",
-     "opt": true,
      "light": "night",
      "lightText": "Nacht",
-     "text": "Rote Fachwerkbrücke mit Hongyadong und Skyline.",
+     "text": "Über die Brücke Richtung Jiangbei: Hongyadong mit Skyline von weiter weg, 70–200.",
+     "opt": true,
      "sel": true
     },
     {
      "type": "move",
      "mode": "walk",
-     "min": 15
+     "min": 20
     },
     {
      "type": "hotel",
@@ -1543,7 +1544,7 @@
   },
   {
    "date": "2026-10-27",
-   "title": "Chongqing: Monorail, Altstadt, Nachtblick vom Nanshan",
+   "title": "Chongqing: Liziba · Testbed 2 · Baixiangju · Shibati am Abend",
    "status": "Entwurf",
    "items": [
     {
@@ -1559,55 +1560,55 @@
      "type": "stop",
      "t": "7:30–8:30",
      "spot": "cn-liziba-station-monorail-durchs-haus",
-     "opt": true,
      "light": "day",
      "lightText": "Morgen – vor dem Andrang",
-     "text": "Plattform unten an der Straße; Bahnen alle paar Minuten.",
-     "sel": true
+     "text": "Plattform unten an der Straße (Aussichtsplattform Liziba), Bahnen alle paar Minuten. 24–70, 1/500 s für die Einfahrt ins Haus; bei Regen glänzende Straße mit ins Bild.",
+     "plan": true
     },
     {
      "type": "move",
      "mode": "walk",
-     "min": 15
+     "min": 15,
+     "text": "Zu Fuß bergauf nach Eling"
     },
     {
      "type": "stop",
-     "t": "8:45–10:00",
+     "t": "8:45–9:15",
      "spot": "cn-eling-park-skywalk",
+     "light": "day",
+     "lightText": "Morgen",
+     "text": "Kurzer Abstecher auf dem Weg, optional.",
      "opt": true,
-     "light": "golden",
-     "lightText": "weiches Morgenlicht",
-     "text": "Danach Eling Second Factory (15 Min. bergauf).",
-     "sel": true
-    },
-    {
-     "type": "move",
-     "mode": "walk",
-     "min": 15
+     "sel": false
     },
     {
      "type": "stop",
-     "t": "10:15–11:15",
+     "t": "9:15–10:45",
      "spot": "cn-eling-second-factory",
-     "opt": true,
      "light": "day",
-     "lightText": "Vormittag",
-     "text": "Dachterrassen des Kreativparks.",
-     "sel": true
+     "lightText": "Vormittag – Dachterrassen, bei Regen Innenhöfe",
+     "text": "Testbed 2 (鹅岭二厂): Backstein-Fabrik, Treppen und Dachterrassen mit Blick über den Jialing. Öffnet ca. 9–10 Uhr.",
+     "plan": true
     },
     {
      "type": "move",
      "mode": "car"
     },
     {
+     "type": "info",
+     "icon": "🥢",
+     "title": "Mittagspause in Yuzhong",
+     "text": "Hotpot oder Nudeln, ggf. im Hotel kurz trocknen.",
+     "t": "11:15–12:45"
+    },
+    {
      "type": "stop",
-     "t": "11:30–12:30",
+     "t": "13:00–14:30",
      "spot": "cn-baixiangju-yangtze-river-cableway",
-     "opt": true,
-     "light": "midday",
-     "lightText": "Mittag – Architektur, Seilbahn zwischen den Türmen",
-     "text": "Auf der Seilbahn über den Jangtse zum Südufer möglich.",
-     "sel": true
+     "light": "day",
+     "lightText": "Mittag/Nachmittag – Architektur, Licht egal",
+     "text": "Baixiangju (白象居): Straße erreicht das Wohnhaus im 24. Stock über eine Brücke – von unten am Treppenweg hochfotografieren, 16–35. Danach optional Jangtse-Seilbahn zum Südufer.",
+     "plan": true
     },
     {
      "type": "move",
@@ -1616,33 +1617,33 @@
     },
     {
      "type": "stop",
-     "t": "13:30–15:00",
+     "t": "14:45–15:45",
      "spot": "cn-huguang-guild-hall",
-     "opt": true,
      "light": "indoor",
-     "lightText": "Mittag – Innenhöfe",
-     "text": "Gildehallen am Jangtse-Ufer.",
-     "sel": true
+     "lightText": "Nachmittag – Innenhöfe",
+     "text": "Gildehallen am Jangtse-Ufer, gut bei Regen.",
+     "opt": true,
+     "sel": false
     },
     {
      "type": "hotel",
      "name": "The Lixury Hotel Chongqing",
-     "t": "15:15",
+     "t": "16:00",
      "label": "Pause"
     },
     {
      "type": "move",
-     "mode": "car"
+     "mode": "walk",
+     "min": 10
     },
     {
      "type": "stop",
-     "t": "17:15–19:00",
-     "spot": "claude-cn-yikeshu-viewing-platform",
-     "opt": true,
-     "light": "sunset",
-     "lightText": "Sonnenuntergang 18:11 → blaue Stunde über Yuzhong",
-     "text": "Gegen 17:15 da sein, Platz am Geländer sichern.",
-     "sel": true
+     "t": "17:45–19:30",
+     "spot": "claude-cn-shibati-old-steps",
+     "light": "blue",
+     "lightText": "Blaue Stunde 18:10–18:40 → Laternen bei Nacht",
+     "text": "Ladder Street (十八梯): von oben die Treppen hinunter mit den Laternen, 24–70, Stativ. Bei Nässe glänzen die Stufen.",
+     "plan": true
     },
     {
      "type": "move",
@@ -1650,13 +1651,13 @@
     },
     {
      "type": "stop",
-     "t": "19:15–20:15",
-     "spot": "claude-cn-longmenhao-old-street",
-     "opt": true,
+     "t": "20:00–21:00",
+     "spot": "claude-cn-yikeshu-viewing-platform",
      "light": "night",
-     "lightText": "Nacht",
-     "text": "Backsteinvillen und Treppen, Blick auf die Skyline.",
-     "sel": true
+     "lightText": "Nacht – Skyline von Nanshan",
+     "text": "Optional: Nachtblick über Yuzhong, nur bei klarer Sicht lohnend.",
+     "opt": true,
+     "sel": false
     },
     {
      "type": "move",
@@ -1676,35 +1677,39 @@
     {
      "type": "hotel",
      "name": "The Lixury Hotel Chongqing",
-     "t": "6:30"
+     "t": "9:00"
     },
     {
      "type": "move",
-     "mode": "car"
+     "mode": "car",
+     "text": "Taxi/DiDi nach Huangjueping (ca. 25 Min.)"
     },
     {
      "type": "stop",
-     "t": "6:45–8:00",
-     "spot": "cn-chaotianmen",
-     "opt": true,
-     "light": "sunrise",
-     "lightText": "Sonnenaufgang 7:03 über dem Zusammenfluss",
-     "text": "Landspitze mit Raffles City im Morgenlicht.",
-     "sel": true
-    },
-    {
-     "type": "move",
-     "mode": "car"
-    },
-    {
-     "type": "stop",
-     "t": "8:30–9:30",
-     "spot": "claude-cn-shibati-old-steps",
-     "opt": true,
+     "t": "9:30–11:30",
+     "spot": "claude-cn-huangjueping-graffiti-street",
      "light": "day",
-     "lightText": "Morgen – Treppen noch leer",
-     "text": "",
-     "sel": true
+     "lightText": "Vormittag – bedeckter Himmel ideal für Farben",
+     "text": "Graffiti-Straße an der Kunsthochschule Sichuan (黄桷坪涂鸦艺术街): ganze Häuserfassaden bemalt. 16–35 für Fassaden, Menschen als Maßstab; Mittagessen im Viertel.",
+     "plan": true
+    },
+    {
+     "type": "move",
+     "mode": "car"
+    },
+    {
+     "type": "stop",
+     "t": "12:30–13:30",
+     "spot": "cn-chaotianmen",
+     "light": "day",
+     "lightText": "Mittag",
+     "text": "Optional: Landspitze am Zusammenfluss, 10 Min. vom Hotel.",
+     "opt": true,
+     "sel": false
+    },
+    {
+     "type": "move",
+     "mode": "car"
     },
     {
      "type": "hotel",
