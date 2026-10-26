@@ -9,35 +9,6 @@
   "dur": {},
   "off": []
  },
- "2026-10-26": {
-  "opt": [
-   "claude-cn-raffles-city-the-crystal",
-   "cn-hongyadong",
-   "cn-qiansimen-bridge"
-  ],
-  "dur": {}
- },
- "2026-10-27": {
-  "opt": [
-   "claude-cn-longmenhao-old-street",
-   "claude-cn-yikeshu-viewing-platform",
-   "cn-baixiangju-yangtze-river-cableway",
-   "cn-eling-park-skywalk",
-   "cn-eling-second-factory",
-   "cn-huguang-guild-hall",
-   "cn-liziba-station-monorail-durchs-haus"
-  ],
-  "dur": {}
- },
- "2026-10-28": {
-  "opt": [
-   "claude-cn-shibati-old-steps",
-   "cn-chaotianmen",
-   "cn-the-bund-lujiazui",
-   "cn-waibaidu-bridge-suzhou-creek"
-  ],
-  "dur": {}
- },
  "2026-10-29": {
   "opt": [
    "claude-cn-jin-mao-tower-atrium",
