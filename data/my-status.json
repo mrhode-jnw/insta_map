@@ -754,5 +754,8 @@
  "cn-linhua-road-residential-complex": {
   "prio": "hoch",
   "fav": true
+ },
+ "cn-qiansimen-bridge": {
+  "done": true
  }
 }
