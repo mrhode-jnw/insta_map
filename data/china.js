@@ -12435,6 +12435,39 @@ window.PLACES_CN = [
   "image_page": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_4).jpg",
   "image_credit": "Fumikas Sagisavas · CC0 · Wikimedia Commons",
   "when": "both"
+ },
+ {
+  "id": "cn-monorail-line-2-mit-hongyadong-skyline-2",
+  "region": "cn",
+  "name": "Monorail Line 2 mit Hongyadong-Skyline 轻轨2号线 · 黄花园",
+  "district": "Huanghuayuan, Yuzhong, Chongqing",
+  "category": "Aussicht",
+  "note": "Nachtbild: die Monorail-Linie 2 fährt am Jialing-Ufer entlang, dahinter Hongyadong, die rote Qiansimen-Brücke und die Skyline von Jiefangbei. Standpunkt laut @yantastic: Rampe neben dem Hotel 奕朵江景酒店, am Südende der Huanghuayuan-Brücke 黄花园大桥 (Yuzhong-Seite) – Blick nach Osten. Metro: Station Huanghuayuan 黄花园 (Linie 2), ca. 3 Min. Leicht erhöht über der Uferstraße, 70–200 mm verdichtet Bahn und Hongyadong (ca. 1,4 km entfernt). Nach Einbruch der Dunkelheit, Bahnen alle paar Minuten; 1/60–1/125 s für eine scharfe Bahn oder Stativ und 1–2 s für Lichtspuren. Linie 2 fährt bis ca. 22:30.",
+  "address": "Huanghuayuan, Yuzhong, Chongqing",
+  "lat": 29.5652,
+  "lng": 106.5638,
+  "approx": true,
+  "image": "images/cq_monorail_hongyadong_yantastic.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/yantastic/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/yantastic/",
+    "kind": "photo",
+    "image": "images/cq_monorail_hongyadong_yantastic.jpg",
+    "caption": "",
+    "credit": "@yantastic · Instagram"
+   }
+  ],
+  "source": "Instagram @yantastic (Karussell „China's most viral city – Chongqing“, Bild 2–3/18)",
+  "unsure": "Pin nach der Kartengrafik im Post (blauer Punkt am Südende der Huanghuayuan-Brücke, östlich davon) – auf ca. 50–100 m genau; im Navi „奕朵江景酒店“ oder „黄花园大桥“ suchen.",
+  "image_page": "https://www.instagram.com/yantastic/",
+  "image_credit": "@yantastic · Instagram",
+  "when": "night"
  }
 ];
 window.UNPLACED_CN = [
