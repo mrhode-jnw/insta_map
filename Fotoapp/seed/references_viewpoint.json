@@ -1,0 +1,1013 @@
+{
+ "accessed_at": "2026-10-26",
+ "references": [
+  {
+   "image_id": "ic02846fa6d",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/47855/behind-the-gare-st-lazare",
+     "title": "Behind the Gare St. Lazare – Gallery Label",
+     "author": "The Nelson-Atkins Museum of Art (zitiert Henri Cartier-Bresson)",
+     "kind": "museum",
+     "excerpt": "“There was a plank fence around some repairs behind the Gare Lazare [train station], and I was peeking through the spaces with my camera eye,” Henri Cartier-Bresson later recalled about the moment he took this photograph. “This is what I saw. The space between the planks was not entirely wide enough for my lens, which is the reason the picture is cut off on the left.”"
+    },
+    {
+     "url": "https://todayspictures.slate.com/20060707/",
+     "title": "Magnum Photos – Today's Pictures (Slate), 7. Juli 2006",
+     "author": "Henri Cartier-Bresson (zitiert von Magnum Photos)",
+     "kind": "photographer",
+     "excerpt": "I happened to be peeking through a gap in the fence with my camera at the moment the man jumped."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Cartier-Bresson stand hinter einem Bretterzaun um eine Baustelle hinter dem Bahnhof Saint-Lazare und fotografierte durch eine Lücke zwischen den Planken [Q1][Q2]. Die Lücke war für sein Objektiv nicht ganz breit genug – deshalb ist das Bild links angeschnitten [Q1].",
+   "checkable": [
+    "Standpunkt hinter einem Zaun, durch eine Lücke fotografiert [Q1][Q2]",
+    "Linker Bildrand ist durch den Zaun/die Planke abgeschnitten [Q1]"
+   ],
+   "scope_note": "Zitat des Fotografen, über das Museum (Nelson-Atkins) und Magnum (Slate) überliefert; leicht abweichender Wortlaut."
+  },
+  {
+   "image_id": "ie8b47098fa",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.nps.gov/places/000/snake-river-overlook.htm",
+     "title": "Snake River Overlook (U.S. National Park Service)",
+     "author": "U.S. National Park Service, Grand Teton National Park",
+     "kind": "museum",
+     "excerpt": "Ansel Adams photographed this iconic view of the Teton Range and Snake River from roughly this vantage point. The sweep of the Snake River below the sagebrush flats and the high peaks of the Teton Range towering above enthrall all who visit. Today visitors try to capture this image forgetting that trees have grown and the exact location is not known."
+    }
+   ],
+   "library_source_ids": [
+    236552
+   ],
+   "answer_md": "Adams fotografierte ungefähr vom heutigen Snake River Overlook aus; der genaue Punkt ist nicht bekannt [Q1]. Von dort liegt die Flussschleife unterhalb der Salbeiebene, die Teton-Gipfel ragen darüber auf [Q1]. Die Kuratorin Becky Senf spricht vom „omniscient viewpoint“ und der „godlike perspective“ des Panoramas [S236552].",
+   "checkable": [
+    "Erhöhter Aussichtspunkt: Blick hinunter auf die Flussschleife [Q1]",
+    "Berge oben im Bild, Fluss darunter – Überblick statt Augenhöhe [Q1][S236552]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4911b04482",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space-2003",
+     "title": "Some Dry Space 2003 – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "Southern Pacific Railroad at 500’, 1700 hours, Carson Sink, NV, 2000"
+    },
+    {
+     "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+     "title": "Spatial Delirium: An Interview with Michael Light – BLDGBLOG",
+     "author": "Michael Light (Interview: Geoff Manaugh)",
+     "kind": "photographer",
+     "excerpt": "But the actual act of going in at the low altitudes that I do lets me make these particular images. I don’t do verticals; I do obliques, because they allow for a relational tableau to happen."
+    },
+    {
+     "url": "https://www.michaellight.net/some-dry-space",
+     "title": "An Inhabited West – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "I use a hand-held large-format film camera and I have learned to fly a small aircraft and image at the same time with the help of an assistant."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Luftaufnahme aus rund 500 Fuß (ca. 150 m) Höhe, laut Werktitel des Fotografen [Q1]. Light fliegt tief und fotografiert schräg (Obliques), nicht senkrecht nach unten [Q2]; er arbeitet mit einer handgehaltenen Großformatkamera aus einem Kleinflugzeug, das er selbst fliegt [Q3].",
+   "checkable": [
+    "Schräger Blick von oben, kein Senkrechtbild: Horizont/Himmel am oberen Rand sichtbar [Q2]",
+    "Geringe Flughöhe (ca. 500 Fuß) – Gleis und Gelände noch im Detail erkennbar [Q1][Q2]"
+   ],
+   "scope_note": "Q2/Q3 beschreiben Lights Arbeitsweise für seine Luftbilder allgemein; Q1 ist der Bildtitel aus seinem Werkverzeichnis."
+  },
+  {
+   "image_id": "i50cab9d733",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space-2003",
+     "title": "Some Dry Space 2003 – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "Owens River Valley at 400’, 1700 hours, Bishop, CA, 2001"
+    },
+    {
+     "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+     "title": "Spatial Delirium: An Interview with Michael Light – BLDGBLOG",
+     "author": "Michael Light (Interview: Geoff Manaugh)",
+     "kind": "photographer",
+     "excerpt": "But the actual act of going in at the low altitudes that I do lets me make these particular images. I don’t do verticals; I do obliques, because they allow for a relational tableau to happen."
+    },
+    {
+     "url": "https://www.michaellight.net/some-dry-space",
+     "title": "An Inhabited West – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "I use a hand-held large-format film camera and I have learned to fly a small aircraft and image at the same time with the help of an assistant."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Luftaufnahme aus rund 400 Fuß (ca. 120 m) Höhe [Q1]. Light fliegt tief und fotografiert schräg statt senkrecht [Q2], mit handgehaltener Großformatkamera aus einem selbst geflogenen Kleinflugzeug [Q3].",
+   "checkable": [
+    "Schrägsicht entlang des Tals bis zum Horizont, nicht senkrecht nach unten [Q2]",
+    "Sehr niedrige Flughöhe (ca. 400 Fuß) [Q1]"
+   ],
+   "scope_note": "Q2/Q3 allgemein zu Lights Luftbildern; Q1 Bildtitel aus dem Werkverzeichnis."
+  },
+  {
+   "image_id": "i3c04e1f54d",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space-2003",
+     "title": "Some Dry Space 2003 – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "Calumet Mountains at 600’, 0700 hours, Twentynine Palms, CA, 2000"
+    },
+    {
+     "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+     "title": "Spatial Delirium: An Interview with Michael Light – BLDGBLOG",
+     "author": "Michael Light (Interview: Geoff Manaugh)",
+     "kind": "photographer",
+     "excerpt": "But the actual act of going in at the low altitudes that I do lets me make these particular images. I don’t do verticals; I do obliques, because they allow for a relational tableau to happen."
+    },
+    {
+     "url": "https://www.michaellight.net/some-dry-space",
+     "title": "An Inhabited West – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "I use a hand-held large-format film camera and I have learned to fly a small aircraft and image at the same time with the help of an assistant."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Luftaufnahme aus rund 600 Fuß (ca. 180 m) Höhe [Q1]. Light fliegt tief und fotografiert schräg statt senkrecht [Q2], aus einem Kleinflugzeug mit handgehaltener Großformatkamera [Q3].",
+   "checkable": [
+    "Schräger Blick über den Bergrücken in die Ebene, Horizont im Dunst oben [Q2]",
+    "Flughöhe nur ca. 600 Fuß – der Berg im Vordergrund wirkt nah [Q1]"
+   ],
+   "scope_note": "Q2/Q3 allgemein zu Lights Luftbildern; Q1 Bildtitel aus dem Werkverzeichnis."
+  },
+  {
+   "image_id": "i409d561d98",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space-2003",
+     "title": "Some Dry Space 2003 – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "Pinto Basin at 500’, 1830 hours, Joshua Tree National Park, CA, 2000"
+    },
+    {
+     "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+     "title": "Spatial Delirium: An Interview with Michael Light – BLDGBLOG",
+     "author": "Michael Light (Interview: Geoff Manaugh)",
+     "kind": "photographer",
+     "excerpt": "But the actual act of going in at the low altitudes that I do lets me make these particular images. I don’t do verticals; I do obliques, because they allow for a relational tableau to happen."
+    }
+   ],
+   "library_source_ids": [
+    515223
+   ],
+   "answer_md": "Luftaufnahme aus rund 500 Fuß Höhe [Q1], schräg und tief geflogen statt senkrecht von oben [Q2]. Light fotografiert bei ausgebauten Flugzeugtüren mit einer etwa 20 Pfund schweren Kamera [S515223].",
+   "checkable": [
+    "Flacher Schrägblick über die Ebene bis zum Horizont [Q2]",
+    "Niedrige Höhe (ca. 500 Fuß) [Q1]"
+   ],
+   "scope_note": "Q2 und S515223 beschreiben Lights Arbeitsweise allgemein; Q1 Bildtitel aus dem Werkverzeichnis."
+  },
+  {
+   "image_id": "i89782f8e78",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.artforum.com/columns/mitch-epsteins-american-power-193047/",
+     "title": "Mitch Epstein's American Power – Artforum",
+     "author": "Michael Fried (Artforum)",
+     "kind": "critic",
+     "excerpt": "The journey continues in the second picture, Poca High School and Amos Coal Power Plant, West Virginia 2004, in which we observe in the middle distance the same or similar cooling towers and smokestacks, the former issuing thick clouds of white steam, and nearer to us—again from a raised vantage point— an athletic field with a football team in red jerseys and silver helmets running a play."
+    },
+    {
+     "url": "https://www.artforum.com/columns/mitch-epsteins-american-power-193047/",
+     "title": "Mitch Epstein's American Power – Artforum",
+     "author": "Michael Fried (Artforum)",
+     "kind": "critic",
+     "excerpt": "For this project, Epstein, who for years worked with a handheld camera, began by shooting with a 4 x 5–inch view camera, which of course had to be mounted on a tripod;"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Epstein fotografierte von einem erhöhten Standpunkt auf das Sportfeld mit der Footballmannschaft; Kühltürme und Schornsteine liegen in mittlerer Entfernung dahinter [Q1]. Für das Projekt arbeitete er mit einer Großformatkamera auf Stativ [Q2].",
+   "checkable": [
+    "Leichter Blick von oben auf das Spielfeld [Q1]",
+    "Feld nah, Kraftwerk in der Mitteldistanz dahinter [Q1]"
+   ],
+   "scope_note": "Q2 gilt für die Serie „American Power“ allgemein."
+  },
+  {
+   "image_id": "i572ccc0ec3",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://dailyfreepress.com/?p=35668",
+     "title": "Manufacturing-themed photos tackle city life – The Daily Free Press",
+     "author": "The Daily Free Press (Boston University), Ausstellungsbesprechung",
+     "kind": "critic",
+     "excerpt": "“Urban Renewal # 5,” a shot of Shanghai from the top of Military Hospital, is a comment on the massive size of the population. Featuring a landscape of skyscrapers, the photograph’s point of view makes it seem as if the city continues for hundreds of miles."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Aufgenommen vom Dach des Militärkrankenhauses über Shanghai [Q1]. Der hohe Blickpunkt lässt die Stadt so wirken, als setze sie sich hunderte Meilen fort [Q1].",
+   "checkable": [
+    "Blick von oben über Dächer und Hochhäuser, keine Straßenebene im Vordergrund [Q1]",
+    "Bebauung reicht bis an den oberen Bildrand/Horizont [Q1]"
+   ],
+   "scope_note": "Studentische Ausstellungskritik (Daily Free Press); der Standpunkt steht auch im Werktitel Burtynskys („City Overview From Top of Military Hospital“)."
+  },
+  {
+   "image_id": "if0607eb95c",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel's Surreal Aerial Photos Reveal Scars on the American West – KQED",
+     "author": "KQED Arts (mit Zitaten von David Maisel)",
+     "kind": "magazine",
+     "excerpt": "In 2001, during a flight in the tiny Cessna he’d chartered, photographer David Maisel felt his fingers grow so numb from the cold that he began to lose dexterity operating his medium-format camera."
+    },
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel's Surreal Aerial Photos Reveal Scars on the American West – KQED",
+     "author": "KQED Arts (mit Zitaten von David Maisel)",
+     "kind": "magazine",
+     "excerpt": "The pilot had soared up to 10,000 feet, circling and banking the plane for hours at a time, and Maisel’s brain was indeed starved of oxygen."
+    },
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel's Surreal Aerial Photos Reveal Scars on the American West – KQED",
+     "author": "KQED Arts (mit Zitaten von David Maisel)",
+     "kind": "magazine",
+     "excerpt": "The results from that day’s flight, titled The Lake Project , are a series of surreal and otherworldly pictures of salt flats that are all that remain of what was once California’s biggest natural lake."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Luftaufnahme aus einer gecharterten kleinen Cessna, 2001, mit Mittelformatkamera [Q1]; der Pilot flog bis auf 10.000 Fuß und kreiste stundenlang in Schräglage [Q2]. Die Lake-Project-Bilder entstanden auf diesem Flug [Q3].",
+   "checkable": [
+    "Blick von weit oben (bis 10.000 Fuß) auf den Seegrund – kein Horizont [Q2]",
+    "Aufnahme aus kreisendem Flugzeug, daher Schrägsicht möglich [Q2]"
+   ],
+   "scope_note": "Bezieht sich auf die Aufnahmen von 2001; das Bild ist laut Bibliothek von 2001."
+  },
+  {
+   "image_id": "i2515f045ba",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel's Surreal Aerial Photos Reveal Scars on the American West – KQED",
+     "author": "KQED Arts (mit Zitaten von David Maisel)",
+     "kind": "magazine",
+     "excerpt": "In 2001, during a flight in the tiny Cessna he’d chartered, photographer David Maisel felt his fingers grow so numb from the cold that he began to lose dexterity operating his medium-format camera."
+    },
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel's Surreal Aerial Photos Reveal Scars on the American West – KQED",
+     "author": "KQED Arts (mit Zitaten von David Maisel)",
+     "kind": "magazine",
+     "excerpt": "The pilot had soared up to 10,000 feet, circling and banking the plane for hours at a time, and Maisel’s brain was indeed starved of oxygen."
+    },
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel's Surreal Aerial Photos Reveal Scars on the American West – KQED",
+     "author": "KQED Arts (mit Zitaten von David Maisel)",
+     "kind": "magazine",
+     "excerpt": "The results from that day’s flight, titled The Lake Project , are a series of surreal and otherworldly pictures of salt flats that are all that remain of what was once California’s biggest natural lake."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Aus einer gecharterten Cessna fotografiert, 2001, mit Mittelformatkamera [Q1]; Flughöhe bis 10.000 Fuß, das Flugzeug kreiste stundenlang [Q2][Q3].",
+   "checkable": [
+    "Aufsicht aus großer Höhe auf Salzkrusten, kein Himmel/Horizont [Q2]",
+    "Keine Standlinie am Boden – reiner Luftblick [Q1][Q2]"
+   ],
+   "scope_note": "Bezieht sich auf die Aufnahmen von 2001; das Bild ist laut Bibliothek von 2001."
+  },
+  {
+   "image_id": "i4266c79470",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Aerial Photography Over Iceland's Wild River Deltas – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "Most of the time, I try to avoid horizons in my aerials, which helps to make them more abstract. An aerial with a horizon easily becomes a postcard type of photograph; easy to digest but with very little personality."
+    }
+   ],
+   "library_source_ids": [
+    456873
+   ],
+   "answer_md": "Luftaufnahme: Strand fotografiert aus dem Flächenflugzeug fast senkrecht nach unten, aus dem Hubschrauber eher schräg [S456873]. Horizonte meidet er meist, damit das Bild abstrakter wird [Q1].",
+   "checkable": [
+    "Kein Horizont, kein Himmel im Bild [Q1]",
+    "Blick (nahezu) senkrecht von oben auf das Flussgeflecht [S456873]"
+   ],
+   "scope_note": "Beide Auszüge beschreiben Strands Arbeitsweise bei Island-Luftbildern allgemein, nicht dieses eine Bild."
+  },
+  {
+   "image_id": "ib01bcf3028",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "I walked onto the high bridge which crosses over the river and after surveying the scene, ran back to the car to get the equipment."
+    },
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "In order to compose the photograph, I set up the camera so that it was hanging well over the rail of the bridge. Standing on two stacked camera cases, I carefully focused the image on the ground glass. Ruth stood behind me, holding onto my belt and pants with both hands—it was over 700’ to the river below!"
+    }
+   ],
+   "library_source_ids": [
+    244307
+   ],
+   "answer_md": "Burkett stand auf der hohen Brücke über den Rio Grande [Q1]. Er baute die Kamera so auf, dass sie weit über das Geländer hinausragte, und stellte sich zum Scharfstellen auf zwei gestapelte Kamerakoffer – über 700 Fuß über dem Fluss [Q2]. Wind und Verkehr brachten die Brücke zum Schwingen; er wartete nach jeder Böe, bis sie ruhig war [S244307].",
+   "checkable": [
+    "Blick steil von oben in die Schlucht, Fluss tief unten [Q2]",
+    "Flusslauf in der Bildachse – Standpunkt über dem Canyon (Brücke) [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7004b09619",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/forest-light/",
+     "title": "Forest Light – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "This group of trees was located in the Grand Mesa area of Colorado at the edge of a small dirt road. The sun was behind the trees, backlighting the open central area with yellow light. Bright fill light was coming from the aspen trees behind me which intensified the orange colors in the trees."
+    },
+    {
+     "url": "https://christopherburkett.com/print/forest-light/",
+     "title": "Forest Light – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "I used a 450mm lens at f/64 and 1/2 second on Provia film and made two identical backup exposures. The rising front on the view camera was moved about 1” to keep the trunks vertical."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Burkett stand am Rand eines kleinen Feldwegs, mit Blick gegen die Sonne in die Baumgruppe; hinter ihm standen weitere Espen [Q1]. Statt die Kamera nach oben zu kippen, verschob er die Standarte etwa 1 Zoll nach oben, damit die Stämme senkrecht bleiben [Q2].",
+   "checkable": [
+    "Stämme laufen senkrecht und parallel – Kamera nicht gekippt [Q2]",
+    "Gegenlicht: Sonne hinter den Bäumen, also Blick Richtung Sonne [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idaed126ed1",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    219258
+   ],
+   "answer_md": "Burkett stand mit dem Rücken zu einer orangefarbenen Sandsteinwand und blickte auf den von hinten beleuchteten Pappelbaum vor der beschatteten Canyonwand [S219258].",
+   "checkable": [
+    "Baum im Gegenlicht vor dunkler, schattiger Felswand [S219258]",
+    "Standpunkt gegenüber dem Baum, sonnige Wand im Rücken des Fotografen (Aufhelllicht) [S219258]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ifde040bf71",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/les-aiguilles-the-chamonix-needles/",
+     "title": "Les Aiguilles, The Chamonix Needles – Art Wolfe",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "One of the most spectacular views in the European Alps is that across Lac Blanc to the Chamonix Needles. Lit at sunset, the white glaciers soften to pink and the stark granite spires are gilded."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Blick geht über den Lac Blanc hinweg auf die Chamonix-Nadeln [Q1].",
+   "checkable": [
+    "Standpunkt am Ufer des Lac Blanc, See im Vordergrund mit Spiegelung [Q1]",
+    "Die Nadeln liegen jenseits des Sees [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i78fcf82aa5",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/15723-thomas-joshua-cooper-east-most-looking-towards-scotland-the-north-2013/",
+     "title": "Werktitel – Ingleby Gallery",
+     "author": "Thomas Joshua Cooper (Werktitel, Ingleby Gallery)",
+     "kind": "photographer",
+     "excerpt": "East-most - Looking towards Scotland - The North Channel and The Irish Sea - Burr Point, The Ards Peninsula - County Down, Northern Ireland - The East-most point of Ireland"
+    },
+    {
+     "url": "https://radar.gsa.ac.uk/5300/1/Thomas%20Joshua%20Cooper%20PhD%20by%20Publication.pdf",
+     "title": "Gauging the Distance – The Reach for Extremity and Emptiness (PhD by Published Work, University of Glasgow / Glasgow School of Art, 2017)",
+     "author": "Thomas Joshua Cooper",
+     "kind": "photographer",
+     "excerpt": "From a specific Cardinal-land point, working with my back to the land and always facing looking out towards the sea, make one singular, unique picture"
+    },
+    {
+     "url": "https://radar.gsa.ac.uk/5300/1/Thomas%20Joshua%20Cooper%20PhD%20by%20Publication.pdf",
+     "title": "Gauging the Distance – The Reach for Extremity and Emptiness (PhD by Published Work, University of Glasgow / Glasgow School of Art, 2017)",
+     "author": "Thomas Joshua Cooper",
+     "kind": "photographer",
+     "excerpt": "Almost always require a horizon-less, horizontal, “interiorized” view of any visual extent that I may intend to picture."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Aufgenommen am Burr Point, dem östlichsten Punkt Irlands, mit Blick Richtung Schottland über den Nordkanal [Q1]. Cooper arbeitet an solchen Extrempunkten mit dem Rücken zum Land, Blick aufs Meer, und macht nur ein einziges Bild [Q2]; fast immer ohne Horizont [Q3].",
+   "checkable": [
+    "Blick vom Ufer hinaus aufs Wasser, Land (Fels) nur am Rand [Q2]",
+    "Kein Horizont im Bild [Q3]"
+   ],
+   "scope_note": "Q2/Q3 sind Coopers Regeln für das gesamte „Atlas“-Projekt; Q1 ist der Werktitel."
+  },
+  {
+   "image_id": "i2eea36976e",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/56423-thomas-joshua-cooper-the-north-atlantic-ocean-the-butt-of-lewis/",
+     "title": "Werktitel – Ingleby Gallery",
+     "author": "Thomas Joshua Cooper (Werktitel, Ingleby Gallery)",
+     "kind": "photographer",
+     "excerpt": "The North Atlantic Ocean, The Butt of Lewis, The Isle of Lewis, The Western Isles, Scotland, The North-most point of the Western Isles"
+    },
+    {
+     "url": "https://radar.gsa.ac.uk/5300/1/Thomas%20Joshua%20Cooper%20PhD%20by%20Publication.pdf",
+     "title": "Gauging the Distance – The Reach for Extremity and Emptiness (PhD by Published Work, University of Glasgow / Glasgow School of Art, 2017)",
+     "author": "Thomas Joshua Cooper",
+     "kind": "photographer",
+     "excerpt": "From a specific Cardinal-land point, working with my back to the land and always facing looking out towards the sea, make one singular, unique picture"
+    },
+    {
+     "url": "https://radar.gsa.ac.uk/5300/1/Thomas%20Joshua%20Cooper%20PhD%20by%20Publication.pdf",
+     "title": "Gauging the Distance – The Reach for Extremity and Emptiness (PhD by Published Work, University of Glasgow / Glasgow School of Art, 2017)",
+     "author": "Thomas Joshua Cooper",
+     "kind": "photographer",
+     "excerpt": "Almost always require a horizon-less, horizontal, “interiorized” view of any visual extent that I may intend to picture."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Aufgenommen am Butt of Lewis, dem nördlichsten Punkt der Äußeren Hebriden, Blick auf den Nordatlantik [Q1]. Cooper steht an solchen Punkten mit dem Rücken zum Land und blickt aufs Meer, ein Bild pro Ort [Q2]; meist ohne Horizont [Q3].",
+   "checkable": [
+    "Blick vom Land hinaus auf Felsnadel und Brandung [Q2]",
+    "Kein Horizont, das Meer füllt den Hintergrund [Q3]"
+   ],
+   "scope_note": "Q2/Q3 sind Coopers Regeln für das gesamte „Atlas“-Projekt; Q1 ist der Werktitel."
+  },
+  {
+   "image_id": "i3b48d06951",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/55412-thomas-joshua-cooper-failure-and-annihilation-looking-toward-scotland-darien-and-2007-2015/",
+     "title": "Werktitel – Ingleby Gallery",
+     "author": "Thomas Joshua Cooper (Werktitel, Ingleby Gallery)",
+     "kind": "photographer",
+     "excerpt": "Failure and Annihilation, Looking toward Scotland, Darien and Caledonia - Bahia Escocese, Puerto Escocés, Guna Yala, Panama"
+    },
+    {
+     "url": "https://radar.gsa.ac.uk/5300/1/Thomas%20Joshua%20Cooper%20PhD%20by%20Publication.pdf",
+     "title": "Gauging the Distance – The Reach for Extremity and Emptiness (PhD by Published Work, University of Glasgow / Glasgow School of Art, 2017)",
+     "author": "Thomas Joshua Cooper",
+     "kind": "photographer",
+     "excerpt": "From a specific Cardinal-land point, working with my back to the land and always facing looking out towards the sea, make one singular, unique picture"
+    },
+    {
+     "url": "https://radar.gsa.ac.uk/5300/1/Thomas%20Joshua%20Cooper%20PhD%20by%20Publication.pdf",
+     "title": "Gauging the Distance – The Reach for Extremity and Emptiness (PhD by Published Work, University of Glasgow / Glasgow School of Art, 2017)",
+     "author": "Thomas Joshua Cooper",
+     "kind": "photographer",
+     "excerpt": "Almost always require a horizon-less, horizontal, “interiorized” view of any visual extent that I may intend to picture."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Aufgenommen an der Bahía Escocesa (Puerto Escocés) in Panama, Blickrichtung Schottland [Q1]. Cooper arbeitet mit dem Rücken zum Land und blickt aufs Meer, ein Bild pro Ort [Q2], meist ohne Horizont [Q3].",
+   "checkable": [
+    "Blick vom Uferfelsen hinaus aufs Wasser [Q2]",
+    "Kein Horizont – Wasserfläche geht in Weiß über [Q3]"
+   ],
+   "scope_note": "Q2/Q3 sind Coopers Regeln für das gesamte „Atlas“-Projekt; Q1 ist der Werktitel."
+  },
+  {
+   "image_id": "i801d6ed9bd",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/17208-thomas-joshua-cooper-bridal-falls-shoshone-falls-the-snake-2003-04/",
+     "title": "Werktitel – Ingleby Gallery",
+     "author": "Thomas Joshua Cooper (Werktitel, Ingleby Gallery)",
+     "kind": "photographer",
+     "excerpt": "Bridal Falls - Shoshone Falls - The Snake River Basin - The West Bank Rim Top - The West Bank Rim Floor, Jerome County"
+    },
+    {
+     "url": "https://radar.gsa.ac.uk/5300/1/Thomas%20Joshua%20Cooper%20PhD%20by%20Publication.pdf",
+     "title": "Gauging the Distance – The Reach for Extremity and Emptiness (PhD by Published Work, University of Glasgow / Glasgow School of Art, 2017)",
+     "author": "Thomas Joshua Cooper",
+     "kind": "photographer",
+     "excerpt": "Body position – upright, bent, crouching, leaning, kneeling, sitting, prone, standing on something – is central in establishing visual vantage point, along with the necessary support of ensuring that the camera tripod can always reach, and assume the same bodily attitudes required of the picture-maker."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Diptychon hat zwei Standpunkte: oben auf dem Rand des Westufers („Rim Top“) und unten am Fuß der Wand („Rim Floor“) [Q1]. Cooper legt den Blickpunkt über die Körperhaltung fest – stehend, kniend, liegend, auf etwas stehend – und das Stativ muss diese Haltung mitmachen [Q2].",
+   "checkable": [
+    "Linkes Bild: Blick von oben auf den Fall und das Wasser darunter [Q1]",
+    "Rechtes Bild: Blick vom Grund an der Felswand entlang [Q1]"
+   ],
+   "scope_note": "Q2 beschreibt Coopers Feldmethode allgemein; die Zuordnung links=oben, rechts=unten folgt der Reihenfolge im Titel."
+  },
+  {
+   "image_id": "iad3aaf5028",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://issuemagazine.com/a-ground-neutral-and-replete/",
+     "title": "Stephen Shore, Interview by Gil Blank (Whitewall), Issue Magazine",
+     "author": "Stephen Shore (Interview: Gil Blank)",
+     "kind": "photographer",
+     "excerpt": "I couldn’t do some of the pictures I was doing for American Surfaces as easily, like pictures of food. I did my pancake picture the next year, the first year with the 4×5."
+    },
+    {
+     "url": "https://issuemagazine.com/a-ground-neutral-and-replete/",
+     "title": "Stephen Shore, Interview by Gil Blank (Whitewall), Issue Magazine",
+     "author": "Stephen Shore (Interview: Gil Blank)",
+     "kind": "photographer",
+     "excerpt": "But to do it, I had to be standing on a chair, looking into the camera, and by the time I did it, the food was cold because it’s a big production, and I have to get permission from the restaurant, because if I had this camera and this tripod and I’m standing on one of their chairs, it’s not as simple as just looking down at the plate in front of me and snapping a picture of it."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Für sein Pfannkuchen-Bild arbeitete Shore erstmals mit der 4×5-Kamera [Q1]. Er stand dabei auf einem Stuhl des Restaurants, die Kamera auf dem Stativ, und blickte von oben auf den Teller [Q2].",
+   "checkable": [
+    "Blick steil von oben auf den Tisch [Q2]",
+    "Kamerastandpunkt über Kopfhöhe (auf einem Stuhl) [Q2]"
+   ],
+   "scope_note": "Shore nennt das Bild „my pancake picture“ (erstes Jahr mit 4×5, also 1973); die Bibliotheksaufnahme „Trail’s End Restaurant, Kanab, Utah“ (1973) ist dieses Frühstücksbild mit Pfannkuchen."
+  },
+  {
+   "image_id": "if1a1a0ca0f",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://americanart.si.edu/node/42178",
+     "title": "Valley of the Yosemite from Union Point – Smithsonian American Art Museum",
+     "author": "Smithsonian American Art Museum",
+     "kind": "museum",
+     "excerpt": "Eadweard Muybridge went to great lengths to photograph the best possible views of the West. He chopped down trees if they obstructed his camera, and ventured to “points where his packers refused to follow him.”"
+    },
+    {
+     "url": "https://americanart.si.edu/node/42178",
+     "title": "Valley of the Yosemite from Union Point – Smithsonian American Art Museum",
+     "author": "Smithsonian American Art Museum",
+     "kind": "museum",
+     "excerpt": "Eadweard Muybridge, Valley of the Yosemite from Union Point , 1872, albumen silver print"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild entstand am Union Point über dem Yosemite Valley [Q2]. Muybridge suchte für seine Ansichten extreme Standpunkte, ging an Punkte, an die ihm seine Packer nicht folgten, und fällte Bäume, die der Kamera im Weg standen [Q1].",
+   "checkable": [
+    "Standpunkt hoch über dem Tal (Union Point), Blick hinunter ins Tal [Q1][Q2]"
+   ],
+   "scope_note": "Museumstext zu genau diesem Bild, beschreibt aber Muybridges Vorgehen allgemein; „Union Point“ steht im Titel."
+  },
+  {
+   "image_id": "i6749fddb8d",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.blind-magazine.com/news/the-plaines-of-america-by-joel-sternfeld/",
+     "title": "The Plaines of America by Joel Sternfeld – Blind Magazine",
+     "author": "Lise Olsina (Blind Magazine), mit Zitat von Joel Sternfeld",
+     "kind": "magazine",
+     "excerpt": "Joel Sternfeld has built a large photographic collection during the three years of traveling across the United States in a VW campervan, which also served as a stand for his 8×10 large-format camera. From the rooftop of his camper, the photographer captured social unrest and environmental upheavals which were beginning to affect the country."
+    },
+    {
+     "url": "https://www.blind-magazine.com/news/the-plaines-of-america-by-joel-sternfeld/",
+     "title": "The Plaines of America by Joel Sternfeld – Blind Magazine",
+     "author": "Lise Olsina (Blind Magazine), mit Zitat von Joel Sternfeld",
+     "kind": "magazine",
+     "excerpt": "‘Prospect’ also means ‘seen from above, perspective,’ which goes well with my working method."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Für „American Prospects“ diente Sternfelds VW-Bus als Standplatz für die 8×10-Kamera; er fotografierte vom Dach des Campers [Q1]. Sternfeld selbst sagt, „Prospect“ heiße auch „von oben gesehen“ – das passe zu seiner Arbeitsweise [Q2].",
+   "checkable": [
+    "Leicht erhöhter Blick hinunter in die ausgespülte Senke [Q1][Q2]",
+    "Häuser und Berge oben, Abbruch im Vordergrund – Überblick statt Augenhöhe [Q2]"
+   ],
+   "scope_note": "Serienebene: Die Quellen beschreiben die Arbeitsweise in „American Prospects“, nicht ausdrücklich dieses Bild."
+  },
+  {
+   "image_id": "i7b702608e6",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://kenyonreview.org/2014/11/sugimoto-seascapes/",
+     "title": "Sugimoto Seascapes – Kenyon Review Blog",
+     "author": "T Clutch Fleischmann (Kenyon Review)",
+     "kind": "magazine",
+     "excerpt": "The photos in the series are all 20 x 24 inches, positioned with the horizon at the exact center and shot in black and white. Sugimoto shoots from cliffs using a large camera from the late nineteenth century."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Sugimoto fotografiert die Seestücke von Klippen aus, mit einer Großformatkamera aus dem späten 19. Jahrhundert; der Horizont liegt immer exakt in der Bildmitte [Q1].",
+   "checkable": [
+    "Horizont genau in der Mitte [Q1]",
+    "Erhöhter Standpunkt: kein Ufer, nur Wasser und Himmel [Q1]"
+   ],
+   "scope_note": "Serienebene (alle „Seascapes“); der Titel nennt hier ausdrücklich eine Klippe (Weston Cliff)."
+  },
+  {
+   "image_id": "i7fd8cb9704",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    662901
+   ],
+   "answer_md": "Cartier-Bresson stand oben an der gewundenen schwarzen Treppe und wartete, bis jemand durchs Bild kam [S662901].",
+   "checkable": [
+    "Blick steil von oben über das Treppengeländer auf die Straße [S662901]",
+    "Der Radfahrer erscheint unverdeckt vom Geländer [S662901]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idb2e605d79",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    837493
+   ],
+   "answer_md": "Die Aufnahme entstand von einem hohen Standpunkt, mit Blick hinunter in den barocken Saal mit neun Vitrinen auf gemustertem Holzboden [S837493].",
+   "checkable": [
+    "Blick von oben auf den Boden des Saals [S837493]",
+    "Vitrinen und Bodenmuster von schräg oben gesehen [S837493]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6cd4bc86d1",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    558554,
+    540076
+   ],
+   "answer_md": "Bahrain I wurde aus einem Hubschrauber aufgenommen und später digital bearbeitet [S558554]. Gursky sagt (zu Bahrain II), er fotografiere oft von einem erhöhten Standpunkt mit Zentralperspektive [S540076].",
+   "checkable": [
+    "Blick von oben auf die Rennstrecke im Sand [S558554]",
+    "Kein Bodenstandpunkt – Aufsicht aus der Luft [S558554]"
+   ],
+   "scope_note": "S540076 bezieht sich ausdrücklich auf Bahrain II und auf Gurskys Arbeitsweise allgemein."
+  },
+  {
+   "image_id": "i3312b69c1e",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    217543,
+    564527
+   ],
+   "answer_md": "Gursky fotografierte die Fassade frontal, die linke und die rechte Hälfte von zwei getrennten Standpunkten aus, und fügte die Negative am Computer zusammen [S217543]. Der doppelte Standpunkt erlaubt tiefere Einblicke in die einzelnen Wohnungen [S564527].",
+   "checkable": [
+    "Fassade streng frontal aufgenommen [S217543]",
+    "Kein einheitlicher Fluchtpunkt – zwei Standpunkte zusammengesetzt [S217543][S564527]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i1a38ff290d",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    661879
+   ],
+   "answer_md": "Fan Ho fotografierte die Passanten in der Central Market Hall in Hongkong aus niedriger Perspektive (low-angle shot) [S661879].",
+   "checkable": [
+    "Kamera tief, Blick leicht von unten [S661879]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i715f266a1b",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    242721
+   ],
+   "answer_md": "O'Sullivan erkundete die Canyons mit seinem eigenen Boot „Picture“ vom niedrigen Standpunkt auf dem Colorado aus [S242721].",
+   "checkable": [
+    "Standpunkt unten am/auf dem Fluss, Blick an den Canyonwänden hinauf [S242721]",
+    "Wände ragen über den Betrachter [S242721]"
+   ],
+   "scope_note": "Museumstext zur Expedition; „Looking Above“ steht im Bildtitel."
+  },
+  {
+   "image_id": "ifccce59f5b",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    677129
+   ],
+   "answer_md": "Die frühere Fassung des Bildes entstand von einem niedrigeren Standpunkt, dort ist noch eine Wand des Saals sichtbar; in dieser zwei Jahre späteren Fassung füllt der überfüllte Handelsboden das ganze Bild [S677129].",
+   "checkable": [
+    "Keine Saalwand sichtbar, der Boden füllt das Bild [S677129]",
+    "Höherer Standpunkt als in der früheren Fassung [S677129]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4a55592e19",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/daybreak/",
+     "title": "Daybreak – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "I used the 800mm lens with the back tilt to adjust the plane of focus parallel with the water and stopped the lens down to f/45 to get everything in focus."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Burkett fotografierte den Bach mit einem 800-mm-Objektiv, also aus deutlichem Abstand, und legte die Schärfeebene mit Rückteil-Neigung parallel zum Wasser [Q1].",
+   "checkable": [
+    "Ausschnitt eng und flach, Steine und Spiegelungen ohne Raumtiefe – Teleperspektive [Q1]",
+    "Von vorne bis hinten durchgehend scharf [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ice7056e3c3",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "We drove south until we came upon this beaver lodge on the west side of the road."
+    },
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "I used a 30” Red Dot Artar lens at f/64."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Biberbau lag an der Westseite der Straße [Q1]; Burkett nahm ihn mit einem 30-Zoll-Objektiv (ca. 760 mm) auf [Q2].",
+   "checkable": [
+    "Sehr enger Bildausschnitt (langes Tele, ca. 760 mm) [Q2]",
+    "Biberbau vom Straßenrand aus gesehen, nicht aus der Nähe [Q1][Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i50362a9e1f",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/iceberg-iceland/",
+     "title": "Iceberg, Iceland – Art Wolfe",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "As I wandered along the shore, I spotted a tiny (36 kilograms/80 or so pounds, by my estimation) iceberg adrift in shallow water. It looked to be crystal clear with an interesting shape, so I retrieved it and propped it up with some rocks. I then proceeded to take a series of photographs, moving ever closer to the iceberg’s polished surface."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Wolfe holte einen kleinen Eisbrocken aus dem flachen Wasser, stellte ihn am Ufer mit Steinen auf und ging für eine Bildserie immer näher heran [Q1].",
+   "checkable": [
+    "Sehr kurzer Abstand: Eisstück groß im Vordergrund [Q1]",
+    "Steine am Ufer, auf denen das Eis steht, unten im Bild [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i89782f8e78",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://www.artforum.com/columns/mitch-epsteins-american-power-193047/",
+     "title": "Mitch Epstein's American Power – Artforum",
+     "author": "Michael Fried (Artforum)",
+     "kind": "critic",
+     "excerpt": "The journey continues in the second picture, Poca High School and Amos Coal Power Plant, West Virginia 2004, in which we observe in the middle distance the same or similar cooling towers and smokestacks, the former issuing thick clouds of white steam, and nearer to us—again from a raised vantage point— an athletic field with a football team in red jerseys and silver helmets running a play."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Sportfeld mit der Mannschaft liegt näher am Betrachter, die Kühltürme und Schornsteine stehen in mittlerer Entfernung [Q1].",
+   "checkable": [
+    "Spieler nah/mittig, Kraftwerk dahinter in der Mitteldistanz [Q1]",
+    "Dampfwolken der Kühltürme oben rechts [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i23b23de570",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://newrepublic.com/article/115209/michael-wolf-photography-hong-kongs-architecture-density",
+     "title": "Michael Wolf Photography: Hong Kong's Architecture of Density – The New Republic",
+     "author": "Michael Wolf (Interview: Maïa Booker, The New Republic)",
+     "kind": "photographer",
+     "excerpt": "by using this stylistic solution by eliminating sky and horizon you give the feeling of unlimited size, because you have no idea how big the building is. It could be 100 stories or 200 stories, it could be a mile long."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Wolf schneidet Himmel und Horizont weg; dadurch fehlt jeder Maßstab, und das Gebäude wirkt unbegrenzt groß – 100 oder 200 Stockwerke, eine Meile lang [Q1].",
+   "checkable": [
+    "Kein Himmel, kein Horizont, kein Gebäudeende sichtbar [Q1]",
+    "Fassade läuft an allen vier Rändern aus dem Bild [Q1]"
+   ],
+   "scope_note": "Serienebene: Wolf beschreibt das Prinzip der ganzen Serie „Architecture of Density“."
+  },
+  {
+   "image_id": "i88ceb1aba7",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://newrepublic.com/article/115209/michael-wolf-photography-hong-kongs-architecture-density",
+     "title": "Michael Wolf Photography: Hong Kong's Architecture of Density – The New Republic",
+     "author": "Michael Wolf (Interview: Maïa Booker, The New Republic)",
+     "kind": "photographer",
+     "excerpt": "by using this stylistic solution by eliminating sky and horizon you give the feeling of unlimited size, because you have no idea how big the building is. It could be 100 stories or 200 stories, it could be a mile long."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Ohne Himmel und Horizont fehlt der Maßstab, die Hochhausfront wirkt unbegrenzt [Q1].",
+   "checkable": [
+    "Kein Himmel, kein Horizont [Q1]",
+    "Keine Gebäudekante oben oder unten – Größe nicht abschätzbar [Q1]"
+   ],
+   "scope_note": "Serienebene: Wolf beschreibt das Prinzip der ganzen Serie „Architecture of Density“."
+  },
+  {
+   "image_id": "i0365451f8f",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://newrepublic.com/article/115209/michael-wolf-photography-hong-kongs-architecture-density",
+     "title": "Michael Wolf Photography: Hong Kong's Architecture of Density – The New Republic",
+     "author": "Michael Wolf (Interview: Maïa Booker, The New Republic)",
+     "kind": "photographer",
+     "excerpt": "by using this stylistic solution by eliminating sky and horizon you give the feeling of unlimited size, because you have no idea how big the building is. It could be 100 stories or 200 stories, it could be a mile long."
+    },
+    {
+     "url": "https://newrepublic.com/article/115209/michael-wolf-photography-hong-kongs-architecture-density",
+     "title": "Michael Wolf Photography: Hong Kong's Architecture of Density – The New Republic",
+     "author": "Michael Wolf (Interview: Maïa Booker, The New Republic)",
+     "kind": "photographer",
+     "excerpt": "Because from far away they could really be a pattern, a tapestry, and then when you get closer you suddenly see there are people living there, it’s this duality which makes them interesting."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Ohne Himmel und Horizont ist die Größe des Gebäudes nicht abzuschätzen [Q1]. Aus der Ferne wirkt die Fassade wie ein Muster, aus der Nähe sieht man die Spuren der Bewohner [Q2].",
+   "checkable": [
+    "Kein Himmel, kein Horizont [Q1]",
+    "Wäsche und Gegenstände in den Fenstern als Lebenszeichen [Q2]"
+   ],
+   "scope_note": "Serienebene: Wolf beschreibt das Prinzip der ganzen Serie „Architecture of Density“."
+  },
+  {
+   "image_id": "i32d59b1183",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel's Surreal Aerial Photos Reveal Scars on the American West – KQED",
+     "author": "KQED Arts (mit Zitaten von David Maisel)",
+     "kind": "magazine",
+     "excerpt": "It also allows for a graphic intensity to the images. When you’re removing the sky and most sense of scale from the frame, the images become abstract."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Maisel nimmt den Himmel und fast jeden Größenhinweis aus dem Bild; dadurch wird es abstrakt [Q1].",
+   "checkable": [
+    "Kein Himmel, kein Horizont [Q1]",
+    "Kein Gegenstand bekannter Größe – Maßstab unklar [Q1]"
+   ],
+   "scope_note": "Maisel spricht über seine Luftbilder allgemein, im Artikel über „The Lake Project“."
+  },
+  {
+   "image_id": "i98e3bc0868",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel's Surreal Aerial Photos Reveal Scars on the American West – KQED",
+     "author": "KQED Arts (mit Zitaten von David Maisel)",
+     "kind": "magazine",
+     "excerpt": "It also allows for a graphic intensity to the images. When you’re removing the sky and most sense of scale from the frame, the images become abstract."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Ohne Himmel und ohne Größenhinweise wird die Luftaufnahme abstrakt [Q1].",
+   "checkable": [
+    "Kein Himmel, kein Horizont [Q1]",
+    "Strukturen könnten Zentimeter oder Kilometer groß sein [Q1]"
+   ],
+   "scope_note": "Maisel spricht über seine Luftbilder allgemein, im Artikel über „The Lake Project“."
+  },
+  {
+   "image_id": "i4266c79470",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Aerial Photography Over Iceland's Wild River Deltas – Nature Photographers Network",
+     "author": "Hans Strand",
+     "kind": "photographer",
+     "excerpt": "Including a horizon and a sky reveals the abstraction and proportions of the landscape. I find it interesting not to reveal the scale and leave the viewer with something to wonder about."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Strand verzichtet auf Horizont und Himmel, weil sie die Proportionen der Landschaft verraten würden; er will den Maßstab bewusst offenlassen [Q1].",
+   "checkable": [
+    "Kein Horizont und kein Himmel [Q1]",
+    "Kein Objekt bekannter Größe – Breite der Flussarme nicht abschätzbar [Q1]"
+   ],
+   "scope_note": "Strand beschreibt seine Luftbilder allgemein."
+  },
+  {
+   "image_id": "i50362a9e1f",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/iceberg-iceland/",
+     "title": "Iceberg, Iceland – Art Wolfe",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "As I wandered along the shore, I spotted a tiny (36 kilograms/80 or so pounds, by my estimation) iceberg adrift in shallow water. It looked to be crystal clear with an interesting shape, so I retrieved it and propped it up with some rocks."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das „Eisberg“-Stück ist winzig, nach Wolfes Schätzung etwa 36 kg schwer; er hat es mit Steinen am Ufer aufgestellt [Q1].",
+   "checkable": [
+    "Kieselsteine am Boden verraten die geringe Größe des Eisstücks [Q1]",
+    "Die großen Eisberge im Hintergrund wirken kleiner als das nahe Stück [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iae886d05e2",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/elemental-light/",
+     "title": "Elemental Light – Christopher Burkett",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "This photograph is of a schist stone wall, about 15’ across. It was illuminated by the noonday sun skimming the surface."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild zeigt eine Schiefer-Steinmauer von etwa 15 Fuß (ca. 4,5 m) Breite, im Streiflicht der Mittagssonne [Q1].",
+   "checkable": [
+    "Kein Größenhinweis im Bild – die Fläche ist rund 4,5 m breit [Q1]",
+    "Streiflicht über die Oberfläche [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i572ccc0ec3",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://dailyfreepress.com/?p=35668",
+     "title": "Manufacturing-themed photos tackle city life – The Daily Free Press",
+     "author": "The Daily Free Press (Boston University), Ausstellungsbesprechung",
+     "kind": "critic",
+     "excerpt": "Featuring a landscape of skyscrapers, the photograph’s point of view makes it seem as if the city continues for hundreds of miles."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Blickpunkt lässt die Hochhauslandschaft so wirken, als ziehe sich die Stadt hunderte Meilen weit [Q1].",
+   "checkable": [
+    "Bebauung bis zum Horizont, kein Ende der Stadt sichtbar [Q1]"
+   ],
+   "scope_note": "Studentische Ausstellungskritik (Daily Free Press)."
+  }
+ ]
+}
