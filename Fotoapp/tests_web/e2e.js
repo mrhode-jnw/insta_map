@@ -275,14 +275,20 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   await page.goto(`${base}/Fotoapp/#/bibliothek`); await waitText("Bibliothek");
   await page.click(".thumb"); await waitText("Analyse"); await shot("06-bild");
   // Häppchen: quick multiple-choice/info cards, no AI
-  await page.goto(`${base}/Fotoapp/#/kurz`); await waitText("Kurze Karten für unterwegs");
+  await page.goto(`${base}/Fotoapp/#/kurz`); await waitText("Fünf Minuten in der Bahn");
   const callsSnack = claudeCalls.length;
   await page.click(".snack-start button");
-  for (let k = 0; k < 10; k++) {
+  const kinds = new Set();
+  for (let k = 0; k < 8; k++) {
     await page.waitForSelector(".snack");
-    if (await page.$(".snack-opts .opt:not([disabled])")) { await page.click(".snack-opts .opt"); await page.waitForSelector(".snack-explain"); }
+    kinds.add(await page.$eval(".snack", e => e.className));
+    for (let step = 0; step < 8 && !(await page.$(".snack-next button")); step++) { // play whatever the card asks for
+      const b = await page.$(".snack-opts .opt:not([disabled]), .tf-btns .opt:not([disabled]), .order-item:not([disabled]), .reveal-btn, [data-action='snack-reveal']");
+      if (!b) break; await b.click(); await page.waitForTimeout(80);
+    }
     await page.click(".snack-next button");
   }
+  console.log("   kinds:", [...kinds].join(", "));
   await waitText("Runde geschafft"); await shot("06c-haeppchen");
   ok(claudeCalls.length === callsSnack, "Häppchen round of 10 cards without any AI call");
   ok(!(await page.content()).includes("[S"), "Häppchen shows sources as numbers, not raw [S…] ids");

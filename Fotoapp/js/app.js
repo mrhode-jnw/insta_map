@@ -5,7 +5,7 @@ import {
   currentAnalysis, drillFeedback, esc, generateAnalysis, learnFeedback, lib, loadLibrary, md, newSourceId, ownId,
   LEARN_ROUND_REQUIRES, PASS_RATIO, analysisPending, lessonTime, splitDeep, refFor, refCount, drillFeedbackSourced, learnRefs, learnFeedbackSourced, LEARN_REF_DIMS, askLesson, discuss, expertsFor, isUnlocked, theoryProgress, photographerOf, projectOf, referenceText, referencedIds, sourcesFor, sourcesForImage,
 } from "./domain.js";
-import { TOPICS, buildCard, cardId, makeRound } from "./snacks.js";
+import { SEGMENTS, TOPICS, buildCard, cardId, isRight, makeRound } from "./snacks.js";
 
 const $ = s => document.querySelector(s);
 const main = () => $("#main");
@@ -388,48 +388,98 @@ views.lektion = async id => {
   return body + sourcesBlock([...srcs, ...cited], { scope: "lesson", nums });
 };
 
-// --- Häppchen: quick cards for the train – no AI, instant
+// --- Häppchen: short, varied cards for the train – games, stories, looking, short knowledge, some quiz; no AI
 async function snackStats() { return (await loadState("progress", { theory: {} })).snacks || { total: 0, right: 0, rounds: 0, last: {} }; }
+const SEG_ICON = { order: "⏳", crop: "🔍", tf: "✓✗", look: "👁", pair: "⇆", story: "📖", quote: "❝", sketch: "✎", merke: "★", pinfo: "◉", concept: "◇",
+  who: "?", year: "#", chap: "§", ref: "❞", quiz: "?" };
 views.kurz = async () => {
   const st = await snackStats(), open = sess.get("snack");
   const wrongN = Object.values(st.last || {}).filter(v => v === 0).length;
-  return `<h1>Häppchen</h1><p class="lead">Kurze Karten für unterwegs: Bilder, Fotografen, Geschichte, Quellen, Theorie. Antippen, Erklärung lesen, weiter. Keine KI, alles aus belegten Inhalten.</p>
+  return `<h1>Häppchen</h1><p class="lead">Fünf Minuten in der Bahn: Zeitreisen, Ausschnitte, O-Töne, Making-ofs, Bildpaare, Mini-Lektionen – und ab und zu eine Frage. Alles aus belegten Inhalten, ohne Wartezeit.</p>
   ${open && open.pos < open.cards.length ? `<p><a class="button" href="#/kurz/karte">Runde fortsetzen (${open.pos + 1}/${open.cards.length})</a></p>` : ""}
   <form data-action="snack-start" class="card snack-start">
     <div class="pills">${TOPICS.map(([k, l], n) => `<label class="pill"><input type="radio" name="topic" value="${k}" ${n ? "" : "checked"}><span>${l}</span></label>`).join("")}</div>
-    <div class="pills">${[10, 20].map((n, i) => `<label class="pill"><input type="radio" name="size" value="${n}" ${i ? "" : "checked"}><span>${n} Karten</span></label>`).join("")}</div>
+    <div class="pills">${[8, 15].map((n, i) => `<label class="pill"><input type="radio" name="size" value="${n}" ${i ? "" : "checked"}><span>${n} Karten</span></label>`).join("")}</div>
     <button class="big">Los</button></form>
-  ${st.total ? `<p class="muted small">Bisher ${st.total} Karten, ${Math.round(100 * st.right / st.total)} % richtig · ${st.rounds} Runden${wrongN ? ` · ${wrongN} Karten kommen zur Wiederholung` : ""}</p>` : ""}`;
+  <div class="seg-list">${Object.entries(SEGMENTS).filter(([, v]) => !v.quiz).map(([k, v]) => `<span><i>${SEG_ICON[k]}</i>${v.name}</span>`).join("")}</div>
+  ${st.total ? `<p class="muted small">Bisher ${st.total} Antworten, ${Math.round(100 * st.right / st.total)} % richtig · ${st.rounds} Runden${wrongN ? ` · ${wrongN} Karten kommen wieder` : ""}</p>` : ""}`;
 };
+const mdInline = t => md(t).replace(/^<p>|<\/p>$/g, "");
+function snackBody(card, res, st) {
+  const done = res != null, okText = r => r ? `<p class="ok"><b>Richtig.</b></p>` : `<p class="warn"><b>Nicht ganz.</b></p>`;
+  const after = (inner = "") => `<div class="snack-explain prose">${inner}<p class="small"><a href="${card.link[0]}">${esc(card.link[1])} →</a></p></div>`;
+  const hero = id => `<figure class="snack-img">${media(id, "m")}</figure>`;
+  switch (card.kind) {
+    case "mc": return `${card.crop ? `<figure class="snack-crop"><img data-media="${esc(card.crop.id)}" data-kind="m" alt="" style="object-position:${card.crop.x}% ${card.crop.y}%;transform-origin:${card.crop.x}% ${card.crop.y}%;transform:scale(${card.crop.zoom})"></figure>`
+        : card.image ? hero(card.image) : ""}
+      <h2 class="snack-q">${mdInline(card.prompt)}</h2>
+      <div class="snack-opts${card.options[0].image ? " thumbs3" : ""}">${card.options.map((o, k) => `<button class="opt${done ? (o.correct ? " right" : k === res ? " wrong" : " dim") : ""}" data-action="snack-answer" data-i="${k}" ${done ? "disabled" : ""}>
+        ${o.image ? `${media(o.image)}${done ? `<span>${esc(o.text)}</span>` : ""}` : mdInline(o.text)}</button>`).join("")}</div>
+      ${done ? after(okText(card.options[res]?.correct) + md(card.explain_md)) : ""}`;
+    case "tf": return `${hero(card.image)}<p class="muted small">${esc(card.prompt)}</p><blockquote class="snack-statement">${esc(card.statement)}</blockquote>
+      <div class="tf-btns"><button class="opt${done ? (card.truth ? " right" : res === 1 ? " wrong" : " dim") : ""}" data-action="snack-tf" data-v="1" ${done ? "disabled" : ""}>✓ Stimmt</button>
+        <button class="opt${done ? (!card.truth ? " right" : res === 0 ? " wrong" : " dim") : ""}" data-action="snack-tf" data-v="0" ${done ? "disabled" : ""}>✗ Stimmt nicht</button></div>
+      ${done ? after(okText(res === (card.truth ? 1 : 0)) + md(card.explain_md)) : ""}`;
+    case "order": { const picked = Array.isArray(res) ? res : [], full = picked.length === card.items.length;
+      return `<h2 class="snack-q">${esc(card.prompt)}</h2><div class="order-grid">${card.items.map((it, k) => { const pos = picked.indexOf(k);
+        return `<button class="order-item${pos >= 0 ? " picked" : ""}${full ? (card.solution[pos] === k ? " right" : " wrong") : ""}" data-action="snack-order" data-k="${k}" ${pos >= 0 || full ? "disabled" : ""}>
+          ${media(it.id)}${pos >= 0 ? `<b class="order-n">${pos + 1}</b>` : ""}${full ? `<span>${it.year} · ${esc(it.who)}</span>` : ""}</button>`; }).join("")}</div>
+        ${full ? after(okText(picked.every((v, k) => v === card.solution[k])) + `<p>Richtig ist: ${card.solution.map(k => `<b>${card.items[k].year}</b> ${esc(card.items[k].who)}`).join(" → ")}</p>`) : picked.length ? `<p class="muted small">Weiter tippen …</p>` : ""}`; }
+    case "look": { const t0 = (st.lookStart ||= {})[st.pos] ||= Date.now(), left = Math.max(0, card.seconds - Math.floor((Date.now() - t0) / 1000));
+      return `<figure class="snack-img tall">${media(card.image, "m")}</figure>
+        ${done ? `<div class="snack-explain prose"><p class="small muted">${mdInline(card.caption_md)}</p>${md(card.fact_md)}<p class="small"><a href="${card.link[0]}">${esc(card.link[1])} →</a></p></div>`
+          : `<p class="snack-q">${esc(card.prompt)}</p><div class="look-timer"><b id="snack-timer" data-left="${left}">${left}</b> s <button class="secondary" data-action="snack-reveal">Auflösen</button></div>`}`; }
+    case "reveal": return `${card.quote ? `<blockquote class="snack-quote">„${esc(card.quote)}“</blockquote>` : ""}
+      ${card.images ? `<div class="snack-pair">${card.images.map(id => `<figure>${media(id, "m")}</figure>`).join("")}</div>` : ""}
+      <h2 class="snack-q">${esc(card.prompt)}</h2>
+      ${done ? `<div class="snack-explain prose">${card.back_image ? hero(card.back_image) : ""}${md(card.back_md)}${card.caption_md ? `<p class="small muted">${mdInline(card.caption_md)}</p>` : ""}<p class="small"><a href="${card.link[0]}">${esc(card.link[1])} →</a></p></div>`
+        : `<button class="big secondary reveal-btn" data-action="snack-reveal">Auflösen</button>`}`;
+    case "story": { const step = typeof res === "number" ? res : 0, last = step >= card.slides.length;
+      return `${hero(card.image)}<p class="small muted">${mdInline(card.prompt)}</p>
+        <div class="story-dots">${card.slides.map((_, k) => `<i class="${k < step ? "on" : ""}"></i>`).join("")}</div>
+        ${card.slides.slice(0, step).map(sl => `<div class="story-slide"><h3>${esc(sl.title)}</h3>${md(sl.md)}</div>`).join("")}
+        ${last ? `<p class="small"><a href="${card.link[0]}">${esc(card.link[1])} →</a></p>` : `<button class="big secondary reveal-btn" data-action="snack-step">${step ? "Und dann?" : "Wie entstand es?"} (${step + 1}/${card.slides.length})</button>`}`; }
+    case "info": return `${card.sketch ? `<figure class="sketch">${lib.sketches[card.sketch]}</figure>` : card.portrait ? `<figure class="snack-img portrait"><img data-media="${esc(card.portrait)}" data-kind="p" alt=""></figure>` : card.image ? hero(card.image) : ""}
+      <h2 class="snack-q">${esc(card.title)}</h2>${card.big ? `<p class="snack-big">${mdInline(card.big)}</p>` : ""}
+      <div class="prose">${md(card.body_md)}</div>${card.thumbs?.length ? `<div class="thumbs mini">${card.thumbs.map(id => `<a class="thumb" href="#/bild/${id}">${media(id)}</a>`).join("")}</div>` : ""}
+      <p class="small"><a href="${card.link[0]}">${esc(card.link[1])} →</a></p>`;
+  }
+  return "";
+}
+const snackDone = (card, res) => card.kind === "info" || (card.kind === "story" ? res >= card.slides.length : card.kind === "order" ? Array.isArray(res) && res.length === card.items.length : res != null);
 views.kurzKarte = async () => {
   const st = sess.get("snack");
   if (!st) { location.hash = "#/kurz"; return ""; }
   if (st.pos >= st.cards.length) return snackEnd(st);
   const c = st.cards[st.pos], card = buildCard(c), res = st.results[st.pos];
   if (!card) { st.pos++; sess.set("snack", st); return views.kurzKarte(); }
-  // preload the next card's image while this one is read
-  const nx = st.cards[st.pos + 1] && buildCard(st.cards[st.pos + 1]);
-  const answered = res != null || card.kind === "info";
-  return compactRefs(`<div class="snack" data-swipe="${answered ? "next" : ""}">
-    <div class="snack-top"><span class="muted small">${esc(card.label)}</span><span class="snack-count">${st.pos + 1}/${st.cards.length}</span></div>
+  const done = snackDone(card, res), nx = st.cards[st.pos + 1] && buildCard(st.cards[st.pos + 1]);
+  const body = snackBody(card, res, st);
+  sess.set("snack", st); // keeps the look timer's start time
+  clearTimeout(snackTimer); if (card.kind === "look" && !done) snackTimer = setTimeout(snackTick, 1000);
+  return compactRefs(`<div class="snack snack-${card.kind}" data-swipe="${done ? "next" : ""}">
+    <div class="snack-top"><span class="seg"><i>${SEG_ICON[card.type] || ""}</i>${esc(card.label)}</span><span class="snack-count">${st.pos + 1}/${st.cards.length}</span></div>
     <div class="snack-bar"><i style="width:${100 * st.pos / st.cards.length}%"></i></div>
-    ${card.image ? `<figure class="snack-img">${media(card.image, "m")}</figure>` : card.portrait ? `<figure class="snack-img portrait">${`<img data-media="${esc(card.portrait)}" data-kind="p" alt="">`}</figure>` : ""}
-    ${card.kind === "q" ? `<h2 class="snack-q">${md(card.prompt).replace(/^<p>|<\/p>$/g, "")}</h2>
-      <div class="snack-opts">${card.options.map((o, k) => `<button class="opt${res != null ? (o.correct ? " right" : k === res ? " wrong" : " dim") : ""}" data-action="snack-answer" data-i="${k}" ${res != null ? "disabled" : ""}>${md(o.text).replace(/^<p>|<\/p>$/g, "")}</button>`).join("")}</div>`
-      : `<h2 class="snack-q">${esc(card.title)}</h2>`}
-    ${answered ? `<div class="snack-explain prose">${card.kind === "q" ? `<p class="${card.options[res]?.correct ? "ok" : "warn"}"><b>${card.options[res]?.correct ? "Richtig." : "Nicht ganz."}</b></p>` : ""}
-      ${md(card.kind === "q" ? card.explain_md : card.body_md)}<p class="small"><a href="${card.link[0]}">${esc(card.link[1])} →</a></p></div>` : ""}
-    ${answered ? `<div class="snack-next"><button class="big" data-action="snack-next">${st.pos + 1 < st.cards.length ? "Weiter →" : "Ergebnis"}</button></div>` : ""}
-    ${nx?.image ? `<img data-media="${esc(nx.image)}" data-kind="m" class="preload" alt="">` : ""}</div>`, new Map());
+    ${body}
+    ${done ? `<div class="snack-next"><button class="big" data-action="snack-next">${st.pos + 1 < st.cards.length ? "Weiter →" : "Ergebnis"}</button></div>` : ""}
+    ${nx?.image || nx?.crop ? `<img data-media="${esc(nx.image || nx.crop.id)}" data-kind="m" class="preload" alt="">` : ""}</div>`, new Map());
 };
+let snackTimer = null;
+function snackTick() {
+  const el = document.getElementById("snack-timer"); if (!el) return;
+  const left = Number(el.dataset.left) - 1;
+  if (left <= 0) return actions["snack-reveal"]();
+  el.dataset.left = left; el.textContent = left; snackTimer = setTimeout(snackTick, 1000);
+}
 function snackEnd(st) {
-  const qs = st.cards.map((c, i) => [c, st.results[i]]).filter(([c]) => buildCard(c)?.kind === "q");
-  const right = qs.filter(([c, r]) => buildCard(c).options[r]?.correct).length;
-  const wrong = qs.filter(([c, r]) => !buildCard(c).options[r]?.correct);
-  return `<h1>Runde geschafft</h1><p class="stats"><span><b>${right}</b>/${qs.length} richtig</span></p>
-  ${wrong.length ? `<h3>Zum Nachlesen</h3><ul class="snack-wrong">${wrong.map(([c]) => { const k = buildCard(c); return `<li>${k.image ? `<a href="${k.link[0]}">${media(k.image)}</a>` : ""}<div><span class="muted small">${esc(k.label)}</span><br>${md(k.options.find(o => o.correct).text).replace(/^<p>|<\/p>$/g, "")} <a href="${k.link[0]}">→</a></div></li>`; }).join("")}</ul>
-    <p class="muted small">Diese Karten kommen in einer der nächsten Runden wieder.</p>` : `<p class="ok">Alles richtig.</p>`}
-  <p><button class="big" data-action="snack-again">Neue Runde</button> <a href="#/kurz">Thema wechseln</a></p>`;
+  const scored = st.cards.map((c, i) => [c, buildCard(c), st.results[i]]).filter(([, k]) => k?.scored);
+  const right = scored.filter(([, k, r]) => isRight(k, r)).length, wrong = scored.filter(([, k, r]) => !isRight(k, r));
+  const seen = st.cards.length - scored.length;
+  return `<h1>Runde geschafft</h1><div class="stats"><span><b>${right}</b>/${scored.length} richtig</span>${seen ? `<span><b>${seen}</b> Geschichten, Bilder und Wissenskarten</span>` : ""}</div>
+  ${wrong.length ? `<h3>Zum Nachlesen</h3><ul class="snack-wrong">${wrong.map(([, k]) => { const im = k.image || k.crop?.id || k.items?.[0]?.id;
+    return `<li>${im ? `<a href="${k.link[0]}">${media(im)}</a>` : ""}<div><span class="muted small">${esc(k.label)}</span><br>${k.kind === "mc" ? mdInline(k.options.find(o => o.correct).text) : k.kind === "tf" ? (k.truth ? "Stimmt: " : "Stimmt nicht: ") + esc(k.statement) : "Reihenfolge: " + k.solution.map(x => k.items[x].year).join(" → ")} <a href="${k.link[0]}">→</a></div></li>`; }).join("")}</ul>
+    <p class="muted small">Diese Karten kommen in einer der nächsten Runden wieder.</p>` : scored.length ? `<p class="ok">Alles richtig.</p>` : ""}
+  <p><button class="big" data-action="snack-again">Noch eine Runde</button> <a href="#/kurz">Thema wechseln</a></p>`;
 }
 
 // --- concepts
@@ -819,10 +869,11 @@ const actions = {
     sess.set("snack", { topic: f.get("topic"), cards: makeRound(f.get("topic"), Number(f.get("size")), shuffle(wrong)), pos: 0, results: {} });
     location.hash = "#/kurz/karte";
   },
-  "snack-answer"(btn) {
-    const st = sess.get("snack"); if (!st || st.results[st.pos] != null) return;
-    st.results[st.pos] = Number(btn.dataset.i); sess.set("snack", st); route(true);
-  },
+  "snack-answer"(btn) { snackSet(st => st.results[st.pos] ?? Number(btn.dataset.i)); },
+  "snack-tf"(btn) { snackSet(st => st.results[st.pos] ?? Number(btn.dataset.v)); },
+  "snack-order"(btn) { snackSet(st => { const cur = st.results[st.pos] || []; const k = Number(btn.dataset.k); return cur.includes(k) ? cur : [...cur, k]; }); },
+  "snack-reveal"() { snackSet(st => st.results[st.pos] ?? "shown"); },
+  "snack-step"() { snackSet(st => (typeof st.results[st.pos] === "number" ? st.results[st.pos] : 0) + 1); },
   "snack-next"() {
     const st = sess.get("snack"); if (!st) return;
     st.pos++; sess.set("snack", st);
@@ -832,7 +883,7 @@ const actions = {
   async "snack-again"() {
     const st = sess.get("snack"), stats = await snackStats();
     const wrong = Object.entries(stats.last || {}).filter(([, v]) => v === 0).map(([k]) => k);
-    sess.set("snack", { topic: st?.topic || "alles", cards: makeRound(st?.topic || "alles", st?.cards.length || 10, shuffle(wrong)), pos: 0, results: {} });
+    sess.set("snack", { topic: st?.topic || "mix", cards: makeRound(st?.topic || "mix", st?.cards.length || 8, shuffle(wrong)), pos: 0, results: {} });
     route();
   },
   async "drill-start"(form) {
@@ -1064,9 +1115,10 @@ async function editChapterImages(id, fn) {
 }
 
 // round stats into progress.enc: totals plus the last result per card (0 = wrong → comes back for repetition)
+function snackSet(fn) { const st = sess.get("snack"); if (!st) return; st.results[st.pos] = fn(st); sess.set("snack", st); route(true); }
 function saveSnackRound(st) {
   if (st.saved) return; st.saved = true; sess.set("snack", st);
-  const res = st.cards.map((c, i) => { const k = buildCard(c); return k?.kind === "q" ? [cardId(c), k.options[st.results[i]]?.correct ? 1 : 0] : null; }).filter(Boolean);
+  const res = st.cards.map((c, i) => { const k = buildCard(c); return k?.scored ? [cardId(c), isRight(k, st.results[i]) ? 1 : 0] : null; }).filter(Boolean);
   const apply = s => { const sn = (s.snacks ||= { total: 0, right: 0, rounds: 0, last: {} });
     sn.total += res.length; sn.right += res.filter(([, v]) => v).length; sn.rounds++; for (const [id, v] of res) sn.last[id] = v; return s; };
   bg(() => mutateState("progress", { theory: {} }, apply, "Häppchen"));
