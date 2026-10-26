@@ -244,6 +244,9 @@
   .ic .itm.moved { color: #f59e0b; }
   .ilate { display: inline-block; max-width: 100%; white-space: normal; margin: 0 0 8px; padding: 3px 9px; border-radius: 999px; background: rgba(245,158,11,.18); color: #f59e0b; font-size: 12.5px; font-weight: 600; }
   .b-opt { background: #f3e8ff; color: #6b21a8; }
+  .b-fav { background: rgba(225,29,72,.18); color: #e11d48; font-weight: 700; }
+  html:not([data-theme="light"]) .b-fav { color: #fb7185; }
+  .icard.fav { box-shadow: inset 3px 0 0 #e11d48; }
   .iigd { margin: 6px 0 4px; font-size: 13px; }
   .iigd summary { cursor: pointer; color: var(--accent); font-weight: 600; }
   .iigd summary b { font-weight: 500; color: var(--muted); }
@@ -3139,11 +3142,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const imgs = imgsOf(p).map(x => x.image), k = itinLb.push({ p }) - 1;
     const kind = p.by_claude ? `<span class="b-cl">✦ Claude-Tipp</span>` : `<span class="b-ig">📸 Instagram</span>`;
     const tip = p.tip || p.note || "";
-    return `<div class="icard">
+    return `<div class="icard${st(p.id).fav ? " fav" : ""}">
       ${p.image ? `<div class="ihero" data-lb="${k}" data-i="0"><img src="${esc(p.image)}" alt="" loading="lazy">${imgs.length > 1 ? `<span class="icount">1/${imgs.length}</span>` : ""}</div>` : ""}
       ${imgs.length > 1 ? `<div class="ithumbs">${imgs.slice(1, 9).map((src, i) => `<img src="${esc(src)}" alt="" loading="lazy" data-lb="${k}" data-i="${i + 1}">`).join("")}</div>` : ""}
       <div class="ib"><h3>${esc(p.name)}</h3>
-        <div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}${kind}${p.category ? `<span class="b-hotel" style="background:rgba(148,163,184,.2);color:inherit">${esc(p.category)}</span>` : ""}</div>
+        <div class="ibadges">${st(p.id).fav ? `<span class="b-fav">❤ Favorit</span>` : ""}${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}${kind}${p.category ? `<span class="b-hotel" style="background:rgba(148,163,184,.2);color:inherit">${esc(p.category)}</span>` : ""}</div>
         ${lightHtml(it)}
         ${fcHtml(p.id, date)}
         ${it.text ? `<p>${esc(it.text)}</p>` : ""}
@@ -3356,7 +3359,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "119 · Wetter ein-/ausklappbar";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "120 · Favoriten im Tagesplan";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
