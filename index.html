@@ -1188,7 +1188,9 @@
   window.LAST_POS = (() => { try { return JSON.parse(localStorage.getItem("lastPos") || "null"); } catch { return null; } })();
   // Kartenanbieter: URL-Parameter gehen vor, sonst Einstellung (auto/google/osm/rotate)
   window.MAPQ = (() => { const q = location.search; if (/[?&](google|klassisch|drehbar)\b/.test(q)) return q;
-    return q + ({ google: "&google", osm: "&klassisch", rotate: "&drehbar" }[(window.SETTINGS || {}).engine] || ""); })();
+    const e = (window.SETTINGS || {}).engine;
+    // Automatisch in Festland-China: OpenStreetMap/Satellit, mit zwei Fingern drehbar
+    return q + ({ google: "&google", osm: "&klassisch", rotate: "&drehbar" }[e] || (inMainland(LAST_POS) ? "&drehbar" : "")); })();
   window.GMAP_MODE = (() => {
     const q = MAPQ;
     if (/[?&]google\b/.test(q)) return true;
@@ -1200,7 +1202,7 @@
 </script>
 <script>
   // Variante mit drehbarer Karte: …/insta_map/?drehbar (bzw. rotate.html) – OpenStreetMap/Satellit statt Google, mit zwei Fingern drehbar
-  if (/[?&]drehbar/.test(MAPQ) && !GMAP_MODE) document.write('<script src="https://cdn.jsdelivr.net/npm/leaflet-rotate@0.2.8/dist/leaflet-rotate.min.js"><\/script>');
+  if (/[?&]drehbar/.test(MAPQ) && !GMAP_MODE) document.write('<script src="vendor/leaflet-rotate.min.js"><\/script>');  // lokal: CDN ist in China unzuverlässig
 </script>
 <script>
   // Neue Version der Seite? Hinweis zeigen (kein automatisches Neuladen).
@@ -1357,7 +1359,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     window._satOn = () => { const c = curBase(); if (c === "sat" || c === "esriSat") return; baseBefore = c; if (c) map.removeLayer(BASES[c]); sat.addTo(map); };
     window._satOff = () => { if (!baseBefore) return; const c = curBase(); if (c === "sat" || c === "esriSat") { map.removeLayer(BASES[c]); BASES[baseBefore].addTo(map); } baseBefore = null; };
     // Karte von Hand wählen (oben rechts)
-    if (!ROTATE && !GMAP) { window._baseSel = L.control.layers({ "OpenStreetMap": osm, "Gaode 高德": gaode, "Esri": esri, "Satellit (Google)": sat, "Satellit (Esri)": esriSat }, null, { position: "topright" }).addTo(map);
+    if (!GMAP) { window._baseSel = L.control.layers({ "OpenStreetMap": osm, "Gaode 高德": gaode, "Esri": esri, "Satellit (Google)": sat, "Satellit (Esri)": esriSat }, null, { position: "topright" }).addTo(map);
       window._baseSel.getContainer().classList.add("basesel"); }
     // Einstellung „Kartenbild“: Karte oder Satellit (auch über den Ebenen-Knopf; beides bleibt gleich)
     const saveBaseSet = v => { try { window.SETTINGS = window.SETTINGS || {}; window.SETTINGS.baseMap = v; localStorage.setItem("settings", JSON.stringify(window.SETTINGS)); } catch {} };
@@ -1414,11 +1416,6 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const CN_OSM = inMainland(LAST_POS) && !/[?&]google\b/.test(MAPQ);
   const gKey = ROTATE || CN_OSM ? "" : (unlockedKey || "").trim();
   if (GMAP) L.control.layers({ "Google Karte": "roadmap", "Google Satellit": "hybrid" }, null, { position: "topright" }).addTo(map);
-  else if (ROTATE) {
-    const sat = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
-      maxZoom: 21, maxNativeZoom: 19, attribution: "Esri World Imagery" });
-    L.control.layers({ "OpenStreetMap": osm, "Satellit": sat }, null, { position: "topright" }).addTo(map);
-  }
   // dunkler Google-Kartenstil passend zum Design
   const GDARK = [{ elementType: "geometry", stylers: [{ color: "#1d1d22" }] }, { elementType: "labels.text.fill", stylers: [{ color: "#9a9aa3" }] },
     { elementType: "labels.text.stroke", stylers: [{ color: "#111114" }] }, { featureType: "road", elementType: "geometry", stylers: [{ color: "#34343c" }] },
@@ -3355,7 +3352,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const SETS = [
     ["Darstellung", [["theme", "Erscheinungsbild", [["auto", "Automatisch"], ["light", "Hell"], ["dark", "Dunkel"]], "Automatisch folgt der Einstellung des iPhones."]]],
     ["Karte", [
-      ["engine", "Kartenanbieter", [["auto", "Automatisch"], ["google", "Google"], ["osm", "OSM"], ["rotate", "Drehbar"]], "Automatisch: Google, in Festland-China OpenStreetMap (Google ist dort verschoben). Drehbar: OpenStreetMap/Satellit mit zwei Fingern drehen. Wechsel lädt die App neu."],
+      ["engine", "Kartenanbieter", [["auto", "Automatisch"], ["google", "Google"], ["osm", "OSM"], ["rotate", "Drehbar"]], "Automatisch: Google, in Festland-China drehbare OpenStreetMap/Satellit-Karte (Google ist dort verschoben). Drehbar: OpenStreetMap/Satellit mit zwei Fingern drehen. Wechsel lädt die App neu."],
       ["mapColor", "Kartenfarbe", [["app", "Wie App"], ["light", "Hell"], ["dark", "Dunkel"]], "Bei Google wirkt die Änderung nach dem Neuladen."],
       ["baseMap", "Kartenbild", [["auto", "Automatisch"], ["map", "Karte"], ["sat", "Satellit"]], "Automatisch: Satellitenbild, wo die Karte keine Straßen und Häuser hat (z. B. in Dörfern), sonst Karte. Auch über den Ebenen-Knopf oben rechts (wählt fest)."],
       ["walkSat", "Bei Rundgängen", [[true, "Satellit"], [false, "Wie Kartenbild"]], "Beim Öffnen eines Rundgangs automatisch aufs Satellitenbild wechseln."],
@@ -3363,7 +3360,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "122 · Seite verrutscht nicht mehr (Spot-Karte)";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "123 · Karte in China wieder drehbar";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
