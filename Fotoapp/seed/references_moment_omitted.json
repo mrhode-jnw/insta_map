@@ -1,0 +1,1113 @@
+{
+ "accessed_at": "2026-10-26",
+ "references": [
+  {
+   "image_id": "ic02846fa6d",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/47855/behind-the-gare-st-lazare",
+     "title": "Behind the Gare St. Lazare – Works – eMuseum",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "\"There was a plank fence around some repairs behind the Gare Lazare [train station], and I was peeking through the spaces with my camera eye,\" Henri Cartier-Bresson later recalled about the moment he took this photograph. \"This is what I saw. The space between the planks was not entirely wide enough for my lens, which is the reason the picture is cut off on the left.\""
+    }
+   ],
+   "library_source_ids": [
+    553336
+   ],
+   "answer_md": "Cartier-Bresson spähte mit der Kamera durch die Lücken eines Bretterzauns um eine Baustelle hinter dem Bahnhof – das Bild ist das, was er dabei sah [Q1]. Ausgelöst ist im Augenblick kurz bevor die rechte Ferse des springenden Mannes auf die spiegelnde Wasserfläche trifft [S553336].",
+   "checkable": [
+    "Der Mann schwebt noch über dem Wasser – die Ferse hat die Oberfläche noch nicht berührt [S553336]",
+    "Spiegelbild des Springers in der Wasserfläche [S553336]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic02846fa6d",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/47855/behind-the-gare-st-lazare",
+     "title": "Behind the Gare St. Lazare – Works – eMuseum",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "\"There was a plank fence around some repairs behind the Gare Lazare [train station], and I was peeking through the spaces with my camera eye,\" Henri Cartier-Bresson later recalled about the moment he took this photograph. \"This is what I saw. The space between the planks was not entirely wide enough for my lens, which is the reason the picture is cut off on the left.\""
+    },
+    {
+     "url": "https://www.cortissonderegger.ch/derriere-la-gare-saint-lazare",
+     "title": "Derriere la Gare Saint-Lazare – Behind the Gare St Lazare — CORTIS & SONDEREGGER",
+     "author": "Cortis & Sonderegger (Galerie)",
+     "kind": "curator",
+     "excerpt": "This was reportedly one of only two photographs that Cartier-Bresson ever cropped."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Lücke zwischen den Zaunbrettern war nicht ganz breit genug für das Objektiv, deshalb ist das Bild links abgeschnitten [Q1]. Es gilt als eines von nur zwei Bildern, die Cartier-Bresson je beschnitten hat [Q2].",
+   "checkable": [
+    "Linker Bildrand ist beschnitten [Q1][Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7fd8cb9704",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    662901
+   ],
+   "answer_md": "Cartier-Bresson stand oben an der gewundenen Treppe und wartete darauf, dass etwas das Bild belebt; er löste genau aus, als ein Radfahrer vorbeifuhr – so, dass die verwischte Gestalt nicht vom Geländer verdeckt wird [S662901].",
+   "checkable": [
+    "Radfahrer leicht verwischt [S662901]",
+    "Radfahrer frei zwischen den Geländerstäben, nicht vom Geländer überdeckt [S662901]",
+    "Blick von oben über das Treppengeländer [S662901]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i90eb207862",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.peterfetterman.com/blog/547-1411-henri-cartier-bresson-siphnos-greece-1961/",
+     "title": "#1411 - Henri Cartier-Bresson, Siphnos, Greece, 1961 – Peter Fetterman Gallery",
+     "author": "Peter Fetterman Gallery",
+     "kind": "curator",
+     "excerpt": "All he needed was the perfect human component to give the image true meaning. Et voilà! A little girl out of the blue comes running in balance with all the other elements."
+    },
+    {
+     "url": "https://www.artmuseumgr.org/collection/sifnos",
+     "title": "Sifnos - Henri Cartier-Bresson | Grand Rapids Art Museum",
+     "author": "Grand Rapids Art Museum",
+     "kind": "museum",
+     "excerpt": "In this 1961 photograph, Sifnos, a young girl is suspended in time while running up a flight of steps, serendipitously placed in a labyrinth of lines and shadows interacting with the Greek architecture."
+    }
+   ],
+   "library_source_ids": [
+    879318
+   ],
+   "answer_md": "Cartier-Bresson sah zuerst Formen, Linien, Licht und Schatten und brauchte nur noch das menschliche Element – mit Geduld [S879318]; dann kam ein kleines Mädchen gelaufen, im Gleichgewicht mit allen anderen Elementen [Q1]. Es ist mitten im Laufschritt auf der Treppe festgehalten [Q2].",
+   "checkable": [
+    "Mädchen mitten im Laufschritt auf der Treppe [Q2]",
+    "Bühne aus Linien und Schatten der weißen Architektur [Q2][S879318]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i749edc2880",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    138152
+   ],
+   "answer_md": "Fan Ho fotografierte eigentlich die Tramschienen, nicht die Kinder; erst beim Betrachten des Negativs entdeckte er die zwei Kinder am Rand – ‚ein Scherz, den Gott mit mir gemacht hat‘ [S138152].",
+   "checkable": [
+    "Zwei Kinder klein am Bildrand, nicht als Hauptmotiv inszeniert [S138152]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i749edc2880",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    138152,
+    736921
+   ],
+   "answer_md": "Das Negativ war quadratisch [S138152]; Fan Ho beschnitt es radikal zu einem ungewöhnlich schmalen, hohen Streifen, sodass Kinder, Tramschienen und Gullylöcher einen Rhythmus bilden [S736921].",
+   "checkable": [
+    "Extrem schmales Hochformat – Rest des quadratischen Negativs weggeschnitten [S138152][S736921]",
+    "Übrig bleiben Kinder, Schienen/Linien und Gullylöcher [S736921]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id5d981907d",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    419197
+   ],
+   "answer_md": "Kein Schnappschuss: Fan Ho inszenierte die Szene als Student am New Asia College; die Figuren sind seine Kommilitonen [S419197].",
+   "checkable": [
+    "Die Figuren in den Fensteröffnungen sind gestellt (Kommilitonen) [S419197]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i54a878c173",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://publicdelivery.org/steve-mccurry-monsoon/",
+     "title": "Steve McCurry's Monsoon photos – Public Delivery",
+     "author": "Public Delivery",
+     "kind": "magazine",
+     "excerpt": "As McCurry aimed his lens, bystanders urged the man to smile, resulting in the subject's broad grin."
+    }
+   ],
+   "library_source_ids": [
+    378326
+   ],
+   "answer_md": "McCurry sah den Schneider eines Nachmittags mitten auf der überfluteten Straße, die Nähmaschine auf der Schulter [S378326]. Als er das Objektiv auf ihn richtete, riefen Umstehende dem Mann zu, er solle lächeln – daher das breite Grinsen [Q1].",
+   "checkable": [
+    "Breites Lächeln des Mannes [Q1]",
+    "Nähmaschine auf der Schulter [S378326]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id378960c2e",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://huxleyparlour.com/critical-texts/joel-sternfelds-mclean-virginia/",
+     "title": "McLean, Virginia - Huxley-Parlour Gallery",
+     "author": "Huxley-Parlour Gallery",
+     "kind": "curator",
+     "excerpt": "In reality, the image depicts a controlled burn training session for local firefighters, with the farm and home scheduled for demolition to make way for a housing development. Sternfeld had spotted the scene while travelling across America in his Volkswagon van, choosing to capture this shot with ambiguity."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Sternfeld stieß auf seiner Reise im VW-Bus zufällig auf die Szene: Das brennende Haus war ein kontrollierter Übungsbrand der Feuerwehr, Hof und Haus sollten ohnehin abgerissen werden [Q1]. Er hielt den Moment bewusst mehrdeutig fest – Feuerwehrmann beim Kürbiskauf, im Hintergrund das Feuer [Q1].",
+   "checkable": [
+    "Im Hintergrund brennt das Haus (Übungsbrand) [Q1]",
+    "Vorne der Farm-Market-Stand mit Kürbissen [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i99f20775bb",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.theguardian.com/artanddesign/2011/nov/11/andreas-gursky-rhine-ii-photograph",
+     "title": "Andreas Gursky's Rhine II photograph sells for $4.3m | The Guardian",
+     "author": "The Guardian (Maev Kennedy)",
+     "kind": "magazine",
+     "excerpt": "In fact the artist carefully digitally removed any intrusive features - dog walkers, cyclists, a factory building - until it was bleak enough to satisfy him."
+    },
+    {
+     "url": "https://architecturenow.co.nz/articles/photographing-the-21st-century-global-economy",
+     "title": "Photographing the 21st-century global economy – Architecture Now",
+     "author": "Architecture Now",
+     "kind": "magazine",
+     "excerpt": "He digitally removed a power station in Rhine II (1999/2015), reducing the river and countryside on both river banks to bands of green and grey, creating a painterly abstract composition."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Gursky entfernte digital alle störenden Elemente – Hundespaziergänger, Radfahrer, ein Fabrikgebäude [Q1] bzw. ein Kraftwerk [Q2] –, bis Fluss und Ufer nur noch aus grünen und grauen Bändern bestehen [Q2].",
+   "checkable": [
+    "Keine Menschen auf dem Weg im Vordergrund [Q1]",
+    "Kein Gebäude am gegenüberliegenden Ufer [Q1][Q2]",
+    "Bild aus horizontalen Bändern Grün/Grau [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3312b69c1e",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.spectator.com.au/?p=10312831",
+     "title": "Andreas Gursky – The Spectator Australia",
+     "author": "The Spectator",
+     "kind": "magazine",
+     "excerpt": "'Paris, Montparnasse', for example, is spliced together from a series of shots so as to remove, as if by magic, the perspective recession that would result from any single snap of an enormous oblong structure."
+    }
+   ],
+   "library_source_ids": [
+    162796
+   ],
+   "answer_md": "Gursky beschnitt den Wohnblock links und rechts, sodass er keinen Abschluss hat [S162796]; zudem ist das Bild aus mehreren Aufnahmen zusammengesetzt, um die perspektivische Verjüngung einer Einzelaufnahme zu beseitigen [Q1].",
+   "checkable": [
+    "Gebäude an linkem und rechtem Bildrand angeschnitten – keine Gebäudeenden sichtbar [S162796]",
+    "Fassade ohne perspektivische Verkürzung zu den Seiten [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i297daea532",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.bostonglobe.com/2024/11/26/nation/paul-caponigro-photographer-love-with-nature-dies-91",
+     "title": "Paul Caponigro, photographer in love with nature, dies at 91 – The Boston Globe",
+     "author": "The Boston Globe",
+     "kind": "magazine",
+     "excerpt": "The late-day Irish light was failing as Mr. Caponigro waited patiently for the deer to show up."
+    },
+    {
+     "url": "https://www.bostonglobe.com/2024/11/26/nation/paul-caponigro-photographer-love-with-nature-dies-91",
+     "title": "Paul Caponigro, photographer in love with nature, dies at 91 – The Boston Globe",
+     "author": "The Boston Globe",
+     "kind": "magazine",
+     "excerpt": "He had time to capture them in only one shot, using his large-format Deardorff camera."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Caponigro ließ die Hirsche durch den Hund eines Gutsarbeiters aus dem Wald treiben und wartete im schwindenden Abendlicht geduldig [Q1]; für die vorbeiziehende Herde blieb ihm genau eine Aufnahme mit der Großformatkamera [Q2].",
+   "checkable": [
+    "Herde in einer Linie quer durchs Bild [Q2]",
+    "Dämmriges, schwaches Licht unter den Bäumen [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i297daea532",
+   "dimension": "time_motion",
+   "sources": [
+    {
+     "url": "https://www.bostonglobe.com/2024/11/26/nation/paul-caponigro-photographer-love-with-nature-dies-91",
+     "title": "Paul Caponigro, photographer in love with nature, dies at 91 – The Boston Globe",
+     "author": "The Boston Globe",
+     "kind": "magazine",
+     "excerpt": "The resulting black-and-white photograph shows some two dozen deer in a mesmerizing blur - indistinct, eerie white figures under a canopy of trees."
+    },
+    {
+     "url": "https://www.bostonglobe.com/2024/11/26/nation/paul-caponigro-photographer-love-with-nature-dies-91",
+     "title": "Paul Caponigro, photographer in love with nature, dies at 91 – The Boston Globe",
+     "author": "The Boston Globe",
+     "kind": "magazine",
+     "excerpt": "Caponigro's son, John Paul, a visual artist and writer, said in an email that his father \"would have shot it sharp if he could have,\" adding: \"The blur is one of those happy accidents."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die rund zwei Dutzend Hirsche erscheinen als Bewegungsunschärfe – undeutliche weiße Gestalten unter Bäumen [Q1]. Die Unschärfe war nicht geplant, sondern ein glücklicher Zufall; er hätte scharf fotografiert, wenn er gekonnt hätte [Q2].",
+   "checkable": [
+    "Hirsche verwischt, Bäume dahinter ruhig [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib7672be1e9",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/aspen-grove/",
+     "title": "Aspen Grove - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "This glorious, radiant light and peace lasts but for a moment, before fading to the deep blues and somber greys of night."
+    },
+    {
+     "url": "https://christopherburkett.com/print/aspen-grove/",
+     "title": "Aspen Grove - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Working rapidly, I focused the image on the ground glass in the fading light and had time for only one exposure."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Burkett traf den Espenhain in der Abenddämmerung: Das weiche, leuchtende Licht hält nur einen Augenblick, bevor es ins Blau und Grau der Nacht übergeht [Q1]. Er arbeitete schnell im schwindenden Licht und hatte Zeit für nur eine einzige Aufnahme [Q2].",
+   "checkable": [
+    "Weiches, farbiges Abendlicht auf den Stämmen, keine harten Schatten [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib7672be1e9",
+   "dimension": "time_motion",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/aspen-grove/",
+     "title": "Aspen Grove - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "At this time of day, with the sun just over the horizon, the air oftentimes becomes quite still, as if nature is holding her breath-in sharp contrast to the rest of the day, when strong breezes rush over the mountain tops, causing the leaves to constantly rustle and shimmer."
+    },
+    {
+     "url": "https://christopherburkett.com/print/aspen-grove/",
+     "title": "Aspen Grove - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Because of the low light levels, it was necessary to give the film about 90 seconds of exposure."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Wegen des schwachen Lichts belichtete Burkett etwa 90 Sekunden [Q2]; möglich war das, weil die Luft zu dieser Tageszeit oft ganz still ist – anders als tagsüber, wenn der Wind die Blätter ständig bewegt [Q1].",
+   "checkable": [
+    "Blätter trotz ~90 s Belichtung nicht verwischt – windstiller Moment [Q1][Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idaed126ed1",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/cottonwood-and-light/",
+     "title": "Cottonwood and Light - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "As I came around a corner, I came to a sudden stop as this cottonwood tree fairly leapt out at me-backlit by the sun, with the shadowed canyon wall as a background."
+    },
+    {
+     "url": "https://christopherburkett.com/print/cottonwood-and-light/",
+     "title": "Cottonwood and Light - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Leaping out of the car, it was almost an instantaneous decision where to place the camera and which lens to use. Trembling with anticipation, I worked quickly to set up and focus the camera and expose the film, before the light changed and the moment passed."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Kein geplantes Motiv: Auf dem Weg zum Erkunden für den Abend sprang ihm um ca. 13 Uhr hinter einer Kurve die gegenlichtbeleuchtete Pappel vor schattiger Canyonwand ins Auge [Q1]. Standort und Objektiv entschied er fast augenblicklich und belichtete schnell, bevor sich das Licht änderte [Q2].",
+   "checkable": [
+    "Baum im Gegenlicht, Hintergrund: Canyonwand im Schatten [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4a55592e19",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/daybreak/",
+     "title": "Daybreak - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Ruth and I literally ran with the camera gear to this spot and set up the camera in record time. The sun was rising and the sunlight was headed towards the camera. I had to take the photo before the light hit the lens which would ruin any possibility of a photograph."
+    },
+    {
+     "url": "https://christopherburkett.com/print/daybreak/",
+     "title": "Daybreak - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "I made one exposure on Provia film for one second. You can see that the sun was hitting some of the stones at the bottom of the image. We were able to get this image with just one minute to spare."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Wettlauf mit der aufgehenden Sonne: Burkett musste auslösen, bevor das Sonnenlicht das Objektiv erreichte [Q1]. Eine Belichtung von einer Sekunde, mit nur einer Minute Spielraum – unten im Bild trifft die Sonne bereits einige Steine [Q2].",
+   "checkable": [
+    "Unten im Bild: einige Steine schon von der Sonne getroffen [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ice7056e3c3",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "The sun was striking the aspen covered hillside but the beaver pond was in the shade. The photographing potential was there and I could see that I had about 15 minutes before the sunlight would hit the pond."
+    },
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "It was a near thing, at the top of the photograph you can see the sunlight just starting to intrude into the scene."
+    }
+   ],
+   "library_source_ids": [
+    564040
+   ],
+   "answer_md": "Der Teich lag im Schatten, der Hang dahinter schon in der Sonne; Burkett hatte etwa 15 Minuten, bevor das Licht den Teich erreichte [Q1]. Er wartete bewusst, bis die Sonne fast im Bild war, damit genug Streulicht vom trockenen Gras kam [S564040] – oben im Bild dringt das Sonnenlicht gerade ein [Q2].",
+   "checkable": [
+    "Teich und Biberburg noch im Schatten, gespiegelter Hang in der Sonne [Q1]",
+    "Am oberen Bildrand beginnt Sonnenlicht einzufallen [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib01bcf3028",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Eventually, a short lull in both the gusts of the wind and the traffic came together at the same time, and I was able to expose the film."
+    }
+   ],
+   "library_source_ids": [
+    244307
+   ],
+   "answer_md": "Burkett fotografierte von einer hohen, im Wind schwingenden Brücke: Er wartete rund 20 Minuten, nach jeder Böe etwa 40 Sekunden, bis die Brücke ruhig war, gestört auch von Autos und Lastwagen [S244307]. Erst als eine kurze Pause von Wind und Verkehr zusammenfiel, belichtete er [Q1].",
+   "checkable": [
+    "Bild ohne Verwacklung trotz Standort auf schwingender Brücke [S244307][Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2d8c007dd3",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/autumn-circus/",
+     "title": "Autumn Circus - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "Since this one tree proved to have so much photographic potential we went back one more time, just before sunset. We arrived at the tree earlier than the day before and in just one day the colors of the tree had changed and the light was quite different. There was sunlight shining on the tree but it was more enveloping and more diffuse."
+    },
+    {
+     "url": "https://christopherburkett.com/print/autumn-circus/",
+     "title": "Autumn Circus - Christopher Burkett | Handmade Cibachromes",
+     "author": "Christopher Burkett",
+     "kind": "photographer",
+     "excerpt": "As usual, I only made the one photograph of that tree at that time."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Burkett kehrte am Tag nach einer ersten Aufnahme kurz vor Sonnenuntergang zum selben Baum zurück; Farben und Licht hatten sich verändert – das Sonnenlicht war umhüllender und diffuser [Q1]. Wie üblich machte er nur eine einzige Aufnahme [Q2].",
+   "checkable": [
+    "Weiches, diffuses Licht auf dem Laub, kaum harte Schatten [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i251caa1a1a",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/etna/",
+     "title": "Moonrise over Etna | Art Wolfe",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "Within 32 hours of hearing that Sicily's Mt. Etna was erupting, I was hiking up the volcano."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Wolfe brach sofort auf: Binnen 32 Stunden nach der Nachricht vom Ausbruch stieg er auf den Ätna [Q1].",
+   "checkable": [
+    "Aktiver Ausbruch mit glühender Lava im Bild [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i251caa1a1a",
+   "dimension": "time_motion",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/etna/",
+     "title": "Moonrise over Etna | Art Wolfe",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "As twilight descended, this timed exposure recorded the fiery exploding magma."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Eine Zeitbelichtung bei hereinbrechender Dämmerung zeichnete das explodierende glühende Magma auf [Q1].",
+   "checkable": [
+    "Glühendes, explodierendes Magma als leuchtende Flächen [Q1]",
+    "Dämmerlicht – Himmel noch nicht ganz schwarz [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i59780175a1",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/the-eye-of-the-mountain/",
+     "title": "The Eye of the Mountain | Art Wolfe",
+     "author": "Art Wolfe",
+     "kind": "photographer",
+     "excerpt": "With the right amount of snow an'eye' is revealed in the side of a mountain. It almost looks like the eye in the pyramid on the dollar bill. As I photographed a pair of swans took flight."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das ‚Auge‘ am Berg zeigt sich nur bei der richtigen Schneemenge; während Wolfe fotografierte, flog ein Schwanenpaar auf [Q1].",
+   "checkable": [
+    "Zwei Schwäne klein an der Wasserlinie unter dem Berg [Q1]",
+    "Schneezeichnung bildet ein ‚Auge‘ in der Bergflanke [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "icf5d974f03",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://clevelandart.org/art/2022.343.5",
+     "title": "Caribbean Sea, Jamaica – Hiroshi Sugimoto, Time Exposed – The Cleveland Museum of Art",
+     "author": "The Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "Hiroshi Sugimoto journeys to locations around the world to produce what appears, at first glance, to be essentially the same picture: the horizon falls exactly in the vertical center of the paper, dividing the page into equal segments of sky and water. There are no signs of human presence."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Weggelassen ist alles außer Himmel und Wasser: Es gibt keinerlei Spuren menschlicher Anwesenheit [Q1].",
+   "checkable": [
+    "Keine Menschen oder menschlichen Spuren im Bild [Q1]",
+    "Nur zwei Flächen: Himmel und Wasser [Q1]"
+   ],
+   "scope_note": "Text der Cleveland-Objektseite gilt dem Portfolio ‚Time Exposed‘ (1991), zu dem genau dieser Abzug gehört."
+  },
+  {
+   "image_id": "icf5d974f03",
+   "dimension": "edge",
+   "sources": [
+    {
+     "url": "https://clevelandart.org/art/2022.343.5",
+     "title": "Caribbean Sea, Jamaica – Hiroshi Sugimoto, Time Exposed – The Cleveland Museum of Art",
+     "author": "The Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "Hiroshi Sugimoto journeys to locations around the world to produce what appears, at first glance, to be essentially the same picture: the horizon falls exactly in the vertical center of the paper, dividing the page into equal segments of sky and water. There are no signs of human presence."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Horizont liegt exakt in der vertikalen Mitte des Blattes und teilt es in gleich große Flächen Himmel und Wasser [Q1].",
+   "checkable": [
+    "Horizont genau auf halber Bildhöhe [Q1]",
+    "Himmel- und Wasserfläche gleich groß [Q1]"
+   ],
+   "scope_note": "Text der Cleveland-Objektseite gilt dem Portfolio ‚Time Exposed‘ (1991), zu dem genau dieser Abzug gehört."
+  },
+  {
+   "image_id": "i1cebb88136",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://clevelandart.org/art/2022.343.10",
+     "title": "Sea of Japan, Hokkaido – Hiroshi Sugimoto, Time Exposed – The Cleveland Museum of Art",
+     "author": "The Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "Hiroshi Sugimoto journeys to locations around the world to produce what appears, at first glance, to be essentially the same picture: the horizon falls exactly in the vertical center of the paper, dividing the page into equal segments of sky and water. There are no signs of human presence."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Weggelassen ist alles außer Himmel und Wasser: Es gibt keinerlei Spuren menschlicher Anwesenheit [Q1].",
+   "checkable": [
+    "Keine Menschen oder menschlichen Spuren im Bild [Q1]",
+    "Nur zwei Flächen: Himmel und Wasser [Q1]"
+   ],
+   "scope_note": "Text der Cleveland-Objektseite gilt dem Portfolio ‚Time Exposed‘ (1991), zu dem genau dieser Abzug gehört."
+  },
+  {
+   "image_id": "i1cebb88136",
+   "dimension": "edge",
+   "sources": [
+    {
+     "url": "https://clevelandart.org/art/2022.343.10",
+     "title": "Sea of Japan, Hokkaido – Hiroshi Sugimoto, Time Exposed – The Cleveland Museum of Art",
+     "author": "The Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "Hiroshi Sugimoto journeys to locations around the world to produce what appears, at first glance, to be essentially the same picture: the horizon falls exactly in the vertical center of the paper, dividing the page into equal segments of sky and water. There are no signs of human presence."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Horizont liegt exakt in der vertikalen Mitte des Blattes und teilt es in gleich große Flächen Himmel und Wasser [Q1].",
+   "checkable": [
+    "Horizont genau auf halber Bildhöhe [Q1]",
+    "Himmel- und Wasserfläche gleich groß [Q1]"
+   ],
+   "scope_note": "Text der Cleveland-Objektseite gilt dem Portfolio ‚Time Exposed‘ (1991), zu dem genau dieser Abzug gehört."
+  },
+  {
+   "image_id": "i73c5f80960",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    332121
+   ],
+   "answer_md": "Shore löste genau in dem Moment aus, als eine Mutter ihr badendes Kind fotografiert und sechs Figuren im Vordergrund am Ufer ein Dreieck bilden [S332121].",
+   "checkable": [
+    "Mutter fotografiert ihr Kind im Wasser [S332121]",
+    "Sechs Figuren am Wasserrand als Dreiecksanordnung [S332121]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i73c5f80960",
+   "dimension": "edge",
+   "sources": [],
+   "library_source_ids": [
+    617607
+   ],
+   "answer_md": "Shore setzte am äußersten rechten Bildrand einen Baum, dessen Umriss die Silhouette des Half Dome am dunstigen Horizont spiegelt [S617607].",
+   "checkable": [
+    "Baum ganz am rechten Rand [S617607]",
+    "Half Dome klein am Horizont [S617607]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i0365451f8f",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    882918
+   ],
+   "answer_md": "Wolf fotografierte die Gebäude zunächst ganz, mit Himmel und Land; überzeugt war er erst, als er die Bilder so beschnitt, dass nur noch Gebäude übrig blieben – ohne Himmel, ohne Horizont [S882918].",
+   "checkable": [
+    "Kein Himmel im Bild [S882918]",
+    "Kein Horizont, kein Boden – Fassaden füllen das ganze Format [S882918]"
+   ],
+   "scope_note": "Wolfs Aussage gilt der Serie ‚Architecture of Density‘; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i23b23de570",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    639218
+   ],
+   "answer_md": "Wolf fotografierte die Gebäude zunächst ganz, mit Himmel und Land; überzeugt war er erst, als er die Bilder so beschnitt, dass nur noch Gebäude übrig blieben – ohne Himmel, ohne Horizont [S639218].",
+   "checkable": [
+    "Kein Himmel im Bild [S639218]",
+    "Kein Horizont, kein Boden – Fassaden füllen das ganze Format [S639218]"
+   ],
+   "scope_note": "Wolfs Aussage gilt der Serie ‚Architecture of Density‘; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i88ceb1aba7",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    409809
+   ],
+   "answer_md": "Wolf fotografierte die Gebäude zunächst ganz, mit Himmel und Land; überzeugt war er erst, als er die Bilder so beschnitt, dass nur noch Gebäude übrig blieben – ohne Himmel, ohne Horizont [S409809].",
+   "checkable": [
+    "Kein Himmel im Bild [S409809]",
+    "Kein Horizont, kein Boden – Fassaden füllen das ganze Format [S409809]"
+   ],
+   "scope_note": "Wolfs Aussage gilt der Serie ‚Architecture of Density‘; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i09e5c03a10",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    990496
+   ],
+   "answer_md": "Wolf fotografierte die Gebäude zunächst ganz, mit Himmel und Land; überzeugt war er erst, als er die Bilder so beschnitt, dass nur noch Gebäude übrig blieben – ohne Himmel, ohne Horizont [S990496].",
+   "checkable": [
+    "Kein Himmel im Bild [S990496]",
+    "Kein Horizont, kein Boden – Fassaden füllen das ganze Format [S990496]"
+   ],
+   "scope_note": "Wolfs Aussage gilt der Serie ‚Architecture of Density‘; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "ia4babb5040",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    707578
+   ],
+   "answer_md": "Wolf fotografierte die Gebäude zunächst ganz, mit Himmel und Land; überzeugt war er erst, als er die Bilder so beschnitt, dass nur noch Gebäude übrig blieben – ohne Himmel, ohne Horizont [S707578].",
+   "checkable": [
+    "Kein Himmel im Bild [S707578]",
+    "Kein Horizont, kein Boden – Fassaden füllen das ganze Format [S707578]"
+   ],
+   "scope_note": "Wolfs Aussage gilt der Serie ‚Architecture of Density‘; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i61a13909b3",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    333062
+   ],
+   "answer_md": "Wolf fotografierte die Gebäude zunächst ganz, mit Himmel und Land; überzeugt war er erst, als er die Bilder so beschnitt, dass nur noch Gebäude übrig blieben – ohne Himmel, ohne Horizont [S333062].",
+   "checkable": [
+    "Kein Himmel im Bild [S333062]",
+    "Kein Horizont, kein Boden – Fassaden füllen das ganze Format [S333062]"
+   ],
+   "scope_note": "Wolfs Aussage gilt der Serie ‚Architecture of Density‘; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i6b2d4d41f6",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    397253
+   ],
+   "answer_md": "Wolf fotografierte die Gebäude zunächst ganz, mit Himmel und Land; überzeugt war er erst, als er die Bilder so beschnitt, dass nur noch Gebäude übrig blieben – ohne Himmel, ohne Horizont [S397253].",
+   "checkable": [
+    "Kein Himmel im Bild [S397253]",
+    "Kein Horizont, kein Boden – Fassaden füllen das ganze Format [S397253]"
+   ],
+   "scope_note": "Wolfs Aussage gilt der Serie ‚Architecture of Density‘; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i2c414c1f0f",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    598005
+   ],
+   "answer_md": "Wolf fotografierte die Gebäude zunächst ganz, mit Himmel und Land; überzeugt war er erst, als er die Bilder so beschnitt, dass nur noch Gebäude übrig blieben – ohne Himmel, ohne Horizont [S598005].",
+   "checkable": [
+    "Kein Himmel im Bild [S598005]",
+    "Kein Horizont, kein Boden – Fassaden füllen das ganze Format [S598005]"
+   ],
+   "scope_note": "Wolfs Aussage gilt der Serie ‚Architecture of Density‘; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i7c416320fe",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    763601
+   ],
+   "answer_md": "Wolf fotografierte die Gebäude zunächst ganz, mit Himmel und Land; überzeugt war er erst, als er die Bilder so beschnitt, dass nur noch Gebäude übrig blieben – ohne Himmel, ohne Horizont [S763601].",
+   "checkable": [
+    "Kein Himmel im Bild [S763601]",
+    "Kein Horizont, kein Boden – Fassaden füllen das ganze Format [S763601]"
+   ],
+   "scope_note": "Wolfs Aussage gilt der Serie ‚Architecture of Density‘; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i7d5bdce00c",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    825945
+   ],
+   "answer_md": "Wolf fotografierte die Gebäude zunächst ganz, mit Himmel und Land; überzeugt war er erst, als er die Bilder so beschnitt, dass nur noch Gebäude übrig blieben – ohne Himmel, ohne Horizont [S825945].",
+   "checkable": [
+    "Kein Himmel im Bild [S825945]",
+    "Kein Horizont, kein Boden – Fassaden füllen das ganze Format [S825945]"
+   ],
+   "scope_note": "Wolfs Aussage gilt der Serie ‚Architecture of Density‘; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i2eea36976e",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    114728
+   ],
+   "answer_md": "Cooper lässt den Horizont bewusst weg: Ein Horizont wäre ein ‚Ausgang‘ für Auge und Körper; ohne ihn wird das Bild nach innen gekehrt [S114728].",
+   "checkable": [
+    "Keine Horizontlinie sichtbar [S114728]"
+   ],
+   "scope_note": "Coopers Aussage gilt seinem Vorgehen allgemein; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "ie9df651c4e",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    379400
+   ],
+   "answer_md": "Der Horizont liegt außerhalb des Bildes; der Betrachter verliert die Orientierung [S379400].",
+   "checkable": [
+    "Kein Horizont, kein Himmel – senkrechter Blick auf den Boden [S379400]"
+   ],
+   "scope_note": "Text gilt der Serie ‚The Lake Project‘."
+  },
+  {
+   "image_id": "ie7d8962b6e",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.featureshoot.com/?p=142924",
+     "title": "Nick Brandt's Devastating Portrait of Africa on the Brink of a Perilous New World - Feature Shoot",
+     "author": "Miss Rosen (Interview mit Nick Brandt), Feature Shoot",
+     "kind": "magazine",
+     "excerpt": "Aside from matching the horizon lines between original photograph and location, the biggest challenge was financial - the amount of money I spent on crew members standing around on location day after day waiting for clouds to appear in the sky."
+    }
+   ],
+   "library_source_ids": [
+    591544
+   ],
+   "answer_md": "Brandt ließ seine Crew Tag für Tag vor Ort warten, bis Wolken am Himmel erschienen [Q1]; in hartem Sonnenlicht hätte keines dieser Panoramen funktioniert [S591544].",
+   "checkable": [
+    "Bewölkter, düsterer Himmel, kein hartes Sonnenlicht [Q1][S591544]"
+   ],
+   "scope_note": "Aussagen gelten der Serie ‚Inherit the Dust‘."
+  },
+  {
+   "image_id": "i25c5de9f0f",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.featureshoot.com/?p=142924",
+     "title": "Nick Brandt's Devastating Portrait of Africa on the Brink of a Perilous New World - Feature Shoot",
+     "author": "Miss Rosen (Interview mit Nick Brandt), Feature Shoot",
+     "kind": "magazine",
+     "excerpt": "Aside from matching the horizon lines between original photograph and location, the biggest challenge was financial - the amount of money I spent on crew members standing around on location day after day waiting for clouds to appear in the sky."
+    },
+    {
+     "url": "https://www.featureshoot.com/?p=142924",
+     "title": "Nick Brandt's Devastating Portrait of Africa on the Brink of a Perilous New World - Feature Shoot",
+     "author": "Miss Rosen (Interview mit Nick Brandt), Feature Shoot",
+     "kind": "magazine",
+     "excerpt": "So for example, it took months to find a set of hills in the background that perfectly matched the contours of the hills in Wasteland with Rhinos. Eventually, by complete happenstance, I did."
+    }
+   ],
+   "library_source_ids": [
+    458442
+   ],
+   "answer_md": "Für dieses Bild dauerte es Monate, bis Brandt – schließlich durch Zufall – Hügel fand, deren Kontur genau zu den Hügeln im Nashorn-Panel passt [Q2]. Zusätzlich wartete die Crew tagelang auf Wolken [Q1]; hartes Sonnenlicht hätte die Stimmung zerstört [S458442].",
+   "checkable": [
+    "Hügelkontur im Panel setzt sich in der realen Landschaft fort [Q2]",
+    "Bedeckter Himmel [Q1][S458442]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "idb2e605d79",
+   "dimension": "time_motion",
+   "sources": [],
+   "library_source_ids": [
+    359698
+   ],
+   "answer_md": "Höfer brauchte für das vorhandene Licht im Saal eine lange Belichtung; die Besucher wurden dadurch unscharf und erscheinen wie geisterhafte Erscheinungen [S359698].",
+   "checkable": [
+    "Menschen verwischt/halbtransparent, Architektur scharf [S359698]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4e1ca0fad9",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.digitalcameraworld.com/news/landscape-master-charlie-waite-shares-the-stories-behind-five-of-his-photographs",
+     "title": "Landscape master Charlie Waite shares stories behind five of his top photographs | Digital Camera World",
+     "author": "Charlie Waite (Interview, Digital Camera World)",
+     "kind": "photographer",
+     "excerpt": "You can be travelling along, walking along, bicycling along, and suddenly you will notice something that is a piece of absolute magic, and it is hard to describe the elation that one feels at such an event."
+    },
+    {
+     "url": "https://www.digitalcameraworld.com/news/landscape-master-charlie-waite-shares-the-stories-behind-five-of-his-photographs",
+     "title": "Landscape master Charlie Waite shares stories behind five of his top photographs | Digital Camera World",
+     "author": "Charlie Waite (Interview, Digital Camera World)",
+     "kind": "photographer",
+     "excerpt": "I set myself up, and within a very short time I made the image, probably only a matter of 20 minutes."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Kein lange geplantes Bild: Waite stieß unterwegs überraschend auf die Bäume in ihrer teils blauen, teils blassgelben Färbung [Q1] und machte die Aufnahme sehr schnell, in etwa 20 Minuten [Q2].",
+   "checkable": [
+    "Bäume in bläulichem und blass orange-gelbem Ton [Q1]"
+   ],
+   "scope_note": "Q1 ist Waites allgemeiner Einstieg in die Geschichte genau dieses Bildes (Bildunterschrift ‚West of Child Okeford‘ im Artikel)."
+  },
+  {
+   "image_id": "i4e1ca0fad9",
+   "dimension": "time_motion",
+   "sources": [],
+   "library_source_ids": [
+    521208
+   ],
+   "answer_md": "Ein Windstoß, der wie durch einen Tunnel nur durch die mittlere Zone fuhr, machte den Mittelgrund leicht unscharf, während Vordergrund und Ferne scharf blieben [S521208].",
+   "checkable": [
+    "Mittelgrund (Grasflur zwischen den Stämmen) weich/unscharf [S521208]",
+    "Vordergrund und Hintergrund scharf [S521208]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i5ed6020544",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://sfmoma.org/read/sunsets-umbrico",
+     "title": "Sunsets: Penelope Umbrico – SFMOMA",
+     "author": "SFMOMA",
+     "kind": "museum",
+     "excerpt": "Umbrico downloaded thousands of sunset images from Flickr and cropped 2,500 of them to focus on the sun."
+    }
+   ],
+   "library_source_ids": [
+    421948
+   ],
+   "answer_md": "Umbrico lud Tausende Sonnenuntergangsbilder von Flickr herunter [S421948] und beschnitt 2.500 davon so, dass nur noch die Sonne im Fokus steht [Q1].",
+   "checkable": [
+    "Jeder Einzelabzug zeigt fast nur die Sonne, kaum Landschaft [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i54431ad6b5",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://sfmoma.org/read/sunsets-umbrico",
+     "title": "Sunsets: Penelope Umbrico – SFMOMA",
+     "author": "SFMOMA",
+     "kind": "museum",
+     "excerpt": "Umbrico downloaded thousands of sunset images from Flickr and cropped 2,500 of them to focus on the sun."
+    }
+   ],
+   "library_source_ids": [
+    932801
+   ],
+   "answer_md": "Umbrico lud Tausende Sonnenuntergangsbilder von Flickr herunter [S932801] und beschnitt 2.500 davon so, dass nur noch die Sonne im Fokus steht [Q1].",
+   "checkable": [
+    "Jeder Einzelabzug zeigt fast nur die Sonne, kaum Landschaft [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if0607eb95c",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    379400
+   ],
+   "answer_md": "Der Horizont liegt außerhalb des Bildes; der Betrachter verliert die Orientierung [S379400].",
+   "checkable": [
+    "Kein Horizont, kein Himmel – Blick senkrecht/steil auf den Seegrund [S379400]"
+   ],
+   "scope_note": "S379400 (Diana Gaston) beschreibt die Serie ‚The Lake Project‘ allgemein; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i32d59b1183",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    379400
+   ],
+   "answer_md": "Der Horizont liegt außerhalb des Bildes; der Betrachter verliert die Orientierung [S379400].",
+   "checkable": [
+    "Kein Horizont, kein Himmel – Blick senkrecht/steil auf den Seegrund [S379400]"
+   ],
+   "scope_note": "S379400 (Diana Gaston) beschreibt die Serie ‚The Lake Project‘ allgemein; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i2515f045ba",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    379400
+   ],
+   "answer_md": "Der Horizont liegt außerhalb des Bildes; der Betrachter verliert die Orientierung [S379400].",
+   "checkable": [
+    "Kein Horizont, kein Himmel – Blick senkrecht/steil auf den Seegrund [S379400]"
+   ],
+   "scope_note": "S379400 (Diana Gaston) beschreibt die Serie ‚The Lake Project‘ allgemein; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i98e3bc0868",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    379400
+   ],
+   "answer_md": "Der Horizont liegt außerhalb des Bildes; der Betrachter verliert die Orientierung [S379400].",
+   "checkable": [
+    "Kein Horizont, kein Himmel – Blick senkrecht/steil auf den Seegrund [S379400]"
+   ],
+   "scope_note": "S379400 (Diana Gaston) beschreibt die Serie ‚The Lake Project‘ allgemein; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "i659121c450",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    379400
+   ],
+   "answer_md": "Der Horizont liegt außerhalb des Bildes; der Betrachter verliert die Orientierung [S379400].",
+   "checkable": [
+    "Kein Horizont, kein Himmel – Blick senkrecht/steil auf den Seegrund [S379400]"
+   ],
+   "scope_note": "S379400 (Diana Gaston) beschreibt die Serie ‚The Lake Project‘ allgemein; dieses Bild ist ein Beispiel dafür."
+  },
+  {
+   "image_id": "ifccce59f5b",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    677129
+   ],
+   "answer_md": "In der früheren Fassung, von tieferem Standpunkt, war eine Stirnwand des Saals zu sehen; in dieser zwei Jahre späteren Version füllt der überfüllte Handelsboden das ganze Bild – die Raumgrenzen sind weggelassen [S677129].",
+   "checkable": [
+    "Keine Saalwand sichtbar – Handelsboden füllt das ganze Format [S677129]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ifccce59f5b",
+   "dimension": "time_motion",
+   "sources": [
+    {
+     "url": "https://www.silent-frame.com/articles/1999-chicago-board-trade-andreas-gursky",
+     "title": "Chicago Board of Trade II – Silent Frame",
+     "author": "Silent Frame",
+     "kind": "magazine",
+     "excerpt": "Blurred boundaries connote the elapsing of time, while several sections are double-exposed, producing a sense of flurried motion."
+    }
+   ],
+   "library_source_ids": [
+    271343
+   ],
+   "answer_md": "Gursky belichtete mehrere Bildpartien doppelt, um den Eindruck hektischer Bewegung zu verstärken [S271343]; die verwischten Grenzen stehen für vergehende Zeit [Q1].",
+   "checkable": [
+    "Händler teils verwischt/unscharf [S271343][Q1]",
+    "Doppelt belichtete Zonen [S271343]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6cd4bc86d1",
+   "dimension": "edge",
+   "sources": [
+    {
+     "url": "https://www.art-it.asia/en/u/admin_ed_itv_e/E6vMIYKmWUG5q8NJVQrS/",
+     "title": "Andreas Gursky – Interview – ART iT",
+     "author": "Andreas Gursky (Interview, ART iT)",
+     "kind": "photographer",
+     "excerpt": "Although the work has an increased element of perspective - the ground is steeply inclined and the composition forms an abstract pattern - there is still a horizon line and a strip of sky is visible."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Trotz der stark aufgekippten Bodenfläche, die ein abstraktes Muster bildet, behält Gursky eine Horizontlinie und einen schmalen Himmelsstreifen am oberen Rand bei [Q1].",
+   "checkable": [
+    "Oben schmaler Himmelsstreifen mit Horizontlinie [Q1]",
+    "Boden steil geneigt, füllt fast das ganze Bild [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib80d6c76b4",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    954702,
+    280520
+   ],
+   "answer_md": "Jedes Bild ist eine Collage aus rund 100 Touristenfotos, ausgerichtet an einem einzigen Punkt [S954702]; so entstehen geschichtete, ätherische Gebilde, in denen das Bauwerk im Dunst schwebt und Touristen wie Erscheinungen wirken [S280520].",
+   "checkable": [
+    "Bauwerk mehrfach überlagert, Konturen doppelt/verschwommen [S954702][S280520]",
+    "Menschen als halbtransparente Schemen [S280520]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3800d71691",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    239120,
+    452514
+   ],
+   "answer_md": "Jedes Bild ist eine Collage aus rund 100 Touristenfotos, ausgerichtet an einem einzigen Punkt [S239120]; so entstehen geschichtete, ätherische Gebilde, in denen das Bauwerk im Dunst schwebt und Touristen wie Erscheinungen wirken [S452514].",
+   "checkable": [
+    "Bauwerk mehrfach überlagert, Konturen doppelt/verschwommen [S239120][S452514]",
+    "Menschen als halbtransparente Schemen [S452514]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i79018cc562",
+   "dimension": "time_motion",
+   "sources": [
+    {
+     "url": "https://huxleyparlour.com/critical-texts/joel-meyerowitz-seminal-series-cape-light/",
+     "title": "Joel Meyerowitz: Seminal Series Cape Light – Huxley-Parlour Gallery",
+     "author": "Huxley-Parlour Gallery",
+     "kind": "curator",
+     "excerpt": "Meyerowitz captures beach towels drying under the sun on a washing line, families lounging by the sea, and a seemingly familiar light-filled hallway leading to a door left ajar."
+    }
+   ],
+   "library_source_ids": [
+    764243
+   ],
+   "answer_md": "Das Bild gehört zu den Cape-Light-Aufnahmen mit der 8×10-Kamera – der lichtdurchflutete Flur mit halb offener Tür [Q1]. Tagsüber belichtete Meyerowitz dabei etwa eine halbe Sekunde bei Blende f/90, so eng, dass alles vom Vordergrund bis zum Horizont scharf ist; gegen Abend dauerten die Belichtungen vier bis zehn Minuten [S764243].",
+   "checkable": [
+    "Durchgehende Schärfe vom vorderen Türrahmen bis zum Fenster hinten [S764243]",
+    "Lichtdurchfluteter Flur, Tür am Ende angelehnt [Q1]"
+   ],
+   "scope_note": "Belichtungsangaben (S764243) gelten der Cape-Light-Arbeit allgemein, nicht nachweislich genau diesem Negativ."
+  }
+ ]
+}
