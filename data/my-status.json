@@ -734,7 +734,8 @@
   "prio": "hoch"
  },
  "cn-eling-second-factory": {
-  "fav": true
+  "fav": true,
+  "done": true
  },
  "claude-cn-huangjueping-graffiti-street": {
   "fav": true
