@@ -1,0 +1,498 @@
+{
+ "source": "OpenStreetMap Nominatim (geocoded from the image's location text)",
+ "locations": {
+  "Abu Simbel, Nubien (Ägypten)": {
+   "lat": 22.9883,
+   "lon": 32.6906,
+   "query": "Nubien, Ägypten",
+   "level": 1,
+   "name": "Nubien-see, Assuan, Ägypten"
+  },
+  "Afghanistan": {
+   "lat": 33.768,
+   "lon": 66.2385,
+   "query": "Afghanistan",
+   "level": 0,
+   "name": "Afghanistan"
+  },
+  "Agra": {
+   "lat": 27.1753,
+   "lon": 78.0098,
+   "query": "Agra",
+   "level": 0,
+   "name": "Agra, Uttar Pradesh, 280001, Indien"
+  },
+  "Agra, Indien": {
+   "lat": 27.1753,
+   "lon": 78.0098,
+   "query": "Agra, Indien",
+   "level": 0,
+   "name": "Agra, Uttar Pradesh, 280001, Indien"
+  },
+  "Aintree, Merseyside, England": {
+   "lat": 53.4954,
+   "lon": -2.9739,
+   "query": "Merseyside, England",
+   "level": 1,
+   "name": "Merseyside, Liverpool City Region, England, Vereinigtes Königreich"
+  },
+  "Akasaka, Tokio, Japan": {
+   "lat": 35.6717,
+   "lon": 139.7356,
+   "query": "Akasaka, Tokio, Japan",
+   "level": 0,
+   "name": "赤坂, Minato, Tokio, 107-0052, Japan"
+  },
+  "Alto Paraguay, Paraguay": {
+   "lat": -20.5,
+   "lon": -59.1667,
+   "query": "Alto Paraguay, Paraguay",
+   "level": 0,
+   "name": "Alto Paraguay, Región Occidental, Paraguay"
+  },
+  "Amazonas, Brasilien": {
+   "lat": -1.4379,
+   "lon": -52.383,
+   "query": "Amazonas, Brasilien",
+   "level": 0,
+   "name": "Amazonas, Pará, Norden, Brasilien"
+  },
+  "An der Straße nach Norden, Afghanistan": {
+   "lat": 33.768,
+   "lon": 66.2385,
+   "query": "Afghanistan",
+   "level": 1,
+   "name": "Afghanistan"
+  },
+  "Andalusien, Spanien": {
+   "lat": 39.3261,
+   "lon": -4.838,
+   "query": "Spanien",
+   "level": 1,
+   "name": "Spanien"
+  },
+  "Andohahela National Park, Madagaskar": {
+   "lat": -24.7536,
+   "lon": 46.8175,
+   "query": "Andohahela National Park, Madagaskar",
+   "level": 0,
+   "name": "Parc National d'Andohahela, Tôlanaro, Anosy, Province de Toliara, Madagaskar"
+  },
+  "Antarctica": {
+   "lat": -72.8439,
+   "lon": 0.0,
+   "query": "Antarctica",
+   "level": 0,
+   "name": "Antarktika"
+  },
+  "Antarktische Halbinsel": {
+   "lat": -69.9896,
+   "lon": -65.4005,
+   "query": "Antarktische Halbinsel",
+   "level": 0,
+   "name": "Antarktische Halbinsel"
+  },
+  "Apulien, Italien": {
+   "lat": 40.9843,
+   "lon": 16.621,
+   "query": "Apulien, Italien",
+   "level": 0,
+   "name": "Apulien, Italien"
+  },
+  "Arctic National Wildlife Refuge, Alaska, USA": {
+   "lat": 39.7837,
+   "lon": -100.4459,
+   "query": "USA",
+   "level": 2,
+   "name": "Vereinigte Staaten von Amerika"
+  },
+  "Arkansas, USA": {
+   "lat": 35.2049,
+   "lon": -92.4479,
+   "query": "Arkansas, USA",
+   "level": 0,
+   "name": "Arkansas, Vereinigte Staaten von Amerika"
+  },
+  "Arnhem Land, Northern Territory, Australia": {
+   "lat": -12.7308,
+   "lon": 134.5928,
+   "query": "Arnhem Land, Northern Territory, Australia",
+   "level": 0,
+   "name": "Arnhemland, West Arnhem, Nordterritorium, 0852, Australien"
+  },
+  "Aroostook County, Maine, USA": {
+   "lat": 46.6848,
+   "lon": -68.4701,
+   "query": "Aroostook County, Maine, USA",
+   "level": 0,
+   "name": "Aroostook County, Maine, Vereinigte Staaten von Amerika"
+  },
+  "Asahi, Hokkaido, Japan": {
+   "lat": 45.3834,
+   "lon": 141.7086,
+   "query": "Asahi, Hokkaido, Japan",
+   "level": 0,
+   "name": "朝日, Wakkanai, 宗谷総合振興局, Präfektur Hokkaido, Region Hokkaidō, Japan"
+  },
+  "Atlantic City, New Jersey, USA": {
+   "lat": 39.3643,
+   "lon": -74.4229,
+   "query": "Atlantic City, New Jersey, USA",
+   "level": 0,
+   "name": "Atlantic City, Atlantic County, New Jersey, Vereinigte Staaten von Amerika"
+  },
+  "Avebury": null,
+  "Avebury, Wiltshire, England": {
+   "lat": 51.4286,
+   "lon": -1.8517,
+   "query": "Avebury, Wiltshire, England",
+   "level": 0,
+   "name": "Avebury Stone Circle, High Street, Avebury Trusloe, Beckhampton, Avebury, Wiltshire, England, SN8 1RF, Vereinigtes König"
+  },
+  "Avenida Paulista, São Paulo, Brasilien": {
+   "lat": -23.5569,
+   "lon": -46.6614,
+   "query": "Avenida Paulista, São Paulo, Brasilien",
+   "level": 0,
+   "name": "Avenida Paulista, Consolação, São Paulo, Südosten, 01414-000, Brasilien"
+  },
+  "Avlona, Griechenland": {
+   "lat": 38.9954,
+   "lon": 21.9877,
+   "query": "Griechenland",
+   "level": 1,
+   "name": "Griechenland"
+  },
+  "Badaling, Pechili (Hebei/Beijing), China": {
+   "lat": 39.8187,
+   "lon": 115.9318,
+   "query": "Hebei/Beijing, China",
+   "level": 2,
+   "name": "河北镇, 房山区, Peking, China"
+  },
+  "Badlands National Monument, South Dakota, USA": {
+   "lat": 44.6472,
+   "lon": -100.3488,
+   "query": "South Dakota, USA",
+   "level": 1,
+   "name": "Süd-Dakota, Vereinigte Staaten von Amerika"
+  },
+  "Bahrain": null,
+  "Baia delle Zagare, Apulien, Italien": {
+   "lat": 41.7485,
+   "lon": 16.1465,
+   "query": "Baia delle Zagare, Apulien, Italien",
+   "level": 0,
+   "name": "Baia dei Mergoli o delle Zagare - Nord, Mattinata, Foggia, Apulien, 71030, Italien"
+  },
+  "Baker County, Oregon, USA": {
+   "lat": 44.726,
+   "lon": -117.6205,
+   "query": "Baker County, Oregon, USA",
+   "level": 0,
+   "name": "Baker County, Oregon, Vereinigte Staaten von Amerika"
+  },
+  "Balaklawa, Krim": {
+   "lat": 45.2835,
+   "lon": 34.2008,
+   "query": "Krim",
+   "level": 1,
+   "name": "Krim, Ukraine"
+  },
+  "Bamiyan, Afghanistan": {
+   "lat": 34.75,
+   "lon": 67.25,
+   "query": "Bamiyan, Afghanistan",
+   "level": 0,
+   "name": "Bamiyan, Afghanistan"
+  },
+  "Banaue, Philippines": {
+   "lat": 16.9118,
+   "lon": 121.0614,
+   "query": "Banaue, Philippines",
+   "level": 0,
+   "name": "Banaue, Ifugao, Cordillera Administrative Region, 3601, Philippinen"
+  },
+  "Barau, Indochina": {
+   "lat": -34.6184,
+   "lon": -58.3719,
+   "query": "Indochina",
+   "level": 1,
+   "name": "Indochina, 425, Estados Unidos, San Telmo, Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, C1065AAR, Argentinie"
+  },
+  "Basilikata, Italien": {
+   "lat": 40.5006,
+   "lon": 16.082,
+   "query": "Basilikata, Italien",
+   "level": 0,
+   "name": "Basilikata, Italien"
+  },
+  "Bastia, Korsika": {
+   "lat": 42.6975,
+   "lon": 9.4498,
+   "query": "Bastia, Korsika",
+   "level": 0,
+   "name": "Bastia, Oberkorsika, Korsika, Metropolitanes Frankreich, Frankreich"
+  },
+  "Bear Lake, Utah, USA": {
+   "lat": 41.9843,
+   "lon": -111.3407,
+   "query": "Bear Lake, Utah, USA",
+   "level": 0,
+   "name": "Bear Lake, Garden City, Rich County, Utah, 84038, Vereinigte Staaten von Amerika"
+  },
+  "Beaugency": {
+   "lat": 47.7779,
+   "lon": 1.6312,
+   "query": "Beaugency",
+   "level": 0,
+   "name": "Beaugency, Orléans, Loiret, Zentrum-Loiretal, Metropolitanes Frankreich, 45190, Frankreich"
+  },
+  "Bei Kars, Türkei": {
+   "lat": 39.2941,
+   "lon": 35.2317,
+   "query": "Türkei",
+   "level": 1,
+   "name": "Türkei"
+  },
+  "Bei Marrakesch, Marokko": {
+   "lat": 28.3348,
+   "lon": -10.3713,
+   "query": "Marokko",
+   "level": 1,
+   "name": "Marokko"
+  },
+  "Bei Memphis, Tennessee, USA": {
+   "lat": 35.773,
+   "lon": -86.282,
+   "query": "Tennessee, USA",
+   "level": 1,
+   "name": "Tennessee, Vereinigte Staaten von Amerika"
+  },
+  "Bei Písac, Heiliges Tal des Urubamba, Peru": {
+   "lat": -6.87,
+   "lon": -75.0459,
+   "query": "Peru",
+   "level": 2,
+   "name": "Peru"
+  },
+  "Beihai-Park, Beijing, China": {
+   "lat": 39.9264,
+   "lon": 116.3825,
+   "query": "Beihai-Park, Beijing, China",
+   "level": 0,
+   "name": "Nordsee- (Beihai-)Garten, 首都功能核心区, 西城区, Peking, 100032, China"
+  },
+  "Beijing, China": {
+   "lat": 39.9057,
+   "lon": 116.3913,
+   "query": "Beijing, China",
+   "level": 0,
+   "name": "Peking, China"
+  },
+  "Belmond, Iowa": {
+   "lat": 42.846,
+   "lon": -93.6143,
+   "query": "Belmond, Iowa",
+   "level": 0,
+   "name": "Belmond, Wright County, Iowa, Vereinigte Staaten von Amerika"
+  },
+  "Belmont, Nevada, USA": {
+   "lat": 38.596,
+   "lon": -116.8742,
+   "query": "Belmont, Nevada, USA",
+   "level": 0,
+   "name": "Belmont, Nye County, Nevada, Vereinigte Staaten von Amerika"
+  },
+  "Benidorm, Spanien": {
+   "lat": 38.5406,
+   "lon": -0.1291,
+   "query": "Benidorm, Spanien",
+   "level": 0,
+   "name": "Benidorm, la Marina Baixa, Alicante, Valencianische Gemeinschaft, Spanien"
+  },
+  "Benton County, Washington, USA": {
+   "lat": 46.1692,
+   "lon": -119.5286,
+   "query": "Benton County, Washington, USA",
+   "level": 0,
+   "name": "Benton County, Washington, Vereinigte Staaten von Amerika"
+  },
+  "Berwick, Victoria, Australien": {
+   "lat": -38.0398,
+   "lon": 145.3451,
+   "query": "Berwick, Victoria, Australien",
+   "level": 0,
+   "name": "Berwick, Melville Park Drive, Berwick, Melbourne, Victoria, 3806, Australien"
+  },
+  "Biei, Hokkaido, Japan": {
+   "lat": 43.5882,
+   "lon": 142.4669,
+   "query": "Biei, Hokkaido, Japan",
+   "level": 0,
+   "name": "美瑛町, 上川郡(石狩国), 上川総合振興局, Präfektur Hokkaido, Region Hokkaidō, Japan"
+  },
+  "Big Bend National Park": {
+   "lat": 29.3332,
+   "lon": -103.1943,
+   "query": "Big Bend National Park",
+   "level": 0,
+   "name": "Big Bend National Park, Brewster County, Texas, 79834, Vereinigte Staaten von Amerika"
+  },
+  "Big Bend National Park, Texas, USA": {
+   "lat": 29.3332,
+   "lon": -103.1943,
+   "query": "Big Bend National Park, Texas, USA",
+   "level": 0,
+   "name": "Big Bend National Park, Brewster County, Texas, 79834, Vereinigte Staaten von Amerika"
+  },
+  "Bikampulli, Taluk Denkanikottai, Distrikt Salem, Indien": {
+   "lat": 11.647,
+   "lon": 78.2107,
+   "query": "Distrikt Salem, Indien",
+   "level": 2,
+   "name": "Distrikt Salem, Tamil Nadu, Indien"
+  },
+  "Biloxi, Mississippi, USA": {
+   "lat": 30.4008,
+   "lon": -88.8894,
+   "query": "Biloxi, Mississippi, USA",
+   "level": 0,
+   "name": "Biloxi, Harrison County, Mississippi, Vereinigte Staaten von Amerika"
+  },
+  "Birdsville, Queensland, Australien": {
+   "lat": -25.8981,
+   "lon": 139.3523,
+   "query": "Birdsville, Queensland, Australien",
+   "level": 0,
+   "name": "Birdsville, Queensland, 4482, Australien"
+  },
+  "Bishop, Kalifornien, USA": {
+   "lat": 37.3637,
+   "lon": -118.3952,
+   "query": "Bishop, Kalifornien, USA",
+   "level": 0,
+   "name": "Bishop, Inyo County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Black Cañon, Colorado River, USA": {
+   "lat": 36.4542,
+   "lon": -111.8354,
+   "query": "Colorado River, USA",
+   "level": 1,
+   "name": "Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Blackpool, Lancashire, England": {
+   "lat": 53.8179,
+   "lon": -3.051,
+   "query": "Blackpool, Lancashire, England",
+   "level": 0,
+   "name": "Blackpool, Lancashire, England, FY1 1DL, Vereinigtes Königreich"
+  },
+  "Blairsburg, Iowa, USA": {
+   "lat": 42.4799,
+   "lon": -93.643,
+   "query": "Blairsburg, Iowa, USA",
+   "level": 0,
+   "name": "Blairsburg, Blairsburg Township, Hamilton County, Iowa, Vereinigte Staaten von Amerika"
+  },
+  "Bombardopolis, Haiti": {
+   "lat": 19.14,
+   "lon": -72.3571,
+   "query": "Haiti",
+   "level": 1,
+   "name": "Haiti"
+  },
+  "Bombay Beach, Salton Sea, Kalifornien, USA": {
+   "lat": 33.3173,
+   "lon": -115.7858,
+   "query": "Salton Sea, Kalifornien, USA",
+   "level": 1,
+   "name": "Saltonsee, Imperial County, Kalifornien, 92274, Vereinigte Staaten von Amerika"
+  },
+  "Bonneville Salt Flats": {
+   "lat": 40.7448,
+   "lon": -114.0237,
+   "query": "Bonneville Salt Flats",
+   "level": 0,
+   "name": "Bonneville Salt Flats, Dwight D. Eisenhower Highway, Wendover, Tooele County, Utah, 84083, Vereinigte Staaten von Amerik"
+  },
+  "Borrego Badlands, Kalifornien, USA": {
+   "lat": 36.7015,
+   "lon": -118.756,
+   "query": "Kalifornien, USA",
+   "level": 1,
+   "name": "Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Bravo 20 Bombing Range, Nevada": {
+   "lat": 39.5159,
+   "lon": -116.8537,
+   "query": "Nevada",
+   "level": 1,
+   "name": "Nevada, Vereinigte Staaten von Amerika"
+  },
+  "Bryce Canyon National Park, Utah, USA": {
+   "lat": 37.5708,
+   "lon": -112.1856,
+   "query": "Bryce Canyon National Park, Utah, USA",
+   "level": 0,
+   "name": "Bryce Canyon National Park, Tropic, Garfield County, Utah, Vereinigte Staaten von Amerika"
+  },
+  "Bryce Canyon, Garfield, Utah, USA": {
+   "lat": 37.6184,
+   "lon": -112.1422,
+   "query": "Bryce Canyon, Garfield, Utah, USA",
+   "level": 0,
+   "name": "Bryce Canyon, Tropic, Garfield County, Utah, Vereinigte Staaten von Amerika"
+  },
+  "Bucht des Mont-Saint-Michel, Frankreich": {
+   "lat": 46.6034,
+   "lon": 1.8883,
+   "query": "Frankreich",
+   "level": 1,
+   "name": "Frankreich"
+  },
+  "Buffalo, South Dakota, USA": {
+   "lat": 44.0646,
+   "lon": -99.1707,
+   "query": "Buffalo, South Dakota, USA",
+   "level": 0,
+   "name": "Buffalo County, Süd-Dakota, Vereinigte Staaten von Amerika"
+  },
+  "Bujuku": null,
+  "Bukarest, Rumänien": {
+   "lat": 44.4361,
+   "lon": 26.1027,
+   "query": "Bukarest, Rumänien",
+   "level": 0,
+   "name": "Bukarest, Rumänien"
+  },
+  "Bull Creek Flat, Humboldt County, Kalifornien, USA": {
+   "lat": 40.348,
+   "lon": -123.9757,
+   "query": "Bull Creek Flat, Humboldt County, Kalifornien, USA",
+   "level": 0,
+   "name": "Bull Creek Flat, Humboldt County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Bull Run Mining District, Nevada, USA": {
+   "lat": 39.5159,
+   "lon": -116.8537,
+   "query": "Nevada, USA",
+   "level": 1,
+   "name": "Nevada, Vereinigte Staaten von Amerika"
+  },
+  "Burr Point, Ards Peninsula, County Down, Nordirland": {
+   "lat": 54.3793,
+   "lon": -5.9694,
+   "query": "County Down, Nordirland",
+   "level": 2,
+   "name": "County Down, Nordirland, Vereinigtes Königreich"
+  },
+  "Butt of Lewis, Isle of Lewis, Schottland": {
+   "lat": 58.2128,
+   "lon": -6.5642,
+   "query": "Isle of Lewis, Schottland",
+   "level": 1,
+   "name": "Lewis, Na h-Eileanan Siar, Schottland, Vereinigtes Königreich"
+  }
+ }
+}
