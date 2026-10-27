@@ -135,6 +135,17 @@
   "cat": "Architektur",
   "note": "Beicang 北仓 (auch 北仓里, „Nordlager“): umgebaute Lagerhallen der Jiangbei-Textilfabrik aus den 1960ern – alte Ziegel, Holzbalken und Eisentüren wiederverwendet. Über 150 Läden: Handwerk, Vintage, Second-Hand-Bücher, Cafés (u. a. Exotik-Haustier-Café), Straßenstände und Mitmach-Werkstätten; die Bibliothek 北仓图书馆 in einer Lagerhalle ist rund um die Uhr offen, dazu unregelmäßig Märkte, Ausstellungen, Vorträge. Eintritt frei, Gelände rund um die Uhr zugänglich. 2026 auf der ersten UN-Habitat-Liste vorbildlicher Stadterneuerung. Andrang ca. 15.000/Tag, am Wochenende ~30.000 – früh oder werktags kommen. Adresse: 江北区兴隆路与北城天街交叉路口往西约100米 (北仓图书馆), Metro Linie 3 Guanyinqiao 观音桥. Bei Regen gut: Läden, Werkstätten und Bibliothek innen, Einkaufszentrum 北城天街 direkt an der Kreuzung. Foto: Backstein- und Eisentür-Details, Bibliothek innen, Straßenleben; 24–70.",
   "source": "https://m.cq.bendibao.com/tour/94613.shtm · https://english.liangjiang.gov.cn/2025-12/05/c_1146637.htm · https://finance.sina.com.cn/roll/2026-06-10/doc-iniaxeiv1342612.shtml · https://m.thepaper.cn/newsDetail_forward_33347540",
-  "unsure": "Pin = Viertel „BeiCang Cultural and Creative District“ laut OpenStreetMap (ungefähr); im Navi „北仓图书馆“ oder „北仓文创街区“ suchen. Einzelne Läden/Öffnungszeiten nicht geprüft."
+  "unsure": "Pin = Viertel „BeiCang Cultural and Creative District“ laut OpenStreetMap (ungefähr); im Navi „北仓图书馆“ oder „北仓文创街区“ suchen. Einzelne Läden/Öffnungszeiten nicht geprüft.",
+  "kind": "sight"
+ },
+ {
+  "name": "Liziba Viewing Platform 李子坝站观景平台",
+  "lat": 29.55667,
+  "lng": 106.53441,
+  "approx": false,
+  "district": "Yuzhong, Chongqing",
+  "cat": "",
+  "note": "Der beste Standpunkt für den Zug durchs Haus: die offizielle Aussichtsplattform 李子坝站观景平台 an der Straße gegenüber dem Wohnhaus (Liziba Zhengjie 李子坝正街) – man sieht die Bahn komplett aus dem Haus fahren. Metro Linie 2, Station Liziba 李子坝, Ausgang 1 führt direkt zur Plattform (Betrieb ca. 6:00–22:30, laut Reisebericht). Züge alle 3–6 Min. Tipps: Wochentags früh am leersten (am Wochenende dicht gedrängt). Mitzieher 1/30–1/60 s, 70–200 mm; für den Zug im Haus 1/500 s; von der Treppe oberhalb mit 24 mm über die Köpfe. Abends Stativ, 16–35 mm, f/8, ISO 100, 8–20 s, erst auslösen wenn der Zug ins Haus einfährt. Weitere Standpunkte: von der Treppe der Plattform nach oben, vom Fußweg zum Kriegsdenkmal-Park 李子坝抗战遗址公园 (ca. 10 Min.) und – für „Zug-essen“-Perspektive mit sehr langem Tele (200+ mm) – vom Ufer der Jiangbei-Seite an der 北滨一路 (ca. 550 m über den Jialing, Plattform nicht bestätigt).",
+  "source": "https://sg.trip.com/guide/attraction/liziba-station.html · https://english.cq.gov.cn/specials/explore/PhotoPerfectSpots/202608/t20260810_15912642.html · OpenStreetMap (Pin)"
  }
 ]

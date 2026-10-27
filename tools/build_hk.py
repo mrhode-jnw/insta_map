@@ -187,13 +187,13 @@ for name, q, district, cat, pop, reason, wiki, note in CLAUDE_SPOTS:
 for e in bp.load_json(os.path.join(ROOT, "hk", "extra_spots.json"), []):
     src = e.get("source", "Time Out Hong Kong, Mai 2024")
     places.append({
-        "id": spot_id(e["name"]), "name": e["name"], "district": e["district"], "category": e["cat"],
+        "id": spot_id(e["name"]), "name": e["name"], "district": e["district"], "category": e.get("cat", ""),
         "note": e.get("note", ""), "tip": e.get("tip", ""), "address": e["district"], "lat": e["lat"], "lng": e["lng"],
         "approx": e.get("approx", False), "image": e.get("image"), "caption": "", "post_url": "", "username": "",
         "profile_url": "", "posts": [], "pop": e.get("pop"), "pop_reason": e.get("reason", ""),
         "image_page": e.get("url", "https://www.timeout.com/hong-kong/things-to-do/hong-kong-neon-signs"),
         "image_credit": src, "source": src,
-        **({"ok": e["ok"]} if e.get("ok") else {}), **({"unsure": e["unsure"]} if e.get("unsure") else {}),
+        **({"ok": e["ok"]} if e.get("ok") else {}), **({"unsure": e["unsure"]} if e.get("unsure") else {}), **({"kind": e["kind"]} if e.get("kind") else {}),
     })
 
 # Spots ohne eigenes Foto: Ersatzfoto von Wikimedia Commons (hk/photo_overrides.json, Name → Bild + Quelle)

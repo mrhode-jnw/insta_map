@@ -75,7 +75,8 @@
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
   #list .d { margin-left: auto; color: var(--me); font-size: 13px; white-space: nowrap; }
   #empty { padding: 16px; color: var(--muted); }
-  #chips { display: flex; gap: 6px; overflow-x: auto; padding-top: 8px; scrollbar-width: none; }
+  #chips { display: none !important; }
+  #chips0 { display: flex; gap: 6px; overflow-x: auto; padding-top: 8px; scrollbar-width: none; }
   #chips::-webkit-scrollbar { display: none; }
   #chips button { flex: none; border: 1px solid var(--line); background: transparent; color: var(--fg);
     border-radius: 999px; padding: 5px 11px; font-size: 13px; cursor: pointer; }
@@ -244,6 +245,10 @@
   .ic .itm.moved { color: #f59e0b; }
   .ilate { display: inline-block; max-width: 100%; white-space: normal; margin: 0 0 8px; padding: 3px 9px; border-radius: 999px; background: rgba(245,158,11,.18); color: #f59e0b; font-size: 12.5px; font-weight: 600; }
   .b-opt { background: #f3e8ff; color: #6b21a8; }
+  .kindsw { display: flex; gap: 6px; margin: 6px 0; }
+  .kindsw button { flex: 1; border: 1px solid var(--line); background: transparent; color: var(--fg); border-radius: 12px; padding: 9px 10px; font: inherit; font-weight: 600; cursor: pointer; }
+  #chips2 button#fIdeas.only { background: #f59e0b; border-color: #f59e0b; color: #fff; }
+  #addDlg .kindsw button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
   .b-fav { background: rgba(225,29,72,.18); color: #e11d48; font-weight: 700; }
   html:not([data-theme="light"]) .b-fav { color: #fb7185; }
   .icard.fav { box-shadow: inset 3px 0 0 #e11d48; }
@@ -1056,7 +1061,7 @@
 <div id="scale" aria-hidden="true"><b></b><span></span></div>
 <div id="group" role="tablist" aria-label="Bereich">
   <button class="where" id="whereBtn" type="button" aria-label="Bereich wählen"><span id="whereLbl">🧭 Route</span></button>
-  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-g="ideen">✷ <span class="gf">Fotoideen</span><span class="gs">Ideen</span></button><button data-nltop title="Posts ohne genauen Ort">📍<span class="gf"> Ohne Ort</span></button>
+  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="sights" title="Sehenswürdigkeiten, Altstädte, Essen, Erlebnisse – nicht primär zum Fotografieren">🎒 Erlebnisse</button><button data-nltop title="Posts ohne genauen Ort">📍<span class="gf"> Ohne Ort</span></button>
 </div>
 <div id="dockbg"></div>
 <nav id="dock" aria-label="Bereiche">
@@ -1086,7 +1091,9 @@
     <ul id="addResults"></ul>
     <div id="addPos">Ort suchen oder lange auf die Karte tippen.</div>
     <input id="addName" placeholder="Name des Spots" required>
-    <select id="addCat"></select>
+    <div id="addKind" class="kindsw" role="radiogroup" aria-label="Art des Spots">
+      <button type="button" data-k="" class="on" role="radio" aria-checked="true">📷 Foto-Spot</button><button type="button" data-k="sight" role="radio" aria-checked="false">🎒 Erlebnis</button>
+    </div>
     <textarea id="addNote" placeholder="Notiz (optional)"></textarea>
     <input id="addLink" type="url" placeholder="Instagram-Link (optional)">
     <div id="tokenRow" hidden>
@@ -1110,7 +1117,8 @@
     </div>
     <div id="chips"></div>
     <div id="chips2">
-      <button type="button" id="filterSw" title="Alle Filter auf einmal aus- bzw. wieder einschalten">Filter aus</button>
+      <button type="button" id="filterSw" title="Alle Filter löschen">Filter aus</button>
+      <button type="button" id="fIdeas" title="Foto-Ideen von Claude: aus → zusätzlich einblenden → nur Ideen (mehrfach tippen)">✷ Fotoideen</button>
       <select id="fDone" aria-label="Fotografiert">
         <option value="">📷 Alle</option><option value="open">📷 Nicht fotografiert</option><option value="done">📷 Fotografiert</option>
       </select>
@@ -1550,7 +1558,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${PLAN_AT[p.id] ? `<div class="kick">★ ${esc(PLAN_AT[p.id].long)}</div>` : ""}
         <h3>${esc(p.name)}</h3>
         <div class="mline">${p.idea ? `<span class="mtag cl" style="background:#f59e0b;color:#fff" title="Ungewöhnliche Foto-Idee – von Claude recherchiert">✷ Fotoidee</span>` : ""}${p.rain ? `<span class="mtag" style="background:#0ea5e9;color:#fff" title="Funktioniert gut bei Regen">🌧 Regen</span>` : ""}${p.by_claude ? `<span class="mtag cl" title="Nicht aus deiner Sammlung – von Claude als beliebter Spot ergänzt">✦ Claude-Tipp</span>` : ""}${p.mine ? `<span class="mtag">★ Eigener Spot</span>` : ""}${
-          [p.category, p.district, WHEN_LABEL[p.when] || "", routeLabel(p), p.pop ? `🔥 ${p.pop}/5` : "", here() ? `📍 ${fmt(dist(me, p))}` : ""].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join(" ")}</div>
+          [p.district, WHEN_LABEL[p.when] || "", routeLabel(p), p.pop ? `🔥 ${p.pop}/5` : "", here() ? `📍 ${fmt(dist(me, p))}` : ""].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join(" ")}</div>
         ${lightBox(p)}
         ${fcHtml(p.id, null, true) || areaWx(p)}
         <div class="status sv2" data-id="${esc(p.id)}">
@@ -1561,6 +1569,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
             <button class="pmore" aria-label="Mehr" title="Priorität, Tour, Fotos hinzufügen …">⋯</button>
           </div>
           <div class="more"${moreOpen ? "" : " hidden"}>
+            <div class="mlab">Art</div>
+            <div class="seg2 kind">${[["photo", "📷 Foto"], ["sight", "🎒 Erlebnis"]].map(([k, l]) => `<button data-kind="${k}" class="${(isSight(p) ? "sight" : "photo") === k ? "on" : ""}">${l}</button>`).join("")}</div>
             <div class="mlab">Priorität</div>
             <div class="seg2 prio">${PRIOS.map(k => `<button data-prio="${k}" class="${st(p.id).prio === k ? "on" : ""}"${k === "nein" ? ' title="Kein Interesse – wird ausgeblendet" aria-label="Kein Interesse"' : ""}>${k === "nein" ? "🚫" : PRIO_LABEL[k]}</button>`).join("")}</div>
             <div class="links">
@@ -1978,12 +1988,27 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Oberste Ebene: Bereich (Fotos / Food); Kategorien darunter gehören zum gewählten Bereich
   // Fotos/Food = deine Spots aus der Sammlung (+ eigene); Tipps = von Claude ergänzte Spots
   const unplacedAll = [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])];
-  const GROUPS = { food: p => !p.idea && !p.by_claude && p.category === "Food", fotos: p => !p.idea && !p.by_claude && p.category !== "Food", claude: p => !p.idea && p.by_claude, ideen: p => !!p.idea };
+  // Fotos = Fotospots (Instagram-Sammlung, eigene Foto-Spots); Erlebnisse = Claude-Tipps, eigene Erlebnis-Spots („kind: sight“) und Food – Reiseerlebnis statt Fotografie.
+  // Fotoideen sind kein Bereich oben, sondern ein eigener Filter unten (standardmäßig aus).
+  const naturalSight = p => p.kind === "sight" || !!p.by_claude || p.category === "Food";
+  const isSight = p => { const k = st(p.id).kind; return k ? k === "sight" : naturalSight(p); };  // k: von dir nachträglich gewählt (Foto / Erlebnis)
+  const GROUPS = { fotos: p => !p.idea && !isSight(p), sights: p => !p.idea && isSight(p) };
   // Fotos / Food / Tipps frei kombinierbar (Mehrfachauswahl, wird gemerkt); nichts gewählt = alles
   let groups = new Set(["fotos"]);
-  try { const g = JSON.parse(localStorage.getItem("groups") || "null"); if (Array.isArray(g)) groups = new Set(g.filter(x => GROUPS[x])); } catch {}
+  try { const g = JSON.parse(localStorage.getItem("groups") || "null");  // alte Bereiche Tipps/Food → Erlebnisse, Ideen → Filter unten
+    if (Array.isArray(g)) groups = new Set(g.map(x => x === "claude" || x === "food" ? "sights" : x).filter(x => GROUPS[x])); } catch {}
+  // Fotoideen-Knopf, mehrfach tippen: 0 = aus (Standard) → 1 = zusätzlich zu den Spots → 2 = nur Ideen
+  let ideasMode = 0; try { ideasMode = Math.min(2, +localStorage.getItem("ideasOn") || 0); } catch {}
+  let ideasOn = ideasMode > 0, ideasOnly = ideasMode === 2;
+  const IDEAS_LBL = ["✷ Fotoideen", "✷ + Fotoideen", "✷ Nur Ideen"];
+  const setIdeas = m => { ideasMode = m === true ? 1 : +m || 0; ideasOn = ideasMode > 0; ideasOnly = ideasMode === 2;
+    try { localStorage.setItem("ideasOn", String(ideasMode)); } catch {}
+    const b = $("#fIdeas"); b.classList.toggle("on", ideasOn); b.classList.toggle("only", ideasOnly); b.textContent = IDEAS_LBL[ideasMode]; };
+  setIdeas(ideasMode);
   const saveGroups = () => { try { localStorage.setItem("groups", JSON.stringify([...groups])); } catch {} };
-  const inGroups = p => !groups.size || [...groups].some(g => GROUPS[g](p));
+  // Fotoideen folgen der Auswahl oben: nur Erlebnisse gewählt → nur Ideen, die als Erlebnis eingeordnet sind (und umgekehrt)
+  const kindOK = p => !groups.size || [...groups].some(g => (g === "sights") === isSight(p));
+  const inGroups = p => p.idea ? ideasOn && kindOK(p) : !ideasOnly && kindOK(p);
   // Bereich oben links: 🧭 Route (nur Spots an unserer Route) oder frei kombinierbare Regionen der Reise (Mehrfachauswahl)
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
   const SUBS = [["hk", "🇭🇰 Hongkong"], ["sz", "Shenzhen"], ["gl", "Guilin · Yangshuo · Longji"], ["gz", "Guizhou · Fenghuang"],
@@ -2029,8 +2054,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   function showWhere() {
     $("#whereLbl").textContent = whereLabel();
-    $("#group").querySelectorAll("[data-g=food],[data-g=claude],[data-g=ideen]").forEach(x =>
-      x.hidden = !places.some(p => inScope(p) && GROUPS[x.dataset.g](p)));
+    $("#group").querySelectorAll("[data-g=sights]").forEach(x => x.hidden = !places.some(p => inScope(p) && GROUPS.sights(p)));
+    { const b = $("#fIdeas"); if (b) b.hidden = !places.some(p => p.idea && inScope(p)); }
   }
   function setWhere(route, newRegs, fit = true) {
     routeF = route; if (newRegs) regs = new Set(newRegs);
@@ -2137,7 +2162,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const FILTERS = {
     fDone: v => { doneF = v || null; },
     fPrio: v => { prioF.clear(); if (v) v.split(",").forEach(x => prioF.add(x)); },
-    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; rainF = v === "rain"; },
+    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; rainF = v === "rain"; if (rainF && !ideasOn) setIdeas(1); },
     fWhen: v => { whenF = v || null; },
   };
   Object.entries(FILTERS).forEach(([id, apply]) => {
@@ -2167,42 +2192,22 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     renderList();
     if (view === "grid" && sheetSnap === "peek") setSnap("full");
   });
-  const allCats = () => [...new Set(places.filter(inGroup).map(p => p.category).filter(Boolean))].sort();
-  function renderChips() {
-    const cats = allCats();
-    if (places.some(p => p.mine)) cats.unshift("★ Meine");
-    if (cat && cat !== "★ Meine" && !cats.includes(cat)) cat = null;  // gespeicherte Kategorie gibt es hier nicht
-    $("#chips").innerHTML = cats.length > 1 ? ["Alle", ...cats].map((c, i) =>
-      `<button class="${(i ? c === cat : !cat) ? "on" : ""}" data-cat="${i ? esc(c) : ""}">${esc(c)}</button>`).join("") : "";
-  }
-  $("#chips").addEventListener("click", e => {
-    const b = e.target.closest("button"); if (!b) return;
-    cat = b.dataset.cat || null; saveCat();
-    renderChips(); renderList();
-  });
+  // Kategorien (Architektur, Aussicht …) gibt es nicht mehr als Filter und werden nicht mehr gepflegt
+  function renderChips() { if (cat) { cat = null; saveCat(); } $("#chips").innerHTML = ""; }
   renderChips();
   // Der gerade geöffnete Spot bleibt sichtbar, auch wenn er durch Bewerten nicht mehr zum Filter passt
   let stickyId = null;
   // Schalter: alle Filter auf einmal aus bzw. den gemerkten Stand wieder an
-  let filterSnap = null;
   const setSel = (id, v) => { const el = $("#" + id); el.value = v; el.classList.toggle("on", !!v); FILTERS[id](v); };
-  const filtersActive = () => !!($("#fDone").value || $("#fPrio").value || $("#fWhen").value || $("#fMore").value || areaF || $("#search").value.trim() || cat || inView);
-  const syncFilterSw = () => { const b = $("#filterSw"); if (!b) return; b.textContent = filterSnap ? "Filter an" : "Filter aus"; b.classList.toggle("on", !!filterSnap); b.disabled = !filterSnap && !filtersActive(); };
+  $("#fIdeas").addEventListener("click", () => { setIdeas((ideasMode + 1) % 3); renderChips(); renderList(); syncFilterSw(); });
+  const filtersActive = () => !!(ideasOn || $("#fDone").value || $("#fPrio").value || $("#fWhen").value || $("#fMore").value || areaF || $("#search").value.trim() || cat || inView);
+  // „Filter aus“ löscht immer alle Filter (kein Merken, kein Zurück)
+  const syncFilterSw = () => { const b = $("#filterSw"); if (!b) return; b.textContent = "Filter aus"; b.classList.remove("on"); b.disabled = !filtersActive(); };
   $("#filterSw").addEventListener("click", () => {
-    if (filterSnap) {
-      const s = filterSnap; filterSnap = null;
-      ["fDone", "fPrio", "fWhen", "fMore"].forEach(id => setSel(id, s[id]));
-      areaF = s.area; try { localStorage.setItem("areaF", areaF); } catch {}
-      $("#search").value = s.search;
-      cat = s.cat; saveCat(); renderChips();
-      inView = s.inView; try { localStorage.setItem("inView2", inView ? "1" : "0"); } catch {}
-    } else {
-      filterSnap = { fDone: $("#fDone").value, fPrio: $("#fPrio").value, fWhen: $("#fWhen").value, fMore: $("#fMore").value, area: areaF, search: $("#search").value, cat, inView };
-      ["fDone", "fPrio", "fWhen", "fMore"].forEach(id => setSel(id, ""));
-      areaF = ""; try { localStorage.setItem("areaF", ""); } catch {}
-      $("#search").value = ""; cat = null; saveCat(); renderChips();
-      inView = false; try { localStorage.setItem("inView2", "0"); } catch {}
-    }
+    ["fDone", "fPrio", "fWhen", "fMore"].forEach(id => setSel(id, ""));
+    areaF = ""; try { localStorage.setItem("areaF", ""); } catch {}
+    $("#search").value = ""; setIdeas(0); cat = null; saveCat(); renderChips();
+    inView = false; try { localStorage.setItem("inView2", "0"); } catch {}
     renderList(); syncFilterSw();
   });
   const matches = p => p.id === stickyId || matchesFilter(p);
@@ -2923,9 +2928,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const nm = esc(p ? shortName(p.name) : e.name ? shortName(e.name) : "");
       let title, sub, icon;
       switch (e.k) {
-        case "new": title = `<span class="tag new">NEU</span>${nm}`; sub = p ? [p.category, p.district].filter(Boolean).join(" · ") : "Spot"; icon = "📍"; break;
+        case "new": title = `<span class="tag new">NEU</span>${nm}`; sub = p ? [p.district].filter(Boolean).join(" · ") : "Spot"; icon = "📍"; break;
         case "mine": title = `<span class="tag mine">EIGEN</span>${nm}`; sub = "Eigener Spot angelegt"; icon = "★"; break;
-        case "photo": title = `<span class="tag photo">+${e.n} ${e.n === 1 ? "FOTO" : "FOTOS"}</span>${nm}`; sub = p ? [p.category, p.district].filter(Boolean).join(" · ") : ""; icon = "📷"; break;
+        case "photo": title = `<span class="tag photo">+${e.n} ${e.n === 1 ? "FOTO" : "FOTOS"}</span>${nm}`; sub = p ? [p.district].filter(Boolean).join(" · ") : ""; icon = "📷"; break;
         case "plan": title = `<span class="tag plan">PLAN</span>Reiseplan geändert`; sub = (e.text || "").replace(/^Reiseplan:?\s*/, ""); icon = "📅"; break;
         case "insp": title = `<span class="tag insp">+${e.n}</span>Inspiration: neue ${e.n === 1 ? "Post" : "Posts"}`; sub = (e.regions || []).map(r => INSP_REG[r] || r).join(", "); icon = "💡"; break;
         case "loc": title = e.status === "found" ? (e.mode === "new" ? `<span class="tag new">NEUER SPOT</span>${nm || "Spot"}` : `<span class="tag photo">FOTO ERGÄNZT</span>${nm || "Spot"}`) : `<span class="tag" style="background:#92400e">NICHT GEFUNDEN</span>Ort unklar`; sub = e.note || ""; icon = "🔎"; break;
@@ -3147,7 +3152,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ${p.image ? `<div class="ihero" data-lb="${k}" data-i="0"><img src="${esc(p.image)}" alt="" loading="lazy">${imgs.length > 1 ? `<span class="icount">1/${imgs.length}</span>` : ""}</div>` : ""}
       ${imgs.length > 1 ? `<div class="ithumbs">${imgs.slice(1, 9).map((src, i) => `<img src="${esc(src)}" alt="" loading="lazy" data-lb="${k}" data-i="${i + 1}">`).join("")}</div>` : ""}
       <div class="ib"><h3>${esc(p.name)}</h3>
-        <div class="ibadges">${st(p.id).fav ? `<span class="b-fav">❤ Favorit</span>` : ""}${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}${kind}${p.category ? `<span class="b-hotel" style="background:rgba(148,163,184,.2);color:inherit">${esc(p.category)}</span>` : ""}</div>
+        <div class="ibadges">${st(p.id).fav ? `<span class="b-fav">❤ Favorit</span>` : ""}${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}${kind}</div>
         ${lightHtml(it)}
         ${fcHtml(p.id, date)}
         ${it.text ? `<p>${esc(it.text)}</p>` : ""}
@@ -3360,7 +3365,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "123 · Karte in China wieder drehbar";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "131 · Art (Foto/Erlebnis) unter den drei Punkten";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3556,7 +3561,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     syncFilterSw();
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = favF || trashF || rainF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = ideasOn || favF || trashF || rainF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${p.rain ? `<span title="Gut bei Regen">🌧 </span>` : ""}${s.fav && !p.idea ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
@@ -3574,7 +3579,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}${sleepBadge(p)}
           <div class="badge">${s.fav && !p.idea ? "<span class=\"fav-badge\">❤</span>" : ""}${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
           ${p.idea ? `<button class="ifav g${st(p.id).fav ? " on" : ""}" data-ifav="${esc(p.id)}" aria-label="Fotoidee favorisieren">${st(p.id).fav ? "❤" : "♡"}</button><button class="irej g" data-irej="${esc(p.id)}" aria-label="Fotoidee ablehnen">✕</button>` : ""}
-          <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : ""].filter(Boolean).join(" · "))}${here() ? ` · <span class="dist">${fmt(p._d)}</span>` : ""}</small></div>
+          <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.pop ? "🔥" + p.pop : ""].filter(Boolean).join(" · "))}${here() ? ` · <span class="dist">${fmt(p._d)}</span>` : ""}</small></div>
         </li>`; }).join("") : noloc ? "" : `<li id="empty">Keine Treffer.</li>`));
       return;
     }
@@ -3582,7 +3587,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <li data-id="${esc(p.id)}">
         <span class="th">${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}${sleepBadge(p)}</span>
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
-          ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${(sortBy === "new" || sortBy === "upd") && addedLbl(p, sortBy === "upd" ? 1 : 0) ? `<span class="new">${addedLbl(p, sortBy === "upd" ? 1 : 0)}</span> · ` : ""}${esc([p.category, p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
+          ${(p.category || p.district) ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${(sortBy === "new" || sortBy === "upd") && addedLbl(p, sortBy === "upd" ? 1 : 0) ? `<span class="new">${addedLbl(p, sortBy === "upd" ? 1 : 0)}</span> · ` : ""}${esc([p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
         ${here() ? `<div class="d"><span class="dist">${fmt(p._d)}</span></div>` : ""}
         ${p.idea ? `<button class="ifav${st(p.id).fav ? " on" : ""}" data-ifav="${esc(p.id)}" aria-label="Fotoidee favorisieren" title="Favorit – wird oben angezeigt">${st(p.id).fav ? "❤" : "♡"}</button><button class="irej" data-irej="${esc(p.id)}" aria-label="Fotoidee ablehnen" title="Ablehnen – wird ausgeblendet">✕</button>` : ""}
       </li>`).join("")
@@ -3664,8 +3669,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     // entweder Liste offen oder Leiste – nach der tatsächlichen Höhe der Liste (auch beim Ziehen)
     try { document.body.classList.toggle("dock-auto", mobile() && y < snapY("peek") - 30); } catch {}
   }
+  // Nach dem Öffnen/Verschieben der Übersicht keine Klicks auf die Liste annehmen: der „Nach-Klick“ vom Antippen/Hochziehen
+  // (iOS) landet sonst auf dem Spot, der gerade unter dem Finger liegt, und öffnet ihn ungewollt als Karte
+  let snapAt = 0;
+  sheet.addEventListener("click", e => { if (performance.now() - snapAt < 700 && e.target.closest("#list")) { e.stopPropagation(); e.preventDefault(); } }, true);
   function setSnap(name, animate = true) {
-    sheetSnap = name;
+    snapAt = performance.now(); sheetSnap = name;
     if (!mobile()) { sheet.style.transform = ""; return; }
     moveTo(snapY(name), animate);
   }
@@ -3704,6 +3713,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   });
   const headEnd = () => {
     if (!hd) return;
+    snapAt = performance.now();
     if (hd.moved) hd.t.end(); else setSnap(sheetSnap === "peek" ? "half" : "peek");
     hd = null;
   };
@@ -3722,7 +3732,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (!ld.t && ld.top && listEl.scrollTop <= 0 && dy > 8) { ld.t = tracker(ld.y0, snapY(sheetSnap)); }
     if (ld.t) { e.preventDefault(); ld.t.move(cy); }
   }, { passive: false });
-  listEl.addEventListener("touchend", () => { if (ld && ld.t) ld.t.end(); ld = null; });
+  listEl.addEventListener("touchend", () => { if (ld && ld.t) { snapAt = performance.now(); ld.t.end(); } ld = null; });
   listEl.addEventListener("touchcancel", () => { if (ld && ld.t) ld.t.end(); ld = null; });
   // nur echte Größenänderungen (Drehen, Tastatur) – nicht das Ein-/Ausblenden der Safari-Leisten beim Scrollen
   let lastW = innerWidth, lastH = innerHeight;
@@ -4011,11 +4021,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       return (await r.json()).display_name || "";
     } catch { return ""; }
   }
+  const setAddKind = k => $("#addKind").querySelectorAll("button").forEach(b => { const on = b.dataset.k === k; b.classList.toggle("on", on); b.setAttribute("aria-checked", on); });
+  $("#addKind").addEventListener("click", e => { const b = e.target.closest("button[data-k]"); if (b) setAddKind(b.dataset.k); });
+  const addKind = () => { const b = $("#addKind button.on"); return b ? b.dataset.k : ""; };
   function openAdd(latlng) {
     dlg.hidden = false; setSnap("peek");
-    const pre = groups.size === 1 && groups.has("food") ? "Food" : "Eigene";
-    $("#addCat").innerHTML = [...new Set([...places.map(p => p.category).filter(Boolean).sort(), "Food", "Eigene"])]
-      .map(c => `<option${c === pre ? " selected" : ""}>${esc(c)}</option>`).join("");
+    setAddKind("");  // Standard: Foto-Spot
     $("#tokenRow").hidden = !!store.get(TOKEN_KEY);
     $("#addErr").textContent = "";
     if (latlng) { setDraft(latlng); map.panTo(latlng); }
@@ -4072,8 +4083,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (tok) store.set(TOKEN_KEY, tok);
     if (!store.get(TOKEN_KEY)) { $("#tokenRow").hidden = false; $("#addErr").textContent = "GitHub-Token fehlt."; return; }
     const ll = draft.getLatLng();
-    const spot = { id: "my-" + Date.now().toString(36), name: $("#addName").value.trim(), category: $("#addCat").value,
-      note: $("#addNote").value.trim(), link: $("#addLink").value.trim(), address: draftAddr,
+    const spot = { id: "my-" + Date.now().toString(36), name: $("#addName").value.trim(), category: "Eigene",
+      note: $("#addNote").value.trim(), link: $("#addLink").value.trim(), address: draftAddr, ...(addKind() ? { kind: addKind() } : {}),
       lat: +ll.lat.toFixed(6), lng: +ll.lng.toFixed(6), created: new Date().toISOString() };
     $("#addSave").disabled = true; $("#addErr").textContent = "Speichere …";
     try {
@@ -4130,6 +4141,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (!next.done) delete next.done;
     if (!next.fav) delete next.fav;
     if (!next.hidden) delete next.hidden;
+    if (!next.kind) delete next.kind;
     if (Object.keys(next).length) status[id] = next; else delete status[id];
     pending[id] = status[id] || null;
     const p = places.find(x => x.id === id), m = markers.get(id);
@@ -4165,6 +4177,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       setStatus(id, { prio });
       if (prio === "nein") toast("🚫 Kein Interesse – wird ab jetzt ausgeblendet (Filter „🚫 Kein Interesse“ zeigt sie wieder)", 3500);
       box.querySelectorAll("button[data-prio]").forEach(x => x.classList.toggle("on", x.dataset.prio === prio));
+    });
+    box.querySelectorAll("button[data-kind]").forEach(b => b.onclick = () => {
+      const p = places.find(x => x.id === id); if (!p) return;
+      const k = b.dataset.kind, nat = naturalSight(p) ? "sight" : "photo";
+      setStatus(id, { kind: k === nat ? null : k });
+      box.querySelectorAll("button[data-kind]").forEach(x => x.classList.toggle("on", x.dataset.kind === k));
+      toast(k === "sight" ? "🎒 Jetzt unter „Erlebnisse“" : "📷 Jetzt unter „Fotos“", 1800);
     });
     const fav = box.querySelector("button[data-fav]");
     if (fav) fav.onclick = () => { const v = !st(id).fav, up = v && st(id).prio !== "hoch";  // Favorit → Priorität automatisch hoch
@@ -4251,7 +4270,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       try { v = (await navigator.clipboard.readText()).trim(); } catch { v = ""; }
       if (!linkKind(firstUrl(v))) { toast("Kein Link in der Zwischenablage.", 4500); return; }
     }
-    if (await addToInbox(v, $("#impWhere").value)) { $("#impLink").value = ""; $("#impWhere").value = ""; closeAdd(); }
+    if (await addToInbox(v, $("#impWhere").value, addKind() ? { kind_spot: addKind() } : null)) { $("#impLink").value = ""; $("#impWhere").value = ""; closeAdd(); }
   });
   // Teilen-Menü / Kurzbefehl: …/insta_map/?add=<Link> (Instagram, Google Maps, OSM, Locationscout)
   (() => {
