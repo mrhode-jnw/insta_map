@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#4dc6d3">
+<title>journaway · Japan Rundreise</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+<style>
+  :root {
+    --primary: #4dc6d3; --primary-dark: #2a9aa8; --primary-soft: #e6f7f9;
+    --ink: #282828; --muted: #6b7075; --line: #e6e8ea; --bg: #f6f8f9; --card: #fff;
+    --lime: #dae863; --purple: #1f0e32; --radius: 18px; --shadow: 0 4px 18px rgba(31,14,50,.08);
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  a { color: var(--primary-dark); }
+
+  header { background: var(--primary); color: var(--purple); padding: calc(env(safe-area-inset-top) + 14px) 18px 22px; border-radius: 0 0 26px 26px; }
+  .logo { display: block; width: 128px; height: 28px; background: var(--purple);
+    -webkit-mask: url(logo.svg) no-repeat left center / contain; mask: url(logo.svg) no-repeat left center / contain; }
+  header h1 { margin: 14px 0 2px; font-size: 26px; line-height: 1.15; }
+  header p { margin: 0; font-weight: 500; opacity: .85; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .chip { background: rgba(255,255,255,.7); border-radius: 99px; padding: 3px 11px; font-size: 13px; font-weight: 600; }
+  .datebox { margin-top: 14px; background: #fff; border-radius: 14px; padding: 10px 12px; display: flex; gap: 10px; align-items: center; justify-content: space-between; font-size: 14px; }
+  .datebox input { border: 1px solid var(--line); border-radius: 10px; padding: 6px 8px; font: inherit; color: var(--ink); background: #fff; }
+
+  main { padding: 16px 16px calc(env(safe-area-inset-bottom) + 96px); max-width: 760px; margin: 0 auto; }
+  .tab { display: none; } .tab.on { display: block; }
+
+  nav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1000; background: #fff; border-top: 1px solid var(--line);
+    display: flex; padding: 6px 6px calc(env(safe-area-inset-bottom) + 6px); }
+  nav button { flex: 1; border: 0; background: none; padding: 6px 0; display: flex; flex-direction: column; align-items: center; gap: 1px; font-size: 12px; color: var(--muted); font-weight: 600; }
+  nav button span { font-size: 21px; line-height: 1.2; filter: grayscale(1); opacity: .7; }
+  nav button.on { color: var(--primary-dark); } nav button.on span { filter: none; opacity: 1; }
+
+  /* Tagesauswahl */
+  .daybar { display: flex; gap: 8px; overflow-x: auto; padding: 2px 0 12px; scrollbar-width: none; position: sticky; top: 0; background: var(--bg); z-index: 5; margin: 0 -16px; padding-left: 16px; padding-right: 16px; }
+  .daybar::-webkit-scrollbar { display: none; }
+  .dbtn { flex: none; border: 1.5px solid var(--line); background: #fff; border-radius: 14px; padding: 6px 12px; text-align: center; min-width: 54px; line-height: 1.2; }
+  .dbtn b { display: block; font-size: 16px; } .dbtn small { color: var(--muted); font-size: 11px; }
+  .dbtn.on { background: var(--purple); border-color: var(--purple); color: #fff; } .dbtn.on small { color: var(--lime); }
+  .dbtn.today { border-color: var(--primary); }
+
+  .card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; margin-bottom: 14px; }
+  .dayhead .city { display: inline-block; font-size: 12px; font-weight: 700; color: #fff; border-radius: 99px; padding: 2px 10px; margin-bottom: 6px; }
+  .dayhead h2 { margin: 0 0 4px; font-size: 22px; line-height: 1.2; }
+  .dayhead .date { color: var(--muted); font-size: 14px; margin-bottom: 8px; }
+  .dayhead p { margin: 8px 0 0; }
+  .info { background: var(--primary-soft); border-radius: 12px; padding: 9px 12px; margin-top: 10px; font-size: 14px; display: flex; gap: 8px; }
+  .hotelcard { display: flex; gap: 12px; align-items: center; margin-top: 12px; padding: 10px 12px; border: 1px dashed var(--primary); border-radius: 14px; font-size: 14px; }
+  .hotelcard .ic { font-size: 24px; }
+
+  h3 { margin: 22px 2px 10px; font-size: 14px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+  .timeline { position: relative; margin: 0; padding: 0; list-style: none; }
+  .stop { position: relative; display: flex; gap: 12px; padding: 0 0 12px; }
+  .stop::before { content: ""; position: absolute; left: 15px; top: 34px; bottom: -2px; width: 2px; background: var(--primary); opacity: .45; }
+  .stop:last-child::before { display: none; }
+  .num { flex: none; width: 32px; height: 32px; border-radius: 50%; background: var(--primary); color: var(--purple); font-weight: 800; display: grid; place-items: center; z-index: 1; }
+  .stop.tip .num { background: #fff; border: 2px dashed var(--primary-dark); color: var(--primary-dark); }
+  .stopbody { flex: 1; background: #fff; border-radius: 14px; box-shadow: var(--shadow); padding: 12px 14px; min-width: 0; }
+  .stop.tip .stopbody { background: #fbfdf2; border: 1.5px dashed var(--lime); box-shadow: none; }
+  .stopbody h4 { margin: 0; font-size: 16px; line-height: 1.3; }
+  .time { font-size: 12px; font-weight: 700; color: var(--primary-dark); text-transform: uppercase; letter-spacing: .04em; }
+  .stopbody p { margin: 4px 0 0; font-size: 14px; color: #444; }
+  .note { font-size: 13px; color: var(--muted); font-style: italic; margin-top: 4px !important; }
+  .badge { display: inline-block; font-size: 11px; font-weight: 800; background: var(--lime); color: var(--purple); border-radius: 99px; padding: 1px 8px; margin-left: 6px; vertical-align: 2px; }
+  .actions { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+  .btn { border: 0; background: var(--primary); color: var(--purple); font-weight: 700; border-radius: 99px; padding: 8px 16px; text-decoration: none; font-size: 14px; display: inline-block; }
+  .btn.ghost { background: var(--primary-soft); color: var(--primary-dark); }
+  .btn.lime { background: var(--lime); color: var(--purple); }
+  .daynav { display: flex; justify-content: space-between; margin-top: 8px; }
+
+  /* Karte */
+  #mapwrap { position: relative; height: 68vh; min-height: 420px; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+  #map { position: absolute; inset: 0; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; }
+  .pill { border: 1.5px solid var(--line); background: #fff; border-radius: 99px; padding: 5px 13px; font-size: 14px; font-weight: 600; }
+  .pill.on { background: var(--purple); color: #fff; border-color: var(--purple); }
+  .pin { width: 28px; height: 28px; border-radius: 50% 50% 50% 4px; transform: rotate(-45deg); border: 2.5px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.35); display: grid; place-items: center; }
+  .pin i { transform: rotate(45deg); font-style: normal; font-size: 12px; font-weight: 800; color: #fff; }
+  .pin.tip { background: var(--lime) !important; border: 2.5px dashed var(--purple); } .pin.tip i { color: var(--purple); }
+  .pin.hotel { border-radius: 8px; transform: none; } .pin.hotel i { transform: none; font-size: 14px; }
+  .leaflet-popup-content { font: 14px/1.4 system-ui, sans-serif; margin: 12px 14px; }
+  .leaflet-popup-content b { font-size: 15px; }
+
+  /* Tipps */
+  .tipcard { display: flex; gap: 12px; align-items: flex-start; }
+  .tipcard .ic { flex: none; width: 40px; height: 40px; border-radius: 12px; background: var(--primary-soft); display: grid; place-items: center; font-size: 20px; }
+  .tipcard h4 { margin: 0; font-size: 16px; } .tipcard p { margin: 3px 0 0; font-size: 14px; color: #444; }
+  .tipcard .where { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .tipcard.tipx { background: #fbfdf2; border: 1.5px dashed var(--lime); box-shadow: none; }
+  .tipcard.tipx .ic { background: var(--lime); }
+
+  /* Infos */
+  ul.check { list-style: none; padding: 0; margin: 0; } ul.check li { padding: 6px 0 6px 28px; position: relative; border-bottom: 1px solid var(--line); }
+  ul.check li:last-child { border: 0; } ul.check li::before { content: "✓"; position: absolute; left: 0; color: #fff; background: var(--primary); width: 20px; height: 20px; border-radius: 50%; font-size: 12px; font-weight: 800; display: grid; place-items: center; top: 9px; }
+  .hotel { display: flex; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); } .hotel:last-child { border: 0; }
+  .hotel img { width: 74px; height: 74px; border-radius: 12px; object-fit: cover; flex: none; }
+  .hotel small { color: var(--muted); display: block; }
+  .support { background: var(--purple); color: #fff; } .support a { color: var(--lime); } .support .btn { color: var(--purple); }
+  .hint { font-size: 12px; color: var(--muted); text-align: center; margin: 20px 0 0; }
+</style>
+</head>
+<body>
+<header>
+  <span class="logo" role="img" aria-label="journaway"></span>
+  <h1 id="ttl"></h1>
+  <p id="sub"></p>
+  <div class="chips" id="chips"></div>
+  <div class="datebox"><label for="start">Abflugdatum für deine Reise</label><input type="date" id="start"></div>
+</header>
+
+<main>
+  <section class="tab on" id="t-plan">
+    <div class="daybar" id="daybar"></div>
+    <div id="day"></div>
+  </section>
+
+  <section class="tab" id="t-map">
+    <div class="filters" id="mapfilters"></div>
+    <div id="mapwrap"><div id="map"></div></div>
+    <p class="hint">Nummerierte Pins = Tagesablauf deiner Reise · Gelb gestrichelt = Empfehlungen · Rechteck = Hotel</p>
+  </section>
+
+  <section class="tab" id="t-tips">
+    <div class="filters" id="tipfilters"></div>
+    <div id="tiplist"></div>
+  </section>
+
+  <section class="tab" id="t-info">
+    <div class="card"><h2 style="margin:0 0 8px">Inklusive Leistungen</h2><ul class="check" id="incl"></ul></div>
+    <div class="card"><h2 style="margin:0 0 8px">Deine Unterkünfte</h2><div id="hotels"></div></div>
+    <div class="card"><h2 style="margin:0 0 4px">Optional buchbar</h2><p style="margin:0 0 8px;color:var(--muted);font-size:14px">Zusätzliche Erlebnisse kannst du bei journaway buchen.</p><ul class="check" id="opt"></ul></div>
+    <div class="card support"><h2 style="margin:0 0 4px">24/7-Support während der Reise</h2><p style="margin:0 0 12px">Wenn du eine Frage hast, melde dich jederzeit.</p>
+      <div class="actions" id="supp"></div></div>
+    <p class="hint">Diese App ergänzt deine Reiseunterlagen. Zeiten und Abläufe können sich vor Ort ändern.<br>Eintritte, die nicht inklusive sind, werden vor Ort bezahlt.</p>
+  </section>
+</main>
+
+<nav id="nav">
+  <button data-t="plan" class="on"><span>🗓️</span>Reise</button>
+  <button data-t="map"><span>🗺️</span>Karte</button>
+  <button data-t="tips"><span>✨</span>Tipps</button>
+  <button data-t="info"><span>🧳</span>Infos</button>
+</nav>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="data.js"></script>
+<script>
+const T = TRIP, $ = s => document.querySelector(s);
+const KIND = { sight: ["⛩️", "Sehenswert"], food: ["🍜", "Essen"], shop: ["🛍️", "Shopping"], view: ["🌇", "Aussicht"], night: ["🌃", "Abends"], station: ["🚅", "Shinkansen"] };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+const gmaps = s => `https://www.google.com/maps/search/?api=1&query=${s.lat},${s.lng}`;
+
+$("#ttl").textContent = T.title; $("#sub").textContent = T.subtitle;
+$("#chips").innerHTML = [`${T.days.length} Tage`, `${T.nights} Übernachtungen`, "Flug inkl.", "Shinkansen"].map(c => `<span class="chip">${c}</span>`).join("");
+
+// Datum
+let start = store.get("jw_start") || "";
+$("#start").value = start;
+$("#start").onchange = e => { start = e.target.value; store.set("jw_start", start); drawBar(); drawDay(); };
+function dateOf(n) { if (!start) return null; const d = new Date(start + "T12:00:00"); d.setDate(d.getDate() + n - 1); return d; }
+const fmt = d => d.toLocaleDateString("de-DE", { weekday: "short", day: "numeric", month: "short" });
+function todayIndex() { if (!start) return 0; const s = new Date(start + "T12:00:00"), n = new Date(); n.setHours(12, 0, 0, 0); const i = Math.round((n - s) / 864e5) + 1; return i >= 1 && i <= T.days.length ? i : 0; }
+
+let cur = +store.get("jw_day") || todayIndex() || 1;
+function drawBar() {
+  const t = todayIndex();
+  $("#daybar").innerHTML = T.days.map(d => { const dt = dateOf(d.n);
+    return `<button class="dbtn ${d.n === cur ? "on" : ""} ${d.n === t ? "today" : ""}" data-d="${d.n}"><b>${d.n}</b><small>${dt ? fmt(dt).replace(".", "") : T.cities[d.city].name}</small></button>`; }).join("");
+  $("#daybar").querySelectorAll(".dbtn").forEach(b => b.onclick = () => go(+b.dataset.d));
+  const on = $("#daybar .on"); on && on.scrollIntoView({ inline: "center", block: "nearest" });
+}
+function go(n) { cur = n; store.set("jw_day", n); drawBar(); drawDay(); scrollTo({ top: 0 }); }
+
+function drawDay() {
+  const d = T.days.find(x => x.n === cur), c = T.cities[d.city], dt = dateOf(d.n);
+  let h = `<div class="card dayhead"><span class="city" style="background:${c.color}">${c.name}</span>
+    <h2>${esc(d.title)}</h2>${dt ? `<div class="date">Tag ${d.n} · ${fmt(dt)}</div>` : `<div class="date">Tag ${d.n}</div>`}
+    <p>${esc(d.text)}</p>${d.info.map(i => `<div class="info"><span>ℹ️</span><span>${esc(i)}</span></div>`).join("")}`;
+  if (d.hotel != null) { const ho = T.hotels[d.hotel]; h += `<div class="hotelcard"><span class="ic">🏨</span><div><b>${esc(ho.name)}</b><br><span style="color:var(--muted)">${ho.nights}</span></div></div>`; }
+  h += `</div>`;
+  if (d.stops.length) {
+    const prog = d.stops.filter(s => !T.spots[s.id].tip), tips = d.stops.filter(s => T.spots[s.id].tip);
+    let i = 0;
+    h += `<h3>Dein Tag</h3><ol class="timeline">` + prog.map(s => stop(s, ++i)).join("") + `</ol>`;
+    if (tips.length) h += `<h3>Empfehlungen on top</h3><ol class="timeline">` + tips.map(s => stop(s, "★")).join("") + `</ol>`;
+    h += `<div class="actions"><button class="btn" onclick="showOnMap(${d.n})">Tag auf der Karte</button></div>`;
+  }
+  h += `<div class="daynav">${cur > 1 ? `<button class="btn ghost" onclick="go(${cur - 1})">← Tag ${cur - 1}</button>` : "<span></span>"}${cur < T.days.length ? `<button class="btn ghost" onclick="go(${cur + 1})">Tag ${cur + 1} →</button>` : ""}</div>`;
+  $("#day").innerHTML = h;
+}
+function stop(s, num) {
+  const sp = T.spots[s.id];
+  return `<li class="stop ${sp.tip ? "tip" : ""}"><div class="num">${num}</div><div class="stopbody">
+    ${s.time ? `<div class="time">${esc(s.time)}</div>` : ""}<h4>${esc(sp.n)}${sp.tip ? '<span class="badge">Tipp</span>' : ""}</h4>
+    <p>${esc(sp.t)}</p>${s.note ? `<p class="note">${esc(s.note)}</p>` : ""}
+    ${sp.noMap ? "" : `<div class="actions"><a class="btn ghost" target="_blank" rel="noopener" href="${gmaps(sp)}">Route in Google Maps</a></div>`}</div></li>`;
+}
+
+// Tabs
+function tab(t) {
+  document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x.id === "t-" + t));
+  document.querySelectorAll("nav button").forEach(b => b.classList.toggle("on", b.dataset.t === t));
+  if (t === "map") { initMap(); setTimeout(() => { map.invalidateSize(); fit(); }, 50); }
+  scrollTo({ top: 0 });
+}
+document.querySelectorAll("nav button").forEach(b => b.onclick = () => tab(b.dataset.t));
+function showOnMap(n) { mapDay = n; tab("map"); drawMapFilters(); drawMarkers(); }
+
+// Karte
+let map, layer, mapDay = 0, showTips = true;
+function initMap() {
+  if (map) return;
+  map = L.map("map", { zoomControl: true }).setView([35.4, 137.5], 6);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "© OpenStreetMap" }).addTo(map);
+  layer = L.layerGroup().addTo(map);
+  drawMapFilters(); drawMarkers();
+}
+function drawMapFilters() {
+  const opts = [[0, "Alle Tage"], ...T.days.filter(d => d.stops.length).map(d => [d.n, "Tag " + d.n])];
+  $("#mapfilters").innerHTML = opts.map(([v, l]) => `<button class="pill ${v === mapDay ? "on" : ""}" data-v="${v}">${l}</button>`).join("") +
+    `<button class="pill ${showTips ? "on" : ""}" data-tip="1">★ Empfehlungen</button>`;
+  $("#mapfilters").querySelectorAll(".pill").forEach(b => b.onclick = () => { if (b.dataset.tip) showTips = !showTips; else mapDay = +b.dataset.v; drawMapFilters(); drawMarkers(); fit(); });
+}
+let pts = [];
+function pin(cls, color, label) { return L.divIcon({ className: "", iconSize: [28, 28], iconAnchor: [14, 28], popupAnchor: [0, -26], html: `<div class="pin ${cls}" style="background:${color}"><i>${label}</i></div>` }); }
+function popup(sp, extra) { return `<b>${esc(sp.n)}</b>${sp.tip ? " ⭐" : ""}<br>${extra || ""}${esc(sp.t)}<br><a target="_blank" rel="noopener" href="${gmaps(sp)}">Route in Google Maps</a>`; }
+function drawMarkers() {
+  layer.clearLayers(); pts = [];
+  const add = (lat, lng, icon, html) => { pts.push([lat, lng]); L.marker([lat, lng], { icon }).bindPopup(html).addTo(layer); };
+  const days = T.days.filter(d => mapDay === 0 || d.n === mapDay);
+  const seen = new Set();
+  days.forEach(d => { let i = 0; d.stops.forEach(s => { const sp = T.spots[s.id];
+    if (sp.noMap) return;
+    if (sp.tip) { if (!showTips || seen.has(s.id)) return; seen.add(s.id); add(sp.lat, sp.lng, pin("tip", "", "★"), popup(sp, `<small>Tag ${d.n} · Empfehlung</small><br>`)); return; }
+    i++; add(sp.lat, sp.lng, pin("", T.cities[sp.city].color, mapDay ? i : d.n), popup(sp, `<small>Tag ${d.n}</small><br>`)); }); });
+  T.hotels.forEach(h => { const inDay = mapDay === 0 || T.days.find(d => d.n === mapDay).hotel === T.hotels.indexOf(h);
+    if (inDay) add(h.lat, h.lng, pin("hotel", T.cities[h.city].color, "🏨"), `<b>${esc(h.name)}</b><br><small>${h.nights} · ungefähre Lage</small>`); });
+}
+function fit() { if (map && pts.length) map.fitBounds(pts, { padding: [30, 30], maxZoom: 15 }); }
+
+// Tipps
+let tipCity = "all";
+function drawTips() {
+  const cities = [["all", "Alle"], ...Object.entries(T.cities).filter(([k]) => k !== "flight").map(([k, v]) => [k, v.name])];
+  $("#tipfilters").innerHTML = cities.map(([k, l]) => `<button class="pill ${k === tipCity ? "on" : ""}" data-k="${k}">${l}</button>`).join("");
+  $("#tipfilters").querySelectorAll(".pill").forEach(b => b.onclick = () => { tipCity = b.dataset.k; drawTips(); });
+  const used = {}; T.days.forEach(d => d.stops.forEach(s => { (used[s.id] = used[s.id] || []).push(d.n); }));
+  const list = Object.entries(T.spots).filter(([id, s]) => s.tip && (tipCity === "all" || s.city === tipCity));
+  let h = `<p style="color:var(--muted);margin:4px 2px 12px;font-size:14px">Empfehlungen zusätzlich zu deinem Programm – für freie Zeit und besondere Momente.</p>`;
+  h += list.map(([id, s]) => { const k = KIND[s.kind];
+    return `<div class="card tipcard tipx"><div class="ic">${k[0]}</div><div><h4>${esc(s.n)}</h4><p>${esc(s.t)}</p>
+      <div class="where">${T.cities[s.city].name} · ${k[1]}${used[id] ? " · passt zu Tag " + used[id].join(", ") : ""}</div>
+      <div class="actions"><a class="btn ghost" target="_blank" rel="noopener" href="${gmaps(s)}">Route in Google Maps</a></div></div></div>`; }).join("");
+  $("#tiplist").innerHTML = h;
+}
+
+// Infos
+$("#incl").innerHTML = T.included.map(i => `<li>${esc(i)}</li>`).join("");
+$("#opt").innerHTML = T.optional.map(i => `<li>${esc(i)}</li>`).join("");
+$("#hotels").innerHTML = T.hotels.map(h => `<div class="hotel">${h.img ? `<img src="${h.img}" alt="" loading="lazy">` : `<div class="ic" style="width:74px;height:74px;border-radius:12px;background:${T.cities[h.city].color};display:grid;place-items:center;font-size:28px;flex:none">🏨</div>`}
+  <div><b>${esc(h.name)}</b><small>${T.cities[h.city].name} · ${h.nights}</small><a target="_blank" rel="noopener" href="${gmaps(h)}" style="font-size:14px">Auf der Karte</a></div></div>`).join("");
+$("#supp").innerHTML = `<a class="btn lime" href="${T.support.wa}" target="_blank" rel="noopener">WhatsApp öffnen</a><a class="btn ghost" href="tel:${T.support.phone.replace(/\s/g, "")}">${T.support.phone}</a><a class="btn ghost" href="mailto:${T.support.mail}">${T.support.mail}</a>`;
+
+drawBar(); drawDay(); drawTips();
+</script>
+</body>
+</html>
