@@ -1,0 +1,198 @@
+{
+ "accessed_at": "2026-10-27",
+ "references": [
+  {
+   "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/11/cortex/par198428-1280x1079.jpg",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/",
+     "title": "Making the Image: Werner Bischof’s Snow-Draped Meiji Shrine – Magnum Photos (mit Auszug aus „Magnum Contact Sheets“)",
+     "excerpt": "During that time, he took the photograph of the Shinto priests in the garden of the Meiji shrine in Tokyo. The story goes that he suddenly ran off and followed the priests. When he returned, he told Rosellina: ‘Now I have the picture of Japan!’",
+     "author": "Magnum Contact Sheets (Thames & Hudson), zitiert von Magnum Photos",
+     "kind": "curator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/",
+     "title": "Making the Image: Werner Bischof’s Snow-Draped Meiji Shrine – Magnum Photos (mit Auszug aus „Magnum Contact Sheets“)",
+     "excerpt": "In the centre of the capital, with its ever-increasing bustle, I have discovered some tree shapes of breathtaking beauty, and have drawn them for you.",
+     "author": "Werner Bischof, Brief an Rosellina, 17. September 1951",
+     "kind": "photographer"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Bischof fotografierte Shinto-Priester im Garten des Meiji-Schreins; der Überlieferung nach rannte er plötzlich los und folgte den Priestern – das Bild ist also im Gehen, hinter den Gehenden her entstanden [Q1]. Er erkannte sofort, dass er „das Bild von Japan“ hatte [Q1]. Die Baumformen in der Stadtmitte hatte er schon vorher als „atemberaubend schön“ entdeckt und gezeichnet [Q2].",
+   "checkable": [
+    "Zwei Priester sind in der Bewegung, im Gehen, erfasst [Q1]",
+    "Die Kiefernformen über der Szene sind ein eigenes Bildthema [Q2]"
+   ],
+   "scope_note": "Entstehungsgeschichte aus „Magnum Contact Sheets“ (über Magnum Photos); Brief Bischofs an seine Frau. Der Kontaktbogen selbst liegt auf derselben Seite."
+  },
+  {
+   "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/02/cortex/par33488-teaser-story-big.jpg",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+     "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+     "excerpt": "In a photograph taken in Tiznit, for instance, the tree’s shadow towers over the silhouette of a man in white djellabah. The darkness traverses his body, covering his torso.",
+     "author": "Carole Naggar",
+     "kind": "critic"
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+     "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+     "excerpt": "In Barbey’s Morocco, shadows have as much weight as people and objects, introducing the mystery of another dimension.",
+     "author": "Carole Naggar",
+     "kind": "critic"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild lebt vom Schlagschatten einer Palme: Der Schatten ragt über der Silhouette eines Mannes in weißer Djellaba auf, das Dunkel läuft über seinen Körper und bedeckt den Oberkörper [Q1]. Schatten haben in Barbeys Marokko so viel Gewicht wie Menschen und Dinge [Q2].",
+   "checkable": [
+    "Großer Palmenschatten auf der Wand über dem Mann [Q1]",
+    "Mann in weißer Djellaba, der Schatten liegt quer über seinem Oberkörper [Q1]",
+    "Der Schatten ist mindestens so bildbestimmend wie die Figur [Q2]"
+   ],
+   "scope_note": "Naggar beschreibt das Tiznit-Bild ausdrücklich; Ort und Motiv stimmen mit der Magnum-Bildlegende überein."
+  },
+  {
+   "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/02/cortex/par224524-teaser-story-big.jpg",
+   "dimension": "frame",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+     "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+     "excerpt": "In a striking photograph taken in Ksar el Maadid, a small, hooded, white-clothed silhouette is framed four times in a series of decreasing nested rectangles of light and shadow, as he disappears in the distance of a twisted street that looks like a labyrinth.",
+     "author": "Carole Naggar",
+     "kind": "critic"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Eine kleine, weiß gekleidete Gestalt mit Kapuze wird viermal gerahmt – durch eine Folge kleiner werdender, ineinander geschachtelter Rechtecke aus Licht und Schatten – und verschwindet in der Tiefe einer verwinkelten Gasse, die wie ein Labyrinth wirkt [Q1].",
+   "checkable": [
+    "Mehrere ineinander geschachtelte, kleiner werdende Rechtecke aus Licht und Schatten [Q1]",
+    "Kleine weiße Figur mit Kapuze im innersten Rahmen, weit hinten [Q1]",
+    "Gasse mit Knick/Labyrinth-Wirkung [Q1]"
+   ],
+   "scope_note": "Naggar nennt Ksar el Maadid; Magnum-Legende: „Village of Maadid, near Erfoud. Morocco. 2002.“"
+  },
+  {
+   "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/02/cortex/par37655-teaser-story-big.jpg",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+     "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+     "excerpt": "In another photo, also taken from above, the deep black fabric of a man’s djellabah and his white shesh , as well as the overcoat he threw on the floor, become geometric elements that merge into the courtyard’s black and white zelliges , the mosaic tiles typical of Morocco.",
+     "author": "Carole Naggar",
+     "kind": "critic"
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+     "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+     "excerpt": "Barbey often employs unusual perspectives that flatten the images and merge figures and background.",
+     "author": "Carole Naggar",
+     "kind": "critic"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild ist von oben aufgenommen [Q1]. Aus dieser Aufsicht werden der schwarze Stoff der Djellaba, der weiße Shesh und der auf den Boden geworfene Mantel zu geometrischen Elementen, die mit den Zellige-Fliesen des Hofs verschmelzen [Q1]. Solche ungewöhnlichen Perspektiven machen das Bild flach und lassen Figur und Grund ineinander übergehen [Q2].",
+   "checkable": [
+    "Steile Aufsicht von oben auf den Hof [Q1]",
+    "Schwarzes Gewand und abgelegter Mantel liegen als Flächen auf dem Fliesenmuster [Q1]",
+    "Figur und Boden verschmelzen, kaum räumliche Tiefe [Q2]"
+   ],
+   "scope_note": "Naggar nennt das Bild nicht mit Titel („In another photo“); die Beschreibung (Aufsicht, schwarze Djellaba, weißer Shesh, abgelegter Mantel, Zellige) passt eindeutig zum Magnum-Bild des Fliesenhofs – Zuordnung: Meine Einschätzung."
+  },
+  {
+   "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/02/cortex/par38162-teaser-story-big.jpg",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+     "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+     "excerpt": "In the tanners’ quarter, clusters of brown and crimson- dyed sheepskins drying on an old city’s ocher walls seem suspended in the air like strange flowers, and the surface becomes two-dimensional, lending the scene a surreal feel.",
+     "author": "Carole Naggar",
+     "kind": "critic"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Im Gerberviertel hängen braun und karminrot gefärbte Schaffelle zum Trocknen an den ockerfarbenen Mauern; sie scheinen wie seltsame Blumen in der Luft zu schweben, die Fläche wird zweidimensional, die Szene wirkt surreal [Q1].",
+   "checkable": [
+    "Gefärbte Felle hängen an alten ockerfarbenen Mauern [Q1]",
+    "Die Felle wirken schwebend, das Bild flach und ohne klare Tiefe [Q1]"
+   ],
+   "scope_note": "Naggar beschreibt „im Gerberviertel“ ein Bild ohne Titel; Zuordnung zu „Tanners of Sidi Moussa, Fez, 1984“ ist Meine Einschätzung (Motiv passt; Rot ist im Bild nur wenig vertreten)."
+  },
+  {
+   "image_url": "https://www.magnumphotos.com/wp-content/uploads/2018/07/cortex/nyc8519-teaser-story-big.jpg",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/travel/constantine-manos-america-at-the-beach/",
+     "title": "America at the Beach: A Color Study – Constantine Manos, Magnum Photos",
+     "excerpt": "something the photographer captured in one of his most-loved images, of a group of women dancing in the back of a truck, their shadows showing their hands aloft, as two cars of men look on.",
+     "author": "Magnum Photos",
+     "kind": "curator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/travel/constantine-manos-america-at-the-beach/",
+     "title": "America at the Beach: A Color Study – Constantine Manos, Magnum Photos",
+     "excerpt": "Daytona Beach in Florida is very wide and was once open to cars driving on the beach",
+     "author": "Constantine Manos",
+     "kind": "photographer"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Moment: Frauen tanzen auf der Ladefläche eines Pick-ups, ihre Schatten zeigen die hochgereckten Hände, während Männer aus zwei Autos zuschauen [Q1]. Möglich war das, weil der breite Strand von Daytona Beach früher für Autos offen war [Q2].",
+   "checkable": [
+    "Frauen tanzen auf der Ladefläche eines Wagens [Q1]",
+    "Schatten mit erhobenen Händen sind sichtbar [Q1]",
+    "Autos mit zuschauenden Männern im Hintergrund, auf dem Strand [Q1][Q2]"
+   ],
+   "scope_note": "Magnum beschreibt das Bild als eines der beliebtesten von Manos; die Beschreibung passt eindeutig zum Bild „Daytona Beach, Florida. USA. 1997“ auf derselben Seite."
+  },
+  {
+   "image_url": "https://agsa-prod.s3.amazonaws.com/media/dd/images/35404-WR-20114PH10.9545884.jpg",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.agsa.sa.gov.au/collection-publications/collection/works/moving-bus/32957",
+     "title": "Trent Parke, Moving bus (2003) – Art Gallery of South Australia, Sammlung",
+     "excerpt": "Moving bus is one of his most technically accomplished works. Although it is not immediately clear what the photograph depicts, the ghostly image is in fact the shadow cast onto the side of a moving bus by a crowd of people standing on a Sydney street.",
+     "author": "Art Gallery of South Australia",
+     "kind": "museum"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Was zunächst rätselhaft aussieht, ist der Schatten einer Menschengruppe auf einer Straße in Sydney, den tief stehendes Licht auf die Seite eines vorbeifahrenden Busses wirft [Q1]. Das Museum nennt es eine seiner technisch anspruchsvollsten Arbeiten [Q1].",
+   "checkable": [
+    "Schatten von Menschen erscheinen auf der Seitenwand eines Busses [Q1]",
+    "Der Bus ist in Bewegung, das Bild wirkt geisterhaft [Q1]",
+    "Auf den ersten Blick ist nicht klar, was zu sehen ist [Q1]"
+   ],
+   "scope_note": "Sammlungstext des Museums (AGSA). „Tief stehendes Licht“ ist aus dem Schattenwurf abgeleitet, nicht Teil der Quelle."
+  },
+  {
+   "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/06/cortex/nyc68018-teaser-story-big.jpg",
+   "dimension": "detail",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+     "title": "On the Road: Inge Morath’s Road to Reno (1960) – Magnum Photos (mit Auszügen aus ihrem Reisetagebuch)",
+     "excerpt": "Next to a road in Arkansas a religious farmer used the trunk of a tree to pin up his announcement for passing sinners.",
+     "author": "Bildlegende, Magnum Photos / Inge Morath Foundation",
+     "kind": "curator"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Detail, um das es geht: Ein frommer Farmer hat neben der Straße an einen Baumstamm seine Botschaft für vorbeifahrende Sünder genagelt [Q1].",
+   "checkable": [
+    "Schild an einem Baumstamm direkt neben einer Straße [Q1]",
+    "Das Schild richtet sich an Vorbeifahrende – ein Auto ist auf der Straße [Q1]"
+   ],
+   "scope_note": "Bildlegende der Magnum-Seite; nicht ausdrücklich als Moraths eigener Text gekennzeichnet."
+  }
+ ]
+}

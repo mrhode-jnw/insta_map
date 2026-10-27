@@ -1,0 +1,2293 @@
+{
+ "accessed_at": "2026-10-27",
+ "photographers": [
+  {
+   "key": "bischof",
+   "name": "Werner Bischof",
+   "born": 1916,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/werner-bischof/",
+     "title": "Werner Bischof – Fotografenseite, Magnum Photos",
+     "excerpt": "I felt compelled to venture forth and explore the true face of the world. Leading a satisfying life of plenty had blinded many of us to the immense hardships beyond our borders.",
+     "kind": "fotograf",
+     "author": "Werner Bischof (zitiert von Magnum Photos)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/werner-bischof/",
+     "title": "Werner Bischof – Fotografenseite, Magnum Photos",
+     "excerpt": "Disliking the “superficiality and sensationalism” of the magazine business, he devoted much of his working life to looking for order and tranquility in traditional culture, something that did not endear him to picture editors looking for hot topical material."
+    },
+    {
+     "url": "https://fotostiftung.ch/wp-content/uploads/2023/08/fs_bischof_rosellina_zeitung_de_digital.pdf",
+     "title": "Werner Bischof – Unseen Colour / Rosellina – Leben für die Fotografie, Ausstellungszeitung, Fotostiftung Schweiz 2023 (PDF)",
+     "excerpt": "Hier entdeckt Werner Bischof eine spirituelle Schönheit, in die er sich sofort verliebt. Er ist überwältigt von den Dingen, die er sieht, und er spricht von einer Sichtweise, die nicht mehr journalistisch ist, sondern in die Tiefe geht.",
+     "kind": "museum",
+     "author": "Fotostiftung Schweiz",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://fotostiftung.ch/wp-content/uploads/2023/08/fs_bischof_rosellina_zeitung_de_digital.pdf",
+     "title": "Werner Bischof – Unseen Colour / Rosellina – Leben für die Fotografie, Ausstellungszeitung, Fotostiftung Schweiz 2023 (PDF)",
+     "excerpt": "Die Rolleiflex ermöglicht ihm nicht nur spontane Momentaufnahmen, sondern – vor allem bei der Arbeit im Freien – auch eine bessere Kontrolle des Bildausschnitts und bewusstere Kompositionen.",
+     "kind": "museum",
+     "author": "Fotostiftung Schweiz",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "bischof-asien-peru",
+     "title": "Asien und Südamerika 1951–1954 (Japan, Indochina, Korea, Hongkong, Peru)",
+     "year_from": 1951,
+     "year_to": 1954,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/",
+       "title": "Making the Image: Werner Bischof’s Snow-Draped Meiji Shrine – Magnum Photos (mit Auszug aus „Magnum Contact Sheets“)",
+       "excerpt": "Here, as he had previously done in India, he pursued a theme that has lost nothing of its topicality: the intrusion of Western values and symbols into ancient cultural traditions.",
+       "kind": "kurator",
+       "author": "Magnum Photos",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/",
+       "title": "Making the Image: Werner Bischof’s Snow-Draped Meiji Shrine – Magnum Photos (mit Auszug aus „Magnum Contact Sheets“)",
+       "excerpt": "Kabuki theatre and striptease, temples and advertising, meditation and mobility all rub shoulders in Bischof’s photographs of Japan, published in the last book that he was able to complete in his lifetime."
+      },
+      {
+       "url": "https://fotostiftung.ch/wp-content/uploads/2023/08/fs_bischof_rosellina_zeitung_de_digital.pdf",
+       "title": "Werner Bischof – Unseen Colour / Rosellina – Leben für die Fotografie, Ausstellungszeitung, Fotostiftung Schweiz 2023 (PDF)",
+       "excerpt": "Wie schon in Indien erkundet er das Zusammenspiel von modernem Leben und antiken Traditionen.",
+       "kind": "museum",
+       "author": "Fotostiftung Schweiz",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "bischof-meiji",
+       "title": "Courtyard of the Meiji shrine. Tokyo. Japan. 1951.",
+       "year": 1951,
+       "location": "Meiji-Schrein, Tokio, Japan",
+       "tags": [
+        "japan",
+        "schnee",
+        "schwarzweiß",
+        "tempel"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/11/cortex/par198428-1280x1079.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/",
+         "title": "Making the Image: Werner Bischof’s Snow-Draped Meiji Shrine – Magnum Photos (mit Auszug aus „Magnum Contact Sheets“)",
+         "excerpt": "During that time, he took the photograph of the Shinto priests in the garden of the Meiji shrine in Tokyo. The story goes that he suddenly ran off and followed the priests. When he returned, he told Rosellina: ‘Now I have the picture of Japan!’ He realized the importance of his photograph immediately.",
+         "kind": "kurator",
+         "author": "Magnum Contact Sheets (Thames & Hudson), zitiert von Magnum Photos",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/",
+         "title": "Making the Image: Werner Bischof’s Snow-Draped Meiji Shrine – Magnum Photos (mit Auszug aus „Magnum Contact Sheets“)",
+         "excerpt": "It is also possible that he had in mind the famous screen painted by Master Hasegawa Tōhaku with a depiction of pine trees.",
+         "kind": "kurator",
+         "author": "Magnum Contact Sheets (Thames & Hudson), zitiert von Magnum Photos",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "bischof-katsura",
+       "title": "Gardens of the Katsura Imperial Palace. Town of Kyoto. Japan. 1951.",
+       "year": 1951,
+       "location": "Kaiserliche Villa Katsura, Kyoto, Japan",
+       "tags": [
+        "japan",
+        "garten",
+        "spiegelung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/11/cortex/par8503-1280x1308.jpg",
+       "sources": []
+      },
+      {
+       "key": "bischof-ryoanji",
+       "title": "A priest rests in the temple of Ryōan-ji. Kyoto, Japan. 1951.",
+       "year": 1951,
+       "location": "Ryōan-ji, Kyoto, Japan",
+       "tags": [
+        "japan",
+        "tempel",
+        "innenraum",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/travel/early-magnum-member-werner-bischof/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/04/cortex/par8500.jpg",
+       "sources": []
+      },
+      {
+       "key": "bischof-kowloon",
+       "title": "Kowloon Harbour. Hong Kong, China. 1952.",
+       "year": 1952,
+       "location": "Hafen von Kowloon, Hongkong",
+       "tags": [
+        "hongkong",
+        "hafen",
+        "dschunken",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/travel/early-magnum-member-werner-bischof/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/04/cortex/par8550.jpg",
+       "sources": []
+      },
+      {
+       "key": "bischof-cham",
+       "title": "Cham women returning from the market. Barau, Indochina. 1952.",
+       "year": 1952,
+       "location": "Barau, Indochina",
+       "tags": [
+        "indochina",
+        "gleise",
+        "frauen",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/travel/early-magnum-member-werner-bischof/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/04/cortex/par77552.jpg",
+       "sources": []
+      },
+      {
+       "key": "bischof-cambodia",
+       "title": "Farmer shading himself as he looks after his grazing cows. Cambodia. 1952.",
+       "year": 1952,
+       "location": "Kambodscha",
+       "tags": [
+        "kambodscha",
+        "bauer",
+        "froschperspektive",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/travel/early-magnum-member-werner-bischof/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/04/cortex/par133532.jpg",
+       "sources": []
+      },
+      {
+       "key": "bischof-kojedo",
+       "title": "In a camp for North Korean prisoners of war laundry hangs on the barbed wire. Koje Do, South Korea. 1952.",
+       "year": 1952,
+       "location": "Koje-do, Südkorea",
+       "tags": [
+        "korea",
+        "gefangenenlager",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/travel/early-magnum-member-werner-bischof/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/04/cortex/par8528.jpg",
+       "sources": []
+      },
+      {
+       "key": "bischof-flute",
+       "title": "A flute player on the road to Cuzco, near Písac, in the The Sacred Valley of the Urubamba River, Peru. May, 1954.",
+       "year": 1954,
+       "location": "Bei Písac, Heiliges Tal des Urubamba, Peru",
+       "tags": [
+        "peru",
+        "anden",
+        "straße",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/par55109-7/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/10/cortex/par55109-overlay.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/par55109-7/",
+         "title": "Werner Bischof: A flute player on the road to Cuzco … Peru, May 1954 – Bildseite, Magnum Photos",
+         "excerpt": "This was the last picture taken before Bischof’s tragic death in the Peruvian Andes.",
+         "kind": "kurator",
+         "author": "Magnum Photos / Werner Bischof Estate",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://www.magnumphotos.com/par55109-7/",
+         "title": "Werner Bischof: A flute player on the road to Cuzco … Peru, May 1954 – Bildseite, Magnum Photos",
+         "excerpt": "His deep compassion for the humble people of the world, as revealed in his photos, will leave its permanent imprint on the work of other photographers.",
+         "kind": "fotograf",
+         "author": "Eugene V. Harris (Fotograf, traf Bischof im Mai 1954 in Machu Picchu)",
+         "aspect": "rezeption",
+         "series_level": true
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "morath",
+   "name": "Inge Morath",
+   "born": 1923,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/inge-morath/",
+     "title": "Inge Morath – Fotografenseite, Magnum Photos",
+     "excerpt": "To take pictures had become a necessity and I did not want to forgo it for anything.",
+     "kind": "fotograf",
+     "author": "Inge Morath (zitiert von Magnum Photos)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/inge-morath/",
+     "title": "Inge Morath – Fotografenseite, Magnum Photos",
+     "excerpt": "All her life, Morath would remain a prolific diarist and letter-writer, retaining a dual gift for words and pictures that made her unusual among her colleagues."
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/inge-morath/",
+     "title": "Inge Morath – Fotografenseite, Magnum Photos",
+     "excerpt": "She was also adept at photographing places: her pictures of Boris Pasternak’s home, Pushkin’s library, Chekhov’s house, Mao Zedong’s bedroom, artists’ studios and cemetery memorials are permeated with the spirit of invisible people still present.",
+     "kind": "kurator",
+     "author": "Magnum Photos",
+     "aspect": "deutung",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "morath-road-to-reno",
+     "title": "Road to Reno – Alleinfahrt von New York nach Reno (1960)",
+     "year_from": 1960,
+     "year_to": 1960,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "title": "On the Road: Inge Morath’s Road to Reno (1960) – Magnum Photos (mit Auszügen aus ihrem Reisetagebuch)",
+       "excerpt": "This is the story of my first trip across the United States. It is not really a story, they are bits of notes written each night at a table in a motel room that always was a different place and always looked the same",
+       "kind": "fotograf",
+       "author": "Inge Morath, Tagebuch „Road to Reno“ (1960)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "title": "On the Road: Inge Morath’s Road to Reno (1960) – Magnum Photos (mit Auszügen aus ihrem Reisetagebuch)",
+       "excerpt": "She was headed to Reno on assignment to photograph the making of the film The Misfits , starring Marilyn Monroe."
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "title": "On the Road: Inge Morath’s Road to Reno (1960) – Magnum Photos (mit Auszügen aus ihrem Reisetagebuch)",
+       "excerpt": "The Austrian-born photographer documented her trip with the fresh eyes of an outsider in the United States, keeping a diary of the trip, made each night in a different hotel room.",
+       "kind": "kurator",
+       "author": "Magnum Photos",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "title": "On the Road: Inge Morath’s Road to Reno (1960) – Magnum Photos (mit Auszügen aus ihrem Reisetagebuch)",
+       "excerpt": "The road stretches as far as one can see, a lead-colored ribbon leading West.",
+       "kind": "fotograf",
+       "author": "Inge Morath, Tagebuch „Road to Reno“ (1960)",
+       "aspect": "wirkung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "morath-memphis",
+       "title": "Outside Memphis, Tennessee, USA. 1960.",
+       "year": 1960,
+       "location": "Bei Memphis, Tennessee, USA",
+       "tags": [
+        "roadtrip",
+        "werbeschild",
+        "farbe",
+        "usa"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/06/cortex/nyc43627-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "morath-littlerock",
+       "title": "6:00PM, after hours at a segregated lunch counter. Little Rock, Arkansas, USA. 1960.",
+       "year": 1960,
+       "location": "Little Rock, Arkansas, USA",
+       "tags": [
+        "roadtrip",
+        "spiegelung",
+        "schwarzweiß",
+        "usa"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/06/cortex/nyc148091-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "morath-arkansas",
+       "title": "Next to a road in Arkansas a religious farmer used the trunk of a tree to pin up his announcement for passing sinners. Arkansas, USA. 1960.",
+       "year": 1960,
+       "location": "Arkansas, USA",
+       "tags": [
+        "roadtrip",
+        "straße",
+        "schild",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/06/cortex/nyc68018-teaser-story-big.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+         "title": "On the Road: Inge Morath’s Road to Reno (1960) – Magnum Photos (mit Auszügen aus ihrem Reisetagebuch)",
+         "excerpt": "Next to a road in Arkansas a religious farmer used the trunk of a tree to pin up his announcement for passing sinners.",
+         "kind": "kurator",
+         "author": "Bildlegende, Magnum Photos / Inge Morath Foundation",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "morath-oakridge",
+       "title": "The Atomic Museum is very much 20th century after all the quaint southern settings. Oak Ridge, Tennessee, USA. 1960.",
+       "year": 1960,
+       "location": "Oak Ridge, Tennessee, USA",
+       "tags": [
+        "roadtrip",
+        "museum",
+        "schutzanzug",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/06/cortex/nyc68012-teaser-story-big.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+         "title": "On the Road: Inge Morath’s Road to Reno (1960) – Magnum Photos (mit Auszügen aus ihrem Reisetagebuch)",
+         "excerpt": "That night we stayed in Oak Ridge. The name of a place that became famous because here the first atom bomb has been built – at least the first one that has been dropped. On Hiroshima.",
+         "kind": "fotograf",
+         "author": "Inge Morath, Tagebuch „Road to Reno“ (1960)",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "morath-goldfield2",
+       "title": "Goldfield, Nevada, USA. 1960.",
+       "year": 1960,
+       "location": "Goldfield, Nevada, USA",
+       "tags": [
+        "roadtrip",
+        "geisterstadt",
+        "verfall",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/06/cortex/par22859-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "morath-hitchhikers",
+       "title": "Hitch hikers on the road from Albuquerque to Gallup. New Mexico, USA. 1960.",
+       "year": 1960,
+       "location": "Zwischen Albuquerque und Gallup, New Mexico, USA",
+       "tags": [
+        "roadtrip",
+        "anhalter",
+        "straße",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/06/cortex/nyc68024-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "morath-crater",
+       "title": "The world's largest meteor crater, a few miles before Flagstaff. Arizona, USA. 1960.",
+       "year": 1960,
+       "location": "Meteor Crater bei Flagstaff, Arizona, USA",
+       "tags": [
+        "roadtrip",
+        "rückenfigur",
+        "krater",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/06/cortex/nyc68027-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "morath-slots",
+       "title": "Heads of slot machines looking over a truck. Reno, Nevada, USA. 1960.",
+       "year": 1960,
+       "location": "Reno, Nevada, USA",
+       "tags": [
+        "roadtrip",
+        "spielautomaten",
+        "reno",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/06/cortex/nyc68035-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "morath-reno",
+       "title": "Reno, Nevada, USA. 1960.",
+       "year": 1960,
+       "location": "Reno, Nevada, USA",
+       "tags": [
+        "roadtrip",
+        "auto",
+        "farbe",
+        "rahmen"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/06/cortex/nyc43628-teaser-story-big.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+         "title": "On the Road: Inge Morath’s Road to Reno (1960) – Magnum Photos (mit Auszügen aus ihrem Reisetagebuch)",
+         "excerpt": "We arrived in Reno on the evening of the 17th. Into a world so different from the loneliness of the trip, the world of a movie being started.",
+         "kind": "fotograf",
+         "author": "Inge Morath, Tagebuch „Road to Reno“ (1960)",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "riboud",
+   "name": "Marc Riboud",
+   "born": 1923,
+   "sources": [
+    {
+     "url": "https://marcriboud.com/en/textes/",
+     "title": "Marc Riboud – Texte (Auszüge aus seinen Büchern), Website Les Amis de Marc Riboud",
+     "excerpt": "This is a picture book. I am a photographer, not a Sinologue. In China I did a lot of walking, a lot of looking, and I took a lot of pictures.",
+     "kind": "fotograf",
+     "author": "Marc Riboud",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://marcriboud.com/en/textes/",
+     "title": "Marc Riboud – Texte (Auszüge aus seinen Büchern), Website Les Amis de Marc Riboud",
+     "excerpt": "We spend more time squinting through a magnifying glass, fretting over our contact sheets, than we do looking through the viewfinder of our camera.",
+     "kind": "fotograf",
+     "author": "Marc Riboud",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/marc-riboud/",
+     "title": "Marc Riboud – Fotografenseite, Magnum Photos",
+     "excerpt": "In the mid-1950s, he set off for India in a specially converted Land Rover that once belonged to Magnum co-founder George Rodger, who had used it for his celebrated work in Africa."
+    },
+    {
+     "url": "https://marcriboud.com/en/biography/",
+     "title": "Marc Riboud – Biography, Website Les Amis de Marc Riboud",
+     "excerpt": "In 1955, he travels by road through the Middle East and Afghanistan to India and stays for one year."
+    }
+   ],
+   "projects": [
+    {
+     "key": "riboud-afghanistan-1955",
+     "title": "Landweg nach Osten: Afghanistan 1955",
+     "year_from": 1955,
+     "year_to": 1955,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+       "title": "Marc Riboud on the Friendship of Strangers in Afghanistan – Magnum Photos (Jade Chao, 2022; mit Auszug aus „Into the Orient“)",
+       "excerpt": "In 1955, Marc Riboud set off on a far-reaching journey through the Middle East, over land, with the intention of eventually entering Asia."
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+       "title": "Marc Riboud on the Friendship of Strangers in Afghanistan – Magnum Photos (Jade Chao, 2022; mit Auszug aus „Into the Orient“)",
+       "excerpt": "I was never truly alone on those trailways that only we Europeans think of as lying at the end of the world;",
+       "kind": "fotograf",
+       "author": "Marc Riboud, „Into the Orient“",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+       "title": "Marc Riboud on the Friendship of Strangers in Afghanistan – Magnum Photos (Jade Chao, 2022; mit Auszug aus „Into the Orient“)",
+       "excerpt": "No one was ever surprised at my being there, in that land where men spend a good part of their lives on horseback on the road, and I would eat with a few old men playing checkers.",
+       "kind": "fotograf",
+       "author": "Marc Riboud, „Into the Orient“",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+       "title": "Marc Riboud on the Friendship of Strangers in Afghanistan – Magnum Photos (Jade Chao, 2022; mit Auszug aus „Into the Orient“)",
+       "excerpt": "Many of Riboud’s images are almost ethnographic: his close-ups of women wearing the burka shows how his Western eye has been drawn to the clothing customs of this culture",
+       "kind": "kritik",
+       "author": "Jade Chao (Magnum Photos)",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "riboud-cemetery",
+       "title": "Cemetery at sun-set after a funeral. Two men, probably the closest relatives, stay near the grave. Near the road leading to Russia. Afghanistan. 1955.",
+       "year": 1955,
+       "location": "An der Straße nach Norden, Afghanistan",
+       "tags": [
+        "afghanistan",
+        "friedhof",
+        "abendlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2022/03/MG1103235.jpg",
+       "sources": []
+      },
+      {
+       "key": "riboud-kabulposter",
+       "title": "On Kabul streets, man next to the movie poster \"The story of three loves\". Afghanistan. 1955.",
+       "year": 1955,
+       "location": "Kabul, Afghanistan",
+       "tags": [
+        "afghanistan",
+        "kabul",
+        "filmplakat",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2022/03/MG1103142.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+         "title": "Marc Riboud on the Friendship of Strangers in Afghanistan – Magnum Photos (Jade Chao, 2022; mit Auszug aus „Into the Orient“)",
+         "excerpt": "American film posters and an advert for Chesterfield cigarettes dress walls behind turbaned men.",
+         "kind": "kritik",
+         "author": "Jade Chao (Magnum Photos)",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "riboud-bamyancliff",
+       "title": "View on Bamyan cliff where the huge Buddhas were carved. Afghanistan. 1955.",
+       "year": 1955,
+       "location": "Bamiyan, Afghanistan",
+       "tags": [
+        "afghanistan",
+        "bamiyan",
+        "felswand",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2022/03/MG1103243.jpg",
+       "sources": []
+      },
+      {
+       "key": "riboud-buzkashi",
+       "title": "Horses meeting for the buzkashi, a traditional game of Central Asia. Afghanistan. 1955.",
+       "year": 1955,
+       "location": "Afghanistan",
+       "tags": [
+        "afghanistan",
+        "reiter",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2022/03/MG1103249.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+         "title": "Marc Riboud on the Friendship of Strangers in Afghanistan – Magnum Photos (Jade Chao, 2022; mit Auszug aus „Into the Orient“)",
+         "excerpt": "Out in the grassy steppes, backed by mountains, Riboud spectates on a game of buzkashi, a highly revered 800-year-old sport.",
+         "kind": "kritik",
+         "author": "Jade Chao (Magnum Photos)",
+         "aspect": "entstehung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "riboud-bamiyanwomen",
+       "title": "Women in Bamiyan. Afghanistan. Bamiyan. 1955.",
+       "year": 1955,
+       "location": "Bamiyan, Afghanistan",
+       "tags": [
+        "afghanistan",
+        "frauen",
+        "schnee",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2022/03/MG1103222.jpg",
+       "sources": []
+      },
+      {
+       "key": "riboud-kabulchildren",
+       "title": "Children in Kabul. Kabul. Afghanistan. 1955.",
+       "year": 1955,
+       "location": "Kabul, Afghanistan",
+       "tags": [
+        "afghanistan",
+        "kinder",
+        "kamele",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2022/03/MG1103268.jpg",
+       "sources": []
+      },
+      {
+       "key": "riboud-teahouse",
+       "title": "Musicians inside a “tchai-kane” (tea house) on the road leading to Russia. Afghanistan. 1955.",
+       "year": 1955,
+       "location": "Teehaus an der Straße nach Norden, Afghanistan",
+       "tags": [
+        "afghanistan",
+        "teehaus",
+        "musiker",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2022/03/MG1103239.jpg",
+       "sources": []
+      },
+      {
+       "key": "riboud-bamyansnow",
+       "title": "View of the Bamyan Valley under the snow. Afghanistan. 1955.",
+       "year": 1955,
+       "location": "Tal von Bamiyan, Afghanistan",
+       "tags": [
+        "afghanistan",
+        "tal",
+        "schnee",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2022/03/MG1103207.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "barbey",
+   "name": "Bruno Barbey",
+   "born": 1941,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/bruno-barbey/",
+     "title": "Bruno Barbey – Fotografenseite, Magnum Photos",
+     "excerpt": "Photography is the only language that can be understood anywhere in the world.",
+     "kind": "fotograf",
+     "author": "Bruno Barbey (zitiert von Magnum Photos)",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/bruno-barbey/",
+     "title": "Bruno Barbey – Fotografenseite, Magnum Photos",
+     "excerpt": "Barbey is known particularly for his free and harmonious use of color. He frequently worked in Morocco, the country of his childhood."
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+     "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+     "excerpt": "But while working on a Vogue assignment in Brazil in 1966, Barbey began to shoot with color film, pioneering its now prevalent use in photojournalism."
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+     "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+     "excerpt": "I had brought a lot of film, including Kodachrome… I started working with this film which is very slow—25 Asa—but is resistant to heat and humidity.",
+     "kind": "fotograf",
+     "author": "Bruno Barbey (zitiert von Carole Naggar)",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "barbey-marokko",
+     "title": "Marokko – die Farbe der Erinnerung (1972–2002)",
+     "year_from": 1972,
+     "year_to": 2002,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+       "excerpt": "The photographer must learn to merge into the walls. Photos must either be taken swiftly, with all the attendant risks, or only after long periods of infinite patience.",
+       "kind": "fotograf",
+       "author": "Bruno Barbey (zitiert von Carole Naggar)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+       "excerpt": "Because of his respect of local customs, Barbey has seldom, if ever, made portraits in close-up in Morocco. He prefers to shoot his subjects from a distance",
+       "kind": "kritik",
+       "author": "Carole Naggar",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+       "excerpt": "In Barbey’s Morocco, shadows have as much weight as people and objects, introducing the mystery of another dimension.",
+       "kind": "kritik",
+       "author": "Carole Naggar",
+       "aspect": "wirkung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+       "excerpt": "Barbey often employs unusual perspectives that flatten the images and merge figures and background.",
+       "kind": "kritik",
+       "author": "Carole Naggar",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "barbey-tangiers",
+       "title": "MOROCCO. Tangiers. 1995.",
+       "year": 1995,
+       "location": "Tanger, Marokko",
+       "tags": [
+        "marokko",
+        "gasse",
+        "meer",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/06/PAR278100-1280x865.jpg",
+       "sources": []
+      },
+      {
+       "key": "barbey-tiznit",
+       "title": "Tiznit, south of Agadir. Morocco. 1987.",
+       "year": 1987,
+       "location": "Tiznit, südlich von Agadir, Marokko",
+       "tags": [
+        "marokko",
+        "schatten",
+        "palme",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/02/cortex/par33488-teaser-story-big.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+         "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+         "excerpt": "In a photograph taken in Tiznit, for instance, the tree’s shadow towers over the silhouette of a man in white djellabah. The darkness traverses his body, covering his torso.",
+         "kind": "kritik",
+         "author": "Carole Naggar",
+         "aspect": "wirkung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "barbey-maadid",
+       "title": "Village of Maadid, near Erfoud. Morocco. 2002.",
+       "year": 2002,
+       "location": "Ksar el Maadid bei Erfoud, Marokko",
+       "tags": [
+        "marokko",
+        "gasse",
+        "rahmen im rahmen",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/02/cortex/par224524-teaser-story-big.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+         "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+         "excerpt": "In a striking photograph taken in Ksar el Maadid, a small, hooded, white-clothed silhouette is framed four times in a series of decreasing nested rectangles of light and shadow, as he disappears in the distance of a twisted street that looks like a labyrinth.",
+         "kind": "kritik",
+         "author": "Carole Naggar",
+         "aspect": "wirkung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "barbey-tiledcourtyard",
+       "title": "The tiled courtyard of the Mosque el Quarauiyine. Morocco. 1983.",
+       "year": 1983,
+       "location": "Hof der Moschee Al-Qarawiyyin, Fès, Marokko",
+       "tags": [
+        "marokko",
+        "aufsicht",
+        "muster",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/02/cortex/par37655-teaser-story-big.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+         "title": "Carole Naggar: Bruno Barbey’s Morocco – the Color of Memory, Magnum Photos (Text von 2020)",
+         "excerpt": "In another photo, also taken from above, the deep black fabric of a man’s djellabah and his white shesh , as well as the overcoat he threw on the floor, become geometric elements that merge into the courtyard’s black and white zelliges , the mosaic tiles typical of Morocco.",
+         "kind": "kritik",
+         "author": "Carole Naggar",
+         "aspect": "wirkung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "barbey-tanners",
+       "title": "Tanners of Sidi Moussa. Guerniz district. Fez. 1984.",
+       "year": 1984,
+       "location": "Gerberviertel Sidi Moussa, Fès, Marokko",
+       "tags": [
+        "marokko",
+        "gerberei",
+        "fläche",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/02/cortex/par38162-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "barbey-hides",
+       "title": "Hides being dried on hillside near the tanning quarter. Fez. Morocco. 1984.",
+       "year": 1984,
+       "location": "Hang beim Gerberviertel, Fès, Marokko",
+       "tags": [
+        "marokko",
+        "häute",
+        "rot",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/02/cortex/par38153-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "barbey-picnic",
+       "title": "Picnic near Marrakech. Morocco. 1972.",
+       "year": 1972,
+       "location": "Bei Marrakesch, Marokko",
+       "tags": [
+        "marokko",
+        "picknick",
+        "gruppe",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/02/cortex/par33542-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "barbey-madrasa",
+       "title": "The madrasa of \"Ben Youssef\", a Koran school which was established during the 14th century, and rebuilt 200 years later. City of Marrakech. Morocco. 2000.",
+       "year": 2000,
+       "location": "Medersa Ben Youssef, Marrakesch, Marokko",
+       "tags": [
+        "marokko",
+        "tor",
+        "wand",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/02/cortex/par184497-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "barbey-market",
+       "title": "Market. Marrakech. Morocco. 1976.",
+       "year": 1976,
+       "location": "Markt, Marrakesch, Marokko",
+       "tags": [
+        "marokko",
+        "souk",
+        "streifenlicht",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/02/cortex/par36330-teaser-story-big.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "koudelka",
+   "name": "Josef Koudelka",
+   "born": 1938,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+     "title": "Josef Koudelka: Exiles – Magnum Photos (mit Zitaten aus Le Monde 2015, Karel Hvížďala 2002 und Clément Chéroux)",
+     "excerpt": "To be in exile is simply to have left one’s country and to be unable to return. Every exile is a different, personal experience. Myself, I wanted to see the world and photograph it.",
+     "kind": "fotograf",
+     "author": "Josef Koudelka (Le Monde, 2015, zitiert von Magnum Photos)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+     "title": "Josef Koudelka: Exiles – Magnum Photos (mit Zitaten aus Le Monde 2015, Karel Hvížďala 2002 und Clément Chéroux)",
+     "excerpt": "I never accepted any assignment, never photographed for money. I took photographs just for myself.",
+     "kind": "fotograf",
+     "author": "Josef Koudelka (im Gespräch mit Karel Hvížďala, 2002)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-gypsies/",
+     "title": "Josef Koudelka: Gypsies – Magnum Photos",
+     "excerpt": "Carrying only his equipment, a rucksack and sleeping bag, Koudelka moved freely between different villages and encampments during the Sixties and early Seventies, sleeping outside and spending his days immersed in recording the individuals he encountered."
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/josef-koudelka/",
+     "title": "Josef Koudelka – Fotografenseite, Magnum Photos",
+     "excerpt": "In 1975, his first book, Gypsies , was published by Aperture, and subsequent titles include Exiles (1988), Chaos (1999), Invasion 68: Prague (2008), Wall (2013), and most recently Ruines (2020)."
+    }
+   ],
+   "projects": [
+    {
+     "key": "koudelka-exiles",
+     "title": "Exiles (1968–1987)",
+     "year_from": 1968,
+     "year_to": 1987,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "title": "Josef Koudelka: Exiles – Magnum Photos (mit Zitaten aus Le Monde 2015, Karel Hvížďala 2002 und Clément Chéroux)",
+       "excerpt": "This exhibition – Exiles – comprises a series of photos taken in Europe and in the U.S. from 1968 to the early 1980s, including some previously unpublished images."
+      },
+      {
+       "url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "title": "Josef Koudelka: Exiles – Magnum Photos (mit Zitaten aus Le Monde 2015, Karel Hvížďala 2002 und Clément Chéroux)",
+       "excerpt": "That’s forty-five years I’ve been travelling. I’ve never stayed anywhere more than three months. When I found no more to photograph, it was time to go",
+       "kind": "fotograf",
+       "author": "Josef Koudelka (Le Monde, 2015)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "title": "Josef Koudelka: Exiles – Magnum Photos (mit Zitaten aus Le Monde 2015, Karel Hvížďala 2002 und Clément Chéroux)",
+       "excerpt": "I learned to sleep anywhere and under any circumstances.",
+       "kind": "fotograf",
+       "author": "Josef Koudelka (im Gespräch mit Karel Hvížďala, 2002)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "title": "Josef Koudelka: Exiles – Magnum Photos (mit Zitaten aus Le Monde 2015, Karel Hvížďala 2002 und Clément Chéroux)",
+       "excerpt": "They cannot really be described as self-portraits, any more than the photos in which his shadow or parts of his body intrude. There is no trace of narcissism in them.",
+       "kind": "kurator",
+       "author": "Clément Chéroux, „La Fabrique d’Exils“",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "title": "Josef Koudelka: Exiles – Magnum Photos (mit Zitaten aus Le Monde 2015, Karel Hvížďala 2002 und Clément Chéroux)",
+       "excerpt": "he was just underlining the fact that he was taking photographs of what he experienced, and experiencing what he photographed.",
+       "kind": "kurator",
+       "author": "Clément Chéroux, „La Fabrique d’Exils“",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "koudelka-sceaux",
+       "title": "Parc de Sceaux, Hauts-de-Seine, France. 1987.",
+       "year": 1987,
+       "location": "Parc de Sceaux, Hauts-de-Seine, Frankreich",
+       "tags": [
+        "exil",
+        "hund",
+        "schnee",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par65507-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "koudelka-croagh",
+       "title": "Croagh Patrick Pilgrimage. Ireland. 1972.",
+       "year": 1972,
+       "location": "Croagh Patrick, Irland",
+       "tags": [
+        "exil",
+        "pilger",
+        "irland",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par65548-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "koudelka-portugal",
+       "title": "Portugal. 1976.",
+       "year": 1976,
+       "location": "Portugal",
+       "tags": [
+        "exil",
+        "schatten",
+        "wand",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par65562.jpg",
+       "sources": []
+      },
+      {
+       "key": "koudelka-guadix",
+       "title": "Guadix, Granada, Andalusia, Spain. 1971.",
+       "year": 1971,
+       "location": "Guadix, Granada, Andalusien, Spanien",
+       "tags": [
+        "exil",
+        "fest",
+        "rauch",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par65566.jpg",
+       "sources": []
+      },
+      {
+       "key": "koudelka-italy82",
+       "title": "Italy. 1982.",
+       "year": 1982,
+       "location": "Italien",
+       "tags": [
+        "exil",
+        "schatten",
+        "bewegung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par65512.jpg",
+       "sources": []
+      },
+      {
+       "key": "koudelka-saintes",
+       "title": "Saintes-Maries-de-la-Mer, Bouches-du-Rhône, France. 1974.",
+       "year": 1974,
+       "location": "Saintes-Maries-de-la-Mer, Frankreich",
+       "tags": [
+        "exil",
+        "roma",
+        "wallfahrt",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par65578.jpg",
+       "sources": []
+      },
+      {
+       "key": "koudelka-ireland78",
+       "title": "Ireland. 1978.",
+       "year": 1978,
+       "location": "Irland",
+       "tags": [
+        "exil",
+        "vogel",
+        "feld",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par65580.jpg",
+       "sources": []
+      },
+      {
+       "key": "koudelka-spain75",
+       "title": "Spain. 1975.",
+       "year": 1975,
+       "location": "Spanien",
+       "tags": [
+        "exil",
+        "beine",
+        "unterwegs",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-exiles/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par65556.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "larrain",
+   "name": "Sergio Larrain",
+   "born": 1931,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/sergio-larrain/",
+     "title": "Sergio Larrain – Fotografenseite, Magnum Photos",
+     "excerpt": "A good image is created by a state of grace. Grace expresses itself when it has been freed from conventions, free like a child in his early discovery of reality. The game is then to organize the rectangle.",
+     "kind": "fotograf",
+     "author": "Sergio Larrain (zitiert von Magnum Photos)",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/exhibitions/sergio-larrain-wanderings/",
+     "title": "Sergio Larrain: Wanderings (ICP-Ausstellung 2025/26) – Magnum Photos (mit Zitaten von Larrain und Agnès Sire)",
+     "excerpt": "When I turn my gaze outward, camera in hand, I am actually looking inward for pictures; I can only materialize that world of phantoms when I see something that resonates with me",
+     "kind": "fotograf",
+     "author": "Sergio Larrain",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/exhibitions/sergio-larrain-wanderings/",
+     "title": "Sergio Larrain: Wanderings (ICP-Ausstellung 2025/26) – Magnum Photos (mit Zitaten von Larrain und Agnès Sire)",
+     "excerpt": "The perfect photograph is a kind of miracle that appears in a blaze of light — subject, shapes and perfect mood; you press the button almost by chance and the miracle happens.",
+     "kind": "fotograf",
+     "author": "Sergio Larrain",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-valparaiso/",
+     "title": "Sergio Larrain: Valparaíso – Magnum Photos",
+     "excerpt": "his signature approach – vertical frames, low angles, and an experimental approach with a humanistic documentarian’s instinct – has rendered him as an idol for photographers that followed him.",
+     "kind": "kritik",
+     "author": "Magnum Photos",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "larrain-vagabondages",
+     "title": "Vagabondages – Chile, London, Sizilien (1952–1963)",
+     "year_from": 1952,
+     "year_to": 1963,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-vagabondages/",
+       "title": "Sergio Larrain: Vagabondages – Magnum Photos",
+       "excerpt": "A penchant for the vagabond’s life, a profound desire to be in the world and the purity of the act led him to become a photographer."
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/exhibitions/sergio-larrain-wanderings/",
+       "title": "Sergio Larrain: Wanderings (ICP-Ausstellung 2025/26) – Magnum Photos (mit Zitaten von Larrain und Agnès Sire)",
+       "excerpt": "His magnetic eye carved out fragments of reality, with no fear of what was outside the frame, of the time to come, of bold diagonals, of direct sunlight or of darkness. Neither are his pictures closed: the figures often move out of the frame, as elusive and resistant to confinement as their author",
+       "kind": "kurator",
+       "author": "Agnès Sire",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/exhibitions/sergio-larrain-wanderings/",
+       "title": "Sergio Larrain: Wanderings (ICP-Ausstellung 2025/26) – Magnum Photos (mit Zitaten von Larrain und Agnès Sire)",
+       "excerpt": "I think that the pressure from the journalism world — to be ready to jump on any subject — is destroying my love and concentration for the work",
+       "kind": "fotograf",
+       "author": "Sergio Larrain (Brief an Henri Cartier-Bresson, 1965)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-valparaiso/",
+       "title": "Sergio Larrain: Valparaíso – Magnum Photos",
+       "excerpt": "Valparaiso is great body of work, starting as a magazine assignment and turning into a full personal project. He captures an atmosphere of the city which feels both personal and heightened",
+       "kind": "kritik",
+       "author": "Martin Parr",
+       "aspect": "wirkung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "larrain-bavestrello",
+       "title": "Passage Bavestrello. Valparaiso, Chile. 1952.",
+       "year": 1952,
+       "location": "Pasaje Bavestrello, Valparaíso, Chile",
+       "tags": [
+        "valparaíso",
+        "treppe",
+        "kinder",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-vagabondages/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par56955.jpg",
+       "sources": []
+      },
+      {
+       "key": "larrain-horcones",
+       "title": "Fishermen daughters. Village of Los Horcones. Chile. 1956.",
+       "year": 1956,
+       "location": "Los Horcones, Chile",
+       "tags": [
+        "chile",
+        "kinder",
+        "strand",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-vagabondages/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par164324.jpg",
+       "sources": []
+      },
+      {
+       "key": "larrain-corleone",
+       "title": "Corleone main street. Sicily, Italy. 1959.",
+       "year": 1959,
+       "location": "Corleone, Sizilien, Italien",
+       "tags": [
+        "sizilien",
+        "straße",
+        "mädchen",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-vagabondages/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par84088.jpg",
+       "sources": []
+      },
+      {
+       "key": "larrain-palermo",
+       "title": "Palermo, Italy. 1959.",
+       "year": 1959,
+       "location": "Palermo, Sizilien, Italien",
+       "tags": [
+        "sizilien",
+        "fenster",
+        "hochformat",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-vagabondages/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par161173.jpg",
+       "sources": []
+      },
+      {
+       "key": "larrain-trafalgar",
+       "title": "Trafalgar square. London, England. Circa 1958.",
+       "year": 1958,
+       "location": "Trafalgar Square, London, England",
+       "tags": [
+        "london",
+        "tauben",
+        "hochformat",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-vagabondages/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par78664.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/exhibitions/sergio-larrain-wanderings/",
+         "title": "Sergio Larrain: Wanderings (ICP-Ausstellung 2025/26) – Magnum Photos (mit Zitaten von Larrain und Agnès Sire)",
+         "excerpt": "This period shows his interest in fragmented silhouettes in immense, urban expanses.",
+         "kind": "kritik",
+         "author": "Magnum Photos",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "larrain-bakerst",
+       "title": "Baker Street underground station. London, England. Circa 1958.",
+       "year": 1958,
+       "location": "U-Bahnhof Baker Street, London, England",
+       "tags": [
+        "london",
+        "rolltreppe",
+        "hochformat",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-vagabondages/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par64485.jpg",
+       "sources": []
+      },
+      {
+       "key": "larrain-valpo63a",
+       "title": "Valparaiso, Chile. 1963.",
+       "year": 1963,
+       "location": "Valparaíso, Chile",
+       "tags": [
+        "valparaíso",
+        "bar",
+        "anschnitt",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-valparaiso/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par21396.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/exhibitions/sergio-larrain-wanderings/",
+         "title": "Sergio Larrain: Wanderings (ICP-Ausstellung 2025/26) – Magnum Photos (mit Zitaten von Larrain und Agnès Sire)",
+         "excerpt": "Here, juxtaposed couples and angular shadows hold a subtle discord between interior and exterior relationships.",
+         "kind": "kritik",
+         "author": "Magnum Photos",
+         "aspect": "deutung",
+         "series_level": true
+        }
+       ]
+      },
+      {
+       "key": "larrain-valpo63b",
+       "title": "Valparaiso, Chile. 1963.",
+       "year": 1963,
+       "location": "Valparaíso, Chile",
+       "tags": [
+        "valparaíso",
+        "treppe",
+        "kind",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-vagabondages/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par21394.jpg",
+       "sources": []
+      },
+      {
+       "key": "larrain-harbour",
+       "title": "Harbour. Valparaiso, Chile. 1963.",
+       "year": 1963,
+       "location": "Hafen, Valparaíso, Chile",
+       "tags": [
+        "valparaíso",
+        "hafen",
+        "abend",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-vagabondages/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par21387.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "manos",
+   "name": "Constantine Manos",
+   "born": 1934,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/constantine-manos-american-color/",
+     "title": "Constantine Manos: American Color – Magnum Photos (mit Zitat aus dem Vorwort des Buchs)",
+     "excerpt": "The flow of people in a setting, their changing relationship to each other and their environment, and their constantly changing expressions and movements – all combine to create dynamic situations which provide the photographer with limitless choices of when to push the button. By choosing a precise intersection between subject and time, he may transform the ordinary into the extraordinary and the real into the surreal.",
+     "kind": "fotograf",
+     "author": "Constantine Manos, Vorwort zu „American Color“",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://huckmag.com/article/sun-soaked-scenes-florida-coast",
+     "title": "Huck Magazine: Surreal, sun-soaked scenes from the Florida coast (Constantine Manos)",
+     "excerpt": "I’m not just satisfied with what things look like; I choose to shoot a combination of people and place that doesn’t try to explain anything but asks questions and presents problems to the viewer.",
+     "kind": "fotograf",
+     "author": "Constantine Manos (Huck)",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://huckmag.com/article/sun-soaked-scenes-florida-coast",
+     "title": "Huck Magazine: Surreal, sun-soaked scenes from the Florida coast (Constantine Manos)",
+     "excerpt": "When you are outside, people don’t even know you are there even though you may be taking their picture. You may just have a small camera and a wide-angle lens.",
+     "kind": "fotograf",
+     "author": "Constantine Manos (Huck)",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/newsroom/remembering-constantine-manos-1934-2025/",
+     "title": "Remembering Constantine Manos (1934–2025) – Magnum Photos",
+     "excerpt": "Though he was from South Carolina, Manos reflected that his life-long fascination with “the Americans” in this project arose from an outsider’s perspective, having been brought up in a Greek family."
+    }
+   ],
+   "projects": [
+    {
+     "key": "manos-american-color",
+     "title": "American Color (1982–1997)",
+     "year_from": 1982,
+     "year_to": 1997,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/constantine-manos-american-color/",
+       "title": "Constantine Manos: American Color – Magnum Photos (mit Zitat aus dem Vorwort des Buchs)",
+       "excerpt": "Although the pictures were taken in the United States, they do not pretend to constitute a general or definitive statement about the country or its people. They are instead specific moments which cannot be categorized and which exist for their own sake."
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/travel/constantine-manos-america-at-the-beach/",
+       "title": "America at the Beach: A Color Study – Constantine Manos, Magnum Photos",
+       "excerpt": "I think that color is more vibrant at the beach – probably because of reflection from the sand, which is usually white,",
+       "kind": "fotograf",
+       "author": "Constantine Manos",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/travel/constantine-manos-america-at-the-beach/",
+       "title": "America at the Beach: A Color Study – Constantine Manos, Magnum Photos",
+       "excerpt": "They are having a good time and enjoying the sun and surf, so much so that they are oblivious to the photographer – provided that he moves discreetly and never locks in on any one group or individual too long.",
+       "kind": "fotograf",
+       "author": "Constantine Manos",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/travel/constantine-manos-america-at-the-beach/",
+       "title": "America at the Beach: A Color Study – Constantine Manos, Magnum Photos",
+       "excerpt": "the vitality of the colors matched by the dynamism of composition–with figures in motion casting shadows against brightly painted walls",
+       "kind": "kritik",
+       "author": "Magnum Photos",
+       "aspect": "wirkung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "manos-louisiana82",
+       "title": "Louisiana, USA. 1982.",
+       "year": 1982,
+       "location": "Louisiana, USA",
+       "tags": [
+        "usa",
+        "umzug",
+        "farbe",
+        "anschnitt"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/constantine-manos-american-color/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nyc8412.jpg",
+       "sources": []
+      },
+      {
+       "key": "manos-neworleans82",
+       "title": "New Orleans, USA. 1982.",
+       "year": 1982,
+       "location": "New Orleans, USA",
+       "tags": [
+        "usa",
+        "nahdistanz",
+        "farbe",
+        "anschnitt"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/constantine-manos-american-color/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nyc8432.jpg",
+       "sources": []
+      },
+      {
+       "key": "manos-sf82",
+       "title": "San Francisco, USA. 1982.",
+       "year": 1982,
+       "location": "San Francisco, USA",
+       "tags": [
+        "usa",
+        "golden gate",
+        "farbe",
+        "rückenfigur"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/constantine-manos-american-color/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nyc8429.jpg",
+       "sources": []
+      },
+      {
+       "key": "manos-coney87",
+       "title": "Coney Island. New York City, USA. 1987.",
+       "year": 1987,
+       "location": "Coney Island, New York, USA",
+       "tags": [
+        "usa",
+        "rummel",
+        "farbe",
+        "anschnitt"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/constantine-manos-american-color/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nyc8467.jpg",
+       "sources": []
+      },
+      {
+       "key": "manos-atlantic87",
+       "title": "Atlantic City, USA. 1987.",
+       "year": 1987,
+       "location": "Atlantic City, New Jersey, USA",
+       "tags": [
+        "usa",
+        "boardwalk",
+        "farbe",
+        "rot"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/constantine-manos-american-color/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nyc8465.jpg",
+       "sources": []
+      },
+      {
+       "key": "manos-daytona88",
+       "title": "Daytona Beach, USA. 1988.",
+       "year": 1988,
+       "location": "Daytona Beach, Florida, USA",
+       "tags": [
+        "usa",
+        "silhouette",
+        "schatten",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/constantine-manos-american-color/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nyc8473.jpg",
+       "sources": []
+      },
+      {
+       "key": "manos-dallas89",
+       "title": "Dallas, USA. 1989.",
+       "year": 1989,
+       "location": "Dallas, Texas, USA",
+       "tags": [
+        "usa",
+        "uniform",
+        "farbe",
+        "rot"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/constantine-manos-american-color/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nyc8488.jpg",
+       "sources": []
+      },
+      {
+       "key": "manos-mardigras",
+       "title": "Mardi Gras. In the doorway of a gay bar in the French Quarter. New Orleans, USA. 1993.",
+       "year": 1993,
+       "location": "French Quarter, New Orleans, USA",
+       "tags": [
+        "usa",
+        "karneval",
+        "nahdistanz",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/constantine-manos-american-color/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nyc8491.jpg",
+       "sources": []
+      },
+      {
+       "key": "manos-daytona97",
+       "title": "Daytona Beach, Florida. USA. 1997.",
+       "year": 1997,
+       "location": "Daytona Beach, Florida, USA",
+       "tags": [
+        "usa",
+        "strand",
+        "schatten",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/travel/constantine-manos-america-at-the-beach/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2018/07/cortex/nyc8519-teaser-story-big.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/travel/constantine-manos-america-at-the-beach/",
+         "title": "America at the Beach: A Color Study – Constantine Manos, Magnum Photos",
+         "excerpt": "something the photographer captured in one of his most-loved images, of a group of women dancing in the back of a truck, their shadows showing their hands aloft, as two cars of men look on.",
+         "kind": "kurator",
+         "author": "Magnum Photos",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://www.magnumphotos.com/arts-culture/travel/constantine-manos-america-at-the-beach/",
+         "title": "America at the Beach: A Color Study – Constantine Manos, Magnum Photos",
+         "excerpt": "Daytona Beach in Florida is very wide and was once open to cars driving on the beach",
+         "kind": "fotograf",
+         "author": "Constantine Manos",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "parke",
+   "name": "Trent Parke",
+   "born": 1971,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/trent-parke/",
+     "title": "Trent Parke – Fotografenseite, Magnum Photos",
+     "excerpt": "I am forever chasing light. Light turns the ordinary into the magical.",
+     "kind": "fotograf",
+     "author": "Trent Parke (zitiert von Magnum Photos)",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/trent-parke/",
+     "title": "Trent Parke – Fotografenseite, Magnum Photos",
+     "excerpt": "Though rooted in documentary, his works sit between fiction and reality, exploring themes of identity, place and family life."
+    },
+    {
+     "url": "https://www.realtime.org.au/?p=8408",
+     "title": "RealTime: Minutes to Midnight (Ausstellungsbesprechung, Australian Centre for Photography 2005, mit Tagebuchauszügen Parkes)",
+     "excerpt": "At times I feel like I’m looking through the eyes of an actor in a film. We stop at some strange place, pop into the live set and click away as the plot unfolds before us, the scene and characters ever changing as the reality reel rolls on.",
+     "kind": "fotograf",
+     "author": "Trent Parke, Tagebucheintrag (Minutes to Midnight)",
+     "aspect": "entstehung",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "parke-minutes-to-midnight",
+     "title": "Minutes to Midnight – Roadtrip durch Australien (2003–2004)",
+     "year_from": 2003,
+     "year_to": 2004,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+       "title": "Trent Parke: Minutes to Midnight – Magnum Photos",
+       "excerpt": "Traveling 90,000 kilometers across Australia with his partner Narelle Autio, Trent Parke produced a body of work which he came to call Minutes to Midnight ."
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+       "title": "Trent Parke: Minutes to Midnight – Magnum Photos",
+       "excerpt": "The work is both a document of a changing nation, uneasy with its identity and its place in the world, and a work of fiction which when combined suggests the build-up, aftermath and rebirth of an apocalyptic world.",
+       "kind": "kurator",
+       "author": "Magnum Photos",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.agsa.sa.gov.au/collection-publications/collection/works/moving-bus/32957",
+       "title": "Trent Parke, Moving bus (2003) – Art Gallery of South Australia, Sammlung",
+       "excerpt": "His intention was to ‘capture the mood and emotions of a still young and emerging nation before it significantly changed forever’.",
+       "kind": "museum",
+       "author": "Art Gallery of South Australia",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.realtime.org.au/?p=8408",
+       "title": "RealTime: Minutes to Midnight (Ausstellungsbesprechung, Australian Centre for Photography 2005, mit Tagebuchauszügen Parkes)",
+       "excerpt": "Parke works the film to its limits, employing his trademark wide-angle slabs of black intersected by myriad patterns of light to powerfully reveal a shadowland of violence and unease.",
+       "kind": "kritik",
+       "author": "RealTime (Ausstellungsbesprechung)",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.realtime.org.au/?p=8408",
+       "title": "RealTime: Minutes to Midnight (Ausstellungsbesprechung, Australian Centre for Photography 2005, mit Tagebuchauszügen Parkes)",
+       "excerpt": "I suppose it’s a hard country with the droughts and firestorms and poverty. And while there is a kind of freedom to it, there is also a stifling sense of ‘this is the way it is.’",
+       "kind": "fotograf",
+       "author": "Trent Parke, Tagebucheintrag",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "parke-movingbus",
+       "title": "Moving bus, from the series Minutes to Midnight, 2003, Sydney",
+       "year": 2003,
+       "location": "Sydney, Australien",
+       "tags": [
+        "australien",
+        "schatten",
+        "bewegung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.agsa.sa.gov.au/collection-publications/collection/works/moving-bus/32957",
+       "image_url": "https://agsa-prod.s3.amazonaws.com/media/dd/images/35404-WR-20114PH10.9545884.jpg",
+       "sources": [
+        {
+         "url": "https://www.agsa.sa.gov.au/collection-publications/collection/works/moving-bus/32957",
+         "title": "Trent Parke, Moving bus (2003) – Art Gallery of South Australia, Sammlung",
+         "excerpt": "Moving bus is one of his most technically accomplished works. Although it is not immediately clear what the photograph depicts, the ghostly image is in fact the shadow cast onto the side of a moving bus by a crowd of people standing on a Sydney street.",
+         "kind": "museum",
+         "author": "Art Gallery of South Australia",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "parke-rally",
+       "title": "A rally car leaves a trail of dust over the open fields of Muresk on leg two of the World Rally Championships. Western Australia. 2003.",
+       "year": 2003,
+       "location": "Muresk, Western Australia",
+       "tags": [
+        "australien",
+        "staub",
+        "aufsicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/lon39084.jpg",
+       "sources": []
+      },
+      {
+       "key": "parke-flyingfoxes",
+       "title": "Plague of flying foxes in Mataranka. Northern Territory, Australia. 2004.",
+       "year": 2004,
+       "location": "Mataranka, Northern Territory, Australien",
+       "tags": [
+        "australien",
+        "flughunde",
+        "himmel",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/lon66010.jpg",
+       "sources": []
+      },
+      {
+       "key": "parke-foxsky",
+       "title": "Flying foxes in the night sky in Mataranka. Northern Territory, Australia. 2004.",
+       "year": 2004,
+       "location": "Mataranka, Northern Territory, Australien",
+       "tags": [
+        "australien",
+        "nacht",
+        "blitz",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/lon66009.jpg",
+       "sources": []
+      },
+      {
+       "key": "parke-gunnedah",
+       "title": "New years eve in Gunnedah. New South Wales, Australia. 2003.",
+       "year": 2003,
+       "location": "Gunnedah, New South Wales, Australien",
+       "tags": [
+        "australien",
+        "regen",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/lon65988.jpg",
+       "sources": []
+      },
+      {
+       "key": "parke-birdsville",
+       "title": "Birdsville. Queensland, Australia. 2004.",
+       "year": 2004,
+       "location": "Birdsville, Queensland, Australien",
+       "tags": [
+        "australien",
+        "nacht",
+        "menge",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/lon66001.jpg",
+       "sources": []
+      },
+      {
+       "key": "parke-jack",
+       "title": "Five year old Jack watches 'The Simpsons' on television in a caravan. Cairns, Australia. 2003.",
+       "year": 2003,
+       "location": "Cairns, Queensland, Australien",
+       "tags": [
+        "australien",
+        "wohnwagen",
+        "innenraum",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/lon57339.jpg",
+       "sources": []
+      },
+      {
+       "key": "parke-opossum",
+       "title": "Opossum jumping from tree in Newcastle. New South Wales, Australia. 2004.",
+       "year": 2004,
+       "location": "Newcastle, New South Wales, Australien",
+       "tags": [
+        "australien",
+        "nacht",
+        "blitz",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/lon66028.jpg",
+       "sources": []
+      },
+      {
+       "key": "parke-berwick",
+       "title": "Portrait of a young girl in Berwick Suburbs. Victoria, Australia. 2004.",
+       "year": 2004,
+       "location": "Berwick, Victoria, Australien",
+       "tags": [
+        "australien",
+        "porträt",
+        "vorstadt",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/lon66014.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "pinkhassov",
+   "name": "Gueorgui Pinkhassov",
+   "born": 1952,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/gueorgui-pinkhassov/",
+     "title": "Gueorgui Pinkhassov – Fotografenseite, Magnum Photos",
+     "excerpt": "The only thing that counts is curiosity. For me personally, this is what creativity is about. It testifies itself not in the fear of doing the same thing over again but rather in the urge of not going somewhere you have been before.",
+     "kind": "fotograf",
+     "author": "Gueorgui Pinkhassov (zitiert von Magnum Photos)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/gueorgui-pinkhassov/",
+     "title": "Gueorgui Pinkhassov – Fotografenseite, Magnum Photos",
+     "excerpt": "As his first book, Sightwalk , proves, Gueorgui Pinkhassov prefers to explore individual details, through reflections or particular kinds of light, often approaching abstraction."
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/travel/gueorgui-pinkhassov-marseilles-city-lights/",
+     "title": "Gueorgui Pinkhassov: Marseille’s City Lights – Magnum Photos",
+     "excerpt": "I photograph what I see, not what happens. I think the artistic approach helps strip away prejudices,",
+     "kind": "fotograf",
+     "author": "Gueorgui Pinkhassov",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/travel/gueorgui-pinkhassov-marseilles-city-lights/",
+     "title": "Gueorgui Pinkhassov: Marseille’s City Lights – Magnum Photos",
+     "excerpt": "In the morning, I usually go jogging with a small camera, I get lost in the streets.",
+     "kind": "fotograf",
+     "author": "Gueorgui Pinkhassov",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "pinkhassov-sightwalk",
+     "title": "Sightwalk – Tokio (1996)",
+     "year_from": 1996,
+     "year_to": 1996,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/",
+       "title": "Gueorgui Pinkhassov: Sightwalk – Magnum Photos",
+       "excerpt": "Sightwalk gathers colourful scenes taken in the streets of Tokyo."
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/",
+       "title": "Gueorgui Pinkhassov: Sightwalk – Magnum Photos",
+       "excerpt": "Pinkhassov sees the overlooked and neglected, bringing to life outstanding compositions with a distinctive visual language, which encompasses blurred foregrounds, vibrant color, reflections and shadows.",
+       "kind": "kurator",
+       "author": "Magnum Photos",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/",
+       "title": "Gueorgui Pinkhassov: Sightwalk – Magnum Photos",
+       "excerpt": "Stamped with Gueorgui Pinkhassov’s unique eye for detail , they are characterized by his mastery of framing and light.",
+       "kind": "kurator",
+       "author": "Magnum Photos",
+       "aspect": "wirkung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "pinkhassov-hotel",
+       "title": "Hotel in Akasaka area. Tokyo, Japan. 1996.",
+       "year": 1996,
+       "location": "Akasaka, Tokio, Japan",
+       "tags": [
+        "tokio",
+        "streifenlicht",
+        "farbe",
+        "innenraum"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par93487.jpg",
+       "sources": []
+      },
+      {
+       "key": "pinkhassov-crossing",
+       "title": "People crossing road in the Akasaka area. Tokyo, Japan. 1996.",
+       "year": 1996,
+       "location": "Akasaka, Tokio, Japan",
+       "tags": [
+        "tokio",
+        "unschärfe",
+        "aufsicht",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par93484.jpg",
+       "sources": []
+      },
+      {
+       "key": "pinkhassov-akasakamitsuke",
+       "title": "Akasakamitsuke tube station. Tokyo, Japan. 1996.",
+       "year": 1996,
+       "location": "U-Bahnhof Akasaka-mitsuke, Tokio, Japan",
+       "tags": [
+        "tokio",
+        "u-bahn",
+        "plakat",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par93477.jpg",
+       "sources": []
+      },
+      {
+       "key": "pinkhassov-garden",
+       "title": "Hotel garden in Akasaka. Tokyo, Japan. 1996.",
+       "year": 1996,
+       "location": "Hotelgarten, Akasaka, Tokio, Japan",
+       "tags": [
+        "tokio",
+        "koi",
+        "anschnitt",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par93483.jpg",
+       "sources": []
+      },
+      {
+       "key": "pinkhassov-restaurant",
+       "title": "Hotel restaurant. Tokyo, Japan. 1996.",
+       "year": 1996,
+       "location": "Hotelrestaurant, Tokio, Japan",
+       "tags": [
+        "tokio",
+        "rot",
+        "spiegelung",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par94830.jpg",
+       "sources": []
+      },
+      {
+       "key": "pinkhassov-carpark",
+       "title": "Car park at shopping mall. Tokyo, Japan. 1996.",
+       "year": 1996,
+       "location": "Parkhaus eines Einkaufszentrums, Tokio, Japan",
+       "tags": [
+        "tokio",
+        "grün",
+        "aufsicht",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par93515.jpg",
+       "sources": []
+      },
+      {
+       "key": "pinkhassov-bridge",
+       "title": "Bridge at sundown. Tokyo, Japan. 1996.",
+       "year": 1996,
+       "location": "Tokio, Japan",
+       "tags": [
+        "tokio",
+        "blaue stunde",
+        "brücke",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par96987.jpg",
+       "sources": []
+      },
+      {
+       "key": "pinkhassov-shinjuku",
+       "title": "Businessman walks through Shinjuku area. Tokyo, Japan. 1996.",
+       "year": 1996,
+       "location": "Shinjuku, Tokio, Japan",
+       "tags": [
+        "tokio",
+        "schatten",
+        "hochformat",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/par93481.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "economopoulos",
+   "name": "Nikos Economopoulos",
+   "born": 1953,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/nikos-economopoulos/",
+     "title": "Nikos Economopoulos – Fotografenseite, Magnum Photos",
+     "excerpt": "Being on the road, traveling without a predetermined purpose, looking around me with visual curiosity and being surprised by what I encounter. While shooting, somehow, thinking is suspended. It is like playing a game with reality.",
+     "kind": "fotograf",
+     "author": "Nikos Economopoulos (zitiert von Magnum Photos)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+     "title": "Nikos Economopoulos: In the Balkans – States of Transit and Transition (Interview), Magnum Photos",
+     "excerpt": "The only way to approach it is through instinct",
+     "kind": "fotograf",
+     "author": "Nikos Economopoulos",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+     "title": "Nikos Economopoulos: In the Balkans – States of Transit and Transition (Interview), Magnum Photos",
+     "excerpt": "The margins are part of the whole. What you encounter there not only sheds a better light on the rest but also defines it.",
+     "kind": "fotograf",
+     "author": "Nikos Economopoulos",
+     "aspect": "deutung",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "economopoulos-in-the-balkans",
+     "title": "In the Balkans (1987–1995)",
+     "year_from": 1987,
+     "year_to": 1995,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+       "title": "Nikos Economopoulos: In the Balkans – States of Transit and Transition (Interview), Magnum Photos",
+       "excerpt": "The work he produced in the region between 1987 and 1995 became the book, In the Balkans"
+      },
+      {
+       "url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+       "title": "Nikos Economopoulos: In the Balkans – States of Transit and Transition (Interview), Magnum Photos",
+       "excerpt": "What I recorded was the direct, raw aftermath of the wars: the period when the dust starts settling and life starts picking up again, but everything still remains shady and uncertain.",
+       "kind": "fotograf",
+       "author": "Nikos Economopoulos",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+       "title": "Nikos Economopoulos: In the Balkans – States of Transit and Transition (Interview), Magnum Photos",
+       "excerpt": "Roaming around this territory is an exercise in seeking familiarity and at the same time navigating deep waters.",
+       "kind": "fotograf",
+       "author": "Nikos Economopoulos",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+       "title": "Nikos Economopoulos: In the Balkans – States of Transit and Transition (Interview), Magnum Photos",
+       "excerpt": "For me this work is a self-portrait: my work in the Balkans depicts my own sense of belonging, the place where I can stand closer to my own emotions and live by them.",
+       "kind": "fotograf",
+       "author": "Nikos Economopoulos",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "econ-anatolia",
+       "title": "Central Anatolia, Turkey. 1988.",
+       "year": 1988,
+       "location": "Zentralanatolien, Türkei",
+       "tags": [
+        "balkan",
+        "türkei",
+        "wohnwagen",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/01/ECN1988002W00050-12A-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "econ-turkeyfarm",
+       "title": "Turkey farm. Greece. 1988.",
+       "year": 1988,
+       "location": "Griechenland",
+       "tags": [
+        "balkan",
+        "zaun",
+        "truthähne",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/01/ECN1988001W00049-03S.jpg",
+       "sources": []
+      },
+      {
+       "key": "econ-avlona",
+       "title": "Women watching the dancing during a local feast. Avlona village, Greece. 1989.",
+       "year": 1989,
+       "location": "Avlona, Griechenland",
+       "tags": [
+        "balkan",
+        "fest",
+        "anschnitt",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/01/ECN1989001W00006-16-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "econ-kars",
+       "title": "Nomads. Kars village, Turkey. 1990.",
+       "year": 1990,
+       "location": "Bei Kars, Türkei",
+       "tags": [
+        "balkan",
+        "nomaden",
+        "kinder",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/01/ECN1990001W00002-19.jpg",
+       "sources": []
+      },
+      {
+       "key": "econ-bucharest",
+       "title": "Tanks guarding the parliament in Bucharest, just after the revolution and the collapse of the Communist goverment. Romania. 1991.",
+       "year": 1991,
+       "location": "Bukarest, Rumänien",
+       "tags": [
+        "balkan",
+        "nebel",
+        "panzer",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/01/ECN1991003W00002-14-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "econ-vukovar",
+       "title": "Gypsy musicians playing on the street. Town of Vukovar, Croatia. 1992.",
+       "year": 1992,
+       "location": "Vukovar, Kroatien",
+       "tags": [
+        "balkan",
+        "musiker",
+        "kriegsruinen",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/01/ECN1992010W00001-32-copy-teaser-story-big.jpg",
+       "sources": []
+      },
+      {
+       "key": "econ-parakalamos",
+       "title": "A gypsy musician. Epirus, Parakalamos, Greece. 1993.",
+       "year": 1993,
+       "location": "Parakalamos, Epirus, Griechenland",
+       "tags": [
+        "balkan",
+        "musiker",
+        "roma",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/01/ECN1993003W00028-30S.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 3,
+   "title": "Der entscheidende Augenblick: Straßenfotografie und die Gründung von Magnum",
+   "key_images": [
+    "bischof-meiji",
+    "bischof-flute",
+    "larrain-bavestrello",
+    "larrain-horcones",
+    "larrain-trafalgar",
+    "riboud-buzkashi"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Farbe wird ernst genommen: die Farbfotografen der 70er",
+   "key_images": [
+    "barbey-tiznit",
+    "barbey-maadid",
+    "barbey-tiledcourtyard",
+    "manos-daytona97",
+    "manos-coney87",
+    "morath-memphis"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Das Reisemagazin-Zeitalter: ikonische Reportage- und Porträtbilder",
+   "key_images": [
+    "bischof-kowloon",
+    "bischof-cham",
+    "riboud-bamiyanwomen",
+    "riboud-teahouse",
+    "barbey-picnic",
+    "econ-vukovar",
+    "econ-bucharest"
+   ]
+  },
+  {
+   "number": 11,
+   "title": "Die Reise als Autorenprojekt: Roadtrip, Fremde, Blick von außen",
+   "key_images": [
+    "morath-hitchhikers",
+    "morath-crater",
+    "morath-arkansas",
+    "parke-movingbus",
+    "parke-rally",
+    "parke-flyingfoxes",
+    "koudelka-sceaux",
+    "koudelka-croagh",
+    "koudelka-spain75",
+    "riboud-cemetery",
+    "econ-anatolia",
+    "pinkhassov-crossing",
+    "pinkhassov-hotel"
+   ]
+  }
+ ]
+}
