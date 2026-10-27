@@ -1,0 +1,514 @@
+{
+ "accessed_at": "2026-10-27",
+ "references": [
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2006AU1467/full/1600,/0/default.jpg",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O72699/",
+     "title": "The Great Wave, Sète – Victoria and Albert Museum (Objektseite O72699)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "At the horizon, the clouds are cut off where they meet the sea. This indicates the join between two separate negatives. The combination of two negatives allowed Le Gray to achieve tonal balance between sea and sky on the final print.",
+     "translation_de": "Am Horizont sind die Wolken dort abgeschnitten, wo sie aufs Meer treffen – die Nahtstelle zweier Negative. Durch die Kombination zweier Negative erreichte Le Gray im Abzug ein tonales Gleichgewicht zwischen Meer und Himmel."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Laut V&A sind die Wolken am Horizont dort abgeschnitten, wo sie auf das Meer treffen – die Naht zweier Negative [Q1]. Die Kombination erlaubte ein tonales Gleichgewicht zwischen Meer und Himmel, das ein einzelnes Negativ nicht geliefert hätte [Q1].",
+   "checkable": [
+    "Himmel und Meer sind beide durchgezeichnet – keiner von beiden ist ausgebrannt oder abgesoffen [Q1]",
+    "Am Horizont enden die Wolken abrupt an der Wasserlinie (Negativnaht) [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2006AH3854/full/1600,/0/default.jpg",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O90302/",
+     "title": "The Sun at its Zenith - Ocean – Victoria and Albert Museum (Objektseite O90302)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "Le Gray shot directly into the sun for this photograph in an attempt to balance on one glass negative the exposure for a bright sky and a relatively dark sea.",
+     "translation_de": "Le Gray fotografierte direkt in die Sonne, um auf einem einzigen Glasnegativ die Belichtung für hellen Himmel und relativ dunkles Meer auszugleichen."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O90302/",
+     "title": "The Sun at its Zenith - Ocean – Victoria and Albert Museum (Objektseite O90302)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "The sun has become a dark disc owing to a photochemical phenomenon in which extreme overexposure at an intense point of light reverses the tones on the negative.",
+     "translation_de": "Die Sonne ist zur dunklen Scheibe geworden – eine fotochemische Umkehrung der Tonwerte durch extreme Überbelichtung an einem intensiven Lichtpunkt."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Le Gray fotografierte direkt in die Sonne, um hellen Himmel und dunkles Meer auf einem Negativ auszugleichen [Q1]. Die Sonne erscheint durch extreme Überbelichtung als dunkle Scheibe (Tonwertumkehr im Negativ) [Q2].",
+   "checkable": [
+    "Gegenlicht: Kamera zeigt in Richtung Sonne [Q1]",
+    "Die Sonne im Himmel ist dunkel statt hell [Q2]",
+    "Ein einziges Negativ – Himmel und Meer ohne Naht [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2006AY0254/full/1600,/0/default.jpg",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O91293/",
+     "title": "The Steamboat - Ocean – Victoria and Albert Museum (Objektseite O91293)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "The lack of clouds, and the horizon blurred by sea mist, creates an environment in which the small vessel at the precise centre seems to sail into the unknown.",
+     "translation_de": "Das Fehlen von Wolken und der vom Seedunst verwischte Horizont lassen das kleine Schiff genau in der Bildmitte ins Unbekannte fahren."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O91293/",
+     "title": "The Steamboat - Ocean – Victoria and Albert Museum (Objektseite O91293)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "As an artist, he knew when to apply the drama of a turbulent sky and could easily have added one here from a second negative, as he had done elsewhere. Yet he preferred to leave it barren to enhance the feeling of isolation and vulnerability.",
+     "translation_de": "Er hätte hier leicht einen dramatischen Himmel aus einem zweiten Negativ einfügen können, wie anderswo. Er ließ ihn aber leer, um Isolation und Verletzlichkeit zu verstärken."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Weggelassen sind die Wolken: Le Gray hätte leicht einen dramatischen Himmel aus einem zweiten Negativ einsetzen können, ließ ihn aber leer, um Isolation und Verletzlichkeit zu steigern [Q2]. Der Horizont ist vom Seedunst verwischt, das kleine Schiff steht genau in der Mitte [Q1].",
+   "checkable": [
+    "Himmel ohne Wolken, fast leer [Q1][Q2]",
+    "Horizont im Dunst unscharf/verwischt [Q1]",
+    "Ein einziges kleines Schiff in der Bildmitte [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2006AH2030/full/1600,/0/default.jpg",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O91065/",
+     "title": "The Tugboat – Victoria and Albert Museum (Objektseite O91065)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "The forms on the horizon stand out in silhouette, or contre jour - a French term used by artists and literally meaning 'against the day'.",
+     "translation_de": "Die Formen am Horizont stehen als Silhouette im Gegenlicht („contre-jour“)."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O91065/",
+     "title": "The Tugboat – Victoria and Albert Museum (Objektseite O91065)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "In this image the atmospheric cloud forms are echoed by a dark plume of smoke coming from a steam-powered tugboat. Behind it trails a sailing ship.",
+     "translation_de": "Die Wolkenformen werden von der dunklen Rauchfahne eines Dampfschleppers aufgenommen; dahinter folgt ein Segelschiff."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Schiffe am Horizont stehen im Gegenlicht als Silhouetten [Q1]. Die dunkle Rauchfahne des Schleppers nimmt die Wolkenformen auf [Q2].",
+   "checkable": [
+    "Schiffe am Horizont als dunkle Silhouetten (contre-jour) [Q1]",
+    "Dunkle Rauchfahne zieht sich wie eine Wolke über den Horizont [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2015HP1950/full/1600,/0/default.jpg",
+   "dimension": "focus",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O190906/",
+     "title": "In the Haysel – Victoria and Albert Museum (Objektseite O190906)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "According to Emerson, to record the effects of nature, photographers should use the 'selective focus' method. He explains, 'The principal object in the picture must be … just as sharp as the eye sees it, and no sharper; but everything else … must be subdued'.",
+     "translation_de": "Laut Emerson sollte man Naturwirkungen mit „selektiver Schärfe“ festhalten: „Das Hauptmotiv muss … genau so scharf sein, wie das Auge es sieht, und nicht schärfer; alles andere … muss zurückgenommen werden.“"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O190906/",
+     "title": "In the Haysel – Victoria and Albert Museum (Objektseite O190906)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "The result, apparent in his treatment of the wispy hay on the cart, might be considered a photographic equivalent of an Impressionist painting.",
+     "translation_de": "Das Ergebnis, sichtbar am fransigen Heu auf dem Wagen, lässt sich als fotografisches Gegenstück zu impressionistischer Malerei sehen."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Emerson forderte selektive Schärfe: das Hauptmotiv so scharf, wie das Auge es sieht, und nicht schärfer, alles andere zurückgenommen [Q1]. Im Bild zeigt sich das am fransigen Heu auf dem Wagen, das an impressionistische Malerei erinnert [Q2].",
+   "checkable": [
+    "Wagen mit Heu ist das am deutlichsten gezeichnete Motiv [Q1][Q2]",
+    "Umgebung (Ferne, Vordergrund) weicher als das Hauptmotiv [Q1]",
+    "Heu wirkt fransig-weich statt messerscharf [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2015HP1960/full/1600,/0/default.jpg",
+   "dimension": "focus",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313847/",
+     "title": "Pictures of East Anglian Life (Tafel Where Winds the Dike) – Victoria and Albert Museum (Objektseite O1313847)",
+     "author": "Peter Henry Emerson (zitiert vom V&A)",
+     "kind": "photographer",
+     "excerpt": "'The whole picture is [deliberately] out of focus', Emerson writes. He also maintains that no lens yet made could give this effect, perhaps emphasizing his artistic eye.",
+     "translation_de": "„Das ganze Bild ist [absichtlich] unscharf“, schreibt Emerson; kein bisher gebautes Objektiv könne diese Wirkung liefern."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313847/",
+     "title": "Pictures of East Anglian Life (Tafel Where Winds the Dike) – Victoria and Albert Museum (Objektseite O1313847)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "In the note 'To the Student', pasted to the inside cover of the Pictures of East Anglian Life portfolio, Emerson declares that, out of the 10 plates selected, the image Where Winds the Dike is the second most successful in portraying his theories on focussing.",
+     "translation_de": "In der Notiz „To the Student“ erklärt Emerson, „Where Winds the Dike“ zeige von den zehn Tafeln seine Theorie der Scharfstellung am zweitbesten."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Emerson selbst schreibt, das ganze Bild sei absichtlich unscharf; kein Objektiv könne diese Wirkung liefern [Q1]. Er hielt es für die zweitbeste Tafel zur Veranschaulichung seiner Scharfstellungstheorie [Q2].",
+   "checkable": [
+    "Keine Zone des Bildes ist wirklich scharf [Q1]",
+    "Gatter, Graben und Bäume sind weich gezeichnet [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2015HP1959/full/1600,/0/default.jpg",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O1160233/",
+     "title": "A Stiff Pull – Victoria and Albert Museum (Objektseite O1160233)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "In this photogravure, published in the book and the portfolio, the clouds have been enhanced for greater dramatic effect, and the tree that appeared in the right-hand corner of the albumen print has been completely removed.",
+     "translation_de": "In dieser Fotogravüre sind die Wolken für mehr Dramatik verstärkt, und der Baum in der rechten Ecke des Albuminabzugs ist vollständig entfernt."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "In der Fotogravüre ist der Baum, der im Albuminabzug in der rechten Ecke stand, vollständig entfernt; die Wolken wurden für mehr Dramatik verstärkt [Q1].",
+   "checkable": [
+    "Rechte Bildecke frei – kein Baum [Q1]",
+    "Dunkler, dramatischer Himmel über dem Gespann [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2015HP1988/full/1600,/0/default.jpg",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313842/",
+     "title": "Idyls of the Norfolk Broads (Tafel A Grey Day Pastoral) – Victoria and Albert Museum (Objektseite O1313842)",
+     "author": "Peter Henry Emerson (zitiert vom V&A)",
+     "kind": "photographer",
+     "excerpt": "It is one of those moist days when the air is full of vapour; a day on which all the outlines of buildings and trees are softened and fade mysteriously into the sky. …Some sheep lie resting on the green marsh; the mill in the heavy air is also at rest, its mighty wings partially veiled in the mist",
+     "translation_de": "„Es ist einer jener feuchten Tage, an denen die Luft voller Dunst ist; alle Umrisse von Gebäuden und Bäumen sind weich und verschwinden geheimnisvoll im Himmel. … Einige Schafe ruhen auf der grünen Marsch; die Mühle steht in der schweren Luft still, ihre mächtigen Flügel halb im Nebel verhüllt.“"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Emerson beschreibt einen feuchten Tag voller Dunst, an dem die Umrisse von Gebäuden und Bäumen weich werden und im Himmel verschwinden; die Mühlenflügel sind halb im Nebel verhüllt, Schafe ruhen auf der Marsch [Q1].",
+   "checkable": [
+    "Ferne Gebäude und Bäume verschwimmen im hellen Himmel [Q1]",
+    "Mühle mit Flügeln im Dunst am Horizont [Q1]",
+    "Schafe liegen ruhend auf der Wiese [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2007BM0079/full/1600,/0/default.jpg",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O131232/",
+     "title": "Avenue of Banian Trees – Victoria and Albert Museum (Objektseite O131232)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "By situating the viewer at the edge of the path, Tripe invites us into the image. In this position we can imagine the cool shade afforded by the trees overhead."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O131232/",
+     "title": "Avenue of Banian Trees – Victoria and Albert Museum (Objektseite O131232)",
+     "author": "Begleittext des Albums (1860), zitiert vom V&A",
+     "kind": "museum",
+     "excerpt": "The depth of shade is exquisitely refreshing while the gigantic proportions of the stems, and the rich luxuriance of the foliage, offer alovely [sic] study of nature"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Tripe stellt den Betrachter an den Rand des Weges und lädt ihn so ins Bild ein; von dort spürt man den Schatten der Bäume über einem [Q1]. Der Begleittext betont die Tiefe des Schattens und die gewaltigen Stämme [Q2].",
+   "checkable": [
+    "Standpunkt am Wegrand, der Weg führt ins Bild hinein [Q1]",
+    "Baumkronen schließen sich über dem Weg, Stämme rahmen ihn [Q1][Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2007BM0076/full/1600,/0/default.jpg",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O131228/",
+     "title": "View of the country looking N. N. W. from the top of the Ryacotta Hill – Victoria and Albert Museum (Objektseite O131228)",
+     "author": "Begleittext des Albums (1860), zitiert vom V&A",
+     "kind": "museum",
+     "excerpt": "There is a magnificent view from the top of the Ryakotta Hill that will well repay the difficulty of ascent. The whole country is spread out below as a map."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O131228/",
+     "title": "View of the country looking N. N. W. from the top of the Ryacotta Hill – Victoria and Albert Museum (Objektseite O131228)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "Such a picturesque landscape photograph, retouched to add clouds and to accentuate the beautiful horizon, is unusual amongst Tripe's documentary images."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild ist vom Gipfel des Ryakotta-Hügels nach Nordnordwest aufgenommen; laut Begleittext liegt das ganze Land wie eine Karte darunter [Q1]. Die Wolken wurden nachträglich eingefügt, um den Horizont zu betonen [Q2].",
+   "checkable": [
+    "Erhöhter Standpunkt: Blick von oben hinab auf Fels und Ebene [Q1]",
+    "Weite Ebene bis zum Horizont [Q1]",
+    "Wolken/Himmel nachträglich retuschiert [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2007BM0078/full/1600,/0/default.jpg",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+     "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "Likewise, in the image of the landscape below, the wide sky features artificially added clouds above the detailed vegetation."
+    },
+    {
+     "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+     "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "Since long exposures were necessary in order to capture detail in the foreground, the sky, much lighter than the foreground subject, was over exposed and appeared stark white. To improve the sky, like many photographers, Tripe often painted clouds or shading onto the negative."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der weite Himmel trägt künstlich hinzugefügte Wolken über der detailreichen Vegetation [Q1]. Weil die lange Belichtung für den Vordergrund den Himmel ausbrennen ließ, malte Tripe oft Wolken oder Schattierungen ins Negativ [Q2].",
+   "checkable": [
+    "Über der Vegetation ein Himmel mit Wolken, die nicht fotografiert, sondern gemalt sind [Q1]",
+    "Vordergrund-Vegetation detailreich [Q1][Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2006AG1696/full/1600,/0/default.jpg",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O90516/",
+     "title": "Sphinx – Victoria and Albert Museum (Objektseite O90516)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "This photograph was produced from one of Frith's largest negatives (40.6 x 50.8 cm) and captures the monumentality of the Egyptian landscape and architecture, the dramatic light and its play on sand and stone."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Laut V&A fängt das Bild das dramatische Licht und sein Spiel auf Sand und Stein ein; es entstand mit einem der größten Negative Friths (40,6 × 50,8 cm) [Q1].",
+   "checkable": [
+    "Harte Licht-Schatten-Kontraste auf Sphinx und Pyramide [Q1]",
+    "Licht und Schatten zeichnen die Struktur von Sand und Stein [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2018KW0701/full/1600,/0/default.jpg",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+     "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+     "author": "Roger Fenton, Brief an seine Frau Grace (zitiert in Tate Etc.)",
+     "kind": "photographer",
+     "excerpt": "It was plain that the line of fire was upon the very spot I had chosen, so very reluctantly I put up with another reach of the valley about 100 yards short of the best point.",
+     "translation_de": "Es war klar, dass die Schusslinie genau auf der Stelle lag, die ich gewählt hatte; so begnügte ich mich sehr widerwillig mit einem anderen Abschnitt des Tals, etwa 100 Yards vor dem besten Punkt."
+    },
+    {
+     "url": "https://publicdomainreview.org/collection/roger-fenton-valley-of-the-shadow-of-death/",
+     "title": "Of Chickens, Eggs, and Cannonballs: Roger Fenton's Valley of the Shadow of Death (1855) – The Public Domain Review",
+     "author": "The Public Domain Review",
+     "kind": "kritik",
+     "excerpt": "This famous image is, in fact, one of a pair - both taken by Fenton on the same day, from the same position, of the very same vista. The difference between them? The less famous version has no cannonballs on the road - they are all in the ditch instead.",
+     "translation_de": "Das berühmte Bild ist eines von zweien – am selben Tag, vom selben Standpunkt, mit demselben Ausblick. Der Unterschied: In der weniger bekannten Fassung liegen keine Kanonenkugeln auf der Straße, sondern alle im Graben."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Fenton wollte an einem bestimmten Punkt stehen, doch der lag in der Schusslinie; widerwillig wich er auf einen anderen Abschnitt des Tals aus, etwa 100 Yards vor dem besten Punkt [Q1]. Beide Fassungen des Bildes entstanden am selben Tag vom selben Standpunkt [Q2].",
+   "checkable": [
+    "Blick entlang eines Talabschnitts, nicht von einem Aussichtspunkt darüber [Q1]",
+    "Beide Fassungen zeigen exakt denselben Ausschnitt – gleicher Standpunkt [Q2]"
+   ],
+   "scope_note": "Standpunktwahl laut Fentons eigenem Brief; die zweite Fassung (ohne Kugeln auf der Straße) ist hier nicht abgebildet."
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2018KW0701/full/1600,/0/default.jpg",
+   "dimension": "attitude",
+   "sources": [
+    {
+     "url": "https://publicdomainreview.org/collection/roger-fenton-valley-of-the-shadow-of-death/",
+     "title": "Of Chickens, Eggs, and Cannonballs: Roger Fenton's Valley of the Shadow of Death (1855) – The Public Domain Review",
+     "author": "The Public Domain Review",
+     "kind": "kritik",
+     "excerpt": "This famous image is, in fact, one of a pair - both taken by Fenton on the same day, from the same position, of the very same vista. The difference between them? The less famous version has no cannonballs on the road - they are all in the ditch instead.",
+     "translation_de": "Das berühmte Bild ist eines von zweien – am selben Tag, vom selben Standpunkt, mit demselben Ausblick. Der Unterschied: In der weniger bekannten Fassung liegen keine Kanonenkugeln auf der Straße, sondern alle im Graben."
+    },
+    {
+     "url": "https://publicdomainreview.org/collection/roger-fenton-valley-of-the-shadow-of-death/",
+     "title": "Of Chickens, Eggs, and Cannonballs: Roger Fenton's Valley of the Shadow of Death (1855) – The Public Domain Review",
+     "author": "The Public Domain Review",
+     "kind": "kritik",
+     "excerpt": "Thus the photograph was staged."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das berühmte Bild ist eines von zweien; in der weniger bekannten Fassung liegen die Kanonenkugeln im Graben statt auf der Straße [Q1]. Die Public Domain Review folgt Errol Morris' Untersuchung: Das Bild mit den Kugeln auf der Straße entstand als zweites – es war inszeniert [Q2].",
+   "checkable": [
+    "Kanonenkugeln liegen verstreut auf der Straße selbst – genau das unterscheidet diese Fassung von der anderen [Q1][Q2]"
+   ],
+   "scope_note": "Inszenierung ist nach der Quelle wahrscheinlich, nicht bewiesen; die Frage der Absicht bleibt offen."
+  },
+  {
+   "image_url": "https://www.artic.edu/iiif/2/743980eb-57d5-5c9c-2fac-c710de174eca/full/1686,/0/default.jpg",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/66625",
+     "title": "Equivalent (1926) – Art Institute of Chicago (Objektseite 66625)",
+     "author": "Art Institute of Chicago",
+     "kind": "museum",
+     "excerpt": "In this photograph, a stratus cloud, caught like a burst of light against a dark surface, animates the image with a sense of excitement, awe, and perhaps even revelation."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Eine Stratuswolke steht wie ein Lichtausbruch vor einer dunklen Fläche [Q1].",
+   "checkable": [
+    "Helle Wolkenpartie in der Bildmitte vor fast schwarzem Umfeld [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.artic.edu/iiif/2/62d4f43a-5e33-283e-0f34-62b61a6a3dba/full/1686,/0/default.jpg",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/66526",
+     "title": "The Dancing Trees – Art Institute of Chicago (Objektseite 66526)",
+     "author": "Art Institute of Chicago",
+     "kind": "museum",
+     "excerpt": "At his summer house on Lake George, in upstate New York, Stieglitz isolated the components of landscape, photographing clouds without any indication of a horizon line and sections of trees separated from the surrounding woods."
+    },
+    {
+     "url": "https://www.artic.edu/artworks/66625",
+     "title": "Equivalent (1926) – Art Institute of Chicago (Objektseite 66625)",
+     "author": "Art Institute of Chicago",
+     "kind": "museum",
+     "excerpt": "The pho-tographer, Alfred Stieglitz, began to photograph clouds in 1922, tilting his camera toward the sky to produce dizzying, nearly abstract images of their fleeting configurations. Over the next decade Stieglitz produced some 350 cloud studies, which he called Equivalents."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Stieglitz fotografierte Wolken ohne jeden Hinweis auf eine Horizontlinie [Q1] und kippte die Kamera dazu in den Himmel [Q2].",
+   "checkable": [
+    "Kein Horizont, kein Land im Bild [Q1]",
+    "Nur Himmel und Wolken, Oben/Unten kaum bestimmbar [Q1][Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://www.artic.edu/iiif/2/0c8ed478-c817-b3a7-f657-d8449726bbd3/full/1686,/0/default.jpg",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/66526",
+     "title": "The Dancing Trees – Art Institute of Chicago (Objektseite 66526)",
+     "author": "Art Institute of Chicago",
+     "kind": "museum",
+     "excerpt": "In The Dancing Trees, the composition produced by the layered and interlaced trunks and branches highlights Stieglitz's primary aim at this time: \"to think more about the relationships in the pictures than subject-matter for its own sake"
+    },
+    {
+     "url": "https://www.artic.edu/artworks/66526",
+     "title": "The Dancing Trees – Art Institute of Chicago (Objektseite 66526)",
+     "author": "Art Institute of Chicago",
+     "kind": "museum",
+     "excerpt": "At his summer house on Lake George, in upstate New York, Stieglitz isolated the components of landscape, photographing clouds without any indication of a horizon line and sections of trees separated from the surrounding woods."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Komposition entsteht aus geschichteten, ineinander verschlungenen Stämmen und Ästen [Q1]; Stieglitz löste dafür Baumausschnitte aus dem umgebenden Wald [Q2].",
+   "checkable": [
+    "Mehrere Stämme überkreuzen und überlagern sich [Q1]",
+    "Ausschnitt ohne Baumkrone und Waldrand [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2017JX4091/full/1600,/0/default.jpg",
+   "dimension": "attitude",
+   "sources": [
+    {
+     "url": "https://www.getty.edu/art/exhibitions/beato/",
+     "title": "Felice Beato: A Photographer on the Eastern Road – J. Paul Getty Museum (Ausstellung 2010/11)",
+     "author": "J. Paul Getty Museum",
+     "kind": "museum",
+     "excerpt": "He arranged disinterred bones in the foreground in order to dramatically depict the massive slaughter that occurred at Lucknow."
+    },
+    {
+     "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+     "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+     "author": "Simon Grant (Tate Etc.)",
+     "kind": "kritik",
+     "excerpt": "Two years after Fenton took this picture, Felice Beato distributed the human bones he found in a courtyard at the Sikandarbagh Palace for one of his photographs of the 1857 Sepoy Rebellion in India."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Beato arrangierte ausgegrabene Gebeine im Vordergrund, um das Massaker von Lucknow dramatisch darzustellen [Q1]. Tate Etc. stellt das in eine Reihe früher Eingriffe in Kriegsbilder [Q2].",
+   "checkable": [
+    "Knochen verstreut im Vordergrund des Hofes [Q1][Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1280&f=Vittorio_Sella--Mount_St_Elias_from_Malaspina_Glacier--1897.jpg",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "author": "PeakVisor",
+     "kind": "wissenschaft",
+     "excerpt": "The images that survived still show the scale of the place. The expedition hauls its sledges across the Malaspina Glacier, the mountain far beyond."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die überlebenden Bilder der Alaska-Expedition zeigen laut PeakVisor den Maßstab des Ortes: Die Expedition zieht ihre Schlitten über den Malaspina-Gletscher, der Berg liegt weit dahinter [Q1].",
+   "checkable": [
+    "Kleine Gruppe mit Schlitten auf der Gletscherfläche als Maßstabsträger [Q1]",
+    "Mount Saint Elias weit im Hintergrund über dem Gletscher [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2006AC7508/full/1600,/0/default.jpg",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O108882/",
+     "title": "Tomb of the Emperor Hoomaoon, where Major Hodson captured the King – Victoria and Albert Museum (Objektseite O108882)",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "This photograph shows the tomb of the emperor Humayun and the west gate entrance to it. In the foreground are the remains of other buildings and shrub land."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild zeigt das Grabmal mit dem Westtor; im Vordergrund liegen Reste anderer Gebäude und Buschland [Q1].",
+   "checkable": [
+    "Vordergrund: Ruinenreste und Gebüsch [Q1]",
+    "Dahinter Grabmal (links) und Westtor (rechts) [Q1]"
+   ],
+   "scope_note": ""
+  }
+ ]
+}

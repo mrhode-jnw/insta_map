@@ -1,0 +1,410 @@
+{
+ "accessed_at": "2026-10-27",
+ "photographers": [
+  {
+   "name": "Gustave Le Gray",
+   "born": 1820,
+   "died": 1884,
+   "portrait": {
+    "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1280&f=Autoportrait_Gustave_Le_Gray,_cropped.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Autoportrait_Gustave_Le_Gray,_cropped.jpg",
+    "credit": "Gustave Le Gray, Selbstporträt, um 1856–1859 (Bibliothèque nationale de France/Gallica btv1b84579103, via Wikimedia Commons; Ausschnitt)"
+   },
+   "sources": [
+    {
+     "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/chalons/en/presentation/bio.html",
+     "title": "Florence Le Corre: Gustave Le Gray, a poet with a passion for excellence – napoleon.org (übersetzt aus dem Katalog des Musée de l'Armée, 1996)",
+     "excerpt": "He began photographing the forest of Fontainebleau in 1849 and was heralded as the photographer of light."
+    },
+    {
+     "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/chalons/en/presentation/bio.html",
+     "title": "Florence Le Corre: Gustave Le Gray, a poet with a passion for excellence – napoleon.org (übersetzt aus dem Katalog des Musée de l'Armée, 1996)",
+     "excerpt": "Perhaps some would find that these operations would diminish the returns on a print, by the care given, by the expense of costly chemicals. I will demonstrate that these are not considerations to which one must be attached. The progress of photography is not in making a good deal, but in the quality of the print",
+     "translation_de": "Manche mögen finden, dass diese Arbeitsschritte den Ertrag eines Abzugs schmälern – durch die Sorgfalt, durch die teuren Chemikalien. Ich werde zeigen, dass man an solchen Erwägungen nicht hängen darf. Der Fortschritt der Fotografie liegt nicht im guten Geschäft, sondern in der Qualität des Abzugs."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O80924/",
+     "title": "Seascape with Cloud Study – Victoria and Albert Museum (Objektseite O80924)",
+     "excerpt": "In his writing, Le Gray set out a 'theory of sacrifices'. This suggested that in a work of art detail could be sacrificed in the interests of the overall impression of light and shade.",
+     "translation_de": "In seinen Schriften entwickelte Le Gray eine „Theorie der Opfer“: In einem Kunstwerk dürfe Detail zugunsten des Gesamteindrucks von Licht und Schatten geopfert werden."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O80924/",
+     "title": "Seascape with Cloud Study – Victoria and Albert Museum (Objektseite O80924)",
+     "excerpt": "He took them on the French coast at Normandy in the summer of 1856 and a second set from the Mediterranean coast in spring 1857",
+     "translation_de": "Er fotografierte sie im Sommer 1856 an der Küste der Normandie und eine zweite Serie im Frühjahr 1857 an der Mittelmeerküste."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O91062/",
+     "title": "The Brig – Victoria and Albert Museum (Objektseite O91062)",
+     "excerpt": "He used glass negatives that were the same size as his photographs (around 40 x 30 cm). He placed the negative directly on top of photographic paper and printed in sunlight. The prints were then toned in a solution of gold chloride in hydrochloric acid. This resulted in a rich, violet-purple colour and had the added benefit of stabilising the images to help them withstand fading over time.",
+     "translation_de": "Er verwendete Glasnegative in der Größe seiner Abzüge (ca. 40 × 30 cm), legte sie direkt auf Fotopapier und kopierte im Sonnenlicht. Die Abzüge wurden mit Goldchlorid getönt – das ergab einen satten violett-purpurnen Ton und stabilisierte die Bilder gegen Verblassen."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O91023/",
+     "title": "Cloudy Sky - Mediterranean Sea – Victoria and Albert Museum (Objektseite O91023)",
+     "excerpt": "Le Gray was secretive about his use of these 'combination printing' or montage techniques. In some circles, they were condemned as cheating and seen as an untruthful way of representing the world through the camera.",
+     "translation_de": "Le Gray hielt seine Kombinationsdrucke bzw. Montagetechniken geheim. In manchen Kreisen galten sie als Betrug, als unwahre Art, die Welt mit der Kamera darzustellen."
+    }
+   ],
+   "bio_md": "Gustave Le Gray begann 1849, im Wald von Fontainebleau zu fotografieren, und galt als „Fotograf des Lichts“ [Q1]. Seine Seestücke entstanden im Sommer 1856 an der Küste der Normandie und im Frühjahr 1857 am Mittelmeer [Q4]. Er bestand darauf, dass der Fortschritt der Fotografie in der Qualität des Abzugs liege, nicht im Geschäft [Q2].",
+   "method_md": "Le Gray arbeitete mit Glasnegativen in Abzugsgröße (etwa 40 × 30 cm), kopierte im Sonnenlicht und tönte mit Goldchlorid zu einem violett-purpurnen Ton [Q5]. In seiner „Theorie der Opfer“ durfte Detail zugunsten des Gesamteindrucks von Licht und Schatten geopfert werden [Q3]. Für manche Seestücke kombinierte er Meer- und Himmelsnegativ, hielt diese Kombinationsdrucke aber geheim, weil sie in manchen Kreisen als Betrug galten [Q6].",
+   "signature_md": "Meine Einschätzung (aus den Bildern abgelesen, keine Quelle): Tiefer, fast schwarzer Wasserspiegel gegen einen hellen, durchgezeichneten Himmel; der Horizont liegt tief und streng waagerecht, kleine Schiffe oder Felsen sind die einzigen Maßstabsträger. Häufig Gegenlicht, Lichtbahnen auf dem Wasser, Silhouetten am Horizont."
+  },
+  {
+   "name": "Roger Fenton",
+   "born": 1819,
+   "died": 1869,
+   "portrait": {
+    "image_url": "https://framemark.vam.ac.uk/collections/2019LK8160/full/1600,/0/default.jpg",
+    "source_url": "https://collections.vam.ac.uk/item/O1410699/",
+    "credit": "Roger Fenton, Selbstporträt in Uniform der Freiwilligen, 1860 (Victoria and Albert Museum)"
+   },
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/whats-on/tate-britain/roger-fenton",
+     "title": "Roger Fenton – Ausstellung Tate Britain 2005/06",
+     "excerpt": "Born in 1819, he abandoned his law studies to become a painter in 1839. After study in London he moved to Paris and became a pupil of Michel-Martin Drolling. In 1851, however, he ceased his painting studies to take up the newly-invented process of photography."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O91263/",
+     "title": "The Wharfe – Victoria and Albert Museum (Objektseite O91263)",
+     "excerpt": "Roger Fenton's ten-year career as a professional photographer established him as a master of many kinds of subjects, especially landscape."
+    },
+    {
+     "url": "https://www.tate.org.uk/whats-on/tate-britain/roger-fenton",
+     "title": "Roger Fenton – Ausstellung Tate Britain 2005/06",
+     "excerpt": "Commissioned by Thomas Agnew under the direct patronage of Queen Victoria, he travelled to Balaclava to document the Crimean War. His photographs are among the first ever to depict war."
+    },
+    {
+     "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+     "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+     "excerpt": "Sent out by the commercial firm of Thomas Agnews & Co to take photographs of the Crimean War, he brought with him a large white horse-drawn van, which had been converted from a wine merchant's vehicle into a mobile darkroom. It had everything he needed - five large cameras, 700 glass plates stacked in wooden boxes, several chests of chemicals, printing frames, as well as his personal supply of preserved meats, wine, beer, biscuits and horse tackle."
+    },
+    {
+     "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+     "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+     "excerpt": "In English weather the plates stayed damp for ten minutes, but the heat of the Crimea could easily bring out spots and streaks on the glass."
+    },
+    {
+     "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+     "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+     "excerpt": "As Victorian taste decreed that no dead bodies be shown, Fenton had to choose his subject matter carefully."
+    },
+    {
+     "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+     "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+     "excerpt": "Fenton introduced an alternative representation of war - the landscape of aftermath. It was an aesthetic of reduction that would appeal to future artists."
+    }
+   ],
+   "bio_md": "Roger Fenton, geboren 1819, brach ein Jurastudium ab, um Maler zu werden, studierte in London und Paris und wechselte 1851 zur Fotografie [Q1]. In seiner rund zehnjährigen Laufbahn als Berufsfotograf galt er als Meister vieler Sujets, besonders der Landschaft [Q2]. Im Auftrag von Thomas Agnew und unter der Schirmherrschaft Queen Victorias dokumentierte er den Krimkrieg; seine Bilder gehören zu den ersten Kriegsfotografien überhaupt [Q3].",
+   "method_md": "Auf der Krim arbeitete Fenton aus einem zur Dunkelkammer umgebauten Pferdewagen mit fünf großen Kameras und 700 Glasplatten [Q4]. Die nassen Kollodiumplatten blieben in englischem Wetter zehn Minuten feucht, in der Hitze der Krim bekamen sie leicht Flecken und Schlieren [Q5]. Da tote Körper nach viktorianischem Geschmack nicht gezeigt wurden, musste er seine Motive sorgfältig wählen [Q6] – so entstand, laut Tate Etc., eine andere Darstellung des Krieges: die Landschaft danach [Q7].",
+   "signature_md": "Meine Einschätzung (aus den Bildern abgelesen, keine Quelle): Weite, leere Flächen unter hellem, strukturlosem Himmel; Häfen und Lager als dichte Gewirre aus Masten, Zelten und Material. Menschen erscheinen klein und meist still gestellt."
+  },
+  {
+   "name": "Francis Frith",
+   "born": 1822,
+   "died": 1898,
+   "portrait": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53800/53839v.jpg",
+    "source_url": "https://www.loc.gov/pictures/item/2018646031/",
+    "credit": "Francis Frith in türkischem Sommerkostüm, Titelblatt von „Egypt, Sinai, and Palestine“, Supplementband (um 1862), Library of Congress"
+   },
+   "sources": [
+    {
+     "url": "https://archivesearch.lib.cam.ac.uk/repositories/2/resources/596",
+     "title": "Albums by Francis Frith – Cambridge University Library, ArchiveSearch",
+     "excerpt": "He first visited Egypt in September 1856-July 1857, exploring the Nile region from Cairo to Abu Simbel."
+    },
+    {
+     "url": "https://archivesearch.lib.cam.ac.uk/repositories/2/resources/596",
+     "title": "Albums by Francis Frith – Cambridge University Library, ArchiveSearch",
+     "excerpt": "Frith travelled with 3 different cameras - a stereo apparatus, an 8 x 10 inch and a 16 x 20 inch camera for larger views."
+    },
+    {
+     "url": "https://archivesearch.lib.cam.ac.uk/repositories/2/resources/596",
+     "title": "Albums by Francis Frith – Cambridge University Library, ArchiveSearch",
+     "excerpt": "When (at the Second Cataract, one thousand miles from the mouth of the Nile, with the thermometer at 110° in my tent) the collodion actually boiled when pouring upon the glass plate, I almost despaired of success.",
+     "translation_de": "Als (am Zweiten Katarakt, tausend Meilen von der Nilmündung, bei 110 °F in meinem Zelt) das Kollodium beim Aufgießen auf die Glasplatte tatsächlich kochte, verzweifelte ich fast am Erfolg."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O113091/",
+     "title": "The Pyramids of El-Geezeh, from the South West – Victoria and Albert Museum (Objektseite O113091)",
+     "excerpt": "In 1857, he wrote: 'The decay or demolition of ancient remains, and the changes now at last destroying Eastern art and national peculiarities, make the present time of the highest value for taking such views.'",
+     "translation_de": "1857 schrieb er: „Verfall oder Abriss alter Bauten und die Veränderungen, die jetzt östliche Kunst und nationale Eigenheiten zerstören, machen die Gegenwart besonders wertvoll für solche Ansichten.“"
+    },
+    {
+     "url": "https://kochgallery.com/exhibitions/francis-frith-twenty-photographic-views-2004/",
+     "title": "Francis Frith: Egypt, Sinai, and Jerusalem – Robert Koch Gallery (Ausstellung 2004)",
+     "excerpt": "As enlargements were not yet a reality in the mid-19th century, photographers made contact prints, which could be only as large the negative. Due to the difficulty of using immense glass negatives, few practitioners at the time photographed in the mammoth-plate size, and surviving large prints in good condition from this era are quite rare."
+    },
+    {
+     "url": "https://kochgallery.com/exhibitions/francis-frith-twenty-photographic-views-2004/",
+     "title": "Francis Frith: Egypt, Sinai, and Jerusalem – Robert Koch Gallery (Ausstellung 2004)",
+     "excerpt": "While Frith's works may have been conceived as realistic records of scenic attractions, or as straightforward topography, the images assert a strong sense of abstraction with attention to composition, form and texture."
+    },
+    {
+     "url": "https://swh.princeton.edu/~graphicarts/2008/07/how_hot_is_it_where_you_are.html",
+     "title": "How Hot Is It Where You Are? – Graphic Arts Collection, Princeton University Library (Blog)",
+     "excerpt": "He often complained about the chemicals boiling-over inside the tent he used as a darkroom."
+    }
+   ],
+   "bio_md": "Francis Frith bereiste Ägypten erstmals von September 1856 bis Juli 1857 und folgte dem Nil von Kairo bis Abu Simbel [Q1]. 1857 schrieb er, Verfall und Veränderung der alten Stätten machten die Gegenwart besonders wertvoll für solche Ansichten [Q4].",
+   "method_md": "Frith reiste mit drei Kameras: einem Stereoapparat, einer 8×10-Zoll- und einer 16×20-Zoll-Kamera für große Ansichten [Q2]. Weil man nur Kontaktabzüge machen konnte, bestimmte die Negativgröße die Abzugsgröße; Mammutplatten waren entsprechend selten [Q5]. Das nasse Kollodium kochte bei 110 °F in seinem Zelt beim Aufgießen [Q3][Q7].",
+   "signature_md": "Meine Einschätzung (aus den Bildern abgelesen, keine Quelle): Frontale, ruhige Ansichten aus etwas Abstand, Monumente zentral oder diagonal ins Bild gesetzt, oft mit kleinen Figuren als Maßstab. Hartes Licht, heller, leerer Himmel. Die Galerie Koch spricht trotz topografischer Absicht von einer starken Abstraktion durch Komposition, Form und Textur [Q6]."
+  },
+  {
+   "name": "Linnaeus Tripe",
+   "born": 1822,
+   "died": 1902,
+   "portrait": {
+    "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit/exhibit-e/5f32abc1c8aa2c09558b4567/2929701e35b77c152946ce046c8c30bc.png",
+    "source_url": "https://sunpictures.com/artists/linnaeus-tripe/biography",
+    "credit": "Captain Linnaeus Tripe, um 1880er Jahre (Tripe Family Collections, Leihgabe an die British Library; abgebildet bei Hans P. Kraus Jr.)"
+   },
+   "sources": [
+    {
+     "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+     "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+     "excerpt": "Tripe's schooling as a surveyor also lent him certain skills - his considered choice of viewpoint and careful attention to visual details."
+    },
+    {
+     "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+     "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+     "excerpt": "However, even though using waxed paper negatives was very difficult in the hot and humid Indian climate, Tripe continued to mainly use paper negatives. It is thought that he was worried about the dangers of glass breaking. Paper negatives were also easier to use and to transport."
+    },
+    {
+     "url": "https://sunpictures.com/artists/linnaeus-tripe/biography",
+     "title": "Linnaeus Tripe – Biografie, Hans P. Kraus Jr. Fine Photographs",
+     "excerpt": "The skies in Tripe's photographs have a unusually animated appearance as he was particularly adept at painting in clouds on his negatives."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O131221/",
+     "title": "Ryakotta Hill – Victoria and Albert Museum (Objektseite O131221)",
+     "excerpt": "Tripe set off on a tour from Bangalore on 14 December 1857. He travelled through the Salem district to Srirangam, Tiruchchirappalli, Madurai, then Pudukkottai, Thanjavur, and Tiruchchirappalli again and ended his tour in Madras on 30 April 1858."
+    },
+    {
+     "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+     "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+     "excerpt": "Tripe mainly made 12 x 14 inch paper negatives, however, he also made a few 11 x 14 inch dry collodion-on-glass negatives - a newer photographic technique."
+    },
+    {
+     "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+     "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+     "excerpt": "Since long exposures were necessary in order to capture detail in the foreground, the sky, much lighter than the foreground subject, was over exposed and appeared stark white. To improve the sky, like many photographers, Tripe often painted clouds or shading onto the negative."
+    }
+   ],
+   "bio_md": "Linnaeus Tripe war Offizier; seine Ausbildung als Vermesser prägte, laut V&A, die überlegte Wahl des Standpunkts und die genaue Beachtung von Details [Q1]. Von Dezember 1857 bis April 1858 reiste er von Bangalore durch den Distrikt Salem bis nach Madras [Q4].",
+   "method_md": "Tripe arbeitete überwiegend mit gewachsten Papiernegativen, meist 12 × 14 Zoll, obwohl das heiße, feuchte Klima sie schwierig machte – vermutlich aus Sorge vor Glasbruch und weil Papier leichter zu transportieren war [Q2][Q5]. Weil lange Belichtungen den Himmel weiß ausbrennen ließen, malte er oft Wolken oder Schattierungen ins Negativ [Q6][Q3].",
+   "signature_md": "Meine Einschätzung (aus den Bildern abgelesen, keine Quelle): Weiche, leicht körnige Abzüge mit großer Ruhe; Felsen, Festungen und Bäume werden aus mittlerer Distanz breit und frontal ins Bild gesetzt. Gemalte Wolken geben dem sonst leeren Himmel Struktur."
+  },
+  {
+   "name": "Felice Beato",
+   "born": 1832,
+   "died": 1909,
+   "portrait": {
+    "image_url": "https://commons.wikimedia.org/w/thumb.php?w=676&f=Felice_Beato.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Felice_Beato.jpg",
+    "credit": "Felice Beato, um 1866, Fotograf unbekannt (möglicherweise Selbstporträt; Old Japan Picture Library, via Wikimedia Commons)"
+   },
+   "sources": [
+    {
+     "url": "https://www.getty.edu/art/exhibitions/beato/",
+     "title": "Felice Beato: A Photographer on the Eastern Road – J. Paul Getty Museum (Ausstellung 2010/11)",
+     "excerpt": "In a peripatetic career that spanned five decades, the photographer Felice Beato (1832-1909) covered a wide swath of East Asia."
+    },
+    {
+     "url": "https://www.getty.edu/art/exhibitions/beato/",
+     "title": "Felice Beato: A Photographer on the Eastern Road – J. Paul Getty Museum (Ausstellung 2010/11)",
+     "excerpt": "From Robertson, Beato learned the albumen glass-plate negative process, noteworthy for the sharpness of its images."
+    },
+    {
+     "url": "https://www.getty.edu/art/exhibitions/beato/",
+     "title": "Felice Beato: A Photographer on the Eastern Road – J. Paul Getty Museum (Ausstellung 2010/11)",
+     "excerpt": "Beato's experience in the Crimea was decisive for his career. There he learned to make photographs in extreme and unpredictable conditions."
+    },
+    {
+     "url": "https://www.getty.edu/art/exhibitions/beato/",
+     "title": "Felice Beato: A Photographer on the Eastern Road – J. Paul Getty Museum (Ausstellung 2010/11)",
+     "excerpt": "Eager to take advantage of Western interest in the conflict, Beato arrived in India in February 1858 to record the rebellion's aftermath. Guided by military officers, he made images of the mutiny's main sites-Delhi, Cawnpore, and Lucknow-that he sequenced and captioned to re-create the primary events."
+    },
+    {
+     "url": "https://www.getty.edu/art/exhibitions/beato/",
+     "title": "Felice Beato: A Photographer on the Eastern Road – J. Paul Getty Museum (Ausstellung 2010/11)",
+     "excerpt": "He traveled widely in the northern part of the country and expanded his oeuvre with architectural views of Agra, Benares (present-day Varanasi), and Muritsur (present-day Amritsar)."
+    }
+   ],
+   "bio_md": "Felice Beato (1832–1909) fotografierte in einer fünf Jahrzehnte umspannenden Laufbahn weite Teile Asiens [Q1]. Im Februar 1858 kam er nach Indien, um die Folgen des Aufstands zu fotografieren, und reiste danach weit durch den Norden des Landes [Q4][Q5].",
+   "method_md": "Von James Robertson lernte er das Albumin-Glasnegativverfahren, das für seine Schärfe bekannt war; auf der Krim lernte er, unter extremen und unberechenbaren Bedingungen zu fotografieren [Q2][Q3]. In Indien fotografierte er, von Offizieren geführt, die Hauptorte des Aufstands und ordnete und betitelte die Bilder so, dass sie die Ereignisse nacherzählten [Q4].",
+   "signature_md": "Meine Einschätzung (aus den Bildern abgelesen, keine Quelle): Klar gebaute Architekturansichten aus der Achse oder über Eck, oft mit Vordergrund aus Ruinen, Gebüsch oder Stufen; die Kriegsorte wirken leer und still, Menschen stehen als kleine Figuren am Rand."
+  },
+  {
+   "name": "Peter Henry Emerson",
+   "born": 1856,
+   "died": 1936,
+   "portrait": {
+    "image_url": "https://iiif.micr.io/YMttN/pct:62,26,21,52/1000,/0/default.jpg",
+    "source_url": "https://www.rijksmuseum.nl/en/collection/RP-F-2001-7-435-31",
+    "credit": "P. H. Emerson, Porträt von W. Boughton, Fotoaquatinta 1897 (Rijksmuseum, RP-F-2001-7-435-31; Ausschnitt der Buchseite)"
+   },
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313671/",
+     "title": "Pictures of East Anglian Life (Buch) – Victoria and Albert Museum (Objektseite O1313671)",
+     "excerpt": "Peter Henry Emerson (1856-1936) originally studied medicine, though from 1886 onwards after a brief career practising he dedicated himself full-time to photography and writing."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313613/",
+     "title": "Idyls of the Norfolk Broads (Portfolio) – Victoria and Albert Museum (Objektseite O1313613)",
+     "excerpt": "Emerson was a proponent of naturalistic photography, which sought to create photographs that replicated how the eye sees and was dismissive of any potential individual sensibilities of the photographer.",
+     "translation_de": "Emerson vertrat die naturalistische Fotografie, die Bilder so machen wollte, wie das Auge sieht."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1160235/",
+     "title": "Colts on a Norfolk Marsh – Victoria and Albert Museum (Objektseite O1160235)",
+     "excerpt": "He wrote in Naturalistic Photography that 'Nothing in nature has a hard outline but everything is seen against something else, and its outlines fade gently into something else, often so subtly that you cannot quite distinguish where one ends and the other begins. In this mingled decision and indecision, this lost and found, lies all the charm and mystery of nature'.",
+     "translation_de": "„Nichts in der Natur hat einen harten Umriss; alles wird vor etwas anderem gesehen, und seine Umrisse gehen sanft in etwas anderes über, oft so fein, dass man kaum sagen kann, wo das eine endet und das andere beginnt. In diesem Ineinander von Bestimmtheit und Unbestimmtheit, diesem Verlieren und Wiederfinden, liegt aller Reiz und alles Geheimnis der Natur.“"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313849/",
+     "title": "Pictures of East Anglian Life (Portfolio 1890) – Victoria and Albert Museum (Objektseite O1313849)",
+     "excerpt": "So, in 1890 he selected 10 plates from his book Pictures of East Anglian Life (1888) that best illustrated his theories, and presented them loose in a portfolio dedicated to the 'photographic student', with the same title and cover of the book.",
+     "translation_de": "1890 wählte er die zehn Tafeln aus „Pictures of East Anglian Life“ (1888), die seine Theorien am besten zeigten, und legte sie lose in eine Mappe „für den fotografischen Studenten“."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313671/",
+     "title": "Pictures of East Anglian Life (Buch) – Victoria and Albert Museum (Objektseite O1313671)",
+     "excerpt": "Emerson was deeply interested in the emerging photomechanical process of photogravure (copper-plate engraving), and went on to learn the technique so that he could do the printing himself.",
+     "translation_de": "Emerson interessierte sich stark für die Fotogravüre (Kupfertiefdruck) und lernte das Verfahren, um selbst drucken zu können."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313843/",
+     "title": "Idyls of the Norfolk Broads (Tafel) – Victoria and Albert Museum (Objektseite O1313843)",
+     "excerpt": "He also specifies that in the process of reproduction 'no retouching has marred the subtleties of Nature's handiwork'.",
+     "translation_de": "Er betont, dass bei der Reproduktion „keine Retusche die Feinheiten der Natur beeinträchtigt“ habe."
+    }
+   ],
+   "bio_md": "Peter Henry Emerson studierte Medizin und widmete sich ab 1886 nach kurzer Praxis ganz Fotografie und Schreiben [Q1]. Er vertrat eine naturalistische Fotografie, die Bilder so machen sollte, wie das Auge sieht [Q2]. 1890 stellte er die zehn Tafeln, die seine Theorien am besten zeigten, als Mappe „für den fotografischen Studenten“ zusammen [Q4].",
+   "method_md": "Emerson formulierte: Nichts in der Natur habe einen harten Umriss, alles gehe sanft in anderes über [Q3]. Er lernte die Fotogravüre, um selbst zu drucken [Q5], und betonte, dass keine Retusche die Feinheiten der Natur beeinträchtigt habe [Q6].",
+   "signature_md": "Meine Einschätzung (aus den Bildern abgelesen, keine Quelle): Niedrige, flache Marschlandschaften mit weitem Himmel; Menschen bei der Arbeit, oft von hinten oder ohne Blick zur Kamera. Die Schärfe sitzt auf einem Hauptmotiv, Vordergrund und Ferne bleiben weich; graue, dunstige Tonwerte."
+  },
+  {
+   "name": "Alfred Stieglitz",
+   "born": 1864,
+   "died": 1946,
+   "portrait": {
+    "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1280&f=Portrait_of_Alfred_Stieglitz_LCCN2004663594.jpg",
+    "source_url": "https://www.loc.gov/pictures/item/2004663594/",
+    "credit": "Porträt Alfred Stieglitz, 17. April 1935, von Carl Van Vechten (Library of Congress, Van Vechten Collection)"
+   },
+   "sources": [
+    {
+     "url": "https://www.nearbycafe.com/photocriticism/members/archivetexts/photocredos/stieglitzclouds.html",
+     "title": "Alfred Stieglitz: How I Came to Photograph Clouds (1923) – Photography Criticism CyberArchive (A. D. Coleman)",
+     "excerpt": "I wanted to photograph clouds to find out what I had learned in 40 years about photography.",
+     "translation_de": "Ich wollte Wolken fotografieren, um herauszufinden, was ich in 40 Jahren über Fotografie gelernt hatte."
+    },
+    {
+     "url": "https://www.nearbycafe.com/photocriticism/members/archivetexts/photocredos/stieglitzclouds.html",
+     "title": "Alfred Stieglitz: How I Came to Photograph Clouds (1923) – Photography Criticism CyberArchive (A. D. Coleman)",
+     "excerpt": "Clouds and their relationship to the rest of the world, and clouds for themselves, interested me, and clouds which were most difficult to photograph -- nearly impossible.",
+     "translation_de": "Wolken und ihre Beziehung zum Rest der Welt, und Wolken an sich, interessierten mich – und Wolken waren sehr schwer zu fotografieren, fast unmöglich."
+    },
+    {
+     "url": "https://www.nearbycafe.com/photocriticism/members/archivetexts/photocredos/stieglitzclouds.html",
+     "title": "Alfred Stieglitz: How I Came to Photograph Clouds (1923) – Photography Criticism CyberArchive (A. D. Coleman)",
+     "excerpt": "My aim is increasingly to make my photographs look so much like photographs that unless one has eyes and sees, they won't be seen -- and still everyone will never forget them having once looked at them.",
+     "translation_de": "Mein Ziel ist zunehmend, dass meine Fotografien so sehr wie Fotografien aussehen, dass man sie nicht sieht, wenn man keine Augen hat und nicht sieht – und dass sie doch jeder, der sie einmal angeschaut hat, nie vergisst."
+    },
+    {
+     "url": "https://www.artic.edu/artworks/66625",
+     "title": "Equivalent (1926) – Art Institute of Chicago (Objektseite 66625)",
+     "excerpt": "The pho-tographer, Alfred Stieglitz, began to photograph clouds in 1922, tilting his camera toward the sky to produce dizzying, nearly abstract images of their fleeting configurations. Over the next decade Stieglitz produced some 350 cloud studies, which he called Equivalents."
+    },
+    {
+     "url": "https://www.artic.edu/artworks/66625",
+     "title": "Equivalent (1926) – Art Institute of Chicago (Objektseite 66625)",
+     "excerpt": "He maintained that these cloud photographs did not just fix ever-changing forms but also expressed pure emotion, even attributing to them the evocative power of music."
+    },
+    {
+     "url": "https://www.nearbycafe.com/photocriticism/members/archivetexts/photocredos/stieglitzclouds.html",
+     "title": "Alfred Stieglitz: How I Came to Photograph Clouds (1923) – Photography Criticism CyberArchive (A. D. Coleman)",
+     "excerpt": "I always watched clouds. Studied them. Had unusual opportunities up here on this hillside [at Lake George].",
+     "translation_de": "Ich habe immer Wolken beobachtet. Sie studiert. Hatte hier oben an diesem Hang [am Lake George] ungewöhnliche Gelegenheiten."
+    },
+    {
+     "url": "https://www.nearbycafe.com/photocriticism/members/archivetexts/photocredos/stieglitzclouds.html",
+     "title": "Alfred Stieglitz: How I Came to Photograph Clouds (1923) – Photography Criticism CyberArchive (A. D. Coleman)",
+     "excerpt": "Straight photographs, all gaslight paper, except one palladiotype.",
+     "translation_de": "Reine (straight) Fotografien, alle auf Gaslichtpapier, bis auf einen Palladiumdruck."
+    },
+    {
+     "url": "https://www.artic.edu/artworks/66526",
+     "title": "The Dancing Trees – Art Institute of Chicago (Objektseite 66526)",
+     "excerpt": "At his summer house on Lake George, in upstate New York, Stieglitz isolated the components of landscape, photographing clouds without any indication of a horizon line and sections of trees separated from the surrounding woods."
+    }
+   ],
+   "bio_md": "Stieglitz begann 1922, Wolken zu fotografieren; in den folgenden zehn Jahren entstanden rund 350 Wolkenstudien, die er „Equivalents“ nannte [Q4]. Sie entstanden an seinem Sommerhaus am Lake George [Q8]. Er wollte mit Wolken herausfinden, was er in 40 Jahren über Fotografie gelernt hatte [Q1].",
+   "method_md": "Er richtete die Kamera zum Himmel und isolierte Bestandteile der Landschaft: Wolken ohne Horizontlinie, Baumausschnitte ohne umgebenden Wald [Q4][Q8]. Die ersten Wolkenbilder nennt er „straight photographs“ auf Gaslichtpapier, bis auf einen Palladiumdruck [Q7]. Er beobachtete und studierte Wolken lange am Hang über dem Lake George [Q6]; sie galten ihm als besonders schwer zu fotografieren [Q2].",
+   "signature_md": "Meine Einschätzung (aus den Bildern abgelesen, keine Quelle): Kleine, sehr dunkle Abzüge, in denen helle Wolkenränder oder eine Sonne gegen fast schwarzen Himmel stehen; oft fehlt jeder Bezug zu oben und unten. Die Bilder sollen, so Stieglitz, wie Fotografien aussehen und doch nur gesehen werden, wenn man wirklich hinsieht [Q3]."
+  },
+  {
+   "name": "Vittorio Sella",
+   "born": 1859,
+   "died": 1943,
+   "portrait": {
+    "image_url": "https://www.fondazionesella.org/wp-content/uploads/2017/11/29-Sella-Vittorio.jpg",
+    "source_url": "https://www.fondazionesella.org/biographies/sella-vittorio-6/",
+    "credit": "Vittorio Sella, Selbstporträt mit 30 Jahren (Fondazione Sella, Biella)"
+   },
+   "sources": [
+    {
+     "url": "https://www.fondazionesella.org/biographies/sella-vittorio-6/",
+     "title": "Vittorio Sella – Biografie, Fondazione Sella (Biella)",
+     "excerpt": "From 1889 to 1909, Vittorio Sella explored the mountainous regions of four continents."
+    },
+    {
+     "url": "https://www.fondazionesella.org/biographies/sella-vittorio-6/",
+     "title": "Vittorio Sella – Biografie, Fondazione Sella (Biella)",
+     "excerpt": "In his photographic work he used a range of techniques, including wet and dry collodion and by 1881, he was using plates with gelatin bromide plates of 24×30 cm, which he adopted in 1882 to take a circular panorama in eleven plates of the summit of the Matterhorn. From 1882 to 1893 he used the same plates but measuring 30×40 cm and he documented both sides of the Alps."
+    },
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "The vastness of the subjects and the purity of Sella's interpretations move the spectator to a definitely religious awe.",
+     "translation_de": "Die Weite der Motive und die Reinheit von Sellas Interpretationen versetzen den Betrachter in eine geradezu religiöse Ehrfurcht."
+    },
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "They set up the photographic camera on its tripod, and, huddling around it, waited patiently. By two in the afternoon Sella gave it up, folded up the camera, and was on the point of leaving the peak, when suddenly the sky began to clear.",
+     "translation_de": "Sie stellten die Kamera auf das Stativ, drängten sich darum und warteten geduldig. Um zwei Uhr nachmittags gab Sella auf, packte die Kamera ein und wollte den Gipfel schon verlassen, als der Himmel plötzlich aufklarte."
+    },
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "According to the curator Paul Kallmes, Sella sometimes added figures to a picture in the darkroom to give the viewer a sense of scale."
+    },
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "He built cairns to mark his camera stations so that the surveyors could tie each panorama into the expedition's map."
+    },
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "all three of us waiting in a cutting wind, our teeth chattering, stamping our feet and slapping our hands together, indulging the vain hope that the sky might clear.",
+     "translation_de": "wir alle drei warteten im schneidenden Wind, mit klappernden Zähnen, stampften mit den Füßen und schlugen die Hände zusammen, in der vergeblichen Hoffnung, der Himmel möge aufklaren."
+    },
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "By one curator's estimate, the big camera weighed about forty pounds, and each glass negative about two."
+    }
+   ],
+   "bio_md": "Vittorio Sella erkundete zwischen 1889 und 1909 die Gebirge von vier Kontinenten [Q1]. Ansel Adams schrieb 1946, die Weite der Motive und die Reinheit von Sellas Interpretationen versetzten den Betrachter in eine geradezu religiöse Ehrfurcht [Q3].",
+   "method_md": "Sella arbeitete mit nassem und trockenem Kollodium und ab 1881/82 mit Bromsilbergelatine-Platten von 24 × 30 cm, später 30 × 40 cm [Q2]; die große Kamera wog nach einer Schätzung etwa 40 Pfund, jede Glasplatte etwa zwei [Q8]. Er markierte seine Kamerastandorte mit Steinmännern, damit die Vermesser jedes Panorama in die Expeditionskarte einbinden konnten [Q6]. Auf Gipfeln wartete er stundenlang im Wind auf Aufklaren [Q4][Q7]. Laut dem Kurator Paul Kallmes fügte er mitunter in der Dunkelkammer Figuren ein, um den Maßstab zu zeigen [Q5].",
+   "signature_md": "Meine Einschätzung (aus den Bildern abgelesen, keine Quelle): Große Bergansichten mit sehr feiner Zeichnung in Schnee und Eis, oft aus erhöhtem Standpunkt über Gletscher und Moränen; winzige Menschen oder Lagerspuren als Maßstab. Ruhige, sachliche Ansichten ohne dramatische Effekte."
+  }
+ ]
+}

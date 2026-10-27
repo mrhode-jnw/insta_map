@@ -1,0 +1,2328 @@
+{
+ "accessed_at": "2026-10-27",
+ "photographers": [
+  {
+   "key": "legray",
+   "name": "Gustave Le Gray",
+   "born": 1820,
+   "died": 1884,
+   "sources": [
+    {
+     "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/chalons/en/presentation/bio.html",
+     "title": "Florence Le Corre: Gustave Le Gray, a poet with a passion for excellence – napoleon.org (übersetzt aus dem Katalog des Musée de l'Armée, 1996)",
+     "excerpt": "He began photographing the forest of Fontainebleau in 1849 and was heralded as the photographer of light."
+    },
+    {
+     "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/chalons/en/presentation/bio.html",
+     "title": "Florence Le Corre: Gustave Le Gray, a poet with a passion for excellence – napoleon.org (übersetzt aus dem Katalog des Musée de l'Armée, 1996)",
+     "excerpt": "Perhaps some would find that these operations would diminish the returns on a print, by the care given, by the expense of costly chemicals. I will demonstrate that these are not considerations to which one must be attached. The progress of photography is not in making a good deal, but in the quality of the print",
+     "kind": "fotograf",
+     "author": "Gustave Le Gray (zitiert bei napoleon.org)",
+     "aspect": "technik",
+     "series_level": true,
+     "translation_de": "Manche mögen finden, dass diese Arbeitsschritte den Ertrag eines Abzugs schmälern – durch die Sorgfalt, durch die teuren Chemikalien. Ich werde zeigen, dass man an solchen Erwägungen nicht hängen darf. Der Fortschritt der Fotografie liegt nicht im guten Geschäft, sondern in der Qualität des Abzugs."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O80924/",
+     "title": "Seascape with Cloud Study – Victoria and Albert Museum (Objektseite O80924)",
+     "excerpt": "In his writing, Le Gray set out a 'theory of sacrifices'. This suggested that in a work of art detail could be sacrificed in the interests of the overall impression of light and shade.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "technik",
+     "series_level": true,
+     "translation_de": "In seinen Schriften entwickelte Le Gray eine „Theorie der Opfer“: In einem Kunstwerk dürfe Detail zugunsten des Gesamteindrucks von Licht und Schatten geopfert werden."
+    }
+   ],
+   "projects": [
+    {
+     "key": "legray-marines",
+     "title": "Seestücke (Marines) an der Kanal- und Mittelmeerküste",
+     "year_from": 1856,
+     "year_to": 1857,
+     "sources": [
+      {
+       "url": "https://collections.vam.ac.uk/item/O80924/",
+       "title": "Seascape with Cloud Study – Victoria and Albert Museum (Objektseite O80924)",
+       "excerpt": "He took them on the French coast at Normandy in the summer of 1856 and a second set from the Mediterranean coast in spring 1857",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Er fotografierte sie im Sommer 1856 an der Küste der Normandie und eine zweite Serie im Frühjahr 1857 an der Mittelmeerküste."
+      },
+      {
+       "url": "https://collections.vam.ac.uk/item/O91062/",
+       "title": "The Brig – Victoria and Albert Museum (Objektseite O91062)",
+       "excerpt": "He used glass negatives that were the same size as his photographs (around 40 x 30 cm). He placed the negative directly on top of photographic paper and printed in sunlight. The prints were then toned in a solution of gold chloride in hydrochloric acid. This resulted in a rich, violet-purple colour and had the added benefit of stabilising the images to help them withstand fading over time.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "Er verwendete Glasnegative in der Größe seiner Abzüge (ca. 40 × 30 cm), legte sie direkt auf Fotopapier und kopierte im Sonnenlicht. Die Abzüge wurden mit Goldchlorid getönt – das ergab einen satten violett-purpurnen Ton und stabilisierte die Bilder gegen Verblassen."
+      },
+      {
+       "url": "https://collections.vam.ac.uk/item/O91023/",
+       "title": "Cloudy Sky - Mediterranean Sea – Victoria and Albert Museum (Objektseite O91023)",
+       "excerpt": "Le Gray was secretive about his use of these 'combination printing' or montage techniques. In some circles, they were condemned as cheating and seen as an untruthful way of representing the world through the camera.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "rezeption",
+       "series_level": true,
+       "translation_de": "Le Gray hielt seine Kombinationsdrucke bzw. Montagetechniken geheim. In manchen Kreisen galten sie als Betrug, als unwahre Art, die Welt mit der Kamera darzustellen."
+      }
+     ],
+     "images": [
+      {
+       "key": "legray-brig",
+       "title": "The Brig (Le Brick)",
+       "year": 1856,
+       "location": "Französische Küste",
+       "tags": [
+        "meer",
+        "schiff",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O91062/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AH2029/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O91062/",
+         "title": "The Brig – Victoria and Albert Museum (Objektseite O91062)",
+         "excerpt": "The Brig was Le Gray's first exhibited seascape and his most highly praised. Its appeal derives largely from the poignancy of the little ship seen alone against an immensity of sea and sky.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "wirkung",
+         "series_level": false,
+         "translation_de": "„The Brig“ war Le Grays erstes ausgestelltes Seestück und sein meistgelobtes. Seine Wirkung beruht vor allem auf dem kleinen Schiff, allein vor der Unermesslichkeit von Meer und Himmel."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O91062/",
+         "title": "The Brig – Victoria and Albert Museum (Objektseite O91062)",
+         "excerpt": "The London photographic dealers Murray & Heath reported 800 prints being ordered within the first two months of its being offered for sale.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "rezeption",
+         "series_level": false,
+         "translation_de": "Der Londoner Fotohändler Murray & Heath meldete 800 bestellte Abzüge in den ersten zwei Monaten des Verkaufs."
+        }
+       ]
+      },
+      {
+       "key": "legray-great-wave",
+       "title": "The Great Wave, Sète",
+       "year": 1857,
+       "location": "Mittelmeerküste bei Sète, Frankreich",
+       "tags": [
+        "meer",
+        "welle",
+        "wolken",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O72699/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AU1467/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O72699/",
+         "title": "The Great Wave, Sète – Victoria and Albert Museum (Objektseite O72699)",
+         "excerpt": "At the horizon, the clouds are cut off where they meet the sea. This indicates the join between two separate negatives. The combination of two negatives allowed Le Gray to achieve tonal balance between sea and sky on the final print.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "Am Horizont sind die Wolken dort abgeschnitten, wo sie aufs Meer treffen – die Nahtstelle zweier Negative. Durch die Kombination zweier Negative erreichte Le Gray im Abzug ein tonales Gleichgewicht zwischen Meer und Himmel."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O72699/",
+         "title": "The Great Wave, Sète – Victoria and Albert Museum (Objektseite O72699)",
+         "excerpt": "He photographed the view on the Mediterranean coast near Montpellier on the southern coast of France.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "entstehung",
+         "series_level": false,
+         "translation_de": "Er fotografierte den Blick an der Mittelmeerküste bei Montpellier in Südfrankreich."
+        }
+       ]
+      },
+      {
+       "key": "legray-sun-zenith",
+       "title": "The Sun at its Zenith - Ocean (Le Soleil au zénith)",
+       "year": 1856,
+       "location": "Französische Küste",
+       "tags": [
+        "meer",
+        "gegenlicht",
+        "sonne",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O90302/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AH3854/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O90302/",
+         "title": "The Sun at its Zenith - Ocean – Victoria and Albert Museum (Objektseite O90302)",
+         "excerpt": "Le Gray shot directly into the sun for this photograph in an attempt to balance on one glass negative the exposure for a bright sky and a relatively dark sea.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "Le Gray fotografierte direkt in die Sonne, um auf einem einzigen Glasnegativ die Belichtung für hellen Himmel und relativ dunkles Meer auszugleichen."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O90302/",
+         "title": "The Sun at its Zenith - Ocean – Victoria and Albert Museum (Objektseite O90302)",
+         "excerpt": "The sun has become a dark disc owing to a photochemical phenomenon in which extreme overexposure at an intense point of light reverses the tones on the negative.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "Die Sonne ist zur dunklen Scheibe geworden – eine fotochemische Umkehrung der Tonwerte durch extreme Überbelichtung an einem intensiven Lichtpunkt."
+        }
+       ]
+      },
+      {
+       "key": "legray-steamboat",
+       "title": "The Steamboat - Ocean (Le Vapeur)",
+       "year": 1856,
+       "location": "Französische Küste",
+       "tags": [
+        "meer",
+        "dunst",
+        "leere",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O91293/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AY0254/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O91293/",
+         "title": "The Steamboat - Ocean – Victoria and Albert Museum (Objektseite O91293)",
+         "excerpt": "The lack of clouds, and the horizon blurred by sea mist, creates an environment in which the small vessel at the precise centre seems to sail into the unknown.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "wirkung",
+         "series_level": false,
+         "translation_de": "Das Fehlen von Wolken und der vom Seedunst verwischte Horizont lassen das kleine Schiff genau in der Bildmitte ins Unbekannte fahren."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O91293/",
+         "title": "The Steamboat - Ocean – Victoria and Albert Museum (Objektseite O91293)",
+         "excerpt": "As an artist, he knew when to apply the drama of a turbulent sky and could easily have added one here from a second negative, as he had done elsewhere. Yet he preferred to leave it barren to enhance the feeling of isolation and vulnerability.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung",
+         "series_level": false,
+         "translation_de": "Er hätte hier leicht einen dramatischen Himmel aus einem zweiten Negativ einfügen können, wie anderswo. Er ließ ihn aber leer, um Isolation und Verletzlichkeit zu verstärken."
+        }
+       ]
+      },
+      {
+       "key": "legray-tugboat",
+       "title": "The Tugboat (Le Remorqueur)",
+       "year": 1856,
+       "location": "Französische Küste",
+       "tags": [
+        "meer",
+        "schiff",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O91065/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AH2030/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O91065/",
+         "title": "The Tugboat – Victoria and Albert Museum (Objektseite O91065)",
+         "excerpt": "In this image the atmospheric cloud forms are echoed by a dark plume of smoke coming from a steam-powered tugboat. Behind it trails a sailing ship.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung",
+         "series_level": false,
+         "translation_de": "Die Wolkenformen werden von der dunklen Rauchfahne eines Dampfschleppers aufgenommen; dahinter folgt ein Segelschiff."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O91065/",
+         "title": "The Tugboat – Victoria and Albert Museum (Objektseite O91065)",
+         "excerpt": "The forms on the horizon stand out in silhouette, or contre jour - a French term used by artists and literally meaning 'against the day'.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "Die Formen am Horizont stehen als Silhouette im Gegenlicht („contre-jour“)."
+        }
+       ]
+      },
+      {
+       "key": "legray-solar-effect-clouds",
+       "title": "Solar Effect in the Clouds - Ocean (Effet de soleil dans les nuages)",
+       "year": 1856,
+       "location": "Französische Küste",
+       "tags": [
+        "meer",
+        "sonne",
+        "wolken",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O80891/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AH2026/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O80891/",
+         "title": "Solar Effect in the Clouds - Ocean – Victoria and Albert Museum (Objektseite O80891)",
+         "excerpt": "When first shown, the luminous, shimmering effects of such images amid Le Gray's otherwise dark seascapes were often mistaken for moonlight.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "rezeption",
+         "series_level": false,
+         "translation_de": "Bei den ersten Ausstellungen hielt man die leuchtenden, flirrenden Effekte solcher Bilder oft für Mondlicht."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O80891/",
+         "title": "Solar Effect in the Clouds - Ocean – Victoria and Albert Museum (Objektseite O80891)",
+         "excerpt": "In fact, Le Gray achieved the moonlight effect by pointing the camera in the direction of the sun during daylight.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "Tatsächlich erzielte Le Gray den Mondlicht-Effekt, indem er die Kamera bei Tag in Richtung Sonne richtete."
+        }
+       ]
+      },
+      {
+       "key": "legray-cloudy-sky-agde",
+       "title": "Cloudy Sky - Mediterranean Sea (Mont Agde)",
+       "year": 1857,
+       "location": "Mittelmeerküste mit dem Mont Agde, Südfrankreich",
+       "tags": [
+        "meer",
+        "wolken",
+        "küste",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O91023/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AH2028/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O91023/",
+         "title": "Cloudy Sky - Mediterranean Sea – Victoria and Albert Museum (Objektseite O91023)",
+         "excerpt": "This scene is identifiable as the Mediterranean coast with Mount Agde, in the south of France, visible in the distance. With the mountain as a reference point, it is possible to prove that Le Gray sometimes combined two separate negatives for sea and sky.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "Die Szene zeigt die Mittelmeerküste mit dem Mont Agde in der Ferne. Am Berg als Bezugspunkt lässt sich nachweisen, dass Le Gray mitunter zwei Negative für Meer und Himmel kombinierte."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O91023/",
+         "title": "Cloudy Sky - Mediterranean Sea – Victoria and Albert Museum (Objektseite O91023)",
+         "excerpt": "Prints in other collections show that the same negative was used for the sea and mountain but was coupled with several different negatives for the cloud formations.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "entstehung",
+         "series_level": false,
+         "translation_de": "Abzüge in anderen Sammlungen zeigen dasselbe Negativ für Meer und Berg, kombiniert mit verschiedenen Wolkennegativen."
+        }
+       ]
+      },
+      {
+       "key": "legray-cloud-study",
+       "title": "Seascape with Cloud Study",
+       "year": 1856,
+       "location": "Französische Küste (Ort unbekannt)",
+       "tags": [
+        "wolken",
+        "meer",
+        "himmel",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O80924/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AH2035/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O80924/",
+         "title": "Seascape with Cloud Study – Victoria and Albert Museum (Objektseite O80924)",
+         "excerpt": "Despite its title, the image shows almost no sea and is more of a cloud study, concentrating upon the massive, billowing formations.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung",
+         "series_level": false,
+         "translation_de": "Trotz des Titels zeigt das Bild kaum Meer; es ist eher eine Wolkenstudie der massigen, quellenden Formationen."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O80924/",
+         "title": "Seascape with Cloud Study – Victoria and Albert Museum (Objektseite O80924)",
+         "excerpt": "Here he illustrates that theory using the most ethereal of subject matters.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung",
+         "series_level": false,
+         "translation_de": "Hier veranschaulicht er diese Theorie (der Opfer) am flüchtigsten aller Motive."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "fenton",
+   "name": "Roger Fenton",
+   "born": 1819,
+   "died": 1869,
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/whats-on/tate-britain/roger-fenton",
+     "title": "Roger Fenton – Ausstellung Tate Britain 2005/06",
+     "excerpt": "Born in 1819, he abandoned his law studies to become a painter in 1839. After study in London he moved to Paris and became a pupil of Michel-Martin Drolling. In 1851, however, he ceased his painting studies to take up the newly-invented process of photography."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O91263/",
+     "title": "The Wharfe – Victoria and Albert Museum (Objektseite O91263)",
+     "excerpt": "Roger Fenton's ten-year career as a professional photographer established him as a master of many kinds of subjects, especially landscape.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "rezeption",
+     "series_level": true
+    },
+    {
+     "url": "https://www.tate.org.uk/whats-on/tate-britain/roger-fenton",
+     "title": "Roger Fenton – Ausstellung Tate Britain 2005/06",
+     "excerpt": "Commissioned by Thomas Agnew under the direct patronage of Queen Victoria, he travelled to Balaclava to document the Crimean War. His photographs are among the first ever to depict war.",
+     "kind": "museum",
+     "author": "Tate",
+     "aspect": "rezeption",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "fenton-crimea",
+     "title": "Der Krimkrieg: Landschaften des Kriegsschauplatzes",
+     "year_from": 1855,
+     "year_to": 1855,
+     "sources": [
+      {
+       "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+       "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+       "excerpt": "Sent out by the commercial firm of Thomas Agnews & Co to take photographs of the Crimean War, he brought with him a large white horse-drawn van, which had been converted from a wine merchant's vehicle into a mobile darkroom. It had everything he needed - five large cameras, 700 glass plates stacked in wooden boxes, several chests of chemicals, printing frames, as well as his personal supply of preserved meats, wine, beer, biscuits and horse tackle.",
+       "kind": "kritik",
+       "author": "Simon Grant (Tate Etc.)",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+       "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+       "excerpt": "As Victorian taste decreed that no dead bodies be shown, Fenton had to choose his subject matter carefully.",
+       "kind": "kritik",
+       "author": "Simon Grant (Tate Etc.)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+       "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+       "excerpt": "In English weather the plates stayed damp for ten minutes, but the heat of the Crimea could easily bring out spots and streaks on the glass.",
+       "kind": "kritik",
+       "author": "Simon Grant (Tate Etc.)",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+       "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+       "excerpt": "Fenton introduced an alternative representation of war - the landscape of aftermath. It was an aesthetic of reduction that would appeal to future artists.",
+       "kind": "kritik",
+       "author": "Simon Grant (Tate Etc.)",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "fenton-valley-shadow",
+       "title": "The Valley of the Shadow of Death",
+       "year": 1855,
+       "location": "Schlucht vor Sewastopol, Krim",
+       "tags": [
+        "schlucht",
+        "kanonenkugeln",
+        "krieg",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O1410688/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2018KW0701/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+         "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+         "excerpt": "It was plain that the line of fire was upon the very spot I had chosen, so very reluctantly I put up with another reach of the valley about 100 yards short of the best point.",
+         "kind": "fotograf",
+         "author": "Roger Fenton, Brief an seine Frau Grace (zitiert in Tate Etc.)",
+         "aspect": "entstehung",
+         "series_level": false,
+         "translation_de": "Es war klar, dass die Schusslinie genau auf der Stelle lag, die ich gewählt hatte; so begnügte ich mich sehr widerwillig mit einem anderen Abschnitt des Tals, etwa 100 Yards vor dem besten Punkt."
+        },
+        {
+         "url": "https://publicdomainreview.org/collection/roger-fenton-valley-of-the-shadow-of-death/",
+         "title": "Of Chickens, Eggs, and Cannonballs: Roger Fenton's Valley of the Shadow of Death (1855) – The Public Domain Review",
+         "excerpt": "This famous image is, in fact, one of a pair - both taken by Fenton on the same day, from the same position, of the very same vista. The difference between them? The less famous version has no cannonballs on the road - they are all in the ditch instead.",
+         "kind": "kritik",
+         "author": "The Public Domain Review",
+         "aspect": "rezeption",
+         "series_level": false,
+         "translation_de": "Das berühmte Bild ist eines von zweien – am selben Tag, vom selben Standpunkt, mit demselben Ausblick. Der Unterschied: In der weniger bekannten Fassung liegen keine Kanonenkugeln auf der Straße, sondern alle im Graben."
+        }
+       ]
+      },
+      {
+       "key": "fenton-sebastopol-cathcart",
+       "title": "Sebastopol from Cathcart's Hill",
+       "year": 1855,
+       "location": "Cathcart's Hill vor Sewastopol, Krim",
+       "tags": [
+        "ebene",
+        "horizont",
+        "krieg",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/283159",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP107963.jpg",
+       "sources": []
+      },
+      {
+       "key": "fenton-mamelon-malakoff",
+       "title": "The Mamelon and Malakoff from front of Mortar Battery",
+       "year": 1855,
+       "location": "Vor Sewastopol, Krim",
+       "tags": [
+        "ebene",
+        "graben",
+        "krieg",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/831089",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/TR.307.2.2019_Fenton.jpg",
+       "sources": []
+      },
+      {
+       "key": "fenton-genoese-castle",
+       "title": "The Genoese Castle, Balaklava",
+       "year": 1855,
+       "location": "Balaklawa, Krim",
+       "tags": [
+        "hafen",
+        "zelte",
+        "burg",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/286566",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP206647.jpg",
+       "sources": []
+      },
+      {
+       "key": "fenton-cossack-bay",
+       "title": "Cossack Bay, Balaklava",
+       "year": 1855,
+       "location": "Balaklawa, Krim",
+       "tags": [
+        "hafen",
+        "schiffe",
+        "berge",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/286567",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP206646.jpg",
+       "sources": []
+      },
+      {
+       "key": "fenton-ordnance-wharf",
+       "title": "Landing Place, Ordnance Wharf, Balaklava",
+       "year": 1855,
+       "location": "Balaklawa, Krim",
+       "tags": [
+        "hafen",
+        "kai",
+        "schiffe",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/286568",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP138042.jpg",
+       "sources": []
+      },
+      {
+       "key": "fenton-railway-stores",
+       "title": "Landing Place, Railway Stores, Balaklava",
+       "year": 1855,
+       "location": "Balaklawa, Krim",
+       "tags": [
+        "hafen",
+        "kai",
+        "material",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/283158",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP107962.jpg",
+       "sources": []
+      },
+      {
+       "key": "fenton-van",
+       "title": "Photographic Van (The Artist's Van with servant)",
+       "year": 1855,
+       "location": "Krim",
+       "tags": [
+        "wagen",
+        "dunkelkammer",
+        "porträt",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O72799/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AR9164/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+         "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+         "excerpt": "Roger Fenton Fenton's Photographic Van with assistant Marcus Sparling 1855",
+         "kind": "kritik",
+         "author": "Tate Etc. (Bildunterschrift)",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "frith",
+   "name": "Francis Frith",
+   "born": 1822,
+   "died": 1898,
+   "sources": [
+    {
+     "url": "https://archivesearch.lib.cam.ac.uk/repositories/2/resources/596",
+     "title": "Albums by Francis Frith – Cambridge University Library, ArchiveSearch",
+     "excerpt": "Frith travelled with 3 different cameras - a stereo apparatus, an 8 x 10 inch and a 16 x 20 inch camera for larger views.",
+     "kind": "wissenschaft",
+     "author": "Cambridge University Library",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://archivesearch.lib.cam.ac.uk/repositories/2/resources/596",
+     "title": "Albums by Francis Frith – Cambridge University Library, ArchiveSearch",
+     "excerpt": "When (at the Second Cataract, one thousand miles from the mouth of the Nile, with the thermometer at 110° in my tent) the collodion actually boiled when pouring upon the glass plate, I almost despaired of success.",
+     "kind": "fotograf",
+     "author": "Francis Frith (zitiert von der Cambridge University Library)",
+     "aspect": "technik",
+     "series_level": true,
+     "translation_de": "Als (am Zweiten Katarakt, tausend Meilen von der Nilmündung, bei 110 °F in meinem Zelt) das Kollodium beim Aufgießen auf die Glasplatte tatsächlich kochte, verzweifelte ich fast am Erfolg."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O113091/",
+     "title": "The Pyramids of El-Geezeh, from the South West – Victoria and Albert Museum (Objektseite O113091)",
+     "excerpt": "In 1857, he wrote: 'The decay or demolition of ancient remains, and the changes now at last destroying Eastern art and national peculiarities, make the present time of the highest value for taking such views.'",
+     "kind": "fotograf",
+     "author": "Francis Frith (zitiert vom V&A)",
+     "aspect": "entstehung",
+     "series_level": true,
+     "translation_de": "1857 schrieb er: „Verfall oder Abriss alter Bauten und die Veränderungen, die jetzt östliche Kunst und nationale Eigenheiten zerstören, machen die Gegenwart besonders wertvoll für solche Ansichten.“"
+    }
+   ],
+   "projects": [
+    {
+     "key": "frith-egypt-palestine",
+     "title": "Egypt and Palestine / Egypt, Sinai and Jerusalem",
+     "year_from": 1856,
+     "year_to": 1860,
+     "sources": [
+      {
+       "url": "https://archivesearch.lib.cam.ac.uk/repositories/2/resources/596",
+       "title": "Albums by Francis Frith – Cambridge University Library, ArchiveSearch",
+       "excerpt": "He first visited Egypt in September 1856-July 1857, exploring the Nile region from Cairo to Abu Simbel.",
+       "kind": "wissenschaft",
+       "author": "Cambridge University Library",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://kochgallery.com/exhibitions/francis-frith-twenty-photographic-views-2004/",
+       "title": "Francis Frith: Egypt, Sinai, and Jerusalem – Robert Koch Gallery (Ausstellung 2004)",
+       "excerpt": "As enlargements were not yet a reality in the mid-19th century, photographers made contact prints, which could be only as large the negative. Due to the difficulty of using immense glass negatives, few practitioners at the time photographed in the mammoth-plate size, and surviving large prints in good condition from this era are quite rare.",
+       "kind": "kurator",
+       "author": "Robert Koch Gallery",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://kochgallery.com/exhibitions/francis-frith-twenty-photographic-views-2004/",
+       "title": "Francis Frith: Egypt, Sinai, and Jerusalem – Robert Koch Gallery (Ausstellung 2004)",
+       "excerpt": "While Frith's works may have been conceived as realistic records of scenic attractions, or as straightforward topography, the images assert a strong sense of abstraction with attention to composition, form and texture.",
+       "kind": "kurator",
+       "author": "Robert Koch Gallery",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://swh.princeton.edu/~graphicarts/2008/07/how_hot_is_it_where_you_are.html",
+       "title": "How Hot Is It Where You Are? – Graphic Arts Collection, Princeton University Library (Blog)",
+       "excerpt": "He often complained about the chemicals boiling-over inside the tent he used as a darkroom.",
+       "kind": "wissenschaft",
+       "author": "Julie L. Mellby, Princeton University Library",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "frith-sphinx",
+       "title": "The Sphinx and the Great Pyramid",
+       "year": 1858,
+       "location": "Gizeh, Ägypten",
+       "tags": [
+        "pyramide",
+        "wüste",
+        "monument",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O90516/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AG1696/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O90516/",
+         "title": "Sphinx – Victoria and Albert Museum (Objektseite O90516)",
+         "excerpt": "This photograph was produced from one of Frith's largest negatives (40.6 x 50.8 cm) and captures the monumentality of the Egyptian landscape and architecture, the dramatic light and its play on sand and stone.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "frith-pyramids-sw",
+       "title": "The Pyramids of El-Geezeh, from the South West",
+       "year": 1857,
+       "location": "Gizeh, Ägypten",
+       "tags": [
+        "pyramide",
+        "wüste",
+        "kamel",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O113091/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006BF3912/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O113091/",
+         "title": "The Pyramids of El-Geezeh, from the South West – Victoria and Albert Museum (Objektseite O113091)",
+         "excerpt": "This process yielded a high level of detail in the image but using wet plates proved difficult in the intense heat of Egypt.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "frith-approach-philae",
+       "title": "The Approach to Philae",
+       "year": 1857,
+       "location": "Philae, Nil, Ägypten",
+       "tags": [
+        "nil",
+        "fels",
+        "tempel",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/271085",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP116334.jpg",
+       "sources": []
+      },
+      {
+       "key": "frith-memnon",
+       "title": "The Statues of Memnon, Plain of Thebes",
+       "year": 1857,
+       "location": "Theben-West (Luxor), Ägypten",
+       "tags": [
+        "kolosse",
+        "ebene",
+        "maßstab",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/271086",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP116335.jpg",
+       "sources": []
+      },
+      {
+       "key": "frith-abou-simbel",
+       "title": "Abou Simbel, Nubia",
+       "year": 1857,
+       "location": "Abu Simbel, Nubien (Ägypten)",
+       "tags": [
+        "tempel",
+        "sand",
+        "kolosse",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/271099",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP116347.jpg",
+       "sources": []
+      },
+      {
+       "key": "frith-hypaethral-philae",
+       "title": "The Hypaethral Temple, Philae",
+       "year": 1858,
+       "location": "Philae, Nil, Ägypten",
+       "tags": [
+        "tempel",
+        "nil",
+        "boot",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/286143",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-19598-019.jpg",
+       "sources": [
+        {
+         "url": "https://kochgallery.com/exhibitions/francis-frith-twenty-photographic-views-2004/",
+         "title": "Francis Frith: Egypt, Sinai, and Jerusalem – Robert Koch Gallery (Ausstellung 2004)",
+         "excerpt": "Francis Frith The Hypaethral Temple, Philae, 1858 Albumen silver print from collodion on glass negative 14 7/8 x 18 3/4 in.",
+         "kind": "kurator",
+         "author": "Robert Koch Gallery",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "frith-dahshur",
+       "title": "Pyramid at Dahshur",
+       "year": 1857,
+       "location": "Dahschur, Ägypten",
+       "tags": [
+        "pyramide",
+        "wüste",
+        "ruine",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/260973",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP116367.jpg",
+       "sources": []
+      },
+      {
+       "key": "frith-written-valley",
+       "title": "The Written Valley, Sinai",
+       "year": 1857,
+       "location": "Wadi Mukattab, Sinai",
+       "tags": [
+        "wüste",
+        "berge",
+        "tal",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/260957",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP116359.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "tripe",
+   "name": "Linnaeus Tripe",
+   "born": 1822,
+   "died": 1902,
+   "sources": [
+    {
+     "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+     "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+     "excerpt": "Tripe's schooling as a surveyor also lent him certain skills - his considered choice of viewpoint and careful attention to visual details.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+     "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+     "excerpt": "However, even though using waxed paper negatives was very difficult in the hot and humid Indian climate, Tripe continued to mainly use paper negatives. It is thought that he was worried about the dangers of glass breaking. Paper negatives were also easier to use and to transport.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://sunpictures.com/artists/linnaeus-tripe/biography",
+     "title": "Linnaeus Tripe – Biografie, Hans P. Kraus Jr. Fine Photographs",
+     "excerpt": "The skies in Tripe's photographs have a unusually animated appearance as he was particularly adept at painting in clouds on his negatives.",
+     "kind": "kurator",
+     "author": "Hans P. Kraus Jr. Fine Photographs",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "tripe-salem",
+     "title": "Photographic Views of Ryakotta and other places in the Salem District",
+     "year_from": 1857,
+     "year_to": 1858,
+     "sources": [
+      {
+       "url": "https://collections.vam.ac.uk/item/O131221/",
+       "title": "Ryakotta Hill – Victoria and Albert Museum (Objektseite O131221)",
+       "excerpt": "Tripe set off on a tour from Bangalore on 14 December 1857. He travelled through the Salem district to Srirangam, Tiruchchirappalli, Madurai, then Pudukkottai, Thanjavur, and Tiruchchirappalli again and ended his tour in Madras on 30 April 1858.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+       "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+       "excerpt": "Tripe mainly made 12 x 14 inch paper negatives, however, he also made a few 11 x 14 inch dry collodion-on-glass negatives - a newer photographic technique.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+       "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+       "excerpt": "Since the fibres of the paper negative became part of the image transferred onto the paper print, the prints had a 'soft focus' look.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+       "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+       "excerpt": "Since long exposures were necessary in order to capture detail in the foreground, the sky, much lighter than the foreground subject, was over exposed and appeared stark white. To improve the sky, like many photographers, Tripe often painted clouds or shading onto the negative.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "tripe-ryakotta-hill",
+       "title": "Ryakotta Hill",
+       "year": 1858,
+       "location": "Rayakottai (Ryakotta), Distrikt Salem, Tamil Nadu, Indien",
+       "tags": [
+        "fels",
+        "festung",
+        "berg",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O131221/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2007BM0072/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O131221/",
+         "title": "Ryakotta Hill – Victoria and Albert Museum (Objektseite O131221)",
+         "excerpt": "This is an extract of the accompanying text: 'Ryakotta was one of the old strong hill fortresses of the Baramahl.",
+         "kind": "museum",
+         "author": "Begleittext des Albums (1860), zitiert vom V&A",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tripe-gate-hill-fort",
+       "title": "Gate of the Hill Fort Ryakotta",
+       "year": 1858,
+       "location": "Rayakottai (Ryakotta), Distrikt Salem, Indien",
+       "tags": [
+        "tor",
+        "fels",
+        "baum",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O131226/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2007BM0075/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "tripe-looking-back-gate",
+       "title": "View looking back on the gate of the Fort from the ruined terrace behind",
+       "year": 1858,
+       "location": "Rayakottai (Ryakotta), Distrikt Salem, Indien",
+       "tags": [
+        "festung",
+        "mauer",
+        "fernblick",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O131227/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2007BM0074/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O131227/",
+         "title": "View looking back on the gate of the Fort from the ruined terrace behind – Victoria and Albert Museum (Objektseite O131227)",
+         "excerpt": "Guard is kept from sunrise to sunset on the lone Rock that towers some thousand feet above the broken ground around its base",
+         "kind": "museum",
+         "author": "Begleittext des Albums (1860), zitiert vom V&A",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tripe-view-nnw-ryacotta",
+       "title": "View of the country looking N. N. W. from the top of the Ryacotta Hill",
+       "year": 1858,
+       "location": "Gipfel des Ryakotta-Hügels, Distrikt Salem, Indien",
+       "tags": [
+        "fernblick",
+        "wolken",
+        "ebene",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O131228/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2007BM0076/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O131228/",
+         "title": "View of the country looking N. N. W. from the top of the Ryacotta Hill – Victoria and Albert Museum (Objektseite O131228)",
+         "excerpt": "There is a magnificent view from the top of the Ryakotta Hill that will well repay the difficulty of ascent. The whole country is spread out below as a map.",
+         "kind": "museum",
+         "author": "Begleittext des Albums (1860), zitiert vom V&A",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O131228/",
+         "title": "View of the country looking N. N. W. from the top of the Ryacotta Hill – Victoria and Albert Museum (Objektseite O131228)",
+         "excerpt": "Such a picturesque landscape photograph, retouched to add clouds and to accentuate the beautiful horizon, is unusual amongst Tripe's documentary images.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tripe-virabadra-drug",
+       "title": "Virabadra Drug as seen from near the site of the last view",
+       "year": 1858,
+       "location": "Virabadra Drug bei Ryakotta, Distrikt Salem, Indien",
+       "tags": [
+        "berg",
+        "wolken",
+        "vegetation",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O131230/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2007BM0078/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+         "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+         "excerpt": "Likewise, in the image of the landscape below, the wide sky features artificially added clouds above the detailed vegetation.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tripe-banian-avenue",
+       "title": "Avenue of Banian Trees",
+       "year": 1858,
+       "location": "Distrikt Salem, Indien",
+       "tags": [
+        "allee",
+        "bäume",
+        "weg",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O131232/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2007BM0079/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O131232/",
+         "title": "Avenue of Banian Trees – Victoria and Albert Museum (Objektseite O131232)",
+         "excerpt": "By situating the viewer at the edge of the path, Tripe invites us into the image. In this position we can imagine the cool shade afforded by the trees overhead.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "wirkung",
+         "series_level": false
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O131232/",
+         "title": "Avenue of Banian Trees – Victoria and Albert Museum (Objektseite O131232)",
+         "excerpt": "The depth of shade is exquisitely refreshing while the gigantic proportions of the stems, and the rich luxuriance of the foliage, offer alovely [sic] study of nature",
+         "kind": "museum",
+         "author": "Begleittext des Albums (1860), zitiert vom V&A",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tripe-namkal-drug",
+       "title": "Namkal Drug",
+       "year": 1858,
+       "location": "Namakkal, Distrikt Salem, Indien",
+       "tags": [
+        "fels",
+        "festung",
+        "weg",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O131233/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2007BM0082/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O131233/",
+         "title": "Namkal Drug – Victoria and Albert Museum (Objektseite O131233)",
+         "excerpt": "This photograph of a 'drug', or fort, is part of the album he produced of Ryacotta, or Royacottah, and the Salem district.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tripe-bikampulli",
+       "title": "Small Temple and swing at Bikampulli",
+       "year": 1858,
+       "location": "Bikampulli, Taluk Denkanikottai, Distrikt Salem, Indien",
+       "tags": [
+        "tempel",
+        "schaukel",
+        "bäume",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O131229/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2007BM0077/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O131229/",
+         "title": "Small Temple and swing at Bikampulli – Victoria and Albert Museum (Objektseite O131229)",
+         "excerpt": "The swing which occupies a prominent place in the foreground, was also erected for the performance of a vow by which a woman named Balasami had bound herself in a time of severe sickness.",
+         "kind": "museum",
+         "author": "Begleittext des Albums (1860), zitiert vom V&A",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "beato",
+   "name": "Felice Beato",
+   "born": 1832,
+   "died": 1909,
+   "sources": [
+    {
+     "url": "https://www.getty.edu/art/exhibitions/beato/",
+     "title": "Felice Beato: A Photographer on the Eastern Road – J. Paul Getty Museum (Ausstellung 2010/11)",
+     "excerpt": "In a peripatetic career that spanned five decades, the photographer Felice Beato (1832-1909) covered a wide swath of East Asia."
+    },
+    {
+     "url": "https://www.getty.edu/art/exhibitions/beato/",
+     "title": "Felice Beato: A Photographer on the Eastern Road – J. Paul Getty Museum (Ausstellung 2010/11)",
+     "excerpt": "From Robertson, Beato learned the albumen glass-plate negative process, noteworthy for the sharpness of its images.",
+     "kind": "museum",
+     "author": "J. Paul Getty Museum",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://www.getty.edu/art/exhibitions/beato/",
+     "title": "Felice Beato: A Photographer on the Eastern Road – J. Paul Getty Museum (Ausstellung 2010/11)",
+     "excerpt": "Beato's experience in the Crimea was decisive for his career. There he learned to make photographs in extreme and unpredictable conditions.",
+     "kind": "museum",
+     "author": "J. Paul Getty Museum",
+     "aspect": "entstehung",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "beato-india",
+     "title": "Indien nach dem Aufstand von 1857: Delhi, Agra, Lucknow",
+     "year_from": 1858,
+     "year_to": 1859,
+     "sources": [
+      {
+       "url": "https://www.getty.edu/art/exhibitions/beato/",
+       "title": "Felice Beato: A Photographer on the Eastern Road – J. Paul Getty Museum (Ausstellung 2010/11)",
+       "excerpt": "Eager to take advantage of Western interest in the conflict, Beato arrived in India in February 1858 to record the rebellion's aftermath. Guided by military officers, he made images of the mutiny's main sites-Delhi, Cawnpore, and Lucknow-that he sequenced and captioned to re-create the primary events.",
+       "kind": "museum",
+       "author": "J. Paul Getty Museum",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.getty.edu/art/exhibitions/beato/",
+       "title": "Felice Beato: A Photographer on the Eastern Road – J. Paul Getty Museum (Ausstellung 2010/11)",
+       "excerpt": "He traveled widely in the northern part of the country and expanded his oeuvre with architectural views of Agra, Benares (present-day Varanasi), and Muritsur (present-day Amritsar).",
+       "kind": "museum",
+       "author": "J. Paul Getty Museum",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://collections.vam.ac.uk/item/O108885/",
+       "title": "Sufter Jung's tomb – Victoria and Albert Museum (Objektseite O108885)",
+       "excerpt": "Beato took photographs of sites associated with the uprising, as well as more general photographs of the most important monuments of the cities he visited, as in this example.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "entstehung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "beato-humayun-west-gate",
+       "title": "Tomb of the Emperor Hoomaoon, where Major Hodson captured the King (mit Westtor)",
+       "year": 1858,
+       "location": "Humayun-Grabmal, Delhi, Indien",
+       "tags": [
+        "grabmal",
+        "ruinen",
+        "gebüsch",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O108882/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AC7508/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O108882/",
+         "title": "Tomb of the Emperor Hoomaoon, where Major Hodson captured the King – Victoria and Albert Museum (Objektseite O108882)",
+         "excerpt": "This photograph shows the tomb of the emperor Humayun and the west gate entrance to it. In the foreground are the remains of other buildings and shrub land.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O108882/",
+         "title": "Tomb of the Emperor Hoomaoon, where Major Hodson captured the King – Victoria and Albert Museum (Objektseite O108882)",
+         "excerpt": "Humayun's tomb was the scene of the capture by the British of the last Mughal emperor of Delhi, Bahadur Shah II.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "beato-jumna-musjid",
+       "title": "Jumna Musjid",
+       "year": 1858,
+       "location": "Jama Masjid, Delhi, Indien",
+       "tags": [
+        "moschee",
+        "treppe",
+        "minarett",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O108883/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AC7555/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O108883/",
+         "title": "Jumna Musjid – Victoria and Albert Museum (Objektseite O108883)",
+         "excerpt": "Here you can see the steep high steps on the southern side leading to the gateway and into the central courtyard of the mosque. The most impressive part of the mosque is the prayer hall on the western side. Its minarets and domes can be seen on the left-hand side of this photograph.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O108883/",
+         "title": "Jumna Musjid – Victoria and Albert Museum (Objektseite O108883)",
+         "excerpt": "After its capture by the British, it remained as an unused mosque until 1862.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "beato-safdar-jang",
+       "title": "Sufter Jung's tomb",
+       "year": 1858,
+       "location": "Grabmal des Safdar Jang, Delhi, Indien",
+       "tags": [
+        "grabmal",
+        "achse",
+        "symmetrie",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O108885/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AC7501/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "beato-kootub-temple",
+       "title": "Exterior of the Hindoo Temple in Kootub",
+       "year": 1858,
+       "location": "Quwwat-ul-Islam-Moschee, Qutb-Komplex, Delhi, Indien",
+       "tags": [
+        "säulen",
+        "kolonnade",
+        "menschen",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O108887/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AC7573/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O108887/",
+         "title": "Exterior of the Hindoo Temple in Kootub – Victoria and Albert Museum (Objektseite O108887)",
+         "excerpt": "This photograph shows the external view of the colonnade of pillars that make up the east side of the Quwwat-ul-Islam Mosque, south of Delhi.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "beato-qutb-minar",
+       "title": "Victory Minaret (Qutb Minar)",
+       "location": "Qutb Minar, Delhi, Indien",
+       "tags": [
+        "turm",
+        "ornament",
+        "untersicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O80900/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2017JX4083/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "beato-taj-mahal",
+       "title": "The Taj Mahal",
+       "location": "Agra, Indien",
+       "tags": [
+        "grabmal",
+        "garten",
+        "achse",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O80934/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2017JX4115/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "beato-sikandra-bagh",
+       "title": "Interior of the Sikandra Bagh, Lucknow",
+       "year": 1858,
+       "location": "Sikandar Bagh, Lucknow, Indien",
+       "tags": [
+        "ruine",
+        "krieg",
+        "inszenierung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O80929/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2017JX4091/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://www.getty.edu/art/exhibitions/beato/",
+         "title": "Felice Beato: A Photographer on the Eastern Road – J. Paul Getty Museum (Ausstellung 2010/11)",
+         "excerpt": "He arranged disinterred bones in the foreground in order to dramatically depict the massive slaughter that occurred at Lucknow.",
+         "kind": "museum",
+         "author": "J. Paul Getty Museum",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://www.tate.org.uk/tate-etc/issue-5-autumn-2005/terrible-beauty",
+         "title": "Simon Grant: A terrible beauty – Tate Etc., Heft 5 (Herbst 2005)",
+         "excerpt": "Two years after Fenton took this picture, Felice Beato distributed the human bones he found in a courtyard at the Sikandarbagh Palace for one of his photographs of the 1857 Sepoy Rebellion in India.",
+         "kind": "kritik",
+         "author": "Simon Grant (Tate Etc.)",
+         "aspect": "rezeption",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "beato-breach-sekundra",
+       "title": "The Breach in Sekundra Bagh, Lucknow",
+       "year": 1858,
+       "location": "Sikandar Bagh, Lucknow, Indien",
+       "tags": [
+        "ruine",
+        "mauer",
+        "krieg",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O80927/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2017JX4090/full/1600,/0/default.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "sella",
+   "name": "Vittorio Sella",
+   "born": 1859,
+   "died": 1943,
+   "sources": [
+    {
+     "url": "https://www.fondazionesella.org/biographies/sella-vittorio-6/",
+     "title": "Vittorio Sella – Biografie, Fondazione Sella (Biella)",
+     "excerpt": "From 1889 to 1909, Vittorio Sella explored the mountainous regions of four continents."
+    },
+    {
+     "url": "https://www.fondazionesella.org/biographies/sella-vittorio-6/",
+     "title": "Vittorio Sella – Biografie, Fondazione Sella (Biella)",
+     "excerpt": "In his photographic work he used a range of techniques, including wet and dry collodion and by 1881, he was using plates with gelatin bromide plates of 24×30 cm, which he adopted in 1882 to take a circular panorama in eleven plates of the summit of the Matterhorn. From 1882 to 1893 he used the same plates but measuring 30×40 cm and he documented both sides of the Alps.",
+     "kind": "museum",
+     "author": "Fondazione Sella",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "The vastness of the subjects and the purity of Sella's interpretations move the spectator to a definitely religious awe.",
+     "kind": "fotograf",
+     "author": "Ansel Adams, Sierra Club Bulletin 1946 (zitiert bei PeakVisor)",
+     "aspect": "rezeption",
+     "series_level": true,
+     "translation_de": "Die Weite der Motive und die Reinheit von Sellas Interpretationen versetzen den Betrachter in eine geradezu religiöse Ehrfurcht."
+    },
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "They set up the photographic camera on its tripod, and, huddling around it, waited patiently. By two in the afternoon Sella gave it up, folded up the camera, and was on the point of leaving the peak, when suddenly the sky began to clear.",
+     "kind": "wissenschaft",
+     "author": "Filippo De Filippi, Expeditionsbericht Ruwenzori 1906 (zitiert bei PeakVisor)",
+     "aspect": "entstehung",
+     "series_level": true,
+     "translation_de": "Sie stellten die Kamera auf das Stativ, drängten sich darum und warteten geduldig. Um zwei Uhr nachmittags gab Sella auf, packte die Kamera ein und wollte den Gipfel schon verlassen, als der Himmel plötzlich aufklarte."
+    },
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "According to the curator Paul Kallmes, Sella sometimes added figures to a picture in the darkroom to give the viewer a sense of scale.",
+     "kind": "kurator",
+     "author": "Paul Kallmes (zitiert bei PeakVisor)",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "sella-expeditionen",
+     "title": "Expeditionen: Alaska, Kangchenjunga und Karakorum",
+     "year_from": 1897,
+     "year_to": 1909,
+     "sources": [
+      {
+       "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+       "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+       "excerpt": "He built cairns to mark his camera stations so that the surveyors could tie each panorama into the expedition's map.",
+       "kind": "wissenschaft",
+       "author": "PeakVisor",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+       "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+       "excerpt": "all three of us waiting in a cutting wind, our teeth chattering, stamping our feet and slapping our hands together, indulging the vain hope that the sky might clear.",
+       "kind": "wissenschaft",
+       "author": "Filippo De Filippi, Karakorum-Expedition 1909 (zitiert bei PeakVisor)",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "wir alle drei warteten im schneidenden Wind, mit klappernden Zähnen, stampften mit den Füßen und schlugen die Hände zusammen, in der vergeblichen Hoffnung, der Himmel möge aufklaren."
+      },
+      {
+       "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+       "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+       "excerpt": "By one curator's estimate, the big camera weighed about forty pounds, and each glass negative about two.",
+       "kind": "kurator",
+       "author": "PeakVisor",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "sella-saint-elias",
+       "title": "Mount St. Elias from Malaspina Glacier",
+       "year": 1897,
+       "location": "Malaspina-Gletscher, Alaska",
+       "tags": [
+        "gletscher",
+        "berg",
+        "expedition",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Vittorio_Sella--Mount_St_Elias_from_Malaspina_Glacier--1897.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1280&f=Vittorio_Sella--Mount_St_Elias_from_Malaspina_Glacier--1897.jpg",
+       "sources": [
+        {
+         "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+         "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+         "excerpt": "The images that survived still show the scale of the place. The expedition hauls its sledges across the Malaspina Glacier, the mountain far beyond.",
+         "kind": "wissenschaft",
+         "author": "PeakVisor",
+         "aspect": "wirkung",
+         "series_level": false
+        },
+        {
+         "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+         "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+         "excerpt": "It records the big 30 by 40 camera and five dozen plates, and then adds one dry sentence: \"This camera was only used to take one photograph.\" Most of the best pictures, Sella noted, came from a folding Kodak.",
+         "kind": "wissenschaft",
+         "author": "PeakVisor (nach der Ausrüstungsliste im Expeditionsbuch)",
+         "aspect": "technik",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "sella-kangchenjunga",
+       "title": "Kangchenjunga",
+       "year": 1899,
+       "location": "Kangchenjunga-Massiv, Sikkim/Nepal",
+       "tags": [
+        "berg",
+        "gletscher",
+        "himalaya",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Vittorio_Sella_Kanchinjinga_(Kangchenjunga)_1899.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1280&f=Vittorio_Sella_Kanchinjinga_(Kangchenjunga)_1899.jpg",
+       "sources": [
+        {
+         "url": "https://www.fondazionesella.org/biographies/sella-vittorio-6/",
+         "title": "Vittorio Sella – Biografie, Fondazione Sella (Biella)",
+         "excerpt": "In 1899 he documented the exploratory expedition to Sikkim and, led by the English mountaineer Douglas W. Freshfield, completed the circuit of the Kangchenjunga Massif.",
+         "kind": "museum",
+         "author": "Fondazione Sella",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+         "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+         "excerpt": "Heavy snow buried their camp, but at about 20,000 feet the Sella brothers stopped to take photographs, among the highest anyone had made.",
+         "kind": "wissenschaft",
+         "author": "PeakVisor",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "sella-k2-1909",
+       "title": "K2",
+       "year": 1909,
+       "location": "K2, Karakorum",
+       "tags": [
+        "berg",
+        "gletscher",
+        "karakorum",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:K2_sella_1909.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1280&f=K2_sella_1909.jpg",
+       "sources": [
+        {
+         "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+         "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+         "excerpt": "\"Vittorio Sella brought back hundreds of mountain photographs which have yet to be equalled,\" he wrote.",
+         "kind": "wissenschaft",
+         "author": "Charles Houston 1939 (zitiert bei PeakVisor)",
+         "aspect": "rezeption",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "sella-k2-se",
+       "title": "K2 from the southeast",
+       "year": 1909,
+       "location": "K2, Karakorum",
+       "tags": [
+        "berg",
+        "grat",
+        "karakorum",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:K2_from_SE.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1280&f=K2_from_SE.jpg",
+       "sources": [
+        {
+         "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+         "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+         "excerpt": "It printed a 1909 Sella photograph of the ridge the Duke had tried, with the Americans' proposed route drawn on it. It was Houston's party that christened it the Abruzzi ridge.",
+         "kind": "wissenschaft",
+         "author": "PeakVisor",
+         "aspect": "rezeption",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "sella-muztagh-skilbrum",
+       "title": "Muztagh Tower and Skil Brum from the Upper Baltoro Glacier",
+       "year": 1909,
+       "location": "Oberer Baltoro-Gletscher, Karakorum",
+       "tags": [
+        "gletscher",
+        "gipfel",
+        "moräne",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Muztagh_tower_-_skil_brum_1909_sella.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1280&f=Muztagh_tower_-_skil_brum_1909_sella.jpg",
+       "sources": []
+      },
+      {
+       "key": "sella-gasherbrum",
+       "title": "Gasherbrum I (Hidden Peak)",
+       "year": 1909,
+       "location": "Karakorum",
+       "tags": [
+        "berg",
+        "gletscher",
+        "karakorum",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Vittorio_Sella_peaks_in_Karakoram_Mountain_Range_c1900.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1280&f=Vittorio_Sella_peaks_in_Karakoram_Mountain_Range_c1900.jpg",
+       "sources": []
+      },
+      {
+       "key": "sella-chogolisa",
+       "title": "Der Herzog der Abruzzen und Führer am Chogolisa",
+       "year": 1909,
+       "location": "Chogolisa (Bride Peak), Karakorum",
+       "tags": [
+        "seilschaft",
+        "schnee",
+        "maßstab",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Abruzzi_on_Chogolisa.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1280&f=Abruzzi_on_Chogolisa.jpg",
+       "sources": [
+        {
+         "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+         "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+         "excerpt": "They tried the mountain's south-east ridge, and then set an altitude record on Chogolisa without reaching its summit.",
+         "kind": "wissenschaft",
+         "author": "PeakVisor",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "emerson",
+   "name": "Peter Henry Emerson",
+   "born": 1856,
+   "died": 1936,
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313671/",
+     "title": "Pictures of East Anglian Life (Buch) – Victoria and Albert Museum (Objektseite O1313671)",
+     "excerpt": "Peter Henry Emerson (1856-1936) originally studied medicine, though from 1886 onwards after a brief career practising he dedicated himself full-time to photography and writing.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "series_level": false
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313613/",
+     "title": "Idyls of the Norfolk Broads (Portfolio) – Victoria and Albert Museum (Objektseite O1313613)",
+     "excerpt": "Emerson was a proponent of naturalistic photography, which sought to create photographs that replicated how the eye sees and was dismissive of any potential individual sensibilities of the photographer.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "deutung",
+     "series_level": true,
+     "translation_de": "Emerson vertrat die naturalistische Fotografie, die Bilder so machen wollte, wie das Auge sieht."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1160235/",
+     "title": "Colts on a Norfolk Marsh – Victoria and Albert Museum (Objektseite O1160235)",
+     "excerpt": "He wrote in Naturalistic Photography that 'Nothing in nature has a hard outline but everything is seen against something else, and its outlines fade gently into something else, often so subtly that you cannot quite distinguish where one ends and the other begins. In this mingled decision and indecision, this lost and found, lies all the charm and mystery of nature'.",
+     "kind": "fotograf",
+     "author": "Peter Henry Emerson (zitiert vom V&A)",
+     "aspect": "technik",
+     "series_level": true,
+     "translation_de": "„Nichts in der Natur hat einen harten Umriss; alles wird vor etwas anderem gesehen, und seine Umrisse gehen sanft in etwas anderes über, oft so fein, dass man kaum sagen kann, wo das eine endet und das andere beginnt. In diesem Ineinander von Bestimmtheit und Unbestimmtheit, diesem Verlieren und Wiederfinden, liegt aller Reiz und alles Geheimnis der Natur.“"
+    }
+   ],
+   "projects": [
+    {
+     "key": "emerson-east-anglia",
+     "title": "Norfolk Broads und East Anglia: Life and Landscape, Idyls, Pictures of East Anglian Life",
+     "year_from": 1886,
+     "year_to": 1890,
+     "sources": [
+      {
+       "url": "https://collections.vam.ac.uk/item/O1313849/",
+       "title": "Pictures of East Anglian Life (Portfolio 1890) – Victoria and Albert Museum (Objektseite O1313849)",
+       "excerpt": "So, in 1890 he selected 10 plates from his book Pictures of East Anglian Life (1888) that best illustrated his theories, and presented them loose in a portfolio dedicated to the 'photographic student', with the same title and cover of the book.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "1890 wählte er die zehn Tafeln aus „Pictures of East Anglian Life“ (1888), die seine Theorien am besten zeigten, und legte sie lose in eine Mappe „für den fotografischen Studenten“."
+      },
+      {
+       "url": "https://collections.vam.ac.uk/item/O1313671/",
+       "title": "Pictures of East Anglian Life (Buch) – Victoria and Albert Museum (Objektseite O1313671)",
+       "excerpt": "Emerson was deeply interested in the emerging photomechanical process of photogravure (copper-plate engraving), and went on to learn the technique so that he could do the printing himself.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "Emerson interessierte sich stark für die Fotogravüre (Kupfertiefdruck) und lernte das Verfahren, um selbst drucken zu können."
+      },
+      {
+       "url": "https://collections.vam.ac.uk/item/O1313843/",
+       "title": "Idyls of the Norfolk Broads (Tafel) – Victoria and Albert Museum (Objektseite O1313843)",
+       "excerpt": "He also specifies that in the process of reproduction 'no retouching has marred the subtleties of Nature's handiwork'.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "Er betont, dass bei der Reproduktion „keine Retusche die Feinheiten der Natur beeinträchtigt“ habe."
+      }
+     ],
+     "images": [
+      {
+       "key": "emerson-water-lilies",
+       "title": "Gathering Water-Lilies",
+       "year": 1886,
+       "location": "Norfolk Broads, England",
+       "tags": [
+        "boot",
+        "wasser",
+        "arbeit",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O82672/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AL4880/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O82672/",
+         "title": "Gathering Water-Lilies – Victoria and Albert Museum (Objektseite O82672)",
+         "excerpt": "This is Emerson's most famous and ambiguous image. A seemingly romantic scene, it is actually a depiction of a man and a woman at work.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung",
+         "series_level": false,
+         "translation_de": "Emersons berühmtestes und mehrdeutigstes Bild: scheinbar romantisch, tatsächlich ein Mann und eine Frau bei der Arbeit."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O82672/",
+         "title": "Gathering Water-Lilies – Victoria and Albert Museum (Objektseite O82672)",
+         "excerpt": "Emerson then included it as a platinotype in his first book Life and Landscape on the Norfolk Broads (1886-1887).",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "entstehung",
+         "series_level": false,
+         "translation_de": "Emerson nahm es als Platindruck in sein erstes Buch „Life and Landscape on the Norfolk Broads“ (1886–1887) auf."
+        }
+       ]
+      },
+      {
+       "key": "emerson-where-winds-dike",
+       "title": "Where Winds the Dike",
+       "year": 1888,
+       "location": "Norfolk, England",
+       "tags": [
+        "marsch",
+        "graben",
+        "unschärfe",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O1313847/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2015HP1960/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O1313847/",
+         "title": "Pictures of East Anglian Life (Tafel Where Winds the Dike) – Victoria and Albert Museum (Objektseite O1313847)",
+         "excerpt": "In the note 'To the Student', pasted to the inside cover of the Pictures of East Anglian Life portfolio, Emerson declares that, out of the 10 plates selected, the image Where Winds the Dike is the second most successful in portraying his theories on focussing.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "In der Notiz „To the Student“ erklärt Emerson, „Where Winds the Dike“ zeige von den zehn Tafeln seine Theorie der Scharfstellung am zweitbesten."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O1313847/",
+         "title": "Pictures of East Anglian Life (Tafel Where Winds the Dike) – Victoria and Albert Museum (Objektseite O1313847)",
+         "excerpt": "'The whole picture is [deliberately] out of focus', Emerson writes. He also maintains that no lens yet made could give this effect, perhaps emphasizing his artistic eye.",
+         "kind": "fotograf",
+         "author": "Peter Henry Emerson (zitiert vom V&A)",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "„Das ganze Bild ist [absichtlich] unscharf“, schreibt Emerson; kein bisher gebautes Objektiv könne diese Wirkung liefern."
+        }
+       ]
+      },
+      {
+       "key": "emerson-march-pastoral",
+       "title": "A March Pastoral",
+       "year": 1888,
+       "location": "Norfolk, England",
+       "tags": [
+        "schafe",
+        "weide",
+        "unschärfe",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O1313846/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2015HP1962/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O1313846/",
+         "title": "A March Pastoral – Victoria and Albert Museum (Objektseite O1313846)",
+         "excerpt": "He commented, 'This plate I consider to possess every naturalistic quality that I seek. Here perhaps my views on focussing are better illustrated than elsewhere …The judiciously selected foci for various parts of pictures as desired, can be studied here'.",
+         "kind": "fotograf",
+         "author": "Peter Henry Emerson (zitiert vom V&A)",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "„Diese Tafel besitzt jede naturalistische Eigenschaft, die ich suche. Hier ist meine Auffassung vom Scharfstellen vielleicht besser zu sehen als anderswo … die mit Bedacht gewählten Schärfen für verschiedene Bildteile lassen sich hier studieren.“"
+        }
+       ]
+      },
+      {
+       "key": "emerson-fringe-mere",
+       "title": "The Fringe of the Mere",
+       "year": 1888,
+       "location": "Norfolk Broads, England",
+       "tags": [
+        "see",
+        "spiegelung",
+        "schilf",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O1313845/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2015HP1970/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O1313845/",
+         "title": "Pictures of East Anglian Life (Tafel The Fringe of the Mere) – Victoria and Albert Museum (Objektseite O1313845)",
+         "excerpt": "On the peaceful landscape of The Fringe of the Mere, he wrote, 'the lilies in foreground are only suggested by focussing with judgment'.",
+         "kind": "fotograf",
+         "author": "Peter Henry Emerson (zitiert vom V&A)",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "Zur Landschaft „The Fringe of the Mere“ schrieb er: „die Seerosen im Vordergrund sind durch umsichtiges Scharfstellen nur angedeutet“."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O1313845/",
+         "title": "Pictures of East Anglian Life (Tafel The Fringe of the Mere) – Victoria and Albert Museum (Objektseite O1313845)",
+         "excerpt": "The few generalised views and landscapes that Emerson included served the purpose of setting the scene to his anthropological investigation of the region.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung",
+         "series_level": false,
+         "translation_de": "Die wenigen allgemeinen Ansichten und Landschaften dienten als Szenerie für seine anthropologische Erkundung der Region."
+        }
+       ]
+      },
+      {
+       "key": "emerson-colts",
+       "title": "Colts on a Norfolk Marsh",
+       "year": 1888,
+       "location": "Norfolk, England",
+       "tags": [
+        "pferde",
+        "marsch",
+        "schärfe",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O1160235/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2008BV6047/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O1160235/",
+         "title": "Colts on a Norfolk Marsh – Victoria and Albert Museum (Objektseite O1160235)",
+         "excerpt": "Emerson considered this plate as 'focussed absolutely correctly'.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "Emerson hielt diese Tafel für „absolut richtig scharfgestellt“."
+        }
+       ]
+      },
+      {
+       "key": "emerson-haysel",
+       "title": "In the Haysel",
+       "year": 1888,
+       "location": "Norfolk, England",
+       "tags": [
+        "heu",
+        "wagen",
+        "schärfe",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O190906/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2015HP1950/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O190906/",
+         "title": "In the Haysel – Victoria and Albert Museum (Objektseite O190906)",
+         "excerpt": "According to Emerson, to record the effects of nature, photographers should use the 'selective focus' method. He explains, 'The principal object in the picture must be … just as sharp as the eye sees it, and no sharper; but everything else … must be subdued'.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "Laut Emerson sollte man Naturwirkungen mit „selektiver Schärfe“ festhalten: „Das Hauptmotiv muss … genau so scharf sein, wie das Auge es sieht, und nicht schärfer; alles andere … muss zurückgenommen werden.“"
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O190906/",
+         "title": "In the Haysel – Victoria and Albert Museum (Objektseite O190906)",
+         "excerpt": "The result, apparent in his treatment of the wispy hay on the cart, might be considered a photographic equivalent of an Impressionist painting.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "wirkung",
+         "series_level": false,
+         "translation_de": "Das Ergebnis, sichtbar am fransigen Heu auf dem Wagen, lässt sich als fotografisches Gegenstück zu impressionistischer Malerei sehen."
+        }
+       ]
+      },
+      {
+       "key": "emerson-stiff-pull",
+       "title": "A Stiff Pull",
+       "year": 1888,
+       "location": "East Anglia, England",
+       "tags": [
+        "pflug",
+        "pferde",
+        "wolken",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O1160233/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2015HP1959/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O1160233/",
+         "title": "A Stiff Pull – Victoria and Albert Museum (Objektseite O1160233)",
+         "excerpt": "Emerson won a silver medal in 1885 in The Country House Competition for the original version of this image, produced as an albumen print.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "rezeption",
+         "series_level": false,
+         "translation_de": "Für die Urfassung als Albuminabzug erhielt Emerson 1885 eine Silbermedaille."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O1160233/",
+         "title": "A Stiff Pull – Victoria and Albert Museum (Objektseite O1160233)",
+         "excerpt": "In this photogravure, published in the book and the portfolio, the clouds have been enhanced for greater dramatic effect, and the tree that appeared in the right-hand corner of the albumen print has been completely removed.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "technik",
+         "series_level": false,
+         "translation_de": "In dieser Fotogravüre sind die Wolken für mehr Dramatik verstärkt, und der Baum in der rechten Ecke des Albuminabzugs ist vollständig entfernt."
+        }
+       ]
+      },
+      {
+       "key": "emerson-toad-path",
+       "title": "A Toad in the Path - Early Spring in Norfolk",
+       "year": 1888,
+       "location": "Norfolk, England",
+       "tags": [
+        "kinder",
+        "frühling",
+        "graben",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O1023325/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006BH5370/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O1023325/",
+         "title": "A Toad in the Path - Early Spring in Norfolk – Victoria and Albert Museum (Objektseite O1023325)",
+         "excerpt": "A toad, of which there is no presence in the print, has caught the attention of two children while they are walking.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung",
+         "series_level": false,
+         "translation_de": "Eine Kröte, die im Bild nicht zu sehen ist, hat die Aufmerksamkeit der beiden Kinder geweckt."
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O1023325/",
+         "title": "A Toad in the Path - Early Spring in Norfolk – Victoria and Albert Museum (Objektseite O1023325)",
+         "excerpt": "This image also shows Emerson's predilection for photographing subjects who seem to be unaware of the presence of his camera.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "entstehung",
+         "series_level": false,
+         "translation_de": "Das Bild zeigt Emersons Vorliebe für Menschen, die die Kamera nicht zu bemerken scheinen."
+        }
+       ]
+      },
+      {
+       "key": "emerson-grey-day-pastoral",
+       "title": "A Grey Day Pastoral (Idyls of the Norfolk Broads)",
+       "year": 1887,
+       "location": "Norfolk Broads, England",
+       "tags": [
+        "schafe",
+        "mühle",
+        "dunst",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O1313842/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2015HP1988/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O1313842/",
+         "title": "Idyls of the Norfolk Broads (Tafel A Grey Day Pastoral) – Victoria and Albert Museum (Objektseite O1313842)",
+         "excerpt": "It is one of those moist days when the air is full of vapour; a day on which all the outlines of buildings and trees are softened and fade mysteriously into the sky. …Some sheep lie resting on the green marsh; the mill in the heavy air is also at rest, its mighty wings partially veiled in the mist",
+         "kind": "fotograf",
+         "author": "Peter Henry Emerson (zitiert vom V&A)",
+         "aspect": "deutung",
+         "series_level": false,
+         "translation_de": "„Es ist einer jener feuchten Tage, an denen die Luft voller Dunst ist; alle Umrisse von Gebäuden und Bäumen sind weich und verschwinden geheimnisvoll im Himmel. … Einige Schafe ruhen auf der grünen Marsch; die Mühle steht in der schweren Luft still, ihre mächtigen Flügel halb im Nebel verhüllt.“"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "stieglitz",
+   "name": "Alfred Stieglitz",
+   "born": 1864,
+   "died": 1946,
+   "sources": [
+    {
+     "url": "https://www.nearbycafe.com/photocriticism/members/archivetexts/photocredos/stieglitzclouds.html",
+     "title": "Alfred Stieglitz: How I Came to Photograph Clouds (1923) – Photography Criticism CyberArchive (A. D. Coleman)",
+     "excerpt": "I wanted to photograph clouds to find out what I had learned in 40 years about photography.",
+     "kind": "fotograf",
+     "author": "Alfred Stieglitz (The Amateur Photographer & Photography, 1923; Wiedergabe im PCCA)",
+     "aspect": "entstehung",
+     "series_level": true,
+     "translation_de": "Ich wollte Wolken fotografieren, um herauszufinden, was ich in 40 Jahren über Fotografie gelernt hatte."
+    },
+    {
+     "url": "https://www.nearbycafe.com/photocriticism/members/archivetexts/photocredos/stieglitzclouds.html",
+     "title": "Alfred Stieglitz: How I Came to Photograph Clouds (1923) – Photography Criticism CyberArchive (A. D. Coleman)",
+     "excerpt": "Clouds and their relationship to the rest of the world, and clouds for themselves, interested me, and clouds which were most difficult to photograph -- nearly impossible.",
+     "kind": "fotograf",
+     "author": "Alfred Stieglitz (The Amateur Photographer & Photography, 1923; Wiedergabe im PCCA)",
+     "aspect": "entstehung",
+     "series_level": true,
+     "translation_de": "Wolken und ihre Beziehung zum Rest der Welt, und Wolken an sich, interessierten mich – und Wolken waren sehr schwer zu fotografieren, fast unmöglich."
+    },
+    {
+     "url": "https://www.nearbycafe.com/photocriticism/members/archivetexts/photocredos/stieglitzclouds.html",
+     "title": "Alfred Stieglitz: How I Came to Photograph Clouds (1923) – Photography Criticism CyberArchive (A. D. Coleman)",
+     "excerpt": "My aim is increasingly to make my photographs look so much like photographs that unless one has eyes and sees, they won't be seen -- and still everyone will never forget them having once looked at them.",
+     "kind": "fotograf",
+     "author": "Alfred Stieglitz (The Amateur Photographer & Photography, 1923; Wiedergabe im PCCA)",
+     "aspect": "deutung",
+     "series_level": true,
+     "translation_de": "Mein Ziel ist zunehmend, dass meine Fotografien so sehr wie Fotografien aussehen, dass man sie nicht sieht, wenn man keine Augen hat und nicht sieht – und dass sie doch jeder, der sie einmal angeschaut hat, nie vergisst."
+    }
+   ],
+   "projects": [
+    {
+     "key": "stieglitz-equivalents",
+     "title": "Equivalents und Lake George",
+     "year_from": 1922,
+     "year_to": 1932,
+     "sources": [
+      {
+       "url": "https://www.artic.edu/artworks/66625",
+       "title": "Equivalent (1926) – Art Institute of Chicago (Objektseite 66625)",
+       "excerpt": "The pho-tographer, Alfred Stieglitz, began to photograph clouds in 1922, tilting his camera toward the sky to produce dizzying, nearly abstract images of their fleeting configurations. Over the next decade Stieglitz produced some 350 cloud studies, which he called Equivalents.",
+       "kind": "museum",
+       "author": "Art Institute of Chicago",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.artic.edu/artworks/66625",
+       "title": "Equivalent (1926) – Art Institute of Chicago (Objektseite 66625)",
+       "excerpt": "He maintained that these cloud photographs did not just fix ever-changing forms but also expressed pure emotion, even attributing to them the evocative power of music.",
+       "kind": "museum",
+       "author": "Art Institute of Chicago",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.nearbycafe.com/photocriticism/members/archivetexts/photocredos/stieglitzclouds.html",
+       "title": "Alfred Stieglitz: How I Came to Photograph Clouds (1923) – Photography Criticism CyberArchive (A. D. Coleman)",
+       "excerpt": "I always watched clouds. Studied them. Had unusual opportunities up here on this hillside [at Lake George].",
+       "kind": "fotograf",
+       "author": "Alfred Stieglitz (The Amateur Photographer & Photography, 1923; Wiedergabe im PCCA)",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Ich habe immer Wolken beobachtet. Sie studiert. Hatte hier oben an diesem Hang [am Lake George] ungewöhnliche Gelegenheiten."
+      },
+      {
+       "url": "https://www.nearbycafe.com/photocriticism/members/archivetexts/photocredos/stieglitzclouds.html",
+       "title": "Alfred Stieglitz: How I Came to Photograph Clouds (1923) – Photography Criticism CyberArchive (A. D. Coleman)",
+       "excerpt": "Straight photographs, all gaslight paper, except one palladiotype.",
+       "kind": "fotograf",
+       "author": "Alfred Stieglitz (The Amateur Photographer & Photography, 1923; Wiedergabe im PCCA)",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "Reine (straight) Fotografien, alle auf Gaslichtpapier, bis auf einen Palladiumdruck."
+      },
+      {
+       "url": "https://www.artic.edu/artworks/66526",
+       "title": "The Dancing Trees – Art Institute of Chicago (Objektseite 66526)",
+       "excerpt": "At his summer house on Lake George, in upstate New York, Stieglitz isolated the components of landscape, photographing clouds without any indication of a horizon line and sections of trees separated from the surrounding woods.",
+       "kind": "museum",
+       "author": "Art Institute of Chicago",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "stieglitz-equivalent-1926",
+       "title": "Equivalent",
+       "year": 1926,
+       "location": "Lake George, New York, USA",
+       "tags": [
+        "wolken",
+        "himmel",
+        "abstraktion",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/66625",
+       "image_url": "https://www.artic.edu/iiif/2/743980eb-57d5-5c9c-2fac-c710de174eca/full/1686,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://www.artic.edu/artworks/66625",
+         "title": "Equivalent (1926) – Art Institute of Chicago (Objektseite 66625)",
+         "excerpt": "In this photograph, a stratus cloud, caught like a burst of light against a dark surface, animates the image with a sense of excitement, awe, and perhaps even revelation.",
+         "kind": "museum",
+         "author": "Art Institute of Chicago",
+         "aspect": "wirkung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "stieglitz-equivalent-1923",
+       "title": "Equivalent",
+       "year": 1923,
+       "location": "Lake George, New York, USA",
+       "tags": [
+        "wolken",
+        "himmel",
+        "sonne",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/66593",
+       "image_url": "https://www.artic.edu/iiif/2/c0ac250c-65ac-82d2-17a6-853c9aac241a/full/1686,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "stieglitz-equivalent-1924",
+       "title": "Equivalent",
+       "year": 1924,
+       "location": "Lake George, New York, USA",
+       "tags": [
+        "wolken",
+        "hügel",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/66587",
+       "image_url": "https://www.artic.edu/iiif/2/2054c706-44ce-c9df-8033-25b555f38daf/full/1686,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "stieglitz-equivalent-1925",
+       "title": "Equivalent",
+       "year": 1925,
+       "location": "Lake George, New York, USA",
+       "tags": [
+        "sonne",
+        "hügel",
+        "dunkelheit",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/66617",
+       "image_url": "https://www.artic.edu/iiif/2/da214e35-d918-ac5e-930d-b73526a2df86/full/1686,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "stieglitz-equivalent-1927",
+       "title": "Equivalent",
+       "year": 1927,
+       "location": "Lake George, New York, USA",
+       "tags": [
+        "wolken",
+        "himmel",
+        "kontrast",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/66634",
+       "image_url": "https://www.artic.edu/iiif/2/6bd8a383-c783-275a-015a-d8f1e01d8109/full/1686,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "stieglitz-equivalent-1929",
+       "title": "Equivalent",
+       "year": 1929,
+       "location": "Lake George, New York, USA",
+       "tags": [
+        "wolken",
+        "himmel",
+        "sonne",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/66643",
+       "image_url": "https://www.artic.edu/iiif/2/62d4f43a-5e33-283e-0f34-62b61a6a3dba/full/1686,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "stieglitz-equivalent-1930",
+       "title": "Equivalent",
+       "year": 1930,
+       "location": "Lake George, New York, USA",
+       "tags": [
+        "wolken",
+        "himmel",
+        "abstraktion",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/66628",
+       "image_url": "https://www.artic.edu/iiif/2/6eb8c10e-36b7-2f6e-6c98-dd00c3a3a1cd/full/1686,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "stieglitz-dancing-trees",
+       "title": "The Dancing Trees",
+       "year": 1922,
+       "location": "Lake George, New York, USA",
+       "tags": [
+        "bäume",
+        "stämme",
+        "ausschnitt",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/66526",
+       "image_url": "https://www.artic.edu/iiif/2/0c8ed478-c817-b3a7-f657-d8449726bbd3/full/1686,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://www.artic.edu/artworks/66526",
+         "title": "The Dancing Trees – Art Institute of Chicago (Objektseite 66526)",
+         "excerpt": "In The Dancing Trees, the composition produced by the layered and interlaced trunks and branches highlights Stieglitz's primary aim at this time: \"to think more about the relationships in the pictures than subject-matter for its own sake",
+         "kind": "museum",
+         "author": "Art Institute of Chicago",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "stieglitz-poplars-1932",
+       "title": "Poplars, Lake George",
+       "year": 1932,
+       "location": "Lake George, New York, USA",
+       "tags": [
+        "pappeln",
+        "bäume",
+        "herbst",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O119371/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2017KC7119/full/1600,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O119371/",
+         "title": "Poplars, Lake George – Victoria and Albert Museum (Objektseite O119371)",
+         "excerpt": "However, he took this photograph when O'Keefe was away in New Mexico. The loneliness of separation led Stieglitz to contemplate his own mortality, a theme reflected in this representation of poplars.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung",
+         "series_level": false
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O119371/",
+         "title": "Poplars, Lake George – Victoria and Albert Museum (Objektseite O119371)",
+         "excerpt": "Perhaps he identified with the trees' dwindling vitality, as he photographed them repeatedly that summer, almost as one might check one's pulse.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 1,
+   "title": "Expeditions- und Reisefotografie des 19. Jahrhunderts",
+   "key_images": [
+    "fenton-valley-shadow",
+    "fenton-sebastopol-cathcart",
+    "frith-sphinx",
+    "frith-approach-philae",
+    "tripe-view-nnw-ryacotta",
+    "tripe-banian-avenue",
+    "beato-sikandra-bagh",
+    "beato-humayun-west-gate",
+    "sella-k2-1909",
+    "sella-saint-elias"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Die große Landschaftsfotografie in Schwarzweiß",
+   "key_images": [
+    "stieglitz-equivalent-1926",
+    "stieglitz-equivalent-1929",
+    "stieglitz-dancing-trees",
+    "stieglitz-poplars-1932"
+   ]
+  },
+  {
+   "number": 12,
+   "title": "Landschaftsfotografie: vom Erhabenen zur intimen Landschaft",
+   "key_images": [
+    "legray-great-wave",
+    "legray-brig",
+    "legray-steamboat",
+    "legray-cloudy-sky-agde",
+    "emerson-haysel",
+    "emerson-where-winds-dike",
+    "emerson-grey-day-pastoral",
+    "emerson-water-lilies"
+   ]
+  }
+ ]
+}
