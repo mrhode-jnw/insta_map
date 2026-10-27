@@ -2,273 +2,2092 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="theme-color" content="#4dc6d3">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="journaway Japan">
+<link rel="manifest" href="manifest.webmanifest">
+<script>
+  // Immer das helle Journaway-Design
+  document.documentElement.dataset.theme = "light"; document.documentElement.dataset.mapdark = "0";
+  window.SETTINGS = {};
+  // eigener Speicher-Namensraum: Haupt-App (gleiche Domain) und Journaway-App teilen sich sonst localStorage
+  window.jwLS = (() => { const P = "jw:", real = () => window.localStorage;
+    return { getItem: k => real().getItem(P + k), setItem: (k, v) => real().setItem(P + k, v), removeItem: k => real().removeItem(P + k) }; })();
+</script>
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <title>journaway · Japan Rundreise</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css">
 <style>
   :root {
-    --primary: #4dc6d3; --primary-dark: #2a9aa8; --primary-soft: #e6f7f9;
-    --ink: #282828; --muted: #6b7075; --line: #e6e8ea; --bg: #f6f8f9; --card: #fff;
-    --lime: #dae863; --purple: #1f0e32; --radius: 18px; --shadow: 0 4px 18px rgba(31,14,50,.08);
+    --bg: #ffffff; --fg: #111827; --muted: #6b7280; --line: #e5e7eb;
+    --accent: #2a9aa8; --me: #2563eb; --shadow: 0 6px 24px rgba(0,0,0,.18);
   }
-  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-  html, body { margin: 0; background: var(--bg); color: var(--ink);
-    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  button { font: inherit; color: inherit; cursor: pointer; }
-  a { color: var(--primary-dark); }
-
-  header { background: var(--primary); color: var(--purple); padding: calc(env(safe-area-inset-top) + 14px) 18px 22px; border-radius: 0 0 26px 26px; }
-  .logo { display: block; width: 128px; height: 28px; background: var(--purple);
+  @media (prefers-color-scheme: dark) {
+:root { --bg: #111827; --fg: #f3f4f6; --muted: #9ca3af; --line: #374151; }
+  }
+  * { box-sizing: border-box; }
+  /* iOS-Web-App mit durchsichtiger Statusleiste: sonst endet der Bildschirm um die Statusleisten-Höhe zu früh (leerer Streifen unten) */
+  html { min-height: calc(100% + env(safe-area-inset-top)); }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg);
+    font: 15px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  #map { position: fixed; inset: 0; }
+  .fab { position: fixed; right: 14px; z-index: 1000; width: 48px; height: 48px; border-radius: 50%;
+    border: 0; background: var(--bg); color: var(--fg); box-shadow: var(--shadow); font-size: 22px;
+    display: grid; place-items: center; cursor: pointer; }
+  #locate { bottom: calc(env(safe-area-inset-bottom) + 92px); }
+  #locate.active { color: var(--me); }
+  #locate.follow { background: var(--me); color: #fff; }
+  /* Bottom-Sheet mit Liste */
+  #sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1001; background: var(--bg);
+    border-radius: 16px 16px 0 0; box-shadow: var(--shadow); height: 88vh; height: 88svh;  /* svh: ändert sich nicht, wenn Safari beim Scrollen seine Leisten ein-/ausblendet */ display: flex;
+    flex-direction: column; transform: translateY(calc(100% - 76px - env(safe-area-inset-bottom)));
+    transition: transform .28s cubic-bezier(.2,.8,.2,1); padding-bottom: env(safe-area-inset-bottom); will-change: transform; }
+  /* Kein Seiten-Zoom durch Doppeltippen (Safari); Karte zoomt weiter selbst (Leaflet/Google setzen eigenes touch-action) */
+  html, body { touch-action: manipulation; }
+  #sheet header { padding: 8px 14px 10px; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; }
+  #list { overscroll-behavior: contain; }
+  #sheet .grip { width: 40px; height: 5px; border-radius: 3px; background: var(--muted); opacity: .5; margin: 0 auto 10px; }
+  #sheet .row { display: flex; gap: 8px; align-items: center; }
+  #search { flex: 1; min-width: 0; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line);
+    background: transparent; color: var(--fg); font-size: 16px; }
+  #count { color: var(--muted); font-size: 13px; white-space: nowrap; }
+  #list { overflow-y: auto; list-style: none; margin: 0; padding: 0 0 8px; -webkit-overflow-scrolling: touch; }
+  #list li { display: flex; gap: 10px; padding: 8px 14px; border-top: 1px solid var(--line); cursor: pointer; }
+  #list img, .noimg { width: 56px; height: 70px; border-radius: 8px; object-fit: cover; flex: none; background: var(--line); }
+  #list .t { font-weight: 600; }
+  #list .s { color: var(--muted); font-size: 13px; overflow: hidden; text-overflow: ellipsis;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  #list .d { margin-left: auto; color: var(--me); font-size: 13px; white-space: nowrap; }
+  #empty { padding: 16px; color: var(--muted); }
+  #chips { display: none !important; }
+  #chips0 { display: flex; gap: 6px; overflow-x: auto; padding-top: 8px; scrollbar-width: none; }
+  #list .tag { color: var(--muted); font-size: 12px; }
+  #list li.sec { display: block; cursor: default; font-weight: 600; padding-top: 14px; }
+  #list li.sec small { font-weight: 400; color: var(--muted); }
+  .ugrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 6px; padding: 0 14px 14px; }
+  #list .ugrid img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
+  @media (min-width: 800px) {
+#sheet { left: 14px; right: auto; top: 14px; bottom: 14px; width: 360px; height: auto;
+      border-radius: 16px; transform: none !important; }
+  #sheet header { cursor: default; }
+  #sheet .grip { display: none; }
+  #locate { bottom: 28px; }
+  .pop .hero img { max-height: 42vh; }
+  /* Desktop: Foto flacher, Name und Status bleiben ohne Scrollen sichtbar */
+  }
+  /* Popup */
+  .leaflet-popup-content-wrapper { border-radius: 14px; padding: 0; overflow: hidden; }
+  .leaflet-popup-content { margin: 0; width: min(380px, calc(100vw - 36px)) !important; }
+  .pop img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; display: block; background: #eee; }
+  .pop .b { padding: 10px 12px 12px; }
+  .pop h3 { margin: 0 0 4px; font-size: 16px; }
+  .pop .addr { color: #4b5563; font-size: 13px; margin-bottom: 6px; }
+  .pop .cap { color: #374151; font-size: 12.5px; max-height: 80px; overflow: auto; white-space: pre-line; margin-bottom: 8px; }
+  .pop .links { display: flex; gap: 6px; flex-wrap: wrap; }
+  .pop .links .showmap { flex: 1.3; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #dbeafe; color: #1e3a8a; font-weight: 600; cursor: pointer; }
+  .leaflet-marker-icon.hl { z-index: 9999 !important; }
+  /* Gruppen (mehrere Spots): kräftig statt blassgrün, gut sichtbar auf allen Karten */
+  .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background: rgba(42, 154, 168, .35) !important; }
+  .marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div { background: #2a9aa8 !important; color: #fff !important;
+    font-weight: 700; border: 2px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.45); line-height: 26px !important; }
+  .leaflet-marker-icon.hl .pin, .leaflet-marker-icon.hl.marker-cluster { transform: scale(1.5); box-shadow: 0 0 0 4px #2a9aa8, 0 4px 14px rgba(0,0,0,.45); transition: transform .12s; }
+  .leaflet-marker-icon.hl.marker-cluster { border-radius: 50%; }
+  .leaflet-marker-icon.flash { animation: flashpin .65s ease-in-out 4; z-index: 9999 !important; }
+  /* verkleinerter Spot nach „Springe zu Spot“: nur Kopfzeile + Name, antippen öffnet wieder */
+  .leaflet-popup.mini .hero .side, .leaflet-popup.mini .credit, .leaflet-popup.mini .gal, .leaflet-popup.mini .galhead, .leaflet-popup.mini .b > *:not(h3), .leaflet-popup.mini .pnav [data-go], .leaflet-popup.mini .pnav .spotnum { display: none !important; }
+  .leaflet-popup.mini .leaflet-popup-content { max-height: none !important; height: auto !important; overflow: hidden !important; }
+  .leaflet-popup.mini .b { padding: 2px 14px 10px; cursor: pointer; }
+  .leaflet-popup.mini .hero { cursor: pointer; }
+  .leaflet-popup.mini .hero img { height: 120px !important; max-height: 120px !important; aspect-ratio: auto !important; object-fit: cover; }
+  /* Foto bleibt sichtbar, nur flach */
+  .leaflet-popup.mini h3 { margin: 0; font-size: 16px; }
+  .leaflet-popup.mini h3::after { content: "  ▾ antippen zum Öffnen"; font-size: 12px; font-weight: 400; color: var(--muted, #6b7280); }
+  .leaflet-marker-icon.flash .pin { animation: pinpulse .65s ease-in-out 4; }
+  @keyframes pinpulse { 50% { transform: scale(1.6); } }
+  /* zuletzt geschlossener Spot: pinker Ring, bis ein anderer Spot geöffnet wird */
+  .leaflet-marker-icon.lastseen { z-index: 9998 !important; }
+  .leaflet-marker-icon.lastseen .pin, .leaflet-marker-icon.lastseen.marker-cluster { box-shadow: 0 0 0 3px #fff, 0 0 0 7px #2a9aa8, 0 4px 14px rgba(0,0,0,.45); }
+  .leaflet-marker-icon.lastseen.marker-cluster { border-radius: 50%; }
+  @keyframes flashpin { 50% { transform-origin: center; filter: drop-shadow(0 0 10px #2a9aa8) brightness(1.2); } }
+  .pop .links a { flex: 1; text-align: center; padding: 7px 6px; border-radius: 8px; font-size: 13px;
+    text-decoration: none; background: #f3f4f6; color: #111827 !important; white-space: nowrap; }
+  .pop .links a.ig { background: var(--accent); color: #fff !important; }
+  .pop .meta { color: #6b7280; font-size: 12px; margin-bottom: 4px; }
+  .pop .approx { display: inline-block; background: #fef3c7; color: #92400e; border-radius: 6px; padding: 1px 6px; font-size: 11.5px; margin-bottom: 6px; }
+  .pop .note { font-size: 13px; color: #111827; margin-bottom: 6px; }
+  .gal { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 0 0 8px; }
+  /* Fotozähler (pink, auf dem Bild) – bewusst anders als der Spot-Zähler oben (grau, „📍 Spot x von y“) */
+  .pop .hero .pcount { position: absolute; top: 6px; right: 6px; background: var(--accent, #2a9aa8); color: #fff; font-size: 12px; font-weight: 700;
+    padding: 2px 8px; border-radius: 999px; pointer-events: none; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
+  .pop .pnav .spotnum { font-size: 13px; color: var(--muted, #6b7280); font-weight: 500; }
+  .pop .hero .pcount { top: 10px; right: 10px; font-size: 13px; padding: 3px 9px; }
+  /* Pfeile unter dem Fotozähler: durch die Fotos des Spots blättern */
+  .pop .hero .parrows { position: absolute; top: 38px; right: 10px; display: flex; z-index: 2; border-radius: 999px; overflow: hidden;
+    background: var(--accent, #2a9aa8); box-shadow: 0 1px 4px rgba(0,0,0,.35); }
+  .pop .hero .parrows button { width: 26px; height: 20px; border: 0; padding: 0; cursor: pointer; background: none;
+    color: #fff; font-size: 15px; font-weight: 700; line-height: 20px; }
+  .pop .hero .parrows button + button { border-left: 1px solid rgba(255,255,255,.4); }
+  .pop .hero .parrows button:disabled { opacity: .35; cursor: default; }
+  .galgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin: 0 0 8px; }
+  .leaflet-popup.mini .galgrid { display: none; }
+  .galhead { font-size: 13px; font-weight: 600; margin: 4px 0 4px; }
+  .pop .dist { color: var(--me); font-size: 12px; margin-bottom: 4px; }
+  .pin { width: 34px; height: 34px; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.35);
+    background: var(--accent) center/cover no-repeat; }
+  /* Blickrichtung: Lichtkegel hinter dem Standortpunkt (Kompass) */
+  .me-wrap { position: relative; width: 80px; height: 80px; pointer-events: none; }
+  /* Standortpunkt nie im Weg beim Antippen von Spots */
+  .me-wrap .me-dot { position: absolute; left: 31px; top: 31px; }
+  .me-cone { position: absolute; inset: 0; display: none; border-radius: 50%; transform: rotate(var(--h, 0deg));
+    background: conic-gradient(from -35deg, rgba(37,99,235,.55) 0deg 70deg, transparent 70deg);
+    -webkit-mask: radial-gradient(circle, #000 0 15%, rgba(0,0,0,.6) 45%, transparent 70%);
+    mask: radial-gradient(circle, #000 0 15%, rgba(0,0,0,.6) 45%, transparent 70%); transition: transform .15s linear; }
+  .me-cone.on { display: block; }
+  .me-dot { width: 18px; height: 18px; border-radius: 50%; background: var(--me); border: 3px solid #fff;
+    box-shadow: 0 0 0 0 rgba(37,99,235,.5); animation: pulse 2s infinite; }
+  @keyframes pulse { 70% { box-shadow: 0 0 0 14px rgba(37,99,235,0); } 100% { box-shadow: 0 0 0 0 rgba(37,99,235,0); } }
+  #gate { position: fixed; inset: 0; z-index: 2000; background: var(--bg); display: grid; place-items: center; padding: 16px; }
+  #gateForm { width: min(320px, 100%); display: flex; flex-direction: column; gap: 10px; text-align: center; }
+  #gateForm h1 { margin: 0; font-size: 22px; }
+  #gateForm p { margin: 0 0 6px; color: var(--muted); }
+  #gateForm input[type=password] { padding: 12px; border-radius: 10px; border: 1px solid var(--line); background: transparent;
+    color: var(--fg); font-size: 18px; text-align: center; }
+  #gateForm label { font-size: 13px; color: var(--muted); }
+  #gateForm button { padding: 12px; border: 0; border-radius: 10px; background: var(--accent); color: #fff; font-size: 16px; }
+  #gateErr { color: #dc2626; min-height: 1.2em; font-size: 14px; }
+  #add { bottom: calc(env(safe-area-inset-bottom) + 152px); background: var(--accent); color: #fff; font-size: 28px; }
+  .pin.unsure { border: 3px dashed #f59e0b; position: relative; }
+  .pin .unsb { position: absolute; left: -6px; top: -6px; width: 16px; height: 16px; border-radius: 50%; background: #f59e0b; color: #fff;
+    font: 700 11px/16px system-ui, sans-serif; text-align: center; font-style: normal; box-shadow: 0 1px 3px rgba(0,0,0,.4); }
+  .pop .unsure-note { background: #fef3c7; color: #92400e; border-radius: 8px; padding: 6px 8px; font-size: 12.5px; margin: 4px 0 8px; line-height: 1.4; }
+  .pop .ok-note { background: #dcfce7; color: #166534; border-radius: 8px; padding: 6px 8px; font-size: 12.5px; margin: 4px 0 8px; line-height: 1.4; }
+  #tourBtn { bottom: calc(env(safe-area-inset-bottom) + 212px); font-size: 20px; }
+  @media (min-width: 800px) {
+#tourBtn { bottom: 200px; }
+  }
+  #itinBtn { bottom: calc(env(safe-area-inset-bottom) + 272px); font-size: 20px; }
+  #itinBtn.on { background: #0f766e; color: #fff; }
+  @media (min-width: 800px) {
+#itinBtn { bottom: 260px; }
+  }
+  /* Reiseplan: Vollbild mit Tagesleiste und Karten je Stopp / Etappe / Hotel */
+  #itin { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
+  #itin[hidden] { display: none; }
+  @media (min-width: 800px) {
+#itin { left: auto; width: 480px; box-shadow: var(--shadow); }
+  }
+  #itin header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 14px 8px; }
+  #itin header b { font-size: 17px; flex: 1; }
+  #itin header button { width: 38px; height: 34px; border-radius: 10px; border: 0; background: #111827; color: #fff; font-size: 17px; cursor: pointer; }
+  #itinDays { display: flex; gap: 6px; overflow-x: auto; padding: 4px 12px 10px; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+  #itinDays button { flex: none; display: flex; flex-direction: column; align-items: center; min-width: 52px; padding: 5px 8px; border-radius: 12px;
+    border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; font-size: 11.5px; line-height: 1.25; }
+  #itinDays button b { font-size: 16px; }
+  #itinDays button.on { background: #0f766e; border-color: #0f766e; color: #fff; }
+  #itinDays button.today:not(.on) { border-color: #0f766e; }
+  #itinDays button.ipast { min-width: 40px; justify-content: center; font-size: 20px; opacity: .8; }
+  #itinDays button.ipast small { font-size: 11px; margin-left: 3px; }
+  #itinOpt { display: flex; gap: 6px; padding: 8px 12px; border-bottom: 1px solid var(--line); }
+  #itinOpt button { flex: 1; padding: 7px 8px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 13.5px; cursor: pointer; }
+  #itinOpt button.on { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .ic.opt .icard { border-style: dashed; border-color: #a78bfa; opacity: .92; }
+  .ic.opt .itm { color: var(--muted); }
+  /* optionale Spots ein-/ausplanen */
+  .ic.opt.sel .icard { border-style: solid; border-color: var(--accent); opacity: 1; }
+  .ic.opt:not(.sel) .icard { opacity: .7; }
+  .ichoose { display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer;
+    background: var(--soft, rgba(127,127,127,.15)); color: var(--fg); margin: 2px 0 8px; }
+  .ic.opt.sel .ichoose { background: var(--accent); color: #fff; }
+  #itinSave { flex: none; padding: 10px 12px calc(env(safe-area-inset-bottom) + 10px); border-top: 1px solid var(--line); background: var(--bg); }
+  .isave { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; padding: 8px 12px; margin: 0 0 10px; border-radius: 12px; background: rgba(124,58,237,.14); font-size: 13px; }
+  .imove .calc { opacity: .6; }
+  .idur { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 2px 0 8px; font-size: 13px; color: var(--muted); }
+  .ic .itm.moved { color: #f59e0b; }
+  .ilate { display: inline-block; max-width: 100%; white-space: normal; margin: 0 0 8px; padding: 3px 9px; border-radius: 999px; background: rgba(245,158,11,.18); color: #f59e0b; font-size: 12.5px; font-weight: 600; }
+  .b-opt { background: #f3e8ff; color: #6b21a8; }
+  .kindsw { display: flex; gap: 6px; margin: 6px 0; }
+  #chips2 button#fIdeas.only { background: #f59e0b; border-color: #f59e0b; color: #fff; }
+  .b-fav { background: rgba(225,29,72,.18); color: #e11d48; font-weight: 700; }
+  html:not([data-theme="light"]) .b-fav { color: #fb7185; }
+  .icard.fav { box-shadow: inset 3px 0 0 #e11d48; }
+  .iigd { margin: 6px 0 4px; font-size: 13px; }
+  .iig { display: flex; flex-wrap: wrap; gap: 5px; margin: 4px 0 2px; }
+  #itinBody { flex: 1; overflow-y: auto; overflow-x: hidden; overscroll-behavior-x: none; padding: 12px 12px calc(env(safe-area-inset-bottom) + 24px); }
+  .idh h2 { margin: 0 0 4px; font-size: 19px; }
+  .idh .ist { font-size: 11.5px; padding: 2px 8px; border-radius: 999px; background: #fef3c7; color: #92400e; vertical-align: middle; margin-left: 6px; }
+  .isun { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 10px; font-size: 12.5px; }
+  .isun2 { display: flex; flex-wrap: nowrap; gap: 12px; align-items: center; margin: 8px 0 10px; font: 600 13px/1 system-ui, sans-serif; overflow-x: auto; scrollbar-width: none; }
+  .tprow .pkgo { display: flex; gap: 6px; margin-top: 6px; }
+  .tprow .pkgo button { padding: 4px 10px; border-radius: 8px; border: 0; background: var(--soft, #f1f1f4); color: var(--fg); font-size: 12.5px; font-weight: 600; cursor: pointer; }
+  .tprow .pkgo button[data-pkbig] { background: var(--accent); color: #fff; }
+  .tprow.pkopt > img { outline: 2px dashed #a78bfa; outline-offset: 2px; }
+  .tprow.pkopt b { font-weight: 600; }
+  .ihmini { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-radius: 12px; background: var(--soft, rgba(127,127,127,.12)); font-size: 13.5px; color: var(--muted); }
+  .imapb { width: 100%; padding: 10px; border-radius: 12px; border: 0; background: #0f766e; color: #fff; font-size: 15px; font-weight: 600; cursor: pointer; margin-bottom: 12px; }
+  .ic { display: grid; grid-template-columns: 54px 1fr; gap: 10px; margin-bottom: 10px; }
+  .ic > .icw { min-width: 0; }
+  /* sonst sprengen breite Fotos die Spalte */
+  .ic .itm { font: 700 14px/1.2 system-ui, sans-serif; padding-top: 10px; text-align: right; color: var(--fg); word-break: break-word; }
+  .ic .itm small { display: block; font-weight: 500; font-size: 11.5px; color: var(--muted); }
+  .icard { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: rgba(148,163,184,.07); }
+  .icard .ihero { position: relative; aspect-ratio: 16/9; background: var(--line); cursor: zoom-in; }
+  .icard .ihero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .icard .ihero .icount { position: absolute; right: 8px; bottom: 8px; background: rgba(0,0,0,.6); color: #fff; font-size: 12px; padding: 2px 8px; border-radius: 999px; }
+  .icard .ithumbs { display: flex; gap: 3px; overflow-x: auto; scrollbar-width: none; }
+  .icard .ithumbs img { width: 64px; height: 64px; object-fit: cover; flex: none; cursor: zoom-in; }
+  .icard .ib { padding: 9px 11px 11px; }
+  .icard h3 { margin: 0 0 6px; font-size: 16px; line-height: 1.3; }
+  .ibadges { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 7px; }
+  .ibadges span { font-size: 11.5px; padding: 2px 7px; border-radius: 999px; font-weight: 600; }
+  .b-plan { background: #dbeafe; color: #1e3a8a; }
+  .b-ig { background: #fce7f3; color: #9d174d; }
+  .b-cl { background: #ede9fe; color: #4c1d95; }
+  .b-hotel { background: #ccfbf1; color: #115e59; }
+  .b-open { background: #fee2e2; color: #991b1b; }
+  .ilight { display: inline-flex; align-items: center; gap: 5px; font-size: 12.5px; font-weight: 600; padding: 3px 9px; border-radius: 8px; margin-bottom: 7px; }
+  .icard p { margin: 0 0 6px; font-size: 14px; line-height: 1.45; }
+  .icard .itip { font-size: 12.5px; color: var(--muted); line-height: 1.45; }
+  .icard .itip summary { cursor: pointer; color: var(--accent); font-weight: 600; margin-bottom: 4px; }
+  .icard .iact { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+  .icard .iact a, .icard .iact button { font-size: 13px; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; text-decoration: none; }
+  .imove { display: grid; grid-template-columns: 54px 1fr; gap: 10px; margin: -2px 0 8px; }
+  .imove div:last-child { border-left: 3px dashed #94a3b8; margin-left: 14px; padding: 4px 0 4px 14px; font-size: 13px; color: var(--muted); }
+  .imove b { color: var(--fg); }
+  .iinfo { display: flex; gap: 10px; align-items: flex-start; padding: 9px 11px; }
+  .iinfo .iic { font-size: 22px; line-height: 1; }
+  .tour-stop { display: flex; align-items: center; gap: 4px; white-space: nowrap; transform: translate(-13px, -13px); width: max-content; }
+  .tour-stop b { flex: none; box-sizing: border-box; line-height: 1; }
+  .tour-stop b { width: 26px; height: 26px; border-radius: 50%; background: #2563eb; color: #fff; border: 2px solid #fff; display: grid; place-items: center;
+    font: 700 13px system-ui, sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
+  .leg-time { transform: translate(-50%, -50%); display: inline-block; white-space: nowrap; background: #2563eb; color: #fff; border: 1.5px solid #fff; border-radius: 10px;
+    padding: 1px 6px; font: 700 11px system-ui, sans-serif; box-shadow: 0 1px 3px rgba(0,0,0,.3); }
+  .leg-time.taxi { background: #475569; }
+  .spotnum .legs { display: block; font-size: 11px; font-weight: 600; color: #2563eb; margin-top: 1px; }
+  .spotnum .legs span { white-space: nowrap; }
+  .tour-stop span { background: rgba(255,255,255,.92); color: #1e3a8a; border-radius: 6px; padding: 1px 5px; font: 600 11.5px system-ui, sans-serif; box-shadow: 0 1px 3px rgba(0,0,0,.25); }
+  .pin.henge { background: #fde68a; display: grid; place-items: center; font-size: 17px; }
+  .pin.mine { background: #f59e0b; display: grid; place-items: center; font-size: 16px; }
+  #addDlg { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1500; background: var(--bg); color: var(--fg);
+    border-radius: 16px 16px 0 0; box-shadow: var(--shadow); max-height: 62vh; overflow-y: auto;
+    padding: 14px 16px calc(env(safe-area-inset-bottom) + 14px); }
+  #addResults { list-style: none; margin: 0; padding: 0; }
+  #addResults li { padding: 7px 4px; border-bottom: 1px solid var(--line); font-size: 14px; cursor: pointer; }
+  #addPos { font-size: 13px; color: var(--muted); }
+  #addErr { color: #dc2626; font-size: 14px; min-height: 1em; }
+  .pop .links button.del { flex: 1; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #fee2e2; color: #991b1b; }
+  @media (min-width: 800px) {
+#addDlg { left: auto; right: 14px; bottom: 14px; width: 380px; border-radius: 16px; }
+  #add { bottom: 140px; }
+  }
+  .pin.p-hoch { border-color: #dc2626; }
+  .pin.p-mittel { border-color: #f59e0b; }
+  .pin.p-gering { border-color: #9ca3af; }
+  .pin.p-nein { border-color: #111827; opacity: .55; filter: grayscale(1); }
+  .pin.claude { border-color: #7c3aed; position: relative; }
+  .pin.claude::before { content: "✦"; position: absolute; left: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
+    background: #7c3aed; color: #fff; font-size: 10px; line-height: 16px; text-align: center; }
+  .pin.idea { border-color: #f59e0b; position: relative; }
+  .pop .sideas { margin: 8px 0; padding: 10px; border-radius: 12px; background: rgba(245,158,11,.12); }
+  .pop .sideas .tl { font-weight: 700; font-size: 13px; color: #b45309; margin-bottom: 6px; }
+  .pop .sidea { display: flex; gap: 10px; width: 100%; padding: 6px 0; border: 0; border-top: 1px solid rgba(245,158,11,.25); background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+  .pop .sidea:first-of-type { border-top: 0; }
+  .pop .sidea img { flex: none; width: 56px; height: 56px; border-radius: 8px; object-fit: cover; }
+  .pop .sidea b { display: block; font-size: 14px; }
+  .pop .sidea small { display: block; font-size: 12.5px; color: var(--muted); line-height: 1.35; }
+  #list li { position: relative; }
+  .ifav { flex: none; align-self: center; width: 38px; height: 38px; border-radius: 50%; border: 0; background: transparent; color: var(--muted); font-size: 21px; cursor: pointer; }
+  /* Listenansicht: Herz auf dem Vorschaubild (rechts liegt auf dem Handy die Menüleiste darüber) */
+  #list:not(.grid) .ifav { position: absolute; left: 22px; top: 12px; z-index: 2; width: 30px; height: 30px; font-size: 16px; background: rgba(0,0,0,.5); color: #fff; }
+  #list:not(.grid) .ifav.on { color: #fb7185; }
+  .irej { position: absolute; z-index: 2; width: 26px; height: 26px; padding: 0; border: 0; border-radius: 50%; background: rgba(0,0,0,.5); color: #fff; font-size: 13px; line-height: 26px; cursor: pointer; }
+  #list:not(.grid) .irej { left: 24px; bottom: 12px; }
+  .pin.idea::before { content: "✷"; position: absolute; left: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
+    background: #f59e0b; color: #fff; font-size: 11px; line-height: 16px; text-align: center; }
+  .pop .pnav { position: sticky; top: 0; z-index: 6; display: flex; align-items: center; justify-content: space-between;
+    padding: 6px 8px; background: rgba(255,255,255,.95); border-bottom: 1px solid #e5e7eb; }
+  .pop .pnav button { width: 38px; height: 34px; border-radius: 10px; border: 1px solid #d1d5db; background: #fff; color: #111827;
+    font-size: 22px; line-height: 1; cursor: pointer; }
+  .pop .pnav span { font-size: 12.5px; color: #6b7280; }
+  .leaflet-popup-close-button { display: none !important; }
+  .pop .pnav { gap: 8px; }
+  .pop .hero { position: relative; }
+  .pop .hstrip { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; }
+  .pop .hstrip::-webkit-scrollbar { display: none; }
+  .pop .hstrip img { flex: 0 0 100%; scroll-snap-align: center; scroll-snap-stop: always; }
+  .pop .hero button.side { position: absolute; top: 50%; transform: translateY(-50%); width: 42px; height: 42px; border-radius: 50%;
+    border: 0; background: rgba(0,0,0,.45); color: #fff; font-size: 26px; line-height: 1; cursor: pointer; }
+  .pop .hero button.side.prev { left: 8px; }
+  .pop .hero button.side.next { right: 8px; }
+  .pop .pnav button.pclose { background: #111827; border-color: #111827; color: #fff; font-size: 17px; }
+  .pop .phototip { background: #ecfeff; color: #155e75; border-radius: 8px; padding: 6px 8px; font-size: 13px; margin: 4px 0 8px; line-height: 1.4; }
+  .pop .claude-note { background: #ede9fe; color: #5b21b6; border-radius: 8px; padding: 5px 8px; font-size: 12px; margin-bottom: 6px; }
+  .pop .generic { font-size: 12px; color: #6b7280; margin-bottom: 6px; }
+  .pop .iglinks { margin: 0 0 8px; border: 1px solid var(--line, #e5e7eb); border-radius: 10px; font-size: 13px; }
+  .pop .iglinks summary { padding: 8px 10px; cursor: pointer; font-weight: 600; list-style: none; }
+  .pop .iglinks summary::-webkit-details-marker { display: none; }
+  .pop .iglinks summary::after { content: "▾"; float: right; color: #9ca3af; transition: transform .15s; }
+  .pop .iglinks[open] summary::after { transform: rotate(180deg); }
+  .pop .iglinks summary b { color: var(--accent, #2a9aa8); }
+  .pop .iglinks ul { margin: 0; padding: 0 10px 8px; list-style: none; max-height: 260px; overflow-y: auto; }
+  .pop .iglinks li { padding: 5px 0; border-top: 1px solid var(--line, #f1f1f1); }
+  .pop .iglinks li a { color: var(--accent) !important; text-decoration: none; font-weight: 600; }
+  .pop .iglinks li i { font-style: normal; font-size: 11px; color: #6b7280; }
+  .pop .iglinks li small { display: block; color: #6b7280; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .leaflet-popup.mini .iglinks { display: none; }
+  .pop .generic a { color: var(--accent) !important; text-decoration: none; }
+  .pop .credit { font-size: 10.5px; color: #6b7280; padding: 2px 12px 0; }
+  .pop .credit a { color: #6b7280 !important; }
+  .tag .ct, .cap2 .ct { color: #a78bfa; }
+  .pop .links a.wiki { background: #ede9fe; color: #5b21b6 !important; }
+  .pin .favb { position: absolute; left: -7px; bottom: -7px; width: 18px; height: 18px; border-radius: 50%; background: #fff; color: #e11d48;
+    font-size: 11px; line-height: 18px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,.35); font-style: normal; }
+  .pin.fav { border-color: #e11d48; box-shadow: 0 0 0 2px #e11d48, 0 2px 6px rgba(0,0,0,.35); position: relative; }
+  .pop .status button.fav { width: 40px; height: 32px; padding: 0; border-radius: 10px; font-size: 17px; color: #9ca3af; }
+  .pop .status button.fav svg { display: block; margin: auto; }
+  .pop .hero .pfav { position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; border-radius: 50%; background: #fff; color: #e11d48;
+    display: flex; align-items: center; justify-content: center; font-size: 17px; line-height: 1; box-shadow: 0 1px 4px rgba(0,0,0,.35); pointer-events: none; }
+  .pop .hero .pfav[hidden] { display: none; }
+  .pop .status button.fav.on { color: #e11d48; background: #ffe4e6; border-color: #e11d48; }
+  #area { flex: none; border: 1px solid var(--line); background: var(--bg); color: var(--fg); border-radius: 999px; padding: 5px 9px; font-size: 13px; max-width: 170px; }
+  .fav-badge { color: #e11d48; }
+  .pin.done { filter: grayscale(.8); opacity: .8; position: relative; }
+  .pin.done::after { content: "✓"; position: absolute; right: -8px; top: -8px; width: 16px; height: 16px; border-radius: 50%;
+    background: #16a34a; color: #fff; font-size: 11px; line-height: 16px; text-align: center; }
+  .prio-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; vertical-align: 1px; }
+  .done-badge { color: #16a34a; font-weight: 600; }
+  #view { display: flex; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; flex: none; }
+  #view button { border: 0; background: transparent; color: var(--fg); padding: 7px 9px; font-size: 16px; cursor: pointer; }
+  #view button.on { background: var(--fg); color: var(--bg); }
+  #view button[data-v="area"] { border-right: 1px solid var(--line); }
+  #view button[data-v="area"].on { background: var(--me); color: #fff; }
+  #sortBtn { position: relative; display: grid; place-items: center; min-width: 36px; padding: 0 9px; font-size: 16px; cursor: pointer;
+    border-left: 1px solid var(--glassb, var(--line)); color: var(--fg); }
+  .tag .new { color: var(--accent, #2563eb); font-weight: 600; }
+  #chips2 { display: flex; gap: 6px; overflow-x: auto; padding-top: 6px; scrollbar-width: none; }
+  #chips2 button { flex: none; border: 1px solid var(--line); background: transparent; color: var(--fg);
+    border-radius: 999px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
+  #chips2 select { flex: none; border: 1px solid var(--line); background: transparent; color: var(--fg);
+    border-radius: 999px; padding: 4px 8px; font-size: 12.5px; }
+  .pop .popularity { font-size: 12px; color: #92400e; margin-bottom: 4px; }
+  .pop .popularity small { color: #6b7280; }
+  #chips2 button.on, #chips2 select.on { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+  #list.grid { display: grid; grid-template-columns: repeat(2, 1fr); grid-auto-rows: max-content; align-content: start; gap: 6px; padding: 6px 8px 10px; }
+  @media (min-width: 800px) {
+#list.grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  #list.grid li.areahead { grid-column: 1 / -1; border: 0; padding: 10px 4px 2px; }
+  #list.grid li.sec { grid-column: 1 / -1; border: 0; padding: 10px 4px 2px; }
+  #list.grid .ugrid { padding: 0 0 8px; }
+  #list.grid li.gi { display: block; position: relative; padding: 0; border: 0; aspect-ratio: 4 / 5; border-radius: 10px; overflow: hidden; background: var(--line); }
+  #list.grid li.gi img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
+  #list.grid li.gi .cap2 { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 8px 6px; color: #fff; font-size: 13px; font-weight: 600;
+    background: linear-gradient(transparent, rgba(0,0,0,.75)); line-height: 1.25; }
+  #list.grid li.gi .cap2 small { display: block; font-weight: 400; opacity: .85; }
+  #list .th { position: relative; flex: none; display: block; line-height: 0; }
+  #list .sleep { position: absolute; left: 4px; bottom: 4px; display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%;
+    background: rgba(0,0,0,.65); color: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
+  #list.grid li.gi .sleep { left: auto; right: 8px; bottom: auto; top: 8px; width: 30px; height: 30px; }
+  #list.grid li.gi .sleep svg { width: 17px; height: 17px; }
+  #list.grid li.gi .badge { position: absolute; top: 6px; left: 6px; display: flex; gap: 4px; }
+  #list.grid li.gi .badge > span { background: rgba(0,0,0,.6); color: #fff; border-radius: 999px; padding: 1px 7px; font-size: 11px; }
+  #list.grid li.gi.done img { filter: grayscale(.6); }
+  #list.grid #empty { grid-column: 1 / -1; }
+  .pop .status { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; margin: 4px 0 8px; }
+  .pop .status button { border: 1px solid #d1d5db; background: #fff; color: #111827; border-radius: 999px; padding: 3px 9px; font-size: 12px; cursor: pointer; }
+  .pop .status button.on[data-prio="hoch"] { background: #dc2626; border-color: #dc2626; color: #fff; }
+  .pop .status button.on[data-prio="mittel"] { background: #f59e0b; border-color: #f59e0b; color: #fff; }
+  .pop .status button.on[data-prio="gering"] { background: #6b7280; border-color: #6b7280; color: #fff; }
+  .pop .status { flex-wrap: nowrap; }
+  .pop .status button.shot { margin-left: auto; position: relative; width: 40px; height: 32px; padding: 0; border-radius: 10px; font-size: 18px; filter: grayscale(1); opacity: .55; }
+  .pop .status button.shot.on { filter: none; opacity: 1; background: #dcfce7; border-color: #16a34a; }
+  .pop .status button.shot.on::after { content: "✓"; position: absolute; right: -6px; top: -6px; width: 16px; height: 16px; border-radius: 50%;
+    background: #16a34a; color: #fff; font-size: 11px; line-height: 16px; }
+  .pop .status label { font-size: 12.5px; margin-left: auto; display: flex; gap: 4px; align-items: center; color: #111827; }
+  /* Touren */
+  #toursDlg { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #fff); color: var(--fg); display: flex; flex-direction: column; }
+  #tourPick[hidden] { display: none; }
+  @media (min-width: 800px) {
+#toursDlg { left: auto; width: 420px; box-shadow: var(--shadow); }
+  }
+  #toursBody { flex: 1; overflow-y: auto; padding: 12px 12px calc(env(safe-area-inset-bottom) + 20px); }
+  .thint { font-size: 12.5px; color: var(--muted); margin: 8px 2px 12px; }
+  .tbtn { display: inline-block; border: 1px solid var(--line); background: transparent; color: var(--fg); border-radius: 10px; padding: 7px 10px; font-size: 13.5px; cursor: pointer; text-decoration: none; margin: 4px 4px 0 0; }
+  .tcard { border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px; margin-bottom: 10px; }
+  .thead { display: flex; align-items: center; gap: 8px; }
+  .tdel { width: 34px; height: 34px; border-radius: 10px; border: 1px solid var(--line); background: transparent; font-size: 15px; cursor: pointer; flex: none; }
+  .teye, .tmore { width: 36px; height: 34px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 17px; cursor: pointer; }
+  .tstops { margin: 8px 0 4px; padding-left: 22px; }
+  .tsn { flex: 1; cursor: pointer; font-size: 14px; }
+  #tourPick { position: fixed; inset: 0; z-index: 2600; background: rgba(0,0,0,.35); display: flex; align-items: flex-end; justify-content: center; }
+  .tpcard { background: var(--bg, #fff); color: var(--fg); width: 100%; max-width: 420px; border-radius: 16px 16px 0 0; padding: 12px 14px calc(env(safe-area-inset-bottom) + 16px); max-height: 70vh; overflow-y: auto; }
+  @media (min-width: 800px) {
+#tourPick { align-items: center; }
+  .tpcard { border-radius: 16px; }
+  }
+  .tphead { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .tpclose { width: 34px; height: 32px; border-radius: 10px; border: 0; background: #111827; color: #fff; cursor: pointer; }
+  .tprow { display: flex; align-items: center; gap: 10px; padding: 10px 2px; border-bottom: 1px solid var(--line); font-size: 15px; }
+  .tprow input { width: 20px; height: 20px; }
+  .tprow small { color: var(--muted); }
+  .tpnew { display: flex; gap: 8px; margin-top: 10px; }
+  .pop .links .xadd { flex: 1; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #fce7f3; color: #9d174d; font-weight: 600; cursor: pointer; }
+  .pop .xlinks { display: flex; flex-direction: column; gap: 3px; font-size: 13px; margin: 6px 0; padding: 6px 8px; background: #f3f4f6; border-radius: 8px; }
+  .pop .xlinks a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .pop .xlinks small { color: var(--muted, #6b7280); }
+  .xa-row { display: flex; flex-direction: column; gap: 8px; margin: 8px 0; }
+  .xa-row input[type=url], .xa-row textarea { font-family: inherit; padding: 9px 11px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 16px; }
+  .xa-pick { display: block; text-align: center; padding: 12px; border-radius: 10px; border: 2px dashed var(--line); cursor: pointer; font-size: 15px; }
+  .xa-pick input { display: none; }
+  .xa-thumbs { display: flex; gap: 6px; flex-wrap: wrap; }
+  .xa-thumbs img { width: 64px; height: 64px; object-fit: cover; border-radius: 6px; }
+  .xa-save { width: 100%; padding: 11px; border-radius: 10px; border: 0; background: var(--accent); color: #fff; font-size: 16px; font-weight: 600; cursor: pointer; }
+  .xa-save:disabled { opacity: .5; }
+  .pop .links .tadd { flex: 1; padding: 7px 6px; border-radius: 8px; font-size: 13px; border: 0; background: #ede9fe; color: #4c1d95; font-weight: 600; cursor: pointer; }
+  /* Inspiration: Bildersammlung unabhängig von Spots (data/inspiration.js) */
+  #wk { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
+  #wkFilter { display: flex; gap: 6px; overflow-x: auto; padding: 8px 12px; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+  #wkFilter:empty { display: none; }
+  #wkFilter button { flex: none; white-space: nowrap; padding: 6px 12px; border-radius: 999px; border: 0; background: var(--soft); color: var(--fg); font-size: 14px; cursor: pointer; }
+  #wkFilter button.on { background: var(--accent); color: #fff; }
+  #wkBody { flex: 1; overflow-y: auto; padding: 8px 12px calc(env(safe-area-inset-bottom) + 90px); }
+  #wkBody .wcard { border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; margin: 8px 0 14px; }
+  #wkBody .wcard { padding: 0 14px; margin: 0 0 10px; }
+  #wkBody .wcard[open] { padding-bottom: 12px; }
+  #wkBody .wsum { display: flex; gap: 12px; align-items: center; padding: 10px 0; cursor: pointer; list-style: none; }
+  #wkBody .wsum::-webkit-details-marker { display: none; }
+  #wkBody .wsum::after { content: "▾"; margin-left: auto; color: var(--muted); transition: transform .15s; }
+  #wkBody .wcard[open] > .wsum::after { transform: rotate(180deg); }
+  #wkBody .wsum img { flex: none; width: 56px; height: 56px; border-radius: 10px; object-fit: cover; }
+  #wkBody .wsum > span { min-width: 0; }
+  #wkBody .wsum b { display: block; font-size: 15px; line-height: 1.3; }
+  #wkBody .wsum small { display: block; font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+  #wkBody .wsum em { flex: none; font-style: normal; font-size: 11px; font-weight: 700; color: #fff; background: #7c3aed; padding: 2px 7px; border-radius: 999px; }
+  #wkBody .wmeta { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+  #wkBody .wintro { font-size: 14px; line-height: 1.45; margin: 0 0 10px; }
+  #wkBody .wbtns { display: flex; gap: 8px; margin: 0 0 10px; }
+  #wkBody .wbtns button { flex: 1; padding: 9px 10px; border-radius: 10px; border: 0; background: var(--accent); color: #fff; font-weight: 600; font-size: 14px; cursor: pointer; }
+  #wkBody .wbtns button.sec { background: var(--soft); color: var(--fg); }
+  #wkBody details { margin: 0 0 8px; }
+  #wkBody summary { cursor: pointer; font-weight: 600; font-size: 14px; padding: 4px 0; }
+  #wkBody ul.wtips { margin: 4px 0 0; padding-left: 18px; font-size: 13.5px; line-height: 1.45; }
+  #wkBody ol.wstops { list-style: none; margin: 4px 0 0; padding: 0; counter-reset: ws; }
+  #wkBody ol.wstops li { position: relative; padding: 8px 0 8px 38px; border-top: 1px solid var(--line); font-size: 13.5px; line-height: 1.45; }
+  #wkBody ol.wstops li::before { counter-increment: ws; content: counter(ws); position: absolute; left: 0; top: 8px; width: 26px; height: 26px; border-radius: 50%;
+    background: #7c3aed; color: #fff; font-weight: 700; font-size: 13px; display: grid; place-items: center; }
+  #wkBody ol.wstops b { font-size: 14.5px; }
+  #wkBody ol.wstops .cn { color: var(--muted); margin-left: 4px; }
+  #wkBody ol.wstops .ap { font-size: 11px; color: #92400e; margin-left: 4px; }
+  #wkBody ol.wstops button { float: right; margin: -2px 0 0 8px; padding: 3px 8px; border-radius: 8px; border: 0; background: var(--soft); color: var(--fg); font-size: 12px; cursor: pointer; }
+  #wkBody .wsrc { font-size: 11.5px; color: var(--muted); margin-top: 8px; word-break: break-all; }
+  #wkBody .wsrc a { color: var(--muted); }
+  .wnum { width: 26px; height: 26px; border-radius: 50%; background: #7c3aed; color: #fff; font: 700 13px/26px system-ui, sans-serif; text-align: center; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
+  #walkPill { position: fixed; top: calc(env(safe-area-inset-top) + 74px); left: 50%; transform: translateX(-50%); z-index: 1200; padding: 7px 14px; border-radius: 999px; border: 0;
+    background: #7c3aed; color: #fff; font-weight: 600; font-size: 13.5px; box-shadow: 0 2px 10px rgba(0,0,0,.3); cursor: pointer; white-space: nowrap; max-width: calc(100vw - 32px); overflow: hidden; text-overflow: ellipsis; }
+  /* Karte einer Rundgang-Station (statt Leaflet-Popup) */
+  #wcard { position: fixed; left: 10px; right: 10px; bottom: calc(env(safe-area-inset-bottom) + 12px); z-index: 1300; max-height: 62vh; display: flex; flex-direction: column;
+    background: var(--card, #fff); color: var(--fg, #111); border-radius: 18px; box-shadow: 0 6px 28px rgba(0,0,0,.35); overflow: hidden; }
+  @media (min-width: 800px) {
+#wcard { left: 16px; right: auto; width: 400px; bottom: 16px; }
+  }
+  #wkBody ol.wstops .wth { display: flex; gap: 4px; margin: 6px 0 2px; }
+  #wkBody ol.wstops .wth img { width: 64px; height: 48px; object-fit: cover; border-radius: 6px; }
+  #tl { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
+  #tlFilter { display: flex; gap: 6px; overflow-x: auto; padding: 8px 12px; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+  #tlFilter button { flex: none; white-space: nowrap; padding: 6px 12px; border-radius: 999px; border: 0; background: var(--soft); color: var(--fg); font-size: 14px; cursor: pointer; }
+  #tlFilter button.on { background: var(--accent); color: #fff; }
+  #tlBody { flex: 1; overflow-y: auto; padding: 4px 12px calc(env(safe-area-inset-bottom) + 90px); }
+  #tlBody h4 { margin: 14px 2px 6px; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  #tlBody .tle { display: flex; gap: 10px; align-items: center; width: 100%; padding: 8px 6px; border: 0; border-bottom: 1px solid var(--line); background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+  #tlBody .tle img, #tlBody .tle .tli { flex: none; width: 48px; height: 48px; border-radius: 9px; object-fit: cover; background: var(--soft); display: grid; place-items: center; font-size: 22px; }
+  #tlBody .tle > span { min-width: 0; flex: 1; }
+  #tlBody .tle b { display: block; font-size: 14.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #tlBody .tle small { display: block; font-size: 12.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #tlBody .tle.tlloc small { white-space: normal; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+  #tlBody .tle i { flex: none; font-style: normal; font-size: 12px; color: var(--muted); }
+  #tlBody .tag { display: inline-block; padding: 0 6px; margin-right: 5px; border-radius: 6px; font-size: 11px; font-weight: 700; color: #fff; background: #6b7280; }
+  #tlBody .tag.new { background: var(--accent); }
+  #tlBody .tag.photo { background: #0f766e; }
+  #tlBody .tag.plan { background: #2563eb; }
+  #tlBody .tag.insp { background: #ca8a04; }
+  #tlBody .tag.mine { background: #7c3aed; }
+  #insp { position: fixed; inset: 0; z-index: 2500; background: var(--bg, #111827); color: var(--fg); display: flex; flex-direction: column; }
+  #inspFilter { display: flex; gap: 6px; overflow-x: auto; padding: 8px 12px; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+  #inspFilter button { flex: none; white-space: nowrap; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font-size: 14px; cursor: pointer; }
+  #inspFilter button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  #inspFilter small { opacity: .75; }
+  #inspBody { flex: 1; overflow-y: auto; padding: 10px 10px calc(env(safe-area-inset-bottom) + 16px); }
+  #inspBody h3 { margin: 6px 4px 8px; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+  #inspBody h3 .iadd { margin-left: auto; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--accent); background: transparent; color: var(--accent); font-size: 13px; font-weight: 600; cursor: pointer; }
+  #inspBody h3 .iadd:disabled { opacity: .6; }
+  #inspBody .src { margin: 2px 4px 10px; font-size: 12.5px; color: var(--muted); }
+  #inspBody .src a { color: var(--accent); text-decoration: none; }
+  #inspBody .masonry { columns: 2; column-gap: 8px; margin-bottom: 18px; }
+  @media (min-width: 800px) {
+#inspBody .masonry { columns: 4; }
+  }
+  #inspBody .iw { position: relative; display: block; break-inside: avoid; }
+  #inspBody .idel { position: absolute; top: 5px; right: 5px; width: 24px; height: 24px; padding: 0; border: 0; border-radius: 50%;
+    background: rgba(0,0,0,.55); color: #fff; font-size: 16px; line-height: 24px; cursor: pointer; }
+  /* „Ort finden“ als normale Zeile unter dem Bild (kein Overlay – iOS trifft Overlays in Spaltenlayouts unzuverlässig) */
+  #inspBody .iloc, #inspBody .ilocr { display: block; width: 100%; margin: -4px 0 10px; padding: 7px 10px; border: 0; border-radius: 8px; font: inherit; font-size: 13px; font-weight: 600;
+    text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: var(--soft, #f1f1f4); color: var(--text, #111); cursor: pointer; }
+  #inspBody .ilocr { color: #fff; background: #555; }
+  #inspBody .ilocr.ok { background: #0f766e; }
+  #inspBody .ilocr.no { background: #92400e; }
+  #inspBody .ilocr.wait { cursor: default; background: #6b7280; }
+  #inspBody .masonry img { width: 100%; display: block; margin-bottom: 8px; border-radius: 8px; break-inside: avoid; background: var(--line); cursor: zoom-in; }
+  #view #inspBtn { font-size: 15px; }
+  #lb { position: fixed; inset: 0; z-index: 3000; background: #000; color: #fff; display: flex; flex-direction: column;
+    user-select: none; -webkit-user-select: none; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+  /* großes Foto füllt den Bildschirm; darunter (scrollen) alle Fotos des Spots groß untereinander */
+  #lbGal { padding: 4px 0 calc(env(safe-area-inset-bottom) + 24px); }
+  #lbGal h4 { margin: 14px 14px 10px; font-size: 14px; font-weight: 600; opacity: .8; }
+  #lbGal .g { display: grid; grid-template-columns: 1fr; gap: 6px; }
+  @media (min-width: 800px) {
+#lbGal .g { grid-template-columns: repeat(2, 1fr); padding: 0 6px; }
+  }
+  #lbGal img { width: 100%; height: auto; display: block; cursor: pointer; background: #111; min-height: 120px; }
+  #lbGal img.cur { outline: 3px solid var(--accent); outline-offset: -3px; }
+  /* Fotos nebeneinander, native Wisch-Bewegung folgt dem Finger */
+  #lbStrip { position: absolute; inset: 0; display: flex; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; scrollbar-width: none;
+    overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch; }
+  #lbStrip::-webkit-scrollbar { display: none; }
+  #lbStrip > div { flex: 0 0 100%; height: 100%; display: flex; align-items: center; justify-content: center; scroll-snap-align: center; scroll-snap-stop: always; overflow: hidden; }
+  .pop img[data-lb] { cursor: zoom-in; }
+  #group { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 12px; z-index: 1000; display: flex;
+    background: var(--bg); border-radius: 999px; box-shadow: var(--shadow); padding: 3px; }
+  #group { max-width: calc(100vw - 24px); overflow-x: auto; scrollbar-width: none; }
+  #group::-webkit-scrollbar { display: none; }
+  #group button { white-space: nowrap; flex: none; }
+  #group button { border: 0; background: transparent; color: var(--fg); padding: 7px 10px; border-radius: 999px; font-size: 14px; cursor: pointer; }
+  #group button.on { background: var(--accent); color: #fff; }
+  #group { align-items: center; }
+  #group .where { position: relative; display: flex; align-items: center; padding: 7px 10px; border-radius: 999px; font-size: 14px; font-weight: 600; white-space: nowrap; }
+  #group .where::after { content: "▾"; margin-left: 4px; font-size: 11px; opacity: .6; }
+  #group button.where { font-weight: 600; }
+  #group .gs { display: none; }
+  @media (max-width: 440px) {
+#group .gf { display: none; }
+  #group .gs { display: inline; }
+  #group button, #group .where { padding: 8px 9px !important; font-size: 14px; }
+  }
+  .wdim { opacity: .4; pointer-events: none; }
+  .tprow.wsub { padding-left: 18px; }
+  #group .sep { width: 1px; align-self: stretch; margin: 6px 2px; background: var(--line, #ccc); }
+  @media (max-width: 799px) {
+.leaflet-top.leaflet-right { margin-top: 56px; }
+  }
+  @media (min-width: 800px) {
+#group { left: 390px; }
+  }
+  /* Maßstab oben links unter dem Bereichs-Umschalter */
+  #scale { position: fixed; top: calc(env(safe-area-inset-top) + 66px); left: 16px; z-index: 900; pointer-events: none;
+    font: 600 11px/1 system-ui, sans-serif; color: var(--fg); text-shadow: 0 0 3px var(--bg), 0 0 3px var(--bg); }
+  #scale b { font-weight: 600; }
+  #scale span { display: block; height: 6px; border: 2px solid var(--fg); border-top: 0; margin-top: 3px; box-shadow: 0 1px 0 var(--bg); }
+  @media (min-width: 800px) {
+#scale { left: 394px; }
+  }
+  /* Handy: solange ein Spot offen ist, gehört ihm der ganze Bildschirm unter dem Bereichs-Umschalter */
+  @media (max-width: 799px) {
+/* nur aus-/einblenden, nichts bewegt sich (vorher fuhr die Liste weg und wieder hoch) */
+  .leaflet-top.leaflet-right, #add, #locate, #tourBtn, #itinBtn, #sheet { transition: opacity .18s ease; }
+  #sheet { transition: transform .28s cubic-bezier(.2,.8,.2,1), opacity .18s ease; }
+  body.popup-open .leaflet-top.leaflet-right, body.popup-open #add, body.popup-open #locate, body.popup-open #tourBtn, body.popup-open #itinBtn, body.popup-open #sheet { opacity: 0; pointer-events: none; }
+  }
+  #update { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 110px); z-index: 2500;
+    background: #111827; color: #fff; border: 0; border-radius: 999px; padding: 10px 16px; font-size: 14px; box-shadow: var(--shadow); }
+  /* Seitliches Wischen gehört der Karte (Spot-Navigation), nicht dem Browser („zurück“) */
+  html, body { overscroll-behavior: none; overflow: hidden; }
+  /* Seite selbst scrollt nie (sonst rutschen Kopfleiste und Spot-Karte aus dem Bild) */
+  .pop { touch-action: pan-y; }
+  .pop .gal { touch-action: pan-x pan-y; }
+  @media (max-width: 799px) {
+.leaflet-popup.card { position: fixed !important; left: 50% !important; top: var(--cardTop, 80px) !important; bottom: auto !important;
+      transform: translateX(-50%) !important; margin: 0 !important; z-index: 1600; }
+  .leaflet-popup.card .leaflet-popup-tip-container { display: none; }
+  .leaflet-popup.card { transition: none !important; opacity: 1 !important; }
+  .leaflet-popup.card.ghost { pointer-events: none; z-index: 1599; }
+  }
+  /* Hotels dezent: klein, weiß mit blauem Rand; weit herausgezoomt nur ein Punkt */
+  .hotel-pin { width: 24px; height: 24px; border-radius: 7px; background: #fff; border: 2px solid #2563eb; box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    display: grid; place-items: center; font-size: 13px; line-height: 1; opacity: .9; transition: transform .2s; }
+  .zoom-far .hotel-pin { transform: scale(.45); font-size: 0; background: #2563eb; border-color: #fff; }
+  /* Spot aus Reiseplan/Tour: Knopf „↩ Tagesplanung“ neben ✕ (✕ = auf der Karte bleiben) */
+  .pop .pnav button.pback { width: auto !important; border-radius: 999px !important; padding: 0 12px; font-size: 13px; font-weight: 600; white-space: nowrap;
+    background: var(--accent) !important; color: #fff !important; border: 0; display: inline-flex !important; align-items: center; }
+  #toast { position: fixed; top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%);
+    z-index: 1002; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px;
+    display: none; max-width: 90vw; text-align: center; }
+  /* ================= Design B „Nacht“: dunkel, Glas, Fotos im Vordergrund ================= */
+  :root { --bg: #0d0d10; --card: #17171c; --fg: #f4f4f6; --muted: #a1a1aa; --line: rgba(255,255,255,.09);
+    --glass: rgba(22,22,28,.72); --glassb: rgba(255,255,255,.08); --soft: rgba(255,255,255,.07); --accent: #2a9aa8; --me: #3b82f6;
+    --panel: rgb(22,22,28); --shadow: 0 10px 30px rgba(0,0,0,.45); color-scheme: dark; }
+  html, body { background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, "Segoe UI", Roboto, sans-serif; }
+  #group, .fab, #sheet, .leaflet-control-zoom, .leaflet-control-layers, #toast, #update {
+    background: var(--glass) !important; -webkit-backdrop-filter: blur(18px) saturate(1.4); backdrop-filter: blur(18px) saturate(1.4);
+    border: 1px solid var(--glassb) !important; color: var(--fg) !important; }
+  #group { padding: 4px; border-radius: 26px; }
+  #group button, #group .where { color: var(--fg); font-weight: 600; padding: 8px 12px; }
+  #group button.on { background: var(--accent); color: #fff; }
+  #group .sep { background: var(--glassb); }
+  .fab { width: 50px; height: 50px; box-shadow: 0 8px 22px rgba(0,0,0,.45); }
+  #add { background: var(--accent) !important; border-color: var(--accent) !important; }
+  #locate.active { color: #93c5fd !important; }
+  #locate.follow { background: var(--me) !important; color: #fff !important; }
+  #itinBtn.on { background: var(--accent) !important; color: #fff !important; }
+  #sheet { border-radius: 26px 26px 0 0; box-shadow: 0 -8px 30px rgba(0,0,0,.45); }
+  @media (min-width: 800px) {
+#sheet { border-radius: 26px; }
+  }
+  #sheet .grip { background: #fff; opacity: .3; }
+  #search { background: var(--soft); border: 0; border-radius: 14px; padding: 10px 14px; }
+  #search::placeholder { color: var(--muted); }
+  #chips2 button, #chips2 select, #area { background: var(--soft); border: 0; color: var(--fg); font-weight: 600; padding: 7px 13px; }
+  #chips2 button.on, #chips2 select.on { background: var(--accent); color: #fff; }
+  #view { border: 0; background: var(--soft); border-radius: 14px; }
+  #view button.on { background: var(--accent); color: #fff; }
+  #view button[data-v="area"] { border-right-color: var(--glassb); }
+  #list li { border-top-color: var(--line); }
+  #list img, .noimg { border-radius: 12px; }
+  #list .t { font-weight: 700; }
+  #list .d { color: #93c5fd; }
+  #list.grid { gap: 8px; padding: 6px 10px 12px; }
+  #list.grid li.gi { border-radius: 16px; }
+  #list.grid li.gi .cap2 { font-weight: 700; padding: 26px 10px 8px; background: linear-gradient(transparent, rgba(0,0,0,.85)); }
+  .leaflet-container { background: #1b1b20; }
+  .leaflet-bar a, .leaflet-control-layers-toggle { background-color: transparent !important; color: var(--fg) !important; border-color: var(--glassb) !important; }
+  .leaflet-control-layers-expanded { color: var(--fg); }
+  .leaflet-control-attribution { background: rgba(0,0,0,.4) !important; color: #888 !important; }
+  .leaflet-control-attribution a { color: #aaa !important; }
+  /* OpenStreetMap dunkel einfärben (Satellit bleibt natürlich) */
+  html[data-mapdark="1"] #map.dark-osm .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.92) contrast(.88) saturate(.5); }
+  /* Pins: Foto-Kacheln; Reiseplan-Stopps pink mit Uhrzeit */
+  .pin { width: 40px; height: 40px; border-radius: 12px; border: 2px solid #fff; box-shadow: 0 6px 14px rgba(0,0,0,.55); background-color: #2a2a31; position: relative; }
+  .pin.plan { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(42,154,168,.4), 0 6px 14px rgba(0,0,0,.55); }
+  .pin .ptag { position: absolute; left: -2px; right: -2px; bottom: -2px; background: var(--accent); color: #fff; font: 700 9px/13px system-ui, sans-serif;
+    text-align: center; border-radius: 0 0 10px 10px; white-space: nowrap; overflow: hidden; }
+  .pin.claude { border-color: #a78bfa; }
+  .pin.mine { background-color: #f59e0b; }
+  .pin.henge { background-color: #fde68a; color: #111; }
+  .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background: rgba(42,154,168,.3) !important; border-radius: 16px !important; }
+  .marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div { border-radius: 12px !important; }
+  .hotel-pin { background: #17171c; color: #fff; border-color: #5eead4; }
+  .tour-stop span { background: rgba(22,22,28,.88); color: #fff; }
+  /* Spot-Karte */
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card) !important; color: var(--fg) !important; }
+  .leaflet-popup-content-wrapper { border-radius: 24px; box-shadow: 0 18px 50px rgba(0,0,0,.6); }
+  .pop .pnav { background: var(--glass); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+  .pop .pnav button { background: var(--soft); border: 0; color: var(--fg); border-radius: 14px; }
+  .pop .pnav button.pclose { background: var(--soft); color: var(--fg); }
+  .pop .pnav span, .pop .pnav .spotnum { color: var(--muted); }
+  .pop img { background: #222; }
+  .pop .b { padding: 12px 16px 16px; }
+  .pop .kick { color: var(--accent); font-weight: 700; font-size: 12.5px; letter-spacing: .5px; text-transform: uppercase; margin: 2px 0 2px; }
+  .pop h3 { font: 700 25px/1.12 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; letter-spacing: -.3px; margin: 2px 0 8px; }
+  .pop .meta, .pop .addr, .pop .credit, .pop .credit a, .pop .generic, .pop .popularity small { color: var(--muted) !important; }
+  .pop .note, .pop .cap, .pop .status label { color: var(--fg); }
+  .pop .popularity { color: #fbbf24; }
+  .pop .status button { background: var(--soft); border: 0; color: var(--fg); padding: 5px 11px; }
+  .pop .status button.fav.on { background: rgba(42,154,168,.2); color: #ff5c93; }
+  .pop .status button.shot.on { background: rgba(22,163,74,.25); }
+  .pop .links { gap: 8px; }
+  .pop .links a, .pop .links button { background: var(--soft) !important; color: var(--fg) !important; border: 0; border-radius: 14px !important; padding: 10px 8px !important; font-weight: 600; }
+  .pop .links a.go { background: var(--accent) !important; color: #fff !important; flex: 1.6; font-size: 14.5px; }
+  .pop .links a.ig { background: rgba(42,154,168,.2) !important; color: #ff8fb4 !important; }
+  .pop .links button.del { color: #fca5a5 !important; }
+  .pop .phototip { background: rgba(14,116,144,.22); color: #a5f3fc; }
+  .pop .claude-note { background: rgba(124,58,237,.22); color: #ddd6fe; }
+  .pop .unsure-note, .pop .approx { background: rgba(245,158,11,.18); color: #fcd34d; }
+  .pop .ok-note { background: rgba(22,163,74,.2); color: #86efac; }
+  .pop .xlinks { background: var(--soft); }
+  .pop .hero .pcount, .pop .hero .parrows { background: rgba(0,0,0,.5); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+  .pop .hero .pfav { background: rgba(0,0,0,.5); color: #ff5c93; }
+  .pop .hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 30%; pointer-events: none; background: linear-gradient(transparent, var(--card)); }
+  /* Fenster: Reiseplan, Touren, Inspiration, Hinzufügen */
+  #itin, #toursDlg, #insp, #addDlg, .tpcard { background: var(--bg) !important; }
+  #itin header button, .tpclose { background: var(--soft) !important; color: var(--fg) !important; border-radius: 14px; }
+  #itin header b { font: 700 24px system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  #itinDays button, #itinOpt button, #inspFilter button { background: var(--soft); border: 0; }
+  #itinDays button.on, #itinOpt button.on, #inspFilter button.on { background: var(--accent); color: #fff; }
+  #itinDays button.today:not(.on) { box-shadow: inset 0 0 0 1.5px var(--accent); }
+  .imapb { background: var(--accent); border-radius: 16px; }
+  .icard { background: var(--card); border: 0; border-radius: 20px; }
+  .ic.opt .icard { border: 1.5px dashed #a78bfa; }
+  .icard .iact a, .icard .iact button, .tbtn, .tcard { border-color: var(--line); }
+  .b-plan { background: rgba(42,154,168,.2); color: #ff8fb4; }
+  .b-ig { background: rgba(42,154,168,.12); color: #fda4c4; }
+  .b-cl, .b-opt { background: rgba(124,58,237,.22); color: #ddd6fe; }
+  .b-hotel { background: rgba(20,184,166,.18); color: #99f6e4; }
+  #toast { border-radius: 14px; }
+  /* ---------- Hell (folgt automatisch der Systemeinstellung) ---------- */
+  html[data-theme="light"] { --bg: #f4f4f6; --card: #ffffff; --fg: #111114; --muted: #6b6b74; --line: rgba(0,0,0,.08);
+      --glass: rgba(255,255,255,.8); --glassb: rgba(0,0,0,.07); --soft: rgba(0,0,0,.05); --panel: #ffffff;
+      --shadow: 0 10px 30px rgba(0,0,0,.14); color-scheme: light; }
+  html[data-theme="light"] .leaflet-container { background: #e9e9ec; }
+  html[data-theme="light"] #sheet { box-shadow: 0 -8px 30px rgba(0,0,0,.12); }
+  html[data-theme="light"] #sheet .grip { background: #000; opacity: .2; }
+  html[data-theme="light"] .fab { box-shadow: 0 8px 22px rgba(0,0,0,.18); }
+  html[data-theme="light"] #dock { box-shadow: 0 10px 30px rgba(0,0,0,.15); }
+  html[data-theme="light"] #list .d { color: #2563eb; }
+  html[data-theme="light"] .pin { box-shadow: 0 6px 14px rgba(0,0,0,.3); }
+  html[data-theme="light"] .hotel-pin { background: #fff; color: #111; border-color: #0d9488; }
+  html[data-theme="light"] .tour-stop span { background: rgba(255,255,255,.95); color: #111; }
+  html[data-theme="light"] .leaflet-popup-content-wrapper { box-shadow: 0 18px 50px rgba(0,0,0,.22); }
+  html[data-theme="light"] .pop img { background: #e5e5ea; }
+  html[data-theme="light"] .pop .popularity { color: #b45309; }
+  html[data-theme="light"] .pop .links a.ig { color: #be185d !important; }
+  html[data-theme="light"] .pop .links button.del { color: #b91c1c !important; }
+  html[data-theme="light"] .pop .status button.fav.on { color: #2a9aa8; }
+  html[data-theme="light"] .pop .phototip { background: #ecfeff; color: #155e75; }
+  html[data-theme="light"] .pop .claude-note { background: #ede9fe; color: #5b21b6; }
+  html[data-theme="light"] .pop .unsure-note, html[data-theme="light"] .pop .approx { background: #fef3c7; color: #92400e; }
+  html[data-theme="light"] .pop .ok-note { background: #dcfce7; color: #166534; }
+  html[data-theme="light"] .pop .hero .pfav { background: rgba(255,255,255,.85); color: #2a9aa8; }
+  html[data-theme="light"] .b-plan { background: #fde7ef; color: #9d1747; }
+  html[data-theme="light"] .b-ig { background: #fce7f3; color: #9d174d; }
+  html[data-theme="light"] .b-cl, html[data-theme="light"] .b-opt { background: #ede9fe; color: #5b21b6; }
+  html[data-theme="light"] .b-hotel { background: #ccfbf1; color: #115e59; }
+  html[data-theme="light"] .leaflet-control-attribution { background: rgba(255,255,255,.7) !important; color: #666 !important; }
+  html[data-theme="light"] .leaflet-control-attribution a { color: #444 !important; }
+  /* ---------- Symbolleiste unten (Karte · Plan · Touren · Inspiration · Merkliste) ---------- */
+  #dock { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(env(safe-area-inset-bottom) + 12px); z-index: 2700; height: 62px;
+    border-radius: 31px; display: flex; gap: 2px; padding: 6px; background: var(--glass); -webkit-backdrop-filter: blur(18px) saturate(1.4);
+    backdrop-filter: blur(18px) saturate(1.4); border: 1px solid var(--glassb); box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+  #dock button { width: 56px; height: 50px; border-radius: 25px; border: 0; background: transparent; color: var(--muted); display: grid; place-items: center; cursor: pointer; padding: 0; }
+  #dock button svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+  #dock button.on { background: var(--accent); color: #fff; }
+  #dock button.dot { position: relative; }
+  #dock button.dot::after { content: ""; position: absolute; top: 9px; right: 13px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+  #dock button.on.dot::after { background: #fff; }
+  @media (min-width: 800px) {
+#dockbg { display: none; }
+  }
+  #itinBtn, #tourBtn, #view #inspBtn { display: none !important; }
+  @media (max-width: 799px) {
+/* Leiste sitzt direkt über dem Home-Balken, Liste schließt nahtlos an – kein leerer Streifen */
+  :root { --dockB: max(4px, calc(env(safe-area-inset-bottom) - 16px)); --dockH: calc(var(--dockB) + 66px); }
+  #dock { bottom: var(--dockB); background: transparent; border: 0; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; }
+  #sheet { bottom: var(--dockH); padding-bottom: 0; height: calc(88svh - var(--dockH)); border-radius: 26px 26px 0 0; }
+  #locate { bottom: calc(var(--dockH) + 86px); }
+  #add { bottom: calc(var(--dockH) + 146px); }
+  body.popup-open #dock, body.popup-open #dockbg { opacity: 0; pointer-events: none; }
+  #dockbg { position: fixed; left: 0; right: 0; bottom: 0; height: var(--dockH); z-index: 1002; background: var(--panel);
+      transition: opacity .18s ease; }
+  #dock { transition: opacity .18s ease; }
+  }
+  #itinBody, #toursBody, #inspBody { padding-bottom: calc(env(safe-area-inset-bottom) + 96px) !important; }
+  /* ---------- Spot-Ansicht „Vollbild“ (Handy; Standard ist „Mittel“, dazu „Klein“) ---------- */
+  @media (max-width: 799px) {
+.leaflet-popup.card.full { left: 0 !important; top: 0 !important; transform: none !important; width: 100vw; }
+  .leaflet-popup.card.full .leaflet-popup-content-wrapper { border-radius: 0; box-shadow: none; }
+  /* volle Höhe (iOS-Web-App: svh endet um die Statusleisten-Höhe zu früh) und immer selbst scrollbar */
+  .leaflet-popup.card.full .leaflet-popup-content { width: 100vw !important; height: 100vh; height: calc(100svh + env(safe-area-inset-top)) !important;
+      max-height: none !important; overflow-y: auto !important; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+  body.popup-full #group { opacity: 0; pointer-events: none; }
+  #group { transition: opacity .18s ease; }
+  .leaflet-popup.card.full .pop .pnav { height: calc(env(safe-area-inset-top) + 60px); margin-bottom: calc(-1 * (env(safe-area-inset-top) + 60px));
+      padding: calc(env(safe-area-inset-top) + 8px) 12px 8px; align-items: center; background: linear-gradient(rgba(0,0,0,.5), transparent);
+      -webkit-backdrop-filter: none; backdrop-filter: none; border: 0; }
+  .leaflet-popup.card.full .pop .pnav button { width: 44px; height: 44px; border-radius: 22px; background: rgba(20,20,26,.55); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); color: #fff; }
+  .leaflet-popup.card.full .pop .pnav .spotnum { background: rgba(20,20,26,.55); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); color: #e4e4e7; padding: 6px 12px; border-radius: 999px; }
+  .leaflet-popup.card.full .pop .hero img { height: 66vh; height: 66svh; aspect-ratio: auto; object-fit: cover; }
+  .leaflet-popup.card.full .pop .hero .pcount, .leaflet-popup.card.full .pop .hero .parrows { display: none; }
+  .leaflet-popup.card.full .pop .hero::after { height: 45%; }
+  .leaflet-popup.card.full .pop .pbars { position: absolute; left: 12px; right: 12px; top: calc(env(safe-area-inset-top) + 64px); display: flex; gap: 4px; z-index: 3; pointer-events: none; }
+  .leaflet-popup.card.full .pop .pbars i { flex: 1; height: 3px; border-radius: 2px; background: rgba(255,255,255,.35); }
+  .leaflet-popup.card.full .pop .pbars i.on { background: #fff; }
+  .leaflet-popup.card.full .pop .credit { position: relative; margin-top: -26px; z-index: 2; }
+  .leaflet-popup.card.full .pop .b { padding-bottom: calc(env(safe-area-inset-bottom) + 24px); }
+  .leaflet-popup.card.full .pop .pfav { top: calc(env(safe-area-inset-top) + 76px); }
+  }
+  .pop .pbars { display: none; }
+  @media (max-width: 799px) {
+.leaflet-popup.card.full .pop .pbars { display: flex; }
+  }
+  body.no-hotels .leaflet-marker-icon:has(.hotel-pin) { display: none; }
+  body.pins-big .pin { transform: scale(1.3); }
+  #dock button { width: 52px; }
+  #settings { position: fixed; inset: 0; z-index: 2500; background: var(--bg); color: var(--fg); display: flex; flex-direction: column; }
+  #settings[hidden] { display: none; }
+  @media (min-width: 800px) {
+#settings { left: auto; width: 420px; box-shadow: var(--shadow); }
+  }
+  #settings header { display: flex; align-items: center; gap: 8px; padding: calc(env(safe-area-inset-top) + 10px) 16px 8px; }
+  #settings header b { flex: 1; font: 700 24px system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  #settings header button { width: 38px; height: 34px; border-radius: 14px; border: 0; background: var(--soft); color: var(--fg); font-size: 17px; cursor: pointer; }
+  #setBody { flex: 1; overflow-y: auto; padding: 4px 16px calc(env(safe-area-inset-bottom) + 100px); }
+  .sgrp { margin: 14px 0 6px; font-size: 12.5px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--accent); }
+  .scard { background: var(--card); border-radius: 18px; padding: 4px 14px; }
+  .srow { padding: 12px 0; }
+  .srow + .srow { border-top: 1px solid var(--line); }
+  .srow > b { display: block; font-size: 15.5px; margin-bottom: 8px; }
+  .srow > small { display: block; color: var(--muted); font-size: 12.5px; margin-top: 6px; }
+  .seg2 { display: flex; background: var(--soft); border-radius: 12px; padding: 3px; gap: 2px; }
+  .seg2 button { flex: 1; border: 0; background: transparent; color: var(--fg); padding: 8px 4px; border-radius: 10px; font-size: 13.5px; font-weight: 600; cursor: pointer; }
+  .seg2 button.on { background: var(--accent); color: #fff; }
+  .pop .pnav .pmini { display: grid; place-items: center; }
+  .leaflet-popup.mini .pnav .pmini { display: none !important; }
+  .pop .pnav .pfull { display: grid; place-items: center; }
+  @media (max-width: 799px) {
+.leaflet-popup.card .leaflet-popup-content { overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+  }
+  @media (min-width: 800px) {
+.pop .pnav .pfull { display: none; }
+  }
+  /* verkleinerte Story (Handy): kleine Karte oben, Karte/Liste/Leiste wieder sichtbar */
+  @media (max-width: 799px) {
+.leaflet-popup.card.mini { left: 10px !important; right: 10px !important; width: auto; transform: none !important; top: calc(env(safe-area-inset-top) + 8px) !important; }
+  .leaflet-popup.card.mini .leaflet-popup-content-wrapper { border-radius: 20px; box-shadow: 0 12px 34px rgba(0,0,0,.45); }
+  .leaflet-popup.card.mini .leaflet-popup-content { width: calc(100vw - 20px) !important; height: auto !important; }
+  .leaflet-popup.card.mini .pop .pnav { height: 52px; margin-bottom: -52px; padding: 6px 8px; }
+  .leaflet-popup.card.mini .pop .pnav button { width: 38px; height: 38px; }
+  .leaflet-popup.card.mini .pop .pbars, .leaflet-popup.card.mini .pop .hero::after { display: none; }
+  .leaflet-popup.card.mini .pop .b { padding: 8px 14px 12px; }
+  .leaflet-popup.card.mini .pop .kick { display: none; }
+  /* klein + am Pin: Karte schwebt über dem Punkt und wandert beim Verschieben mit (Position aus anchorMini) */
+  .leaflet-popup.card.mini.anchor { left: var(--ax) !important; top: var(--ay) !important; right: auto !important; width: min(330px, calc(100vw - 20px));
+      transform: translate(-50%, calc(-100% - 12px)) !important; }
+  .leaflet-popup.card.mini.anchor .leaflet-popup-content { width: min(330px, calc(100vw - 20px)) !important; }
+  .leaflet-popup.card.mini.anchor::after { content: ""; position: absolute; left: calc(50% + var(--arx, 0px)); bottom: -9px; margin-left: -10px;
+      border: 10px solid transparent; border-bottom: 0; border-top-color: var(--card, #fff); filter: drop-shadow(0 3px 2px rgba(0,0,0,.25)); }
+  body.popup-mini #sheet, body.popup-mini #dock, body.popup-mini #dockbg, body.popup-mini #locate, body.popup-mini #add { opacity: 1 !important; pointer-events: auto !important; }
+  }
+  /* ---------- Spot-Inhalt (Design B): Titel, Infozeile, Licht, Aktionen, Fotoreihe; Rest unter „⋯“ ---------- */
+  .pop .mline { display: flex; flex-wrap: wrap; gap: 3px 12px; align-items: center; color: var(--muted); font-size: 13.5px; margin: 0 0 12px; }
+  .pop .mline span { white-space: nowrap; }
+  .pop .mline .mtag { background: var(--soft); color: var(--fg); border-radius: 999px; padding: 2px 9px; font-size: 12px; font-weight: 600; }
+  .pop .mline .mtag.cl { background: rgba(124,58,237,.22); color: #ddd6fe; }
+  .pop .lightB { display: flex; background: var(--soft); border-radius: 16px; padding: 10px 4px; margin: 0 0 12px; }
+  .pop .lightB > div { flex: 1; text-align: center; min-width: 0; }
+  .pop .lightB > div + div { border-left: 1px solid var(--line); }
+  .pop .lightB small { display: block; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .4px; }
+  .pop .lightB b { display: block; font-size: 16px; margin-top: 2px; white-space: nowrap; }
+  .pop .lightB .pk b { color: var(--accent); }
+  .pop .status.sv2 { display: block; margin: 0 0 14px; }
+  .pop .actB { display: flex; gap: 8px; align-items: stretch; }
+  .pop .actB .go { flex: 1; display: grid; place-items: center; background: var(--accent); color: #fff !important; text-decoration: none; font-weight: 700; font-size: 15px;
+    border-radius: 16px; min-height: 48px; }
+  .pop .status.sv2 .actB button { width: 48px; height: 48px; padding: 0; border-radius: 16px; background: var(--soft); color: var(--fg); border: 0; font-size: 20px;
+    display: grid; place-items: center; filter: none; opacity: 1; margin: 0; flex: none; }
+  .pop .status.sv2 .actB button.fav { color: var(--muted); }
+  .pop .status.sv2 .actB button.fav.on { background: rgba(42,154,168,.2); color: #ff5c93; }
+  .pop .status.sv2 .actB button.shot { color: var(--muted); font-weight: 700; }
+  .pop .status.sv2 .actB button.shot.on { background: rgba(22,163,74,.28); color: #4ade80; }
+  .pop .status.sv2 .actB button.shot.on::after { content: none; }
+  .pop .status.sv2 .actB button.pmore.on { background: var(--fg); color: var(--bg); }
+  .pop .more { margin-top: 10px; background: var(--soft); border-radius: 16px; padding: 10px; }
+  .pop .more[hidden] { display: none; }
+  .pop .more .mlab { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .4px; margin: 0 2px 6px; }
+  .pop .more .seg2 { background: var(--bg); }
+  .pop .more .seg2 button { border: 0; border-radius: 10px; padding: 8px 4px; font-size: 13px; }
+  .pop .more .seg2 button.on[data-prio="nein"] { background: #52525b; }
+  .pop .more .links { margin: 10px 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .pop .more .links > * { background: var(--bg) !important; padding: 10px 6px !important; font-size: 13px; text-align: center; }
+  .pop .more .addr { margin: 10px 2px 0; font-size: 12.5px; }
+  .pop .phototip, .pop .note, .pop .unsure-note, .pop .approx, .pop .ok-note, .pop .popr { border-radius: 14px; padding: 11px 13px; margin: 0 0 12px; font-size: 14px; line-height: 1.45; }
+  .pop .phototip { background: var(--soft); color: var(--fg); border-left: 3px solid var(--accent); }
+  .pop .phototip .tl { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .4px; color: var(--accent); margin-bottom: 3px; }
+  .pop .note { padding: 0 2px; }
+  .pop .popr { padding: 0 2px; color: var(--muted); font-size: 13px; }
+  .pop .galhead { margin: 2px 2px 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .4px; color: var(--muted); }
+  .pop .galhead .galn { color: var(--muted); font-weight: 700; }
+  .pop .galgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin: 0 0 14px; }
+  .pop .galgrid figure { aspect-ratio: 1; border-radius: 12px; }
+  .pop .galgrid .gwho { font-size: 10px; }
+  .pop .galgrid .gdel, .pop .galgrid .ginsp { display: none; }
+  .pop .status.sv2:has(.more:not([hidden])) ~ .galgrid .gdel, .pop .status.sv2:has(.more:not([hidden])) ~ .galgrid .ginsp { display: grid; }
+  .pop .galgrid .ginsp.on { display: grid; }
+  .leaflet-popup.card:not(.full):not(.mini) .pop .pnav { background: var(--card); }
+  .leaflet-popup.card.mini .pop .pnav { background: transparent; border: 0; -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .leaflet-popup.card.mini .pop .pnav button { background: rgba(20,20,26,.55); color: #fff; }
+  .leaflet-popup.card.full.scrolled .pop .pnav { background: var(--card); border-bottom: 1px solid var(--line); }
+  .leaflet-popup.card.full.scrolled .pop .pnav button, .leaflet-popup.card.full.scrolled .pop .pnav .spotnum { background: var(--soft); color: var(--fg); }
+  .leaflet-popup.card.full .pop .hcred { font-size: 11px; padding: 0 16px; }
+  .leaflet-popup.mini .pop .mline, .leaflet-popup.mini .pop .lightB, .leaflet-popup.mini .pop .status.sv2 { display: none; }
+  html[data-theme="light"] .pop .mline .mtag.cl { background: #ede9fe; color: #5b21b6; }
+  html[data-theme="light"] .pop .status.sv2 .actB button.shot.on { background: #dcfce7; color: #15803d; }
+  html[data-theme="light"] .pop .phototip { background: var(--soft); color: var(--fg); }
+  /* Tagesroute auf der Karte: zierlichere Beschriftung */
+  .tour-stop { transform: translate(-11px, -11px); gap: 3px; }
+  .tour-stop b { width: 22px !important; height: 22px !important; font: 600 11px/1 system-ui, sans-serif !important; border-width: 1.5px !important; box-shadow: 0 1px 3px rgba(0,0,0,.3) !important; }
+  .tour-stop span { font: 500 10.5px/1.35 system-ui, sans-serif !important; padding: 1px 6px !important; border-radius: 8px !important; max-width: 150px; overflow: hidden; text-overflow: ellipsis;
+    background: rgba(255,255,255,.88) !important; color: #1f2937 !important; box-shadow: 0 1px 2px rgba(0,0,0,.2) !important; }
+  html[data-mapdark="1"] .tour-stop span { background: rgba(24,24,30,.82) !important; color: #e5e7eb !important; }
+  .leg-time { font: 600 10px/1.3 system-ui, sans-serif !important; padding: 0 5px !important; border-width: 1px !important; border-radius: 8px !important; box-shadow: 0 1px 2px rgba(0,0,0,.25) !important; opacity: .92; }
+  /* ---------- Symbolleiste senkrecht am rechten Rand, ein-/ausklappbar ---------- */
+  #dock { left: auto !important; right: 10px; top: 50%; bottom: auto !important; transform: translateY(-50%); flex-direction: column; height: auto; gap: 2px;
+    padding: 5px; border-radius: 28px; background: var(--glass) !important; border: 1px solid var(--glassb) !important; box-shadow: 0 10px 30px rgba(0,0,0,.35) !important;
+    -webkit-backdrop-filter: blur(18px) saturate(1.4) !important; backdrop-filter: blur(18px) saturate(1.4) !important; transition: transform .25s ease, opacity .18s ease; }
+  #dock button { width: 46px !important; height: 46px; border-radius: 23px; }
+  #dock button svg { width: 22px; height: 22px; }
+  #dock button.dot::after { top: 7px; right: 8px; }
+  #dock .dhide { height: 30px; color: var(--muted); }
+  #dock .dhide svg { width: 18px; height: 18px; }
+  body.dock-hidden #dock { transform: translate(calc(100% + 16px), -50%); pointer-events: none; }
+  #dockTab { position: fixed; right: 0; top: 50%; transform: translate(100%, -50%); z-index: 2700; width: 26px; height: 64px; border: 1px solid var(--glassb); border-right: 0;
+    border-radius: 14px 0 0 14px; background: var(--glass); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); color: var(--fg); padding: 0; display: grid; place-items: center;
+    cursor: pointer; transition: transform .25s ease, opacity .18s ease; box-shadow: 0 6px 18px rgba(0,0,0,.3); }
+  #dockTab svg, #dock .dhide svg { fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+  #dockTab svg { width: 18px; height: 18px; }
+  body.dock-hidden #dockTab { transform: translate(0, -50%); }
+  #dockbg { display: none !important; }
+  @media (max-width: 799px) {
+:root { --dockH: 0px; }
+  #sheet { padding-bottom: env(safe-area-inset-bottom); height: 88svh; }
+  #locate { bottom: calc(env(safe-area-inset-bottom) + 92px); }
+  #add { bottom: calc(env(safe-area-inset-bottom) + 152px); }
+  #dock { top: 46%; }
+  body.popup-open #dockTab { opacity: 0; pointer-events: none; }
+  body.popup-mini #dockTab { opacity: 1; pointer-events: auto; }
+  }
+  /* Prognose */
+  .fcbox { background: var(--soft); border-radius: 16px; padding: 10px 12px; margin: 0 0 12px; }
+  .fct { font-size: 11px; text-transform: uppercase; letter-spacing: .4px; color: var(--muted); display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px; }
+  details.fcbox > summary { cursor: pointer; list-style: none; margin-bottom: 0; align-items: center; }
+  details.fcbox > summary::-webkit-details-marker { display: none; }
+  details.fcbox > summary > span::before { content: "▸"; display: inline-block; width: 12px; transition: transform .15s; }
+  details.fcbox[open] > summary > span::before { transform: rotate(90deg); }
+  details.fcbox[open] > summary { margin-bottom: 4px; }
+  .fcq { font-style: normal; text-transform: none; letter-spacing: 0; color: var(--fg); font-size: 12.5px; margin-left: 4px; }
+  .fch { font-size: 12px; font-weight: 700; color: var(--accent); }
+  .fcm { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 10px; font-size: 13px; color: var(--fg); margin-top: 2px; }
+  .fci { font-size: 18px; }
+  .fcs { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+  .icard .fcbox { margin: 8px 0; }
+  .leaflet-popup.mini .pop .fcbox { display: none; }
+  /* Liste aufgezogen → Leiste weg (nur Griff); Leiste geholt → Liste klappt ein */
+  @media (max-width: 799px) {
+body.dock-off #dock, body.dock-off #dockTab, body.dock-off #dockbg { display: none !important; }
+  body.dock-auto #dock, body.dock-dlg #dock { transform: translate(calc(100% + 16px), -50%); pointer-events: none; }
+  body.dock-auto #dockTab, body.dock-dlg #dockTab { transform: translate(0, -50%); }
+  #dockTab { top: 30%; }
+  body.dock-auto #dockTab { top: 30%; }
+  }
+  #inspBody h3 .ilink { padding: 5px 11px; border-radius: 999px; border: 1px solid var(--accent); background: var(--accent); color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; }
+  #inspBody .inote { margin: -4px 4px 10px; padding: 9px 11px; border-radius: 12px; background: var(--soft); font-size: 13px; line-height: 1.45; color: var(--fg); }
+  /* ===== journaway-Design: Türkis #4dc6d3 · Dunkellila #1f0e32 · Limette #dae863 ===== */
+  :root, html[data-theme="light"] {
+    --jw: #4dc6d3; --jw-dark: #2a9aa8; --jw-ink: #1f0e32; --jw-lime: #dae863; --jw-soft: #e6f7f9;
+    --bg: #f6f8f9; --card: #ffffff; --fg: #282828; --muted: #6b7075; --line: rgba(31,14,50,.09);
+    --glass: rgba(255,255,255,.92); --glassb: rgba(31,14,50,.08); --soft: rgba(77,198,211,.13); --panel: #ffffff;
+    --accent: #4dc6d3; --me: #2a9aa8; --shadow: 0 8px 26px rgba(31,14,50,.16);
+  }
+  html, body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--fg); }
+  body, body * { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  .pop h3 { font-weight: 700; color: var(--jw-ink); }
+  .pop .actB .showmap { white-space: nowrap; }
+  .jwlogo { display: inline-block; width: 72px; height: 18px; flex: none; margin: 0 4px 0 6px; background: var(--jw-ink);
     -webkit-mask: url(logo.svg) no-repeat left center / contain; mask: url(logo.svg) no-repeat left center / contain; }
-  header h1 { margin: 14px 0 2px; font-size: 26px; line-height: 1.15; }
-  header p { margin: 0; font-weight: 500; opacity: .85; }
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
-  .chip { background: rgba(255,255,255,.7); border-radius: 99px; padding: 3px 11px; font-size: 13px; font-weight: 600; }
-  .datebox { margin-top: 14px; background: #fff; border-radius: 14px; padding: 10px 12px; display: flex; gap: 10px; align-items: center; justify-content: space-between; font-size: 14px; }
-  .datebox input { border: 1px solid var(--line); border-radius: 10px; padding: 6px 8px; font: inherit; color: var(--ink); background: #fff; }
-
-  main { padding: 16px 16px calc(env(safe-area-inset-bottom) + 96px); max-width: 760px; margin: 0 auto; }
-  .tab { display: none; } .tab.on { display: block; }
-
-  nav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1000; background: #fff; border-top: 1px solid var(--line);
-    display: flex; padding: 6px 6px calc(env(safe-area-inset-bottom) + 6px); }
-  nav button { flex: 1; border: 0; background: none; padding: 6px 0; display: flex; flex-direction: column; align-items: center; gap: 1px; font-size: 12px; color: var(--muted); font-weight: 600; }
-  nav button span { font-size: 21px; line-height: 1.2; filter: grayscale(1); opacity: .7; }
-  nav button.on { color: var(--primary-dark); } nav button.on span { filter: none; opacity: 1; }
-
-  /* Tagesauswahl */
-  .daybar { display: flex; gap: 8px; overflow-x: auto; padding: 2px 0 12px; scrollbar-width: none; position: sticky; top: 0; background: var(--bg); z-index: 5; margin: 0 -16px; padding-left: 16px; padding-right: 16px; }
-  .daybar::-webkit-scrollbar { display: none; }
-  .dbtn { flex: none; border: 1.5px solid var(--line); background: #fff; border-radius: 14px; padding: 6px 12px; text-align: center; min-width: 54px; line-height: 1.2; }
-  .dbtn b { display: block; font-size: 16px; } .dbtn small { color: var(--muted); font-size: 11px; }
-  .dbtn.on { background: var(--purple); border-color: var(--purple); color: #fff; } .dbtn.on small { color: var(--lime); }
-  .dbtn.today { border-color: var(--primary); }
-
-  .card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; margin-bottom: 14px; }
-  .dayhead .city { display: inline-block; font-size: 12px; font-weight: 700; color: #fff; border-radius: 99px; padding: 2px 10px; margin-bottom: 6px; }
-  .dayhead h2 { margin: 0 0 4px; font-size: 22px; line-height: 1.2; }
-  .dayhead .date { color: var(--muted); font-size: 14px; margin-bottom: 8px; }
-  .dayhead p { margin: 8px 0 0; }
-  .info { background: var(--primary-soft); border-radius: 12px; padding: 9px 12px; margin-top: 10px; font-size: 14px; display: flex; gap: 8px; }
-  .hotelcard { display: flex; gap: 12px; align-items: center; margin-top: 12px; padding: 10px 12px; border: 1px dashed var(--primary); border-radius: 14px; font-size: 14px; }
-  .hotelcard .ic { font-size: 24px; }
-
-  h3 { margin: 22px 2px 10px; font-size: 14px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
-  .timeline { position: relative; margin: 0; padding: 0; list-style: none; }
-  .stop { position: relative; display: flex; gap: 12px; padding: 0 0 12px; }
-  .stop::before { content: ""; position: absolute; left: 15px; top: 34px; bottom: -2px; width: 2px; background: var(--primary); opacity: .45; }
-  .stop:last-child::before { display: none; }
-  .num { flex: none; width: 32px; height: 32px; border-radius: 50%; background: var(--primary); color: var(--purple); font-weight: 800; display: grid; place-items: center; z-index: 1; }
-  .stop.tip .num { background: #fff; border: 2px dashed var(--primary-dark); color: var(--primary-dark); }
-  .stopbody { flex: 1; background: #fff; border-radius: 14px; box-shadow: var(--shadow); padding: 12px 14px; min-width: 0; }
-  .stop.tip .stopbody { background: #fbfdf2; border: 1.5px dashed var(--lime); box-shadow: none; }
-  .stopbody h4 { margin: 0; font-size: 16px; line-height: 1.3; }
-  .time { font-size: 12px; font-weight: 700; color: var(--primary-dark); text-transform: uppercase; letter-spacing: .04em; }
-  .stopbody p { margin: 4px 0 0; font-size: 14px; color: #444; }
-  .note { font-size: 13px; color: var(--muted); font-style: italic; margin-top: 4px !important; }
-  .badge { display: inline-block; font-size: 11px; font-weight: 800; background: var(--lime); color: var(--purple); border-radius: 99px; padding: 1px 8px; margin-left: 6px; vertical-align: 2px; }
-  .actions { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
-  .btn { border: 0; background: var(--primary); color: var(--purple); font-weight: 700; border-radius: 99px; padding: 8px 16px; text-decoration: none; font-size: 14px; display: inline-block; }
-  .btn.ghost { background: var(--primary-soft); color: var(--primary-dark); }
-  .btn.lime { background: var(--lime); color: var(--purple); }
-  .daynav { display: flex; justify-content: space-between; margin-top: 8px; }
-
-  /* Karte */
-  #mapwrap { position: relative; height: 68vh; min-height: 420px; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
-  #map { position: absolute; inset: 0; }
-  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; }
-  .pill { border: 1.5px solid var(--line); background: #fff; border-radius: 99px; padding: 5px 13px; font-size: 14px; font-weight: 600; }
-  .pill.on { background: var(--purple); color: #fff; border-color: var(--purple); }
-  .pin { width: 28px; height: 28px; border-radius: 50% 50% 50% 4px; transform: rotate(-45deg); border: 2.5px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.35); display: grid; place-items: center; }
-  .pin i { transform: rotate(45deg); font-style: normal; font-size: 12px; font-weight: 800; color: #fff; }
-  .pin.tip { background: var(--lime) !important; border: 2.5px dashed var(--purple); } .pin.tip i { color: var(--purple); }
-  .pin.hotel { border-radius: 8px; transform: none; } .pin.hotel i { transform: none; font-size: 14px; }
-  .leaflet-popup-content { font: 14px/1.4 system-ui, sans-serif; margin: 12px 14px; }
-  .leaflet-popup-content b { font-size: 15px; }
-
-  /* Tipps */
-  .tipcard { display: flex; gap: 12px; align-items: flex-start; }
-  .tipcard .ic { flex: none; width: 40px; height: 40px; border-radius: 12px; background: var(--primary-soft); display: grid; place-items: center; font-size: 20px; }
-  .tipcard h4 { margin: 0; font-size: 16px; } .tipcard p { margin: 3px 0 0; font-size: 14px; color: #444; }
-  .tipcard .where { font-size: 12px; color: var(--muted); margin-top: 6px; }
-  .tipcard.tipx { background: #fbfdf2; border: 1.5px dashed var(--lime); box-shadow: none; }
-  .tipcard.tipx .ic { background: var(--lime); }
-
-  /* Infos */
-  ul.check { list-style: none; padding: 0; margin: 0; } ul.check li { padding: 6px 0 6px 28px; position: relative; border-bottom: 1px solid var(--line); }
-  ul.check li:last-child { border: 0; } ul.check li::before { content: "✓"; position: absolute; left: 0; color: #fff; background: var(--primary); width: 20px; height: 20px; border-radius: 50%; font-size: 12px; font-weight: 800; display: grid; place-items: center; top: 9px; }
-  .hotel { display: flex; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); } .hotel:last-child { border: 0; }
-  .hotel img { width: 74px; height: 74px; border-radius: 12px; object-fit: cover; flex: none; }
-  .hotel small { color: var(--muted); display: block; }
-  .support { background: var(--purple); color: #fff; } .support a { color: var(--lime); } .support .btn { color: var(--purple); }
-  .hint { font-size: 12px; color: var(--muted); text-align: center; margin: 20px 0 0; }
+  #group { background: rgba(255,255,255,.95); }
+  #group button { color: var(--jw-ink); font-weight: 600; }
+  #group button.on { background: var(--jw); color: var(--jw-ink); }
+  #group .sep { background: var(--line); }
+  #dock button.on { background: var(--jw); color: var(--jw-ink); }
+  #dock button.dot::after { background: var(--jw-lime) !important; box-shadow: 0 0 0 2px #fff; }
+  .fab { background: #fff; color: var(--jw-ink); }
+  #locate.active { color: var(--jw-dark); }
+  #locate.follow, #itinBtn.on { background: var(--jw); color: var(--jw-ink); }
+  #search, #area, #chips2 button, #chips2 select, #view { background: var(--soft); color: var(--jw-ink); }
+  #area.on, #view button.on { background: var(--jw); color: var(--jw-ink); }
+  #filterSw:disabled { opacity: .45; }
+  #list .t { color: var(--jw-ink); }
+  #list .ct { font-weight: 700; color: var(--jw-dark); }
+  #list .ct.pg { color: var(--jw-ink); }
+  #list .noimg { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; font-size: 22px; background: var(--jw); }
+  #list .noimg.tipp { background: var(--jw-lime); border: 2px dashed var(--jw-ink); }
+  #list .th { align-self: center; }
+  html[data-theme="light"] #list .d { color: var(--jw-dark); }
+  /* Pins: Programm = türkis, Empfehlung = limette gestrichelt */
+  .pin.jw { display: grid; place-items: center; font-size: 19px; background: var(--jw) !important; border: 3px solid #fff; position: relative; }
+  .pin.jw.tipp { background: var(--jw-lime) !important; border: 3px dashed var(--jw-ink); }
+  .pin.jw .ptag { background: var(--jw-ink); color: #fff; }
+  .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background: rgba(77,198,211,.45) !important; }
+  .marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div { background: var(--jw-ink) !important; color: #fff !important; }
+  .leaflet-marker-icon.lastseen .pin, .leaflet-marker-icon.lastseen.marker-cluster { box-shadow: 0 0 0 3px #fff, 0 0 0 7px var(--jw-dark), 0 4px 14px rgba(0,0,0,.35); }
+  .leaflet-marker-icon.hl .pin, .leaflet-marker-icon.hl.marker-cluster { box-shadow: 0 0 0 4px var(--jw-dark), 0 4px 14px rgba(0,0,0,.35); }
+  html[data-theme="light"] .hotel-pin { border-color: var(--jw-ink); }
+  /* Popup */
+  .pop .kick { display: inline-block; background: var(--jw-lime); color: var(--jw-ink); font-weight: 700; font-size: 12.5px; padding: 3px 10px; border-radius: 999px; margin: 0 0 6px; }
+  .pop .mline { color: var(--muted); }
+  .pop .actB .go { color: var(--jw-ink) !important; background: var(--jw); border-radius: 999px; }
+  .pop .note { color: #444; font-size: 14px; line-height: 1.45; }
+  .pop .approx { background: var(--jw-soft) !important; color: var(--jw-dark) !important; }
+  /* Reiseplan */
+  #itin header, #settings header { background: var(--jw); color: var(--jw-ink); }
+  #itin header button, #settings header button { background: rgba(255,255,255,.6) !important; color: var(--jw-ink) !important; }
+  #itinDays button.on { background: var(--jw-ink); color: #fff; }
+  #itinDays button.today { box-shadow: inset 0 0 0 2px var(--jw); }
+  #itinOpt button.on { background: var(--jw); color: var(--jw-ink); }
+  .idh h2 { color: var(--jw-ink); }
+  .idh .idtext { margin: 6px 0 10px; color: #444; font-size: 14.5px; line-height: 1.5; }
+  .imapb { background: var(--jw); color: var(--jw-ink); border: 0; border-radius: 999px; font-weight: 700; }
+  html[data-theme="light"] .b-plan { background: var(--jw-soft); color: var(--jw-dark); }
+  html[data-theme="light"] .b-ig { background: #f0f1f3; color: #555; }
+  html[data-theme="light"] .b-cl, html[data-theme="light"] .b-opt { background: var(--jw-lime); color: var(--jw-ink); }
+  .iact button, .iact a { background: var(--soft) !important; color: var(--jw-ink) !important; border-radius: 999px !important; font-weight: 600; }
+  .xa-save, .tpcard .xa-save { background: var(--jw) !important; color: var(--jw-ink) !important; border-radius: 999px !important; font-weight: 700; }
+  .ic.opt .itm { color: var(--jw-dark); }
+  .pback { background: var(--jw-soft) !important; color: var(--jw-dark) !important; }
+  /* Reise-Infos */
+  #setBody .srow input[type=date] { border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px; font: inherit; background: #fff; color: var(--fg); }
+  #setBody .btn { display: inline-block; padding: 9px 14px; border-radius: 999px; text-decoration: none; background: var(--soft); color: var(--jw-ink); font-weight: 600; font-size: 14px; }
+  #setBody .btn.pri { background: var(--jw); color: var(--jw-ink); font-weight: 700; }
+  #setBody .seg2 { flex-wrap: wrap; gap: 8px; }
+  #setBody .seg2 button { border-radius: 999px; background: var(--soft); color: var(--jw-ink); }
+  ul.jwlist { list-style: none; margin: 0; padding: 4px 14px; }
+  ul.jwlist li { padding: 7px 0 7px 26px; position: relative; border-bottom: 1px solid var(--line); font-size: 14.5px; }
+  ul.jwlist li:last-child { border: 0; }
+  ul.jwlist li::before { content: "✓"; position: absolute; left: 0; top: 9px; width: 18px; height: 18px; border-radius: 50%; background: var(--jw); color: var(--jw-ink); font-size: 11px; font-weight: 800; display: grid; place-items: center; }
+  .ic { grid-template-columns: 70px 1fr; }
+  .ic .itm { font-size: 12.5px; word-break: normal; overflow-wrap: break-word; }
 </style>
 </head>
 <body>
-<header>
-  <span class="logo" role="img" aria-label="journaway"></span>
-  <h1 id="ttl"></h1>
-  <p id="sub"></p>
-  <div class="chips" id="chips"></div>
-  <div class="datebox"><label for="start">Abflugdatum für deine Reise</label><input type="date" id="start"></div>
-</header>
-
-<main>
-  <section class="tab on" id="t-plan">
-    <div class="daybar" id="daybar"></div>
-    <div id="day"></div>
-  </section>
-
-  <section class="tab" id="t-map">
-    <div class="filters" id="mapfilters"></div>
-    <div id="mapwrap"><div id="map"></div></div>
-    <p class="hint">Nummerierte Pins = Tagesablauf deiner Reise · Gelb gestrichelt = Empfehlungen · Rechteck = Hotel</p>
-  </section>
-
-  <section class="tab" id="t-tips">
-    <div class="filters" id="tipfilters"></div>
-    <div id="tiplist"></div>
-  </section>
-
-  <section class="tab" id="t-info">
-    <div class="card"><h2 style="margin:0 0 8px">Inklusive Leistungen</h2><ul class="check" id="incl"></ul></div>
-    <div class="card"><h2 style="margin:0 0 8px">Deine Unterkünfte</h2><div id="hotels"></div></div>
-    <div class="card"><h2 style="margin:0 0 4px">Optional buchbar</h2><p style="margin:0 0 8px;color:var(--muted);font-size:14px">Zusätzliche Erlebnisse kannst du bei journaway buchen.</p><ul class="check" id="opt"></ul></div>
-    <div class="card support"><h2 style="margin:0 0 4px">24/7-Support während der Reise</h2><p style="margin:0 0 12px">Wenn du eine Frage hast, melde dich jederzeit.</p>
-      <div class="actions" id="supp"></div></div>
-    <p class="hint">Diese App ergänzt deine Reiseunterlagen. Zeiten und Abläufe können sich vor Ort ändern.<br>Eintritte, die nicht inklusive sind, werden vor Ort bezahlt.</p>
-  </section>
-</main>
-
-<nav id="nav">
-  <button data-t="plan" class="on"><span>🗓️</span>Reise</button>
-  <button data-t="map"><span>🗺️</span>Karte</button>
-  <button data-t="tips"><span>✨</span>Tipps</button>
-  <button data-t="info"><span>🧳</span>Infos</button>
+<div id="map"></div>
+<div id="scale" aria-hidden="true"><b></b><span></span></div>
+<div id="group" role="tablist" aria-label="Bereich">
+  <span class="jwlogo" role="img" aria-label="journaway"></span>
+  <span class="sep"></span><button data-g="all" class="on">Alle</button><button data-g="prog" title="Orte aus deinem Reiseablauf">★ Programm</button><button data-g="tips" title="Empfehlungen zusätzlich zum Programm">✦ Tipps</button>
+</div>
+<div id="dockbg"></div>
+<nav id="dock" aria-label="Bereiche">
+  <button data-d="map" class="on" aria-label="Karte" title="Karte"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></button>
+  <button data-d="plan" aria-label="Reiseplan" title="Reiseplan"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></button>
+  <button data-d="set" aria-label="Reise-Infos" title="Reise-Infos"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5v.5"/></svg></button>
+  <button class="dhide" aria-label="Leiste ausblenden" title="Leiste ausblenden"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
 </nav>
+<button id="dockTab" aria-label="Leiste einblenden" title="Leiste einblenden"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+<button id="itinBtn" class="fab" title="Reiseplan" aria-label="Reiseplan" hidden>📅</button>
+<button id="locate" class="fab" title="Mein Standort" aria-label="Mein Standort">◎</button>
+
+<section id="sheet">
+  <header id="sheetHead">
+    <div class="grip"></div>
+    <div class="row">
+      <input id="search" type="search" placeholder="Orte durchsuchen …" autocomplete="off">
+      <span id="count"></span>
+      <div id="view"><button data-v="area" title="Nur Spots im Kartenausschnitt" aria-label="Nur Spots im Kartenausschnitt">⌖</button></div>
+    </div>
+    <div id="chips2">
+      <button type="button" id="filterSw" title="Alle Filter löschen">Filter aus</button>
+      <select id="area" aria-label="Stadt"><option value="">📍 Alle Städte</option></select>
+    </div>
+  </header>
+  <ul id="list"></ul>
+</section>
+<div id="toast"></div>
+<div id="tourPick" hidden></div>
+<div id="settings" hidden role="dialog" aria-label="Reise-Infos">
+  <header><b>Reise-Infos</b><button id="setClose" aria-label="Schließen">✕</button></header>
+  <div id="setBody"></div>
+</div>
+<div id="itin" hidden role="dialog" aria-label="Reiseplan">
+  <header><b>📅 Reiseplan</b><button id="itinClose" aria-label="Schließen">✕</button></header>
+  <div id="itinDays"></div>
+  <div id="itinOpt"></div>
+  <div id="itinBody"></div>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+<script src="data/places.js"></script>
+<script src="data/trip.js"></script>
+<script src="data/itinerary.js"></script>
 <script>
-const T = TRIP, $ = s => document.querySelector(s);
-const KIND = { sight: ["⛩️", "Sehenswert"], food: ["🍜", "Essen"], shop: ["🛍️", "Shopping"], view: ["🌇", "Aussicht"], night: ["🌃", "Abends"], station: ["🚅", "Shinkansen"] };
-const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
-const gmaps = s => `https://www.google.com/maps/search/?api=1&query=${s.lat},${s.lng}`;
+  // iOS ignoriert user-scalable=no: Seiten-Zoom per Zwei-Finger-Geste außerhalb der Karte unterbinden
+  document.addEventListener("gesturestart", e => { if (!e.target.closest || !e.target.closest("#map")) e.preventDefault(); }, { passive: false });
+</script>
+<script>
+function startApp() {
+  const places = (window.PLACES || []).filter(p => isFinite(p.lat) && isFinite(p.lng));
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-$("#ttl").textContent = T.title; $("#sub").textContent = T.subtitle;
-$("#chips").innerHTML = [`${T.days.length} Tage`, `${T.nights} Übernachtungen`, "Flug inkl.", "Shinkansen"].map(c => `<span class="chip">${c}</span>`).join("");
+  const ITIN = window.ITINERARY || { days: [], hotels: {} };
+  const TRIPI = window.TRIP;
+  const GMAP = false, ROTATE = false;
+  // Desktop (Maus/Trackpad): ohne Zoom-Animation, sonst laufen Pins beim Zoomen auseinander
+  const fineMouse = window.matchMedia && matchMedia("(hover: hover) and (pointer: fine)").matches;
+  const map = L.map("map", { zoomControl: false, tap: true, tapHold: true, maxZoom: 19,
+    ...(fineMouse ? { zoomAnimation: false, markerZoomAnimation: false, wheelPxPerZoomLevel: 120 } : {}) }).setView([35.4, 137.5], 6);
+  L.control.zoom({ position: "topright" }).addTo(map);
+  // Maßstab (funktioniert für Leaflet und Google gleich: Web-Mercator, 256-px-Kacheln)
+  const drawScale = () => { try {
+    const c = map.getCenter(), mpp = 156543.03392 * Math.cos(c.lat * Math.PI / 180) / Math.pow(2, map.getZoom());
+    const max = 90 * mpp, p = Math.pow(10, Math.floor(Math.log10(max))), d = max / p;
+    const m = (d >= 5 ? 5 : d >= 2 ? 2 : 1) * p, el = document.getElementById("scale");
+    el.querySelector("b").textContent = m >= 1000 ? m / 1000 + " km" : m + " m";
+    el.querySelector("span").style.width = Math.round(m / mpp) + "px";
+  } catch {} };
+  map.on("zoomend", drawScale); map.on("moveend", drawScale); setTimeout(drawScale, 0);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+  // ---------- Marker
+  const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 24, removeOutsideVisibleBounds: false });  // klein: Pins (34 px) bleiben einzeln, bis sie sich zu ca. 1/3 überdecken
+  const markers = new Map();
+  let me = null, nearSpots = false;
+  // Entfernungen nur zeigen, wenn man vor Ort ist (nächster Spot < 50 km) – von zu Hause aus sind sie sinnlos
+  const here = () => !!me && nearSpots;
+  let order = [];  // aktuelle Listen-Reihenfolge (Filter + Sortierung) für ‹ › im Popup
+  // ‹ › blättern durch genau die Spots der Liste (Filter + Sortierung, „n Orte“ bzw. „n sichtbar“)
+  let navFor = null, stepping = false;
+  let sheetSnap = "peek";
+  const dist = (a, b) => {
+    const R = 6371e3, r = Math.PI / 180;
+    const dLat = (b.lat - a.lat) * r, dLng = (b.lng - a.lng) * r;
+    const h = Math.sin(dLat/2)**2 + Math.cos(a.lat*r) * Math.cos(b.lat*r) * Math.sin(dLng/2)**2;
+    return 2 * R * Math.asin(Math.sqrt(h));
+  };
+  const fmt = m => m < 1000 ? `${Math.round(m / 10) * 10} m` : `${(m / 1000).toFixed(m < 10000 ? 1 : 0)} km`;
+  // Navigation durch die Liste (‹ ›)
+  let navSnap = null;
+  const navOrder = cur => { navFor = cur; const o = navSnap && navSnap.includes(cur) ? navSnap : order;
+    return o.includes(cur) ? o.slice() : [cur, ...o]; };
 
-// Datum
-let start = store.get("jw_start") || "";
-$("#start").value = start;
-$("#start").onchange = e => { start = e.target.value; store.set("jw_start", start); drawBar(); drawDay(); };
-function dateOf(n) { if (!start) return null; const d = new Date(start + "T12:00:00"); d.setDate(d.getDate() + n - 1); return d; }
-const fmt = d => d.toLocaleDateString("de-DE", { weekday: "short", day: "numeric", month: "short" });
-function todayIndex() { if (!start) return 0; const s = new Date(start + "T12:00:00"), n = new Date(); n.setHours(12, 0, 0, 0); const i = Math.round((n - s) / 864e5) + 1; return i >= 1 && i <= T.days.length ? i : 0; }
-
-let cur = +store.get("jw_day") || todayIndex() || 1;
-function drawBar() {
-  const t = todayIndex();
-  $("#daybar").innerHTML = T.days.map(d => { const dt = dateOf(d.n);
-    return `<button class="dbtn ${d.n === cur ? "on" : ""} ${d.n === t ? "today" : ""}" data-d="${d.n}"><b>${d.n}</b><small>${dt ? fmt(dt).replace(".", "") : T.cities[d.city].name}</small></button>`; }).join("");
-  $("#daybar").querySelectorAll(".dbtn").forEach(b => b.onclick = () => go(+b.dataset.d));
-  const on = $("#daybar .on"); on && on.scrollIntoView({ inline: "center", block: "nearest" });
-}
-function go(n) { cur = n; store.set("jw_day", n); drawBar(); drawDay(); scrollTo({ top: 0 }); }
-
-function drawDay() {
-  const d = T.days.find(x => x.n === cur), c = T.cities[d.city], dt = dateOf(d.n);
-  let h = `<div class="card dayhead"><span class="city" style="background:${c.color}">${c.name}</span>
-    <h2>${esc(d.title)}</h2>${dt ? `<div class="date">Tag ${d.n} · ${fmt(dt)}</div>` : `<div class="date">Tag ${d.n}</div>`}
-    <p>${esc(d.text)}</p>${d.info.map(i => `<div class="info"><span>ℹ️</span><span>${esc(i)}</span></div>`).join("")}`;
-  if (d.hotel != null) { const ho = T.hotels[d.hotel]; h += `<div class="hotelcard"><span class="ic">🏨</span><div><b>${esc(ho.name)}</b><br><span style="color:var(--muted)">${ho.nights}</span></div></div>`; }
-  h += `</div>`;
-  if (d.stops.length) {
-    const prog = d.stops.filter(s => !T.spots[s.id].tip), tips = d.stops.filter(s => T.spots[s.id].tip);
-    let i = 0;
-    h += `<h3>Dein Tag</h3><ol class="timeline">` + prog.map(s => stop(s, ++i)).join("") + `</ol>`;
-    if (tips.length) h += `<h3>Empfehlungen on top</h3><ol class="timeline">` + tips.map(s => stop(s, "★")).join("") + `</ol>`;
-    h += `<div class="actions"><button class="btn" onclick="showOnMap(${d.n})">Tag auf der Karte</button></div>`;
+  const KIND = { sight: ["⛩️", "Sehenswert"], food: ["🍜", "Essen"], shop: ["🛍️", "Shopping"], view: ["🌇", "Aussicht"], night: ["🌃", "Abends"] };
+  // Tag(e) im Reiseplan, an denen ein Spot vorkommt (Programm) bzw. vorgeschlagen wird (Empfehlung)
+  const PLAN_AT = {}, ORD = {};
+  { let k = 0;
+    ITIN.days.forEach(d => d.items.forEach(it => { if (it.type !== "stop") return;
+      if (!(it.spot in ORD)) ORD[it.spot] = k++;
+      if (!PLAN_AT[it.spot]) PLAN_AT[it.spot] = { n: d.n, t: it.t || "", plan: !!it.plan, short: "Tag " + d.n,
+        long: (it.plan ? "★ Reiseprogramm · Tag " : "✦ Empfehlung · Tag ") + d.n + (it.t ? " · " + it.t : "") }; })); }
+  function popupHtml(p) {
+    const nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
+    const navIds = navOrder(p.id), idx = navIds.indexOf(p.id);
+    const multi = idx >= 0 && navIds.length > 1;
+    const pnav = `<div class="pnav">
+        <button class="pclose" aria-label="Schließen">✕</button>
+        ${multi ? `<button data-go="-1" aria-label="Vorheriger Spot">‹</button>` : ""}
+        ${multi ? `<span class="spotnum" title="Spots der Liste">📍 Spot ${idx + 1} von ${navIds.length}</span>` : `<span></span>`}
+        ${multi ? `<button data-go="1" aria-label="Nächster Spot">›</button>` : ""}
+        <button class="pmini" data-mini="${esc(p.id)}" aria-label="Klein – Spot auf der Karte zeigen" title="Klein – Spot auf der Karte zeigen"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2zM9 4v14M15 6v14"/></svg></button></div>`;
+    const k = KIND[p.kind] || KIND.sight;
+    return `<div class="pop">${pnav}
+      <div class="b">
+        ${PLAN_AT[p.id] ? `<div class="kick">${esc(PLAN_AT[p.id].long)}</div>` : ""}
+        <h3>${esc(p.name)}</h3>
+        <div class="mline"><span>${k[0]} ${k[1]}</span><span>${esc(p.district)}</span>${here() ? `<span>📍 ${fmt(dist(me, p))}</span>` : ""}</div>
+        <div class="status sv2" data-id="${esc(p.id)}">
+          <div class="actB">
+            <a class="go" href="${nav}" target="_blank" rel="noopener">➤ Navigieren</a>
+          </div>
+        </div>
+        ${p.note ? `<div class="note">${esc(p.note)}</div>` : ""}
+      </div></div>`;
   }
-  h += `<div class="daynav">${cur > 1 ? `<button class="btn ghost" onclick="go(${cur - 1})">← Tag ${cur - 1}</button>` : "<span></span>"}${cur < T.days.length ? `<button class="btn ghost" onclick="go(${cur + 1})">Tag ${cur + 1} →</button>` : ""}</div>`;
-  $("#day").innerHTML = h;
-}
-function stop(s, num) {
-  const sp = T.spots[s.id];
-  return `<li class="stop ${sp.tip ? "tip" : ""}"><div class="num">${num}</div><div class="stopbody">
-    ${s.time ? `<div class="time">${esc(s.time)}</div>` : ""}<h4>${esc(sp.n)}${sp.tip ? '<span class="badge">Tipp</span>' : ""}</h4>
-    <p>${esc(sp.t)}</p>${s.note ? `<p class="note">${esc(s.note)}</p>` : ""}
-    ${sp.noMap ? "" : `<div class="actions"><a class="btn ghost" target="_blank" rel="noopener" href="${gmaps(sp)}">Route in Google Maps</a></div>`}</div></li>`;
-}
+  function iconFor(p) {
+    const tag = PLAN_AT[p.id] ? `<span class="ptag">${esc(PLAN_AT[p.id].short)}</span>` : "";
+    return L.divIcon({ className: "", iconSize: [40, 40], iconAnchor: [20, 20], popupAnchor: [0, -18],
+      html: `<div class="pin jw ${p.by_claude ? "tipp" : "prog"}">${(KIND[p.kind] || KIND.sight)[0]}${tag}</div>` });
+  }
+  function addMarker(p) {
+    const m = L.marker([p.lat, p.lng], { icon: iconFor(p), title: p.name });
+    m.bindPopup(() => popupHtml(p), { maxWidth: 400, maxHeight: Math.round(window.innerHeight * 0.62),
+      autoPan: window.innerWidth >= 800,  // Handy: Spot als feste Karte, die Karte im Hintergrund bleibt stehen
+      autoPanPaddingTopLeft: [10, 78], autoPanPaddingBottomRight: [10, 90] });
+    // Beim Zoomen verschwindet der Pin evtl. in einer Gruppe – der geöffnete Spot soll trotzdem offen bleiben
+    m.off("remove", m.closePopup, m);
+    markers.set(p.id, m);
+  }
+  places.forEach(addMarker);
+  map.addLayer(cluster);
+  // ---------- Reiseroute (Tokyo → Kyoto → Osaka) und Unterkünfte
+  const ROUTE = TRIPI.route;
+  const routeLayer = L.layerGroup([
+    L.polyline(ROUTE.map(r => [r.lat, r.lng]), { color: "#4dc6d3", weight: 3, opacity: .7, dashArray: "6 8", interactive: false }),
+    ...ROUTE.map(r => L.circleMarker([r.lat, r.lng], { radius: 6, color: "#fff", weight: 2, fillColor: "#1f0e32", fillOpacity: 1 })
+      .bindTooltip(`${r.d} · ${r.name}`, { direction: "top", offset: [0, -6] })),
+  ]).addTo(map);
+  const HOTELS = TRIPI.hotels;
+  const hotelIcon = L.divIcon({ className: "", iconSize: [24, 24], iconAnchor: [12, 12], popupAnchor: [0, -12],
+    html: '<div class="hotel-pin" title="Hotel">🏨</div>' });
+  const farZoom = () => map.getContainer().classList.toggle("zoom-far", map.getZoom() < 10);
+  map.on("zoomend", farZoom); farZoom();
+  HOTELS.forEach(H => L.marker([H.lat, H.lng], { icon: hotelIcon, zIndexOffset: -500, title: H.name }).addTo(map)
+    .bindPopup(() => `<div class="pop"><div class="pnav"><button class="pclose" aria-label="Schließen">✕</button><span>Dein Hotel</span><span style="width:38px"></span></div>
+      <div class="b"><h3>🏨 ${esc(H.name)}</h3><div class="meta">${esc(H.address)}</div>
+        <div class="note">${esc(H.dates)}</div>
+        ${H.approx ? `<div class="approx">Pin ungefähr</div>` : ""}
+        <div class="links"><a href="https://www.google.com/maps/dir/?api=1&destination=${H.lat},${H.lng}" target="_blank" rel="noopener">Route</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(H.name)}" target="_blank" rel="noopener">In Google Maps</a></div>
+      </div></div>`, { maxWidth: 400, autoPan: window.innerWidth >= 800 }));
 
-// Tabs
-function tab(t) {
-  document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x.id === "t-" + t));
-  document.querySelectorAll("nav button").forEach(b => b.classList.toggle("on", b.dataset.t === t));
-  if (t === "map") { initMap(); setTimeout(() => { map.invalidateSize(); fit(); }, 50); }
-  scrollTo({ top: 0 });
-}
-document.querySelectorAll("nav button").forEach(b => b.onclick = () => tab(b.dataset.t));
-function showOnMap(n) { mapDay = n; tab("map"); drawMapFilters(); drawMarkers(); }
+  // ---------- Filter: Reiseprogramm / Empfehlungen, Stadt, Suche
+  let group = "all";  // all | prog | tips
+  const inGroup = p => group === "all" || (group === "tips") === !!p.by_claude;
+  const areaOf = p => p.district || "Sonstige";
+  let areaF = "";
+  let view = "list", inView = true;
+  const fitRegion = () => map.fitBounds(L.latLngBounds(places.map(p => [p.lat, p.lng])), { padding: [40, 40], animate: false });
+  $("#group").addEventListener("click", e => {
+    const b = e.target.closest("button[data-g]"); if (!b) return;
+    group = b.dataset.g; renderList();
+  });
+  $("#area").addEventListener("change", e => { areaF = e.target.value; renderList(); });
+  $("#view").addEventListener("click", e => {
+    const b = e.target.closest("button[data-v=area]"); if (!b) return;
+    inView = !inView; toast(inView ? "Nur Spots im Kartenausschnitt" : "Alle Spots", 1500); renderList();
+  });
+  // Der gerade geöffnete Spot bleibt sichtbar, auch wenn er nicht (mehr) zum Filter passt
+  let stickyId = null;
+  const filtersActive = () => !!(group !== "all" || areaF || $("#search").value.trim() || inView);
+  const syncFilterSw = () => { const b = $("#filterSw"); if (b) b.disabled = !filtersActive(); };
+  $("#filterSw").addEventListener("click", () => {
+    group = "all"; areaF = ""; $("#search").value = ""; inView = false; renderList();
+  });
+  const matches = p => p.id === stickyId || matchesFilter(p);
+  const matchesFilter = p => {
+    const q = $("#search").value.trim().toLowerCase();
+    const hay = [p.name, p.district, p.note, (KIND[p.kind] || [])[1]].join(" ").toLowerCase();
+    return inGroup(p) && (!q || hay.includes(q)) && (!areaF || areaOf(p) === areaF);
+  };
+  const shown = new Set();
+  // Zum Marker zoomen und Popup öffnen – erst wenn die Cluster-Neuberechnung nach dem Zoom durch ist
+  let focusToken = 0;
+  function focusMarker(m, tries = 0) {
+    if (!m) return;
+    const tok = tries ? focusToken : ++focusToken;
+    cluster.zoomToShowLayer(m, () => setTimeout(() => {
+      if (cluster.getVisibleParent(m) === m) m.openPopup();
+      else if (tries < 3) focusMarker(m, tries + 1);
+    }, 350));
+    // Rückfall: Manchmal meldet sich zoomToShowLayer nicht zurück (z.B. wenn sich die Karte nicht bewegen muss) → direkt hin und öffnen
+    if (!tries) setTimeout(() => {
+      if (m.isPopupOpen() || tok !== focusToken || (map._popup && map.hasLayer(map._popup))) return;
+      map.setView(m.getLatLng(), Math.max(map.getZoom(), 19), { animate: false });
+      setTimeout(() => {
+        const par = cluster.getVisibleParent(m);
+        if (par && par !== m && par.spiderfy) par.spiderfy();
+        setTimeout(() => { if (!m.isPopupOpen()) m.openPopup(); }, 250);
+      }, 300);
+    }, 1600);
+  }
+  // Spot öffnen, ohne die Karte zu bewegen (Ausschnitt und Liste bleiben, wie man sie eingestellt hat).
+  // Nur am Desktop, wenn der Pin außerhalb liegt, muss die Karte hin – dort hängt das Popup am Pin.
+  function openSpot(m) {
+    if (!m) return;
+    const ll = m.getLatLng();
+    if (!mobile() && !map.getBounds().contains(ll)) map.panTo(ll, { animate: false });  // nur verschieben, nie zoomen
+    if (GMAP || cluster.getVisibleParent(m) === m) m.openPopup();
+    else map.openPopup(m.getPopup(), ll);  // Pin steckt in einer Gruppe: Spot trotzdem öffnen, ohne hineinzuzoomen
+  }
+  // ‹ › im Popup: zum vorherigen/nächsten Spot der aktuellen Liste
+  function stepSpot(fromId, dir) {
+    stepping = true;  // gilt bis der nächste Spot offen ist
+    const nav = navOrder(fromId); if (nav.length < 2) return;
+    const i = nav.indexOf(fromId);
+    const next = nav[((i < 0 ? 0 : i + dir) + nav.length) % nav.length];
+    const m = markers.get(next); if (!m) return;
+    // Handy: Kopie der Karte bleibt stehen, bis der nächste Spot offen ist – kein Zu- und Aufklappen
+    const el = map._popup && map._popup.getElement();
+    if (mobile() && el && el.classList.contains("card")) {
+      document.querySelectorAll(".leaflet-popup.ghost").forEach(g => g.remove());
+      const g = el.cloneNode(true); g.classList.add("ghost"); document.body.appendChild(g);
+      setTimeout(() => { if (g.isConnected) { g.remove(); if (!map._popup || !map.hasLayer(map._popup)) document.body.classList.remove("popup-open"); } }, 4000);
+    }
+    navigating = true;
+    map.closePopup();
+    navigating = false;
+    // schon sichtbar → sofort öffnen, sonst erst hinzoomen
+    openSpot(m);
+  }
+  // Kartenausschnitt vor dem ersten geöffneten Spot merken und beim Schließen wiederherstellen
+  // (Blättern zwischen Spots darf die Karte bewegen, danach steht sie wieder wie vorher)
+  let savedView = null, navigating = false, openMini = null;
+  let backTo = null;
+  // kleine Ansicht bleibt beim Wechsel zum nächsten Pin klein (✕ beendet sie)
+  let miniUntil = 0, closedByX = false;
+  map.on("popupclose", ev => {
+    const el = ev.popup.getElement();
+    miniUntil = el && el.classList.contains("mini") && !closedByX ? Date.now() + 1500 : 0;
+    closedByX = false;
+  });  // Spot aus Reiseplan/Tour geöffnet: beim Schließen dorthin zurück (Fenster, Tag, Scrollposition)
+  const saveView = () => { if (!savedView) savedView = { c: map.getCenter(), z: map.getZoom() }; };
+  map.on("popupopen", () => { if (!navSnap) navSnap = order.slice(); saveView(); stepping = false; document.querySelectorAll(".leaflet-marker-icon.lastseen").forEach(x => x.classList.remove("lastseen")); });
+  // Spot geschlossen → Karte zeigt genau diesen Spot und hebt seinen Pin hervor (statt zum alten Ausschnitt zurückzuspringen)
+  let quietClose = false, jumpZoom = false;
+  let frontM = null;
+  function markSeen(m) {
+    document.querySelectorAll(".leaflet-marker-icon.lastseen").forEach(x => x.classList.remove("lastseen"));
+    if (frontM && frontM.setZIndexOffset) frontM.setZIndexOffset(0);
+    if (m.setZIndexOffset) { m.setZIndexOffset(5000); frontM = m; }  // liegt ein anderer Spot auf derselben Stelle: hervorgehobener nach vorn
+    const ic = m.getElement(); if (!ic) return;
+    ic.classList.add("flash", "lastseen"); setTimeout(() => ic.classList.remove("flash"), 2700);
+  }
+  // 📍 Springe zu Spot: Spot bleibt offen, schrumpft auf eine Leiste; Karte zeigt den Spot mittig im freien Bereich darunter
+  // kleine Spot-Karte klebt am Pin: jede Bildschirm-Frame an die Position des Markers setzen (Leaflet und Google gleich)
+  function anchorMini(el, m) {
+    if (!mobile()) return;
+    el.classList.add("anchor");
+    const step = () => {
+      if (!el.isConnected || !el.classList.contains("mini") || !el.classList.contains("anchor")) return;
+      const ic = m.getElement && m.getElement(), r = ic && ic.isConnected ? ic.getBoundingClientRect() : null;
+      if (r && r.width) {
+        const w = el.offsetWidth, x = r.left + r.width / 2, cx = Math.min(Math.max(x, w / 2 + 10), window.innerWidth - w / 2 - 10);
+        el.style.setProperty("--ax", cx + "px"); el.style.setProperty("--ay", r.top + "px"); el.style.setProperty("--arx", (x - cx) + "px");
+        el.style.visibility = "";
+      } else el.style.visibility = "hidden";  // Pin gerade in einer Gruppe/außerhalb: Karte kurz ausblenden
+      requestAnimationFrame(step);
+    };
+    step();
+  }
+  function miniSpot(id, keep) {
+    const el = map._popup && map._popup.getElement(), p = places.find(x => x.id === id), m = markers.get(id);
+    if (!el || !p || !m) return;
+    el.classList.add("mini"); document.body.classList.add("popup-mini"); setPfull(el); anchorMini(el, m);
+    if (keep) { savedView = null; return; }  // Wechsel von Pin zu Pin: Karte bleibt, wo sie ist
+    savedView = null;  // nach dem Schließen nicht zum alten Ausschnitt zurück – man wollte ja hierher
+    if (mobile()) setSnap("peek");
+    const center = z => {  // Spot mittig in den freien Bereich unter der kleinen Leiste
+      map.setView([p.lat, p.lng], z, { animate: false });
+      requestAnimationFrame(() => {
+        const r = map.getContainer().getBoundingClientRect();
+        if (mobile()) {  // Pin so weit unten, dass die Karte darüber Platz hat
+          const want = Math.min($("#sheet").getBoundingClientRect().top - 50, $("#group").getBoundingClientRect().bottom + el.offsetHeight + 40) - r.top;
+          map.panBy([0, r.height / 2 - want], { animate: false }); return;
+        }
+        const top = r.top + 0.35 * r.height - r.top, bot = r.bottom - r.top;
+        map.panBy([0, r.height / 2 - (top + bot) / 2], { animate: false });
+      });
+    };
+    const go = () => {
+      center(Math.max(map.getZoom(), 17));
+      // steckt der Pin noch in einer Gruppe (z.B. zwei Spots am selben Haus), weiter hineinzoomen, bis er einzeln ist
+      setTimeout(() => {
+        const vp = cluster.getVisibleParent(m);
+        if (GMAP && vp && vp !== m) { center(19); setTimeout(() => markSeen(m), 800); }
+        else markSeen(m);
+      }, 800);
+    };
+    if (GMAP || cluster.getVisibleParent(m) === m) go(); else cluster.zoomToShowLayer(m, go);
+  }
+  function showSpotOnMap(id, zoomIn) {
+    const p = places.find(x => x.id === id), m = markers.get(id);
+    if (!p || !m || !shown.has(id)) return;  // z.B. gerade gelöscht oder ausgefiltert
+    if (zoomIn && mobile()) setSnap("peek");
+    cluster.zoomToShowLayer(m, () => {
+      if (zoomIn) map.setView([p.lat, p.lng], Math.max(map.getZoom(), 17), { animate: false });
+      else map.panTo([p.lat, p.lng]);
+      setTimeout(() => markSeen(m), 450);
+    });
+  }
+  map.on("popupclose", ev => {
+    if (!navigating) { navFor = null; stepping = false; navSnap = null; }
+    if (navigating) return;
+    const sv = savedView; savedView = null;
+    const zoomIn = jumpZoom; jumpZoom = false;
+    if (quietClose) return;
+    const box = ev.popup.getElement() && ev.popup.getElement().querySelector(".status");
+    const id = box && box.dataset.id;
+    setTimeout(() => {  // nach den übrigen Schließen-Handlern
+      if (zoomIn) return showSpotOnMap(id, true);
+      if (sv) map.setView(sv.c, sv.z, { animate: false });  // Karte steht wieder genau wie vor dem Öffnen
+      const p = id && places.find(x => x.id === id), m = id && markers.get(id);
+      if (!p || !m || !shown.has(id)) return renderList();
+      if (!visibleBounds().contains([p.lat, p.lng])) return showSpotOnMap(id, false);
+      setTimeout(() => { const vp = cluster.getVisibleParent(m); markSeen(vp && vp !== m ? vp : m); renderList(); }, 250);
+    }, 0);
+  });
+  // Popup so hoch wie der freie Platz zwischen Bereichs-Umschalter oben und Liste unten
+  // Spot-Ansicht auf dem Handy: „medium“ (Karte unter der Leiste, Standard) oder „full“ (Vollbild-Story); „klein“ = miniSpot
+  let spotView = "medium"; try { spotView = jwLS.getItem("spotView") || "medium"; } catch {}
+  const ICO = d => `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg>`;
+  function applyCardMode(popup, init) {
+    const el = popup && popup.getElement(); if (!el || !mobile()) return;
+    const full = spotView === "full", sp = popupSpace();
+    el.classList.toggle("full", full); document.body.classList.toggle("popup-full", full);
+    document.documentElement.style.setProperty("--cardTop", (full ? 0 : sp.top) + "px");
+    popup.options.maxHeight = full ? window.innerHeight : sp.maxH;
+    if (init) popup.update();  // beim Öffnen; später nicht neu aufbauen (sonst gehen die Knöpfe verloren)
+    else { const c = el.querySelector(".leaflet-popup-content"); c.style.height = ""; c.style.maxHeight = full ? "" : sp.maxH + "px"; c.scrollTop = 0; }
+    setPfull(el);
+  }
+  function setPfull(el) {  // Symbol zeigt die nächste Größe: Mittel → ⤢ Vollbild, Vollbild → ⤡ Klein, Klein → ⤢ Mittel
+    const b = el.querySelector(".pfull"); if (!b) return;
+    const shrink = el.classList.contains("full") && !el.classList.contains("mini");
+    b.innerHTML = shrink ? ICO("M4 14h6v6M20 10h-6V4M14 10l7-7M3 21l7-7") : ICO("M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7");
+    b.title = el.classList.contains("mini") ? "Mittel" : shrink ? "Klein" : "Vollbild";
+  }
+  function popupSpace() {
+    const top = $("#group").getBoundingClientRect().bottom + 8;
+    const bottom = window.innerHeight - (mobile() ? parseFloat(getComputedStyle(sheet).paddingBottom) || 0 : 0);
+    return { top, bottomPad: window.innerHeight - bottom + 8, maxH: Math.max(260, Math.round(bottom - top - 40)) };
+  }
+  // Zoom-/Ebenen-Knöpfe würden das breite Popup auf dem Handy verdecken → solange ausblenden
+  // iOS schiebt die Seite manchmal hoch (scrollIntoView, Fokus, Überscrollen) – alles ist fixiert, also sofort zurück auf 0
+  const unshift = () => { if (window.scrollY || window.scrollX || document.documentElement.scrollTop || document.body.scrollTop) { window.scrollTo(0, 0); document.documentElement.scrollTop = 0; document.body.scrollTop = 0; } };
+  window.addEventListener("scroll", unshift, { passive: true });
+  if (window.visualViewport) window.visualViewport.addEventListener("resize", () => setTimeout(unshift, 50));
+  map.on("popupopen", ev => {
+    document.body.classList.add("popup-open");
+    const box = ev.popup.getElement().querySelector(".status"); stickyId = box ? box.dataset.id : null;
+  });
+  map.on("popupclose", ev => {
+    if (!navigating) document.body.classList.remove("popup-open", "popup-mini", "popup-full");
+    const box = ev.popup.getElement() && ev.popup.getElement().querySelector(".status");
+    if (box && box.dataset.id === stickyId) {
+      const p = places.find(x => x.id === stickyId); stickyId = null;
+      if (p && !matchesFilter(p)) setTimeout(renderList, 0);  // jetzt erst aus der gefilterten Liste nehmen
+    }
+  });
+  map.on("popupopen", ev => {
+    const sp = popupSpace(), o = ev.popup.options;
+    if (mobile()) {
+      // feste Karte über der Karte: aus dem Karten-Pane lösen, damit Verschieben/Zoomen sie nicht bewegt
+      const el = ev.popup.getElement();
+      el.classList.add("card"); document.body.appendChild(el);
+      applyCardMode(ev.popup, true);
+      document.querySelectorAll(".leaflet-popup.ghost").forEach(g => setTimeout(() => g.remove(), 120));
+      let keep = false;
+      if (!openMini && Date.now() < miniUntil) { const box = el.querySelector(".status"); if (box) { openMini = box.dataset.id; keep = true; } }  // vorher klein → wieder klein
+      miniUntil = 0;
+      if (openMini) { const id = openMini; openMini = null; if (keep) miniSpot(id, true); else setTimeout(() => miniSpot(id), 0); }  // aus dem Reiseplan: gleich klein am Pin
+      return;
+    }
+    const deskH = Math.min(sp.maxH, Math.round(window.innerHeight * 0.8));  // Desktop: Foto + Name + Status sichtbar (Foto max. 42vh)
+    if (o.maxHeight !== deskH || o.autoPanPaddingTopLeft[1] !== sp.top) {
+      o.maxHeight = deskH; o.autoPanPaddingTopLeft = [10, sp.top]; o.autoPanPaddingBottomRight = [10, sp.bottomPad];
+      ev.popup.update();
+      if (ev.popup._adjustPan) ev.popup._adjustPan();
+    }
+  });
+  map.on("popupopen", ev => {
+    const el = ev.popup.getElement(), box = el.querySelector(".status");
+    const id = box && box.dataset.id;
+    // Wischen über dem Spot: links = nächster, rechts = vorheriger (Galerie-Leiste scrollt weiter normal)
+    const pop = el.querySelector(".pop");
+    if (pop && id && order.length > 1) {
+      let t0 = null;
+      pop.addEventListener("touchstart", e => {
+        if (e.touches.length !== 1 || e.target.closest(".gal, .galgrid, .hstrip, button, input, a")) { t0 = null; return; }
+        t0 = { x: e.touches[0].clientX, y: e.touches[0].clientY, t: Date.now() };
+      }, { passive: true });
+      pop.addEventListener("touchmove", e => {
+        if (!t0) return;
+        const dx = e.touches[0].clientX - t0.x, dy = e.touches[0].clientY - t0.y;
+        if (Math.abs(dx) > Math.abs(dy) * 1.2 && Math.abs(dx) > 10) {
+          pop.style.transition = "none"; pop.style.transform = `translateX(${dx * 0.6}px)`; pop.style.opacity = String(1 - Math.min(Math.abs(dx) / 600, .4));
+        }
+      }, { passive: true });
+      pop.addEventListener("touchend", e => {
+        if (!t0) return;
+        const dx = e.changedTouches[0].clientX - t0.x, dy = e.changedTouches[0].clientY - t0.y; t0 = null;
+        pop.style.transition = "transform .15s, opacity .15s"; pop.style.transform = ""; pop.style.opacity = "";
+        if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+          pop.dataset.swiped = "1"; setTimeout(() => delete pop.dataset.swiped, 400);  // Tipp-Aktion (Vollbild) unterdrücken
+          stepSpot(id, dx < 0 ? 1 : -1);
+        }
+      });
+    }
+    // Großes Foto: seitlich wischen → Zähler und Quellenangabe folgen dem sichtbaren Bild
+    const hs = el.querySelector(".hstrip");
+    if (hs) {
+      const pcb = el.querySelector(".hero .pcount b"), cred = el.querySelector(".hcred"), imgs = hs.querySelectorAll("img");
+      const pa = el.querySelectorAll(".hero .parrows button");
+      pa.forEach(b => b.onclick = e => {
+        e.stopPropagation();
+        const i = Math.max(0, Math.min(imgs.length - 1, Math.round(hs.scrollLeft / (hs.clientWidth || 1)) + +b.dataset.ph));
+        hs.scrollTo({ left: i * hs.clientWidth, behavior: "smooth" });
+      });
+      let cur = -1;
+      const upd = () => {
+        const i = Math.max(0, Math.min(imgs.length - 1, Math.round(hs.scrollLeft / (hs.clientWidth || 1))));
+        if (i === cur) return; cur = i; const im = imgs[i];
+        [i + 1, i + 2, i + 3, i - 1].forEach(k => { if (imgs[k] && imgs[k].loading === "lazy") imgs[k].loading = "eager"; });  // die nächsten Fotos schon laden
+        if (pcb) pcb.textContent = i + 1;
+        el.querySelectorAll(".pbars i").forEach((b, k) => b.classList.toggle("on", k === i));
+        if (pa.length) { pa[0].disabled = i === 0; pa[1].disabled = i === imgs.length - 1; }
+        if (cred) cred.innerHTML = `Foto: <a href="${esc(im.dataset.href)}" target="_blank" rel="noopener">${esc(im.dataset.cr)}</a>` +
+          (im.dataset.post ? ` · <a href="${esc(im.dataset.post)}" target="_blank" rel="noopener">Post ↗</a>` : "");
+      };
+      hs.addEventListener("scroll", upd, { passive: true }); upd();
+    }
+    el.querySelectorAll("button[data-go]").forEach(b => b.onclick = e => { e.stopPropagation(); stepSpot(id, +b.dataset.go); });
+    const pc = el.querySelector(".pnav .pclose"); if (pc) pc.onclick = e => { e.stopPropagation(); closedByX = true; map.closePopup(); };
+    // 📍 Springe zu Spot: Spot schließen, hinzoomen, Liste einklappen, Pin hervorheben
+    const sm = el.querySelector(".showmap"); if (sm) sm.onclick = e => { e.stopPropagation(); miniSpot(sm.dataset.show); };
+    const pm = el.querySelector(".pmini"); if (pm) pm.onclick = e => { e.stopPropagation(); el.classList.remove("full"); document.body.classList.remove("popup-full"); miniSpot(pm.dataset.mini); };
+    // Größe umschalten im Kreis: Mittel → Vollbild → Klein → Mittel
+    const pf = el.querySelector(".pfull"); if (pf) pf.onclick = e => { e.stopPropagation();
+      if (!el.classList.contains("mini") && spotView === "full") { el.classList.remove("full"); document.body.classList.remove("popup-full"); miniSpot(id); setPfull(el); return; }
+      spotView = el.classList.contains("mini") ? "medium" : "full"; try { jwLS.setItem("spotView", spotView); } catch {}
+      el.classList.remove("mini", "anchor"); el.style.visibility = ""; document.body.classList.remove("popup-mini"); applyCardMode(ev.popup); };
+    // Vollbild: beim Scrollen bekommt die Kopfleiste einen Hintergrund (sonst liegt Text unter den Knöpfen)
+    const pc2 = el.querySelector(".leaflet-popup-content"), hero2 = el.querySelector(".hero");
+    if (pc2) pc2.addEventListener("scroll", () => el.classList.toggle("scrolled", pc2.scrollTop > (hero2 ? hero2.offsetHeight - 90 : 10)), { passive: true });
+    // verkleinerten Spot antippen → wieder groß
+    el.addEventListener("click", e => {
+      if (!el.classList.contains("mini") || e.target.closest("button, a")) return;
+      el.classList.remove("mini", "anchor"); el.style.visibility = ""; document.body.classList.remove("popup-mini"); e.stopPropagation(); applyCardMode(map._popup);
+    });
+  });
+  document.addEventListener("keydown", e => {
+    if (!["ArrowLeft", "ArrowRight"].includes(e.key) || e.target.closest("input, textarea, select")) return;
+    const box = document.querySelector(".leaflet-popup .status"); if (!box) return;
+    stepSpot(box.dataset.id, e.key === "ArrowRight" ? 1 : -1);
+  });
+  // ---------- Reiseplan (data/itinerary.js aus trip.json): Tage mit Karten je Stopp und Hotel – und Tagesroute auf der Karte
+  const itinBtn = $("#itinBtn"); itinBtn.hidden = !ITIN.days.length;
+  const WD = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"];
+  // Abflugdatum (vom Kunden eingetragen): macht aus „Tag 3“ ein echtes Datum und markiert den heutigen Tag
+  let START = ""; try { START = jwLS.getItem("jwStart") || ""; } catch {}
+  const realDate = d => START ? new Date(Date.parse(START + "T12:00:00Z") + (d.n - 1) * 864e5) : null;
+  const dayLabel = d => { const x = realDate(d); return x ? `${WD[x.getUTCDay()]} ${x.getUTCDate()}.${x.getUTCMonth() + 1}.` : `Tag ${d.n}`; };
+  const dayParts = d => { const x = realDate(d); return x ? [WD[x.getUTCDay()], x.getUTCDate(), (x.getUTCMonth() + 1) + "."] : ["Tag", d.n, ((TRIPI.cities[d.city] || {}).name || "").slice(0, 6)]; };
+  const dayKey = n => "d" + String(n).padStart(2, "0");
+  const todayKey = () => { if (!START) return "";
+    const n = Math.round((Date.parse(new Date().toISOString().slice(0, 10) + "T12:00:00Z") - Date.parse(START + "T12:00:00Z")) / 864e5) + 1;
+    return n < 1 ? "d00" : dayKey(Math.min(n, 99)); };
+  let today = todayKey();
+  // zuletzt gewählter Tag bleibt (auch nach Neustart); sonst heute bzw. Tag 1
+  let itinDay = (() => { let d = null; try { d = jwLS.getItem("itinDay"); } catch {} return d && ITIN.days.some(x => x.date === d) ? d
+    : (ITIN.days.find(d => d.date >= today) || ITIN.days[ITIN.days.length - 1] || {}).date; })();
+  const setItinDay = d => { itinDay = d; try { jwLS.setItem("itinDay", d); } catch {} };
+  let itinShown = null;
+  window._itinShown = null;
+  // Empfehlungen einplanen: Auswahl je Tag (nur auf diesem Gerät)
+  let choiceLocal = {};
+  try { choiceLocal = JSON.parse(jwLS.getItem("itinChoice") || "{}"); } catch {}
+  const optKey = it => it.spot || it.title || "";
+  const stopKey = it => it.spot || it.title || it.name || "";
+  const chosenOf = d => { const c = choiceLocal[d.date]; return new Set(c ? c.opt || [] : d.items.filter(it => it.opt && it.sel).map(optKey)); };
+  const offOf = d => new Set((choiceLocal[d.date] || {}).off || []);  // abgewählte feste Stopps
+  function putChoice(d, opt, off) {
+    choiceLocal[d.date] = { opt: [...opt], off: [...off] }; try { jwLS.setItem("itinChoice", JSON.stringify(choiceLocal)); } catch {}
+  }
+  // Tagesablauf aus festen + eingeplanten Empfehlungen
+  function composeDay(d) {
+    const chosen = chosenOf(d), off = offOf(d);
+    return { active: d.items.filter(it => it.opt ? chosen.has(optKey(it)) : !(it.type === "stop" && off.has(stopKey(it)))) };
+  }
+  const dayItems = d => composeDay(d).active;
+  const spotOf = id => places.find(p => p.id === id);
+  const shortName = n => String(n).replace(/\s*[(–].*$/, "").trim() || n;
+  const timeHtml = t => t ? esc(t) : "";
+  function stopCard(it) {
+    const p = spotOf(it.spot); if (!p) return "";
+    const k = KIND[p.kind] || KIND.sight;
+    return `<div class="icard"><div class="ib"><h3>${k[0]} ${esc(p.name)}</h3>
+        <div class="ibadges">${it.plan ? `<span class="b-plan">★ Reiseprogramm</span>` : ""}${it.opt ? `<span class="b-opt">✦ Empfehlung</span>` : ""}<span class="b-ig">${k[1]}</span></div>
+        <p>${esc(it.text || p.note || "")}</p>
+        ${it.text && p.note ? `<details class="itip"><summary>Mehr zum Ort</summary>${esc(p.note)}</details>` : ""}
+        <div class="iact"><button data-spot="${esc(p.id)}">📍 Auf der Karte</button>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}" target="_blank" rel="noopener">Route ↗</a></div></div></div>`;
+  }
+  function hotelCard(it) {
+    const H = ITIN.hotels[it.name] || {}, ph = H.photos || [];
+    return `<div class="icard">
+      ${ph.length ? `<div class="ihero"><img src="${esc(ph[0])}" alt="" loading="lazy"></div>` : ""}
+      <div class="ib"><h3>🏨 ${esc(H.name || it.name)}</h3>
+        <div class="ibadges"><span class="b-hotel">${esc(it.label || "Unterkunft")}</span></div>
+        <p>${esc(H.dates || "")}</p>
+        <p class="itip">${esc(H.address || "")}${H.approx ? " · Pin ungefähr" : ""}</p>
+        <div class="iact">${H.lat ? `<button data-ll="${H.lat},${H.lng}">📍 Auf der Karte</button><a href="https://www.google.com/maps/dir/?api=1&destination=${H.lat},${H.lng}" target="_blank" rel="noopener">Route ↗</a>` : ""}</div></div></div>`;
+  }
+  function renderItin() {
+    const d = ITIN.days.find(x => x.date === itinDay) || ITIN.days[0]; if (!d) return;
+    $("#itinDays").innerHTML = ITIN.days.map(x => { const [w, dm, mo] = dayParts(x);
+      return `<button data-day="${x.date}" class="${x.date === d.date ? "on" : ""}${x.date === today ? " today" : ""}">${w}<b>${dm}</b>${mo}</button>`; }).join("");
+    const items = composeDay(d).active, nOpt = d.items.filter(it => it.opt).length, nSel = chosenOf(d).size, nOff = offOf(d).size;
+    $("#itinOpt").innerHTML = `<button data-o="0" class="on">★ Reiseprogramm${nSel ? ` (+${nSel})` : ""}</button>` +
+      (nOpt ? `<button data-o="1">✦ Empfehlungen wählen (${nSel}/${nOpt})${nOff ? ` · ${nOff} abgewählt` : ""}</button>` : "");
+    const body = items.map(it => {
+      const card = it.type === "stop" ? stopCard(it) : it.type === "hotel" ? hotelCard(it)
+        : `<div class="icard"><div class="iinfo"><span class="iic">${esc(it.icon || "•")}</span><div>${it.title ? `<h3>${esc(it.title)}</h3>` : ""}${it.text ? `<p>${esc(it.text)}</p>` : ""}</div></div></div>`;
+      return `<div class="ic${it.opt ? " opt sel" : ""}"><div class="itm">${timeHtml(it.t)}</div><div class="icw">${card}</div></div>`;
+    }).join("");
+    const on = itinShown === d.date, hasPts = items.some(it => it.lat);
+    $("#itinBody").innerHTML = `<div class="idh"><h2>${dayLabel(d)} · ${esc(d.title)}</h2>
+      <p class="idtext">${esc(d.text)}</p>
+      ${hasPts ? `<button class="imapb" data-map="${d.date}">${on ? "✕ Tagesroute ausblenden" : "🗺 Tagesroute auf der Karte"}</button>` : ""}</div>` + body;
+    const db = $("#itinDays").querySelector("button.on"); if (db) db.scrollIntoView({ inline: "center", block: "nearest" });
+  }
+  // Tagesroute: nummerierte Stopps, gestrichelt verbunden
+  let itinLayer = null;
+  function drawItin(fit) {
+    if (itinLayer) { itinLayer.remove(); itinLayer = null; }
+    const d = itinShown && ITIN.days.find(x => x.date === itinShown);
+    itinBtn.classList.toggle("on", !!d);
+    if (!d) return;
+    const pts = dayItems(d).filter(it => it.lat), parts = [], seen = new Map();
+    if (pts.length > 1) parts.push(L.polyline(pts.map(x => [x.lat, x.lng]), { color: "#2a9aa8", weight: 3, opacity: .75, dashArray: "3 8", interactive: false }));
+    let n = 0;
+    pts.forEach(it => { delete it._n; });
+    pts.forEach(it => {
+      const key = it.lat.toFixed(4) + "," + it.lng.toFixed(4), name = it.type === "stop" ? shortName((spotOf(it.spot) || {}).name || "") : it.type === "hotel" ? "🏨 " + shortName((ITIN.hotels[it.name] || {}).name || it.name) : it.title || "";
+      const label = `${it.t ? esc(it.t) + " " : ""}${esc(name)}`;
+      if (seen.has(key)) { seen.get(key).push(label); return; }
+      seen.set(key, [label]); it._n = ++n; it._key = key;
+    });
+    pts.filter(it => it._n).forEach(it => parts.push(L.marker([it.lat, it.lng], { interactive: false, zIndexOffset: 2000, icon: L.divIcon({ className: "", iconSize: [0, 0], iconAnchor: [0, 0],
+      html: `<div class="tour-stop"><b style="background:#2a9aa8">${it._n}</b><span>${seen.get(it._key).join(" · ")}</span></div>` }) })));
+    itinLayer = L.layerGroup(parts).addTo(map);
+    if (fit && pts.length) { if (mobile()) setSnap("peek"); map.fitBounds(L.latLngBounds(pts.map(x => [x.lat, x.lng])), { padding: [50, 50], animate: false }); }
+  }
+  function showItinDay(date, fit) { itinShown = date; window._itinShown = date; if (date) setItinDay(date); drawItin(fit); }
+  itinBtn.onclick = e => { e.stopPropagation(); renderItin(); $("#itin").hidden = false; $("#itinBody").scrollTop = 0; };
+  $("#itinClose").onclick = () => { $("#itin").hidden = true; };
+  $("#itinOpt").addEventListener("click", e => { const b = e.target.closest("button[data-o]"); if (!b || b.dataset.o !== "1") return; openOptPick(); });
+  // Auswahl der Empfehlungen: Liste mit Name, Zeit und Haken → Übernehmen (feste Stopps lassen sich hier auch abwählen)
+  let pickState = null;
+  function openOptPick() {
+    const d = ITIN.days.find(x => x.date === itinDay); if (!d) return;
+    const opts = d.items.filter(it => it.type === "stop"), ch = chosenOf(d), off = offOf(d), box = $("#tourPick");
+    const row = it => { const p = spotOf(it.spot), k = it.opt ? optKey(it) : stopKey(it), on = it.opt ? ch.has(k) : !off.has(k);
+      const tag = it.opt ? `<span class="b-opt" style="font-size:11px;padding:1px 7px;border-radius:999px;margin-left:6px">✦ Empfehlung</span>` : `<span class="b-plan" style="font-size:11px;padding:1px 7px;border-radius:999px;margin-left:6px">★ Programm</span>`;
+      const ic = `<span style="width:48px;height:48px;border-radius:50%;display:grid;place-items:center;flex:none;background:var(--soft);font-size:22px">${(KIND[p.kind] || KIND.sight)[0]}</span>`;
+      const go = `<span class="pkgo"><button type="button" data-pkmap="${esc(p.id)}" title="Klein auf der Karte zeigen">Karte</button><button type="button" data-pkbig="${esc(p.id)}" title="Spot groß öffnen">Spot ›</button></span>`;
+      return `<label class="tprow${it.opt ? " pkopt" : " pkplan"}" style="gap:12px"><input type="checkbox" data-k="${esc(k)}" data-opt="${it.opt ? 1 : 0}" ${on ? "checked" : ""}>${ic}
+        <span style="min-width:0;flex:1"><b style="display:block">${esc(shortName(p.name))}${tag}</b><small>${esc(it.t || "")}</small>${go}</span></label>`; };
+    box.innerHTML = `<div class="tpcard"><div class="tphead"><b>Spots · ${esc(dayLabel(d))}</b><button class="tpclose" aria-label="Schließen">✕</button></div>
+      ${opts.map(row).join("")}<button class="xa-save" data-ok>Übernehmen</button></div>`;
+    box.style.zIndex = 3500; box.hidden = false;
+    const close = () => { box.hidden = true; box.style.zIndex = ""; };
+    // Auswahl gilt auch beim Schließen mit ✕ oder Tipp daneben – nicht nur über „Übernehmen“
+    const apply = () => {
+      const inp = [...box.querySelectorAll("input[data-k]")];
+      const sel = inp.filter(x => x.dataset.opt === "1" && x.checked).map(x => x.dataset.k);
+      const offN = inp.filter(x => x.dataset.opt === "0" && !x.checked).map(x => x.dataset.k);
+      putChoice(d, sel, offN); close(); renderItin(); drawItin(false);
+    };
+    box.querySelector(".tpclose").onclick = apply;
+    box.onclick = e => { if (e.target === box) apply(); };
+    // zum Spot: Auswahl bleibt erhalten (wird beim Zurückkommen wieder angezeigt)
+    box.querySelectorAll("[data-pkmap],[data-pkbig]").forEach(b => b.onclick = e => { e.preventDefault(); e.stopPropagation();
+      pickState = [...box.querySelectorAll("input[data-k]")].map(x => [x.dataset.k, x.checked]);
+      close(); itinOpenSpot(b.dataset.pkmap || b.dataset.pkbig, null, !!b.dataset.pkbig, true); });
+    if (pickState) { pickState.forEach(([k, c]) => { const x = box.querySelector(`input[data-k="${CSS.escape(k)}"]`); if (x) x.checked = c; }); pickState = null; }
+    box.querySelector("[data-ok]").onclick = apply;
+  }
+  $("#itinDays").addEventListener("click", e => {
+    const b = e.target.closest("button[data-day]"); if (!b) return; setItinDay(b.dataset.day); renderItin(); $("#itinBody").scrollTop = 0; });
+  $("#itinBody").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.map) { showItinDay(itinShown === b.dataset.map ? null : b.dataset.map, true); if (itinShown) $("#itin").hidden = true; else renderItin(); return; }
+    if (b.dataset.spot || b.dataset.ll) itinOpenSpot(b.dataset.spot, b.dataset.ll);
+  });
+  // Spot aus dem Reiseplan öffnen: klein an der Karte (Standard) oder groß; „zurück“ führt wieder in den Plan (bzw. die Spot-Auswahl)
+  function itinOpenSpot(id, ll, big, pick) {
+    if (itinShown !== itinDay) showItinDay(itinDay, false);
+    $("#itin").hidden = true; if (mobile()) setSnap("peek");
+    const p = id && spotOf(id), [la, ln] = p ? [p.lat, p.lng] : ll.split(",").map(Number);
+    map.setView([la, ln], Math.max(map.getZoom(), 16), { animate: false });
+    if (p) { if (!shown.has(p.id)) { stickyId = p.id; renderList(); }
+      const m = markers.get(p.id); if (m) { backTo = { dlg: "plan", day: itinDay, scroll: $("#itinBody").scrollTop, pick: !!pick };
+        setTimeout(() => cluster.zoomToShowLayer(m, () => { openMini = big ? null : p.id; openSpot(m); }), 350); } }
+    dockSync();
+  }
+  drawItin(false);
 
-// Karte
-let map, layer, mapDay = 0, showTips = true;
-function initMap() {
-  if (map) return;
-  map = L.map("map", { zoomControl: true }).setView([35.4, 137.5], 6);
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "© OpenStreetMap" }).addTo(map);
-  layer = L.layerGroup().addTo(map);
-  drawMapFilters(); drawMarkers();
-}
-function drawMapFilters() {
-  const opts = [[0, "Alle Tage"], ...T.days.filter(d => d.stops.length).map(d => [d.n, "Tag " + d.n])];
-  $("#mapfilters").innerHTML = opts.map(([v, l]) => `<button class="pill ${v === mapDay ? "on" : ""}" data-v="${v}">${l}</button>`).join("") +
-    `<button class="pill ${showTips ? "on" : ""}" data-tip="1">★ Empfehlungen</button>`;
-  $("#mapfilters").querySelectorAll(".pill").forEach(b => b.onclick = () => { if (b.dataset.tip) showTips = !showTips; else mapDay = +b.dataset.v; drawMapFilters(); drawMarkers(); fit(); });
-}
-let pts = [];
-function pin(cls, color, label) { return L.divIcon({ className: "", iconSize: [28, 28], iconAnchor: [14, 28], popupAnchor: [0, -26], html: `<div class="pin ${cls}" style="background:${color}"><i>${label}</i></div>` }); }
-function popup(sp, extra) { return `<b>${esc(sp.n)}</b>${sp.tip ? " ⭐" : ""}<br>${extra || ""}${esc(sp.t)}<br><a target="_blank" rel="noopener" href="${gmaps(sp)}">Route in Google Maps</a>`; }
-function drawMarkers() {
-  layer.clearLayers(); pts = [];
-  const add = (lat, lng, icon, html) => { pts.push([lat, lng]); L.marker([lat, lng], { icon }).bindPopup(html).addTo(layer); };
-  const days = T.days.filter(d => mapDay === 0 || d.n === mapDay);
-  const seen = new Set();
-  days.forEach(d => { let i = 0; d.stops.forEach(s => { const sp = T.spots[s.id];
-    if (sp.noMap) return;
-    if (sp.tip) { if (!showTips || seen.has(s.id)) return; seen.add(s.id); add(sp.lat, sp.lng, pin("tip", "", "★"), popup(sp, `<small>Tag ${d.n} · Empfehlung</small><br>`)); return; }
-    i++; add(sp.lat, sp.lng, pin("", T.cities[sp.city].color, mapDay ? i : d.n), popup(sp, `<small>Tag ${d.n}</small><br>`)); }); });
-  T.hotels.forEach(h => { const inDay = mapDay === 0 || T.days.find(d => d.n === mapDay).hotel === T.hotels.indexOf(h);
-    if (inDay) add(h.lat, h.lng, pin("hotel", T.cities[h.city].color, "🏨"), `<b>${esc(h.name)}</b><br><small>${h.nights} · ungefähre Lage</small>`); });
-}
-function fit() { if (map && pts.length) map.fitBounds(pts, { padding: [30, 30], maxZoom: 15 }); }
+  // ---------- Reise-Infos (Fenster „Infos“): Abflugdatum, Leistungen, Hotels, optionale Erlebnisse, Support
+  const DLG = { plan: "#itin", set: "#settings" };
+  function renderInfo() {
+    const S = TRIPI.support, tel = S.phone.replace(/\s/g, "");
+    $("#setBody").innerHTML = `
+      <div class="sgrp">Deine Reise</div><div class="scard"><div class="srow"><b>${esc(TRIPI.title)} · ${esc(TRIPI.subtitle)}</b>
+        <small>${TRIPI.nights} Übernachtungen · Flug inkl. Gepäck · Shinkansen</small></div>
+        <div class="srow"><b>Abflugdatum</b><div class="seg2"><input type="date" id="jwStart" value="${esc(START)}" aria-label="Abflugdatum"></div>
+        <small>Trag dein Abflugdatum ein: Dann zeigt der Reiseplan echte Tage und markiert „heute“. Bleibt nur auf diesem Gerät.</small></div></div>
+      <div class="sgrp">Inklusive Leistungen</div><div class="scard"><ul class="jwlist">${TRIPI.included.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+      <div class="sgrp">Deine Unterkünfte</div><div class="scard">${HOTELS.map(h => `<div class="srow"><b>🏨 ${esc(h.name)}</b><small>${esc(h.address)} · ${esc(h.dates)}</small>
+        <div class="seg2"><button data-hotel="${h.lat},${h.lng}">📍 Auf der Karte</button><a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=${h.lat},${h.lng}" target="_blank" rel="noopener">Route ↗</a></div></div>`).join("")}</div>
+      <div class="sgrp">Optional buchbar bei journaway</div><div class="scard"><ul class="jwlist">${TRIPI.optional.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+      <div class="sgrp">24/7-Support während der Reise</div><div class="scard"><div class="srow"><b>Wir sind für dich da</b>
+        <div class="seg2"><a class="btn pri" href="${esc(S.wa)}" target="_blank" rel="noopener">WhatsApp öffnen</a><a class="btn" href="tel:${esc(tel)}">${esc(S.phone)}</a><a class="btn" href="mailto:${esc(S.mail)}">${esc(S.mail)}</a></div>
+        <small>Zeiten und Abläufe können sich vor Ort ändern. Nicht inkludierte Eintritte zahlst du vor Ort.</small></div></div>`;
+  }
+  $("#setBody").addEventListener("change", e => {
+    if (e.target.id !== "jwStart") return;
+    START = e.target.value; try { START ? jwLS.setItem("jwStart", START) : jwLS.removeItem("jwStart"); } catch {}
+    today = todayKey(); renderItin();
+    toast(START ? "Abflugdatum gespeichert" : "Datum entfernt", 1800);
+  });
+  $("#setBody").addEventListener("click", e => {
+    const b = e.target.closest("button[data-hotel]"); if (!b) return;
+    const [la, ln] = b.dataset.hotel.split(",").map(Number); $("#settings").hidden = true; if (mobile()) setSnap("peek");
+    map.setView([la, ln], 16, { animate: false }); dockSync();
+  });
+  $("#setClose").onclick = () => { $("#settings").hidden = true; };
+  const dockSync = () => {
+    const open = Object.keys(DLG).find(k => !$(DLG[k]).hidden);
+    $("#dock").querySelectorAll("button[data-d]").forEach(b => { const d = b.dataset.d; b.classList.toggle("on", d === "map" ? !open : d === open); });
+    document.body.classList.toggle("dock-dlg", !!open && mobile());  // Fenster offen: Leiste weg, nur Griff
+    document.body.classList.toggle("dock-off", !$("#tourPick").hidden && mobile());
+    $("#dock [data-d=plan]").classList.toggle("dot", !!itinShown);
+  };
+  $("#dock").addEventListener("click", e => {
+    const b = e.target.closest("button[data-d]"); if (!b) return; e.stopPropagation();
+    const d = b.dataset.d, wasOpen = DLG[d] && !$(DLG[d]).hidden;
+    Object.values(DLG).forEach(sel => { $(sel).hidden = true; });
+    backTo = null; map.closePopup();
+    if (d === "plan" && !wasOpen) itinBtn.onclick(e);
+    else if (d === "set" && !wasOpen) { renderInfo(); $("#settings").hidden = false; }
+    dockSync();
+  });
+  // Spot geschlossen, der aus dem Reiseplan kam → zurück in dieses Fenster (gleicher Tag, gleiche Stelle)
+  map.on("popupclose", () => {
+    if (navigating || !backTo) return;
+    const bt = backTo;
+    setTimeout(() => { if (backTo === bt && !(map._popup && map.hasLayer(map._popup))) backTo = null; }, 300);  // ✕ = auf der Karte bleiben
+  });
+  function goBack() {
+    const bt = backTo; if (!bt) return;
+    backTo = null; closedByX = true; map.closePopup();
+    setItinDay(bt.day); renderItin(); if (bt.pick) setTimeout(openOptPick, 50); $("#itin").hidden = false; $("#itinBody").scrollTop = bt.scroll;
+    dockSync();
+  }
+  map.on("popupopen", ev => {
+    const nav = ev.popup.getElement().querySelector(".pnav"); if (!nav || !backTo || nav.querySelector(".pback")) return;
+    const b = document.createElement("button"); b.className = "pback"; b.textContent = "↩ Tagesplanung";
+    b.onclick = e => { e.stopPropagation(); goBack(); };
+    nav.querySelector(".pclose").after(b);
+  });
+  // Leiste ein-/ausklappen (gemerkt)
+  const setDock = h => { document.body.classList.toggle("dock-hidden", h); try { jwLS.setItem("dockHidden", h ? "1" : "0"); } catch {} };
+  try { if (jwLS.getItem("dockHidden") === "1") document.body.classList.add("dock-hidden"); } catch {}
+  $("#dock .dhide").addEventListener("click", e => { e.stopPropagation(); setDock(true); });
+  $("#dockTab").addEventListener("click", e => { e.stopPropagation(); setDock(false); if (mobile() && sheetSnap !== "peek") setSnap("peek");
+    if (document.body.classList.contains("dock-dlg")) document.body.classList.remove("dock-dlg"); });
+  // Fenster schließen sich auch über ✕ → Leiste nachziehen
+  new MutationObserver(dockSync).observe(document.body, { subtree: true, attributes: true, attributeFilter: ["hidden"] });
+  dockSync();
+  function syncMarkers(items) {  // nur Unterschiede anwenden, damit offene Popups offen bleiben
+    const want = new Set(items.map(p => p.id));
+    const out = [...shown].filter(id => !want.has(id));
+    const inn = [...want].filter(id => !shown.has(id));
+    cluster.removeLayers(out.map(id => markers.get(id)).filter(Boolean));
+    cluster.addLayers(inn.map(id => markers.get(id)).filter(Boolean));
+    out.forEach(id => shown.delete(id)); inn.forEach(id => shown.add(id));
+  }
+  // Startansicht: zuletzt gesehener Kartenausschnitt (sonst Hauptcluster der gewählten Region)
+  (() => { let v = null; try { v = JSON.parse(jwLS.getItem("mapView") || "null"); } catch {}
+    if (v && v.c && v.z && Date.now() - (v.t || 0) < 3 * 864e5) map.setView(v.c, v.z, { animate: false }); else fitRegion(); })();
+  map.on("moveend", () => { try { const c = map.getCenter(); jwLS.setItem("mapView", JSON.stringify({ c: [+c.lat.toFixed(6), +c.lng.toFixed(6)], z: map.getZoom(), t: Date.now() })); } catch {} });
+  // Sichtbarer Kartenbereich ohne die Fläche, die das Panel verdeckt
+  // im Ausschnitt = Pin bzw. sein Gruppenkreis liegt sichtbar im Ausschnitt (so wie man es auf der Karte sieht)
+  function inArea(p, vb) {
+    const m = markers.get(p.id), vp = m && cluster.getVisibleParent(m), ll = vp && vp.getLatLng ? vp.getLatLng() : null;
+    return vb.contains(ll ? [ll.lat, ll.lng] : [p.lat, p.lng]);
+  }
+  // sichtbarer Kartenbereich in Containerpixeln (ohne Filterleiste oben und Liste unten/links)
+  function visibleRect() {
+    const r = map.getContainer().getBoundingClientRect(), sh = $("#sheet").getBoundingClientRect();
+    // oben: nur unterhalb der Filterleiste (Bereich · Fotos · Food · Tipps)
+    let x0 = 0, y0 = Math.max(0, Math.min($("#group").getBoundingClientRect().bottom - r.top, r.height - 60)), x1 = r.width, y1 = r.height;
+    if (window.innerWidth >= 800) x0 = Math.min(Math.max(sh.right - r.left, 0), x1 - 60);
+    else {
+      // Handy: der Ausschnitt über der eingeklappten Liste zählt – auch wenn die Liste gerade hochgezogen ist
+      let top = sh.top;
+      try { top = sh.top - snapY(sheetSnap) + snapY("peek"); } catch {}  // Oberkante der Liste im eingeklappten Zustand
+      y1 = Math.max(top - r.top, 60);
+    }
+    return { x0, y0, x1, y1, w: r.width, h: r.height };
+  }
+  // Punkt in die Mitte des sichtbaren Bereichs setzen (nicht in die Mitte hinter der Liste)
+  function centerVisible(ll, z) {
+    map.setView(ll, z == null ? map.getZoom() : z, { animate: false });
+    const v = visibleRect();
+    map.panBy([v.w / 2 - (v.x0 + v.x1) / 2, v.h / 2 - (v.y0 + v.y1) / 2], { animate: false });
+  }
+  function visibleBounds() {
+    const { x0, y0, x1, y1 } = visibleRect();
+    // alle vier Ecken: bei gedrehter Karte ist der Ausschnitt nicht nach Norden ausgerichtet
+    return L.latLngBounds([[x0, y0], [x1, y0], [x0, y1], [x1, y1]].map(pt => map.containerPointToLatLng(pt)));
+  }
+  let moveTimer = null;
+  const popupOpen = () => !!(map._popup && map.hasLayer(map._popup));
+  const rerenderIfArea = () => { if (inView && !popupOpen() && !stepping && !navigating) { clearTimeout(moveTimer); moveTimer = setTimeout(renderList, 120); } };  // offener Spot: Liste bleibt stehen
+  map.on("moveend", rerenderIfArea);
+  map.on("clustered", rerenderIfArea);  // Google-Karte: Gruppen werden nach dem Bewegen neu berechnet
+  $("#sheet").addEventListener("transitionend", e => { if (e.target.id === "sheet") rerenderIfArea(); });
+  function renderList() {
+    // Stadt-Auswahl: nur Städte, die mit den übrigen Filtern Treffer haben
+    const sel = $("#area"), af = areaF; areaF = "";
+    const counts = {}; places.filter(p => p.id === stickyId || matchesFilter(p)).forEach(p => { const a = areaOf(p); counts[a] = (counts[a] || 0) + 1; });
+    areaF = af;
+    if (areaF && !counts[areaF]) areaF = "";
+    const opts = `<option value="">📍 Alle Städte</option>` + Object.keys(counts).sort((a, b) => a.localeCompare(b, "de"))
+      .map(a => `<option value="${esc(a)}"${a === areaF ? " selected" : ""}>${esc(a)} (${counts[a]})</option>`).join("");
+    if (opts !== sel.dataset.opts) { sel.innerHTML = opts; sel.dataset.opts = opts; }
+    sel.classList.toggle("on", !!areaF);
+    let items = places.filter(matches);
+    syncMarkers(items);
+    if (inView) { const vb = visibleBounds(); items = items.filter(p => inArea(p, vb)); }
+    // vor Ort: nach Entfernung, sonst in der Reihenfolge des Reiseplans
+    items = items.map(p => ({ ...p, _d: here() ? dist(me, p) : 0 }))
+      .sort((a, b) => here() ? a._d - b._d : (ORD[a.id] ?? 999) - (ORD[b.id] ?? 999));
+    order = items.map(p => p.id);
+    $("#group").querySelectorAll("button[data-g]").forEach(x => x.classList.toggle("on", x.dataset.g === group));
+    $("#count").textContent = inView ? `${items.length} sichtbar` : `${items.length} Orte`;
+    syncFilterSw();
+    $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : false));
+    setList(items.length ? items.map(p => { const a = PLAN_AT[p.id];
+      return `<li data-id="${esc(p.id)}">
+        <span class="th"><div class="noimg ${p.by_claude ? "tipp" : "prog"}">${(KIND[p.kind] || KIND.sight)[0]}</div></span>
+        <div style="min-width:0"><div class="t">${esc(p.name)}</div>
+          <div class="tag">${p.by_claude ? `<span class="ct">✦ Empfehlung</span> · ` : `<span class="ct pg">★ Programm</span> · `}${esc([p.district, a ? "Tag " + a.n : ""].filter(Boolean).join(" · "))}</div></div>
+        ${here() ? `<div class="d"><span class="dist">${fmt(p._d)}</span></div>` : ""}
+      </li>`; }).join("") : `<li id="empty">Keine Treffer.</li>`);
+  }
+  // Liste nur neu aufbauen, wenn sich Auswahl/Reihenfolge/Inhalt ändert – sonst flackern alle Bilder.
+  // Reine Entfernungs-Updates (Standort läuft mit) ändern nur die Zahlen.
+  let listKey = null;
+  const DIST_RE = /<span class="dist">[^<]*<\/span>/g;
+  function setList(html) {
+    const key = html.replace(DIST_RE, "");
+    if (key === listKey) {
+      const ds = html.match(DIST_RE) || [];
+      $("#list").querySelectorAll("span.dist").forEach((el, i) => { const t = (ds[i] || "").replace(/<[^>]+>/g, ""); if (el.textContent !== t) el.textContent = t; });
+      return;
+    }
+    listKey = key;
+    // vorhandene Einträge wiederverwenden (gleicher Inhalt → gleiches Element, Bild lädt nicht neu)
+    const el = $("#list"), tpl = document.createElement("template"); tpl.innerHTML = html;
+    const kOf = n => n.outerHTML.replace(DIST_RE, "");
+    const old = new Map(); [...el.children].forEach(n => { const k = n._k || kOf(n); if (!old.has(k)) old.set(k, n); });
+    const next = [...tpl.content.children].map(n => {
+      const k = kOf(n), o = old.get(k);
+      if (o) { old.delete(k); const d = n.querySelector("span.dist"), od = o.querySelector("span.dist"); if (d && od && od.textContent !== d.textContent) od.textContent = d.textContent; o._k = k; return o; }
+      n._k = k; return n;
+    });
+    const top = el.scrollTop; el.replaceChildren(...next); el.scrollTop = top;
+  }
+  $("#list").addEventListener("click", e => {
+    const li = e.target.closest("li[data-id]"); if (!li) return;
+    if (!map._popup || !map.hasLayer(map._popup)) saveView();
+    const m = markers.get(li.dataset.id);
+    openSpot(m);  // Liste bleibt wie sie ist – nach dem Schließen ist man wieder genau dort
+  });
+  // Desktop: Spot in der Liste überfahren → Pin (oder seine Gruppe) auf der Karte hervorheben
+  let hlEl = null;
+  const unHl = () => { if (hlEl) { hlEl.classList.remove("hl"); hlEl = null; } };
+  $("#list").addEventListener("mouseover", e => {
+    const li = e.target.closest("li[data-id]"); if (!li) return unHl();
+    const m = markers.get(li.dataset.id); if (!m) return;
+    const vis = cluster.getVisibleParent(m), el = vis && vis.getElement && vis.getElement();
+    if (el === hlEl) return;
+    unHl(); if (el) { hlEl = el; el.classList.add("hl"); }
+  });
+  $("#list").addEventListener("mouseleave", unHl);
+  $("#search").addEventListener("input", renderList);
+  $("#search").addEventListener("focus", () => { if (sheetSnap === "peek") setSnap("half"); });
+  // ---------- Bottom-Sheet ziehen (Handy): Stufen eingeklappt / halb / voll
+  const sheet = $("#sheet"), head = $("#sheetHead"), listEl = $("#list");
+  const mobile = () => window.innerWidth < 800;
+  const ORDER = ["full", "half", "peek"];
+  function snapY(name) {
+    const H = sheet.offsetHeight, row = head.querySelector(".row");
+    const pad = parseFloat(getComputedStyle(sheet).paddingBottom) || 0;
+    const peek = head.offsetTop + row.offsetTop + row.offsetHeight + 12 + pad;
+    return { full: 0, half: Math.max(0, H - Math.round(window.innerHeight * 0.55)), peek: Math.max(0, H - peek) }[name];
+  }
+  function moveTo(y, animate) {
+    sheet.style.transition = animate ? "" : "none";
+    sheet.style.transform = `translateY(${y}px)`;
+    // entweder Liste offen oder Leiste – nach der tatsächlichen Höhe der Liste (auch beim Ziehen)
+    try { document.body.classList.toggle("dock-auto", mobile() && y < snapY("peek") - 30); } catch {}
+  }
+  // Nach dem Öffnen/Verschieben der Übersicht keine Klicks auf die Liste annehmen: der „Nach-Klick“ vom Antippen/Hochziehen
+  // (iOS) landet sonst auf dem Spot, der gerade unter dem Finger liegt, und öffnet ihn ungewollt als Karte
+  let snapAt = 0;
+  sheet.addEventListener("click", e => { if (performance.now() - snapAt < 700 && e.target.closest("#list")) { e.stopPropagation(); e.preventDefault(); } }, true);
+  function setSnap(name, animate = true) {
+    snapAt = performance.now(); sheetSnap = name;
+    if (!mobile()) { sheet.style.transform = ""; return; }
+    moveTo(snapY(name), animate);
+  }
+  function release(y, v) {  // v: px/ms, positiv = nach unten
+    const ys = ORDER.map(n => [n, snapY(n)]);
+    let target;
+    if (v > 0.45) target = (ys.filter(([, sy]) => sy > y + 4).sort((a, b) => a[1] - b[1])[0] || ys[2])[0];
+    else if (v < -0.45) target = (ys.filter(([, sy]) => sy < y - 4).sort((a, b) => b[1] - a[1])[0] || ys[0])[0];
+    else target = ys.reduce((a, b) => Math.abs(b[1] - y) < Math.abs(a[1] - y) ? b : a)[0];
+    setSnap(target);
+  }
+  function tracker(y0, base) {
+    let last = y0, lastT = performance.now(), v = 0, y = base;
+    return {
+      move(cy) {
+        const now = performance.now();
+        v = 0.7 * ((cy - last) / Math.max(1, now - lastT)) + 0.3 * v; last = cy; lastT = now;
+        y = Math.min(Math.max(base + (cy - y0), 0), snapY("peek"));
+        moveTo(y, false);
+        return y;
+      },
+      end() { release(y, performance.now() - lastT > 120 ? 0 : v); }
+    };
+  }
+  // Ziehen am Kopfbereich (Griff, Suchzeile, Leerräume)
+  let hd = null;
+  head.addEventListener("pointerdown", e => {
+    if (!mobile() || e.button > 0 || e.target.closest("button, input, select, #chips, #chips2")) return;
+    hd = { y0: e.clientY, moved: false, t: tracker(e.clientY, snapY(sheetSnap)) };
+    head.setPointerCapture(e.pointerId);
+  });
+  head.addEventListener("pointermove", e => {
+    if (!hd) return;
+    if (Math.abs(e.clientY - hd.y0) > 6) hd.moved = true;
+    if (hd.moved) hd.t.move(e.clientY);
+  });
+  const headEnd = () => {
+    if (!hd) return;
+    snapAt = performance.now();
+    if (hd.moved) hd.t.end(); else setSnap(sheetSnap === "peek" ? "half" : "peek");
+    hd = null;
+  };
+  head.addEventListener("pointerup", headEnd);
+  head.addEventListener("pointercancel", headEnd);
+  // Aus der Liste heraus: oben angekommen nach unten ziehen klappt ein, nach oben wischen in „halb“ öffnet voll
+  let ld = null;
+  listEl.addEventListener("touchstart", e => {
+    if (!mobile()) return;
+    ld = { y0: e.touches[0].clientY, top: listEl.scrollTop <= 0, t: null };
+  }, { passive: true });
+  listEl.addEventListener("touchmove", e => {
+    if (!ld) return;
+    const cy = e.touches[0].clientY, dy = cy - ld.y0;
+    if (!ld.t && sheetSnap !== "full" && dy < -8) { ld.t = tracker(ld.y0, snapY(sheetSnap)); }
+    if (!ld.t && ld.top && listEl.scrollTop <= 0 && dy > 8) { ld.t = tracker(ld.y0, snapY(sheetSnap)); }
+    if (ld.t) { e.preventDefault(); ld.t.move(cy); }
+  }, { passive: false });
+  listEl.addEventListener("touchend", () => { if (ld && ld.t) { snapAt = performance.now(); ld.t.end(); } ld = null; });
+  listEl.addEventListener("touchcancel", () => { if (ld && ld.t) ld.t.end(); ld = null; });
+  // nur echte Größenänderungen (Drehen, Tastatur) – nicht das Ein-/Ausblenden der Safari-Leisten beim Scrollen
+  let lastW = innerWidth, lastH = innerHeight;
+  window.addEventListener("resize", () => {
+    if (Math.abs(innerWidth - lastW) < 2 && Math.abs(innerHeight - lastH) < 160) return;
+    lastW = innerWidth; lastH = innerHeight; setSnap(sheetSnap, false);
+  });
+  setSnap("peek", false);
+  renderList();
+  // ---------- Standort
+  const toast = (msg, ms = 3000) => { const t = $("#toast"); t.textContent = msg; t.style.display = "block";
+    clearTimeout(toast.t); toast.t = setTimeout(() => t.style.display = "none", ms); };
+  let meMarker = null, meCircle = null, watchId = null, follow = false, lastListUpdate = 0;
 
-// Tipps
-let tipCity = "all";
-function drawTips() {
-  const cities = [["all", "Alle"], ...Object.entries(T.cities).filter(([k]) => k !== "flight").map(([k, v]) => [k, v.name])];
-  $("#tipfilters").innerHTML = cities.map(([k, l]) => `<button class="pill ${k === tipCity ? "on" : ""}" data-k="${k}">${l}</button>`).join("");
-  $("#tipfilters").querySelectorAll(".pill").forEach(b => b.onclick = () => { tipCity = b.dataset.k; drawTips(); });
-  const used = {}; T.days.forEach(d => d.stops.forEach(s => { (used[s.id] = used[s.id] || []).push(d.n); }));
-  const list = Object.entries(T.spots).filter(([id, s]) => s.tip && (tipCity === "all" || s.city === tipCity));
-  let h = `<p style="color:var(--muted);margin:4px 2px 12px;font-size:14px">Empfehlungen zusätzlich zu deinem Programm – für freie Zeit und besondere Momente.</p>`;
-  h += list.map(([id, s]) => { const k = KIND[s.kind];
-    return `<div class="card tipcard tipx"><div class="ic">${k[0]}</div><div><h4>${esc(s.n)}</h4><p>${esc(s.t)}</p>
-      <div class="where">${T.cities[s.city].name} · ${k[1]}${used[id] ? " · passt zu Tag " + used[id].join(", ") : ""}</div>
-      <div class="actions"><a class="btn ghost" target="_blank" rel="noopener" href="${gmaps(s)}">Route in Google Maps</a></div></div></div>`; }).join("");
-  $("#tiplist").innerHTML = h;
+  function onPos(pos) {
+    const first = !me;
+    me = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+    const ll = [me.lat, me.lng];
+    if (!meMarker) {
+      meCircle = L.circle(ll, { radius: pos.coords.accuracy, color: "#2563eb", weight: 1, fillOpacity: .1 }).addTo(map);
+      meMarker = L.marker(ll, { icon: L.divIcon({ className: "", html: '<div class="me-wrap"><div class="me-cone"></div><div class="me-dot"></div></div>', iconSize: [80, 80], iconAnchor: [40, 40] }),
+        zIndexOffset: 1000, interactive: false }).addTo(map);
+    } else { meMarker.setLatLng(ll); meCircle.setLatLng(ll).setRadius(pos.coords.accuracy); }
+    if (first && window.DeviceOrientationEvent && typeof DeviceOrientationEvent.requestPermission !== "function") startCompass();  // ohne Rückfrage möglich (Android)
+    const np = places.reduce((m, p) => p.noloc ? m : !m || dist(me, p) < dist(me, m) ? p : m, null);
+    const nearest = np ? dist(me, np) : Infinity;
+    const wasNear = nearSpots; nearSpots = nearest < 50e3;
+    if (first && nearSpots) centerVisible(ll, Math.max(map.getZoom(), 15));
+    if (first && !nearSpots && places.length) toast(`Du bist ${fmt(nearest)} vom nächsten Spot entfernt – Entfernungen erscheinen vor Ort.`, 4500);
+    if (wasNear !== nearSpots) lastListUpdate = 0;
+    if (!first && follow && !popupOpen()) centerVisible(ll);
+    if (Date.now() - lastListUpdate > 5000 && !popupOpen() && !stepping && !navigating) { lastListUpdate = Date.now(); renderList(); }
+  }
+  // Standort robust verfolgen: iOS beendet die Abfrage gern nach Zeitüberschreitung (Gebäude, MTR, Häuserschluchten)
+  // oder wenn die App im Hintergrund war – dann still neu starten statt stehen zu bleiben.
+  let watchWanted = false, lastFix = 0;
+  function onErr(err) {
+    if (err.code === 1 || location.protocol === "http:" && location.hostname !== "localhost") {
+      toast(err.code === 1 ? "Standortzugriff verweigert – bitte in den Browser-Einstellungen erlauben." : "Standort braucht HTTPS (z.B. GitHub Pages).", 5000);
+      watchWanted = false; stopWatch(); $("#locate").classList.remove("active", "follow"); return;
+    }
+    if (!me) toast("Suche Standort …", 2500);  // vorübergehend (kein GPS-Empfang): Abfrage läuft weiter, der Wächter unten startet sie notfalls neu
+  }
+  function stopWatch() { if (watchId !== null) navigator.geolocation.clearWatch(watchId); watchId = null; }
+  function restartWatch(delay = 0) {
+    stopWatch(); clearTimeout(restartWatch.t);
+    restartWatch.t = setTimeout(() => { if (watchWanted) startWatch(); }, delay);
+  }
+  function startWatch() {
+    if (!navigator.geolocation) return toast("Geolocation wird nicht unterstützt.");
+    watchWanted = true;
+    if (watchId === null) watchId = navigator.geolocation.watchPosition(p => { lastFix = Date.now(); onPos(p); }, onErr,
+      { enableHighAccuracy: true, maximumAge: 3000, timeout: 15000 });
+    $("#locate").classList.add("active");
+  }
+  // zurück aus dem Hintergrund → frisch starten; außerdem Wächter: 25 s ohne neue Position → neu starten
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && watchWanted) restartWatch(); });
+  setInterval(() => { if (watchWanted && document.visibilityState === "visible" && Date.now() - lastFix > 20000) { lastFix = Date.now(); restartWatch(); } }, 5000);
+  // ---------- Kompass: Blickrichtung als Kegel am Standortpunkt
+  let compassOn = false, headingShown = null;
+  function onHeading(e) {
+    let h = e.webkitCompassHeading;  // iOS: Grad im Uhrzeigersinn ab Norden
+    if (h == null && e.absolute && e.alpha != null) h = 360 - e.alpha;  // Android
+    if (h == null || isNaN(h)) return;
+    h = (h + ((screen.orientation && screen.orientation.angle) || window.orientation || 0) + 360) % 360;
+    // kürzester Weg, damit der Kegel bei 359°→1° nicht einmal herumwirbelt
+    lastHeading = h;
+    if (ROTATE && follow && me) map.setBearing(BEARING_SIGN * h);  // Karte dreht sich mit: Blickrichtung oben
+    drawCone();
+  }
+  // Kegel relativ zum Bildschirm: Blickrichtung minus Drehung der Karte
+  let lastHeading = null;
+  const BEARING_SIGN = -1;  // leaflet-rotate: Bearing B dreht Norden um +B im Uhrzeigersinn
+  function drawCone() {
+    if (lastHeading == null) return;
+    const h = lastHeading - (ROTATE ? BEARING_SIGN * map.getBearing() : 0);
+    headingShown = headingShown == null ? h : headingShown + ((((h - headingShown) % 360) + 540) % 360 - 180);
+    const cone = meMarker && meMarker.getElement() && meMarker.getElement().querySelector(".me-cone");
+    if (cone) { cone.classList.add("on"); cone.style.setProperty("--h", headingShown + "deg"); }
+  }
+  if (ROTATE) map.on("rotate", drawCone);
+  async function startCompass() {
+    if (compassOn || !window.DeviceOrientationEvent) return;
+    try {
+      if (typeof DeviceOrientationEvent.requestPermission === "function" &&
+          (await DeviceOrientationEvent.requestPermission()) !== "granted") return toast("Kompass nicht erlaubt – Blickrichtung wird nicht angezeigt.");
+      compassOn = true;
+      window.addEventListener("deviceorientationabsolute", onHeading, true);  // Android
+      window.addEventListener("deviceorientation", onHeading, true);  // iOS (webkitCompassHeading)
+    } catch {}
+  }
+  $("#locate").addEventListener("click", () => {
+    startCompass();
+    if (!navigator.geolocation) return toast("Standort wird nicht unterstützt.");
+    if (!me || Date.now() - lastFix > 20000) {  // noch kein (frischer) Standort: neu abfragen und dann hinspringen
+      toast("Suche Standort …", 2000);
+      restartWatch(); startWatch();
+      navigator.geolocation.getCurrentPosition(pos => { lastFix = Date.now(); onPos(pos); follow = true; $("#locate").classList.add("follow");
+        centerVisible([me.lat, me.lng], Math.max(map.getZoom(), 16)); }, onErr, { enableHighAccuracy: true, maximumAge: 10000, timeout: 15000 });
+      return;
+    }
+    startWatch();
+    follow = !follow; $("#locate").classList.toggle("follow", follow);
+    centerVisible([me.lat, me.lng], Math.max(map.getZoom(), 16));
+    toast(follow ? "Karte folgt deinem Standort" : "Folgen aus");
+  });
+  map.on("dragstart", () => { if (follow) { follow = false; $("#locate").classList.remove("follow"); } });
+
+  // Standort automatisch starten, wenn die Berechtigung bereits erteilt ist
+  if (navigator.permissions) navigator.permissions.query({ name: "geolocation" })
+    .then(s => { if (s.state === "granted") startWatch(); }).catch(() => {});
+  window.__map = map;  // für Tests
+  // Direktlink: …/journaway/#spot=<id> → Spot zeigen und öffnen
+  function openFromHash() {
+    const h = new URLSearchParams(location.hash.slice(1)), id = h.get("spot");
+    if (!id) return;
+    history.replaceState(null, "", location.pathname + location.search);  // gleicher Link später nochmal antippbar
+    const p = places.find(x => x.id === id);
+    if (!p) { toast("Spot nicht gefunden", 2500); return; }
+    if (mobile()) setSnap("peek");
+    map.setView([p.lat, p.lng], Math.max(map.getZoom(), 17), { animate: false });
+    if (!shown.has(id)) { stickyId = id; renderList(); }
+    const mk = markers.get(id); if (!mk) { toast("Spot nicht gefunden", 2500); return; }
+    setTimeout(() => cluster.zoomToShowLayer(mk, () => openSpot(mk)), 400);
+  }
+  window.addEventListener("hashchange", openFromHash);
+  setTimeout(openFromHash, 900);
 }
-
-// Infos
-$("#incl").innerHTML = T.included.map(i => `<li>${esc(i)}</li>`).join("");
-$("#opt").innerHTML = T.optional.map(i => `<li>${esc(i)}</li>`).join("");
-$("#hotels").innerHTML = T.hotels.map(h => `<div class="hotel">${h.img ? `<img src="${h.img}" alt="" loading="lazy">` : `<div class="ic" style="width:74px;height:74px;border-radius:12px;background:${T.cities[h.city].color};display:grid;place-items:center;font-size:28px;flex:none">🏨</div>`}
-  <div><b>${esc(h.name)}</b><small>${T.cities[h.city].name} · ${h.nights}</small><a target="_blank" rel="noopener" href="${gmaps(h)}" style="font-size:14px">Auf der Karte</a></div></div>`).join("");
-$("#supp").innerHTML = `<a class="btn lime" href="${T.support.wa}" target="_blank" rel="noopener">WhatsApp öffnen</a><a class="btn ghost" href="tel:${T.support.phone.replace(/\s/g, "")}">${T.support.phone}</a><a class="btn ghost" href="mailto:${T.support.mail}">${T.support.mail}</a>`;
-
-drawBar(); drawDay(); drawTips();
+startApp();
 </script>
 </body>
 </html>
