@@ -59,6 +59,7 @@ POSTS = {
  102: ("cal_captures_", "p", "DOLo8rSjHLP"),
  103: ("hughchongqing", "reel", "DUEw885AW0h"),
  104: ("iiikudo", "p", "De9hAY2Eoda"),
+ 105: ("dezeen", "reel", "DNs3Bszs_3A"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -178,7 +179,7 @@ SPOTS = [
  ("Oriental Pearl Tower 东方明珠", 31.239620, 121.496037, True, "Lujiazui, Shanghai", "Architektur",
   [(88, 3), (99, 1)], "Nachtblick auf den beleuchteten Fernsehturm mit Lichtspuren, vermutlich vom Lujiazui-Ringsteg (陆家嘴环形天桥) aus; Pin am Ringsteg."),
  ("1933 Old Millfun 1933老场坊", 31.256900, 121.489200, False, "Hongkou, Shanghai", "Architektur",
-  [(88, 4)], "Ehemaliger Schlachthof von 1933 (Balfours): Beton-Rampen, Brücken und Treppen um einen Rundbau – Labyrinth-Motiv."),
+  [(88, 4), 105], "Ehemaliger Schlachthof von 1933 (Balfours): Beton-Rampen, Brücken und Treppen um einen Rundbau – Labyrinth-Motiv."),
  ("The Roof – Henderson CIFI Xintiandi 恒基旭辉天地", 31.214126, 121.470404, False, "Huangpu, Shanghai", "Architektur",
   [(88, 8)], "Ateliers Jean Nouvel + ASPECT Studios: rote Passage mit Glasdach und hängenden Gärten zwischen Madang Road und Danshui Road."),
  ("Shanghai World Financial Center 上海环球金融中心", 31.236577, 121.503041, False, "Lujiazui, Shanghai", "Aussicht",

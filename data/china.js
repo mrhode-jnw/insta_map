@@ -4292,6 +4292,15 @@ window.PLACES_CN = [
     "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
     "match": "slide",
     "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/dezeen/reel/DNs3Bszs_3A/",
+    "username": "dezeen",
+    "profile_url": "https://www.instagram.com/dezeen/",
+    "kind": "reel",
+    "image": "images/DNs3Bszs_3A.jpg",
+    "caption": "Take a look around The 1933 Old Millfun in Shanghai, China, designed by British architect Balfours. Originally housing one of the largest slaughterhouses in East Asia, Old Millfun is now home to a collection of shops and restaurants.\n\nShot by digital creator Francesco Beggio (@francescobeggio).",
+    "match": "single"
    }
   ],
   "pop": 4,
@@ -12790,6 +12799,108 @@ window.PLACES_CN = [
   "posts": [],
   "source": "https://www.trip.com/guide/attraction/shanghai-wild-animal-park.html · https://www.nomadotravel.app/en/attractions/shanghai-wild-animal-park · OpenStreetMap (Pin)",
   "kind": "sight",
+  "when": "day"
+ },
+ {
+  "id": "cn-luminous-ocean-aquarium-cocktailbar",
+  "region": "cn",
+  "name": "Luminous Ocean 光之海 · Aquarium-Cocktailbar",
+  "district": "Huangpu (Xiangshan Rd), Shanghai",
+  "category": "",
+  "note": "Versteckte Cocktailbar im Tiefsee-Look mit Aquarien und Fischbecken als Raumteiler, rotes Licht – fühlt sich an wie in einem U-Boot. Adresse: 黄浦区香山路15号甲商铺 (Xiangshan Road 15, ruhige Platanenstraße in der früheren Französischen Konzession, nahe Sun-Yat-sen-Residenz). Geöffnet ca. 18–2 Uhr (laut Barführer, vorher prüfen). Pin = Straßenabschnitt laut OSM, ungefähr.",
+  "address": "Huangpu (Xiangshan Rd), Shanghai",
+  "lat": 31.21775,
+  "lng": 121.4612,
+  "approx": true,
+  "image": "images/DcWEY-wzpy9.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/p/DcWEY-wzpy9/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DcWEY-wzpy9/",
+    "kind": "photo",
+    "image": "images/DcWEY-wzpy9.jpg",
+    "caption": "",
+    "credit": "@art_kapnin · Instagram"
+   }
+  ],
+  "source": "@art_kapnin · Instagram · https://www.trvlogue.com/en/shanghai-cocktail-bars",
+  "kind": "sight",
+  "image_page": "https://www.instagram.com/p/DcWEY-wzpy9/",
+  "image_credit": "@art_kapnin · Instagram",
+  "when": "day"
+ },
+ {
+  "id": "cn-m50-art-district-50",
+  "region": "cn",
+  "name": "M50 Art District 莫干山路50号",
+  "district": "Putuo (Suzhou Creek), Shanghai",
+  "category": "",
+  "note": "Shanghais bekanntes Kunstviertel in alten Fabrik- und Lagerhallen am Suzhou Creek (Moganshan Road 50), seit 2000 von Künstlern besiedelt: über 100 Ateliers und Galerien, viele offen für Besucher, dazu Designbüros. Eine der wenigen Stellen in Shanghai mit Street Art – lange Graffiti-Wände entlang der Moganshan Road. Metro Linie 13 Jiangning Road 江宁路 oder Linie 3/4 Zhongtan Road 中潭路. Lässt sich direkt mit 1000 Trees (gegenüber am Suzhou Creek) kombinieren. Galerien meist Di–So tagsüber.",
+  "address": "Putuo (Suzhou Creek), Shanghai",
+  "lat": 31.249872,
+  "lng": 121.444662,
+  "approx": false,
+  "image": "images/web_ctnk3m_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "username": "",
+    "profile_url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "kind": "photo",
+    "image": "images/web_ctnk3m_1.jpg",
+    "caption": "",
+    "credit": "My Favourite Lens"
+   },
+   {
+    "url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "username": "",
+    "profile_url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "kind": "photo",
+    "image": "images/web_ctnk3m_2.jpg",
+    "caption": "",
+    "credit": "My Favourite Lens"
+   },
+   {
+    "url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "username": "",
+    "profile_url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "kind": "photo",
+    "image": "images/web_ctnk3m_3.jpg",
+    "caption": "",
+    "credit": "My Favourite Lens"
+   },
+   {
+    "url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "username": "",
+    "profile_url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "kind": "photo",
+    "image": "images/web_ctnk3m_4.jpg",
+    "caption": "",
+    "credit": "My Favourite Lens"
+   },
+   {
+    "url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "username": "",
+    "profile_url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "kind": "photo",
+    "image": "images/web_ctnk3m_5.jpg",
+    "caption": "",
+    "credit": "My Favourite Lens"
+   }
+  ],
+  "source": "https://www.myfavouritelens.com/m50-art-district-shanghai/ · OpenStreetMap (Pin)",
+  "kind": "sight",
+  "image_page": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+  "image_credit": "My Favourite Lens",
   "when": "day"
  }
 ];

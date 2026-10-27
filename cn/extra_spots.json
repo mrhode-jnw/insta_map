@@ -158,5 +158,27 @@
   "note": "Großer Safaripark im Süden von Pudong (南六公路178号): Freigehege mit Bus-Safari (kostenloser Safari-Bus mit langen Schlangen, dazu kostenpflichtige Fütterungsbusse ca. 40–100 ¥), Fußbereich mit Pandas, Shows. Eintritt Erwachsene ca. 165 ¥ (online oft günstiger). Öffnungszeiten je nach Quelle ca. 8/9–17 Uhr, Einlass bis 16 Uhr – vorab im offiziellen Ticketkanal prüfen. Anfahrt: Metro Linie 16 bis „Wild Animal Park“ 野生动物园站, dann Bus Pudong 96 (2 Stationen); vom Zentrum ca. 1–1,5 Std. Mindestens einen halben Tag einplanen.",
   "source": "https://www.trip.com/guide/attraction/shanghai-wild-animal-park.html · https://www.nomadotravel.app/en/attractions/shanghai-wild-animal-park · OpenStreetMap (Pin)",
   "kind": "sight"
+ },
+ {
+  "name": "Luminous Ocean 光之海 · Aquarium-Cocktailbar",
+  "lat": 31.21775,
+  "lng": 121.4612,
+  "approx": true,
+  "district": "Huangpu (Xiangshan Rd), Shanghai",
+  "cat": "",
+  "note": "Versteckte Cocktailbar im Tiefsee-Look mit Aquarien und Fischbecken als Raumteiler, rotes Licht – fühlt sich an wie in einem U-Boot. Adresse: 黄浦区香山路15号甲商铺 (Xiangshan Road 15, ruhige Platanenstraße in der früheren Französischen Konzession, nahe Sun-Yat-sen-Residenz). Geöffnet ca. 18–2 Uhr (laut Barführer, vorher prüfen). Pin = Straßenabschnitt laut OSM, ungefähr.",
+  "source": "@art_kapnin · Instagram · https://www.trvlogue.com/en/shanghai-cocktail-bars",
+  "kind": "sight"
+ },
+ {
+  "name": "M50 Art District 莫干山路50号",
+  "lat": 31.249872,
+  "lng": 121.444662,
+  "approx": false,
+  "district": "Putuo (Suzhou Creek), Shanghai",
+  "cat": "",
+  "note": "Shanghais bekanntes Kunstviertel in alten Fabrik- und Lagerhallen am Suzhou Creek (Moganshan Road 50), seit 2000 von Künstlern besiedelt: über 100 Ateliers und Galerien, viele offen für Besucher, dazu Designbüros. Eine der wenigen Stellen in Shanghai mit Street Art – lange Graffiti-Wände entlang der Moganshan Road. Metro Linie 13 Jiangning Road 江宁路 oder Linie 3/4 Zhongtan Road 中潭路. Lässt sich direkt mit 1000 Trees (gegenüber am Suzhou Creek) kombinieren. Galerien meist Di–So tagsüber.",
+  "source": "https://www.myfavouritelens.com/m50-art-district-shanghai/ · OpenStreetMap (Pin)",
+  "kind": "sight"
  }
 ]
