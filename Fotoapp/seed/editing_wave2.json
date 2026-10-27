@@ -1,0 +1,1225 @@
+{
+ "accessed_at": "2026-10-27",
+ "series": [
+  {
+   "key": "soth-mother-daughter",
+   "photographer": "Alec Soth",
+   "title": "Mother and daughter, Davenport, Iowa (Sleeping by the Mississippi)",
+   "year": 2002,
+   "situation_de": "In einem Bordell in Davenport (Iowa) fotografiert Soth für „Sleeping by the Mississippi“ Mutter und Tochter auf einem Sofa – mit der 8×10-Zoll-Großformatkamera, also mit wenigen Belichtungen [Q1][Q2].",
+   "frames": [
+    {
+     "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/11/2002_03zL0111.jpg",
+     "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-mother-and-daughter-by-alec-soth/",
+     "note": "Aufnahme A: die Mutter allein, ausgestreckt auf dem Sofa, weiter Raum mit Lampe, Bild und Beistelltisch."
+    },
+    {
+     "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/11/2002_03zL0109-1.jpg",
+     "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-mother-and-daughter-by-alec-soth/",
+     "note": "Aufnahme B: beide auf dem Sofa, enger gefasst, bei den Oberschenkeln angeschnitten, Querformat."
+    },
+    {
+     "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/11/cortex/nyc39698.jpg",
+     "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-mother-and-daughter-by-alec-soth/",
+     "note": "Aufnahme C: beide frontal nebeneinander, Beine übereinandergeschlagen, Füße in weißen Sandalen bis zum unteren Rand."
+    }
+   ],
+   "chosen": 2,
+   "answer_de": "Gewählt ist Aufnahme C; Magnum zeigt sie als „final image from the book“ [Q3]. Soth kann die Wahl nicht begründen: „It's impossible to explain why I chose the final frame“ [Q2]. Das Bild wurde zu einem der Schlüsselbilder des Buchs [Q1]. Meine Einschätzung: Gegenüber B ist C symmetrischer und strenger – zwei gleich gerichtete Körper, verschränkte Beine, beide Gesichter direkt zur Kamera; aus der Szene wird ein Doppelporträt.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-mother-and-daughter-by-alec-soth/",
+     "title": "Magnum Photos: Making the Image – Mother and Daughter by Alec Soth",
+     "excerpt": "One of the key images from Sleeping by the Mississippi – according to Soth – is his portrait of a mother and daughter side by side on a sofa. The picture was made in a brothel in Davenport, Iowa.",
+     "kind": "kurator",
+     "translation_de": "Eines der Schlüsselbilder aus Sleeping by the Mississippi ist laut Soth sein Porträt von Mutter und Tochter nebeneinander auf einem Sofa. Das Bild entstand in einem Bordell in Davenport, Iowa."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-mother-and-daughter-by-alec-soth/",
+     "title": "Magnum Photos: Making the Image – Mother and Daughter by Alec Soth",
+     "excerpt": "I was working with an 8×10-inch view camera, which is a slow process and also expensive, so I wouldn't shoot much. But when something was really juicy, I'd take a few more exposures. It's impossible to explain why I chose the final frame. It's like asking a painter, why did you choose that stroke? It just felt right.",
+     "kind": "fotograf",
+     "author": "Alec Soth",
+     "aspect": "entstehung",
+     "translation_de": "Ich arbeitete mit einer 8×10-Zoll-Fachkamera; das ist langsam und teuer, also machte ich nicht viele Aufnahmen. Aber wenn etwas wirklich saftig war, machte ich ein paar mehr. Es ist unmöglich zu erklären, warum ich das endgültige Bild gewählt habe. Das ist, als fragte man einen Maler, warum er diesen Pinselstrich gewählt hat. Es fühlte sich einfach richtig an."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-mother-and-daughter-by-alec-soth/",
+     "title": "Magnum Photos: Making the Image – Mother and Daughter by Alec Soth",
+     "excerpt": "You can see the final image from the book at the bottom of this page.",
+     "kind": "kurator",
+     "translation_de": "Das endgültige Bild aus dem Buch ist unten auf dieser Seite zu sehen."
+    }
+   ]
+  },
+  {
+   "key": "apollo11-visor-portrait",
+   "photographer": "Neil Armstrong",
+   "title": "Buzz Aldrin auf dem Mond (AS11-40-5903)",
+   "year": 1969,
+   "situation_de": "Apollo 11, 20. Juli 1969: Armstrong fotografiert mit der Hasselblad zuerst die Probenstelle und hebt dann die Kamera, um Aldrin ins Bild zu bekommen; kurz darauf entsteht ein zweites Bild von Aldrin [Q1][Q2].",
+   "frames": [
+    {
+     "image_url": "https://images-assets.nasa.gov/image/as11-40-5902/as11-40-5902~medium.jpg",
+     "source_url": "https://images.nasa.gov/details/as11-40-5902",
+     "note": "AS11-40-5902: Aldrin klein jenseits des Landebeins, viel Mondboden mit Fußspuren, Landeteller rechts im Vordergrund."
+    },
+    {
+     "image_url": "https://images-assets.nasa.gov/image/as11-40-5903/as11-40-5903~large.jpg",
+     "source_url": "https://images.nasa.gov/details/as11-40-5903",
+     "note": "AS11-40-5903: Aldrin groß und frontal, Kopf am oberen Rand, Armstrong und Mondfähre spiegeln sich im Visier."
+    }
+   ],
+   "chosen": 1,
+   "answer_de": "Das berühmte Bild ist AS11-40-5903: „No other Apollo photograph has been reproduced as often as this portrait of Buzz“ [Q3]; im Visier ist Armstrong selbst zu sehen [Q3][Q4]. Meine Einschätzung: 5902 erzählt den Ort (Fähre, Spuren, Weite), 5903 macht aus der Person ein Bildzeichen – frontal, formatfüllend, mit dem Fotografen im Visier als zweitem Bild im Bild.",
+   "sources": [
+    {
+     "url": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/images11.html",
+     "title": "Apollo Lunar Surface Journal: Apollo 11 Image Library (NASA)",
+     "excerpt": "Neil took AS11-40- 5901 to show the bulk sample area and then raised his aim to get Buzz in 5902.",
+     "kind": "wissenschaft",
+     "translation_de": "Neil nahm AS11-40-5901 auf, um die Stelle der Sammelprobe zu zeigen, und hob dann die Kamera, um Buzz in 5902 ins Bild zu bekommen."
+    },
+    {
+     "url": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/images11.html",
+     "title": "Apollo Lunar Surface Journal: Apollo 11 Image Library (NASA)",
+     "excerpt": "Buzz is standing just beyond the north strut.",
+     "kind": "wissenschaft",
+     "translation_de": "Buzz steht direkt hinter der nördlichen Landebeinstrebe."
+    },
+    {
+     "url": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/images11.html",
+     "title": "Apollo Lunar Surface Journal: Apollo 11 Image Library (NASA)",
+     "excerpt": "No other Apollo photograph has been reproduced as often as this portrait of Buzz. Neil is, of course, visible in reflection on Buzz's visor.",
+     "kind": "wissenschaft",
+     "translation_de": "Kein anderes Apollo-Foto ist so oft reproduziert worden wie dieses Porträt von Buzz. Neil ist natürlich als Spiegelung in Buzz' Visier zu sehen."
+    },
+    {
+     "url": "https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/a11_h_40_5903.html",
+     "title": "NASA NSSDC Photo Gallery: Astronaut on the Moon (AS11-40-5903)",
+     "excerpt": "Armstrong and part of the lunar module can be seen in the reflection in Aldrin's visor.",
+     "kind": "wissenschaft",
+     "translation_de": "Armstrong und ein Teil der Mondfähre sind in der Spiegelung in Aldrins Visier zu sehen."
+    }
+   ]
+  },
+  {
+   "key": "apollo11-bootprint",
+   "photographer": "Buzz Aldrin",
+   "title": "Fußabdruck im Mondstaub (AS11-40-5878)",
+   "year": 1969,
+   "situation_de": "Für die Bodenmechaniker tritt Aldrin auf unberührten Mondboden und fotografiert den frischen Abdruck, die Kamera in den Händen; danach folgt ein zweiter Abdruck [Q1][Q2].",
+   "frames": [
+    {
+     "image_url": "https://images-assets.nasa.gov/image/as11-40-5877/as11-40-5877~large.jpg",
+     "source_url": "https://images.nasa.gov/details/as11-40-5877",
+     "note": "AS11-40-5877: Abdruck etwas unterhalb der Mitte, nah aufgenommen, Steinchen oben links."
+    },
+    {
+     "image_url": "https://images-assets.nasa.gov/image/as11-40-5878/as11-40-5878~large.jpg",
+     "source_url": "https://images.nasa.gov/details/as11-40-5878",
+     "note": "AS11-40-5878: derselbe Abdruck, etwas mehr Abstand, Abdruck schräg rechts unten, schärfer."
+    },
+    {
+     "image_url": "https://images-assets.nasa.gov/image/as11-40-5880/as11-40-5880~large.jpg",
+     "source_url": "https://images.nasa.gov/details/as11-40-5880",
+     "note": "AS11-40-5880: ein zweiter Abdruck, oben links Aldrins Stiefel mit langem Schatten."
+    }
+   ],
+   "chosen": 1,
+   "answer_de": "Zum Symbol wurde AS11-40-5878 [Q3]. Aldrin war für dieses zweite Bild etwas zurückgetreten und bekam die Schärfe besser hin [Q2]. Meine Einschätzung: Das Motiv ist in 5877 und 5878 fast gleich; entschieden haben Schärfe und etwas mehr Umraum – ein reines Dokumentbild wurde ohne Inszenierung zur Ikone.",
+   "sources": [
+    {
+     "url": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/images11.html",
+     "title": "Apollo Lunar Surface Journal: Apollo 11 Image Library (NASA)",
+     "excerpt": "Buzz made this footprint on a pristine surface so that he could then photograph it for study by soil mechanics experts.",
+     "kind": "wissenschaft",
+     "translation_de": "Buzz setzte diesen Fußabdruck auf eine unberührte Fläche, um ihn anschließend für die Untersuchung durch Bodenmechanik-Experten zu fotografieren."
+    },
+    {
+     "url": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/images11.html",
+     "title": "Apollo Lunar Surface Journal: Apollo 11 Image Library (NASA)",
+     "excerpt": "Buzz moved away slightly to take this second image of the fresh bootprint, getting slightly better focus.",
+     "kind": "wissenschaft",
+     "aspect": "entstehung",
+     "translation_de": "Buzz trat etwas zurück, um dieses zweite Bild des frischen Stiefelabdrucks aufzunehmen, und erreichte dabei eine etwas bessere Schärfe."
+    },
+    {
+     "url": "https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/a11_h_40_5878.html",
+     "title": "NASA NSSDC Photo Gallery: Image of astronaut footprint on the Moon (AS11-40-5878)",
+     "excerpt": "The footprint image has also become one of the enduring symbols of the first visit to the Moon.",
+     "kind": "wissenschaft",
+     "aspect": "rezeption",
+     "translation_de": "Das Bild des Fußabdrucks ist außerdem zu einem der bleibenden Symbole des ersten Mondbesuchs geworden."
+    }
+   ]
+  },
+  {
+   "key": "parks-ella-watson-flag",
+   "photographer": "Gordon Parks",
+   "title": "Washington, D.C. Government charwoman (American Gothic)",
+   "year": 1942,
+   "situation_de": "Washington, August 1942: Parks fotografiert die Putzfrau Ella Watson in einem Büro mit großer amerikanischer Flagge an der Wand, sorgfältig gestellt und mit drei Blitzen ausgeleuchtet [Q1].",
+   "frames": [
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/05800/05810v.jpg",
+     "source_url": "https://www.loc.gov/item/2017765075/",
+     "note": "LC-USF34-013408-C: weiter Blick ins Büro, Schreibtische und Stühle, Watson klein vor der Flagge, Mopp am Boden."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b14000/8b14800/8b14845v.jpg",
+     "source_url": "https://www.loc.gov/item/2017765074/",
+     "note": "LC-USF34-013407-C: Nahaufnahme, Besen und Mopp links und rechts, Flagge füllt den Hintergrund."
+    }
+   ],
+   "chosen": 1,
+   "answer_de": "Die Nahaufnahme ist eines von Parks' berühmtesten Bildern [Q1]. Parks selbst nennt das erste Bild „unsubtle“: im Stil Grant Woods vor der Flagge, Besen in der einen, Mopp in der anderen Hand, direkt in die Kamera [Q2]. Meine Einschätzung: Die weite Fassung erzählt vom Arbeitsplatz; erst die enge Fassung macht aus Flagge, Besen und Blick ein Zitat von „American Gothic“ – die Anklage liegt im Bildbau, nicht in der Umgebung.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/collections/fsa-owi-black-and-white-negatives/articles-and-essays/documenting-america/ella-watson-united-states-government-charwoman/",
+     "title": "Library of Congress, Documenting America: Ella Watson, United States Government Charwoman",
+     "excerpt": "Parks made his first photographs of Watson in an office with a large American flag on the wall, two of which are included here. Both pictures are carefully posed, and the multiple shadows cast by the office furniture indicate that Parks used an elaborate three-flash setup. The close-up version is one of his most famous photographs",
+     "kind": "museum",
+     "translation_de": "Parks machte seine ersten Aufnahmen von Watson in einem Büro mit einer großen amerikanischen Flagge an der Wand; zwei davon sind hier abgebildet. Beide Bilder sind sorgfältig gestellt, und die mehrfachen Schatten der Büromöbel zeigen, dass Parks mit einem aufwendigen Aufbau aus drei Blitzen arbeitete. Die Nahaufnahme ist eines seiner berühmtesten Fotos."
+    },
+    {
+     "url": "https://www.loc.gov/collections/fsa-owi-black-and-white-negatives/articles-and-essays/documenting-america/ella-watson-united-states-government-charwoman/",
+     "title": "Library of Congress, Documenting America: Ella Watson, United States Government Charwoman",
+     "excerpt": "My first photograph of [Watson] was unsubtle. I overdid it and posed her, Grant Wood style, before the American flag, a broom in one hand, a mop in the other, staring straight into the camera.",
+     "kind": "fotograf",
+     "author": "Gordon Parks (zitiert von der Library of Congress)",
+     "translation_de": "Mein erstes Foto von [Watson] war plump. Ich übertrieb es und stellte sie im Stil von Grant Wood vor die amerikanische Flagge, einen Besen in der einen Hand, einen Mopp in der anderen, den Blick direkt in die Kamera."
+    }
+   ]
+  },
+  {
+   "key": "genthe-hairy-kid",
+   "photographer": "Arnold Genthe",
+   "title": "Hairy kid, Chinatown, San Francisco",
+   "year": null,
+   "situation_de": "Ein kleines Mädchen steht in einer Tür in Chinatown, San Francisco. Genthe hat zwei Negative dieser Situation belichtet; die Library of Congress besitzt außerdem seinen „Master photo“-Abzug [Q1].",
+   "frames": [
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/agc/7a09000/7a09000/7a09006v.jpg",
+     "source_url": "https://www.loc.gov/item/2018704920/",
+     "note": "LC-G403-0216-A: Mädchen frontal, Arme gerade herab, harter Schlagschatten links, Türbeschlag oben links."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/agc/7a55000/7a55000/7a55015v.jpg",
+     "source_url": "https://www.loc.gov/item/2018704921/",
+     "note": "LC-G403-0216-B: gleiche Stelle, etwas mehr Abstand, weicheres Licht, mehr Boden vor den Füßen."
+    }
+   ],
+   "chosen": 0,
+   "answer_de": "Laut Katalog ist Genthes „Master photo“ ein Ausschnitt aus dem Negativ 0216-A [Q1]. Meine Einschätzung: In A trennt das harte Seitenlicht die Figur vom dunklen Grund; der Ausschnitt für den Abzug schneidet dann noch den Rand ab und rückt das Kind ganz nach vorn.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2023640865/",
+     "title": "Library of Congress, Katalogeintrag: Hairy kid, Chinatown, San Francisco (Master photo)",
+     "excerpt": "Cropped of similar nitrate neg. image (LC-G403- 0216-A).",
+     "kind": "museum",
+     "translation_de": "Ausschnitt aus dem ähnlichen Nitratnegativ LC-G403-0216-A."
+    }
+   ]
+  },
+  {
+   "key": "genthe-grocery-shop",
+   "photographer": "Arnold Genthe",
+   "title": "A grocery shop, Chinatown, San Francisco",
+   "year": null,
+   "situation_de": "Ein Lebensmittelladen in Chinatown mit großen Laternen über der Auslage. Genthe hat drei Negative von dieser Ladenfront; die Library of Congress besitzt außerdem seinen „Master photo“-Abzug [Q1].",
+   "frames": [
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/agc/7a09000/7a09000/7a09012v.jpg",
+     "source_url": "https://www.loc.gov/item/2018704827/",
+     "note": "LC-G403-0228-A: Hochformat, Laternen oben, Auslage mit Kisten, Blick etwas von links."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/agc/7a08000/7a08900/7a08907r.jpg",
+     "source_url": "https://www.loc.gov/item/2018704828/",
+     "note": "LC-G403-0228-B: Hochformat, näher an den Laternen, Kisten bis zum unteren Rand, Pfosten links."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/agc/7a55000/7a55000/7a55025v.jpg",
+     "source_url": "https://www.loc.gov/item/2018704829/",
+     "note": "LC-G403-0228-C: Querformat, weiter und dunkler, Lichter im Ladeninneren, Laternen klein."
+    }
+   ],
+   "chosen": 1,
+   "answer_de": "Der „Master photo“-Abzug ist laut Katalog ein Ausschnitt aus dem Negativ 0228-B [Q1]. Meine Einschätzung: B ist am dichtesten – Laternen, Waren und Kisten füllen das Hochformat; die Querformat-Fassung C verliert sich im dunklen Inneren.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2023640871/",
+     "title": "Library of Congress, Katalogeintrag: A grocery shop, Chinatown, San Francisco (Master photo)",
+     "excerpt": "Cropped of similar safety neg. (LC-G403- 0228-B).",
+     "kind": "museum",
+     "translation_de": "Ausschnitt aus dem ähnlichen Sicherheitsfilm-Negativ LC-G403-0228-B."
+    }
+   ]
+  },
+  {
+   "key": "gilden-yakuza",
+   "photographer": "Bruce Gilden",
+   "title": "Yakuza, Tokio (Japan, 1998)",
+   "year": 1998,
+   "situation_de": "Tokio 1998: In einem Café in Ginza zündet ein Yakuza einem anderen die Zigarette an; Gilden bittet über seinen Übersetzer, die Geste zu wiederholen – sie dauert höchstens noch eine Minute [Q1].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/11/cortex/nyc98926-scaled.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-yakuza-bruce-gilden/",
+    "grid": "6×6 (senkrechte Filmstreifen, Bilder um 90° gedreht)",
+    "chosen_cell": "3,5",
+    "frame_label": "29",
+    "note": "Rot und weiß umrandet in der 5. Spalte, 3. Bild von oben; Bild 19 (3. Spalte oben) zeigt dieselbe Geste unmarkiert."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/11/cortex/nyc7349-scaled.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-yakuza-bruce-gilden/"
+   },
+   "chosen": null,
+   "answer_de": "Gilden geht einen Bogen von Bild 1 bis 36 durch, markiert, was ihm gefällt, und sucht dann das beste; dieses Bild „jumped off the page“ [Q2]. Ihm gefällt die Hierarchie – der Untergebene gibt Feuer – und der misstrauische Blick des „Bosses“ zur Kamera [Q3]. Meine Einschätzung (Bildvergleich): Das veröffentlichte Bild entspricht dem rot markierten Bild 29; im unmarkierten Bild 19 fehlt der Blick in die Kamera.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-yakuza-bruce-gilden/",
+     "title": "Magnum Photos: Making the Image – Yakuza by Bruce Gilden",
+     "excerpt": "The scene looked wonderful, so I asked through my translator if they could do it again, and they agreed. I thanked them and I went on photographing. The lighting of the cigarette lasted at most another minute.",
+     "kind": "fotograf",
+     "author": "Bruce Gilden",
+     "aspect": "entstehung",
+     "translation_de": "Die Szene sah wunderbar aus, also fragte ich über meinen Übersetzer, ob sie es noch einmal machen könnten, und sie waren einverstanden. Ich dankte ihnen und fotografierte weiter. Das Anzünden der Zigarette dauerte höchstens noch eine Minute."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-yakuza-bruce-gilden/",
+     "title": "Magnum Photos: Making the Image – Yakuza by Bruce Gilden",
+     "excerpt": "When I look at a contact sheet, I go in order from No. 1 to No. 36. I mark the ones I like and, unless something really jumps off the page at me, I go over them again to see which is the best one. With my personal work, I only print what I think is good. When something jumps off the page, it's easy. That photograph jumped off the page.",
+     "kind": "fotograf",
+     "author": "Bruce Gilden",
+     "translation_de": "Wenn ich einen Kontaktbogen anschaue, gehe ich der Reihe nach von Nr. 1 bis Nr. 36. Ich markiere die, die mir gefallen, und wenn mir nicht etwas regelrecht entgegenspringt, gehe ich sie noch einmal durch, um das beste zu finden. Bei meinen freien Arbeiten vergrößere ich nur, was ich für gut halte. Wenn einem etwas entgegenspringt, ist es leicht. Dieses Foto sprang mir entgegen."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-yakuza-bruce-gilden/",
+     "title": "Magnum Photos: Making the Image – Yakuza by Bruce Gilden",
+     "excerpt": "To me, the photograph says a lot about the hierarchy in Japanese society, with the underling lighting the cigarette of the person above him, and I like the wary eye that the 'boss' gives the photographer.",
+     "kind": "fotograf",
+     "author": "Bruce Gilden",
+     "aspect": "deutung",
+     "translation_de": "Für mich sagt das Foto viel über die Hierarchie in der japanischen Gesellschaft: Der Untergebene zündet dem Höhergestellten die Zigarette an – und mir gefällt der misstrauische Blick, den der „Boss“ dem Fotografen zuwirft."
+    }
+   ]
+  },
+  {
+   "key": "depardon-berlin-wall",
+   "photographer": "Raymond Depardon",
+   "title": "The fall of the Berlin Wall, Germany, November 1989",
+   "year": 1989,
+   "situation_de": "Berlin, 11. November 1989, nahe dem Brandenburger Tor: Depardon fotografiert für Libération Menschen, die an der Mauer hämmern; mitten in der Rolle konzentriert er sich auf einen jungen Mann, der oben auf der Mauer sitzt und plötzlich laut schreit [Q1].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/10/cortex/par373773.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-the-wall-by-raymond-depardon/",
+    "grid": "7×6 (letzte Reihen unvollständig)",
+    "chosen_cell": "3,4",
+    "frame_label": "15",
+    "note": "Rot umrandet in der 3. Reihe; die beiden folgenden Bilder (16, 17) sind ebenfalls rot markiert."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/10/cortex/par57289-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-the-wall-by-raymond-depardon/"
+   },
+   "chosen": null,
+   "answer_de": "Auf dem Bogen sieht man, wie Depardon in der Mitte der Rolle zum jungen Mann auf der Mauer wechselt; die Kraft des Bildes liegt für ihn im Schrei [Q1]. Es erschien auf den Titelseiten von Financial Times und Le Monde, galt aber erst mit der Zeit als gutes Bild [Q2]. Meine Einschätzung (Bildvergleich): Gewählt ist Bild 15 – nur hier steht die Figur allein vor dem Himmel; in 16 und 17 schieben sich Köpfe im Vordergrund ins Bild.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-the-wall-by-raymond-depardon/",
+     "title": "Magnum Photos: Making the Image – The Wall by Raymond Depardon",
+     "excerpt": "As you can see on the contact sheet, in the middle of the roll I started to focus on the young man on the wall. He was a punk from the West, and he suddenly screamed very loudly. That's how he got my attention. He screamed and I grabbed my Leica and I shot. The power of the image is made by this rebel yell.",
+     "kind": "fotograf",
+     "author": "Raymond Depardon",
+     "aspect": "entstehung",
+     "translation_de": "Wie man auf dem Kontaktbogen sieht, konzentrierte ich mich in der Mitte der Rolle auf den jungen Mann auf der Mauer. Er war ein Punk aus dem Westen und schrie plötzlich sehr laut. So zog er meine Aufmerksamkeit auf sich. Er schrie, ich griff zur Leica und drückte ab. Die Kraft des Bildes kommt von diesem Rebellenschrei."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-the-wall-by-raymond-depardon/",
+     "title": "Magnum Photos: Making the Image – The Wall by Raymond Depardon",
+     "excerpt": "The picture appeared on the front page of the Financial Times and Le Monde, but it took a while before it became known as a good picture.",
+     "kind": "fotograf",
+     "author": "Raymond Depardon",
+     "aspect": "rezeption",
+     "translation_de": "Das Bild erschien auf der Titelseite der Financial Times und von Le Monde, aber es dauerte eine Weile, bis es als gutes Bild galt."
+    }
+   ]
+  },
+  {
+   "key": "le-querrec-miles-davis",
+   "photographer": "Guy Le Querrec",
+   "title": "US trumpet player Miles Davis, Salle Pleyel, Paris",
+   "year": 1969,
+   "situation_de": "Paris, Salle Pleyel, 3. November 1969, Spätkonzert des Miles-Davis-Quintetts: Davis entfernt sich immer wieder von der Bühnenmitte, um seine Musiker improvisieren zu lassen [Q1].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2021/08/PAR285718-scaled.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-miles-davis/",
+    "grid": "6×7 (senkrechte Filmstreifen)",
+    "chosen_cell": "1,3",
+    "frame_label": "20",
+    "note": "Blau und gelb umrandet, 3. Streifen oben; ähnliche Aufnahmen (17A, 18A) stehen unmarkiert im 4. Streifen."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/par89148-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-miles-davis/"
+   },
+   "chosen": null,
+   "answer_de": "Le Querrec ahnte die Bewegung voraus und stand bereit, als Davis kurz in einem Lichtstrahl vom Boden stehen blieb – Untersicht, Schatten auf dem Vorhang [Q1]. Magnum beschreibt genau diese Fähigkeit zur Vorwegnahme als das, was die Kontaktbögen zeigen [Q2]. Meine Einschätzung (Bildvergleich): Das veröffentlichte Bild entspricht dem markierten Bild 20; die fast gleichen Bilder 17A/18A zeigen, dass die Situation wiederkam – gewählt wurde die klarste Silhouette.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-miles-davis/",
+     "title": "Magnum Photos: Making the Image – Miles Davis (Guy Le Querrec)",
+     "excerpt": "I had a premonition of the move he was going to make. Anticipating it, I was in just the right place when he stopped for an instant in a beam of light that was emanating from the floor, illuminating him in my low angle shot and throwing a shadow on the curtain at the back.",
+     "kind": "fotograf",
+     "author": "Guy Le Querrec",
+     "aspect": "entstehung",
+     "translation_de": "Ich ahnte die Bewegung voraus, die er machen würde. Weil ich sie vorwegnahm, stand ich genau richtig, als er für einen Augenblick in einem Lichtstrahl stehen blieb, der vom Boden kam, ihn in meiner Untersicht beleuchtete und einen Schatten auf den Vorhang dahinter warf."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-miles-davis/",
+     "title": "Magnum Photos: Making the Image – Miles Davis (Guy Le Querrec)",
+     "excerpt": "Le Querrec's contact sheets show us his unique ability to anticipate and prepare for each move of the musicians",
+     "kind": "kurator",
+     "translation_de": "Le Querrecs Kontaktbögen zeigen seine einzigartige Fähigkeit, jede Bewegung der Musiker vorauszuahnen und sich darauf vorzubereiten."
+    }
+   ]
+  },
+  {
+   "key": "burri-sao-paulo",
+   "photographer": "René Burri",
+   "title": "São Paulo, Brazil, 1960 (Men on a rooftop)",
+   "year": 1960,
+   "situation_de": "São Paulo 1960: Burri steigt auf das Dach eines der höchsten Gebäude und sieht mit dem Teleobjektiv Männer, die über eine Terrasse zur Kante gehen und hinunterschauen [Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2026/01/PAR259569_.jpg",
+    "source_url": "https://www.magnumphotos.com/arts-culture/behind-the-image-rene-burris-sao-paulo/",
+    "grid": "7×6 (letzte Reihe unvollständig)",
+    "chosen_cell": "2,4",
+    "frame_label": "",
+    "note": "In der 2. Reihe mit einem aufgeklebten weißen Rahmen markiert; die Nachbarbilder zeigen dieselbe Terrasse mit einem bis vier Männern."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2024/03/PAR8679_.jpg",
+    "source_url": "https://www.magnumphotos.com/arts-culture/behind-the-image-rene-burris-sao-paulo/"
+   },
+   "chosen": null,
+   "answer_de": "Magnum zeigt den Kontaktbogen mit dem Hauptbild „marked in the second row“ [Q1]. Die Männer kamen, gingen zur Kante und schauten hinunter – „and then they finished“ [Q2]. Meine Einschätzung: Die Reihe zeigt die Bewegung der Gruppe; gewählt ist das Bild, in dem vier Silhouetten mit langen Schatten gleichmäßig über die helle Dachfläche verteilt sind.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/behind-the-image-rene-burris-sao-paulo/",
+     "title": "Magnum Photos: Behind the Image – René Burri's São Paulo",
+     "excerpt": "Contact sheet including the featured image of São Paolo marked in the second row.",
+     "kind": "kurator",
+     "translation_de": "Kontaktbogen mit dem Hauptbild von São Paulo, markiert in der zweiten Reihe."
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/behind-the-image-rene-burris-sao-paulo/",
+     "title": "Magnum Photos: Behind the Image – René Burri's São Paulo",
+     "excerpt": "They came walking, and they just went boom boom boom [pointing gesture with his hand]. They came from somewhere, they went to the edge and looked down, and then they finished.",
+     "kind": "fotograf",
+     "author": "René Burri",
+     "aspect": "entstehung",
+     "translation_de": "Sie kamen herübergelaufen, und dann ging es bumm, bumm, bumm [zeigende Geste mit der Hand]. Sie kamen von irgendwoher, gingen zur Kante, schauten hinunter, und dann war es vorbei."
+    }
+   ]
+  },
+  {
+   "key": "abbas-belfast-fireman",
+   "photographer": "Abbas",
+   "title": "A wall crumbles down after having been set on fire, presumably by the IRA, Belfast",
+   "year": 1972,
+   "situation_de": "Belfast 1972: Ein in Brand gesetztes Gebäude stürzt ein, ein Feuerwehrmann weicht mit dem Schlauch aus [Q1][Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2025/11/PAR294544_.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-abbas-in-northern-ireland/",
+    "grid": "6×6",
+    "chosen_cell": "2,5",
+    "frame_label": "",
+    "note": "Rot umrandet in der 2. Reihe; oben Abbas' handschriftliche Notiz zur Rolle."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2023/03/Copy-of-ABA-PAR22.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-abbas-in-northern-ireland/"
+   },
+   "chosen": null,
+   "answer_de": "Magnum zeigt Abbas' Kontaktbogen „showing the image“ mit seiner Notiz zum einstürzenden Gebäude [Q1]. Das Bild hält Glassplitter, Ziegel und Schutt in der Luft fest [Q2]. Meine Einschätzung: Die Nachbarbilder zeigen das brennende Haus vorher und den Rauch danach; nur im markierten Bild fallen Einsturz und Ausweichbewegung des Feuerwehrmanns zusammen.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-abbas-in-northern-ireland/",
+     "title": "Magnum Photos: Behind the Image – Abbas in Northern Ireland",
+     "excerpt": "Abbas's contact sheet from the archives showing the image, with his note, \"building on fire, probably IRA, collapse on fireman.\"",
+     "kind": "kurator",
+     "translation_de": "Abbas' Kontaktbogen aus dem Archiv mit dem Bild und seiner Notiz: „Gebäude in Brand, wahrscheinlich IRA, Einsturz auf Feuerwehrmann.“"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-abbas-in-northern-ireland/",
+     "title": "Magnum Photos: Behind the Image – Abbas in Northern Ireland",
+     "excerpt": "Taken just two months after Bloody Sunday, the image frames a silent chaos, distilled in midair — shards of window panes, bricks and burnt debris are frozen in place.",
+     "kind": "kurator",
+     "aspect": "deutung",
+     "translation_de": "Nur zwei Monate nach dem Bloody Sunday aufgenommen, rahmt das Bild ein stummes Chaos, in der Luft verdichtet – Splitter von Fensterscheiben, Ziegel und verkohlter Schutt sind mitten in der Bewegung erstarrt."
+    }
+   ]
+  },
+  {
+   "key": "freed-police-work-ankle",
+   "photographer": "Leonard Freed",
+   "title": "Police Work – Titelbild (9th Police Precinct, New York)",
+   "year": 1979,
+   "situation_de": "New York 1979, 9. Polizeirevier: Freed begleitet Polizisten außer Dienst, unter anderem im Kraftraum [Q1][Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2025/09/FRL1979007W00058.jpg",
+    "source_url": "https://www.magnumphotos.com/arts-culture/behind-the-image-leonard-freeds-police-work/",
+    "grid": "6×6 (senkrechte Filmstreifen)",
+    "chosen_cell": "3,4",
+    "frame_label": "",
+    "note": "Rot umrandet im 4. Streifen, 3. Bild von oben; weitere Rahmen um Bilder aus dem Kraftraum."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2025/09/nyc63901.jpg",
+    "source_url": "https://www.magnumphotos.com/arts-culture/behind-the-image-leonard-freeds-police-work/"
+   },
+   "chosen": null,
+   "answer_de": "Gewählt wurde das Detail des Knöchels mit der Waffe – das Titelbild von „Police Work“ [Q1]; Magnum zeigt den Bogen „showing the selected image“ [Q2]. Meine Einschätzung: Statt der Porträts an den Geräten wählt Freed den Ausschnitt ohne Gesicht – Waffe, Socke, Schuh erzählen vom Beruf mehr als jede Pose.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/behind-the-image-leonard-freeds-police-work/",
+     "title": "Magnum Photos: Behind the Image – Leonard Freed's Police Work",
+     "excerpt": "The book's cover image frames the detail of an off-duty officer's ankle before he goes to the gym, offering a visceral dose of his daily reality: the weight of the gun against the skin, the body attuned to danger, no visible badge of authority but a frayed shoelace.",
+     "kind": "kurator",
+     "aspect": "deutung",
+     "translation_de": "Das Titelbild des Buchs rahmt das Detail vom Knöchel eines Polizisten außer Dienst, bevor er zum Training geht – ein körperlich spürbarer Ausschnitt seines Alltags: das Gewicht der Waffe auf der Haut, der auf Gefahr eingestellte Körper, kein sichtbares Abzeichen, nur ein ausgefranster Schnürsenkel."
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/behind-the-image-leonard-freeds-police-work/",
+     "title": "Magnum Photos: Behind the Image – Leonard Freed's Police Work",
+     "excerpt": "Contact sheet showing the selected image. 9th Police Precinct. New York City. 1979.",
+     "kind": "kurator",
+     "translation_de": "Kontaktbogen mit dem ausgewählten Bild. 9. Polizeirevier, New York City, 1979."
+    }
+   ]
+  },
+  {
+   "key": "freed-police-work-stairwell",
+   "photographer": "Leonard Freed",
+   "title": "Police Work – Polizist mit Waffe im Treppenhaus, New York",
+   "year": 1978,
+   "situation_de": "New York 1978: Ein Polizist richtet seine Waffe in die Dunkelheit eines Treppenhauses [Q1].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2025/09/FRL2025XXXCUP045.jpg",
+    "source_url": "https://www.magnumphotos.com/arts-culture/behind-the-image-leonard-freeds-police-work/",
+    "grid": "6×6 (senkrechte Filmstreifen)",
+    "chosen_cell": "2,4",
+    "frame_label": "14",
+    "note": "Gelb und rot umrandet im 4. Streifen; ein zweites, rot umrandetes Bild derselben Szene steht unten im 5. Streifen."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/06/cortex/nyc38153-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/arts-culture/behind-the-image-leonard-freeds-police-work/"
+   },
+   "chosen": null,
+   "answer_de": "Magnum zeigt den Bogen „showing the selected image“ [Q2]; die leicht unscharfen Konturen steigern die Spannung [Q1]. Meine Einschätzung (Bildvergleich): Das veröffentlichte Bild entspricht dem gelb markierten Bild 14 – ein Arm, eine Waffe, sonst fast nur Schwarz; im ebenfalls markierten Alternativbild streckt der Polizist beide Arme vor, die Geste ist weniger klar.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/behind-the-image-leonard-freeds-police-work/",
+     "title": "Magnum Photos: Behind the Image – Leonard Freed's Police Work",
+     "excerpt": "Another policeman — who confessed he worried about his family when working the night shift — points his gun into a stairwell's black void. Also available as a limited-edition print, the image's slightly blurred contours heightens the moment's suspense, as the nature of duty meets hesitation, fear, and vigilance.",
+     "kind": "kurator",
+     "aspect": "deutung",
+     "translation_de": "Ein anderer Polizist – er gestand, dass er sich in der Nachtschicht um seine Familie sorgte – zielt mit der Waffe in die schwarze Leere eines Treppenhauses. Die leicht unscharfen Konturen des Bildes steigern die Spannung des Moments, in dem Pflicht auf Zögern, Angst und Wachsamkeit trifft."
+    },
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/behind-the-image-leonard-freeds-police-work/",
+     "title": "Magnum Photos: Behind the Image – Leonard Freed's Police Work",
+     "excerpt": "Contact sheet showing the selected image. New York City. 1978.",
+     "kind": "kurator",
+     "translation_de": "Kontaktbogen mit dem ausgewählten Bild. New York City, 1978."
+    }
+   ]
+  },
+  {
+   "key": "hoepker-ali-studio",
+   "photographer": "Thomas Hoepker",
+   "title": "Muhammad Ali in a boxing outfit posing for studio photographer",
+   "year": 1966,
+   "situation_de": "1966: Muhammad Ali posiert in Boxhose und Handschuhen vor dem Studiohintergrund eines anderen Fotografen; Hoepker fotografiert die Szene [Q1][Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/nyc101929-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+    "grid": "7×5",
+    "chosen_cell": "6,2",
+    "frame_label": "28",
+    "note": "Blau umrandet in der 6. Reihe; die Nachbarbilder 27–30 zeigen dieselbe Studioszene mit und ohne den Fotografen im Vordergrund."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/nyc35483-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/"
+   },
+   "chosen": null,
+   "answer_de": "Magnum stellt das Bild neben diesen Kontaktbogen [Q1][Q2][Q3]; die Markierungen zeigen, wie die Auswahl auf dem Bogen geschärft wurde [Q4]. Meine Einschätzung (Bildvergleich): Gewählt ist Bild 28 – der Studiofotograf ragt links groß ins Bild, Ali steht klein im Licht; erst der Rückenanschnitt macht aus dem Porträt ein Bild über das Fotografiertwerden.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Thomas Hoepker Muhammad Ali in a boxing outfit posing for studio photographer. 1966. © Thomas Hoepker | Magnum Photos",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Thomas Hoepker Muhammad Ali in a boxing outfit posing for studio photographer. 1966. Contact sheet.",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Explore the slideshow to view the relationship between single images and contact sheets",
+     "kind": "kurator",
+     "translation_de": "Die Bildfolge zeigt jeweils das Verhältnis zwischen einzelnem Bild und Kontaktbogen."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Then, the edit marks come in, layered and superimposed, showing how the image choices were honed and refined with returns to the sheet.",
+     "kind": "kurator",
+     "translation_de": "Dann kommen die Auswahlmarkierungen hinzu, übereinander geschichtet; sie zeigen, wie die Bildauswahl bei jeder Rückkehr zum Bogen geschärft und verfeinert wurde."
+    }
+   ]
+  },
+  {
+   "key": "steele-perkins-teds",
+   "photographer": "Chris Steele-Perkins",
+   "title": "Market Tavern, Bradford (Teddy Boys)",
+   "year": 1976,
+   "situation_de": "Bradford 1976, Market Tavern: Steele-Perkins porträtiert „Teddy Boys“ in ihrer Kneipe [Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/lon118292-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+    "grid": "7×6",
+    "chosen_cell": "3,2",
+    "frame_label": "",
+    "note": "Rot umrandet mit gelbem Kreuz in der 3. Reihe; ein Bild der Reihe darüber ist rot durchgestrichen."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/lon35483-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/"
+   },
+   "chosen": null,
+   "answer_de": "Magnum stellt das Bild neben den Kontaktbogen [Q1][Q2][Q3]. Meine Einschätzung (Bildvergleich): Gewählt ist das markierte Bild in der 3. Reihe – der junge Mann kämmt sich mit erhobenen Armen die Tolle, der Blick geht an der Kamera vorbei; das durchgestrichene Bild darüber zeigt dieselbe Geste mit verdecktem Gesicht.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Chris Steele-Perkins Market Tavern. Bradford, UK. 1976. © Chris Steele-Perkins | Magnum Photos",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Chris Steele-Perkins captures iconic portraits of 'Teddy Boy' fashion in Market Tavern in Bradford, UK.",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Explore the slideshow to view the relationship between single images and contact sheets",
+     "kind": "kurator",
+     "translation_de": "Die Bildfolge zeigt jeweils das Verhältnis zwischen einzelnem Bild und Kontaktbogen."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Then, the edit marks come in, layered and superimposed, showing how the image choices were honed and refined with returns to the sheet.",
+     "kind": "kurator",
+     "translation_de": "Dann kommen die Auswahlmarkierungen hinzu, übereinander geschichtet; sie zeigen, wie die Bildauswahl bei jeder Rückkehr zum Bogen geschärft und verfeinert wurde."
+    }
+   ]
+  },
+  {
+   "key": "berry-fordsburg-cafe",
+   "photographer": "Ian Berry",
+   "title": "Affection between two people in a multi-racial cafe, Fordsburg, Johannesburg",
+   "year": 1961,
+   "situation_de": "Johannesburg 1961: ein gemischtes Café mit Jukebox im Viertel Fordsburg [Q1][Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/lon105949-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+    "grid": "8×6 (unregelmäßig zugeschnittene Streifen)",
+    "chosen_cell": "2,5",
+    "frame_label": "",
+    "note": "Rot-gelb umrandet in der 2. Reihe; das Bild daneben zeigt fast dieselbe Szene."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/lon1848-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/"
+   },
+   "chosen": null,
+   "answer_de": "Magnum stellt das Bild neben den Kontaktbogen [Q1][Q2][Q3]. Meine Einschätzung (Bildvergleich): Gewählt ist das markierte Bild – der Mann mit Mütze lacht, die Frau legt die Hand an sein Gesicht; im Nachbarbild ist die Geste noch nicht so offen.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Ian Berry Affection between two people in a multi-racial cafe. Gauteng, Fordsburg, Johannesburg, South Africa. 1961.",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Ian Berry A multi-racial cafe with a jukebox. Fordsburg, Johannesburg, South Africa. 1961. Contact sheet.",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Explore the slideshow to view the relationship between single images and contact sheets",
+     "kind": "kurator",
+     "translation_de": "Die Bildfolge zeigt jeweils das Verhältnis zwischen einzelnem Bild und Kontaktbogen."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Then, the edit marks come in, layered and superimposed, showing how the image choices were honed and refined with returns to the sheet.",
+     "kind": "kurator",
+     "translation_de": "Dann kommen die Auswahlmarkierungen hinzu, übereinander geschichtet; sie zeigen, wie die Bildauswahl bei jeder Rückkehr zum Bogen geschärft und verfeinert wurde."
+    }
+   ]
+  },
+  {
+   "key": "glinn-elizabeth-taylor",
+   "photographer": "Burt Glinn",
+   "title": "Elizabeth Taylor on the set of 'Suddenly Last Summer', Sagaro",
+   "year": 1959,
+   "situation_de": "Spanien 1959: Elizabeth Taylor am Strand beim Dreh von „Suddenly, Last Summer“ [Q1][Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/nyc48317-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+    "grid": "5×6",
+    "chosen_cell": "2,5",
+    "frame_label": "13",
+    "note": "Rot umrandet in der 2. Reihe; auch Bild 10 und die Bilder daneben tragen Rahmen."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/nyc6465-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/"
+   },
+   "chosen": null,
+   "answer_de": "Magnum stellt das Bild neben den Kontaktbogen [Q1][Q2][Q3]. Meine Einschätzung (Bildvergleich): Gewählt ist Bild 13 – Taylor kniet im Sand, der Mann steht angeschnitten daneben, sein Schatten fällt quer ins Bild; die früheren Bilder zeigen sie allein am Wasser.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Burt Glinn Twenty-five-year-old Elizabeth Taylor on the set of 'Suddenly Last Summer', in which she co-stars with Katharine Hepburn and Montgomery Clift. Sagaro, Spain. 1959.",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Burt Glinn Elizabeth Taylor on the film set of 'Suddenly Last Summer\" this was Taylor's first film after the death of her 3rd husband, Mike Todd, in a plane crash.",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Explore the slideshow to view the relationship between single images and contact sheets",
+     "kind": "kurator",
+     "translation_de": "Die Bildfolge zeigt jeweils das Verhältnis zwischen einzelnem Bild und Kontaktbogen."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Then, the edit marks come in, layered and superimposed, showing how the image choices were honed and refined with returns to the sheet.",
+     "kind": "kurator",
+     "translation_de": "Dann kommen die Auswahlmarkierungen hinzu, übereinander geschichtet; sie zeigen, wie die Bildauswahl bei jeder Rückkehr zum Bogen geschärft und verfeinert wurde."
+    }
+   ]
+  },
+  {
+   "key": "abbas-tehran-embassy",
+   "photographer": "Abbas",
+   "title": "Armed militants outside the United States Embassy, Tehran",
+   "year": 1979,
+   "situation_de": "Teheran, November 1979: Abbas fotografiert die Menge vor der US-Botschaft, in der Diplomaten als Geiseln festgehalten werden [Q1][Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/par373639-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+    "grid": "7×6",
+    "chosen_cell": "5,3",
+    "frame_label": "27",
+    "note": "Rot umrandet in der 5. Reihe; Bild 26 daneben zeigt dieselben Männer mit erhobenen Armen."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/par74-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/"
+   },
+   "chosen": null,
+   "answer_de": "Magnum stellt das Bild neben den Kontaktbogen [Q1][Q2][Q3]. Meine Einschätzung (Bildvergleich): Gewählt ist Bild 27; Bild 26 ist fast gleich, doch in 27 schließen die erhobenen, verschränkten Hände der beiden Männer die Gruppe nach oben ab.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Abbas Armed militants outside the United States Embassy, where diplomats are held hostages. Tehran, Iran. 1979.",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "This contact sheet shows images of the Iran hostage crisis, where US diplomats were held against their will",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Explore the slideshow to view the relationship between single images and contact sheets",
+     "kind": "kurator",
+     "translation_de": "Die Bildfolge zeigt jeweils das Verhältnis zwischen einzelnem Bild und Kontaktbogen."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Then, the edit marks come in, layered and superimposed, showing how the image choices were honed and refined with returns to the sheet.",
+     "kind": "kurator",
+     "translation_de": "Dann kommen die Auswahlmarkierungen hinzu, übereinander geschichtet; sie zeigen, wie die Bildauswahl bei jeder Rückkehr zum Bogen geschärft und verfeinert wurde."
+    }
+   ]
+  },
+  {
+   "key": "parr-bad-weather-dublin",
+   "photographer": "Martin Parr",
+   "title": "O'Connell Bridge, from 'Bad Weather', Dublin",
+   "year": 1981,
+   "situation_de": "Dublin, Oktober 1981: Parr fotografiert auf der O'Connell Bridge Passanten im Regen für seine Serie „Bad Weather“ [Q1][Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/lon119238-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+    "grid": "6×6 (senkrechte Filmstreifen)",
+    "chosen_cell": "3,1",
+    "frame_label": "28",
+    "note": "Gelb umrandet und angekreuzt im 1. Streifen; ein zweites gelb markiertes Bild steht im 6. Streifen."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/lon28007-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/"
+   },
+   "chosen": null,
+   "answer_de": "Magnum stellt das Bild neben den Kontaktbogen [Q1][Q2][Q3]. Meine Einschätzung (Bildvergleich): Gewählt ist Bild 28 – eine Frau trägt einen Karton über dem Kopf, daneben zwei Schirme; das andere markierte Bild zeigt Passanten am Gitter ohne diese Pointe.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Martin Parr O'Connell Bridge. From 'Bad Weather'. Dublin, Ireland. October, 1981.",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Martin Parr captures passersby grappling with an unseen yet visible force: bad weather, in this contact sheet from the series and debut book, Bad Weather, shot in O'Connell Bridge, Dublin, Ireland,",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Explore the slideshow to view the relationship between single images and contact sheets",
+     "kind": "kurator",
+     "translation_de": "Die Bildfolge zeigt jeweils das Verhältnis zwischen einzelnem Bild und Kontaktbogen."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Then, the edit marks come in, layered and superimposed, showing how the image choices were honed and refined with returns to the sheet.",
+     "kind": "kurator",
+     "translation_de": "Dann kommen die Auswahlmarkierungen hinzu, übereinander geschichtet; sie zeigen, wie die Bildauswahl bei jeder Rückkehr zum Bogen geschärft und verfeinert wurde."
+    }
+   ]
+  },
+  {
+   "key": "list-portofino-dog",
+   "photographer": "Herbert List",
+   "title": "Man and Dog in Portofino (Dogs in Italy)",
+   "year": 1936,
+   "situation_de": "Portofino 1936: List fotografiert einen Dalmatiner und einen jungen Mann am Meer. Der Bogen ist eine Rekonstruktion [Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/lon135135-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+    "grid": "4×3 (rekonstruierter Bogen)",
+    "chosen_cell": "3,2",
+    "frame_label": "",
+    "note": "Mitte der 3. Reihe: der Hund sitzt auf einem Kissen vor den Beinen des Mannes."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/par132751-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/"
+   },
+   "chosen": null,
+   "answer_de": "Magnum stellt das Bild neben den rekonstruierten Kontaktbogen [Q1][Q2][Q3]. Meine Einschätzung (Bildvergleich): Gewählt ist das mittlere Bild der 3. Reihe; im fertigen Bild sind Mann und Hund zu einer Form verschränkt, der Kopf des Mannes fehlt – nur Beine, Füße und der aufblickende Hund.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Herbert List Dogs In Italy. Portofino, Liguria, Italy. 1936.",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Herbert List Reconstructed contact sheet for the image Man and Dog in Portofino. Liguria, Italy. 1936. Contact sheet.",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Explore the slideshow to view the relationship between single images and contact sheets",
+     "kind": "kurator",
+     "translation_de": "Die Bildfolge zeigt jeweils das Verhältnis zwischen einzelnem Bild und Kontaktbogen."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "Then, the edit marks come in, layered and superimposed, showing how the image choices were honed and refined with returns to the sheet.",
+     "kind": "kurator",
+     "translation_de": "Dann kommen die Auswahlmarkierungen hinzu, übereinander geschichtet; sie zeigen, wie die Bildauswahl bei jeder Rückkehr zum Bogen geschärft und verfeinert wurde."
+    }
+   ]
+  }
+ ],
+ "versions": [
+  {
+   "key": "apollo11-visor-release",
+   "photographer": "Neil Armstrong",
+   "title": "Aldrin-Porträt AS11-40-5903 – Filmscan und Pressefassung",
+   "a": {
+    "image_url": "https://nssdc.gsfc.nasa.gov/imgcat/higher_res/apollo/as11_40_5903.jpg",
+    "source_url": "https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/a11_h_40_5903.html",
+    "label_de": "Fassung A: Aldrin kleiner im Bild, oben ein breiter schwarzer Himmel über dem Helm."
+   },
+   "b": {
+    "image_url": "https://images-assets.nasa.gov/image/as11-40-5903/as11-40-5903~large.jpg",
+    "source_url": "https://images.nasa.gov/details/as11-40-5903",
+    "label_de": "Fassung B: quadratischer Ausschnitt, Helm und Rucksack stoßen an den oberen Rand."
+   },
+   "published": "a",
+   "difference_de": "Auf dem Originalfilm stößt Aldrins Rucksack an den oberen Bildrand [Q1]. Für die Veröffentlichung wurde das Bild unten und seitlich beschnitten und oben um eine schwarze Fläche ergänzt [Q1]; diese Fassung stand schon wenige Tage nach der Rückkehr in Life [Q2]. Meine Einschätzung: Der erfundene Himmel gibt der Figur „Luft“ – ein klassischer Bildredaktionsgriff, der aus dem randvollen Dokument ein ruhiges Titelbild macht.",
+   "sources": [
+    {
+     "url": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/a11-5903history.html",
+     "title": "Apollo Lunar Surface Journal: A Brief History of AS11-40-5903 (Eric M. Jones)",
+     "excerpt": "When the image was prepared for release for publication soon after the mission, it was cropped at the bottom and sides, and a black area was added at the top to give the released version visual balance.",
+     "kind": "wissenschaft",
+     "author": "Eric M. Jones",
+     "translation_de": "Als das Bild kurz nach der Mission zur Veröffentlichung vorbereitet wurde, beschnitt man es unten und an den Seiten und fügte oben eine schwarze Fläche hinzu, um der Pressefassung optisches Gleichgewicht zu geben."
+    },
+    {
+     "url": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/a11-5903history.html",
+     "title": "Apollo Lunar Surface Journal: A Brief History of AS11-40-5903 (Eric M. Jones)",
+     "excerpt": "The addition of the black area in prints made for publication purposes seems to have been done within days of the return of the film from the Moon.",
+     "kind": "wissenschaft",
+     "author": "Eric M. Jones",
+     "translation_de": "Die schwarze Fläche wurde den Abzügen für die Veröffentlichung offenbar schon wenige Tage nach der Rückkehr des Films vom Mond hinzugefügt."
+    },
+    {
+     "url": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/a11-5903history.html",
+     "title": "Apollo Lunar Surface Journal: A Brief History of AS11-40-5903 (Eric M. Jones)",
+     "excerpt": "Clearly, although a black area was added at the top of prints released for publication, no attempt was made to draw in an antenna.",
+     "kind": "wissenschaft",
+     "author": "Eric M. Jones",
+     "translation_de": "Obwohl oben eine schwarze Fläche ergänzt wurde, versuchte man offensichtlich nicht, die Antenne hineinzuzeichnen."
+    }
+   ]
+  },
+  {
+   "key": "parks-american-gothic-print",
+   "photographer": "Gordon Parks",
+   "title": "Government charwoman (American Gothic) – FSA-Negativ und späterer Abzug",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b14000/8b14800/8b14845v.jpg",
+    "source_url": "https://www.loc.gov/item/2017765074/",
+    "label_de": "Fassung A: ganzes Negativ mit schwarzem Rand und Nummer, Besen und Mopp vollständig, viel Flagge über dem Kopf."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/05800/05809v.jpg",
+    "source_url": "https://www.loc.gov/item/2016646280/",
+    "label_de": "Fassung B: Abzug mit Signatur, enger beschnitten, dunkler und kontrastreicher."
+   },
+   "published": null,
+   "difference_de": "A ist das FSA-Negativ von 1942 [Q1]; B ist ein großer Silbergelatine-Abzug derselben Aufnahme, „printed later“ [Q2]. Meine Einschätzung: Der späte Abzug ist enger gefasst und deutlich dunkler gedruckt – die Flagge wird zur schweren Wand, das Gesicht rückt näher an die Bildmitte.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2017765074/",
+     "title": "Library of Congress, Katalogeintrag LC-USF34-013407-C",
+     "excerpt": "Washington, D.C. Government charwoman",
+     "kind": "museum"
+    },
+    {
+     "url": "https://www.loc.gov/item/2016646280/",
+     "title": "Library of Congress, Katalogeintrag: American Gothic (Gordon Parks, späterer Abzug)",
+     "excerpt": "[1942, printed later]",
+     "kind": "museum",
+     "translation_de": "1942 aufgenommen, später abgezogen."
+    },
+    {
+     "url": "https://www.loc.gov/item/2016646280/",
+     "title": "Library of Congress, Katalogeintrag: American Gothic (Gordon Parks, späterer Abzug)",
+     "excerpt": "Photograph shows Farm Security Administration employee Ella Watson standing with mop and broom in front of American flag.",
+     "kind": "museum",
+     "translation_de": "Das Foto zeigt Ella Watson, Angestellte der Farm Security Administration, mit Mopp und Besen vor der amerikanischen Flagge."
+    }
+   ]
+  },
+  {
+   "key": "lee-chicago-family-retouch",
+   "photographer": "Russell Lee",
+   "title": "African-American family living in crowded quarters, Chicago – retuschiert und unretuschiert",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a20000/3a23000/3a23200/3a23275r.jpg",
+    "source_url": "https://www.loc.gov/item/2017788819/",
+    "label_de": "Fassung A: Reproduktion LC-USZ62-22188, Mädchen in der Mitte mit geschlossenem Mund."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a30000/3a31000/3a31700/3a31743r.jpg",
+    "source_url": "https://www.loc.gov/item/2024666538/",
+    "label_de": "Fassung B: Reproduktion LC-USZ62-31179 nach dem Archivabzug, Mädchen in der Mitte streckt die Zunge heraus."
+   },
+   "published": null,
+   "difference_de": "Laut Katalog ist die Kopie LC-USZ62-22188 retuschiert und zeigt das Mädchen ohne herausgestreckte Zunge, die Kopie LC-USZ62-31179 ist unretuschiert [Q1]; das Originalnegativ fehlt [Q2]. Meine Einschätzung: Ein winziger Eingriff verändert den Ton des ganzen Bildes – mit Zunge ist es ein lebendiger Augenblick, ohne sie ein ernstes Sozialdokument.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2017788819/",
+     "title": "Library of Congress, Katalogeintrag LC-USF34-038621-D",
+     "excerpt": "Copy negative LC-USZ62-22188, LOT 3291 (H) is retouched, showing girl without tongue out.",
+     "kind": "museum",
+     "translation_de": "Das Kopienegativ LC-USZ62-22188 ist retuschiert und zeigt das Mädchen ohne herausgestreckte Zunge."
+    },
+    {
+     "url": "https://www.loc.gov/item/2017788819/",
+     "title": "Library of Congress, Katalogeintrag LC-USF34-038621-D",
+     "excerpt": "Copy negative LC-USZ62-31179, LOT 1078 (M) is unretouched, showing girl with tongue out.",
+     "kind": "museum",
+     "translation_de": "Das Kopienegativ LC-USZ62-31179 ist unretuschiert und zeigt das Mädchen mit herausgestreckter Zunge."
+    }
+   ]
+  },
+  {
+   "key": "genthe-native-son",
+   "photographer": "Arnold Genthe",
+   "title": "A native son, Chinatown, San Francisco – Master-Abzug und Negativ",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a40000/3a41000/3a41700/3a41799r.jpg",
+    "source_url": "https://www.loc.gov/item/2023640859/",
+    "label_de": "Fassung A: Hochformat, das Kind füllt fast das ganze Bild, Rasen als Grund."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/agc/7a08000/7a08900/7a08985v.jpg",
+    "source_url": "https://www.loc.gov/item/2018704835/",
+    "label_de": "Fassung B: Querformat, das Kind klein in der Mitte einer Wiese, Bäume und Parkweg dahinter."
+   },
+   "published": "a",
+   "difference_de": "A ist Genthes „Master photo“, laut Katalog ein Ausschnitt aus dem Negativ B [Q1][Q2]. Meine Einschätzung: Aus einer Parkszene wird ein Kinderporträt – Bäume, Weg und Bildrand fallen weg, das Hochformat zwingt den Blick auf Gesicht und Kleidung.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2023640859/",
+     "title": "Library of Congress, Katalogeintrag: A native son, Chinatown, San Francisco (Master photo)",
+     "excerpt": "Image is a cropped version of nitrate neg. in (LC-G403- 0077).",
+     "kind": "museum"
+    },
+    {
+     "url": "https://www.loc.gov/item/2023640859/",
+     "title": "Library of Congress, Katalogeintrag: A native son, Chinatown, San Francisco (Master photo)",
+     "excerpt": "Master photo, case 3.",
+     "kind": "museum"
+    }
+   ]
+  },
+  {
+   "key": "genthe-slave-girls",
+   "photographer": "Arnold Genthe",
+   "title": "The street of the slave girls, Chinatown, San Francisco – Master-Abzug und Negativ",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a40000/3a41000/3a41800/3a41802r.jpg",
+    "source_url": "https://www.loc.gov/item/2023640862/",
+    "label_de": "Fassung A: enger Ausschnitt, die gebückte Frau und der Mann an der Tür groß im Bild."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/agc/7a08000/7a08900/7a08933v.jpg",
+    "source_url": "https://www.loc.gov/item/2018705124/",
+    "label_de": "Fassung B: Glasnegativ mit beschädigten Rändern, viel Hauswand oben, Papierfetzen auf dem Pflaster vorn."
+   },
+   "published": "a",
+   "difference_de": "A ist Genthes „Master photo“, laut Katalog aus dem Glasnegativ 0043-A (B) bzw. seiner Kopie beschnitten [Q1][Q2]. Meine Einschätzung: Der Ausschnitt streicht Fassade, Unrat und Negativränder und rückt die beiden Figuren zusammen – die Gasse wird zur Bühne für eine kleine Begegnung.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2023640862/",
+     "title": "Library of Congress, Katalogeintrag: The street of the slave girls, Chinatown, San Francisco (Master photo)",
+     "excerpt": "Cropped of similar glass negative image (LC-G403- 0043-A) and safety neg. (LC-G403- 0043-B).",
+     "kind": "museum"
+    },
+    {
+     "url": "https://www.loc.gov/item/2023640862/",
+     "title": "Library of Congress, Katalogeintrag: The street of the slave girls, Chinatown, San Francisco (Master photo)",
+     "excerpt": "Master photo, case 3.",
+     "kind": "museum"
+    }
+   ]
+  },
+  {
+   "key": "genthe-hairy-kid-crop",
+   "photographer": "Arnold Genthe",
+   "title": "Hairy kid, Chinatown, San Francisco – Master-Abzug und Negativ",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a40000/3a41000/3a41800/3a41806r.jpg",
+    "source_url": "https://www.loc.gov/item/2023640865/",
+    "label_de": "Fassung A: schmales Hochformat, das Mädchen bis knapp unter die Füße, Türbeschlag abgeschnitten."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/agc/7a09000/7a09000/7a09006v.jpg",
+    "source_url": "https://www.loc.gov/item/2018704920/",
+    "label_de": "Fassung B: Negativ mit Nummer 216-A, mehr Boden und Wand, Türbeschlag oben links."
+   },
+   "published": "a",
+   "difference_de": "A ist Genthes „Master photo“, laut Katalog ein Ausschnitt aus dem Negativ 0216-A [Q1][Q2]. Meine Einschätzung: Der Beschnitt entfernt den Beschlag und die Nummer – nichts lenkt mehr vom Kind und seinem Schatten ab.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2023640865/",
+     "title": "Library of Congress, Katalogeintrag: Hairy kid, Chinatown, San Francisco (Master photo)",
+     "excerpt": "Cropped of similar nitrate neg. image (LC-G403- 0216-A).",
+     "kind": "museum"
+    },
+    {
+     "url": "https://www.loc.gov/item/2023640865/",
+     "title": "Library of Congress, Katalogeintrag: Hairy kid, Chinatown, San Francisco (Master photo)",
+     "excerpt": "Master photo, case 3.",
+     "kind": "museum"
+    }
+   ]
+  },
+  {
+   "key": "genthe-picnic-portsmouth-square",
+   "photographer": "Arnold Genthe",
+   "title": "A picnic on Portsmouth Square, Chinatown, San Francisco – Master-Abzug und Negativ",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a40000/3a41000/3a41800/3a41819r.jpg",
+    "source_url": "https://www.loc.gov/item/2023640875/",
+    "label_de": "Fassung A: Gruppe am Rasenrand groß, Bäume und Fassade nur angeschnitten."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/agc/7a08000/7a08900/7a08986v.jpg",
+    "source_url": "https://www.loc.gov/item/2018704836/",
+    "label_de": "Fassung B: Negativ mit Nummer 81, Gruppe kleiner, Gebäude mit vielen Fenstern dahinter, Rasenkante als Diagonale."
+   },
+   "published": "a",
+   "difference_de": "A ist Genthes „Master photo“, laut Katalog ein Ausschnitt aus dem Negativ 0081 [Q1][Q2]. Meine Einschätzung: Der Ausschnitt drängt das moderne Gebäude im Hintergrund zurück und macht aus der Platzansicht eine intime Familienszene.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2023640875/",
+     "title": "Library of Congress, Katalogeintrag: A picnic on Portsmouth Square, Chinatown, San Francisco (Master photo)",
+     "excerpt": "Cropped of similar nitrate neg. image (LC-G403- 0081).",
+     "kind": "museum"
+    },
+    {
+     "url": "https://www.loc.gov/item/2023640875/",
+     "title": "Library of Congress, Katalogeintrag: A picnic on Portsmouth Square, Chinatown, San Francisco (Master photo)",
+     "excerpt": "Master photo, case 3.",
+     "kind": "museum"
+    }
+   ]
+  },
+  {
+   "key": "genthe-fleeing-camera",
+   "photographer": "Arnold Genthe",
+   "title": "Fleeing from the camera, Chinatown, San Francisco – Master-Abzug und Negativ",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a40000/3a41000/3a41800/3a41810r.jpg",
+    "source_url": "https://www.loc.gov/item/2023640867/",
+    "label_de": "Fassung A: drei Figuren groß in der Bildmitte, Ladenfront dahinter, rechter Teil der Straße fehlt."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/agc/7a09000/7a09100/7a09124r.jpg",
+    "source_url": "https://www.loc.gov/item/2018704913/",
+    "label_de": "Fassung B: ganze Straßenszene, rechts ein Mann in westlicher Kleidung mit Bowler, viel Pflaster."
+   },
+   "published": "a",
+   "difference_de": "A ist Genthes „Master photo“, laut Katalog aus dem Negativ 0087 beschnitten [Q1][Q2]. Meine Einschätzung: Der Ausschnitt entfernt rechts den Mann in westlicher Kleidung – Chinatown wirkt dadurch geschlossener und „fremder“, als die Straße war.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2023640867/",
+     "title": "Library of Congress, Katalogeintrag: Fleeing from the camera, Chinatown, San Francisco (Master photo)",
+     "excerpt": "Cropped of similar safety neg. (LC-G403- 0087) and glass neg. image (LC-G4033- 0087).",
+     "kind": "museum"
+    },
+    {
+     "url": "https://www.loc.gov/item/2023640867/",
+     "title": "Library of Congress, Katalogeintrag: Fleeing from the camera, Chinatown, San Francisco (Master photo)",
+     "excerpt": "Master photo, case 3.",
+     "kind": "museum"
+    }
+   ]
+  },
+  {
+   "key": "evans-westmoreland-boy",
+   "photographer": "Walker Evans",
+   "title": "Westmoreland County, Pennsylvania (a boy) – Negativ und beschnittener Archivabzug",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/fsa/8a19000/8a19500/8a19568v.jpg",
+    "source_url": "https://www.loc.gov/item/2017733316/",
+    "label_de": "Fassung A: Querformat, junger Mann mit Schiebermütze links, links Arm und Blecheimer, rechts Straße und Bäume."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3b40000/3b43000/3b43700/3b43793r.jpg",
+    "source_url": "https://www.loc.gov/item/89713365/",
+    "label_de": "Fassung B: Hochformat, nur der junge Mann, Kopf bis Brust, Bretterwand dahinter."
+   },
+   "published": null,
+   "difference_de": "Von diesem Negativ wurden zwei Archivabzüge gemacht; einer ist beschnitten und zeigt nur den jungen Mann [Q1][Q2]. Meine Einschätzung: Der Beschnitt verwandelt einen Straßenmoment (Eimer, Arm eines Zweiten, Landstraße) in ein Porträt – Evans' Querformat-Erzählung wird zur Typologie eines Gesichts.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2017733316/",
+     "title": "Library of Congress, Katalogeintrag LC-USF33-009012-M1",
+     "excerpt": "Two file prints made. One is cropped and shows only the young man.",
+     "kind": "museum",
+     "translation_de": "Es wurden zwei Archivabzüge gemacht. Einer ist beschnitten und zeigt nur den jungen Mann."
+    },
+    {
+     "url": "https://www.loc.gov/item/2017733316/",
+     "title": "Library of Congress, Katalogeintrag LC-USF33-009012-M1",
+     "excerpt": "LC-USZ62-97700 (b&w film copy neg. of file print of cropped image)",
+     "kind": "museum",
+     "translation_de": "LC-USZ62-97700: Kopienegativ des Archivabzugs der beschnittenen Fassung."
+    }
+   ]
+  },
+  {
+   "key": "soth-mother-daughter-negative",
+   "photographer": "Alec Soth",
+   "title": "Mother and daughter, Davenport – Originalnegativ und Buchbild",
+   "a": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/11/cortex/lon148539-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-mother-and-daughter-by-alec-soth/",
+    "label_de": "Fassung A: 8×10-Farbnegativ in der Hülle, Farben umgekehrt (orange Maske), aufgeklebte Notizen."
+   },
+   "b": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/11/cortex/nyc39698.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-mother-and-daughter-by-alec-soth/",
+    "label_de": "Fassung B: Positiv in natürlichen Farben, blaue Morgenmäntel vor rotem Sofa."
+   },
+   "published": "b",
+   "difference_de": "Magnum zeigt das Originalnegativ mit Soths Notizen [Q1] und das fertige Bild aus dem Buch [Q2]. Meine Einschätzung: Im Negativ sieht man nur Formen und Tonwerte; erst der Abzug entscheidet über die Farben – das Blau der Mäntel gegen das Rot des Sofas trägt das Buchbild.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-mother-and-daughter-by-alec-soth/",
+     "title": "Magnum Photos: Making the Image – Mother and Daughter by Alec Soth",
+     "excerpt": "Mother and daughter. Sleeping by the Mississippi. Original negative with photographer notes.",
+     "kind": "kurator",
+     "translation_de": "Mutter und Tochter. Sleeping by the Mississippi. Originalnegativ mit Notizen des Fotografen."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-mother-and-daughter-by-alec-soth/",
+     "title": "Magnum Photos: Making the Image – Mother and Daughter by Alec Soth",
+     "excerpt": "You can see the final image from the book at the bottom of this page.",
+     "kind": "kurator",
+     "translation_de": "Das endgültige Bild aus dem Buch ist unten auf dieser Seite zu sehen."
+    }
+   ]
+  }
+ ],
+ "sequences": []
+}
