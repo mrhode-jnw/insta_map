@@ -127,7 +127,7 @@ for c in bp.load_json(os.path.join(ROOT, "cn", "claude_spots_cn.json"), []):
     places.append({
         # plan: Ort steht im offiziellen Reiseplan → normaler Spot, kein Tipp (ID bleibt für Status/Touren)
         "id": "claude-cn-" + spot_id(c["name"])[3:], "region": "cn", "by_claude": not c.get("plan"),
-        "name": c["name"], "district": c["district"], "category": c["cat"], "note": "",
+        "name": c["name"], "district": c["district"], "category": c.get("cat", ""), "note": "",
         "tip": c.get("tip", ""), "address": c["district"], "lat": c["lat"], "lng": c["lng"],
         "approx": c.get("approx", False), "image": c.get("image"), "caption": "", "post_url": "",
         "username": "", "profile_url": "", "posts": [], "pop": c.get("pop"), "pop_reason": c.get("reason", ""),
@@ -138,7 +138,7 @@ for c in bp.load_json(os.path.join(ROOT, "cn", "claude_spots_cn.json"), []):
 for e in bp.load_json(os.path.join(ROOT, "cn", "extra_spots.json"), []):
     places.append({
         "id": spot_id(e["name"]), "region": "cn", "name": e["name"], "district": e["district"],
-        "category": e["cat"], "note": e.get("note", ""), "address": e["district"], "lat": e["lat"], "lng": e["lng"],
+        "category": e.get("cat", ""), "note": e.get("note", ""), "address": e["district"], "lat": e["lat"], "lng": e["lng"],
         "approx": e.get("approx", False), "image": None, "caption": "", "post_url": "", "username": "",
         "profile_url": "", "posts": [], "source": e.get("source", ""),
         **({"ok": e["ok"]} if e.get("ok") else {}), **({"unsure": e["unsure"]} if e.get("unsure") else {}), **({"kind": e["kind"]} if e.get("kind") else {}),

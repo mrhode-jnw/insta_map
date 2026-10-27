@@ -102,7 +102,8 @@ Für jeden Eintrag (`code`):
      `add("Name 中文名", "Suchbegriff, Stadtteil, Hong Kong", "Stadtteil", "Kategorie", [i], "kurzer Hinweis")`
      - Den **Namen** möglichst so wählen wie in der nummerierten Liste der Caption (dann findet
        `build_hk.py` das passende Karussell-Bild automatisch).
-     - Kategorie: Aussicht, Architektur, Street, Neon, Tram, Markt, Dorf, Food, Tempel oder Strand.
+     - Kategorie wird **nicht mehr recherchiert** (keine Filter/Anzeige mehr): leeren String `""` übergeben. Einzige Ausnahme
+       `"Food"` für Restaurants/Essen (erscheinen unter „🎒 Erlebnisse“).
    - Kein konkreter Ort → nichts eintragen (der Post erscheint dann unter „Ohne konkreten Ort“).
 4. **Orte in Festland-China** (Shanghai, Chongqing, Guilin …) gehören nicht in `hk/spots.py`, sondern in
    `cn/spots_cn.py` (Region 🇨🇳). Dort den Post in `POSTS` mit der nächsten freien Nummer eintragen (den

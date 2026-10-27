@@ -75,7 +75,8 @@
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
   #list .d { margin-left: auto; color: var(--me); font-size: 13px; white-space: nowrap; }
   #empty { padding: 16px; color: var(--muted); }
-  #chips { display: flex; gap: 6px; overflow-x: auto; padding-top: 8px; scrollbar-width: none; }
+  #chips { display: none !important; }
+  #chips0 { display: flex; gap: 6px; overflow-x: auto; padding-top: 8px; scrollbar-width: none; }
   #chips::-webkit-scrollbar { display: none; }
   #chips button { flex: none; border: 1px solid var(--line); background: transparent; color: var(--fg);
     border-radius: 999px; padding: 5px 11px; font-size: 13px; cursor: pointer; }
@@ -1092,7 +1093,6 @@
     <div id="addKind" class="kindsw" role="radiogroup" aria-label="Art des Spots">
       <button type="button" data-k="" class="on" role="radio" aria-checked="true">📷 Foto-Spot</button><button type="button" data-k="sight" role="radio" aria-checked="false">🎒 Erlebnis</button>
     </div>
-    <select id="addCat"></select>
     <textarea id="addNote" placeholder="Notiz (optional)"></textarea>
     <input id="addLink" type="url" placeholder="Instagram-Link (optional)">
     <div id="tokenRow" hidden>
@@ -1557,7 +1557,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${PLAN_AT[p.id] ? `<div class="kick">★ ${esc(PLAN_AT[p.id].long)}</div>` : ""}
         <h3>${esc(p.name)}</h3>
         <div class="mline">${p.idea ? `<span class="mtag cl" style="background:#f59e0b;color:#fff" title="Ungewöhnliche Foto-Idee – von Claude recherchiert">✷ Fotoidee</span>` : ""}${p.rain ? `<span class="mtag" style="background:#0ea5e9;color:#fff" title="Funktioniert gut bei Regen">🌧 Regen</span>` : ""}${p.by_claude ? `<span class="mtag cl" title="Nicht aus deiner Sammlung – von Claude als beliebter Spot ergänzt">✦ Claude-Tipp</span>` : ""}${p.mine ? `<span class="mtag">★ Eigener Spot</span>` : ""}${
-          [p.category, p.district, WHEN_LABEL[p.when] || "", routeLabel(p), p.pop ? `🔥 ${p.pop}/5` : "", here() ? `📍 ${fmt(dist(me, p))}` : ""].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join(" ")}</div>
+          [p.district, WHEN_LABEL[p.when] || "", routeLabel(p), p.pop ? `🔥 ${p.pop}/5` : "", here() ? `📍 ${fmt(dist(me, p))}` : ""].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join(" ")}</div>
         ${lightBox(p)}
         ${fcHtml(p.id, null, true) || areaWx(p)}
         <div class="status sv2" data-id="${esc(p.id)}">
@@ -2181,19 +2181,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     renderList();
     if (view === "grid" && sheetSnap === "peek") setSnap("full");
   });
-  const allCats = () => [...new Set(places.filter(inGroup).map(p => p.category).filter(Boolean))].sort();
-  function renderChips() {
-    const cats = allCats();
-    if (places.some(p => p.mine)) cats.unshift("★ Meine");
-    if (cat && cat !== "★ Meine" && !cats.includes(cat)) cat = null;  // gespeicherte Kategorie gibt es hier nicht
-    $("#chips").innerHTML = cats.length > 1 ? ["Alle", ...cats].map((c, i) =>
-      `<button class="${(i ? c === cat : !cat) ? "on" : ""}" data-cat="${i ? esc(c) : ""}">${esc(c)}</button>`).join("") : "";
-  }
-  $("#chips").addEventListener("click", e => {
-    const b = e.target.closest("button"); if (!b) return;
-    cat = b.dataset.cat || null; saveCat();
-    renderChips(); renderList();
-  });
+  // Kategorien (Architektur, Aussicht …) gibt es nicht mehr als Filter und werden nicht mehr gepflegt
+  function renderChips() { if (cat) { cat = null; saveCat(); } $("#chips").innerHTML = ""; }
   renderChips();
   // Der gerade geöffnete Spot bleibt sichtbar, auch wenn er durch Bewerten nicht mehr zum Filter passt
   let stickyId = null;
@@ -2938,9 +2927,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       const nm = esc(p ? shortName(p.name) : e.name ? shortName(e.name) : "");
       let title, sub, icon;
       switch (e.k) {
-        case "new": title = `<span class="tag new">NEU</span>${nm}`; sub = p ? [p.category, p.district].filter(Boolean).join(" · ") : "Spot"; icon = "📍"; break;
+        case "new": title = `<span class="tag new">NEU</span>${nm}`; sub = p ? [p.district].filter(Boolean).join(" · ") : "Spot"; icon = "📍"; break;
         case "mine": title = `<span class="tag mine">EIGEN</span>${nm}`; sub = "Eigener Spot angelegt"; icon = "★"; break;
-        case "photo": title = `<span class="tag photo">+${e.n} ${e.n === 1 ? "FOTO" : "FOTOS"}</span>${nm}`; sub = p ? [p.category, p.district].filter(Boolean).join(" · ") : ""; icon = "📷"; break;
+        case "photo": title = `<span class="tag photo">+${e.n} ${e.n === 1 ? "FOTO" : "FOTOS"}</span>${nm}`; sub = p ? [p.district].filter(Boolean).join(" · ") : ""; icon = "📷"; break;
         case "plan": title = `<span class="tag plan">PLAN</span>Reiseplan geändert`; sub = (e.text || "").replace(/^Reiseplan:?\s*/, ""); icon = "📅"; break;
         case "insp": title = `<span class="tag insp">+${e.n}</span>Inspiration: neue ${e.n === 1 ? "Post" : "Posts"}`; sub = (e.regions || []).map(r => INSP_REG[r] || r).join(", "); icon = "💡"; break;
         case "loc": title = e.status === "found" ? (e.mode === "new" ? `<span class="tag new">NEUER SPOT</span>${nm || "Spot"}` : `<span class="tag photo">FOTO ERGÄNZT</span>${nm || "Spot"}`) : `<span class="tag" style="background:#92400e">NICHT GEFUNDEN</span>Ort unklar`; sub = e.note || ""; icon = "🔎"; break;
@@ -3162,7 +3151,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ${p.image ? `<div class="ihero" data-lb="${k}" data-i="0"><img src="${esc(p.image)}" alt="" loading="lazy">${imgs.length > 1 ? `<span class="icount">1/${imgs.length}</span>` : ""}</div>` : ""}
       ${imgs.length > 1 ? `<div class="ithumbs">${imgs.slice(1, 9).map((src, i) => `<img src="${esc(src)}" alt="" loading="lazy" data-lb="${k}" data-i="${i + 1}">`).join("")}</div>` : ""}
       <div class="ib"><h3>${esc(p.name)}</h3>
-        <div class="ibadges">${st(p.id).fav ? `<span class="b-fav">❤ Favorit</span>` : ""}${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}${kind}${p.category ? `<span class="b-hotel" style="background:rgba(148,163,184,.2);color:inherit">${esc(p.category)}</span>` : ""}</div>
+        <div class="ibadges">${st(p.id).fav ? `<span class="b-fav">❤ Favorit</span>` : ""}${it.plan ? `<span class="b-plan">★ Reiseplan</span>` : ""}${it.opt ? `<span class="b-opt">optional</span>` : ""}${kind}</div>
         ${lightHtml(it)}
         ${fcHtml(p.id, date)}
         ${it.text ? `<p>${esc(it.text)}</p>` : ""}
@@ -3375,7 +3364,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "124 · Fotos & Erlebnisse oben, Fotoideen als Filter";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "125 · Kategorien entfernt";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3589,7 +3578,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}${sleepBadge(p)}
           <div class="badge">${s.fav && !p.idea ? "<span class=\"fav-badge\">❤</span>" : ""}${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
           ${p.idea ? `<button class="ifav g${st(p.id).fav ? " on" : ""}" data-ifav="${esc(p.id)}" aria-label="Fotoidee favorisieren">${st(p.id).fav ? "❤" : "♡"}</button><button class="irej g" data-irej="${esc(p.id)}" aria-label="Fotoidee ablehnen">✕</button>` : ""}
-          <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.category, p.pop ? "🔥" + p.pop : ""].filter(Boolean).join(" · "))}${here() ? ` · <span class="dist">${fmt(p._d)}</span>` : ""}</small></div>
+          <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.pop ? "🔥" + p.pop : ""].filter(Boolean).join(" · "))}${here() ? ` · <span class="dist">${fmt(p._d)}</span>` : ""}</small></div>
         </li>`; }).join("") : noloc ? "" : `<li id="empty">Keine Treffer.</li>`));
       return;
     }
@@ -3597,7 +3586,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <li data-id="${esc(p.id)}">
         <span class="th">${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<div class="noimg">${p.mine ? "★" : p.by_claude ? "✦" : ""}</div>`}${sleepBadge(p)}</span>
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
-          ${p.category ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${(sortBy === "new" || sortBy === "upd") && addedLbl(p, sortBy === "upd" ? 1 : 0) ? `<span class="new">${addedLbl(p, sortBy === "upd" ? 1 : 0)}</span> · ` : ""}${esc([p.category, p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
+          ${(p.category || p.district) ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${(sortBy === "new" || sortBy === "upd") && addedLbl(p, sortBy === "upd" ? 1 : 0) ? `<span class="new">${addedLbl(p, sortBy === "upd" ? 1 : 0)}</span> · ` : ""}${esc([p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
         ${here() ? `<div class="d"><span class="dist">${fmt(p._d)}</span></div>` : ""}
         ${p.idea ? `<button class="ifav${st(p.id).fav ? " on" : ""}" data-ifav="${esc(p.id)}" aria-label="Fotoidee favorisieren" title="Favorit – wird oben angezeigt">${st(p.id).fav ? "❤" : "♡"}</button><button class="irej" data-irej="${esc(p.id)}" aria-label="Fotoidee ablehnen" title="Ablehnen – wird ausgeblendet">✕</button>` : ""}
       </li>`).join("")
@@ -4031,9 +4020,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const addKind = () => { const b = $("#addKind button.on"); return b ? b.dataset.k : ""; };
   function openAdd(latlng) {
     dlg.hidden = false; setSnap("peek");
-    const pre = "Eigene"; setAddKind("");  // Standard: Foto-Spot
-    $("#addCat").innerHTML = [...new Set([...places.map(p => p.category).filter(Boolean).sort(), "Food", "Eigene"])]
-      .map(c => `<option${c === pre ? " selected" : ""}>${esc(c)}</option>`).join("");
+    setAddKind("");  // Standard: Foto-Spot
     $("#tokenRow").hidden = !!store.get(TOKEN_KEY);
     $("#addErr").textContent = "";
     if (latlng) { setDraft(latlng); map.panTo(latlng); }
@@ -4090,7 +4077,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (tok) store.set(TOKEN_KEY, tok);
     if (!store.get(TOKEN_KEY)) { $("#tokenRow").hidden = false; $("#addErr").textContent = "GitHub-Token fehlt."; return; }
     const ll = draft.getLatLng();
-    const spot = { id: "my-" + Date.now().toString(36), name: $("#addName").value.trim(), category: $("#addCat").value,
+    const spot = { id: "my-" + Date.now().toString(36), name: $("#addName").value.trim(), category: "Eigene",
       note: $("#addNote").value.trim(), link: $("#addLink").value.trim(), address: draftAddr, ...(addKind() ? { kind: addKind() } : {}),
       lat: +ll.lat.toFixed(6), lng: +ll.lng.toFixed(6), created: new Date().toISOString() };
     $("#addSave").disabled = true; $("#addErr").textContent = "Speichere …";

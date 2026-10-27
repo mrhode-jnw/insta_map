@@ -35,3 +35,5 @@
 - „📷 Fotos“ = Foto-Spots, „🎒 Erlebnisse“ = Claude-Tipps, Food und Spots mit `"kind": "sight"` (nicht primär Fotografie).
   Neue Spots sind standardmäßig Foto-Spots; Erlebnisse in `extra_spots.json` mit `"kind": "sight"` anlegen.
 - Fotoideen sind kein Bereich oben, sondern der Filter „✷ Fotoideen“ unten (standardmäßig aus).
+- **Keine Foto-Kategorien mehr** (Architektur, Aussicht, Dorf …): nicht mehr recherchieren oder vergeben, `cat` darf leer sein;
+  einzige Ausnahme `"Food"` für Essen. Die App zeigt keine Kategorie-Filter oder -Angaben mehr.
