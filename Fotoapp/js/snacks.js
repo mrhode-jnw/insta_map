@@ -23,19 +23,31 @@ export const SEGMENTS = {
   look: { name: "Eine Minute schauen" }, pair: { name: "Gegenüber" }, story: { name: "So entstand es" }, quote: { name: "O-Ton" },
   memory: { name: "Aus dem Gedächtnis", scored: true }, tiles: { name: "Aufdecken", scored: true }, mirror: { name: "Original oder gespiegelt?", scored: true },
   guess: { name: "Jahr schätzen", scored: true }, stamp: { name: "Briefmarken-Test" },
+  blitz: { name: "Blitzsortierer", scored: true }, hand: { name: "Gleiche Handschrift?", scored: true }, odd: { name: "Fremdkörper", scored: true },
+  zoomout: { name: "Zoom heraus", scored: true }, tone: { name: "Heller oder dunkler?", scored: true }, zone: { name: "Zonen-Schätzer", scored: true },
+  edge: { name: "Wo war die Kante?", scored: true }, change: { name: "Was ist anders?", scored: true }, fmt: { name: "Welches Format?", scored: true },
+  mistake: { name: "Finde den Fehler", scored: true }, allok: { name: "Alles, was stimmt", scored: true }, qimg: { name: "Welches Bild meint er?", scored: true },
+  srcimg: { name: "Welches Bild beschreibt die Quelle?", scored: true }, aspect: { name: "Welcher Aspekt?", scored: true }, voices: { name: "Wer liest so?", scored: true },
+  match: { name: "Begriffe zuordnen", scored: true }, cquote: { name: "Begriff zum Zitat", scored: true, quiz: true }, skline: { name: "Skizze zum Satz", scored: true, quiz: true },
+  place: { name: "Selber Ort, zwei Blicke" }, task: { name: "Aufgabe für unterwegs" },
   sketch: { name: "Mini-Lektion" }, merke: { name: "Merksatz" }, pinfo: { name: "Porträt" }, concept: { name: "Seh-Begriff" },
   who: { name: "Wer war's?", scored: true, quiz: true }, year: { name: "Jahrzehnt", scored: true, quiz: true },
   chap: { name: "Geschichte", scored: true, quiz: true }, ref: { name: "Laut Quelle", scored: true, quiz: true }, quiz: { name: "Theoriefrage", scored: true, quiz: true },
 };
-export const TOPICS = [
-  ["mix", "Bunt gemischt", { order: 2, crop: 2, tf: 2, look: 2, pair: 2, story: 2, quote: 2, sketch: 1, merke: 1, pinfo: 1, concept: 1, memory: 2, tiles: 2, mirror: 1, guess: 2, stamp: 1, who: 1, year: 1, chap: 1, ref: 1, quiz: 1 }],
-  ["schauen", "Schauen", { look: 3, memory: 3, crop: 2, pair: 2, stamp: 2, mirror: 2, story: 2, tf: 1 }],
-  ["menschen", "Fotografen & O-Töne", { quote: 3, tiles: 3, who: 1, pinfo: 2, story: 2, crop: 1 }],
-  ["geschichte", "Geschichte", { order: 3, guess: 3, chap: 2, year: 1, story: 2, quote: 1, pinfo: 1 }],
-  ["theorie", "Theorie kompakt", { sketch: 3, merke: 3, concept: 2, quiz: 2, pair: 1 }],
-  ["quiz", "Nur Quiz", { who: 2, year: 1, chap: 1, ref: 2, quiz: 2, tf: 2, order: 1, crop: 1, guess: 1, tiles: 1 }],
+export const TOPICS = [ // weights per segment; pure information cards kept to roughly 15 % (Didaktik-Recherche)
+  ["mix", "Bunt gemischt", { order: 2, crop: 1, tf: 1, look: 1, pair: 1, story: 1, quote: 1, sketch: 1, merke: 1, pinfo: 1, concept: 1, memory: 2, tiles: 1, mirror: 1, guess: 1, stamp: 1,
+    blitz: 2, hand: 1, odd: 2, zoomout: 2, tone: 2, zone: 1, edge: 2, change: 2, fmt: 1, mistake: 2, allok: 2, qimg: 1, srcimg: 1, aspect: 1, voices: 1, match: 1, cquote: 1, skline: 1, place: 1, task: 1,
+    who: 1, year: 1, chap: 1, ref: 1, quiz: 1 }],
+  ["schauen", "Schauen", { look: 2, memory: 2, crop: 1, pair: 1, stamp: 1, mirror: 1, tone: 3, zone: 2, edge: 3, change: 3, fmt: 1, allok: 3, mistake: 2, zoomout: 1, place: 1, story: 1 }],
+  ["menschen", "Fotografen & O-Töne", { quote: 2, tiles: 2, blitz: 3, hand: 3, odd: 2, zoomout: 2, qimg: 2, voices: 2, who: 1, pinfo: 1, story: 1, crop: 1 }],
+  ["geschichte", "Geschichte", { order: 3, guess: 3, chap: 2, year: 1, story: 2, quote: 1, pinfo: 1, blitz: 1, odd: 1, qimg: 1 }],
+  ["theorie", "Theorie kompakt", { sketch: 2, merke: 2, concept: 1, quiz: 2, pair: 1, aspect: 3, srcimg: 2, match: 3, cquote: 2, skline: 2, task: 1, mistake: 1 }],
+  ["quiz", "Nur Quiz", { who: 2, year: 1, chap: 1, ref: 2, quiz: 2, tf: 2, order: 1, crop: 1, guess: 1, tiles: 1, mistake: 2, aspect: 2, cquote: 1, skline: 1, hand: 1, odd: 1 }],
 ];
 
+const VOICE = { fotograf: "Fotograf:in", museum: "Museum", kurator: "Kurator:in", kritik: "Kritik", wissenschaft: "Wissenschaft" };
+const checkables = id => (pools().byImg[id] || []).flatMap(r => r.entries.flatMap(e => e.checkable.map(t => ({ t: stripRefs(t), dim: r.dimension, ref: r, e }))));
+const DIM_NEAR = { viewpoint: ["distance", "scale"], distance: ["viewpoint", "scale", "detail"], omitted: ["frame", "detail"], frame: ["omitted"], layers: ["focus", "atmosphere"], atmosphere: ["light", "layers"], light: ["atmosphere", "color"], color: ["light", "surface"], surface: ["order", "color"], order: ["surface", "frame"], scale: ["distance", "viewpoint"], detail: ["distance", "omitted"], time: ["moment"], moment: ["time"], focus: ["layers"], attitude: [] };
 const SIDE = /\b(links|rechts|linke[nmrs]?|rechte[nmrs]?)\b/i, STAMP_DIMS = ["order", "layers", "frame", "light", "color", "surface"];
 
 // ---- material pools (built once)
@@ -62,6 +74,16 @@ function pools() {
     quotes: lib.sources.filter(s => (s.kind === "fotograf" || s.role === "photographer") && s.excerpt && s.excerpt.length > 70 && s.excerpt.length < 330 && quoteImg(s) && img(quoteImg(s)))
       .map(s => ({ id: s.id, image: quoteImg(s) })),
     dated: lib.images.filter(i => +i.year >= 1840),
+    byPh: lib.images.reduce((m, i) => ((m[i.photographer_id] ||= []).push(i.id), m), {}),
+    byProj: lib.images.reduce((m, i) => ((m[i.project_id] ||= []).push(i.id), m), {}),
+    imgQuotes: lib.sources.filter(s => s.scope === "image" && (s.kind === "fotograf") && s.excerpt && s.excerpt.length > 60 && s.excerpt.length < 360 && img(s.scope_id)),
+    voices: Object.entries(lib.sources.filter(s => s.scope === "image" && VOICE[s.kind] && s.excerpt && s.excerpt.length > 50 && s.excerpt.length < 300 && img(s.scope_id))
+      .reduce((m, s) => ((m[s.scope_id] ||= {})[VOICE[s.kind]] ||= s, m), {})).filter(([, v]) => Object.keys(v).length >= 2),
+    places: Object.values(lib.images.filter(i => i.location).reduce((m, i) => ((m[i.location] ||= []).push(i), m), {}))
+      .flatMap(list => list.flatMap((a, k) => list.slice(k + 1).filter(b => b.photographer_id !== a.photographer_id && byImg[a.id] && byImg[b.id]).map(b => `${a.id}|${b.id}`))),
+    tasks: [...lib.lessons.flatMap(l => (l.exercises || []).map((t, n) => ({ id: `${l.id}|${n}`, text: t, link: [`#/theorie/${l.id}`, `Lektion: ${l.title.split(":")[0]}`] }))),
+      ...lib.concepts.filter(c => c.exercise_md).map(c => ({ id: `c|${c.id}`, text: c.exercise_md, link: [`#/begriffe/${c.id}`, `Begriff: ${c.name}`] }))],
+    kurz: directives.filter(d => d.kurz).map(d => d.kurz).filter((t, i, a) => a.indexOf(t) === i),
   };
   return P;
 }
@@ -69,6 +91,20 @@ function pools() {
 function candidates(type) {
   const p = pools();
   switch (type) {
+    case "blitz": case "hand": return Object.keys(p.byPh).filter(k => p.byPh[k].length >= 4);
+    case "odd": return Object.keys(p.byProj).filter(k => p.byProj[k].length >= 3);
+    case "zoomout": case "tone": case "zone": case "change": case "fmt": return lib.images.filter(i => who(i.id) !== "?").map(i => i.id);
+    case "edge": return Object.keys(p.byImg).filter(id => p.byImg[id].some(r => ["frame", "omitted", "order", "layers"].includes(r.dimension)));
+    case "mistake": return Object.keys(p.byImg).filter(id => checkables(id).length >= 3);
+    case "allok": return Object.keys(p.byImg).filter(id => checkables(id).length >= 3);
+    case "qimg": return p.imgQuotes.filter(s => p.byPh[img(s.scope_id).photographer_id].length >= 3).map(s => String(s.id));
+    case "srcimg": case "aspect": return p.refs.filter(r => r.entries[0].answer_md).map(r => `${r.image_id}|${r.dimension}`);
+    case "voices": return p.voices.map(([id]) => id);
+    case "match": return lib.concepts.length >= 4 ? lib.concepts.map(c => c.id) : [];
+    case "cquote": return lib.sources.filter(s => s.scope === "concept" && lib.by.concepts.get(s.scope_id) && s.excerpt.length < 420).map(s => String(s.id));
+    case "skline": return p.sketches.map((d, i) => d.kurz ? String(i) : null).filter(Boolean);
+    case "place": return p.places;
+    case "task": return p.tasks.map(t => t.id);
     case "who": case "crop": case "tiles": return lib.images.filter(i => who(i.id) !== "?").map(i => i.id);
     case "year": case "guess": return p.dated.map(i => i.id);
     case "order": return p.dated.map(i => i.id); // anchor image; the other three are picked from other decades
@@ -171,6 +207,136 @@ export function buildCard(c) {
         back_image: c.key, back_md: `**${DIM[ref.dimension]?.label || ref.dimension} – was die Quellen sagen:** ${e.answer_md}${e.checkable.length ? "\n\n" + e.checkable.map(x => "- " + x).join("\n") : ""}`,
         caption_md: label(img(c.key)), link: [`#/bild/${c.key}`, "Zur Bildseite"] };
     }
+    case "blitz": { // swipe sorting between two hands (Kellman; Kornell & Bjork 2008: interleaving styles)
+      const A = c.key, peers = new Set(lib.chapters.filter(ch => ch.images.some(id => img(id)?.photographer_id === A)).flatMap(ch => ch.images.map(id => img(id)?.photographer_id)));
+      const others = Object.keys(p.byPh).filter(k => k !== A && p.byPh[k].length >= 4), near = others.filter(k => peers.has(k));
+      const B = pickN(near.length ? near : others, 1, r)[0], nA = lib.by.photographers.get(A).name, nB = lib.by.photographers.get(B).name;
+      const items = pickN([...pickN(p.byPh[A], 4, r).map(id => ({ id, side: 0 })), ...pickN(p.byPh[B], 4, r).map(id => ({ id, side: 1 }))], 8, r);
+      return { ...base, kind: "swipe2", prompt: "Von wem? Links oder rechts tippen bzw. wischen – so schnell wie möglich.", bins: [nA, nB], items,
+        explain_md: [A, B].map(id => { const x = lib.by.photographers.get(id); return `**${x.name}**${x.signature_md ? `: ${stripRefs(firstSentences(x.signature_md, 1))} (Einschätzung)` : ""}`; }).join("\n\n"),
+        link: [`#/fotograf/${A}`, `Zu ${nA}`] };
+    }
+    case "hand": { // same photographer or not?
+      const A = c.key, same = r() < 0.5, [a, a2] = pickN(p.byPh[A], 2, r);
+      const peers = new Set(lib.chapters.filter(ch => ch.images.includes(a)).flatMap(ch => ch.images.map(id => img(id)?.photographer_id)));
+      const others = Object.keys(p.byPh).filter(k => k !== A), near = others.filter(k => peers.has(k));
+      const b = same ? a2 : pickN(p.byPh[pickN(near.length ? near : others, 1, r)[0]], 1, r)[0];
+      return { ...base, kind: "tf", images: [a, b], prompt: "Gleiche Handschrift?", statement: "Beide Bilder stammen von derselben Person.", truth: same,
+        tfLabels: ["Ja, gleiche Hand", "Nein"], explain_md: [a, b].map(id => label(img(id))).join("\n\n"), link: [`#/fotograf/${A}`, "Zum Fotografen"] };
+    }
+    case "odd": { // three from one project, one stranger with a similar subject
+      const ids = pickN(p.byProj[c.key], 3, r), proj = lib.by.projects?.get?.(c.key) || lib.projects.find(x => x.id === c.key), ph = img(ids[0]).photographer_id;
+      const tags = new Set(ids.flatMap(id => img(id).tags || []));
+      const pool = lib.images.filter(i => i.photographer_id !== ph), close = pool.filter(i => (i.tags || []).filter(t => tags.has(t)).length >= 2);
+      const odd = pickN(close.length ? close : pool, 1, r)[0];
+      const src = lib.sources.find(x => x.scope === "project" && x.scope_id === c.key);
+      return { ...base, kind: "mc", prompt: "Drei gehören zu einem Projekt. Welches Bild ist der Fremdkörper?",
+        options: shuffleOpts([...ids.map(id => ({ image: id, text: who(id) })), { image: odd.id, text: who(odd.id), correct: true }]),
+        explain_md: `Fremd: ${label(odd)}.\n\nDie drei anderen: **${who(ids[0])}** – ${proj?.title || ""}.${src ? `\n\n„${src.excerpt.length > 240 ? src.excerpt.slice(0, 237) + "…" : src.excerpt}“` : ""}`,
+        link: [`#/fotograf/${ph}`, "Zum Fotografen"] };
+    }
+    case "zoomout": { // start from a detail, widen step by step
+      const i = img(c.key), base2 = buildCard({ type: "who", key: c.key });
+      return { ...base2, ...base, kind: "mc", image: null, prompt: "Erkennst du es am Detail? Je früher, desto besser.", zoom: { id: i.id, x: 15 + Math.round(r() * 70), y: 20 + Math.round(r() * 60), steps: [6, 3, 1.6, 1] } };
+    }
+    case "tone": case "zone": { // tonal values, measured on the image at runtime (Zone System thinking)
+      const pts = Array.from({ length: 24 }, () => [8 + Math.round(r() * 84), 8 + Math.round(r() * 84)]);
+      return { ...base, kind: "tone", mode: c.type === "tone" ? "pair" : "zone", image: c.key, pts,
+        prompt: c.type === "tone" ? "Welche markierte Stelle ist heller?" : "Welche Zone hat die markierte Stelle? (0 = tiefes Schwarz, 10 = reines Weiß)",
+        explain_md: `${label(img(c.key))}.`, link: [`#/bild/${c.key}`, "Zur Bildseite"] };
+    }
+    case "edge": { // original vs. a crop the app makes
+      const ref = pickN(p.byImg[c.key].filter(x => ["frame", "omitted", "order", "layers"].includes(x.dimension)), 1, r)[0];
+      return { ...base, kind: "mc", prompt: "Eine Fassung ist von der App beschnitten. Welche Kante hat der Fotograf gewählt?",
+        options: shuffleOpts([{ image: c.key, text: "Original", correct: true }, { image: c.key, text: "Beschnitten", zoomCrop: { x: Math.round(r() * 100), y: Math.round(r() * 100), s: 1.3 + Math.round(r() * 3) / 10 } }]),
+        explain_md: `${label(img(c.key))}.\n\n**${DIM[ref.dimension]?.label || ref.dimension} – was die Quellen sagen:** ${ref.entries[0].answer_md}`, link: [`#/bild/${c.key}`, "Zur Bildseite"] };
+    }
+    case "change": { // what did the app change?
+      const color = (img(c.key).tags || []).includes("farbe");
+      const all = [["Gekippt", "transform:rotate(4deg) scale(1.12)"], ["Enger beschnitten", "transform:scale(1.35)"], ["Heller", "filter:brightness(1.35)"],
+        ["Gespiegelt", "transform:scaleX(-1)"], ["Kontrastreicher", "filter:contrast(1.5)"], ...(color ? [["Entsättigt", "filter:saturate(0.15)"]] : [["Dunkler", "filter:brightness(0.7)"]])];
+      const opts = pickN(all, 4, r), k = Math.floor(r() * 4);
+      return { ...base, kind: "mc", preview: 4, image: c.key, variant: opts[k][1], prompt: "Was hat die App verändert?",
+        options: opts.map(([t], n) => ({ text: t, correct: n === k })), explain_md: `${label(img(c.key))}.`, link: [`#/bild/${c.key}`, "Zur Bildseite"] };
+    }
+    case "fmt": return { ...base, kind: "fmt", image: c.key, prompt: "Hier mittig quadratisch beschnitten. Welches Format hat das Original?",
+      options: [["Quadrat", 1], ["4:5 / 3:4", 1.29], ["2:3", 1.5], ["Breit (16:9)", 1.78], ["Panorama", 2.4]].map(([t, v]) => ({ text: t, v })),
+      explain_md: `${label(img(c.key))}.`, link: [`#/bild/${c.key}`, "Zur Bildseite"] };
+    case "mistake": { // one statement belongs to another picture
+      const mine = [...new Map(pickN(checkables(c.key), 12, r).map(x => [x.t, x])).values()].slice(0, 3);
+      const foreign = pickN(p.refs.filter(x => x.image_id !== c.key && who(x.image_id) !== who(c.key) && mine.some(m => m.dim === x.dimension))
+        .flatMap(x => x.entries.flatMap(e => e.checkable.map(t => ({ t: stripRefs(t), id: x.image_id })))).filter(x => mine.every(m => overlap(m.t, x.t) < 0.34)), 1, r)[0];
+      if (!foreign || mine.length < 3) return null;
+      return { ...base, kind: "mc", image: c.key, prompt: "Drei Beobachtungen stammen aus Quellen zu diesem Bild. Welche gehört nicht dazu?",
+        options: shuffleOpts([...mine.map(m => ({ text: m.t })), { text: foreign.t, correct: true }]),
+        explain_md: `Die fremde Beobachtung stammt aus einer Quelle zu ${label(img(foreign.id))}.\n\n${mine.map(m => `- ${m.t} (${DIM[m.dim]?.label || m.dim})`).join("\n")}`, link: [`#/bild/${c.key}`, "Zur Bildseite"] };
+    }
+    case "allok": { // tick every observation that fits (Project Zero: Looking Ten Times Two)
+      const mine = [...new Map(pickN(checkables(c.key), 12, r).map(x => [x.t, x])).values()].slice(0, 3);
+      const foreign = [...new Set(pickN(p.refs.filter(x => x.image_id !== c.key && who(x.image_id) !== who(c.key)), 30, r)
+        .flatMap(x => x.entries.flatMap(e => e.checkable.map(stripRefs))).filter(t => mine.every(m => overlap(m.t, t) < 0.34)))].slice(0, 3);
+      if (foreign.length < 2) return null;
+      return { ...base, kind: "multi", image: c.key, prompt: "Schau genau hin. Tippe alles an, was für dieses Bild stimmt – es können mehrere sein.",
+        options: shuffleOpts([...mine.map(m => ({ text: m.t, correct: true })), ...foreign.map(t => ({ text: t }))]),
+        explain_md: `${label(img(c.key))}.`, link: [`#/bild/${c.key}`, "Zur Bildseite"] };
+    }
+    case "qimg": { // a photographer's sentence – which of his pictures?
+      const q = lib.by.sources.get(+c.key), id = q.scope_id, others = pickN(p.byPh[img(id).photographer_id].filter(x => x !== id), 2, r);
+      return { ...base, kind: "mc", quote: q.excerpt, quote_de: q.translation_de, prompt: `${who(id)} über eins seiner Bilder. Welches?`,
+        options: shuffleOpts([{ image: id, text: img(id).title, correct: true }, ...others.map(x => ({ image: x, text: img(x).title }))]),
+        explain_md: `${label(img(id))}.\n\n– ${q.author || who(id)}${q.title ? `, ${q.title}` : ""} [S${q.id}]`, link: [`#/bild/${id}`, "Zur Bildseite"] };
+    }
+    case "srcimg": { // reverse of "Laut Quelle": description → picture
+      const [id, dim] = c.key.split("|"), ref = lib.by.refs.get(`${id}:${dim}`), ph = lib.by.photographers.get(img(id).photographer_id);
+      const mask = t => [ph.name, ...ph.name.split(" ").filter(w => w.length > 3), img(id).title].filter(Boolean).reduce((x, w) => x.split(w).join("…"), stripRefs(t));
+      const others = pickN(p.refs.filter(x => x.dimension === dim && x.image_id !== id).map(x => x.image_id), 2, r);
+      return { ...base, kind: "mc", label: `${seg.name} · ${DIM[dim]?.label || dim}`, quote: mask(firstSentences(ref.entries[0].answer_md, 2) || ref.entries[0].answer_md),
+        prompt: `${DIM[dim]?.label || dim}: Zu welchem Bild passt diese Beschreibung?`,
+        options: shuffleOpts([{ image: id, text: who(id), correct: true }, ...others.map(x => ({ image: x, text: who(x) }))]),
+        explain_md: `${label(img(id))}.\n\n${ref.entries[0].answer_md}`, link: [`#/bild/${id}`, "Zur Bildseite"] };
+    }
+    case "aspect": { // which aspect does the source talk about?
+      const [id, dim] = c.key.split("|"), ref = lib.by.refs.get(`${id}:${dim}`), src = lib.by.sources.get(ref.entries[0].source_ids[0]);
+      const wrong = pickN(Object.keys(DIM).filter(k => k !== dim && DIM[k].label && !(DIM_NEAR[dim] || []).includes(k)), 3, r);
+      return { ...base, kind: "mc", image: id, quote: src?.excerpt || stripRefs(ref.entries[0].answer_md), quote_de: src?.translation_de, prompt: "Worüber spricht diese Quelle?",
+        options: shuffleOpts([{ text: DIM[dim].label, correct: true }, ...wrong.map(k => ({ text: DIM[k].label }))]),
+        explain_md: `**${DIM[dim].label}.** ${ref.entries[0].answer_md}\n\n${label(img(id))}.`, link: [`#/bild/${id}`, "Zur Bildseite"] };
+    }
+    case "voices": { // who reads the picture like this? (crit with several voices)
+      const v = p.voices.find(([id]) => id === c.key)[1], keys = pickN(Object.keys(v), 3, r);
+      const labels = [...new Set([...keys, ...pickN(Object.values(VOICE).filter(x => !keys.includes(x)), 1, r)])];
+      return { ...base, kind: "assign", image: c.key, prompt: "Wer spricht hier? Ordne jede Stimme zu.", labels: pickN(labels, labels.length, r),
+        rows: keys.map(k => ({ text: v[k].excerpt, answer: k, note: `${v[k].author || v[k].title}` })),
+        explain_md: `${label(img(c.key))}.`, link: [`#/bild/${c.key}`, "Zur Bildseite"] };
+    }
+    case "match": { // concepts ↔ short definitions
+      const cs = [lib.by.concepts.get(c.key), ...pickN(lib.concepts.filter(x => x.id !== c.key && x.dimension !== lib.by.concepts.get(c.key).dimension), 3, r)];
+      const def = x => stripRefs(firstSentences(x.summary_md, 1)).replace(new RegExp(x.name.split(" (")[0].replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi"), "…");
+      return { ...base, kind: "assign", prompt: "Welcher Begriff gehört zu welcher Beschreibung?", labels: pickN(cs.map(x => x.name), 4, r),
+        rows: pickN(cs, 4, r).map(x => ({ text: def(x), answer: x.name })), explain_md: "", link: ["#/begriffe", "Zu den Seh-Begriffen"] };
+    }
+    case "cquote": {
+      const q = lib.by.sources.get(+c.key), k = lib.by.concepts.get(q.scope_id);
+      return { ...base, kind: "mc", quote: q.excerpt, quote_de: q.translation_de, prompt: "Zu welchem Seh-Begriff gehört dieser Auszug?",
+        options: shuffleOpts([{ text: k.name, correct: true }, ...pickN(lib.concepts.filter(x => x.id !== k.id), 3, r).map(x => ({ text: x.name }))]),
+        explain_md: `**${k.name}** – ${stripRefs(firstSentences(k.summary_md, 2))}\n\n– ${q.author || q.title} [S${q.id}]`, link: [`#/begriffe/${k.id}`, "Zum Begriff"] };
+    }
+    case "skline": {
+      const d = p.sketches[+c.key];
+      return { ...base, kind: "mc", sketch: d.name, prompt: "Welcher Satz gehört zu dieser Skizze?",
+        options: shuffleOpts([{ text: d.kurz, correct: true }, ...pickN(p.kurz.filter(t => t !== d.kurz && overlap(t, d.kurz) < 0.3), 2, r).map(t => ({ text: t }))]),
+        explain_md: `aus „${d.heading}“${d.cap ? ` – ${d.cap}` : ""}`, link: [`#/theorie/${d.lesson.id}`, `Lektion: ${d.lesson.title.split(":")[0]}`] };
+    }
+    case "place": { // same place, two photographers
+      const [a, b] = c.key.split("|"), ra = pickN(p.byImg[a], 1, r)[0], rb = p.byImg[b].find(x => x.dimension === ra.dimension) || pickN(p.byImg[b], 1, r)[0];
+      return { ...base, kind: "reveal", images: [a, b], prompt: `${img(a).location}: Was hat der zweite Fotograf anders entschieden – Standpunkt, Distanz, Licht, Moment?`,
+        back_md: [[a, ra], [b, rb]].map(([id, x]) => `${label(img(id))}\n\n**${DIM[x.dimension]?.label || x.dimension}:** ${x.entries[0].answer_md}`).join("\n\n"),
+        link: [`#/bild/${b}`, "Zur Bildseite"] };
+    }
+    case "task": {
+      const t = p.tasks.find(x => x.id === c.key);
+      return { ...base, kind: "info", title: "Aufgabe für unterwegs", big: stripRefs(firstSentences(t.text, 3) || t.text), body_md: "Heute ausprobieren – beim nächsten Häppchen kurz daran denken, was es gezeigt hat.", link: t.link };
+    }
     case "quiz": {
       const [lid, n] = c.key.split("|"), l = lib.by.lessons.get(lid), q = l.quiz[+n];
       return { ...base, kind: "mc", label: `Theoriefrage · ${l.title.split(":")[0]}`, prompt: q.question, image: q.image_id && img(q.image_id) ? q.image_id : null,
@@ -242,6 +408,10 @@ export function isRight(card, res) {
   if (res == null) return null;
   if (card.kind === "mc") return !!card.options[res]?.correct;
   if (card.kind === "tf") return res === (card.truth ? 1 : 0);
+  if (card.kind === "swipe2") return Array.isArray(res) && res.length === card.items.length && res.filter((v, k) => v === card.items[k].side).length >= Math.ceil(card.items.length * 0.75);
+  if (card.kind === "multi") return Array.isArray(res) && card.options.every((o, k) => !!o.correct === res.includes(k));
+  if (card.kind === "assign") return Array.isArray(res) && card.rows.every((row, k) => card.labels[res[k]] === row.answer);
+  if (card.kind === "tone" || card.kind === "fmt") return !!res.ok;
   if (card.kind === "slider") return Math.abs(res - card.year) <= card.tolerance;
   if (card.kind === "order") return Array.isArray(res) && res.length === card.items.length && res.every((v, k) => v === card.solution[k]);
   return null;

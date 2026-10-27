@@ -1,0 +1,1271 @@
+[
+ {
+  "key": "blitz",
+  "name": "Blitzsortierer",
+  "group": "A",
+  "play": "10 Bilder in 60 s, je 1 Wisch: links Fotograf A, rechts Fotograf B (zwei Handschriften mit ähnlichem Motiv, z. B. Shore/Sternfeld). Sofortiges Feedback nach jedem Wisch, am Ende Trefferquote und Zeit.",
+  "principle": "Perzeptuelles Lernen durch viele kurze Klassifikationen mit Feedback und Variation innerhalb/zwischen Kategorien; gemischte statt geblockte Darbietung (Interleaving) für Stilerkennung.",
+  "sources": [
+   "https://par.nsf.gov/servlets/purl/10254051",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00259/full",
+   "https://www.gwern.net/docs/spaced-repetition/2008-kornell.pdf"
+  ],
+  "source_ids": [
+   "Q15",
+   "Q16",
+   "Q12",
+   "Q13",
+   "Q14"
+  ],
+  "needs": [
+   "images",
+   "photographers"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel–schwer",
+  "exists_in_app": false
+ },
+ {
+  "key": "handschrift",
+  "name": "Gleiche Handschrift?",
+  "group": "A",
+  "play": "Zwei Bilder nebeneinander, Frage: vom selben Fotografen? Ja/Nein antippen. Auflösung mit beiden Namen und je einem Satz aus signature_md (als Einschätzung markiert).",
+  "principle": "Transfertest aus Kornell & Bjork (Exp. 2: ob überhaupt ein gelernter Künstler das neue Bild gemalt hat); Contrasting Cases.",
+  "sources": [
+   "https://www.gwern.net/docs/spaced-repetition/2008-kornell.pdf",
+   "https://www.wright.edu/sites/www.wright.edu/files/uploads/2017/Feb/event/Schwartz_Bransford_1998_TimeForTelling.pdf"
+  ],
+  "source_ids": [
+   "Q12",
+   "Q17"
+  ],
+  "needs": [
+   "images",
+   "photographers",
+   "signature_md"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "fremd",
+  "name": "Fremdkörper",
+  "group": "A",
+  "play": "4 Vorschaubilder: 3 aus demselben Projekt, 1 von einem anderen Fotografen mit ähnlichem Motiv. Fremdes antippen. Danach: was die drei verbindet (Projekt-Quelle).",
+  "principle": "Contrasting Cases: Unterschiede bemerken, bevor erklärt wird; Becher-Prinzip Typologie = Kategorie plus Variation.",
+  "sources": [
+   "https://www.saltonline.org/en/321/",
+   "https://www.wright.edu/sites/www.wright.edu/files/uploads/2017/Feb/event/Schwartz_Bransford_1998_TimeForTelling.pdf"
+  ],
+  "source_ids": [
+   "Q17",
+   "Q37"
+  ],
+  "needs": [
+   "projects (≥3 Bilder)",
+   "images.tags"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "aspekt",
+  "name": "Welcher Aspekt?",
+  "group": "A",
+  "play": "Ein wörtlicher Quellenauszug zu einem Bild (Bild klein daneben). Tippen: worüber spricht er – Standpunkt, Licht, Moment, Weglassen, Rahmen, Ebenen …? 4 Optionen.",
+  "principle": "Begriffliche Kategorisierung (Discovery-Effekt), Analyseschritt nach Feldman; Szarkowskis Kategorien als Werkzeug.",
+  "sources": [
+   "https://par.nsf.gov/servlets/purl/10254051",
+   "https://us.humankinetics.com/blogs/excerpt/feldman-model-of-criticism",
+   "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf"
+  ],
+  "source_ids": [
+   "Q16",
+   "Q49",
+   "Q31"
+  ],
+  "needs": [
+   "references (dimension + source excerpt)"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "leicht–mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "zoomraus",
+  "name": "Zoom heraus",
+  "group": "A",
+  "play": "Start mit einem 10-%-Ausschnitt, dreimal tippen weitet den Ausschnitt (25 %, 60 %, ganz). Auf jeder Stufe: Fotograf oder Ort raten; je früher richtig, desto mehr Punkte. Anders als „Aufdecken“: vom Detail nach außen, nicht zufällige Kacheln.",
+  "principle": "Project-Zero-Routine „Zoom In“ (kleiner Bildteil, dann schrittweise mehr; die offizielle PZ-Seite lieferte 404, Ablauf nur aus Sekundärquelle bekannt) + Vorhersage vor Auflösung (Pretesting).",
+  "sources": [
+   "https://learninglab.uchicago.edu/Pre-Testing_files/RichlandKornellKao.pdf",
+   "https://pz.harvard.edu/resources/see-think-wonder"
+  ],
+  "source_ids": [
+   "Q19",
+   "Q5"
+  ],
+  "needs": [
+   "images",
+   "photographers"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "hellerdunkler",
+  "name": "Heller oder dunkler?",
+  "group": "B",
+  "play": "Zwei Punkte im Bild markiert, Bild in Graustufen. Antippen, welcher Punkt heller ist. Auflösung mit gemessenem Grauwert beider Stellen (App misst Pixel des 480-px-Bildes).",
+  "principle": "Ansel Adams: farbiges Motiv als Grauwerte sehen; perzeptuelles Lernen mit sofortigem Feedback.",
+  "sources": [
+   "https://par.nsf.gov/servlets/purl/10254051",
+   "https://www.nmartmuseum.org/content/uploads/2022/03/Ansel-Adams-Educationnal-worksheets-2-2.pdf"
+  ],
+  "source_ids": [
+   "Q47",
+   "Q15"
+  ],
+  "needs": [
+   "images (Pixel, zur Laufzeit gemessen)"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "zone",
+  "name": "Zonen-Schätzer",
+  "group": "B",
+  "play": "Ein Punkt im Bild markiert. Schieberegler 0–10 (Zonen): welchen Tonwert hat die Stelle? Richtig bei ±1 Zone, Anzeige des gemessenen Werts.",
+  "principle": "Tonwertsehen nach dem Zonensystem (Adams); Schätzen mit Feedback = Kalibrierung.",
+  "sources": [
+   "https://par.nsf.gov/servlets/purl/10254051",
+   "https://www.nmartmuseum.org/content/uploads/2022/03/Ansel-Adams-Educationnal-worksheets-2-2.pdf"
+  ],
+  "source_ids": [
+   "Q47",
+   "Q15"
+  ],
+  "needs": [
+   "images (Pixel)"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "schwer",
+  "exists_in_app": false
+ },
+ {
+  "key": "farbzurueck",
+  "name": "Welche Farbe war das?",
+  "group": "B",
+  "play": "Farbbild wird in Graustufen gezeigt, eine Stelle markiert. 4 Farbfelder: welche Farbe hat die Stelle im Original? Dann Farbbild einblenden.",
+  "principle": "Umkehrung von Adams' Graustufen-Sehen: Farbe ↔ Helligkeit verknüpfen; Generation vor Aufdecken.",
+  "sources": [
+   "https://amplifire.com/wp-content/uploads/2024/03/Science-Behind-Learning.pdf",
+   "https://www.nmartmuseum.org/content/uploads/2022/03/Ansel-Adams-Educationnal-worksheets-2-2.pdf"
+  ],
+  "source_ids": [
+   "Q47",
+   "Q23"
+  ],
+  "needs": [
+   "images (Pixel, nur Tag farbe)"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "format",
+  "name": "Welches Format?",
+  "group": "B",
+  "play": "Bild quadratisch mittig beschnitten. Antippen: Originalformat 1:1, 4:5, 2:3, Panorama? Danach Original einblenden; wenn eine Technik-Quelle vorliegt, Kamera/Format dazu.",
+  "principle": "Szarkowski „The Frame“: Entscheidung über die Kante; Contrasting Cases (Beschnitt vs. Original).",
+  "sources": [
+   "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf",
+   "https://www.wright.edu/sites/www.wright.edu/files/uploads/2017/Feb/event/Schwartz_Bransford_1998_TimeForTelling.pdf"
+  ],
+  "source_ids": [
+   "Q31",
+   "Q17"
+  ],
+  "needs": [
+   "images.w/h",
+   "sources aspect=technik (optional)"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "leicht",
+  "exists_in_app": false
+ },
+ {
+  "key": "kante",
+  "name": "Wo war die Kante?",
+  "group": "B",
+  "play": "Original und eine von der App beschnittene Fassung (anderer Rand, z. B. Horizont mittig, Figur nicht mehr am Rand). Welches ist das veröffentlichte Bild? Danach die Rahmen-Referenz (was der Rand schneidet).",
+  "principle": "Szarkowski: „what shall he include, what shall he reject?“; Contrasting Cases.",
+  "sources": [
+   "https://www.moma.org/docs/press_archives/3800/releases/MOMA_1966_July-December_0106_150.pdf",
+   "https://www.wright.edu/sites/www.wright.edu/files/uploads/2017/Feb/event/Schwartz_Bransford_1998_TimeForTelling.pdf"
+  ],
+  "source_ids": [
+   "Q31",
+   "Q17"
+  ],
+  "needs": [
+   "images",
+   "references dimension=frame (für Erklärung)"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "eingriff",
+  "name": "Was ist anders?",
+  "group": "B",
+  "play": "Bild wird 3 s im Original gezeigt, dann eine Variante: gekippt, beschnitten, aufgehellt, entsättigt oder gespiegelt. Tippen, was die App verändert hat.",
+  "principle": "Perzeptuelles Lernen durch systematische Variation; Aufmerksamkeit für Rahmen und Tonwerte statt Motiv (Experten schauen auf Beziehungen, Laien auf Objekte).",
+  "sources": [
+   "https://par.nsf.gov/servlets/purl/10254051",
+   "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2011.00094/full"
+  ],
+  "source_ids": [
+   "Q15",
+   "Q28"
+  ],
+  "needs": [
+   "images"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "leicht–mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "vortest",
+  "name": "Erst raten, dann lesen",
+  "group": "C",
+  "play": "Vor einer Mini-Lektion/Skizze kommt deren Theoriefrage ohne Punktwertung. Danach die Lektion-Karte; am Rundenende dieselbe Frage nochmal gewertet.",
+  "principle": "Pretesting-Effekt: auch erfolglose Abrufversuche verbessern späteres Lernen.",
+  "sources": [
+   "https://learninglab.uchicago.edu/Pre-Testing_files/RichlandKornellKao.pdf",
+   "https://psychology.ecu.edu/wp-content/pv-uploads/sites/216/2019/03/Roediger-Karpicke-2006.pdf"
+  ],
+  "source_ids": [
+   "Q19",
+   "Q18"
+  ],
+  "needs": [
+   "lessons.quiz",
+   "::skizze/::kurz desselben Abschnitts"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "leicht",
+  "exists_in_app": false
+ },
+ {
+  "key": "sicher",
+  "name": "Wie sicher bist du?",
+  "group": "C",
+  "play": "Zusatz zu jeder Quizkarte: vor dem Antworten Sicherheit 50/75/100 % antippen. Falsche Antworten mit hoher Sicherheit werden markiert, ausführlich aufgelöst und kommen früher wieder.",
+  "principle": "Hypercorrection: mit hoher Sicherheit gemachte Fehler werden nach Feedback am ehesten korrigiert.",
+  "sources": [
+   "https://files.eric.ed.gov/fulltext/ED574569.pdf",
+   "https://learningscientists.org/blog/2023/8/3-1"
+  ],
+  "source_ids": [
+   "Q21",
+   "Q20"
+  ],
+  "needs": [
+   "alle vorhandenen Quizkarten"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "—",
+  "exists_in_app": false
+ },
+ {
+  "key": "fehler",
+  "name": "Finde den Fehler",
+  "group": "C",
+  "play": "Bild + 4 kurze Aussagen (prüfbare Punkte aus der Quellen-Referenz). Eine stammt von einem anderen Bild. Den Fehler antippen, dann die Quelle.",
+  "principle": "Fehlerbasiertes Lernen mit korrigierendem Feedback; aktiver Abgleich am Bild statt Ja/Nein für eine Aussage.",
+  "sources": [
+   "https://files.eric.ed.gov/fulltext/ED574569.pdf",
+   "https://pz.harvard.edu/resources/elaboration-game"
+  ],
+  "source_ids": [
+   "Q20",
+   "Q4"
+  ],
+  "needs": [
+   "references.checkable (≥3 je Bild)"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "allesstimmt",
+  "name": "Alles, was stimmt",
+  "group": "C",
+  "play": "30 s schauen (Timer). Dann 8 Kärtchen mit Beobachtungen: alle antippen, die für das Bild stimmen (4 aus seiner Referenz, 4 von anderen Bildern derselben Dimension).",
+  "principle": "Looking: Ten Times Two (erst ruhig schauen, dann Beobachtungen sammeln) als Mehrfachauswahl; Abruf statt Wiedererkennen einer Einzelaussage.",
+  "sources": [
+   "https://pz.harvard.edu/resources/looking-ten-times-two",
+   "https://www.gse.harvard.edu/news/uk/20/01/art-slow-looking-classroom"
+  ],
+  "source_ids": [
+   "Q1",
+   "Q2",
+   "Q11"
+  ],
+  "needs": [
+   "references.checkable"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "luecke",
+  "name": "Lückenzitat",
+  "group": "C",
+  "play": "O-Ton eines Fotografen mit einer ausgeblendeten Schlüsselstelle (kuratiert). 4 Wortoptionen antippen; danach ganzer Auszug mit Quelle.",
+  "principle": "Generation Effect: selbst erzeugte Antworten werden besser behalten als präsentierte.",
+  "sources": [
+   "https://amplifire.com/wp-content/uploads/2024/03/Science-Behind-Learning.pdf"
+  ],
+  "source_ids": [
+   "Q23"
+  ],
+  "needs": [
+   "sources kind=fotograf",
+   "neu: cloze-Feld (Lückenwort + 3 Ablenker)"
+  ],
+  "data_status": "teilweise",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "zitatbild",
+  "name": "Welches Bild meint er?",
+  "group": "C",
+  "play": "Fotografenzitat zu einem Bild. Darunter 3 Bilder desselben Fotografen: zu welchem gehört der Satz?",
+  "principle": "Wort–Bild-Verknüpfung an Contrasting Cases (gleiche Handschrift, anderes Bild); Abrufübung.",
+  "sources": [
+   "https://psychology.ecu.edu/wp-content/pv-uploads/sites/216/2019/03/Roediger-Karpicke-2006.pdf",
+   "https://www.wright.edu/sites/www.wright.edu/files/uploads/2017/Feb/event/Schwartz_Bransford_1998_TimeForTelling.pdf"
+  ],
+  "source_ids": [
+   "Q17",
+   "Q18"
+  ],
+  "needs": [
+   "sources kind=fotograf scope=image (336)",
+   "≥3 Bilder je Fotograf"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "quellebild",
+  "name": "Welches Bild beschreibt die Quelle?",
+  "group": "C",
+  "play": "Musterantwort einer Referenz (ohne Namen) oben; 3 Bilder derselben Dimension zur Wahl. Umkehrung von „Laut Quelle“.",
+  "principle": "Diskriminierung: die beschriebene Bauweise im richtigen Bild wiederfinden (Contrasting Cases).",
+  "sources": [
+   "https://par.nsf.gov/servlets/purl/10254051",
+   "https://www.wright.edu/sites/www.wright.edu/files/uploads/2017/Feb/event/Schwartz_Bransford_1998_TimeForTelling.pdf"
+  ],
+  "source_ids": [
+   "Q17",
+   "Q15"
+  ],
+  "needs": [
+   "references (answer_md)"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "sehendeuten",
+  "name": "Sehen oder deuten?",
+  "group": "D",
+  "play": "6 Sätze zu einem Bild; jeden nach links (sieht man) oder rechts (ist Deutung) wischen. Sichtbar = prüfbare Punkte; Deutung = Quellen mit aspect=deutung.",
+  "principle": "Elaboration Game/VTS: erst beschreiben, Deutung zurückhalten; Feldman: Beschreibung vor Analyse und Deutung.",
+  "sources": [
+   "https://pz.harvard.edu/resources/elaboration-game",
+   "https://us.humankinetics.com/blogs/excerpt/feldman-model-of-criticism",
+   "https://vtshome.org/wp-content/uploads/2020/03/VTS-Resources-for-Families.pdf"
+  ],
+  "source_ids": [
+   "Q4",
+   "Q9",
+   "Q49"
+  ],
+  "needs": [
+   "references.checkable",
+   "sources aspect=deutung"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "beleg",
+  "name": "Woran siehst du das?",
+  "group": "D",
+  "play": "Eine Deutung aus einer Quelle (Museum/Kritik). 3 sichtbare Befunde zur Wahl: welcher stützt sie? (richtig = prüfbarer Punkt derselben Referenz).",
+  "principle": "VTS-Frage „What do you see that makes you say that?“; Claim–Support–Question.",
+  "sources": [
+   "https://pz.harvard.edu/resources/claim-support-question",
+   "https://vtshome.org/wp-content/uploads/2020/03/VTS-Resources-for-Families.pdf"
+  ],
+  "source_ids": [
+   "Q6",
+   "Q9"
+  ],
+  "needs": [
+   "references mit answer_md + checkable",
+   "sources aspect=deutung"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel–schwer",
+  "exists_in_app": false
+ },
+ {
+  "key": "lesart",
+  "name": "Wer liest so?",
+  "group": "D",
+  "play": "Zwei bis drei wörtliche Auszüge zum selben Bild von verschiedenen Stimmen. Zuordnen: Fotograf:in / Museum / Kritik.",
+  "principle": "Crit-Kultur mit mehreren Stimmen (Yale-Panel, RCA-Crits); Contrasting Cases zwischen Lesarten.",
+  "sources": [
+   "https://catalog.yale.edu/art/areas-study/photography",
+   "https://www.wright.edu/sites/www.wright.edu/files/uploads/2017/Feb/event/Schwartz_Bransford_1998_TimeForTelling.pdf"
+  ],
+  "source_ids": [
+   "Q39",
+   "Q17"
+  ],
+  "needs": [
+   "Bilder mit Quellen ≥2 kind (167, davon 123 mit O-Ton)"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "davordanach",
+  "name": "Davor – danach",
+  "group": "D",
+  "play": "Bild mit Frage „Was geschah kurz davor / danach?“ 15 s nachdenken, dann Auflösung aus Entstehungsquelle; wenn Moment-Referenz da ist, 3 Optionen (auto), sonst Selbsteinschätzung.",
+  "principle": "Project Zero Beginning–Middle–End: Erzählung als Weg zum genauen Hinsehen; Vorhersage vor Aufdecken.",
+  "sources": [
+   "https://learninglab.uchicago.edu/Pre-Testing_files/RichlandKornellKao.pdf",
+   "https://pz.harvard.edu/resources/beginning-middle-end"
+  ],
+  "source_ids": [
+   "Q3",
+   "Q19"
+  ],
+  "needs": [
+   "references dimension=moment (52)",
+   "sources aspect=entstehung"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "zeigsmir",
+  "name": "Zeig's mir",
+  "group": "D",
+  "play": "Die Quelle nennt ein Detail („der Hund am unteren Rand“, „die Lichtkante auf dem Fels“). Auf das Bild tippen, wo es ist; richtig, wenn der Tipp in der hinterlegten Box liegt. Danach Box einblenden und Auszug zeigen.",
+  "principle": "VTS: auf die Stelle zeigen, über die gesprochen wird; Experten lösen den Blick vom Motiv und finden die tragenden Details (Eye-Tracking).",
+  "sources": [
+   "https://microsite.geo.uzh.ch/icacogvis/pdf/icc2013/Dupont.pdf",
+   "https://vtshome.org/wp-content/uploads/2020/03/VTS-Resources-for-Families.pdf",
+   "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2011.00094/full"
+  ],
+  "source_ids": [
+   "Q9",
+   "Q28",
+   "Q30"
+  ],
+  "needs": [
+   "references.checkable",
+   "neu: checkable_regions (Box je Punkt, von Hand gesetzt)"
+  ],
+  "data_status": "neu",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "dreiebenen",
+  "name": "Drei Ebenen",
+  "group": "D",
+  "play": "4 Aussagen zu einem Bild in drei Fächer sortieren: vorikonografisch (was zu sehen ist), ikonografisch (Thema/Kontext), ikonologisch (Bedeutung für Zeit/Gesellschaft).",
+  "principle": "Panofsky: pre-iconographical description – iconographical analysis – iconological interpretation.",
+  "sources": [
+   "https://tidsskrift.dk/culturehistoryku/article/download/162397/203987/360714"
+  ],
+  "source_ids": [
+   "Q48"
+  ],
+  "needs": [
+   "neu: Aussagen mit Ebenen-Label je Bild (aus Quellen)"
+  ],
+  "data_status": "neu",
+  "checkable": "auto",
+  "difficulty": "schwer",
+  "exists_in_app": false
+ },
+ {
+  "key": "begriffzitat",
+  "name": "Begriff zum Zitat",
+  "group": "D",
+  "play": "Wörtlicher Auszug zu einem Seh-Begriff (ohne Begriff). 4 Begriffe zur Wahl (Szarkowski, Shore, Ghirri …).",
+  "principle": "Vokabular der Lehre aktiv abrufen (Shore: „visual grammar“); Retrieval Practice.",
+  "sources": [
+   "https://www.foto8.com/live/the-nature-of-photographs/",
+   "https://www.sciencedaily.com/releases/2013/01/130110111734.htm"
+  ],
+  "source_ids": [
+   "Q34",
+   "Q24"
+  ],
+  "needs": [
+   "concepts + sources scope=concept (44)"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "leicht–mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "paare",
+  "name": "Begriffe zuordnen",
+  "group": "D",
+  "play": "4 Begriffe links, 4 Kurzdefinitionen rechts, per Tippen verbinden (Memory-artig).",
+  "principle": "Retrieval Practice, Vokabularaufbau; kurze verteilte Wiederholung.",
+  "sources": [
+   "https://psychology.ecu.edu/wp-content/pv-uploads/sites/216/2019/03/Roediger-Karpicke-2006.pdf",
+   "https://www.sciencedaily.com/releases/2013/01/130110111734.htm"
+  ],
+  "source_ids": [
+   "Q24",
+   "Q18"
+  ],
+  "needs": [
+   "concepts.summary_md"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "leicht",
+  "exists_in_app": false
+ },
+ {
+  "key": "skizzesatz",
+  "name": "Skizze zum Satz",
+  "group": "D",
+  "play": "Eine Lektions-Skizze (SVG) und 3 ::kurz-Sätze aus verschiedenen Abschnitten: welcher gehört dazu?",
+  "principle": "Bild und Wort gekoppelt abrufen (Dual Coding); Abruf statt Wiederlesen.",
+  "sources": [
+   "https://amplifire.com/wp-content/uploads/2024/03/Science-Behind-Learning.pdf",
+   "https://www.sciencedaily.com/releases/2013/01/130110111734.htm"
+  ],
+  "source_ids": [
+   "Q24",
+   "Q23"
+  ],
+  "needs": [
+   "lessons ::skizze + ::kurz (198 Skizzen)"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "leicht",
+  "exists_in_app": false
+ },
+ {
+  "key": "kontakt",
+  "name": "Kontaktbogen",
+  "group": "E",
+  "play": "Streifen mit 6–12 Bildern einer Situation; antippen, welches der Fotograf ausgewählt hat. Danach seine eigene Begründung.",
+  "principle": "Editing am Kontaktbogen als Kern der Praxis (Whitney „A Few Frames“; Magnum Contact Sheets); Urteil vor Auflösung.",
+  "sources": [
+   "https://whitney.org/exhibitions/a-few-frames",
+   "https://www.magnumphotos.com/event/events/workshop/thelanguageofpictures/"
+  ],
+  "source_ids": [
+   "Q36",
+   "Q41"
+  ],
+  "needs": [
+   "neu: Kontaktbögen mit gewähltem Bild + Quelle"
+  ],
+  "data_status": "neu",
+  "checkable": "auto",
+  "difficulty": "schwer",
+  "exists_in_app": false
+ },
+ {
+  "key": "wahl",
+  "name": "Die Wahl des Fotografen",
+  "group": "E",
+  "play": "Zwei bis drei Bilder derselben Session: veröffentlichtes, verworfenes, archiviertes. Welches wurde genutzt? Danach O-Ton, warum.",
+  "principle": "Hindsight-Format von On Landscape mit Joe Cornish; Comparative Judgement: Paarvergleich ist leichter und verlässlicher als absolute Noten.",
+  "sources": [
+   "https://filestore.aqa.org.uk/content/research/CERP_RP_CW_20062012_2.pdf",
+   "https://www.onlandscape.co.uk/?p=380"
+  ],
+  "source_ids": [
+   "Q43",
+   "Q27"
+  ],
+  "needs": [
+   "neu: Bildpaare/Triaden gewählt–verworfen mit Quelle"
+  ],
+  "data_status": "neu",
+  "checkable": "auto",
+  "difficulty": "schwer",
+  "exists_in_app": false
+ },
+ {
+  "key": "sequenz",
+  "name": "Buchfolge",
+  "group": "E",
+  "play": "4–5 Bilder eines Projekts in die Reihenfolge im Buch bringen (tippen). Auflösung mit Seitenzahlen und, wenn vorhanden, Aussage zur Sequenz.",
+  "principle": "Sequencing als Abschlussformat (Yale, Magnum-Editing-Workshop, Martin Parr Foundation); Generation vor Aufdecken.",
+  "sources": [
+   "https://catalog.yale.edu/art/areas-study/photography",
+   "https://www.magnumphotos.com/event/events/workshop/thelanguageofpictures/",
+   "https://www.martinparrfoundation.org/?p=37830"
+  ],
+  "source_ids": [
+   "Q41",
+   "Q42",
+   "Q39"
+  ],
+  "needs": [
+   "neu: sequence_position je Bild mit Quelle (Buch/Ausstellung)"
+  ],
+  "data_status": "neu",
+  "checkable": "auto",
+  "difficulty": "schwer",
+  "exists_in_app": false
+ },
+ {
+  "key": "konstanten",
+  "name": "Konstanten finden",
+  "group": "E",
+  "play": "Raster aus 6–9 Bildern eines Projekts. Aus 6 Eigenschaften die 3 antippen, die überall gleich sind (z. B. frontal, bedeckter Himmel, gleiche Distanz, Mittag).",
+  "principle": "Becher-Typologie: Kategorie plus Variation innerhalb des Typs; serielles Arbeiten.",
+  "sources": [
+   "https://aperture.org/editorial/remembrance-hilla-becher-tk-2015/",
+   "https://www.saltonline.org/en/321/"
+  ],
+  "source_ids": [
+   "Q37",
+   "Q38"
+  ],
+  "needs": [
+   "neu: constants je Projekt mit Quelle"
+  ],
+  "data_status": "neu",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "serienpaar",
+  "name": "Paar oder kein Paar?",
+  "group": "E",
+  "play": "Zwei Bilder als Doppelseite. Frage: stehen sie im Buch nebeneinander? Ja/Nein, Auflösung mit Seitenpaar.",
+  "principle": "Pairing als Teil der Buchwerkstatt (Martin Parr Foundation: „sizing and pairing“).",
+  "sources": [
+   "https://www.martinparrfoundation.org/?p=37830"
+  ],
+  "source_ids": [
+   "Q42"
+  ],
+  "needs": [
+   "neu: Doppelseiten-Paare mit Quelle"
+  ],
+  "data_status": "neu",
+  "checkable": "auto",
+  "difficulty": "schwer",
+  "exists_in_app": false
+ },
+ {
+  "key": "technik",
+  "name": "Womit gemacht?",
+  "group": "F",
+  "play": "Bild + 4 Optionen zu Format/Kamera/Material/Plattform (z. B. 8×10-Großformat, Kodachrome, Helikopter, Drohne). Auflösung mit Technikquelle und kurzem „was man daran sieht“.",
+  "principle": "Technik nur dort, wo sie das Aussehen erklärt (Leitprinzip 4); Retrieval Practice.",
+  "sources": [
+   "https://www.sciencedaily.com/releases/2013/01/130110111734.htm"
+  ],
+  "source_ids": [
+   "Q24"
+  ],
+  "needs": [
+   "teilweise: sources aspect=technik (134 an Bildern)",
+   "neu: strukturiertes Feld technique {format, camera, film, platform, exposure} mit Quelle"
+  ],
+  "data_status": "teilweise",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "regler",
+  "name": "Schätz-Regler",
+  "group": "F",
+  "play": "Schieberegler für eine belegte Zahl: Entfernung zum Motiv, Belichtungszeit, Flughöhe, Größe des Abzugs. Richtig in Toleranz; Feedback mit Abweichung.",
+  "principle": "Schätzen mit Feedback (Kalibrierung); Erweiterung des vorhandenen „Jahr schätzen“.",
+  "sources": [
+   "https://learningscientists.org/blog/2023/8/3-1",
+   "https://par.nsf.gov/servlets/purl/10254051"
+  ],
+  "source_ids": [
+   "Q21",
+   "Q15"
+  ],
+  "needs": [
+   "neu: numerische Fakten mit Quelle (distance_m, exposure_s, altitude_m, print_cm)"
+  ],
+  "data_status": "neu",
+  "checkable": "auto",
+  "difficulty": "mittel–schwer",
+  "exists_in_app": false
+ },
+ {
+  "key": "karte",
+  "name": "Wo auf der Welt?",
+  "group": "F",
+  "play": "Karte mit Pin setzen, wo das Bild entstand (GeoGuessr-artig); Punkte nach Entfernung. Auflösung mit Ort, Jahr und – wo vorhanden – Standpunkt-Referenz.",
+  "principle": "Abruf mit räumlichem Kontext; für Reiseplanung (Ortsdossier). Lernwirkung für Sehen eher gering – nur gelegentlich einstreuen.",
+  "sources": [
+   "https://psychology.ecu.edu/wp-content/pv-uploads/sites/216/2019/03/Roediger-Karpicke-2006.pdf"
+  ],
+  "source_ids": [
+   "Q18"
+  ],
+  "needs": [
+   "images.location (524)",
+   "neu: lat/lon je Bild (Geokodierung, Quelle = location)"
+  ],
+  "data_status": "teilweise",
+  "checkable": "auto",
+  "difficulty": "leicht–mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "einfluss",
+  "name": "Wer lernte von wem?",
+  "group": "F",
+  "play": "Zwei Fotografen; Frage: Wer beeinflusste wen bzw. wer lehrte wen? Pfeil-Richtung antippen. Auflösung mit Quelle.",
+  "principle": "Geschichte als Netz; Retrieval Practice.",
+  "sources": [
+   "https://aperture.org/editorial/remembrance-hilla-becher-tk-2015/",
+   "https://henryholmessmith.com/biography"
+  ],
+  "source_ids": [
+   "Q38",
+   "Q46"
+  ],
+  "needs": [
+   "neu: influences {from, to, kind: lehrer|vorbild|kollege, source}"
+  ],
+  "data_status": "neu",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "mythos",
+  "name": "Belegt oder Mythos?",
+  "group": "F",
+  "play": "Eine verbreitete Behauptung über ein Bild (gestellt? beschnitten? Name des Ortes?). Wahr/Falsch, Auflösung mit Quelle, die sie bestätigt oder widerlegt.",
+  "principle": "Fehler mit Feedback korrigieren; Hypercorrection bei sicheren Irrtümern.",
+  "sources": [
+   "https://files.eric.ed.gov/fulltext/ED574569.pdf",
+   "https://learningscientists.org/blog/2023/8/3-1"
+  ],
+  "source_ids": [
+   "Q20",
+   "Q21"
+  ],
+  "needs": [
+   "neu: myths {claim, truth, source}"
+  ],
+  "data_status": "neu",
+  "checkable": "auto",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "speedcrit",
+  "name": "Speed-Crit 60 s",
+  "group": "G",
+  "play": "60 s Timer. Aus je 6 Chips eine Stärke und eine Schwäche antippen (Licht, Kante, Moment, Ebenen …), optional ein Satz. Dann: was Kritik/Kurator:in sagt.",
+  "principle": "Kritik als Kernformat aller Programme (Yale wöchentliches Critique Panel, Ostkreuz-Besprechungen, Portfolio-Reviews bei Charlie Waite).",
+  "sources": [
+   "https://catalog.yale.edu/art/areas-study/photography",
+   "https://ostkreuzschule.de/en",
+   "https://www.charliewaite.com/individual-tuition",
+   "https://www.sitegallery.org/?p=6994"
+  ],
+  "source_ids": [
+   "Q39",
+   "Q40",
+   "Q44",
+   "Q45"
+  ],
+  "needs": [
+   "sources kind=kritik|kurator (265)"
+  ],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "wiederschauen",
+  "name": "Zweimal schauen",
+  "group": "G",
+  "play": "30 s schauen, 3 Beobachtungen tippen/notieren; Bild weg, wieder 30 s, 3 neue. Auflösung: welche Quellenpunkte du gefunden hast (Abgleich per Chips, Rest Selbsteinschätzung).",
+  "principle": "Looking: Ten Times Two; Slow Looking (Tishman).",
+  "sources": [
+   "https://pz.harvard.edu/resources/looking-ten-times-two",
+   "https://www.gse.harvard.edu/news/uk/20/01/art-slow-looking-classroom"
+  ],
+  "source_ids": [
+   "Q1",
+   "Q11"
+  ],
+  "needs": [
+   "references.checkable"
+  ],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "leicht",
+  "exists_in_app": false
+ },
+ {
+  "key": "skizzieren",
+  "name": "Aus dem Gedächtnis skizzieren",
+  "group": "G",
+  "play": "8 s einprägen, dann auf leerem Rahmen 2–4 Hauptformen als Kästen ziehen (Horizont, Hauptmotiv, große Fläche). Danach Bild halbtransparent darüber legen.",
+  "principle": "Generation + Slow Looking; Experten sehen die globale Ordnung (Eye-Tracking).",
+  "sources": [
+   "https://amplifire.com/wp-content/uploads/2024/03/Science-Behind-Learning.pdf",
+   "https://microsite.geo.uzh.ch/icacogvis/pdf/icc2013/Dupont.pdf",
+   "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2011.00094/full"
+  ],
+  "source_ids": [
+   "Q23",
+   "Q28",
+   "Q30"
+  ],
+  "needs": [
+   "images",
+   "optional neu: Hauptformen als Boxen für Auto-Wertung"
+  ],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "aufgabe",
+  "name": "Aufgabe für unterwegs",
+  "group": "G",
+  "play": "Eine Übung aus Lektion/Begriff („heute: einmal höher, einmal tiefer“). Knopf „angenommen“; am nächsten Tag Check-in-Karte „gemacht? Was hat es gezeigt?“.",
+  "principle": "Assignments wie in den Hochschulen (Ostkreuz: Aufgaben, Besprechung); Transfer in die Praxis; Spacing.",
+  "sources": [
+   "https://ostkreuzschule.de/en",
+   "https://www.sciencedaily.com/releases/2013/01/130110111734.htm"
+  ],
+  "source_ids": [
+   "Q40",
+   "Q24"
+  ],
+  "needs": [
+   "lessons.exercises (152)",
+   "concepts.exercise_md"
+  ],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "—",
+  "exists_in_app": false
+ },
+ {
+  "key": "selberort",
+  "name": "Selber Ort, zwei Blicke",
+  "group": "G",
+  "play": "Zwei Bilder vom selben Ort (z. B. Hongkong, Antarktis). Frage: Was hat B anders entschieden – Standpunkt, Distanz, Licht? Tippen, dann beide Referenzen nebeneinander.",
+  "principle": "Thinking with Images („How is this like… / not like…“); Contrasting Cases.",
+  "sources": [
+   "https://pz.harvard.edu/resources/thinking-images",
+   "https://www.wright.edu/sites/www.wright.edu/files/uploads/2017/Feb/event/Schwartz_Bransford_1998_TimeForTelling.pdf"
+  ],
+  "source_ids": [
+   "Q8",
+   "Q17"
+  ],
+  "needs": [
+   "images.location (53 Orte mit ≥2 Bildern)",
+   "references beider Bilder"
+  ],
+  "data_status": "teilweise",
+  "checkable": "self",
+  "difficulty": "mittel",
+  "exists_in_app": false
+ },
+ {
+  "key": "tagesbild",
+  "name": "Ein Bild, drei Mal",
+  "group": "G",
+  "play": "Morgens 20 s schauen, mittags eine Frage aus dem Gedächtnis, abends die Quelle. Drei Häppchen über den Tag verteilt.",
+  "principle": "Distributed Practice/Spacing und Testing (höchster Nutzen bei Dunlosky et al.); Slow Looking über Zeit.",
+  "sources": [
+   "https://www.gse.harvard.edu/news/uk/20/01/art-slow-looking-classroom",
+   "https://www.sciencedaily.com/releases/2013/01/130110111734.htm"
+  ],
+  "source_ids": [
+   "Q24",
+   "Q11"
+  ],
+  "needs": [
+   "references",
+   "sources"
+  ],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "leicht",
+  "exists_in_app": false
+ },
+ {
+  "key": "order",
+  "name": "Zeitreise",
+  "group": "vorhanden",
+  "play": "4 Bilder nach Jahr ordnen.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "crop",
+  "name": "Ausschnitt",
+  "group": "vorhanden",
+  "play": "Detail dem Bild zuordnen.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "tf",
+  "name": "Stimmt's?",
+  "group": "vorhanden",
+  "play": "Prüfbarer Quellenpunkt wahr/falsch.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "tiles",
+  "name": "Aufdecken",
+  "group": "vorhanden",
+  "play": "Bild deckt sich kachelweise auf, Fotograf raten.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "who",
+  "name": "Wer war's?",
+  "group": "vorhanden",
+  "play": "Fotograf erraten (MC).",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "guess",
+  "name": "Jahr schätzen",
+  "group": "vorhanden",
+  "play": "Schieberegler ±5 Jahre.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "mirror",
+  "name": "Original oder gespiegelt?",
+  "group": "vorhanden",
+  "play": "Nur Bilder mit links/rechts in der Referenz.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "look",
+  "name": "Eine Minute schauen",
+  "group": "vorhanden",
+  "play": "20-s-Timer, dann Fakt.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "pair",
+  "name": "Gegenüber",
+  "group": "vorhanden",
+  "play": "Bildpaar aus ::vergleich.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "memory",
+  "name": "Aus dem Gedächtnis",
+  "group": "vorhanden",
+  "play": "8 s einprägen, dann Stimmt's?.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "stamp",
+  "name": "Briefmarken-Test",
+  "group": "vorhanden",
+  "play": "Miniatur, dann Quellen zu Ordnung/Ebenen.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "story",
+  "name": "So entstand es",
+  "group": "vorhanden",
+  "play": "Quellen-Antworten als Wischfolien.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "quote",
+  "name": "O-Ton",
+  "group": "vorhanden",
+  "play": "Zitat: wer sagt das?",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "sketch",
+  "name": "Mini-Lektion",
+  "group": "vorhanden",
+  "play": "::skizze.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "merke",
+  "name": "Merksatz",
+  "group": "vorhanden",
+  "play": "::merke.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "pinfo",
+  "name": "Porträt",
+  "group": "vorhanden",
+  "play": "Fotograf kurz.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "concept",
+  "name": "Seh-Begriff",
+  "group": "vorhanden",
+  "play": "Begriff kurz.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "self",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "year",
+  "name": "Jahrzehnt",
+  "group": "vorhanden",
+  "play": "MC.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "chap",
+  "name": "Geschichte",
+  "group": "vorhanden",
+  "play": "Kapitel zuordnen.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "ref",
+  "name": "Laut Quelle",
+  "group": "vorhanden",
+  "play": "MC aus Referenz.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "",
+  "exists_in_app": true
+ },
+ {
+  "key": "quiz",
+  "name": "Theoriefrage",
+  "group": "vorhanden",
+  "play": "Lektionsquiz.",
+  "principle": "",
+  "sources": [],
+  "source_ids": [],
+  "needs": [],
+  "data_status": "da",
+  "checkable": "auto",
+  "difficulty": "",
+  "exists_in_app": true
+ }
+]

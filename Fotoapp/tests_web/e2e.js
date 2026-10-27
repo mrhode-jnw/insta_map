@@ -282,9 +282,12 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   for (let k = 0; k < 8; k++) {
     await page.waitForSelector(".snack");
     kinds.add(await page.$eval(".snack", e => e.className));
-    for (let step = 0; step < 8 && !(await page.$(".snack-next button")); step++) { // play whatever the card asks for
-      const b = await page.$(".snack-opts .opt:not([disabled]), .tf-btns .opt:not([disabled]), .order-item:not([disabled]), .reveal-btn, [data-action='snack-reveal'], [data-action='snack-guess']");
-      if (!b) break; await b.click(); await page.waitForTimeout(80);
+    for (let step = 0; step < 30 && !(await page.$(".snack-next button")); step++) { // play whatever the card asks for
+      let hit = false;
+      for (const sel of ["[data-action='snack-check']:not([disabled])", ".assign-row:not(:has(.chip.on)) .chip", ".snack-opts .opt:not([disabled])", ".tf-btns .opt:not([disabled])",
+        ".order-item:not([disabled])", ".reveal-btn", "[data-action='snack-reveal']", "[data-action='snack-guess']", "[data-action='snack-zone']", ".chips .chip:not(.on):not([disabled])"]) {
+        const b = await page.$(sel); if (b) { await b.click(); hit = true; break; } }
+      await page.waitForTimeout(hit ? 80 : 300); // measuring cards render their question after the image is decoded
     }
     await page.click(".snack-next button");
   }

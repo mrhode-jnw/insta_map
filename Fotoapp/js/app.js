@@ -391,7 +391,8 @@ views.lektion = async id => {
 // --- Häppchen: short, varied cards for the train – games, stories, looking, short knowledge, some quiz; no AI
 async function snackStats() { return (await loadState("progress", { theory: {} })).snacks || { total: 0, right: 0, rounds: 0, last: {} }; }
 const SEG_ICON = { order: "⏳", crop: "🔍", tf: "✓✗", look: "👁", pair: "⇆", story: "📖", quote: "❝", sketch: "✎", merke: "★", pinfo: "◉", concept: "◇",
-  memory: "◐", tiles: "▦", mirror: "⇋", guess: "≈", stamp: "▪", who: "?", year: "#", chap: "§", ref: "❞", quiz: "?" };
+  memory: "◐", tiles: "▦", mirror: "⇋", guess: "≈", stamp: "▪", blitz: "⚡", hand: "✍", odd: "◌", zoomout: "⤢", tone: "◑", zone: "▤", edge: "⌗", change: "Δ",
+  fmt: "▭", mistake: "✗", allok: "☑", qimg: "❝", srcimg: "⌕", aspect: "◎", voices: "☰", match: "⇄", cquote: "◇", skline: "✎", place: "⌖", task: "➜", who: "?", year: "#", chap: "§", ref: "❞", quiz: "?" };
 views.kurz = async () => {
   const st = await snackStats(), open = sess.get("snack");
   const wrongN = Object.values(st.last || {}).filter(v => v === 0).length;
@@ -410,19 +411,31 @@ function snackBody(card, res, st) {
   const after = (inner = "") => `<div class="snack-explain prose">${inner}<p class="small"><a href="${card.link[0]}">${esc(card.link[1])} →</a></p></div>`;
   const hero = id => `<figure class="snack-img">${media(id, "m")}</figure>`;
   switch (card.kind) {
-    case "mc": return `${card.crop ? `<figure class="snack-crop"><img data-media="${esc(card.crop.id)}" data-kind="m" alt="" style="object-position:${card.crop.x}% ${card.crop.y}%;transform-origin:${card.crop.x}% ${card.crop.y}%;transform:scale(${card.crop.zoom})"></figure>`
+    case "mc": {
+      if (card.preview && !done && !st.memo?.[st.pos]) return `<figure class="snack-img tall">${media(card.image, "m")}</figure>
+        <p class="snack-q">Präg dir das Bild ein – gleich verändert die App etwas daran.</p><div class="memo-bar"><i style="animation-duration:${card.preview}s"></i></div>
+        <button class="big secondary reveal-btn" data-action="snack-memo">Weiter</button>`;
+      const zs = card.zoom ? Math.min(st.zoom?.[st.pos] || 0, card.zoom.steps.length - 1) : 0;
+      const top = card.preview ? (done ? `<div class="snack-pair"><figure>${media(card.image, "m")}<figcaption class="small muted">Original</figcaption></figure><figure class="clip">${imgS(card.image, card.variant)}<figcaption class="small muted">Verändert</figcaption></figure></div>`
+          : `<figure class="snack-img clip">${imgS(card.image, card.variant)}</figure>`)
+        : card.zoom ? (done ? hero(card.zoom.id) : `<figure class="snack-crop">${imgS(card.zoom.id, `object-position:${card.zoom.x}% ${card.zoom.y}%;transform-origin:${card.zoom.x}% ${card.zoom.y}%;transform:scale(${card.zoom.steps[zs]})`)}</figure>
+          ${zs < card.zoom.steps.length - 1 ? `<p><button class="secondary" data-action="snack-zoom">Weiter herauszoomen (${zs + 1}/${card.zoom.steps.length})</button></p>` : ""}`)
+        : card.sketch ? `<figure class="sketch">${lib.sketches[card.sketch]}</figure>`
+        : card.quote ? `${card.image ? `<figure class="snack-img small">${media(card.image, "m")}</figure>` : ""}<blockquote class="snack-quote small">„${esc(card.quote)}“</blockquote>${card.quote_de ? `<p class="muted small">Übersetzung: ${esc(card.quote_de)}</p>` : ""}` : "";
+      const two = card.options.length === 2;
+      return `${top}${card.crop ? `<figure class="snack-crop"><img data-media="${esc(card.crop.id)}" data-kind="m" alt="" style="object-position:${card.crop.x}% ${card.crop.y}%;transform-origin:${card.crop.x}% ${card.crop.y}%;transform:scale(${card.crop.zoom})"></figure>`
         : card.image && card.tiles && !done ? `<figure class="snack-img tiles">${media(card.image, "m")}<div class="tile-cover">${card.tileOrder.map(k => `<i style="animation-delay:${0.4 + 0.55 * k}s"></i>`).join("")}</div></figure>`
-        : card.image ? hero(card.image) : ""}
+        : card.image && !top ? hero(card.image) : ""}
       <h2 class="snack-q">${mdInline(card.prompt)}</h2>
       <div class="snack-opts${card.options[0].image ? " thumbs3" : ""}" style="--n:${card.options.length}">${card.options.map((o, k) => `<button class="opt${done ? (o.correct ? " right" : k === res ? " wrong" : " dim") : ""}" data-action="snack-answer" data-i="${k}" ${done ? "disabled" : ""}>
-        ${o.image ? `${o.flip ? `<span class="flip">${media(o.image, card.kind === "mc" && card.options.length === 2 ? "m" : undefined)}</span>` : card.options.length === 2 ? media(o.image, "m") : media(o.image)}${done ? `<span>${esc(o.text)}</span>` : ""}` : mdInline(o.text)}</button>`).join("")}</div>
-      ${done ? after(okText(card.options[res]?.correct) + md(card.explain_md)) : ""}`;
+        ${o.image ? `${o.flip ? `<span class="flip">${media(o.image, two ? "m" : undefined)}</span>` : o.zoomCrop ? `<span class="clip">${imgS(o.image, `transform-origin:${o.zoomCrop.x}% ${o.zoomCrop.y}%;transform:scale(${o.zoomCrop.s})`, two ? "m" : "t")}</span>` : two ? media(o.image, "m") : media(o.image)}${done ? `<span>${esc(o.text)}</span>` : ""}` : mdInline(o.text)}</button>`).join("")}</div>
+      ${done ? after(okText(card.options[res]?.correct) + (card.zoom ? `<p class="small muted">Geantwortet bei Zoomstufe ${zs + 1} von ${card.zoom.steps.length}.</p>` : "") + md(card.explain_md)) : ""}`; }
     case "tf": if (card.memorize && !done && !st.memo?.[st.pos]) return `<figure class="snack-img tall">${media(card.image, "m")}</figure>
         <p class="snack-q">Präg dir das Bild ein – gleich ist es weg.</p><div class="memo-bar"><i style="animation-duration:${card.memorize}s"></i></div>
         <button class="big secondary reveal-btn" data-action="snack-memo">Hab's – Bild ausblenden</button>`;
-      return `${card.memorize && !done ? `<div class="memo-gone">Bild ausgeblendet</div>` : hero(card.image)}<p class="muted small">${esc(card.prompt)}</p><blockquote class="snack-statement">${esc(card.statement)}</blockquote>
-      <div class="tf-btns"><button class="opt${done ? (card.truth ? " right" : res === 1 ? " wrong" : " dim") : ""}" data-action="snack-tf" data-v="1" ${done ? "disabled" : ""}>✓ Stimmt</button>
-        <button class="opt${done ? (!card.truth ? " right" : res === 0 ? " wrong" : " dim") : ""}" data-action="snack-tf" data-v="0" ${done ? "disabled" : ""}>✗ Stimmt nicht</button></div>
+      return `${card.memorize && !done ? `<div class="memo-gone">Bild ausgeblendet</div>` : card.images ? `<div class="snack-pair">${card.images.map(id => `<figure>${media(id, "m")}</figure>`).join("")}</div>` : hero(card.image)}<p class="muted small">${esc(card.prompt)}</p><blockquote class="snack-statement">${esc(card.statement)}</blockquote>
+      <div class="tf-btns"><button class="opt${done ? (card.truth ? " right" : res === 1 ? " wrong" : " dim") : ""}" data-action="snack-tf" data-v="1" ${done ? "disabled" : ""}>${card.tfLabels ? esc(card.tfLabels[0]) : "✓ Stimmt"}</button>
+        <button class="opt${done ? (!card.truth ? " right" : res === 0 ? " wrong" : " dim") : ""}" data-action="snack-tf" data-v="0" ${done ? "disabled" : ""}>${card.tfLabels ? esc(card.tfLabels[1]) : "✗ Stimmt nicht"}</button></div>
       ${done ? after(okText(res === (card.truth ? 1 : 0)) + md(card.explain_md)) : ""}`;
     case "order": { const picked = Array.isArray(res) ? res : [], full = picked.length === card.items.length;
       return `<h2 class="snack-q">${esc(card.prompt)}</h2><div class="order-grid">${card.items.map((it, k) => { const pos = picked.indexOf(k);
@@ -433,6 +446,35 @@ function snackBody(card, res, st) {
       return `<figure class="snack-img tall">${media(card.image, "m")}</figure>
         ${done ? `<div class="snack-explain prose"><p class="small muted">${mdInline(card.caption_md)}</p>${md(card.fact_md)}<p class="small"><a href="${card.link[0]}">${esc(card.link[1])} →</a></p></div>`
           : `<p class="snack-q">${esc(card.prompt)}</p><div class="look-timer"><b id="snack-timer" data-left="${left}">${left}</b> s <button class="secondary" data-action="snack-reveal">Auflösen</button></div>`}`; }
+    case "swipe2": { const got = Array.isArray(res) ? res : [], k = got.length, n = card.items.length;
+      const dots = `<div class="blitz-dots">${card.items.map((it, j) => `<i class="${j < k ? (got[j] === it.side ? "ok" : "bad") : j === k ? "cur" : ""}"></i>`).join("")}</div>`;
+      if (k < n) { const prev = k ? got[k - 1] === card.items[k - 1].side : null;
+        return `<p class="snack-q">${esc(card.prompt)}</p>${dots}<figure class="snack-img blitz-img" data-blitz>${media(card.items[k].id, "m")}</figure>
+          <p class="small blitz-fb ${prev == null ? "" : prev ? "ok" : "warn"}">${prev == null ? "&nbsp;" : prev ? "✓ richtig" : `✗ war ${esc(card.bins[card.items[k - 1].side])}`}</p>
+          <div class="tf-btns"><button class="opt" data-action="snack-bin" data-v="0">← ${esc(card.bins[0])}</button><button class="opt" data-action="snack-bin" data-v="1">${esc(card.bins[1])} →</button></div>`; }
+      const right = got.filter((v, j) => v === card.items[j].side).length;
+      return `<p class="snack-q">${right} von ${n} richtig</p>${dots}<div class="order-grid">${card.items.map((it, j) => `<div class="order-item ${got[j] === it.side ? "right" : "wrong"}">${media(it.id)}<span>${esc(card.bins[it.side])}</span></div>`).join("")}</div>
+        ${after(okText(isRight(card, res)) + md(card.explain_md))}`; }
+    case "multi": { const sel = done ? res : (st.sel?.[st.pos] || []);
+      return `${hero(card.image)}<h2 class="snack-q">${esc(card.prompt)}</h2><div class="chips">${card.options.map((o, k) => `<button class="chip${sel.includes(k) ? " on" : ""}${done ? (o.correct ? " right" : sel.includes(k) ? " wrong" : " dim") : ""}" data-action="snack-toggle" data-i="${k}" ${done ? "disabled" : ""}>${esc(o.text)}</button>`).join("")}</div>
+        ${done ? after(okText(isRight(card, res)) + `<p class="small muted">Grün umrandet = laut Quelle zutreffend.</p>` + md(card.explain_md)) : `<button class="big" data-action="snack-check" ${sel.length ? "" : "disabled"}>Prüfen</button>`}`; }
+    case "assign": { const sel = done ? res : (st.sel?.[st.pos] || []);
+      return `${card.image ? `<figure class="snack-img small">${media(card.image, "m")}</figure>` : ""}<h2 class="snack-q">${esc(card.prompt)}</h2>
+        ${card.rows.map((row, k) => `<div class="assign-row"><p>${card.type === "voices" ? `„${esc(row.text)}“` : esc(row.text)}</p><div class="chips">${card.labels.map((l, n) => `<button class="chip${sel[k] === n ? " on" : ""}${done ? (l === row.answer ? " right" : sel[k] === n ? " wrong" : " dim") : ""}" data-action="snack-assign" data-row="${k}" data-i="${n}" ${done ? "disabled" : ""}>${esc(l)}</button>`).join("")}</div>${done && row.note ? `<p class="small muted">– ${esc(row.note)}</p>` : ""}</div>`).join("")}
+        ${done ? after(okText(isRight(card, res)) + md(card.explain_md || "")) : `<button class="big" data-action="snack-check" ${card.rows.every((_, k) => sel[k] != null) ? "" : "disabled"}>Prüfen</button>`}`; }
+    case "tone": { const m = st.tone?.[st.pos], pts = m ? (card.mode === "pair" ? [m.a, m.b] : [m.a]) : [];
+      const fig = `<figure class="snack-img tone-fig${done ? "" : " gray"}"><span class="tone-wrap">${media(card.image, "m")}${pts.map((pt, n) => `<b class="tone-pt" style="left:${pt.x}%;top:${pt.y}%">${card.mode === "pair" ? "AB"[n] : ""}</b>`).join("")}</span></figure>`;
+      if (!m) return `${fig}<p class="muted small">Bild wird vermessen …</p>`;
+      const zoneOf = L => Math.round(L / 10), info = pt => `Zone ${zoneOf(pt.L)} (L* ${Math.round(pt.L)})`;
+      if (!done) return `${fig}<h2 class="snack-q">${esc(card.prompt)}</h2>${card.mode === "pair"
+        ? `<div class="tf-btns"><button class="opt" data-action="snack-tone" data-v="0">A ist heller</button><button class="opt" data-action="snack-tone" data-v="1">B ist heller</button></div>`
+        : `<div class="year-guess"><output id="snack-year-out">5</output><input type="range" id="snack-year" min="0" max="10" step="1" value="5"><div class="year-scale"><span>0 Schwarz</span><span>10 Weiß</span></div></div><button class="big" data-action="snack-zone">Tippen</button>`}`;
+      return `${fig}<h2 class="snack-q">${esc(card.prompt)}</h2>
+        <div class="year-result">${card.mode === "pair" ? `<span>A: <b>${info(m.a)}</b></span><span>B: <b>${info(m.b)}</b></span>` : `<span>Dein Tipp <b>Zone ${res.pick}</b></span><span>Gemessen <b>${info(m.a)}</b></span>`}</div>
+        ${after(okText(res.ok) + `<p class="small muted">Gemessen an der Bildschirmfassung (Helligkeit L* ÷ 10 als Zone, Näherung – nicht der Abzug).${card.mode === "zone" ? " Richtig bei höchstens einer Zone Abstand." : ""}</p>` + md(card.explain_md))}`; }
+    case "fmt": return `${done ? hero(card.image) : `<figure class="snack-crop square">${media(card.image, "m")}</figure>`}<h2 class="snack-q">${esc(card.prompt)}</h2>
+      <div class="snack-opts">${card.options.map((o, k) => `<button class="opt${done ? (k === res.truth ? " right" : k === res.pick ? " wrong" : " dim") : ""}" data-action="snack-fmt" data-i="${k}" ${done ? "disabled" : ""}>${esc(o.text)}</button>`).join("")}</div>
+      ${done ? after(okText(res.ok) + `<p>Original: ${res.portrait ? "Hochformat" : "Querformat"}, Seitenverhältnis ${res.ratio.toFixed(2).replace(".", ",")} : 1.</p>` + md(card.explain_md)) : ""}`;
     case "slider": { const mid = Math.round((card.min + card.max) / 2 / 5) * 5;
       if (!done) return `${hero(card.image)}<h2 class="snack-q">${esc(card.prompt)}</h2>
         <div class="year-guess"><output id="snack-year-out">${mid}</output><input type="range" id="snack-year" min="${card.min}" max="${card.max}" step="1" value="${mid}">
@@ -459,7 +501,7 @@ function snackBody(card, res, st) {
   }
   return "";
 }
-const snackDone = (card, res) => card.kind === "info" || (card.kind === "story" ? res >= card.slides.length : card.kind === "order" ? Array.isArray(res) && res.length === card.items.length : res != null);
+const snackDone = (card, res) => card.kind === "info" || (card.kind === "swipe2" ? Array.isArray(res) && res.length === card.items.length : card.kind === "story" ? res >= card.slides.length : card.kind === "order" ? Array.isArray(res) && res.length === card.items.length : res != null);
 views.kurzKarte = async () => {
   const st = sess.get("snack");
   if (!st) { location.hash = "#/kurz"; return ""; }
@@ -470,15 +512,35 @@ views.kurzKarte = async () => {
   const body = snackBody(card, res, st);
   sess.set("snack", st); // keeps the look timer's start time
   clearTimeout(snackTimer); if (card.kind === "look" && !done) snackTimer = setTimeout(snackTick, 1000);
-  if (card.memorize && !done && !st.memo?.[st.pos]) snackTimer = setTimeout(() => actions["snack-memo"](), card.memorize * 1000);
+  if ((card.memorize || card.preview) && !done && !st.memo?.[st.pos]) snackTimer = setTimeout(() => actions["snack-memo"](), (card.memorize || card.preview) * 1000);
+  if (card.kind === "tone" && !st.tone?.[st.pos]) snackTimer = setTimeout(() => measureTone(st.pos, card), 250);
   return compactRefs(`<div class="snack snack-${card.kind}" data-swipe="${done ? "next" : ""}">
     <div class="snack-top"><span class="seg"><i>${SEG_ICON[card.type] || ""}</i>${esc(card.label)}</span><span class="snack-count">${st.pos + 1}/${st.cards.length}</span></div>
     <div class="snack-bar"><i style="width:${100 * st.pos / st.cards.length}%"></i></div>
     ${body}
     ${done ? `<div class="snack-next"><button class="big" data-action="snack-next">${st.pos + 1 < st.cards.length ? "Weiter →" : "Ergebnis"}</button></div>` : ""}
-    ${nx?.image || nx?.crop ? `<img data-media="${esc(nx.image || nx.crop.id)}" data-kind="m" class="preload" alt="">` : ""}</div>`, new Map());
+    ${nx && (nx.image || nx.crop || nx.zoom || nx.items) ? `<img data-media="${esc(nx.image || nx.crop?.id || nx.zoom?.id || nx.items[0].id)}" data-kind="m" class="preload" alt="">` : ""}</div>`, new Map());
 };
 let snackTimer = null;
+const imgS = (id, style, kind = "m") => `<img data-media="${esc(id)}" data-kind="${kind}" alt="" style="${style}">`;
+// Tonal values of the shown image: luminance → CIE L* (0–100), zone ≈ L*/10. Picks points deterministically from the card's candidates.
+function measureTone(pos, card, tries = 0) {
+  const st = sess.get("snack"), el = document.querySelector(".tone-fig img");
+  if (!st || st.pos !== pos || location.hash !== "#/kurz/karte") return;
+  if (!el || !el.complete || !el.naturalWidth) { if (tries < 60) snackTimer = setTimeout(() => measureTone(pos, card, tries + 1), 200); return; }
+  const w = 240, h = Math.round(w * el.naturalHeight / el.naturalWidth), cv = document.createElement("canvas"); cv.width = w; cv.height = h;
+  const cx = cv.getContext("2d", { willReadFrequently: true }); cx.drawImage(el, 0, 0, w, h);
+  const lin = v => (v /= 255) <= 0.04045 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4;
+  const Lstar = ([x, y]) => { const d = cx.getImageData(Math.max(0, Math.round(x / 100 * w) - 2), Math.max(0, Math.round(y / 100 * h) - 2), 5, 5).data; let Y = 0;
+    for (let i = 0; i < d.length; i += 4) Y += 0.2126 * lin(d[i]) + 0.7152 * lin(d[i + 1]) + 0.0722 * lin(d[i + 2]);
+    Y /= d.length / 4; return Y > 0.008856 ? 116 * Math.cbrt(Y) - 16 : 903.3 * Y; };
+  const pts = card.pts.map(pt => ({ x: pt[0], y: pt[1], L: Lstar(pt) }));
+  let pick = null;
+  if (card.mode === "pair") { for (let i = 0; i < pts.length && !pick; i++) for (let j = i + 1; j < pts.length && !pick; j++) { const d = Math.abs(pts[i].L - pts[j].L); if (d >= 10 && d <= 30) pick = { a: pts[i], b: pts[j] }; }
+    pick ||= { a: pts[0], b: pts.reduce((m, p) => Math.abs(p.L - pts[0].L) > Math.abs(m.L - pts[0].L) ? p : m, pts[1]) }; }
+  else pick = { a: pts.find(p => p.L > 8 && p.L < 95) || pts[0] };
+  (st.tone ||= {})[pos] = pick; sess.set("snack", st); route(true);
+}
 document.addEventListener("input", e => { if (e.target.id === "snack-year") document.getElementById("snack-year-out").textContent = e.target.value; });
 function snackTick() {
   const el = document.getElementById("snack-timer"); if (!el) return;
@@ -492,7 +554,8 @@ function snackEnd(st) {
   const seen = st.cards.length - scored.length;
   return `<h1>Runde geschafft</h1><div class="stats"><span><b>${right}</b>/${scored.length} richtig</span>${seen ? `<span><b>${seen}</b> Geschichten, Bilder und Wissenskarten</span>` : ""}</div>
   ${wrong.length ? `<h3>Zum Nachlesen</h3><ul class="snack-wrong">${wrong.map(([, k]) => { const im = k.image || k.crop?.id || k.items?.[0]?.id;
-    return `<li>${im ? `<a href="${k.link[0]}">${media(im)}</a>` : ""}<div><span class="muted small">${esc(k.label)}</span><br>${k.kind === "mc" ? mdInline(k.options.find(o => o.correct).text) : k.kind === "tf" ? (k.truth ? "Stimmt: " : "Stimmt nicht: ") + esc(k.statement) : k.kind === "slider" ? `Entstanden ${k.year}` : "Reihenfolge: " + k.solution.map(x => k.items[x].year).join(" → ")} <a href="${k.link[0]}">→</a></div></li>`; }).join("")}</ul>
+    return `<li>${im ? `<a href="${k.link[0]}">${media(im)}</a>` : ""}<div><span class="muted small">${esc(k.label)}</span><br>${k.kind === "mc" ? mdInline(k.options.find(o => o.correct).text) : k.kind === "multi" ? k.options.filter(o => o.correct).map(o => esc(o.text)).join(" · ") : k.kind === "assign" ? k.rows.map(r => esc(r.answer)).join(" · ")
+      : k.kind === "swipe2" ? `${esc(k.bins[0])} oder ${esc(k.bins[1])}` : k.kind === "tone" || k.kind === "fmt" ? esc(k.prompt) : k.kind === "tf" ? (k.truth ? "Stimmt: " : "Stimmt nicht: ") + esc(k.statement) : k.kind === "slider" ? `Entstanden ${k.year}` : "Reihenfolge: " + k.solution.map(x => k.items[x].year).join(" → ")} <a href="${k.link[0]}">→</a></div></li>`; }).join("")}</ul>
     <p class="muted small">Diese Karten kommen in einer der nächsten Runden wieder.</p>` : scored.length ? `<p class="ok">Alles richtig.</p>` : ""}
   <p><button class="big" data-action="snack-again">Noch eine Runde</button> <a href="#/kurz">Thema wechseln</a></p>`;
 }
@@ -865,7 +928,7 @@ const io = "IntersectionObserver" in window ? new IntersectionObserver(es => es.
 function loadImg(el) { mediaUrl(el.dataset.media, el.dataset.kind).then(u => (el.src = u)).catch(() => el.classList.add("broken")); }
 function hydrate() {
   // everything lazy: images in collapsed "Vertiefung" blocks load only when opened
-  document.querySelectorAll("img[data-media]").forEach(el => io && !el.classList.contains("preload") ? io.observe(el) : loadImg(el));
+  document.querySelectorAll("img[data-media]").forEach(el => io && !el.classList.contains("preload") && !el.closest(".snack") ? io.observe(el) : loadImg(el));
   const f = $("#tl-filter"); if (f) f.onchange = () => (location.hash = f.value ? `#/zeitleiste?k=${f.value}` : "#/zeitleiste");
   const tl = document.querySelector(".timeline"); if (tl) tl.scrollIntoView({ block: "end" });
 }
@@ -890,6 +953,19 @@ const actions = {
   "snack-reveal"() { snackSet(st => st.results[st.pos] ?? "shown"); },
   "snack-memo"() { const st = sess.get("snack"); if (location.hash !== "#/kurz/karte" || !st || st.memo?.[st.pos]) return; (st.memo ||= {})[st.pos] = 1; sess.set("snack", st); route(true); },
   "snack-guess"() { const v = Number(document.getElementById("snack-year")?.value); if (v) snackSet(st => st.results[st.pos] ?? v); },
+  "snack-zoom"() { const st = sess.get("snack"); if (!st) return; (st.zoom ||= {})[st.pos] = (st.zoom[st.pos] || 0) + 1; sess.set("snack", st); route(true); },
+  "snack-bin"(btn) { snackSet(st => { const cur = Array.isArray(st.results[st.pos]) ? st.results[st.pos] : []; const card = buildCard(st.cards[st.pos]); return cur.length < card.items.length ? [...cur, Number(btn.dataset.v)] : cur; }); },
+  "snack-toggle"(btn) { const st = sess.get("snack"); if (!st || st.results[st.pos] != null) return; const k = Number(btn.dataset.i), cur = (st.sel ||= {})[st.pos] || [];
+    st.sel[st.pos] = cur.includes(k) ? cur.filter(x => x !== k) : [...cur, k]; sess.set("snack", st); route(true); },
+  "snack-assign"(btn) { const st = sess.get("snack"); if (!st || st.results[st.pos] != null) return; const cur = [...((st.sel ||= {})[st.pos] || [])];
+    cur[Number(btn.dataset.row)] = Number(btn.dataset.i); st.sel[st.pos] = cur; sess.set("snack", st); route(true); },
+  "snack-check"() { snackSet(st => st.results[st.pos] ?? [...(st.sel?.[st.pos] || [])]); },
+  "snack-tone"(btn) { snackSet(st => { if (st.results[st.pos] != null) return st.results[st.pos]; const m = st.tone[st.pos], v = Number(btn.dataset.v); return { pick: v, ok: v === 0 ? m.a.L > m.b.L : m.b.L > m.a.L }; }); },
+  "snack-zone"() { const v = Number(document.getElementById("snack-year")?.value); snackSet(st => st.results[st.pos] ?? { pick: v, ok: Math.abs(v - Math.round(st.tone[st.pos].a.L / 10)) <= 1 }); },
+  "snack-fmt"(btn) { const el = document.querySelector(".snack-crop.square img"); if (!el?.naturalWidth) return;
+    const ratio = Math.max(el.naturalWidth, el.naturalHeight) / Math.min(el.naturalWidth, el.naturalHeight), card = buildCard(sess.get("snack").cards[sess.get("snack").pos]);
+    const truth = card.options.reduce((b, o, k) => Math.abs(Math.log(o.v / ratio)) < Math.abs(Math.log(card.options[b].v / ratio)) ? k : b, 0), pick = Number(btn.dataset.i);
+    snackSet(st => st.results[st.pos] ?? { pick, truth, ok: pick === truth, ratio, portrait: el.naturalHeight > el.naturalWidth }); },
   "snack-step"() { snackSet(st => (typeof st.results[st.pos] === "number" ? st.results[st.pos] : 0) + 1); },
   "snack-next"() {
     const st = sess.get("snack"); if (!st) return;
@@ -1285,9 +1361,11 @@ window.addEventListener("popstate", closeViewer);
 
 // swipe left on an answered Häppchen card = next
 let swipeX = null;
-document.addEventListener("touchstart", e => { swipeX = e.target.closest('.snack[data-swipe="next"]') ? e.touches[0].clientX : null; }, { passive: true });
+let swipeBlitz = false;
+document.addEventListener("touchstart", e => { swipeBlitz = !!e.target.closest("[data-blitz]"); swipeX = swipeBlitz || e.target.closest('.snack[data-swipe="next"]') ? e.touches[0].clientX : null; }, { passive: true });
 document.addEventListener("touchend", e => {
   if (swipeX == null) return; const dx = e.changedTouches[0].clientX - swipeX; swipeX = null;
+  if (swipeBlitz) { if (Math.abs(dx) > 60) actions["snack-bin"]({ dataset: { v: dx > 0 ? "1" : "0" } }); return; } // Blitzsortierer: left = A, right = B
   if (dx < -70) actions["snack-next"]();
 }, { passive: true });
 
