@@ -247,6 +247,7 @@
   .b-opt { background: #f3e8ff; color: #6b21a8; }
   .kindsw { display: flex; gap: 6px; margin: 6px 0; }
   .kindsw button { flex: 1; border: 1px solid var(--line); background: transparent; color: var(--fg); border-radius: 12px; padding: 9px 10px; font: inherit; font-weight: 600; cursor: pointer; }
+  #chips2 button#fIdeas.only { background: #f59e0b; border-color: #f59e0b; color: #fff; }
   #addDlg .kindsw button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
   .b-fav { background: rgba(225,29,72,.18); color: #e11d48; font-weight: 700; }
   html:not([data-theme="light"]) .b-fav { color: #fb7185; }
@@ -1117,7 +1118,7 @@
     <div id="chips"></div>
     <div id="chips2">
       <button type="button" id="filterSw" title="Alle Filter auf einmal aus- bzw. wieder einschalten">Filter aus</button>
-      <button type="button" id="fIdeas" title="Ungewöhnliche Foto-Ideen von Claude in Liste und Karte einblenden">✷ Fotoideen</button>
+      <button type="button" id="fIdeas" title="Foto-Ideen von Claude: aus → zusätzlich einblenden → nur Ideen (mehrfach tippen)">✷ Fotoideen</button>
       <select id="fDone" aria-label="Fotografiert">
         <option value="">📷 Alle</option><option value="open">📷 Nicht fotografiert</option><option value="done">📷 Fotografiert</option>
       </select>
@@ -1993,11 +1994,16 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let groups = new Set(["fotos"]);
   try { const g = JSON.parse(localStorage.getItem("groups") || "null");  // alte Bereiche Tipps/Food → Erlebnisse, Ideen → Filter unten
     if (Array.isArray(g)) groups = new Set(g.map(x => x === "claude" || x === "food" ? "sights" : x).filter(x => GROUPS[x])); } catch {}
-  let ideasOn = false; try { ideasOn = localStorage.getItem("ideasOn") === "1"; } catch {}
-  const setIdeas = on => { ideasOn = !!on; try { localStorage.setItem("ideasOn", ideasOn ? "1" : "0"); } catch {} $("#fIdeas").classList.toggle("on", ideasOn); };
-  $("#fIdeas").classList.toggle("on", ideasOn);
+  // Fotoideen-Knopf, mehrfach tippen: 0 = aus (Standard) → 1 = zusätzlich zu den Spots → 2 = nur Ideen
+  let ideasMode = 0; try { ideasMode = Math.min(2, +localStorage.getItem("ideasOn") || 0); } catch {}
+  let ideasOn = ideasMode > 0, ideasOnly = ideasMode === 2;
+  const IDEAS_LBL = ["✷ Fotoideen", "✷ + Fotoideen", "✷ Nur Ideen"];
+  const setIdeas = m => { ideasMode = m === true ? 1 : +m || 0; ideasOn = ideasMode > 0; ideasOnly = ideasMode === 2;
+    try { localStorage.setItem("ideasOn", String(ideasMode)); } catch {}
+    const b = $("#fIdeas"); b.classList.toggle("on", ideasOn); b.classList.toggle("only", ideasOnly); b.textContent = IDEAS_LBL[ideasMode]; };
+  setIdeas(ideasMode);
   const saveGroups = () => { try { localStorage.setItem("groups", JSON.stringify([...groups])); } catch {} };
-  const inGroups = p => p.idea ? ideasOn : (!groups.size || [...groups].some(g => GROUPS[g](p)));
+  const inGroups = p => p.idea ? ideasOn : ideasOnly ? false : (!groups.size || [...groups].some(g => GROUPS[g](p)));
   // Bereich oben links: 🧭 Route (nur Spots an unserer Route) oder frei kombinierbare Regionen der Reise (Mehrfachauswahl)
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
   const SUBS = [["hk", "🇭🇰 Hongkong"], ["sz", "Shenzhen"], ["gl", "Guilin · Yangshuo · Longji"], ["gz", "Guizhou · Fenghuang"],
@@ -2151,7 +2157,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const FILTERS = {
     fDone: v => { doneF = v || null; },
     fPrio: v => { prioF.clear(); if (v) v.split(",").forEach(x => prioF.add(x)); },
-    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; rainF = v === "rain"; if (rainF && !ideasOn) setIdeas(true); },
+    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; rainF = v === "rain"; if (rainF && !ideasOn) setIdeas(1); },
     fWhen: v => { whenF = v || null; },
   };
   Object.entries(FILTERS).forEach(([id, apply]) => {
@@ -2189,7 +2195,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Schalter: alle Filter auf einmal aus bzw. den gemerkten Stand wieder an
   let filterSnap = null;
   const setSel = (id, v) => { const el = $("#" + id); el.value = v; el.classList.toggle("on", !!v); FILTERS[id](v); };
-  $("#fIdeas").addEventListener("click", () => { setIdeas(!ideasOn); renderChips(); renderList(); syncFilterSw(); });
+  $("#fIdeas").addEventListener("click", () => { setIdeas((ideasMode + 1) % 3); renderChips(); renderList(); syncFilterSw(); });
   const filtersActive = () => !!(ideasOn || $("#fDone").value || $("#fPrio").value || $("#fWhen").value || $("#fMore").value || areaF || $("#search").value.trim() || cat || inView);
   const syncFilterSw = () => { const b = $("#filterSw"); if (!b) return; b.textContent = filterSnap ? "Filter an" : "Filter aus"; b.classList.toggle("on", !!filterSnap); b.disabled = !filterSnap && !filtersActive(); };
   $("#filterSw").addEventListener("click", () => {
@@ -2201,10 +2207,10 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       cat = s.cat; saveCat(); renderChips();
       inView = s.inView; try { localStorage.setItem("inView2", inView ? "1" : "0"); } catch {}
     } else {
-      filterSnap = { ideas: ideasOn, fDone: $("#fDone").value, fPrio: $("#fPrio").value, fWhen: $("#fWhen").value, fMore: $("#fMore").value, area: areaF, search: $("#search").value, cat, inView };
+      filterSnap = { ideas: ideasMode, fDone: $("#fDone").value, fPrio: $("#fPrio").value, fWhen: $("#fWhen").value, fMore: $("#fMore").value, area: areaF, search: $("#search").value, cat, inView };
       ["fDone", "fPrio", "fWhen", "fMore"].forEach(id => setSel(id, ""));
       areaF = ""; try { localStorage.setItem("areaF", ""); } catch {}
-      $("#search").value = ""; setIdeas(false); cat = null; saveCat(); renderChips();
+      $("#search").value = ""; setIdeas(0); cat = null; saveCat(); renderChips();
       inView = false; try { localStorage.setItem("inView2", "0"); } catch {}
     }
     renderList(); syncFilterSw();
@@ -3364,7 +3370,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "125 · Kategorien entfernt";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "126 · Fotoideen: aus / zusätzlich / nur Ideen";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
