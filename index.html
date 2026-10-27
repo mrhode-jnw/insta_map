@@ -3370,7 +3370,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "126 · Fotoideen: aus / zusätzlich / nur Ideen";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "127 · Übersicht öffnet keinen Spot mehr von selbst";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3674,8 +3674,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     // entweder Liste offen oder Leiste – nach der tatsächlichen Höhe der Liste (auch beim Ziehen)
     try { document.body.classList.toggle("dock-auto", mobile() && y < snapY("peek") - 30); } catch {}
   }
+  // Nach dem Öffnen/Verschieben der Übersicht keine Klicks auf die Liste annehmen: der „Nach-Klick“ vom Antippen/Hochziehen
+  // (iOS) landet sonst auf dem Spot, der gerade unter dem Finger liegt, und öffnet ihn ungewollt als Karte
+  let snapAt = 0;
+  sheet.addEventListener("click", e => { if (performance.now() - snapAt < 700 && e.target.closest("#list")) { e.stopPropagation(); e.preventDefault(); } }, true);
   function setSnap(name, animate = true) {
-    sheetSnap = name;
+    snapAt = performance.now(); sheetSnap = name;
     if (!mobile()) { sheet.style.transform = ""; return; }
     moveTo(snapY(name), animate);
   }
@@ -3714,6 +3718,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   });
   const headEnd = () => {
     if (!hd) return;
+    snapAt = performance.now();
     if (hd.moved) hd.t.end(); else setSnap(sheetSnap === "peek" ? "half" : "peek");
     hd = null;
   };
@@ -3732,7 +3737,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (!ld.t && ld.top && listEl.scrollTop <= 0 && dy > 8) { ld.t = tracker(ld.y0, snapY(sheetSnap)); }
     if (ld.t) { e.preventDefault(); ld.t.move(cy); }
   }, { passive: false });
-  listEl.addEventListener("touchend", () => { if (ld && ld.t) ld.t.end(); ld = null; });
+  listEl.addEventListener("touchend", () => { if (ld && ld.t) { snapAt = performance.now(); ld.t.end(); } ld = null; });
   listEl.addEventListener("touchcancel", () => { if (ld && ld.t) ld.t.end(); ld = null; });
   // nur echte Größenänderungen (Drehen, Tastatur) – nicht das Ein-/Ausblenden der Safari-Leisten beim Scrollen
   let lastW = innerWidth, lastH = innerHeight;
