@@ -247,8 +247,6 @@
   .b-opt { background: #f3e8ff; color: #6b21a8; }
   .kindsw { display: flex; gap: 6px; margin: 6px 0; }
   .kindsw button { flex: 1; border: 1px solid var(--line); background: transparent; color: var(--fg); border-radius: 12px; padding: 9px 10px; font: inherit; font-weight: 600; cursor: pointer; }
-  .pop .status .kindrow { margin: 8px 0 2px; }
-  .pop .status .kindrow button { padding: 7px 4px; font-size: 13px; }
   #chips2 button#fIdeas.only { background: #f59e0b; border-color: #f59e0b; color: #fff; }
   #addDlg .kindsw button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
   .b-fav { background: rgba(225,29,72,.18); color: #e11d48; font-weight: 700; }
@@ -1570,8 +1568,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
             <button class="shot${st(p.id).done ? " on" : ""}" data-done title="Fotografiert" aria-label="Fotografiert" aria-pressed="${!!st(p.id).done}">✓</button>
             <button class="pmore" aria-label="Mehr" title="Priorität, Tour, Fotos hinzufügen …">⋯</button>
           </div>
-          <div class="seg2 kindrow" role="radiogroup" aria-label="Art des Spots">${[["photo", "📷 Foto"], ["sight", "🎒 Erlebnis"]].map(([k, l]) => `<button data-kind="${k}" class="${(isSight(p) ? "sight" : "photo") === k ? "on" : ""}">${l}</button>`).join("")}</div>
           <div class="more"${moreOpen ? "" : " hidden"}>
+            <div class="mlab">Art</div>
+            <div class="seg2 kind">${[["photo", "📷 Foto"], ["sight", "🎒 Erlebnis"]].map(([k, l]) => `<button data-kind="${k}" class="${(isSight(p) ? "sight" : "photo") === k ? "on" : ""}">${l}</button>`).join("")}</div>
             <div class="mlab">Priorität</div>
             <div class="seg2 prio">${PRIOS.map(k => `<button data-prio="${k}" class="${st(p.id).prio === k ? "on" : ""}"${k === "nein" ? ' title="Kein Interesse – wird ausgeblendet" aria-label="Kein Interesse"' : ""}>${k === "nein" ? "🚫" : PRIO_LABEL[k]}</button>`).join("")}</div>
             <div class="links">
@@ -3366,7 +3365,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "130 · Art (Foto/Erlebnis) direkt im Spot sichtbar";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "131 · Art (Foto/Erlebnis) unter den drei Punkten";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
