@@ -99,7 +99,7 @@ SPOTS = [
   [47, 48, 49, 50], "Rund 650 Jahre alte Reisterrassen, ca. 2 h ab Guilin; im September goldgelb."),
  # Chongqing
  ("Liziba Station 李子坝 – Monorail durchs Haus", 29.5557, 106.5339, False, "Yuzhong, Chongqing", "Architektur",
-  [8, 40, 54], "Die Bahn fährt mitten durch das Wohnhaus; Aussichtsplattform unten an der Straße."),
+  [8, 40, 54], "Die Bahn fährt mitten durch das Wohnhaus. Bester Standpunkt: die Aussichtsplattform 李子坝站观景平台 gegenüber an der Straße (eigener Pin: Liziba Viewing Platform), Metro Linie 2 Ausgang 1; Alternative mit langem Tele von der Jiangbei-Uferstraße 北滨一路."),
  ("Hongyadong 洪崖洞", 29.565074, 106.575343, False, "Yuzhong, Chongqing", "Neon",
   [(14, 1), (38, 2), (41, 2), (53, 4), 54], "Abends beleuchtet; viele Treppen. Weitere Tipps im Post: Linhua Road Wohnkomplex, Wulong, Eling-Brücke."),
  ("Qiansimen Bridge 千厮门大桥", 29.565378, 106.576378, False, "Yuzhong, Chongqing", "Neon",

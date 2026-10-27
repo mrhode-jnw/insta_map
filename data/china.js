@@ -2002,7 +2002,7 @@ window.PLACES_CN = [
   "name": "Liziba Station 李子坝 – Monorail durchs Haus",
   "district": "Yuzhong, Chongqing",
   "category": "Architektur",
-  "note": "Die Bahn fährt mitten durch das Wohnhaus; Aussichtsplattform unten an der Straße.",
+  "note": "Die Bahn fährt mitten durch das Wohnhaus. Bester Standpunkt: die Aussichtsplattform 李子坝站观景平台 gegenüber an der Straße (eigener Pin: Liziba Viewing Platform), Metro Linie 2 Ausgang 1; Alternative mit langem Tele von der Jiangbei-Uferstraße 北滨一路.",
   "address": "Yuzhong, Chongqing",
   "lat": 29.5557,
   "lng": 106.5339,
@@ -12637,6 +12637,47 @@ window.PLACES_CN = [
   "image_page": "https://commons.wikimedia.org/wiki/File:Beicang_Culture_Park_street_view.jpg",
   "image_credit": "HoweyYuan · CC BY-SA 4.0 · Wikimedia Commons",
   "when": "day"
+ },
+ {
+  "id": "cn-liziba-viewing-platform",
+  "region": "cn",
+  "name": "Liziba Viewing Platform 李子坝站观景平台",
+  "district": "Yuzhong, Chongqing",
+  "category": "",
+  "note": "Der beste Standpunkt für den Zug durchs Haus: die offizielle Aussichtsplattform 李子坝站观景平台 an der Straße gegenüber dem Wohnhaus (Liziba Zhengjie 李子坝正街) – man sieht die Bahn komplett aus dem Haus fahren. Metro Linie 2, Station Liziba 李子坝, Ausgang 1 führt direkt zur Plattform (Betrieb ca. 6:00–22:30, laut Reisebericht). Züge alle 3–6 Min. Tipps: Wochentags früh am leersten (am Wochenende dicht gedrängt). Mitzieher 1/30–1/60 s, 70–200 mm; für den Zug im Haus 1/500 s; von der Treppe oberhalb mit 24 mm über die Köpfe. Abends Stativ, 16–35 mm, f/8, ISO 100, 8–20 s, erst auslösen wenn der Zug ins Haus einfährt. Weitere Standpunkte: von der Treppe der Plattform nach oben, vom Fußweg zum Kriegsdenkmal-Park 李子坝抗战遗址公园 (ca. 10 Min.) und – für „Zug-essen“-Perspektive mit sehr langem Tele (200+ mm) – vom Ufer der Jiangbei-Seite an der 北滨一路 (ca. 550 m über den Jialing, Plattform nicht bestätigt).",
+  "address": "Yuzhong, Chongqing",
+  "lat": 29.55667,
+  "lng": 106.53441,
+  "approx": false,
+  "image": "images/idea_cq_liziba_3.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/201441975@N05/54405484495/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/201441975@N05/54405484495/",
+    "kind": "photo",
+    "image": "images/idea_cq_liziba_3.jpg",
+    "caption": "",
+    "credit": "Kanda Boy · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/nvr89/54400736365/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/nvr89/54400736365/",
+    "kind": "photo",
+    "image": "images/idea_cq_liziba_1.jpg",
+    "caption": "",
+    "credit": "NvR.Photography · Flickr"
+   }
+  ],
+  "source": "https://sg.trip.com/guide/attraction/liziba-station.html · https://english.cq.gov.cn/specials/explore/PhotoPerfectSpots/202608/t20260810_15912642.html · OpenStreetMap (Pin)",
+  "image_page": "https://www.flickr.com/photos/201441975@N05/54405484495/",
+  "image_credit": "Kanda Boy · Flickr",
+  "when": "both"
  }
 ];
 window.UNPLACED_CN = [
