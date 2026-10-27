@@ -3365,7 +3365,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "131 · Art (Foto/Erlebnis) unter den drei Punkten";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "132 · „+“ wählt bei nur Erlebnisse oben Erlebnis vor";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -4026,7 +4026,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const addKind = () => { const b = $("#addKind button.on"); return b ? b.dataset.k : ""; };
   function openAdd(latlng) {
     dlg.hidden = false; setSnap("peek");
-    setAddKind("");  // Standard: Foto-Spot
+    setAddKind(groups.size === 1 && groups.has("sights") ? "sight" : "");  // Standard: Foto-Spot; ist oben nur „Erlebnisse“ gewählt: Erlebnis
     $("#tokenRow").hidden = !!store.get(TOKEN_KEY);
     $("#addErr").textContent = "";
     if (latlng) { setDraft(latlng); map.panTo(latlng); }
