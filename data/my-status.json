@@ -741,7 +741,8 @@
   "fav": true
  },
  "cn-hongyadong": {
-  "fav": true
+  "fav": true,
+  "done": true
  },
  "claude-cn-shibati-old-steps": {
   "fav": true
