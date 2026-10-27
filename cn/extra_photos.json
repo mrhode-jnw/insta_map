@@ -1891,6 +1891,16 @@
    "image": "images/claude_cq_raffles_6.jpg",
    "url": "https://www.flickr.com/photos/201161199@N06/54107071375/",
    "credit": "Dean Jorquera · Flickr"
+  },
+  {
+   "image": "images/walk_cq_raffles_16.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-2.jpg",
+   "credit": "Suicasmo · CC0 · Wikimedia Commons"
+  },
+  {
+   "image": "images/walk_cq_raffles_17.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-4.jpg",
+   "credit": "Suicasmo · CC0 · Wikimedia Commons"
   }
  ],
  "Longmenhao Old Street 龙门浩老街": [
@@ -2662,6 +2672,62 @@
    "image": "images/claude_zjj2_helong_8.jpg",
    "url": "https://www.flickr.com/photos/mplau/510777504/",
    "credit": "mplau · Flickr"
+  }
+ ],
+ "Chongqing Grand Theatre & Jiangbeizui 重庆大剧院": [
+  {
+   "image": "images/walk_cq_jiangbeizui_5.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Jailing_Jang_by_Night.jpg",
+   "credit": "Willi Weasel · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "image": "images/walk_cq_jiangbeizui_2.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Chongqing_Nightscape.jpg",
+   "credit": "Jay Huang · CC BY 2.0 · Wikimedia Commons"
+  }
+ ],
+ "Cloud Eye Observation Deck 云端之眼 (United International Mansion)": [
+  {
+   "image": "images/claude_cq_cloudeye_1.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_4).jpg",
+   "credit": "Fumikas Sagisavas · CC0 · Wikimedia Commons",
+   "caption": "Nachtblick vom United International Mansion (GPS am Turm)"
+  },
+  {
+   "image": "images/claude_cq_cloudeye_0.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_2).jpg",
+   "credit": "Fumikas Sagisavas · CC0 · Wikimedia Commons",
+   "caption": "Nachtblick vom United International Mansion (GPS am Turm)"
+  }
+ ],
+ "Monorail Line 2 mit Hongyadong-Skyline 轻轨2号线 · 黄花园": [
+  {
+   "image": "images/cq_monorail_hongyadong_yantastic.jpg",
+   "url": "https://www.instagram.com/yantastic/",
+   "credit": "@yantastic · Instagram",
+   "caption": ""
+  }
+ ],
+ "Dongshuimen-Brücke mit Seilbahn im Tele 东水门大桥 · 慈云寺": [
+  {
+   "image": "images/cq_dongshuimen_tele_yantastic.jpg",
+   "url": "https://www.instagram.com/yantastic/",
+   "credit": "@yantastic · Instagram",
+   "caption": ""
+  }
+ ],
+ "Chongqing Socialist Academy – „La La Land“-Treppen 重庆社会主义学院": [
+  {
+   "image": "images/cq_socialist_academy_1.jpg",
+   "url": "https://www.instagram.com/china.youth_/",
+   "credit": "@china.youth_ · China Compass · Instagram",
+   "caption": ""
+  },
+  {
+   "image": "images/cq_socialist_academy_2.jpg",
+   "url": "https://www.instagram.com/china.youth_/",
+   "credit": "@china.youth_ · China Compass · Instagram",
+   "caption": ""
   }
  ]
 }

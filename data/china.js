@@ -2163,6 +2163,16 @@ window.PLACES_CN = [
     "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
     "match": "cover",
     "generic": true
+   },
+   {
+    "url": "https://www.instagram.com/cal_captures_/p/DOLo8rSjHLP/?img_index=4",
+    "username": "cal_captures_",
+    "profile_url": "https://www.instagram.com/cal_captures_/",
+    "kind": "p",
+    "image": "images/DOLo8rSjHLP_4.jpg",
+    "caption": "A city thats always in motion\n\nChongqing has long been called the Mountain City. With its steep hills and rivers cutting through the heart of town, bridges and cable cars aren’t just landmarks — they’re part of everyday life\n\n#Chongqing #ChinaPhotography #CityOfFog #MountainCity #UrbanExploration #CinematicPhotography #StreetPhotographyInternational #BridgesOfTheWorld #UrbanCinematography #ArchitecturePhotography #StreetClassics #TravelChina #MoodyGrams #CityscapeLovers #CinematicCity",
+    "match": "slide",
+    "slide": 4
    }
   ],
   "pop": 4,
@@ -2462,7 +2472,7 @@ window.PLACES_CN = [
   "name": "Baixiangju & Yangtze River Cableway 白象居 · 长江索道",
   "district": "Yuzhong, Chongqing",
   "category": "Architektur",
-  "note": "Die rote Seilbahn über den Jangtse schwebt zwischen den Wohntürmen hindurch.",
+  "note": "Die rote Seilbahn über den Jangtse schwebt zwischen den Wohntürmen hindurch. Standpunkt (eingegrenzt, nicht bestätigt): offene Verbindungsgänge zwischen den Türmen, am ehesten Haus 3/4, etwa ab der Plattform im 12. Stock aufwärts – Blick nach Norden, Raffles City mit der Glasbrücke steht hinter der Seilbahn. Zugang auf mittlerer Höhe direkt von der Jiefang East Road 解放东路 (je nach Quelle 12. oder 15. Stock, keine Hausnummer bekannt) – im Navi/DiDi „白象居“ eingeben; weitere Eingänge unten am Ufer (1. Stock) und an der Baixiang Street 白象街. Kein Aufzug. 85–135 mm, Gondel mittig zwischen zwei Türmen mit runden Erkern abpassen, Pendelbetrieb – alle paar Minuten eine Gondel, Serienbild 1/500 s. Dunst lässt Raffles weich verschwimmen. Bewohntes Haus: leise sein, nicht vor Wohnungstüren aufbauen.",
   "address": "Yuzhong, Chongqing",
   "lat": 29.558528,
   "lng": 106.581348,
@@ -2510,6 +2520,16 @@ window.PLACES_CN = [
     "caption": "In the streets of Chongqing \n\nCaptured by the amazing: @by.harper \n\n20 Best Photo Spots in Chongqing and How to Get There:\n\nChongqing is incredible for photography imo, but knowing exactly where to stand makes a huge difference. Here are 20 spots with the kind of directions I’d save before exploring.\n\n1. Hongya Cave: Line 6 to Grand Theater, then walk south to the riverfront for the classic view.\n\n2. Qiansimen Bridge: From Grand Theater, walk across the bridge toward Hongya Cave.\n\n3. Liziba: Line 2 to Liziba, then follow signs downhill to the viewing platform.\n\n4. Kuixinglou: Line 2 to Linjian",
     "match": "cover",
     "generic": true
+   },
+   {
+    "url": "https://www.instagram.com/cal_captures_/p/DOLo8rSjHLP/?img_index=2",
+    "username": "cal_captures_",
+    "profile_url": "https://www.instagram.com/cal_captures_/",
+    "kind": "p",
+    "image": "images/DOLo8rSjHLP_2.jpg",
+    "caption": "A city thats always in motion\n\nChongqing has long been called the Mountain City. With its steep hills and rivers cutting through the heart of town, bridges and cable cars aren’t just landmarks — they’re part of everyday life\n\n#Chongqing #ChinaPhotography #CityOfFog #MountainCity #UrbanExploration #CinematicPhotography #StreetPhotographyInternational #BridgesOfTheWorld #UrbanCinematography #ArchitecturePhotography #StreetClassics #TravelChina #MoodyGrams #CityscapeLovers #CinematicCity",
+    "match": "slide",
+    "slide": 2
    }
   ],
   "pop": 4,
@@ -5785,6 +5805,37 @@ window.PLACES_CN = [
   "when": "day"
  },
  {
+  "id": "cn-pride-of-times-rooftop-dach",
+  "region": "cn",
+  "name": "Pride of Times Rooftop 时代天骄 (Dach)",
+  "district": "Yuzhong (Chaotianmen), Chongqing",
+  "category": "Neon",
+  "note": "Dach des Wohnkomplexes 时代天骄 an der 朝千路 nahe Chaotianmen (Ort laut @hughchongqing, Pin = Komplex laut OSM, ungefähr): Cyberpunk-Nachtblick über beleuchtete Wohntürme auf die Skyline. Zugang zum Dach nicht offiziell – vor Ort klären, bei Verbot nicht hinauf.",
+  "address": "Yuzhong (Chaotianmen), Chongqing",
+  "lat": 29.56654,
+  "lng": 106.58095,
+  "approx": true,
+  "image": "images/DUEw885AW0h.jpg",
+  "caption": "A cool rooftop for cyberpunk photos and videos. Location: 时代天骄 pride of times\n.\n.\n.\n#china #chongqing #travel #cyberpunk #photography",
+  "post_url": "https://www.instagram.com/hughchongqing/reel/DUEw885AW0h/",
+  "username": "hughchongqing",
+  "profile_url": "https://www.instagram.com/hughchongqing/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/hughchongqing/reel/DUEw885AW0h/",
+    "username": "hughchongqing",
+    "profile_url": "https://www.instagram.com/hughchongqing/",
+    "kind": "reel",
+    "image": "images/DUEw885AW0h.jpg",
+    "caption": "A cool rooftop for cyberpunk photos and videos. Location: 时代天骄 pride of times\n.\n.\n.\n#china #chongqing #travel #cyberpunk #photography",
+    "match": "single"
+   }
+  ],
+  "pop": 2,
+  "pop_reason": "Rooftop-Geheimtipp, nur vereinzelt in Social Media",
+  "when": "night"
+ },
+ {
   "id": "claude-cn-nantou-ancient-city",
   "region": "cn",
   "by_claude": true,
@@ -8435,7 +8486,26 @@ window.PLACES_CN = [
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Jailing_Jang_by_Night.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Jailing_Jang_by_Night.jpg",
+    "kind": "photo",
+    "image": "images/walk_cq_jiangbeizui_5.jpg",
+    "caption": "",
+    "credit": "Willi Weasel · CC BY-SA 4.0 · Wikimedia Commons"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Chongqing_Nightscape.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Chongqing_Nightscape.jpg",
+    "kind": "photo",
+    "image": "images/walk_cq_jiangbeizui_2.jpg",
+    "caption": "",
+    "credit": "Jay Huang · CC BY 2.0 · Wikimedia Commons"
+   }
+  ],
   "pop": 4,
   "pop_reason": "Gläserner Kristallbau gegenüber Raffles City und Chaotianmen",
   "image_page": "https://commons.wikimedia.org/wiki/File:Chongqing_-_View_03.jpg",
@@ -8514,6 +8584,24 @@ window.PLACES_CN = [
     "image": "images/claude_cq_raffles_6.jpg",
     "caption": "",
     "credit": "Dean Jorquera · Flickr"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-2.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-2.jpg",
+    "kind": "photo",
+    "image": "images/walk_cq_raffles_16.jpg",
+    "caption": "",
+    "credit": "Suicasmo · CC0 · Wikimedia Commons"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-4.jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-4.jpg",
+    "kind": "photo",
+    "image": "images/walk_cq_raffles_17.jpg",
+    "caption": "",
+    "credit": "Suicasmo · CC0 · Wikimedia Commons"
    }
   ],
   "pop": 4,
@@ -12356,6 +12444,156 @@ window.PLACES_CN = [
   "image_page": "https://www.instagram.com/scotthowes/p/DdA4hImlOyb/",
   "image_credit": "@scotthowes · Instagram",
   "when": "day"
+ },
+ {
+  "id": "cn-cloud-eye-observation-deck-united-international-",
+  "region": "cn",
+  "name": "Cloud Eye Observation Deck 云端之眼 (United International Mansion)",
+  "district": "Jiefangbei, Yuzhong, Chongqing",
+  "category": "Aussicht",
+  "note": "Aussichtsplattform 云端之眼 („Auge in den Wolken“) im 67. Stock des United International Mansion 联合国际大厦, Xinhua Road 201 新华路201号 – 520 m über dem Meer (Gebäude 318 m). 360°-Rundblick über Jiefangbei und die Flüsse, frei hängende rote Treppe. Laut 大河票务网 (08/2024): 9:00–23:00, letzter Einlass 22:30, ab 38 CNY, Kinder bis 1,30 m frei – nicht aktuell geprüft. Navi: in Amap „云端之眼“ suchen; Metro Xiaoshizi 小什字 ca. 3 Min. zu Fuß. Foto: blaue Stunde ca. 18:10–18:40, danach Nacht; Objektiv dicht an die Scheibe bzw. Gummi-Gegenlichtblende gegen Spiegelungen.",
+  "address": "Jiefangbei, Yuzhong, Chongqing",
+  "lat": 29.56022,
+  "lng": 106.57843,
+  "approx": true,
+  "image": "images/claude_cq_cloudeye_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_4).jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_4).jpg",
+    "kind": "photo",
+    "image": "images/claude_cq_cloudeye_1.jpg",
+    "caption": "Nachtblick vom United International Mansion (GPS am Turm)",
+    "credit": "Fumikas Sagisavas · CC0 · Wikimedia Commons"
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_2).jpg",
+    "username": "",
+    "profile_url": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_2).jpg",
+    "kind": "photo",
+    "image": "images/claude_cq_cloudeye_0.jpg",
+    "caption": "Nachtblick vom United International Mansion (GPS am Turm)",
+    "credit": "Fumikas Sagisavas · CC0 · Wikimedia Commons"
+   }
+  ],
+  "source": "https://www.dahepiao.com/lvyounews1/20240823483802.html",
+  "unsure": "Pin aus den GPS-Daten eines Nachtfotos vom Turm (Wikimedia Commons) – auf ca. 50 m genau; ob die Plattform im Freien liegt, ist nicht bestätigt.",
+  "image_page": "https://commons.wikimedia.org/wiki/File:Night_in_Chongqing_(20250120_~_Image_4).jpg",
+  "image_credit": "Fumikas Sagisavas · CC0 · Wikimedia Commons",
+  "when": "both"
+ },
+ {
+  "id": "cn-monorail-line-2-mit-hongyadong-skyline-2",
+  "region": "cn",
+  "name": "Monorail Line 2 mit Hongyadong-Skyline 轻轨2号线 · 黄花园",
+  "district": "Huanghuayuan, Yuzhong, Chongqing",
+  "category": "Aussicht",
+  "note": "Nachtbild: die Monorail-Linie 2 fährt am Jialing-Ufer entlang, dahinter Hongyadong, die rote Qiansimen-Brücke und die Skyline von Jiefangbei. Standpunkt laut @yantastic: Rampe neben dem Hotel 奕朵江景酒店, am Südende der Huanghuayuan-Brücke 黄花园大桥 (Yuzhong-Seite) – Blick nach Osten. Metro: Station Huanghuayuan 黄花园 (Linie 2), ca. 3 Min. Leicht erhöht über der Uferstraße, 70–200 mm verdichtet Bahn und Hongyadong (ca. 1,4 km entfernt). Nach Einbruch der Dunkelheit, Bahnen alle paar Minuten; 1/60–1/125 s für eine scharfe Bahn oder Stativ und 1–2 s für Lichtspuren. Linie 2 fährt bis ca. 22:30.",
+  "address": "Huanghuayuan, Yuzhong, Chongqing",
+  "lat": 29.5652,
+  "lng": 106.5638,
+  "approx": true,
+  "image": "images/cq_monorail_hongyadong_yantastic.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/yantastic/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/yantastic/",
+    "kind": "photo",
+    "image": "images/cq_monorail_hongyadong_yantastic.jpg",
+    "caption": "",
+    "credit": "@yantastic · Instagram"
+   }
+  ],
+  "source": "Instagram @yantastic (Karussell „China's most viral city – Chongqing“, Bild 2–3/18)",
+  "unsure": "Pin nach der Kartengrafik im Post (blauer Punkt am Südende der Huanghuayuan-Brücke, östlich davon) – auf ca. 50–100 m genau; im Navi „奕朵江景酒店“ oder „黄花园大桥“ suchen.",
+  "image_page": "https://www.instagram.com/yantastic/",
+  "image_credit": "@yantastic · Instagram",
+  "when": "night"
+ },
+ {
+  "id": "cn-dongshuimen-brcke-mit-seilbahn-im-tele",
+  "region": "cn",
+  "name": "Dongshuimen-Brücke mit Seilbahn im Tele 东水门大桥 · 慈云寺",
+  "district": "Nan'an (Ciyun-Tempel), Chongqing",
+  "category": "Aussicht",
+  "note": "Teleblick: die rote Fachwerk-Hängebrücke Dongshuimen 东水门大桥 im Vordergrund, dahinter die rote Jangtse-Seilbahn und zwei goldene Türme mit Spitzdächern (Logo „S“, vermutlich Sheraton, Nan'an-Ufer). Standpunkt laut @yantastic: Uferweg am Südufer (Nan'an) nördlich der Brücke, nahe dem Ciyun-Tempel 慈云寺 – Blick nach Süden entlang des Ufers, durch die Brücke hindurch. Langes Tele (200–400 mm), damit Brücke, Seilbahn und Türme zusammenrücken; Seilbahn im Pendelbetrieb abwarten. Warmes, tiefes Licht im Original – also früher Morgen oder später Nachmittag. Hinkommen: Taxi zum 慈云寺, dann am Ufer Richtung Brücke.",
+  "address": "Nan'an (Ciyun-Tempel), Chongqing",
+  "lat": 29.5665,
+  "lng": 106.5903,
+  "approx": true,
+  "image": "images/cq_dongshuimen_tele_yantastic.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/yantastic/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/yantastic/",
+    "kind": "photo",
+    "image": "images/cq_dongshuimen_tele_yantastic.jpg",
+    "caption": "",
+    "credit": "@yantastic · Instagram"
+   }
+  ],
+  "source": "Instagram @yantastic (Karussell „China's most viral city – Chongqing“, Bild 8–9/18)",
+  "unsure": "Pin nach der Kartengrafik im Post (blauer Punkt am Ostufer nahe Ciyun-Tempel) – auf ca. 100–150 m genau; im Navi „慈云寺“ suchen und am Ufer Richtung Brücke gehen.",
+  "image_page": "https://www.instagram.com/yantastic/",
+  "image_credit": "@yantastic · Instagram",
+  "when": "day"
+ },
+ {
+  "id": "cn-chongqing-socialist-academy-la-la-land-treppen",
+  "region": "cn",
+  "name": "Chongqing Socialist Academy – „La La Land“-Treppen 重庆社会主义学院",
+  "district": "Longmenhao, Nan'an, Chongqing",
+  "category": "Aussicht",
+  "note": "Geschwungene, gestufte Aussichtsterrasse mit warm-gelben Laternen über dem Jangtse, gegenüber die beleuchtete Yuzhong-Skyline (World Financial Center, Jiefangbei-Türme). Wegen der Stimmung „La La Land Night View“ genannt – Treppenlinien als Vordergrund für Silhouetten/Porträts vor der Skyline. Beste Zeit laut Post 20:00–21:30. Lage: Gelände der Sozialistischen Akademie 重庆社会主义学院, Tushan Road 涂山路, direkt am Südende der Dongshuimen-Brücke; Metro Shangxinjie 上新街 (Linie 6) ca. 3 Min. 24–70 für Personen vor der Skyline, 70–200 für Türme; Stativ an der Brüstung.",
+  "address": "Longmenhao, Nan'an, Chongqing",
+  "lat": 29.5581,
+  "lng": 106.5919,
+  "approx": true,
+  "image": "images/cq_socialist_academy_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/china.youth_/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/china.youth_/",
+    "kind": "photo",
+    "image": "images/cq_socialist_academy_1.jpg",
+    "caption": "",
+    "credit": "@china.youth_ · China Compass · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/china.youth_/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/china.youth_/",
+    "kind": "photo",
+    "image": "images/cq_socialist_academy_2.jpg",
+    "caption": "",
+    "credit": "@china.youth_ · China Compass · Instagram"
+   }
+  ],
+  "source": "Instagram @china.youth_ (China Compass, „Chongqing's best viral + under-the-radar photo spots“, Bild 5/11)",
+  "unsure": "Pin = Akademie-Gelände laut OpenStreetMap; die Terrasse liegt am Hang zum Fluss hin – genauer Zugang vor Ort (Hochschulgelände, abends offenbar zugänglich, nicht bestätigt).",
+  "image_page": "https://www.instagram.com/china.youth_/",
+  "image_credit": "@china.youth_ · China Compass · Instagram",
+  "when": "day"
  }
 ];
 window.UNPLACED_CN = [
@@ -12368,5 +12606,15 @@ window.UNPLACED_CN = [
   "caption": "-\nTaxis in Hong Kong — Through my lens\nWhich one is your favourite? 🇭🇰\n\nCanon R6 Mark II 📸\n\nLike & Share if you like 🔥\nFollow @llittlepig for more 📸",
   "region": "hk",
   "sub": "hk"
+ },
+ {
+  "url": "https://www.instagram.com/abeastinside/p/C0rHQXRJ7QJ/",
+  "username": "abeastinside",
+  "profile_url": "https://www.instagram.com/abeastinside/",
+  "kind": "p",
+  "image": "images/C0rHQXRJ7QJ.jpg",
+  "caption": "Guiyang's unique brochette Building\n.\n.\n.\n#hellofrom #Chongqing\n#igtones #visualgrams#streetgrammers #streetclassics#streetphotography #fatalframes#way2ill #electric_shotz#tonekillers #agameoftones#heatercentral #streetmobs#compositionkillerz#visualambassadors#eclectic_shotz #citykillerz#clickcity#streets_vision#kill3rtones#filmtronic#thedarkpr0ject#nocturnal_visionaries#thestreetpr0ject#abeastinside\nView all comments",
+  "region": "cn",
+  "sub": "cnx"
  }
 ];

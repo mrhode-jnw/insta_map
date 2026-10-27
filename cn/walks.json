@@ -1257,5 +1257,135 @@
     ]
    }
   ]
+ },
+ {
+  "id": "walk-chongqing-skyline",
+  "region": "cn",
+  "area": "Chongqing",
+  "place": "Chongqing",
+  "title": "Chongqing: Abendrunde zu den Lichtern der Skyline",
+  "date": "2026-10-26",
+  "when": "Mo 26.10., ca. 17:15–21:00",
+  "duration": "ca. 4 km zu Fuß, 3–4 Std. mit Fotostopps",
+  "intro": "Vom Hotel an der Jiefangbei hinunter zum Hongyadong zur blauen Stunde, über die Qiansimen-Brücke nach Jiangbeizui und von dort zurück auf die beleuchtete Yuzhong-Halbinsel. Die Fluss- und Gebäudebeleuchtung geht meist gegen 18:30 an und läuft bis ca. 22–23 Uhr (an manchen Abenden früher aus).",
+  "tips": [
+   "Stativ mitnehmen; auf den Brücken wegen Verkehrsvibrationen kurze Zeiten (1–4 s) oder höhere ISO.",
+   "Nasses Pflaster nach Regen = Spiegelungen – bewusst tief und nah an Pfützen fotografieren.",
+   "Rückweg: Metro Linie 6 ab Grand Theatre (大剧院) oder Taxi/DiDi zur Jiefangbei, ca. 10 Min.",
+   "Hongyadong ist abends sehr voll – den Uferplatz an der Jialing-Promenade früh sichern."
+  ],
+  "sources": [],
+  "stops": [
+   {
+    "name": "Jiefangbei – Hochhausschluchten 解放碑",
+    "name_cn": "",
+    "lat": 29.5578,
+    "lng": 106.5771,
+    "approx": false,
+    "text": "Start am Hotel, ca. 17:15. Hochhäuser von unten mit den ersten Leuchtreklamen, 16–35. Dann über die Cangbai Road/Treppen hinunter zum Jialing (ca. 15 Min.).",
+    "images": [
+     {
+      "image": "images/walk_cq_jiefangbei_6.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jiefangbei_at_Night_20201024.jpg",
+      "credit": "Este Momento · CC BY-SA 4.0 · Wikimedia Commons",
+      "caption": ""
+     },
+     {
+      "image": "images/walk_cq_jiefangbei_1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:A_close_view_of_Jiefangbei_CBD,Central_Chongqing_at_night.jpg",
+      "credit": "Prof.Chen Hualin · CC BY-SA 3.0 · Wikimedia Commons",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Hongyadong 洪崖洞",
+    "name_cn": "",
+    "lat": 29.565074,
+    "lng": 106.575343,
+    "approx": false,
+    "text": "17:45–18:45, blaue Stunde ca. 18:10–18:40, Lichter ab ca. 18:30. Unten an der Jialing-Uferstraße entlang der Fassade und auf die rot beleuchtete Qiansimen-Brücke, 16–35, Stativ, 2–8 s bei f/8. Frontal auf die Stelzenhäuser geht es erst von der Brücke (nächster Stopp).",
+    "images": [
+     {
+      "image": "images/walk_cq_hongyadong_8.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Qiansimen_Bridge_at_night_20251027.jpg",
+      "credit": "DvTor8303 · CC0 · Wikimedia Commons",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Qiansimen Bridge 千厮门大桥",
+    "name_cn": "",
+    "lat": 29.565378,
+    "lng": 106.576378,
+    "approx": false,
+    "text": "18:45–19:15. Fußweg auf der Brücke Richtung Norden; nach ca. einem Drittel zurückblicken: Hongyadong mit den Hochhäusern dahinter, 24–70. Weiter hinten auf der Brücke Raffles City und der Zusammenfluss mit 70–200.",
+    "images": [
+     {
+      "image": "images/walk_cq_qiansimen-bridge_0.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg",
+      "credit": "Jonashtand · CC BY-SA 4.0 · Wikimedia Commons",
+      "caption": ""
+     },
+     {
+      "image": "images/walk_cq_qiansimen-bridge_9.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Yuzhong_CBD_20240722.jpg",
+      "credit": "HoweyYuan · CC BY-SA 4.0 · Wikimedia Commons",
+      "caption": ""
+     },
+     {
+      "image": "images/walk_cq_qiansimen-bridge_4.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Chongqing_September_2016_8.jpg",
+      "credit": "Fredlyfish4 · CC BY-SA 4.0 · Wikimedia Commons",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Jiangbeizui & Grand Theatre 江北嘴 · 重庆大剧院",
+    "name_cn": "",
+    "lat": 29.5727233,
+    "lng": 106.5774751,
+    "approx": false,
+    "text": "19:30–20:30. Uferpromenade am Grand Theatre: die ganze Yuzhong-Halbinsel mit Hongyadong, Jiefangbei-Türmen und Raffles über dem Jialing. 16–35 fürs Panorama, 5–15 s für glattes Wasser.",
+    "images": [
+     {
+      "image": "images/walk_cq_jiangbeizui_5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Jailing_Jang_by_Night.jpg",
+      "credit": "Willi Weasel · CC BY-SA 4.0 · Wikimedia Commons",
+      "caption": ""
+     },
+     {
+      "image": "images/walk_cq_jiangbeizui_2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Chongqing_Nightscape.jpg",
+      "credit": "Jay Huang · CC BY 2.0 · Wikimedia Commons",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "name": "Raffles City – The Crystal 重庆来福士",
+    "name_cn": "",
+    "lat": 29.5675551,
+    "lng": 106.5831253,
+    "approx": false,
+    "text": "Vom Ufer östlich des Grand Theatre: Raffles City an der Landspitze Chaotianmen mit der beleuchteten Glasbrücke, 70–200. Danach mit Linie 6 oder Taxi zurück (optional noch Deyi World für Neon).",
+    "images": [
+     {
+      "image": "images/walk_cq_raffles_16.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-2.jpg",
+      "credit": "Suicasmo · CC0 · Wikimedia Commons",
+      "caption": ""
+     },
+     {
+      "image": "images/walk_cq_raffles_17.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-4.jpg",
+      "credit": "Suicasmo · CC0 · Wikimedia Commons",
+      "caption": ""
+     }
+    ]
+   }
+  ]
  }
 ]

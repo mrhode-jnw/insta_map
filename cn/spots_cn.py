@@ -55,6 +55,9 @@ POSTS = {
  98: ("dezeen", "p", "DemmIuglxrx"),
  99: ("jackyy_wch", "p", "De1Y1TXElV9"),
  100: ("long.explorer", "p", "Cq0kWfMIPSW"),
+ 101: ("abeastinside", "p", "C0rHQXRJ7QJ"),
+ 102: ("cal_captures_", "p", "DOLo8rSjHLP"),
+ 103: ("hughchongqing", "reel", "DUEw885AW0h"),
 }
 
 # Posts ohne Spot, die zu einer anderen Kartenregion gehören (13 = Taxis in Hongkong)
@@ -100,7 +103,7 @@ SPOTS = [
  ("Hongyadong 洪崖洞", 29.565074, 106.575343, False, "Yuzhong, Chongqing", "Neon",
   [(14, 1), (38, 2), (41, 2), (53, 4), 54], "Abends beleuchtet; viele Treppen. Weitere Tipps im Post: Linhua Road Wohnkomplex, Wulong, Eling-Brücke."),
  ("Qiansimen Bridge 千厮门大桥", 29.565378, 106.576378, False, "Yuzhong, Chongqing", "Neon",
-  [20, (38, 4), 54], "Rote Fachwerkbrücke mit Skyline, nachts."),
+  [20, (38, 4), 54, (102, 4)], "Rote Fachwerkbrücke mit Skyline, nachts."),
  ("Kuixing Building 魁星楼", 29.5633, 106.5699, True, "Jiefangbei, Chongqing", "Architektur",
   [(14, 2), 54], "Das Erdgeschoss ist zugleich der 22. Stock."),
  ("Linhua Road Residential Complex 临华路", 29.559721, 106.557113, True, "Yuzhong, Chongqing", "Architektur",
@@ -114,7 +117,7 @@ SPOTS = [
  ("Three Natural Bridges 天生三桥", 29.4399, 107.7863, False, "Wulong, Chongqing", "Natur",
   [27, (14, 6), (38, 1), (41, 7)], "3 h ab Chongqing; 1 h Rundweg, Glas-Aufzug hinunter. Tagestour: 7 Uhr los, 15 Uhr zurück."),
  ("Baixiangju & Yangtze River Cableway 白象居 · 长江索道", 29.558528, 106.581348, False, "Yuzhong, Chongqing", "Architektur",
-  [37, 39, (38, 5), 54], "Die rote Seilbahn über den Jangtse schwebt zwischen den Wohntürmen hindurch."),
+  [37, 39, (38, 5), 54, (102, 2)], "Die rote Seilbahn über den Jangtse schwebt zwischen den Wohntürmen hindurch. Standpunkt (eingegrenzt, nicht bestätigt): offene Verbindungsgänge zwischen den Türmen, am ehesten Haus 3/4, etwa ab der Plattform im 12. Stock aufwärts – Blick nach Norden, Raffles City mit der Glasbrücke steht hinter der Seilbahn. Zugang auf mittlerer Höhe direkt von der Jiefang East Road 解放东路 (je nach Quelle 12. oder 15. Stock, keine Hausnummer bekannt) – im Navi/DiDi „白象居“ eingeben; weitere Eingänge unten am Ufer (1. Stock) und an der Baixiang Street 白象街. Kein Aufzug. 85–135 mm, Gondel mittig zwischen zwei Türmen mit runden Erkern abpassen, Pendelbetrieb – alle paar Minuten eine Gondel, Serienbild 1/500 s. Dunst lässt Raffles weich verschwimmen. Bewohntes Haus: leise sein, nicht vor Wohnungstüren aufbauen."),
  ("Luohan Temple 罗汉寺", 29.562566, 106.577843, False, "Yuzhong, Chongqing", "Tempel",
   [(38, 3), (41, 6), (53, 1), 90, (93, 4), (93, 3), (93, 1), (93, 2)], "Tausend Jahre alter buddhistischer Tempel mitten zwischen Hochhäusern."),
  ("Chaodong Road 朝东路", 29.566677, 106.584101, True, "Yuzhong, Chongqing", "Street",
@@ -240,6 +243,8 @@ SPOTS = [
   [92], "Offene Aussichtsplattform auf dem ehemaligen Hubschrauberlandeplatz des Sinar Mas/White Magnolia Plaza (320 m, 东大名路501号), ohne Glasscheiben, 360° auf Bund, Lujiazui und North Bund. Seit April 2025, ca. 200–230 ¥, Di–So; Slot 16:30–19:30 (Sonnenuntergang → Blaue Stunde) ist schnell ausgebucht – vorab im Mini-Programm buchen. Pin ungefähr (Turm am Ostende des Komplexes)."),
  ("Tank Shanghai 油罐艺术中心 (LEGO Bloom)", 31.1666, 121.4594, False, "West Bund (Xuhui), Shanghai", "Architektur",
   [(95, 5), (96, 1), (95, 4), (95, 11), (96, 4), (95, 2), (96, 2), (96, 3), (96, 5), (95, 10), (95, 1), (95, 3), (95, 6), (95, 7), (95, 8), (95, 9)], "Kunstzentrum in fünf alten Flugbenzin-Tanks am West Bund (龙腾大道2380号, nahe 龙启路). Bis 29. Oktober 2026 die LEGO-Bloom-Ausstellung: 380.000 LEGO-Blumen als 30 m lange „Flower Wave“, die aus einem Tank quillt, draußen frei zugänglich; Innenräume mit Reservierung über das WeChat-Mini-Programm „LEGO乐高“. Im Reiseplan wäre nur der 29.10. möglich. Die Tanks selbst sind auch danach ein Fotomotiv."),
+ ("Pride of Times Rooftop 时代天骄 (Dach)", 29.56654, 106.58095, True, "Yuzhong (Chaotianmen), Chongqing", "Neon",
+  [103], "Dach des Wohnkomplexes 时代天骄 an der 朝千路 nahe Chaotianmen (Ort laut @hughchongqing, Pin = Komplex laut OSM, ungefähr): Cyberpunk-Nachtblick über beleuchtete Wohntürme auf die Skyline. Zugang zum Dach nicht offiziell – vor Ort klären, bei Verbot nicht hinauf."),
 ]
 
 # Beliebtheit 1–5 (5 = Wahrzeichen, 4 = in vielen Guides, 3 = bei Fotografen bekannt)
@@ -298,6 +303,7 @@ POP = {
  "Guge": (4, "Abgelegene Ruinenstadt, Fotografen-Traum"),
  "Baixiangju": (4, "Viraler Seilbahn-Fotospot zwischen Wohntürmen"),
  "Deyi World": (3, 'Neon-Viertel am Jiaochangkou, viral als „Videospiel-Stadt“'),
+ "Pride of Times": (2, 'Rooftop-Geheimtipp, nur vereinzelt in Social Media'),
  "Luohan": (3, "Historischer Stadttempel, in vielen Chongqing-Guides"),
  "Chaodong": (2, "Alltagsstraße, kaum in Reiseführern"),
  "Nanbin": (4, "Bekannte Uferpromenade mit Nachtblick"),
