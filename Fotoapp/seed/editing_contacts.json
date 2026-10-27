@@ -1,0 +1,1209 @@
+{
+ "accessed_at": "2026-10-27",
+ "series": [
+  {
+   "key": "lange-migrant-mother",
+   "photographer": "Dorothea Lange",
+   "title": "Destitute pea pickers in California. Mother of seven children. Age thirty-two. Nipomo, California (Migrant Mother)",
+   "year": 1936,
+   "situation_de": "Lange fotografiert im März 1936 Florence Owens Thompson und ihre Kinder in einem Erbsenpflücker-Lager in Nipomo (Kalifornien) mit einer Graflex auf 4×5-Zoll-Film. Die Library of Congress besitzt fünf Aufnahmen dieser Situation; zwei weitere aus mittlerer Entfernung liegen im Oakland Museum [Q3][Q4].",
+   "frames": [
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b29000/8b29500/8b29523v.jpg",
+     "source_url": "https://www.loc.gov/item/2017762903/",
+     "note": "LC-USF34-9093-C: Mutter mit Säugling auf dem Schoß, ein Kind lehnt an ihrer Schulter, Zeltstange und Laterne im Bild, Querformat."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b29000/8b29500/8b29525v.jpg",
+     "source_url": "https://www.loc.gov/item/2017762905/",
+     "note": "LC-USF34-9095: Hochformat, Mutter mit Kindern unter dem Zeltdach, vorn eine Kiste mit Blechteller."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b29000/8b29500/8b29527v.jpg",
+     "source_url": "https://www.loc.gov/item/2017762907/",
+     "note": "LC-USF34-9097-C: Mutter stillt den Säugling, Laterne und Kiste vorne links, Querformat."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/03000/03054v.jpg",
+     "source_url": "https://www.loc.gov/item/2017762908/",
+     "note": "Einziger weiter Blick: das ganze Zelt aus Entfernung, Mutter und Kinder klein im Zelteingang (Negativ verschollen, LC-USZ62-58355)."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b29000/8b29500/8b29516v.jpg",
+     "source_url": "https://www.loc.gov/item/2017762891/",
+     "note": "LC-USF34-9058-C: enge Nahaufnahme, Hand am Kinn, zwei Kinder wenden sich ab, Säugling im Schoß – das als „Migrant Mother“ bekannte Bild."
+    }
+   ],
+   "chosen": 4,
+   "answer_de": "Berühmt wurde die engste Aufnahme (LC-USF34-9058-C). Lange selbst beschreibt ihr Vorgehen so: fünf Aufnahmen, „working closer and closer from the same direction“ [Q1]. Die Reihenfolge lässt sich aus den Negativnummern nicht bestimmen [Q2]. Meine Einschätzung: Gegenüber den anderen Bildern fällt in der gewählten Fassung alles Erzählende (Zelt, Laterne, Kiste, Landschaft) weg; die abgewandten Kinder lenken den Blick ganz auf das Gesicht der Mutter.",
+   "sources": [
+    {
+     "url": "https://guides.loc.gov/migrant-mother",
+     "title": "Library of Congress Research Guide: Dorothea Lange's \"Migrant Mother\" Photographs",
+     "excerpt": "I made five exposures, working closer and closer from the same direction. I did not ask her name or her history.",
+     "kind": "fotograf",
+     "author": "Dorothea Lange (zitiert von der Library of Congress)",
+     "translation_de": "Ich machte fünf Aufnahmen und arbeitete mich aus derselben Richtung immer näher heran. Ich fragte sie weder nach ihrem Namen noch nach ihrer Geschichte."
+    },
+    {
+     "url": "https://guides.loc.gov/migrant-mother",
+     "title": "Library of Congress Research Guide: Dorothea Lange's \"Migrant Mother\" Photographs",
+     "excerpt": "It is not possible to determine on the basis of the negative numbers (which were assigned later at the Resettlement Administration) the order in which the photographs were taken.",
+     "kind": "museum",
+     "translation_de": "Anhand der Negativnummern (die erst später bei der Resettlement Administration vergeben wurden) lässt sich die Reihenfolge der Aufnahmen nicht bestimmen."
+    },
+    {
+     "url": "https://guides.loc.gov/migrant-mother/images",
+     "title": "Library of Congress Research Guide: Migrant Mother Series of Images",
+     "excerpt": "Two images showing the mother and children in the tent, taken at a medium range and from an angle, apparently were never received by the Library of Congress.",
+     "kind": "museum",
+     "translation_de": "Zwei Aufnahmen von Mutter und Kindern im Zelt, aus mittlerer Entfernung und schräg aufgenommen, sind offenbar nie bei der Library of Congress eingegangen."
+    },
+    {
+     "url": "https://guides.loc.gov/migrant-mother",
+     "title": "Library of Congress Research Guide: Dorothea Lange's \"Migrant Mother\" Photographs",
+     "excerpt": "The images were made using a Graflex camera. The original negatives are 4x5\" film.",
+     "kind": "museum",
+     "aspect": "technik",
+     "translation_de": "Die Aufnahmen entstanden mit einer Graflex-Kamera. Die Originalnegative sind 4×5-Zoll-Filme."
+    }
+   ]
+  },
+  {
+   "key": "anders-earthrise",
+   "photographer": "William Anders",
+   "title": "Earthrise (AS08-14-2383)",
+   "year": 1968,
+   "situation_de": "Apollo 8 umkreist am 24. Dezember 1968 den Mond; Anders fotografiert die aufgehende Erde zuerst auf Schwarzweißfilm, dann – nach hektischem Filmwechsel – zweimal in Farbe, alle drei mit demselben 250-mm-Teleobjektiv [Q3][Q4].",
+   "frames": [
+    {
+     "image_url": "https://images-assets.nasa.gov/image/as08-13-2329/as08-13-2329~large.jpg",
+     "source_url": "https://images.nasa.gov/details/as08-13-2329",
+     "note": "AS08-13-2329: Schwarzweiß, Erde knapp über dem Mondhorizont, Horizont nimmt mehr als die halbe Bildhöhe ein."
+    },
+    {
+     "image_url": "https://images-assets.nasa.gov/image/as08-14-2383/as08-14-2383~large.jpg",
+     "source_url": "https://images.nasa.gov/details/as08-14-2383",
+     "note": "AS08-14-2383: erste Farbaufnahme, Erde höher über dem schräg verlaufenden Horizont, viel schwarzer Raum."
+    },
+    {
+     "image_url": "https://images-assets.nasa.gov/image/as08-14-2384/as08-14-2384~large.jpg",
+     "source_url": "https://images.nasa.gov/details/as08-14-2384",
+     "note": "AS08-14-2384: zweite Farbaufnahme, ähnlich, Horizont flacher und tiefer im Bild."
+    }
+   ],
+   "chosen": 1,
+   "answer_de": "Das als „Earthrise“ bekannte Bild ist die erste Farbaufnahme AS08-14-2383 [Q5]; das Schwarzweißbild entstand etwa eine Minute früher [Q1]. Anders schoss zuerst Schwarzweiß und ließ sich dann von Lovell ein Farbmagazin geben [Q3]; Lovell drängte „Take several“, Anders antwortete, er habe zwei gemacht und die Belichtung variiert [Q4]. Die drei Originale sind AS08-13-2329, AS08-14-2383 und AS08-14-2384 [Q2]. Meine Einschätzung: Gewonnen hat nicht die erste, sondern die farbige Aufnahme – die blaue Erde gegen das Grau ist der Inhalt des Bildes.",
+   "sources": [
+    {
+     "url": "https://svs.gsfc.nasa.gov/3936",
+     "title": "NASA Scientific Visualization Studio: Earthrise (ID 3936)",
+     "excerpt": "The famous color photograph known as Earthrise, as well as a black-and-white image taken a minute earlier, document the moment when Earth was seen for the first time by human eyes from behind the Moon.",
+     "kind": "wissenschaft",
+     "translation_de": "Das berühmte Farbfoto „Earthrise“ und ein eine Minute früher aufgenommenes Schwarzweißbild dokumentieren den Moment, in dem Menschen die Erde zum ersten Mal hinter dem Mond hervorkommen sahen."
+    },
+    {
+     "url": "https://svs.gsfc.nasa.gov/4129",
+     "title": "NASA Scientific Visualization Studio: Earthrise – The 45th Anniversary (ID 4129)",
+     "excerpt": "The original photographs are AS08-13-2329, AS08-14-2383, and AS08-14-2384.",
+     "kind": "wissenschaft"
+    },
+    {
+     "url": "https://www.smithsonianmag.com/science-nature/who-took-legendary-earthrise-photo-apollo-8-180967505/",
+     "title": "Andrew Chaikin: Who Took the Legendary Earthrise Photo From Apollo 8? (Smithsonian Magazine, 2018)",
+     "excerpt": "Seeing the Earthrise, he fired off a black-and-white picture before asking Lovell for a color film magazine. All three Earthrise pictures—the black-and-white and the two color—had been taken with the same 250-millimeter lens.",
+     "kind": "wissenschaft",
+     "author": "Andrew Chaikin",
+     "translation_de": "Als er den Erdaufgang sah, machte er schnell ein Schwarzweißbild, bevor er Lovell um ein Farbfilmmagazin bat. Alle drei Earthrise-Bilder – das schwarzweiße und die beiden farbigen – entstanden mit demselben 250-mm-Objektiv."
+    },
+    {
+     "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004129/G2013-102_Earthrise_MASTER_youtube_hqTranscripts.html",
+     "title": "NASA SVS: Transkript „Earthrise: The 45th Anniversary“ (Bordtonband)",
+     "excerpt": "Lovell: Take several, take several of 'em! Here, give it to me!",
+     "kind": "fotograf",
+     "translation_de": "Lovell: Mach mehrere, mach mehrere davon! Hier, gib her!"
+    },
+    {
+     "url": "https://www.nasa.gov/image-detail/as08-14-2383orig/",
+     "title": "NASA Image Detail: “Earthrise” by NASA Astronaut Bill Anders (AS08-14-2383)",
+     "excerpt": "“Earthrise” by NASA Astronaut Bill Anders The rising Earth is about five degrees above the lunar horizon in this telephoto view taken from the Apollo 8 spacecraft near 110 degrees east longitude.",
+     "kind": "museum"
+    }
+   ]
+  },
+  {
+   "key": "gardner-sharpshooter",
+   "photographer": "Alexander Gardner",
+   "title": "Home of a Rebel Sharpshooter, Gettysburg",
+   "year": 1863,
+   "situation_de": "Gettysburg, 6. Juli 1863: Gardner und sein Assistent Timothy O’Sullivan finden im „Devil’s Den“ einen toten Konföderierten und fotografieren ihn; dann schleppen sie den Körper über 40 Yards an eine Felsmauer und machen eine zweite Aufnahme [Q1]. Beide erschienen in Gardners Photographic Sketch Book of the War [Q3][Q4].",
+   "frames": [
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/12500/12561v.jpg",
+     "source_url": "https://www.loc.gov/item/2006692501/",
+     "note": "„A Sharpshooter’s Last Sleep“ (Sketch Book Nr. 40): der Tote auf offenem Gelände zwischen Steinen, Gewehr quer vor ihm (Albumin-Abzug auf der Albumseite)."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/12500/12562v.jpg",
+     "source_url": "https://www.loc.gov/item/2006692502/",
+     "note": "„Home of a Rebel Sharpshooter“ (Sketch Book Nr. 41): derselbe Tote in einer Felsspalte hinter einer Steinmauer, das Gewehr an die Mauer gelehnt (Albumin-Abzug auf der Albumseite)."
+    }
+   ],
+   "chosen": 1,
+   "answer_de": "Die zweite, gestellte Aufnahme wurde zur berühmteren: Gardner und O’Sullivan sahen „an opportunity for another, more dramatic photograph“ und trugen die Leiche zur vermeintlichen Scharfschützenstellung [Q1]. Frassanito wies 1975 nach, dass es derselbe Tote ist und das Gewehr wohl eine Requisite war [Q2]. Meine Einschätzung: Das Beispiel zeigt die Kehrseite der Bildauswahl – die „bessere“ Fassung entstand durch Eingriff in die Szene, nicht durch Wahl des Standpunkts.",
+   "sources": [
+    {
+     "url": "https://prologue.blogs.archives.gov/2013/06/20/the-true-story-behind-the-gettysburg-sharpshooter/",
+     "title": "National Archives, Pieces of History: The true story behind the Gettysburg sharpshooter (Kurator Bruce Bustard, 2013)",
+     "excerpt": "On July 6, when he saw the body of a Confederate soldier in an area called “Devil’s Den,” he photographed it. He and O’Sullivan then saw an opportunity for another, more dramatic photograph. They moved the corpse more than 40 yards to what they believed to have been the sharpshooter’s position, and O’Sullivan made another exposure.",
+     "kind": "museum",
+     "author": "Bruce Bustard",
+     "translation_de": "Als er am 6. Juli im sogenannten „Devil’s Den“ die Leiche eines konföderierten Soldaten sah, fotografierte er sie. Dann sahen er und O’Sullivan die Gelegenheit für ein weiteres, dramatischeres Foto. Sie trugen die Leiche über 40 Yards zu der Stelle, die sie für die Stellung des Scharfschützen hielten, und O’Sullivan machte eine weitere Aufnahme."
+    },
+    {
+     "url": "https://prologue.blogs.archives.gov/2013/06/20/the-true-story-behind-the-gettysburg-sharpshooter/",
+     "title": "National Archives, Pieces of History: The true story behind the Gettysburg sharpshooter",
+     "excerpt": "He demonstrated that the body in both was the same person. The gun, not one a sharpshooter was likely to have used, was probably a prop.",
+     "kind": "museum",
+     "translation_de": "Er wies nach, dass der Tote auf beiden Bildern dieselbe Person ist. Das Gewehr – keines, das ein Scharfschütze wahrscheinlich benutzt hätte – war vermutlich eine Requisite."
+    },
+    {
+     "url": "https://www.loc.gov/item/2006692501/",
+     "title": "Library of Congress, Katalogeintrag 2006692501",
+     "excerpt": "Illus. in:  Gardner's photographic sketch book of the war / Alexander Gardner. Washington, D.C. : Philp & Solomons, [c1866], v. 1, no. 40.",
+     "kind": "museum"
+    },
+    {
+     "url": "https://www.loc.gov/item/2006692502/",
+     "title": "Library of Congress, Katalogeintrag 2006692502",
+     "excerpt": "Illus. in:  Gardner's photographic sketch book of the war / Alexander Gardner. Washington, D.C. : Philp & Solomons, [c1866], v. 1, no. 41.",
+     "kind": "museum"
+    }
+   ]
+  },
+  {
+   "key": "burri-che-guevara",
+   "photographer": "René Burri",
+   "title": "Ernesto Guevara (Che), Ministry of Industry, Havana",
+   "year": 1963,
+   "situation_de": "Burri fotografiert im Auftrag der Zeitschrift Look ein Interview in Guevaras Büro im Industrieministerium in Havanna (Magnum datiert die Bilder 1963, der Begleittext nennt 1962) [Q3]. Die Jalousien bleiben geschlossen, Guevara beachtet den Fotografen nicht [Q1][Q2]. Magnum zeigt mehrere Aufnahmen der Sitzung.",
+   "frames": [
+    {
+     "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/par114536-teaser-story-big.jpg",
+     "source_url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-che-guevara-by-rene-burri/",
+     "note": "Guevara zurückgelehnt im Sessel, Papiere auf dem Schoß, ganzer Oberkörper."
+    },
+    {
+     "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/par114544-teaser-story-big.jpg",
+     "source_url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-che-guevara-by-rene-burri/",
+     "note": "Detail: Hände mit Stift über Notizen und Zahlen, Kaffeetasse."
+    },
+    {
+     "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/par115252-teaser-story-big.jpg",
+     "source_url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-che-guevara-by-rene-burri/",
+     "note": "Hochformat, Guevara gestikuliert mit der Hand, Jalousie im Hintergrund."
+    },
+    {
+     "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/par115254-teaser-story-big.jpg",
+     "source_url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-che-guevara-by-rene-burri/",
+     "note": "Hochformat, Guevara im Halbprofil mit Zigarre an den Lippen, dunkler Raum."
+    },
+    {
+     "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/par115261-teaser-story-big.jpg",
+     "source_url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-che-guevara-by-rene-burri/",
+     "note": "Guevara zündet die Zigarre an, Fenster mit Jalousien im Hintergrund, weiter Ausschnitt."
+    },
+    {
+     "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/par117799-teaser-story-big.jpg",
+     "source_url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-che-guevara-by-rene-burri/",
+     "note": "Guevara im Gespräch, im Vordergrund unscharf die Reporterin."
+    },
+    {
+     "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/par8791-teaser-story-big.jpg",
+     "source_url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-che-guevara-by-rene-burri/",
+     "note": "Guevara reibt sich die Augen, Zigarre in der Hand."
+    },
+    {
+     "image_url": "https://www.magnumphotos.com/wp-content/uploads/2017/10/cortex/par62798-teaser-story-big.jpg",
+     "source_url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-che-guevara-by-rene-burri/",
+     "note": "Nah, leicht von unten: Zigarre im Mundwinkel, Blick nach rechts aus dem Bild, helle Jalousie als Hintergrund – das berühmte Porträt."
+    }
+   ],
+   "chosen": 7,
+   "answer_de": "Gewählt und berühmt wurde das Porträt mit der Zigarre [Q3]. Burri beschreibt die Bedingung, unter der alle Bilder entstanden: Guevara schaute ihn nie an, „there isn’t a single photograph in which he appears looking at the camera“ [Q1]; die geschlossenen Jalousien waren ein technisches Problem [Q2]. Später wurde ein Poster „framed exactly like Che’s photograph“ gedruckt [Q4]. Meine Einschätzung: Gegenüber den erzählenden Bildern (Notizen, Gespräch, Büro) reduziert das gewählte Bild auf Gesicht, Zigarre und Blick aus dem Bild – die Jalousie wird zur ruhigen Fläche.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-che-guevara-by-rene-burri/",
+     "title": "Magnum Photos: Making the Image – Che Guevara by René Burri",
+     "excerpt": "He never once looked at me, which was extraordinary. I was moving all around him, and there isn’t a single photograph in which he appears looking at the camera.",
+     "kind": "fotograf",
+     "author": "René Burri",
+     "translation_de": "Er hat mich kein einziges Mal angesehen, was außergewöhnlich war. Ich bewegte mich um ihn herum, und es gibt kein einziges Foto, auf dem er in die Kamera schaut."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-che-guevara-by-rene-burri/",
+     "title": "Magnum Photos: Making the Image – Che Guevara by René Burri",
+     "excerpt": "I immediately realized that the blinds were closed. Since this posed a technical problem, I asked him, ‘May I open the blinds?’ And he said, ‘No, it’s not necessary.’",
+     "kind": "fotograf",
+     "author": "René Burri",
+     "translation_de": "Mir fiel sofort auf, dass die Jalousien geschlossen waren. Da das ein technisches Problem war, fragte ich ihn: „Darf ich die Jalousien öffnen?“ Er sagte: „Nein, das ist nicht nötig.“"
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-che-guevara-by-rene-burri/",
+     "title": "Magnum Photos: Making the Image – Che Guevara by René Burri",
+     "excerpt": "In 1962 René Burri visited Havana on commission for Look magazine. One of the resultant portraits of Guevara smoking a cigar became an iconic image",
+     "kind": "kurator",
+     "translation_de": "1962 reiste René Burri im Auftrag der Zeitschrift Look nach Havanna. Eines der dabei entstandenen Porträts von Guevara mit Zigarre wurde zu einer Ikone."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/behind-the-image-che-guevara-by-rene-burri/",
+     "title": "Magnum Photos: Making the Image – Che Guevara by René Burri",
+     "excerpt": "And they made a huge poster framed exactly like Che’s photograph.",
+     "kind": "fotograf",
+     "author": "René Burri",
+     "translation_de": "Und sie machten ein riesiges Poster, genau so beschnitten wie das Foto von Che."
+    }
+   ]
+  },
+  {
+   "key": "kalvar-woman-window",
+   "photographer": "Richard Kalvar",
+   "title": "Woman looking at herself in store window, New York City",
+   "year": 1969,
+   "situation_de": "Ein „Schaufenster-Tag“ in New York: Kalvar fotografiert zuerst einen Mann, der sich an der Scheibe eines Börsenmaklerbüros spiegelt, dann eine Frau, die sich gegen dieselbe Scheibe drückt [Q1][Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/07/cortex/par446899-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-richard-kalvar-woman-window/",
+    "grid": "8×5 (Filmstreifen, letzte Reihe unvollständig)",
+    "chosen_cell": "6,2",
+    "frame_label": "25A",
+    "note": "Kontaktbogen mit orange umrandetem Bild in der 6. Reihe; die Nummer unter dem Bild ist 25A."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/07/cortex/par92911-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-richard-kalvar-woman-window/"
+   },
+   "chosen": null,
+   "answer_de": "Gewählt ist Bild 25A [Q2]. Die ersten Bilder (7A, 8A) waren „OK, sort of“ – zu viele Spiegelungen, zu viel im Fenster [Q1]. Erst als er zur Frau wechselte, wurde die Straße ruhiger und die Spiegelung verdeckte das Innere; Kalvar wollte jeden Kontext loswerden und nur die Frau zeigen, die eine Fremde berührt, die sie selbst ist [Q3]. 27A wäre nur „a funny little photograph“ gewesen [Q2].",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-richard-kalvar-woman-window/",
+     "title": "Magnum Photos: Making the Image – Richard Kalvar’s Woman in the Window",
+     "excerpt": "Frames 7A and 8A were OK, sort of, but ‘sort of’ wasn’t good enough: too many reflections, too much going on inside the window.",
+     "kind": "fotograf",
+     "author": "Richard Kalvar",
+     "translation_de": "Die Bilder 7A und 8A waren so halbwegs in Ordnung, aber halbwegs reichte nicht: zu viele Spiegelungen, zu viel los im Fenster."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-richard-kalvar-woman-window/",
+     "title": "Magnum Photos: Making the Image – Richard Kalvar’s Woman in the Window",
+     "excerpt": "And then bang! My persistence was rewarded when everything came together in frame 25A. I took a few more pictures, but they were mere aftershocks to the big earthquake. If I had wanted a funny little photograph of people looking through a window, frame 27A would have fit the bill.",
+     "kind": "fotograf",
+     "author": "Richard Kalvar",
+     "translation_de": "Und dann peng! Meine Beharrlichkeit wurde belohnt, als in Bild 25A alles zusammenkam. Ich machte noch ein paar Aufnahmen, aber das waren nur Nachbeben des großen Erdbebens. Hätte ich ein lustiges kleines Foto von Leuten gewollt, die durch ein Fenster schauen, hätte Bild 27A gereicht."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-richard-kalvar-woman-window/",
+     "title": "Magnum Photos: Making the Image – Richard Kalvar’s Woman in the Window",
+     "excerpt": "I wanted to lose all connection with the context, with stock market results and streets and other people, and isolate this woman shamelessly staring at and touching a stranger who was in fact herself.",
+     "kind": "fotograf",
+     "author": "Richard Kalvar",
+     "translation_de": "Ich wollte jede Verbindung zum Kontext loswerden – Börsenkurse, Straßen, andere Leute – und diese Frau isolieren, die schamlos eine Fremde anstarrt und berührt, die in Wahrheit sie selbst ist."
+    }
+   ]
+  },
+  {
+   "key": "bendiksen-satellite",
+   "photographer": "Jonas Bendiksen",
+   "title": "Villagers collecting scrap from a crashed spacecraft, Altai Territory",
+   "year": 2000,
+   "situation_de": "Altai-Region, Russland: Bauernjungen zerlegen die abgestürzte zweite Stufe einer Sojus-Rakete, umgeben von weißen Schmetterlingen. Bendiksen fotografierte ausnahmsweise auf Negativfilm [Q2][Q3].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/11/cortex/lon133985-scaled-1280x1498.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-jonas-bendiksens-crashed-satellite/",
+    "grid": "7×6",
+    "chosen_cell": "5,4",
+    "frame_label": "Bild über der Nummer 27 (5. Reihe, 4. Bild; rote Punkte auf dem 3. und 4. Bild der Reihe)",
+    "note": "Die ausgewählte Ansicht (Kapsel links, Zylinder mit zwei Männern oben) liegt in der 5. Reihe; die Zuordnung zum einzelnen Feld ist abgelesen."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/11/cortex/nyc37701-scaled-1280x856.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-jonas-bendiksens-crashed-satellite/"
+   },
+   "chosen": null,
+   "answer_de": "Aus der Grundansicht des späteren Titelbilds machte Bendiksen nur drei Auslösungen, insgesamt weniger als einen halben Film [Q1]; das gewählte Bild hatte er ausgeschnitten und den Rest des Bogens jahrelang nicht angesehen [Q2]. Meine Einschätzung: Der Bogen zeigt, wie er sich von Totalen der Kapsel und des Zylinders zu der Ansicht vorarbeitet, in der Kapsel, Zylinder, Jungen und Schmetterlinge zusammen im Bild stehen.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-jonas-bendiksens-crashed-satellite/",
+     "title": "Magnum Photos: Making the Image – Jonas Bendiksen’s Crashed Satellite",
+     "excerpt": "In total, I shot less than half a roll of film. From the basic angle and composition from which I got the final select, I clicked the shutter three times. That would not have happened today.",
+     "kind": "fotograf",
+     "author": "Jonas Bendiksen",
+     "translation_de": "Insgesamt habe ich weniger als einen halben Film belichtet. Aus dem Grundwinkel und der Komposition, aus der das endgültige Bild stammt, habe ich dreimal ausgelöst. Das wäre heute nicht mehr so."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-jonas-bendiksens-crashed-satellite/",
+     "title": "Magnum Photos: Making the Image – Jonas Bendiksen’s Crashed Satellite",
+     "excerpt": "I hadn’t looked at this contact sheet in years, as I’d cut out the chosen frame and left the rest in an archival box I hardly ever accessed.",
+     "kind": "fotograf",
+     "author": "Jonas Bendiksen",
+     "translation_de": "Ich hatte diesen Kontaktbogen jahrelang nicht angesehen, weil ich das ausgewählte Bild herausgeschnitten und den Rest in einer Archivbox gelassen hatte, die ich kaum je öffnete."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-jonas-bendiksens-crashed-satellite/",
+     "title": "Magnum Photos: Making the Image – Jonas Bendiksen’s Crashed Satellite",
+     "excerpt": "here we were in a cloud of white butterflies circling the remains of a Soyuz space rocket’s second stage, while local farm boys were gutting it for usable scrap metal.",
+     "kind": "fotograf",
+     "author": "Jonas Bendiksen",
+     "translation_de": "da standen wir in einer Wolke weißer Schmetterlinge um die Reste der zweiten Stufe einer Sojus-Rakete, während Bauernjungen aus der Gegend sie nach verwertbarem Altmetall ausweideten."
+    }
+   ]
+  },
+  {
+   "key": "steele-perkins-red-fuji",
+   "photographer": "Chris Steele-Perkins",
+   "title": "Road works and Fuji near Kawaguchiko (‘Red Fuji’)",
+   "year": 1999,
+   "situation_de": "Der Film beginnt mit Bildern von einer Fußgängerbrücke in Fuji City (Mobil-Tankstelle); auf dem Rückweg nach Tokio folgen nachts Langzeitbelichtungen an einer Baustelle mit roten Warnlichtern vor dem Fuji [Q5][Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/01/cortex/lon128225-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-red-mount-fuji-japan-chris-steele-perkins/",
+    "grid": "3×3 (Kontaktbogen mit Lücken)",
+    "chosen_cell": "3,3",
+    "frame_label": "rot umrandetes Bild unten rechts",
+    "note": "Oben fünf Bilder der Tankstelle von der Fußgängerbrücke, darunter rote, verwackelte Streifen der Baustellenlichter, unten rechts das gerahmte Fuji-Bild."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/01/cortex/lon15482-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-red-mount-fuji-japan-chris-steele-perkins/"
+   },
+   "chosen": null,
+   "answer_de": "Gewählt wurde die letzte Langzeitbelichtung (etwa drei Minuten) [Q2]; die ersten Fuji-Bilder an der Baustelle hatte er stärker verbelichtet, als er beim Fotografieren dachte [Q1]. Das Bild kam auf den Buchumschlag, weil man es nicht sofort deuten kann [Q3]. Zwei Bilder dieses Films kamen ins Buch [Q4]. Meine Einschätzung: Die Tankstellenbilder oben auf dem Bogen zeigen das „normale“ Reportagebild; gewählt wurde das rätselhafte.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-red-mount-fuji-japan-chris-steele-perkins/",
+     "title": "Magnum Photos: Making the Image – Red Fuji, Chris Steele-Perkins",
+     "excerpt": "On this sheet, for example, I didn’t realize that I’d messed up the exposures in the initial images of Fuji at the roadworks as much as I had done.",
+     "kind": "fotograf",
+     "author": "Chris Steele-Perkins",
+     "translation_de": "Auf diesem Bogen zum Beispiel hatte ich nicht gemerkt, wie sehr ich die Belichtungen der ersten Fuji-Bilder an der Baustelle verpatzt hatte."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-red-mount-fuji-japan-chris-steele-perkins/",
+     "title": "Magnum Photos: Making the Image – Red Fuji, Chris Steele-Perkins",
+     "excerpt": "I basically guessed the exposures. The final one was about three minutes.",
+     "kind": "fotograf",
+     "author": "Chris Steele-Perkins",
+     "translation_de": "Die Belichtungen habe ich im Grunde geraten. Die letzte dauerte etwa drei Minuten."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-red-mount-fuji-japan-chris-steele-perkins/",
+     "title": "Magnum Photos: Making the Image – Red Fuji, Chris Steele-Perkins",
+     "excerpt": "this image ended up on the cover of my book, because it’s the sort of picture that you don’t interpret immediately; you look at it and wonder, ‘What is it? What’s going on?’ I want that. It’s ambiguous, and hopefully it draws people in.",
+     "kind": "fotograf",
+     "author": "Chris Steele-Perkins",
+     "translation_de": "dieses Bild kam auf den Umschlag meines Buches, weil man es nicht sofort deutet; man schaut es an und fragt sich: „Was ist das? Was passiert hier?“ Das will ich. Es ist mehrdeutig und zieht die Leute hoffentlich hinein."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-red-mount-fuji-japan-chris-steele-perkins/",
+     "title": "Magnum Photos: Making the Image – Red Fuji, Chris Steele-Perkins",
+     "excerpt": "Two pictures from this roll of film made it into my Fuji book.",
+     "kind": "fotograf",
+     "author": "Chris Steele-Perkins",
+     "translation_de": "Zwei Bilder von diesem Film kamen in mein Fuji-Buch."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-red-mount-fuji-japan-chris-steele-perkins/",
+     "title": "Magnum Photos: Making the Image – Red Fuji, Chris Steele-Perkins",
+     "excerpt": "The first images on this contact sheet are taken from a footbridge in a part of Fuji City where my wife’s father had a restaurant.",
+     "kind": "fotograf",
+     "author": "Chris Steele-Perkins",
+     "translation_de": "Die ersten Bilder auf diesem Kontaktbogen entstanden von einer Fußgängerbrücke in einem Teil von Fuji City, wo der Vater meiner Frau ein Restaurant hatte."
+    }
+   ]
+  },
+  {
+   "key": "bischof-meiji-shrine",
+   "photographer": "Werner Bischof",
+   "title": "Courtyard of the Meiji shrine, Tokyo",
+   "year": 1951,
+   "situation_de": "Tokio 1951, Schnee im Garten des Meiji-Schreins. Der Bogen zeigt Baum- und Blattstudien im Schnee und einige Bilder des Hofs mit Mauer und Kiefern [Q1].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/11/cortex/par259691-1280x1511.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/",
+    "grid": "4×3",
+    "chosen_cell": "1,3",
+    "frame_label": "gelb markiertes Bild oben rechts",
+    "note": "Das markierte Feld oben rechts zeigt Mauer, Kiefern und zwei Gestalten im Schneetreiben; in der rechten Spalte darunter weitere Varianten des Hofs."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/11/cortex/par198428-1280x1079.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/"
+   },
+   "chosen": null,
+   "answer_de": "Gewählt ist das Bild mit den zwei Shinto-Priestern vor der Mauer. Laut Überlieferung lief Bischof den Priestern plötzlich nach und sagte danach: „Now I have the picture of Japan!“ [Q1]. Möglicherweise dachte er an Hasegawa Tōhakus Kiefern-Wandschirm [Q2]. Meine Einschätzung: Die Nachbarbilder in der rechten Spalte zeigen denselben Hof ohne Menschen – erst die beiden Figuren geben dem Bild Maßstab und Moment.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/",
+     "title": "Magnum Photos: Making the Image – Werner Bischof’s Snow-Draped Meiji Shrine (Eintrag aus „Magnum Contact Sheets“)",
+     "excerpt": "The story goes that he suddenly ran off and followed the priests. When he returned, he told Rosellina: ‘Now I have the picture of Japan!’ He realized the importance of his photograph immediately.",
+     "kind": "kurator",
+     "translation_de": "Man erzählt, er sei plötzlich losgelaufen und den Priestern gefolgt. Als er zurückkam, sagte er zu Rosellina: „Jetzt habe ich das Bild von Japan!“ Er erkannte die Bedeutung seines Fotos sofort."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/",
+     "title": "Magnum Photos: Making the Image – Werner Bischof’s Snow-Draped Meiji Shrine",
+     "excerpt": "It is also possible that he had in mind the famous screen painted by Master Hasegawa Tōhaku with a depiction of pine trees.",
+     "kind": "kurator",
+     "translation_de": "Möglicherweise hatte er auch den berühmten Wandschirm mit Kiefern von Meister Hasegawa Tōhaku im Kopf."
+    }
+   ]
+  },
+  {
+   "key": "power-dalmatian-warsaw",
+   "photographer": "Mark Power",
+   "title": "Warsaw, February 2005 (Dalmatian)",
+   "year": 2005,
+   "situation_de": "Warschau, Wohnsiedlung im Schnee; Power stellt sein Stativ an einem Rodelhügel auf, weil er zu früh für einen Termin ist [Q4].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/08/cortex/lon129312-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/mark-power-contact-sheets-warsaw-dalmatian/",
+    "grid": "2×2",
+    "chosen_cell": "2,2",
+    "frame_label": "rot markiertes Bild unten rechts",
+    "note": "Vier Großformat-Negative: oben eine Tischtennisplatte im Schnee und Bäume, unten zwei fast weiße Ansichten des Hügels; das Dalmatiner-Bild unten rechts ist rot markiert."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/08/cortex/lon67891-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/mark-power-contact-sheets-warsaw-dalmatian/"
+   },
+   "chosen": null,
+   "answer_de": "Gewählt ist das Bild, in dem der Dalmatiner im richtigen Moment stehen bleibt; vorher hatte Power auf Bild 687 noch Rodler [Q1]. Bei einer Sekunde Belichtung musste der Hund stillhalten [Q2]. Die Besitzerin am rechten Rand schneidet er im Abzug immer weg [Q3]. Meine Einschätzung: Gegenüber den Nachbarbildern ist das gewählte fast leer – der Hund ist der einzige Akzent.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/mark-power-contact-sheets-warsaw-dalmatian/",
+     "title": "Magnum Photos: Making the Image – Mark Power’s Dalmatian in Warsaw",
+     "excerpt": "You can see two of the people on sleds in frame 687. I then noticed, over to my right, a Dalmatian that appeared to be walking straight into the view.",
+     "kind": "fotograf",
+     "author": "Mark Power",
+     "translation_de": "Auf Bild 687 sieht man zwei der Rodler. Dann bemerkte ich rechts von mir einen Dalmatiner, der direkt ins Bild zu laufen schien."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/mark-power-contact-sheets-warsaw-dalmatian/",
+     "title": "Magnum Photos: Making the Image – Mark Power’s Dalmatian in Warsaw",
+     "excerpt": "It was quite dark, and the exposure would be one second, so, as it wandered across in front of me, I knew that unless it stopped there would be no picture. But stop it did, and in the right place, too.",
+     "kind": "fotograf",
+     "author": "Mark Power",
+     "translation_de": "Es war ziemlich dunkel, die Belichtung würde eine Sekunde dauern; als er vor mir entlanglief, wusste ich: Wenn er nicht stehen bleibt, gibt es kein Bild. Aber er blieb stehen – und zwar an der richtigen Stelle."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/mark-power-contact-sheets-warsaw-dalmatian/",
+     "title": "Magnum Photos: Making the Image – Mark Power’s Dalmatian in Warsaw",
+     "excerpt": "On the right you can see the owner just beginning to walk into the frame. She’s blurred, and in the print I always crop her out.",
+     "kind": "fotograf",
+     "author": "Mark Power",
+     "translation_de": "Rechts sieht man die Besitzerin, die gerade ins Bild zu laufen beginnt. Sie ist unscharf, und im Abzug schneide ich sie immer weg."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/mark-power-contact-sheets-warsaw-dalmatian/",
+     "title": "Magnum Photos: Making the Image – Mark Power’s Dalmatian in Warsaw",
+     "excerpt": "In the middle of the estate was a small hill, down which several people were sledding. We were a little early, so I set up my tripod to take a picture.",
+     "kind": "fotograf",
+     "author": "Mark Power",
+     "translation_de": "Mitten in der Siedlung lag ein kleiner Hügel, auf dem einige Leute rodelten. Wir waren etwas zu früh, also stellte ich mein Stativ für ein Bild auf."
+    }
+   ]
+  },
+  {
+   "key": "erwitt-bulldog",
+   "photographer": "Elliott Erwitt",
+   "title": "New York City (Bulldog)",
+   "year": 2000,
+   "situation_de": "Upper West Side: Erwitt sieht eine Frau mit Bulldogge auf einer Treppe, hat keine Kamera dabei und leiht sich die Leica von Hiroji Kubota; er verschießt den ganzen Film [Q1].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/01/cortex/lon108238-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/elliot-erwitt-bulldog-contact-sheet-print/",
+    "grid": "4×6 (darunter leere Streifen)",
+    "chosen_cell": "4,6",
+    "frame_label": "letztes Bild des Films, rot umrandet mit Pfeil",
+    "note": "Vier Reihen fast gleicher Treppenbilder; rechts unten das markierte letzte Bild."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/04/cortex/nyc15335-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/elliot-erwitt-bulldog-contact-sheet-print/"
+   },
+   "chosen": null,
+   "answer_de": "Gewählt ist das allerletzte Bild des Films: erst dort sind alle Elemente da – auch der zweite Hund links in derselben Haltung wie die Hund-Mensch-Figur [Q2]. Der Bogen zeigt, wie Erwitt die Situation methodisch umkreist; „It’s a lot of pictures getting to the good one.“ [Q3]",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/elliot-erwitt-bulldog-contact-sheet-print/",
+     "title": "Magnum Photos: Making the Image – Elliott Erwitt’s Bulldog in New York",
+     "excerpt": "I saw the situation and I said, “Could I borrow your camera?” And I borrowed his Leica. He was very generous and let me use it and I shot the whole roll of film on it.",
+     "kind": "fotograf",
+     "author": "Elliott Erwitt",
+     "translation_de": "Ich sah die Situation und fragte: „Kann ich mir deine Kamera leihen?“ Ich lieh mir seine Leica. Er war sehr großzügig, ließ mich damit arbeiten, und ich habe den ganzen Film verschossen."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/elliot-erwitt-bulldog-contact-sheet-print/",
+     "title": "Magnum Photos: Making the Image – Elliott Erwitt’s Bulldog in New York",
+     "excerpt": "By the very last picture on the roll, all the compositional and conceptual elements are in place, the absurdity of the image further supported by a second dog on the left sitting in exactly the same pose as the surreal dog-man composite.",
+     "kind": "kurator",
+     "translation_de": "Beim allerletzten Bild des Films sind alle kompositorischen und inhaltlichen Elemente beisammen; die Absurdität wird noch verstärkt durch einen zweiten Hund links, der genau in derselben Haltung sitzt wie die surreale Hund-Mensch-Figur."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/elliot-erwitt-bulldog-contact-sheet-print/",
+     "title": "Magnum Photos: Making the Image – Elliott Erwitt’s Bulldog in New York",
+     "excerpt": "The contact shows Erwitt’s patience, shooting around an image methodically until he has all the elements synchronized for maximum effect. As he says, ‘It’s a lot of pictures getting to the good one.’",
+     "kind": "kurator",
+     "translation_de": "Der Kontaktbogen zeigt Erwitts Geduld: Er fotografiert methodisch um ein Bild herum, bis alle Elemente für die größte Wirkung zusammenpassen. Wie er sagt: „Es sind viele Bilder bis zum guten.“"
+    }
+   ]
+  },
+  {
+   "key": "erwitt-mother-child",
+   "photographer": "Elliott Erwitt",
+   "title": "New York City (Mother and Child)",
+   "year": 1953,
+   "situation_de": "Familienfilm von 1953: Erwitts erste Frau, das neugeborene Kind, die Katze; dazwischen Bilder von Erwitt mit seiner Tochter und Alltagsszenen [Q1][Q2].",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2020/02/cortex/lon135134-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-mother-child-elliott-erwitt-portrait/",
+    "grid": "5×6",
+    "chosen_cell": "5,1",
+    "frame_label": "Bild Nr. 2, rot umrandet mit Pfeil",
+    "note": "Unterste Reihe links: Mutter schläft neben dem Baby, Katze links; außerdem markiert ist Bild 16 (Erwitt mit Kind auf dem Bett)."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/09/cortex/par42332-scaled-1280x823.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-mother-child-elliott-erwitt-portrait/"
+   },
+   "chosen": null,
+   "answer_de": "Auf dem ganzen Film gibt es laut Erwitt nur ein Bild, das sich zu drucken lohnt [Q1] – und nur ein einziges Bild der berühmten Szene [Q2]. Die Komposition: das Kind gerahmt von der Mutter rechts und der langgestreckten Katze links [Q3].",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-mother-child-elliott-erwitt-portrait/",
+     "title": "Magnum Photos: Making the Image – Mother and Child, Elliott Erwitt",
+     "excerpt": "‘These pictures were taken in 1953 and, as you can see, there is only one picture worth printing. They are all snapshots, including the one that’s worth printing.",
+     "kind": "fotograf",
+     "author": "Elliott Erwitt",
+     "translation_de": "„Diese Bilder entstanden 1953, und wie man sieht, lohnt sich nur eines zum Drucken. Es sind alles Schnappschüsse, auch das eine, das sich lohnt."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-mother-child-elliott-erwitt-portrait/",
+     "title": "Magnum Photos: Making the Image – Mother and Child, Elliott Erwitt",
+     "excerpt": "there is only one frame of the signature scene.",
+     "kind": "kurator",
+     "author": "Kristen Lubben",
+     "translation_de": "es gibt nur ein einziges Bild der berühmten Szene."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/contact-sheet-mother-child-elliott-erwitt-portrait/",
+     "title": "Magnum Photos: Making the Image – Mother and Child, Elliott Erwitt",
+     "excerpt": "a newborn child perfectly framed by her admiring mother on the right and the elongated form of a lounging cat on the left",
+     "kind": "kurator",
+     "author": "Kristen Lubben",
+     "translation_de": "ein Neugeborenes, perfekt gerahmt von der bewundernden Mutter rechts und der langgestreckten Form einer liegenden Katze links"
+    }
+   ]
+  },
+  {
+   "key": "mccurry-afghan-girl",
+   "photographer": "Steve McCurry",
+   "title": "Afghan Girl (Sharbat Gula)",
+   "year": 1984,
+   "situation_de": "1984 [Q4]: Sharbat Gula hält zuerst die Hände vor das Gesicht; auf Bitte ihrer Lehrerin nimmt sie sie herunter und schaut in die Kamera. Kurz danach geht sie weg [Q1][Q3].",
+   "frames": [
+    {
+     "image_url": "https://media.npr.org/assets/img/2015/07/26/afgrl_3_enl-4fa3bfd4e5cc1c08fb7a589fdb84d13411e12a27.jpg",
+     "source_url": "https://www.npr.org/2015/07/26/425659961/how-one-photographer-captured-a-piercing-gaze-that-shook-the-world",
+     "note": "Hände vor Mund und Nase, nur die Augen frei, rotes Tuch."
+    },
+    {
+     "image_url": "https://media.npr.org/assets/img/2015/07/26/afgrl_2_custom-109049c492b6d26b0e4b38d12f78dec39b7dea79.jpg",
+     "source_url": "https://www.npr.org/2015/07/26/425659961/how-one-photographer-captured-a-piercing-gaze-that-shook-the-world",
+     "note": "Hände unten, direkter Blick in die Kamera, grüner Hintergrund – das Titelbild."
+    }
+   ],
+   "chosen": 1,
+   "answer_de": "McCurry zeigte seinem Redakteur beide Fassungen; beim direkten Blick sprang der Redakteur auf: „There's our next cover“ [Q2]. Meine Einschätzung: Die Hände schützen und verbergen – das gewählte Bild gibt den Blick ganz frei und macht ihn zum einzigen Thema.",
+   "sources": [
+    {
+     "url": "https://www.npr.org/2015/07/26/425659961/how-one-photographer-captured-a-piercing-gaze-that-shook-the-world",
+     "title": "NPR: How One Photographer Captured A Piercing Gaze That Shook The World (2015)",
+     "excerpt": "Her teacher asked her to put her hands down so the world would see her face and know her story.",
+     "kind": "fotograf",
+     "author": "Steve McCurry (NPR)",
+     "translation_de": "Ihre Lehrerin bat sie, die Hände herunterzunehmen, damit die Welt ihr Gesicht sieht und ihre Geschichte kennt."
+    },
+    {
+     "url": "https://www.npr.org/2015/07/26/425659961/how-one-photographer-captured-a-piercing-gaze-that-shook-the-world",
+     "title": "NPR: How One Photographer Captured A Piercing Gaze That Shook The World",
+     "excerpt": "McCurry showed two versions to his editor at National Geographic: The first was Gula covering her face, and the other was her staring directly into his lens.",
+     "kind": "kritik",
+     "translation_de": "McCurry zeigte seinem Redakteur bei National Geographic zwei Fassungen: In der ersten verdeckt Gula ihr Gesicht, in der anderen schaut sie direkt in sein Objektiv."
+    },
+    {
+     "url": "https://www.npr.org/2015/07/26/425659961/how-one-photographer-captured-a-piercing-gaze-that-shook-the-world",
+     "title": "NPR: How One Photographer Captured A Piercing Gaze That Shook The World",
+     "excerpt": "Just as soon as he captured a few images, she got up and left to chat with her friends.",
+     "kind": "kritik",
+     "translation_de": "Kaum hatte er ein paar Bilder gemacht, stand sie auf und ging zu ihren Freundinnen."
+    },
+    {
+     "url": "https://www.npr.org/2015/07/26/425659961/how-one-photographer-captured-a-piercing-gaze-that-shook-the-world",
+     "title": "NPR: How One Photographer Captured A Piercing Gaze That Shook The World",
+     "excerpt": "McCurry says that brief moment with Sharbat Gula in 1984 changed his life.",
+     "kind": "kritik",
+     "translation_de": "McCurry sagt, dieser kurze Moment mit Sharbat Gula 1984 habe sein Leben verändert."
+    }
+   ]
+  },
+  {
+   "key": "erwitt-chihuahua",
+   "photographer": "Elliott Erwitt",
+   "title": "Chihuahua, New York City",
+   "year": 1946,
+   "situation_de": "Straßenszene in New York: zwei Frauen, eine hält einen Chihuahua im Arm; später steht der Hund auf dem Gehweg neben den Schuhen seiner Besitzerin.",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/nn11452218-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+    "grid": "3×4 (vier Filmstreifen senkrecht)",
+    "chosen_cell": "1,3",
+    "frame_label": "rot umrandetes Bild mit Pfeil (Hund und Schuhe)",
+    "note": "Linke Spalten: Frauen mit Hund vor dem Drugstore (eines rot umrandet); rechte Spalten: Hund und Beine aus Bodenhöhe, oben das markierte Bild."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/par42295-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/"
+   },
+   "chosen": null,
+   "answer_de": "Gewählt ist ein Bild aus der zweiten Hälfte: Erwitt „reframes“ den Hund mit den Schuhen seiner Besitzerin [Q1]. Die Markierungen zeigen, wie die Auswahl über mehrere Durchgänge geschärft wurde [Q2]. Meine Einschätzung: Der Wechsel in Bodenhöhe macht aus einer Porträtszene ein Größenverhältnis – Hund und Schuh auf Augenhöhe.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image (2016)",
+     "excerpt": "we see Elliott Erwitt’s playful eye come through, as he reframes a now-iconic dog with the shoes of its owners on a street in New York.",
+     "kind": "kurator",
+     "author": "Anne Bourgeois-Vignon",
+     "translation_de": "man sieht Elliott Erwitts verspielten Blick, wenn er einen heute ikonischen Hund mit den Schuhen seiner Besitzer auf einer New Yorker Straße neu rahmt."
+    },
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image",
+     "excerpt": "Then, the edit marks come in, layered and superimposed, showing how the image choices were honed and refined with returns to the sheet.",
+     "kind": "kurator",
+     "translation_de": "Dann kommen die Auswahlmarkierungen, übereinander geschichtet, und zeigen, wie die Bildwahl bei wiederholter Rückkehr zum Bogen geschärft und verfeinert wurde."
+    }
+   ]
+  },
+  {
+   "key": "parr-last-resort",
+   "photographer": "Martin Parr",
+   "title": "New Brighton, from ‘The Last Resort’",
+   "year": "1983–85",
+   "situation_de": "New Brighton bei Liverpool, Mitte der 1980er: Parr fotografiert in Farbe Familien im Seebad; der Bogen zeigt Mittelformatbilder aus einem Café.",
+   "sheet": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/lon56465-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+    "grid": "4×2",
+    "chosen_cell": "2,2",
+    "frame_label": "rot umrandetes Bild (2. Reihe rechts)",
+    "note": "Acht Bilder aus einem Imbiss: Kinder an der Theke, Frau mit verschränkten Armen; markiert ist das Bild in der zweiten Reihe rechts."
+   },
+   "published": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/07/cortex/lon6977-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/"
+   },
+   "chosen": null,
+   "answer_de": "Magnum zeigt den Bogen als „Last Resort contact sheet containing one of Martins most famous Images“ [Q1]. Meine Einschätzung: Die Nachbarbilder zeigen dieselbe Theke, aber erst im gewählten Bild stehen die Frau im Vordergrund und die Kinder dahinter in klarer Staffelung.",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/magnum-photographers-contact-sheets-the-images-behind-the-image/",
+     "title": "Magnum Photos: Contact Sheets – The Images Behind the Image",
+     "excerpt": "Martin Parr Last Resort contact sheet containing one of Martins most famous Images.",
+     "kind": "kurator"
+    }
+   ]
+  }
+ ],
+ "versions": [
+  {
+   "key": "lange-migrant-mother-thumb",
+   "photographer": "Dorothea Lange",
+   "title": "Migrant Mother – unretuschierter Abzug vs. retuschiertes Negativ",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/12800/12883v.jpg",
+    "source_url": "https://www.loc.gov/item/2017762891/",
+    "label_de": "Früher Abzug (LC-DIG-ppmsca-12883), vor der Retusche: rechts unten ein Daumen an der Zeltstange."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b29000/8b29500/8b29516v.jpg",
+    "source_url": "https://www.loc.gov/item/2017762891/",
+    "label_de": "Originalnegativ LC-USF34-9058-C nach der Retusche: der Daumen ist entfernt."
+   },
+   "published": "b",
+   "difference_de": "Das Negativ wurde in den 1930er-Jahren retuschiert, um den Daumen an der Zeltstange rechts unten zu entfernen [Q1]; der frühere Abzug zeigt ihn noch [Q2]. Meine Einschätzung: Ein winziger Eingriff am Rand – das Auge sucht den Daumen erst, wenn man ihn kennt, aber er stört die geschlossene Form der Gruppe.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2017762891/",
+     "title": "Library of Congress, Katalogeintrag LC-USF34-009058-C",
+     "excerpt": "The negative was retouched in the 1930s to erase the thumb holding a tent pole in lower right hand corner.",
+     "kind": "museum",
+     "translation_de": "Das Negativ wurde in den 1930er-Jahren retuschiert, um den Daumen zu entfernen, der rechts unten eine Zeltstange hält."
+    },
+    {
+     "url": "https://guides.loc.gov/migrant-mother/images",
+     "title": "Library of Congress Research Guide: Migrant Mother Series of Images",
+     "excerpt": "Note: This is an unretouched version of image #1, and shows a thumb in the immediate foreground on the right side.",
+     "kind": "museum",
+     "translation_de": "Hinweis: Dies ist eine unretuschierte Fassung von Bild 1; sie zeigt einen Daumen im unmittelbaren Vordergrund rechts."
+    }
+   ]
+  },
+  {
+   "key": "adams-moonrise-prints",
+   "photographer": "Ansel Adams",
+   "title": "Moonrise, Hernandez, New Mexico – früher und später Abzug",
+   "a": {
+    "image_url": "https://www.artic.edu/iiif/2/89cafe4b-09fb-93ac-d702-34cf2332999e/full/843,/0/default.jpg",
+    "source_url": "https://www.artic.edu/artworks/76934",
+    "label_de": "Abzug im Art Institute of Chicago, datiert 1941 (Inventar 1952.203): Himmel mit Wolkenstruktur, heller Wolkenstreifen über den Bergen."
+   },
+   "b": {
+    "image_url": "https://www.artic.edu/iiif/2/d6816499-e31d-d203-e557-b89494930560/full/843,/0/default.jpg",
+    "source_url": "https://www.artic.edu/artworks/59992",
+    "label_de": "Abzug „1941, printed c. 1975“ im Art Institute of Chicago: fast schwarzer Himmel, Mond und Kreuze heben sich stärker ab."
+   },
+   "published": null,
+   "difference_de": "Dasselbe Negativ, zwei Interpretationen: Frühe Abzüge zeigen viele zarte Wolken und ein helles Band über den Bergen; Adams druckte das Bild im Lauf seines Lebens immer kontrastreicher, die späten Abzüge haben einen schwarzen Himmel [Q1]. Er interpretierte das Foto mit einem immer dunkleren Himmel neu [Q2].",
+   "sources": [
+    {
+     "url": "https://www.sothebys.com/en/auctions/ecatalogue/2006/photographs-n08227/lot.17.html",
+     "title": "Sotheby’s, Photographs (New York 2006), Lot 17: Ansel Adams, Moonrise, Hernandez, New Mexico",
+     "excerpt": "The tonal qualities of the few prints Adams made of Moonrise during the 1940s differ from those made later. Early prints show numerous wispy clouds in the sky, in addition to a lustrous band of white above the mountains. Adams printed this image with greater and greater contrast throughout his career, and his last prints show a dark black sky, differing radically from the more open, gray sky in the present print.",
+     "kind": "kurator",
+     "translation_de": "Die Tonwerte der wenigen Abzüge von Moonrise aus den 1940er-Jahren unterscheiden sich von späteren. Frühe Abzüge zeigen viele zarte Wolken und ein glänzend weißes Band über den Bergen. Adams druckte das Bild im Lauf seiner Karriere mit immer mehr Kontrast; seine letzten Abzüge haben einen tiefschwarzen Himmel, radikal anders als der offenere, graue Himmel dieses Abzugs."
+    },
+    {
+     "url": "https://petapixel.com/2018/11/07/the-story-behind-ansel-adams-iconic-moonrise-hernandez/",
+     "title": "PetaPixel: The Story Behind Ansel Adams’ Iconic ‘Moonrise, Hernandez’ (2018)",
+     "excerpt": "Over time, Adams reinterpreted the photo by printing it with a darker and darker sky, bringing out both the moon in the background and the crosses in the foreground.",
+     "kind": "kritik",
+     "translation_de": "Mit der Zeit interpretierte Adams das Foto neu, indem er es mit immer dunklerem Himmel druckte und so den Mond im Hintergrund und die Kreuze im Vordergrund hervorhob."
+    }
+   ]
+  },
+  {
+   "key": "power-dalmatian-crop",
+   "photographer": "Mark Power",
+   "title": "Warsaw, February 2005 – Negativ und beschnittener Abzug",
+   "a": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/08/cortex/lon129312-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/mark-power-contact-sheets-warsaw-dalmatian/",
+    "label_de": "Kontaktbogen: das Dalmatiner-Negativ (unten rechts, rot markiert) im vollen Format."
+   },
+   "b": {
+    "image_url": "https://www.magnumphotos.com/wp-content/uploads/2019/08/cortex/lon67891-teaser-story-big.jpg",
+    "source_url": "https://www.magnumphotos.com/theory-and-practice/mark-power-contact-sheets-warsaw-dalmatian/",
+    "label_de": "Abzug: Dalmatiner zwischen Laterne und jungen Bäumen im Schnee."
+   },
+   "published": "b",
+   "difference_de": "Am rechten Rand des Negativs läuft die Besitzerin unscharf ins Bild; im Abzug schneidet Power sie immer weg [Q1].",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/mark-power-contact-sheets-warsaw-dalmatian/",
+     "title": "Magnum Photos: Making the Image – Mark Power’s Dalmatian in Warsaw",
+     "excerpt": "On the right you can see the owner just beginning to walk into the frame. She’s blurred, and in the print I always crop her out.",
+     "kind": "fotograf",
+     "author": "Mark Power",
+     "translation_de": "Rechts sieht man die Besitzerin, die gerade ins Bild zu laufen beginnt. Sie ist unscharf, und im Abzug schneide ich sie immer weg."
+    }
+   ]
+  },
+  {
+   "key": "fenton-valley-on-off",
+   "photographer": "Roger Fenton",
+   "title": "The Valley of the Shadow of Death – „OFF“ und „ON“",
+   "a": {
+    "image_url": "https://static01.nyt.com/images/2007/09/21/opinion/21morris_OFF.533.jpg",
+    "source_url": "https://archive.nytimes.com/opinionator.blogs.nytimes.com/2007/09/25/which-came-first-the-chicken-or-the-egg-part-one/",
+    "label_de": "„OFF“: Kanonenkugeln liegen links neben der Straße und im Graben, die Fahrbahn ist frei (Abzug im Harry Ransom Center, Reproduktion bei Errol Morris)."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/35500/35546v.jpg",
+    "source_url": "https://www.loc.gov/item/2001698869/",
+    "label_de": "„ON“: Kanonenkugeln liegen verstreut auf der Straße selbst (Abzug der Library of Congress)."
+   },
+   "published": "b",
+   "difference_de": "Fenton machte zwei Aufnahmen vom selben Stativstandpunkt; auf der einen liegen die Kugeln neben, auf der anderen auf der Straße – die zweite ist die immer reproduzierte [Q1]. Morris nennt sie „OFF“ und „ON“ und fragt, woher man die Reihenfolge überhaupt kennt [Q2]. Meine Einschätzung: Gute Übung, weil nur ein einziges Detail wechselt – und genau dieses Detail entscheidet über Wirkung und Glaubwürdigkeit.",
+   "sources": [
+    {
+     "url": "https://archive.nytimes.com/opinionator.blogs.nytimes.com/2007/09/25/which-came-first-the-chicken-or-the-egg-part-one/",
+     "title": "Errol Morris: Which Came First, the Chicken or the Egg? (Part One), New York Times Opinionator, 2007 – zitiert Susan Sontag",
+     "excerpt": "Fenton made two exposures from the same tripod position: in the first version of the celebrated photo he was to call “The Valley of the Shadow of Death”(despite the title, it was not across this landscape, that the Light Brigade made its doomed charge), the cannonballs are thick on the ground to the left of the road, but before taking the second picture – the one that is always reproduced – he oversaw the scattering of the cannonballs on the road itself.",
+     "kind": "kritik",
+     "author": "Susan Sontag (zitiert von Errol Morris)",
+     "translation_de": "Fenton machte zwei Aufnahmen vom selben Stativstandpunkt: In der ersten Fassung liegen die Kanonenkugeln dicht links neben der Straße, doch vor der zweiten Aufnahme – der, die immer reproduziert wird – ließ er die Kugeln auf der Straße selbst verteilen."
+    },
+    {
+     "url": "https://archive.nytimes.com/opinionator.blogs.nytimes.com/2007/09/25/which-came-first-the-chicken-or-the-egg-part-one/",
+     "title": "Errol Morris: Which Came First, the Chicken or the Egg? (Part One)",
+     "excerpt": "How did Sontag know the sequence of the photographs? How did she know which photograph came first, OFF or ON?",
+     "kind": "kritik",
+     "author": "Errol Morris",
+     "translation_de": "Woher kannte Sontag die Reihenfolge der Fotos? Woher wusste sie, welches zuerst entstand, OFF oder ON?"
+    }
+   ]
+  },
+  {
+   "key": "day-boy-crop",
+   "photographer": "F. Holland Day",
+   "title": "Boy in unbuttoned shirt – Abzug und beschnittene Fassung",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cns/00300/00332v.jpg",
+    "source_url": "https://www.loc.gov/item/98501720/",
+    "label_de": "Abzug Nr. 332: Junge im offenen Hemd im Halbdunkel, mehr Raum um Kopf und Schulter."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cns/00300/00333v.jpg",
+    "source_url": "https://www.loc.gov/item/2002706893/",
+    "label_de": "Nr. 333: beschnittene Fassung desselben Bildes, enger um Gesicht und Schulter, Hochformat."
+   },
+   "published": null,
+   "difference_de": "Die Library of Congress verzeichnet Nr. 333 als „Cropped version of no. 332“ [Q1]. Meine Einschätzung: Der engere Ausschnitt nimmt dem Dunkel rundherum Raum – das Gesicht wird größer, die Stimmung des Halbdunkels schwächer.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2002706893/",
+     "title": "Library of Congress, Katalogeintrag [Boy in unbuttoned shirt (cropped)], Louise Imogen Guiney Collection",
+     "excerpt": "Cropped version of no. 332.",
+     "kind": "museum",
+     "translation_de": "Beschnittene Fassung von Nr. 332."
+    }
+   ]
+  },
+  {
+   "key": "hesler-masters-lincoln",
+   "photographer": "Alexander Hesler",
+   "title": "Abraham Lincoln, Chicago 1857 – Original und „Masters-Porträt“",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a30000/3a36000/3a36900/3a36988v.jpg",
+    "source_url": "https://www.loc.gov/item/98504484/",
+    "label_de": "Hesler-Porträt von 1857: Lincoln nach rechts blickend, zerzaustes Haar, ovale Vignette."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a20000/3a25000/3a25400/3a25450r.jpg",
+    "source_url": "https://www.loc.gov/item/2013648759/",
+    "label_de": "Vom Studio Masters vertriebene Fassung: seitenverkehrt (Blick nach links) und retuschiert, Haar geglättet."
+   },
+   "published": null,
+   "difference_de": "Die „Masters“-Fassung ist eine seitenverkehrte, retuschierte Kopie von Heslers Aufnahme und wurde so viel verkauft, dass sie als bekanntestes gefälschtes Lincoln-Foto gilt [Q1]. Meine Einschätzung: Spiegelung und Retusche verändern den Charakter – aus dem wilden Haar wird ein gepflegter Kopf.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2013648759/",
+     "title": "Library of Congress, Katalogeintrag: Reversed and retouched copy of photo by Alexander Hesler (zitiert Ostendorf, Lincoln’s Photographs, S. 258)",
+     "excerpt": "So extensive were the sales of the Masters portrait, a reversed and retouched copy of Hesler's likeness, that it has become the best known of Lincoln faked photographs.",
+     "kind": "museum",
+     "translation_de": "Das Masters-Porträt, eine seitenverkehrte und retuschierte Kopie von Heslers Bildnis, verkaufte sich so stark, dass es zum bekanntesten gefälschten Lincoln-Foto wurde."
+    }
+   ]
+  },
+  {
+   "key": "gardner-antietam-crop",
+   "photographer": "Alexander Gardner",
+   "title": "President Lincoln on Battle-field of Antietam – Gruppe und Ausschnitt",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3g10000/3g10000/3g10100/3g10198v.jpg",
+    "source_url": "https://www.loc.gov/item/2002713085/",
+    "label_de": "Volle Gruppe vor dem Zelt (Sketch Book Nr. 23): Lincoln mit McClellan und zahlreichen Offizieren, viel Umgebung."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a00000/3a05000/3a05900/3a05990r.jpg",
+    "source_url": "https://www.loc.gov/item/98504543/",
+    "label_de": "Beschnittene Fassung, Hochformat: Lincoln und die Offiziere um McClellan füllen das Bild."
+   },
+   "published": null,
+   "difference_de": "Die Library of Congress führt die zweite Fassung als „cropped version that highlights McLellan and Lincoln“ [Q1]; die volle Aufnahme zeigt Lincoln mit McClellan und vielen Offizieren vor einem Zelt [Q2]. Meine Einschätzung: Der Ausschnitt macht aus einem Gruppenbild ein Begegnungsbild.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/98504543/",
+     "title": "Library of Congress, Katalogeintrag 98504543",
+     "excerpt": "[Abraham Lincoln on battlefield at Antietam, Maryland, cropped version that highlights McLellan and Lincoln]",
+     "kind": "museum",
+     "translation_de": "[Abraham Lincoln auf dem Schlachtfeld von Antietam, beschnittene Fassung, die McClellan und Lincoln hervorhebt]"
+    },
+    {
+     "url": "https://www.loc.gov/item/2002713085/",
+     "title": "Library of Congress, Katalogeintrag 2002713085",
+     "excerpt": "Lincoln is posed standing by a chair and facing McClellan with other Union Army officers grouped outside a tent.",
+     "kind": "museum",
+     "translation_de": "Lincoln steht neben einem Stuhl, McClellan zugewandt, mit weiteren Offizieren der Unionsarmee vor einem Zelt."
+    }
+   ]
+  },
+  {
+   "key": "grant-city-point-composite",
+   "photographer": "Levin C. Handy",
+   "title": "General Grant at City Point – Montage (laut LoC vermutlich von L. C. Handy) und Quellbild",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cwpb/04400/04407v.jpg",
+    "source_url": "https://www.loc.gov/item/2018667429/",
+    "label_de": "Glasnegativ (LC-B8175-2): Grant an einen Baum gelehnt vor seinem Hauptquartier in Cold Harbor, 1864."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/15800/15886v.jpg",
+    "source_url": "https://www.loc.gov/item/2007681056/",
+    "label_de": "„General Grant at City Point“ (1902): Reiter vor einem Lager mit Gefangenen – eine Montage."
+   },
+   "published": "b",
+   "difference_de": "Das Bild „General Grant at City Point“ ist eine Montage aus drei Aufnahmen: Kopf von Grant aus Cold Harbor, Pferd und Körper von General McCook, Hintergrund von Konföderierten-Gefangenen bei Fisher’s Hill [Q1]. Meine Einschätzung: Zum Vergleich passt das Quellbild des Kopfes – Haltung und Licht des Gesichts verraten den Fremdkörper auf dem Reiter.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2007681056/",
+     "title": "Library of Congress, Katalogeintrag 2007681056 (gezeigt in „Faking It: Manipulated Photography Before Photoshop“, Metropolitan Museum 2012)",
+     "excerpt": "This photograph is a montage or composite of several images and does not actually show General Ulysses S. Grant at City Point. Three photos provided different parts of the portrait.",
+     "kind": "museum",
+     "translation_de": "Dieses Foto ist eine Montage aus mehreren Bildern und zeigt General Ulysses S. Grant nicht wirklich in City Point. Drei Fotos lieferten verschiedene Teile des Porträts."
+    }
+   ]
+  },
+  {
+   "key": "grant-cold-harbor-crop",
+   "photographer": "Egbert Guy Fowx",
+   "title": "General Ulysses S. Grant at his headquarters in Cold Harbor – Negativ und Abzug",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cwpb/04400/04407v.jpg",
+    "source_url": "https://www.loc.gov/item/2018667429/",
+    "label_de": "Originales Glasnegativ (LC-B8175-2) mit abgebrochener Ecke oben links, weiter Ausschnitt mit Zelt."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3a00000/3a02000/3a02600/3a02668v.jpg",
+    "source_url": "https://www.loc.gov/item/2002736661/",
+    "label_de": "Abzug mit anderem Ausschnitt: enger um Grant, Baum und Stuhl."
+   },
+   "published": "b",
+   "difference_de": "Die Library of Congress verweist beim bekannten Abzug auf das „orig. glass negative with different cropping“ [Q1]. Meine Einschätzung: Der Abzug schneidet die beschädigte Ecke und Teile des Zelts weg und rückt Grant mit Baum und Stuhl ins Zentrum.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2002736661/",
+     "title": "Library of Congress, Katalogeintrag 2002736661",
+     "excerpt": "See also: LC-B8175-2, orig. glass negative with different cropping, LC-DIG-cwpb-04407.",
+     "kind": "museum",
+     "translation_de": "Siehe auch: LC-B8175-2, Original-Glasnegativ mit anderem Ausschnitt, LC-DIG-cwpb-04407."
+    }
+   ]
+  },
+  {
+   "key": "prokudin-gorskii-emir",
+   "photographer": "Sergei Prokudin-Gorskii",
+   "title": "Ėmir Bukharskīĭ (Alim Khan), Bukhara – Glasplatte und Farbkomposit",
+   "a": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/prok/01800/01887v.jpg",
+    "source_url": "https://www.loc.gov/item/2018680327/",
+    "label_de": "Glasnegativ: drei Schwarzweißbilder untereinander, aufgenommen durch Farbfilter."
+   },
+   "b": {
+    "image_url": "https://tile.loc.gov/storage-services/service/pnp/prokc/21800/21887v.jpg",
+    "source_url": "https://www.loc.gov/item/2018680327/",
+    "label_de": "Digitales Farbkomposit von 2004 aus den drei Teilbildern, mit farbigen Rändern, wo die Teilbilder nicht deckungsgleich sind."
+   },
+   "published": null,
+   "difference_de": "Das Negativ enthält drei Schwarzweißbilder, aufgenommen durch Farbauszugsfilter [Q1]; die Farbfassung ist ein modernes digitales Komposit von 2004 [Q1][Q2]. Beim Zusammensetzen wird das Bild auf die Fläche beschnitten, die alle drei Ebenen gemeinsam haben [Q3]. Meine Einschätzung: Die Farbsäume am Rand zeigen, dass die drei Teilbilder nacheinander belichtet wurden.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/collections/prokudin-gorskii/about-this-collection/",
+     "title": "Library of Congress: Prokudin-Gorskii Collection – About this Collection",
+     "excerpt": "Glass negatives: 1,902 b&w triple-frame images made with color separation filters",
+     "kind": "museum",
+     "translation_de": "Glasnegative: 1.902 schwarzweiße Dreifachbilder, aufgenommen mit Farbauszugsfiltern"
+    },
+    {
+     "url": "https://www.loc.gov/item/2018680327/",
+     "title": "Library of Congress, Katalogeintrag 2018680327",
+     "excerpt": "Digital color composite made for the Library by Blaise Agüera y Arcas, 2004.",
+     "kind": "museum",
+     "translation_de": "Digitales Farbkomposit, 2004 von Blaise Agüera y Arcas für die Library angefertigt."
+    },
+    {
+     "url": "https://www.loc.gov/exhibits/empire/making.html",
+     "title": "Library of Congress Exhibition: The Empire That Was Russia – Making Color Images",
+     "excerpt": "The RGB (Red, Green, Blue) color composite is cropped to eliminate all but the photographic area shared in common by all three layers.",
+     "kind": "museum",
+     "translation_de": "Das RGB-Farbkomposit wird so beschnitten, dass nur die Bildfläche bleibt, die alle drei Ebenen gemeinsam haben."
+    }
+   ]
+  }
+ ],
+ "sequences": [
+  {
+   "key": "gardner-sketch-book-gettysburg",
+   "photographer": "Alexander Gardner",
+   "book": "Gardner’s Photographic Sketch Book of the War, Bd. 1 (1865–66), Tafeln 35–41 (Gettysburg)",
+   "images": [
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/12500/12556v.jpg",
+     "source_url": "https://www.loc.gov/item/2006685383/",
+     "title": "Nr. 35: Gettysburg, Pennsylvania / negative by T.H. O'Sullivan ; positive by A. Gardner."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/12500/12557v.jpg",
+     "source_url": "https://www.loc.gov/item/2006685384/",
+     "title": "Nr. 36: A harvest of death, Gettysburg, Pennsylvania / negative by T.H. O'Sullivan; positive by A Gardner."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/12500/12558v.jpg",
+     "source_url": "https://www.loc.gov/item/2006685385/",
+     "title": "Nr. 37: Field where General Reynolds fell, Gettysburg / negative by T.H. O'Sullivan; positive by A. Gardner."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/12500/12559v.jpg",
+     "source_url": "https://www.loc.gov/item/2006685386/",
+     "title": "Nr. 38: Interior of breastworks on Round Top, Gettysburg / negative by T.H. O'Sullivan; positive by A Gardner."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/12500/12560v.jpg",
+     "source_url": "https://www.loc.gov/item/2006692500/",
+     "title": "Nr. 39: Gateway of cemetery, Gettysburg / negative by T.H. O'Sullivan; positive by A Gardner."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/12500/12561v.jpg",
+     "source_url": "https://www.loc.gov/item/2006692501/",
+     "title": "Nr. 40: A sharpshooter's last sleep, Gettysburg, Pennsylvania / Alex. Gardner, photographer."
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/12500/12562v.jpg",
+     "source_url": "https://www.loc.gov/item/2006692502/",
+     "title": "Nr. 41: Home of a rebel sharpshooter / Alex. Gardner, photographer."
+    }
+   ],
+   "answer_de": "Die Library of Congress verzeichnet bei jedem Abzug die Tafelnummer im Sketch Book [Q1][Q2][Q3]. Die Gettysburg-Folge beginnt mit einer Ansicht des Orts (Nr. 35) und „A Harvest of Death“ (Nr. 36), endet in diesem Ausschnitt mit den beiden Scharfschützen-Bildern Nr. 40 und 41 – derselbe Tote an zwei Orten, direkt hintereinander. Meine Einschätzung: Die Reihenfolge erzählt vom Überblick zum Einzelschicksal.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2006685383/",
+     "title": "Library of Congress, Katalogeintrag 2006685383",
+     "excerpt": "Illus. in:  Gardner's photographic sketch book of the war / Alexander Gardner. Washington, D.C. : Philp & Solomons, [c1866], v. 1, no. 35.",
+     "kind": "museum"
+    },
+    {
+     "url": "https://www.loc.gov/item/2006685384/",
+     "title": "Library of Congress, Katalogeintrag 2006685384",
+     "excerpt": "Illus. in:  Gardner's photographic sketch book of the war / Alexander Gardner. Washington, D.C. : Philp & Solomons, [c1866], v. 1, no. 36.",
+     "kind": "museum"
+    },
+    {
+     "url": "https://www.loc.gov/item/2006692502/",
+     "title": "Library of Congress, Katalogeintrag 2006692502",
+     "excerpt": "Illus. in:  Gardner's photographic sketch book of the war / Alexander Gardner. Washington, D.C. : Philp & Solomons, [c1866], v. 1, no. 41.",
+     "kind": "museum"
+    }
+   ]
+  },
+  {
+   "key": "prokudin-gorskii-seliger",
+   "photographer": "Sergei Prokudin-Gorskii",
+   "book": "Album „Views along the upper Volga River, from its source in the Valdai Hills to Kalyazin“ (LOT 10339), Nr. 31–38: Seliger-See und Kloster Nilow",
+   "images": [
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/prokc/21100/21122v.jpg",
+     "source_url": "https://www.loc.gov/item/2018680363/",
+     "title": "Nr. 31: Naberezhnai︠a︡ ozera Seliger \"Rybat︠s︡kīi︠a︡ poselenīi︠a︡ na oz. Seliger\""
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/prokc/21200/21217v.jpg",
+     "source_url": "https://www.loc.gov/item/2018680364/",
+     "title": "Nr. 32: Sushka si︠e︡teĭ na oz. Seliger"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/prokc/21100/21108v.jpg",
+     "source_url": "https://www.loc.gov/item/2018680365/",
+     "title": "Nr. 33: Vid s ostrova Gorodovni︠a︡ na Monastyrʹ Pr. Nila Stolbenskago. [ozero Seliger]"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/prok/02300/02330v.jpg",
+     "source_url": "https://www.loc.gov/item/2018680366/",
+     "title": "Nr. 34: Monastyrʹ Pr. Nila Stolbenskago s si︠e︡vera. [ozero Seliger]"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/prokc/21100/21109v.jpg",
+     "source_url": "https://www.loc.gov/item/2018680367/",
+     "title": "Nr. 35: Obshchīĭ vid Nilovoĭ pustyni ot der. Peski. [ozero Seliger]"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/prokc/21100/21110v.jpg",
+     "source_url": "https://www.loc.gov/item/2018680368/",
+     "title": "Nr. 36: Vid monastyri︠a︡ Pr. Nila [Stolbenskago] s vostoka. [ozero Seliger]"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/prokc/21100/21111v.jpg",
+     "source_url": "https://www.loc.gov/item/2018680369/",
+     "title": "Nr. 37: Glavnyĭ korpus monastyri︠a︡ Pr. Nila Stolbenskago. [ozero Seliger]]"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/prokc/21100/21112v.jpg",
+     "source_url": "https://www.loc.gov/item/2018680370/",
+     "title": "Nr. 38: Vkhod v ogradu Nilovoĭ pustyni. [Monastyri︠a︡ Pr. Nila Stolbenskago, ozero Seliger]"
+    }
+   ],
+   "answer_de": "Jede Reise Prokudin-Gorskiis ist durch ein Album mit zugehörigen Negativen belegt [Q1]; die Katalogeinträge nennen die Albumnummer jedes Bildes [Q2][Q3]. Die Folge Nr. 31–38 führt vom Ufer und den Fischern (Netze trocknen) über Fernansichten des Klosters von verschiedenen Seiten bis an den Eingang der Klostermauer. Meine Einschätzung: klassische Annäherung – Ort, Totale aus mehreren Richtungen, dann Detail.",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/collections/prokudin-gorskii/about-this-collection/",
+     "title": "Library of Congress: Prokudin-Gorskii Collection – About this Collection",
+     "excerpt": "Each journey made by Prokudin-Gorskii is represented by a photographic album and corresponding negatives.",
+     "kind": "museum",
+     "translation_de": "Jede Reise Prokudin-Gorskiis ist durch ein Fotoalbum und die zugehörigen Negative vertreten."
+    },
+    {
+     "url": "https://www.loc.gov/item/2018680363/",
+     "title": "Library of Congress, Katalogeintrag 2018680363",
+     "excerpt": "Corresponding photographic print is in album: Views along the upper Volga River, from its source in the Valdai Hills to Kalyazin, Russian Empire, LOT 10339, no. 31.",
+     "kind": "museum"
+    },
+    {
+     "url": "https://www.loc.gov/item/2018680370/",
+     "title": "Library of Congress, Katalogeintrag 2018680370",
+     "excerpt": "Corresponding photographic print is in album: Views along the upper Volga River, from its source in the Valdai Hills to Kalyazin, Russian Empire, LOT 10339, no. 38.",
+     "kind": "museum"
+    }
+   ]
+  },
+  {
+   "key": "apollo8-earthrise-order",
+   "photographer": "William Anders",
+   "book": "Aufnahmefolge Apollo 8, 24. Dezember 1968 (Magazine 13 und 14)",
+   "images": [
+    {
+     "image_url": "https://images-assets.nasa.gov/image/as08-13-2329/as08-13-2329~large.jpg",
+     "source_url": "https://images.nasa.gov/details/as08-13-2329",
+     "title": "AS08-13-2329 (Schwarzweiß)"
+    },
+    {
+     "image_url": "https://images-assets.nasa.gov/image/as08-14-2383/as08-14-2383~large.jpg",
+     "source_url": "https://images.nasa.gov/details/as08-14-2383",
+     "title": "AS08-14-2383 (erste Farbaufnahme, „Earthrise“)"
+    },
+    {
+     "image_url": "https://images-assets.nasa.gov/image/as08-14-2384/as08-14-2384~large.jpg",
+     "source_url": "https://images.nasa.gov/details/as08-14-2384",
+     "title": "AS08-14-2384 (zweite Farbaufnahme)"
+    }
+   ],
+   "answer_de": "Reihenfolge der Belichtung, nicht eines Buches: Die NASA-Rekonstruktion ordnet die drei Originale den Zeitpunkten 1092, 2814 und 3545 ihrer Bildfolge zu [Q1]; das Schwarzweißbild entstand etwa eine Minute vor der ersten Farbaufnahme [Q2].",
+   "sources": [
+    {
+     "url": "https://svs.gsfc.nasa.gov/4129",
+     "title": "NASA Scientific Visualization Studio: Earthrise – The 45th Anniversary (ID 4129)",
+     "excerpt": "They correspond to frames 1092, 2814, and 3545 of the 1920 × 1080 frames",
+     "kind": "wissenschaft",
+     "translation_de": "Sie entsprechen den Einzelbildern 1092, 2814 und 3545 der 1920×1080-Bildfolge"
+    },
+    {
+     "url": "https://svs.gsfc.nasa.gov/3936",
+     "title": "NASA Scientific Visualization Studio: Earthrise (ID 3936)",
+     "excerpt": "The black-and-white image taken by the Apollo 8 crew, rotated and scaled to match the simulation, with alpha channel. This was taken about a minute before the first color photo.",
+     "kind": "wissenschaft",
+     "translation_de": "Das Schwarzweißbild der Apollo-8-Crew, gedreht und skaliert passend zur Simulation. Es wurde etwa eine Minute vor dem ersten Farbfoto aufgenommen."
+    }
+   ]
+  }
+ ]
+}

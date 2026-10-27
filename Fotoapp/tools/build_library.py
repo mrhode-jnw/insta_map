@@ -93,6 +93,12 @@ class Library:
         self.lessons: dict[str, dict] = {}
         self.references: dict[str, dict] = {}
         self.keys: dict[str, str] = {}  # seed image key -> image id
+        self.facts: list[dict] = []  # technique in context (format, camera, process, print …)
+        self.womit: list[dict] = []  # "Womit entstand es?" quiz items
+        self.editing = {"series": [], "versions": [], "sequences": []}  # contact sheets, versions, book order
+        self.anecdotes: list[dict] = []  # how a picture was made, retold from a source
+        self.myths: list[dict] = []  # widely believed claims corrected by a source
+        self.extra_media: dict[str, dict] = {}  # images used only by editing exercises (not in the library lists)
         self.by_url: dict[str, str] = {}
 
     def add_sources(self, items, scope: str, scope_id: str, accessed: str) -> list[int]:
@@ -253,6 +259,89 @@ class Library:
             n += 1
         return n
 
+    def linked_sources(self, items, scope: str, scope_id: str, accessed: str) -> list[int]:
+        """Like add_sources, but reuse a library source when the seed names it (library_source_id)."""
+        ids = []
+        for s in items or []:
+            lid = s.get("library_source_id")
+            ids += [lid] if lid in self.sources else self.add_sources([s], scope, scope_id, accessed)
+        return ids
+
+    def import_technik(self, data: dict) -> int:
+        accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
+        by_name = {p["name"]: p["id"] for p in self.photographers.values()}
+        start = len(self.facts)
+        for f in data.get("facts", []):
+            img = f.get("image_id")
+            if img and img not in self.images:
+                continue
+            ids = self.linked_sources(f.get("sources"), "technik", img or by_name.get(f.get("photographer"), ""), accessed)
+            self.facts.append({"image_id": img, "photographer_id": by_name.get(f.get("photographer")), "project": f.get("project"),
+                               "category": f.get("category", ""), "value": f.get("value_de", ""),
+                               "statement_md": q_to_s(f.get("statement_de", ""), ids), "visible_md": q_to_s(f.get("visible_de", ""), ids), "source_ids": ids})
+        for q in data.get("quiz_womit", []):
+            fi = q.get("fact_index")
+            if q.get("image_id") in self.images and fi is not None and start + fi < len(self.facts) and self.facts[start + fi]["image_id"] == q["image_id"]:
+                self.womit.append({"image_id": q["image_id"], "answer": q["answer_de"], "distractors": q.get("distractors_de", []),
+                                   "cls": q.get("answer_class", ""), "fact": start + fi})
+        return len(self.facts) - start
+
+    def import_quotes(self, data: dict) -> int:
+        """Photographers' statements (become expert voices on the photographer or image), anecdotes, myths."""
+        accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
+        by_name = {p["name"]: p["id"] for p in self.photographers.values()}
+        n = 0
+        for q in data.get("quotes", []):
+            img, pid = q.get("image_id"), by_name.get(q.get("photographer"))
+            scope, sid = ("image", img) if img in self.images else ("photographer", pid)
+            if not sid:
+                continue
+            n += len(self.add_sources([{**q["source"], "topic": q.get("topic", "")}], scope, sid, accessed))
+        for a in data.get("anecdotes", []):
+            if a.get("image_id") in self.images:
+                ids = self.add_sources(a.get("sources"), "image", a["image_id"], accessed)
+                self.anecdotes.append({"image_id": a["image_id"], "story_md": q_to_s(a.get("story_de", ""), ids), "source_ids": ids})
+        for m in data.get("myths", []):
+            img = m.get("image_id") if m.get("image_id") in self.images else None
+            ids = self.add_sources(m.get("sources"), "image" if img else "photographer", img or by_name.get(m.get("photographer"), ""), accessed)
+            self.myths.append({"image_id": img, "photographer_id": by_name.get(m.get("photographer")), "claim": m.get("claim_de", ""),
+                               "fact_md": q_to_s(m.get("fact_de", ""), ids), "source_ids": ids})
+        return n
+
+    def media_ref(self, item: dict, title: str) -> str:
+        url = item.get("image_url") or ""
+        iid = self.by_url.get(url) or "e" + short_hash(url, n=10)
+        if iid not in self.images:
+            self.extra_media.setdefault(iid, {"id": iid, "image_url": url, "title": title, "source_url": item.get("source_url", "")})
+        return iid
+
+    def import_editing(self, data: dict) -> int:
+        accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
+        by_name = {p["name"]: p["id"] for p in self.photographers.values()}
+        for x in data.get("series", []):
+            ids = self.add_sources(x.get("sources"), "editing", x["key"], accessed)
+            e = {"key": x["key"], "photographer": x.get("photographer", ""), "photographer_id": by_name.get(x.get("photographer")), "title": x.get("title", ""),
+                 "year": x.get("year"), "situation_md": q_to_s(x.get("situation_de", ""), ids), "answer_md": q_to_s(x.get("answer_de", ""), ids), "source_ids": ids}
+            if x.get("frames"):
+                e["frames"] = [{"id": self.media_ref(f, x.get("title", "")), "note": f.get("note", "")} for f in x["frames"]]
+                e["chosen"] = x.get("chosen")
+            if x.get("sheet"):
+                e["sheet"] = {**{k: x["sheet"].get(k) for k in ("grid", "chosen_cell", "frame_label", "note")}, "id": self.media_ref(x["sheet"], x.get("title", ""))}
+            if isinstance(x.get("published"), dict):
+                e["published"] = self.media_ref(x["published"], x.get("title", ""))
+            self.editing["series"].append(e)
+        for x in data.get("versions", []):
+            ids = self.add_sources(x.get("sources"), "editing", x["key"], accessed)
+            self.editing["versions"].append({"key": x["key"], "photographer": x.get("photographer", ""), "photographer_id": by_name.get(x.get("photographer")),
+                "title": x.get("title", ""), "published": x.get("published"), "difference_md": q_to_s(x.get("difference_de", ""), ids), "source_ids": ids,
+                **{k: {"id": self.media_ref(x[k], x.get("title", "")), "label": x[k].get("label_de", "")} for k in ("a", "b")}})
+        for x in data.get("sequences", []):
+            ids = self.add_sources(x.get("sources"), "editing", x["key"], accessed)
+            self.editing["sequences"].append({"key": x["key"], "photographer": x.get("photographer", ""), "photographer_id": by_name.get(x.get("photographer")),
+                "book": x.get("book", ""), "images": [{"id": self.media_ref(i, i.get("title", "")), "title": i.get("title", "")} for i in x.get("images", [])],
+                "answer_md": q_to_s(x.get("answer_de", ""), ids), "source_ids": ids})
+        return sum(len(v) for v in self.editing.values())
+
     def import_bios(self, data: dict) -> int:
         accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
         by_name = {p["name"]: p for p in self.photographers.values()}
@@ -347,11 +436,11 @@ def build_portraits(lib: Library, media_dir: Path, key: bytes) -> list[str]:
     return failed
 
 
-def build_media(lib: Library, media_dir: Path, key: bytes) -> list[str]:
+def build_media(lib: Library, media_dir: Path, key: bytes, items: dict | None = None) -> list[str]:
     (media_dir / "m").mkdir(parents=True, exist_ok=True)
     (media_dir / "t").mkdir(parents=True, exist_ok=True)
     failed = []
-    for iid, im in lib.images.items():
+    for iid, im in (lib.images if items is None else items).items():
         full, thumb = media_dir / "m" / f"{iid}.bin", media_dir / "t" / f"{iid}.bin"
         if full.exists() and thumb.exists():
             with Image.open(io.BytesIO(AESGCM(key).decrypt(thumb.read_bytes()[:12], thumb.read_bytes()[12:], None))) as t:
@@ -373,6 +462,25 @@ def build_media(lib: Library, media_dir: Path, key: bytes) -> list[str]:
         print("  +", im["title"][:70])
         time.sleep(0.3)
     return failed
+
+
+def editing_with_media(lib: Library, media_dir: Path | None) -> dict:
+    """Keep only editing exercises whose images all exist as media (with sizes for the client)."""
+    if not media_dir:
+        return lib.editing
+    have = {p.stem for p in (media_dir / "m").glob("*.bin")}
+    def ok(ids): return all(i in have for i in ids)
+    size = lambda i: {k: (lib.images.get(i) or lib.extra_media.get(i) or {}).get(k) for k in ("w", "h")}  # noqa: E731
+    out = {"series": [], "versions": [], "sequences": []}
+    for e in lib.editing["series"]:
+        ids = [f["id"] for f in e.get("frames", [])] + ([e["sheet"]["id"]] if e.get("sheet") else []) + ([e["published"]] if e.get("published") else [])
+        if ok(ids):
+            if e.get("sheet"):
+                e["sheet"].update(size(e["sheet"]["id"]))
+            out["series"].append(e)
+    out["versions"] = [v for v in lib.editing["versions"] if ok([v["a"]["id"], v["b"]["id"]])]
+    out["sequences"] = [q for q in lib.editing["sequences"] if ok([i["id"] for i in q["images"]])]
+    return out
 
 
 SKETCH_DIR = SEED_DIR / "sketches"
@@ -424,11 +532,14 @@ def main() -> None:
     lessons = sum(lib.import_lessons(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("lessons_*.json")))
     bios = sum(lib.import_bios(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("photographers_bio*.json")))
     refs = sum(lib.import_references(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("references_*.json")))
+    quotes = sum(lib.import_quotes(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("quotes_*.json")))
+    facts = sum(lib.import_technik(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("technik_*.json")))
+    editing = sum(lib.import_editing(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("editing_*.json")))
 
     failed: list[str] = []
     if args.media_dir:
         key = bytes.fromhex(args.key_file.read_text().strip())
-        failed = build_media(lib, args.media_dir, key) + build_portraits(lib, args.media_dir, key)
+        failed = build_media(lib, args.media_dir, key) + build_media(lib, args.media_dir, key, lib.extra_media) + build_portraits(lib, args.media_dir, key)
         present = {p.stem for p in (args.media_dir / "m").glob("*.bin")}
         missing = [i for i in lib.images if i not in present]
         for i in missing:
@@ -459,11 +570,17 @@ def main() -> None:
         "lessons": sorted(lib.lessons.values(), key=lambda le: le["order"]),
         "sketches": sketches,
         "references": [r for r in lib.references.values() if r["image_id"] in lib.images],
+        "facts": lib.facts,
+        "anecdotes": [a for a in lib.anecdotes if a["image_id"] in lib.images],
+        "myths": lib.myths,
+        "womit": lib.womit,
+        "editing": editing_with_media(lib, args.media_dir),
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"{len(out['photographers'])} Fotografen, {len(out['images'])} Bilder, {len(out['sources'])} Quellen "
-          f"({experts} Expertenstimmen), {bios} Biografien, {texts} Kapiteltexte, {lessons} Lektionen, {len(out['concepts'])} Begriffe, {refs} Quellen-Referenzen → {OUT.relative_to(ROOT)}")
+          f"({experts} Expertenstimmen), {bios} Biografien, {texts} Kapiteltexte, {lessons} Lektionen, {len(out['concepts'])} Begriffe, {refs} Quellen-Referenzen, "
+          f"{quotes} O-Töne, {len(lib.anecdotes)} Anekdoten, {len(lib.myths)} Mythen, {facts} Technik-Fakten, {editing} Auswahl-Übungen → {OUT.relative_to(ROOT)}")
     if failed:
         print("\nNicht geladen:", *failed, sep="\n  - ")
 

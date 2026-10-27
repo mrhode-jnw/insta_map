@@ -461,3 +461,4 @@ button.big { font-size: 1.05rem; padding: 12px 22px; }
 .tone-pt { position: absolute; width: 26px; height: 26px; margin: -13px 0 0 -13px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 2px #000; color: #fff;
   font: 700 .8rem/22px system-ui, sans-serif; text-align: center; text-shadow: 0 0 3px #000; pointer-events: none; }
 .snack-opts.thumbs3[style*="--n:4"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.snack-opts.thumbs3:is([style*="--n:5"], [style*="--n:6"], [style*="--n:7"], [style*="--n:8"]) { grid-template-columns: repeat(3, minmax(0, 1fr)); }

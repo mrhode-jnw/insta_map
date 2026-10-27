@@ -1,0 +1,1139 @@
+{
+ "accessed_at": "2026-10-27",
+ "photographers": [
+  {
+   "key": "kander",
+   "name": "Nadav Kander",
+   "born": 1961,
+   "sources": [
+    {
+     "url": "https://www.nadavkander.com/essays-reviews/nadav-kander-interviewed-by-william-avedon",
+     "title": "Nadav Kander interviewed by William Avedon (2012) – auf nadavkander.com",
+     "excerpt": "I wanted to work in China not because I wanted to be a documentary photographer within that landscape, but rather because I found it a troubled land; the reading I had done, the news casts that I saw, it seemed to be a country ill at ease.",
+     "translation_de": "Ich wollte in China arbeiten, nicht weil ich in dieser Landschaft Dokumentarfotograf sein wollte, sondern weil ich es als ein beunruhigtes Land empfand; nach allem, was ich gelesen und in den Nachrichten gesehen hatte, schien es ein Land zu sein, das mit sich nicht im Reinen ist."
+    },
+    {
+     "url": "https://www.nadavkander.com/essays-reviews/a-conversation-with-nadav-kander-by-jorg-colberg",
+     "title": "A Conversation with Nadav Kander by Jörg Colberg (2011) – auf nadavkander.com",
+     "excerpt": "I photograph very intuitively and try to see what affects me in the place, rather than documenting what a place is. The Yangtze River was a way of giving me a pathway through China that would keep me on a certain route.",
+     "translation_de": "Ich fotografiere sehr intuitiv und versuche zu sehen, was mich an dem Ort berührt, statt zu dokumentieren, was ein Ort ist. Der Jangtse gab mir einen Pfad durch China, der mich auf einer bestimmten Route hielt."
+    },
+    {
+     "url": "https://www.nadavkander.com/essays-reviews/nadav-kander-interviewed-by-william-avedon",
+     "title": "Nadav Kander interviewed by William Avedon (2012) – auf nadavkander.com",
+     "excerpt": "I made five trips to China and more and more so found myself feeling very uncomfortable there and very much like an outsider. I saw in my pictures that I was stepping back, that I was making people very small in the pictures. I think that this was very much alluding to my own feelings while I was there.",
+     "translation_de": "Ich bin fünfmal nach China gereist und habe mich dort zunehmend unwohl und sehr als Außenseiter gefühlt. In meinen Bildern sah ich, dass ich zurücktrat, dass ich die Menschen in den Bildern sehr klein machte. Ich glaube, das hatte sehr viel mit meinen eigenen Gefühlen dort zu tun."
+    }
+   ],
+   "projects": [
+    {
+     "key": "kander-yangtze",
+     "title": "Yangtze – The Long River",
+     "year_from": 2006,
+     "year_to": 2008,
+     "sources": [
+      {
+       "url": "https://www.flowersgallery.com/exhibitions/242-nadav-kander-yangtze-the-long-river/",
+       "title": "Nadav Kander: Yangtze, The Long River – Flowers Gallery London (Ausstellung 2010)",
+       "excerpt": "Nadav Kander made several voyages along the course of China's Yangtze River, travelling up-stream from mouth to source over a period of three years.",
+       "kind": "kurator",
+       "author": "Flowers Gallery",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Nadav Kander unternahm mehrere Reisen entlang des Jangtse, flussaufwärts von der Mündung bis zur Quelle, über einen Zeitraum von drei Jahren."
+      },
+      {
+       "url": "https://www.flowersgallery.com/exhibitions/242-nadav-kander-yangtze-the-long-river/",
+       "title": "Nadav Kander: Yangtze, The Long River – Flowers Gallery London (Ausstellung 2010)",
+       "excerpt": "The photographs are an emotional response to what I saw. I gave them simple titles so that viewers are encouraged to respond subjectively before seeking the facts",
+       "kind": "fotograf",
+       "author": "Nadav Kander (zitiert von Flowers Gallery)",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Die Fotografien sind eine emotionale Antwort auf das, was ich sah. Ich gab ihnen schlichte Titel, damit die Betrachter erst subjektiv reagieren, bevor sie nach den Fakten suchen."
+      },
+      {
+       "url": "https://nadavkander.com/exhibitions/yangtze-the-long-river",
+       "title": "Yangtze – The Long River, Haggerty Museum of Art 2014 (Ausstellungstext auf nadavkander.com)",
+       "excerpt": "China is a nation that appears to be severing its roots by destroying its past. Demolition and construction were everywhere on such a scale that I was unsure if what I was seeing was being built or destroyed, destroyed or built",
+       "kind": "fotograf",
+       "author": "Nadav Kander (zitiert vom Haggerty Museum of Art)",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "China ist eine Nation, die ihre Wurzeln zu kappen scheint, indem sie ihre Vergangenheit zerstört. Abriss und Bau waren überall in einem solchen Ausmaß, dass ich nicht sicher war, ob das, was ich sah, gebaut oder zerstört wurde – zerstört oder gebaut."
+      },
+      {
+       "url": "https://www.nadavkander.com/essays-reviews/the-guardian-text-by-sean-ohagan",
+       "title": "Sean O'Hagan: Rezension Yangtze – The Long River, The Guardian 2010 (Nachdruck auf nadavkander.com)",
+       "excerpt": "Kander is a master of what might be called \"epic stillness\". His large-format camera takes in crowded cityscapes and intimate interiors; the empty, still, rural landscapes of the river's source and the scarred, desolate places where the pace of progress has been relentless and total.",
+       "kind": "kritik",
+       "author": "Sean O'Hagan (The Guardian)",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "Kander ist ein Meister dessen, was man „epische Stille“ nennen könnte. Seine Großformatkamera erfasst dicht bebaute Stadtlandschaften und intime Innenräume, die leeren, stillen ländlichen Landschaften an der Quelle des Flusses und die vernarbten, trostlosen Orte, an denen der Fortschritt unerbittlich und total war."
+      },
+      {
+       "url": "https://www.nadavkander.com/essays-reviews/the-guardian-text-by-sean-ohagan",
+       "title": "Sean O'Hagan: Rezension Yangtze – The Long River, The Guardian 2010 (Nachdruck auf nadavkander.com)",
+       "excerpt": "It is a book that exudes a certain surface calmness in its detached gaze, its formal beauty and the muted tones of the often-vast landscapes Kander captures. However, the more you look, the more you experience a creeping sense of unease - a feeling that great chaos looms somewhere just out of the frame.",
+       "kind": "kritik",
+       "author": "Sean O'Hagan (The Guardian)",
+       "aspect": "wirkung",
+       "series_level": true,
+       "translation_de": "Das Buch strahlt in seinem distanzierten Blick, seiner formalen Schönheit und den gedämpften Tönen der oft weiten Landschaften eine gewisse Oberflächenruhe aus. Je länger man jedoch hinsieht, desto mehr beschleicht einen ein Unbehagen – das Gefühl, dass irgendwo knapp außerhalb des Bildrands großes Chaos droht."
+      },
+      {
+       "url": "https://www.nadavkander.com/essays-reviews/nadav-kander-interviewed-by-william-avedon",
+       "title": "Nadav Kander interviewed by William Avedon (2012) – auf nadavkander.com",
+       "excerpt": "I would work quite hard at dawn, I would work at dusk, and I would like to see a lot",
+       "kind": "fotograf",
+       "author": "Nadav Kander",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "Ich habe in der Morgendämmerung hart gearbeitet, in der Abenddämmerung gearbeitet, und ich wollte viel sehen."
+      }
+     ],
+     "images": [
+      {
+       "key": "kander-chongqing-iv",
+       "title": "Chongqing IV (Sunday Picnic)",
+       "year": 2006,
+       "location": "Chongqing",
+       "tags": [
+        "fluss",
+        "brücke",
+        "maßstab",
+        "dunst"
+       ],
+       "source_url": "https://www.flowersgallery.com/exhibitions/242-nadav-kander-yangtze-the-long-river/works/artworks76927/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/flowers/images/view/9e1ab6a660d98e89ae7c80861aa6e34959544c4d.jpg",
+       "sources": [
+        {
+         "url": "https://www.nadavkander.com/essays-reviews/the-guardian-text-by-sean-ohagan",
+         "title": "Sean O'Hagan: Rezension Yangtze – The Long River, The Guardian 2010 (Nachdruck auf nadavkander.com)",
+         "excerpt": "Young couples picnic beneath the giant span of a bridge; a woman crouches over a cooking pot amid the rubble of her town; a makeshift clothesline hangs between two posts underneath a huge geometric structure -\"the beauty of domesticity\", as Kander puts it,\"pitted against the hugeness of our ideas\".",
+         "kind": "kritik",
+         "author": "Sean O'Hagan (The Guardian), mit Kander-Zitat",
+         "aspect": "deutung",
+         "series_level": false,
+         "translation_de": "Junge Paare picknicken unter der riesigen Spannweite einer Brücke; […] – „die Schönheit des Häuslichen“, wie Kander sagt, „im Kampf gegen die Riesenhaftigkeit unserer Ideen“."
+        }
+       ]
+      },
+      {
+       "key": "kander-chongqing-vi",
+       "title": "Chongqing VI (Sunday Afternoon)",
+       "year": 2006,
+       "location": "Chongqing",
+       "tags": [
+        "fluss",
+        "brücke",
+        "maßstab",
+        "dunst"
+       ],
+       "source_url": "https://www.flowersgallery.com/exhibitions/242-nadav-kander-yangtze-the-long-river/works/artworks145599/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/flowers/images/view/d7ce3c3f8b14065c6e5ce011100f149975e33958.jpg",
+       "sources": []
+      },
+      {
+       "key": "kander-yibin-i",
+       "title": "Yibin I (Bathers), Sichuan Province",
+       "year": 2007,
+       "location": "Yibin, Sichuan",
+       "tags": [
+        "fluss",
+        "fels",
+        "industrie",
+        "dunst"
+       ],
+       "source_url": "https://www.flowersgallery.com/exhibitions/242-nadav-kander-yangtze-the-long-river/works/artworks145764/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/flowers/images/view/8912b1b14e8dbdb33fb5afce581139b64b55dd17.jpg",
+       "sources": []
+      },
+      {
+       "key": "kander-old-fengdu-ii",
+       "title": "Old Fengdu II (Looking at New Fengdu)",
+       "year": 2006,
+       "location": "Fengdu, Chongqing",
+       "tags": [
+        "fluss",
+        "rückenfigur",
+        "stadt",
+        "dunst"
+       ],
+       "source_url": "https://www.flowersgallery.com/exhibitions/242-nadav-kander-yangtze-the-long-river/works/artworks76921/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/flowers/images/view/8391b3c4e62fd9c45ed7846948b6176d8644ee51.jpg",
+       "sources": [
+        {
+         "url": "https://www.nadavkander.com/essays-reviews/nadav-kander-interviewed-by-william-avedon",
+         "title": "Nadav Kander interviewed by William Avedon (2012) – auf nadavkander.com",
+         "excerpt": "Well there was one area certainly, the Old Fengdu, where that picture of that man is sitting with his back to me in blue underpants [Old Fengdu II (Looking at New Fengdu), Chongqing Municipality, 2006], reminiscent to me of a Caspar Friedrich painting.",
+         "kind": "fotograf",
+         "author": "Nadav Kander",
+         "aspect": "entstehung",
+         "series_level": false,
+         "translation_de": "Da war sicher ein Ort, das alte Fengdu, wo das Bild mit dem Mann entstand, der mit dem Rücken zu mir in blauer Unterhose sitzt […] – für mich erinnert es an ein Gemälde von Caspar (David) Friedrich."
+        },
+        {
+         "url": "https://www.nadavkander.com/essays-reviews/nadav-kander-interviewed-by-william-avedon",
+         "title": "Nadav Kander interviewed by William Avedon (2012) – auf nadavkander.com",
+         "excerpt": "That was pretty much covered and they built opposite on the opposite bank, which is what that man sitting in his blue underpants is looking at, the new Fengdu, which was to house about 7 million and when we went and stayed there it was pretty empty.",
+         "kind": "fotograf",
+         "author": "Nadav Kander",
+         "aspect": "entstehung",
+         "series_level": false,
+         "translation_de": "Das (alte Fengdu) wurde weitgehend überflutet, und man baute gegenüber am anderen Ufer – das ist es, worauf der Mann in der blauen Unterhose blickt: das neue Fengdu, das etwa 7 Millionen Menschen aufnehmen sollte; als wir dort übernachteten, war es ziemlich leer."
+        }
+       ]
+      },
+      {
+       "key": "kander-source-vii",
+       "title": "Yangtze Source VII, Qinghai",
+       "year": 2007,
+       "location": "Quellgebiet des Jangtse, Qinghai",
+       "tags": [
+        "fluss",
+        "hochland",
+        "weite",
+        "wolken"
+       ],
+       "source_url": "https://www.flowersgallery.com/exhibitions/242-nadav-kander-yangtze-the-long-river/works/artworks76933/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/flowers/images/view/16f5e0d59c37d44199ed8536aeb1faf7356aeaea.jpg",
+       "sources": []
+      },
+      {
+       "key": "kander-wu-gorge",
+       "title": "Wu Gorge, Hubei",
+       "year": 2007,
+       "location": "Wu-Schlucht, Hubei",
+       "tags": [
+        "schlucht",
+        "fluss",
+        "nebel",
+        "berge"
+       ],
+       "source_url": "https://www.flowersgallery.com/exhibitions/242-nadav-kander-yangtze-the-long-river/works/artworks77313/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/flowers/images/view/52300694627f1e35527a9af2721174a2a97289e0.jpg",
+       "sources": []
+      },
+      {
+       "key": "kander-three-gorges-dam-v",
+       "title": "Three Gorges Dam V, Yichang, Hubei Province",
+       "year": 2007,
+       "location": "Yichang, Hubei",
+       "tags": [
+        "staudamm",
+        "figur",
+        "dunst",
+        "ufer"
+       ],
+       "source_url": "https://www.flowersgallery.com/exhibitions/242-nadav-kander-yangtze-the-long-river/works/artworks78153/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/flowers/images/view/cf58315b80e17fadadeee9891c74e30a702c922d.jpg",
+       "sources": []
+      },
+      {
+       "key": "kander-mouth-vii",
+       "title": "Mouth VII, near Shanghai",
+       "year": 2007,
+       "location": "Jangtse-Mündung bei Shanghai",
+       "tags": [
+        "mündung",
+        "lastwagen",
+        "dunst",
+        "ufer"
+       ],
+       "source_url": "https://www.flowersgallery.com/exhibitions/242-nadav-kander-yangtze-the-long-river/works/artworks144720/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/flowers/images/view/432a13bc68ed605a295734f7ad82d4668d01691a.jpg",
+       "sources": []
+      },
+      {
+       "key": "kander-chongqing-i",
+       "title": "Chongqing I, Chongqing Municipality",
+       "year": 2006,
+       "location": "Chongqing",
+       "tags": [
+        "baustelle",
+        "stadt",
+        "gerüst",
+        "dunst"
+       ],
+       "source_url": "https://www.flowersgallery.com/exhibitions/242-nadav-kander-yangtze-the-long-river/works/artworks78675/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/flowers/images/view/17623d90631ee2b858c41445b95ee3c4008a16b2.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "yang-yongliang",
+   "name": "Yang Yongliang",
+   "born": 1980,
+   "sources": [
+    {
+     "url": "https://ngv.vic.gov.au/essay/yang-yongliang-phantom-landscape",
+     "title": "Mae Anna Pang: Yang Yongliang, Phantom landscape – NGV Art Journal 51 (National Gallery of Victoria)",
+     "excerpt": "Yang Yongliang was born in Jiading, Shanghai, in 1980. From a young age Yang studied traditional Chinese ink painting (shuimo hua)."
+    },
+    {
+     "url": "https://www.whitestone-gallery.com/blogs/articles-post/yang-yongliang-interview-artalpha-1",
+     "title": "Yang Yongliang: Constructing Urban Landscapes with Images … Part 1 – Interview (Art Alpha, Whitestone Gallery 2025)",
+     "excerpt": "My hometown when I was a child was a place with the characteristics of a water town, ancient and unique. With urbanization, these sights have disappeared little by little, and today's suburbs are almost uniform, filled with modern buildings formatted as neat and tidy.",
+     "translation_de": "Meine Heimatstadt war in meiner Kindheit ein Ort mit dem Charakter einer Wasserstadt, alt und einzigartig. Mit der Urbanisierung sind diese Ansichten nach und nach verschwunden, und die heutigen Vororte sind fast einheitlich, gefüllt mit modernen, ordentlich formatierten Gebäuden."
+    },
+    {
+     "url": "https://www.whitestone-gallery.com/blogs/articles-post/yang-yongliang-interview-artalpha-1",
+     "title": "Yang Yongliang: Constructing Urban Landscapes with Images … Part 1 – Interview (Art Alpha, Whitestone Gallery 2025)",
+     "excerpt": "Indeed, in my past creative career, most of my works were in the form of combining photography and digital art, an approach that was intricately constructed and adjusted within my rational framework.",
+     "translation_de": "Tatsächlich bestanden die meisten meiner bisherigen Arbeiten aus einer Verbindung von Fotografie und digitaler Kunst – ein Ansatz, der innerhalb meines rationalen Rahmens aufwendig konstruiert und justiert wurde."
+    }
+   ],
+   "projects": [
+    {
+     "key": "yang-phantom-landscape",
+     "title": "Phantom Landscape (蜃市山水)",
+     "year_from": 2006,
+     "year_to": 2007,
+     "sources": [
+      {
+       "url": "https://www.yangyongliang.com/phantom-landscape",
+       "title": "Yang Yongliang – Phantom Landscape (Website des Künstlers)",
+       "excerpt": "Phantom Landscape is a series started in 2006. Yang Yongliang uses images of architecture as brushstrokes; heavy mountain rocks with enriched details draw a faithful reference to Song Dynasty landscape painting.",
+       "kind": "fotograf",
+       "author": "Yang Yongliang (Künstlertext)",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Phantom Landscape ist eine 2006 begonnene Serie. Yang Yongliang verwendet Architekturbilder als Pinselstriche; schwere, detailreiche Bergfelsen beziehen sich getreu auf die Landschaftsmalerei der Song-Dynastie."
+      },
+      {
+       "url": "https://www.yangyongliang.com/phantom-landscape",
+       "title": "Yang Yongliang – Phantom Landscape (Website des Künstlers)",
+       "excerpt": "Ancient Chinese people painted landscapes to praise the greatness of nature; Yang's works, on the other hand, lead towards a critical re-thinking of contemporary reality.",
+       "kind": "fotograf",
+       "author": "Yang Yongliang (Künstlertext)",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Die alten Chinesen malten Landschaften, um die Größe der Natur zu preisen; Yangs Arbeiten führen dagegen zu einem kritischen Überdenken der gegenwärtigen Wirklichkeit."
+      },
+      {
+       "url": "https://www.whitestone-gallery.com/blogs/articles-post/yang-yongliang-interview-artalpha-1",
+       "title": "Yang Yongliang: Constructing Urban Landscapes with Images … Part 1 – Interview (Art Alpha, Whitestone Gallery 2025)",
+       "excerpt": "In the past, my works were mainly in black and white because I tried to focus the audience's attention on the layers and structure of the picture by removing the colors, so as to make the cityscape present a kind of surreal visual feeling.",
+       "kind": "fotograf",
+       "author": "Yang Yongliang",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "Früher waren meine Arbeiten überwiegend schwarzweiß, weil ich durch das Weglassen der Farben die Aufmerksamkeit auf die Schichten und die Struktur des Bildes lenken wollte, damit die Stadtlandschaft surreal wirkt."
+      },
+      {
+       "url": "https://www.whitestone-gallery.com/blogs/articles-post/yang-yongliang-netherlands-museum",
+       "title": "Yang Yongliang's Works at Dutch Museum Volkenkunde – Whitestone Gallery (2023)",
+       "excerpt": "The mountains, the river, and the fantastical haze are reminiscent of ancient landscape paintings, but the rock surface is composed of skyscrapers, steel towers, cranes, roads, and other elements that symbolize the modern age.",
+       "kind": "kurator",
+       "author": "Whitestone Gallery (zu Phantom Landscape III – Triptych)",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Berge, Fluss und der phantastische Dunst erinnern an alte Landschaftsmalerei, doch die Felsoberfläche besteht aus Hochhäusern, Stahlmasten, Kränen, Straßen und anderen Zeichen der Moderne."
+      }
+     ],
+     "images": [
+      {
+       "key": "yang-pl1-no2",
+       "title": "Phantom Landscape I – No. 2 (蜃市山水之二)",
+       "year": 2006,
+       "tags": [
+        "montage",
+        "schwarzweiß",
+        "hochhäuser",
+        "shanshui"
+       ],
+       "source_url": "https://www.yangyongliang.com/phantom-landscape",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5bb3be9de4afe91f8a50e3b2/1539645015803-JS9IU19A1B8KI6Y9XH8O/002.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "yang-pl1-no3",
+       "title": "Phantom Landscape I – No. 3 (蜃市山水壹之三)",
+       "year": 2006,
+       "tags": [
+        "montage",
+        "schwarzweiß",
+        "kräne",
+        "shanshui"
+       ],
+       "source_url": "https://www.yangyongliang.com/phantom-landscape",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5bb3be9de4afe91f8a50e3b2/1539645019177-FN8J2OWO0KPCZRKISZB5/003.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "yang-pl2-no1",
+       "title": "Phantom Landscape II – No. 1 (仿夏山图)",
+       "year": 2007,
+       "tags": [
+        "montage",
+        "schwarzweiß",
+        "querrolle",
+        "shanshui"
+       ],
+       "source_url": "https://www.yangyongliang.com/phantom-landscape",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5bb3be9de4afe91f8a50e3b2/1539645038150-OBWWJYG858V3WM46Y0VQ/%E5%A4%8F%E5%B1%B1%E5%9B%BE.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "yang-pl2-no2",
+       "title": "Phantom Landscape II – No. 2 (仿茂林远轴图)",
+       "year": 2007,
+       "tags": [
+        "montage",
+        "schwarzweiß",
+        "querrolle",
+        "shanshui"
+       ],
+       "source_url": "https://www.yangyongliang.com/phantom-landscape",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5bb3be9de4afe91f8a50e3b2/1539645013458-ADJQLBYSM7ODG4KUK0EN/%E8%8C%82%E6%9E%97%E8%BF%9C%E8%BD%B4%E5%9B%BE002.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "yang-pl2-no3",
+       "title": "Phantom Landscape II – No. 3 (仿秋江渔艇图)",
+       "year": 2007,
+       "tags": [
+        "montage",
+        "schwarzweiß",
+        "querrolle",
+        "shanshui"
+       ],
+       "source_url": "https://www.yangyongliang.com/phantom-landscape",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5bb3be9de4afe91f8a50e3b2/1539645003133-91UBL4K3LU0PTM76AN9Y/%E7%A7%8B%E6%B1%9F%E6%B8%94%E8%89%87%E5%9B%BE.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "yang-day-of-night",
+       "title": "Day of Night (夜之昼)",
+       "year": 2007,
+       "tags": [
+        "montage",
+        "nacht",
+        "querrolle",
+        "shanshui"
+       ],
+       "source_url": "https://www.yangyongliang.com/phantom-landscape",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5bb3be9de4afe91f8a50e3b2/1539644923548-CZIO9JZA1NILSE7KV9G7/%E8%9C%83%E5%B8%82%E5%B1%B1%E6%B0%B4%E5%8F%81-%E5%A4%9C%E4%B9%8B%E6%98%BC.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "yang-city-of-light",
+       "title": "City of Light (光之城)",
+       "year": 2007,
+       "tags": [
+        "montage",
+        "nacht",
+        "querrolle",
+        "shanshui"
+       ],
+       "source_url": "https://www.yangyongliang.com/phantom-landscape",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5bb3be9de4afe91f8a50e3b2/1539644895151-LMJAM3SYIDQ2MBWGMD1A/%E8%9C%83%E5%B8%82%E5%B1%B1%E6%B0%B4%E5%8F%81-%E5%85%89%E4%B9%8B%E5%9F%8E.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "yang-fairyland",
+       "title": "Fairyland (仙境)",
+       "year": 2007,
+       "tags": [
+        "montage",
+        "leere",
+        "querrolle",
+        "shanshui"
+       ],
+       "source_url": "https://www.yangyongliang.com/phantom-landscape",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5bb3be9de4afe91f8a50e3b2/1539644919375-WIEEBF62KNPC8T9F3E7C/%E8%9C%83%E5%B8%82%E5%B1%B1%E6%B0%B4%E5%8F%81-%E4%BB%99%E5%A2%83.jpg?format=2500w",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ian-teh",
+   "name": "Ian Teh",
+   "sources": [
+    {
+     "url": "https://www.ianteh.com/bio",
+     "title": "Ian Teh – Biography (ianteh.com)",
+     "excerpt": "Ian Teh is an award-winning documentary photographer motivated by environmental and social issues. In an era of continuous urbanisation and development, his work explores the underlying dreams and desires of societies and the individual, and the sacrifices often made to realise them."
+    },
+    {
+     "url": "https://fairbank.fas.harvard.edu/research/blog/photographing-chinas-industrial-heartland/",
+     "title": "Ian Teh: Photographing China's Industrial Heartland – Fairbank Center for Chinese Studies, Harvard (2017)",
+     "excerpt": "Wandering around these desolate landscapes devoid of life, I was struck by a new perspective. I began to concentrate not only on the individual realities of the people who worked in these places but on a broader view that I was witnessing.",
+     "translation_de": "Als ich durch diese trostlosen, leblosen Landschaften streifte, kam mir eine neue Perspektive. Ich konzentrierte mich nicht mehr nur auf die einzelnen Lebenswirklichkeiten der Menschen, die dort arbeiteten, sondern auf einen weiteren Blick auf das, was ich vor mir sah."
+    },
+    {
+     "url": "https://fairbank.fas.harvard.edu/research/blog/photographing-chinas-industrial-heartland/",
+     "title": "Ian Teh: Photographing China's Industrial Heartland – Fairbank Center for Chinese Studies, Harvard (2017)",
+     "excerpt": "From the epic to the quotidian, these interleaving chapters represent two overlapping realities: the human experience of the individual, the migrant worker, and vistas that intimate the existence of a much larger economic and ideological process, one whose momentum we struggle to control, a symbol our collective ambitions.",
+     "translation_de": "Vom Epischen bis zum Alltäglichen stehen diese ineinandergreifenden Kapitel für zwei sich überlagernde Wirklichkeiten: die Erfahrung des Einzelnen, des Wanderarbeiters, und Ausblicke, die einen viel größeren ökonomischen und ideologischen Prozess ahnen lassen."
+    }
+   ],
+   "projects": [
+    {
+     "key": "teh-traces",
+     "title": "Traces – Landschaften im Wandel (Traces I)",
+     "year_from": 2006,
+     "year_to": 2011,
+     "sources": [
+      {
+       "url": "https://fairbank.fas.harvard.edu/research/blog/photographing-chinas-industrial-heartland/",
+       "title": "Ian Teh: Photographing China's Industrial Heartland – Fairbank Center for Chinese Studies, Harvard (2017)",
+       "excerpt": "\"Traces\" is an exploration of the otherworldly scenes in the Chinese industrial hinterland, landscapes that seem to be a repository for all of man's endeavors; a record of our material desires.",
+       "kind": "fotograf",
+       "author": "Ian Teh",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "„Traces“ erkundet die unwirklichen Szenen im chinesischen Industriehinterland – Landschaften, die wie ein Speicher allen menschlichen Strebens wirken, ein Protokoll unserer materiellen Wünsche."
+      },
+      {
+       "url": "https://fairbank.fas.harvard.edu/research/blog/photographing-chinas-industrial-heartland/",
+       "title": "Ian Teh: Photographing China's Industrial Heartland – Fairbank Center for Chinese Studies, Harvard (2017)",
+       "excerpt": "In 2006, I began to explore the most industrialized regions of China, from the rust belt of the north-east to the cities of Shanxi province, famous for their coal.",
+       "kind": "fotograf",
+       "author": "Ian Teh",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "2006 begann ich, die am stärksten industrialisierten Regionen Chinas zu erkunden, vom Rostgürtel im Nordosten bis zu den für ihre Kohle bekannten Städten der Provinz Shanxi."
+      },
+      {
+       "url": "https://fairbank.fas.harvard.edu/research/blog/photographing-chinas-industrial-heartland/",
+       "title": "Ian Teh: Photographing China's Industrial Heartland – Fairbank Center for Chinese Studies, Harvard (2017)",
+       "excerpt": "Many mines and plants that were heavy users of coal were closed down. The sites I visited were often empty, a landscape of dust-coated industrial machinery.",
+       "kind": "fotograf",
+       "author": "Ian Teh",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Viele Minen und Werke mit hohem Kohleverbrauch wurden (über das Neujahrsfest) stillgelegt. Die Orte, die ich besuchte, waren oft leer – eine Landschaft aus staubbedeckten Industrieanlagen."
+      },
+      {
+       "url": "https://www.ianteh.com/bio",
+       "title": "Ian Teh – Biography (ianteh.com)",
+       "excerpt": "In the age of the selfie, his panoramic series, Traces: Landscapes in Transition on the Yellow River, revisits the classical monumental landscape and sounds an alarm of terrible beauty, heralding the advancing threat we pose to our planet.",
+       "kind": "kurator",
+       "author": "Biografie auf ianteh.com",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Im Zeitalter des Selfies greift seine Panoramaserie Traces: Landscapes in Transition on the Yellow River die klassische monumentale Landschaft wieder auf und schlägt Alarm mit schrecklicher Schönheit."
+      },
+      {
+       "url": "https://positive-magazine.com/ian-teh-a-collaboration-with-granta-magazine",
+       "title": "Ian Teh – A Collaboration with Granta Magazine – Positive Magazine (2010)",
+       "excerpt": "Teh nimbly straddles journalism and art with his work.",
+       "kind": "kritik",
+       "author": "Positive Magazine",
+       "aspect": "rezeption",
+       "series_level": true,
+       "translation_de": "Teh bewegt sich mit seiner Arbeit gewandt zwischen Journalismus und Kunst."
+      }
+     ],
+     "images": [
+      {
+       "key": "teh-coal-ash-snow",
+       "title": "Coal, Ash and Snow. Wuhai, Inner Mongolia, China.",
+       "location": "Wuhai, Innere Mongolei",
+       "tags": [
+        "kohle",
+        "schnee",
+        "panorama",
+        "industrie"
+       ],
+       "source_url": "https://www.ianteh.com/traces-i",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534536dfe4b00e0d727be150/1668496438330-0HFGMGLHS6Q36SS5AO7W/Traces-Industrial+Landscapes001.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "teh-tailings",
+       "title": "Tailings. Wuhai, Inner Mongolia, China.",
+       "location": "Wuhai, Innere Mongolei",
+       "tags": [
+        "abraum",
+        "panorama",
+        "industrie",
+        "struktur"
+       ],
+       "source_url": "https://www.ianteh.com/traces-i",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534536dfe4b00e0d727be150/1400833849576-1R0M6RIAVPPMD79R1G9L/003.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "teh-farmland-linfen",
+       "title": "Farmland. Linfen, Shanxi, China.",
+       "location": "Linfen, Shanxi",
+       "tags": [
+        "acker",
+        "dunst",
+        "panorama",
+        "bäume"
+       ],
+       "source_url": "https://www.ianteh.com/traces-i",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534536dfe4b00e0d727be150/1400833850578-8HTLITO4XD5BQDE3VFHU/004.jpg?format=2500w",
+       "sources": [
+        {
+         "url": "https://fairbank.fas.harvard.edu/research/blog/photographing-chinas-industrial-heartland/",
+         "title": "Ian Teh: Photographing China's Industrial Heartland – Fairbank Center for Chinese Studies, Harvard (2017)",
+         "excerpt": "The dust is everywhere in Linfen. You can feel it on your fingers as something dry and abrasive that you would like to rub away but never can. It coats every surface, from leaves and crops to the buildings and factories lining both sides of the road. It floats in the air creating a fine veil of light ochre that tinges the passing scenery with the same monochromatic hue.",
+         "kind": "fotograf",
+         "author": "Ian Teh",
+         "aspect": "entstehung",
+         "series_level": false,
+         "translation_de": "Der Staub ist in Linfen überall. […] Er überzieht jede Oberfläche, von Blättern und Feldfrüchten bis zu den Gebäuden und Fabriken an beiden Straßenseiten. Er schwebt in der Luft und bildet einen feinen hellockerfarbenen Schleier, der die vorbeiziehende Landschaft in denselben einfarbigen Ton taucht."
+        }
+       ]
+      },
+      {
+       "key": "teh-luxury-apartments",
+       "title": "Luxury Residential Apartments. Linfen, Shanxi, China.",
+       "location": "Linfen, Shanxi",
+       "tags": [
+        "neubau",
+        "dunst",
+        "panorama",
+        "symmetrie"
+       ],
+       "source_url": "https://www.ianteh.com/traces-i",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534536dfe4b00e0d727be150/1400833851101-10ZEL5IE1Y0K74FM3RFT/005.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "teh-steel-plant-hancheng",
+       "title": "Steel Plant. Hancheng, Shaanxi, China.",
+       "location": "Hancheng, Shaanxi",
+       "tags": [
+        "stahlwerk",
+        "panorama",
+        "industrie",
+        "figuren"
+       ],
+       "source_url": "https://www.ianteh.com/traces-i",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534536dfe4b00e0d727be150/1400833851830-N65FR4W0OKR2STKLLXU6/006.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "teh-kuye-river",
+       "title": "Kuye River. Yulin, Shaanxi, China.",
+       "location": "Yulin, Shaanxi",
+       "tags": [
+        "fluss",
+        "eis",
+        "panorama",
+        "dunst"
+       ],
+       "source_url": "https://www.ianteh.com/traces-i",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534536dfe4b00e0d727be150/1400833852617-XEQ1WNXWKTQE09MJD21R/007.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "teh-brick-factory",
+       "title": "Brick Factory. Linfen, Shanxi, China.",
+       "location": "Linfen, Shanxi",
+       "tags": [
+        "ziegel",
+        "horizont",
+        "panorama",
+        "dunst"
+       ],
+       "source_url": "https://www.ianteh.com/traces-i",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534536dfe4b00e0d727be150/1400833852767-OMJAE8J1T7BNVTYZBN6R/008.jpg?format=2500w",
+       "sources": []
+      },
+      {
+       "key": "teh-quarry-shizuishan",
+       "title": "Quarry. Shizuishan, Inner Mongolia, China.",
+       "location": "Shizuishan",
+       "tags": [
+        "steinbruch",
+        "gegenlicht",
+        "panorama",
+        "dunst"
+       ],
+       "source_url": "https://www.ianteh.com/traces-i",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/534536dfe4b00e0d727be150/1400833854365-QAY5BMRD77VDKTMECRA7/011.jpg?format=2500w",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "greg-girard",
+   "name": "Greg Girard",
+   "born": 1955,
+   "sources": [
+    {
+     "url": "https://www.greggirard.com/about/",
+     "title": "Greg Girard – About/Biography (greggirard.com)",
+     "excerpt": "Greg Girard is a Canadian photographer (b. 1955) who has spent much of his career in Asia. His work has examined the social and physical transformations in Asia, especially in its largest cities, for more than four decades."
+    },
+    {
+     "url": "https://www.greggirard.com/work/",
+     "title": "Greg Girard – Work (greggirard.com, Projekttexte)",
+     "excerpt": "Most of the photographs in this book were made before I became a professional photographer, and show the Hong Kong I explored without any thought to how the pictures might be seen or where they might end up.",
+     "translation_de": "Die meisten Fotos in diesem Buch (HK:PM) entstanden, bevor ich Berufsfotograf wurde; sie zeigen das Hongkong, das ich erkundete, ohne darüber nachzudenken, wie die Bilder gesehen würden oder wo sie landen könnten."
+    }
+   ],
+   "projects": [
+    {
+     "key": "girard-kowloon-walled-city",
+     "title": "City of Darkness – Kowloon Walled City",
+     "year_from": 1986,
+     "year_to": 1990,
+     "sources": [
+      {
+       "url": "https://www.greggirard.com/work/",
+       "title": "Greg Girard – Work (greggirard.com, Projekttexte)",
+       "excerpt": "The Kowloon Walled City was a singular Hong Kong phenomenon: 33,000 people living in over 300 interconnected high-rise buildings, built without the contributions of a single architect, ungoverned by Hong Kong's safety and health regulations, covering one square city block in a densely populated neighborhood near the end of the runway at Kai Tak airport.",
+       "kind": "fotograf",
+       "author": "Greg Girard",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Die Kowloon Walled City war ein einzigartiges Hongkonger Phänomen: 33.000 Menschen in über 300 miteinander verbundenen Hochhäusern, ohne einen einzigen Architekten gebaut, ohne Hongkongs Sicherheits- und Gesundheitsvorschriften, auf einem einzigen Häuserblock nahe dem Ende der Landebahn des Flughafens Kai Tak."
+      },
+      {
+       "url": "https://www.greggirard.com/work/",
+       "title": "Greg Girard – Work (greggirard.com, Projekttexte)",
+       "excerpt": "In collaboration with Ian Lambot, I spent five years photographing and becoming familiar with the Walled City, its residents, and how it was organized. So seemingly compromised and anarchic on its surface, it actually worked -and to a large extent, worked well.",
+       "kind": "fotograf",
+       "author": "Greg Girard",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Gemeinsam mit Ian Lambot habe ich fünf Jahre lang die Walled City fotografiert und mich mit ihr, ihren Bewohnern und ihrer Organisation vertraut gemacht. An der Oberfläche so heruntergekommen und anarchisch, funktionierte sie tatsächlich – und zum großen Teil gut."
+      },
+      {
+       "url": "https://www.featureshoot.com/?p=142400",
+       "title": "Ellyn Kail: Welcome to the Kowloon Walled City, One of the Most Misunderstood Places in History – Feature Shoot (2020)",
+       "excerpt": "When the photographer Greg Girard first ventured into Kowloon Walled City in Hong Kong in 1986, he didn't take any pictures. Instead, he simply absorbed the sights, sounds, and smells that surrounding him on all sides: illuminated windows, densely packed across 12-14 story buildings, voices from televisions and the hum of fans and air conditioners filling the streets.",
+       "kind": "kritik",
+       "author": "Ellyn Kail (Feature Shoot)",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Als Greg Girard 1986 zum ersten Mal die Kowloon Walled City betrat, machte er kein einziges Foto. Er nahm nur die Bilder, Geräusche und Gerüche auf: beleuchtete Fenster dicht an dicht in 12- bis 14-stöckigen Häusern, Fernsehstimmen, das Summen von Ventilatoren und Klimaanlagen."
+      },
+      {
+       "url": "https://www.featureshoot.com/?p=142400",
+       "title": "Ellyn Kail: Welcome to the Kowloon Walled City, One of the Most Misunderstood Places in History – Feature Shoot (2020)",
+       "excerpt": "\"It was understood that the Walled City's days were numbered and [we] were there to make a record,\"Girard remembers.",
+       "kind": "fotograf",
+       "author": "Greg Girard (zitiert von Feature Shoot)",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "„Es war klar, dass die Tage der Walled City gezählt waren, und wir waren da, um sie festzuhalten“, erinnert sich Girard."
+      },
+      {
+       "url": "https://www.featureshoot.com/?p=142400",
+       "title": "Ellyn Kail: Welcome to the Kowloon Walled City, One of the Most Misunderstood Places in History – Feature Shoot (2020)",
+       "excerpt": "Because the city was so dense, and the streets so narrow, it was dark at almost all times of day.",
+       "kind": "kritik",
+       "author": "Ellyn Kail (Feature Shoot)",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "Weil die Stadt so dicht und die Gassen so eng waren, war es dort fast zu jeder Tageszeit dunkel."
+      }
+     ],
+     "images": [
+      {
+       "key": "girard-kwc-1987",
+       "title": "Kowloon Walled City, Hong Kong",
+       "year": 1987,
+       "location": "Kowloon Walled City, Hongkong",
+       "tags": [
+        "hongkong",
+        "dämmerung",
+        "fassade",
+        "nacht"
+       ],
+       "source_url": "https://www.featureshoot.com/?p=142400",
+       "image_url": "https://www.featureshoot.com/wp-content/uploads/2020/02/Girard_04.jpg",
+       "sources": []
+      },
+      {
+       "key": "girard-tung-tau-tsuen-rd",
+       "title": "Walled City, Tung Tau Tsuen Rd",
+       "year": 1987,
+       "location": "Tung Tau Tsuen Road, Kowloon, Hongkong",
+       "tags": [
+        "hongkong",
+        "straße",
+        "schilder",
+        "dichte"
+       ],
+       "source_url": "https://www.featureshoot.com/?p=142400",
+       "image_url": "https://www.featureshoot.com/wp-content/uploads/2020/02/014_Greg_Girard_Walled_City018.jpg",
+       "sources": []
+      },
+      {
+       "key": "girard-children-rooftop",
+       "title": "Children Playing On Walled City Rooftop",
+       "year": 1989,
+       "location": "Kowloon Walled City, Hongkong",
+       "tags": [
+        "hongkong",
+        "dach",
+        "kinder",
+        "antennen"
+       ],
+       "source_url": "https://www.featureshoot.com/?p=142400",
+       "image_url": "https://www.featureshoot.com/wp-content/uploads/2020/02/021_Rooftop_04EG.jpg",
+       "sources": []
+      },
+      {
+       "key": "girard-relaxing-rooftop",
+       "title": "Relaxing On Walled City Rooftop",
+       "year": 1989,
+       "location": "Kowloon Walled City, Hongkong",
+       "tags": [
+        "hongkong",
+        "dach",
+        "aufsicht",
+        "alltag"
+       ],
+       "source_url": "https://www.featureshoot.com/?p=142400",
+       "image_url": "https://www.featureshoot.com/wp-content/uploads/2020/02/girard_kowloon_rooftop.jpg",
+       "sources": []
+      },
+      {
+       "key": "girard-kai-tak-view",
+       "title": "Kowloon Walled City Rooftop (Kai Tak View)",
+       "year": 1990,
+       "location": "Kowloon Walled City, Hongkong",
+       "tags": [
+        "hongkong",
+        "dach",
+        "blaue stunde",
+        "stadtlicht"
+       ],
+       "source_url": "https://www.featureshoot.com/?p=142400",
+       "image_url": "https://www.featureshoot.com/wp-content/uploads/2020/02/032_GG_KWC.jpg",
+       "sources": [
+        {
+         "url": "https://www.featureshoot.com/?p=142400",
+         "title": "Ellyn Kail: Welcome to the Kowloon Walled City, One of the Most Misunderstood Places in History – Feature Shoot (2020)",
+         "excerpt": "\"Going from that to the air and light and space on the rooftop in the cool of the evening, watching the big jets arc past on their way into Kai Tak [airport], that was incredible as well.\"",
+         "kind": "fotograf",
+         "author": "Greg Girard (zitiert von Feature Shoot)",
+         "aspect": "entstehung",
+         "series_level": false,
+         "translation_de": "„Von dort hinaus in die Luft, das Licht und die Weite auf dem Dach in der Abendkühle, und die großen Jets im Bogen auf dem Weg nach Kai Tak vorbeiziehen sehen – auch das war unglaublich.“"
+        }
+       ]
+      },
+      {
+       "key": "girard-tv-aerials",
+       "title": "TV Aerials And Aircraft Light Trail, Kowloon Walled City",
+       "year": 1990,
+       "location": "Kowloon Walled City, Hongkong",
+       "tags": [
+        "hongkong",
+        "nacht",
+        "antennen",
+        "langzeitbelichtung"
+       ],
+       "source_url": "https://www.featureshoot.com/?p=142400",
+       "image_url": "https://www.featureshoot.com/wp-content/uploads/2020/02/055_026_Walled_City019.jpg",
+       "sources": [
+        {
+         "url": "https://www.featureshoot.com/?p=142400",
+         "title": "Ellyn Kail: Welcome to the Kowloon Walled City, One of the Most Misunderstood Places in History – Feature Shoot (2020)",
+         "excerpt": "The planes passed overhead approximately every ten minutes-limiting the buildings to a height of 14 stories for fear of collisions.",
+         "kind": "kritik",
+         "author": "Ellyn Kail (Feature Shoot)",
+         "aspect": "entstehung",
+         "series_level": false,
+         "translation_de": "Die Flugzeuge flogen etwa alle zehn Minuten darüber – deshalb durften die Gebäude aus Angst vor Kollisionen höchstens 14 Stockwerke hoch sein."
+        }
+       ]
+      },
+      {
+       "key": "girard-hair-salon",
+       "title": "Hair Salon, Kowloon Walled City",
+       "year": 1989,
+       "location": "Kowloon Walled City, Hongkong",
+       "tags": [
+        "hongkong",
+        "innenraum",
+        "alltag",
+        "kunstlicht"
+       ],
+       "source_url": "https://www.featureshoot.com/?p=142400",
+       "image_url": "https://www.featureshoot.com/wp-content/uploads/2020/02/059_018b_Walled_City037.jpg",
+       "sources": []
+      },
+      {
+       "key": "girard-noodle-factory-desktop",
+       "title": "Noodle Factory Desktop",
+       "year": 1989,
+       "location": "Kowloon Walled City, Hongkong",
+       "tags": [
+        "hongkong",
+        "stillleben",
+        "staub",
+        "innenraum"
+       ],
+       "source_url": "https://www.featureshoot.com/?p=142400",
+       "image_url": "https://www.featureshoot.com/wp-content/uploads/2020/02/029_GG_KWC.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "lang-jingshan",
+   "name": "Lang Jingshan",
+   "born": 1892,
+   "died": 1995,
+   "sources": [
+    {
+     "url": "https://mplus.org.hk/en/collection/objects/majestic-solitude-2018244/",
+     "title": "Lang Jingshan, Majestic Solitude (1934) – M+ Collection, Hongkong",
+     "excerpt": "Lang Jingshan worked commercially as a photojournalist and was known as the'father of Asian photography' for his prolific output and pioneering explorations in the darkroom. He made the fantastical worlds of Chinese literati landscape painting'real' through his camera lens.",
+     "translation_de": "Lang Jingshan arbeitete beruflich als Fotojournalist und galt wegen seines umfangreichen Werks und seiner Pionierarbeit in der Dunkelkammer als „Vater der asiatischen Fotografie“. Er machte die phantastischen Welten der chinesischen Literatenmalerei durch seine Kamera „wirklich“."
+    },
+    {
+     "url": "https://brewminate.com/lang-jingshan-and-early-chinese-photography/",
+     "title": "Tiffany Wai-Ying Beres: Lang Jingshan and Early Chinese Photography (Smarthistory 2020, Nachdruck CC BY-NC-SA auf Brewminate)",
+     "excerpt": "The difficulty, in photography, of producing an ideal and beautiful scene is two-fold. It depends on what the lens can take in, and it is limited by the disadvantages of machinery.... With composite pictures, photographers can now do just the same as the Chinese artists; they now have their choice among natural objects; they may now make their own compositions in photography. Neither time nor space need hereafter be an obstacle.",
+     "kind": "fotograf",
+     "author": "Lang Jingshan (1942), zitiert von Tiffany Wai-Ying Beres",
+     "translation_de": "Die Schwierigkeit, in der Fotografie eine ideale und schöne Szene zu schaffen, ist zweifach: Sie hängt davon ab, was das Objektiv erfassen kann, und sie wird durch die Nachteile der Maschine begrenzt … Mit Kompositbildern können Fotografen nun genau wie die chinesischen Maler verfahren; sie haben die Wahl unter den Dingen der Natur und können ihre eigenen Kompositionen schaffen. Weder Zeit noch Raum müssen künftig ein Hindernis sein."
+    },
+    {
+     "url": "http://new.cphoto.net/chinese/kl/ljs/index.htm",
+     "title": "郎静山摄影作品 – 中国摄影师 (cphoto.net), Einführung",
+     "excerpt": "我做集锦照片，是希望以最写实、最传真的摄影工具，融合我国固有画理，以一种'善'意的理念，实用的价值，创造出具有'美的作品'。",
+     "kind": "fotograf",
+     "author": "Lang Jingshan (zitiert von cphoto.net)",
+     "translation_de": "Mit meinen Kompositbildern (jijin) möchte ich mit dem realistischsten, wirklichkeitsgetreuesten Werkzeug, der Fotografie, die überlieferten Bildregeln unserer (chinesischen) Malerei verbinden und mit einer Idee des Guten und praktischem Wert ‚schöne Werke‘ schaffen."
+    }
+   ],
+   "projects": [
+    {
+     "key": "lang-composite-landscapes",
+     "title": "Kompositlandschaften (集锦摄影) – Auswahl 1934–1988",
+     "year_from": 1934,
+     "year_to": 1988,
+     "sources": [
+      {
+       "url": "https://brewminate.com/lang-jingshan-and-early-chinese-photography/",
+       "title": "Tiffany Wai-Ying Beres: Lang Jingshan and Early Chinese Photography (Smarthistory 2020, Nachdruck CC BY-NC-SA auf Brewminate)",
+       "excerpt": "In this specific style of fine-art photography, Lang utilized combination-printing and other darkroom methods to assemble photographic fragments into seamless compositions of his own creation.",
+       "kind": "wissenschaft",
+       "author": "Tiffany Wai-Ying Beres (Smarthistory)",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "In diesem Stil der künstlerischen Fotografie setzte Lang Kombinationsdruck und andere Dunkelkammerverfahren ein, um fotografische Fragmente zu nahtlosen, selbst erfundenen Kompositionen zusammenzufügen."
+      },
+      {
+       "url": "https://brewminate.com/lang-jingshan-and-early-chinese-photography/",
+       "title": "Tiffany Wai-Ying Beres: Lang Jingshan and Early Chinese Photography (Smarthistory 2020, Nachdruck CC BY-NC-SA auf Brewminate)",
+       "excerpt": "Because each work is created in the darkroom, with Lang separately placing each negative as well as manipulating the exposure of specific areas, each print is a unique work by the artist's hand.",
+       "kind": "wissenschaft",
+       "author": "Tiffany Wai-Ying Beres (Smarthistory)",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "Weil jedes Werk in der Dunkelkammer entsteht – Lang platzierte jedes Negativ einzeln und steuerte die Belichtung einzelner Bereiche –, ist jeder Abzug ein Unikat von der Hand des Künstlers."
+      },
+      {
+       "url": "https://brewminate.com/lang-jingshan-and-early-chinese-photography/",
+       "title": "Tiffany Wai-Ying Beres: Lang Jingshan and Early Chinese Photography (Smarthistory 2020, Nachdruck CC BY-NC-SA auf Brewminate)",
+       "excerpt": "As part of this composite process, Lang also re-used and even re-oriented his negatives, which is why the same figures, boats, and animal subjects frequently appear in different compositions, sometimes with the direction of the negative flipped.",
+       "kind": "wissenschaft",
+       "author": "Tiffany Wai-Ying Beres (Smarthistory)",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "Lang verwendete seine Negative wieder und drehte sie sogar um; deshalb tauchen dieselben Figuren, Boote und Tiere oft in verschiedenen Kompositionen auf, manchmal seitenverkehrt."
+      },
+      {
+       "url": "https://brewminate.com/lang-jingshan-and-early-chinese-photography/",
+       "title": "Tiffany Wai-Ying Beres: Lang Jingshan and Early Chinese Photography (Smarthistory 2020, Nachdruck CC BY-NC-SA auf Brewminate)",
+       "excerpt": "Over the years, Lang assembled and reassembled his photographs drawing on popular Chinese motifs, such as clouds, mountainous peaks, pine trees, bamboo, cranes, and deer, repeatedly working through this traditional visual vocabulary to create novel compositions that strongly resemble and resonate with the aesthetics of Chinese paintings.",
+       "kind": "wissenschaft",
+       "author": "Tiffany Wai-Ying Beres (Smarthistory)",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Über die Jahre setzte Lang seine Fotos immer wieder neu zusammen, mit beliebten chinesischen Motiven wie Wolken, Berggipfeln, Kiefern, Bambus, Kranichen und Hirschen, und schuf so neue Kompositionen im Geist der chinesischen Malerei."
+      }
+     ],
+     "images": [
+      {
+       "key": "lang-winter-forest",
+       "title": "Winterwald (冬季森林)",
+       "year": 1934,
+       "tags": [
+        "komposit",
+        "schwarzweiß",
+        "bäume",
+        "nebel"
+       ],
+       "source_url": "http://new.cphoto.net/chinese/kl/ljs/03.htm",
+       "image_url": "http://new.cphoto.net/chinese/kl/ljs/01-7.jpg",
+       "sources": []
+      },
+      {
+       "key": "lang-salt-wells-huaxi",
+       "title": "Salzbrunnen von Huaxi (华溪盐井)",
+       "year": 1938,
+       "tags": [
+        "komposit",
+        "schwarzweiß",
+        "salzbrunnen",
+        "dunst"
+       ],
+       "source_url": "http://new.cphoto.net/chinese/kl/ljs/04.htm",
+       "image_url": "http://new.cphoto.net/chinese/kl/ljs/04-6.jpg",
+       "sources": []
+      },
+      {
+       "key": "lang-slanting-wind-fine-rain",
+       "title": "Schräger Wind, feiner Regen – kein Grund heimzukehren (斜风细雨不需归)",
+       "year": 1960,
+       "tags": [
+        "komposit",
+        "schwarzweiß",
+        "fischer",
+        "leere"
+       ],
+       "source_url": "http://new.cphoto.net/chinese/kl/ljs/04.htm",
+       "image_url": "http://new.cphoto.net/chinese/kl/ljs/04-4.jpg",
+       "sources": []
+      },
+      {
+       "key": "lang-fisherman-homeward",
+       "title": "Heimweg des Fischers (渔夫归家路)",
+       "year": 1988,
+       "tags": [
+        "komposit",
+        "schwarzweiß",
+        "boot",
+        "weide"
+       ],
+       "source_url": "http://new.cphoto.net/chinese/kl/ljs/04.htm",
+       "image_url": "http://new.cphoto.net/chinese/kl/ljs/04-5.jpg",
+       "sources": []
+      },
+      {
+       "key": "lang-setting-sail",
+       "title": "Ausfahrt (启航)",
+       "year": 1988,
+       "tags": [
+        "schwarzweiß",
+        "dschunke",
+        "meer",
+        "gegenlicht"
+       ],
+       "source_url": "http://new.cphoto.net/chinese/kl/ljs/04.htm",
+       "image_url": "http://new.cphoto.net/chinese/kl/ljs/04-7.jpg",
+       "sources": []
+      },
+      {
+       "key": "lang-deer-in-forest",
+       "title": "Hirsche im Wald (森林之鹿)",
+       "year": 1956,
+       "tags": [
+        "komposit",
+        "schwarzweiß",
+        "hirsche",
+        "nebel"
+       ],
+       "source_url": "http://new.cphoto.net/chinese/kl/ljs/04.htm",
+       "image_url": "http://new.cphoto.net/chinese/kl/ljs/04-1.jpg",
+       "sources": [
+        {
+         "url": "https://brewminate.com/lang-jingshan-and-early-chinese-photography/",
+         "title": "Tiffany Wai-Ying Beres: Lang Jingshan and Early Chinese Photography (Smarthistory 2020, Nachdruck CC BY-NC-SA auf Brewminate)",
+         "excerpt": "As part of this composite process, Lang also re-used and even re-oriented his negatives, which is why the same figures, boats, and animal subjects frequently appear in different compositions, sometimes with the direction of the negative flipped.",
+         "kind": "wissenschaft",
+         "author": "Tiffany Wai-Ying Beres (Smarthistory)",
+         "aspect": "technik",
+         "series_level": true,
+         "translation_de": "Dieselben Figuren, Boote und Tiere tauchen in verschiedenen Kompositionen auf, manchmal seitenverkehrt."
+        }
+       ]
+      },
+      {
+       "key": "lang-chinese-style-university",
+       "title": "Universität im chinesischen Stil (中国式大学)",
+       "year": 1972,
+       "tags": [
+        "komposit",
+        "schwarzweiß",
+        "wolken",
+        "architektur"
+       ],
+       "source_url": "http://new.cphoto.net/chinese/kl/ljs/03.htm",
+       "image_url": "http://new.cphoto.net/chinese/kl/ljs/01-2.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 2,
+   "title": "Die große Landschaftsfotografie in Schwarzweiß",
+   "key_images": [
+    "lang-winter-forest",
+    "lang-salt-wells-huaxi",
+    "lang-fisherman-homeward"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Neue Topografie: Landschaft mit Spuren des Menschen",
+   "key_images": [
+    "teh-luxury-apartments",
+    "teh-brick-factory"
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Die großen Formate: Düsseldorfer Schule und die Megastädte",
+   "key_images": [
+    "girard-kwc-1987",
+    "girard-tung-tau-tsuen-rd",
+    "girard-tv-aerials"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Zeitgenössische Landschaft: Mensch, Industrie, Klima",
+   "key_images": [
+    "kander-chongqing-iv",
+    "kander-old-fengdu-ii",
+    "kander-three-gorges-dam-v",
+    "teh-coal-ash-snow",
+    "teh-farmland-linfen",
+    "teh-steel-plant-hancheng",
+    "yang-pl2-no1"
+   ]
+  },
+  {
+   "number": 11,
+   "title": "Die Reise als Autorenprojekt: Roadtrip, Fremde, Blick von außen",
+   "key_images": [
+    "kander-source-vii",
+    "kander-wu-gorge",
+    "girard-kai-tak-view",
+    "girard-children-rooftop"
+   ]
+  },
+  {
+   "number": 12,
+   "title": "Landschaftsfotografie: vom Erhabenen zur intimen Landschaft",
+   "key_images": [
+    "yang-pl1-no2",
+    "yang-fairyland",
+    "lang-winter-forest",
+    "lang-slanting-wind-fine-rain"
+   ]
+  }
+ ]
+}

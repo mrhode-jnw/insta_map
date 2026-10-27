@@ -14,6 +14,11 @@ export async function loadLibrary() {
   lib.lessons = base.lessons || [];
   lib.sketches = base.sketches || {};
   lib.references = base.references || [];
+  lib.facts = base.facts || [];
+  lib.womit = base.womit || [];
+  lib.anecdotes = base.anecdotes || [];
+  lib.myths = base.myths || [];
+  lib.editing = base.editing || { series: [], versions: [], sequences: [] };
   lib.built_at = base.built_at;
   index();
 }

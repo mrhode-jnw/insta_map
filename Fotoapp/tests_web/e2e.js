@@ -281,7 +281,7 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
   const kinds = new Set();
   for (let k = 0; k < 8; k++) {
     await page.waitForSelector(".snack");
-    kinds.add(await page.$eval(".snack", e => e.className));
+    kinds.add(await page.$eval(".snack", e => e.className + " " + e.querySelector(".seg").textContent + " " + e.querySelector(".snack-count").textContent));
     for (let step = 0; step < 30 && !(await page.$(".snack-next button")); step++) { // play whatever the card asks for
       let hit = false;
       for (const sel of ["[data-action='snack-check']:not([disabled])", ".assign-row:not(:has(.chip.on)) .chip", ".snack-opts .opt:not([disabled])", ".tf-btns .opt:not([disabled])",
@@ -292,7 +292,8 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
     await page.click(".snack-next button");
   }
   console.log("   kinds:", [...kinds].join(", "));
-  await waitText("Runde geschafft"); await shot("06c-haeppchen");
+  await waitText("Runde geschafft").catch(async e => { console.log("   page:", (await page.innerText("main").catch(() => "")).slice(0, 600)); await shot("06c-haeppchen-fail"); throw e; });
+  await shot("06c-haeppchen");
   ok(claudeCalls.length === callsSnack, "Häppchen round of 10 cards without any AI call");
   ok(!(await page.content()).includes("[S"), "Häppchen shows sources as numbers, not raw [S…] ids");
   // Concepts and chapter
