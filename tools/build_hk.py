@@ -193,7 +193,7 @@ for e in bp.load_json(os.path.join(ROOT, "hk", "extra_spots.json"), []):
         "profile_url": "", "posts": [], "pop": e.get("pop"), "pop_reason": e.get("reason", ""),
         "image_page": e.get("url", "https://www.timeout.com/hong-kong/things-to-do/hong-kong-neon-signs"),
         "image_credit": src, "source": src,
-        **({"ok": e["ok"]} if e.get("ok") else {}), **({"unsure": e["unsure"]} if e.get("unsure") else {}),
+        **({"ok": e["ok"]} if e.get("ok") else {}), **({"unsure": e["unsure"]} if e.get("unsure") else {}), **({"kind": e["kind"]} if e.get("kind") else {}),
     })
 
 # Spots ohne eigenes Foto: Ersatzfoto von Wikimedia Commons (hk/photo_overrides.json, Name → Bild + Quelle)

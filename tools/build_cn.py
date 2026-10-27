@@ -141,7 +141,7 @@ for e in bp.load_json(os.path.join(ROOT, "cn", "extra_spots.json"), []):
         "category": e["cat"], "note": e.get("note", ""), "address": e["district"], "lat": e["lat"], "lng": e["lng"],
         "approx": e.get("approx", False), "image": None, "caption": "", "post_url": "", "username": "",
         "profile_url": "", "posts": [], "source": e.get("source", ""),
-        **({"ok": e["ok"]} if e.get("ok") else {}), **({"unsure": e["unsure"]} if e.get("unsure") else {}),
+        **({"ok": e["ok"]} if e.get("ok") else {}), **({"unsure": e["unsure"]} if e.get("unsure") else {}), **({"kind": e["kind"]} if e.get("kind") else {}),
     })
 
 # Zusätzliche Fotos aus Links (cn/extra_photos.json, Name → [{image, url, credit}]) – erscheinen in der Galerie

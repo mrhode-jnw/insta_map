@@ -12633,6 +12633,7 @@ window.PLACES_CN = [
   ],
   "source": "https://m.cq.bendibao.com/tour/94613.shtm · https://english.liangjiang.gov.cn/2025-12/05/c_1146637.htm · https://finance.sina.com.cn/roll/2026-06-10/doc-iniaxeiv1342612.shtml · https://m.thepaper.cn/newsDetail_forward_33347540",
   "unsure": "Pin = Viertel „BeiCang Cultural and Creative District“ laut OpenStreetMap (ungefähr); im Navi „北仓图书馆“ oder „北仓文创街区“ suchen. Einzelne Läden/Öffnungszeiten nicht geprüft.",
+  "kind": "sight",
   "image_page": "https://commons.wikimedia.org/wiki/File:Beicang_Culture_Park_street_view.jpg",
   "image_credit": "HoweyYuan · CC BY-SA 4.0 · Wikimedia Commons",
   "when": "day"

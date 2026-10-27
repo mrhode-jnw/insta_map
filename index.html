@@ -244,6 +244,9 @@
   .ic .itm.moved { color: #f59e0b; }
   .ilate { display: inline-block; max-width: 100%; white-space: normal; margin: 0 0 8px; padding: 3px 9px; border-radius: 999px; background: rgba(245,158,11,.18); color: #f59e0b; font-size: 12.5px; font-weight: 600; }
   .b-opt { background: #f3e8ff; color: #6b21a8; }
+  .kindsw { display: flex; gap: 6px; margin: 6px 0; }
+  .kindsw button { flex: 1; border: 1px solid var(--line); background: transparent; color: var(--fg); border-radius: 12px; padding: 9px 10px; font: inherit; font-weight: 600; cursor: pointer; }
+  #addDlg .kindsw button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
   .b-fav { background: rgba(225,29,72,.18); color: #e11d48; font-weight: 700; }
   html:not([data-theme="light"]) .b-fav { color: #fb7185; }
   .icard.fav { box-shadow: inset 3px 0 0 #e11d48; }
@@ -1056,7 +1059,7 @@
 <div id="scale" aria-hidden="true"><b></b><span></span></div>
 <div id="group" role="tablist" aria-label="Bereich">
   <button class="where" id="whereBtn" type="button" aria-label="Bereich wählen"><span id="whereLbl">🧭 Route</span></button>
-  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="food">🍜 Food</button><button data-g="claude">✦ Tipps</button><button data-g="ideen">✷ <span class="gf">Fotoideen</span><span class="gs">Ideen</span></button><button data-nltop title="Posts ohne genauen Ort">📍<span class="gf"> Ohne Ort</span></button>
+  <span class="sep"></span><button data-g="fotos" class="on">📷 Fotos</button><button data-g="sights" title="Sehenswürdigkeiten, Altstädte, Essen, Erlebnisse – nicht primär zum Fotografieren">🎒 Erlebnisse</button><button data-nltop title="Posts ohne genauen Ort">📍<span class="gf"> Ohne Ort</span></button>
 </div>
 <div id="dockbg"></div>
 <nav id="dock" aria-label="Bereiche">
@@ -1086,6 +1089,9 @@
     <ul id="addResults"></ul>
     <div id="addPos">Ort suchen oder lange auf die Karte tippen.</div>
     <input id="addName" placeholder="Name des Spots" required>
+    <div id="addKind" class="kindsw" role="radiogroup" aria-label="Art des Spots">
+      <button type="button" data-k="" class="on" role="radio" aria-checked="true">📷 Foto-Spot</button><button type="button" data-k="sight" role="radio" aria-checked="false">🎒 Erlebnis</button>
+    </div>
     <select id="addCat"></select>
     <textarea id="addNote" placeholder="Notiz (optional)"></textarea>
     <input id="addLink" type="url" placeholder="Instagram-Link (optional)">
@@ -1111,6 +1117,7 @@
     <div id="chips"></div>
     <div id="chips2">
       <button type="button" id="filterSw" title="Alle Filter auf einmal aus- bzw. wieder einschalten">Filter aus</button>
+      <button type="button" id="fIdeas" title="Ungewöhnliche Foto-Ideen von Claude in Liste und Karte einblenden">✷ Fotoideen</button>
       <select id="fDone" aria-label="Fotografiert">
         <option value="">📷 Alle</option><option value="open">📷 Nicht fotografiert</option><option value="done">📷 Fotografiert</option>
       </select>
@@ -1978,12 +1985,19 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Oberste Ebene: Bereich (Fotos / Food); Kategorien darunter gehören zum gewählten Bereich
   // Fotos/Food = deine Spots aus der Sammlung (+ eigene); Tipps = von Claude ergänzte Spots
   const unplacedAll = [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])];
-  const GROUPS = { food: p => !p.idea && !p.by_claude && p.category === "Food", fotos: p => !p.idea && !p.by_claude && p.category !== "Food", claude: p => !p.idea && p.by_claude, ideen: p => !!p.idea };
+  // Fotos = Fotospots (Instagram-Sammlung, eigene Foto-Spots); Erlebnisse = Claude-Tipps, eigene Erlebnis-Spots („kind: sight“) und Food – Reiseerlebnis statt Fotografie.
+  // Fotoideen sind kein Bereich oben, sondern ein eigener Filter unten (standardmäßig aus).
+  const isSight = p => p.kind === "sight" || !!p.by_claude || p.category === "Food";
+  const GROUPS = { fotos: p => !p.idea && !isSight(p), sights: p => !p.idea && isSight(p) };
   // Fotos / Food / Tipps frei kombinierbar (Mehrfachauswahl, wird gemerkt); nichts gewählt = alles
   let groups = new Set(["fotos"]);
-  try { const g = JSON.parse(localStorage.getItem("groups") || "null"); if (Array.isArray(g)) groups = new Set(g.filter(x => GROUPS[x])); } catch {}
+  try { const g = JSON.parse(localStorage.getItem("groups") || "null");  // alte Bereiche Tipps/Food → Erlebnisse, Ideen → Filter unten
+    if (Array.isArray(g)) groups = new Set(g.map(x => x === "claude" || x === "food" ? "sights" : x).filter(x => GROUPS[x])); } catch {}
+  let ideasOn = false; try { ideasOn = localStorage.getItem("ideasOn") === "1"; } catch {}
+  const setIdeas = on => { ideasOn = !!on; try { localStorage.setItem("ideasOn", ideasOn ? "1" : "0"); } catch {} $("#fIdeas").classList.toggle("on", ideasOn); };
+  $("#fIdeas").classList.toggle("on", ideasOn);
   const saveGroups = () => { try { localStorage.setItem("groups", JSON.stringify([...groups])); } catch {} };
-  const inGroups = p => !groups.size || [...groups].some(g => GROUPS[g](p));
+  const inGroups = p => p.idea ? ideasOn : (!groups.size || [...groups].some(g => GROUPS[g](p)));
   // Bereich oben links: 🧭 Route (nur Spots an unserer Route) oder frei kombinierbare Regionen der Reise (Mehrfachauswahl)
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
   const SUBS = [["hk", "🇭🇰 Hongkong"], ["sz", "Shenzhen"], ["gl", "Guilin · Yangshuo · Longji"], ["gz", "Guizhou · Fenghuang"],
@@ -2029,8 +2043,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   }
   function showWhere() {
     $("#whereLbl").textContent = whereLabel();
-    $("#group").querySelectorAll("[data-g=food],[data-g=claude],[data-g=ideen]").forEach(x =>
-      x.hidden = !places.some(p => inScope(p) && GROUPS[x.dataset.g](p)));
+    $("#group").querySelectorAll("[data-g=sights]").forEach(x => x.hidden = !places.some(p => inScope(p) && GROUPS.sights(p)));
+    { const b = $("#fIdeas"); if (b) b.hidden = !places.some(p => p.idea && inScope(p)); }
   }
   function setWhere(route, newRegs, fit = true) {
     routeF = route; if (newRegs) regs = new Set(newRegs);
@@ -2137,7 +2151,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const FILTERS = {
     fDone: v => { doneF = v || null; },
     fPrio: v => { prioF.clear(); if (v) v.split(",").forEach(x => prioF.add(x)); },
-    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; rainF = v === "rain"; },
+    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; rainF = v === "rain"; if (rainF && !ideasOn) setIdeas(true); },
     fWhen: v => { whenF = v || null; },
   };
   Object.entries(FILTERS).forEach(([id, apply]) => {
@@ -2186,21 +2200,22 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   // Schalter: alle Filter auf einmal aus bzw. den gemerkten Stand wieder an
   let filterSnap = null;
   const setSel = (id, v) => { const el = $("#" + id); el.value = v; el.classList.toggle("on", !!v); FILTERS[id](v); };
-  const filtersActive = () => !!($("#fDone").value || $("#fPrio").value || $("#fWhen").value || $("#fMore").value || areaF || $("#search").value.trim() || cat || inView);
+  $("#fIdeas").addEventListener("click", () => { setIdeas(!ideasOn); renderChips(); renderList(); syncFilterSw(); });
+  const filtersActive = () => !!(ideasOn || $("#fDone").value || $("#fPrio").value || $("#fWhen").value || $("#fMore").value || areaF || $("#search").value.trim() || cat || inView);
   const syncFilterSw = () => { const b = $("#filterSw"); if (!b) return; b.textContent = filterSnap ? "Filter an" : "Filter aus"; b.classList.toggle("on", !!filterSnap); b.disabled = !filterSnap && !filtersActive(); };
   $("#filterSw").addEventListener("click", () => {
     if (filterSnap) {
       const s = filterSnap; filterSnap = null;
       ["fDone", "fPrio", "fWhen", "fMore"].forEach(id => setSel(id, s[id]));
       areaF = s.area; try { localStorage.setItem("areaF", areaF); } catch {}
-      $("#search").value = s.search;
+      $("#search").value = s.search; setIdeas(s.ideas);
       cat = s.cat; saveCat(); renderChips();
       inView = s.inView; try { localStorage.setItem("inView2", inView ? "1" : "0"); } catch {}
     } else {
-      filterSnap = { fDone: $("#fDone").value, fPrio: $("#fPrio").value, fWhen: $("#fWhen").value, fMore: $("#fMore").value, area: areaF, search: $("#search").value, cat, inView };
+      filterSnap = { ideas: ideasOn, fDone: $("#fDone").value, fPrio: $("#fPrio").value, fWhen: $("#fWhen").value, fMore: $("#fMore").value, area: areaF, search: $("#search").value, cat, inView };
       ["fDone", "fPrio", "fWhen", "fMore"].forEach(id => setSel(id, ""));
       areaF = ""; try { localStorage.setItem("areaF", ""); } catch {}
-      $("#search").value = ""; cat = null; saveCat(); renderChips();
+      $("#search").value = ""; setIdeas(false); cat = null; saveCat(); renderChips();
       inView = false; try { localStorage.setItem("inView2", "0"); } catch {}
     }
     renderList(); syncFilterSw();
@@ -3360,7 +3375,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "123 · Karte in China wieder drehbar";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "124 · Fotos & Erlebnisse oben, Fotoideen als Filter";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3556,7 +3571,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     syncFilterSw();
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = favF || trashF || rainF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = ideasOn || favF || trashF || rainF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${p.rain ? `<span title="Gut bei Regen">🌧 </span>` : ""}${s.fav && !p.idea ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
@@ -4011,9 +4026,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       return (await r.json()).display_name || "";
     } catch { return ""; }
   }
+  const setAddKind = k => $("#addKind").querySelectorAll("button").forEach(b => { const on = b.dataset.k === k; b.classList.toggle("on", on); b.setAttribute("aria-checked", on); });
+  $("#addKind").addEventListener("click", e => { const b = e.target.closest("button[data-k]"); if (b) setAddKind(b.dataset.k); });
+  const addKind = () => { const b = $("#addKind button.on"); return b ? b.dataset.k : ""; };
   function openAdd(latlng) {
     dlg.hidden = false; setSnap("peek");
-    const pre = groups.size === 1 && groups.has("food") ? "Food" : "Eigene";
+    const pre = "Eigene"; setAddKind("");  // Standard: Foto-Spot
     $("#addCat").innerHTML = [...new Set([...places.map(p => p.category).filter(Boolean).sort(), "Food", "Eigene"])]
       .map(c => `<option${c === pre ? " selected" : ""}>${esc(c)}</option>`).join("");
     $("#tokenRow").hidden = !!store.get(TOKEN_KEY);
@@ -4073,7 +4091,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (!store.get(TOKEN_KEY)) { $("#tokenRow").hidden = false; $("#addErr").textContent = "GitHub-Token fehlt."; return; }
     const ll = draft.getLatLng();
     const spot = { id: "my-" + Date.now().toString(36), name: $("#addName").value.trim(), category: $("#addCat").value,
-      note: $("#addNote").value.trim(), link: $("#addLink").value.trim(), address: draftAddr,
+      note: $("#addNote").value.trim(), link: $("#addLink").value.trim(), address: draftAddr, ...(addKind() ? { kind: addKind() } : {}),
       lat: +ll.lat.toFixed(6), lng: +ll.lng.toFixed(6), created: new Date().toISOString() };
     $("#addSave").disabled = true; $("#addErr").textContent = "Speichere …";
     try {
@@ -4251,7 +4269,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       try { v = (await navigator.clipboard.readText()).trim(); } catch { v = ""; }
       if (!linkKind(firstUrl(v))) { toast("Kein Link in der Zwischenablage.", 4500); return; }
     }
-    if (await addToInbox(v, $("#impWhere").value)) { $("#impLink").value = ""; $("#impWhere").value = ""; closeAdd(); }
+    if (await addToInbox(v, $("#impWhere").value, addKind() ? { kind_spot: addKind() } : null)) { $("#impLink").value = ""; $("#impWhere").value = ""; closeAdd(); }
   });
   // Teilen-Menü / Kurzbefehl: …/insta_map/?add=<Link> (Instagram, Google Maps, OSM, Locationscout)
   (() => {

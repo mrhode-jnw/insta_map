@@ -30,3 +30,8 @@
   Wolken, Regen, Sicht, AQI/PM2,5, Einschätzung „klar … sehr diesig“). Liegt im Branch **map-data**, nicht im Seiten-Branch.
 - `sh tools/update_forecast.sh` rechnet neu und pusht nach map-data; die Routine (3× täglich) ruft das
   in jedem Lauf auf (ROUTINE.md, Schritt 0b). Nach Änderungen am Reiseplan reicht ein Lauf dieses Skripts.
+
+## Fotos & Erlebnisse (Leiste oben in der App)
+- „📷 Fotos“ = Foto-Spots, „🎒 Erlebnisse“ = Claude-Tipps, Food und Spots mit `"kind": "sight"` (nicht primär Fotografie).
+  Neue Spots sind standardmäßig Foto-Spots; Erlebnisse in `extra_spots.json` mit `"kind": "sight"` anlegen.
+- Fotoideen sind kein Bereich oben, sondern der Filter „✷ Fotoideen“ unten (standardmäßig aus).

@@ -2561,7 +2561,7 @@ window.PLACES = [
   "lng": 114.168,
   "approx": false,
   "image": "images/Dci2CYBGUGe.jpg",
-  "caption": "",
+  "caption": "An elderly locksmith works at his tiny stall on Shanghai Street in Mong Kok.⁠\n⁠\nThe street where this old neighbourhood stall is located is one of the oldest in Hong Kong, stretching from Austin Road to Prince Edward Road through the neighbourhoods of Jordan, Yau Ma Tei and Mong Kok. Built in 1887, it was one of several streets in Kowloon named after important ports in China and Southeast Asia, including Canton Road, Saigon Street and Haiphong Road.⁠\n⁠\nIn the last century, Shanghai Street was Kowloon’s main street, with mahjong houses, gold shops and herbal medicine stores lining the road and ",
   "post_url": "https://www.instagram.com/zolima_hongkong/p/Dci2CYBGUGe/",
   "username": "zolima_hongkong",
   "profile_url": "https://www.instagram.com/zolima_hongkong/",
@@ -2572,7 +2572,7 @@ window.PLACES = [
     "profile_url": "https://www.instagram.com/zolima_hongkong/",
     "kind": "p",
     "image": "images/Dci2CYBGUGe.jpg",
-    "caption": "",
+    "caption": "An elderly locksmith works at his tiny stall on Shanghai Street in Mong Kok.⁠\n⁠\nThe street where this old neighbourhood stall is located is one of the oldest in Hong Kong, stretching from Austin Road to Prince Edward Road through the neighbourhoods of Jordan, Yau Ma Tei and Mong Kok. Built in 1887, it was one of several streets in Kowloon named after important ports in China and Southeast Asia, including Canton Road, Saigon Street and Haiphong Road.⁠\n⁠\nIn the last century, Shanghai Street was Kowloon’s main street, with mahjong houses, gold shops and herbal medicine stores lining the road and ",
     "match": "single"
    }
   ],
@@ -6288,7 +6288,7 @@ window.UNPLACED_POSTS = [
   "profile_url": "https://www.instagram.com/audityawijaya/",
   "kind": "p",
   "image": "images/DdtWI4PDz_s.jpg",
-  "caption": "Kennedy Town, Hong Kong and everything in between.\n\nMong Kok — Jewels of Hong Kong\n\nThe legendary Ding Ding tram of Hong Kong in blue — highlights of Hong Kong Island.\n\nThe star of Tsim Sha Tsui — Hong Kong iconic red and white taxi.\n\nA stop for the “I ❤️ Hong Kong” shops.\n\nHashtag B — always be on my A Tier (rather S Tier) Egg Tart favourite in Hong Kong. Best of the Best!\n\nMarouf and Puff’s glazy baby croissants are the best bites for a rainy day in Hong Kong.\n\nEgg Tarts over Egg Tarts — the Halal Certified Egg Tarts of Marouf and Puff. A must visit!\n\nThe infamous Bakehouse bakery — no Bakeh",
+  "caption": "",
   "sub": "hk"
  }
 ];
