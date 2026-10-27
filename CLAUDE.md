@@ -37,3 +37,5 @@
 - Fotoideen sind kein Bereich oben, sondern der Filter „✷ Fotoideen“ unten (standardmäßig aus).
 - **Keine Foto-Kategorien mehr** (Architektur, Aussicht, Dorf …): nicht mehr recherchieren oder vergeben, `cat` darf leer sein;
   einzige Ausnahme `"Food"` für Essen. Die App zeigt keine Kategorie-Filter oder -Angaben mehr.
+- Auch Fotoideen (`cn/ideas.json`) haben eine Art: `"kind": "sight"` für Erlebnis-artige Ideen (Fahrten, Märkte, Essen, Handwerk, Aussichtsbars),
+  sonst Foto. Die Fotoideen-Anzeige folgt der Auswahl Fotos/Erlebnisse oben.
