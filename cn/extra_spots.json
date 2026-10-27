@@ -147,5 +147,16 @@
   "cat": "",
   "note": "Der beste Standpunkt für den Zug durchs Haus: die offizielle Aussichtsplattform 李子坝站观景平台 an der Straße gegenüber dem Wohnhaus (Liziba Zhengjie 李子坝正街) – man sieht die Bahn komplett aus dem Haus fahren. Metro Linie 2, Station Liziba 李子坝, Ausgang 1 führt direkt zur Plattform (Betrieb ca. 6:00–22:30, laut Reisebericht). Züge alle 3–6 Min. Tipps: Wochentags früh am leersten (am Wochenende dicht gedrängt). Mitzieher 1/30–1/60 s, 70–200 mm; für den Zug im Haus 1/500 s; von der Treppe oberhalb mit 24 mm über die Köpfe. Abends Stativ, 16–35 mm, f/8, ISO 100, 8–20 s, erst auslösen wenn der Zug ins Haus einfährt. Weitere Standpunkte: von der Treppe der Plattform nach oben, vom Fußweg zum Kriegsdenkmal-Park 李子坝抗战遗址公园 (ca. 10 Min.) und – für „Zug-essen“-Perspektive mit sehr langem Tele (200+ mm) – vom Ufer der Jiangbei-Seite an der 北滨一路 (ca. 550 m über den Jialing, Plattform nicht bestätigt).",
   "source": "https://sg.trip.com/guide/attraction/liziba-station.html · https://english.cq.gov.cn/specials/explore/PhotoPerfectSpots/202608/t20260810_15912642.html · OpenStreetMap (Pin)"
+ },
+ {
+  "name": "Shanghai Wild Animal Park 上海野生动物园",
+  "lat": 31.0574,
+  "lng": 121.7166,
+  "approx": false,
+  "district": "Pudong (Xuanqiao), Shanghai",
+  "cat": "",
+  "note": "Großer Safaripark im Süden von Pudong (南六公路178号): Freigehege mit Bus-Safari (kostenloser Safari-Bus mit langen Schlangen, dazu kostenpflichtige Fütterungsbusse ca. 40–100 ¥), Fußbereich mit Pandas, Shows. Eintritt Erwachsene ca. 165 ¥ (online oft günstiger). Öffnungszeiten je nach Quelle ca. 8/9–17 Uhr, Einlass bis 16 Uhr – vorab im offiziellen Ticketkanal prüfen. Anfahrt: Metro Linie 16 bis „Wild Animal Park“ 野生动物园站, dann Bus Pudong 96 (2 Stationen); vom Zentrum ca. 1–1,5 Std. Mindestens einen halben Tag einplanen.",
+  "source": "https://www.trip.com/guide/attraction/shanghai-wild-animal-park.html · https://www.nomadotravel.app/en/attractions/shanghai-wild-animal-park · OpenStreetMap (Pin)",
+  "kind": "sight"
  }
 ]
