@@ -284,8 +284,10 @@ window.SEHSCHULE_OPENAI_KEY_ENC = "${await encWithCode("sk-openai-test")}"; wind
     kinds.add(await page.$eval(".snack", e => e.className + " " + e.querySelector(".seg").textContent + " " + e.querySelector(".snack-count").textContent));
     for (let step = 0; step < 30 && !(await page.$(".snack-next button")); step++) { // play whatever the card asks for
       let hit = false;
+      if (await page.$("[data-action='snack-geo'][disabled]")) { await page.waitForSelector(".leaflet-container", { timeout: 15000 }).catch(() => {}); const bb = await (await page.$("#snack-map")).boundingBox(); await page.mouse.click(bb.x + bb.width * 0.4, bb.y + bb.height * 0.4); await page.waitForTimeout(300); }
+      const geoBtn = await page.$("[data-action='snack-geo']:not([disabled])"); if (geoBtn) { await geoBtn.click(); await page.waitForTimeout(800); continue; }
       for (const sel of ["[data-action='snack-check']:not([disabled])", ".assign-row:not(:has(.chip.on)) .chip", ".snack-opts .opt:not([disabled])", ".tf-btns .opt:not([disabled])",
-        ".order-item:not([disabled])", ".reveal-btn", "[data-action='snack-reveal']", "[data-action='snack-guess']", "[data-action='snack-zone']", ".chips .chip:not(.on):not([disabled])"]) {
+        ".order-item:not([disabled])", ".reveal-btn", "[data-action='snack-reveal']", "[data-action='snack-guess']", "[data-action='snack-zone']", "[data-action='snack-est']", ".chips .chip:not(.on):not([disabled])"]) {
         const b = await page.$(sel); if (b) { await b.click(); hit = true; break; } }
       await page.waitForTimeout(hit ? 80 : 300); // measuring cards render their question after the image is decoded
     }
