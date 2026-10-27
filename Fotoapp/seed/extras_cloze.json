@@ -1,0 +1,4000 @@
+{
+ "items": [
+  {
+   "source_id": 326484,
+   "blank": "sugarcoat",
+   "distractors": [
+    "exaggerate",
+    "photograph",
+    "explain"
+   ],
+   "blank_de": "beschönige",
+   "distractors_de": [
+    "übertreibe",
+    "fotografiere",
+    "erkläre"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 347894,
+   "blank": "suitable",
+   "distractors": [
+    "famous",
+    "available",
+    "finished"
+   ],
+   "blank_de": "geeignet",
+   "distractors_de": [
+    "berühmt",
+    "verfügbar",
+    "fertig"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 575358,
+   "blank": "hikers",
+   "distractors": [
+    "sheep",
+    "boulders",
+    "tents"
+   ],
+   "blank_de": "Wanderern",
+   "distractors_de": [
+    "Schafen",
+    "Felsbrocken",
+    "Zelten"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 288031,
+   "blank": "kept driving",
+   "distractors": [
+    "took the picture",
+    "turned around",
+    "parked"
+   ],
+   "blank_de": "weitergefahren",
+   "distractors_de": [
+    "ausgestiegen",
+    "umgekehrt",
+    "stehen geblieben"
+   ],
+   "topic": "scheitern"
+  },
+  {
+   "source_id": 601146,
+   "blank": "fisherman",
+   "distractors": [
+    "hunter",
+    "gardener",
+    "sailor"
+   ],
+   "blank_de": "Angler",
+   "distractors_de": [
+    "Jäger",
+    "Gärtner",
+    "Schiffer"
+   ],
+   "topic": "scheitern"
+  },
+  {
+   "source_id": 727811,
+   "blank": "juicy",
+   "distractors": [
+    "boring",
+    "blurry",
+    "crowded"
+   ],
+   "blank_de": "vielversprechend",
+   "distractors_de": [
+    "langweilig",
+    "unscharf",
+    "überfüllt"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 257219,
+   "blank": "failure",
+   "distractors": [
+    "luck",
+    "planning",
+    "equipment"
+   ],
+   "blank_de": "Scheitern",
+   "distractors_de": [
+    "Glück",
+    "Planung",
+    "Ausrüstung"
+   ],
+   "topic": "scheitern"
+  },
+  {
+   "source_id": 340115,
+   "blank": "ask questions",
+   "distractors": [
+    "tell stories",
+    "show beauty",
+    "document facts"
+   ],
+   "blank_de": "Fragen stellen",
+   "distractors_de": [
+    "Geschichten erzählen",
+    "Schönheit zeigen",
+    "Fakten belegen"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 449811,
+   "blank": "quietly",
+   "distractors": [
+    "quickly",
+    "sharply",
+    "cheaply"
+   ],
+   "blank_de": "leise",
+   "distractors_de": [
+    "schnell",
+    "scharf",
+    "günstig"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 215313,
+   "blank": "optically",
+   "distractors": [
+    "technically",
+    "emotionally",
+    "literally"
+   ],
+   "blank_de": "optisch",
+   "distractors_de": [
+    "technisch",
+    "zufällig",
+    "farblich"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 424940,
+   "blank": "book sequence",
+   "distractors": [
+    "exhibition wall",
+    "contact sheet",
+    "single print"
+   ],
+   "blank_de": "Buchsequenz",
+   "distractors_de": [
+    "Ausstellungswand",
+    "Kontaktbogen",
+    "Einzelabzug"
+   ],
+   "topic": "sequenz"
+  },
+  {
+   "source_id": 629631,
+   "blank": "drone",
+   "distractors": [
+    "camera",
+    "software",
+    "machine"
+   ],
+   "blank_de": "Drohne",
+   "distractors_de": [
+    "Kamera",
+    "Software",
+    "Maschine"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 352543,
+   "blank": "clouds",
+   "distractors": [
+    "birds",
+    "trees",
+    "storms"
+   ],
+   "blank_de": "Wolken",
+   "distractors_de": [
+    "Vögel",
+    "Bäume",
+    "Gewitter"
+   ],
+   "topic": "wetter"
+  },
+  {
+   "source_id": 418114,
+   "blank": "40 years",
+   "distractors": [
+    "two weeks",
+    "one summer",
+    "ten days"
+   ],
+   "blank_de": "40 Jahren",
+   "distractors_de": [
+    "zwei Wochen",
+    "einem Sommer",
+    "zehn Tagen"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 782170,
+   "blank": "difficult",
+   "distractors": [
+    "easy",
+    "cheap",
+    "boring"
+   ],
+   "blank_de": "schwer",
+   "distractors_de": [
+    "leicht",
+    "billig",
+    "langweilig"
+   ],
+   "topic": "wetter"
+  },
+  {
+   "source_id": 148098,
+   "blank": "grainy",
+   "distractors": [
+    "sharp",
+    "dark",
+    "expensive"
+   ],
+   "blank_de": "körnig",
+   "distractors_de": [
+    "scharf",
+    "dunkel",
+    "teuer"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 681251,
+   "blank": "passenger’s window",
+   "distractors": [
+    "rearview mirror",
+    "hotel window",
+    "road map"
+   ],
+   "blank_de": "Beifahrerfenster",
+   "distractors_de": [
+    "Rückspiegel",
+    "Hotelfenster",
+    "Busfahrplan"
+   ],
+   "topic": "reise"
+  },
+  {
+   "source_id": 475825,
+   "blank": "telephone poles",
+   "distractors": [
+    "rock formations",
+    "cottonwood trees",
+    "rain clouds"
+   ],
+   "blank_de": "Telefonmasten",
+   "distractors_de": [
+    "Felsformationen",
+    "Pappeln",
+    "Regenwolken"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 674232,
+   "blank": "truth and falsehood",
+   "distractors": [
+    "light and shadow",
+    "city and country",
+    "past and present"
+   ],
+   "blank_de": "Wahrheit und Täuschung",
+   "distractors_de": [
+    "Licht und Schatten",
+    "Stadt und Land",
+    "Vergangenheit und Gegenwart"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 904114,
+   "blank": "direct experience",
+   "distractors": [
+    "rural landscape",
+    "historic old town",
+    "family album"
+   ],
+   "blank_de": "unmittelbaren Erfahrung",
+   "distractors_de": [
+    "ländlichen Landschaft",
+    "historischen Altstadt",
+    "Familienalben"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 767648,
+   "blank": "helicopter",
+   "distractors": [
+    "balloon",
+    "plane",
+    "zeppelin"
+   ],
+   "blank_de": "Hubschrauber",
+   "distractors_de": [
+    "Ballon",
+    "Flugzeug",
+    "Zeppelin"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 244823,
+   "blank": "vedere",
+   "distractors": [
+    "fotografare",
+    "stampare",
+    "pensare"
+   ],
+   "blank_de": "sehen",
+   "distractors_de": [
+    "fotografieren",
+    "drucken",
+    "denken"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 203752,
+   "blank": "visualization",
+   "distractors": [
+    "exposure",
+    "print",
+    "expedition"
+   ],
+   "blank_de": "Visualisierung",
+   "distractors_de": [
+    "Belichtung",
+    "Abzug",
+    "Expedition"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 315161,
+   "blank": "magnificent",
+   "distractors": [
+    "ordinary",
+    "dull",
+    "dangerous"
+   ],
+   "blank_de": "Großartiges",
+   "distractors_de": [
+    "Gewöhnliches",
+    "Langweiliges",
+    "Gefährliches"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 332120,
+   "blank": "brilliant light",
+   "distractors": [
+    "thick fog",
+    "deep shade",
+    "falling snow"
+   ],
+   "blank_de": "grellen Lichts",
+   "distractors_de": [
+    "dichten Nebels",
+    "tiefen Schattens",
+    "fallenden Schnees"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 376751,
+   "blank": "truthful",
+   "distractors": [
+    "poetic",
+    "neutral",
+    "cautious"
+   ],
+   "blank_de": "wahrhaftig",
+   "distractors_de": [
+    "poetisch",
+    "neutral",
+    "vorsichtig"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 628444,
+   "blank": "groceries",
+   "distractors": [
+    "books",
+    "tools",
+    "film"
+   ],
+   "blank_de": "Einkaufstüte",
+   "distractors_de": [
+    "Kameratasche",
+    "Jacke",
+    "Decke"
+   ],
+   "topic": "menschen"
+  },
+  {
+   "source_id": 766251,
+   "blank": "no colour",
+   "distractors": [
+    "each other",
+    "the sky",
+    "the frame"
+   ],
+   "blank_de": "Nicht-Farbe",
+   "distractors_de": [
+    "einander",
+    "den Himmel",
+    "den Rahmen"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 924835,
+   "blank": "forever",
+   "distractors": [
+    "fragile",
+    "private",
+    "cheap"
+   ],
+   "blank_de": "für immer",
+   "distractors_de": [
+    "zerbrechlich",
+    "privat",
+    "billig"
+   ],
+   "topic": "sequenz"
+  },
+  {
+   "source_id": 309871,
+   "blank": "Winter",
+   "distractors": [
+    "Summer",
+    "Spring",
+    "Autumn"
+   ],
+   "blank_de": "Winter",
+   "distractors_de": [
+    "Sommer",
+    "Frühling",
+    "Herbst"
+   ],
+   "topic": "wetter"
+  },
+  {
+   "source_id": 339883,
+   "blank": "trees",
+   "distractors": [
+    "models",
+    "dogs",
+    "children"
+   ],
+   "blank_de": "Bäume",
+   "distractors_de": [
+    "Models",
+    "Hunde",
+    "Kinder"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 560156,
+   "blank": "veils",
+   "distractors": [
+    "frames",
+    "mirrors",
+    "spotlights"
+   ],
+   "blank_de": "Schleier",
+   "distractors_de": [
+    "Rahmen",
+    "Spiegel",
+    "Scheinwerfer"
+   ],
+   "topic": "wetter"
+  },
+  {
+   "source_id": 711407,
+   "blank": "pre-visualize",
+   "distractors": [
+    "improvise",
+    "wander",
+    "experiment"
+   ],
+   "blank_de": "vorab zu visualisieren",
+   "distractors_de": [
+    "zu improvisieren",
+    "umherzustreifen",
+    "zu experimentieren"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 312477,
+   "blank": "selectively",
+   "distractors": [
+    "generously",
+    "boldly",
+    "everywhere"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 106812,
+   "blank": "muted palette",
+   "distractors": [
+    "graphic style",
+    "vivid palette",
+    "abstract style"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 602435,
+   "blank": "heat and humidity",
+   "distractors": [
+    "cold and wind",
+    "dust and sand",
+    "salt and spray"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "technik"
+  },
+  {
+   "source_id": 304831,
+   "blank": "language",
+   "distractors": [
+    "weapon",
+    "memory",
+    "currency"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 381151,
+   "blank": "research",
+   "distractors": [
+    "editing",
+    "flying",
+    "travelling"
+   ],
+   "blank_de": "Recherche",
+   "distractors_de": [
+    "Bildbearbeitung",
+    "Fliegen",
+    "Reisen"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 127899,
+   "blank": "a square foot",
+   "distractors": [
+    "a single strand",
+    "the whole beach",
+    "a distant rock"
+   ],
+   "blank_de": "einen Quadratfuß",
+   "distractors_de": [
+    "einen einzigen Strang",
+    "den ganzen Strand",
+    "einen fernen Felsen"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 221582,
+   "blank": "the presentation",
+   "distractors": [
+    "the title",
+    "the photographer",
+    "the date"
+   ],
+   "blank_de": "die Präsentation",
+   "distractors_de": [
+    "den Titel",
+    "den Fotografen",
+    "das Datum"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 683262,
+   "blank": "the distance",
+   "distractors": [
+    "the energy",
+    "the software",
+    "the budget"
+   ],
+   "blank_de": "der Abstand",
+   "distractors_de": [
+    "die Energie",
+    "die Software",
+    "das Budget"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 123766,
+   "blank": "gaps in understanding",
+   "distractors": [
+    "local dialects",
+    "written signs",
+    "official records"
+   ],
+   "blank_de": "Lücken im Verstehen",
+   "distractors_de": [
+    "lokalen Dialekte",
+    "geschriebenen Schilder",
+    "amtlichen Akten"
+   ],
+   "topic": "menschen"
+  },
+  {
+   "source_id": 148119,
+   "blank": "covert conversation",
+   "distractors": [
+    "public exhibition",
+    "formal contract",
+    "shared archive"
+   ],
+   "blank_de": "verdecktes Gespräch",
+   "distractors_de": [
+    "öffentliches Interview",
+    "formelles Verhör",
+    "langes Telefonat"
+   ],
+   "topic": "menschen"
+  },
+  {
+   "source_id": 206778,
+   "blank": "shadow of Fuji",
+   "distractors": [
+    "spirit of Hokusai",
+    "glow of Tokyo",
+    "age of the samurai"
+   ],
+   "blank_de": "Schatten des Fuji",
+   "distractors_de": [
+    "Geist Hokusais",
+    "Glanz Tokios",
+    "Zeitalter der Samurai"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 431740,
+   "blank": "ambiguous",
+   "distractors": [
+    "obvious",
+    "colourful",
+    "symmetrical"
+   ],
+   "blank_de": "mehrdeutig",
+   "distractors_de": [
+    "eindeutig",
+    "farbenfroh",
+    "symmetrisch"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 623163,
+   "blank": "exposures",
+   "distractors": [
+    "focus",
+    "framing",
+    "horizons"
+   ],
+   "blank_de": "Belichtungen",
+   "distractors_de": [
+    "Schärfe",
+    "Ausschnitte",
+    "Horizonte"
+   ],
+   "topic": "scheitern"
+  },
+  {
+   "source_id": 278354,
+   "blank": "five years",
+   "distractors": [
+    "two weeks",
+    "one night",
+    "a month"
+   ],
+   "blank_de": "fünf Jahre",
+   "distractors_de": [
+    "zwei Wochen",
+    "eine Nacht",
+    "einen Monat"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 338034,
+   "blank": "equipment",
+   "distractors": [
+    "map",
+    "jacket",
+    "thermos"
+   ],
+   "blank_de": "Ausrüstung",
+   "distractors_de": [
+    "Karte",
+    "Jacke",
+    "Thermoskanne"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 677910,
+   "blank": "mystery",
+   "distractors": [
+    "colour",
+    "balance",
+    "frame"
+   ],
+   "blank_de": "sein Geheimnis",
+   "distractors_de": [
+    "seine Farbe",
+    "seine Balance",
+    "seinen Rahmen"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 104628,
+   "blank": "sand",
+   "distractors": [
+    "water",
+    "sky",
+    "umbrellas"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "licht"
+  },
+  {
+   "source_id": 111944,
+   "blank": "souvenirs",
+   "distractors": [
+    "evidence",
+    "artworks",
+    "documents"
+   ],
+   "blank_de": "Souvenirs",
+   "distractors_de": [
+    "Beweise",
+    "Kunstwerke",
+    "Dokumente"
+   ],
+   "topic": "reise"
+  },
+  {
+   "source_id": 648489,
+   "blank": "over the edge",
+   "distractors": [
+    "into the past",
+    "through the clouds",
+    "to the ocean"
+   ],
+   "blank_de": "über den Rand",
+   "distractors_de": [
+    "in die Vergangenheit",
+    "durch die Wolken",
+    "bis zum Meer"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 132895,
+   "blank": "temperature",
+   "distractors": [
+    "date",
+    "length",
+    "name"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 960161,
+   "blank": "long exposures",
+   "distractors": [
+    "wide-angle lenses",
+    "a tripod",
+    "colour film"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "technik"
+  },
+  {
+   "source_id": 532448,
+   "blank": "an anthropologist",
+   "distractors": [
+    "a tourist",
+    "a painter",
+    "a journalist"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 139390,
+   "blank": "reflex",
+   "distractors": [
+    "patience",
+    "calculation",
+    "memory"
+   ],
+   "blank_de": "reiner Reflex",
+   "distractors_de": [
+    "reine Geduld",
+    "reines Kalkül",
+    "reine Erinnerung"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 323229,
+   "blank": "see for oneself",
+   "distractors": [
+    "look away",
+    "judge quickly",
+    "remember"
+   ],
+   "blank_de": "mit eigenen Augen",
+   "distractors_de": [
+    "aus der Ferne",
+    "nach Gefühl",
+    "im Rückblick"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 599224,
+   "blank": "beauty",
+   "distractors": [
+    "toxicity",
+    "size",
+    "silence"
+   ],
+   "blank_de": "Schönheit",
+   "distractors_de": [
+    "Giftigkeit",
+    "Größe",
+    "Stille"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 777020,
+   "blank": "surprise",
+   "distractors": [
+    "control",
+    "patience",
+    "planning"
+   ],
+   "blank_de": "Überraschung",
+   "distractors_de": [
+    "Kontrolle",
+    "Geduld",
+    "Planung"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 129057,
+   "blank": "closer and closer",
+   "distractors": [
+    "further and further away",
+    "higher and higher",
+    "faster and faster"
+   ],
+   "blank_de": "immer näher heran",
+   "distractors_de": [
+    "immer weiter zurück",
+    "immer höher hinauf",
+    "immer schneller vor"
+   ],
+   "topic": "menschen"
+  },
+  {
+   "source_id": 636381,
+   "blank": "an 8x10",
+   "distractors": [
+    "a tripod",
+    "a laptop",
+    "a ladder"
+   ],
+   "blank_de": "einer 8×10",
+   "distractors_de": [
+    "einer Leiter",
+    "einer Kühlbox",
+    "einer Drohne"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 766234,
+   "blank": "Linhof",
+   "distractors": [
+    "Hasselblad",
+    "drone",
+    "8x10"
+   ],
+   "blank_de": "Linhof",
+   "distractors_de": [
+    "Hasselblad",
+    "Drohne",
+    "8×10"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 112178,
+   "blank": "the lens",
+   "distractors": [
+    "the subject",
+    "the viewer",
+    "the light"
+   ],
+   "blank_de": "dem Objektiv",
+   "distractors_de": [
+    "dem Motiv",
+    "dem Betrachter",
+    "dem Licht"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 351112,
+   "blank": "Arrival",
+   "distractors": [
+    "Routine",
+    "Comfort",
+    "Planning"
+   ],
+   "blank_de": "Ankunft",
+   "distractors_de": [
+    "Routine",
+    "Bequemlichkeit",
+    "Planung"
+   ],
+   "topic": "reise"
+  },
+  {
+   "source_id": 207827,
+   "blank": "observer and participant",
+   "distractors": [
+    "teacher and student",
+    "friend and stranger",
+    "judge and witness"
+   ],
+   "blank_de": "Beobachterin und Beteiligte",
+   "distractors_de": [
+    "Lehrerin und Schülerin",
+    "Freundin und Fremde",
+    "Richterin und Zeugin"
+   ],
+   "topic": "menschen"
+  },
+  {
+   "source_id": 422078,
+   "blank": "myself",
+   "distractors": [
+    "a style",
+    "an audience",
+    "a home"
+   ],
+   "blank_de": "nach mir selbst",
+   "distractors_de": [
+    "nach einem Stil",
+    "nach einem Publikum",
+    "nach einer Heimat"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 254055,
+   "blank": "weeks",
+   "distractors": [
+    "hours",
+    "minutes",
+    "days"
+   ],
+   "blank_de": "Wochen",
+   "distractors_de": [
+    "Stunden",
+    "Minuten",
+    "Tage"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 485101,
+   "blank": "worst editors",
+   "distractors": [
+    "best editors",
+    "proudest owners",
+    "only audience"
+   ],
+   "blank_de": "schlechtesten Editoren",
+   "distractors_de": [
+    "besten Editoren",
+    "stolzesten Besitzer",
+    "einzigen Zuschauer"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 692888,
+   "blank": "night",
+   "distractors": [
+    "summer",
+    "rain",
+    "a storm"
+   ],
+   "blank_de": "nachts",
+   "distractors_de": [
+    "im Sommer",
+    "bei Regen",
+    "im Sturm"
+   ],
+   "topic": "licht"
+  },
+  {
+   "source_id": 323844,
+   "blank": "northern Europe",
+   "distractors": [
+    "the tropics",
+    "Hollywood",
+    "a painting"
+   ],
+   "blank_de": "Nordeuropa",
+   "distractors_de": [
+    "den Tropen",
+    "Hollywood",
+    "einem Gemälde"
+   ],
+   "topic": "wetter"
+  },
+  {
+   "source_id": 923031,
+   "blank": "contact sheets",
+   "distractors": [
+    "hard drives",
+    "postcards",
+    "magazines"
+   ],
+   "blank_de": "Kontaktbögen",
+   "distractors_de": [
+    "Festplatten",
+    "Postkarten",
+    "Zeitschriften"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 299865,
+   "blank": "french fries",
+   "distractors": [
+    "fish",
+    "gifts",
+    "flowers"
+   ],
+   "blank_de": "Pommes frites",
+   "distractors_de": [
+    "Fisch",
+    "Geschenke",
+    "Blumen"
+   ],
+   "topic": "sequenz"
+  },
+  {
+   "source_id": 928654,
+   "blank": "due tipi",
+   "distractors": [
+    "tre tipi",
+    "mille tipi",
+    "un solo tipo"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 126108,
+   "blank": "collodion",
+   "distractors": [
+    "water",
+    "tea",
+    "varnish"
+   ],
+   "blank_de": "Kollodium",
+   "distractors_de": [
+    "Wasser",
+    "Tee",
+    "Firnis"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 289607,
+   "blank": "kinship",
+   "distractors": [
+    "beauty",
+    "diversity",
+    "fragility"
+   ],
+   "blank_de": "Verwandtschaft",
+   "distractors_de": [
+    "Schönheit",
+    "Vielfalt",
+    "Zerbrechlichkeit"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 379938,
+   "blank": "spaces",
+   "distractors": [
+    "exposures",
+    "horizons",
+    "textures"
+   ],
+   "blank_de": "Räume",
+   "distractors_de": [
+    "Belichtungen",
+    "Horizonte",
+    "Texturen"
+   ],
+   "topic": "licht"
+  },
+  {
+   "source_id": 397200,
+   "blank": "meaning",
+   "distractors": [
+    "price",
+    "origin",
+    "storage"
+   ],
+   "blank_de": "die Bedeutung",
+   "distractors_de": [
+    "den Preis",
+    "die Herkunft",
+    "den Speicherort"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 558695,
+   "blank": "afternoon",
+   "distractors": [
+    "morning",
+    "night",
+    "dawn"
+   ],
+   "blank_de": "Nachmittag",
+   "distractors_de": [
+    "Morgen",
+    "Abend",
+    "Vormittag"
+   ],
+   "topic": "wetter"
+  },
+  {
+   "source_id": 667326,
+   "blank": "structure",
+   "distractors": [
+    "colour",
+    "foliage",
+    "light"
+   ],
+   "blank_de": "die Struktur",
+   "distractors_de": [
+    "die Farbe",
+    "das Laub",
+    "das Licht"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 962884,
+   "blank": "the tripod",
+   "distractors": [
+    "the horizon",
+    "the clouds",
+    "the light"
+   ],
+   "blank_de": "das Stativ",
+   "distractors_de": [
+    "den Horizont",
+    "die Wolken",
+    "das Licht"
+   ],
+   "topic": "scheitern"
+  },
+  {
+   "source_id": 983319,
+   "blank": "anarchic",
+   "distractors": [
+    "orderly",
+    "modern",
+    "peaceful"
+   ],
+   "blank_de": "anarchisch",
+   "distractors_de": [
+    "geordnet",
+    "modern",
+    "friedlich"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 114357,
+   "blank": "rooftop",
+   "distractors": [
+    "harbour",
+    "hillside",
+    "square"
+   ],
+   "blank_de": "Dach",
+   "distractors_de": [
+    "Hafen",
+    "Hügel",
+    "Platz"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 343743,
+   "blank": "numbered",
+   "distractors": [
+    "golden",
+    "long",
+    "quiet"
+   ],
+   "blank_de": "gezählt",
+   "distractors_de": [
+    "golden",
+    "lang",
+    "ruhig"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 171540,
+   "blank": "jogging",
+   "distractors": [
+    "cycling",
+    "shopping",
+    "swimming"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "ort"
+  },
+  {
+   "source_id": 579902,
+   "blank": "what happens",
+   "distractors": [
+    "what I imagine",
+    "what is beautiful",
+    "what I know"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 645003,
+   "blank": "curiosity",
+   "distractors": [
+    "technique",
+    "talent",
+    "luck"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 296194,
+   "blank": "quality",
+   "distractors": [
+    "speed",
+    "size",
+    "price"
+   ],
+   "blank_de": "Qualität",
+   "distractors_de": [
+    "Geschwindigkeit",
+    "Größe",
+    "Menge"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 197967,
+   "blank": "reverence",
+   "distractors": [
+    "fear",
+    "indifference",
+    "expertise"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 596260,
+   "blank": "emotions and moods",
+   "distractors": [
+    "facts and figures",
+    "geological history",
+    "technical perfection"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 708938,
+   "blank": "slowed down",
+   "distractors": [
+    "sped up",
+    "gave up",
+    "moved away"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "warten"
+  },
+  {
+   "source_id": 375557,
+   "blank": "fourth attempt",
+   "distractors": [
+    "first try",
+    "last day",
+    "tenth pass"
+   ],
+   "blank_de": "vierten Versuch",
+   "distractors_de": [
+    "ersten Versuch",
+    "letzten Tag",
+    "zehnten Anflug"
+   ],
+   "topic": "scheitern"
+  },
+  {
+   "source_id": 893403,
+   "blank": "anti-motion sickness pills",
+   "distractors": [
+    "coffee",
+    "adrenaline",
+    "whisky"
+   ],
+   "blank_de": "Reisetabletten",
+   "distractors_de": [
+    "Kaffee",
+    "Adrenalin",
+    "Whisky"
+   ],
+   "topic": "reise"
+  },
+  {
+   "source_id": 161698,
+   "blank": "horizons",
+   "distractors": [
+    "people",
+    "colour",
+    "shadows"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 292968,
+   "blank": "compressed",
+   "distractors": [
+    "separated",
+    "blurred",
+    "stretched"
+   ],
+   "blank_de": "verdichteten",
+   "distractors_de": [
+    "trennten",
+    "verwischten",
+    "dehnten"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 371367,
+   "blank": "trance",
+   "distractors": [
+    "hurry",
+    "routine",
+    "rage"
+   ],
+   "blank_de": "Trance",
+   "distractors_de": [
+    "Eile",
+    "Routine",
+    "Wut"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 398233,
+   "blank": "eye",
+   "distractors": [
+    "hand",
+    "heart",
+    "arm"
+   ],
+   "blank_de": "meines Auges",
+   "distractors_de": [
+    "meiner Hand",
+    "meines Herzens",
+    "meines Arms"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 997179,
+   "blank": "fence",
+   "distractors": [
+    "curtain",
+    "crowd",
+    "wall"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 615502,
+   "blank": "whales",
+   "distractors": [
+    "seals",
+    "penguins",
+    "icebergs"
+   ],
+   "blank_de": "Wale",
+   "distractors_de": [
+    "Robben",
+    "Pinguine",
+    "Eisberge"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 788759,
+   "blank": "the ice",
+   "distractors": [
+    "the light",
+    "the weather",
+    "the ship"
+   ],
+   "blank_de": "das Eis",
+   "distractors_de": [
+    "das Licht",
+    "das Wetter",
+    "das Schiff"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 225340,
+   "blank": "blue and green",
+   "distractors": [
+    "red and gold",
+    "black and white",
+    "grey and brown"
+   ],
+   "blank_de": "Blau und Grün",
+   "distractors_de": [
+    "Rot und Gold",
+    "Schwarz und Weiß",
+    "Grau und Braun"
+   ],
+   "topic": "licht"
+  },
+  {
+   "source_id": 104498,
+   "blank": "ancestral home",
+   "distractors": [
+    "childhood school",
+    "local temple",
+    "favourite café"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "ort"
+  },
+  {
+   "source_id": 939820,
+   "blank": "distractions",
+   "distractors": [
+    "clouds",
+    "tourists",
+    "shadows"
+   ],
+   "blank_de": "Ablenkungen",
+   "distractors_de": [
+    "Wolken",
+    "Touristen",
+    "Schatten"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 518666,
+   "blank": "pollution",
+   "distractors": [
+    "wildlife",
+    "tourists",
+    "bridges"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 164009,
+   "blank": "people",
+   "distractors": [
+    "animals",
+    "sunsets",
+    "colour"
+   ],
+   "blank_de": "Menschen",
+   "distractors_de": [
+    "Tiere",
+    "Sonnenuntergänge",
+    "Farbe"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 312450,
+   "blank": "different light conditions",
+   "distractors": [
+    "different camera bodies",
+    "the same light",
+    "strict routines"
+   ],
+   "blank_de": "verschiedener Lichtsituationen",
+   "distractors_de": [
+    "verschiedener Kameras",
+    "gleicher Bedingungen",
+    "fester Routinen"
+   ],
+   "topic": "licht"
+  },
+  {
+   "source_id": 956717,
+   "blank": "necessity",
+   "distractors": [
+    "hobby",
+    "luxury",
+    "burden"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 272962,
+   "blank": "lead-colored",
+   "distractors": [
+    "golden",
+    "crimson",
+    "snow-white"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "reise"
+  },
+  {
+   "source_id": 713996,
+   "blank": "quiet looking",
+   "distractors": [
+    "quick shooting",
+    "loud posing",
+    "careful lighting"
+   ],
+   "blank_de": "stilles Schauen",
+   "distractors_de": [
+    "schnelles Knipsen",
+    "lautes Posieren",
+    "sorgfältiges Ausleuchten"
+   ],
+   "topic": "menschen"
+  },
+  {
+   "source_id": 522518,
+   "blank": "painting",
+   "distractors": [
+    "mirror",
+    "map",
+    "menu"
+   ],
+   "blank_de": "Gemälde",
+   "distractors_de": [
+    "Spiegel",
+    "Plakat",
+    "Fenster"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 958982,
+   "blank": "fragmentary",
+   "distractors": [
+    "complete",
+    "permanent",
+    "simple"
+   ],
+   "blank_de": "Bruchstückhaftes",
+   "distractors_de": [
+    "Vollständiges",
+    "Dauerhaftes",
+    "Einfaches"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 482029,
+   "blank": "conjunction",
+   "distractors": [
+    "price",
+    "age",
+    "owners"
+   ],
+   "blank_de": "Zusammentreffen",
+   "distractors_de": [
+    "Alter",
+    "Baujahr",
+    "Gewicht"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 549830,
+   "blank": "amateurish",
+   "distractors": [
+    "professional",
+    "expensive",
+    "rare"
+   ],
+   "blank_de": "Amateurkamera",
+   "distractors_de": [
+    "Profikamera",
+    "Luxuskamera",
+    "Spezialkamera"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 849348,
+   "blank": "scout",
+   "distractors": [
+    "driver",
+    "guide",
+    "colleague"
+   ],
+   "blank_de": "Scout",
+   "distractors_de": [
+    "Fahrer",
+    "Führer",
+    "Kollege"
+   ],
+   "topic": "reise"
+  },
+  {
+   "source_id": 567040,
+   "blank": "early and late",
+   "distractors": [
+    "at noon",
+    "all day",
+    "at midday"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "licht"
+  },
+  {
+   "source_id": 970746,
+   "blank": "sharpness",
+   "distractors": [
+    "warmth",
+    "grain",
+    "blur"
+   ],
+   "blank_de": "Schärfe",
+   "distractors_de": [
+    "Wärme",
+    "Körnigkeit",
+    "Unschärfe"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 118812,
+   "blank": "halogen lighting",
+   "distractors": [
+    "daylight",
+    "candlelight",
+    "neon"
+   ],
+   "blank_de": "Halogenlicht",
+   "distractors_de": [
+    "Tageslicht",
+    "Kerzenlicht",
+    "Neonlicht"
+   ],
+   "topic": "licht"
+  },
+  {
+   "source_id": 352078,
+   "blank": "inadequate",
+   "distractors": [
+    "perfect",
+    "reliable",
+    "everything"
+   ],
+   "blank_de": "reicht nicht aus",
+   "distractors_de": [
+    "ist unfehlbar",
+    "genügt völlig",
+    "trügt nie"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 376216,
+   "blank": "leaves",
+   "distractors": [
+    "birds",
+    "nests",
+    "branches"
+   ],
+   "blank_de": "Blätter",
+   "distractors_de": [
+    "Vögel",
+    "Nester",
+    "Äste"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 261167,
+   "blank": "three times",
+   "distractors": [
+    "thirty times",
+    "once",
+    "all day"
+   ],
+   "blank_de": "dreimal",
+   "distractors_de": [
+    "dreißigmal",
+    "einmal",
+    "stundenlang"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 356357,
+   "blank": "archival box",
+   "distractors": [
+    "old suitcase",
+    "office drawer",
+    "attic trunk"
+   ],
+   "blank_de": "Archivbox",
+   "distractors_de": [
+    "Schublade",
+    "Aktentasche",
+    "Dachkammer"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 111605,
+   "blank": "white butterflies",
+   "distractors": [
+    "black crows",
+    "yellow dust",
+    "grey smoke"
+   ],
+   "blank_de": "weißer Schmetterlinge",
+   "distractors_de": [
+    "schwarzer Krähen",
+    "gelben Staubs",
+    "grauen Rauchs"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 155813,
+   "blank": "crop",
+   "distractors": [
+    "erase",
+    "zoom",
+    "fade"
+   ],
+   "blank_de": "ausschneiden",
+   "distractors_de": [
+    "löschen",
+    "heranzoomen",
+    "ausblenden"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 181626,
+   "blank": "slow",
+   "distractors": [
+    "sudden",
+    "loud",
+    "natural"
+   ],
+   "blank_de": "langsame",
+   "distractors_de": [
+    "plötzliche",
+    "laute",
+    "natürliche"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 306041,
+   "blank": "fused together",
+   "distractors": [
+    "stacked up",
+    "sold off",
+    "filed away"
+   ],
+   "blank_de": "verklebt",
+   "distractors_de": [
+    "sortiert",
+    "gestapelt",
+    "verkauft"
+   ],
+   "topic": "scheitern"
+  },
+  {
+   "source_id": 804886,
+   "blank": "three months",
+   "distractors": [
+    "three years",
+    "a week",
+    "a decade"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "reise"
+  },
+  {
+   "source_id": 845782,
+   "blank": "assignment",
+   "distractors": [
+    "award",
+    "invitation",
+    "advice"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 128701,
+   "blank": "futile",
+   "distractors": [
+    "essential",
+    "easy",
+    "profitable"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 494851,
+   "blank": "enigmatic",
+   "distractors": [
+    "clear",
+    "decisive",
+    "narrative"
+   ],
+   "blank_de": "rätselhafte",
+   "distractors_de": [
+    "eindeutige",
+    "entscheidende",
+    "erzählende"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 681394,
+   "blank": "marmo",
+   "distractors": [
+    "legno",
+    "argilla",
+    "ghiaccio"
+   ],
+   "blank_de": "Marmorblock",
+   "distractors_de": [
+    "Holzklotz",
+    "Tonklumpen",
+    "Eisblock"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 115582,
+   "blank": "interpretarla",
+   "distractors": [
+    "abbellirla",
+    "venderla",
+    "ignorarla"
+   ],
+   "blank_de": "deuten",
+   "distractors_de": [
+    "verschönern",
+    "verkaufen",
+    "ignorieren"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 915637,
+   "blank": "black and white",
+   "distractors": [
+    "colour",
+    "digital",
+    "the snapshot"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 113598,
+   "blank": "small",
+   "distractors": [
+    "large",
+    "blurred",
+    "absent"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "menschen"
+  },
+  {
+   "source_id": 260146,
+   "blank": "black",
+   "distractors": [
+    "red",
+    "white",
+    "blue"
+   ],
+   "blank_de": "Schwarz",
+   "distractors_de": [
+    "Rot",
+    "Weiß",
+    "Blau"
+   ],
+   "topic": "licht"
+  },
+  {
+   "source_id": 279376,
+   "blank": "multicoloured",
+   "distractors": [
+    "monochrome",
+    "boring",
+    "silent"
+   ],
+   "blank_de": "vielfarbig",
+   "distractors_de": [
+    "einfarbig",
+    "langweilig",
+    "still"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 314622,
+   "blank": "cropping",
+   "distractors": [
+    "framing",
+    "printing",
+    "collecting"
+   ],
+   "blank_de": "beschneide",
+   "distractors_de": [
+    "rahme",
+    "drucke",
+    "sammle"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 956570,
+   "blank": "right light",
+   "distractors": [
+    "right model",
+    "right season",
+    "right lens"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "warten"
+  },
+  {
+   "source_id": 129157,
+   "blank": "personal and partial",
+   "distractors": [
+    "complete and objective",
+    "historical and neutral",
+    "official and final"
+   ],
+   "blank_de": "persönlichen und unvollständigen",
+   "distractors_de": [
+    "vollständigen und objektiven",
+    "historischen und neutralen",
+    "offiziellen und gültigen"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 135907,
+   "blank": "rejected",
+   "distractors": [
+    "praised",
+    "invited",
+    "paid"
+   ],
+   "blank_de": "abgewiesen",
+   "distractors_de": [
+    "gelobt",
+    "eingeladen",
+    "bezahlt"
+   ],
+   "topic": "scheitern"
+  },
+  {
+   "source_id": 174731,
+   "blank": "contradictory realities",
+   "distractors": [
+    "simple truths",
+    "official stories",
+    "familiar places"
+   ],
+   "blank_de": "widersprüchlichen Wirklichkeiten",
+   "distractors_de": [
+    "einfachen Wahrheiten",
+    "offiziellen Geschichten",
+    "vertrauten Orte"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 149627,
+   "blank": "people living there",
+   "distractors": [
+    "cracks in the walls",
+    "birds nesting there",
+    "advertisements"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 574022,
+   "blank": "Sinologue",
+   "distractors": [
+    "journalist",
+    "tourist",
+    "painter"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 327163,
+   "blank": "one second",
+   "distractors": [
+    "a minute",
+    "an hour",
+    "a millisecond"
+   ],
+   "blank_de": "eine Sekunde",
+   "distractors_de": [
+    "eine Minute",
+    "eine Stunde",
+    "eine Millisekunde"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 418405,
+   "blank": "blurred",
+   "distractors": [
+    "smiling",
+    "famous",
+    "dancing"
+   ],
+   "blank_de": "unscharf",
+   "distractors_de": [
+    "berühmt",
+    "fröhlich",
+    "verkleidet"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 225418,
+   "blank": "flash",
+   "distractors": [
+    "a tripod",
+    "black and white film",
+    "a long lens"
+   ],
+   "blank_de": "Blitz",
+   "distractors_de": [
+    "Stativ",
+    "Schwarzweißfilm",
+    "Teleobjektiv"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 356307,
+   "blank": "commercial photography",
+   "distractors": [
+    "war reportage",
+    "landscape painting",
+    "wildlife photography"
+   ],
+   "blank_de": "Werbefotografie",
+   "distractors_de": [
+    "Kriegsreportage",
+    "Landschaftsmalerei",
+    "Tierfotografie"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 450252,
+   "blank": "souvenirs",
+   "distractors": [
+    "lessons",
+    "guidebooks",
+    "tickets"
+   ],
+   "blank_de": "Souvenirs",
+   "distractors_de": [
+    "Kurse",
+    "Reiseführer",
+    "Eintrittskarten"
+   ],
+   "topic": "reise"
+  },
+  {
+   "source_id": 795649,
+   "blank": "facade",
+   "distractors": [
+    "rooftops",
+    "stairwells",
+    "windows"
+   ],
+   "blank_de": "Fassade",
+   "distractors_de": [
+    "Dächer",
+    "Treppenhäuser",
+    "Fenster"
+   ],
+   "topic": "sequenz"
+  },
+  {
+   "source_id": 129728,
+   "blank": "ten years",
+   "distractors": [
+    "a hundred years",
+    "a thousand years",
+    "fifty years"
+   ],
+   "blank_de": "zehn Jahren",
+   "distractors_de": [
+    "hundert Jahren",
+    "tausend Jahren",
+    "fünfzig Jahren"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 204914,
+   "blank": "desert",
+   "distractors": [
+    "city",
+    "studio",
+    "forest"
+   ],
+   "blank_de": "Wüste",
+   "distractors_de": [
+    "Stadt",
+    "Dunkelkammer",
+    "Arktis"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 482337,
+   "blank": "objective or universal",
+   "distractors": [
+    "new or surprising",
+    "beautiful or sad",
+    "simple or obvious"
+   ],
+   "blank_de": "objektiv oder allgemeingültig",
+   "distractors_de": [
+    "neu oder überraschend",
+    "schön oder traurig",
+    "einfach oder offensichtlich"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 733528,
+   "blank": "upon completion",
+   "distractors": [
+    "at random",
+    "by colour",
+    "by location"
+   ],
+   "blank_de": "fertig",
+   "distractors_de": [
+    "geplant",
+    "verkauft",
+    "gedruckt"
+   ],
+   "topic": "sequenz"
+  },
+  {
+   "source_id": 544109,
+   "blank": "cut down",
+   "distractors": [
+    "painted",
+    "photographed",
+    "renamed"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "ort"
+  },
+  {
+   "source_id": 711776,
+   "blank": "wait around",
+   "distractors": [
+    "dance",
+    "argue",
+    "complain"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "warten"
+  },
+  {
+   "source_id": 286438,
+   "blank": "obliques",
+   "distractors": [
+    "panoramas",
+    "close-ups",
+    "portraits"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "technik"
+  },
+  {
+   "source_id": 495769,
+   "blank": "midday",
+   "distractors": [
+    "dawn",
+    "dusk",
+    "night"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "licht"
+  },
+  {
+   "source_id": 113780,
+   "blank": "sky and horizon",
+   "distractors": [
+    "people and cars",
+    "colour and shadow",
+    "windows and doors"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 553592,
+   "blank": "uneasy",
+   "distractors": [
+    "proud",
+    "bored",
+    "nostalgic"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 105352,
+   "blank": "hard sunlight",
+   "distractors": [
+    "soft mist",
+    "moonlight",
+    "blue hour"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "wetter"
+  },
+  {
+   "source_id": 723974,
+   "blank": "sporting event",
+   "distractors": [
+    "still life",
+    "cathedral",
+    "portrait session"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "wetter"
+  },
+  {
+   "source_id": 130681,
+   "blank": "coal-fired power plants",
+   "distractors": [
+    "universities",
+    "churches",
+    "stadiums"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "ort"
+  },
+  {
+   "source_id": 584801,
+   "blank": "alone",
+   "distractors": [
+    "with a guide",
+    "by car",
+    "in winter"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "ort"
+  },
+  {
+   "source_id": 754211,
+   "blank": "space itself",
+   "distractors": [
+    "people",
+    "colour",
+    "wildlife"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 841236,
+   "blank": "stitching",
+   "distractors": [
+    "bracketing",
+    "long exposure",
+    "flash"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "technik"
+  },
+  {
+   "source_id": 983106,
+   "blank": "curiosity",
+   "distractors": [
+    "anger",
+    "fear",
+    "impatience"
+   ],
+   "blank_de": "Neugier",
+   "distractors_de": [
+    "Wut",
+    "Angst",
+    "Ungeduld"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 199044,
+   "blank": "at dawn",
+   "distractors": [
+    "at noon",
+    "in the studio",
+    "at night"
+   ],
+   "blank_de": "in der Morgendämmerung",
+   "distractors_de": [
+    "am Mittag",
+    "im Studio",
+    "in der Nacht"
+   ],
+   "topic": "licht"
+  },
+  {
+   "source_id": 418055,
+   "blank": "Demolition",
+   "distractors": [
+    "Tourism",
+    "Traffic",
+    "Advertising"
+   ],
+   "blank_de": "Abriss",
+   "distractors_de": [
+    "Tourismus",
+    "Verkehr",
+    "Werbung"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 438689,
+   "blank": "simple titles",
+   "distractors": [
+    "long captions",
+    "GPS coordinates",
+    "dates and places"
+   ],
+   "blank_de": "schlichte Titel",
+   "distractors_de": [
+    "lange Bildunterschriften",
+    "GPS-Koordinaten",
+    "Orts- und Zeitangaben"
+   ],
+   "topic": "sequenz"
+  },
+  {
+   "source_id": 589205,
+   "blank": "siren",
+   "distractors": [
+    "bell",
+    "whistle",
+    "engine"
+   ],
+   "blank_de": "Sirene",
+   "distractors_de": [
+    "Glocke",
+    "Pfeife",
+    "Maschine"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 414379,
+   "blank": "limestone",
+   "distractors": [
+    "volcanoes",
+    "rice fields",
+    "earthquakes"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "ort"
+  },
+  {
+   "source_id": 210835,
+   "blank": "negative and positive",
+   "distractors": [
+    "blurred and sharp",
+    "colour and black-and-white",
+    "early and late"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 626728,
+   "blank": "obsession",
+   "distractors": [
+    "accident",
+    "assignment",
+    "itinerary"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "reise"
+  },
+  {
+   "source_id": 797070,
+   "blank": "contact",
+   "distractors": [
+    "money",
+    "shade",
+    "fame"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "menschen"
+  },
+  {
+   "source_id": 649582,
+   "blank": "suspended",
+   "distractors": [
+    "accelerated",
+    "essential",
+    "exhausting"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 431745,
+   "blank": "self-portrait",
+   "distractors": [
+    "travelogue",
+    "report",
+    "history lesson"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 678751,
+   "blank": "aftermath",
+   "distractors": [
+    "front lines",
+    "causes",
+    "celebrations"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 199415,
+   "blank": "meltwater rivers",
+   "distractors": [
+    "polar bears",
+    "tourists",
+    "research huts"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "ort"
+  },
+  {
+   "source_id": 354670,
+   "blank": "discipline",
+   "distractors": [
+    "luxury",
+    "freedom",
+    "fear"
+   ],
+   "blank_de": "Disziplin",
+   "distractors_de": [
+    "Bequemlichkeit",
+    "Freiheit",
+    "Angst"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 696212,
+   "blank": "fog",
+   "distractors": [
+    "dust",
+    "glare",
+    "rainbow"
+   ],
+   "blank_de": "Nebel",
+   "distractors_de": [
+    "Staub",
+    "Gegenlicht",
+    "Regenbogen"
+   ],
+   "topic": "wetter"
+  },
+  {
+   "source_id": 963057,
+   "blank": "love",
+   "distractors": [
+    "habit",
+    "fear",
+    "duty"
+   ],
+   "blank_de": "Liebe",
+   "distractors_de": [
+    "Gewohnheit",
+    "Angst",
+    "Pflicht"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 306565,
+   "blank": "one frame",
+   "distractors": [
+    "dozens of frames",
+    "a full roll",
+    "three exposures"
+   ],
+   "blank_de": "eine Aufnahme",
+   "distractors_de": [
+    "Dutzende Aufnahmen",
+    "einen ganzen Film",
+    "drei Belichtungen"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 111201,
+   "blank": "choreography",
+   "distractors": [
+    "documentation",
+    "cancellation",
+    "financing"
+   ],
+   "blank_de": "Choreografie",
+   "distractors_de": [
+    "Dokumentation",
+    "Absage",
+    "Finanzierung"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 364455,
+   "blank": "quiet magic",
+   "distractors": [
+    "loud chaos",
+    "constant noise",
+    "heavy pressure"
+   ],
+   "blank_de": "leisen Zauber",
+   "distractors_de": [
+    "lauten Trubel",
+    "ständigen Lärm",
+    "dumpfen Druck"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 416546,
+   "blank": "two white swans",
+   "distractors": [
+    "two black ravens",
+    "a helicopter",
+    "a flock of geese"
+   ],
+   "blank_de": "zwei weiße Schwäne",
+   "distractors_de": [
+    "zwei schwarze Raben",
+    "ein Hubschrauber",
+    "ein Schwarm Gänse"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 666537,
+   "blank": "vapour",
+   "distractors": [
+    "dust",
+    "smoke",
+    "birds"
+   ],
+   "blank_de": "Dunst",
+   "distractors_de": [
+    "Staub",
+    "Rauch",
+    "Pollen"
+   ],
+   "topic": "wetter"
+  },
+  {
+   "source_id": 159374,
+   "blank": "out of focus",
+   "distractors": [
+    "underexposed",
+    "overexposed",
+    "in sharp focus"
+   ],
+   "blank_de": "unscharf",
+   "distractors_de": [
+    "unterbelichtet",
+    "überbelichtet",
+    "gestochen scharf"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 600774,
+   "blank": "suggested",
+   "distractors": [
+    "painted",
+    "removed",
+    "exaggerated"
+   ],
+   "blank_de": "angedeutet",
+   "distractors_de": [
+    "gemalt",
+    "entfernt",
+    "übertrieben"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 387923,
+   "blank": "temperament",
+   "distractors": [
+    "budget",
+    "eyesight",
+    "schedule"
+   ],
+   "blank_de": "Temperament",
+   "distractors_de": [
+    "Budget",
+    "Augenlicht",
+    "Terminkalender"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 808606,
+   "blank": "telephone pole",
+   "distractors": [
+    "mountain",
+    "tree",
+    "shadow"
+   ],
+   "blank_de": "Telefonmast",
+   "distractors_de": [
+    "Berg",
+    "Baum",
+    "Schatten"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 137970,
+   "blank": "slant",
+   "distractors": [
+    "price tag",
+    "filter",
+    "frame"
+   ],
+   "blank_de": "Blickwinkel",
+   "distractors_de": [
+    "Preis",
+    "Filter",
+    "Rahmen"
+   ],
+   "topic": "reise"
+  },
+  {
+   "source_id": 329689,
+   "blank": "borderlands",
+   "distractors": [
+    "postcards",
+    "stage sets",
+    "memories"
+   ],
+   "blank_de": "Grenzland",
+   "distractors_de": [
+    "Postkarte",
+    "Bühnenbild",
+    "Erinnerung"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 379337,
+   "blank": "10%",
+   "distractors": [
+    "90%",
+    "half",
+    "a third"
+   ],
+   "blank_de": "10 %",
+   "distractors_de": [
+    "90 %",
+    "die Hälfte",
+    "ein Drittel"
+   ],
+   "topic": "reise"
+  },
+  {
+   "source_id": 562598,
+   "blank": "activist",
+   "distractors": [
+    "explorer",
+    "engineer",
+    "outsider"
+   ],
+   "blank_de": "Aktivist",
+   "distractors_de": [
+    "Entdecker",
+    "Ingenieur",
+    "Außenseiter"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 625882,
+   "blank": "drones",
+   "distractors": [
+    "airplanes",
+    "satellites",
+    "balloons"
+   ],
+   "blank_de": "Drohnen",
+   "distractors_de": [
+    "Flugzeugen",
+    "Satelliten",
+    "Ballons"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 537630,
+   "blank": "a telelens",
+   "distractors": [
+    "a wide-angle",
+    "a flash",
+    "a filter"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "technik"
+  },
+  {
+   "source_id": 269801,
+   "blank": "isolate",
+   "distractors": [
+    "photograph",
+    "follow",
+    "interview"
+   ],
+   "blank_de": "isolieren",
+   "distractors_de": [
+    "ansprechen",
+    "verfolgen",
+    "befragen"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 932521,
+   "blank": "grease pencil",
+   "distractors": [
+    "silver frame",
+    "passe-partout",
+    "caption"
+   ],
+   "blank_de": "Fettstift",
+   "distractors_de": [
+    "Silberrahmen",
+    "Passepartout",
+    "Bildtitel"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 945889,
+   "blank": "persistence",
+   "distractors": [
+    "luck",
+    "camera",
+    "timing"
+   ],
+   "blank_de": "Beharrlichkeit",
+   "distractors_de": [
+    "Glück",
+    "Kamera",
+    "Planung"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 309493,
+   "blank": "great detail",
+   "distractors": [
+    "speed",
+    "mobility",
+    "grain"
+   ],
+   "blank_de": "große Detailfülle",
+   "distractors_de": [
+    "Beweglichkeit",
+    "Spontaneität",
+    "Körnigkeit"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 129692,
+   "blank": "beauty",
+   "distractors": [
+    "anger",
+    "humour",
+    "shock"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 163944,
+   "blank": "dreams and reality",
+   "distractors": [
+    "colour and form",
+    "east and west",
+    "day and night"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 188917,
+   "blank": "lying",
+   "distractors": [
+    "luck",
+    "accident",
+    "patience"
+   ],
+   "blank_de": "Lügen",
+   "distractors_de": [
+    "Zufall",
+    "Glück",
+    "Geduld"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 353168,
+   "blank": "hope",
+   "distractors": [
+    "the past",
+    "the evidence",
+    "the cowboys"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 111575,
+   "blank": "photobook",
+   "distractors": [
+    "workshop",
+    "museum",
+    "internet"
+   ],
+   "blank_de": "Fotobuch",
+   "distractors_de": [
+    "Workshop",
+    "Museum",
+    "Internet"
+   ],
+   "topic": "sequenz"
+  },
+  {
+   "source_id": 323924,
+   "blank": "on your own",
+   "distractors": [
+    "with money",
+    "at a computer",
+    "in a studio"
+   ],
+   "blank_de": "Allein",
+   "distractors_de": [
+    "Mit Geld",
+    "Am Computer",
+    "Im Studio"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 275786,
+   "blank": "line of fire",
+   "distractors": [
+    "shade",
+    "midday sun",
+    "river"
+   ],
+   "blank_de": "Schusslinie",
+   "distractors_de": [
+    "Mittagssonne",
+    "Flussmündung",
+    "Regenwolke"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 389726,
+   "blank": "monsoon",
+   "distractors": [
+    "harvest",
+    "festival",
+    "wedding"
+   ],
+   "blank_de": "Monsun",
+   "distractors_de": [
+    "Erntefest",
+    "Markttag",
+    "Hochzeitsfest"
+   ],
+   "topic": "wetter"
+  },
+  {
+   "source_id": 535886,
+   "blank": "waited",
+   "distractors": [
+    "left",
+    "moved",
+    "turned around"
+   ],
+   "blank_de": "wartete",
+   "distractors_de": [
+    "ging",
+    "wechselte",
+    "drehte"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 627587,
+   "blank": "fluid",
+   "distractors": [
+    "static",
+    "staged",
+    "frozen"
+   ],
+   "blank_de": "in Bewegung",
+   "distractors_de": [
+    "inszeniert",
+    "geplant",
+    "erstarrt"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 222524,
+   "blank": "dream",
+   "distractors": [
+    "newspaper",
+    "guidebook",
+    "childhood"
+   ],
+   "blank_de": "Traum",
+   "distractors_de": [
+    "Reiseführer",
+    "Atlas",
+    "Museum"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 373771,
+   "blank": "small voices",
+   "distractors": [
+    "loud music",
+    "experts",
+    "the news"
+   ],
+   "blank_de": "leisen Stimmen",
+   "distractors_de": [
+    "lauter Musik",
+    "den Experten",
+    "den Nachrichten"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 718606,
+   "blank": "think about them",
+   "distractors": [
+    "illustrate them",
+    "sell them",
+    "disprove them"
+   ],
+   "blank_de": "über sie nachdenken",
+   "distractors_de": [
+    "sie illustrieren",
+    "sie verkaufen",
+    "sie widerlegen"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 408708,
+   "blank": "cliche or romanticism",
+   "distractors": [
+    "technology or progress",
+    "colour or flash",
+    "people or cities"
+   ],
+   "blank_de": "Klischee oder Romantik",
+   "distractors_de": [
+    "Technik oder Fortschritt",
+    "Farbe oder Blitz",
+    "Menschen oder Städten"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 820312,
+   "blank": "authoritative",
+   "distractors": [
+    "first",
+    "funniest",
+    "cheapest"
+   ],
+   "blank_de": "maßgebliche",
+   "distractors_de": [
+    "erste",
+    "witzigste",
+    "billigste"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 271983,
+   "blank": "pristine",
+   "distractors": [
+    "polluted",
+    "dying",
+    "crowded"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 507463,
+   "blank": "journalism",
+   "distractors": [
+    "art",
+    "fashion",
+    "advertising"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 788567,
+   "blank": "inward",
+   "distractors": [
+    "everywhere",
+    "upward",
+    "nearby"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 481007,
+   "blank": "by chance",
+   "distractors": [
+    "by calculation",
+    "by rule",
+    "on command"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "warten"
+  },
+  {
+   "source_id": 172639,
+   "blank": "public",
+   "distractors": [
+    "private",
+    "quick",
+    "cheap"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "technik"
+  },
+  {
+   "source_id": 197424,
+   "blank": "the collective",
+   "distractors": [
+    "the hero",
+    "the family",
+    "the stranger"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "menschen"
+  },
+  {
+   "source_id": 330129,
+   "blank": "elevated positions",
+   "distractors": [
+    "low angles",
+    "ground level",
+    "the passenger seat"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 108254,
+   "blank": "painters and poets",
+   "distractors": [
+    "soldiers and traders",
+    "pilgrims and monks",
+    "tourists and guides"
+   ],
+   "blank_de": "Maler und Dichter",
+   "distractors_de": [
+    "Soldaten und Händler",
+    "Pilger und Mönche",
+    "Touristen und Führer"
+   ],
+   "topic": "reise"
+  },
+  {
+   "source_id": 140340,
+   "blank": "banquet camera",
+   "distractors": [
+    "drone",
+    "smartphone",
+    "zoom lens"
+   ],
+   "blank_de": "Bankettkamera",
+   "distractors_de": [
+    "Drohne",
+    "Handykamera",
+    "Kleinbildkamera"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 301804,
+   "blank": "opinion",
+   "distractors": [
+    "camera",
+    "audience",
+    "talent"
+   ],
+   "blank_de": "Meinung",
+   "distractors_de": [
+    "Kamera",
+    "Geduld",
+    "Erfahrung"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 260325,
+   "blank": "pen",
+   "distractors": [
+    "brush",
+    "voice",
+    "typewriter"
+   ],
+   "blank_de": "Feder",
+   "distractors_de": [
+    "Stimme",
+    "Schreibmaschine",
+    "Kreide"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 358145,
+   "blank": "empathy",
+   "distractors": [
+    "confusion",
+    "disgust",
+    "contrast"
+   ],
+   "blank_de": "Anteilnahme",
+   "distractors_de": [
+    "Verwirrung",
+    "Abscheu",
+    "Langeweile"
+   ],
+   "topic": "menschen"
+  },
+  {
+   "source_id": 871700,
+   "blank": "touch my heart",
+   "distractors": [
+    "fill the frame",
+    "sell well",
+    "make me laugh"
+   ],
+   "blank_de": "mein Herz berührt",
+   "distractors_de": [
+    "den Rahmen füllt",
+    "sich gut verkauft",
+    "mich zum Lachen bringt"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 222986,
+   "blank": "tripod",
+   "distractors": [
+    "beach",
+    "table",
+    "roof"
+   ],
+   "blank_de": "Stativ",
+   "distractors_de": [
+    "Dach",
+    "Tisch",
+    "Autodach"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 758562,
+   "blank": "cold",
+   "distractors": [
+    "eaten",
+    "burnt",
+    "served"
+   ],
+   "blank_de": "kalt",
+   "distractors_de": [
+    "gegessen",
+    "angebrannt",
+    "serviert"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 515307,
+   "blank": "reprinting",
+   "distractors": [
+    "looking at",
+    "cleaning",
+    "selling"
+   ],
+   "blank_de": "drucken",
+   "distractors_de": [
+    "betrachten",
+    "reinigen",
+    "verkaufen"
+   ],
+   "topic": "auswahl"
+  },
+  {
+   "source_id": 567409,
+   "blank": "10 people",
+   "distractors": [
+    "a rich collector",
+    "a big gallery",
+    "one museum"
+   ],
+   "blank_de": "zehn Leute",
+   "distractors_de": [
+    "einen reichen Sammler",
+    "eine große Galerie",
+    "ein Museum"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 196809,
+   "blank": "extremely low light",
+   "distractors": [
+    "bright sunlight",
+    "the rain",
+    "hard daylight"
+   ],
+   "blank_de": "extrem wenig Licht",
+   "distractors_de": [
+    "grellem Sonnenlicht",
+    "Regen",
+    "hartem Tageslicht"
+   ],
+   "topic": "licht"
+  },
+  {
+   "source_id": 185327,
+   "blank": "disaster",
+   "distractors": [
+    "blessing",
+    "spectacle",
+    "mystery"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "wetter"
+  },
+  {
+   "source_id": 434841,
+   "blank": "finite",
+   "distractors": [
+    "endless",
+    "green",
+    "distant"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 199689,
+   "blank": "horizon",
+   "distractors": [
+    "colour",
+    "caption",
+    "person"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sequenz"
+  },
+  {
+   "source_id": 551568,
+   "blank": "tonal music",
+   "distractors": [
+    "a traffic jam",
+    "a family portrait",
+    "silence"
+   ],
+   "blank_de": "tonale Musik",
+   "distractors_de": [
+    "ein Verkehrsstau",
+    "ein Familienfoto",
+    "Stille"
+   ],
+   "topic": "sequenz"
+  },
+  {
+   "source_id": 852391,
+   "blank": "work of art",
+   "distractors": [
+    "document",
+    "building",
+    "copy"
+   ],
+   "blank_de": "Kunstwerk",
+   "distractors_de": [
+    "Dokument",
+    "Gebäude",
+    "Kopie"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 697288,
+   "blank": "click the shutter",
+   "distractors": [
+    "climb the mountain",
+    "find the way",
+    "pay the bill"
+   ],
+   "blank_de": "Auslöser",
+   "distractors_de": [
+    "Klingelknopf",
+    "Lichtschalter",
+    "Notknopf"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 107140,
+   "blank": "for a moment",
+   "distractors": [
+    "forever",
+    "for an hour",
+    "tomorrow"
+   ],
+   "blank_de": "einen Moment",
+   "distractors_de": [
+    "für immer",
+    "eine Stunde",
+    "morgen nochmal"
+   ],
+   "topic": "menschen"
+  },
+  {
+   "source_id": 539592,
+   "blank": "thematic anchor",
+   "distractors": [
+    "big budget",
+    "strict deadline",
+    "new camera"
+   ],
+   "blank_de": "thematischen Anker",
+   "distractors_de": [
+    "großen Etat",
+    "festen Termin",
+    "neuen Apparat"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 940496,
+   "blank": "unique",
+   "distractors": [
+    "repeatable",
+    "identical",
+    "predictable"
+   ],
+   "blank_de": "einzigartig",
+   "distractors_de": [
+    "wiederholbar",
+    "gleich",
+    "vorhersehbar"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 543077,
+   "blank": "teacher",
+   "distractors": [
+    "enemy",
+    "client",
+    "playground"
+   ],
+   "blank_de": "Lehrerin",
+   "distractors_de": [
+    "Feindin",
+    "Kundin",
+    "Spielwiese"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 840443,
+   "blank": "ordinary things",
+   "distractors": [
+    "famous landmarks",
+    "grand vistas",
+    "dramatic weather"
+   ],
+   "blank_de": "gewöhnlichen Dingen",
+   "distractors_de": [
+    "berühmten Wahrzeichen",
+    "großen Panoramen",
+    "dramatischem Wetter"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 739767,
+   "blank": "fatal",
+   "distractors": [
+    "helpful",
+    "essential",
+    "harmless"
+   ],
+   "blank_de": "tödlich",
+   "distractors_de": [
+    "hilfreich",
+    "wesentlich",
+    "harmlos"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 166439,
+   "blank": "lens",
+   "distractors": [
+    "door",
+    "tunnel",
+    "gate"
+   ],
+   "blank_de": "Linse",
+   "distractors_de": [
+    "Tür",
+    "Brille",
+    "Röhre"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 351254,
+   "blank": "captions",
+   "distractors": [
+    "flash",
+    "wide-angle lenses",
+    "colour"
+   ],
+   "blank_de": "Bildunterschriften",
+   "distractors_de": [
+    "Blitzlicht",
+    "Weitwinkel",
+    "Farbe"
+   ],
+   "topic": "ort"
+  },
+  {
+   "source_id": 635521,
+   "blank": "sleeping bag",
+   "distractors": [
+    "driver",
+    "guidebook",
+    "interpreter"
+   ],
+   "blank_de": "Schlafsack",
+   "distractors_de": [
+    "Fahrer",
+    "Reiseführer",
+    "Dolmetscher"
+   ],
+   "topic": "reise"
+  },
+  {
+   "source_id": 914302,
+   "blank": "sweating",
+   "distractors": [
+    "talking",
+    "laughing",
+    "singing"
+   ],
+   "blank_de": "schwitze",
+   "distractors_de": [
+    "rede",
+    "lache",
+    "singe"
+   ],
+   "topic": "menschen"
+  },
+  {
+   "source_id": 114728,
+   "blank": "exit point",
+   "distractors": [
+    "resting point",
+    "frame",
+    "anchor"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 133463,
+   "blank": "obliterated",
+   "distractors": [
+    "preserved",
+    "restored",
+    "documented"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "ort"
+  },
+  {
+   "source_id": 623841,
+   "blank": "untidiness",
+   "distractors": [
+    "eyesight",
+    "memory",
+    "impatience"
+   ],
+   "blank_de": "Unordnung",
+   "distractors_de": [
+    "Ungeduld",
+    "Vergesslichkeit",
+    "Kurzsichtigkeit"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 367040,
+   "blank": "right time",
+   "distractors": [
+    "wrong time",
+    "last minute",
+    "usual hour"
+   ],
+   "blank_de": "richtigen Zeit",
+   "distractors_de": [
+    "falschen Zeit",
+    "letzten Minute",
+    "üblichen Stunde"
+   ],
+   "topic": "warten"
+  },
+  {
+   "source_id": 335177,
+   "blank": "abstraction and aestheticization",
+   "distractors": [
+    "shock and horror",
+    "captions and text",
+    "bright flash"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 321610,
+   "blank": "ordinary",
+   "distractors": [
+    "beautiful",
+    "tragic",
+    "sacred"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "licht"
+  },
+  {
+   "source_id": 784655,
+   "blank": "an actor",
+   "distractors": [
+    "a tourist",
+    "a child",
+    "a detective"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "reise"
+  },
+  {
+   "source_id": 161937,
+   "blank": "people",
+   "distractors": [
+    "frame",
+    "guards",
+    "floor"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "menschen"
+  },
+  {
+   "source_id": 378373,
+   "blank": "Smartphones",
+   "distractors": [
+    "Drones",
+    "Budget airlines",
+    "Digital cameras"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "menschen"
+  },
+  {
+   "source_id": 106420,
+   "blank": "anomalies",
+   "distractors": [
+    "beauties",
+    "silences",
+    "histories"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "ort"
+  },
+  {
+   "source_id": 515524,
+   "blank": "revisit",
+   "distractors": [
+    "discover new",
+    "avoid famous",
+    "rush through"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "ort"
+  },
+  {
+   "source_id": 730853,
+   "blank": "tradition",
+   "distractors": [
+    "decline",
+    "argument",
+    "queue"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 113600,
+   "blank": "tree shapes",
+   "distractors": [
+    "street signs",
+    "faces",
+    "rooftops"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 540383,
+   "blank": "blinded",
+   "distractors": [
+    "awakened",
+    "alerted",
+    "driven"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "haltung"
+  },
+  {
+   "source_id": 220301,
+   "blank": "obvious",
+   "distractors": [
+    "camera",
+    "critics",
+    "colour"
+   ],
+   "blank_de": null,
+   "distractors_de": null,
+   "topic": "sehen"
+  },
+  {
+   "source_id": 456350,
+   "blank": "brain",
+   "distractors": [
+    "hand",
+    "heart",
+    "soul"
+   ],
+   "blank_de": "Gehirns",
+   "distractors_de": [
+    "Herzens",
+    "Körpers",
+    "Willens"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 474856,
+   "blank": "tree or weed",
+   "distractors": [
+    "viewer or critic",
+    "model or client",
+    "dealer or collector"
+   ],
+   "blank_de": "Unkraut",
+   "distractors_de": [
+    "Gärtner",
+    "Betrachter",
+    "Kritiker"
+   ],
+   "topic": "sehen"
+  },
+  {
+   "source_id": 737789,
+   "blank": "burning and dodging",
+   "distractors": [
+    "painting and scratching",
+    "cropping and flipping",
+    "collage and montage"
+   ],
+   "blank_de": "Nachbelichten und Abwedeln",
+   "distractors_de": [
+    "Übermalen und Zerkratzen",
+    "Beschneiden und Spiegeln",
+    "Collagieren und Montieren"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 546666,
+   "blank": "removing the colors",
+   "distractors": [
+    "adding people",
+    "enlarging the print",
+    "using flash"
+   ],
+   "blank_de": "Weglassen der Farben",
+   "distractors_de": [
+    "Hinzufügen der Menschen",
+    "Vergrößern des Abzugs",
+    "Aufhellen der Schatten"
+   ],
+   "topic": "technik"
+  },
+  {
+   "source_id": 286039,
+   "blank": "two weeks",
+   "distractors": [
+    "two hours",
+    "two nights",
+    "two minutes"
+   ],
+   "blank_de": "zwei Wochen",
+   "distractors_de": [
+    "zwei Stunden",
+    "zwei Nächte",
+    "zwei Minuten"
+   ],
+   "topic": "reise"
+  },
+  {
+   "source_id": 375025,
+   "blank": "hard questions",
+   "distractors": [
+    "funny questions",
+    "technical questions",
+    "easy questions"
+   ],
+   "blank_de": "harte Fragen",
+   "distractors_de": [
+    "lustige Fragen",
+    "technische Fragen",
+    "leichte Fragen"
+   ],
+   "topic": "haltung"
+  },
+  {
+   "source_id": 561140,
+   "blank": "electrical power",
+   "distractors": [
+    "military power",
+    "political power",
+    "horse power"
+   ],
+   "blank_de": "elektrische Energie",
+   "distractors_de": [
+    "militärische Macht",
+    "politische Macht",
+    "Pferdestärken"
+   ],
+   "topic": "auswahl"
+  }
+ ]
+}

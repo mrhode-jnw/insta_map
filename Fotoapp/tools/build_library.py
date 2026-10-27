@@ -575,9 +575,9 @@ def main() -> None:
     bios = sum(lib.import_bios(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("photographers_bio*.json")))
     refs = sum(lib.import_references(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("references_*.json")))
     quotes = sum(lib.import_quotes(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("quotes_*.json")))
-    extras = sum(lib.import_extras(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("extras_*.json")))
     facts = sum(lib.import_technik(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("technik_*.json")))
     editing = sum(lib.import_editing(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("editing_*.json")))
+    extras = sum(lib.import_extras(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("extras_*.json")))  # last: cloze items may point at any source
 
     failed: list[str] = []
     if args.media_dir:

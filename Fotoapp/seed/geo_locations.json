@@ -493,6 +493,475 @@
    "query": "Isle of Lewis, Schottland",
    "level": 1,
    "name": "Lewis, Na h-Eileanan Siar, Schottland, Vereinigtes Königreich"
-  }
+  },
+  "Cairns, Queensland, Australien": {
+   "lat": -16.9207,
+   "lon": 145.7722,
+   "query": "Cairns, Queensland, Australien",
+   "level": 0,
+   "name": "Cairns, Queensland, 4870, Australien"
+  },
+  "Calvi, Korsika": {
+   "lat": 42.5677,
+   "lon": 8.7589,
+   "query": "Calvi, Korsika",
+   "level": 0,
+   "name": "Calvi, Oberkorsika, Korsika, Metropolitanes Frankreich, 20260, Frankreich"
+  },
+  "Camargue, Frankreich": {
+   "lat": 44.0495,
+   "lon": -0.0477,
+   "query": "Camargue, Frankreich",
+   "level": 0,
+   "name": "Camargue, Losse, Mont-de-Marsan, Landes, Neu-Aquitanien, Metropolitanes Frankreich, 40240, Frankreich"
+  },
+  "Cameron, Montana, USA": {
+   "lat": 45.2033,
+   "lon": -111.6786,
+   "query": "Cameron, Montana, USA",
+   "level": 0,
+   "name": "Cameron, Madison County, Montana, Vereinigte Staaten von Amerika"
+  },
+  "Cape Hinode, Hokkaido, Japan": {
+   "lat": 44.5322,
+   "lon": 143.0625,
+   "query": "Cape Hinode, Hokkaido, Japan",
+   "level": 0,
+   "name": "日の出岬, 雄武町, 紋別郡, オホーツク総合振興局, Präfektur Hokkaido, Region Hokkaidō, 098-1703, Japan"
+  },
+  "Carson Sink, Nevada, USA": {
+   "lat": 39.8156,
+   "lon": -118.5333,
+   "query": "Carson Sink, Nevada, USA",
+   "level": 0,
+   "name": "Carson Sink, Churchill County, Nevada, Vereinigte Staaten von Amerika"
+  },
+  "Carson, Kalifornien, USA": {
+   "lat": 36.7015,
+   "lon": -118.756,
+   "query": "Kalifornien, USA",
+   "level": 1,
+   "name": "Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Cathcart's Hill vor Sewastopol, Krim": {
+   "lat": 45.2835,
+   "lon": 34.2008,
+   "query": "Krim",
+   "level": 1,
+   "name": "Krim, Ukraine"
+  },
+  "Cathedral in the Desert, Clear Creek, Utah": {
+   "lat": 39.6458,
+   "lon": -111.1524,
+   "query": "Clear Creek, Utah",
+   "level": 1,
+   "name": "Clear Creek, Carbon County, Utah, Vereinigte Staaten von Amerika"
+  },
+  "Cañon de Chelle (Canyon de Chelly), Arizona, USA": {
+   "lat": 34.3953,
+   "lon": -111.7633,
+   "query": "Arizona, USA",
+   "level": 2,
+   "name": "Arizona, Vereinigte Staaten von Amerika"
+  },
+  "Central Market, Hongkong": {
+   "lat": 22.2818,
+   "lon": 114.1583,
+   "query": "Hongkong",
+   "level": 1,
+   "name": "Hongkong, China"
+  },
+  "Chalfant, Kalifornien, USA": {
+   "lat": 37.5287,
+   "lon": -118.3683,
+   "query": "Chalfant, Kalifornien, USA",
+   "level": 0,
+   "name": "Chalfant, Mono County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Chandni Chowk, Old Delhi, India": {
+   "lat": 28.656,
+   "lon": 77.2322,
+   "query": "Chandni Chowk, Old Delhi, India",
+   "level": 0,
+   "name": "Chandni Chowk, Old Delhi, City & Sadar, Delhi, Old Delhi, Delhi, 110006, Indien"
+  },
+  "Charleston, South Carolina, USA": {
+   "lat": 33.6874,
+   "lon": -80.4364,
+   "query": "South Carolina, USA",
+   "level": 1,
+   "name": "Süd-Carolina, Vereinigte Staaten von Amerika"
+  },
+  "Chefchaouen, Rif, Marokko": {
+   "lat": 35.166,
+   "lon": -5.2794,
+   "query": "Chefchaouen, Rif, Marokko",
+   "level": 0,
+   "name": "Rocade de Chefchaouen, Souika, Chefchaouen ⴰⵛⵛⴰⵡⵏ شفشاون, Province de Chefchaouen ⵜⵛⴻⴼⵜⵛⴰⵡⴻⵏ إقليم شفشاون, Tanger-Tétoua"
+  },
+  "Cheju": {
+   "lat": 22.1996,
+   "lon": 112.7016,
+   "query": "Cheju",
+   "level": 0,
+   "name": "车咀, 三合镇, Taishan, Jiangmen, Guangdong, China"
+  },
+  "Cheshire, Ohio, USA": {
+   "lat": 38.9451,
+   "lon": -82.1117,
+   "query": "Cheshire, Ohio, USA",
+   "level": 0,
+   "name": "Cheshire, Cheshire Township, Gallia County, Ohio, Vereinigte Staaten von Amerika"
+  },
+  "Chicago": {
+   "lat": 41.8756,
+   "lon": -87.6244,
+   "query": "Chicago",
+   "level": 0,
+   "name": "Chicago, South Chicago Township, Cook County, Illinois, Vereinigte Staaten von Amerika"
+  },
+  "Chicago, USA": {
+   "lat": 41.8756,
+   "lon": -87.6244,
+   "query": "Chicago, USA",
+   "level": 0,
+   "name": "Chicago, South Chicago Township, Cook County, Illinois, Vereinigte Staaten von Amerika"
+  },
+  "China": null,
+  "Chogolisa (Bride Peak), Karakorum": {
+   "lat": 35.5331,
+   "lon": 76.4456,
+   "query": "Karakorum",
+   "level": 2,
+   "name": "Karakorum, Pakistan"
+  },
+  "Chongqing": null,
+  "Chongqing, China": {
+   "lat": 30.0552,
+   "lon": 107.8749,
+   "query": "Chongqing, China",
+   "level": 0,
+   "name": "Chongqing, China"
+  },
+  "Chouchow Fu (Chaozhou), Kwangtung, China": {
+   "lat": 23.1168,
+   "lon": 113.2341,
+   "query": "Kwangtung, China",
+   "level": 2,
+   "name": "八和会馆, 恩宁路, 多宝街道, Liwan, Guangzhou, Guangdong, 510140, China"
+  },
+  "Clear Creek, near Idaho Springs, Colorado, USA": {
+   "lat": 39.7431,
+   "lon": -105.4931,
+   "query": "Clear Creek, Idaho Springs, Colorado, USA",
+   "level": 0,
+   "name": "Clear Creek, Idaho Springs, Clear Creek County, Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Cloch Point, Renfrewshire, Schottland": {
+   "lat": 55.8333,
+   "lon": -4.5,
+   "query": "Renfrewshire, Schottland",
+   "level": 1,
+   "name": "Renfrewshire, Schottland, Vereinigtes Königreich"
+  },
+  "Coachella Valley, Kalifornien, USA": {
+   "lat": 33.7672,
+   "lon": -116.356,
+   "query": "Coachella Valley, Kalifornien, USA",
+   "level": 0,
+   "name": "Coachella Valley, Palm Desert, Riverside County, Kalifornien, 92211, Vereinigte Staaten von Amerika"
+  },
+  "Cologne, West Germany": {
+   "lat": 51.0948,
+   "lon": 6.8189,
+   "query": "Cologne, West Germany",
+   "level": 0,
+   "name": "Beachclub Cologne, 13, Rostocker Straße, Gewerbepark Top West, Horrem, Dormagen, Rhein-Kreis Neuss, Nordrhein-Westfalen,"
+  },
+  "Colorado": {
+   "lat": 38.7252,
+   "lon": -105.6077,
+   "query": "Colorado",
+   "level": 0,
+   "name": "Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Colorado Springs, Colorado, USA": {
+   "lat": 38.834,
+   "lon": -104.8253,
+   "query": "Colorado Springs, Colorado, USA",
+   "level": 0,
+   "name": "Colorado Springs, El Paso County, Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Colorado, USA": {
+   "lat": 38.7252,
+   "lon": -105.6077,
+   "query": "Colorado, USA",
+   "level": 0,
+   "name": "Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Coney Island, New York, USA": {
+   "lat": 40.5765,
+   "lon": -73.9929,
+   "query": "Coney Island, New York, USA",
+   "level": 0,
+   "name": "Coney Island, Brooklyn, Kings County, New York, 11224, Vereinigte Staaten von Amerika"
+  },
+  "Corleone, Sizilien, Italien": {
+   "lat": 37.8121,
+   "lon": 13.3015,
+   "query": "Corleone, Sizilien, Italien",
+   "level": 0,
+   "name": "Corleone, Palermo, Sizilien, 90034, Italien"
+  },
+  "Cornwall, England": {
+   "lat": 50.4433,
+   "lon": -4.6247,
+   "query": "Cornwall, England",
+   "level": 0,
+   "name": "Cornwall, England, Vereinigtes Königreich"
+  },
+  "Corona del Mar, California, USA": {
+   "lat": 33.5996,
+   "lon": -117.8737,
+   "query": "Corona del Mar, California, USA",
+   "level": 0,
+   "name": "Corona del Mar, Newport Beach, Orange County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Cottonwood Springs, Nevada, USA": {
+   "lat": 39.4134,
+   "lon": -114.3028,
+   "query": "Cottonwood Springs, Nevada, USA",
+   "level": 0,
+   "name": "Cottonwood Springs, Dry Canyon Road, White Pine County, Nevada, Vereinigte Staaten von Amerika"
+  },
+  "County Galway, Irland": {
+   "lat": 52.8652,
+   "lon": -7.9795,
+   "query": "Irland",
+   "level": 1,
+   "name": "Irland"
+  },
+  "County Kerry, Irland": {
+   "lat": 52.1453,
+   "lon": -9.5174,
+   "query": "County Kerry, Irland",
+   "level": 0,
+   "name": "County Kerry, Munster, Irland"
+  },
+  "County Wicklow, Irland": {
+   "lat": 52.9582,
+   "lon": -6.3814,
+   "query": "County Wicklow, Irland",
+   "level": 0,
+   "name": "County Wicklow, Leinster, Irland"
+  },
+  "Cranborne Chase, Dorset, England": {
+   "lat": 51.0041,
+   "lon": -1.9699,
+   "query": "Cranborne Chase, Dorset, England",
+   "level": 0,
+   "name": "Cranborne Chase & West Wiltshire Downs National Landscape, Wiltshire, England, Vereinigtes Königreich"
+  },
+  "Croagh Patrick, Irland": {
+   "lat": 53.76,
+   "lon": -9.6592,
+   "query": "Croagh Patrick, Irland",
+   "level": 0,
+   "name": "Croagh Patrick, Westport-Belmullet Municipal District, County Mayo, Connacht, Irland"
+  },
+  "Custer County, Idaho, USA": {
+   "lat": 43.6448,
+   "lon": -114.0154,
+   "query": "Idaho, USA",
+   "level": 1,
+   "name": "Idaho, Vereinigte Staaten von Amerika"
+  },
+  "Dahschur, Ägypten": {
+   "lat": 29.7513,
+   "lon": 31.2408,
+   "query": "Dahschur, Ägypten",
+   "level": 0,
+   "name": "Dahschur, Al-Dschiza, 12857, Ägypten"
+  },
+  "Dallas City, Illinois, USA": {
+   "lat": 40.6363,
+   "lon": -91.1676,
+   "query": "Dallas City, Illinois, USA",
+   "level": 0,
+   "name": "Dallas City, Hancock County, Illinois, Vereinigte Staaten von Amerika"
+  },
+  "Dallas, Texas, USA": {
+   "lat": 32.7763,
+   "lon": -96.7969,
+   "query": "Dallas, Texas, USA",
+   "level": 0,
+   "name": "Dallas, Dallas County, Texas, Vereinigte Staaten von Amerika"
+  },
+  "Dankar, Spiti, India": {
+   "lat": 32.3684,
+   "lon": 78.0863,
+   "query": "Spiti, India",
+   "level": 1,
+   "name": "Spiti, Lahaul und Spiti, Himachal Pradesh, Indien"
+  },
+  "Dauphin Island, Alabama, USA": {
+   "lat": 30.2542,
+   "lon": -88.1125,
+   "query": "Dauphin Island, Alabama, USA",
+   "level": 0,
+   "name": "Dauphin Island, Mobile County, Alabama, 36528, Vereinigte Staaten von Amerika"
+  },
+  "Davenport, Iowa, USA": {
+   "lat": 41.5225,
+   "lon": -90.5756,
+   "query": "Davenport, Iowa, USA",
+   "level": 0,
+   "name": "Davenport, Rockingham Township, Scott County, Iowa, Vereinigte Staaten von Amerika"
+  },
+  "Davis Gulch, Escalante Canyon, Utah": {
+   "lat": 37.4666,
+   "lon": -111.6044,
+   "query": "Escalante Canyon, Utah",
+   "level": 1,
+   "name": "Escalante Canyon, Kane County, Utah, Vereinigte Staaten von Amerika"
+  },
+  "Daytona Beach, Florida, USA": {
+   "lat": 29.2108,
+   "lon": -81.0228,
+   "query": "Daytona Beach, Florida, USA",
+   "level": 0,
+   "name": "Daytona Beach, Volusia County, Florida, Vereinigte Staaten von Amerika"
+  },
+  "Deep Springs Valley, Kalifornien, USA": {
+   "lat": 36.7015,
+   "lon": -118.756,
+   "query": "Kalifornien, USA",
+   "level": 1,
+   "name": "Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Dehui City, Jilin Province, China": {
+   "lat": 44.535,
+   "lon": 125.6954,
+   "query": "Dehui City, Jilin Province, China",
+   "level": 0,
+   "name": "Dehui, Changchun, Jilin, 130000, China"
+  },
+  "Distrikt Salem, Indien": {
+   "lat": 11.647,
+   "lon": 78.2107,
+   "query": "Distrikt Salem, Indien",
+   "level": 0,
+   "name": "Distrikt Salem, Tamil Nadu, Indien"
+  },
+  "Diving Board, Yosemite, Kalifornien, USA": {
+   "lat": 37.8393,
+   "lon": -119.5165,
+   "query": "Yosemite, Kalifornien, USA",
+   "level": 1,
+   "name": "Yosemite Nationalpark, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Dolomiten, Italien": null,
+  "Dorset, England": {
+   "lat": 50.7968,
+   "lon": -2.3447,
+   "query": "Dorset, England",
+   "level": 0,
+   "name": "Dorset, England, Vereinigtes Königreich"
+  },
+  "Dublin, Ireland": null,
+  "East Anglia, England": {
+   "lat": 52.4617,
+   "lon": 0.6976,
+   "query": "East Anglia, England",
+   "level": 0,
+   "name": "East Anglia, England, Vereinigtes Königreich"
+  },
+  "Eden, Colorado, USA": {
+   "lat": 38.3164,
+   "lon": -104.6164,
+   "query": "Eden, Colorado, USA",
+   "level": 0,
+   "name": "Eden, Pueblo, Pueblo County, Colorado, 81008, Vereinigte Staaten von Amerika"
+  },
+  "Edwards Air Force Base": null,
+  "Engelberg, Schweiz": {
+   "lat": 46.7986,
+   "lon": 8.232,
+   "query": "Schweiz",
+   "level": 1,
+   "name": "Schweiz"
+  },
+  "Enoura": {
+   "lat": 33.1093,
+   "lon": 130.4465,
+   "query": "Enoura",
+   "level": 0,
+   "name": "江の浦, 国道208号, 高田町江浦町, Miyama, Präfektur Fukuoka, Japan"
+  },
+  "Erfoud, Marokko": {
+   "lat": 31.435,
+   "lon": -4.2328,
+   "query": "Erfoud, Marokko",
+   "level": 0,
+   "name": "Erfoud أرفود, Pachalik de Arfoud باشوية أرفود, Provinz Errachidia, Drâa-Tafilalet ⴷⴰⵔⵄⴰ-ⵜⴰⴼⵉⵍⴰⵍⵜ درعة تافيلالت, 52200, M"
+  },
+  "Essaouira, Marokko": {
+   "lat": 31.5118,
+   "lon": -9.7621,
+   "query": "Essaouira, Marokko",
+   "level": 0,
+   "name": "Essaouira, Pachalik d'Essaouira باشوية الصويرة, Province d'Essaouira ⵍⵉⵇⵍⵉⵎ ⵏ ⵚⵡⵉⵔⴰ إقليم الصويرة, Marrakech-Safi ⵎⵕⵕⴰⴽⵛ"
+  },
+  "Fairfield": {
+   "lat": 39.7886,
+   "lon": -82.6419,
+   "query": "Fairfield",
+   "level": 0,
+   "name": "Fairfield County, Ohio, Vereinigte Staaten von Amerika"
+  },
+  "Fengdu, Chongqing": {
+   "lat": 30.0552,
+   "lon": 107.8749,
+   "query": "Chongqing",
+   "level": 1,
+   "name": "Chongqing, China"
+  },
+  "Florence, Oregon, USA": {
+   "lat": 43.98,
+   "lon": -124.1013,
+   "query": "Florence, Oregon, USA",
+   "level": 0,
+   "name": "Florence, Lane County, Oregon, 97439, Vereinigte Staaten von Amerika"
+  },
+  "Foochow (Fuzhou), Fukien, China": {
+   "lat": 22.2647,
+   "lon": 114.2508,
+   "query": "Fukien, China",
+   "level": 2,
+   "name": "福建中學 (小西灣) Fukien Secondary School (Siu Sai Wan), 小西灣道 Siu Sai Wan Road, 小西灣 Siu Sai Wan, 東區 Eastern District, Hong Kong"
+  },
+  "Fort Louvois": {
+   "lat": 45.857,
+   "lon": -1.1744,
+   "query": "Fort Louvois",
+   "level": 0,
+   "name": "Fort Louvois, Place d'Armes, Pointe du Chapus, Bourcefranc-le-Chapus, Rochefort, Charente-Maritime, Neu-Aquitanien, Metr"
+  },
+  "Fortification Rock, Colorado River, USA": {
+   "lat": 36.4542,
+   "lon": -111.8354,
+   "query": "Colorado River, USA",
+   "level": 1,
+   "name": "Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Franklin County, Washington, USA": {
+   "lat": 46.5655,
+   "lon": -118.8935,
+   "query": "Franklin County, Washington, USA",
+   "level": 0,
+   "name": "Franklin County, Washington, Vereinigte Staaten von Amerika"
+  },
+  "Französische Küste": null,
+  "Französische Küste (Ort unbekannt)": null
  }
 }
