@@ -1,0 +1,2893 @@
+{
+ "accessed_at": "2026-10-27",
+ "numbers": [
+  {
+   "image_id": "ib7672be1e9",
+   "photographer": "Christopher Burkett",
+   "project": "Farblandschaften auf 8×10-Dia und Cibachrome",
+   "quantity": "belichtung",
+   "question_de": "Wie lange musste Burkett den Film bei „Aspen Grove“ im schwindenden Licht belichten?",
+   "value": 90,
+   "unit": "s",
+   "min": 1,
+   "max": 300,
+   "tolerance": 20,
+   "answer_de": "Etwa 90 Sekunden – wegen des geringen Lichts, und es blieb Zeit für nur eine Aufnahme [Q1].",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/aspen-grove/",
+     "title": "Aspen Grove - Christopher Burkett | Handmade Cibachromes",
+     "excerpt": "Because of the low light levels, it was necessary to give the film about 90 seconds of exposure.",
+     "kind": "fotograf",
+     "author": "Christopher Burkett",
+     "translation_de": "Wegen des geringen Lichts musste der Film etwa 90 Sekunden belichtet werden.",
+     "library_source_id": 963951
+    }
+   ]
+  },
+  {
+   "image_id": "ice7056e3c3",
+   "photographer": "Christopher Burkett",
+   "project": "Farblandschaften auf 8×10-Dia und Cibachrome",
+   "quantity": "belichtung",
+   "question_de": "Wie lange belichtete Burkett das Velvia-Dia bei „Beaver Lodge at Sunrise“?",
+   "value": 6,
+   "unit": "s",
+   "min": 0,
+   "max": 60,
+   "tolerance": 2,
+   "answer_de": "6 Sekunden, auf einem einzigen Blatt Velvia 50, kurz bevor die Sonne den Bildrand erreichte [Q1].",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett (Entstehungstext)",
+     "excerpt": "Because I didn't want to miss the image by waiting a few seconds too long I exposed one piece of Velvia 50 film for 6 seconds just before the sun got to the edge of the scene.",
+     "kind": "fotograf",
+     "author": "Christopher Burkett",
+     "translation_de": "Weil ich das Bild nicht verpassen wollte, indem ich ein paar Sekunden zu lange wartete, belichtete ich ein Blatt Velvia-50-Film 6 Sekunden lang, kurz bevor die Sonne den Bildrand erreichte.",
+     "library_source_id": 897735
+    }
+   ]
+  },
+  {
+   "image_id": "i7004b09619",
+   "photographer": "Christopher Burkett",
+   "project": "Farblandschaften auf 8×10-Dia und Cibachrome",
+   "quantity": "belichtung",
+   "question_de": "Mit welcher Belichtungszeit nahm Burkett „Forest Light“ mit dem 450-mm-Objektiv bei f/64 auf?",
+   "value": 0.5,
+   "unit": "s",
+   "min": 0,
+   "max": 8,
+   "tolerance": 0.3,
+   "answer_de": "1/2 Sekunde bei f/64 auf Provia, dazu zwei identische Sicherheitsbelichtungen [Q1].",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/forest-light/",
+     "title": "Forest Light – Christopher Burkett (Entstehungstext)",
+     "excerpt": "I used a 450mm lens at f/64 and 1/2 second on Provia film and made two identical backup exposures.",
+     "kind": "fotograf",
+     "author": "Christopher Burkett",
+     "translation_de": "Ich nahm ein 450-mm-Objektiv bei f/64 und 1/2 Sekunde auf Provia-Film und machte zwei identische Sicherheitsbelichtungen."
+    }
+   ]
+  },
+  {
+   "image_id": "if997c4d0aa",
+   "photographer": "Darren Almond",
+   "project": "Fullmoon – Landschaften im Licht des Vollmonds (Auswahl)",
+   "quantity": "belichtung",
+   "question_de": "Wie lange belichtet Almond seine Fullmoon-Landschaften mindestens?",
+   "value": 15,
+   "unit": "min",
+   "min": 0,
+   "max": 120,
+   "tolerance": 5,
+   "answer_de": "Mindestens etwa 15 Minuten bei Vollmond – deshalb wirken die Nachtbilder taghell [Q1].",
+   "sources": [
+    {
+     "url": "https://www.thehighline.org/art/projects/landscape-with-path-fullmoon-thenorthsea/",
+     "title": "Landscape with Path: Fullmoon@TheNorthSea – High Line Art (2011)",
+     "excerpt": "Taken during a full moon with an exposure time of 15 minutes or more, these images of remote geographical locations appear ghostly, bathed in an unexpectedly brilliant light where night seems to have been turned into day.",
+     "kind": "kurator",
+     "author": "High Line Art",
+     "translation_de": "Bei Vollmond mit einer Belichtungszeit von 15 Minuten oder mehr aufgenommen, wirken diese Bilder entlegener Orte geisterhaft, in unerwartet helles Licht getaucht, als sei die Nacht zum Tag geworden.",
+     "library_source_id": 575050
+    }
+   ]
+  },
+  {
+   "image_id": "id61c3f109c",
+   "photographer": "Ansel Adams",
+   "project": "Ikonen mit dokumentierter Entstehung (Examples u. a.)",
+   "quantity": "belichtung",
+   "question_de": "Wie viele Sekunden zusätzliche Belichtung gab Adams später beim Vergrößern dem Himmel von „Moonrise“ (laut seinem Assistenten John Sexton) höchstens?",
+   "value": 70,
+   "unit": "s",
+   "min": 0,
+   "max": 180,
+   "tolerance": 15,
+   "answer_de": "Bis zu 70 zusätzliche Sekunden, bei um 4 Blenden geöffneter Vergrößerer-Blende, während der Mond gleich belichtet blieb [Q1].",
+   "sources": [
+    {
+     "url": "https://articles.anseladams.com/vintage-moonrise-hernandez-new-mexico/",
+     "title": "The Ansel Adams Gallery: Vintage Moonrise, Hernandez, New Mexico",
+     "excerpt": "when Ansel was burning in the sky, he had to open up the aperture of the enlarger by 4 stops and give it up to 70 additional seconds, all while holding the exposure on the moon constant.",
+     "kind": "kurator",
+     "author": "The Ansel Adams Gallery",
+     "translation_de": "Beim Nachbelichten des Himmels musste Ansel die Blende des Vergrößerers um 4 Stufen öffnen und bis zu 70 zusätzliche Sekunden geben, während die Belichtung des Mondes gleich blieb."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Joel Meyerowitz",
+   "project": "The Cape (Cape Light)",
+   "quantity": "belichtung",
+   "question_de": "Wie lange dauerten die längsten Belichtungen mit Meyerowitz’ alter 8×10-Deardorff höchstens?",
+   "value": 5,
+   "unit": "min",
+   "min": 0,
+   "max": 30,
+   "tolerance": 1.5,
+   "answer_de": "Die Belichtungen reichten von fünf Sekunden bis zu fünf Minuten – deshalb brauchte die Kamera ein Stativ [Q1].",
+   "sources": [
+    {
+     "url": "https://www.anothermag.com/art-photography/14237/joel-meyerowitz-colour-photography-interview-huxley-parlour",
+     "title": "Joel Meyerowitz on colour photography – AnOther Magazine",
+     "excerpt": "required a tripod so that it could remain perfectly still for long exposures lasting anywhere from five seconds to five minutes.",
+     "kind": "kritik",
+     "author": "AnOther Magazine",
+     "translation_de": "brauchte ein Stativ, damit sie bei langen Belichtungen von fünf Sekunden bis zu fünf Minuten völlig ruhig stand."
+    }
+   ]
+  },
+  {
+   "image_id": "ice7056e3c3",
+   "photographer": "Christopher Burkett",
+   "project": "Farblandschaften auf 8×10-Dia und Cibachrome",
+   "quantity": "warten",
+   "question_de": "Wie viele Minuten blieben Burkett laut eigener Schätzung, bis das Sonnenlicht den Biberteich erreichen würde?",
+   "value": 15,
+   "unit": "min",
+   "min": 0,
+   "max": 60,
+   "tolerance": 4,
+   "answer_de": "Etwa 15 Minuten – der Hang lag schon in der Sonne, der Teich noch im Schatten [Q1].",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett (Entstehungstext)",
+     "excerpt": "The sun was striking the aspen covered hillside but the beaver pond was in the shade. The photographing potential was there and I could see that I had about 15 minutes before the sunlight would hit the pond.",
+     "kind": "fotograf",
+     "author": "Christopher Burkett",
+     "translation_de": "Die Sonne traf den espenbewachsenen Hang, aber der Biberteich lag im Schatten. Ich sah, dass ich etwa 15 Minuten hatte, bevor das Sonnenlicht den Teich erreichen würde.",
+     "library_source_id": 730439
+    }
+   ]
+  },
+  {
+   "image_id": "ib01bcf3028",
+   "photographer": "Christopher Burkett",
+   "project": "Farblandschaften auf 8×10-Dia und Cibachrome",
+   "quantity": "warten",
+   "question_de": "Wie lange wartete Burkett auf der Brücke über den Rio Grande auf die richtigen Bedingungen?",
+   "value": 20,
+   "unit": "min",
+   "min": 0,
+   "max": 120,
+   "tolerance": 6,
+   "answer_de": "Etwa 20 Minuten – der böige Wind brachte die Brücke zum Schwingen [Q1].",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande – Christopher Burkett (Entstehungstext)",
+     "excerpt": "I had to wait 20 minutes or so for the right conditions—the gusty wind was blowing the bridge, causing everything to sway back and forth.",
+     "kind": "fotograf",
+     "author": "Christopher Burkett",
+     "translation_de": "Ich musste etwa 20 Minuten auf die richtigen Bedingungen warten – der böige Wind ließ die Brücke hin und her schwanken."
+    }
+   ]
+  },
+  {
+   "image_id": "ib01bcf3028",
+   "photographer": "Christopher Burkett",
+   "project": "Farblandschaften auf 8×10-Dia und Cibachrome",
+   "quantity": "warten",
+   "question_de": "Wie viele Sekunden wartete Burkett nach jeder Windböe, bis sich die Brücke beruhigt hatte?",
+   "value": 40,
+   "unit": "s",
+   "min": 0,
+   "max": 180,
+   "tolerance": 10,
+   "answer_de": "Etwa 40 Sekunden nach jeder Böe – dazu kamen Erschütterungen durch Autos und Lastwagen [Q1].",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/canyon-of-the-rio-grande/",
+     "title": "Canyon of the Rio Grande – Christopher Burkett (Entstehungstext)",
+     "excerpt": "After each gust, I would wait for about 40 seconds for the bridge to settle down",
+     "kind": "fotograf",
+     "author": "Christopher Burkett",
+     "translation_de": "Nach jeder Böe wartete ich etwa 40 Sekunden, bis sich die Brücke beruhigt hatte."
+    }
+   ]
+  },
+  {
+   "image_id": "id61c3f109c",
+   "photographer": "Ansel Adams",
+   "project": "Ikonen mit dokumentierter Entstehung (Examples u. a.)",
+   "quantity": "warten",
+   "question_de": "Wie viele Sekunden dauerte das Umdrehen der Filmkassette – lange genug, dass das Licht für eine zweite Aufnahme von „Moonrise“ verschwunden war?",
+   "value": 20,
+   "unit": "s",
+   "min": 0,
+   "max": 120,
+   "tolerance": 6,
+   "answer_de": "Etwa 20 Sekunden – danach war das Licht weg [Q1].",
+   "sources": [
+    {
+     "url": "https://articles.anseladams.com/vintage-moonrise-hernandez-new-mexico/",
+     "title": "The Ansel Adams Gallery: Vintage Moonrise, Hernandez, New Mexico",
+     "excerpt": "He even wanted to make a duplicate exposure, but in the 20 seconds it took to insert the negative slide, pull the carrier, flip it over and reinsert it into the camera, pull the slide and cock the shutter, the light was gone.",
+     "kind": "kurator",
+     "author": "The Ansel Adams Gallery",
+     "translation_de": "Er wollte sogar eine zweite Belichtung machen, aber in den 20 Sekunden, die es dauerte, den Schieber einzusetzen, die Kassette herauszuziehen, umzudrehen, wieder einzusetzen, den Schieber zu ziehen und den Verschluss zu spannen, war das Licht weg.",
+     "library_source_id": 486046
+    }
+   ]
+  },
+  {
+   "image_id": "i4e1ca0fad9",
+   "photographer": "Charlie Waite",
+   "project": "Colour – Landscapes (Farblandschaften aus dem Archiv)",
+   "quantity": "warten",
+   "question_de": "Wie lange brauchte Waite vor Ort für „West of Child Okeford“ – vom Aufbauen bis zum fertigen Bild?",
+   "value": 20,
+   "unit": "min",
+   "min": 0,
+   "max": 240,
+   "tolerance": 8,
+   "answer_de": "Nach eigener Schätzung nur etwa 20 Minuten [Q1].",
+   "sources": [
+    {
+     "url": "https://www.digitalcameraworld.com/news/landscape-master-charlie-waite-shares-the-stories-behind-five-of-his-photographs",
+     "title": "Landscape master Charlie Waite shares stories behind five of his top photographs | Digital Camera World",
+     "excerpt": "I set myself up, and within a very short time I made the image, probably only a matter of 20 minutes.",
+     "kind": "fotograf",
+     "author": "Charlie Waite",
+     "translation_de": "Ich baute auf, und nach sehr kurzer Zeit hatte ich das Bild – wohl nur eine Sache von 20 Minuten.",
+     "library_source_id": 258739
+    }
+   ]
+  },
+  {
+   "image_id": "i6ab6b8327d",
+   "photographer": "Wynn Bullock",
+   "project": "Point Lobos und die Küste bei Monterey (1950er–60er)",
+   "quantity": "warten",
+   "question_de": "Wie oft war Bullock an der Stelle des „Stark Tree“ vorbeigefahren, ohne fotografieren zu wollen?",
+   "value": 12,
+   "unit": "Stück",
+   "min": 1,
+   "max": 50,
+   "tolerance": 4,
+   "answer_de": "Etwa ein Dutzend Mal – erst Wolken und Stimmung eines bestimmten Tages ließen ihn anhalten [Q1].",
+   "sources": [
+    {
+     "url": "http://www.wynnbullockphotography.com/featured/2013-02/featured-1302-text.html",
+     "title": "Stark Tree, 1956 – Kommentar von Barbara Bullock-Wilson mit Zitaten aus Darkroom (1977), wynnbullockphotography.com",
+     "excerpt": "I passed that place on a mountain freeway maybe a dozen times and never wanted to take a picture. But one day the clouds, the atmospheric feeling of the scene, appealed to me.",
+     "kind": "fotograf",
+     "author": "Wynn Bullock",
+     "translation_de": "Ich bin an der Stelle auf einer Bergstraße vielleicht ein Dutzend Mal vorbeigefahren und wollte nie ein Bild machen. Aber eines Tages sprachen mich die Wolken, die Stimmung der Szene an."
+    }
+   ]
+  },
+  {
+   "image_id": "i251caa1a1a",
+   "photographer": "Art Wolfe",
+   "project": "Earth Is My Witness – Landschaften (Druckauswahl)",
+   "quantity": "warten",
+   "question_de": "Innerhalb wie vieler Stunden nach der Nachricht vom Ausbruch war Wolfe schon am Ätna unterwegs?",
+   "value": 32,
+   "unit": "h",
+   "min": 0,
+   "max": 168,
+   "tolerance": 10,
+   "answer_de": "Innerhalb von 32 Stunden stieg er auf den Vulkan [Q1].",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/etna/",
+     "title": "Moonrise over Etna – Art Wolfe Fine Art Prints",
+     "excerpt": "Within 32 hours of hearing that Sicily's Mt. Etna was erupting, I was hiking up the volcano.",
+     "kind": "fotograf",
+     "author": "Art Wolfe",
+     "translation_de": "Innerhalb von 32 Stunden, nachdem ich gehört hatte, dass der Ätna auf Sizilien ausbrach, wanderte ich den Vulkan hinauf.",
+     "library_source_id": 949716
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Murray Fredericks",
+   "project": "Salt – Lake Eyre (2003–2010)",
+   "quantity": "warten",
+   "question_de": "Wie lange campierte Fredericks für „Salt“ jeweils höchstens allein mitten auf dem Lake Eyre?",
+   "value": 35,
+   "unit": "Tage",
+   "min": 1,
+   "max": 120,
+   "tolerance": 8,
+   "answer_de": "Bis zu fünf Wochen am Stück (also rund 35 Tage), auf insgesamt sechzehn Reisen zwischen 2003 und 2010 [Q1].",
+   "sources": [
+    {
+     "url": "https://murrayfredericks.com.au/portfolio/salt/",
+     "title": "Salt – Projektseite, Murray Fredericks",
+     "excerpt": "Fredericks camped alone in the centre of the lake photographing a 'landscape without landscape' for up to five weeks at a time.",
+     "kind": "fotograf",
+     "author": "Murray Fredericks (Website)",
+     "translation_de": "Fredericks campierte allein in der Mitte des Sees und fotografierte eine „Landschaft ohne Landschaft“, jeweils bis zu fünf Wochen lang."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Eve Arnold",
+   "project": "In China",
+   "quantity": "warten",
+   "question_de": "Wie viele Jahre wartete Eve Arnold auf die Genehmigung ihres Sondervisums für China?",
+   "value": 10,
+   "unit": "Jahre",
+   "min": 0,
+   "max": 30,
+   "tolerance": 3,
+   "answer_de": "Mehr als 10 Jahre – danach bekam sie fast freien Zugang und reiste nur mit einer Dolmetscherin [Q1].",
+   "sources": [
+    {
+     "url": "https://www.csmonitor.com/1980/1208/120856.html",
+     "title": "Exotic places; In China, by Eve Arnold – The Christian Science Monitor (Gordon N. Converse, 8. Dez. 1980)",
+     "excerpt": "After waiting more than 10 years for approval of her special visa, she was given practically free access to all of China, traveling with only one interpreter.",
+     "kind": "kritik",
+     "author": "Gordon N. Converse (The Christian Science Monitor)",
+     "translation_de": "Nachdem sie mehr als 10 Jahre auf die Genehmigung ihres Sondervisums gewartet hatte, erhielt sie praktisch freien Zugang zu ganz China und reiste nur mit einer Dolmetscherin."
+    }
+   ]
+  },
+  {
+   "image_id": "ieef5d23125",
+   "photographer": "Ansel Adams",
+   "project": "Ikonen mit dokumentierter Entstehung (Examples u. a.)",
+   "quantity": "hoehe",
+   "question_de": "Wie hoch über dem Talboden des Yosemite liegt das „Diving Board“, von dem aus Adams „Monolith“ fotografierte?",
+   "value": 3500,
+   "unit": "ft",
+   "min": 0,
+   "max": 8000,
+   "tolerance": 700,
+   "answer_de": "Mehr als 3.500 Fuß (gut 1.000 m) über dem Yosemite Valley [Q1].",
+   "sources": [
+    {
+     "url": "https://articles.anseladams.com/story-behind-the-image-monolith-the-face-of-half-dome/",
+     "title": "The Ansel Adams Gallery: Story Behind the Image – Monolith, the Face of Half Dome",
+     "excerpt": "When the group reached the Diving Board, a steep outcropping more than 3,500 feet above Yosemite Valley, Ansel knew this was the perfect vista from which to capture Half Dome's sheer face.",
+     "kind": "kurator",
+     "author": "The Ansel Adams Gallery",
+     "translation_de": "Als die Gruppe das Diving Board erreichte, einen steilen Felsvorsprung mehr als 3.500 Fuß über dem Yosemite Valley, wusste Ansel, dass dies der perfekte Blickpunkt für die steile Wand des Half Dome war.",
+     "library_source_id": 417849
+    }
+   ]
+  },
+  {
+   "image_id": "ie9df651c4e",
+   "photographer": "David Maisel",
+   "project": "The Lake Project",
+   "quantity": "hoehe",
+   "question_de": "Auf welche Höhe stieg der Pilot bei Maisels Flügen über den Owens Lake?",
+   "value": 10000,
+   "unit": "ft",
+   "min": 0,
+   "max": 20000,
+   "tolerance": 2500,
+   "answer_de": "Auf 10.000 Fuß (rund 3.000 m) – stundenlang kreisend, bis Maisel unter Sauerstoffmangel litt [Q1].",
+   "sources": [
+    {
+     "url": "https://www.kqed.org/arts/10824428/david-maisels-aerial-photos-reveal-scars-on-the-american-west",
+     "title": "David Maisel's Surreal Aerial Photos Reveal Scars on the American West – KQED",
+     "excerpt": "The pilot had soared up to 10,000 feet, circling and banking the plane for hours at a time",
+     "kind": "kritik",
+     "author": "KQED",
+     "translation_de": "Der Pilot war auf 10.000 Fuß gestiegen und kreiste stundenlang mit dem Flugzeug in Schräglage."
+    }
+   ]
+  },
+  {
+   "image_id": "ic119bf71b8",
+   "photographer": "Vittorio Sella",
+   "project": "Expeditionen: Alaska, Kangchenjunga und Karakorum",
+   "quantity": "hoehe",
+   "question_de": "In welcher Höhe machten die Brüder Sella bei der Kangchenjunga-Umrundung 1899 ihre Aufnahmen – damals unter den höchsten überhaupt?",
+   "value": 20000,
+   "unit": "ft",
+   "min": 5000,
+   "max": 29000,
+   "tolerance": 3000,
+   "answer_de": "In etwa 20.000 Fuß (rund 6.100 m) [Q1].",
+   "sources": [
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "Heavy snow buried their camp, but at about 20,000 feet the Sella brothers stopped to take photographs, among the highest anyone had made.",
+     "kind": "kritik",
+     "author": "PeakVisor",
+     "translation_de": "Schwerer Schnee begrub ihr Lager, aber in etwa 20.000 Fuß hielten die Brüder Sella an, um zu fotografieren – unter den höchsten Aufnahmen, die je gemacht worden waren.",
+     "library_source_id": 709953
+    }
+   ]
+  },
+  {
+   "image_id": "i2172940078",
+   "photographer": "Herbert Ponting",
+   "project": "British Antarctic (Terra Nova) Expedition",
+   "quantity": "hoehe",
+   "question_de": "Wie hoch gibt Ponting den Mount Erebus an, der hinter dem Eiswall aufragt?",
+   "value": 13500,
+   "unit": "ft",
+   "min": 3000,
+   "max": 25000,
+   "tolerance": 2500,
+   "answer_de": "13.500 Fuß (gut 4.100 m) – davor eine rund hundert Fuß hohe Eisklippe [Q1].",
+   "sources": [
+    {
+     "url": "https://archive.org/stream/greatwhitesouthb00pontuoft/greatwhitesouthb00pontuoft_djvu.txt",
+     "title": "Full text of \"The great white South, being an account of experiences with Captain Scott's South Pole Expedition and of the nature life of the Antarctic;\"",
+     "excerpt": "sat enthroned in all his majesty of 13,500 feet of height",
+     "kind": "fotograf",
+     "author": "Herbert Ponting",
+     "translation_de": "thronte in all seiner Majestät von 13.500 Fuß Höhe"
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Michael Light",
+   "project": null,
+   "quantity": "hoehe",
+   "question_de": "In welcher Höhe über Grund fliegt Light sein Flugzeug für die Bilder von Lake Lahontan und Lake Bonneville etwa?",
+   "value": 500,
+   "unit": "ft",
+   "min": 0,
+   "max": 5000,
+   "tolerance": 150,
+   "answer_de": "Rund 500 Fuß (gut 150 m) über Grund – er steuert das 600-Pfund-Leichtflugzeug selbst [Q1].",
+   "sources": [
+    {
+     "url": "http://blog.photoeye.com/2019/12/lake-lahontan-lake-bonneville-interview.html",
+     "title": "Lake Lahontan | Lake Bonneville — An Interview with Michael Light",
+     "excerpt": "I’m piloting my 600 lb, 100 horsepower aircraft about 500 feet above the ground—carefully!—and trying to make images that convey the greatest sense of vastness and scale possible.",
+     "kind": "fotograf",
+     "author": "Michael Light",
+     "translation_de": "Ich fliege mein 600 Pfund schweres Flugzeug mit 100 PS etwa 500 Fuß über dem Boden – vorsichtig! – und versuche Bilder zu machen, die ein größtmögliches Gefühl von Weite und Maßstab vermitteln.",
+     "library_source_id": 942342
+    }
+   ]
+  },
+  {
+   "image_id": "i409d561d98",
+   "photographer": "Michael Light",
+   "project": "Some Dry Space (Handbuch 2003, Aufnahmen 2000–2001)",
+   "quantity": "gewicht",
+   "question_de": "Wie schwer ist die Kamera, die Light bei offener Flugzeugtür aus der Hand benutzt?",
+   "value": 9,
+   "unit": "kg",
+   "min": 0,
+   "max": 30,
+   "tolerance": 3,
+   "answer_de": "Etwa 20 Pfund, also rund 9 kg [Q1].",
+   "sources": [
+    {
+     "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+     "title": "Geoff Manaugh: Spatial Delirium: An Interview with Michael Light – BLDGBLOG (Oktober 2013)",
+     "excerpt": "The camera I use is about 20 pounds.",
+     "kind": "fotograf",
+     "author": "Michael Light",
+     "translation_de": "Die Kamera, die ich benutze, wiegt etwa 20 Pfund."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Carleton E. Watkins",
+   "project": "Yosemite (Mammutplatten-Aufnahmen)",
+   "quantity": "gewicht",
+   "question_de": "Wie viel Ausrüstung musste Watkins für eine Yosemite-Reise mit Maultieren durch die Sierra Nevada schaffen?",
+   "value": 900,
+   "unit": "kg",
+   "min": 0,
+   "max": 3000,
+   "tolerance": 250,
+   "answer_de": "Rund 2.000 Pfund (etwa 900 kg) – Mammutplatten, Chemikalien und eine Dunkelkammer [Q1].",
+   "sources": [
+    {
+     "url": "https://www.nationalgeographic.com/photography/article/musings-carleton-watkinss-mammoth-vision-of-yosemite",
+     "title": "Musings: Carleton Watkins’s Mammoth Vision of Yosemite – National Geographic",
+     "excerpt": "Carry 2,000 pounds of equipment-the equivalent of two horses-including mammoth glass plates, flammable chemicals, and a makeshift darkroom, on mules through the Sierra Nevada Mountains.",
+     "kind": "kritik",
+     "author": "National Geographic",
+     "translation_de": "2.000 Pfund Ausrüstung – so viel wie zwei Pferde –, darunter Mammut-Glasplatten, brennbare Chemikalien und eine behelfsmäßige Dunkelkammer, mit Maultieren durch die Sierra Nevada tragen."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Vittorio Sella",
+   "project": "Expeditionen: Alaska, Kangchenjunga und Karakorum",
+   "quantity": "gewicht",
+   "question_de": "Wie schwer war Sellas große Plattenkamera nach Schätzung einer Kuratorin?",
+   "value": 18,
+   "unit": "kg",
+   "min": 0,
+   "max": 60,
+   "tolerance": 5,
+   "answer_de": "Etwa vierzig Pfund (rund 18 kg), jedes Glasnegativ wog etwa zwei Pfund [Q1].",
+   "sources": [
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "By one curator's estimate, the big camera weighed about forty pounds, and each glass negative about two.",
+     "kind": "kritik",
+     "author": "PeakVisor",
+     "translation_de": "Nach Schätzung einer Kuratorin wog die große Kamera etwa vierzig Pfund und jedes Glasnegativ etwa zwei.",
+     "library_source_id": 713430
+    }
+   ]
+  },
+  {
+   "image_id": "i168e85bd87",
+   "photographer": "Francis Frith",
+   "project": "Egypt and Palestine / Egypt, Sinai and Jerusalem",
+   "quantity": "negativ",
+   "question_de": "Wie lang ist die lange Seite des Negativs, von dem Frith „The Sphinx and the Great Pyramid“ abzog – eines seiner größten?",
+   "value": 50.8,
+   "unit": "cm",
+   "min": 5,
+   "max": 100,
+   "tolerance": 8,
+   "answer_de": "50,8 cm – das Negativ maß 40,6 × 50,8 cm (16 × 20 Zoll) [Q1].",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O90516/",
+     "title": "Sphinx – Victoria and Albert Museum (Objektseite O90516)",
+     "excerpt": "This photograph was produced from one of Frith's largest negatives (40.6 x 50.8 cm)",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "translation_de": "Diese Fotografie entstand von einem von Friths größten Negativen (40,6 × 50,8 cm)."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Carleton E. Watkins",
+   "project": "Yosemite (Mammutplatten-Aufnahmen)",
+   "quantity": "negativ",
+   "question_de": "Wie lang war die lange Seite von Watkins’ Mammut-Glasnegativen (in Zoll)?",
+   "value": 22,
+   "unit": "in",
+   "min": 2,
+   "max": 30,
+   "tolerance": 3,
+   "answer_de": "22 Zoll – die Platten maßen 18 × 22 Zoll (rund 46 × 56 cm); er vergrößerte nicht, sondern kopierte direkt [Q1].",
+   "sources": [
+    {
+     "url": "https://www.sfmoma.org/artist/Carleton_E._Watkins/",
+     "title": "Carleton E. Watkins | SFMOMA",
+     "excerpt": "And so he had a cabinetmaker build him a giant camera that was capable of producing glass-plate negatives that were 18 by 22 inches.",
+     "kind": "museum",
+     "author": "SFMOMA",
+     "translation_de": "Also ließ er sich von einem Kunsttischler eine Riesenkamera bauen, die Glasnegative von 18 × 22 Zoll aufnehmen konnte."
+    }
+   ]
+  },
+  {
+   "image_id": "ie127a266fa",
+   "photographer": "Eadweard Muybridge",
+   "project": "Valley of the Yosemite (Mammutplatten 1872)",
+   "quantity": "negativ",
+   "question_de": "Wie lang war laut Cleveland Museum die lange Seite der Mammut-Glasplatten, die Muybridge 1872 im Yosemite benutzte?",
+   "value": 24,
+   "unit": "in",
+   "min": 2,
+   "max": 30,
+   "tolerance": 3,
+   "answer_de": "24 Zoll – das Museum nennt Platten von 20 × 24 Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/1990.133",
+     "title": "Valley of the Yosemite, from Rocky Ford | Cleveland Museum of Art",
+     "excerpt": "During his second journey there, lasting from June through November 1872, he made his most significant and extensive body of landscape photographs, many taken with mammoth glass plate negatives measuring 20 x 24 inches.",
+     "kind": "museum",
+     "author": "Cleveland Museum of Art",
+     "translation_de": "Auf seiner zweiten Reise dorthin, von Juni bis November 1872, entstand seine bedeutendste und umfangreichste Gruppe von Landschaftsfotografien, viele mit Mammut-Glasnegativen von 20 × 24 Zoll.",
+     "library_source_id": 505624
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Linnaeus Tripe",
+   "project": "Photographic Views of Ryakotta and other places in the Salem District",
+   "quantity": "negativ",
+   "question_de": "Wie lang war die lange Seite der Papiernegative, die Tripe hauptsächlich verwendete?",
+   "value": 14,
+   "unit": "in",
+   "min": 2,
+   "max": 30,
+   "tolerance": 3,
+   "answer_de": "14 Zoll – meist Papiernegative von 12 × 14 Zoll, einige auch auf Glas [Q1].",
+   "sources": [
+    {
+     "url": "https://www.vam.ac.uk/articles/linnaeus-tripe-working-methods",
+     "title": "Linnaeus Tripe: working methods – Victoria and Albert Museum (Artikel)",
+     "excerpt": "Tripe mainly made 12 x 14 inch paper negatives, however, he also made a few 11 x 14 inch dry collodion-on-glass negatives - a newer photographic technique.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "translation_de": "Tripe machte hauptsächlich Papiernegative von 12 × 14 Zoll, aber auch einige trockene Kollodium-Glasnegative von 11 × 14 Zoll – eine damals neuere Technik.",
+     "library_source_id": 398723
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Vittorio Sella",
+   "project": "Expeditionen: Alaska, Kangchenjunga und Karakorum",
+   "quantity": "negativ",
+   "question_de": "Wie lang war die lange Seite der Glasplatten, die Sella ab 1882 verwendete?",
+   "value": 40,
+   "unit": "cm",
+   "min": 5,
+   "max": 60,
+   "tolerance": 6,
+   "answer_de": "40 cm – von 1882 bis 1893 Platten von 30 × 40 cm, davor 24 × 30 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.fondazionesella.org/biographies/sella-vittorio-6/",
+     "title": "Vittorio Sella – Biografie, Fondazione Sella (Biella)",
+     "excerpt": "From 1882 to 1893 he used the same plates but measuring 30×40 cm and he documented both sides of the Alps.",
+     "kind": "museum",
+     "author": "Fondazione Sella",
+     "translation_de": "Von 1882 bis 1893 verwendete er die gleichen Platten, nun aber im Format 30 × 40 cm, und dokumentierte beide Seiten der Alpen."
+    }
+   ]
+  },
+  {
+   "image_id": "ide0d8ba388",
+   "photographer": "Herbert Ponting",
+   "project": "British Antarctic (Terra Nova) Expedition",
+   "quantity": "negativ",
+   "question_de": "Wie lang war die lange Seite der Platten seiner Spiegelreflexkamera, mit der Ponting die Mitternachtssonne aufnahm?",
+   "value": 7,
+   "unit": "in",
+   "min": 1,
+   "max": 20,
+   "tolerance": 2,
+   "answer_de": "7 Zoll – eine 7×5-Zoll-Spiegelreflexkamera [Q1].",
+   "sources": [
+    {
+     "url": "https://archive.org/stream/greatwhitesouthb00pontuoft/greatwhitesouthb00pontuoft_djvu.txt",
+     "title": "Full text of \"The great white South, being an account of experiences with Captain Scott's South Pole Expedition and of the nature life of the Antarctic;\"",
+     "excerpt": "With this combination I secured correctly exposed negatives, with my 7X5 reflex camera",
+     "kind": "fotograf",
+     "author": "Herbert Ponting",
+     "translation_de": "Mit dieser Kombination erhielt ich mit meiner 7×5-Spiegelreflexkamera richtig belichtete Negative."
+    }
+   ]
+  },
+  {
+   "image_id": "i994aec4ef6",
+   "photographer": "Dorothea Lange",
+   "project": "Migrant Mother (FSA/Resettlement Administration, Nipomo 1936)",
+   "quantity": "negativ",
+   "question_de": "Wie lang ist die lange Seite der Original-Filmnegative der „Migrant Mother“-Serie (in Zoll)?",
+   "value": 5,
+   "unit": "in",
+   "min": 1,
+   "max": 12,
+   "tolerance": 1,
+   "answer_de": "5 Zoll – Lange arbeitete mit einer Graflex auf 4×5-Zoll-Planfilm [Q1].",
+   "sources": [
+    {
+     "url": "https://guides.loc.gov/migrant-mother",
+     "title": "Library of Congress Research Guide: Dorothea Lange's \"Migrant Mother\" Photographs",
+     "excerpt": "The images were made using a Graflex camera. The original negatives are 4x5\" film.",
+     "kind": "museum",
+     "author": "Library of Congress",
+     "translation_de": "Die Bilder entstanden mit einer Graflex-Kamera. Die Originalnegative sind 4×5-Zoll-Filme.",
+     "library_source_id": 307726
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Mario Giacomelli",
+   "project": null,
+   "quantity": "negativ",
+   "question_de": "Wie lang war die lange Seite der Rollfilmnegative von Giacomellis Kamera (in cm)?",
+   "value": 9,
+   "unit": "cm",
+   "min": 2,
+   "max": 30,
+   "tolerance": 2,
+   "answer_de": "9 cm – die Kamera lieferte auf 120er-Rollfilm Negative von 6 × 9 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.getty.edu/art/exhibitions/giacomelli/explore.html",
+     "title": "Mario Giacomelli: Figure/Ground",
+     "excerpt": "the camera used 120 roll film to produce 6 x 9 cm negatives and accommodated interchangeable lenses and a synchronized flash.",
+     "kind": "museum",
+     "author": "J. Paul Getty Museum",
+     "translation_de": "die Kamera verwendete 120er-Rollfilm für Negative von 6 × 9 cm und erlaubte Wechselobjektive und einen synchronisierten Blitz.",
+     "library_source_id": 928036
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Martin Parr",
+   "project": null,
+   "quantity": "negativ",
+   "question_de": "Wie lang war die lange Seite des Mittelformatnegativs der Plaubel, auf die Parr für New Brighton umstieg (in cm)?",
+   "value": 7,
+   "unit": "cm",
+   "min": 2,
+   "max": 30,
+   "tolerance": 1.5,
+   "answer_de": "7 cm – eine Plaubel-Weitwinkel-Mittelformatkamera 6 × 7 cm, kombiniert mit Blitz [Q1].",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/martin-parr-beach-therapy/",
+     "title": "Martin Parr’s Beach Therapy • Martin Parr • Magnum Photos",
+     "excerpt": "I decided to up format and bought one of the newly launched Plaubel wide angle medium format 6/7cm cameras.",
+     "kind": "fotograf",
+     "author": "Martin Parr",
+     "translation_de": "Ich beschloss, ins größere Format zu wechseln, und kaufte eine der neu herausgebrachten Plaubel-Weitwinkel-Mittelformatkameras 6 × 7 cm."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Victoria Sambunaris",
+   "project": "Untitled – Fahrten durch die amerikanische Landschaft (Auswahl 2001–2012)",
+   "quantity": "negativ",
+   "question_de": "Welches Plattenformat hat Sambunaris’ Großformatkamera – wie lang ist die lange Seite (in Zoll)?",
+   "value": 7,
+   "unit": "in",
+   "min": 1,
+   "max": 20,
+   "tolerance": 2,
+   "answer_de": "7 Zoll – eine 5×7-Zoll-Fachkamera [Q1].",
+   "sources": [
+    {
+     "url": "https://www.victoriasambunaris.com/about",
+     "title": "About – victoriasambunaris.com",
+     "excerpt": "Equipped with a 5x7 inch field camera, film, a video camera and research material, she crosses the country alone by car for several months per year.",
+     "kind": "fotograf",
+     "author": "Victoria Sambunaris (Website)",
+     "translation_de": "Ausgerüstet mit einer 5×7-Zoll-Fachkamera, Film, Videokamera und Recherchematerial durchquert sie jedes Jahr mehrere Monate lang allein mit dem Auto das Land."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Thomas Joshua Cooper",
+   "project": null,
+   "quantity": "negativ",
+   "question_de": "Welches Plattenformat hat Coopers Agfa-Ansco-Fachkamera von 1898 – wie lang ist die lange Seite (in Zoll)?",
+   "value": 7,
+   "unit": "in",
+   "min": 1,
+   "max": 20,
+   "tolerance": 2,
+   "answer_de": "7 Zoll – eine 5×7-Zoll-Plattenkamera, gebaut 1898, die er seit 1968 benutzt [Q1].",
+   "sources": [
+    {
+     "url": "https://www.meer.com/en/54566-thomas-joshua-cooper",
+     "title": "Thomas Joshua Cooper – Meer",
+     "excerpt": "Each location is the subject of a single negative taken with a Agfa Ansco 5 x 7″ plate field camera made in 1898 in Binghamton, New York.",
+     "kind": "kritik",
+     "author": "Meer",
+     "translation_de": "Jeder Ort wird in einem einzigen Negativ festgehalten, aufgenommen mit einer 1898 in Binghamton (New York) gebauten Agfa-Ansco-Plattenkamera 5 × 7 Zoll."
+    }
+   ]
+  },
+  {
+   "image_id": "id61c3f109c",
+   "photographer": "Ansel Adams",
+   "project": "Ikonen mit dokumentierter Entstehung (Examples u. a.)",
+   "quantity": "aufnahmen",
+   "question_de": "Wie viele Aufnahmen konnte Adams von „Moonrise, Hernandez“ machen, bevor sich die Szene veränderte?",
+   "value": 1,
+   "unit": "Stück",
+   "min": 1,
+   "max": 12,
+   "tolerance": 1,
+   "answer_de": "Nur eine – sein Belichtungsmesser fehlte, er schätzte die Belichtung [Q1].",
+   "sources": [
+    {
+     "url": "https://sam.nmartmuseum.org/objects/19756/moonrise-hernandez-new-mexico",
+     "title": "New Mexico Museum of Art: Moonrise, Hernandez, New Mexico",
+     "excerpt": "His light meter was missing, so he guessed at the proper exposure and had time to make only one exposure before the scene changed.",
+     "kind": "museum",
+     "author": "New Mexico Museum of Art",
+     "translation_de": "Sein Belichtungsmesser fehlte, also schätzte er die Belichtung und hatte nur Zeit für eine einzige Aufnahme, bevor sich die Szene veränderte."
+    }
+   ]
+  },
+  {
+   "image_id": "ieef5d23125",
+   "photographer": "Ansel Adams",
+   "project": "Ikonen mit dokumentierter Entstehung (Examples u. a.)",
+   "quantity": "aufnahmen",
+   "question_de": "Wie viele Glasplatten trug Adams beim Aufstieg zum Diving Board für „Monolith“ bei sich?",
+   "value": 12,
+   "unit": "Stück",
+   "min": 1,
+   "max": 40,
+   "tolerance": 3,
+   "answer_de": "Zwölf schwere panchromatische Wratten-Glasplatten, dazu Korona-Kamera, zwei Objektive, zwei Filter und Holzstativ [Q1].",
+   "sources": [
+    {
+     "url": "https://johnsexton.com/newsletter04-2012.html",
+     "title": "John Sexton Photography Newsletter, 10. April 2012: Monolith, The Face of Half Dome",
+     "excerpt": "Ansel was carrying his 6-1/2 x 8-1/2-inch Korona view camera, two lenses, two filters, his wooden tripod, and twelve heavy Wratten panchromatic glass plates.",
+     "kind": "fotograf",
+     "author": "John Sexton",
+     "translation_de": "Ansel trug seine Korona-Fachkamera 6½ × 8½ Zoll, zwei Objektive, zwei Filter, sein Holzstativ und zwölf schwere panchromatische Wratten-Glasplatten.",
+     "library_source_id": 772263
+    }
+   ]
+  },
+  {
+   "image_id": "i994aec4ef6",
+   "photographer": "Dorothea Lange",
+   "project": "Migrant Mother (FSA/Resettlement Administration, Nipomo 1936)",
+   "quantity": "aufnahmen",
+   "question_de": "Wie viele Aufnahmen machte Lange nach eigener Erinnerung von der „Migrant Mother“?",
+   "value": 5,
+   "unit": "Stück",
+   "min": 1,
+   "max": 30,
+   "tolerance": 2,
+   "answer_de": "Fünf, aus derselben Richtung immer näher herangehend [Q1].",
+   "sources": [
+    {
+     "url": "https://guides.loc.gov/migrant-mother",
+     "title": "Library of Congress Research Guide: Dorothea Lange's \"Migrant Mother\" Photographs",
+     "excerpt": "I made five exposures, working closer and closer from the same direction.",
+     "kind": "fotograf",
+     "author": "Dorothea Lange (zitiert von der Library of Congress)",
+     "translation_de": "Ich machte fünf Aufnahmen und arbeitete mich aus derselben Richtung immer näher heran."
+    }
+   ]
+  },
+  {
+   "image_id": "if30d7f0679",
+   "photographer": "Frank Hurley",
+   "project": "Imperial Trans-Antarctic Expedition (Endurance)",
+   "quantity": "aufnahmen",
+   "question_de": "Wie viele seiner geborgenen Glasplatten konnte Hurley nach dem Untergang der Endurance mitnehmen?",
+   "value": 150,
+   "unit": "Stück",
+   "min": 0,
+   "max": 600,
+   "tolerance": 40,
+   "answer_de": "Nur etwa 150 von rund 550 geborgenen Platten, der Rest blieb zurück [Q1].",
+   "sources": [
+    {
+     "url": "https://media.nls.uk/news/haunting-photographs-reveal-shackleton-survival-story",
+     "title": "Haunting photographs reveal Shackleton survival story – National Library of Scotland (Enduring Eye, RGS-IBG)",
+     "excerpt": "From the 550 plates that were recovered, Hurley could carry only 150 and the others had to be abandoned.",
+     "kind": "museum",
+     "author": "National Library of Scotland",
+     "translation_de": "Von den 550 geborgenen Platten konnte Hurley nur 150 tragen, die übrigen mussten zurückgelassen werden."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Robert Frank",
+   "project": "The Americans",
+   "quantity": "aufnahmen",
+   "question_de": "Wie viele Einzelbilder belichtete Frank für „The Americans“ insgesamt etwa?",
+   "value": 27000,
+   "unit": "Stück",
+   "min": 0,
+   "max": 60000,
+   "tolerance": 6000,
+   "answer_de": "Rund 27.000 Bilder auf 767 Filmrollen [Q1].",
+   "sources": [
+    {
+     "url": "https://www.npr.org/2009/02/13/100688154/americans-the-book-that-changed-photography",
+     "title": "'Americans': The Book That Changed Photography – NPR (2009)",
+     "excerpt": "During his trip, Frank shot 767 rolls of film yielding about 27,000 images.",
+     "kind": "kritik",
+     "author": "NPR",
+     "translation_de": "Auf seiner Reise belichtete Frank 767 Filmrollen mit etwa 27.000 Bildern."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Robert Frank",
+   "project": "The Americans",
+   "quantity": "aufnahmen",
+   "question_de": "Auf wie viele Arbeitsabzüge dünnte Frank die Ausbeute für „The Americans“ zuerst aus?",
+   "value": 1000,
+   "unit": "Stück",
+   "min": 0,
+   "max": 5000,
+   "tolerance": 250,
+   "answer_de": "Auf etwa 1.000 Arbeitsabzüge, die er auf dem Atelierboden auslegte und an die Wände heftete [Q1].",
+   "sources": [
+    {
+     "url": "https://www.npr.org/2009/02/13/100688154/americans-the-book-that-changed-photography",
+     "title": "'Americans': The Book That Changed Photography – NPR (2009)",
+     "excerpt": "He edited that down to about 1,000 work prints, spread them across the floor of his studio and tacked them to the walls for a final edit.",
+     "kind": "kritik",
+     "author": "NPR",
+     "translation_de": "Er reduzierte das auf etwa 1.000 Arbeitsabzüge, breitete sie auf dem Boden seines Ateliers aus und heftete sie für die letzte Auswahl an die Wände."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Samuel Bourne",
+   "project": null,
+   "quantity": "aufnahmen",
+   "question_de": "Mit wie vielen Negativen kehrte Bourne von seiner zweimonatigen Expedition in den Hohen Himalaya zurück?",
+   "value": 147,
+   "unit": "Stück",
+   "min": 0,
+   "max": 500,
+   "tolerance": 35,
+   "answer_de": "147 Negative – nach zwei Monaten und Hunderten Meilen, begleitet von 30 Trägern [Q1].",
+   "sources": [
+    {
+     "url": "https://exhibits.library.duke.edu/exhibits/show/royalindia/photographers",
+     "title": "Royal India & The British: The Photography of Samuel Bourne & Raja Lala Deen Dayal – Duke University Library Exhibits",
+     "excerpt": "Pausing only briefly, Bourne left on an expedition into the high Himalayas with a retinue of 30 coolies, returning two months and hundreds of difficult miles later with 147 negatives.",
+     "kind": "wissenschaft",
+     "author": "Duke University Libraries",
+     "translation_de": "Nach nur kurzer Pause brach Bourne mit 30 Trägern zu einer Expedition in den Hohen Himalaya auf und kehrte zwei Monate und Hunderte beschwerliche Meilen später mit 147 Negativen zurück."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Carleton E. Watkins",
+   "project": "Yosemite (Mammutplatten-Aufnahmen)",
+   "quantity": "aufnahmen",
+   "question_de": "Wie viele Mammutplatten-Aufnahmen brachte Watkins von seiner ersten Yosemite-Reise 1861 mit?",
+   "value": 30,
+   "unit": "Stück",
+   "min": 0,
+   "max": 200,
+   "tolerance": 10,
+   "answer_de": "30 Mammutplatten und dazu 100 Stereonegative [Q1].",
+   "sources": [
+    {
+     "url": "https://akronartmuseum.org/collection/?artist=848",
+     "title": "Carleton E. Watkins – Akron Art Museum (Sammlung)",
+     "excerpt": "This trip resulted in 30 mammoth plates and 100 stereoscopic negatives",
+     "kind": "museum",
+     "author": "Akron Art Museum",
+     "translation_de": "Diese Reise ergab 30 Mammutplatten und 100 Stereonegative."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Edward Weston",
+   "project": "Point Lobos und die Dünen von Oceano (Project Prints)",
+   "quantity": "aufnahmen",
+   "question_de": "Aus wie vielen Negativen, die als Edwards Lebenswerk galten, druckte Brett Weston die „Project Prints“?",
+   "value": 832,
+   "unit": "Stück",
+   "min": 0,
+   "max": 3000,
+   "tolerance": 200,
+   "answer_de": "Aus 832 Negativen, je 8–10 Abzüge pro Motiv [Q1].",
+   "sources": [
+    {
+     "url": "https://www.edward-weston.com/edwardweston",
+     "title": "Edward Weston Biography – edward-weston.com (Website der Familie Weston)",
+     "excerpt": "Brett printed what was known as the Project Prints. A series of 8 -10 prints from 832 negatives considered Edward’s lifetime best.",
+     "kind": "fotograf",
+     "author": "edward-weston.com (Familie Weston)",
+     "translation_de": "Brett druckte die sogenannten Project Prints: je 8–10 Abzüge von 832 Negativen, die als Edwards beste Lebensarbeit galten.",
+     "library_source_id": 700638
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Herbert Ponting",
+   "project": "British Antarctic (Terra Nova) Expedition",
+   "quantity": "aufnahmen",
+   "question_de": "Wie viele Fotografien produzierte Ponting in 14 Monaten in seiner Dunkelkammer in Cape Evans?",
+   "value": 1000,
+   "unit": "Stück",
+   "min": 0,
+   "max": 5000,
+   "tolerance": 300,
+   "answer_de": "Über 1.000 Fotografien [Q1].",
+   "sources": [
+    {
+     "url": "https://www.freezeframe.ac.uk/resources/ponting-herbert-george",
+     "title": "Freeze Frame (Scott Polar Research Institute) » Biography of Ponting, Herbert George",
+     "excerpt": "He built himself a small darkroom in one of the huts at Cape Evans. Here he spent 14 months, producing over 1000 photographs.",
+     "kind": "museum",
+     "author": "Scott Polar Research Institute (Freeze Frame)",
+     "translation_de": "Er baute sich in einer der Hütten in Cape Evans eine kleine Dunkelkammer. Hier verbrachte er 14 Monate und produzierte über 1.000 Fotografien."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Vittorio Sella",
+   "project": null,
+   "quantity": "aufnahmen",
+   "question_de": "Auf wie vielen Glasplatten nahm Sella 1882 das Rundpanorama vom Gipfel des Matterhorns auf?",
+   "value": 11,
+   "unit": "Stück",
+   "min": 1,
+   "max": 40,
+   "tolerance": 3,
+   "answer_de": "Auf elf Glasplatten [Q1].",
+   "sources": [
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "On 29 July 1882 he went back to the summit and photographed the full horizon on eleven glass plates.",
+     "kind": "kritik",
+     "author": "PeakVisor",
+     "translation_de": "Am 29. Juli 1882 stieg er wieder auf den Gipfel und fotografierte den ganzen Horizont auf elf Glasplatten."
+    }
+   ]
+  },
+  {
+   "image_id": "i2a2fcbb802",
+   "photographer": "Vittorio Sella",
+   "project": "Expeditionen: Alaska, Kangchenjunga und Karakorum",
+   "quantity": "aufnahmen",
+   "question_de": "Wie viele Aufnahmen machte Sella auf der Alaska-Expedition 1897 mit seiner großen 30×40-Kamera?",
+   "value": 1,
+   "unit": "Stück",
+   "min": 1,
+   "max": 60,
+   "tolerance": 5,
+   "answer_de": "Nur eine – die meisten guten Bilder entstanden mit einer Klapp-Kodak [Q1].",
+   "sources": [
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "This camera was only used to take one photograph.\" Most of the best pictures, Sella noted, came from a folding Kodak.",
+     "kind": "kritik",
+     "author": "PeakVisor",
+     "translation_de": "Diese Kamera wurde nur für eine einzige Aufnahme benutzt.“ Die meisten der besten Bilder, notierte Sella, stammten von einer Klapp-Kodak."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Thomas Joshua Cooper",
+   "project": null,
+   "quantity": "aufnahmen",
+   "question_de": "Wie viele Negative belichtet Cooper an jedem Ort?",
+   "value": 1,
+   "unit": "Stück",
+   "min": 1,
+   "max": 20,
+   "tolerance": 1,
+   "answer_de": "Genau eines – jeder Ort wird in einem einzigen Negativ festgehalten [Q1].",
+   "sources": [
+    {
+     "url": "https://www.meer.com/en/54566-thomas-joshua-cooper",
+     "title": "Thomas Joshua Cooper – Meer",
+     "excerpt": "Each location is the subject of a single negative",
+     "kind": "kritik",
+     "author": "Meer",
+     "translation_de": "Jeder Ort ist Gegenstand eines einzigen Negativs."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Laura Gilpin",
+   "project": null,
+   "quantity": "aufnahmen",
+   "question_de": "Wie viele Negative vermachte Gilpin 1979 dem Amon Carter Museum?",
+   "value": 20000,
+   "unit": "Stück",
+   "min": 0,
+   "max": 50000,
+   "tolerance": 5000,
+   "answer_de": "20.000 Negative, dazu über 6.000 Abzüge [Q1].",
+   "sources": [
+    {
+     "url": "https://www.cartermuseum.org/artists/laura-gilpin",
+     "title": "Laura Gilpin – Amon Carter Museum of American Art",
+     "excerpt": "In 1979 Gilpin bequeathed the Museum over 6,000 prints and 20,000 negatives as well as her personal library collection",
+     "kind": "museum",
+     "author": "Amon Carter Museum of American Art",
+     "translation_de": "1979 vermachte Gilpin dem Museum über 6.000 Abzüge und 20.000 Negative sowie ihre private Bibliothek."
+    }
+   ]
+  },
+  {
+   "image_id": "i5ed6020544",
+   "photographer": "Penelope Umbrico",
+   "project": "Suns (from Sunsets) from Flickr",
+   "quantity": "aufnahmen",
+   "question_de": "Wie viele Sonnenuntergangsbilder fand Umbrico, als sie das Projekt begann, unter dem Suchwort „sunset“ auf Flickr?",
+   "value": 541795,
+   "unit": "Stück",
+   "min": 0,
+   "max": 2000000,
+   "tolerance": 150000,
+   "answer_de": "541.795 Bilder – sie schnitt die Sonnen aus und ließ 4×6-Zoll-Maschinenabzüge machen [Q1].",
+   "sources": [
+    {
+     "url": "https://aphotoeditor.com/2016/04/27/penelope-umbrico-interview/",
+     "title": "Penelope Umbrico Interview",
+     "excerpt": "This is a project I started when I found 541,795 pictures of sunsets searching the word “sunset” on the image hosting website, Flickr.",
+     "kind": "fotograf",
+     "author": "Penelope Umbrico",
+     "translation_de": "Dieses Projekt begann ich, als ich auf der Bildplattform Flickr unter dem Wort „sunset“ 541.795 Sonnenuntergangsbilder fand."
+    }
+   ]
+  },
+  {
+   "image_id": "i3800d71691",
+   "photographer": "Corinne Vionnet",
+   "project": "Photo Opportunities",
+   "quantity": "aufnahmen",
+   "question_de": "Aus wie vielen Touristenfotos setzt Vionnet jedes Bild der „Photo Opportunities“ etwa zusammen?",
+   "value": 100,
+   "unit": "Stück",
+   "min": 2,
+   "max": 1000,
+   "tolerance": 30,
+   "answer_de": "Aus etwa 100 Fotos, ausgerichtet auf einen Punkt wie die Spitze des Bauwerks [Q1].",
+   "sources": [
+    {
+     "url": "https://www.npr.org/sections/pictureshow/2011/02/25/134052264/a-hundred-tourist-photos-in-one",
+     "title": "A Hundred Tourist Photos In One : The Picture Show : NPR",
+     "excerpt": "Each image in Photo Opportunities is a collage of about 100 images aligned around a single point",
+     "kind": "kritik",
+     "author": "NPR",
+     "translation_de": "Jedes Bild in Photo Opportunities ist eine Collage aus etwa 100 Bildern, die um einen einzigen Punkt ausgerichtet sind."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Robert Frank",
+   "project": "The Americans",
+   "quantity": "serie",
+   "question_de": "Wie viele Bilder enthält die Buchsequenz von „The Americans“?",
+   "value": 83,
+   "unit": "Stück",
+   "min": 10,
+   "max": 300,
+   "tolerance": 15,
+   "answer_de": "83 Bilder, zuerst 1958 in Frankreich, 1959 bei Grove Press in den USA erschienen [Q1].",
+   "sources": [
+    {
+     "url": "https://www.sothebys.com/en/articles/the-everlasting-influence-of-robert-franks-the-americans",
+     "title": "The Everlasting Influence of Robert Frank’s “The Americans” | Sotheby’s (Bryan Martin, 2023)",
+     "excerpt": "The rigorous distillation, editing, cropping and extra capturing of photographs resulted in a sequence of 83 images first published in France in 1958 and then in 1959 by Grove Press in the United States.",
+     "kind": "kritik",
+     "author": "Bryan Martin (Sotheby’s)",
+     "translation_de": "Das strenge Destillieren, Auswählen, Beschneiden und Nachfotografieren ergab eine Sequenz von 83 Bildern, zuerst 1958 in Frankreich und 1959 bei Grove Press in den USA veröffentlicht."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Fay Godwin",
+   "project": "Land (Landschaften 1974–1983)",
+   "quantity": "serie",
+   "question_de": "Wie viele Fotografien aus „Land“ zeigte die Serpentine Gallery?",
+   "value": 111,
+   "unit": "Stück",
+   "min": 10,
+   "max": 400,
+   "tolerance": 25,
+   "answer_de": "111 Fotografien – ein Querschnitt aus zehn Jahren Arbeit [Q1].",
+   "sources": [
+    {
+     "url": "https://www.serpentinegalleries.org/whats-on/fay-godwin-land/",
+     "title": "Fay Godwin: Land - Serpentine Galleries",
+     "excerpt": "A selection of 111 photographs from this project was made for the exhibition at the Serpentine Gallery.",
+     "kind": "museum",
+     "author": "Serpentine Galleries",
+     "translation_de": "Für die Ausstellung in der Serpentine Gallery wurde eine Auswahl von 111 Fotografien aus diesem Projekt getroffen."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Lewis Baltz",
+   "project": "The New Industrial Parks near Irvine, California",
+   "quantity": "serie",
+   "question_de": "Wie viele Bilder umfasst Baltz’ Serie „The New Industrial Parks Near Irvine, California“?",
+   "value": 51,
+   "unit": "Stück",
+   "min": 5,
+   "max": 200,
+   "tolerance": 12,
+   "answer_de": "51 Bilder [Q1].",
+   "sources": [
+    {
+     "url": "https://davidcampany.com/fast-worlds-slow-photography/",
+     "title": "Fast World, Slow Photography: Lewis Baltz | David Campany",
+     "excerpt": "They come from a series of 51 images titled \"The New Industrial Parks Near Irvine, California\".",
+     "kind": "kritik",
+     "author": "David Campany",
+     "translation_de": "Sie stammen aus einer Serie von 51 Bildern mit dem Titel „The New Industrial Parks Near Irvine, California“."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Ansel Adams",
+   "project": "Mural Project: Photographs of National Parks and Monuments",
+   "quantity": "serie",
+   "question_de": "Wie viele Fotografien aus Adams’ Mural Project besitzt das US-Nationalarchiv?",
+   "value": 226,
+   "unit": "Stück",
+   "min": 10,
+   "max": 800,
+   "tolerance": 50,
+   "answer_de": "226 Fotografien, die meisten von Adams signiert und beschriftet [Q1].",
+   "sources": [
+    {
+     "url": "https://www.archives.gov/research/ansel-adams",
+     "title": "Ansel Adams Photographs | National Archives",
+     "excerpt": "The holdings of the National Archives' Still Picture Branch include 226 photographs taken for this project, most of them signed and captioned by Adams.",
+     "kind": "museum",
+     "author": "National Archives",
+     "translation_de": "Die Bestände der Still Picture Branch des Nationalarchivs umfassen 226 für dieses Projekt aufgenommene Fotografien, die meisten von Adams signiert und beschriftet.",
+     "library_source_id": 190193
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Michael Light",
+   "project": "Some Dry Space (Handbuch 2003, Aufnahmen 2000–2001)",
+   "quantity": "serie",
+   "question_de": "Wie viele Bilder enthält Lights handgemachtes Künstlerbuch „Some Dry Space“?",
+   "value": 18,
+   "unit": "Stück",
+   "min": 2,
+   "max": 100,
+   "tolerance": 5,
+   "answer_de": "18 Bilder, aufgenommen 2000–2001 [Q1].",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space-2003",
+     "title": "Some Dry Space 2003 — Michael Light",
+     "excerpt": "Hand-made book of 18 images made by the photographer from 2000-2001.",
+     "kind": "fotograf",
+     "author": "Michael Light",
+     "translation_de": "Handgemachtes Buch mit 18 Bildern, aufgenommen vom Fotografen 2000–2001.",
+     "library_source_id": 316504
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Eve Arnold",
+   "project": "In China",
+   "quantity": "serie",
+   "question_de": "Wie viele Farbfotografien enthält Eve Arnolds Buch „In China“?",
+   "value": 170,
+   "unit": "Stück",
+   "min": 10,
+   "max": 500,
+   "tolerance": 35,
+   "answer_de": "170 Farbfotografien aus einer fünfmonatigen Reise 1979 [Q1].",
+   "sources": [
+    {
+     "url": "https://www.csmonitor.com/1980/1208/120856.html",
+     "title": "Exotic places; In China, by Eve Arnold – The Christian Science Monitor (Gordon N. Converse, 8. Dez. 1980)",
+     "excerpt": "Picture-book lovers haven't truly glimpsed today's China until they have seen the 170 magnificent color photographs in this book",
+     "kind": "kritik",
+     "author": "Gordon N. Converse (The Christian Science Monitor)",
+     "translation_de": "Bildbandfreunde haben das heutige China erst gesehen, wenn sie die 170 großartigen Farbfotografien dieses Buches gesehen haben."
+    }
+   ]
+  },
+  {
+   "image_id": "i67b4a6ad82",
+   "photographer": "Peter Henry Emerson",
+   "project": "Norfolk Broads und East Anglia: Life and Landscape, Idyls, Pictures of East Anglian Life",
+   "quantity": "serie",
+   "question_de": "Wie viele Tafeln wählte Emerson 1890 für sein Portfolio „für den Studenten“ aus?",
+   "value": 10,
+   "unit": "Stück",
+   "min": 1,
+   "max": 50,
+   "tolerance": 3,
+   "answer_de": "Zehn Tafeln aus „Pictures of East Anglian Life“, die seine Theorien am besten zeigten [Q1].",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313849/",
+     "title": "Pictures of East Anglian Life – Victoria and Albert Museum (Objektseite O1313849)",
+     "excerpt": "So, in 1890 he selected 10 plates from his book Pictures of East Anglian Life (1888) that best illustrated his theories, and presented them loose in a portfolio dedicated to the 'photographic student', with the same title and cover of the book.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "translation_de": "So wählte er 1890 zehn Tafeln aus seinem Buch Pictures of East Anglian Life (1888), die seine Theorien am besten zeigten, und legte sie lose in ein Portfolio „für den fotografischen Studenten“.",
+     "library_source_id": 952894
+    }
+   ]
+  },
+  {
+   "image_id": "ieef5d23125",
+   "photographer": "Ansel Adams",
+   "project": "Ikonen mit dokumentierter Entstehung (Examples u. a.)",
+   "quantity": "alter",
+   "question_de": "Wie alt war Adams, als er 1927 „Monolith, the Face of Half Dome“ fotografierte?",
+   "value": 25,
+   "unit": "Jahre",
+   "min": 10,
+   "max": 70,
+   "tolerance": 4,
+   "answer_de": "25 Jahre [Q1].",
+   "sources": [
+    {
+     "url": "https://articles.anseladams.com/story-behind-the-image-monolith-the-face-of-half-dome/",
+     "title": "The Ansel Adams Gallery: Story Behind the Image – Monolith, the Face of Half Dome",
+     "excerpt": "As the 25 year-old Ansel hiked, he was in the midst of personal and professional upheaval.",
+     "kind": "kurator",
+     "author": "The Ansel Adams Gallery",
+     "translation_de": "Als der 25-jährige Ansel aufstieg, steckte er mitten in persönlichen und beruflichen Umbrüchen."
+    }
+   ]
+  },
+  {
+   "image_id": "ieef5d23125",
+   "photographer": "Ansel Adams",
+   "project": "Ikonen mit dokumentierter Entstehung (Examples u. a.)",
+   "quantity": "alter",
+   "question_de": "Wie alt war Adams, als er Half Dome zum ersten Mal mit seiner neuen Kodak Brownie fotografierte?",
+   "value": 14,
+   "unit": "Jahre",
+   "min": 5,
+   "max": 40,
+   "tolerance": 3,
+   "answer_de": "14 Jahre – fast ein Jahrzehnt vor „Monolith“, auf einem Familienausflug [Q1].",
+   "sources": [
+    {
+     "url": "https://articles.anseladams.com/story-behind-the-image-monolith-the-face-of-half-dome/",
+     "title": "The Ansel Adams Gallery: Story Behind the Image – Monolith, the Face of Half Dome",
+     "excerpt": "In fact, nearly a decade earlier, a 14-year-old Ansel had visited this very spot on a family trip to Yosemite.",
+     "kind": "kurator",
+     "author": "The Ansel Adams Gallery",
+     "translation_de": "Tatsächlich hatte der 14-jährige Ansel fast ein Jahrzehnt früher genau diese Stelle bei einem Familienausflug ins Yosemite besucht."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Fan Ho",
+   "project": "Hongkong in den 1950er und 60er Jahren (M+ Sammlung)",
+   "quantity": "alter",
+   "question_de": "Wie alt war Fan Ho, als er die zweiäugige Rolleiflex bekam, mit der er alle seine berühmten Bilder machte?",
+   "value": 18,
+   "unit": "Jahre",
+   "min": 8,
+   "max": 50,
+   "tolerance": 3,
+   "answer_de": "18 Jahre [Q1].",
+   "sources": [
+    {
+     "url": "https://fanho-forgetmenot.com/about",
+     "title": "Bio – Fan Ho Photography (offizielle Website des Fan Ho Trust and Estate)",
+     "excerpt": "At the age of 18, he acquired his twin lens Rolleiflex with which he captured all his famous work",
+     "kind": "fotograf",
+     "author": "Fan Ho Trust and Estate",
+     "translation_de": "Mit 18 Jahren erwarb er seine zweiäugige Rolleiflex, mit der er alle seine berühmten Arbeiten aufnahm."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Frank Hurley",
+   "project": null,
+   "quantity": "alter",
+   "question_de": "Wie alt war Hurley, als er bei einem Postkartenverlag in Sydney anfing?",
+   "value": 20,
+   "unit": "Jahre",
+   "min": 10,
+   "max": 50,
+   "tolerance": 3,
+   "answer_de": "20 Jahre – bekannt für Qualität und riskante Standpunkte [Q1].",
+   "sources": [
+    {
+     "url": "https://australianmuseum.net.au/James-Francis-Frank-Hurley-OBE",
+     "title": "Frank Hurley OBE - The Australian Museum",
+     "excerpt": "At the age of 20, he joined a postcard business in Sydney and earned a reputation for both high-quality photographs and the risks he took to secure them",
+     "kind": "museum",
+     "author": "Australian Museum",
+     "translation_de": "Mit 20 Jahren trat er in ein Postkartengeschäft in Sydney ein und erwarb sich einen Ruf für hochwertige Fotos und die Risiken, die er dafür einging."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Bieke Depoorter",
+   "project": null,
+   "quantity": "alter",
+   "question_de": "Wie alt war Depoorter, als sie Nominee bei Magnum Photos wurde?",
+   "value": 25,
+   "unit": "Jahre",
+   "min": 15,
+   "max": 60,
+   "tolerance": 4,
+   "answer_de": "25 Jahre (2012); Vollmitglied wurde sie 2016 [Q1].",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/bieke-depoorter/",
+     "title": "Bieke Depoorter • Photographer Profiles • Magnum Photos",
+     "excerpt": "Three years later, at 25 years old, she was made a nominee of Magnum Photos.",
+     "kind": "museum",
+     "author": "Magnum Photos",
+     "translation_de": "Drei Jahre später, mit 25 Jahren, wurde sie Nominee bei Magnum Photos."
+    }
+   ]
+  },
+  {
+   "image_id": "iae886d05e2",
+   "photographer": "Christopher Burkett",
+   "project": "Farblandschaften auf 8×10-Dia und Cibachrome",
+   "quantity": "jahre",
+   "question_de": "Wie viele Jahre musste Burkett warten, bis ihm 2013 ein befriedigender Cibachrome-Abzug von „Elemental Light“ gelang?",
+   "value": 26,
+   "unit": "Jahre",
+   "min": 0,
+   "max": 40,
+   "tolerance": 5,
+   "answer_de": "26 Jahre – frühere Versuche, das gleißende Licht zu drucken, waren gescheitert [Q1].",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/elemental-light/",
+     "title": "Elemental Light – Christopher Burkett",
+     "excerpt": "I had earlier unsuccessfully tried to print this image but had to wait until 26 years until 2013, when I was finally able to make Cibachrome prints which could reproduce effect of that brilliant light",
+     "kind": "fotograf",
+     "author": "Christopher Burkett",
+     "translation_de": "Ich hatte früher erfolglos versucht, dieses Bild zu drucken, musste aber 26 Jahre bis 2013 warten, bis ich endlich Cibachrome-Abzüge machen konnte, die die Wirkung dieses gleißenden Lichts wiedergaben."
+    }
+   ]
+  },
+  {
+   "image_id": "i3c33184d4d",
+   "photographer": "Alex Webb",
+   "project": "The Suffering of Light",
+   "quantity": "jahre",
+   "question_de": "Nach wie vielen Jahren kehrte Webb zum Fotografieren nach Istanbul zurück?",
+   "value": 30,
+   "unit": "Jahre",
+   "min": 0,
+   "max": 50,
+   "tolerance": 6,
+   "answer_de": "Etwa 30 Jahre später – nach Jahrzehnten an der Grenze USA–Mexiko sah er Istanbul als eine andere Grenze [Q1].",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/alex-webb-city-of-hundred-names/",
+     "title": "Alex Webb • A City of a Hundred Names • Magnum Photos",
+     "excerpt": "When I returned to Istanbul some 30 years later, however, I responded quite differently.",
+     "kind": "fotograf",
+     "author": "Alex Webb",
+     "translation_de": "Als ich etwa 30 Jahre später nach Istanbul zurückkehrte, reagierte ich jedoch ganz anders."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Fay Godwin",
+   "project": "Land (Landschaften 1974–1983)",
+   "quantity": "jahre",
+   "question_de": "Wie viele Jahre Arbeit fasste die Ausstellung „Land“ zusammen?",
+   "value": 10,
+   "unit": "Jahre",
+   "min": 1,
+   "max": 30,
+   "tolerance": 3,
+   "answer_de": "Zehn Jahre [Q1].",
+   "sources": [
+    {
+     "url": "https://www.serpentinegalleries.org/whats-on/fay-godwin-land/",
+     "title": "Fay Godwin: Land - Serpentine Galleries",
+     "excerpt": "and was a resumé of 10 years’ work.",
+     "kind": "museum",
+     "author": "Serpentine Galleries",
+     "translation_de": "und war ein Resümee aus 10 Jahren Arbeit."
+    }
+   ]
+  },
+  {
+   "image_id": "i4a33382349",
+   "photographer": "Virginia Beahan",
+   "project": "Desert Sea (Salton Sea, ab 2012)",
+   "quantity": "jahre",
+   "question_de": "Über wie viele Jahre zeigen Beahans Salton-Sea-Bilder den zurückweichenden See?",
+   "value": 10,
+   "unit": "Jahre",
+   "min": 1,
+   "max": 30,
+   "tolerance": 3,
+   "answer_de": "Über eine Spanne von 10 Jahren [Q1].",
+   "sources": [
+    {
+     "url": "https://www.thedartmouth.com/article/2014/03/exhibit-tells-stories-of-the-salton-sea",
+     "title": "Exhibit tells stories of the Salton Sea",
+     "excerpt": "The 10-year span showed the Salton Sea receding, she said",
+     "kind": "kritik",
+     "author": "The Dartmouth",
+     "translation_de": "Die Zeitspanne von 10 Jahren zeigte, wie der Salton Sea zurückwich, sagte sie."
+    }
+   ]
+  },
+  {
+   "image_id": "i8f03120de1",
+   "photographer": "Rinko Kawauchi",
+   "project": "Ametsuchi",
+   "quantity": "jahre",
+   "question_de": "Seit wie vielen Jahren wird das Grasland bei Aso, das Kawauchi in „Ametsuchi“ fotografierte, durch Abbrennen erhalten?",
+   "value": 1300,
+   "unit": "Jahre",
+   "min": 0,
+   "max": 3000,
+   "tolerance": 300,
+   "answer_de": "Seit rund 1.300 Jahren [Q1].",
+   "sources": [
+    {
+     "url": "https://prix.pictet.com/cycles/space/rinko-kawauchi",
+     "title": "Ametsuchi | Rinko Kawauchi | Prix Pictet",
+     "excerpt": "Through 1,300 years of field burning, human ritual has sustained a beautiful meadow",
+     "kind": "kurator",
+     "author": "Prix Pictet",
+     "translation_de": "Durch 1.300 Jahre Abbrennen der Felder hat menschliches Ritual eine schöne Wiese erhalten."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Sebastião Salgado",
+   "project": "Genesis",
+   "quantity": "jahre",
+   "question_de": "Wie viele Jahre arbeitete Salgado an „Genesis“?",
+   "value": 8,
+   "unit": "Jahre",
+   "min": 1,
+   "max": 25,
+   "tolerance": 2,
+   "answer_de": "Acht Jahre – er nennt es seinen „Liebesbrief an den Planeten“ [Q1].",
+   "sources": [
+    {
+     "url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-landscapes-2004-2018",
+     "title": "Sebastião Salgado: Landscapes, 2004 – 2018 – Sundaram Tagore Gallery (Ausstellungstext)",
+     "excerpt": "Eight years in the making, Salgado calls Genesis his “love letter to the planet.”",
+     "kind": "kurator",
+     "author": "Sundaram Tagore Gallery",
+     "translation_de": "Acht Jahre in Arbeit – Salgado nennt Genesis seinen „Liebesbrief an den Planeten“.",
+     "library_source_id": 855632
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Alfred Stieglitz",
+   "project": "Equivalents und Lake George",
+   "quantity": "jahre",
+   "question_de": "Wie viele Jahre Fotografie wollte Stieglitz mit den Wolkenbildern auf die Probe stellen?",
+   "value": 40,
+   "unit": "Jahre",
+   "min": 1,
+   "max": 60,
+   "tolerance": 6,
+   "answer_de": "Vierzig Jahre – er wollte herausfinden, was er in 40 Jahren über Fotografie gelernt hatte [Q1].",
+   "sources": [
+    {
+     "url": "https://www.nearbycafe.com/photocriticism/members/archivetexts/photocredos/stieglitzclouds.html",
+     "title": "Alfred Stieglitz: How I Came to Photograph Clouds (1923) – Photography Criticism CyberArchive (A. D. Coleman)",
+     "excerpt": "I wanted to photograph clouds to find out what I had learned in 40 years about photography.",
+     "kind": "fotograf",
+     "author": "Alfred Stieglitz",
+     "translation_de": "Ich wollte Wolken fotografieren, um herauszufinden, was ich in 40 Jahren über Fotografie gelernt hatte.",
+     "library_source_id": 418114
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Minor White",
+   "project": null,
+   "quantity": "jahre",
+   "question_de": "Wie viele Jahre gab Minor White die von ihm mitgegründete Zeitschrift Aperture heraus?",
+   "value": 23,
+   "unit": "Jahre",
+   "min": 1,
+   "max": 50,
+   "tolerance": 4,
+   "answer_de": "23 Jahre (Mitgründung 1952) [Q1].",
+   "sources": [
+    {
+     "url": "https://www.sfmoma.org/artist/Minor_White/",
+     "title": "Minor White – SFMOMA (Biografie)",
+     "excerpt": "He exhorted his students, as well as readers of the magazine Aperture, which he cofounded in 1952 and edited for 23 years, to use photography to express and explore their inner selves.",
+     "kind": "museum",
+     "author": "SFMOMA",
+     "translation_de": "Er drängte seine Studierenden und die Leser der Zeitschrift Aperture, die er 1952 mitgründete und 23 Jahre lang herausgab, die Fotografie zu nutzen, um ihr Inneres auszudrücken und zu erforschen.",
+     "library_source_id": 478943
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Richard Misrach",
+   "project": null,
+   "quantity": "jahre",
+   "question_de": "Nach wie vielen Jahren Film wechselte Misrach 2006 zu einer hochauflösenden Digitalkamera?",
+   "value": 40,
+   "unit": "Jahre",
+   "min": 1,
+   "max": 60,
+   "tolerance": 6,
+   "answer_de": "Nach fast 40 Jahren [Q1].",
+   "sources": [
+    {
+     "url": "https://blog.photoshelter.com/2019/11/richard-misrach-contemplates-the-beach-borders-and-his-new-iphone/",
+     "title": "Richard Misrach Contemplates the Beach, Borders, and His New iPhone | PhotoShelter",
+     "excerpt": "In 2006, after almost 40 years of shooting film, I began using a high resolution digital camera",
+     "kind": "fotograf",
+     "author": "Richard Misrach",
+     "translation_de": "2006, nach fast 40 Jahren mit Film, begann ich eine hochauflösende Digitalkamera zu benutzen.",
+     "library_source_id": 211547
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Alex Webb",
+   "project": null,
+   "quantity": "jahre",
+   "question_de": "Wie viele Jahre hatte Webb fast ausschließlich Kodachrome fotografiert, als der Film eingestellt wurde?",
+   "value": 30,
+   "unit": "Jahre",
+   "min": 1,
+   "max": 50,
+   "tolerance": 6,
+   "answer_de": "30 Jahre – das Ende von Kodachrome nennt er seinen Tiefpunkt [Q1].",
+   "sources": [
+    {
+     "url": "https://www.theguardian.com/artanddesign/2016/apr/07/alex-webb-best-photograph-children-mexico-ball",
+     "title": "Alex Webb's best photograph: children in Tehuantepec, Mexico (The Guardian)",
+     "excerpt": "Low point: The end of Kodachrome, the colour transparency film that I'd used almost exclusively for 30 years.",
+     "kind": "fotograf",
+     "author": "Alex Webb",
+     "translation_de": "Tiefpunkt: Das Ende von Kodachrome, dem Farbdiafilm, den ich 30 Jahre lang fast ausschließlich benutzt hatte.",
+     "library_source_id": 342959
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Michael Wolf",
+   "project": null,
+   "quantity": "jahre",
+   "question_de": "Wie viele Jahre arbeitete Wolf in Hongkong als Vertragsfotograf für den „Stern“?",
+   "value": 8,
+   "unit": "Jahre",
+   "min": 1,
+   "max": 30,
+   "tolerance": 2,
+   "answer_de": "Acht Jahre, nach seinem Umzug 1994 [Q1].",
+   "sources": [
+    {
+     "url": "https://photomichaelwolf.com/about-michael-wolf/biography/",
+     "title": "Biography | Michael Wolf Photography",
+     "excerpt": "he moved to hong kong in 1994 where he worked for 8 years as contract photographer for stern magazine.",
+     "kind": "fotograf",
+     "author": "Michael Wolf (Website)",
+     "translation_de": "er zog 1994 nach Hongkong, wo er 8 Jahre als Vertragsfotograf für das Magazin Stern arbeitete."
+    }
+   ]
+  },
+  {
+   "image_id": "i700a669164",
+   "photographer": "Thomas Struth",
+   "project": "Unconscious Places (Unbewusste Orte)",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Marunouchi (über die Dächer), Tokyo 1986“?",
+   "value": 72,
+   "unit": "cm",
+   "min": 0,
+   "max": 300,
+   "tolerance": 14.4,
+   "answer_de": "72 cm – Inkjet-Print 51,7 × 72 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://maxhetzler.com/exhibitions/thomas-struth-unbewusste-orte-unconscious-places-2023",
+     "title": "Thomas Struth-Unbewußte Orte-2023 - Galerie Max Hetzler",
+     "excerpt": "Marunouchi (über die Dächer), Tokyo 1986 1986 inkjet print 51.7 x 72 cm",
+     "kind": "kurator",
+     "author": "Galerie Max Hetzler",
+     "translation_de": "Tintenstrahldruck 51,7 × 72 cm",
+     "library_source_id": 414546
+    }
+   ]
+  },
+  {
+   "image_id": "i1af4efe118",
+   "photographer": "Thomas Struth",
+   "project": "Unconscious Places (Unbewusste Orte)",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „West 58th Street, New York, Midtown 1978“?",
+   "value": 58.6,
+   "unit": "cm",
+   "min": 0,
+   "max": 300,
+   "tolerance": 11.7,
+   "answer_de": "58,6 cm – Silbergelatineabzug 41,6 × 58,6 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://maxhetzler.com/exhibitions/thomas-struth-unbewusste-orte-unconscious-places-2023",
+     "title": "Thomas Struth-Unbewußte Orte-2023 - Galerie Max Hetzler",
+     "excerpt": "West 58th Street, New York, Midtown 1978 1978 silver gelatin print 41.6 x 58.6 cm",
+     "kind": "kurator",
+     "author": "Galerie Max Hetzler",
+     "translation_de": "Silbergelatineabzug 41,6 × 58,6 cm",
+     "library_source_id": 138112
+    }
+   ]
+  },
+  {
+   "image_id": "i7f0e358736",
+   "photographer": "Robert Adams",
+   "project": "The New West",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Golden, Colorado (1970)“?",
+   "value": 6,
+   "unit": "in",
+   "min": 0,
+   "max": 40,
+   "tolerance": 1.5,
+   "answer_de": "6 Zoll (rund 15 cm) – ein quadratischer Silbergelatineabzug 6 × 6 Zoll, gedruckt 1972 [Q1].",
+   "sources": [
+    {
+     "url": "https://fraenkelgallery.com/artists/robert-adams",
+     "title": "Robert Adams | Fraenkel Gallery",
+     "excerpt": "Golden, Colorado , 1970 / printed 1972 gelatin silver print , 6 x 6 inches",
+     "kind": "kurator",
+     "author": "Fraenkel Gallery",
+     "translation_de": "Silbergelatineabzug, 6 × 6 Zoll",
+     "library_source_id": 124937
+    }
+   ]
+  },
+  {
+   "image_id": "ibd0f57e8a9",
+   "photographer": "Robert Adams",
+   "project": "The New West",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Grazing Land with Pines, near Falcon, Colorado“?",
+   "value": 15.5,
+   "unit": "in",
+   "min": 0,
+   "max": 40,
+   "tolerance": 3.1,
+   "answer_de": "15,5 Zoll (rund 39 cm) – Silbergelatineabzug 15½ × 14 Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://fraenkelgallery.com/artists/robert-adams",
+     "title": "Robert Adams | Fraenkel Gallery",
+     "excerpt": "Grazing Land with Pines, near Falcon, Colorado , 1968 gelatin silver print , 15-1/2 x 14 inches",
+     "kind": "kurator",
+     "author": "Fraenkel Gallery",
+     "translation_de": "Silbergelatineabzug, 15½ × 14 Zoll",
+     "library_source_id": 257955
+    }
+   ]
+  },
+  {
+   "image_id": "if0607eb95c",
+   "photographer": "David Maisel",
+   "project": "The Lake Project",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „The Lake Project 1“?",
+   "value": 48,
+   "unit": "in",
+   "min": 0,
+   "max": 120,
+   "tolerance": 9.6,
+   "answer_de": "48 Zoll (rund 122 cm) – quadratischer Pigmentdruck 48 × 48 Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://davidmaisel.com/works/the-lake-project/",
+     "title": "The Lake Project – David Maisel",
+     "excerpt": "The Lake Project 1, 2001 Archival Pigment Print | 48 by 48 inches",
+     "kind": "fotograf",
+     "author": "David Maisel (Website)",
+     "translation_de": "Archivfester Pigmentdruck, 48 × 48 Zoll",
+     "library_source_id": 208518
+    }
+   ]
+  },
+  {
+   "image_id": "i3999f2bb15",
+   "photographer": "Paul Caponigro",
+   "project": "Megalithen und Landschaft in Britannien und Irland",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Callanish Stone Circle, Isle of Lewis“?",
+   "value": 23.75,
+   "unit": "in",
+   "min": 0,
+   "max": 60,
+   "tolerance": 4.8,
+   "answer_de": "23¾ Zoll (rund 60 cm) – Silbergelatineabzug 17¼ × 23¾ Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+     "title": "'Bruce Davidson / Paul Caponigro: Two American Photographers in Britain and Ireland'",
+     "excerpt": "Callanish Stone Circle, Isle of Lewis, Outer Hebrides, Scotland 1972 Gelatin silver print 17 1/4 x 23 3/4 in.",
+     "kind": "kurator",
+     "author": "Huntington Library (via Art Blart)",
+     "translation_de": "Silbergelatineabzug, 17¼ × 23¾ Zoll",
+     "library_source_id": 737105
+    }
+   ]
+  },
+  {
+   "image_id": "i297daea532",
+   "photographer": "Paul Caponigro",
+   "project": "Megalithen und Landschaft in Britannien und Irland",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Running White Deer, Wicklow, Ireland“?",
+   "value": 19.125,
+   "unit": "in",
+   "min": 0,
+   "max": 60,
+   "tolerance": 3.8,
+   "answer_de": "Gut 19 Zoll (rund 49 cm) bei nur 7½ Zoll Höhe – ein extrem breites Format [Q1].",
+   "sources": [
+    {
+     "url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+     "title": "'Bruce Davidson / Paul Caponigro: Two American Photographers in Britain and Ireland'",
+     "excerpt": "Running White Deer, Wicklow, Ireland 1967 Gelatin silver print 7 1/2 x 19 1/8 in.",
+     "kind": "kurator",
+     "author": "Huntington Library (via Art Blart)",
+     "translation_de": "Silbergelatineabzug, 7½ × 19⅛ Zoll",
+     "library_source_id": 451092
+    }
+   ]
+  },
+  {
+   "image_id": "i9829de8c2c",
+   "photographer": "Stephen Shore",
+   "project": "Uncommon Places",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Badlands National Monument, South Dakota“?",
+   "value": 22.25,
+   "unit": "in",
+   "min": 0,
+   "max": 80,
+   "tolerance": 4.5,
+   "answer_de": "22¼ Zoll (rund 57 cm) – chromogener Farbabzug 17¾ × 22¼ Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://www.303gallery.com/artists/stephen-shore/images/uncommon-places",
+     "title": "Stephen Shore | Artists | 303 Gallery",
+     "excerpt": "Badlands National Monument, South Dakota, July 14, 1973 Chromogenic color print 17 3/4 x 22 1/4 inches",
+     "kind": "kurator",
+     "author": "303 Gallery",
+     "translation_de": "Chromogener Farbabzug, 17¾ × 22¼ Zoll",
+     "library_source_id": 205526
+    }
+   ]
+  },
+  {
+   "image_id": "i73c5f80960",
+   "photographer": "Stephen Shore",
+   "project": "Uncommon Places",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Merced River, Yosemite National Park“?",
+   "value": 45,
+   "unit": "in",
+   "min": 0,
+   "max": 80,
+   "tolerance": 9.0,
+   "answer_de": "45 Zoll (rund 114 cm) – chromogener Abzug 36 × 45 Zoll, auf Aluminium [Q1].",
+   "sources": [
+    {
+     "url": "https://www.303gallery.com/artists/stephen-shore/images/uncommon-places",
+     "title": "Stephen Shore | Artists | 303 Gallery",
+     "excerpt": "Merced River, Yosemite National Park, California, August 13, 1979 Chromogenic color print mounted on aluminum 36 x 45 inches",
+     "kind": "kurator",
+     "author": "303 Gallery",
+     "translation_de": "Chromogener Farbabzug auf Aluminium, 36 × 45 Zoll",
+     "library_source_id": 956962
+    }
+   ]
+  },
+  {
+   "image_id": "i9e3d84993a",
+   "photographer": "Hiroshi Sugimoto",
+   "project": "Seascapes",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „North Pacific Ocean, Stinson Beach“?",
+   "value": 24,
+   "unit": "in",
+   "min": 0,
+   "max": 80,
+   "tolerance": 4.8,
+   "answer_de": "24 Zoll (rund 61 cm) – Silbergelatineabzug 20 × 24 Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://fraenkelgallery.com/portfolios/seascapes",
+     "title": "Hiroshi Sugimoto: Seascapes | Fraenkel Gallery",
+     "excerpt": "North Pacific Ocean, Stinson Beach , 1994 gelatin silver print , 20 x 24 inches",
+     "kind": "kurator",
+     "author": "Fraenkel Gallery",
+     "translation_de": "Silbergelatineabzug, 20 × 24 Zoll",
+     "library_source_id": 488398
+    }
+   ]
+  },
+  {
+   "image_id": "i65e8faec81",
+   "photographer": "Sebastião Salgado",
+   "project": "Genesis",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „The Eastern Part of the Brooks Range, Arctic National Wildlife Refuge“?",
+   "value": 68,
+   "unit": "in",
+   "min": 0,
+   "max": 120,
+   "tolerance": 13.6,
+   "answer_de": "68 Zoll (rund 173 cm) – Silbergelatineabzug 68 × 50 Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://www.sundaramtagore.com/artists/sebastiao-salgado/featured-works?view=slider",
+     "title": "Sebastião Salgado – Featured Works | Sundaram Tagore Gallery",
+     "excerpt": "The Eastern Part of the Brooks Range, Arctic National Wildlife Refuge, Alaska, USA , 2009, gelatin silver print, 68 x 50 inches",
+     "kind": "kurator",
+     "author": "Sundaram Tagore Gallery",
+     "translation_de": "Silbergelatineabzug, 68 × 50 Zoll",
+     "library_source_id": 705921
+    }
+   ]
+  },
+  {
+   "image_id": "i9aee245d15",
+   "photographer": "Sebastião Salgado",
+   "project": "Genesis",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Bryce Canyon National Park during a snowstorm“?",
+   "value": 24,
+   "unit": "in",
+   "min": 0,
+   "max": 120,
+   "tolerance": 4.8,
+   "answer_de": "24 Zoll (rund 61 cm) – Silbergelatineabzug 20,1 × 24 Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-artist-activist/selected-works?view=slider",
+     "title": "Sebastião Salgado: Artist / Activist | Sundaram Tagore Gallery",
+     "excerpt": "Bryce Canyon National Park during a snowstorm, Utah, USA , 2010, gelatin silver print, 20.1 x 24 inches",
+     "kind": "kurator",
+     "author": "Sundaram Tagore Gallery",
+     "translation_de": "Silbergelatineabzug, 20,1 × 24 Zoll",
+     "library_source_id": 995812
+    }
+   ]
+  },
+  {
+   "image_id": "i8ff31c81ad",
+   "photographer": "Nick Brandt",
+   "project": "Inherit the Dust",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Road to Factory with Zebra“?",
+   "value": 98.75,
+   "unit": "in",
+   "min": 0,
+   "max": 150,
+   "tolerance": 19.8,
+   "answer_de": "Knapp 99 Zoll (rund 2,5 m) – Pigmentdruck 38 × 98,75 Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://www.holdenluntz.com/artists/nick-brandt/road-to-factory-with-zebra/",
+     "title": "Road to Factory with Zebra - Holden Luntz Gallery",
+     "excerpt": "Road to Factory with Zebra 2014 Archival Pigment Photograph 38 x 98.75 in",
+     "kind": "kurator",
+     "author": "Holden Luntz Gallery",
+     "translation_de": "Archivfester Pigmentdruck, 38 × 98,75 Zoll"
+    }
+   ]
+  },
+  {
+   "image_id": "ia79aaaf868",
+   "photographer": "Nick Brandt",
+   "project": "Inherit the Dust",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Wasteland with Cheetahs and Children“?",
+   "value": 54.5,
+   "unit": "in",
+   "min": 0,
+   "max": 150,
+   "tolerance": 10.9,
+   "answer_de": "54,5 Zoll (rund 138 cm) – Pigmentdruck 26 × 54,5 Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://www.holdenluntz.com/artists/nick-brandt/wasteland-with-cheetahs-and-children/",
+     "title": "Wasteland with Cheetahs and Children - Holden Luntz Gallery",
+     "excerpt": "Wasteland with Cheetahs and Children 2015 Archival Pigment Photograph 26 x 54.5 in",
+     "kind": "kurator",
+     "author": "Holden Luntz Gallery",
+     "translation_de": "Archivfester Pigmentdruck, 26 × 54,5 Zoll"
+    }
+   ]
+  },
+  {
+   "image_id": "iaf5345f90b",
+   "photographer": "Elger Esser",
+   "project": "Sky and Sand – französische Küsten- und Flusslandschaften",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Mont Saint Michel VII“?",
+   "value": 240,
+   "unit": "cm",
+   "min": 0,
+   "max": 300,
+   "tolerance": 48.0,
+   "answer_de": "240 cm – C-Print mit Diasec, 184 × 240 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176110/",
+     "title": "Elger Esser, Mont Saint Michel VII, 2022 | Flowers Gallery",
+     "excerpt": "Mont Saint Michel VII , 2022 C-print, Diasec face 184 x 240 x 5 cm",
+     "kind": "kurator",
+     "author": "Flowers Gallery",
+     "translation_de": "C-Print, Diasec, 184 × 240 × 5 cm",
+     "library_source_id": 543484
+    }
+   ]
+  },
+  {
+   "image_id": "id18c8c5641",
+   "photographer": "Elger Esser",
+   "project": "Sky and Sand – französische Küsten- und Flusslandschaften",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Beaugency III“?",
+   "value": 43,
+   "unit": "cm",
+   "min": 0,
+   "max": 300,
+   "tolerance": 8.6,
+   "answer_de": "43 cm – Heliogravüre-Direktdruck auf versilberter Kupferplatte, 33 × 43 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176971/",
+     "title": "Elger Esser, Beaugency III, 2014 | Flowers Gallery",
+     "excerpt": "Beaugency III , 2014 Mixed Media: Directprint, silver-coated copper plate, shellac 33 x 43 cm",
+     "kind": "kurator",
+     "author": "Flowers Gallery",
+     "translation_de": "Mischtechnik: Direktdruck, versilberte Kupferplatte, Schellack, 33 × 43 cm",
+     "library_source_id": 274277
+    }
+   ]
+  },
+  {
+   "image_id": "i13df9799ac",
+   "photographer": "Awoiska van der Molen",
+   "project": "In Nature II (Landschaften 2015–2018)",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „#380-14“?",
+   "value": 140,
+   "unit": "cm",
+   "min": 0,
+   "max": 300,
+   "tolerance": 28.0,
+   "answer_de": "140 cm in der großen Fassung (116 × 140 cm); es gibt auch 50 × 60 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.awoiska.nl/works/2015-2018-nature",
+     "title": "In nature II - Awoiska v/d Molen",
+     "excerpt": "#380-14, 2015 116x140cm / 50x60cm Silver gelatin print",
+     "kind": "fotograf",
+     "author": "Awoiska van der Molen (Website)",
+     "translation_de": "Silbergelatineabzug, 116 × 140 cm bzw. 50 × 60 cm",
+     "library_source_id": 428727
+    }
+   ]
+  },
+  {
+   "image_id": "i8065e5cd18",
+   "photographer": "Martin Parr",
+   "project": "Small World",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Mona Lisa, Louvre, Paris“?",
+   "value": 76.2,
+   "unit": "cm",
+   "min": 0,
+   "max": 300,
+   "tolerance": 15.2,
+   "answer_de": "76,2 cm – Pigmentdruck 50,8 × 76,2 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-7485-martin-parr-mona-lisa-louvre-paris-2012/",
+     "title": "Martin Parr, Mona Lisa, Louvre, Paris – Small World: Martin Parr, Galerie Clémentine de la Féronnière",
+     "excerpt": "Mona Lisa, Louvre, Paris, 2012 Pigment print 50,8 x 76,2 cm",
+     "kind": "kurator",
+     "author": "Galerie Clémentine de la Féronnière",
+     "translation_de": "Pigmentdruck 50,8 × 76,2 cm",
+     "library_source_id": 507292
+    }
+   ]
+  },
+  {
+   "image_id": "i3f26664767",
+   "photographer": "Michael Kenna",
+   "project": "Hokkaido",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Philosopher’s Tree, Study 7, Biei“?",
+   "value": 8,
+   "unit": "in",
+   "min": 0,
+   "max": 40,
+   "tolerance": 1.6,
+   "answer_de": "Nur 8 Zoll (rund 20 cm) – Silbergelatineabzug 8 × 8 Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://www.peterfetterman.com/artists/91-michael-kenna/works/58844-michael-kenna-philosophers-tree-study-7-biei-hokkaido-japan-2009/",
+     "title": "Michael Kenna, Philosopher’s Tree, Study 7, Biei, Hokkaido, Japan,, 2009 | Peter Fetterman Gallery",
+     "excerpt": "Gelatin Silver Print Image Dimensions: 8 x 8 inches",
+     "kind": "kurator",
+     "author": "Peter Fetterman Gallery",
+     "translation_de": "Silbergelatineabzug, Bildmaß 8 × 8 Zoll"
+    }
+   ]
+  },
+  {
+   "image_id": "ieb29037499",
+   "photographer": "Mario Giacomelli",
+   "project": "Paesaggio – Presa di coscienza sulla natura / Metamorfosi della terra",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Metamorphosis of the Land“?",
+   "value": 14.5,
+   "unit": "in",
+   "min": 0,
+   "max": 40,
+   "tolerance": 2.9,
+   "answer_de": "14,5 Zoll (rund 37 cm) – Vintage-Silbergelatineabzug 11¼ × 14½ Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+     "title": "Mario Giacomelli's “Paesaggio” – Danziger Gallery (Online-Ausstellung 2025, Pressetext)",
+     "excerpt": "Metamorphosis of the Land, 1955 - 1980 11.25 x 14.5 inch vintage silver gelatin print",
+     "kind": "kurator",
+     "author": "Danziger Gallery",
+     "translation_de": "Vintage-Silbergelatineabzug, 11,25 × 14,5 Zoll"
+    }
+   ]
+  },
+  {
+   "image_id": "i2eea36976e",
+   "photographer": "Thomas Joshua Cooper",
+   "project": "An den Rändern und Flüssen – Auswahl (u. a. Atlantikbecken und schottische Flüsse)",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „The North Atlantic Ocean, The Butt of Lewis“?",
+   "value": 60,
+   "unit": "cm",
+   "min": 0,
+   "max": 200,
+   "tolerance": 12.0,
+   "answer_de": "60 cm – Silbergelatineabzug 43 × 60 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.inglebygallery.com/artists/75-thomas-joshua-cooper/works/56423-thomas-joshua-cooper-the-north-atlantic-ocean-the-butt-of-lewis/",
+     "title": "Werktitel – Ingleby Gallery",
+     "excerpt": "gelatin silver print 43 x 60 cm",
+     "kind": "kurator",
+     "author": "Ingleby Gallery",
+     "translation_de": "Silbergelatineabzug 43 × 60 cm"
+    }
+   ]
+  },
+  {
+   "image_id": "i8b69af42b2",
+   "photographer": "Jungjin Lee",
+   "project": "Wind",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Wind 04-54“?",
+   "value": 210,
+   "unit": "cm",
+   "min": 0,
+   "max": 300,
+   "tolerance": 42.0,
+   "answer_de": "210 cm – Silberemulsion auf koreanischem Maulbeerpapier, Blatt 105 × 210 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://phillips.com/detail/jungjin-lee/UK040123/20",
+     "title": "Jungjin Lee, Wind 04-54 – Phillips, Photographs, London (Los 20)",
+     "excerpt": "Gelatin silver emulsion on Korean mulberry paper. Sheet: 105 x 210 cm (41 3/8 x 82 5/8 in.)",
+     "kind": "kurator",
+     "author": "Phillips",
+     "translation_de": "Silbergelatine-Emulsion auf koreanischem Maulbeerpapier. Blatt: 105 × 210 cm",
+     "library_source_id": 379886
+    }
+   ]
+  },
+  {
+   "image_id": "if1a1a0ca0f",
+   "photographer": "Eadweard Muybridge",
+   "project": "Valley of the Yosemite (Mammutplatten 1872)",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Valley of the Yosemite from Union Point“?",
+   "value": 54.6,
+   "unit": "cm",
+   "min": 0,
+   "max": 150,
+   "tolerance": 10.9,
+   "answer_de": "54,6 cm (21½ Zoll) – Albuminabzug, Blatt 43,2 × 54,6 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://americanart.si.edu/node/42178",
+     "title": "Valley of the Yosemite from Union Point – Smithsonian American Art Museum (A Democracy of Images, 2013)",
+     "excerpt": "sheet: 17 x 21 1 ⁄ 2 in. ( 43 . 2 x 54 . 6 cm.)",
+     "kind": "museum",
+     "author": "Smithsonian American Art Museum",
+     "translation_de": "Blatt: 17 × 21½ Zoll (43,2 × 54,6 cm)"
+    }
+   ]
+  },
+  {
+   "image_id": "ibab6b12748",
+   "photographer": "Carleton E. Watkins",
+   "project": "Yosemite (Mammutplatten-Aufnahmen)",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „View from the Sentinel Dome, Yosemite“?",
+   "value": 52.1,
+   "unit": "cm",
+   "min": 0,
+   "max": 150,
+   "tolerance": 10.4,
+   "answer_de": "52,1 cm – jedes Teilbild misst 40,3 × 52,1 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/689997",
+     "title": "The Met Collection API – Objektdatensatz 689997",
+     "excerpt": "Image 1: 40.3 x 52.1 cm",
+     "kind": "museum",
+     "author": "The Metropolitan Museum of Art",
+     "translation_de": "Bild 1: 40,3 × 52,1 cm",
+     "library_source_id": 879369
+    }
+   ]
+  },
+  {
+   "image_id": "i625184bc52",
+   "photographer": "William Henry Jackson",
+   "project": "Hayden-Survey: Yellowstone 1871",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Great Falls of the Yellowstone“?",
+   "value": 32.4,
+   "unit": "cm",
+   "min": 0,
+   "max": 150,
+   "tolerance": 6.5,
+   "answer_de": "32,4 cm – Albuminabzug, Blatt 324 × 248 mm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2020630255/?fo=json",
+     "title": "Library of Congress – Katalogdatensatz (JSON) 2020630255",
+     "excerpt": "1 photograph : albumen print ; sheet 324 x 248 mm, mount 508 x 406 mm.",
+     "kind": "museum",
+     "author": "Library of Congress",
+     "translation_de": "1 Fotografie: Albuminabzug; Blatt 324 × 248 mm, Karton 508 × 406 mm.",
+     "library_source_id": 405481
+    }
+   ]
+  },
+  {
+   "image_id": "if35a9ace90",
+   "photographer": "Francis Frith",
+   "project": "Egypt and Palestine / Egypt, Sinai and Jerusalem",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „The Hypaethral Temple, Philae“?",
+   "value": 18.75,
+   "unit": "in",
+   "min": 0,
+   "max": 60,
+   "tolerance": 3.8,
+   "answer_de": "18¾ Zoll (rund 48 cm) – Albuminabzug vom Kollodium-Glasnegativ, 14⅞ × 18¾ Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://kochgallery.com/exhibitions/francis-frith-twenty-photographic-views-2004/",
+     "title": "Francis Frith: Egypt, Sinai, and Jerusalem – Robert Koch Gallery (Ausstellung 2004)",
+     "excerpt": "Francis Frith The Hypaethral Temple, Philae, 1858 Albumen silver print from collodion on glass negative 14 7/8 x 18 3/4 in.",
+     "kind": "kurator",
+     "author": "Robert Koch Gallery",
+     "translation_de": "Albumin-Silberabzug von Kollodium-Glasnegativ, 14⅞ × 18¾ Zoll",
+     "library_source_id": 942704
+    }
+   ]
+  },
+  {
+   "image_id": "ib39d37c82c",
+   "photographer": "Frank Gohlke",
+   "project": "Mount St. Helens",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „View of Mount St. Helens from Vicinity of Spud Mountain—7 Miles Northwest“?",
+   "value": 102,
+   "unit": "cm",
+   "min": 0,
+   "max": 300,
+   "tolerance": 20.4,
+   "answer_de": "102 cm – Bildmaß 80,7 × 102 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/196529",
+     "title": "View of Mount St. Helens from Vicinity of Spud Mountain – The Art Institute of Chicago",
+     "excerpt": "Image: 80.7 x 102 cm",
+     "kind": "museum",
+     "author": "Art Institute of Chicago",
+     "translation_de": "Bild: 80,7 × 102 cm",
+     "library_source_id": 951605
+    }
+   ]
+  },
+  {
+   "image_id": "idd49ce38d3",
+   "photographer": "Minor White",
+   "project": "These Images – Küste von San Mateo County (1947, Portfolio 1950)",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „One Wave, Matchstick Cove“?",
+   "value": 11.6,
+   "unit": "cm",
+   "min": 0,
+   "max": 80,
+   "tolerance": 3,
+   "answer_de": "Nur 11,6 cm – Bild/Papier 11,6 × 9 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/121759",
+     "title": "One Wave, Matchstick Cove | The Art Institute of Chicago",
+     "excerpt": "Image/paper: 11.6 x 9 cm",
+     "kind": "museum",
+     "author": "Art Institute of Chicago",
+     "translation_de": "Bild/Papier: 11,6 × 9 cm",
+     "library_source_id": 150727
+    }
+   ]
+  },
+  {
+   "image_id": "i6c7f99d0a3",
+   "photographer": "Franco Fontana",
+   "project": "Paesaggi – Farblandschaften (1970–1995)",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Untitled (Landschaft mit Mohnlinie)“?",
+   "value": 26.2,
+   "unit": "cm",
+   "min": 0,
+   "max": 120,
+   "tolerance": 5.2,
+   "answer_de": "26,2 cm – Typ-C-Abzug, Bildmaß 17,4 × 26,2 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.ngv.vic.gov.au/explore/collection/work/8735/",
+     "title": "Untitled, Franco FONTANA | NGV",
+     "excerpt": "Measurements 17.4 x 26.2 cm (image)",
+     "kind": "museum",
+     "author": "National Gallery of Victoria",
+     "translation_de": "Maße 17,4 × 26,2 cm (Bild)"
+    }
+   ]
+  },
+  {
+   "image_id": "i32660e82d5",
+   "photographer": "Lewis Baltz",
+   "project": "The Prototype Works",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Corona del Mar“?",
+   "value": 21.1,
+   "unit": "cm",
+   "min": 0,
+   "max": 120,
+   "tolerance": 4.2,
+   "answer_de": "21,1 cm – Silbergelatineabzug 14,8 × 21,1 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/200882",
+     "title": "Corona del Mar | The Art Institute of Chicago",
+     "excerpt": "Dimensions 14.8 x 21.1 cm (image/paper)",
+     "kind": "museum",
+     "author": "Art Institute of Chicago",
+     "translation_de": "Maße 14,8 × 21,1 cm (Bild/Papier)"
+    }
+   ]
+  },
+  {
+   "image_id": "ia493679f1c",
+   "photographer": "Timothy H. O'Sullivan",
+   "project": "Geographical Surveys West of the 100th Meridian (Wheeler Survey)",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Head of Cañyon de Chelle, Looking Down“?",
+   "value": 27.5,
+   "unit": "cm",
+   "min": 0,
+   "max": 120,
+   "tolerance": 5.5,
+   "answer_de": "27,5 cm – Bildmaß 20,5 × 27,5 cm (8 1/16 × 10 13/16 Zoll) [Q1].",
+   "sources": [
+    {
+     "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/700114",
+     "title": "The Met Collection API – Objektdatensatz 700114",
+     "excerpt": "Image: 8 1/16 x 10 13/16 in. (20.5 x 27.5 cm)",
+     "kind": "museum",
+     "author": "The Metropolitan Museum of Art",
+     "translation_de": "Bild: 8 1/16 × 10 13/16 Zoll (20,5 × 27,5 cm)",
+     "library_source_id": 143767
+    }
+   ]
+  },
+  {
+   "image_id": "i4460c3f606",
+   "photographer": "Elger Esser",
+   "project": "Sky and Sand – französische Küsten- und Flusslandschaften",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Les Andelys II“?",
+   "value": 184,
+   "unit": "cm",
+   "min": 0,
+   "max": 300,
+   "tolerance": 36.8,
+   "answer_de": "184 cm – Inkjet-Druck mit Diasec, 142 × 184 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176963/",
+     "title": "Elger Esser, Les Andelys II, 2018 | Flowers Gallery",
+     "excerpt": "Les Andelys II , 2018 Ink Jet, Diasec Face 142 x 184 cm",
+     "kind": "kurator",
+     "author": "Flowers Gallery",
+     "translation_de": "Tintenstrahldruck, Diasec, 142 × 184 cm",
+     "library_source_id": 679746
+    }
+   ]
+  },
+  {
+   "image_id": "i2449c119e0",
+   "photographer": "Elger Esser",
+   "project": "Sky and Sand – französische Küsten- und Flusslandschaften",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Mont Saint Michel IX“?",
+   "value": 80,
+   "unit": "cm",
+   "min": 0,
+   "max": 300,
+   "tolerance": 16.0,
+   "answer_de": "80 cm – Direktdruck auf versilberter Kupferplatte, 60 × 80 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176959/",
+     "title": "Elger Esser, Mont Saint Michel IX, 2022 – Flowers Gallery (Werkangabe)",
+     "excerpt": "Mont Saint Michel IX , 2022 Mixed Media: Directprint, silver-coated copper plate, shellac 60 x 80 x 5 cm",
+     "kind": "kurator",
+     "author": "Flowers Gallery",
+     "translation_de": "Mischtechnik: Direktdruck, versilberte Kupferplatte, Schellack, 60 × 80 × 5 cm",
+     "library_source_id": 204732
+    }
+   ]
+  },
+  {
+   "image_id": "ib9aeaf00a1",
+   "photographer": "Awoiska van der Molen",
+   "project": "In Nature II (Landschaften 2015–2018)",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „#373-7“?",
+   "value": 120,
+   "unit": "cm",
+   "min": 0,
+   "max": 300,
+   "tolerance": 24.0,
+   "answer_de": "120 cm in der großen Fassung (120 × 100 cm); es gibt auch 60 × 50 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.awoiska.nl/works/2015-2018-nature",
+     "title": "In nature II - Awoiska v/d Molen",
+     "excerpt": "#373-7, 2015 120x100cm / 60x50cm Silver gelatin print",
+     "kind": "fotograf",
+     "author": "Awoiska van der Molen (Website)",
+     "translation_de": "Silbergelatineabzug, 120 × 100 cm bzw. 60 × 50 cm",
+     "library_source_id": 817608
+    }
+   ]
+  },
+  {
+   "image_id": "i2ff6f96825",
+   "photographer": "Sebastião Salgado",
+   "project": "Genesis",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Adansonia Grandidieri“?",
+   "value": 50,
+   "unit": "in",
+   "min": 0,
+   "max": 120,
+   "tolerance": 10.0,
+   "answer_de": "50 Zoll (rund 127 cm) – Silbergelatineabzug 36 × 50 Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-artist-activist/selected-works?view=slider",
+     "title": "Sebastião Salgado: Artist / Activist | Sundaram Tagore Gallery",
+     "excerpt": "Adansonia Grandidieri , 2010, gelatin silver print, 36 x 50 inches",
+     "kind": "kurator",
+     "author": "Sundaram Tagore Gallery",
+     "translation_de": "Silbergelatineabzug, 36 × 50 Zoll",
+     "library_source_id": 296144
+    }
+   ]
+  },
+  {
+   "image_id": "i076b4b0a6f",
+   "photographer": "Sebastião Salgado",
+   "project": "Genesis",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Iceberg moving on the Weddell Sea“?",
+   "value": 35,
+   "unit": "in",
+   "min": 0,
+   "max": 120,
+   "tolerance": 7.0,
+   "answer_de": "35 Zoll (rund 89 cm) – Hochformat 35 × 24 Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://www.sundaramtagore.com/exhibitions/sebastiao-salgado-artist-activist/selected-works?view=slider",
+     "title": "Sebastião Salgado: Artist / Activist | Sundaram Tagore Gallery",
+     "excerpt": "Iceberg moving on the Weddell Sea, Antarctic Peninsula , 2005, gelatin silver print, 35 x 24 inches",
+     "kind": "kurator",
+     "author": "Sundaram Tagore Gallery",
+     "translation_de": "Silbergelatineabzug, 35 × 24 Zoll",
+     "library_source_id": 841096
+    }
+   ]
+  },
+  {
+   "image_id": "i70bf23736c",
+   "photographer": "Michael Kenna",
+   "project": "Hokkaido",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Prolonged Snow Fence, Teshikaga“?",
+   "value": 7.75,
+   "unit": "in",
+   "min": 0,
+   "max": 40,
+   "tolerance": 1.6,
+   "answer_de": "7¾ Zoll (knapp 20 cm) – quadratischer Silbergelatineabzug [Q1].",
+   "sources": [
+    {
+     "url": "https://www.peterfetterman.com/artists/91-michael-kenna/works/37832-michael-kenna-prolonged-snow-fence-teshikaga-hokkaido-japan-2007-printed-2019/",
+     "title": "Michael Kenna, Prolonged Snow Fence, Teshikaga, Hokkaido, Japan, 2007/printed 2019 | Peter Fetterman Gallery",
+     "excerpt": "Gelatin Silver Print Image 7.75 x 7.75\"",
+     "kind": "kurator",
+     "author": "Peter Fetterman Gallery",
+     "translation_de": "Silbergelatineabzug, Bild 7,75 × 7,75 Zoll"
+    }
+   ]
+  },
+  {
+   "image_id": "i04af43aae2",
+   "photographer": "Paul Caponigro",
+   "project": "Megalithen und Landschaft in Britannien und Irland",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Connemara, County Galway, Ireland“?",
+   "value": 12.125,
+   "unit": "in",
+   "min": 0,
+   "max": 60,
+   "tolerance": 2.4,
+   "answer_de": "Gut 12 Zoll (rund 31 cm) – Silbergelatineabzug 9½ × 12⅛ Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+     "title": "'Bruce Davidson / Paul Caponigro: Two American Photographers in Britain and Ireland'",
+     "excerpt": "Connemara, County Galway, Ireland 1970 Gelatin silver print 9 1/2 x 12 1/8 in.",
+     "kind": "kurator",
+     "author": "Huntington Library (via Art Blart)",
+     "translation_de": "Silbergelatineabzug, 9½ × 12⅛ Zoll",
+     "library_source_id": 235502
+    }
+   ]
+  },
+  {
+   "image_id": "id463ff5de1",
+   "photographer": "Frank Gohlke",
+   "project": "Mount St. Helens",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Timber Salvage on Ridge at Eastern Limit of Blast Zone“?",
+   "value": 46.1,
+   "unit": "cm",
+   "min": 0,
+   "max": 300,
+   "tolerance": 9.2,
+   "answer_de": "46,1 cm – Bildmaß 37,5 × 46,1 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/156740",
+     "title": "Timber Salvage on Ridge at Eastern Limit of Blast Zone | The Art Institute of Chicago",
+     "excerpt": "Image: 37.5 x 46.1 cm",
+     "kind": "museum",
+     "author": "Art Institute of Chicago",
+     "translation_de": "Bild: 37,5 × 46,1 cm",
+     "library_source_id": 829087
+    }
+   ]
+  },
+  {
+   "image_id": "i7c4aa2a048",
+   "photographer": "Robert Adams",
+   "project": "The New West",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Eden, Colorado“?",
+   "value": 10,
+   "unit": "in",
+   "min": 0,
+   "max": 40,
+   "tolerance": 2.0,
+   "answer_de": "10 Zoll (rund 25 cm) – Silbergelatineabzug 8 × 10 Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://fraenkelgallery.com/artists/robert-adams",
+     "title": "Robert Adams | Fraenkel Gallery",
+     "excerpt": "Eden, Colorado , 1968 gelatin silver print , 8 x 10 inches",
+     "kind": "kurator",
+     "author": "Fraenkel Gallery",
+     "translation_de": "Silbergelatineabzug, 8 × 10 Zoll",
+     "library_source_id": 410829
+    }
+   ]
+  },
+  {
+   "image_id": "iad3aaf5028",
+   "photographer": "Stephen Shore",
+   "project": "Uncommon Places",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Trail’s End Restaurant, Kanab, Utah“?",
+   "value": 21.75,
+   "unit": "in",
+   "min": 0,
+   "max": 80,
+   "tolerance": 4.4,
+   "answer_de": "21¾ Zoll (rund 55 cm) – chromogener Abzug 17 × 21¾ Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://www.303gallery.com/artists/stephen-shore/images/uncommon-places",
+     "title": "Stephen Shore | Artists | 303 Gallery",
+     "excerpt": "Trail's End Restaurant, Kanab, Utah, August 10, 1973 Chromogenic color print 17 x 21 3/4 inches",
+     "kind": "kurator",
+     "author": "303 Gallery",
+     "translation_de": "Chromogener Farbabzug, 17 × 21¾ Zoll",
+     "library_source_id": 901460
+    }
+   ]
+  },
+  {
+   "image_id": "ibf23b82a61",
+   "photographer": "Martin Parr",
+   "project": "Small World",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „India, Goa“?",
+   "value": 54,
+   "unit": "cm",
+   "min": 0,
+   "max": 150,
+   "tolerance": 10.8,
+   "answer_de": "54 cm – C-Print 42,5 × 54 cm [Q1].",
+   "sources": [
+    {
+     "url": "https://www.galerieclementinedelaferonniere.fr/exhibitions/59/works/artworks-5362-martin-parr-india-goa-1993/",
+     "title": "Martin Parr, India, Goa, 1993 | Galerie Clémentine de la Féronnière",
+     "excerpt": "India, Goa , 1993 C-print 42,5 x 54",
+     "kind": "kurator",
+     "author": "Galerie Clémentine de la Féronnière",
+     "translation_de": "C-Print 42,5 × 54 (cm)"
+    }
+   ]
+  },
+  {
+   "image_id": "ic0cf679f84",
+   "photographer": "Wynn Bullock",
+   "project": "Point Lobos und die Küste bei Monterey (1950er–60er)",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „The Pilings“?",
+   "value": 24,
+   "unit": "cm",
+   "min": 0,
+   "max": 120,
+   "tolerance": 4.8,
+   "answer_de": "24 cm – Bild/Papier 19 × 24 cm, ein Kontaktabzugsformat [Q1].",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/212080",
+     "title": "The Pilings | The Art Institute of Chicago",
+     "excerpt": "Image/paper: 19 x 24 cm",
+     "kind": "museum",
+     "author": "Art Institute of Chicago",
+     "translation_de": "Bild/Papier: 19 × 24 cm",
+     "library_source_id": 274352
+    }
+   ]
+  },
+  {
+   "image_id": "i20c2b36f08",
+   "photographer": "Edward Weston",
+   "project": "Point Lobos und die Dünen von Oceano (Project Prints)",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „Sunset, Point Lobos“?",
+   "value": 24.3,
+   "unit": "cm",
+   "min": 0,
+   "max": 120,
+   "tolerance": 4.9,
+   "answer_de": "24,3 cm – Bild/Papier 19,5 × 24,3 cm, also etwa das 8×10-Kontaktformat [Q1].",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/121003",
+     "title": "Sunset, Point Lobos | The Art Institute of Chicago",
+     "excerpt": "Image/paper: 19.5 x 24.3 cm",
+     "kind": "museum",
+     "author": "Art Institute of Chicago",
+     "translation_de": "Bild/Papier: 19,5 × 24,3 cm",
+     "library_source_id": 163488
+    }
+   ]
+  },
+  {
+   "image_id": "ic04de30dae",
+   "photographer": "Mario Giacomelli",
+   "project": "Paesaggio – Presa di coscienza sulla natura / Metamorfosi della terra",
+   "quantity": "abzug",
+   "question_de": "Wie lang ist die lange Seite des Abzugs von „On Being Aware of Nature“?",
+   "value": 15.5,
+   "unit": "in",
+   "min": 0,
+   "max": 40,
+   "tolerance": 3.1,
+   "answer_de": "15,5 Zoll (rund 39 cm) – Vintage-Silbergelatineabzug 10¾ × 15½ Zoll [Q1].",
+   "sources": [
+    {
+     "url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+     "title": "Mario Giacomelli's “Paesaggio” – Danziger Gallery (Online-Ausstellung 2025, Pressetext)",
+     "excerpt": "On Being Aware of Nature, 1954 - 2000 10.75 x 15.5 inch vintage silver gelatin print",
+     "kind": "kurator",
+     "author": "Danziger Gallery",
+     "translation_de": "Vintage-Silbergelatineabzug, 10,75 × 15,5 Zoll"
+    }
+   ]
+  },
+  {
+   "image_id": "ibbd7ccd719",
+   "photographer": "Hans Strand",
+   "project": "Iceland – Landscapes in Transition (Luftbilder)",
+   "quantity": "jahre",
+   "question_de": "Wie viele Jahre lagen laut Strand zwischen seinem ersten Fotoflug über Island und dem Zeitpunkt, als er 150 Flugstunden beisammen hatte?",
+   "value": 22,
+   "unit": "Jahre",
+   "min": 0,
+   "max": 40,
+   "tolerance": 4,
+   "answer_de": "22 Jahre – in dieser Zeit flog er insgesamt 150 Stunden über Island, meist in hochdeckigen Cessnas, später auch im Hubschrauber [Q1].",
+   "sources": [
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Hans Strand: Making the Impossible, Possible – Nature Photographers Network (14.9.2022)",
+     "excerpt": "Today, 22 years after my first flight, I have flown 150 hours total over Iceland.",
+     "kind": "fotograf",
+     "author": "Hans Strand",
+     "translation_de": "Heute, 22 Jahre nach meinem ersten Flug, bin ich insgesamt 150 Stunden über Island geflogen."
+    }
+   ]
+  },
+  {
+   "image_id": "ice7056e3c3",
+   "photographer": "Christopher Burkett",
+   "project": "Farblandschaften auf 8×10-Dia und Cibachrome",
+   "quantity": "jahre",
+   "question_de": "Wie viele Jahre arbeitete Burkett bei „Beaver Lodge at Sunrise“ schon mit der 8×10-Kamera?",
+   "value": 10,
+   "unit": "Jahre",
+   "min": 0,
+   "max": 40,
+   "tolerance": 3,
+   "answer_de": "Zehn Jahre – so lange, dass er das kopfstehende Mattscheibenbild sicher „umdenken“ konnte [Q1].",
+   "sources": [
+    {
+     "url": "https://christopherburkett.com/print/beaver-lodge-at-sunrise/",
+     "title": "Beaver Lodge at Sunrise – Christopher Burkett (Entstehungstext)",
+     "excerpt": "I had been using an 8x10 camera for 10 years and had trained myself so that when I viewed the image upside down on the ground glass I could clearly visualize how it looked",
+     "kind": "fotograf",
+     "author": "Christopher Burkett",
+     "translation_de": "Ich hatte 10 Jahre lang mit einer 8×10-Kamera gearbeitet und mich so trainiert, dass ich das auf der Mattscheibe kopfstehende Bild klar vor mir sah, wie es richtig herum aussah."
+    }
+   ]
+  },
+  {
+   "image_id": "i2a2fcbb802",
+   "photographer": "Vittorio Sella",
+   "project": "Expeditionen: Alaska, Kangchenjunga und Karakorum",
+   "quantity": "aufnahmen",
+   "question_de": "Wie viele Glasplatten nahm Sella für die große 30×40-Kamera auf die Alaska-Expedition 1897 mit?",
+   "value": 60,
+   "unit": "Stück",
+   "min": 0,
+   "max": 300,
+   "tolerance": 15,
+   "answer_de": "Fünf Dutzend, also 60 Platten – benutzt wurde die Kamera dann nur für eine einzige Aufnahme [Q1].",
+   "sources": [
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: The Mountain Photograph Before It Was Easy – PeakVisor (Artikel, 2026; mit Quellenangaben)",
+     "excerpt": "It records the big 30 by 40 camera and five dozen plates, and then adds one dry sentence:",
+     "kind": "kritik",
+     "author": "PeakVisor",
+     "translation_de": "Sie verzeichnet die große 30×40-Kamera und fünf Dutzend Platten und fügt dann einen trockenen Satz hinzu:"
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Herbert Ponting",
+   "project": "British Antarctic (Terra Nova) Expedition",
+   "quantity": "belichtung",
+   "question_de": "Wie lange belichtete Ponting bei seinen vergeblichen Versuchen, das Südlicht zu fotografieren, höchstens – mit dem Ergebnis eines nebligen Schleiers?",
+   "value": 5,
+   "unit": "min",
+   "min": 0,
+   "max": 30,
+   "tolerance": 1.5,
+   "answer_de": "Bis zu fünf Minuten; schon Belichtungen von einer Minute zeigten keine Spur der Aurora, nur Sternspuren [Q1].",
+   "sources": [
+    {
+     "url": "https://archive.org/stream/greatwhitesouthb00pontuoft/greatwhitesouthb00pontuoft_djvu.txt",
+     "title": "Herbert Ponting: The Great White South (1922), Volltext – Internet Archive",
+     "excerpt": "Exposures of five minutes sometimes revealed a nebulous glare, of no scientific interest whatever.",
+     "kind": "fotograf",
+     "author": "Herbert Ponting",
+     "translation_de": "Belichtungen von fünf Minuten zeigten manchmal einen nebligen Schein ohne jeden wissenschaftlichen Wert."
+    }
+   ]
+  },
+  {
+   "image_id": null,
+   "photographer": "Herbert Ponting",
+   "project": "British Antarctic (Terra Nova) Expedition",
+   "quantity": "hoehe",
+   "question_de": "Wie hoch war die senkrechte Gletscherwand in der South Bay, in deren Eishöhlen Ponting mit Gran und Taylor kletterte?",
+   "value": 150,
+   "unit": "ft",
+   "min": 0,
+   "max": 1000,
+   "tolerance": 40,
+   "answer_de": "150 Fuß (rund 46 m) senkrecht [Q1].",
+   "sources": [
+    {
+     "url": "https://archive.org/stream/greatwhitesouthb00pontuoft/greatwhitesouthb00pontuoft_djvu.txt",
+     "title": "Herbert Ponting: The Great White South (1922), Volltext – Internet Archive",
+     "excerpt": "The glacier face hereabouts was 150 feet sheer",
+     "kind": "fotograf",
+     "author": "Herbert Ponting",
+     "translation_de": "Die Gletscherwand war hier 150 Fuß senkrecht."
+    }
+   ]
+  }
+ ]
+}

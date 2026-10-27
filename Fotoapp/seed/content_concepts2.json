@@ -1,0 +1,1725 @@
+{
+ "accessed_at": "2026-10-27",
+ "concepts": [
+  {
+   "key": "das-erhabene",
+   "name": "Das Erhabene (the sublime)",
+   "dimension": "scale",
+   "summary_md": "Edmund Burke bestimmte 1757 das Erhabene als Wirkung, die die stärkste Empfindung hervorruft, deren der Geist fähig ist; Quelle des Erhabenen sei alles, was in irgendeiner Weise schrecklich ist oder ähnlich wie Schrecken wirkt – in der Landschaft etwa Turners Seestürme und Bergszenen [Q1]. Größe der Ausdehnung ist für Burke eine mächtige Ursache des Erhabenen [Q2], und Dunkelheit scheint nötig: Wer das ganze Ausmaß einer Gefahr kennt und die Augen daran gewöhnt, verliert einen großen Teil der Beklemmung [Q3]. Ansel Adams’ Schwarzweißbilder waren laut seiner Galerie keine „realistischen“ Naturdokumente, sondern steigerten das psychologische Erleben und erzeugten ein Gefühl erhabener Größe der Natur [Q4].",
+   "exercise_md": "Bei aufziehendem Unwetter oder in einer Schlucht: Mach zwei Bilder desselben Ortes – eines, das alles zeigt, und eines, in dem Wolken, Schatten oder Dunst die Ausdehnung verschleiern und ein Maßstab fehlt. Vergleiche abends, welches Bild mehr Beklemmung auslöst und woran das liegt.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/s/sublime",
+     "title": "Tate, Art Term „Sublime“",
+     "excerpt": "The theory of sublime art was put forward by Edmund Burke in A Philosophical Enquiry into the Origin of our Ideas of the Sublime and Beautiful published in 1757. He defined the sublime as an artistic effect productive of the strongest emotion the mind is capable of feeling. He wrote ‘whatever is in any sort terrible or is conversant about terrible objects or operates in a manner analogous to terror, is a source of the sublime’. In landscape the sublime is exemplified by J.M.W Turner’s sea storms and mountain scenes"
+    },
+    {
+     "url": "https://www.gutenberg.org/cache/epub/15043/pg15043-images.html",
+     "title": "Edmund Burke, A Philosophical Enquiry into the Origin of our Ideas of the Sublime and Beautiful (1757), Teil II, Abschnitt „Vastness“ (Project Gutenberg, Harvard Classics Bd. 24)",
+     "excerpt": "Greatness [17] of dimension is a powerful cause of the sublime."
+    },
+    {
+     "url": "https://www.gutenberg.org/cache/epub/15043/pg15043-images.html",
+     "title": "Edmund Burke, A Philosophical Enquiry … (1757), Teil II, Abschnitt „Obscurity“ (Project Gutenberg)",
+     "excerpt": "To make anything very terrible, obscurity [13] seems in general to be necessary. When we know the full extent of any danger, when we can accustom our eyes to it, a great deal of the apprehension vanishes."
+    },
+    {
+     "url": "https://www.anseladams.com/ansel-adams-bio/",
+     "title": "The Ansel Adams Gallery: Ansel Adams – Biografie",
+     "excerpt": "His black-and-white images were not “realistic” documents of nature. Instead, they sought an intensification and purification of the psychological experience of natural beauty. He created a sense of the sublime magnificence of nature that infused the viewer with the emotional equivalent of wilderness, often more powerful than the actual thing."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "iea4d2872cb",
+     "note": "Meine Einschätzung: Aufreißende Sturmwolken verdecken Teile der Felswände – Größe und Verhüllung zugleich, ganz im Sinn von Burkes Ausdehnung und Dunkelheit."
+    },
+    {
+     "id": "ie64fae6b36",
+     "note": "Meine Einschätzung: Ein Tornado über flachem Land – Bedrohung als Bildthema, das Erhabene als Schrecken auf sicherer Distanz."
+    }
+   ]
+  },
+  {
+   "key": "das-schoene",
+   "name": "Das Schöne (the beautiful, Burke)",
+   "dimension": "order",
+   "summary_md": "Burke fasst die sinnlichen Eigenschaften der Schönheit zusammen: vergleichsweise klein, glatt, mit wechselnder Richtung der Teile, die aber nicht eckig, sondern gleichsam ineinander verschmolzen sind, zart gebaut und mit klaren, hellen, aber nicht grellen Farben [Q1]. Die damalige Ästhetik ordnete dem Schönen Ruhe und Behagen zu – glatte Rasen, frische Blumen, anmutige junge Bäume –, dem Erhabenen dagegen schroffe Berge, dunkle Wälder und tosende Wellen [Q2]. Die Tate beschreibt das Schöne als den einen Pol der Landschaftstypen: die friedlichsten, sogar hübschen Ansichten [Q3].",
+   "exercise_md": "Suche auf einer Reise bewusst ein „schönes“ Bild nach Burkes Liste: weiche Übergänge, keine harten Kanten, zarte, nicht grelle Farben. Fotografiere danach denselben Ort mit einem harten, eckigen Element im Bild und prüfe, wie schnell die Ruhe kippt.",
+   "sources": [
+    {
+     "url": "https://www.gutenberg.org/cache/epub/15043/pg15043-images.html",
+     "title": "Edmund Burke, A Philosophical Enquiry … (1757), Teil III, Abschnitt „The Recapitulation“ (Project Gutenberg)",
+     "excerpt": "On the whole, the qualities of beauty, as they are merely sensible qualities, are the following: First, to be comparatively small. Secondly, to be smooth. Thirdly, to have a variety in the direction of the parts; but, fourthly, to have those parts not angular, but melted, as it were, into each other. Fifthly, to be of a delicate frame, without any remarkable appearance of strength. Sixthly, to have its colors clear and bright, but not very strong and glaring."
+    },
+    {
+     "url": "https://daily.jstor.org/the-claude-glass-revolutionized-the-way-people-saw-landscapes/",
+     "title": "Amelia Soth: The Claude Glass Revolutionized the Way People Saw Landscapes, JSTOR Daily (2021)",
+     "excerpt": "Contemporary aesthetic theory posited that the sublime was expressed by the awe inspired by rugged mountains, dark forests, and churning waves, while the beautiful was expressed by the comfort and repose of smooth lawns, fresh young flowers, and graceful saplings."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/p/picturesque",
+     "title": "Tate, Art Term „Picturesque“",
+     "excerpt": "At one extreme was the sublime (awesome sights such as great mountains) at the other the beautiful, the most peaceful, even pretty sights."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "iefa43e43f9",
+     "note": "Meine Einschätzung: Watt, Wasser und Wolken gehen ohne harte Kante ineinander über, die Farben bleiben hell und zart – fast eine Illustration von Burkes Liste."
+    },
+    {
+     "id": "i5606d85ce0",
+     "note": "Meine Einschätzung: Ein einzelner junger Baum auf glatter Wiese unter hellem Himmel – Ruhe und Behagen statt Bedrohung."
+    }
+   ]
+  },
+  {
+   "key": "das-pittoreske",
+   "name": "Das Pittoreske (the picturesque)",
+   "dimension": "attitude",
+   "summary_md": "Zwischen dem Erhabenen und dem Schönen lag das Pittoreske: Ansichten, die als bildmäßig galten, aber Elemente des Wilden oder Unregelmäßigen enthielten; die Theorie entwickelten William Gilpin und Uvedale Price [Q1]. Es galt als Mischung aus der Süße des Schönen und einem Teil des majestätischen Schreckens des Erhabenen – und vor allem lehrte es, Landschaften so anzusehen, als wären sie Landschaftsgemälde [Q2]. Gilpin spitzte zu: Ein palladianischer Bau möge noch so elegant sein, wer ihm pittoreske Schönheit geben wolle, müsse zum Hammer statt zum Meißel greifen [Q3].",
+   "exercise_md": "Suche in einer Kulturlandschaft (Toskana, Cotswolds, Reisterrassen) die Stelle, an der etwas Unregelmäßiges die Ordnung bricht – ein schiefer Zaun, ein Gewitterhimmel, ein verwilderter Rand. Mach ein „glattes“ und ein „pittoreskes“ Bild und notiere, welches Element den Unterschied macht.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/p/picturesque",
+     "title": "Tate, Art Term „Picturesque“",
+     "excerpt": "In between came the picturesque, views seen as being artistic but containing elements of wildness or irregularity. The theory of the picturesque was developed by writers William Gilpin ( Observations on the River Wye 1770) and Uvedale Price, who in 1794 published An Essay on the Picturesque as Compared with the Sublime and Beautiful."
+    },
+    {
+     "url": "https://daily.jstor.org/the-claude-glass-revolutionized-the-way-people-saw-landscapes/",
+     "title": "Amelia Soth: The Claude Glass Revolutionized the Way People Saw Landscapes, JSTOR Daily (2021)",
+     "excerpt": "Into this picture stepped the picturesque, considered to be a mix of the two: the sweetness of the beautiful, cut with some of the sublime’s majestic terror. Most importantly, the aesthetic of the picturesque trained people to look at landscapes as if they were landscape paintings, and the Claude glass was the perfect tool for the job."
+    },
+    {
+     "url": "https://daily.jstor.org/the-claude-glass-revolutionized-the-way-people-saw-landscapes/",
+     "title": "Amelia Soth: The Claude Glass …, JSTOR Daily (2021) – Gilpin-Zitat",
+     "excerpt": "“A piece of Palladian architecture may be elegant in the last degree,” wrote William Gilpin, one of the first proponents of the picturesque. “But… [s]hould we wish to give it picturesque beauty, we must use the mallet, instead of the chisel: we must beat down one half of it, deface the other, and throw the mutilated members around in heaps.”"
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ia890f1a244",
+     "note": "Meine Einschätzung: Sanfte grüne Hügel und Zypressen (das Schöne), darüber ein drohender Gewitterhimmel (ein Hauch des Erhabenen) – die pittoreske Mischung."
+    },
+    {
+     "id": "if95038058f",
+     "note": "Meine Einschätzung: Struppige Schafe in unordentlichem Gras – ländlich, unregelmäßig, bildmäßig angeordnet."
+    }
+   ]
+  },
+  {
+   "key": "claude-glas",
+   "name": "Claude-Glas (Claude glass)",
+   "dimension": "color",
+   "summary_md": "Das Claude-Glas war ein leicht gewölbter, geschwärzter Spiegel, den man vor das Auge hielt – man sah also die Landschaft hinter sich; die Wölbung schrumpfte weite Ansichten auf das Format einer kleinen Zeichnung, die schwache Spiegelung betonte die Hauptformen auf Kosten der Details und senkte die Farbtonart [Q1]. Es verwandelte jedes Gewirr aus Bäumen und Felsen in malerischen Reiz: gerahmt, vom Rest der Landschaft abgesetzt, mit vereinfachter Palette, in sanftes, dunstiges Licht getaucht [Q2]. So half es, eine pittoreske Ansicht zu komponieren [Q3].",
+   "exercise_md": "Mach an einem Aussichtspunkt eine „Claude-Glas-Probe“: Stell den Bildschirm sehr dunkel, kneif die Augen zusammen oder schau dir das Motiv als winziges Vorschaubild an. Bleiben die großen Formen tragfähig, wenn alle Details verschwinden? Erst dann auslösen.",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O78676/",
+     "title": "Victoria and Albert Museum: Claude glass, 1775–1780 (P.18-1972)",
+     "excerpt": "The `glass' consists of a slightly convex blackened mirror, which was carried in the hand and held up to the eye. The image thus seen was the scenery behind - rather than in front of - the user. The mirror's convexity reduced extensive views to the dimensions of a small drawing. The use of a blackened rather than an ordinary silvered mirror resulted in a somewhat weakened reflection, which stressed the prominent features in the landscape at the expense of detail. It also lowered the colour key."
+    },
+    {
+     "url": "https://daily.jstor.org/the-claude-glass-revolutionized-the-way-people-saw-landscapes/",
+     "title": "Amelia Soth: The Claude Glass Revolutionized the Way People Saw Landscapes, JSTOR Daily (2021)",
+     "excerpt": "Carrying a Claude glass was like having a portable Lorrain in your pocket, ready to transform any jumble of trees and rocks into a vision of painterly charm: framed and set apart from the rest of the landscape, color palette simplified, bathed in gentle, hazy light."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O78676/",
+     "title": "Victoria and Albert Museum: Claude glass – Galerietext (2003)",
+     "excerpt": "Claude glasses reflected and concentrated the image, so helping the artist to compose a picturesque view of landscape."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ia7b1abfb14",
+     "note": "Meine Einschätzung: Goldener Dunst, ein winziges Schiff, kaum Details – das Bild sieht aus wie durch ein getöntes Claude-Glas gesehen."
+    },
+    {
+     "id": "i4460c3f606",
+     "note": "Meine Einschätzung: Warm getönte, vereinfachte Uferlandschaft mit Spiegelung – Palette reduziert, Hauptformen betont."
+    }
+   ]
+  },
+  {
+   "key": "luftperspektive",
+   "name": "Luftperspektive (aerial perspective)",
+   "dimension": "atmosphere",
+   "summary_md": "Leonardo und andere beobachteten, dass sich Farben und Tonwerte einer Landschaft mit wachsender Entfernung durch die Atmosphäre verändern; die bildnerische Entsprechung heißt Luft- oder atmosphärische Perspektive [Q1]. Sie entsteht durch allmähliche Tonwertübergänge zwischen Vorder- und Hintergrund und erzeugt einen Raumeindruck, der dem in der Natur nahekommt [Q1]. Anders als die Linearperspektive arbeitet sie nicht mit Linien, sondern vor allem mit Ton und Farbe [Q2].",
+   "exercise_md": "Fotografiere an einem dunstigen Morgen eine Folge von Bergrücken oder Hügeln mit Tele, sodass mindestens vier Staffeln hintereinander liegen. Miss danach am Bildschirm die Helligkeit jeder Staffel: Wird sie nach hinten gleichmäßig heller? Wo bricht die Abstufung?",
+   "sources": [
+    {
+     "url": "https://www.nationalgallery.org.uk/paintings/glossary/aerial-perspective",
+     "title": "National Gallery London, Glossar „Aerial perspective“",
+     "excerpt": "Leonardo da Vinci, among others, observed that as a landscape recedes from the viewer its colours and tones alter due to the nature of the atmosphere. The pictorial equivalent of this phenomenon is called aerial or atmospheric perspective. This effect can be achieved in a painting by establishing gradual tonal changes between foreground and background, so creating an impression of space which approximates to that seen in nature."
+    },
+    {
+     "url": "https://www.nationalgallery.org.uk/paintings/glossary/linear-perspective",
+     "title": "National Gallery London, Glossar „Linear perspective“",
+     "excerpt": "Linear perspective primarily uses line to produce this effect. Aerial perspective, however, primarily uses tone and colour."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i214fed35b8",
+     "note": "Meine Einschätzung: Die Felswand vorn ist dunkel und satt, die Bergrücken dahinter werden Staffel für Staffel heller und blasser – Raum allein durch Ton."
+    },
+    {
+     "id": "ie64274fb90",
+     "note": "Meine Einschätzung: Gipfel und Bäume lösen sich nach hinten in hellem Dunst auf; die Tiefe entsteht fast ohne Linien."
+    }
+   ]
+  },
+  {
+   "key": "vedute",
+   "name": "Vedute (topografische Ansicht)",
+   "dimension": "viewpoint",
+   "summary_md": "Veduta ist der italienische Name (Plural Vedute) für eine topografische Ansicht, besonders mit architektonischen Elementen [Q1]. Die National Gallery unterscheidet zwei Arten: erfundene Ansichten (Capricci) und genau wiedergegebene Ansichten eines bekannten Ortes, etwa die Bilder Canalettos [Q1]. Canaletto schuf solche Vedute in Venedig, Panini war der Meister der Gattung in Rom [Q1].",
+   "exercise_md": "Wähle an einem berühmten Ort (Tempel, Altstadt, Brücke) bewusst die „Vedute“: der Standpunkt, von dem aus der Ort genau und wiedererkennbar beschrieben ist. Mach danach ein zweites Bild, das den Ort genauso präzise, aber von einem unüblichen Standpunkt zeigt.",
+   "sources": [
+    {
+     "url": "https://www.nationalgallery.org.uk/paintings/glossary/vedute",
+     "title": "National Gallery London, Glossar „Vedute“",
+     "excerpt": "This is the Italian name (plural - 'vedute') for a topographical view, especially one with architectural elements. Pictures of this sort fall into two categories: imaginary views (see the entry for Capricci ), and precisely rendered views of a known site, such as the works of Canaletto. While Canaletto executed such vedute in Venice, Panini was the master of the genre in Rome."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ib5c7a0e48d",
+     "note": "Meine Einschätzung: Mittelachse, Wasserbecken, Kuppel – eine genaue, wiedererkennbare Ansicht eines bekannten Ortes, die fotografische Vedute des 19. Jahrhunderts."
+    },
+    {
+     "id": "ib8168c834c",
+     "note": "Meine Einschätzung: Der Tempelbezirk von Philae erscheint klein über den Felsen – topografische Beschreibung eines bekannten Ortes mitsamt seiner Umgebung."
+    }
+   ]
+  },
+  {
+   "key": "vermessungsbild",
+   "name": "Vermessungsbild (survey photography)",
+   "dimension": "attitude",
+   "summary_md": "Laut Tate Papers ist die Landschaft des amerikanischen Westens mit dem Aufstieg der Fotografie als wissenschaftlicher und militärischer Technik verbunden – durch die Arbeiten von Timothy O’Sullivan, Carleton Watkins und Alexander Gardner bei den staatlichen Vermessungsexpeditionen nach dem Bürgerkrieg [Q1]. Zugleich hängt sie am Aufstieg der Fotografie als Kunst durch Ansel Adams und Edward Weston [Q1]. Die Vermessungsfotografen wurden nachträglich in den Kanon aufgenommen, als Vorläufer der „straight“-Ästhetik mit kristallklaren, detailreichen, durchgehend scharfen Abzügen [Q1].",
+   "exercise_md": "Fotografiere einen Canyon, eine Abbruchkante oder ein Flussdelta einmal als „Vermessungsbild“: frontal, ruhiger Standpunkt, alles scharf, keine Lichtdramatik, Gesteinsschichten lesbar. Frag dich danach: Was erfährt man über das Gelände, was über deine Gefühle – und welches der beiden Ziele hat das Bild?",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/research/tate-papers/21/the-purloined-landscape-photography-and-power-in-the-american-west",
+     "title": "Tate Papers Nr. 21: The Purloined Landscape: Photography and Power in the American West",
+     "excerpt": "Indeed, the Western landscape is bound up with the rise of photography as a scientific and military technology, through the work made by, among others, Timothy O’Sullivan, Carleton Watkins and Alexander Gardner during the government surveys conducted after the American Civil War, and with the rise of photography as an art form through the influence of, to name only the most prominent practitioners, Ansel Adams and Edward Weston. The survey photographers were retrospectively incorporated into the canon of American landscape photography as precursors of the so-called ‘straight’ aesthetic of crystalline, thickly detailed, deep focus prints typical of the Adams-Weston school during the 1920s and 1930s"
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i434d492b32",
+     "note": "Meine Einschätzung: Gefaltete Gesteinsschichten nüchtern und durchgehend scharf, als Tafel im Expeditionsalbum – Gelände wird beschrieben, nicht inszeniert."
+    },
+    {
+     "id": "ia493679f1c",
+     "note": "Meine Einschätzung: Der Canyon frontal und klar gegliedert; der Blick dient der Lesbarkeit des Geländes."
+    }
+   ]
+  },
+  {
+   "key": "romantik",
+   "name": "Romantik (Romanticism)",
+   "dimension": "attitude",
+   "summary_md": "Die Tate beschreibt die Romantik als Bewegung in Kunst und Literatur mit neuem Interesse an menschlicher Psyche, am Ausdruck persönlicher Gefühle und an der Natur [Q1]. Ihr Grundzug war eine neue Emotionalität gegenüber klassischer Zurückhaltung; in Großbritannien zeigte sie sich in neuen Antworten auf die Natur bei Constable und Turner [Q2]. In der Fotografie stellte sich 1975 die Ausstellung „New Topographics“ mit „stilistischer Anonymität“ und einem betont unemotionalen Landschaftsblick gegen den gefühlsbetonteren Ansatz von Ansel Adams und seinen Zeitgenossen [Q3].",
+   "exercise_md": "Wähle einen Ort und mach zwei Bilder: ein romantisches (Gefühl zuerst: Licht, Wetter, Erhebung) und ein nüchternes (gleicher Ort, flaches Licht, Augenhöhe). Schreib zu jedem Bild einen Satz, was es über dich und was es über den Ort sagt.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/r/romanticism",
+     "title": "Tate, Art Term „Romanticism“",
+     "excerpt": "Term in use by the early nineteenth century to describe the movement in art and literature distinguished by a new interest in human psychology, expression of personal feeling and interest in the natural world"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/r/romanticism",
+     "title": "Tate, Art Term „Romanticism“",
+     "excerpt": "The overall characteristic was a new emotionalism in contrast to the prevailing ideas of classical restraint. In British art, Romanticism was embraced in new responses to nature in the art of John Constable and J.M.W. Turner."
+    },
+    {
+     "url": "https://www.phaidon.com/blogs/artspace/who-killed-romanticism-in-photography",
+     "title": "Phaidon/Artspace: Who Killed Romanticism in Photography? Stephen Shore and the Rise of the New Topographics",
+     "excerpt": "the landmark 1975 George Eastman Museum exhibition “New Topographics: Photographs of a Man-Altered Landscape” elevated banal, overlooked, and unnatural vistas to the realm of fine art—and not everyone was happy about it. The 10 artists featured in the show were united by what the curator William Jenkins termed “stylistic anonymity,” a decidedly unemotional take on landscape photography that flew in the face of the more emotional approach established by Ansel Adams and his contemporaries."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ia48ec70226",
+     "note": "Meine Einschätzung: Leuchtende Gipfelkette über dunklem Vorgebirge, Morgenlicht als Ereignis – Natur als Gefühlserlebnis, nicht als Bestandsaufnahme."
+    }
+   ]
+  },
+  {
+   "key": "shanshui",
+   "name": "Shanshui – Berge und Wasser (山水)",
+   "dimension": "layers",
+   "summary_md": "Der Begriff shanshui, wörtlich „Berge Wasser“, bezeichnete im 9. Jahrhundert Bilder, die Landschaftselemente – Berge, Gewässer, Bäume, Felsen – zum Gegenstand hatten [Q1]. Yang Yongliang überträgt diese Tradition in die Fotografie: Er hält sich an die formalen Regeln für Menschen zwischen Bergen, Wasser und gewundenen Pfaden und zeigt im Sinn des shanshui, was er über die Natur denkt, nicht was er gesehen hat [Q2]. Lang Jingshan machte die fantastischen Welten der Literatenmalerei mit der Kamera „wirklich“ [Q3].",
+   "exercise_md": "In einer chinesischen Berglandschaft (Huangshan, Guilin, Zhangjiajie): Baue ein Hochformat aus drei Zonen – Vordergrund mit Baum oder Fels, Mitte aus Nebel oder Wasser, oben der Gipfel. Prüfe, ob das Bild eher zeigt, was du gesehen hast, oder was du über den Ort denkst.",
+   "sources": [
+    {
+     "url": "https://tang.princeton.edu/node/557",
+     "title": "Princeton University, Tang Center for East Asian Art: Questions on the Concept of Landscape in Chinese Art (Workshop 2019)",
+     "excerpt": "In the mid-ninth century, when Zhang Yanyuan wrote Lidai minghua ji ( Record of Famous Paintings of Successive Periods ), the term shanshui , literally translated “mountains waters,” was used to refer to paintings that took landscape elements — mountains, waters, trees, and rocks — as their object of depiction."
+    },
+    {
+     "url": "https://www.e-flux.com/announcements/219945/salt-14-yang-yongliang",
+     "title": "e-flux: SALT 14: Yang Yongliang (Utah Museum of Fine Arts)",
+     "excerpt": "Yang Yongliang presents the ancient tradition of Chinese landscape painting (shanshui) through a twenty-first-century photographic lens. Yang adheres to traditional formal requirements for depicting humans among mountains, water, and meandering pathways and, in keeping with shanshui concepts, creates images of what he thinks about nature, not what he has seen."
+    },
+    {
+     "url": "https://mplus.org.hk/en/collection/objects/majestic-solitude-2018244/",
+     "title": "M+ Hongkong: Lang Jingshan, Majestic Solitude (1934)",
+     "excerpt": "He made the fantastical worlds of Chinese literati landscape painting ‘real’ through his camera lens."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ic704e8732a",
+     "note": "Meine Einschätzung: Ein Querrollen-Panorama aus Bergketten mit Siegeln und Text – die Form der Malerei, gebaut aus Stadtfotos."
+    },
+    {
+     "id": "if25300b732",
+     "note": "Meine Einschätzung: Hochformatige Berg-Wasser-Komposition, deren „Felsen“ aus Hochhäusern bestehen – shanshui als gedachte, nicht gesehene Landschaft."
+    },
+    {
+     "id": "i626d6410db",
+     "note": "Meine Einschätzung: Kahle Bäume vor nebligen Bergen, viel freier Grund – Langs Fotografie im Duktus der Tuschmalerei."
+    }
+   ]
+  },
+  {
+   "key": "drei-entfernungen",
+   "name": "Drei Entfernungen (san yuan / san-en, Guo Xi)",
+   "dimension": "viewpoint",
+   "summary_md": "Guo Xi, Akademiemaler der Nördlichen Song, definierte drei Arten von Entfernung für Berge in der Tuschmalerei, gewonnen aus eigener Naturbeobachtung [Q1]. Die „hohe Entfernung“ blickt von unten zum Berg hinauf, die „tiefe Entfernung“ schaut von vorn an einem Berg vorbei auf die Berge dahinter, die „flache Entfernung“ blickt von einem Berg auf niedrige Nachbarhügel [Q1]. In Lang Jingshans Fotomontage stehen diese Prinzipien samt wechselnder Perspektive: der Gipfel in der hohen Entfernung, eine Wolkenzone als leerer Raum, Bäume im Vordergrund als Halt für den Blick [Q2].",
+   "exercise_md": "Fotografiere ein Bergmassiv in allen drei Entfernungen: von unten hinauf (hoch), von einem Vorberg in die Staffeln dahinter (tief) und von einer Anhöhe über flache Hügel (flach). Lege die drei Bilder nebeneinander und notiere, welche Stimmung jede Entfernung erzeugt.",
+   "sources": [
+    {
+     "url": "https://projects.mcah.columbia.edu/jaanus/record/sanen",
+     "title": "JAANUS – Dictionary of Japanese Architectural and Art Historical Terminology (Columbia University): san-en 三遠",
+     "excerpt": "The three types of distances desired for mountains in Chinese ink painting as defined by the famous Academy landscapist of the Northern Song, Guo Xi (Jp: Kaku Ki 郭煕, after 1000-ca. 1090) in The Lofty Message of Forests and Streams (Ch: Linquan gaozhi ; Jp: Rinsen kōchi 林泉高致). They are based on his own observations of nature: 1) kō-en 高遠 (Ch: gaoyuan; high distance), looking up at a mountain from below; 2) shin-en 深遠 (Ch: shenyuan; deep distance), looking out from the front of a mountain and to see other mountains behind it; and 3) hei-en 平遠 (Ch: pingyuan; flat or level distance), looking out from a mountain to neighboring low-lying hills."
+    },
+    {
+     "url": "https://mplus.org.hk/en/collection/objects/majestic-solitude-2018244/",
+     "title": "M+ Hongkong: Lang Jingshan, Majestic Solitude (1934)",
+     "excerpt": "All the compositional principles of traditional hanging scrolls — most notably the shifting perspective — are present here: Shixin Peak occupies the high distance, a midsection of clouds provides empty space, and brushy trees with detailed textures in the foreground give the viewer a foothold in the landscape."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ie64274fb90",
+     "note": "Meine Einschätzung: Gipfel oben, leere Nebelzone in der Mitte, Boot vorn – die Ordnung der Hängerolle mit hoher Entfernung im oberen Bilddrittel."
+    },
+    {
+     "id": "i214fed35b8",
+     "note": "Meine Einschätzung: Der Blick geht an einer nahen Felswand vorbei auf gestaffelte Berge dahinter – am ehesten Guo Xis „tiefe Entfernung“."
+    }
+   ]
+  },
+  {
+   "key": "yohaku-leerraum",
+   "name": "Leerer Raum (yohaku 余白)",
+   "dimension": "omitted",
+   "summary_md": "Yohaku ist der leere, unbemalte Raum, ein Kennzeichen chinesischer und japanischer Malerei [Q1]. Er ist nicht bloß ausgelassene Fläche: Er ist wichtig für die Komposition, trägt dasselbe „Gewicht“ wie die bemalten Teile und dient oft dazu, die Motive abzusetzen oder auszubalancieren [Q1]. Ma Yuan und Xia Gui glichen ihre „Eine-Ecke-Kompositionen“ mit reichlich leerem Raum aus [Q2].",
+   "exercise_md": "Bei Nebel, Schnee oder ruhigem Wasser: Setze das Motiv in eine Ecke und lass mindestens zwei Drittel des Bildes leer. Verschiebe dann das Motiv in kleinen Schritten – an welcher Stelle hält die Leere das Motiv im Gleichgewicht, statt bloß leer zu wirken?",
+   "sources": [
+    {
+     "url": "https://projects.mcah.columbia.edu/jaanus/record/yohaku",
+     "title": "JAANUS (Columbia University): yohaku 余白",
+     "excerpt": "A blank, unpainted space. It is considered one of the identifying characteristics of both Chinese and Japanese painting. Blank space is not simply unpainted areas; it is important to the composition of a painting and carries the same \"weight\" as the painted areas, often serving to set off or balance the painted motifs."
+    },
+    {
+     "url": "https://projects.mcah.columbia.edu/jaanus/record/yohaku",
+     "title": "JAANUS (Columbia University): yohaku 余白",
+     "excerpt": "Later in the Southern Song dynasty, artists like Ma Yuan (Jp: Ba En 馬遠, act. late 12th-early 13th century) and Xia Gui (Jp: Ka kei 夏珪, act. 1194-1224) balanced their one-corner compositions with copious amounts of blank space."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ie8e1600144",
+     "note": "Meine Einschätzung: Das Torii steht klein in einer großen, fast tonlosen Fläche aus Himmel und weichem Wasser – die Leere trägt das Bild mit."
+    },
+    {
+     "id": "i4ed4c77af4",
+     "note": "Meine Einschätzung: Eine einzige Spur in fast weißem Schnee; ohne die leere Fläche wäre die Linie bedeutungslos."
+    },
+    {
+     "id": "ie64274fb90",
+     "note": "Meine Einschätzung: Die helle Nebelzone zwischen Gipfel und Boot ist der größte Bildteil und verbindet beide."
+    }
+   ]
+  },
+  {
+   "key": "sabi",
+   "name": "Sabi (さび) – Schönheit des Gealterten",
+   "dimension": "surface",
+   "summary_md": "Sabi ist eine Schönheitsvorstellung, besonders wichtig für Teezeremonie und Haiku: die Schönheit von Materialien oder Räumen, die mit der Zeit abgenutzt, verwelkt und gealtert sind [Q1]. Als mittelalterliches Ideal umfasste sabi Ergebung, Alter, Verfall, Einsamkeit, Abstand und Ruhe; das Wort hängt mit „abnehmen“ und „einsam“ zusammen und klingt wie das Wort für Rost [Q2]. Im Garten bezeichnet sabi auch die Farbe, die Steine durch Verwitterung annehmen [Q3].",
+   "exercise_md": "Suche an einem Tempel, in einem Bergdorf oder an der Küste Oberflächen, die die Zeit gezeichnet hat – Rost, Flechten, verwittertes Holz, abgewetzte Stufen. Fotografiere sie so, dass nicht der Verfall, sondern Ruhe und Würde des Gealterten spürbar werden.",
+   "sources": [
+    {
+     "url": "https://projects.mcah.columbia.edu/jaanus/record/sabi",
+     "title": "JAANUS (Columbia University): sabi さび",
+     "excerpt": "An idea of beauty particularly important in the tea ceremony and haiku 俳句 poetry. The beauty of materials or spaces which have been worn down over time to become withered and aged."
+    },
+    {
+     "url": "https://projects.mcah.columbia.edu/jaanus/record/sabi",
+     "title": "JAANUS (Columbia University): sabi さび",
+     "excerpt": "Initially a medieval aesthetic ideal, sabi included aspects of resignation, age, decay, loneliness, detachment, and tranquility. The noun sabi derives from the verb sabu 寂ぶ (to wane) and the adjective sabishii 寂しい (lonely), and also sounds the same as the noun sabi 錆び meaning rust or an aged quality."
+    },
+    {
+     "url": "https://projects.mcah.columbia.edu/jaanus/record/sabi",
+     "title": "JAANUS (Columbia University): sabi さび",
+     "excerpt": "The color acquired by rocks in a garden which have been weathered and corroded over time."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "iae4c16821e",
+     "note": "Meine Einschätzung: Schwere, verwitterte Steine mit rauer, fleckiger Oberfläche – Alter und Ruhe werden zur Bildfläche."
+    },
+    {
+     "id": "ifdd25d4243",
+     "note": "Meine Einschätzung: Vertrockneter, verschlungener Seetang – das Verwelkte als genau gesehene Form."
+    }
+   ]
+  },
+  {
+   "key": "naturalistische-fotografie",
+   "name": "Naturalistische Fotografie und selektive Schärfe (Emerson)",
+   "dimension": "focus",
+   "summary_md": "Emersons Buch „Naturalistic Photography“ vertrat einen puristischen, vom Naturalismus in der Kunst abgeleiteten Ansatz und griff die künstliche Ästhetik der Kunstfotografie an [Q1]. Sein Mittel war die „selektive Schärfe“: Das Hauptmotiv solle genau so scharf sein, wie das Auge es sieht, und nicht schärfer, alles andere gedämpft – das Heu auf dem Wagen wirkt dadurch fast wie impressionistische Malerei [Q2]. Naturalistische Fotografie wollte Bilder schaffen, die dem Sehen des Auges entsprechen [Q3]. „Where Winds the Dike“ hielt Emerson für eines der gelungensten Beispiele seiner Schärfentheorie – das ganze Bild sei absichtlich unscharf [Q4].",
+   "exercise_md": "Wähle eine ländliche Szene mit klarem Hauptmotiv (Bauer, Boot, Baum). Mach drei Fassungen: alles scharf, nur das Hauptmotiv scharf mit weich abfallender Umgebung, alles leicht unscharf. Welche Fassung entspricht am ehesten dem, was dein Auge in dem Moment tatsächlich gesehen hat?",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O190906/",
+     "title": "Victoria and Albert Museum: Peter Henry Emerson, In the Haysel (1888/1890)",
+     "excerpt": "Naturalistic Photography examined his purist approach to photography, derived from his fascination with Naturalism in art, and attacked the prevailing artificial aesthetic in art photography."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O190906/",
+     "title": "Victoria and Albert Museum: Peter Henry Emerson, In the Haysel (1888/1890)",
+     "excerpt": "According to Emerson, to record the effects of nature, photographers should use the ‘selective focus’ method. He explains, ‘The principal object in the picture must be … just as sharp as the eye sees it, and no sharper; but everything else … must be subdued’. The result, apparent in his treatment of the wispy hay on the cart, might be considered a photographic equivalent of an Impressionist painting."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313613/",
+     "title": "Victoria and Albert Museum: Peter Henry Emerson, Idyls of the Norfolk Broads (1887)",
+     "excerpt": "Emerson was a proponent of naturalistic photography, which sought to create photographs that replicated how the eye sees and was dismissive of any potential individual sensibilities of the photographer."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313847/",
+     "title": "Victoria and Albert Museum: Peter Henry Emerson, Where Winds the Dike (1888/1890)",
+     "excerpt": "Emerson declares that, out of the 10 plates selected, the image Where Winds the Dike is the second most successful in portraying his theories on focussing. ‘The whole picture is [deliberately] out of focus’, Emerson writes. He also maintains that no lens yet made could give this effect, perhaps emphasizing his artistic eye."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "if5b21ce1a1",
+     "note": "Meine Einschätzung: Der Heuwagen trägt die Schärfe, Gras und Ferne bleiben weich – die selektive Schärfe, von der die V&A-Quelle zu genau diesem Blatt spricht."
+    },
+    {
+     "id": "i67b4a6ad82",
+     "note": "Meine Einschätzung: Steg, Graben und Bäume sind durchgehend weich – das Blatt, das Emerson selbst als absichtlich unscharf bezeichnete."
+    }
+   ]
+  },
+  {
+   "key": "piktorialismus",
+   "name": "Piktorialismus (Pictorialism)",
+   "dimension": "surface",
+   "summary_md": "Der Piktorialismus bevorzugte malerische, von Hand bearbeitete, weichgezeichnete Abzüge, oft auf strukturiertem Papier [Q1]. Die 1902 von Alfred Stieglitz in New York gegründete Photo-Secession um Coburn, Käsebier, Steichen und White legte großen Wert auf feine Abzüge und nutzte Techniken, die Malerei und Pastell nachahmten [Q2]. Laura Gilpin begann unter Clarence H. White piktorialistisch – Schönheit und künstlerische Gestaltung vor dem Dokumentarischen – und fand später zu einem direkteren Ansatz [Q3]. Auch Ansel Adams’ frühe Landschaften waren laut Sotheby’s piktorialistisch: weich, auf Papieren mit geringem Tonumfang, ländliche Motive fast ohne Menschen [Q4].",
+   "exercise_md": "Fotografiere eine Morgenstimmung am Wasser zweimal: einmal so klar und tonreich wie möglich, einmal bewusst „piktorialistisch“ – weich, enger Tonumfang, malerisch. Druck oder betrachte beide klein nebeneinander und notiere, was jede Fassung verspricht: Tatsache oder Stimmung?",
+   "sources": [
+    {
+     "url": "https://brucemuseum.org/exhibitions/photographic-revolutionaries-of-group-f64-works-from-the-bank-of-america-collection/",
+     "title": "Bruce Museum: Photographic Revolutionaries of Group f/64 (Ausstellung 2023/24)",
+     "excerpt": "The group was established as a challenge to Pictorialism, a popular movement on the West Coast, which favored painterly, hand-manipulated, soft-focus prints, often made on textured papers."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/p/photo-secession",
+     "title": "Tate, Art Term „The Photo-Secession“",
+     "excerpt": "Founded by Alfred Stieglitz in New York in 1902, the name was invented by him as a way of affiliating the photographers with the modernist secession movements in Europe. The other members were Alvin Langdon Coburn, Gertrude Käsebier, Edward Steichen and Clarence H. White, who all placed great importance on fine photographic printing and used techniques to emulate paint and pastel."
+    },
+    {
+     "url": "https://www.cartermuseum.org/artists/laura-gilpin",
+     "title": "Amon Carter Museum of American Art: Laura Gilpin",
+     "excerpt": "Study with Clarence H. White led her to initially embrace a pictorialist style that emphasized beauty and artistic creation over photography's documentary qualities. But over time she developed a more straightforward photographic approach"
+    },
+    {
+     "url": "https://www.sothebys.com/en/articles/the-comprehensive-collectors-guide-to-ansel-adamss-photographs",
+     "title": "Sotheby’s: The Comprehensive Collector’s Guide to Ansel Adams’s Photographs",
+     "excerpt": "These early pictures are Pictorialist in spirit, with soft focus, printed on papers that only allow for a shallow range of tones, and show bucolic, outdoor subjects that are largely free of human figures or man-made architecture."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i67b4a6ad82",
+     "note": "Meine Einschätzung: Emerson war Naturalist und kein Piktorialist im engeren Sinn – aber das weiche, malerische Blatt zeigt die Bildsprache, gegen die Gruppe f/64 später antrat."
+    },
+    {
+     "id": "i8631eb79d9",
+     "note": "Meine Einschätzung: Ineinander verschlungene Stämme in warmem, weichem Ton – eine Tonigkeit, die noch an die malerischen Abzüge erinnert."
+    }
+   ]
+  },
+  {
+   "key": "straight-photography",
+   "name": "Straight Photography (direkte Fotografie)",
+   "dimension": "focus",
+   "summary_md": "Straight Photography betont die Klarheit des Objektivs; der fertige Abzug soll nicht so aussehen, als sei er in Kamera oder Dunkelkammer manipuliert worden – Ansel Adams verfolgte diesen Weg [Q1]. Die Gruppe f/64 widmete sich ausdrücklich der „direkten“, unmanipulierten Fotografie [Q2]. Die Tate Papers beschreiben die „straight“-Ästhetik der Adams-Weston-Schule als kristallklare, detailreiche, durchgehend scharfe Abzüge [Q3].",
+   "exercise_md": "Mach eine Serie von fünf Landschaftsbildern ohne jede nachträgliche lokale Bearbeitung (kein Abwedeln, kein Himmel-Verlauf, keine Retusche) – nur Standpunkt, Licht, Belichtung. Was musst du vor Ort anders entscheiden, wenn die Bearbeitung als Rettung wegfällt?",
+   "sources": [
+    {
+     "url": "https://www.anseladams.com/ansel-adams-bio/",
+     "title": "The Ansel Adams Gallery: Ansel Adams – Biografie",
+     "excerpt": "Adams began to pursue “straight photography,” in which the clarity of the lens was emphasized, and the final print gave no appearance of being manipulated in the camera or the darkroom."
+    },
+    {
+     "url": "https://sam.nmartmuseum.org/people/735/willard-van-dyke",
+     "title": "New Mexico Museum of Art: Willard Van Dyke",
+     "excerpt": "Van Dyke was a co-founder of the Group f/64, a group of photographers dedicated to \"straight\", unmanipulated photography, which began in his Oakland studio in 1932."
+    },
+    {
+     "url": "https://www.tate.org.uk/research/tate-papers/21/the-purloined-landscape-photography-and-power-in-the-american-west",
+     "title": "Tate Papers Nr. 21: The Purloined Landscape",
+     "excerpt": "the so-called ‘straight’ aesthetic of crystalline, thickly detailed, deep focus prints typical of the Adams-Weston school during the 1920s and 1930s"
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i69d4d31822",
+     "note": "Meine Einschätzung: Die gemaserte Wurzel in voller Schärfe und feiner Zeichnung – Klarheit des Objektivs als eigentliche Aussage."
+    },
+    {
+     "id": "ieef5d23125",
+     "note": "Meine Einschätzung: Die Granitwand gestochen scharf, Schnee und Fels klar getrennt – kein Weichzeichner, keine sichtbare Handarbeit im Bild."
+    }
+   ]
+  },
+  {
+   "key": "gruppe-f64",
+   "name": "Gruppe f/64 (Group f/64)",
+   "dimension": "focus",
+   "summary_md": "Die Gruppe benannte sich nach der Blende der Großformatkamera, die maximale Schärfentiefe liefert – vom nächsten Vordergrund bis zum fernen Hintergrund scharf, mit klaren, grafischen Kompositionen [Q1]. Statt Vergrößerungen bevorzugte sie Kontaktabzüge auf glänzendem Papier, die reiche Klarheit, feine Zeichnung und maximalen Tonumfang ergaben [Q2]. 1932 schlossen sich Edward und Brett Weston, Ansel Adams, Imogen Cunningham und weitere Fotografen der Bay Area als gleichgesinnte Realisten zusammen [Q3].",
+   "exercise_md": "Such dir eine Nahszene mit Tiefe (Treibholz am Strand, Felsplatten, Wurzeln) und arbeite mit Stativ und kleinster sinnvoller Blende, bis vom Vordergrund bis zum Horizont alles scharf ist. Prüfe in 100 %: Wo verlierst du Zeichnung – und lohnt sich der Kompromiss mit Beugung?",
+   "sources": [
+    {
+     "url": "https://brucemuseum.org/exhibitions/photographic-revolutionaries-of-group-f64-works-from-the-bank-of-america-collection/",
+     "title": "Bruce Museum: Photographic Revolutionaries of Group f/64 (Ausstellung 2023/24)",
+     "excerpt": "This small association of innovators named their organization Group ƒ /64 after the large-format camera aperture, which produces the maximum depth of field so that everything from the immediate foreground to the distant background is in sharp focus, yielding crisp, graphic compositions."
+    },
+    {
+     "url": "https://brucemuseum.org/exhibitions/photographic-revolutionaries-of-group-f64-works-from-the-bank-of-america-collection/",
+     "title": "Bruce Museum: Photographic Revolutionaries of Group f/64 (Ausstellung 2023/24)",
+     "excerpt": "Rather than enlargements, the group preferred contact prints, made on a sheet of glossy printing paper in direct contact with the negative. This technique gave the photographs rich clarity, subtle definition and maximum tonal range."
+    },
+    {
+     "url": "https://ccp.arizona.edu/artists/edward-weston",
+     "title": "Center for Creative Photography, University of Arizona: Edward Weston",
+     "excerpt": "In 1932, Weston, his son Brett, Ansel Adams, Imogen Cunningham, and a handful of other Bay Area photographers formed a group of like-minded realists who called themselves Group f/64, in honor of an aperture setting on a lens one might stop down to in order to attain the sharpest focus in a photograph."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ifdd25d4243",
+     "note": "Meine Einschätzung: Jede Windung des getrockneten Seetangs ist gleich scharf gezeichnet – die grafische Klarheit, für die der Name f/64 steht."
+    },
+    {
+     "id": "i5c8ed5e6c5",
+     "note": "Meine Einschätzung: Dünenkanten und Sandrippel sind bis in die Ferne scharf und tonreich – Form durch Schärfe und Tonumfang."
+    }
+   ]
+  },
+  {
+   "key": "zonensystem",
+   "name": "Zonensystem (Zone System)",
+   "dimension": "light",
+   "summary_md": "Adams und Fred Archer entwickelten das Zonensystem als Methode, einen gewünschten Abzug zu erreichen – aus dem Verständnis, dass der Tonumfang eines Bildes das Ergebnis von Entscheidungen bei Belichtung, Negativentwicklung und Abzug ist [Q1]. Das V&A beschreibt es als Werteskala des Tonumfangs, die hilft, den fertigen Abzug schon bei der Aufnahme durch Beurteilen des Lichts vorauszusehen [Q2]. Laut Adams-Galerie dient es, wie Abwedeln und Nachbelichten, dazu, die Tonwerte zu „manipulieren“ – zu gestalten statt nur aufzuzeichnen [Q3].",
+   "exercise_md": "Miss vor einer kontrastreichen Szene (Schnee und dunkler Wald, Schlucht im Gegenlicht) mit Spotmessung drei Stellen: wichtigster Schatten, Mittelton, wichtigstes Licht. Lege fest, auf welche Zone der Schatten fallen soll, belichte danach und prüfe am Histogramm und später im Abzug, ob deine Vorstellung aufgegangen ist.",
+   "sources": [
+    {
+     "url": "https://collections.okeeffemuseum.org/actor/907",
+     "title": "Georgia O’Keeffe Museum: Ansel Adams",
+     "excerpt": "He and Fred Archer developed a system of image-making called the Zone System, a method of achieving a desired final print through a technical understanding of how the tonal range of an image is the result of choices made in exposure, negative development, and printing."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O102536/grand-teton-and-snake-river-photograph-adams-ansel/",
+     "title": "Victoria and Albert Museum: Ansel Adams, Grand Teton and Snake River, Wyoming (1942)",
+     "excerpt": "He achieved this with the 'zone system', a value scale of tonal range that he devised to help pre-visualise the final print by judging the quality of light when taking a photograph."
+    },
+    {
+     "url": "https://www.anseladams.com/ansel-adams-bio/",
+     "title": "The Ansel Adams Gallery: Ansel Adams – Biografie",
+     "excerpt": "Techniques such as “burning” and “dodging”, as well as the Zone System, a scientific system developed by Adams, is used specifically to “manipulate” the tonality and give the artist the ability to create as opposed to record."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "id61c3f109c",
+     "note": "Meine Einschätzung: Fast schwarzer Himmel, hell leuchtende Kreuze und Wolkenband – ein extrem gestalteter Tonumfang, kein neutrales Aufzeichnen."
+    },
+    {
+     "id": "ieef5d23125",
+     "note": "Meine Einschätzung: Tiefschwarzer Himmel gegen Granit und Schnee – die Tonwerte sind für den Abzug geplant, nicht für die Wirklichkeit."
+    }
+   ]
+  },
+  {
+   "key": "visualisierung",
+   "name": "Visualisierung (visualization / pre-visualization)",
+   "dimension": "attitude",
+   "summary_md": "Für Ansel Adams heißt visualisieren, das Foto nicht nur vor dem inneren Auge zu sehen, sondern vor allem zu fühlen: die Eigenschaften, die man im fertigen Abzug erreichen will [Q1]. Der Erfolg mit „Monolith, the Face of Half Dome“ führte zu seiner Haltung, das Bild an Ort und Stelle zu visualisieren, bevor der Verschluss ausgelöst wird [Q2]. Wynn Bullock hielt dagegen: Seine Bilder seien nie vorvisualisiert, sie müssten aus dem Kontakt mit den Dingen am Ort und im Moment entstehen [Q3]. Michael Kenna sieht im Vorvisualisieren den Hang, vorherzusagen und zu kontrollieren – und damit an die eigenen begrenzten ästhetischen Vorstellungen gebunden zu bleiben [Q4].",
+   "exercise_md": "Schreib an einem Fotospot vor dem ersten Bild in zwei Sätzen auf, wie der fertige Abzug aussehen und sich anfühlen soll (Tonwerte, Stimmung). Mach dieses Bild – und danach 15 Minuten lang nur Bilder, die du nicht vorher geplant hast. Vergleiche abends: Welche Methode hat das stärkere Bild gebracht?",
+   "sources": [
+    {
+     "url": "https://www.sfmoma.org/artist/Ansel_Adams/",
+     "title": "SFMOMA: Ansel Adams (Zitat)",
+     "excerpt": "When you visualize a photograph, it is not only a matter of seeing it in the mind’s eye, but it’s also, and primarily, a matter of feeling it: feeling the various qualities that you wish to obtain in the final print."
+    },
+    {
+     "url": "https://www.anseladams.com/products/explore-monolith-the-face-of-half-dome",
+     "title": "The Ansel Adams Gallery: Explore Monolith, the Face of Half Dome",
+     "excerpt": "The day would be paramount for his career as his success with Half Dome that afternoon led to his philosophy about visualizing the photograph in situ before snapping the shutter."
+    },
+    {
+     "url": "http://www.wynnbullockphotography.com/quotes.html",
+     "title": "Wynn Bullock Photography: Zitate von Wynn Bullock",
+     "excerpt": "My pictures are never pre-visualized or planned. I feel strongly that pictures must come from contact with things at the time and place of taking."
+    },
+    {
+     "url": "https://michaelkenna.com/ivlens.php",
+     "title": "Michael Kenna im Interview mit LensWork (michaelkenna.com)",
+     "excerpt": "There is a tendency in human beings to pre-visualize and try to predict and control what is happening. But, I think we are bound by our own limited sense of aesthetics and intellect – and our abilities, which perhaps are not so great."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ieef5d23125",
+     "note": "Meine Einschätzung: Das Bild, an dem Adams laut Quelle seine Visualisierung festmachte – der dunkle Himmel ist eine vorher gefühlte Entscheidung, keine Wiedergabe."
+    },
+    {
+     "id": "i297daea532",
+     "note": "Meine Einschätzung: Caponigro beschreibt, die Hirsche vor den Bäumen visualisiert und die Szene dann choreografiert zu haben – Visualisierung auch jenseits der Tonwerte."
+    }
+   ]
+  },
+  {
+   "key": "aequivalent",
+   "name": "Äquivalent (Equivalent / equivalence)",
+   "dimension": "attitude",
+   "summary_md": "Stieglitz begann 1922, Wolken zu fotografieren, kippte die Kamera zum Himmel und machte im folgenden Jahrzehnt rund 350 fast abstrakte Wolkenstudien, die er „Equivalents“ nannte [Q1]. Er hielt daran fest, dass sie nicht nur wechselnde Formen festhalten, sondern reine Empfindung ausdrücken, und schrieb ihnen die Ausdruckskraft von Musik zu [Q2]. Minor White untersuchte die „Äquivalenz“, bei der ein Bild für eine Idee oder einen Gefühlszustand jenseits des Motivs steht [Q3]. Für White ist Äquivalenz eine Funktion, ein Erleben, kein Ding: Jedes Foto kann zum Äquivalent werden, wenn der Betrachter darin etwas in sich selbst gespiegelt findet [Q4].",
+   "exercise_md": "Fotografiere 20 Minuten lang nur Himmel, Wasseroberfläche oder Felsstruktur – ohne Horizont und ohne erkennbaren Ort. Wähle danach das eine Bild, das einer Stimmung des Tages entspricht, und schreib das Gefühl dazu, nicht das Motiv.",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/66625",
+     "title": "Art Institute of Chicago: Alfred Stieglitz, Equivalent (Werktext)",
+     "excerpt": "The pho-tographer, Alfred Stieglitz, began to photograph clouds in 1922, tilting his camera toward the sky to produce dizzying, nearly abstract images of their fleeting configurations. Over the next decade Stieglitz produced some 350 cloud studies, which he called Equivalents."
+    },
+    {
+     "url": "https://www.artic.edu/artworks/66625",
+     "title": "Art Institute of Chicago: Alfred Stieglitz, Equivalent (Werktext)",
+     "excerpt": "He maintained that these cloud photographs did not just fix ever-changing forms but also expressed pure emotion, even attributing to them the evocative power of music."
+    },
+    {
+     "url": "https://www.getty.edu/art/exhibitions/minor_white/",
+     "title": "J. Paul Getty Museum: Minor White – Manifestations of the Spirit (Ausstellung 2014)",
+     "excerpt": "There, he investigated the critical aspect called \"equivalency,\" where an image serves as an idea or emotional state beyond the subject pictured."
+    },
+    {
+     "url": "http://www.jnevins.com/whitereading.htm",
+     "title": "Minor White: Equivalence – The Perennial Trend (1963), Text auf jnevins.com",
+     "excerpt": "Equivalence is a function, an experience, not a thing. Any photograph, regardless of source, might function as an Equivalent to someone, sometime, someplace. If the individual viewer realizes that for him what he sees in a picture corresponds to something within himself—that is, the photograph mirrors something in himself—then his experience is some degree of Equivalence."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ie8071ad33a",
+     "note": "Meine Einschätzung: Ein heller Wolkenfleck in dunklem Grund, ohne Horizont und Ort – das Bild verweist auf eine Empfindung, nicht auf Wetter."
+    },
+    {
+     "id": "i4834cf6bd6",
+     "note": "Meine Einschätzung: Ein Wolkenstreif über dunklem Meer – Whites Fortführung der Stieglitz-Idee in der Landschaft."
+    }
+   ]
+  },
+  {
+   "key": "neues-sehen",
+   "name": "Neues Sehen (New Vision)",
+   "dimension": "surface",
+   "summary_md": "Die 1920er- und 1930er-Jahre waren eine Zeit des Experimentierens: Fotogramme, Fotomontagen und Verbindungen von Fotografie und Grafik blühten auf [Q1]. Das Neue Sehen stand dem Bauhaus und besonders László Moholy-Nagy nahe; es wollte die Welt durch das Objektiv ansehen, die Kamera als Spiegel des Alltags und als Rahmen für Dokumentarisches wie Experimentelles nutzen [Q2]. Typische Mittel zeigt die Tate an Iwao Yamawaki: Strukturlinien moderner Architektur, starke Licht-Schatten-Wirkungen und Nahaufnahmen, die auf eine einzige Textur oder ein wiederholtes Motiv zoomen [Q3].",
+   "exercise_md": "Such dir in einer Stadt oder an einem Damm eine Struktur mit starkem Licht und Schatten. Fotografiere sie 15 Minuten lang nur in steiler Auf- oder Untersicht oder als Nahaufnahme einer Textur, bis das Motiv als Gegenstand verschwindet und nur noch Linie, Licht und Wiederholung bleiben.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/n/new-vision",
+     "title": "Tate, Art Term „The New Vision“",
+     "excerpt": "The 1920s and 1930s was an experiemental time for photography, where unconventional techniques such as abstract photograms, photomontages and combinations of photography and graphic design suddenly flourished."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/n/new-vision",
+     "title": "Tate, Art Term „The New Vision“",
+     "excerpt": "With close ties to the Bauhaus (in particular the work of Laszlo Moholy-Nagy ) The New Vision aimed to look at the world through the camera lens, using it as a mirror to the reality of the everyday, and also a framing device for the documentary and experimental."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/n/new-vision",
+     "title": "Tate, Art Term „The New Vision“",
+     "excerpt": "Iwao Yamawaki, a student at the Bauhaus School, incorporated the structural lines of modernist architecture, strong effects of light and shadow, and close-ups that zoom in on a single texture or repeated motif."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "idf25b70db0",
+     "note": "Meine Einschätzung: Harte Schatten, Sandrippel und Yuccas als grafisches Gefüge – Licht und Struktur werden zum eigentlichen Thema."
+    },
+    {
+     "id": "ifecf290e27",
+     "note": "Meine Einschätzung: Eine Wand, ein diagonaler Schatten, eine kleine Figur – starke Licht-Schatten-Geometrie im Geist des Neuen Sehens."
+    }
+   ]
+  },
+  {
+   "key": "dokumentarfotografie",
+   "name": "Dokumentarfotografie (documentary photography)",
+   "dimension": "attitude",
+   "summary_md": "Die Tate definiert Dokumentarfotografie als Stil, der Menschen, Orte, Dinge und Ereignisse direkt und genau wiedergibt und oft in der Reportage eingesetzt wird [Q1]. Fotografen begannen, die Kamera als Werkzeug sozialer Veränderung zu sehen, um Ungerechtigkeit und Ungleichheit sichtbar zu machen – doch soziale Dokumentarfotografie ist oft subjektiv, und nicht alle wollen damit die Gesellschaft verbessern [Q2]. Robert Frank fotografierte ab 1949 Geschichten, die seine Suche nach künstlerischer Freiheit spiegeln und die Ausdrucksmöglichkeiten des Mediums revolutionierten [Q3].",
+   "exercise_md": "Wähle auf einer Reise ein Thema, das mehr ist als Kulisse (Wasser, Arbeit, Tourismusfolgen) und mache zehn Bilder, die es genau und ohne Effekt zeigen. Prüfe danach jedes Bild: Ist es genaue Wiedergabe – oder schon deine Meinung? Beides ist erlaubt, aber du solltest wissen, welches.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/d/documentary-photography",
+     "title": "Tate, Art Term „Documentary photography“",
+     "excerpt": "Documentary photography is a style of photography that provides a straightforward and accurate representation of people, places, objects and events, and is often used in reportage"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/d/documentary-photography",
+     "title": "Tate, Art Term „Documentary photography“",
+     "excerpt": "Artists began to see the camera as a tool for social change, using it to shed light on injustice, inequality and the sidelined aspects of society. However, social documentary photography is often a subjective art and not all photographers in this category intend their images to aid the bettering of society."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/d/documentary-photography",
+     "title": "Tate, Art Term „Documentary photography“",
+     "excerpt": "From 1949 onwards, Robert Frank started to take pictures which reflected his search for artistic freedom, shooting stories which revolutionised the expressive potential of the medium."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i994aec4ef6",
+     "note": "Meine Einschätzung: Nahes, direktes Porträt ohne Inszenierung, sozial genau verortet – Dokumentarfotografie als Zeugnis."
+    },
+    {
+     "id": "ife74fb6ada",
+     "note": "Meine Einschätzung: Eine leere Straße zum Horizont – dokumentarisch im Material, aber subjektiv und offen in der Wirkung, wie die Tate es Frank zuschreibt."
+    }
+   ]
+  },
+  {
+   "key": "duesseldorfer-schule",
+   "name": "Düsseldorfer Schule (Düsseldorf School of Photography)",
+   "dimension": "distance",
+   "summary_md": "Als Düsseldorfer Schule gilt die Gruppe von Fotografen, die Mitte der 1970er-Jahre an der Kunstakademie Düsseldorf bei Bernd und Hilla Becher studierten [Q1]. Gursky, Höfer, Hütte, Ruff und Struth veränderten den Ansatz ihrer Lehrer durch neue technische Möglichkeiten und eine persönliche, zeitgenössische Sicht, behielten aber die dokumentarische Methode bei [Q2]. Gurskys „Rhein II“, das bei Christie’s in New York einen Auktionsrekord für eine Fotografie erzielte, ist fast vier Meter breit und besteht aus grauen und grünen Bändern; jede menschliche Ablenkung – Radfahrer, Spaziergänger, ein Fabrikgebäude – wurde digital entfernt [Q3].",
+   "exercise_md": "Fotografiere eine Stadtansicht oder einen Innenraum streng frontal, mit Stativ, bei flachem Licht, aus größerer Distanz und mit senkrechten Linien. Wiederhole das an drei weiteren Orten mit denselben Regeln und lege die vier Bilder nebeneinander: Was zeigt der gleichbleibende Blick, was ein einzelnes Bild nicht zeigt?",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/d/dusseldorf-school-photography",
+     "title": "Tate, Art Term „Dusseldorf School of Photography“",
+     "excerpt": "The Dusseldorf School of Photography refers to a group of photographers who studied at the Kunstakademie Dusseldorf in the mid 1970s under the influential photographers Bernd and Hilla Becher"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/d/dusseldorf-school-photography",
+     "title": "Tate, Art Term „Dusseldorf School of Photography“",
+     "excerpt": "Andreas Gursky, Candida Höfer, Axel Hütte, Thomas Ruff and Thomas Struth modified the approach of their teachers by applying new technical possibilities and a personal and contemporary vision, while retaining the documentary method their tutors propounded."
+    },
+    {
+     "url": "https://apollo-magazine.com/the-record-breaking-rise-of-the-dusseldorf-school/",
+     "title": "Apollo Magazine: The record-breaking rise of the Düsseldorf School",
+     "excerpt": "Andreas Gursky’s Rhein II sold for $4.3m at Christie’s in New York, and set a world record price for a photograph at auction that stands today. Measuring nearly 4m across, this austere, almost abstract photograph of the Rhine River is composed of bands of grey and green, with every fleck of human distraction – cyclists, walkers, a factory building – digitally removed."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ieb59cc085e",
+     "note": "Meine Einschätzung: Die Arbeit, mit der die Tate den Begriff bebildert – frontale Hochhäuser, ruhiges Licht, dokumentarische Distanz."
+    },
+    {
+     "id": "i99f20775bb",
+     "note": "Meine Einschätzung: Waagerechte Bänder aus Wiese, Fluss und Himmel – dokumentarische Methode, durch Bearbeitung zur fast abstrakten Ordnung gesteigert."
+    },
+    {
+     "id": "idb2e605d79",
+     "note": "Meine Einschätzung: Ein Bibliothekssaal zentral und aus erhöhter Distanz – Raum als Gegenstand, Menschen nur als Spuren."
+    }
+   ]
+  },
+  {
+   "key": "typologie",
+   "name": "Typologie (typology)",
+   "dimension": "sequence",
+   "summary_md": "Bernd und Hilla Becher zeigten ihre Arbeiten in Gruppen oder Typologien: mehrere Fotografien desselben Bautyps zusammengestellt [Q1]. Ihre Motive nannten sie „anonyme Skulpturen“ und veröffentlichten 1970 ein Fotobuch mit diesem Titel [Q2]. Der Titel spielt auf Duchamps Readymades an: Industriebauten werden als gefundene Objekte behandelt [Q3]. Ihre klaren Schwarzweißbilder industrieller Archetypen – Fördertürme, Wassertürme, Kohlebunker – stehen in der Tradition der Neuen Sachlichkeit der 1920er-Jahre [Q4].",
+   "exercise_md": "Wähle auf einer Reise einen wiederkehrenden Bautyp (Wassertürme, Reisspeicher, Bushaltestellen, Pagoden). Fotografiere mindestens neun Exemplare mit identischen Regeln: gleiche Höhe, gleicher Abstand, frontal, bedecktes Licht. Lege sie im Raster an – was wird erst im Vergleich sichtbar?",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/artists/bernd-becher-and-hilla-becher-718/who-are-bechers",
+     "title": "Tate: Who are Bernd and Hilla Becher?",
+     "excerpt": "They exhibited their work in sets or typologies, grouping of several photographs of the same type of structure."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/artists/bernd-becher-and-hilla-becher-718/who-are-bechers",
+     "title": "Tate: Who are Bernd and Hilla Becher?",
+     "excerpt": "The Bechers called the subjects of their photographs ‘anonymous sculptures’, and they produced a successful photobook of the same title in 1970."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/artists/bernd-becher-and-hilla-becher-718/who-are-bechers",
+     "title": "Tate: Who are Bernd and Hilla Becher?",
+     "excerpt": "The title is a nod to Marcel Duchamp’s readymades and indicates that the Becher’s referred to industrial buildings as found objects."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/d/dusseldorf-school-photography",
+     "title": "Tate, Art Term „Dusseldorf School of Photography“",
+     "excerpt": "Known for their rigorous devotion to the 1920s German tradition of Neue Sachlichkeit ( New Objectivity ), the Bechers’ photographs were clear, black and white pictures of industrial archetypes (pitheads, water towers, coal bunkers)."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "iec5ad837fd",
+     "note": "Meine Einschätzung: Neun Gasbehälter im Raster, gleich frontal und gleich belichtet – der Vergleich macht die Unterschiede zur eigentlichen Aussage."
+    },
+    {
+     "id": "i7c6568910c",
+     "note": "Meine Einschätzung: Ein Förderturm aus vier Ansichten – Typologie auch als systematische Umrundung eines einzelnen Bauwerks."
+    }
+   ]
+  },
+  {
+   "key": "tableau",
+   "name": "Tableau (Tableau-Bild)",
+   "dimension": "moment",
+   "summary_md": "Als Tableau bezeichnet die Tate ein Gemälde oder Foto, in dem Figuren für eine malerische oder dramatische Wirkung angeordnet sind und vertieft wirken, ohne den Betrachter wahrzunehmen [Q1]. Seit den 1970er-Jahren machten Jeff Wall und Andreas Gursky großformatige Fotografien, die wie Gemälde an der Wand hängen sollten, und mussten sich damit denselben Fragen stellen [Q2]. Michael Fried sieht in solchen „Tableau“-Bildern eine Konkurrenz zur Malerei und eine anti-theatralische Beziehung zwischen Bild und Betrachter [Q3].",
+   "exercise_md": "Such an einem Fluss, Strand oder Platz eine Gruppe von Menschen, die ganz in ihr Tun vertieft ist. Stell dich so weit weg und so ruhig hin, dass niemand dich bemerkt, und warte, bis die Anordnung der Figuren wie gebaut wirkt – ohne einzugreifen.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/t/tableau",
+     "title": "Tate, Art Term „Tableau“",
+     "excerpt": "Tableau is used to describe a painting or photograph in which characters are arranged for picturesque or dramatic effect and appear absorbed and completely unaware of the existence of the viewer"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/t/tableau",
+     "title": "Tate, Art Term „Tableau“",
+     "excerpt": "In the 1970s, a group of ambitious young artists like Jeff Wall and Andreas Gursky began to make large format photographs that, like paintings, were designed to hang on a wall. As a result these photographers were compelled to engage with the very same issues revealing the continued relevance of the tableau in contemporary art."
+    },
+    {
+     "url": "https://theamericanscholar.org/of-time-and-the-camera/",
+     "title": "The American Scholar: Of Time and the Camera (über Michael Fried)",
+     "excerpt": "But Fried, now a professor and chairman of the Humanities Center at Johns Hopkins University, sees them as having something in common: as “tableau” pictures they compete with painting, and they “thematiz[e] an antitheatrical relation between image and viewer.”"
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ic1ec86d9dd",
+     "note": "Meine Einschätzung: Eine Familie beim Picknick unter einer Brücke, ganz bei sich und dem Betrachter abgewandt – gefunden, aber mit der Ruhe eines Tableaus."
+    }
+   ]
+  },
+  {
+   "key": "deadpan",
+   "name": "Deadpan (nüchterner, unbewegter Blick)",
+   "dimension": "attitude",
+   "summary_md": "Das Art Institute of Chicago spricht bei Stephen Shore von einer „deadpan“-Bewertung der gebauten Umwelt Amerikas, mit Farbe in antikommerzieller Weise [Q1]. Michael Wolfs Formalismus und „deadpan“-Ansatz in „Architecture of Density“ knüpft an die Düsseldorfer Schule der Bechers an [Q2]. Bei Luigi Ghirri verbindet sich der nüchterne Blick mit trockenem Witz [Q3]. Die Tate nennt so auch die Art, in der Richard Long und Dennis Oppenheim ihre Performances und temporären Arbeiten festhielten: einfache, realistische Bilder, die möglichst dokumentarisch aussehen sollten [Q4].",
+   "exercise_md": "Fotografiere eine Straßenecke, eine Tankstelle oder ein Hotelzimmer ohne jede Dramatisierung: Augenhöhe, normales Licht, Mitte des Tages, keine schrägen Linien. Wenn das Bild trotzdem trägt, woran liegt es – Ordnung, Detail, Witz?",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/104203",
+     "title": "Art Institute of Chicago: Stephen Shore, Second Street East & South Main Street, Kalispell, Montana (Werktext)",
+     "excerpt": "With a deadpan appraisal of the built environment of modern America, Shore built a reputation as part of a generation of photographers who used color in an anticommercial fashion."
+    },
+    {
+     "url": "https://photomichaelwolf.com/about-michael-wolf/introduction/",
+     "title": "Michael Wolf Estate: Introduction",
+     "excerpt": "the formalism and deadpan approach of architecture of density echoes the work that emerged from the dusseldorf school of bernd and hilla becher."
+    },
+    {
+     "url": "https://mackbooks.co.uk/products/kodachrome-br-luigi-ghirri",
+     "title": "MACK: Luigi Ghirri, Kodachrome",
+     "excerpt": "His work is deadpan, reflecting a dry wit, and is a continuous engagement with the subject of reality and of landscape as a snapshot of our interaction with the world."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/c/conceptual-photography",
+     "title": "Tate, Art Term „Conceptual photography“",
+     "excerpt": "Using cameras, artists like Richard Long and Dennis Oppenheim began recording their performances and temporary artworks in a manner that is now often described as deadpan. The aim was to make simple, realistic images of the artwork that looked as documentary as possible."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i43ffe1086c",
+     "note": "Meine Einschätzung: Die Straßenecke, zu der das AIC von Shores „deadpan“-Blick spricht – unaufgeregt, frontal, in gedämpften Farben."
+    },
+    {
+     "id": "i0365451f8f",
+     "note": "Meine Einschätzung: Eine Hochhausfassade ohne Himmel und Horizont, streng frontal – Wolfs nüchterner, formaler Blick."
+    },
+    {
+     "id": "i04ec2f8b0c",
+     "note": "Meine Einschätzung: Ein eingepackter Sonnenschirm am Strand, schlicht hingestellt – nüchtern mit trockenem Witz."
+    }
+   ]
+  },
+  {
+   "key": "vernakulaer",
+   "name": "Vernakulär (vernacular)",
+   "dimension": "attitude",
+   "summary_md": "Das Bowdoin College Museum nennt Fotografie zu nicht-künstlerischen Zwecken – Familienleben, Handel, Wissenschaft, Forensik, Behörden – vernakuläre Fotografie; Amateurbilder vom Alltag heißen Schnappschüsse [Q1]. Künstler erkannten den Reiz vernakulärer Fotografie zuerst und brachten sie, nach dem Vorbild der Surrealisten, in die Kunstwelt [Q2]. Vernakulär heißt auch das Alltägliche vor der Kamera: Bei Shore machen Schilder, Alltagsarchitektur, Straßenmuster und gedämpfte Farben das Banale bedeutsam [Q3], Eggleston verbindet vernakuläre Motive mit einem feinen Verständnis von Farbe, Form und Komposition [Q4].",
+   "exercise_md": "Fotografiere an einem Reiseziel nur das Vernakuläre: handgemalte Schilder, Imbissbuden, Zweckbauten, Parkplätze – nichts aus dem Reiseführer. Mach außerdem ein Bild im Stil eines Urlaubsschnappschusses und vergleiche: Was trennt dein vernakuläres Motiv vom vernakulären Bild?",
+   "sources": [
+    {
+     "url": "https://www.bowdoin.edu/art-museum/education/young-learners/photography/index.html",
+     "title": "Bowdoin College Museum of Art: Snapshot Photography (2021)",
+     "excerpt": "Photography that is done by amateurs to capture everyday life is called snapshot photography. Speaking more broadly, if a photograph is taken for non-artistic purposes, such as to document family life, or for commercial, scientific, forensic, or government purposes, it is called vernacular photography."
+    },
+    {
+     "url": "https://elysee.ch/en/exhibitions/anonymous-on-the-advantages-of-the-unknown-photographer/",
+     "title": "Photo Elysée Lausanne: Anonymous? On the advantages of the unknown photographer",
+     "excerpt": "Artists were the first to recognize the charms of vernacular photography and, following the example of the Surrealists, bring it to light, causing it to enter into the world of art."
+    },
+    {
+     "url": "https://www.artic.edu/artworks/104203",
+     "title": "Art Institute of Chicago: Stephen Shore, Second Street East & South Main Street, Kalispell, Montana (Werktext)",
+     "excerpt": "The street corner in this image is unremarkable, yet Shore’s attention to the landscape—vernacular signs and architecture, patterns in the street and pavement—and muted color palette render the mundane significant."
+    },
+    {
+     "url": "https://www.davidzwirner.com/artists/william-eggleston",
+     "title": "David Zwirner: William Eggleston",
+     "excerpt": "William Eggleston (b. 1939) has established a singular pictorial style that deftly combines vernacular subject matter with an innate and sophisticated understanding of color, form, and composition."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i43ffe1086c",
+     "note": "Meine Einschätzung: Schilder, Parkuhren, Flachbauten einer Kleinstadt-Kreuzung – Alltagsarchitektur als vollwertiges Motiv."
+    },
+    {
+     "id": "i7a6fd5d17c",
+     "note": "Meine Einschätzung: Zwei Autos vor farbigen Holzhäusern – das Gewöhnliche, durch Farbe und Anordnung genau gebaut."
+    },
+    {
+     "id": "ib80d6c76b4",
+     "note": "Meine Einschätzung: Vionnets Taj Mahal ist aus vielen Touristenfotos geschichtet – vernakuläre Bilder selbst als Material."
+    }
+   ]
+  },
+  {
+   "key": "inszeniert-gefunden",
+   "name": "Gefunden oder inszeniert (found vs. staged)",
+   "dimension": "moment",
+   "summary_md": "Bei Roger Fentons „Valley of the Shadow of Death“ gibt es zwei Aufnahmen; viele nahmen an, Fenton habe die Kanonenkugeln für die Wirkung aus dem Graben auf die Straße gelegt [Q1]. Ein späterer Rechercheur befragte dazu mehrere Historiker – die Hälfte hielt das Bild für inszeniert, die andere Hälfte meinte, die Kugeln hätten so gelegen und seien später zum Wiederverwenden weggeräumt worden [Q2]. Paul Caponigro beschreibt offen, wie er die weißen Hirsche mit Hilfe eines Hütehunds zusammentreiben ließ und das Ereignis choreografierte [Q3]. Eggleston dagegen inszeniert laut PBS nicht und macht nie zweimal dasselbe Bild [Q4].",
+   "exercise_md": "Notiere bei deinen nächsten zehn Reisebildern ehrlich, was du verändert hast: Standpunkt, Wartezeit, eine weggeräumte Flasche, eine gebetene Pose. Wo endet für dich „gefunden“, und würdest du jede Veränderung in der Bildunterschrift nennen?",
+   "sources": [
+    {
+     "url": "https://publicdomainreview.org/collection/roger-fenton-valley-of-the-shadow-of-death/",
+     "title": "The Public Domain Review: Roger Fenton’s Valley of the Shadow of Death (1855)",
+     "excerpt": "Many have assumed that the cannonballs-on-road image is the second one, that Fenton staged the photograph by moving the cannonballs from their original place in the ditch onto the road for dramatic effect."
+    },
+    {
+     "url": "https://publicdomainreview.org/collection/roger-fenton-valley-of-the-shadow-of-death/",
+     "title": "The Public Domain Review: Roger Fenton’s Valley of the Shadow of Death (1855)",
+     "excerpt": "His conviction that “ nothing is so obvious that it’s obvious” led him to interview several historians (including Keller), half of whom agreed that Fenton staged the photograph and half of whom thought the cannonballs on the road was how the scene presented itself, with the clear road photograph the result of soldiers later moving the cannonballs to recycle them for future battles."
+    },
+    {
+     "url": "https://www.peterfetterman.com/blog/388-1266-paul-caponigro-running-white-deer-ireland-1967-printed-2019/",
+     "title": "Peter Fetterman Gallery: Paul Caponigro, Running White Deer, Ireland, 1967 (Text des Fotografen)",
+     "excerpt": "Catching them in small groups was unsatisfying but I remembered the talent of the Irish sheepdog and enlisted the help of the owner and his dog to corral a substantial number of these white beasts. I visualized the deer as being spread out before the trees of the estate and set about the choreography of the event."
+    },
+    {
+     "url": "https://www.pbs.org/newshour/arts/eggleston-an-exceptional-eye-for-the-ordinary",
+     "title": "PBS NewsHour: Eggleston, an Exceptional Eye for the Ordinary",
+     "excerpt": "Eggleston's photos are not staged. In fact, he says he never even takes the same picture twice."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i158dd81e0a",
+     "note": "Meine Einschätzung: Die Fassung mit den Kugeln auf der Straße – das Bild, um dessen Inszenierung bis heute gestritten wird."
+    },
+    {
+     "id": "i297daea532",
+     "note": "Meine Einschätzung: Die Hirschreihe wirkt wie ein glücklicher Zufall, ist aber laut Caponigro choreografiert."
+    },
+    {
+     "id": "i7a6fd5d17c",
+     "note": "Meine Einschätzung: Ein Alltagsmoment, wie vorgefunden – das Gegenmodell ohne Eingriff."
+    }
+   ]
+  },
+  {
+   "key": "archiv",
+   "name": "Archiv (archive)",
+   "dimension": "sequence",
+   "summary_md": "Ein Archiv ist eine Sammlung von Aufzeichnungen, die bewahrt und für die Forschung zugänglich gemacht werden [Q1]. Manche Künstler untersuchen in ihrer Arbeit sowohl das Aussehen als auch die Funktionsweise von Archiven [Q2]. Andere legen Archive als Teil des Werks an, die mit jeder Ausstellung wachsen [Q3].",
+   "exercise_md": "Lege für eine Reiseroute ein eigenes kleines Archiv an: ein wiederkehrendes Motiv (Hotelfenster, Wegweiser, Frühstückstische), immer gleich fotografiert, mit Datum und Ort. Sieh es nach zwei Wochen als Raster an: Was erzählt die Sammlung, das kein Einzelbild erzählt?",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/a/archive",
+     "title": "Tate, Art Term „Archive“",
+     "excerpt": "An archive is a collection of records, preserved and made available for research"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/a/archive",
+     "title": "Tate, Art Term „Archive“",
+     "excerpt": "There are also artists who explore both the appearance and the workings of archives through their art."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/a/archive",
+     "title": "Tate, Art Term „Archive“",
+     "excerpt": "Other artists are creating archives as part of the artwork. These archives grow as the work is displayed."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i5ed6020544",
+     "note": "Meine Einschätzung: Hunderte Sonnenuntergänge aus einer Online-Bildersammlung als Raster – das Archiv der anderen wird zum Werk."
+    },
+    {
+     "id": "ib80d6c76b4",
+     "note": "Meine Einschätzung: Aus vielen Touristenbildern geschichtet – ein Bildarchiv, verdichtet zu einem einzigen Bild."
+    }
+   ]
+  },
+  {
+   "key": "serielle-arbeit",
+   "name": "Serielle Arbeit (serial art)",
+   "dimension": "sequence",
+   "summary_md": "Serielle Kunst folgt einem strengen Regelwerk, das die Komposition oder eine ganze Reihe von Kompositionen bestimmt [Q1]. Drei Annahmen kennzeichnen sie: ein systematisch festgelegtes Verfahren, der Vorrang der Regeln vor der Ausführung und ein Werk, das sich selbst erschöpft [Q2]. Manche Arbeiten wiederholen eine Standardeinheit, andere bieten Variationen eines Themas [Q2].",
+   "exercise_md": "Lege dir für einen Reisetag eine Regel fest, bevor du losgehst (z. B. „jeden Fluss, den ich überquere, mittig von der Brücke flussabwärts, Horizont in Bildmitte“). Halte sie ohne Ausnahme ein und prüfe abends, ob die Regel oder dein Auge die Bilder gemacht hat.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/s/serial-art",
+     "title": "Tate, Art Term „Serial art“",
+     "excerpt": "Serial art is art that adheres to a strict set of rules to determine its composition or to determine a series of compositions"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/s/serial-art",
+     "title": "Tate, Art Term „Serial art“",
+     "excerpt": "There are three basic assumptions that define the making of serial art: that it follows a systematically predetermined process; the order (rules used to create the artwork) takes precedence over the execution or making of the work; that the completed work is self-exhausting. Some serial artworks are modular and are based on the repetition of a standard unit, like Andy Warhol’s soup cans or Josef Albers’s coloured squares, while others offer variations on a theme"
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i2b6528e713",
+     "note": "Meine Einschätzung: Meer und Himmel, Horizont in der Mitte – eine feste Regel, an vielen Orten wiederholt; das Einzelbild ist eine Variation."
+    },
+    {
+     "id": "iec5ad837fd",
+     "note": "Meine Einschätzung: Gleiche Ansicht, gleicher Bautyp, neunfach – die Wiederholung einer Standardeinheit."
+    }
+   ]
+  },
+  {
+   "key": "konzeptuelle-fotografie",
+   "name": "Konzeptuelle Fotografie (conceptual photography)",
+   "dimension": "attitude",
+   "summary_md": "Konzeptuelle Fotografie ist Fotografie, die eine Idee veranschaulicht [Q1]. Seit es Kameras gibt, haben Künstler sie genutzt, um eine falsche Wirklichkeit zu inszenieren oder eine Idee festzuhalten [Q2]. Mit Bildbearbeitungsprogrammen kann heute jeder ein Bild schaffen, das etwas anderes ist als die direkte Wiedergabe dessen, was vor dem Objektiv war [Q3].",
+   "exercise_md": "Formuliere vor einem berühmten Reiseziel eine Idee in einem Satz (z. B. „Alle fotografieren hier dasselbe Bild“) und suche die eine Aufnahme, die diese Idee ohne Erklärung sichtbar macht – auch wenn sie kein schönes Landschaftsbild ist.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/c/conceptual-photography",
+     "title": "Tate, Art Term „Conceptual photography“",
+     "excerpt": "Conceptual photography is photography that illustrates an idea"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/c/conceptual-photography",
+     "title": "Tate, Art Term „Conceptual photography“",
+     "excerpt": "Since the invention of the photographic camera, artists have explored it as a means to stage a false reality, or capture an idea."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/c/conceptual-photography",
+     "title": "Tate, Art Term „Conceptual photography“",
+     "excerpt": "This allows anyone with a computer to create an image which is other than a direct representation of what was in front of the lens."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ib80d6c76b4",
+     "note": "Meine Einschätzung: Das Bild zeigt weniger das Taj Mahal als eine Idee – dass alle Besucher dasselbe Bild machen."
+    },
+    {
+     "id": "i5ed6020544",
+     "note": "Meine Einschätzung: Die Masse der Sonnenuntergangs-Fotos ist das Thema, nicht ein einzelner Sonnenuntergang."
+    }
+   ]
+  },
+  {
+   "key": "fotobuch",
+   "name": "Fotobuch (photobook)",
+   "dimension": "sequence",
+   "summary_md": "Das Fotobuch ist ein Buch mit Fotografien eines Fotografen, das ein übergreifendes Thema hat oder einer Erzählung folgt – ein günstiger Weg, Arbeiten einem breiten Publikum zugänglich zu machen [Q1]. Fotobücher haben die Vorstellung gefestigt, dass eine Bildfolge eine eigene Erzählung darstellt [Q2]. Laura Gilpin nannte ihr Buch über den Rio Grande von 1949 „das Porträt eines Flusses“ [Q3].",
+   "exercise_md": "Wähle nach einer Reise 20 Bilder für ein imaginäres Fotobuch zu einem Thema (ein Fluss, eine Straße, ein Licht). Leg sie als Doppelseiten aus: Welche Bilder brauchen einander, welches starke Einzelbild fliegt raus, weil es die Erzählung stört?",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/p/photobook",
+     "title": "Tate, Art Term „Photobook“",
+     "excerpt": "The photobook is a book of photographs by a photographer that has an overarching theme or follows a storyline – a convenient and reasonably cheap way of disseminating the work of a photographer to a mass audience"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/p/photobook",
+     "title": "Tate, Art Term „Photobook“",
+     "excerpt": "Over the years, photobooks have helped to establish the idea that a sequence of images represents a narrative in its own right."
+    },
+    {
+     "url": "https://openspace.sfmoma.org/2018/10/what-is-a-river-three-visions-of-the-rio-grande/",
+     "title": "SFMOMA Open Space: What is a River? Three Visions of the Rio Grande (2018)",
+     "excerpt": "In 1949, the photographer Laura Gilpin published The Rio Grande: River of Destiny , a photobook she calls “the portrait of a river.”"
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ib65fcd6853",
+     "note": "Meine Einschätzung: Ein Bild aus Gilpins Rio-Grande-Folge – im Buch ist es ein Kapitel der Flussgeschichte, nicht ein Einzelbild."
+    },
+    {
+     "id": "ife74fb6ada",
+     "note": "Meine Einschätzung: Allein ist es eine leere Straße; in einer Bildfolge kann es für die Reise selbst stehen – Bedeutung aus der Folge."
+    }
+   ]
+  },
+  {
+   "key": "aura",
+   "name": "Aura (Walter Benjamin)",
+   "dimension": "attitude",
+   "summary_md": "Aura ist laut Tate eine dem Kunstwerk eigene Qualität, die sich durch mechanische Reproduktion wie die Fotografie nicht übertragen lässt [Q1]. Walter Benjamin argumentierte in seinem einflussreichen Aufsatz von 1936 (englisch „The Work of Art in the Age of Mechanical Reproduction“), selbst der vollkommensten Reproduktion fehle eines: das Hier und Jetzt des Werks, sein einmaliges Dasein an dem Ort, an dem es sich befindet [Q2]. Diese Gegenwart in Zeit und Raum nannte er die Aura des Werks [Q2].",
+   "exercise_md": "Stell dich an einem weltberühmten Ort zuerst zehn Minuten ohne Kamera hin. Notiere, was nur hier und jetzt wahrnehmbar ist (Geräusch, Wind, Geruch, Menschenmenge) – und versuche dann, genau eines davon ins Bild zu bringen, das in keinem Postkartenbild vorkommt.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/a/aura",
+     "title": "Tate, Art Term „Aura“",
+     "excerpt": "Aura is a quality integral to an artwork that cannot be communicated through mechanical reproduction techniques – such as photography"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/a/aura",
+     "title": "Tate, Art Term „Aura“",
+     "excerpt": "The term was used by Walter Benjamin in his influential 1936 essay The Work of Art in the Age of Mechanical Reproduction. Benjamin argued that 'even the most perfect reproduction of a work of art is lacking in one element: Its presence in time and space, its unique existence at the place where it happens to be.' He referred this unique cultural context i.e. 'its presence in time and space' as its 'aura'."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ib5c7a0e48d",
+     "note": "Meine Einschätzung: Beatos Taj Mahal ist selbst schon eine Reproduktion des Ortes – sie zeigt ihn, aber nicht sein Hier und Jetzt."
+    },
+    {
+     "id": "ib80d6c76b4",
+     "note": "Meine Einschätzung: Vionnets Schichtung tausender Kopien lässt das Bauwerk verschwimmen – die Reproduktion hebt den einmaligen Ort fast auf."
+    }
+   ]
+  },
+  {
+   "key": "das-unheimliche",
+   "name": "Das Unheimliche (the uncanny)",
+   "dimension": "atmosphere",
+   "summary_md": "Das Unheimliche beschreibt ein seltsames, beklemmendes Gefühl, das vertraute Dinge in fremdem Zusammenhang auslösen können [Q1]. Freud fasste es 1919 als Moment, in dem etwas zugleich vertraut und fremd ist [Q2]. Künstler, darunter Surrealisten, kombinierten Vertrautes auf unerwartete Weise, um dieses Gefühl zu erzeugen [Q3].",
+   "exercise_md": "Achte auf Reisen auf Dinge, die am falschen Ort stehen: ein Zierfelsen im trockenen Seebett, ein Sofa unter der Autobahnbrücke, Kunstpalmen im Schnee. Fotografiere sie so ruhig und sachlich, dass das Bild nicht „lustig“, sondern seltsam wird.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/u/uncanny",
+     "title": "Tate, Art Term „The uncanny“",
+     "excerpt": "A concept in art associated with psychologist Sigmund Freud which describes a strange and anxious feeling sometimes created by familiar objects in unfamilar contexts"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/u/uncanny",
+     "title": "Tate, Art Term „The uncanny“",
+     "excerpt": "Sigmund Freud's essay The Uncanny (1919) however repositioned the idea as the instance when something can be familiar and yet alien at the same time."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/u/uncanny",
+     "title": "Tate, Art Term „The uncanny“",
+     "excerpt": "Artists, including some associated with the surrealist movement drew on this description and made artworks that combined familiar things in unexpected ways to create uncanny feelings."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i8fbeb4c2fe",
+     "note": "Meine Einschätzung: Ein Zierfelsen, wie aus einem Garten, steht allein im leeren, dunstigen Seebett – vertraut und fremd zugleich."
+    },
+    {
+     "id": "ic1ec86d9dd",
+     "note": "Meine Einschätzung: Ein gewöhnliches Picknick unter gewaltigen Brückenpfeilern im Dunst – das Vertraute wirkt hier merkwürdig fern."
+    }
+   ]
+  },
+  {
+   "key": "psychogeografie",
+   "name": "Psychogeografie (psychogeography)",
+   "dimension": "viewpoint",
+   "summary_md": "Psychogeografie beschreibt die Wirkung eines geografischen Ortes auf Gefühle und Verhalten von Menschen [Q1]. Guy Debord prägte den Begriff 1955; angeregt von Baudelaires Flaneur schlug er spielerische, erfinderische Wege vor, sich durch die Stadt zu bewegen, um ihre Architektur und Räume zu untersuchen [Q2]. In den 1990er-Jahren nutzten Iain Sinclair und Patrick Keiller die Idee für Werke, die Orte gehend erkunden [Q3].",
+   "exercise_md": "Lass dich in einer fremden Stadt eine Stunde lang nur von einer Regel leiten (immer der lautesten Straße folgen, immer links abbiegen, immer dem Licht nach). Fotografiere bei jedem Stimmungswechsel – und notiere, welcher Ort ihn ausgelöst hat.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/p/psychogeography",
+     "title": "Tate, Art Term „Psychogeography“",
+     "excerpt": "Psychogeography describes the effect of a geographical location on the emotions and behaviour of individuals"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/p/psychogeography",
+     "title": "Tate, Art Term „Psychogeography“",
+     "excerpt": "The term psychogeography was invented by the Marxist theorist Guy Debord in 1955 in order to explore this. Inspired by the French nineteenth century poet and writer Charles Baudelaire’s concept of the flâneur – an urban wanderer – Debord suggested playful and inventive ways of navigating the urban environment in order to examine its architecture and spaces."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/p/psychogeography",
+     "title": "Tate, Art Term „Psychogeography“",
+     "excerpt": "Psychogeography gained popularity in the 1990s when artists, writers and filmmakers such as Iain Sinclair and Patrick Keiller began using the idea to create works based on exploring locations by walking."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i103b095170",
+     "note": "Meine Einschätzung: Ein Block aus übereinandergetürmten Wohnungen bei Dämmerung – ein Ort, dessen Dichte die Stimmung des Bildes bestimmt."
+    },
+    {
+     "id": "i1af4efe118",
+     "note": "Meine Einschätzung: Eine Straßenschlucht zentral bis zum Fluchtpunkt – das Bild zeigt, wie die Stadt den Blick und den Weg lenkt."
+    }
+   ]
+  },
+  {
+   "key": "flaneur",
+   "name": "Flaneur (flâneur)",
+   "dimension": "attitude",
+   "summary_md": "Flaneur ist ein französischer Begriff, mit dem Baudelaire den Beobachter des modernen Stadtlebens bezeichnete [Q1]. In seinem Essay „Der Maler des modernen Lebens“ (1863) beschreibt er ihn als liebhaberhaften Beobachter; der Flaneur trägt Bedeutungen wie Müßiggänger, Stadterkunder und Kenner der Straße [Q2]. Die Figur erscheint in vielen impressionistischen Gemälden und wurde im 20. Jahrhundert von den Situationisten aufgegriffen [Q2].",
+   "exercise_md": "Geh in einer Stadt zwei Stunden ohne Ziel und ohne Karte, langsamer als alle anderen. Fotografiere nur, wenn dich etwas wirklich anhält, und höchstens ein Bild pro Situation – wie viele Bilder bleiben, und was haben sie gemeinsam?",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/f/flaneur",
+     "title": "Tate, Art Term „Flâneur“",
+     "excerpt": "Flâneur is a French term used by nineteenth-century French poet Charles Baudelaire to identify an observer of modern urban life"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/f/flaneur",
+     "title": "Tate, Art Term „Flâneur“",
+     "excerpt": "Baudelaire identified the flâneur in his essay The Painter of Modern Life (1863) as the dilettante observer. The flâneur carried a set of rich associations: the man of leisure, the idler, the urban explorer, the connoisseur of the street. Such a figure can be seen featured in many impressionist paintings. The flâneur has become an important figure for scholars, artists and writers and was taken up in the twentieth century by the Situationists."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ic02846fa6d",
+     "note": "Meine Einschätzung: Ein Augenblick aus dem Pariser Straßenleben, durch einen Zaun gesehen – der Blick des müßigen, aufmerksamen Stadtgängers."
+    },
+    {
+     "id": "i7a6fd5d17c",
+     "note": "Meine Einschätzung: Eine beiläufige Straßenszene, wie im Vorbeigehen gesehen – Kennerschaft des Gewöhnlichen."
+    }
+   ]
+  },
+  {
+   "key": "terrain-vague",
+   "name": "Terrain vague (Brache, ungeklärter Raum)",
+   "dimension": "omitted",
+   "summary_md": "Terrain vague nennt Ignasi de Solà-Morales mehrdeutige, ungeklärte und an den Rand gedrängte Räume der Stadtlandschaft, etwa Industriebrachen und eintönige Vorstadtsiedlungen [Q1]. Fotografen sehen in ihnen Orte mit Geschichte, Architekten dagegen Probleme, die durch Planung zu lösen sind [Q1]. Die Ausstellung des Carnegie Museum lädt ein, diese vergessenen Zwischenräume nicht als Flächen zum Neuordnen und Vereinheitlichen zu betrachten [Q2].",
+   "exercise_md": "Such am Rand einer Stadt, die du bereist, eine Brache, eine Fläche unter einer Hochstraße oder ein Stück Ufer zwischen Neubauten. Fotografiere sie so, dass ihre Geschichte und ihr Gebrauch sichtbar werden – nicht als hässlicher Ort, sondern als offener.",
+   "sources": [
+    {
+     "url": "https://carnegieart.org/exhibition/terrain-vague-photography-architecture-and-the-post-industrial-landscape/",
+     "title": "Carnegie Museum of Art: Terrain Vague – Photography, Architecture, and the Post-Industrial Landscape (2004)",
+     "excerpt": "Terrain Vague is a French term used by Spanish architect and critic Ignasi de Solà-Morales to describe ambiguous, unresolved, and marginalized spaces in the urban landscape. Terrain vague refers to sites that are often ignored in the mainstream discourse on architecture and design, such as industrial wastelands and monotonous suburban developments. Solà-Morales notes that photographers and architects address terrain vague in differing ways. The photographer sees these spaces as places that are imbued with a storied past. Architects, however, approach these spaces as problems to be solved through design."
+    },
+    {
+     "url": "https://carnegieart.org/exhibition/terrain-vague-photography-architecture-and-the-post-industrial-landscape/",
+     "title": "Carnegie Museum of Art: Terrain Vague (2004)",
+     "excerpt": "Terrain Vague challenges us to rethink our reactions to these often forgotten, interstitial spaces rather than to regard them as areas to be reordered, transformed, and homogenized."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i2b86d15a66",
+     "note": "Meine Einschätzung: Ein Sandufer unter einer Brücke, auf dem Familien ihren Sonntag verbringen – ein ungeplanter Zwischenraum, der genutzt wird."
+    },
+    {
+     "id": "i80b586506d",
+     "note": "Meine Einschätzung: Eine fensterlose Gewerbefassade, kühl und frontal – der monotone Zweckraum, den die Ausstellung zu Baltz nennt."
+    }
+   ]
+  },
+  {
+   "key": "anthropozaen-landschaft",
+   "name": "Anthropozän-Landschaft (Anthropocene)",
+   "dimension": "scale",
+   "summary_md": "Laut Burtynskys Projekttext argumentieren Wissenschaftler der Anthropocene Working Group, die Menschheit habe das Holozän verlassen, weil sie zur prägendsten Kraft des Planeten geworden sei [Q1]. Als Belege nennt Burtynskys Projekt Bergbau, Verstädterung, Landwirtschaft, Staudämme, Klimafolgen, Plastik und Beton sowie Abholzung und Artensterben – Eingriffe, die schon in geologische Zeit eingegangen seien [Q2]. Tom Hegen betont, der Begriff bedeute nicht automatisch, dass menschengemachte Veränderungen gut oder schlecht seien [Q3].",
+   "exercise_md": "Such auf einer Reise eine Landschaft, die vom Menschen völlig umgeformt ist (Salinen, Tagebau, Stauseen, Terrassen). Mach ein Bild, das die Form schön zeigt, und eines, das den Eingriff erklärt (Maßstab, Spuren, Ursache). Welches würdest du zeigen – und was verschweigt das andere?",
+   "sources": [
+    {
+     "url": "https://www.edwardburtynsky.com/projects/the-anthropocene-project",
+     "title": "Edward Burtynsky: The Anthropocene Project",
+     "excerpt": "Geologists and other scientists from the Anthropocene Working Group believe that we have left the Holocene and entered a new epoch: the Anthropocene. Their argument is that humans have become the single most defining force on the planet and that the evidence for this is overwhelming."
+    },
+    {
+     "url": "https://www.edwardburtynsky.com/projects/the-anthropocene-project",
+     "title": "Edward Burtynsky: The Anthropocene Project",
+     "excerpt": "Terraforming of the earth through mining, urbanization, industrialization and agriculture; the proliferation of dams and diverting of waterways; CO2 and acidification of oceans due to climate change; the pervasive presence around the globe of plastics, concrete, and other technofossils; unprecedented rates of deforestation and extinction: these human incursions, they argue, are so massive in scope that they have already entered, and will endure in, geological time."
+    },
+    {
+     "url": "https://www.port-magazine.com/?p=88364",
+     "title": "Port Magazine: Interview mit Tom Hegen",
+     "excerpt": "The overall theoretical topic of my work is the concept of the Anthropocene. It’s a proposed term by many scientists that humans are the most important factor influencing our planet. However, Anthropocene does not mean by default that human-made changes are good or bad."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i76c3e01db2",
+     "note": "Meine Einschätzung: Die Baustelle eines Staudamms als dichtes Gefüge aus Stahl und Beton – der Eingriff selbst füllt das ganze Bild."
+    },
+    {
+     "id": "i3860f5745f",
+     "note": "Meine Einschätzung: Farbige Verdunstungsbecken in der Wüste von oben – menschgemachte Formen, schön und erschreckend zugleich."
+    },
+    {
+     "id": "i9cfcda5fd0",
+     "note": "Meine Einschätzung: Ein roter Wasserlauf im ausgetrockneten Seebett – eine Landschaft, die nur durch menschliche Eingriffe so aussieht."
+    }
+   ]
+  },
+  {
+   "key": "intime-landschaft",
+   "name": "Intime Landschaft (intimate landscape)",
+   "dimension": "distance",
+   "summary_md": "Im Katalog zu Eliot Porters „Intimate Landscapes“ heißt es, seine Arbeit neige dazu, das Bild zu „entgeografisieren“: Die Bilder entziehen sich der Zuordnung zu ihrem Entstehungsort [Q1]. Porter selbst nennt ein Bild abstrakt, wenn es aus sich heraus verständlich ist und nicht mehr andeutet, als in seinem Ausschnitt liegt – etwa ein Muster aus Fels, Flechten oder Gräsern [Q2]. Guy Tal beschreibt seinen Stil als „Intimate Landscape“, einen von Porter geprägten Begriff, intuitiv verständlich, aber schwer zu definieren [Q3]. Für ihn heißt das, einen Ort kreativ zu bearbeiten, Persönliches zu suchen und ohne visuelle Ablenkung sorgfältig zu komponieren [Q4].",
+   "exercise_md": "Dreh dich an einem berühmten Aussichtspunkt um und suche in einem Umkreis von zehn Metern drei Bilder, die ohne Himmel und Horizont auskommen: Gräser, Rinde, Flechten, Wasserspiegelungen. Sie sollen den Ort nicht erkennbar machen, aber zu ihm gehören.",
+   "sources": [
+    {
+     "url": "https://archive.org/stream/IntimateLandscapesPhotographs/IntimateLandscapesPhotographs_djvu.txt",
+     "title": "Eliot Porter: Intimate Landscapes – Photographs (Metropolitan Museum of Art, Katalog, Volltext auf archive.org), Nachwort",
+     "excerpt": "One aspect of his work is undoubtedly a tendency to degeographize the image. The selections presented here are notable for the way they defy specific identification with the places where they were made."
+    },
+    {
+     "url": "https://archive.org/stream/IntimateLandscapesPhotographs/IntimateLandscapesPhotographs_djvu.txt",
+     "title": "Eliot Porter: Intimate Landscapes – Photographs (Metropolitan Museum of Art, Katalog, Volltext auf archive.org), Vorwort von Eliot Porter",
+     "excerpt": "When the selected image is self-explanatory and does not imply more than what lies within its area it is usually referred to as abstract, that is, independent of its surroundings — a pattern of rock, for example, or lichens, or grasses."
+    },
+    {
+     "url": "https://www.kruger-2-kalahari.com/guy-tal.html",
+     "title": "Kruger to Kalahari: Interview mit Guy Tal",
+     "excerpt": "My style is perhaps best described as “Intimate Landscape”; a term coined by the great American photographer Eliot Porter. I think most people can intuitively understand what it means, though it is surprisingly difficult to define."
+    },
+    {
+     "url": "https://www.kruger-2-kalahari.com/guy-tal.html",
+     "title": "Kruger to Kalahari: Interview mit Guy Tal",
+     "excerpt": "Intimate compositions are, to me, the manifestation of working a place creatively, looking for those things that intrigue me personally, composing them carefully and without visual distractions, illustrating what they mean to me personally, and coming up with original concepts."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "iacec333499",
+     "note": "Meine Einschätzung: Trockenes Schilf vor einer Felswand – ein naher Ausschnitt ohne Horizont, der den Canyon nur andeutet."
+    },
+    {
+     "id": "i388dd227aa",
+     "note": "Meine Einschätzung: Ein Geflecht aus kahlen Stämmen mit wenigen blühenden Zweigen – kein bestimmbarer Ort, nur Struktur und Farbe."
+    },
+    {
+     "id": "i61dd87f89e",
+     "note": "Meine Einschätzung: Gräser füllen das ganze Bild – Porters „Muster aus Gräsern“, unabhängig von der Umgebung."
+    }
+   ]
+  },
+  {
+   "key": "zentripetal-zentrifugal",
+   "name": "Zentripetal und zentrifugal (Eliot Porter)",
+   "dimension": "frame",
+   "summary_md": "Eliot Porter unterscheidet zentripetale und zentrifugale Naturfotografie [Q1]. Im zentripetalen Bild laufen alle Elemente auf einen zentralen Punkt zu, zu dem das Auge immer wieder zurückkehrt; das zentrifugale Bild ist lebhafter, wie ein Sonnenstrahlenkranz, und führt das Auge zu Ecken und Rändern – der Betrachter muss mitdenken, was der Fotograf ausgeschlossen hat [Q1]. Der weitere Landschaftsblick deutet ohnehin eine Welt jenseits der Bildgrenzen an [Q2].",
+   "exercise_md": "Fotografiere an einem Wasserfall, einer Felsspalte oder einem Waldstück je ein zentripetales Bild (alles führt zur Mitte) und ein zentrifugales (Linien und Formen laufen aus dem Bild hinaus). Schau beide 30 Sekunden an und notiere, wo dein Blick jeweils landet.",
+   "sources": [
+    {
+     "url": "https://archive.org/stream/IntimateLandscapesPhotographs/IntimateLandscapesPhotographs_djvu.txt",
+     "title": "Eliot Porter: Intimate Landscapes – Photographs (Metropolitan Museum of Art, Katalog, Volltext auf archive.org), Vorwort von Eliot Porter",
+     "excerpt": "Photography of nature tends to be either centripetal or centrifugal. In the former, all elements of the picture converge toward a central point of interest to which the eye is repeatedly drawn. The centrifugal photograph is a more lively composition, like a sunburst, in which the eye is led to the corners and edges of the picture: the observer is thereby forced to consider what the photographer excluded in his selection."
+    },
+    {
+     "url": "https://archive.org/stream/IntimateLandscapesPhotographs/IntimateLandscapesPhotographs_djvu.txt",
+     "title": "Eliot Porter: Intimate Landscapes – Photographs (Metropolitan Museum of Art, Katalog, Volltext auf archive.org), Vorwort von Eliot Porter",
+     "excerpt": "On the other hand, in the wider scenic view common in most landscape photography, the selected image implies a world outside the limits encompassed by the lens."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ia55cefec4e",
+     "note": "Meine Einschätzung: Die Felswände führen von beiden Seiten auf den schmalen Wasserlauf in der Mitte – ein zentripetales Bild."
+    },
+    {
+     "id": "i61dd87f89e",
+     "note": "Meine Einschätzung: Die Grannen strahlen in alle Richtungen bis über die Ränder – ein zentrifugales Bild, das über den Rahmen hinausweist."
+    }
+   ]
+  },
+  {
+   "key": "slow-looking",
+   "name": "Langsames Schauen (slow looking)",
+   "dimension": "detail",
+   "summary_md": "Shari Tishman von Project Zero beschreibt „slow looking“ als Praxis, Details über längere Zeit zu beobachten, um über den ersten Eindruck hinauszukommen und eine Sache – Text, Idee, Kunstwerk oder Gegenstand – eingehender zu erleben [Q1]. Wer eine Weile hinschaut, merkt nach Tishman, wie etwas für andere aussehen könnte, und wird sich der eigenen Sichtweise bewusst [Q2]. Eine der vorgeschlagenen Übungen: den Standpunkt wechseln – etwa erst mit bloßem Auge, dann durchs Mikroskop schauen oder sich vorstellen, wie ein Wasserglas für eine Ameise aussieht [Q3].",
+   "exercise_md": "Setz dich an einem Reiseort zehn Minuten ohne Kamera hin und schreib jede Minute eine neue Beobachtung auf, die du vorher nicht bemerkt hattest. Mach erst danach ein einziges Bild – von etwas, das auf der Liste steht und nicht im ersten Eindruck vorkam.",
+   "sources": [
+    {
+     "url": "https://www.kqed.org/mindshift/55231/how-slow-looking-can-help-students-develop-skills-across-disciplines",
+     "title": "KQED MindShift / Harvard Usable Knowledge: How ‘Slow Looking’ Can Help Students Develop Skills Across Disciplines (2020)",
+     "excerpt": "As an antidote, Project Zero researcher Shari Tishman offers “ slow looking \" — the practice of observing detail over time to move beyond a first impression and create a more immersive experience with a text, an idea, a piece of art, or any other kind of object."
+    },
+    {
+     "url": "https://www.kqed.org/mindshift/55231/how-slow-looking-can-help-students-develop-skills-across-disciplines",
+     "title": "KQED MindShift / Harvard Usable Knowledge (2020) – Zitat Shari Tishman",
+     "excerpt": "“When you look for a while, you become aware of how a thing might look to somebody else; you also become aware of your own lens,” says Tishman."
+    },
+    {
+     "url": "https://www.kqed.org/mindshift/55231/how-slow-looking-can-help-students-develop-skills-across-disciplines",
+     "title": "KQED MindShift / Harvard Usable Knowledge (2020) – Übung",
+     "excerpt": "Activity: Change your vantage point. That might mean looking with the naked eye and then through a microscope, asking students to think about what a glass of water might look like to an ant, or examining eating utensils from around the world."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "idb2e605d79",
+     "note": "Meine Einschätzung: Ein Raum voller Einzelheiten – Deckenmalerei, Regale, verwischte Besucher –, der sich erst bei langem Hinsehen erschließt."
+    },
+    {
+     "id": "icde5f1cd40",
+     "note": "Meine Einschätzung: Auf den ersten Blick bunter Schotter, bei langem Hinsehen Tausende Platinenreste."
+    }
+   ]
+  },
+  {
+   "key": "miksang",
+   "name": "Miksang – kontemplative Fotografie („gutes Auge“)",
+   "dimension": "attitude",
+   "summary_md": "Miksang ist ein tibetisches Wort für „gutes Auge“ [Q1]. Die Nalanda-Miksang-Lehre verbindet klares Sehen mit dem, was Chögyam Trungpa „grundlegende Gutheit“ nennt, und will daraus einfache, starke und lebendige Bilder machen [Q1]. Die Übungen sollen mit der Welt in Kontakt bringen, wie sie sich im Moment unmittelbar zeigt, sodass gewohnte Muster des Sehens und Benennens in einem Augenblick lebhafter Wahrnehmung wegfallen [Q2].",
+   "exercise_md": "Geh 30 Minuten durch einen Ort und fotografiere nur, wenn dich etwas visuell „anspringt“ (eine Farbe, eine Textur, Licht auf einer Wand) – bevor du weißt, was es ist. Bleib dann an derselben Stelle und mach genau das Bild dieser Wahrnehmung, ohne Komposition „aufzuhübschen“.",
+   "sources": [
+    {
+     "url": "https://miksang.org/",
+     "title": "Nalanda Miksang Society for Contemplative Photography (miksang.org)",
+     "excerpt": "Miksang is a Tibetan word that translates as “good eye.” Nalanda Miksang teachings and courses connect, through clear seeing and sacred vision, with what Chögyam Trungpa’s teachings call “basic goodness,” which is a primordial harmony. Based on this pure vision, we makes images that are simple, strong and vivid."
+    },
+    {
+     "url": "https://paris.shambhala.org/miksang-photographie-contemplative/?lang=en",
+     "title": "Shambhala Meditationszentrum Paris: Miksang – Contemplative Photography",
+     "excerpt": "These programs offer exercises allowing us to get in touch with the world as it manifests itself directly before our eyes in the moment., so that our habitual patterns of seeing and labeling things dissolve in a moment of vivid perception."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i04ec2f8b0c",
+     "note": "Meine Einschätzung: Ein rotes, zerzaustes Bündel auf einem Strandpfosten – eine schlichte, lebhafte Wahrnehmung, kaum komponiert."
+    },
+    {
+     "id": "i9c79f51ff5",
+     "note": "Meine Einschätzung: Ein schneebedeckter Hügel in fast weißem Licht – einfach, still, ganz auf die Erscheinung konzentriert."
+    }
+   ]
+  },
+  {
+   "key": "studium",
+   "name": "Studium (Roland Barthes)",
+   "dimension": "attitude",
+   "summary_md": "Laut einer Annotation der University of Chicago zu „Camera Lucida“ bezeichnet Barthes mit studium die Bedeutungen eines Fotos, die allen zugänglich und offensichtlich sind [Q1]. Es ist „einheitlich“ – das Bild ist ein geschlossenes Ganzes, dessen Sinn man auf einen Blick erfasst – und „codiert“, der Bildraum ist allgemein verständlich geordnet [Q1]. Das studium betrifft das Interesse, das man einem Foto entgegenbringt, den Wunsch, seine Bedeutungen zu studieren und zu verstehen [Q1].",
+   "exercise_md": "Nimm fünf deiner besten Reisebilder und schreib zu jedem in einem Satz auf, was jeder Betrachter sofort versteht (Ort, Kultur, Situation). Wenn das alles ist, was das Bild leistet: Was müsste hinzukommen, damit es mehr als studium ist?",
+   "sources": [
+    {
+     "url": "https://csmt.uchicago.edu/annotations/barthescamera.htm",
+     "title": "University of Chicago, Chicago School of Media Theory: Barthes’ Camera Lucida (Annotation von Kasia Houlihan)",
+     "excerpt": "The studium refers to the range of meanings available and obvious to everyone; it is unary and coded, the former term implying that the image is a unified and self-contained whole whose meaning can be taken in at a glance (without effort, or ‘thinking’); while the latter implies that the pictorial space is ordered in a universal, comprehensible way. The studium speaks of the interest which we show in a photograph, the desire to study and understand what the meanings are in a photograph"
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i994aec4ef6",
+     "note": "Meine Einschätzung: Armut, Sorge, Mutterschaft – die Bedeutung ist sofort lesbar und allgemein codiert; das studium des Bildes ist stark."
+    }
+   ]
+  },
+  {
+   "key": "punctum",
+   "name": "Punctum (Roland Barthes)",
+   "dimension": "detail",
+   "summary_md": "Das punctum weckt nach Barthes eine sehr private Bedeutung, die plötzlich und unerwartet erkannt und dann erinnert wird – es „schießt wie ein Pfeil aus dem Foto und durchbohrt mich“ [Q1]. Es entzieht sich der Sprache und lässt sich kaum mitteilen [Q1]. Es ist ein Detail oder „Teilobjekt“, das den Blick des Betrachters anzieht und festhält; es sticht oder verletzt [Q2].",
+   "exercise_md": "Schau dir abends deine Tagesbilder an und markiere in jedem das eine Detail, an dem dein Blick hängen bleibt, ohne dass du es geplant hast. Gibt es eins, das dich wirklich „sticht“? Versuche am nächsten Tag, solche Details nicht zu planen, sondern Raum für sie zu lassen.",
+   "sources": [
+    {
+     "url": "https://csmt.uchicago.edu/annotations/barthescamera.htm",
+     "title": "University of Chicago, Chicago School of Media Theory: Barthes’ Camera Lucida (Annotation von Kasia Houlihan)",
+     "excerpt": "The punctum (a Latin word derived from the Greek word for trauma) on the other hand inspires an intensely private meaning, one that is suddenly, unexpectedly recognized and consequently remembered (it \"shoots out of [the photograph] like an arrow and pierces me”); it ‘escapes’ language (like Lacan’s real); it is not easily communicable through/with language."
+    },
+    {
+     "url": "https://csmt.uchicago.edu/annotations/barthescamera.htm",
+     "title": "University of Chicago, Chicago School of Media Theory: Barthes’ Camera Lucida (Annotation von Kasia Houlihan)",
+     "excerpt": "The punctum is a detail or “partial object” that attracts and holds the viewer’s (the Spectator’s) gaze; it pricks or wounds the observer."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i994aec4ef6",
+     "note": "Meine Einschätzung: Für mich ist es die Hand an Kinn und Wange – ein kleines Detail, das mehr trifft als die lesbare Gesamtsituation; ein punctum ist aber per Definition persönlich."
+    },
+    {
+     "id": "ic02846fa6d",
+     "note": "Meine Einschätzung: Die kleine springende Figur auf dem Plakat im Hintergrund, die den Springer spiegelt – ein Detail, das man spät entdeckt und nicht mehr vergisst."
+    }
+   ]
+  },
+  {
+   "key": "shore-ebenen",
+   "name": "Physische, abbildende und mentale Ebene (Stephen Shore)",
+   "dimension": "surface",
+   "summary_md": "In „The Nature of Photographs“ konzentriert sich Stephen Shore laut Eye Magazine auf die physischen und formalen Eigenschaften eines Abzugs, mit denen der Fotograf das Bild erzeugt [Q1]. Er teilt sie in drei Kategorien: die physische Ebene, die abbildende Ebene – bestehend aus Flachheit, Rahmen, Zeit und Schärfe – und die mentale Ebene [Q1]. Als Beispiele dienen etwa ein Bild, in dem das Auge beim Wandern die Schärfe zu wechseln scheint, oder Winogrands 1/250 Sekunde, in der Zunge eines Stiers und Hutkrempe eines Cowboys „in perfekter Symmetrie“ zusammentrafen [Q2].",
+   "exercise_md": "Analysiere ein eigenes Reisebild in drei Durchgängen: physisch (Abzug, Größe, Papier, Bildschirm), abbildend (Flachheit, Rahmen, Zeit, Schärfe – je ein Satz) und mental (wie dein Blick durch das Bild wandert). Welche Ebene hast du beim Fotografieren bewusst gesteuert, welche nicht?",
+   "sources": [
+    {
+     "url": "https://eyemagazine.com/review/article/essential-on-every-level",
+     "title": "Eye Magazine, Winter 2007: Rick Poynor über Stephen Shore, The Nature of Photographs",
+     "excerpt": "Instead, Shore, an influential photographer and professor at Bard College, New York, concentrates on the physical and formal attributes of a photographic print, which the photographer uses to create the image. These attributes he divides into three categories: the physical level, the depictive level (consisting of flatness, the frame, time and focus) and the mental level, illustrating each proposition with many examples."
+    },
+    {
+     "url": "https://eyemagazine.com/review/article/essential-on-every-level",
+     "title": "Eye Magazine, Winter 2007: Rick Poynor über Stephen Shore, The Nature of Photographs",
+     "excerpt": "Sometimes Shore refers to the image opposite, as when he describes how the eye seems to change focus while moving around a 1968 picture of an outdoor theatre, or, in a discussion of time, the miraculous instant caught by Garry Winogrand, one 250th of a second, when a steer’s tongue and the brim of a cowboy’s Stetson ‘met in perfect symmetry’."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i73c5f80960",
+     "note": "Meine Einschätzung: Große Schärfentiefe vom Wasser bis zu den Felswänden – der Blick wandert durch den Raum, obwohl alles auf einer flachen Fläche liegt."
+    },
+    {
+     "id": "i088f7e3424",
+     "note": "Meine Einschätzung: Ein Plakat mit Berglandschaft vor echter Landschaft – Flachheit und Rahmen werden im Bild selbst zum Thema."
+    }
+   ]
+  },
+  {
+   "key": "mentales-modell",
+   "name": "Mentales Modell (Stephen Shore)",
+   "dimension": "attitude",
+   "summary_md": "Shores Buch endet mit dem „mentalen Modellieren“: Diese Modelle entstehen aus Prägung, Einsichten und Weltverständnis des Fotografen und bilden einen Filter, der bestimmt, welche Bilder überhaupt gemacht werden [Q1]. Wer sich dieses Modell bewusst macht, kann es steuern [Q1]. Neue Wahrnehmungen aus dem Fotografieren fließen zurück ins Modell und führen zu neuen fotografischen Entscheidungen [Q1].",
+   "exercise_md": "Schreib vor einer Reise auf, welche Bilder du dort erwartest zu machen (fünf Stichworte). Vergleiche nach der Reise mit deiner Auswahl: Welche Bilder hat dein Modell vorhergesagt, welche haben es verändert – und was hast du gar nicht gesehen?",
+   "sources": [
+    {
+     "url": "https://eyemagazine.com/review/article/essential-on-every-level",
+     "title": "Eye Magazine, Winter 2007: Rick Poynor über Stephen Shore, The Nature of Photographs",
+     "excerpt": "The book closes with a succinct discussion of ‘mental modelling’: these models are the result of the photographer’s conditioning, insights and understanding of the world, and they form a filter that determines what kinds of picture will be taken. By becoming conscious of this model, the photographer can bring it under control. New perceptions derived from the process of photography feed into the model, leading to new photographic decisions."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i088f7e3424",
+     "note": "Meine Einschätzung: Ein Bild über das Bild – die Plakatlandschaft spiegelt die Vorstellung von Landschaft, die wir mitbringen."
+    },
+    {
+     "id": "i43ffe1086c",
+     "note": "Meine Einschätzung: Eine Kreuzung, die viele nicht für fotografierenswert halten würden – Shores Modell lässt sie als Bild zu."
+    }
+   ]
+  },
+  {
+   "key": "bildflaeche",
+   "name": "Bildfläche und Flachheit (picture plane / flatness)",
+   "dimension": "surface",
+   "summary_md": "In der illusionistischen Malerei mit Perspektive lässt sich die Bildebene als Glasscheibe eines gedachten Fensters vorstellen, durch das man in die dargestellte Wirklichkeit blickt; praktisch ist sie die physische Oberfläche des Bildes [Q1]. Die formalistische Theorie betont, ein Gemälde sei ein flaches Objekt und solle nicht vorgeben, etwas anderes zu sein [Q2]. Stephen Shore zählt die Flachheit neben Rahmen, Zeit und Schärfe zur abbildenden Ebene einer Fotografie [Q3].",
+   "exercise_md": "Suche eine Szene, die du als Raum oder als Fläche lesen kannst (Fassade, Felswand, Wasseroberfläche, Feldmuster). Fotografiere sie zweimal: einmal mit Tiefe (Diagonale, Vordergrund), einmal frontal und flach. Welches Bild hält den Blick länger?",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/p/picture-plane",
+     "title": "Tate, Art Term „Picture plane“",
+     "excerpt": "In traditional illusionistic painting using perspective, the picture plane can be thought of as the glass of the notional window through which the viewer looks into the representation of reality that lies beyond. In practice the picture plane is the same as the actual physical surface of the painting."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/p/picture-plane",
+     "title": "Tate, Art Term „Picture plane“",
+     "excerpt": "Formalist theory asserts that a painting is a flat object and that in the interests of truth it should not pretend to be other than flat."
+    },
+    {
+     "url": "https://eyemagazine.com/review/article/essential-on-every-level",
+     "title": "Eye Magazine, Winter 2007: Rick Poynor über Stephen Shore, The Nature of Photographs",
+     "excerpt": "the depictive level (consisting of flatness, the frame, time and focus)"
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i99f20775bb",
+     "note": "Meine Einschätzung: Waagerechte Farbbänder ohne Fluchtlinie – die Landschaft wird fast zur flachen Bildfläche."
+    },
+    {
+     "id": "i6529d88033",
+     "note": "Meine Einschätzung: Ein Werbeplakat mit Bergwasserfall vor echten Bergen – Bildfläche im Bild, die Grenze zwischen Fenster und Fläche verschwimmt."
+    },
+    {
+     "id": "i0365451f8f",
+     "note": "Meine Einschätzung: Fassade parallel zur Bildebene, kein Himmel – Raum wird zur Musterfläche."
+    }
+   ]
+  },
+  {
+   "key": "tonwert",
+   "name": "Tonwert (tone)",
+   "dimension": "color",
+   "summary_md": "Tonwert ist die Helligkeit oder Dunkelheit von etwas – wie hell oder dunkel eine Farbe erscheint [Q1]. Eine einzige Farbe kann nahezu unendlich viele Tonwerte haben [Q2]. Whistler malte mit einem sehr engen Umfang nah verwandter Töne von nur ein oder zwei Farben und gab den Bildern musikalische Titel – sogenannte tonale Malerei [Q3].",
+   "exercise_md": "Mach bei Nebel, Schnee oder in der Dämmerung ein Bild, das nur aus einem engen Band nah verwandter Tonwerte besteht. Prüfe am Histogramm, wie schmal es ist – und ob das Bild trotzdem eine klare Ordnung hat.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/t/tone",
+     "title": "Tate, Art Term „Tone“",
+     "excerpt": "The lightness or darkness of something – this could be a shade, or how dark or light a colour appears"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/t/tone",
+     "title": "Tate, Art Term „Tone“",
+     "excerpt": "In painting, tone refers to the relative lightness or darkness of a colour (see also chiaroscuro ). One colour can have an almost infinite number of different tones."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/t/tone",
+     "title": "Tate, Art Term „Tone“",
+     "excerpt": "From about that time the painter J.A.M. Whistler, for example, made paintings using a very limited range of closely related tones of just one or two colours, and gave them musical titles. This kind of painting is known as tonal painting."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i4ed4c77af4",
+     "note": "Meine Einschätzung: Fast nur helle, nah verwandte Grautöne; die dunkle Spur ist der einzige Tonwertsprung."
+    },
+    {
+     "id": "i2b6528e713",
+     "note": "Meine Einschätzung: Meer und Himmel in wenigen, sehr nahen Grautönen – tonal wie ein Whistler-Nocturne."
+    },
+    {
+     "id": "id61c3f109c",
+     "note": "Meine Einschätzung: Das Gegenteil – ein voller Tonumfang von tiefem Schwarz bis zu hellen Lichtern."
+    }
+   ]
+  },
+  {
+   "key": "linearperspektive",
+   "name": "Linearperspektive und Fluchtpunkt (linear perspective)",
+   "dimension": "surface",
+   "summary_md": "Perspektive ist ein Mittel, auf einer zweidimensionalen Fläche einen überzeugenden Eindruck dreidimensionalen Raums zu erzeugen; die Linearperspektive arbeitet dabei vor allem mit Linien [Q1]. Bekanntestes System ist das von Alberti (De Pictura, 1435): zurückweichende Parallelen scheinen auf einen einzigen Punkt am Horizont zuzulaufen [Q2]. Dieser Punkt heißt Fluchtpunkt [Q3].",
+   "exercise_md": "Stell dich in eine gerade Straße, eine Allee oder auf Bahngleise. Mach ein Bild mit dem Fluchtpunkt genau in der Mitte, eines mit Fluchtpunkt am Rand und eines, in dem du einen Schritt zur Seite gehst, sodass keine Linie mehr auf einen Punkt zuläuft. Wie verändert sich die Tiefe?",
+   "sources": [
+    {
+     "url": "https://www.nationalgallery.org.uk/paintings/glossary/linear-perspective",
+     "title": "National Gallery London, Glossar „Linear perspective“",
+     "excerpt": "Perspective in general is a means of constructing a convincing impression of three-dimensional space on a two-dimensional surface. Linear perspective primarily uses line to produce this effect."
+    },
+    {
+     "url": "https://www.nationalgallery.org.uk/paintings/glossary/linear-perspective",
+     "title": "National Gallery London, Glossar „Linear perspective“",
+     "excerpt": "The best known system of linear perspective is that described by Alberti in his treatise 'On Painting' ('De Pictura', 1435), in which receding parallel lines appear to converge on a single point on the horizon."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/v/vanishing-point",
+     "title": "Tate, Art Term „Vanishing point“",
+     "excerpt": "The point at which receding parallel lines viewed in perspective appear to converge"
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i1af4efe118",
+     "note": "Meine Einschätzung: Straßenrand, Fassaden und Mittellinie laufen auf einen zentralen Fluchtpunkt zu – Raum fast nur aus Linien."
+    },
+    {
+     "id": "ife74fb6ada",
+     "note": "Meine Einschätzung: Die Mittellinie der Straße führt direkt in einen Fluchtpunkt am Horizont – Tiefe und Weite aus einer einzigen Linie."
+    }
+   ]
+  },
+  {
+   "key": "chiaroscuro",
+   "name": "Hell-Dunkel (chiaroscuro)",
+   "dimension": "light",
+   "summary_md": "Chiaroscuro heißt wörtlich „hell-dunkel“ und meint deutliche Tonwertkontraste, mit denen Volumen und Modellierung der dargestellten Dinge angedeutet werden [Q1]. Leonardo nutzte es für einen lebendigen Eindruck von Dreidimensionalität, Caravaggio um der Dramatik willen [Q1]. Beide kannten auch die emotionale Wirkung dieser Effekte [Q1].",
+   "exercise_md": "Such in einer Gasse, einem Tempel oder einer Schlucht eine Stelle, an der hartes Licht auf dunklen Schatten trifft. Belichte auf die Lichter und lass die Schatten absaufen. Fotografiere die Stelle einmal für Plastizität (Licht modelliert eine Form) und einmal für Drama (Licht trennt hart).",
+   "sources": [
+    {
+     "url": "https://www.nationalgallery.org.uk/paintings/glossary/chiaroscuro",
+     "title": "National Gallery London, Glossar „Chiaroscuro“",
+     "excerpt": "This is an Italian term which literally means 'light-dark'. In paintings the description refers to clear tonal contrasts which are often used to suggest the volume and modelling of the subjects depicted. Artists who are famed for the use of chiaroscuro include Leonardo da Vinci and Caravaggio . Leonardo employed it to give a vivid impression of the three-dimensionality of his figures, while Caravaggio used such contrasts for the sake of drama. Both artists were also aware of the emotional impact of these effects."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "ifecf290e27",
+     "note": "Meine Einschätzung: Ein harter diagonaler Schatten teilt die helle Wand, die kleine Figur steht an der Grenze – Hell-Dunkel als Drama."
+    },
+    {
+     "id": "ie5bb70b8b7",
+     "note": "Meine Einschätzung: Licht und Schatten in der Schlucht modellieren die Felswände – Hell-Dunkel für das Volumen der Landschaft."
+    }
+   ]
+  },
+  {
+   "key": "allover",
+   "name": "All-over-Komposition (allover composition)",
+   "dimension": "order",
+   "summary_md": "Komposition ist die Anordnung der Elemente in einem Kunstwerk [Q1]. In der klassischen Tradition sorgten dreieckige oder pyramidale Kompositionen für Gleichgewicht und Harmonie, indem sie die Figuren in eine stabile geometrische Gesamtstruktur fassten [Q2]. Ende der 1940er-Jahre führte Jackson Pollock die sogenannte All-over-Komposition ein; das traditionelle Konzept hieß fortan relationale Komposition [Q3].",
+   "exercise_md": "Fotografiere eine Fläche ohne Zentrum (Reisfelder von oben, Laub, Menschenmenge, Fassade) so, dass jeder Bildteil gleich wichtig ist und das Muster an allen Rändern weiterläuft. Mach danach von derselben Stelle ein relationales Bild mit klarem Hauptmotiv und vergleiche, wie lange du jedes anschaust.",
+   "sources": [
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/c/composition",
+     "title": "Tate, Art Term „Composition“",
+     "excerpt": "Composition is the arrangement of elements within a work of art"
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/c/composition",
+     "title": "Tate, Art Term „Composition“",
+     "excerpt": "In the classical tradition, triangular or pyramidal compositions were used because they created a sense of balance and harmony by arranging the figures into a stable overall geometric structure."
+    },
+    {
+     "url": "https://www.tate.org.uk/art/art-terms/c/composition",
+     "title": "Tate, Art Term „Composition“",
+     "excerpt": "Then in the late 1940s the American abstract expressionist painter, Jackson Pollock, introduced what came to be called allover composition, and the traditional concept became known as relational composition."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i0365451f8f",
+     "note": "Meine Einschätzung: Fenster an Fenster bis an alle vier Ränder, kein Zentrum – die Fassade als All-over-Muster."
+    },
+    {
+     "id": "ifccce59f5b",
+     "note": "Meine Einschätzung: Händler, Monitore und Zettel verteilen sich gleichmäßig über das ganze Bild – kein Element dominiert."
+    },
+    {
+     "id": "icde5f1cd40",
+     "note": "Meine Einschätzung: Platinenreste füllen das Bild fast gleichmäßig – eine All-over-Fläche mit schmalem Waldrand oben."
+    }
+   ]
+  },
+  {
+   "key": "luftbild",
+   "name": "Luftbild (aerial view)",
+   "dimension": "viewpoint",
+   "summary_md": "Für Michael Light bietet der Blick aus der Luft eine Weite des Maßstabs, die direkten Zugang zu den größeren, übergreifenden Themen seiner Arbeit eröffnet [Q1]. Mario Giacomellis erhöhte und Luft-Standpunkte, von Hügeln oder aus einem Kleinflugzeug, verdichten Entfernung und verzerren den Maßstab, sodass das Gelände abstrakt, fast kalligrafisch wirkt [Q2]. Aus der Luft erscheinen die Reste eines Sees bei David Maisel als Blutstrom, Mikrochip oder Galaxienkarte – eine zeitgenössische Form des Erhabenen [Q3]. Burtynsky sucht einen hohen Standpunkt über dem Motiv oder nutzt einen Hubschrauber [Q4].",
+   "exercise_md": "Nutze auf einer Reise einen erhöhten Standpunkt (Aussichtsturm, Hügel, Flugzeugfenster, wo erlaubt Drohne) und fotografiere senkrecht oder steil nach unten, bis du den Maßstab nicht mehr ablesen kannst. Mach danach ein Bild mit einem einzigen Maßstabsträger (Auto, Haus, Schatten) und vergleiche die Wirkung.",
+   "sources": [
+    {
+     "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+     "title": "BLDGBLOG: Spatial Delirium – An Interview with Michael Light (2013)",
+     "excerpt": "The short answer is that the aerial view affords a breadth of scale that offers direct access to many of the bigger, more “meta” themes that have always been of interest to me."
+    },
+    {
+     "url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+     "title": "Danziger Gallery: Mario Giacomelli – Paesaggio",
+     "excerpt": "His elevated and aerial viewpoints — either achieved by shooting from hillsides or taken from a friend’s small plane — compress distance and distort scale, rendering the terrain somewhat abstract, almost calligraphic."
+    },
+    {
+     "url": "https://davidmaisel.com/works/the-lake-project/",
+     "title": "David Maisel: The Lake Project",
+     "excerpt": "Viewed from the air, vestiges of the lake appear as a river of blood, a microchip, a bisected vein, or a galaxy’s map. It is this contemporary version of the sublime that Maisel finds find compelling– a strange beauty born of environmental degradation."
+    },
+    {
+     "url": "https://www.dji.com/altitude/creator-profile-edward-burtynsky-anthropocene",
+     "title": "DJI Altitude: Creator Profile Edward Burtynsky",
+     "excerpt": "He finds a vantage point he can climb to high above his subject, or uses a helicopter to get the right perspective."
+    }
+   ],
+   "example_images": [
+    {
+     "id": "i3a3cf2bd28",
+     "note": "Meine Einschätzung: Der Schatten des Flugzeugs auf der Wüste ist der einzige Maßstab – ohne ihn wäre die Fläche maßstabslos."
+    },
+    {
+     "id": "ib37c82e155",
+     "note": "Meine Einschätzung: Bewässerungskreise reihen sich bis zum Horizont – der schräge Luftblick zeigt das System, nicht den einzelnen Acker."
+    },
+    {
+     "id": "i9cfcda5fd0",
+     "note": "Meine Einschätzung: Der rote Lauf im Seebett wirkt aus der Luft wie eine Ader – Maisels „Erhabenes“ der Zerstörung."
+    }
+   ]
+  }
+ ]
+}

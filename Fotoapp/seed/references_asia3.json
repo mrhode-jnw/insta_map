@@ -1,0 +1,161 @@
+{
+ "accessed_at": "2026-10-27",
+ "references": [
+  {
+   "image_url": "https://www.artic.edu/iiif/2/0c58baaa-23d4-750d-76fc-aa479cd99de8/full/843,/0/default.jpg",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.wgbh.org/news/2017-11-05/photos-an-amazing-eye-for-the-colors-of-india",
+     "title": "Maanvi Singh: PHOTOS: An Amazing Eye For The Colors Of India – NPR, 5. Nov. 2017 (Nachdruck GBH)",
+     "excerpt": "This is an example of him cleverly catching the decisive moment - the diver suspended horizontally in the air, parallel to the surface of the river. It is as if he is bowing to the sacred river.",
+     "author": "Shivji Joshi",
+     "kind": "fotograf"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Singh löst im Scheitelpunkt des Sprungs aus: Der Springer liegt waagerecht in der Luft, parallel zur Wasseroberfläche [Q1]. Joshi liest die Haltung als Verneigung vor dem heiligen Fluss [Q1]. Einen Augenblick früher oder später wäre der Körper schräg und die Parallele zum Wasser verloren.",
+   "checkable": [
+    "Der Springer ist waagerecht in der Luft [Q1]",
+    "Sein Körper liegt parallel zur Wasseroberfläche des Ganges [Q1]"
+   ],
+   "scope_note": "Aussage eines Fotografenkollegen im NPR-Interview (2017) zu genau diesem Bild."
+  },
+  {
+   "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11433416.jpg",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/nn11433416-4/",
+     "title": "Raghu Rai, Trees. India. 2013–2015 (Bildseite mit Text des Fotografen) – Magnum Photos",
+     "excerpt": "India is a hot country, June the hottest month, and it was almost dark when there was a sudden dust storm followed by intense rain-the pearl-like magic drops covered my whole space and how desperately I wanted to capture them all.",
+     "author": "Raghu Rai",
+     "kind": "fotograf"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Stimmung entsteht aus Wetter und Tageszeit: Es war fast dunkel, nach einem Staubsturm kam heftiger Regen, und die Tropfen bedeckten den ganzen Garten [Q1]. Im Bild stehen die Tropfen als helle Punkte vor dem dunklen Himmel – der Garten wirkt wie unter einem Sternenhimmel.",
+   "checkable": [
+    "Fast dunkle Szene, dunkler Hintergrund [Q1]",
+    "Viele helle Tropfen über dem ganzen Bild verteilt [Q1]",
+    "Motiv ist Rais Garten mit Pflanzen [Q1]"
+   ],
+   "scope_note": "Aussage des Fotografen auf der Magnum-Bildseite zu diesem Bild."
+  },
+  {
+   "image_url": "https://www.artic.edu/iiif/2/84a055ce-b078-274a-c80f-8b620b385105/full/843,/0/default.jpg",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://www.takaishiigallery.com/en/archives/38015/",
+     "title": "Yasuhiro Ishimoto „Katsura“ – Taka Ishii Gallery Kyoto, 2024 (Ausstellungstext)",
+     "excerpt": "Ishimoto found a unique rhythm and a modernist beauty in the building's composition, which is divided by blackened pillars, lintels and corridor railings, and by stepping-stones that small paths over the green lawn and velvety moss.",
+     "author": "Taka Ishii Gallery",
+     "kind": "kurator"
+    },
+    {
+     "url": "https://takaishiigallery.com/en/archives/15335",
+     "title": "Yasuhiro Ishimoto „Katsura“ – Taka Ishii Gallery Photography Paris, 2015 (Ausstellungstext)",
+     "excerpt": "This frontalism - perfectly suited to the two dimensions of a plastic screen - is found in the photos of Katsura Villa.",
+     "author": "Taka Ishii Gallery",
+     "kind": "kurator"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild ordnet den Raum über ein Raster: geschwärzte Pfosten, Stürze und Kanten teilen die Fläche in Rechtecke [Q1]. Die Galerie nennt Ishimotos Katsura-Bilder frontal, passend zur Zweidimensionalität der Bildfläche [Q2]. So wird der Innenraum zu einer Komposition aus Linien und hellen Flächen.",
+   "checkable": [
+    "Dunkle Pfosten und Balken gliedern das Bild in Rechtecke [Q1]",
+    "Tatami-Ränder bilden ein Linienraster am Boden [Q1]"
+   ],
+   "scope_note": "Beide Zitate beziehen sich auf die Katsura-Serie insgesamt, nicht auf dieses Einzelbild."
+  },
+  {
+   "image_url": "https://www.artic.edu/iiif/2/925cd0a5-899b-83c3-51cb-b33aa0e7eb1a/full/843,/0/default.jpg",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://aperture.org/?p=48758",
+     "title": "Russet Lederman: Yasuhiro Ishimoto: Katsura – Aperture, 29. Jan. 2016 (Rezension, Peter Blum Gallery)",
+     "excerpt": "Focusing on the stepping-stone paths that snake through Katsura's gardens and the clean geometric lines of the stark interior and exterior spaces, Ishimoto's images emphasize texture and abstract pattern within the minimalism of Katsura's traditional Japanese design.",
+     "author": "Russet Lederman (Aperture)",
+     "kind": "kritik"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Ishimoto richtet den Blick auf die Steinwege und betont Textur und abstraktes Muster [Q1]. Hier steht ein großer, glatter Stein in einem Feld kleinerer, unregelmäßiger Pflastersteine, darüber eine gerade gefügte Steinplatte – grob gegen glatt, rund gegen eckig.",
+   "checkable": [
+    "Bildthema sind Trittsteine und Steinflächen des Gartens [Q1]",
+    "Die Oberflächen der Steine (Textur) sind deutlich sichtbar [Q1]"
+   ],
+   "scope_note": "Rezension zur Katsura-Serie (Aperture 2016), nicht speziell zu #155."
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2017KL7965/full/1600,/0/default.jpg",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O1308731/snm-011v-photograph-bien-u-bae/",
+     "title": "Bae Bien-U, SNM-011V, aus der Serie Sonamu – Victoria and Albert Museum, London",
+     "excerpt": "Over the past 30 years, Bae visited the same place at different seasons, times and weather conditions to record the numerous facets of the forests.",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1308731/snm-011v-photograph-bien-u-bae/",
+     "title": "Bae Bien-U, SNM-011V, aus der Serie Sonamu – Victoria and Albert Museum, London",
+     "excerpt": "His abstracted composition of contorted trunks recalls the wide range of brushstrokes and ink washes found in traditional Korean landscape paintings.",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Bae kehrt zu denselben Kiefernwäldern bei unterschiedlichem Wetter zurück [Q1]; hier ist es Nebel, der die hinteren Stämme zu hellen Grautönen auflöst. Die verdrehten Stämme wirken wie Pinselstriche und Tuschelavierungen der koreanischen Landschaftsmalerei [Q2].",
+   "checkable": [
+    "Verdrehte, gebogene Kiefernstämme [Q2]",
+    "Nach hinten werden die Stämme heller und weicher, wie lavierte Tusche [Q2]"
+   ],
+   "scope_note": "Museumstext zur Serie (V&A), Nebel als Wetterlage ist Abgelesenes."
+  },
+  {
+   "image_url": "https://imgcdn.yicai.com/uppics/images/2022/03/27f9e71de0173ef404bce63e33214609.jpg",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://www.yicai.com/news/101368994.html",
+     "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+     "excerpt": "草地初雪阿坝至果洛途中，沿途都是高原草地，属岷山山脉，地势此起彼伏，海拔在三四千米之间，入秋即下雪，冬季积雪不化，当地藏族牧民骑马外出要背上\"叉子枪\"防身",
+     "author": "Bildlegende aus „西行影纪“",
+     "kind": "kurator"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende beschreibt die Lage: Hochgrasland auf 3000–4000 m zwischen Aba und Golog, der erste Schnee im Herbst, und Hirten, die zum Schutz eine Gabelflinte tragen [Q1]. Der Reiter mit der Waffe auf dem Rücken, allein im weiten, hügeligen Grasland mit Schneeresten, macht Höhe, Kälte und Gefahr der Route sichtbar.",
+   "checkable": [
+    "Weites, hügeliges Hochgrasland [Q1]",
+    "Schnee auf dem Boden (erster Schnee) [Q1]",
+    "Ein Reiter mit Gewehr auf dem Rücken [Q1]"
+   ],
+   "scope_note": "Bildlegende aus dem Buch „西行影纪“ (2021), auf Yicai wiedergegeben; Übersetzung eigene."
+  },
+  {
+   "image_url": "https://imgcdn.yicai.com/uppics/images/2022/03/e95f4987d1f70e999a0b7a08a147ddba.jpg",
+   "dimension": "detail",
+   "sources": [
+    {
+     "url": "https://www.yicai.com/news/101368994.html",
+     "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+     "excerpt": "溜索就是碗口粗的篾缆，横跨两岸，有的是单索，有的是双索。两岸的羌民就凭着这根索子作为交通工具，牛羊粮食也在这上面往来",
+     "author": "Bildlegende aus „西行影纪“",
+     "kind": "kurator"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das entscheidende Detail ist das dünne Seil: ein schüsseldickes Bambusseil über den Fluss, auf dem die Qiang Menschen, Tiere und Getreide hin- und herbringen [Q1]. Der Mann mit seinem Tragkorb hängt allein daran über dem schäumenden Wasser – das Seil ist der ganze Verkehrsweg.",
+   "checkable": [
+    "Ein Mann hängt an einem Seil über einem Fluss [Q1]",
+    "Das Seil ist die einzige Verbindung über das Wasser (Verkehrsweg) [Q1]"
+   ],
+   "scope_note": "Bildlegende aus „西行影纪“ (2021), auf Yicai wiedergegeben; Tragkorb und Wasser am Bild abgelesen."
+  }
+ ]
+}

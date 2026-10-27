@@ -1,0 +1,1409 @@
+{
+ "accessed_at": "2026-10-27",
+ "photographers": [
+  {
+   "key": "gamble",
+   "name": "Sidney D. Gamble",
+   "born": 1890,
+   "died": 1968,
+   "sources": [
+    {
+     "url": "https://today.duke.edu/2013/06/gambleexhibit",
+     "title": "China Gets a Rare Look at Its Pre-Revolutionary History – Duke Today, 6. Juni 2013",
+     "excerpt": "Such was the case with the extensive amateur photographic work of renowned Princeton sociologist and China scholar Sidney Gamble (1890-1968).",
+     "translation_de": "So verhielt es sich mit dem umfangreichen Amateur-Fotowerk des bekannten Princeton-Soziologen und China-Kenners Sidney Gamble (1890–1968)."
+    },
+    {
+     "url": "https://today.duke.edu/2013/06/gambleexhibit",
+     "title": "China Gets a Rare Look at Its Pre-Revolutionary History – Duke Today, 6. Juni 2013",
+     "excerpt": "Gamble took his first images of China in 1908 during a trip with his family. He returned three more times between 1917 and 1932 and continued photographing scenes of daily life while traveling throughout the country to collect data for socioeconomic surveys.",
+     "translation_de": "Gamble machte seine ersten Aufnahmen in China 1908 auf einer Reise mit seiner Familie. Zwischen 1917 und 1932 kehrte er noch dreimal zurück und fotografierte weiter Szenen des Alltags, während er durch das Land reiste, um Daten für sozioökonomische Erhebungen zu sammeln."
+    },
+    {
+     "url": "https://today.duke.edu/2013/06/gambleexhibit",
+     "title": "China Gets a Rare Look at Its Pre-Revolutionary History – Duke Today, 6. Juni 2013",
+     "excerpt": "In 1984, Catherine Curran, Gamble's daughter, discovered a trove of nitrate negatives in a closet in the family's home in New York and hired an archivist to help preserve them.",
+     "translation_de": "1984 entdeckte Gambles Tochter Catherine Curran in einem Schrank im Haus der Familie in New York einen Schatz an Nitratnegativen und beauftragte eine Archivarin, sie zu sichern."
+    }
+   ],
+   "projects": [
+    {
+     "key": "gamble-china-1908-1919",
+     "title": "China unterwegs – Hangzhou, Sichuan, Peking und Kanton (1908–1919)",
+     "year_from": 1908,
+     "year_to": 1919,
+     "sources": [
+      {
+       "url": "https://sites.duke.edu/sidneygamble/files/2013/06/gamble-exhibit-catalog-small.pdf",
+       "title": "Beijing Through Sidney Gamble's Camera, 1917–1932 – Ausstellungskatalog, hg. von Guo-Juin Hong und Luo Zhou (Duke University Libraries 2013)",
+       "excerpt": "Sidney Gamble's photography of China, shot over three trips between 1917 and 1932, represents an extraordinary contribution to the visual archive for an important period in Chinese history from which few images survive today.",
+       "kind": "kurator",
+       "author": "Luo Zhou / Guo-Juin Hong (Katalog)",
+       "aspect": "rezeption",
+       "series_level": true,
+       "translation_de": "Sidney Gambles Fotografien aus China, aufgenommen auf drei Reisen zwischen 1917 und 1932, sind ein außergewöhnlicher Beitrag zum Bildarchiv einer wichtigen Epoche der chinesischen Geschichte, aus der heute nur wenige Bilder erhalten sind."
+      },
+      {
+       "url": "https://sites.duke.edu/sidneygamble/files/2013/06/gamble-exhibit-catalog-small.pdf",
+       "title": "Beijing Through Sidney Gamble's Camera, 1917–1932 – Ausstellungskatalog, hg. von Guo-Juin Hong und Luo Zhou (Duke University Libraries 2013)",
+       "excerpt": "Reexamined a century later, Gamble's work as an amateur, ethnographic photographer presents its intended subject, rural and urban Chinese life in a period of change, in many ways as a background for what chance put in front of his camera-the uncontrolled and uncontrollable effect of the photographer, the ethnographer, the Western.",
+       "kind": "wissenschaft",
+       "author": "Jason Tonio Woerner (Essay im Katalog)",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Ein Jahrhundert später neu betrachtet, zeigt Gambles Werk als Amateur- und ethnografischer Fotograf sein eigentliches Thema – ländliches und städtisches Leben in China im Wandel – in vielerlei Hinsicht als Hintergrund für das, was der Zufall vor seine Kamera brachte: die unkontrollierte und unkontrollierbare Wirkung des Fotografen, des Ethnografen, des Westlers."
+      },
+      {
+       "url": "https://today.duke.edu/2013/06/gambleexhibit",
+       "title": "China Gets a Rare Look at Its Pre-Revolutionary History – Duke Today, 6. Juni 2013",
+       "excerpt": "These carefully designed snapshots provide a great source to look into real life and real people in those turbulent years.",
+       "kind": "kurator",
+       "author": "Luo Zhou (Duke University Libraries)",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Diese sorgfältig angelegten Schnappschüsse sind eine großartige Quelle, um in das wirkliche Leben und die wirklichen Menschen jener unruhigen Jahre zu blicken."
+      },
+      {
+       "url": "https://today.duke.edu/2013/06/gambleexhibit",
+       "title": "China Gets a Rare Look at Its Pre-Revolutionary History – Duke Today, 6. Juni 2013",
+       "excerpt": "These transitions were also marked by new modes of transportation and infrastructure that changed the Chinese landscape and way of life.",
+       "kind": "kurator",
+       "author": "Duke Today",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Dieser Wandel zeigte sich auch in neuen Verkehrsmitteln und neuer Infrastruktur, die die chinesische Landschaft und Lebensweise veränderten."
+      }
+     ],
+     "images": [
+      {
+       "key": "gamble-qiantang-gate",
+       "title": "Qiantang Gate (杭州钱塘门)",
+       "year": 1908,
+       "location": "Qiantang-Tor, Hangzhou, Zhejiang",
+       "tags": [
+        "stadttor",
+        "hangzhou",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Qiantang_Gate.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=907&f=Qiantang+Gate.jpg",
+       "sources": []
+      },
+      {
+       "key": "gamble-yudai-bridge",
+       "title": "Hangzhou Yudai Bridge",
+       "year": 1918,
+       "location": "Yudai-Brücke am Westsee, Hangzhou",
+       "tags": [
+        "brücke",
+        "see",
+        "spiegelung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Yudai_Bridge_1918.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1200&f=Hangzhou+Yudai+Bridge+1918.jpg",
+       "sources": []
+      },
+      {
+       "key": "gamble-qingbo-gate",
+       "title": "City Gate (清波门)",
+       "year": 1919,
+       "location": "Qingbo-Tor, Hangzhou",
+       "tags": [
+        "stadttor",
+        "hangzhou",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:City_Gate_(%E6%B8%85%E6%B3%A2%E9%97%A8).jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1200&f=City+Gate+%28%E6%B8%85%E6%B3%A2%E9%97%A8%29.jpg",
+       "sources": []
+      },
+      {
+       "key": "gamble-gongchen-bridge",
+       "title": "Three-arch Bridge Konztu Chiao (京杭大运河上的拱宸桥)",
+       "year": 1919,
+       "location": "Gongchen-Brücke über den Kaiserkanal, Hangzhou",
+       "tags": [
+        "kanal",
+        "brücke",
+        "boote",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Three-arch_Bridge_Konztu_Chiao.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1200&f=Three-arch+Bridge+Konztu+Chiao.jpg",
+       "sources": []
+      },
+      {
+       "key": "gamble-boat-water-gate",
+       "title": "Boat & Water Gate (货船，凤山水门)",
+       "year": 1919,
+       "location": "Fengshan-Wassertor, Hangzhou",
+       "tags": [
+        "kanal",
+        "boot",
+        "tor",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Boat_%26_Water_Gate.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1200&f=Boat+%26+Water+Gate.jpg",
+       "sources": []
+      },
+      {
+       "key": "gamble-wanzhou-pagoda",
+       "title": "Wanzhou Huilan Pagoda",
+       "year": 1917,
+       "location": "Huilan-Pagode, Wanzhou am Jangtse (heute Chongqing)",
+       "tags": [
+        "pagode",
+        "jangtse",
+        "handkoloriert"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Wanzhou_Huilan_Pagoda_1917.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=912&f=Wanzhou+Huilan+Pagoda+1917.jpg",
+       "sources": []
+      },
+      {
+       "key": "gamble-suining-pagoda",
+       "title": "Suining Guangde Temple Shanji Pagoda",
+       "year": 1917,
+       "location": "Guangde-Tempel, Suining, Sichuan",
+       "tags": [
+        "pagode",
+        "tempel",
+        "sichuan",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Suining_Guangde_Temple_Shanji_Pagoda_1917.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=801&f=Suining+Guangde+Temple+Shanji+Pagoda+1917.jpg",
+       "sources": []
+      },
+      {
+       "key": "gamble-fitch-broken-bridge",
+       "title": "Robert Fitch on broken bridge, So Village, Wenchwan",
+       "year": 1917,
+       "location": "So-Dorf, Wenchuan, Sichuan („Szechwanese Tibet“)",
+       "tags": [
+        "hängebrücke",
+        "reise",
+        "sichuan",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Robert_Fitch_on_Broken_Bridge.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=778&f=Robert+Fitch+on+Broken+Bridge.jpg",
+       "sources": []
+      },
+      {
+       "key": "gamble-peking-wall-moat",
+       "title": "Peking Wall and Moat",
+       "year": null,
+       "location": "Stadtmauer und Wassergraben, Peking (abgebildet in „Peking, a Social Survey“, 1921)",
+       "tags": [
+        "stadtmauer",
+        "peking",
+        "wasser",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:PEKING_WALL_AND_MOAT.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1113&f=PEKING+WALL+AND+MOAT.jpg",
+       "sources": []
+      },
+      {
+       "key": "gamble-canton-boat-life",
+       "title": "Boat Life from Bund Canton",
+       "year": null,
+       "location": "Perlfluss vom Bund aus, Kanton (Guangzhou), 1917–1919",
+       "tags": [
+        "fluss",
+        "boote",
+        "guangzhou",
+        "schwarzweiß"
+       ],
+       "source_url": "https://commons.wikimedia.org/wiki/File:Boat_Life_from_Bund_Canton.jpg",
+       "image_url": "https://commons.wikimedia.org/w/thumb.php?w=1600&f=Boat+Life+from+Bund+Canton.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "zhuang-xueben",
+   "name": "Zhuang Xueben",
+   "born": 1909,
+   "died": 1984,
+   "sources": [
+    {
+     "url": "https://www.yicai.com/news/101368994.html",
+     "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+     "excerpt": "当来自上海的普通职员庄学本，将1934~1942年间在四川、云南、甘肃、青海四省少数民族地区考察时拍摄的照片精选出来举办摄影展时，在成都和重庆引起轰动，吸引了约20万人参观",
+     "translation_de": "Als der einfache Angestellte Zhuang Xueben aus Shanghai eine Auswahl der Fotos, die er 1934–1942 auf Erkundungsreisen in Minderheitengebieten der vier Provinzen Sichuan, Yunnan, Gansu und Qinghai gemacht hatte, ausstellte, erregte das in Chengdu und Chongqing großes Aufsehen und zog rund 200.000 Besucher an."
+    },
+    {
+     "url": "https://www.yicai.com/news/101368994.html",
+     "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+     "excerpt": "想从事步行摄影，用形象的图片介绍祖国的大好山河和兄弟民族，以激励人民抗日保国的热情。",
+     "kind": "fotograf",
+     "author": "Zhuang Xueben (wiedergegeben von seinem Sohn Zhuang Wenjun)",
+     "translation_de": "Ich wollte zu Fuß reisend fotografieren und mit anschaulichen Bildern die herrlichen Berge und Flüsse des Landes und die Brudervölker vorstellen, um die Begeisterung der Menschen für den Widerstand gegen Japan und die Verteidigung des Landes zu wecken."
+    },
+    {
+     "url": "https://www.yicai.com/news/101368994.html",
+     "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+     "excerpt": "热闹散去后，历经各种战乱和政治运动，庄学本的上万张照片丢失大半，余下的或散落在老杂志内，或封存在照相袋里，和主人一起在岁月中逐渐沉寂。",
+     "translation_de": "Nach dem Trubel gingen durch Kriege und politische Kampagnen die meisten seiner über zehntausend Fotos verloren; der Rest lag verstreut in alten Zeitschriften oder versiegelt in Fototaschen und geriet mit seinem Urheber über die Jahre in Vergessenheit."
+    }
+   ],
+   "projects": [
+    {
+     "key": "zhuang-xueben-westward",
+     "title": "西行影纪 – Bilder einer Reise nach Westen (Grenzgebiete Sichuan, Qinghai, Gansu, 1934–1942)",
+     "year_from": 1934,
+     "year_to": 1942,
+     "sources": [
+      {
+       "url": "https://www.yicai.com/news/101368994.html",
+       "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+       "excerpt": "于1934年4月，在嘉戎藏族向导索囊仁清的陪同下，向川西北方向步行出发，从此开始他在西南、西北边疆近十年的\"西行影纪\"。",
+       "kind": "kritik",
+       "author": "Peng Xiaoling (Yicai)",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Im April 1934 brach er, begleitet vom jiarong-tibetischen Führer Sonam Rinchen, zu Fuß in Richtung Nordwest-Sichuan auf – der Beginn seiner fast zehnjährigen „Bilder einer Reise nach Westen“ in den Grenzgebieten des Südwestens und Nordwestens."
+      },
+      {
+       "url": "https://www.yicai.com/news/101368994.html",
+       "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+       "excerpt": "他和当时西方摄影师最大的差异是，始终以一种关爱、亲切、平等的角度来审视边地同胞。",
+       "kind": "kurator",
+       "author": "Ma Xiaofeng (Herausgeber von „西行影纪“)",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Der größte Unterschied zu den westlichen Fotografen seiner Zeit: Er betrachtete die Menschen der Grenzgebiete immer mit Zuneigung, Nähe und auf Augenhöhe."
+      },
+      {
+       "url": "https://www.yicai.com/news/101368994.html",
+       "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+       "excerpt": "有时，为了获取拍摄对象的信任，庄学本还会每拍一个人，就连夜把相片冲洗出来，第二天再派人把照片送到被拍摄者手中",
+       "kind": "kritik",
+       "author": "Peng Xiaoling (Yicai)",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "Um das Vertrauen der Fotografierten zu gewinnen, entwickelte Zhuang Xueben manchmal jedes Porträt noch in derselben Nacht und ließ das Bild am nächsten Tag der fotografierten Person überbringen."
+      }
+     ],
+     "images": [
+      {
+       "key": "zhuang-first-snow-grassland",
+       "title": "草地初雪 (Erster Schnee im Grasland)",
+       "year": null,
+       "location": "Hochgrasland zwischen Aba und Golog (Guoluo), Minshan-Gebirge",
+       "tags": [
+        "hochland",
+        "schnee",
+        "reiter",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.yicai.com/news/101368994.html",
+       "image_url": "https://imgcdn.yicai.com/uppics/images/2022/03/27f9e71de0173ef404bce63e33214609.jpg",
+       "sources": [
+        {
+         "url": "https://www.yicai.com/news/101368994.html",
+         "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+         "excerpt": "草地初雪阿坝至果洛途中，沿途都是高原草地，属岷山山脉，地势此起彼伏，海拔在三四千米之间，入秋即下雪，冬季积雪不化，当地藏族牧民骑马外出要背上\"叉子枪\"防身",
+         "kind": "kurator",
+         "author": "Bildlegende aus „西行影纪“ (in Yicai)",
+         "aspect": "entstehung",
+         "translation_de": "Erster Schnee im Grasland. Auf dem Weg von Aba nach Golog liegt durchgehend Hochgrasland, Teil des Minshan-Gebirges, hügelig, 3000–4000 m hoch; mit dem Herbst kommt Schnee, der im Winter liegen bleibt. Tibetische Hirten tragen beim Ausritt eine „Gabelflinte“ zum Schutz auf dem Rücken."
+        }
+       ]
+      },
+      {
+       "key": "zhuang-longshan-towers",
+       "title": "龙山寨古碉楼 (Alte Wehrtürme von Longshan-zhai)",
+       "year": null,
+       "location": "Longshan-zhai, Westsichuan",
+       "tags": [
+        "wehrtürme",
+        "tal",
+        "gebirge",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.yicai.com/news/101368994.html",
+       "image_url": "https://imgcdn.yicai.com/uppics/images/2022/03/856defe9386f89e2b18da39e6de5b08e.jpg",
+       "sources": [
+        {
+         "url": "https://www.yicai.com/news/101368994.html",
+         "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+         "excerpt": "龙山寨古碉楼",
+         "kind": "kurator",
+         "author": "Bildlegende (Yicai)",
+         "aspect": "entstehung",
+         "translation_de": "Alte Wehrtürme von Longshan-zhai"
+        }
+       ]
+      },
+      {
+       "key": "zhuang-tibetan-herder-girl",
+       "title": "放牧的藏族少女 (Tibetisches Hirtenmädchen)",
+       "year": null,
+       "location": "Hochweide, tibetisches Grenzgebiet",
+       "tags": [
+        "hirtin",
+        "yaks",
+        "tal",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.yicai.com/news/101368994.html",
+       "image_url": "https://imgcdn.yicai.com/uppics/images/2022/03/2ad2c1e769c4a02e257304b57b2b886f.jpg",
+       "sources": [
+        {
+         "url": "https://www.yicai.com/news/101368994.html",
+         "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+         "excerpt": "放牧的藏族少女牧民居无定处，赶着牛羊，时常向水草丰美的草地迁移",
+         "kind": "kurator",
+         "author": "Bildlegende aus „西行影纪“ (in Yicai)",
+         "aspect": "entstehung",
+         "translation_de": "Tibetisches Hirtenmädchen. Die Hirten haben keinen festen Wohnsitz; mit ihren Rindern und Schafen ziehen sie immer wieder zu Weiden mit gutem Wasser und Gras."
+        }
+       ]
+      },
+      {
+       "key": "zhuang-rope-crossing",
+       "title": "溜索 (Seilrutsche über den Fluss)",
+       "year": null,
+       "location": "Qiang-Gebiet, Westsichuan",
+       "tags": [
+        "fluss",
+        "seil",
+        "überquerung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.yicai.com/news/101368994.html",
+       "image_url": "https://imgcdn.yicai.com/uppics/images/2022/03/e95f4987d1f70e999a0b7a08a147ddba.jpg",
+       "sources": [
+        {
+         "url": "https://www.yicai.com/news/101368994.html",
+         "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+         "excerpt": "溜索就是碗口粗的篾缆，横跨两岸，有的是单索，有的是双索。两岸的羌民就凭着这根索子作为交通工具，牛羊粮食也在这上面往来",
+         "kind": "kurator",
+         "author": "Bildlegende aus „西行影纪“ (in Yicai)",
+         "aspect": "entstehung",
+         "translation_de": "Die Seilrutsche ist ein schüsseldickes Bambusseil über den Fluss, mal einfach, mal doppelt. Die Qiang an beiden Ufern nutzen es als Verkehrsweg; auch Rinder, Schafe und Getreide gehen darüber hin und her."
+        }
+       ]
+      },
+      {
+       "key": "zhuang-qiang-zajiu",
+       "title": "咂酒 (Qiang beim Zajiu-Trinken)",
+       "year": null,
+       "location": "Qiang-Gebiet, Westsichuan",
+       "tags": [
+        "ritual",
+        "gemeinschaft",
+        "qiang",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.yicai.com/news/101368994.html",
+       "image_url": "https://imgcdn.yicai.com/uppics/images/2022/03/a5d286d22215a7f82001e5376f4de238.jpg",
+       "sources": [
+        {
+         "url": "https://www.yicai.com/news/101368994.html",
+         "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+         "excerpt": "羌族喜饮用青稞、大麦煮熟拌米曲，装罐发酵酿成的咂酒。每逢喜庆之日，男女老幼围罐而坐，用竹管从罐中吮酒，以示和睦团结，亲如一家",
+         "kind": "kurator",
+         "author": "Bildlegende aus „西行影纪“ (in Yicai)",
+         "aspect": "entstehung",
+         "translation_de": "Die Qiang trinken gern Zajiu: gekochte Hochlandgerste und Gerste, mit Reishefe im Krug vergoren. An Festtagen sitzen Alt und Jung um den Krug und saugen den Wein durch Bambusröhrchen – als Zeichen von Eintracht, wie eine Familie."
+        }
+       ]
+      },
+      {
+       "key": "zhuang-jiarong-noble-girl",
+       "title": "嘉绒贵族少女 (Jiarong-Adelstochter mit Maultrommel)",
+       "year": null,
+       "location": "Jiarong-Gebiet, Westsichuan",
+       "tags": [
+        "porträt",
+        "schmuck",
+        "jiarong",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.yicai.com/news/101368994.html",
+       "image_url": "https://imgcdn.yicai.com/uppics/images/2022/03/8142f5761f9746339d9ebf8f3a7f2694.jpg",
+       "sources": [
+        {
+         "url": "https://www.yicai.com/news/101368994.html",
+         "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+         "excerpt": "嘉绒贵族少女以红珊瑚珠盘成头饰，身穿花衣，腰缠花册，耳戴珊瑚银环，为当时贵族盛行的一种装束。图中少女正在弹口弦，奏时用线扯动竹簧，发声清越",
+         "kind": "kurator",
+         "author": "Bildlegende aus „西行影纪“ (in Yicai)",
+         "aspect": "entstehung",
+         "translation_de": "Jiarong-Adelstöchter trugen roten Korallenschmuck zum Kopfputz geflochten, bestickte Kleider, Gürtel und Ohrringe aus Koralle und Silber – damals die Tracht des Adels. Das Mädchen spielt eine Maultrommel: Mit einem Faden wird die Bambuszunge angerissen, der Ton ist hell und klar."
+        }
+       ]
+      },
+      {
+       "key": "zhuang-ganjiatan-tent-city",
+       "title": "甘家滩帐篷城 (Zeltstadt in der Ganjiatan-Steppe)",
+       "year": null,
+       "location": "Ganjiatan-Grasland bei Kloster Labrang, Gansu",
+       "tags": [
+        "zeltstadt",
+        "steppe",
+        "überblick",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.yicai.com/news/101368994.html",
+       "image_url": "https://imgcdn.yicai.com/uppics/images/2022/03/3f776d9cf35b83e854aad64561b0e54c.jpg",
+       "sources": [
+        {
+         "url": "https://www.yicai.com/news/101368994.html",
+         "title": "彭晓玲: 他用关爱平等的镜头，拍下了80多年前的西南和西北边疆 – 第一财经 (Yicai), 2. April 2022 (Bilder und Legenden aus „庄学本：西行影纪“, Sichuan Fine Arts Publishing/后浪 2021)",
+         "excerpt": "为隆重欢迎九世班禅莅临拉卜楞寺，七八万藏民在广阔的甘家滩草原上先期搭了数百顶花白帐房，使此处成为一座临时帐篷之城",
+         "kind": "kurator",
+         "author": "Bildlegende aus „西行影纪“ (in Yicai)",
+         "aspect": "entstehung",
+         "translation_de": "Um den neunten Panchen Lama feierlich am Kloster Labrang zu empfangen, errichteten 70–80.000 Tibeter vorab auf dem weiten Ganjiatan-Grasland Hunderte weiß gemusterter Zelte – eine provisorische Zeltstadt."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "raghu-rai",
+   "name": "Raghu Rai",
+   "born": 1942,
+   "died": 2026,
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/photographer/raghu-rai/",
+     "title": "Raghu Rai – Photographer Profile, Magnum Photos",
+     "excerpt": "A photograph has picked up a fact of life, and that fact will live forever.",
+     "kind": "fotograf",
+     "author": "Raghu Rai",
+     "translation_de": "Eine Fotografie hat eine Tatsache des Lebens aufgehoben, und diese Tatsache wird für immer leben."
+    },
+    {
+     "url": "https://www.magnumphotos.com/photographer/raghu-rai/",
+     "title": "Raghu Rai – Photographer Profile, Magnum Photos",
+     "excerpt": "He took up photography in 1965, and the following year joined The Statesman newspaper as its chief photographer. Impressed by an exhibit of his work in Paris in 1972, Henri Cartier-Bresson nominated Rai to join Magnum Photos in 1977.",
+     "translation_de": "1965 begann er zu fotografieren, im Jahr darauf wurde er Cheffotograf der Zeitung The Statesman. Beeindruckt von einer Ausstellung seiner Arbeiten in Paris 1972, schlug Henri Cartier-Bresson Rai 1977 für die Aufnahme bei Magnum vor."
+    },
+    {
+     "url": "https://www.millenniumpost.in/nature-inspired-58922",
+     "title": "Nature inspired – Millennium Post, 27. März 2015 (zur Ausstellung „Trees“, New Delhi)",
+     "excerpt": "While travelling on various assignments as a photographer, I picked up saplings of shrubs and trees and brought them home.",
+     "kind": "fotograf",
+     "author": "Raghu Rai",
+     "translation_de": "Wenn ich als Fotograf mit verschiedenen Aufträgen unterwegs war, habe ich Setzlinge von Sträuchern und Bäumen aufgesammelt und mit nach Hause gebracht."
+    }
+   ],
+   "projects": [
+    {
+     "key": "raghu-rai-trees",
+     "title": "Trees (Farbarbeiten, Indien 2013–2015)",
+     "year_from": 2013,
+     "year_to": 2015,
+     "sources": [
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/raghu-rai-trees/",
+       "title": "Of Reverence and Awe: Trees by Raghu Rai – Magnum Photos (Arts & Culture)",
+       "excerpt": "An avid gardener and nature lover, Raghu Rai's photographs were not made in pursuit of a book or exhibition, which he has made many and had plenty of. Instead, we witness his unrelenting and private passion for a subject he had no option but to make photographs of.",
+       "kind": "kurator",
+       "author": "Magnum Photos",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Raghu Rai, leidenschaftlicher Gärtner und Naturliebhaber, hat diese Bilder nicht für ein Buch oder eine Ausstellung gemacht – davon hatte er viele. Wir sehen vielmehr seine unablässige, private Leidenschaft für ein Motiv, das er einfach fotografieren musste."
+      },
+      {
+       "url": "https://www.magnumphotos.com/arts-culture/raghu-rai-trees/",
+       "title": "Of Reverence and Awe: Trees by Raghu Rai – Magnum Photos (Arts & Culture)",
+       "excerpt": "In Raghu Rai's photographs, the tree is idealized for its beauty and mourned when it is destroyed. Through his lens, we experience the tree as a living monument-not only as a graphic symbol but we also observe human presence around it.",
+       "kind": "kurator",
+       "author": "Magnum Photos",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "In Raghu Rais Fotografien wird der Baum für seine Schönheit idealisiert und betrauert, wenn er zerstört ist. Durch sein Objektiv erleben wir den Baum als lebendiges Denkmal – nicht nur als grafisches Zeichen, wir sehen auch die menschliche Gegenwart um ihn herum."
+      },
+      {
+       "url": "https://www.outlooktraveller.com/travelnews/glamping/the-lives-of-trees",
+       "title": "Amita Baviskar: The lives of trees – Outlook Traveller, 2014 (Rezension des Buchs „Trees“)",
+       "excerpt": "They play on light and shade and reflections, and the arresting irregularities of crooked branches, gnarled trunks and twisted roots.",
+       "kind": "kritik",
+       "author": "Amita Baviskar",
+       "aspect": "wirkung",
+       "series_level": true,
+       "translation_de": "Sie spielen mit Licht und Schatten und Spiegelungen und mit den fesselnden Unregelmäßigkeiten krummer Äste, knorriger Stämme und verdrehter Wurzeln."
+      }
+     ],
+     "images": [
+      {
+       "key": "rai-trees-night-rain-garden",
+       "title": "Trees, India, 2013–2015 [Garten bei Nacht im Regen]",
+       "year": null,
+       "location": "Rais Farmland bei Delhi, Indien",
+       "tags": [
+        "garten",
+        "regen",
+        "nacht",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/nn11433416-4/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11433416.jpg",
+       "sources": [
+        {
+         "url": "https://www.magnumphotos.com/nn11433416-4/",
+         "title": "Raghu Rai, Trees. India. 2013–2015 (Bildseite mit Text des Fotografen) – Magnum Photos",
+         "excerpt": "India is a hot country, June the hottest month, and it was almost dark when there was a sudden dust storm followed by intense rain-the pearl-like magic drops covered my whole space and how desperately I wanted to capture them all.",
+         "kind": "fotograf",
+         "author": "Raghu Rai",
+         "aspect": "entstehung",
+         "translation_de": "Indien ist ein heißes Land, der Juni der heißeste Monat, und es war fast dunkel, als plötzlich ein Staubsturm kam und danach heftiger Regen – die perlenartigen, magischen Tropfen bedeckten meinen ganzen Garten, und wie verzweifelt wollte ich sie alle festhalten."
+        },
+        {
+         "url": "https://www.magnumphotos.com/nn11433416-4/",
+         "title": "Raghu Rai, Trees. India. 2013–2015 (Bildseite mit Text des Fotografen) – Magnum Photos",
+         "excerpt": "When passion is charged with intensity, intuition provides you the freedom to capture something beyond that which is known.",
+         "kind": "fotograf",
+         "author": "Raghu Rai",
+         "aspect": "deutung",
+         "translation_de": "Wenn Leidenschaft mit Intensität aufgeladen ist, gibt einem die Intuition die Freiheit, etwas jenseits des Bekannten festzuhalten."
+        }
+       ]
+      },
+      {
+       "key": "rai-trees-dead-tree-clouds",
+       "title": "Trees, India, 2013–2015 [Abgestorbener Baum vor Gewitterhimmel]",
+       "year": null,
+       "location": "Indien",
+       "tags": [
+        "baum",
+        "gewitterhimmel",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/nn11433424/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11433424.jpg",
+       "sources": []
+      },
+      {
+       "key": "rai-trees-long-shadows",
+       "title": "Trees, India, 2013–2015 [Lange Schatten über einer Wiese]",
+       "year": null,
+       "location": "Indien",
+       "tags": [
+        "schatten",
+        "wiese",
+        "wolken",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/nn11433425/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11433425.jpg",
+       "sources": []
+      },
+      {
+       "key": "rai-trees-banyan-roots",
+       "title": "Trees, India, 2013–2015 [Wurzeln eines großen Baums, Läufer]",
+       "year": null,
+       "location": "Indien",
+       "tags": [
+        "wurzeln",
+        "schatten",
+        "mensch",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/nn11433399/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11433399.jpg",
+       "sources": []
+      },
+      {
+       "key": "rai-trees-shadow-on-rock",
+       "title": "Trees, India, 2013–2015 [Baumschatten auf Felsrücken]",
+       "year": null,
+       "location": "Indien",
+       "tags": [
+        "schatten",
+        "fels",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/nn11433423/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11433423.jpg",
+       "sources": []
+      },
+      {
+       "key": "rai-trees-green-tunnel",
+       "title": "Trees, India, 2013–2015 [Straße durch einen Baumtunnel, Bewegungsunschärfe]",
+       "year": null,
+       "location": "Indien",
+       "tags": [
+        "straße",
+        "bewegung",
+        "baumtunnel",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/nn11433433/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11433433.jpg",
+       "sources": []
+      },
+      {
+       "key": "rai-trees-fog-field",
+       "title": "Trees, India, 2013–2015 [Bäume im Nebel über einem Acker]",
+       "year": null,
+       "location": "Indien",
+       "tags": [
+        "nebel",
+        "acker",
+        "baum",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/nn11433408/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11433408.jpg",
+       "sources": []
+      },
+      {
+       "key": "rai-trees-dead-trunks",
+       "title": "Trees, India, 2013–2015 [Abgestorbene Stämme im Dunst]",
+       "year": null,
+       "location": "Indien",
+       "tags": [
+        "dunst",
+        "baumstümpfe",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/nn11433395/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11433395.jpg",
+       "sources": []
+      },
+      {
+       "key": "rai-trees-torn-billboard",
+       "title": "Trees, India, 2013–2015 [Zerrissenes Wahlplakat vor Bäumen im Nebel]",
+       "year": null,
+       "location": "Indien",
+       "tags": [
+        "plakat",
+        "nebel",
+        "wald",
+        "farbe"
+       ],
+       "source_url": "https://www.magnumphotos.com/nn11433440/",
+       "image_url": "https://www.magnumphotos.com/wp-content/uploads/2016/05/cortex/nn11433440.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "raghubir-singh",
+   "name": "Raghubir Singh",
+   "born": 1942,
+   "died": 1999,
+   "sources": [
+    {
+     "url": "https://www.wgbh.org/news/2017-11-05/photos-an-amazing-eye-for-the-colors-of-india",
+     "title": "Maanvi Singh: PHOTOS: An Amazing Eye For The Colors Of India – NPR, 5. Nov. 2017 (Nachdruck GBH)",
+     "excerpt": "In the early 1970s, when many professional photographers were shooting in black and white, Raghubir Singh pioneered the use of color film to capture scenes from his homeland India.",
+     "translation_de": "Anfang der 1970er-Jahre, als viele Berufsfotografen schwarzweiß arbeiteten, war Raghubir Singh ein Pionier des Farbfilms, um Szenen aus seiner Heimat Indien festzuhalten."
+    },
+    {
+     "url": "https://www.artforum.com/columns/raghubir-singh-1942-1999-162780/",
+     "title": "Raghubir Singh, 1942–1999 – Artforum (Nachruf 1999)",
+     "excerpt": "Born and raised in Jaipur, Rajasthan, he eschewed the tradition of black-and-white photography in his thirteen books of images of India: Indeed, he considered color to be intrinsic to the culture of the subcontinent.",
+     "translation_de": "Geboren und aufgewachsen in Jaipur, Rajasthan, mied er in seinen dreizehn Indien-Bildbänden die Tradition der Schwarzweißfotografie: Farbe hielt er für wesenhaft für die Kultur des Subkontinents."
+    },
+    {
+     "url": "https://www.wgbh.org/news/2017-11-05/photos-an-amazing-eye-for-the-colors-of-india",
+     "title": "Maanvi Singh: PHOTOS: An Amazing Eye For The Colors Of India – NPR, 5. Nov. 2017 (Nachdruck GBH)",
+     "excerpt": "The fundamental condition of India, however, is the cycle of rebirth, in which color is not just an essential element but also a deep inner source.",
+     "kind": "fotograf",
+     "author": "Raghubir Singh, River of Colour (1998)",
+     "translation_de": "Die Grundbedingung Indiens aber ist der Kreislauf der Wiedergeburt, in dem Farbe nicht nur ein wesentliches Element ist, sondern auch eine tiefe innere Quelle."
+    },
+    {
+     "url": "https://openthemagazine.com/art-culture/master-picture-perfect",
+     "title": "Rosalyn D'Mello: Master Picture Perfect – Open Magazine, 2015",
+     "excerpt": "My subject is never beauty as seen in abjection, but the lyric poetry inherent in the life of India: the high range of the colouratura of everyday India.",
+     "kind": "fotograf",
+     "author": "Raghubir Singh, River of Colour (1998)",
+     "translation_de": "Mein Thema ist nie die Schönheit, wie man sie im Elend sieht, sondern die lyrische Poesie, die dem Leben Indiens innewohnt: die hohe Koloratur des indischen Alltags."
+    }
+   ],
+   "projects": [
+    {
+     "key": "raghubir-singh-river-of-colour",
+     "title": "River of Colour – Indien in Farbe (Auswahl 1980–1994)",
+     "year_from": 1980,
+     "year_to": 1994,
+     "sources": [
+      {
+       "url": "https://aperture.org/editorial/india-full-color/",
+       "title": "Max Campbell: India in Full Color – Aperture, 27. Okt. 2017 (Rezension „Modernism on the Ganges“)",
+       "excerpt": "Together, these projects form an inimitable map of Indian culture, drawn in the vivid hues of Kodachrome, and mesh modernist photography with Indian aesthetic traditions.",
+       "kind": "kritik",
+       "author": "Max Campbell (Aperture)",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Zusammen bilden diese Projekte eine unnachahmliche Karte der indischen Kultur, gezeichnet in den leuchtenden Tönen von Kodachrome, und verbinden modernistische Fotografie mit indischen Bildtraditionen."
+      },
+      {
+       "url": "https://aperture.org/editorial/india-full-color/",
+       "title": "Max Campbell: India in Full Color – Aperture, 27. Okt. 2017 (Rezension „Modernism on the Ganges“)",
+       "excerpt": "Space collapses and divides itself in Singh's photographs, and his compositions move with speed from men and women to painted and sculpted figures, to animals, to cars, and across landscapes.",
+       "kind": "kritik",
+       "author": "Max Campbell (Aperture)",
+       "aspect": "wirkung",
+       "series_level": true,
+       "translation_de": "In Singhs Fotografien fällt der Raum in sich zusammen und teilt sich, und seine Kompositionen springen schnell von Männern und Frauen zu gemalten und gemeißelten Figuren, zu Tieren, zu Autos und über Landschaften."
+      },
+      {
+       "url": "https://www.artforum.com/columns/raghubir-singh-1942-1999-162780/",
+       "title": "Raghubir Singh, 1942–1999 – Artforum (Nachruf 1999)",
+       "excerpt": "his photographs-masterfully framed images, often taken through doorways and windows or from reflections off glass and water-are products of his insights into the multicultural makeup of this disparate country",
+       "kind": "kritik",
+       "author": "Artforum (Nachruf)",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "seine Fotografien – meisterhaft gerahmte Bilder, oft durch Türen und Fenster oder über Spiegelungen in Glas und Wasser aufgenommen – sind Ergebnisse seiner Einsicht in die multikulturelle Zusammensetzung dieses vielgestaltigen Landes"
+      },
+      {
+       "url": "https://openthemagazine.com/art-culture/master-picture-perfect",
+       "title": "Rosalyn D'Mello: Master Picture Perfect – Open Magazine, 2015",
+       "excerpt": "35-mm camera with a fixed wide-angle lens, quick, almost snapshot-style shooting, using the full frame but applying it to colour",
+       "kind": "fotograf",
+       "author": "Ram Rahman (Fotograf), zitiert in Open Magazine",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "35-mm-Kamera mit fest eingesetztem Weitwinkel, schnelles, fast schnappschussartiges Fotografieren, das volle Format genutzt – aber angewandt auf Farbe"
+      }
+     ],
+     "images": [
+      {
+       "key": "rsingh-man-diving-benares",
+       "title": "Man Diving, Ganges Floods, Benares, Uttar Pradesh",
+       "year": 1985,
+       "location": "Ganges-Hochwasser, Benares (Varanasi)",
+       "tags": [
+        "fluss",
+        "hochwasser",
+        "sprung",
+        "farbe"
+       ],
+       "source_url": "https://www.artic.edu/artworks/151872",
+       "image_url": "https://www.artic.edu/iiif/2/0c58baaa-23d4-750d-76fc-aa479cd99de8/full/843,/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://www.wgbh.org/news/2017-11-05/photos-an-amazing-eye-for-the-colors-of-india",
+         "title": "Maanvi Singh: PHOTOS: An Amazing Eye For The Colors Of India – NPR, 5. Nov. 2017 (Nachdruck GBH)",
+         "excerpt": "This is an example of him cleverly catching the decisive moment - the diver suspended horizontally in the air, parallel to the surface of the river. It is as if he is bowing to the sacred river.",
+         "kind": "fotograf",
+         "author": "Shivji Joshi (Fotograf, im NPR-Interview)",
+         "aspect": "wirkung",
+         "translation_de": "Das ist ein Beispiel dafür, wie geschickt er den entscheidenden Augenblick erwischt – der Springer schwebt waagerecht in der Luft, parallel zur Wasseroberfläche. Es ist, als verneige er sich vor dem heiligen Fluss."
+        }
+       ]
+      },
+      {
+       "key": "rsingh-dal-lake-rowing",
+       "title": "Mother and Daughter Rowing to Their Island Home, Dal Lake",
+       "year": 1980,
+       "location": "Dal-See, Srinagar, Kaschmir",
+       "tags": [
+        "see",
+        "boot",
+        "spiegelung",
+        "farbe"
+       ],
+       "source_url": "https://www.artic.edu/artworks/151880",
+       "image_url": "https://www.artic.edu/iiif/2/e28c514b-66af-b472-01c9-1910f806040d/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "rsingh-monsoon-teatime-ooty",
+       "title": "Monsoon and Teatime, Ooty",
+       "year": 1994,
+       "location": "Ooty (Udhagamandalam), Tamil Nadu",
+       "tags": [
+        "monsun",
+        "windschutzscheibe",
+        "regen",
+        "farbe"
+       ],
+       "source_url": "https://www.artic.edu/artworks/151884",
+       "image_url": "https://www.artic.edu/iiif/2/2eb10a9a-3b8d-68ac-43e3-d93b19ce13c1/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "rsingh-pavement-mirror-shop",
+       "title": "Pavement Mirror Shop, Howrah, West Bengal",
+       "year": 1991,
+       "location": "Howrah, Westbengalen",
+       "tags": [
+        "spiegel",
+        "straße",
+        "menge",
+        "farbe"
+       ],
+       "source_url": "https://www.artic.edu/artworks/151874",
+       "image_url": "https://www.artic.edu/iiif/2/2a5e2f7d-a9e7-ee75-c8e9-6174fb93397d/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "rsingh-barber-goddess-kali",
+       "title": "Barber and Goddess Kali, Calcutta, West Bengal",
+       "year": 1987,
+       "location": "Kalkutta (Kolkata)",
+       "tags": [
+        "götterfigur",
+        "straße",
+        "farbe"
+       ],
+       "source_url": "https://www.artic.edu/artworks/151876",
+       "image_url": "https://www.artic.edu/iiif/2/391727ab-f4cf-ad63-ddcf-36eb14ee4e6e/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "rsingh-crawford-market",
+       "title": "Crawford Market, Mumbai, Maharashtra",
+       "year": 1993,
+       "location": "Crawford Market, Mumbai",
+       "tags": [
+        "markt",
+        "tee",
+        "menge",
+        "farbe"
+       ],
+       "source_url": "https://www.artic.edu/artworks/151878",
+       "image_url": "https://www.artic.edu/iiif/2/d3c55f2d-0148-05c2-ea7f-e4dd314948a5/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "rsingh-folk-musicians-mathura-road",
+       "title": "Itinerant Folk Musicians, Mathura-Delhi Road",
+       "year": 1992,
+       "location": "Landstraße Mathura–Delhi",
+       "tags": [
+        "straße",
+        "musiker",
+        "kinder",
+        "farbe"
+       ],
+       "source_url": "https://www.artic.edu/artworks/151882",
+       "image_url": "https://www.artic.edu/iiif/2/69be4ca6-dccb-c13d-106f-8a898a2bf9b2/full/843,/0/default.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ishimoto",
+   "name": "Yasuhiro Ishimoto",
+   "born": 1921,
+   "died": 2012,
+   "sources": [
+    {
+     "url": "https://www.takaishiigallery.com/en/archives/38015/",
+     "title": "Yasuhiro Ishimoto „Katsura“ – Taka Ishii Gallery Kyoto, 2024 (Ausstellungstext)",
+     "excerpt": "In 1948 after the war, Ishimoto entered the Institute of Design (ID) carrying on the tradition of Bauhaus and was taught by Aaron Siskind and Harry Callahan.",
+     "translation_de": "1948, nach dem Krieg, trat Ishimoto in das Institute of Design (ID) ein, das die Bauhaus-Tradition fortführte, und lernte bei Aaron Siskind und Harry Callahan."
+    },
+    {
+     "url": "https://aperture.org/?p=48758",
+     "title": "Russet Lederman: Yasuhiro Ishimoto: Katsura – Aperture, 29. Jan. 2016 (Rezension, Peter Blum Gallery)",
+     "excerpt": "(He developed an early interest in photography while he was interned at the Granada [\"Amache\"] Relocation Center in Colorado during World War II.)",
+     "translation_de": "(Sein frühes Interesse an der Fotografie entwickelte er, als er im Zweiten Weltkrieg im Granada-[„Amache“-]Relocation Center in Colorado interniert war.)"
+    },
+    {
+     "url": "https://takaishiigallery.com/en/archives/15335",
+     "title": "Yasuhiro Ishimoto „Katsura“ – Taka Ishii Gallery Photography Paris, 2015 (Ausstellungstext)",
+     "excerpt": "What Yasuhiro Ishimoto offers is a vision that respects tradition, but is also radically different, personal and rooted in the avant-garde, belying the heritage of a life spent crossing borders.",
+     "kind": "kurator",
+     "translation_de": "Yasuhiro Ishimoto bietet einen Blick, der die Tradition achtet, aber zugleich radikal anders, persönlich und in der Avantgarde verwurzelt ist – das Erbe eines Lebens zwischen den Grenzen."
+    }
+   ],
+   "projects": [
+    {
+     "key": "ishimoto-katsura",
+     "title": "Katsura (Kaiserliche Villa Katsura, Kyoto, 1953–1954)",
+     "year_from": 1953,
+     "year_to": 1954,
+     "sources": [
+      {
+       "url": "https://aperture.org/?p=48758",
+       "title": "Russet Lederman: Yasuhiro Ishimoto: Katsura – Aperture, 29. Jan. 2016 (Rezension, Peter Blum Gallery)",
+       "excerpt": "A recent graduate of Chicago's Institute of Design, where his studies under Harry Callahan and Aaron Siskind merged modern American photography with Bauhaus design theory, Ishimoto immediately recognized Katsura as a modern subject.",
+       "kind": "kritik",
+       "author": "Russet Lederman (Aperture)",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Als frischer Absolvent des Chicagoer Institute of Design, wo sein Studium bei Harry Callahan und Aaron Siskind moderne amerikanische Fotografie mit Bauhaus-Gestaltungslehre verband, erkannte Ishimoto Katsura sofort als modernes Motiv."
+      },
+      {
+       "url": "https://aperture.org/?p=48758",
+       "title": "Russet Lederman: Yasuhiro Ishimoto: Katsura – Aperture, 29. Jan. 2016 (Rezension, Peter Blum Gallery)",
+       "excerpt": "In 1954, armed with his 4 x 5 German Linhof camera, Ishimoto returned to Katsura for a month-long stay.",
+       "kind": "kritik",
+       "author": "Russet Lederman (Aperture)",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "1954 kehrte Ishimoto mit seiner deutschen 4x5-Zoll-Linhof für einen Monat nach Katsura zurück."
+      },
+      {
+       "url": "https://www.takaishiigallery.com/en/archives/38015/",
+       "title": "Yasuhiro Ishimoto „Katsura“ – Taka Ishii Gallery Kyoto, 2024 (Ausstellungstext)",
+       "excerpt": "Ishimoto found a unique rhythm and a modernist beauty in the building's composition, which is divided by blackened pillars, lintels and corridor railings, and by stepping-stones that small paths over the green lawn and velvety moss.",
+       "kind": "kurator",
+       "author": "Taka Ishii Gallery",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Ishimoto fand einen eigenen Rhythmus und eine modernistische Schönheit im Aufbau des Gebäudes, das durch geschwärzte Pfeiler, Stürze und Geländer gegliedert ist, und in den Trittsteinen, die als kleine Pfade über Rasen und samtiges Moos führen."
+      },
+      {
+       "url": "https://www.takaishiigallery.com/en/archives/38015/",
+       "title": "Yasuhiro Ishimoto „Katsura“ – Taka Ishii Gallery Kyoto, 2024 (Ausstellungstext)",
+       "excerpt": "The following year, 1954, he devoted a month to black-and-white photography, using a shift lens. With a respect for the harmony that characterizes all aspects of the villa and a desire to reflect this in his photographs, he pursued the purity of form and line, the pictorial quality of light and its various values.",
+       "kind": "kurator",
+       "author": "Taka Ishii Gallery",
+       "aspect": "technik",
+       "series_level": true,
+       "translation_de": "Im folgenden Jahr, 1954, widmete er einen Monat der Schwarzweißfotografie, mit einem Shift-Objektiv. Aus Achtung vor der Harmonie, die alle Teile der Villa prägt, und mit dem Wunsch, sie in seinen Bildern zu spiegeln, verfolgte er die Reinheit von Form und Linie, die bildhafte Qualität des Lichts und seine Abstufungen."
+      },
+      {
+       "url": "https://takaishiigallery.com/en/archives/15335",
+       "title": "Yasuhiro Ishimoto „Katsura“ – Taka Ishii Gallery Photography Paris, 2015 (Ausstellungstext)",
+       "excerpt": "This frontalism - perfectly suited to the two dimensions of a plastic screen - is found in the photos of Katsura Villa.",
+       "kind": "kurator",
+       "author": "Taka Ishii Gallery",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Diese Frontalität – ideal für die Zweidimensionalität einer Bildfläche – findet sich in den Fotos der Villa Katsura."
+      }
+     ],
+     "images": [
+      {
+       "key": "ishimoto-katsura-152-shoin",
+       "title": "#152, Katsura Villa",
+       "year": 1954,
+       "location": "Kaiserliche Villa Katsura, Kyoto",
+       "tags": [
+        "innenraum",
+        "tatami",
+        "raster",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/151772",
+       "image_url": "https://www.artic.edu/iiif/2/84a055ce-b078-274a-c80f-8b620b385105/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "ishimoto-katsura-150-gate-path",
+       "title": "#150, Katsura Villa",
+       "year": 1954,
+       "location": "Kaiserliche Villa Katsura, Kyoto",
+       "tags": [
+        "tor",
+        "trittsteine",
+        "garten",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/151771",
+       "image_url": "https://www.artic.edu/iiif/2/54746a5a-6cb8-8849-50f2-9f93fce85181/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "ishimoto-katsura-155-stones",
+       "title": "#155, Katsura Villa",
+       "year": 1954,
+       "location": "Kaiserliche Villa Katsura, Kyoto",
+       "tags": [
+        "steine",
+        "pflaster",
+        "aufsicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/151774",
+       "image_url": "https://www.artic.edu/iiif/2/925cd0a5-899b-83c3-51cb-b33aa0e7eb1a/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "ishimoto-katsura-stone-moss-stone",
+       "title": "Katsura: Stone, Moss, Stone",
+       "year": 1954,
+       "location": "Kaiserliche Villa Katsura, Kyoto",
+       "tags": [
+        "stein",
+        "moos",
+        "oberfläche",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/14605",
+       "image_url": "https://www.artic.edu/iiif/2/b52e8314-babf-5f82-2ccf-35ac4f924c5b/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "ishimoto-katsura-night-rain-lantern",
+       "title": "Katsura: The Night Rain Lantern",
+       "year": "1955/60",
+       "location": "Kaiserliche Villa Katsura, Kyoto",
+       "tags": [
+        "laterne",
+        "teich",
+        "garten",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/14603",
+       "image_url": "https://www.artic.edu/iiif/2/2b8a684d-69d7-eb3f-1481-c3eb26546508/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "ishimoto-katsura-gepparo-plaque",
+       "title": "„Singing of the Moon“ Plaque in the Gepparo",
+       "year": 1954,
+       "location": "Gepparō-Teehaus, Villa Katsura, Kyoto",
+       "tags": [
+        "teehaus",
+        "durchblick",
+        "garten",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/147291",
+       "image_url": "https://www.artic.edu/iiif/2/6861facd-f386-d6b2-9fce-8f873297092a/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "ishimoto-katsura-shokintei-interior",
+       "title": "Interior of the Shokintei Tearoom",
+       "year": 1954,
+       "location": "Shōkintei-Teehaus, Villa Katsura, Kyoto",
+       "tags": [
+        "innenraum",
+        "teehaus",
+        "flächen",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/147301",
+       "image_url": "https://www.artic.edu/iiif/2/34e3dab4-6cd8-7baa-662d-89662636d257/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "ishimoto-katsura-shoiken-rooms",
+       "title": "Untitled (View of the Third Room from the Second Room of the Shoiken)",
+       "year": 1954,
+       "location": "Shōiken, Villa Katsura, Kyoto",
+       "tags": [
+        "innenraum",
+        "raumfolge",
+        "tatami",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.artic.edu/artworks/147314",
+       "image_url": "https://www.artic.edu/iiif/2/628b3546-a498-42cf-060b-443754fe5cdd/full/843,/0/default.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "bae-bien-u",
+   "name": "Bae Bien-U",
+   "born": 1950,
+   "died": null,
+   "sources": [
+    {
+     "url": "https://collection.societegenerale.com/en/artworks/snm5a-011h-2014-sonamu-1848",
+     "title": "BAE Bien-U, snm5a-011h, 2014 (Sonamu) – Collection d'art Société Générale",
+     "excerpt": "Bae Bien-U was born in 1950 in Yeosu (South Korea).",
+     "translation_de": "Bae Bien-U wurde 1950 in Yeosu (Südkorea) geboren."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1308731/snm-011v-photograph-bien-u-bae/",
+     "title": "Bae Bien-U, SNM-011V, aus der Serie Sonamu – Victoria and Albert Museum, London",
+     "excerpt": "In the 1970s, Bae trained as a designer at Hong-Ik University, and was influenced by Moholy-Nagy's light experiments and Edward Weston's still-life imagery and nature photographs.",
+     "kind": "museum",
+     "translation_de": "In den 1970er-Jahren wurde Bae an der Hong-Ik-Universität zum Designer ausgebildet und war von Moholy-Nagys Lichtexperimenten sowie Edward Westons Stillleben und Naturfotografien beeinflusst."
+    },
+    {
+     "url": "https://collection.societegenerale.com/en/artworks/snm5a-011h-2014-sonamu-1848",
+     "title": "BAE Bien-U, snm5a-011h, 2014 (Sonamu) – Collection d'art Société Générale",
+     "excerpt": "According to him,\"pine trees are symbols of the souls of theKorean people.\"",
+     "kind": "fotograf",
+     "author": "Bae Bien-U (zitiert von Société Générale)",
+     "translation_de": "Ihm zufolge sind „Kiefern Symbole der Seele des koreanischen Volkes“."
+    },
+    {
+     "url": "https://www.axel-vervoordt.com/gallery/exhibitions/bae-bien-u-counterbalance",
+     "title": "Bae Bien-U, Counterbalance – Axel Vervoordt Gallery Antwerpen 2014 (Ausstellungstext)",
+     "excerpt": "Bae returns to the same places over and over again, in order to photograph different parts of the same landscape. Photography for him is a ritual, a meditation.",
+     "kind": "kurator",
+     "translation_de": "Bae kehrt immer wieder an dieselben Orte zurück, um verschiedene Teile derselben Landschaft zu fotografieren. Fotografie ist für ihn ein Ritual, eine Meditation."
+    }
+   ],
+   "projects": [
+    {
+     "key": "bae-sonamu",
+     "title": "Sonamu (Kiefern von Gyeongju, seit 1984)",
+     "year_from": 1984,
+     "year_to": 2015,
+     "sources": [
+      {
+       "url": "https://collections.vam.ac.uk/item/O1308731/snm-011v-photograph-bien-u-bae/",
+       "title": "Bae Bien-U, SNM-011V, aus der Serie Sonamu – Victoria and Albert Museum, London",
+       "excerpt": "Bae is especially drawn to the lush pine forests in Gyeongju, the ancient capital of the Silla Kingdom (57BC-936). The trees here are planted on the hills surrounding the city as memorials to the kings of the Silla dynasty. Over the past 30 years, Bae visited the same place at different seasons, times and weather conditions to record the numerous facets of the forests.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Bae zieht es besonders in die dichten Kiefernwälder von Gyeongju, der alten Hauptstadt des Silla-Reichs (57 v. Chr.–936). Die Bäume stehen auf den Hügeln rund um die Stadt, gepflanzt zum Gedenken an die Silla-Könige. In den letzten 30 Jahren besuchte Bae denselben Ort zu verschiedenen Jahreszeiten, Tageszeiten und bei verschiedenem Wetter, um die vielen Seiten dieser Wälder festzuhalten."
+      },
+      {
+       "url": "https://collections.vam.ac.uk/item/O1308731/snm-011v-photograph-bien-u-bae/",
+       "title": "Bae Bien-U, SNM-011V, aus der Serie Sonamu – Victoria and Albert Museum, London",
+       "excerpt": "His abstracted composition of contorted trunks recalls the wide range of brushstrokes and ink washes found in traditional Korean landscape paintings. He is also known for not retouching his photographs, echoing the practice of traditional landscape paintings that were made in one sitting.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Seine abstrahierte Komposition verdrehter Stämme erinnert an die Bandbreite von Pinselstrichen und Tuschelavierungen der traditionellen koreanischen Landschaftsmalerei. Bekannt ist er auch dafür, seine Fotografien nicht zu retuschieren – wie die traditionelle Landschaftsmalerei, die in einer Sitzung entstand."
+      },
+      {
+       "url": "https://www.axel-vervoordt.com/gallery/exhibitions/bae-bien-u-bae-bien-u-part-meet",
+       "title": "Bae Bien-U, 分合 – PART:MEET – Axel Vervoordt Gallery Hongkong 2016 (Ausstellungstext)",
+       "excerpt": "It appears to be peaceful and in perfect vertical balance, yet its surface hides a chaotic constellation of swarming roots.",
+       "kind": "kurator",
+       "author": "Axel Vervoordt Gallery",
+       "aspect": "wirkung",
+       "series_level": true,
+       "translation_de": "Er wirkt friedlich und in vollkommenem senkrechtem Gleichgewicht, doch unter seiner Oberfläche verbirgt sich ein chaotisches Geflecht wimmelnder Wurzeln."
+      }
+     ],
+     "images": [
+      {
+       "key": "bae-sonamu-snm-011v",
+       "title": "SNM-011V (Sonamu)",
+       "year": null,
+       "location": "Kiefernwald bei Gyeongju, Südkorea (Abzug 2014)",
+       "tags": [
+        "kiefern",
+        "nebel",
+        "wald",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O1308731/snm-011v-photograph-bien-u-bae/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2017KL5834/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "bae-sonamu-snm-012h",
+       "title": "SNM-012H (Sonamu – Pine Tree)",
+       "year": null,
+       "location": "Kiefernwald bei Gyeongju, Südkorea (Abzug 2014, Silbergelatine, 125 × 250 cm)",
+       "tags": [
+        "kiefern",
+        "nebel",
+        "panorama",
+        "schwarzweiß"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O1308732/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2017KL7965/full/1600,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "bae-sonamu-snm-040h",
+       "title": "SNM-040H (Sonamu)",
+       "year": 1992,
+       "location": "Kiefernwald, Südkorea",
+       "tags": [
+        "kiefern",
+        "silhouetten",
+        "gegenlicht",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.axel-vervoordt.com/gallery/artists/bae-bien-u",
+       "image_url": "https://axel-vervoordt.s3.amazonaws.com/gallery/artists/_default_4/SNM-040H_1992.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hamaya",
+   "name": "Hiroshi Hamaya",
+   "born": 1915,
+   "died": 1999,
+   "sources": [
+    {
+     "url": "https://ibashogallery.com/artists/99-hiroshi-hamaya/",
+     "title": "Hiroshi Hamaya – Künstlerseite, IBASHO Gallery Antwerpen",
+     "excerpt": "Although he traveled abroad extensively, both as a freelance photographer and as a contributing photographer for Magnum Photos, Hiroshi Hamaya (1915-1999) is best known for his images of Japan.",
+     "translation_de": "Obwohl er als freier Fotograf und als Mitarbeiter von Magnum Photos viel im Ausland reiste, ist Hiroshi Hamaya (1915–1999) vor allem für seine Bilder Japans bekannt."
+    },
+    {
+     "url": "https://post.moma.org/hamaya-hiroshi-the-faces-of-postwar-japan/",
+     "title": "Linda Hoaglund: Hamaya Hiroshi: The Faces of Postwar Japan – post (MoMA), 22. Jan. 2020",
+     "excerpt": "I want to take souls of whatever objects which I catch with my camera. This is my attitude always.",
+     "kind": "fotograf",
+     "author": "Hiroshi Hamaya (Photograph Record, MoMA, 1959)",
+     "translation_de": "Ich möchte die Seelen aller Dinge einfangen, die ich mit meiner Kamera erfasse. Das ist immer meine Haltung."
+    },
+    {
+     "url": "https://post.moma.org/hamaya-hiroshi-the-faces-of-postwar-japan/",
+     "title": "Linda Hoaglund: Hamaya Hiroshi: The Faces of Postwar Japan – post (MoMA), 22. Jan. 2020",
+     "excerpt": "Hamaya Hiroshi's favorite subject was the human being.",
+     "kind": "kurator",
+     "author": "Linda Hoaglund",
+     "translation_de": "Hamaya Hiroshis Lieblingsthema war der Mensch."
+    }
+   ],
+   "projects": [
+    {
+     "key": "hamaya-rural-japan",
+     "title": "Das ländliche Japan: Yukiguni, Ura Nihon und spätere Reisen (1955–1964)",
+     "year_from": 1955,
+     "year_to": 1964,
+     "sources": [
+      {
+       "url": "https://ibashogallery.com/artists/99-hiroshi-hamaya/",
+       "title": "Hiroshi Hamaya – Künstlerseite, IBASHO Gallery Antwerpen",
+       "excerpt": "Two publications from the 1950s, Yukiguni (Snow Land, 1956) and Ura Nihon (Japan's Back Coast, 1957), best represent Hamaya's abiding interest in the ancient rituals, timeless farming practices, and rites of daily life in rural Japan.",
+       "kind": "kurator",
+       "author": "IBASHO Gallery",
+       "aspect": "entstehung",
+       "series_level": true,
+       "translation_de": "Zwei Publikationen der 1950er-Jahre, Yukiguni (Schneeland, 1956) und Ura Nihon (Japans Rückseite, 1957), zeigen am besten Hamayas anhaltendes Interesse an alten Ritualen, zeitlosen bäuerlichen Arbeitsweisen und den Riten des Alltags im ländlichen Japan."
+      },
+      {
+       "url": "https://ibashogallery.com/artists/99-hiroshi-hamaya/",
+       "title": "Hiroshi Hamaya – Künstlerseite, IBASHO Gallery Antwerpen",
+       "excerpt": "As Hamaya pointed out in the book's essay, this was a land that the sun did not favour and that had been left largely untouched by the prosperity of postwar Japan.",
+       "kind": "kurator",
+       "author": "IBASHO Gallery",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Wie Hamaya im Essay des Buches betonte, war dies ein Land, das die Sonne nicht begünstigte und das vom Wohlstand des Nachkriegsjapans weitgehend unberührt geblieben war."
+      },
+      {
+       "url": "https://post.moma.org/hamaya-hiroshi-the-faces-of-postwar-japan/",
+       "title": "Linda Hoaglund: Hamaya Hiroshi: The Faces of Postwar Japan – post (MoMA), 22. Jan. 2020",
+       "excerpt": "he captured the hardscrabble lives of villagers in their stark natural environment in remote Japan.",
+       "kind": "kurator",
+       "author": "Linda Hoaglund (MoMA post)",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "er hielt das karge Leben der Dorfbewohner in ihrer rauen Natur im abgelegenen Japan fest."
+      }
+     ],
+     "images": [
+      {
+       "key": "hamaya-spear-fishing-hokkaido",
+       "title": "Spear Fishing, Hokkaido, from 'Ura Nihon' (Japan's Back Coast)",
+       "year": 1957,
+       "location": "Hokkaido, Japan",
+       "tags": [
+        "küste",
+        "schnee",
+        "boot",
+        "schwarzweiß"
+       ],
+       "source_url": "https://ibashogallery.com/artists/99-hiroshi-hamaya/works/1138-hiroshi-hamaya-spear-fishing-hokkaido-from-ura-nihon-japan-s-back-1957/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/ibashogallery/images/view/2fc1d15fde4423983b7baa746c0b8e15j/ibasho-hiroshi-hamaya-spear-fishing-hokkaido-from-ura-nihon-japan-s-back-coast-1957.jpg",
+       "sources": []
+      },
+      {
+       "key": "hamaya-woman-planting-rice-toyama",
+       "title": "A woman planting rice, Toyama, Japan",
+       "year": 1955,
+       "location": "Toyama, Japan",
+       "tags": [
+        "reisfeld",
+        "arbeit",
+        "schlamm",
+        "schwarzweiß"
+       ],
+       "source_url": "https://ibashogallery.com/artists/99-hiroshi-hamaya/works/5880-hiroshi-hamaya-a-woman-planting-rice-toyama-japan-1955/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/ibashogallery/images/view/1b0d57270cbbc34d90e6ba11fc0d9b74j/ibasho-hiroshi-hamaya-a-woman-planting-rice-toyama-japan-1955.jpg",
+       "sources": []
+      },
+      {
+       "key": "hamaya-imagami-onsen",
+       "title": "Imagami Onsen, Yamagata Prefecture",
+       "year": 1964,
+       "location": "Imagami Onsen, Präfektur Yamagata",
+       "tags": [
+        "onsen",
+        "kerzen",
+        "ritual",
+        "schwarzweiß"
+       ],
+       "source_url": "https://ibashogallery.com/artists/99-hiroshi-hamaya/works/2076-hiroshi-hamaya-imagami-onsen-yamagata-prefecture-1964/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/ibashogallery/images/view/e7f5dcbaa92f693ff5a18306d662e367j/ibasho-hiroshi-hamaya-imagami-onsen-yamagata-prefecture-1964.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 1,
+   "title": "Expeditions- und Reisefotografie des 19. Jahrhunderts",
+   "key_images": [
+    "gamble-gongchen-bridge",
+    "gamble-yudai-bridge",
+    "gamble-wanzhou-pagoda",
+    "gamble-fitch-broken-bridge"
+   ]
+  },
+  {
+   "number": 11,
+   "title": "Die Reise als Autorenprojekt: Roadtrip, Fremde, Blick von außen",
+   "key_images": [
+    "zhuang-first-snow-grassland",
+    "zhuang-longshan-towers",
+    "zhuang-rope-crossing",
+    "zhuang-ganjiatan-tent-city"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Farbe wird ernst genommen: die Farbfotografen der 70er",
+   "key_images": [
+    "rsingh-man-diving-benares",
+    "rsingh-dal-lake-rowing",
+    "rsingh-pavement-mirror-shop",
+    "rsingh-monsoon-teatime-ooty"
+   ]
+  },
+  {
+   "number": 12,
+   "title": "Landschaftsfotografie: vom Erhabenen zur intimen Landschaft",
+   "key_images": [
+    "bae-sonamu-snm-011v",
+    "bae-sonamu-snm-012h",
+    "rai-trees-fog-field",
+    "rai-trees-shadow-on-rock",
+    "rai-trees-night-rain-garden"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Die große Landschaftsfotografie in Schwarzweiß",
+   "key_images": [
+    "ishimoto-katsura-stone-moss-stone",
+    "ishimoto-katsura-155-stones",
+    "bae-sonamu-snm-040h"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Der entscheidende Augenblick: Straßenfotografie und die Gründung von Magnum",
+   "key_images": [
+    "hamaya-spear-fishing-hokkaido",
+    "hamaya-woman-planting-rice-toyama"
+   ]
+  }
+ ]
+}

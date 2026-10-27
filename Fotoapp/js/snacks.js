@@ -107,7 +107,7 @@ function candidates(type) {
     case "cquote": return lib.sources.filter(s => s.scope === "concept" && lib.by.concepts.get(s.scope_id) && s.excerpt.length < 420).map(s => String(s.id));
     case "skline": return p.sketches.map((d, i) => d.kurz ? String(i) : null).filter(Boolean);
     case "place": return p.places;
-    case "est": return lib.numbers.map((x, n) => x.min != null && x.max != null && x.max > x.min ? String(n) : null).filter(Boolean);
+    case "est": return lib.numbers.map((x, n) => x.min != null && x.max != null && x.max > x.min && (x.quantity !== "abzug" || n % 3 === 0) ? String(n) : null).filter(Boolean); // print sizes: rarely
     case "infl": return lib.influences.map((_, n) => String(n));
     case "const": return lib.constants.map((x, n) => x.constants.length && x.decoys.length >= 2 && (p.byProj[x.project_id] || []).length >= 3 ? String(n) : null).filter(Boolean);
     case "cloze": return lib.cloze.map((x, n) => lib.by.sources.get(x.source_id) ? String(n) : null).filter(Boolean);
