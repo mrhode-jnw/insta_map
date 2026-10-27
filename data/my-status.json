@@ -583,7 +583,8 @@
  },
  "cn-liziba-station-monorail-durchs-haus": {
   "fav": true,
-  "prio": "hoch"
+  "prio": "hoch",
+  "done": true
  },
  "cn-yalan-international-rooftop-dach": {
   "fav": true,
