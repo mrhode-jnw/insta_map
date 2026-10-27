@@ -114,7 +114,7 @@ class Library:
                 "accessed_at": s.get("accessed_at") or accessed, "scope": scope, "scope_id": scope_id,
             })
             # expert voices carry who said it and about what
-            for k in ("kind", "author", "aspect", "series_level"):
+            for k in ("kind", "author", "aspect", "series_level", "translation_de", "topic"):
                 if s.get(k):
                     entry[k] = s[k]
             ids.append(sid)
