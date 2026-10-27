@@ -464,3 +464,8 @@ button.big { font-size: 1.05rem; padding: 12px 22px; }
 .snack-opts.thumbs3:is([style*="--n:5"], [style*="--n:6"], [style*="--n:7"], [style*="--n:8"]) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .snack-map { height: 46vh; min-height: 260px; border-radius: 4px; margin: 6px 0 12px; background: #0e1012; }
 .snack-geo .snack-img img { max-height: 28vh; }
+.snack .chip.right { border-color: var(--ok); background: rgba(143, 196, 154, .16); opacity: 1; }
+.snack .chip.right::before { content: "✓ "; color: var(--ok); }
+.snack .chip.wrong::before { content: "✗ "; color: var(--danger); }
+.snack-multi .thumbs.mini { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; margin-bottom: 10px; }
+.snack-multi .thumbs.mini img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; }

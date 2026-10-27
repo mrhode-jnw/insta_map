@@ -1,0 +1,588 @@
+{
+ "accessed_at": "2026-10-27",
+ "sequences": [
+  {
+   "key": "emerson-east-anglian-life-portfolio",
+   "photographer": "Peter Henry Emerson",
+   "book": "Mappe „Pictures of East Anglian Life“ (1890, 10 Fotogravüren), Tafeln 3–10",
+   "images": [
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2015HP1963/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O190908/",
+     "title": "Tafel 3: A Stiff Pull"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2015HP1969/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O190907/",
+     "title": "Tafel 4: Colts on a Norfolk Marsh"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2015HP1970/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O1313845/",
+     "title": "Tafel 5: The Fringe of the Mere"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2015HP1962/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O1313846/",
+     "title": "Tafel 6: A March Pastoral"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2015HP1960/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O1313847/",
+     "title": "Tafel 7: Where winds the Dike"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2015HP1961/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O131194/",
+     "title": "Tafel 8: In the Barley Harvest"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2008BV6046/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O190905/",
+     "title": "Tafel 9: A Toad in the Path - Early Spring in Norfolk"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2015HP1964/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O1313848/",
+     "title": "Tafel 10: Haymaker with Rake"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O190908/",
+     "title": "Victoria and Albert Museum, O190908",
+     "excerpt": "Photograph, 'A Stiff Pull', by Peter Henry Emerson, photogravure, Plate 3, from the 'Pictures of East Anglian Life' portfolio, 1890",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O190907/",
+     "title": "Victoria and Albert Museum, O190907",
+     "excerpt": "Photograph, 'Colts on a Norfolk Marsh', by Peter Henry Emerson,photogravure, Plate 4, from the 'Pictures of East Anglian Life' portfolio, 1890",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313845/",
+     "title": "Victoria and Albert Museum, O1313845",
+     "excerpt": "Photograph, 'The Fringe of the Mere', by Peter Henry Emerson, photogravure, Plate 5,  from the 'Pictures of East Anglian Life' portfolio, 1890",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313846/",
+     "title": "Victoria and Albert Museum, O1313846",
+     "excerpt": "Photograph, 'A March Pastoral', by Peter Henry Emerson, photogravure, Plate 6, from the 'Pictures of East Anglian Life' portfolio, 1890",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313847/",
+     "title": "Victoria and Albert Museum, O1313847",
+     "excerpt": "Photograph, 'Where winds the Dike', by Peter Henry Emerson, photogravure, Plate 7, from the 'Pictures of East Anglian Life' portfolio, 1890",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O131194/",
+     "title": "Victoria and Albert Museum, O131194",
+     "excerpt": "Photograph, 'In the Barley Harvest', by Peter Henry Emerson, photogravure, Plate 8, from the 'Pictures of East Anglian Life' portfolio, 1890",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O190905/",
+     "title": "Victoria and Albert Museum, O190905",
+     "excerpt": "Photograph, 'A Toad in the Path - Early Spring in Norfolk', by Peter Henry Emerson, photogravure, Plate 9, from the 'Pictures of East Anglian Life' portfolio, 1890",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1313848/",
+     "title": "Victoria and Albert Museum, O1313848",
+     "excerpt": "Photograph, 'Haymaker with Rake', by Peter Henry Emerson, photogravure, Plate 10, from the 'Pictures of East Anglian Life' portfolio, 1890",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    }
+   ],
+   "answer_de": "Das V&A verzeichnet bei jeder Fotogravüre die Tafelnummer der Mappe von 1890: „A Stiff Pull“ ist Tafel 3, „Colts on a Norfolk Marsh“ Tafel 4, „The Fringe of the Mere“ Tafel 5, „A March Pastoral“ Tafel 6, „Where winds the Dike“ Tafel 7, „In the Barley Harvest“ Tafel 8, „A Toad in the Path“ Tafel 9 und „Haymaker with Rake“ Tafel 10 [Q1][Q2][Q3][Q4][Q5][Q6][Q7][Q8]. Emerson stellte die zehn Blätter 1890 aus seinem Buch von 1888 zusammen, um seine Ideen zur Schärfe zu zeigen [Q5]. Meine Einschätzung: Arbeit (Pflug, Pferde, Ernte) wechselt mit stillen Marschbildern ab."
+  },
+  {
+   "key": "tripe-ryakotta-album",
+   "photographer": "Linnaeus Tripe",
+   "book": "Album „Photographic Views of Ryakotta and other places in the Salem District“ (1858), Nr. I–VIII",
+   "images": [
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0072/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O131221/",
+     "title": "Nr. I: Ryakotta Hill"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0073/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O131225/",
+     "title": "Nr. II: Idgah and Tomb at Ryakotta"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0075/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O131226/",
+     "title": "Nr. III: Gate of the Hill Fort Ryakotta"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0074/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O131227/",
+     "title": "Nr. IV: View looking back on the gate of the Fort from the ruined terrace behind"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0076/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O131228/",
+     "title": "Nr. V: View of the country looking N. N. W. from the top of the Ryacotta Hill"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0077/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O131229/",
+     "title": "Nr. VI: Small Temple and swing at Bikampulli"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0078/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O131230/",
+     "title": "Nr. VII: Virabadra Drug as seen from near the site of the last view"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0080/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O131231/",
+     "title": "Nr. VIII: Remains of the Fort at Palkod"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O131221/",
+     "title": "Victoria and Albert Museum, O131221",
+     "excerpt": "Photograph, No. I 'Ryakotta Hill', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views of Ryacotta'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O131225/",
+     "title": "Victoria and Albert Museum, O131225",
+     "excerpt": "Photograph, No. II 'Idgah and Tomb at Ryakotta', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views of Ryacotta'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O131226/",
+     "title": "Victoria and Albert Museum, O131226",
+     "excerpt": "Photograph, No. III 'Gate of the Hill Fort Ryakotta', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views of Ryacotta'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O131227/",
+     "title": "Victoria and Albert Museum, O131227",
+     "excerpt": "Photograph, No. IV 'View looking back on the gate of the Fort from the ruined terrace behind', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views of Ryacotta'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O131228/",
+     "title": "Victoria and Albert Museum, O131228",
+     "excerpt": "Photograph, No. V 'View of the country looking N. N. W. from the top of the Ryacotta Hill', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views of Ryacotta'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O131229/",
+     "title": "Victoria and Albert Museum, O131229",
+     "excerpt": "Photograph, No. VI 'Small Temple and swing at Bikampulli', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views of Ryacotta'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O131230/",
+     "title": "Victoria and Albert Museum, O131230",
+     "excerpt": "Photograph, No. VII 'Virabadra Drug as seen from near the site of the last view', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views of Ryacotta'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O131231/",
+     "title": "Victoria and Albert Museum, O131231",
+     "excerpt": "Photograph, No. VIII 'Remains of the Fort at Palkod', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views of Ryacotta'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    }
+   ],
+   "answer_de": "Das V&A nummeriert die Blätter des Albums mit römischen Ziffern: Nr. I „Ryakotta Hill“, II „Idgah and Tomb“, III „Gate of the Hill Fort“, IV der Blick zurück auf das Tor, V die Aussicht vom Gipfel nach Nordnordwest, VI der kleine Tempel in Bikampulli, VII „Virabadra Drug as seen from near the site of the last view“ und VIII die Reste des Forts von Palkod [Q1][Q2][Q3][Q4][Q5][Q6][Q7][Q8]. Meine Einschätzung: Die Folge ist wie ein Weg aufgebaut – vom Berg aus der Ferne über das Tor bis auf den Gipfel und dann weiter ins Umland; Titel wie „from near the site of the last view“ setzen die Reihenfolge ausdrücklich voraus [Q7]."
+  },
+  {
+   "key": "tripe-tanjore-album",
+   "photographer": "Linnaeus Tripe",
+   "book": "Album „Photographic Views in Tanjore and Trivady“ (1858), Nr. I–VIII",
+   "images": [
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0026/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O130848/",
+     "title": "Nr. 1: Tanjore Fort, The Wall and Ditch"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0028/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O130852/",
+     "title": "Nr. II: The Monster Gun of Tanjore"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0030/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O130853/",
+     "title": "Nr. III: The Palace and interjacent part of the Town"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0029/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O130854/",
+     "title": "Nr. IV: The Seven storied Tower of the Palace"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0031/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O130855/",
+     "title": "Nr. V: Facade on the W. Side of the Nayakar Durbar Hill"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0033/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O130856/",
+     "title": "Nr. VI: Sivaji"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0032/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O130857/",
+     "title": "Nr. VII: South Facade of the Quadrangle of the Nayakar Durbar Hill"
+    },
+    {
+     "image_url": "https://framemark.vam.ac.uk/collections/2007BM0034/full/1600,/0/default.jpg",
+     "source_url": "https://collections.vam.ac.uk/item/O130858/",
+     "title": "Nr. VIII: Great Pagoda from the Fort Glacis"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O130848/",
+     "title": "Victoria and Albert Museum, O130848",
+     "excerpt": "Photograph, No. 1 'Tanjore Fort, The Wall and Ditch', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views in Tanjore and Trivady'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O130852/",
+     "title": "Victoria and Albert Museum, O130852",
+     "excerpt": "Photograph, No. II 'The Monster Gun of Tanjore', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views in Tanjore and Trivady'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O130853/",
+     "title": "Victoria and Albert Museum, O130853",
+     "excerpt": "Photograph, No. III 'The Palace and interjacent part of the Town', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views in Tanjore and Trivady'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O130854/",
+     "title": "Victoria and Albert Museum, O130854",
+     "excerpt": "Photograph, No. IV 'The Seven storied Tower of the Palace', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views in Tanjore and Trivady'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O130855/",
+     "title": "Victoria and Albert Museum, O130855",
+     "excerpt": "Photograph, No. V 'Facade on the W. Side of the Nayakar Durbar Hill', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views in Tanjore and Trivady'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O130856/",
+     "title": "Victoria and Albert Museum, O130856",
+     "excerpt": "Photograph, No. VI 'Sivaji's Statue', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views in Tanjore and Trivady'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O130857/",
+     "title": "Victoria and Albert Museum, O130857",
+     "excerpt": "Photograph, No. VII 'South Facade of the Quadrangle of the Nayakar Durbar Hill', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views in Tanjore and Trivady'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O130858/",
+     "title": "Victoria and Albert Museum, O130858",
+     "excerpt": "Photograph, No. VIII 'Great Pagoda from the Fort Glacis', from the photograph album by Capt. Linnaeus Tripe, 'Photographic Views in Tanjore and Trivady'; South India, 1858",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    }
+   ],
+   "answer_de": "Auch dieses Album ist beim V&A Blatt für Blatt nummeriert: Es beginnt mit Mauer und Graben des Forts (Nr. 1) und der „Monster Gun“ (II), führt über Palast und Stadt (III), den siebenstöckigen Palastturm (IV), zwei Fassaden der Durbar-Halle (V, VII) und die Shivaji-Statue (VI) bis zur Großen Pagode vom Glacis des Forts aus (VIII) [Q1][Q2][Q3][Q4][Q5][Q6][Q7][Q8]. Meine Einschätzung: Tripe ordnet wie ein Rundgang – von außen (Befestigung) nach innen (Palast) und dann zum Tempel."
+  },
+  {
+   "key": "thomson-illustrations-of-china",
+   "photographer": "John Thomson",
+   "book": "Illustrations of China and Its People (1873–74), Bd. II–IV, Auswahl in Buchreihenfolge",
+   "images": [
+    {
+     "image_url": "https://iiif.wellcomecollection.org/image/V0036773/full/1600,/0/default.jpg",
+     "source_url": "https://wellcomecollection.org/works/zawqbb2m",
+     "title": "Bd. II, Taf. VIII, Abb. 19: Chao-chow-fu bridge"
+    },
+    {
+     "image_url": "https://iiif.wellcomecollection.org/image/L0056091/full/1600,/0/default.jpg",
+     "source_url": "https://wellcomecollection.org/works/mrxj8kqn",
+     "title": "Bd. III, Taf. III, Abb. 4: Sung-Lng-Day Fall, Snowy Valley"
+    },
+    {
+     "image_url": "https://iiif.wellcomecollection.org/image/L0055877/full/1600,/0/default.jpg",
+     "source_url": "https://wellcomecollection.org/works/yvpzn5wv",
+     "title": "Bd. III, Taf. IV, Abb. 7: Shanghai Bund in 1869"
+    },
+    {
+     "image_url": "https://iiif.wellcomecollection.org/image/L0056197/full/1600,/0/default.jpg",
+     "source_url": "https://wellcomecollection.org/works/msnvua58",
+     "title": "Bd. IV, Taf. XXII, Abb. 53: A Pekingese Camel"
+    },
+    {
+     "image_url": "https://iiif.wellcomecollection.org/image/L0056153/full/1600,/0/default.jpg",
+     "source_url": "https://wellcomecollection.org/works/bkfjdepv",
+     "title": "Bd. IV, Taf. XXIII, Abb. 55: The Nankow Pass"
+    },
+    {
+     "image_url": "https://iiif.wellcomecollection.org/image/L0056157/full/1600,/0/default.jpg",
+     "source_url": "https://wellcomecollection.org/works/fjh2q3s4",
+     "title": "Bd. IV, Taf. XXIV: The Great Wall of China"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://wellcomecollection.org/works/zawqbb2m",
+     "title": "Wellcome Collection, Glasnegativ von John Thomson (Literaturhinweis)",
+     "excerpt": "John Thomson, Illustrations of China and its people, vol. 2, pl. VIII, fig. 19, \"Chao-chow-fu bridge\"",
+     "kind": "museum",
+     "author": "Wellcome Collection"
+    },
+    {
+     "url": "https://wellcomecollection.org/works/mrxj8kqn",
+     "title": "Wellcome Collection, Glasnegativ von John Thomson (Literaturhinweis)",
+     "excerpt": "John Thomson, Illustrations of China and its people, London, 1873-4, vol. III pl. III fig. 4. \"Sung-Lng-Day Fall, Snowy Valley\"",
+     "kind": "museum",
+     "author": "Wellcome Collection"
+    },
+    {
+     "url": "https://wellcomecollection.org/works/yvpzn5wv",
+     "title": "Wellcome Collection, Glasnegativ von John Thomson (Literaturhinweis)",
+     "excerpt": "John Thomson, Illustrations of China and its people, London, 1873-4, vol. III pl. IV, fig. 7. \"Shanghai Bund in 1869\"",
+     "kind": "museum",
+     "author": "Wellcome Collection"
+    },
+    {
+     "url": "https://wellcomecollection.org/works/msnvua58",
+     "title": "Wellcome Collection, Glasnegativ von John Thomson (Literaturhinweis)",
+     "excerpt": "John Thomson, Illustrations of China and its people, London, 1873-4, vol IV pl. XXII fig. 53. \"A Pekingese Camel\"",
+     "kind": "museum",
+     "author": "Wellcome Collection"
+    },
+    {
+     "url": "https://wellcomecollection.org/works/bkfjdepv",
+     "title": "Wellcome Collection, Glasnegativ von John Thomson (Literaturhinweis)",
+     "excerpt": "John Thomson, Illustrations of China and its people, London, 1873-4, vol. IV, pl. XXIII, fig. 55 \"The Nankow Pass\"",
+     "kind": "museum",
+     "author": "Wellcome Collection"
+    },
+    {
+     "url": "https://wellcomecollection.org/works/fjh2q3s4",
+     "title": "Wellcome Collection, Glasnegativ von John Thomson (Literaturhinweis)",
+     "excerpt": "John Thomson, Illustrations of China and its people, London, 1873-4, vol. IV, pl XXIV, \"The Great Wall of China\"",
+     "kind": "museum",
+     "author": "Wellcome Collection"
+    }
+   ],
+   "answer_de": "Die Wellcome Collection nennt zu jedem Glasnegativ Band, Tafel und Abbildungsnummer im Buch von 1873–74 [Q1][Q2][Q3][Q4][Q5][Q6]. Daraus ergibt sich die Folge: Brücke von Chao-chow-fu (Bd. II, Taf. VIII), Wasserfall im Schneetal und der Bund von Shanghai (Bd. III, Taf. III–IV), dann Kamel, Nankou-Pass und Große Mauer (Bd. IV, Taf. XXII–XXIV). Meine Einschätzung: Das Buch reist von Süden nach Norden – Band IV endet in Peking und an der Mauer. Die Bilder hier sind Scans von Thomsons Glasnegativen (mit Beschädigungen am Rand); im Buch erschienen sie als Lichtdrucke, der Ausschnitt kann abweichen. Zwei Bibliotheksbilder (Stereonegative zu Bd. II, Taf. XX) sind bewusst weggelassen."
+  },
+  {
+   "key": "godwin-land-1985",
+   "photographer": "Fay Godwin",
+   "book": "Land (London: Heinemann, 1985), Seiten 16–95, Auswahl in Buchreihenfolge",
+   "images": [
+    {
+     "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/18202112/2007.335_01_b02-web.jpg",
+     "source_url": "https://www.sfmoma.org/artwork/2007.335/",
+     "title": "S. 16: Four Trees, Rannoch Moor (1981)"
+    },
+    {
+     "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/20192759/PH07.235_01_b02-web.jpg",
+     "source_url": "https://www.sfmoma.org/artwork/2007.341/",
+     "title": "S. 41: Stones of Stenness, Orkney (1979)"
+    },
+    {
+     "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/17214637/2007.337_01_b02-web.jpg",
+     "source_url": "https://www.sfmoma.org/artwork/2007.337/",
+     "title": "S. 71: Paved Path and Reservoir above Lumbutts (1977)"
+    },
+    {
+     "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/18202059/PH07.236_01_b02-web.jpg",
+     "source_url": "https://www.sfmoma.org/artwork/2007.340/",
+     "title": "S. 89: St. Thomas à Becket Church, Fairfield (1980)"
+    },
+    {
+     "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/18202142/2007.336_01_b02-web.jpg",
+     "source_url": "https://www.sfmoma.org/artwork/2007.336/",
+     "title": "S. 95: Montacute House, Somerset (1982)"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://searcharchives.bl.uk/catalog/041-003204890",
+     "title": "British Library, Godwin-Archiv, Katalogeintrag 041-003204890",
+     "excerpt": "Published in 'Land' (London: Heinemann, 1985) p.16.",
+     "kind": "museum",
+     "author": "British Library"
+    },
+    {
+     "url": "https://searcharchives.bl.uk/catalog/041-003204997",
+     "title": "British Library, Godwin-Archiv, Katalogeintrag 041-003204997",
+     "excerpt": "Published in 'Land' (London: Heinemann, 1985) p.41.",
+     "kind": "museum",
+     "author": "British Library"
+    },
+    {
+     "url": "https://searcharchives.bl.uk/catalog/041-003204916",
+     "title": "British Library, Godwin-Archiv, Katalogeintrag 041-003204916",
+     "excerpt": "'Land' (London: Heinemann, 1985) p.71",
+     "kind": "museum",
+     "author": "British Library"
+    },
+    {
+     "url": "https://searcharchives.bl.uk/catalog/041-003204898",
+     "title": "British Library, Godwin-Archiv, Katalogeintrag 041-003204898",
+     "excerpt": "also published in 'Land' (London: Heinemann, 1985) p.89.",
+     "kind": "museum",
+     "author": "British Library"
+    },
+    {
+     "url": "https://searcharchives.bl.uk/catalog/041-003204911",
+     "title": "British Library, Godwin-Archiv, Katalogeintrag 041-003204911",
+     "excerpt": "and in 'Land' (London: Heinemann, 1985) p.95.",
+     "kind": "museum",
+     "author": "British Library"
+    }
+   ],
+   "answer_de": "Die British Library verzeichnet bei Godwins Ausstellungsabzügen die Seite im Buch „Land“: Rannoch Moor auf S. 16, Stenness auf S. 41, Lumbutts auf S. 71, Fairfield auf S. 89 und Montacute auf S. 95 [Q1][Q2][Q3][Q4][Q5]. Meine Einschätzung: Das Buch beginnt mit offener Wildnis und endet bei Kulturlandschaft und Gärten – vom leeren Moor zum gestutzten Baum."
+  },
+  {
+   "key": "barnard-shermans-campaign",
+   "photographer": "George N. Barnard",
+   "book": "Photographic Views of Sherman’s Campaign (1866), Tafeln 19–26 (Resaca bis New Hope Church)",
+   "images": [
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ds/16800/16802/024v.jpg",
+     "source_url": "https://www.loc.gov/resource/ds.16802/?sp=24",
+     "title": "Tafel 19: Battleground of Resacca, Ga., no. 1 (Albumseite)"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ds/16800/16802/025v.jpg",
+     "source_url": "https://www.loc.gov/resource/ds.16802/?sp=25",
+     "title": "Tafel 20: Battleground of Resacca, Ga., no. 2 (Albumseite)"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ds/16800/16802/026v.jpg",
+     "source_url": "https://www.loc.gov/resource/ds.16802/?sp=26",
+     "title": "Tafel 21: Battleground of Resacca, Ga., no. 3 (Albumseite)"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ds/16800/16802/027v.jpg",
+     "source_url": "https://www.loc.gov/resource/ds.16802/?sp=27",
+     "title": "Tafel 22: Battleground of Resacca, Ga., no. 4 (Albumseite)"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ds/16800/16802/028v.jpg",
+     "source_url": "https://www.loc.gov/resource/ds.16802/?sp=28",
+     "title": "Tafel 23: Defences of the Etawah Bridge (Albumseite)"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ds/16800/16802/029v.jpg",
+     "source_url": "https://www.loc.gov/resource/ds.16802/?sp=29",
+     "title": "Tafel 24: Allatoona from the Etawah (Albumseite)"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ds/16800/16802/030v.jpg",
+     "source_url": "https://www.loc.gov/resource/ds.16802/?sp=30",
+     "title": "Tafel 25: Battlefield of New Hope Church, Ga., no. 1 (Albumseite)"
+    },
+    {
+     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ds/16800/16802/031v.jpg",
+     "source_url": "https://www.loc.gov/resource/ds.16802/?sp=31",
+     "title": "Tafel 26: Battlefield of New Hope Church, Ga., no. 2 (Albumseite)"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2005677519/",
+     "title": "Library of Congress, Katalogeintrag 2005677519",
+     "excerpt": "Published in: Photographic views of Sherman's campaign. New York: Dover, 1977, plate 19.",
+     "kind": "museum",
+     "author": "Library of Congress"
+    },
+    {
+     "url": "https://www.loc.gov/item/2005677520/",
+     "title": "Library of Congress, Katalogeintrag 2005677520",
+     "excerpt": "Published in: Photographic views of Sherman's campaign. New York: Dover, 1977, plate 20.",
+     "kind": "museum",
+     "author": "Library of Congress"
+    },
+    {
+     "url": "https://www.loc.gov/item/2005677521/",
+     "title": "Library of Congress, Katalogeintrag 2005677521",
+     "excerpt": "Published in: Photographic views of Sherman's campaign. New York: Dover, 1977, plate 21.",
+     "kind": "museum",
+     "author": "Library of Congress"
+    },
+    {
+     "url": "https://www.loc.gov/item/2005678222/",
+     "title": "Library of Congress, Katalogeintrag 2005678222",
+     "excerpt": "Published in: Photographic views of Sherman's campaign. New York: Dover, 1977, plate 22.",
+     "kind": "museum",
+     "author": "Library of Congress"
+    },
+    {
+     "url": "https://www.loc.gov/item/2005678223/",
+     "title": "Library of Congress, Katalogeintrag 2005678223",
+     "excerpt": "Published in: Photographic views of Sherman's campaign. New York: Dover, 1977, plate 23.",
+     "kind": "museum",
+     "author": "Library of Congress"
+    },
+    {
+     "url": "https://www.loc.gov/item/2005678224/",
+     "title": "Library of Congress, Katalogeintrag 2005678224",
+     "excerpt": "Published in: Photographic views of Sherman's campaign. New York: Dover, 1977, plate 24.",
+     "kind": "museum",
+     "author": "Library of Congress"
+    },
+    {
+     "url": "https://www.loc.gov/item/2005678225/",
+     "title": "Library of Congress, Katalogeintrag 2005678225",
+     "excerpt": "Published in: Photographic views of Sherman's campaign. New York: Dover, 1977, plate 25.",
+     "kind": "museum",
+     "author": "Library of Congress"
+    },
+    {
+     "url": "https://www.loc.gov/item/2005678226/",
+     "title": "Library of Congress, Katalogeintrag 2005678226",
+     "excerpt": "Published in: Photographic views of Sherman's campaign. New York: Dover, 1977, plate 26.",
+     "kind": "museum",
+     "author": "Library of Congress"
+    },
+    {
+     "url": "https://www.loc.gov/item/2012646654/",
+     "title": "Library of Congress, Album Photographic views of Sherman's campaign (2012646654)",
+     "excerpt": "Photographs taken between spring of 1864 and spring of 1866.",
+     "kind": "museum",
+     "author": "Library of Congress"
+    }
+   ],
+   "answer_de": "Die Library of Congress gibt für jede Aufnahme die Tafelnummer an: die vier Bilder vom Schlachtfeld bei Resaca sind Tafeln 19–22, die Verteidigungsanlagen der Etowah-Brücke Tafel 23, Allatoona vom Etowah aus Tafel 24 und die beiden Bilder von New Hope Church Tafeln 25 und 26 [Q1][Q2][Q3][Q4][Q5][Q6][Q7][Q8]. Laut LoC entstanden die Aufnahmen zwischen Frühjahr 1864 und Frühjahr 1866 [Q9]. Meine Einschätzung (eigene Sichtung): Im digitalisierten Originalalbum der LoC stehen die acht Blätter auf den Seiten 24–31 in genau dieser Folge; die Bilder hier sind diese Albumseiten mit gedruckter Bildunterschrift. Meine Einschätzung: Barnard erzählt den Feldzug nach dem Kampf – leere, zerschossene Wälder in der Marschrichtung Shermans, kein einziger Soldat im Bild."
+  }
+ ]
+}

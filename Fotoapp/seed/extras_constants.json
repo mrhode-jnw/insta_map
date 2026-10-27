@@ -1,0 +1,1657 @@
+{
+ "accessed_at": "2026-10-27",
+ "constants": [
+  {
+   "project": "Seascapes",
+   "photographer": "Hiroshi Sugimoto",
+   "constants": [
+    {
+     "text_de": "Horizont genau in der Bildmitte",
+     "source_index": 1
+    },
+    {
+     "text_de": "keine Spuren von Menschen",
+     "source_index": 1
+    },
+    {
+     "text_de": "Schwarzweiß",
+     "source_index": 2
+    },
+    {
+     "text_de": "von hohen Klippen aus, mit Großformatkamera",
+     "source_index": 3
+    }
+   ],
+   "decoys_de": [
+    "Felsen oder Strand als Vordergrund",
+    "Sonne als heller Fleck im Bild",
+    "Farbfilm mit warmem Abendlicht"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Das Cleveland Museum of Art beschreibt scheinbar immer dasselbe Bild: Der Horizont liegt genau in der senkrechten Mitte, Himmel und Wasser sind gleich groß, Menschen fehlen [Q1]. Dazu kommen Schwarzweiß und das immer gleiche Format [Q2]; aufgenommen wird von hohen Klippen mit der Großformatkamera [Q3]. Verändern darf sich nur das Wetter – das ist der eigentliche Inhalt der Serie.",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/2022.343.5",
+     "title": "Caribbean Sea, Jamaica | Cleveland Museum of Art",
+     "excerpt": "Hiroshi Sugimoto journeys to locations around the world to produce what appears, at first glance, to be essentially the same picture: the horizon falls exactly in the vertical center of the paper, dividing the page into equal segments of sky and water. There are no signs of human presence.",
+     "kind": "museum",
+     "author": "Cleveland Museum of Art"
+    },
+    {
+     "url": "https://kenyonreview.org/2014/11/sugimoto-seascapes/",
+     "title": "Sugimoto’s Seascapes – Kenyon Review Blog (2014)",
+     "excerpt": "The photos in the series are all 20 x 24 inches, positioned with the horizon at the exact center and shot in black and white. Sugimoto shoots from cliffs using a large camera from the late nineteenth century.",
+     "author": "Kenyon Review (Blog)"
+    },
+    {
+     "url": "https://www.clevelandart.org/art/1994.24",
+     "title": "Ionian Sea, Santa Cesarea III (Hiroshi Sugimoto) – Cleveland Museum of Art",
+     "excerpt": "For this series, begun in 1980, he traveled the world to photograph vast bodies of water from high cliffs using a large-format camera.",
+     "author": "Cleveland Museum of Art"
+    }
+   ]
+  },
+  {
+   "project": "Horizons (Auswahl 2007–2012)",
+   "photographer": "Sze Tsung Leong",
+   "constants": [
+    {
+     "text_de": "Horizont immer an derselben Stelle im Bild",
+     "source_index": 1
+    },
+    {
+     "text_de": "Horizont läuft von Bild zu Bild weiter",
+     "source_index": 2
+    },
+    {
+     "text_de": "Film, Mittel- und Großformat",
+     "source_index": 3
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "steiler Blick von oben ohne Himmel",
+    "Menschen formatfüllend im Vordergrund"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Laut V&A liegt der Horizont in allen Bildern an genau derselben Stelle [Q1], sodass die Fotos nebeneinander wie ein durchgehender Horizont wirken [Q2]. Leong arbeitet auf Film mit Mittel- und Großformatkameras [Q3]. Meine Einschätzung: Gleich bleibt auch das helle, diffuse Licht – Orte wechseln, die Linie nicht.",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "excerpt": "Horizons is a series of landscape photographs taken all over the world, in which the horizon is always at precisely the same place.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "excerpt": "The locations of the images may be distant in geography and diverse in subject matter, yet the photographs are linked by a horizon which continues in the same position from image to image.",
+     "kind": "fotograf",
+     "author": "Sze Tsung Leong (zitiert vom V&A)"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "excerpt": "Leong shoots on film with medium and large format cameras, and makes analogue chromogenic prints.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum"
+    }
+   ]
+  },
+  {
+   "project": "Unconscious Places (Unbewusste Orte)",
+   "photographer": "Thomas Struth",
+   "constants": [
+    {
+     "text_de": "Standpunkt in der Straßenmitte, Blick zum Fluchtpunkt",
+     "source_index": 1
+    },
+    {
+     "text_de": "streng symmetrische Zentralperspektive",
+     "source_index": 2
+    },
+    {
+     "text_de": "früh am Morgen, Straßen fast leer",
+     "source_index": 1
+    }
+   ],
+   "decoys_de": [
+    "Blick aus großer Höhe über die Dächer als Regel",
+    "Passanten als Hauptmotiv im Vordergrund",
+    "durchgehend Schwarzweiß"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Struth fotografierte Straßen immer aus derselben symmetrischen Perspektive aus der Straßenmitte zum Fluchtpunkt und früh am Morgen, damit die Szene leer war [Q1]. Das ZKM nennt die klare Zentralperspektive als bestimmendes Bauprinzip, besonders in den Straßenbildern [Q2]. Meine Einschätzung: Schwarzweiß gilt nur für die frühen Bilder – in der Auswahl sind Tokio, Lima und St. Petersburg farbig.",
+   "sources": [
+    {
+     "url": "https://www.nybooks.com/online/2015/01/26/thomas-struth-style-without-style/",
+     "title": "Thomas Struth: Style Without Style – The New York Review of Books (2015)",
+     "excerpt": "Struth started taking black-and-white, strictly composed streetscapes, always from the same symmetrical perspective in the middle of a street looking down to its vanishing point, and early in the morning so the scene would be deserted.",
+     "author": "The New York Review of Books"
+    },
+    {
+     "url": "https://zkm.de/en/node/9554",
+     "title": "Thomas Struth | ZKM",
+     "excerpt": "The images are distinguished by their calculated cropping and the rigour of their composition. The construction of each picture is dominated by clear central perspective, emphasized above all in the street scenes."
+    }
+   ]
+  },
+  {
+   "project": "Architecture of Density",
+   "photographer": "Michael Wolf",
+   "constants": [
+    {
+     "text_de": "kein Himmel, kein Horizont",
+     "source_index": 1
+    },
+    {
+     "text_de": "Fassade füllt das Bild, wirkt flach",
+     "source_index": 1
+    },
+    {
+     "text_de": "Größe bleibt unbestimmbar",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Blick von unten mit stürzenden Linien",
+    "Straße und Passanten am unteren Rand",
+    "Nachtaufnahmen mit erleuchteten Fenstern"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Wolf schneidet Himmel und Horizontlinie konsequent weg, um jedes Bild flach zu machen und die Fassaden in endlose Muster zu verwandeln [Q1]. Ohne Himmel und Horizont weiß man nicht, wie groß das Gebäude ist – 100 oder 200 Stockwerke [Q2]. Meine Einschätzung: Dazu gehört der frontale, parallele Blick, der stürzende Linien vermeidet.",
+   "sources": [
+    {
+     "url": "https://photomichaelwolf.com/about-michael-wolf/introduction/",
+     "title": "Michael Wolf – Life in the City (Introduction, photomichaelwolf.com)",
+     "excerpt": "in his best known series on hong kong’s highly compressed, often brutal architecture, architecture of density, wolf uses the city’s sky-scraping tower blocks to great effect, eliminating the sky and horizon line to flatten each image and turn these façades into seemingly never-ending abstractions."
+    },
+    {
+     "url": "https://newrepublic.com/article/115209/michael-wolf-photography-hong-kongs-architecture-density",
+     "title": "Michael Wolf Photography: Hong Kong's Architecture of Density – The New Republic",
+     "excerpt": "by using this stylistic solution by eliminating sky and horizon you give the feeling of unlimited size, because you have no idea how big the building is. It could be 100 stories or 200 stories, it could be a mile long.",
+     "author": "Michael Wolf (Interview: Maïa Booker, The New Republic)"
+    }
+   ]
+  },
+  {
+   "project": "Untitled – Fahrten durch die amerikanische Landschaft (Auswahl 2001–2012)",
+   "photographer": "Victoria Sambunaris",
+   "constants": [
+    {
+     "text_de": "frontale Bildanlage",
+     "source_index": 1
+    },
+    {
+     "text_de": "durchgehend scharf",
+     "source_index": 1
+    },
+    {
+     "text_de": "gleichmäßiges, neutrales, diffuses Licht",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Nachtaufnahmen mit Kunstlicht",
+    "enger Ausschnitt ohne Horizont"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Das Museum of Contemporary Photography nennt Sambunaris’ gleichbleibende Methode: frontale Rahmung, präzise Schärfe und einheitliches Licht – bei ganz verschiedenen Motiven [Q1]. Für das neutrale, diffuse Licht wartet sie bis zu zwei Wochen auf das passende Wetter [Q2]. Meine Einschätzung: Fast immer bleibt ein Stück Horizont und Himmel im Bild.",
+   "sources": [
+    {
+     "url": "https://www.mocp.org/wp-content/uploads/2021/09/Jan-11-Mar-31-2013-Victoria-Sambunaris-Taxonomy-of-a-Landscape.pdf",
+     "title": "Victoria Sambunaris: Taxonomy of a Landscape – Ausstellungsblatt, Museum of Contemporary Photography Chicago (2013), PDF",
+     "excerpt": "Through straight-on framing, precise focus, and uniform lighting, Sambunaris uses consistent photographic methods to depict diverse subject matter from trains in Nebraska and Texas to trucks in New Jersey and Wisconsin, the oil pipeline in Alaska, uranium tailings in Utah, and steam vents in Yellowstone National Park.",
+     "kind": "museum",
+     "author": "Museum of Contemporary Photography"
+    },
+    {
+     "url": "https://www.mocp.org/wp-content/uploads/2021/09/MoCP_Ed-Exh_Sambunaris.pdf",
+     "title": "Corinne Rose: Viewer’s Guide zu ‚Victoria Sambunaris: Taxonomy of a Landscape‘ – Museum of Contemporary Photography Chicago (2013), PDF",
+     "excerpt": "The consistency in the color and mood of her images is in part due to her consistent use of light. Sambunaris says that she might wait as much as two weeks for for the weather to change to provide the neutral and diffused light she prefers for her work.",
+     "kind": "museum",
+     "author": "Corinne Rose (MoCP)"
+    }
+   ]
+  },
+  {
+   "project": "Iceland – Landscapes in Transition (Luftbilder)",
+   "photographer": "Hans Strand",
+   "constants": [
+    {
+     "text_de": "Luftbilder aus Flugzeug und Hubschrauber",
+     "source_index": 1
+    },
+    {
+     "text_de": "meist kein Horizont",
+     "source_index": 2
+    },
+    {
+     "text_de": "kein blauer Himmel, bewölktes Licht",
+     "source_index": 3
+    }
+   ],
+   "decoys_de": [
+    "Menschen oder Fahrzeuge als Maßstab",
+    "Schwarzweiß",
+    "Sonnenaufgang mit Gegenlicht"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Strand flog nach eigener Aussage rund 180 Stunden für Luftbilder aus Flugzeugen und Hubschraubern [Q1]. Den Horizont lässt er meist weg, damit die Bilder abstrakt bleiben [Q2], und er meidet blauen Himmel – bewölktes Wetter gebe den Bildern einen ernsteren Charakter [Q3]. Meine Einschätzung: Ohne Maßstab bleibt offen, ob man Meter oder Kilometer sieht.",
+   "sources": [
+    {
+     "url": "https://www.hansstrand.se",
+     "title": "Iceland – Landscapes in Transition – hansstrand.se",
+     "excerpt": "I have criss crossed the landscape with 4W-drives and spent 180 hours shooting aerials from planes and helicopters. I have tried to avoid the most popular tourist locations. This to make my own interpretations of a unique landscape."
+    },
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Making the Impossible Possible – Nature Photographers Network",
+     "excerpt": "Most of the time, I try to avoid horizons in my aerials, which helps to make them more abstract.",
+     "author": "Hans Strand"
+    },
+    {
+     "url": "https://www.naturephotographers.network/articles/technical/making-the-impossible-possible/",
+     "title": "Hans Strand: Making the Impossible, Possible – Nature Photographers Network (14.9.2022)",
+     "excerpt": "The only time I include the horizon is when photographing mountains, as I believe it is relevant for this subject. I also try to avoid blue skies since I think it makes the images look too sweet. A cloudy sky gives the image a more serious character.",
+     "kind": "fotograf",
+     "author": "Hans Strand"
+    }
+   ]
+  },
+  {
+   "project": "An den Rändern und Flüssen – Auswahl (u. a. Atlantikbecken und schottische Flüsse)",
+   "photographer": "Thomas Joshua Cooper",
+   "constants": [
+    {
+     "text_de": "kein Horizont",
+     "source_index": 1
+    },
+    {
+     "text_de": "mit dem Rücken zum Land, Blick aufs Meer",
+     "source_index": 2
+    },
+    {
+     "text_de": "nur ein Negativ pro Ort",
+     "source_index": 3
+    },
+    {
+     "text_de": "keine Menschen",
+     "source_index": 4
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Luftaufnahme senkrecht nach unten",
+    "weiter Panoramablick mit Himmel"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Cooper verlangt von sich fast immer einen horizontlosen, „verinnerlichten“ Blick [Q1] und steht dabei mit dem Rücken zum Land, Blick aufs Meer [Q2]. An jedem Ort erlaubt er sich nur eine einzige Belichtung mit seiner alten Großformatkamera [Q3]. Menschen kommen nicht vor [Q4].",
+   "sources": [
+    {
+     "url": "https://radar.gsa.ac.uk/5300/1/Thomas%20Joshua%20Cooper%20PhD%20by%20Publication.pdf",
+     "title": "Thomas Joshua Cooper: The Atlas of Emptiness and Extremity – PhD by Publication (Glasgow School of Art)",
+     "excerpt": "Almost always require a horizon-less, horizontal, “interiorized” view of any visual extent that I may intend to picture.",
+     "author": "Thomas Joshua Cooper"
+    },
+    {
+     "url": "https://radar.gsa.ac.uk/5300/1/Thomas%20Joshua%20Cooper%20PhD%20by%20Publication.pdf",
+     "title": "Gauging the Distance – The Reach for Extremity and Emptiness (PhD by Published Work, University of Glasgow / Glasgow School of Art, 2017)",
+     "excerpt": "From a specific Cardinal-land point, working with my back to the land and always facing looking out towards the sea, make one singular, unique picture",
+     "author": "Thomas Joshua Cooper"
+    },
+    {
+     "url": "https://www.thedrouth.org/thomas-joshua-cooper-the-worlds-edge-by-dana-macfarlane/",
+     "title": "Dana Macfarlane: Thomas Joshua Cooper: ‘The World’s Edge …’ – The Drouth (Rezension)",
+     "excerpt": "Such offerings are the result of arduous and excessively risky journeys to his chosen sites. Once there, he allows himself only one negative exposure with his nineteenth-century Agfa-Ansco view camera.",
+     "kind": "kritik",
+     "author": "Dana Macfarlane"
+    },
+    {
+     "url": "https://www.thedrouth.org/thomas-joshua-cooper-the-worlds-edge-by-dana-macfarlane/",
+     "title": "Dana Macfarlane: Thomas Joshua Cooper: ‘The World’s Edge …’ – The Drouth (Rezension)",
+     "excerpt": "Here there are no human figures, and as viewers we are given little indication as to where we stand in relation to nature. There are few visible horizons to situate us – and those that exist are made strange by the way the prints draw ones’s gaze to the surface.",
+     "kind": "kritik",
+     "author": "Dana Macfarlane"
+    }
+   ]
+  },
+  {
+   "project": "The Yellow River",
+   "photographer": "Zhang Kechun",
+   "constants": [
+    {
+     "text_de": "nur an bewölkten Tagen fotografiert",
+     "source_index": 1
+    },
+    {
+     "text_de": "leicht überbelichtet, weiche Töne",
+     "source_index": 1
+    },
+    {
+     "text_de": "Großformatkamera (Linhof)",
+     "source_index": 2
+    },
+    {
+     "text_de": "gedämpfte Gelb- und Grautöne",
+     "source_index": 3
+    }
+   ],
+   "decoys_de": [
+    "keine Menschen im Bild",
+    "Luftaufnahmen",
+    "Schwarzweiß"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Zhang fotografierte an bewölkten Tagen und belichtete über, um einen weichen, feinen Tonwertumfang zu bekommen [Q1]. Die Kamera war eine Großformat-Linhof, die er auf dem Faltrad mitnahm [Q2]. Vorbild für den gedämpften Gelb-Grau-Ton war die Landschaftsmalerei der Song-Dynastie [Q3].",
+   "sources": [
+    {
+     "url": "https://huxleyparlour.com/critical-texts/zhang-kechun-the-yellow-river/",
+     "title": "The Yellow River - Huxley-Parlour Gallery",
+     "excerpt": "Zhang shot on cloudy days and overexposed the photographs to produce a soft, subtle tonal range."
+    },
+    {
+     "url": "https://huxleyparlour.com/critical-texts/zhang-kechun-the-yellow-river/",
+     "title": "The Yellow River - Huxley-Parlour Gallery",
+     "excerpt": "The project took him on a journey along the river from the coastal flats of Shandong to the mountains of Qinghai on a fold-up bicycle, all the time carrying with him a large format Linhof camera."
+    },
+    {
+     "url": "https://www.sixthtone.com/news/1001745",
+     "title": "China, Captured: Zhang Kechun, the Subtle Provocateur",
+     "excerpt": "In Zhang’s photographs, the sky, river, and earth are curiously blended in a calm palette of yellow and grey, adding a tranquil, surreal touch. He cited landscape paintings from the Song Dynasty (960-1279) as a source of inspiration. To achieve the muted tone of those artworks, he shot mostly on cloudy days and slightly overexposed the pictures.",
+     "kind": "kritik",
+     "author": "Ming Ye"
+    }
+   ]
+  },
+  {
+   "project": "The One Hundred Circle Farm – Luftbilder der Kreisbewässerung (1987–1995)",
+   "photographer": "Emmet Gowin",
+   "constants": [
+    {
+     "text_de": "Luftbilder",
+     "source_index": 1
+    },
+    {
+     "text_de": "immer Kreise der Pivot-Bewässerung",
+     "source_index": 1
+    },
+    {
+     "text_de": "quadratisches Format (2¼-Zoll-Film)",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Menschen und Traktoren als Hauptmotiv",
+    "Teleblick vom Boden aus"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Pace zeigt Luftbilder von Kreisen der Pivot-Bewässerung auf Farmen im Westen und Mittleren Westen [Q1]. Princeton Info nennt das Material: 2¼-Zoll-Film, quadratisch abgezogen, meist ohne Horizontlinie [Q2]. Meine Einschätzung: Ganz streng ist der Verzicht auf den Horizont nicht – ein Bild der Auswahl zeigt Himmel und Horizont.",
+   "sources": [
+    {
+     "url": "https://www.pacegallery.com/exhibitions/emmet-gowin-one-hundred-circle-farm/",
+     "title": "Emmet Gowin: The One Hundred Circle Farm – Ausstellung, Pace Gallery New York 2022",
+     "excerpt": "The presentation spotlights aerial images of center-pivot irrigation circles on farms in the American West and Midwest.",
+     "kind": "kurator",
+     "author": "Pace Gallery"
+    },
+    {
+     "url": "https://princetoninfo.com/artsandentertainment/emmet-gowins-aerial-vision/",
+     "title": "Emmet Gowin’s Aerial Vision – Princeton Info (2002)",
+     "excerpt": "Devoid of the traditional horizon line and other elements of landscape photographs, Gowin’s aerial images, shot on two-and-a-quarter-inch film and printed in a square format.",
+     "kind": "kritik",
+     "author": "Princeton Info"
+    }
+   ]
+  },
+  {
+   "project": "Hokkaido",
+   "photographer": "Michael Kenna",
+   "constants": [
+    {
+     "text_de": "oft Morgendämmerung oder Nacht",
+     "source_index": 1
+    },
+    {
+     "text_de": "Langzeitbelichtung",
+     "source_index": 1
+    },
+    {
+     "text_de": "Schnee, Nebel, Dunst vereinfachen",
+     "source_index": 2
+    },
+    {
+     "text_de": "Schwarzweiß, analog, selbst abgezogen",
+     "source_index": 3
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Menschen als Maßstab",
+    "dichte, detailreiche Bildfüllung"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Kenna fotografiert oft in der Dämmerung oder nachts, mit langen Belichtungen [Q1]. Nebel, Schnee und lange Belichtungszeiten reduzieren die Landschaft auf ihre Grundform [Q2]. Er arbeitet analog und macht seine Schwarzweißabzüge selbst [Q3]. Meine Einschätzung: In der Auswahl ist auch das Quadrat konstant.",
+   "sources": [
+    {
+     "url": "https://printsales.thephotographersgallery.org.uk/exhibitions/58/overview/",
+     "title": "Michael Kenna - Overview | Print Sales Gallery | The Photographers' Gallery",
+     "excerpt": "Over five decades, Kenna has developed a distinctive visual language - a dialogue between dramatic chiaroscuro and the quiet minimalism of Japan, where he has regularly photographed since 1987. Many of Kenna's images are made at dawn or at night, often using long exposures, some lasting up to ten hours. Primarily working with a 120 mm analogue camera and printing each image by hand in the darkroom, he creates luminous silver gelatin prints"
+    },
+    {
+     "url": "https://bau-xi.com/blogs/exhibitions/michael-kenna-japan",
+     "title": "Michael Kenna | Japan – Bau-Xi Gallery",
+     "excerpt": "By using regional atmospheric elements—such as mist, fog, rain, and snow—and long exposures, Kenna simplifies the landscape into its most basic form.",
+     "author": "Bau-Xi Gallery"
+    },
+    {
+     "url": "https://www.michaelkenna.com/resume.php",
+     "title": "Michael Kenna – Biografie/Resume (michaelkenna.com)",
+     "excerpt": "He works in the traditional, non-digital, silver photographic medium. His exquisitely hand crafted black and white prints, which he makes in his own darkroom, reflect a sense of refinement, respect for history, and thorough originality."
+    }
+   ]
+  },
+  {
+   "project": "Fullmoon – Landschaften im Licht des Vollmonds (Auswahl)",
+   "photographer": "Darren Almond",
+   "constants": [
+    {
+     "text_de": "immer bei Vollmond",
+     "source_index": 1
+    },
+    {
+     "text_de": "Belichtung 15 Minuten oder länger",
+     "source_index": 1
+    },
+    {
+     "text_de": "einzige Lichtquelle: Mondlicht",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Blitz oder Kunstlicht",
+    "Schwarzweiß",
+    "Menschen in der Landschaft"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Almond fotografiert bei Vollmond mit Belichtungen von 15 Minuten oder mehr, so wirkt die Nacht wie Tag [Q1]. White Cube betont, dass nur Mondlicht als Lichtquelle dient und die Belichtungszeit dem Wetter angepasst wird [Q2]. Meine Einschätzung: Wasser und Wolken werden dadurch glatt und weich.",
+   "sources": [
+    {
+     "url": "https://www.thehighline.org/art/projects/landscape-with-path-fullmoon-thenorthsea/",
+     "title": "Landscape with Path: Fullmoon@TheNorthSea – High Line Art (2011)",
+     "excerpt": "Taken during a full moon with an exposure time of 15 minutes or more, these images of remote geographical locations appear ghostly, bathed in an unexpectedly brilliant light where night seems to have been turned into day.",
+     "kind": "kurator",
+     "author": "Friends of the High Line"
+    },
+    {
+     "url": "https://www.whitecube.com/artists/darren-almond",
+     "title": "Darren Almond – Künstlerseite, White Cube",
+     "excerpt": "Taken with variable long exposure times attuned to the shifting atmospheric conditions and using only moonlight as their source, the photographs reference the Romantic legacy and rich history of landscape painting to locate the photograph as an archive of memory.",
+     "kind": "kurator",
+     "author": "White Cube"
+    }
+   ]
+  },
+  {
+   "project": "Salt – Lake Eyre (2003–2010)",
+   "photographer": "Murray Fredericks",
+   "constants": [
+    {
+     "text_de": "immer derselbe Ort: Mitte des Salzsees",
+     "source_index": 1
+    },
+    {
+     "text_de": "„Landschaft ohne Landschaft“ – leere Fläche",
+     "source_index": 1
+    },
+    {
+     "text_de": "8×10-Zoll-Plattenkamera auf Film",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Menschen oder Zelte als Maßstab",
+    "Schwarzweiß",
+    "Luftaufnahmen senkrecht von oben"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Fredericks campierte allein in der Mitte des Lake Eyre und fotografierte dort wochenlang eine „Landschaft ohne Landschaft“ [Q1]. Die Bilder entstanden mit einer klassischen 8×10-Zoll-Plattenkamera [Q2]. Meine Einschätzung: Was sich ändert, ist nur Himmel und Licht – der Horizont liegt als ruhige Linie quer durchs Bild.",
+   "sources": [
+    {
+     "url": "https://murrayfredericks.com.au/portfolio/salt/",
+     "title": "Salt – Projektseite, Murray Fredericks",
+     "excerpt": "Immersed in ‘pure space’, Fredericks camped alone in the centre of the lake photographing a ‘landscape without landscape’ for up to five weeks at a time.",
+     "kind": "fotograf",
+     "author": "Murray Fredericks (Projekttext)"
+    },
+    {
+     "url": "https://murrayfredericks.com.au/portfolio/salt/",
+     "title": "Salt – Projektseite, Murray Fredericks",
+     "excerpt": "The photographs were produced on a traditional 8 x 10 film plate camera and exhibited as large digital pigment prints on cotton rag.",
+     "kind": "fotograf",
+     "author": "Murray Fredericks (Projekttext)"
+    }
+   ]
+  },
+  {
+   "project": "Paesaggio – Presa di coscienza sulla natura / Metamorfosi della terra",
+   "photographer": "Mario Giacomelli",
+   "constants": [
+    {
+     "text_de": "erhöhter Standpunkt oder Flugzeug",
+     "source_index": 1
+    },
+    {
+     "text_de": "Schwarzweiß, harte Kontraste",
+     "source_index": 2
+    },
+    {
+     "text_de": "Felder als Linien und Flächen",
+     "source_index": 1
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "weicher Nebel und zarte Grautöne",
+    "Menschen als Bildmittelpunkt"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Die Danziger Gallery beschreibt Giacomellis erhöhte und Luft-Standpunkte – von Hügeln oder aus dem Kleinflugzeug eines Freundes –, die Entfernung verdichten und das Gelände fast kalligrafisch machen [Q1]. Die harten Schwarzweiß-Kontraste wurden in der Dunkelkammer verstärkt [Q2].",
+   "sources": [
+    {
+     "url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+     "title": "Mario Giacomelli's “Paesaggio” – Danziger Gallery (Online-Ausstellung 2025, Pressetext)",
+     "excerpt": "The Paesaggio series picture fields carved by tractors, furrows deepened by time, and soil shaped as much by man as by nature. His elevated and aerial viewpoints — either achieved by shooting from hillsides or taken from a friend’s small plane — compress distance and distort scale, rendering the terrain somewhat abstract, almost calligraphic."
+    },
+    {
+     "url": "https://danzigergallery.com/exhibitions/mario-giacomellis-paesaggio",
+     "title": "Mario Giacomelli's “Paesaggio” – Danziger Gallery (Online-Ausstellung 2025, Pressetext)",
+     "excerpt": "The stark contrasts of black and white, pushed and manipulated in the darkroom, create landscapes that feel etched, emphasizing line and texture along with the seasonal rhythm of farm work."
+    }
+   ]
+  },
+  {
+   "project": "China – Panoramen mit der Banquet-Kamera",
+   "photographer": "Lois Conner",
+   "constants": [
+    {
+     "text_de": "Panoramaformat der Banquet-Kamera",
+     "source_index": 1
+    },
+    {
+     "text_de": "Schwarzweißfilm",
+     "source_index": 2
+    },
+    {
+     "text_de": "Bildformat wie eine Bildrolle",
+     "source_index": 1
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Luftbilder",
+    "Quadratformat"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Conner arbeitet seit 1984 in China mit dem Panoramaformat, das an Rollbilder der Ming-Zeit erinnert und die Landschaft „entrollt“ [Q1]. Sie nennt selbst die Gründe für ihre festen Mittel: die Banquet-Kamera und Schwarzweißfilm [Q2]. Meine Einschätzung: Das Format steht mal quer, mal hochkant – aber immer extrem gestreckt.",
+   "sources": [
+    {
+     "url": "https://chinaheritage.net/journal/%e9%a1%9b%e5%80%92-downside-up-the-art-of-lois-conner/",
+     "title": "Geremie R. Barmé: 顛倒 Downside Up — the art of Lois Conner – China Heritage (20. April 2017; Katalogessay zur Ausstellung in Beijing, mit Text von Xu Zhiyuan)",
+     "excerpt": "First drawn to this format as an arts student at Yale University after she studied the landscape scroll paintings of the Ming dynasty, Conner has been using the format of the panoramic camera to pursue her work in China since 1984. The vistas embraced by the banquet camera allow her to ‘unfurl the landscape’ in a manner suggested by the scroll paintings.",
+     "kind": "kritik",
+     "author": "Geremie R. Barmé"
+    },
+    {
+     "url": "https://www.sixthtone.com/news/1002089",
+     "title": "How China Became One American Photographer’s Muse",
+     "excerpt": "There’s a reason I use a banquet camera, there’s a reason I use black-and-white film, and there’s a reason I’m out there by myself. Right now, it’s still working for me.",
+     "kind": "fotograf",
+     "author": "Sixth Tone, Interview mit Lois Conner"
+    }
+   ]
+  },
+  {
+   "project": "Wind",
+   "photographer": "Jungjin Lee",
+   "constants": [
+    {
+     "text_de": "breites Panoramaformat",
+     "source_index": 1
+    },
+    {
+     "text_de": "Silbergelatine auf Hanji-Papier, schwarzweiß",
+     "source_index": 1
+    },
+    {
+     "text_de": "windgepeitschte Weite, Wolken",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Menschen im Mittelpunkt",
+    "Nahaufnahmen von Pflanzen"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Die Serie entstand im breiten Panoramaformat und ist auf koreanisches Hanji-Papier mit Silbergelatine-Schicht gedruckt [Q1]. Die Willamette-Sammlung beschreibt Landschaften aus windgepeitschten Weiten und bedrohlichen Wolken [Q2].",
+   "sources": [
+    {
+     "url": "https://bellasartesgallery.com/lee_bio.html",
+     "title": "Jungjin Lee | Bellas Artes Gallery",
+     "excerpt": "The series was made in a wide panoramic format on gelatin silver coated Korean Hanji paper."
+    },
+    {
+     "url": "https://mimi.willamette.edu/a/6932",
+     "title": "Jungjin Lee: Wind – Philip Feldman Gallery + Project Space, PNCA",
+     "excerpt": "The photographs in Wind are selected from the 50 works in the series of the same name, which captures the ethereal quality of its namesake in a series of landscapes dominated by windswept expanses and foreboding cloud formations; panoramas that dare an adventurous spirit, while at the same time warn against casual entry."
+    }
+   ]
+  },
+  {
+   "project": "Inherit the Dust",
+   "photographer": "Nick Brandt",
+   "constants": [
+    {
+     "text_de": "lebensgroße Tierbilder auf Tafeln vor Ort",
+     "source_index": 1
+    },
+    {
+     "text_de": "Horizont im Tierbild passt zum Horizont am Ort",
+     "source_index": 2
+    },
+    {
+     "text_de": "kein hartes Sonnenlicht, bewölkter Himmel",
+     "source_index": 3
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Teleobjektiv aus großer Entfernung",
+    "Tiere in Bewegung"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Brandt ließ ältere Tierporträts lebensgroß drucken, auf Tafeln kleben und dort aufstellen, wo diese Tiere früher lebten [Q1]. Entscheidend war, dass die Horizontlinien im Tierbild exakt zu denen am Aufstellungsort passten [Q2]. Keines der Panoramen hätte in hartem Sonnenlicht funktioniert [Q3].",
+   "sources": [
+    {
+     "url": "https://www.featureshoot.com/2020/03/nick-brandts-devastating-portrait-of-africa-on-the-brink-of-a-perilous-new-world/",
+     "title": "Nick Brandt’s Devastating Portrait of Africa on the Brink of a Perilous New World – Feature Shoot",
+     "excerpt": "Between 2014 and 2015, Brandt created Inherit the Dust, a series of unreleased portraits of animals made in years prior that were then printed life-size, glued on panels, and placed in areas of African where they once roamed but no longer do as urban development is moving at an explosive pace.",
+     "author": "Feature Shoot"
+    },
+    {
+     "url": "https://www.featureshoot.com/2020/03/nick-brandts-devastating-portrait-of-africa-on-the-brink-of-a-perilous-new-world/",
+     "title": "Nick Brandt’s Devastating Portrait of Africa on the Brink of a Perilous New World - Feature Shoot",
+     "excerpt": "“However, a critical component was that the horizon lines in the original photos had to perfectly match up with the horizon lines in the locations in which the photos were to be set.",
+     "kind": "fotograf",
+     "author": "Miss Rosen (Interview mit Nick Brandt)"
+    },
+    {
+     "url": "https://www.featureshoot.com/2020/03/nick-brandts-devastating-portrait-of-africa-on-the-brink-of-a-perilous-new-world/",
+     "title": "Nick Brandt’s Devastating Portrait of Africa on the Brink of a Perilous New World - Feature Shoot",
+     "excerpt": "“Obviously, any scene is instantly transformed in terms of look, mood and emotion by the sky overhead and accompanying light. None of these panoramas would have worked bathed in hard sunlight. The melancholic atmosphere that I sought for this body of work would have instantly vanished.”",
+     "kind": "fotograf",
+     "author": "Miss Rosen (Interview mit Nick Brandt)"
+    }
+   ]
+  },
+  {
+   "project": "Storms – Superzellen über den Great Plains (Auswahl, National Geographic 2012)",
+   "photographer": "Mitch Dobrowner",
+   "constants": [
+    {
+     "text_de": "Schwarzweiß",
+     "source_index": 1
+    },
+    {
+     "text_de": "Motiv: Superzellen-Gewitter",
+     "source_index": 1
+    },
+    {
+     "text_de": "Schwarzweiß bewusst zur Betonung der Stürme",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Nahaufnahmen von Menschen",
+    "enger Ausschnitt ohne Land"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Dobrowner arbeitet in Schwarzweiß – Farbe wirke zu alltäglich – und sucht gezielt Superzellen [Q1]. Das Festival La Gacilly nennt den systematischen Einsatz von Schwarzweiß, inspiriert von Ansel Adams [Q2]. Meine Einschätzung: Ein schmaler Streifen Land am unteren Rand gibt fast immer den Maßstab.",
+   "sources": [
+    {
+     "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+     "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+     "excerpt": "Working in black and white—“Color seems too everyday,” he says—he looks especially for supercells, rarest and mightiest of thunderstorms.",
+     "kind": "fotograf",
+     "author": "Mitch Dobrowner (zitiert von National Geographic)"
+    },
+    {
+     "url": "https://festival-lagacilly-baden.photo/en/photographers-2025/mitch-dobrowner",
+     "title": "Mitch Dobrowner: In the Eye of the Storm – Festival La Gacilly-Baden Photo 2025",
+     "excerpt": "His systematic use of black and white to accentuate the harshness of the storms stems from his admiration for Ansel Adams – another master of American landscape photography.",
+     "kind": "kurator",
+     "author": "Festival La Gacilly-Baden Photo"
+    }
+   ]
+  },
+  {
+   "project": "American Prospects",
+   "photographer": "Joel Sternfeld",
+   "constants": [
+    {
+     "text_de": "8×10-Großformatkamera",
+     "source_index": 1
+    },
+    {
+     "text_de": "Standpunkt erhöht, oft vom Dach des VW-Busses",
+     "source_index": 1
+    },
+    {
+     "text_de": "Blick „von oben“ als Methode",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Nahaufnahmen von Gesichtern",
+    "Nacht mit Kunstlicht"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Sternfeld reiste drei Jahre im VW-Bus, der zugleich Stativ für seine 8×10-Kamera war; fotografiert hat er vom Dach des Busses aus [Q1]. Er sagt selbst, „Prospect“ bedeute auch den Blick von oben – passend zu seiner Arbeitsweise [Q2]. Meine Einschätzung: Menschen sind klein in die Landschaft eingebettet.",
+   "sources": [
+    {
+     "url": "https://www.blind-magazine.com/news/the-plaines-of-america-by-joel-sternfeld/",
+     "title": "The Plaines of America by Joel Sternfeld – Blind Magazine",
+     "excerpt": "Joel Sternfeld has built a large photographic collection during the three years of traveling across the United States in a VW campervan, which also served as a stand for his 8×10 large-format camera. From the rooftop of his camper, the photographer captured social unrest and environmental upheavals which were beginning to affect the country.",
+     "author": "Lise Olsina (Blind Magazine), mit Zitat von Joel Sternfeld"
+    },
+    {
+     "url": "https://www.blind-magazine.com/news/the-plaines-of-america-by-joel-sternfeld/",
+     "title": "The Plaines of America by Joel Sternfeld – Blind Magazine",
+     "excerpt": "‘Prospect’ also means ‘seen from above, perspective,’ which goes well with my working method.",
+     "author": "Lise Olsina (Blind Magazine), mit Zitat von Joel Sternfeld"
+    }
+   ]
+  },
+  {
+   "project": "American Power",
+   "photographer": "Mitch Epstein",
+   "constants": [
+    {
+     "text_de": "jedes Bild verweist auf Strom und Energie",
+     "source_index": 1
+    },
+    {
+     "text_de": "4×5-Zoll-Großformatkamera auf Stativ",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Innenaufnahmen in Kraftwerken als Regel",
+    "Luftbilder aus dem Hubschrauber"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Epstein hielt das große Thema in Schach, indem jedes Bild sich auf elektrische Energie beziehen musste [Q1]. Er wechselte dafür von der Handkamera zur 4×5-Zoll-Großformatkamera auf dem Stativ [Q2]. Meine Einschätzung: Kraftwerke stehen oft im Hintergrund, Alltag im Vordergrund.",
+   "sources": [
+    {
+     "url": "https://www.foto8.com/live/mitch-epstein-interview/",
+     "title": "Mitch Epstein Interview - FOTO8",
+     "excerpt": "I kept a sort of rein on the huge concept of American power by insisting that the pictures themselves always refer to electrical power – or power as it’s used to fuel society.",
+     "kind": "fotograf",
+     "author": "foto8, Interview mit Mitch Epstein"
+    },
+    {
+     "url": "https://www.artforum.com/columns/mitch-epsteins-american-power-193047/",
+     "title": "Mitch Epstein's American Power – Artforum",
+     "excerpt": "For this project, Epstein, who for years worked with a handheld camera, began by shooting with a 4 x 5–inch view camera, which of course had to be mounted on a tripod;",
+     "author": "Michael Fried (Artforum)"
+    }
+   ]
+  },
+  {
+   "project": "We English (2007–2008)",
+   "photographer": "Simon Roberts",
+   "constants": [
+    {
+     "text_de": "erhöhter Standpunkt (Dach des Wohnmobils)",
+     "source_index": 1
+    },
+    {
+     "text_de": "nur Landschaften, keine Porträts",
+     "source_index": 2
+    },
+    {
+     "text_de": "nur England, nur Freizeit",
+     "source_index": 2
+    },
+    {
+     "text_de": "Großformat-Tableaus",
+     "source_index": 3
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Nahaufnahmen einzelner Gesichter",
+    "Nachtaufnahmen"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Roberts fotografierte, wo möglich, von erhöhten Standpunkten, oft vom Dach seines Wohnmobils [Q1]. Er setzte sich einen strengen Rahmen: England statt Großbritannien, nur Landschaften statt Porträts, Thema Freizeit [Q2]. Die Bilder sind großformatige Tableaus [Q3].",
+   "sources": [
+    {
+     "url": "https://themorningnews.org/we-english/",
+     "title": "Rosecrans Baldwin: We English – Interview mit Simon Roberts, The Morning News",
+     "excerpt": "Where possible I would photograph from elevated positions (often from the roof of my motor home), which would enable me to get a greater sense of people’s interaction with the landscape and with one another.",
+     "kind": "fotograf",
+     "author": "Simon Roberts"
+    },
+    {
+     "url": "https://themorningnews.org/we-english/",
+     "title": "Rosecrans Baldwin: We English – Interview mit Simon Roberts, The Morning News",
+     "excerpt": "Also, in contrast to my work in Russia, where everything was a possible photograph, with this project I wanted to set myself a stricter framework within which to work—in terms of geographical boundaries (England, rather than Britain), composition (only landscapes, not portraiture) and theme (leisure).",
+     "kind": "fotograf",
+     "author": "Simon Roberts"
+    },
+    {
+     "url": "https://www.simoncroberts.com/work/we-english/",
+     "title": "We English – Projektseite, Simon Roberts",
+     "excerpt": "We English , created between 2007 and 2008, is a broad portfolio of large-format tableaux photographs of the English at leisure."
+    }
+   ]
+  },
+  {
+   "project": "Uncommon Places",
+   "photographer": "Stephen Shore",
+   "constants": [
+    {
+     "text_de": "4×5- und 8×10-Zoll-Film, Fachkamera auf Stativ",
+     "source_index": 1
+    },
+    {
+     "text_de": "Farbfilm",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Blitz aus der Hand",
+    "Menschen formatfüllend im Porträt"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Für Uncommon Places wechselte Shore zu 4×5- und 8×10-Zoll-Film; Fachkamera und Stativ machten Schnappschüsse schwer, lieferten aber mehr Detail [Q1]. Sprüth Magers nennt Farbfilm und Großformatkamera als prägend für die Düsseldorfer Schüler [Q2]. Meine Einschätzung: Der Blick ist ruhig, oft auf Augenhöhe, das Licht hell.",
+   "sources": [
+    {
+     "url": "https://huismarseille.nl/en/exhibitions/stephen-shore/",
+     "title": "Stephen Shore - Huis Marseille, Museum voor Fotografie",
+     "excerpt": "For the series Uncommon Places (1973–1981) and Landscapes (1984–1988) he moved to 4×5” and 8×10” film. The unwieldiness of the view camera and tripod that these formats required made it difficult for him to take snapshots, but Shore used them anyway as he wanted to record more detail. This resulted in serene compositions of the North American urban landscape: diners, street corners and shop windows.",
+     "kind": "museum",
+     "author": "Huis Marseille, Museum voor Fotografie"
+    },
+    {
+     "url": "https://www.spruethmagers.com/artists/stephen-shore/",
+     "title": "Stephen Shore – Sprüth Magers",
+     "excerpt": "Shore's use of color film and large-format camera had a formative influence on a subsequent generation of artists such as Andreas Gursky, Thomas Struth, and Candida Höfer, all of whom became familiar with his work in the photography class of Bernd and Hilla Becher at the Kunstakademie Düsseldorf."
+    }
+   ]
+  },
+  {
+   "project": "Sleeping by the Mississippi",
+   "photographer": "Alec Soth",
+   "constants": [
+    {
+     "text_de": "Großformat-Farbfotografie",
+     "source_index": 1
+    },
+    {
+     "text_de": "Motiv: Menschen, Landschaften, Innenräume am Fluss",
+     "source_index": 1
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Schnappschüsse aus der Bewegung",
+    "Luftbilder über dem Fluss"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "MACK beschreibt reich beschreibende Großformat-Farbbilder einer Mischung aus Menschen, Landschaften und Innenräumen entlang des Mississippi [Q1]. Meine Einschätzung: Das weiche, oft bedeckte Licht hält die Bilder in einer ruhigen Stimmung zusammen.",
+   "sources": [
+    {
+     "url": "https://mackbooks.co.uk/products/sleeping-by-the-mississippi-br-alec-soth",
+     "title": "Sleeping by the Mississippi | MACK (Verlagsseite)",
+     "excerpt": "Evolving from a series of road trips along the Mississippi River, Sleeping by the Mississippi captures America’s iconic yet oft-neglected ‘third coast’. Soth’s richly descriptive, large-format colour photographs present an eclectic mix of individuals, landscapes, and interiors. Sensuous in detail and raw in subject, Sleeping by the Mississippi elicits a consistent mood of loneliness, longing, and reverie."
+    }
+   ]
+  },
+  {
+   "project": "The Cape (Cape Light)",
+   "photographer": "Joel Meyerowitz",
+   "constants": [
+    {
+     "text_de": "8×10-Zoll-Deardorff-Fachkamera",
+     "source_index": 1
+    },
+    {
+     "text_de": "Farbfotografie",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Leica aus der Hand auf der Straße",
+    "Luftbilder"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Meyerowitz ging mit einer alten 8×10-Zoll-Deardorff-Fachkamera nach Cape Cod, um anders zu fotografieren als mit der Leica in New York [Q1]. Aperture nennt die Serie ruhige, nachdenkliche Farbfotografien [Q2]. Meine Einschätzung: Wiederkehrend sind Veranden, Meer und das Licht des Tagesrands.",
+   "sources": [
+    {
+     "url": "https://huxleyparlour.com/critical-texts/joel-meyerowitz-seminal-series-cape-light/",
+     "title": "Cape Light - Huxley-Parlour Gallery",
+     "excerpt": "Joel Meyerowitz went to Cape Cod, Massachusetts, with a vintage 8 x 10 inch Deardoff view camera seeking a different kind of photography to the type he had become accustomed to making with his Leica in New York. The resulting book of photographs, Cape Light , first published in 1978, is now regarded as one of the most significant photobooks of the twentieth century."
+    },
+    {
+     "url": "https://aperture.org/?p=12528",
+     "title": "Joel Meyerowitz: Truro, Massachusetts, 1976",
+     "excerpt": "Cape Light, Joel Meyerowitz’s series of serene and contemplative color photographs taken on Cape Cod, Massachusetts, quickly became one of the most influential and popular photography books in the latter part of the twentieth century, breaking new ground both for color photography and for the medium’s acceptance into the art world.",
+     "kind": "kurator",
+     "author": "Aperture"
+    }
+   ]
+  },
+  {
+   "project": "Some Dry Space (Handbuch 2003, Aufnahmen 2000–2001)",
+   "photographer": "Michael Light",
+   "constants": [
+    {
+     "text_de": "Luftbilder, selbst geflogen",
+     "source_index": 1
+    },
+    {
+     "text_de": "Großformat-Filmkamera aus der Hand",
+     "source_index": 1
+    },
+    {
+     "text_de": "meist früh am Morgen, kurz nach Sonnenaufgang",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Bilder vom Boden aus mit Stativ",
+    "Mittagslicht als Regel"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Light fotografiert mit einer handgehaltenen Großformat-Filmkamera und hat gelernt, ein Kleinflugzeug zu fliegen und dabei mit Hilfe eines Assistenten zu fotografieren [Q1]. Er startet meist sehr früh, nahe der Morgendämmerung, bevor die Turbulenzen kommen [Q2]. Meine Einschätzung: Die Auswahl ist durchgehend schwarzweiß und schräg nach unten aufgenommen.",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space",
+     "title": "An Inhabited West – Michael Light",
+     "excerpt": "I use a hand-held large-format film camera and I have learned to fly a small aircraft and image at the same time with the help of an assistant.",
+     "author": "Michael Light"
+    },
+    {
+     "url": "http://bldgblog.blogspot.com/2013/10/spatial-delirium-interview-with-michael.html",
+     "title": "Geoff Manaugh: Spatial Delirium: An Interview with Michael Light – BLDGBLOG (Oktober 2013)",
+     "excerpt": "An artist widely known for his aerial work, Light flies the trip himself in a small airplane, usually departing very early in the morning, near dawn, before the turbulence builds up."
+    }
+   ]
+  },
+  {
+   "project": "The Lake Project",
+   "photographer": "David Maisel",
+   "constants": [
+    {
+     "text_de": "Luftperspektive",
+     "source_index": 1
+    },
+    {
+     "text_de": "Horizont außerhalb des Bildes",
+     "source_index": 2
+    },
+    {
+     "text_de": "nummerierte Titel ohne Ortsangabe",
+     "source_index": 3
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Menschen als Maßstab",
+    "Bodenaufnahmen mit Himmel"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Maisel fotografiert aus der Luft und liest die Landschaft wie eine Karte [Q1]. Der Horizont liegt irgendwo außerhalb des Bildes, der Betrachter verliert die Richtung [Q2]. Die nummerierten Titel geben keine weiteren Informationen [Q3]. Meine Einschätzung: Auch das Quadrat bleibt gleich.",
+   "sources": [
+    {
+     "url": "https://davidmaisel.com/essays/david-maisel-the-lake-project/",
+     "title": "Diana Gaston: David Maisel: The Lake Project – Aperture 172 (Nachdruck auf davidmaisel.com)",
+     "excerpt": "He continues to photograph from an aerial perspective, the elevation enabling him to read the landscape like a vast map of its undoing."
+    },
+    {
+     "url": "https://davidmaisel.com/essays/david-maisel-the-lake-project/",
+     "title": "Diana Gaston: David Maisel: The Lake Project – Aperture 172 (Nachdruck auf davidmaisel.com)",
+     "excerpt": "His perspective is constantly shifting as the ground rises or falls away, and the images register a sense of his suspension and dread; the horizon lies somewhere beyond the frame of these photographs, and the viewer is rendered directionless.",
+     "kind": "kurator",
+     "author": "Diana Gaston"
+    },
+    {
+     "url": "https://davidmaisel.com/essays/david-maisel-the-lake-project/",
+     "title": "Diana Gaston: David Maisel: The Lake Project – Aperture 172 (Nachdruck auf davidmaisel.com)",
+     "excerpt": "Nor do his numbered titles offer any information beyond a rigorous cataloguing system of his own making. As engaged as he is in the surrounding issues, Maisel is not attempting to make literal records of environmental destruction. Rather, he seeks a distance that scrambles a conventional reading of the landscape.",
+     "kind": "kurator",
+     "author": "Diana Gaston"
+    }
+   ]
+  },
+  {
+   "project": "China",
+   "photographer": "Edward Burtynsky",
+   "constants": [
+    {
+     "text_de": "hoch gelegener Standpunkt oder Hubschrauber",
+     "source_index": 1
+    },
+    {
+     "text_de": "Großformatkamera",
+     "source_index": 1
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Nahaufnahmen einzelner Gesichter",
+    "Nachtaufnahmen"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Burtynsky arbeitet oft mit der Großformatkamera und sucht einen Standpunkt hoch über dem Motiv – oder nimmt einen Hubschrauber [Q1]. Meine Einschätzung: Fast alle Bilder der Auswahl blicken schräg von oben auf Fabriken, Halden und Städte, Menschen erscheinen nur als Masse.",
+   "sources": [
+    {
+     "url": "https://www.dji.com/altitude/creator-profile-edward-burtynsky-anthropocene",
+     "title": "DJI Creator Profile: Edward Burtynsky Uses Drones To Chronicle Our Anthropocene Age",
+     "excerpt": "For many of his works, Burtynsky uses a large format camera. He finds a vantage point he can climb to high above his subject, or uses a helicopter to get the right perspective."
+    }
+   ]
+  },
+  {
+   "project": "Above Zero",
+   "photographer": "Olaf Otto Becker",
+   "constants": [
+    {
+     "text_de": "Großformatkamera",
+     "source_index": 1
+    },
+    {
+     "text_de": "Grönländisches Inlandeis",
+     "source_index": 1
+    },
+    {
+     "text_de": "diffuses Licht, leerer Horizont",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "harte Sonne mit tiefen Schatten",
+    "Luftbilder"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Becker begleitete Klimaforscher auf dem grönländischen Inlandeis und fotografierte mit seiner Großformatkamera [Q1]. Durch leeren Horizont und diffuses Licht fehlt jeder Bezugspunkt – weder Tageszeit noch Größe der Eismassen sind ablesbar [Q2].",
+   "sources": [
+    {
+     "url": "https://www.olafottobecker.com/?page=projects_above_zero",
+     "title": "Olaf Otto Becker – Above Zero (olafottobecker.com)",
+     "excerpt": "I accompanied and documented the work of climate researchers collecting data on climate changes and the layers of ice that are melting away on the Greenland Inland Ice with my large format camera.",
+     "kind": "fotograf",
+     "author": "Olaf Otto Becker"
+    },
+    {
+     "url": "https://galleryviewer.com/en/article/2929/alone-with-the-icebergs-signs-of-change-olaf-otto",
+     "title": "Alone with the icebergs | Signs of change: Olaf Otto Becker – GalleryViewer",
+     "excerpt": "With the empty horizon and diffused light, the viewer has no point of reference - not for the time of day when Becker took the picture or the scale of the icebergs."
+    }
+   ]
+  },
+  {
+   "project": "Desert Chronicle",
+   "photographer": "Laura McPhee",
+   "constants": [
+    {
+     "text_de": "Film und Großformat-Fachkamera",
+     "source_index": 1
+    },
+    {
+     "text_de": "weite Landschaften ohne Menschen",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Menschen im Vordergrund",
+    "Luftbilder senkrecht von oben"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "McPhee arbeitet auf Film mit einer Großformat-Fachkamera [Q1]. Greg Cook beschreibt weite Landschaften ohne Menschen, aber voller Spuren von ihnen [Q2].",
+   "sources": [
+    {
+     "url": "https://lauramcphee.com/desert-chronicle",
+     "title": "Desert Chronicle – lauramcphee.com (Projekttext der Fotografin)",
+     "excerpt": "Made with film and a large-format view camera, the photographs envelop time, both geologic and human.",
+     "kind": "fotograf",
+     "author": "Laura McPhee"
+    },
+    {
+     "url": "https://gregcookland.com/wonderland/2020/01/29/laura-mcphee/",
+     "title": "Greg Cook: The Beautiful Desolation Of Photographer Laura McPhee’s ‘Desert Chronicle’ – Wonderland (29. Januar 2020)",
+     "excerpt": "They are photos about the ways of water, about landscapes vast and empty of people but littered with their remains: dirt roads, worn fences, exhausted houses, lonely grain elevators, abandoned gas stations, junk yards of rusting mid-20th century cars.",
+     "kind": "kritik",
+     "author": "Greg Cook"
+    }
+   ]
+  },
+  {
+   "project": "Desert Sea (Salton Sea, ab 2012)",
+   "photographer": "Virginia Beahan",
+   "constants": [
+    {
+     "text_de": "Großformat-Deardorff-Kamera",
+     "source_index": 1
+    },
+    {
+     "text_de": "Wüste mit Horizont prägt jedes Bild",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Nahaufnahmen ohne Horizont",
+    "Menschen als Hauptmotiv"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Beahan fotografiert mit einer Deardorff-Großformatkamera [Q1]. Die Wüste mit ihrem Horizont beherrscht und verbindet die Bilder [Q2]. Meine Einschätzung: Oft ist es das weiche Licht am Tagesrand.",
+   "sources": [
+    {
+     "url": "https://www.thedartmouth.com/article/2014/03/exhibit-tells-stories-of-the-salton-sea",
+     "title": "Exhibit tells stories of the Salton Sea – The Dartmouth (März 2014)",
+     "excerpt": "Beahan uses a Deardorff camera for large format photography, which captures greater details than other types of photography and makes larger prints from the negatives."
+    },
+    {
+     "url": "https://www.sevendaysvt.com/arts-culture/american-geography-offers-signs-and-wonders-at-bigtown-gallery-41550330/",
+     "title": "‚American Geography‘ Offers Signs and Wonders at BigTown Gallery – Seven Days (Vermont), Rezension",
+     "excerpt": "The desert itself, with its horizon and palpable sense of punishing heat, dominates and unifies the images. Her long titles signal their relevance.",
+     "kind": "kritik",
+     "author": "Seven Days (Vermont)"
+    }
+   ]
+  },
+  {
+   "project": "Yangtze – The Long River",
+   "photographer": "Nadav Kander",
+   "constants": [
+    {
+     "text_de": "Großformatkamera",
+     "source_index": 1
+    },
+    {
+     "text_de": "grauer, dunstiger Fluss",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "kräftige Farben in hartem Sonnenlicht",
+    "Schwarzweiß",
+    "Luftbilder"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "O’Hagan beschreibt Kanders „epische Stille“ und seine Großformatkamera [Q1]. Kanders Jangtse sei grau und selbst in der größten Weite durch Dämme und Brücken gezähmt [Q2]. Meine Einschätzung: Der Dunst nimmt Farbe und Kontrast, Menschen bleiben klein.",
+   "sources": [
+    {
+     "url": "https://www.nadavkander.com/essays-reviews/the-guardian-text-by-sean-ohagan",
+     "title": "Sean O'Hagan: Rezension Yangtze – The Long River, The Guardian 2010 (Nachdruck auf nadavkander.com)",
+     "excerpt": "Kander is a master of what might be called \"epic stillness\". His large-format camera takes in crowded cityscapes and intimate interiors; the empty, still, rural landscapes of the river's source and the scarred, desolate places where the pace of progress has been relentless and total.",
+     "kind": "kritik",
+     "author": "Sean O'Hagan (The Guardian)"
+    },
+    {
+     "url": "https://www.nadavkander.com/essays-reviews/the-guardian-text-by-sean-ohagan",
+     "title": "Sean O'Hagan: Rezension Yangtze – The Long River, The Guardian 2010 (Nachdruck auf nadavkander.com)",
+     "excerpt": "except that Kander's Yangtze is grey and, even at its most vast, has been tamed by monumental dams and forded by vast bridges."
+    }
+   ]
+  },
+  {
+   "project": "Traces – Landschaften im Wandel (Traces I)",
+   "photographer": "Ian Teh",
+   "constants": [
+    {
+     "text_de": "Panoramaformat",
+     "source_index": 1
+    },
+    {
+     "text_de": "Gelber Fluss, Landschaft im Wandel",
+     "source_index": 1
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Hochformat",
+    "Porträts von Arbeitern"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Teh nennt Traces ausdrücklich eine Panorama-Serie über Landschaften im Wandel am Gelben Fluss [Q1]. Meine Einschätzung: Das Licht ist fast immer gedämpft und dunstig, Farben bleiben blass.",
+   "sources": [
+    {
+     "url": "https://www.ianteh.com/bio",
+     "title": "Ian Teh – Biography (ianteh.com)",
+     "excerpt": "In the age of the selfie, his panoramic series, Traces: Landscapes in Transition on the Yellow River, revisits the classical monumental landscape and sounds an alarm of terrible beauty, heralding the advancing threat we pose to our planet.",
+     "kind": "kurator",
+     "author": "Biografie auf ianteh.com"
+    }
+   ]
+  },
+  {
+   "project": "Phantom Landscape (蜃市山水)",
+   "photographer": "Yang Yongliang",
+   "constants": [
+    {
+     "text_de": "Schwarzweiß",
+     "source_index": 1
+    },
+    {
+     "text_de": "Stadtarchitektur als Pinselstriche",
+     "source_index": 2
+    },
+    {
+     "text_de": "Anlehnung an Song-Malerei",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Farbfotos",
+    "einzelne Aufnahme ohne Montage",
+    "Luftbild einer echten Stadt"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Yang arbeitete früher vor allem in Schwarzweiß, um den Blick auf Ebenen und Struktur zu lenken [Q1]. Architekturbilder dienen ihm als Pinselstriche für Berge im Stil der Song-Malerei [Q2]. Meine Einschätzung: Format und Siegel stammen aus der Rollbildmalerei.",
+   "sources": [
+    {
+     "url": "https://www.whitestone-gallery.com/blogs/articles-post/yang-yongliang-interview-artalpha-1",
+     "title": "Yang Yongliang: Constructing Urban Landscapes with Images … Part 1 – Interview (Art Alpha, Whitestone Gallery 2025)",
+     "excerpt": "In the past, my works were mainly in black and white because I tried to focus the audience's attention on the layers and structure of the picture by removing the colors, so as to make the cityscape present a kind of surreal visual feeling.",
+     "kind": "fotograf",
+     "author": "Yang Yongliang"
+    },
+    {
+     "url": "https://www.yangyongliang.com/phantom-landscape",
+     "title": "Yang Yongliang – Phantom Landscape (Website des Künstlers)",
+     "excerpt": "Phantom Landscape is a series started in 2006. Yang Yongliang uses images of architecture as brushstrokes; heavy mountain rocks with enriched details draw a faithful reference to Song Dynasty landscape painting.",
+     "kind": "fotograf",
+     "author": "Yang Yongliang (Künstlertext)"
+    }
+   ]
+  },
+  {
+   "project": "Farblandschaften auf 8×10-Dia und Cibachrome",
+   "photographer": "Christopher Burkett",
+   "constants": [
+    {
+     "text_de": "8×10-Zoll-Fachkamera",
+     "source_index": 1
+    },
+    {
+     "text_de": "Cibachrome-Abzug",
+     "source_index": 1
+    },
+    {
+     "text_de": "Farbdias 8×10 und Mittelformat",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Menschen in der Landschaft",
+    "Weitwinkel mit Himmel und Horizont als Regel"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Burkett gehört zu den letzten, die noch mit einer 8×10-Zoll-Fachkamera und Cibachrome-Papier arbeiten [Q1]. Er belichtet farbige 8×10-Zoll- und Mittelformat-Dias [Q2]. Meine Einschätzung: Fast alle Bilder sind Ausschnitte ohne Himmel.",
+   "sources": [
+    {
+     "url": "https://westernartandarchitecture.com/features/a-sense-of-real-life",
+     "title": "A Sense of Real Life - Western Art & Architecture",
+     "excerpt": "In the secular art world, it may seem unusual to learn that an artist who's been described as \"the Ansel Adams of color photography\" explains his artistic ethos as a way to reveal the \"gift of God's grace to share with others.\" But as one of the last few photographers still using an 8-by-10-inch view camera and Cibachrome paper, Burkett's reverence for the transcendent makes perfect sense."
+    },
+    {
+     "url": "https://christopherburkett.com/about/",
+     "title": "About Christopher – christopherburkett.com",
+     "excerpt": "He works with color 8 x 10″ and medium format transparencies."
+    }
+   ]
+  },
+  {
+   "project": "Hongkong in den 1950er und 60er Jahren (M+ Sammlung)",
+   "photographer": "Fan Ho",
+   "constants": [
+    {
+     "text_de": "Schwarzweiß",
+     "source_index": 1
+    },
+    {
+     "text_de": "Gegenlicht, Rauch und Licht",
+     "source_index": 2
+    },
+    {
+     "text_de": "Straßen, Gassen, Märkte, oft in der Dämmerung",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Luftbilder",
+    "leere Straßen ohne Menschen"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Fan Ho bevorzugte Schwarzweiß, weil es ihm Distanz gab [Q1]. Drama erzeugte er mit Gegenlicht oder mit Rauch und Licht; seine Orte waren Straßen, Gassen und Märkte, oft in der Dämmerung [Q2].",
+   "sources": [
+    {
+     "url": "https://www.mplus.org.hk/en/magazine/ho-fan-on-the-decisive-moment/",
+     "title": "Fan Ho: On the ‘Decisive Moment’ – Video-Transkript, M+ Magazine",
+     "excerpt": "I actually prefer black and white. It’s not that I don’t take colour photographs, but I’ve realised one thing. Colours do not fit well in my world. Black and white offers me a distance."
+    },
+    {
+     "url": "https://fanho-forgetmenot.com/about",
+     "title": "Bio — Fan Ho Photography",
+     "excerpt": "Dubbed the \"Cartier-Bresson of the East\", Fan Ho patiently waited for 'the decisive moment'; very often a collision of the unexpected, framed against a very clever composed background of geometrical construction, patterns and texture. He often created drama and atmosphere with backlit effects or through the combination of smoke and light. His favorite locations were the streets, alleys and markets around dusk or life on the sea."
+    }
+   ]
+  },
+  {
+   "project": "Point Lobos und die Küste bei Monterey (1950er–60er)",
+   "photographer": "Wynn Bullock",
+   "constants": [
+    {
+     "text_de": "8×10-Zoll-Fachkamera",
+     "source_index": 1
+    },
+    {
+     "text_de": "Schwarzweiß-Direktabzug",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Menschen als Hauptmotiv",
+    "Kleinbild aus der Hand"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Bullock arbeitete im Gelände mit seiner 8×10-Zoll-Fachkamera [Q1]. Seit der Begegnung mit Edward Weston 1948 setzte er auf den reinen Schwarzweißabzug [Q2]. Meine Einschätzung: Nebel, Nacht und lange Belichtungen kehren oft wieder.",
+   "sources": [
+    {
+     "url": "http://www.wynnbullockphotography.com/featured/2012-06/featured-1206-text.html",
+     "title": "Point Lobos Wave, 1958 – Kommentar von Barbara Bullock-Wilson (Featured Image Juni 2012, wynnbullockphotography.com)",
+     "excerpt": "Initially, he spent a great deal of time in the field, peering through his 8 x 10 view camera, re-acquainting himself with familiar locales as he learned to relate to them in different ways."
+    },
+    {
+     "url": "http://www.wynnbullockphotography.com/featured/2012-06/featured-1206-text.html",
+     "title": "Point Lobos Wave, 1958 – Kommentar von Barbara Bullock-Wilson (Featured Image Juni 2012)",
+     "excerpt": "Then, in 1948, he met Edward Weston and discovered the depth and beauty that could be achieved in a straight black & white print."
+    }
+   ]
+  },
+  {
+   "project": "In Nature II (Landschaften 2015–2018)",
+   "photographer": "Awoiska van der Molen",
+   "constants": [
+    {
+     "text_de": "monochrom, analog",
+     "source_index": 1
+    },
+    {
+     "text_de": "einsame, abgelegene Orte",
+     "source_index": 2
+    },
+    {
+     "text_de": "Bilder wirken nächtlich",
+     "source_index": 3
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Menschen oder Gebäude",
+    "Luftbilder"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Van der Molen ist für monochrome, analoge Landschaftsbilder bekannt [Q1]. Sie sucht auf einsamen Wanderungen abgelegene Wildnis [Q2]. Auch tagsüber aufgenommene Bilder wirken bei ihr wie Nachtbilder [Q3].",
+   "sources": [
+    {
+     "url": "https://www.awoiska.nl/biography",
+     "title": "Biography – awoiska.nl",
+     "excerpt": "Awoiska van der Molen is known for her monochrome analogue landscape images. Her work stems from an interest in the intangible, psychological qualities of her subjects."
+    },
+    {
+     "url": "https://huismarseille.nl/?p=19726",
+     "title": "Awoiska van der Molen: The Humanness of Our Lonely Selves – Huis Marseille (2024)",
+     "excerpt": "For instance, her black-and-white landscape images taken between 2009 and 2021, with their many shades of black, grey, and white, are more than just a record of the physical characteristics of an expanse. During solitary walks in the remote wilderness, Van der Molen attempts to penetrate the essence of a place."
+    },
+    {
+     "url": "https://fkmagazine.lv/?p=4794",
+     "title": "Interview with Awoiska van der Molen",
+     "excerpt": "Lately I’ve been photographing a lot during the day as well. But now, even though I photograph mostly during the day, the images have a feeling of being taken during night.",
+     "kind": "fotograf",
+     "author": "FK Magazine (Interview)"
+    }
+   ]
+  },
+  {
+   "project": "Photo Opportunities",
+   "photographer": "Corinne Vionnet",
+   "constants": [
+    {
+     "text_de": "je etwa 100 Touristenfotos übereinander",
+     "source_index": 1
+    },
+    {
+     "text_de": "ausgerichtet auf einen einzigen Punkt",
+     "source_index": 1
+    },
+    {
+     "text_de": "Wahrzeichen im blauen Dunst",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "eigene Aufnahme mit Langzeitbelichtung",
+    "Schwarzweiß",
+    "Nachtaufnahmen"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Jedes Bild ist eine Collage aus etwa 100 Fotos, ausgerichtet auf einen Punkt, etwa die Spitze des Fuji oder die Uhr von Big Ben [Q1]. Die Fotos stammen von Touristen aus Bildportalen; die Wahrzeichen schweben in einem blauen Dunst [Q2].",
+   "sources": [
+    {
+     "url": "https://www.npr.org/sections/pictureshow/2011/02/25/134052264/a-hundred-tourist-photos-in-one",
+     "title": "A Hundred Tourist Photos In One : The Picture Show : NPR",
+     "excerpt": "Each image in Photo Opportunities is a collage of about 100 images aligned around a single point: Mao's face, the tip-top of Mount Fuji, the clock on the Big Ben tower."
+    },
+    {
+     "url": "https://www.kehrerverlag.com/en/Corinne-Vionnet/978-3-86828-233-7",
+     "title": "Corinne Vionnet - Photo Opportunities | Kehrer Verlag",
+     "excerpt": "Conducting keyword searches of famed monuments in photo sharing web sites, Swiss /French artist Corinne Vionnet culled thousands of tourists' snapshots for her series Photo Opportunities. Weaving together numerous photographic perspectives and experiences, the artist builds her own impressionistic interpretations - ethereal structures which float gently in a dream-like haze of blue sky."
+    }
+   ]
+  },
+  {
+   "project": "White Sands (Portfolio)",
+   "photographer": "Brett Weston",
+   "constants": [
+    {
+     "text_de": "Morgenlicht",
+     "source_index": 1
+    },
+    {
+     "text_de": "Kamera auf Stativ, höchstens zwei Objektive",
+     "source_index": 2
+    },
+    {
+     "text_de": "Kontaktabzug in der Dunkelkammer",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Menschen auf den Dünen",
+    "Luftbilder"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Für Brett Weston war der Morgen ideal: klare Luft, wenig Wind, und das frühe Licht machte die Dünen zu scharfen Hell-Dunkel-Formen [Q1]. Er nahm nur eine Stativkamera, höchstens zwei Objektive mit und machte Kontaktabzüge [Q2].",
+   "sources": [
+    {
+     "url": "https://www.holdenluntz.com/magazine/photo-spotlight/brett-westons-dunes/",
+     "title": "Father & Son: Brett Weston’s Dunes – Holden Luntz Gallery (Photo Spotlight)",
+     "excerpt": "For Brett, mornings were ideal for photographing the dunes. The cool of the night cleared the air, and the wind was at its most calm. The early morning sunlight would transform the muted dune shapes into sharp-edged swirling forms of light and dark."
+    },
+    {
+     "url": "https://www.holdenluntz.com/magazine/photo-spotlight/brett-westons-dunes/",
+     "title": "Father & Son: Brett Weston’s Dunes – Holden Luntz Gallery (Photo Spotlight)",
+     "excerpt": "His approach in the field was rudimentary itself: all he required was a tripod-mounted camera over one of his shoulders, a maximum of two lenses, a blackout cloth, and a pouch for film holders. He would work in the field and contact print in his darkroom."
+    }
+   ]
+  },
+  {
+   "project": "Megalithen und Landschaft in Britannien und Irland",
+   "photographer": "Paul Caponigro",
+   "constants": [
+    {
+     "text_de": "Schwarzweißfilm, Handabzug",
+     "source_index": 1
+    },
+    {
+     "text_de": "Großformat-Deardorff",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "Menschen bei den Steinen",
+    "Luftbilder"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Caponigro blieb dem Schwarzweißfilm treu und macht seine Abzüge von Hand [Q1]. Er arbeitete mit einer Großformat-Deardorff [Q2]. Meine Einschätzung: Oft ist das Licht weich und bedeckt.",
+   "sources": [
+    {
+     "url": "https://artblart.com/2015/01/26/exhibition-bruce-davidson-paul-caponigro-at-the-huntington-library/",
+     "title": "Bruce Davidson / Paul Caponigro at The Huntington Library – Art Blart (mit Pressetext der Huntington Library, 2015)",
+     "excerpt": "Davidson is a photojournalist and member of the prestigious Magnum Agency; Caponigro practices a pure, formalist approach to landscape photography. Both are devoted to black-and-white film and continue to make prints by hand.",
+     "kind": "museum",
+     "author": "The Huntington Library (Pressetext)"
+    },
+    {
+     "url": "https://www.bostonglobe.com/2024/11/26/nation/paul-caponigro-photographer-love-with-nature-dies-91",
+     "title": "Paul Caponigro, photographer in love with nature, dies at 91 - The Boston Globe",
+     "excerpt": "He had time to capture them in only one shot, using his large-format Deardorff camera. The resulting black-and-white photograph shows some two dozen deer in a mesmerizing blur",
+     "kind": "kritik",
+     "author": "The New York Times / Boston Globe"
+    }
+   ]
+  },
+  {
+   "project": "B&W Slit Canyons",
+   "photographer": "Bruce Barnbaum",
+   "constants": [
+    {
+     "text_de": "Schwarzweiß auf Film, Dunkelkammer",
+     "source_index": 1
+    },
+    {
+     "text_de": "4×5-Zoll-Filmkamera",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "weiter Panoramablick über die Hochebene",
+    "Menschen als Maßstab",
+    "Farbdia"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Barnbaum macht seine Schwarzweißbilder klassisch auf Film und in der Dunkelkammer [Q1]. Fast 40 Jahre arbeitete er mit der 4×5-Zoll-Filmkamera [Q2]. Meine Einschätzung: Himmel kommt nicht vor, das Licht ist reflektiertes Licht im Canyon.",
+   "sources": [
+    {
+     "url": "https://www.barnbaum.com/about",
+     "title": "About | Bruce Barnbaum",
+     "excerpt": "Starting in 1980 Bruce opened up photography of the slit canyons to the world for the first time. These remarkable wonders of nature had not been photographed prior to his discovery of them. In the canyons and elsewhere, Bruce works in both black and white and color, producing his b&w through traditional means (i.e., film and darkroom), and his color work digitally."
+    },
+    {
+     "url": "https://www.barnbaum.com/essay",
+     "title": "Essay | Bruce Barnbaum",
+     "excerpt": "Having started using digital after nearly 40 years of traditional 4x5\" film camera usage where I learned to carefully compose each image before exposing a negative, I find it hard to make an exposure - a so-called digital \"capture\" - without doing at least an initial quick assessment of some basic compositional elements within the scene...and also give thought to the quality of light before pressing the shutter."
+    }
+   ]
+  },
+  {
+   "project": "Kompositlandschaften (集锦摄影) – Auswahl 1934–1988",
+   "photographer": "Lang Jingshan",
+   "constants": [
+    {
+     "text_de": "Montage mehrerer Negative in der Dunkelkammer",
+     "source_index": 1
+    },
+    {
+     "text_de": "jeder Abzug ein Unikat",
+     "source_index": 1
+    }
+   ],
+   "decoys_de": [
+    "Farbfilm",
+    "eine einzige Aufnahme ohne Montage",
+    "Luftbild"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Jedes Werk entsteht in der Dunkelkammer: Lang setzt mehrere Negative zusammen und steuert die Belichtung einzelner Partien; jeder Abzug ist daher ein Unikat [Q1]. Meine Einschätzung: Die Bilder folgen dem Aufbau chinesischer Tuschmalerei mit Nebel und leerem Raum.",
+   "sources": [
+    {
+     "url": "https://brewminate.com/lang-jingshan-and-early-chinese-photography/",
+     "title": "Tiffany Wai-Ying Beres: Lang Jingshan and Early Chinese Photography (Smarthistory 2020, Nachdruck CC BY-NC-SA auf Brewminate)",
+     "excerpt": "Because each work is created in the darkroom, with Lang separately placing each negative as well as manipulating the exposure of specific areas, each print is a unique work by the artist's hand.",
+     "kind": "wissenschaft",
+     "author": "Tiffany Wai-Ying Beres (Smarthistory)"
+    }
+   ]
+  },
+  {
+   "project": "The Lithium Series I",
+   "photographer": "Tom Hegen",
+   "constants": [
+    {
+     "text_de": "Luftbilder",
+     "source_index": 1
+    },
+    {
+     "text_de": "vom Menschen umgeformte Landschaft",
+     "source_index": 1
+    },
+    {
+     "text_de": "Drohne",
+     "source_index": 2
+    }
+   ],
+   "decoys_de": [
+    "Schwarzweiß",
+    "Bodenperspektive mit Menschen",
+    "Nachtaufnahmen"
+   ],
+   "decoys_note": "Meine Einschätzung (nach Ansicht der Bibliotheksbilder)",
+   "answer_de": "Hegen fotografiert aus der Luft Landschaften, die der Mensch stark verändert hat [Q1]. Dafür nutzt er Drohnen, die er selbst gebaut und mit Kamera ausgerüstet hat [Q2]. Meine Einschätzung: In der Lithium-Serie wechseln senkrechte und schräge Blicke.",
+   "sources": [
+    {
+     "url": "https://www.tomhegen.com/about",
+     "title": "About – tomhegen.com",
+     "excerpt": "My name is Tom Hegen, I work as a Photographer and Designer in Munich, Germany. I focus on aerial photography projects that show impact of human presence on earth. As a photographer I am interested in the relationship between man and nature. In my aerial photography I focus on landscapes that have been heavily transformed by human intervention."
+    },
+    {
+     "url": "https://edition.cnn.com/style/article/tom-hegen-aerial-photography",
+     "title": "Tom Hegen’s aerial photography – CNN Style (Voice Memo, Telefoninterview)",
+     "excerpt": "Specializing in aerial photography while still at university, Hegen began using drones three years ago after he assembled his own custom quadcopter and equipped it with a camera."
+    }
+   ]
+  }
+ ]
+}
