@@ -769,5 +769,8 @@
  "cn-tank-shanghai-lego-bloom": {
   "prio": "hoch",
   "fav": true
+ },
+ "cn-shanghai-astronomy-museum": {
+  "kind": "sight"
  }
 }
