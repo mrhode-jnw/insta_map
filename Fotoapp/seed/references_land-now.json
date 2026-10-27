@@ -1,0 +1,479 @@
+{
+ "accessed_at": "2026-10-27",
+ "references": [
+  {
+   "image_url": "https://white-cube.files.svdcdn.com/production/imported-artworks/Darren-Almond/Fullmoon@Baltic-Coastline/a108621.jpg",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://www.taschen.com/en/books/photography/02233/darren-almond-fullmoon/",
+     "title": "Darren Almond. Fullmoon – Verlagsseite, TASCHEN",
+     "author": "TASCHEN (Verlagstext)",
+     "kind": "kurator",
+     "excerpt": "With the shutter kept open for over a quarter of an hour, rivers, meadows, mountains, and seashores are illuminated almost like daybreak, but the atmosphere is different: a mild glow emanates even from the shadows, star-lines cross the sky, and water blankets the earth like a misty froth."
+    },
+    {
+     "url": "https://www.thehighline.org/art/projects/landscape-with-path-fullmoon-thenorthsea/",
+     "title": "Landscape with Path: Fullmoon@TheNorthSea – High Line Art (2011)",
+     "author": "Friends of the High Line",
+     "kind": "kurator",
+     "excerpt": "Taken during a full moon with an exposure time of 15 minutes or more, these images of remote geographical locations appear ghostly, bathed in an unexpectedly brilliant light where night seems to have been turned into day."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Fullmoon-Bilder entstehen mit über einer Viertelstunde Belichtung bei Vollmond [Q1][Q2]. Dadurch wirkt die Szene fast wie bei Tagesanbruch, und Wasser legt sich wie ein nebliger Schaum über das Land [Q1].",
+   "checkable": [
+    "Wasser/Brandung erscheint glatt und neblig statt mit einzelnen Wellen [Q1]",
+    "Die Nachtszene ist so hell, dass sie fast wie Tageslicht wirkt [Q1][Q2]"
+   ],
+   "scope_note": "Die Quellen beschreiben die ganze Serie, nicht dieses Einzelbild."
+  },
+  {
+   "image_url": "https://white-cube.files.svdcdn.com/production/imported-artworks/Darren-Almond/Full-Moon-Bow/a41100.jpg",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.whitecube.com/artists/darren-almond",
+     "title": "Darren Almond – Künstlerseite, White Cube",
+     "author": "White Cube",
+     "kind": "kurator",
+     "excerpt": "Taken with variable long exposure times attuned to the shifting atmospheric conditions and using only moonlight as their source, the photographs reference the Romantic legacy and rich history of landscape painting to locate the photograph as an archive of memory."
+    },
+    {
+     "url": "https://www.taschen.com/en/books/photography/02233/darren-almond-fullmoon/",
+     "title": "Darren Almond. Fullmoon – Verlagsseite, TASCHEN",
+     "author": "TASCHEN (Verlagstext)",
+     "kind": "kurator",
+     "excerpt": "With the shutter kept open for over a quarter of an hour, rivers, meadows, mountains, and seashores are illuminated almost like daybreak, but the atmosphere is different: a mild glow emanates even from the shadows, star-lines cross the sky, and water blankets the earth like a misty froth."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Einzige Lichtquelle ist der Mond [Q1]; durch die lange Belichtung wird die Landschaft fast wie bei Tagesanbruch ausgeleuchtet, und auch die Schatten haben ein mildes Leuchten [Q2].",
+   "checkable": [
+    "Die Szene wirkt hell und tagähnlich, obwohl nur Mondlicht vorhanden war [Q1][Q2]",
+    "Auch die dunklen Partien haben noch Zeichnung, kein tiefes Schwarz [Q2]"
+   ],
+   "scope_note": "Serienbeschreibung; der Mondregenbogen im Bild ist nicht eigens belegt."
+  },
+  {
+   "image_url": "https://www.pacegallery.com/media/images/913370keyQeRLLoTxAlnVuBAwHN562g.width-2000.jpg",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.pacegallery.com/exhibitions/emmet-gowin-one-hundred-circle-farm/",
+     "title": "Emmet Gowin: The One Hundred Circle Farm – Ausstellung, Pace Gallery New York 2022",
+     "author": "Pace Gallery",
+     "kind": "kurator",
+     "excerpt": "The presentation spotlights aerial images of center-pivot irrigation circles on farms in the American West and Midwest."
+    },
+    {
+     "url": "https://princetoninfo.com/artsandentertainment/emmet-gowins-aerial-vision/",
+     "title": "Emmet Gowin’s Aerial Vision – Princeton Info (2002)",
+     "author": "Princeton Info",
+     "kind": "kritik",
+     "excerpt": "Devoid of the traditional horizon line and other elements of landscape photographs, Gowin’s aerial images, shot on two-and-a-quarter-inch film and printed in a square format."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Bilder der Serie sind Luftaufnahmen von Kreisbewässerungsflächen [Q1]. Gowins Luftbilder verzichten auf den klassischen Horizont und sind quadratisch abgezogen [Q2].",
+   "checkable": [
+    "Blick von oben aus der Luft auf die Felder [Q1]",
+    "Kein Horizont im Bild [Q2]",
+    "Annähernd quadratisches Format [Q2]"
+   ],
+   "scope_note": "Princeton Info beschreibt Gowins Luftbilder allgemein (Ausstellung 2002)."
+  },
+  {
+   "image_url": "https://www.pacegallery.com/media/images/913375keyvZNurJrzXX8x_NqDzbCzew.width-2000.jpg",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+     "title": "Emmet Gowin: The One Hundred Circle Farm – Online-Ausstellung, Pace Gallery",
+     "author": "Lucas Bessire (Nachwort, zitiert von Pace)",
+     "kind": "wissenschaft",
+     "excerpt": "The circles are the footprints of industrial irrigation; the center pivots are icons of American agribusiness; the lines inscribe the founding frontier mythologies of this country."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Bessire liest die Bilder aus drei Elementen: Kreise (Spuren industrieller Bewässerung), die Bewässerungsarme im Zentrum und Linien [Q1].",
+   "checkable": [
+    "Mehrere Kreisflächen ordnen das Bild [Q1]",
+    "Gerade Linien (Bewässerungsarm/Wege) durchschneiden die Kreise [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://murrayfredericks.com.au/wp-content/uploads/2024/03/Murray-Fredericks-Salt-10.jpg",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://murrayfredericks.com.au/portfolio/salt/",
+     "title": "Salt – Projektseite, Murray Fredericks",
+     "author": "Murray Fredericks (Projekttext)",
+     "kind": "fotograf",
+     "excerpt": "Immersed in ‘pure space’, Fredericks camped alone in the centre of the lake photographing a ‘landscape without landscape’ for up to five weeks at a time."
+    },
+    {
+     "url": "https://murrayfredericks.com.au/portfolio/salt/",
+     "title": "Salt – Projektseite, Murray Fredericks",
+     "author": "John McDonald (Sydney Morning Herald), zitiert",
+     "kind": "kritik",
+     "excerpt": "“They are literally pictures of nothing, but nothing has never looked so good”"
+    },
+    {
+     "url": "https://murrayfredericks.com.au/portfolio/salt/",
+     "title": "Salt – Projektseite, Murray Fredericks",
+     "author": "Murray Fredericks (Projekttext)",
+     "kind": "fotograf",
+     "excerpt": "Between the years of 2003 and 2010, Murray Fredericks made sixteen solo journeys to the featureless surface of Lake Eyre, a usually dry salt pan in the Australian Outback."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Fredericks fotografierte auf der merkmalslosen Oberfläche des Lake Eyre eine „landscape without landscape“ [Q1][Q3]. McDonald nennt die Bilder „literally pictures of nothing“ [Q2].",
+   "checkable": [
+    "Keine Gegenstände, Menschen oder Landmarken im Bild [Q1][Q2]",
+    "Nur Himmel, Horizont und Fläche [Q1][Q3]"
+   ]
+  },
+  {
+   "image_url": "https://murrayfredericks.com.au/wp-content/uploads/2024/03/Murray-Fredericks-Salt-1.jpg",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://murrayfredericks.com.au/portfolio/salt/",
+     "title": "Salt – Projektseite, Murray Fredericks",
+     "author": "Murray Fredericks (Projekttext)",
+     "kind": "fotograf",
+     "excerpt": "Between the years of 2003 and 2010, Murray Fredericks made sixteen solo journeys to the featureless surface of Lake Eyre, a usually dry salt pan in the Australian Outback."
+    },
+    {
+     "url": "https://murrayfredericks.com.au/portfolio/salt/",
+     "title": "Salt – Projektseite, Murray Fredericks",
+     "author": "Murray Fredericks (Projekttext)",
+     "kind": "fotograf",
+     "excerpt": "Immersed in ‘pure space’, Fredericks camped alone in the centre of the lake photographing a ‘landscape without landscape’ for up to five weeks at a time."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Bilder entstanden auf der merkmalslosen, meist trockenen Salzfläche des Lake Eyre [Q1], als „landscape without landscape“ [Q2].",
+   "checkable": [
+    "Bild besteht nur aus Himmel, Horizontlinie und Fläche [Q1][Q2]",
+    "Kein Vordergrundobjekt [Q2]"
+   ]
+  },
+  {
+   "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1594069498327-GEI35UEP5QKDTJZU9U09/de002594.jpg?format=1500w",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://www.guytal.com/the-good-badlands",
+     "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+     "author": "Guy Tal",
+     "kind": "fotograf",
+     "excerpt": "Lonesome raven surveys a surreal landscape of painted hills."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Ein einzelner Rabe überblickt eine surreal wirkende Landschaft aus farbig gebänderten Hügeln [Q1].",
+   "checkable": [
+    "Ein einzelner Rabe ist im Bild – winzig im Verhältnis zu den Hügeln [Q1]",
+    "Farbig gebänderte Hügel füllen das Bild [Q1]"
+   ],
+   "scope_note": "Die Größe des Raben im Bild ist eigene Beobachtung; die Quelle nennt nur Rabe und Hügel."
+  },
+  {
+   "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1594069297445-11EDLOL1LCIJMY0CGHLW/dc001087.jpg?format=1500w",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.guytal.com/the-good-badlands",
+     "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+     "author": "Guy Tal",
+     "kind": "fotograf",
+     "excerpt": "Sliver of morning sunlight paints a desert butte in golden hues before storm clouds close in again."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Ein schmaler Streifen Morgensonne taucht einen Tafelberg in goldene Töne, bevor sich die Gewitterwolken wieder schließen [Q1].",
+   "checkable": [
+    "Der Tafelberg ist golden angestrahlt [Q1]",
+    "Dunkle Gewitterwolken darüber [Q1]",
+    "Licht nur auf Teilen der Szene (schmaler Lichtstreifen) [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1594069351375-I8QCXP6KPG02SQZKWYEI/de000226.jpg?format=1500w",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.guytal.com/the-good-badlands",
+     "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+     "author": "Guy Tal",
+     "kind": "fotograf",
+     "excerpt": "The faint glow of pre-dawn light brings to life the delicate pastels in a slope of clay desert badlands."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das schwache Leuchten vor Sonnenaufgang lässt die zarten Pastelltöne eines Lehmhangs hervortreten [Q1].",
+   "checkable": [
+    "Weiches, schattenarmes Licht vor Sonnenaufgang [Q1]",
+    "Pastelltöne (Rosa, Blau, Violett) am Hang [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1594070304031-QGMHEA6WHGI335904CMW/dn000146.jpg?format=1500w",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://www.guytal.com/the-good-badlands",
+     "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+     "author": "Guy Tal",
+     "kind": "fotograf",
+     "excerpt": "Dormant cottonwood trees engulfed in wintry fog, looking like they are swaying to music only they can hear."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Kahle Pappeln (cottonwoods) stehen im Winternebel und wirken, als wiegten sie sich zu einer Musik, die nur sie hören [Q1].",
+   "checkable": [
+    "Kahle Bäume im dichten Nebel [Q1]",
+    "Hintergrund verschwindet im Nebel [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1594070222873-B32XNC1G4Y6OJNHYYOUD/dn000126.jpg?format=1500w",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.guytal.com/the-good-badlands",
+     "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+     "author": "Guy Tal",
+     "kind": "fotograf",
+     "excerpt": "Desert butte glows in early morning light after an overnight snow storm."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Aufgenommen am frühen Morgen nach einem nächtlichen Schneesturm: Der Tafelberg leuchtet im ersten Licht [Q1].",
+   "checkable": [
+    "Frischer Schnee im Vordergrund [Q1]",
+    "Tafelberg im Hintergrund vom Morgenlicht angestrahlt [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2007BM3140/full/full/0/default.jpg",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O101150/",
+     "title": "Naoya Hatakeyama, Blast #5707 (1998) – Victoria and Albert Museum",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "To capture this moment safely, the photographer followed the instructions of a blasting technician and used a remote camera system."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O101150/",
+     "title": "Naoya Hatakeyama, Blast #5707 (1998) – Victoria and Albert Museum",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "A bright blue sky emphasises the clouds of pulverised stone shooting from the rock face."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild hält den Moment einer kontrollierten Sprengung fest; Hatakeyama folgte den Anweisungen eines Sprengtechnikers und löste ferngesteuert aus [Q1]. Die Wolken aus zerstäubtem Stein schießen aus der Felswand vor blauem Himmel [Q2].",
+   "checkable": [
+    "Staubwolken schießen aus der Felswand [Q2]",
+    "Blauer Himmel als Kontrast zu den hellen Staubwolken [Q2]"
+   ]
+  },
+  {
+   "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/19140343/2014.1009_01_P02-web.jpg",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://artbma.org/artwork/blast-8326/",
+     "title": "Naoya Hatakeyama, Blast 8326 (1995) – Baltimore Museum of Art",
+     "author": "Baltimore Museum of Art",
+     "kind": "museum",
+     "excerpt": "The photographs, taken with a remote-controlled camera, were coordinated with an explosives expert who directed where the blasted rock flew while the artist’s camera stopped the limestone in mid-air."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Blast-Bilder entstehen mit fernausgelöster Kamera, abgestimmt mit einem Sprengmeister; die Kamera friert den Kalkstein mitten in der Luft ein [Q1].",
+   "checkable": [
+    "Gesteinsbrocken sind in der Luft eingefroren [Q1]"
+   ],
+   "scope_note": "BMA-Text zu einem anderen Blast-Bild, beschreibt aber das Verfahren der Serie."
+  },
+  {
+   "image_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/yossimilo/images/view/1e5aff89b68252c3f22749e519c6ad39j/yossimilo-sze-tsung-nicol-s-leong-lake-michigan-2012.jpg",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "Horizons is a series of landscape photographs taken all over the world, in which the horizon is always at precisely the same place."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "author": "Sze Tsung Leong (zitiert vom V&A)",
+     "kind": "fotograf",
+     "excerpt": "The locations of the images may be distant in geography and diverse in subject matter, yet the photographs are linked by a horizon which continues in the same position from image to image."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "In allen Bildern der Serie liegt der Horizont an exakt derselben Stelle [Q1]; so laufen die Horizonte von Bild zu Bild weiter [Q2].",
+   "checkable": [
+    "Durchgehende waagerechte Horizontlinie über die ganze Bildbreite [Q1]",
+    "Horizont auf derselben Höhe wie in den anderen Horizons-Bildern (Vergleich) [Q1][Q2]"
+   ]
+  },
+  {
+   "image_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/yossimilo/images/view/4b9e43268ce77f6dcc45a38bb89cd3dbj/yossimilo-sze-tsung-nicol-s-leong-salar-de-uyuni-iv-2010.jpg",
+   "dimension": "frame",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "The photographs – all meticulously framed, and some starkly minimalist – can be viewed together in various arrangements, to create the appearance of a continuous horizon running through them all."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "Horizons is a series of landscape photographs taken all over the world, in which the horizon is always at precisely the same place."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Bilder sind sorgfältig gerahmt, manche streng minimalistisch, und lassen sich nebeneinander zu einem durchgehenden Horizont fügen [Q1]; der Horizont liegt immer an derselben Stelle [Q2].",
+   "checkable": [
+    "Sehr reduzierter Bildinhalt (minimalistisch) [Q1]",
+    "Horizontlinie läuft bis an beide Bildränder durch [Q1][Q2]"
+   ]
+  },
+  {
+   "image_url": "https://i.natgeofe.com/n/a59a9bae-2903-4674-8ee7-7d2aef529b4a/09-veil-cloud.jpg?w=1600",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+     "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+     "author": "James LaDue, National Weather Service (zitiert von National Geographic)",
+     "kind": "wissenschaft",
+     "excerpt": "LaDue notes that from this point of view—a rare opportunity to glimpse the side of a supercell, rather than seeing it from below—much of the storm's anatomy is visible."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Standpunkt erlaubt einen seltenen Blick auf die Seite der Superzelle statt von unten; dadurch ist viel vom Aufbau des Sturms sichtbar [Q1].",
+   "checkable": [
+    "Die Gewitterwolke ist seitlich in ihrer ganzen Form zu sehen, nicht nur ihre Unterseite [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://i.natgeofe.com/n/094c91f5-a230-4268-80d0-9057998d2c6b/08-storm-over-field.jpg?w=1600",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+     "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+     "author": "Mitch Dobrowner (zitiert von National Geographic)",
+     "kind": "fotograf",
+     "excerpt": "Dobrowner and Hill were ready to give up on this supercell as they watched it weaken. But after \"it pulsed up and began to show signs of cycling,\" says Dobrowner, they moved close to these fields, at one point getting within a hundred yards of a rotating, lowering cloud."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Dobrowner und Hill fuhren nah an diese Felder heran und kamen zeitweise bis auf etwa hundert Yards an eine rotierende, absinkende Wolke [Q1].",
+   "checkable": [
+    "Felder im Vordergrund, die Sturmwolke tief darüber [Q1]"
+   ],
+   "scope_note": "Ob das Bild genau im Moment der größten Nähe entstand, sagt die Quelle nicht."
+  },
+  {
+   "image_url": "https://i.natgeofe.com/n/5f866dc3-ebaf-4ba8-8506-3bb022439c07/06-bears-claw.jpg?w=1600",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+     "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+     "author": "Mitch Dobrowner (zitiert von National Geographic)",
+     "kind": "fotograf",
+     "excerpt": "\"I will never forget the sight of this monster hailstorm as it breached the hills right in front of us,\" says Dobrowner. \"It came at us at about 40 miles an hour, raining golf-ball-size hail.\" After taking six shots, he and storm chaser Roger Hill dashed for their van when \"it became obvious this was no ordinary storm.\""
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Hagelsturm brach direkt vor ihnen über die Hügel und kam mit etwa 40 Meilen pro Stunde auf sie zu; nach sechs Aufnahmen flüchteten Dobrowner und Hill zum Wagen [Q1].",
+   "checkable": [
+    "Die Sturmfront kommt über die Hügel auf den Standpunkt zu [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://i.natgeofe.com/n/9327eddd-fc1e-422a-bbf7-63f1c8f40e89/07-jupiter.jpg?w=1600",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+     "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+     "author": "Mitch Dobrowner (zitiert von National Geographic)",
+     "kind": "fotograf",
+     "excerpt": "\"It was like watching a monster in the dark,\" he remembers. \"We weren't able to see it until a series of lightning bolts rained down. Then it was like watching a dragon in the night sky.\""
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Sturm war im Dunkeln zunächst nicht zu sehen; erst eine Serie von Blitzen machte ihn sichtbar [Q1].",
+   "checkable": [
+    "Blitz(e) unter der Wolke [Q1]",
+    "Nachtszene, Wolke durch Blitzlicht erhellt [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://www.simoncroberts.com/wp-content/uploads/2017/06/WeEnglish-03.jpg",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://themorningnews.org/we-english/",
+     "title": "Rosecrans Baldwin: We English – Interview mit Simon Roberts, The Morning News",
+     "author": "Simon Roberts",
+     "kind": "fotograf",
+     "excerpt": "Where possible I would photograph from elevated positions (often from the roof of my motor home), which would enable me to get a greater sense of people’s interaction with the landscape and with one another."
+    },
+    {
+     "url": "https://www.simoncroberts.com/work/we-english/",
+     "title": "We English – Projektseite, Simon Roberts",
+     "author": "Vince Aletti (The New Yorker), zitiert",
+     "kind": "kritik",
+     "excerpt": "But the focus of the work is primarily landscape, and several of the images are broad, handsome vistas with only a few people scattered about the terrain."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Roberts fotografierte, wo möglich, von erhöhten Standpunkten, oft vom Dach des Wohnmobils, um das Zusammenspiel von Menschen und Landschaft zu zeigen [Q1]. Viele Bilder sind weite Ausblicke mit nur wenigen verstreuten Menschen [Q2].",
+   "checkable": [
+    "Erhöhter Standpunkt mit weitem Blick über die Landschaft [Q1]",
+    "Menschen (hier Gleitschirmflieger) klein und verstreut [Q2]"
+   ],
+   "scope_note": "Beide Quellen beschreiben die Serie; der genaue Standpunkt dieses Bildes ist nicht belegt."
+  },
+  {
+   "image_url": "https://www.simoncroberts.com/wp-content/uploads/2017/06/WeEnglish-30.jpg",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://we-english.co.uk/blog/?p=1864",
+     "title": "We English Commentary – Projektblog von Simon Roberts (2009)",
+     "author": "Simon Roberts (Projektkommentar)",
+     "kind": "fotograf",
+     "excerpt": "Ratcliffe-on-Soar Power Station, Nottinghamshire, 16th June 2008 Ron Whitby, Derek Allen and Tom Burns play a round of golf in the grounds of the Ratcliffe-on-Soar coal-fired power station."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Drei ehemalige Kraftwerksmitarbeiter spielen Golf auf dem Gelände des Kohlekraftwerks Ratcliffe-on-Soar [Q1].",
+   "checkable": [
+    "Golfer auf Rasen im Vordergrund [Q1]",
+    "Kühltürme/Kraftwerk im Hintergrund [Q1]"
+   ]
+  }
+ ]
+}

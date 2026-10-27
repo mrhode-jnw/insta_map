@@ -1,0 +1,2305 @@
+{
+ "accessed_at": "2026-10-27",
+ "photographers": [
+  {
+   "key": "almond",
+   "name": "Darren Almond",
+   "born": 1971,
+   "sources": [
+    {
+     "url": "https://www.whitecube.com/artists/darren-almond",
+     "title": "Darren Almond – Künstlerseite, White Cube",
+     "excerpt": "Darren Almond was born in 1971 in Wigan, UK and lives and works in Norfolk."
+    },
+    {
+     "url": "https://www.whitecube.com/artists/darren-almond",
+     "title": "Darren Almond – Künstlerseite, White Cube",
+     "excerpt": "‘I have followed the cycle of the moon for almost two decades and have used it to expose the landscapes of our dreams’, Almond says of his series of ‘Fullmoon’ photographs, produced from 2000 onwards.",
+     "kind": "fotograf",
+     "author": "Darren Almond (zitiert von White Cube)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.taschen.com/en/books/photography/02233/darren-almond-fullmoon/",
+     "title": "Darren Almond. Fullmoon – Verlagsseite, TASCHEN",
+     "excerpt": "“With long exposures, you can never see what you are shooting,” Almond says, “but you are giving the landscape longer to express itself.”",
+     "kind": "fotograf",
+     "author": "Darren Almond (zitiert von TASCHEN)",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "almond-fullmoon",
+     "title": "Fullmoon – Landschaften im Licht des Vollmonds (Auswahl)",
+     "year_from": 2008,
+     "year_to": 2022,
+     "sources": [
+      {
+       "url": "https://www.whitecube.com/artists/darren-almond",
+       "title": "Darren Almond – Künstlerseite, White Cube",
+       "excerpt": "Taken with variable long exposure times attuned to the shifting atmospheric conditions and using only moonlight as their source, the photographs reference the Romantic legacy and rich history of landscape painting to locate the photograph as an archive of memory.",
+       "kind": "kurator",
+       "author": "White Cube",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.whitecube.com/artists/darren-almond",
+       "title": "Darren Almond – Künstlerseite, White Cube",
+       "excerpt": "The project began with Fifteen minute moon (2000) in the south of France before Almond looked at locations through the paintings of John Constable, J.M.W. Turner, Caspar David Friedrich, Philip de Koninck and others.",
+       "kind": "kurator",
+       "author": "White Cube",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.thehighline.org/art/projects/landscape-with-path-fullmoon-thenorthsea/",
+       "title": "Landscape with Path: Fullmoon@TheNorthSea – High Line Art (2011)",
+       "excerpt": "Taken during a full moon with an exposure time of 15 minutes or more, these images of remote geographical locations appear ghostly, bathed in an unexpectedly brilliant light where night seems to have been turned into day.",
+       "kind": "kurator",
+       "author": "Friends of the High Line",
+       "aspect": "wirkung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.taschen.com/en/books/photography/02233/darren-almond-fullmoon/",
+       "title": "Darren Almond. Fullmoon – Verlagsseite, TASCHEN",
+       "excerpt": "With the shutter kept open for over a quarter of an hour, rivers, meadows, mountains, and seashores are illuminated almost like daybreak, but the atmosphere is different: a mild glow emanates even from the shadows, star-lines cross the sky, and water blankets the earth like a misty froth.",
+       "kind": "kurator",
+       "author": "TASCHEN (Verlagstext)",
+       "aspect": "wirkung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "almond-fullmoon-baltic-coastline",
+       "title": "Fullmoon@Baltic Coastline",
+       "year": 2015,
+       "location": "Ostseeküste",
+       "tags": [
+        "mondlicht",
+        "langzeitbelichtung",
+        "küste",
+        "meer"
+       ],
+       "source_url": "https://www.whitecube.com/artworks/darren-almond-fullmoon-baltic-coastline-72578",
+       "image_url": "https://white-cube.files.svdcdn.com/production/imported-artworks/Darren-Almond/Fullmoon@Baltic-Coastline/a108621.jpg",
+       "sources": []
+      },
+      {
+       "key": "almond-fullmoon-by-the-sea",
+       "title": "Fullmoon by the Sea",
+       "year": 2015,
+       "location": null,
+       "tags": [
+        "mondlicht",
+        "langzeitbelichtung",
+        "meer",
+        "horizont"
+       ],
+       "source_url": "https://www.whitecube.com/artworks/darren-almond-fullmoon-by-the-sea-76824",
+       "image_url": "https://white-cube.files.svdcdn.com/production/imported-artworks/Darren-Almond/Fullmoon-by-the-Sea/a127856.jpg",
+       "sources": []
+      },
+      {
+       "key": "almond-fullmoon-porquerolles",
+       "title": "Fullmoon@Porquerolles",
+       "year": 2022,
+       "location": "Porquerolles, Frankreich",
+       "tags": [
+        "mondlicht",
+        "langzeitbelichtung",
+        "küste",
+        "baum"
+       ],
+       "source_url": "https://www.whitecube.com/artworks/darren-almond-fullmoon-porquerolles-87898",
+       "image_url": "https://white-cube.files.svdcdn.com/production/imported-artworks/Darren-Almond/Fullmoon@Porquerolles/a204199.jpg",
+       "sources": []
+      },
+      {
+       "key": "almond-full-moon-bow",
+       "title": "Full Moon Bow",
+       "year": 2011,
+       "location": null,
+       "tags": [
+        "mondlicht",
+        "wasserfall",
+        "mondregenbogen",
+        "langzeitbelichtung"
+       ],
+       "source_url": "https://www.whitecube.com/artworks/darren-almond-full-moon-bow-24551",
+       "image_url": "https://white-cube.files.svdcdn.com/production/imported-artworks/Darren-Almond/Full-Moon-Bow/a41100.jpg",
+       "sources": []
+      },
+      {
+       "key": "almond-fullmoon-bujuku",
+       "title": "Fullmoon@Bujuku",
+       "year": 2009,
+       "location": "Bujuku",
+       "tags": [
+        "mondlicht",
+        "vegetation",
+        "gebirge",
+        "langzeitbelichtung"
+       ],
+       "source_url": "https://www.whitecube.com/artworks/darren-almond-fullmoon-bujuku-24502",
+       "image_url": "https://white-cube.files.svdcdn.com/production/imported-artworks/Darren-Almond/Fullmoon@Bujuku/a41044.jpg",
+       "sources": []
+      },
+      {
+       "key": "almond-fullmoon-sesshu-ii",
+       "title": "Fullmoon Sesshu II",
+       "year": 2009,
+       "location": null,
+       "tags": [
+        "mondlicht",
+        "kiefern",
+        "küste",
+        "nebel"
+       ],
+       "source_url": "https://www.whitecube.com/artworks/darren-almond-fullmoon-sesshu-ii-24499",
+       "image_url": "https://white-cube.files.svdcdn.com/production/imported-artworks/Darren-Almond/Fullmoon-Sesshu-II/a41041.jpg",
+       "sources": []
+      },
+      {
+       "key": "almond-fullmoon-nikko-reds-2",
+       "title": "Fullmoon@Nikkō (Reds 2)",
+       "year": 2008,
+       "location": "Nikkō, Japan",
+       "tags": [
+        "mondlicht",
+        "wasserfall",
+        "herbst",
+        "langzeitbelichtung"
+       ],
+       "source_url": "https://www.whitecube.com/artworks/darren-almond-fullmoon-nikkō-reds-2-82289",
+       "image_url": "https://white-cube.files.svdcdn.com/production/imported-artworks/Darren-Almond/Fullmoon@Nikk%C5%8D-Reds-2/a160674.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "shibata",
+   "name": "Toshio Shibata",
+   "born": 1949,
+   "sources": [
+    {
+     "url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+     "title": "Interview Toshio Shibata (Juror New Cosmos of Photography 2016), Canon",
+     "excerpt": "Born in Tokyo in 1949, he completed a master’s degree in oil painting at the Tokyo National University of Fine Art and Music, and then entered the photography department at the Royal Academy in Ghent, Belgium, where he began to engage in photography in earnest."
+    },
+    {
+     "url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+     "title": "Interview Toshio Shibata (Juror New Cosmos of Photography 2016), Canon",
+     "excerpt": "He began incorporating color into his works in the 2000s, further expanding the range of his creative expressions."
+    },
+    {
+     "url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+     "title": "Interview Toshio Shibata (Juror New Cosmos of Photography 2016), Canon",
+     "excerpt": "Assuming that is true, but knowing every individual has a different approach to taking photographs, something different will emerge in your photos even if you go to places people have been to before, as long as your ideas about that place are different.",
+     "kind": "fotograf",
+     "author": "Toshio Shibata",
+     "aspect": "deutung",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "shibata-constructed-landscape",
+     "title": "Gebaute Landschaft: Dämme, Stützmauern, Brücken (Auswahl 1988–2013)",
+     "year_from": 1988,
+     "year_to": 2013,
+     "sources": [
+      {
+       "url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+       "title": "Interview Toshio Shibata (Juror New Cosmos of Photography 2016), Canon",
+       "excerpt": "Shibata received the 17th Ihei Kimura Prize in 1992 for his exhibition Nihon Tenkei [Japanese Patterns], featuring photographs of dams, concrete retaining walls, and other structures around Japan taken with a large-format camera and presented on meticulous monochrome prints.",
+       "kind": "kurator",
+       "author": "Canon (Profil)",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.japantimes.co.jp/culture/2007/12/20/arts/work-man/",
+       "title": "Edan Corkill: „Work : Man“ – The Japan Times, 20.12.2007",
+       "excerpt": "On the Web site of the Zeit-Foto Salon gallery, where he is holding an exhibition of new color photographs, he writes that as he set up his large 8-x-10-inch camera, “this middle-aged construction site foreman came up, wearing his helmet",
+       "kind": "kritik",
+       "author": "Edan Corkill",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.japantimes.co.jp/culture/2007/12/20/arts/work-man/",
+       "title": "Edan Corkill: „Work : Man“ – The Japan Times, 20.12.2007",
+       "excerpt": "Shibata’s elegantly composed photographs of jaw-droppingly expansive public works projects — retaining walls, dams, highway cuttings — are as much the work of the construction workers as they are his own.",
+       "kind": "kritik",
+       "author": "Edan Corkill",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.shutterbug.com/content/toshio-shibata-show-peabody-essex",
+       "title": "Toshio Shibata Show at Peabody Essex – Shutterbug (2013)",
+       "excerpt": "Since the early 1980s, Toshio Shibata has turned his lens on the roads, dams and bridges of Japan to create visually striking images highlighting the delicate balance between nature and the artificial.",
+       "kind": "kritik",
+       "author": "Shutterbug (zur PEM-Ausstellung)",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.shutterbug.com/content/toshio-shibata-show-peabody-essex",
+       "title": "Toshio Shibata Show at Peabody Essex – Shutterbug (2013)",
+       "excerpt": "“As stunning as Toshio Shibata’s photographs are, they are infused with deep awareness of humanity’s place in nature,” said Phillip Prodger, PEM’s curator of photography.",
+       "kind": "kurator",
+       "author": "Phillip Prodger (Peabody Essex Museum)",
+       "aspect": "wirkung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "shibata-asahi-town",
+       "title": "Asahi Town, Hokkaido",
+       "year": 1988,
+       "location": "Asahi, Hokkaido, Japan",
+       "tags": [
+        "schwarzweiß",
+        "beton",
+        "ufer",
+        "großformat"
+       ],
+       "source_url": "https://www.artic.edu/artworks/130193",
+       "image_url": "https://www.artic.edu/iiif/2/ad7d98f1-6c5d-99bc-d1b4-796bcb352e82/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "shibata-yunotani-village",
+       "title": "Yunotani Village, Niigata Prefecture",
+       "year": 1989,
+       "location": "Yunotani, Präfektur Niigata, Japan",
+       "tags": [
+        "schwarzweiß",
+        "hangsicherung",
+        "netz",
+        "großformat"
+       ],
+       "source_url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+       "image_url": "https://global.canon/en/newcosmos/interview/toshio-shibata/img/closeup-toshio-shibata-w02.jpg",
+       "sources": []
+      },
+      {
+       "key": "shibata-kashima-town",
+       "title": "Kashima Town, Fukushima Prefecture",
+       "year": 1990,
+       "location": "Kashima, Präfektur Fukushima, Japan",
+       "tags": [
+        "schwarzweiß",
+        "damm",
+        "wasser",
+        "großformat"
+       ],
+       "source_url": "https://www.artic.edu/artworks/130191",
+       "image_url": "https://www.artic.edu/iiif/2/c4aa008d-aca4-3156-bf46-7cb820ef3ed9/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "shibata-shimogo-town",
+       "title": "Shimogo Town, Fukushima Prefecture",
+       "year": 1990,
+       "location": "Shimogo, Präfektur Fukushima, Japan",
+       "tags": [
+        "schwarzweiß",
+        "fluss",
+        "betonblöcke",
+        "großformat"
+       ],
+       "source_url": "https://www.artic.edu/artworks/130208",
+       "image_url": "https://www.artic.edu/iiif/2/5d2cbf05-00e7-5688-5ec5-9cbe34689bdb/full/843,/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "shibata-grand-coulee-dam",
+       "title": "Grand Coulee Dam, Douglas County, WA",
+       "year": 1996,
+       "location": "Grand Coulee Dam, Washington, USA",
+       "tags": [
+        "schwarzweiß",
+        "staudamm",
+        "wasser",
+        "struktur"
+       ],
+       "source_url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+       "image_url": "https://global.canon/en/newcosmos/interview/toshio-shibata/img/closeup-toshio-shibata-w03.jpg",
+       "sources": []
+      },
+      {
+       "key": "shibata-okawa-village",
+       "title": "Okawa Village, Kochi Prefecture",
+       "year": 2007,
+       "location": "Okawa, Präfektur Kochi, Japan",
+       "tags": [
+        "farbe",
+        "brücke",
+        "wald",
+        "beton"
+       ],
+       "source_url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+       "image_url": "https://global.canon/en/newcosmos/interview/toshio-shibata/img/closeup-toshio-shibata-w04.jpg",
+       "sources": []
+      },
+      {
+       "key": "shibata-nikko-city",
+       "title": "Nikko City, Tochigi Prefecture",
+       "year": 2013,
+       "location": "Nikko, Präfektur Tochigi, Japan",
+       "tags": [
+        "farbe",
+        "staudamm",
+        "wasserfall",
+        "beton"
+       ],
+       "source_url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+       "image_url": "https://global.canon/en/newcosmos/interview/toshio-shibata/img/closeup-toshio-shibata-w05.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "gowin",
+   "name": "Emmet Gowin",
+   "born": 1941,
+   "sources": [
+    {
+     "url": "https://www.pacegallery.com/artists/emmet-gowin/",
+     "title": "Emmet Gowin – Künstlerseite, Pace Gallery",
+     "excerpt": "His photographs have evolved from intimate portraits of his wife, Edith Morris, and their Virginia family, to aerial vistas of nuclear test sites and scientific surveys of tropical ecosystems and their dependent biodiversity."
+    },
+    {
+     "url": "https://princetoninfo.com/artsandentertainment/emmet-gowins-aerial-vision/",
+     "title": "Emmet Gowin’s Aerial Vision – Princeton Info (2002)",
+     "excerpt": "Commissioned to document the aftermath of the 1980 eruption of Mount St. Helens in Washington, he found most access to the mountain closed for safety reasons, and took to the air to see what he could."
+    },
+    {
+     "url": "https://princetoninfo.com/artsandentertainment/emmet-gowins-aerial-vision/",
+     "title": "Emmet Gowin’s Aerial Vision – Princeton Info (2002)",
+     "excerpt": "“As soon as I got into that perspective, I could hardly sit still,” he recalls.",
+     "kind": "fotograf",
+     "author": "Emmet Gowin (zitiert von Princeton Info)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.bu.edu/articles/2007/the-view-from-above",
+     "title": "The View from Above – BU Today, Boston University (2007)",
+     "excerpt": "“Any image that’s really good is a surprise,” he says.",
+     "kind": "fotograf",
+     "author": "Emmet Gowin (zitiert von BU Today)",
+     "aspect": "entstehung",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "gowin-hundred-circle-farm",
+     "title": "The One Hundred Circle Farm – Luftbilder der Kreisbewässerung (1987–1995)",
+     "year_from": 1987,
+     "year_to": 1995,
+     "sources": [
+      {
+       "url": "https://www.pacegallery.com/exhibitions/emmet-gowin-one-hundred-circle-farm/",
+       "title": "Emmet Gowin: The One Hundred Circle Farm – Ausstellung, Pace Gallery New York 2022",
+       "excerpt": "The presentation spotlights aerial images of center-pivot irrigation circles on farms in the American West and Midwest.",
+       "kind": "kurator",
+       "author": "Pace Gallery",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.pacegallery.com/exhibitions/emmet-gowin-one-hundred-circle-farm/",
+       "title": "Emmet Gowin: The One Hundred Circle Farm – Ausstellung, Pace Gallery New York 2022",
+       "excerpt": "Made over the course of a decade beginning in 1987, these photographs are the subject of the forthcoming monograph The One Hundred Circle Farm , published by Princeton University Press and set to be released in the US on April 19.",
+       "kind": "kurator",
+       "author": "Pace Gallery",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+       "title": "Emmet Gowin: The One Hundred Circle Farm – Online-Ausstellung, Pace Gallery",
+       "excerpt": "I still loved the images themselves even as I began to realize where reality was headed.",
+       "kind": "fotograf",
+       "author": "Emmet Gowin (Einleitung zu The One Hundred Circle Farm, zitiert von Pace)",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Ich liebte die Bilder selbst noch, selbst als ich zu begreifen begann, wohin die Wirklichkeit steuerte."
+      },
+      {
+       "url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+       "title": "Emmet Gowin: The One Hundred Circle Farm – Online-Ausstellung, Pace Gallery",
+       "excerpt": "Beauty can also be the agent of difficult and unwanted news.",
+       "kind": "fotograf",
+       "author": "Emmet Gowin (zitiert von Pace)",
+       "aspect": "deutung",
+       "series_level": true,
+       "translation_de": "Schönheit kann auch die Überbringerin schwieriger und unerwünschter Nachrichten sein."
+      },
+      {
+       "url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+       "title": "Emmet Gowin: The One Hundred Circle Farm – Online-Ausstellung, Pace Gallery",
+       "excerpt": "The circles are the footprints of industrial irrigation; the center pivots are icons of American agribusiness; the lines inscribe the founding frontier mythologies of this country.",
+       "kind": "wissenschaft",
+       "author": "Lucas Bessire (Nachwort, zitiert von Pace)",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://princetoninfo.com/artsandentertainment/emmet-gowins-aerial-vision/",
+       "title": "Emmet Gowin’s Aerial Vision – Princeton Info (2002)",
+       "excerpt": "Devoid of the traditional horizon line and other elements of landscape photographs, Gowin’s aerial images, shot on two-and-a-quarter-inch film and printed in a square format.",
+       "kind": "kritik",
+       "author": "Princeton Info",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "gowin-hanford-harvest-pattern",
+       "title": "Pivot Irrigation Agriculture with Harvest Pattern near the Hanford Nuclear Reservation, Franklin County, Washington",
+       "year": 1987,
+       "location": "Franklin County, Washington, USA",
+       "tags": [
+        "luftbild",
+        "landwirtschaft",
+        "kreisbewässerung",
+        "schwarzweiß"
+       ],
+       "source_url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+       "image_url": "https://www.pacegallery.com/media/images/913353keypalKi7DNw0Ise_pWozhLwQ.width-2000.jpg",
+       "sources": []
+      },
+      {
+       "key": "gowin-cloud-front-columbia",
+       "title": "Cloud Front and Center-Pivot Irrigation Circles near the Columbia River, Benton County, Washington",
+       "year": 1991,
+       "location": "Benton County, Washington, USA",
+       "tags": [
+        "luftbild",
+        "landwirtschaft",
+        "kreisbewässerung",
+        "wolken"
+       ],
+       "source_url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+       "image_url": "https://www.pacegallery.com/media/images/913351keyfDA9FWfIaC0V1JJ1DqZmlg.width-2000.jpg",
+       "sources": []
+      },
+      {
+       "key": "gowin-marginal-field-scablands",
+       "title": "Marginal Field, Scablands Glacial Area South of Moses Lake, Washington",
+       "year": 1991,
+       "location": "südlich von Moses Lake, Washington, USA",
+       "tags": [
+        "luftbild",
+        "landwirtschaft",
+        "kreisbewässerung",
+        "erosion"
+       ],
+       "source_url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+       "image_url": "https://www.pacegallery.com/media/images/913358keyZr4YWr9I-7-3IabQS_WuUQ.width-2000.jpg",
+       "sources": []
+      },
+      {
+       "key": "gowin-raked-hay-thunderstorm",
+       "title": "Rows of Raked Hay Showing the Disruption of a Thunderstorm, Snake River Plain near the Confluence of the Snake and Columbia Rivers, Washington",
+       "year": 1991,
+       "location": "Snake River Plain, Washington, USA",
+       "tags": [
+        "luftbild",
+        "landwirtschaft",
+        "kreisbewässerung",
+        "muster"
+       ],
+       "source_url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+       "image_url": "https://www.pacegallery.com/media/images/913368keykfXh8MLt5NnMR7OrPapl4w.width-2000.jpg",
+       "sources": []
+      },
+      {
+       "key": "gowin-large-circle-complex",
+       "title": "Large Circle Complex near the Columbia River, Lincoln County, Washington",
+       "year": 1991,
+       "location": "Lincoln County, Washington, USA",
+       "tags": [
+        "luftbild",
+        "landwirtschaft",
+        "kreisbewässerung",
+        "muster"
+       ],
+       "source_url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+       "image_url": "https://www.pacegallery.com/media/images/913375keyvZNurJrzXX8x_NqDzbCzew.width-2000.jpg",
+       "sources": []
+      },
+      {
+       "key": "gowin-clockwise-sweep",
+       "title": "The Clockwise Sweep of the Watering Arm, Center-Pivot Irrigation, San Luis Valley, Colorado",
+       "year": 1993,
+       "location": "San Luis Valley, Colorado, USA",
+       "tags": [
+        "luftbild",
+        "landwirtschaft",
+        "kreisbewässerung",
+        "licht und schatten"
+       ],
+       "source_url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+       "image_url": "https://www.pacegallery.com/media/images/913367keynKnDlLVhUVaf38NGxF4vgg.width-2000.jpg",
+       "sources": []
+      },
+      {
+       "key": "gowin-overlapping-circles-winter",
+       "title": "Overlapping Circles in Winter near Garden City, Kansas",
+       "year": 1995,
+       "location": "bei Garden City, Kansas, USA",
+       "tags": [
+        "luftbild",
+        "landwirtschaft",
+        "kreisbewässerung",
+        "winter"
+       ],
+       "source_url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+       "image_url": "https://www.pacegallery.com/media/images/913370keyQeRLLoTxAlnVuBAwHN562g.width-2000.jpg",
+       "sources": []
+      },
+      {
+       "key": "gowin-snow-natural-drainage",
+       "title": "Snow over Natural Drainage Outlined by Cultivation near Liberal, Kansas",
+       "year": 1995,
+       "location": "bei Liberal, Kansas, USA",
+       "tags": [
+        "luftbild",
+        "landwirtschaft",
+        "kreisbewässerung",
+        "schnee"
+       ],
+       "source_url": "https://www.pacegallery.com/exhibitions/emmet-gowin-one-hundred-circle-farm/",
+       "image_url": "https://www.pacegallery.com/media/images/913359keyNkwHfiyQ50aQ0Od0pkgf9A.width-2000.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "fredericks",
+   "name": "Murray Fredericks",
+   "born": 1970,
+   "sources": [
+    {
+     "url": "https://murrayfredericks.com.au/biography/",
+     "title": "Biography – Murray Fredericks",
+     "excerpt": "Born (1970) and raised in Sydney, Australia, Murray Fredericks studied politics and economics at Sydney University."
+    },
+    {
+     "url": "https://murrayfredericks.com.au/biography/",
+     "title": "Biography – Murray Fredericks",
+     "excerpt": "From the start of his career Fredericks process has involved prolonged solo journeys to remote and often extreme locations."
+    },
+    {
+     "url": "https://murrayfredericks.com.au/biography/",
+     "title": "Biography – Murray Fredericks",
+     "excerpt": "By their very nature, though, the locations are difficult to access and require large amounts time spent in them to move the compositions past the ‘surface exotic’."
+    },
+    {
+     "url": "https://archive.pov.org/salt/q-and-a-murray-fredericks/",
+     "title": "Q&A: Murray Fredericks – POV (PBS) zum Film „Salt“",
+     "excerpt": "In 2003 I decided it was time for a change and decided to move away from literal, more traditional landscapes. I took on space itself as a subject.",
+     "kind": "fotograf",
+     "author": "Murray Fredericks",
+     "aspect": "entstehung",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "fredericks-salt",
+     "title": "Salt – Lake Eyre (2003–2010)",
+     "year_from": 2003,
+     "year_to": 2010,
+     "sources": [
+      {
+       "url": "https://murrayfredericks.com.au/portfolio/salt/",
+       "title": "Salt – Projektseite, Murray Fredericks",
+       "excerpt": "Between the years of 2003 and 2010, Murray Fredericks made sixteen solo journeys to the featureless surface of Lake Eyre, a usually dry salt pan in the Australian Outback."
+      },
+      {
+       "url": "https://murrayfredericks.com.au/portfolio/salt/",
+       "title": "Salt – Projektseite, Murray Fredericks",
+       "excerpt": "Immersed in ‘pure space’, Fredericks camped alone in the centre of the lake photographing a ‘landscape without landscape’ for up to five weeks at a time.",
+       "kind": "fotograf",
+       "author": "Murray Fredericks (Projekttext)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://murrayfredericks.com.au/portfolio/salt/",
+       "title": "Salt – Projektseite, Murray Fredericks",
+       "excerpt": "The photographs were produced on a traditional 8 x 10 film plate camera and exhibited as large digital pigment prints on cotton rag.",
+       "kind": "fotograf",
+       "author": "Murray Fredericks (Projekttext)",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://murrayfredericks.com.au/portfolio/salt/",
+       "title": "Salt – Projektseite, Murray Fredericks",
+       "excerpt": "“They are literally pictures of nothing, but nothing has never looked so good”",
+       "kind": "kritik",
+       "author": "John McDonald, Sydney Morning Herald (2006), zitiert auf der Projektseite",
+       "aspect": "rezeption",
+       "series_level": true
+      },
+      {
+       "url": "https://archive.pov.org/salt/q-and-a-murray-fredericks/",
+       "title": "Q&A: Murray Fredericks – POV (PBS) zum Film „Salt“",
+       "excerpt": "Once I realized that I needed to spend continuous long periods out on the lake, I always went alone.",
+       "kind": "fotograf",
+       "author": "Murray Fredericks",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://archive.pov.org/salt/q-and-a-murray-fredericks/",
+       "title": "Q&A: Murray Fredericks – POV (PBS) zum Film „Salt“",
+       "excerpt": "In the final year of the project I started experimenting with a medium format digital back on a digital view camera to employ stitching as a method of capturing a wider field of view.",
+       "kind": "fotograf",
+       "author": "Murray Fredericks",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "fredericks-salt-8",
+       "title": "Salt 8",
+       "year": 2005,
+       "location": "Lake Eyre (Salzsee), South Australia",
+       "tags": [
+        "salzsee",
+        "horizont",
+        "spiegelung",
+        "dämmerung"
+       ],
+       "source_url": "https://murrayfredericks.com.au/portfolio/salt/",
+       "image_url": "https://murrayfredericks.com.au/wp-content/uploads/2024/03/Murray-Fredericks-Salt-1.jpg",
+       "sources": []
+      },
+      {
+       "key": "fredericks-salt-16",
+       "title": "Salt 16",
+       "year": 2005,
+       "location": "Lake Eyre (Salzsee), South Australia",
+       "tags": [
+        "salzsee",
+        "wolken",
+        "spiegelung",
+        "horizont"
+       ],
+       "source_url": "https://murrayfredericks.com.au/portfolio/salt/",
+       "image_url": "https://murrayfredericks.com.au/wp-content/uploads/2024/03/Murray-Fredericks-Salt-3.jpg",
+       "sources": []
+      },
+      {
+       "key": "fredericks-salt-37",
+       "title": "Salt 37",
+       "year": 2005,
+       "location": "Lake Eyre (Salzsee), South Australia",
+       "tags": [
+        "salzsee",
+        "gewitterwolken",
+        "horizont",
+        "dämmerung"
+       ],
+       "source_url": "https://murrayfredericks.com.au/portfolio/salt/",
+       "image_url": "https://murrayfredericks.com.au/wp-content/uploads/2024/03/Murray-Fredericks-Salt-8.jpg",
+       "sources": []
+      },
+      {
+       "key": "fredericks-salt-70",
+       "title": "Salt 70",
+       "year": 2005,
+       "location": "Lake Eyre (Salzsee), South Australia",
+       "tags": [
+        "salzsee",
+        "minimalismus",
+        "horizont",
+        "pastell"
+       ],
+       "source_url": "https://murrayfredericks.com.au/portfolio/salt/",
+       "image_url": "https://murrayfredericks.com.au/wp-content/uploads/2024/03/Murray-Fredericks-Salt-10.jpg",
+       "sources": []
+      },
+      {
+       "key": "fredericks-salt-88",
+       "title": "Salt 88",
+       "year": 2006,
+       "location": "Lake Eyre (Salzsee), South Australia",
+       "tags": [
+        "salzsee",
+        "sternspuren",
+        "nacht",
+        "spiegelung"
+       ],
+       "source_url": "https://murrayfredericks.com.au/portfolio/salt/",
+       "image_url": "https://murrayfredericks.com.au/wp-content/uploads/2024/03/Murray-Fredericks-Salt-12.jpg",
+       "sources": []
+      },
+      {
+       "key": "fredericks-salt-101",
+       "title": "Salt 101",
+       "year": 2006,
+       "location": "Lake Eyre (Salzsee), South Australia",
+       "tags": [
+        "salzsee",
+        "dämmerung",
+        "horizont",
+        "farbverlauf"
+       ],
+       "source_url": "https://murrayfredericks.com.au/portfolio/salt/",
+       "image_url": "https://murrayfredericks.com.au/wp-content/uploads/2024/03/Murray-Fredericks-Salt-15.jpg",
+       "sources": []
+      },
+      {
+       "key": "fredericks-salt-110",
+       "title": "Salt 110",
+       "year": 2006,
+       "location": "Lake Eyre (Salzsee), South Australia",
+       "tags": [
+        "salzsee",
+        "salzkruste",
+        "gewitterwolken",
+        "horizont"
+       ],
+       "source_url": "https://murrayfredericks.com.au/portfolio/salt/",
+       "image_url": "https://murrayfredericks.com.au/wp-content/uploads/2024/03/Murray-Fredericks-Salt-19.jpg",
+       "sources": []
+      },
+      {
+       "key": "fredericks-salt-273",
+       "title": "Salt 273",
+       "year": 2010,
+       "location": "Lake Eyre (Salzsee), South Australia",
+       "tags": [
+        "salzsee",
+        "minimalismus",
+        "blaue stunde",
+        "farbverlauf"
+       ],
+       "source_url": "https://murrayfredericks.com.au/portfolio/salt/",
+       "image_url": "https://murrayfredericks.com.au/wp-content/uploads/2024/03/Murray-Fredericks-Salt-34.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "tal",
+   "name": "Guy Tal",
+   "born": null,
+   "sources": [
+    {
+     "url": "https://www.guytal.com/about",
+     "title": "About Guy Tal – Artist Statement, guytal.com",
+     "excerpt": "In my photographs, I aim to express emotions and moods rather than to document or commemorate the appearances of places or events.",
+     "kind": "fotograf",
+     "author": "Guy Tal",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.guytal.com/about",
+     "title": "About Guy Tal – Artist Statement, guytal.com",
+     "excerpt": "I work primarily in the landscape of my home, the high deserts of the Colorado Plateau."
+    },
+    {
+     "url": "https://www.guytal.com/about",
+     "title": "About Guy Tal – Artist Statement, guytal.com",
+     "excerpt": "Rather than glimpses of the superficial beauty of the land, I wish instead for my work to speak to a deep familiarity with my subjects, revealing something of my reverence for them and the roles they play in my life.",
+     "kind": "fotograf",
+     "author": "Guy Tal",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.kruger-2-kalahari.com/guy-tal.html",
+     "title": "Interview with Guy Tal – Photographer, Writer, and Naturalist (Kruger-2-Kalahari)",
+     "excerpt": "My style is perhaps best described as “Intimate Landscape”; a term coined by the great American photographer Eliot Porter.",
+     "kind": "fotograf",
+     "author": "Guy Tal",
+     "aspect": "deutung",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "tal-good-badlands",
+     "title": "The Good Badlands (Portfolio)",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://www.guytal.com/the-good-badlands",
+       "title": "The Good Badlands – Portfolio, Guy Tal",
+       "excerpt": "I have worked and spent a lot of time in this area for well over two decades.",
+       "kind": "fotograf",
+       "author": "Guy Tal",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.guytal.com/the-good-badlands",
+       "title": "The Good Badlands – Portfolio, Guy Tal",
+       "excerpt": "To the patient observer, however, there is great beauty here, delicate and subtle, but it does not reveal itself easily. You have to want to see it, and be willing to work hard for it.",
+       "kind": "fotograf",
+       "author": "Guy Tal",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.kruger-2-kalahari.com/guy-tal.html",
+       "title": "Interview with Guy Tal – Photographer, Writer, and Naturalist (Kruger-2-Kalahari)",
+       "excerpt": "Intimate compositions are, to me, the manifestation of working a place creatively, looking for those things that intrigue me personally, composing them carefully and without visual distractions, illustrating what they mean to me personally, and coming up with original concepts.",
+       "kind": "fotograf",
+       "author": "Guy Tal",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.kruger-2-kalahari.com/guy-tal.html",
+       "title": "Interview with Guy Tal – Photographer, Writer, and Naturalist (Kruger-2-Kalahari)",
+       "excerpt": "Some scenes persist for hours and others require very quick reflexes to set up and capture the image while the light is right or during a lull in the wind.",
+       "kind": "fotograf",
+       "author": "Guy Tal",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "tal-aglow",
+       "title": "Aglow",
+       "year": null,
+       "location": null,
+       "tags": [
+        "wüste",
+        "tafelberg",
+        "streiflicht",
+        "gewitterwolken"
+       ],
+       "source_url": "https://www.guytal.com/the-good-badlands",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1594069297445-11EDLOL1LCIJMY0CGHLW/dc001087.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.guytal.com/the-good-badlands",
+         "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+         "excerpt": "Sliver of morning sunlight paints a desert butte in golden hues before storm clouds close in again.",
+         "kind": "fotograf",
+         "author": "Guy Tal",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tal-radiant-pastels",
+       "title": "Radiant Pastels",
+       "year": null,
+       "location": null,
+       "tags": [
+        "badlands",
+        "vordämmerung",
+        "pastell",
+        "erosion"
+       ],
+       "source_url": "https://www.guytal.com/the-good-badlands",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1594069351375-I8QCXP6KPG02SQZKWYEI/de000226.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.guytal.com/the-good-badlands",
+         "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+         "excerpt": "The faint glow of pre-dawn light brings to life the delicate pastels in a slope of clay desert badlands.",
+         "kind": "fotograf",
+         "author": "Guy Tal",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tal-desolate-perch",
+       "title": "Desolate Perch",
+       "year": null,
+       "location": null,
+       "tags": [
+        "badlands",
+        "farbige hügel",
+        "rabe",
+        "intime landschaft"
+       ],
+       "source_url": "https://www.guytal.com/the-good-badlands",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1594069498327-GEI35UEP5QKDTJZU9U09/de002594.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.guytal.com/the-good-badlands",
+         "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+         "excerpt": "Lonesome raven surveys a surreal landscape of painted hills.",
+         "kind": "fotograf",
+         "author": "Guy Tal",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tal-illuminated-ridges",
+       "title": "Illuminated Ridges",
+       "year": null,
+       "location": null,
+       "tags": [
+        "badlands",
+        "schnee",
+        "grate",
+        "winterlicht"
+       ],
+       "source_url": "https://www.guytal.com/the-good-badlands",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1594069829437-FEIP1TCWOTN7O37V3MB7/dh000490.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.guytal.com/the-good-badlands",
+         "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+         "excerpt": "Ridges of the blue hills, dusted in snow, glow in the cold light of winter.",
+         "kind": "fotograf",
+         "author": "Guy Tal",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tal-desolate-peace",
+       "title": "Desolate Peace",
+       "year": null,
+       "location": null,
+       "tags": [
+        "badlands",
+        "nebel",
+        "winter",
+        "high key"
+       ],
+       "source_url": "https://www.guytal.com/the-good-badlands",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1594070197666-46XJ0KTGSATSQK94RH9I/di001838.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.guytal.com/the-good-badlands",
+         "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+         "excerpt": "An unusually cold and foggy winter day in the badlands.",
+         "kind": "fotograf",
+         "author": "Guy Tal",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tal-a-day-of-rest",
+       "title": "A Day of Rest",
+       "year": null,
+       "location": null,
+       "tags": [
+        "tafelberg",
+        "schnee",
+        "morgenlicht",
+        "nebel"
+       ],
+       "source_url": "https://www.guytal.com/the-good-badlands",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1594070222873-B32XNC1G4Y6OJNHYYOUD/dn000126.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.guytal.com/the-good-badlands",
+         "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+         "excerpt": "Desert butte glows in early morning light after an overnight snow storm.",
+         "kind": "fotograf",
+         "author": "Guy Tal",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tal-winter-minuet",
+       "title": "Winter Minuet",
+       "year": null,
+       "location": null,
+       "tags": [
+        "bäume",
+        "nebel",
+        "winter",
+        "intime landschaft"
+       ],
+       "source_url": "https://www.guytal.com/the-good-badlands",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1594070304031-QGMHEA6WHGI335904CMW/dn000146.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.guytal.com/the-good-badlands",
+         "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+         "excerpt": "Dormant cottonwood trees engulfed in wintry fog, looking like they are swaying to music only they can hear.",
+         "kind": "fotograf",
+         "author": "Guy Tal",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "tal-yes-for-now",
+       "title": "Yes, For Now",
+       "year": null,
+       "location": null,
+       "tags": [
+        "badlands",
+        "lichtfleck",
+        "erosion",
+        "abstraktion"
+       ],
+       "source_url": "https://www.guytal.com/the-good-badlands",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1716302206489-NJK8ET9JSFZCZ0XTUOIV/di002056.jpg?format=1500w",
+       "sources": [
+        {
+         "url": "https://www.guytal.com/the-good-badlands",
+         "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+         "excerpt": "Errant shaft of light illuminating a surreal landscape of desert hills.",
+         "kind": "fotograf",
+         "author": "Guy Tal",
+         "aspect": "entstehung",
+         "series_level": false
+        },
+        {
+         "url": "https://www.guytal.com/the-good-badlands",
+         "title": "The Good Badlands – Portfolio, Guy Tal – Bildbeschreibung",
+         "excerpt": "This was once a place where one could spend days in quiet solitude, watching the light. Now it has become a busy photo checklist destination.",
+         "kind": "fotograf",
+         "author": "Guy Tal",
+         "aspect": "rezeption",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hatakeyama",
+   "name": "Naoya Hatakeyama",
+   "born": 1958,
+   "sources": [
+    {
+     "url": "https://www.takaishiigallery.com/en/artists/naoya-hatakeyama/",
+     "title": "Naoya Hatakeyama – Künstlerseite, Taka Ishii Gallery",
+     "excerpt": "Naoya Hatakeyama was born in 1958 in Rikuzentakata, Iwate Prefecture, Japan."
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Naoya_Hatakeyama/",
+     "title": "Naoya Hatakeyama – Künstlerseite mit Essay von Sandra S. Phillips, SFMOMA",
+     "excerpt": "He maintains that even landscapes we admire for their untouched beauty, such as the craggy mountaintops of the Alps, have been altered by human use—by their portrayal as idealized Nature—and we must recognize this as the current condition of the world.",
+     "kind": "kurator",
+     "author": "Sandra S. Phillips (SFMOMA)",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Naoya_Hatakeyama/",
+     "title": "Naoya Hatakeyama – Künstlerseite mit Essay von Sandra S. Phillips, SFMOMA",
+     "excerpt": "“When I learned that Japan was a land of limestone,” Hatakeyama has said, “my appreciation of its cityscapes underwent a subtle change.”",
+     "kind": "fotograf",
+     "author": "Naoya Hatakeyama (zitiert von SFMOMA)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Naoya_Hatakeyama/",
+     "title": "Naoya Hatakeyama – Künstlerseite mit Essay von Sandra S. Phillips, SFMOMA",
+     "excerpt": "Hatakeyama’s focus was altered by the devastating 2011 Tohoku earthquake and tsunami, a tragic moment for the nation and personally for the photographer, whose hometown was almost completely demolished and who suffered terrible loss."
+    }
+   ],
+   "projects": [
+    {
+     "key": "hatakeyama-lime-hills-blast",
+     "title": "Kalkstein: Lime Hills und Blast (1988–2006)",
+     "year_from": 1988,
+     "year_to": 2006,
+     "sources": [
+      {
+       "url": "https://www.sfmoma.org/artist/Naoya_Hatakeyama/",
+       "title": "Naoya Hatakeyama – Künstlerseite mit Essay von Sandra S. Phillips, SFMOMA",
+       "excerpt": "Hatakeyama’s first major project was Lime Hills (1986–90), in which he photographed limestone quarries throughout Japan.",
+       "kind": "kurator",
+       "author": "Sandra S. Phillips (SFMOMA)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.sfmoma.org/artist/Naoya_Hatakeyama/",
+       "title": "Naoya Hatakeyama – Künstlerseite mit Essay von Sandra S. Phillips, SFMOMA",
+       "excerpt": "Finding the peaceful contemplation of these places to be incomplete, he soon documented the detonations the engineers devised to loosen the rock and represented the choreographed explosions sequentially, in the series Blast (1995–2008).",
+       "kind": "kurator",
+       "author": "Sandra S. Phillips (SFMOMA)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://artbma.org/artwork/blast-8326/",
+       "title": "Naoya Hatakeyama, Blast 8326 (1995) – Baltimore Museum of Art",
+       "excerpt": "“The quarries and the cities,” he has written, “are like negative and positive images of a single photograph.”",
+       "kind": "fotograf",
+       "author": "Naoya Hatakeyama (zitiert vom Baltimore Museum of Art)",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://artbma.org/artwork/blast-8326/",
+       "title": "Naoya Hatakeyama, Blast 8326 (1995) – Baltimore Museum of Art",
+       "excerpt": "The photographs, taken with a remote-controlled camera, were coordinated with an explosives expert who directed where the blasted rock flew while the artist’s camera stopped the limestone in mid-air.",
+       "kind": "museum",
+       "author": "Baltimore Museum of Art",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.takaishiigallery.com/en/archives/10231/",
+       "title": "Naoya Hatakeyama „BLAST“ – Ausstellung, Taka Ishii Gallery Tokio 2013",
+       "excerpt": "After the Great East Japan Earthquake of March 11, 2011, Hatakeyama felt that he could no longer continue to make photographs in the way that he had in the past.",
+       "kind": "kurator",
+       "author": "Taka Ishii Gallery",
+       "aspect": "rezeption",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "hatakeyama-lime-hills-23514",
+       "title": "Lime Hills #23514",
+       "year": 1988,
+       "location": "Japan (Kalksteinbruch)",
+       "tags": [
+        "steinbruch",
+        "kalkstein",
+        "industrie",
+        "abendlicht"
+       ],
+       "source_url": "https://www.sfmoma.org/artwork/2014.1048/",
+       "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/19134412/PGPH12.015_01_H02-web.jpg",
+       "sources": []
+      },
+      {
+       "key": "hatakeyama-lime-hills-29214",
+       "title": "Lime Hills #29214",
+       "year": 1990,
+       "location": "Japan (Kalksteinbruch)",
+       "tags": [
+        "steinbruch",
+        "kalkstein",
+        "terrassen",
+        "schnee"
+       ],
+       "source_url": "https://www.sfmoma.org/artwork/2014.1049/",
+       "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/18214847/PGPH12.014_01_H02-web.jpg",
+       "sources": []
+      },
+      {
+       "key": "hatakeyama-blast-00417",
+       "title": "Blast #00417",
+       "year": 1995,
+       "location": "Japan (Kalksteinbruch)",
+       "tags": [
+        "sprengung",
+        "kalkstein",
+        "moment",
+        "fernauslöser"
+       ],
+       "source_url": "https://www.sfmoma.org/artwork/2014.1009/",
+       "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/19140343/2014.1009_01_P02-web.jpg",
+       "sources": []
+      },
+      {
+       "key": "hatakeyama-blast-5707",
+       "title": "Blast #5707",
+       "year": 1998,
+       "location": "Japan (Kalksteinbruch)",
+       "tags": [
+        "sprengung",
+        "kalkstein",
+        "moment",
+        "staubwolke"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O101150/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2007BM3140/full/full/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O101150/",
+         "title": "Naoya Hatakeyama, Blast #5707 (1998) – Victoria and Albert Museum",
+         "excerpt": "A bright blue sky emphasises the clouds of pulverised stone shooting from the rock face.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "wirkung",
+         "series_level": false
+        },
+        {
+         "url": "https://collections.vam.ac.uk/item/O101150/",
+         "title": "Naoya Hatakeyama, Blast #5707 (1998) – Victoria and Albert Museum",
+         "excerpt": "‘When the sound of a siren stops,’ he wrote, ‘I see the cliff suddenly erupt for 20 metres, and the air hits me with a violent shock.",
+         "kind": "fotograf",
+         "author": "Naoya Hatakeyama (zitiert vom V&A)",
+         "aspect": "entstehung",
+         "series_level": true,
+         "translation_de": "‚Wenn die Sirene verstummt‘, schrieb er, ‚sehe ich die Felswand plötzlich auf 20 Metern ausbrechen, und die Luft trifft mich mit einem heftigen Schlag.‘"
+        }
+       ]
+      },
+      {
+       "key": "hatakeyama-blast-12115",
+       "title": "Blast #12115",
+       "year": 2005,
+       "location": "Japan (Kalksteinbruch)",
+       "tags": [
+        "sprengung",
+        "kalkstein",
+        "hochformat",
+        "moment"
+       ],
+       "source_url": "https://www.sfmoma.org/artwork/2016.493/",
+       "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/17232641/x2012.511.046_01_H02-web.jpg",
+       "sources": []
+      },
+      {
+       "key": "hatakeyama-blast-13018",
+       "title": "Blast #13018",
+       "year": 2006,
+       "location": "Japan (Kalksteinbruch)",
+       "tags": [
+        "sprengung",
+        "staubwolke",
+        "kalkstein",
+        "moment"
+       ],
+       "source_url": "https://www.sfmoma.org/artwork/2016.494/",
+       "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/21104641/PH16.324_01_H02-web.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "leong",
+   "name": "Sze Tsung Leong",
+   "born": 1970,
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "excerpt": "Sze Tsung Leong was born in Mexico City in 1970, spent his childhood between Mexico, Britain, and the United States, and currently lives and works in New York."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "excerpt": "Leong shoots on film with medium and large format cameras, and makes analogue chromogenic prints.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "leong-horizons",
+     "title": "Horizons (Auswahl 2007–2012)",
+     "year_from": 2007,
+     "year_to": 2012,
+     "sources": [
+      {
+       "url": "https://collections.vam.ac.uk/item/O1301616/",
+       "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+       "excerpt": "Horizons is a series of landscape photographs taken all over the world, in which the horizon is always at precisely the same place.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://collections.vam.ac.uk/item/O1301616/",
+       "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+       "excerpt": "The photographs – all meticulously framed, and some starkly minimalist – can be viewed together in various arrangements, to create the appearance of a continuous horizon running through them all.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "wirkung",
+       "series_level": true
+      },
+      {
+       "url": "https://collections.vam.ac.uk/item/O1301616/",
+       "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+       "excerpt": "The locations of the images may be distant in geography and diverse in subject matter, yet the photographs are linked by a horizon which continues in the same position from image to image.",
+       "kind": "fotograf",
+       "author": "Sze Tsung Leong (zitiert vom V&A)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://collections.vam.ac.uk/item/O1301616/",
+       "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+       "excerpt": "When placed side by side, the images form an extended landscape composed of an accumulation of varied continents, cities, terrains, situations, textures, and colors.",
+       "kind": "fotograf",
+       "author": "Sze Tsung Leong (zitiert vom V&A)",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "leong-skeidararsandur-ii",
+       "title": "Skeiðarársandur II, Iceland",
+       "year": 2007,
+       "location": "Skeiðarársandur, Island",
+       "tags": [
+        "horizont",
+        "sander",
+        "minimalismus",
+        "island"
+       ],
+       "source_url": "https://www.yossimilo.com/artists/65-sze-tsung-nicolas-leong/series/horizons/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/yossimilo/images/view/55deea23c81fe7b912e6166db871c24bj/yossimilo-sze-tsung-nicol-s-leong-skei-ar-rsandur-ii-iceland-2007.jpg",
+       "sources": []
+      },
+      {
+       "key": "leong-canale-della-giudecca-iii",
+       "title": "Canale della Giudecca III, Venezia",
+       "year": 2007,
+       "location": "Venedig, Italien",
+       "tags": [
+        "horizont",
+        "stadtsilhouette",
+        "wasser",
+        "minimalismus"
+       ],
+       "source_url": "https://www.yossimilo.com/artists/65-sze-tsung-nicolas-leong/series/horizons/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/yossimilo/images/view/cea40aabd4f29e59aca41238d551ac68j/yossimilo-sze-tsung-nicol-s-leong-canale-della-giudecca-iii-venezia-2007.jpg",
+       "sources": []
+      },
+      {
+       "key": "leong-suruga-bay",
+       "title": "Suruga Bay, Japan",
+       "year": 2008,
+       "location": "Suruga-Bucht, Japan",
+       "tags": [
+        "horizont",
+        "meer",
+        "dunst",
+        "minimalismus"
+       ],
+       "source_url": "https://www.yossimilo.com/artists/65-sze-tsung-nicolas-leong/series/horizons/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/yossimilo/images/view/7f46fd135ae4ace4cd145a5711f09190j/yossimilo-sze-tsung-nicol-s-leong-suruga-bay-japan-2008.jpg",
+       "sources": []
+      },
+      {
+       "key": "leong-masai-mara-ii",
+       "title": "Masai Mara II",
+       "year": 2009,
+       "location": "Masai Mara, Kenia",
+       "tags": [
+        "horizont",
+        "savanne",
+        "elefanten",
+        "weite"
+       ],
+       "source_url": "https://www.yossimilo.com/artists/65-sze-tsung-nicolas-leong/series/horizons/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/yossimilo/images/view/066ad2ae0d6012b018cc8ff9ca9870c6j/yossimilo-sze-tsung-nicol-s-leong-masai-mara-ii-2009.jpg",
+       "sources": []
+      },
+      {
+       "key": "leong-baie-du-mont-st-michel-ii",
+       "title": "Baie du Mont St Michel II",
+       "year": 2009,
+       "location": "Bucht des Mont-Saint-Michel, Frankreich",
+       "tags": [
+        "horizont",
+        "watt",
+        "menschen",
+        "weite"
+       ],
+       "source_url": "https://www.yossimilo.com/artists/65-sze-tsung-nicolas-leong/series/horizons/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/yossimilo/images/view/de392423cf02f930afa8cefd8784c8baj/yossimilo-sze-tsung-nicol-s-leong-baie-du-mont-st-michel-ii-2009.jpg",
+       "sources": []
+      },
+      {
+       "key": "leong-salar-de-uyuni-iv",
+       "title": "Salar de Uyuni IV",
+       "year": 2010,
+       "location": "Salar de Uyuni, Bolivien",
+       "tags": [
+        "horizont",
+        "salzsee",
+        "minimalismus",
+        "high key"
+       ],
+       "source_url": "https://www.yossimilo.com/artists/65-sze-tsung-nicolas-leong/series/horizons/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/yossimilo/images/view/4b9e43268ce77f6dcc45a38bb89cd3dbj/yossimilo-sze-tsung-nicol-s-leong-salar-de-uyuni-iv-2010.jpg",
+       "sources": []
+      },
+      {
+       "key": "leong-isla-incahuasi",
+       "title": "Isla Incahuasi, Bolivia",
+       "year": 2010,
+       "location": "Isla Incahuasi, Bolivien",
+       "tags": [
+        "horizont",
+        "salzsee",
+        "insel",
+        "high key"
+       ],
+       "source_url": "https://www.yossimilo.com/artists/65-sze-tsung-nicolas-leong/series/horizons/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/yossimilo/images/view/d8c035c85ab9984a0255bd7b9797f5d9j/yossimilo-sze-tsung-nicol-s-leong-isla-incahuasi-bolivia-2010.jpg",
+       "sources": []
+      },
+      {
+       "key": "leong-philippine-sea",
+       "title": "Philippine Sea",
+       "year": 2010,
+       "location": "Philippinensee",
+       "tags": [
+        "horizont",
+        "meer",
+        "minimalismus",
+        "bewölkt"
+       ],
+       "source_url": "https://www.yossimilo.com/artists/65-sze-tsung-nicolas-leong/series/horizons/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/yossimilo/images/view/3af73bb93fe051ef2cd64586a745891bj/yossimilo-sze-tsung-nicol-s-leong-philippine-sea-2010.jpg",
+       "sources": []
+      },
+      {
+       "key": "leong-lake-michigan",
+       "title": "Lake Michigan",
+       "year": 2012,
+       "location": "Lake Michigan (Chicago), USA",
+       "tags": [
+        "horizont",
+        "skyline",
+        "see",
+        "high key"
+       ],
+       "source_url": "https://www.yossimilo.com/artists/65-sze-tsung-nicolas-leong/series/horizons/",
+       "image_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/yossimilo/images/view/1e5aff89b68252c3f22749e519c6ad39j/yossimilo-sze-tsung-nicol-s-leong-lake-michigan-2012.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "dobrowner",
+   "name": "Mitch Dobrowner",
+   "born": null,
+   "sources": [
+    {
+     "url": "https://festival-lagacilly-baden.photo/en/photographers-2025/mitch-dobrowner",
+     "title": "Mitch Dobrowner: In the Eye of the Storm – Festival La Gacilly-Baden Photo 2025",
+     "excerpt": "“They take on so many different aspects, faces and personalities; I’m in awe watching them,” explains the photographer who first started taking pictures as a teenager, but later set his camera aside until 2005 while he raised his family."
+    },
+    {
+     "url": "https://festival-lagacilly-baden.photo/en/photographers-2025/mitch-dobrowner",
+     "title": "Mitch Dobrowner: In the Eye of the Storm – Festival La Gacilly-Baden Photo 2025",
+     "excerpt": "“My job is to get to the right place at the right time, then let nature show itself,” he says.",
+     "kind": "fotograf",
+     "author": "Mitch Dobrowner (zitiert vom Festival La Gacilly-Baden)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.imagedeconstructed.com/posts/spotlight-on-mitch-dobrowner.html",
+     "title": "Spotlight on Mitch Dobrowner – Interview, The Image Deconstructed (2016)",
+     "excerpt": "I love studying the light and see photography as an exercise in painting with light and shadows. In inclement weather, light and shadows are always changing.",
+     "kind": "fotograf",
+     "author": "Mitch Dobrowner",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://festival-lagacilly-baden.photo/en/photographers-2025/mitch-dobrowner",
+     "title": "Mitch Dobrowner: In the Eye of the Storm – Festival La Gacilly-Baden Photo 2025",
+     "excerpt": "Despite his success and the esteem he has gained, Mitch Dobrowner refuses to be labelled a “storm chaser” : “I don’t like to put things in boxes."
+    }
+   ],
+   "projects": [
+    {
+     "key": "dobrowner-storms",
+     "title": "Storms – Superzellen über den Great Plains (Auswahl, National Geographic 2012)",
+     "year_from": 2009,
+     "year_to": 2012,
+     "sources": [
+      {
+       "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+       "excerpt": "To document these awe-inspiring tempests, Mitch Dobrowner, a landscape photographer inspired by Ansel Adams and Minor White, teamed with renowned storm chaser Roger Hill, a witness to more than 600 tornadoes.",
+       "kind": "kritik",
+       "author": "Jeremy Berlin (National Geographic)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+       "excerpt": "Over the past three years, aided by mobile satellite data, radar imaging, and more, the pair have stalked some 45 weather systems over 16 states and 40,000 miles, sometimes driving 900 miles in a day to capture a moment.",
+       "kind": "kritik",
+       "author": "Jeremy Berlin (National Geographic)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+       "excerpt": "Working in black and white—“Color seems too everyday,” he says—he looks especially for supercells, rarest and mightiest of thunderstorms.",
+       "kind": "fotograf",
+       "author": "Mitch Dobrowner (zitiert von National Geographic)",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+       "excerpt": "“With storms,” says Dobrowner, “it’s like shooting a sporting event. Things happen so quickly, I really have to adapt.”",
+       "kind": "fotograf",
+       "author": "Mitch Dobrowner (zitiert von National Geographic)",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.imagedeconstructed.com/posts/spotlight-on-mitch-dobrowner.html",
+       "title": "Spotlight on Mitch Dobrowner – Interview, The Image Deconstructed (2016)",
+       "excerpt": "As I love breaking rules, I adapt my cameras to capture the light as I see it.... and use an adaption of Ansel Adam's zone system as my own digital zone system.",
+       "kind": "fotograf",
+       "author": "Mitch Dobrowner",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://festival-lagacilly-baden.photo/en/photographers-2025/mitch-dobrowner",
+       "title": "Mitch Dobrowner: In the Eye of the Storm – Festival La Gacilly-Baden Photo 2025",
+       "excerpt": "His systematic use of black and white to accentuate the harshness of the storms stems from his admiration for Ansel Adams – another master of American landscape photography.",
+       "kind": "kurator",
+       "author": "Festival La Gacilly-Baden Photo",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "dobrowner-lordsburg-monsoon",
+       "title": "Lordsburg, New Mexico",
+       "year": null,
+       "location": "Lordsburg, New Mexico, USA",
+       "tags": [
+        "schwarzweiß",
+        "gewitter",
+        "monsun",
+        "wüste"
+       ],
+       "source_url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "image_url": "https://i.natgeofe.com/n/6eaedcf4-5868-4614-b760-a083464efc60/01-monsoon.jpg?w=1600",
+       "sources": [
+        {
+         "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+         "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+         "excerpt": "Resembling a mushroom cloud, a monsoon thunderstorm drops a deluge on the desert.",
+         "aspect": "entstehung",
+         "series_level": false,
+         "kind": "kritik",
+         "author": "National Geographic (Bildlegende, Jeremy Berlin)"
+        }
+       ]
+      },
+      {
+       "key": "dobrowner-regan-rope-out",
+       "title": "Regan, North Dakota",
+       "year": null,
+       "location": "Regan, North Dakota, USA",
+       "tags": [
+        "schwarzweiß",
+        "tornado",
+        "superzelle",
+        "prärie"
+       ],
+       "source_url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "image_url": "https://i.natgeofe.com/n/d5d30123-ce50-4246-b680-07c70c292a70/02-rope-out-cloud.jpg?w=1600",
+       "sources": [
+        {
+         "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+         "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+         "excerpt": "A dying tornado like this one is said to be in the \"roping out\" phase.",
+         "aspect": "entstehung",
+         "series_level": false,
+         "kind": "kritik",
+         "author": "National Geographic (Bildlegende, Jeremy Berlin)"
+        }
+       ]
+      },
+      {
+       "key": "dobrowner-guymon-road-lightning",
+       "title": "Near Guymon, Oklahoma",
+       "year": null,
+       "location": "bei Guymon, Oklahoma, USA",
+       "tags": [
+        "schwarzweiß",
+        "blitz",
+        "straße",
+        "gewitter"
+       ],
+       "source_url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "image_url": "https://i.natgeofe.com/n/6bf44ceb-74e6-4cfa-a271-2ebea3b65db3/03-road-lightning.jpg?w=1600",
+       "sources": [
+        {
+         "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+         "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+         "excerpt": "Most storms move fast. This one crept over a farming community for more than an hour, bristling with electricity.",
+         "aspect": "entstehung",
+         "series_level": false,
+         "kind": "kritik",
+         "author": "National Geographic (Bildlegende, Jeremy Berlin)"
+        }
+       ]
+      },
+      {
+       "key": "dobrowner-clayton-lp-supercell",
+       "title": "Near Clayton, New Mexico",
+       "year": null,
+       "location": "bei Clayton, New Mexico, USA",
+       "tags": [
+        "schwarzweiß",
+        "superzelle",
+        "wolkenstruktur",
+        "prärie"
+       ],
+       "source_url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "image_url": "https://i.natgeofe.com/n/34a3a5e1-5b7b-4ae9-8c08-d7cf9201fa83/04-vapor-cloud.jpg?w=1600",
+       "sources": [
+        {
+         "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+         "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+         "excerpt": "Photographer Mitch Dobrowner says they tracked this one 300 miles from the Texas Panhandle.",
+         "kind": "fotograf",
+         "author": "Mitch Dobrowner (zitiert von National Geographic)",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "dobrowner-northfield-funnel",
+       "title": "Northfield, Minnesota",
+       "year": null,
+       "location": "Northfield, Minnesota, USA",
+       "tags": [
+        "schwarzweiß",
+        "trichterwolke",
+        "maisfeld",
+        "superzelle"
+       ],
+       "source_url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "image_url": "https://i.natgeofe.com/n/48a3cf81-8714-41f6-8e92-3b9bf3fbd3d1/05-funnel-cornfield.jpg?w=1600",
+       "sources": [
+        {
+         "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+         "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+         "excerpt": "Born in a bruising supercell, a funnel cloud looms beyond a cornfield.",
+         "aspect": "entstehung",
+         "series_level": false,
+         "kind": "kritik",
+         "author": "National Geographic (Bildlegende, Jeremy Berlin)"
+        }
+       ]
+      },
+      {
+       "key": "dobrowner-moorcroft-bears-claw",
+       "title": "Moorcroft, Wyoming",
+       "year": null,
+       "location": "Moorcroft, Wyoming, USA",
+       "tags": [
+        "schwarzweiß",
+        "hagelsturm",
+        "superzelle",
+        "straße"
+       ],
+       "source_url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "image_url": "https://i.natgeofe.com/n/5f866dc3-ebaf-4ba8-8506-3bb022439c07/06-bears-claw.jpg?w=1600",
+       "sources": [
+        {
+         "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+         "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+         "excerpt": "\"I will never forget the sight of this monster hailstorm as it breached the hills right in front of us,\" says Dobrowner. \"It came at us at about 40 miles an hour, raining golf-ball-size hail.\" After taking six shots, he and storm chaser Roger Hill dashed for their van when \"it became obvious this was no ordinary storm.\"",
+         "kind": "fotograf",
+         "author": "Mitch Dobrowner (zitiert von National Geographic)",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "dobrowner-mobridge-lightning",
+       "title": "Mobridge, South Dakota",
+       "year": null,
+       "location": "Mobridge, South Dakota, USA",
+       "tags": [
+        "schwarzweiß",
+        "superzelle",
+        "blitz",
+        "nacht"
+       ],
+       "source_url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "image_url": "https://i.natgeofe.com/n/9327eddd-fc1e-422a-bbf7-63f1c8f40e89/07-jupiter.jpg?w=1600",
+       "sources": [
+        {
+         "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+         "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+         "excerpt": "\"It was like watching a monster in the dark,\" he remembers. \"We weren't able to see it until a series of lightning bolts rained down. Then it was like watching a dragon in the night sky.\"",
+         "kind": "fotograf",
+         "author": "Mitch Dobrowner (zitiert von National Geographic)",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "dobrowner-lake-poinsett",
+       "title": "Lake Poinsett, South Dakota",
+       "year": null,
+       "location": "Lake Poinsett, South Dakota, USA",
+       "tags": [
+        "schwarzweiß",
+        "superzelle",
+        "feld",
+        "niederschlag"
+       ],
+       "source_url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "image_url": "https://i.natgeofe.com/n/094c91f5-a230-4268-80d0-9057998d2c6b/08-storm-over-field.jpg?w=1600",
+       "sources": [
+        {
+         "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+         "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+         "excerpt": "Dobrowner and Hill were ready to give up on this supercell as they watched it weaken. But after \"it pulsed up and began to show signs of cycling,\" says Dobrowner, they moved close to these fields, at one point getting within a hundred yards of a rotating, lowering cloud.",
+         "kind": "fotograf",
+         "author": "Mitch Dobrowner (zitiert von National Geographic)",
+         "aspect": "entstehung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "dobrowner-buffalo-supercell",
+       "title": "Buffalo, South Dakota",
+       "year": null,
+       "location": "Buffalo, South Dakota, USA",
+       "tags": [
+        "schwarzweiß",
+        "superzelle",
+        "seitenansicht",
+        "hagel"
+       ],
+       "source_url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+       "image_url": "https://i.natgeofe.com/n/a59a9bae-2903-4674-8ee7-7d2aef529b4a/09-veil-cloud.jpg?w=1600",
+       "sources": [
+        {
+         "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+         "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+         "excerpt": "LaDue notes that from this point of view—a rare opportunity to glimpse the side of a supercell, rather than seeing it from below—much of the storm's anatomy is visible.",
+         "kind": "wissenschaft",
+         "author": "James LaDue, National Weather Service (zitiert von National Geographic)",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "percy",
+   "name": "Bruce Percy",
+   "born": null,
+   "sources": [
+    {
+     "url": "https://www.brucepercy.co.uk/biography",
+     "title": "Biography – Bruce Percy",
+     "excerpt": "I live in Edinburgh, Scotland."
+    },
+    {
+     "url": "https://www.brucepercy.co.uk/biography",
+     "title": "Biography – Bruce Percy",
+     "excerpt": "For my landscape work I use Hasselblad V series film cameras and Fuji Velvia 50 and Kodak E100 film.",
+     "kind": "fotograf",
+     "author": "Bruce Percy",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://www.brucepercy.co.uk/biography",
+     "title": "Biography – Bruce Percy",
+     "excerpt": "I don’t like to pre-visualise a place. It’s best to just go and see what the landscape offers.",
+     "kind": "fotograf",
+     "author": "Bruce Percy",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.brucepercy.co.uk/biography",
+     "title": "Biography – Bruce Percy",
+     "excerpt": "Photography is a lesson in submission. Learning to live in the present moment, and accept what nature gives us.",
+     "kind": "fotograf",
+     "author": "Bruce Percy",
+     "aspect": "entstehung",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "percy-hokkaido-autumn",
+     "title": "Hokkaido im Herbst (2025)",
+     "year_from": 2025,
+     "year_to": 2025,
+     "sources": [
+      {
+       "url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+       "title": "Bruce Percy: re-negotiating my relationship with colour – Blog, 22.10.2026 (Hokkaido-Herbstbilder)",
+       "excerpt": "Initially attracted to strong, saturated colours, I found over the first decade of image-making that my photography moved to a more muted palette.",
+       "kind": "fotograf",
+       "author": "Bruce Percy",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+       "title": "Bruce Percy: re-negotiating my relationship with colour – Blog, 22.10.2026 (Hokkaido-Herbstbilder)",
+       "excerpt": "Over the years of working on my tones and contrasts, I found that colour can and should be used selectively.",
+       "kind": "fotograf",
+       "author": "Bruce Percy",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+       "title": "Bruce Percy: re-negotiating my relationship with colour – Blog, 22.10.2026 (Hokkaido-Herbstbilder)",
+       "excerpt": "Now I think it’s more a case that I have an evolving, constantly changing relationship with colour, and have come to find myself very comfortable with one portfolio having a lot of colour and another having almost none.",
+       "kind": "fotograf",
+       "author": "Bruce Percy",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+       "title": "Bruce Percy: re-negotiating my relationship with colour – Blog, 22.10.2026 (Hokkaido-Herbstbilder)",
+       "excerpt": "I like it when I realise the true nature of a place, and figure out how to represent it in a small portfolio of 6 to 9 images, and colour is now very much a major part of the decision as to how to represent the work.",
+       "kind": "fotograf",
+       "author": "Bruce Percy",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "percy-hokkaido-autumn-2025",
+       "title": "Hokkaido Autumn 2025 (Dateiname, ohne Werktitel)",
+       "year": 2025,
+       "location": "Hokkaido, Japan",
+       "tags": [
+        "baum",
+        "see",
+        "nebel",
+        "quadrat"
+       ],
+       "source_url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/53a5beeee4b088db7ad03f53/1762526302142-AGIWP6VVO5KO9BOLFSOG/Hokkaido-Autumn-2025.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "percy-hokkaido-autumn-2025-9-recovered",
+       "title": "Hokkaido Autumn 2025 (9) Recovered (Dateiname, ohne Werktitel)",
+       "year": 2025,
+       "location": "Hokkaido, Japan",
+       "tags": [
+        "baum",
+        "feld",
+        "herbst",
+        "quadrat"
+       ],
+       "source_url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/53a5beeee4b088db7ad03f53/1762526294365-LZG0CGBZ0NTZJYU4QVNC/Hokkaido-Autumn-2025-%289%29-Recovered.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "percy-hokkaido-autumn-2025-2",
+       "title": "Hokkaido Autumn 2025 (2) (Dateiname, ohne Werktitel)",
+       "year": 2025,
+       "location": "Hokkaido, Japan",
+       "tags": [
+        "geländer",
+        "see",
+        "insel",
+        "nebel"
+       ],
+       "source_url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/53a5beeee4b088db7ad03f53/1762526292085-MS2E1O1A5O3RC2EVHLB0/Hokkaido-Autumn-2025-%282%29.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "percy-hokkaido-autumn-2025-18",
+       "title": "Hokkaido Autumn 2025 (18) (Dateiname, ohne Werktitel)",
+       "year": 2025,
+       "location": "Hokkaido, Japan",
+       "tags": [
+        "baumgruppe",
+        "feld",
+        "herbstfarben",
+        "quadrat"
+       ],
+       "source_url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/53a5beeee4b088db7ad03f53/1762526297981-2ZNVR98C2ZTAIBZC2YXY/Hokkaido-Autumn-2025-%2818%29.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "percy-hokkaido-autumn-2025-6",
+       "title": "Hokkaido Autumn 2025 (6) (Dateiname, ohne Werktitel)",
+       "year": 2025,
+       "location": "Hokkaido, Japan",
+       "tags": [
+        "wald",
+        "spiegelung",
+        "birken",
+        "dämmerung"
+       ],
+       "source_url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/53a5beeee4b088db7ad03f53/1762526293415-M1BB95GLZ2YWL84FRAE3/Hokkaido-Autumn-2025-%286%29.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "percy-hokkaido-autumn-2025-15",
+       "title": "Hokkaido Autumn 2025 (15) (Dateiname, ohne Werktitel)",
+       "year": 2025,
+       "location": "Hokkaido, Japan",
+       "tags": [
+        "fluss",
+        "herbstfarben",
+        "türkis",
+        "quadrat"
+       ],
+       "source_url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/53a5beeee4b088db7ad03f53/1762526296133-YSLB8JSYAVON7WCJF0HN/Hokkaido-Autumn-2025-%2815%29.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "percy-hokkaido-autumn-2025-16",
+       "title": "Hokkaido Autumn 2025 (16) (Dateiname, ohne Werktitel)",
+       "year": 2025,
+       "location": "Hokkaido, Japan",
+       "tags": [
+        "herbstwald",
+        "fluss",
+        "türkis",
+        "farbe"
+       ],
+       "source_url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/53a5beeee4b088db7ad03f53/1762526296759-LXL668JRIBFQXS9QW1GF/Hokkaido-Autumn-2025-%2816%29.jpg?format=1500w",
+       "sources": []
+      },
+      {
+       "key": "percy-hokkaido-autumn-2025-43",
+       "title": "Hokkaido Autumn 2025 (43) (Dateiname, ohne Werktitel)",
+       "year": 2025,
+       "location": "Hokkaido, Japan",
+       "tags": [
+        "birken",
+        "spiegelung",
+        "nacht",
+        "dunst"
+       ],
+       "source_url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+       "image_url": "https://images.squarespace-cdn.com/content/v1/53a5beeee4b088db7ad03f53/1762526301514-X8F6UWZAFW3LIB2X7XO3/Hokkaido-Autumn-2025-%2843%29.jpg?format=1500w",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "roberts",
+   "name": "Simon Roberts",
+   "born": null,
+   "sources": [
+    {
+     "url": "https://themorningnews.org/we-english/",
+     "title": "Rosecrans Baldwin: We English – Interview mit Simon Roberts, The Morning News",
+     "excerpt": "I decided that I would move away from photographing the individual, which had played a major role in Motherland , and engage instead with the idea of the collective, of groups of people populating the landscape.",
+     "kind": "fotograf",
+     "author": "Simon Roberts",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://themorningnews.org/we-english/",
+     "title": "Rosecrans Baldwin: We English – Interview mit Simon Roberts, The Morning News",
+     "excerpt": "This way of seeing was influenced by the 16th century Dutch and Flemish landscape painters, most notably Hendrick Avercamp and Lucas van Valckenborch who depicted winter scenes teeming with life.",
+     "kind": "fotograf",
+     "author": "Simon Roberts",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://themorningnews.org/we-english/",
+     "title": "Rosecrans Baldwin: We English – Interview mit Simon Roberts, The Morning News",
+     "excerpt": "I photographed with an old 5x4 field camera, which was quite laborious and often very public, however the process turned out to be helpful in capturing each scene as it unfolded before me, without any intervention on my part.",
+     "kind": "fotograf",
+     "author": "Simon Roberts",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "projects": [
+    {
+     "key": "roberts-we-english",
+     "title": "We English (2007–2008)",
+     "year_from": 2007,
+     "year_to": 2008,
+     "sources": [
+      {
+       "url": "https://www.simoncroberts.com/work/we-english/",
+       "title": "We English – Projektseite, Simon Roberts",
+       "excerpt": "We English , created between 2007 and 2008, is a broad portfolio of large-format tableaux photographs of the English at leisure."
+      },
+      {
+       "url": "https://www.simoncroberts.com/work/we-english/",
+       "title": "We English – Projektseite, Simon Roberts",
+       "excerpt": "But the focus of the work is primarily landscape, and several of the images are broad, handsome vistas with only a few people scattered about the terrain.",
+       "kind": "kritik",
+       "author": "Vince Aletti, The New Yorker (2009), zitiert auf der Projektseite",
+       "aspect": "wirkung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.simoncroberts.com/work/we-english/",
+       "title": "We English – Projektseite, Simon Roberts",
+       "excerpt": "Even the photographs that include larger groups were taken from a distance – a perspective that echoes classical painting, although the subjects are decidedly contemporary.",
+       "kind": "kritik",
+       "author": "Vince Aletti, The New Yorker (2009), zitiert auf der Projektseite",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://themorningnews.org/we-english/",
+       "title": "Rosecrans Baldwin: We English – Interview mit Simon Roberts, The Morning News",
+       "excerpt": "Where possible I would photograph from elevated positions (often from the roof of my motor home), which would enable me to get a greater sense of people’s interaction with the landscape and with one another.",
+       "kind": "fotograf",
+       "author": "Simon Roberts",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://themorningnews.org/we-english/",
+       "title": "Rosecrans Baldwin: We English – Interview mit Simon Roberts, The Morning News",
+       "excerpt": "Also, in contrast to my work in Russia, where everything was a possible photograph, with this project I wanted to set myself a stricter framework within which to work—in terms of geographical boundaries (England, rather than Britain), composition (only landscapes, not portraiture) and theme (leisure).",
+       "kind": "fotograf",
+       "author": "Simon Roberts",
+       "aspect": "entstehung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "roberts-south-downs-way",
+       "title": "South Downs Way, West Sussex, 8th October 2007",
+       "year": 2007,
+       "location": "South Downs Way, West Sussex, England",
+       "tags": [
+        "farbe",
+        "erhöhter standpunkt",
+        "gleitschirme",
+        "weite"
+       ],
+       "source_url": "https://www.simoncroberts.com/portfolio/attachment/we-english-222/",
+       "image_url": "https://www.simoncroberts.com/wp-content/uploads/2017/06/WeEnglish-03.jpg",
+       "sources": []
+      },
+      {
+       "key": "roberts-aintree-ladies-day",
+       "title": "Ladies’ Day, Aintree Racecourse, Merseyside, 4th April 2008",
+       "year": 2008,
+       "location": "Aintree, Merseyside, England",
+       "tags": [
+        "farbe",
+        "menschenmenge",
+        "tribüne",
+        "freizeit"
+       ],
+       "source_url": "https://www.simoncroberts.com/portfolio/attachment/we-english-224/",
+       "image_url": "https://www.simoncroberts.com/wp-content/uploads/2017/06/WeEnglish-15.jpg",
+       "sources": []
+      },
+      {
+       "key": "roberts-keynes-country-park",
+       "title": "Keynes Country Park Beach, Shornecote, Gloucestershire, 11th May 2008",
+       "year": 2008,
+       "location": "Keynes Country Park, Gloucestershire, England",
+       "tags": [
+        "farbe",
+        "freizeit",
+        "see",
+        "menschen"
+       ],
+       "source_url": "https://www.simoncroberts.com/portfolio/attachment/we-english-221/",
+       "image_url": "https://www.simoncroberts.com/wp-content/uploads/2017/06/WeEnglish-20.jpg",
+       "sources": [
+        {
+         "url": "https://we-english.co.uk/blog/?p=1864",
+         "title": "We English Commentary – Projektblog von Simon Roberts (2009)",
+         "excerpt": "For instance, the flooding of gravel excavation pits a few years ago created the Cotswold Water Park, which now boasts the largest inland beach in England – Keynes Country Park Beach.",
+         "aspect": "entstehung",
+         "kind": "fotograf",
+         "author": "Simon Roberts (Projektkommentar)",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "roberts-ratcliffe-on-soar",
+       "title": "Ratcliffe-on-Soar Power Station, Nottinghamshire, 16th June 2008",
+       "year": 2008,
+       "location": "Ratcliffe-on-Soar, Nottinghamshire, England",
+       "tags": [
+        "farbe",
+        "kraftwerk",
+        "golf",
+        "industrie"
+       ],
+       "source_url": "https://www.simoncroberts.com/portfolio/attachment/we-english-220/",
+       "image_url": "https://www.simoncroberts.com/wp-content/uploads/2017/06/WeEnglish-30.jpg",
+       "sources": [
+        {
+         "url": "https://we-english.co.uk/blog/?p=1864",
+         "title": "We English Commentary – Projektblog von Simon Roberts (2009)",
+         "excerpt": "Ratcliffe-on-Soar Power Station, Nottinghamshire, 16th June 2008 Ron Whitby, Derek Allen and Tom Burns play a round of golf in the grounds of the Ratcliffe-on-Soar coal-fired power station.",
+         "aspect": "entstehung",
+         "kind": "fotograf",
+         "author": "Simon Roberts (Projektkommentar)",
+         "series_level": false
+        },
+        {
+         "url": "https://we-english.co.uk/blog/?p=1864",
+         "title": "We English Commentary – Projektblog von Simon Roberts (2009)",
+         "excerpt": "Despite no longer working at the plant, they still return to play on the employee golf course several times a week.",
+         "aspect": "entstehung",
+         "kind": "fotograf",
+         "author": "Simon Roberts (Projektkommentar)",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "roberts-blackpool-promenade",
+       "title": "Blackpool Promenade, Lancashire, 24th July 2008",
+       "year": 2008,
+       "location": "Blackpool, Lancashire, England",
+       "tags": [
+        "farbe",
+        "promenade",
+        "straßenbahn",
+        "erhöhter standpunkt"
+       ],
+       "source_url": "https://www.simoncroberts.com/portfolio/attachment/we-english-223/",
+       "image_url": "https://www.simoncroberts.com/wp-content/uploads/2017/06/WeEnglish-37.jpg",
+       "sources": []
+      },
+      {
+       "key": "roberts-sunderland-liverpool",
+       "title": "Sunderland vs. Liverpool, Sunderland, Tyne and Wear, 16th August 2008",
+       "year": 2008,
+       "location": "Sunderland, Tyne and Wear, England",
+       "tags": [
+        "farbe",
+        "fußballfans",
+        "hügel",
+        "freizeit"
+       ],
+       "source_url": "https://www.simoncroberts.com/we-english-228/",
+       "image_url": "https://www.simoncroberts.com/wp-content/uploads/2018/07/WeEnglish-48v3.jpg",
+       "sources": [
+        {
+         "url": "https://we-english.co.uk/blog/?p=1864",
+         "title": "We English Commentary – Projektblog von Simon Roberts (2009)",
+         "excerpt": "Liverpool, Sunderland, Tyne and Wear, 16th August 2008 Here, local Sunderland AFC fans make their way down to the Stadium of Light, ready for the opening match of the season against Liverpool FC.",
+         "aspect": "entstehung",
+         "kind": "fotograf",
+         "author": "Simon Roberts (Projektkommentar)",
+         "series_level": false
+        },
+        {
+         "url": "https://we-english.co.uk/blog/?p=1864",
+         "title": "We English Commentary – Projektblog von Simon Roberts (2009)",
+         "excerpt": "I imagine some of the older male Sunderland fans had worked at the colliery; indeed this walk to the football ground probably traced the exact path their fathers and grandfathers had taken to work every day.",
+         "aspect": "deutung",
+         "kind": "fotograf",
+         "author": "Simon Roberts (Projektkommentar)",
+         "series_level": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 12,
+   "title": "Landschaftsfotografie: vom Erhabenen zur intimen Landschaft",
+   "key_images": [
+    "almond-fullmoon-baltic-coastline",
+    "almond-fullmoon-sesshu-ii",
+    "fredericks-salt-8",
+    "fredericks-salt-110",
+    "tal-aglow",
+    "tal-winter-minuet",
+    "dobrowner-moorcroft-bears-claw",
+    "dobrowner-buffalo-supercell",
+    "leong-salar-de-uyuni-iv",
+    "percy-hokkaido-autumn-2025"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Zeitgenössische Landschaft: Mensch, Industrie, Klima",
+   "key_images": [
+    "shibata-kashima-town",
+    "shibata-okawa-village",
+    "gowin-hanford-harvest-pattern",
+    "gowin-overlapping-circles-winter",
+    "hatakeyama-blast-5707",
+    "hatakeyama-lime-hills-29214",
+    "leong-lake-michigan",
+    "roberts-ratcliffe-on-soar",
+    "roberts-south-downs-way"
+   ]
+  }
+ ]
+}

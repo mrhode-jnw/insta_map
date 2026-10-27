@@ -1,0 +1,552 @@
+{
+ "accessed_at": "2026-10-27",
+ "photographers": [
+  {
+   "name": "Darren Almond",
+   "born": 1971,
+   "died": null,
+   "portrait": null,
+   "sources": [
+    {
+     "url": "https://www.whitecube.com/artists/darren-almond",
+     "title": "Darren Almond – Künstlerseite, White Cube",
+     "excerpt": "Darren Almond was born in 1971 in Wigan, UK and lives and works in Norfolk."
+    },
+    {
+     "url": "https://www.whitecube.com/artists/darren-almond",
+     "title": "Darren Almond – Künstlerseite, White Cube",
+     "excerpt": "‘I have followed the cycle of the moon for almost two decades and have used it to expose the landscapes of our dreams’, Almond says of his series of ‘Fullmoon’ photographs, produced from 2000 onwards.",
+     "kind": "fotograf",
+     "author": "Darren Almond (zitiert von White Cube)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.whitecube.com/artists/darren-almond",
+     "title": "Darren Almond – Künstlerseite, White Cube",
+     "excerpt": "Taken with variable long exposure times attuned to the shifting atmospheric conditions and using only moonlight as their source, the photographs reference the Romantic legacy and rich history of landscape painting to locate the photograph as an archive of memory.",
+     "kind": "kurator",
+     "author": "White Cube",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://www.whitecube.com/artists/darren-almond",
+     "title": "Darren Almond – Künstlerseite, White Cube",
+     "excerpt": "The project began with Fifteen minute moon (2000) in the south of France before Almond looked at locations through the paintings of John Constable, J.M.W. Turner, Caspar David Friedrich, Philip de Koninck and others.",
+     "kind": "kurator",
+     "author": "White Cube",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.taschen.com/en/books/photography/02233/darren-almond-fullmoon/",
+     "title": "Darren Almond. Fullmoon – Verlagsseite, TASCHEN",
+     "excerpt": "“With long exposures, you can never see what you are shooting,” Almond says, “but you are giving the landscape longer to express itself.”",
+     "kind": "fotograf",
+     "author": "Darren Almond (zitiert von TASCHEN)",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "bio_md": "Darren Almond wurde 1971 in Wigan (England) geboren und lebt und arbeitet in Norfolk [Q1]. Seine Serie „Fullmoon“ entsteht laut White Cube seit 2000; er selbst sagt, er sei dem Mondzyklus fast zwei Jahrzehnte gefolgt [Q2]. Die Serie begann mit „Fifteen minute moon“ (2000) in Südfrankreich; danach suchte Almond Orte über Gemälde von Constable, Turner, Caspar David Friedrich und anderen [Q4].",
+   "method_md": "Almond fotografiert nur mit Mondlicht als Lichtquelle und passt die langen Belichtungszeiten an die wechselnden atmosphärischen Bedingungen an [Q3]. Er selbst sagt, bei langen Belichtungen sehe man nie, was man fotografiert – man gebe der Landschaft aber mehr Zeit, sich auszudrücken [Q5].",
+   "signature_md": "Nachtlandschaften, die durch viertelstündige und längere Belichtung fast wie bei Tag wirken, mit Bezug auf die romantische Landschaftsmalerei [Q3][Q4].\n\n**Meine Einschätzung:** Für die eigene Praxis ist die Serie ein Lehrstück, wie Zeit (Belichtungsdauer) Wasser und Wolken zu Flächen glättet und so die Formensprache der Landschaft vereinfacht."
+  },
+  {
+   "name": "Toshio Shibata",
+   "born": 1949,
+   "died": null,
+   "portrait": {
+    "image_url": "https://global.canon/en/newcosmos/interview/toshio-shibata/img/closeup-toshio-shibata-ph01.jpg",
+    "source_url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+    "credit": "Toshio Shibata bei der Jurierung des Wettbewerbs New Cosmos of Photography (Bild der Interviewseite, Canon)"
+   },
+   "sources": [
+    {
+     "url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+     "title": "Interview Toshio Shibata (Juror New Cosmos of Photography 2016), Canon",
+     "excerpt": "Born in Tokyo in 1949, he completed a master’s degree in oil painting at the Tokyo National University of Fine Art and Music, and then entered the photography department at the Royal Academy in Ghent, Belgium, where he began to engage in photography in earnest."
+    },
+    {
+     "url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+     "title": "Interview Toshio Shibata (Juror New Cosmos of Photography 2016), Canon",
+     "excerpt": "Shibata received the 17th Ihei Kimura Prize in 1992 for his exhibition Nihon Tenkei [Japanese Patterns], featuring photographs of dams, concrete retaining walls, and other structures around Japan taken with a large-format camera and presented on meticulous monochrome prints.",
+     "kind": "kurator",
+     "author": "Canon (Profil)",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://www.japantimes.co.jp/culture/2007/12/20/arts/work-man/",
+     "title": "Edan Corkill: „Work : Man“ – The Japan Times, 20.12.2007",
+     "excerpt": "On the Web site of the Zeit-Foto Salon gallery, where he is holding an exhibition of new color photographs, he writes that as he set up his large 8-x-10-inch camera, “this middle-aged construction site foreman came up, wearing his helmet",
+     "kind": "kritik",
+     "author": "Edan Corkill",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+     "title": "Interview Toshio Shibata (Juror New Cosmos of Photography 2016), Canon",
+     "excerpt": "He began incorporating color into his works in the 2000s, further expanding the range of his creative expressions."
+    },
+    {
+     "url": "https://global.canon/en/newcosmos/interview/toshio-shibata/index.html",
+     "title": "Interview Toshio Shibata (Juror New Cosmos of Photography 2016), Canon",
+     "excerpt": "Assuming that is true, but knowing every individual has a different approach to taking photographs, something different will emerge in your photos even if you go to places people have been to before, as long as your ideas about that place are different.",
+     "kind": "fotograf",
+     "author": "Toshio Shibata",
+     "aspect": "deutung",
+     "series_level": true
+    }
+   ],
+   "bio_md": "Toshio Shibata wurde 1949 in Tokio geboren, studierte Ölmalerei an der Tokyo National University of Fine Arts and Music und wandte sich an der Königlichen Akademie in Gent ernsthaft der Fotografie zu [Q1]. 1992 erhielt er den Kimura-Ihei-Preis für „Nihon Tenkei“ – Fotografien von Dämmen, Stützmauern und anderen Bauwerken in Japan [Q2]. In den 2000er-Jahren kam die Farbe hinzu [Q4].",
+   "method_md": "Shibata arbeitet mit der Großformatkamera und machte sorgfältige Schwarzweißabzüge [Q2]; die Japan Times beschreibt, wie er seine 8×10-Inch-Kamera an einer Dammbaustelle aufbaut [Q3]. Über Landschaftsfotografie sagt er, an bereits besuchten Orten entstehe trotzdem etwas Eigenes, solange die eigenen Ideen über den Ort andere seien [Q5].",
+   "signature_md": "Bauwerke der Infrastruktur – Dämme, Hangsicherungen, Brücken – als Landschaft gesehen [Q2].\n\n**Meine Einschätzung:** Die Bilder zeigen, wie sich eine banale Betonfläche durch Ausschnitt, gleichmäßiges Licht und Struktur in ein fast abstraktes Muster verwandelt."
+  },
+  {
+   "name": "Emmet Gowin",
+   "born": 1941,
+   "died": null,
+   "portrait": {
+    "image_url": "https://www.pacegallery.com/media/images/Gowin_Portrait.width-2000.jpg",
+    "source_url": "https://www.pacegallery.com/artists/emmet-gowin/",
+    "credit": "Porträt Emmet Gowin (Künstlerseite, Pace Gallery)"
+   },
+   "sources": [
+    {
+     "url": "https://www.pacegallery.com/artists/emmet-gowin/",
+     "title": "Emmet Gowin – Künstlerseite, Pace Gallery",
+     "excerpt": "For six decades, Emmet Gowin has contemplated humanity's relationship to the natural world with visual wonderment."
+    },
+    {
+     "url": "https://www.pacegallery.com/artists/emmet-gowin/",
+     "title": "Emmet Gowin – Künstlerseite, Pace Gallery",
+     "excerpt": "His photographs have evolved from intimate portraits of his wife, Edith Morris, and their Virginia family, to aerial vistas of nuclear test sites and scientific surveys of tropical ecosystems and their dependent biodiversity."
+    },
+    {
+     "url": "https://princetoninfo.com/artsandentertainment/emmet-gowins-aerial-vision/",
+     "title": "Emmet Gowin’s Aerial Vision – Princeton Info (2002)",
+     "excerpt": "Commissioned to document the aftermath of the 1980 eruption of Mount St. Helens in Washington, he found most access to the mountain closed for safety reasons, and took to the air to see what he could."
+    },
+    {
+     "url": "https://princetoninfo.com/artsandentertainment/emmet-gowins-aerial-vision/",
+     "title": "Emmet Gowin’s Aerial Vision – Princeton Info (2002)",
+     "excerpt": "“As soon as I got into that perspective, I could hardly sit still,” he recalls.",
+     "kind": "fotograf",
+     "author": "Emmet Gowin (zitiert von Princeton Info)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://princetoninfo.com/artsandentertainment/emmet-gowins-aerial-vision/",
+     "title": "Emmet Gowin’s Aerial Vision – Princeton Info (2002)",
+     "excerpt": "Devoid of the traditional horizon line and other elements of landscape photographs, Gowin’s aerial images, shot on two-and-a-quarter-inch film and printed in a square format.",
+     "kind": "kritik",
+     "author": "Princeton Info",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "bio_md": "Emmet Gowin (geb. 1941) beschäftigt sich seit sechs Jahrzehnten mit dem Verhältnis des Menschen zur Natur [Q1]. Seine Arbeit führte von intimen Porträts seiner Frau Edith und der Familie zu Luftbildern von Atomtestgeländen und zu Studien tropischer Ökosysteme [Q2]. Zur Luftfotografie kam er, als er nach dem Ausbruch des Mount St. Helens 1980 den Berg wegen Sperrungen nur aus der Luft erreichen konnte [Q3].",
+   "method_md": "Die neue Perspektive packte ihn sofort: „I could hardly sit still“ [Q4]. Seine Luftbilder verzichten auf den klassischen Horizont, entstanden auf Mittelformatfilm (2¼ Zoll) und sind quadratisch abgezogen [Q5].",
+   "signature_md": "Luftbilder menschlich veränderter Landschaft – Kreisbewässerung, Atomanlagen, Testgelände – von großer formaler Schönheit [Q2][Q5].\n\n**Meine Einschätzung:** Gowin zeigt, wie der Blick von oben Landnutzung als Zeichnung lesbar macht; ohne Horizont verschwindet der Maßstab, und das Bild wird zugleich Dokument und Abstraktion."
+  },
+  {
+   "name": "Murray Fredericks",
+   "born": 1970,
+   "died": null,
+   "portrait": null,
+   "sources": [
+    {
+     "url": "https://murrayfredericks.com.au/biography/",
+     "title": "Biography – Murray Fredericks",
+     "excerpt": "Born (1970) and raised in Sydney, Australia, Murray Fredericks studied politics and economics at Sydney University."
+    },
+    {
+     "url": "https://murrayfredericks.com.au/biography/",
+     "title": "Biography – Murray Fredericks",
+     "excerpt": "From the start of his career Fredericks process has involved prolonged solo journeys to remote and often extreme locations."
+    },
+    {
+     "url": "https://murrayfredericks.com.au/biography/",
+     "title": "Biography – Murray Fredericks",
+     "excerpt": "By their very nature, though, the locations are difficult to access and require large amounts time spent in them to move the compositions past the ‘surface exotic’."
+    },
+    {
+     "url": "https://archive.pov.org/salt/q-and-a-murray-fredericks/",
+     "title": "Q&A: Murray Fredericks – POV (PBS) zum Film „Salt“",
+     "excerpt": "In 2003 I decided it was time for a change and decided to move away from literal, more traditional landscapes. I took on space itself as a subject.",
+     "kind": "fotograf",
+     "author": "Murray Fredericks",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://murrayfredericks.com.au/portfolio/salt/",
+     "title": "Salt – Projektseite, Murray Fredericks",
+     "excerpt": "Between the years of 2003 and 2010, Murray Fredericks made sixteen solo journeys to the featureless surface of Lake Eyre, a usually dry salt pan in the Australian Outback."
+    },
+    {
+     "url": "https://murrayfredericks.com.au/portfolio/salt/",
+     "title": "Salt – Projektseite, Murray Fredericks",
+     "excerpt": "The photographs were produced on a traditional 8 x 10 film plate camera and exhibited as large digital pigment prints on cotton rag.",
+     "kind": "fotograf",
+     "author": "Murray Fredericks (Projekttext)",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "bio_md": "Murray Fredericks wurde 1970 in Sydney geboren und wuchs dort auf; er studierte Politik und Wirtschaft an der University of Sydney [Q1]. Von Anfang an bestand sein Arbeitsprozess aus langen Alleinreisen an abgelegene, oft extreme Orte [Q2]. 2003 wandte er sich von wörtlichen, traditionellen Landschaften ab und machte den Raum selbst zum Thema [Q4].",
+   "method_md": "Die Orte sind schwer zugänglich und verlangen viel Zeit vor Ort, damit die Kompositionen über das „surface exotic“ hinauskommen [Q3]. Für „Salt“ reiste er zwischen 2003 und 2010 sechzehnmal allein auf die Salzfläche des Lake Eyre [Q5] und fotografierte mit einer 8×10-Inch-Plattenkamera [Q6].",
+   "signature_md": "Fast leere Bilder aus Horizont, Himmel und Spiegelung – „landscape without landscape“ [Q5].\n\n**Meine Einschätzung:** Die Serie ist ein Extremfall des Weglassens: Das Licht und die Farbe des Himmels sind das eigentliche Motiv."
+  },
+  {
+   "name": "Guy Tal",
+   "born": null,
+   "died": null,
+   "portrait": {
+    "image_url": "https://images.squarespace-cdn.com/content/v1/5ca17a57f4e5312caee8d39d/1656191815112-IK8SWPD90ISHR8PIT5HG/g000007.jpg?format=1000w",
+    "source_url": "https://www.guytal.com/about",
+    "credit": "Guy Tal (Bild der About-Seite, guytal.com)"
+   },
+   "sources": [
+    {
+     "url": "https://www.guytal.com/about",
+     "title": "About Guy Tal – Artist Statement, guytal.com",
+     "excerpt": "I work primarily in the landscape of my home, the high deserts of the Colorado Plateau."
+    },
+    {
+     "url": "https://www.guytal.com/about",
+     "title": "About Guy Tal – Artist Statement, guytal.com",
+     "excerpt": "In my photographs, I aim to express emotions and moods rather than to document or commemorate the appearances of places or events.",
+     "kind": "fotograf",
+     "author": "Guy Tal",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.guytal.com/about",
+     "title": "About Guy Tal – Artist Statement, guytal.com",
+     "excerpt": "Rather than glimpses of the superficial beauty of the land, I wish instead for my work to speak to a deep familiarity with my subjects, revealing something of my reverence for them and the roles they play in my life.",
+     "kind": "fotograf",
+     "author": "Guy Tal",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.kruger-2-kalahari.com/guy-tal.html",
+     "title": "Interview with Guy Tal – Photographer, Writer, and Naturalist (Kruger-2-Kalahari)",
+     "excerpt": "My style is perhaps best described as “Intimate Landscape”; a term coined by the great American photographer Eliot Porter.",
+     "kind": "fotograf",
+     "author": "Guy Tal",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.kruger-2-kalahari.com/guy-tal.html",
+     "title": "Interview with Guy Tal – Photographer, Writer, and Naturalist (Kruger-2-Kalahari)",
+     "excerpt": "Some scenes persist for hours and others require very quick reflexes to set up and capture the image while the light is right or during a lull in the wind.",
+     "kind": "fotograf",
+     "author": "Guy Tal",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "bio_md": "Guy Tal arbeitet vor allem in der Landschaft seiner Heimat, den Hochwüsten des Colorado-Plateaus [Q1]. Er will mit seinen Bildern Gefühle und Stimmungen ausdrücken, nicht das Aussehen von Orten dokumentieren [Q2], und wünscht sich, dass seine Arbeit von tiefer Vertrautheit mit den Motiven spricht [Q3].",
+   "method_md": "Seinen Stil beschreibt er selbst als „Intimate Landscape“ im Sinne Eliot Porters [Q4]. Manche Situationen halten stundenlang, andere verlangen schnelle Reflexe, solange das Licht stimmt oder der Wind kurz nachlässt [Q5].",
+   "signature_md": "Intime, oft lichtbetonte Ausschnitte aus Wüste und Badlands statt der großen Aussicht [Q2][Q4].\n\n**Meine Einschätzung:** Tal ist ein gutes Gegenmodell zur Ikonenjagd: wenige, genau gewählte Formen im besonderen Licht, aus langer Ortskenntnis."
+  },
+  {
+   "name": "Naoya Hatakeyama",
+   "born": 1958,
+   "died": null,
+   "portrait": {
+    "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2018/08/03150144/Hatakeyama_w.png",
+    "source_url": "https://www.sfmoma.org/artist/Naoya_Hatakeyama/",
+    "credit": "Naoya Hatakeyama (Bild der Künstlerseite, SFMOMA)"
+   },
+   "sources": [
+    {
+     "url": "https://www.takaishiigallery.com/en/artists/naoya-hatakeyama/",
+     "title": "Naoya Hatakeyama – Künstlerseite, Taka Ishii Gallery",
+     "excerpt": "Naoya Hatakeyama was born in 1958 in Rikuzentakata, Iwate Prefecture, Japan."
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Naoya_Hatakeyama/",
+     "title": "Naoya Hatakeyama – Künstlerseite mit Essay von Sandra S. Phillips, SFMOMA",
+     "excerpt": "Hatakeyama’s first major project was Lime Hills (1986–90), in which he photographed limestone quarries throughout Japan.",
+     "kind": "kurator",
+     "author": "Sandra S. Phillips (SFMOMA)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Naoya_Hatakeyama/",
+     "title": "Naoya Hatakeyama – Künstlerseite mit Essay von Sandra S. Phillips, SFMOMA",
+     "excerpt": "Finding the peaceful contemplation of these places to be incomplete, he soon documented the detonations the engineers devised to loosen the rock and represented the choreographed explosions sequentially, in the series Blast (1995–2008).",
+     "kind": "kurator",
+     "author": "Sandra S. Phillips (SFMOMA)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Naoya_Hatakeyama/",
+     "title": "Naoya Hatakeyama – Künstlerseite mit Essay von Sandra S. Phillips, SFMOMA",
+     "excerpt": "“When I learned that Japan was a land of limestone,” Hatakeyama has said, “my appreciation of its cityscapes underwent a subtle change.”",
+     "kind": "fotograf",
+     "author": "Naoya Hatakeyama (zitiert von SFMOMA)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.sfmoma.org/artist/Naoya_Hatakeyama/",
+     "title": "Naoya Hatakeyama – Künstlerseite mit Essay von Sandra S. Phillips, SFMOMA",
+     "excerpt": "He maintains that even landscapes we admire for their untouched beauty, such as the craggy mountaintops of the Alps, have been altered by human use—by their portrayal as idealized Nature—and we must recognize this as the current condition of the world.",
+     "kind": "kurator",
+     "author": "Sandra S. Phillips (SFMOMA)",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://artbma.org/artwork/blast-8326/",
+     "title": "Naoya Hatakeyama, Blast 8326 (1995) – Baltimore Museum of Art",
+     "excerpt": "The photographs, taken with a remote-controlled camera, were coordinated with an explosives expert who directed where the blasted rock flew while the artist’s camera stopped the limestone in mid-air.",
+     "kind": "museum",
+     "author": "Baltimore Museum of Art",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "bio_md": "Naoya Hatakeyama wurde 1958 in Rikuzentakata (Präfektur Iwate) geboren [Q1]. Sein erstes großes Projekt war „Lime Hills“ (1986–90) über Kalksteinbrüche in ganz Japan [Q2]; danach dokumentierte er in „Blast“ (1995–2008) die von Ingenieuren geplanten Sprengungen [Q3].",
+   "method_md": "Der Kalkstein verband für ihn Steinbruch und Stadt; seit er wusste, dass Japan ein Land des Kalksteins ist, sah er Stadtlandschaften anders [Q4]. Die Blast-Bilder entstanden mit fernausgelöster Kamera in Abstimmung mit einem Sprengmeister [Q6].",
+   "signature_md": "Industrielle Eingriffe in die Landschaft, in denen Natur und Kultur nicht zu trennen sind [Q5].\n\n**Meine Einschätzung:** Die Blast-Bilder sind ein Extrem des ‚entscheidenden Augenblicks‘ in der Landschaft – geplant wie ein Experiment, aber im Ergebnis unvorhersehbar."
+  },
+  {
+   "name": "Sze Tsung Leong",
+   "born": 1970,
+   "died": null,
+   "portrait": {
+    "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite0091/usr/images/artists/artist_image/items/ae/ae4632a0b182453d8427c90e20645d86/leong_nairobi-copy.jpg",
+    "source_url": "https://www.yossimilo.com/artists/65-sze-tsung-nicolas-leong/biography/",
+    "credit": "Sze Tsung Leong an der Großformatkamera (Künstlerbild, Yossi Milo Gallery)"
+   },
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "excerpt": "Sze Tsung Leong was born in Mexico City in 1970, spent his childhood between Mexico, Britain, and the United States, and currently lives and works in New York."
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "excerpt": "Horizons is a series of landscape photographs taken all over the world, in which the horizon is always at precisely the same place.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "excerpt": "The locations of the images may be distant in geography and diverse in subject matter, yet the photographs are linked by a horizon which continues in the same position from image to image.",
+     "kind": "fotograf",
+     "author": "Sze Tsung Leong (zitiert vom V&A)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1301616/",
+     "title": "Sze Tsung Leong, Victorville, California, 2006 (Serie Horizons) – Victoria and Albert Museum",
+     "excerpt": "Leong shoots on film with medium and large format cameras, and makes analogue chromogenic prints.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "technik",
+     "series_level": true
+    }
+   ],
+   "bio_md": "Sze Tsung Leong wurde 1970 in Mexiko-Stadt geboren, wuchs zwischen Mexiko, Großbritannien und den USA auf und lebt in New York [Q1]. In der Serie „Horizons“ liegt der Horizont in allen Bildern an exakt derselben Stelle [Q2].",
+   "method_md": "Leong selbst beschreibt, dass die Bilder trotz unterschiedlicher Orte und Motive durch einen Horizont verbunden sind, der von Bild zu Bild an derselben Position weiterläuft [Q3]. Er fotografiert auf Film mit Mittel- und Großformatkameras und macht analoge chromogene Abzüge [Q4].",
+   "signature_md": "Ein fester Horizont als Ordnungsprinzip über Kontinente hinweg [Q2][Q3].\n\n**Meine Einschätzung:** Die Serie zeigt, wie eine einzige feste Regel (Horizonthöhe) aus Einzelbildern eine Sequenz macht."
+  },
+  {
+   "name": "Mitch Dobrowner",
+   "born": null,
+   "died": null,
+   "portrait": {
+    "image_url": "https://festival-lagacilly-baden.photo/wp-content/uploads/2025/01/Mitch-Dobrowner.jpg",
+    "source_url": "https://festival-lagacilly-baden.photo/en/photographers-2025/mitch-dobrowner",
+    "credit": "Mitch Dobrowner (Porträt auf der Seite des Festivals La Gacilly-Baden Photo)"
+   },
+   "sources": [
+    {
+     "url": "https://festival-lagacilly-baden.photo/en/photographers-2025/mitch-dobrowner",
+     "title": "Mitch Dobrowner: In the Eye of the Storm – Festival La Gacilly-Baden Photo 2025",
+     "excerpt": "“They take on so many different aspects, faces and personalities; I’m in awe watching them,” explains the photographer who first started taking pictures as a teenager, but later set his camera aside until 2005 while he raised his family."
+    },
+    {
+     "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+     "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+     "excerpt": "To document these awe-inspiring tempests, Mitch Dobrowner, a landscape photographer inspired by Ansel Adams and Minor White, teamed with renowned storm chaser Roger Hill, a witness to more than 600 tornadoes.",
+     "kind": "kritik",
+     "author": "Jeremy Berlin (National Geographic)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.nationalgeographic.com/magazine/article/epic-storms",
+     "title": "Jeremy Berlin: Epic Storms – National Geographic, Juli 2012 (Fotos Mitch Dobrowner)",
+     "excerpt": "Working in black and white—“Color seems too everyday,” he says—he looks especially for supercells, rarest and mightiest of thunderstorms.",
+     "kind": "fotograf",
+     "author": "Mitch Dobrowner (zitiert von National Geographic)",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://www.imagedeconstructed.com/posts/spotlight-on-mitch-dobrowner.html",
+     "title": "Spotlight on Mitch Dobrowner – Interview, The Image Deconstructed (2016)",
+     "excerpt": "I love studying the light and see photography as an exercise in painting with light and shadows. In inclement weather, light and shadows are always changing.",
+     "kind": "fotograf",
+     "author": "Mitch Dobrowner",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://festival-lagacilly-baden.photo/en/photographers-2025/mitch-dobrowner",
+     "title": "Mitch Dobrowner: In the Eye of the Storm – Festival La Gacilly-Baden Photo 2025",
+     "excerpt": "“My job is to get to the right place at the right time, then let nature show itself,” he says.",
+     "kind": "fotograf",
+     "author": "Mitch Dobrowner (zitiert vom Festival La Gacilly-Baden)",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://festival-lagacilly-baden.photo/en/photographers-2025/mitch-dobrowner",
+     "title": "Mitch Dobrowner: In the Eye of the Storm – Festival La Gacilly-Baden Photo 2025",
+     "excerpt": "Despite his success and the esteem he has gained, Mitch Dobrowner refuses to be labelled a “storm chaser” : “I don’t like to put things in boxes."
+    }
+   ],
+   "bio_md": "Mitch Dobrowner fotografierte als Jugendlicher, legte die Kamera dann beiseite und fing 2005 wieder an [Q1]. Für seine Sturmbilder arbeitete er mit dem Sturmjäger Roger Hill zusammen [Q2]. Er selbst lehnt das Etikett „storm chaser“ ab [Q6].",
+   "method_md": "Er arbeitet in Schwarzweiß („Color seems too everyday“) und sucht vor allem Superzellen [Q3]. Licht und Schatten zu studieren ist für ihn der Kern; bei schlechtem Wetter ändern sie sich ständig [Q4]. Seine Aufgabe sei, zur richtigen Zeit am richtigen Ort zu sein und die Natur sich zeigen zu lassen [Q5].",
+   "signature_md": "Superzellen über der Prärie als monumentale Schwarzweiß-Landschaften in der Tradition Ansel Adams’ [Q2][Q3].\n\n**Meine Einschätzung:** Dobrowner verbindet Planung (Wetterdaten, lange Fahrten) mit Reaktionsschnelligkeit – ein Modell für Wetterfotografie in der Landschaft."
+  },
+  {
+   "name": "Bruce Percy",
+   "born": null,
+   "died": null,
+   "portrait": {
+    "image_url": "https://images.squarespace-cdn.com/content/v1/53a5beeee4b088db7ad03f53/1545674753739-GVJNCT5J4GF4F3WO8XEO/portrait-2.jpg?format=1000w",
+    "source_url": "https://www.brucepercy.co.uk/biography",
+    "credit": "Bruce Percy im Schnee (Bild der Biografieseite, brucepercy.co.uk)"
+   },
+   "sources": [
+    {
+     "url": "https://www.brucepercy.co.uk/biography",
+     "title": "Biography – Bruce Percy",
+     "excerpt": "I live in Edinburgh, Scotland."
+    },
+    {
+     "url": "https://www.brucepercy.co.uk/biography",
+     "title": "Biography – Bruce Percy",
+     "excerpt": "For my landscape work I use Hasselblad V series film cameras and Fuji Velvia 50 and Kodak E100 film.",
+     "kind": "fotograf",
+     "author": "Bruce Percy",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://www.brucepercy.co.uk/biography",
+     "title": "Biography – Bruce Percy",
+     "excerpt": "I don’t like to pre-visualise a place. It’s best to just go and see what the landscape offers.",
+     "kind": "fotograf",
+     "author": "Bruce Percy",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.brucepercy.co.uk/biography",
+     "title": "Biography – Bruce Percy",
+     "excerpt": "Photography is a lesson in submission. Learning to live in the present moment, and accept what nature gives us.",
+     "kind": "fotograf",
+     "author": "Bruce Percy",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+     "title": "Bruce Percy: re-negotiating my relationship with colour – Blog, 22.10.2026 (Hokkaido-Herbstbilder)",
+     "excerpt": "Initially attracted to strong, saturated colours, I found over the first decade of image-making that my photography moved to a more muted palette.",
+     "kind": "fotograf",
+     "author": "Bruce Percy",
+     "aspect": "entstehung",
+     "series_level": true
+    }
+   ],
+   "bio_md": "Bruce Percy lebt in Edinburgh [Q1]. Für seine Landschaften verwendet er Hasselblad-V-Mittelformatkameras mit Fuji Velvia 50 und Kodak E100 [Q2].",
+   "method_md": "Er will Orte nicht vorab visualisieren, sondern hingehen und sehen, was die Landschaft anbietet [Q3]; Fotografie sei eine Lektion in Unterordnung unter das, was die Natur gibt [Q4]. Nach einem Jahrzehnt mit gedämpfter Palette hat sich sein Verhältnis zur Farbe neu entwickelt [Q5].",
+   "signature_md": "Quadratische, ruhige Mittelformatbilder mit reduzierten Formen und bewusst gesteuerter Farbe [Q2][Q5].\n\n**Meine Einschätzung:** Percy ist für die eigene Praxis nah dran: Reise-Landschaftsfotografie mit Film, kleine Portfolios, Farbe als Gestaltungsentscheidung."
+  },
+  {
+   "name": "Simon Roberts",
+   "born": null,
+   "died": null,
+   "portrait": null,
+   "sources": [
+    {
+     "url": "https://www.simoncroberts.com/work/we-english/",
+     "title": "We English – Projektseite, Simon Roberts",
+     "excerpt": "We English , created between 2007 and 2008, is a broad portfolio of large-format tableaux photographs of the English at leisure."
+    },
+    {
+     "url": "https://themorningnews.org/we-english/",
+     "title": "Rosecrans Baldwin: We English – Interview mit Simon Roberts, The Morning News",
+     "excerpt": "I decided that I would move away from photographing the individual, which had played a major role in Motherland , and engage instead with the idea of the collective, of groups of people populating the landscape.",
+     "kind": "fotograf",
+     "author": "Simon Roberts",
+     "aspect": "entstehung",
+     "series_level": true
+    },
+    {
+     "url": "https://themorningnews.org/we-english/",
+     "title": "Rosecrans Baldwin: We English – Interview mit Simon Roberts, The Morning News",
+     "excerpt": "Where possible I would photograph from elevated positions (often from the roof of my motor home), which would enable me to get a greater sense of people’s interaction with the landscape and with one another.",
+     "kind": "fotograf",
+     "author": "Simon Roberts",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://themorningnews.org/we-english/",
+     "title": "Rosecrans Baldwin: We English – Interview mit Simon Roberts, The Morning News",
+     "excerpt": "This way of seeing was influenced by the 16th century Dutch and Flemish landscape painters, most notably Hendrick Avercamp and Lucas van Valckenborch who depicted winter scenes teeming with life.",
+     "kind": "fotograf",
+     "author": "Simon Roberts",
+     "aspect": "deutung",
+     "series_level": true
+    },
+    {
+     "url": "https://themorningnews.org/we-english/",
+     "title": "Rosecrans Baldwin: We English – Interview mit Simon Roberts, The Morning News",
+     "excerpt": "I photographed with an old 5x4 field camera, which was quite laborious and often very public, however the process turned out to be helpful in capturing each scene as it unfolded before me, without any intervention on my part.",
+     "kind": "fotograf",
+     "author": "Simon Roberts",
+     "aspect": "technik",
+     "series_level": true
+    },
+    {
+     "url": "https://www.simoncroberts.com/work/we-english/",
+     "title": "We English – Projektseite, Simon Roberts",
+     "excerpt": "Even the photographs that include larger groups were taken from a distance – a perspective that echoes classical painting, although the subjects are decidedly contemporary.",
+     "kind": "kritik",
+     "author": "Vince Aletti, The New Yorker (2009), zitiert auf der Projektseite",
+     "aspect": "deutung",
+     "series_level": true
+    }
+   ],
+   "bio_md": "„We English“ (2007–2008) ist ein Portfolio großformatiger Tableaus der Engländer in ihrer Freizeit [Q1]. Roberts wollte weg vom Einzelporträt hin zu Gruppen von Menschen in der Landschaft [Q2].",
+   "method_md": "Wo möglich fotografierte er von erhöhten Standpunkten, oft vom Dach seines Wohnmobils [Q3]. Diese Sehweise ist von flämischen und niederländischen Landschaftsmalern des 16. Jahrhunderts beeinflusst, etwa Hendrick Avercamp [Q4]. Er arbeitete mit einer alten 4×5-Inch-Feldkamera; der langsame, öffentliche Aufbau half, die Szenen ohne Eingriff ablaufen zu lassen [Q5].",
+   "signature_md": "Weite Landschaftstableaus aus Distanz, in denen Menschen klein im Gelände verteilt sind [Q6].\n\n**Meine Einschätzung:** Für Reisefotografie zeigt Roberts, wie man Menschen zeigt, ohne sie zu porträtieren: Abstand, erhöhter Standpunkt, Geduld."
+  }
+ ]
+}

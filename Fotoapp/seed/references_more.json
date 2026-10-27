@@ -1,0 +1,3215 @@
+{
+ "accessed_at": "2026-10-27",
+ "references": [
+  {
+   "image_id": "i55751902c2",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/1994.24",
+     "title": "Ionian Sea, Santa Cesarea III (Hiroshi Sugimoto) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "For this series, begun in 1980, he traveled the world to photograph vast bodies of water from high cliffs using a large-format camera."
+    }
+   ],
+   "library_source_ids": [
+    914247
+   ],
+   "answer_md": "Für die Seascapes stellte sich Sugimoto mit einer Großformatkamera auf hohe Klippen über dem Meer [Q1][S914247]. Die Kamera ist so ausgerichtet, dass der Horizont genau in der Bildmitte liegt [S914247].",
+   "checkable": [
+    "Erhöhter Standpunkt über dem Wasser (Klippe), Blick waagerecht aufs offene Meer [Q1][S914247]",
+    "Horizont exakt auf halber Bildhöhe [S914247]"
+   ],
+   "scope_note": "Serienbezogene Quellen (Seascapes allgemein); am Bild geprüft: Horizont in der Mitte, kein Vordergrund-Ufer."
+  },
+  {
+   "image_id": "i55751902c2",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/1994.24",
+     "title": "Ionian Sea, Santa Cesarea III (Hiroshi Sugimoto) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "By eliminating all indications of land and humanity, Sugimoto revealed the subtle differences in atmosphere, light, wind, and wave patterns at each site."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Sugimoto lässt jedes Anzeichen von Land und Menschen weg; übrig bleiben die feinen Unterschiede von Atmosphäre, Licht, Wind und Wellenmuster des Ortes [Q1].",
+   "checkable": [
+    "Kein Ufer, keine Küste, kein Schiff, kein Mensch im Bild [Q1]",
+    "Nur Wasserfläche, Horizont und Himmel [Q1]"
+   ],
+   "scope_note": "Serienbezogene Museumsquelle (Cleveland, zu einem anderen Blatt der Seascapes); am Bild geprüft."
+  },
+  {
+   "image_id": "i55751902c2",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    598379,
+    752564
+   ],
+   "answer_md": "Wie in allen Seascapes liegt der Horizont genau in der senkrechten Mitte und teilt das Bild in gleich große Flächen Himmel und Wasser [S598379]; die Komposition ist auf Meer und Himmel, getrennt durch eine einzige Horizontlinie, reduziert [S752564].",
+   "checkable": [
+    "Horizont genau auf halber Höhe, oben Himmel, unten Wasser in gleicher Größe [S598379]",
+    "Eine einzige waagerechte Trennlinie bestimmt das ganze Bild [S752564]"
+   ],
+   "scope_note": "Serienbezogene Quellen; Lage des Horizonts am Bild nachgemessen."
+  },
+  {
+   "image_id": "ia6d4b37252",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/1994.24",
+     "title": "Ionian Sea, Santa Cesarea III (Hiroshi Sugimoto) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "For this series, begun in 1980, he traveled the world to photograph vast bodies of water from high cliffs using a large-format camera."
+    }
+   ],
+   "library_source_ids": [
+    914247
+   ],
+   "answer_md": "Sugimoto fotografierte das Ionische Meer bei Santa Cesarea wie alle Seascapes von hohen Klippen aus, mit einer Großformatkamera [Q1][S914247]; der Horizont liegt genau in der Mitte [S914247].",
+   "checkable": [
+    "Erhöhter Standpunkt, waagerechter Blick aufs offene Meer [Q1][S914247]",
+    "Horizont exakt auf halber Bildhöhe [S914247]"
+   ],
+   "scope_note": "Cleveland beschreibt ein anderes Blatt desselben Ortes (Santa Cesarea III) und die Serie; hier nur die Serienangabe zum Standpunkt verwendet. Welches der drei Santa-Cesarea-Blätter dies ist, ist nicht belegt."
+  },
+  {
+   "image_id": "ia6d4b37252",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/1994.24",
+     "title": "Ionian Sea, Santa Cesarea III (Hiroshi Sugimoto) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "By eliminating all indications of land and humanity, Sugimoto revealed the subtle differences in atmosphere, light, wind, and wave patterns at each site."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Alles, was auf Land oder Menschen verweist, ist weggelassen; das Bild zeigt nur Atmosphäre, Licht und Wasser des Ortes [Q1].",
+   "checkable": [
+    "Kein Ufer, kein Boot, keine Menschen [Q1]",
+    "Nur dunkle Wasserfläche und Himmel [Q1]"
+   ],
+   "scope_note": "Serienbezogen; am Bild geprüft."
+  },
+  {
+   "image_id": "ia6d4b37252",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    598379,
+    752564
+   ],
+   "answer_md": "Der Horizont liegt in der senkrechten Mitte und teilt das Blatt in gleich große Flächen Himmel und Wasser [S598379]; Meer und Himmel, getrennt durch einen einzigen Horizont, sind die ganze Komposition [S752564].",
+   "checkable": [
+    "Horizont genau auf halber Höhe [S598379]",
+    "Zwei gleich große, fast tonwertgleiche dunkle Flächen, getrennt durch eine Linie [S598379][S752564]"
+   ],
+   "scope_note": "Serienbezogene Quellen; am Bild nachgemessen."
+  },
+  {
+   "image_id": "i9e3d84993a",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/1994.24",
+     "title": "Ionian Sea, Santa Cesarea III (Hiroshi Sugimoto) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "For this series, begun in 1980, he traveled the world to photograph vast bodies of water from high cliffs using a large-format camera."
+    }
+   ],
+   "library_source_ids": [
+    914247
+   ],
+   "answer_md": "Auch bei Stinson Beach steht die Großformatkamera erhöht auf einer Klippe über dem Pazifik [Q1][S914247]; der Horizont ist exakt in die Mitte gesetzt [S914247].",
+   "checkable": [
+    "Erhöhter Standpunkt, waagerechter Blick aufs offene Meer [Q1][S914247]",
+    "Horizont exakt auf halber Bildhöhe [S914247]"
+   ],
+   "scope_note": "Serienbezogene Quellen; am Bild geprüft."
+  },
+  {
+   "image_id": "i9e3d84993a",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/1994.24",
+     "title": "Ionian Sea, Santa Cesarea III (Hiroshi Sugimoto) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "By eliminating all indications of land and humanity, Sugimoto revealed the subtle differences in atmosphere, light, wind, and wave patterns at each site."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Strand, Küste und Menschen – bei Stinson Beach naheliegend – sind vollständig weggelassen; das Bild hält nur Atmosphäre und Licht über dem Wasser fest [Q1].",
+   "checkable": [
+    "Kein Strand und keine Küstenlinie im Bild, obwohl der Titel einen Strand nennt [Q1]",
+    "Nur Wasser und Himmel [Q1]"
+   ],
+   "scope_note": "Serienbezogen; am Bild geprüft."
+  },
+  {
+   "image_id": "i9e3d84993a",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    598379,
+    752564
+   ],
+   "answer_md": "Der Horizont teilt das Blatt genau in der senkrechten Mitte in gleich große Flächen Himmel und Wasser [S598379]; mehr als diese eine Trennlinie gibt es nicht [S752564].",
+   "checkable": [
+    "Horizont genau auf halber Höhe [S598379]",
+    "Zwei gleich große dunkle Flächen [S598379][S752564]"
+   ],
+   "scope_note": "Serienbezogene Quellen; am Bild nachgemessen."
+  },
+  {
+   "image_id": "i772b523c51",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/1994.24",
+     "title": "Ionian Sea, Santa Cesarea III (Hiroshi Sugimoto) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "For this series, begun in 1980, he traveled the world to photograph vast bodies of water from high cliffs using a large-format camera."
+    }
+   ],
+   "library_source_ids": [
+    914247
+   ],
+   "answer_md": "Die Bass Strait fotografierte Sugimoto von einer hohen Klippe am Table Cape aus, mit Großformatkamera [Q1][S914247]; Horizont in der exakten Mitte [S914247].",
+   "checkable": [
+    "Erhöhter Standpunkt über dem Meer, Blick waagerecht [Q1][S914247]",
+    "Horizont exakt auf halber Bildhöhe [S914247]"
+   ],
+   "scope_note": "Serienbezogene Quellen; am Bild geprüft."
+  },
+  {
+   "image_id": "i772b523c51",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/1994.24",
+     "title": "Ionian Sea, Santa Cesarea III (Hiroshi Sugimoto) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "By eliminating all indications of land and humanity, Sugimoto revealed the subtle differences in atmosphere, light, wind, and wave patterns at each site."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Kap selbst, von dem aus fotografiert wurde, und jede Spur von Menschen bleiben außerhalb des Bildes [Q1].",
+   "checkable": [
+    "Kein Land, keine Klippe, kein Mensch im Bild [Q1]"
+   ],
+   "scope_note": "Serienbezogen; am Bild geprüft."
+  },
+  {
+   "image_id": "i2b6528e713",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/1994.24",
+     "title": "Ionian Sea, Santa Cesarea III (Hiroshi Sugimoto) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "By eliminating all indications of land and humanity, Sugimoto revealed the subtle differences in atmosphere, light, wind, and wave patterns at each site."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Land und Menschen sind weggelassen; was bleibt, sind die Unterschiede von Atmosphäre, Licht und Wind – hier sichtbar in den Wolkenschlieren über dem Wasser [Q1].",
+   "checkable": [
+    "Kein Ufer, keine Insel (trotz Titel Rishiri), keine Menschen [Q1]",
+    "Wolkenstruktur am Himmel als einziges 'Ereignis' [Q1]"
+   ],
+   "scope_note": "Serienbezogen; am Bild geprüft."
+  },
+  {
+   "image_id": "i4fde8977f6",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+     "title": "The Lithium Series I – Tom Hegen",
+     "author": "Tom Hegen",
+     "kind": "photographer",
+     "excerpt": "The turquoise coloured brine gets pumped for more than one year from pond to pond until the lithium concentration in the water reaches a level of 6% and a deep yellow hue."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Farben der Becken sind Stufen eines Prozesses: Die türkisfarbene Sole wird über ein Jahr lang von Becken zu Becken gepumpt, bis sie 6 % Lithium enthält und tiefgelb ist [Q1].",
+   "checkable": [
+    "Türkise und tiefgelbe Becken nebeneinander, dazwischen Grüntöne [Q1]",
+    "Gelbe Becken vorne/unten, türkise weiter hinten [Q1]"
+   ],
+   "scope_note": "Projekttext des Fotografen zur Serie; Farbverteilung am Bild geprüft."
+  },
+  {
+   "image_id": "ief564e660a",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+     "title": "The Lithium Series I – Tom Hegen",
+     "author": "Tom Hegen",
+     "kind": "photographer",
+     "excerpt": "The turquoise coloured brine gets pumped for more than one year from pond to pond until the lithium concentration in the water reaches a level of 6% and a deep yellow hue."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Türkis und Tiefgelb markieren Anfang und Ende der Verdunstung: Die türkise Sole wird über ein Jahr von Becken zu Becken gepumpt, bis sie tiefgelb ist [Q1].",
+   "checkable": [
+    "Vorne große tiefgelbe Becken, nach hinten türkis/mintgrüne Becken [Q1]",
+    "Farbverlauf von Gelb zu Türkis in die Tiefe [Q1]"
+   ],
+   "scope_note": "Projekttext des Fotografen; am Bild geprüft."
+  },
+  {
+   "image_id": "i5e8f9a05e4",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+     "title": "The Lithium Series I – Tom Hegen",
+     "author": "Tom Hegen",
+     "kind": "photographer",
+     "excerpt": "The turquoise coloured brine gets pumped for more than one year from pond to pond until the lithium concentration in the water reaches a level of 6% and a deep yellow hue."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Gelb der Becken ist das Endstadium: Die anfangs türkise Sole wird gepumpt, bis sie 6 % Lithium erreicht und tiefgelb wird [Q1].",
+   "checkable": [
+    "Mehrere tiefgelbe Becken neben einzelnen türkisen [Q1]"
+   ],
+   "scope_note": "Projekttext des Fotografen; am Bild geprüft."
+  },
+  {
+   "image_id": "i5dfc6b8b51",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+     "title": "The Lithium Series I – Tom Hegen",
+     "author": "Tom Hegen",
+     "kind": "photographer",
+     "excerpt": "The turquoise coloured brine gets pumped for more than one year from pond to pond until the lithium concentration in the water reaches a level of 6% and a deep yellow hue."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Becken am oberen Rand zeigen die Farbstufen der Verdunstung nebeneinander – türkis bis tiefgelb [Q1].",
+   "checkable": [
+    "Am oberen Bildrand links gelbe, rechts türkis/grüne Becken [Q1]"
+   ],
+   "scope_note": "Projekttext des Fotografen; am Bild geprüft."
+  },
+  {
+   "image_id": "i5a774edaf7",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+     "title": "The Lithium Series I – Tom Hegen",
+     "author": "Tom Hegen",
+     "kind": "photographer",
+     "excerpt": "The turquoise coloured brine gets pumped for more than one year from pond to pond until the lithium concentration in the water reaches a level of 6% and a deep yellow hue."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das tiefe Gelb zeigt Sole im Endstadium: nach über einem Jahr Pumpen von Becken zu Becken mit 6 % Lithium [Q1].",
+   "checkable": [
+    "Nur tiefgelbe Sole zwischen weißen Salzwällen, kein Türkis [Q1]"
+   ],
+   "scope_note": "Projekttext des Fotografen; am Bild geprüft."
+  },
+  {
+   "image_id": "i5a774edaf7",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    610840
+   ],
+   "answer_md": "Hegen richtet die Kamera senkrecht nach unten auf die Erde; dadurch wirken die Bilder völlig flach [S610840].",
+   "checkable": [
+    "Senkrechter Blick von oben, kein Horizont [S610840]",
+    "Salzwälle und Fahrzeug erscheinen als flache Muster [S610840]"
+   ],
+   "scope_note": "Allgemeine Aussage zu Hegens Luftbildern (CNN); nur verwendet, weil dieses Blatt sichtbar senkrecht von oben aufgenommen ist (andere Blätter der Serie sind schräg)."
+  },
+  {
+   "image_id": "i0eb3ab4b1b",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://www.tomhegen.com/collections/the-lithium-series-i",
+     "title": "The Lithium Series I – Tom Hegen",
+     "author": "Tom Hegen",
+     "kind": "photographer",
+     "excerpt": "The turquoise coloured brine gets pumped for more than one year from pond to pond until the lithium concentration in the water reaches a level of 6% and a deep yellow hue."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Orangegelb der Sole ist der Farbton hoher Lithiumkonzentration am Ende der Verdunstung [Q1].",
+   "checkable": [
+    "Untere Bildhälfte tief gelb-orange, darüber beige-graue Salzfläche [Q1]"
+   ],
+   "scope_note": "Projekttext des Fotografen; am Bild geprüft."
+  },
+  {
+   "image_id": "i0eb3ab4b1b",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    610840
+   ],
+   "answer_md": "Die Kamera zeigt senkrecht nach unten; deshalb wirkt das Bild völlig flach [S610840].",
+   "checkable": [
+    "Senkrechte Draufsicht, kein Horizont, keine Fluchtlinien [S610840]"
+   ],
+   "scope_note": "Allgemeine Aussage zu Hegens Luftbildern; am Bild als Senkrechtaufnahme geprüft."
+  },
+  {
+   "image_id": "i5dfc6b8b51",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    610840
+   ],
+   "answer_md": "Die Kamera zeigt senkrecht nach unten auf die Erde; das Bild wirkt dadurch völlig flach [S610840].",
+   "checkable": [
+    "Senkrechte Draufsicht: Becken als Rechtecke ohne Verkürzung, kein Horizont [S610840]"
+   ],
+   "scope_note": "Allgemeine Aussage zu Hegens Luftbildern; am Bild als Senkrechtaufnahme geprüft."
+  },
+  {
+   "image_id": "ibbd50d69df",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space-2003",
+     "title": "Some Dry Space, 2003 – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "Chidago Canyon at 500’, 1800 hours, Chalfant, CA, 2001"
+    }
+   ],
+   "library_source_ids": [
+    528304,
+    183329
+   ],
+   "answer_md": "Aufgenommen aus rund 500 Fuß (ca. 150 m) Höhe [Q1], aus einem Kleinflugzeug mit handgehaltener Großformatkamera [S183329]. Light fliegt tief und fotografiert schräg, nicht senkrecht [S528304].",
+   "checkable": [
+    "Schräger Blick von oben, kein senkrechter Plan [S528304]",
+    "Geringe Flughöhe: Büsche als einzelne Punkte erkennbar [Q1][S528304]"
+   ],
+   "scope_note": "Höhe aus dem Werktitel des Fotografen; Methode aus seinen allgemeinen Aussagen zur Serie."
+  },
+  {
+   "image_id": "ibbd50d69df",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space-2003",
+     "title": "Some Dry Space, 2003 – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "Chidago Canyon at 500’, 1800 hours, Chalfant, CA, 2001"
+    }
+   ],
+   "library_source_ids": [
+    890028
+   ],
+   "answer_md": "Laut Titel um 18 Uhr aufgenommen [Q1]. Light fotografiert bevorzugt früh morgens und abends, weil das tief einfallende Licht Dreidimensionalität erzeugt [S890028].",
+   "checkable": [
+    "Tiefes Streiflicht: die Abbruchkante wirft einen langen, fast schwarzen Schatten [S890028]",
+    "Relief des Geländes durch Schatten deutlich modelliert [S890028]"
+   ],
+   "scope_note": "Uhrzeit aus dem Werktitel; Lichtbegründung aus dem Interview zur Serie."
+  },
+  {
+   "image_id": "i5947535073",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space-2003",
+     "title": "Some Dry Space, 2003 – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "Cadiz Lake at 600’, 0700 hours, Twentynine Palms, CA, 2000"
+    }
+   ],
+   "library_source_ids": [
+    528304,
+    183329
+   ],
+   "answer_md": "Aufgenommen aus etwa 600 Fuß (ca. 180 m) Höhe [Q1], aus dem selbst geflogenen Kleinflugzeug mit handgehaltener Großformatkamera [S183329]; Light fotografiert schräg, nicht senkrecht [S528304].",
+   "checkable": [
+    "Schräger Blick über die Salzpfanne, Fläche verkürzt sich nach oben [S528304]",
+    "Erhöhter Luftstandpunkt, aber nah genug, dass Einzelbüsche als Punkte erscheinen [Q1]"
+   ],
+   "scope_note": "Höhe aus dem Werktitel; Methode aus Aussagen des Fotografen."
+  },
+  {
+   "image_id": "i5947535073",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space-2003",
+     "title": "Some Dry Space, 2003 – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "Cadiz Lake at 600’, 0700 hours, Twentynine Palms, CA, 2000"
+    }
+   ],
+   "library_source_ids": [
+    917995,
+    890028
+   ],
+   "answer_md": "Laut Titel um 7 Uhr morgens aufgenommen [Q1]. Früh am Morgen, sagt Light, geht die Sonne in der Wüste los wie ein Schuss [S917995]; er fotografiert morgens und abends wegen des tief einfallenden Lichts [S890028].",
+   "checkable": [
+    "Grelles Gegenlicht: die Salzfläche ist fast weiß überstrahlt [S917995]",
+    "Büsche werfen lange Schatten [S890028]"
+   ],
+   "scope_note": "Uhrzeit aus dem Werktitel; Lichtaussagen allgemein zur Serie."
+  },
+  {
+   "image_id": "ida31a3379a",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space-2003",
+     "title": "Some Dry Space, 2003 – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "Black Mountain Wash at 500’, 1800 hours, Nixon, NV, 2000"
+    }
+   ],
+   "library_source_ids": [
+    528304,
+    183329
+   ],
+   "answer_md": "Aus etwa 500 Fuß Höhe [Q1] schräg aus dem Kleinflugzeug fotografiert, mit handgehaltener Großformatkamera [S183329]; Light macht keine Senkrechtaufnahmen, sondern Schrägansichten [S528304].",
+   "checkable": [
+    "Schräger Blick über einen Hang, die Fläche läuft nach oben aus dem Bild [S528304]",
+    "Kein Horizont, aber deutlich perspektivische Verkürzung [S528304]"
+   ],
+   "scope_note": "Höhe aus dem Werktitel; Methode aus Aussagen des Fotografen."
+  },
+  {
+   "image_id": "i3a3cf2bd28",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space-2003",
+     "title": "Some Dry Space, 2003 – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "COVER: Shadow at 300’, 1300 hours, Deep Springs Valley, CA; 2001"
+    }
+   ],
+   "library_source_ids": [
+    183329
+   ],
+   "answer_md": "Der Titel nennt 300 Fuß (ca. 90 m) Höhe und einen Schatten [Q1]; Light fliegt das Kleinflugzeug selbst und fotografiert mit handgehaltener Großformatkamera [S183329].",
+   "checkable": [
+    "Der im Titel genannte Schatten liegt im Bild auf dem Boden – die Silhouette eines Kleinflugzeugs [Q1][S183329]",
+    "Sehr niedriger Standpunkt für ein Luftbild: einzelne Büsche gut erkennbar [Q1]"
+   ],
+   "scope_note": "Titel des Fotografen (Umschlagbild des Buchs); dass es der Schatten des eigenen Flugzeugs ist, sagt die Quelle nicht wörtlich."
+  },
+  {
+   "image_id": "i4911b04482",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    165321,
+    890028
+   ],
+   "answer_md": "Laut Titel um 17 Uhr aufgenommen [S165321]; Light fotografiert bevorzugt morgens und abends, weil tiefes Licht Dreidimensionalität gibt [S890028].",
+   "checkable": [
+    "Tief stehende Sonne von vorn: Himmel und Ferne hell, fast weiß [S165321]",
+    "Hügel und Senken durch Schatten plastisch [S890028]"
+   ],
+   "scope_note": "Uhrzeit aus dem Werktitel; Lichtbegründung aus dem Interview."
+  },
+  {
+   "image_id": "ia3ff44bc9b",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.michaellight.net/some-dry-space-2003",
+     "title": "Some Dry Space, 2003 – Michael Light",
+     "author": "Michael Light",
+     "kind": "photographer",
+     "excerpt": "Slot Canyon at 400’, 1900 hours, Deep Springs Valley, CA, 2001"
+    }
+   ],
+   "library_source_ids": [
+    890028
+   ],
+   "answer_md": "Laut Titel um 19 Uhr, also sehr spät am Abend aufgenommen [Q1]; das tief einfallende Licht gibt den Formen Dreidimensionalität [S890028].",
+   "checkable": [
+    "Oberer Bildteil liegt bereits in tiefem Schatten [Q1]",
+    "Schwemmfächer im Streiflicht, Rinnen plastisch [S890028]"
+   ],
+   "scope_note": "Uhrzeit aus dem Werktitel."
+  },
+  {
+   "image_id": "i50cab9d733",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    898249,
+    890028
+   ],
+   "answer_md": "Laut Titel um 17 Uhr aufgenommen [S898249]; Light fotografiert vorzugsweise am frühen Morgen und am Abend wegen des tiefen, plastischen Lichts [S890028].",
+   "checkable": [
+    "Gegenlicht: Himmel über dem Tal fast weiß [S898249]",
+    "Vegetation am Fluss als dunkles Band, Wege hell [S890028]"
+   ],
+   "scope_note": "Uhrzeit aus dem Werktitel."
+  },
+  {
+   "image_id": "i3c04e1f54d",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    489494,
+    917995
+   ],
+   "answer_md": "Laut Titel um 7 Uhr morgens aufgenommen [S489494]. Früh am Morgen geht die Sonne in der Wüste los wie ein Schuss, sagt Light [S917995].",
+   "checkable": [
+    "Grelles Gegenlicht, Himmel und Ferne im Dunst fast weiß [S917995]",
+    "Berge im Vordergrund dunkel, gestaffelte Grate hinten heller [S489494]"
+   ],
+   "scope_note": "Uhrzeit aus dem Werktitel."
+  },
+  {
+   "image_id": "i409d561d98",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    547795,
+    890028
+   ],
+   "answer_md": "Laut Titel um 18:30 Uhr aufgenommen [S547795]; Light fotografiert abends wegen des tief einfallenden Lichts, das Dreidimensionalität erzeugt [S890028].",
+   "checkable": [
+    "Langer Schatten über der Ebene im Vordergrund [S890028]",
+    "Felsformationen rechts seitlich angestrahlt [S547795][S890028]"
+   ],
+   "scope_note": "Uhrzeit aus dem Werktitel."
+  },
+  {
+   "image_id": "i11ec742765",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://aperture.org/exhibition/jungjin-lee-wind/",
+     "title": "Jungjin Lee: Wind – Aperture Gallery",
+     "author": "Aperture Foundation",
+     "kind": "museum",
+     "excerpt": "As in her earlier work, Lee’s printing technique utilizes a liquid photosensitive emulsion brushed on handmade Korean mulberry paper. The texture of the paper and the gestural marks of the brushstroke create a unique, painterly effect that further emphasizes the fusion of image and photographic intent."
+    },
+    {
+     "url": "https://mimi.willamette.edu/a/6932",
+     "title": "Jungjin Lee: Wind – Hallie Ford Museum of Art / Willamette University",
+     "author": "Willamette University (Feldman Gallery)",
+     "kind": "museum",
+     "excerpt": "Jungjin Lee is known for her textural photographic surfaces which are an outcome of her meticulous process. Beginning with handmade Korean mulberry paper, Lee brushes liquid emulsion on to the surface to achieve a painterly effect, unique for each print."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Lee druckt auf handgeschöpftes koreanisches Maulbeerpapier, auf das sie flüssige Fotoemulsion mit dem Pinsel aufträgt [Q1][Q2]; Papierstruktur und Pinselspuren geben jedem Abzug eine malerische, eigene Oberfläche [Q1][Q2].",
+   "checkable": [
+    "Das Bild liest sich als bearbeitete Papierfläche: fleckige, ungleichmäßige Tonflächen statt glatter Fotofläche [Q1][Q2]",
+    "Unregelmäßige Bildränder, wo die aufgepinselte Emulsion auf dem Papier endet [Q1]",
+    "Wolken wirken wie mit Pinsel gemalt, kaum räumliche Tiefe [Q1]"
+   ],
+   "scope_note": "Serienbezogene Ausstellungstexte (Aperture, Willamette) zur Druckweise von 'Wind'; am Bild geprüft (unregelmäßige Papierränder, fleckige Tonflächen)."
+  },
+  {
+   "image_id": "i8b69af42b2",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://aperture.org/exhibition/jungjin-lee-wind/",
+     "title": "Jungjin Lee: Wind – Aperture Gallery",
+     "author": "Aperture Foundation",
+     "kind": "museum",
+     "excerpt": "As in her earlier work, Lee’s printing technique utilizes a liquid photosensitive emulsion brushed on handmade Korean mulberry paper. The texture of the paper and the gestural marks of the brushstroke create a unique, painterly effect that further emphasizes the fusion of image and photographic intent."
+    },
+    {
+     "url": "https://mimi.willamette.edu/a/6932",
+     "title": "Jungjin Lee: Wind – Hallie Ford Museum of Art / Willamette University",
+     "author": "Willamette University (Feldman Gallery)",
+     "kind": "museum",
+     "excerpt": "Jungjin Lee is known for her textural photographic surfaces which are an outcome of her meticulous process. Beginning with handmade Korean mulberry paper, Lee brushes liquid emulsion on to the surface to achieve a painterly effect, unique for each print."
+    }
+   ],
+   "library_source_ids": [
+    379886
+   ],
+   "answer_md": "Lee druckt auf handgeschöpftes koreanisches Maulbeerpapier, auf das sie flüssige Fotoemulsion mit dem Pinsel aufträgt [Q1][Q2]; Papierstruktur und Pinselspuren geben jedem Abzug eine malerische, eigene Oberfläche [Q1][Q2]. Dieser Abzug: Silberemulsion auf Maulbeerpapier, 105 × 210 cm [S379886].",
+   "checkable": [
+    "Das Bild liest sich als bearbeitete Papierfläche: fleckige, ungleichmäßige Tonflächen statt glatter Fotofläche [Q1][Q2]",
+    "Unregelmäßige Bildränder, wo die aufgepinselte Emulsion auf dem Papier endet [Q1]",
+    "Großes Querformat, doppelt so breit wie hoch [S379886]"
+   ],
+   "scope_note": "Serienbezogene Ausstellungstexte (Aperture, Willamette) zur Druckweise von 'Wind'; am Bild geprüft (unregelmäßige Papierränder, fleckige Tonflächen)."
+  },
+  {
+   "image_id": "iaaf33b69c1",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://aperture.org/exhibition/jungjin-lee-wind/",
+     "title": "Jungjin Lee: Wind – Aperture Gallery",
+     "author": "Aperture Foundation",
+     "kind": "museum",
+     "excerpt": "As in her earlier work, Lee’s printing technique utilizes a liquid photosensitive emulsion brushed on handmade Korean mulberry paper. The texture of the paper and the gestural marks of the brushstroke create a unique, painterly effect that further emphasizes the fusion of image and photographic intent."
+    },
+    {
+     "url": "https://mimi.willamette.edu/a/6932",
+     "title": "Jungjin Lee: Wind – Hallie Ford Museum of Art / Willamette University",
+     "author": "Willamette University (Feldman Gallery)",
+     "kind": "museum",
+     "excerpt": "Jungjin Lee is known for her textural photographic surfaces which are an outcome of her meticulous process. Beginning with handmade Korean mulberry paper, Lee brushes liquid emulsion on to the surface to achieve a painterly effect, unique for each print."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Lee druckt auf handgeschöpftes koreanisches Maulbeerpapier, auf das sie flüssige Fotoemulsion mit dem Pinsel aufträgt [Q1][Q2]; Papierstruktur und Pinselspuren geben jedem Abzug eine malerische, eigene Oberfläche [Q1][Q2].",
+   "checkable": [
+    "Das Bild liest sich als bearbeitete Papierfläche: fleckige, ungleichmäßige Tonflächen statt glatter Fotofläche [Q1][Q2]",
+    "Unregelmäßige Bildränder, wo die aufgepinselte Emulsion auf dem Papier endet [Q1]",
+    "Die weiße Plane in der Mitte wird zur fast leeren Fläche [Q2]"
+   ],
+   "scope_note": "Serienbezogene Ausstellungstexte (Aperture, Willamette) zur Druckweise von 'Wind'; am Bild geprüft (unregelmäßige Papierränder, fleckige Tonflächen)."
+  },
+  {
+   "image_id": "ica213692e4",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://aperture.org/exhibition/jungjin-lee-wind/",
+     "title": "Jungjin Lee: Wind – Aperture Gallery",
+     "author": "Aperture Foundation",
+     "kind": "museum",
+     "excerpt": "As in her earlier work, Lee’s printing technique utilizes a liquid photosensitive emulsion brushed on handmade Korean mulberry paper. The texture of the paper and the gestural marks of the brushstroke create a unique, painterly effect that further emphasizes the fusion of image and photographic intent."
+    },
+    {
+     "url": "https://mimi.willamette.edu/a/6932",
+     "title": "Jungjin Lee: Wind – Hallie Ford Museum of Art / Willamette University",
+     "author": "Willamette University (Feldman Gallery)",
+     "kind": "museum",
+     "excerpt": "Jungjin Lee is known for her textural photographic surfaces which are an outcome of her meticulous process. Beginning with handmade Korean mulberry paper, Lee brushes liquid emulsion on to the surface to achieve a painterly effect, unique for each print."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Lee druckt auf handgeschöpftes koreanisches Maulbeerpapier, auf das sie flüssige Fotoemulsion mit dem Pinsel aufträgt [Q1][Q2]; Papierstruktur und Pinselspuren geben jedem Abzug eine malerische, eigene Oberfläche [Q1][Q2].",
+   "checkable": [
+    "Das Bild liest sich als bearbeitete Papierfläche: fleckige, ungleichmäßige Tonflächen statt glatter Fotofläche [Q1][Q2]",
+    "Unregelmäßige Bildränder, wo die aufgepinselte Emulsion auf dem Papier endet [Q1]",
+    "Helle Schneefläche mit körniger, papierhafter Struktur [Q2]"
+   ],
+   "scope_note": "Serienbezogene Ausstellungstexte (Aperture, Willamette) zur Druckweise von 'Wind'; am Bild geprüft (unregelmäßige Papierränder, fleckige Tonflächen)."
+  },
+  {
+   "image_id": "iff01b80e2d",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://aperture.org/exhibition/jungjin-lee-wind/",
+     "title": "Jungjin Lee: Wind – Aperture Gallery",
+     "author": "Aperture Foundation",
+     "kind": "museum",
+     "excerpt": "As in her earlier work, Lee’s printing technique utilizes a liquid photosensitive emulsion brushed on handmade Korean mulberry paper. The texture of the paper and the gestural marks of the brushstroke create a unique, painterly effect that further emphasizes the fusion of image and photographic intent."
+    },
+    {
+     "url": "https://mimi.willamette.edu/a/6932",
+     "title": "Jungjin Lee: Wind – Hallie Ford Museum of Art / Willamette University",
+     "author": "Willamette University (Feldman Gallery)",
+     "kind": "museum",
+     "excerpt": "Jungjin Lee is known for her textural photographic surfaces which are an outcome of her meticulous process. Beginning with handmade Korean mulberry paper, Lee brushes liquid emulsion on to the surface to achieve a painterly effect, unique for each print."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Lee druckt auf handgeschöpftes koreanisches Maulbeerpapier, auf das sie flüssige Fotoemulsion mit dem Pinsel aufträgt [Q1][Q2]; Papierstruktur und Pinselspuren geben jedem Abzug eine malerische, eigene Oberfläche [Q1][Q2].",
+   "checkable": [
+    "Das Bild liest sich als bearbeitete Papierfläche: fleckige, ungleichmäßige Tonflächen statt glatter Fotofläche [Q1][Q2]",
+    "Unregelmäßige Bildränder, wo die aufgepinselte Emulsion auf dem Papier endet [Q1]",
+    "Großer Himmel als dunkel-hell verlaufende, fleckige Fläche [Q2]"
+   ],
+   "scope_note": "Serienbezogene Ausstellungstexte (Aperture, Willamette) zur Druckweise von 'Wind'; am Bild geprüft (unregelmäßige Papierränder, fleckige Tonflächen)."
+  },
+  {
+   "image_id": "ie73a2854ca",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://aperture.org/exhibition/jungjin-lee-wind/",
+     "title": "Jungjin Lee: Wind – Aperture Gallery",
+     "author": "Aperture Foundation",
+     "kind": "museum",
+     "excerpt": "As in her earlier work, Lee’s printing technique utilizes a liquid photosensitive emulsion brushed on handmade Korean mulberry paper. The texture of the paper and the gestural marks of the brushstroke create a unique, painterly effect that further emphasizes the fusion of image and photographic intent."
+    },
+    {
+     "url": "https://mimi.willamette.edu/a/6932",
+     "title": "Jungjin Lee: Wind – Hallie Ford Museum of Art / Willamette University",
+     "author": "Willamette University (Feldman Gallery)",
+     "kind": "museum",
+     "excerpt": "Jungjin Lee is known for her textural photographic surfaces which are an outcome of her meticulous process. Beginning with handmade Korean mulberry paper, Lee brushes liquid emulsion on to the surface to achieve a painterly effect, unique for each print."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Lee druckt auf handgeschöpftes koreanisches Maulbeerpapier, auf das sie flüssige Fotoemulsion mit dem Pinsel aufträgt [Q1][Q2]; Papierstruktur und Pinselspuren geben jedem Abzug eine malerische, eigene Oberfläche [Q1][Q2].",
+   "checkable": [
+    "Das Bild liest sich als bearbeitete Papierfläche: fleckige, ungleichmäßige Tonflächen statt glatter Fotofläche [Q1][Q2]",
+    "Unregelmäßige Bildränder, wo die aufgepinselte Emulsion auf dem Papier endet [Q1]",
+    "Schwarze Buschreihe als flaches, grafisches Band [Q1]"
+   ],
+   "scope_note": "Serienbezogene Ausstellungstexte (Aperture, Willamette) zur Druckweise von 'Wind'; am Bild geprüft (unregelmäßige Papierränder, fleckige Tonflächen)."
+  },
+  {
+   "image_id": "i11ec742765",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://mimi.willamette.edu/a/6932",
+     "title": "Jungjin Lee: Wind – Hallie Ford Museum of Art / Willamette University",
+     "author": "Willamette University (Feldman Gallery)",
+     "kind": "museum",
+     "excerpt": "The photographs in Wind are selected from the 50 works in the series of the same name, which captures the ethereal quality of its namesake in a series of landscapes dominated by windswept expanses and foreboding cloud formations; panoramas that dare an adventurous spirit, while at the same time warn against casual entry."
+    }
+   ],
+   "library_source_ids": [
+    969423
+   ],
+   "answer_md": "Die Serie 'Wind' zeigt Landschaften, die von windgefegten Weiten und bedrohlichen Wolkenformationen beherrscht werden [Q1]; Motiv kann etwa eine Wolke sein, die leise und stetig vorrückt [S969423].",
+   "checkable": [
+    "Das ganze Bild ist dunkler, aufgewühlter Wolkenhimmel ohne Land [Q1]",
+    "Bedrohliche, sich ballende Wolkenformation mit hellen Rändern [Q1]"
+   ],
+   "scope_note": "Serienbezogene Texte; am Bild geprüft."
+  },
+  {
+   "image_id": "iff01b80e2d",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://mimi.willamette.edu/a/6932",
+     "title": "Jungjin Lee: Wind – Hallie Ford Museum of Art / Willamette University",
+     "author": "Willamette University (Feldman Gallery)",
+     "kind": "museum",
+     "excerpt": "The photographs in Wind are selected from the 50 works in the series of the same name, which captures the ethereal quality of its namesake in a series of landscapes dominated by windswept expanses and foreboding cloud formations; panoramas that dare an adventurous spirit, while at the same time warn against casual entry."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Wie die Serie insgesamt wird das Bild von Weite und einer bedrohlichen Wolkenformation beherrscht [Q1].",
+   "checkable": [
+    "Dunkle Wolke drückt von oben auf einen hellen, dunstigen Himmel [Q1]",
+    "Schmaler Landstreifen mit Autowracks ganz unten, Himmel nimmt fast alles ein [Q1]"
+   ],
+   "scope_note": "Serienbezogener Text; am Bild geprüft."
+  },
+  {
+   "image_id": "i2449c119e0",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176959/",
+     "title": "Elger Esser, Mont Saint Michel IX, 2022 – Flowers Gallery (Werkangabe)",
+     "author": "Flowers Gallery",
+     "kind": "museum",
+     "excerpt": "Mixed Media: Directprint, silver-coated copper plate, shellac"
+    }
+   ],
+   "library_source_ids": [
+    968227
+   ],
+   "answer_md": "Das Bild ist kein Papierabzug, sondern ein Direktdruck auf versilberter Kupferplatte, mit Schellack überzogen [Q1]. Esser überträgt analoge Aufnahmen so auf Kupfer, dass eine Erscheinung zwischen Malerei und Fotografie entsteht [S968227].",
+   "checkable": [
+    "Bild liest sich eher als gemalte Fläche denn als scharfer Fotoraum [S968227]",
+    "Spiegelbild und Himmel wirken eher gemalt als fotografiert: weiche, lasierende Tonübergänge [S968227]"
+   ],
+   "scope_note": "Material laut Werkangabe der Galerie; die Wirkung laut Galerietext Van der Grinten (allgemein zu diesen Platten). In der Reproduktion ist die Oberfläche nur eingeschränkt erkennbar."
+  },
+  {
+   "image_id": "id18c8c5641",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176971/",
+     "title": "Elger Esser, Beaugency III, 2014 – Flowers Gallery (Werkangabe)",
+     "author": "Flowers Gallery",
+     "kind": "museum",
+     "excerpt": "Mixed Media: Directprint, silver-coated copper plate, shellac"
+    }
+   ],
+   "library_source_ids": [
+    968227
+   ],
+   "answer_md": "Das Bild ist kein Papierabzug, sondern ein Direktdruck auf versilberter Kupferplatte, mit Schellack überzogen [Q1]. Esser überträgt analoge Aufnahmen so auf Kupfer, dass eine Erscheinung zwischen Malerei und Fotografie entsteht [S968227].",
+   "checkable": [
+    "Bild liest sich eher als gemalte Fläche denn als scharfer Fotoraum [S968227]",
+    "Brücke und Spiegelung verschmelzen in einer hellen, fast monochromen Fläche [S968227]"
+   ],
+   "scope_note": "Material laut Werkangabe der Galerie; die Wirkung laut Galerietext Van der Grinten (allgemein zu diesen Platten). In der Reproduktion ist die Oberfläche nur eingeschränkt erkennbar."
+  },
+  {
+   "image_id": "ia7b1abfb14",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176965/",
+     "title": "Elger Esser, Plouescat, 2019 – Flowers Gallery (Werkangabe)",
+     "author": "Flowers Gallery",
+     "kind": "museum",
+     "excerpt": "Mixed Media: Directprint, silver-coated copper plate, shellac"
+    }
+   ],
+   "library_source_ids": [
+    968227
+   ],
+   "answer_md": "Das Bild ist kein Papierabzug, sondern ein Direktdruck auf versilberter Kupferplatte, mit Schellack überzogen [Q1]. Esser überträgt analoge Aufnahmen so auf Kupfer, dass eine Erscheinung zwischen Malerei und Fotografie entsteht [S968227].",
+   "checkable": [
+    "Bild liest sich eher als gemalte Fläche denn als scharfer Fotoraum [S968227]",
+    "Himmel und Meer in einem durchgehenden Goldbraun, Struktur der Oberfläche sichtbar [S968227]"
+   ],
+   "scope_note": "Material laut Werkangabe der Galerie; die Wirkung laut Galerietext Van der Grinten (allgemein zu diesen Platten). In der Reproduktion ist die Oberfläche nur eingeschränkt erkennbar."
+  },
+  {
+   "image_id": "i1f8caa078a",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176969/",
+     "title": "Elger Esser, Fort Louvois, 2014 – Flowers Gallery (Werkangabe)",
+     "author": "Flowers Gallery",
+     "kind": "museum",
+     "excerpt": "Mixed Media: Directprint, silver-coated copper plate, shellac"
+    }
+   ],
+   "library_source_ids": [
+    968227
+   ],
+   "answer_md": "Das Bild ist kein Papierabzug, sondern ein Direktdruck auf versilberter Kupferplatte, mit Schellack überzogen [Q1]. Esser überträgt analoge Aufnahmen so auf Kupfer, dass eine Erscheinung zwischen Malerei und Fotografie entsteht [S968227].",
+   "checkable": [
+    "Bild liest sich eher als gemalte Fläche denn als scharfer Fotoraum [S968227]",
+    "Im hellen Himmel feine Streifen/Struktur der Plattenoberfläche [S968227]"
+   ],
+   "scope_note": "Material laut Werkangabe der Galerie; die Wirkung laut Galerietext Van der Grinten (allgemein zu diesen Platten). In der Reproduktion ist die Oberfläche nur eingeschränkt erkennbar."
+  },
+  {
+   "image_id": "if8e82170c6",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176975/",
+     "title": "Elger Esser, Kerhervy, 2017 – Flowers Gallery (Werkangabe)",
+     "author": "Flowers Gallery",
+     "kind": "museum",
+     "excerpt": "Mixed Media: Directprint, silver-coated copper plate, shellac"
+    }
+   ],
+   "library_source_ids": [
+    968227
+   ],
+   "answer_md": "Das Bild ist kein Papierabzug, sondern ein Direktdruck auf versilberter Kupferplatte, mit Schellack überzogen [Q1]. Esser überträgt analoge Aufnahmen so auf Kupfer, dass eine Erscheinung zwischen Malerei und Fotografie entsteht [S968227].",
+   "checkable": [
+    "Bild liest sich eher als gemalte Fläche denn als scharfer Fotoraum [S968227]",
+    "Blasse, gelbliche Gesamttönung wie bei einem alten, kolorierten Bild [S968227]"
+   ],
+   "scope_note": "Material laut Werkangabe der Galerie; die Wirkung laut Galerietext Van der Grinten (allgemein zu diesen Platten). In der Reproduktion ist die Oberfläche nur eingeschränkt erkennbar."
+  },
+  {
+   "image_id": "i9612def598",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176961/",
+     "title": "Elger Esser, Ètang de Peyriac, 2024 – Flowers Gallery (Werkangabe)",
+     "author": "Flowers Gallery",
+     "kind": "museum",
+     "excerpt": "Mixed Media: Directprint, silver-coated copper plate, shellac"
+    }
+   ],
+   "library_source_ids": [
+    968227
+   ],
+   "answer_md": "Das Bild ist kein Papierabzug, sondern ein Direktdruck auf versilberter Kupferplatte, mit Schellack überzogen [Q1]. Esser überträgt analoge Aufnahmen so auf Kupfer, dass eine Erscheinung zwischen Malerei und Fotografie entsteht [S968227].",
+   "checkable": [
+    "Bild liest sich eher als gemalte Fläche denn als scharfer Fotoraum [S968227]",
+    "Warmer, einheitlicher Ockerton über Himmel, Land und Wasser [S968227]"
+   ],
+   "scope_note": "Material laut Werkangabe der Galerie; die Wirkung laut Galerietext Van der Grinten (allgemein zu diesen Platten). In der Reproduktion ist die Oberfläche nur eingeschränkt erkennbar."
+  },
+  {
+   "image_id": "iefa43e43f9",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://www.flowersgallery.com/content/feature/3894/detail/artworks176957/",
+     "title": "Elger Esser, Mont Saint Michel-Ciel et Mer, 2023 – Flowers Gallery (Werkangabe)",
+     "author": "Flowers Gallery",
+     "kind": "museum",
+     "excerpt": "Directprint, silver-coated copper plate, shellac"
+    }
+   ],
+   "library_source_ids": [
+    968227
+   ],
+   "answer_md": "Das Bild ist kein Papierabzug, sondern ein Direktdruck auf versilberter Kupferplatte, mit Schellack überzogen [Q1]. Esser überträgt analoge Aufnahmen so auf Kupfer, dass eine Erscheinung zwischen Malerei und Fotografie entsteht [S968227].",
+   "checkable": [
+    "Bild liest sich eher als gemalte Fläche denn als scharfer Fotoraum [S968227]",
+    "Dunklere, unregelmäßige Ränder und matte, malerische Wolkenpartien [S968227]"
+   ],
+   "scope_note": "Material laut Werkangabe der Galerie; die Wirkung laut Galerietext Van der Grinten (allgemein zu diesen Platten). In der Reproduktion ist die Oberfläche nur eingeschränkt erkennbar."
+  },
+  {
+   "image_id": "iab3e0d685d",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/2001.92",
+     "title": "Dunes, Oceano (1936) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "His sharply focused view of this natural phenomenon becomes a rhythmic design of darks and lights, gentle curves, and crisp edges. The hills of sand echo the waves of the sea, visible at the top of the picture, and engulf the viewer in their sensuous undulations."
+    },
+    {
+     "url": "https://sothebys.com/en/auctions/ecatalogue/2014/photographs-n09129/lot.26.html",
+     "title": "Edward Weston, 'Sand Dunes, Oceano, California' (Black Dunes) – Sotheby's, Photographs, New York 2014, Lot 26",
+     "author": "Sotheby's (Katalogtext)",
+     "kind": "museum",
+     "excerpt": "Passages that show the sunlit dunes in great detail alternate with inky black bands of shadow."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild wird zu einem rhythmischen Muster aus Dunkel und Hell, sanften Kurven und scharfen Kanten [Q1]: sonnenbeschienene Dünenpartien wechseln mit tintenschwarzen Schattenbändern [Q2].",
+   "checkable": [
+    "Abwechselnd helle und tiefschwarze Bänder quer durchs Bild [Q1][Q2]",
+    "Weiche Kurven der Dünenkämme mit scharfen Hell-Dunkel-Kanten [Q1]"
+   ],
+   "scope_note": "Cleveland und Sotheby's beschreiben die als 'Black Dunes' bekannte Aufnahme von 1936 mit dem Meer am oberen Bildrand; das passt zu diesem Blatt (Meeresstreifen oben, schwarze Dünenbänder)."
+  },
+  {
+   "image_id": "iab3e0d685d",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/2001.92",
+     "title": "Dunes, Oceano (1936) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "His sharply focused view of this natural phenomenon becomes a rhythmic design of darks and lights, gentle curves, and crisp edges. The hills of sand echo the waves of the sea, visible at the top of the picture, and engulf the viewer in their sensuous undulations."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Sandhügel staffeln sich bis an den oberen Bildrand, wo das Meer sichtbar wird; ihre Wellen wiederholen die Wellen des Meeres [Q1].",
+   "checkable": [
+    "Ganz oben ein schmaler Streifen Meer [Q1]",
+    "Mehrere hintereinander gestaffelte Dünenrücken, die wie Wellen wirken [Q1]"
+   ],
+   "scope_note": "Cleveland und Sotheby's beschreiben die als 'Black Dunes' bekannte Aufnahme von 1936 mit dem Meer am oberen Bildrand; das passt zu diesem Blatt (Meeresstreifen oben, schwarze Dünenbänder)."
+  },
+  {
+   "image_id": "iab3e0d685d",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://sothebys.com/en/auctions/ecatalogue/2014/photographs-n09129/lot.26.html",
+     "title": "Edward Weston, 'Sand Dunes, Oceano, California' (Black Dunes) – Sotheby's, Photographs, New York 2014, Lot 26",
+     "author": "Sotheby's (Katalogtext)",
+     "kind": "museum",
+     "excerpt": "Passages that show the sunlit dunes in great detail alternate with inky black bands of shadow."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Sonnenlicht modelliert die Dünen: Partien im Licht zeigen viel Detail, dazwischen liegen tintenschwarze Schattenbänder [Q1].",
+   "checkable": [
+    "Tiefschwarze, fast zeichnungslose Schattenflächen [Q1]",
+    "Beleuchtete Hänge mit feiner Rippelstruktur im Vordergrund [Q1]"
+   ],
+   "scope_note": "Cleveland und Sotheby's beschreiben die als 'Black Dunes' bekannte Aufnahme von 1936 mit dem Meer am oberen Bildrand; das passt zu diesem Blatt (Meeresstreifen oben, schwarze Dünenbänder)."
+  },
+  {
+   "image_id": "iab3e0d685d",
+   "dimension": "focus",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/2001.92",
+     "title": "Dunes, Oceano (1936) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "His sharply focused view of this natural phenomenon becomes a rhythmic design of darks and lights, gentle curves, and crisp edges. The hills of sand echo the waves of the sea, visible at the top of the picture, and engulf the viewer in their sensuous undulations."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Weston zeigt die Dünen in durchgehend scharfer Ansicht; gerade die Schärfe macht das Naturmotiv zum Muster aus Hell und Dunkel [Q1].",
+   "checkable": [
+    "Scharf vom Vordergrund bis zum Meer am oberen Rand [Q1]",
+    "Feine Sandrippel vorne gestochen scharf [Q1]"
+   ],
+   "scope_note": "Cleveland und Sotheby's beschreiben die als 'Black Dunes' bekannte Aufnahme von 1936 mit dem Meer am oberen Bildrand; das passt zu diesem Blatt (Meeresstreifen oben, schwarze Dünenbänder)."
+  },
+  {
+   "image_id": "i7fe48b1303",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.photographyblog.com/news/the_suffering_of_light",
+     "title": "The Suffering of Light – Photography Blog (Ausstellungsbesprechung)",
+     "author": "Photography Blog",
+     "kind": "magazine",
+     "excerpt": "Works exemplifying this are Webb’s 1979 photograph of a bar in Grenada, the silhouetted figures backlight by the intense tricolor of red, yellow and green or his caged circus lion lit by an ethereal red light in Merida, Mexico (1983)."
+    }
+   ],
+   "library_source_ids": [
+    755771
+   ],
+   "answer_md": "Die Figuren in der Bar stehen als Silhouetten im Gegenlicht vor leuchtenden Fenstern [Q1]; Webb verbindet die Karibik mit grellem Licht und intensiver Farbe [S755771].",
+   "checkable": [
+    "Gegenlicht durch farbige Fenster im Hintergrund [Q1]",
+    "Personen als dunkle Silhouetten bzw. mit dunklen Gesichtern [Q1]"
+   ],
+   "scope_note": "Besprechung nennt das Bild ausdrücklich (Bar in Grenada, 1979)."
+  },
+  {
+   "image_id": "i7fe48b1303",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://www.photographyblog.com/news/the_suffering_of_light",
+     "title": "The Suffering of Light – Photography Blog (Ausstellungsbesprechung)",
+     "author": "Photography Blog",
+     "kind": "magazine",
+     "excerpt": "Works exemplifying this are Webb’s 1979 photograph of a bar in Grenada, the silhouetted figures backlight by the intense tricolor of red, yellow and green or his caged circus lion lit by an ethereal red light in Merida, Mexico (1983)."
+    }
+   ],
+   "library_source_ids": [
+    755771
+   ],
+   "answer_md": "Die Farbe trägt das Bild: Rot, Gelb und Grün bilden hinter den Silhouetten eine intensive Trikolore [Q1]. Webb beschreibt die grelle Farbe als eingebettet in die Kulturen, in denen er arbeitete [S755771].",
+   "checkable": [
+    "Rot links, Gelb im Fenster Mitte, Grün im Fenster rechts [Q1]",
+    "Dunkle Figuren davor als Kontrast zu den leuchtenden Farbflächen [Q1]"
+   ],
+   "scope_note": "Besprechung nennt das Bild ausdrücklich."
+  },
+  {
+   "image_id": "i153395c4c7",
+   "dimension": "attitude",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/alex-webb-the-suffering-of-light/",
+     "title": "The Suffering of Light – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Mexicans arrested while trying to cross the border to United States. San Ysidro, California, USA. 1979."
+    },
+    {
+     "url": "https://www.photographyblog.com/news/the_suffering_of_light",
+     "title": "The Suffering of Light – Photography Blog (Ausstellungsbesprechung)",
+     "author": "Photography Blog",
+     "kind": "magazine",
+     "excerpt": "Incongruity also comes from strange juxtapositions, such as that in probably his most well-known image of Mexican immigrants being arrested at the US border (1979) between the beauty of the landscape and the action taking place."
+    }
+   ],
+   "library_source_ids": [
+    937865
+   ],
+   "answer_md": "Das Bild zeigt Mexikaner, die beim Versuch, die Grenze in die USA zu überqueren, festgenommen werden [Q1]. Die Spannung entsteht aus dem Nebeneinander der schönen Landschaft und der Festnahme [Q2]; Webb versteht sich als Straßenfotograf, der soziale Themen behandelt, nicht als Journalist [S937865].",
+   "checkable": [
+    "Blühendes gelbes Feld und dramatischer Abendhimmel neben der Festnahme [Q2]",
+    "Die Festnahme selbst (Männer mit erhobenen Armen) steht mitten im Blumenfeld [Q1][Q2]"
+   ],
+   "scope_note": "Magnum-Bildlegende und Besprechung beziehen sich auf genau dieses Bild."
+  },
+  {
+   "image_id": "i6f4a8c32a3",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/2021.236",
+     "title": "Matchstick Cove, San Mateo County, California (1947) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "This image reveals the individual components of this landscape—the waves, the sand, and the contours of the cliff faces—and how they flow together."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild zerlegt die Landschaft in ihre Bestandteile – Wellen, Sand und die Konturen der Klippen – und zeigt, wie sie ineinanderfließen [Q1].",
+   "checkable": [
+    "Vorne/links Brandung und Sandstrand, dahinter gestaffelte Klippenkonturen [Q1]",
+    "Die Kanten der Klippen überschneiden sich und führen ineinander über [Q1]"
+   ],
+   "scope_note": "Cleveland besitzt zwei verschiedene Aufnahmen gleichen Titels; die Beschreibung von 2021.236 (Wellen, Sand, Klippen, scharf, ohne Nebel) passt zu diesem Blatt, das andere (1993.12) zeigt Nebel und überspülte Klippen."
+  },
+  {
+   "image_id": "i6f4a8c32a3",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/2021.236",
+     "title": "Matchstick Cove, San Mateo County, California (1947) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "Its sharp focus and dramatic contrasts of dark and light are quite different in mood White’s Matchstick Cove, San Mateo County, California, 1947, 1993.12."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Starke Hell-Dunkel-Kontraste bestimmen die Stimmung – anders als in Whites nebliger Fassung desselben Ortes [Q1].",
+   "checkable": [
+    "Dunkle, schattige Klippenflanken neben hell beleuchteten Hängen und Sand [Q1]",
+    "Kein Nebel, klare Luft [Q1]"
+   ],
+   "scope_note": "Cleveland besitzt zwei verschiedene Aufnahmen gleichen Titels; die Beschreibung von 2021.236 (Wellen, Sand, Klippen, scharf, ohne Nebel) passt zu diesem Blatt, das andere (1993.12) zeigt Nebel und überspülte Klippen."
+  },
+  {
+   "image_id": "i6f4a8c32a3",
+   "dimension": "focus",
+   "sources": [
+    {
+     "url": "https://www.clevelandart.org/art/2021.236",
+     "title": "Matchstick Cove, San Mateo County, California (1947) – Cleveland Museum of Art",
+     "author": "Cleveland Museum of Art",
+     "kind": "museum",
+     "excerpt": "Its sharp focus and dramatic contrasts of dark and light are quite different in mood White’s Matchstick Cove, San Mateo County, California, 1947, 1993.12."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Aufnahme ist durchgehend scharf [Q1].",
+   "checkable": [
+    "Brandung vorn und Grate hinten gleich scharf [Q1]"
+   ],
+   "scope_note": "Cleveland besitzt zwei verschiedene Aufnahmen gleichen Titels; die Beschreibung von 2021.236 (Wellen, Sand, Klippen, scharf, ohne Nebel) passt zu diesem Blatt, das andere (1993.12) zeigt Nebel und überspülte Klippen."
+  },
+  {
+   "image_id": "ia73da6a926",
+   "dimension": "detail",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/57735/charles-lindberghs-boyhood-bed-little-falls-minnesota",
+     "title": "Alec Soth, Charles Lindbergh's Boyhood Bed, Little Falls, Minnesota – The Nelson-Atkins Museum of Art",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "Image of a small bed frame with worn mattress and bedding sitting in the corner of a porch."
+    },
+    {
+     "url": "https://art.nelson-atkins.org/objects/57735/charles-lindberghs-boyhood-bed-little-falls-minnesota",
+     "title": "Alec Soth, Charles Lindbergh's Boyhood Bed, Little Falls, Minnesota – The Nelson-Atkins Museum of Art",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "Here, Soth depicts the boyhood bed of famed aviator Charles Lindbergh. Its humble simplicity stands in marked contrast to the mythic stature of Lindbergh himself."
+    }
+   ],
+   "library_source_ids": [
+    956369
+   ],
+   "answer_md": "Ein kleines Bettgestell mit abgenutzter Matratze in der Ecke einer Veranda [Q1] steht für den Mythos Lindbergh: Seine schlichte Bescheidenheit kontrastiert mit der legendären Größe des Fliegers [Q2]. Das Elternhaus ist heute ein Pilgerort des amerikanischen Traums [S956369].",
+   "checkable": [
+    "Schmales Metallbett mit abgenutzter Matratze und Decke [Q1]",
+    "Bett steht in der Ecke einer Veranda, zwischen Wand und Fenstern [Q1]",
+    "Nichts im Bild verweist direkt auf Lindbergh – nur der Titel [Q2]"
+   ],
+   "scope_note": "Objektseite der Nelson-Atkins; deren Abbildung mit dem Bibliotheksbild verglichen: gleiche Aufnahme."
+  },
+  {
+   "image_id": "i63e5d4991a",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/49331/del-monte-forest",
+     "title": "Wynn Bullock, Del Monte Forest – The Nelson-Atkins Museum of Art",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "Image of a forest with tall heavily barked bare trees; foliage fills the forest floor."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Hohe, kahle Stämme mit dicker Rinde bilden die senkrechten Ebenen des Waldes; Blattwerk füllt den Boden [Q1].",
+   "checkable": [
+    "Vorn ein dicker, rindiger Stamm, dahinter weitere Stämme gestaffelt [Q1]",
+    "Untere Bildzone ganz von Laub/Unterholz gefüllt [Q1]"
+   ],
+   "scope_note": "Objektseite der Nelson-Atkins; deren Abbildung mit dem Bibliotheksbild verglichen: gleiche Aufnahme."
+  },
+  {
+   "image_id": "iecf7eee4e3",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/73658/lake-oswego-oregon",
+     "title": "Joel Sternfeld, Lake Oswego, Oregon – The Nelson-Atkins Museum of Art",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "Image of a suburban housing development with billowy clouds stretching across a blue sky. A gold-colored car is parked along the right side of the road which divides the houses and a basketball goal faces the street."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Eine Straße teilt die Siedlung; an ihrem rechten Rand parkt ein goldfarbenes Auto, ein Basketballkorb ist zur Straße gerichtet [Q1].",
+   "checkable": [
+    "Straße läuft durch die Bildmitte und trennt die Häuser links und rechts [Q1]",
+    "Basketballkorb rechts der Mitte, zur Straße gewandt [Q1]",
+    "Goldfarbenes Auto am rechten Straßenrand [Q1]"
+   ],
+   "scope_note": "Objektseite der Nelson-Atkins; deren Abbildung mit dem Bibliotheksbild verglichen: gleiche Aufnahme."
+  },
+  {
+   "image_id": "iecf7eee4e3",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/73658/lake-oswego-oregon",
+     "title": "Joel Sternfeld, Lake Oswego, Oregon – The Nelson-Atkins Museum of Art",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "Image of a suburban housing development with billowy clouds stretching across a blue sky. A gold-colored car is parked along the right side of the road which divides the houses and a basketball goal faces the street."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Blauer Himmel mit weißen Quellwolken über der Siedlung; das goldfarbene Auto am Straßenrand ist ein Farbakzent [Q1].",
+   "checkable": [
+    "Blauer Himmel mit bauschigen weißen Wolken [Q1]",
+    "Goldfarbenes Auto rechts an der Straße [Q1]"
+   ],
+   "scope_note": "Objektseite der Nelson-Atkins; deren Abbildung mit dem Bibliotheksbild verglichen: gleiche Aufnahme."
+  },
+  {
+   "image_id": "i88b17ef5cd",
+   "dimension": "attitude",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/49402/approximately-17-of-41-whales-which-beached-and-subsequentl",
+     "title": "Joel Sternfeld, Approximately 17 of 41 Sperm Whales …, Florence, Oregon – The Nelson-Atkins Museum of Art",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "In this image, a group of curious spectators gather at the site of a mass beaching of whales. The unusual subject, photographed in a descriptive manner, seems both straightforward and strange."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Sternfeld zeigt neugierige Zuschauer an einer Massenstrandung von Walen – ein ungewöhnliches Ereignis, nüchtern beschreibend fotografiert, das zugleich sachlich und seltsam wirkt [Q1].",
+   "checkable": [
+    "Distanzierter, beschreibender Blick: keine Nahaufnahme der Tiere [Q1]",
+    "Kleine Zuschauerfiguren verteilt am Strand neben den Walen [Q1]"
+   ],
+   "scope_note": "Objektseite der Nelson-Atkins; deren Abbildung mit dem Bibliotheksbild verglichen: gleiche Aufnahme."
+  },
+  {
+   "image_id": "i88b17ef5cd",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/73668/approximately-17-of-41-sperm-whales-that-beached-and-subsequ",
+     "title": "Joel Sternfeld, Approximately 17 of 41 Sperm Whales …, Florence, Oregon – The Nelson-Atkins Museum of Art",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "Image of a sandy shoreline with beached whales and scattered figures. The sky is overcast and the water near the whales is colored a red hue."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Bedeckter Himmel über dem Strand; das Wasser bei den Walen ist rötlich gefärbt [Q1].",
+   "checkable": [
+    "Gleichmäßig grauer, bedeckter Himmel [Q1]",
+    "Rötlicher Schimmer im Wasser um die Wale [Q1]"
+   ],
+   "scope_note": "Zweites Exemplar derselben Aufnahme in der Nelson-Atkins (73668); Abbildung verglichen."
+  },
+  {
+   "image_id": "i290618dd26",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/66663/colorful-trees-newfound-gap-road-great-smokey-mountains-na",
+     "title": "Eliot Porter, Colorful Trees, Newfound Gap Road, Great Smoky Mountains National Park – The Nelson-Atkins Museum of Art",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "Image of a forest taken from a high vantage point looking down on trees with leaves of red, green, and golden hues."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Porter fotografierte den Wald von einem hohen Standpunkt aus, mit Blick hinunter auf die Bäume [Q1].",
+   "checkable": [
+    "Kein Himmel, kein Horizont: Blick von oben in die Baumkronen [Q1]",
+    "Kronen der vorderen Bäume liegen unterhalb der Kamera [Q1]"
+   ],
+   "scope_note": "Objektseite der Nelson-Atkins; deren Abbildung mit dem Bibliotheksbild verglichen: gleiche Aufnahme."
+  },
+  {
+   "image_id": "i290618dd26",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/66663/colorful-trees-newfound-gap-road-great-smokey-mountains-na",
+     "title": "Eliot Porter, Colorful Trees, Newfound Gap Road, Great Smoky Mountains National Park – The Nelson-Atkins Museum of Art",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "Image of a forest taken from a high vantage point looking down on trees with leaves of red, green, and golden hues."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Laub erscheint in Rot, Grün und Goldtönen [Q1].",
+   "checkable": [
+    "Leuchtend roter Baum unten links [Q1]",
+    "Gold-/Gelbtöne und Grün in den übrigen Kronen [Q1]"
+   ],
+   "scope_note": "Objektseite der Nelson-Atkins; deren Abbildung mit dem Bibliotheksbild verglichen: gleiche Aufnahme."
+  },
+  {
+   "image_id": "i69d4d31822",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://art.nelson-atkins.org/objects/48470/cypress-point-lobos",
+     "title": "Edward Weston, Cypress, Point Lobos – The Nelson-Atkins Museum of Art",
+     "author": "The Nelson-Atkins Museum of Art",
+     "kind": "museum",
+     "excerpt": "Closeup image of Cypress tree trunk."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Eine Nahaufnahme eines Zypressenstamms [Q1].",
+   "checkable": [
+    "Der Stamm füllt das ganze Bild, keine Umgebung, kein Himmel [Q1]",
+    "Holzmaserung in Nahsicht erkennbar [Q1]"
+   ],
+   "scope_note": "Nelson-Atkins führt die Aufnahme als 'Cypress, Point Lobos'; Abbildung verglichen: gleiche Aufnahme."
+  },
+  {
+   "image_id": "i4f7dc08308",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    404530
+   ],
+   "answer_md": "Eine große Steinbrücke, auf der Häuser gebaut sind; von deren Balkonen schauen Menschen herab [S404530].",
+   "checkable": [
+    "Hölzerne Häuser auf den steinernen Brückenpfeilern [S404530]",
+    "Menschen auf den Balkonen der Häuser [S404530]"
+   ],
+   "scope_note": "Katalogbeschreibung der Wellcome Collection zu diesem Glasnegativ (bereits Bibliotheksquelle)."
+  },
+  {
+   "image_id": "i8840aa7d1a",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    960812
+   ],
+   "answer_md": "Vorn ein Mann mit zwei Kindern und zwei Ochsen auf einem Weg, daneben terrassierte Felder, in der Ferne Bäume [S960812].",
+   "checkable": [
+    "Weg mit Mann, Kindern und Ochsen im Vordergrund [S960812]",
+    "Terrassenfelder am Hang dahinter, Bäume im Hintergrund [S960812]"
+   ],
+   "scope_note": "Katalogbeschreibung der Wellcome Collection zu diesem Glasnegativ (bereits Bibliotheksquelle). Das Negativ ist ein Stereopaar; beide Hälften zeigen dieselbe Szene."
+  },
+  {
+   "image_id": "ice664c3c27",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    443206
+   ],
+   "answer_md": "Ein tiefer Spalt im Tal mit einem Wasserfall darin; hoch oben im Hintergrund Gebirge mit einem Gebäude [S443206]. Thomson hat dasselbe Motiv auf einem weiteren Negativ aus leicht anderem Winkel aufgenommen [S443206].",
+   "checkable": [
+    "Vorn die tiefe, dunkle Felsspalte mit dem Wasserfall [S443206]",
+    "Dahinter Wald, ganz hinten Bergkette [S443206]"
+   ],
+   "scope_note": "Katalogbeschreibung der Wellcome Collection zu diesem Glasnegativ (bereits Bibliotheksquelle)."
+  },
+  {
+   "image_id": "ie450d938d9",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    562098,
+    889668
+   ],
+   "answer_md": "Ein Mann mit einem sehr zottigen Kamel vor einer Ziegelmauer mit Gitterwerk oben [S562098]. Das Kamel war bis zur Eisenbahn das wichtigste Transportmittel in Nordchina und Zentralasien [S889668].",
+   "checkable": [
+    "Zottiges Winterfell des Kamels, besonders an Hals und Höckern [S562098]",
+    "Ziegelmauer mit durchbrochenem Gitterfries oben [S562098]",
+    "Mann steht rechts neben dem Kamel [S562098]"
+   ],
+   "scope_note": "Katalogbeschreibung der Wellcome Collection zu diesem Glasnegativ (bereits Bibliotheksquelle)."
+  },
+  {
+   "image_id": "i82e87c092e",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    560897,
+    320166
+   ],
+   "answer_md": "Ein Fluss läuft durch einen Pass zwischen Bergen, im Vordergrund stehen ein Mann und ein Esel [S560897]; der Pass liegt eingezwängt zwischen zwei hohen Bergen [S320166].",
+   "checkable": [
+    "Mann und Esel als kleine Figuren vor den hohen Felswänden [S560897]",
+    "Steile Felsen links und rechts rahmen das Flussbett [S320166]"
+   ],
+   "scope_note": "Katalogbeschreibung der Wellcome Collection zu diesem Glasnegativ (bereits Bibliotheksquelle)."
+  },
+  {
+   "image_id": "i853171d49e",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    716931
+   ],
+   "answer_md": "Zwei Männer rasten mit einem Hundeschlittengespann neben einem Eisberg [S716931].",
+   "checkable": [
+    "Männer und Hunde als winzige Figuren am Fuß der Eiswand [S716931]",
+    "Der Eisberg ragt ein Vielfaches ihrer Höhe auf und füllt fast das ganze Hochformat [S716931]"
+   ],
+   "scope_note": "Katalogbeschreibung der Library of Congress und Ponting's Buch 'The Great White South' (beides bereits Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "i531a4e4cb9",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    476089,
+    705919
+   ],
+   "answer_md": "Zwei Expeditionsteilnehmer, T. Griffith Taylor und Charles S. Wright, stehen am Eingang der Grotte [S476089]; die Höhle war etwa vierzig Yards lang [S705919].",
+   "checkable": [
+    "Zwei kleine Figuren im unteren Teil der Grottenöffnung [S476089]",
+    "Die Öffnung ist um ein Vielfaches höher als die Männer [S476089][S705919]"
+   ],
+   "scope_note": "Katalogbeschreibung der Library of Congress und Ponting's Buch 'The Great White South' (beides bereits Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "i531a4e4cb9",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    926954
+   ],
+   "answer_md": "Die Grotte lag etwa eine Meile vom Schiff entfernt; trotz vielen rauen, zerbrochenen Eises ringsum konnte Ponting direkt an sie herangehen [S926954].",
+   "checkable": [
+    "Vordergrund aus zerbrochenem, aufgetürmtem Eis [S926954]",
+    "Nah am Eisberg: seine Flanke füllt das Bild bis zum oberen Rand [S926954]"
+   ],
+   "scope_note": "Katalogbeschreibung der Library of Congress und Ponting's Buch 'The Great White South' (beides bereits Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "i2ba10bf105",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    568441,
+    103274
+   ],
+   "answer_md": "Weddellrobben liegen auf Eisschollen [S568441]. Ponting beschreibt, wie kleine Eisscheiben ohne Wind rasch zu 'Pfannkuchen' wachsen, die zu größeren zusammenfrieren [S103274].",
+   "checkable": [
+    "Rundliche Eisschollen mit aufgewölbten Rändern ('Pfannkuchen') [S103274]",
+    "Dunkle Robben als kleine Punkte auf den Schollen [S568441]"
+   ],
+   "scope_note": "Katalogbeschreibung der Library of Congress und Ponting's Buch 'The Great White South' (beides bereits Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "i8272831399",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    476201,
+    581260
+   ],
+   "answer_md": "Eine Weddellrobbe und ihr Junges liegen auf dem Eis [S476201]. Die Jungen tragen ein dickes, weiches Wollkleid, meist rehbraun und zu den Schwanzflossen hin schwarz [S581260].",
+   "checkable": [
+    "Junges mit hellem, weichem Fell vor dem dunkel gefleckten Muttertier [S476201][S581260]",
+    "Flossen des Jungen deutlich dunkler als der Körper [S581260]"
+   ],
+   "scope_note": "Katalogbeschreibung der Library of Congress und Ponting's Buch 'The Great White South' (beides bereits Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "i2172940078",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    605244
+   ],
+   "answer_md": "Ein Mann mit Hundeschlitten steht vor den 'Ramparts' des Mount Erebus [S605244].",
+   "checkable": [
+    "Winzige Figur mit Schlitten unten links am Fuß der Eiswand [S605244]",
+    "Darüber die gewaltige Eiswand und der Berg [S605244]"
+   ],
+   "scope_note": "Katalogbeschreibung der Library of Congress und Ponting's Buch 'The Great White South' (beides bereits Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "ide0d8ba388",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    317971
+   ],
+   "answer_md": "Blick über eine Bucht mit Eisbergen in der Ferne [S317971].",
+   "checkable": [
+    "Vorn Eisrand und Scholle, Mitte offene Wasserfläche [S317971]",
+    "Eisberge als flache Silhouetten am Horizont [S317971]"
+   ],
+   "scope_note": "Katalogbeschreibung der Library of Congress und Ponting's Buch 'The Great White South' (beides bereits Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "ie4f79c3c05",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    317330,
+    358953
+   ],
+   "answer_md": "Ponting steht in ganzer Figur frontal neben einer (Film-)Kamera auf dem Stativ [S317330]; Scott beschreibt, wie er Tag und Nacht mit Kamera und Kinematograf alles 'einsammelte' [S358953].",
+   "checkable": [
+    "Kamera auf hohem Holzstativ links neben ihm [S317330]",
+    "Ganzfigur, frontal, in Polarkleidung [S317330]"
+   ],
+   "scope_note": "Katalogbeschreibung der Library of Congress und Ponting's Buch 'The Great White South' (beides bereits Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "ie0d61fdebe",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/95514246/",
+     "title": "Hot springs on the Gardiners River, Upper Basin – Library of Congress",
+     "author": "Library of Congress (Katalogbeschreibung)",
+     "kind": "museum",
+     "excerpt": "Man standing on ridge of hot springs; Gardiner River flowing down the ridge."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Ein Mann steht auf dem Grat der heißen Quellen; der Gardiner River fließt den Grat hinab [Q1].",
+   "checkable": [
+    "Kleine dunkle Figur rechts der Mitte auf den hellen Sinterterrassen [Q1]",
+    "An ihr lässt sich die Höhe der Sinterstufen abschätzen [Q1]"
+   ],
+   "scope_note": "Katalogtext der Library of Congress zu diesem Abzug."
+  },
+  {
+   "image_id": "i9910f03b07",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://www.loc.gov/item/2020630262/",
+     "title": "Mammoth Hot Springs / W.H. Jackson – Library of Congress",
+     "author": "Library of Congress (Katalogbeschreibung)",
+     "kind": "museum",
+     "excerpt": "Photograph taken during F.V. Hayden's 1871 U.S. Geological Survey of the Territories for the Department of the Interior shows view of terraced rock formation at hot spring, Yellowstone National Park, Wyoming."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das Bild zeigt eine terrassierte Gesteinsformation an einer heißen Quelle, aufgenommen 1871 bei Haydens Vermessung [Q1].",
+   "checkable": [
+    "Sinterterrassen staffeln sich stufenweise vom Vordergrund nach hinten [Q1]",
+    "Dahinter Berghang und Himmel als weitere Ebenen [Q1]"
+   ],
+   "scope_note": "Katalogtext der Library of Congress zu diesem Abzug."
+  },
+  {
+   "image_id": "ic7421d0320",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://barnbaum.com/about",
+     "title": "About – Bruce Barnbaum",
+     "author": "Bruce Barnbaum (Website, Selbstdarstellung)",
+     "kind": "photographer",
+     "excerpt": "His photographs often contain ambiguities concerning either the size of the scene photographed and/or its orientation, forcing the viewer to pause and think, and to become part of the creative process."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Barnbaums Bilder lassen oft offen, wie groß die Szene ist und wie sie ausgerichtet ist; das zwingt den Betrachter innezuhalten und mitzudenken [Q1].",
+   "checkable": [
+    "Kein Maßstabsträger im Bild: weder Mensch noch Pflanze noch Himmel [Q1]",
+    "Zwei Wandgrate laufen senkrecht durchs Bild; ob die Wand zwei oder zwanzig Meter hoch ist, lässt sich nicht sagen [Q1]"
+   ],
+   "scope_note": "Allgemeine Aussage auf Barnbaums Website zu seinen Bildern ('often'); nur für Canyon-Blätter verwendet, in denen am Bild kein Maßstabsträger (Mensch, Pflanze, Stein bekannter Größe) zu finden ist."
+  },
+  {
+   "image_id": "i5643067051",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://barnbaum.com/about",
+     "title": "About – Bruce Barnbaum",
+     "author": "Bruce Barnbaum (Website, Selbstdarstellung)",
+     "kind": "photographer",
+     "excerpt": "His photographs often contain ambiguities concerning either the size of the scene photographed and/or its orientation, forcing the viewer to pause and think, and to become part of the creative process."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Barnbaums Bilder lassen oft offen, wie groß die Szene ist und wie sie ausgerichtet ist; das zwingt den Betrachter innezuhalten und mitzudenken [Q1].",
+   "checkable": [
+    "Kein Maßstabsträger im Bild: weder Mensch noch Pflanze noch Himmel [Q1]",
+    "Der Blick in den 'Schornstein' könnte nach oben oder schräg gehen; oben und unten sind kaum festzulegen [Q1]"
+   ],
+   "scope_note": "Allgemeine Aussage auf Barnbaums Website zu seinen Bildern ('often'); nur für Canyon-Blätter verwendet, in denen am Bild kein Maßstabsträger (Mensch, Pflanze, Stein bekannter Größe) zu finden ist."
+  },
+  {
+   "image_id": "iabb512d61c",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://barnbaum.com/about",
+     "title": "About – Bruce Barnbaum",
+     "author": "Bruce Barnbaum (Website, Selbstdarstellung)",
+     "kind": "photographer",
+     "excerpt": "His photographs often contain ambiguities concerning either the size of the scene photographed and/or its orientation, forcing the viewer to pause and think, and to become part of the creative process."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Barnbaums Bilder lassen oft offen, wie groß die Szene ist und wie sie ausgerichtet ist; das zwingt den Betrachter innezuhalten und mitzudenken [Q1].",
+   "checkable": [
+    "Kein Maßstabsträger im Bild: weder Mensch noch Pflanze noch Himmel [Q1]",
+    "Der Spalt könnte ein schmaler Riss oder eine hohe Schlucht sein [Q1]"
+   ],
+   "scope_note": "Allgemeine Aussage auf Barnbaums Website zu seinen Bildern ('often'); nur für Canyon-Blätter verwendet, in denen am Bild kein Maßstabsträger (Mensch, Pflanze, Stein bekannter Größe) zu finden ist."
+  },
+  {
+   "image_id": "i2e200e3066",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://barnbaum.com/about",
+     "title": "About – Bruce Barnbaum",
+     "author": "Bruce Barnbaum (Website, Selbstdarstellung)",
+     "kind": "photographer",
+     "excerpt": "His photographs often contain ambiguities concerning either the size of the scene photographed and/or its orientation, forcing the viewer to pause and think, and to become part of the creative process."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Barnbaums Bilder lassen oft offen, wie groß die Szene ist und wie sie ausgerichtet ist; das zwingt den Betrachter innezuhalten und mitzudenken [Q1].",
+   "checkable": [
+    "Kein Maßstabsträger im Bild: weder Mensch noch Pflanze noch Himmel [Q1]",
+    "Die geschichteten Kanten lesen sich wie eine Flamme oder Pflanze, nicht als Felsmaßstab [Q1]"
+   ],
+   "scope_note": "Allgemeine Aussage auf Barnbaums Website zu seinen Bildern ('often'); nur für Canyon-Blätter verwendet, in denen am Bild kein Maßstabsträger (Mensch, Pflanze, Stein bekannter Größe) zu finden ist."
+  },
+  {
+   "image_id": "i5ebcbb5184",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://barnbaum.com/about",
+     "title": "About – Bruce Barnbaum",
+     "author": "Bruce Barnbaum (Website, Selbstdarstellung)",
+     "kind": "photographer",
+     "excerpt": "His photographs often contain ambiguities concerning either the size of the scene photographed and/or its orientation, forcing the viewer to pause and think, and to become part of the creative process."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Barnbaums Bilder lassen oft offen, wie groß die Szene ist und wie sie ausgerichtet ist; das zwingt den Betrachter innezuhalten und mitzudenken [Q1].",
+   "checkable": [
+    "Kein Maßstabsträger im Bild: weder Mensch noch Pflanze noch Himmel [Q1]",
+    "Die geschwungenen Wände haben keine erkennbare Richtung zum Boden [Q1]"
+   ],
+   "scope_note": "Allgemeine Aussage auf Barnbaums Website zu seinen Bildern ('often'); nur für Canyon-Blätter verwendet, in denen am Bild kein Maßstabsträger (Mensch, Pflanze, Stein bekannter Größe) zu finden ist."
+  },
+  {
+   "image_id": "i642583e67a",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://barnbaum.com/about",
+     "title": "About – Bruce Barnbaum",
+     "author": "Bruce Barnbaum (Website, Selbstdarstellung)",
+     "kind": "photographer",
+     "excerpt": "His photographs often contain ambiguities concerning either the size of the scene photographed and/or its orientation, forcing the viewer to pause and think, and to become part of the creative process."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Barnbaums Bilder lassen oft offen, wie groß die Szene ist und wie sie ausgerichtet ist; das zwingt den Betrachter innezuhalten und mitzudenken [Q1].",
+   "checkable": [
+    "Kein Maßstabsträger im Bild: weder Mensch noch Pflanze noch Himmel [Q1]",
+    "Die Sandsteinwellen wirken eher wie eine Nahaufnahme von Stoff als wie meterhohe Wände [Q1]"
+   ],
+   "scope_note": "Allgemeine Aussage auf Barnbaums Website zu seinen Bildern ('often'); nur für Canyon-Blätter verwendet, in denen am Bild kein Maßstabsträger (Mensch, Pflanze, Stein bekannter Größe) zu finden ist."
+  },
+  {
+   "image_id": "i5643067051",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    662462
+   ],
+   "answer_md": "Die geschwungene Form der Felswand erzeugt Zonen von Licht und Dunkel [S662462].",
+   "checkable": [
+    "Helle, lichtgestreifte Felskanten neben fast schwarzen Hohlräumen [S662462]",
+    "Licht folgt den Kurven der Wand [S662462]"
+   ],
+   "scope_note": "Katalogbeschreibung der APSU Art Collection zu diesem Bild."
+  },
+  {
+   "image_id": "i9c726285b5",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://grist.org/article/all-that-we-have-left-behind/",
+     "title": "All that we have left behind – Grist",
+     "author": "Grist (Bericht über Lantings Vortrag)",
+     "kind": "magazine",
+     "excerpt": "Lanting took pains to photograph without blue sky in the background, because the sky was not blue until the cyanobacteria had generated a planet’s worth of oxygen."
+    }
+   ],
+   "library_source_ids": [
+    543210
+   ],
+   "answer_md": "Lanting achtete darauf, die Stromatolithen ohne blauen Himmel zu fotografieren – der Himmel wurde erst blau, als die Cyanobakterien genug Sauerstoff erzeugt hatten [Q1]. Jedes Bild soll ein Fenster in eine frühere Erdepoche sein [S543210].",
+   "checkable": [
+    "Kein blauer Himmel: rosa-roter Morgenhimmel mit Wolken [Q1]",
+    "Nichts Modernes im Bild, nur Wasser, Stromatolithen, Himmel [S543210]"
+   ],
+   "scope_note": "Bericht über das Projekt; Stromatolithen von Shark Bay ausdrücklich genannt."
+  },
+  {
+   "image_id": "i70bf23736c",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    129050,
+    234774
+   ],
+   "answer_md": "Kenna versteht seine Bilder als visuelles Haiku: Er will mit so wenigen Elementen wie möglich andeuten statt ausführlich zu beschreiben [S129050]. Die verschneiten Landschaften Hokkaidos vergleicht er mit Sumi-e-Tuschebildern auf weißem Grund – wenige Elemente deuten ein ganzes Universum an [S234774].",
+   "checkable": [
+    "Nur ein Schneezaun auf leerer weißer Fläche, kein Horizont, keine Landschaft drumherum [S234774]",
+    "Himmel und Schnee gehen ohne Grenze ineinander über [S129050]"
+   ],
+   "scope_note": "Allgemeine Aussagen Kennas zu seiner Arbeit bzw. zu Hokkaido (Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "i4ed4c77af4",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    129050,
+    234774
+   ],
+   "answer_md": "Kenna versteht seine Bilder als visuelles Haiku: Er will mit so wenigen Elementen wie möglich andeuten statt ausführlich zu beschreiben [S129050]. Die verschneiten Landschaften Hokkaidos vergleicht er mit Sumi-e-Tuschebildern auf weißem Grund – wenige Elemente deuten ein ganzes Universum an [S234774].",
+   "checkable": [
+    "Nur eine Spur aus Fußabdrücken im Schnee – das Tier selbst fehlt [S129050]",
+    "Keine Horizontlinie, keine Bäume, keine Kante [S234774]"
+   ],
+   "scope_note": "Allgemeine Aussagen Kennas zu seiner Arbeit bzw. zu Hokkaido (Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "ied71b4c51e",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    129050,
+    234774
+   ],
+   "answer_md": "Kenna versteht seine Bilder als visuelles Haiku: Er will mit so wenigen Elementen wie möglich andeuten statt ausführlich zu beschreiben [S129050]. Die verschneiten Landschaften Hokkaidos vergleicht er mit Sumi-e-Tuschebildern auf weißem Grund – wenige Elemente deuten ein ganzes Universum an [S234774].",
+   "checkable": [
+    "Zwei kahle Bäume vor leerer, hell verlaufender Fläche [S234774]",
+    "Kein Horizont, keine Umgebung, kein Hinweis auf den Ort [S129050]"
+   ],
+   "scope_note": "Allgemeine Aussagen Kennas zu seiner Arbeit bzw. zu Hokkaido (Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "i765a04f938",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    129050,
+    234774
+   ],
+   "answer_md": "Kenna versteht seine Bilder als visuelles Haiku: Er will mit so wenigen Elementen wie möglich andeuten statt ausführlich zu beschreiben [S129050]. Die verschneiten Landschaften Hokkaidos vergleicht er mit Sumi-e-Tuschebildern auf weißem Grund – wenige Elemente deuten ein ganzes Universum an [S234774].",
+   "checkable": [
+    "Nur ein Baum und Schneegitter auf weißem Schnee unter grauem Himmel [S234774]",
+    "Keine Siedlung, keine Straße, keine Menschen [S129050]"
+   ],
+   "scope_note": "Allgemeine Aussagen Kennas zu seiner Arbeit bzw. zu Hokkaido (Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "i3f26664767",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    129050,
+    234774
+   ],
+   "answer_md": "Kenna versteht seine Bilder als visuelles Haiku: Er will mit so wenigen Elementen wie möglich andeuten statt ausführlich zu beschreiben [S129050]. Die verschneiten Landschaften Hokkaidos vergleicht er mit Sumi-e-Tuschebildern auf weißem Grund – wenige Elemente deuten ein ganzes Universum an [S234774].",
+   "checkable": [
+    "Ein einzelner Baum auf schneebedecktem Feld, sonst nur Himmel [S234774]",
+    "Keine Häuser, Wege oder Menschen [S129050]"
+   ],
+   "scope_note": "Allgemeine Aussagen Kennas zu seiner Arbeit bzw. zu Hokkaido (Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "ie8e1600144",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    129050,
+    234774
+   ],
+   "answer_md": "Kenna versteht seine Bilder als visuelles Haiku: Er will mit so wenigen Elementen wie möglich andeuten statt ausführlich zu beschreiben [S129050]. Die verschneiten Landschaften Hokkaidos vergleicht er mit Sumi-e-Tuschebildern auf weißem Grund – wenige Elemente deuten ein ganzes Universum an [S234774].",
+   "checkable": [
+    "Nur das Torii auf seinem Sockel im Meer, Himmel und Wasser [S129050]",
+    "Keine Küste, kein Schrein, keine Besucher [S129050]"
+   ],
+   "scope_note": "Allgemeine Aussagen Kennas zu seiner Arbeit bzw. zu Hokkaido (Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "i70bf23736c",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    234774,
+    917495
+   ],
+   "answer_md": "Kenna vergleicht die verschneiten Landschaften mit Sumi-e-Tuschebildern auf weißer Leinwand [S234774]; das leere, von Grau zu Weiß verlaufende Schneefeld lädt den Betrachter ein, hineinzuwandern [S917495].",
+   "checkable": [
+    "Der Schnee liest sich als leere weiße Bildfläche, kaum als Raum [S234774]",
+    "Zarte Grauverläufe statt erkennbarer Tiefe [S917495]",
+    "Das dunkle Motiv steht wie eine Tuschezeichnung auf dem Weiß [S234774]"
+   ],
+   "scope_note": "Allgemeine Aussagen Kennas zu seiner Arbeit bzw. zu Hokkaido (Bibliotheksquellen); am Bild geprüft. S917495 stammt aus Kennas Text zu einem anderen Hokkaido-Bild (Mt. Kaibetsu), formuliert aber sein Prinzip."
+  },
+  {
+   "image_id": "i4ed4c77af4",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    234774,
+    917495
+   ],
+   "answer_md": "Kenna vergleicht die verschneiten Landschaften mit Sumi-e-Tuschebildern auf weißer Leinwand [S234774]; das leere, von Grau zu Weiß verlaufende Schneefeld lädt den Betrachter ein, hineinzuwandern [S917495].",
+   "checkable": [
+    "Der Schnee liest sich als leere weiße Bildfläche, kaum als Raum [S234774]",
+    "Zarte Grauverläufe statt erkennbarer Tiefe [S917495]",
+    "Das dunkle Motiv steht wie eine Tuschezeichnung auf dem Weiß [S234774]"
+   ],
+   "scope_note": "Allgemeine Aussagen Kennas zu seiner Arbeit bzw. zu Hokkaido (Bibliotheksquellen); am Bild geprüft. S917495 stammt aus Kennas Text zu einem anderen Hokkaido-Bild (Mt. Kaibetsu), formuliert aber sein Prinzip."
+  },
+  {
+   "image_id": "i2e6e530e19",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    163880,
+    740265
+   ],
+   "answer_md": "Kenna vereinfacht die Landschaft mit atmosphärischen Elementen und langen Belichtungen [S163880]; er nutzt Langzeitbelichtungen, um 'kumulierte Zeit' sichtbar zu machen, die das Auge nicht sieht [S740265].",
+   "checkable": [
+    "Wasser glatt und verwischt, keine einzelnen Wellen [S740265]",
+    "Eisscholle als weicher heller Streifen, Konturen leicht verwischt [S163880]"
+   ],
+   "scope_note": "Allgemeine Aussagen Kennas zu seiner Arbeit bzw. zu Hokkaido (Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "i98ea2c1f46",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    607669
+   ],
+   "answer_md": "Struth fotografierte seine strengen Straßenbilder stets aus derselben symmetrischen Perspektive mitten auf der Straße mit Blick zum Fluchtpunkt, früh am Morgen, damit die Szene menschenleer war [S607669].",
+   "checkable": [
+    "Kamera mittig auf dem Platz, Statue genau in der Bildachse [S607669]",
+    "Augenhöhe: Horizont etwa auf Höhe der Autodächer [S607669]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths 'Unbewusste Orte' (NYRB, Tate-Text zu Shinjuku); am Bild geprüft."
+  },
+  {
+   "image_id": "i98ea2c1f46",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    863794
+   ],
+   "answer_md": "Struth meidet starke Hell-Dunkel-Kontraste und bevorzugt das leicht bedeckte, gräuliche Licht des frühen Morgens; das unterstützt die neutrale Behandlung der Szene [S863794].",
+   "checkable": [
+    "Gleichmäßig grauer Himmel, kaum Schatten [S863794]",
+    "Fassaden ohne harte Kontraste [S863794]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths 'Unbewusste Orte' (NYRB, Tate-Text zu Shinjuku); am Bild geprüft."
+  },
+  {
+   "image_id": "i98ea2c1f46",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    607669
+   ],
+   "answer_md": "Struth fotografierte früh am Morgen, damit die Szene menschenleer ist [S607669].",
+   "checkable": [
+    "Keine Passanten auf dem Platz, nur geparkte Autos und eine Abdeckung um das Denkmal [S607669]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths 'Unbewusste Orte' (NYRB, Tate-Text zu Shinjuku); am Bild geprüft."
+  },
+  {
+   "image_id": "i57c4b1a1c7",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    607669
+   ],
+   "answer_md": "Struth fotografierte seine strengen Straßenbilder stets aus derselben symmetrischen Perspektive mitten auf der Straße mit Blick zum Fluchtpunkt, früh am Morgen, damit die Szene menschenleer war [S607669].",
+   "checkable": [
+    "Kamera in der Mitte der Gasse, Fluchtpunkt mittig [S607669]",
+    "Häuserfronten links und rechts laufen symmetrisch zusammen [S607669]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths 'Unbewusste Orte' (NYRB, Tate-Text zu Shinjuku); am Bild geprüft."
+  },
+  {
+   "image_id": "i57c4b1a1c7",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    863794
+   ],
+   "answer_md": "Struth meidet starke Hell-Dunkel-Kontraste und bevorzugt das leicht bedeckte, gräuliche Licht des frühen Morgens; das unterstützt die neutrale Behandlung der Szene [S863794].",
+   "checkable": [
+    "Diffuses, schattenarmes Licht, grauer Himmel [S863794]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths 'Unbewusste Orte' (NYRB, Tate-Text zu Shinjuku); am Bild geprüft."
+  },
+  {
+   "image_id": "i620e099611",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    607669
+   ],
+   "answer_md": "Struth fotografierte seine strengen Straßenbilder stets aus derselben symmetrischen Perspektive mitten auf der Straße mit Blick zum Fluchtpunkt, früh am Morgen, damit die Szene menschenleer war [S607669].",
+   "checkable": [
+    "Standpunkt in der Straßenmitte über den Gleisen, Fluchtpunkt genau in der Mitte [S607669]",
+    "Fassaden links und rechts als symmetrische Fluchten [S607669]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths 'Unbewusste Orte' (NYRB, Tate-Text zu Shinjuku); am Bild geprüft."
+  },
+  {
+   "image_id": "i620e099611",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    863794
+   ],
+   "answer_md": "Struth meidet starke Hell-Dunkel-Kontraste und bevorzugt das leicht bedeckte, gräuliche Licht des frühen Morgens; das unterstützt die neutrale Behandlung der Szene [S863794].",
+   "checkable": [
+    "Blasser, bedeckter Himmel, keine Schlagschatten [S863794]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths 'Unbewusste Orte' (NYRB, Tate-Text zu Shinjuku); am Bild geprüft."
+  },
+  {
+   "image_id": "i620e099611",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    607669
+   ],
+   "answer_md": "Struth fotografierte früh am Morgen, damit die Straße menschenleer ist [S607669].",
+   "checkable": [
+    "Keine Menschen, keine Autos, keine Straßenbahn auf der breiten Straße [S607669]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths 'Unbewusste Orte' (NYRB, Tate-Text zu Shinjuku); am Bild geprüft."
+  },
+  {
+   "image_id": "ib61ddae42c",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    863794
+   ],
+   "answer_md": "Struth meidet starke Hell-Dunkel-Kontraste und bevorzugt das leicht bedeckte, gräuliche Licht des frühen Morgens; das unterstützt die neutrale Behandlung der Szene [S863794].",
+   "checkable": [
+    "Weißgrauer Himmel, weiches Licht ohne harte Schatten [S863794]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths 'Unbewusste Orte' (NYRB, Tate-Text zu Shinjuku); am Bild geprüft."
+  },
+  {
+   "image_id": "ib61ddae42c",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    558003
+   ],
+   "answer_md": "Mit der Großformatkamera kann Struth alle Elemente gleich scharf stellen und Details mit größter Klarheit wiedergeben [S558003].",
+   "checkable": [
+    "Kopfsteinpflaster vorn und Fassaden hinten gleich scharf [S558003]",
+    "Antennen auf den Dächern noch klar erkennbar [S558003]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths 'Unbewusste Orte' (NYRB, Tate-Text zu Shinjuku); am Bild geprüft."
+  },
+  {
+   "image_id": "i2048325545",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    863794
+   ],
+   "answer_md": "Struth meidet starke Hell-Dunkel-Kontraste und bevorzugt das leicht bedeckte, gräuliche Licht des frühen Morgens; das unterstützt die neutrale Behandlung der Szene [S863794].",
+   "checkable": [
+    "Bedeckter, gleichmäßig heller Himmel, keine Schlagschatten [S863794]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths 'Unbewusste Orte' (NYRB, Tate-Text zu Shinjuku); am Bild geprüft."
+  },
+  {
+   "image_id": "i2048325545",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    558003
+   ],
+   "answer_md": "Mit der Großformatkamera kann Struth alle Elemente gleich scharf stellen und Details mit größter Klarheit wiedergeben [S558003].",
+   "checkable": [
+    "Autos vorn und Hochhausfassade hinten gleich scharf [S558003]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths 'Unbewusste Orte' (NYRB, Tate-Text zu Shinjuku); am Bild geprüft."
+  },
+  {
+   "image_id": "i2048325545",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    132025
+   ],
+   "answer_md": "Mit der Zeit öffnete Struth seine Arbeitsweise von der strengen, ordnenden Zentralperspektive hin zu einer Bildsprache, die sich vom ursprünglichen Schema absetzt und sich den vorgefundenen Räumen anpasst [S132025].",
+   "checkable": [
+    "Kein zentraler Fluchtpunkt: offener Platz statt Straßenflucht [S132025]",
+    "Gewicht verteilt: Hochhaus links der Mitte, Autos und Häuser zu beiden Seiten [S132025]"
+   ],
+   "scope_note": "Galerietext Max Hetzler zur Entwicklung der Serie; Lima 2003 gehört zur späteren Phase."
+  },
+  {
+   "image_id": "i700a669164",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://maxhetzler.com/exhibitions/thomas-struth-unbewusste-orte-unconscious-places-2023",
+     "title": "Thomas Struth – Unbewusste Orte / Unconscious Places – Galerie Max Hetzler",
+     "author": "Galerie Max Hetzler (Werkliste)",
+     "kind": "museum",
+     "excerpt": "Marunouchi (über die Dächer), Tokyo 1986"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Werktitel nennt den Blick 'über die Dächer' [Q1].",
+   "checkable": [
+    "Blick von oben auf Flachdächer im Vordergrund [Q1]",
+    "Dachaufbauten unten rechts liegen unter der Kamera [Q1]"
+   ],
+   "scope_note": "Werktitel laut Galerie; Höhe am Bild abgelesen."
+  },
+  {
+   "image_id": "i63e5d4991a",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "http://www.wynnbullockphotography.com/featured/2013-06/featured-1306-text.html",
+     "title": "Del Monte Forest – Kommentar von Barbara Bullock-Wilson (Featured Image, Juni 2013)",
+     "author": "Barbara Bullock-Wilson (Tochter des Fotografen, Nachlass)",
+     "kind": "photographer",
+     "excerpt": "Over the years, Dad created several other images with fog and mist, including Del Monte Forest, 1956; Grandma and Lynne, 1956; Stark Tree, 1956; Night Scene, 1959; and Foggy Forest, 1969 ."
+    },
+    {
+     "url": "http://www.wynnbullockphotography.com/featured/2013-06/featured-1306-text.html",
+     "title": "Del Monte Forest – Kommentar von Barbara Bullock-Wilson (Featured Image, Juni 2013)",
+     "author": "Barbara Bullock-Wilson (Tochter des Fotografen, Nachlass)",
+     "kind": "photographer",
+     "excerpt": "It's often around to greet you first thing in the morning and again in late afternoon to bid you farewell. Sometimes, especially in summer, it settles in for the day, swirling through hillside and forest, over river and meadow, thickening and thinning at whim."
+    },
+    {
+     "url": "http://www.wynnbullockphotography.com/featured/2013-06/featured-1306-text.html",
+     "title": "Del Monte Forest – Kommentar von Barbara Bullock-Wilson (Featured Image, Juni 2013)",
+     "author": "Barbara Bullock-Wilson (Tochter des Fotografen, Nachlass)",
+     "kind": "photographer",
+     "excerpt": "Dad interrupted my reverie by saying, \"Space is not emptiness, even when it appears empty. Space is fullness and this picture helps us see and know that.\""
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Del Monte Forest, 1956 gehört zu Bullocks Bildern mit Nebel und Dunst [Q1]; auf der Monterey-Halbinsel zieht der Nebel morgens und nachmittags durch Hügel und Wald [Q2]. Zu einem früheren Nebelwald-Bild sagte Bullock: Raum ist keine Leere, sondern Fülle [Q3].",
+   "checkable": [
+    "Nebel füllt den Wald zwischen den Stämmen [Q1][Q2]",
+    "Hintere Stämme verblassen stufenweise zu Grau – Luftperspektive [Q1]",
+    "Der Nebelraum zwischen den Bäumen wirkt dicht statt leer [Q3]"
+   ],
+   "scope_note": "Kommentar der Tochter zu 'Del Monte Forest, 1969', nennt dieses Bild (1956) ausdrücklich unter den Nebelbildern; das Zitat zum Raum bezieht sich auf 'Del Monte Forest, 1951'."
+  },
+  {
+   "image_id": "ic4354c6d11",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "http://www.wynnbullockphotography.com/featured/2013-06/featured-1306-text.html",
+     "title": "Del Monte Forest – Kommentar von Barbara Bullock-Wilson (Featured Image, Juni 2013)",
+     "author": "Barbara Bullock-Wilson (Tochter des Fotografen, Nachlass)",
+     "kind": "photographer",
+     "excerpt": "Over the years, Dad created several other images with fog and mist, including Del Monte Forest, 1956; Grandma and Lynne, 1956; Stark Tree, 1956; Night Scene, 1959; and Foggy Forest, 1969 ."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Night Scene, 1959 zählt zu den Bildern, die Bullock mit Nebel und Dunst machte [Q1].",
+   "checkable": [
+    "Dunst/Nebel zwischen den kahlen Bäumen, vom Licht aufgehellt [Q1]",
+    "Lichtquelle oben als heller, diffuser Fleck im Dunst [Q1]"
+   ],
+   "scope_note": "Kommentar der Tochter nennt dieses Bild ausdrücklich unter den Nebelbildern."
+  },
+  {
+   "image_id": "i87886defd8",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    775749
+   ],
+   "answer_md": "Giacomelli fotografierte die Felder von erhöhten Standorten – von Hügeln aus oder aus dem Kleinflugzeug eines Freundes; das staucht die Distanz und verzerrt den Maßstab [S775749].",
+   "checkable": [
+    "Blick von oben auf den Hang, Horizont fehlt bzw. ist an den oberen Rand gedrängt [S775749]",
+    "Bäume erscheinen als kleine Flecken auf der Fläche [S775749]"
+   ],
+   "scope_note": "Galerietext (Danziger) zur Serie 'Paesaggio' (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "ieb29037499",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    775749
+   ],
+   "answer_md": "Giacomelli fotografierte die Felder von erhöhten Standorten – von Hügeln aus oder aus dem Kleinflugzeug eines Freundes; das staucht die Distanz und verzerrt den Maßstab [S775749].",
+   "checkable": [
+    "Erhöhter Blick über die Hangfelder, Horizont ganz oben [S775749]",
+    "Heuhaufen als Punktreihen – Größe kaum abschätzbar [S775749]"
+   ],
+   "scope_note": "Galerietext (Danziger) zur Serie 'Paesaggio' (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i9e9a8168b6",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    775749
+   ],
+   "answer_md": "Giacomelli fotografierte die Felder von erhöhten Standorten – von Hügeln aus oder aus dem Kleinflugzeug eines Freundes; das staucht die Distanz und verzerrt den Maßstab [S775749].",
+   "checkable": [
+    "Hänge von oben gesehen, kein Himmel [S775749]",
+    "Felder kippen ins Bild, Tiefe kaum lesbar [S775749]"
+   ],
+   "scope_note": "Galerietext (Danziger) zur Serie 'Paesaggio' (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "ic04de30dae",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    775749
+   ],
+   "answer_md": "Giacomelli fotografierte die Felder von erhöhten Standorten – von Hügeln aus oder aus dem Kleinflugzeug eines Freundes; das staucht die Distanz und verzerrt den Maßstab [S775749].",
+   "checkable": [
+    "Blick von oben auf das Feld, Haus oben klein [S775749]",
+    "Kein Himmel, Feld füllt das Hochformat [S775749]"
+   ],
+   "scope_note": "Galerietext (Danziger) zur Serie 'Paesaggio' (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i51555d5491",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    775749
+   ],
+   "answer_md": "Giacomelli fotografierte die Felder von erhöhten Standorten – von Hügeln aus oder aus dem Kleinflugzeug eines Freundes; das staucht die Distanz und verzerrt den Maßstab [S775749].",
+   "checkable": [
+    "Erhöhter Standort über dem Hang, Büsche vorn unten schauen ins Bild [S775749]",
+    "Hang füllt fast das ganze Bild [S775749]"
+   ],
+   "scope_note": "Galerietext (Danziger) zur Serie 'Paesaggio' (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "ifd1fcc0afb",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    775749
+   ],
+   "answer_md": "Giacomelli fotografierte die Felder von erhöhten Standorten – von Hügeln aus oder aus dem Kleinflugzeug eines Freundes; das staucht die Distanz und verzerrt den Maßstab [S775749].",
+   "checkable": [
+    "Blick über einen Hang, Horizont hoch im Bild [S775749]",
+    "Furchenreihen gestaucht, wirken flach [S775749]"
+   ],
+   "scope_note": "Galerietext (Danziger) zur Serie 'Paesaggio' (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "if01782938a",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    775749
+   ],
+   "answer_md": "Giacomelli fotografierte die Felder von erhöhten Standorten – von Hügeln aus oder aus dem Kleinflugzeug eines Freundes; das staucht die Distanz und verzerrt den Maßstab [S775749].",
+   "checkable": [
+    "Steile Aufsicht auf Felder, kein Himmel [S775749]",
+    "Bäume als kleine dunkle Kleckse [S775749]"
+   ],
+   "scope_note": "Galerietext (Danziger) zur Serie 'Paesaggio' (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i4c6ec722c2",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    775749
+   ],
+   "answer_md": "Giacomelli fotografierte die Felder von erhöhten Standorten – von Hügeln aus oder aus dem Kleinflugzeug eines Freundes; das staucht die Distanz und verzerrt den Maßstab [S775749].",
+   "checkable": [
+    "Felder von oben, Horizont fehlt [S775749]",
+    "Heuhaufen winzig, Maßstab unbestimmt [S775749]"
+   ],
+   "scope_note": "Galerietext (Danziger) zur Serie 'Paesaggio' (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i87886defd8",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    879483
+   ],
+   "answer_md": "Die harten Schwarzweißkontraste, in der Dunkelkammer gesteigert, lassen die Landschaft wie geätzt wirken und betonen Linie und Textur; das Gelände wird fast kalligrafisch abstrakt [S879483].",
+   "checkable": [
+    "Das Bild liest sich eher als grafische Fläche denn als Raum [S879483]",
+    "Hang als fast weiße Fläche gegen tiefschwarze Umgebung [S879483]"
+   ],
+   "scope_note": "Galerietext (Danziger) zur Serie 'Paesaggio' (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i9e9a8168b6",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    879483
+   ],
+   "answer_md": "Die harten Schwarzweißkontraste, in der Dunkelkammer gesteigert, lassen die Landschaft wie geätzt wirken und betonen Linie und Textur; das Gelände wird fast kalligrafisch abstrakt [S879483].",
+   "checkable": [
+    "Das Bild liest sich eher als grafische Fläche denn als Raum [S879483]",
+    "Weiße Linien der Bearbeitungsspuren auf schwarzem Grund wie Kalligrafie [S879483]"
+   ],
+   "scope_note": "Galerietext (Danziger) zur Serie 'Paesaggio' (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "ic04de30dae",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    879483
+   ],
+   "answer_md": "Die harten Schwarzweißkontraste, in der Dunkelkammer gesteigert, lassen die Landschaft wie geätzt wirken und betonen Linie und Textur; das Gelände wird fast kalligrafisch abstrakt [S879483].",
+   "checkable": [
+    "Das Bild liest sich eher als grafische Fläche denn als Raum [S879483]",
+    "Helle, geschwungene Streifen wie mit Pinsel gezogen [S879483]"
+   ],
+   "scope_note": "Galerietext (Danziger) zur Serie 'Paesaggio' (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "ifd1fcc0afb",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    879483
+   ],
+   "answer_md": "Die harten Schwarzweißkontraste, in der Dunkelkammer gesteigert, lassen die Landschaft wie geätzt wirken und betonen Linie und Textur; das Gelände wird fast kalligrafisch abstrakt [S879483].",
+   "checkable": [
+    "Das Bild liest sich eher als grafische Fläche denn als Raum [S879483]",
+    "Schwarze Furchenreihen als grafisches Muster auf weißem Grund [S879483]"
+   ],
+   "scope_note": "Galerietext (Danziger) zur Serie 'Paesaggio' (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i22b1d231fd",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana verdichtet den Raum mit dem Zoomobjektiv und erzeugt so eine zweidimensional wirkende Perspektive [S147496].",
+   "checkable": [
+    "Zwei Flächen – Blau oben, Gelb unten – getrennt durch einen schmalen dunklen Streifen [S147496]",
+    "Kaum Tiefenhinweise: das Feld wirkt wie eine stehende Farbfläche [S147496]"
+   ],
+   "scope_note": "Essay der National Gallery of Victoria zu Fontanas Strategien (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i9b07a5afe5",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana verdichtet den Raum mit dem Zoomobjektiv und erzeugt so eine zweidimensional wirkende Perspektive [S147496].",
+   "checkable": [
+    "Meer, Brandung, Strand und Schatten als übereinanderliegende Bänder [S147496]",
+    "Keine Fluchtlinien, der Raum ist zu Streifen gestaucht [S147496]"
+   ],
+   "scope_note": "Essay der National Gallery of Victoria zu Fontanas Strategien (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "id2c4993b12",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana verdichtet den Raum mit dem Zoomobjektiv und erzeugt so eine zweidimensional wirkende Perspektive [S147496].",
+   "checkable": [
+    "Hügel als sich überlagernde, flache Farbbänder [S147496]",
+    "Der Baum ist klein und schafft kaum Tiefe [S147496]"
+   ],
+   "scope_note": "Essay der National Gallery of Victoria zu Fontanas Strategien (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i716150e5b8",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana verdichtet den Raum mit dem Zoomobjektiv und erzeugt so eine zweidimensional wirkende Perspektive [S147496].",
+   "checkable": [
+    "Himmel, Wasser, gelber Streifen und dunkles Ufer als waagerechte Bänder [S147496]"
+   ],
+   "scope_note": "Essay der National Gallery of Victoria zu Fontanas Strategien (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i1a31ccaacd",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana verdichtet den Raum mit dem Zoomobjektiv und erzeugt so eine zweidimensional wirkende Perspektive [S147496].",
+   "checkable": [
+    "Hügelkanten schneiden das Bild in schräge Farbflächen [S147496]",
+    "Kein Vordergrund, keine Größenstaffelung [S147496]"
+   ],
+   "scope_note": "Essay der National Gallery of Victoria zu Fontanas Strategien (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i75c55fc725",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana verdichtet den Raum mit dem Zoomobjektiv und erzeugt so eine zweidimensional wirkende Perspektive [S147496].",
+   "checkable": [
+    "Waagerechte Farbbänder von Grasland, Feldern und Himmel [S147496]",
+    "Raum zwischen den Streifen kaum ablesbar [S147496]"
+   ],
+   "scope_note": "Essay der National Gallery of Victoria zu Fontanas Strategien (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i8c728da0ac",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana verdichtet den Raum mit dem Zoomobjektiv und erzeugt so eine zweidimensional wirkende Perspektive [S147496].",
+   "checkable": [
+    "Grüne und gelbe Flächen wie ausgeschnitten übereinandergelegt [S147496]"
+   ],
+   "scope_note": "Essay der National Gallery of Victoria zu Fontanas Strategien (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i22b1d231fd",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana belichtet knapp (unter), um die Farbsättigung zu steigern [S147496].",
+   "checkable": [
+    "Tiefes, gesättigtes Blau über leuchtendem Gelb [S147496]"
+   ],
+   "scope_note": "Essay der National Gallery of Victoria zu Fontanas Strategien (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i9b07a5afe5",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana belichtet knapp (unter), um die Farbsättigung zu steigern [S147496].",
+   "checkable": [
+    "Dunkles, gesättigtes Blaugrün des Meeres, fast schwarze Schatten [S147496]"
+   ],
+   "scope_note": "Essay der National Gallery of Victoria zu Fontanas Strategien (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "id2c4993b12",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana belichtet knapp (unter), um die Farbsättigung zu steigern [S147496].",
+   "checkable": [
+    "Satte Grün- und Gelbtöne, dunkle Schattenfelder [S147496]"
+   ],
+   "scope_note": "Essay der National Gallery of Victoria zu Fontanas Strategien (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i716150e5b8",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    147496
+   ],
+   "answer_md": "Fontana belichtet knapp (unter), um die Farbsättigung zu steigern [S147496].",
+   "checkable": [
+    "Gesättigtes Blau, Grün und Gelb, dunkles Vorderband [S147496]"
+   ],
+   "scope_note": "Essay der National Gallery of Victoria zu Fontanas Strategien (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i40facb438a",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    438067
+   ],
+   "answer_md": "Die Gleichförmigkeit von Farbe und Stimmung ihrer Bilder kommt vom Licht: Sambunaris wartet unter Umständen zwei Wochen, bis das Wetter das neutrale, diffuse Licht liefert, das sie bevorzugt [S438067].",
+   "checkable": [
+    "Bedeckter, gleichmäßig weißgrauer Himmel [S438067]",
+    "Container ohne harte Schlagschatten [S438067]"
+   ],
+   "scope_note": "Ausstellungstexte des Museum of Contemporary Photography (Bibliotheksquellen, allgemein zur Arbeitsweise); am Bild geprüft."
+  },
+  {
+   "image_id": "if13cfd8a16",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    438067
+   ],
+   "answer_md": "Die Gleichförmigkeit von Farbe und Stimmung ihrer Bilder kommt vom Licht: Sambunaris wartet unter Umständen zwei Wochen, bis das Wetter das neutrale, diffuse Licht liefert, das sie bevorzugt [S438067].",
+   "checkable": [
+    "Bedeckter Himmel, Krater in weichem, schattenarmem Licht [S438067]"
+   ],
+   "scope_note": "Ausstellungstexte des Museum of Contemporary Photography (Bibliotheksquellen, allgemein zur Arbeitsweise); am Bild geprüft."
+  },
+  {
+   "image_id": "i0f15c67b8a",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    438067
+   ],
+   "answer_md": "Die Gleichförmigkeit von Farbe und Stimmung ihrer Bilder kommt vom Licht: Sambunaris wartet unter Umständen zwei Wochen, bis das Wetter das neutrale, diffuse Licht liefert, das sie bevorzugt [S438067].",
+   "checkable": [
+    "Diffuses, dunstiges Licht über Ort und Ebene, keine harten Schatten [S438067]"
+   ],
+   "scope_note": "Ausstellungstexte des Museum of Contemporary Photography (Bibliotheksquellen, allgemein zur Arbeitsweise); am Bild geprüft."
+  },
+  {
+   "image_id": "ie73972f0b7",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    438067
+   ],
+   "answer_md": "Die Gleichförmigkeit von Farbe und Stimmung ihrer Bilder kommt vom Licht: Sambunaris wartet unter Umständen zwei Wochen, bis das Wetter das neutrale, diffuse Licht liefert, das sie bevorzugt [S438067].",
+   "checkable": [
+    "Heller, diffuser Himmel über der Schlucht, Felswände ohne harte Kontraste [S438067]"
+   ],
+   "scope_note": "Ausstellungstexte des Museum of Contemporary Photography (Bibliotheksquellen, allgemein zur Arbeitsweise); am Bild geprüft."
+  },
+  {
+   "image_id": "i197a090149",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    438067
+   ],
+   "answer_md": "Die Gleichförmigkeit von Farbe und Stimmung ihrer Bilder kommt vom Licht: Sambunaris wartet unter Umständen zwei Wochen, bis das Wetter das neutrale, diffuse Licht liefert, das sie bevorzugt [S438067].",
+   "checkable": [
+    "Bewölkter Himmel, Grasland gleichmäßig beleuchtet [S438067]"
+   ],
+   "scope_note": "Ausstellungstexte des Museum of Contemporary Photography (Bibliotheksquellen, allgemein zur Arbeitsweise); am Bild geprüft."
+  },
+  {
+   "image_id": "i96ca0566ff",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    438067
+   ],
+   "answer_md": "Die Gleichförmigkeit von Farbe und Stimmung ihrer Bilder kommt vom Licht: Sambunaris wartet unter Umständen zwei Wochen, bis das Wetter das neutrale, diffuse Licht liefert, das sie bevorzugt [S438067].",
+   "checkable": [
+    "Weißer, bedeckter Himmel, kaum Schatten unter den Waggons [S438067]"
+   ],
+   "scope_note": "Ausstellungstexte des Museum of Contemporary Photography (Bibliotheksquellen, allgemein zur Arbeitsweise); am Bild geprüft."
+  },
+  {
+   "image_id": "if13cfd8a16",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    603160
+   ],
+   "answer_md": "Seit etwa 2003 ist Sambunaris weiter zurückgetreten: Spuren des Menschen sind oft zu sehen, aber das Land selbst beherrscht den größten Teil des Bildes [S603160].",
+   "checkable": [
+    "Großer Abstand: menschliche Spuren klein, Land dominiert [S603160]",
+    "Kratergelände füllt fast das ganze Bild, kein Mensch zu sehen [S603160]"
+   ],
+   "scope_note": "Ausstellungstexte des Museum of Contemporary Photography (Bibliotheksquellen, allgemein zur Arbeitsweise); am Bild geprüft."
+  },
+  {
+   "image_id": "i0f15c67b8a",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    603160
+   ],
+   "answer_md": "Seit etwa 2003 ist Sambunaris weiter zurückgetreten: Spuren des Menschen sind oft zu sehen, aber das Land selbst beherrscht den größten Teil des Bildes [S603160].",
+   "checkable": [
+    "Großer Abstand: menschliche Spuren klein, Land dominiert [S603160]",
+    "Siedlung klein im Mittelgrund, Ebene und Berge dominieren [S603160]"
+   ],
+   "scope_note": "Ausstellungstexte des Museum of Contemporary Photography (Bibliotheksquellen, allgemein zur Arbeitsweise); am Bild geprüft."
+  },
+  {
+   "image_id": "i6cd9cd20be",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    603160
+   ],
+   "answer_md": "Seit etwa 2003 ist Sambunaris weiter zurückgetreten: Spuren des Menschen sind oft zu sehen, aber das Land selbst beherrscht den größten Teil des Bildes [S603160].",
+   "checkable": [
+    "Großer Abstand: menschliche Spuren klein, Land dominiert [S603160]",
+    "Grenzzaun als schmales Band in der Dünenlandschaft, Sand und Himmel dominieren [S603160]"
+   ],
+   "scope_note": "Ausstellungstexte des Museum of Contemporary Photography (Bibliotheksquellen, allgemein zur Arbeitsweise); am Bild geprüft."
+  },
+  {
+   "image_id": "i197a090149",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    603160
+   ],
+   "answer_md": "Seit etwa 2003 ist Sambunaris weiter zurückgetreten: Spuren des Menschen sind oft zu sehen, aber das Land selbst beherrscht den größten Teil des Bildes [S603160].",
+   "checkable": [
+    "Großer Abstand: menschliche Spuren klein, Land dominiert [S603160]",
+    "Grenzzaun nur als dünne Linie am Horizont, Grasland füllt die untere Bildhälfte [S603160]"
+   ],
+   "scope_note": "Ausstellungstexte des Museum of Contemporary Photography (Bibliotheksquellen, allgemein zur Arbeitsweise); am Bild geprüft."
+  },
+  {
+   "image_id": "ie73972f0b7",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    407757,
+    369007
+   ],
+   "answer_md": "Ihre Grenzbilder verweisen auf das politische Drama nur indirekt – etwa im Bild des Rio Grande im Big-Bend-Nationalpark, wo tiefe Canyonwände die USA und Mexiko physisch trennen [S407757]. Sambunaris versucht, nicht direkt politisch zu sein [S369007].",
+   "checkable": [
+    "Keine Grenzanlage, keine Menschen – nur Fluss und die zwei Canyonwände [S407757]",
+    "Die beiden Felswände links und rechts als stille Metapher der Grenze [S407757]"
+   ],
+   "scope_note": "MoCP-Text nennt ausdrücklich ihr Rio-Grande-Bild aus dem Big-Bend-Nationalpark (Santa Elena Canyon liegt dort)."
+  },
+  {
+   "image_id": "i40facb438a",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    106420
+   ],
+   "answer_md": "Sambunaris: Die Anomalien einer gewöhnlichen Landschaft – riesige Lagerhaltung, endlose Verteilzentren, systematisierte Containerterminals – sind der Kern ihrer Arbeit [S106420].",
+   "checkable": [
+    "Gestapelte rote Container als Turm und lange Reihen [S106420]",
+    "Leere Schotterfläche im Vordergrund, kein Mensch [S106420]"
+   ],
+   "scope_note": "Ausstellungstexte des Museum of Contemporary Photography (Bibliotheksquellen, allgemein zur Arbeitsweise); am Bild geprüft."
+  },
+  {
+   "image_id": "i96ca0566ff",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    168913
+   ],
+   "answer_md": "Sambunaris arbeitet mit frontaler Rahmung, präziser Schärfe und gleichmäßigem Licht – auch bei Zügen in Texas [S168913].",
+   "checkable": [
+    "Waggons vorn und Zugenden am Horizont gleich scharf [S168913]",
+    "Fahrspuren im Boden vorn detailreich [S168913]"
+   ],
+   "scope_note": "Ausstellungstexte des Museum of Contemporary Photography (Bibliotheksquellen, allgemein zur Arbeitsweise); am Bild geprüft."
+  },
+  {
+   "image_id": "i09e5c03a10",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    707578
+   ],
+   "answer_md": "Wolf fotografierte die Gebäude zuerst ganz, mit Himmel und Boden; erst als er so beschnitt, dass nur Gebäude ohne Himmel und Horizont blieben, entstand für ihn mehr als ein Architekturbild [S707578].",
+   "checkable": [
+    "Fassaden laufen an allen vier Bildkanten aus dem Bild [S707578]",
+    "Kein Himmel am oberen, kein Boden am unteren Rand [S707578]"
+   ],
+   "scope_note": "Interview mit Wolf zur Serie (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i75c8072674",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    147322
+   ],
+   "answer_md": "Beim Fliegen sucht Strand durch Bewegen der Kamera die Balance im Ausschnitt, achtet besonders auf die Ecken des Rahmens und löst aus, wenn sie im Einklang sind; Horizonte vermeidet er in Luftbildern meist, das macht sie abstrakter [S147322].",
+   "checkable": [
+    "Kein Horizont, Eis- und Aschestrukturen laufen an allen Kanten hinaus [S147322]",
+    "Die schrägen Rippen setzen in der unteren rechten Ecke an [S147322]"
+   ],
+   "scope_note": "Strands Text zu seiner Luftbild-Arbeitsweise (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i30716a18fd",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    147322
+   ],
+   "answer_md": "Beim Fliegen sucht Strand durch Bewegen der Kamera die Balance im Ausschnitt, achtet besonders auf die Ecken des Rahmens und löst aus, wenn sie im Einklang sind; Horizonte vermeidet er in Luftbildern meist, das macht sie abstrakter [S147322].",
+   "checkable": [
+    "Kein Himmel am oberen Rand, nur weitere Bergkämme [S147322]",
+    "Der Fluss tritt unten links ins Bild ein [S147322]"
+   ],
+   "scope_note": "Strands Text zu seiner Luftbild-Arbeitsweise (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i0159f7662e",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    147322
+   ],
+   "answer_md": "Beim Fliegen sucht Strand durch Bewegen der Kamera die Balance im Ausschnitt, achtet besonders auf die Ecken des Rahmens und löst aus, wenn sie im Einklang sind; Horizonte vermeidet er in Luftbildern meist, das macht sie abstrakter [S147322].",
+   "checkable": [
+    "Kein Horizont; Hügel füllen das Bild bis an alle Ränder [S147322]"
+   ],
+   "scope_note": "Strands Text zu seiner Luftbild-Arbeitsweise (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i35b0e5d9bc",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    379400
+   ],
+   "answer_md": "Maisels Perspektive verschiebt sich ständig; der Horizont liegt irgendwo jenseits des Bildrahmens, und der Betrachter verliert die Orientierung [S379400].",
+   "checkable": [
+    "Kein Horizont, kein Himmel an keiner Kante [S379400]",
+    "Die rote Fläche läuft oben und unten aus dem Bild [S379400]"
+   ],
+   "scope_note": "Essay von Diana Gaston zur Lake Project-Serie (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i9cfcda5fd0",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    379400
+   ],
+   "answer_md": "Maisels Perspektive verschiebt sich ständig; der Horizont liegt irgendwo jenseits des Bildrahmens, und der Betrachter verliert die Orientierung [S379400].",
+   "checkable": [
+    "Kein Horizont; die rote Rinne verlässt das Bild oben und unten [S379400]"
+   ],
+   "scope_note": "Essay von Diana Gaston zur Lake Project-Serie (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i4594a8c6ad",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    764243
+   ],
+   "answer_md": "Bei Tag belichtete Meyerowitz die Cape-Light-Bilder eine halbe Sekunde bei Blende f/90 – so eng, dass alles vom Vordergrund bis zum Horizont scharf ist; am Ende des Tages dauerte die Belichtung vier bis zehn Minuten [S764243].",
+   "checkable": [
+    "Schild, Uhr und Holzschindeln gleich scharf [S764243]",
+    "Auch das Innere hinter der offenen Tür ist scharf [S764243]"
+   ],
+   "scope_note": "Blind-Magazine zum Buch 'Cape Light' (Bibliotheksquelle, allgemein zur Technik der Serie); am Bild geprüft."
+  },
+  {
+   "image_id": "ida46fcb5c4",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    764243
+   ],
+   "answer_md": "Bei Tag belichtete Meyerowitz die Cape-Light-Bilder eine halbe Sekunde bei Blende f/90 – so eng, dass alles vom Vordergrund bis zum Horizont scharf ist; am Ende des Tages dauerte die Belichtung vier bis zehn Minuten [S764243].",
+   "checkable": [
+    "Geländer vorn und Sandbank/Horizont hinten gleich scharf [S764243]"
+   ],
+   "scope_note": "Blind-Magazine zum Buch 'Cape Light' (Bibliotheksquelle, allgemein zur Technik der Serie); am Bild geprüft."
+  },
+  {
+   "image_id": "i2916bc6d59",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    764243
+   ],
+   "answer_md": "Bei Tag belichtete Meyerowitz die Cape-Light-Bilder eine halbe Sekunde bei Blende f/90 – so eng, dass alles vom Vordergrund bis zum Horizont scharf ist; am Ende des Tages dauerte die Belichtung vier bis zehn Minuten [S764243].",
+   "checkable": [
+    "Pfirsiche vorn und Zeitungsschrift gleich scharf [S764243]",
+    "Holzbretter bis zum Bildrand scharf [S764243]"
+   ],
+   "scope_note": "Blind-Magazine zum Buch 'Cape Light' (Bibliotheksquelle, allgemein zur Technik der Serie); am Bild geprüft."
+  },
+  {
+   "image_id": "i33828f0aad",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    764243
+   ],
+   "answer_md": "Bei Tag belichtete Meyerowitz die Cape-Light-Bilder eine halbe Sekunde bei Blende f/90 – so eng, dass alles vom Vordergrund bis zum Horizont scharf ist; am Ende des Tages dauerte die Belichtung vier bis zehn Minuten [S764243].",
+   "checkable": [
+    "Abendstimmung: dunkelblauer Himmel, Innenlicht warm [S764243]",
+    "Blitz am Himmel bei sonst ruhigem Bild [S764243]"
+   ],
+   "scope_note": "Allgemeine Angabe zur Serie; die konkrete Belichtungszeit dieses Bildes ist nicht belegt – am Bild nur als Abendaufnahme erkennbar."
+  },
+  {
+   "image_id": "i8d34470368",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    764243
+   ],
+   "answer_md": "Bei Tag belichtete Meyerowitz die Cape-Light-Bilder eine halbe Sekunde bei Blende f/90 – so eng, dass alles vom Vordergrund bis zum Horizont scharf ist; am Ende des Tages dauerte die Belichtung vier bis zehn Minuten [S764243].",
+   "checkable": [
+    "Dämmerlicht über dem Meer [S764243]",
+    "Wasser fast glatt, ohne einzelne Wellen [S764243]"
+   ],
+   "scope_note": "Allgemeine Angabe zur Serie; die konkrete Belichtungszeit dieses Bildes ist nicht belegt – am Bild nur als Abendaufnahme erkennbar."
+  },
+  {
+   "image_id": "i3d60a64c98",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.awoiska.nl/var/upload/essay_eng_maartje_vdheuvel.pdf",
+     "title": "Blank – Essay zu Awoiska van der Molen",
+     "author": "Maartje van den Heuvel (Kuratorin)",
+     "kind": "curator",
+     "excerpt": "The precise location of the landscape photographed remains unspecified and it is never clear whether there is actually any ecological issue."
+    }
+   ],
+   "library_source_ids": [
+    348685,
+    429819
+   ],
+   "answer_md": "Der genaue Ort bleibt ungenannt, und ob es ein ökologisches Problem gibt, ist nie erkennbar [Q1]; van der Molen gibt keine Beschreibungen oder Titel bei, damit man die Bilder 'mit offenen Sinnen' erlebt [S348685]. Sie sucht Landschaften, in denen die Natur dominiert [S429819].",
+   "checkable": [
+    "Titel nur eine Nummer, keine Ortsangabe [S348685]",
+    "Nur Baum, Fels und dunstige Ferne – kein Weg, kein Gebäude [Q1][S429819]"
+   ],
+   "scope_note": "Kuratorinnen-Essay zu ihrer Landschaftsarbeit seit 2009; am Bild geprüft."
+  },
+  {
+   "image_id": "i21dac75b83",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.awoiska.nl/var/upload/essay_eng_maartje_vdheuvel.pdf",
+     "title": "Blank – Essay zu Awoiska van der Molen",
+     "author": "Maartje van den Heuvel (Kuratorin)",
+     "kind": "curator",
+     "excerpt": "The precise location of the landscape photographed remains unspecified and it is never clear whether there is actually any ecological issue."
+    }
+   ],
+   "library_source_ids": [
+    348685,
+    429819
+   ],
+   "answer_md": "Der genaue Ort bleibt ungenannt, und ob es ein ökologisches Problem gibt, ist nie erkennbar [Q1]; van der Molen gibt keine Beschreibungen oder Titel bei, damit man die Bilder 'mit offenen Sinnen' erlebt [S348685]. Sie sucht Landschaften, in denen die Natur dominiert [S429819].",
+   "checkable": [
+    "Titel nur eine Nummer, keine Ortsangabe [S348685]",
+    "Nur Felsformation und Himmel, kein Maßstab oder Ortshinweis durch Menschen [Q1][S429819]"
+   ],
+   "scope_note": "Kuratorinnen-Essay zu ihrer Landschaftsarbeit seit 2009; am Bild geprüft."
+  },
+  {
+   "image_id": "ib9aeaf00a1",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.awoiska.nl/var/upload/essay_eng_maartje_vdheuvel.pdf",
+     "title": "Blank – Essay zu Awoiska van der Molen",
+     "author": "Maartje van den Heuvel (Kuratorin)",
+     "kind": "curator",
+     "excerpt": "The precise location of the landscape photographed remains unspecified and it is never clear whether there is actually any ecological issue."
+    }
+   ],
+   "library_source_ids": [
+    348685,
+    429819
+   ],
+   "answer_md": "Der genaue Ort bleibt ungenannt, und ob es ein ökologisches Problem gibt, ist nie erkennbar [Q1]; van der Molen gibt keine Beschreibungen oder Titel bei, damit man die Bilder 'mit offenen Sinnen' erlebt [S348685]. Sie sucht Landschaften, in denen die Natur dominiert [S429819].",
+   "checkable": [
+    "Titel nur eine Nummer, keine Ortsangabe [S348685]",
+    "Bildfüllendes Gestrüpp ohne Horizont oder Ortsmerkmal [Q1]"
+   ],
+   "scope_note": "Kuratorinnen-Essay zu ihrer Landschaftsarbeit seit 2009; am Bild geprüft."
+  },
+  {
+   "image_id": "i13df9799ac",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.awoiska.nl/var/upload/essay_eng_maartje_vdheuvel.pdf",
+     "title": "Blank – Essay zu Awoiska van der Molen",
+     "author": "Maartje van den Heuvel (Kuratorin)",
+     "kind": "curator",
+     "excerpt": "The precise location of the landscape photographed remains unspecified and it is never clear whether there is actually any ecological issue."
+    }
+   ],
+   "library_source_ids": [
+    348685,
+    429819
+   ],
+   "answer_md": "Der genaue Ort bleibt ungenannt, und ob es ein ökologisches Problem gibt, ist nie erkennbar [Q1]; van der Molen gibt keine Beschreibungen oder Titel bei, damit man die Bilder 'mit offenen Sinnen' erlebt [S348685]. Sie sucht Landschaften, in denen die Natur dominiert [S429819].",
+   "checkable": [
+    "Titel nur eine Nummer, keine Ortsangabe [S348685]",
+    "Nur Gräser im Wasser, keine Ufer- oder Ortsangabe [Q1]"
+   ],
+   "scope_note": "Kuratorinnen-Essay zu ihrer Landschaftsarbeit seit 2009; am Bild geprüft."
+  },
+  {
+   "image_id": "id0cc14c448",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.awoiska.nl/var/upload/essay_eng_maartje_vdheuvel.pdf",
+     "title": "Blank – Essay zu Awoiska van der Molen",
+     "author": "Maartje van den Heuvel (Kuratorin)",
+     "kind": "curator",
+     "excerpt": "The precise location of the landscape photographed remains unspecified and it is never clear whether there is actually any ecological issue."
+    }
+   ],
+   "library_source_ids": [
+    348685,
+    429819
+   ],
+   "answer_md": "Der genaue Ort bleibt ungenannt, und ob es ein ökologisches Problem gibt, ist nie erkennbar [Q1]; van der Molen gibt keine Beschreibungen oder Titel bei, damit man die Bilder 'mit offenen Sinnen' erlebt [S348685]. Sie sucht Landschaften, in denen die Natur dominiert [S429819].",
+   "checkable": [
+    "Titel nur eine Nummer, keine Ortsangabe [S348685]",
+    "Nur eine dunkle Felswand, die das ganze Bild füllt [Q1][S429819]"
+   ],
+   "scope_note": "Kuratorinnen-Essay zu ihrer Landschaftsarbeit seit 2009; am Bild geprüft."
+  },
+  {
+   "image_id": "ib5cce28949",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    294391
+   ],
+   "answer_md": "Haas: In der Fotografie kann durch ein Wechselspiel der Maßstäbe ein ganzes Universum im Universum sichtbar werden; im Kleinsten spiegelt sich das Größte [S294391].",
+   "checkable": [
+    "Kein eindeutiger Maßstabsträger im Bild [S294391]",
+    "Eisblasen und Halme ohne Bezugsgröße – Zentimeter oder Meter? [S294391]"
+   ],
+   "scope_note": "Haas' eigener Text (ernst-haas.com, Writings by Haas), allgemein; am Bild geprüft."
+  },
+  {
+   "image_id": "i87d8c5aa41",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    294391
+   ],
+   "answer_md": "Haas: In der Fotografie kann durch ein Wechselspiel der Maßstäbe ein ganzes Universum im Universum sichtbar werden; im Kleinsten spiegelt sich das Größte [S294391].",
+   "checkable": [
+    "Kein eindeutiger Maßstabsträger im Bild [S294391]",
+    "Schneehügel ohne Maßstabsträger, wirken wie Körperformen [S294391]"
+   ],
+   "scope_note": "Haas' eigener Text (ernst-haas.com, Writings by Haas), allgemein; am Bild geprüft."
+  },
+  {
+   "image_id": "i257951dc01",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    294391
+   ],
+   "answer_md": "Haas: In der Fotografie kann durch ein Wechselspiel der Maßstäbe ein ganzes Universum im Universum sichtbar werden; im Kleinsten spiegelt sich das Größte [S294391].",
+   "checkable": [
+    "Kein eindeutiger Maßstabsträger im Bild [S294391]",
+    "Kahle Bäume vor Sinterterrassen – Größe der Terrassen unbestimmbar [S294391]"
+   ],
+   "scope_note": "Haas' eigener Text (ernst-haas.com, Writings by Haas), allgemein; am Bild geprüft."
+  },
+  {
+   "image_id": "i40ee198e2a",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    822648
+   ],
+   "answer_md": "Zhang Kechuns weite Aufnahmen stellen die große Landschaft ihren Bewohnern gegenüber, die im Vergleich winzig erscheinen [S822648].",
+   "checkable": [
+    "Arbeiter an Gerüst und Holzhaufen winzig gegenüber dem Brückenpfeiler-Gerüst [S822648]",
+    "Viel Raum um die Figuren, weiter Bildausschnitt [S822648]"
+   ],
+   "scope_note": "Artikel in The New Republic zur Serie 'The Yellow River' (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "id3a3ef2dc6",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    822648
+   ],
+   "answer_md": "Zhang Kechuns weite Aufnahmen stellen die große Landschaft ihren Bewohnern gegenüber, die im Vergleich winzig erscheinen [S822648].",
+   "checkable": [
+    "Die Gruppe beim Morgensport klein unter dem riesigen Drachengerüst [S822648]",
+    "Viel Raum um die Figuren, weiter Bildausschnitt [S822648]"
+   ],
+   "scope_note": "Artikel in The New Republic zur Serie 'The Yellow River' (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i58607b23b3",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    822648
+   ],
+   "answer_md": "Zhang Kechuns weite Aufnahmen stellen die große Landschaft ihren Bewohnern gegenüber, die im Vergleich winzig erscheinen [S822648].",
+   "checkable": [
+    "Arbeiter am umgestürzten Lastwagen als kleine Figuren in der weiten Fläche [S822648]",
+    "Viel Raum um die Figuren, weiter Bildausschnitt [S822648]"
+   ],
+   "scope_note": "Artikel in The New Republic zur Serie 'The Yellow River' (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i40ee198e2a",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    822648
+   ],
+   "answer_md": "Eine leichte Überbelichtung gibt den Bildern Weichheit und lässt die Landschaft fast unwirklich erscheinen [S822648].",
+   "checkable": [
+    "Himmel und Boden fast weiß, Dunst ohne Zeichnung [S822648]",
+    "Kein hartes Sonnenlicht, kaum Schatten [S822648]"
+   ],
+   "scope_note": "Artikel in The New Republic zur Serie 'The Yellow River' (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "id3a3ef2dc6",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    822648
+   ],
+   "answer_md": "Eine leichte Überbelichtung gibt den Bildern Weichheit und lässt die Landschaft fast unwirklich erscheinen [S822648].",
+   "checkable": [
+    "Blasse, milchige Farben, heller Himmel [S822648]",
+    "Kein hartes Sonnenlicht, kaum Schatten [S822648]"
+   ],
+   "scope_note": "Artikel in The New Republic zur Serie 'The Yellow River' (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i58607b23b3",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    822648
+   ],
+   "answer_md": "Eine leichte Überbelichtung gibt den Bildern Weichheit und lässt die Landschaft fast unwirklich erscheinen [S822648].",
+   "checkable": [
+    "Weißlicher Himmel, gedämpfte Farben der Lastwagen [S822648]",
+    "Kein hartes Sonnenlicht, kaum Schatten [S822648]"
+   ],
+   "scope_note": "Artikel in The New Republic zur Serie 'The Yellow River' (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i8fbeb4c2fe",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    822648
+   ],
+   "answer_md": "Eine leichte Überbelichtung gibt den Bildern Weichheit und lässt die Landschaft fast unwirklich erscheinen [S822648].",
+   "checkable": [
+    "Fast alles in hellem Beige; der Felsen verschwimmt im Dunst [S822648]",
+    "Kein hartes Sonnenlicht, kaum Schatten [S822648]"
+   ],
+   "scope_note": "Artikel in The New Republic zur Serie 'The Yellow River' (Bibliotheksquelle, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i6cb98ed7ff",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    831722
+   ],
+   "answer_md": "Cartier-Bresson plante oder arrangierte seine Bilder nicht; er löste aus, wenn ihm sein Instinkt sagte, dass die Szene vor ihm im vollkommenen Gleichgewicht war [S831722].",
+   "checkable": [
+    "Frauen mit Brotblechen auf dem Kopf und Kinder an der Kirchentür sind über Treppe und Platz verteilt, keine Figur verdeckt eine andere [S831722]",
+    "Frau vorn links mit Blech, Frau rechts dahinter – Gegengewicht im Bild [S831722]"
+   ],
+   "scope_note": "Allgemeiner Katalogtext (Phillips) zu Cartier-Bressons Praxis (Bibliotheksquelle); die Verteilung der Figuren am Bild geprüft."
+  },
+  {
+   "image_id": "i7a56510b22",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    831722
+   ],
+   "answer_md": "Cartier-Bresson plante oder arrangierte seine Bilder nicht; er löste aus, wenn ihm sein Instinkt sagte, dass die Szene vor ihm im vollkommenen Gleichgewicht war [S831722].",
+   "checkable": [
+    "Paare und Einzelgänger verteilt auf Kai und Rampen, jede Figur frei vor hellem Pflaster [S831722]"
+   ],
+   "scope_note": "Allgemeiner Katalogtext (Phillips) zu Cartier-Bressons Praxis (Bibliotheksquelle); die Verteilung der Figuren am Bild geprüft."
+  },
+  {
+   "image_id": "i10db930f5f",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    831722
+   ],
+   "answer_md": "Cartier-Bresson plante oder arrangierte seine Bilder nicht; er löste aus, wenn ihm sein Instinkt sagte, dass die Szene vor ihm im vollkommenen Gleichgewicht war [S831722].",
+   "checkable": [
+    "Drei Jungen gestaffelt auf der Gasse – vorn, Mitte, hinten – ohne Überschneidung [S831722]"
+   ],
+   "scope_note": "Allgemeiner Katalogtext (Phillips) zu Cartier-Bressons Praxis (Bibliotheksquelle); die Verteilung der Figuren am Bild geprüft."
+  },
+  {
+   "image_id": "i57c4b1a1c7",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    127164,
+    607669
+   ],
+   "answer_md": "Struth jagt nicht dem 'entscheidenden Augenblick' nach: Er steht früh auf, stellt sein Stativ auf und steht ganz still [S127164] – früh am Morgen, damit die Szene menschenleer ist [S607669].",
+   "checkable": [
+    "Kein Ereignis, keine Menschen in der Gasse [S607669]",
+    "Ruhiges, frühes Licht ohne Schlagschatten [S127164]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths Straßenbildern (NYRB, Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "ib61ddae42c",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    127164,
+    607669
+   ],
+   "answer_md": "Struth jagt nicht dem 'entscheidenden Augenblick' nach: Er steht früh auf, stellt sein Stativ auf und steht ganz still [S127164] – früh am Morgen, damit die Szene menschenleer ist [S607669].",
+   "checkable": [
+    "Keine Passanten auf der Straße, nur geparkte Autos [S607669]"
+   ],
+   "scope_note": "Allgemeine Aussagen zu Struths Straßenbildern (NYRB, Bibliotheksquellen); am Bild geprüft."
+  },
+  {
+   "image_id": "i0f15c67b8a",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    438067,
+    992469
+   ],
+   "answer_md": "Sambunaris wartet unter Umständen zwei Wochen, bis das Wetter das neutrale, diffuse Licht liefert, das sie bevorzugt [S438067]; ist sie so weit, belichtet sie meist nur zwei Planfilme pro Motiv [S992469].",
+   "checkable": [
+    "Gleichmäßig diffuses Licht ohne harte Schatten – das abgewartete Wetter [S438067]",
+    "Nichts Flüchtiges im Bild, das einen Sekundenmoment verlangt [S992469]"
+   ],
+   "scope_note": "MoCP-Ausstellungstext (Bibliotheksquellen, allgemein); am Bild geprüft."
+  },
+  {
+   "image_id": "i2489a34357",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    586988,
+    300847
+   ],
+   "answer_md": "Hunderte Arbeiterinnen in pastellfarbenen Uniformen sitzen an identischen Tischen und arbeiten an riesigen Fließbändern [S586988]; die repetitive Architektur erinnert an Gursky, ist aber nicht manipuliert [S300847].",
+   "checkable": [
+    "Reihen gleich gekleideter Figuren in Rosa, die sich bis in die Tiefe wiederholen [S586988]",
+    "Parallele Bänder und Deckenleuchten als Raster [S300847]"
+   ],
+   "scope_note": "Besprechung der China-Serie in foto8 (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i5d7e33c848",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    586988
+   ],
+   "answer_md": "An fast jedem der gleich großen Balkone eines Wohnblocks hängen pastellfarbene Hemden zum Trocknen [S586988].",
+   "checkable": [
+    "Raster aus gleich großen Fenstern und Balkonen an den Hochhausfassaden [S586988]",
+    "Wäsche als kleine Farbtupfer in diesem Raster [S586988]"
+   ],
+   "scope_note": "Besprechung der China-Serie in foto8 (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i616e0d03f9",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    836714
+   ],
+   "answer_md": "Burtynsky deutet bei Bao Steel die Größe der Produktion an und spielt in einer Bildfolge mit den formalen Elementen der vulkanartigen Landschaft gigantischer Kohlehalden [S836714].",
+   "checkable": [
+    "Spitze Kohlekegel als wiederkehrende Dreiecke, der größte in der Mitte [S836714]",
+    "Schornsteine im Hintergrund als senkrechte Gegenform [S836714]"
+   ],
+   "scope_note": "Besprechung der China-Serie in foto8 (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i08fbc8c03f",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    872990
+   ],
+   "answer_md": "Burtynsky zeigt die verfallenden Hüllen von Fabriken in Shenyang: leere Bauten, deren Öfen zerbröckeln oder langsam abgebaut werden [S872990].",
+   "checkable": [
+    "Zerfallene Ofenreste und Gussformen im Vordergrund [S872990]",
+    "Leere Halle ohne Arbeiter, Licht fällt durch das Dach [S872990]"
+   ],
+   "scope_note": "Besprechung der China-Serie in foto8 (Bibliotheksquelle); am Bild geprüft."
+  },
+  {
+   "image_id": "i8b9c14fb6b",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    178633,
+    973074
+   ],
+   "answer_md": "Die Schiffsrümpfe stehen in allen Bauphasen am Wasser; Burtynsky reiht Bilder der Buge und zoomt auf Rot, Blau und Rost des Metalls und die eingeschnittenen Schweißspuren [S178633]. Neben der Großanlage gibt es traditionelle Werkzeuge wie angelehnte Bambusleitern [S973074].",
+   "checkable": [
+    "Bug eines unfertigen Schiffs füllt das Bild, Spanten oben noch offen [S178633]",
+    "Rot, Blau und Rost auf den Stahlplatten [S178633]"
+   ],
+   "scope_note": "Besprechung der China-Serie in foto8 (Bibliotheksquelle); am Bild geprüft."
+  }
+ ]
+}
