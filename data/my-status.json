@@ -765,5 +765,9 @@
  "idea-cq2-bogen-raffles": {
   "fav": true,
   "prio": "hoch"
+ },
+ "cn-tank-shanghai-lego-bloom": {
+  "prio": "hoch",
+  "fav": true
  }
 }
