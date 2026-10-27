@@ -962,6 +962,62 @@
    "name": "Franklin County, Washington, Vereinigte Staaten von Amerika"
   },
   "Französische Küste": null,
-  "Französische Küste (Ort unbekannt)": null
+  "Französische Küste (Ort unbekannt)": null,
+  "French Quarter, New Orleans, USA": {
+   "lat": 29.9575,
+   "lon": -90.0629,
+   "query": "New Orleans, USA",
+   "level": 1,
+   "name": "New Orleans, Orleans Parish, Louisiana, Vereinigte Staaten von Amerika"
+  },
+  "Fuji, Japan": {
+   "lat": 35.3628,
+   "lon": 138.7308,
+   "query": "Fuji, Japan",
+   "level": 0,
+   "name": "Fuji, 小山町, 駿東郡, Präfektur Shizuoka, Japan"
+  },
+  "Fukien (Fujian), China": {
+   "lat": 24.4462,
+   "lon": 118.0667,
+   "query": "Fukien, Fujian, China",
+   "level": 0,
+   "name": "闽南圣教书局旧址, 晃岩路, 龙头社区, 鼓浪屿街道, Siming, Xiamen, Fujian, 361002, China"
+  },
+  "Furnace Creek, Death Valley, California, USA": {
+   "lat": 36.4587,
+   "lon": -116.8714,
+   "query": "Furnace Creek, Death Valley, California, USA",
+   "level": 0,
+   "name": "The Ranch at Death Valley, Date Grove Road, Furnace Creek, Inyo County, Kalifornien, 92328, Vereinigte Staaten von Ameri"
+  },
+  "Gallup, New Mexico, USA": {
+   "lat": 35.5284,
+   "lon": -108.7439,
+   "query": "Gallup, New Mexico, USA",
+   "level": 0,
+   "name": "Gallup, McKinley County, Neumexiko, 87301, Vereinigte Staaten von Amerika"
+  },
+  "Gansu, China": {
+   "lat": 38.0,
+   "lon": 102.0,
+   "query": "Gansu, China",
+   "level": 0,
+   "name": "Gansu, China"
+  },
+  "Gerberviertel Sidi Moussa, Fès, Marokko": {
+   "lat": 34.0347,
+   "lon": -5.0162,
+   "query": "Fès, Marokko",
+   "level": 1,
+   "name": "Fès, Pachalik du Fes باشوية فاس, Präfektur Fez, Fès-Meknès ⴼⴰⵙ-ⵎⴽⵏⴰⵙ فاس-مكناس, Marokko"
+  },
+  "Gillette, Wyoming, USA": {
+   "lat": 44.2906,
+   "lon": -105.5019,
+   "query": "Gillette, Wyoming, USA",
+   "level": 0,
+   "name": "Gillette, Campbell County, Wyoming, 82718, Vereinigte Staaten von Amerika"
+  }
  }
 }
