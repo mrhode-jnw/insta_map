@@ -1,0 +1,3113 @@
+{
+ "accessed_at": "2026-10-27",
+ "references": [
+  {
+   "image_id": "i4a24932fe0",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    575050,
+    310263
+   ],
+   "answer_md": "Almond belichtet die Fullmoon-Bilder bei Vollmond 15 Minuten und länger [S575050]; bei über einer Viertelstunde offenem Verschluss legt sich Wasser wie ein nebliger Schaum über das Land [S310263].",
+   "checkable": [
+    "Der Wasserfall erscheint als weiche, weiße Schleier ohne einzelne Strahlen oder Tropfen [S310263]",
+    "Herbstlaub trotz Nacht in Farbe gezeichnet – Belichtung über 15 Minuten [S575050]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i3872a551c9",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    310263
+   ],
+   "answer_md": "Bei über einer Viertelstunde Belichtung im Mondlicht wird die Landschaft fast wie bei Tagesanbruch erhellt, doch die Stimmung ist eine andere: ein mildes Leuchten kommt selbst aus den Schatten, Wasser bedeckt die Erde wie ein nebliger Schaum [S310263].",
+   "checkable": [
+    "Die Wasserfläche zwischen den Felsen ist milchig-neblig, ohne Wellenstruktur [S310263]",
+    "Hell wie in der Dämmerung, obwohl nur der Mond leuchtet [S310263]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "if36d79154d",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    575050,
+    310263
+   ],
+   "answer_md": "Die Fullmoon-Bilder entstehen bei Vollmond mit 15 Minuten Belichtung oder mehr [S575050]; Wasser wird dabei zu einem nebligen Schaum [S310263].",
+   "checkable": [
+    "Meer und Brandung als glatte, verwischte Bänder, keine einzelne Welle erkennbar [S310263]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i8d7db5b40e",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    207800,
+    575050
+   ],
+   "answer_md": "Einzige Lichtquelle ist der Mond, die Belichtungszeiten richten sich nach den wechselnden atmosphärischen Bedingungen [S207800]; bei 15 Minuten und mehr wirkt es, als sei die Nacht zum Tag geworden [S575050].",
+   "checkable": [
+    "Insel, Fels und Kiefern hell gezeichnet wie in der Dämmerung, obwohl Nacht [S575050]",
+    "Wasser um die Insel milchig-weich verwischt [S207800]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "id65759f233",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    207800,
+    310263
+   ],
+   "answer_md": "Almond fotografiert ausschließlich im Mondlicht [S207800]; die Langzeitbelichtung erhellt die Landschaft fast wie bei Tagesanbruch, ein mildes Leuchten kommt selbst aus den Schatten [S310263].",
+   "checkable": [
+    "Pflanzen und Moos mit Farbe und Zeichnung fast wie bei Tageslicht [S310263]",
+    "Auch die Schattenpartien zwischen den Stämmen haben noch Zeichnung [S310263]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i8619a21816",
+   "dimension": "attitude",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+     "title": "Inge Morath: Road to Reno – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "The Atomic Museum is very much 20th century after all the quaint southern settings. Oak Ridge, Tennessee, USA. 1960."
+    }
+   ],
+   "library_source_ids": [
+    457603
+   ],
+   "answer_md": "Morath notiert zu diesem Bild, das Atommuseum sei nach all den malerischen Südstaaten-Schauplätzen ganz und gar 20. Jahrhundert [Q1]; in Oak Ridge sei die erste abgeworfene Atombombe gebaut worden – die auf Hiroshima [S457603].",
+   "checkable": [
+    "Motiv ist ein Ausstellungsstück des Atommuseums – Technik des 20. Jahrhunderts statt Südstaaten-Idylle [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7ed3d43454",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+     "title": "Inge Morath: Road to Reno – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "6:00PM, after hours at a segregated lunch counter. Little Rock, Arkansas, USA. 1960."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Bildlegende nennt die Uhrzeit: 18 Uhr, nach Geschäftsschluss an einer Imbisstheke mit Rassentrennung in Little Rock [Q1].",
+   "checkable": [
+    "Tische und Stühle sind leer – nach Geschäftsschluss [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i879636f8eb",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+     "title": "Inge Morath: Road to Reno – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "The world's largest meteor crater, a few miles before Flagstaff. Arizona, USA. 1960."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Morath zeigt laut Bildlegende den größten Meteorkrater der Welt, wenige Meilen vor Flagstaff [Q1].",
+   "checkable": [
+    "Die Kraterwand füllt den ganzen Hintergrund; davor sitzen Besucher am Rand [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i91b97fe307",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+     "title": "Inge Morath: Road to Reno – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Heads of slot machines looking over a truck. Reno, Nevada, USA. 1960."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende beschreibt zwei Ebenen: Köpfe von Spielautomaten, die über einen Lastwagen hinwegschauen [Q1].",
+   "checkable": [
+    "Vorn die Kante des Lkw als helle Fläche, dahinter ragen zwei Spielautomaten-Figuren hervor [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if74eeeb10e",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+     "title": "Inge Morath: Road to Reno – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Ghost town. Goldfield, Nevada. USA. 1960."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende nennt Goldfield eine Geisterstadt [Q1].",
+   "checkable": [
+    "Verlassene, verwitterte Holzhäuser, kein Mensch im Bild [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i96ed717618",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/inge-morath-road-reno/",
+     "title": "Inge Morath: Road to Reno – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Hitch hikers on the road from Albuquerque to Gallup. New Mexico, USA. 1960."
+    }
+   ],
+   "library_source_ids": [
+    272962
+   ],
+   "answer_md": "Die Legende: Anhalter auf der Straße von Albuquerque nach Gallup [Q1]. In ihrem Reisetagebuch beschreibt Morath die Straße als bleifarbenes Band, das so weit reicht, wie man sehen kann, nach Westen [S272962].",
+   "checkable": [
+    "Zwei Anhalter am Straßenrand [Q1]",
+    "Die Straße läuft als Band bis zum Horizont [S272962]"
+   ],
+   "scope_note": "Das Tagebuchzitat gilt der Fahrt nach Westen allgemein, nicht ausdrücklich diesem Bild."
+  },
+  {
+   "image_id": "i065288640c",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+     "title": "Marc Riboud: Friendship with Strangers in Afghanistan – Magnum Photos",
+     "author": "Magnum Photos (Jade Chao / Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Cemetery at sun-set after a funeral. Two men, probably the closest relatives, stay near the grave."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Laut Bildlegende entstand das Bild bei Sonnenuntergang auf einem Friedhof nach einer Beerdigung [Q1].",
+   "checkable": [
+    "Tiefes Abendlicht über den Bergen und Wolken [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i065288640c",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+     "title": "Marc Riboud: Friendship with Strangers in Afghanistan – Magnum Photos",
+     "author": "Magnum Photos (Jade Chao / Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Cemetery at sun-set after a funeral. Two men, probably the closest relatives, stay near the grave."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende beschreibt den Augenblick nach der Beerdigung: zwei Männer, wohl die nächsten Angehörigen, bleiben am Grab [Q1].",
+   "checkable": [
+    "Zwei Männer sitzen allein neben dem Grab [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i12243a8056",
+   "dimension": "detail",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+     "title": "Marc Riboud: Friendship with Strangers in Afghanistan – Magnum Photos",
+     "author": "Magnum Photos (Jade Chao / Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "View on Bamyan cliff where the huge Buddhas were carved. The numerous holes seen in the cliff were cells of Bouddhist monks, and also home of habitants."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende erklärt die Felswand: Hier wurden die großen Buddhas gemeißelt; die zahlreichen Löcher waren Zellen buddhistischer Mönche und auch Wohnungen [Q1].",
+   "checkable": [
+    "Zahlreiche dunkle Öffnungen in der Klippe [Q1]",
+    "Hohe Nische eines Buddhas in der Felswand [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i5e79b1b213",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+     "title": "Marc Riboud: Friendship with Strangers in Afghanistan – Magnum Photos",
+     "author": "Magnum Photos (Jade Chao / Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Horses meeting for the buzkashi, a traditional game of Central Asia"
+    }
+   ],
+   "library_source_ids": [
+    325540
+   ],
+   "answer_md": "Reiter versammeln sich zum Buzkashi [Q1]; Riboud schaut dem Spiel in der Graslandschaft zu, vor einem Hintergrund aus Bergen [S325540].",
+   "checkable": [
+    "Vorn ein Reiter, im Mittelgrund die versammelten Reiter [Q1]",
+    "Berge bilden den Hintergrund [S325540]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i99fa05c489",
+   "dimension": "attitude",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/marc-riboud-friendship-strangers-afghanistan/",
+     "title": "Marc Riboud: Friendship with Strangers in Afghanistan – Magnum Photos",
+     "author": "Magnum Photos (Jade Chao / Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Riboud records various snapshots of these cultural juxtapositions."
+    }
+   ],
+   "library_source_ids": [
+    408728
+   ],
+   "answer_md": "Riboud hält auf dieser Reise kulturelle Gegenüberstellungen fest, den Einfluss östlicher und westlicher Mächte [Q1]; amerikanische Filmplakate hängen hinter Männern mit Turban [S408728].",
+   "checkable": [
+    "Hollywood-Plakat 'The Story of Three Loves' neben einem Mann mit Turban [Q1][S408728]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7d314cae4c",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+     "title": "Trent Parke: Minutes to Midnight – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "A rally car leaves a trail of dust over the open fields of Muresk on leg two of the World Rally Championships."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende: Ein Rallyeauto zieht bei der Rallye-Weltmeisterschaft eine Staubfahne über die offenen Felder von Muresk [Q1].",
+   "checkable": [
+    "Die Staubfahne zeichnet die schon gefahrene Kurve hinter dem kleinen Auto nach [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i52eb69c86f",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+     "title": "Trent Parke: Minutes to Midnight – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Opossum jumping from tree in Newcastle."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende beschreibt den Augenblick: ein Opossum springt vom Baum [Q1].",
+   "checkable": [
+    "Das Tier ist frei in der Luft, mitten im Sprung vom Ast [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ifed4b7305b",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    321610,
+    239072
+   ],
+   "answer_md": "Parke sagt, er jage ständig dem Licht nach [S321610]; typisch sind breite schwarze Flächen, durchschnitten von Lichtmustern [S239072].",
+   "checkable": [
+    "Große schwarze Flächen, durchbrochen von einer grellen Lampe und Lichtflecken [S239072]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "id2f3994850",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    642985,
+    494942
+   ],
+   "answer_md": "Larrains Bilder sind nicht geschlossen: Die Figuren laufen oft aus dem Rahmen [S642985]; typisch sind Hochformate und niedrige Standpunkte [S494942].",
+   "checkable": [
+    "Der Junge rechts unten ist vom Bildrand angeschnitten, halb schon aus dem Bild [S642985]",
+    "Hochformat [S494942]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i6623aa973e",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    642985
+   ],
+   "answer_md": "Figuren laufen bei Larrain oft aus dem Rahmen; er hat keine Angst vor dem, was außerhalb des Bildes liegt [S642985].",
+   "checkable": [
+    "Der Mann im Vordergrund rechts ist vom Bildrand angeschnitten [S642985]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i01181ec2e4",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/exhibitions/sergio-larrain-wanderings/",
+     "title": "Sergio Larrain: Wanderings – Magnum Photos",
+     "author": "Magnum Photos",
+     "kind": "magazine",
+     "excerpt": "This period shows his interest in fragmented silhouettes in immense, urban expanses."
+    }
+   ],
+   "library_source_ids": [
+    494942
+   ],
+   "answer_md": "Typisch für Larrain sind niedrige Standpunkte und Hochformate [S494942]; in London interessieren ihn fragmentierte Silhouetten in riesigen Stadträumen [Q1].",
+   "checkable": [
+    "Blick von unten schräg in den Himmel voller Tauben [S494942]",
+    "Figuren nur als dunkle Silhouetten am unteren Rand [Q1]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i058eddfcbd",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    494942,
+    642985
+   ],
+   "answer_md": "Hochformat und niedrige Standpunkte prägen Larrains Bilder [S494942]; Figuren verlassen oft den Rahmen [S642985].",
+   "checkable": [
+    "Hochformat, die Rolltreppen ziehen in die Tiefe [S494942]",
+    "Der Mann vorn ist unten vom Bildrand abgeschnitten [S642985]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i02421c3eb2",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/exhibitions/sergio-larrain-wanderings/",
+     "title": "Sergio Larrain: Wanderings – Magnum Photos",
+     "author": "Magnum Photos",
+     "kind": "magazine",
+     "excerpt": "Here, juxtaposed couples and angular shadows hold a subtle discord between interior and exterior relationships."
+    }
+   ],
+   "library_source_ids": [
+    642985
+   ],
+   "answer_md": "In den Valparaíso-Bildern halten kantige Schatten eine leise Spannung zwischen Innen und Außen [Q1]; Larrain scheut weder direktes Sonnenlicht noch Dunkelheit [S642985].",
+   "checkable": [
+    "Harte, kantige Schatten auf Wänden und Treppe [Q1]",
+    "Direktes Sonnenlicht auf den hellen Flächen [S642985]"
+   ],
+   "scope_note": "Q1 beschreibt Larrains Valparaíso-Bilder der 1960er; dieses Bild entstand dort 1952."
+  },
+  {
+   "image_id": "ifc7fa9368e",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+     "title": "Nikos Economopoulos: In the Balkans – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Women watching the dancing during a local feast. Avlona village, Greece. 1989."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Laut Legende schauen die Frauen beim Dorffest dem Tanz zu [Q1] – der Tanz selbst ist nicht im Bild.",
+   "checkable": [
+    "Die Tanzenden fehlen; zu sehen sind nur die zuschauenden Frauen vor dem Haus [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i44ebaddc6d",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+     "title": "Nikos Economopoulos: In the Balkans – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Tanks guarding the parliament in Bucharest, just after the revolution and the collapse of the Communist goverment."
+    }
+   ],
+   "library_source_ids": [
+    678751
+   ],
+   "answer_md": "Panzer bewachen das Parlament in Bukarest, kurz nach der Revolution [Q1]. Economopoulos beschreibt seine Bilder als die unmittelbare Nachwirkung: die Zeit, in der sich der Staub legt und alles noch zwielichtig und unsicher bleibt [S678751].",
+   "checkable": [
+    "Links ein Panzer mit Rohr, davor Soldaten und Passanten [Q1]",
+    "Alles schemenhaft, nichts klar umrissen [S678751]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if8c7cfdb19",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/travel/early-magnum-member-werner-bischof/",
+     "title": "Early Magnum member Werner Bischof – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "In a camp for North Korean prisoners of war laundry hangs on the barbed wire. Koje Do, South Korea. 1952."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende: In einem Lager für nordkoreanische Kriegsgefangene hängt Wäsche am Stacheldraht [Q1].",
+   "checkable": [
+    "Vorn hängt die Wäsche am Stacheldraht [Q1]",
+    "Dahinter die Gefangenen als Silhouetten [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie90bcd78a9",
+   "dimension": "detail",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/travel/early-magnum-member-werner-bischof/",
+     "title": "Early Magnum member Werner Bischof – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Farmer shading himself as he looks after his grazing cows. Cambodia. 1952."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende: Ein Bauer spendet sich Schatten, während er seine grasenden Kühe hütet [Q1].",
+   "checkable": [
+    "Der Schirm über dem Kopf des Bauern [Q1]",
+    "Kühe grasen neben ihm [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if1c1c68746",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    338126
+   ],
+   "answer_md": "Die Wirkung von 'The Brig' beruht laut V&A auf dem kleinen Schiff, allein gegen die Unermesslichkeit von Meer und Himmel [S338126].",
+   "checkable": [
+    "Die Brigg ist nur ein winziger dunkler Umriss auf dem Wasser [S338126]",
+    "Himmel und Meer füllen fast das ganze Bild [S338126]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i17c17b9da9",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O80891/",
+     "title": "Solar Effect in the Clouds – Ocean – V&A Explore The Collections",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "It is easy to see why this misconception arose from these monochrome images, where darkness encroaches from the edges of the scene."
+    }
+   ],
+   "library_source_ids": [
+    410361
+   ],
+   "answer_md": "Den scheinbaren Mondschein erzeugte Le Gray tagsüber, indem er die Kamera gegen die Sonne richtete [S410361]; die Dunkelheit dringt von den Rändern in die Szene [Q1].",
+   "checkable": [
+    "Gegenlicht: Sonne hinter Wolken, gleißende Spiegelung auf dem Wasser [S410361]",
+    "Ränder deutlich dunkler als die Bildmitte [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i17c17b9da9",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O80891/",
+     "title": "Solar Effect in the Clouds – Ocean – V&A Explore The Collections",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "Absent from this scene are boats, heavy waves or any sign of humanity. The viewer is left in confrontation with the sea and potentially threatening clouds."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Laut V&A fehlen in dieser Szene Boote, schwere Wellen oder jedes Zeichen menschlicher Gegenwart; der Betrachter steht allein vor Meer und drohenden Wolken [Q1].",
+   "checkable": [
+    "Kein Boot, keine Brandung, kein Mensch [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i68a12097c6",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    499460,
+    551876
+   ],
+   "answer_md": "Am Mont Agde in der Ferne lässt sich nachweisen, dass Le Gray Negative für Meer und Himmel kombinierte [S499460]; dasselbe Meer-und-Berg-Negativ wurde mit verschiedenen Wolkennegativen gekoppelt [S551876].",
+   "checkable": [
+    "Mont Agde als ferner Landrücken am Horizont [S499460]",
+    "Himmel und Meer stammen aus getrennten Negativen; Naht an der Horizontlinie [S551876]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i9f6713ac72",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    287851
+   ],
+   "answer_md": "Trotz des Titels zeigt das Bild fast kein Meer und ist eher eine Wolkenstudie der mächtigen, quellenden Formationen [S287851].",
+   "checkable": [
+    "Das Meer ist nur ein schmaler Streifen am unteren Rand; Wolken füllen den Rest [S287851]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i61e8554be0",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    348274
+   ],
+   "answer_md": "Beato zeigt die Jama Masjid von der Südseite: die steilen Stufen führen zum Tor in den Hof; Minarette und Kuppeln des Gebetssaals stehen links [S348274].",
+   "checkable": [
+    "Steile Treppe rechts, die zum Tor hinaufführt [S348274]",
+    "Minarette und Kuppeln des Gebetssaals links [S348274]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2bf9e70332",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    779010
+   ],
+   "answer_md": "Das Bild zeigt die Pfeilerkolonnade der Ostseite der Quwwat-ul-Islam-Moschee von außen [S779010].",
+   "checkable": [
+    "Die Säulenreihe ist von außen gesehen, nicht vom Hof aus [S779010]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if7dbcf9dd8",
+   "dimension": "detail",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O80900/",
+     "title": "Victory Minaret (Qutb Minar) – V&A Explore The Collections",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "The intricate calligraphic bands of script which run beneath the balconies contain verses of the Quran."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "An Beatos Qutb Minar hebt das V&A die kalligrafischen Schriftbänder unter den Balkonen hervor; sie enthalten Koranverse [Q1].",
+   "checkable": [
+    "Schriftbänder unter den Balkonen [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if7dbcf9dd8",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O80900/",
+     "title": "Victory Minaret (Qutb Minar) – V&A Explore The Collections",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "Beato's view of the lower portion of the Qutb Minar ('Victory Minaret')."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Beato zeigt laut V&A nur den unteren Teil des Qutb Minar [Q1].",
+   "checkable": [
+    "Die Spitze des Turms liegt außerhalb des Bildes [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib5c7a0e48d",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O80934/",
+     "title": "The Taj Mahal – V&A Explore The Collections",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "Direct view of the Taj Mahal, and the tomb gardens or 'chahar bagh', based on a square plan divided into four quarters by trees, paved walk ways and canals."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das V&A nennt es einen direkten Blick auf das Taj Mahal und den Grabgarten, der von Bäumen, Wegen und Kanälen in vier Viertel geteilt wird [Q1].",
+   "checkable": [
+    "Frontaler Blick auf das Mausoleum [Q1]",
+    "Kanal und Wege des Gartens führen in der Achse darauf zu [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i0b1db3e16c",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    354648
+   ],
+   "answer_md": "Laut Albumtext nimmt die Schaukel einen prominenten Platz im Vordergrund ein; sie wurde für ein Gelübde errichtet [S354648].",
+   "checkable": [
+    "Das Schaukelgerüst steht prominent im Vordergrund [S354648]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i26975efc4b",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O131227/",
+     "title": "View looking back on the gate of the Fort – V&A Explore The Collections",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "View looking back on the gate of the Fort from the ruined terrace behind"
+    }
+   ],
+   "library_source_ids": [
+    810690
+   ],
+   "answer_md": "Der Titel nennt den Standpunkt: Blick zurück auf das Tor der Festung von der zerstörten Terrasse dahinter [Q1]; der einsame Fels ragt rund tausend Fuß über das zerklüftete Gelände [S810690].",
+   "checkable": [
+    "Blick von der Terrasse an der Mauer entlang zurück zum Tor [Q1]",
+    "Fels ragt rechts steil auf [S810690]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i07ff1e02fc",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    219685
+   ],
+   "answer_md": "Weil lange Belichtungen für Zeichnung im Vordergrund nötig waren, wurde der viel hellere Himmel überbelichtet und erschien rein weiß; Tripe malte daher oft Wolken oder Schattierungen ins Negativ [S219685].",
+   "checkable": [
+    "Himmel nahezu weiß, ohne Wolkenzeichnung [S219685]",
+    "Hügel und Felsen im Vordergrund dagegen gut durchgezeichnet [S219685]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i30436094fb",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    219685
+   ],
+   "answer_md": "Lange Belichtungen für den Vordergrund ließen den Himmel überbelichtet und weiß werden [S219685].",
+   "checkable": [
+    "Himmel hell und fast ohne Zeichnung über dem dunklen Hügel [S219685]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i0dd8568af4",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    278697
+   ],
+   "answer_md": "Die Papierfasern des Negativs wurden Teil des Bildes; die Abzüge wirkten deshalb weich ('soft focus') [S278697].",
+   "checkable": [
+    "Laub und Fels ohne feinste Detailschärfe, weich und körnig [S278697]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "icf8cc464af",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    760446
+   ],
+   "answer_md": "Emerson schrieb, nichts in der Natur habe einen harten Umriss; alles verschwimme sanft ins Nächste [S760446].",
+   "checkable": [
+    "Bäume und Ufer am Horizont lösen sich weich auf, ohne harte Konturen [S760446]"
+   ],
+   "scope_note": "Allgemeiner Grundsatz Emersons aus 'Naturalistic Photography'; dieses Bild ist ein Beispiel."
+  },
+  {
+   "image_id": "i1a42771d4a",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    760446
+   ],
+   "answer_md": "Für Emerson hat nichts in der Natur eine harte Kontur; im 'lost and found' der Umrisse liege der Reiz der Natur [S760446].",
+   "checkable": [
+    "Hintergrund weich verlaufend, Pferde nicht scharf ausgeschnitten [S760446]"
+   ],
+   "scope_note": "Allgemeiner Grundsatz Emersons aus 'Naturalistic Photography'; dieses Bild ist ein Beispiel."
+  },
+  {
+   "image_id": "i58c3eaf33c",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    800960
+   ],
+   "answer_md": "Am Lake George fotografierte Stieglitz Wolken ohne jeden Hinweis auf eine Horizontlinie [S800960].",
+   "checkable": [
+    "Kein Horizont, keine Landschaft – nur Wolken und Licht [S800960]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i90935b5844",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    489306
+   ],
+   "answer_md": "Stieglitz kippte die Kamera zum Himmel und erzeugte schwindelerregende, fast abstrakte Bilder flüchtiger Wolkenformen [S489306].",
+   "checkable": [
+    "Nur Himmel, kein Bodenbezug; oben und unten nicht bestimmbar [S489306]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i95a5019d8a",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    760186,
+    184775
+   ],
+   "answer_md": "Stieglitz machte das Bild, als O'Keeffe in New Mexico war; die Einsamkeit führte ihn zu Gedanken an die eigene Sterblichkeit [S760186]. Vielleicht sah er sich in der schwindenden Lebenskraft der Bäume, die er in jenem Sommer immer wieder fotografierte [S184775].",
+   "checkable": [
+    "Schmale Pappeln mit lichtem, schütterem Laub [S184775]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i2c6b0e6e53",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    236498,
+    246343
+   ],
+   "answer_md": "Fenton führte eine andere Darstellung des Krieges ein – die Landschaft danach, eine Ästhetik der Reduktion [S236498]; viktorianischer Geschmack verbot es, Tote zu zeigen [S246343].",
+   "checkable": [
+    "Leere Ebene ohne Kampfszene, ohne Tote [S236498][S246343]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "iea81d1e2f3",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    236498,
+    246343
+   ],
+   "answer_md": "Fentons Kriegsbilder zeigen die Landschaft des Danach in reduzierter Form [S236498]; Tote durften nicht gezeigt werden [S246343].",
+   "checkable": [
+    "Weite, fast leere Ebene mit einem Zelt und wenigen Figuren [S236498]",
+    "Keine Toten, kein Gefecht [S246343]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "iceb85e76f9",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    185911,
+    279178
+   ],
+   "answer_md": "Fenton brachte einen großen, weißen Pferdewagen mit, umgebaut aus dem Wagen eines Weinhändlers zur mobilen Dunkelkammer [S185911]; im Bild sitzt sein Assistent Marcus Sparling [S279178].",
+   "checkable": [
+    "Der Kastenwagen als fahrbare Dunkelkammer [S185911]",
+    "Assistent Marcus Sparling auf dem Kutschbock [S279178]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib37c82e155",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+     "title": "Emmet Gowin – Pace Gallery (Online-Ausstellung)",
+     "author": "Pace Gallery",
+     "kind": "curator",
+     "excerpt": "These works, photographed by Gowin from a bird’s eye view of a small aircraft, examine timely questions of sustainability, agricultural practices, and water use through a visual language that often borders on abstraction."
+    },
+    {
+     "url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+     "title": "Emmet Gowin – Pace Gallery (Online-Ausstellung)",
+     "author": "Pace Gallery",
+     "kind": "curator",
+     "excerpt": "Cloud Front and Center-Pivot Irrigation Circles near the Columbia River, Benton County, Washington"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Gowin fotografierte die Kreisbewässerung aus der Vogelperspektive aus einem kleinen Flugzeug [Q1].",
+   "checkable": [
+    "Schräger Blick von oben über die Kreisfelder [Q1]",
+    "Hier ausnahmsweise mit Horizont und Wolkenfront [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ibef84c8cac",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+     "title": "Emmet Gowin – Pace Gallery (Online-Ausstellung)",
+     "author": "Pace Gallery",
+     "kind": "curator",
+     "excerpt": "These works, photographed by Gowin from a bird’s eye view of a small aircraft, examine timely questions of sustainability, agricultural practices, and water use through a visual language that often borders on abstraction."
+    },
+    {
+     "url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+     "title": "Emmet Gowin – Pace Gallery (Online-Ausstellung)",
+     "author": "Pace Gallery",
+     "kind": "curator",
+     "excerpt": "The Clockwise Sweep of the Watering Arm, Center-Pivot Irrigation, San Luis Valley, Colorado"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Aufgenommen aus der Vogelperspektive aus einem kleinen Flugzeug; die Bildsprache grenzt oft an Abstraktion [Q1]. Der Titel benennt den im Uhrzeigersinn kreisenden Bewässerungsarm [Q2].",
+   "checkable": [
+    "Blick von oben auf die Kreisflächen [Q1]",
+    "Der Bewässerungsarm als gerade Linie im Kreis [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic2c6a27675",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://www.pacegallery.com/online-exhibitions/emmet-gowin/",
+     "title": "Emmet Gowin – Pace Gallery (Online-Ausstellung)",
+     "author": "Pace Gallery",
+     "kind": "curator",
+     "excerpt": "Rows of Raked Hay Showing the Disruption of a Thunderstorm, Snake River Plain near the Confluence of the Snake and Columbia Rivers, Washington"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Titel benennt eine Spur der Zeit: Reihen gerechten Heus, die die Störung durch ein Gewitter zeigen [Q1].",
+   "checkable": [
+    "Konzentrische Heuschwaden, deren Ordnung an vielen Stellen aufgerissen ist [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ifdad8d994e",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    139960
+   ],
+   "answer_md": "Gowins Luftbilder verzichten auf die traditionelle Horizontlinie; sie sind auf 6×6-Film aufgenommen und quadratisch abgezogen [S139960].",
+   "checkable": [
+    "Kein Horizont [S139960]",
+    "Quadratisches Format, der Kreis füllt fast das ganze Feld [S139960]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i44cd3f0013",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    443861
+   ],
+   "answer_md": "Ohne Horizontlinie und andere Elemente klassischer Landschaftsbilder, quadratisch abgezogen [S443861].",
+   "checkable": [
+    "Kein Horizont, keine Bezugsgröße – nur Fläche und Muster [S443861]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ie66f536d06",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    139960
+   ],
+   "answer_md": "Gowins Luftbilder kommen ohne Horizontlinie aus und sind quadratisch [S139960].",
+   "checkable": [
+    "Kein Horizont; der Kreis mit dem verästelten Abflussmuster füllt das Feld [S139960]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i2fdd0a4ca8",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    712800,
+    649034
+   ],
+   "answer_md": "In Leongs Serie 'Horizons' liegt der Horizont immer an exakt derselben Stelle [S712800]; die Bilder sind sorgfältig gerahmt, manche karg minimalistisch, und ergeben nebeneinander einen durchlaufenden Horizont [S649034].",
+   "checkable": [
+    "Gerade, durchgehende Horizontlinie auf der für die Serie festen Höhe [S712800]",
+    "Fast leeres Bild: weiße Himmelsfläche über einem schmalen Landstreifen [S649034]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ide24d6168f",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    712800,
+    649034
+   ],
+   "answer_md": "In Leongs Serie 'Horizons' liegt der Horizont immer an exakt derselben Stelle [S712800]; die Bilder sind sorgfältig gerahmt, manche karg minimalistisch, und ergeben nebeneinander einen durchlaufenden Horizont [S649034].",
+   "checkable": [
+    "Gerade, durchgehende Horizontlinie auf der für die Serie festen Höhe [S712800]",
+    "Kahl reduziert: Wasser und dunstiger Himmel, kaum ein Gegenstand [S649034]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i28dfc0968b",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    712800,
+    649034
+   ],
+   "answer_md": "In Leongs Serie 'Horizons' liegt der Horizont immer an exakt derselben Stelle [S712800]; die Bilder sind sorgfältig gerahmt, manche karg minimalistisch, und ergeben nebeneinander einen durchlaufenden Horizont [S649034].",
+   "checkable": [
+    "Gerade, durchgehende Horizontlinie auf der für die Serie festen Höhe [S712800]",
+    "Nur Meer und Himmel, getrennt von der geraden Horizontlinie [S649034]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ib28a61787b",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    712800,
+    649034
+   ],
+   "answer_md": "In Leongs Serie 'Horizons' liegt der Horizont immer an exakt derselben Stelle [S712800]; die Bilder sind sorgfältig gerahmt, manche karg minimalistisch, und ergeben nebeneinander einen durchlaufenden Horizont [S649034].",
+   "checkable": [
+    "Gerade, durchgehende Horizontlinie auf der für die Serie festen Höhe [S712800]",
+    "Menschen und Tiere nur als winzige Kette auf der Horizontlinie [S649034]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ie21e1aef13",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    299420,
+    649034
+   ],
+   "answer_md": "Bei 'Horizons' bleibt der Horizont von Bild zu Bild an derselben Stelle [S299420]; nebeneinander gehängt bilden die Bilder einen fortlaufenden Horizont [S649034].",
+   "checkable": [
+    "Die Stadtsilhouette Venedigs sitzt als schmales Band genau auf der Horizontlinie [S299420]",
+    "Bild als Glied einer Reihe mit durchlaufendem Horizont gedacht [S649034]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ie56676aa1b",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    299420,
+    649034
+   ],
+   "answer_md": "Bei 'Horizons' bleibt der Horizont von Bild zu Bild an derselben Stelle [S299420]; nebeneinander gehängt bilden die Bilder einen fortlaufenden Horizont [S649034].",
+   "checkable": [
+    "Die Elefantenreihe läuft entlang der Horizontlinie [S299420]",
+    "Bild als Glied einer Reihe mit durchlaufendem Horizont gedacht [S649034]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ia0169fdaca",
+   "dimension": "order",
+   "sources": [],
+   "library_source_ids": [
+    299420,
+    649034
+   ],
+   "answer_md": "Bei 'Horizons' bleibt der Horizont von Bild zu Bild an derselben Stelle [S299420]; nebeneinander gehängt bilden die Bilder einen fortlaufenden Horizont [S649034].",
+   "checkable": [
+    "Die Insel liegt flach auf der Horizontlinie zwischen weißem Himmel und Salzfläche [S299420]",
+    "Bild als Glied einer Reihe mit durchlaufendem Horizont gedacht [S649034]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i4af91b38d0",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    123435,
+    677217
+   ],
+   "answer_md": "Fredericks fotografierte auf dem Lake Eyre eine 'Landschaft ohne Landschaft' [S123435]; ein Kritiker nannte die Bilder buchstäblich Bilder von nichts [S677217].",
+   "checkable": [
+    "Kein Gegenstand, keine Landmarke – nur ein Farbverlauf [S123435][S677217]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "idbd6f4325b",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    325041,
+    123435
+   ],
+   "answer_md": "Fredericks reiste sechzehnmal allein auf die merkmalslose Oberfläche des Lake Eyre [S325041] und fotografierte dort eine 'Landschaft ohne Landschaft' [S123435].",
+   "checkable": [
+    "Außer einer leuchtenden Horizontlinie keine Merkmale [S325041]",
+    "Ober- und Unterhälfte fast spiegelbildlich, ohne Objekt [S123435]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i6579357c05",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    116723
+   ],
+   "answer_md": "Die Blast-Bilder entstanden mit ferngesteuerter Kamera, abgestimmt mit einem Sprengmeister; die Kamera hält den Kalkstein mitten in der Luft an [S116723].",
+   "checkable": [
+    "Gesteinsbrocken frei in der Luft, im Flug eingefroren [S116723]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i0131c9336c",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    116723
+   ],
+   "answer_md": "Hatakeyama arbeitete mit ferngesteuerter Kamera; ein Sprengmeister bestimmte, wohin das Gestein flog [S116723].",
+   "checkable": [
+    "Kamera nah an der Sprengung: Blick mitten in die Staubwolke mit fliegenden Brocken [S116723]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i6a644c0fb7",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    489488
+   ],
+   "answer_md": "Manos' Farbbilder wirken unter heißer Sonne besonders lebendig, mit Figuren, die Schatten auf leuchtend gestrichene Wände werfen [S489488].",
+   "checkable": [
+    "Harte Sonne: scharfe Schatten auf hell gestrichenen Wänden [S489488]"
+   ],
+   "scope_note": "Die Quelle beschreibt Manos' Strandbilder allgemein; dieses Bild ist ein Beispiel für die Lichtsituation."
+  },
+  {
+   "image_id": "i6ad5c307af",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    960282
+   ],
+   "answer_md": "Draußen merken die Leute oft gar nicht, dass Manos sie fotografiert – mit kleiner Kamera und Weitwinkel [S960282].",
+   "checkable": [
+    "Rückenfigur im roten Pullover ganz nah, die Golden Gate Bridge klein in der Ferne – Weitwinkel aus kurzer Distanz [S960282]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i57d883c7a8",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    452371
+   ],
+   "answer_md": "Kander merkte an seinen Bildern, dass er zurücktrat und die Menschen sehr klein machte – Ausdruck seines Gefühls, Außenseiter zu sein [S452371].",
+   "checkable": [
+    "Die Menschen am Ufer sind winzig unter den riesigen Brückenpfeilern [S452371]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i2ad1c3aafe",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    452371
+   ],
+   "answer_md": "Kander trat in China zurück und machte die Menschen in seinen Bildern sehr klein [S452371].",
+   "checkable": [
+    "Die Badenden sind kleine Figuren auf dem Felsvorsprung, überragt vom mächtigen Felsblock [S452371]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i2e10dad371",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    407058
+   ],
+   "answer_md": "Das Buch strahlt in seinem distanzierten Blick, seiner formalen Schönheit und den gedämpften Tönen der oft weiten Landschaften eine oberflächliche Ruhe aus [S407058].",
+   "checkable": [
+    "Gedämpfte Grau- und Brauntöne, keine kräftige Farbe [S407058]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i8078413b20",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    378712,
+    407058
+   ],
+   "answer_md": "Sean O'Hagan nennt Kander einen Meister der 'epischen Stille' [S378712]; hinter der ruhigen Oberfläche wächst ein Gefühl von Unbehagen, als drohe knapp außerhalb des Bildes großes Chaos [S407058].",
+   "checkable": [
+    "Stille, diesige Szene mit einer ruhig sitzenden Figur [S378712]",
+    "Gedämpfte Töne, ruhige Oberfläche [S407058]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i0f108c0928",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    330129
+   ],
+   "answer_md": "Wo möglich fotografierte Roberts von erhöhten Standpunkten, oft vom Dach seines Wohnmobils, um das Zusammenspiel der Menschen mit der Landschaft und untereinander zu zeigen [S330129].",
+   "checkable": [
+    "Erhöhter Standpunkt: Blick von oben über Promenade, Straßenbahn und Passanten [S330129]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i81bae7120c",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://themorningnews.org/we-english/",
+     "title": "We English – The Morning News (Interview mit Simon Roberts)",
+     "author": "Simon Roberts",
+     "kind": "photographer",
+     "excerpt": "I also decided that the people populating a scene would be relatively small in the frame; although not so small that you couldn’t make out some facial expressions, what they were wearing, and their activities."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Roberts legte fest, dass die Menschen relativ klein im Bild sein sollten, aber nicht so klein, dass man Gesichtsausdrücke, Kleidung und Tätigkeiten nicht mehr erkennt [Q1].",
+   "checkable": [
+    "Die Badegäste sind klein, aber Kleidung und Tätigkeiten bleiben erkennbar [Q1]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "iccdf32122b",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://we-english.co.uk/blog/?p=1864",
+     "title": "We English – Projektblog",
+     "author": "Simon Roberts",
+     "kind": "photographer",
+     "excerpt": "As the fans wend their way down to the stadium, the atmosphere is almost one of pilgrimage."
+    }
+   ],
+   "library_source_ids": [
+    655128
+   ],
+   "answer_md": "Roberts beschreibt die Fans auf dem Weg zum Stadium of Light: Die Stimmung gleiche fast einer Pilgerfahrt [Q1]; der Weg folgt wohl dem Pfad, den Väter und Großväter zur Zeche gingen [S655128].",
+   "checkable": [
+    "Die Fans ziehen in einer langen Reihe den Hang hinunter wie eine Prozession [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iccdf32122b",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    235056
+   ],
+   "answer_md": "Auch Bilder mit größeren Gruppen sind aus der Distanz aufgenommen – eine Perspektive, die an klassische Malerei erinnert [S235056].",
+   "checkable": [
+    "Die Fans sind aus einigem Abstand gezeigt, eingebettet in Wiese und Himmel [S235056]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "iba35a1b4b0",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    172639
+   ],
+   "answer_md": "Roberts arbeitete mit einer alten 4×5-Fachkamera; der mühsame, öffentliche Aufbau half, jede Szene so aufzunehmen, wie sie sich entfaltete, ohne sein Eingreifen [S172639].",
+   "checkable": [
+    "Niemand posiert: Die Menschen schauen in verschiedene Richtungen auf das Geschehen [S172639]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "if43da93bc9",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://fairbank.fas.harvard.edu/research/blog/photographing-chinas-industrial-heartland/",
+     "title": "Photographing China’s Industrial Heartland – Fairbank Center, Harvard",
+     "author": "Ian Teh",
+     "kind": "photographer",
+     "excerpt": "It floats in the air creating a fine veil of light ochre that tinges the passing scenery with the same monochromatic hue."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Über Linfen schreibt Teh: Der Staub ist überall, er schwebt in der Luft und legt einen feinen hellockerfarbenen Schleier über die Szenerie [Q1].",
+   "checkable": [
+    "Die Hochhäuser in der Tiefe verschwinden im Dunst [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iee81a3e98b",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://fairbank.fas.harvard.edu/research/blog/photographing-chinas-industrial-heartland/",
+     "title": "Photographing China’s Industrial Heartland – Fairbank Center, Harvard",
+     "author": "Ian Teh",
+     "kind": "photographer",
+     "excerpt": "It floats in the air creating a fine veil of light ochre that tinges the passing scenery with the same monochromatic hue."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Staub in Linfen färbt laut Teh die ganze vorbeiziehende Landschaft in denselben einfarbigen, hellockerfarbenen Ton [Q1].",
+   "checkable": [
+    "Die ganze Szene in einem einheitlichen, blassen Farbton ohne kräftige Farbe [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id189c49a5a",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    568656
+   ],
+   "answer_md": "Viele Minen und Werke waren während der Feiertage geschlossen; die Orte waren oft leer – eine Landschaft staubbedeckter Industrieanlagen [S568656].",
+   "checkable": [
+    "Die Anlage wirkt menschenleer und staubbedeckt [S568656]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i671b62770f",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    916468
+   ],
+   "answer_md": "Teh nennt 'Traces' eine Panorama-Serie, die die klassische monumentale Landschaft wieder aufgreift [S916468].",
+   "checkable": [
+    "Extrem breites Panoramaformat [S916468]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i5aa607b337",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    916468
+   ],
+   "answer_md": "'Traces: Landscapes in Transition' ist eine Panorama-Serie, die an die klassische monumentale Landschaft anknüpft [S916468].",
+   "checkable": [
+    "Breites Panoramaformat, Flusslandschaft über die ganze Breite [S916468]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i10b4b95962",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.featureshoot.com/?p=142400",
+     "title": "Greg Girard: City of Darkness Revisited – Feature Shoot",
+     "author": "Feature Shoot (mit Zitaten Greg Girards)",
+     "kind": "magazine",
+     "excerpt": "Going from that to the air and light and space on the rooftop in the cool of the evening, watching the big jets arc past on their way into Kai Tak [airport], that was incredible as well."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Girard beschreibt den Gegensatz zu den engen Werkstätten: Luft, Licht und Weite auf dem Dach in der Kühle des Abends, während die Jets nach Kai Tak einschweben [Q1].",
+   "checkable": [
+    "Offener Himmel und weiches Abendlicht auf der Dachfläche [Q1]",
+    "Ein Mann ruht im Liegestuhl auf dem Dach [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i470e8fd881",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://www.featureshoot.com/?p=142400",
+     "title": "Greg Girard: City of Darkness Revisited – Feature Shoot",
+     "author": "Feature Shoot (mit Zitaten Greg Girards)",
+     "kind": "magazine",
+     "excerpt": "Going from that to the air and light and space on the rooftop in the cool of the evening, watching the big jets arc past on their way into Kai Tak [airport], that was incredible as well."
+    },
+    {
+     "url": "https://www.featureshoot.com/?p=142400",
+     "title": "Greg Girard: City of Darkness Revisited – Feature Shoot",
+     "author": "Feature Shoot (mit Zitaten Greg Girards)",
+     "kind": "magazine",
+     "excerpt": "The planes passed overhead approximately every ten minutes–limiting the buildings to a height of 14 stories for fear of collisions."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Auf den Dächern fand Girard Luft, Licht und Weite in der Kühle des Abends [Q1]; die Flugzeuge zogen etwa alle zehn Minuten darüber hinweg [Q2].",
+   "checkable": [
+    "Kinder spielen auf der Dachfläche im Antennenwald [Q1]",
+    "Weiter Himmel über dem Dach [Q2]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i921f2395a7",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://www.featureshoot.com/?p=142400",
+     "title": "Greg Girard: City of Darkness Revisited – Feature Shoot",
+     "author": "Feature Shoot (mit Zitaten Greg Girards)",
+     "kind": "magazine",
+     "excerpt": "illuminated windows, densely packed across 12-14 story buildings"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Beim ersten Besuch nahm Girard vor allem die beleuchteten Fenster wahr, dicht gepackt über 12 bis 14 Stockwerke [Q1].",
+   "checkable": [
+    "Fenster, Balkone und Schilder dicht gestapelt über die ganze Bildhöhe [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i5c81d6c041",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.featureshoot.com/?p=142400",
+     "title": "Greg Girard: City of Darkness Revisited – Feature Shoot",
+     "author": "Feature Shoot (mit Zitaten Greg Girards)",
+     "kind": "magazine",
+     "excerpt": "This city, where daylight entered only in patches and dank moisture pervaded the streets, was flawed and complicated, but it was also extraordinary."
+    }
+   ],
+   "library_source_ids": [
+    843363
+   ],
+   "answer_md": "Weil die Stadt so dicht und die Gassen so eng waren, war es fast zu jeder Tageszeit dunkel [S843363]; Tageslicht fiel nur fleckweise ein [Q1].",
+   "checkable": [
+    "Innenraum unter Kunstlicht, kein Tageslicht von außen [S843363][Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i9861082acb",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    369336
+   ],
+   "answer_md": "Berge, Fluss und phantastischer Dunst erinnern an alte Landschaftsmalerei, doch die Felsoberfläche besteht aus Hochhäusern, Stahltürmen, Kränen und Straßen [S369336].",
+   "checkable": [
+    "Die Bergflanken bestehen aus Hochhausfassaden [S369336]",
+    "Unten rechts Kräne und Masten [S369336]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ic704e8732a",
+   "dimension": "surface",
+   "sources": [],
+   "library_source_ids": [
+    492041
+   ],
+   "answer_md": "Yang verwendet Bilder von Architektur als Pinselstriche; die schweren Felsmassen beziehen sich auf Landschaftsmalerei der Song-Dynastie [S492041].",
+   "checkable": [
+    "Die Felstexturen sind aus Gebäudebildern statt aus Tuschestrichen gebaut [S492041]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i7ee7206daa",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    482681
+   ],
+   "answer_md": "Yang arbeitete früher meist in Schwarzweiß, um die Aufmerksamkeit auf die Schichten und die Struktur des Bildes zu lenken [S482681].",
+   "checkable": [
+    "Nur Grautöne; Bergketten in hintereinander gestaffelten Lagen [S482681]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i9c9e4bcb26",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    369336
+   ],
+   "answer_md": "Berge, Fluss und phantastischer Dunst erinnern an alte Landschaftsbilder, die Felsen aber sind aus Zeichen der Moderne gebaut [S369336].",
+   "checkable": [
+    "Eine Felsinsel schwebt in grauem Dunst, ringsum fast leere Fläche [S369336]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ie64274fb90",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    431422
+   ],
+   "answer_md": "Lang setzte in seinen Kompositbildern Fotofragmente per Kombinationsdruck und anderen Dunkelkammermethoden zu nahtlosen eigenen Kompositionen zusammen [S431422].",
+   "checkable": [
+    "Boot mit Fischer vorn und Bergmassiv dahinter, verbunden durch leere, neblige Fläche [S431422]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i91f97717e6",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    560912
+   ],
+   "answer_md": "Jedes Werk entstand in der Dunkelkammer: Lang platzierte jedes Negativ einzeln und steuerte die Belichtung einzelner Bereiche [S560912].",
+   "checkable": [
+    "Weidenzweige als vordere Ebene, das Boot dahinter im hellen Dunst [S560912]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "iefea95795a",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    567465
+   ],
+   "answer_md": "Lang griff immer wieder auf traditionelle Motive wie Wolken, Gipfel, Kiefern, Bambus, Kraniche und Hirsche zurück [S567465].",
+   "checkable": [
+    "Die Gebäude stehen über einem Wolkenmeer [S567465]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i821b3e4778",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    906978
+   ],
+   "answer_md": "Tal: Die Grate der blauen Hügel, mit Schnee bestäubt, leuchten im kalten Licht des Winters [S906978].",
+   "checkable": [
+    "Schneebestäubte Grate leuchten, die Hänge liegen im kühlen Licht [S906978]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib4327413d3",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    790433
+   ],
+   "answer_md": "Tal beschreibt einen ungewöhnlich kalten, nebligen Wintertag in den Badlands [S790433].",
+   "checkable": [
+    "Nebel lässt die Hügel nach oben hin ins Weiß verschwinden [S790433]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i620c1256e7",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    111048
+   ],
+   "answer_md": "Ein verirrter Lichtstrahl beleuchtet eine surreale Landschaft aus Wüstenhügeln [S111048].",
+   "checkable": [
+    "Ein einzelner Lichtfleck trifft die Bildmitte, die Umgebung bleibt im Schatten [S111048]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i7ec615f4f7",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    539416
+   ],
+   "answer_md": "Wie ein Atompilz lässt ein Monsungewitter einen Wolkenbruch über der Wüste nieder [S539416].",
+   "checkable": [
+    "Pilzförmige Gewitterwolke mit Regenvorhang über der Wüstenebene [S539416]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie64fae6b36",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    712137
+   ],
+   "answer_md": "Ein sterbender Tornado wie dieser befindet sich in der 'Roping-out'-Phase [S712137].",
+   "checkable": [
+    "Dünner, gebogener Tornadoschlauch – die Endphase [S712137]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie62a27b300",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    989212
+   ],
+   "answer_md": "Die meisten Stürme ziehen schnell; dieser kroch über eine Stunde lang über eine Farmgemeinde, geladen mit Elektrizität [S989212].",
+   "checkable": [
+    "Blitz schlägt aus der Wolkenwand über der Straße ein [S989212]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iedd7ff02d7",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    602465,
+    819696
+   ],
+   "answer_md": "Dobrowner verfolgte diesen Sturm 300 Meilen vom Texas Panhandle aus [S602465]; mit dem Stormchaser Roger Hill fuhr er manchmal 900 Meilen am Tag, um einen Moment zu erwischen [S819696].",
+   "checkable": [
+    "Die rotierende Superzelle füllt fast das ganze Bild [S602465]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "icd02c4141a",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    373356
+   ],
+   "answer_md": "In einer Superzelle entstanden, ragt eine Trichterwolke hinter einem Maisfeld auf [S373356].",
+   "checkable": [
+    "Maisfeld als dunkler Streifen im Vordergrund, Trichterwolke dahinter [S373356]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic119bf71b8",
+   "dimension": "scale",
+   "sources": [],
+   "library_source_ids": [
+    762665,
+    709953
+   ],
+   "answer_md": "Laut Kurator Paul Kallmes fügte Sella manchmal in der Dunkelkammer Figuren ein, um ein Gefühl für den Maßstab zu geben [S762665]. Auf der Kangchenjunga-Umrundung 1899 fotografierten die Sellas auf rund 20.000 Fuß [S709953].",
+   "checkable": [
+    "Zwei kleine Figuren im Schnee geben den Maßstab für Gletscher und Berge [S762665]"
+   ],
+   "scope_note": "Ob die Figuren in diesem Bild eingefügt sind, sagt die Quelle nicht; sie beschreibt Sellas gelegentliche Praxis."
+  },
+  {
+   "image_id": "i857212324a",
+   "dimension": "attitude",
+   "sources": [
+    {
+     "url": "https://peakvisor.com/en/inspiration/vittorio-sella-glass-and-ice.html",
+     "title": "Vittorio Sella: Glass and Ice – PeakVisor",
+     "author": "PeakVisor (mit Zitat Ansel Adams)",
+     "kind": "magazine",
+     "excerpt": "He saw no theatrical skies or exaggerated angles."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Ansel Adams lobte an Sellas Bildern die Zurückhaltung: keine theatralischen Himmel, keine übertriebenen Winkel [Q1].",
+   "checkable": [
+    "Kein dramatisierter Himmel, keine extreme Kameraneigung [Q1]"
+   ],
+   "scope_note": "Adams' Urteil gilt Sellas Werk allgemein."
+  },
+  {
+   "image_id": "ie0d3144215",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    324845
+   ],
+   "answer_md": "Charles Houstons Bericht von 1939 druckte ein Sella-Foto von 1909 mit dem Grat, den der Herzog versucht hatte, und zeichnete die geplante Route ein; Houstons Gruppe taufte ihn Abruzzi-Grat [S324845].",
+   "checkable": [
+    "Blick auf den Südostgrat des K2 [S324845]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4cb682ea98",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    202838
+   ],
+   "answer_md": "Die Expedition versuchte den Südostgrat des K2 und stellte dann am Chogolisa einen Höhenrekord auf, ohne den Gipfel zu erreichen [S202838].",
+   "checkable": [
+    "Standpunkt hoch am Berg zwischen Eis und Fels, Figuren mitten im Gelände [S202838]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic89069e5de",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    346409
+   ],
+   "answer_md": "Salgado beschreibt den Eisberg: Auf Meereshöhe sind frühere Schwimmlinien sichtbar, wo das Eis vom ständig bewegten Meer poliert wurde; hoch oben haben Wind und abgebrochene Stücke eine Form wie einen Burgturm herausgearbeitet [S346409].",
+   "checkable": [
+    "Glatt polierte, waagerechte Linien am Fuß des Eisbergs [S346409]",
+    "Oben eine turmartige Form wie eine Burg [S346409]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i23fdac3d99",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    325097
+   ],
+   "answer_md": "Wie eine Fata Morgana schwebt der Salton Sea auf dem Wüstenboden; seine ätherische Schönheit verbirgt die Probleme unter der stillen, spiegelnden Oberfläche [S325097].",
+   "checkable": [
+    "Stille, spiegelnde Wasserfläche, die fast nahtlos in den Himmel übergeht [S325097]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i80860931c2",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    692270
+   ],
+   "answer_md": "Manche Bilder der Serie konzentrieren sich auf die Zerstörung: kahle Flächen des Seebodens, verfallene Häuser und Trailerparks [S692270].",
+   "checkable": [
+    "Verlassener Hafen mit kahlem, verkrustetem Seeboden statt Wasser [S692270]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i4a33382349",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    515524
+   ],
+   "answer_md": "Beahan besucht Orte gern wieder, um zu sehen, was sich verändert hat; über zehn Jahre zeigte sich, wie der Salton Sea zurückweicht [S515524].",
+   "checkable": [
+    "Der Entenansitz steht auf trockenem Grund, das Wasser ist weit zurückgewichen [S515524]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i9f1852096a",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    542227
+   ],
+   "answer_md": "In Soths Bildern gibt es sichtbare Trampelpfade, etwa das niedergetretene Unkraut um ein Bettgestell, das im Boden versinkt [S542227].",
+   "checkable": [
+    "Ein metallenes Bettgestell versinkt im Grün [S542227]",
+    "Niedergetretenes Gras um das Gestell [S542227]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ibbc87f3d55",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    513740
+   ],
+   "answer_md": "Das Bild zeigt Bonnie, die ein Foto einer Wolke hält, die einem Engel gleicht; Soth arbeitete mit einer schweren Plattenkamera auf Stativ [S513740].",
+   "checkable": [
+    "Gerahmtes Foto einer Wolke in Bonnies Händen, in der Bildmitte [S513740]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i9fd4b51c99",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    633316
+   ],
+   "answer_md": "Viele Bilder aus 'Ou Menya' sind stark körnig – Folge des schwachen Lichts und Depoorters Verzicht auf den entfremdenden Blitz [S633316].",
+   "checkable": [
+    "Fast ganz dunkle Nachtszene, nur wenige helle Stellen [S633316]",
+    "Kein Blitz, deutliches Korn [S633316]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i34d7e8bf95",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    819330,
+    888891
+   ],
+   "answer_md": "Kawauchi beschreibt das Abbrennen der Wiese (noyaki), das seit rund 1.300 Jahren betrieben wird [S819330]; die Landschaft wurde vollständig pechschwarz verbrannt [S888891].",
+   "checkable": [
+    "Eine Hügelflanke schon schwarz verbrannt, die andere noch hell, an der Grenze Flammen [S888891][S819330]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iad1c7dffdb",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    690112
+   ],
+   "answer_md": "In der Bildfolge der 'Americans' folgt auf 'Covered Car' das Bild der Unfallopfer am Straßenrand, zugedeckt mit einer Decke [S690112].",
+   "checkable": [
+    "Ein mit einer Decke zugedeckter Körper am Boden, dahinter stehende Männer [S690112]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i652928a239",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    291848
+   ],
+   "answer_md": "Das Bild entstand im Shiloh National Military Park, Schauplatz einer der blutigsten Schlachten des Bürgerkriegs [S291848] – zu sehen sind nur Zweige vor dem Himmel.",
+   "checkable": [
+    "Kein Hinweis auf Schlachtfeld oder Denkmal, nur ein Ast mit jungen Blättern vor Wolken [S291848]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i9829de8c2c",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    785975
+   ],
+   "answer_md": "Für 'Uncommon Places' wechselte Shore zu 4×5- und 8×10-Zoll-Film; die Großformatkamera erschwerte Schnappschüsse, aber er wollte mehr Detail festhalten [S785975].",
+   "checkable": [
+    "Felsen, Autos und Wolken bis in die Ferne gleichmäßig scharf und detailreich [S785975]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ibc30f2d36e",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    785975
+   ],
+   "answer_md": "Shore arbeitete mit Großformat, weil er mehr Detail festhalten wollte [S785975].",
+   "checkable": [
+    "Fernmeldeleitungen, Zäune und Berge in der Ferne fein gezeichnet [S785975]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ia05f060220",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    785975
+   ],
+   "answer_md": "Mit der schwerfälligen Großformatkamera zeichnete Shore mehr Detail auf und kam zu ruhigen Kompositionen [S785975].",
+   "checkable": [
+    "Fenster, Leitern und Parkmarkierungen bis in die Ecken scharf [S785975]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ibc61e99a0b",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    561699
+   ],
+   "answer_md": "Fast alle Bilder Webbs haben mindestens zwei Elemente; der Betrachter vollendet die Geschichte [S561699].",
+   "checkable": [
+    "Vorn ein Mann mit gerahmtem Bild, im Torbogen ein Paar als Silhouette, dahinter das Schild 'Registro Civil' [S561699]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i3480af4337",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    956570
+   ],
+   "answer_md": "Fan Ho: Er achte immer auf das Licht; es müsse seinen Zwecken dienen und Kontrast bringen, deshalb sei es wichtig, auf das richtige Licht zu warten [S956570].",
+   "checkable": [
+    "Gegenlicht in der Gasse, Dunst und lange Schatten auf dem Pflaster [S956570]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ia3a7cf6724",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    944017
+   ],
+   "answer_md": "O'Sullivan erhielt ein eigenes Boot, 'Picture', mit dem er die Canyons langsam von seinem tiefen Standpunkt auf dem Colorado River aus erkundete [S944017].",
+   "checkable": [
+    "Blick von unten zu den Basaltkuppen [S944017]"
+   ],
+   "scope_note": "Die Quelle beschreibt O'Sullivans Arbeitsweise am Colorado River allgemein."
+  },
+  {
+   "image_id": "i6179ad7d9c",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    254740
+   ],
+   "answer_md": "Zwischen Maschinen und abgerissenen, fast postatomaren Stadtlandschaften gehen kleine Figuren ihrer Arbeit nach [S254740].",
+   "checkable": [
+    "Trümmer abgerissener Häuser rechts, notdürftige Unterstände [S254740]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "if30d7f0679",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    350016
+   ],
+   "answer_md": "Hurley stieg auf die Scholle hinab und fotografierte das Schiff in seiner ungewöhnlichen Lage [S350016].",
+   "checkable": [
+    "Standpunkt auf dem Eis, Blick schräg hinauf zum Schiff [S350016]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if30d7f0679",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    518601,
+    306331
+   ],
+   "answer_md": "Innerhalb weniger Sekunden legte sich das Schiff um dreißig Grad über, gehalten von der gegenüberliegenden Scholle [S518601]; das Bild zeigt die Endurance schief im Eis [S306331].",
+   "checkable": [
+    "Das Schiff hängt stark schräg, Masten geneigt [S518601][S306331]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i34d1dcd560",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    506293
+   ],
+   "answer_md": "Jedes Bild der Serie ist eine Collage aus etwa 100 Touristenfotos, ausgerichtet auf einen einzigen Punkt – etwa die Uhr von Big Ben [S506293].",
+   "checkable": [
+    "Der Turm mit der Uhr ist relativ klar, ringsum überlagern sich viele verschwommene Versionen [S506293]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3d81776eb9",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    442420
+   ],
+   "answer_md": "Aus über hundert Perspektiven verwoben, schweben die Wahrzeichen in einem traumartigen Dunst; Touristen erscheinen als Geistererscheinungen [S442420].",
+   "checkable": [
+    "Die Brücke wie in Dunst gelöst, Ränder flirrend und mehrfach [S442420]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i60ccbfd410",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    690520
+   ],
+   "answer_md": "Rund 100 Fotos sind um einen einzigen Punkt ausgerichtet übereinandergelegt [S690520].",
+   "checkable": [
+    "Der Fernsehturm in der Mitte steht relativ fest, die Skyline daneben in vielen durchscheinenden Schichten [S690520]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib39d37c82c",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/196529",
+     "title": "View of Mount St. Helens from Vicinity of Spud Mountain – The Art Institute of Chicago",
+     "author": "The Art Institute of Chicago (Werktitel)",
+     "kind": "museum",
+     "excerpt": "View of Mount St. Helens from Vicinity of Spud Mountain—7 Miles Northwest"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Werktitel nennt den Abstand: Blick auf den Mount St. Helens aus der Nähe des Spud Mountain, 7 Meilen nordwestlich [Q1].",
+   "checkable": [
+    "Der Vulkan erscheint klein am Horizont, rund 11 km entfernt [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "id463ff5de1",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://www.artic.edu/artworks/156740",
+     "title": "Timber Salvage on Ridge – The Art Institute of Chicago",
+     "author": "The Art Institute of Chicago (Werktitel)",
+     "kind": "museum",
+     "excerpt": "Timber Salvage on Ridge at Eastern Limit of Blast Zone-Clear Water Creek Valley, 9.5 miles E. of Mt. St. Helen's, Wash."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Werktitel verortet den Standpunkt am Ostrand der Explosionszone, 9,5 Meilen östlich des Mount St. Helens [Q1].",
+   "checkable": [
+    "Gerodeter Kamm mit Baumstümpfen im Vordergrund; der Vulkan selbst ist nicht im Bild [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie171fb5eb8",
+   "dimension": "detail",
+   "sources": [],
+   "library_source_ids": [
+    397440
+   ],
+   "answer_md": "Statt auf die Blüten richtet Conner den Blick auf die hängenden Samenkapseln, die Muster der Blätter und die Spiegelungen der Stängel im stillen Wasser; die toten Blätter und Stängel bilden Miniaturlandschaften [S397440].",
+   "checkable": [
+    "Samenkapseln und geknickte Stängel statt Blüten [S397440]",
+    "Spiegelungen der Stängel im Wasser [S397440]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i20de1b2a00",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    174060,
+    709567
+   ],
+   "answer_md": "Ein Hochformat: 'Colossal Buddha', Leshan 1986 [S174060]. Conner nutzt die Banquet-Kamera, um die Landschaft nach Art der Rollbilder zu 'entrollen' [S709567].",
+   "checkable": [
+    "Extrem schmales Hochformat [S174060][S709567]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie921993e1f",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    395344
+   ],
+   "answer_md": "Conner arbeitet mit einer Banquet-Kamera, die ein Panoramanegativ liefert; das Format erinnert an chinesische Rollbilder [S395344].",
+   "checkable": [
+    "Breites Panoramaformat [S395344]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i61dd87f89e",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    274056
+   ],
+   "answer_md": "Porter: Ein gewähltes Bild, das nicht mehr andeutet als in seiner Fläche liegt, nennt man abstrakt – unabhängig von seiner Umgebung, etwa ein Muster aus Gräsern [S274056].",
+   "checkable": [
+    "Kein Horizont, kein Ortsbezug – nur Gräser bis an alle Ränder [S274056]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ieb27601c66",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    466856
+   ],
+   "answer_md": "Porter beschreibt das 'zentrifugale' Bild: Das Auge wird zu Ecken und Rändern geführt, man fragt sich, was der Fotograf weggelassen hat [S466856].",
+   "checkable": [
+    "Äste und Blüten laufen über alle Bildränder hinaus, kein Zentrum [S466856]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i04ec2f8b0c",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    667689
+   ],
+   "answer_md": "Ghirri zeigt seine Umgebung in eng beschnittenen Bildern [S667689].",
+   "checkable": [
+    "Der rote Sonnenschirm ist oben vom Bildrand angeschnitten [S667689]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i3fbcef2b1f",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+     "title": "Bruno Barbey’s Morocco: The Color of Memory – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Picnic near Marrakech. Morocco. 1972."
+    }
+   ],
+   "library_source_ids": [
+    464541
+   ],
+   "answer_md": "Aus Respekt vor den Gebräuchen machte Barbey in Marokko kaum Nahporträts; er fotografiert seine Motive lieber aus Distanz [S464541] – hier ein Picknick bei Marrakesch [Q1].",
+   "checkable": [
+    "Die Gruppe ist aus einigen Metern Abstand ganz im Bild, niemand formatfüllend nah [S464541][Q1]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i019b6df60d",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+     "title": "Bruno Barbey’s Morocco: The Color of Memory – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Hides being dried on hillside near the tanning quarter. Fez. Morocco. 1984."
+    }
+   ],
+   "library_source_ids": [
+    631612
+   ],
+   "answer_md": "Die Legende: Häute werden am Hang beim Gerberviertel getrocknet [Q1]. Barbey nutzt oft ungewöhnliche Perspektiven, die das Bild verflachen und Figuren und Hintergrund verschmelzen [S631612].",
+   "checkable": [
+    "Rote Häute über den ganzen Hang verteilt, der Hang wirkt wie eine flache Fläche [Q1][S631612]",
+    "Die Figur verschmilzt fast mit dem Muster [S631612]"
+   ],
+   "scope_note": "S631612 beschreibt Barbeys Marokko-Bilder allgemein."
+  },
+  {
+   "image_id": "i048b5e4b94",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    785178
+   ],
+   "answer_md": "In Barbeys Marokko haben Schatten so viel Gewicht wie Menschen und Dinge und bringen das Geheimnis einer weiteren Dimension ins Bild [S785178].",
+   "checkable": [
+    "Streifenschatten liegen über Gesichtern, Körpern und Boden [S785178]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i8a7d593bc3",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/bruno-barbeys-morocco-the-color-of-memory/",
+     "title": "Bruno Barbey’s Morocco: The Color of Memory – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "The madrasa of \"Ben Youssef\", a Koran school which was established during the 14th century, and rebuilt 200 years later."
+    }
+   ],
+   "library_source_ids": [
+    464541
+   ],
+   "answer_md": "Barbey fotografiert seine Motive lieber aus der Distanz [S464541]; hier die Medersa Ben Youssef in Marrakesch [Q1].",
+   "checkable": [
+    "Die Figur ist klein im fernen Torbogen, die Wand füllt das Bild [S464541]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "iffa06a075b",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    290164
+   ],
+   "answer_md": "Zu Pinkhassovs Bildsprache gehören unscharfe Vordergründe, kräftige Farbe, Spiegelungen und Schatten [S290164].",
+   "checkable": [
+    "Großer unscharfer Vordergrund, durch den der scharfe Blick auf die Kreuzung fällt [S290164]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i4d2932398f",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    477307,
+    290164
+   ],
+   "answer_md": "Die Bilder aus 'Sightwalk' zeichnen sich durch Pinkhassovs Meisterschaft in Bildausschnitt und Licht aus [S477307]; zu seiner Sprache gehören Spiegelungen und Schatten [S290164].",
+   "checkable": [
+    "Gitterlicht und Schatten legen sich über Anzug und Wand [S477307][S290164]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i65ae89dc36",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    290164
+   ],
+   "answer_md": "Pinkhassovs Sprache umfasst unscharfe Vordergründe, kräftige Farbe, Spiegelungen und Schatten [S290164].",
+   "checkable": [
+    "Das ganze Bild in kräftigem Grün getaucht, die Autos dunkel darin [S290164]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "icd1af27b53",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/",
+     "title": "Gueorgui Pinkhassov: Sightwalk – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Bridge at sundown. Tokyo, Japan. 1996."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende nennt die Tageszeit: eine Brücke bei Sonnenuntergang [Q1].",
+   "checkable": [
+    "Tiefblaues Licht der Dämmerung, Brücke als dunkles Band [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic860bc1ed9",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    726005
+   ],
+   "answer_md": "Kurator Clément Chéroux schreibt über Koudelkas Exil-Bilder, in die sein Schatten oder Teile seines Körpers eindringen [S726005].",
+   "checkable": [
+    "Koudelkas eigene Beine und Füße liegen im Vordergrund – Blick vom Boden aus [S726005]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i9b3aa80e0c",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+     "title": "Hokkaido in the Autumn – Bruce Percy (Blog)",
+     "author": "Bruce Percy",
+     "kind": "photographer",
+     "excerpt": "I certainly feel a calm resignation to working with , rather than against a landscape that presents strong colour."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Percy schreibt, er empfinde eine ruhige Ergebenheit darin, mit statt gegen eine Landschaft zu arbeiten, die starke Farbe zeigt [Q1].",
+   "checkable": [
+    "Kräftiges Rot und Gelb im Laub, türkisfarbenes Wasser [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i123c30207f",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    312477
+   ],
+   "answer_md": "Über Jahre fand Percy, dass Farbe selektiv eingesetzt werden kann und sollte [S312477].",
+   "checkable": [
+    "Kräftige Farbe nur in der Baumgruppe, Himmel fast farblos [S312477]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i9c0a2239b6",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://www.brucepercy.co.uk/blog/2026/10/22/hokkaido-in-the-autumn",
+     "title": "Hokkaido in the Autumn – Bruce Percy (Blog)",
+     "author": "Bruce Percy",
+     "kind": "photographer",
+     "excerpt": "Now I think it’s more a case that I have an evolving, constantly changing relationship with colour, and have come to find myself very comfortable with one portfolio having a lot of colour and another having almost none."
+    }
+   ],
+   "library_source_ids": [
+    106812
+   ],
+   "answer_md": "Percy fühlt sich wohl damit, dass ein Portfolio viel Farbe hat und ein anderes fast keine [Q1]; über Jahre sei seine Farbpalette gedämpfter geworden [S106812].",
+   "checkable": [
+    "Fast farblos: Weiß, Grau und kühles Blau [Q1][S106812]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i35ce4377a0",
+   "dimension": "distance",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/the-inland-sea-study-i/",
+     "title": "The Inland Sea, Study I – Art Wolfe",
+     "author": "Art Wolfe (Bildtext)",
+     "kind": "photographer",
+     "excerpt": "A restless sea of shifting sand dunes sweep across the barren landscape of the remote Skeleton Coast. This is a landscape beautiful to view from a distance but it is a brutally difficult terrain to traverse."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Wolfe: Ein unruhiges Meer wandernder Dünen an der Skelettküste – eine Landschaft, die aus der Distanz schön anzusehen, aber brutal schwer zu durchqueren ist [Q1].",
+   "checkable": [
+    "Dünen aus der Ferne als dichtes Muster, ohne Vordergrund und Horizont [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3818ab4fd9",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://store.artwolfe.com/product/yunnan-rice-terraces/",
+     "title": "Yunnan Rice Terraces – Art Wolfe",
+     "author": "Art Wolfe (Bildtext)",
+     "kind": "photographer",
+     "excerpt": "Now a world heritage site, this region is famous for its spectacularly abstract cultural landscape."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Wolfe: Die Region ist berühmt für ihre spektakulär abstrakte Kulturlandschaft [Q1].",
+   "checkable": [
+    "Terrassenkanten als abstraktes Linienmuster über das ganze Bild, kein Horizont [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i06a8f14f79",
+   "dimension": "detail",
+   "sources": [
+    {
+     "url": "https://www.olafottobecker.com/?page=projects_above_zero",
+     "title": "Above Zero – Olaf Otto Becker",
+     "author": "Projekttext auf olafottobecker.com (Autor nicht genannt)",
+     "kind": "curator",
+     "excerpt": "The ethereal blues of shallow river flows contrast with dark black rivulets of dust and soot which have absorbed the warmth of the sun and melted into the snow, creating cylindrical holes and striations that appear like abstract graphics."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Schwarze Rinnsale aus Staub und Ruß nehmen die Sonnenwärme auf, schmelzen in den Schnee und erzeugen zylindrische Löcher und Streifen wie abstrakte Grafik [Q1].",
+   "checkable": [
+    "Runde, dunkle Löcher im Eis vorn [Q1]",
+    "Streifen in den Eiswänden [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i57c8962b83",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://www.olafottobecker.com/?page=projects_above_zero",
+     "title": "Above Zero – Olaf Otto Becker",
+     "author": "Projekttext auf olafottobecker.com (Autor nicht genannt)",
+     "kind": "curator",
+     "excerpt": "The ethereal blues of shallow river flows contrast with dark black rivulets of dust and soot which have absorbed the warmth of the sun and melted into the snow, creating cylindrical holes and striations that appear like abstract graphics."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das ätherische Blau der flachen Schmelzwasserflüsse steht gegen dunkle Rinnsale aus Staub und Ruß [Q1].",
+   "checkable": [
+    "Türkisblaues Wasser, daneben dunkle Schmutzbänder im Eis [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "icb8acf006c",
+   "dimension": "color",
+   "sources": [
+    {
+     "url": "https://www.olafottobecker.com/?page=projects_above_zero",
+     "title": "Above Zero – Olaf Otto Becker",
+     "author": "Projekttext auf olafottobecker.com (Autor nicht genannt)",
+     "kind": "curator",
+     "excerpt": "The ethereal blues of shallow river flows contrast with dark black rivulets of dust and soot which have absorbed the warmth of the sun and melted into the snow, creating cylindrical holes and striations that appear like abstract graphics."
+    }
+   ],
+   "library_source_ids": [
+    316943
+   ],
+   "answer_md": "Ätherisches Blau der Flüsse gegen dunkle Staubrinnen [Q1]; Becker zeigt Porträts von Schmelzwasserflüssen, die durch die Erwärmung auf dem Eis entstehen [S316943].",
+   "checkable": [
+    "Hellblaues Flussband vor fast weißem Eis und Himmel [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "iddc0f0c4ac",
+   "dimension": "scale",
+   "sources": [
+    {
+     "url": "https://www.olafottobecker.com/?page=projects_above_zero",
+     "title": "Above Zero – Olaf Otto Becker",
+     "author": "Projekttext auf olafottobecker.com (Autor nicht genannt)",
+     "kind": "curator",
+     "excerpt": "Situated in the middle of the desolate landscape, the introduction of man and man made objects appears so stunningly highlighted and seemingly out of place that their being brought there seems almost incomprehensible."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Mitten in der öden Landschaft wirken Mensch und menschengemachte Dinge des Schweizer Forschungscamps so herausgehoben und fehl am Platz, dass ihr Herbringen fast unbegreiflich scheint [Q1].",
+   "checkable": [
+    "Das Camp ist nur eine winzige Reihe gelber Punkte am Horizont einer leeren weißen Fläche [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ie9870c5bef",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    197774
+   ],
+   "answer_md": "Becker begleitete und dokumentierte mit der Großformatkamera die Arbeit von Klimaforschern, die auf dem grönländischen Inlandeis Daten sammelten [S197774].",
+   "checkable": [
+    "Zwei Forscher knien am Boden und arbeiten an der Messstation – Arbeit im Gange, nicht gestellt [S197774]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i3872a551c9",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    575050
+   ],
+   "answer_md": "Die Fullmoon-Bilder entstehen bei Vollmond mit 15 Minuten Belichtung oder mehr [S575050].",
+   "checkable": [
+    "Wasser zwischen den Felsen ohne jede Wellenstruktur, zu weichem Nebel verwischt [S575050]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i8d7db5b40e",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    310263
+   ],
+   "answer_md": "Bei über einer Viertelstunde offenem Verschluss legt sich Wasser wie ein nebliger Schaum über das Land [S310263].",
+   "checkable": [
+    "Weiße, verwischte Schaumschlieren auf dem Meer statt einzelner Wellen [S310263]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i6579357c05",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    116723
+   ],
+   "answer_md": "Die Kamera war ferngesteuert, ein Sprengmeister bestimmte, wohin das Gestein flog [S116723].",
+   "checkable": [
+    "Kamera mitten im Sprengbereich, Brocken fliegen auf sie zu und an ihr vorbei [S116723]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i0131c9336c",
+   "dimension": "moment",
+   "sources": [],
+   "library_source_ids": [
+    116723
+   ],
+   "answer_md": "Die ferngesteuerte Kamera hielt den Kalkstein mitten in der Luft an [S116723].",
+   "checkable": [
+    "Einzelne Brocken scharf in der Luft über der Staubwolke [S116723]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ie6b3203e9d",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    489306
+   ],
+   "answer_md": "Stieglitz kippte die Kamera zum Himmel und machte fast abstrakte Bilder flüchtiger Wolkenformen [S489306].",
+   "checkable": [
+    "Fast nur Himmel; die Landschaft nur als dunkler Hügelrand ganz unten [S489306]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i899cf2c182",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    489306
+   ],
+   "answer_md": "Ab 1922 richtete Stieglitz die Kamera zum Himmel und schuf schwindelerregende, fast abstrakte Wolkenbilder [S489306].",
+   "checkable": [
+    "Der Himmel mit der Sonne füllt den größten Teil, unten nur ein dunkler Streifen Land [S489306]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i58c3eaf33c",
+   "dimension": "viewpoint",
+   "sources": [],
+   "library_source_ids": [
+    489306
+   ],
+   "answer_md": "Stieglitz kippte die Kamera zum Himmel; die Bilder werden fast abstrakt [S489306].",
+   "checkable": [
+    "Kein Bodenbezug, oben und unten kaum bestimmbar [S489306]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "icb5efdeb80",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    760446
+   ],
+   "answer_md": "Emerson: Nichts in der Natur hat einen harten Umriss; im Wechsel von Bestimmtheit und Unbestimmtheit liegt der Reiz [S760446].",
+   "checkable": [
+    "Bäume und Haus im Hintergrund weich und unscharf, ohne harte Konturen [S760446]"
+   ],
+   "scope_note": "Allgemeiner Grundsatz Emersons aus 'Naturalistic Photography'; dieses Bild ist ein Beispiel."
+  },
+  {
+   "image_id": "if95038058f",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    760446
+   ],
+   "answer_md": "Emerson schrieb, alles in der Natur verlaufe sanft ins Nächste, ohne harte Kontur [S760446].",
+   "checkable": [
+    "Die Schafe im Hintergrund lösen sich weich auf [S760446]"
+   ],
+   "scope_note": "Allgemeiner Grundsatz Emersons aus 'Naturalistic Photography'; dieses Bild ist ein Beispiel."
+  },
+  {
+   "image_id": "ie3e3da0fe2",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    916468
+   ],
+   "answer_md": "'Traces' ist eine Panorama-Serie, die die klassische monumentale Landschaft aufgreift [S916468].",
+   "checkable": [
+    "Breites Panoramaformat, Steinbruch über die ganze Breite [S916468]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ic27731b38b",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    960282
+   ],
+   "answer_md": "Manos arbeitet draußen mit kleiner Kamera und Weitwinkel; die Menschen merken oft gar nicht, dass er sie fotografiert [S960282].",
+   "checkable": [
+    "Aus nächster Nähe im Gedränge: Figuren und Fahnen angeschnitten am Rand [S960282]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i1b985bb17e",
+   "dimension": "distance",
+   "sources": [],
+   "library_source_ids": [
+    960282
+   ],
+   "answer_md": "Mit kleiner Kamera und Weitwinkel kommt Manos den Menschen nah, ohne dass sie es bemerken [S960282].",
+   "checkable": [
+    "Zwei Figuren aus kurzer Distanz, beide vom Bildrand angeschnitten [S960282]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i24819bcfbe",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    494942
+   ],
+   "answer_md": "Typisch für Larrain sind Hochformate und niedrige Standpunkte [S494942].",
+   "checkable": [
+    "Hochformat; Männer vorn als dunkle Figuren am unteren Rand [S494942]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i027ae08c6d",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/travel/early-magnum-member-werner-bischof/",
+     "title": "Early Magnum member Werner Bischof – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Cham women returning from the market. Barau, Indochina. 1952."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende: Cham-Frauen kehren vom Markt zurück [Q1].",
+   "checkable": [
+    "Die Frauen gehen mit Körben auf dem Kopf in einer Reihe die Gleise entlang, vom Betrachter weg [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i59ea217fdb",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/travel/early-magnum-member-werner-bischof/",
+     "title": "Early Magnum member Werner Bischof – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "A priest rests in the temple of Ryōan-ji. Kyoto, Japan. 1951."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende: Ein Priester ruht im Tempel Ryōan-ji [Q1].",
+   "checkable": [
+    "Der Priester sitzt klein im hinteren Raum, gesehen durch mehrere Schiebetür-Rahmen [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i4dec562c98",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+     "title": "Nikos Economopoulos: In the Balkans – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Gypsy musicians playing on the street. Town of Vukovar, Croatia. 1992."
+    }
+   ],
+   "library_source_ids": [
+    678751
+   ],
+   "answer_md": "Straßenmusiker in Vukovar 1992 [Q1]; Economopoulos zeigt die unmittelbare Nachwirkung der Kriege, wenn sich der Staub legt und das Leben wieder anläuft [S678751].",
+   "checkable": [
+    "Hinter den Musikern eine beschädigte Häuserzeile [S678751]",
+    "Musiker spielen auf der Straße – das Leben läuft weiter [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6ed44dbdd4",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/theory-and-practice/nikos-economopoulos-balkans-iron-curtain-communism/",
+     "title": "Nikos Economopoulos: In the Balkans – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "A gypsy musician. Epirus, Parakalamos, Greece. 1993."
+    }
+   ],
+   "library_source_ids": [
+    264998
+   ],
+   "answer_md": "Für Economopoulos ist der Balkan eine bescheidene Behausung, die Licht und Schatten und tiefes Dunkel in einer explosiven Mischung birgt [S264998]; hier ein Roma-Musiker in Parakalamos [Q1].",
+   "checkable": [
+    "Lichtstrahlen fallen durch die Bretterwand in den dunklen Raum [S264998]"
+   ],
+   "scope_note": "S264998 ist eine allgemeine Aussage über den Balkan."
+  },
+  {
+   "image_id": "i5d181501fe",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/",
+     "title": "Trent Parke: Minutes to Midnight – Magnum Photos",
+     "author": "Magnum Photos (Bildlegende)",
+     "kind": "magazine",
+     "excerpt": "Five year old Jack watches 'The Simpsons' on television in a caravan. Cairns, Australia. 2003."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Legende: Der fünfjährige Jack schaut in einem Wohnwagen 'Die Simpsons' im Fernsehen [Q1].",
+   "checkable": [
+    "Der Fernseher leuchtet hinten in der Mitte, der Junge sitzt vorn und schaut hin [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i264dab8ed1",
+   "dimension": "focus",
+   "sources": [],
+   "library_source_ids": [
+    290164
+   ],
+   "answer_md": "Zu Pinkhassovs Bildsprache gehören unscharfe Vordergründe, kräftige Farbe, Spiegelungen und Schatten [S290164].",
+   "checkable": [
+    "Unscharfer roter Vordergrund mit Kerzenlicht, dahinter scharfe Kiefer [S290164]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i0fcd495d44",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    290164
+   ],
+   "answer_md": "Pinkhassov arbeitet mit Spiegelungen und Schatten und kräftiger Farbe [S290164].",
+   "checkable": [
+    "Harte Schlagschatten auf der rosa Wand und dem Fliesenboden [S290164]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i4ba7de1e66",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    407058
+   ],
+   "answer_md": "Kanders Yangtze-Bilder haben gedämpfte Töne und eine ruhige Oberfläche [S407058].",
+   "checkable": [
+    "Blasse, gedämpfte Farben; nur die Lastwagen setzen blaue Akzente [S407058]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "icbab2dd254",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    418055
+   ],
+   "answer_md": "Kander: China scheine seine Wurzeln zu kappen; Abriss und Neubau waren überall in solchem Ausmaß, dass er nicht sicher war, ob er Aufbau oder Zerstörung sah [S418055].",
+   "checkable": [
+    "Halbfertige Hochstraße und eingerüsteter Pfeiler – Baustelle, die auch wie Ruine wirkt [S418055]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i8a1f39c612",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    182714
+   ],
+   "answer_md": "Fan Ho ging durch Hinterstraßen und enge Gassen zu den einfachen Leuten, deren 'Hongkong-Geist' im Überlebenskampf ihn nicht losließ [S182714].",
+   "checkable": [
+    "Marktgedränge mit einfachen Leuten, keine Sehenswürdigkeit [S182714]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic8b0cb1d2a",
+   "dimension": "attitude",
+   "sources": [
+    {
+     "url": "https://www.olafottobecker.com/?page=projects_above_zero",
+     "title": "Above Zero – Olaf Otto Becker",
+     "author": "Olaf Otto Becker",
+     "kind": "photographer",
+     "excerpt": "I was also able to visit the only place in Greenland where tourists can encounter the Inland Ice and find traces of climate change."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Becker besuchte auch den einzigen Ort Grönlands, an dem Touristen das Inlandeis erleben und Spuren des Klimawandels finden können [Q1].",
+   "checkable": [
+    "Touristen fotografieren und stehen auf dem verschmutzten Eis [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "if1c1c68746",
+   "dimension": "atmosphere",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O91062/",
+     "title": "The Brig – V&A Explore The Collections",
+     "author": "Victoria and Albert Museum",
+     "kind": "museum",
+     "excerpt": "It was enthusiastically greeted in the photographic press for its technical accomplishment, capturing light and atmosphere, and was widely exhibited at Photographic Society exhibitions in Britain and France."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Fachpresse feierte 'The Brig' für die technische Leistung, Licht und Atmosphäre einzufangen [Q1].",
+   "checkable": [
+    "Gegenlicht-Glanz auf dem Wasser, Wolken mit Zeichnung [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6693f7498a",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.phillips.com/detail/愛德華·韋斯頓/137964",
+     "title": "Edward Weston, Dunes, Oceano – Phillips (Katalogtext)",
+     "author": "Phillips (Auktionskatalog)",
+     "kind": "critic",
+     "excerpt": "It is remarkable for its preponderance of shadows which add depth and drama to the image, and for Weston’s meticulous management of sunlight to enhance the detail in the foreground and to delineate the ridge lines that recede into the distance."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Das auch 'Black Dunes' genannte Bild ist bemerkenswert für das Übergewicht der Schatten und Westons sorgfältige Lichtführung, die Detail im Vordergrund betont und die zurückweichenden Grate zeichnet [Q1].",
+   "checkable": [
+    "Große schwarze Schattenflächen oben [Q1]",
+    "Vorn feine Rippelzeichnung im Sand, dahinter klar gezeichnete Kämme [Q1]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i5c8ed5e6c5",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://www.phillips.com/detail/愛德華·韋斯頓/137964",
+     "title": "Edward Weston, Dunes, Oceano – Phillips (Katalogtext)",
+     "author": "Phillips (Auktionskatalog)",
+     "kind": "critic",
+     "excerpt": "In a state of constant change, reshaped continuously by wind and water, the dunes presented completely new subject matter to Weston on each visit over the ensuing years."
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Weston begann die Dünenserie 1934 bei seinem ersten Besuch in Oceano; ständig von Wind und Wasser umgeformt, boten die Dünen ihm bei jedem Besuch neue Motive [Q1].",
+   "checkable": [
+    "Vom Wind geformte Kanten und Rippeln im Sand [Q1]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Oceano-Serie; dieses Bild entstand 1934, im ersten Jahr."
+  },
+  {
+   "image_id": "i8b4992ad52",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    783866,
+    489196
+   ],
+   "answer_md": "Brandt ließ lebensgroße Abzüge seiner Tieraufnahmen drucken [S783866]; entscheidend war, dass die Horizontlinien der Originalfotos exakt mit den Horizonten der Orte übereinstimmten, an denen sie aufgestellt wurden [S489196].",
+   "checkable": [
+    "Ein großer Abzug mit dem Löwen steht als eigene Bildebene im Steinbruch [S783866]",
+    "Der Horizont im Abzug läuft mit dem realen Horizont weiter [S489196]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i8b4992ad52",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    362743
+   ],
+   "answer_md": "Brandt: Keines dieser Panoramen hätte in hartem Sonnenlicht funktioniert; die gesuchte melancholische Stimmung wäre sofort verschwunden [S362743].",
+   "checkable": [
+    "Bedeckter Himmel, weiches Licht ohne harte Schatten [S362743]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i9a2fadff04",
+   "dimension": "layers",
+   "sources": [],
+   "library_source_ids": [
+    182167
+   ],
+   "answer_md": "Die Horizontlinien der Originalaufnahmen mussten genau mit denen der Orte übereinstimmen, an denen die Abzüge aufgestellt wurden [S182167].",
+   "checkable": [
+    "Der Abzug mit dem Schimpansen steht rechts als eigene Ebene zwischen Bach und Häusern [S182167]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i9a2fadff04",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    159478
+   ],
+   "answer_md": "Hartes Sonnenlicht hätte die melancholische Atmosphäre zerstört [S159478].",
+   "checkable": [
+    "Trübes, diesiges Licht ohne Sonne [S159478]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "iaf5345f90b",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    763496
+   ],
+   "answer_md": "Esser: Sein Ehrgeiz sei immer gewesen, eine zeitlose Fotografie zu machen, die gut altert und kaum zu datieren ist [S763496].",
+   "checkable": [
+    "Nichts Datierbares: keine Autos, keine Menschen, keine Schilder – nur Abtei, Watt und Licht [S763496]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i4460c3f606",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    537003
+   ],
+   "answer_md": "Esser beschreibt seine Werke als in einem 'Zeittunnel' existierend, der Vergangenheit, Gegenwart und Zukunft verbindet [S537003].",
+   "checkable": [
+    "Keine Hinweise auf die Gegenwart; Fluss, Bäume und warmes Licht wie aus einer anderen Zeit [S537003]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i4f746e567b",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    200294
+   ],
+   "answer_md": "Greg Cook nennt McPhees Bilder kühle, üppige Farbfotos von Landschaften, so karg, dass sie fast schwarzweiß wirken [S200294].",
+   "checkable": [
+    "Grauer Himmel, grauer Boden, nur verhaltenes Grün der Kakteen – fast schwarzweiß [S200294]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ib4cc00ac1a",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    112584
+   ],
+   "answer_md": "Mit Film und Großformatkamera aufgenommen, umfassen die Bilder Zeit, geologische wie menschliche [S112584].",
+   "checkable": [
+    "Erosionsrinnen und Gesteinsschichten zeigen geologische Zeit [S112584]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i763fc34353",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    415939,
+    541312
+   ],
+   "answer_md": "Umbrico interessierte sich dafür, wie Besucher auf ihre Arbeit reagierten: Sie fotografierten sich, als posierten sie vor einem echten Sonnenuntergang [S415939]; die Autorin selbst landete so in 'People with Suns from Flickr' [S541312].",
+   "checkable": [
+    "Menschen posieren vor einer Wand aus Sonnenuntergangsbildern [S415939][S541312]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ib9371198d3",
+   "dimension": "attitude",
+   "sources": [],
+   "library_source_ids": [
+    261791
+   ],
+   "answer_md": "Laut V&A ist es Emersons berühmtestes und mehrdeutigstes Bild: scheinbar romantisch, tatsächlich die Darstellung eines Mannes und einer Frau bei der Arbeit [S261791].",
+   "checkable": [
+    "Zwei Menschen im Boot beim Pflücken der Seerosen – Arbeit, nicht Ausflug [S261791]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "ic7f09e4abf",
+   "dimension": "atmosphere",
+   "sources": [],
+   "library_source_ids": [
+    843966
+   ],
+   "answer_md": "Mal erscheint das Wasser in Gilpins Rio-Grande-Bildern unberechenbar, mal ruhig [S843966].",
+   "checkable": [
+    "Aufgewühlte, wirbelnde Wasseroberfläche über das ganze Vorderfeld [S843966]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "ib0d74262fb",
+   "dimension": "color",
+   "sources": [],
+   "library_source_ids": [
+    547891,
+    517882
+   ],
+   "answer_md": "Porter wandte sich von den großen Schwarzweiß-Panoramen ab und konzentrierte sich auf Details, Farben und Muster der Natur, gedruckt im Farbstoff-Transferverfahren [S547891]; die Glen-Canyon-Bilder sind leuchtend farbig [S517882].",
+   "checkable": [
+    "Weiße Blüten vor rotbrauner Erde, Detail statt Weitblick [S547891][S517882]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i0462ec5a04",
+   "dimension": "time",
+   "sources": [],
+   "library_source_ids": [
+    106963
+   ],
+   "answer_md": "Uigurische Orte wurden geschlossen, darunter eine Disco, die verschwunden war, als Drake zwei Jahre später zurückkam [S106963].",
+   "checkable": [
+    "Tanzende in der Disco unter bunten Lichtern – ein Ort, den es bald danach nicht mehr gab [S106963]"
+   ],
+   "scope_note": ""
+  },
+  {
+   "image_id": "i6523aea7ce",
+   "dimension": "light",
+   "sources": [],
+   "library_source_ids": [
+    165596
+   ],
+   "answer_md": "Porter: Von allen Erscheinungen der Seitencanyons ist es das Licht, selbst in den tiefsten Winkeln der engsten Schlucht, das die größte Ehrfurcht weckt [S165596].",
+   "checkable": [
+    "Indirektes, warmes Licht tief in der Schlucht, keine direkte Sonne auf dem Wasserfall [S165596]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i388dd227aa",
+   "dimension": "frame",
+   "sources": [],
+   "library_source_ids": [
+    469960
+   ],
+   "answer_md": "Im 'zentrifugalen' Bild wird das Auge zu Ecken und Rändern geführt; der Betrachter muss bedenken, was der Fotograf weggelassen hat [S469960].",
+   "checkable": [
+    "Stämme und Zweige laufen über alle Ränder, kein Zentrum [S469960]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i9acb77b535",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    146219
+   ],
+   "answer_md": "Xu Zhiyuan: Conners Gegenstand ist ein Beijing, aus dem die Menschenmengen verschwunden sind; erscheinen doch Menschen, dann als Teil der Szenerie [S146219].",
+   "checkable": [
+    "Kein Mensch im Bild, nur Tempelarchitektur und Pflanzen [S146219]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "i195c907e47",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    123435
+   ],
+   "answer_md": "Fredericks fotografierte auf dem Lake Eyre eine 'Landschaft ohne Landschaft' [S123435].",
+   "checkable": [
+    "Keine Landmarke – nur Wolkenhimmel, Horizontlinie und Spiegelung [S123435]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  },
+  {
+   "image_id": "id49359b896",
+   "dimension": "omitted",
+   "sources": [],
+   "library_source_ids": [
+    325041
+   ],
+   "answer_md": "Die Salt-Bilder zeigen die merkmalslose Oberfläche des Lake Eyre [S325041].",
+   "checkable": [
+    "Wolkendecke und ihre Spiegelung, dazwischen nur ein dünner Horizont, kein Objekt [S325041]"
+   ],
+   "scope_note": "Die Quelle beschreibt die Serie bzw. Arbeitsweise insgesamt; dieses Bild ist ein Beispiel daraus."
+  }
+ ]
+}
