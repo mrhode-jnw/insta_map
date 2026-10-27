@@ -98,6 +98,10 @@ class Library:
         self.editing = {"series": [], "versions": [], "sequences": []}  # contact sheets, versions, book order
         self.anecdotes: list[dict] = []  # how a picture was made, retold from a source
         self.myths: list[dict] = []  # widely believed claims corrected by a source
+        self.numbers: list[dict] = []  # sourced numbers for the estimate slider
+        self.influences: list[dict] = []  # who learned from whom
+        self.constants: list[dict] = []  # what a series keeps constant
+        self.cloze: list[dict] = []  # photographer statements with one key word blanked
         self.extra_media: dict[str, dict] = {}  # images used only by editing exercises (not in the library lists)
         self.by_url: dict[str, str] = {}
 
@@ -175,8 +179,8 @@ class Library:
                 "id": cid, "name": c["name"], "dimension": c.get("dimension", ""),
                 "summary_md": q_to_s(c.get("summary_md", ""), ids),
                 "exercise_md": c.get("exercise_md", ""),
-                "images": [{"id": self.keys[e["key"]], "note": e.get("note", "")}
-                           for e in c.get("example_images", []) if e.get("key") in self.keys],
+                "images": [{"id": self.keys.get(e.get("key")) or e.get("id"), "note": e.get("note", "")}
+                           for e in c.get("example_images", []) if e.get("key") in self.keys or e.get("id") in self.images],
             }
 
 
@@ -306,6 +310,44 @@ class Library:
             ids = self.add_sources(m.get("sources"), "image" if img else "photographer", img or by_name.get(m.get("photographer"), ""), accessed)
             self.myths.append({"image_id": img, "photographer_id": by_name.get(m.get("photographer")), "claim": m.get("claim_de", ""),
                                "fact_md": q_to_s(m.get("fact_de", ""), ids), "source_ids": ids})
+        return n
+
+    def import_extras(self, data: dict) -> int:
+        """numbers / influences / constants / cloze (one file may hold any of them)."""
+        accessed = data.get("accessed_at") or time.strftime("%Y-%m-%d")
+        by_name = {p["name"]: p["id"] for p in self.photographers.values()}
+        proj = {(pr["title"], pr["photographer_id"]): pr["id"] for pr in self.projects.values()}
+        n = 0
+        for x in data.get("numbers", []):
+            img = x.get("image_id") if x.get("image_id") in self.images else None
+            if x.get("image_id") and not img:
+                continue
+            pid = by_name.get(x.get("photographer"))
+            ids = self.linked_sources(x.get("sources"), "number", img or pid or "", accessed)
+            self.numbers.append({"image_id": img, "photographer_id": pid, "project": x.get("project"), "quantity": x.get("quantity", ""),
+                                 "question": x.get("question_de", ""), "value": x["value"], "unit": x.get("unit", ""), "min": x.get("min"), "max": x.get("max"),
+                                 "tolerance": x.get("tolerance"), "answer_md": q_to_s(x.get("answer_de", ""), ids), "source_ids": ids})
+            n += 1
+        for x in data.get("influences", []):
+            a, b = by_name.get(x.get("from")), by_name.get(x.get("to"))
+            if not (a and b) or a == b:
+                continue
+            ids = self.linked_sources(x.get("sources"), "influence", f"{a}>{b}", accessed)
+            self.influences.append({"from": a, "to": b, "kind": x.get("kind", ""), "statement_md": q_to_s(x.get("statement_de", ""), ids), "source_ids": ids})
+            n += 1
+        for x in data.get("constants", []):
+            pid = by_name.get(x.get("photographer")); prid = proj.get((x.get("project"), pid))
+            if not prid:
+                print(f"  ! Konstanten: Projekt nicht gefunden: {x.get('project')}", file=sys.stderr)
+                continue
+            ids = self.linked_sources(x.get("sources"), "project", prid, accessed)
+            self.constants.append({"project_id": prid, "photographer_id": pid, "constants": [c["text_de"] for c in x.get("constants", [])],
+                                   "decoys": x.get("decoys_de", []), "answer_md": q_to_s(x.get("answer_de", ""), ids), "source_ids": ids})
+            n += 1
+        for x in data.get("items", []):  # cloze
+            if x.get("source_id") in self.sources and x.get("blank") and x["blank"] in self.sources[x["source_id"]]["excerpt"]:
+                self.cloze.append({k: x.get(k) for k in ("source_id", "blank", "distractors", "blank_de", "distractors_de", "topic")})
+                n += 1
         return n
 
     def media_ref(self, item: dict, title: str) -> str:
@@ -533,6 +575,7 @@ def main() -> None:
     bios = sum(lib.import_bios(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("photographers_bio*.json")))
     refs = sum(lib.import_references(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("references_*.json")))
     quotes = sum(lib.import_quotes(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("quotes_*.json")))
+    extras = sum(lib.import_extras(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("extras_*.json")))
     facts = sum(lib.import_technik(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("technik_*.json")))
     editing = sum(lib.import_editing(json.loads(f.read_text(encoding="utf-8"))) for f in sorted(SEED_DIR.glob("editing_*.json")))
 
@@ -552,6 +595,13 @@ def main() -> None:
             le["examples"] = [e for e in le["examples"] if e["image_id"] in lib.images]
             le["quiz"] = [q for q in le["quiz"] if not q.get("image_id") or q["image_id"] in lib.images]
 
+    geo_file = SEED_DIR / "geo_locations.json"  # geocoded from each image's location text (OSM Nominatim)
+    if geo_file.exists():
+        geo = json.loads(geo_file.read_text(encoding="utf-8"))["locations"]
+        for im in lib.images.values():
+            g = geo.get(im.get("location") or "")
+            if g:
+                im["geo"] = [g["lat"], g["lon"], g["level"]]
     sketches = load_sketches()
     for le in lib.lessons.values():
         check_directives(le, lib.images, sketches)
@@ -572,6 +622,10 @@ def main() -> None:
         "references": [r for r in lib.references.values() if r["image_id"] in lib.images],
         "facts": lib.facts,
         "anecdotes": [a for a in lib.anecdotes if a["image_id"] in lib.images],
+        "numbers": [x for x in lib.numbers if not x["image_id"] or x["image_id"] in lib.images],
+        "influences": lib.influences,
+        "constants": lib.constants,
+        "cloze": lib.cloze,
         "myths": lib.myths,
         "womit": lib.womit,
         "editing": editing_with_media(lib, args.media_dir),
@@ -580,7 +634,7 @@ def main() -> None:
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"{len(out['photographers'])} Fotografen, {len(out['images'])} Bilder, {len(out['sources'])} Quellen "
           f"({experts} Expertenstimmen), {bios} Biografien, {texts} Kapiteltexte, {lessons} Lektionen, {len(out['concepts'])} Begriffe, {refs} Quellen-Referenzen, "
-          f"{quotes} O-Töne, {len(lib.anecdotes)} Anekdoten, {len(lib.myths)} Mythen, {facts} Technik-Fakten, {editing} Auswahl-Übungen → {OUT.relative_to(ROOT)}")
+          f"{quotes} O-Töne, {len(lib.anecdotes)} Anekdoten, {len(lib.myths)} Mythen, {extras} Zahlen/Einflüsse/Konstanten/Lückenzitate, {facts} Technik-Fakten, {editing} Auswahl-Übungen → {OUT.relative_to(ROOT)}")
     if failed:
         print("\nNicht geladen:", *failed, sep="\n  - ")
 

@@ -18,6 +18,7 @@ export async function loadLibrary() {
   lib.womit = base.womit || [];
   lib.anecdotes = base.anecdotes || [];
   lib.myths = base.myths || [];
+  for (const k of ["numbers", "influences", "constants", "cloze"]) lib[k] = base[k] || [];
   lib.editing = base.editing || { series: [], versions: [], sequences: [] };
   lib.built_at = base.built_at;
   index();

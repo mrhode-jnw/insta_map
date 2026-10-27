@@ -31,20 +31,21 @@ export const SEGMENTS = {
   match: { name: "Begriffe zuordnen", scored: true }, cquote: { name: "Begriff zum Zitat", scored: true, quiz: true }, skline: { name: "Skizze zum Satz", scored: true, quiz: true },
   place: { name: "Selber Ort, zwei Blicke" }, task: { name: "Aufgabe für unterwegs" },
   womit: { name: "Womit entstand es?", scored: true }, tlook: { name: "Technik und Wirkung" }, contact: { name: "Die Wahl des Fotografen", scored: true },
-  sheet: { name: "Kontaktbogen" }, myth: { name: "Belegt oder Mythos?", scored: true }, anec: { name: "Was geschah hier?" }, version: { name: "Welche Fassung?", scored: true }, bookseq: { name: "Buchfolge", scored: true },
+  sheet: { name: "Kontaktbogen" }, est: { name: "Schätz-Regler", scored: true }, infl: { name: "Wer lernte von wem?", scored: true },
+  const: { name: "Konstanten finden", scored: true }, cloze: { name: "Lückenzitat", scored: true }, geo: { name: "Wo auf der Welt?", scored: true }, myth: { name: "Belegt oder Mythos?", scored: true }, anec: { name: "Was geschah hier?" }, version: { name: "Welche Fassung?", scored: true }, bookseq: { name: "Buchfolge", scored: true },
   sketch: { name: "Mini-Lektion" }, merke: { name: "Merksatz" }, pinfo: { name: "Porträt" }, concept: { name: "Seh-Begriff" },
   who: { name: "Wer war's?", scored: true, quiz: true }, year: { name: "Jahrzehnt", scored: true, quiz: true },
   chap: { name: "Geschichte", scored: true, quiz: true }, ref: { name: "Laut Quelle", scored: true, quiz: true }, quiz: { name: "Theoriefrage", scored: true, quiz: true },
 };
 export const TOPICS = [ // weights per segment; pure information cards kept to roughly 15 % (Didaktik-Recherche)
-  ["mix", "Bunt gemischt", { myth: 2, anec: 1, womit: 2, tlook: 1, contact: 2, sheet: 1, version: 2, bookseq: 1, order: 2, crop: 1, tf: 1, look: 1, pair: 1, story: 1, quote: 1, sketch: 1, merke: 1, pinfo: 1, concept: 1, memory: 2, tiles: 1, mirror: 1, guess: 1, stamp: 1,
+  ["mix", "Bunt gemischt", { est: 2, infl: 1, const: 2, cloze: 2, geo: 2, myth: 2, anec: 1, womit: 2, tlook: 1, contact: 2, sheet: 1, version: 2, bookseq: 1, order: 2, crop: 1, tf: 1, look: 1, pair: 1, story: 1, quote: 1, sketch: 1, merke: 1, pinfo: 1, concept: 1, memory: 2, tiles: 1, mirror: 1, guess: 1, stamp: 1,
     blitz: 2, hand: 1, odd: 2, zoomout: 2, tone: 2, zone: 1, edge: 2, change: 2, fmt: 1, mistake: 2, allok: 2, qimg: 1, srcimg: 1, aspect: 1, voices: 1, match: 1, cquote: 1, skline: 1, place: 1, task: 1,
     who: 1, year: 1, chap: 1, ref: 1, quiz: 1 }],
-  ["schauen", "Schauen", { tlook: 2, version: 2, sheet: 1, look: 2, memory: 2, crop: 1, pair: 1, stamp: 1, mirror: 1, tone: 3, zone: 2, edge: 3, change: 3, fmt: 1, allok: 3, mistake: 2, zoomout: 1, place: 1, story: 1 }],
-  ["menschen", "Fotografen & O-Töne", { myth: 2, anec: 2, contact: 3, sheet: 2, quote: 2, tiles: 2, blitz: 3, hand: 3, odd: 2, zoomout: 2, qimg: 2, voices: 2, who: 1, pinfo: 1, story: 1, crop: 1 }],
-  ["geschichte", "Geschichte", { myth: 2, anec: 2, version: 2, bookseq: 2, womit: 2, order: 3, guess: 3, chap: 2, year: 1, story: 2, quote: 1, pinfo: 1, blitz: 1, odd: 1, qimg: 1 }],
-  ["theorie", "Theorie kompakt", { tlook: 2, womit: 2, sketch: 2, merke: 2, concept: 1, quiz: 2, pair: 1, aspect: 3, srcimg: 2, match: 3, cquote: 2, skline: 2, task: 1, mistake: 1 }],
-  ["quiz", "Nur Quiz", { myth: 2, womit: 2, contact: 1, who: 2, year: 1, chap: 1, ref: 2, quiz: 2, tf: 2, order: 1, crop: 1, guess: 1, tiles: 1, mistake: 2, aspect: 2, cquote: 1, skline: 1, hand: 1, odd: 1 }],
+  ["schauen", "Schauen", { const: 2, geo: 1, tlook: 2, version: 2, sheet: 1, look: 2, memory: 2, crop: 1, pair: 1, stamp: 1, mirror: 1, tone: 3, zone: 2, edge: 3, change: 3, fmt: 1, allok: 3, mistake: 2, zoomout: 1, place: 1, story: 1 }],
+  ["menschen", "Fotografen & O-Töne", { infl: 3, cloze: 3, myth: 2, anec: 2, contact: 3, sheet: 2, quote: 2, tiles: 2, blitz: 3, hand: 3, odd: 2, zoomout: 2, qimg: 2, voices: 2, who: 1, pinfo: 1, story: 1, crop: 1 }],
+  ["geschichte", "Geschichte", { infl: 2, est: 2, geo: 2, myth: 2, anec: 2, version: 2, bookseq: 2, womit: 2, order: 3, guess: 3, chap: 2, year: 1, story: 2, quote: 1, pinfo: 1, blitz: 1, odd: 1, qimg: 1 }],
+  ["theorie", "Theorie kompakt", { const: 1, cloze: 1, tlook: 2, womit: 2, sketch: 2, merke: 2, concept: 1, quiz: 2, pair: 1, aspect: 3, srcimg: 2, match: 3, cquote: 2, skline: 2, task: 1, mistake: 1 }],
+  ["quiz", "Nur Quiz", { est: 1, infl: 1, cloze: 1, geo: 1, myth: 2, womit: 2, contact: 1, who: 2, year: 1, chap: 1, ref: 2, quiz: 2, tf: 2, order: 1, crop: 1, guess: 1, tiles: 1, mistake: 2, aspect: 2, cquote: 1, skline: 1, hand: 1, odd: 1 }],
 ];
 
 const VOICE = { fotograf: "Fotograf:in", museum: "Museum", kurator: "Kurator:in", kritik: "Kritik", wissenschaft: "Wissenschaft" };
@@ -106,6 +107,11 @@ function candidates(type) {
     case "cquote": return lib.sources.filter(s => s.scope === "concept" && lib.by.concepts.get(s.scope_id) && s.excerpt.length < 420).map(s => String(s.id));
     case "skline": return p.sketches.map((d, i) => d.kurz ? String(i) : null).filter(Boolean);
     case "place": return p.places;
+    case "est": return lib.numbers.map((x, n) => x.min != null && x.max != null && x.max > x.min ? String(n) : null).filter(Boolean);
+    case "infl": return lib.influences.map((_, n) => String(n));
+    case "const": return lib.constants.map((x, n) => x.constants.length && x.decoys.length >= 2 && (p.byProj[x.project_id] || []).length >= 3 ? String(n) : null).filter(Boolean);
+    case "cloze": return lib.cloze.map((x, n) => lib.by.sources.get(x.source_id) ? String(n) : null).filter(Boolean);
+    case "geo": return lib.images.filter(i => i.geo && i.geo[2] <= 1 && i.location.split(",").length >= 2).map(i => i.id); // precise enough places only
     case "myth": return lib.myths.map((_, n) => `${n}`);
     case "anec": return lib.anecdotes.map((a, n) => img(a.image_id) ? `${a.image_id}|${n}` : null).filter(Boolean);
     case "womit": return lib.womit.map((q, n) => img(q.image_id) && (q.cls !== "silver" || n % 5 === 0) ? `${q.image_id}|${n}` : null).filter(Boolean); // silver prints: rarely, too easy
@@ -396,6 +402,39 @@ export function buildCard(c) {
       return { ...base, kind: "reveal", image: id, prompt: "Was geschah hier, bevor oder während das Bild entstand? Erst überlegen, dann aufdecken.",
         back_md: a.story_md, caption_md: label(img(id)), link: [`#/bild/${id}`, "Zur Bildseite"] };
     }
+    case "geo": { // GeoGuessr-like: tap the place on an unlabelled world map
+      const i = img(c.key);
+      return { ...base, kind: "geo", image: i.id, lat: i.geo[0], lon: i.geo[1], place: i.location, radius: 500, prompt: "Wo entstand das Bild? Tippe auf die Karte.",
+        explain_md: `${label(i)}.\n\n**Ort:** ${i.location}`, link: [`#/bild/${i.id}`, "Zur Bildseite"] };
+    }
+    case "est": { // estimate a sourced number with a slider (log scale for wide ranges)
+      const x = lib.numbers[+c.key];
+      return { ...base, kind: "estimate", image: x.image_id && img(x.image_id) ? x.image_id : null, prompt: x.question, value: x.value, unit: x.unit, min: x.min, max: x.max,
+        tolerance: x.tolerance ?? Math.abs(x.value) * 0.25, log: x.min > 0 && x.max / x.min >= 100, explain_md: x.answer_md,
+        link: x.image_id ? [`#/bild/${x.image_id}`, "Zur Bildseite"] : x.photographer_id ? [`#/fotograf/${x.photographer_id}`, "Zum Fotografen"] : ["#/kurz", "Häppchen"] };
+    }
+    case "infl": { // who learned from whom?
+      const x = lib.influences[+c.key], from = lib.by.photographers.get(x.from), to = lib.by.photographers.get(x.to);
+      const era = y => +(y || 0), others = pickN(lib.photographers.filter(ph => ph.id !== x.from && ph.id !== x.to && !lib.influences.some(i => i.to === x.to && i.from === ph.id)
+        && (!from.born || !ph.born || Math.abs(era(ph.born) - era(from.born)) < 35)), 3, r);
+      const verb = { lehrer: "lernte bei", vorbild: "hatte als Vorbild", assistent: "assistierte", kollege: "arbeitete eng mit", gruppe: "gehörte zur selben Gruppe wie" }[x.kind] || "wurde geprägt von";
+      return { ...base, kind: "mc", image: (p.byPh[x.to] || [])[0] || null, prompt: `${to.name} ${verb} …?`,
+        options: shuffleOpts([{ text: from.name, correct: true }, ...others.map(o => ({ text: o.name }))]), explain_md: x.statement_md, link: [`#/fotograf/${x.from}`, `Zu ${from.name}`] };
+    }
+    case "const": { // what stays constant across a series (Becher method)
+      const x = lib.constants[+c.key], ids = pickN(p.byProj[x.project_id], 4, r), proj = lib.by.projects.get(x.project_id);
+      const right = pickN(x.constants, 3, r), wrong = pickN(x.decoys, Math.max(2, 6 - right.length), r);
+      return { ...base, kind: "multi", thumbs: ids, prompt: `${who(ids[0])} – ${proj?.title || ""}: Was bleibt in der ganzen Serie gleich? Tippe alle zutreffenden an.`,
+        options: shuffleOpts([...right.map(t => ({ text: t, correct: true })), ...wrong.map(t => ({ text: t }))]), explain_md: x.answer_md, link: [`#/fotograf/${x.photographer_id}`, "Zum Fotografen"] };
+    }
+    case "cloze": { // one key word missing from a photographer's statement
+      const x = lib.cloze[+c.key], q = lib.by.sources.get(x.source_id), id = q.scope === "image" ? q.scope_id : null, k = q.excerpt.indexOf(x.blank);
+      const ph = q.scope === "image" ? photographerOf(img(q.scope_id)) : lib.by.photographers.get(q.scope_id);
+      return { ...base, kind: "mc", quote: `${q.excerpt.slice(0, k)}_____${q.excerpt.slice(k + x.blank.length)}`, prompt: `${ph?.name || q.author || ""}: Welches Wort fehlt?`,
+        options: shuffleOpts([{ text: x.blank, correct: true }, ...(x.distractors || []).slice(0, 3).map(t => ({ text: t }))]),
+        explain_md: `„${q.excerpt}“\n\n– ${q.author || ph?.name || ""}${q.title ? `, ${q.title}` : ""} [S${q.id}]${q.translation_de ? `\n\n*Übersetzung:* ${q.translation_de}` : ""}`,
+        link: id ? [`#/bild/${id}`, "Zur Bildseite"] : ph ? [`#/fotograf/${ph.id}`, "Zum Fotografen"] : ["#/kurz", "Häppchen"] };
+    }
     case "quiz": {
       const [lid, n] = c.key.split("|"), l = lib.by.lessons.get(lid), q = l.quiz[+n];
       return { ...base, kind: "mc", label: `Theoriefrage · ${l.title.split(":")[0]}`, prompt: q.question, image: q.image_id && img(q.image_id) ? q.image_id : null,
@@ -470,7 +509,8 @@ export function isRight(card, res) {
   if (card.kind === "swipe2") return Array.isArray(res) && res.length === card.items.length && res.filter((v, k) => v === card.items[k].side).length >= Math.ceil(card.items.length * 0.75);
   if (card.kind === "multi") return Array.isArray(res) && card.options.every((o, k) => !!o.correct === res.includes(k));
   if (card.kind === "assign") return Array.isArray(res) && card.rows.every((row, k) => card.labels[res[k]] === row.answer);
-  if (card.kind === "tone" || card.kind === "fmt") return !!res.ok;
+  if (card.kind === "tone" || card.kind === "fmt" || card.kind === "geo") return !!res.ok;
+  if (card.kind === "estimate") return Math.abs(res - card.value) <= card.tolerance;
   if (card.kind === "slider") return Math.abs(res - card.year) <= card.tolerance;
   if (card.kind === "order") return Array.isArray(res) && res.length === card.items.length && res.every((v, k) => v === card.solution[k]);
   return null;

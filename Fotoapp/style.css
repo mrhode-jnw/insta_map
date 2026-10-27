@@ -462,3 +462,5 @@ button.big { font-size: 1.05rem; padding: 12px 22px; }
   font: 700 .8rem/22px system-ui, sans-serif; text-align: center; text-shadow: 0 0 3px #000; pointer-events: none; }
 .snack-opts.thumbs3[style*="--n:4"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .snack-opts.thumbs3:is([style*="--n:5"], [style*="--n:6"], [style*="--n:7"], [style*="--n:8"]) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.snack-map { height: 46vh; min-height: 260px; border-radius: 4px; margin: 6px 0 12px; background: #0e1012; }
+.snack-geo .snack-img img { max-height: 28vh; }

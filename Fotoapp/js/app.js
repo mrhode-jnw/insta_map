@@ -392,7 +392,7 @@ views.lektion = async id => {
 async function snackStats() { return (await loadState("progress", { theory: {} })).snacks || { total: 0, right: 0, rounds: 0, last: {} }; }
 const SEG_ICON = { order: "⏳", crop: "🔍", tf: "✓✗", look: "👁", pair: "⇆", story: "📖", quote: "❝", sketch: "✎", merke: "★", pinfo: "◉", concept: "◇",
   memory: "◐", tiles: "▦", mirror: "⇋", guess: "≈", stamp: "▪", blitz: "⚡", hand: "✍", odd: "◌", zoomout: "⤢", tone: "◑", zone: "▤", edge: "⌗", change: "Δ",
-  fmt: "▭", myth: "?!", anec: "✦", womit: "⚙", tlook: "⚙", contact: "▦", sheet: "▤", version: "⇆", bookseq: "☷", mistake: "✗", allok: "☑", qimg: "❝", srcimg: "⌕", aspect: "◎", voices: "☰", match: "⇄", cquote: "◇", skline: "✎", place: "⌖", task: "➜", who: "?", year: "#", chap: "§", ref: "❞", quiz: "?" };
+  fmt: "▭", geo: "◍", est: "↔", infl: "↝", const: "≡", cloze: "▁", myth: "?!", anec: "✦", womit: "⚙", tlook: "⚙", contact: "▦", sheet: "▤", version: "⇆", bookseq: "☷", mistake: "✗", allok: "☑", qimg: "❝", srcimg: "⌕", aspect: "◎", voices: "☰", match: "⇄", cquote: "◇", skline: "✎", place: "⌖", task: "➜", who: "?", year: "#", chap: "§", ref: "❞", quiz: "?" };
 views.kurz = async () => {
   const st = await snackStats(), open = sess.get("snack");
   const wrongN = Object.values(st.last || {}).filter(v => v === 0).length;
@@ -456,7 +456,7 @@ function snackBody(card, res, st) {
       return `<p class="snack-q">${right} von ${n} richtig</p>${dots}<div class="order-grid">${card.items.map((it, j) => `<div class="order-item ${got[j] === it.side ? "right" : "wrong"}">${media(it.id)}<span>${esc(card.bins[it.side])}</span></div>`).join("")}</div>
         ${after(okText(isRight(card, res)) + md(card.explain_md))}`; }
     case "multi": { const sel = done ? res : (st.sel?.[st.pos] || []);
-      return `${hero(card.image)}<h2 class="snack-q">${esc(card.prompt)}</h2><div class="chips">${card.options.map((o, k) => `<button class="chip${sel.includes(k) ? " on" : ""}${done ? (o.correct ? " right" : sel.includes(k) ? " wrong" : " dim") : ""}" data-action="snack-toggle" data-i="${k}" ${done ? "disabled" : ""}>${esc(o.text)}</button>`).join("")}</div>
+      return `${card.thumbs ? `<div class="thumbs mini">${card.thumbs.map(id => `<span class="thumb">${media(id)}</span>`).join("")}</div>` : hero(card.image)}<h2 class="snack-q">${esc(card.prompt)}</h2><div class="chips">${card.options.map((o, k) => `<button class="chip${sel.includes(k) ? " on" : ""}${done ? (o.correct ? " right" : sel.includes(k) ? " wrong" : " dim") : ""}" data-action="snack-toggle" data-i="${k}" ${done ? "disabled" : ""}>${esc(o.text)}</button>`).join("")}</div>
         ${done ? after(okText(isRight(card, res)) + `<p class="small muted">Grün umrandet = laut Quelle zutreffend.</p>` + md(card.explain_md)) : `<button class="big" data-action="snack-check" ${sel.length ? "" : "disabled"}>Prüfen</button>`}`; }
     case "assign": { const sel = done ? res : (st.sel?.[st.pos] || []);
       return `${card.image ? `<figure class="snack-img small">${media(card.image, "m")}</figure>` : ""}<h2 class="snack-q">${esc(card.prompt)}</h2>
@@ -475,6 +475,19 @@ function snackBody(card, res, st) {
     case "fmt": return `${done ? hero(card.image) : `<figure class="snack-crop square">${media(card.image, "m")}</figure>`}<h2 class="snack-q">${esc(card.prompt)}</h2>
       <div class="snack-opts">${card.options.map((o, k) => `<button class="opt${done ? (k === res.truth ? " right" : k === res.pick ? " wrong" : " dim") : ""}" data-action="snack-fmt" data-i="${k}" ${done ? "disabled" : ""}>${esc(o.text)}</button>`).join("")}</div>
       ${done ? after(okText(res.ok) + `<p>Original: ${res.portrait ? "Hochformat" : "Querformat"}, Seitenverhältnis ${res.ratio.toFixed(2).replace(".", ",")} : 1.</p>` + md(card.explain_md)) : ""}`;
+    case "estimate": { const toVal = t => card.log ? card.min * (card.max / card.min) ** (t / 1000) : card.min + (card.max - card.min) * t / 1000;
+      const nice = v => { const a = Math.abs(v); return (a >= 100 ? Math.round(v) : a >= 10 ? Math.round(v * 10) / 10 : Math.round(v * 100) / 100).toLocaleString("de-DE"); };
+      if (!done) return `${card.image ? hero(card.image) : ""}<h2 class="snack-q">${esc(card.prompt)}</h2>
+        <div class="year-guess"><output id="snack-est-out">${nice(toVal(500))} ${esc(card.unit)}</output><input type="range" id="snack-est" min="0" max="1000" step="1" value="500"
+          data-min="${card.min}" data-max="${card.max}" data-log="${card.log ? 1 : ""}" data-unit="${esc(card.unit)}">
+        <div class="year-scale"><span>${nice(card.min)} ${esc(card.unit)}</span><span>${nice(card.max)} ${esc(card.unit)}</span></div></div>
+        <button class="big" data-action="snack-est">Tippen</button>`;
+      return `${card.image ? hero(card.image) : ""}<h2 class="snack-q">${esc(card.prompt)}</h2>
+        <div class="year-result"><span>Dein Tipp <b>${nice(res)} ${esc(card.unit)}</b></span><span>Laut Quelle <b>${nice(card.value)} ${esc(card.unit)}</b></span></div>
+        ${after(okText(isRight(card, res)) + `<p class="small muted">Richtig bei höchstens ${nice(card.tolerance)} ${esc(card.unit)} Abweichung.</p>` + md(card.explain_md))}`; }
+    case "geo": return `${hero(card.image)}<h2 class="snack-q">${esc(card.prompt)}</h2><div id="snack-map" class="snack-map"></div>
+      ${done ? `<div class="year-result"><span>Abstand <b>${res.km.toLocaleString("de-DE")} km</b></span></div>${after(okText(res.ok) + `<p class="small muted">Richtig bis ${card.radius} km. Koordinaten aus der Ortsangaben-Suche (OpenStreetMap).</p>` + md(card.explain_md))}`
+        : `<button class="big" data-action="snack-geo" ${st.geo?.[st.pos] ? "" : "disabled"}>Tippen</button>`}`;
     case "slider": { const mid = Math.round((card.min + card.max) / 2 / 5) * 5;
       if (!done) return `${hero(card.image)}<h2 class="snack-q">${esc(card.prompt)}</h2>
         <div class="year-guess"><output id="snack-year-out">${mid}</output><input type="range" id="snack-year" min="${card.min}" max="${card.max}" step="1" value="${mid}">
@@ -514,6 +527,7 @@ views.kurzKarte = async () => {
   clearTimeout(snackTimer); if (card.kind === "look" && !done) snackTimer = setTimeout(snackTick, 1000);
   if ((card.memorize || card.preview) && !done && !st.memo?.[st.pos]) snackTimer = setTimeout(() => actions["snack-memo"](), (card.memorize || card.preview) * 1000);
   if (card.kind === "tone" && !st.tone?.[st.pos]) snackTimer = setTimeout(() => measureTone(st.pos, card), 250);
+  if (card.kind === "geo") setTimeout(() => snackMap(st.pos, card, done ? st.results[st.pos] : null), 0);
   return compactRefs(`<div class="snack snack-${card.kind}" data-swipe="${done ? "next" : ""}">
     <div class="snack-top"><span class="seg"><i>${SEG_ICON[card.type] || ""}</i>${esc(card.label)}</span><span class="snack-count">${st.pos + 1}/${st.cards.length}</span></div>
     <div class="snack-bar"><i style="width:${100 * st.pos / st.cards.length}%"></i></div>
@@ -522,6 +536,29 @@ views.kurzKarte = async () => {
     ${nx && (nx.image || nx.crop || nx.zoom || nx.items) ? `<img data-media="${esc(nx.image || nx.crop?.id || nx.zoom?.id || nx.items[0].id)}" data-kind="m" class="preload" alt="">` : ""}</div>`, new Map());
 };
 let snackTimer = null;
+// World map for "Wo auf der Welt?": Leaflet (loaded on first use) with unlabelled tiles, so the map gives nothing away.
+let leafletP = null;
+const loadLeaflet = () => leafletP ||= new Promise((ok, fail) => {
+  const css = document.createElement("link"); css.rel = "stylesheet"; css.href = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"; document.head.append(css);
+  const js = document.createElement("script"); js.src = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"; js.onload = () => ok(window.L); js.onerror = fail; document.head.append(js);
+});
+const kmBetween = (a, b) => { const r = Math.PI / 180, x = Math.sin((b[0] - a[0]) * r / 2) ** 2 + Math.cos(a[0] * r) * Math.cos(b[0] * r) * Math.sin((b[1] - a[1]) * r / 2) ** 2; return Math.round(12742 * Math.asin(Math.sqrt(x))); };
+async function snackMap(pos, card, res) {
+  const el = document.getElementById("snack-map"); if (!el || el.dataset.ready) return;
+  el.dataset.ready = "1";
+  const L = await loadLeaflet().catch(() => null); if (!L) { el.textContent = "Karte konnte nicht geladen werden."; return; }
+  const st = sess.get("snack"), guess = st?.geo?.[pos];
+  const map = L.map(el, { worldCopyJump: true, attributionControl: true, zoomControl: true }).setView(guess ? [guess.lat, guess.lon] : [25, 10], guess ? 3 : 1);
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", { maxZoom: 10, attribution: "© OpenStreetMap, © CARTO" }).addTo(map);
+  const dot = (ll, color) => L.circleMarker(ll, { radius: 8, color, weight: 3, fillOpacity: .8 }).addTo(map);
+  if (guess) dot([guess.lat, guess.lon], "#d8b06a");
+  if (res) { const truth = [card.lat, card.lon]; dot(truth, "#8fc49a"); L.polyline([[guess.lat, guess.lon], truth], { color: "#d8b06a", dashArray: "4 6" }).addTo(map);
+    map.fitBounds(L.latLngBounds([[guess.lat, guess.lon], truth]).pad(0.4), { maxZoom: 6 }); return; }
+  map.on("click", e => { const s2 = sess.get("snack"); if (!s2 || s2.results[pos] != null) return; const ll = e.latlng.wrap();
+    (s2.geo ||= {})[pos] = { lat: ll.lat, lon: ll.lng }; sess.set("snack", s2);
+    map.eachLayer(l => l instanceof L.CircleMarker && map.removeLayer(l)); dot(ll, "#d8b06a");
+    const b = document.querySelector('[data-action="snack-geo"]'); if (b) b.disabled = false; });
+}
 const imgS = (id, style, kind = "m") => `<img data-media="${esc(id)}" data-kind="${kind}" alt="" style="${style}">`;
 // Tonal values of the shown image: luminance → CIE L* (0–100), zone ≈ L*/10. Picks points deterministically from the card's candidates.
 function measureTone(pos, card, tries = 0) {
@@ -541,7 +578,9 @@ function measureTone(pos, card, tries = 0) {
   else pick = { a: pts.find(p => p.L > 8 && p.L < 95) || pts[0] };
   (st.tone ||= {})[pos] = pick; sess.set("snack", st); route(true);
 }
-document.addEventListener("input", e => { if (e.target.id === "snack-year") document.getElementById("snack-year-out").textContent = e.target.value; });
+document.addEventListener("input", e => { if (e.target.id === "snack-year") document.getElementById("snack-year-out").textContent = e.target.value;
+  if (e.target.id === "snack-est") { const v = estValue(e.target); document.getElementById("snack-est-out").textContent = `${(Math.abs(v) >= 100 ? Math.round(v) : Math.round(v * 10) / 10).toLocaleString("de-DE")} ${e.target.dataset.unit}`; } });
+const estValue = el => { const t = Number(el.value), lo = Number(el.dataset.min), hi = Number(el.dataset.max); return el.dataset.log ? lo * (hi / lo) ** (t / 1000) : lo + (hi - lo) * t / 1000; };
 function snackTick() {
   const el = document.getElementById("snack-timer"); if (!el) return;
   const left = Number(el.dataset.left) - 1;
@@ -555,7 +594,7 @@ function snackEnd(st) {
   return `<h1>Runde geschafft</h1><div class="stats"><span><b>${right}</b>/${scored.length} richtig</span>${seen ? `<span><b>${seen}</b> Geschichten, Bilder und Wissenskarten</span>` : ""}</div>
   ${wrong.length ? `<h3>Zum Nachlesen</h3><ul class="snack-wrong">${wrong.map(([, k]) => { const im = k.image || k.crop?.id || k.items?.[0]?.id;
     return `<li>${im ? `<a href="${k.link[0]}">${media(im)}</a>` : ""}<div><span class="muted small">${esc(k.label)}</span><br>${k.kind === "mc" ? mdInline(k.options.find(o => o.correct).text) : k.kind === "multi" ? k.options.filter(o => o.correct).map(o => esc(o.text)).join(" · ") : k.kind === "assign" ? k.rows.map(r => esc(r.answer)).join(" · ")
-      : k.kind === "swipe2" ? `${esc(k.bins[0])} oder ${esc(k.bins[1])}` : k.kind === "tone" || k.kind === "fmt" ? esc(k.prompt) : k.kind === "tf" ? (k.truth ? "Stimmt: " : "Stimmt nicht: ") + esc(k.statement) : k.kind === "slider" ? `Entstanden ${k.year}` : "Reihenfolge: " + k.solution.map(x => k.items[x].label || k.items[x].year).join(" → ")} <a href="${k.link[0]}">→</a></div></li>`; }).join("")}</ul>
+      : k.kind === "swipe2" ? `${esc(k.bins[0])} oder ${esc(k.bins[1])}` : k.kind === "tone" || k.kind === "fmt" ? esc(k.prompt) : k.kind === "tf" ? (k.truth ? "Stimmt: " : "Stimmt nicht: ") + esc(k.statement) : k.kind === "slider" ? `Entstanden ${k.year}` : k.kind === "estimate" ? `${k.value} ${esc(k.unit)}` : k.kind === "geo" ? esc(k.place) : "Reihenfolge: " + k.solution.map(x => k.items[x].label || k.items[x].year).join(" → ")} <a href="${k.link[0]}">→</a></div></li>`; }).join("")}</ul>
     <p class="muted small">Diese Karten kommen in einer der nächsten Runden wieder.</p>` : scored.length ? `<p class="ok">Alles richtig.</p>` : ""}
   <p><button class="big" data-action="snack-again">Noch eine Runde</button> <a href="#/kurz">Thema wechseln</a></p>`;
 }
@@ -966,6 +1005,9 @@ const actions = {
     const ratio = Math.max(el.naturalWidth, el.naturalHeight) / Math.min(el.naturalWidth, el.naturalHeight), card = buildCard(sess.get("snack").cards[sess.get("snack").pos]);
     const truth = card.options.reduce((b, o, k) => Math.abs(Math.log(o.v / ratio)) < Math.abs(Math.log(card.options[b].v / ratio)) ? k : b, 0), pick = Number(btn.dataset.i);
     snackSet(st => st.results[st.pos] ?? { pick, truth, ok: pick === truth, ratio, portrait: el.naturalHeight > el.naturalWidth }); },
+  "snack-geo"() { snackSet(st => { if (st.results[st.pos] != null) return st.results[st.pos]; const g = st.geo?.[st.pos], card = buildCard(st.cards[st.pos]);
+    const km = kmBetween([g.lat, g.lon], [card.lat, card.lon]); return { km, ok: km <= card.radius }; }); },
+  "snack-est"() { const el = document.getElementById("snack-est"); if (!el) return; const v = estValue(el); snackSet(st => st.results[st.pos] ?? v); },
   "snack-step"() { snackSet(st => (typeof st.results[st.pos] === "number" ? st.results[st.pos] : 0) + 1); },
   "snack-next"() {
     const st = sess.get("snack"); if (!st) return;
@@ -1362,7 +1404,7 @@ window.addEventListener("popstate", closeViewer);
 // swipe left on an answered Häppchen card = next
 let swipeX = null;
 let swipeBlitz = false;
-document.addEventListener("touchstart", e => { swipeBlitz = !!e.target.closest("[data-blitz]"); swipeX = swipeBlitz || e.target.closest('.snack[data-swipe="next"]') ? e.touches[0].clientX : null; }, { passive: true });
+document.addEventListener("touchstart", e => { swipeBlitz = !!e.target.closest("[data-blitz]"); swipeX = swipeBlitz || (e.target.closest('.snack[data-swipe="next"]') && !e.target.closest(".snack-map")) ? e.touches[0].clientX : null; }, { passive: true });
 document.addEventListener("touchend", e => {
   if (swipeX == null) return; const dx = e.changedTouches[0].clientX - swipeX; swipeX = null;
   if (swipeBlitz) { if (Math.abs(dx) > 60) actions["snack-bin"]({ dataset: { v: dx > 0 ? "1" : "0" } }); return; } // Blitzsortierer: left = A, right = B
