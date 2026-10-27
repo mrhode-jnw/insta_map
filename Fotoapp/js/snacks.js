@@ -111,7 +111,7 @@ function candidates(type) {
     case "infl": return lib.influences.map((_, n) => String(n));
     case "const": return lib.constants.map((x, n) => x.constants.length && x.decoys.length >= 2 && (p.byProj[x.project_id] || []).length >= 3 ? String(n) : null).filter(Boolean);
     case "cloze": return lib.cloze.map((x, n) => lib.by.sources.get(x.source_id) ? String(n) : null).filter(Boolean);
-    case "geo": return lib.images.filter(i => i.geo && i.geo[2] <= 1 && i.location.split(",").length >= 2).map(i => i.id); // precise enough places only
+    case "geo": return lib.images.filter(i => i.geo && i.geo[2] === 0).map(i => i.id); // precise enough places only
     case "myth": return lib.myths.map((_, n) => `${n}`);
     case "anec": return lib.anecdotes.map((a, n) => img(a.image_id) ? `${a.image_id}|${n}` : null).filter(Boolean);
     case "womit": return lib.womit.map((q, n) => img(q.image_id) && (q.cls !== "silver" || n % 5 === 0) ? `${q.image_id}|${n}` : null).filter(Boolean); // silver prints: rarely, too easy

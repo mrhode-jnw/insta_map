@@ -141,7 +141,6 @@
    "level": 0,
    "name": "Atlantic City, Atlantic County, New Jersey, Vereinigte Staaten von Amerika"
   },
-  "Avebury": null,
   "Avebury, Wiltshire, England": {
    "lat": 51.4286,
    "lon": -1.8517,
@@ -177,7 +176,6 @@
    "level": 1,
    "name": "Süd-Dakota, Vereinigte Staaten von Amerika"
   },
-  "Bahrain": null,
   "Baia delle Zagare, Apulien, Italien": {
    "lat": 41.7485,
    "lon": 16.1465,
@@ -458,7 +456,6 @@
    "level": 0,
    "name": "Buffalo County, Süd-Dakota, Vereinigte Staaten von Amerika"
   },
-  "Bujuku": null,
   "Bukarest, Rumänien": {
    "lat": 44.4361,
    "lon": 26.1027,
@@ -627,7 +624,6 @@
    "level": 0,
    "name": "Chicago, South Chicago Township, Cook County, Illinois, Vereinigte Staaten von Amerika"
   },
-  "China": null,
   "Chogolisa (Bride Peak), Karakorum": {
    "lat": 35.5331,
    "lon": 76.4456,
@@ -635,7 +631,6 @@
    "level": 2,
    "name": "Karakorum, Pakistan"
   },
-  "Chongqing": null,
   "Chongqing, China": {
    "lat": 30.0552,
    "lon": 107.8749,
@@ -860,7 +855,6 @@
    "level": 1,
    "name": "Yosemite Nationalpark, Kalifornien, Vereinigte Staaten von Amerika"
   },
-  "Dolomiten, Italien": null,
   "Dorset, England": {
    "lat": 50.7968,
    "lon": -2.3447,
@@ -868,7 +862,6 @@
    "level": 0,
    "name": "Dorset, England, Vereinigtes Königreich"
   },
-  "Dublin, Ireland": null,
   "East Anglia, England": {
    "lat": 52.4617,
    "lon": 0.6976,
@@ -883,7 +876,6 @@
    "level": 0,
    "name": "Eden, Pueblo, Pueblo County, Colorado, 81008, Vereinigte Staaten von Amerika"
   },
-  "Edwards Air Force Base": null,
   "Engelberg, Schweiz": {
    "lat": 46.7986,
    "lon": 8.232,
@@ -961,8 +953,6 @@
    "level": 0,
    "name": "Franklin County, Washington, Vereinigte Staaten von Amerika"
   },
-  "Französische Küste": null,
-  "Französische Küste (Ort unbekannt)": null,
   "French Quarter, New Orleans, USA": {
    "lat": 29.9575,
    "lon": -90.0629,
@@ -1018,6 +1008,2775 @@
    "query": "Gillette, Wyoming, USA",
    "level": 0,
    "name": "Gillette, Campbell County, Wyoming, 82718, Vereinigte Staaten von Amerika"
+  },
+  "Gipfel des Ryakotta-Hügels, Distrikt Salem, Indien": {
+   "lat": 22.3511,
+   "lon": 78.6677,
+   "query": "Indien",
+   "level": 2,
+   "name": "Indien"
+  },
+  "Gizeh, Ägypten": {
+   "lat": 29.9871,
+   "lon": 31.2118,
+   "query": "Gizeh, Ägypten",
+   "level": 0,
+   "name": "Giseh, Al-Dschiza, 12524, Ägypten"
+  },
+  "Glacier National Park, Montana, USA": {
+   "lat": 48.6175,
+   "lon": -113.7609,
+   "query": "Glacier National Park, Montana, USA",
+   "level": 0,
+   "name": "Glacier National Park, Montana, Vereinigte Staaten von Amerika"
+  },
+  "Glasgow, Schottland": {
+   "lat": 55.8612,
+   "lon": -4.2502,
+   "query": "Glasgow, Schottland",
+   "level": 0,
+   "name": "Glasgow, Glasgow City, Schottland, G2 1AL, Vereinigtes Königreich"
+  },
+  "Glen Canyon": {
+   "lat": 36.8796,
+   "lon": -111.5341,
+   "query": "Glen Canyon",
+   "level": 0,
+   "name": "Glen Canyon, Coconino County, Arizona, Vereinigte Staaten von Amerika"
+  },
+  "Avebury": {
+   "lat": 51.4286,
+   "lon": -1.8517,
+   "query": "Avebury",
+   "level": 0,
+   "name": "Avebury Stone Circle, High Street, Avebury Trusloe, Beckhampton, Avebury, Wiltshire, England, SN8 1RF, Vereinigtes König"
+  },
+  "Bahrain": {
+   "lat": 26.1551,
+   "lon": 50.5345,
+   "query": "Bahrain",
+   "level": 0,
+   "name": "Bahrain"
+  },
+  "Bujuku": {
+   "lat": 0.3809,
+   "lon": 29.9333,
+   "query": "Bujuku",
+   "level": 0,
+   "name": "Bujuku, Kasese, West-Region, Uganda"
+  },
+  "China": {
+   "lat": 34.5412,
+   "lon": 108.9237,
+   "query": "China",
+   "level": 0,
+   "name": "China"
+  },
+  "Chongqing": {
+   "lat": 30.0552,
+   "lon": 107.8749,
+   "query": "Chongqing",
+   "level": 0,
+   "name": "Chongqing, China"
+  },
+  "Dolomiten, Italien": {
+   "lat": 46.2946,
+   "lon": 12.0513,
+   "query": "Dolomiten, Italien",
+   "level": 0,
+   "name": "Dolomiten, Venetien, Italien"
+  },
+  "Dublin, Ireland": {
+   "lat": 53.3494,
+   "lon": -6.2606,
+   "query": "Dublin, Ireland",
+   "level": 0,
+   "name": "Dublin, County Dublin, Leinster, Irland"
+  },
+  "Edwards Air Force Base": {
+   "lat": 34.8899,
+   "lon": -117.833,
+   "query": "Edwards Air Force Base",
+   "level": 0,
+   "name": "Edwards Air Force Base, Kern County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Französische Küste": {
+   "lat": 43.4264,
+   "lon": 6.7227,
+   "query": "Französische Küste",
+   "level": 0,
+   "name": "Azurblaue Küste, Provence-Alpes-Côte d'Azur, Metropolitanes Frankreich, Frankreich"
+  },
+  "Französische Küste (Ort unbekannt)": null,
+  "Glen Canyon, Utah": {
+   "lat": 37.6581,
+   "lon": -111.0932,
+   "query": "Glen Canyon, Utah",
+   "level": 0,
+   "name": "Glen Canyon National Recreation Area, Utah, Vereinigte Staaten von Amerika"
+  },
+  "Glen Esk, Angus, Schottland": {
+   "lat": 56.886,
+   "lon": -2.7797,
+   "query": "Glen Esk, Angus, Schottland",
+   "level": 0,
+   "name": "Glen Esk, Tarfside, Angus, Schottland, Vereinigtes Königreich"
+  },
+  "Goa, Indien": {
+   "lat": 15.3005,
+   "lon": 74.0855,
+   "query": "Goa, Indien",
+   "level": 0,
+   "name": "Goa, Indien"
+  },
+  "Golden, Colorado, USA": {
+   "lat": 39.7546,
+   "lon": -105.2206,
+   "query": "Golden, Colorado, USA",
+   "level": 0,
+   "name": "Golden, Jefferson County, Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Goldfield, Nevada, USA": {
+   "lat": 37.7078,
+   "lon": -117.2341,
+   "query": "Goldfield, Nevada, USA",
+   "level": 0,
+   "name": "Goldfield, Esmeralda County, Nevada, 89013, Vereinigte Staaten von Amerika"
+  },
+  "Goodspring, Pennsylvania, USA": {
+   "lat": 40.6377,
+   "lon": -76.4943,
+   "query": "Goodspring, Pennsylvania, USA",
+   "level": 0,
+   "name": "South Goodspring Road, Lamberson, Hegins, Hegins Township, Schuylkill County, Pennsylvania, 17938, Vereinigte Staaten vo"
+  },
+  "Gouyave, Grenada": {
+   "lat": 12.1665,
+   "lon": -61.7297,
+   "query": "Gouyave, Grenada",
+   "level": 0,
+   "name": "Gouyave, Saint John, Grenada"
+  },
+  "Grabmal des Safdar Jang, Delhi, Indien": {
+   "lat": 28.6328,
+   "lon": 77.2198,
+   "query": "Delhi, Indien",
+   "level": 1,
+   "name": "Delhi, Indien"
+  },
+  "Grand Canyon National Park, Arizona, USA": {
+   "lat": 36.3079,
+   "lon": -112.2929,
+   "query": "Grand Canyon National Park, Arizona, USA",
+   "level": 0,
+   "name": "Grand Canyon National Park, Arizona, 86023, Vereinigte Staaten von Amerika"
+  },
+  "Grand Cañon, Colorado River, USA": {
+   "lat": 36.4542,
+   "lon": -111.8354,
+   "query": "Colorado River, USA",
+   "level": 1,
+   "name": "Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Grand Coulee Dam, Washington, USA": {
+   "lat": 47.9574,
+   "lon": -118.9764,
+   "query": "Grand Coulee Dam, Washington, USA",
+   "level": 0,
+   "name": "Grand Coulee Dam, Okanogan County, Washington, Vereinigte Staaten von Amerika"
+  },
+  "Grand Island, Nebraska, USA": {
+   "lat": 40.9243,
+   "lon": -98.3387,
+   "query": "Grand Island, Nebraska, USA",
+   "level": 0,
+   "name": "Grand Island, Hall County, Nebraska, Vereinigte Staaten von Amerika"
+  },
+  "Grand Mesa, Colorado, USA": {
+   "lat": 39.1131,
+   "lon": -108.0128,
+   "query": "Grand Mesa, Colorado, USA",
+   "level": 0,
+   "name": "Grand Mesa, Mesa County, Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Grand Teton National Park, Wyoming, USA": {
+   "lat": 43.8106,
+   "lon": -110.6488,
+   "query": "Grand Teton National Park, Wyoming, USA",
+   "level": 0,
+   "name": "Grand Teton National Park, Teton County, Wyoming, Vereinigte Staaten von Amerika"
+  },
+  "Grand Wash, Colorado River, USA": {
+   "lat": 36.4542,
+   "lon": -111.8354,
+   "query": "Colorado River, USA",
+   "level": 1,
+   "name": "Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Great Smoky Mountains National Park, Tennessee": {
+   "lat": 35.6342,
+   "lon": -83.4024,
+   "query": "Great Smoky Mountains National Park, Tennessee",
+   "level": 0,
+   "name": "Great Smoky Mountains National Park, Sevier County, East Tennessee, Tennessee, 37878, Vereinigte Staaten von Amerika"
+  },
+  "Greenland Inland Ice": null,
+  "Griechenland": {
+   "lat": 38.9954,
+   "lon": 21.9877,
+   "query": "Griechenland",
+   "level": 0,
+   "name": "Griechenland"
+  },
+  "Guadix, Granada, Andalusien, Spanien": {
+   "lat": 37.3724,
+   "lon": -3.0689,
+   "query": "Guadix, Granada, Andalusien, Spanien",
+   "level": 0,
+   "name": "Guadix, Comarca de Guadix, Granada, Andalusien, Spanien"
+  },
+  "Guiyu, Guangdong Province, China": {
+   "lat": 23.3202,
+   "lon": 116.3493,
+   "query": "Guiyu, Guangdong Province, China",
+   "level": 0,
+   "name": "贵屿镇, Shantou, Guangdong, China"
+  },
+  "Gulf of Mexico, Texas": {
+   "lat": 31.2639,
+   "lon": -98.5456,
+   "query": "Texas",
+   "level": 1,
+   "name": "Texas, Vereinigte Staaten von Amerika"
+  },
+  "Gunnedah, New South Wales, Australien": {
+   "lat": -31.0238,
+   "lon": 150.2037,
+   "query": "Gunnedah, New South Wales, Australien",
+   "level": 0,
+   "name": "Gunnedah Shire Council, Neusüdwales, 2380, Australien"
+  },
+  "Hafen von Kowloon, Hongkong": {
+   "lat": 22.2818,
+   "lon": 114.1583,
+   "query": "Hongkong",
+   "level": 1,
+   "name": "Hongkong, China"
+  },
+  "Hafen, Valparaíso, Chile": {
+   "lat": -33.0458,
+   "lon": -71.6197,
+   "query": "Valparaíso, Chile",
+   "level": 1,
+   "name": "Valparaíso, Provincia de Valparaíso, Región de Valparaíso, Chile"
+  },
+  "Haleakalā, Hawaii, USA": {
+   "lat": 20.7015,
+   "lon": -156.1733,
+   "query": "Haleakalā, Hawaii, USA",
+   "level": 0,
+   "name": "Haleakalā, Maui County, Hawaii, Vereinigte Staaten von Amerika"
+  },
+  "Hammersley Range, Australien": {
+   "lat": -24.7761,
+   "lon": 134.755,
+   "query": "Australien",
+   "level": 1,
+   "name": "Australien"
+  },
+  "Hancheng, Shaanxi": {
+   "lat": 35.4763,
+   "lon": 110.4508,
+   "query": "Hancheng, Shaanxi",
+   "level": 0,
+   "name": "Hancheng, Weinan, Shaanxi, China"
+  },
+  "Hang beim Gerberviertel, Fès, Marokko": {
+   "lat": 34.0347,
+   "lon": -5.0162,
+   "query": "Fès, Marokko",
+   "level": 1,
+   "name": "Fès, Pachalik du Fes باشوية فاس, Präfektur Fez, Fès-Meknès ⴼⴰⵙ-ⵎⴽⵏⴰⵙ فاس-مكناس, Marokko"
+  },
+  "Hangzhou, Zhejiang, China": {
+   "lat": 30.249,
+   "lon": 120.2052,
+   "query": "Hangzhou, Zhejiang, China",
+   "level": 0,
+   "name": "Hangzhou, Zhejiang, China"
+  },
+  "Havanna, Kuba": {
+   "lat": 23.1353,
+   "lon": -82.359,
+   "query": "Havanna, Kuba",
+   "level": 0,
+   "name": "Havanna, 10000, Kuba"
+  },
+  "Hawaii Volcanoes National Park, Hawaii, USA": {
+   "lat": 19.2608,
+   "lon": -155.3579,
+   "query": "Hawaii Volcanoes National Park, Hawaii, USA",
+   "level": 0,
+   "name": "Hawaiʻi Volcanoes National Park, Hawaii, 96718, Vereinigte Staaten von Amerika"
+  },
+  "Hennesey, Oklahoma, USA": {
+   "lat": 34.9551,
+   "lon": -97.2684,
+   "query": "Oklahoma, USA",
+   "level": 1,
+   "name": "Oklahoma, Vereinigte Staaten von Amerika"
+  },
+  "Hereford, Arizona, USA": {
+   "lat": 31.4384,
+   "lon": -110.0979,
+   "query": "Hereford, Arizona, USA",
+   "level": 0,
+   "name": "Hereford, Cochise County, Arizona, Vereinigte Staaten von Amerika"
+  },
+  "Hernandez, New Mexico, USA": {
+   "lat": 36.0628,
+   "lon": -106.1195,
+   "query": "Hernandez, New Mexico, USA",
+   "level": 0,
+   "name": "Hernandez, Rio Arriba County, Neumexiko, 87537, Vereinigte Staaten von Amerika"
+  },
+  "Hillsborough, New Hampshire": {
+   "lat": 42.9373,
+   "lon": -71.7514,
+   "query": "Hillsborough, New Hampshire",
+   "level": 0,
+   "name": "Hillsborough County, New Hampshire, Vereinigte Staaten von Amerika"
+  },
+  "Hof der Moschee Al-Qarawiyyin, Fès, Marokko": {
+   "lat": 34.0347,
+   "lon": -5.0162,
+   "query": "Fès, Marokko",
+   "level": 1,
+   "name": "Fès, Pachalik du Fes باشوية فاس, Präfektur Fez, Fès-Meknès ⴼⴰⵙ-ⵎⴽⵏⴰⵙ فاس-مكناس, Marokko"
+  },
+  "Hokkaido": {
+   "lat": 43.452,
+   "lon": 142.8198,
+   "query": "Hokkaido",
+   "level": 0,
+   "name": "Präfektur Hokkaido, Region Hokkaidō, Japan"
+  },
+  "Hokkaido, Japan": {
+   "lat": 43.452,
+   "lon": 142.8198,
+   "query": "Hokkaido, Japan",
+   "level": 0,
+   "name": "Präfektur Hokkaido, Region Hokkaidō, Japan"
+  },
+  "Hole in the Rock, Lake Powell, Utah": {
+   "lat": 37.3769,
+   "lon": -110.7261,
+   "query": "Lake Powell, Utah",
+   "level": 1,
+   "name": "Lake Powell, San Juan County, Utah, Vereinigte Staaten von Amerika"
+  },
+  "Homer, Alaska, USA": {
+   "lat": 59.6454,
+   "lon": -151.5446,
+   "query": "Homer, Alaska, USA",
+   "level": 0,
+   "name": "Homer, Kenai Peninsula Borough, Alaska, 99603, Vereinigte Staaten von Amerika"
+  },
+  "Hong Kong": {
+   "lat": 22.2818,
+   "lon": 114.1583,
+   "query": "Hong Kong",
+   "level": 0,
+   "name": "Hongkong, China"
+  },
+  "Hongkong": {
+   "lat": 22.2818,
+   "lon": 114.1583,
+   "query": "Hongkong",
+   "level": 0,
+   "name": "Hongkong, China"
+  },
+  "Hotan, Xinjiang, China": {
+   "lat": 37.111,
+   "lon": 79.9209,
+   "query": "Hotan, Xinjiang, China",
+   "level": 0,
+   "name": "Hotan, 和田地区 خوتەن ۋىلايىتى, Xinjiang, China"
+  },
+  "Hotelgarten, Akasaka, Tokio, Japan": {
+   "lat": 35.6717,
+   "lon": 139.7356,
+   "query": "Akasaka, Tokio, Japan",
+   "level": 1,
+   "name": "赤坂, Minato, Tokio, 107-0052, Japan"
+  },
+  "Hotelrestaurant, Tokio, Japan": {
+   "lat": 35.6769,
+   "lon": 139.7639,
+   "query": "Tokio, Japan",
+   "level": 1,
+   "name": "Tokio, Japan"
+  },
+  "Humayun-Grabmal, Delhi, Indien": {
+   "lat": 28.6328,
+   "lon": 77.2198,
+   "query": "Delhi, Indien",
+   "level": 1,
+   "name": "Delhi, Indien"
+  },
+  "Hyères, France": {
+   "lat": 43.1203,
+   "lon": 6.1302,
+   "query": "Hyères, France",
+   "level": 0,
+   "name": "Hyères, Toulon, Var, Provence-Alpes-Côte d'Azur, Metropolitanes Frankreich, 83400, Frankreich"
+  },
+  "Imilchil, Hoher Atlas, Marokko": {
+   "lat": 32.3295,
+   "lon": -5.4369,
+   "query": "Hoher Atlas, Marokko",
+   "level": 1,
+   "name": "Nationalpark Hoher Atlas, Drâa-Tafilalet ⴷⴰⵔⵄⴰ-ⵜⴰⴼⵉⵍⴰⵍⵜ درعة تافيلالت, Marokko"
+  },
+  "Imperial Valley, Kalifornien, USA": {
+   "lat": 32.7628,
+   "lon": -115.5306,
+   "query": "Imperial Valley, Kalifornien, USA",
+   "level": 0,
+   "name": "Imperial Valley Mall, IV Mall Drive, Imperial Valley Mall, El Centro, Imperial County, Kalifornien, 92224, Vereinigte St"
+  },
+  "Inner Mongolia, China": {
+   "lat": 43.2443,
+   "lon": 114.3252,
+   "query": "Inner Mongolia, China",
+   "level": 0,
+   "name": "Innere Mongolei, China"
+  },
+  "Inspiration Point, Yosemite Valley, Kalifornien, USA": {
+   "lat": 37.7327,
+   "lon": -119.6057,
+   "query": "Yosemite Valley, Kalifornien, USA",
+   "level": 1,
+   "name": "Yosemite Valley, Yosemite Village, Mariposa County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Irland": {
+   "lat": 52.8652,
+   "lon": -7.9795,
+   "query": "Irland",
+   "level": 0,
+   "name": "Irland"
+  },
+  "Isla Incahuasi, Bolivien": {
+   "lat": -20.2426,
+   "lon": -67.6256,
+   "query": "Isla Incahuasi, Bolivien",
+   "level": 0,
+   "name": "Isla Incahuasi, Municipio Colcha K, Provincia Nor Lípez, Potosí, Bolivien"
+  },
+  "Island": {
+   "lat": 64.9842,
+   "lon": -18.1059,
+   "query": "Island",
+   "level": 0,
+   "name": "Island"
+  },
+  "Isle of Lewis, Schottland": {
+   "lat": 58.2128,
+   "lon": -6.5642,
+   "query": "Isle of Lewis, Schottland",
+   "level": 0,
+   "name": "Lewis, Na h-Eileanan Siar, Schottland, Vereinigtes Königreich"
+  },
+  "Istanbul, Turkey": {
+   "lat": 41.0064,
+   "lon": 28.9759,
+   "query": "Istanbul, Turkey",
+   "level": 0,
+   "name": "Istanbul, Fatih, İstanbul, Marmararegion, 34122, Türkei"
+  },
+  "Istanbul, Türkei": {
+   "lat": 41.0064,
+   "lon": 28.9759,
+   "query": "Istanbul, Türkei",
+   "level": 0,
+   "name": "Istanbul, Fatih, İstanbul, Marmararegion, 34122, Türkei"
+  },
+  "Italien": {
+   "lat": 42.6384,
+   "lon": 12.6743,
+   "query": "Italien",
+   "level": 0,
+   "name": "Italien"
+  },
+  "Jama Masjid, Delhi, Indien": {
+   "lat": 28.6507,
+   "lon": 77.233,
+   "query": "Jama Masjid, Delhi, Indien",
+   "level": 0,
+   "name": "Freitagsmoschee, Meena Bazaar, Old Delhi, City & Sadar, Delhi, Old Delhi, Delhi, 110006, Indien"
+  },
+  "Jamaica": {
+   "lat": 18.1851,
+   "lon": -77.3948,
+   "query": "Jamaica",
+   "level": 0,
+   "name": "Jamaika"
+  },
+  "Jangtse-Mündung bei Shanghai": null,
+  "Japan (Kalksteinbruch)": {
+   "lat": 51.9868,
+   "lon": 8.8893,
+   "query": "Kalksteinbruch",
+   "level": 1,
+   "name": "Kalksteinbruch, Bentrup, Dehlentrup, Detmold, Kreis Lippe, Nordrhein-Westfalen, Deutschland"
+  },
+  "Java, Indonesia": {
+   "lat": -7.328,
+   "lon": 109.6139,
+   "query": "Java, Indonesia",
+   "level": 0,
+   "name": "Jawa, Indonesien"
+  },
+  "Jefferson County, Colorado, USA": {
+   "lat": 39.57,
+   "lon": -105.2562,
+   "query": "Jefferson County, Colorado, USA",
+   "level": 0,
+   "name": "Jefferson County, Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Jenny Lake, Grand Teton National Park, Wyoming, USA": {
+   "lat": 43.8106,
+   "lon": -110.6488,
+   "query": "Grand Teton National Park, Wyoming, USA",
+   "level": 1,
+   "name": "Grand Teton National Park, Teton County, Wyoming, Vereinigte Staaten von Amerika"
+  },
+  "JiangjunAo, Hong Kong": {
+   "lat": 22.2818,
+   "lon": 114.1583,
+   "query": "Hong Kong",
+   "level": 1,
+   "name": "Hongkong, China"
+  },
+  "Jodhpur, India": {
+   "lat": 26.2968,
+   "lon": 73.0351,
+   "query": "Jodhpur, India",
+   "level": 0,
+   "name": "Jodhpur, Jodhpur Tehsil, Jodhpur, Rajasthan, Indien"
+  },
+  "Joshua Tree National Park, Kalifornien, USA": {
+   "lat": 33.8971,
+   "lon": -115.9511,
+   "query": "Joshua Tree National Park, Kalifornien, USA",
+   "level": 0,
+   "name": "Joshua-Tree-Nationalpark, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Jökulsárlón, Breiðamerkursandur, Island": {
+   "lat": 64.0431,
+   "lon": -16.1782,
+   "query": "Breiðamerkursandur, Island",
+   "level": 1,
+   "name": "Breiðamerkursandur, Sveitarfélagið Hornafjörður, Suðurland, Island"
+  },
+  "K2, Karakorum": {
+   "lat": 41.0587,
+   "lon": 44.9103,
+   "query": "K2, Karakorum",
+   "level": 0,
+   "name": "Կարակորում, Armenien"
+  },
+  "Kabul, Afghanistan": {
+   "lat": 34.527,
+   "lon": 69.1851,
+   "query": "Kabul, Afghanistan",
+   "level": 0,
+   "name": "Kabul, Distrikt Kabul, Wilaya Kabul, 1001, Afghanistan"
+  },
+  "Kaiserliche Villa Katsura, Kyoto, Japan": {
+   "lat": 35.0116,
+   "lon": 135.7681,
+   "query": "Kyoto, Japan",
+   "level": 1,
+   "name": "Kyōto, Präfektur Kyōto, Japan"
+  },
+  "Kalispell, Montana, USA": {
+   "lat": 48.2022,
+   "lon": -114.3153,
+   "query": "Kalispell, Montana, USA",
+   "level": 0,
+   "name": "Kalispell, Flathead County, Montana, Vereinigte Staaten von Amerika"
+  },
+  "Kambodscha": {
+   "lat": 12.5433,
+   "lon": 104.8145,
+   "query": "Kambodscha",
+   "level": 0,
+   "name": "Kambodscha"
+  },
+  "Kanab, Utah, USA": {
+   "lat": 37.0482,
+   "lon": -112.5285,
+   "query": "Kanab, Utah, USA",
+   "level": 0,
+   "name": "Kanab, Kane County, Utah, 84741, Vereinigte Staaten von Amerika"
+  },
+  "Kangchenjunga-Massiv, Sikkim/Nepal": {
+   "lat": 27.7552,
+   "lon": 88.1772,
+   "query": "Sikkim/Nepal",
+   "level": 1,
+   "name": "Nepal Gap, Chungthang, Mangan, Sikkim, Indien"
+  },
+  "Karakorum": {
+   "lat": 35.5331,
+   "lon": 76.4456,
+   "query": "Karakorum",
+   "level": 0,
+   "name": "Karakorum, Pakistan"
+  },
+  "Karakorum, Pakistan": {
+   "lat": 35.5331,
+   "lon": 76.4456,
+   "query": "Karakorum, Pakistan",
+   "level": 0,
+   "name": "Karakorum, Pakistan"
+  },
+  "Kaschgar, Xinjiang, China": {
+   "lat": 39.4666,
+   "lon": 75.99,
+   "query": "Kaschgar, Xinjiang, China",
+   "level": 0,
+   "name": "Kaschgar, Kaxgar, Xinjiang, 844000, China"
+  },
+  "Kashima, Präfektur Fukushima, Japan": {
+   "lat": 37.7025,
+   "lon": 140.9702,
+   "query": "Kashima, Präfektur Fukushima, Japan",
+   "level": 0,
+   "name": "鹿島, 鹿島停車場線, 鹿島区西町一丁目, 鹿島区鹿島, Minamisōma, Präfektur Fukushima, 979-2334, Japan"
+  },
+  "Kathmandu, Nepal": {
+   "lat": 27.7083,
+   "lon": 85.3206,
+   "query": "Kathmandu, Nepal",
+   "level": 0,
+   "name": "Kathmandu, काठमाडौं जिल्ला, Provinz Bagmati, Nepal"
+  },
+  "Kemmerer, Wyoming, USA": {
+   "lat": 41.7925,
+   "lon": -110.5377,
+   "query": "Kemmerer, Wyoming, USA",
+   "level": 0,
+   "name": "Kemmerer, Lincoln County, Wyoming, Vereinigte Staaten von Amerika"
+  },
+  "Kenia": {
+   "lat": 0.2793,
+   "lon": 37.5165,
+   "query": "Kenia",
+   "level": 0,
+   "name": "Kenia"
+  },
+  "Kerhervy": {
+   "lat": 47.7693,
+   "lon": -3.3091,
+   "query": "Kerhervy",
+   "level": 0,
+   "name": "Kerhervy, Lanester, Lorient, Morbihan, Bretagne, Metropolitanes Frankreich, 56600, Frankreich"
+  },
+  "Keynes Country Park, Gloucestershire, England": {
+   "lat": 51.6614,
+   "lon": -1.9645,
+   "query": "Keynes Country Park, Gloucestershire, England",
+   "level": 0,
+   "name": "Keynes Country Park, Spratsgate Lane, Shorncote, Somerford Keynes, Cotswold District, Gloucestershire, England, GL7 6DF,"
+  },
+  "Kingfisher, Texas": {
+   "lat": 33.4287,
+   "lon": -102.2013,
+   "query": "Kingfisher, Texas",
+   "level": 0,
+   "name": "Kingfisher, Hockley County, Texas, 79358, Vereinigte Staaten von Amerika"
+  },
+  "Kingman, Arizona, USA": {
+   "lat": 35.1896,
+   "lon": -114.0533,
+   "query": "Kingman, Arizona, USA",
+   "level": 0,
+   "name": "Kingman, Mohave County, Arizona, Vereinigte Staaten von Amerika"
+  },
+  "Kings River Canyon, California, USA": {
+   "lat": 36.7336,
+   "lon": -119.4877,
+   "query": "Kings River Canyon, California, USA",
+   "level": 0,
+   "name": "Kings River Ranch, East Kings Canyon Road, Centerville, Fresno County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Kirkjufell, Vesturland, Island": {
+   "lat": 64.9399,
+   "lon": -23.3075,
+   "query": "Kirkjufell, Vesturland, Island",
+   "level": 0,
+   "name": "Kirkjufell, Grundarfjarðarbær, Vesturland, 350, Island"
+  },
+  "Kleine Scheidegg, Schweiz": {
+   "lat": 46.5852,
+   "lon": 7.9613,
+   "query": "Kleine Scheidegg, Schweiz",
+   "level": 0,
+   "name": "Kleine Scheidegg, Lauterbrunnen, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern, 3823, Schweiz"
+  },
+  "Koje-do, Südkorea": {
+   "lat": 34.8805,
+   "lon": 128.6212,
+   "query": "Koje-do, Südkorea",
+   "level": 0,
+   "name": "Geoje, Gyeongsangnam-do, Südkorea"
+  },
+  "Koshimizu, Hokkaido, Japan": {
+   "lat": 43.8568,
+   "lon": 144.4611,
+   "query": "Koshimizu, Hokkaido, Japan",
+   "level": 0,
+   "name": "小清水町, 斜里郡, オホーツク総合振興局, Präfektur Hokkaido, Region Hokkaidō, Japan"
+  },
+  "Kotan, Kussharo Lake, Hokkaido, Japan": {
+   "lat": 43.6166,
+   "lon": 144.3105,
+   "query": "Kussharo Lake, Hokkaido, Japan",
+   "level": 1,
+   "name": "Kussharo-See, 弟子屈町, 川上郡, 釧路総合振興局, Präfektur Hokkaido, Region Hokkaidō, Japan"
+  },
+  "Kowloon Walled City, Hongkong": {
+   "lat": 22.3321,
+   "lon": 114.1902,
+   "query": "Kowloon Walled City, Hongkong",
+   "level": 0,
+   "name": "九龍寨城公園 Kowloon Walled City Park, 九龍城 Kowloon City, 九龍城區 Kowloon City District, Kowloon, Hongkong, China"
+  },
+  "Krim": {
+   "lat": 45.2835,
+   "lon": 34.2008,
+   "query": "Krim",
+   "level": 0,
+   "name": "Krim, Ukraine"
+  },
+  "Ksar el Maadid bei Erfoud, Marokko": {
+   "lat": 28.3348,
+   "lon": -10.3713,
+   "query": "Marokko",
+   "level": 1,
+   "name": "Marokko"
+  },
+  "Kunene, Namibia": {
+   "lat": -19.6793,
+   "lon": 13.9757,
+   "query": "Kunene, Namibia",
+   "level": 0,
+   "name": "Kunene, Namibia"
+  },
+  "La Jolla, Kalifornien, USA": {
+   "lat": 32.8459,
+   "lon": -117.2576,
+   "query": "La Jolla, Kalifornien, USA",
+   "level": 0,
+   "name": "La Jolla, San Diego, San Diego County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Lac Blanc, Savoyer Alpen, Frankreich": {
+   "lat": 46.6034,
+   "lon": 1.8883,
+   "query": "Frankreich",
+   "level": 2,
+   "name": "Frankreich"
+  },
+  "Lake City, Colorado": {
+   "lat": 38.0305,
+   "lon": -107.317,
+   "query": "Lake City, Colorado",
+   "level": 0,
+   "name": "Lake City, Hinsdale County, Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Lake Eyre (Salzsee), South Australia": {
+   "lat": -30.5344,
+   "lon": 135.6301,
+   "query": "South Australia",
+   "level": 2,
+   "name": "Südaustralien, Australien"
+  },
+  "Lake George, New York, USA": {
+   "lat": 43.426,
+   "lon": -73.7124,
+   "query": "Lake George, New York, USA",
+   "level": 0,
+   "name": "Town of Lake George, Warren County, New York, 12845, Vereinigte Staaten von Amerika"
+  },
+  "Lake Michigan (Chicago), USA": {
+   "lat": 41.886,
+   "lon": -87.6243,
+   "query": "Lake Michigan, Chicago, USA",
+   "level": 0,
+   "name": "Michigan Ave & Lake St, North Michigan Avenue, New East Side, Loop, Chicago, South Chicago Township, Cook County, Illino"
+  },
+  "Lake Oswego, Oregon, USA": {
+   "lat": 45.4207,
+   "lon": -122.6706,
+   "query": "Lake Oswego, Oregon, USA",
+   "level": 0,
+   "name": "Lake Oswego, Clackamas County, Oregon, Vereinigte Staaten von Amerika"
+  },
+  "Lake Poinsett, South Dakota, USA": {
+   "lat": 44.5683,
+   "lon": -97.0786,
+   "query": "Lake Poinsett, South Dakota, USA",
+   "level": 0,
+   "name": "Lake Poinsett, Norden Township, Hamlin County, Süd-Dakota, Vereinigte Staaten von Amerika"
+  },
+  "Lake Superior, Cascade River": {
+   "lat": -44.1244,
+   "lon": 168.5343,
+   "query": "Cascade River",
+   "level": 1,
+   "name": "Cascade River, Westland District, West Coast, Neuseeland"
+  },
+  "Les Andelys": {
+   "lat": 49.2469,
+   "lon": 1.4216,
+   "query": "Les Andelys",
+   "level": 0,
+   "name": "Les Andelys, Eure, Normandie, Metropolitanes Frankreich, 27700, Frankreich"
+  },
+  "Leshan, Sichuan, China": {
+   "lat": 29.2233,
+   "lon": 103.5966,
+   "query": "Leshan, Sichuan, China",
+   "level": 0,
+   "name": "Leshan, Sichuan, China"
+  },
+  "León, Mexiko": {
+   "lat": 21.122,
+   "lon": -101.683,
+   "query": "León, Mexiko",
+   "level": 0,
+   "name": "León, Guanajuato, 37004, Mexiko"
+  },
+  "Lima": {
+   "lat": -12.046,
+   "lon": -77.0306,
+   "query": "Lima",
+   "level": 0,
+   "name": "Lima, Lima Metropolitana, Lima, 15001, Peru"
+  },
+  "Lincoln County, Washington, USA": {
+   "lat": 47.5665,
+   "lon": -118.3589,
+   "query": "Lincoln County, Washington, USA",
+   "level": 0,
+   "name": "Lincoln County, Washington, Vereinigte Staaten von Amerika"
+  },
+  "Linfen, Shanxi": {
+   "lat": 36.23,
+   "lon": 111.3818,
+   "query": "Linfen, Shanxi",
+   "level": 0,
+   "name": "Linfen, Shanxi, China"
+  },
+  "Little Falls, Minnesota, USA": {
+   "lat": 45.9764,
+   "lon": -94.3625,
+   "query": "Little Falls, Minnesota, USA",
+   "level": 0,
+   "name": "Little Falls, Morrison County, Minnesota, 56345, Vereinigte Staaten von Amerika"
+  },
+  "Little Rock, Arkansas, USA": {
+   "lat": 34.7465,
+   "lon": -92.2896,
+   "query": "Little Rock, Arkansas, USA",
+   "level": 0,
+   "name": "Little Rock, Big Rock Township, Pulaski County, Arkansas, Vereinigte Staaten von Amerika"
+  },
+  "London": {
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "query": "London",
+   "level": 0,
+   "name": "Groß-London, England, Vereinigtes Königreich"
+  },
+  "Lone Pine, Owens Valley, Kalifornien, USA": {
+   "lat": 36.6156,
+   "lon": -118.1096,
+   "query": "Owens Valley, Kalifornien, USA",
+   "level": 1,
+   "name": "Owens Valley, Inyo County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Lordsburg, New Mexico, USA": {
+   "lat": 32.3504,
+   "lon": -108.7084,
+   "query": "Lordsburg, New Mexico, USA",
+   "level": 0,
+   "name": "Lordsburg, Hidalgo County, Neumexiko, 88045, Vereinigte Staaten von Amerika"
+  },
+  "Los Horcones, Chile": {
+   "lat": -37.2303,
+   "lon": -73.2324,
+   "query": "Los Horcones, Chile",
+   "level": 0,
+   "name": "Horcones, Arauco, Provincia de Arauco, Región del Biobío, Chile"
+  },
+  "Louisiana, USA": {
+   "lat": 30.8704,
+   "lon": -92.0071,
+   "query": "Louisiana, USA",
+   "level": 0,
+   "name": "Louisiana, Vereinigte Staaten von Amerika"
+  },
+  "Louvre, Paris, Frankreich": {
+   "lat": 48.8611,
+   "lon": 2.338,
+   "query": "Louvre, Paris, Frankreich",
+   "level": 0,
+   "name": "Museum des Louvre, Pont du Carrousel, Saint-Germain-l'Auxerrois, Paris 1er Arrondissement, Paris, Île-de-France, Metropo"
+  },
+  "Luxora, Arkansas, USA": {
+   "lat": 35.7557,
+   "lon": -89.9284,
+   "query": "Luxora, Arkansas, USA",
+   "level": 0,
+   "name": "Luxora, Mississippi County, Arkansas, Vereinigte Staaten von Amerika"
+  },
+  "Luzern, Schweiz": {
+   "lat": 47.0521,
+   "lon": 8.3058,
+   "query": "Luzern, Schweiz",
+   "level": 0,
+   "name": "Luzern, Schweiz"
+  },
+  "L’Île-Rousse, Korsika": {
+   "lat": 42.6345,
+   "lon": 8.9381,
+   "query": "L’Île-Rousse, Korsika",
+   "level": 0,
+   "name": "L'Île-Rousse, Calvi, Oberkorsika, Korsika, Metropolitanes Frankreich, 20220, Frankreich"
+  },
+  "M'Hamid El Ghizlane, Marokko": {
+   "lat": 29.8273,
+   "lon": -5.7239,
+   "query": "M'Hamid El Ghizlane, Marokko",
+   "level": 0,
+   "name": "M'Hamid El Ghizlane ⵎⵃⴰⵎⵉⴷ ⵍⵖⵯⵣⵍⴰⵏ امحاميد الغزلان, caïdat de M'Hamid, Cercle de Zagora دائرة زاكورة, Provinz Zagora, Dr"
+  },
+  "MacDonnell Ranges, Northern Territory, Australien": {
+   "lat": -23.9603,
+   "lon": 132.7758,
+   "query": "MacDonnell Ranges, Northern Territory, Australien",
+   "level": 0,
+   "name": "MacDonnell Ranges, Nordterritorium, 0872, Australien"
+  },
+  "Madison Avenue, New York City, USA": {
+   "lat": 40.7658,
+   "lon": -73.9698,
+   "query": "Madison Avenue, New York City, USA",
+   "level": 0,
+   "name": "Madison Avenue, Manhattan Community Board 8, Manhattan, New York County, New York, 10153, Vereinigte Staaten von Amerika"
+  },
+  "Magdeburg": {
+   "lat": 52.1315,
+   "lon": 11.6401,
+   "query": "Magdeburg",
+   "level": 0,
+   "name": "Magdeburg, Sachsen-Anhalt, Deutschland"
+  },
+  "Malaspina-Gletscher, Alaska": {
+   "lat": 59.946,
+   "lon": -140.567,
+   "query": "Malaspina-Gletscher, Alaska",
+   "level": 0,
+   "name": "Malaspinagletscher, Yakutat, Alaska, Vereinigte Staaten von Amerika"
+  },
+  "Malawisee, Mosambik": {
+   "lat": -11.9606,
+   "lon": 34.5016,
+   "query": "Malawisee, Mosambik",
+   "level": 0,
+   "name": "Malawisee, Zona Norte, Mosambik"
+  },
+  "Manzanar, Owens Valley, Kalifornien, USA": {
+   "lat": 36.6156,
+   "lon": -118.1096,
+   "query": "Owens Valley, Kalifornien, USA",
+   "level": 1,
+   "name": "Owens Valley, Inyo County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Marble Canyon, Arizona, USA": {
+   "lat": 36.8155,
+   "lon": -111.6377,
+   "query": "Marble Canyon, Arizona, USA",
+   "level": 0,
+   "name": "Marble Canyon, Coconino County, Arizona, 86036, Vereinigte Staaten von Amerika"
+  },
+  "Marble Canyon, Grand Canyon National Park, Arizona, USA": {
+   "lat": 36.3079,
+   "lon": -112.2929,
+   "query": "Grand Canyon National Park, Arizona, USA",
+   "level": 1,
+   "name": "Grand Canyon National Park, Arizona, 86023, Vereinigte Staaten von Amerika"
+  },
+  "Marina di Ravenna, Italien": {
+   "lat": 44.4852,
+   "lon": 12.2788,
+   "query": "Marina di Ravenna, Italien",
+   "level": 0,
+   "name": "Marina di Ravenna, Ravenna, Emilia-Romagna, 48122, Italien"
+  },
+  "Marken, Italien": {
+   "lat": 43.3458,
+   "lon": 13.1416,
+   "query": "Marken, Italien",
+   "level": 0,
+   "name": "Marken, Italien"
+  },
+  "Markt, Marrakesch, Marokko": {
+   "lat": 31.6478,
+   "lon": -8.013,
+   "query": "Markt, Marrakesch, Marokko",
+   "level": 0,
+   "name": "Marjane Market مرجان ماركت, Avenue Prince Moulay Abdullah, Guéliz ⴳⵉⵍⵉⵣ گليز, Arrondissement de Gueliz مقاطعة كليز, Marr"
+  },
+  "Marokko": {
+   "lat": 28.3348,
+   "lon": -10.3713,
+   "query": "Marokko",
+   "level": 0,
+   "name": "Marokko"
+  },
+  "Marrakesch, Marokko": {
+   "lat": 31.6258,
+   "lon": -7.9892,
+   "query": "Marrakesch, Marokko",
+   "level": 0,
+   "name": "Marrakesch, Pachalik de Marrakech, Marrakesch, Marrakech-Safi ⵎⵕⵕⴰⴽⵛ-ⴰⵙⴼⵉ مراكش-أسفي, Marokko"
+  },
+  "Masai Mara, Kenia": {
+   "lat": -1.4881,
+   "lon": 35.1054,
+   "query": "Masai Mara, Kenia",
+   "level": 0,
+   "name": "Masai Mara, Narok, Kenia"
+  },
+  "Mataranka, Northern Territory, Australien": {
+   "lat": -14.9279,
+   "lon": 133.0691,
+   "query": "Mataranka, Northern Territory, Australien",
+   "level": 0,
+   "name": "Mataranka, Nordterritorium, Australien"
+  },
+  "Mauna Kea, Hawaii, USA": {
+   "lat": 19.8207,
+   "lon": -155.4681,
+   "query": "Mauna Kea, Hawaii, USA",
+   "level": 0,
+   "name": "Mauna Kea, Hawaii, Vereinigte Staaten von Amerika"
+  },
+  "McLean, Virginia, USA": {
+   "lat": 38.9367,
+   "lon": -77.1858,
+   "query": "McLean, Virginia, USA",
+   "level": 0,
+   "name": "McLean, Fairfax County, Virginia, Vereinigte Staaten von Amerika"
+  },
+  "McMurdo Sound, Antarctica": {
+   "lat": -72.8439,
+   "lon": 0.0,
+   "query": "Antarctica",
+   "level": 1,
+   "name": "Antarktika"
+  },
+  "Medersa Ben Youssef, Marrakesch, Marokko": {
+   "lat": 31.632,
+   "lon": -7.986,
+   "query": "Medersa Ben Youssef, Marrakesch, Marokko",
+   "level": 0,
+   "name": "Medersa Ben Youssef, Passage Ecole Ben Youssef, Mouassine, Medina ⵎⴷⵉⵏⴰ المدينة, Arrondissement de Marrakech-Medina مقاط"
+  },
+  "Meiji-Schrein, Tokio, Japan": {
+   "lat": 35.6874,
+   "lon": 139.7871,
+   "query": "Meiji-Schrein, Tokio, Japan",
+   "level": 0,
+   "name": "明治観音堂, 清洲橋通り, 日本橋浜町二丁目, 日本橋浜町, Chūō, Tokio, 103-0007, Japan"
+  },
+  "Meknès, Marokko": {
+   "lat": 33.8984,
+   "lon": -5.5322,
+   "query": "Meknès, Marokko",
+   "level": 0,
+   "name": "Meknès, Pachalik de Meknes, Präfektur Meknes, Fès-Meknès ⴼⴰⵙ-ⵎⴽⵏⴰⵙ فاس-مكناس, Marokko"
+  },
+  "Meteor Crater bei Flagstaff, Arizona, USA": {
+   "lat": 34.3953,
+   "lon": -111.7633,
+   "query": "Arizona, USA",
+   "level": 1,
+   "name": "Arizona, Vereinigte Staaten von Amerika"
+  },
+  "Minneapolis": {
+   "lat": 44.9773,
+   "lon": -93.2655,
+   "query": "Minneapolis",
+   "level": 0,
+   "name": "Minneapolis, Hennepin County, Minnesota, Vereinigte Staaten von Amerika"
+  },
+  "Mittelmeerküste bei Sète, Frankreich": {
+   "lat": 46.6034,
+   "lon": 1.8883,
+   "query": "Frankreich",
+   "level": 1,
+   "name": "Frankreich"
+  },
+  "Mittelmeerküste mit dem Mont Agde, Südfrankreich": null,
+  "Mobridge, South Dakota, USA": {
+   "lat": 45.5372,
+   "lon": -100.4279,
+   "query": "Mobridge, South Dakota, USA",
+   "level": 0,
+   "name": "Mobridge, Flora Township, Walworth County, Süd-Dakota, 57601, Vereinigte Staaten von Amerika"
+  },
+  "Moki Canyon, Glen Canyon, Utah": {
+   "lat": 37.6581,
+   "lon": -111.0932,
+   "query": "Glen Canyon, Utah",
+   "level": 1,
+   "name": "Glen Canyon National Recreation Area, Utah, Vereinigte Staaten von Amerika"
+  },
+  "Mongolia, China": {
+   "lat": 43.2443,
+   "lon": 114.3252,
+   "query": "Mongolia, China",
+   "level": 0,
+   "name": "Innere Mongolei, China"
+  },
+  "Mont-Saint-Michel": {
+   "lat": 48.636,
+   "lon": -1.5115,
+   "query": "Mont-Saint-Michel",
+   "level": 0,
+   "name": "Mont Saint-Michel, Le Mont-Saint-Michel, Avranches, Manche, Normandie, Metropolitanes Frankreich, 50170, Frankreich"
+  },
+  "Montana/Wyoming, USA": {
+   "lat": 45.7844,
+   "lon": -108.5742,
+   "query": "Montana/Wyoming, USA",
+   "level": 0,
+   "name": "Girl Scouts of Montana and Wyoming, 2303, Grand Avenue, Midtown, Billings, Yellowstone County, Montana, 59102, Vereinigt"
+  },
+  "Monterey-Halbinsel, Kalifornien, USA": {
+   "lat": 36.7015,
+   "lon": -118.756,
+   "query": "Kalifornien, USA",
+   "level": 1,
+   "name": "Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Moorcroft, Wyoming, USA": {
+   "lat": 44.2633,
+   "lon": -104.9503,
+   "query": "Moorcroft, Wyoming, USA",
+   "level": 0,
+   "name": "Moorcroft, Crook County, Wyoming, Vereinigte Staaten von Amerika"
+  },
+  "Mount St. Helens": {
+   "lat": 46.1914,
+   "lon": -122.1955,
+   "query": "Mount St. Helens",
+   "level": 0,
+   "name": "Mount Saint Helens, Skamania County, Washington, Vereinigte Staaten von Amerika"
+  },
+  "Muresk, Western Australia": {
+   "lat": -31.754,
+   "lon": 116.6733,
+   "query": "Muresk, Western Australia",
+   "level": 0,
+   "name": "Muresk, Westaustralien, Australien"
+  },
+  "Namakkal, Distrikt Salem, Indien": {
+   "lat": 11.647,
+   "lon": 78.2107,
+   "query": "Distrikt Salem, Indien",
+   "level": 1,
+   "name": "Distrikt Salem, Tamil Nadu, Indien"
+  },
+  "Nankou-Pass, Pechili, China": {
+   "lat": 34.5412,
+   "lon": 108.9237,
+   "query": "China",
+   "level": 2,
+   "name": "China"
+  },
+  "Nevada": {
+   "lat": 39.5159,
+   "lon": -116.8537,
+   "query": "Nevada",
+   "level": 0,
+   "name": "Nevada, Vereinigte Staaten von Amerika"
+  },
+  "Nevada, USA": {
+   "lat": 39.5159,
+   "lon": -116.8537,
+   "query": "Nevada, USA",
+   "level": 0,
+   "name": "Nevada, Vereinigte Staaten von Amerika"
+  },
+  "Nevada/Arizona, USA": {
+   "lat": 32.1983,
+   "lon": -110.8225,
+   "query": "Nevada/Arizona, USA",
+   "level": 0,
+   "name": "Nevada, Tucson Meadows Mobile Home Park, Tucson, Pima County, Arizona, 85710, Vereinigte Staaten von Amerika"
+  },
+  "New Mexico": {
+   "lat": 34.5802,
+   "lon": -105.996,
+   "query": "New Mexico",
+   "level": 0,
+   "name": "Neumexiko, Vereinigte Staaten von Amerika"
+  },
+  "New Mexico, USA": {
+   "lat": 34.5802,
+   "lon": -105.996,
+   "query": "New Mexico, USA",
+   "level": 0,
+   "name": "Neumexiko, Vereinigte Staaten von Amerika"
+  },
+  "New Orleans, Louisiana, USA": {
+   "lat": 29.9575,
+   "lon": -90.0629,
+   "query": "New Orleans, Louisiana, USA",
+   "level": 0,
+   "name": "New Orleans, Orleans Parish, Louisiana, Vereinigte Staaten von Amerika"
+  },
+  "New Orleans, USA": {
+   "lat": 29.9575,
+   "lon": -90.0629,
+   "query": "New Orleans, USA",
+   "level": 0,
+   "name": "New Orleans, Orleans Parish, Louisiana, Vereinigte Staaten von Amerika"
+  },
+  "New York": {
+   "lat": 40.7127,
+   "lon": -74.006,
+   "query": "New York",
+   "level": 0,
+   "name": "New York, Vereinigte Staaten von Amerika"
+  },
+  "Newark, New Jersey, USA": {
+   "lat": 40.7357,
+   "lon": -74.1724,
+   "query": "Newark, New Jersey, USA",
+   "level": 0,
+   "name": "Newark, Essex County, New Jersey, Vereinigte Staaten von Amerika"
+  },
+  "Newcastle, New South Wales, Australien": {
+   "lat": -32.9193,
+   "lon": 151.7795,
+   "query": "Newcastle, New South Wales, Australien",
+   "level": 0,
+   "name": "Newcastle, Newcastle-Maitland, Neusüdwales, 2300, Australien"
+  },
+  "Nikko, Präfektur Tochigi, Japan": {
+   "lat": 36.7198,
+   "lon": 139.6981,
+   "query": "Nikko, Präfektur Tochigi, Japan",
+   "level": 0,
+   "name": "日光市, Präfektur Tochigi, Japan"
+  },
+  "Nikkō, Japan": {
+   "lat": 36.7198,
+   "lon": 139.6981,
+   "query": "Nikkō, Japan",
+   "level": 0,
+   "name": "日光市, Präfektur Tochigi, Japan"
+  },
+  "Nipomo, Kalifornien, USA": {
+   "lat": 35.0452,
+   "lon": -120.5218,
+   "query": "Nipomo, Kalifornien, USA",
+   "level": 0,
+   "name": "Nipomo, San Luis Obispo, Kalifornien, 93454, Vereinigte Staaten von Amerika"
+  },
+  "Nixon, Nevada, USA": {
+   "lat": 39.829,
+   "lon": -119.3592,
+   "query": "Nixon, Nevada, USA",
+   "level": 0,
+   "name": "Nixon, Washoe County, Nevada, 89424, Vereinigte Staaten von Amerika"
+  },
+  "Nordufer Salton Sea, Kalifornien, USA": {
+   "lat": 36.7015,
+   "lon": -118.756,
+   "query": "Kalifornien, USA",
+   "level": 1,
+   "name": "Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Norfolk Broads, England": {
+   "lat": 52.6307,
+   "lon": 1.6429,
+   "query": "Norfolk Broads, England",
+   "level": 0,
+   "name": "The Broads, Norfolk, England, Vereinigtes Königreich"
+  },
+  "Norfolk, England": {
+   "lat": 52.6667,
+   "lon": 1.0,
+   "query": "Norfolk, England",
+   "level": 0,
+   "name": "Norfolk, England, Vereinigtes Königreich"
+  },
+  "North Esk Gorge, Edzell, Angus, Schottland": {
+   "lat": 56.81,
+   "lon": -2.6559,
+   "query": "Edzell, Angus, Schottland",
+   "level": 1,
+   "name": "Edzell, Angus, Schottland, DD9 7TJ, Vereinigtes Königreich"
+  },
+  "Northfield, Minnesota, USA": {
+   "lat": 44.4582,
+   "lon": -93.1612,
+   "query": "Northfield, Minnesota, USA",
+   "level": 0,
+   "name": "Northfield, Rice County, Minnesota, Vereinigte Staaten von Amerika"
+  },
+  "Nuevo Laredo, Mexiko": {
+   "lat": 27.4934,
+   "lon": -99.5062,
+   "query": "Nuevo Laredo, Mexiko",
+   "level": 0,
+   "name": "Nuevo Laredo, Tamaulipas, 88040, Mexiko"
+  },
+  "Oak Ridge, Tennessee, USA": {
+   "lat": 36.0104,
+   "lon": -84.2696,
+   "query": "Oak Ridge, Tennessee, USA",
+   "level": 0,
+   "name": "Oak Ridge, Anderson County, East Tennessee, Tennessee, Vereinigte Staaten von Amerika"
+  },
+  "Oberer Baltoro-Gletscher, Karakorum": {
+   "lat": 35.5331,
+   "lon": 76.4456,
+   "query": "Karakorum",
+   "level": 1,
+   "name": "Karakorum, Pakistan"
+  },
+  "Oceano, Kalifornien, USA": {
+   "lat": 35.1053,
+   "lon": -120.6169,
+   "query": "Oceano, Kalifornien, USA",
+   "level": 0,
+   "name": "Oceano, Arroyo Grande, San Luis Obispo, Kalifornien, 93445, Vereinigte Staaten von Amerika"
+  },
+  "Okawa, Präfektur Kochi, Japan": {
+   "lat": 33.784,
+   "lon": 133.4666,
+   "query": "Okawa, Präfektur Kochi, Japan",
+   "level": 0,
+   "name": "大川村, 土佐郡, Präfektur Kōchi, Japan"
+  },
+  "Oregon, USA": {
+   "lat": 43.9793,
+   "lon": -120.7373,
+   "query": "Oregon, USA",
+   "level": 0,
+   "name": "Oregon, Vereinigte Staaten von Amerika"
+  },
+  "Orkney": {
+   "lat": 58.9418,
+   "lon": -3.1297,
+   "query": "Orkney",
+   "level": 0,
+   "name": "Orkney, Schottland, Vereinigtes Königreich"
+  },
+  "Ostseeküste": {
+   "lat": 54.3905,
+   "lon": 10.4566,
+   "query": "Ostseeküste",
+   "level": 0,
+   "name": "Ostseeküste zwischen Stakendorfer Strand und Hohenfelde und Umgebung, Schwartbuck, Lütjenburg, Kreis Plön, Schleswig-Hol"
+  },
+  "Owens Lake bei Olancha, Kalifornien, USA": {
+   "lat": 36.7015,
+   "lon": -118.756,
+   "query": "Kalifornien, USA",
+   "level": 1,
+   "name": "Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Owens Lake, Kalifornien, USA": {
+   "lat": 36.4465,
+   "lon": -117.8687,
+   "query": "Owens Lake, Kalifornien, USA",
+   "level": 0,
+   "name": "Owens Lake, Inyo County, Kalifornien, 93530, Vereinigte Staaten von Amerika"
+  },
+  "Painted Desert, Navajo Indian Reservation, Arizona, USA": {
+   "lat": 34.3953,
+   "lon": -111.7633,
+   "query": "Arizona, USA",
+   "level": 2,
+   "name": "Arizona, Vereinigte Staaten von Amerika"
+  },
+  "Palermo, Sizilien, Italien": {
+   "lat": 38.1112,
+   "lon": 13.3524,
+   "query": "Palermo, Sizilien, Italien",
+   "level": 0,
+   "name": "Palermo, Sizilien, Italien"
+  },
+  "Parakalamos, Epirus, Griechenland": {
+   "lat": 39.862,
+   "lon": 20.5663,
+   "query": "Parakalamos, Epirus, Griechenland",
+   "level": 0,
+   "name": "Παρακάλαμος, Δήμος Πωγωνίου, Regionalbezirk Ioannina, Region Epirus, Epirus - Westmakedonien, 440 04, Griechenland"
+  },
+  "Parc de Sceaux, Hauts-de-Seine, Frankreich": {
+   "lat": 48.7695,
+   "lon": 2.2966,
+   "query": "Parc de Sceaux, Hauts-de-Seine, Frankreich",
+   "level": 0,
+   "name": "Parc de Sceaux, Sceaux, Antony, Hauts-de-Seine, Île-de-France, Metropolitanes Frankreich, 92330, Frankreich"
+  },
+  "Paris": {
+   "lat": 48.8535,
+   "lon": 2.3484,
+   "query": "Paris",
+   "level": 0,
+   "name": "Paris, Île-de-France, Metropolitanes Frankreich, Frankreich"
+  },
+  "Paris, France": {
+   "lat": 48.8535,
+   "lon": 2.3484,
+   "query": "Paris, France",
+   "level": 0,
+   "name": "Paris, Île-de-France, Metropolitanes Frankreich, Frankreich"
+  },
+  "Parkhaus eines Einkaufszentrums, Tokio, Japan": {
+   "lat": 35.6769,
+   "lon": 139.7639,
+   "query": "Tokio, Japan",
+   "level": 1,
+   "name": "Tokio, Japan"
+  },
+  "Pasaje Bavestrello, Valparaíso, Chile": {
+   "lat": -33.0415,
+   "lon": -71.6292,
+   "query": "Pasaje Bavestrello, Valparaíso, Chile",
+   "level": 0,
+   "name": "Pasaje Bavestrello, Cerro Alegre, Barrio Histórico de la Ciudad Portuaria de Valparaíso, Playa Ancha, Valparaíso, Provin"
+  },
+  "Peking (Beijing), China": {
+   "lat": 40.1751,
+   "lon": 116.1594,
+   "query": "Peking, Beijing, China",
+   "level": 0,
+   "name": "北京大学（新燕园校区）, 行政大道, 马池口镇, 昌平区, Peking, 102205, China"
+  },
+  "Philae, Nil, Ägypten": {
+   "lat": 22.7244,
+   "lon": 32.1053,
+   "query": "Nil, Ägypten",
+   "level": 1,
+   "name": "Nil, Ägypten"
+  },
+  "Philippinensee": {
+   "lat": 20.0,
+   "lon": 135.0,
+   "query": "Philippinensee",
+   "level": 0,
+   "name": "Philippinensee"
+  },
+  "Pisa, Italien": {
+   "lat": 43.4715,
+   "lon": 10.6798,
+   "query": "Pisa, Italien",
+   "level": 0,
+   "name": "Pisa, Toskana, Italien"
+  },
+  "Plouescat": {
+   "lat": 48.6572,
+   "lon": -4.1743,
+   "query": "Plouescat",
+   "level": 0,
+   "name": "Plouescat, Morlaix, Finistère, Bretagne, Metropolitanes Frankreich, 29430, Frankreich"
+  },
+  "Poca, West Virginia, USA": {
+   "lat": 38.4723,
+   "lon": -81.8143,
+   "query": "Poca, West Virginia, USA",
+   "level": 0,
+   "name": "Poca, Putnam County, West Virginia, Vereinigte Staaten von Amerika"
+  },
+  "Point Lobos, Kalifornien, USA": {
+   "lat": 36.5172,
+   "lon": -121.9397,
+   "query": "Point Lobos, Kalifornien, USA",
+   "level": 0,
+   "name": "Point Lobos, Monterey County, Kalifornien, 93922, Vereinigte Staaten von Amerika"
+  },
+  "Pokhara, Nepal": {
+   "lat": 28.2095,
+   "lon": 83.9914,
+   "query": "Pokhara, Nepal",
+   "level": 0,
+   "name": "Pokhara, कास्की, Provinz Gandaki, Nepal"
+  },
+  "Porbandar, India": {
+   "lat": 21.6505,
+   "lon": 69.6565,
+   "query": "Porbandar, India",
+   "level": 0,
+   "name": "Porbandar, Terminal Road, Ranavav Taluka, Porbandar, Gujarat, 360578, Indien"
+  },
+  "Porquerolles, Frankreich": {
+   "lat": 43.0002,
+   "lon": 6.2023,
+   "query": "Porquerolles, Frankreich",
+   "level": 0,
+   "name": "Porquerolles, Hyères, Toulon, Var, Provence-Alpes-Côte d'Azur, Metropolitanes Frankreich, 83400, Frankreich"
+  },
+  "Port Gibson, Mississippi, USA": {
+   "lat": 31.961,
+   "lon": -90.984,
+   "query": "Port Gibson, Mississippi, USA",
+   "level": 0,
+   "name": "Port Gibson, Claiborne County, Mississippi, 39150, Vereinigte Staaten von Amerika"
+  },
+  "Portugal": {
+   "lat": 39.6622,
+   "lon": -8.1354,
+   "query": "Portugal",
+   "level": 0,
+   "name": "Portugal"
+  },
+  "Presidio, Texas, USA": {
+   "lat": 29.9884,
+   "lon": -104.2337,
+   "query": "Presidio, Texas, USA",
+   "level": 0,
+   "name": "Presidio County, Texas, Vereinigte Staaten von Amerika"
+  },
+  "Prizren, Kosovo, Yugoslavia": {
+   "lat": -16.148,
+   "lon": -68.2416,
+   "query": "Yugoslavia",
+   "level": 2,
+   "name": "Pico Yugoslavia, Municipio Batallas, Provincia Los Andes, La Paz, Bolivien"
+  },
+  "Provincetown, Cape Cod": {
+   "lat": 42.0526,
+   "lon": -70.1859,
+   "query": "Provincetown, Cape Cod",
+   "level": 0,
+   "name": "Provincetown, Barnstable County, Massachusetts, 02657, Vereinigte Staaten von Amerika"
+  },
+  "Puerto Escocés, Guna Yala, Panama": {
+   "lat": 8.8339,
+   "lon": -77.6331,
+   "query": "Puerto Escocés, Guna Yala, Panama",
+   "level": 0,
+   "name": "Puerto Escocés, Tubualá, Gaigirgordub, Guna Yala, Panama"
+  },
+  "Qili Port, Zhejiang Province, China": {
+   "lat": 29.8674,
+   "lon": 121.5364,
+   "query": "Zhejiang Province, China",
+   "level": 1,
+   "name": "宁波市第二中学松苑校区, 长春路, 桂井社区, 月湖街道, Haishu, Ningbo, Zhejiang, 315010, China"
+  },
+  "Qinghai, China": {
+   "lat": 36.0,
+   "lon": 96.0,
+   "query": "Qinghai, China",
+   "level": 0,
+   "name": "Qinghai, China"
+  },
+  "Quellgebiet des Jangtse, Qinghai": {
+   "lat": 36.0,
+   "lon": 96.0,
+   "query": "Qinghai",
+   "level": 1,
+   "name": "Qinghai, China"
+  },
+  "Qutb Minar, Delhi, Indien": {
+   "lat": 28.5244,
+   "lon": 77.1855,
+   "query": "Qutb Minar, Delhi, Indien",
+   "level": 0,
+   "name": "Qutb Minar, Kalka Das Marg, Mehrauli, South, Delhi, South Delhi, Delhi, 110030, Indien"
+  },
+  "Quwwat-ul-Islam-Moschee, Qutb-Komplex, Delhi, Indien": {
+   "lat": 28.6328,
+   "lon": 77.2198,
+   "query": "Delhi, Indien",
+   "level": 2,
+   "name": "Delhi, Indien"
+  },
+  "Rancho Mirage, Kalifornien, USA": {
+   "lat": 33.7583,
+   "lon": -116.4347,
+   "query": "Rancho Mirage, Kalifornien, USA",
+   "level": 0,
+   "name": "Rancho Mirage, Riverside County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Rannoch Moor": {
+   "lat": 56.674,
+   "lon": -4.6946,
+   "query": "Rannoch Moor",
+   "level": 0,
+   "name": "Rannoch Moor, Perth and Kinross, Schottland, Vereinigtes Königreich"
+  },
+  "Ratcliffe-on-Soar, Nottinghamshire, England": {
+   "lat": 52.8553,
+   "lon": -1.2646,
+   "query": "Ratcliffe-on-Soar, Nottinghamshire, England",
+   "level": 0,
+   "name": "Ratcliffe on Soar, Rushcliffe, Nottinghamshire, East Midlands, England, Vereinigtes Königreich"
+  },
+  "Rayakottai (Ryakotta), Distrikt Salem, Indien": {
+   "lat": 11.647,
+   "lon": 78.2107,
+   "query": "Distrikt Salem, Indien",
+   "level": 2,
+   "name": "Distrikt Salem, Tamil Nadu, Indien"
+  },
+  "Rayakottai (Ryakotta), Distrikt Salem, Tamil Nadu, Indien": {
+   "lat": 11.647,
+   "lon": 78.2107,
+   "query": "Distrikt Salem, Tamil Nadu, Indien",
+   "level": 2,
+   "name": "Distrikt Salem, Tamil Nadu, Indien"
+  },
+  "Red River Gorge, Kentucky": {
+   "lat": 37.7422,
+   "lon": -83.5753,
+   "query": "Red River Gorge, Kentucky",
+   "level": 0,
+   "name": "Red River Gorge Inn, 182, Quillen Chapel Road, Campton, Wolfe County, Kentucky, 41301, Vereinigte Staaten von Amerika"
+  },
+  "Regan, North Dakota, USA": {
+   "lat": 47.158,
+   "lon": -100.5282,
+   "query": "Regan, North Dakota, USA",
+   "level": 0,
+   "name": "Regan, Burleigh County, Nord-Dakota, Vereinigte Staaten von Amerika"
+  },
+  "Rennie’s Lock, Edinburgh, Schottland": {
+   "lat": 55.9776,
+   "lon": -3.1716,
+   "query": "Rennie’s Lock, Edinburgh, Schottland",
+   "level": 0,
+   "name": "Rennie's Lock, The Shore, North Leith, Leith, Edinburg, Schottland, EH6 6QB, Vereinigtes Königreich"
+  },
+  "Reno, Nevada, USA": {
+   "lat": 39.5262,
+   "lon": -119.8127,
+   "query": "Reno, Nevada, USA",
+   "level": 0,
+   "name": "Reno, Washoe County, Nevada, Vereinigte Staaten von Amerika"
+  },
+  "Richtersveld National Park, Südafrika": {
+   "lat": -28.8166,
+   "lon": 24.9916,
+   "query": "Südafrika",
+   "level": 1,
+   "name": "Südafrika"
+  },
+  "Rishiri Island": {
+   "lat": 45.1784,
+   "lon": 141.2305,
+   "query": "Rishiri Island",
+   "level": 0,
+   "name": "利尻島, 利尻郡, 宗谷総合振興局, Präfektur Hokkaido, Region Hokkaidō, Japan"
+  },
+  "Riva di Tures (Rein in Taufers), Südtirol": {
+   "lat": 46.9515,
+   "lon": 12.0624,
+   "query": "Riva di Tures, Rein in Taufers, Südtirol",
+   "level": 0,
+   "name": "Rein in Taufers, Arche, Rein in Taufers, Sand in Taufers, Pustertal, Bozen, Trentino-Südtirol, Italien"
+  },
+  "Rocky Mountain National Park, Colorado, USA": {
+   "lat": 40.3554,
+   "lon": -105.7177,
+   "query": "Rocky Mountain National Park, Colorado, USA",
+   "level": 0,
+   "name": "Rocky Mountain National Park, Larimer County, Colorado, Vereinigte Staaten von Amerika"
+  },
+  "Rom": {
+   "lat": 41.8933,
+   "lon": 12.4829,
+   "query": "Rom",
+   "level": 0,
+   "name": "Rom, Roma Capitale, Latium, Italien"
+  },
+  "Russland": {
+   "lat": 64.6863,
+   "lon": 97.7453,
+   "query": "Russland",
+   "level": 0,
+   "name": "Russland"
+  },
+  "Rydal Water, Cumbria, England": {
+   "lat": 52.531,
+   "lon": -1.2649,
+   "query": "England",
+   "level": 2,
+   "name": "England, Vereinigtes Königreich"
+  },
+  "Ryōan-ji, Kyoto, Japan": {
+   "lat": 35.0335,
+   "lon": 135.7181,
+   "query": "Ryōan-ji, Kyoto, Japan",
+   "level": 0,
+   "name": "Ryōan-ji, 衣笠宇多野線, 龍安寺池ノ下町, 花園岡ノ本町, 右京区, Kyōto, Präfektur Kyōto, 616-0000, Japan"
+  },
+  "Saintes-Maries-de-la-Mer, Frankreich": {
+   "lat": 43.4516,
+   "lon": 4.4277,
+   "query": "Saintes-Maries-de-la-Mer, Frankreich",
+   "level": 0,
+   "name": "Saintes-Maries-de-la-Mer, Arles, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, Metropolitanes Frankreich, 13460, Frankre"
+  },
+  "Salar de Atacama, Chile": {
+   "lat": -23.3836,
+   "lon": -68.2567,
+   "query": "Salar de Atacama, Chile",
+   "level": 0,
+   "name": "Salar de Atacama, Región de Antofagasta, Chile"
+  },
+  "Salar de Uyuni, Bolivien": {
+   "lat": -20.2043,
+   "lon": -67.515,
+   "query": "Salar de Uyuni, Bolivien",
+   "level": 0,
+   "name": "Salar de Uyuni, Municipio Colcha K, Provincia Nor Lípez, Potosí, Bolivien"
+  },
+  "Salton Sea": {
+   "lat": 33.3173,
+   "lon": -115.7858,
+   "query": "Salton Sea",
+   "level": 0,
+   "name": "Saltonsee, Imperial County, Kalifornien, 92274, Vereinigte Staaten von Amerika"
+  },
+  "Salton Sea Beach, Kalifornien, USA": {
+   "lat": 33.377,
+   "lon": -116.0128,
+   "query": "Salton Sea Beach, Kalifornien, USA",
+   "level": 0,
+   "name": "Salton Sea Beach, Imperial County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Salton Sea, Kalifornien, USA": {
+   "lat": 33.3173,
+   "lon": -115.7858,
+   "query": "Salton Sea, Kalifornien, USA",
+   "level": 0,
+   "name": "Saltonsee, Imperial County, Kalifornien, 92274, Vereinigte Staaten von Amerika"
+  },
+  "San Francisco": {
+   "lat": 37.7879,
+   "lon": -122.4075,
+   "query": "San Francisco",
+   "level": 0,
+   "name": "San Francisco, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "San Francisco, USA": {
+   "lat": 37.7879,
+   "lon": -122.4075,
+   "query": "San Francisco, USA",
+   "level": 0,
+   "name": "San Francisco, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "San Juan Mountains, Colorado": {
+   "lat": 38.7252,
+   "lon": -105.6077,
+   "query": "Colorado",
+   "level": 1,
+   "name": "Colorado, Vereinigte Staaten von Amerika"
+  },
+  "San Juan River, Colorado": {
+   "lat": 10.1173,
+   "lon": -84.3955,
+   "query": "San Juan River, Colorado",
+   "level": 0,
+   "name": "Río Colorado, Naranjo, Provinz Alajuela, 20606, Costa Rica"
+  },
+  "San Luis Valley, Colorado": {
+   "lat": 37.6954,
+   "lon": -105.9206,
+   "query": "San Luis Valley, Colorado",
+   "level": 0,
+   "name": "San Luis Valley Solar Ranch, Alamosa County, Colorado, 81146, Vereinigte Staaten von Amerika"
+  },
+  "San Luis Valley, Colorado, USA": {
+   "lat": 37.6954,
+   "lon": -105.9206,
+   "query": "San Luis Valley, Colorado, USA",
+   "level": 0,
+   "name": "San Luis Valley Solar Ranch, Alamosa County, Colorado, 81146, Vereinigte Staaten von Amerika"
+  },
+  "San Mateo County, Kalifornien, USA": {
+   "lat": 37.4969,
+   "lon": -122.3331,
+   "query": "San Mateo County, Kalifornien, USA",
+   "level": 0,
+   "name": "San Mateo County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "San Quirico d'Orcia, Toskana, Italien": {
+   "lat": 43.0604,
+   "lon": 11.6036,
+   "query": "San Quirico d'Orcia, Toskana, Italien",
+   "level": 0,
+   "name": "San Quirico d'Orcia, Unione dei Comuni Amiata Val d'Orcia, Siena, Toskana, 53027, Italien"
+  },
+  "San Ysidro, Kalifornien, USA": {
+   "lat": 32.552,
+   "lon": -117.0431,
+   "query": "San Ysidro, Kalifornien, USA",
+   "level": 0,
+   "name": "San Ysidro, San Diego, San Diego County, Kalifornien, 92173, Vereinigte Staaten von Amerika"
+  },
+  "Sancti Spíritus, Kuba": {
+   "lat": 21.7323,
+   "lon": -79.6233,
+   "query": "Sancti Spíritus, Kuba",
+   "level": 0,
+   "name": "Sancti Spíritus, Kuba"
+  },
+  "Santa Cesarea": {
+   "lat": 40.0373,
+   "lon": 18.4574,
+   "query": "Santa Cesarea",
+   "level": 0,
+   "name": "Torre Santa Cesarea, Via Pola, Santa Cesarea Terme, Lecce, Apulien, 73027, Italien"
+  },
+  "Santa Fe, New Mexico, USA": {
+   "lat": 35.6876,
+   "lon": -105.9385,
+   "query": "Santa Fe, New Mexico, USA",
+   "level": 0,
+   "name": "Santa Fe, Santa Fe County, Neumexiko, Vereinigte Staaten von Amerika"
+  },
+  "Scanno, Abruzzo, Italy": {
+   "lat": 41.8868,
+   "lon": 13.8956,
+   "query": "Scanno, Abruzzo, Italy",
+   "level": 0,
+   "name": "Scanno, L'Aquila, Abruzzen, 67038, Italien"
+  },
+  "Schlucht vor Sewastopol, Krim": {
+   "lat": 45.2835,
+   "lon": 34.2008,
+   "query": "Krim",
+   "level": 1,
+   "name": "Krim, Ukraine"
+  },
+  "Sentinel Dome, Yosemite, California, USA": {
+   "lat": 37.7164,
+   "lon": -119.5911,
+   "query": "Sentinel Dome, Yosemite, California, USA",
+   "level": 0,
+   "name": "Sentinel Creek, Yosemite Village, Mariposa County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Shaanxi, China": {
+   "lat": 35.5896,
+   "lon": 109.3013,
+   "query": "Shaanxi, China",
+   "level": 0,
+   "name": "Shaanxi, China"
+  },
+  "Shandong, China": {
+   "lat": 36.399,
+   "lon": 118.5056,
+   "query": "Shandong, China",
+   "level": 0,
+   "name": "Shandong, China"
+  },
+  "Shanghai": {
+   "lat": 31.2313,
+   "lon": 121.47,
+   "query": "Shanghai",
+   "level": 0,
+   "name": "Shanghai, China"
+  },
+  "Shanghai, China": {
+   "lat": 31.2313,
+   "lon": 121.47,
+   "query": "Shanghai, China",
+   "level": 0,
+   "name": "Shanghai, China"
+  },
+  "Shark Bay, Western Australia": {
+   "lat": -25.8061,
+   "lon": 113.9074,
+   "query": "Shark Bay, Western Australia",
+   "level": 0,
+   "name": "Shark Bay, Westaustralien, Australien"
+  },
+  "Shenyang Heavy Machinery Group, Tiexi District, Shenyang City, Liaoning Province, China": {
+   "lat": 41.7263,
+   "lon": 123.2086,
+   "query": "Tiexi District, Shenyang City, Liaoning Province, China",
+   "level": 1,
+   "name": "铁西区, Shenyang, Liaoning, China"
+  },
+  "Shijingshan, Beijing, China": {
+   "lat": 39.9046,
+   "lon": 116.2168,
+   "query": "Shijingshan, Beijing, China",
+   "level": 0,
+   "name": "石景山区, Peking, China"
+  },
+  "Shiloh National Military Park, Pittsburgh Landing, Tennessee, USA": {
+   "lat": 35.773,
+   "lon": -86.282,
+   "query": "Tennessee, USA",
+   "level": 2,
+   "name": "Tennessee, Vereinigte Staaten von Amerika"
+  },
+  "Shimogo, Präfektur Fukushima, Japan": {
+   "lat": 37.2556,
+   "lon": 139.8725,
+   "query": "Shimogo, Präfektur Fukushima, Japan",
+   "level": 0,
+   "name": "下郷町, 南会津郡, Präfektur Fukushima, Japan"
+  },
+  "Shinjuku, Tokio, Japan": {
+   "lat": 35.6938,
+   "lon": 139.7036,
+   "query": "Shinjuku, Tokio, Japan",
+   "level": 0,
+   "name": "新宿区, Tokio, 160-8484, Japan"
+  },
+  "Shizuishan": {
+   "lat": 38.9869,
+   "lon": 106.3772,
+   "query": "Shizuishan",
+   "level": 0,
+   "name": "Shizuishan, Ningxia, China"
+  },
+  "Shosanbetsu, Hokkaido, Japan": {
+   "lat": 44.5324,
+   "lon": 141.7663,
+   "query": "Shosanbetsu, Hokkaido, Japan",
+   "level": 0,
+   "name": "初山別村, 苫前郡, 留萌振興局, Präfektur Hokkaido, Region Hokkaidō, Japan"
+  },
+  "Shoshone Falls, Snake River, Jerome County": {
+   "lat": 42.5215,
+   "lon": -113.7309,
+   "query": "Snake River, Jerome County",
+   "level": 1,
+   "name": "Snake River, Minidoka County, Idaho, Vereinigte Staaten von Amerika"
+  },
+  "Sikandar Bagh, Lucknow, Indien": {
+   "lat": 26.8554,
+   "lon": 80.9515,
+   "query": "Sikandar Bagh, Lucknow, Indien",
+   "level": 0,
+   "name": "Sikandar Bagh Chauraha, Sikander Bagh Chauraha, Hazratganj, Lucknow, Uttar Pradesh, 226027, Indien"
+  },
+  "Simiane-la-Rotonde, Alpes de Haute-Provence, France": {
+   "lat": 43.9806,
+   "lon": 5.5631,
+   "query": "Simiane-la-Rotonde, Alpes de Haute-Provence, France",
+   "level": 0,
+   "name": "Simiane-la-Rotonde, Forcalquier, Alpes-de-Haute-Provence, Provence-Alpes-Côte d'Azur, Metropolitanes Frankreich, 04150, "
+  },
+  "Siphnos, Cyclades, Greece": {
+   "lat": 36.9312,
+   "lon": 24.7286,
+   "query": "Cyclades, Greece",
+   "level": 1,
+   "name": "Κυκλάδες, Φάρος - Χρυσοπηγή, Φασολού, Κοινότητα Απολλωνίας, Πλατύς Γιαλός, Δήμος Σίφνου, Regionalbezirk Milos, Region Sü"
+  },
+  "Skeiðarársandur, Island": {
+   "lat": 63.8875,
+   "lon": -17.2585,
+   "query": "Skeiðarársandur, Island",
+   "level": 0,
+   "name": "Skeiðarársandur, Island"
+  },
+  "Snake River Plain, Washington, USA": {
+   "lat": 38.8951,
+   "lon": -77.0364,
+   "query": "Washington, USA",
+   "level": 1,
+   "name": "Washington, District of Columbia, Vereinigte Staaten von Amerika"
+  },
+  "Snowy Valley, Chekiang (Zhejiang), China": {
+   "lat": 29.0,
+   "lon": 120.0,
+   "query": "Zhejiang, China",
+   "level": 2,
+   "name": "Zhejiang, China"
+  },
+  "Somerset": {
+   "lat": 51.1618,
+   "lon": -3.0754,
+   "query": "Somerset",
+   "level": 0,
+   "name": "Somerset, England, Vereinigtes Königreich"
+  },
+  "Sossusvlei, Namibia": {
+   "lat": -24.7395,
+   "lon": 15.2924,
+   "query": "Sossusvlei, Namibia",
+   "level": 0,
+   "name": "Sossusvlei, Hardap, Namibia"
+  },
+  "South Downs Way, West Sussex, England": {
+   "lat": 50.9426,
+   "lon": -0.7554,
+   "query": "South Downs Way, West Sussex, England",
+   "level": 0,
+   "name": "South Downs Way, Cocking Hill, Cocking, Chichester, West Sussex, England, PO18 0HL, Vereinigtes Königreich"
+  },
+  "South of Klamath Falls, Oregon, USA": {
+   "lat": 43.9793,
+   "lon": -120.7373,
+   "query": "Oregon, USA",
+   "level": 1,
+   "name": "Oregon, Vereinigte Staaten von Amerika"
+  },
+  "Spanien": {
+   "lat": 39.3261,
+   "lon": -4.838,
+   "query": "Spanien",
+   "level": 0,
+   "name": "Spanien"
+  },
+  "St. Gallen": {
+   "lat": 47.4256,
+   "lon": 9.3762,
+   "query": "St. Gallen",
+   "level": 0,
+   "name": "Sankt Gallen, Wahlkreis St. Gallen, St. Gallen, Schweiz"
+  },
+  "St. Petersburg": {
+   "lat": 59.9607,
+   "lon": 30.1587,
+   "query": "St. Petersburg",
+   "level": 0,
+   "name": "Sankt Petersburg, Föderationskreis Nordwest, Russland"
+  },
+  "Stac Pollaidh, Sutherland": {
+   "lat": 58.2501,
+   "lon": -4.5001,
+   "query": "Sutherland",
+   "level": 1,
+   "name": "Sutherland, Schottland, Vereinigtes Königreich"
+  },
+  "Stinson Beach": {
+   "lat": 37.8972,
+   "lon": -122.6398,
+   "query": "Stinson Beach",
+   "level": 0,
+   "name": "Stinson Beach, Marin County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Sunbeam, Salmon River, Idaho, USA": {
+   "lat": 44.2591,
+   "lon": -114.3988,
+   "query": "Sunbeam, Salmon River, Idaho, USA",
+   "level": 0,
+   "name": "Sunbeam Village Resort, Salmon River Scenic Byway, Clayton, Custer County, Idaho, Vereinigte Staaten von Amerika"
+  },
+  "Sunderland, Tyne and Wear, England": {
+   "lat": 54.9059,
+   "lon": -1.3829,
+   "query": "Sunderland, Tyne and Wear, England",
+   "level": 0,
+   "name": "Sunderland, Tyne and Wear, North East, England, SR1 3HW, Vereinigtes Königreich"
+  },
+  "Surtsey, Island": {
+   "lat": 63.301,
+   "lon": -20.5946,
+   "query": "Surtsey, Island",
+   "level": 0,
+   "name": "Surtsey, Westmännerinseln, Suðurland, Island"
+  },
+  "Suruga-Bucht, Japan": {
+   "lat": 34.8657,
+   "lon": 138.5423,
+   "query": "Suruga-Bucht, Japan",
+   "level": 0,
+   "name": "駿河湾, Präfektur Shizuoka, Japan"
+  },
+  "Sweetwater County, Wyoming, USA": {
+   "lat": 41.6239,
+   "lon": -108.9702,
+   "query": "Sweetwater County, Wyoming, USA",
+   "level": 0,
+   "name": "Sweetwater County, Wyoming, Vereinigte Staaten von Amerika"
+  },
+  "Sydney, Australien": {
+   "lat": -33.8698,
+   "lon": 151.2083,
+   "query": "Sydney, Australien",
+   "level": 0,
+   "name": "Sydney, Neusüdwales, Australien"
+  },
+  "Süd-Xinjiang, China": {
+   "lat": 34.5412,
+   "lon": 108.9237,
+   "query": "China",
+   "level": 1,
+   "name": "China"
+  },
+  "Südliche Sandwichinseln": {
+   "lat": -59.44,
+   "lon": -27.2377,
+   "query": "Südliche Sandwichinseln",
+   "level": 0,
+   "name": "Südliche Sandwichinseln, Südgeorgien und die Südlichen Sandwichinseln"
+  },
+  "Südrand der Taklamakan, Xinjiang, China": {
+   "lat": 42.4805,
+   "lon": 85.4633,
+   "query": "Xinjiang, China",
+   "level": 1,
+   "name": "Xinjiang, China"
+  },
+  "Table Cape": {
+   "lat": -40.9553,
+   "lon": 145.7186,
+   "query": "Table Cape",
+   "level": 0,
+   "name": "Table Cape, Tasmanien, Australien"
+  },
+  "Tadrart, südlich von Djanet, Algerien": {
+   "lat": 28.0,
+   "lon": 3.0,
+   "query": "Algerien",
+   "level": 2,
+   "name": "Algerien"
+  },
+  "Taft, Louisiana": {
+   "lat": 29.9826,
+   "lon": -90.4443,
+   "query": "Taft, Louisiana",
+   "level": 0,
+   "name": "Taft, Saint Charles Parish, Louisiana, Vereinigte Staaten von Amerika"
+  },
+  "Tal von Bamiyan, Afghanistan": {
+   "lat": 33.768,
+   "lon": 66.2385,
+   "query": "Afghanistan",
+   "level": 1,
+   "name": "Afghanistan"
+  },
+  "Tanger, Marokko": {
+   "lat": 35.7695,
+   "lon": -5.8045,
+   "query": "Tanger, Marokko",
+   "level": 0,
+   "name": "Tanger, Paschalik Tanger, Préfecture de Tanger-Assilah عمالة طنجة-أصيلة, Tanger-Tétouan-Al Hoceïma, Marokko"
+  },
+  "Teehaus an der Straße nach Norden, Afghanistan": {
+   "lat": 33.768,
+   "lon": 66.2385,
+   "query": "Afghanistan",
+   "level": 1,
+   "name": "Afghanistan"
+  },
+  "Tehuantepec, Oaxaca, Mexiko": {
+   "lat": 16.3163,
+   "lon": -95.2492,
+   "query": "Tehuantepec, Oaxaca, Mexiko",
+   "level": 0,
+   "name": "Tehuantepec, Santo Domingo Tehuantepec, Oaxaca, Mexiko"
+  },
+  "Teshikaga, Hokkaido, Japan": {
+   "lat": 43.4853,
+   "lon": 144.4594,
+   "query": "Teshikaga, Hokkaido, Japan",
+   "level": 0,
+   "name": "弟子屈町, 川上郡, 釧路総合振興局, Präfektur Hokkaido, Region Hokkaidō, Japan"
+  },
+  "Texas, USA": {
+   "lat": 31.2639,
+   "lon": -98.5456,
+   "query": "Texas, USA",
+   "level": 0,
+   "name": "Texas, Vereinigte Staaten von Amerika"
+  },
+  "Theben-West (Luxor), Ägypten": {
+   "lat": 25.7021,
+   "lon": 32.6472,
+   "query": "Luxor, Ägypten",
+   "level": 1,
+   "name": "Luxor, 85951, Ägypten"
+  },
+  "Three Gorges Dam Project, Yangtze River, China": {
+   "lat": 30.5641,
+   "lon": 114.2917,
+   "query": "Yangtze River, China",
+   "level": 1,
+   "name": "Jangtsekiang, China"
+  },
+  "Tiznit, südlich von Agadir, Marokko": {
+   "lat": 28.3348,
+   "lon": -10.3713,
+   "query": "Marokko",
+   "level": 2,
+   "name": "Marokko"
+  },
+  "Tobago, Karibik": {
+   "lat": 18.4,
+   "lon": -75.0,
+   "query": "Karibik",
+   "level": 1,
+   "name": "Karibik, Haiti"
+  },
+  "Tokio, Japan": {
+   "lat": 35.6769,
+   "lon": 139.7639,
+   "query": "Tokio, Japan",
+   "level": 0,
+   "name": "Tokio, Japan"
+  },
+  "Tokyo": {
+   "lat": 35.6769,
+   "lon": 139.7639,
+   "query": "Tokyo",
+   "level": 0,
+   "name": "Tokio, Japan"
+  },
+  "Torres Martinez Reservation, Kalifornien, USA": {
+   "lat": 36.7015,
+   "lon": -118.756,
+   "query": "Kalifornien, USA",
+   "level": 1,
+   "name": "Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Trafalgar Square, London, England": {
+   "lat": 51.5074,
+   "lon": -0.1284,
+   "query": "Trafalgar Square, London, England",
+   "level": 0,
+   "name": "Trafalgar Square, Westminster, Covent Garden, City of Westminster, Groß-London, England, WC2N 5DX, Vereinigtes Königreic"
+  },
+  "Truro, Cape Cod, Massachusetts, USA": {
+   "lat": 41.9934,
+   "lon": -70.0497,
+   "query": "Truro, Cape Cod, Massachusetts, USA",
+   "level": 0,
+   "name": "Truro, Barnstable County, Massachusetts, Vereinigte Staaten von Amerika"
+  },
+  "Tucson, Arizona, USA": {
+   "lat": 32.2229,
+   "lon": -110.9748,
+   "query": "Tucson, Arizona, USA",
+   "level": 0,
+   "name": "Tucson, Pima County, Arizona, Vereinigte Staaten von Amerika"
+  },
+  "Tung Tau Tsuen Road, Kowloon, Hongkong": {
+   "lat": 22.3375,
+   "lon": 114.1924,
+   "query": "Tung Tau Tsuen Road, Kowloon, Hongkong",
+   "level": 0,
+   "name": "東頭村道 Tung Tau Tsuen Road, 衙前圍 Nga Tsin Wai, 黃大仙 Wong Tai Sin, 黃大仙區 Wong Tai Sin District, Kowloon, Hongkong, China"
+  },
+  "Tustin": {
+   "lat": 33.7459,
+   "lon": -117.8262,
+   "query": "Tustin",
+   "level": 0,
+   "name": "Tustin, Orange County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Twentynine Palms, Kalifornien, USA": {
+   "lat": 34.1357,
+   "lon": -116.0544,
+   "query": "Twentynine Palms, Kalifornien, USA",
+   "level": 0,
+   "name": "Twentynine Palms, San Bernardino County, Kalifornien, 92278, Vereinigte Staaten von Amerika"
+  },
+  "Twin Falls, Idaho, USA": {
+   "lat": 42.5559,
+   "lon": -114.4701,
+   "query": "Twin Falls, Idaho, USA",
+   "level": 0,
+   "name": "Twin Falls, Twin Falls County, Idaho, 83301, Vereinigte Staaten von Amerika"
+  },
+  "U-Bahnhof Akasaka-mitsuke, Tokio, Japan": {
+   "lat": 35.6769,
+   "lon": 139.7639,
+   "query": "Tokio, Japan",
+   "level": 1,
+   "name": "Tokio, Japan"
+  },
+  "U-Bahnhof Baker Street, London, England": {
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "query": "London, England",
+   "level": 1,
+   "name": "Groß-London, England, Vereinigtes Königreich"
+  },
+  "U.S. 66, Arizona, USA": {
+   "lat": 34.59,
+   "lon": -109.1809,
+   "query": "U.S. 66, Arizona, USA",
+   "level": 0,
+   "name": "66, (Formerly U.S. Grant), Apache County, Arizona, 85936, Vereinigte Staaten von Amerika"
+  },
+  "USA": {
+   "lat": 39.7837,
+   "lon": -100.4459,
+   "query": "USA",
+   "level": 0,
+   "name": "Vereinigte Staaten von Amerika"
+  },
+  "Uffington": {
+   "lat": 51.6009,
+   "lon": -1.5626,
+   "query": "Uffington",
+   "level": 0,
+   "name": "Uffington, Vale of White Horse, Oxfordshire, England, Vereinigtes Königreich"
+  },
+  "Upper West Side, New York City, USA": {
+   "lat": 40.787,
+   "lon": -73.9754,
+   "query": "Upper West Side, New York City, USA",
+   "level": 0,
+   "name": "Upper West Side, Manhattan Community Board 7, Manhattan, New York County, New York, 10024, Vereinigte Staaten von Amerik"
+  },
+  "Urbino, Italien": {
+   "lat": 43.7263,
+   "lon": 12.6363,
+   "query": "Urbino, Italien",
+   "level": 0,
+   "name": "Urbino, Pesaro und Urbino, Marken, 61029, Italien"
+  },
+  "Utah, USA": {
+   "lat": 39.4225,
+   "lon": -111.7144,
+   "query": "Utah, USA",
+   "level": 0,
+   "name": "Utah, Vereinigte Staaten von Amerika"
+  },
+  "Uttar Pradesh, India": {
+   "lat": 27.1303,
+   "lon": 80.8597,
+   "query": "Uttar Pradesh, India",
+   "level": 0,
+   "name": "Uttar Pradesh, Indien"
+  },
+  "Valensole, Provence, Frankreich": {
+   "lat": 43.8379,
+   "lon": 5.984,
+   "query": "Valensole, Provence, Frankreich",
+   "level": 0,
+   "name": "Valensole, Forcalquier, Alpes-de-Haute-Provence, Provence-Alpes-Côte d'Azur, Metropolitanes Frankreich, 04210, Frankreic"
+  },
+  "Valparaíso, Chile": {
+   "lat": -33.0458,
+   "lon": -71.6197,
+   "query": "Valparaíso, Chile",
+   "level": 0,
+   "name": "Valparaíso, Provincia de Valparaíso, Región de Valparaíso, Chile"
+  },
+  "Vasa, Minnesota, USA": {
+   "lat": 44.5033,
+   "lon": -92.7224,
+   "query": "Vasa, Minnesota, USA",
+   "level": 0,
+   "name": "Vasa Township, Goodhue County, Minnesota, Vereinigte Staaten von Amerika"
+  },
+  "Venedig": {
+   "lat": 45.4372,
+   "lon": 12.3346,
+   "query": "Venedig",
+   "level": 0,
+   "name": "Venedig, Venezia, Venetien, 30121-30176, Italien"
+  },
+  "Venedig, Italien": {
+   "lat": 45.4372,
+   "lon": 12.3346,
+   "query": "Venedig, Italien",
+   "level": 0,
+   "name": "Venedig, Venezia, Venetien, 30121-30176, Italien"
+  },
+  "Venice, Louisiana, USA": {
+   "lat": 29.2791,
+   "lon": -89.3587,
+   "query": "Venice, Louisiana, USA",
+   "level": 0,
+   "name": "Venice, Plaquemines Parish, Louisiana, 70091, Vereinigte Staaten von Amerika"
+  },
+  "Vermont, USA": {
+   "lat": 44.5991,
+   "lon": -72.5003,
+   "query": "Vermont, USA",
+   "level": 0,
+   "name": "Vermont, Vereinigte Staaten von Amerika"
+  },
+  "Versailles, Frankreich": {
+   "lat": 48.8035,
+   "lon": 2.1267,
+   "query": "Versailles, Frankreich",
+   "level": 0,
+   "name": "Versailles, Yvelines, Île-de-France, Metropolitanes Frankreich, 78000, Frankreich"
+  },
+  "Virabadra Drug bei Ryakotta, Distrikt Salem, Indien": {
+   "lat": 11.647,
+   "lon": 78.2107,
+   "query": "Distrikt Salem, Indien",
+   "level": 1,
+   "name": "Distrikt Salem, Tamil Nadu, Indien"
+  },
+  "Vor Sewastopol, Krim": {
+   "lat": 45.2835,
+   "lon": 34.2008,
+   "query": "Krim",
+   "level": 1,
+   "name": "Krim, Ukraine"
+  },
+  "Vukovar, Kroatien": {
+   "lat": 45.3444,
+   "lon": 19.0024,
+   "query": "Vukovar, Kroatien",
+   "level": 0,
+   "name": "Vukovar, Gespanschaft Vukovar-Syrmien, Kroatien"
+  },
+  "Wadi Mukattab, Sinai": {
+   "lat": 29.5232,
+   "lon": 33.8055,
+   "query": "Sinai",
+   "level": 1,
+   "name": "Sinai-Halbinsel, Ägypten"
+  },
+  "Wakoto, Hokkaido, Japan": {
+   "lat": 43.5795,
+   "lon": 144.3106,
+   "query": "Wakoto, Hokkaido, Japan",
+   "level": 0,
+   "name": "和琴温泉, 国道243号, 屈斜路, 弟子屈町, 川上郡, 釧路総合振興局, Präfektur Hokkaido, Region Hokkaidō, 088-3395, Japan"
+  },
+  "Warschau, Polen": {
+   "lat": 52.232,
+   "lon": 21.0067,
+   "query": "Warschau, Polen",
+   "level": 0,
+   "name": "Warschau, Woiwodschaft Masowien, Polen"
+  },
+  "Weddellmeer, Antarktische Halbinsel": {
+   "lat": -69.9896,
+   "lon": -65.4005,
+   "query": "Antarktische Halbinsel",
+   "level": 1,
+   "name": "Antarktische Halbinsel"
+  },
+  "Weiming-See, Peking-Universität, Beijing, China": {
+   "lat": 39.9913,
+   "lon": 116.304,
+   "query": "Peking-Universität, Beijing, China",
+   "level": 1,
+   "name": "Peking Universität, 5号, 颐和园路, 稻香园北社区, 海淀街道, 海淀区, Peking, 100871, China"
+  },
+  "Wendover, Utah, USA": {
+   "lat": 40.7376,
+   "lon": -114.0314,
+   "query": "Wendover, Utah, USA",
+   "level": 0,
+   "name": "Wendover, Tooele County, Utah, 84083, Vereinigte Staaten von Amerika"
+  },
+  "Weston Cliff": {
+   "lat": 52.8443,
+   "lon": -1.4204,
+   "query": "Weston Cliff",
+   "level": 0,
+   "name": "Weston Cliff, Weston upon Trent CP, King's Newton, South Derbyshire, Derbyshire, East Midlands, England, Vereinigtes Kön"
+  },
+  "Westsee, Hangzhou, Zhejiang, China": {
+   "lat": 30.246,
+   "lon": 120.1431,
+   "query": "Westsee, Hangzhou, Zhejiang, China",
+   "level": 0,
+   "name": "Westsee, Xihu, Hangzhou, Zhejiang, China"
+  },
+  "Whitby, Yorkshire, England": {
+   "lat": 54.4867,
+   "lon": -0.6135,
+   "query": "Whitby, Yorkshire, England",
+   "level": 0,
+   "name": "Whitby, North Yorkshire, York and North Yorkshire, England, Vereinigtes Königreich"
+  },
+  "White Rock Canyon": {
+   "lat": 43.3694,
+   "lon": -116.5294,
+   "query": "White Rock Canyon",
+   "level": 0,
+   "name": "White Rock Way, Melba, Canyon County, Idaho, Vereinigte Staaten von Amerika"
+  },
+  "White Sands, New Mexico, USA": {
+   "lat": 32.3838,
+   "lon": -106.4966,
+   "query": "White Sands, New Mexico, USA",
+   "level": 0,
+   "name": "White Sands, Doña Ana County, Neumexiko, 88002, Vereinigte Staaten von Amerika"
+  },
+  "Wickliffe, Kentucky, USA": {
+   "lat": 36.9648,
+   "lon": -89.0892,
+   "query": "Wickliffe, Kentucky, USA",
+   "level": 0,
+   "name": "Wickliffe, Ballard County, Kentucky, Vereinigte Staaten von Amerika"
+  },
+  "Willoughby Hedge, Wiltshire, England": {
+   "lat": 51.1014,
+   "lon": -2.1859,
+   "query": "Willoughby Hedge, Wiltshire, England",
+   "level": 0,
+   "name": "Asda Express, A303, West Knoyle, Warminster, Wiltshire, England, BA12 6AQ, Vereinigtes Königreich"
+  },
+  "Wiltshire, England": {
+   "lat": 51.3242,
+   "lon": -1.9032,
+   "query": "Wiltshire, England",
+   "level": 0,
+   "name": "Wiltshire, England, Vereinigtes Königreich"
+  },
+  "Winona, Minnesota, USA": {
+   "lat": 44.05,
+   "lon": -91.6392,
+   "query": "Winona, Minnesota, USA",
+   "level": 0,
+   "name": "Winona, Winona County, Minnesota, 55987, Vereinigte Staaten von Amerika"
+  },
+  "Wonder Lake, Denali-Nationalpark, Alaska, USA": {
+   "lat": 64.446,
+   "lon": -149.6809,
+   "query": "Alaska, USA",
+   "level": 2,
+   "name": "Alaska, Vereinigte Staaten von Amerika"
+  },
+  "Wu-Schlucht, Hubei": {
+   "lat": 31.0,
+   "lon": 112.0,
+   "query": "Hubei",
+   "level": 1,
+   "name": "Hubei, China"
+  },
+  "Wuhai, Innere Mongolei": {
+   "lat": 39.4858,
+   "lon": 106.9005,
+   "query": "Wuhai, Innere Mongolei",
+   "level": 0,
+   "name": "Wuhai, Innere Mongolei, China"
+  },
+  "Xinjiang, China": {
+   "lat": 42.4805,
+   "lon": 85.4633,
+   "query": "Xinjiang, China",
+   "level": 0,
+   "name": "Xinjiang, China"
+  },
+  "Yangtze River, China": {
+   "lat": 30.5641,
+   "lon": 114.2917,
+   "query": "Yangtze River, China",
+   "level": 0,
+   "name": "Jangtsekiang, China"
+  },
+  "Yellowstone Lake, Wyoming, USA": {
+   "lat": 44.4203,
+   "lon": -110.5361,
+   "query": "Yellowstone Lake, Wyoming, USA",
+   "level": 0,
+   "name": "Yellowstone Lake, Teton County, Wyoming, Vereinigte Staaten von Amerika"
+  },
+  "Yellowstone National Park, Wyoming, USA": {
+   "lat": 44.6201,
+   "lon": -110.5607,
+   "query": "Yellowstone National Park, Wyoming, USA",
+   "level": 0,
+   "name": "Yellowstone-Nationalpark, Wyoming, Vereinigte Staaten von Amerika"
+  },
+  "Yellowstone, USA": {
+   "lat": 45.9645,
+   "lon": -108.2761,
+   "query": "Yellowstone, USA",
+   "level": 0,
+   "name": "Yellowstone County, Montana, Vereinigte Staaten von Amerika"
+  },
+  "Yellowstone, Wyoming, USA": {
+   "lat": 44.6201,
+   "lon": -110.5607,
+   "query": "Yellowstone, Wyoming, USA",
+   "level": 0,
+   "name": "Yellowstone-Nationalpark, Wyoming, Vereinigte Staaten von Amerika"
+  },
+  "Yibin, Sichuan": {
+   "lat": 28.7555,
+   "lon": 104.6406,
+   "query": "Yibin, Sichuan",
+   "level": 0,
+   "name": "Yibin, 叙州区, 宜宾市, Sichuan, China"
+  },
+  "Yichang, Hubei": {
+   "lat": 30.6941,
+   "lon": 111.2804,
+   "query": "Yichang, Hubei",
+   "level": 0,
+   "name": "Yichang, Hubei, China"
+  },
+  "Yorkshire": {
+   "lat": 53.9825,
+   "lon": -1.3853,
+   "query": "Yorkshire",
+   "level": 0,
+   "name": "Yorkshire, England, Vereinigtes Königreich"
+  },
+  "Yosemite National Park, California, USA": {
+   "lat": 37.8393,
+   "lon": -119.5165,
+   "query": "Yosemite National Park, California, USA",
+   "level": 0,
+   "name": "Yosemite Nationalpark, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Yosemite Valley, Kalifornien, USA": {
+   "lat": 37.7327,
+   "lon": -119.6057,
+   "query": "Yosemite Valley, Kalifornien, USA",
+   "level": 0,
+   "name": "Yosemite Valley, Yosemite Village, Mariposa County, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Yosemite, Kalifornien, USA": {
+   "lat": 37.8393,
+   "lon": -119.5165,
+   "query": "Yosemite, Kalifornien, USA",
+   "level": 0,
+   "name": "Yosemite Nationalpark, Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "Yuanyang, China": {
+   "lat": 23.0815,
+   "lon": 102.8324,
+   "query": "Yuanyang, China",
+   "level": 0,
+   "name": "元阳县, 红河哈尼族彝族自治州, Yunnan, China"
+  },
+  "Yulin, Shaanxi": {
+   "lat": 38.2851,
+   "lon": 109.729,
+   "query": "Yulin, Shaanxi",
+   "level": 0,
+   "name": "Yulin, Shaanxi, China"
+  },
+  "Yunotani, Präfektur Niigata, Japan": {
+   "lat": 37.2243,
+   "lon": 138.9826,
+   "query": "Yunotani, Präfektur Niigata, Japan",
+   "level": 0,
+   "name": "道の駅 ゆのたに, 小出奥只見線, 吉田, Uonuma, Präfektur Niigata, 946-0024, Japan"
+  },
+  "Zentralanatolien, Türkei": {
+   "lat": 38.7666,
+   "lon": 34.5498,
+   "query": "Zentralanatolien, Türkei",
+   "level": 0,
+   "name": "Zentralanatolien, Türkei"
+  },
+  "Zwischen Albuquerque und Gallup, New Mexico, USA": {
+   "lat": 34.5802,
+   "lon": -105.996,
+   "query": "New Mexico, USA",
+   "level": 1,
+   "name": "Neumexiko, Vereinigte Staaten von Amerika"
+  },
+  "bei Caineville, Utah, USA": {
+   "lat": 39.4225,
+   "lon": -111.7144,
+   "query": "Utah, USA",
+   "level": 1,
+   "name": "Utah, Vereinigte Staaten von Amerika"
+  },
+  "bei Clayton, New Mexico, USA": {
+   "lat": 34.5802,
+   "lon": -105.996,
+   "query": "New Mexico, USA",
+   "level": 1,
+   "name": "Neumexiko, Vereinigte Staaten von Amerika"
+  },
+  "bei Cotulla, Texas, USA": {
+   "lat": 31.2639,
+   "lon": -98.5456,
+   "query": "Texas, USA",
+   "level": 1,
+   "name": "Texas, Vereinigte Staaten von Amerika"
+  },
+  "bei El Centro, Kalifornien, USA": {
+   "lat": 36.7015,
+   "lon": -118.756,
+   "query": "Kalifornien, USA",
+   "level": 1,
+   "name": "Kalifornien, Vereinigte Staaten von Amerika"
+  },
+  "bei Garden City, Kansas, USA": {
+   "lat": 38.2731,
+   "lon": -98.5822,
+   "query": "Kansas, USA",
+   "level": 1,
+   "name": "Kansas, Vereinigte Staaten von Amerika"
+  },
+  "bei Guymon, Oklahoma, USA": {
+   "lat": 34.9551,
+   "lon": -97.2684,
+   "query": "Oklahoma, USA",
+   "level": 1,
+   "name": "Oklahoma, Vereinigte Staaten von Amerika"
+  },
+  "bei Kawaguchiko, Japan": {
+   "lat": 35.5151,
+   "lon": 138.7678,
+   "query": "bei Kawaguchiko, Japan",
+   "level": 0,
+   "name": "河口湖大橋北, 富士河口湖富士線, 浅川, 富士河口湖町, 南都留郡, Präfektur Yamanashi, 401-0392, Japan"
+  },
+  "bei Liberal, Kansas, USA": {
+   "lat": 38.2731,
+   "lon": -98.5822,
+   "query": "Kansas, USA",
+   "level": 1,
+   "name": "Kansas, Vereinigte Staaten von Amerika"
+  },
+  "near Falcon, Colorado, USA": {
+   "lat": 38.7252,
+   "lon": -105.6077,
+   "query": "Colorado, USA",
+   "level": 1,
+   "name": "Colorado, Vereinigte Staaten von Amerika"
+  },
+  "südlich von Moses Lake, Washington, USA": {
+   "lat": 38.8951,
+   "lon": -77.0364,
+   "query": "Washington, USA",
+   "level": 1,
+   "name": "Washington, District of Columbia, Vereinigte Staaten von Amerika"
+  },
+  "Ätna, Sizilien, Italien": {
+   "lat": 37.751,
+   "lon": 14.994,
+   "query": "Ätna, Sizilien, Italien",
+   "level": 0,
+   "name": "Ätna, Zafferana Etnea, Catania, Sizilien, 95019, Italien"
+  },
+  "Étang de Peyriac": {
+   "lat": 43.1095,
+   "lon": 3.0011,
+   "query": "Étang de Peyriac",
+   "level": 0,
+   "name": "Étang de Bages, Bages, Narbonne, Aude, Okzitanien, Metropolitanes Frankreich, 11100, Frankreich"
+  },
+  "Ürümqi, Xinjiang, China": {
+   "lat": 43.8244,
+   "lon": 87.6139,
+   "query": "Ürümqi, Xinjiang, China",
+   "level": 0,
+   "name": "Urumtschi, Xinjiang, China"
   }
  }
 }

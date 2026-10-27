@@ -601,7 +601,7 @@ def main() -> None:
         for im in lib.images.values():
             g = geo.get(im.get("location") or "")
             if g:
-                im["geo"] = [g["lat"], g["lon"], g["level"]]
+                im["geo"] = [g["lat"], g["lon"], g["level"] if "," in g.get("name", "") else 9]  # 9 = only a country was found
     sketches = load_sketches()
     for le in lib.lessons.values():
         check_directives(le, lib.images, sketches)

@@ -548,8 +548,8 @@ async function snackMap(pos, card, res) {
   el.dataset.ready = "1";
   const L = await loadLeaflet().catch(() => null); if (!L) { el.textContent = "Karte konnte nicht geladen werden."; return; }
   const st = sess.get("snack"), guess = st?.geo?.[pos];
-  const map = L.map(el, { worldCopyJump: true, attributionControl: true, zoomControl: true }).setView(guess ? [guess.lat, guess.lon] : [25, 10], guess ? 3 : 1);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", { maxZoom: 10, attribution: "© OpenStreetMap, © CARTO" }).addTo(map);
+  const map = L.map(el, { worldCopyJump: true, attributionControl: true, zoomControl: true, minZoom: 1 }); if (guess) map.setView([guess.lat, guess.lon], 3); else map.fitBounds([[-55, -170], [72, 180]]);
+  L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", { maxZoom: 10, attribution: "Esri, Maxar, Earthstar Geographics" }).addTo(map); // satellite, no labels
   const dot = (ll, color) => L.circleMarker(ll, { radius: 8, color, weight: 3, fillOpacity: .8 }).addTo(map);
   if (guess) dot([guess.lat, guess.lon], "#d8b06a");
   if (res) { const truth = [card.lat, card.lon]; dot(truth, "#8fc49a"); L.polyline([[guess.lat, guess.lon], truth], { color: "#d8b06a", dashArray: "4 6" }).addTo(map);
