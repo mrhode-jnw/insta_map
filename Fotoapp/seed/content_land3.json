@@ -1,0 +1,2249 @@
+{
+ "accessed_at": "2026-10-27",
+ "photographers": [
+  {
+   "key": "brandenburg",
+   "name": "Jim Brandenburg",
+   "born": 1945,
+   "sources": [
+    {
+     "url": "https://kk.org/cooltools/chased-by-the-l-1/",
+     "title": "Kevin Kelly: Chased By the Light – Cool Tools (Rezension mit Auszügen aus dem Buch)",
+     "excerpt": "In the 1990s veteran magazine photographer Jim Brandenbrug gave himself an impossible assignment: “For 90 days between the autumn equinox and winter solstice I would make only one photograph a day. There would be no second exposure, no second chance.”",
+     "kind": "kritik",
+     "author": "Kevin Kelly",
+     "aspect": "entstehung"
+    },
+    {
+     "url": "https://www.npr.org/1998/12/21/1032330/chased-by-the-light",
+     "title": "'Chased By the Light' – NPR, All Things Considered (1998)",
+     "excerpt": "As a professional photographer for National Geographic, Brandenburg is used to shooting hundreds of pictures a day and wanted to force himself to work under the discipline of only one photograph per day.",
+     "kind": "kritik",
+     "author": "NPR",
+     "aspect": "entstehung"
+    },
+    {
+     "url": "https://mndaily.com/258902/uncategorized/photographer-captures-nature-journey/",
+     "title": "Photographer captures nature journey – The Minnesota Daily (Interview zur Ausstellung im Bell Museum)",
+     "excerpt": "“It is impossible to explain,” he said of the experience. “I wanted to represent something I felt that day, not calendar photos.”",
+     "kind": "fotograf",
+     "author": "Jim Brandenburg",
+     "aspect": "deutung"
+    }
+   ],
+   "projects": [
+    {
+     "key": "brandenburg-chased-by-the-light",
+     "title": "Chased by the Light – ein Bild pro Tag, 90 Tage (Auswahl)",
+     "year_from": 1994,
+     "year_to": 1994,
+     "sources": [
+      {
+       "url": "https://mndaily.com/258902/uncategorized/photographer-captures-nature-journey/",
+       "title": "Photographer captures nature journey – The Minnesota Daily (Interview zur Ausstellung im Bell Museum)",
+       "excerpt": "Photographer Jim Brandenburg spent 90 days during 1994 near his northern Minnesota home, taking one photo per day to create his most recent book, “Chased by the Light.”",
+       "kind": "kritik",
+       "author": "The Minnesota Daily",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://mndaily.com/258902/uncategorized/photographer-captures-nature-journey/",
+       "title": "Photographer captures nature journey – The Minnesota Daily (Interview zur Ausstellung im Bell Museum)",
+       "excerpt": "Unlike his normal practice of shooting 400 to 500 rolls of film per assignment, Brandenburg said shooting only one photo per day was an additional challenge.",
+       "kind": "kritik",
+       "author": "The Minnesota Daily",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://mndaily.com/258902/uncategorized/photographer-captures-nature-journey/",
+       "title": "Photographer captures nature journey – The Minnesota Daily (Interview zur Ausstellung im Bell Museum)",
+       "excerpt": "As it happened, the photos were finally published in National Geographic in November 1997, after sitting in a drawer at Brandenburg’s studio for more than two years.",
+       "kind": "kritik",
+       "author": "The Minnesota Daily",
+       "aspect": "rezeption",
+       "series_level": true
+      },
+      {
+       "url": "https://kk.org/cooltools/chased-by-the-l-1/",
+       "title": "Kevin Kelly: Chased By the Light – Cool Tools (Rezension mit Auszügen aus dem Buch)",
+       "excerpt": "I sensed there would be lessons learned. There were, but not always those I had imagined. Some were merely lessons remembered, recapturing things I had forgotten, such as remaining open to chance, and that, in nature, not all beauty is giant in scale.",
+       "kind": "fotograf",
+       "author": "Jim Brandenburg (Buchzitat)",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "brandenburg-day01-black-spruce-forest",
+       "title": "Day 1: Black Spruce Forest",
+       "year": 1994,
+       "location": "Superior National Forest, nördliches Minnesota (USA)",
+       "tags": [
+        "wald",
+        "moos",
+        "herbst",
+        "serie"
+       ],
+       "source_url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+       "image_url": "https://www.jimbrandenburg.com/pf-media/Day01BlackSpruceForest.jpg",
+       "sources": [
+        {
+         "url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+         "title": "Chased by the Light – Galerie mit Bildtiteln, Datum und Uhrzeit (Website Jim Brandenburg)",
+         "excerpt": "DAY01 Black Spruce Forest - Friday, Sept 23, 9:15am",
+         "kind": "fotograf",
+         "author": "Jim Brandenburg (Bildtitel)",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "brandenburg-day10-wilderness-loons",
+       "title": "Day 10: Wilderness Loons",
+       "year": 1994,
+       "location": "Boundary Waters Canoe Area Wilderness, Minnesota (USA)",
+       "tags": [
+        "seetaucher",
+        "insel",
+        "dunst",
+        "gegenlicht"
+       ],
+       "source_url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+       "image_url": "https://www.jimbrandenburg.com/pf-media/Day10WildernessLoonsLimitedEdition.jpg",
+       "sources": [
+        {
+         "url": "https://mndaily.com/258902/uncategorized/photographer-captures-nature-journey/",
+         "title": "Photographer captures nature journey – The Minnesota Daily (Interview zur Ausstellung im Bell Museum)",
+         "excerpt": "“I was canoeing and I saw two loons ahead of me,” he said. “One was tangled in fishing line and had a hook in its neck. I saw the dying loon, the beautiful light, the island and it just summed up the ecosystem around me.”",
+         "kind": "fotograf",
+         "author": "Jim Brandenburg",
+         "aspect": "entstehung"
+        },
+        {
+         "url": "https://mndaily.com/258902/uncategorized/photographer-captures-nature-journey/",
+         "title": "Photographer captures nature journey – The Minnesota Daily (Interview zur Ausstellung im Bell Museum)",
+         "excerpt": "It was a difficult photo to take, he said, and turned out better than he thought. It is rare to get a loon with wings outstretched, he said.",
+         "kind": "fotograf",
+         "author": "Jim Brandenburg (wiedergegeben)",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "brandenburg-day12-shovel-point",
+       "title": "Day 12: Shovel Point, Lake Superior",
+       "year": 1994,
+       "location": "Shovel Point, Lake Superior, Minnesota (USA)",
+       "tags": [
+        "küste",
+        "fels",
+        "abendlicht",
+        "see"
+       ],
+       "source_url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+       "image_url": "https://www.jimbrandenburg.com/pf-media/Day12ShovelPoint.jpg",
+       "sources": [
+        {
+         "url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+         "title": "Chased by the Light – Galerie mit Bildtiteln, Datum und Uhrzeit (Website Jim Brandenburg)",
+         "excerpt": "Day12 Shovel Point, Lake Superior - Tuesday, Oct 4, 6:50 pm",
+         "kind": "fotograf",
+         "author": "Jim Brandenburg (Bildtitel)",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "brandenburg-day23-maple-leaf",
+       "title": "Day 23: Maple Leaf",
+       "year": 1994,
+       "location": "Superior National Forest, Minnesota (USA)",
+       "tags": [
+        "blatt",
+        "teich",
+        "detail",
+        "herbst"
+       ],
+       "source_url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+       "image_url": "https://www.jimbrandenburg.com/pf-media/Day23MapleLeaf.jpg",
+       "sources": [
+        {
+         "url": "https://kk.org/cooltools/chased-by-the-l-1/",
+         "title": "Kevin Kelly: Chased By the Light – Cool Tools (Rezension mit Auszügen aus dem Buch)",
+         "excerpt": "One such lesson occurred on October 15th, the twenty-third day. It was late and I despaired of capturing anything of value. The day was dark and gloomy; my mood reflected the weather.",
+         "kind": "fotograf",
+         "author": "Jim Brandenburg (Buchzitat)",
+         "aspect": "entstehung"
+        },
+        {
+         "url": "https://kk.org/cooltools/chased-by-the-l-1/",
+         "title": "Kevin Kelly: Chased By the Light – Cool Tools (Rezension mit Auszügen aus dem Buch)",
+         "excerpt": "But perhaps because I was patient, and perhaps because, as natives do on a vision quest, I had reached my physical limits, I became open to the possibility revealed by a single red maple leaf floating on a dark-water pond.",
+         "kind": "fotograf",
+         "author": "Jim Brandenburg (Buchzitat)",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "brandenburg-day37-wilderness-sunset",
+       "title": "Day 37: Wilderness Sunset",
+       "year": 1994,
+       "location": "Nördliches Minnesota (USA)",
+       "tags": [
+        "sonnenuntergang",
+        "wolken",
+        "silhouette",
+        "wald"
+       ],
+       "source_url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+       "image_url": "https://www.jimbrandenburg.com/pf-media/Day37WildernessSunset.jpg",
+       "sources": [
+        {
+         "url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+         "title": "Chased by the Light – Galerie mit Bildtiteln, Datum und Uhrzeit (Website Jim Brandenburg)",
+         "excerpt": "Day37 Wilderness Sunset - Saturday, Oct 29, 6:00pm",
+         "kind": "fotograf",
+         "author": "Jim Brandenburg (Bildtitel)",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "brandenburg-day38-aurora-borealis",
+       "title": "Day 38: Aurora Borealis",
+       "year": 1994,
+       "location": "Nördliches Minnesota (USA)",
+       "tags": [
+        "polarlicht",
+        "nacht",
+        "see",
+        "silhouette"
+       ],
+       "source_url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+       "image_url": "https://www.jimbrandenburg.com/pf-media/Day38AuroraBorealis.jpg",
+       "sources": [
+        {
+         "url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+         "title": "Chased by the Light – Galerie mit Bildtiteln, Datum und Uhrzeit (Website Jim Brandenburg)",
+         "excerpt": "Day38 Aurora Borealis - Sunday, Oct 30, 4:04 am",
+         "kind": "fotograf",
+         "author": "Jim Brandenburg (Bildtitel)",
+         "aspect": "entstehung"
+        },
+        {
+         "url": "https://mndaily.com/258902/uncategorized/photographer-captures-nature-journey/",
+         "title": "Photographer captures nature journey – The Minnesota Daily (Interview zur Ausstellung im Bell Museum)",
+         "excerpt": "“I got up and two hours later I had a photograph,” he said. “I’d have to say that it’s one of the most popular pictures in the book.",
+         "kind": "fotograf",
+         "author": "Jim Brandenburg",
+         "aspect": "rezeption"
+        }
+       ]
+      },
+      {
+       "key": "brandenburg-day60-white-spruce-snowfall",
+       "title": "Day 60: White Spruce in Snowfall",
+       "year": 1994,
+       "location": "Nördliches Minnesota (USA)",
+       "tags": [
+        "schnee",
+        "fichte",
+        "winter",
+        "wald"
+       ],
+       "source_url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+       "image_url": "https://www.jimbrandenburg.com/pf-media/Day60WhiteSpruceInSnowfall.jpg",
+       "sources": [
+        {
+         "url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+         "title": "Chased by the Light – Galerie mit Bildtiteln, Datum und Uhrzeit (Website Jim Brandenburg)",
+         "excerpt": "Day60 White Spruce in Snowfall - Monday, Nov 21, 1:58 pm",
+         "kind": "fotograf",
+         "author": "Jim Brandenburg (Bildtitel)",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "brandenburg-day74-long-shadows",
+       "title": "Day 74: Long Shadows",
+       "year": 1994,
+       "location": "Nördliches Minnesota (USA)",
+       "tags": [
+        "schnee",
+        "schatten",
+        "grafisch",
+        "winter"
+       ],
+       "source_url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+       "image_url": "https://www.jimbrandenburg.com/pf-media/Day74LongShadows.jpg",
+       "sources": [
+        {
+         "url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+         "title": "Chased by the Light – Galerie mit Bildtiteln, Datum und Uhrzeit (Website Jim Brandenburg)",
+         "excerpt": "Day74 Long Shadows - Monday, Dec 5, 12:34 pm",
+         "kind": "fotograf",
+         "author": "Jim Brandenburg (Bildtitel)",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "brandenburg-day89-years-shortest-day",
+       "title": "Day 89: Year's Shortest Day",
+       "year": 1994,
+       "location": "Nördliches Minnesota (USA)",
+       "tags": [
+        "gegenlicht",
+        "eis",
+        "sonne",
+        "winter"
+       ],
+       "source_url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+       "image_url": "https://www.jimbrandenburg.com/pf-media/Day89YearsShortestDay.jpg",
+       "sources": [
+        {
+         "url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+         "title": "Chased by the Light – Galerie mit Bildtiteln, Datum und Uhrzeit (Website Jim Brandenburg)",
+         "excerpt": "Day89 Years Shortest Day - Tuesday, Dec 20, 12:00 pm",
+         "kind": "fotograf",
+         "author": "Jim Brandenburg (Bildtitel)",
+         "aspect": "entstehung"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "wilkes",
+   "name": "Stephen Wilkes",
+   "born": null,
+   "sources": [
+    {
+     "url": "https://www.ted.com/talks/stephen_wilkes_the_passing_of_time_caught_in_a_single_photo/transcript",
+     "title": "Stephen Wilkes: The passing of time, caught in a single photo – TED-Vortrag (Transkript)",
+     "excerpt": "My process begins by photographing iconic locations, places that are part of what I call our collective memory. I photograph from a fixed vantage point, and I never move. I capture the fleeting moments of humanity and light as time passes.",
+     "kind": "fotograf",
+     "author": "Stephen Wilkes",
+     "aspect": "technik"
+    },
+    {
+     "url": "https://www.ted.com/talks/stephen_wilkes_the_passing_of_time_caught_in_a_single_photo/transcript",
+     "title": "Stephen Wilkes: The passing of time, caught in a single photo – TED-Vortrag (Transkript)",
+     "excerpt": "So once I decide on my view and the location, I have to decide where day begins and night ends. And that's what I call the time vector.",
+     "kind": "fotograf",
+     "author": "Stephen Wilkes",
+     "aspect": "technik"
+    },
+    {
+     "url": "https://www.holdenluntz.com/magazine/in-discussion/in-discussion-stephen-wilkes/",
+     "title": "In Discussion: Stephen Wilkes „Beyond the Horizon“ – Holden Luntz Gallery (Vortragsmitschrift)",
+     "excerpt": "What I discovered with the Hudson River School was that these artists were painting light moving; it was not just a scene, but the light, depth, and three-dimensional quality made it very unique.",
+     "kind": "fotograf",
+     "author": "Stephen Wilkes",
+     "aspect": "deutung"
+    }
+   ],
+   "projects": [
+    {
+     "key": "wilkes-day-to-night-landscapes",
+     "title": "Day to Night – Landschaften und Nationalparks (Auswahl)",
+     "year_from": 2014,
+     "year_to": 2022,
+     "sources": [
+      {
+       "url": "https://www.ted.com/talks/stephen_wilkes_the_passing_of_time_caught_in_a_single_photo/transcript",
+       "title": "Stephen Wilkes: The passing of time, caught in a single photo – TED-Vortrag (Transkript)",
+       "excerpt": "Photographing for anywhere from 15 to 30 hours and shooting over 1,500 images, I then choose the best moments of the day and night. Using time as a guide, I seamlessly blend those best moments into one single photograph, visualizing our conscious journey with time.",
+       "kind": "fotograf",
+       "author": "Stephen Wilkes",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://www.holdenluntz.com/magazine/in-discussion/in-discussion-stephen-wilkes/",
+       "title": "In Discussion: Stephen Wilkes „Beyond the Horizon“ – Holden Luntz Gallery (Vortragsmitschrift)",
+       "excerpt": "People often ask me, “How do you even pay attention for that long?” What I do is almost like a deep meditation.",
+       "kind": "fotograf",
+       "author": "Stephen Wilkes",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.nationalgeographic.com/photography/article/his-landscapes-require-patience-and-ingenuity-under-pressure",
+       "title": "His epic landscapes require hours of patience—and ingenuity under pressure – National Geographic (2022)",
+       "excerpt": "Over the last 12 years, Wilkes has photographed his Day to Night series, which has expanded from documenting cities to landscapes throughout America and ultimately the world. He has also become more drawn to capturing social and environmental issues.",
+       "kind": "kritik",
+       "author": "National Geographic",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "wilkes-tunnel-view-yosemite",
+       "title": "Tunnel View, Yosemite National Park, Day to Night",
+       "year": 2014,
+       "location": "Tunnel View, Yosemite National Park, Kalifornien (USA)",
+       "tags": [
+        "nationalpark",
+        "tag-und-nacht",
+        "komposit",
+        "felswand"
+       ],
+       "source_url": "https://stephenwilkes.com/fine-art/day-to-night/",
+       "image_url": "https://stephenwilkes.com/app/uploads/2018/11/StephenWilkes_D2N028_YOSEMITE_2k.jpg",
+       "sources": [
+        {
+         "url": "https://www.ted.com/talks/stephen_wilkes_the_passing_of_time_caught_in_a_single_photo/transcript",
+         "title": "Stephen Wilkes: The passing of time, caught in a single photo – TED-Vortrag (Transkript)",
+         "excerpt": "I photographed for over 30 hours in this picture. I was literally on the side of a cliff, capturing the stars and the moonlight as it transitions, the moonlight lighting El Capitan.",
+         "kind": "fotograf",
+         "author": "Stephen Wilkes",
+         "aspect": "entstehung"
+        },
+        {
+         "url": "https://www.holdenluntz.com/magazine/in-discussion/in-discussion-stephen-wilkes/",
+         "title": "In Discussion: Stephen Wilkes „Beyond the Horizon“ – Holden Luntz Gallery (Vortragsmitschrift)",
+         "excerpt": "I was actually on top of the tunnel in Tunnel View for 36 hours, okay, anchored with rope to make this photograph, but it was worth it.",
+         "kind": "fotograf",
+         "author": "Stephen Wilkes",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "wilkes-grand-canyon",
+       "title": "Grand Canyon National Park, Arizona, Day to Night",
+       "year": 2015,
+       "location": "Desert View Watchtower, Grand Canyon, Arizona (USA)",
+       "tags": [
+        "canyon",
+        "tag-und-nacht",
+        "aussichtspunkt",
+        "komposit"
+       ],
+       "source_url": "https://stephenwilkes.com/fine-art/day-to-night/",
+       "image_url": "https://stephenwilkes.com/app/uploads/2018/11/StephenWilkes_D2N034_GRAND_CANYON_10_2k.jpg",
+       "sources": [
+        {
+         "url": "https://www.holdenluntz.com/magazine/in-discussion/in-discussion-stephen-wilkes/",
+         "title": "In Discussion: Stephen Wilkes „Beyond the Horizon“ – Holden Luntz Gallery (Vortragsmitschrift)",
+         "excerpt": "The Grand Canyon, shot from the top of the Desert Tower. Again, 36 hours of photographing.",
+         "kind": "fotograf",
+         "author": "Stephen Wilkes",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "wilkes-serengeti",
+       "title": "Serengeti National Park, Tanzania, Day to Night",
+       "year": 2015,
+       "location": "Seronera, Serengeti-Nationalpark (Tansania)",
+       "tags": [
+        "wasserloch",
+        "tiere",
+        "tag-und-nacht",
+        "komposit"
+       ],
+       "source_url": "https://stephenwilkes.com/fine-art/day-to-night/",
+       "image_url": "https://stephenwilkes.com/app/uploads/2018/11/StephenWilkes_D2N030_AFRICA_SERENGETI_25_2k.jpg",
+       "sources": [
+        {
+         "url": "https://www.ted.com/talks/stephen_wilkes_the_passing_of_time_caught_in_a_single_photo/transcript",
+         "title": "Stephen Wilkes: The passing of time, caught in a single photo – TED-Vortrag (Transkript)",
+         "excerpt": "I found this one watering hole, and felt if everything remained the same way it was behaving, I had a real opportunity to capture something unique. We spent three days studying it, and nothing could have prepared me for what I witnessed during our shoot day. I photographed for 26 hours in a sealed crocodile blind, 18 feet in the air.",
+         "kind": "fotograf",
+         "author": "Stephen Wilkes",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "wilkes-old-faithful",
+       "title": "Old Faithful, Yellowstone National Park, Day to Night",
+       "year": null,
+       "location": "Old Faithful, Yellowstone National Park, Wyoming (USA)",
+       "tags": [
+        "geysir",
+        "nationalpark",
+        "tag-und-nacht",
+        "komposit"
+       ],
+       "source_url": "https://stephenwilkes.com/fine-art/day-to-night/",
+       "image_url": "https://stephenwilkes.com/app/uploads/2018/11/StephenWilkes_D2N033_YELLOWSTONE_10_2k.jpg",
+       "sources": []
+      },
+      {
+       "key": "wilkes-greenland-great-melt",
+       "title": "The Great July Melt, Ilulissat, Greenland, Day to Night",
+       "year": 2020,
+       "location": "Ilulissat (Grönland)",
+       "tags": [
+        "eisberge",
+        "klima",
+        "tag-und-nacht",
+        "komposit"
+       ],
+       "source_url": "https://stephenwilkes.com/fine-art/day-to-night/",
+       "image_url": "https://stephenwilkes.com/app/uploads/2019/10/StephenWilkes-D2N060_Greenland-2k.jpg",
+       "sources": [
+        {
+         "url": "https://www.holdenluntz.com/magazine/in-discussion/in-discussion-stephen-wilkes/",
+         "title": "In Discussion: Stephen Wilkes „Beyond the Horizon“ – Holden Luntz Gallery (Vortragsmitschrift)",
+         "excerpt": "And then I traveled to Greenland, intending to capture a photograph of rising seas and melting ice. However, what I discovered was part of the beauty of what I’m able to do when I study a place and photograph it. I was there during July in 2019, during what was called the Great Melt.",
+         "kind": "fotograf",
+         "author": "Stephen Wilkes",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "wilkes-fagradalsfjall-volcano",
+       "title": "Fagradalsfjall Volcano, Iceland, Day to Night",
+       "year": 2021,
+       "location": "Fagradalsfjall, Reykjanes (Island)",
+       "tags": [
+        "vulkan",
+        "lava",
+        "tag-und-nacht",
+        "komposit"
+       ],
+       "source_url": "https://stephenwilkes.com/fine-art/day-to-night/",
+       "image_url": "https://stephenwilkes.com/app/uploads/2021/11/StephenWilkes-D2N065_VOLCANO_19-2k.jpg",
+       "sources": [
+        {
+         "url": "https://www.holdenluntz.com/magazine/in-discussion/in-discussion-stephen-wilkes/",
+         "title": "In Discussion: Stephen Wilkes „Beyond the Horizon“ – Holden Luntz Gallery (Vortragsmitschrift)",
+         "excerpt": "I actually stood for 20 hours. I never sat down for 20 hours.",
+         "kind": "fotograf",
+         "author": "Stephen Wilkes",
+         "aspect": "entstehung"
+        },
+        {
+         "url": "https://www.holdenluntz.com/magazine/in-discussion/in-discussion-stephen-wilkes/",
+         "title": "In Discussion: Stephen Wilkes „Beyond the Horizon“ – Holden Luntz Gallery (Vortragsmitschrift)",
+         "excerpt": "I wanted to make a picture that showed the molten lava, which without lava, there is no life, and I wanted the sun setting behind that lava because without the sun, we have no life, and I really wanted to make that connection for people and make that part of the essence of this photograph.",
+         "kind": "fotograf",
+         "author": "Stephen Wilkes",
+         "aspect": "deutung"
+        }
+       ]
+      },
+      {
+       "key": "wilkes-bears-ears",
+       "title": "Bears Ears National Monument, Utah, Day to Night",
+       "year": 2022,
+       "location": "Citadel, Bears Ears National Monument, Utah (USA)",
+       "tags": [
+        "canyon",
+        "mond",
+        "tag-und-nacht",
+        "komposit"
+       ],
+       "source_url": "https://stephenwilkes.com/fine-art/day-to-night/",
+       "image_url": "https://stephenwilkes.com/app/uploads/2022/08/StephenWilkes-D2N068_Bears_Ears-2k.jpg",
+       "sources": [
+        {
+         "url": "https://www.nationalgeographic.com/photography/article/his-landscapes-require-patience-and-ingenuity-under-pressure",
+         "title": "His epic landscapes require hours of patience—and ingenuity under pressure – National Geographic (2022)",
+         "excerpt": "He created the cover image from 44 of the 2,092 frames captured during a 36-hour period at Bears Ears.",
+         "kind": "kritik",
+         "author": "National Geographic",
+         "aspect": "technik"
+        },
+        {
+         "url": "https://www.nationalgeographic.com/photography/article/his-landscapes-require-patience-and-ingenuity-under-pressure",
+         "title": "His epic landscapes require hours of patience—and ingenuity under pressure – National Geographic (2022)",
+         "excerpt": "To plan for photographing the site during a full moon—an important event in Native culture—Wilkes began tracking moon phases. Ultimately, he captured Bears Ears in the middle of April with both the sunrise and moonrise.",
+         "kind": "kritik",
+         "author": "National Geographic",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "wilkes-shi-shi-beach",
+       "title": "Shi Shi Beach, Northwestern Washington, Day to Night",
+       "year": 2022,
+       "location": "Shi Shi Beach, Washington (USA)",
+       "tags": [
+        "küste",
+        "gezeiten",
+        "tag-und-nacht",
+        "komposit"
+       ],
+       "source_url": "https://stephenwilkes.com/fine-art/day-to-night/",
+       "image_url": "https://stephenwilkes.com/app/uploads/2022/08/StephenWilkes-D2N070_SHISHI_8_horizontal-2k.jpg",
+       "sources": [
+        {
+         "url": "https://www.holdenluntz.com/magazine/in-discussion/in-discussion-stephen-wilkes/",
+         "title": "In Discussion: Stephen Wilkes „Beyond the Horizon“ – Holden Luntz Gallery (Vortragsmitschrift)",
+         "excerpt": "So what you’re seeing here is time changes, high tide is on the left side of the picture, and you actually see the tide change across as you move from left to right.",
+         "kind": "fotograf",
+         "author": "Stephen Wilkes",
+         "aspect": "entstehung"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "prior",
+   "name": "Colin Prior",
+   "born": 1958,
+   "sources": [
+    {
+     "url": "https://www.colinprior.co.uk/blogs/interviews/outdoor-photography-interview",
+     "title": "Outdoor Photography – Interview mit Colin Prior (auf colinprior.co.uk)",
+     "excerpt": "Maybe it’s the fact that his signature images over the years have tended to be panoramas, shot on acres of transparency film in the 617 format. Or it could just be that these sumptuous visions of Scotland are made all the more imperious because of their near-universal lack of foreground markers.",
+     "kind": "kritik",
+     "author": "Outdoor Photography",
+     "aspect": "technik"
+    },
+    {
+     "url": "https://www.colinprior.co.uk/blogs/interviews/trek-mountain-karakoram",
+     "title": "Colin Prior: Karakoram – Text für Trek & Mountain, auf colinprior.co.uk",
+     "excerpt": "I am content to be with the mountain and to explore if it will reveal something of itself which I can capture and take away. It’s a process that requires deep patience.",
+     "kind": "fotograf",
+     "author": "Colin Prior",
+     "aspect": "entstehung"
+    },
+    {
+     "url": "https://www.colinprior.co.uk/blogs/interviews/trek-mountain-karakoram",
+     "title": "Colin Prior: Karakoram – Text für Trek & Mountain, auf colinprior.co.uk",
+     "excerpt": "The Inuit word ‘quinuituq’ describes this long wait at a seal hole, waiting for prey to surface or the waiting for a lead of open water out on the ice pack to close – simply put, it’s waiting hours for one second or, in my case, waiting years for one second.",
+     "kind": "fotograf",
+     "author": "Colin Prior",
+     "aspect": "entstehung"
+    }
+   ],
+   "projects": [
+    {
+     "key": "prior-karakoram",
+     "title": "The Karakoram – Ice Mountains of Pakistan (Auswahl)",
+     "year_from": 1996,
+     "year_to": 2019,
+     "sources": [
+      {
+       "url": "https://www.colinprior.co.uk/blogs/interviews/book-review-by-joe-cornish",
+       "title": "Joe Cornish: Rezension von „The Karakoram“ (auf colinprior.co.uk)",
+       "excerpt": "In particular it was Rowell’s photograph of the Trango Towers that commandeered Colin’s imagination, and drove him to visit and photograph the region, not just once, but on six different expeditions. Fifteen years passed before the first of these adventures in 1996, when Colin was working on a British Airways commission.",
+       "kind": "kritik",
+       "author": "Joe Cornish",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.colinprior.co.uk/blogs/interviews/tgo-karakoram",
+       "title": "Colin Prior: Karakoram – Text für The Great Outdoors (TGO), auf colinprior.co.uk",
+       "excerpt": "I was familiar with K2, but had never heard of the Karakoram Mountains, and one photograph in particular – of the Trango Towers – captured my imagination like no other photograph ever had.",
+       "kind": "fotograf",
+       "author": "Colin Prior",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.colinprior.co.uk/blogs/interviews/the-karakoram-ice-mountains-of-pakistan-preview-1",
+       "title": "The Karakoram – Ice Mountains of Pakistan, Vorschau (Verlagstext, auf colinprior.co.uk)",
+       "excerpt": "Having spent years documenting the range, Prior perfectly captures the magnificence of the Karakoram: the stunning rock formations, the swirling mists that envelop infinitely complex mountains and clustered peaks, and seemingly endless glaciers blanketed in pristine snow.",
+       "kind": "kurator",
+       "author": "Verlagstext",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "prior-k2-godwin-austen",
+       "title": "K2 (8611 m) and Godwin Austen Glacier",
+       "year": null,
+       "location": "Baltoro Muztagh, Karakorum (Pakistan)",
+       "tags": [
+        "hochgebirge",
+        "gletscher",
+        "schwarzweiß",
+        "gipfel"
+       ],
+       "source_url": "https://colinprior.co.uk/products/k2",
+       "image_url": "https://cdn.shopify.com/s/files/1/0589/1633/9912/products/1138_90_60.png",
+       "sources": []
+      },
+      {
+       "key": "prior-k2-concordia",
+       "title": "Muztagh Tower, Crystal Peak and K2, Concordia",
+       "year": null,
+       "location": "Concordia, Baltoro Muztagh, Karakorum (Pakistan)",
+       "tags": [
+        "panorama",
+        "hochgebirge",
+        "gletscher",
+        "schwarzweiß"
+       ],
+       "source_url": "https://colinprior.co.uk/products/k2-concordia",
+       "image_url": "https://cdn.shopify.com/s/files/1/0589/1633/9912/products/2240_120_40.png",
+       "sources": []
+      },
+      {
+       "key": "prior-great-trango",
+       "title": "Great Trango and Nameless Tower",
+       "year": null,
+       "location": "Baltoro Muztagh, Karakorum (Pakistan)",
+       "tags": [
+        "felstürme",
+        "wolken",
+        "schwarzweiß",
+        "hochgebirge"
+       ],
+       "source_url": "https://colinprior.co.uk/products/great-trango",
+       "image_url": "https://cdn.shopify.com/s/files/1/0589/1633/9912/products/3525_120_60.png",
+       "sources": []
+      },
+      {
+       "key": "prior-masherbrum",
+       "title": "Masherbrum (7821 m) and the Yermanendu Glacier",
+       "year": null,
+       "location": "Baltoro Muztagh, Karakorum (Pakistan)",
+       "tags": [
+        "gletscher",
+        "eispyramiden",
+        "schwarzweiß",
+        "hochgebirge"
+       ],
+       "source_url": "https://colinprior.co.uk/products/masherbrum-1",
+       "image_url": "https://cdn.shopify.com/s/files/1/0589/1633/9912/products/3636_90_60.png",
+       "sources": []
+      },
+      {
+       "key": "prior-baintha-brakk",
+       "title": "Baintha Brakk (The Ogre), Sim Gang Glacier",
+       "year": null,
+       "location": "Panmah Muztagh, Karakorum (Pakistan)",
+       "tags": [
+        "gletscher",
+        "streiflicht",
+        "farbe",
+        "hochgebirge"
+       ],
+       "source_url": "https://colinprior.co.uk/products/baintha-brakk",
+       "image_url": "https://cdn.shopify.com/s/files/1/0589/1633/9912/products/0524_90_60.png",
+       "sources": []
+      },
+      {
+       "key": "prior-baltoro-cathedrals",
+       "title": "Baltoro Cathedrals (6007 m)",
+       "year": null,
+       "location": "Baltoro Muztagh, Karakorum (Pakistan)",
+       "tags": [
+        "nebel",
+        "felstürme",
+        "farbe",
+        "hochgebirge"
+       ],
+       "source_url": "https://colinprior.co.uk/products/baltoro-catherdrals",
+       "image_url": "https://cdn.shopify.com/s/files/1/0589/1633/9912/products/3417_90_60.png",
+       "sources": []
+      },
+      {
+       "key": "prior-lobsang-spire",
+       "title": "Lobsang Spire (5707 m)",
+       "year": null,
+       "location": "Baltoro Muztagh, Karakorum (Pakistan)",
+       "tags": [
+        "nebel",
+        "felsnadel",
+        "schwarzweiß",
+        "hochgebirge"
+       ],
+       "source_url": "https://colinprior.co.uk/products/lobsang-spire",
+       "image_url": "https://cdn.shopify.com/s/files/1/0589/1633/9912/products/3400_90_60.png",
+       "sources": []
+      },
+      {
+       "key": "prior-uli-biaho-tower",
+       "title": "Uli Biaho Tower (6109 m)",
+       "year": null,
+       "location": "Baltoro Muztagh, Karakorum (Pakistan)",
+       "tags": [
+        "wolken",
+        "felsturm",
+        "schwarzweiß",
+        "hochformat"
+       ],
+       "source_url": "https://colinprior.co.uk/products/uli-biaho-tower",
+       "image_url": "https://cdn.shopify.com/s/files/1/0589/1633/9912/products/3367_67.5_90.png",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "dombrovskis",
+   "name": "Peter Dombrovskis",
+   "born": 1945,
+   "sources": [
+    {
+     "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+     "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+     "excerpt": "“… because sheet film is expensive and loading it is slow and tedious, I seldom take more than one exposure of each subject. This occasionally leads to bitter regret when I misjudge exposure after spending, perhaps, an hour on a single image.”",
+     "kind": "fotograf",
+     "author": "Peter Dombrovskis",
+     "aspect": "technik"
+    },
+    {
+     "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+     "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+     "excerpt": "“I took photographs for the simple pleasure of recording objects and places that were important to me, and because the discipline of photography increased my awareness of Tasmania’s beauty and made me appreciate more clearly the value of its wilderness.”",
+     "kind": "fotograf",
+     "author": "Peter Dombrovskis",
+     "aspect": "deutung"
+    },
+    {
+     "url": "https://portrait.gov.au/magazines/17/written-in-water",
+     "title": "Sarah Engledow: Written in water – Portrait Magazine, National Portrait Gallery Canberra (2007)",
+     "excerpt": "He wrote that 'my most productive days are when I move through the landscape with an attitude of acceptance.'",
+     "kind": "kurator",
+     "author": "Sarah Engledow",
+     "aspect": "entstehung"
+    }
+   ],
+   "projects": [
+    {
+     "key": "dombrovskis-tasmanian-wilderness",
+     "title": "Tasmanische Wildnis – Großformat-Dias 1979–1995 (Auswahl aus „journeys into the wild“)",
+     "year_from": 1979,
+     "year_to": 1995,
+     "sources": [
+      {
+       "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+       "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+       "excerpt": "Dombrovskis’s preferred camera was the Linhof Master Technika. Requiring 4 x 5 inch film, almost 16 times larger than that used in a standard 35mm camera, the Linhof was heavy and cumbersome, forcing Dombrovskis to take more care and time in setting up his shots and making each of these images the result of physical and mental endurance, as well as involved decision-making.",
+       "kind": "museum",
+       "author": "Monash Gallery of Art (Ausstellungstext)",
+       "aspect": "technik",
+       "series_level": true
+      },
+      {
+       "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+       "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+       "excerpt": "Dombrovskis’s images demonstrate nature’s powerful splendour but they also have a quiet, reflective quality that draws the viewer into an intimate conversation with the natural world. This is, perhaps, achieved through his habit of including the unexpected and sensitive details within a landscape, as well as the marvellous and dramatic vistas.",
+       "kind": "museum",
+       "author": "Monash Gallery of Art (Ausstellungstext)",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+       "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+       "excerpt": "1/ The large format 4 x 5″ colour transparencies must be near absolute perfect exposures…. everything is there in the exposure. It’s as though the transparency is the finished print. Everything that Dombrovskis wanted to capture, he did. He was a perfectionist.",
+       "kind": "kritik",
+       "author": "Marcus Bunyan",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "dombrovskis-morning-mist-rock-island-bend",
+       "title": "Morning mist, Rock Island Bend, Franklin River",
+       "year": 1979,
+       "location": "Rock Island Bend, Franklin River, Franklin-Gordon Wild Rivers National Park, Tasmanien",
+       "tags": [
+        "fluss",
+        "nebel",
+        "regenwald",
+        "naturschutz"
+       ],
+       "source_url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+       "image_url": "https://artblart.com/wp-content/uploads/2019/03/dombrovskis-peter-morning-mist-rock-island-bend-1980.jpg",
+       "sources": [
+        {
+         "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+         "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+         "excerpt": "Commissioned by Bob Brown (later to become leader of the Greens Party), this image became synonymous with the successful campaign of the 1980s to prevent the damming of the Franklin River for hydro-electric development. It appeared on posters with the memorable yellow, triangular slogan ‘NO DAMS’ and showed Australians what would be lost under the waters of a dam should the hydroelectric scheme go ahead.",
+         "kind": "museum",
+         "author": "Monash Gallery of Art (Ausstellungstext)",
+         "aspect": "rezeption"
+        }
+       ]
+      },
+      {
+       "key": "dombrovskis-mount-geryon-labyrinth",
+       "title": "Mount Geryon from the Labyrinth, Du Cane Range",
+       "year": 1986,
+       "location": "The Labyrinth, Du Cane Range, Cradle Mountain-Lake St Clair National Park, Tasmanien",
+       "tags": [
+        "spiegelung",
+        "berg",
+        "vordergrund",
+        "hochformat"
+       ],
+       "source_url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+       "image_url": "https://artblart.com/wp-content/uploads/2019/03/dombrovskis-peter-mount-geryon-from-the-labyrinth-1986.jpg",
+       "sources": [
+        {
+         "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+         "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+         "excerpt": "2/ His use of ‘near far’ is noticeable, taken from Ansel Adams most likely. In photographs like Morning light on Little Horn (1995), Cushion plants, Mount Anne (1984) and Mount Geryon from the Labyrinth (1986) your eye is led from the detailed foreground to the magnificent vista beyond.",
+         "kind": "kritik",
+         "author": "Marcus Bunyan",
+         "aspect": "deutung",
+         "series_level": false
+        },
+        {
+         "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+         "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+         "excerpt": "The photograph below, Mount Geryon from the Labyrinth Cradle, Mountain-Lake St Clair National Park, Tasmania (1986) is an image that Bob Brown had in his office at a similarly large scale to provide an immediate and memorable talking point with visitors.",
+         "kind": "museum",
+         "author": "Monash Gallery of Art (Ausstellungstext)",
+         "aspect": "rezeption"
+        }
+       ]
+      },
+      {
+       "key": "dombrovskis-morning-light-little-horn",
+       "title": "Morning light on Little Horn",
+       "year": 1995,
+       "location": "Little Horn, Cradle Mountain-Lake St Clair National Park, Tasmanien",
+       "tags": [
+        "spiegelung",
+        "berg",
+        "morgenlicht",
+        "vordergrund"
+       ],
+       "source_url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+       "image_url": "https://artblart.com/wp-content/uploads/2019/03/dombrovskis-peter-morning-light-on-little-horn-1995.jpg",
+       "sources": [
+        {
+         "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+         "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+         "excerpt": "2/ His use of ‘near far’ is noticeable, taken from Ansel Adams most likely. In photographs like Morning light on Little Horn (1995), Cushion plants, Mount Anne (1984) and Mount Geryon from the Labyrinth (1986) your eye is led from the detailed foreground to the magnificent vista beyond.",
+         "kind": "kritik",
+         "author": "Marcus Bunyan",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "dombrovskis-cushion-plants-mount-anne",
+       "title": "Cushion plants, Mount Anne",
+       "year": 1984,
+       "location": "Mount Anne, Southwest National Park, Tasmanien",
+       "tags": [
+        "polsterpflanzen",
+        "nebel",
+        "vordergrund",
+        "grün"
+       ],
+       "source_url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+       "image_url": "https://artblart.com/wp-content/uploads/2019/03/dombrovskis-peter-cushion-plants-mount-anne-1984.jpg",
+       "sources": [
+        {
+         "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+         "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+         "excerpt": "2/ His use of ‘near far’ is noticeable, taken from Ansel Adams most likely. In photographs like Morning light on Little Horn (1995), Cushion plants, Mount Anne (1984) and Mount Geryon from the Labyrinth (1986) your eye is led from the detailed foreground to the magnificent vista beyond.",
+         "kind": "kritik",
+         "author": "Marcus Bunyan",
+         "aspect": "deutung",
+         "series_level": false
+        }
+       ]
+      },
+      {
+       "key": "dombrovskis-myrtle-tree-mount-anne",
+       "title": "Myrtle tree in rainforest at Mount Anne",
+       "year": 1984,
+       "location": "Mount Anne, Southwest National Park, Tasmanien",
+       "tags": [
+        "regenwald",
+        "moos",
+        "baum",
+        "nebel"
+       ],
+       "source_url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+       "image_url": "https://artblart.com/wp-content/uploads/2019/03/dombrovskis-peter-myrtle-tree-in-rainforest-at-mount-anne-1984.jpg",
+       "sources": []
+      },
+      {
+       "key": "dombrovskis-pencil-pine-pool-of-siloam",
+       "title": "Pencil pine at Pool of Siloam",
+       "year": 1982,
+       "location": "Pool of Siloam, Walls of Jerusalem National Park, Tasmanien",
+       "tags": [
+        "baum",
+        "nebel",
+        "einzelmotiv",
+        "hochformat"
+       ],
+       "source_url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+       "image_url": "https://artblart.com/wp-content/uploads/2019/03/dombrovskis-peter-pencil-pine-at-pool-of-siloam-1982.jpg",
+       "sources": []
+      },
+      {
+       "key": "dombrovskis-lake-oberon",
+       "title": "Lake Oberon, Western Arthur Range",
+       "year": 1988,
+       "location": "Lake Oberon, Western Arthur Range, Southwest National Park, Tasmanien",
+       "tags": [
+        "bergsee",
+        "pandani",
+        "vordergrund",
+        "wolken"
+       ],
+       "source_url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+       "image_url": "https://artblart.com/wp-content/uploads/2019/03/dombrovskis-peter-lake-oberon-western-arthur-range-1988.jpg",
+       "sources": []
+      },
+      {
+       "key": "dombrovskis-drying-kelp-sandy-bay",
+       "title": "Drying kelp at Sandy Bay, Macquarie Island",
+       "year": 1984,
+       "location": "Sandy Bay, Macquarie Island, Tasmanien",
+       "tags": [
+        "tang",
+        "detail",
+        "kiesel",
+        "aufsicht"
+       ],
+       "source_url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+       "image_url": "https://artblart.com/wp-content/uploads/2019/03/dombrovskis-peter-drying-kelp-at-sandy-bay-1984.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "axelsson",
+   "name": "Ragnar Axelsson",
+   "born": 1958,
+   "sources": [
+    {
+     "url": "https://qerndu.com/artists/30-ragnar-axelsson/overview/",
+     "title": "Ragnar Axelsson – Overview, Qerndu Gallery & Publishing",
+     "excerpt": "In stark black-and-white images, he captures the elemental, human experience of nature at the edge of the liveable world, making visible the extraordinary relationships between the people of the Arctic and their extreme environment - relationships now being altered in profound and complex ways by unprecedented climate changes.",
+     "kind": "kurator",
+     "author": "Qerndu Gallery",
+     "aspect": "deutung"
+    },
+    {
+     "url": "https://thephotographersgallery.org.uk/node/2536",
+     "title": "Ragnar Axelsson: At the Edge of the World – The Photographers’ Gallery, London (2024/25)",
+     "excerpt": "Axelsson immerses himself in Arctic communities for weeks, earning the trust and friendship necessary to portray the unguarded realities of their everyday lives. “I write down what people say and how they feel; I try to capture that in their eyes,” Axelsson explains.",
+     "kind": "museum",
+     "author": "The Photographers’ Gallery",
+     "aspect": "entstehung"
+    }
+   ],
+   "projects": [
+    {
+     "key": "axelsson-arctic",
+     "title": "Where the World is Melting – Arktis-Landschaften mit Mensch und Tier (Auswahl)",
+     "year_from": 1987,
+     "year_to": 2022,
+     "sources": [
+      {
+       "url": "https://qerndu.com/exhibitions/24-ragnar-axelsson-greenland-kunstfoyer-munich/",
+       "title": "Ragnar Axelsson – Greenland, Kunstfoyer München (Ausstellungstext, Qerndu)",
+       "excerpt": "Working with  black-and-white images , Ragnar cuts the Arctic down to its raw essence: ice, wind, darkness, animals, mountains and human faces. His photographs carry both beauty and menace.",
+       "kind": "kurator",
+       "author": "Qerndu Gallery",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://thephotographersgallery.org.uk/node/2536",
+       "title": "Ragnar Axelsson: At the Edge of the World – The Photographers’ Gallery, London (2024/25)",
+       "excerpt": "Hunting communities in the Arctic are integral to the cultural and social fabric of the North. Having passed down centuries-old traditions, the once-reliable sea ice now shifts unpredictably, reshaping hunting grounds and upending daily life for communities that depend on it.",
+       "kind": "museum",
+       "author": "The Photographers’ Gallery",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "axelsson-melting-iceberg-scoresbysund",
+       "title": "Melting Iceberg, Scoresbysund, Greenland",
+       "year": 2014,
+       "location": "Scoresbysund (Grönland)",
+       "tags": [
+        "eisberg",
+        "meer",
+        "schwarzweiß",
+        "sturmhimmel"
+       ],
+       "source_url": "https://qerndu.com/artists/30-ragnar-axelsson/works/1-ragnar-axelsson-melting-iceberg-scoresbysund-greenland-2014/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/qerndu/images/view/437b10cd6aca072f8f63089731bbe273j/qerndugallery-publishing-ragnar-axelsson-melting-iceberg-scoresbysund-greenland-2014.jpg",
+       "sources": []
+      },
+      {
+       "key": "axelsson-snaefellsjokull-glacier",
+       "title": "Snæfellsjökull Glacier, Iceland",
+       "year": 2022,
+       "location": "Snæfellsjökull (Island)",
+       "tags": [
+        "gletscher",
+        "eis",
+        "schwarzweiß",
+        "mensch-als-maßstab"
+       ],
+       "source_url": "https://qerndu.com/artists/30-ragnar-axelsson/works/204-ragnar-axelsson-snfellsjokull-glacier-iceland-2022/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/qerndu/images/view/09a3e6e9429b1ddede1ded71fdb12a58j/qerndugallery-publishing-ragnar-axelsson-sn-fellsj-kull-glacier-iceland-2022.jpg",
+       "sources": [
+        {
+         "url": "https://qerndu.com/artists/30-ragnar-axelsson/works/204-ragnar-axelsson-snfellsjokull-glacier-iceland-2022/",
+         "title": "Ragnar Axelsson: Snæfellsjökull Glacier, Iceland, 2022 – Werkseite, Qerndu Gallery",
+         "excerpt": "The Snæfellsjökull glacier has shrunk by half in the last century. Scientists estimate that the Icelandic glaciers will disappear in 150 to 200 years. The Snæfellsjökull glacier could disappear in the next 30 to 40 years.",
+         "kind": "kurator",
+         "author": "Qerndu Gallery",
+         "aspect": "deutung"
+        }
+       ]
+      },
+      {
+       "key": "axelsson-black-beach-south-coast",
+       "title": "Black Beach, South Coast, Iceland",
+       "year": 1987,
+       "location": "Südküste (Island)",
+       "tags": [
+        "sand",
+        "flugzeug",
+        "schwarzweiß",
+        "abstraktion"
+       ],
+       "source_url": "https://qerndu.com/artists/30-ragnar-axelsson/works/41-ragnar-axelsson-black-beach-south-coast-iceland-1987/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/qerndu/images/view/ab91a9b89cde06cf26768cf89873a68f/qerndugallery-publishing-ragnar-axelsson-black-beach-south-coast-iceland-1987.jpg",
+       "sources": []
+      },
+      {
+       "key": "axelsson-ingelfieldfjord-1987",
+       "title": "Ingelfieldfjord, Greenland",
+       "year": 1987,
+       "location": "Inglefield Fjord, Thule (Grönland)",
+       "tags": [
+        "eisberg",
+        "hundeschlitten",
+        "schwarzweiß",
+        "maßstab"
+       ],
+       "source_url": "https://qerndu.com/artists/30-ragnar-axelsson/works/35-ragnar-axelsson-ingelfieldfjord-greenland-1987/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/qerndu/images/view/aba4b0f573ccafe1eccb81c2ac7cd074/qerndugallery-publishing-ragnar-axelsson-ingelfieldfjord-greenland-1987.jpg",
+       "sources": []
+      },
+      {
+       "key": "axelsson-arctic-hunter-sea-ice-2019",
+       "title": "Arctic Hunter on the Sea Ice, Ingelfieldfjord, Greenland",
+       "year": 2019,
+       "location": "Inglefield Fjord (Grönland)",
+       "tags": [
+        "meereis",
+        "hundeschlitten",
+        "schwarzweiß",
+        "schneesturm"
+       ],
+       "source_url": "https://qerndu.com/artists/30-ragnar-axelsson/works/81-ragnar-axelsson-arctic-hunter-on-the-sea-ice-ingelfieldfjord-greenland-2019/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/qerndu/images/view/5ae9fbaddec537797575b5f2667a9e84/qerndugallery-publishing-ragnar-axelsson-arctic-hunter-on-the-sea-ice-ingelfieldfjord-greenland-2019.jpg",
+       "sources": []
+      },
+      {
+       "key": "axelsson-polar-bear-sea-ice",
+       "title": "Polar Bear on the Sea Ice, Greenland",
+       "year": 2007,
+       "location": "Grönland",
+       "tags": [
+        "eisbär",
+        "meereis",
+        "schwarzweiß",
+        "anschnitt"
+       ],
+       "source_url": "https://qerndu.com/artists/30-ragnar-axelsson/works/151-ragnar-axelsson-polar-bear-on-the-sea-ice-greenland-2007/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/qerndu/images/view/f9b172a6ea118227b0238d10814c66c8/qerndugallery-publishing-ragnar-axelsson-polar-bear-on-the-sea-ice-greenland-2007.jpg",
+       "sources": []
+      },
+      {
+       "key": "axelsson-horse-rescue-skardsheidi",
+       "title": "Horse Rescue, Skarðsheiði, Iceland",
+       "year": 1995,
+       "location": "Skarðsheiði (Island)",
+       "tags": [
+        "pferde",
+        "schneesturm",
+        "schwarzweiß",
+        "landwirtschaft"
+       ],
+       "source_url": "https://qerndu.com/artists/30-ragnar-axelsson/works/8-ragnar-axelsson-horse-rescue-skarsheii-iceland-1995/",
+       "image_url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/qerndu/images/view/e72692d299dd07d1779a458205aaaa98j/qerndugallery-publishing-ragnar-axelsson-horse-rescue-skar-shei-i-iceland-1995.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "duncan",
+   "name": "Ken Duncan",
+   "born": null,
+   "sources": [
+    {
+     "url": "https://www.kenduncan.com/about",
+     "title": "About Ken Duncan – Website des Fotografen",
+     "excerpt": "In the early 1980s, while working as a senior technical representative for one of Australia's leading photographic companies, Ken encountered a piece of equipment that would change his life - the Widelux panoramic camera. For the first time, he could translate onto film the expansive, sweeping vistas exactly as he experienced them.",
+     "kind": "fotograf",
+     "author": "Ken Duncan (Website)",
+     "aspect": "technik"
+    },
+    {
+     "url": "https://www.kenduncan.com/about",
+     "title": "About Ken Duncan – Website des Fotografen",
+     "excerpt": "A landscape can change from beautiful to breathtaking in a single moment - when a prism of light breaks through the clouds, when the rising sun peeks over the horizon, when a shadow's arc changes to dramatic effect. Light changes everything.",
+     "kind": "fotograf",
+     "author": "Ken Duncan (Website)",
+     "aspect": "deutung"
+    },
+    {
+     "url": "https://www.kenduncan.com/about",
+     "title": "About Ken Duncan – Website des Fotografen",
+     "excerpt": "Then there are other times when patience is required - long periods of silence and contemplation watching the natural world slowly change, until a moment of light transforms everything.",
+     "kind": "fotograf",
+     "author": "Ken Duncan (Website)",
+     "aspect": "entstehung"
+    }
+   ],
+   "projects": [
+    {
+     "key": "duncan-australia-panoramas",
+     "title": "Australien im Panorama – Limited-Edition-Prints (Auswahl)",
+     "year_from": null,
+     "year_to": null,
+     "sources": [
+      {
+       "url": "https://www.kenduncan.com/about",
+       "title": "About Ken Duncan – Website des Fotografen",
+       "excerpt": "In 1982, driven by conviction rather than certainty, Ken left the security of his career in Sydney and set out across Australia. His goal was simple yet ambitious: to create a book that would reveal the true spirit of the nation.",
+       "kind": "fotograf",
+       "author": "Ken Duncan (Website)",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://www.kenduncan.com/about",
+       "title": "About Ken Duncan – Website des Fotografen",
+       "excerpt": "For Ken Duncan, one such moment came with the release of his first major book, The Last Frontier - Australia Wide in 1987. At a time when panoramic photography was virtually unheard of in publishing, the book broke new ground and met with remarkable success.",
+       "kind": "fotograf",
+       "author": "Ken Duncan (Website)",
+       "aspect": "rezeption",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "duncan-dawn-of-creation-mitchell-falls",
+       "title": "Dawn of Creation, Mitchell Falls",
+       "year": null,
+       "location": "Mitchell Falls, Kimberley, Western Australia",
+       "tags": [
+        "wasserfall",
+        "panorama",
+        "rauch",
+        "morgenlicht"
+       ],
+       "source_url": "https://www.kenduncan.com/prints/panoramic/dawn-of-creation-mitchell-falls-wa",
+       "image_url": "https://kenduncan.com/legacy-assets/ken_images/WAX858.jpg",
+       "sources": [
+        {
+         "url": "https://www.kenduncan.com/prints/panoramic/dawn-of-creation-mitchell-falls-wa",
+         "title": "Ken Duncan: Dawn of Creation, Mitchell Falls – Bildseite mit Text des Fotografen (kenduncan.com)",
+         "excerpt": "While camping at Mitchell Falls in the western Kimberley we were surrounded throughout the night by fires lit by National Park authorities to aid the germination of bush seed. This form of environmental care has been practised by Aborigines for millennia. As smoke tempered the early morning light with lovely evenness, the colours of rock and water began to glow.",
+         "kind": "fotograf",
+         "author": "Ken Duncan",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "duncan-full-moon-bungle-bungles",
+       "title": "Full Moon, Bungle Bungles",
+       "year": null,
+       "location": "Bungle Bungle Range (Purnululu), Western Australia",
+       "tags": [
+        "panorama",
+        "mond",
+        "abendlicht",
+        "fels"
+       ],
+       "source_url": "https://www.kenduncan.com/prints/panoramic/full-moon-bungle-bungles-wa",
+       "image_url": "https://kenduncan.com/legacy-assets/ken_images/WAX021.jpg",
+       "sources": [
+        {
+         "url": "https://www.kenduncan.com/prints/panoramic/full-moon-bungle-bungles-wa",
+         "title": "Ken Duncan: Full Moon, Bungle Bungles – Bildseite mit Text des Fotografen (kenduncan.com)",
+         "excerpt": "A full moon rises over the Bungle Bungles in Western Australia, its soft, caressing light enhancing the subtleties of colour and texture that are highlighted by the golden afterglow of the dying sun.",
+         "kind": "fotograf",
+         "author": "Ken Duncan (Bildtext)",
+         "aspect": "deutung"
+        }
+       ]
+      },
+      {
+       "key": "duncan-heart-of-a-nation-uluru",
+       "title": "Heart of a Nation, Uluru",
+       "year": null,
+       "location": "Uluru, Northern Territory",
+       "tags": [
+        "panorama",
+        "monolith",
+        "wolken",
+        "rot"
+       ],
+       "source_url": "https://www.kenduncan.com/prints/panoramic/heart-of-a-nation-uluru-nt",
+       "image_url": "https://kenduncan.com/legacy-assets/ken_images/NTX532.jpg",
+       "sources": [
+        {
+         "url": "https://www.kenduncan.com/prints/panoramic/heart-of-a-nation-uluru-nt",
+         "title": "Ken Duncan: Heart of a Nation, Uluru – Bildseite mit Text des Fotografen (kenduncan.com)",
+         "excerpt": "Behind me, the horizon was covered in cloud, and just when I thought to pack up my gear, light suddenly found its way through a hole in the clouds and produced a wonderful show for me to capture on film.",
+         "kind": "fotograf",
+         "author": "Ken Duncan",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "duncan-desert-oaks-uluru",
+       "title": "Desert Oaks, Uluru",
+       "year": null,
+       "location": "Uluru, Northern Territory",
+       "tags": [
+        "panorama",
+        "bäume",
+        "wüste",
+        "monolith"
+       ],
+       "source_url": "https://www.kenduncan.com/prints/panoramic/desert-oaks-uluru-nt",
+       "image_url": "https://kenduncan.com/legacy-assets/ken_images/NTX019.jpg",
+       "sources": []
+      },
+      {
+       "key": "duncan-faithful-guardians-twelve-apostles",
+       "title": "Faithful Guardians, The Twelve Apostles",
+       "year": null,
+       "location": "Twelve Apostles, Port Campbell National Park, Victoria",
+       "tags": [
+        "panorama",
+        "küste",
+        "felsnadeln",
+        "dämmerung"
+       ],
+       "source_url": "https://www.kenduncan.com/prints/panoramic/faithful-guardians-the-twelve-apostles-vic",
+       "image_url": "https://kenduncan.com/legacy-assets/ken_images/VX1672.jpg",
+       "sources": [
+        {
+         "url": "https://www.kenduncan.com/prints/panoramic/faithful-guardians-the-twelve-apostles-vic",
+         "title": "Ken Duncan: Faithful Guardians, The Twelve Apostles – Bildseite mit Text des Fotografen (kenduncan.com)",
+         "excerpt": "Patience is a great virtue in life and can often be one of the hardest to achieve. Landscape photography has been very good for me in this respect. To get this shot I had to turn up faithfully day after day for weeks, waiting for the right light.",
+         "kind": "fotograf",
+         "author": "Ken Duncan",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "duncan-cannonball",
+       "title": "Cannonball",
+       "year": null,
+       "location": "Westküste Tasmaniens",
+       "tags": [
+        "panorama",
+        "brandung",
+        "sturm",
+        "küste"
+       ],
+       "source_url": "https://www.kenduncan.com/prints/panoramic/cannonball-tas",
+       "image_url": "https://kenduncan.com/legacy-assets/ken_images/TA777.jpg",
+       "sources": [
+        {
+         "url": "https://www.kenduncan.com/prints/panoramic/cannonball-tas",
+         "title": "Ken Duncan: Cannonball – Bildseite mit Text des Fotografen (kenduncan.com)",
+         "excerpt": "Storm swells travel thousands of miles over open seas to unleash their raw power on Tasmania's west coast. Brooding clouds pose an ominous threat as a wave crashes on resilient shores. This shot is from my early days as a photographer",
+         "kind": "fotograf",
+         "author": "Ken Duncan",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "duncan-chasing-the-light-kimberley",
+       "title": "Chasing the Light, Kimberley",
+       "year": null,
+       "location": "King George Falls, Kimberley, Western Australia",
+       "tags": [
+        "panorama",
+        "wasserfall",
+        "schlucht",
+        "dämmerung"
+       ],
+       "source_url": "https://www.kenduncan.com/prints/panoramic/chasing-the-light-kimberley",
+       "image_url": "https://kenduncan.com/legacy-assets/ken_images/WAX5015D.jpg",
+       "sources": [
+        {
+         "url": "https://www.kenduncan.com/prints/panoramic/chasing-the-light-kimberley",
+         "title": "Ken Duncan: Chasing the Light, Kimberley – Bildseite mit Text des Fotografen (kenduncan.com)",
+         "excerpt": "While watching the sun rise over King George Falls, our celebrity guest, Ray Martin, asked me what I was going to shoot. I didn't have an answer because, at that stage, the light was pretty bland.",
+         "kind": "fotograf",
+         "author": "Ken Duncan",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "duncan-lake-victoria",
+       "title": "Lake Victoria",
+       "year": null,
+       "location": "Lake Victoria, New South Wales",
+       "tags": [
+        "panorama",
+        "tote-bäume",
+        "spiegelung",
+        "dämmerung"
+       ],
+       "source_url": "https://www.kenduncan.com/prints/panoramic/lake-victoria-nsw",
+       "image_url": "https://kenduncan.com/legacy-assets/ken_images/NX15.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "turner",
+   "name": "Benjamin Brecknell Turner",
+   "born": 1815,
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O181759/",
+     "title": "Benjamin Brecknell Turner: Bredicot Church – Victoria and Albert Museum, London (Objekttext)",
+     "excerpt": "Turner is best known for his bold and large-scale (30 x 40 cm) albumen prints from calotype negatives showing rural English scenes in the picturesque tradition: ruined abbeys, castles, farmhouses and the rural landscape.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "deutung"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1437808/",
+     "title": "Benjamin Brecknell Turner: Torquay – Victoria and Albert Museum, London (Objekttext)",
+     "excerpt": "His images result from a long exposure time (up to thirty minutes), which means that many of the negatives do not show any figures or animals.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "technik"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O1437808/",
+     "title": "Benjamin Brecknell Turner: Torquay – Victoria and Albert Museum, London (Objekttext)",
+     "excerpt": "The paper fibres of the paper also produced a distinctive aesthetic when developing images: it makes them slightly rough, with a grainy texture that seems to be a good fit for Turner's photographs of rural scenes.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "technik"
+    }
+   ],
+   "projects": [
+    {
+     "key": "turner-photographic-views-from-nature",
+     "title": "Photographic Views from Nature (Album, 1852–1854; Auswahl)",
+     "year_from": 1852,
+     "year_to": 1854,
+     "sources": [
+      {
+       "url": "https://collections.vam.ac.uk/item/O75320/",
+       "title": "Benjamin Brecknell Turner: Hedgerow Trees, Clerkenleap – Victoria and Albert Museum, London (Objekttext)",
+       "excerpt": "Between 1852 and 1854 Turner compiled 60 of his own photographs, including this one, in what is believed to be a unique album, 'Photographic Views from Nature'.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://collections.vam.ac.uk/item/O113426/",
+       "title": "Benjamin Brecknell Turner: Crowle Court – Victoria and Albert Museum, London (Objekttext)",
+       "excerpt": "Emulating the generation of watercolour painters before him, he sought out old buildings and quiet landscapes across England that were full of 'picturesque' possibilities – rich textures and contrasting tones, often at historical locations in a state of decay.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "deutung",
+       "series_level": true
+      },
+      {
+       "url": "https://collections.vam.ac.uk/item/O75320/",
+       "title": "Benjamin Brecknell Turner: Hedgerow Trees, Clerkenleap – Victoria and Albert Museum, London (Objekttext)",
+       "excerpt": "Figures in contemporary dress would have made Turner's photographs historically specific; without figures they have a timeless quality.",
+       "kind": "museum",
+       "author": "Victoria and Albert Museum",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "turner-hedgerow-trees-clerkenleap",
+       "title": "Hedgerow Trees, Clerkenleap, Worcestershire",
+       "year": null,
+       "location": "Clerkenleap, Worcestershire (England)",
+       "tags": [
+        "kopfbäume",
+        "zaun",
+        "kalotypie",
+        "figur"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O75320/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AM5284/full/!1600,1600/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O75320/",
+         "title": "Benjamin Brecknell Turner: Hedgerow Trees, Clerkenleap – Victoria and Albert Museum, London (Objekttext)",
+         "excerpt": "This is the only photograph in Turner's album to include a human figure, seen here leaning against a fence and a pollarded oak tree. The figure may be Turner himself.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "entstehung"
+        }
+       ]
+      },
+      {
+       "key": "turner-scotch-firs-hawkhurst",
+       "title": "Scotch Firs, Hawkhurst, Kent",
+       "year": 1852,
+       "location": "Hawkhurst, Kent (England)",
+       "tags": [
+        "kiefern",
+        "weg",
+        "kalotypie",
+        "teich"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O75302/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AM6861/pct:0,0,94,100/!1600,1600/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "turner-hurtmore-lane",
+       "title": "Hurtmore Lane, Surrey",
+       "year": null,
+       "location": "Hurtmore bei Godalming, Surrey (England)",
+       "tags": [
+        "schuppen",
+        "bäume",
+        "kalotypie",
+        "ländlich"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O75311/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AM5281/pct:0,0,94,100/!1600,1600/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O75311/",
+         "title": "Benjamin Brecknell Turner: Hurtmore Lane – Victoria and Albert Museum, London (Objekttext)",
+         "excerpt": "As with so many of his photographs in rural areas, the focus was on the picturesque possibilities of lanes, trees and agricultural equipment.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung"
+        }
+       ]
+      },
+      {
+       "key": "turner-pepperharrow-park",
+       "title": "Pepperharrow Park, Surrey",
+       "year": null,
+       "location": "Peper Harow Park, Surrey (England)",
+       "tags": [
+        "eiche",
+        "park",
+        "kalotypie",
+        "baumporträt"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O75308/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AM5265/pct:0,0,95,100/!1600,1600/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O75308/",
+         "title": "Benjamin Brecknell Turner: Pepperharrow Park – Victoria and Albert Museum, London (Objekttext)",
+         "excerpt": "Here he has chosen an old and picturesque tree as his central motif, so the photograph has the character of a portrait.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung"
+        }
+       ]
+      },
+      {
+       "key": "turner-windmill-kempsey",
+       "title": "Windmill, Kempsey, Worcestershire",
+       "year": null,
+       "location": "Kempsey, Worcestershire (England)",
+       "tags": [
+        "windmühle",
+        "kalotypie",
+        "landwirtschaft",
+        "himmel"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O75300/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2018LF5827/full/!1600,1600/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O75300/",
+         "title": "Benjamin Brecknell Turner: Windmill, Kempsey – Victoria and Albert Museum, London (Objekttext)",
+         "excerpt": "In the 19th century, windmills were being made redundant by the bigger, new steam-driven mills. Hence Turner was recording a rapidly disappearing feature of the English agricultural landscape.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung"
+        }
+       ]
+      },
+      {
+       "key": "turner-eashing-bridge",
+       "title": "Eashing Bridge, Surrey",
+       "year": null,
+       "location": "Eashing, River Wey, Surrey (England)",
+       "tags": [
+        "brücke",
+        "bäume",
+        "kalotypie",
+        "muster"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O75307/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AM5261/full/!1600,1600/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O75307/",
+         "title": "Benjamin Brecknell Turner: Eashing Bridge – Victoria and Albert Museum, London (Objekttext)",
+         "excerpt": "Although the bridge itself was of great historic interest, Turner seems to have been equally absorbed in the intricate pattern of the trees.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung"
+        }
+       ]
+      },
+      {
+       "key": "turner-rievaulx-abbey",
+       "title": "Rivaulx [sic] Abbey, Yorkshire",
+       "year": null,
+       "location": "Rievaulx Abbey, North Yorkshire (England)",
+       "tags": [
+        "ruine",
+        "bögen",
+        "kalotypie",
+        "pittoresk"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O75319/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AM5271/full/!1600,1600/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O75319/",
+         "title": "Benjamin Brecknell Turner: Rivaulx Abbey – Victoria and Albert Museum, London (Objekttext)",
+         "excerpt": "It was one of a number of abandoned and ruinous abbeys in Yorkshire that became a favourite subject for visiting artists in the 18th century and later.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "rezeption"
+        }
+       ]
+      },
+      {
+       "key": "turner-crowle-court",
+       "title": "Crowle Court",
+       "year": null,
+       "location": "Crowle, Worcestershire (England)",
+       "tags": [
+        "fachwerk",
+        "graben",
+        "kalotypie",
+        "ländlich"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O113426/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AE6220/pct:14,0,86,100/!1600,1600/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O113426/",
+         "title": "Benjamin Brecknell Turner: Crowle Court – Victoria and Albert Museum, London (Objekttext)",
+         "excerpt": "The site must once have been of importance, since it was surrounded by a defensive moat, visible to the right of the raised entrance roadway. This ancient building, which seems to grow out of its surrounding terrain, was a typical subject for Benjamin Brecknell Turner.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung"
+        }
+       ]
+      },
+      {
+       "key": "turner-at-compton",
+       "title": "At Compton, Surrey",
+       "year": null,
+       "location": "Compton, Surrey (England)",
+       "tags": [
+        "heuschober",
+        "scheune",
+        "kalotypie",
+        "landwirtschaft"
+       ],
+       "source_url": "https://collections.vam.ac.uk/item/O75309/",
+       "image_url": "https://framemark.vam.ac.uk/collections/2006AM5554/full/!1600,1600/0/default.jpg",
+       "sources": [
+        {
+         "url": "https://collections.vam.ac.uk/item/O75309/",
+         "title": "Benjamin Brecknell Turner: At Compton – Victoria and Albert Museum, London (Objekttext)",
+         "excerpt": "This photograph gives us a great deal of information about the agricultural cycle: a large corn rick, indicative of that summer's good harvest, can be seen on the left.",
+         "kind": "museum",
+         "author": "Victoria and Albert Museum",
+         "aspect": "deutung"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "baldus",
+   "name": "Édouard Baldus",
+   "born": 1813,
+   "sources": [
+    {
+     "url": "https://sunpictures.com/artists/edouard-baldus/biography",
+     "title": "Malcolm Daniel: Édouard Baldus – Biography, Hans P. Kraus Jr. Fine Photographs (nach dem Heilbrunn-Essay des Metropolitan Museum)",
+     "excerpt": "He was recognized as one of the few photographers to combine aesthetic sensitivity with an astonishing technical prowess in the still experimental and handcrafted medium.",
+     "kind": "kurator",
+     "author": "Malcolm Daniel",
+     "aspect": "deutung"
+    },
+    {
+     "url": "https://sunpictures.com/artists/edouard-baldus/biography",
+     "title": "Malcolm Daniel: Édouard Baldus – Biography, Hans P. Kraus Jr. Fine Photographs (nach dem Heilbrunn-Essay des Metropolitan Museum)",
+     "excerpt": "In 1851 he was one of five artists selected by the Commission des monuments historiques, a government agency, to carry out missions héliographiques, photographic surveys of the nation’s architectural patrimony.",
+     "kind": "kurator",
+     "author": "Malcolm Daniel",
+     "aspect": "entstehung"
+    }
+   ],
+   "projects": [
+    {
+     "key": "baldus-chemins-de-fer-plm",
+     "title": "Album Chemins de fer de Paris à Lyon et à la Méditerranée (1861; Auswahl Landschaften)",
+     "year_from": 1859,
+     "year_to": 1862,
+     "sources": [
+      {
+       "url": "https://sunpictures.com/artists/edouard-baldus/biography",
+       "title": "Malcolm Daniel: Édouard Baldus – Biography, Hans P. Kraus Jr. Fine Photographs (nach dem Heilbrunn-Essay des Metropolitan Museum)",
+       "excerpt": "But it was in the second of his two railway albums, commissioned in 1861 by the Chemins de fer de Paris à Lyon et à la Méditerranée, that Baldus again pioneered new aesthetic ground. The album is a masterfully composed sequence of sixty-nine photographs of the landscape, towns, principal sites of interest, and railroad structures along the line from Lyon to Marseille and Toulon.",
+       "kind": "kurator",
+       "author": "Malcolm Daniel",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://sunpictures.com/artists/edouard-baldus/biography",
+       "title": "Malcolm Daniel: Édouard Baldus – Biography, Hans P. Kraus Jr. Fine Photographs (nach dem Heilbrunn-Essay des Metropolitan Museum)",
+       "excerpt": "And his presentation of a landscape transformed by modern engineering confidently espoused a belief in technological progress.",
+       "kind": "kurator",
+       "author": "Malcolm Daniel",
+       "aspect": "deutung",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "baldus-gorges-d-ollioules",
+       "title": "Gorges d'Ollioules",
+       "year": 1860,
+       "location": "Gorges d'Ollioules bei Toulon (Frankreich)",
+       "tags": [
+        "schlucht",
+        "fels",
+        "albuminabzug",
+        "straße"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/287372",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP138030.jpg",
+       "sources": []
+      },
+      {
+       "key": "baldus-la-ciotat-bec-de-l-aigle",
+       "title": "La Ciotat, Bec de l'Aigle",
+       "year": 1861,
+       "location": "La Ciotat, Provence (Frankreich)",
+       "tags": [
+        "küste",
+        "felsen",
+        "albuminabzug",
+        "meer"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/287368",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP138025.jpg",
+       "sources": []
+      },
+      {
+       "key": "baldus-viaduc-de-st-chamas",
+       "title": "Viaduc de St. Chamas",
+       "year": null,
+       "location": "Saint-Chamas, Provence (Frankreich)",
+       "tags": [
+        "viadukt",
+        "eisenbahn",
+        "albuminabzug",
+        "ingenieurbau"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/287357",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP138012.jpg",
+       "sources": []
+      },
+      {
+       "key": "baldus-roquefavour",
+       "title": "Roquefavour",
+       "year": 1861,
+       "location": "Aquädukt von Roquefavour bei Aix-en-Provence (Frankreich)",
+       "tags": [
+        "aquädukt",
+        "tal",
+        "albuminabzug",
+        "ingenieurbau"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/287358",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP138013.jpg",
+       "sources": []
+      },
+      {
+       "key": "baldus-viaduc-de-la-voulte",
+       "title": "Viaduc de la Voulte",
+       "year": 1861,
+       "location": "La Voulte-sur-Rhône (Frankreich)",
+       "tags": [
+        "brücke",
+        "rhône",
+        "albuminabzug",
+        "weite"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/287325",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP137977.jpg",
+       "sources": []
+      },
+      {
+       "key": "baldus-pont-du-gard",
+       "title": "Pont du Gard",
+       "year": 1861,
+       "location": "Pont du Gard, Gard (Frankreich)",
+       "tags": [
+        "aquädukt",
+        "spiegelung",
+        "albuminabzug",
+        "fluss"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/287339",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP137992.jpg",
+       "sources": []
+      },
+      {
+       "key": "baldus-vaucluse",
+       "title": "Vaucluse",
+       "year": 1862,
+       "location": "Fontaine-de-Vaucluse (Frankreich)",
+       "tags": [
+        "dorf",
+        "felsen",
+        "albuminabzug",
+        "tal"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/287336",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP137989.jpg",
+       "sources": []
+      },
+      {
+       "key": "baldus-entree-du-robinet",
+       "title": "Entrée du Robinet",
+       "year": 1861,
+       "location": "Défilé du Robinet bei Donzère, Rhônetal (Frankreich)",
+       "tags": [
+        "eisenbahn",
+        "gleise",
+        "albuminabzug",
+        "felsen"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/283135",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP137980.jpg",
+       "sources": []
+      },
+      {
+       "key": "baldus-le-moine",
+       "title": "Le Moine",
+       "year": 1861,
+       "location": "Mittelmeerküste der Provence (Frankreich)",
+       "tags": [
+        "küste",
+        "felsnadel",
+        "albuminabzug",
+        "bucht"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/287283",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP138029.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "bisson",
+   "name": "Bisson Frères",
+   "born": null,
+   "sources": [
+    {
+     "url": "https://sunpictures.com/artists/bisson-freres/biography",
+     "title": "Bisson Frères – Biography, Hans P. Kraus Jr. Fine Photographs",
+     "excerpt": "Sons of a heraldic painter who experimented with the daguerreotype, Louis-Auguste Bisson (French, 1814-1876) and his brother Auguste-Rosalie Bisson (French, 1826-1900) often collaborated throughout their photographic careers as “Bisson Frères”, one of the best known and prolific photographic firms of the period.",
+     "kind": "kurator",
+     "author": "Hans P. Kraus Jr.",
+     "aspect": "entstehung"
+    },
+    {
+     "url": "https://sunpictures.com/artists/bisson-freres/biography",
+     "title": "Bisson Frères – Biography, Hans P. Kraus Jr. Fine Photographs",
+     "excerpt": "Their large photographs of Chartres from the late 1850s focus on a selected group of details using dramatic lighting to deepen the shadows and enhance the sculptural quality. By 1860, they were making breathtaking views high up in the Alps.",
+     "kind": "kurator",
+     "author": "Hans P. Kraus Jr.",
+     "aspect": "deutung"
+    }
+   ],
+   "projects": [
+    {
+     "key": "bisson-alpes-mont-blanc",
+     "title": "Hochalpen und Mont-Blanc-Besteigung (1859–1862; Auswahl)",
+     "year_from": 1859,
+     "year_to": 1862,
+     "sources": [
+      {
+       "url": "https://photographymuseum.com/?p=2072",
+       "title": "Bisson Frères: Glacier des Bossons – The American Museum of Photography",
+       "excerpt": "Their most famous body of work is comprised of the high-altitude photographs they made in the Alps during the climbing seasons of 1859-1862. In 1860, on the occasion of the reunion of Savoy with France, and accompanied by Napoleon III and the Empress, the Bissons went to Chamonix to attempt the ascent of Mont-Blanc. They failed to reach the summit but the large glass negatives they produced during the climb were the basis of an album of twenty-four superb Alpine views.",
+       "kind": "museum",
+       "author": "The American Museum of Photography",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://photographymuseum.com/?p=2072",
+       "title": "Bisson Frères: Glacier des Bossons – The American Museum of Photography",
+       "excerpt": "Despite the arduous conditions, the Bissons captured this masterful scene of an epic struggle by men intent on conquering nature–set against a magnificent landscape.",
+       "kind": "museum",
+       "author": "The American Museum of Photography",
+       "aspect": "deutung",
+       "series_level": false
+      }
+     ],
+     "images": [
+      {
+       "key": "bisson-ascent-of-mont-blanc",
+       "title": "[The Ascent of Mont Blanc]",
+       "year": 1861,
+       "location": "Mont-Blanc-Massiv (Frankreich)",
+       "tags": [
+        "gletscher",
+        "bergsteiger",
+        "albuminabzug",
+        "spalte"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/283137",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP139264.jpg",
+       "sources": []
+      },
+      {
+       "key": "bisson-la-grande-muette",
+       "title": "Savoie – La Grande Muette (Dôme du Goûter von der Grande Muette)",
+       "year": 1861,
+       "location": "Mont-Blanc-Massiv, Savoyen (Frankreich)",
+       "tags": [
+        "gletscher",
+        "séracs",
+        "albuminabzug",
+        "hochgebirge"
+       ],
+       "source_url": "https://www.rijksmuseum.nl/en/collection/RP-F-F80114",
+       "image_url": "https://iiif.micr.io/xVdqk/full/!1800,1800/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "bisson-mer-de-glace-flegere",
+       "title": "Mer de Glace, gezien vanaf la Flégère (Mer de Glace von der Flégère)",
+       "year": null,
+       "location": "Mer de Glace, Chamonix, Savoyen (Frankreich)",
+       "tags": [
+        "gletscher",
+        "tal",
+        "albuminabzug",
+        "hochgebirge"
+       ],
+       "source_url": "https://www.rijksmuseum.nl/en/collection/RP-F-F80387",
+       "image_url": "https://iiif.micr.io/hgBfL/full/!1800,1800/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "bisson-mont-blanc-berggezicht",
+       "title": "Berggezicht/Mont Blanc/Alpen [?]",
+       "year": null,
+       "location": "Mont-Blanc-Massiv (Zuordnung laut Museum fraglich)",
+       "tags": [
+        "panorama",
+        "gipfel",
+        "albuminabzug",
+        "hochgebirge"
+       ],
+       "source_url": "https://www.rijksmuseum.nl/en/collection/RP-F-00-6414",
+       "image_url": "https://iiif.micr.io/wDfuk/pct:2,14,96,72/max/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "bisson-alpenlandschap",
+       "title": "Alpenlandschap (Alpenlandschaft)",
+       "year": 1861,
+       "location": "Alpen (nicht näher bezeichnet)",
+       "tags": [
+        "gipfel",
+        "wald",
+        "albuminabzug",
+        "hochformat"
+       ],
+       "source_url": "https://www.rijksmuseum.nl/en/collection/RP-F-00-2481",
+       "image_url": "https://iiif.micr.io/yupwC/pct:28,19,44,56/max/0/default.jpg",
+       "sources": []
+      },
+      {
+       "key": "bisson-alpenlandschap-dorpje",
+       "title": "Alpenlandschap met een dorpje op de voorgrond (Alpenlandschaft mit Dorf im Vordergrund)",
+       "year": null,
+       "location": "Alpen (nicht näher bezeichnet)",
+       "tags": [
+        "dorf",
+        "felswand",
+        "albuminabzug",
+        "hochformat"
+       ],
+       "source_url": "https://www.rijksmuseum.nl/en/collection/RP-F-00-2482",
+       "image_url": "https://iiif.micr.io/KcNgs/pct:27,18,45,57/max/0/default.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ducamp",
+   "name": "Maxime Du Camp",
+   "born": 1822,
+   "sources": [
+    {
+     "url": "https://www.christies.com.cn/lot/lot-1485714",
+     "title": "Maxime Du Camp: ‘Egypte, Nubie, Palestine et Syrie’, 1852 – Christie’s, Losbeschreibung",
+     "excerpt": "Maxime Du Camp, a journalist, first travelled to the Orient in 1844-45 and published a written journal of his experiences, Souvenirs et paysages d'Orient , in 1848. His fascination with the Near East persisted and in 1849 he returned to Egypt, accompanied by his friend, the writer Gustave Flaubert.",
+     "kind": "kurator",
+     "author": "Christie’s",
+     "aspect": "entstehung"
+    },
+    {
+     "url": "https://www.christies.com.cn/lot/lot-1485714",
+     "title": "Maxime Du Camp: ‘Egypte, Nubie, Palestine et Syrie’, 1852 – Christie’s, Losbeschreibung",
+     "excerpt": "Before setting off, Du Camp received instruction in photography from Gustave Le Gray",
+     "kind": "kurator",
+     "author": "Christie’s",
+     "aspect": "entstehung"
+    }
+   ],
+   "projects": [
+    {
+     "key": "ducamp-egypte-nubie",
+     "title": "Égypte, Nubie, Palestine et Syrie (1849–1851, publiziert 1852; Auswahl Nil-Landschaften)",
+     "year_from": 1849,
+     "year_to": 1852,
+     "sources": [
+      {
+       "url": "https://www.christies.com.cn/lot/lot-1485714",
+       "title": "Maxime Du Camp: ‘Egypte, Nubie, Palestine et Syrie’, 1852 – Christie’s, Losbeschreibung",
+       "excerpt": "On this occasion he was also accompanied by sufficient photographic equipment and newly-acquired expertise to produce over 200 negatives of the monumental architecture and historic sites which had so inspired French artists and writers since the early 19th century.",
+       "kind": "kurator",
+       "author": "Christie’s",
+       "aspect": "entstehung",
+       "series_level": true
+      },
+      {
+       "url": "https://antiquarianauctions.com/lots/egypt-nubia-palestine-and-syria",
+       "title": "Du Camp: Egypt, Nubia, Palestine and Syria – AntiquarianAuctions.com (mit Zitat aus Gernsheim, The History of Photography)",
+       "excerpt": "The prints, which were made in Lille, bear out Blanquart-Evrard’s claim for permanence. They have preserved their cold dark grey colour to this day but most of the prints are too dark and lacking in contrast.",
+       "kind": "wissenschaft",
+       "author": "Helmut Gernsheim (zitiert)",
+       "aspect": "technik",
+       "series_level": true
+      }
+     ],
+     "images": [
+      {
+       "key": "ducamp-seconde-cataracte-vue-cavaliere",
+       "title": "Nubie. Vue Cavalière de la Seconde Cataracte",
+       "year": 1850,
+       "location": "Zweiter Nilkatarakt (Sudan)",
+       "tags": [
+        "nil",
+        "katarakt",
+        "kalotypie",
+        "aufsicht"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/263229",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP116196.jpg",
+       "sources": []
+      },
+      {
+       "key": "ducamp-seconde-cataracte-dgebel-abouoir",
+       "title": "Nubie. Seconde Cataracte. Dgebel-Abouoir",
+       "year": 1850,
+       "location": "Zweiter Nilkatarakt (Sudan)",
+       "tags": [
+        "fels",
+        "nil",
+        "kalotypie",
+        "wüste"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/263230",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP116197.jpg",
+       "sources": []
+      },
+      {
+       "key": "ducamp-entree-premiere-cataracte",
+       "title": "Haute-Égypte. Entrée de la première Cataracte",
+       "year": 1850,
+       "location": "Erster Nilkatarakt bei Assuan (Ägypten)",
+       "tags": [
+        "nil",
+        "katarakt",
+        "kalotypie",
+        "uferlinie"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/263215",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP116185.jpg",
+       "sources": []
+      },
+      {
+       "key": "ducamp-rive-orientale-village-de-bab",
+       "title": "Nubie. Rive Orientale du Nil (Village de Bab). Vue prise au sud de Philoe",
+       "year": 1850,
+       "location": "Nilufer südlich von Philae (Ägypten)",
+       "tags": [
+        "nil",
+        "uferlinie",
+        "kalotypie",
+        "weite"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/263219",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP116188.jpg",
+       "sources": []
+      },
+      {
+       "key": "ducamp-philae-vue-generale",
+       "title": "Nubie. Grand Temple d'Isis, A Philoe. Vue générale prise du nord",
+       "year": 1850,
+       "location": "Philae (Ägypten)",
+       "tags": [
+        "tempel",
+        "insel",
+        "kalotypie",
+        "ruine"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/262126",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP116177.jpg",
+       "sources": []
+      },
+      {
+       "key": "ducamp-abu-simbel-westernmost-colossus",
+       "title": "Westernmost Colossus of the Temple of Re, Abu Simbel",
+       "year": 1850,
+       "location": "Abu Simbel (Ägypten)",
+       "tags": [
+        "koloss",
+        "maßstab",
+        "kalotypie",
+        "figur"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/283143",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP136319.jpg",
+       "sources": []
+      },
+      {
+       "key": "ducamp-girgeh-inondation",
+       "title": "Vue de Girgeh et du littoral enlevé - par l'inondation du Nil",
+       "year": null,
+       "location": "Girga, Oberägypten",
+       "tags": [
+        "nil",
+        "überschwemmung",
+        "kalotypie",
+        "minarette"
+       ],
+       "source_url": "https://www.metmuseum.org/art/collection/search/287096",
+       "image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP131847.jpg",
+       "sources": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "number": 1,
+   "title": "Expeditions- und Reisefotografie des 19. Jahrhunderts",
+   "key_images": [
+    "ducamp-seconde-cataracte-vue-cavaliere",
+    "ducamp-abu-simbel-westernmost-colossus",
+    "bisson-ascent-of-mont-blanc",
+    "bisson-mer-de-glace-flegere",
+    "baldus-roquefavour",
+    "baldus-entree-du-robinet"
+   ]
+  },
+  {
+   "number": 12,
+   "title": "Landschaftsfotografie: vom Erhabenen zur intimen Landschaft",
+   "key_images": [
+    "turner-hedgerow-trees-clerkenleap",
+    "turner-pepperharrow-park",
+    "baldus-gorges-d-ollioules",
+    "prior-k2-concordia",
+    "prior-great-trango",
+    "duncan-heart-of-a-nation-uluru",
+    "duncan-faithful-guardians-twelve-apostles",
+    "dombrovskis-morning-light-little-horn",
+    "wilkes-tunnel-view-yosemite"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Natur und Tiere: von der Expedition zur Naturschutzfotografie",
+   "key_images": [
+    "brandenburg-day10-wilderness-loons",
+    "brandenburg-day23-maple-leaf",
+    "brandenburg-day38-aurora-borealis",
+    "dombrovskis-morning-mist-rock-island-bend",
+    "dombrovskis-mount-geryon-labyrinth",
+    "wilkes-serengeti",
+    "axelsson-polar-bear-sea-ice"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Zeitgenössische Landschaft: Mensch, Industrie, Klima",
+   "key_images": [
+    "axelsson-melting-iceberg-scoresbysund",
+    "axelsson-snaefellsjokull-glacier",
+    "axelsson-arctic-hunter-sea-ice-2019",
+    "wilkes-greenland-great-melt",
+    "wilkes-fagradalsfjall-volcano"
+   ]
+  }
+ ]
+}

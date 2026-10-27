@@ -1,0 +1,419 @@
+{
+ "accessed_at": "2026-10-27",
+ "references": [
+  {
+   "image_url": "https://www.jimbrandenburg.com/pf-media/Day23MapleLeaf.jpg",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://kk.org/cooltools/chased-by-the-l-1/",
+     "title": "Kevin Kelly: Chased By the Light – Cool Tools (Rezension mit Auszügen aus dem Buch)",
+     "excerpt": "One such lesson occurred on October 15th, the twenty-third day. It was late and I despaired of capturing anything of value. The day was dark and gloomy; my mood reflected the weather.",
+     "kind": "fotograf",
+     "author": "Jim Brandenburg (Buchzitat)",
+     "aspect": "entstehung"
+    },
+    {
+     "url": "https://kk.org/cooltools/chased-by-the-l-1/",
+     "title": "Kevin Kelly: Chased By the Light – Cool Tools (Rezension mit Auszügen aus dem Buch)",
+     "excerpt": "My spirits rose the instant I saw it, and although the day was very late and what little light there had been was fleeing rapidly, I studied the scene from every angle. Finally, unsure of my choice, I made the shot anyway, thankful at least that the long day had ended. Once more I was surprised by the result. The image seems to have a lyrical quality, with a rhythm in the long grass.",
+     "kind": "fotograf",
+     "author": "Jim Brandenburg (Buchzitat)",
+     "aspect": "entstehung"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Brandenburg beschreibt den 23. Tag (15. Oktober) als dunkel und trüb [Q1]; als er das Blatt fand, war es spät und das wenige Licht schwand schnell [Q2]. Das Bild entstand also in sehr schwachem, diffusem Restlicht.",
+   "checkable": [
+    "Kein direktes Sonnenlicht, keine harten Schatten – diffuses, schwaches Licht [Q1][Q2]",
+    "Die Wasserfläche ist dunkel und fast strukturlos [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://www.jimbrandenburg.com/pf-media/Day23MapleLeaf.jpg",
+   "dimension": "detail",
+   "sources": [
+    {
+     "url": "https://kk.org/cooltools/chased-by-the-l-1/",
+     "title": "Kevin Kelly: Chased By the Light – Cool Tools (Rezension mit Auszügen aus dem Buch)",
+     "excerpt": "But perhaps because I was patient, and perhaps because, as natives do on a vision quest, I had reached my physical limits, I became open to the possibility revealed by a single red maple leaf floating on a dark-water pond.",
+     "kind": "fotograf",
+     "author": "Jim Brandenburg (Buchzitat)",
+     "aspect": "entstehung"
+    },
+    {
+     "url": "https://kk.org/cooltools/chased-by-the-l-1/",
+     "title": "Kevin Kelly: Chased By the Light – Cool Tools (Rezension mit Auszügen aus dem Buch)",
+     "excerpt": "My spirits rose the instant I saw it, and although the day was very late and what little light there had been was fleeing rapidly, I studied the scene from every angle. Finally, unsure of my choice, I made the shot anyway, thankful at least that the long day had ended. Once more I was surprised by the result. The image seems to have a lyrical quality, with a rhythm in the long grass.",
+     "kind": "fotograf",
+     "author": "Jim Brandenburg (Buchzitat)",
+     "aspect": "entstehung"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Bildgegenstand ist ein einzelnes rotes Ahornblatt auf dunklem Teichwasser [Q1]; Brandenburg selbst sieht im Bild einen „Rhythmus“ im langen Gras [Q2].",
+   "checkable": [
+    "Ein einzelnes rotes Blatt ist der Farbakzent auf dunklem Wasser [Q1]",
+    "Lange Grashalme bilden ein rhythmisches Linienmuster [Q2]"
+   ]
+  },
+  {
+   "image_url": "https://www.jimbrandenburg.com/pf-media/Day38AuroraBorealis.jpg",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://www.jimbrandenburg.com/GALLERY/Chased-by-the-Light/1/",
+     "title": "Chased by the Light – Galerie mit Bildtiteln, Datum und Uhrzeit (Website Jim Brandenburg)",
+     "excerpt": "Day38 Aurora Borealis - Sunday, Oct 30, 4:04 am",
+     "kind": "fotograf",
+     "author": "Jim Brandenburg (Bildtitel)",
+     "aspect": "entstehung"
+    },
+    {
+     "url": "https://mndaily.com/258902/uncategorized/photographer-captures-nature-journey/",
+     "title": "Photographer captures nature journey – The Minnesota Daily (Interview zur Ausstellung im Bell Museum)",
+     "excerpt": "He went back to his cabin and fell asleep, but awoke at 2 a.m. to the sight of the northern lights in the sky.",
+     "kind": "kritik",
+     "author": "The Minnesota Daily",
+     "aspect": "entstehung"
+    },
+    {
+     "url": "https://mndaily.com/258902/uncategorized/photographer-captures-nature-journey/",
+     "title": "Photographer captures nature journey – The Minnesota Daily (Interview zur Ausstellung im Bell Museum)",
+     "excerpt": "“I got up and two hours later I had a photograph,” he said. “I’d have to say that it’s one of the most popular pictures in the book.",
+     "kind": "fotograf",
+     "author": "Jim Brandenburg",
+     "aspect": "rezeption"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Die Aufnahme entstand am 30. Oktober um 4:04 Uhr morgens [Q1]: Brandenburg war um 2 Uhr nachts vom Polarlicht geweckt worden [Q2] und hatte zwei Stunden später sein Bild [Q3].",
+   "checkable": [
+    "Nachtaufnahme: dunkler Himmel mit Sternen, Polarlicht über dem See [Q1][Q2]",
+    "Wald und Ufer erscheinen nur als dunkle Silhouetten [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://www.jimbrandenburg.com/pf-media/Day10WildernessLoonsLimitedEdition.jpg",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://mndaily.com/258902/uncategorized/photographer-captures-nature-journey/",
+     "title": "Photographer captures nature journey – The Minnesota Daily (Interview zur Ausstellung im Bell Museum)",
+     "excerpt": "“I was canoeing and I saw two loons ahead of me,” he said. “One was tangled in fishing line and had a hook in its neck. I saw the dying loon, the beautiful light, the island and it just summed up the ecosystem around me.”",
+     "kind": "fotograf",
+     "author": "Jim Brandenburg",
+     "aspect": "entstehung"
+    },
+    {
+     "url": "https://mndaily.com/258902/uncategorized/photographer-captures-nature-journey/",
+     "title": "Photographer captures nature journey – The Minnesota Daily (Interview zur Ausstellung im Bell Museum)",
+     "excerpt": "It was a difficult photo to take, he said, and turned out better than he thought. It is rare to get a loon with wings outstretched, he said.",
+     "kind": "fotograf",
+     "author": "Jim Brandenburg (wiedergegeben)",
+     "aspect": "entstehung"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Brandenburg sah vom Kanu aus zwei Seetaucher, einen davon in Angelschnur verfangen; Licht, Insel und Vögel fassten für ihn das ganze Ökosystem zusammen [Q1]. Selten sei ein Seetaucher mit ausgebreiteten Flügeln zu erwischen [Q2].",
+   "checkable": [
+    "Zwei Seetaucher auf dem Wasser, einer mit ausgebreiteten Flügeln [Q1][Q2]",
+    "Eine bewaldete Insel steht im Licht hinter den Vögeln [Q1]"
+   ],
+   "scope_note": "Ob das Bild den Moment des Freilassens zeigt, sagt die Quelle nicht ausdrücklich."
+  },
+  {
+   "image_url": "https://stephenwilkes.com/app/uploads/2018/11/StephenWilkes_D2N028_YOSEMITE_2k.jpg",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://www.ted.com/talks/stephen_wilkes_the_passing_of_time_caught_in_a_single_photo/transcript",
+     "title": "Stephen Wilkes: The passing of time, caught in a single photo – TED-Vortrag (Transkript)",
+     "excerpt": "I photographed for over 30 hours in this picture. I was literally on the side of a cliff, capturing the stars and the moonlight as it transitions, the moonlight lighting El Capitan.",
+     "kind": "fotograf",
+     "author": "Stephen Wilkes"
+    },
+    {
+     "url": "https://www.ted.com/talks/stephen_wilkes_the_passing_of_time_caught_in_a_single_photo/transcript",
+     "title": "Stephen Wilkes: The passing of time, caught in a single photo – TED-Vortrag (Transkript)",
+     "excerpt": "And I also captured this transition of time throughout the landscape.",
+     "kind": "fotograf",
+     "author": "Stephen Wilkes"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Wilkes fotografierte über 30 Stunden; er hielt Sterne und Mondlicht auf El Capitan fest [Q1] und den Übergang der Zeit quer durch die Landschaft [Q2]. Das Bild vereint also Nacht und Tag in einer Fläche.",
+   "checkable": [
+    "Ein Teil des Himmels ist Nachthimmel mit Sternen, ein anderer Tageshimmel [Q1][Q2]",
+    "El Capitan erscheint in anderem Licht als die übrige Talseite [Q1]"
+   ],
+   "scope_note": "Holden Luntz (Vortrag) nennt 36 Stunden, TED über 30 Stunden."
+  },
+  {
+   "image_url": "https://stephenwilkes.com/app/uploads/2022/08/StephenWilkes-D2N070_SHISHI_8_horizontal-2k.jpg",
+   "dimension": "time",
+   "sources": [
+    {
+     "url": "https://www.holdenluntz.com/magazine/in-discussion/in-discussion-stephen-wilkes/",
+     "title": "In Discussion: Stephen Wilkes „Beyond the Horizon“ – Holden Luntz Gallery (Vortragsmitschrift)",
+     "excerpt": "So what you’re seeing here is time changes, high tide is on the left side of the picture, and you actually see the tide change across as you move from left to right.",
+     "kind": "fotograf",
+     "author": "Stephen Wilkes"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Laut Wilkes verläuft die Zeit im Bild von links nach rechts: links Flut, nach rechts hin sieht man die Gezeiten wechseln [Q1].",
+   "checkable": [
+    "Links steht das Wasser höher als rechts [Q1]",
+    "Von links nach rechts liegen zunehmend Felsen und Strand frei [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://stephenwilkes.com/app/uploads/2018/11/StephenWilkes_D2N030_AFRICA_SERENGETI_25_2k.jpg",
+   "dimension": "viewpoint",
+   "sources": [
+    {
+     "url": "https://www.ted.com/talks/stephen_wilkes_the_passing_of_time_caught_in_a_single_photo/transcript",
+     "title": "Stephen Wilkes: The passing of time, caught in a single photo – TED-Vortrag (Transkript)",
+     "excerpt": "I photographed for 26 hours in a sealed crocodile blind, 18 feet in the air.",
+     "kind": "fotograf",
+     "author": "Stephen Wilkes"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Wilkes fotografierte aus einem geschlossenen Ansitz („crocodile blind“) etwa 18 Fuß (rund 5,5 m) über dem Boden [Q1].",
+   "checkable": [
+    "Der Blick fällt leicht von oben auf das Wasserloch [Q1]",
+    "Die Tiere am Wasser werden nicht von unten oder auf Augenhöhe gesehen [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://stephenwilkes.com/app/uploads/2021/11/StephenWilkes-D2N065_VOLCANO_19-2k.jpg",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.holdenluntz.com/magazine/in-discussion/in-discussion-stephen-wilkes/",
+     "title": "In Discussion: Stephen Wilkes „Beyond the Horizon“ – Holden Luntz Gallery (Vortragsmitschrift)",
+     "excerpt": "I wanted to make a picture that showed the molten lava, which without lava, there is no life, and I wanted the sun setting behind that lava because without the sun, we have no life",
+     "kind": "fotograf",
+     "author": "Stephen Wilkes"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Wilkes wollte glühende Lava und die hinter dem Ausbruch untergehende Sonne in einem Bild verbinden [Q1].",
+   "checkable": [
+    "Glühende Lava ist eine Hauptlichtquelle im Bild [Q1]",
+    "Hinter dem Ausbruch liegt Abendlicht/Sonnenuntergang [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://artblart.com/wp-content/uploads/2019/03/dombrovskis-peter-morning-light-on-little-horn-1995.jpg",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+     "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+     "excerpt": "2/ His use of ‘near far’ is noticeable, taken from Ansel Adams most likely. In photographs like Morning light on Little Horn (1995), Cushion plants, Mount Anne (1984) and Mount Geryon from the Labyrinth (1986) your eye is led from the detailed foreground to the magnificent vista beyond.",
+     "kind": "kritik",
+     "author": "Marcus Bunyan",
+     "aspect": "deutung",
+     "series_level": false
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Bunyan nennt „Morning light on Little Horn“ als Beispiel für Dombrovskis’ Nah-Fern-Aufbau: Der Blick wird vom detailreichen Vordergrund zur großen Aussicht dahinter geführt [Q1].",
+   "checkable": [
+    "Detailreicher Pflanzen-Vordergrund im unteren Bildteil [Q1]",
+    "Der Berg (Little Horn) bildet den Hintergrund, der Blick führt vom Vordergrund zu ihm [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://artblart.com/wp-content/uploads/2019/03/dombrovskis-peter-mount-geryon-from-the-labyrinth-1986.jpg",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+     "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+     "excerpt": "2/ His use of ‘near far’ is noticeable, taken from Ansel Adams most likely. In photographs like Morning light on Little Horn (1995), Cushion plants, Mount Anne (1984) and Mount Geryon from the Labyrinth (1986) your eye is led from the detailed foreground to the magnificent vista beyond.",
+     "kind": "kritik",
+     "author": "Marcus Bunyan",
+     "aspect": "deutung",
+     "series_level": false
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Auch für „Mount Geryon from the Labyrinth“ beschreibt Bunyan den Weg des Blicks vom detaillierten Vordergrund zur Aussicht [Q1].",
+   "checkable": [
+    "Pflanzen und Fels im Vordergrund sind detailliert gezeichnet [Q1]",
+    "Mount Geryon erscheint als ferne Kulisse am oberen Bildrand [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://artblart.com/wp-content/uploads/2019/03/dombrovskis-peter-cushion-plants-mount-anne-1984.jpg",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://artblart.com/2019/04/27/review-dombrovskis-journeys-into-the-wild-at-monash-gallery-of-art-wheelers-hill-melbourne/",
+     "title": "Review: ‘Dombrovskis: journeys into the wild’, Monash Gallery of Art – Art Blart (Marcus Bunyan, mit Ausstellungstexten, 2019)",
+     "excerpt": "2/ His use of ‘near far’ is noticeable, taken from Ansel Adams most likely. In photographs like Morning light on Little Horn (1995), Cushion plants, Mount Anne (1984) and Mount Geryon from the Labyrinth (1986) your eye is led from the detailed foreground to the magnificent vista beyond.",
+     "kind": "kritik",
+     "author": "Marcus Bunyan",
+     "aspect": "deutung",
+     "series_level": false
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "„Cushion plants, Mount Anne“ ist das dritte Beispiel für den Nah-Fern-Aufbau: vom Vordergrund in die Tiefe [Q1].",
+   "checkable": [
+    "Polsterpflanzen füllen den Vordergrund [Q1]",
+    "Dahinter staffeln sich Bäume in die Tiefe [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://kenduncan.com/legacy-assets/ken_images/VX1672.jpg",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.kenduncan.com/prints/panoramic/faithful-guardians-the-twelve-apostles-vic",
+     "title": "Ken Duncan: Faithful Guardians, The Twelve Apostles – Bildseite mit Text des Fotografen (kenduncan.com)",
+     "excerpt": "Patience is a great virtue in life and can often be one of the hardest to achieve. Landscape photography has been very good for me in this respect. To get this shot I had to turn up faithfully day after day for weeks, waiting for the right light.",
+     "kind": "fotograf",
+     "author": "Ken Duncan",
+     "aspect": "entstehung"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Duncan kam für dieses Bild wochenlang Tag für Tag wieder, um auf das richtige Licht zu warten [Q1].",
+   "checkable": [
+    "Das Licht ist warmes Rand-/Dämmerungslicht, nicht neutrales Mittagslicht [Q1]"
+   ],
+   "scope_note": "Die Quelle nennt das Warten, nicht die genaue Tageszeit."
+  },
+  {
+   "image_url": "https://kenduncan.com/legacy-assets/ken_images/NTX532.jpg",
+   "dimension": "moment",
+   "sources": [
+    {
+     "url": "https://www.kenduncan.com/prints/panoramic/heart-of-a-nation-uluru-nt",
+     "title": "Ken Duncan: Heart of a Nation, Uluru – Bildseite mit Text des Fotografen (kenduncan.com)",
+     "excerpt": "Behind me, the horizon was covered in cloud, and just when I thought to pack up my gear, light suddenly found its way through a hole in the clouds and produced a wonderful show for me to capture on film.",
+     "kind": "fotograf",
+     "author": "Ken Duncan",
+     "aspect": "entstehung"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Der Horizont hinter Duncan war bewölkt; als er schon einpacken wollte, fand Licht durch ein Wolkenloch und beleuchtete die Szene [Q1].",
+   "checkable": [
+    "Uluru ist leuchtend beleuchtet, während der Himmel Wolken zeigt [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://kenduncan.com/legacy-assets/ken_images/WAX858.jpg",
+   "dimension": "light",
+   "sources": [
+    {
+     "url": "https://www.kenduncan.com/prints/panoramic/dawn-of-creation-mitchell-falls-wa",
+     "title": "Ken Duncan: Dawn of Creation, Mitchell Falls – Bildseite mit Text des Fotografen (kenduncan.com)",
+     "excerpt": "While camping at Mitchell Falls in the western Kimberley we were surrounded throughout the night by fires lit by National Park authorities to aid the germination of bush seed. This form of environmental care has been practised by Aborigines for millennia. As smoke tempered the early morning light with lovely evenness, the colours of rock and water began to glow.",
+     "kind": "fotograf",
+     "author": "Ken Duncan",
+     "aspect": "entstehung"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Rauch von Buschfeuern dämpfte das frühe Morgenlicht und machte es gleichmäßig; Fels und Wasser begannen zu leuchten [Q1].",
+   "checkable": [
+    "Weiches, gleichmäßiges Licht ohne harte Schlagschatten [Q1]",
+    "Kräftig leuchtende Farben von Fels und Wasser [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2006AM5284/full/!1600,1600/0/default.jpg",
+   "dimension": "omitted",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O75320/",
+     "title": "Benjamin Brecknell Turner: Hedgerow Trees, Clerkenleap – Victoria and Albert Museum, London (Objekttext)",
+     "excerpt": "This is the only photograph in Turner's album to include a human figure, seen here leaning against a fence and a pollarded oak tree.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "deutung"
+    },
+    {
+     "url": "https://collections.vam.ac.uk/item/O75320/",
+     "title": "Benjamin Brecknell Turner: Hedgerow Trees, Clerkenleap – Victoria and Albert Museum, London (Objekttext)",
+     "excerpt": "Turner's decision to exclude figures from the majority of the rural views he made for exhibition was deliberate, but it was a departure from the established tradition.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "deutung"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Dies ist das einzige Bild im Album mit einer menschlichen Figur, die an Zaun und Kopfeiche lehnt [Q1]; sonst ließ Turner Figuren bewusst weg [Q2].",
+   "checkable": [
+    "Eine einzelne Figur lehnt am Zaun bei einem Kopfbaum [Q1]",
+    "Außer dieser Figur sind keine Menschen oder Tiere zu sehen [Q1][Q2]"
+   ]
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2006AM5265/pct:0,0,95,100/!1600,1600/0/default.jpg",
+   "dimension": "order",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O75308/",
+     "title": "Benjamin Brecknell Turner: Pepperharrow Park – Victoria and Albert Museum, London (Objekttext)",
+     "excerpt": "Here he has chosen an old and picturesque tree as his central motif, so the photograph has the character of a portrait.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "deutung"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Turner macht einen alten, malerischen Baum zum zentralen Motiv; das Bild wirkt dadurch wie ein Porträt [Q1].",
+   "checkable": [
+    "Ein einzelner großer Baum steht als Hauptmotiv in der Bildmitte [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2006AM5261/full/!1600,1600/0/default.jpg",
+   "dimension": "surface",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O75307/",
+     "title": "Benjamin Brecknell Turner: Eashing Bridge – Victoria and Albert Museum, London (Objekttext)",
+     "excerpt": "Although the bridge itself was of great historic interest, Turner seems to have been equally absorbed in the intricate pattern of the trees.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "deutung"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Neben der mittelalterlichen Brücke interessierte Turner sich offenbar ebenso für das verflochtene Muster der Bäume [Q1].",
+   "checkable": [
+    "Kahle Äste bilden ein dichtes Linienmuster über der Brücke [Q1]",
+    "Die Brücke liegt niedrig und tritt hinter den Bäumen zurück [Q1]"
+   ]
+  },
+  {
+   "image_url": "https://framemark.vam.ac.uk/collections/2006AE6220/pct:14,0,86,100/!1600,1600/0/default.jpg",
+   "dimension": "layers",
+   "sources": [
+    {
+     "url": "https://collections.vam.ac.uk/item/O113426/",
+     "title": "Benjamin Brecknell Turner: Crowle Court – Victoria and Albert Museum, London (Objekttext)",
+     "excerpt": "The site must once have been of importance, since it was surrounded by a defensive moat, visible to the right of the raised entrance roadway. This ancient building, which seems to grow out of its surrounding terrain, was a typical subject for Benjamin Brecknell Turner.",
+     "kind": "museum",
+     "author": "Victoria and Albert Museum",
+     "aspect": "deutung"
+    }
+   ],
+   "library_source_ids": [],
+   "answer_md": "Rechts der erhöhten Zufahrt ist der Wassergraben zu sehen; das Gebäude scheint aus dem umgebenden Gelände herauszuwachsen [Q1].",
+   "checkable": [
+    "Rechts der Zufahrt liegt Wasser (Graben) [Q1]",
+    "Erhöhte Zufahrt im Vordergrund, Fachwerkgebäude dahinter [Q1]"
+   ]
+  }
+ ]
+}
