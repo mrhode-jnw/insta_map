@@ -436,3 +436,4 @@ button.big { font-size: 1.05rem; padding: 12px 22px; }
 .year-result { display: flex; justify-content: space-around; margin: 4px 0 10px; font-size: 1.05rem; }
 .year-result b { color: var(--accent); }
 .snack-slider button.big { width: 100%; }
+.snack .snack-img:not(.tiles) img, .snack .snack-pair img, .snack .thumbs img, .snack[data-swipe="next"] .opt img { cursor: zoom-in; }

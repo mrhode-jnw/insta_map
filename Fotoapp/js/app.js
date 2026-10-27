@@ -1210,32 +1210,33 @@ function showSource(s, label) {
 function closeSheet() { document.querySelector(".src-sheet")?.remove(); }
 window.addEventListener("hashchange", closeSheet);
 
-// ---------- full-screen viewer: tap an image or sketch in a lesson/chapter, pinch or double-tap to zoom, drag to pan
+// ---------- full-screen viewer: tap an image or sketch in a lesson/chapter or a Häppchen card, pinch or double-tap to zoom, drag to pan
 document.addEventListener("click", e => {
-  const img = e.target.closest('.chapter img[data-kind="m"], .quiz-img img, .galerie img');
+  const img = e.target.closest('.chapter img[data-kind="m"], .quiz-img img, .galerie img, .snack .snack-img:not(.tiles) img, .snack .snack-pair img, .snack .thumbs img, .snack[data-swipe="next"] .opt img, .snack[data-swipe="next"] .order-item img');
   const svg = !img && e.target.closest(".chapter figure.sketch svg");
   if (!img && !svg) return;
   e.preventDefault(); e.stopPropagation();
   const fig = (img || svg).closest(".g-item, figure, .compare > div, .quiz-img");
   const gi = img && lib.by.images.get(img.dataset.media);
-  const cap = fig?.classList.contains("g-item") && gi ? { innerHTML: `<span class="who"><b>${esc(photographerOf(gi).name)}</b> – ${esc(gi.title || "")}${gi.year ? `, ${gi.year}` : ""}</span>` }
+  const cap = (fig?.classList.contains("g-item") || (img?.closest(".snack") && !fig?.querySelector("figcaption"))) && gi ? { innerHTML: `<span class="who"><b>${esc(photographerOf(gi).name)}</b> – ${esc(gi.title || "")}${gi.year ? `, ${gi.year}` : ""}</span>` }
     : fig?.querySelector(":scope > figcaption, :scope figcaption");
-  openViewer({ img, svg, caption: cap ? cap.innerHTML : "" });
+  const spoiler = img?.closest('.snack:not([data-swipe="next"])'); // an open Häppchen card: no name, no link before the answer
+  openViewer({ img, svg, caption: cap && !spoiler ? cap.innerHTML : "", noLink: !!spoiler });
 }, true);
 
-function openViewer({ img, svg, caption }) {
+function openViewer({ img, svg, caption, noLink }) {
   closeViewer();
   const id = img?.dataset.media;
   const v = document.createElement("div"); v.className = "viewer";
   v.innerHTML = `<div class="viewer-bar"><button class="secondary" data-close>Schließen</button>
-      ${id && lib.by.images.has(id) ? `<a href="#/bild/${id}">Zur Bildseite</a>` : ""}<span class="muted small">Zwei Finger oder Doppeltippen zum Zoomen</span></div>
+      ${id && lib.by.images.has(id) && !noLink ? `<a href="#/bild/${id}">Zur Bildseite</a>` : ""}<span class="muted small">Zwei Finger oder Doppeltippen zum Zoomen</span></div>
     <div class="viewer-stage"><div class="viewer-content"></div></div>
     ${caption ? `<div class="viewer-cap">${caption}</div>` : ""}`;
   const content = v.querySelector(".viewer-content"), stage = v.querySelector(".viewer-stage");
   if (svg) content.innerHTML = `<div class="viewer-svg sketch">${svg.outerHTML}</div>`;
   else {
     const el = document.createElement("img"); el.alt = ""; el.draggable = false; content.append(el);
-    if (img.src && img.dataset.kind === "m") el.src = img.src;
+    if (img.src && (img.dataset.kind === "m" || img.dataset.kind === "p")) el.src = img.src; // portraits have no other size
     else { if (img.src) el.src = img.src; mediaUrl(id, "m").then(u => (el.src = u)); } // thumbnail first, sharp version follows
   }
   document.body.append(v); document.body.classList.add("noscroll");
