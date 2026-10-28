@@ -83,21 +83,24 @@
  },
  {
   "id": "tsh29",
-  "name": "Do 29.10. Sonnenaufgang 6:06 Suzhou Creek & Bund – ab Hotel 5:35: Zhapu-Lu-Brücke (Sonne geht links neben dem Pearl Tower auf, mittelhohe Wolken reißen auf) · Waibaidu-Brücke · Bund im ersten Licht",
+  "name": "Do 29.10. Sonnenaufgang 6:06 · ca. 5:35–8:15 zu Fuß: Zhapu-Lu-Brücke (blaue Stunde, Sonne links neben dem Pearl Tower, Wolken reißen auf) · Waibaidu-Brücke · Bund im ersten Licht · Yuanmingyuan Road · Carlowitz-Durchblick",
   "stops": [
    "claude-cn-zhapu-road-bridge-suzhou-creek",
    "cn-waibaidu-bridge-suzhou-creek",
-   "cn-the-bund-lujiazui"
+   "cn-the-bund-lujiazui",
+   "cn-yuanmingyuan-road",
+   "cn-carlowitz-building"
   ],
   "created": "2026-10-28"
  },
  {
   "id": "tsh30",
-  "name": "Fr 30.10. Sonnenaufgang 6:07 im Dunst von Zhujiajiao – DiDi ab Hotel 4:55 (ca. 55 Min.): Fangsheng-Brücke & Kanäle, klar & windstill, Frühnebel möglich · danach Columbia Circle · Wukang Mansion",
+  "name": "Fr 30.10. Sonnenaufgang 6:07 · ca. 5:40–8:15 zu Fuß: North Bund – Sonne als Scheibe im Dunst über dem Huangpu · Dongchangzhi/Lushun Rd · Jiulong Road · Postmuseum am Suzhou Creek",
   "stops": [
-   "claude-cn-zhujiajiao-water-town",
-   "claude-cn-columbia-circle",
-   "cn-wukang-mansion"
+   "cn-north-bund-riverside-park",
+   "cn-dongchangzhi-rd-lushun-rd",
+   "cn-jiulong-road-waterfront",
+   "cn-shanghai-postal-museum"
   ],
   "created": "2026-10-28"
  }
