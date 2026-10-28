@@ -816,5 +816,8 @@
  "cn-the-stage-white-magnolia-plaza": {
   "fav": true,
   "prio": "hoch"
+ },
+ "cn-the-roof-henderson-cifi-xintiandi": {
+  "prio": "gering"
  }
 }
