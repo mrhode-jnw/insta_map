@@ -9009,7 +9009,7 @@ window.PLACES_CN = [
   "district": "Pudong, Shanghai",
   "category": "Architektur",
   "note": "",
-  "tip": "Über das Grand Hyatt (Lobby 54. Stock) oder die Cloud-9-Bar im 87. Stock. Mit 16 mm senkrecht nach oben oder unten, Kamera aufs Geländer legen (kein Stativ), ISO 1600, 1/30 s. Zugang vorher an der Rezeption erfragen.",
+  "tip": "Über das Grand Hyatt (Lobby 54. Stock) oder die Cloud-9-Bar im 87. Stock. Mit 16 mm senkrecht nach oben oder unten, Kamera aufs Geländer legen (kein Stativ), ISO 1600, 1/30 s. Zugang vorher an der Rezeption erfragen. Research 28.10.: Die Aussichtsplattform darüber heißt „Jin Mao Tower 88th Floor Observation Deck“ (金茂大厦88层观光厅, ca. 340 m, mit senkrechtem Blick ins Atrium) – eigener Spot mit Zeiten, Preis und dem Glas-Skywalk „金茂云中漫步“.",
   "address": "Pudong, Shanghai",
   "lat": 31.2372504,
   "lng": 121.5014197,
@@ -12901,6 +12901,40 @@ window.PLACES_CN = [
   "kind": "sight",
   "image_page": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
   "image_credit": "My Favourite Lens",
+  "when": "day"
+ },
+ {
+  "id": "cn-jin-mao-tower-observation-deck-88",
+  "region": "cn",
+  "name": "Jin Mao Tower Observation Deck 金茂大厦88层观光厅",
+  "district": "Pudong, Shanghai",
+  "category": "",
+  "note": "Name der Aussichtsplattform: Jin Mao Tower 88th Floor Observation Deck, chinesisch 金茂大厦88层观光厅 (88 Century Avenue 世纪大道88号, ca. 340 m). Rund 1.520 m² Innenraum mit Panoramafenstern bis zum Boden, bietet auch den Blick senkrecht hinunter in das Grand-Hyatt-Atrium (Spiralen bis zur Lobby im 54. Stock) – das Atrium-Motiv des Nachbar-Spots. Am Aufzug zum 88. Stock Eintritt, nicht Teil des Hotels. Dazu gehört der Glas-Außensteg „金茂云中漫步“ (Jin Mao Skywalk, seit 2016, ca. 60 m lang, 1,2 m breit, ohne Geländer, Sicherung mit Gurt und Helm, Aufpreis, früh buchen). Zeiten und Preise laut Reiseseiten (nicht aktuell geprüft): ca. 8:30–21:30, letzter Einlass ca. 21:00; Standard ca. 88–120 CNY (Online meist billiger), Kombi mit Skywalk deutlich teurer. Anfahrt: Metro Linie 2, Station Lujiazui 陆家嘴, ca. 5 Min. zu Fuß.",
+  "address": "Pudong, Shanghai",
+  "lat": 31.23735,
+  "lng": 121.5015,
+  "approx": false,
+  "image": "images/claude_sh_jinmao_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/ztransmissions/343994799/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/ztransmissions/343994799/",
+    "kind": "photo",
+    "image": "images/claude_sh_jinmao_1.jpg",
+    "caption": "Blick in das Atrium von oben (ähnlich wie vom 88. Stock, Foto vom Nachbar-Spot)",
+    "credit": "zTransmissions · Flickr"
+   }
+  ],
+  "source": "https://www.meet-in-shanghai.net/en/tourist-attraction/jin-mao-tower-observation-deck-on-the-88th-floor-384945 · https://chinatripedia.com/?p=1040 · https://www.travelchinaguide.com/attraction/shanghai/jinmao.htm · https://m.thepaper.cn/newsDetail_forward_1503877",
+  "unsure": "Öffnungszeiten, Preise und Skywalk-Betrieb stammen aus Reiseseiten und Berichten von 2016–2024 – vor dem Besuch auf der offiziellen Seite oder bei trip.com prüfen.",
+  "kind": "both",
+  "image_page": "https://www.flickr.com/photos/ztransmissions/343994799/",
+  "image_credit": "zTransmissions · Flickr",
   "when": "day"
  }
 ];
