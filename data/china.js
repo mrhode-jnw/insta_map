@@ -3580,6 +3580,16 @@ window.PLACES_CN = [
     "slide": 5
    },
    {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=1",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_1.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 1
+   },
+   {
     "url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=3",
     "username": "",
     "profile_url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=3",
@@ -3976,6 +3986,16 @@ window.PLACES_CN = [
     "caption": "1000 Trees \nอีก 1 จุดถ่ายรูปในเซียงไฮ้ \nพอได้มาแล้วก็ได้ถามตัวเองว่า \nมาทำไม 😅😅\n\n#Shanghai \n#china",
     "match": "slide",
     "slide": 9
+   },
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=4",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_4.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 4
    }
   ],
   "pop": 4,
@@ -4227,6 +4247,16 @@ window.PLACES_CN = [
     "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
     "match": "slide",
     "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=8",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_8.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 8
    }
   ],
   "pop": 4,
@@ -4342,6 +4372,18 @@ window.PLACES_CN = [
     "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
     "match": "slide",
     "slide": 8
+   },
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=6",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": null,
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 6,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 4,
@@ -4539,6 +4581,16 @@ window.PLACES_CN = [
     "caption": "Collecting slices of the future in the past.\n2025 的句點，落在上海。 一座被時間折疊的城市。\n前一秒是法租界的梧桐紅磚， 下一秒卻是陸家嘴的雲霄未來。 三天，五萬步。 蒐集了這些，關於魔都的切片。\n\n🔲 浦東美術館 (MAP) 那個著名的「窗」。 \n將東方明珠框成一幅極簡的畫。頂樓的露台，更是感受外灘建築群壓迫感最好的觀景台。\n\n🌆塘橋渡口 (Tangqiao Ferry Terminal) 上海最溫柔的日落觀測點。 \n避開了外灘的人潮，這裡只有適當的清幽。看著陸家嘴的燈火逐一亮起，是這座城市獨有的儀式感。\n\n🐎 上海久事國際馬術中心 建築本身就是巨大的流動雕塑。 \n那些起伏的純白線條，像是凝固的波浪，在這裡可以拍到上海最純粹的律動感。\n\n🌀華東電力設計院 隱藏在城市裡的幾何美學。 \n紅色的旋轉樓梯與光影交錯，是建築攝影控不能錯過的線條聖地。\n\n🔭太平洋新天地觀光廳 上海最美的高空窗景。 \n俯瞰整個上海的繁華紋理，重點是人真的不多，可以獨享這片天際線。\n\n 🏛️武康大樓 (Wukang Mansion) 凝固了百年的巨輪。 \n這一區的步調和台北民生社區很像，適合沒有目的的散步，空氣裡都是舊上海的優雅。\n\n🥂 Cocina19 西班牙餐廳 北外灘的私藏視角。 \n不同於外灘的擁擠，坐在戶外露台，陸家嘴的天際線就在眼前觸手可及，是與這座城",
     "match": "slide",
     "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=2",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_2.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 2
    }
   ],
   "pop": 2,
@@ -5444,6 +5496,16 @@ window.PLACES_CN = [
     "caption": "A giant spiral staircase guides visitors to the roof of the Shanghai Grand Opera House (@shanghai_grandoperahouse), which the international studio Snøhetta (@snohetta) designed to be \"as much a civic destination as a performance venue\".\n\nLocated on the Huangpu River waterfront, the 146,786-square-metre opera house was conceived as a major cultural landmark that can accommodate a variety of musical performances.\n\nCheck out the link in our bio to learn more.\n\n✍️ Lizzie Crook (@lizzie__crook)\n📷 Yumeng Zhu, Tian Fangfang (@tianfangfang2019), Chen Hao and StudioSZ (@studiosz_photo)",
     "match": "slide",
     "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=13",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_13.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 13
    }
   ],
   "pop": 4,
@@ -5944,6 +6006,230 @@ window.PLACES_CN = [
   "pop": 2,
   "pop_reason": "Rooftop-Geheimtipp, nur vereinzelt in Social Media",
   "when": "night"
+ },
+ {
+  "id": "cn-panlong-xintiandi",
+  "region": "cn",
+  "name": "Panlong Xintiandi 蟠龙天地",
+  "district": "Qingpu (Xujing), Shanghai",
+  "category": "",
+  "note": "Wiederaufgebautes Wasserdorf mit Kanälen, weißen Giebelhäusern und Steinbrücken als Freiluft-Einkaufs-/Café-Viertel (2023, Xintiandi-Betreiber), nahe Hongqiao. Spiegelungen am Kanal morgens ohne Wind; abends beleuchtet. Metro 17 Panlong Rd 蟠龙路.",
+  "address": "Qingpu (Xujing), Shanghai",
+  "lat": 31.190999,
+  "lng": 121.271561,
+  "approx": false,
+  "image": "images/DT2nf_XCVNW_3.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=3",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=3",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_3.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 3
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Neues Wasserdorf-Viertel, beliebt in Social Media",
+  "when": "both"
+ },
+ {
+  "id": "cn-longhua-temple",
+  "region": "cn",
+  "name": "Longhua Temple 龙华寺",
+  "district": "Xuhui, Shanghai",
+  "category": "",
+  "note": "Größter und ältester Tempel Shanghais mit der Longhua-Pagode. Im Foto: neue goldene Wellen-Arkade mit Blick auf die Pagode (Meditations-Motiv). Räucherrauch morgens im Gegenlicht. Metro 11/12 Longhua 龙华.",
+  "address": "Xuhui, Shanghai",
+  "lat": 31.176792,
+  "lng": 121.44725,
+  "approx": false,
+  "image": "images/DT2nf_XCVNW_5.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=5",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=5",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_5.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 5
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Ältester Tempel Shanghais, in vielen Guides",
+  "when": "day"
+ },
+ {
+  "id": "cn-zhang-yuan",
+  "region": "cn",
+  "name": "Zhang Yuan 张园",
+  "district": "Jing'an (Nanjing W Rd), Shanghai",
+  "category": "",
+  "note": "Restauriertes Shikumen-Viertel aus Backstein- und Steintorhäusern, heute Luxus-Boutiquen und Cafés in den Gassen (Weihaiyuan Rd 威海路590弄). Gassen-Perspektiven mit Fahrrädern, Vormittagslicht. Metro 2/12/13 Nanjing W Rd.",
+  "address": "Jing'an (Nanjing W Rd), Shanghai",
+  "lat": 31.230374,
+  "lng": 121.456053,
+  "approx": false,
+  "image": "images/DT2nf_XCVNW_7.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=7",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=7",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_7.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 7
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Restauriertes Shikumen-Viertel, neu und beliebt",
+  "when": "day"
+ },
+ {
+  "id": "cn-china-art-museum",
+  "region": "cn",
+  "name": "China Art Museum 中华艺术宫",
+  "district": "Pudong (Expo), Shanghai",
+  "category": "",
+  "note": "Der rote „Kronen“-Pavillon der Expo 2010, heute Kunstmuseum (Eintritt frei, Mo zu). Spiegelung im Wasserbecken davor mit Weitwinkel nah über der Wasserfläche; im Foto bei Sonnenschein. Metro 8 China Art Museum 中华艺术宫.",
+  "address": "Pudong (Expo), Shanghai",
+  "lat": 31.186484,
+  "lng": 121.489926,
+  "approx": false,
+  "image": "images/DT2nf_XCVNW_9.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=9",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=9",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_9.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 9
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Ikonischer Expo-Pavillon, Wahrzeichen am Expo-Gelände",
+  "when": "day"
+ },
+ {
+  "id": "cn-lvwa-bookstore-shanghai-university-of-sport",
+  "region": "cn",
+  "name": "LVWA Bookstore (Shanghai University of Sport)",
+  "district": "Yangpu, Shanghai",
+  "category": "",
+  "note": "Sport-Buchhandlung (Studio YUDA + Studio NOR) am Westtor der Shanghai University of Sport: im Atrium der 13–17 m hohe blaue „Mingyue Mountain“ aus Stufen, Regalen und Sitzflächen. Von der Galerie oben 16–24 mm. Pin am Westrand des Campus (ungefähr).",
+  "address": "Yangpu, Shanghai",
+  "lat": 31.314,
+  "lng": 121.5157,
+  "approx": true,
+  "image": "images/DT2nf_XCVNW_10.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=10",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=10",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_10.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 10
+   }
+  ],
+  "pop": 2,
+  "pop_reason": "Architektur-Buchhandlung, in Fachmedien bekannt",
+  "when": "day"
+ },
+ {
+  "id": "cn-power-station-of-art",
+  "region": "cn",
+  "name": "Power Station of Art 上海当代艺术博物馆",
+  "district": "Huangpu (Expo West), Shanghai",
+  "category": "",
+  "note": "Museum für zeitgenössische Kunst im ehemaligen Kraftwerk mit Thermometer-Schlot am Huangpu; große Hallen mit Rolltreppen, im Foto eine goldene Ginkgo-Installation von der Rolltreppe aus. Di–So, Eintritt je nach Ausstellung.",
+  "address": "Huangpu (Expo West), Shanghai",
+  "lat": 31.203059,
+  "lng": 121.493897,
+  "approx": false,
+  "image": "images/DT2nf_XCVNW_11.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=11",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=11",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_11.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 11
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Bekanntes Kunstmuseum im alten Kraftwerk",
+  "when": "day"
+ },
+ {
+  "id": "cn-guangfulin-ancient-relics-park",
+  "region": "cn",
+  "name": "Guangfulin Ancient Relics Park 广富林文化遗址",
+  "district": "Songjiang, Shanghai",
+  "category": "",
+  "note": "Kulturpark über einer neolithischen Fundstätte mit Hui-Stil-Häusern (weiße Wände, Pferdekopfgiebel) und Wasserbecken – teils unter Wasser gebaute Museumshallen. Spiegelungen bei Windstille, gelbe Wand im Abendlicht. Ca. 1 Std. vom Zentrum, Metro 9 Songjiang Univ. Town + Taxi.",
+  "address": "Songjiang, Shanghai",
+  "lat": 31.064487,
+  "lng": 121.194101,
+  "approx": false,
+  "image": "images/DT2nf_XCVNW_12.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=12",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=12",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_12.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 12
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Kulturpark in Songjiang, beliebt für Spiegelbilder",
+  "when": "day"
  },
  {
   "id": "claude-cn-nantou-ancient-city",
@@ -12980,6 +13266,48 @@ window.PLACES_CN = [
   "kind": "both",
   "image_page": "https://www.flickr.com/photos/ztransmissions/343994799/",
   "image_credit": "zTransmissions · Flickr",
+  "when": "day"
+ },
+ {
+  "id": "cn-flair-rooftop-ritz-carlton-pudong-58",
+  "region": "cn",
+  "name": "Flair Rooftop – Ritz-Carlton Pudong 丽思卡尔顿 58层",
+  "district": "Lujiazui, Shanghai",
+  "category": "",
+  "note": "Rooftop-Bar und Restaurant im 58. Stock des Ritz-Carlton Shanghai Pudong (IFC, Century Ave 8 世纪大道8号): Terrasse direkt gegenüber dem Oriental Pearl Tower, Blick auf den Bund. Laut Time Out täglich ca. 17–2 Uhr; Terrassentische mit Mindestverzehr (laut Guide ca. 150–200 ¥ p. P., nicht bestätigt) – für Sonnenuntergang (Ende Oktober ca. 17:10) früh kommen oder über OpenTable reservieren. Kein Stativ, Kamera aufs Geländer; der Pearl Tower wirkt aus der Nähe riesig (16–24 mm). Metro 2 Lujiazui 陆家嘴, Hotel-Aufzug im IFC.",
+  "address": "Lujiazui, Shanghai",
+  "lat": 31.238557,
+  "lng": 121.496807,
+  "approx": false,
+  "image": null,
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [],
+  "source": "https://us.trip.com/restaurant/china/shanghai/detail/flair-rooftop-restaurant-and-bar-452020/ · https://www.timeoutshanghai.com/venue/Bars__Clubs-Bars/466/Flair.html · https://www.chinavigators.com/shanghai-nightlife-guide/ · OpenStreetMap (Pin)",
+  "kind": "sight",
+  "when": "day"
+ },
+ {
+  "id": "cn-shanghai-greenhouse-garden-expo-culture-park",
+  "region": "cn",
+  "name": "Shanghai Greenhouse Garden 上海温室花园 (Expo Culture Park)",
+  "district": "Pudong (Expo Culture Park), Shanghai",
+  "category": "",
+  "note": "Großes Gewächshaus im Expo Culture Park 世博文化公园 mit wolkenartigen Glasdächern: Wüstenzone mit Riesenkakteen, feuchter Regenwald mit Wasserfällen und Nebel, tropische Gärten, erhöhte Stege. Eintritt ca. 98 ¥, Tickets online mit Vormittags- oder Nachmittagsslot; werktags fast leer; ca. 2 Std. einplanen (laut @mishel_cheshko). Lässt sich mit dem China Art Museum und dem neuen Grand Opera House im selben Park verbinden. Bei Regen gut.",
+  "address": "Pudong (Expo Culture Park), Shanghai",
+  "lat": 31.18026,
+  "lng": 121.470403,
+  "approx": false,
+  "image": null,
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [],
+  "source": "@mishel_cheshko · Instagram (https://www.instagram.com/reel/DdBzoL8yb5R/) · OpenStreetMap (Pin)",
+  "kind": "sight",
   "when": "day"
  }
 ];
