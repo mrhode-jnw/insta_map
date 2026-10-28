@@ -823,5 +823,8 @@
  "cn-fosun-foundation": {
   "fav": true,
   "prio": "hoch"
+ },
+ "cn-ecepdi-building": {
+  "prio": "mittel"
  }
 }
