@@ -5,5 +5,35 @@ window.SPOT_RESEARCH = {
   "date": "2026-10-28",
   "at": "2026-10-28T03:11:16+00:00",
   "note": "Aussichtsplattform = Jin Mao Tower 88th Floor Observation Deck (金茂大厦88层观光厅), jetzt eigener Spot mit Zeiten, Preis und Glas-Skywalk. Eigene Fotos der Plattform konnten nicht geladen werden (Bildquellen drosseln gerade) – noch offen."
+ },
+ "cn-jin-mao-tower-observation-deck-88": {
+  "id": "res:cn-jin-mao-tower-observation-deck-88:photos28",
+  "date": "2026-10-28",
+  "at": "2026-10-28T03:54:58+00:00",
+  "note": "4 Flickr-Fotos der Plattform (Atrium von oben, Innenraum, Ausblick) und Skywalk-Ablauf (alle 30 Min., max. 15 Personen, Check-in 45 Min. vorher) ergänzt."
+ },
+ "cn-shanghai-world-financial-center": {
+  "id": "res:cn-shanghai-world-financial-center:mvrfvqay",
+  "date": "2026-10-28",
+  "at": "2026-10-28T03:57:25+00:00",
+  "note": "Decks 94/97/100 mit Glasboden-Sky-Walk, Ticket-/Öffnungshinweise und Fototipps; Pearl im Durchblick der Öffnung = nur aus der Luft."
+ },
+ "cn-oriental-pearl-tower": {
+  "id": "res:cn-oriental-pearl-tower:mvrj5z98",
+  "date": "2026-10-28",
+  "at": "2026-10-28T03:57:25+00:00",
+  "note": "Nahaufnahme: langes Tele von erhöhtem Standpunkt in Puxi (z. B. Rooftop am Bund), genauer Ort nicht bestätigt; Nachbau-Tipps ergänzt."
+ },
+ "cn-waibaidu-bridge-suzhou-creek": {
+  "id": "res:cn-waibaidu-bridge-suzhou-creek:mvrj7tj8",
+  "date": "2026-10-28",
+  "at": "2026-10-28T03:57:26+00:00",
+  "note": "Spiegelbilder von der Zhapu-Lu-Brücke, Fachwerk-Bilder auf der Waibaidu-Brücke, das hohe Bild vermutlich Drohne; öffentliche Alternativen von oben genannt."
+ },
+ "cn-pacific-xintiandi-observation-hall": {
+  "id": "res:cn-pacific-xintiandi-observation-hall:mvrjci6c",
+  "date": "2026-10-28",
+  "at": "2026-10-28T03:57:26+00:00",
+  "note": "Etagen 55–58, Außenplattform 57–58, Ticket-Hinweis und Foto-Tipps ergänzt; Öffnungszeiten nicht gefunden."
  }
 };
