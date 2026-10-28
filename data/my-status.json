@@ -844,5 +844,8 @@
  },
  "cn-the-shanghai-edition": {
   "prio": "mittel"
+ },
+ "cn-carlowitz-building": {
+  "prio": "hoch"
  }
 }
