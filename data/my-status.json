@@ -847,5 +847,8 @@
  },
  "cn-carlowitz-building": {
   "prio": "hoch"
+ },
+ "cn-cathay-cinema": {
+  "prio": "mittel"
  }
 }
