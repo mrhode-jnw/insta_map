@@ -39,3 +39,10 @@
   einzige Ausnahme `"Food"` für Essen. Die App zeigt keine Kategorie-Filter oder -Angaben mehr.
 - Auch Fotoideen (`cn/ideas.json`) haben eine Art: `"kind": "sight"` für Erlebnis-artige Ideen (Fahrten, Märkte, Essen, Handwerk, Aussichtsbars),
   sonst Foto. Die Fotoideen-Anzeige folgt der Auswahl Fotos/Erlebnisse oben.
+- `kind` kann `"photo"` (Standard), `"sight"` (Erlebnis) oder `"both"` sein: Spots/Ideen mit `"both"` erscheinen unter Fotos **und** Erlebnisse.
+  In der App lässt sich das pro Spot unter ⋯ → „Art“ nachträglich setzen (beide Schalter, mindestens einer bleibt an).
+
+## Research-Button am Spot
+- In der App ⋯ → „🔎 Research“ legt einen Auftrag `kind: "research"` im Eingang an (Branch map-data); die Routine bzw. diese
+  Sitzung bearbeitet ihn nach ROUTINE.md Schritt 1d (`tools/inbox.py research <id>` / `researched <id> <Zusammenfassung>`).
+  Ergebnis: Absatz „Research TT.MM.:“ im Tipp des Spots, mehr Fotos, `data/research.json`/`.js` für den Hinweis in der App.

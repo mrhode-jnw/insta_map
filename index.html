@@ -648,6 +648,7 @@
   #lb .acts { display: flex; gap: 8px; align-items: center; }
   #lb .acts button { width: 40px; height: 40px; font-size: 20px; }
   #lb #lbIns.on { background: #facc15; }
+  #lb #lbCover.on { background: #3b82f6; }
   #lb .acts button[hidden] { display: none; }
   #lb .bottom #lbLoc[hidden] { display: none; } #lb .bottom #lbLoc:disabled { opacity: .7; cursor: default; }
   #lb .bottom a.btn { flex: none; background: var(--accent); padding: 9px 14px; border-radius: 10px; text-decoration: none; font-size: 14px; }
@@ -921,6 +922,20 @@
     .leaflet-popup.card.mini.anchor { left: var(--ax) !important; top: var(--ay) !important; right: auto !important; width: min(330px, calc(100vw - 20px));
       transform: translate(-50%, calc(-100% - 12px)) !important; }
     .leaflet-popup.card.mini.anchor .leaflet-popup-content { width: min(330px, calc(100vw - 20px)) !important; }
+    /* „Auf der Karte“: nur ein kleines Foto mit winzigem Namen, etwas größer als der Pin-Thumbnail */
+    .leaflet-popup.card.mini.anchor { width: 164px; }
+    .leaflet-popup.card.mini.anchor .leaflet-popup-content { width: 164px !important; }
+    .leaflet-popup.card.mini.anchor .leaflet-popup-content-wrapper { border-radius: 14px; box-shadow: 0 6px 18px rgba(0,0,0,.4); }
+    .leaflet-popup.card.mini.anchor .pop .hero img { height: 104px !important; max-height: 104px !important; }
+    .leaflet-popup.card.mini.anchor .pop .hero .pcount, .leaflet-popup.card.mini.anchor .pop .hero .parrows, .leaflet-popup.card.mini.anchor .pop .hero button.side,
+    .leaflet-popup.card.mini.anchor .pop .hero .pfav, .leaflet-popup.card.mini.anchor .pop .credit, .leaflet-popup.card.mini.anchor .pop .hcred { display: none !important; }
+    .leaflet-popup.card.mini.anchor .pop .pnav { height: 32px; margin-bottom: -32px; padding: 3px; }
+    .leaflet-popup.card.mini.anchor .pop .pnav button { width: 24px; height: 24px; font-size: 12px; border-radius: 12px; }
+    .leaflet-popup.card.mini.anchor .pop .pnav .pfull, .leaflet-popup.card.mini.anchor .pop .pnav .pback { display: none !important; }
+    .leaflet-popup.card.mini.anchor .pop .b { padding: 4px 8px 6px; }
+    .leaflet-popup.card.mini.anchor h3 { font-size: 10.5px; line-height: 1.25; font-weight: 600; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .leaflet-popup.card.mini.anchor h3::after { content: none; }
+    .leaflet-popup.card.mini.anchor::after { bottom: -7px; margin-left: -7px; border-width: 7px; border-bottom: 0; }
     .leaflet-popup.card.mini.anchor::after { content: ""; position: absolute; left: calc(50% + var(--arx, 0px)); bottom: -9px; margin-left: -10px;
       border: 10px solid transparent; border-bottom: 0; border-top-color: var(--card, #fff); filter: drop-shadow(0 3px 2px rgba(0,0,0,.25)); }
     body.popup-mini #sheet, body.popup-mini #dock, body.popup-mini #dockbg, body.popup-mini #locate, body.popup-mini #add { opacity: 1 !important; pointer-events: auto !important; }
@@ -950,6 +965,10 @@
   .pop .status.sv2 .actB button.pmore.on { background: var(--fg); color: var(--bg); }
   .pop .more { margin-top: 10px; background: var(--soft); border-radius: 16px; padding: 10px; }
   .pop .more[hidden] { display: none; }
+  .pop .more .links button.rsch { background: rgba(124,58,237,.14); color: #7c3aed; border-color: transparent; font-weight: 600; }
+  .pop .more .links button.rsch.wait { opacity: .75; } .pop .more .links button.rsch.ok { background: rgba(22,163,74,.16); color: #16a34a; }
+  .pop .rsum { background: rgba(124,58,237,.1); border-radius: 12px; padding: 9px 12px; margin: 8px 0; font-size: 13px; line-height: 1.4; }
+  .pop .more .mlab.kindhint { text-transform: none; letter-spacing: 0; font-size: 11.5px; margin: 5px 2px 12px; }
   .pop .more .mlab { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .4px; margin: 0 2px 6px; }
   .pop .more .seg2 { background: var(--bg); }
   .pop .more .seg2 button { border: 0; border-radius: 10px; padding: 8px 4px; font-size: 13px; }
@@ -1091,8 +1110,8 @@
     <ul id="addResults"></ul>
     <div id="addPos">Ort suchen oder lange auf die Karte tippen.</div>
     <input id="addName" placeholder="Name des Spots" required>
-    <div id="addKind" class="kindsw" role="radiogroup" aria-label="Art des Spots">
-      <button type="button" data-k="" class="on" role="radio" aria-checked="true">📷 Foto-Spot</button><button type="button" data-k="sight" role="radio" aria-checked="false">🎒 Erlebnis</button>
+    <div id="addKind" class="kindsw" aria-label="Art des Spots (beides möglich)">
+      <button type="button" data-k="photo" class="on" aria-pressed="true">📷 Foto-Spot</button><button type="button" data-k="sight" aria-pressed="false">🎒 Erlebnis</button>
     </div>
     <textarea id="addNote" placeholder="Notiz (optional)"></textarea>
     <input id="addLink" type="url" placeholder="Instagram-Link (optional)">
@@ -1130,7 +1149,7 @@
         <option value="">☀️🌙 Tag & Nacht</option><option value="day">☀️ Tag</option><option value="night">🌙 Nacht</option>
       </select>
       <select id="fMore" aria-label="Auswahl">
-        <option value="">✨ Alle Spots</option><option value="fav">❤️ Favoriten</option><option value="pop">🔥 Beliebte</option><option value="rain">🌧 Bei Regen</option><option value="trash">🗑 Gelöschte</option>
+        <option value="">✨ Alle Spots</option><option value="fav">❤️ Favoriten</option><option value="pop">🔥 Beliebte</option><option value="rain">🌧 Bei Regen</option><option value="tour">🧭 Nur aktive Tour</option><option value="trash">🗑 Gelöschte</option>
       </select>
       <select id="area" aria-label="Viertel"><option value="">Alle Viertel</option></select>
     </div>
@@ -1173,7 +1192,7 @@
   <div id="tlBody"></div>
 </div>
 <div id="lb" hidden>
-  <div class="top"><span id="lbCount"></span><div class="acts"><button id="lbIns" type="button" hidden title="Als Inspiration markieren" aria-label="Als Inspiration markieren">💡</button><button id="lbDel" type="button" hidden title="Foto entfernen" aria-label="Foto entfernen">🗑</button><button id="lbClose" aria-label="Schließen">✕</button></div></div>
+  <div class="top"><span id="lbCount"></span><div class="acts"><button id="lbCover" type="button" hidden title="Als Cover festlegen" aria-label="Als Cover festlegen">🖼</button><button id="lbIns" type="button" hidden title="Als Inspiration markieren" aria-label="Als Inspiration markieren">💡</button><button id="lbDel" type="button" hidden title="Foto entfernen" aria-label="Foto entfernen">🗑</button><button id="lbClose" aria-label="Schließen">✕</button></div></div>
   <div class="stage"><div id="lbStrip"></div><button class="nav prev" id="lbPrev" aria-label="Vorheriges Bild">‹</button><button class="nav next" id="lbNext" aria-label="Nächstes Bild">›</button></div>
   <div class="bottom"><div class="who" id="lbWho"></div><a class="btn" id="lbPost" target="_blank" rel="noopener">Post öffnen ↗</a><button class="btn" id="lbLoc" type="button" hidden>🔎 Ort recherchieren</button></div>
   <div id="lbGal"></div>
@@ -1256,7 +1275,7 @@
 <script>
   // Daten immer frisch laden (GitHub Pages cached sonst bis zu 10 Minuten)
   const v = Date.now();
-  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/insp_locate.js?v=${v}"><\/script><script src="data/timeline.js?v=${v}"><\/script><script src="data/walks.js?v=${v}"><\/script><script src="data/ideas.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script><script src="data/added.js?v=${v}"><\/script>`);
+  document.write(`<script src="config.js?v=${v}"><\/script><script src="data/places.js?v=${v}"><\/script><script src="data/china.js?v=${v}"><\/script><script src="data/trip.js?v=${v}"><\/script><script src="data/inspiration.js?v=${v}"><\/script><script src="data/insp_locate.js?v=${v}"><\/script><script src="data/research.js?v=${v}"><\/script><script src="data/timeline.js?v=${v}"><\/script><script src="data/walks.js?v=${v}"><\/script><script src="data/ideas.js?v=${v}"><\/script><script src="data/itinerary.js?v=${v}"><\/script><script src="data/added.js?v=${v}"><\/script>`);
 </script>
 <script src="crypto.js"></script>
 <script>
@@ -1570,13 +1589,15 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           </div>
           <div class="more"${moreOpen ? "" : " hidden"}>
             <div class="mlab">Art</div>
-            <div class="seg2 kind">${[["photo", "📷 Foto"], ["sight", "🎒 Erlebnis"]].map(([k, l]) => `<button data-kind="${k}" class="${(isSight(p) ? "sight" : "photo") === k ? "on" : ""}">${l}</button>`).join("")}</div>
+            <div class="seg2 kind">${[["photo", "📷 Foto", inFotos(p)], ["sight", "🎒 Erlebnis", inSights(p)]].map(([k, l, on]) => `<button data-kind="${k}" class="${on ? "on" : ""}" aria-pressed="${on}">${l}</button>`).join("")}</div>
+            <div class="mlab kindhint">Beides möglich – der Spot erscheint dann unter Fotos und Erlebnisse.</div>
             <div class="mlab">Priorität</div>
             <div class="seg2 prio">${PRIOS.map(k => `<button data-prio="${k}" class="${st(p.id).prio === k ? "on" : ""}"${k === "nein" ? ' title="Kein Interesse – wird ausgeblendet" aria-label="Kein Interesse"' : ""}>${k === "nein" ? "🚫" : PRIO_LABEL[k]}</button>`).join("")}</div>
             <div class="links">
               <button class="showmap" data-show="${esc(p.id)}">📍 Auf der Karte</button>
               <button class="tadd" data-tadd="${esc(p.id)}">🧭 Tour${tourCount(p.id) ? ` · ${tourCount(p.id)}` : ""}</button>
               <button class="xadd" data-xadd="${esc(p.id)}">＋ Foto/Link</button>
+              <button class="rsch ${resState(p.id).cls}" data-research="${esc(p.id)}">${resState(p.id).label}</button>
               ${p.post_url && (p.image || !generic.length) ? `<a class="ig" href="${esc(p.post_url)}" target="_blank" rel="noopener">Instagram-Post</a>` : ""}
               ${p.wiki_url ? `<a class="wiki" href="${esc(p.wiki_url)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
               ${p.mine ? `<button class="del" data-del="${esc(p.id)}">Löschen</button>`
@@ -1590,6 +1611,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         ${p.tip ? `<div class="phototip"><div class="tl">📸 Foto-Tipp</div>${esc(p.tip)}</div>` : ""}
         ${spotIdeasHtml(p)}
         ${p.note ? `<div class="note">${esc(p.note)}</div>` : ""}
+        ${resSummary(p.id)}
         ${p.pop_reason ? `<div class="popr">🔥 ${esc(p.pop_reason)}</div>` : ""}
         ${gal}
         ${p.ok ? `<div class="ok-note">✓ <b>Standort geprüft:</b> ${esc(p.ok)}</div>` : ""}
@@ -1643,6 +1665,38 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <div class="fcm"><span class="fci">${WXI(f.code)}</span><b>${f.tmin}–${f.tmax}°</b><span>☂ ${f.pp ?? 0} %</span>
         ${f.rise ? `<span>🌅 ${esc(f.rise.t)} ${esc(SKY_SHORT(f.rise.sky))}</span>` : ""}${f.set ? `<span>🌇 ${esc(f.set.t)} ${esc(SKY_SHORT(f.set.sky))}</span>` : ""}</div></div>`; };
     return wxBox("Wetter", a[ds[0]], ds.map(row).join(""), false);
+  }
+  // „Research“ am Spot: Auftrag im Eingang (kind: "research"), Ergebnis von der Routine in data/research.js (Spot-ID → Ergebnis)
+  const CLAUDE_URL = "https://claude.ai/code/session_01WCp2y27wSqANYmiaxPV7YA";  // Routinen-Sitzung (wie Einstellungen → Zu Claude)
+  const resReq = () => { try { return JSON.parse(localStorage.getItem("resReq") || "{}"); } catch { return {}; } };
+  const resDone = id => (window.SPOT_RESEARCH || {})[id];
+  function resState(id) {
+    const req = resReq()[id], r = resDone(id);
+    if (req && (!r || req > (r.at || r.date)) && Date.now() - Date.parse(req) < 7 * 864e5) return { s: "pending", cls: "wait", label: "⏳ Research läuft" };
+    if (r) return { s: "done", cls: "ok", label: "🔎 Research ✓ · erneut" };
+    return { s: "none", cls: "", label: "🔎 Research" };
+  }
+  const resSummary = id => { const r = resDone(id); if (!r) return "";
+    const d = r.date ? r.date.split("-").reverse().slice(0, 2).join(".") + "." : "";
+    return `<div class="rsum">🔎 <b>Research ${esc(d)}</b> ${esc(r.note || "")}</div>`; };
+  async function requestResearch(id, btn) {
+    const p = places.find(x => x.id === id); if (!p) return;
+    const st0 = resState(id);
+    if (st0.s === "pending") { if (confirm("Research läuft schon – die Routine erledigt ihn im nächsten Lauf (3× täglich).\n\nClaude jetzt öffnen, damit es sofort startet?")) window.open(CLAUDE_URL, "_blank", "noopener"); return; }
+    const wish = prompt(`Research zu „${p.name.split(" ").slice(0, 6).join(" ")}“ beauftragen?\nClaude recherchiert mehr Infos, Foto-Möglichkeiten (Standpunkte, Licht, Objektiv), Zugang und Fotos.\n\nWorauf soll der Fokus liegen? (optional)`, "");
+    if (wish === null) return;
+    if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+    const rid = `res:${id}:${Date.now().toString(36)}`, added = new Date().toISOString();
+    const entry = { kind: "research", id: rid, spot: id, spotName: p.name, lat: p.lat, lng: p.lng, ...(wish.trim() ? { wish: wish.trim().slice(0, 400) } : {}), added };
+    btn.disabled = true;
+    try {
+      await mutate(list => [...list.filter(x => !(x.kind === "research" && x.spot === id)), entry], `Eingang: Research ${id}`, INBOX_PATH, []);
+      const q = resReq(); q[id] = added; try { localStorage.setItem("resReq", JSON.stringify(q)); } catch {}
+      const s2 = resState(id); btn.className = "rsch " + s2.cls; btn.textContent = s2.label;
+      toast("🔎 Research beauftragt", 2500);
+      if (confirm("Research beauftragt ✓ – die Routine erledigt ihn im nächsten Lauf (3× täglich).\n\nClaude jetzt öffnen, damit es sofort startet?")) window.open(CLAUDE_URL, "_blank", "noopener");
+    } catch (e) { toast(e.message, 5000); if (/Token/.test(e.message)) store.set(TOKEN_KEY, null); }
+    finally { btn.disabled = false; }
   }
   // Licht-Kasten (Reiseplan-Stopps): Uhrzeit laut Plan, Licht, Sonnenauf-/-untergang am Tag
   let moreOpen = false; try { moreOpen = localStorage.getItem("spotMore") === "1"; } catch {}
@@ -1818,6 +1872,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     activeTour = id || null;
     try { activeTour ? localStorage.setItem("tour", activeTour) : localStorage.removeItem("tour"); } catch {}
     drawTour();
+    try { if (tourF) renderList(); } catch {}  // Filter „Nur aktive Tour“ folgt der eingeblendeten Tour (try: beim Start ist tourF evtl. noch nicht da)
   }
   // Speichern: sofort lokal, kurz danach ins Repo (wie der Status)
   let toursTimer = null;
@@ -1990,9 +2045,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const unplacedAll = [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])];
   // Fotos = Fotospots (Instagram-Sammlung, eigene Foto-Spots); Erlebnisse = Claude-Tipps, eigene Erlebnis-Spots („kind: sight“) und Food – Reiseerlebnis statt Fotografie.
   // Fotoideen sind kein Bereich oben, sondern ein eigener Filter unten (standardmäßig aus).
-  const naturalSight = p => p.kind === "sight" || !!p.by_claude || p.category === "Food";
-  const isSight = p => { const k = st(p.id).kind; return k ? k === "sight" : naturalSight(p); };  // k: von dir nachträglich gewählt (Foto / Erlebnis)
-  const GROUPS = { fotos: p => !p.idea && !isSight(p), sights: p => !p.idea && isSight(p) };
+  // Art eines Spots: "photo", "sight" (Erlebnis) oder "both" – von dir nachträglich gewählt (Status) oder aus den Daten
+  const naturalKind = p => p.kind === "sight" || p.kind === "both" ? p.kind : (p.by_claude || p.category === "Food") ? "sight" : "photo";
+  const kindOf = p => st(p.id).kind || naturalKind(p);
+  const inFotos = p => kindOf(p) !== "sight", inSights = p => kindOf(p) !== "photo";
+  const GROUPS = { fotos: p => !p.idea && inFotos(p), sights: p => !p.idea && inSights(p) };
   // Fotos / Food / Tipps frei kombinierbar (Mehrfachauswahl, wird gemerkt); nichts gewählt = alles
   let groups = new Set(["fotos"]);
   try { const g = JSON.parse(localStorage.getItem("groups") || "null");  // alte Bereiche Tipps/Food → Erlebnisse, Ideen → Filter unten
@@ -2007,7 +2064,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   setIdeas(ideasMode);
   const saveGroups = () => { try { localStorage.setItem("groups", JSON.stringify([...groups])); } catch {} };
   // Fotoideen folgen der Auswahl oben: nur Erlebnisse gewählt → nur Ideen, die als Erlebnis eingeordnet sind (und umgekehrt)
-  const kindOK = p => !groups.size || [...groups].some(g => (g === "sights") === isSight(p));
+  const kindOK = p => !groups.size || [...groups].some(g => g === "sights" ? inSights(p) : inFotos(p));
   const inGroups = p => p.idea ? ideasOn && kindOK(p) : !ideasOnly && kindOK(p);
   // Bereich oben links: 🧭 Route (nur Spots an unserer Route) oder frei kombinierbare Regionen der Reise (Mehrfachauswahl)
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
@@ -2112,7 +2169,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) { cat = null; saveCat(); }
     renderChips(); renderList();
   });
-  let favF = false, trashF = false, rainF = false, areaF = ""; try { areaF = localStorage.getItem("areaF") || ""; } catch {}
+  let favF = false, trashF = false, rainF = false, tourF = false, areaF = ""; try { areaF = localStorage.getItem("areaF") || ""; } catch {}
   // Viertel/Bereich: Hongkong-Bezirke vereinheitlicht, China als „Stadt – Viertel“
   const AREA_ALIAS = { "Mongkok": "Mong Kok", "Mongkok / Yau Ma Tei": "Mong Kok", "Mong Kok East": "Mong Kok", "Mid-levels": "Mid-Levels", "Harbour": "Victoria Harbour" };
   // Hongkong: Stadtteile zu größeren Bereichen zusammengefasst
@@ -2162,7 +2219,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const FILTERS = {
     fDone: v => { doneF = v || null; },
     fPrio: v => { prioF.clear(); if (v) v.split(",").forEach(x => prioF.add(x)); },
-    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; rainF = v === "rain"; if (rainF && !ideasOn) setIdeas(1); },
+    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; rainF = v === "rain"; tourF = v === "tour"; if (rainF && !ideasOn) setIdeas(1);
+      if (tourF && !activeTour) toast("Keine Tour eingeblendet – unter 🧭 Touren eine Tour einblenden", 2500); },
     fWhen: v => { whenF = v || null; },
   };
   Object.entries(FILTERS).forEach(([id, apply]) => {
@@ -2216,6 +2274,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const hay = [p.name, p.address, p.district, p.category, p.note, p.tip, p.caption, p.username,
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
     const s = st(p.id);
+    if (tourF) return !p.noloc && activeTourIds().includes(p.id) && (trashF ? s.hidden : true);  // „Nur aktive Tour“: genau die Stopps, egal ob Foto/Erlebnis
     return !p.noloc && inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
       && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio || "none")) && (s.prio !== "nein" || prioF.has("nein") || trashF) && (!doneF || (doneF === "done" ? s.done : !s.done))
@@ -2254,11 +2313,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     else map.openPopup(m.getPopup(), ll);  // Pin steckt in einer Gruppe: Spot trotzdem öffnen, ohne hineinzuzoomen
   }
   // ‹ › im Popup: zum vorherigen/nächsten Spot der aktuellen Liste
-  function stepSpot(fromId, dir) {
+  function stepSpot(fromId, dir, toId) {
     stepping = true;  // gilt bis der nächste Spot offen ist
     const nav = navOrder(fromId); if (nav.length < 2) return;
     const i = nav.indexOf(fromId);
-    const next = nav[((i < 0 ? 0 : i + dir) + nav.length) % nav.length];
+    const next = toId || nav[((i < 0 ? 0 : i + dir) + nav.length) % nav.length];
     const m = markers.get(next); if (!m) return;
     // Handy: Kopie der Karte bleibt stehen, bis der nächste Spot offen ist – kein Zu- und Aufklappen
     const el = map._popup && map._popup.getElement();
@@ -2540,7 +2599,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (lc) { $("#lbLoc").textContent = !ls ? "🔎 Ort finden" : ls.status === "found" ? `📍 ${(places.find(x => x.id === ls.spot) || {}).name ? shortName(places.find(x => x.id === ls.spot).name) : "Spot"}`
       : ls.status === "notfound" ? "❓ Ort nicht gefunden" : "⏳ Ort wird recherchiert"; $("#lbLoc").disabled = !!ls && ls.status === "pending"; }
     const sp = lbSpot(), idx = lbIdx();
-    $("#lbIns").hidden = $("#lbDel").hidden = !sp || idx < 0;
+    $("#lbIns").hidden = $("#lbDel").hidden = $("#lbCover").hidden = !sp || idx < 0;
+    if (sp && idx >= 0) { const cv = sp.image === it.src; $("#lbCover").classList.toggle("on", cv); $("#lbCover").title = cv ? ((spotExtras.__cover || {})[sp.id] ? "Cover zurücksetzen" : "Ist das Cover") : "Als Cover festlegen"; }
     if (sp && idx >= 0) { const on = isInsp(it.src); $("#lbIns").title = on ? "Inspiration entfernen" : "Als Inspiration markieren"; $("#lbIns").classList.toggle("on", on); }
     $("#lbGal").querySelectorAll("img").forEach((im, k) => im.classList.toggle("cur", k === i));
     [i - 1, i + 1, i + 2].forEach(k => { const d = lbStrip.children[k]; if (d && d.firstElementChild.loading === "lazy") d.firstElementChild.loading = "eager"; });  // Nachbarn laden
@@ -2898,7 +2958,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const ev = (window.TIMELINE || []).map(e => ({ ...e }));
     places.filter(p => p.mine && p.created).forEach(p => ev.push({ t: String(p.created).slice(0, 16), k: "mine", id: p.id, name: p.name }));
     // Ortsrecherche mit Ergebnis: nur das Ergebnis zeigen (nicht mehr „wird recherchiert“)
-    tlInbox.filter(x => !(x.kind === "locate" && LOC()[x.image] && LOC()[x.image].id === x.id))
+    tlInbox.filter(x => x.kind !== "research").filter(x => !(x.kind === "locate" && LOC()[x.image] && LOC()[x.image].id === x.id))
       .forEach(x => ev.push({ t: String(x.added).slice(0, 16), k: x.kind === "locate" ? "locq" : x.insp ? "inspq" : "inbox", url: x.url, image: x.image, where: x.where, code: x.code || x.id }));
     return ev.filter(e => e.t).sort((a, b) => a.t < b.t ? 1 : -1);
   };
@@ -3365,7 +3425,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "131 · Art (Foto/Erlebnis) unter den drei Punkten";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "138 · „Auf der Karte“: kleine Foto-Vorschau am Pin";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3449,6 +3509,23 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const lbSpot = () => lb.spot ? places.find(x => x.id === lb.spot) || null : null;
   const lbIdx = () => { const sp = lbSpot(), it = lb.list[lb.i]; return sp && it ? imgsOf(sp).findIndex(x => x.image === it.src) : -1; };
   $("#lbIns").onclick = e => { e.stopPropagation(); const sp = lbSpot(), idx = lbIdx(); if (sp && idx >= 0) toggleInsp(sp.id, idx, null, () => lbMeta(lb.i)); };
+  // Cover: gewähltes Foto wird Titelbild des Spots (Karte, Liste, Spot-Karte); gespeichert in data/spot-extras.json unter „__cover“
+  async function setCover(id, src, after) {
+    const p = places.find(x => x.id === id); if (!p) return;
+    if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+    const had = (spotExtras.__cover || {})[id], reset = had === src || (!had && p._orig && p._orig.image === src);
+    if (!had && reset) { toast("Das ist schon das Cover", 1500); return; }
+    const before = spotExtras, cur = { ...(before.__cover || {}) };
+    reset ? delete cur[id] : cur[id] = src;
+    spotExtras = { ...before, __cover: cur }; if (!Object.keys(cur).length) delete spotExtras.__cover;
+    applyExtras(id); renderList(); toast(reset ? "🖼 Original-Cover wiederhergestellt" : "🖼 Als Cover gesetzt", 1800); if (after) after();
+    try {
+      spotExtras = await mutate(d => { d = d && !Array.isArray(d) ? d : {}; const c = { ...(d.__cover || {}) };
+        reset ? delete c[id] : c[id] = src; d.__cover = c; if (!Object.keys(c).length) delete d.__cover; return d; }, `Cover ${reset ? "zurückgesetzt" : "gesetzt"} (${id})`, EXTRAS_PATH, {});
+      applyExtras(id);
+    } catch (e) { spotExtras = before; applyExtras(id); renderList(); toast(e.message, 5000); if (/Token/.test(e.message)) store.set(TOKEN_KEY, null); if (after) after(); }
+  }
+  $("#lbCover").onclick = e => { e.stopPropagation(); const sp = lbSpot(), it = lb.list[lb.i]; if (sp && it && lbIdx() >= 0) setCover(sp.id, it.src, () => lbMeta(lb.i)); };
   $("#lbDel").onclick = async e => { e.stopPropagation(); const sp = lbSpot(), idx = lbIdx(); if (!sp || idx < 0) return;
     await removePhoto(sp.id, idx); lbClose(); };
   $("#lbLoc").onclick = e => { e.stopPropagation(); const img = lb.list[lb.i].src, ls = locState(img), c = lb.locCtx.get(img);
@@ -3547,6 +3624,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const favIdea = p => p.idea && st(p.id).fav ? 1 : 0;
     items = items.map(p => ({ ...p, _d: here() ? dist(me, p) : 0, _a: areaOf(p) }))
       .sort((a, b) => favIdea(b) - favIdea(a) || (sortBy === "area" ? a._a.localeCompare(b._a, "de") || (routeF ? routeStop(a) - routeStop(b) : 0) || (b.pop || 0) - (a.pop || 0)
+        : tourF ? activeTourIds().indexOf(a.id) - activeTourIds().indexOf(b.id)
         : routeF && sortBy === "auto" ? routeStop(a) - routeStop(b) || (b.pop || 0) - (a.pop || 0)
         : sortBy === "new" ? addedAt(b).localeCompare(addedAt(a)) || a._d - b._d
         : sortBy === "upd" ? addedAt(b, 1).localeCompare(addedAt(a, 1)) || addedAt(b).localeCompare(addedAt(a)) || a._d - b._d
@@ -3561,7 +3639,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     syncFilterSw();
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = ideasOn || favF || trashF || rainF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = ideasOn || favF || trashF || rainF || tourF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${p.rain ? `<span title="Gut bei Regen">🌧 </span>` : ""}${s.fav && !p.idea ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
@@ -4021,12 +4099,16 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       return (await r.json()).display_name || "";
     } catch { return ""; }
   }
-  const setAddKind = k => $("#addKind").querySelectorAll("button").forEach(b => { const on = b.dataset.k === k; b.classList.toggle("on", on); b.setAttribute("aria-checked", on); });
-  $("#addKind").addEventListener("click", e => { const b = e.target.closest("button[data-k]"); if (b) setAddKind(b.dataset.k); });
-  const addKind = () => { const b = $("#addKind button.on"); return b ? b.dataset.k : ""; };
+  // k: "" / "photo" = nur Foto, "sight" = nur Erlebnis, "both" = beides
+  const setAddKind = k => $("#addKind").querySelectorAll("button").forEach(b => { const on = k === "both" || (k === "sight" ? b.dataset.k === "sight" : b.dataset.k === "photo"); b.classList.toggle("on", on); b.setAttribute("aria-pressed", on); });
+  $("#addKind").addEventListener("click", e => { const b = e.target.closest("button[data-k]"); if (!b) return;
+    const bs = [...$("#addKind").querySelectorAll("button")], on = bs.filter(x => x.classList.contains("on"));
+    if (b.classList.contains("on") && on.length === 1) return;  // mindestens eines bleibt gewählt
+    b.classList.toggle("on"); b.setAttribute("aria-pressed", b.classList.contains("on")); });
+  const addKind = () => { const f = $("#addKind button[data-k=photo]").classList.contains("on"), x = $("#addKind button[data-k=sight]").classList.contains("on"); return f && x ? "both" : x ? "sight" : ""; };
   function openAdd(latlng) {
     dlg.hidden = false; setSnap("peek");
-    setAddKind("");  // Standard: Foto-Spot
+    setAddKind(groups.size === 1 && groups.has("sights") ? "sight" : "");  // Standard: Foto-Spot; ist oben nur „Erlebnisse“ gewählt: Erlebnis
     $("#tokenRow").hidden = !!store.get(TOKEN_KEY);
     $("#addErr").textContent = "";
     if (latlng) { setDraft(latlng); map.panTo(latlng); }
@@ -4169,6 +4251,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       if (/Token/.test(err.message)) store.set(TOKEN_KEY, null);
     }
   }
+  // Nur im Filter „Unbewertet“: nach dem Bewerten (Priorität oder Favorit) gleich zur nächsten unbewerteten Karte der Liste springen
+  function advanceUnrated(id) {
+    if ($("#fPrio").value !== "none") return;
+    const nav = navOrder(id), i = nav.indexOf(id);
+    const nxt = nav.slice(i + 1).find(x => !st(x).prio && markers.get(x));
+    setTimeout(() => { if (nxt) stepSpot(id, 1, nxt); else toast("Alle bewertet ✓", 2200); }, 350);
+  }
   map.on("popupopen", ev => {
     const box = ev.popup.getElement().querySelector(".status"); if (!box) return;
     const id = box.dataset.id;
@@ -4177,18 +4266,22 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       setStatus(id, { prio });
       if (prio === "nein") toast("🚫 Kein Interesse – wird ab jetzt ausgeblendet (Filter „🚫 Kein Interesse“ zeigt sie wieder)", 3500);
       box.querySelectorAll("button[data-prio]").forEach(x => x.classList.toggle("on", x.dataset.prio === prio));
+      if (prio) advanceUnrated(id);
     });
+    const rb = box.querySelector("button[data-research]"); if (rb) rb.onclick = () => requestResearch(id, rb);
     box.querySelectorAll("button[data-kind]").forEach(b => b.onclick = () => {
       const p = places.find(x => x.id === id); if (!p) return;
-      const k = b.dataset.kind, nat = naturalSight(p) ? "sight" : "photo";
-      setStatus(id, { kind: k === nat ? null : k });
-      box.querySelectorAll("button[data-kind]").forEach(x => x.classList.toggle("on", x.dataset.kind === k));
-      toast(k === "sight" ? "🎒 Jetzt unter „Erlebnisse“" : "📷 Jetzt unter „Fotos“", 1800);
+      const has = { photo: inFotos(p), sight: inSights(p) }; has[b.dataset.kind] = !has[b.dataset.kind];
+      if (!has.photo && !has.sight) { toast("Mindestens eines muss gewählt bleiben", 1800); return; }  // Spot muss irgendwo erscheinen
+      const k = has.photo && has.sight ? "both" : has.sight ? "sight" : "photo";
+      setStatus(id, { kind: k === naturalKind(p) ? null : k });
+      box.querySelectorAll("button[data-kind]").forEach(x => { const on = has[x.dataset.kind]; x.classList.toggle("on", on); x.setAttribute("aria-pressed", on); });
+      toast(k === "both" ? "📷 + 🎒 Unter Fotos und Erlebnisse" : k === "sight" ? "🎒 Nur unter „Erlebnisse“" : "📷 Nur unter „Fotos“", 1800);
     });
     const fav = box.querySelector("button[data-fav]");
     if (fav) fav.onclick = () => { const v = !st(id).fav, up = v && st(id).prio !== "hoch";  // Favorit → Priorität automatisch hoch
       setStatus(id, up ? { fav: v, prio: "hoch" } : { fav: v }); fav.classList.toggle("on", v);
-      if (up) box.querySelectorAll("button[data-prio]").forEach(x => x.classList.toggle("on", x.dataset.prio === "hoch")); fav.setAttribute("aria-pressed", v); const pf = box.closest(".pop") && box.closest(".pop").querySelector(".hero .pfav"); if (pf) pf.hidden = !v; toast(v ? `❤️ Als Favorit markiert${up ? " · Priorität hoch" : ""}` : "Favorit entfernt", 1500); };
+      if (up) box.querySelectorAll("button[data-prio]").forEach(x => x.classList.toggle("on", x.dataset.prio === "hoch")); fav.setAttribute("aria-pressed", v); const pf = box.closest(".pop") && box.closest(".pop").querySelector(".hero .pfav"); if (pf) pf.hidden = !v; toast(v ? `❤️ Als Favorit markiert${up ? " · Priorität hoch" : ""}` : "Favorit entfernt", 1500); if (v) advanceUnrated(id); };
     const shot = box.querySelector("button[data-done]");
     shot.onclick = () => { const done = !st(id).done; setStatus(id, { done }); shot.classList.toggle("on", done); shot.setAttribute("aria-pressed", done); };
   });
@@ -4299,6 +4392,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     p.posts = [...p.posts, ...photos];
     if (!p.image && photos.length) { p.image = photos[0].image; p.ownImage = true; }
     if (p.ownImage && !photos.length) { p.image = null; p.ownImage = false; }
+    const cv = (spotExtras.__cover || {})[id];  // von dir gewähltes Cover
+    if (cv && p.posts.some(x => x.image === cv)) { p.image = cv; p.ownImage = photos.some(x => x.image === cv); }
     p.xlinks = ex.filter(x => x.type === "link");
     const m = markers.get(id); if (m && typeof iconFor === "function") { try { m.setIcon(iconFor(p)); } catch {} }
   }

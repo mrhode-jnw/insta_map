@@ -3380,7 +3380,7 @@ window.PLACES_CN = [
   "name": "Waibaidu Bridge & Suzhou Creek 外白渡桥",
   "district": "Huangpu, Shanghai",
   "category": "Aussicht",
-  "note": "Blick über die Mündung des Suzhou Creek auf Lujiazui zur goldenen Stunde.",
+  "note": "Blick über die Mündung des Suzhou Creek auf Lujiazui zur goldenen Stunde. Research 28.10. – Standpunkte der Fotos: (1) Die Spiegel-Bilder im Sonnenaufgang/Nacht (u. a. @minghan1004, @shanghaieye, @demas, @hotelsandhandluggage) entstehen fast auf Straßenhöhe von der Zhapu-Lu-Brücke 乍浦路桥 (ca. 350 m westlich, 31.24615, 121.48329) – Blick nach Osten über den glatten Creek auf die Waibaidu-Brücke und dahinter Pearl/Shanghai Tower; Sonnenaufgang Ende Oktober ca. 6:05, dann geht die Sonne fast hinter der Skyline auf; Stativ, 50–135 mm. (2) Die Fachwerk-Bilder (Pearl durch die X-Streben, @minghan1004, @jackyy_wch) sind auf der Waibaidu-Brücke selbst am Gehweg der Ostseite aufgenommen, 35–85 mm, abends mit vorbeifahrenden Bussen als Lichtspur. (3) Das hohe Bild @yantastic (Blick den Creek hinunter über eine Brücke) ist von erhöhtem Standpunkt über dem Westteil des Creeks – vermutlich Drohne (am Bund strikt verboten) oder ein Hotel-/Büroturm am Ufer, Ort nicht bestätigt. Öffentlich erreichbare Alternativen von oben: Dachgarten des Postmuseums (tagsüber, Eintritt frei) und die Bvlgari-Bar im 47. OG (abends).",
   "address": "Huangpu, Shanghai",
   "lat": 31.245307,
   "lng": 121.485744,
@@ -3471,7 +3471,7 @@ window.PLACES_CN = [
   ],
   "pop": 4,
   "pop_reason": "Historische Stahlbrücke mit Skyline-Blick",
-  "when": "day"
+  "when": "both"
  },
  {
   "id": "cn-the-bund-lujiazui",
@@ -3479,7 +3479,7 @@ window.PLACES_CN = [
   "name": "The Bund & Lujiazui 外滩 · 陆家嘴",
   "district": "Huangpu, Shanghai",
   "category": "Aussicht",
-  "note": "Skyline abends, wenn alles beleuchtet ist.",
+  "note": "Skyline abends, wenn alles beleuchtet ist. Research 28.10. (Wunsch „Fotoapparat“ als Foto-Standpunkte verstanden – eine Kamera-Skulptur am Bund gibt es laut Recherche nicht): Promenade (外滩观景平台) auf Höhe Nanjing Lu/Chen-Yi-Platz für die Skyline frontal mit 24–70 mm; Nordende am Volksheldendenkmal/Huangpu-Park für Pearl + Shanghai Tower gestaffelt; Seitenstraßen (z. B. Ostende von Fuzhou Lu/Guangdong Lu) rahmen den Pearl Tower zwischen den Fassaden (70–135 mm). Die Bund-Fassaden selbst (Zollhaus, HSBC) fotografiert man von der Pudong-Uferpromenade (Binjiang Ave) – abends angestrahlt, 70–200 mm. Morgens 6–7 Uhr Tai-Chi, Drachentanz und Jogger vor der Skyline (Gegenlicht). Luftbilder mit dem Denkmal von oben sind Drohnen-/Hotelaufnahmen – Drohnen am Bund verboten. Beleuchtung abends ca. bis 22 Uhr (Wochenende teils länger, nicht bestätigt). Tulpen-Bilder: nur im Frühjahr.",
   "address": "Huangpu, Shanghai",
   "lat": 31.2402,
   "lng": 121.4979,
@@ -3580,6 +3580,16 @@ window.PLACES_CN = [
     "slide": 5
    },
    {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=1",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_1.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 1
+   },
+   {
     "url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=3",
     "username": "",
     "profile_url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=3",
@@ -3599,7 +3609,7 @@ window.PLACES_CN = [
   "name": "North Bund Riverside Park 北外滩滨江",
   "district": "Hongkou, Shanghai",
   "category": "Aussicht",
-  "note": "Uferpark mit Blick auf Lujiazui, morgens ruhig.",
+  "note": "Uferpark mit Blick auf Lujiazui, morgens ruhig. Berühmt für das silberne Spiegel-Ei (小巨蛋, Spiegelei am Ufer vor den Lujiazui-Türmen) in der Uferanlage 国客中心滨江绿地 am Shanghai International Cruise Terminal (Metro 国际客运中心, Linie 4): Schieferpfad im Rasen, Pearl Tower, Shanghai Tower und IFC-Zwillingstürme dahinter, 270° freie Flussblick. Beste Zeit: früh am Morgen vor den Touristen (5:30–7:30) oder bei Sonne, wenn die Kugel Himmel und Wolken spiegelt; für den Blick von oben auf Ei und Skyline die Regenbogenbrücke 彩虹桥. Pin ungefähr – an der Uferpromenade vor dem Terminal suchen.",
   "address": "Hongkou, Shanghai",
   "lat": 31.25,
   "lng": 121.499,
@@ -3668,6 +3678,15 @@ window.PLACES_CN = [
     "caption": "Moments from Shanghai Oriental Pearl TV Tower 🇨🇳\n\n1. Shanghai North Bund Park (北外滩湖滨江绿地）\n2. Dongchangzhi Road (东长治路与旅顺路交叉口）- beside W Hotel\n3. Jiulong Road (九龙路与东长治路交叉口)\n3. Nanjing Road\n5. Rockbund (乍浦路与南苏州路交叉口）\n6. Waibaidu Bridge (外白渡桥）\n7. 礼和洋行 （behind Edition Hotel)\n8. Shanghai Postal Musuem (上海邮政博物馆)\n\nI can walk the whole Shanghai street and the bund the whole day is the weather is good. There are so much to capture and explore! Many spots I haven’t have time to cover as well!\n\n#shanghaicity #shanghaistreet #shanghaitower #shanghaiorientalpearltower #shanghaibund #shanghaichina #shanghaitri",
     "match": "slide",
     "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/anshnanda_cn/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/anshnanda_cn/",
+    "kind": "photo",
+    "image": "images/cq_sh_northbund_ei_anshnanda.jpg",
+    "caption": "Steinpfad mit dem Spiegel-Ei und Lujiazui (Reel „The Shanghai Beautiful Morning“)",
+    "credit": "@anshnanda_cn · Instagram"
    }
   ],
   "pop": 3,
@@ -3875,6 +3894,108 @@ window.PLACES_CN = [
     "caption": "Snaps of my current favourite city in Asia — Shanghai!\n\nRush hours in Shanghai — overlooking Shanghai’s iconic skyscrapers.\n\n1000 Trees — the most captivating architecture in the city.\n\nThe ladder of happiness — steps towards a sip of coffee.\n\nCan’t stand for Mstand!\n\nShanghai’s Iconic Custom Building.\n\nThe Louis — cemented Shanghai’s honour as the Paris of the East.\n\nPeople of Shanghai\n\nBlue Bottle Shanghai Edition.",
     "match": "slide",
     "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/iiikudo/p/De9hAY2Eoda/?img_index=4",
+    "username": "iiikudo",
+    "profile_url": "https://www.instagram.com/iiikudo/",
+    "kind": "p",
+    "image": "images/De9hAY2Eoda_4.jpg",
+    "caption": "1000 Trees \nอีก 1 จุดถ่ายรูปในเซียงไฮ้ \nพอได้มาแล้วก็ได้ถามตัวเองว่า \nมาทำไม 😅😅\n\n#Shanghai \n#china",
+    "match": "slide",
+    "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/iiikudo/p/De9hAY2Eoda/?img_index=2",
+    "username": "iiikudo",
+    "profile_url": "https://www.instagram.com/iiikudo/",
+    "kind": "p",
+    "image": "images/De9hAY2Eoda_2.jpg",
+    "caption": "1000 Trees \nอีก 1 จุดถ่ายรูปในเซียงไฮ้ \nพอได้มาแล้วก็ได้ถามตัวเองว่า \nมาทำไม 😅😅\n\n#Shanghai \n#china",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/iiikudo/p/De9hAY2Eoda/?img_index=1",
+    "username": "iiikudo",
+    "profile_url": "https://www.instagram.com/iiikudo/",
+    "kind": "p",
+    "image": "images/De9hAY2Eoda_1.jpg",
+    "caption": "1000 Trees \nอีก 1 จุดถ่ายรูปในเซียงไฮ้ \nพอได้มาแล้วก็ได้ถามตัวเองว่า \nมาทำไม 😅😅\n\n#Shanghai \n#china",
+    "match": "slide",
+    "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/iiikudo/p/De9hAY2Eoda/?img_index=3",
+    "username": "iiikudo",
+    "profile_url": "https://www.instagram.com/iiikudo/",
+    "kind": "p",
+    "image": "images/De9hAY2Eoda_3.jpg",
+    "caption": "1000 Trees \nอีก 1 จุดถ่ายรูปในเซียงไฮ้ \nพอได้มาแล้วก็ได้ถามตัวเองว่า \nมาทำไม 😅😅\n\n#Shanghai \n#china",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/iiikudo/p/De9hAY2Eoda/?img_index=5",
+    "username": "iiikudo",
+    "profile_url": "https://www.instagram.com/iiikudo/",
+    "kind": "p",
+    "image": "images/De9hAY2Eoda_5.jpg",
+    "caption": "1000 Trees \nอีก 1 จุดถ่ายรูปในเซียงไฮ้ \nพอได้มาแล้วก็ได้ถามตัวเองว่า \nมาทำไม 😅😅\n\n#Shanghai \n#china",
+    "match": "slide",
+    "slide": 5
+   },
+   {
+    "url": "https://www.instagram.com/iiikudo/p/De9hAY2Eoda/?img_index=6",
+    "username": "iiikudo",
+    "profile_url": "https://www.instagram.com/iiikudo/",
+    "kind": "p",
+    "image": "images/De9hAY2Eoda_6.jpg",
+    "caption": "1000 Trees \nอีก 1 จุดถ่ายรูปในเซียงไฮ้ \nพอได้มาแล้วก็ได้ถามตัวเองว่า \nมาทำไม 😅😅\n\n#Shanghai \n#china",
+    "match": "slide",
+    "slide": 6
+   },
+   {
+    "url": "https://www.instagram.com/iiikudo/p/De9hAY2Eoda/?img_index=7",
+    "username": "iiikudo",
+    "profile_url": "https://www.instagram.com/iiikudo/",
+    "kind": "p",
+    "image": "images/De9hAY2Eoda_7.jpg",
+    "caption": "1000 Trees \nอีก 1 จุดถ่ายรูปในเซียงไฮ้ \nพอได้มาแล้วก็ได้ถามตัวเองว่า \nมาทำไม 😅😅\n\n#Shanghai \n#china",
+    "match": "slide",
+    "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/iiikudo/p/De9hAY2Eoda/?img_index=8",
+    "username": "iiikudo",
+    "profile_url": "https://www.instagram.com/iiikudo/",
+    "kind": "p",
+    "image": null,
+    "caption": "1000 Trees \nอีก 1 จุดถ่ายรูปในเซียงไฮ้ \nพอได้มาแล้วก็ได้ถามตัวเองว่า \nมาทำไม 😅😅\n\n#Shanghai \n#china",
+    "match": "slide",
+    "slide": 8,
+    "generic": true,
+    "dup": true
+   },
+   {
+    "url": "https://www.instagram.com/iiikudo/p/De9hAY2Eoda/?img_index=9",
+    "username": "iiikudo",
+    "profile_url": "https://www.instagram.com/iiikudo/",
+    "kind": "p",
+    "image": "images/De9hAY2Eoda_9.jpg",
+    "caption": "1000 Trees \nอีก 1 จุดถ่ายรูปในเซียงไฮ้ \nพอได้มาแล้วก็ได้ถามตัวเองว่า \nมาทำไม 😅😅\n\n#Shanghai \n#china",
+    "match": "slide",
+    "slide": 9
+   },
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=4",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_4.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 4
    }
   ],
   "pop": 4,
@@ -4055,7 +4176,7 @@ window.PLACES_CN = [
   "name": "Shanghai Tower Observation Deck 上海中心",
   "district": "Lujiazui, Shanghai",
   "category": "Aussicht",
-  "note": "Sonnenuntergang über Oriental Pearl Tower und Huangpu-Bogen.",
+  "note": "Sonnenuntergang über Oriental Pearl Tower und Huangpu-Bogen; vom Deck weit hinab auf Jin Mao und das Dach des SWFC-„Flaschenöffners“ (liegt ca. 200 m nordöstlich).",
   "address": "Lujiazui, Shanghai",
   "lat": 31.2356,
   "lng": 121.5012,
@@ -4086,14 +4207,14 @@ window.PLACES_CN = [
     "slide": 4
    },
    {
-    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=7",
-    "username": "demas",
-    "profile_url": "https://www.instagram.com/demas/",
+    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=3",
+    "username": "jackyy_wch",
+    "profile_url": "https://www.instagram.com/jackyy_wch/",
     "kind": "p",
-    "image": "images/DeoaxnlmLO7_7.jpg",
-    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "image": "images/De1Y1TXElV9_3.jpg",
+    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
     "match": "slide",
-    "slide": 7
+    "slide": 3
    }
   ],
   "pop": 5,
@@ -4106,7 +4227,7 @@ window.PLACES_CN = [
   "name": "Fosun Foundation 复星艺术中心",
   "district": "Huangpu, Shanghai",
   "category": "Architektur",
-  "note": "Kunstzentrum am Bund-Südende (Heatherwick Studio + Foster + Partners): bewegliche Bronze-Lamellen wie ein Bühnenvorhang.",
+  "note": "Kunstzentrum am Bund-Südende (Heatherwick Studio + Foster + Partners): bewegliche Bronze-Lamellen wie ein Bühnenvorhang. Research 28.10.: Der Bronze-„Vorhang“ (drei Lagen Röhren an Schienen, elektrisch) bewegt sich nicht dauernd, sondern zu festen Zeiten – laut Reiseblog ab 10 Uhr alle 2 Std. für ca. 10 Min. (also etwa 10, 12, 14, 16 Uhr; nicht offiziell bestätigt, vor Ort an der Info fragen). Für Bewegungsunschärfe Stativ/Mauer, 1/4–1 s mit ND; sonst ruhige Fassade am Nachmittag im Seitenlicht.",
   "address": "Huangpu, Shanghai",
   "lat": 31.228881,
   "lng": 121.493579,
@@ -4126,6 +4247,16 @@ window.PLACES_CN = [
     "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
     "match": "slide",
     "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=8",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_8.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 8
    }
   ],
   "pop": 4,
@@ -4138,7 +4269,7 @@ window.PLACES_CN = [
   "name": "Oriental Pearl Tower 东方明珠",
   "district": "Lujiazui, Shanghai",
   "category": "Architektur",
-  "note": "Nachtblick auf den beleuchteten Fernsehturm mit Lichtspuren, vermutlich vom Lujiazui-Ringsteg (陆家嘴环形天桥) aus; Pin am Ringsteg.",
+  "note": "Nachtblick auf den beleuchteten Fernsehturm mit Lichtspuren, vermutlich vom Lujiazui-Ringsteg (陆家嘴环形天桥) aus; Pin am Ringsteg. Research 28.10. (Nahaufnahme @jackyy_wch): Die untere Kugel mit den schrägen Stützbeinen erscheint auf Augenhöhe (ca. 90 m) und stark komprimiert vor den Lujiazui-Türmen – das spricht für ein langes Tele (ca. 200–400 mm) von einem erhöhten Standpunkt nordwestlich des Turms auf der Puxi-Seite, z. B. einer Rooftop-Bar am Bund/North Bund (etwa VUE Bar im Hyatt on the Bund oder die Dachterrassen der Bund-Häuser) bzw. einem Hotelzimmer mit Pudong-Blick. Genauer Ort nicht bestätigt; eine Drohne ist ausgeschlossen nicht, am Bund aber verboten. Nachbau: von der VUE Bar bzw. einer Bund-Dachterrasse nach Einbruch der Dunkelheit, 200 mm+, 1/60–1/125 s, ISO 1600–3200 (Bar: kein Stativ), Ausschnitt auf Kugel + Beine. Am Boden wirkt es anders: vom Lujiazui-Ringsteg (Pin) sieht man die Beine steil von unten.",
   "address": "Lujiazui, Shanghai",
   "lat": 31.23962,
   "lng": 121.496037,
@@ -4200,6 +4331,15 @@ window.PLACES_CN = [
     "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
     "match": "slide",
     "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/dezeen/reel/DNs3Bszs_3A/",
+    "username": "dezeen",
+    "profile_url": "https://www.instagram.com/dezeen/",
+    "kind": "reel",
+    "image": "images/DNs3Bszs_3A.jpg",
+    "caption": "Take a look around The 1933 Old Millfun in Shanghai, China, designed by British architect Balfours. Originally housing one of the largest slaughterhouses in East Asia, Old Millfun is now home to a collection of shops and restaurants.\n\nShot by digital creator Francesco Beggio (@francescobeggio).",
+    "match": "single"
    }
   ],
   "pop": 4,
@@ -4232,6 +4372,18 @@ window.PLACES_CN = [
     "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
     "match": "slide",
     "slide": 8
+   },
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=6",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": null,
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 6,
+    "generic": true,
+    "dup": true
    }
   ],
   "pop": 4,
@@ -4244,37 +4396,17 @@ window.PLACES_CN = [
   "name": "Shanghai World Financial Center 上海环球金融中心",
   "district": "Lujiazui, Shanghai",
   "category": "Aussicht",
-  "note": "„Flaschenöffner“-Hochhaus (KPF); Foto von oben, typisch vom Shanghai-Tower-Aussichtsdeck auf das SWFC-Dach.",
+  "note": "„Flaschenöffner“-Hochhaus (KPF); Blick von unten zwischen den drei Lujiazui-Türmen (u. a. der Shanghai Tower bei Nacht von unten, @demas). Das Luftbild mit dem Oriental Pearl Tower im Durchblick der Öffnung (@demas) entsteht aus der Luft rund 1 km südöstlich des Turms (der Pearl liegt nordwestlich) – kein öffentlicher Standpunkt, nicht vom Shanghai-Tower-Deck. Research 28.10.: Aussichtsdecks im 94., 97. und 100. Stock (100. Stock = „Sky Walk“ in 474 m, Steg mit drei Glasbodenfeldern im Querbalken der Öffnung); Eingang über B1/3. OG, Tickets am Schalter B1 oder online. Die Decks waren ab 1.1.2023 wegen Umbau geschlossen und sind laut neueren Berichten wieder offen – Öffnung und Preise vorher prüfen (ältere Angaben: 94. Stock ca. 120 ¥, alle drei ca. 180 ¥; Zeiten je nach Quelle ca. 9–22:30 Uhr, letzter Einlass ca. 1 Std. vorher; alles nicht bestätigt). Foto: vom 100. Stock durch die Glasböden senkrecht hinunter (Weitwinkel, Objektiv auf das Glas, dunkle Kleidung gegen Spiegelungen) und nach Westen auf Jin Mao, Pearl und den Huangpu-Bogen; zur blauen Stunde ca. 17:10–17:50. Bilder mit dem Pearl genau im Durchblick der Öffnung entstehen aus südöstlicher Richtung in Dachhöhe – also nur aus der Luft (Drohne/Helikopter), nicht vom Shanghai Tower (der liegt südwestlich) und nicht vom eigenen Deck.",
   "address": "Lujiazui, Shanghai",
   "lat": 31.236577,
   "lng": 121.503041,
   "approx": false,
-  "image": "images/DeoaxnlmLO7_10.jpg",
-  "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
-  "post_url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=10",
-  "username": "demas",
-  "profile_url": "https://www.instagram.com/demas/",
+  "image": "images/De1Y1TXElV9_7.jpg",
+  "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
+  "post_url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=7",
+  "username": "jackyy_wch",
+  "profile_url": "https://www.instagram.com/jackyy_wch/",
   "posts": [
-   {
-    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=10",
-    "username": "demas",
-    "profile_url": "https://www.instagram.com/demas/",
-    "kind": "p",
-    "image": "images/DeoaxnlmLO7_10.jpg",
-    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
-    "match": "slide",
-    "slide": 10
-   },
-   {
-    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=3",
-    "username": "jackyy_wch",
-    "profile_url": "https://www.instagram.com/jackyy_wch/",
-    "kind": "p",
-    "image": "images/De1Y1TXElV9_3.jpg",
-    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
-    "match": "slide",
-    "slide": 3
-   },
    {
     "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=7",
     "username": "jackyy_wch",
@@ -4284,6 +4416,26 @@ window.PLACES_CN = [
     "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
     "match": "slide",
     "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=7",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_7.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=10",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_10.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 10
    }
   ],
   "pop": 5,
@@ -4327,7 +4479,7 @@ window.PLACES_CN = [
   "name": "Museum of Art Pudong 浦东美术馆",
   "district": "Lujiazui, Shanghai",
   "category": "Architektur",
-  "note": "Das berühmte „Fenster“ rahmt den Oriental Pearl Tower; Dachterrasse mit Blick auf den Bund.",
+  "note": "Das berühmte „Fenster“ rahmt den Oriental Pearl Tower; Dachterrasse mit Blick auf den Bund. Research 28.10.: Öffnungszeiten 10–21 Uhr, letzter Einlass/Ticketverkauf 20 Uhr; Ruhetag laut amtlicher Mitteilung und Qunar dienstags (manche Seiten nennen Montag – vorher im WeChat-Konto „浦东美术馆MAP“ prüfen). Tickets ab ca. 130 ¥ je nach Ausstellung, per WeChat-Mini-Programm oder vor Ort, Reservierung im Alltag nicht nötig, zu Stoßzeiten Einlass-Slots. Das „Fenster“-Motiv mit dem Pearl Tower liegt im Museum (Ticket nötig); die Dachterrasse mit Bund-Blick ist laut Berichten mit Ticket zugänglich (nicht bestätigt).",
   "address": "Lujiazui, Shanghai",
   "lat": 31.240309,
   "lng": 121.491972,
@@ -4429,6 +4581,16 @@ window.PLACES_CN = [
     "caption": "Collecting slices of the future in the past.\n2025 的句點，落在上海。 一座被時間折疊的城市。\n前一秒是法租界的梧桐紅磚， 下一秒卻是陸家嘴的雲霄未來。 三天，五萬步。 蒐集了這些，關於魔都的切片。\n\n🔲 浦東美術館 (MAP) 那個著名的「窗」。 \n將東方明珠框成一幅極簡的畫。頂樓的露台，更是感受外灘建築群壓迫感最好的觀景台。\n\n🌆塘橋渡口 (Tangqiao Ferry Terminal) 上海最溫柔的日落觀測點。 \n避開了外灘的人潮，這裡只有適當的清幽。看著陸家嘴的燈火逐一亮起，是這座城市獨有的儀式感。\n\n🐎 上海久事國際馬術中心 建築本身就是巨大的流動雕塑。 \n那些起伏的純白線條，像是凝固的波浪，在這裡可以拍到上海最純粹的律動感。\n\n🌀華東電力設計院 隱藏在城市裡的幾何美學。 \n紅色的旋轉樓梯與光影交錯，是建築攝影控不能錯過的線條聖地。\n\n🔭太平洋新天地觀光廳 上海最美的高空窗景。 \n俯瞰整個上海的繁華紋理，重點是人真的不多，可以獨享這片天際線。\n\n 🏛️武康大樓 (Wukang Mansion) 凝固了百年的巨輪。 \n這一區的步調和台北民生社區很像，適合沒有目的的散步，空氣裡都是舊上海的優雅。\n\n🥂 Cocina19 西班牙餐廳 北外灘的私藏視角。 \n不同於外灘的擁擠，坐在戶外露台，陸家嘴的天際線就在眼前觸手可及，是與這座城",
     "match": "slide",
     "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=2",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_2.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 2
    }
   ],
   "pop": 2,
@@ -4473,7 +4635,7 @@ window.PLACES_CN = [
   "name": "Pacific Xintiandi Observation Hall 太平洋新天地观光厅",
   "district": "Huangpu, Shanghai",
   "category": "Aussicht",
-  "note": "Bogenfenster mit Blick über die Stadt, kaum Andrang.",
+  "note": "Bogenfenster mit Blick über die Stadt, kaum Andrang. Research 28.10.: Laut Berichten (Sichuan Online, Shanghai Daily) liegt die Aussichtsetage in 55–58 OG eines ca. 258 m hohen Turms im Kern von Xintiandi: 55. OG Ausstellung zum Thema CO2-Neutralität, 57.–58. OG Außenplattform („Eisberg“-Form mit Sonnenuhr-Element), dazu Innenbereiche und Konferenzsaal; geplant sind saisonale Lichtshows. Ein Ticketportal listet ermäßigte Tickets ab ca. HKD 75 (Stand 2021). Öffnungszeiten und aktuelle Preise nicht gefunden – vor Ort/über Dianping prüfen. Foto: Blick nach Norden auf Xintiandi und Huaihai Lu, nach Nordosten auf Lujiazui (ca. 3 km, 70–200 mm verdichten die drei Türme); wenig Andrang, Fenster mit Bögen als Rahmen nutzen, abends Spiegelungen mit dunkler Jacke abschirmen.",
   "address": "Huangpu, Shanghai",
   "lat": 31.2234,
   "lng": 121.476,
@@ -4497,7 +4659,7 @@ window.PLACES_CN = [
   ],
   "pop": 2,
   "pop_reason": "Wenig bekannte Aussichtsplattform",
-  "when": "day"
+  "when": "both"
  },
  {
   "id": "cn-wukang-mansion",
@@ -5334,6 +5496,16 @@ window.PLACES_CN = [
     "caption": "A giant spiral staircase guides visitors to the roof of the Shanghai Grand Opera House (@shanghai_grandoperahouse), which the international studio Snøhetta (@snohetta) designed to be \"as much a civic destination as a performance venue\".\n\nLocated on the Huangpu River waterfront, the 146,786-square-metre opera house was conceived as a major cultural landmark that can accommodate a variety of musical performances.\n\nCheck out the link in our bio to learn more.\n\n✍️ Lizzie Crook (@lizzie__crook)\n📷 Yumeng Zhu, Tian Fangfang (@tianfangfang2019), Chen Hao and StudioSZ (@studiosz_photo)",
     "match": "slide",
     "slide": 4
+   },
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=13",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_13.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 13
    }
   ],
   "pop": 4,
@@ -5834,6 +6006,230 @@ window.PLACES_CN = [
   "pop": 2,
   "pop_reason": "Rooftop-Geheimtipp, nur vereinzelt in Social Media",
   "when": "night"
+ },
+ {
+  "id": "cn-panlong-xintiandi",
+  "region": "cn",
+  "name": "Panlong Xintiandi 蟠龙天地",
+  "district": "Qingpu (Xujing), Shanghai",
+  "category": "",
+  "note": "Wiederaufgebautes Wasserdorf mit Kanälen, weißen Giebelhäusern und Steinbrücken als Freiluft-Einkaufs-/Café-Viertel (2023, Xintiandi-Betreiber), nahe Hongqiao. Spiegelungen am Kanal morgens ohne Wind; abends beleuchtet. Metro 17 Panlong Rd 蟠龙路.",
+  "address": "Qingpu (Xujing), Shanghai",
+  "lat": 31.190999,
+  "lng": 121.271561,
+  "approx": false,
+  "image": "images/DT2nf_XCVNW_3.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=3",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=3",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_3.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 3
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Neues Wasserdorf-Viertel, beliebt in Social Media",
+  "when": "both"
+ },
+ {
+  "id": "cn-longhua-temple",
+  "region": "cn",
+  "name": "Longhua Temple 龙华寺",
+  "district": "Xuhui, Shanghai",
+  "category": "",
+  "note": "Größter und ältester Tempel Shanghais mit der Longhua-Pagode. Im Foto: neue goldene Wellen-Arkade mit Blick auf die Pagode (Meditations-Motiv). Räucherrauch morgens im Gegenlicht. Metro 11/12 Longhua 龙华.",
+  "address": "Xuhui, Shanghai",
+  "lat": 31.176792,
+  "lng": 121.44725,
+  "approx": false,
+  "image": "images/DT2nf_XCVNW_5.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=5",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=5",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_5.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 5
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Ältester Tempel Shanghais, in vielen Guides",
+  "when": "day"
+ },
+ {
+  "id": "cn-zhang-yuan",
+  "region": "cn",
+  "name": "Zhang Yuan 张园",
+  "district": "Jing'an (Nanjing W Rd), Shanghai",
+  "category": "",
+  "note": "Restauriertes Shikumen-Viertel aus Backstein- und Steintorhäusern, heute Luxus-Boutiquen und Cafés in den Gassen (Weihaiyuan Rd 威海路590弄). Gassen-Perspektiven mit Fahrrädern, Vormittagslicht. Metro 2/12/13 Nanjing W Rd.",
+  "address": "Jing'an (Nanjing W Rd), Shanghai",
+  "lat": 31.230374,
+  "lng": 121.456053,
+  "approx": false,
+  "image": "images/DT2nf_XCVNW_7.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=7",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=7",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_7.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 7
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Restauriertes Shikumen-Viertel, neu und beliebt",
+  "when": "day"
+ },
+ {
+  "id": "cn-china-art-museum",
+  "region": "cn",
+  "name": "China Art Museum 中华艺术宫",
+  "district": "Pudong (Expo), Shanghai",
+  "category": "",
+  "note": "Der rote „Kronen“-Pavillon der Expo 2010, heute Kunstmuseum (Eintritt frei, Mo zu). Spiegelung im Wasserbecken davor mit Weitwinkel nah über der Wasserfläche; im Foto bei Sonnenschein. Metro 8 China Art Museum 中华艺术宫.",
+  "address": "Pudong (Expo), Shanghai",
+  "lat": 31.186484,
+  "lng": 121.489926,
+  "approx": false,
+  "image": "images/DT2nf_XCVNW_9.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=9",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=9",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_9.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 9
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Ikonischer Expo-Pavillon, Wahrzeichen am Expo-Gelände",
+  "when": "day"
+ },
+ {
+  "id": "cn-lvwa-bookstore-shanghai-university-of-sport",
+  "region": "cn",
+  "name": "LVWA Bookstore (Shanghai University of Sport)",
+  "district": "Yangpu, Shanghai",
+  "category": "",
+  "note": "Sport-Buchhandlung (Studio YUDA + Studio NOR) am Westtor der Shanghai University of Sport: im Atrium der 13–17 m hohe blaue „Mingyue Mountain“ aus Stufen, Regalen und Sitzflächen. Von der Galerie oben 16–24 mm. Pin am Westrand des Campus (ungefähr).",
+  "address": "Yangpu, Shanghai",
+  "lat": 31.314,
+  "lng": 121.5157,
+  "approx": true,
+  "image": "images/DT2nf_XCVNW_10.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=10",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=10",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_10.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 10
+   }
+  ],
+  "pop": 2,
+  "pop_reason": "Architektur-Buchhandlung, in Fachmedien bekannt",
+  "when": "day"
+ },
+ {
+  "id": "cn-power-station-of-art",
+  "region": "cn",
+  "name": "Power Station of Art 上海当代艺术博物馆",
+  "district": "Huangpu (Expo West), Shanghai",
+  "category": "",
+  "note": "Museum für zeitgenössische Kunst im ehemaligen Kraftwerk mit Thermometer-Schlot am Huangpu; große Hallen mit Rolltreppen, im Foto eine goldene Ginkgo-Installation von der Rolltreppe aus. Di–So, Eintritt je nach Ausstellung.",
+  "address": "Huangpu (Expo West), Shanghai",
+  "lat": 31.203059,
+  "lng": 121.493897,
+  "approx": false,
+  "image": "images/DT2nf_XCVNW_11.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=11",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=11",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_11.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 11
+   }
+  ],
+  "pop": 4,
+  "pop_reason": "Bekanntes Kunstmuseum im alten Kraftwerk",
+  "when": "day"
+ },
+ {
+  "id": "cn-guangfulin-ancient-relics-park",
+  "region": "cn",
+  "name": "Guangfulin Ancient Relics Park 广富林文化遗址",
+  "district": "Songjiang, Shanghai",
+  "category": "",
+  "note": "Kulturpark über einer neolithischen Fundstätte mit Hui-Stil-Häusern (weiße Wände, Pferdekopfgiebel) und Wasserbecken – teils unter Wasser gebaute Museumshallen. Spiegelungen bei Windstille, gelbe Wand im Abendlicht. Ca. 1 Std. vom Zentrum, Metro 9 Songjiang Univ. Town + Taxi.",
+  "address": "Songjiang, Shanghai",
+  "lat": 31.064487,
+  "lng": 121.194101,
+  "approx": false,
+  "image": "images/DT2nf_XCVNW_12.jpg",
+  "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+  "post_url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=12",
+  "username": "chinamoderne",
+  "profile_url": "https://www.instagram.com/chinamoderne/",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/chinamoderne/p/DT2nf_XCVNW/?img_index=12",
+    "username": "chinamoderne",
+    "profile_url": "https://www.instagram.com/chinamoderne/",
+    "kind": "p",
+    "image": "images/DT2nf_XCVNW_12.jpg",
+    "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
+    "match": "slide",
+    "slide": 12
+   }
+  ],
+  "pop": 3,
+  "pop_reason": "Kulturpark in Songjiang, beliebt für Spiegelbilder",
+  "when": "day"
  },
  {
   "id": "claude-cn-nantou-ancient-city",
@@ -8818,6 +9214,7 @@ window.PLACES_CN = [
   "pop_reason": "Broadway Mansions und Lujiazui über der Suzhou-Creek-Biegung",
   "image_page": "https://commons.wikimedia.org/wiki/File:View_of_Lujiazui_from_Zhapu_Road_Bridge.jpg",
   "image_credit": "Windmemories · CC BY-SA 4.0 · Wikimedia Commons",
+  "kind": "both",
   "when": "both"
  },
  {
@@ -8908,7 +9305,7 @@ window.PLACES_CN = [
   "district": "Pudong, Shanghai",
   "category": "Architektur",
   "note": "",
-  "tip": "Über das Grand Hyatt (Lobby 54. Stock) oder die Cloud-9-Bar im 87. Stock. Mit 16 mm senkrecht nach oben oder unten, Kamera aufs Geländer legen (kein Stativ), ISO 1600, 1/30 s. Zugang vorher an der Rezeption erfragen.",
+  "tip": "Über das Grand Hyatt (Lobby 54. Stock) oder die Cloud-9-Bar im 87. Stock. Mit 16 mm senkrecht nach oben oder unten, Kamera aufs Geländer legen (kein Stativ), ISO 1600, 1/30 s. Zugang vorher an der Rezeption erfragen. Research 28.10.: Die Aussichtsplattform darüber heißt „Jin Mao Tower 88th Floor Observation Deck“ (金茂大厦88层观光厅, ca. 340 m, mit senkrechtem Blick ins Atrium) – eigener Spot mit Zeiten, Preis und dem Glas-Skywalk „金茂云中漫步“.",
   "address": "Pudong, Shanghai",
   "lat": 31.2372504,
   "lng": 121.5014197,
@@ -12678,6 +13075,332 @@ window.PLACES_CN = [
   "image_page": "https://www.flickr.com/photos/201441975@N05/54405484495/",
   "image_credit": "Kanda Boy · Flickr",
   "when": "both"
+ },
+ {
+  "id": "cn-shanghai-wild-animal-park",
+  "region": "cn",
+  "name": "Shanghai Wild Animal Park 上海野生动物园",
+  "district": "Pudong (Xuanqiao), Shanghai",
+  "category": "",
+  "note": "Großer Safaripark im Süden von Pudong (南六公路178号): Freigehege mit Bus-Safari (kostenloser Safari-Bus mit langen Schlangen, dazu kostenpflichtige Fütterungsbusse ca. 40–100 ¥), Fußbereich mit Pandas, Shows. Eintritt Erwachsene ca. 165 ¥ (online oft günstiger). Öffnungszeiten je nach Quelle ca. 8/9–17 Uhr, Einlass bis 16 Uhr – vorab im offiziellen Ticketkanal prüfen. Anfahrt: Metro Linie 16 bis „Wild Animal Park“ 野生动物园站, dann Bus Pudong 96 (2 Stationen); vom Zentrum ca. 1–1,5 Std. Mindestens einen halben Tag einplanen.",
+  "address": "Pudong (Xuanqiao), Shanghai",
+  "lat": 31.0574,
+  "lng": 121.7166,
+  "approx": false,
+  "image": null,
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [],
+  "source": "https://www.trip.com/guide/attraction/shanghai-wild-animal-park.html · https://www.nomadotravel.app/en/attractions/shanghai-wild-animal-park · OpenStreetMap (Pin)",
+  "kind": "sight",
+  "when": "day"
+ },
+ {
+  "id": "cn-luminous-ocean-aquarium-cocktailbar",
+  "region": "cn",
+  "name": "Luminous Ocean 光之海 · Aquarium-Cocktailbar",
+  "district": "Huangpu (Xiangshan Rd), Shanghai",
+  "category": "",
+  "note": "Versteckte Cocktailbar im Tiefsee-Look mit Aquarien und Fischbecken als Raumteiler, rotes Licht – fühlt sich an wie in einem U-Boot. Adresse: 黄浦区香山路15号甲商铺 (Xiangshan Road 15, ruhige Platanenstraße in der früheren Französischen Konzession, nahe Sun-Yat-sen-Residenz). Geöffnet ca. 18–2 Uhr (laut Barführer, vorher prüfen). Pin = Straßenabschnitt laut OSM, ungefähr.",
+  "address": "Huangpu (Xiangshan Rd), Shanghai",
+  "lat": 31.21775,
+  "lng": 121.4612,
+  "approx": true,
+  "image": "images/DcWEY-wzpy9.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/p/DcWEY-wzpy9/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/DcWEY-wzpy9/",
+    "kind": "photo",
+    "image": "images/DcWEY-wzpy9.jpg",
+    "caption": "",
+    "credit": "@art_kapnin · Instagram"
+   }
+  ],
+  "source": "@art_kapnin · Instagram · https://www.trvlogue.com/en/shanghai-cocktail-bars",
+  "kind": "sight",
+  "image_page": "https://www.instagram.com/p/DcWEY-wzpy9/",
+  "image_credit": "@art_kapnin · Instagram",
+  "when": "day"
+ },
+ {
+  "id": "cn-m50-art-district-50",
+  "region": "cn",
+  "name": "M50 Art District 莫干山路50号",
+  "district": "Putuo (Suzhou Creek), Shanghai",
+  "category": "",
+  "note": "Shanghais bekanntes Kunstviertel in alten Fabrik- und Lagerhallen am Suzhou Creek (Moganshan Road 50), seit 2000 von Künstlern besiedelt: über 100 Ateliers und Galerien, viele offen für Besucher, dazu Designbüros. Eine der wenigen Stellen in Shanghai mit Street Art – lange Graffiti-Wände entlang der Moganshan Road. Metro Linie 13 Jiangning Road 江宁路 oder Linie 3/4 Zhongtan Road 中潭路. Lässt sich direkt mit 1000 Trees (gegenüber am Suzhou Creek) kombinieren. Galerien meist Di–So tagsüber.",
+  "address": "Putuo (Suzhou Creek), Shanghai",
+  "lat": 31.249872,
+  "lng": 121.444662,
+  "approx": false,
+  "image": "images/web_ctnk3m_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "username": "",
+    "profile_url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "kind": "photo",
+    "image": "images/web_ctnk3m_1.jpg",
+    "caption": "",
+    "credit": "My Favourite Lens"
+   },
+   {
+    "url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "username": "",
+    "profile_url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "kind": "photo",
+    "image": "images/web_ctnk3m_2.jpg",
+    "caption": "",
+    "credit": "My Favourite Lens"
+   },
+   {
+    "url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "username": "",
+    "profile_url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "kind": "photo",
+    "image": "images/web_ctnk3m_3.jpg",
+    "caption": "",
+    "credit": "My Favourite Lens"
+   },
+   {
+    "url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "username": "",
+    "profile_url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "kind": "photo",
+    "image": "images/web_ctnk3m_4.jpg",
+    "caption": "",
+    "credit": "My Favourite Lens"
+   },
+   {
+    "url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "username": "",
+    "profile_url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+    "kind": "photo",
+    "image": "images/web_ctnk3m_5.jpg",
+    "caption": "",
+    "credit": "My Favourite Lens"
+   }
+  ],
+  "source": "https://www.myfavouritelens.com/m50-art-district-shanghai/ · OpenStreetMap (Pin)",
+  "kind": "sight",
+  "image_page": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
+  "image_credit": "My Favourite Lens",
+  "when": "day"
+ },
+ {
+  "id": "cn-jin-mao-tower-observation-deck-88",
+  "region": "cn",
+  "name": "Jin Mao Tower Observation Deck 金茂大厦88层观光厅",
+  "district": "Pudong, Shanghai",
+  "category": "",
+  "note": "Name der Aussichtsplattform: Jin Mao Tower 88th Floor Observation Deck, chinesisch 金茂大厦88层观光厅 (88 Century Avenue 世纪大道88号, ca. 340 m). Rund 1.520 m² Innenraum mit Panoramafenstern bis zum Boden, bietet auch den Blick senkrecht hinunter in das Grand-Hyatt-Atrium (Spiralen bis zur Lobby im 54. Stock) – das Atrium-Motiv des Nachbar-Spots. Am Aufzug zum 88. Stock Eintritt, nicht Teil des Hotels. Dazu gehört der Glas-Außensteg „金茂云中漫步“ (Jin Mao Skywalk, seit 2016, ca. 60 m lang, 1,2 m breit, ohne Geländer, Sicherung mit Gurt und Helm, Aufpreis, früh buchen). Laut Berichten von 2016: Sicherung am Außengleis, Sicherheitscheck, Helm und Doppelgurt, Hosen und flache Schuhe, Alter ca. 10–60, Gewicht ca. 30–100 kg, Größe ca. 1,40–2,00 m; es gibt Fotopunkte auf dem Steg, ein Foto ist inklusive, weitere kosten extra; eigene Kamera am Steg vermutlich nicht erlaubt (nicht bestätigt). Zeiten und Preise laut Reiseseiten (nicht aktuell geprüft): ca. 8:30–21:30, letzter Einlass ca. 21:00; Standard ca. 88–120 CNY (Online meist billiger), Kombi mit Skywalk deutlich teurer. Anfahrt: Metro Linie 2, Station Lujiazui 陆家嘴, ca. 5 Min. zu Fuß.",
+  "address": "Pudong, Shanghai",
+  "lat": 31.23735,
+  "lng": 121.5015,
+  "approx": false,
+  "image": "images/claude_sh_jinmao_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.flickr.com/photos/ztransmissions/343994799/",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/ztransmissions/343994799/",
+    "kind": "photo",
+    "image": "images/claude_sh_jinmao_1.jpg",
+    "caption": "Blick in das Atrium von oben (ähnlich wie vom 88. Stock, Foto vom Nachbar-Spot)",
+    "credit": "zTransmissions · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/oberst_family/2907927180",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/oberst_family/2907927180",
+    "kind": "photo",
+    "image": "images/web_jinmao88_flickr_1.jpg",
+    "caption": "",
+    "credit": "oberst_family · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/italianjob17/2194043598",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/italianjob17/2194043598",
+    "kind": "photo",
+    "image": "images/web_jinmao88_flickr_2.jpg",
+    "caption": "",
+    "credit": "italianjob17 · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/angelaata/7078760711",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/angelaata/7078760711",
+    "kind": "photo",
+    "image": "images/web_jinmao88_flickr_3.jpg",
+    "caption": "",
+    "credit": "angelaata · Flickr"
+   },
+   {
+    "url": "https://www.flickr.com/photos/jahenton/52737327617",
+    "username": "",
+    "profile_url": "https://www.flickr.com/photos/jahenton/52737327617",
+    "kind": "photo",
+    "image": "images/web_jinmao88_flickr_4.jpg",
+    "caption": "",
+    "credit": "jahenton · Flickr"
+   }
+  ],
+  "source": "https://www.meet-in-shanghai.net/en/tourist-attraction/jin-mao-tower-observation-deck-on-the-88th-floor-384945 · https://chinatripedia.com/?p=1040 · https://www.travelchinaguide.com/attraction/shanghai/jinmao.htm · https://m.thepaper.cn/newsDetail_forward_1503877",
+  "unsure": "Öffnungszeiten, Preise und Skywalk-Betrieb stammen aus Reiseseiten und Berichten von 2016–2024 – vor dem Besuch auf der offiziellen Seite oder bei trip.com prüfen.",
+  "kind": "both",
+  "image_page": "https://www.flickr.com/photos/ztransmissions/343994799/",
+  "image_credit": "zTransmissions · Flickr",
+  "when": "day"
+ },
+ {
+  "id": "cn-flair-rooftop-ritz-carlton-pudong-58",
+  "region": "cn",
+  "name": "Flair Rooftop – Ritz-Carlton Pudong 丽思卡尔顿 58层",
+  "district": "Lujiazui, Shanghai",
+  "category": "",
+  "note": "Rooftop-Bar und Restaurant im 58. Stock des Ritz-Carlton Shanghai Pudong (IFC, Century Ave 8 世纪大道8号): Terrasse direkt gegenüber dem Oriental Pearl Tower, Blick auf den Bund. Laut Time Out täglich ca. 17–2 Uhr; Terrassentische mit Mindestverzehr (laut Guide ca. 150–200 ¥ p. P., nicht bestätigt) – für Sonnenuntergang (Ende Oktober ca. 17:10) früh kommen oder über OpenTable reservieren. Kein Stativ, Kamera aufs Geländer; der Pearl Tower wirkt aus der Nähe riesig (16–24 mm). Metro 2 Lujiazui 陆家嘴, Hotel-Aufzug im IFC.\n\nResearch 28.10.: Fotos der Terrasse konnten aus dieser Sitzung nicht geladen werden (Flickr gesperrt). Beispiele zum Anschauen: Blick von der Bar auf Pearl Tower und Bund (https://www.flickr.com/photos/robshanghai/24582906072/), „Shanghai View“ von Trey Ratcliff (https://www.flickr.com/photos/stuckincustoms/41994688925/), Bund bei Nacht von der Flair-Terrasse (https://www.flickr.com/photos/rchen518/5505373338/). Typisches Motiv: der Pearl Tower fast zum Greifen nah links, dahinter der Huangpu-Bogen mit dem Bund – zur blauen Stunde am stärksten.",
+  "address": "Lujiazui, Shanghai",
+  "lat": 31.238557,
+  "lng": 121.496807,
+  "approx": false,
+  "image": null,
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [],
+  "source": "https://us.trip.com/restaurant/china/shanghai/detail/flair-rooftop-restaurant-and-bar-452020/ · https://www.timeoutshanghai.com/venue/Bars__Clubs-Bars/466/Flair.html · https://www.chinavigators.com/shanghai-nightlife-guide/ · OpenStreetMap (Pin)",
+  "kind": "sight",
+  "when": "night"
+ },
+ {
+  "id": "cn-shanghai-greenhouse-garden-expo-culture-park",
+  "region": "cn",
+  "name": "Shanghai Greenhouse Garden 上海温室花园 (Expo Culture Park)",
+  "district": "Pudong (Expo Culture Park), Shanghai",
+  "category": "",
+  "note": "Großes Gewächshaus im Expo Culture Park 世博文化公园 mit wolkenartigen Glasdächern: Wüstenzone mit Riesenkakteen, feuchter Regenwald mit Wasserfällen und Nebel, tropische Gärten, erhöhte Stege. Eintritt ca. 98 ¥, Tickets online mit Vormittags- oder Nachmittagsslot; werktags fast leer; ca. 2 Std. einplanen (laut @mishel_cheshko). Lässt sich mit dem China Art Museum und dem neuen Grand Opera House im selben Park verbinden. Bei Regen gut.",
+  "address": "Pudong (Expo Culture Park), Shanghai",
+  "lat": 31.18026,
+  "lng": 121.470403,
+  "approx": false,
+  "image": "images/web_greenhouse_1.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "username": "",
+    "profile_url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "kind": "photo",
+    "image": "images/web_greenhouse_1.jpg",
+    "caption": "",
+    "credit": "CreatAR Images / DMAA · gooood"
+   },
+   {
+    "url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "username": "",
+    "profile_url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "kind": "photo",
+    "image": "images/web_greenhouse_2.jpg",
+    "caption": "",
+    "credit": "CreatAR Images / DMAA · gooood"
+   },
+   {
+    "url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "username": "",
+    "profile_url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "kind": "photo",
+    "image": "images/web_greenhouse_3.jpg",
+    "caption": "",
+    "credit": "CreatAR Images / DMAA · gooood"
+   },
+   {
+    "url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "username": "",
+    "profile_url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "kind": "photo",
+    "image": "images/web_greenhouse_4.jpg",
+    "caption": "",
+    "credit": "CreatAR Images / DMAA · gooood"
+   },
+   {
+    "url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "username": "",
+    "profile_url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "kind": "photo",
+    "image": "images/web_greenhouse_5.jpg",
+    "caption": "",
+    "credit": "CreatAR Images / DMAA · gooood"
+   },
+   {
+    "url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "username": "",
+    "profile_url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "kind": "photo",
+    "image": "images/web_greenhouse_6.jpg",
+    "caption": "",
+    "credit": "CreatAR Images / DMAA · gooood"
+   }
+  ],
+  "source": "@mishel_cheshko · Instagram (https://www.instagram.com/reel/DdBzoL8yb5R/) · OpenStreetMap (Pin)",
+  "kind": "sight",
+  "image_page": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+  "image_credit": "CreatAR Images / DMAA · gooood",
+  "when": "day"
+ },
+ {
+  "id": "cn-jing-an-park-lichtkunst-park",
+  "region": "cn",
+  "name": "Jing'an Park 静安公园 – Lichtkunst-Park",
+  "district": "Jing'an, Shanghai",
+  "category": "",
+  "note": "Jing'an Park 静安公园 (neben dem Jing'an-Tempel) wurde zum Lichtkunst-Park: riesige beleuchtete Installationen, ein 9 m hoher Mond und ein 18 m langer leuchtender Fisch. Laut Reel (@jadespassport.co): ab 18 Uhr, täglich, kostenlos, bis 7. Oktober – die Ausstellung ist inzwischen vorbei (Stand 28.10.), der Park selbst bleibt ein Spaziergang wert. Öffnungszeiten des Parks nicht geprüft.",
+  "address": "Jing'an, Shanghai",
+  "lat": 31.22387,
+  "lng": 121.44223,
+  "approx": true,
+  "image": "images/DdyNXCchqf0.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/reel/DdyNXCchqf0/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/reel/DdyNXCchqf0/",
+    "kind": "photo",
+    "image": "images/DdyNXCchqf0.jpg",
+    "caption": "18 m langer leuchtender Fisch im Park (Reel, bis 7.10.)",
+    "credit": "@jadespassport.co · Instagram"
+   }
+  ],
+  "source": "https://www.instagram.com/reel/DdyNXCchqf0/",
+  "unsure": "Die Installationen sind seit 7. Oktober abgebaut (laut Reel). Pin = Mitte des Parks (OSM); wo genau Fisch und Mond standen, ist nicht bekannt.",
+  "kind": "both",
+  "image_page": "https://www.instagram.com/reel/DdyNXCchqf0/",
+  "image_credit": "@jadespassport.co · Instagram",
+  "when": "night"
  }
 ];
 window.UNPLACED_CN = [
