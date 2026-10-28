@@ -229,5 +229,18 @@
   "tip": "Für Lichtinstallationen im Park: Dämmerung bis ca. 19:30 (blaue Stunde Ende Oktober ab ca. 17:10), Fisch und Mond mit Wasserspiegelung im Teich, Stativ oder ISO 800–1600, 24–70 mm; Menschen als Maßstab ins Bild nehmen. Ob noch Installationen stehen, vorher auf Xiaohongshu/Dianping für „静安公园 灯光” prüfen.",
   "source": "https://www.instagram.com/reel/DdyNXCchqf0/",
   "unsure": "Die Installationen sind seit 7. Oktober abgebaut (laut Reel). Pin = Mitte des Parks (OSM); wo genau Fisch und Mond standen, ist nicht bekannt."
+ },
+ {
+  "name": "Dongdaming Rd Waterfront 东大名路滨江 (North Bund)",
+  "lat": 31.2538,
+  "lng": 121.5052,
+  "approx": true,
+  "district": "Hongkou, Shanghai",
+  "cat": "",
+  "kind": "both",
+  "note": "Uferpromenade an der Dongdaming Road 东大名路 im North Bund (Hongkou): Blick über den Huangpu auf Pearl Tower, Shanghai Tower, Jin Mao und den Flaschenöffner, im Vordergrund Pflasterweg mit schwarzem Geländer und Bäumen. Zeigt Folie 9/18 in „My top 16 Favourite Spots to visit in Shanghai“ von @whereizhanhan (beschriftet „Dongdaming Rd“). Ruhiger als der Bund, wenig Gedränge.",
+  "tip": "Der Standpunkt liegt nordöstlich vom Pearl Tower (er steht rechts vom Shanghai Tower), man blickt nach Südwesten: morgens Sonne im Rücken, klarer Blick, gut für helle, kontrastarme Farben; zum Sonnenuntergang Gegenlicht über der Skyline (Silhouetten, Farben im Wasser). 70–200 mm komprimiert die Türme, mit 24–35 mm Person und Geländer als Führungslinie, Pearl Tower mittig. Aus der Lage abgeleitet, nicht aus einer Quelle.",
+  "source": "Instagram @whereizhanhan („My top 16 Favourite Spots to visit in Shanghai“, Folie 9/18)",
+  "unsure": "Pin aus Straßenname und Blickrichtung (Pearl rechts vom Shanghai Tower → Kamera nordöstlich) abgeleitet, auf ca. 300 m genau; die Straße hat mehrere Abschnitte – an der Uferpromenade zwischen Dongdaming Rd und Fluss suchen."
  }
 ]

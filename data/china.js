@@ -13451,6 +13451,40 @@ window.PLACES_CN = [
   "image_page": "https://www.instagram.com/reel/DdyNXCchqf0/",
   "image_credit": "@jadespassport.co · Instagram",
   "when": "night"
+ },
+ {
+  "id": "cn-dongdaming-rd-waterfront-north-bund",
+  "region": "cn",
+  "name": "Dongdaming Rd Waterfront 东大名路滨江 (North Bund)",
+  "district": "Hongkou, Shanghai",
+  "category": "",
+  "note": "Uferpromenade an der Dongdaming Road 东大名路 im North Bund (Hongkou): Blick über den Huangpu auf Pearl Tower, Shanghai Tower, Jin Mao und den Flaschenöffner, im Vordergrund Pflasterweg mit schwarzem Geländer und Bäumen. Zeigt Folie 9/18 in „My top 16 Favourite Spots to visit in Shanghai“ von @whereizhanhan (beschriftet „Dongdaming Rd“). Ruhiger als der Bund, wenig Gedränge.",
+  "address": "Hongkou, Shanghai",
+  "lat": 31.2538,
+  "lng": 121.5052,
+  "approx": true,
+  "image": "images/sh_dongdaming_rd_whereizhanhan.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/whereizhanhan/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/whereizhanhan/",
+    "kind": "photo",
+    "image": "images/sh_dongdaming_rd_whereizhanhan.jpg",
+    "caption": "Beschriftet „Dongdaming Rd“ (Folie 9/18 der Spot-Liste)",
+    "credit": "@whereizhanhan · Instagram"
+   }
+  ],
+  "source": "Instagram @whereizhanhan („My top 16 Favourite Spots to visit in Shanghai“, Folie 9/18)",
+  "unsure": "Pin aus Straßenname und Blickrichtung (Pearl rechts vom Shanghai Tower → Kamera nordöstlich) abgeleitet, auf ca. 300 m genau; die Straße hat mehrere Abschnitte – an der Uferpromenade zwischen Dongdaming Rd und Fluss suchen.",
+  "kind": "both",
+  "image_page": "https://www.instagram.com/whereizhanhan/",
+  "image_credit": "@whereizhanhan · Instagram",
+  "when": "day"
  }
 ];
 window.UNPLACED_CN = [
