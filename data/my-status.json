@@ -792,5 +792,8 @@
  "cn-shanghai-world-financial-center": {
   "fav": true,
   "prio": "hoch"
+ },
+ "cn-shanghai-postal-museum": {
+  "prio": "mittel"
  }
 }
