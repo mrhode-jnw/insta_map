@@ -806,5 +806,8 @@
  },
  "claude-cn-west-bund-long-museum": {
   "prio": "gering"
+ },
+ "claude-cn-jin-mao-tower-atrium": {
+  "prio": "gering"
  }
 }
