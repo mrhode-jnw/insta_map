@@ -3479,7 +3479,7 @@ window.PLACES_CN = [
   "name": "The Bund & Lujiazui 外滩 · 陆家嘴",
   "district": "Huangpu, Shanghai",
   "category": "Aussicht",
-  "note": "Skyline abends, wenn alles beleuchtet ist. Research 28.10. (Wunsch „Fotoapparat“ als Foto-Standpunkte verstanden – eine Kamera-Skulptur am Bund gibt es laut Recherche nicht): Promenade (外滩观景平台) auf Höhe Nanjing Lu/Chen-Yi-Platz für die Skyline frontal mit 24–70 mm; Nordende am Volksheldendenkmal/Huangpu-Park für Pearl + Shanghai Tower gestaffelt; Seitenstraßen (z. B. Ostende von Fuzhou Lu/Guangdong Lu) rahmen den Pearl Tower zwischen den Fassaden (70–135 mm). Die Bund-Fassaden selbst (Zollhaus, HSBC) fotografiert man von der Pudong-Uferpromenade (Binjiang Ave) – abends angestrahlt, 70–200 mm. Morgens 6–7 Uhr Tai-Chi, Drachentanz und Jogger vor der Skyline (Gegenlicht). Luftbilder mit dem Denkmal von oben sind Drohnen-/Hotelaufnahmen – Drohnen am Bund verboten. Beleuchtung abends ca. bis 22 Uhr (Wochenende teils länger, nicht bestätigt). Tulpen-Bilder: nur im Frühjahr.",
+  "note": "Skyline abends, wenn alles beleuchtet ist. Zeitreihe von @ivanpkhc (Sonnenaufgang, Tag, Gewitter, Sonnenuntergang, Dämmerung, Nacht): immer derselbe Standpunkt am Bund-Ufer mit Tele über den Huangpu, Wasser mit Langzeitbelichtung geglättet. Research 28.10. (Wunsch „Fotoapparat“ als Foto-Standpunkte verstanden – eine Kamera-Skulptur am Bund gibt es laut Recherche nicht): Promenade (外滩观景平台) auf Höhe Nanjing Lu/Chen-Yi-Platz für die Skyline frontal mit 24–70 mm; Nordende am Volksheldendenkmal/Huangpu-Park für Pearl + Shanghai Tower gestaffelt; Seitenstraßen (z. B. Ostende von Fuzhou Lu/Guangdong Lu) rahmen den Pearl Tower zwischen den Fassaden (70–135 mm). Die Bund-Fassaden selbst (Zollhaus, HSBC) fotografiert man von der Pudong-Uferpromenade (Binjiang Ave) – abends angestrahlt, 70–200 mm. Morgens 6–7 Uhr Tai-Chi, Drachentanz und Jogger vor der Skyline (Gegenlicht). Luftbilder mit dem Denkmal von oben sind Drohnen-/Hotelaufnahmen – Drohnen am Bund verboten. Beleuchtung abends ca. bis 22 Uhr (Wochenende teils länger, nicht bestätigt). Tulpen-Bilder: nur im Frühjahr.",
   "address": "Huangpu, Shanghai",
   "lat": 31.2402,
   "lng": 121.4979,
@@ -3588,6 +3588,56 @@ window.PLACES_CN = [
     "caption": "Shanghai: A thrilling blend of the old, the new, the reinvented and reused. Swipe to the end for our most anticipated architectural unveiling in 2026.\n\nCaptured by @shadooplay @laurianghinitoiu @creatarimages, Dong Liang, 10 Studio // Chillooll, PumpkinZhang, 摄影师周润, KIWI桃桃, 七七., ShanghaiWoW, Arong吖, Ziqianqian on 小红书\n\n#chinamoderne #newchina",
     "match": "slide",
     "slide": 1
+   },
+   {
+    "url": "https://www.instagram.com/ivanpkhc/p/DTF6smaj5L0/?img_index=2",
+    "username": "ivanpkhc",
+    "profile_url": "https://www.instagram.com/ivanpkhc/",
+    "kind": "p",
+    "image": "images/DTF6smaj5L0_2.jpg",
+    "caption": "Shanghai’s stunning skyline at different times of day. which is your favorite? \n\ncover —> sunrise —> daytime —> stormy —> sunset —> dusk —> night \n\nShanghai has one of the most aesthetic skylines I’ve seen in my life. I couldn’t resist going to capture it at different times of day. \n\n.\n.\n.\n\n#travelchina #cityscapes #iamaphotographer #adobe #lightroom",
+    "match": "slide",
+    "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/ivanpkhc/p/DTF6smaj5L0/?img_index=3",
+    "username": "ivanpkhc",
+    "profile_url": "https://www.instagram.com/ivanpkhc/",
+    "kind": "p",
+    "image": "images/DTF6smaj5L0_3.jpg",
+    "caption": "Shanghai’s stunning skyline at different times of day. which is your favorite? \n\ncover —> sunrise —> daytime —> stormy —> sunset —> dusk —> night \n\nShanghai has one of the most aesthetic skylines I’ve seen in my life. I couldn’t resist going to capture it at different times of day. \n\n.\n.\n.\n\n#travelchina #cityscapes #iamaphotographer #adobe #lightroom",
+    "match": "slide",
+    "slide": 3
+   },
+   {
+    "url": "https://www.instagram.com/ivanpkhc/p/DTF6smaj5L0/?img_index=5",
+    "username": "ivanpkhc",
+    "profile_url": "https://www.instagram.com/ivanpkhc/",
+    "kind": "p",
+    "image": "images/DTF6smaj5L0_5.jpg",
+    "caption": "Shanghai’s stunning skyline at different times of day. which is your favorite? \n\ncover —> sunrise —> daytime —> stormy —> sunset —> dusk —> night \n\nShanghai has one of the most aesthetic skylines I’ve seen in my life. I couldn’t resist going to capture it at different times of day. \n\n.\n.\n.\n\n#travelchina #cityscapes #iamaphotographer #adobe #lightroom",
+    "match": "slide",
+    "slide": 5
+   },
+   {
+    "url": "https://www.instagram.com/ivanpkhc/p/DTF6smaj5L0/?img_index=6",
+    "username": "ivanpkhc",
+    "profile_url": "https://www.instagram.com/ivanpkhc/",
+    "kind": "p",
+    "image": "images/DTF6smaj5L0_6.jpg",
+    "caption": "Shanghai’s stunning skyline at different times of day. which is your favorite? \n\ncover —> sunrise —> daytime —> stormy —> sunset —> dusk —> night \n\nShanghai has one of the most aesthetic skylines I’ve seen in my life. I couldn’t resist going to capture it at different times of day. \n\n.\n.\n.\n\n#travelchina #cityscapes #iamaphotographer #adobe #lightroom",
+    "match": "slide",
+    "slide": 6
+   },
+   {
+    "url": "https://www.instagram.com/ivanpkhc/p/DTF6smaj5L0/?img_index=7",
+    "username": "ivanpkhc",
+    "profile_url": "https://www.instagram.com/ivanpkhc/",
+    "kind": "p",
+    "image": "images/DTF6smaj5L0_7.jpg",
+    "caption": "Shanghai’s stunning skyline at different times of day. which is your favorite? \n\ncover —> sunrise —> daytime —> stormy —> sunset —> dusk —> night \n\nShanghai has one of the most aesthetic skylines I’ve seen in my life. I couldn’t resist going to capture it at different times of day. \n\n.\n.\n.\n\n#travelchina #cityscapes #iamaphotographer #adobe #lightroom",
+    "match": "slide",
+    "slide": 7
    },
    {
     "url": "https://www.instagram.com/p/DdOZ9rGkiHe/?img_index=3",
