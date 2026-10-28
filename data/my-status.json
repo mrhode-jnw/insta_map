@@ -835,5 +835,8 @@
  },
  "cn-xintiandi": {
   "prio": "gering"
+ },
+ "cn-pacific-xintiandi-observation-hall": {
+  "prio": "mittel"
  }
 }
