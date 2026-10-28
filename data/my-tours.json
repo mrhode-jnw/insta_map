@@ -87,9 +87,9 @@
   "stops": [
    "claude-cn-zhapu-road-bridge-suzhou-creek",
    "cn-waibaidu-bridge-suzhou-creek",
-   "cn-the-bund-lujiazui",
    "cn-yuanmingyuan-road",
-   "cn-carlowitz-building"
+   "cn-carlowitz-building",
+   "cn-the-bund-lujiazui"
   ],
   "created": "2026-10-28"
  },
