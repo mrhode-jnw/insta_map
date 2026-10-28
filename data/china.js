@@ -4147,7 +4147,7 @@ window.PLACES_CN = [
   "name": "Shanghai Tower Observation Deck 上海中心",
   "district": "Lujiazui, Shanghai",
   "category": "Aussicht",
-  "note": "Sonnenuntergang über Oriental Pearl Tower und Huangpu-Bogen.",
+  "note": "Sonnenuntergang über Oriental Pearl Tower und Huangpu-Bogen; vom Deck senkrecht hinunter auf das SWFC-„Flaschenöffner“-Dach mit dem Oriental Pearl Tower im Durchblick.",
   "address": "Lujiazui, Shanghai",
   "lat": 31.2356,
   "lng": 121.5012,
@@ -4186,6 +4186,26 @@ window.PLACES_CN = [
     "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
     "match": "slide",
     "slide": 7
+   },
+   {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=10",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_10.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 10
+   },
+   {
+    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=3",
+    "username": "jackyy_wch",
+    "profile_url": "https://www.instagram.com/jackyy_wch/",
+    "kind": "p",
+    "image": "images/De1Y1TXElV9_3.jpg",
+    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
+    "match": "slide",
+    "slide": 3
    }
   ],
   "pop": 5,
@@ -4345,37 +4365,17 @@ window.PLACES_CN = [
   "name": "Shanghai World Financial Center 上海环球金融中心",
   "district": "Lujiazui, Shanghai",
   "category": "Aussicht",
-  "note": "„Flaschenöffner“-Hochhaus (KPF); Foto von oben, typisch vom Shanghai-Tower-Aussichtsdeck auf das SWFC-Dach.",
+  "note": "„Flaschenöffner“-Hochhaus (KPF); Blick von unten zwischen den drei Lujiazui-Türmen. (Die Aufnahmen von oben aufs SWFC-Dach entstehen vom Shanghai Tower aus und hängen dort.)",
   "address": "Lujiazui, Shanghai",
   "lat": 31.236577,
   "lng": 121.503041,
   "approx": false,
-  "image": "images/DeoaxnlmLO7_10.jpg",
-  "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
-  "post_url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=10",
-  "username": "demas",
-  "profile_url": "https://www.instagram.com/demas/",
+  "image": "images/De1Y1TXElV9_7.jpg",
+  "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
+  "post_url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=7",
+  "username": "jackyy_wch",
+  "profile_url": "https://www.instagram.com/jackyy_wch/",
   "posts": [
-   {
-    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=10",
-    "username": "demas",
-    "profile_url": "https://www.instagram.com/demas/",
-    "kind": "p",
-    "image": "images/DeoaxnlmLO7_10.jpg",
-    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
-    "match": "slide",
-    "slide": 10
-   },
-   {
-    "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=3",
-    "username": "jackyy_wch",
-    "profile_url": "https://www.instagram.com/jackyy_wch/",
-    "kind": "p",
-    "image": "images/De1Y1TXElV9_3.jpg",
-    "caption": "| It’s great to be back - Shanghai 🇨🇳\n.\n.\n.\n#shanghai #china #travel #photography #sonyalpha",
-    "match": "slide",
-    "slide": 3
-   },
    {
     "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=7",
     "username": "jackyy_wch",
@@ -4389,7 +4389,7 @@ window.PLACES_CN = [
   ],
   "pop": 5,
   "pop_reason": "Ikonischer Wolkenkratzer mit Aussichtsdeck",
-  "when": "both"
+  "when": "day"
  },
  {
   "id": "cn-shanghai-astronomy-museum",
