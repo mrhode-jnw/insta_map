@@ -832,5 +832,8 @@
  },
  "cn-shanghai-juss-international-equestrian-center": {
   "prio": "mittel"
+ },
+ "cn-xintiandi": {
+  "prio": "gering"
  }
 }
