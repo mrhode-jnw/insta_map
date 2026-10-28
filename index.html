@@ -1135,7 +1135,7 @@
         <option value="">☀️🌙 Tag & Nacht</option><option value="day">☀️ Tag</option><option value="night">🌙 Nacht</option>
       </select>
       <select id="fMore" aria-label="Auswahl">
-        <option value="">✨ Alle Spots</option><option value="fav">❤️ Favoriten</option><option value="pop">🔥 Beliebte</option><option value="rain">🌧 Bei Regen</option><option value="trash">🗑 Gelöschte</option>
+        <option value="">✨ Alle Spots</option><option value="fav">❤️ Favoriten</option><option value="pop">🔥 Beliebte</option><option value="rain">🌧 Bei Regen</option><option value="tour">🧭 Nur aktive Tour</option><option value="trash">🗑 Gelöschte</option>
       </select>
       <select id="area" aria-label="Viertel"><option value="">Alle Viertel</option></select>
     </div>
@@ -1858,6 +1858,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     activeTour = id || null;
     try { activeTour ? localStorage.setItem("tour", activeTour) : localStorage.removeItem("tour"); } catch {}
     drawTour();
+    try { if (tourF) renderList(); } catch {}  // Filter „Nur aktive Tour“ folgt der eingeblendeten Tour (try: beim Start ist tourF evtl. noch nicht da)
   }
   // Speichern: sofort lokal, kurz danach ins Repo (wie der Status)
   let toursTimer = null;
@@ -2154,7 +2155,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (cat && cat !== "★ Meine" && !places.some(p => p.category === cat && inGroup(p))) { cat = null; saveCat(); }
     renderChips(); renderList();
   });
-  let favF = false, trashF = false, rainF = false, areaF = ""; try { areaF = localStorage.getItem("areaF") || ""; } catch {}
+  let favF = false, trashF = false, rainF = false, tourF = false, areaF = ""; try { areaF = localStorage.getItem("areaF") || ""; } catch {}
   // Viertel/Bereich: Hongkong-Bezirke vereinheitlicht, China als „Stadt – Viertel“
   const AREA_ALIAS = { "Mongkok": "Mong Kok", "Mongkok / Yau Ma Tei": "Mong Kok", "Mong Kok East": "Mong Kok", "Mid-levels": "Mid-Levels", "Harbour": "Victoria Harbour" };
   // Hongkong: Stadtteile zu größeren Bereichen zusammengefasst
@@ -2204,7 +2205,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const FILTERS = {
     fDone: v => { doneF = v || null; },
     fPrio: v => { prioF.clear(); if (v) v.split(",").forEach(x => prioF.add(x)); },
-    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; rainF = v === "rain"; if (rainF && !ideasOn) setIdeas(1); },
+    fMore: v => { favF = v === "fav"; popF = v === "pop"; trashF = v === "trash"; rainF = v === "rain"; tourF = v === "tour"; if (rainF && !ideasOn) setIdeas(1);
+      if (tourF && !activeTour) toast("Keine Tour eingeblendet – unter 🧭 Touren eine Tour einblenden", 2500); },
     fWhen: v => { whenF = v || null; },
   };
   Object.entries(FILTERS).forEach(([id, apply]) => {
@@ -2258,6 +2260,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const hay = [p.name, p.address, p.district, p.category, p.note, p.tip, p.caption, p.username,
       ...(p.posts || []).map(x => x.username + " " + x.caption)].join(" ").toLowerCase();
     const s = st(p.id);
+    if (tourF) return !p.noloc && activeTourIds().includes(p.id) && (trashF ? s.hidden : true);  // „Nur aktive Tour“: genau die Stopps, egal ob Foto/Erlebnis
     return !p.noloc && inGroup(p) && (!cat || p.category === cat || (cat === "★ Meine" && p.mine))
       && (!q || hay.includes(q))
       && (!prioF.size || prioF.has(s.prio || "none")) && (s.prio !== "nein" || prioF.has("nein") || trashF) && (!doneF || (doneF === "done" ? s.done : !s.done))
@@ -3607,6 +3610,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     const favIdea = p => p.idea && st(p.id).fav ? 1 : 0;
     items = items.map(p => ({ ...p, _d: here() ? dist(me, p) : 0, _a: areaOf(p) }))
       .sort((a, b) => favIdea(b) - favIdea(a) || (sortBy === "area" ? a._a.localeCompare(b._a, "de") || (routeF ? routeStop(a) - routeStop(b) : 0) || (b.pop || 0) - (a.pop || 0)
+        : tourF ? activeTourIds().indexOf(a.id) - activeTourIds().indexOf(b.id)
         : routeF && sortBy === "auto" ? routeStop(a) - routeStop(b) || (b.pop || 0) - (a.pop || 0)
         : sortBy === "new" ? addedAt(b).localeCompare(addedAt(a)) || a._d - b._d
         : sortBy === "upd" ? addedAt(b, 1).localeCompare(addedAt(a, 1)) || addedAt(b).localeCompare(addedAt(a)) || a._d - b._d
@@ -3621,7 +3625,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     syncFilterSw();
     $("#view").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.v === "area" ? inView : x.dataset.v === view));
     $("#list").classList.toggle("grid", view === "grid");
-    const filtered = ideasOn || favF || trashF || rainF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
+    const filtered = ideasOn || favF || trashF || rainF || tourF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
       return `${p.rain ? `<span title="Gut bei Regen">🌧 </span>` : ""}${s.fav && !p.idea ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
