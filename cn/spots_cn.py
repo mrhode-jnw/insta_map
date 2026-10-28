@@ -155,7 +155,7 @@ SPOTS = [
  ("The Bund & Lujiazui 外滩 · 陆家嘴", 31.2402, 121.4979, False, "Huangpu, Shanghai", "Aussicht",
   [(35, 1), 16, (43, 4), (43, 6), (44, 11), (52, 1), (52, 6), 87, (99, 2), (99, 5)], "Skyline abends, wenn alles beleuchtet ist."),
  ("North Bund Riverside Park 北外滩滨江", 31.2500, 121.4990, True, "Hongkou, Shanghai", "Aussicht",
-  [(35, 3), 45, (43, 2), (44, 2), (44, 5), (46, 2)], "Uferpark mit Blick auf Lujiazui, morgens ruhig."),
+  [(35, 3), 45, (43, 2), (44, 2), (44, 5), (46, 2)], "Uferpark mit Blick auf Lujiazui, morgens ruhig. Berühmt für das silberne Spiegel-Ei (小巨蛋, Spiegelei am Ufer vor den Lujiazui-Türmen) in der Uferanlage 国客中心滨江绿地 am Shanghai International Cruise Terminal (Metro 国际客运中心, Linie 4): Schieferpfad im Rasen, Pearl Tower, Shanghai Tower und IFC-Zwillingstürme dahinter, 270° freie Flussblick. Beste Zeit: früh am Morgen vor den Touristen (5:30–7:30) oder bei Sonne, wenn die Kugel Himmel und Wolken spiegelt; für den Blick von oben auf Ei und Skyline die Regenbogenbrücke 彩虹桥. Pin ungefähr – an der Uferpromenade vor dem Terminal suchen."),
  ("RockBund 外滩源", 31.244389, 121.48416, False, "Huangpu, Shanghai", "Architektur",
   [(35, 5), (43, 8), (46, 6)], "Historische Bauten nördlich des Bund, neugotische Kirche."),
  ("Bvlgari Hotel Shanghai 宝格丽酒店", 31.2455, 121.4805, True, "Suhe, Shanghai", "Aussicht",

@@ -3599,7 +3599,7 @@ window.PLACES_CN = [
   "name": "North Bund Riverside Park 北外滩滨江",
   "district": "Hongkou, Shanghai",
   "category": "Aussicht",
-  "note": "Uferpark mit Blick auf Lujiazui, morgens ruhig.",
+  "note": "Uferpark mit Blick auf Lujiazui, morgens ruhig. Berühmt für das silberne Spiegel-Ei (小巨蛋, Spiegelei am Ufer vor den Lujiazui-Türmen) in der Uferanlage 国客中心滨江绿地 am Shanghai International Cruise Terminal (Metro 国际客运中心, Linie 4): Schieferpfad im Rasen, Pearl Tower, Shanghai Tower und IFC-Zwillingstürme dahinter, 270° freie Flussblick. Beste Zeit: früh am Morgen vor den Touristen (5:30–7:30) oder bei Sonne, wenn die Kugel Himmel und Wolken spiegelt; für den Blick von oben auf Ei und Skyline die Regenbogenbrücke 彩虹桥. Pin ungefähr – an der Uferpromenade vor dem Terminal suchen.",
   "address": "Hongkou, Shanghai",
   "lat": 31.25,
   "lng": 121.499,
@@ -3668,6 +3668,15 @@ window.PLACES_CN = [
     "caption": "Moments from Shanghai Oriental Pearl TV Tower 🇨🇳\n\n1. Shanghai North Bund Park (北外滩湖滨江绿地）\n2. Dongchangzhi Road (东长治路与旅顺路交叉口）- beside W Hotel\n3. Jiulong Road (九龙路与东长治路交叉口)\n3. Nanjing Road\n5. Rockbund (乍浦路与南苏州路交叉口）\n6. Waibaidu Bridge (外白渡桥）\n7. 礼和洋行 （behind Edition Hotel)\n8. Shanghai Postal Musuem (上海邮政博物馆)\n\nI can walk the whole Shanghai street and the bund the whole day is the weather is good. There are so much to capture and explore! Many spots I haven’t have time to cover as well!\n\n#shanghaicity #shanghaistreet #shanghaitower #shanghaiorientalpearltower #shanghaibund #shanghaichina #shanghaitri",
     "match": "slide",
     "slide": 2
+   },
+   {
+    "url": "https://www.instagram.com/anshnanda_cn/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/anshnanda_cn/",
+    "kind": "photo",
+    "image": "images/cq_sh_northbund_ei_anshnanda.jpg",
+    "caption": "Steinpfad mit dem Spiegel-Ei und Lujiazui (Reel „The Shanghai Beautiful Morning“)",
+    "credit": "@anshnanda_cn · Instagram"
    }
   ],
   "pop": 3,
