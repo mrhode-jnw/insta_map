@@ -402,8 +402,9 @@ views.kurz = async () => {
     <div class="pills">${TOPICS.map(([k, l], n) => `<label class="pill"><input type="radio" name="topic" value="${k}" ${n ? "" : "checked"}><span>${l}</span></label>`).join("")}</div>
     <div class="pills">${[8, 15].map((n, i) => `<label class="pill"><input type="radio" name="size" value="${n}" ${i ? "" : "checked"}><span>${n} Karten</span></label>`).join("")}</div>
     <button class="big">Los</button></form>
+  ${wrongN ? `<p><button class="secondary" data-action="snack-retry">Falsch beantwortete wiederholen (${wrongN})</button></p>` : ""}
   <div class="seg-list">${Object.entries(SEGMENTS).filter(([, v]) => !v.quiz).map(([k, v]) => `<span><i>${SEG_ICON[k]}</i>${v.name}</span>`).join("")}</div>
-  ${st.total ? `<p class="muted small">Bisher ${st.total} Antworten, ${Math.round(100 * st.right / st.total)} % richtig · ${st.rounds} Runden${wrongN ? ` · ${wrongN} Karten kommen wieder` : ""}</p>` : ""}`;
+  ${st.total ? `<p class="muted small">Bisher ${st.total} Antworten, ${Math.round(100 * st.right / st.total)} % richtig · ${st.rounds} Runden${wrongN ? ` · ${wrongN} zum Wiederholen` : ""}</p>` : ""}`;
 };
 const mdInline = t => md(t).replace(/^<p>|<\/p>$/g, "");
 function snackBody(card, res, st) {
@@ -595,7 +596,7 @@ function snackEnd(st) {
   ${wrong.length ? `<h3>Zum Nachlesen</h3><ul class="snack-wrong">${wrong.map(([, k]) => { const im = k.image || k.crop?.id || k.items?.[0]?.id;
     return `<li>${im ? `<a href="${k.link[0]}">${media(im)}</a>` : ""}<div><span class="muted small">${esc(k.label)}</span><br>${k.kind === "mc" ? mdInline(k.options.find(o => o.correct).text) : k.kind === "multi" ? k.options.filter(o => o.correct).map(o => esc(o.text)).join(" · ") : k.kind === "assign" ? k.rows.map(r => esc(r.answer)).join(" · ")
       : k.kind === "swipe2" ? `${esc(k.bins[0])} oder ${esc(k.bins[1])}` : k.kind === "tone" || k.kind === "fmt" ? esc(k.prompt) : k.kind === "tf" ? (k.truth ? "Stimmt: " : "Stimmt nicht: ") + esc(k.statement) : k.kind === "slider" ? `Entstanden ${k.year}` : k.kind === "estimate" ? `${k.value} ${esc(k.unit)}` : k.kind === "geo" ? esc(k.place) : "Reihenfolge: " + k.solution.map(x => k.items[x].label || k.items[x].year).join(" → ")} <a href="${k.link[0]}">→</a></div></li>`; }).join("")}</ul>
-    <p class="muted small">Diese Karten kommen in einer der nächsten Runden wieder.</p>` : scored.length ? `<p class="ok">Alles richtig.</p>` : ""}
+    <p class="muted small">Neue Runden bringen nur neue Karten. Diese hier kannst du auf der Häppchen-Seite gezielt wiederholen.</p>` : scored.length ? `<p class="ok">Alles richtig.</p>` : ""}
   <p><button class="big" data-action="snack-again">Noch eine Runde</button> <a href="#/kurz">Thema wechseln</a></p>`;
 }
 
@@ -981,9 +982,13 @@ const errMsg = e => e instanceof AIError ? e.message : `Fehler: ${e.message}`;
 
 const actions = {
   async "snack-start"(form) {
-    const f = new FormData(form), st = await snackStats();
-    const wrong = Object.entries(st.last || {}).filter(([, v]) => v === 0).map(([k]) => k);
-    sess.set("snack", { topic: f.get("topic"), cards: makeRound(f.get("topic"), Number(f.get("size")), shuffle(wrong)), pos: 0, results: {} });
+    const f = new FormData(form);
+    startSnackRound(f.get("topic"), Number(f.get("size")), await snackStats());
+    location.hash = "#/kurz/karte";
+  },
+  async "snack-retry"() { // only the cards answered wrong, on request
+    const stats = await snackStats(), wrong = shuffle(Object.entries(stats.last || {}).filter(([, v]) => v === 0).map(([k]) => k));
+    sess.set("snack", { topic: "mix", retry: true, cards: makeRound("mix", 15, { wrong, only: true }), pos: 0, results: {} });
     location.hash = "#/kurz/karte";
   },
   "snack-answer"(btn) { snackSet(st => st.results[st.pos] ?? Number(btn.dataset.i)); },
@@ -1016,9 +1021,8 @@ const actions = {
     route(); window.scrollTo(0, 0);
   },
   async "snack-again"() {
-    const st = sess.get("snack"), stats = await snackStats();
-    const wrong = Object.entries(stats.last || {}).filter(([, v]) => v === 0).map(([k]) => k);
-    sess.set("snack", { topic: st?.topic || "mix", cards: makeRound(st?.topic || "mix", st?.cards.length || 8, shuffle(wrong)), pos: 0, results: {} });
+    const st = sess.get("snack");
+    startSnackRound(st?.topic || "mix", st && !st.retry ? st.cards.length : 8, await snackStats());
     route();
   },
   async "drill-start"(form) {
@@ -1251,11 +1255,24 @@ async function editChapterImages(id, fn) {
 
 // round stats into progress.enc: totals plus the last result per card (0 = wrong → comes back for repetition)
 function snackSet(fn) { const st = sess.get("snack"); if (!st) return; st.results[st.pos] = fn(st); sess.set("snack", st); route(true); }
+// Seen keys and recent images, kept locally at once (the GitHub copy is written in the background) and in progress.enc.
+function snackSeen(stats) {
+  let loc = {}; try { loc = JSON.parse(store.get("snackSeen") || "{}"); } catch { /* fresh start */ }
+  return { keys: new Set([...(stats.seen || []), ...(loc.keys || [])]), imgs: new Set([...(loc.imgs || []), ...(stats.seenImg || [])].slice(-300)) };
+}
+function startSnackRound(topic, size, stats) {
+  const seen = snackSeen(stats), cards = makeRound(topic, size, { seen: seen.keys, seenImg: seen.imgs });
+  const keys = [...seen.keys, ...cards.map(c => c.key)].slice(-6000), imgs = [...seen.imgs, ...cards.map(c => c.key.split("|")[0]).filter(i => lib.by.images.has(i))].slice(-300);
+  store.set("snackSeen", JSON.stringify({ keys, imgs }));
+  sess.set("snack", { topic, cards, pos: 0, results: {} });
+}
 function saveSnackRound(st) {
   if (st.saved) return; st.saved = true; sess.set("snack", st);
   const res = st.cards.map((c, i) => { const k = buildCard(c); return k?.scored && !["reveal", "info", "story", "look"].includes(k.kind) ? [cardId(c), isRight(k, st.results[i]) ? 1 : 0] : null; }).filter(Boolean);
   const apply = s => { const sn = (s.snacks ||= { total: 0, right: 0, rounds: 0, last: {} });
-    sn.total += res.length; sn.right += res.filter(([, v]) => v).length; sn.rounds++; for (const [id, v] of res) sn.last[id] = v; return s; };
+    sn.total += res.length; sn.right += res.filter(([, v]) => v).length; sn.rounds++; for (const [id, v] of res) sn.last[id] = v;
+    sn.seen = [...new Set([...(sn.seen || []), ...st.cards.map(c => c.key)])].slice(-6000);
+    sn.seenImg = [...(sn.seenImg || []), ...st.cards.map(c => c.key.split("|")[0]).filter(i => lib.by.images.has(i))].slice(-300); return s; };
   bg(() => mutateState("progress", { theory: {} }, apply, "Häppchen"));
 }
 function startDrill(dims, size, look, sourcedOnly = true) {

@@ -155,20 +155,29 @@ function candidates(type) {
 }
 
 // A round: weighted types, never the same segment twice in a row, at most 40 % classic quiz.
-export function makeRound(topic, size, wrong = []) {
+// No repeats across rounds: keys already seen (any card type built on the same key) are skipped, images of recent rounds
+// are avoided while enough others are left. Wrong answers come back only on request ("only" = a round made of them).
+export function makeRound(topic, size, { wrong = [], seen = new Set(), seenImg = new Set(), only = false } = {}) {
   const weights = (TOPICS.find(t => t[0] === topic) || TOPICS[0])[2], r = Math.random;
   const pool = Object.fromEntries(Object.keys(weights).map(t => [t, candidates(t)]));
   const types = Object.entries(weights).filter(([t]) => pool[t].length).flatMap(([t, w]) => Array(w).fill(t));
-  const cards = [], used = new Set(), usedImg = new Set(), maxQuiz = topic === "quiz" ? size : Math.floor(size * 0.4);
-  const ok = (t, key) => { const im = key.split("|")[0];
-    return !used.has(`${t}:${key}`) && !(img(im) && usedImg.has(im)) && cards[cards.length - 1]?.type !== t
+  const cards = [], used = new Set(), usedImg = new Set(), maxQuiz = topic === "quiz" || only ? size : Math.floor(size * 0.4);
+  const imOf = key => key.split("|")[0];
+  const ok = (t, key, level) => { const im = imOf(key);
+    return !used.has(key) && !(img(im) && usedImg.has(im)) && cards[cards.length - 1]?.type !== t
+      && (level >= 2 || !seen.has(key)) && (level >= 1 || !(img(im) && seenImg.has(im)))
       && !(SEGMENTS[t].quiz && cards.filter(c => SEGMENTS[c.type].quiz).length >= maxQuiz); };
-  const add = (t, key) => { used.add(`${t}:${key}`); const im = key.split("|")[0]; if (img(im)) usedImg.add(im); cards.push({ type: t, key }); };
-  for (const id of wrong) { if (cards.length >= Math.ceil(size / 3)) break; const [t, ...k] = id.split(":"); if (weights[t] && candidates(t).includes(k.join(":")) && ok(t, k.join(":"))) add(t, k.join(":")); }
-  for (let guard = 0; cards.length < size && guard < size * 80 && types.length; guard++) {
-    const t = types[Math.floor(r() * types.length)], key = pool[t][Math.floor(r() * pool[t].length)];
-    if (ok(t, key)) add(t, key);
+  const add = (t, key) => { used.add(key); const im = imOf(key); if (img(im)) usedImg.add(im); cards.push({ type: t, key }); };
+  if (only) {
+    for (const id of wrong) { if (cards.length >= size) break; const [t, ...k] = id.split(":"), key = k.join(":");
+      if (SEGMENTS[t] && candidates(t).includes(key) && !used.has(key) && cards[cards.length - 1]?.type !== t) add(t, key); }
+    return cards;
   }
+  for (let level = 0; level < 3 && cards.length < size; level++) // 0: fresh keys and images, 1: fresh keys, 2: pool exhausted
+    for (let guard = 0; cards.length < size && guard < size * 120 && types.length; guard++) {
+      const t = types[Math.floor(r() * types.length)], key = pool[t][Math.floor(r() * pool[t].length)];
+      if (ok(t, key, level)) add(t, key);
+    }
   return cards;
 }
 export const cardId = c => `${c.type}:${c.key}`;
