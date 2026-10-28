@@ -615,7 +615,8 @@
  },
  "idea-sh-bundmorgen": {
   "fav": true,
-  "prio": "hoch"
+  "prio": "hoch",
+  "kind": "both"
  },
  "idea-sh-wukang": {
   "fav": true,
