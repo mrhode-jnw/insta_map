@@ -834,7 +834,8 @@
   "prio": "mittel"
  },
  "cn-xintiandi": {
-  "prio": "gering"
+  "prio": "gering",
+  "kind": "sight"
  },
  "cn-pacific-xintiandi-observation-hall": {
   "prio": "mittel"
