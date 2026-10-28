@@ -13485,6 +13485,40 @@ window.PLACES_CN = [
   "image_page": "https://www.instagram.com/whereizhanhan/",
   "image_credit": "@whereizhanhan · Instagram",
   "when": "day"
+ },
+ {
+  "id": "cn-pearl-tower-nahaufnahme-tele-vom-bund-blaue-stun",
+  "region": "cn",
+  "name": "Pearl Tower Nahaufnahme 东方明珠 (Tele vom Bund, blaue Stunde)",
+  "district": "Huangpu (Bund), Shanghai",
+  "category": "",
+  "note": "Nahaufnahme der unteren Kugel und der schrägen Stützbeine des Oriental Pearl Tower (东方明珠) zur blauen Stunde, im Hintergrund Lujiazui-Türme; beschriftet „Lujiazui Financial Zone“, Folie 4/18 in „The most photogenic spots in and around Shanghai“ von @kerenza27. Die Sphäre ist von unten zu sehen, Füße und Ufer verdeckt Grün: Aufnahme auf Boden-Niveau mit sehr langem Tele von der Puxi-Seite des Huangpu, am ehesten von der Bund-Promenade gegenüber (ca. 0,9 km).",
+  "address": "Huangpu (Bund), Shanghai",
+  "lat": 31.2399,
+  "lng": 121.4908,
+  "approx": true,
+  "image": "images/sh_pearl_tele_kerenza27.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/kerenza27/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/kerenza27/",
+    "kind": "photo",
+    "image": "images/sh_pearl_tele_kerenza27.jpg",
+    "caption": "Beschriftet „Lujiazui Financial Zone“ (Folie 4/18)",
+    "credit": "@kerenza27 · Instagram"
+   }
+  ],
+  "source": "Instagram @kerenza27 („The most photogenic spots in and around Shanghai“, Folie 4/18)",
+  "unsure": "Pin = Bund-Promenade gegenüber dem Pearl Tower (Chen-Yi-Platz), aus Perspektive und Entfernung abgeleitet; der genaue Standpunkt ist nicht bekannt (Karussell nennt nur „Lujiazui Financial Zone“). Zum Vergleich: bestehender Spot Oriental Pearl Tower mit Nahaufnahme von erhöhtem Standpunkt (VUE Bar).",
+  "kind": "photo",
+  "image_page": "https://www.instagram.com/kerenza27/",
+  "image_credit": "@kerenza27 · Instagram",
+  "when": "both"
  }
 ];
 window.UNPLACED_CN = [
