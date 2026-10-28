@@ -769,5 +769,15 @@
   "lng": 121.4979,
   "wish": "Fotoapparat recherchieren",
   "added": "2026-10-28T05:17:18.932Z"
+ },
+ {
+  "kind": "research",
+  "id": "res:cn-museum-of-art-pudong:mvro8k3f",
+  "spot": "cn-museum-of-art-pudong",
+  "spotName": "Museum of Art Pudong 浦东美术馆",
+  "lat": 31.240309,
+  "lng": 121.491972,
+  "wish": "Öffnungszeiten",
+  "added": "2026-10-28T05:25:59.355Z"
  }
 ]
