@@ -812,5 +812,9 @@
  },
  "cn-museum-of-art-pudong": {
   "prio": "mittel"
+ },
+ "cn-the-stage-white-magnolia-plaza": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
