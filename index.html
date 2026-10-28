@@ -648,6 +648,7 @@
   #lb .acts { display: flex; gap: 8px; align-items: center; }
   #lb .acts button { width: 40px; height: 40px; font-size: 20px; }
   #lb #lbIns.on { background: #facc15; }
+  #lb #lbCover.on { background: #3b82f6; }
   #lb .acts button[hidden] { display: none; }
   #lb .bottom #lbLoc[hidden] { display: none; } #lb .bottom #lbLoc:disabled { opacity: .7; cursor: default; }
   #lb .bottom a.btn { flex: none; background: var(--accent); padding: 9px 14px; border-radius: 10px; text-decoration: none; font-size: 14px; }
@@ -1177,7 +1178,7 @@
   <div id="tlBody"></div>
 </div>
 <div id="lb" hidden>
-  <div class="top"><span id="lbCount"></span><div class="acts"><button id="lbIns" type="button" hidden title="Als Inspiration markieren" aria-label="Als Inspiration markieren">💡</button><button id="lbDel" type="button" hidden title="Foto entfernen" aria-label="Foto entfernen">🗑</button><button id="lbClose" aria-label="Schließen">✕</button></div></div>
+  <div class="top"><span id="lbCount"></span><div class="acts"><button id="lbCover" type="button" hidden title="Als Cover festlegen" aria-label="Als Cover festlegen">🖼</button><button id="lbIns" type="button" hidden title="Als Inspiration markieren" aria-label="Als Inspiration markieren">💡</button><button id="lbDel" type="button" hidden title="Foto entfernen" aria-label="Foto entfernen">🗑</button><button id="lbClose" aria-label="Schließen">✕</button></div></div>
   <div class="stage"><div id="lbStrip"></div><button class="nav prev" id="lbPrev" aria-label="Vorheriges Bild">‹</button><button class="nav next" id="lbNext" aria-label="Nächstes Bild">›</button></div>
   <div class="bottom"><div class="who" id="lbWho"></div><a class="btn" id="lbPost" target="_blank" rel="noopener">Post öffnen ↗</a><button class="btn" id="lbLoc" type="button" hidden>🔎 Ort recherchieren</button></div>
   <div id="lbGal"></div>
@@ -2581,7 +2582,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (lc) { $("#lbLoc").textContent = !ls ? "🔎 Ort finden" : ls.status === "found" ? `📍 ${(places.find(x => x.id === ls.spot) || {}).name ? shortName(places.find(x => x.id === ls.spot).name) : "Spot"}`
       : ls.status === "notfound" ? "❓ Ort nicht gefunden" : "⏳ Ort wird recherchiert"; $("#lbLoc").disabled = !!ls && ls.status === "pending"; }
     const sp = lbSpot(), idx = lbIdx();
-    $("#lbIns").hidden = $("#lbDel").hidden = !sp || idx < 0;
+    $("#lbIns").hidden = $("#lbDel").hidden = $("#lbCover").hidden = !sp || idx < 0;
+    if (sp && idx >= 0) { const cv = sp.image === it.src; $("#lbCover").classList.toggle("on", cv); $("#lbCover").title = cv ? ((spotExtras.__cover || {})[sp.id] ? "Cover zurücksetzen" : "Ist das Cover") : "Als Cover festlegen"; }
     if (sp && idx >= 0) { const on = isInsp(it.src); $("#lbIns").title = on ? "Inspiration entfernen" : "Als Inspiration markieren"; $("#lbIns").classList.toggle("on", on); }
     $("#lbGal").querySelectorAll("img").forEach((im, k) => im.classList.toggle("cur", k === i));
     [i - 1, i + 1, i + 2].forEach(k => { const d = lbStrip.children[k]; if (d && d.firstElementChild.loading === "lazy") d.firstElementChild.loading = "eager"; });  // Nachbarn laden
@@ -3406,7 +3408,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "136 · Research-Button am Spot";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "137 · Cover-Foto pro Spot wählbar";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3490,6 +3492,23 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const lbSpot = () => lb.spot ? places.find(x => x.id === lb.spot) || null : null;
   const lbIdx = () => { const sp = lbSpot(), it = lb.list[lb.i]; return sp && it ? imgsOf(sp).findIndex(x => x.image === it.src) : -1; };
   $("#lbIns").onclick = e => { e.stopPropagation(); const sp = lbSpot(), idx = lbIdx(); if (sp && idx >= 0) toggleInsp(sp.id, idx, null, () => lbMeta(lb.i)); };
+  // Cover: gewähltes Foto wird Titelbild des Spots (Karte, Liste, Spot-Karte); gespeichert in data/spot-extras.json unter „__cover“
+  async function setCover(id, src, after) {
+    const p = places.find(x => x.id === id); if (!p) return;
+    if (!store.get(TOKEN_KEY)) { const t = prompt("Zum Speichern einmalig GitHub-Token eingeben:"); if (!t) return; store.set(TOKEN_KEY, t.trim()); }
+    const had = (spotExtras.__cover || {})[id], reset = had === src || (!had && p._orig && p._orig.image === src);
+    if (!had && reset) { toast("Das ist schon das Cover", 1500); return; }
+    const before = spotExtras, cur = { ...(before.__cover || {}) };
+    reset ? delete cur[id] : cur[id] = src;
+    spotExtras = { ...before, __cover: cur }; if (!Object.keys(cur).length) delete spotExtras.__cover;
+    applyExtras(id); renderList(); toast(reset ? "🖼 Original-Cover wiederhergestellt" : "🖼 Als Cover gesetzt", 1800); if (after) after();
+    try {
+      spotExtras = await mutate(d => { d = d && !Array.isArray(d) ? d : {}; const c = { ...(d.__cover || {}) };
+        reset ? delete c[id] : c[id] = src; d.__cover = c; if (!Object.keys(c).length) delete d.__cover; return d; }, `Cover ${reset ? "zurückgesetzt" : "gesetzt"} (${id})`, EXTRAS_PATH, {});
+      applyExtras(id);
+    } catch (e) { spotExtras = before; applyExtras(id); renderList(); toast(e.message, 5000); if (/Token/.test(e.message)) store.set(TOKEN_KEY, null); if (after) after(); }
+  }
+  $("#lbCover").onclick = e => { e.stopPropagation(); const sp = lbSpot(), it = lb.list[lb.i]; if (sp && it && lbIdx() >= 0) setCover(sp.id, it.src, () => lbMeta(lb.i)); };
   $("#lbDel").onclick = async e => { e.stopPropagation(); const sp = lbSpot(), idx = lbIdx(); if (!sp || idx < 0) return;
     await removePhoto(sp.id, idx); lbClose(); };
   $("#lbLoc").onclick = e => { e.stopPropagation(); const img = lb.list[lb.i].src, ls = locState(img), c = lb.locCtx.get(img);
@@ -4355,6 +4374,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     p.posts = [...p.posts, ...photos];
     if (!p.image && photos.length) { p.image = photos[0].image; p.ownImage = true; }
     if (p.ownImage && !photos.length) { p.image = null; p.ownImage = false; }
+    const cv = (spotExtras.__cover || {})[id];  // von dir gewähltes Cover
+    if (cv && p.posts.some(x => x.image === cv)) { p.image = cv; p.ownImage = photos.some(x => x.image === cv); }
     p.xlinks = ex.filter(x => x.type === "link");
     const m = markers.get(id); if (m && typeof iconFor === "function") { try { m.setIcon(iconFor(p)); } catch {} }
   }
