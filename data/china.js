@@ -4178,16 +4178,6 @@ window.PLACES_CN = [
     "slide": 4
    },
    {
-    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=7",
-    "username": "demas",
-    "profile_url": "https://www.instagram.com/demas/",
-    "kind": "p",
-    "image": "images/DeoaxnlmLO7_7.jpg",
-    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
-    "match": "slide",
-    "slide": 7
-   },
-   {
     "url": "https://www.instagram.com/jackyy_wch/p/De1Y1TXElV9/?img_index=3",
     "username": "jackyy_wch",
     "profile_url": "https://www.instagram.com/jackyy_wch/",
@@ -4355,7 +4345,7 @@ window.PLACES_CN = [
   "name": "Shanghai World Financial Center 上海环球金融中心",
   "district": "Lujiazui, Shanghai",
   "category": "Aussicht",
-  "note": "„Flaschenöffner“-Hochhaus (KPF); Blick von unten zwischen den drei Lujiazui-Türmen. Das Luftbild mit dem Oriental Pearl Tower im Durchblick der Öffnung (@demas) entsteht aus der Luft rund 1 km südöstlich des Turms (der Pearl liegt nordwestlich) – kein öffentlicher Standpunkt, nicht vom Shanghai-Tower-Deck.",
+  "note": "„Flaschenöffner“-Hochhaus (KPF); Blick von unten zwischen den drei Lujiazui-Türmen (u. a. der Shanghai Tower bei Nacht von unten, @demas). Das Luftbild mit dem Oriental Pearl Tower im Durchblick der Öffnung (@demas) entsteht aus der Luft rund 1 km südöstlich des Turms (der Pearl liegt nordwestlich) – kein öffentlicher Standpunkt, nicht vom Shanghai-Tower-Deck.",
   "address": "Lujiazui, Shanghai",
   "lat": 31.236577,
   "lng": 121.503041,
@@ -4377,6 +4367,16 @@ window.PLACES_CN = [
     "slide": 7
    },
    {
+    "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=7",
+    "username": "demas",
+    "profile_url": "https://www.instagram.com/demas/",
+    "kind": "p",
+    "image": "images/DeoaxnlmLO7_7.jpg",
+    "caption": "Have you ever been to Shanghai before? 🇨🇳 Which of these buildings looks coolest to you? 👆🏻🏢 So much amazing architecture there! 🤩\n\nThere's a few buildings that I wasn't able to visit and there's also a few new buildings that's now built since I was last there last in 2024. Hope to visit again soon to see more cool architecture! 😀\n\n#shanghai #architecture #photography #china #travel",
+    "match": "slide",
+    "slide": 7
+   },
+   {
     "url": "https://www.instagram.com/demas/p/DeoaxnlmLO7/?img_index=10",
     "username": "demas",
     "profile_url": "https://www.instagram.com/demas/",
@@ -4389,7 +4389,7 @@ window.PLACES_CN = [
   ],
   "pop": 5,
   "pop_reason": "Ikonischer Wolkenkratzer mit Aussichtsdeck",
-  "when": "day"
+  "when": "both"
  },
  {
   "id": "cn-shanghai-astronomy-museum",
