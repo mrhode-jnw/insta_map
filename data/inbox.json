@@ -759,5 +759,15 @@
   "lng": 121.493579,
   "wish": "Bewegt sich der Vorhang immer?",
   "added": "2026-10-28T04:55:09.957Z"
+ },
+ {
+  "kind": "research",
+  "id": "res:cn-the-bund-lujiazui:mvrnxej8",
+  "spot": "cn-the-bund-lujiazui",
+  "spotName": "The Bund & Lujiazui 外滩 · 陆家嘴",
+  "lat": 31.2402,
+  "lng": 121.4979,
+  "wish": "Fotoapparat recherchieren",
+  "added": "2026-10-28T05:17:18.932Z"
  }
 ]
