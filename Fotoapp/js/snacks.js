@@ -49,6 +49,19 @@ export const TOPICS = [ // weights per segment; pure information cards kept to r
 ];
 
 const VOICE = { fotograf: "Fotograf:in", museum: "Museum", kurator: "Kurator:in", kritik: "Kritik", wissenschaft: "Wissenschaft" };
+// Who is speaking – not where the text was found: a museum page quoting the photographer is the photographer's voice.
+const FIRST_PERSON = [/\b(I|I'm|I've|I'd|I'll|us)\b/, /\b(me|my|mine|myself|we|our|ours|ich|mich|mir|mein\w*|wir|uns|unser\w*)\b/i];
+// A "photographer" source that only talks about him/her in the third person is someone else's report, not the photographer's voice.
+const reported = s => !FIRST_PERSON.some(re => re.test(s.excerpt)) && /\b(he|she|his|her|him|er|sie|seine?\w*|ihre?\w*)\b/i.test(s.excerpt);
+const ownWords = s => (s.kind === "fotograf" || s.role === "photographer") && !reported(s);
+function voiceOf(s) {
+  const last = photographerOf(img(s.scope_id) || {}).name.split(" ").pop(), who = `${s.author || ""} ${s.title || ""}`, first = FIRST_PERSON.some(re => re.test(s.excerpt));
+  if (s.kind === "fotograf") return reported(s) ? null : "Fotograf:in";
+  if (/\b(I|my|me|myself)\b/.test(s.excerpt) && !/\b(he|she|his|her|him)\b/i.test(s.excerpt) && /zitat|zitiert|quot/i.test(who) && who.includes(last))
+    return "Fotograf:in"; // only the photographer's own words, e.g. "North Carolina Museum of Art (Zitat Ansel Adams)"
+  if (first) return null; // someone speaks in first person, but it is unclear who – leave it out
+  return VOICE[s.kind] || null;
+}
 const checkables = id => (pools().byImg[id] || []).flatMap(r => r.entries.flatMap(e => e.checkable.map(t => ({ t: stripRefs(t), dim: r.dimension, ref: r, e }))));
 const DIM_NEAR = { viewpoint: ["distance", "scale"], distance: ["viewpoint", "scale", "detail"], omitted: ["frame", "detail"], frame: ["omitted"], layers: ["focus", "atmosphere"], atmosphere: ["light", "layers"], light: ["atmosphere", "color"], color: ["light", "surface"], surface: ["order", "color"], order: ["surface", "frame"], scale: ["distance", "viewpoint"], detail: ["distance", "omitted"], time: ["moment"], moment: ["time"], focus: ["layers"], attitude: [] };
 const SIDE = /\b(links|rechts|linke[nmrs]?|rechte[nmrs]?)\b/i, STAMP_DIMS = ["order", "layers", "frame", "light", "color", "surface"];
@@ -74,14 +87,14 @@ function pools() {
     merke: directives.filter(d => d.kind === "merke").map(d => ({ ...d, text: d.rest })),
     refs, byImg,
     stories: Object.entries(byImg).filter(([, rs]) => rs.filter(r => storyDims.includes(r.dimension)).length >= 2).map(([id]) => id),
-    quotes: lib.sources.filter(s => (s.kind === "fotograf" || s.role === "photographer") && s.excerpt && s.excerpt.length > 70 && s.excerpt.length < 330 && quoteImg(s) && img(quoteImg(s)))
+    quotes: lib.sources.filter(s => ownWords(s) && s.excerpt && s.excerpt.length > 70 && s.excerpt.length < 330 && quoteImg(s) && img(quoteImg(s)))
       .map(s => ({ id: s.id, image: quoteImg(s) })),
     dated: lib.images.filter(i => +i.year >= 1840),
     byPh: lib.images.reduce((m, i) => ((m[i.photographer_id] ||= []).push(i.id), m), {}),
     byProj: lib.images.reduce((m, i) => ((m[i.project_id] ||= []).push(i.id), m), {}),
-    imgQuotes: lib.sources.filter(s => s.scope === "image" && (s.kind === "fotograf") && s.excerpt && s.excerpt.length > 60 && s.excerpt.length < 360 && img(s.scope_id)),
-    voices: Object.entries(lib.sources.filter(s => s.scope === "image" && VOICE[s.kind] && s.excerpt && s.excerpt.length > 50 && s.excerpt.length < 300 && img(s.scope_id))
-      .reduce((m, s) => ((m[s.scope_id] ||= {})[VOICE[s.kind]] ||= s, m), {})).filter(([, v]) => Object.keys(v).length >= 2),
+    imgQuotes: lib.sources.filter(s => s.scope === "image" && ownWords(s) && s.excerpt && s.excerpt.length > 60 && s.excerpt.length < 360 && img(s.scope_id)),
+    voices: Object.entries(lib.sources.filter(s => s.scope === "image" && VOICE[s.kind] && s.excerpt && s.excerpt.length > 50 && s.excerpt.length < 300 && img(s.scope_id) && voiceOf(s))
+      .reduce((m, s) => ((m[s.scope_id] ||= {})[voiceOf(s)] ||= s, m), {})).filter(([, v]) => Object.keys(v).length >= 2),
     places: Object.values(lib.images.filter(i => i.location).reduce((m, i) => ((m[i.location] ||= []).push(i), m), {}))
       .flatMap(list => list.flatMap((a, k) => list.slice(k + 1).filter(b => b.photographer_id !== a.photographer_id && byImg[a.id] && byImg[b.id]).map(b => `${a.id}|${b.id}`))),
     tasks: [...lib.lessons.flatMap(l => (l.exercises || []).map((t, n) => ({ id: `${l.id}|${n}`, text: t, link: [`#/theorie/${l.id}`, `Lektion: ${l.title.split(":")[0]}`] }))),
