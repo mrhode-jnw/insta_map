@@ -779,5 +779,12 @@
   "lng": 121.491972,
   "wish": "Öffnungszeiten",
   "added": "2026-10-28T05:25:59.355Z"
+ },
+ {
+  "kind": "web",
+  "id": "web:1ia6acq",
+  "url": "http://www.thelongmuseum.org/en/",
+  "kind_spot": "sight",
+  "added": "2026-10-28T13:54:13.243Z"
  }
 ]
