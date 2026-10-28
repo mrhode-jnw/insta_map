@@ -499,7 +499,8 @@
   "fav": true
  },
  "cn-waibaidu-bridge-suzhou-creek": {
-  "fav": true
+  "fav": true,
+  "prio": "hoch"
  },
  "cn-1000-trees": {
   "fav": true,
