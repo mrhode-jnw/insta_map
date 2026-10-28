@@ -659,5 +659,14 @@
   "lng": 121.485744,
   "wish": "Wo sind die Fotos aufgenommen. Von einem höheren Standpunkt? Drohne? Welcher Ort genau?",
   "added": "2026-10-28T03:05:26.852Z"
+ },
+ {
+  "kind": "research",
+  "id": "res:cn-pacific-xintiandi-observation-hall:mvrjci6c",
+  "spot": "cn-pacific-xintiandi-observation-hall",
+  "spotName": "Pacific Xintiandi Observation Hall 太平洋新天地观光厅",
+  "lat": 31.2234,
+  "lng": 121.476,
+  "added": "2026-10-28T03:09:05.412Z"
  }
 ]
