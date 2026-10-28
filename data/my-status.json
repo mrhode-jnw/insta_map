@@ -803,5 +803,8 @@
  },
  "cn-jing-an-temple": {
   "prio": "gering"
+ },
+ "claude-cn-west-bund-long-museum": {
+  "prio": "gering"
  }
 }
