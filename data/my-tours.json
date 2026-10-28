@@ -80,5 +80,25 @@
    "claude-cn-golden-whip-stream"
   ],
   "created": "2026-10-18"
+ },
+ {
+  "id": "tsh29",
+  "name": "Do 29.10. Sonnenaufgang 6:06 Suzhou Creek & Bund – ab Hotel 5:35: Zhapu-Lu-Brücke (Sonne geht links neben dem Pearl Tower auf, mittelhohe Wolken reißen auf) · Waibaidu-Brücke · Bund im ersten Licht",
+  "stops": [
+   "claude-cn-zhapu-road-bridge-suzhou-creek",
+   "cn-waibaidu-bridge-suzhou-creek",
+   "cn-the-bund-lujiazui"
+  ],
+  "created": "2026-10-28"
+ },
+ {
+  "id": "tsh30",
+  "name": "Fr 30.10. Sonnenaufgang 6:07 im Dunst von Zhujiajiao – DiDi ab Hotel 4:55 (ca. 55 Min.): Fangsheng-Brücke & Kanäle, klar & windstill, Frühnebel möglich · danach Columbia Circle · Wukang Mansion",
+  "stops": [
+   "claude-cn-zhujiajiao-water-town",
+   "claude-cn-columbia-circle",
+   "cn-wukang-mansion"
+  ],
+  "created": "2026-10-28"
  }
 ]
