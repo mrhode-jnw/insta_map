@@ -83,24 +83,24 @@
  },
  {
   "id": "tsh30",
-  "name": "Fr 30.10. Sonnenaufgang 6:07 · ca. 5:35–8:15 zu Fuß: Zhapu-Lu-Brücke (blaue Stunde, Sonne links neben dem Pearl Tower, windstill → Spiegelung im Creek) · Waibaidu-Brücke · Bund im ersten Licht · Yuanmingyuan Road · Carlowitz-Durchblick",
+  "name": "Fr 30.10. Sonnenaufgang 6:07 · ca. 5:40–8:15 zu Fuß: North Bund – Sonne steigt klar über dem Huangpu auf, Fähren als Silhouetten · Dongchangzhi/Lushun Rd · Jiulong Road · Postmuseum am Suzhou Creek",
+  "stops": [
+   "cn-north-bund-riverside-park",
+   "cn-dongchangzhi-rd-lushun-rd",
+   "cn-jiulong-road-waterfront",
+   "cn-shanghai-postal-museum"
+  ],
+  "created": "2026-10-28"
+ },
+ {
+  "id": "tsh31",
+  "name": "Sa 31.10. Sonnenaufgang 6:08 · ca. 5:35–8:15 zu Fuß (passt zu „Bund früh“ im Tagesplan): Zhapu-Lu-Brücke (blaue Stunde, Sonne links neben dem Pearl Tower, windstill → Spiegelung; bei leichtem Frühnebel Waibaidu-Brücke im Dunst) · Waibaidu-Brücke · Bund im ersten Licht · Yuanmingyuan Road · Carlowitz-Durchblick",
   "stops": [
    "claude-cn-zhapu-road-bridge-suzhou-creek",
    "cn-waibaidu-bridge-suzhou-creek",
    "cn-yuanmingyuan-road",
    "cn-carlowitz-building",
    "cn-the-bund-lujiazui"
-  ],
-  "created": "2026-10-28"
- },
- {
-  "id": "tsh31",
-  "name": "Sa 31.10. Sonnenaufgang 6:08 · ca. 5:40–8:15 zu Fuß: North Bund – Sonne über dem Huangpu (bei Frühnebel als Scheibe im Dunst) · Dongchangzhi/Lushun Rd · Jiulong Road · Postmuseum am Suzhou Creek",
-  "stops": [
-   "cn-north-bund-riverside-park",
-   "cn-dongchangzhi-rd-lushun-rd",
-   "cn-jiulong-road-waterfront",
-   "cn-shanghai-postal-museum"
   ],
   "created": "2026-10-28"
  }
