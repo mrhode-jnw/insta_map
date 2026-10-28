@@ -11,6 +11,8 @@
   python3 tools/inbox.py locate <id>        # „Ort recherchieren“ (kind: locate): Bild lokal bereitstellen, Kontext ausgeben
   python3 tools/inbox.py located <id> found <spot-id> <begründung>   # Ergebnis → data/insp_locate.json/.js
   python3 tools/inbox.py located <id> notfound <was versucht, beste Vermutung>
+  python3 tools/inbox.py research <id>      # „Research“ an einem Spot (kind: research): Auftrag + aktuelle Spot-Daten ausgeben
+  python3 tools/inbox.py researched <id> <Zusammenfassung>   # Ergebnis → data/research.json/.js, Auftrag erledigt
 """
 import json
 import os
@@ -185,6 +187,59 @@ def write_locate_js(d=None):
         f.write("window.INSP_LOCATE = " + json.dumps(d, ensure_ascii=False, indent=1) + ";\n")
 
 
+RESEARCH_SRC = os.path.join(ROOT, "data", "research.json")
+RESEARCH_OUT = os.path.join(ROOT, "data", "research.js")
+
+
+def find_spot(spot_id):
+    """Spot-Datensatz aus den generierten Dateien holen (HK, China, Fotoideen)."""
+    for f in ("places.js", "china.js", "ideas.js"):
+        path = os.path.join(ROOT, "data", f)
+        if not os.path.exists(path):
+            continue
+        txt = open(path, encoding="utf-8").read()
+        try:
+            arr = json.loads(txt[txt.index("= ") + 2:txt.rindex(";")])
+        except Exception:  # noqa: BLE001
+            continue
+        for p in arr:
+            if p.get("id") == spot_id:
+                return p
+    return None
+
+
+def research(rid):
+    """Auftrag „Research“ zu einem Spot: Wunsch des Nutzers + was zum Spot schon da ist."""
+    x = next((e for e in inbox() if e.get("id") == rid), None)
+    if not x:
+        sys.exit("unbekannte id: " + rid)
+    p = find_spot(x.get("spot", "")) or {}
+    keep = ("id", "name", "district", "lat", "lng", "approx", "unsure", "ok", "note", "tip", "when", "kind", "by_claude", "idea")
+    print(json.dumps({**x, "spot_data": {k: p[k] for k in keep if k in p},
+                      "fotos": len([q for q in p.get("posts", []) if q.get("image")]) + (1 if p.get("image") else 0),
+                      "frueher": bp.load_json(RESEARCH_SRC, {}).get(x.get("spot", ""))},
+                     ensure_ascii=False, indent=1))
+
+
+def researched(rid, summary):
+    x = next((e for e in inbox() if e.get("id") == rid), None)
+    if not x:
+        sys.exit("unbekannte id: " + rid)
+    import datetime
+    d = bp.load_json(RESEARCH_SRC, {})
+    d[x["spot"]] = {"id": rid, "date": datetime.date.today().isoformat(), "at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"), "note": summary}
+    bp.save_json(RESEARCH_SRC, d)
+    write_research_js(d)
+    done(rid, "recherchiert: " + x["spot"])
+
+
+def write_research_js(d=None):
+    d = bp.load_json(RESEARCH_SRC, {}) if d is None else d
+    with open(RESEARCH_OUT, "w", encoding="utf-8") as f:
+        f.write("// Generiert von tools/inbox.py researched – Ergebnisse des Buttons „Research“ am Spot (Spot-ID → Ergebnis).\n")
+        f.write("window.SPOT_RESEARCH = " + json.dumps(d, ensure_ascii=False, indent=1) + ";\n")
+
+
 def skip(code, reason):
     d = bp.load_json(SKIPPED, {})
     d[code] = reason
@@ -219,6 +274,10 @@ if __name__ == "__main__":
         if sys.argv[3] not in ("found", "notfound"):
             sys.exit("Status: found oder notfound")
         located(sys.argv[2], sys.argv[3], sys.argv[4:])
+    elif cmd == "research":
+        research(sys.argv[2])
+    elif cmd == "researched":
+        researched(sys.argv[2], " ".join(sys.argv[3:]) or "recherchiert")
     elif cmd == "skip":
         skip(sys.argv[2], " ".join(sys.argv[3:]) or "übersprungen")
     else:

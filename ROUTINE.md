@@ -83,6 +83,27 @@ daraus einen Spot machen. Hierfür **viel Zeit nehmen** – gründlich statt sch
    und `pending` zeigt ihn wieder an, sobald er neu gespeichert wurde).
 5. Weiter mit Schritt 5 (Veröffentlichen; `data/insp_locate.json`/`.js` mitcommitten).
 
+## 1d. „Research“ an einem Spot (`"kind": "research"`, `"id": "res:<spot-id>:…"`)
+In der App am Spot über ⋯ → „🔎 Research“ beauftragt (optional mit `wish`, dem Fokus des Nutzers – hat Vorrang).
+**Mehr Infos und Foto-Möglichkeiten zu genau diesem Spot recherchieren** (`spot`, `spotName`). Viel Zeit nehmen. Pro Eintrag:
+1. `python3 tools/inbox.py research <id>` – zeigt den Auftrag, die aktuellen Daten des Spots (Notiz, Tipp, Art, Fotos) und
+   ggf. frühere Recherche. **Vorhandenes nicht überschreiben**, nur ergänzen und korrigieren.
+2. Recherchieren (Websuche auch auf Chinesisch, trip.com/Ctrip, Instagram per `node tools/ig_fetch.js <code>`,
+   Xiaohongshu-/Blog-/Locationscout-Treffer, OSM, Commons/Flickr): **was** der Ort ist (Hintergrund, Besonderes),
+   **Zugang** (Anfahrt, Metro-Ausgang, Eintritt, Öffnungszeiten, Regeln/Verbote), **Foto-Möglichkeiten**:
+   konkrete Standpunkte (mit Koordinate, wenn sicher), Brennweite, Einstellungen, beste Zeit/Licht (Tag, blaue
+   Stunde, Nacht, Regen), Varianten und Fallstricke (Andrang, Spiegelungen, Drohnenverbot), dazu Hinweise aus dem
+   `wish`. Unsicheres als „nicht bestätigt“ kennzeichnen, nichts erfinden.
+3. Eintragen: Text als Absatz „Research TT.MM.: …“ an `tip` (sonst `note`) des Spots anhängen – Claude-Tipps in
+   `cn/claude_spots_cn.json`, Spots aus Links in `cn/extra_spots.json`, Fotoideen in `cn/ideas.json`, Instagram-Spots in
+   `cn/spots_cn.py` (HK: `hk/spots.py`/`hk/extra_spots.json`). Weitere **Fotos** (nur Bilder, die wirklich den Ort
+   zeigen, vorher ansehen; Quelle/Credit) in `cn/extra_photos.json` (HK `hk/extra_photos.json`). Ein deutlich anderer
+   Standpunkt (> 80 m, mit Foto) darf ein eigener Spot werden (`extra_spots.json`), sonst nur im Text.
+   Danach bauen (`build_cn.py`/`build_hk.py`/`build_ideas.py`).
+4. `python3 tools/inbox.py researched <id> "<1–2 Sätze: was neu ist>"` – schreibt `data/research.json`/`.js`
+   (erscheint als Hinweis im Spot, der Knopf zeigt „✓“) und markiert den Auftrag als erledigt.
+5. Weiter mit Schritt 5 (Veröffentlichen; `data/research.json`/`.js` mitcommitten).
+
 ## 2. Jeden neuen Post auswerten
 Für jeden Eintrag (`code`):
 1. `python3 tools/inbox.py show <code>` – zeigt Account, Anzahl Bilder, nummerierte Orte und Caption.
