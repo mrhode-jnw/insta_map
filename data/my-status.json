@@ -778,5 +778,8 @@
  },
  "cn-liziba-viewing-platform": {
   "done": true
+ },
+ "claude-cn-columbia-circle": {
+  "prio": "gering"
  }
 }
