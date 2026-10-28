@@ -2258,11 +2258,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     else map.openPopup(m.getPopup(), ll);  // Pin steckt in einer Gruppe: Spot trotzdem öffnen, ohne hineinzuzoomen
   }
   // ‹ › im Popup: zum vorherigen/nächsten Spot der aktuellen Liste
-  function stepSpot(fromId, dir) {
+  function stepSpot(fromId, dir, toId) {
     stepping = true;  // gilt bis der nächste Spot offen ist
     const nav = navOrder(fromId); if (nav.length < 2) return;
     const i = nav.indexOf(fromId);
-    const next = nav[((i < 0 ? 0 : i + dir) + nav.length) % nav.length];
+    const next = toId || nav[((i < 0 ? 0 : i + dir) + nav.length) % nav.length];
     const m = markers.get(next); if (!m) return;
     // Handy: Kopie der Karte bleibt stehen, bis der nächste Spot offen ist – kein Zu- und Aufklappen
     const el = map._popup && map._popup.getElement();
@@ -3369,7 +3369,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "133 · Spots können Foto und Erlebnis zugleich sein";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "134 · Unbewertet: nach dem Bewerten zur nächsten Karte";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -4185,6 +4185,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       setStatus(id, { prio });
       if (prio === "nein") toast("🚫 Kein Interesse – wird ab jetzt ausgeblendet (Filter „🚫 Kein Interesse“ zeigt sie wieder)", 3500);
       box.querySelectorAll("button[data-prio]").forEach(x => x.classList.toggle("on", x.dataset.prio === prio));
+      // Nur im Filter „Unbewertet“: nach dem Bewerten gleich zur nächsten unbewerteten Karte der Liste springen
+      if (prio && $("#fPrio").value === "none") {
+        const nav = navOrder(id), i = nav.indexOf(id);
+        const nxt = nav.slice(i + 1).find(x => !st(x).prio && markers.get(x));
+        setTimeout(() => { if (nxt) stepSpot(id, 1, nxt); else toast("Alle bewertet ✓", 2200); }, 350);
+      }
     });
     box.querySelectorAll("button[data-kind]").forEach(b => b.onclick = () => {
       const p = places.find(x => x.id === id); if (!p) return;
