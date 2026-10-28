@@ -950,6 +950,7 @@
   .pop .status.sv2 .actB button.pmore.on { background: var(--fg); color: var(--bg); }
   .pop .more { margin-top: 10px; background: var(--soft); border-radius: 16px; padding: 10px; }
   .pop .more[hidden] { display: none; }
+  .pop .more .mlab.kindhint { text-transform: none; letter-spacing: 0; font-size: 11.5px; margin: 5px 2px 12px; }
   .pop .more .mlab { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .4px; margin: 0 2px 6px; }
   .pop .more .seg2 { background: var(--bg); }
   .pop .more .seg2 button { border: 0; border-radius: 10px; padding: 8px 4px; font-size: 13px; }
@@ -1091,8 +1092,8 @@
     <ul id="addResults"></ul>
     <div id="addPos">Ort suchen oder lange auf die Karte tippen.</div>
     <input id="addName" placeholder="Name des Spots" required>
-    <div id="addKind" class="kindsw" role="radiogroup" aria-label="Art des Spots">
-      <button type="button" data-k="" class="on" role="radio" aria-checked="true">📷 Foto-Spot</button><button type="button" data-k="sight" role="radio" aria-checked="false">🎒 Erlebnis</button>
+    <div id="addKind" class="kindsw" aria-label="Art des Spots (beides möglich)">
+      <button type="button" data-k="photo" class="on" aria-pressed="true">📷 Foto-Spot</button><button type="button" data-k="sight" aria-pressed="false">🎒 Erlebnis</button>
     </div>
     <textarea id="addNote" placeholder="Notiz (optional)"></textarea>
     <input id="addLink" type="url" placeholder="Instagram-Link (optional)">
@@ -1570,7 +1571,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
           </div>
           <div class="more"${moreOpen ? "" : " hidden"}>
             <div class="mlab">Art</div>
-            <div class="seg2 kind">${[["photo", "📷 Foto"], ["sight", "🎒 Erlebnis"]].map(([k, l]) => `<button data-kind="${k}" class="${(isSight(p) ? "sight" : "photo") === k ? "on" : ""}">${l}</button>`).join("")}</div>
+            <div class="seg2 kind">${[["photo", "📷 Foto", inFotos(p)], ["sight", "🎒 Erlebnis", inSights(p)]].map(([k, l, on]) => `<button data-kind="${k}" class="${on ? "on" : ""}" aria-pressed="${on}">${l}</button>`).join("")}</div>
+            <div class="mlab kindhint">Beides möglich – der Spot erscheint dann unter Fotos und Erlebnisse.</div>
             <div class="mlab">Priorität</div>
             <div class="seg2 prio">${PRIOS.map(k => `<button data-prio="${k}" class="${st(p.id).prio === k ? "on" : ""}"${k === "nein" ? ' title="Kein Interesse – wird ausgeblendet" aria-label="Kein Interesse"' : ""}>${k === "nein" ? "🚫" : PRIO_LABEL[k]}</button>`).join("")}</div>
             <div class="links">
@@ -1990,9 +1992,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const unplacedAll = [...(window.UNPLACED_POSTS || []), ...(window.UNPLACED_CN || [])];
   // Fotos = Fotospots (Instagram-Sammlung, eigene Foto-Spots); Erlebnisse = Claude-Tipps, eigene Erlebnis-Spots („kind: sight“) und Food – Reiseerlebnis statt Fotografie.
   // Fotoideen sind kein Bereich oben, sondern ein eigener Filter unten (standardmäßig aus).
-  const naturalSight = p => p.kind === "sight" || !!p.by_claude || p.category === "Food";
-  const isSight = p => { const k = st(p.id).kind; return k ? k === "sight" : naturalSight(p); };  // k: von dir nachträglich gewählt (Foto / Erlebnis)
-  const GROUPS = { fotos: p => !p.idea && !isSight(p), sights: p => !p.idea && isSight(p) };
+  // Art eines Spots: "photo", "sight" (Erlebnis) oder "both" – von dir nachträglich gewählt (Status) oder aus den Daten
+  const naturalKind = p => p.kind === "sight" || p.kind === "both" ? p.kind : (p.by_claude || p.category === "Food") ? "sight" : "photo";
+  const kindOf = p => st(p.id).kind || naturalKind(p);
+  const inFotos = p => kindOf(p) !== "sight", inSights = p => kindOf(p) !== "photo";
+  const GROUPS = { fotos: p => !p.idea && inFotos(p), sights: p => !p.idea && inSights(p) };
   // Fotos / Food / Tipps frei kombinierbar (Mehrfachauswahl, wird gemerkt); nichts gewählt = alles
   let groups = new Set(["fotos"]);
   try { const g = JSON.parse(localStorage.getItem("groups") || "null");  // alte Bereiche Tipps/Food → Erlebnisse, Ideen → Filter unten
@@ -2007,7 +2011,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   setIdeas(ideasMode);
   const saveGroups = () => { try { localStorage.setItem("groups", JSON.stringify([...groups])); } catch {} };
   // Fotoideen folgen der Auswahl oben: nur Erlebnisse gewählt → nur Ideen, die als Erlebnis eingeordnet sind (und umgekehrt)
-  const kindOK = p => !groups.size || [...groups].some(g => (g === "sights") === isSight(p));
+  const kindOK = p => !groups.size || [...groups].some(g => g === "sights" ? inSights(p) : inFotos(p));
   const inGroups = p => p.idea ? ideasOn && kindOK(p) : !ideasOnly && kindOK(p);
   // Bereich oben links: 🧭 Route (nur Spots an unserer Route) oder frei kombinierbare Regionen der Reise (Mehrfachauswahl)
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
@@ -3365,7 +3369,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "132 · „+“ wählt bei nur Erlebnisse oben Erlebnis vor";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "133 · Spots können Foto und Erlebnis zugleich sein";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -4021,9 +4025,13 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       return (await r.json()).display_name || "";
     } catch { return ""; }
   }
-  const setAddKind = k => $("#addKind").querySelectorAll("button").forEach(b => { const on = b.dataset.k === k; b.classList.toggle("on", on); b.setAttribute("aria-checked", on); });
-  $("#addKind").addEventListener("click", e => { const b = e.target.closest("button[data-k]"); if (b) setAddKind(b.dataset.k); });
-  const addKind = () => { const b = $("#addKind button.on"); return b ? b.dataset.k : ""; };
+  // k: "" / "photo" = nur Foto, "sight" = nur Erlebnis, "both" = beides
+  const setAddKind = k => $("#addKind").querySelectorAll("button").forEach(b => { const on = k === "both" || (k === "sight" ? b.dataset.k === "sight" : b.dataset.k === "photo"); b.classList.toggle("on", on); b.setAttribute("aria-pressed", on); });
+  $("#addKind").addEventListener("click", e => { const b = e.target.closest("button[data-k]"); if (!b) return;
+    const bs = [...$("#addKind").querySelectorAll("button")], on = bs.filter(x => x.classList.contains("on"));
+    if (b.classList.contains("on") && on.length === 1) return;  // mindestens eines bleibt gewählt
+    b.classList.toggle("on"); b.setAttribute("aria-pressed", b.classList.contains("on")); });
+  const addKind = () => { const f = $("#addKind button[data-k=photo]").classList.contains("on"), x = $("#addKind button[data-k=sight]").classList.contains("on"); return f && x ? "both" : x ? "sight" : ""; };
   function openAdd(latlng) {
     dlg.hidden = false; setSnap("peek");
     setAddKind(groups.size === 1 && groups.has("sights") ? "sight" : "");  // Standard: Foto-Spot; ist oben nur „Erlebnisse“ gewählt: Erlebnis
@@ -4180,10 +4188,12 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     });
     box.querySelectorAll("button[data-kind]").forEach(b => b.onclick = () => {
       const p = places.find(x => x.id === id); if (!p) return;
-      const k = b.dataset.kind, nat = naturalSight(p) ? "sight" : "photo";
-      setStatus(id, { kind: k === nat ? null : k });
-      box.querySelectorAll("button[data-kind]").forEach(x => x.classList.toggle("on", x.dataset.kind === k));
-      toast(k === "sight" ? "🎒 Jetzt unter „Erlebnisse“" : "📷 Jetzt unter „Fotos“", 1800);
+      const has = { photo: inFotos(p), sight: inSights(p) }; has[b.dataset.kind] = !has[b.dataset.kind];
+      if (!has.photo && !has.sight) { toast("Mindestens eines muss gewählt bleiben", 1800); return; }  // Spot muss irgendwo erscheinen
+      const k = has.photo && has.sight ? "both" : has.sight ? "sight" : "photo";
+      setStatus(id, { kind: k === naturalKind(p) ? null : k });
+      box.querySelectorAll("button[data-kind]").forEach(x => { const on = has[x.dataset.kind]; x.classList.toggle("on", on); x.setAttribute("aria-pressed", on); });
+      toast(k === "both" ? "📷 + 🎒 Unter Fotos und Erlebnisse" : k === "sight" ? "🎒 Nur unter „Erlebnisse“" : "📷 Nur unter „Fotos“", 1800);
     });
     const fav = box.querySelector("button[data-fav]");
     if (fav) fav.onclick = () => { const v = !st(id).fav, up = v && st(id).prio !== "hoch";  // Favorit → Priorität automatisch hoch
