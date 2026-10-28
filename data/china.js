@@ -3479,7 +3479,7 @@ window.PLACES_CN = [
   "name": "The Bund & Lujiazui 外滩 · 陆家嘴",
   "district": "Huangpu, Shanghai",
   "category": "Aussicht",
-  "note": "Skyline abends, wenn alles beleuchtet ist.",
+  "note": "Skyline abends, wenn alles beleuchtet ist. Research 28.10. (Wunsch „Fotoapparat“ als Foto-Standpunkte verstanden – eine Kamera-Skulptur am Bund gibt es laut Recherche nicht): Promenade (外滩观景平台) auf Höhe Nanjing Lu/Chen-Yi-Platz für die Skyline frontal mit 24–70 mm; Nordende am Volksheldendenkmal/Huangpu-Park für Pearl + Shanghai Tower gestaffelt; Seitenstraßen (z. B. Ostende von Fuzhou Lu/Guangdong Lu) rahmen den Pearl Tower zwischen den Fassaden (70–135 mm). Die Bund-Fassaden selbst (Zollhaus, HSBC) fotografiert man von der Pudong-Uferpromenade (Binjiang Ave) – abends angestrahlt, 70–200 mm. Morgens 6–7 Uhr Tai-Chi, Drachentanz und Jogger vor der Skyline (Gegenlicht). Luftbilder mit dem Denkmal von oben sind Drohnen-/Hotelaufnahmen – Drohnen am Bund verboten. Beleuchtung abends ca. bis 22 Uhr (Wochenende teils länger, nicht bestätigt). Tulpen-Bilder: nur im Frühjahr.",
   "address": "Huangpu, Shanghai",
   "lat": 31.2402,
   "lng": 121.4979,
@@ -4227,7 +4227,7 @@ window.PLACES_CN = [
   "name": "Fosun Foundation 复星艺术中心",
   "district": "Huangpu, Shanghai",
   "category": "Architektur",
-  "note": "Kunstzentrum am Bund-Südende (Heatherwick Studio + Foster + Partners): bewegliche Bronze-Lamellen wie ein Bühnenvorhang.",
+  "note": "Kunstzentrum am Bund-Südende (Heatherwick Studio + Foster + Partners): bewegliche Bronze-Lamellen wie ein Bühnenvorhang. Research 28.10.: Der Bronze-„Vorhang“ (drei Lagen Röhren an Schienen, elektrisch) bewegt sich nicht dauernd, sondern zu festen Zeiten – laut Reiseblog ab 10 Uhr alle 2 Std. für ca. 10 Min. (also etwa 10, 12, 14, 16 Uhr; nicht offiziell bestätigt, vor Ort an der Info fragen). Für Bewegungsunschärfe Stativ/Mauer, 1/4–1 s mit ND; sonst ruhige Fassade am Nachmittag im Seitenlicht.",
   "address": "Huangpu, Shanghai",
   "lat": 31.228881,
   "lng": 121.493579,
@@ -4479,7 +4479,7 @@ window.PLACES_CN = [
   "name": "Museum of Art Pudong 浦东美术馆",
   "district": "Lujiazui, Shanghai",
   "category": "Architektur",
-  "note": "Das berühmte „Fenster“ rahmt den Oriental Pearl Tower; Dachterrasse mit Blick auf den Bund.",
+  "note": "Das berühmte „Fenster“ rahmt den Oriental Pearl Tower; Dachterrasse mit Blick auf den Bund. Research 28.10.: Öffnungszeiten 10–21 Uhr, letzter Einlass/Ticketverkauf 20 Uhr; Ruhetag laut amtlicher Mitteilung und Qunar dienstags (manche Seiten nennen Montag – vorher im WeChat-Konto „浦东美术馆MAP“ prüfen). Tickets ab ca. 130 ¥ je nach Ausstellung, per WeChat-Mini-Programm oder vor Ort, Reservierung im Alltag nicht nötig, zu Stoßzeiten Einlass-Slots. Das „Fenster“-Motiv mit dem Pearl Tower liegt im Museum (Ticket nötig); die Dachterrasse mit Bund-Blick ist laut Berichten mit Ticket zugänglich (nicht bestätigt).",
   "address": "Lujiazui, Shanghai",
   "lat": 31.240309,
   "lng": 121.491972,
@@ -13275,7 +13275,7 @@ window.PLACES_CN = [
   "name": "Flair Rooftop – Ritz-Carlton Pudong 丽思卡尔顿 58层",
   "district": "Lujiazui, Shanghai",
   "category": "",
-  "note": "Rooftop-Bar und Restaurant im 58. Stock des Ritz-Carlton Shanghai Pudong (IFC, Century Ave 8 世纪大道8号): Terrasse direkt gegenüber dem Oriental Pearl Tower, Blick auf den Bund. Laut Time Out täglich ca. 17–2 Uhr; Terrassentische mit Mindestverzehr (laut Guide ca. 150–200 ¥ p. P., nicht bestätigt) – für Sonnenuntergang (Ende Oktober ca. 17:10) früh kommen oder über OpenTable reservieren. Kein Stativ, Kamera aufs Geländer; der Pearl Tower wirkt aus der Nähe riesig (16–24 mm). Metro 2 Lujiazui 陆家嘴, Hotel-Aufzug im IFC.",
+  "note": "Rooftop-Bar und Restaurant im 58. Stock des Ritz-Carlton Shanghai Pudong (IFC, Century Ave 8 世纪大道8号): Terrasse direkt gegenüber dem Oriental Pearl Tower, Blick auf den Bund. Laut Time Out täglich ca. 17–2 Uhr; Terrassentische mit Mindestverzehr (laut Guide ca. 150–200 ¥ p. P., nicht bestätigt) – für Sonnenuntergang (Ende Oktober ca. 17:10) früh kommen oder über OpenTable reservieren. Kein Stativ, Kamera aufs Geländer; der Pearl Tower wirkt aus der Nähe riesig (16–24 mm). Metro 2 Lujiazui 陆家嘴, Hotel-Aufzug im IFC.\n\nResearch 28.10.: Fotos der Terrasse konnten aus dieser Sitzung nicht geladen werden (Flickr gesperrt). Beispiele zum Anschauen: Blick von der Bar auf Pearl Tower und Bund (https://www.flickr.com/photos/robshanghai/24582906072/), „Shanghai View“ von Trey Ratcliff (https://www.flickr.com/photos/stuckincustoms/41994688925/), Bund bei Nacht von der Flair-Terrasse (https://www.flickr.com/photos/rchen518/5505373338/). Typisches Motiv: der Pearl Tower fast zum Greifen nah links, dahinter der Huangpu-Bogen mit dem Bund – zur blauen Stunde am stärksten.",
   "address": "Lujiazui, Shanghai",
   "lat": 31.238557,
   "lng": 121.496807,
@@ -13288,7 +13288,7 @@ window.PLACES_CN = [
   "posts": [],
   "source": "https://us.trip.com/restaurant/china/shanghai/detail/flair-rooftop-restaurant-and-bar-452020/ · https://www.timeoutshanghai.com/venue/Bars__Clubs-Bars/466/Flair.html · https://www.chinavigators.com/shanghai-nightlife-guide/ · OpenStreetMap (Pin)",
   "kind": "sight",
-  "when": "day"
+  "when": "night"
  },
  {
   "id": "cn-shanghai-greenhouse-garden-expo-culture-park",
@@ -13301,14 +13301,71 @@ window.PLACES_CN = [
   "lat": 31.18026,
   "lng": 121.470403,
   "approx": false,
-  "image": null,
+  "image": "images/web_greenhouse_1.jpg",
   "caption": "",
   "post_url": "",
   "username": "",
   "profile_url": "",
-  "posts": [],
+  "posts": [
+   {
+    "url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "username": "",
+    "profile_url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "kind": "photo",
+    "image": "images/web_greenhouse_1.jpg",
+    "caption": "",
+    "credit": "CreatAR Images / DMAA · gooood"
+   },
+   {
+    "url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "username": "",
+    "profile_url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "kind": "photo",
+    "image": "images/web_greenhouse_2.jpg",
+    "caption": "",
+    "credit": "CreatAR Images / DMAA · gooood"
+   },
+   {
+    "url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "username": "",
+    "profile_url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "kind": "photo",
+    "image": "images/web_greenhouse_3.jpg",
+    "caption": "",
+    "credit": "CreatAR Images / DMAA · gooood"
+   },
+   {
+    "url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "username": "",
+    "profile_url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "kind": "photo",
+    "image": "images/web_greenhouse_4.jpg",
+    "caption": "",
+    "credit": "CreatAR Images / DMAA · gooood"
+   },
+   {
+    "url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "username": "",
+    "profile_url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "kind": "photo",
+    "image": "images/web_greenhouse_5.jpg",
+    "caption": "",
+    "credit": "CreatAR Images / DMAA · gooood"
+   },
+   {
+    "url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "username": "",
+    "profile_url": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+    "kind": "photo",
+    "image": "images/web_greenhouse_6.jpg",
+    "caption": "",
+    "credit": "CreatAR Images / DMAA · gooood"
+   }
+  ],
   "source": "@mishel_cheshko · Instagram (https://www.instagram.com/reel/DdBzoL8yb5R/) · OpenStreetMap (Pin)",
   "kind": "sight",
+  "image_page": "https://www.gooood.cn/en/expo-cultural-park-greenhouse-by-dmaa-2.htm",
+  "image_credit": "CreatAR Images / DMAA · gooood",
   "when": "day"
  }
 ];

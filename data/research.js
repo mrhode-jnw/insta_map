@@ -35,5 +35,35 @@ window.SPOT_RESEARCH = {
   "date": "2026-10-28",
   "at": "2026-10-28T03:57:26+00:00",
   "note": "Etagen 55–58, Außenplattform 57–58, Ticket-Hinweis und Foto-Tipps ergänzt; Öffnungszeiten nicht gefunden."
+ },
+ "cn-flair-rooftop-ritz-carlton-pudong-58": {
+  "id": "res:cn-flair-rooftop-ritz-carlton-pudong-58:mvrmvmaw",
+  "date": "2026-10-28",
+  "at": "2026-10-28T05:41:26+00:00",
+  "note": "Fotos ließen sich nicht laden (Flickr gesperrt); Links zu drei Flickr-Aufnahmen von der Terrasse im Text."
+ },
+ "cn-shanghai-greenhouse-garden-expo-culture-park": {
+  "id": "res:cn-shanghai-greenhouse-garden-expo-culture-park:mvrmvwr9",
+  "date": "2026-10-28",
+  "at": "2026-10-28T05:41:26+00:00",
+  "note": "6 Fotos (Regenwald mit Nebel, Wüste, außen zur blauen Stunde, Luftbild) und Hintergrund/Foto-Tipps ergänzt."
+ },
+ "cn-fosun-foundation": {
+  "id": "res:cn-fosun-foundation:mvrn4x39",
+  "date": "2026-10-28",
+  "at": "2026-10-28T05:41:27+00:00",
+  "note": "Vorhang bewegt sich nur zu festen Zeiten: laut Reiseblog ab 10 Uhr alle 2 Std. ca. 10 Min. (nicht offiziell bestätigt)."
+ },
+ "cn-the-bund-lujiazui": {
+  "id": "res:cn-the-bund-lujiazui:mvrnxej8",
+  "date": "2026-10-28",
+  "at": "2026-10-28T05:41:27+00:00",
+  "note": "Keine Kamera-Skulptur gefunden; stattdessen Foto-Standpunkte am Bund, Morgen- und Abendhinweise ergänzt."
+ },
+ "cn-museum-of-art-pudong": {
+  "id": "res:cn-museum-of-art-pudong:mvro8k3f",
+  "date": "2026-10-28",
+  "at": "2026-10-28T05:41:28+00:00",
+  "note": "10–21 Uhr, Einlass bis 20 Uhr, Ruhetag laut Mitteilung dienstags (Quellen uneins), Tickets ab ca. 130 ¥."
  }
 };
