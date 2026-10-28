@@ -819,5 +819,9 @@
  },
  "cn-the-roof-henderson-cifi-xintiandi": {
   "prio": "gering"
+ },
+ "cn-fosun-foundation": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
