@@ -61,6 +61,7 @@ POSTS = {
  104: ("iiikudo", "p", "De9hAY2Eoda"),
  105: ("dezeen", "reel", "DNs3Bszs_3A"),
  106: ("chinamoderne", "p", "DT2nf_XCVNW"),
+ 108: ("t_yaosheng", "p", "DKt8QXrzdqw"),
  107: ("ivanpkhc", "p", "DTF6smaj5L0"),
 }
 
@@ -263,6 +264,8 @@ SPOTS = [
   [(106, 11)], "Museum für zeitgenössische Kunst im ehemaligen Kraftwerk mit Thermometer-Schlot am Huangpu; große Hallen mit Rolltreppen, im Foto eine goldene Ginkgo-Installation von der Rolltreppe aus. Di–So, Eintritt je nach Ausstellung."),
  ("Guangfulin Ancient Relics Park 广富林文化遗址", 31.064487, 121.194101, False, "Songjiang, Shanghai", "",
   [(106, 12)], "Kulturpark über einer neolithischen Fundstätte mit Hui-Stil-Häusern (weiße Wände, Pferdekopfgiebel) und Wasserbecken – teils unter Wasser gebaute Museumshallen. Spiegelungen bei Windstille, gelbe Wand im Abendlicht. Ca. 1 Std. vom Zentrum, Metro 9 Songjiang Univ. Town + Taxi."),
+ ("Hanyang Road Old Shop Signs 汉阳路", 31.251005, 121.486721, False, "Hongkou (North Bund), Shanghai", "",
+  [(108, 4), (108, 3), (108, 6), (108, 8), (108, 1), (108, 2), (108, 5), (108, 7)], "Kurzes Straßenstück mit alten Ladenschildern, Rollgittern, roten Laternen und beschrifteten Mauern vor den North-Bund-Hochhäusern – Koordinate vom Fotografen (@t_yaosheng, Winter 2024), laut OSM an der Hanyang Lu 汉阳路. Wirkt wie eine Film-/Serienkulisse; ob die Schilder noch hängen, ist nicht bestätigt. 23–56 mm, vormittags im weichen Licht; liegt 3 Min. von Jiulong Road und North Bund."),
 ]
 
 # Beliebtheit 1–5 (5 = Wahrzeichen, 4 = in vielen Guides, 3 = bei Fotografen bekannt)
@@ -329,6 +332,7 @@ POP = {
  "LVWA": (2, 'Architektur-Buchhandlung, in Fachmedien bekannt'),
  "Power Station": (4, 'Bekanntes Kunstmuseum im alten Kraftwerk'),
  "Guangfulin": (3, 'Kulturpark in Songjiang, beliebt für Spiegelbilder'),
+ "Hanyang Road": (2, 'Nostalgie-Gasse, vereinzelt in Social Media'),
  "Luohan": (3, "Historischer Stadttempel, in vielen Chongqing-Guides"),
  "Chaodong": (2, "Alltagsstraße, kaum in Reiseführern"),
  "Nanbin": (4, "Bekannte Uferpromenade mit Nachtblick"),

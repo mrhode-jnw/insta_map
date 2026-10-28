@@ -255,5 +255,38 @@
   "tip": "Von der Bund-Promenade um Chen-Yi-Platz (陈毅广场) / gegenüber dem Pearl Tower: 400–600 mm (oder 70–200 mm + 2×-Konverter und Ausschnitt), Stativ oder Geländer, 1/125–1/250 s, ISO 800–1600, Blaue Stunde ca. 17:10–17:50 (Ende Oktober), wenn der Turm schon rot-rosa leuchtet und der Himmel noch Zeichnung hat. Bildaufbau: nur Kugel + Beine, Türme als Staffelung dahinter. Nachbau aus der Lage abgeleitet, Standpunkt nicht bestätigt.",
   "source": "Instagram @kerenza27 („The most photogenic spots in and around Shanghai“, Folie 4/18)",
   "unsure": "Pin = Bund-Promenade gegenüber dem Pearl Tower (Chen-Yi-Platz), aus Perspektive und Entfernung abgeleitet; der genaue Standpunkt ist nicht bekannt (Karussell nennt nur „Lujiazui Financial Zone“). Zum Vergleich: bestehender Spot Oriental Pearl Tower mit Nahaufnahme von erhöhtem Standpunkt (VUE Bar)."
+ },
+ {
+  "name": "Shanghai Film Park 上海影视乐园 (Chedun)",
+  "lat": 31.012045,
+  "lng": 121.308374,
+  "approx": false,
+  "district": "Songjiang (Chedun), Shanghai",
+  "cat": "",
+  "note": "Aktives Filmstudio mit begehbaren Kulissen des alten Shanghai der 1920er–40er: Nachbau der Nanjing Road der 1930er mit Läden, Leuchtschildern und Straßenbahn, Shikumen-Gassen, Brücken, Villen; neu die Huanghe-Road-Kulisse aus Wong Kar-wais „Blossoms Shanghai“ (90er, auch Abendführungen). Hier gedreht u. a. „Kung Fu Hustle“ und „Lust, Caution“ – manchmal laufen Dreharbeiten. Laut Stadtportal (Nov. 2025) 8:30–16:30, letzter Einlass 15:30; Eintritt zuletzt ca. 80 ¥ (WeChat-Mini-Programm, nicht für 2026 bestätigt). Westtor Cheting Hwy 211 车亭公路211号, ca. 1 Std. vom Zentrum (Taxi/DiDi oder Direktbus). Foto: vormittags, wenn es noch leer ist – die Kulissen wirken dann wie eine verlassene Stadt.",
+  "source": "@irmabasheska · Instagram (https://www.instagram.com/reel/Dd1Eq8nN2C7/) · https://english.shanghai.gov.cn/en-ScenicSpots/20240528/732ccc77c52b4b1381dfcf54f27629fc.html · https://www.smartshanghai.com/venue/22438/shanghai_film_park · OpenStreetMap (Pin)",
+  "kind": "sight"
+ },
+ {
+  "name": "Shanghai Ocean Aquarium 上海海洋水族馆",
+  "lat": 31.242646,
+  "lng": 121.497282,
+  "approx": false,
+  "district": "Lujiazui, Shanghai",
+  "cat": "",
+  "note": "Großes Aquarium direkt neben dem Oriental Pearl Tower (Lujiazui Ring Rd 1388 陆家嘴环路1388号): Zonen nach Kontinenten und Lebensräumen (China mit Jangtse-Arten, Südamerika, Australien, Afrika, Südostasien, Kaltwasser, Polar, Tiefsee) und ein langer Unterwassertunnel. Täglich ca. 9–18 Uhr laut Website; fünf Fütterungen am Tag, dazu kurze Führungen. Metro 2 Lujiazui 陆家嘴, ca. 5 Min. zu Fuß. Gut bei Regen. Foto: im Tunnel ohne Blitz, hohe ISO, Objektiv ans Glas gegen Spiegelungen.",
+  "source": "https://www.sh-aquarium.com/en/TransportationOutsideThePark/index.aspx · OpenStreetMap (Pin)",
+  "kind": "sight"
+ },
+ {
+  "name": "DOE Xintiandi (Café & Streetwear)",
+  "lat": 31.2185,
+  "lng": 121.4735,
+  "approx": true,
+  "district": "Xintiandi (Huangpu), Shanghai",
+  "cat": "",
+  "note": "Café, Streetwear-/Sneaker-Laden und Eventfläche in einem: viel Holz, Tageslicht und Pflanzen, eigene Kollektion plus limitierte Kollaborationen (Aimé Leon Dore, Asics, Stüssy, Nike, Adidas), Bücher und Magazine, gelegentlich Ausstellungen und Talks. Adresse 1/F, 168 Hubin Lu (湖滨路168号1层, nahe Shunchang Lu), im Xintiandi-Viertel; laut SmartShanghai täglich 10–22 Uhr – Eintrag seit 2020 nicht aktualisiert, ob es den Laden noch gibt, vorher prüfen. Pin ungefähr (Hubin Lu).",
+  "source": "https://www.smartshanghai.com/venue/17948/doe_xintiandi",
+  "kind": "sight"
  }
 ]
