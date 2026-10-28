@@ -788,5 +788,9 @@
  },
  "cn-oriental-pearl-tower": {
   "prio": "hoch"
+ },
+ "cn-shanghai-world-financial-center": {
+  "fav": true,
+  "prio": "hoch"
  }
 }
