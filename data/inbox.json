@@ -799,5 +799,12 @@
   "url": "https://www.sh-aquarium.com/en/TransportationOutsideThePark/index.aspx",
   "kind_spot": "sight",
   "added": "2026-10-28T16:06:58.819Z"
+ },
+ {
+  "kind": "web",
+  "id": "web:1vxwf7m",
+  "url": "https://www.shanghaitourism.org/tianzifang-shanghai/",
+  "kind_spot": "sight",
+  "added": "2026-10-28T16:14:22.289Z"
  }
 ]
