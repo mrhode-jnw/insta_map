@@ -618,5 +618,14 @@
   "url": "https://www.myfavouritelens.com/m50-art-district-shanghai/",
   "kind_spot": "sight",
   "added": "2026-10-27T14:31:30.985Z"
+ },
+ {
+  "kind": "research",
+  "id": "res:cn-shanghai-world-financial-center:mvrfvqay",
+  "spot": "cn-shanghai-world-financial-center",
+  "spotName": "Shanghai World Financial Center 上海环球金融中心",
+  "lat": 31.236577,
+  "lng": 121.503041,
+  "added": "2026-10-28T01:32:03.946Z"
  }
 ]
