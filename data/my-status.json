@@ -826,5 +826,8 @@
  },
  "cn-ecepdi-building": {
   "prio": "mittel"
+ },
+ "cn-wukang-mansion": {
+  "prio": "gering"
  }
 }
