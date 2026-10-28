@@ -132,6 +132,7 @@ for c in bp.load_json(os.path.join(ROOT, "cn", "claude_spots_cn.json"), []):
         "approx": c.get("approx", False), "image": c.get("image"), "caption": "", "post_url": "",
         "username": "", "profile_url": "", "posts": [], "pop": c.get("pop"), "pop_reason": c.get("reason", ""),
         **({"image_page": c["image_page"], "image_credit": c["image_credit"]} if c.get("image_page") else {}),
+        **({"kind": c["kind"]} if c.get("kind") else {}),  # Claude-Tipps sind sonst „Erlebnis“; "both"/"photo" zeigt sie unter Fotos
     })
 
 # Spots aus beliebigen Links (Inbox, z.B. trip.com): cn/extra_spots.json

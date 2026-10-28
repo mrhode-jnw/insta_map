@@ -9214,6 +9214,7 @@ window.PLACES_CN = [
   "pop_reason": "Broadway Mansions und Lujiazui über der Suzhou-Creek-Biegung",
   "image_page": "https://commons.wikimedia.org/wiki/File:View_of_Lujiazui_from_Zhapu_Road_Bridge.jpg",
   "image_credit": "Windmemories · CC BY-SA 4.0 · Wikimedia Commons",
+  "kind": "both",
   "when": "both"
  },
  {
