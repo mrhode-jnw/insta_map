@@ -868,7 +868,9 @@
   "hidden": true
  },
  "cn-power-station-of-art": {
-  "kind": "sight"
+  "kind": "sight",
+  "fav": true,
+  "prio": "hoch"
  },
  "claude-cn-zhapu-road-bridge-suzhou-creek": {
   "kind": "photo",
