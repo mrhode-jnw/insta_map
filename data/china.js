@@ -6223,7 +6223,7 @@ window.PLACES_CN = [
   "name": "Power Station of Art 上海当代艺术博物馆",
   "district": "Huangpu (Expo West), Shanghai",
   "category": "",
-  "note": "Museum für zeitgenössische Kunst im ehemaligen Kraftwerk mit Thermometer-Schlot am Huangpu; große Hallen mit Rolltreppen, im Foto eine goldene Ginkgo-Installation von der Rolltreppe aus. Di–So, Eintritt je nach Ausstellung.",
+  "note": "Museum für zeitgenössische Kunst im ehemaligen Kraftwerk mit Thermometer-Schlot am Huangpu; große Hallen mit Rolltreppen, im Foto eine goldene Ginkgo-Installation von der Rolltreppe aus. Di–So, Eintritt je nach Ausstellung. Research 29.10. (Öffnungszeiten): Di–So 11–19 Uhr, letzter Einlass 18 Uhr, montags geschlossen (außer Feiertage) laut Museumsführer des Stadtportals (2025). Eintritt je nach Ausstellung, teils frei – aktuelle Schau und Ticket im WeChat-Konto „上海当代艺术博物馆“ prüfen. Achtung: öffnet erst um 11 Uhr.",
   "address": "Huangpu (Expo West), Shanghai",
   "lat": 31.203059,
   "lng": 121.493897,

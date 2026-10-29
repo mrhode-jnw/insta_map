@@ -261,7 +261,7 @@ SPOTS = [
  ("LVWA Bookstore (Shanghai University of Sport)", 31.314, 121.5157, True, "Yangpu, Shanghai", "",
   [(106, 10)], "Sport-Buchhandlung (Studio YUDA + Studio NOR) am Westtor der Shanghai University of Sport: im Atrium der 13–17 m hohe blaue „Mingyue Mountain“ aus Stufen, Regalen und Sitzflächen. Von der Galerie oben 16–24 mm. Pin am Westrand des Campus (ungefähr)."),
  ("Power Station of Art 上海当代艺术博物馆", 31.203059, 121.493897, False, "Huangpu (Expo West), Shanghai", "",
-  [(106, 11)], "Museum für zeitgenössische Kunst im ehemaligen Kraftwerk mit Thermometer-Schlot am Huangpu; große Hallen mit Rolltreppen, im Foto eine goldene Ginkgo-Installation von der Rolltreppe aus. Di–So, Eintritt je nach Ausstellung."),
+  [(106, 11)], "Museum für zeitgenössische Kunst im ehemaligen Kraftwerk mit Thermometer-Schlot am Huangpu; große Hallen mit Rolltreppen, im Foto eine goldene Ginkgo-Installation von der Rolltreppe aus. Di–So, Eintritt je nach Ausstellung. Research 29.10. (Öffnungszeiten): Di–So 11–19 Uhr, letzter Einlass 18 Uhr, montags geschlossen (außer Feiertage) laut Museumsführer des Stadtportals (2025). Eintritt je nach Ausstellung, teils frei – aktuelle Schau und Ticket im WeChat-Konto „上海当代艺术博物馆“ prüfen. Achtung: öffnet erst um 11 Uhr."),
  ("Guangfulin Ancient Relics Park 广富林文化遗址", 31.064487, 121.194101, False, "Songjiang, Shanghai", "",
   [(106, 12)], "Kulturpark über einer neolithischen Fundstätte mit Hui-Stil-Häusern (weiße Wände, Pferdekopfgiebel) und Wasserbecken – teils unter Wasser gebaute Museumshallen. Spiegelungen bei Windstille, gelbe Wand im Abendlicht. Ca. 1 Std. vom Zentrum, Metro 9 Songjiang Univ. Town + Taxi."),
  ("Hanyang Road Old Shop Signs 汉阳路", 31.251005, 121.486721, False, "Hongkou (North Bund), Shanghai", "",

@@ -42,10 +42,10 @@
     "note": "Fotos ließen sich nicht laden (Flickr gesperrt); Links zu drei Flickr-Aufnahmen von der Terrasse im Text."
   },
   "cn-shanghai-greenhouse-garden-expo-culture-park": {
-    "id": "res:cn-shanghai-greenhouse-garden-expo-culture-park:mvrmvwr9",
-    "date": "2026-10-28",
-    "at": "2026-10-28T05:41:26+00:00",
-    "note": "6 Fotos (Regenwald mit Nebel, Wüste, außen zur blauen Stunde, Luftbild) und Hintergrund/Foto-Tipps ergänzt."
+    "id": "res:cn-shanghai-greenhouse-garden-expo-culture-park:mvt4wyzn",
+    "date": "2026-10-29",
+    "at": "2026-10-29T06:09:36+00:00",
+    "note": "Di–So 9–17 Uhr, Mo zu; Tickets 98 ¥ werktags / 128 ¥ Wochenende (Stand 2024), Kauf über Mini-Programm."
   },
   "cn-fosun-foundation": {
     "id": "res:cn-fosun-foundation:mvrn4x39",
@@ -64,5 +64,11 @@
     "date": "2026-10-28",
     "at": "2026-10-28T05:41:28+00:00",
     "note": "10–21 Uhr, Einlass bis 20 Uhr, Ruhetag laut Mitteilung dienstags (Quellen uneins), Tickets ab ca. 130 ¥."
+  },
+  "cn-power-station-of-art": {
+    "id": "res:cn-power-station-of-art:mvt53c9t",
+    "date": "2026-10-29",
+    "at": "2026-10-29T06:09:36+00:00",
+    "note": "Di–So 11–19 Uhr (Einlass bis 18), Mo zu; Eintritt je nach Ausstellung."
   }
 }
