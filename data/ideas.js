@@ -245,6 +245,15 @@ window.IDEAS = [
     "image": "images/idea_sh_bundmorgen_3.jpg",
     "caption": "",
     "credit": "Oscar Tarneberg · Flickr"
+   },
+   {
+    "url": "https://www.instagram.com/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/",
+    "kind": "photo",
+    "image": "images/sh_bund_drachentanz_sonnenaufgang.jpg",
+    "caption": "Drachenband-Tanz bei Sonnenaufgang",
+    "credit": "Instagram (Screenshot von dir, Account unbekannt)"
    }
   ]
  },

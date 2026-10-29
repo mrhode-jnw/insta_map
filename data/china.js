@@ -3479,7 +3479,7 @@ window.PLACES_CN = [
   "name": "The Bund & Lujiazui 外滩 · 陆家嘴",
   "district": "Huangpu, Shanghai",
   "category": "Aussicht",
-  "note": "Skyline abends, wenn alles beleuchtet ist. Zeitreihe von @ivanpkhc (Sonnenaufgang, Tag, Gewitter, Sonnenuntergang, Dämmerung, Nacht): immer derselbe Standpunkt am Bund-Ufer mit Tele über den Huangpu, Wasser mit Langzeitbelichtung geglättet. Research 28.10. (Wunsch „Fotoapparat“ als Foto-Standpunkte verstanden – eine Kamera-Skulptur am Bund gibt es laut Recherche nicht): Promenade (外滩观景平台) auf Höhe Nanjing Lu/Chen-Yi-Platz für die Skyline frontal mit 24–70 mm; Nordende am Volksheldendenkmal/Huangpu-Park für Pearl + Shanghai Tower gestaffelt; Seitenstraßen (z. B. Ostende von Fuzhou Lu/Guangdong Lu) rahmen den Pearl Tower zwischen den Fassaden (70–135 mm). Die Bund-Fassaden selbst (Zollhaus, HSBC) fotografiert man von der Pudong-Uferpromenade (Binjiang Ave) – abends angestrahlt, 70–200 mm. Morgens 6–7 Uhr Tai-Chi, Drachentanz und Jogger vor der Skyline (Gegenlicht). Luftbilder mit dem Denkmal von oben sind Drohnen-/Hotelaufnahmen – Drohnen am Bund verboten. Beleuchtung abends ca. bis 22 Uhr (Wochenende teils länger, nicht bestätigt). Tulpen-Bilder: nur im Frühjahr.",
+  "note": "Skyline abends, wenn alles beleuchtet ist. Morgens vor ca. 7 Uhr üben Einheimische auf der Promenade Drachenband-Tanz, Tai-Chi und Fächertanz – bei Sonnenaufgang (Ende Oktober ca. 6:10) kommt die Sonne hinter Pearl Tower und Shanghai Tower hervor, gut für Gegenlicht und Silhouetten mit Weitwinkel. Zeitreihe von @ivanpkhc (Sonnenaufgang, Tag, Gewitter, Sonnenuntergang, Dämmerung, Nacht): immer derselbe Standpunkt am Bund-Ufer mit Tele über den Huangpu, Wasser mit Langzeitbelichtung geglättet. Research 28.10. (Wunsch „Fotoapparat“ als Foto-Standpunkte verstanden – eine Kamera-Skulptur am Bund gibt es laut Recherche nicht): Promenade (外滩观景平台) auf Höhe Nanjing Lu/Chen-Yi-Platz für die Skyline frontal mit 24–70 mm; Nordende am Volksheldendenkmal/Huangpu-Park für Pearl + Shanghai Tower gestaffelt; Seitenstraßen (z. B. Ostende von Fuzhou Lu/Guangdong Lu) rahmen den Pearl Tower zwischen den Fassaden (70–135 mm). Die Bund-Fassaden selbst (Zollhaus, HSBC) fotografiert man von der Pudong-Uferpromenade (Binjiang Ave) – abends angestrahlt, 70–200 mm. Morgens 6–7 Uhr Tai-Chi, Drachentanz und Jogger vor der Skyline (Gegenlicht). Luftbilder mit dem Denkmal von oben sind Drohnen-/Hotelaufnahmen – Drohnen am Bund verboten. Beleuchtung abends ca. bis 22 Uhr (Wochenende teils länger, nicht bestätigt). Tulpen-Bilder: nur im Frühjahr.",
   "address": "Huangpu, Shanghai",
   "lat": 31.24,
   "lng": 121.4884,
@@ -3647,6 +3647,15 @@ window.PLACES_CN = [
     "image": "images/DdOZ9rGkiHe_3.jpg",
     "caption": "",
     "credit": "@pat_kay · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/",
+    "kind": "photo",
+    "image": "images/sh_bund_drachentanz_sonnenaufgang.jpg",
+    "caption": "Drachenband-Tanz bei Sonnenaufgang auf der Bund-Promenade",
+    "credit": "Instagram (Screenshot von dir, Account unbekannt)"
    }
   ],
   "pop": 5,
