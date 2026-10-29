@@ -841,7 +841,8 @@
   "prio": "mittel"
  },
  "cn-nanjing-road": {
-  "prio": "hoch"
+  "prio": "hoch",
+  "fav": true
  },
  "cn-the-shanghai-edition": {
   "prio": "mittel"
