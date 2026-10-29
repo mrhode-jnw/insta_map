@@ -301,5 +301,16 @@
   "tip": "Ultraweitwinkel (10–16 mm) direkt unter der Spirale, Kamera nach oben: rote Kurven gegen blauen Himmel, Person oben als Maßstab. Gegenlicht/Sonnenstern bei tiefer Sonne.",
   "unsure": "Pin ungefähr: das genaue Bauwerk ist in OSM/Karten nicht als „前滩汇“ verzeichnet – gesetzt auf das Zentrum von Qiantan (Taikoo Li Qiantan, ca. 31.155, 121.477). Vor Ort in Amap nach „前滩汇“ suchen.",
   "source": "https://www.instagram.com/p/Dc00ArsD4U0/"
+ },
+ {
+  "name": "TANG – Hidden Floor Bar (Tai'an Road 141)",
+  "lat": 31.2075,
+  "lng": 121.432,
+  "approx": true,
+  "district": "Changning (Xinhua Lu), Shanghai",
+  "cat": "",
+  "note": "Versteckte Bar: Eingang am Ende eines dunklen Gangs in der Tai'an Road 141 (泰安路141号), nicht auf Karten eingetragen. Schuhe aus, gedimmtes Licht, alle liegen auf Teppichen und Kissen; dazu alternative Musik von Lo-Fi und experimenteller Elektronik bis Techno und Dub (DJ). Nur Do–So geöffnet. Pin = Mitte der Tai'an Road laut OSM, Hausnummer nicht verortet. Quelle: @thecurator_shanghai.",
+  "source": "@thecurator_shanghai · Instagram (https://www.instagram.com/reel/DcQChDGSKOj/) · OpenStreetMap (Straße)",
+  "kind": "sight"
  }
 ]
