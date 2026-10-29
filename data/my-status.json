@@ -529,7 +529,8 @@
   "prio": "hoch"
  },
  "cn-dongchangzhi-rd-lushun-rd": {
-  "prio": "mittel"
+  "prio": "hoch",
+  "fav": true
  },
  "claude-cn-zhujiajiao-water-town": {
   "prio": "gering"
