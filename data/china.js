@@ -685,7 +685,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hen_uoc_trunghoa/",
     "kind": "p",
     "image": "images/CeNNAJXJg_a_1.jpg",
-    "caption": "📍西江千户苗寨 - Xijiang Miao Village\n西江千户苗寨在半山建造独具特色的木结构吊脚楼，千余户吊脚楼随着地形的起伏变化，层峦叠嶂，鳞次栉比，蔚为壮观。西江千户苗寨是一座露天博物馆，展览着一部苗族发展史诗，成为观赏和研究苗族传统文化的大看台。\n\n#henuoctrunghoa\n\nTây Giang Thiên Hộ Miêu Trại đã xây dựng những ngôi nhà sàn bằng gỗ độc đáo ở lưng chừng núi. Với sự uốn lượn và thay đổi của địa hình, hàng nghìn ngôi nhà sàn được xếp chồng lên nhau bằng núi non trùng điệp, tạo nên vẻ đẹp ngoạn mục. Tây Giang Thiên Hộ Miêu Trại là một bảo tàng ngoài trời trưng bày sử thi về sự phát triển của dân tộc Miêu và đã trở thành một địa điểm lớn để xem và nghiên cứu văn hóa truyền thống của dân tộc Miêu.\n________________",
+    "caption": "",
     "match": "slide",
     "slide": 1
    },
@@ -956,7 +956,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/chinadestinations/",
     "kind": "p",
     "image": "images/DPLvIhaCZ4F.jpg",
-    "caption": "《笠影古韻》\n青山綠水間，\n古寨像幅畫。\n那戴鬥笠的身影，\n似是在與山水對談，\n訴說著這片土地的悠悠古韻。\nAmidst the green mountains and clear waters,\nThe ancient village is like a painting.\nThe figure wearing a bamboo hat\nSeems to be conversing with the mountains and waters,\nTelling the long-standing charm of this land.\n▪️\n#hellofrom #chinatravel #贵州 #guizhou\n———————————————————————\nPhoto by @justice_gto\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to me",
+    "caption": "《笠影古韻》\n青山綠水間，\n古寨像幅畫。\n那戴鬥笠的身影，\n似是在與山水對談，\n訴說著這片土地的悠悠古韻。\nAmidst the green mountains and clear waters,\nThe ancient village is like a painting.\nThe figure wearing a bamboo hat\nSeems to be conversing with the mountains and waters,\nTelling the long-standing charm of this land.\n▪️\n#hellofrom #chinatravel #贵州 #guizhou \n———————————————————————\nPhoto by @justice_gto\n————————————————————————\nSelected by @smile.shiu\nTag @Chinadestinations and use hashtag #Chinadestinations to be featured.\n————————————————————————\n小红书 Red Note: Chinadestinations\n————————————————————————\nWelcome to join our Wechat group to m",
     "match": "single"
    },
    {
@@ -965,7 +965,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQMWDmggDER_3.jpg",
-    "caption": "🍂 Autumn Sanctuaries in #Guizhou: Where Forests Meet the Sea of Clouds\n\n🗻 Wanfenglin Scenic Area\nAmong thousands of karst peaks, the forests turn amber and ochre, creating a magnificent autumn panorama that stretches endlessly across the horizon.\nBest viewing period: Mid-October to early November\nLocation: Xiawutun, #Xingyi City, Qianxinan Buyi and Miao Autonomous Prefecture\n\n🌄 Fanjing Mountain\nIn autumn, mist curls around the peaks of Fanjing Mountain while the slopes shimmer with shades of gold and crimson.\nBest viewing period: Mid-October to December\nLocation: Fanjingshan Village, #Taiping ",
+    "caption": "",
     "match": "slide",
     "slide": 3
    },
@@ -1047,7 +1047,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQMWDmggDER_4.jpg",
-    "caption": "🍂 Autumn Sanctuaries in #Guizhou: Where Forests Meet the Sea of Clouds\n\n🗻 Wanfenglin Scenic Area\nAmong thousands of karst peaks, the forests turn amber and ochre, creating a magnificent autumn panorama that stretches endlessly across the horizon.\nBest viewing period: Mid-October to early November\nLocation: Xiawutun, #Xingyi City, Qianxinan Buyi and Miao Autonomous Prefecture\n\n🌄 Fanjing Mountain\nIn autumn, mist curls around the peaks of Fanjing Mountain while the slopes shimmer with shades of gold and crimson.\nBest viewing period: Mid-October to December\nLocation: Fanjingshan Village, #Taiping ",
+    "caption": "",
     "match": "slide",
     "slide": 4
    },
@@ -1367,7 +1367,7 @@ window.PLACES_CN = [
   "lng": 106.8363,
   "approx": true,
   "image": "images/DQZODOpDYAu_4.jpg",
-  "caption": "🌊 Guizhou Wujiang Village: A Water Maze Lost in Time\n\nIf you're weary of commercialized ancient towns and yearn for a true escape where you can unwind and immerse yourself in landscapes of mountains and waters, then Wujiang Village in Guizhou should be next on your list.\n\n📍【Location】 Guizhou Zunyi Wujiang Village International Tourism Resort\nHere, you can witness intangible cultural heritage skills such as traditional paper-making, bamboo weaving, and Miao silver craftsmanship – and even roll up your sleeves to try them yourself.\n\n🌈【Must-Experience Highlights】\n① Take a rowing boat: Glide along",
+  "caption": "",
   "post_url": "https://www.instagram.com/amazingguizhou/p/DQZODOpDYAu/?img_index=4",
   "username": "amazingguizhou",
   "profile_url": "https://www.instagram.com/amazingguizhou/",
@@ -1378,7 +1378,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/amazingguizhou/",
     "kind": "p",
     "image": "images/DQZODOpDYAu_4.jpg",
-    "caption": "🌊 Guizhou Wujiang Village: A Water Maze Lost in Time\n\nIf you're weary of commercialized ancient towns and yearn for a true escape where you can unwind and immerse yourself in landscapes of mountains and waters, then Wujiang Village in Guizhou should be next on your list.\n\n📍【Location】 Guizhou Zunyi Wujiang Village International Tourism Resort\nHere, you can witness intangible cultural heritage skills such as traditional paper-making, bamboo weaving, and Miao silver craftsmanship – and even roll up your sleeves to try them yourself.\n\n🌈【Must-Experience Highlights】\n① Take a rowing boat: Glide along",
+    "caption": "",
     "match": "slide",
     "slide": 4
    },
@@ -1388,7 +1388,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/chinadiscover/",
     "kind": "p",
     "image": "images/DD2GMNvtapF_2.jpg",
-    "caption": "This quiet paradise hidden deep in northern Guizhou.\n\n📍Wujiang Village\n\nℹ️ Sourced from Xiaohongshu\n\nTag @chinadiscover for your photos in China!\n\n#halicinde #chinadiscover #chinadestinations #china #reels #chinaculture #studyinginchina #chinalife #chinatravel #chinatravel #chineseculture #wujiang",
+    "caption": "",
     "match": "slide",
     "slide": 2
    },
@@ -1398,7 +1398,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/tourismeguizhou/",
     "kind": "p",
     "image": "images/DLHh2XzodtQ_1.jpg",
-    "caption": "🌿 wujiangzhai : un écrin de beauté au cœur du guizhou \n\ndécouvrez ce village authentique où les maisons sur pilotis se mirent dans les eaux paisibles, entourées de montagnes verdoyantes. un lieu unique où traditions ethniques et créations contemporaines se rencontrent harmonieusement. \n\n✨ expériences à vivre : \n- le \"phoenix céleste\" : un spectacle envoûtant mêlant feu et lumière, inspiré des légendes locales \n- la danse des drones : une féérie nocturne où les lumières dessinent des tableaux magiques dans le ciel \n- l'artisanat traditionnel : ateliers de papier fait main, techniques de cire pe",
+    "caption": "",
     "match": "slide",
     "slide": 1
    }
@@ -1950,7 +1950,7 @@ window.PLACES_CN = [
   "lng": 110.119,
   "approx": true,
   "image": "images/DRo8DqWCiXB.jpg",
-  "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
+  "caption": "",
   "post_url": "https://www.instagram.com/hanaleytravel/p/DRo8DqWCiXB/",
   "username": "hanaleytravel",
   "profile_url": "https://www.instagram.com/hanaleytravel/",
@@ -1961,7 +1961,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/hanaleytravel/",
     "kind": "p",
     "image": "images/DRo8DqWCiXB.jpg",
-    "caption": "Longi, China 🌾🇨🇳\n\nConocido como el hogar de los arrozales más bonitos del mundo, este rincón del sur del país dibuja terrazas infinitas que cambian de color con cada estación.\n\nUn destino que te invitará a mirar despacio y apreciar la belleza de lo simple.🌱\n\n👉 Rellena el formulario en la BIO y empezamos a planear tu aventura en China 🌏\n\n#hanaleytravel #longi #china #destinos #travel #traveler",
+    "caption": "",
     "match": "single"
    },
    {
@@ -2089,7 +2089,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_2.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 2
    },
@@ -2355,7 +2355,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_3.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 3
    },
@@ -2457,7 +2457,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_7.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 7
    }
@@ -2569,7 +2569,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_6.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 6
    },
@@ -2710,7 +2710,7 @@ window.PLACES_CN = [
   "lng": 106.5891,
   "approx": true,
   "image": "images/DdiudFSEbF0_5.jpg",
-  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+  "caption": "",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=5",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -2721,7 +2721,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_5.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 5
    },
@@ -2752,7 +2752,7 @@ window.PLACES_CN = [
   "lng": 106.52597,
   "approx": false,
   "image": "images/DdiudFSEbF0_4.jpg",
-  "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+  "caption": "",
   "post_url": "https://www.instagram.com/dxj_chinatravel/p/DdiudFSEbF0/?img_index=4",
   "username": "dxj_chinatravel",
   "profile_url": "https://www.instagram.com/dxj_chinatravel/",
@@ -2763,7 +2763,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/dxj_chinatravel/",
     "kind": "p",
     "image": "images/DdiudFSEbF0_4.jpg",
-    "caption": "#重庆 #chongqing #chinatravel #chongqingtravel #chinatrip #travel #travelguide #fyp #Cyberpunk #NightShow #nightlights #fypシ #travelbucketlist #中国旅游 #風景 #ตั้งใจไปจีน #เที่ยวจีน",
+    "caption": "",
     "match": "slide",
     "slide": 4
    }
@@ -3481,9 +3481,9 @@ window.PLACES_CN = [
   "category": "Aussicht",
   "note": "Skyline abends, wenn alles beleuchtet ist. Zeitreihe von @ivanpkhc (Sonnenaufgang, Tag, Gewitter, Sonnenuntergang, Dämmerung, Nacht): immer derselbe Standpunkt am Bund-Ufer mit Tele über den Huangpu, Wasser mit Langzeitbelichtung geglättet. Research 28.10. (Wunsch „Fotoapparat“ als Foto-Standpunkte verstanden – eine Kamera-Skulptur am Bund gibt es laut Recherche nicht): Promenade (外滩观景平台) auf Höhe Nanjing Lu/Chen-Yi-Platz für die Skyline frontal mit 24–70 mm; Nordende am Volksheldendenkmal/Huangpu-Park für Pearl + Shanghai Tower gestaffelt; Seitenstraßen (z. B. Ostende von Fuzhou Lu/Guangdong Lu) rahmen den Pearl Tower zwischen den Fassaden (70–135 mm). Die Bund-Fassaden selbst (Zollhaus, HSBC) fotografiert man von der Pudong-Uferpromenade (Binjiang Ave) – abends angestrahlt, 70–200 mm. Morgens 6–7 Uhr Tai-Chi, Drachentanz und Jogger vor der Skyline (Gegenlicht). Luftbilder mit dem Denkmal von oben sind Drohnen-/Hotelaufnahmen – Drohnen am Bund verboten. Beleuchtung abends ca. bis 22 Uhr (Wochenende teils länger, nicht bestätigt). Tulpen-Bilder: nur im Frühjahr.",
   "address": "Huangpu, Shanghai",
-  "lat": 31.2402,
-  "lng": 121.4979,
-  "approx": false,
+  "lat": 31.24,
+  "lng": 121.4884,
+  "approx": true,
   "image": "images/Dd89Lyxk2hN_1.jpg",
   "caption": "Moving Frames from Shanghai 🇨🇳\n\nA city that keeps shifting between old streets, quiet corners and a skyline that never really disappears.\n\nFrom morning light along the Bund to slow walks through North Bund, RockBund and the streets in between — little fragments of Shanghai, in motion.\n\nSpots in frames:\n📍 Waibaidu Bridge 📍 North Bund Park 📍 RockBund 📍 Jiujiang Road 📍 1000 Trees 📍 The Bund, Shanghai\n\n#shanghai #shanghaitravel #shanghaistreet #shanghaichina #shanghaiphoto",
   "post_url": "https://www.instagram.com/minghan1004/p/Dd89Lyxk2hN/?img_index=1",
@@ -5886,7 +5886,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/city_news_service/",
     "kind": "p",
     "image": "images/DeOTnRWkggX_1.jpg",
-    "caption": "Another massive exhibition has arrived on the West Bund! 🌊🧱✨\n\nA giant LEGO ”Great Wave“ has officially landed at Tank Shanghai! Get ready to immerse yourself in thousands of LEGO bricks crafting iconic art and jaw-dropping sculptures.\n\n📍 TANK Shanghai (2380 Longteng Avenue, Xuhui District)\n📅 Oct 1–29, 2026\n\n#MakeitShanghai #acityforall #TheShanghaiAngle #LEGO #TankShanghai #WestBund #ShanghaiExhibition #SpottedInShanghai #AestheticShanghai #UrbanExploration #ShanghaiLife #ShanghaiGram",
+    "caption": "",
     "match": "slide",
     "slide": 1
    },
@@ -5916,7 +5916,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/city_news_service/",
     "kind": "p",
     "image": "images/DeOTnRWkggX_4.jpg",
-    "caption": "Another massive exhibition has arrived on the West Bund! 🌊🧱✨\n\nA giant LEGO ”Great Wave“ has officially landed at Tank Shanghai! Get ready to immerse yourself in thousands of LEGO bricks crafting iconic art and jaw-dropping sculptures.\n\n📍 TANK Shanghai (2380 Longteng Avenue, Xuhui District)\n📅 Oct 1–29, 2026\n\n#MakeitShanghai #acityforall #TheShanghaiAngle #LEGO #TankShanghai #WestBund #ShanghaiExhibition #SpottedInShanghai #AestheticShanghai #UrbanExploration #ShanghaiLife #ShanghaiGram",
+    "caption": "",
     "match": "slide",
     "slide": 4
    },
@@ -5936,7 +5936,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/city_news_service/",
     "kind": "p",
     "image": "images/DeOTnRWkggX_2.jpg",
-    "caption": "Another massive exhibition has arrived on the West Bund! 🌊🧱✨\n\nA giant LEGO ”Great Wave“ has officially landed at Tank Shanghai! Get ready to immerse yourself in thousands of LEGO bricks crafting iconic art and jaw-dropping sculptures.\n\n📍 TANK Shanghai (2380 Longteng Avenue, Xuhui District)\n📅 Oct 1–29, 2026\n\n#MakeitShanghai #acityforall #TheShanghaiAngle #LEGO #TankShanghai #WestBund #ShanghaiExhibition #SpottedInShanghai #AestheticShanghai #UrbanExploration #ShanghaiLife #ShanghaiGram",
+    "caption": "",
     "match": "slide",
     "slide": 2
    },
@@ -5946,7 +5946,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/city_news_service/",
     "kind": "p",
     "image": "images/DeOTnRWkggX_3.jpg",
-    "caption": "Another massive exhibition has arrived on the West Bund! 🌊🧱✨\n\nA giant LEGO ”Great Wave“ has officially landed at Tank Shanghai! Get ready to immerse yourself in thousands of LEGO bricks crafting iconic art and jaw-dropping sculptures.\n\n📍 TANK Shanghai (2380 Longteng Avenue, Xuhui District)\n📅 Oct 1–29, 2026\n\n#MakeitShanghai #acityforall #TheShanghaiAngle #LEGO #TankShanghai #WestBund #ShanghaiExhibition #SpottedInShanghai #AestheticShanghai #UrbanExploration #ShanghaiLife #ShanghaiGram",
+    "caption": "",
     "match": "slide",
     "slide": 3
    },
@@ -5956,7 +5956,7 @@ window.PLACES_CN = [
     "profile_url": "https://www.instagram.com/city_news_service/",
     "kind": "p",
     "image": "images/DeOTnRWkggX_5.jpg",
-    "caption": "Another massive exhibition has arrived on the West Bund! 🌊🧱✨\n\nA giant LEGO ”Great Wave“ has officially landed at Tank Shanghai! Get ready to immerse yourself in thousands of LEGO bricks crafting iconic art and jaw-dropping sculptures.\n\n📍 TANK Shanghai (2380 Longteng Avenue, Xuhui District)\n📅 Oct 1–29, 2026\n\n#MakeitShanghai #acityforall #TheShanghaiAngle #LEGO #TankShanghai #WestBund #ShanghaiExhibition #SpottedInShanghai #AestheticShanghai #UrbanExploration #ShanghaiLife #ShanghaiGram",
+    "caption": "",
     "match": "slide",
     "slide": 5
    },
@@ -13573,8 +13573,8 @@ window.PLACES_CN = [
   "category": "",
   "note": "Uferpromenade an der Dongdaming Road 东大名路 im North Bund (Hongkou): Blick über den Huangpu auf Pearl Tower, Shanghai Tower, Jin Mao und den Flaschenöffner, im Vordergrund Pflasterweg mit schwarzem Geländer und Bäumen. Zeigt Folie 9/18 in „My top 16 Favourite Spots to visit in Shanghai“ von @whereizhanhan (beschriftet „Dongdaming Rd“). Ruhiger als der Bund, wenig Gedränge.",
   "address": "Hongkou, Shanghai",
-  "lat": 31.2538,
-  "lng": 121.5052,
+  "lat": 31.2498,
+  "lng": 121.4932,
   "approx": true,
   "image": "images/sh_dongdaming_rd_whereizhanhan.jpg",
   "caption": "",
@@ -13593,7 +13593,7 @@ window.PLACES_CN = [
    }
   ],
   "source": "Instagram @whereizhanhan („My top 16 Favourite Spots to visit in Shanghai“, Folie 9/18)",
-  "unsure": "Pin aus Straßenname und Blickrichtung (Pearl rechts vom Shanghai Tower → Kamera nordöstlich) abgeleitet, auf ca. 300 m genau; die Straße hat mehrere Abschnitte – an der Uferpromenade zwischen Dongdaming Rd und Fluss suchen.",
+  "unsure": "Pin aus Straßenname und Perspektive abgeleitet (Pearl rechts vom Shanghai Tower, Jin Mao und Flaschenöffner links → Kamera nordwestlich vom Pearl Tower, am Westabschnitt der Dongdaming Rd bei 国际客运中心), auf ca. 300 m genau; an der Uferpromenade zwischen Straße und Fluss suchen.",
   "kind": "both",
   "image_page": "https://www.instagram.com/whereizhanhan/",
   "image_credit": "@whereizhanhan · Instagram",
@@ -13605,10 +13605,10 @@ window.PLACES_CN = [
   "name": "Pearl Tower Nahaufnahme 东方明珠 (Tele vom Bund, blaue Stunde)",
   "district": "Huangpu (Bund), Shanghai",
   "category": "",
-  "note": "Nahaufnahme der unteren Kugel und der schrägen Stützbeine des Oriental Pearl Tower (东方明珠) zur blauen Stunde, im Hintergrund Lujiazui-Türme; beschriftet „Lujiazui Financial Zone“, Folie 4/18 in „The most photogenic spots in and around Shanghai“ von @kerenza27. Die Sphäre ist von unten zu sehen, Füße und Ufer verdeckt Grün: Aufnahme auf Boden-Niveau mit sehr langem Tele von der Puxi-Seite des Huangpu, am ehesten von der Bund-Promenade gegenüber (ca. 0,9 km).",
+  "note": "Nahaufnahme der unteren Kugel und der schrägen Stützbeine des Oriental Pearl Tower (东方明珠) zur blauen Stunde, im Hintergrund Lujiazui-Türme; beschriftet „Lujiazui Financial Zone“, Folie 4/18 in „The most photogenic spots in and around Shanghai“ von @kerenza27. Die Sphäre ist von unten zu sehen, Füße und Ufer verdeckt Grün: Aufnahme auf Boden-Niveau mit sehr langem Tele von der Puxi-Seite des Huangpu, am ehesten von der Bund-Promenade gegenüber (ca. 0,6–0,7 km).",
   "address": "Huangpu (Bund), Shanghai",
   "lat": 31.2399,
-  "lng": 121.4908,
+  "lng": 121.4886,
   "approx": true,
   "image": "images/sh_pearl_tele_kerenza27.jpg",
   "caption": "",
@@ -13627,7 +13627,7 @@ window.PLACES_CN = [
    }
   ],
   "source": "Instagram @kerenza27 („The most photogenic spots in and around Shanghai“, Folie 4/18)",
-  "unsure": "Pin = Bund-Promenade gegenüber dem Pearl Tower (Chen-Yi-Platz), aus Perspektive und Entfernung abgeleitet; der genaue Standpunkt ist nicht bekannt (Karussell nennt nur „Lujiazui Financial Zone“). Zum Vergleich: bestehender Spot Oriental Pearl Tower mit Nahaufnahme von erhöhtem Standpunkt (VUE Bar).",
+  "unsure": "Pin = Bund-Promenade gegenüber dem Pearl Tower (auf Höhe Chen-Yi-Platz, nach OpenStreetMap geprüft), aus Perspektive und Entfernung abgeleitet; der genaue Standpunkt ist nicht bekannt (Karussell nennt nur „Lujiazui Financial Zone“). Zum Vergleich: bestehender Spot Oriental Pearl Tower mit Nahaufnahme von erhöhtem Standpunkt (VUE Bar).",
   "kind": "photo",
   "image_page": "https://www.instagram.com/kerenza27/",
   "image_credit": "@kerenza27 · Instagram",
@@ -13726,7 +13726,7 @@ window.UNPLACED_CN = [
   "profile_url": "https://www.instagram.com/abeastinside/",
   "kind": "p",
   "image": "images/C0rHQXRJ7QJ.jpg",
-  "caption": "Guiyang's unique brochette Building\n.\n.\n.\n#hellofrom #Chongqing\n#igtones #visualgrams#streetgrammers #streetclassics#streetphotography #fatalframes#way2ill #electric_shotz#tonekillers #agameoftones#heatercentral #streetmobs#compositionkillerz#visualambassadors#eclectic_shotz #citykillerz#clickcity#streets_vision#kill3rtones#filmtronic#thedarkpr0ject#nocturnal_visionaries#thestreetpr0ject#abeastinside\nView all comments",
+  "caption": "Guiyang's unique brochette Building\n.\n.\n.\n#hellofrom #Chongqing \n#igtones #visualgrams#streetgrammers #streetclassics#streetphotography #fatalframes#way2ill #electric_shotz#tonekillers #agameoftones#heatercentral #streetmobs#compositionkillerz#visualambassadors#eclectic_shotz #citykillerz#clickcity#streets_vision#kill3rtones#filmtronic#thedarkpr0ject#nocturnal_visionaries#thestreetpr0ject#abeastinside",
   "region": "cn",
   "sub": "cnx"
  }
