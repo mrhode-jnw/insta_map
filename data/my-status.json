@@ -797,7 +797,8 @@
   "prio": "gering"
  },
  "cn-shanghai-postal-museum": {
-  "prio": "mittel"
+  "prio": "hoch",
+  "fav": true
  },
  "cn-yu-garden": {
   "prio": "gering"
