@@ -742,16 +742,6 @@
  },
  {
   "kind": "research",
-  "id": "res:cn-shanghai-greenhouse-garden-expo-culture-park:mvrmvwr9",
-  "spot": "cn-shanghai-greenhouse-garden-expo-culture-park",
-  "spotName": "Shanghai Greenhouse Garden 上海温室花园 (Expo Culture Park)",
-  "lat": 31.18026,
-  "lng": 121.470403,
-  "wish": "Fotos",
-  "added": "2026-10-28T04:48:09.621Z"
- },
- {
-  "kind": "research",
   "id": "res:cn-fosun-foundation:mvrn4x39",
   "spot": "cn-fosun-foundation",
   "spotName": "Fosun Foundation 复星艺术中心",
@@ -818,5 +808,15 @@
   "url": "https://www.smartshanghai.com/venue/17948/doe_xintiandi",
   "kind_spot": "sight",
   "added": "2026-10-28T16:22:05.881Z"
+ },
+ {
+  "kind": "research",
+  "id": "res:cn-shanghai-greenhouse-garden-expo-culture-park:mvt4wyzn",
+  "spot": "cn-shanghai-greenhouse-garden-expo-culture-park",
+  "spotName": "Shanghai Greenhouse Garden 上海温室花园 (Expo Culture Park)",
+  "lat": 31.18026,
+  "lng": 121.470403,
+  "wish": "Öffnungszeiten",
+  "added": "2026-10-29T06:00:38.435Z"
  }
 ]
