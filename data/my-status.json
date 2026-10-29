@@ -880,5 +880,9 @@
  "cn-zhang-yuan": {
   "kind": "both",
   "prio": "gering"
+ },
+ "cn-jing-an-park-lichtkunst-park": {
+  "prio": "nein",
+  "hidden": true
  }
 }
