@@ -878,7 +878,8 @@
   "prio": "hoch"
  },
  "claude-cn-lujiazui-circular-footbridge": {
-  "kind": "photo"
+  "kind": "photo",
+  "prio": "gering"
  },
  "cn-flair-rooftop-ritz-carlton-pudong-58": {
   "kind": "photo"
