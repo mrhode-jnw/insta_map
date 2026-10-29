@@ -516,7 +516,8 @@
   "prio": "hoch"
  },
  "cn-rockbund": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "done": true
  },
  "cn-jiulong-road-waterfront": {
   "prio": "mittel"
