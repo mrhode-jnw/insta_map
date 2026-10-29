@@ -878,6 +878,7 @@
   "kind": "photo"
  },
  "cn-zhang-yuan": {
-  "kind": "both"
+  "kind": "both",
+  "prio": "gering"
  }
 }
