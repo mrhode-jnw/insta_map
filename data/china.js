@@ -13716,6 +13716,76 @@ window.PLACES_CN = [
   "source": "https://www.smartshanghai.com/venue/17948/doe_xintiandi",
   "kind": "sight",
   "when": "day"
+ },
+ {
+  "id": "cn-qiantanhui-rote-spirale-qiantan",
+  "region": "cn",
+  "name": "Qiantanhui 前滩汇 – rote Spirale (Qiantan)",
+  "district": "Qiantan, Pudong, Shanghai",
+  "category": "",
+  "note": "Auffällige rote Spiralstruktur (Rampe/Treppe) in Qiantan: „Pure lines, bold in red“. Laut Post von @victor_zhuo am Standort „前滩汇 (Qiantanhui)“, Pudong. Aufgenommen mit 10 mm Ultraweitwinkel von unten gegen den Himmel; oben steht oft eine Person als Größenvergleich.",
+  "address": "Qiantan, Pudong, Shanghai",
+  "lat": 31.155,
+  "lng": 121.477,
+  "approx": true,
+  "image": "images/Dc00ArsD4U0_2.jpg",
+  "caption": "",
+  "post_url": "",
+  "username": "",
+  "profile_url": "",
+  "posts": [
+   {
+    "url": "https://www.instagram.com/p/Dc00ArsD4U0/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/Dc00ArsD4U0/",
+    "kind": "photo",
+    "image": "images/Dc00ArsD4U0_2.jpg",
+    "caption": "",
+    "credit": "@victor_zhuo · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/p/Dc00ArsD4U0/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/Dc00ArsD4U0/",
+    "kind": "photo",
+    "image": "images/Dc00ArsD4U0_3.jpg",
+    "caption": "",
+    "credit": "@victor_zhuo · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/p/Dc00ArsD4U0/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/Dc00ArsD4U0/",
+    "kind": "photo",
+    "image": "images/Dc00ArsD4U0_4.jpg",
+    "caption": "",
+    "credit": "@victor_zhuo · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/p/Dc00ArsD4U0/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/Dc00ArsD4U0/",
+    "kind": "photo",
+    "image": "images/Dc00ArsD4U0_5.jpg",
+    "caption": "",
+    "credit": "@victor_zhuo · Instagram"
+   },
+   {
+    "url": "https://www.instagram.com/p/Dc00ArsD4U0/",
+    "username": "",
+    "profile_url": "https://www.instagram.com/p/Dc00ArsD4U0/",
+    "kind": "photo",
+    "image": "images/Dc00ArsD4U0_1.jpg",
+    "caption": "",
+    "credit": "@victor_zhuo · Instagram"
+   }
+  ],
+  "source": "https://www.instagram.com/p/Dc00ArsD4U0/",
+  "unsure": "Pin ungefähr: das genaue Bauwerk ist in OSM/Karten nicht als „前滩汇“ verzeichnet – gesetzt auf das Zentrum von Qiantan (Taikoo Li Qiantan, ca. 31.155, 121.477). Vor Ort in Amap nach „前滩汇“ suchen.",
+  "kind": "photo",
+  "image_page": "https://www.instagram.com/p/Dc00ArsD4U0/",
+  "image_credit": "@victor_zhuo · Instagram",
+  "when": "night"
  }
 ];
 window.UNPLACED_CN = [
