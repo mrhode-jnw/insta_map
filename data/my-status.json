@@ -877,7 +877,8 @@
  "claude-cn-zhapu-road-bridge-suzhou-creek": {
   "kind": "photo",
   "fav": true,
-  "prio": "hoch"
+  "prio": "hoch",
+  "done": true
  },
  "claude-cn-lujiazui-circular-footbridge": {
   "kind": "photo",
