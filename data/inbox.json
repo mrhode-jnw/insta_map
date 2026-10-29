@@ -818,5 +818,15 @@
   "lng": 121.470403,
   "wish": "Öffnungszeiten",
   "added": "2026-10-29T06:00:38.435Z"
+ },
+ {
+  "kind": "research",
+  "id": "res:cn-power-station-of-art:mvt53c9t",
+  "spot": "cn-power-station-of-art",
+  "spotName": "Power Station of Art 上海当代艺术博物馆",
+  "lat": 31.203059,
+  "lng": 121.493897,
+  "wish": "Öffnungszeiten",
+  "added": "2026-10-29T06:05:35.585Z"
  }
 ]
