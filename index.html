@@ -3425,7 +3425,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "138 · „Auf der Karte“: kleine Foto-Vorschau am Pin";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "139 · Cover bleibt nach dem Neuladen erhalten";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -4406,9 +4406,11 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     if (!d) { try { d = await rawJson(EXTRAS_PATH, null); } catch (e) { console.warn("Spot-Extras (raw):", e); } }
     if (!d) { if (++extrasTry < 6) setTimeout(loadExtras, 5000 * extrasTry); return; }
     extrasTry = 0;
-    const old = Object.keys(spotExtras);
+    const old = [...Object.keys(spotExtras), ...Object.keys(spotExtras.__cover || {})];
     spotExtras = typeof d === "object" && !Array.isArray(d) ? d : {};
-    [...new Set([...old, ...Object.keys(spotExtras)])].forEach(applyExtras);
+    // Cover stehen unter „__cover“ (Spot-ID → Bild): auch Spots ohne eigene Fotos/Links müssen neu angewendet werden, sonst springt das Cover beim Laden zurück
+    [...new Set([...old, ...Object.keys(spotExtras), ...Object.keys(spotExtras.__cover || {})])].forEach(applyExtras);
+    if (typeof renderList === "function") renderList();
   }
   // zurück in die App → eigene Fotos neu laden (z.B. von einem anderen Gerät hochgeladen)
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") loadExtras(); });
