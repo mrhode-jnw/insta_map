@@ -902,7 +902,8 @@
  },
  "cn-pearl-tower-nahaufnahme-tele-vom-bund-blaue-stun": {
   "fav": true,
-  "prio": "hoch"
+  "prio": "hoch",
+  "done": true
  },
  "cn-hanyang-road-old-shop-signs": {
   "prio": "gering"
