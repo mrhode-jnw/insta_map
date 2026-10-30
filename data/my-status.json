@@ -854,7 +854,8 @@
  },
  "cn-carlowitz-building": {
   "prio": "hoch",
-  "fav": true
+  "fav": true,
+  "done": true
  },
  "cn-cathay-cinema": {
   "prio": "gering"
