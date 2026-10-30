@@ -497,7 +497,8 @@
  },
  "cn-shanghai-grand-opera": {
   "fav": true,
-  "prio": "hoch"
+  "prio": "hoch",
+  "done": true
  },
  "cn-waibaidu-bridge-suzhou-creek": {
   "fav": true,
