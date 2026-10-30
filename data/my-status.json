@@ -621,7 +621,8 @@
  "idea-sh-bundmorgen": {
   "fav": true,
   "prio": "hoch",
-  "kind": "both"
+  "kind": "both",
+  "done": true
  },
  "idea-sh-wukang": {
   "fav": true,
