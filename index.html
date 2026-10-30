@@ -1498,6 +1498,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   let sheetSnap = "peek";
   let status = {};  // id -> { prio: "hoch"|"mittel"|"gering", done: true, fav: true, hidden: true (gelöscht) } – aus data/my-status.json
   const st = id => status[id] || {};
+  // Eine favorisierte Fotoidee ist kein „Idee“ mehr, sondern ein normaler Spot (Favorit entfernen → wieder Idee)
+  const isIdea = p => !!p.idea && !st(p.id).fav;
   const PRIOS = ["hoch", "mittel", "gering", "nein"];
   const PRIO_LABEL = { hoch: "Hoch", mittel: "Mittel", gering: "Gering", nein: "Kein Interesse" };  // „nein“ = standardmäßig ausgeblendet
 
@@ -1537,9 +1539,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return best;
   }
   function spotIdeasHtml(p) {
-    if (p.idea) return "";
-    const ids = places.filter(q => q.idea && st(q.id).fav && ideaHome(q) === p);
-    if (!ids.length) return "";
+    return "";  // favorisierte Ideen sind jetzt eigene Spots
+    const ids = [];
     return `<div class="sideas"><div class="tl">✷ Deine Fotoideen hier</div>${ids.map(q => `<button class="sidea" data-openidea="${esc(q.id)}">${q.image ? `<img src="${esc(q.image)}" alt="" loading="lazy">` : ""}<span><b>${esc(q.name)}</b><small>${esc((q.tip || q.note || "").slice(0, 140))}${(q.tip || q.note || "").length > 140 ? " …" : ""}</small></span></button>`).join("")}</div>`;
   }
   function popupHtml(p) {
@@ -1576,7 +1577,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       <div class="b">
         ${PLAN_AT[p.id] ? `<div class="kick">★ ${esc(PLAN_AT[p.id].long)}</div>` : ""}
         <h3>${esc(p.name)}</h3>
-        <div class="mline">${p.idea ? `<span class="mtag cl" style="background:#f59e0b;color:#fff" title="Ungewöhnliche Foto-Idee – von Claude recherchiert">✷ Fotoidee</span>` : ""}${p.rain ? `<span class="mtag" style="background:#0ea5e9;color:#fff" title="Funktioniert gut bei Regen">🌧 Regen</span>` : ""}${p.by_claude ? `<span class="mtag cl" title="Nicht aus deiner Sammlung – von Claude als beliebter Spot ergänzt">✦ Claude-Tipp</span>` : ""}${p.mine ? `<span class="mtag">★ Eigener Spot</span>` : ""}${
+        <div class="mline">${isIdea(p) ? `<span class="mtag cl" style="background:#f59e0b;color:#fff" title="Ungewöhnliche Foto-Idee – von Claude recherchiert">✷ Fotoidee</span>` : ""}${p.rain ? `<span class="mtag" style="background:#0ea5e9;color:#fff" title="Funktioniert gut bei Regen">🌧 Regen</span>` : ""}${p.by_claude ? `<span class="mtag cl" title="Nicht aus deiner Sammlung – von Claude als beliebter Spot ergänzt">✦ Claude-Tipp</span>` : ""}${p.mine ? `<span class="mtag">★ Eigener Spot</span>` : ""}${
           [p.district, WHEN_LABEL[p.when] || "", routeLabel(p), p.pop ? `🔥 ${p.pop}/5` : "", here() ? `📍 ${fmt(dist(me, p))}` : ""].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join(" ")}</div>
         ${lightBox(p)}
         ${fcHtml(p.id, null, true) || areaWx(p)}
@@ -1710,7 +1711,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     return cells.length ? `<div class="lightB">${cells.map((c, i) => `<div${i ? "" : ' class="pk"'}><small>${esc(c[0])}</small><b>${esc(c[1])}</b></div>`).join("")}</div>` : "";
   }
   function iconFor(p) {
-    const s = st(p.id), cls = ["pin", PLAN_AT[p.id] ? "plan" : "", p.unsure ? "unsure" : "", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", p.idea ? "idea" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : "", s.fav ? "fav" : ""].join(" ");
+    const s = st(p.id), cls = ["pin", PLAN_AT[p.id] ? "plan" : "", p.unsure ? "unsure" : "", p.mine && !p.image ? "mine" : "", p.by_claude ? "claude" : "", isIdea(p) ? "idea" : "", s.prio ? "p-" + s.prio : "", s.done ? "done" : "", s.fav ? "fav" : ""].join(" ");
     const fb = s.fav ? '<i class="favb">❤</i>' : "";
     const ub = (p.unsure ? '<i class="unsb" title="Standort nicht 100 % gesichert">?</i>' : "") + (PLAN_AT[p.id] ? `<span class="ptag">${esc(PLAN_AT[p.id].short)}</span>` : "");
     return L.divIcon({
@@ -2049,7 +2050,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const naturalKind = p => p.kind === "sight" || p.kind === "both" ? p.kind : (p.by_claude || p.category === "Food") ? "sight" : "photo";
   const kindOf = p => st(p.id).kind || naturalKind(p);
   const inFotos = p => kindOf(p) !== "sight", inSights = p => kindOf(p) !== "photo";
-  const GROUPS = { fotos: p => !p.idea && inFotos(p), sights: p => !p.idea && inSights(p) };
+  const GROUPS = { fotos: p => !isIdea(p) && inFotos(p), sights: p => !isIdea(p) && inSights(p) };
   // Fotos / Food / Tipps frei kombinierbar (Mehrfachauswahl, wird gemerkt); nichts gewählt = alles
   let groups = new Set(["fotos"]);
   try { const g = JSON.parse(localStorage.getItem("groups") || "null");  // alte Bereiche Tipps/Food → Erlebnisse, Ideen → Filter unten
@@ -2065,7 +2066,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   const saveGroups = () => { try { localStorage.setItem("groups", JSON.stringify([...groups])); } catch {} };
   // Fotoideen folgen der Auswahl oben: nur Erlebnisse gewählt → nur Ideen, die als Erlebnis eingeordnet sind (und umgekehrt)
   const kindOK = p => !groups.size || [...groups].some(g => g === "sights" ? inSights(p) : inFotos(p));
-  const inGroups = p => p.idea ? ideasOn && kindOK(p) : !ideasOnly && kindOK(p);
+  const inGroups = p => isIdea(p) ? ideasOn && kindOK(p) : !ideasOnly && kindOK(p);
   // Bereich oben links: 🧭 Route (nur Spots an unserer Route) oder frei kombinierbare Regionen der Reise (Mehrfachauswahl)
   const regionOf = p => p.region || (p.lat > 22.15 && p.lat < 22.57 && p.lng > 113.82 && p.lng < 114.45 ? "hk" : "cn");
   const SUBS = [["hk", "🇭🇰 Hongkong"], ["sz", "Shenzhen"], ["gl", "Guilin · Yangshuo · Longji"], ["gz", "Guizhou · Fenghuang"],
@@ -2112,7 +2113,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
   function showWhere() {
     $("#whereLbl").textContent = whereLabel();
     $("#group").querySelectorAll("[data-g=sights]").forEach(x => x.hidden = !places.some(p => inScope(p) && GROUPS.sights(p)));
-    { const b = $("#fIdeas"); if (b) b.hidden = !places.some(p => p.idea && inScope(p)); }
+    { const b = $("#fIdeas"); if (b) b.hidden = !places.some(p => isIdea(p) && inScope(p)); }
   }
   function setWhere(route, newRegs, fit = true) {
     routeF = route; if (newRegs) regs = new Set(newRegs);
@@ -3425,7 +3426,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "142 · Sonnenstern auf dem Shanghai Tower vom Bund berechnet";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "143 · Favorisierte Fotoideen sind jetzt normale Spots";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3621,7 +3622,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     syncMarkers(items);
     if (inView) { const vb = visibleBounds(); items = items.filter(p => inArea(p, vb)); }
     // favorisierte Fotoideen immer ganz oben
-    const favIdea = p => p.idea && st(p.id).fav ? 1 : 0;
+    const favIdea = () => 0;  // favorisierte Ideen sind normale Spots
     items = items.map(p => ({ ...p, _d: here() ? dist(me, p) : 0, _a: areaOf(p) }))
       .sort((a, b) => favIdea(b) - favIdea(a) || (sortBy === "area" ? a._a.localeCompare(b._a, "de") || (routeF ? routeStop(a) - routeStop(b) : 0) || (b.pop || 0) - (a.pop || 0)
         : tourF ? activeTourIds().indexOf(a.id) - activeTourIds().indexOf(b.id)
@@ -3641,7 +3642,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
     $("#list").classList.toggle("grid", view === "grid");
     const filtered = ideasOn || favF || trashF || rainF || tourF || areaF || (groups.size && !(groups.size === 1 && groups.has("fotos"))) || popF || routeF || inView || cat || prioF.size || doneF || $("#search").value.trim();
     const badges = p => { const s = st(p.id);
-      return `${p.rain ? `<span title="Gut bei Regen">🌧 </span>` : ""}${s.fav && !p.idea ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
+      return `${p.rain ? `<span title="Gut bei Regen">🌧 </span>` : ""}${s.fav && !isIdea(p) ? `<span class="fav-badge">❤ </span>` : ""}${s.prio ? `<span class="prio-dot ${s.prio}"></span>` : ""}${s.done ? `<span class="done-badge">✓ </span>` : ""}`; };
     // Bei „Sortierung: Viertel“ Zwischenüberschriften je Viertel
     const head = (p, i) => sortBy === "area" && (i === 0 || items[i - 1]._a !== p._a)
       ? `<li class="sec areahead">${esc(p._a)} <small>(${items.filter(x => x._a === p._a).length})</small></li>` : "";
@@ -3655,8 +3656,8 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       setList(noloc + (items.length ? items.map((p, i) => { const s = st(p.id); return `${head(p, i)}
         <li class="gi${s.done ? " done" : ""}" data-id="${esc(p.id)}">
           ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : ""}${sleepBadge(p)}
-          <div class="badge">${s.fav && !p.idea ? "<span class=\"fav-badge\">❤</span>" : ""}${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
-          ${p.idea ? `<button class="ifav g${st(p.id).fav ? " on" : ""}" data-ifav="${esc(p.id)}" aria-label="Fotoidee favorisieren">${st(p.id).fav ? "❤" : "♡"}</button><button class="irej g" data-irej="${esc(p.id)}" aria-label="Fotoidee ablehnen">✕</button>` : ""}
+          <div class="badge">${s.fav && !isIdea(p) ? "<span class=\"fav-badge\">❤</span>" : ""}${s.prio ? `<span><span class="prio-dot ${s.prio}"></span>${PRIO_LABEL[s.prio]}</span>` : ""}${s.done ? "<span>✓</span>" : ""}</div>
+          ${isIdea(p) ? `<button class="ifav g${st(p.id).fav ? " on" : ""}" data-ifav="${esc(p.id)}" aria-label="Fotoidee favorisieren">${st(p.id).fav ? "❤" : "♡"}</button><button class="irej g" data-irej="${esc(p.id)}" aria-label="Fotoidee ablehnen">✕</button>` : ""}
           <div class="cap2">${p.by_claude ? `<span class="ct">✦ </span>` : ""}${p.mine ? "★ " : ""}${esc(p.name)}<small>${esc([p.pop ? "🔥" + p.pop : ""].filter(Boolean).join(" · "))}${here() ? ` · <span class="dist">${fmt(p._d)}</span>` : ""}</small></div>
         </li>`; }).join("") : noloc ? "" : `<li id="empty">Keine Treffer.</li>`));
       return;
@@ -3667,7 +3668,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
         <div style="min-width:0"><div class="t">${badges(p)}${esc(p.name)}</div>
           ${(p.category || p.district) ? `<div class="tag">${p.by_claude ? `<span class="ct">✦ Claude-Tipp · </span>` : ""}${p.mine ? "★ " : ""}${(sortBy === "new" || sortBy === "upd") && addedLbl(p, sortBy === "upd" ? 1 : 0) ? `<span class="new">${addedLbl(p, sortBy === "upd" ? 1 : 0)}</span> · ` : ""}${esc([p.district, routeF ? routeLabel(p) : ""].filter(Boolean).join(" · "))}${p.posts && p.posts.length > 1 ? ` · ${p.posts.length} Posts` : ""}${p.pop ? ` · 🔥${p.pop}` : ""}</div>` : `<div class="s">${esc(p.address)}</div>`}</div>
         ${here() ? `<div class="d"><span class="dist">${fmt(p._d)}</span></div>` : ""}
-        ${p.idea ? `<button class="ifav${st(p.id).fav ? " on" : ""}" data-ifav="${esc(p.id)}" aria-label="Fotoidee favorisieren" title="Favorit – wird oben angezeigt">${st(p.id).fav ? "❤" : "♡"}</button><button class="irej" data-irej="${esc(p.id)}" aria-label="Fotoidee ablehnen" title="Ablehnen – wird ausgeblendet">✕</button>` : ""}
+        ${isIdea(p) ? `<button class="ifav${st(p.id).fav ? " on" : ""}" data-ifav="${esc(p.id)}" aria-label="Fotoidee favorisieren" title="Favorit – wird oben angezeigt">${st(p.id).fav ? "❤" : "♡"}</button><button class="irej" data-irej="${esc(p.id)}" aria-label="Fotoidee ablehnen" title="Ablehnen – wird ausgeblendet">✕</button>` : ""}
       </li>`).join("")
       : noloc ? "" : `<li id="empty">${places.length ? "Keine Treffer." : "Noch keine Orte – siehe README (tools/build_places.py)."}</li>`));
   }
@@ -3701,7 +3702,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       toast(was ? "Idee wiederhergestellt ✓" : "✕ Idee abgelehnt – wiederherstellbar unter „🗑 Gelöscht“", 2500); return; }
     const fv = e.target.closest("[data-ifav]");
     if (fv) { e.preventDefault(); e.stopPropagation(); const id = fv.dataset.ifav, v = !st(id).fav;
-      setStatus(id, v && st(id).prio !== "hoch" ? { fav: v, prio: "hoch" } : { fav: v }); toast(v ? "❤ Fotoidee gemerkt – steht jetzt oben" : "Favorit entfernt", 1500); return; }
+      setStatus(id, v && st(id).prio !== "hoch" ? { fav: v, prio: "hoch" } : { fav: v }); toast(v ? "❤ Als Foto-Spot übernommen" : "Favorit entfernt", 1500); return; }
     const nl = e.target.closest("[data-nl]");
     if (nl) {  // Post ohne Ort: Pin in der Region zeigen und öffnen
       e.preventDefault(); const p = places.find(x => x.id === nl.dataset.nl); if (!p) return;
