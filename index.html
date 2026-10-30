@@ -3425,7 +3425,7 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       ["hotels", "Unsere Hotels auf der Karte", [[true, "Zeigen"], [false, "Ausblenden"]], ""]]],
   ];
   const setVal = k => (window.SETTINGS[k] ?? SET_DEF[k]);
-  const APP_VER = "139 · Cover bleibt nach dem Neuladen erhalten";  // bei jeder Änderung mit sw.js CORE hochzählen
+  const APP_VER = "140 · Standort-Knopf zentriert immer auf deinen Standort";  // bei jeder Änderung mit sw.js CORE hochzählen
   function renderSettings() {
     $("#setBody").innerHTML = SETS.map(([g, rows]) => `<div class="sgrp">${g}</div><div class="scard">${rows.map(([k, label, opts, hint]) =>
       `<div class="srow"><b>${label}</b><div class="seg2">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${String(setVal(k)) === String(v) ? "on" : ""}">${t}</button>`).join("")}</div>${hint ? `<small>${hint}</small>` : ""}</div>`).join("")}</div>`).join("")
@@ -3956,9 +3956,9 @@ function startApp(unlockedKey, accessCode, ghTokenFromConfig) {
       return;
     }
     startWatch();
-    follow = !follow; $("#locate").classList.toggle("follow", follow);
+    const wasFollow = follow; follow = true; $("#locate").classList.add("follow");  // Tippen zentiert immer; Verschieben der Karte beendet das Folgen
     centerVisible([me.lat, me.lng], Math.max(map.getZoom(), 16));
-    toast(follow ? "Karte folgt deinem Standort" : "Folgen aus");
+    if (!wasFollow) toast("Karte folgt deinem Standort");
   });
   map.on("dragstart", () => { if (follow) { follow = false; $("#locate").classList.remove("follow"); } });
 
