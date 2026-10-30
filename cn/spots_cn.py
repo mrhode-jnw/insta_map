@@ -63,6 +63,7 @@ POSTS = {
  106: ("chinamoderne", "p", "DT2nf_XCVNW"),
  108: ("t_yaosheng", "p", "DKt8QXrzdqw"),
  109: ("hungryytumm", "reel", "DShSvAEEmbm"),
+ 110: ("shanghaieye", "p", "DfE0CxTPguf"),
  107: ("ivanpkhc", "p", "DTF6smaj5L0"),
 }
 
@@ -207,7 +208,7 @@ SPOTS = [
  ("The Shanghai EDITION 艾迪逊酒店", 31.239612, 121.481407, False, "Huangpu, Shanghai", "Aussicht",
   [(43, 9)], "Restaurant mit Fensterblick auf Lujiazui."),
  ("Nanjing Road 南京路步行街", 31.237684, 121.475302, True, "Huangpu, Shanghai", "Neon",
-  [(46, 5), 44], "Berühmteste Einkaufsstraße Chinas, abends beleuchtet."),
+  [(46, 5), 44, 110], "Berühmteste Einkaufsstraße Chinas, abends beleuchtet. Morgens anders: Am östlichen Ende der Nanjing Road East (zwischen Sichuan Lu und Bund, Peace Hotel links) steht der Pearl Tower genau in der Straßenachse – bei Dunst/Sonnenaufgang als Silhouette, menschenleer vor ca. 7 Uhr (@shanghaieye). 70–135 mm von der Straßenmitte der Fußgängerzone."),
  ("Carlowitz Building 礼和洋行", 31.239142, 121.482069, False, "Huangpu, Shanghai", "Street",
   [(46, 8)], "Backsteinbau hinter dem Edition Hotel – Durchblick zum Oriental Pearl Tower."),
  ("Shanghai Postal Museum 上海邮政博物馆", 31.246407, 121.480755, False, "Hongkou, Shanghai", "Architektur",
