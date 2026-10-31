@@ -266,8 +266,8 @@ SPOTS = [
   [(106, 11)], "Museum für zeitgenössische Kunst im ehemaligen Kraftwerk mit Thermometer-Schlot am Huangpu; große Hallen mit Rolltreppen, im Foto eine goldene Ginkgo-Installation von der Rolltreppe aus. Di–So, Eintritt je nach Ausstellung. Research 29.10. (Öffnungszeiten): Di–So 11–19 Uhr, letzter Einlass 18 Uhr, montags geschlossen (außer Feiertage) laut Museumsführer des Stadtportals (2025). Eintritt je nach Ausstellung, teils frei – aktuelle Schau und Ticket im WeChat-Konto „上海当代艺术博物馆“ prüfen. Achtung: öffnet erst um 11 Uhr."),
  ("Guangfulin Ancient Relics Park 广富林文化遗址", 31.064487, 121.194101, False, "Songjiang, Shanghai", "",
   [(106, 12)], "Kulturpark über einer neolithischen Fundstätte mit Hui-Stil-Häusern (weiße Wände, Pferdekopfgiebel) und Wasserbecken – teils unter Wasser gebaute Museumshallen. Spiegelungen bei Windstille, gelbe Wand im Abendlicht. Ca. 1 Std. vom Zentrum, Metro 9 Songjiang Univ. Town + Taxi."),
- ("Hanyang Road Old Shop Signs 汉阳路", 31.251005, 121.486721, False, "Hongkou (North Bund), Shanghai", "",
-  [(108, 4), (108, 3), (108, 6), (108, 8), (108, 1), (108, 2), (108, 5), (108, 7)], "Kurzes Straßenstück mit alten Ladenschildern, Rollgittern, roten Laternen und beschrifteten Mauern vor den North-Bund-Hochhäusern – Koordinate vom Fotografen (@t_yaosheng, Winter 2024), laut OSM an der Hanyang Lu 汉阳路. Wirkt wie eine Film-/Serienkulisse; ob die Schilder noch hängen, ist nicht bestätigt. 23–56 mm, vormittags im weichen Licht; liegt 3 Min. von Jiulong Road und North Bund."),
+ ("Zhapu Road Old Shop Signs 乍浦路 (Shengli Cinema)", 31.252975, 121.48224, True, "Hongkou (North Bund), Shanghai", "",
+  [(108, 4), (108, 3), (108, 6), (108, 8), (108, 1), (108, 2), (108, 5), (108, 7)], "Kurzes Straßenstück mit alten Ladenschildern, Rollgittern, roten Laternen und beschrifteten Mauern vor den North-Bund-Hochhäusern (@t_yaosheng, Winter 2024). Ort korrigiert 30.10.: Der Fotograf gibt 31.2510050, 121.4867205 an – das ist ein GCJ-02-Wert (chinesisches Kartensystem) und liegt in WGS84 umgerechnet bei 31.2530, 121.4822, an der Zhapu Lu 乍浦路 neben dem Shengli Cinema 胜利电影院 (nicht an der Hanyang Lu, wo der alte Pin an modernen Bauten lag). Dort stand die Kulisse des Films „酱园弄“ (Zhapu Lu 408); Berichten zufolge wurde sie nach den Dreharbeiten teilweise abgebaut – ob die Schilder und Wandschriften heute noch zu sehen sind, ist nicht bestätigt. 23–56 mm, vormittags im weichen Licht; 3 Min. vom North Bund."),
 ]
 
 # Beliebtheit 1–5 (5 = Wahrzeichen, 4 = in vielen Guides, 3 = bei Fotografen bekannt)
@@ -334,7 +334,7 @@ POP = {
  "LVWA": (2, 'Architektur-Buchhandlung, in Fachmedien bekannt'),
  "Power Station": (4, 'Bekanntes Kunstmuseum im alten Kraftwerk'),
  "Guangfulin": (3, 'Kulturpark in Songjiang, beliebt für Spiegelbilder'),
- "Hanyang Road": (2, 'Nostalgie-Gasse, vereinzelt in Social Media'),
+ "Zhapu Road": (2, 'Nostalgie-Gasse, vereinzelt in Social Media'),
  "Luohan": (3, "Historischer Stadttempel, in vielen Chongqing-Guides"),
  "Chaodong": (2, "Alltagsstraße, kaum in Reiseführern"),
  "Nanbin": (4, "Bekannte Uferpromenade mit Nachtblick"),
