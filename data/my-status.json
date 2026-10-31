@@ -841,7 +841,8 @@
   "prio": "gering"
  },
  "cn-shanghai-juss-international-equestrian-center": {
-  "prio": "mittel"
+  "prio": "mittel",
+  "done": true
  },
  "cn-xintiandi": {
   "kind": "sight"
