@@ -832,7 +832,8 @@
  },
  "cn-fosun-foundation": {
   "fav": true,
-  "prio": "hoch"
+  "prio": "hoch",
+  "done": true
  },
  "cn-ecepdi-building": {
   "prio": "mittel"
